@@ -80,14 +80,6 @@ $games = array(
 		'Indiana Jones 4 and the Fate of Atlantis'		=> array('5','atlantis','95'),
 		'Indiana Jones 4 and the Fate of Atlantis (FmTowns)'	=> array('5','indy4','95'),
 		'Indiana Jones 4 and the Fate of Atlantis (Demo)'	=> array('5','playfate','95'),
-		'Putt-Putt Joins The Parade (Demo)'			=> array('6','puttdemo','95'),
-		'Putt-Putt Joins The Parade'				=> array('6','puttputt','85'),
-		'Putt-Putt Goes To The Moon ( Demo)'			=> array('6','moondemo','95'),
-		'Putt-Putt Goes To The Moon'				=> array('6','puttmoon','85'),
-		'Putt-Putts Fun Pack'					=> array('6','funpack','95'),
-		'Fatty Bears Birthday Surprise (Demo)'			=> array('6','fbdemo','95'),
-		'Fatty Bears Birthday Surprise'				=> array('6','fbear','80'),
-		'Fatty Bears Fun Pack'					=> array('6','fbpack','95'),
 		'Day Of The Tentacle'					=> array('6','tentacle','95'),
 		'Day Of The Tentacle (Demo)'				=> array('6','dottdemo','95'),
 		'Sam & Max'                                             => array('6','samnmax','95'),
@@ -95,6 +87,60 @@ $games = array(
 		'Full Throttle'						=> array('7','ft','85'),
 		'The Dig'                                               => array('7','dig','85'),
 		'Curse of Monkey Island'				=> array('8','comi','80'),
+
+		'Putt-Putt Joins The Parade (Demo)'					=> array('6','puttdemo','95'),
+		'Putt-Putt Joins The Parade'						=> array('6','puttputt','85'),
+		'Putt-Putt Goes To The Moon ( Demo)'					=> array('6','moondemo','95'),
+		'Putt-Putt Goes To The Moon'						=> array('6','puttmoon','85'),
+		'Putt-Putts Fun Pack'							=> array('6','funpack','95'),
+		'Fatty Bears Birthday Surprise (Demo)'					=> array('6','fbdemo','95'),
+		'Fatty Bears Birthday Surprise'						=> array('6','fbear','80'),
+		'Fatty Bears Fun Pack'							=> array('6','fbpack','95'),
+		'Freddi Fish 1: The Case of the Missing Kelp Seeds (Demo)'		=> array('n/a','freddemo','80'),
+		'Freddi Fish 1: The Case of the Missing Kelp Seeds'			=> array('n/a','freddi','80'),
+		'Freddi Fish 2: The Case of the Haunted Schoolhouse (Demo)'		=> array('n/a','ff2-demo','80'),
+		'Freddi Fish 2: The Case of the Haunted Schoolhouse (Demo)'		=> array('n/a','freddi2','70'),
+		'Freddi Fish 3: The Case of the Stolen Conch Shell (Demo)'		=> array('n/a','ff3-demo','80'),
+		'Freddi Fish 3: The Case of the Stolen Conch Shell (Demo)'		=> array('n/a','freddi3','50'),
+		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Demo)'	=> array('n/a','f4-demo','10'),
+		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'	=> array('n/a','freddi4','10'),
+		'Freddi Fish 5: The Case of the Creature of Coral Cave'			=> array('n/a','freddi5','10'),
+		'Freddi Fish and Luther's Maze Madness'					=> array('n/a','maze','50'),
+		'Freddi Fish and Luther's Water Worries'				=> array('n/a','water','50'),
+		'Let's Explore the Airport with Buzzy ( Demo)'				=> array('n/a','airdemo','50'),
+		'Let's Explore the Airport with Buzzy'					=> array('n/a','airport','50'),
+		'Let's Explore the Farm with Buzzy (Demo)'				=> array('n/a','farmdemo','50'),
+		'Let's Explore the Farm with Buzzy'					=> array('n/a','farm','50'),
+		'Let's Explore the Jungle with Buzzy'					=> array('n/a','jungle','50'),
+		'Pajama Sam 1: No Need to Hide When It's Dark Outside (Demo)'		=> array('n/a','pjs-demo','80'),
+		'Pajama Sam 1: No Need to Hide When It's Dark Outside'			=> array('n/a','pajama','80'),
+		'Pajama Sam 2: Thunder and Lightning Aren't so Frightening (Demo)'	=> array('n/a','pj2demo','80'),
+		'Pajama Sam 2: Thunder and Lightning Aren't so Frightening'		=> array('n/a','pajama2','70'),
+		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Demo)'	=> array('n/a','pj3-demo','80'),
+		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('n/a','pajama3','20'),
+		'Pajama Sam's Lost & Found (Demo)'					=> array('n/a','smaller','5'),
+		'Pajama Sam's Lost & Found'						=> array('n/a','lost','5'),
+		'Pajama Sam's Sock Works'						=> array('n/a','socks','50'),
+		'Putt-Putt Enters the Race (Demo)'					=> array('n/a','racedemo','10'),
+		'Putt-Putt Enters the Race'						=> array('n/a','puttrace','10'),
+		'Putt-Putt Joins the Circus (Demo)'					=> array('n/a','circdemo','10'),
+		'Putt-Putt Joins the Circus'						=> array('n/a','puttcirc','10'),
+		'Putt-Putt Saves the Zoo (Demo)'					=> array('n/a','zoodemo','70'),
+		'Putt-Putt Saves the Zoo'						=> array('n/a','puttzoo','70'),
+		'Putt-Putt Travels Through Time (Demo)'					=> array('n/a','timedemo','70'),
+		'Putt-Putt Travels Through Time'					=> array('n/a','putttime','70'),
+		'Putt-Putt and Pep's Balloon-O-Rama'					=> array('n/a','balloon','50'),
+		'Putt-Putt and Pep's Dog on a Stick'					=> array('n/a','dog','50'),
+		'Spyfox 1: Dry Cereal (Demo)'						=> array('n/a','foxdemo','10'),
+		'Spyfox 1: Dry Cereal (Alternative Demo)'				=> array('n/a','spydemo','10'),
+		'Spyfox 1: Dry Cereal'							=> array('n/a','spyfox','10'),
+		'Spyfox 2: Some Assembly Required (Demo)'				=> array('n/a','sf2-demo','10'),
+		'Spyfox 2: Some Assembly Required'					=> array('n/a','spyfox2','10'),
+		'Spyfox 3: Operation Ozone (Demo)'					=> array('n/a','sf3-demo','10'),
+		'Spyfox 3: Operation Ozone'						=> array('n/a','spyozon','10'),
+		'Spy Fox in Cheese Chase Game'						=> array('n/a','chase','10'),
+		'Spy Fox in Hold the Mustard'						=> array('n/a','mustard','10'),
+
 		'Beneath a Steel Sky'			       		=> array('n/a','sky','90'),
 		'Broken Sword I'			       		=> array('n/a','sword1','85'),
 		'Broken Sword II'			       		=> array('n/a','sword2','90'),
@@ -166,6 +212,22 @@ $notes = array(
 		   "<br>- Music loud on some systems, run with -m30 to lower music volume.".
                    "<br>- Kanji version requires the FM Towns Font ROM",
 "playfate"	=> "No known issues, game is completable.",
+"tentacle"	=> "No known issues, game is completable.".
+		   "<br>- Both Mac and PC versions supported by this target".
+		   "<br>- Both disk and cd versions are supported by this target".
+		   "<br>- Maniac Mansion isn't playable on Ed's computer. To play the included copy, use 'Add Game' from the main ScummVM launcher and select the MANIAC directory inside the DOTT game directory",
+"dottdemo"	=> "No known issues, game is completable.",
+"samnmax"	=> "No known issues, game is completable.".
+		   "<br>- Both Mac and PC versions supported by this target".
+		   "<br>- Both disk and cd versions are supported by this target".
+                   "<br>- Highway subgame doesn't behave correctly",
+"samdemo"	=> "No known problems - should be playable to the end",
+"ft"		=> "Game is completable, with minor glitches".
+		   "<br>- Both Mac and PC versions supported by this target",
+"dig"		=> "Game is completable, with minor glitches".
+		   "<br>- Both Mac and PC versions supported by this target",
+"comi"		=> "Game is completable, with some minor glitches.",
+
 "puttdemo"	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target".
 		   "<br>- Cursors aren't scaled correctly in Windows version",
@@ -190,21 +252,82 @@ $notes = array(
 		   "<br>- Cursors aren't scaled correctly",
 "fbpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
-"tentacle"	=> "No known issues, game is completable.".
-		   "<br>- Both Mac and PC versions supported by this target".
-		   "<br>- Both disk and cd versions are supported by this target".
-		   "<br>- Maniac Mansion isn't playable on Ed's computer. To play the included copy, use 'Add Game' from the main ScummVM launcher and select the MANIAC directory inside the DOTT game directory",
-"dottdemo"	=> "No known issues, game is completable.",
-"samnmax"	=> "No known issues, game is completable.".
-		   "<br>- Both Mac and PC versions supported by this target".
-		   "<br>- Both disk and cd versions are supported by this target".
-                   "<br>- Highway subgame doesn't behave correctly",
-"samdemo"	=> "No known problems - should be playable to the end",
-"ft"		=> "Game is completable, with minor glitches".
-		   "<br>- Both Mac and PC versions supported by this target",
-"dig"		=> "Game is completable, with minor glitches".
-		   "<br>- Both Mac and PC versions supported by this target",
-"comi"		=> "Game is completable, with some minor glitches.",
+
+"freddemo"	=> "Game is completable, with minor glitches".
+		   "<br>- Various issues",
+"freddi"	=> "Game is completable, with minor glitches".
+		   "<br>- Various issues",
+"ff2-demo"	=> "Game is completable, with minor glitches".
+		   "<br>- Various issues",
+"freddi2"	=> "Game is completable, with minor glitches".
+		   "<br>- Various issues",
+"f3-mdemo"	=> "Game is completable, with minor glitches".
+		   "<br>- Various issues",
+"freddi3"	=> "Game is playable but not completable".
+		   "<br>- Various issues",
+"f4-demo"	=> "Not completable, no controls".
+		   "<br>- Various issues",
+"freddi4"	=> "Not completable, no controls".
+		   "<br>- Various issues",
+"freddicove"	=> "Not completable, no controls".
+		   "<br>- Various issues",
+"maze"		=> "Game is playable, but settings aren't saved".
+		   "<br>- Various issues",
+"water"		=> "Game is playable, but settings aren't saved".
+		   "<br>- Various issues",
+"pj2demo"	=> "Game is completable, but random akos crashes".
+		   "<br>- Various issues",
+"pajama"	=> "Game is completable, with minor glitches".
+		   "<br>- Various issues",
+"pj2demo"	=> "Game is completable, but random akos crashes".
+		   "<br>- Various issues",
+"pajama2"	=> "Game is completable, but random akos crashes".
+		   "<br>- Various issues",
+"pj3-demo"	=> "Game is completable, with minor glitches".
+		   "<br>- Various issues",
+"pajama3"	=> "Game is playable but not completable".
+		   "<br>- Various issues",
+"smaller"	=> "Only shows introduction".
+		   "<br>- Various issues",
+"lost"		=> "Only shows introduction".
+		   "<br>- Various issues",
+"socks"		=> "Game is playable, but settings aren't saved".
+		   "<br>- Various issues",
+"racedemo"	=> "Not completable, no controls".
+		   "<br>- Various issues",
+"puttrace"	=> "Not completable, no controls".
+		   "<br>- Various issues",
+"circdemo"	=> "Not completable, no controls".
+		   "<br>- Various issues",
+"puttcirc"	=> "Not completable, no controls".
+		   "<br>- Various issues",
+"puttzoo"	=> "Game is completable, with minor glitches".
+		   "<br>- Various issues",
+"zoodemo"	=> "Game is completable, with minor glitches".
+		   "<br>- Various issues",
+"putttime"	=> "Game is completable, with minor glitches".
+		   "<br>- Various issues",
+"timedemo"	=> "Game is completable, with minor glitches".
+		   "<br>- Various issues",
+"balloon"	=> "Game is playable, but settings aren't saved".
+		   "<br>- Various issues",
+"dog"		=> "Game is playable, but settings aren't saved".
+		   "<br>- Various issues",
+"spydemo"	=> "Not completable, no inventory".
+		   "<br>- Various issues",
+"foxdemo"	=> "Not completable, no inventory".
+		   "<br>- Various issues",
+"spyfox"	=> "Not completable, no inventory".
+		   "<br>- Various issues",
+"sf2-demo"	=> "Not completable, no inventory".
+		   "<br>- Various issues",
+"spyfox2"	=> "Not completable, no inventory".
+		   "<br>- Various issues",
+"sf3-demo"	=> "Not completable, no inventory".
+		   "<br>- Various issues",
+"spyozon"	=> "Not completable, no inventory".
+		   "<br>- Various issues",
+
 "sky"	 	=> "No known issues, game is completable.".
 		   "<br>- Floppy demos are unsupported".
 		   "<br>- Amiga versions aren't supported and probably never will be".
