@@ -79,7 +79,7 @@ function sidebar_specs_start ()
 	</p>
 
 </td>
-<td valign="top">
+<td width="100%" valign="top">
 
 <?
 }
