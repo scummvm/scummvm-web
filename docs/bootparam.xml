@@ -273,7 +273,7 @@ by Laura Abbott. Thanks a lot for your excellent work, Laura!
 <tr><td>888</td><td>Same as 878</td></tr>
 <tr><td>909</td><td>Indy before the Doors blocked by a pool of water in Atlantis
 	*2 Orichalum, Sunstone, Moonstone, Whip</td></tr>
-<tr><td>1101</td><td>Meeting Klaus Kerner for the First time in Indy's Office</td></tr>
+<tr><td>1101</td><td>Meeting Klaus Kerner for the first time in Indy's Office</td></tr>
 <tr><td>1102</td><td>ERROR: (7:10002:0xBF70): Invalid actor -111 in o5_putActorInRoom</td></tr>
 <tr><td>1103</td><td>Comming to Caswell Hall with Sophia</td></tr>
 <tr><td>1111</td><td>Indy by himself with Sophia
@@ -350,7 +350,7 @@ by Laura Abbott. Thanks a lot for your excellent work, Laura!
 	*Whip, Amber Fish</td></tr>
 <tr><td>4949</td><td>Indy entering into the room with the Lava Tiles (Not right at them,
 	however)</td></tr>
-<tr><td>4950-4959</td><td>IAll the Underwater sub, but at different depths (i.e. father
+<tr><td>4950-4959</td><td>All the Underwater sub, but at different depths (i.e. father
 	away, closer to you) *CANNOT GO BACK TO REGULAR GAME</td></tr>
 <tr><td>4960</td><td>On top of the Nazi Submarine (Team Path?)
 	*NO ITEMS</td></tr>
@@ -377,7 +377,7 @@ by Laura Abbott. Thanks a lot for your excellent work, Laura!
 <tr><td>5557</td><td>Indy on the Crowed Market Streets of Algiers</td></tr>
 <tr><td>5558</td><td>Indy the Market Place (Wits?) 
 	*NO ITEMS</td></tr>
-<tr><td>5559</td><td>Meeting Omar in His house. Wits Path
+<tr><td>5559</td><td>Meeting Omar in his house. Wits Path
 	*Whip</td></tr>
 <tr><td>5560</td><td>Monte Carlo
 	*NO ITEMS</td></tr>
@@ -398,7 +398,7 @@ by Laura Abbott. Thanks a lot for your excellent work, Laura!
 <tr><td>6000</td><td>Nothing. This doesn't appear to be a valid boot Parameter.</td></tr>
 <tr><td>6001</td><td>Indy Falls down from top Attic Level to the Next Bottom level
 	at the introduction.</td></tr>
-<tr><td>6002</td><td>Indy Falls down into the room with books at the very Beginning</td></tr>
+<tr><td>6002</td><td>Indy falls down into the room with books at the very beginning</td></tr>
 <tr><td>6003</td><td>Indy falls down into the cat room</td></tr>
 <tr><td>6004</td><td>Indy falls down the coal chute</td></tr>
 <tr><td>6005</td><td>Indy and Sophia fly to the Azores
@@ -425,7 +425,7 @@ by Laura Abbott. Thanks a lot for your excellent work, Laura!
 <tr><td>8567</td><td>Indy at Crete
 	*Whip, Sunstone, Moonstone, Worldstone</td></tr>
 <tr><td>8888</td><td>Monte Carlo Car Chase</td></tr>
-<tr><td>8889</td><td>INdy running around Monte Carol after the Car Chase</td></tr>
+<tr><td>8889</td><td>Indy running around Monte Carol after the Car Chase</td></tr>
 <tr><td>8890</td><td>Same as above, except with the Stone disk in tow</td></tr>
 <tr><td>9001</td><td>Indy at a corner in Monte Carlo
 	*NO ITEMS!</td></tr>
@@ -446,7 +446,7 @@ by Laura Abbott. Thanks a lot for your excellent work, Laura!
 <tr><td>9559</td><td>Indy Talking to Servant</td></tr>
 <tr><td>9678</td><td>Indy in Caswell Hall (Upstairs Closed for Repairs?)
 	*Whip</td></tr>
-<tr><td>9900</td><td>Indy and Sophia in the Room with the Statue that has to open the door
+<tr><td>9900</td><td>Indy and Sophia in the room with the Statue that has to open the door
 	*20 Orichalum, whip, sunstone, moonstone, worldstone, statue part
 	Bronze gear, bronze spoked wheel, crecent statue part, ladder</td></tr>
 <tr><td>9901</td><td>Indy and Sophia in the Airlock after getting off Nazi Sub
