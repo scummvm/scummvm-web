@@ -111,7 +111,7 @@ $notes = array(
 		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
 		   "<br>- Classic PC version does not start, due to script problems".
 		   "<br>- Classic PC version actor costumes are broken, resulting in random crashes".
-		   "<br>- No music or sound effects with Amiga and Classic PC versions",
+		   "<br>- No music or sound effects with Amiga version",
 "indy3ega"	=> "Game is completable".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
 		   "<br>- No music with Amiga version".
