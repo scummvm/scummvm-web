@@ -170,7 +170,7 @@ function bugs($buglist) {
 	<?php portStatus(array("Win32" => 1, "Linux" => 0, "DC" => 0,
 	 "Palm" => 0, "WinCE" => 0, "Mac" => 1, "OpenBSD" => 0)); ?></tr>
 <tr><td>Full Throttle</td>
-	<td>trinity78 12/14</td>
+	<td>andi_z 12/14</td>
 	<td>...</td>
 	<?php portStatus(array("Win32" => 1, "Linux" => 0, "DC" => 0,
 	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
