@@ -41,21 +41,23 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  <b>Daily CVS Builds:</b>
 	</p>
 
-<!--
 	<p>
-	  You can get the latest development source and binaries for BeOS/Intel and Linux/Intel from the
-	  <a href="http://scummvm.sourceforge.net/daily/">CVS Daily Snapshot</a> page. To quickly get a
-	  binary executable from that page, download the .gz from the column of the OS you use. Then
-	  simply rename the file to it&#146;s executable form.<br>
-
-	  View the <a href="/daily/ChangeLog">ChangeLog</a> to see the latest updates of ScummVM
+	  View the <a href="/daily/ChangeLog">ChangeLog</a> to see the latest updates of ScummVM.
 	</p>
--->
+	<p>
+	  You can get the latest development source and binaries for Linux/Intel from the
+	  <a href="http://scummvm.sourceforge.net/daily/">CVS Daily Snapshot</a> page.
+	</p>
+	<p>
+	  Additional daily builds:
+	</p>
 
 	<ul>
+<!--
 	  <li><a href="/downloads/scummvm-daily.tar.bz2">Source Code Daily Snapshot Bzipped</a> <small> (<? echo intval(filesize("downloads/scummvm-daily.tar.bz2")/1024) ?>K file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummvm-daily.tar.bz2")); ?>)</small></li>
 	  <li><a href="/downloads/scummvm-daily.tar.gz">Source Code Daily Snapshot Gzipped</a> <small> (<? echo intval(filesize("downloads/scummvm-daily.tar.gz")/1024) ?>K file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummvm-daily.tar.gz")); ?>)</small></li>
 	  <li><a href="/downloads/scummvm-daily.zip">Source Code Daily Snapshot Zipped</a> <small> (<? echo intval(filesize("downloads/scummvm-daily.zip")/1024) ?>K file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummvm-daily.zip")); ?>)</small></li>
+-->
 	  <li><a href="/downloads/scummvmwin32.exe">Win32 Daily Snapshot</a> <small> (<? echo intval(filesize("downloads/scummvmwin32.exe")/1024) ?>K exe file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummvmwin32.exe")); ?>)</small></li>
 	  <li><a href="http://arisme.free.fr/PocketScumm/daily/">PocketPC Builds</a> <small> (infrequent snapshots of the PocketPC binaries)</small></li>
 	  <li><a href="http://paras.rasmatazz.bei.t-online.de/">Dreamcast Daily Builds</a></li>
