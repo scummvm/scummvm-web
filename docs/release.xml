@@ -157,7 +157,7 @@ function bugs($buglist) {
 <tr><td>Monkey 2</td>
 	<td>hp 12/15</td>
 	<td>...</td>
-	<?php portStatus(array("Win32" => 1, "Linux" => 0, "DC" => 0,
+	<?php portStatus(array("Win32" => 0, "Linux" => 1, "DC" => 0,
 	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 <tr><td>Tentacle</td>
 	<td>khalek 6/12</td>
