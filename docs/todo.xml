@@ -69,17 +69,10 @@
 	<ul>
 		<li><h4>Maniac Mansion Classic</h4>
 		<ul>
-			<li>Fix graphical glitches when actors move diagonally</li>
-			<li>Fix problem of last few lines of room gfx. Often not been shown after changing roons</li>
-			<li>Several small bugs (see bug list)</li>
-		</ul>
-		<li><h4>Maniac Mansion Enchanced</h4>
-		<ul>
 			<li>Several small bugs (see bug list)</li>
 		</ul>
 		<li><h4>Zak McKracken Classic</h4>
 		<ul>
-			<li>Fix graphical glitches when actors move diagonally</li>
 			<li>Several small bugs (see bug list)</li>
 		</ul>
 		<li><h4>Zak McKracken Enchanced</h4>
