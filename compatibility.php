@@ -193,16 +193,10 @@ $notes = array(
 "simon2dos"     => "Game is completable.".
                    "<br>- No music".
                    "<br>- Minor graphical glitch when giving items to baby",
-"simon2amiga"   => "Game is completable.".
-                   "<br>- Only default language in data files is supported".
-                   "<br>- F10 key animation is different".
-                   "<br>- Minor graphical glitch when giving items to baby",
 "simon2mac"     => "Game is completable.".
                    "<br>- Only default language in data files is supported".
                    "<br>- F10 key animation is different".
-                   "<br>- Minor graphical glitch when giving items to baby",
-"simon2demo" 	=> "Game demo is completable".
-                   "<br>- No music"
+                   "<br>- Minor graphical glitch when giving items to baby"
 );
 		
 // render the compatibility chart
