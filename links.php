@@ -41,7 +41,7 @@ echo html_round_frame_start("Links","98%","",20);
 	  <tr><td><a href="http://www.mixnmojo.com/"><b>MixNMojo :: The Purple LucasArts Fan Site</b></a></td></tr>
 	  <tr>
 	    <td><blockquote>
-	    MixNmojo is one of the longest running, and definatly largest, LucasArts sites out there. If your looking for
+	    MixNmojo is one of the longest running, and definitely largest, LucasArts sites out there. If your looking for
 information, hints, news... or even just a place to hang... with hosted and partnered sites catering for everything, the
 International House of Mojo should be your very first stop.
 	    </blockquote></td>
@@ -51,7 +51,7 @@ International House of Mojo should be your very first stop.
 	  <tr>
 	    <td><blockquote>
             DoubleFine is the company of the lovable Tim Schafer, the genius behind some of the best of the worst gags and games in 
-LucasArts history. Go buy Psychonauts, their new game. Because if you don't, their super-intellegent news script will know.. Oh yes, 
+LucasArts history. Go buy Psychonauts, their new game. Because if you don't, their super-intelligent news script will know.. Oh yes, 
 it will know..
 	    </blockquote></td>
 	  </tr>
