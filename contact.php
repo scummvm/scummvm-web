@@ -24,7 +24,7 @@ echo html_round_frame_start("Contact","98%","",20);
 	  <big><b>Contact the ScummVM Team</b></big><br>
 	  <? echo html_line(); ?>
 	</p>
-
+	<center><b>Please do not contact the team for questions about using ScummVM. Use the forums or bug reporting system instead!</b></center>
 	<blockquote>
 	<table border=0 cellpadding=10 cellspacing=0>
 	  
