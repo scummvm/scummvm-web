@@ -47,8 +47,9 @@ things still need to be done. This release is going to focus mainly on three thi
 			<tr><td colspan=4><hr></td></tr>
 			<!--Optional games, these aren't required for release -->
 			<tr><td>Simon1Dos</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+			<tr><td>Simon1Talkie</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
 			<tr><td>Simon1Win</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
-			<tr><td>Simon2Dos</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+			<tr><td>Simon2Talkie</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
 			<tr><td>Simon2Win</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
 			</table>
 		</p>
