@@ -78,7 +78,7 @@ $games = array(
 		'Curse of Monkey Island'				=> array('8','curse','5'),
 		'Simon The Sorcerer 1 Talkie (Win)'       		=> array('n/a','simon1win','85'),
 		'Simon The Sorcerer 1 Talkie (Dos)'       		=> array('n/a','simon1talkie','85'),
-		'Simon The Sorcerer 1 (Dos)'           			=> array('n/a','simon1dos','85'),
+		'Simon The Sorcerer 1 (Dos)'           			=> array('n/a','simon1dos','50'),
 		'Simon The Sorcerer 1 (DEMO)'          			=> array('n/a','simon1demo','60'),
 		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','80'),
 		'Simon The Sorcerer 2 Talkie (Dos)'       		=> array('n/a','simon2talkie','80'),
@@ -123,7 +123,7 @@ $notes = array(
 "simon1talkie" 	=> "Game is completable.".
                    "<br>- No music looping".
                    "<br>- Various minor graphical glitches",
-"simon1dos" 	=> "Game is completable.".
+"simon1dos" 	=> "Game is completable to a point, but not playable to the end since it freezes at several points".
                    "<br>- No sound effects".
                    "<br>- Various minor graphical glitches",
 "simon1demo" 	=> "Game demo is completable to a point, but not playable to the end".
