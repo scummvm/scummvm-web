@@ -124,12 +124,12 @@ $notes = array(
 		   "<br>- No music or sound effects with Amiga version",
 "indy3ega"	=> "Game is completable".
 		   "<br>- Amiga (Use Amiga option), Atari ST, Mac and PC versions supported by this target".
+		   "<br>- Mac version crashes during copy protection".
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
-		   "<br>- Mac version crashes".
 		   "<br>- Various minor graphical glitches".
-		   "<br>- No music or sound effects looping with Amiga version".
-		   "<br>- No music or sound effects with Mac version".
-		   "<br>- Atari ST verion requires pcjr or pcspk music driver",
+		   "<br>- No music and no sound effects looping with Amiga version".
+		   "<br>- No sound effects with Mac version".
+		   "<br>- Atari ST and Mac verions require pcjr or pcspk music driver",
 "indy3"         => "Game is completable".
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
 		   "<br>- Various minor graphical glitches",
@@ -143,11 +143,11 @@ $notes = array(
                    "<br>- Kanji version isn't yet supported",
 "loom"		=> "Game is completable".
 		   "<br>- Amiga (Use Amiga option), Atari ST, Mac and PC versions supported by this target".
-                   "<br>- Various minor graphical glitches".
 		   "<br>- Mac version crashes after copy protection screen".
-		   "<br>- No music or sound effects looping with Amiga version".
+                   "<br>- Various minor graphical glitches".
+		   "<br>- No music and no sound effects looping with Amiga version".
 		   "<br>- No music or sound effects with Mac version".
-		   "<br>- Atari ST verion requires pcjr or pcspk music driver",
+		   "<br>- Atari ST and Mac verions require pcjr or pcspk music driver",
 "loomtowns"	=> "Game is completable".
 		   "<br>- Fades are seemingly different to other versions in some cases".
 		   "<br>- Text palette sometimes incorrect".
@@ -169,7 +169,8 @@ $notes = array(
 		   "<br>- No music with Amiga version",
 "monkey"	=> "No known problems - should be playable to the end",
 "monkey1"	=> "No known problems - should be playable to the end".
-		   "<br>- Both Mac and PC versions supported by this target",
+		   "<br>- Both Mac and PC versions supported by this target".
+		   "<br>- No music with Mac version",
 "game"		=> "No known problems - should be playable to the end".
 		   "<br>- No sound effects",
 "monkey2"	=> "No known problems - should be playable to the end".
