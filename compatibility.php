@@ -137,19 +137,18 @@ $notes = array(
 		   "<br>- Error: akos_increaseAnim: invalid code 9a00!".
 		   "<br>- Error: akos_increaseAnim: invalid code d800!".
 		   "<br>- talkie data not synced/properly implemented",
-"funpack"	=> "Start but mini games seem to have various problems and generally not run".
-		   "<br>- Tic-Tac-Toe: Error(5:10:0xA8): Value 196 is out of bounds (0,31) in script 10 (Illegal palet slot 196)".
-		   "<br>- Pinball/Checkers/Remember/Cheese King: Similiar to above but different scripts".
-		   "<br>- Puzzle blocks: Works but colour isn't set properly so game is black and white".
+"funpack"	=> "Starts but mini games seem to have various problems".
+		   "<br>- Tic-Tac-Toe: Error(5:219:0x6A01): Invalid opcode 'a7' at 6a01!".
+		   "<br>- Checkers: Error(6:210:0x6A60): No items on stack to pop() for o6_startScriptQuick (0xBF) at [6-210]!".
+		   "<br>- Puzzle blocks/Pinball/Remember/Cheese King: Works but colour isn't set properly so game is black and white".
 		   "<br>- talkie data not synced/properly implemented",
 "fbdemo"	=> "Fails shortly after starting on Error: akos_increaseAnim: invalid code 8006!".
 		   "<br>- talkie data not synced/properly implemented",
 "fbear"		=> "Fails during intro with error: akos_increaseAnim: invalid code e400!".
 		   "<br>- talkie data not synced/properly implemented",
 "fbpack"	=> "Game starts but various minigames have different problems".
-		   "<br>- Reversi/Go Fish: o6_actorOps: default case 218".
-		   "<br>- Lines and Boxes: Error(4:203:0x4BFC): Value 88 is out of bounds (0,31) in script 203 (Illegal palet slot 88)".
-		   "<br>- Coloring/Tangrams: Error(6:209:0x40D5): Invalid opcode 'db'".
+		   "<br>- Reversi/Go Fish/Lines and Boxes: o6_actorOps: default case 218".
+		   "<br>- Coloring/Tangrams: Error(6:209:0x40D5): Invalid opcode 'db' (readFile)".
 		   "<br>- talkie data not synced/properly implemented",
 "tentacle"	=> "No known problems - should be playable to the end".
 		   "<br>- Both disk and cd versions are supported by this target".
