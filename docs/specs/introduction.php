@@ -23,20 +23,24 @@ echo html_round_frame_start("Introduction","98%","",20);
 
 <dl>
 <dt>
-2002-4-10:
+2002-09-14:
+<dd>Imported into ScummVM CVS as David feels he doesn't have time to maintain this anymore.
+
+<dt>
+2002-04-10:
 <dd>Added James 'Ender' Brown's information (the engines, the resource tree introduction).
 
 <dt>
-2002-3-23:
+2002-03-23:
 <dd>Rewrote it in HTML for the new Cowlark web server. LaTeX is good but for an
 on-line reference HTML is better.
 
 <dt>
-2002-1-30:
+2002-01-30:
 <DD>Added Arrays, deciphered a lot of the threading and VM stuff and documented
 it, added a bunch of opcodes, assorted tidying.
 
-<DT>2002-1-18:
+<DT>2002-01-18:
 <DD>Initial version
 </dl>
 
@@ -87,11 +91,6 @@ reasonably complete documentation, it becomes possible to do all sorts
 of exiting things: like write a free, portable interpreter that will
 play and SCUMM game on any platform (such as <a href="http://scummvm.sourceforge.net">ScummVM</a>, written by Ludvig Strigeus and the ScummVM team),
 or to create your own SCUMM games from scratch.
-
-<p class=footnote>(In fact your humble author is currently working on a toolkit
-to do this, called Skim. This document is, in fact, a side effect of Skim
-development.  It can be obtained from <a href="http://www.cowlark.com/scumm.html">my
-SCUMM page</a>, but it is not particularly useful in its current state.)
 
 <p>The information obtained here was almost all obtained by other people.  All
 I have done is to collate it into one place. Among the many who have been
@@ -179,17 +178,6 @@ echo html_frame_tr(
 echo html_frame_end("&nbsp;");
 ?>
 <p>This document will only concern itself with SCUMM versions 5-8.
-
-<h2>What is Skim?</h2>
-
-<p>Skim is a set of tools for manipulating SCUMM files. It will, or at least
-will when it's finished, allow existing SCUMM files to be disassembled and new
-ones to be constructed.
-
-<p>One of the features of Skim is a linkable object file format, called SLOB.
-SLOB files can contain any normal SCUMM resources, plus information about them
-to allow several SLOB files to be linked together into a runnable game. See
-also the <a href="slob.php">SLOB file format</a>.
 
 <h2>Engines</h2>
 

@@ -27,7 +27,6 @@ function sidebar_specs_start ()
 	$g->add("V5 opcode list", $file_root."/docs/specs/"."scrp-v5.php");
 	$g->add("V6 opcode list", $file_root."/docs/specs/"."scrp-v6.php");
 	$g->add("Glossary", $file_root."/docs/specs/"."glossary.php");
-	$g->add("SLOB files", $file_root."/docs/specs/"."slob.php");
 
 	$g->done();
 

@@ -50,8 +50,8 @@ resource only refers to SCUMM data blocks.)
 <DT>named resource
 <DD>A resource that appears in the SCUMM file's index.  Named resources are
 identified by a tuple of (class, number). The numbers are small integers
-counting up from zero. See <A HREF="resource-classes.html">Resource Classes</A>
-for the full list. Named resources are sometimes referred to as objects, but as
+counting up from zero. 
+Named resources are sometimes referred to as objects, but as
 these can be easily confused with SCUMM objects it is not recommended.
 
 <DT>string
