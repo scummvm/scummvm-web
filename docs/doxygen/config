@@ -341,7 +341,9 @@ RECURSIVE              = YES
 EXCLUDE                = \
 	/home/groups/s/sc/scummvm/scummvm/sky/compacts \
 	/home/groups/s/sc/scummvm/scummvm/sky/compact.h \
+	/home/groups/s/sc/scummvm/scummvm/sky/skydefs.h \
 	/home/groups/s/sc/scummvm/scummvm/sky/talks.h \
+	/home/groups/s/sc/scummvm/scummvm/sword1/swordres.h \
 	/home/groups/s/sc/scummvm/scummvm/queen/restables.cpp
 
 # The EXCLUDE_SYMLINKS tag can be used select whether or not files or directories 
