@@ -90,7 +90,8 @@
 		</ul>
 		<li><h4>Full Throttle</h4>
 		<ul>
-			<li>PC demo has various issues that need to be looked at</li>
+			<li>Some in-game music and sound issues</li>
+			<li>Add INSANE support for PC demo</li>
 			<li><i>Ask: Ender, aquadran</i></li>
 		</ul>
 		<li><h4>The DIG</h4>
@@ -110,7 +111,7 @@
 			<li>Add implementation for file related opcode stubs</li>
 			<li>Figure out remaining scale/akos differences</li>
 			<li>Track down more differences from lec scumm</li>
-			<li>Radgametools video support possibly needed for newer games?</li>
+			<li>Radgametools video support needed for newer games</li>
 			<li>Add support for sound formats used in 3DO versions</li>
 			<li>Improve handling of talkie files/blocks</li>
 			<li>Add support for SONG blocks/files</li>
@@ -126,7 +127,7 @@
 		<ul>
 			<li>Add support for Protracker music format used in Amiga versions</li>
 			<li>Add support for decoding main graphics correctly in Amiga versions</li>
-			<li>Check <a href="http://members.optusnet.com.au/wormmon/simon.html">Simon issues</a> for list of other bugs</li>
+			<li>Check <a href="http://members.optusnet.com.au/scummvm/simon.html">Simon issues</a> for list of other bugs</li>
 			<li><i>Ask: olki, Kirben</i></li>
 		</ul>
 	</ul>
