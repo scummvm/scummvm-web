@@ -6,7 +6,6 @@
 <ul>
 <li>Generic:
 	<ul>
-		<li>Guybrush seems to walk down from the sky when entering the Canibal Village for the first time. This is because roomobj-53-873 calls a different script on the first entry, which runs a putActorAtObject opcode before loading the room. 
 		<li>Make the in-game options / save-load dialogs work.
 		<li>strings that contain PU_M, EC_, SA_, or BT_ should not reach playBundleSound() as they don't
 		have audio equivalents.
@@ -28,9 +27,6 @@
 		<li>o8_getActorChore still seems to be returning dodgy results
 		<li>setActorChoreLimbFrame isn't quite correct, eg Wallys animation after throwing the hook will show a few phantom
 		frames of his 'throw hook' and 'standing at cannon' animation
-		<li>Lack of MouthSync and MusicMouthSync stuff causes odd actor speech animations 
-		(CVS hacked to generate random values... it's wrong, it's not synced, but it look better than nothing)
-		<li>Dinghy dog shrinks size after he bites you, use boot param 1000 to test. This also happens in Stans office (Stan shrinks)
 	</ul>
 </ul>
 
