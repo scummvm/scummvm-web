@@ -82,7 +82,7 @@ else
 
 		// display image
 		echo html_frame_td(
-				   '<a href="'.$PHP_SELF."?view=".$c.'&offset='.$offset.'">'.
+				   '<a href="'.$PHP_SELF."?view=".$c.'&auml;offset='.$offset.'">'.
 				   '<img src="'.$file_root.'/screenshots/scummvm_'.$c.'.png" '.
 				   'vspace=10 hspace=10 width=256 height=160 '.
 				   'alt="Screenshot '.$c.'"></a>',

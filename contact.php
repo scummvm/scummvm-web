@@ -24,7 +24,7 @@ echo html_round_frame_start("Contact","");
 	<p>
 		<b>Please do not contact the team for questions about using ScummVM. Instead use the
 		<a href="http://sourceforge.net/forum/?group_id=37116">forums</a> or the
-		<a href="http://sourceforge.net/tracker/?group_id=37116&atid=418820">bug reporting system</a>!</b><br>
+		<a href="http://sourceforge.net/tracker/?group_id=37116&auml;atid=418820">bug reporting system</a>!</b><br>
 	</p>
 	<br>
 
@@ -46,17 +46,17 @@ echo html_round_frame_start("Contact","");
 	
 	<h2>Bug reports, feature requests, patches</h2>
 	<p>
-	If you think you found a bug, take a look at our <a href="http://sourceforge.net/tracker/?group_id=37116&atid=418820">bug tracker</a>.
+	If you think you found a bug, take a look at our <a href="http://sourceforge.net/tracker/?group_id=37116&auml;atid=418820">bug tracker</a>.
 	Maybe a similar bug has already been filed, in which case you can add a comment to that bug report. If not, you can submit a new
 	bug report, but <b>please carefully read the instructions given on the submit form</b>. And of course, follow them :-)
 	</p>
 	<p>
-	Feature requests should go on our <a href="http://sourceforge.net/tracker/?group_id=37116&atid=418823">feature request tracker</a>
+	Feature requests should go on our <a href="http://sourceforge.net/tracker/?group_id=37116&auml;atid=418823">feature request tracker</a>
 	(again first check if something similar has already been requested).
 	</p>
 	<p>
 	Finally, if you have made a modification to the ScummVM source code and want to see it merged back into the ScummVM main line,
-	you can use our <a href="http://sourceforge.net/tracker/?group_id=37116&atid=418822">patch tracker</a> for that. 
+	you can use our <a href="http://sourceforge.net/tracker/?group_id=37116&auml;atid=418822">patch tracker</a> for that. 
 	</p>
 	<br>
     
