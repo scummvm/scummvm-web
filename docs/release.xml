@@ -64,7 +64,7 @@ function bugs($buglist) {
 	
 	<p>
 	Please do all tests with binaries built from latest CVS, or the source
-	snapshots/daily builds from the <a href="downloads.php">download page</a>.
+	snapshots/daily builds from the <a href="downloads.php#CVS">download page</a>.
 	</p>
 	
 
