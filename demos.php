@@ -33,7 +33,7 @@ echo html_round_frame_start("Game Demos","");
 <?
 
 $demos = array(
-	'Maniac Mansion (DOS demo - Non interactive'
+	'Maniac Mansion (DOS demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/maniac.rar', 'maniac'),
 	'Zak McKracken and the Alien Mindbenders (Atari ST - Non interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/zakstdemo.zip', 'zak'),
