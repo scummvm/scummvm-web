@@ -141,6 +141,11 @@ stage). Pawel Kolodziejski has done a good job with the implementation of
 a digital imuse mixer for these two games, and merging/cleaning up the new
 SMUSH player written by Xavier Trochu.
 
+Max Horn has implemented a 'New GUI' system, which looks far better then the previous, as well as providing a
+much cleaner interface for changing ScummVM settings. He's also currently working on an in-game 'Launcher' so
+people won't have to commit all our obscure command-line parameters to memory. The Launcher in particular is
+going to be a key point of our next release, along with hopefully support for at least The Dig.
+
 ---------------------------------
 So, what needs work?
 
