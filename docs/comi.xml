@@ -27,6 +27,9 @@
 		<li>Voices 'pop'
 		<li>Occasional crashes from 'sound que buffer overflow' (hard to reproduce)
 		<li>Lack of imGetMusicPosition kernel function breaks song sync in Part 3 intro
+		<li>Failed assertion when using shift w to win. 
+		scumm/bundle.cpp:318: int32 Bundle::decompressMusicSampleByIndex(int, int, byte *, int32 &): Assertion `num <= 3361' failed.
+		<li>Failed assertion during Murray's dialogue after getting anchor. scumm/bundle.cpp:263: int32 Bundle::decompressVoiceSampleByIndex(int, byte *, int32 &): Assertion `num <= 50' failed. See http://users.bigpond.net.au/tgray2/comi.s01 for a save.
 	</ul>
 <li>Graphics:
 	<ul>
