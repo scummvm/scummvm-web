@@ -58,7 +58,7 @@ $games = array(
 		'Zak McKracken and the Alien Mindbenders (C64)'		=> array('1','zakc64','0'),
 		'Maniac Mansion'					=> array('2','maniacega','0'),
 		'Zak McKracken and the Alien Mindbenders'		=> array('2','zakega','0'),
-		'Indiana Jones and the Last Crusade'			=> array('2','indy3ega','0'),
+		'Indiana Jones and the Last Crusade'			=> array('2','indy3ega','5'),
 		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','80'),
                 'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','85'),
 		'Loom'							=> array('3','loom','5'),
@@ -142,7 +142,7 @@ $notes = array(
 		   "<br>- talkie data not synced/properly implemented",
 "funpack"	=> "Starts but mini games seem to have various problems".
 		   "<br>- Tic-Tac-Toe: can't win or lose a game only draw".
-		   "<br>- Checkers: Error(6:210:0x6A60): No items on stack to pop() for o6_startScriptQuick (0xBF) at [6-210]!".
+		   "<br>- Checkers: o6_actorOps: default case 218".
 		   "<br>- Puzzle blocks/Pinball/Remember/Cheese King/Tic-Tac-Toe: Works but colour isn't set properly so game is black and white".
 		   "<br>- talkie data not synced/properly implemented",
 "fbdemo"	=> "Fails assertion at the end of the intro".
