@@ -55,6 +55,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  <li><a href="/downloads/scummvmwin32.exe">Win32 Daily Snapshot</a> <small> (<? echo intval(filesize("downloads/scummvmwin32.exe")/1024) ?>K exe file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummvmwin32.exe")); ?>)</small></li>
 	  <li><a href="http://arisme.free.fr/PocketScumm/daily/">PocketPC Builds</a> <small> (infrequent snapshots of the PocketPC binaries)</small></li>
 	  <li><a href="http://sourceforge.net/cvs/?group_id=37116">CVS Instructions</a> <small> (for if you wish to retrieve the latest code to compile yourself</small></li>
+	  </ul>
 	</p>
 	
 	<p>
@@ -68,8 +69,8 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.3.0b-macosx.dmg?download">MacOS X Disk Image</a> <small>(627k dmg image)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.3.0b-morphos.tar.bz2?download">MorphOS binary</a> <small>(397k tar.bz2)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.3.0b-0.woody.1_i386.deb?download">Debian Stable (woody) Package</a> <small>(321k .deb)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.3.0b-redhat80.i386.rpm?download">RedHat 8.0 package</a> <small>(441k RPM)</small></li>
-	  <li><hr></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.3.0b-redhat80.i386.rpm?download">RedHat 8.0 package</a> <small>(441k RPM)</small>
+	  <hr></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/PocketSCUMM_Install_0_3_0b.exe?download">PocketSCUMM Windows-based Installer (PocketPC: ARM/SH3/MIPS)</a> <small>(1.1M Win32 .exe)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/PocketSCUMM_0_3_0b-ARM.zip?download">PocketSCUMM ARM binary</a> <small>(371k .zip)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/PocketSCUMM_0_3_0b-MIPS.zip?download">PocketSCUMM MIPS binary</a> <small>(437k .zip)</small></li>
@@ -92,10 +93,10 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.3.0b-src.zip?download">Source Zipfile</a> <small>(868k)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.3.0b-src.tar.gz?download">Source tar.gz</a> <small>(705k)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.3.0b-src.tar.bz2?download">Source tar.bz2</a> <small>(585k)</small>
-	  <li><hr></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_tools_0.3.0b-src.zip?download">Tools - Source zipfile</a> <small>(82k)</small>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_tools_0.3.0b-src.tar.gz?download">Tools - Source tar.gz</a> <small>(65k)</small>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_tools_0.3.0b-src.tar.bz2?download">Tools - Source tar.bz2</a> <small>(36k)</small>
+	  <hr></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_tools_0.3.0b-src.zip?download">Tools - Source zipfile</a> <small>(82k)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_tools_0.3.0b-src.tar.gz?download">Tools - Source tar.gz</a> <small>(65k)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_tools_0.3.0b-src.tar.bz2?download">Tools - Source tar.bz2</a> <small>(36k)</small></li>
 	</ul>
 	
 	<p>
