@@ -300,7 +300,6 @@ function html_header ($title, $extra = "")
 	<meta name="author" content="Jeremy Newman <jnewman at dracowulf.com>">
 	<link rel="stylesheet" href="<?=$file_root?>/styles.css" type="text/css">
 	<?=$extra?>
-	<script src="<?=$file_root?>/scripts.js" type="text/javascript"></script>
 </head>
 
 <body>

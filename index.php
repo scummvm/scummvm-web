@@ -39,6 +39,27 @@ $randImg = rand(0,$total);
 
 echo html_round_frame_start("About ScummVM","");
 ?>
+	<script type="text/javascript">
+	<!--
+	function openWin(fileToOpen,nameOfWindow,width,height) {
+		myWindow = window.open("",nameOfWindow,"menubar=no,scrollbars=no,status=no,width="+width+",height="+height);
+		myWindow.document.open();
+		myWindow.document.write('<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">\n')
+		myWindow.document.write('<html><head><title>ScreenShot Viewer</title><link rel="stylesheet" href="styles.css" type="text/css"></head>')
+		myWindow.document.write('<body><a href="javascript:self.close();"><img src="'+ fileToOpen +'"></a></body></html>');
+		myWindow.document.close();
+	}
+	
+	var i_jn = <?=$randImg?>;
+	function scrshot_jn(x,n) {
+		if (n) i_jn++; else i_jn--;
+		if (i_jn > x) i_jn = 0;
+		if (i_jn < 0) i_jn = x;
+		document['img_jn'].src = "./screenshots/scummvm_" + i_jn + ".png";
+	}
+	-->
+	</script>
+
 	<table width="100%" border=0 cellpadding=10 cellspacing=0>
 	<tr valign="top">
 	  <td>
@@ -62,10 +83,9 @@ echo html_round_frame_start("About ScummVM","");
 	  </td>
 	  <td>
 		<table border=0 cellpadding=0 cellspacing=0>
-		<tr><td>
+		<tr><td colspan="3">
 			<!-- We use a height of 402 instead of 400 to workaround something which
 			  appears to be a bug in Mozilla? -->
-			<script type="text/javascript">i_jn=<?=$randImg?>;</script>
 			<a href="javascript:openWin('./screenshots/big_scummvm_'+i_jn+'.png','scummvm',640,402);"
 			onMouseOver="window.status='Click to View Full Size Image';return true;"
 			onMouseOut="window.status='';return true;"><img
@@ -73,20 +93,15 @@ echo html_round_frame_start("About ScummVM","");
 			style="margin: 5px"
 			name="img_jn" alt="Click to view Full Size"></a>
 		</td></tr>
-		<tr><td>
-			<table width="100%" border=0 cellpadding=0 cellspacing=0>
-			<tr>
-				<td align=left>
-				  <a href="javascript:scrshot_jn(<?=$total?>,0);"><img
-				  src="./images/back.gif" width=43 height=23 alt="back"></a>
-				</td>
-				<td align=right>
-				  <a href="javascript:scrshot_jn(<?=$total?>,1);"><img
-				  src="./images/next.gif" width=38 height=23 alt="next"></a>
-				</td>
-			</tr>
-			</table>
-		</td></tr>
+		<tr>
+			<td align=left>
+			  <a href="javascript:scrshot_jn(<?=$total?>,0);">&lt;&lt; Previous</a>
+			</td>
+			<td></td>
+			<td align=right>
+			  <a href="javascript:scrshot_jn(<?=$total?>,1);">Next &gt;&gt;</a>
+			</td>
+		</tr>
 		</table>
 	  </td>
 	</tr>
