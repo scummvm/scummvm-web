@@ -45,6 +45,12 @@ echo html_round_frame_start("Contact","98%","",20);
 	    <td>[ yazoo ]</td>
 	    <td>- Developer</td>
 	  </tr>
+
+      <tr>
+	    <td><a href="http://sourceforge.net/sendmessage.php?touser=12935" target="_blank">Max Horn</a></td>
+	    <td>[ fingolfin ]</td>
+	    <td>- Developer</td>
+	  </tr>
 	  
 	  <tr>
 	    <td><a href="http://sourceforge.net/sendmessage.php?touser=339357" target="_blank">Jeremy Newman</a></td>
@@ -77,12 +83,6 @@ echo html_round_frame_start("Contact","98%","",20);
 	    <td>Mutwin Kraus</td>
 	    <td>[ mutle ]</td>
 	    <td>- MacOS Carbon port (Retired)</td>
-	  </tr>
-
-      <tr>
-	    <td>Max Horn </td>
-	    <td>[ fingolfin ]</td>
-	    <td>- MacOS X port, many bug fixes, new GUI</td>
 	  </tr>
 
       <tr>
