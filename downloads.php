@@ -96,9 +96,9 @@ echo html_round_frame_start("Download ScummVM","");
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0.zip?download">ScummVM - Source .zip</a> <small>(3.1M)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-1.src.rpm?download">ScummVM - Source RPM</a> <small>(2.7M RPM)</small></li>
 
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.7.0-src.tar.bz2?download">Tools - Source .tar.bz2</a> <small>(96k .tar.bz2)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.7.0-src.tar.gz?download">Tools - Source .tar.gz</a> <small>(110k .tar.bz2)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.7.0-src.zip?download">Tools - Source .zip</a> <small>(131k .zip)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.7.0.tar.bz2?download">Tools - Source .tar.bz2</a> <small>(96k .tar.bz2)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.7.0.tar.gz?download">Tools - Source .tar.gz</a> <small>(110k .tar.bz2)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.7.0.zip?download">Tools - Source .zip</a> <small>(131k .zip)</small></li>
 	</ul>
 
 	<h3>Older versions (unsupported)</h3>
