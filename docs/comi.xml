@@ -20,15 +20,12 @@
 		<li>Lack of actorHit opcode breaks collision detection in ship-to-ship combat
 		<li>Something is screwy with the cannon physics in ship-to-ship combat. You hit yourself. 
 		(but the script still thinks you have won :)
-		<li>Opcode 0x98 not implemented? Error(75:2006:0x2F7C): Invalid opcode '98' at 2f7c!
-		Go to beach in save that can be found <a href="http://users.bigpond.net.au/tgray2/comi.s08">here</a>
-		opcode is O_DRAW_OBJECT according to scummrev site, looks like its used to draw the boat.
 	</ul>
 <li>Sound:
 	<ul>
 		<li>Music decompressor uses too much CPU for smooth music playback
 		<li>Occasional crashes from 'sound que buffer overflow' (hard to reproduce)
-		<li>Lack of imGetMusicPosition kernel function breaks song sync in Part 3 intro
+		<li>Misimplementation of imGetMusicPosition kernel function breaks song sync in Part 3 intro
 	</ul>
 <li>Graphics:
 	<ul>
@@ -38,7 +35,7 @@
 	</ul>
 <li>Conversation:
 	<ul>
-		<li>The background of the conversation verbs is not redrawn properly. Specifically,
+		<li>The background of the conversation verbs are not redrawn properly. Specifically,
 		if they are above actors, the actors are not always drawn when the verb is redrawn. Some parts of the conversation 
 		verbs are clipped (eg, bottom of g's), leading me to believe that their clipping rectangles are incorrect.
 	</ul>
@@ -52,8 +49,8 @@
 		<li>o8_getActorChore still seems to be returning dodgy results
 		<li>setActorChoreLimbFrame isn't quite correct, eg Wallys animation after throwing the hook will show a few phantom
 		frames of his 'throw hook' and 'standing at cannon' animation
-		<li>Lack of MouthSync and MuaicMouthSync stuff causes odd actor speech animations 
-		(CVS hacked to generate random values... it's wrong, it's not synced, but it look betters than nothing)
+		<li>Lack of MouthSync and MusicMouthSync stuff causes odd actor speech animations 
+		(CVS hacked to generate random values... it's wrong, it's not synced, but it look better than nothing)
 	</ul>
 </ul>
 
