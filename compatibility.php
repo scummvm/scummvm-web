@@ -161,7 +161,6 @@ $notes = array(
 		   "<br>- Maniac Mansion isn't playable on eds computer",
 "dottdemo"	=> "No known problems - should be playable to the end",
 "samnmax"	=> "No major problems - should be playable to the end".
-		   "<br>- Disk version needs to have the .sm0 and .sm1 files renamed to .000 and .001".
 		   "<br>- Both disk and cd versions are supported by this target".
                    "<br>- Highway subgame doesn't behave correctly",
 "samdemo"	=> "No known problems - should be playable to the end",
