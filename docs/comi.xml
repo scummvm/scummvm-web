@@ -24,16 +24,20 @@
 	</ul>
 <li> Conversation:
 	<ul>
-		<li>Frequently conversations will crash with a "Too Many Verbs" error. Easiest step to
-	  	    reproduce is to save a game before talking to somebody.. if talking to them the first
-		    time doesn't trigger it, the save probably will. NOTE: This does not seem to happen to
-		    characters who say something before the conversation menu comes up - eg, Wally. Try
-		    talking to Murray after blowing the ships away.
 		<li>An flobject loading error seems to cause frequent crashes in later conversations.
 		    Specifically the object never seems to be loaded in some sequences. Eg, talking to the
 		    voodoo lady - during the first conversation, the object (188/189) is loaded. But after
 		    the cutscene where Guybrush finds Elaine stolen, on returning the object is unloaded
 		    and after the automated conversation the game will crash because it is unlocatable.
+		    <b>This one is important, it's the main thing preventing people from progressing further
+		    in Part II (you need to complete the Voodoo Lady conversation</b>
+			
+
+		<li>Frequently conversations will crash with a "Too Many Verbs" error. Easiest step to
+	  	    reproduce is to save a game before talking to somebody.. if talking to them the first
+		    time doesn't trigger it, the save probably will. NOTE: This does not seem to happen to
+		    characters who say something before the conversation menu comes up - eg, Wally. Try
+		    talking to Murray after blowing the ships away. (HACK IN CVS)
 	</ul>
 <li>Actor:
 	<ul>
