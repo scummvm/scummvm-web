@@ -48,13 +48,15 @@ echo html_round_frame_start("About ScummVM","98%","",20);
 		</p>
 
 		<p>
-		ScummVM is an implementation of LucasArts <font color=green>S.C.U.M.M.</font>
+		ScummVM is an implemention of several classic adventure game engines. Our
+		main implementation is the LucasArts <font color=green>S.C.U.M.M.</font>
 		<font color="#666666">(<i>Script Creation Utility for Maniac Mansion</i>)</font>
 		interpreter, used in games such as Monkey Island, Indiana Jones, Day Of The Tentacle,
-		Sam and Max, and many more. Some things are still missing, and some games cannot be completeted yet.
-		There are quite a few known bugs. Regardless of the bugs it is still possible to play some games
-		all the way through to the end. Still other games do not load at all.
-		Keep your eye on our Compatability page to see which games function with the current build.
+		Sam and Max, and many more. We also currently support two other interpreters, one
+		for Simon the Sorcerer 1/2 by AdventureSoft, and the second for Beneath a Steel
+		Sky by Revolution Software. Some things are still missing, and some games
+		cannot be completeted yet. Keep your eye on our Compatability page to see
+		which games function with the current build.<br>
 		Comments and suggestions can be left in our forum.
 		</p>
 	  </td>
