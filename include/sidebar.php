@@ -36,7 +36,7 @@ function sidebar_start ()
 	$g->add("Project Home", "http://sourceforge.net/projects/scummvm/");
 	$g->add("Forums", "http://sourceforge.net/forum/?group_id=37116");
 	$g->add("Bug Tracking", "http://sourceforge.net/tracker/?group_id=37116&atid=418820");
-	//$g->add("Daily Snapshots", "http://scummvm.sourceforge.net/daily/");
+	$g->add("Daily Snapshots", "/daily/");
 	$g->add("CVS Tree", "http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/");
 
 	$g->done();      
