@@ -127,7 +127,7 @@ $notes = array(
                    "<br>- Part of introduction is skipped.".
                    "<br>- Various minor graphical glitches",
 "simon2dos"     => "Not fully implemented yet.".
-                   "<br>- No music or sound effects"
+                   "<br>- No music and some sound effects are missing"
 );
 		
 // render the compatibilty chart
