@@ -11,7 +11,7 @@ And you know what they say: "To save the world, you have to push a few old ladie
 stairs.". So we made a mother-load of fixes in this release. Some of the wonderful things 
 you will no LONGER see in ScummVM include:
 <UL>
-<LI>Glitches using an OGG'ed monster.sou in games playing multiple simultanious sfx
+<LI>Glitches using an Ogg Vorbis talkie file in some games
 <LI>Crashes on 64-bit machines
 <LI>Crashes when saving to an invalid directory in Broken Sword 1
 <LI>Lots of sound glitches in Curse of Monkey Island, Full Throttle and The Dig
