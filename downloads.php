@@ -35,10 +35,10 @@ echo html_round_frame_start("Downloads","");
 	</p>
 
 	<p>
-	The latest STABLE release of ScummVM is 0.6.0, and can be downloaded below. For UNSTABLE experimental versions of ScummVM,
-	please see the <a href="#CVS">CVS</a> section, at the end of this page. <a href="#extras">Extras</a>, such as the freeware
-	release of Beneath a Steel Sky and Flight of the Amazon Queen, as well as Broken Sword cutscene packs, can also be found
-	below.
+	The latest STABLE release of ScummVM is 0.6.0, and can be downloaded below under 'Release Binaries'.<BR>
+	For UNSTABLE experimental versions of ScummVM,	please see the <a href="#CVS">CVS</a> section, at the end of this page.<BR>
+	 <a href="#extras">Extras</a>, such as the freeware release of Beneath a Steel Sky and Flight of the Amazon Queen, as well as Broken Sword cutscene 
+packs, can also be found below.
 	</p>
 
 	<hr>
