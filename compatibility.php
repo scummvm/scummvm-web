@@ -82,7 +82,8 @@ $games = array(
 		'Simon The Sorcerer 1 (DEMO)'          			=> array('n/a','simon1demo','75'),
 		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','80'),
 		'Simon The Sorcerer 2 Talkie (Dos)'       		=> array('n/a','simon2talkie','80'),
-		'Simon The Sorcerer 2 (Dos)'           			=> array('n/a','simon2dos','75')
+		'Simon The Sorcerer 2 (Dos)'           			=> array('n/a','simon2dos','75'),
+		'Simon The Sorcerer 2 (DEMO)'          			=> array('n/a','simon2demo','75')
 	      );
 
 $notes = array(
@@ -141,6 +142,8 @@ $notes = array(
                    "<br>- Freezes briefly during sequence shown when trying to escape from pirate ship".
                    "<br>- No music".
                   "<br>- Various minor graphical glitches"
+"simon2demo" 	=> "Game demo is completable but doesn't end".
+                   "<br>- No music"
 );
 		
 // render the compatibility chart
