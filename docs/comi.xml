@@ -15,8 +15,11 @@
 	</style>
 <ul>
 <li>Generic:
+<li>Sound:
 	<ul>
 		<li>No SMUSH Audio: aquadran is working on this one
+		<li>Voices 'pop'
+		<li>Occasional crashes from 'sound que buffer overflow'
 	</ul>
 <li>Graphics:
 	<ul>
@@ -24,6 +27,10 @@
 		<li>Some text does not undraw correctly, again leaving behind artifacts
 	</ul>
 <li>Inventory:
+	<ul>
+		<li>Upon combining two items in such a way as to reduce a two-page inventory to a one-page, trying to select the last 
+item will actually return the second-last item
+	</ul>
 <li>Conversation:
 	<ul>
 		<li>The background of the conversation verbs is not redrawn properly. Specifically,
@@ -32,6 +39,8 @@
 <li>Actor:
 	<ul>
 		<li>The CHORE opcode still seems to be returning dodgy results
+		<li>setActorChoreLimbFrame isn't quite correct, eg Wallys animation after throwing the hook will show a few phantom 
+frames of his 'throw hook' and 'standing at cannon' animation
 		<li>Lack of MouthSync stuff causes odd actor speech animations
 		<li>Lack of MusicMouthSync will stop entry into Part 3 (hang during song sequence)
 		<li>Actor occasionally gets stuck - related to scaling bug? <b>(is this still there now scaling is implemented?)</b>
