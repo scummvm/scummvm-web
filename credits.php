@@ -85,7 +85,6 @@ echo html_round_frame_start("Credits","");
 	  add_person("Kov&aacute;cs Endre J&aacute;nos", "", "Several fixes for Simon1");
 	  add_person("Jeroen Janssen", "", "Numerous readability and bugfix patches");
 	  add_person("Claudio Matsuoka", "", 'Provided aily Linux/BeOS builds in the past');
-	  add_person("Gregory Montoir", "", "AdvanceMAME Scale-2X, TV 2x and Dot Matrix implementation");
 	  add_person("Mikesch Nepomuk", "", "MI1 VGA Floppy patches");
 	  add_person("Nicolas Noble", "pixels", "Config file and ALSA support");
 	  add_person("Edward Rudd", "", "Fixes for playing MP3 versions of MI1/Loom Audio");
