@@ -76,10 +76,12 @@ $games = array(
 		'Full Thottle'						=> array('7','ft','75'),
                 'The DIG'                                               => array('7','dig','85'),
 		'Curse of Monkey Island'				=> array('8','curse','5'),
-		'Simon The Sorcerer 1 (Win)'           			=> array('n/a','simon1win','95'),
+		'Simon The Sorcerer 1 Talkie (Win)'       		=> array('n/a','simon1win','95'),
+		'Simon The Sorcerer 1 Talkie (Dos)'       		=> array('n/a','simon1talkie','95'),
 		'Simon The Sorcerer 1 (Dos)'           			=> array('n/a','simon1dos','95'),
 		'Simon The Sorcerer 1 (DEMO)'          			=> array('n/a','simon1demo','60'),
-		'Simon The Sorcerer 2 (Win)'           			=> array('n/a','simon2win','60'),
+		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','60'),
+		'Simon The Sorcerer 2 Talkie (Dos)'       		=> array('n/a','simon2talkie','60')
 		'Simon The Sorcerer 2 (Dos)'           			=> array('n/a','simon2dos','5')
 	      );
 
@@ -117,14 +119,23 @@ $notes = array(
 		   "<br>- Derby scene is only properly controlable using the mouse",
 "dig"		=> "Game is fully completable, with some minor sound issues",
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
-"simon1win" 	=> "No known problems, Game is completable.",
-"simon1dos" 	=> "No known problems, Game is completable.".
-                   "<br>- No sound effects",
+"simon1win" 	=> "Game is completable.",
+                   "<br>- Various minor graphical glitches",
+"simon1talkie" 	=> "Game is completable.".
+                   "<br>- No music looping".
+                   "<br>- Various minor graphical glitches",
+"simon1dos" 	=> "Game is completable.".
+                   "<br>- No sound effects".
+                   "<br>- Various minor graphical glitches",
 "simon1demo" 	=> "Game demo is completable to a point, but not playable to the end".
                    "<br>- No music",
+"simon2talkie"  => "Game is completable to a point, but not playable to the end".
+                   "<br>- No music and some sound effects are missing".
+                   "<br>- Part of introduction is skipped".
+                   "<br>- Various minor graphical glitches",
 "simon2win"     => "Game is completable to a point, but not playable to the end".
-                   "<br>- Some sound effects are missing.".
-                   "<br>- Part of introduction is skipped.".
+                   "<br>- Some sound effects are missing".
+                   "<br>- Part of introduction is skipped".
                    "<br>- Various minor graphical glitches",
 "simon2dos"     => "Not fully implemented yet.".
                    "<br>- No music and some sound effects are missing"
