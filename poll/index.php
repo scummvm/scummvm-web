@@ -33,13 +33,24 @@ echo html_round_frame_start("Website Revamp contest poll","");
 	</tr>
 	</table>
 	
-	<p><b>Temporarily closed due to cheating :)</b></p>
-<!--	<p>For techincal reasons, the actual poll is hosted at an
-	external location (the homepage of one of our team members,
-	to be precise). And somewhat annoyingly, it's partially german -- but hopefully you'll
-	get along anyway, just keep in mind that "Abstimmen" means "Vote" and
-	"Ergebnisse zeigen" means "Show results".</p>
-	<p><b><a href="http://dev.quendi.de/tinc?key=M64eHnpS" target="_blank">Go to the poll</a></b></p> -->
+<!-- // Begin Pollhost.com Poll Code // -->
+<form method=post action=http://poll.pollhost.com/vote.cgi>
+<table border=0 width=150 bgcolor=#EEEEEE cellspacing=0 cellpadding=2>
+<tr><td colspan=2><font face="Arial" size=-1 color="#000000"><b>Which design do you prefer for the new ScummVM website?</b></td></tr>
+<tr><td width=5><input type=radio name=answer value=1></td><td><font face="Arial" size=-1 color="#000000">I just love arturom!</td></tr>
+<tr><td width=5><input type=radio name=answer value=2></td><td><font face="Arial" size=-1 color="#000000">Oh, draven is *sooo* cool!</td></tr>
+<tr><td width=5><input type=radio name=answer value=3></td><td><font face="Arial" size=-1 color="#000000">The one and only choice is ... jeanm!</td></tr>
+<tr><td width=5><input type=radio name=answer value=4></td><td><font face="Arial" size=-1 color="#000000">The old website is kinda cute... so ... green... and purple...</td></tr>
+<tr><td colspan=2>
+<input type=hidden name=config value="c2N1bW12bQkxMTAzMjk1MDM3CUVFRUVFRQkwMDAwMDAJQXJpYWwJQXNzb3J0ZWQ">
+<center><input type=submit value=Vote></center>
+</td></tr>
+<tr><td bgcolor=#FFFFFF colspan=2 align=right><font face="Arial" size=-2 color="#000000"><a href=http://www.pollhost.com/><font color=#000099>Free polls from Pollhost.com</font></a></td></tr>
+</table></form>
+<!-- // End Pollhost.com Poll Code // -->
+
+	<p>For techincal reasons, the actual poll is hosted at an
+	external location. And somewhat annoyingly, it's adware-driven.
 	
 	<p>
 	One final note: We do not promise anything regarding the outcome of the poll. In particular, we don't guarantee that 
