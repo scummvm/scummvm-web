@@ -98,16 +98,13 @@ $games = array(
 		'Broken Sword I'			       		=> array('n/a','sword1','85'),
 		'Broken Sword II'			       		=> array('n/a','sword2','90'),
 		'Flight of the Amazon Queen'			       	=> array('n/a','queen','90'),
- 		'Simon The Sorcerer 1 Talkie (Win)'			=> array('n/a','simon1win','95'),
-		'Simon The Sorcerer 1 Talkie (DOS)'       		=> array('n/a','simon1talkie','93'),
+		'Simon The Sorcerer 1 Talkie'       			=> array('n/a','simon1talkie','93'),
 		'Simon The Sorcerer 1 Talkie (Amiga CD32)'     		=> array('n/a','simon1cd32','8'),
  		'Simon The Sorcerer 1 Talkie (Acorn)'			=> array('n/a','simon1acorn','93'),
 		'Simon The Sorcerer 1 (DOS)'           			=> array('n/a','simon1dos','93'),
 		'Simon The Sorcerer 1 (Amiga)'          		=> array('n/a','simon1amiga','5'),
 		'Simon The Sorcerer 1 (Demo)'          			=> array('n/a','simon1demo','93'),
-		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','95'),
-		'Simon The Sorcerer 2 Talkie (DOS)'       		=> array('n/a','simon2talkie','95'),
-		'Simon The Sorcerer 2 Talkie (Amiga or Mac)'       	=> array('n/a','simon2mac','95'),
+		'Simon The Sorcerer 2 Talkie'       			=> array('n/a','simon2talkie','95'),
 		'Simon The Sorcerer 2 (DOS)'           			=> array('n/a','simon2dos','95')
 	      );
 
@@ -225,8 +222,8 @@ $notes = array(
 		   "<br>- Only the PC version has been tested. We don't have any other versions, so we can't make any promises about them.",
 "queen"		=> "No known issues, game is completable.".
 		   "<br>- Some versions may require the <a href=\"http://0x.7fc1.org/fotaq/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases",
-"simon1win" 	=> "No known issues, game is completable.",
-"simon1talkie" 	=> "No known issues, game is completable.",
+"simon1talkie" 	=> "No known issues, game is completable.".
+		   "<br>- Both DOS and Windows versions supported by this target",
 "simon1cd32" 	=> "Game is completable, with major graphics glitches".
                    "<br>- Character and background graphics are decoded incorrectly".
                    "<br>- No music",
@@ -236,12 +233,11 @@ $notes = array(
                    "<br>- Character and background graphics are decoded incorrectly".
                    "<br>- No music",
 "simon1demo" 	=> "No known issues, game demo is completable.",
-"simon2win"     => "No known issues, game is completable.",
-"simon2talkie"  => "No known issues, game is completable.",
-"simon2dos"     => "No known issues, game is completable.",
-"simon2mac"     => "No known issues, game is completable.".
-                   "<br>- Only default language (English) in data files is supported".
-                   "<br>- F10 key animation is different"
+"simon2talkie"  => "No known issues, game is completable.".
+		   "<br>- Amiga, DOS, Macintosh and Windows versions supported by this target".
+                   "<br>- Only the default language (English) in Amiga & Mactinosh versions is supported".
+                   "<br>- F10 key animation is different in Amiga & Macintosh versions".
+"simon2dos"     => "No known issues, game is completable."
 );
 		
 // render the compatibility chart
