@@ -45,6 +45,7 @@
 		<li><p>Add long style command line arguments that work in a portable manner across many systems ie --foo-bar as we are quickly running out of single letters to use for arguments, and they make more sense</p></li>
 		<li><p>Fix handling of Kanji in FmTowns games (foreground is actually rendered on a second plane at 640x480)</p></li>
 		<li><p>Improve support for non PC versions of games</p></li>
+		<li><p>Figure out how to extract data from c64/appleII/nes versions</p></li>
 	</ul>
 	<h3>New GUI</h3>
 	<ul>
@@ -93,7 +94,7 @@
 		</ul>
 		<li><h4>Indiana Jones and the Last Crusade EGA</h4>
 		<ul>
-			<li>Add adlib music support</li>
+			<li>Add adlib sound support</li>
 			<li>Add music and sound effects support for Amiga version</li>
 		</ul>
 		<li><h4>Indiana Jones and the Last Crusade</h4>
@@ -103,12 +104,13 @@
 		</ul>
 		<li><h4>Loom EGA</h4>
 		<ul>
-			<li>Add adlib music support</li>
-			<li>Make reflect work on rusty see 
-			<a href="http://users.bigpond.net.au/tgray2/loom.s07">here</a> for a save. reflect is
-			affa in the save game</li>
+			<li>Add adlib/roland sound support</li>
 			<li>Make distaff save/restore correctly</li>
 			<li>Add music and sound effects support for Amiga version</li>
+		</ul>
+		<li><h4>Loom TurboGrafx 16/PC Engine</h4>
+		<ul>
+			<li>Support this (donations welcome as no one has it...)
 		</ul>
 		<li><h4>Passport to Adventure</h4>
 		<ul>
