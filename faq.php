@@ -277,7 +277,11 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
       
       <li><p><a name="4-5"></a><b>My game crashes at some point.</b><br>
       	Check the <a href="compatibility.php">Compatibility List</a> to see if your game has any known issues. If you can
-	reproduce this crash more than once, please report it to our Bug Tracker. See <a href="#4-10">4.10</a>.</p></li>
+	reproduce this crash more than once, please report it to our Bug Tracker. See <a href="#4-10">4.10</a>.
+        <br>
+        If you are experiencing random crashes, and your game plays music from
+        CD, you have encountered a Windows bug. Try copying the data files from
+        CD to your hard disk, and running them from there.</p></li>
       
       <li><p><a name="4-6"></a><b>ScummVM crashes, but console window disappears too quick to see the error message.</b><br>
 	To make it visible, you should run ScummVM from command line. To open a 
