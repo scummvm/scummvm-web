@@ -33,6 +33,9 @@ h1, h2		{
 }
 h1 .caption	{ font-size: 8pt; font-weight: normal; }
 
+th { font-size: 12pt; }
+.md5 { font-family: Lucida Console, monospace; }
+
 /* news items */
 .news-item .news-header	{
 	font-weight: bold;
