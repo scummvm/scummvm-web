@@ -29,9 +29,9 @@ echo html_round_frame_start("Contact","98%","",20);
 	<table border=0 cellpadding=10 cellspacing=0>
 	  
 	  <tr>
-	    <td><a href="http://sourceforge.net/sendmessage.php?touser=341696" target="_blank">Ludvig Strigeus</a></td>
-	    <td>[ strigeus ]</td>
-	    <td>- Lead Programmer, Project Admin</td>
+	    <td><a href="http://sourceforge.net/sendmessage.php?touser=2715" target="_blank">James Brown</a></td>
+	    <td>[ endy ]</td>
+	    <td>- Developer, Current Project Admin</td>
 	  </tr>
 	  
 	  <tr>
@@ -46,6 +46,12 @@ echo html_round_frame_start("Contact","98%","",20);
 	    <td>- Webmaster</td>	  
 	  </tr>
 
+	  <tr>
+	    <td>Ludvig Strigeus</td>
+	    <td>[ strigeus ]</td>
+	    <td>- Original ScummVM author, Former Project Admin</td>
+	  </tr>
+	  
 	  <tr>
 	    <td colspan=3><a href="http://sourceforge.net/project/memberlist.php?group_id=37116">Everybody else...</a></td>
 	  </tr>
