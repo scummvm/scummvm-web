@@ -10,13 +10,6 @@
 		<li>strings that contain PU_M, EC_, SA_, or BT_ should not reach playBundleSound() as they don't
 		have audio equivalents.
 	</ul>
-<li>Sound:
-	<ul>
-		<li>The sound que fills up, resulting in a spew of warnings. This should never fill up anyway, so it's a bug.
-		Easy way to reproduce (although it happens everywhere), start ComI with -d0 -b605, hit ctrl-g... eventually
-		things will get spammy.
-		<li>Misimplementation of imGetMusicPosition kernel function breaks song sync in Part 3 intro
-	</ul>
 <li>Graphics:
 	<ul>
 		<li>Some text does not undraw correctly, again leaving behind artifacts (eg, conversation text)
