@@ -25,7 +25,7 @@ the scripts, and so can be used for storing anything that might be useful;
 however, the contents of an array is not stored in the data file and can only
 be set at run time. Arrays can be dynamically allocated and freed as desired,
 but only a limited number are available. See the section on Arrays in the <a
-href="scrp.html">Scripts</A> chapter for more information.
+href="scrp.php">Scripts</A> chapter for more information.
 
 <p>The way Arrays work was redesigned completely between V5 and V6.
 
