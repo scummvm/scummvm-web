@@ -91,9 +91,9 @@ $demos = array(
 		=> array('http://prdownloads.sourceforge.net/scummvm/BASS-CD.zip?download', 'sky'),
 	'Broken Sword II'
 		=> array('http://ftp.se.kde.org/pub/pc/games/pcgameworld/demos/bs2-demo.zip', 'sword2demo'),
-	'Flight of the Amazon Queen'
+	'Flight of the Amazon Queen (Datafile only)'
 		=> array('http://0x.7fc1.org/fotaq/fotaq_demo.zip', 'queencomp'),
-	'Flight of the Amazon Queen (PCGAMES)'
+	'Flight of the Amazon Queen (PCGAMES demo, Datafile only)'
 		=> array('http://0x.7fc1.org/fotaq/fotaq_demo_pcgames.zip', 'queencomp')
 	);
 
