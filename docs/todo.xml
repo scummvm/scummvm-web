@@ -58,17 +58,18 @@
 		</ul>
 		<li><h4>Monkey1EGA</h4>
 		<ul>
-			<li>The demo version locks up during introduction</li>
+			<li>Several small bugs (see bug list)</li>
 		</ul>
 		<li><h4>Monkey1VGA</h4>
 		<ul>
 			<li>Add music and sound effects support for Amiga version</li>
+			<li>Several small bugs (see bug list)</li>
 			<li><i>Ask: MadMoose, Fingolfin</i></li>
 		</ul>
 		<li><h4>Monkey2</h4>
 		<ul>
 			<li>Fix palette problems in Amiga version</li>
-			<li>The demo version crashes after Lucasarts logo</li>
+			<li>Add support for playback from *.rec file for demo version</li>
 		</ul>
 		<li><h4>Zak256</h4>
 		<ul>
@@ -88,6 +89,7 @@
 		</ul>
 		<li><h4>Indiana Jones and the Last Crusade</h4>
 		<ul>
+			<li>Several small bugs (see bug list)</li>
 			<li><i>Ask: Ender</i></li>
 		</ul>
 		<li><h4>Loom EGA</h4>
