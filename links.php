@@ -71,10 +71,10 @@ echo html_round_frame_start("Links","98%","",20);
 	<blockquote>
 	<table border=0 cellpadding=5 cellspacing=0>
 
-	  <tr><td><a href="http://www.sebelinteractive.de/scummvm/"><b>Amiga port</b></a></td></tr>
+	  <tr><td><a href="http://www.sebelinteractive.de/scummvm/"><b>Amiga ports</b></a></td></tr>
 	  <tr>
 	    <td><blockquote>
-	    An unofficial amiga port.
+	    News site containing links and news for unofficial Amiga ports.
 	    </blockquote></td>
 	  </tr>
 
@@ -84,26 +84,6 @@ echo html_round_frame_start("Links","98%","",20);
 	    An unofficial port to the Sony Ericsson P800 running Symbian 7.0.
 	    </blockquote></td>
 	  </tr>
-
-<!--
-	  <tr><td><a href="http://www.algonet.se/~chaozer/warpscumm.html"><b>Amiga port (based on SDL backend)</b></a></td></tr>
-	  <tr>
-	    <td><blockquote>
-	    Not to be confused with our MorphOS port, this port runs on the "classic" AmigaOS 3.1.
-	    It uses WarpSDL, a special SDL clone written for maximum speed on the Amiga.<br>
-	    Unfortunately, it seems they only have ScummVM version 0.2.0 (waaay outdated).
-	    </blockquote></td>
-	  </tr>
-
-	  <tr><td><a href="http://nogfx.free.fr/scummvm/"><b>Amiga port (based on MorphOS backend)</b></a></td></tr>
-	  <tr>
-	    <td><blockquote>
-	    Another Amiga port. Unlike the above port, it's not based on the SDL backend, but rather
-	    on a modified version of the MorphOS backend.<br>
-	    While newer than the above port, they also are a bit behind and carry ScummVM version 0.3.0b.
-	    </blockquote></td>
-	  </tr>
--->
 	</table>
 	</blockquote>
 
@@ -172,8 +152,8 @@ International House of Mojo should be your very first stop.
 	  <tr>
 	    <td><blockquote>
             DoubleFine is the company of the lovable Tim Schafer, the genius behind some of the best of the worst gags and games in 
-LucasArts history. Go buy Psychonauts, their new game. Because if you don't, their super-intelligent news script will know.. Oh yes, 
-it will know..
+LucasArts history. Go buy Psychonauts, their new game. Because if you don't, the rats will
+get you and eat your family, computer and house. And poop everywhere.
 	    </blockquote></td>
 	  </tr>
 	  <tr><td><a href="http://www.revgames.com/"><b>Revolution Software</b></a></td></tr>
@@ -181,7 +161,7 @@ it will know..
 	    <td><blockquote>
 	    Revolution Software are the people behind such wonderful titles as Beneath a Steel Sky and
 	    the Broken Sword series of games. Revolution have provided us with the source code to some
-	    of these games so that we can add support for them, thanks guys!
+	    of these games so that we can add support for them, and allowed us to release B.A.S.S as freeware. Thanks guys!
 	    </blockquote></td>
 	  </tr>
 
