@@ -89,8 +89,7 @@ $notes = array(
                    "<br>- Inventory scrolling not implemented, making it impossible to carry more than 4 objects at once" .
                    "<br>- Missing/Incorrect SCUMM opcodes cause occasional crashes",
 "zak256"        => "Game is completable." .
-                   "<br>- No music or sound effects" . 
-                   "<br>- You may become stuck buying items at the shop. If so, escape by hitting Ctrl-D to enter the debugger. Then type 'r 5', return, 'q', return. You will appear in the street outside the shop. Reenter for your inventory to reappear." ,
+                   "<br>- No music or sound effects" ,
 "loom"		=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Loom CD version",
 "monkeyega"	=> "Copy protection screen will show, but game crashes shortly afterwards.<BR>Graphics decoders and SCUMM opcodes not implimented yet.",
 "loomcd"        => "Game is completable." .
