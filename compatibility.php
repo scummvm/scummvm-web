@@ -124,7 +124,7 @@ $notes = array(
 		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
 		   "<br>- No music or sound effects looping with Amiga version".
 		   "<br>- No music or sound effects with Mac version",
-"indy3"         => "Game is completable" .
+"indy3"         => "Game is completable",
 "indy3towns"    => "Game is completable." .
                    "<br>- Sounds with partial loops, loop the whole sample instead of just that portion".
                    "<br>- Kanji version isn't supported",
@@ -140,7 +140,7 @@ $notes = array(
 "pass"		=> "At least partly playable".
                    "<br>- No subtitles in indy3 demo".
                    "<br>- No sound effects",
-"loomcd"        => "Game is completable." .
+"loomcd"        => "Game is completable.".
                    "<br>- Various minor graphical glitches",
 "monkeyvga"	=> "Game is completable.".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
