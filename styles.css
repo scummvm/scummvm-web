@@ -11,6 +11,7 @@ p, body, td, h2, h3, h4, h5, h6 {
 	font-size: 10pt;
 }
 
+
 /* General stuff */
 H1			{ font-size: 12pt; }
 PRE			{ font-family: Lucida Console, monospace; font-size: 10pt; }
@@ -35,25 +36,6 @@ h1 .caption	{ font-size: 8pt; font-weight: normal; }
 
 th { font-size: 12pt; }
 .md5 { font-family: Lucida Console, monospace; }
-
-/* news items */
-.news-item .news-header	{
-	font-weight: bold;
-	font-size: medium;
-	background-image: url(images/grey_pixel.gif);
-	background-repeat: repeat-x;
-	background-position: left bottom;
-	padding-bottom: 1px;
-}
-
-.news-item  .news-header .date	{
-	font-style: normal;
-	color: #666666;
-}
-
-.news-item .news-body	{
-	margin: 1em 40px 2em 40px;
-}
 
 /* query row colors */
 .color0		{ background-color: #E0E0E0 }
@@ -165,7 +147,61 @@ th { font-size: 12pt; }
 .pct95		{ background-color: #8cff60; }
 .pct100		{ background-color: #60ff60; }
 
-/* from here down is stuff for the scumm reference guide */
+/* ------------------------------------------------------- */
+
+/*
+ * News items
+ * Used on front page
+ */
+.news-item .news-header	{
+	font-weight: bold;
+	font-size: medium;
+	background-image: url(images/grey_pixel.gif);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	padding-bottom: 1px;
+}
+
+.news-item  .news-header .date	{
+	font-style: normal;
+	color: #666666;
+}
+
+.news-item .news-body	{
+	margin: 1em 40px 2em 40px;
+}
+
+/* ------------------------------------------------------- */
+
+/*
+ * Link list
+ * Used by links.php
+ */
+.linklist {
+	margin-left: 3em;
+
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+.linklist .linkentry {
+	margin-bottom: 1em;
+}
+
+.linklist .linkentry .linkhead {
+	font-weight: bold;
+}
+
+.linklist .linkentry .linkbody {
+	padding: 5px 5px 5px 3em;
+}
+
+/* ------------------------------------------------------- */
+
+/*
+ * Stuff for the scumm reference guide
+ */
 
 TABLE.bitfield TH {
         text-align: center;
