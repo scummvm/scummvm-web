@@ -1,0 +1,25 @@
+<NAME>ScummVM 0.5.1 released</NAME>
+<DATE>Aug 08, 2003</DATE>
+<BODY>
+<p>
+ScummVM version 0.5.1 was released today, fixing several issues uncovered since
+ScummVM 0.5.0.
+</p>
+<p>
+The following changes are included in this release:
+<UL>
+<LI>Beneath a Steel Sky savegame code completely rewritten, eliminating several
+situations where ScummVM 0.5.0 would produce unusable 'frozen' saved games
+<LI>Several other Beneath a Steel Sky bugs have been fixed
+<LI>Some Curse of Monkey Island actor graphical issues have been fixed
+<LI>Some issues when running ScummVM fullscreen under MacOS X have been resolved
+<LI>MorphOS port has undergone several critical bugfixes
+<LI>Dreamcast port now supports Simon the Sorcerer 1 and 2
+</UL>
+</p>
+<p>
+We recommend all users upgrade to this release. Please note that whilst BASS
+saves from 0.5.0 are compatible with this release, we recommend restarting your
+game using the 0.5.1 save system if you continue to experience problems.
+</p>
+</BODY>
