@@ -87,6 +87,7 @@ are doing), please see the <a href="#CVS">CVS</a> section, near the end of this 
 	<h3>0.6.0 Tools (mostly unsupported)</h3>
 	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.6.0-win32.exe?download">Tools - Windows Installer</a> <small>(118k Win32 .exe)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.6.0-macosx.tar.bz2?download">Tools - Mac OS X binary</a> <small>(143k .tar.bz2)</small></li>
 	</ul>
 
 	<h3>0.6.0 Source Code</h3>
@@ -108,7 +109,6 @@ are doing), please see the <a href="#CVS">CVS</a> section, near the end of this 
 		have older versions around, for your convenience.
 	</p>
 	<ul>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.5.0-macosx.tar.gz?download">Tools 0.5.0 - Mac OS X binary</a> <small>(120k .tar.gz)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.5.0-solaris8-sparc.tar.gz?download">Tools 0.5.0 - Solaris 8 binary</a> <small>(121k .tar.gz)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.1-morphos.tar.gz?download">ScummVM 0.5.1 - MorphOS binary</a> <small>(857 .tar.gz)</small></li>
 	</ul>
