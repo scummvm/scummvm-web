@@ -27,8 +27,8 @@
 	<p>Here is a list of things we plan to do for the future. Note that we don't promise to do any of these, nor when we will do them. It's just a list
 	of what we hope to be able to do one day.</p>
 	<ul>
-	<li>Music and sound effects in Indy3Vga, MonkeyEGA and MonkeyVGA</li>
-	<li>proper Full Throttle support</li>
+	<li>Music and sound effects in Indy3Vga, MonkeyEga and MonkeyVga</li>
+	<li>Proper Full Throttle support</li>
 	<li>Curse of Monkey Island support (we already have that partially in latest CVS!)</li>
 	<li>Maniac Mansion support</li>
 	<li>Zak McKracken (non-FmTowns) support</li>
@@ -96,7 +96,7 @@
 		<ul>
 			<li>See <a href="../documentation.php?view=comi">here</a> for a list.
 		</ul>
-		<li><h4>Simon</h4>
+		<li><h4>Simon the Sorcerer 1 & 2</h4>
 		<ul>
 			<li>Add proper tranparency support</li>
 			<li>Add XMI music support for simon2dos/talkie</li>
