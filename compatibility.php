@@ -230,7 +230,6 @@ $notes = array(
 		   "<br>- No video for cutscenes",
 "queen"		 => "Game should be completable, with several glitches".
                    "<br>- Various minor graphical glitches".
-		   "<br>- No music.".
 		   "<br>- Requires <a href=\"http://0x.7fc1.org/fotaq/queen.tbl\">queen.tbl</a> resource file",
 "simon1win" 	=> "No known problems - game is completable.",
 "simon1talkie" 	=> "Game is completable.".
