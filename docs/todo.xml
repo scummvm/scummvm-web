@@ -39,10 +39,6 @@
 	<h3>General</h3>
 	<ul>
 		<li><p>Make it possible to restart (scumm) games (properly, current CVS has debugger cmd)</p></li>
-		<li><p>Allow the user to choose between multiple video drivers at startup when multiple choices are possible.
-		E.g. between SDL vs. SDL_gl. Just like one can choose a midi driver. Currently one has to recompile for this.</p></li>
-		<li><p>Add a "help" ingame dialog which lists key shortcuts etc.</p></li>
-		<li><p>Add long style command line arguments that work in a portable manner across many systems ie --foo-bar as we are quickly running out of single letters to use for arguments, and they make more sense</p></li>
 		<li><p>Fix handling of Kanji in FmTowns games (foreground is actually rendered on a second plane at 640x480)</p></li>
 		<li><p>Improve support for non PC versions of games</p></li>
 		<li><p>Figure out how to extract data from c64/appleII/nes versions</p></li>
