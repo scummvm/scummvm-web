@@ -28,7 +28,7 @@ if ($view and file_exists($file_root."/docs/".$view.".xml"))
 	$html = display_xml($file_root."/docs/".$view.".xml",'BODY');
 	// Now evaluate any PHP code embedded into it, and output the result
 	echo '<tr valign="top" class="color2"><td>';
-	echo eval("?>" . $html . "<?php ");
+	echo eval("?x>" . $html . "<x?php ");
 	echo "</td></tr>";
 }
 else
@@ -60,6 +60,14 @@ else
     } // end of docs loop
 
 
+	// Hard code link to TODO for now...
+	echo html_frame_tr(
+				html_frame_td(
+							  html_ahref("ScummVM current areas of focus","http://cvs.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/TODO?rev=HEAD").html_br().
+							  "This page is the current TODO list for ScummVM.".html_br(2)."\n"
+							 )
+					  );
+    
 	// Hard code link to doxygen for now...
 	echo html_frame_tr(
 				html_frame_td(
