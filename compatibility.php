@@ -365,7 +365,8 @@ $notes = array(
 "sword2"	=> "No known issues, game is completable.".
 		   "<br>- Only the PC version has been tested. We don't have any other versions, so we can't make any promises about them.",
 "queen"		=> "No known issues, game is completable.".
-		   "<br>- Some versions may require the <a href=\"http://0x.7fc1.org/fotaq/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases",
+		   "<br>- Some versions may require the <a href=\"http://0x.7fc1.org/fotaq/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases.".
+		   "<br>- Amiga version isn't supported.",
 "ite"		=> "Game is not completable.".
 		   "<br>- Puzzle is missing".
 		   "<br>- Converstaions could be performed only with keyboard".
