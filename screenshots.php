@@ -102,17 +102,17 @@ else
 		// count number of images displayed.
 		$num++;
 
-		// end row at 2
-		if (($num % 2 == 0) && ($num != 1))
-		{
-			echo "</tr><tr>\n";
-		}
-
 		// end at 4
 		if ($num == 4)
 		{
 			$where = $c;
 			break;
+		}
+
+		// end row at 2
+		if (($num % 2 == 0) && ($num != 1))
+		{
+			echo "</tr><tr>\n";
 		}
 	}
 

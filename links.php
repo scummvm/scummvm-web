@@ -296,7 +296,7 @@ GUI frontends for ScummVM.
 	</p>
 	<table border=0 cellpadding=5 cellspacing=0 style="margin-left: 3em;">
 
-          <tr><td><a href="http://quick.mixnmojo.com/"><b>ScummVM Quick And Easy</b></a></tr></tr>
+          <tr><td><a href="http://quick.mixnmojo.com/"><b>ScummVM Quick And Easy</b></a></td></tr>
 	  <tr>
 	    <td style="padding-left: 3em;">
 	    For Win32.

@@ -20,8 +20,8 @@ echo html_round_frame_start("Press Coverage","");
 
 ?>
 <h1>ScummVM press coverage</h1>
-<center><small>(If you wish to contact us in regards to media articles, please e-mail press 
-(@) scummvm.org)</small></center>
+<small>(If you wish to contact us in regards to media articles, please e-mail press 
+(@) scummvm.org)</small>
 	<p><a href="http://www.techtv.com/callforhelp/freefile/story/0,24330,3640615,00.html">
 	   <b>Call for Help show</b></a>, TechTV, March 19th 2004
 	</p>
@@ -30,7 +30,7 @@ echo html_round_frame_start("Press Coverage","");
 	   ><b>Adventure games on PDAs</b></a> (French), PDA Magazine issue 9, Mars/April 2004
 	</p>
 
-	<p><a href="http://www.newsforge.com/article.pl?sid=03/10/07/1527227&mode=thread&tid=22"
+	<p><a href="http://www.newsforge.com/article.pl?sid=03/10/07/1527227&amp;mode=thread&amp;tid=22"
 	   ><b>Bringing old adventure games back to life</b></a>, NewsForge, October 8, 2003
 	</p>
 
