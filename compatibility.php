@@ -58,8 +58,8 @@ else
 
 // This Array Defines the games and thier ratings, etc.
 $games = array(
-		'Maniac Mansion (original)'				=> array('1','maniac','80'),
-		'Maniac Mansion (enhanced)'				=> array('2','maniac','80'),
+		'Maniac Mansion (original)'				=> array('1','maniac','90'),
+		'Maniac Mansion (enhanced)'				=> array('2','maniac','95'),
 		'Zak McKracken and the Alien Mindbenders (original)'	=> array('1','zak','80'),
 		'Zak McKracken and the Alien Mindbenders (enhanced)'	=> array('2','zak','80'),
 		'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zaktowns','90'),
