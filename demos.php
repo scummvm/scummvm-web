@@ -74,7 +74,7 @@ $demos = array(
 	'Day of the Tentacle (non interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Dottdemo.zip', 'dottdemo'),
 	'Full Throttle'
-		=> array('http://quick.mixnmojo.com/demos/ftdemo.zip', 'ft'),
+		=> array('http://quick.mixnmojo.com/demos/ftdemo.zip', 'ftpcdemo'),
 	'The Dig'
 		=> array('http://quick.mixnmojo.com/demos/digdemo.zip', 'dig'),
 	'The Curse of Monkey Island (web demo)'
