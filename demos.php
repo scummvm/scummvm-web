@@ -79,6 +79,28 @@ $demos = array(
 		=> array('http://www.cowlark.com/scumm.dat/moondemo.zip', 'moondemo'),
 	'Fatty Bear\'s Birthday Surprise (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/fatdemo.zip', 'fbdemo'),
+	'Big Thinkers Kindergarten (Demo)'
+		=> array('ftp://ftp.humongous.com/humongous/BTFG95d.EXE', 'kinddemo'),
+	'Big Thinkers First Grade (Demo)'
+		=> array('ftp://ftp.humongous.com/humongous/BTFG95d.EXE', '1grademo'),
+	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Demo)'
+		=> array('ftp://ftp.humongous.com/humongous/freddi.zip', 'freddemo'),
+	'Freddi Fish 2: The Case of the Haunted Schoolhouse (Demo)'
+		=> array('ftp://ftp.humongous.com/humongous/FF2-DEMO.ZIP', 'ff2-demo'),
+	'Freddi Fish 3: The Case of the Stolen Conch Shell (Demo)'
+		=> array('ftp://ftp.humongous.com/humongous/fred3-95.exe', 'f3-mdemo'),
+	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Demo)'
+		=> array('ftp://ftp.humongous.com/humongous/freddi4_demo/freddi4.exe', 'f4-demo'),
+	'Pajama Sam 1: No Need to Hide When It's Dark Outside (Demo)'
+		=> array('ftp://ftp.humongous.com/humongous/pjs-demo.zip', 'pjs-demo'),
+	'Pajama Sam 2: Thunder and Lightning Aren't so Frightening (Demo)'
+		=> array('ftp://ftp.humongous.com/humongous/PJ2Demo.exe', 'pj2demo'),
+	'Putt-Putt Saves the Zoo (Demo'
+		=> array('ftp://ftp.humongous.com/humongous/puttzoo.zip', 'zoodemo'),
+	'Putt-Putt Travels Through Time (Demo)'
+		=> array('ftp://ftp.humongous.com/humongous/putttime.zip', 'timedemo'),
+	'Putt-Putt Enters the Race (Demo)'
+		=> array('ftp://ftp.humongous.com/humongous/puttraceDemo/puttrace.exe', 'racedemo'),
 	'Day of the Tentacle (DOS demo - Non interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Dottdemo.zip', 'dottdemo'),
 	'Full Throttle (Macintosh demo)'
