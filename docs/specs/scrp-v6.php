@@ -41,8 +41,6 @@ recently pushed being <i>in3</i>) and replaces them with two items
 on the stack (the most recently pushed being <i>out2</i>).
 </dl>
 
-</div>
-
 <!-- -->
 
 <div class=opcode>
@@ -97,7 +95,8 @@ on the stack (the most recently pushed being <i>out2</i>).
 
 <!-- -->
 
-<div class=opcode><h2>6.4.6&nbsp;&nbsp; arrayOps<a name="@default220"></a></h3>[t]1.00</h2>
+<div class=opcode>
+<h2>arrayOps</h2>
 This instruction varies considerably according to the form.<br>
 <br>
 
@@ -128,35 +127,40 @@ load&nbsp;array:<dd>A4 CD  <i>arrayp</i><sup><font size=2>16</font></sup>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.8&nbsp;&nbsp; MM 6C breakHere</h2>
+<div class=opcode>
+<h2>MM 6C breakHere</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.9&nbsp;&nbsp; MM CA breakMaybe</h2>
+<div class=opcode>
+<h2>MM CA breakMaybe</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.10&nbsp;&nbsp; MM 5A byteArrayDec</h2>
+<div class=opcode>
+<h2>MM 5A byteArrayDec</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.11&nbsp;&nbsp; MM 52 byteArrayInc</h2>
+<div class=opcode>
+<h2>MM 52 byteArrayInc</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.12&nbsp;&nbsp; byteArrayIndexedRead<a name="@default232"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>byteArrayIndexedRead</h2>
 <br>
 
 <h4>Encoding</h4>0A  <i>arrayp</i><sup><font size=2>8</font></sup> <br>
@@ -183,7 +187,8 @@ for a more general form.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.13&nbsp;&nbsp; byteArrayIndexedWrite<a name="@default234"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>byteArrayIndexedWrite</h2>
 <br>
 
 <h4>Encoding</h4>4A  <i>arrayp</i><sup><font size=2>8</font></sup> <br>
@@ -211,7 +216,8 @@ general form.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.14&nbsp;&nbsp; byteArrayRead<a name="@default236"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>byteArrayRead</h2>
 <br>
 
 <h4>Encoding</h4>06  <i>arrayp</i><sup><font size=2>8</font></sup> <br>
@@ -238,7 +244,8 @@ it can only point to a word variable in the range 0000 to 00FF. Use
 
 <!-- -->
 
-<div class=opcode><h2>6.4.15&nbsp;&nbsp; byteArrayWrite<a name="@default238"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>byteArrayWrite</h2>
 <br>
 
 <h4>Encoding</h4>46  <i>arrayp</i><sup><font size=2>8</font></sup> <br>
@@ -265,42 +272,48 @@ for a more general form.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.16&nbsp;&nbsp; MM 56 byteVarDec</h2>
+<div class=opcode>
+<h2>MM 56 byteVarDec</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.17&nbsp;&nbsp; MM 4E byteVarInc</h2>
+<div class=opcode>
+<h2>MM 4E byteVarInc</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.18&nbsp;&nbsp; MM 9A createBoxMatrix</h2>
+<div class=opcode>
+<h2>MM 9A createBoxMatrix</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.19&nbsp;&nbsp; MM 6B cursorCommand</h2>
+<div class=opcode>
+<h2>MM 6B cursorCommand</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.20&nbsp;&nbsp; MM 68 cutScene</h2>
+<div class=opcode>
+<h2>MM 68 cutScene</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.21&nbsp;&nbsp; delay<a name="@default250"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>delay</h2>
 <br>
 
 <h4>Encoding</h4>B0 <br>
@@ -321,7 +334,8 @@ ticks have passed. Deschedules immediately.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.22&nbsp;&nbsp; delayLonger<a name="@default252"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>delayLonger</h2>
 <br>
 
 <h4>Encoding</h4>B1 <br>
@@ -342,7 +356,8 @@ ticks have passed ( <i>delay</i>  seconds). Deschedules immediately.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.23&nbsp;&nbsp; delayVeryLong<a name="@default254"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>delayVeryLong</h2>
 <br>
 
 <h4>Encoding</h4>B2<br>
@@ -363,7 +378,8 @@ ticks have passed ( <i>delay</i>  minutes). Deschedules immediately.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.24&nbsp;&nbsp; dim<a name="@default256"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>dim</h2>
 <br>
 
 <h4>Encoding</h4>BC  <i>type</i><sup><font size=2>8</font></sup>   <i>arrayp</i><sup><font size=2>16</font></sup> <br>
@@ -393,7 +409,8 @@ What are they?]<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.25&nbsp;&nbsp; dim2<a name="@default258"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>dim2</h2>
 <br>
 
 <h4>Encoding</h4>C0  <i>type</i><sup><font size=2>8</font></sup>   <i>arrayp</i><sup><font size=2>16</font></sup> <br>
@@ -423,28 +440,32 @@ What are they?]<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.26&nbsp;&nbsp; MM C5 distObjectObject</h2>
+<div class=opcode>
+<h2>MM C5 distObjectObject</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.27&nbsp;&nbsp; MM C6 distObjectPt</h2>
+<div class=opcode>
+<h2>MM C6 distObjectPt</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.28&nbsp;&nbsp; MM C7 distPtPt</h2>
+<div class=opcode>
+<h2>MM C7 distPtPt</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.29&nbsp;&nbsp; div<a name="@default266"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>div</h2>
 <br>
 
 <h4>Encoding</h4>17<br>
@@ -469,14 +490,16 @@ cause the interpreter to crash.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.30&nbsp;&nbsp; MM 83 doSentence</h2>
+<div class=opcode>
+<h2>MM 83 doSentence</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.31&nbsp;&nbsp; drawBox<a name="@default270"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>drawBox</h2>
 <br>
 
 <h4>Encoding</h4>A6<br>
@@ -498,7 +521,8 @@ to ( <i>right</i> ,  <i>bottom</i> ) in the colour  <i>colour</i> . <br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.32&nbsp;&nbsp; dup<a name="@default272"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>dup</h2>
 <br>
 
 <h4>Encoding</h4>0C<br>
@@ -518,21 +542,24 @@ to ( <i>right</i> ,  <i>bottom</i> ) in the colour  <i>colour</i> . <br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.33&nbsp;&nbsp; MM 67 endCutScene</h2>
+<div class=opcode>
+<h2>MM 67 endCutScene</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.34&nbsp;&nbsp; MM 96 endOverride</h2>
+<div class=opcode>
+<h2>MM 96 endOverride</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.35&nbsp;&nbsp; eq<a name="@default278"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>eq</h2>
 <br>
 
 <h4>Encoding</h4>0E<br>
@@ -555,28 +582,32 @@ Tests the top two values on the stack to see if they are equal.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.36&nbsp;&nbsp; MM 81 faceActor</h2>
+<div class=opcode>
+<h2>MM 81 faceActor</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.37&nbsp;&nbsp; MM 92 findInventory</h2>
+<div class=opcode>
+<h2>MM 92 findInventory</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.38&nbsp;&nbsp; MM A0 findObject</h2>
+<div class=opcode>
+<h2>MM A0 findObject</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.39&nbsp;&nbsp; freezeUnfreeze<a name="@default286"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>freezeUnfreeze</h2>
 <br>
 
 <h4>Encoding</h4>6A<br>
@@ -606,7 +637,8 @@ be thawed twice before it becomes runnable again.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.40&nbsp;&nbsp; ge<a name="@default288"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>ge</h2>
 <br>
 
 <h4>Encoding</h4>13<br>
@@ -629,105 +661,120 @@ Compares the top two values on the stack. Note the order.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.41&nbsp;&nbsp; MM AB getActorAnimCounter1</h2>
+<div class=opcode>
+<h2>MM AB getActorAnimCounter1</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.42&nbsp;&nbsp; MM 91 getActorCostume</h2>
+<div class=opcode>
+<h2>MM 91 getActorCostume</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.43&nbsp;&nbsp; MM A2 getActorElevation</h2>
+<div class=opcode>
+<h2>MM A2 getActorElevation</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.44&nbsp;&nbsp; MM 9F getActorFromXY</h2>
+<div class=opcode>
+<h2>MM 9F getActorFromXY</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.45&nbsp;&nbsp; MM 8A getActorMoving</h2>
+<div class=opcode>
+<h2>MM 8A getActorMoving</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.46&nbsp;&nbsp; MM 8C getActorRoom</h2>
+<div class=opcode>
+<h2>MM 8C getActorRoom</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.47&nbsp;&nbsp; MM AA getActorScaleX</h2>
+<div class=opcode>
+<h2>MM AA getActorScaleX</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.48&nbsp;&nbsp; MM 90 getActorWalkBox</h2>
+<div class=opcode>
+<h2>MM 90 getActorWalkBox</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.49&nbsp;&nbsp; MM A8 getActorWidth</h2>
+<div class=opcode>
+<h2>MM A8 getActorWidth</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.50&nbsp;&nbsp; MM 93 getInventoryCount</h2>
+<div class=opcode>
+<h2>MM 93 getInventoryCount</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.51&nbsp;&nbsp; MM 8F getObjectDir</h2>
+<div class=opcode>
+<h2>MM 8F getObjectDir</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.52&nbsp;&nbsp; MM 8D getObjectX</h2>
+<div class=opcode>
+<h2>MM 8D getObjectX</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.53&nbsp;&nbsp; MM 8E getObjectY</h2>
+<div class=opcode>
+<h2>MM 8E getObjectY</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.54&nbsp;&nbsp; MM 72 getOwner</h2>
+<div class=opcode>
+<h2>MM 72 getOwner</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.55&nbsp;&nbsp; getRandomNumber<a name="@default318"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>getRandomNumber</h2>
 <br>
 
 <h4>Encoding</h4>87<br>
@@ -749,7 +796,8 @@ the <font color=purple>RandomNumber</font> word variable (see <a href="#System V
 
 <!-- -->
 
-<div class=opcode><h2>6.4.56&nbsp;&nbsp; getRandomNumberRange<a name="@default320"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>getRandomNumberRange</h2>
 <br>
 
 <h4>Encoding</h4>88<br>
@@ -771,35 +819,40 @@ written to the <font color=purple>RandomNumber</font> word variable (see <a href
 
 <!-- -->
 
-<div class=opcode><h2>6.4.57&nbsp;&nbsp; MM 8B getScriptRunning</h2>
+<div class=opcode>
+<h2>MM 8B getScriptRunning</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.58&nbsp;&nbsp; MM 6F getState</h2>
+<div class=opcode>
+<h2>MM 6F getState</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.59&nbsp;&nbsp; MM A3 getVerbEntryPoint</h2>
+<div class=opcode>
+<h2>MM A3 getVerbEntryPoint</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.60&nbsp;&nbsp; MM 94 getVerbFromXY</h2>
+<div class=opcode>
+<h2>MM 94 getVerbFromXY</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.61&nbsp;&nbsp; gt<a name="@default330"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>gt</h2>
 <br>
 
 <h4>Encoding</h4>10<br>
@@ -822,21 +875,24 @@ Compares the top two values on the stack. Note the order.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.62&nbsp;&nbsp; MM 6D ifClassOfIs</h2>
+<div class=opcode>
+<h2>MM 6D ifClassOfIs</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.63&nbsp;&nbsp; MM AF isActorInBox</h2>
+<div class=opcode>
+<h2>MM AF isActorInBox</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.64&nbsp;&nbsp; isAnyOf<a name="@default336"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>isAnyOf</h2>
 <br>
 
 <h4>Encoding</h4>AD<br>
@@ -861,14 +917,16 @@ behaviour will result.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.65&nbsp;&nbsp; MM 98 isSoundRunning</h2>
+<div class=opcode>
+<h2>MM 98 isSoundRunning</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.66&nbsp;&nbsp; MM 73 jump<a name="@default340"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>MM 73 jump</h2>
 <br>
 
 <h4>Encoding</h4>73  <i>offset</i><sup><font size=2>16</font></sup> <br>
@@ -891,7 +949,8 @@ has been decoded.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.67&nbsp;&nbsp; jumpFalse<a name="@default342"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>jumpFalse</h2>
 <br>
 
 <h4>Encoding</h4>5D  <i>offset</i><sup><font size=2>16</font></sup> <br>
@@ -914,7 +973,8 @@ to the current program counter after the instruction has been decoded.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.68&nbsp;&nbsp; jumpTrue<a name="@default344"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>jumpTrue</h2>
 <br>
 
 <h4>Encoding</h4>5C  <i>offset</i><sup><font size=2>16</font></sup> <br>
@@ -938,7 +998,8 @@ been decoded.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.69&nbsp;&nbsp; kill<a name="@default346"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>kill</h2>
 <br>
 
 <h4>Encoding</h4>1A<br>
@@ -958,7 +1019,8 @@ been decoded.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.70&nbsp;&nbsp; land<a name="@default348"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>land</h2>
 <br>
 
 <h4>Encoding</h4>18<br>
@@ -984,7 +1046,8 @@ for <font color=purple>true</font>.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.71&nbsp;&nbsp; le<a name="@default350"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>le</h2>
 <br>
 
 <h4>Encoding</h4>12<br>
@@ -1007,21 +1070,24 @@ Compares the top two values on the stack. Note the order.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.72&nbsp;&nbsp; MM 7B loadRoom</h2>
+<div class=opcode>
+<h2>MM 7B loadRoom</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.73&nbsp;&nbsp; MM 85 loadRoomWithEgo</h2>
+<div class=opcode>
+<h2>MM 85 loadRoomWithEgo</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.74&nbsp;&nbsp; lor<a name="@default356"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>lor</h2>
 <br>
 
 <h4>Encoding</h4>19<br>
@@ -1047,7 +1113,8 @@ for <font color=purple>true</font>.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.75&nbsp;&nbsp; lt<a name="@default358"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>lt</h2>
 <br>
 
 <h4>Encoding</h4>11<br>
@@ -1070,14 +1137,16 @@ Compares the top two values on the stack. Note the order.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.76&nbsp;&nbsp; MM C9 miscOps</h2>
+<div class=opcode>
+<h2>MM C9 miscOps</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.77&nbsp;&nbsp; mul<a name="@default362"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>mul</h2>
 <br>
 
 <h4>Encoding</h4>16<br>
@@ -1099,7 +1168,8 @@ Performs a multiplication operation on the stack. Note the order.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.78&nbsp;&nbsp; neq<a name="@default364"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>neq</h2>
 <br>
 
 <h4>Encoding</h4>0F<br>
@@ -1122,14 +1192,16 @@ Tests the top two values on the stack to see if they are not equal.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.79&nbsp;&nbsp; MM 78 panCameraTo</h2>
+<div class=opcode>
+<h2>MM 78 panCameraTo</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.80&nbsp;&nbsp; pickOneOf<a name="@default368"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>pickOneOf</h2>
 <br>
 
 <h4>Encoding</h4>CB<br>
@@ -1154,7 +1226,8 @@ shutting down.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.81&nbsp;&nbsp; pickOneOfDefault<a name="@default370"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>pickOneOfDefault</h2>
 <br>
 
 <h4>Encoding</h4>CC<br>
@@ -1180,63 +1253,72 @@ will result, usually involving the interpreter shutting down.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.82&nbsp;&nbsp; MM 84 pickupObject</h2>
+<div class=opcode>
+<h2>MM 84 pickupObject</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.83&nbsp;&nbsp; MM B8 printActor</h2>
+<div class=opcode>
+<h2>MM B8 printActor</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.84&nbsp;&nbsp; MM B9 printEgo</h2>
+<div class=opcode>
+<h2>MM B9 printEgo</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.85&nbsp;&nbsp; MM B4 print0</h2>
+<div class=opcode>
+<h2>MM B4 print0</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.86&nbsp;&nbsp; MM B5 print1</h2>
+<div class=opcode>
+<h2>MM B5 print1</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.87&nbsp;&nbsp; MM B6 print2</h2>
+<div class=opcode>
+<h2>MM B6 print2</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.88&nbsp;&nbsp; MM B7 print3</h2>
+<div class=opcode>
+<h2>MM B7 print3</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.89&nbsp;&nbsp; MM A1 pseudoRoom</h2>
+<div class=opcode>
+<h2>MM A1 pseudoRoom</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.90&nbsp;&nbsp; pushByte<a name="@default388"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>pushByte</h2>
 <br>
 
 <h4>Encoding</h4>00  <i>value</i><sup><font size=2>8</font></sup> <br>
@@ -1256,7 +1338,8 @@ will result, usually involving the interpreter shutting down.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.91&nbsp;&nbsp; pushByteVar<a name="@default390"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>pushByteVar</h2>
 <br>
 
 <h4>Encoding</h4>02  <i>pointer</i><sup><font size=2>8</font></sup> <br>
@@ -1279,7 +1362,8 @@ for a more general version of this instruction.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.92&nbsp;&nbsp; pushWord<a name="@default392"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>pushWord</h2>
 <br>
 
 <h4>Encoding</h4>01  <i>value</i><sup><font size=2>16</font></sup> <br>
@@ -1299,7 +1383,8 @@ for a more general version of this instruction.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.93&nbsp;&nbsp; pushWordVar<a name="@default394"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>pushWordVar</h2>
 <br>
 
 <h4>Encoding</h4>03  <i>pointer</i><sup><font size=2>16</font></sup> <br>
@@ -1319,21 +1404,24 @@ for a more general version of this instruction.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.94&nbsp;&nbsp; MM 80 putActorAtObject</h2>
+<div class=opcode>
+<h2>MM 80 putActorAtObject</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.95&nbsp;&nbsp; MM 7F putActorInRoom</h2>
+<div class=opcode>
+<h2>MM 7F putActorInRoom</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.96&nbsp;&nbsp; quitPauseRestart<a name="@default400"></a></h3>[t]1.00</h2>
+<div class=opcode>
+<h2>quitPauseRestart</h2>
 This instruction varies according to the form.<br>
 <br>
 
@@ -1357,119 +1445,136 @@ pause:<dd>AE 9E
 
 <!-- -->
 
-<div class=opcode><h2>6.4.97&nbsp;&nbsp; MM 9B resourceRoutines</h2>
+<div class=opcode>
+<h2>MM 9B resourceRoutines</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.98&nbsp;&nbsp; MM 9C roomOps</h2>
+<div class=opcode>
+<h2>MM 9C roomOps</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.99&nbsp;&nbsp; MM BF runScriptQuick</h2>
+<div class=opcode>
+<h2>MM BF runScriptQuick</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.100&nbsp;&nbsp; MM BE runVerbCodeQuick</h2>
+<div class=opcode>
+<h2>MM BE runVerbCodeQuick</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.101&nbsp;&nbsp; MM A5 saveRestoreVerbs</h2>
+<div class=opcode>
+<h2>MM A5 saveRestoreVerbs</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.102&nbsp;&nbsp; MM 99 setBoxFlags</h2>
+<div class=opcode>
+<h2>MM 99 setBoxFlags</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.103&nbsp;&nbsp; MM 7A setCameraAt</h2>
+<div class=opcode>
+<h2>MM 7A setCameraAt</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.104&nbsp;&nbsp; MM 6E setClass</h2>
+<div class=opcode>
+<h2>MM 6E setClass</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.105&nbsp;&nbsp; MM 97 setObjectName</h2>
+<div class=opcode>
+<h2>MM 97 setObjectName</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.106&nbsp;&nbsp; MM 61 setObjectState</h2>
+<div class=opcode>
+<h2>MM 61 setObjectState</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.107&nbsp;&nbsp; MM 62 setObjectXY</h2>
+<div class=opcode>
+<h2>MM 62 setObjectXY</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.108&nbsp;&nbsp; MM 71 setOwner</h2>
+<div class=opcode>
+<h2>MM 71 setOwner</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.109&nbsp;&nbsp; MM 70 setState</h2>
+<div class=opcode>
+<h2>MM 70 setState</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.110&nbsp;&nbsp; MM AC soundKludge</h2>
+<div class=opcode>
+<h2>MM AC soundKludge</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.111&nbsp;&nbsp; MM 76 startMusic</h2>
+<div class=opcode>
+<h2>MM 76 startMusic</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.112&nbsp;&nbsp; MM 60 startObject</h2>
+<div class=opcode>
+<h2>MM 60 startObject</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.113&nbsp;&nbsp; startScript<a name="@default434"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>startScript</h2>
 <br>
 
 <h4>Encoding</h4>5F<br>
@@ -1495,70 +1600,80 @@ is put into the PENDING state until the new thread is descheduled.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.114&nbsp;&nbsp; MM 5E startScriptEx</h2>
+<div class=opcode>
+<h2>MM 5E startScriptEx</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.115&nbsp;&nbsp; MM 74 startSound</h2>
+<div class=opcode>
+<h2>MM 74 startSound</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.116&nbsp;&nbsp; MM 69 stopMusic</h2>
+<div class=opcode>
+<h2>MM 69 stopMusic</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.117&nbsp;&nbsp; MM 65 stopObjectCode</h2>
+<div class=opcode>
+<h2>MM 65 stopObjectCode</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.118&nbsp;&nbsp; MM 66 stopObjectCode</h2>
+<div class=opcode>
+<h2>MM 66 stopObjectCode</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.119&nbsp;&nbsp; MM 77 stopObjectScript</h2>
+<div class=opcode>
+<h2>MM 77 stopObjectScript</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.120&nbsp;&nbsp; MM 7C stopScript</h2>
+<div class=opcode>
+<h2>MM 7C stopScript</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.121&nbsp;&nbsp; MM B3 stopSentence</h2>
+<div class=opcode>
+<h2>MM B3 stopSentence</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.122&nbsp;&nbsp; MM 75 stopSound</h2>
+<div class=opcode>
+<h2>MM 75 stopSound</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.123&nbsp;&nbsp; sub<a name="@default454"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>sub</h2>
 <br>
 
 <h4>Encoding</h4>15<br>
@@ -1582,49 +1697,56 @@ order.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.124&nbsp;&nbsp; MM BA talkActor</h2>
+<div class=opcode>
+<h2>MM BA talkActor</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.125&nbsp;&nbsp; MM BB talkEgo</h2>
+<div class=opcode>
+<h2>MM BB talkEgo</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.126&nbsp;&nbsp; MM 9E verbOps</h2>
+<div class=opcode>
+<h2>MM 9E verbOps</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.127&nbsp;&nbsp; MM A9 wait</h2>
+<div class=opcode>
+<h2>MM A9 wait</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.128&nbsp;&nbsp; MM 7E walkActorTo</h2>
+<div class=opcode>
+<h2>MM 7E walkActorTo</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.129&nbsp;&nbsp; MM 7D walkActorToObj</h2>
+<div class=opcode>
+<h2>MM 7D walkActorToObj</h2>
 <h3></h3>
 
 </div>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.130&nbsp;&nbsp; wordArrayDec<a name="@default468"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>wordArrayDec</h2>
 <br>
 
 <h4>Encoding</h4>5B  <i>arrayp</i><sup><font size=2>16</font></sup> <br>
@@ -1647,7 +1769,8 @@ resource number is pointed to by  <i>arrayp</i> .<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.131&nbsp;&nbsp; wordArrayInc<a name="@default470"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>wordArrayInc</h2>
 <br>
 
 <h4>Encoding</h4>53  <i>arrayp</i><sup><font size=2>16</font></sup> <br>
@@ -1670,7 +1793,8 @@ resource number is pointed to by  <i>arrayp</i> .<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.132&nbsp;&nbsp; wordArrayIndexedRead<a name="@default472"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>wordArrayIndexedRead</h2>
 <br>
 
 <h4>Encoding</h4>0B  <i>arrayp</i><sup><font size=2>16</font></sup> <br>
@@ -1694,7 +1818,8 @@ array can be a byte or word array; byte values are not sign extended.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.133&nbsp;&nbsp; wordArrayIndexedWrite<a name="@default474"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>wordArrayIndexedWrite</h2>
 <br>
 
 <h4>Encoding</h4>4B  <i>arrayp</i><sup><font size=2>16</font></sup> <br>
@@ -1719,7 +1844,8 @@ The array can be a byte or word array; when writing to a byte array,
 
 <!-- -->
 
-<div class=opcode><h2>6.4.134&nbsp;&nbsp; wordArrayRead<a name="@default476"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>wordArrayRead</h2>
 <br>
 
 <h4>Encoding</h4>07  <i>arrayp</i><sup><font size=2>16</font></sup> <br>
@@ -1743,7 +1869,8 @@ byte or word array; byte values are not sign extended.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.135&nbsp;&nbsp; wordArrayWrite<a name="@default478"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>wordArrayWrite</h2>
 <br>
 
 <h4>Encoding</h4>47  <i>arrayp</i><sup><font size=2>8</font></sup> <br>
@@ -1768,7 +1895,8 @@ truncated. <br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.136&nbsp;&nbsp; wordVarDec<a name="@default480"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>wordVarDec</h2>
 <br>
 
 <h4>Encoding</h4>57  <i>pointer</i><sup><font size=2>16</font></sup> <br>
@@ -1790,7 +1918,8 @@ Decrements the variable pointed to by  <i>pointer</i> .<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.137&nbsp;&nbsp; wordVarInc<a name="@default482"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>wordVarInc</h2>
 <br>
 
 <h4>Encoding</h4>4F  <i>pointer</i><sup><font size=2>16</font></sup> <br>
@@ -1812,7 +1941,8 @@ Increments the variable pointed to by  <i>pointer</i> .<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.138&nbsp;&nbsp; writeByteVar<a name="@default484"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>writeByteVar</h2>
 <br>
 
 <h4>Encoding</h4>42  <i>pointer</i><sup><font size=2>8</font></sup> <br>
@@ -1837,7 +1967,8 @@ form of this instruction, use <font color=purple>writeWordVar</font>.<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.139&nbsp;&nbsp; writeWordVar<a name="@default486"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>writeWordVar</h2>
 <br>
 
 <h4>Encoding</h4>43  <i>pointer</i><sup><font size=2>16</font></sup> <br>
@@ -1859,7 +1990,8 @@ Writes  <i>value</i>  to the variable pointed to by  <i>pointer</i> .<br>
 
 <!-- -->
 
-<div class=opcode><h2>6.4.140&nbsp;&nbsp; zero<a name="@default488"></a></h3>[t]1.00<br></h2>
+<div class=opcode>
+<h2>zero</h2>
 <br>
 
 <h4>Encoding</h4>0D<br>
