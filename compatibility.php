@@ -74,7 +74,7 @@ $games = array(
                 'Sam & Max'                                             => array('6','samnmax','90'),
 		'Sam & Max (DEMO)'					=> array('6','samdemo','95'),
 		'Full Thottle'						=> array('7','ft','40'),
-		'The DIG'						=> array('7','dig','40'),
+                'The DIG'                                               => array('7','dig','40'),
 		'Curse of Monkey Island'				=> array('8','curse','5'),
 		'Simon The Sorcerer'            			=> array('n/a','simon1win','95')
 	      );
@@ -105,12 +105,11 @@ $notes = array(
                    "<br>- Some subgames may not work",
 "samdemo"	=> "No known problems - should be playable to the end",
 "ft"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
-		   "<br>- some palette glitches during movie playback, and missing movie sound".
-		   "<br>- not all sounds and animations playing correctly",
+                   "<br>- some palette glitches during movie playback".
+                   "<br>- no in-game music, and some animations play incorrectly",
 "dig"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
-                   "<br>- missing movie audio".
-		   "<br>- no music and not all animations playing correctly" .
-                   "<br>- freezes occasionally due to actors not walking correctly",
+                   "<br>- freezes occasionally due to actors not walking correctly" .
+                   "<br>- no in-game music, and some animations play incorrectly",
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
 "simon1win" => "No known problems - should be playable to the end"
 );
