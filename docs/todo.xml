@@ -44,7 +44,6 @@
 	<h3>New GUI</h3>
 	<ul>
 		<li>Improve the launcher</li>
-		<li>Add tab support (i.e. allow multiple panes in one dialog)</li>
 		<li><i>Ask: Fingolfin, Ender</i></li>
 	</ul>
 	<h3>Documentation</h3>
@@ -137,7 +136,6 @@
 		<li><h4>The DIG</h4>
 		<ul>
 			<li>Some in-game music and sound issues</li>
-			<li>Actor voice files not supported in demo</li>
 			<li>Fix smooth scrolling support (see comment in gfx.cpp)</li>
 			<li><i>Ask: Ender</i></li>
 		</ul>
@@ -161,7 +159,7 @@
 		</ul>
 		<li><h4>Broken Sword II</h4>
 		<ul>
-			<li>Make code big endian safe</li>
+			<li>Make code alignment safe</li>
 			<li><i>Ask: eriktorbjorn, khalek</i></li>
 		</ul>
 		<li><h4>Simon the Sorcerer 1 & 2</h4>
