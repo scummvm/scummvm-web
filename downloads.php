@@ -111,7 +111,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  <b>Optional Libraries:</b>
 	</p>
 	<ul>
-	  <li><a href="http://www.mars.org/home/rob/proj/mpeg/">MAD</a>: MPEG Audio Decoder</li>
+	  <li><a href="http://www.underbit.com/products/mad/">MAD</a>: MPEG Audio Decoder</li>
 	  <li><a href="http://www.vorbis.com/">Ogg Vorbis</a></li>
 	</ul>
 <?

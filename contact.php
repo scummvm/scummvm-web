@@ -91,7 +91,7 @@ echo html_round_frame_start("Contact","98%","",20);
 	  add_person("Kov&aacute;cs Endre J&aacute;nos", "", "Several fixes for Simon1");
 	  add_person("Janne Huttunen", "", "V3 actor mask support, Dig/FT SMUSH audio");
 	  add_person("Jeroen Janssen", "", "Numerous readability and bugfix patches");
-	  add_person("Claudio Matsuoka", "", 'Daily Linux/BeOS builds (<a href="http://scummvm.sf.net/daily/">http://scummvm.sf.net/daily/</a>)');
+	  add_person("Claudio Matsuoka", "", 'Daily Linux/BeOS builds (<a href="http://scummvm.sourceforge.net/daily/">http://scummvm.sourceforge.net/daily/</a>)');
 	  add_person("Gregory Montoir", "", "AdvanceMAME Scale-2X implementation");
 	  add_person("Mikesch Nepomuk", "", "MI1 VGA Floppy patches");
 	  add_person("Edward Rudd", "", "Fixes for playing MP3 versions of MI1/Loom Audio");

@@ -115,7 +115,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 
       <li><p><a name="1-6"></a><b>Where do I find ScummVM?</b><br>
 	You can find it on the page on SourceForge:
-	<a href="http://www.sourceforge.net/projects/scummvm">http://www.sourceforge.net/projects/scummvm</a>.
+	<a href="http://sourceforge.net/projects/scummvm">http://sourceforge.net/projects/scummvm</a>.
 	You can download the latest version, which could be a little old. For the most recent version,
 	you have to get it via CVS (instructions are on the SourceForge page).</p></li>
 
