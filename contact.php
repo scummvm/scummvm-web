@@ -53,10 +53,10 @@ echo html_round_frame_start("Contact","98%","",20);
 	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=2715" target="_blank">James Brown</a>',
 	  			 '<a href="http://www.enderboi.com/">endy</a>',
 	  			 "Lead developer");
+	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=12935" target="_blank">Max Horn</a>',
+	  			 'fingolfin', "Lead developer");
 	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=345958" target="_blank">Vincent Hamm</a>',
 	  			 'yazoo', "Developer (retired)");
-	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=12935" target="_blank">Max Horn</a>',
-	  			 'fingolfin', "Developer, MacOS X port, new GUI");
 	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=339357" target="_blank">Jeremy Newman</a>',
 	  			 '<a href="http://www.dracowulf.com/">laxdragon</a>', "Webmaster");
 	  add_person('Ludvig Strigeus', 'ludde', "Original ScummVM author, initial Simon support (retired)");
@@ -67,6 +67,7 @@ echo html_round_frame_start("Contact","98%","",20);
       
 	  <?php
 	  add_person("Torbj&ouml;rn Andersson", "eriktorbjorn", "Many different contributions");
+	  add_person("Chris Apers ", "chrilith ", "PalmOS port");
 	  add_person("Nicolas Bacca", "arisme", "PocketPC/WinCE port");
 	  add_person("Ralph Brorsen", "painelf", "His work on the new GUI");
 	  add_person("Jamieson Christian", "jamieson630", "Lots of work on iMuse/MIDI");
