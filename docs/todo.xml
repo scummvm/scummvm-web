@@ -76,7 +76,7 @@
 				<li>Implement a GUI that shows up at the start and allows the user to specify</li>
 				which game to play. At first this could just allow the user to type in a command line;
 				better versions would offer a list of games we know about, etc.</li>
-				<li>Ask: Fingolfin, Endy, painelf</li>
+				<li>Ask: Fingolfin, Ender, painelf</li>
 			</ul>
 			<li><h3>Specific games</h3>
 			<ul>
@@ -88,11 +88,12 @@
 					<li>No in-game music</li>
 					<li>Some animations play incorrectly</li>
 					<li>See also <a href="http://scummvm.sourceforge.net/compatibility.php?details=dig">http://scummvm.sourceforge.net/compatibility.php?details=dig</a></li>
-					<li>Ask: Yazoo, Endy</li>
+					<li>Ask: Yazoo, Ender</li>
 				</ul>
 				<li><h4>Monkey1VGA</h4>
 				<ul>
 					<li>Mainly graphical problems</li>
+					<li>Object masking code is buggy (also causes problems in LoomCD)</li>
 					<li>Bugs:
 						<a href="http://sourceforge.net/tracker/index.php?func=detail&aid=581700&group_id=37116&atid=418820">#581700</a>,
 						<a href="http://sourceforge.net/tracker/index.php?func=detail&aid=583053&group_id=37116&atid=418820">#583053</a>
@@ -107,8 +108,8 @@
 						<a href="http://sourceforge.net/tracker/index.php?func=detail&aid=582365&group_id=37116&atid=418820">#582365</a>,
 						<a href="http://sourceforge.net/tracker/index.php?func=detail&aid=582476&group_id=37116&atid=418820">#582476</a>
 					</li>
-					<li>No music or sound effects (Endy can help you get effects done)</li>
-					<li>Ask: Endy</li>
+					<li>No music or sound effects (Ender can help you get effects done)</li>
+					<li>Ask: Ender</li>
 				</ul>
 				<li><h4>Full Throttle</h4>
 				<ul>
@@ -126,7 +127,7 @@
 				<ul>
 					<li>There is something wrong with the object layering (see <a href="http://sourceforge.net/tracker/index.php?func=detail&aid=556498&group_id=37116&atid=418820">#556498</a></li>
 					<li>iMuse needs work</li>
-					<li>Ask: Endy</li>
+					<li>Ask: Ender</li>
 				</ul>
 				<li><h4>Simon</h4>
 				<ul>
