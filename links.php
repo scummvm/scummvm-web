@@ -71,7 +71,7 @@ echo html_round_frame_start("Links","98%","",20);
 	<blockquote>
 	<table border=0 cellpadding=5 cellspacing=0>
 
-	  <tr><td><a href="http://www.algonet.se/~chaozer/warpscumm.html/"><b>Amiga port (based on SDL backend)</b></a></td></tr>
+	  <tr><td><a href="http://www.algonet.se/~chaozer/warpscumm.html"><b>Amiga port (based on SDL backend)</b></a></td></tr>
 	  <tr>
 	    <td><blockquote>
 	    Not to be confused with our MorphOS port, this port runs on the "classic" AmigaOS 3.1.
