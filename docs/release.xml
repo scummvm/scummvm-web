@@ -219,10 +219,10 @@ function bugs($buglist) {
 	<?php portStatus(array("Win32" => 1, "Linux" => 0, "DC" => 0,
 	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 <tr><td>Broken Sword 1</td>
-	<td>NONE</td>
+	<td>olki (Dec 21)</td>
 	<td>...</td>
 	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
-	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 1, "OpenBSD" => 0)); ?></tr>
 <tr><td>Broken Sword 2</td>
 	<td>NONE</td>
 	<td>...</td>
