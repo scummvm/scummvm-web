@@ -155,7 +155,7 @@ $notes = array(
 "monkey1"	=> "No known issues, game is completable.".
 		   "<br>- Both Mac and PC versions supported by this target",
 "game"		=> "No known issues, game is completable.".
-		   "<br>- No sound effects",
+		   "<br>- Dialogue choices can be selected with 6 (up) 7 (down) or mousewheel, with mouse button or number to select",
 "monkey2"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, FM Towns, Mac and PC versions supported by this target".
 		   "<br>- Various graphical glitches with Amiga version".
