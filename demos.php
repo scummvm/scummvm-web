@@ -59,11 +59,11 @@ $demos = array(
 		=> array('http://www.cowlark.com/scumm.dat/fate.zip', 'fate'),
 	'Indiana Jones and the Fate of Atlantis (non interactive FM Towns)'
 		=> array('http://www.cowlark.com/scumm.dat/indy4demo.zip', 'indydemo'),
-	'Sam and Max Hit the Road (non interacive)'
+	'Sam and Max Hit the Road (non interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/samdemo.zip', 'samdemo'),
-	'Sam and Max Hit the Road (interacive)'
+	'Sam and Max Hit the Road (interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Snmdemo.zip', 'snmdemo'),
-	'Sam and Max Hit the Road WIP (interacive)'
+	'Sam and Max Hit the Road WIP (interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/snmidemo.zip', 'snmidemo'),
 	'Putt-Putt Joins the Parade (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/puttpara.zip', 'puttdemo'),
