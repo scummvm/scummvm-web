@@ -125,6 +125,7 @@ $notes = array(
                    "<br>- Various minor graphical glitches",
 "simon1dos" 	=> "Game is completable to a point, but not playable to the end".
                    "<br>- Freezes when Swampling leaves his house".
+                   "<br>  (Use right mouse button click to get past this freeze)".
                    "<br>- Freezes when talking to demons in Sordid's Tower".
                    "<br>- No sound effects".
                    "<br>- Various minor graphical glitches",
@@ -143,6 +144,8 @@ $notes = array(
                    "<br>- Various minor graphical glitches",
 "simon2dos"     => "Game is completable to a point, but not playable to the end".
                    "<br>- Will freeze during sequence shown when trying to escape from pirate ship".
+                   "<br>  (Use right mouse button click to get past this freeze)".
+                   "<br>- Will freeze when waking up in Sordid's Tower if Simon isn't moved straight away".
                    "<br>- No music".
                    "<br>- Part of introduction is skipped".
                    "<br>- Various minor graphical glitches"
