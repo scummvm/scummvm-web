@@ -30,11 +30,6 @@
 		<li>Upon combining two items in such a way as to reduce a two-page inventory to a one-page, trying to select the last 
 item will actually return the second-last item
 	</ul>
-<li>Conversation:
-	<ul>
-		<li>The background of the conversation verbs is not redrawn properly. Specifically,
-		if they are above actors, the actors are not always drawn when the verb is redrawn
-	</ul>
 <li>Actor:
 	<ul>
 		<li>The CHORE opcode still seems to be returning dodgy results
