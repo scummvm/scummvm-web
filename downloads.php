@@ -94,13 +94,13 @@ echo html_round_frame_start("Download ScummVM","");
 
 	<h3>0.6.1b Source Code</h3>
 	<ul>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-src.tar.bz2?download">ScummVM - Source .tar.bz2</a> <small>(1.6M)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-src.tar.gz?download">ScummVM - Source .tar.gz</a> <small>(1.9M)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-src.zip?download">ScummVM - Source .zip</a> <small>(2.4M)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b.tar.bz2?download">ScummVM - Source .tar.bz2</a> <small>(1.6M)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b.tar.gz?download">ScummVM - Source .tar.gz</a> <small>(1.9M)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b.zip?download">ScummVM - Source .zip</a> <small>(2.4M)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-1.src.rpm?download">ScummVM - Source RPM</a> <small>(2.3M RPM)</small></li>
 
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.6.1-src.tar.bz2?download">Tools 0.6.1 - Source .tar.bz2</a> <small>(80k .tar.bz2)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.6.1-src.zip?download">Tools 0.6.1 - Source .zip</a> <small>(119k .zip)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.6.1.tar.bz2?download">Tools 0.6.1 - Source .tar.bz2</a> <small>(80k .tar.bz2)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.6.1.zip?download">Tools 0.6.1 - Source .zip</a> <small>(119k .zip)</small></li>
 	</ul>
 
 	<h3>Older versions (unsupported)</h3>
