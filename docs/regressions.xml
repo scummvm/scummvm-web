@@ -28,11 +28,6 @@
 	<ul>
 		<li>Failed assetion when turning on (not using) the lighter in the case. See bug report <a href ="http://sourceforge.net/tracker/index.php?func=detail&aid=670942&group_id=37116&atid=418820">670942</a>. scumm/usage_bits.cpp:42: void Scumm::setGfxUsageBit(int, int): Assertion `1 <= bit && bit <= 96' failed.
 	</ul>
-
-<li>Full Throttle:
-	<ul>
-		<li>Can't see Ben or anything else moving in the gas tower scene, only part of inventory/ verb coin visible when using. See savegame <a href="http://users.bigpond.net.au/tgray2/ft.s15">here</a>.
-	</ul>
 </ul>
 
 </BODY>
