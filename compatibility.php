@@ -58,8 +58,8 @@ $games = array(
 		'Maniac Mansion'					=> array('2','maniacega','0'),
 		'Zak McKracken and the Alien Mindbenders'		=> array('2','zakega','0'),
 		'Indiana Jones and the Last Crusade'			=> array('2','indy3ega','0'),
-		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','20'),
-		'Zak McKracken and the Alien Mindbenders (256)'		=> array('3','zak256','20'),
+		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','30'),
+		'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','30'),
 		'LOOM'							=> array('3','loom','0'),
 		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','5'),
 		'LOOM (256 color CD version)'				=> array('5','loomcd','30'),
@@ -71,25 +71,24 @@ $games = array(
 		'Day Of The Tentacle (DEMO)'				=> array('6','dottdemo','95'),
 		'Sam & Max'						=> array('6','samnmax','80'),
 		'Sam & Max (DEMO)'					=> array('6','samdemo','95'),
-		'Full Thottle'						=> array('7','ft','25'),
-		'The DIG'						=> array('7','dig','25'),
+		'Full Thottle'						=> array('7','ft','30'),
+		'The DIG'						=> array('7','dig','30'),
 		'Curse of Monkey Island'				=> array('8','curse','5')
 	      );
 
 $notes = array(
-"maniacc64" 	=> "Not at all implemented yet - ScummVM doesn't understand the file format",
-"zakc64"	=> "Not at all implemented yet - ScummVM doesn't understand the file format",
-"maniacega"	=> "Not at all implemented yet - ScummVM doesn't understand the file format",
-"zakega"	=> "Not at all implemented yet - ScummVM doesn't understand the file format",
-"indy3ega"	=> "Not at all implemented yet - ScummVM doesn't understand the file format",
+"maniacc64" 	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format",
+"zakc64"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
+"maniacega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format",
+"zakega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
+"indy3ega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Indy3-256 version",
 "indy3"		=> "Game will start, but is not playable.<BR>The intro freezes on the LucasArts logo - hit escape to proceed.<BR>".
-                   "Main bugs: Actors not visible, and an error with walkboxes makes it impossible to walk to anything.",
+                   "Main bugs: Missing SCUMM opcodes cause occasional crashes, and incorrect object flags cause some game problems",
 "zak256"	=> "Game will start, but is not playable.<BR>The intro freezes on the LucasArts logo - hit escape to proceed.<BR>".
-                   "Main bugs: Actors not visible, and an error with walkboxes makes it impossible to walk to anything.",
-"loom"		=> "Not at all implemented yet - ScummVM doesn't understand the file format",
-"monkeyega"	=> "Copy protection screen will show, but game crashes shortly afterwards.<BR>Graphics decoders and opcodes not implimented yet.",
-"loomcd"	=> "Game is almost playable, but may crash with invalid opcodes and have graphics problems.<BR>Intro will crash ScummVM at the ".
-                   "end, so hit escape to bypass it.",
+                   "Main bugs: Incorrect object flags result in phantom objects, and cause issues with events such as picking up objects like the cashcard. Inventory scrolling not implemented, making it impossible to carry more than 4 objects at once",
+"loom"		=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Loom CD version",
+"monkeyega"	=> "Copy protection screen will show, but game crashes shortly afterwards.<BR>Graphics decoders and SCUMM opcodes not implimented yet.",
+"loomcd"	=> "Game is somewhat playable, but may crash with invalid SCUMM opcodes and have graphics problems.<BR>Incorrect object flags will cause issues with the Loom Room, and other game events"
 "monkey"	=> "No known problems - should be playable to the end",
 "monkey2"	=> "No known problems - should be playable to the end",
 "atlantis"	=> "Game is completable.".
@@ -101,15 +100,13 @@ $notes = array(
 		   "<br>- Graphic glitches during intro".
                    "<br>- MIDI music currently broken.",
 "samdemo"	=> "No known problems - should be playable to the end",
-"ft"		=> "Game crashes at various points, not playable to the end".
-		   "<br>- some graphic glitches during movie playback".
-		   "<br>- hitting F5 to save/load will crash the game".
+"ft"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
+		   "<br>- some palette glitches during movie playback, and missing movie sound".
 		   "<br>- not all sounds and animations playing correctly",
-"dig"		=> "Game crashes at various points, not playable to the end".
-		   "<br>- some graphic glitches during movie playback".
-		   "<br>- hitting F5 to save/load will crash the game".
+"dig"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
+		   "<br>- some palette glitches during movie playback, and missing moviemissing".
 		   "<br>- not all sounds and animations playing correctly",
-"curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand new-style MAXS block, among other things"
+"curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems"
 );
 		
 // render the compatibilty chart
