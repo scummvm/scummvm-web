@@ -17,9 +17,8 @@
 <ul>
 <li>Generic:
 	<ul>
-		<li>AKOS crash leaving the crash site on Blood Island (scummvm -d0 -b600)
-		<li>Lack of actorHit opcode makes entering swordfighting during ship-to-ship oombat impossible without using shift-v cheat
-		<li>Cannot fire cannons in ship-to-ship combat
+		<li>Lack of actorHit opcode breaks collision detection in ship-to-ship combat
+		<li>Cannot fire cannons in ship-to-ship combat, preventing entry to swordfighting without using shift-v cheat
 	</ul>
 <li>Sound:
 	<ul>
@@ -32,6 +31,7 @@
 	<ul>
 		<li>Some text does not undraw correctly, again leaving behind artifacts
 		<li>Masking artifacts. See many animations, eg during insult sword fighting
+		<li>Broken room palettes on Blood Island (scummvm -d0 -b600 then exit room to map, ecetra)
 	</ul>
 <li>Conversation:
 	<ul>
