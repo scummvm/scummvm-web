@@ -108,7 +108,7 @@ echo html_round_frame_start("Links","98%","",20);
 	  <tr>
 	    <td><blockquote>
 	    MAD is a high-quality MPEG (MP3) audio decoder.
-	    ScummVM optionally supports playback of CD tracks etc. encoded using MP3.
+	    ScummVM optionally supports playback of CD tracks and other audio data encoded using MP3.
 	    </blockquote></td>
 	  </tr>
 
@@ -116,7 +116,23 @@ echo html_round_frame_start("Links","98%","",20);
 	  <tr>
 	    <td><blockquote>
 	    Ogg Vorbis is a fully open, non-proprietary, patent-and-royalty-free, general-purpose compressed audio format.
-	    ScummVM optionally supports playback of CD tracks etc. encoded using Ogg Vorbis.
+	    ScummVM optionally supports playback of CD tracks and other audio data encoded using Ogg Vorbis.
+	    </blockquote></td>
+	  </tr>
+
+	  <tr><td><a href="http://scale2x.sourceforge.net/"><b>Scale2x/3x/4x</b></a></td></tr>
+	  <tr>
+	    <td><blockquote>
+	    Scale2x is a real-time graphics effect able to increase the size of small bitmaps guessing the missing pixels without blurring the images.
+	    ScummVM optionally supports enlarging the game graphics using this scaler.
+	    </blockquote></td>
+	  </tr>
+
+	  <tr><td><a href="http://www.hiend3d.com/hq3x.html/"><b>hq2x/3x/4x</b></a></td></tr>
+	  <tr>
+	    <td><blockquote>
+	    The hq2x/3x/4x filters form a family of fast, high-quality magnification filters.
+	    ScummVM optionally supports enlarging the game graphics using these scaler.
 	    </blockquote></td>
 	  </tr>
 
