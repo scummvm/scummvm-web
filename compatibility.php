@@ -78,6 +78,7 @@ $games = array(
 		'Curse of Monkey Island'				=> array('8','curse','5'),
 		'Simon The Sorcerer 1 (Win)'           			=> array('n/a','simon1win','95'),
 		'Simon The Sorcerer 1 (Dos)'           			=> array('n/a','simon1dos','95'),
+		'Simon The Sorcerer 1 (DEMO)'          			=> array('n/a','simon1demo','5'),
 		'Simon The Sorcerer 2 (Win)'           			=> array('n/a','simon2win','20'),
 		'Simon The Sorcerer 2 (Dos)'           			=> array('n/a','simon2dos','5')
 	      );
@@ -98,7 +99,9 @@ $notes = array(
 "monkeyega"	=> "Copy protection screen will show, but game crashes shortly afterwards.<BR>Graphics decoders and SCUMM opcodes not implimented yet.",
 "loomcd"        => "Game is completable." .
                    "<br>- Various minor graphical glitches",
-"monkeyvga"	=> "Game is completable." ,
+"monkeyvga"	=> "Game is completable.".
+                   "<br>- No sound effects".
+                   "<br>- No music looping",
 "monkey"	=> "No known problems - should be playable to the end",
 "monkey2"	=> "No known problems - should be playable to the end",
 "atlantis"	=> "No known problems - should be playable to the end".
@@ -115,7 +118,10 @@ $notes = array(
                    "<br>- The nexus room doesn't 'wrap' correctly, there are some redraw problems at the room seam",
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
 "simon1win" 	=> "No known problems, Game is completable.",
-"simon1dos" 	=> "No known problems, Game is completable.",
+"simon1dos" 	=> "No known problems, Game is completable.".
+                   "<br>- No music",
+"simon1demo" 	=> "Not fully implemented yet.".
+                   "<br>- No music or sound effects",
 "simon2win"     => "Can't advance very far due to movement problems, will not run some versions of Simon2".
                    "<br>- Part of introduction is skipped.".
                    "<br>- Movement problems, sometimes can't move left.".
