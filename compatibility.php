@@ -106,9 +106,9 @@ $games = array(
 		'Simon The Sorcerer 1 (Amiga)'          		=> array('n/a','simon1amiga','5'),
 		'Simon The Sorcerer 1 (Demo)'          			=> array('n/a','simon1demo','93'),
 		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','95'),
-		'Simon The Sorcerer 2 Talkie (DOS)'       		=> array('n/a','simon2talkie','90'),
-		'Simon The Sorcerer 2 Talkie (Amiga or Mac)'       	=> array('n/a','simon2mac','90'),
-		'Simon The Sorcerer 2 (DOS)'           			=> array('n/a','simon2dos','88')
+		'Simon The Sorcerer 2 Talkie (DOS)'       		=> array('n/a','simon2talkie','95'),
+		'Simon The Sorcerer 2 Talkie (Amiga or Mac)'       	=> array('n/a','simon2mac','95'),
+		'Simon The Sorcerer 2 (DOS)'           			=> array('n/a','simon2dos','95')
 	      );
 
 $notes = array(
@@ -249,11 +249,8 @@ $notes = array(
                    "<br>- No music",
 "simon1demo" 	=> "Game demo is completable",
 "simon2win"     => "No known problems - game is completable.",
-"simon2talkie"  => "Game is completable.".
-                   "<br>- When subtiles are enabled, it freezes briefly when Pirate Captain is talking to Mate, when Simon tries to escape",
-"simon2dos"     => "Game is completable.".
-                   "<br>- Text in Copy Protection screen is only shown for short time".
-                   "<br>- Freezes briefly when Pirate Captain is talking to Mate, when Simon tries to escape",
+"simon2talkie"  => "No known problems - game is completable.",
+"simon2dos"     => "No known problems - game is completable.",
 "simon2mac"     => "Game is completable.".
                    "<br>- Only default language (English) in data files is supported".
                    "<br>- F10 key animation is different"
