@@ -96,7 +96,7 @@
 		<?php addEntry("Talkie", "All?", "de", "0fb73eddfcf584c02ba097984df131ba", "samnmax", ""); ?>
 		<?php addEntry("Demo", "DOS", "en", "d9d0dd93d16ab4dec55cabc2b86bbd17", "samdemo", ""); ?>
 		<?php addEntry("Demo", "Mac", "en", "0425954a9db5c340861672892c3e678d", "samdemo", ""); ?>
-		<?php addEntry("interactive DEMO", "DOS", "en", "c3196c5349e53e387aaff1533d95e53a", "snmdemo", ""); ?>
+		<?php addEntry("interactive Demo", "DOS", "en", "c3196c5349e53e387aaff1533d95e53a", "snmdemo", ""); ?>
 		<?php addEntry("Interactive WIP Demo", "DOS", "en", "0e4c5d54a0ad4b26132e78b5ea76642a", "snmidemo", ""); ?>
 	<tr><td colspan='7'><strong>Full Throttle</strong></td></tr>
 		<?php addEntry("Version A", "All?", "en", "09820417db26687bb7fe0c83cc4c553b", "ft", ""); ?>
@@ -110,8 +110,8 @@
 		<?php addEntry("-", "All", "All", "d8323015ecb8b10bf53474f6e6b0ae33", "dig", ""); ?>
 		<?php addEntry("Demo", "All", "en", "362c1d281fb9899254cda66ad246c66a", "digdemo", ""); ?>
 	<tr><td colspan='7'><strong>Curse of Monkey Island</strong></td></tr>
-		<?php addEntry("-", "All?", "All?", "fe60d6b5ff51b0553ac59963123b5777", "comi", ""); ?>
-		<?php addEntry("Demo", "All?", "All?", "8fec68383202d38c0d25e9e3b757c5df", "comi", ""); ?>
+		<?php addEntry("-", "All", "All", "fe60d6b5ff51b0553ac59963123b5777", "comi", ""); ?>
+		<?php addEntry("Demo", "All", "All", "8fec68383202d38c0d25e9e3b757c5df", "comi", ""); ?>
 	<tr><td colspan='7'><strong>Putt-Putt Joins The Parade</strong></td></tr>
 		<?php addEntry("Demo", "DOS", "en", "31aa57f460a3d12429f0552a46a90b39", "puttdemo", ""); ?>
 		<?php addEntry("Demo", "Windows", "en", "37ff1b308999c4cca7319edfcc1280a0", "puttdemo", "khalek"); ?>
