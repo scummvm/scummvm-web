@@ -32,11 +32,12 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
        <li><a href="#1-3">Is ScummVM free?</a></li>
        <li><a href="#1-4">What games does ScummVM support?</a></li>
        <li><a href="#1-5">Will ScummVM support other games?</a></li>
-       <li><a href="#1-6">Where do I find ScummVM?</a></li>
-       <li><a href="#1-7">How do I compile the source code for my OS?</a></li>
-       <li><a href="#1-8">On what platforms does ScummVM run?</a></li>
-       <li><a href="#1-9">Does ScummVM run any non SCUMM games?</a></li>
-       <li><a href="#1-10">Can I use ScummVM to make new games?</a></li>
+       <li><a href="#1-6">When Maniac Mansion Deluxe will be supported?</a></li>
+       <li><a href="#1-7">Where do I find ScummVM?</a></li>
+       <li><a href="#1-8">How do I compile the source code for my OS?</a></li>
+       <li><a href="#1-9">On what platforms does ScummVM run?</a></li>
+       <li><a href="#1-10">Does ScummVM run any non SCUMM games?</a></li>
+       <li><a href="#1-11">Can I use ScummVM to make new games?</a></li>
     </ol>
   </li>
     
@@ -62,13 +63,20 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
   <li><a href="#4">Troubleshooting</a>
     <ol>
       <li><a href="#4-1">My game won't run.</a></li>
-      <li><a href="#4-2">I don't hear any sound.</a></li>
-      <li><a href="#4-3">I don't hear any music.</a></li>
-      <li><a href="#4-4">My game crashes at some point.</a></li>
-      <li><a href="#4-5">The game colors are messed up.</a></li>
-      <li><a href="#4-6">The characters in my non english game are messed up.</a></li>
-      <li><a href="#4-7">How do I make my mac version of a game work?</a></li>
-      <li><a href="#4-8">Reporting Bugs.</a></li>
+      <li><a href="#4-2">I installed my game but ScummVM can't find it.</a></li>
+      <li><a href="#4-3">I don't hear any sound.</a></li>
+      <li><a href="#4-4">I don't hear any music.</a></li>
+      <li><a href="#4-5">My game crashes at some point.</a></li>
+      <li><a href="#4-6">The game colors are messed up.</a></li>
+      <li><a href="#4-7">The characters in my non english game are messed up.</a></li>
+      <li><a href="#4-8">How do I make my mac version of a game work?</a></li>
+      <li><a href="#4-9">Reporting Bugs.</a></li>
+    </ol>
+  </li>
+
+  <li><a href="#5">Features</a>
+    <ol>
+      <li><a href="5-1">Please, add support for zip archives.</a></li>
     </ol>
   </li>
 </ol>
@@ -123,24 +131,36 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	in providing us with source code for one of your classic titles, please do not ask.
       </p></li>
 
-      <li><p><a name="1-6"></a><b>Where do I find ScummVM?</b><br>
+      <li><p><a name="1-6"></a><b>When Maniac Mansion Deluxe will be supported?</b><br>
+	This game is a fan-made replica of original Maniac Mansion. It is not same
+	game as Maniac Mansion Enchanced which we do support. It features improved
+	music, sounds, 256-colors graphics and revorked game interface. It runs on top
+	of <a href="http://www.adventuregamestudio.co.uk/">Adventure Game Studio</a> which
+	is free, albeit closed-source graphics adventures engine. There are Windows,
+	Linux and FreeBSD versions of the engine. Its author keeps his source code closed
+	due to some reasons explained in project <a href="http://www.agsforums.com/acfaq.htm>FAQ</a>
+	(see last two questions). That means that you need to download that program to
+	play the game.
+      </p></li>
+
+      <li><p><a name="1-7"></a><b>Where do I find ScummVM?</b><br>
 	You can find it on the download section on our <a href="http://www.scummvm.org">homepage</a>.
 	You can download the latest version, which could be a little old. For the most
 	recent cutting-edge in-development version, you have to compile it yourself from
 	CVS or use the 'daily builds' linked from our download page.</p></li>
 
-      <li><p><a name="1-7"></a><b>How do I compile the source code for my OS?</b><br>
+      <li><p><a name="1-8"></a><b>How do I compile the source code for my OS?</b><br>
 	The source code package contains a file called
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
 	that should explain everything.</p></li>
 
-      <li><p><a name="1-8"></a><b>On what platform does ScummVM run?</b><br>
+      <li><p><a name="1-9"></a><b>On what platform does ScummVM run?</b><br>
 	ScummVM should be able to be compiled on any SDL platform, with just small modifications.<br>
 	Currently tested platforms are Win32 (Windows 95/98/ME/NT/2000/XP), Linux i386 and PPC, BeOS, Solaris,
 	Mac OS X, Dreamcast, MorphOS, IRIX, PalmOS and WinCE. It is also part of the Free/Net/Open BSD
 	ports collections and included in Debian testing and unstable</p></li>
 
-      <li><p><a name="1-9"></a><b>Does ScummVM run any non-SCUMM games?</b><br>
+      <li><p><a name="1-10"></a><b>Does ScummVM run any non-SCUMM games?</b><br>
 	Yes. As well as SCUMM titles, ScummVM supports Simon the Sorcerer (1 and 2),
 	Flight of the Amazon Queen, and the Revolution Games: Broken Sword 1, Broken Sword 
 	2, and Beneath a Steel Sky.<BR>
@@ -156,7 +176,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	classic titles, please do not ask us to support a game.
 	</p></li>
   
-        <li><p><a name="1-10"></a><b>Can I use ScummVM to make new games?</b><br>
+        <li><p><a name="1-11"></a><b>Can I use ScummVM to make new games?</b><br>
 	While it is theoretically possible to write a new game that uses ScummVM it is not
 	advisable.  ScummVM has many hacks to support older games and no tools geared towards
 	creating content usable by ScummVM.  Potential game authors are encouraged to look
@@ -233,25 +253,33 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
       	First make sure your game is supported. See <a href="#1-4">1.4</a>. If it is a supported game and you
 	have followed the instructions in
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
-	to the letter, then see <a href="#4-8">4.6</a> to report this as a bug.</p></li>
+	to the letter, then see <a href="#4-9">4.9</a> to report this as a bug.</p></li>
 	
-      <li><p><a name="4-2"></a><b>I don't hear any sound.</b><br>
+      <li><p><a name="4-2"></a><b>I installed my game but ScummVM can't find it.</b><br>
+      	First don't use install.exe or setup.exe shipped with the game. It will not work as 
+	usually it copies just game .exe and some shortcuts. ScummVM requires all game
+	data to run, so you will need to copy those. See 
+	<a href="/documentation.php?view=datafiles">Game Data Files</a> page for
+	further details.
+	</p></li>
+	
+      <li><p><a name="4-3"></a><b>I don't hear any sound.</b><br>
       	Check the <a href="compatibility.php">compatibility list</a> to see if your game has sound support currently. You can
 	also try the -s command line parameter to set the in game SFX volume.</p></li>
       
-      <li><p><a name="4-3"></a><b>I don't hear any music.</b><br>
-	See <a href="#4-2">above</a></p></li>
+      <li><p><a name="4-4"></a><b>I don't hear any music.</b><br>
+	See <a href="#4-3">above</a></p></li>
       
-      <li><p><a name="4-4"></a><b>My game crashes at some point.</b><br>
+      <li><p><a name="4-5"></a><b>My game crashes at some point.</b><br>
       	Check the <a href="compatibility.php">Compatibility List</a> to see if your game has any known issues. If you can
-	reproduce this crash more than once, please report it to our Bug Tracker. See <a href="#4-8">4.8</a>.</p></li>
+	reproduce this crash more than once, please report it to our Bug Tracker. See <a href="#4-9">4.9</a>.</p></li>
       
-      <li><p><a name="4-5"></a><b>The game colors are messed up.</b><br>
+      <li><p><a name="4-6"></a><b>The game colors are messed up.</b><br>
       	This is a known issue with using Amiga version datafiles. Select Amiga as a 
 	platform in the ScummVM Game Options dialog, or use the --platform=amiga command
 	line parameter to enable Amiga-specific code.</p></li>
       
-      <li><p><a name="4-6"></a><b>The characters in my non english game are messed up.</b><br>
+      <li><p><a name="4-7"></a><b>The characters in my non english game are messed up.</b><br>
       	You are most likely using a game such as Maniac Mansion or Zak McKracken if you have this problem. 
 	You need to specify a language in the ScummVM Game Options dialog, with the -q parameter or by
 	using the 'language' config file option.<BR>
@@ -259,16 +287,16 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a> 
 	or command line help for further information.</p></li>
       
-      <li><p><a name="4-7"></a><b>How do I make my mac version of a game work?</b><br>
+      <li><p><a name="4-8"></a><b>How do I make my mac version of a game work?</b><br>
       	The majority of mac versions won't work without first extracting the resources into a format ScummVM
 	understands.  To do this you need to use the rescumm tool in the scummvm-tools package.
 	An example usage might look like: <i>rescumm "Sam &amp; Max Demo Data"</i>.  Some CDs may appear to
 	only contain a application, in which case there is still a seperate data file but it is invisible.  
 	The older games which have LFL files should only need the platform set to 'macintosh' to
-	run. See <a href="#4-5">4.5</a> for information on specifying the game platform.
+	run. See <a href="#4-6">4.6</a> for information on specifying the game platform.
 </p></li>
       
-      <li><p><a name="4-8"></a><b>Reporting Bugs.</b><br>
+      <li><p><a name="4-9"></a><b>Reporting Bugs.</b><br>
       	To report a bug, please create a SourceForge account and follow the
 	<a href="http://sourceforge.net/tracker/?atid=418820&amp;group_id=37116&amp;func=browse">bugs</a>
 	link from our homepage. Please make sure the bug is reproducible, and 
@@ -276,6 +304,21 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	<a href="compatibility.php">compatibility listing</a> for that game to ensure
 	the issue is not already known.</p></li>
             
+    </ol>
+  </li>
+
+  <li><a name="5"></a><b>Features</b><br>
+
+    <ol>
+      <li><p><a name="5-1"></a><b>Please, add support for zip archives.</b><br>
+	We will not do it. There are some reasons. First, we believe that it
+	may ease illegal distribution of games. Second, we already support compression
+	of game sound in most bigger titles, and use specially designed algorithms
+	like MP3, Ogg and FLAC, so goal to have smaller files is already achieved.
+	Third, and last, we as a team already made that decision not to add
+	such feature and it's final.
+	</p></li>
+
     </ol>
   </li>
 
