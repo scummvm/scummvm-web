@@ -62,12 +62,12 @@ $gamesLucas = array(
 		'Maniac Mansion (enhanced)'				=> array('2','maniac','95'),
 		'Zak McKracken and the Alien Mindbenders (original)'	=> array('1','zak','85'),
 		'Zak McKracken and the Alien Mindbenders (enhanced)'	=> array('2','zak','90'),
-		'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zaktowns','90'),
+		'Zak McKracken and the Alien Mindbenders (FM-TOWNS)'	=> array('3','zaktowns','90'),
 		'Indiana Jones and the Last Crusade'			=> array('3','indy3ega','90'),
 		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','90'),
-		'Indiana Jones and the Last Crusade (256 - FmTowns)'	=> array('3','indy3towns','90'),
+		'Indiana Jones and the Last Crusade (FM-TOWNS)'		=> array('3','indy3towns','90'),
 		'Loom'							=> array('3','loom','95'),
-		'Loom (256 - FmTowns)'					=> array('3','loomtowns','75'),
+		'Loom (FM-TOWNS)'					=> array('3','loomtowns','75'),
 		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','95'),
 		'Passport to Adventure (Indy3, Monkey and Loom demos)'  => array('4','pass','95'),
 		'Loom (256 color CD version)'                           => array('5','loomcd','95'),
@@ -78,7 +78,7 @@ $gamesLucas = array(
 		'Monkey Island 2: LeChuck\'s revenge'			=> array('5','monkey2','95'),
 		'Monkey Island 2: LeChuck\'s revenge (DOS Demo)'	=> array('5','mi2demo','10'),
 		'Indiana Jones 4 and the Fate of Atlantis'		=> array('5','atlantis','95'),
-		'Indiana Jones 4 and the Fate of Atlantis (FmTowns)'	=> array('5','indy4','95'),
+		'Indiana Jones 4 and the Fate of Atlantis (FM-TOWNS)'	=> array('5','indy4','95'),
 		'Indiana Jones 4 and the Fate of Atlantis (Demo)'	=> array('5','playfate','95'),
 		'Day Of The Tentacle'					=> array('6','tentacle','95'),
 		'Day Of The Tentacle (Demo)'				=> array('6','dottdemo','95'),
@@ -207,8 +207,8 @@ $notes = array(
 "game"		=> "No known issues, game is completable.".
 		   "<br>- Dialogue choices can be selected with 6 (up) 7 (down) or mousewheel, with mouse button or number to select",
 "monkey2"	=> "No known issues, game is completable.".
-		   "<br>- Amiga, FM Towns, Mac and PC versions supported by this target".
-                   "<br>- Kanji version requires the FM Towns Font ROM",
+		   "<br>- Amiga, FM-TOWNS, Mac and PC versions supported by this target".
+                   "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "mi2demo"	=> "Often crashes due to missing resources, since it was never meant to be playable".
 		   "<br>- No support for playing back the recorded file of gameplay",
 "atlantis"	=> "No known issues, game is completable.".
@@ -217,7 +217,7 @@ $notes = array(
 		   "<br>- Music loud on some systems, run with -m30 to lower music volume.",
 "indy4"		=> "No known issues, game is completable.".
 		   "<br>- Music loud on some systems, run with -m30 to lower music volume.".
-                   "<br>- Kanji version requires the FM Towns Font ROM",
+                   "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "playfate"	=> "No known issues, game is completable.",
 "tentacle"	=> "No known issues, game is completable.".
 		   "<br>- Both Mac and PC versions supported by this target".
@@ -233,7 +233,7 @@ $notes = array(
 		   "<br>- Both Mac and PC versions supported by this target",
 "dig"		=> "Game is completable, with minor glitches".
 		   "<br>- Both Mac and PC versions supported by this target",
-"comi"		=> "Game is completable, with some minor glitches.",
+"comi"		=> "Game is completable, with minor glitches.",
 
 "puttdemo"	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target".
