@@ -181,7 +181,7 @@ $notes = array(
 "puttmoon"	=> "Fails an AKOS related assertion shortly after starting".
 		   "<br>- scummvm: scumm/akos.cpp:267: virtual byte AkosRenderer::drawLimb(const CostumeData&, int): Assertion `(code & 0xFFF) * 6 < READ_BE_UINT32((byte *)akof - 4) - 8' failed.",
 "moondemo"	=> "Completable if you don't trigger one fatal animation".
-		   "<br>- talkie data not synced/properly implemented",
+		   "<br>- Creature behind garage door dissappears",
 "funpack"	=> "Starts but mini games seem to have various problems".
 		   "<br>- Checkers: The checkers keep disappearing".
 		   "<br>- Puzzle blocks/Cheese King: Triggers an assertion".
