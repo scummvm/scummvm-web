@@ -60,6 +60,8 @@ echo html_round_frame_start("Contact","98%","",20);
 	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=339357" target="_blank">Jeremy Newman</a>',
 	  			 '<a href="http://www.dracowulf.com/">laxdragon</a>', "Webmaster");
 	  add_person('Ludvig Strigeus', 'ludde', "Original ScummVM author, initial Simon support (retired)");
+	  add_person("Oliver Kiehl", "olki", "Lead BASS Developer");
+	  add_person("Joost Peters", "joostp", "Lead BASS Developer");
 	  ?>
   
       <tr><td colspan=3>&nbsp;</td></tr>
@@ -77,12 +79,10 @@ echo html_round_frame_start("Contact","98%","",20);
 	  add_person("Ruediger Hanke", "", "MorphOS port");
 	  add_person("Travis Howell", "Kirben", "Daily Win32 builds, Simon The Sorcerer work");
 	  add_person("Felix Jakschitsch", "yot", "His hard work on Zak256");
-	  add_person("Oliver Kiehl", "olki", "Simon The Sorcerer work/Beneath a Steel Sky Support");
 	  add_person("Pawel Kolodziejski", "aquadran", "Added missing Dig SMUSH codecs");
 	  add_person("Mutwin Kraus", "mutle", "MacOS Carbon port (retired)");
 	  add_person("Peter Moraliyski", "ph0x", "GP32 port");
 	  add_person("Nicolas Noble", "pixels", "Config file and ALSA support");
-	  add_person("Joost Peters", "joostp", "Beneath a Steel Sky Support");
 	  add_person("Lionel Ulmer", "bbrox", "X11/Linux port");
 	  ?>
 
