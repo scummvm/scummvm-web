@@ -149,7 +149,7 @@ $notes = array(
 		   "<br>- Euphony tunes not yet supported so notes won't be heard".
 		   "<br>- difficulty select is via boot param:".
 
-		   "<ul><li>0 pratice (default)".
+		   "<ul><li>0 practice (default)".
 		       "<li>1 standard".
 		       "<li>2 expert</ul>".
 		   "<br>- Kanji version not yet supported",
