@@ -107,18 +107,20 @@ $notes = array(
 		   "<br>- No music or sound effects with Amiga version",
 "zak"		=> "Enhanced version runs, although in-game there are still many things wrong".
 		   "<br>- Both Amiga and enchanced PC versions supported by this target".
-                   "<br>- Introduction music doesn't auto stop, if introduction is skipped when music is playing".
-                   "<br>- Some sound effects missing".
+                   "<br>- Footsteps sound effects are missing".
 		   "<br>- No music or sound effects with Amiga version",
 "indy3ega"	=> "Game is completable".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
-                   "<br>- No music looping and some music is cut short",
+                   "<br>- No music looping and some music is cut short".
+                   "<br>- Footsteps sound effects are missing".
+		   "<br>- No music or sound effects with Amiga version",
 "indy3"         => "Game is completable" .
                    "<br>- No sound effects",
 "zak256"        => "Game is completable." .
                    "<br>- No sound effect looping" ,
 "loom"		=> "Game is completable".
-		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target",
+		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
+		   "<br>- No music or sound effects with Amiga version",
 "monkeyega"	=> "Game is completable".
                    "<br>- No sound effects",
 "pass"		=> "At least partly playable".
