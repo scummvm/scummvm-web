@@ -98,12 +98,16 @@ $gamesHE = array(
 		'Fatty Bears Birthday Surprise (Demo)'					=> array('n/a','fbdemo','95'),
 		'Fatty Bears Birthday Surprise'						=> array('n/a','fbear','93'),
 		'Fatty Bears Fun Pack'							=> array('n/a','fbpack','95'),
+		'Blue's ABC Time (Demo)'						=> array('n/a','BluesABCTimeDemo','50'),
+		'Big Thinkers First Grade (Demo)'					=> array('n/a','1grademo','10'),
+		'Big Thinkers Kindergarten (Demo)'					=> array('n/a','kinddemo','50'),
+		'Big Thinkers Kindergarten'						=> array('n/a','thinkerk','10'),
 		'Freddi Fish 1: The Case of the Missing Kelp Seeds (Demo)'		=> array('n/a','freddemo','90'),
 		'Freddi Fish 1: The Case of the Missing Kelp Seeds'			=> array('n/a','freddi','80'),
 		'Freddi Fish 2: The Case of the Haunted Schoolhouse (Demo)'		=> array('n/a','ff2-demo','70'),
 		'Freddi Fish 2: The Case of the Haunted Schoolhouse'			=> array('n/a','freddi2','70'),
 		'Freddi Fish 3: The Case of the Stolen Conch Shell (Demo)'		=> array('n/a','ff3-demo','70'),
-		'Freddi Fish 3: The Case of the Stolen Conch Shell'			=> array('n/a','freddi3','50'),
+		'Freddi Fish 3: The Case of the Stolen Conch Shell'			=> array('n/a','freddi3','70'),
 		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Demo)'	=> array('n/a','f4-demo','10'),
 		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'	=> array('n/a','freddi4','10'),
 		'Freddi Fish 5: The Case of the Creature of Coral Cave'			=> array('n/a','freddicove','10'),
@@ -258,6 +262,12 @@ $notes = array(
 		   "<br>- Cursors aren't scaled correctly",
 "fbpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
+"BluesABCTimeDemo" => "Game is playable".
+		   "<br>- Various issues",
+"1grademo"	=> "Game is playable,, but objects in mini games aren't drawn",
+"kinddemo"	=> "Game is playable, but settings aren't saved".
+		   "<br>- Various issues",
+"thinkerk"	=> "Triggers an assert when entering name",
 "freddemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Inventory bubbles don't pop in older demo",
 "freddi"	=> "Game is completable, with minor glitches".
@@ -270,9 +280,8 @@ $notes = array(
 		   "<br>- Actors sometimes aren't visible or act strange",
 "f3-mdemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Actors sometimes aren't visible or act strange",
-"freddi3"	=> "Game is playable but not completable".
-		   "<br>- Actors sometimes aren't visible or act strange".
-		   "<br>- Errors out when entering two locations",
+"freddi3"	=> "Game is completable, with minor glitches".
+		   "<br>- Actors sometimes aren't visible or act strange",
 "f4-demo"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
 "freddi4"	=> "Not completable, no inventory controls".
