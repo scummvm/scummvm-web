@@ -12,7 +12,7 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("ScummVM :: Compatibility - CVS");
+html_header("ScummVM :: Compatibility - Stable (0.5.0)");
 sidebar_start();
 
 //display welcome table
@@ -37,9 +37,9 @@ else
 	  Click on the game name to view the complete notes of a game.
 	
           <br><br>Please note this list applies to the English versions of games, we attempt to test many versions of games, however there are occasionally problems with other languages.
-          Also, this is the compatibility of the current WIP CVS version, <B>not of the
-	  0.5.0 stable release</B>. The status of this release can be found on the 
-	  <a href="compatibility_stable.php">Stable Compatibility</A> chart.
+	  Also, this is the compatability of the 0.5.0 stable release, <B>not of CVS
+	  snapshots/daily builds</B>. The status of these can be found on the <a
+	  href="compatibility.php">CVS Compatibility</A> chart.
           <br><br>
 	  <small>Last Updated: <? echo date("F d, Y",getlastmod()); ?></small>
 	</p>
@@ -161,7 +161,7 @@ $notes = array(
 "puttmoon"	=> "Fails an AKOS related assertion shortly after starting".
 		   "<br>- scummvm: scumm/akos.cpp:267: virtual byte AkosRenderer::drawLimb(const CostumeData&, int): Assertion `(code & 0xFFF) * 6 < READ_BE_UINT32((byte *)akof - 4) - 8' failed.".
 		   "<br>- talkie data not synced/properly implemented",
-"moondemo"	=> "Completable if you don't trigger one or two fatal animations".
+"moondemo"	=> "Finishable if you don't trigger one or two fatal animations".
 		   "<br>- cursor doesn't turn to arrow on the right hand side of the screen in the first room".
 		   "<br>- talkie data not synced/properly implemented",
 "funpack"	=> "Starts but mini games seem to have various problems".
@@ -171,7 +171,7 @@ $notes = array(
 "fbdemo"	=> "Fails assertion at the end of the intro".
 		   "<br>- scumm/resource.cpp:1222: void Scumm::nukeResource(int, int): Assertion `idx >= 0 && idx < res.num[type]' failed.",
 		   "<br>- talkie data not synced/properly implemented",
-"fbear"		=> "various errors that prevent the game from being completable".
+"fbear"		=> "various errors that prevent the game from being finishable".
 		   "<br>- talkie data not synced/properly implemented",
 "fbpack"	=> "Game starts but various minigames have different problems".
 		   "<br>- Reversi/Go Fish/Lines and Boxes: o6_actorOps: default case 218".
@@ -187,20 +187,15 @@ $notes = array(
 "samdemo"	=> "No known problems - should be playable to the end",
 "ft"		=> "Game is completable to the end, but missing action sequences".
 	 	   "<br>- Music is not continuous, and may pause, restart, and otherwise act oddly".
-		   "<br>- SMUSH audio (movie cutscenes) is a lot quieter than in-game voice, which is abnormally loud".
+		   "<br>- SMUSH audio (movie cutscenes) is a lot quieter than in-game voice, which is abnormallyloud".
                    "<br>- Lack of INSANE subsystem prevents action sequences, which skips a substantial portion of the game".
 		   "<br>- Derby scene is only properly controllable using the mouse",
 "dig"		=> "Game is fully completable, with some minor sound issues",
 "comi"		=> "Game is fully completable, although ship-to-ship is broken and several graphical glitches are present",
 "sky"	 	=> "Game is completable".
-		   "<br>- Floppy demos are unsupported".
-		   "<br>- Amiga versions aren't supported and probably never will be".
-		   "<br>".
-		   "<br>There are also bugs which were already present in the original game and which we can't fix:".
-		   "<br>- The voice files for some sentences are missing.".
-		   "<br>&nbsp;&nbsp;&nbsp;&nbsp;This is especcially noticable in the court- and Mrs. Piermont sequence.".
-		   "<br>- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders".
-		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
+		   "<br>- Floppy demo isn't supported".
+                   "<br>- Random crashes have been reported".
+		   "<br>- Amiga versions aren't supported and probably never will be",
 "simon1win" 	=> "No known problems - game is completable.",
 "simon1talkie" 	=> "Game is completable.".
                     "<br>- No inventory scrolling arrows shown, can still move around inventory though",
