@@ -111,12 +111,13 @@ $games = array(
 $notes = array(
 "maniac"	=> "Enhanced PC version is completable".
 		   "<br>Classic version is completable".
-		   "<br>- Minor graphical glitches with actors in classic verison".
-		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target",
+		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
+		   "<br>- Minor graphical glitches with actors in classic verison",
 "zak"		=> "Enhanced PC version is completable, with several minor glitches".
 		   "<br>Classic version is completable, with several minor glitches".
+		   "<br>- Amiga, Atari ST and PC versions supported by this target".
 		   "<br>- Minor graphical glitches with actors in classic verison".
-		   "<br>- Amiga, Atari ST and PC versions supported by this target",
+		   "<br>- Some sound effects buggy or missing in Amiga version",
 "indy3ega"	=> "Game is completable".
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
@@ -151,7 +152,7 @@ $notes = array(
 "loomcd"        => "No known problems - should be playable to the end",
 "monkeyvga"	=> "Game is completable.".
 		   "<br>- Both Amiga and PC versions supported by this target".
-		   "<br>- No music with Amiga version",
+		   "<br>- No music or sound effects with Amiga version",
 "monkey"	=> "No known problems - should be playable to the end",
 "monkey1"	=> "No known problems - should be playable to the end".
 		   "<br>- Both Mac and PC versions supported by this target",

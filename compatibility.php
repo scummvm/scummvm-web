@@ -112,7 +112,8 @@ $notes = array(
 "maniac"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target",
 "zak"		=> "No known issues, game is completable.".
-		   "<br>- Amiga, Atari ST and PC versions supported by this target",
+		   "<br>- Amiga, Atari ST and PC versions supported by this target".
+		   "<br>- Some sound effects buggy or missing in Amiga version",
 "indy3ega"	=> "Game is completable".
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
@@ -145,7 +146,7 @@ $notes = array(
 "loomcd"        => "No known issues, game is completable.",
 "monkeyvga"	=> "Game is completable.".
 		   "<br>- Both Amiga and PC versions supported by this target".
-		   "<br>- No music with Amiga version",
+		   "<br>- No music or sound effects with Amiga version",
 "monkey"	=> "No known issues, game is completable.",
 "monkey1"	=> "No known issues, game is completable.".
 		   "<br>- Both Mac and PC versions supported by this target",
