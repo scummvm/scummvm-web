@@ -59,11 +59,12 @@ function sidebar_start ($specs_mode = false)
 
 	$g = new htmlmenu("Misc. Menu");
 
+	$g->add("Subprojects", $file_root."/subprojects.php");
 	$g->add("Demos", $file_root."/demos.php");
-	$g->add("Press Coverage", $file_root."/press.php");
-	$g->add("Links", $file_root."/links.php");
 	$g->add("Credits", $file_root."/credits.php");
+	$g->add("Press Coverage", $file_root."/press.php");
 	$g->add("Contact", $file_root."/contact.php");
+	$g->add("Links", $file_root."/links.php");
 
 	$g->done('<img src="'.$file_root.'/images/hangmonk.gif" alt="monkey">');
  
