@@ -176,7 +176,7 @@ $notes = array(
 "indy3ega"	=> "Game is completable".
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
-		   "<br>- no inventory controls in Mac version".
+		   "<br>- Mac version isn't completable, due to no inventory controls".
 		   "<br>- Atari ST and Mac versions require pcjr or pcspk music driver",
 "indy3"         => "No known issues, game is completable.",
 "indy3towns"    => "No known issues, game is completable.".
@@ -254,7 +254,7 @@ $notes = array(
 "fbear"		=> "Game should be completable, with several glitches".
 		   "<br>- 3DO, DOS and Windows versions supported by this target".
 		   "<br>- Piano sounds aren't correct pitch in DOS version".
-		   "<br>- Cursors aren't scaled correctly",
+		   "<br>- Cursors aren't scaled correctly in Windows version",
 "fbpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
 "freddemo"	=> "Game is completable, with minor glitches".
