@@ -356,6 +356,7 @@ $notes = array(
 "mustard"	=> "Only shows introduction",
 
 "sky"	 	=> "No known issues, game is completable.".
+		   "<br>- Requires the <a href=\"SKY.CPT\">SKY.CPT</a> resource file to be placed in the game directory",
 		   "<br>- Floppy demos are unsupported".
 		   "<br>- Amiga versions aren't supported and probably never will be".
 		   "<br>".
