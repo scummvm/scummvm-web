@@ -54,9 +54,10 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
   <li><a href="#3">Graphics and Audio</a>
     <ol>
       <li><a href="#3-1">Does ScummVM support CD audio?</a></li>
-      <li><a href="#3-2">Does ScummVM support using MP3 files instead of CD audio?</a></li>
-      <li><a href="#3-3">Does ScummVM support filtered graphics modes?</a></li>
-      <li><a href="#3-4">Can I run my game full screen?</a></li>
+      <li><a href="#3-2">Does ScummVM support using MP3/Ogg/FLAC files instead of CD audio?</a></li>
+      <li><a href="#3-3">Does ScummVM support using MP3/Ogg/FLAC files instead of the original MIDI music?</a></li>
+      <li><a href="#3-4">Does ScummVM support filtered graphics modes?</a></li>
+      <li><a href="#3-5">Can I run my game full screen?</a></li>
     </ol>
   </li>
 
@@ -236,12 +237,23 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
 	for more info.</p></li>
 
-      <li><p><a name="3-3"></a><b>Does ScummVM support filtered graphic modes?</b><br>
+      <li><p><a name="3-3"></a><b>Does ScummVM support using MP3/Ogg/FLAC files instead of the original MIDI music?</b><br>
+	No. If all the game does is to play or loop a tune it would be possible, but many of the games do
+	fancy stuff like smooth transitions from one tune to another, or turn individual instruments on and
+	off, etc. There's simply no way ScummVM could take a piece of digital music and emulate that kind
+	of behaviour.<br><br>
+
+	This question usually comes up in connection with Sam &amp; Max Hit the Road (which has a few
+	unusued bonus audio tracks on the CD) and Monkey Island 2 (which is sometimes distributed on
+	the same CD as the version of Monkey Island 1 that uses CD audio). Both of these games do far
+	too much fancy stuff to even consider an idea like this.</p></li>
+
+      <li><p><a name="3-4"></a><b>Does ScummVM support filtered graphic modes?</b><br>
       	Yes, ScummVM supports several filtered graphic modes such as super2xsai.  See the
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
 	for more info.</p></li>
       
-      <li><p><a name="3-4"></a><b>Can I run my game full screen?</b><br>
+      <li><p><a name="3-5"></a><b>Can I run my game full screen?</b><br>
       	Yes. You can either start your game using the -f command line parameter, setting 
 	the game to Full Screen in the ScummVM Options dialog, or by using the Alt+Enter key
 	combination in-game to switch between full screen and windowed modes.</p></li>
