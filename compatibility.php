@@ -101,13 +101,14 @@ $games = array(
 $notes = array(
 "maniac"	=> "Enhanced PC version is completable, with several minor glitches".
 		   "<br>Classic version still in progress, results may vary".
-		   "<br>- Both Amiga and PC versions supported by this target".
-		   "<br>- No actors shown in Classic PC version".
+		   "<br>- Both Amiga and PC versions are supported by this target".
+		   "<br>- Classic PC version actor costumes are broken, resulting in random crashes".
 		   "<br>- No music or sound effects with Amiga and Classic PC versions",
 "zak"		=> "Enhanced PC version runs, with glitches. May be completable".
 		   "<br>Classic version still in progress, results may vary".
 		   "<br>- Both Amiga and PC versions supported by this target".
-		   "<br>- No actors shown in Classic PC version".
+		   "<br>- Classic PC version does not start, due to script problems".
+		   "<br>- Classic PC version actor costumes are broken, resulting in random crashes".
 		   "<br>- No music or sound effects with Amiga and Classic PC versions",
 "indy3ega"	=> "Game is completable".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
@@ -171,6 +172,8 @@ $notes = array(
                    "<br>- Highway subgame doesn't behave correctly",
 "samdemo"	=> "No known problems - should be playable to the end",
 "ft"		=> "Game is completable to the end, but missing action sequences".
+	 	   "<br>- Music is not continuous, and may pause, restart, and otherwise act oddly".
+		   "<br>- SMUSH audio (movie cutscenes) is a lot quieter than in-game voice, which is abnormallyloud".
                    "<br>- Lack of INSANE subsystem prevents action sequences, which skips a substantial portion of the game".
 		   "<br>- Derby scene is only properly controllable using the mouse",
 "dig"		=> "Game is fully completable, with some minor sound issues",
