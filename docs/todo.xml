@@ -89,7 +89,6 @@
 		<ul>
 			<li>Fix music support, add sound support</li>
 			<li>Correct random walkbox issues</li>
-			<li>Correctly fix 'missing head' issue (see fixme in actor.cpp)</li>
 			<li><i>Ask: Ender</i></li>
 		</ul>
 		<li><h4>The Curse of Monkey Island</h4>
