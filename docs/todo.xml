@@ -68,6 +68,7 @@
 					<li>Necessary if we want to allow users to switch between different games at runtime</li>
 				</ul>
 				</li>
+				<li><p><b>Implement support to restart a game</b></p></li>
 			</ul>
 			<li><h3>New GUI</h3>
 			<ul>
