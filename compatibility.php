@@ -112,9 +112,8 @@ $notes = array(
 "ft"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
                    "<br>- Lack of INSANE subsystem prevents action sequences, which are needed to complete the game".
                    "<br>- Some character animations (AKOS codec 16 based) are missing",
-"dig"		=> "Game is completable, but still has some major problems".
-                   "<br>- The nexus room doesn't 'wrap' correctly, there are some redraw problems at the room seem".
-                   "<br>- Some character animations (AKOS codec 16 based) are missing",
+"dig"		=> "Game is completable.".
+                   "<br>- The nexus room doesn't 'wrap' correctly, there are some redraw problems at the room seam",
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
 "simon1win" 	=> "No known problems, Game is completable.",
 "simon1dos" 	=> "No known problems, Game is completable.",
