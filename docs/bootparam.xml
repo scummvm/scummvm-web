@@ -6,8 +6,8 @@
 <h2>What are boot params?</h2>
 <p>
 A boot param is a special number which allows you (if used appropriately, see below)
-to get directly to specific part of a game. These boot params are mostly useful
-for debugging and play testing a game; you get teleported to a certain situation
+to go directly to a specific part of a game. These boot params are mostly useful
+for debugging and playtesting a game; you get teleported to a certain situation
 in a game, with some of the items appropriate for it. It is not always possible to
 continue and complete a game from this, because you may lack important items. But
 for us developers, it's very helpful, because we can quickly get to trouble spots
@@ -15,14 +15,14 @@ in a clean state, and try to reproduce any bugs you report to us.
 </p>
 <p>
 These boot params do not exist by chance or magic: they were put into the game data
-by the original developers of the games, and where meant for exactly the same
+by the original developers of the games, and were meant for exactly the same
 purpose we use them for: to help in debugging the game. Of course, they also make
 a nice cheat system (with some caveats, as I tried to outline above).
 </p>
 
 
 <h2>How do I use a boot param?</h2>
-That's quite simple: pick a game from the list, and a boot param for it. Then, you specify
+That's quite simple: pick a game from the list, and a boot param for it. Then, specify
 it on the command line like this:
 <pre>
 	./scummvm -d0 -b BOOTPARAM TARGET
@@ -40,7 +40,7 @@ this on the command line:
 
 <p>Some of these lists are based on the output of <code>./scummvm -d1 -b1 TARGET</code>; some information is also from
    <a href="http://www.scummbar.com/resources/articles/index.php?newssniffer=readarticle&amp;article=1027">this article</a>.
-   In particular, they may contains some mistakes. 
+   These may contain some mistakes. 
    Ultimately we plan to correct these and maybe enhance the descriptions a bit...</p>
 
 <h2>I see a lot of question marks in some of the tables, why?</h2>
@@ -73,7 +73,7 @@ Help here is welcome -- if you want, feel free to fill in some of the gaps and
 <br><a name="monkey"></a>
 <h2>The Secret of Monkey Island</h2>
 
-<p>Some of the boot params given in the following table only work in the CD/Mac version
+<p>Some of the boot params listed in the following table only work in the CD/Mac version
 of Monkey Island (and not in 'monkeyega' and 'monkeyvga'). Those are marked with an
 asteriks (*) symbol (except for the cases we overlooked ;-).</p>
 
