@@ -238,7 +238,8 @@ $notes = array(
 		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
 "sword2"	 => "Game is s completable, with several minor glitches".
 		   "<br>Wasn't tested on big endian systems, yet".
-		   "<br>- No anti-aliasing",
+		   "<br>- No anti-aliasing".
+		   "<br>- No cutscenes",
 "simon1win" 	=> "No known problems - game is completable.",
 "simon1talkie" 	=> "Game is completable.".
                     "<br>- No inventory scrolling arrows shown, can still move around inventory though",
