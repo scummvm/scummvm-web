@@ -122,7 +122,7 @@ $HE_demos = array(
 		=> array('ftp://ftp.humongous.com/humongous/puttraceDemo/puttrace.exe', 'racedemo'),
 	'Spyfox 1: Dry Cereal (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/FOX95d.EXE', 'foxdemo'),
-	'Spyfox 1: Dry Cereal (Demo)'
+	'Spyfox 1: Dry Cereal (Alternative Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/spy95_98.zip', 'spydemo'),
 	'Backyard Baseball 2001 (Demo)'
 		=> array('ftp://ftp.infogrames.net/demos/backyardbaseball/bbdemo.exe', 'bb2demo')
