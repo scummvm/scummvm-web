@@ -93,7 +93,7 @@ function bugs($buglist) {
  <th>Win32</th><th>Linux</th><th>Mac</th><th>OpenBSD</th><th>WinCE</th><th>Palm</th><th>DC</th>
 </tr>
 
-<tr><th colspan="9">SCUMM Engine</th></tr>
+<tr><th colspan="10">SCUMM Engine</th></tr>
 <tr><td>Maniac (V1)</td>
 	<td>NONE</td>
 	<td>...</td>
@@ -185,7 +185,7 @@ function bugs($buglist) {
 	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
 	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 
-<tr><th colspan="9">Simon Engine</th></tr>
+<tr><th colspan="10">Simon Engine</th></tr>
 <tr><td>Simon1 (talkie)</td>
 	<td>NONE</td>
 	<td>...</td>
@@ -207,7 +207,7 @@ function bugs($buglist) {
 	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
 	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 
-<tr><th colspan="9">Other Engines</th></tr>
+<tr><th colspan="10">Other Engines</th></tr>
 <tr><td>Sky (Floppy)</td>
 	<td>NONE</td>
 	<td>...</td>
