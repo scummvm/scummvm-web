@@ -172,17 +172,17 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
       	Yes, ScummVM fully supports CD audio in Monkey Island CD, and Loom. Just keep your game CD
 	inserted into your CD drive when you start ScummVM. If you have more than one CD drive in your
 	system. You can specify your CD drive using the -c command line parameter. See the
-	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/scummvm/scummvm/readme.txt?rev=HEAD">readme.txt</a>
+	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
 	for more info.<br><br>
 
       <li><a name="3-2"></a><b>Does ScummVM support using MP3 files instead of CD audio?</b></li>
 	Yes. You can use LAME or some other CD audio conversion utility to convert your CD audio to MP3.  See the
-	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/scummvm/scummvm/readme.txt?rev=HEAD">readme.txt</a>
+	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
 	for more info.<br><br>
 
       <li><a name="3-3"></a><b>Does ScummVM support filtered graphic modes?</b></li>
       	Yes, ScummVM supports several filtered graphic modes such as super2xsai.  See the
-	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/scummvm/scummvm/readme.txt?rev=HEAD">readme.txt</a>
+	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
 	for more info.<br><br>
       
       <li><a name="3-4"></a><b>Can I run my game full screen?</b></li>
@@ -198,7 +198,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
       <li><a name="4-1"></a><b>My game won't run.</b></li>
       	First make sure your game is supported. See <a href="#14">1.4</a>. If it is a supported game and you
 	have followed the instructions in
-	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/scummvm/scummvm/readme.txt?rev=HEAD">readme.txt</a>
+	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
 	to the letter, then see <a href="#46">4.6</a> to report this as a bug.<br><br>
 	
       <li><a name="4-2"></a><b>I don't hear any sound.</b></li>
@@ -209,7 +209,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
       	By default, on most operating systems, ScummVM will automatically use ADLIB emulation. However, some games do not include
 	Adlib music - such as Sam and Max. Note: MIDI may not be available on all operating systems or may need manual configuration.
 	Use the -e command line param to choose the MIDI engine to use. See the 
-	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/scummvm/scummvm/readme.txt?rev=HEAD">readme.txt</a>
+	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
 	for more info.<br><br>
       
       <li><a name="4-3"></a><b>My game crashes at some point.</b></li>
