@@ -14,7 +14,6 @@
 	<h2>Game Compatibility</h2>
 <p>
 	<B>Release status:</BR><BR>
-	&nbsp;&nbsp;&nbsp; * Left to test: Simon 1/2 Talkies<BR>
 	&nbsp;&nbsp;&nbsp; * RC Bugs in: ZakV2 (3 RC's)<BR>
 	&nbsp;&nbsp;&nbsp; * Generic engine-wide RC bugs: 1 (#747984)<BR>
 	<HR>
@@ -53,7 +52,7 @@
 <tr><td>Sky (CD)</td><td>Ender: 11 Jul, olki: 12 Jul</td><td>...</td><td>x86 Mac -DC -Palm WinCE</td></tr>
 
 <tr><td colspan=4><center><B>Simon Engine</B></center></td></tr>
-<tr><td>Simon1 (talkie)</td><td>Needs Testing</td><td>...</td><td>x86 -DC -Palm WinCE</td></tr>
+<tr><td>Simon1 (talkie)</td><td>Kirben: 22 Jul</td><td>...</td><td>x86 -DC -Palm WinCE</td></tr>
 <tr><td>Simon2 (talkie)</td><td>kelmer44: 19 Jul</td><td>...</td><td>x86 -DC -Palm WinCE</td></tr>
 <tr><td>Simon1 (floppy)</td><td>neosmagus: 12 Jul</td><td>775534</td><td>x86 -DC -Palm WinCE</td></tr>
 <tr><td>Simon2 (floppy)</td><td>pronemisis: 12 Jul</td><td>...</td><td>x86 -DC -Palm WinCE</td></tr>
