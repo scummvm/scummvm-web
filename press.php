@@ -22,8 +22,8 @@ echo html_round_frame_start("Press Coverage","");
 <h1>ScummVM press coverage</h1>
 <center><small>(If you wish to contact us in regards to media articles, please e-mail press 
 (@) scummvm.org)</small></center>
-	<p><a href="http://www.techtv.com/callforhelp"><b>Call for Help show</b></a>,
-	   TechTV, March 19th 2004
+	<p><a href="http://www.techtv.com/callforhelp/freefile/story/0,24330,3640615,00.html">
+	   <b>Call for Help show</b></a>, TechTV, March 19th 2004
 	</p>
 
 	<p><a href="http://arisme.free.fr/PocketScumm/press"
