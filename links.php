@@ -66,11 +66,26 @@ echo html_round_frame_start("Links","98%","",20);
 	<b>Unofficial ports</b><? echo html_line(); ?>
 	<p>There are a few unofficial ports of ScummVM floating around. Usually we prefer to merge any ports into our official
 	CVS, but for the following this has not (yet) happened for various reasons. Note that the ScummVM team does not endorse
-	any of these ports. We did not test them, and we do not guarantee that they work properly. Use at your own risk.</p>
+	any of these ports. We did not test them, and we do not guarantee that they work properly. <font color="red">Use at your own risk!</font></p>
 
 	<blockquote>
 	<table border=0 cellpadding=5 cellspacing=0>
 
+	  <tr><td><a href="http://www.sebelinteractive.de/scummvm/"><b>Amiga port</b></a></td></tr>
+	  <tr>
+	    <td><blockquote>
+	    An unofficial amiga port.
+	    </blockquote></td>
+	  </tr>
+
+	  <tr><td><a href="http://dreo.org/p800/escummvm/index.html"><b>P800 port</b></a></td></tr>
+	  <tr>
+	    <td><blockquote>
+	    An unofficial port to the Sony Ericsson P800 running Symbian 7.0.
+	    </blockquote></td>
+	  </tr>
+
+<!--
 	  <tr><td><a href="http://www.algonet.se/~chaozer/warpscumm.html"><b>Amiga port (based on SDL backend)</b></a></td></tr>
 	  <tr>
 	    <td><blockquote>
@@ -88,7 +103,7 @@ echo html_round_frame_start("Links","98%","",20);
 	    While newer than the above port, they also are a bit behind and carry ScummVM version 0.3.0b.
 	    </blockquote></td>
 	  </tr>
-
+-->
 	</table>
 	</blockquote>
 
