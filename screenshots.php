@@ -18,19 +18,6 @@ sidebar_start();
 //display welcome table
 echo html_round_frame_start("Screenshots","");
 
-//hack around PHP <4.3.0
-if (!function_exists("file_get_contents")) {
-	function file_get_contents($filename) {
-		$text = "";
-		$file = fopen($filename, "rb");
-		if ($file) {
-			while (!feof($file)) 
-				$text .= fread($file, 1024);
-			fclose($file);
-    		}
-    		return $text;
-   	}
-}
 ?>
 	<h1>Screenshots</h1>
 
@@ -60,7 +47,7 @@ if ($view != "")
 			),
 	     html_frame_tr(
 				html_frame_td(
-					file_get_contents($file_root.'/screenshots/scummvm_'.$view.'.txt'),
+					implode('', file($file_root.'/screenshots/scummvm_'.$view.'.txt')),
 					'align=center class="color0" style="padding-bottom: 10px; font-style: italic;"'
 				)
 			),
@@ -108,7 +95,7 @@ else
 				   '<img src="'.$file_root.'/screenshots/scummvm_'.$c.'.png" '.
 				   'width=256 height=160 alt="Screenshot '.$c.'"></a>'.
 				   '</td></tr><tr><td align="center">'.
-				   file_get_contents($file_root.'/screenshots/scummvm_'.$c.'.txt').
+				   implode('', file($file_root.'/screenshots/scummvm_'.$c.'.txt')).
 				   '</td></tr></table>',
 				   'align=center class="color0" style="padding-top: 10px; font-style: italic;"'
 				  );
