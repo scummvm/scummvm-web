@@ -196,6 +196,18 @@ echo html_round_frame_start("Contact","98%","",20);
 	    <td>- His work on the new GUI</td>
 	  </tr>
 
+      <tr>
+	    <td>Jamieson Christian</td>
+	    <td>[ jamieson630 ]</td>
+	    <td>- Lots of work on iMuse/MIDI</td>
+	  </tr>
+
+      <tr>
+	    <td>Torbj&ouml;rn Andersson</td>
+	    <td>[ eriktorbjorn ]</td>
+	    <td>- Many different contributions</td>
+	  </tr>
+
       <tr><td colspan=3>&nbsp;</td></tr>
       <tr><td colspan=3>And to all the contributors, users, and beta testers we've missed. Thanks!</td></tr>
       
