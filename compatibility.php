@@ -315,7 +315,7 @@ $notes = array(
 		   "<br>- Various issues",
 "circdemo"	=> "Not completable, no controls".
 		   "<br>- Various issues",
-"puttcirc"	=> "Not completable, no controls".
+"puttcircus"	=> "Not completable, no controls".
 		   "<br>- Various issues",
 "puttzoo"	=> "Game is completable, with minor glitches".
 		   "<br>- Various issues",
