@@ -16,7 +16,12 @@
 <ul>
 <li>Generic:
 	<ul>
-		<li>No SMUSH: aquadran is working on this one
+		<li>No SMUSH Audio: aquadran is working on this one
+		<li>Something is wrong with our flObject 
+implementation. See the conversation bug below. This problem also 
+causes a crash when bringing up the inventory after taking all the 
+items in the Snake in Part II (object 116, loaded and locked in 
+bootscript)
 	</ul>
 <li>Inventory:
 	<ul>
@@ -44,6 +49,7 @@
 		<li>The CHORE opcode still seems to be returning dodgy results
 		<li>Lack of MouthSync stuff causes odd actor speech animations
 		<li>Lack of MusicMouthSync will stop entry into Part 3 (hang during song sequence)
+		<li>No ScaleSlot implementation means bad scaling
 	</ul>
 </ul>
 
