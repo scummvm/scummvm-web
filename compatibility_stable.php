@@ -221,7 +221,7 @@ $notes = array(
 		   "<br>- Czech support is untested. If you have a czech version, please contact us.",
 "sword2"	=> "Game is completable.",
 "queen"		=> "Game should be completable.".
-		   "<br>- Requires <a href=\"http://0x.7fc1.org/fotaq/queen.tbl\">queen.tbl</a> resource file",
+                   "<br>- Some versions may require the <a href=\"http://0x.7fc1.org/fotaq/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases",
 "simon1win" 	=> "No known problems - game is completable.",
 "simon1talkie" 	=> "Game is completable.",
 "simon1cd32" 	=> "Game is completable, with major graphics glitches".
