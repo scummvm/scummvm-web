@@ -40,7 +40,7 @@ $demos = array(
 	'Indiana Jones and the Last Crusade (non interactive 16 colour)'	
 		=> array('http://files.mixnmojo.com/indydemo.zip', 'indy3ega'),
 	'Loom (non interactive 16 colour)'
-		=> array('http://files.mixnmojo.com/', 'loom'),
+		=> array('http://files.mixnmojo.com/loomdemo.zip', 'loom'),
 	'Passport to Adventure (playable 16 colour demos of mi, loom, indy3)'
 		=> array('http://files.mixnmojo.com/pass.zip', 'pass'),
 	'Monkey Island 2 (non interactive demo)'
