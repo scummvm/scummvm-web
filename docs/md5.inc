@@ -115,7 +115,7 @@
 		<?php addEntry("Demo (non-interactive)", "DOS", "en", "387a544b8b10b26912d8413bab63a853", "monkey2", "khalek"); ?>
 	<tr><td colspan='7'><strong>Indiana Jones and the Fate of Atlantis</strong></td></tr>
 		<?php addEntry("Talkie", "DOS", "en", "182344899c2e2998fca0bebcd82aa81a", "atlantis"); ?>
-		<?php addEntry("Non-Talkie", "Mac", "en", "d6dd0646404768a63e963891a96daadd", "atlantis"); ?>
+		<?php addEntry("Talkie", "Mac", "en", "1a6e5ae2777a6a33f06ffc0226210934", "atlantis", "Scott Summers"); ?>
 		<?php addEntry("Non-Talkie", "DOS", "en", "c63ee46143ba65f9ce14cf539ca51bd7", "atlantis", "Andrea Petrucci"); ?>
 		<?php addEntry("Non-Talkie", "DOS", "de", "1fbebd7b2b692df5297870447a80cfed", "atlantis"); ?>
 		<?php addEntry("Non-Talkie", "DOS", "fr", "edfdb24a499d92c59f824c52987c0eec", "atlantis", "Nicolas Sauz&egrave;de, Andrea Petrucci"); ?>
@@ -124,6 +124,8 @@
 		<?php addEntry("Non-Talkie", "Amiga", "en", "3a03dab514e4038df192d8a8de469788", "atlantis", "dhewg"); ?>
 		<?php addEntry("Non-Talkie", "Amiga", "de", "4f267a901719623de7dde83e47d5b474", "atlantis", "ghoostkilla"); ?>
 		<?php addEntry("Non-Talkie", "Amiga", "it", "5798972220cd458be2626d54c80f71d7", "atlantis", "Andrea Petrucci"); ?>
+		<?php addEntry("Non-Talkie", "Mac", "en", "d6dd0646404768a63e963891a96daadd", "atlantis", "Fingolfin"); ?>
+		<?php addEntry("Non-Talkie", "Mac", "en", "06b187468113f9ae5a400b148a847fac", "atlantis", "Lars N¾sbye Christensen"); ?>
 		<?php addEntry("FM-TOWNS", "FM-TOWNS", "en", "c7be10f775404fd9785a8b92a06d240c", "indy4", "dhewg, Andrea Petrucci"); ?>
 		<?php addEntry("FM-TOWNS", "FM-TOWNS", "jp", "4d34042713958b971cb139fba4658586", "indy4", "Andrea Petrucci"); ?>
 		<?php addEntry("FM-TOWNS Demo", "FM-TOWNS", "jp", "28d24a33448fab6795850bc9f159a4a2", "indydemo", "khalek"); ?>
