@@ -91,7 +91,7 @@ $games = array(
 		'Simon The Sorcerer 1 Talkie (Amiga CD32)'     		=> array('n/a','simon1cd32','5'),
 		'Simon The Sorcerer 1 (DOS)'           			=> array('n/a','simon1dos','83'),
 		'Simon The Sorcerer 1 (Amiga)'          		=> array('n/a','simon1amiga','0'),
-		'Simon The Sorcerer 1 (Demo)'          			=> array('n/a','simon1demo','80'),
+		'Simon The Sorcerer 1 (Demo)'          			=> array('n/a','simon1demo','83'),
 		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','85'),
 		'Simon The Sorcerer 2 Talkie (DOS)'       		=> array('n/a','simon2talkie','85'),
 		'Simon The Sorcerer 2 Talkie (Amiga or Mac)'       	=> array('n/a','simon2mac','85'),
@@ -184,8 +184,7 @@ $notes = array(
                    "<br>- No inventory scrolling arrows shown, can still move around inventory though",
 "simon1amiga" 	=> "Not at all implemented yet",
 "simon1demo" 	=> "Game demo is completable".
-                   "<br>- Freezes briefly when Swampling leaves his house".
-                   "<br>- No music",
+                   "<br>- Freezes briefly when Swampling leaves his house",
 "simon2win"     => "Game is completable.".
                    "<br>- Minor graphical glitch when giving items to baby",
 "simon2talkie"  => "Game is completable.".
