@@ -1,0 +1,23 @@
+<NAME>Progress report</NAME>
+<DATE>May 27, 2002</DATE>
+<BODY>
+        Work on ScummVM has been proceeding very slowly of late, as the main
+        devteam is quite busy on other matters.
+        <BR><BR>
+        We are aware of quite a few issues in Zak256 and some very serious
+        ones in Simon that were found for 0.2.0, and plan to do an interm
+        release (0.2.1) as soon as they are fixed. We are of course looking
+        for more developers willing to help out, as there is only currently
+        one person working on the game interpreter itself (although several
+        are working on more specialisd parts of the engine).
+        <BR><BR>
+        We are also aware of a GP32 port in progress, and urge anyone who
+        knows the developer to get him to contact <a href="mailto:scummvm@enderboi.com">Ender</a>.
+        Besides the fact we are quite intrested in his work, and wish to invite him to
+        join the team... we are quite peeved he has released binaries and there appears
+        to be no way to contact him for the source code to his port (as is required by
+        the GPL license ScummVM uses)!
+        <BR><BR>
+        Until the next update... <B>I can't pick that up! No really! Read my lips..
+        I... Can't... Pick... That... Up!</B>
+</BODY>
