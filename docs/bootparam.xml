@@ -156,7 +156,7 @@ and cause the game to start in that room.
 <br><a name="monkey2"></a>
 <h2>Monkey Island 2: LeChuck's revenge</h2>
 
-<p>Parts of the following table were contributed by Ben Gorman. Thanks, Ben!</p>
+<p>Parts of the following table were contributed by Ben Gorman and John Gamble. Thanks, Ben and John!</p>
 
 <table border="1" cellspacing="0" cellpadding="2">
 <tr><th>Param</th><th>Description</th></tr>
@@ -172,60 +172,60 @@ and cause the game to start in that room.
 <tr><td>409</td><td>stans with hammer and nails</td></tr>
 <tr><td>415</td><td>costume shop with invitation</td></tr>
 <tr><td>456</td><td>woodtick</td></tr>
-<tr><td>459</td><td>???</td></tr>
+<tr><td>459</td><td>Scabb Island Hill in back of cemetery, Carrying: Shovel</td></tr>
 <tr><td>494</td><td>captain dredd's ship, heap of stuff</td></tr>
 <tr><td>495</td><td>woodtick, gold, monacle, shovel</td></tr>
 <tr><td>498</td><td>woodtick hotel, voodoo doll, pins</td></tr>
 <tr><td>500</td><td>hotel with mud</td></tr>
-<tr><td>501</td><td>???</td></tr>
+<tr><td>501</td><td>Scabb Island Inside Largo's Hotel Room, On Ground: Laundry Ticket, Toupee</td></tr>
 <tr><td>550</td><td>outside drinking contest house</td></tr>
-<tr><td>596</td><td>???</td></tr>
+<tr><td>596</td><td>Phatt Island Pump, Carrying: Jojo</td></tr>
 <tr><td>598</td><td>The Bloody Lip with banana and library card</td></tr>
 <tr><td>600</td><td>elevator</td></tr>
-<tr><td>619</td><td>???</td></tr>
+<tr><td>619</td><td>Booty Island Shop, On Ground: Map Piece, Horn, Mirror, Saw, Feather Pen, Collector's Plate. Carrying: 420 Pieces o' Eight, Monkey head, Parrot Chow, Spit Plaque</td></tr>
 <tr><td>666</td><td>Phatt Island arrest</td></tr>
 <tr><td>667</td><td>Phatt Island</td></tr>
-<tr><td>668</td><td>???</td></tr>
-<tr><td>669</td><td>???</td></tr>
-<tr><td>675</td><td>???</td></tr>
-<tr><td>676</td><td>???</td></tr>
-<tr><td>677</td><td>???</td></tr>
-<tr><td>704</td><td>???</td></tr>
-<tr><td>707</td><td>???</td></tr>
-<tr><td>714</td><td>???</td></tr>
-<tr><td>726</td><td>???</td></tr>
+<tr><td>668</td><td>Phatt Island Roulette Wheel</td></tr>
+<tr><td>669</td><td>Phatt Island Back Alley, Carrying: 4 map pieces, toupee, spit, bone, bra, straw, drinks (red, green, blue), shovel, nails, hammer, paper, monocle, rat, voodoo doll (Largo), pins, oar</td></tr>
+<tr><td>675</td><td>Booty Island, On Ground: Plank. Carrying: (same as 669)</td></tr>
+<tr><td>676</td><td>Phatt Island Warf, Carrying: Fish</td></tr>
+<tr><td>677</td><td>Phatt Island Warf, Carrying: Fish</td></tr>
+<tr><td>704</td><td>Phatt Island Governor's Bedroom, On Ground: Famous Pirate Quotations. Carrying: Useless Library Book</td></tr>
+<tr><td>707</td><td>Booty Island Cliff Side, Carrying: Fishing Rod, Horn, String, Paper, Spit Encrusted Paper, Map</td></tr>
+<tr><td>714</td><td>Phatt Island Outside Cottage, Carrying: Telescope, Near-Grog, Mirror, Map</td></tr>
+<tr><td>726</td><td>Booty Island Upstairs in Marley's Mansion, Movie: Busted stealing map piece</td></tr>
 <tr><td>800</td><td>card catalog</td></tr>
 <tr><td>818</td><td>Bloody Lip kitchen</td></tr>
 <tr><td>819</td><td>The Bloody Lip</td></tr>
 <tr><td>820</td><td>Woodtick</td></tr>
 <tr><td>850</td><td>map</td></tr>
 <tr><td>878</td><td>Phatt Island with small key</td></tr>
-<tr><td>887</td><td>???</td></tr>
-<tr><td>888</td><td>???</td></tr>
+<tr><td>887</td><td>Scabb Island Woodsmith's Hut, Carrying: 420 Pieces o' Eight, Broken Oar</td></tr>
+<tr><td>888</td><td>Scabb Island Pirates, On Ground: Rat. Carrying: Saw, Squigglies, Stick, String</td></tr>
 <tr><td>890</td><td>Booty Island 6112 pieces o' eight</td></tr>
-<tr><td>897</td><td>???</td></tr>
+<tr><td>897</td><td>Scabb Island Map</td></tr>
 <tr><td>898</td><td>Phatt Island with Kate leaflet</td></tr>
 <tr><td>899</td><td>Booty Island 276 pieces o' eight</td></tr>
 <tr><td>900</td><td>scabb island overhead, with crypt key, pirate quotes, ash-2-life</td></tr>
-<tr><td>906</td><td>???</td></tr>
-<tr><td>907</td><td>???</td></tr>
-<tr><td>908</td><td>???</td></tr>
-<tr><td>909</td><td>???</td></tr>
-<tr><td>910</td><td>???</td></tr>
+<tr><td>906</td><td>Scabb Island Peninsula, Carrying: 420 Pieces o' Eight, Monocle, Shovel, Knife, String, Stick, Voodoo Doll (Largo), Pins, Spit Encrusted Paper</td></tr>
+<tr><td>907</td><td>Dread's Boat (On Sea), On Ground: Parrot Chow. Carrying: Dread's Map</td></tr>
+<tr><td>908</td><td>Dread's Boat (On Sea), On Ground: Parrot Chow. Carrying: Dread's Map</td></tr>
+<tr><td>909</td><td>Dread's Boat (On Sea), On Ground: Parrot Chow. Carrying: Dread's Map</td></tr>
+<tr><td>910</td><td>Dread's Boat (On Sea), On Ground: Parrot Chow. Carrying: Dread's Map</td></tr>
 <tr><td>989</td><td>Booty Island 6112 pieces o' eight and shipwrecks book</td></tr>
-<tr><td>993</td><td>???</td></tr>
-<tr><td>994</td><td>???</td></tr>
-<tr><td>995</td><td>???</td></tr>
-<tr><td>996</td><td>???</td></tr>
-<tr><td>997</td><td>???</td></tr>
-<tr><td>998</td><td>???</td></tr>
-<tr><td>999</td><td>???</td></tr>
+<tr><td>993</td><td>Dinky Island Inside Hole With Treasure Chest, Carrying: Crowbar & Rope</td></tr>
+<tr><td>994</td><td>Dinky Island Beach, Carrying: 2 Crackers</td></tr>
+<tr><td>995</td><td>Dinky Island Jungle (Pile of Rocks), Carrying: Shovel</td></tr>
+<tr><td>996</td><td>Dinky Island Beach, Carrying: 3 Crackers</td></tr>
+<tr><td>997</td><td>Dinky Island Beach</td></tr>
+<tr><td>998</td><td>Dinky Island 'Big X', Carrying: Shovel, Dynamite, Matches, Crowbar & Rope</td></tr>
+<tr><td>999</td><td>Dinky Island Beach, Carrying: Shovel</td></tr>
 <tr><td>1000</td><td>scabb island outside shack, heaps of stuff</td></tr>
-<tr><td>1001</td><td>???</td></tr>
+<tr><td>1001</td><td>Phatt Island Movie: Initial Entry (Wanted + Arrested)</td></tr>
 <tr><td>1050</td><td>phatt island overhead</td></tr>
 <tr><td>1100</td><td>wally hanging on chains in lechucks dungeon</td></tr>
-<tr><td>1297</td><td>???</td></tr>
-<tr><td>1298</td><td>???</td></tr>
+<tr><td>1297</td><td>Scabb Island Wally's Room, On Ground: Monocle. Carrying: 4 Map Pieces</td></tr>
+<tr><td>1298</td><td>Scabb Island Wally's Room, On Ground: Monocle. Carrying: 3 Map Pieces</td></tr>
 <tr><td>1300</td><td>scabb island swamp</td></tr>
 <tr><td>1350</td><td>lechuck's fortress docks</td></tr>
 <tr><td>1550</td><td>Men of Low Moral Fiber</td></tr>
@@ -233,37 +233,38 @@ and cause the game to start in that room.
 <tr><td>1700</td><td>underground tunnels</td></tr>
 <tr><td>1800</td><td>wally at desk</td></tr>
 <tr><td>1850</td><td>cliff side</td></tr>
-<tr><td>1967</td><td>???</td></tr>
-<tr><td>1968</td><td>???</td></tr>
+<tr><td>1967</td><td>Booty Island Treehouse Pile of Maps, Carrying: Dog</td></tr>
+<tr><td>1968</td><td>Phatt Island Outside Cottage, Carrying: Telescope, Drinks (Green, Blue, Yellow, Red, Purple, Brown, Orange, Empty), Straw, Near-Grog</td></tr>
 <tr><td>1974</td><td>Beach with paper</td></tr>
-<tr><td>1976</td><td>???</td></tr>
-<tr><td>1977</td><td>???</td></tr>
-<tr><td>1978</td><td>???</td></tr>
+<tr><td>1976</td><td>Scabb Island Inside Crypt, Carrying: Famous Pirate Quotations, Ash-2-Life</td></tr>
+<tr><td>1977</td><td>Captain Kate's Ship, Movie: unsuccessful Dive</td></tr>
+<tr><td>1978</td><td>Scabb Island Inside Crypt, Carrying: Famous Pirate Quotations, Ash-2-Life, Key</td></tr>
 <tr><td>1984</td><td>Beach cutscene</td></tr>
-<tr><td>1985</td><td>???</td></tr>
-<tr><td>1989</td><td>???</td></tr>
+<tr><td>1985</td><td>Scabb Island Voodoo Hut, Carrying: Toupee, Bra, Spit, Bone</td></tr>
+<tr><td>1989</td><td>Booty Island Marley's Party, On Ground: Map Piece</td></tr>
 <tr><td>1990</td><td>Carpenters</td></tr>
-<tr><td>1991</td><td>???</td></tr>
-<tr><td>1992</td><td>???</td></tr>
-<tr><td>1993</td><td>???</td></tr>
-<tr><td>1998</td><td>???</td></tr>
-<tr><td>1999</td><td>???</td></tr>
-<tr><td>2001</td><td>???</td></tr>
+<tr><td>1991</td><td>Scabb Island Swamp, On Ground: Crate. Carrying: 4 Pieces o' Eight, Telescope, Fishing Pole, Crypt Key, Hammer, Green Drink, Straw, Near-Grog, Jojo, Library Card, Lens, Organ, Stick, Small Key, Ash-2-Life, Juju Bag, Shovel, Knife, String, Stick, Doll (Largo), Pins, Spit Encrusted paper, Map, Sign, Horn, Saw, Wreath, Cap, Plate, Hat, Quill, Books (Shipwrecks, Pirate Quotes, Joy of Hex)</td></tr>
+<tr><td>1992</td><td>Dinky Island Dark Room With Lightswitch, Carrying: 4 Pieces o' Eight, Telescope, Fishing Pole, Crypt Key, Hammer, Green Drink, Straw, Near-Grog, Jojo, Library Card, Lens, Organ, Small Key, Ash-2-Life, Juju Bag + Contents, Shovel, Spit Encrusted paper, Map, Sign, Horn, Wreath, Cap, Plate, Hat, Quill, Books (Shipwrecks, Pirate Quotes, Joy of Hex), Hankie, Glass, Broken Bottle, Rope, Box</td></tr>
+<tr><td>1993</td><td>LeChuck's Fortress Movie: Hanging in torture chamber</td></tr>
+<tr><td>1998</td><td>Booty Island Shop, Carrying: 500 Pieces o' Eight (x2), straw, Drinks (Green, Red, Blue), Shovel, Hammer, Nails, Bra, Paper, Monocle, Rat, Doll (Largo), Pins</td></tr>
+<tr><td>1999</td><td>LeChuck's Fortress Movie: Escaping (Explosion)</td></tr>
+<tr><td>2001</td><td>Booty Island Outside Marley's Mansion</td></tr>
 <tr><td>2010</td><td>Woodtick pre-largo intro</td></tr>
-<tr><td>2061</td><td>???</td></tr>
-<tr><td>3383</td><td>???</td></tr>
-<tr><td>4478</td><td>???</td></tr>
-<tr><td>6711</td><td>???</td></tr>
-<tr><td>8811</td><td>???</td></tr>
-<tr><td>9000</td><td>???</td></tr>
-<tr><td>9065</td><td>???</td></tr>
-<tr><td>9066</td><td>???</td></tr>
-<tr><td>9090</td><td>???</td></tr>
-<tr><td>9898</td><td>???</td></tr>
-<tr><td>9999</td><td>???</td></tr>
+<tr><td>2061</td><td>Booty Island Ville De La Booty, Carrying: Horn, Drinks (Green, Red, Empty), Straw</td></tr>
+<tr><td>3383</td><td>Scabb Island Map With Dread's Ship Available</td></tr>
+<tr><td>4478</td><td>Movie: Part II Four Map Pieces</td></tr>
+<tr><td>6711</td><td>LeChuck's Fortress Maze Junction With Lots of Signs, Carrying: Spit Encrusted paper (Although when selected it is called 'Spit Dripping Down Wall)</td></tr>
+<tr><td>8811</td><td>Booty Island Big Tree, On Ground: Plank. Carrying: Spit Encrusted Paper, Oar</td></tr>
+<tr><td>9000</td><td>Dinky Island Underground in Elevator, Carrying: Helium Balloon, 2 Helium-Filled Surgical Gloves</td></tr>
+<tr><td>9065</td><td>Phatt Island Outside Jail, Carrying: Dread's Map, hand & Map</td></tr>
+<tr><td>9066</td><td>Booty Island Ville De La Booty, Carrying: 2 Map Pieces, Dread's Map</td></tr>
+<tr><td>9090</td><td>Dinky Island Underground Lightswitch Room, On Ground: Ticket. Carrying: Syringe, Voodoo Doll (LeChuck)</td></tr>
+<tr><td>9898</td><td>Dinky Island Underground Lightswitch Room, On Ground: Ticket. </td></tr>
+<tr><td>9999</td><td>Dinky Island Underground Lightswitch Room (Dark), Carrying: Juju bag, Hankie</td></tr>
 <tr><td>10001</td><td>Start game without rolling demo, easy mode</td></tr>
 <tr><td>11111</td><td>Beach</td></tr>
 </table>
+
 
 <br><a name="comi"></a>
 <h2>Curse of Monkey Island</h2>
