@@ -98,12 +98,12 @@ $games = array(
 
 $notes = array(
 "maniac"	=> "Enhanced PC version runs, although in-game there are still many things wrong".
-		=> "Classic PC version crashes when entering the next room".
+		   "Classic PC version crashes when entering the next room".
 		   "<br>- Both Amiga and PC versions supported by this target".
 		   "<br>- No actors shown in Classic PC version".
 		   "<br>- No music or sound effects with Amiga and Classic PC versions",
 "zak"		=> "Enhanced PC version runs, although in-game there are still many things wrong".
-		=> "Classic PC version is untested".
+		   "Classic PC version is untested".
 		   "<br>- Both Amiga and PC versions supported by this target".
 		   "<br>- No actors shown in Classic PC version".
 		   "<br>- No music or sound effects with Amiga and Classic PC versions",
