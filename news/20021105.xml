@@ -1,0 +1,33 @@
+<NAME>It's a SCUMMy job, but someone's...</NAME>
+<DATE>Nov 05, 2002</DATE>
+<BODY>
+Well, we seem to have lost contact with LucasArts, as we havn't heard 
+from them for several weeks now. So, assuming they don't suddenly e-mail 
+us and veto it, we are preparing for a 0.3.0 release.<BR><BR>
+
+Firstly, ScummVM 0.3.0 will include support for:<BR>
+<UL>
+  <LI>Zak McKracken (FmTowns 256 Color Version
+  <LI>Monkey Island (VGA Floppy and Enhanced CD)
+  <LI>Loom (CD Talkie version)
+  <LI>Indiana Jones and the Fate of Atlantis
+  <LI>Day of the Tentacle
+  <LI>Sam and Max Hit the Road
+  <LI>The Dig
+  <LI>Simon The Sorcerer 1
+</UL>
+<BR>
+The next major release, 0.4.0, will include support for:<BR>
+<UL>
+  <LI>Simon The Sorcerer 2
+  <LI>Full Throttle
+  <LI>Indiana Jones and Last Crusade (256 color version)
+</UL>
+<BR><BR>
+So, what can you do to help? Well, we currently require people to test 
+all of the supported games and let us know if there are any major bugs 
+that mark them as uncompletable. For details on how to do this, please 
+see <a href="/documentation.php?view=release">ScummVM 0.3.0 Release 
+Info</a>.
+</BODY>
+	
