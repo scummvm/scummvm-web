@@ -68,7 +68,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-win32.exe?download">Windows Installer</a> <small>(1.0M Win32 .exe)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-win32.zip?download">Windows zipfile</a> <small>(1.0M zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-macosx.dmg?download">MacOS X Disk Image</a> <small>(672k disk image)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-macosx.dmg?download">Mac OS X 10.2 Disk Image</a> <small>(672k disk image)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-1.rh80.i386.rpm?download">RedHat 8.0 package</a> <small>(405k RPM)</small>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-1.src.rpm?download">Source RPM</a> <small>(1.1M RPM)</small>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.4.1-0woody1_i386.deb?download">Debian Stable (woody) Package</a> <small>(377k .deb)</small></li>
