@@ -112,7 +112,7 @@ $notes = array(
 		   "<br>- No music or sound effects with Amiga version",
 "indy3ega"	=> "Game is completable".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
-                   "<br>- Some music is cut short",
+                   "<br>- No music looping and some music is cut short",
 "indy3"         => "Game is completable" .
                    "<br>- No sound effects",
 "zak256"        => "Game is completable." .

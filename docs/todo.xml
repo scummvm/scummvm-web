@@ -62,13 +62,13 @@
 		</ul>
 		<li><h4>Monkey1EGA</h4>
 		<ul>
-			<li>Fix music support and add sound effects support</li>
+			<li>Add sound effects support</li>
 			<li>Fix Amiga version</li>
 			<li>The demo version locks up after introduction</li>
 		</ul>
 		<li><h4>Monkey1VGA</h4>
 		<ul>
-			<li>Fix music support and add sound effects support</li>
+			<li>Add sound effects support</li>
 			<li><i>Ask: MadMoose, Fingolfin</i></li>
 		</ul>
 		<li><h4>Zak256</h4>
@@ -85,16 +85,17 @@
 		</ul>
 		<li><h4>Indiana Jones and the Last Crusade EGA</h4>
 		<ul>
-			<li>Add music and sound effects support</li>
+			<li>Add adlib music support</li>
+			<li>No music looping and some music cut short</li>
 		</ul>
 		<li><h4>Indiana Jones and the Last Crusade</h4>
 		<ul>
-			<li>Fix music support and add sound effects support</li>
+			<li>Add sound effects support</li>
 			<li><i>Ask: Ender</i></li>
 		</ul>
 		<li><h4>Loom EGA</h4>
 		<ul>
-			<li>Add music and sound effects support</li>
+			<li>Add adlib music support</li>
 			<li>Make reflect work on rusty see 
 			<a href="http://users.bigpond.net.au/tgray2/loom.s07">here</a> for a save. reflect is
 			affa in the save game</li>
@@ -102,7 +103,7 @@
 		</ul>
 		<li><h4>Passport to Adventure</h4>
 		<ul>
-			<li>Fix music support and add sound effects support</li>
+			<li>Add sound effects support</li>
 			<li>Fix subtitles not been shown in indy3 demo</li>
 		</ul>
 		<li><h4>The Curse of Monkey Island</h4>
