@@ -29,7 +29,8 @@ wxWindows toolkit.
 </P>
 <P>
 Development on this project is currently stalled. The code-base needs quite some cleanup, 
-and viewers for many resource types still need adding to the code.
+and viewers for many resource types still need adding to the code. Patches and volunteers
+a very welcome...
 </P>
 
 <BR>
@@ -43,11 +44,17 @@ pun.
 </P>
 <P>
 Residual's core is in a fairly decent state, however it is not in full-time development and 
-as such is progressing slowly.
+as such is progressing slowly. Lipsync support was recently added, in case anybody checks
+this page expecting news.
 </P>
 <P>
-Also, a software renderer needs to be written as older OpenGL cards cannot blit the static 
-depth-buffer used by Grim Fandango without causing major framerate impact.
+Some of the bigger outstanding tasks are:
+<UL>
+ <LI>Save/Load support! We need this, but state saving/loading needs to be hacked
+     into the old LUA version we use. LUA expert wanted, apply within.
+ <LI>A software renderer needs to be written as older OpenGL cards cannot blit the
+     static depth-buffer used by Grim Fandango without causing major framerate impact.
+</UL>
 </P>
 <?
 echo html_round_frame_end("&nbsp;");
