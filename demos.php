@@ -33,37 +33,39 @@ echo html_round_frame_start("Game Demos","");
 <?
 
 $demos = array(
-	'Zak McKracken and the Alien Mindbenders (Atari ST)'
+	'Zak McKracken and the Alien Mindbenders (Atari ST - Non interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/zakstdemo.zip', 'zak'),
-	'The Secret of Monkey Island (16 colour)'	
+	'The Secret of Monkey Island (16 colour demo)'	
 		=> array('http://www.cowlark.com/scumm.dat/mi_demo2.zip', 'monkeyega'),
-	'The Secret of Monkey Island (Amiga)'	
+	'The Secret of Monkey Island (Amiga demo)'	
 		=> array('http://quick.mixnmojo.com/demos/mi1amigademo.zip', 'monkeyvga'),
-	'Indiana Jones and the Last Crusade (non interactive 16 colour)'	
+	'Indiana Jones and the Last Crusade (16 colour - Non interactive)'	
 		=> array('http://www.cowlark.com/scumm.dat/indy3ega-demo.zip', 'indy3ega'),
-	'Loom (non interactive 16 colour)'
+	'Loom (16 colour - Non interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Loomdemo.zip', 'loom'),
-	'Passport to Adventure (playable 16 colour demos of mi, loom, indy3)'
+	'Passport to Adventure (16 colour demos of mi, loom, indy3)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Sampler.zip', 'pass'),
-	'Indy3 & Loom (non interactive FM Towns demo)'
+	'Indy3 & Loom (FM Towns demo - Non interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/indyloom.zip', 'zaktowns'),
-	'Indy3 & Zak256 (non interactive FM Towns demo)'
+	'Indy3 & Zak256 (FM Towns demo - Non interactive)'
 		=>array('http://www.cowlark.com/scumm.dat/indyzak.zip', 'zaktowns'),
-	'Zak256 & Loom (non interactive Fm Towns demo)'
+	'Zak256 & Loom (FM Towns demo - Non interactive)'
 		=>array('http://www.cowlark.com/scumm.dat/zakloom.zip', 'zaktowns'),
-	'Monkey Island 2 (non interactive demo)'
+	'Monkey Island 2 (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/mi2demo.zip', 'mi2demo'),
-	'Indiana Jones and the Fate of Atlantis (playable)'
+	'Indiana Jones and the Fate of Atlantis (DOS demo - Interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Playfate.zip', 'playfate'),
-	'Indiana Jones and the Fate of Atlantis (non interactive)'
+	'Indiana Jones and the Fate of Atlantis (DOS demo - Non interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/fate.zip', 'fate'),
-	'Indiana Jones and the Fate of Atlantis (non interactive FM Towns)'
+	'Indiana Jones and the Fate of Atlantis (FM Towns demo - Non interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/indy4demo.zip', 'indydemo'),
-	'Sam and Max Hit the Road (non interactive)'
+	'Sam and Max Hit the Road (DOS demo - Non interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/samdemo.zip', 'samdemo'),
-	'Sam and Max Hit the Road (interactive)'
+	'Sam and Max Hit the Road (Macintosh demo - Interactive)'
+		=> array('', 'samdemo'),
+	'Sam and Max Hit the Road (DOS demo - Interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Snmdemo.zip', 'snmdemo'),
-	'Sam and Max Hit the Road WIP (interactive)'
+	'Sam and Max Hit the Road WIP (DOS demo - Interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/snmidemo.zip', 'snmidemo'),
 	'Putt-Putt Joins the Parade (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/puttpara.zip', 'puttdemo'),
@@ -71,19 +73,25 @@ $demos = array(
 		=> array('http://www.cowlark.com/scumm.dat/moondemo.zip', 'moondemo'),
 	'Fatty Bear\'s Birthday Surprise (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/fatdemo.zip', 'fbdemo'),
-	'Day of the Tentacle (non interactive)'
+	'Day of the Tentacle (Non interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Dottdemo.zip', 'dottdemo'),
-	'Full Throttle'
+	'Full Throttle (Macintosh demo)'
+		=> array('', 'ftdemo'),
+	'Full Throttle (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/ftdemo.zip', 'ftpcdemo'),
-	'The Dig'
+	'The Dig (Macintosh demo)'
+		=> array('', 'digdemo'),
+	'The Dig (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/digdemo.zip', 'digdemo'),
-	'The Curse of Monkey Island (web demo)'
+	'The Curse of Monkey Island (Web demo)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/cursedemo.exe', 'comidemo'),
-	'The Curse of Monkey Island (demo with movies)*'
-		=> array('http://files.mixnmojo.com/m3demo.zip', 'comi'),
-	'Simon the Sorcerer'
+	'The Curse of Monkey Island (Demo with movies)*'
+		=> array('http://files.mixnmojo.com/m3demo.zip', 'comidemo'),
+	'Simon the Sorcerer 1 (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/simon1demo.zip', 'simon1demo'),
-	'Simon the Sorcerer 2 Talkie'
+	'Simon the Sorcerer 1 Talkie (Acorn demo)'
+		=> array('', 'simon1acorn'),
+	'Simon the Sorcerer 2 Talkie (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/simon2demo.zip', 'simon2talkie'),
 	'Beneath A Steel Sky (FREEWARE FULL GAME - Floppy)'
 		=> array('http://www.mixnmojo.com/bss/BASS-Floppy.zip', 'sky'),
