@@ -80,7 +80,7 @@ function portStatus($ports) {
 </tr>
 
 <tr><th colspan="9">SCUMM Engine</th></tr>
-<tr><td>Maniac (V1)</td><td>NONE<td><td>...</td>
+<tr><td>Maniac (V1)</td><td>NONE</td><td>...</td>
 	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 <tr><td>Zak (V1)</td><td>NONE</td><td>...</td>
 	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
