@@ -184,8 +184,8 @@ $notes = array(
 		   "<br>- No music with Windows version".
 		   "<br>- Cursors aren't scaled correctly in Windows version",
 "moondemo"	=> "Completable if you don't trigger one fatal animation".
-		   "<br>- Creature behind garage door disappears".
 		   "<br>- Both DOS and Windows versions supported by this target".
+		   "<br>- Creature behind garage door disappears".
 		   "<br>- No music with Windows version".
 		   "<br>- Cursors are scaled correctly in Windows version",
 "funpack"	=> "Starts but mini games seem to have various problems".
