@@ -79,7 +79,7 @@ $LEC_demos = array(
 	'Full Throttle (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/ftdemo.zip', 'ftpcdemo'),
 	'The Dig (Macintosh demo)'
-		=> array('http://quick.mixnmojo.com/demos/dig_demo_mac.rar', 'digdemo'),
+		=> array('http://quick.mixnmojo.com/demos/dig_demo_mac.zip', 'digdemo'),
 	'The Dig (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/digdemo.zip', 'digdemo'),
 	'The Curse of Monkey Island (Windows demo)'
