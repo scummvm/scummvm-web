@@ -3,11 +3,10 @@
 $file_root = "../..";
 // load libs
 require($file_root."/include/"."incl.php");
-require($file_root."/docs/specs/"."sidebar_specs.php");
 
 // start of html
 html_header("SCUMM Reference Guide :: AARY Arrays and Strings");
-sidebar_specs_start();
+sidebar_start(true);
     
 //display welcome table
 echo html_round_frame_start("AARY: Arrays and Strings","98%","",20);

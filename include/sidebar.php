@@ -6,7 +6,7 @@
  *
  */
   
-function sidebar_start ()
+function sidebar_start ($specs_mode = false)
 {
   
     global $file_root;
@@ -18,6 +18,20 @@ function sidebar_start ()
 <td align=center valign=top>
 
 <?
+
+	if ($specs_mode) {
+		$g = new htmlmenu("Contents");
+		$g->add("Introduction", $file_root."/docs/specs/"."introduction.php");
+		$g->add("CHAR", $file_root."/docs/specs/"."char.php");
+		$g->add("AARY", $file_root."/docs/specs/"."aary.php");
+		$g->add("SCRP", $file_root."/docs/specs/"."scrp.php");
+		$g->add("V5 opcode list", $file_root."/docs/specs/"."scrp-v5.php");
+		$g->add("V6 opcode list", $file_root."/docs/specs/"."scrp-v6.php");
+		$g->add("Glossary", $file_root."/docs/specs/"."glossary.php");
+	
+		$g->done();
+	}
+
 
 	$g = new htmlmenu("Main Menu");
 
