@@ -273,11 +273,11 @@ $notes = array(
 "freddi3"	=> "Game is playable but not completable".
 		   "<br>- Actors sometimes aren't visible or act strange".
 		   "<br>- Errors out when entering two locations",
-"f4-demo"	=> "Not completable, no inventory controls controls".
+"f4-demo"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
-"freddi4"	=> "Not completable, no inventory controls controls".
+"freddi4"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
-"freddicove"	=> "Not completable, no inventory controls controls".
+"freddicove"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
 "maze"		=> "Game is playable, but settings aren't saved".
 		   "<br>- Various issues",
