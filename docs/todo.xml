@@ -124,7 +124,7 @@
 				<li>Walkscript misbehaves (currently bypassed in CVS)</li>
 				<li>No in-game music</li>
 				<li>Some animations play incorrectly</li>
-				<li>See also <a href="http://scummvm.sourceforge.net/compatibility.php?details=dig">http://scummvm.sourceforge.net/compatibility.php?details=dig</a></li>
+				<li>See also the <a href="../compatibility.php?details=dig">compatibility page for The DIG</a></li>
 				<li><i>Ask: Yazoo, Ender</i></li>
 			</ul>
 			<li><h4>Monkey1VGA</h4>
@@ -140,7 +140,7 @@
 			<li><h4>Full Throttle</h4>
 			<ul>
 				<li>Doesn't handle virtual rooms/resources properly
-				<li>From <a href="http://scummvm.sourceforge.net/compatibility.php?details=ft">http://scummvm.sourceforge.net/compatibility.php?details=ft</a>
+				<li>From the <a href="../compatibility.php?details=ft">compatibility page for Full Throttle</a>
 				<ul>
 					<li>Game crashes at various points, due to missing SCUMM opcodes</li>
 					<li>Some palette glitches during movie playback</li>

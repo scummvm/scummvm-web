@@ -106,7 +106,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
       <li><a name="1-4"></a><b>What games does ScummVM support?</b></li>
 	We have a Compatability List on our website that contains an up to date list of what games work,
 	and how well they work.
-	<a href="compatibility.php">http://scummvm.sourceforge.net/compatibility.php</a>.<br><br>
+	<a href="compatibility.php">http://www.scummvm.org/compatibility.php</a>.<br><br>
 
       <li><a name="1-5"></a><b>Will ScummVM support other games?</b></li>
 	The ScummVM team is working to make newer games, such as "The Dig", playable.<br>
