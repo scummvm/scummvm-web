@@ -7,10 +7,10 @@
 the Sorcerer 1/2 can also be compressed, check readme included with ScummVM for
 details.</p>
 
-<table border="1" width="100%">
+<table border="1" cellspacing="0" cellpadding="2">
   <tr>
-    <td><b>Game</b></td>
-    <td><b>Files to keep</b></td>
+    <th>Game</th>
+    <th>Files to keep</th>
   </tr>
   <tr>
     <td>Beneath a Steel Sky (PC CD and Floppy)</td>
