@@ -94,7 +94,7 @@ function portStatus($ports) {
 	<?php portStatus(array("x86" => +1, "DC" => -1, "Palm" => -1, "WinCE" => +1, "Mac" => -1)); ?></tr>
 <tr><td>Simon2 (talkie)</td><td>kelmer44: 19 Jul</td><td>...</td>
 	<?php portStatus(array("x86" => +1, "DC" => -1, "Palm" => -1, "WinCE" => +1)); ?></tr>
-<tr><td>Simon1 (floppy)</td><td>neosmagus: 12 Jul</td><td>775534</td>
+<tr><td>Simon1 (floppy)</td><td>neosmagus: 12 Jul</td><td>...</td>
 	<?php portStatus(array("x86" => +1, "DC" => -1, "Palm" => -1, "WinCE" => +1, "Mac" => -1)); ?></tr>
 <tr><td>Simon2 (floppy)</td><td>pronemisis: 12 Jul</td><td>...</td>
 	<?php portStatus(array("x86" => +1, "DC" => -1, "Palm" => -1, "WinCE" => +1)); ?></tr>
