@@ -109,7 +109,7 @@ function html_frame_start ($title = "", $width = "", $cellPad = 5, $cellSpc = 1,
     if ($title) {
 	$str .= '<tr><td class="topMenu">'."\n";
 	$str .= '    <table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
-	$str .= '	 <td width="100%" align="center"><span class="menuTitle"> '.$title.' </span></td>'."\n";
+	$str .= '	 <td align="center"><span class="menuTitle"> '.$title.' </span></td>'."\n";
 	$str .= '    </tr></table>'."\n";
 	$str .= '</td></tr>'."\n";
     }
@@ -133,7 +133,7 @@ function html_frame_end ($text = "")
     {
 	$str .= '<tr><td class="topMenu">'."\n";
 	$str .= '    <table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
-	$str .= '	 <td width="100%" align="center"><span class="menuTitle"> '.$text.' </span></td>'."\n";
+	$str .= '	 <td align="center"><span class="menuTitle"> '.$text.' </span></td>'."\n";
 	$str .= '    </tr></table>'."\n";
 	$str .= '</td></tr>'."\n";
     }
@@ -154,8 +154,8 @@ function html_round_frame_start ($title = "", $width = "", $extra = "", $innerPa
     if($title) {
 	$str .= '<tr><td class="topMenu">'."\n";
 	$str .= '    <table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
-	$str .= '	 <td valign=top align=left><img src="'.$file_root.'/images/main_left_top.gif" alt="-"></td>'."\n";
-	$str .= '	 <td width="100%" align="center"><span class="menuTitle"> '.$title.' </span></td>'."\n";
+	$str .= '	 <td valign=top align="left"><img src="'.$file_root.'/images/main_left_top.gif" alt="-"></td>'."\n";
+	$str .= '	 <td align="center"><span class="menuTitle"> '.$title.' </span></td>'."\n";
 	$str .= '	 <td valign=top align="right"><img src="'.$file_root.'/images/main_right_top.gif" alt="-"></td>'."\n";
 	$str .= '    </tr></table>'."\n";
 	$str .= '</td></tr>'."\n";
@@ -175,8 +175,8 @@ function html_round_frame_end ($text = "")
     {
 	$str .= '<tr><td class="topMenu">'."\n";
 	$str .= '    <table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
-	$str .= '	 <td valign=bottom align=left><img src="'.$file_root.'/images/main_left_bottom.gif" alt="-"></td>'."\n";
-	$str .= '	 <td width="100%" align="center"><span class="menuTitle"> '.$text.' </span></td>'."\n";
+	$str .= '	 <td valign=bottom align="left"><img src="'.$file_root.'/images/main_left_bottom.gif" alt="-"></td>'."\n";
+	$str .= '	 <td align="center"><span class="menuTitle"> '.$text.' </span></td>'."\n";
 	$str .= '	 <td valign=bottom align="right"><img src="'.$file_root.'/images/main_right_bottom.gif" alt="-"></td>'."\n";
 	$str .= '    </tr></table>'."\n";
 	$str .= '</td></tr>'."\n";

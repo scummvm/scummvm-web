@@ -67,7 +67,7 @@ function sidebar_start ()
 	</p>
 
 </td>
-<td width="100%" valign="top">
+<td valign="top">
 
 <?
 }
