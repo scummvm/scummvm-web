@@ -22,6 +22,10 @@ echo html_round_frame_start("Press Coverage","");
 <h1>ScummVM press coverage</h1>
 <small>(If you wish to contact us in regards to media articles, please e-mail press 
 (@) scummvm.org)</small>
+	<p><a href="http://www.pcplus.co.uk/tutorials/default.asp?pagetypeid=2&articleid=29821&subsectionid=376&subsubsectionid=749"
+	  ><b>Back to the Source</b></a> PC Plus issue 215, May 2004
+	</p>
+
 	<p><a href="http://www.mac-emu.net/article.php3?id_article=780"
 	   ><b>Dossier ScummVM</b></a> (French), mac-emu, April 2004
 	</p>
