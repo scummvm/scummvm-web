@@ -1,7 +1,0 @@
-<NAME>Known regressions in ScummVM since 0.4.1</NAME>
-<DESC>This is a list of current regressions introduced since 0.4.1</DESC>
-<BODY>
-<!--
-Why do we keep this list anyway? Lets just point to the bug tracker, and maybe add a group "Regression" or whatever to mark bugs as such.
--->
-</BODY>
