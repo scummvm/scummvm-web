@@ -170,7 +170,7 @@
 		<?php addEntry("Demo", "DOS", "en", "32a433dea56b86a55b59e4ff7d755711", "ftpcdemo"); ?>
 		<?php addEntry("Demo", "Mac", "en", "9d7b67be003fea60be4dcbd193611936", "ftdemo"); ?>
 	<tr><td colspan='7'><strong>The Dig</strong></td></tr>
-		<?php addEntry("-", "All", "en", "d8323015ecb8b10bf53474f6e6b0ae33", "dig"); ?>
+		<?php addEntry("-", "All", "All", "d8323015ecb8b10bf53474f6e6b0ae33", "dig"); ?>
 		<?php addEntry("-", "All", "ru", "d62047a6729349ab36f7ee065bf26509", "dig", "sev"); ?>
 		<?php addEntry("Demo", "All", "en", "362c1d281fb9899254cda66ad246c66a", "digdemo"); ?>
 	<tr><td colspan='7'><strong>Curse of Monkey Island</strong></td></tr>
