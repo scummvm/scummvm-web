@@ -120,7 +120,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 
       <li><a name="1-7"></a><b>How do I compile the source code for my OS?</b></li>
 	The source code package contains a file called
-	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/scummvm/scummvm/readme.txt?rev=HEAD">readme.txt</a>
+	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
 	that should explain everything.<br><br>
 
       <li><a name="1-8"></a><b>What is the latest version of ScummVM?</b></li>
