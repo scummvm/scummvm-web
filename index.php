@@ -54,9 +54,10 @@ echo html_round_frame_start("About ScummVM","");
 
 		<p>
 		ScummVM is a 'virtual machine' for several classic graphical point-and-click adventure
-		games. It is designed to run <a href="http://www.adventuresoft.com">Adventure Soft</a>'s
-		<i>Simon the Sorcerer</i> 1 and 2, <a href="http://www.revolution.co.uk">Revolution</a>'s
-		<i>Beneath A Steel Sky</i>, and games based on <a href="http://www.lucasarts.com">LucasArts</a>'
+		games. It is designed to run: <a href="http://www.adventuresoft.com">Adventure Soft</a>'s
+		<i>Simon the Sorcerer</i> 1 and 2; <a href="http://www.revolution.co.uk">Revolution</a>'s
+		<i>Beneath A Steel Sky</i>, Broken Sword 1 and Broken Sword 2; Flight of the Amazon Queen;
+		and games based on <a href="http://www.lucasarts.com">LucasArts</a>'
 		<span style="color: green">SCUMM</span> <span style="color: #666666">(<i>Script Creation Utility for Maniac
 		Mansion</i>)</span> system. <span style="color: green">SCUMM</span> is used for many games,
 		including <i>Monkey Island</i>, <i>Day of the Tentacle</i>, <i>Sam and Max</i> and more.
