@@ -51,7 +51,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
     </ol>
   </li>
     
-  <li><a href="3">Graphics and Audio</a>
+  <li><a href="#3">Graphics and Audio</a>
     <ol>
       <li><a href="#3-1">Does ScummVM support CD audio?</a></li>
       <li><a href="#3-2">Does ScummVM support using MP3 files instead of CD audio?</a></li>
@@ -60,7 +60,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
     </ol>
   </li>
 
-  <li><a href="4">Troubleshooting</a>
+  <li><a href="#4">Troubleshooting</a>
     <ol>
       <li><a href="#4-1">My game won't run.</a></li>
       <li><a href="#4-2">I don't hear any sound.</a></li>
