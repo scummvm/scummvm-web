@@ -24,6 +24,10 @@
 		island without ignoring the boxes. Guybrush also seems to walk down from the sky when entering the room. See 
 		<a href="http://users.bigpond.net.au/tgray2/comi.s01">here</a> for a save. There are other walkbox problems
 		in the game but you can normally just leave the room.
+		<li>Guybrush often isn't visible and there are other strange effects in the last snow room, which prevent
+		the game from being finishable (this behaviour is a regression used to work fine...). Use boot param
+		1050 to jump to the right spot. Of note is that this is a vertically scrolling room and the fuel tower
+		room in full throttle (also vertically scrolling) now seems to have a similiar problem.
 	</ul>
 <li>Sound:
 	<ul>
