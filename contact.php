@@ -73,7 +73,7 @@ echo html_round_frame_start("Contact","98%","",20);
 	  add_person("Jonathan Gray", "khalek", "Expert weaver in the Loom");
 	  add_person("Ruediger Hanke", "", "MorphOS port");
 	  add_person("Travis Howell", "Kirben", "Daily Win32 builds, Simon The Sorcerer work");
-	  add_person("Felix Jakschitsc", "yot", "His hard work on Zak256");
+	  add_person("Felix Jakschitsch", "yot", "His hard work on Zak256");
 	  add_person("Oliver Kiehl", "olki", "Simon The Sorcerer work");
 	  add_person("Pawel Kolodziejski", "aquadran", "Added missing Dig SMUSH codecs");
 	  add_person("Mutwin Kraus", "mutle", "MacOS Carbon port (retired)");
