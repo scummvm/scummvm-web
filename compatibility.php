@@ -58,9 +58,9 @@ else
 
 // This Array Defines the games and thier ratings, etc.
 $games = array(
-		'Maniac Mansion (original)'				=> array('1','maniac','20'),
+		'Maniac Mansion (original)'				=> array('1','maniac','50'),
 		'Maniac Mansion (enhanced)'				=> array('2','maniac','70'),
-		'Zak McKracken and the Alien Mindbenders (original)'	=> array('1','zak','20'),
+		'Zak McKracken and the Alien Mindbenders (original)'	=> array('1','zak','40'),
 		'Zak McKracken and the Alien Mindbenders (enhanced)'	=> array('2','zak','70'),
 		'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','85'),
 		'Indiana Jones and the Last Crusade'			=> array('3','indy3ega','80'),
@@ -107,13 +107,13 @@ $notes = array(
 "maniac"	=> "Enhanced PC version is completable, with several minor glitches".
 		   "<br>Classic version still in progress, results may vary".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions are supported by this target".
-		   "<br>- Classic PC version actor costumes are broken, resulting in random crashes".
+		   "<br>- Classic PC version actor palette is broken".
 		   "<br>- No music or sound effects with Amiga and Classic PC versions",
 "zak"		=> "Enhanced PC version runs, with glitches. May be completable".
 		   "<br>Classic version still in progress, results may vary".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
-		   "<br>- Classic PC version does not start, due to script problems".
-		   "<br>- Classic PC version actor costumes are broken, resulting in random crashes".
+		   "<br>- Classic PC version crashes during first cutscene".
+		   "<br>- Classic PC version actor palette is broken".
 		   "<br>- No music or sound effects with Amiga version",
 "indy3ega"	=> "Game is completable".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
@@ -179,7 +179,7 @@ $notes = array(
 		   "<br>- talkie data not synced/properly implemented",
 "tentacle"	=> "No known problems - should be playable to the end".
 		   "<br>- Both disk and cd versions are supported by this target".
-		   "<br>- Maniac Mansion isn't playable on eds computer",
+		   "<br>- Maniac Mansion isn't playable on Ed's computer",
 "dottdemo"	=> "No known problems - should be playable to the end",
 "samnmax"	=> "No major problems - should be playable to the end".
 		   "<br>- Both disk and cd versions are supported by this target".
