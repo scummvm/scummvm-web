@@ -231,10 +231,10 @@ $notes = array(
 "sword2"	 => "Game is completable, with several minor glitches".
 		   "<br>- Does not work on systems that require alignment".
 		   "<br>- No video for cutscenes",
-"queen"		 => "- Playable up to the Jungle crash site.",
-		   "<br>- Lots of (graphical) glitches and quirks.",
-		   "<br>- No music.",
-		   "<br>- ESCaping past Cutaways/Cutscenes can get Joe stuck on screen.",
+"queen"		 => "- Playable up to the Jungle crash site.".
+		   "<br>- Lots of (graphical) glitches and quirks.".
+		   "<br>- No music.".
+		   "<br>- ESCaping past Cutaways/Cutscenes can get Joe stuck on screen.".
 		   "<br>- Requires <a href=\"http://0x.7fc1.org/fotaq/queen.tbl\">queen.tbl</a> resource file",
 "simon1win" 	=> "No known problems - game is completable.",
 "simon1talkie" 	=> "Game is completable.".
