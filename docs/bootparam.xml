@@ -1,0 +1,186 @@
+<NAME>SCUMM boot params</NAME>
+<DESC>A partial list of the bootparams of some SCUMM games.</DESC>
+<BODY>
+	<h1>SCUMM boot params</h1>
+<!-- TODO: Explain what a boot param is, how to use them with ScummVM, that they are useful for debugging etc.... -->
+<!-- TODO: Add more bootparams -->
+
+<p>Some of these lists are based on the output of <code>./scummvm -d1 -b1 TARGET</code>; some information is also from
+   <a href="http://www.scummbar.com/resources/articles/index.php?newssniffer=readarticle&article=1027">this article</a>.
+   In particular, they may contains some mistakes. 
+   Ultimately we plan to correct these and maybe enhance the descriptions a bit...</p>
+
+<br>
+<h2>The Secret of Monkey Island</h2>
+<table border="1" cellspacing="0" cellpadding="2">
+<tr><th>Param</th><th>Description</th></tr>
+<tr><td>1</td><td>Monkey Island</td></tr>
+<tr><td>2</td><td>Monkey Island Map Bottom - By Crack</td></tr>
+<tr><td>3</td><td>Monkey Island Map Centre Left - By Fort</td></tr>
+<tr><td>4</td><td>Monkey Island Map Centre</td></tr>
+<tr><td>5</td><td>Monkey Island Map Centre Right - By Monkey Head Clearing</td></tr>
+<tr><td>6</td><td>Monkey Island Map Top - By Cannibal Village</td></tr>
+<tr><td>7</td><td>Cabin on Ship - Before ship intro</td></tr>
+<tr><td>110</td><td>Outside swordmasters with sword and lechuck's note</td></tr>
+<tr><td>111</td><td>Melee lookout point with sword</td></tr>
+<tr><td>112</td><td>Outside swordmasters with sword (different number of insults known?)</td></tr>
+<tr><td>113</td><td>Outside swordmasters with sword (different number of insults known?)</td></tr>
+<tr><td>114</td><td>Outside swordmasters with sword (different number of insults known?)</td></tr>
+<tr><td>115</td><td>Outside swordmasters with sword (different number of insults known?)</td></tr>
+<tr><td>213</td><td>Outside cannibal hut with voodoo root</td></tr>
+<tr><td>321</td><td>Govenors mansion with sword file and idol</td></tr>
+<tr><td>332</td><td>Underwater at Melee dock</td></tr>
+<tr><td>333</td><td>Close-up end cutscene</td></tr>
+<tr><td>334</td><td>Close-up end cutscene</td></tr>
+<tr><td>353</td><td>Stans with credit note</td></tr>
+<tr><td>408</td><td>Cannibal Village, outside hut with monkey head key, leaflet, wimpy little idol</td></tr>
+<tr><td>415</td><td>Melee Island lookout point with breath mints and rubber chicken</td></tr>
+<tr><td>444</td><td>Outside governors mansion with meat and yellow petal</td></tr>
+<tr><td>456</td><td>Jail with breath mints and melting mug of grog</td></tr>
+<tr><td>501</td><td>Ship Kitchen</td></tr>
+<tr><td>555</td><td>Melee Island Bridge</td></tr>
+<tr><td>666</td><td>Scumm Bar -empty</td></tr>
+<tr><td>707</td><td>Store - storekeeper away</td></tr>
+<tr><td>759</td><td>Melee Dock</td></tr>
+<tr><td>777</td><td>Circus tent with pot and hunk of meat</td></tr>
+<tr><td>789</td><td>Monkey Island Map Bottom - By Crack with 2x rope</td></tr>
+<tr><td>800</td><td>Melee Island Forest</td></tr>
+<tr><td>878</td><td>Monkey Island River Fork</td></tr>
+<tr><td>888</td><td>Outside Smirk's with sword and 50 pieces of 8</td></tr>
+<tr><td>900</td><td>Monkey Island Upper Beach</td></tr>
+<tr><td>999</td><td>Caverns Under Monkey Island by ship with magnetic compass, head of naviagator, necklace of navigator</td></tr>
+<tr><td>1111</td><td>Ship Intro</td></tr>
+<tr><td>1212</td><td>Melee Dock with Navigator Head, Navigator Necklace, Root Beer Seltzer</td></tr>
+<tr><td>1436</td><td>Monkey Island - Bottom of crack with magnetic compass, pamphlet, leaflet, brochure, 3 bananas, oars</td></tr>
+<tr><td>2221</td><td>Ship Kitchen with spell ingredients</td></tr>
+<tr><td>2222</td><td>Ship deck with breath mints and rubber chicken</td></tr>
+<tr><td>2299</td><td>Ship Deck with Pamphlet, leaflet, brochure, rope, gunpowder, flaming mass and pot</td></tr>
+<tr><td>3777</td><td>Melee Island lookout with 2x 300 pieces of eight, sword, shovel, breath mints, rubber chicken</td></tr>
+<tr><td>4313</td><td>Cannibal Village, outside hut with monkey head key, oars, magnetic compass, pamphlet, leaflet, brochure, navigator head, navigator necklace</td></tr>
+<tr><td>4444</td><td>Monkey Island - By Monkey with 5 bananas and monkey head key</td></tr>
+<tr><td>5555</td><td>Inside Hut in Cannibal Village</td></tr>
+<tr><td>6342</td><td>Ghost Ship Main Deck, outside hut with monkey head key, oars, magnetic compass, pamphlet, leaflet, brochure, navigator head, navigator necklace</td></tr>
+<tr><td>6565</td><td>Monkey Island beach by banana</td></tr>
+<tr><td>6666</td><td>Outside Monkey Head with monkey head key</td></tr>
+<tr><td>6767</td><td>Ship Intro</td></tr>
+<tr><td>7777</td><td>Monkey Island beach by banana, Guybrush and Rowboat invisible</td></tr>
+<tr><td>7981</td><td>Monkey Island River Fork after dam blown with 3 bananas, magnetic compass, pamphlet, leaflet, brochure</td></tr>
+<tr><td>8742</td><td>Cannibal Village, outside hut with monkey head key, oars, magnetic compass, pamphlet, leaflet, brochure</td></tr>
+<tr><td>8888</td><td>Caverns Under Monkey Island by Bob after ship has sailed</td></tr>
+<tr><td>8889</td><td>Caverns Under Monkey Island by Bob after ship has sailed</td></tr>
+<tr><td>8989</td><td>Melee Island Church during wedding</td></tr>
+<tr><td>9432</td><td>Monkey Island Beach, with magnetic compass, pamphlet, leaflet, brochure</td></tr>
+</table>
+
+<br>
+<h2>Monkey Island II</h2>
+
+<table border="1" cellspacing="0" cellpadding="2">
+<tr><th>Param</th><th>Description</th></tr>
+<tr><td>123</td><td>Men of Low Moral Fiber, laundry claim</td></tr>
+<tr><td>213</td><td>won drinking contest, telescope, mirror, bottle near-grog</td></tr>
+<tr><td>323</td><td>call box in forest</td></tr>
+<tr><td>332</td><td>booty island overhead, invitation</td></tr>
+<tr><td>333</td><td>booty island overhead, invitation dress</td></tr>
+<tr><td>353</td><td>booty island outhouse</td></tr>
+<tr><td>408</td><td>scabb island swamp with crate</td></tr>
+<tr><td>409</td><td>stans with hammer and nails</td></tr>
+<tr><td>415</td><td>costume shop with invitation</td></tr>
+<tr><td>456</td><td>woodtick</td></tr>
+<tr><td>494</td><td>captain dredd's ship, heap of stuff</td></tr>
+<tr><td>495</td><td>woodtick, gold, monacle, shovel</td></tr>
+<tr><td>498</td><td>woodtick hotel, voodoo doll, pins</td></tr>
+<tr><td>300</td><td>governor phatt</td></tr>
+<tr><td>400</td><td>forest?</td></tr>
+<tr><td>500</td><td>hotel with mud</td></tr>
+<tr><td>550</td><td>outside drinking contest house</td></tr>
+<tr><td>600</td><td>elevator</td></tr>
+<tr><td>800</td><td>card catalog</td></tr>
+<tr><td>850</td><td>map</td></tr>
+<tr><td>900</td><td>scabb island overhead, with crypt key, pirate quotes, ash-2-life</td></tr>
+<tr><td>1000</td><td>scabb island outside shack, heaps of stuff</td></tr>
+<tr><td>1050</td><td>phatt island overhead</td></tr>
+<tr><td>1100</td><td>wally hanging on chains in lechucks dungeon</td></tr>
+<tr><td>1300</td><td>scabb island swamp</td></tr>
+<tr><td>1350</td><td>lechuck's fortress docks</td></tr>
+<tr><td>1550</td><td>Men of Low Moral Fiber</td></tr>
+<tr><td>1600</td><td>fish?</td></tr>
+<tr><td>1700</td><td>underground tunnels</td></tr>
+<tr><td>1800</td><td>wally at desk</td></tr>
+<tr><td>1850</td><td>cliff side</td></tr>
+</table>
+
+<br>
+<h2>Curse of Monkey Island</h2>
+
+<table border="1" cellspacing="0" cellpadding="2">
+<tr><th>Param</th><th>Description</th></tr>
+<tr><td>199</td><td>stop the music</td></tr>
+<tr><td>200</td><td>in the treasure hold</td></tr>
+<tr><td>201</td><td>in the treasure hold</td></tr>
+<tr><td>202</td><td>credits room</td></tr>
+<tr><td>203</td><td>credits room</td></tr>
+<tr><td>205</td><td>beginning the cannon puzzle</td></tr>
+<tr><td>206</td><td>beginning the cannon puzzle</td></tr>
+<tr><td>215</td><td>testing the first person cannon view</td></tr>
+<tr><td>220</td><td>animated skeleton</td></tr>
+<tr><td>225</td><td>baby lechuck</td></tr>
+<tr><td>226</td><td>just talked to voodoo lady</td></tr>
+<tr><td>230</td><td>testing getting gold tooth</td></tr>
+<tr><td>240</td><td>testing banjo duel</td></tr>
+<tr><td>241</td><td>testing easy banjo duel</td></tr>
+<tr><td>245</td><td>testing caber toss</td></tr>
+<tr><td>247</td><td>testing caber toss</td></tr>
+<tr><td>250</td><td>getting the barber shop scissors</td></tr>
+<tr><td>255</td><td>blowing the tooth-filled helium bubble</td></tr>
+<tr><td>260</td><td>getting through the jungle</td></tr>
+<tr><td>270</td><td>danjer beach is open</td></tr>
+<tr><td>275</td><td>test making rubber plug</td></tr>
+<tr><td>280</td><td>fixed hole in danjer beach rowboat</td></tr>
+<tr><td>281</td><td>EASY MODE fixed hole in danjer beach rowboat</td></tr>
+<tr><td>282</td><td>on lc-deck tarred and feathered</td></tr>
+<tr><td>285</td><td>testing chicken cos</td></tr>
+<tr><td>290</td><td>in lc-qurtr after LeChimp's retirement</td></tr>
+<tr><td>291</td><td>getting out of chicken bucket</td></tr>
+<tr><td>300</td><td>testing the chicken shop</td></tr>
+<tr><td>350</td><td>do spotlight puzzle</td></tr>
+<tr><td>400</td><td>testing brimstone beach club</td></tr>
+<tr><td>450</td><td>testing brimstone beach club getting the map</td></tr>
+<tr><td>460</td><td>finish chapter two</td></tr>
+<tr><td>465</td><td>start rhymes with orange</td></tr>
+<tr><td>470</td><td>on the deck</td></tr>
+<tr><td>475</td><td>on the deck</td></tr>
+<tr><td>480</td><td>begin an insult fight</td></tr>
+<tr><td>500</td><td>ship combat</td></tr>
+<tr><td>502</td><td>ship combat</td></tr>
+<tr><td>590</td><td>ship combat Ready to attack Rottingham</td></tr>
+<tr><td>595</td><td>ship combat Ready to swordfight Rottingham</td></tr>
+<tr><td>600</td><td>start blood island</td></tr>
+<tr><td>605</td><td>waking goodsoup</td></tr>
+<tr><td>610</td><td>testing trial 1 on blood island</td></tr>
+<tr><td>615</td><td>trying to become a goodsoup</td></tr>
+<tr><td>620</td><td>guybrush is a Goodsoup</td></tr>
+<tr><td>630</td><td>testing gestroom</td></tr>
+<tr><td>648</td><td>on Skull Island</td></tr>
+<tr><td>649</td><td>on Skull Island</td></tr>
+<tr><td>650</td><td>testing Skull Island and smugglers</td></tr>
+<tr><td>655</td><td>test card game</td></tr>
+<tr><td>660</td><td>test smuggler's cave battle</td></tr>
+<tr><td>660</td><td>test stan's crypt</td></tr>
+<tr><td>680</td><td>test altar</td></tr>
+<tr><td>690</td><td>test windmill</td></tr>
+<tr><td>700</td><td>trial 3 the cheese puzzle</td></tr>
+<tr><td>710</td><td>ready to free elaine</td></tr>
+<tr><td>715</td><td>have everything to free elaine</td></tr>
+<tr><td>720</td><td>ready to go to Skull Island</td></tr>
+<tr><td>900</td><td>beginning of chapter 5 (gondola)</td></tr>
+<tr><td>950</td><td>at the carnival as l'il guybrush</td></tr>
+<tr><td>1000</td><td>carnival</td></tr>
+<tr><td>1020</td><td>at carnival with snowcone ingredients</td></tr>
+<tr><td>1050</td><td>coaster</td></tr>
+<tr><td>1070</td><td>hang-dia</td></tr>
+<tr><td>2000</td><td>win</td></tr>
+</table>
+
+
+</BODY>
