@@ -43,8 +43,8 @@ pun.
 </P>
 <P>
 Residual's core is in a fairly decent state, however the base code uses C++ functionality 
-to such an extent that the developers on the main ScummVM team who wish to work on it simply 
-cannot understand the code that needs work (specifically the costume renderer). Hence 
+to such an extent that some developers on the main ScummVM team who wish to work on it simply 
+cannot understand the code that needs work (specifically the costume renderer) and it has several issues with MSVC. Hence 
 progress on this program is currently stalled.
 </P>
 <P>
