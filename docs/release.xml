@@ -19,7 +19,7 @@
 		<table border=0>
 		<tr><td>GameID</td><td>Testers</td><td>Date Tested</td><td>Critical Bugs</td></tr>
 		<tr><td colspan=4><hr></td></tr>
-		<tr><td>Zak256</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>Zak256</td><td>andrej4000</td><td>3/5</td><td>None Known</td></tr>
 		<tr><td>LoomCD</td><td>WooShell</td><td>2/5</td><td>None Known</td></tr>
 		<tr><td>Indy3</td><td>khalek</td><td>3/5</td><td>
 		<a href="http://sourceforge.net/tracker/index.php?func=detail&aid=731680&group_id=37116&atid=418820">731680</a></td></tr>
@@ -37,12 +37,12 @@
 		<tr><td>COMI</td><td>Ge0rG</td><td>2/5</td><td>None Known</td></tr>
 		<tr><td colspan=4><hr></td></tr>
 		<!--Optional games, these aren't required for release -->
-		<tr><td>Simon1Dos</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>Simon1Dos</td><td>andrej4000</td><td>2/5</td><td>None Known</td></tr>
 		<tr><td>Simon1Talkie</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
-		<tr><td>Simon1Win</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>Simon1Win</td><td>andrej4000</td><td>2/5</td><td>None Known</td></tr>
 		<tr><td>Simon2Dos</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
-		<tr><td>Simon2Talkie</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
-		<tr><td>Simon2Win</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>Simon2Talkie</td><td>andrej4000</td><td>2/5</td><td>None Known</td></tr>
+		<tr><td>Simon2Win</td><td>andrej4000</td><td>2/5</td><td>None Known</td></tr>
 		<tr><td>Simon2Mac</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
 		</table>
 
