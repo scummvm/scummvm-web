@@ -71,7 +71,7 @@ $games = array(
 		'Indiana Jones 4 and the Fate of Atlantis (DEMO)'	=> array('5','playfate','95'),
 		'Day Of The Tentacle'					=> array('6','tentacle','95'),
 		'Day Of The Tentacle (DEMO)'				=> array('6','dottdemo','95'),
-		'Sam & Max'						=> array('6','samnmax','90'),
+                'Sam & Max'                                             => array('6','samnmax','90'),
 		'Sam & Max (DEMO)'					=> array('6','samdemo','95'),
 		'Full Thottle'						=> array('7','ft','40'),
 		'The DIG'						=> array('7','dig','40'),
@@ -103,9 +103,7 @@ $notes = array(
 "tentacle"	=> "No known problems - should be playable to the end",
 "dottdemo"	=> "No known problems - should be playable to the end",
 "samnmax"	=> "Game is completable.".
-                   "<br>- Subgames do not work" . 
-                   "<br>- Wak-A-Rat may appear to freeze. Hit escape and wait." . 
-                   "<br>- Intro Credits will freeze if Mad Doctor cutscene is allowed to play" ,
+                   "<br>- Some subgames may not work",
 "samdemo"	=> "No known problems - should be playable to the end",
 "ft"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
 		   "<br>- some palette glitches during movie playback, and missing movie sound".
