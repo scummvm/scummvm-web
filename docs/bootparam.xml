@@ -6,7 +6,7 @@
 <!-- TODO: Add more bootparams -->
 
 <p>Some of these lists are based on the output of <code>./scummvm -d1 -b1 TARGET</code>; some information is also from
-   <a href="http://www.scummbar.com/resources/articles/index.php?newssniffer=readarticle&article=1027">this article</a>.
+   <a href="http://www.scummbar.com/resources/articles/index.php?newssniffer=readarticle&amp;article=1027">this article</a>.
    In particular, they may contains some mistakes. 
    Ultimately we plan to correct these and maybe enhance the descriptions a bit...</p>
 
@@ -495,8 +495,8 @@
 <tr><td>500</td><td>Ben rides into caveturn to get ramp</td></tr>
 <tr><td>500</td><td>Ben rides into caveroad to get ramp</td></tr>
 <tr><td>505</td><td>Ben rides into cavemesa to get ramp</td></tr>
-<tr><td>509</td><td>scold n&b wipeout</td></tr>
-<tr><td>510</td><td>ben has the goggles & is pursued</td></tr>
+<tr><td>509</td><td>scold n&amp;b wipeout</td></tr>
+<tr><td>510</td><td>ben has the goggles &amp; is pursued</td></tr>
 <tr><td>530</td><td>Messing with Emmet's load.</td></tr>
 <tr><td>535</td><td>Messing with Emmet's load.</td></tr>
 <tr><td>545</td><td>Messing with Emmet's load.</td></tr>
