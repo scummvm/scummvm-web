@@ -16,9 +16,20 @@
 		<h1>ScummVM code formatting conventions</h1>
 		
 		<h2>1. Use common sense</h2>
-		These here conventions are only highlighting a few things that are so unimportant that it becomes an issue of aesthetics, not common sense.
+		<p>
+		These are conventions which we try to follow when writing code for ScummVM.
+		They are this way mainly for reasons of taste, however, sticking to a common
+		set of formatting rules also makes it slightly easier to read through our sources.
+		If you want to submit patches, please try to follow these rules.
+		</p>
+		<p>
+		As such we don't follow these rules slavishly, in certain cases it is OK (and
+		in fact favorable) to stray from them.
+		</p>
 		
 		<h2>2. Hugging braces</h2>
+		<p>Braces in your code should look like the following example:</p>
+		
 		<pre>
 		if (int i = 0; i < t; i++) {
 			[...]
@@ -31,7 +42,7 @@
 		}
 		</pre>
 		
-		Did you see the {}'s on that baby?
+		<p>Did you see the {}'s on that?</p>
 		
 		<h2>3. Two-space tab indents</h2>
 		Says it all, really.
@@ -44,7 +55,7 @@
 	a = (b + c) * d;
 				</pre>
 		
-			<li><h3>C++ reserved words followed by a white space</h3>
+			<li><h3>C++ reserved words separated from opening parentheses by a white space</h3>
 				<pre>
 	while (true) {
 				</pre>
@@ -61,7 +72,7 @@
 	doSomething(e); doSomething(f);	// This is probably bad style anyway
 				</pre>
 			
-			<li><h3>When declaring class inheritance and in a ? construct, colons should be surrounded by white space</h3>
+			<li><h3>When declaring class inheritance and in a <tt>?</tt> construct, colons should be surrounded by white space</h3>
 				<pre>
 	class BusWheel : public RubberInflatable {
 	(isNight) ? colorMeDark() : colorMeBright();
@@ -103,7 +114,7 @@
 			</pre>
 			
 			<li><h3>Class members</h3><br>
-			_ prefixed and in mixed case (Yo! no underscore seperators), starting with lowercase.
+			_ prefixed and in mixed case (Yo! no underscore separators), starting with lowercase.
 			<pre>
 	char *_someVariableName;
 			</pre>
