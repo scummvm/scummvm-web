@@ -252,8 +252,7 @@ $notes = array(
 		   "<br>- Cursors aren't scaled correctly in Windows version",
 "fbear"		=> "Game should be completable, with several glitches".
 		   "<br>- 3DO, DOS and Windows versions supported by this target".
-		   "<br>- Piano sounds aren't correct pitch in DOS version".
-		   "<br>- Cursors aren't scaled correctly in Windows version",
+		   "<br>- Piano sounds aren't correct pitch in DOS version",
 "fbpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
 "freddemo"	=> "Game is completable, with minor glitches".
@@ -310,8 +309,7 @@ $notes = array(
 		   "<br>- Both DOS and Windows versions supported by this target".
 		   "<br>- Cursors aren't scaled correctly in Windows version",
 "puttmoon"	=> "No known issues, game is completable.".
-		   "<br>- 3DO, DOS and Windows versions supported by this target".
-		   "<br>- Cursors aren't scaled correctly in Windows version",
+		   "<br>- 3DO, DOS and Windows versions supported by this target",
 "circdemo"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
 "puttcircus"	=> "Not completable, no inventory controls".
@@ -320,8 +318,7 @@ $notes = array(
 		   "<br>- Both DOS and Windows versions supported by this target".
 		   "<br>- Cursors aren't scaled correctly in Windows version",
 "puttputt"	=> "No known issues, game is completable.".
-		   "<br>- 3DO, DOS and Windows versions supported by this target".
-		   "<br>- Cursors aren't scaled correctly in Windows version",
+		   "<br>- 3DO, DOS and Windows versions supported by this target",
 "puttzoo"	=> "Game is completable, with minor glitches".
 		   "<br>- Inventory background and items are often not redrawn",
 "zoodemo"	=> "Game is completable, with minor glitches".
