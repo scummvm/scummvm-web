@@ -46,7 +46,7 @@ echo html_round_frame_start("Downloads","");
 	  <a href="http://www.scummvm.org/daily/">CVS Daily Snapshot</a> page.
 	</p>
 	<p>
-	  Additional daily builds:
+	  Additional snapshot builds:
 	</p>
 
 	<ul>
