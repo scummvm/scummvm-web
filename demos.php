@@ -119,11 +119,11 @@ $HE_demos = array(
 	'Putt-Putt Travels Through Time (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/putttime.zip', 'timedemo'),
 	'Putt-Putt Enters the Race (Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/puttraceDemo/puttrace.exe', 'racedemo')
+		=> array('ftp://ftp.humongous.com/humongous/puttraceDemo/puttrace.exe', 'racedemo'),
 	'Spyfox 1: Dry Cereal (Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/FOX95d.EXE', 'foxdemo')
+		=> array('ftp://ftp.humongous.com/humongous/FOX95d.EXE', 'foxdemo'),
 	'Spyfox 1: Dry Cereal (Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/spy95_98.zip', 'spydemo')
+		=> array('ftp://ftp.humongous.com/humongous/spy95_98.zip', 'spydemo'),
 	'Backyard Baseball 2001 (Demo)'
 		=> array('ftp://ftp.infogrames.net/demos/backyardbaseball/bbdemo.exe', 'bb2demo')
 	);
