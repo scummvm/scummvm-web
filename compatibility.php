@@ -62,50 +62,54 @@ $games = array(
 		'LOOM'							=> array('3','loom','0'),
 		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','5'),
 		'LOOM (256 color CD version)'				=> array('5','loomcd','30'),
-		'The Secret of Monkey Island (VGA)'			=> array('5','monkey','90'),
+		'The Secret of Monkey Island (VGA CD)'			=> array('5','monkey','95'),
 		'Monkey Island 2: LeChuck\'s revenge'			=> array('5','monkey2','90'),
-		'Indiana Jones 4 and the Fate of Atlantis'		=> array('5','atlantis','80'),
-		'Indiana Jones 4 and the Fate of Atlantis (DEMO)'	=> array('5','playfate','80'),
+		'Indiana Jones 4 and the Fate of Atlantis'		=> array('5','atlantis','90'),
+		'Indiana Jones 4 and the Fate of Atlantis (DEMO)'	=> array('5','playfate','95'),
 		'Day Of The Tentacle'					=> array('6','tentacle','90'),
-		'Day Of The Tentacle (DEMO)'				=> array('6','dottdemo','90'),
-		'Sam & Max'						=> array('6','samnmax','50'),
-		'Sam & Max (DEMO)'					=> array('6','samdemo','90'),
-		'Full Thottle'						=> array('7','ft','10'),
-		'The DIG'						=> array('7','dig','0'),
+		'Day Of The Tentacle (DEMO)'				=> array('6','dottdemo','95'),
+		'Sam & Max'						=> array('6','samnmax','70'),
+		'Sam & Max (DEMO)'					=> array('6','samdemo','95'),
+		'Full Thottle'						=> array('7','ft','25'),
+		'The DIG'						=> array('7','dig','5'),
 		'Curse of Monkey Island'				=> array('8','curse','0')
 	      );
 
 
 $notes = array(
 "maniacc64" 	=> "Not at all implemented yet - ScummVM doesn't understand the file format",
-"zakc64"	=>  "Not at all implemented yet - ScummVM doesn't understand the file format",
-"maniacega"	=>  "Not at all implemented yet - ScummVM doesn't understand the file format",
-"zakega"	=>  "Not at all implemented yet - ScummVM doesn't understand the file format",
-"indy3ega"	=>  "Not at all implemented yet - ScummVM doesn't understand the file format",
-"indy3"		=>  "Game will start, but is not playable.<BR>The intro freezes on the LucasArts logo - hit escape to proceed.<BR>Main bugs: Actors not visible, and an error with walkboxes makes it impossible to walk to anything.",
-"zak256"	=>  "Game will start, but is not playable.<BR>The intro freezes on the LucasArts logo - hit escape to proceed.<BR>Main bugs: Actors not visible, and an error with walkboxes makes it impossible to walk to anything.",
-"loom"		=>  "Not at all implemented yet - ScummVM doesn't understand the file format",
+"zakc64"	=> "Not at all implemented yet - ScummVM doesn't understand the file format",
+"maniacega"	=> "Not at all implemented yet - ScummVM doesn't understand the file format",
+"zakega"	=> "Not at all implemented yet - ScummVM doesn't understand the file format",
+"indy3ega"	=> "Not at all implemented yet - ScummVM doesn't understand the file format",
+"indy3"		=> "Game will start, but is not playable.<BR>The intro freezes on the LucasArts logo - hit escape to proceed.<BR>".
+                   "Main bugs: Actors not visible, and an error with walkboxes makes it impossible to walk to anything.",
+"zak256"	=> "Game will start, but is not playable.<BR>The intro freezes on the LucasArts logo - hit escape to proceed.<BR>".
+                   "Main bugs: Actors not visible, and an error with walkboxes makes it impossible to walk to anything.",
+"loom"		=> "Not at all implemented yet - ScummVM doesn't understand the file format",
 "monkeyega"	=> "Copy protection screen will show, but game crashes shortly afterwards.<BR>Graphics decoders and opcodes not implimented yet.",
-"loomcd"	=> "Game is almost playable, but may crash with invalid opcodes and have graphics problems.<BR>Intro will crash ScummVM at the end, so hit escape to bypass it.",
+"loomcd"	=> "Game is almost playable, but may crash with invalid opcodes and have graphics problems.<BR>Intro will crash ScummVM at the ".
+                   "end, so hit escape to bypass it.",
 "monkey"	=> "No known problems - should be playable to the end",
 "monkey2"	=> "No known problems - should be playable to the end",
 "atlantis"	=> "No known problems - should be playable to the end",
 "playfate"	=> "No known problems - should be playable to the end",
 "tentacle"	=> "No known problems - should be playable to the end",
-"dottdemo"	=> "No known problems - should be playable to the end",	
-"samnmax"	=> "Game is not playable past the Carnival - inventory isn't restored after going to lost & found.<BR>MIDI music requires SAMNMAX to be defined.",
+"dottdemo"	=> "No known problems - should be playable to the end",
+"samnmax"	=> "Various crashes in different parts of the game".
+                   "<BR>MIDI music requires SAMNMAX to be defined.",
 "samdemo"	=> "No known problems - should be playable to the end",
 "ft"		=> "Somewhat playable with #define FULL_THROTTLE",
 "dig"		=> "Does not load at this time.",
-"curse"		=> "Not implemented yet. ScummVM doesn't understand new-style MAXS block, among other things"
+"curse"		=> "Not implemented yet.<br>ScummVM doesn't understand new-style MAXS block, among other things"
 );
 		
 // render the compatibilty chart
 echo html_frame_start("Scumm Games Compatabilty Chart","90%",2,1,"color4");
 echo html_frame_tr(
-		   html_frame_td("Game").
+		   html_frame_td("Game Full Name").
 		   html_frame_td("Scumm Ver.").
-		   html_frame_td("Directory").
+		   html_frame_td("Game Short Name").
 		   html_frame_td("% Completed"),
 		   "color4"
 
@@ -140,7 +144,7 @@ if ($details) {
 		echo html_frame_tr(
 				    html_frame_td(html_ahref($name, $PHP_SELF."?details=".$array[1])).
      				    html_frame_td($array[0]).
-				    html_frame_td("/".$array[1]).
+				    html_frame_td($array[1]).
 			 	    html_frame_td($array[2]."%", 'align="center" class="pct'.$array[2].'"'),
  			  	    $color
 		);
