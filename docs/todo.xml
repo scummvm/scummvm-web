@@ -27,10 +27,10 @@
 	<p>Here is a list of things we plan to do for the future. Note that we don't promise to do any of these, nor when we will do them. It's just a list
 	of what we hope to be able to do one day.</p>
 	<ul>
-	<li>Music and sound effects in Indy3Ega, Indy3Vga, LoomEga, MonkeyEga, MonkeyVga and Pass</li>
+	<li>Add sound effects in Indy3Vga, MonkeyEga, MonkeyVga and Pass</li>
 	<li>Complete Full Throttle support</li>
 	<li>Complete Maniac Mansion/Zak McKracken V2 support </li>
-	<li>Add Maniac Mansion/Zak McKracken V1 support</li>
+	<li>Complete Maniac Mansion/Zak McKracken V1 support</li>
 	<li>Complete support for Humongous Entertainment scumm games (he v6/v7)</li>
 	<li>Complete support for Beneath a Steel Sky</li>
 	</ul>
@@ -43,7 +43,7 @@
 		<li><p>Add a "help" ingame dialog which lists key shortcuts etc.</p></li>
 		<li><p>Add long style command line arguments that work in a portable manner across many systems ie --foo-bar as we are quickly running out of single letters to use for arguments, and they make more sense</p></li>
 		<li><p>Fix handling of Kanji in FmTowns games (foreground is actually rendered on a second plane at 640x480)</p></li>
-		<li><p>Improve support for non pc versions of games</p></li>
+		<li><p>Improve support for non PC versions of games</p></li>
 	</ul>
 	<h3>New GUI</h3>
 	<ul>
