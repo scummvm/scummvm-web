@@ -263,15 +263,11 @@ $notes = array(
 "freddi"	=> "Game is completable, with minor glitches".
 		   "<br>- Sometimes double speech when using objects",
 "ff2-demo"	=> "Game is completable, with minor glitches".
-		   "<br>- No songs".
-		   "<br>- Actors sometimes aren't visible or act strange",
+		   "<br>- No songs",
 "freddi2"	=> "Game is completable, with minor glitches".
-		   "<br>- No songs".
-		   "<br>- Actors sometimes aren't visible or act strange",
-"f3-mdemo"	=> "Game is completable, with minor glitches".
-		   "<br>- Actors sometimes aren't visible or act strange",
-"freddi3"	=> "Game is completable, with minor glitches".
-		   "<br>- Actors sometimes aren't visible or act strange",
+		   "<br>- No songs",
+"f3-mdemo"	=> "Game is completable, with minor glitches",
+"freddi3"	=> "Game is completable, with minor glitches",
 "f4-demo"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
 "freddi4"	=> "Not completable, no inventory controls".
@@ -298,14 +294,12 @@ $notes = array(
 		   "<br>- Garbage is shown for ending credit subtitles".
 		   "<br>- No songs",
 "pj2demo"	=> "No known issues, game is completable",
-"pajama2"	=> "Game is completable, but some random akos crashes".
-		   "<br>- Actors sometimes aren't visible or act strange",
+"pajama2"	=> "Game is completable, with minor glitches".
+		   "<br>- Actor limbs sometimes aren't visible",
 "pj3-demo"	=> "Game is completable, with minor glitches".
-		   "<br>- Actors sometimes aren't visible or act strange".
 		   "<br>- Not able to select some actors".
 		   "<br>- Various graphicial glitches",
 "pajama3"	=> "Game is playable but not completable".
-		   "<br>- Actors sometimes aren't visible or act strange".
 		   "<br>- Not able to select some actors".
 		   "<br>- Various graphicial glitches",
 "smaller"	=> "Only shows introduction",
