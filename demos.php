@@ -25,7 +25,7 @@ echo html_round_frame_start("Game Demos","");
 	  This page lists some links to demos of various games, that in general don't work as well as the
 	  full versions. Full Throttle, The Dig, and the Curse of Monkey Island in particular.<br><br>
 	  Do not file bug reports against these demos as they aren't supported games.<br><br>
-	  Please contact us if you have a copy of a demo not listed here such as the separate Maniac Mansion demo.<br><br>
+	  Please contact us if you have a copy of a demo not listed here.<br><br>
 	  Demos without functional download links are denoted by a * character.<br>
           <br><br>
 	</p>
@@ -33,6 +33,8 @@ echo html_round_frame_start("Game Demos","");
 <?
 
 $demos = array(
+	'Maniac Mansion (DOS demo - Non interactive'
+		=> array('http://quick.mixnmojo.com/demos/maniac.rar', 'maniac'),
 	'Zak McKracken and the Alien Mindbenders (Atari ST - Non interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/zakstdemo.zip', 'zak'),
 	'The Secret of Monkey Island (16 colour demo)'	
