@@ -245,64 +245,235 @@ Help here is welcome -- if you want, feel free to fill in some of the gaps and
 <br><a name="atlantis"></a>
 <h2>Indiana Jones and the Fate of Atlantis</h2>
 
+<p>The following extensive and detailed list was compiled and contributed
+by Laura Abbott. Thanks a lot for your excellent work, Laura!
+</p>
+
 <table border="1" cellspacing="0" cellpadding="2">
 <tr><th>Param</th><th>Description</th></tr>
-<tr><td>-7873</td><td>???</td></tr>
-<tr><td>-26143</td><td>???</td></tr>
-<tr><td>100</td><td>???</td></tr>
-<tr><td>101</td><td>???</td></tr>
-<tr><td>145</td><td>???</td></tr>
-<tr><td>146</td><td>???</td></tr>
-<tr><td>666</td><td>???</td></tr>
-<tr><td>667</td><td>???</td></tr>
-<tr><td>668</td><td>???</td></tr>
-<tr><td>787</td><td>???</td></tr>
-<tr><td>878</td><td>???</td></tr>
-<tr><td>879</td><td>???</td></tr>
-<tr><td>888</td><td>???</td></tr>
-<tr><td>909</td><td>???</td></tr>
-<tr><td>1101</td><td>???</td></tr>
-<tr><td>1102</td><td>???</td></tr>
-<tr><td>1103</td><td>???</td></tr>
+<tr><td>-7873</td><td>Start from the Introduction as if normal</td></tr>
+<tr><td>-26143</td><td>At the crete ruins with Sophia
+	*Dialog, Sunstone, Moonstone, Whip, Ship Rib, and Amber Fish</td></tr>
+<tr><td>100</td><td>In the introduction, Indy pops out of the hole in the top College
+	Attic and then moves off to the right behind a pole.</td></tr>
+<tr><td>101</td><td>Indy comes into the Spindle room in the Crete Labyrinth with Sophia
+	*NO ITEMS*</td></tr>
+<tr><td>145</td><td>Indy and Sophia on the Machine in Middle Atlantis that goes around
+	in circles until you pull the levers</td></tr>
+<tr><td>146</td><td>Indy and Sophia looking at the Machine in Middle Atlantis that goes
+	around in circles until you pull the levers</td></tr>
+<tr><td>666</td><td>Indy and Sophia at the start of the Tikal Jungle</td></tr>
+<tr><td>667</td><td>Indy and Sophia in the Temple with Sternhart</td></tr>
+<tr><td>668</td><td>Same as 666</td></tr>
+<tr><td>787</td><td>Indy and Sophia on boat "Exactly 0 miles of Thera"
+	*Sunstone</td></tr>
+<tr><td>878</td><td>Indy at Thera</td></tr>
+<tr><td>879</td><td>Indy and Sophia at Thera
+	*2 orichalum, Lost Dialog, Sunstone, Moonstone, Worldstone</td></tr>
+<tr><td>888</td><td>Same as 878</td></tr>
+<tr><td>909</td><td>Indy before the Doors blocked by a pool of water in Atlantis
+	*2 Orichalum, Sunstone, Moonstone, Whip</td></tr>
+<tr><td>1101</td><td>Meeting Klaus Kerner for the First time in Indy's Office</td></tr>
+<tr><td>1102</td><td>ERROR: (7:10002:0xBF70): Invalid actor -111 in o5_putActorInRoom</td></tr>
+<tr><td>1103</td><td>Comming to Caswell Hall with Sophia</td></tr>
+<tr><td>1111</td><td>Indy by himself with Sophia
+	*Magazine, newspaper</td></tr>
+<tr><td>1112</td><td>Sophia's Office is Ransacked</td></tr>
+<tr><td>1120</td><td>Riding the Camel in Fists mode</td></tr>
+<tr><td>1121</td><td>Riding the Camel in Wits mode</td></tr>
+<tr><td>1123</td><td>BUG(?)-music like the balloon is flying over the desert, but there
+	is no balloon to control</td></tr>
+<tr><td>1130</td><td>Flying the balloon over the desert</td></tr>
+<tr><td>1162</td><td>"A research laboratory somewhere in Germany..."</td></tr>
+<tr><td>1181</td><td>This initially starts out with a dialog that let's you choose either
+	"Trust"/Team, "Action"/Fists, or "Maze"/Wits. And whatever you 
+	choose is what Sophia initially suggests after reading Indy's
+	fortune.</td></tr>
+<tr><td>1432</td><td>Landing on the Nazi Guard at the Dig site with Balloon
+	*NO ITEMS</td></tr>
+<tr><td>2543</td><td>Flying the Balloon to catch the Nazi submarine</td></tr>
+<tr><td>2718</td><td>Starts at the Introduction like a normal game</td></tr>
+<tr><td>2728</td><td>Monte Carlo with the Team Path selected
+	*Whip, scary mask</td></tr>
+<tr><td>2920</td><td>Indy at Crete Ruins
+	*Sunstone, Ship rib, Surveyor's Equipment</td></tr>
+<tr><td>3142</td><td>The screen that show's up after you die with your current IQ and your
+	total IQ points</td></tr>
+<tr><td>3654</td><td>Tikal</td></tr>
+<tr><td>3838</td><td>Indy and Sophia in the Crete Labyrinth. You have the Gold Box in
+	Your possession, but Indy keeps saying he can't reach it.
+	*Dialog, Sunstone, Moonstone, Worldstone, Gold Box, Whip, Ship Rib
+	Amber Fish</td></tr>
+<tr><td>3939</td><td>Indy and Sophia Dropped off at Crete
+	*Dialog, Sunstone, Moonstone, Worldstone, whip, rib Amber Fish
+	Clay Jar</td></tr>
+<tr><td>3940</td><td>Indy in the Labyrinth in Fists Mode
+	*Sunstone, Moonstone, Worldstone, Gold Box, Whip</td></tr>
+<tr><td>3941</td><td>At Crete with Sophia
+	*Sunstone, Moonstone, Whip, Ship Rib, Amber Fish, Surveyor's
+	Equipment</td></tr>
+<tr><td>4040</td><td>Indy on Crete After being shot out of the Torpedo
+	*Dialog, Sunstone, Moonstone, Whip, Ship Rib, Statue used to jump
+	start truck at digsite, surveyor's equipment, rope, shovel, and 	Note with "No Icon"</td></tr>
+<tr><td>4041</td><td>Indy in room with Atlantis subway
+	*Dialog, Sunstone, Moonstone, Whip, Ship Rib, Statue used to jump 	start truck at digsite, surveyor's equipment, rope, shovel, and 	Note with "No Icon"</td></tr>
+<tr><td>4061</td><td>Very Odd-Starts out like you entered the wrong boot Parameter, but
+	Then goes into Indy and Sophia Running out of Atlantis, complete
+	with music</td></tr>
+<tr><td>4062</td><td>Same as 4061 except Indy is by himself</td></tr>
+<tr><td>4122</td><td>Indy in canal room with Giant Octopus
+	*3 Orachalum, Whip, Sunstone, Moonstone, Worldstone, Statue Part,
+	Bronze spoked Wheel, Crescent Gear, Ladder, Amber Fish</td></tr>
+<tr><td>4123</td><td>Indy and Sophia in Canal
+	*3 Orachalum, Whip, Sunstone, Moonstone, Worldstone, Bronze Gear
+	Bronze spoked Wheel, Crescent Gear, Ladder, Amber Fish	</td></tr>
+<tr><td>4141</td><td>Indy at Crete
+	*Dialog, Sunstone, Moonstone, Archeology Magazine, Whip Ship Rib</td></tr>
+<tr><td>4242</td><td>Indy landing the Balloon on the Nazi Submarine
+	*NO ITEMS</td></tr>
+<tr><td>4343</td><td>Indy on top of Nazi Sub in Team Mode(?)
+	*Dialog, Whip, Rib, Amber Fish, Gold Box, Clay Jar</td></tr>
+<tr><td>4695</td><td>Indy in Orachalum making room	
+	*Lava cup, Bronze Spoked Wheel</td></tr>
+<tr><td>4765</td><td>Indy in the Room to get Lava for Orichalum in Atlantis
+	*Stone Cup, Porcelain Mug, Clay Jar, Statue Head</td></tr>
+<tr><td>4851</td><td>Indy in Crete Labyrinth after physically beating the Nazi whom you
+	can push the stalagmite on.
+	*Whip, Amber fish</td></tr>
+<tr><td>4852</td><td>Indy in Labyrinth after beating Nazi Carl *CANNOT WALK!*
+	*Whip, Amber Fish</td></tr>
+<tr><td>4853</td><td>Indy in Labyrinth Somewhere...
+	*Whip, Amber Fish</td></tr>
+<tr><td>4854</td><td>Indy in Labyrinth after beating Nazi Arnold *CANNOT WALK*
+	*Whip Amber Fish</td></tr>
+<tr><td>4855</td><td>Indy in Labyrinth after beatting Nazi Otto
+	*Whip, Amber Fish</td></tr>
+<tr><td>4949</td><td>Indy entering into the room with the Lava Tiles (Not right at them,
+	however)
+4950-4959: All the Underwater sub, but at different depths (i.e. father
+	away, closer to you) *CANNOT GO BACK TO REGULAR GAME</td></tr>
+<tr><td>4960</td><td>On top of the Nazi Submarine (Team Path?)
+	*NO ITEMS</td></tr>
+<tr><td>4962</td><td>Colossus with Sophia
+	*Dialog, Sunstone, Moonstone, Worldstone, Archeology Magazine, Whip</td></tr>
+<tr><td>4963</td><td>Same as 4962, except without Sophia</td></tr>
+<tr><td>4964</td><td>Indy and Sophia walk in and the God Machine Immediately Starts up</td></tr>
+<tr><td>5000</td><td>Inside the labyrinth at the Very beginning entrance. Possible to walk
+	out and not be able to get back in again due to lack of stones
+	*Whip</td></tr>
+<tr><td>5001</td><td>Indy on the Stone platform with the Gigantic Stone Head in the
+	labyrinth
+	*3 Orachalum, Entrenching tool, Whip, Staff, Comb Scarf</td></tr>
+<tr><td>5002</td><td>The Start of a Normal Game in NYC</td></tr>
+<tr><td>5003</td><td>Indy lands balloon in Crete
+	*Sunstone, Whip, Ship Rib, Surveyor's Equipment</td></tr>
+<tr><td>5005</td><td>Indy and Sophia in Labyrinth (5 way fork)</td></tr>
+<tr><td>5234</td><td>Indy and Sophia in Middle Atlantis. Sophia talks about how Nur-ab-Sal
+	is present
+	*3 Orichalum, Amber Fish, Gold Box, Hinge Pin, Light Wand, Sunstone
+	Moonstone, Worldstone</td></tr>
+<tr><td>5555</td><td>Indy in Monte Carl
+	*Mask</td></tr>
+<tr><td>5557</td><td>Indy on the Crowed Market Streets of Algiers</td></tr>
+<tr><td>5558</td><td>Indy the Market Place (Wits?) 
+	*NO ITEMS</td></tr>
+<tr><td>5559</td><td>Meeting Omar in His house. Wits Path
+	*Whip</td></tr>
+<tr><td>5560</td><td>Monte Carlo
+	*NO ITEMS</td></tr>
+<tr><td>5561</td><td>Monte Carlo with Sunstone</td></tr>
+<tr><td>5562</td><td>Monte Carlo at Wits Path
+	*Whip, Kidnapping Note</td></tr>
+<tr><td>5563</td><td>Indy and Sophia on Roof for Balloon Ride
+	*Dialog, Balloon Ticket, Knife, Archeology Magazine, Whip, Sunstone
+	Map to Digsite</td></tr>
+<tr><td>5564</td><td>Same as 5563, except you only have the balloon ticket</td></tr>
+<tr><td>5876</td><td>The Ending where Sophia gets out</td></tr>
+<tr><td>5877</td><td>The Ending where Sophia does not get out</td></tr>
+<tr><td>5885</td><td>Indy and Sophia in Tikal
+	*Whip</td></tr>
+<tr><td>5886</td><td>Same as 5885, except with eel figurine</td></tr>
+<tr><td>5999</td><td>Outside the cave at Thera
+	*Dialog, whip, host, balloon, net, basket</td></tr>
+<tr><td>6000</td><td>Nothing. This doesn't appear to be a valid boot Parameter.</td></tr>
+<tr><td>6001</td><td>Indy Falls down from top Attic Level to the Next Bottom level
+	at the introduction.</td></tr>
+<tr><td>6002</td><td>Indy Falls down into the room with books at the very Beginning</td></tr>
+<tr><td>6003</td><td>Indy falls down into the cat room</td></tr>
+<tr><td>6004</td><td>Indy falls down the coal chute</td></tr>
+<tr><td>6005</td><td>Indy and Sophia fly to the Azores
+	*NO ITEMS!</td></tr>
+<tr><td>6010</td><td>Indy in Atlantis Maze. No Nazi's appear to be present.
+	*Rib cage, Sausage, gum</td></tr>
+<tr><td>6011</td><td>Indy in Octopus room in canal
+	*Crab in cage, Sausage, Gum</td></tr>
+<tr><td>6345</td><td>Indy in Room with Doors that require the statue to open them
+	*3 Orachulum, Dialog, statue part, bronze gear, bronze spoked wheel
+	crescent gear, ladder, box</td></tr>
+<tr><td>6665</td><td>Indy at Dig Site.
+	*Dialog, whip</td></tr>
+<tr><td>6666</td><td>Same as 6665 except Indy Starts off screen</td></tr>
+<tr><td>6667</td><td>Indy in the dark Dig Site.
+	*Dialog, Sunstone</td></tr>
+<tr><td>6668</td><td>Indy and Sophia landing on the Nazi at the Digsite
+	*Sunstone</td></tr>
+<tr><td>6669</td><td>Flying balloon over the Desert</td></tr>
+<tr><td>7456</td><td>Walking into Sophia's prison in Atlantis
+	*Light Rod, Hinge Pin</td></tr>
+<tr><td>7777</td><td>Same as 7456 except the guard has been killed by the sentry statue</td></tr>
+<tr><td>8100</td><td>A spindle *CANNOT GO BACK TO GAME*</td></tr>
+<tr><td>8567</td><td>Indy at Crete
+	*Whip, Sunstone, Moonstone, Worldstone</td></tr>
+<tr><td>8888</td><td>Monte Carlo Car Chase</td></tr>
+<tr><td>8889</td><td>INdy running around Monte Carol after the Car Chase</td></tr>
+<tr><td>8890</td><td>Same as above, except with the Stone disk in tow</td></tr>
+<tr><td>9001</td><td>Indy at a corner in Monte Carlo
+	*NO ITEMS!
+9101-9106: Indy and Sophia Enter the Room with the Lava Tiles of Doom (Not
+	directly at the start of the lava tile maze, however) All of these
+	appear to be identical, but I could be wrong</td></tr>
+<tr><td>9191</td><td>Indy outside Caswell Hall
+	*Whip</td></tr>
+<tr><td>9554</td><td>Indy and Sophia talking to Omar
+	*Dialog, whip, Sunstone</td></tr>
+<tr><td>9555</td><td>Same as 9554</td></tr>
+<tr><td>9556</td><td>Indy in Omar's Shop with Servant
+	*Dialog, Trottier's Card</td></tr>
+<tr><td>9557</td><td>Talking to the Servant with a red fez
+	*Whip, Trottier's Card</td></tr>
+<tr><td>9558</td><td>Indy and Sophia Talking with Omar
+	*NO ITEMS</td></tr>
+<tr><td>9559</td><td>Indy Talking to Servant</td></tr>
+<tr><td>9678</td><td>Indy in Caswell Hall (Upstairs Closed for Repairs?)
+	*Whip</td></tr>
+<tr><td>9900</td><td>Indy and Sophia in the Room with the Statue that has to open the door
+	*20 Orichalum, whip, sunstone, moonstone, worldstone, statue part
+	Bronze gear, bronze spoked wheel, crecent statue part, ladder</td></tr>
+<tr><td>9901</td><td>Indy and Sophia in the Airlock after getting off Nazi Sub
+	*Crecent statue part, hinge pin, amber fish, septer, metal rod
+	Statue head, cup of lava, crab in ribcage, eel figurine</td></tr>
+<tr><td>9902</td><td>Indy in the outermost ring of Atlantis Maze *CANNOT GO ON TO ANOTHER 
+	SCREEN*</td></tr>
+<tr><td>9903</td><td>Indy and Sophia in the Airlock after getting off Nazi Sub
+	*3 Orichalum, Dialog, Whip, Sunstone, Moonstone, Worldstone</td></tr>
+<tr><td>9904</td><td>Outside Lava pit room in Atlantis where Sophia is possessed by
+	Nur-ab-Sal
+	*Scepter, Metal Rod, Statue head, Gold Box, empty stone cup, crab
+	in rib cage, eel figurine</td></tr>
+<tr><td>9905</td><td>Indy and Sophia in the Airlock after getting off Nazi Sub
+	*25 Orichalum, Dialog, whip, Sunstone, moonstone, worldstone, box</td></tr>
+<tr><td>9909</td><td>Indy crashes Tram into Atlantis
+	*Bronze spoked wheel, crecent part, statue head, cup of lava, crab
+	in rib cage, eel figurine
+</td></tr>
+</table>
+
+<p>The following bootparams are not yet documented:</p>
+<table border="1" cellspacing="0" cellpadding="2">
+<tr><th>Param</th><th>Description</th></tr>
 <tr><td>1104</td><td>???</td></tr>
-<tr><td>1111</td><td>???</td></tr>
-<tr><td>1112</td><td>???</td></tr>
-<tr><td>1120</td><td>???</td></tr>
-<tr><td>1122</td><td>???</td></tr>
-<tr><td>1123</td><td>???</td></tr>
-<tr><td>1130</td><td>???</td></tr>
-<tr><td>1162</td><td>???</td></tr>
-<tr><td>1181</td><td>???</td></tr>
-<tr><td>1432</td><td>???</td></tr>
-<tr><td>2543</td><td>???</td></tr>
-<tr><td>2718</td><td>???</td></tr>
-<tr><td>2728</td><td>???</td></tr>
-<tr><td>2920</td><td>???</td></tr>
-<tr><td>3142</td><td>???</td></tr>
-<tr><td>3654</td><td>???</td></tr>
-<tr><td>3838</td><td>???</td></tr>
-<tr><td>3939</td><td>???</td></tr>
-<tr><td>3940</td><td>???</td></tr>
-<tr><td>3941</td><td>???</td></tr>
-<tr><td>4040</td><td>???</td></tr>
-<tr><td>4041</td><td>???</td></tr>
-<tr><td>4061</td><td>???</td></tr>
-<tr><td>4062</td><td>???</td></tr>
+<tr><td>1122</td><td>Our original table didn't list 1121, maybe this is a mistake?</td></tr>
 <tr><td>4063</td><td>???</td></tr>
-<tr><td>4122</td><td>???</td></tr>
-<tr><td>4123</td><td>???</td></tr>
-<tr><td>4141</td><td>???</td></tr>
-<tr><td>4242</td><td>???</td></tr>
-<tr><td>4343</td><td>???</td></tr>
-<tr><td>4695</td><td>???</td></tr>
-<tr><td>4765</td><td>???</td></tr>
-<tr><td>4851</td><td>???</td></tr>
-<tr><td>4852</td><td>???</td></tr>
-<tr><td>4853</td><td>???</td></tr>
-<tr><td>4854</td><td>???</td></tr>
-<tr><td>4855</td><td>???</td></tr>
-<tr><td>4949</td><td>???</td></tr>
-<tr><td>4950</td><td>???</td></tr>
 <tr><td>4951</td><td>???</td></tr>
 <tr><td>4951</td><td>???</td></tr>
 <tr><td>4952</td><td>???</td></tr>
@@ -320,75 +491,14 @@ Help here is welcome -- if you want, feel free to fill in some of the gaps and
 <tr><td>4958</td><td>???</td></tr>
 <tr><td>4958</td><td>???</td></tr>
 <tr><td>4959</td><td>???</td></tr>
-<tr><td>4960</td><td>???</td></tr>
-<tr><td>4962</td><td>???</td></tr>
-<tr><td>4963</td><td>???</td></tr>
-<tr><td>4964</td><td>???</td></tr>
-<tr><td>5000</td><td>???</td></tr>
-<tr><td>5001</td><td>???</td></tr>
-<tr><td>5002</td><td>???</td></tr>
-<tr><td>5003</td><td>???</td></tr>
-<tr><td>5005</td><td>???</td></tr>
-<tr><td>5234</td><td>???</td></tr>
-<tr><td>5555</td><td>???</td></tr>
-<tr><td>5557</td><td>???</td></tr>
-<tr><td>5558</td><td>???</td></tr>
-<tr><td>5559</td><td>???</td></tr>
-<tr><td>5560</td><td>???</td></tr>
-<tr><td>5561</td><td>???</td></tr>
-<tr><td>5562</td><td>???</td></tr>
-<tr><td>5563</td><td>???</td></tr>
-<tr><td>5564</td><td>???</td></tr>
-<tr><td>5876</td><td>???</td></tr>
-<tr><td>5877</td><td>???</td></tr>
-<tr><td>5885</td><td>???</td></tr>
-<tr><td>5886</td><td>???</td></tr>
-<tr><td>5999</td><td>???</td></tr>
-<tr><td>6000</td><td>???</td></tr>
-<tr><td>6001</td><td>???</td></tr>
-<tr><td>6002</td><td>???</td></tr>
-<tr><td>6003</td><td>???</td></tr>
-<tr><td>6004</td><td>???</td></tr>
-<tr><td>6005</td><td>???</td></tr>
-<tr><td>6010</td><td>???</td></tr>
-<tr><td>6011</td><td>???</td></tr>
-<tr><td>6345</td><td>???</td></tr>
-<tr><td>6665</td><td>???</td></tr>
-<tr><td>6666</td><td>???</td></tr>
-<tr><td>6667</td><td>???</td></tr>
-<tr><td>6668</td><td>???</td></tr>
-<tr><td>6669</td><td>???</td></tr>
-<tr><td>7456</td><td>???</td></tr>
-<tr><td>7777</td><td>???</td></tr>
-<tr><td>8100</td><td>???</td></tr>
-<tr><td>8567</td><td>???</td></tr>
-<tr><td>8888</td><td>???</td></tr>
-<tr><td>8889</td><td>???</td></tr>
-<tr><td>8890</td><td>???</td></tr>
 <tr><td>9000</td><td>???</td></tr>
-<tr><td>9001</td><td>???</td></tr>
-<tr><td>9101</td><td>???</td></tr>
 <tr><td>9102</td><td>???</td></tr>
 <tr><td>9103</td><td>???</td></tr>
 <tr><td>9104</td><td>???</td></tr>
 <tr><td>9105</td><td>???</td></tr>
 <tr><td>9106</td><td>???</td></tr>
-<tr><td>9191</td><td>???</td></tr>
-<tr><td>9554</td><td>???</td></tr>
-<tr><td>9555</td><td>???</td></tr>
-<tr><td>9556</td><td>???</td></tr>
-<tr><td>9557</td><td>???</td></tr>
-<tr><td>9558</td><td>???</td></tr>
-<tr><td>9559</td><td>???</td></tr>
-<tr><td>9678</td><td>???</td></tr>
-<tr><td>9900</td><td>???</td></tr>
-<tr><td>9901</td><td>???</td></tr>
-<tr><td>9902</td><td>???</td></tr>
-<tr><td>9903</td><td>???</td></tr>
-<tr><td>9904</td><td>???</td></tr>
-<tr><td>9905</td><td>???</td></tr>
-<tr><td>9909</td><td>???</td></tr>
 </table>
+
 
 <br><a name="samnmax"></a>
 <h2>Sam &amp; Max</h2>
