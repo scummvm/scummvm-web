@@ -69,7 +69,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-win32.exe?download">Windows Installer</a> <small>(1.0M Win32 .exe)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-win32.zip?download">Windows zipfile</a> <small>(1.0M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-macosx.dmg?download">MacOS X Disk Image</a> <small>(736k disk image)</small></li>
-<!--	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-morphos.tar.bz2?download">MorphOS binary</a> <small>(397k tar.bz2)</small></li> -->
+<!--	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-morphos.tar.bz2?download">MorphOS binary</a> <small>(397k .tar.bz2)</small></li> -->
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.4.0-0.woody.1_i386.deb?download">Debian Stable (woody) Package</a> <small>(369k .deb)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-1.rh80.i386.rpm?download">RedHat 8.0 package</a> <small>(404k RPM)</small>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-1.src.rpm?download">Source RPM</a> <small>(1.1M RPM)</small>
@@ -87,7 +87,17 @@ echo html_round_frame_start("Downloads","98%","",20);
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-Smartphone2002.zip?download">Smartphone 2002 binary</a> <small>(490k zipfile)</small></li>
 	</ul>
-	
+
+	<p>
+ 	  <b>0.3.0 Release binaries (outdated):</b>
+	</p>
+	<p>A few binaries were not yet updated for the 0.4.0 release. Until that changes, here you can still find the old 0.3.0 binaries.
+	<ul>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-morphos.tar.bz2?download">MorphOS binary</a> <small>(397k .tar.bz2)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.3.0b-dreamcast_nero.zip?download">Dreamcast binary</a> <small>(4.7M zipfile)</small></li>
+	</ul>
+
+http://prdownloads.sourceforge.net/scummvm/scummvm_0.3.0b-dreamcast_nero.zip?download	
 	<p>
 	  <b>0.4.0 Tools (mostly unsupported):</b>
 	</p>
