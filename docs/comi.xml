@@ -17,7 +17,7 @@
 <li>Generic:
 	<ul>
 		<li>No SMUSH Audio: aquadran is working on this one
-		<li>Crash when placing towels on hot sand at Brimstone Beach. See save: http://www.enderboi.com/misc/comi.s08
+		<li>Since ScaleSlots were implemented, engine will crash on entering the town (_charset somehow gets freed!?)
 	</ul>
 <li>Graphics:
 	<ul>
@@ -35,8 +35,7 @@
 		<li>The CHORE opcode still seems to be returning dodgy results
 		<li>Lack of MouthSync stuff causes odd actor speech animations
 		<li>Lack of MusicMouthSync will stop entry into Part 3 (hang during song sequence)
-		<li>No ScaleSlot implementation means bad scaling
-		<li>Actor occasionally gets stuck - related to scaling bug?
+		<li>Actor occasionally gets stuck - related to scaling bug? <b>(is this still there now scaling is implemented?)</b>
 	</ul>
 </ul>
 
