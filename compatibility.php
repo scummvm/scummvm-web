@@ -72,6 +72,7 @@ $games = array(
 		'Putt-Putt Joins The Parade (DOS Demo)'			=> array('6','puttdemo','70'),
 		'Putt-Putt Joins The Parade (DOS)'			=> array('6','puttputt','20'),
 		'Putt-Putt Goes To The Moon (DOS Demo)'			=> array('6','moondemo','20'),
+		'Putt-Putt Goes To The Moon (DOS)'			=> array('6','puttmoon','20'),
 		'Putt-Putts Fun Pack'					=> array('6','funpack','20'),
 		'Fatty Bears Birthday Surprise (DOS Demo)'		=> array('6','fbdemo','20'),
 		'Fatty Bears Birthday Surprise (DOS)'			=> array('6','fbear','20'),
@@ -125,12 +126,18 @@ $notes = array(
 		   "<br>- Humongous talkie file format currently unknown".
 		   "<br>- Sound format used for sound effects could use more work".
 		   "<br>- Cursor is not placed at the right offset, so some of the hotspots are out a bit",
-"puttputt"	=> "Fails to start due to unimplemented opcode".
+"puttputt"	=> "Fails to start due to unimplemented opcode in bootscript (0xDA)".
+		   "<br>- Bootscript stops rather early on and doesn't get a chance to call other scripts".
 		   "<br>- Humongous talkie file format currently unknown",
-"moondemo"	=> "Fails to start due to unimplemented opcode".
+"puttmoon"	=> "Fails to start due to unimplemented opcode in bootscript (0xDA)".
+		   "<br>- Bootscript stops rather early on and doesn't get a chance to call other scripts".
+		   "<br>- Humongous talkie file format currently unknown",
+"moondemo"	=> "Fails to start due to unimplemented opcode (0xD1)".
+		   "<br>- Dies on room 0 script 28 offset 0x3C".
 		   "<br>- Humongous talkie file format currently unknown",
 "funpack"	=> "Unknown but probably fails to start in similiar manner to most other humongous dos based games",
-"fbdemo"	=> "Fails to start due to unimplemented opcode".
+"fbdemo"	=> "Fails to start due to unimplemented opcode (0xD1)".
+		   "<br>- Dies on room 0 script 20 offset 0x36".
 		   "<br>- Humongous talkie file format currently unknown",
 "fbear"		=> "Assumed to Fail to start due to unimplemented opcode".
 		   "<br>- Humongous talkie file format currently unknown",
