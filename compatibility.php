@@ -91,7 +91,7 @@ $games = array(
 		'Day Of The Tentacle (Demo)'				=> array('6','dottdemo','95'),
 		'Sam & Max'                                             => array('6','samnmax','95'),
 		'Sam & Max (Demo)'					=> array('6','samdemo','95'),
-		'Full Throttle'						=> array('7','ft','80'),
+		'Full Throttle'						=> array('7','ft','85'),
 		'The Dig'                                               => array('7','dig','85'),
 		'Curse of Monkey Island'				=> array('8','comi','80'),
 		'Beneath a Steel Sky'			       		=> array('n/a','sky','90'),
@@ -212,11 +212,9 @@ $notes = array(
 		   "<br>- Both disk and cd versions are supported by this target".
                    "<br>- Highway subgame doesn't behave correctly",
 "samdemo"	=> "No known problems - should be playable to the end",
-"ft"		=> "Game is completable, with several glitches".
-		   "<br>- Both Mac and PC versions supported by this target".
-	 	   "<br>- Music is not continuous, and may pause, restart, and otherwise act oddly".
-		   "<br>- SMUSH audio (movie cutscenes) is a lot quieter than in-game voice, which is abnormally loud",
-"dig"		=> "Game is completable, with some minor sound issues".
+"ft"		=> "Game is completable, with minor glitches".
+		   "<br>- Both Mac and PC versions supported by this target",
+"dig"		=> "Game is completable, with minor glitches".
 		   "<br>- Both Mac and PC versions supported by this target",
 "comi"		=> "Game is completable, with some minor glitches.",
 "sky"	 	=> "No known issues, game is completable.".
