@@ -45,38 +45,8 @@ function addEntry($variant, $platform, $language, $md5, $target = "???", $source
 <p>To be added (didn't get around to putting this into the right places yet):</p>
 <pre>
 The following are from khalek/Jonathan Gray:
-airdemo pc en 86c9902b7bec1a17926d4dae85beaa45
-airdemo pc en e144f5f49d9241d2a9dee2576b3d09cb
-airdemo pc en 8ffd618a776a4c0d8922bb28b09f8ce8
-Airport Demo mac en 7ea2da67ebabea4ac20cee9f4f9d2934
-farmdemo pc en bf8b52fdd9a69c67f34e8e9fec72661c
-freddemo pc en 084ed0fa98a6d1e9368d67fe9cfbd417
-freddemo pc en 566165a7338fa11029e7c14d94fa70d0
-spydemo pc en 9d4ab3e0e1d1ebc6ba8a6a4c470ed184
-f4-demo pc en 7c2e76087027eeee9c8f8985f93a1cc5
-pjs-demo pc en f237bf8a5ef9af78b2a6a4f3901da341
-Pajama Sam Demo mac en f237bf8a5ef9af78b2a6a4f3901da341
-pj3-demo pc en cf90b4db5486ef798db78fe6fbf897e5
-pjsamdemo pc en d7ab7cd6105546016e6a0d46fb36b964
-1grademo pc en 0f5935bd5e88ba6f09e558d64459746d
-ffhsdemo pc en d37c55388294b66e53e7ced3af88fa68
-bluesabctimedemo pc en 7ddeaf52c8b9a50551ce0aa2ac811d07
 byb2001-demo bb2demo pc en a194f15f51ee62badab74b9e7da97693
 byf2002-demo football2002 pc en 2e85f7aa054930c692a5b1bed1dfc295
-ff2-demo pc en fc8d197a22146e74766e9cb0cfcaf1da
-ff2-demo mac en fc8d197a22146e74766e9cb0cfcaf1da
-f3-mdemo mac en cb1559e8405d17a5a278a6b5ad9338d1
-freddi pc en df047cc4792150f601290357566d36a6
-freddi mac en df047cc4792150f601290357566d36a6
-foxdemo pc en 53e94115b55dd51d4b8ff0871aa1df1e
-foxdemo mac en 53e94115b55dd51d4b8ff0871aa1df1e
-pajama pc en 672dec94b82f7f0877ebb5b5cf7f4bc1
-pajama mac en 672dec94b82f7f0877ebb5b5cf7f4bc1
-freddi demo mac en c8aac5e3e701874e2fa4117896f9e1b1
-kinddemo mac en 695fe0b3963333b7e15b37514db3c745
-TimeDemo mac en 4e5867848ee61bc30d157e2c94eee9b4
-catalog pc en 86c9902b7bec1a17926d4dae85beaa45
-spyfox pc en 6bf70eee5de3d24d2403e0dd3d267e8a
 
 </pre>
 
