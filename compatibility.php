@@ -74,7 +74,7 @@ $games = array(
                 'Sam & Max'                                             => array('6','samnmax','90'),
 		'Sam & Max (DEMO)'					=> array('6','samdemo','95'),
 		'Full Thottle'						=> array('7','ft','60'),
-                'The DIG'                                               => array('7','dig','40'),
+                'The DIG'                                               => array('7','dig','75'),
 		'Curse of Monkey Island'				=> array('8','curse','5'),
 		'Simon The Sorcerer 1 (Win)'           			=> array('n/a','simon1win','95'),
 		'Simon The Sorcerer 1 (Dos)'           			=> array('n/a','simon1dos','95'),
@@ -110,13 +110,12 @@ $notes = array(
 "samdemo"	=> "No known problems - should be playable to the end",
 "ft"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
                    "<br>- Lack of INSANE subsystem prevents action sequences, which are needed to complete the game".
-                   "<br>- Some animations are missing",
-"dig"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
-                   "<br>- Some rooms have severe graphical glitches".
-		   "<br>- Some major sound glitches exist, such as missing lines".
-		   "<br>- Boston may freeze when taking some objects, can be avoided by opening the inventory before taking said object".
-                   "<br>- The nexus room doesn't 'wrap', just crashes if you try to walk too far in either direction".
-                   "<br>- Some animations are missing",
+                   "<br>- Some character animations (AKOS codec 16 based) are missing",
+"dig"		=> "Game is completable, but still has some major problems".
+                   "<br>- The room under the Tomb does not draw correctly".
+		   "<br>- Some sound glitches exist, such as missing speech lines".
+                   "<br>- The nexus room doesn't 'wrap' correctly, there are some redraw problems at the room seem".
+                   "<br>- Some character animations (AKOS codec 16 based) are missing",
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
 "simon1win" 	=> "No known problems, Game is completable.",
 "simon1dos" 	=> "No known problems, Game is completable.",
