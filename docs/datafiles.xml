@@ -107,7 +107,7 @@ details.</p>
       MONSTER.SOU<br>
   </tr>
   <tr>
-    <td>Full Throttle (Demo)</td>
+    <td>Full Throttle (PC Demo)</td>
     <td>data folder<br>
       video folder<br>
       ft.000<br>
@@ -148,12 +148,12 @@ details.</p>
       PLAYFATE.001</td>
   </tr>
   <tr>
-    <td>Indiana Jones and the Last Crusade (Amiga, FM-TOWNS, 
+    <td>Indiana Jones and the Last Crusade (Amiga, FM-TOWNS**, 
       PC EGA or PC 256 color)</td>
     <td>*.LFL</td>
   </tr>
   <tr>
-    <td>Loom (Amiga, FM-TOWNS or PC EGA, or PC Demo)</td>
+    <td>Loom (Amiga, FM-TOWNS** or PC EGA, or PC Demo)</td>
     <td>*.LFL</td>
   </tr>
   <tr>
@@ -387,7 +387,7 @@ details.</p>
       TBLLIST</td>
   </tr>
   <tr>
-    <td>Zak McKracken and the Alien Mindbenders (Original or Enhanced)</td>
+    <td>Zak McKracken and the Alien Mindbenders (Amiga, Atari ST, FM-TOWNS**, Mac, PC)</td>
     <td>*.LFL</td>
   </tr>
 </table>
