@@ -69,6 +69,7 @@ $games = array(
 		'Monkey Island 2: LeChuck\'s revenge'			=> array('5','monkey2','95'),
 		'Indiana Jones 4 and the Fate of Atlantis'		=> array('5','atlantis','95'),
 		'Indiana Jones 4 and the Fate of Atlantis (DEMO)'	=> array('5','playfate','95'),
+		'Putt-Putt Joins The Parade (Demo)'			=> array('6','puttdemo','70'),
 		'Day Of The Tentacle'					=> array('6','tentacle','95'),
 		'Day Of The Tentacle (DEMO)'				=> array('6','dottdemo','95'),
                 'Sam & Max'                                             => array('6','samnmax','93'),
@@ -83,7 +84,7 @@ $games = array(
 		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','80'),
 		'Simon The Sorcerer 2 Talkie (Dos)'       		=> array('n/a','simon2talkie','80'),
 		'Simon The Sorcerer 2 (Dos)'           			=> array('n/a','simon2dos','75'),
-		'Simon The Sorcerer 2 (DEMO)'          			=> array('n/a','simon2demo','75')
+		'Simon The Sorcerer 2 (DEMO)'          			=> array('n/a','simon2demo','80')
 	      );
 
 $notes = array(
@@ -110,6 +111,10 @@ $notes = array(
 "atlantis"	=> "No known problems - should be playable to the end".
 		   "<br>- Music loud on some systems, run with -m30 to lower music volume.",
 "playfate"	=> "No known problems - should be playable to the end",
+"puttdemo"	=> "Should be playable to the end".
+		   "<br>- Humongous talkie file format currently unknown".
+		   "<br>- Sound format used for sound effects could use more work".
+		   "<br>- Cursor is not placed at the right offset, so some of the hotspots are out a bit",
 "tentacle"	=> "No known problems - should be playable to the end",
 "dottdemo"	=> "No known problems - should be playable to the end",
 "samnmax"	=> "No major problems - should be playable to the end".
