@@ -134,7 +134,8 @@ $notes = array(
                    "<br>- Various minor graphical glitches",
 "simon1talkie" 	=> "Game is completable.".
                    "<br>- Various minor graphical glitches",
-"simon1cd32" 	=> "Game works but all grapgics are decoded incorrectly".
+"simon1cd32" 	=> "Game works a bit but can't see anything".
+                   "<br>- All graphics are decoded incorrectly".
                    "<br>- pkd format is unknown".
                    "<br>- Sound effects and speech formats are unknown".
                    "<br>- No Music",
@@ -156,12 +157,14 @@ $notes = array(
                    "<br>- No music".
                    "<br>- Various minor graphical glitches",
 "simon2amiga"   => "Game is completable.".
-                   "<br>- Only English language is support".
+                   "<br>- Only default language in data files is supported".
                    "<br>- No music".
+                   "<br>- F10 key animation is different".
                    "<br>- Various minor graphical glitches",
 "simon2mac"     => "Game is completable.".
-                   "<br>- Only English language is support".
+                   "<br>- Only default language in data files is supported".
                    "<br>- No music".
+                   "<br>- F10 key animation is different".
                    "<br>- Various minor graphical glitches",
 "simon2demo" 	=> "Game demo is completable".
                    "<br>- No music"
