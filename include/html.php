@@ -100,22 +100,22 @@ function html_frame_start ($title = "", $width = "", $cellPad = 5, $cellSpc = 1,
     global $file_root;
     global $_indent_level;
     $_indent_level++;
-          
+	  
     if ($width) { $width = 'width="'.$width.'"'; }
 
-    $str = "\n".'<div align=center>'."\n";
-    $str .= '<table '.$width.' border=0 cellpadding=0 cellspacing=0>'."\n";
+    $str = "\n".'<div align="center">'."\n";
+    $str .= '<table '.$width.' border="0" cellpadding="0" cellspacing="0">'."\n";
     
     if ($title) {
-    	$str .= '<tr><td class="topMenu">'."\n";
-	$str .= '    <table width="100%" border=0 cellpadding=0 cellspacing=0><tr>'."\n";
-    	$str .= '        <td width="100%" align=center><span class=menuTitle> '.$title.' </span></td>'."\n";
+	$str .= '<tr><td class="topMenu">'."\n";
+	$str .= '    <table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
+	$str .= '	 <td width="100%" align="center"><span class="menuTitle"> '.$title.' </span></td>'."\n";
 	$str .= '    </tr></table>'."\n";
-    	$str .= '</td></tr>'."\n";
+	$str .= '</td></tr>'."\n";
     }
     
     $str .= '<tr><td class='.$color.'>'."\n";
-    $str .= '<table width="100%" border=0 cellpadding='.$cellPad.' cellspacing='.$cellSpc.' '.$extra.'>'."\n";
+    $str .= '<table width="100%" border="0" cellpadding="'.$cellPad.'" cellspacing="'.$cellSpc.'" '.$extra.'>'."\n";
 
     return $str;
 }
@@ -126,14 +126,14 @@ function html_frame_end ($text = "")
     global $_trcolor;
     global $_indent_level;
     $_indent_level--;
-        
+	
     $str .= '</table>'."\n";
     $str .= '</td></tr>'."\n";
     if ($text)
     {
-    	$str .= '<tr><td class="topMenu">'."\n";
-	$str .= '    <table width="100%" border=0 cellpadding=0 cellspacing=0><tr>'."\n";
-    	$str .= '        <td width="100%" align=center><span class=menuTitle> '.$text.' </span></td>'."\n";
+	$str .= '<tr><td class="topMenu">'."\n";
+	$str .= '    <table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
+	$str .= '	 <td width="100%" align="center"><span class="menuTitle"> '.$text.' </span></td>'."\n";
 	$str .= '    </tr></table>'."\n";
 	$str .= '</td></tr>'."\n";
     }
@@ -148,21 +148,21 @@ function html_round_frame_start ($title = "", $width = "", $extra = "", $innerPa
     global $file_root;
     if ($width) { $width = 'width="'.$width.'"'; }
 
-    $str = "\n".'<div align=center>'."\n";
-    $str .= '<table '.$width.' border=0 cellpadding=0 cellspacing=0>'."\n";
+    $str = "\n".'<div align="center">'."\n";
+    $str .= '<table '.$width.' border="0" cellpadding="0" cellspacing="0">'."\n";
     
     if($title) {
-    	$str .= '<tr><td class="topMenu">'."\n";
-	$str .= '    <table width="100%" border=0 cellpadding=0 cellspacing=0><tr>'."\n";
-	$str .= '        <td valign=top align=left><img src="'.$file_root.'/images/main_left_top.gif" border=0 alt="-"></td>'."\n";
-    	$str .= '        <td width="100%" align=center><span class=menuTitle> '.$title.' </span></td>'."\n";
-	$str .= '        <td valign=top align=right><img src="'.$file_root.'/images/main_right_top.gif" border=0 alt="-"></td>'."\n";
+	$str .= '<tr><td class="topMenu">'."\n";
+	$str .= '    <table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
+	$str .= '	 <td valign=top align=left><img src="'.$file_root.'/images/main_left_top.gif" border="0" alt="-"></td>'."\n";
+	$str .= '	 <td width="100%" align="center"><span class="menuTitle"> '.$title.' </span></td>'."\n";
+	$str .= '	 <td valign=top align="right"><img src="'.$file_root.'/images/main_right_top.gif" border="0" alt="-"></td>'."\n";
 	$str .= '    </tr></table>'."\n";
-    	$str .= '</td></tr>'."\n";
+	$str .= '</td></tr>'."\n";
     }
     
     $str .= '<tr><td>'."\n";	
-    $str .= '<table width="100%" border=0 cellpadding='.$innerPad.' cellspacing=1 '.$extra.'><tr><td class="color2" bgcolor="#ffffff">'."\n";
+    $str .= '<table width="100%" border="0" cellpadding='.$innerPad.' cellspacing=1 '.$extra.'><tr><td class="color2" bgcolor="#ffffff">'."\n";
 
     return $str;
 }
@@ -173,11 +173,11 @@ function html_round_frame_end ($text = "")
     $str .= '</td></tr></table></td></tr>'."\n";
     if ($text)
     {
-    	$str .= '<tr><td class="topMenu">'."\n";
-	$str .= '    <table width="100%" border=0 cellpadding=0 cellspacing=0><tr>'."\n";
-	$str .= '        <td valign=bottom align=left><img src="'.$file_root.'/images/main_left_bottom.gif" border=0 alt="-"></td>'."\n";
-    	$str .= '        <td width="100%" align=center><span class=menuTitle> '.$text.' </span></td>'."\n";
-	$str .= '        <td valign=bottom align=right><img src="'.$file_root.'/images/main_right_bottom.gif" border=0 alt="-"></td>'."\n";
+	$str .= '<tr><td class="topMenu">'."\n";
+	$str .= '    <table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
+	$str .= '	 <td valign=bottom align=left><img src="'.$file_root.'/images/main_left_bottom.gif" border="0" alt="-"></td>'."\n";
+	$str .= '	 <td width="100%" align="center"><span class="menuTitle"> '.$text.' </span></td>'."\n";
+	$str .= '	 <td valign=bottom align="right"><img src="'.$file_root.'/images/main_right_bottom.gif" border="0" alt="-"></td>'."\n";
 	$str .= '    </tr></table>'."\n";
 	$str .= '</td></tr>'."\n";
     }
@@ -214,15 +214,15 @@ function html_frame_td ($txt = "&nbsp;", $extra = null)
 
 function html_frame_row_form ($name = "&nbsp;", $field = "&nbsp;")
 {
-    $str  = '    <tr valign=top><td class="color1" width="200"><b class="menuTitle">'.$name.'</b></td>'."\n";
-    $str .= '    <td class="color2" width="100%">'.$field.'</td></tr>'."\n";
+    $str  = '	 <tr valign="top"><td class="color1" width="200"><b class="menuTitle">'.$name.'</b></td>'."\n";
+    $str .= '	 <td class="color2" width="100%">'.$field.'</td></tr>'."\n";
     return $str;
 }
 
 
 function html_frame_row_form_title ($name = "&nbsp;")
 {
-    $str  = '    <tr valign=top><td class="color3" colspan=2><b class="menuTitle">'.$name.'</b></td></tr>'."\n";
+    $str  = '	 <tr valign="top"><td class="color3" colspan="2"><b class="menuTitle">'.$name.'</b></td></tr>'."\n";
     return $str;
 }
 
@@ -249,7 +249,7 @@ function html_back_link ($howmany = 1, $url = "")
 {
     if (!$url)
     {
-        $url = 'javascript:history.back('.$howmany.');';
+	$url = 'javascript:history.back('.$howmany.');';
     }
     return '<p>&nbsp;&nbsp; <a href="'.$url.'">&lt;&lt; Back</a></p>'."\n";
 }
@@ -361,13 +361,13 @@ function html_urlify ($text)
     $urlreg = "([a-zA-Z]+://([^\t\r\n ]+))";
     if (ereg($urlreg,$text))
     {
-        $text = ereg_replace($urlreg, "<a href=\"\\1\"> \\2 </a>", $text);
+	$text = ereg_replace($urlreg, "<a href=\"\\1\"> \\2 </a>", $text);
     }
     
     $emailreg = "([a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+\.[a-zA-Z0-9_-]+)";
     if (ereg($emailreg,$text))
     {
-    	$text = ereg_replace($emailreg, "<a href='mailto:\\1'>\\1</a>", $text);
+	$text = ereg_replace($emailreg, "<a href='mailto:\\1'>\\1</a>", $text);
     }
 
     return $text;
@@ -396,19 +396,18 @@ function html_header ($title, $extra = "")
 	<script language="JavaScript" src="<?=$file_root?>/scripts.js" type="text/javascript"></script>
 </head>
 
-<body bgcolor="#6699CC" text="#000000" topmargin=0 bottommargin=0
-leftmargin=0 rightmargin=0 marginheight=0 marginwidth=0>
+<body bgcolor="#6699CC" text="#000000" topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0" marginheight="0" marginwidth="0">
 
-<table width="100%" border=0 cellpadding=0 cellspacing=0>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
 <tr>
     <td background="<?=$file_root?>/images/scummvm_top_tile.png">
-        <table width="100%" border=0 cellpadding=0 cellspacing=0>
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
 	<tr>
-	    <td><img src="<?=$file_root?>/images/scummvm_logo.png" border=0 width=407 height=111 alt="ScummVM"></td>
+	    <td><img src="<?=$file_root?>/images/scummvm_logo.png" border="0" width="407" height="111" alt="ScummVM"></td>
 	    <td width="100%">
 		&nbsp;
 	    </td>
-	    <td><img src="<?=$file_root?>/images/scummvm_chars.png" width=193 height=111 border=0 alt="-"></td>
+	    <td><img src="<?=$file_root?>/images/scummvm_chars.png" width="193" height="111" border="0" alt="-"></td>
 	</tr>
 	</table>
     </td>

@@ -35,7 +35,7 @@ function sidebar_start ()
 
 	$g->add("Project Home", "http://sourceforge.net/projects/scummvm/");
 	$g->add("Forums", "http://sourceforge.net/forum/?group_id=37116");
-	$g->add("Bug Tracking", "http://sourceforge.net/tracker/?atid=418820&group_id=37116&func=browse");
+	$g->add("Bug Tracking", "http://sourceforge.net/tracker/?atid=418820&auml;group_id=37116&auml;func=browse");
 	$g->add("Daily Snapshots", "http://scummvm.sourceforge.net/daily/");
 	$g->add("CVS Tree", "http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/");
 
@@ -55,7 +55,7 @@ function sidebar_start ()
 	<input type="hidden" name="cmd" value="_xclick">
 	<input type="hidden" name="business" value="paypal@enderboi.com">
 	<input type="hidden" name="item_name" value="ScummVM donation">
-	<input type="image" src="<?=$file_root?>/images/ppdonate.gif" border="0" name="submit" alt="Donate to ScummVM with PayPal!">
+	<input type="image" src="<?=$file_root?>/images/ppdonate.gif" name="submit" alt="Donate to ScummVM with PayPal!">
 	</form>	
 	
 	<p align="center">
