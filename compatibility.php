@@ -123,6 +123,7 @@ $notes = array(
 "simon1demo" 	=> "Game demo is completable to a point, but not playable to the end".
                    "<br>- No music",
 "simon2win"     => "Game is completable to a point, but not playable to the end".
+                   "<br>- Some sound effects are missing.".
                    "<br>- Part of introduction is skipped.".
                    "<br>- Various minor graphical glitches",
 "simon2dos"     => "Not fully implemented yet.".
