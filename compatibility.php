@@ -140,7 +140,7 @@ $notes = array(
 "funpack"	=> "Start but mini games seem to have various problems and generally not run".
 		   "<br>- Tic-Tac-Toe: Error(5:10:0xA8): Value 196 is out of bounds (0,31) in script 10 (Illegal palet slot 196)".
 		   "<br>- Pinball/Checkers/Remember/Cheese King: Similiar to above but different scripts".
-		   "<br>- Puzzle blocks: Error(7:4:0x499): No items on stack to pop() for o6_startObjectEx (0x60) at [7-4]".
+		   "<br>- Puzzle blocks: Works but colour isn't set properly so game is black and white".
 		   "<br>- Humongous talkie file format currently unknown",
 "fbdemo"	=> "Fails shortly after starting on Error: akos_increaseAnim: invalid code 8006!".
 		   "<br>- Humongous talkie file format currently unknown",
