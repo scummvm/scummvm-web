@@ -109,22 +109,19 @@ $notes = array(
                    "<br>- No music or sound effects",
 "indy3"         => "Game is completable" .
                    "<br>- No sound effects".
-                   "<br>- No music looping",
 "zak256"        => "Game is completable." .
                    "<br>- No sound effect looping" ,
 "loom"		=> "Game is completable".
                    "<br>- No music or sound effects",
 "monkeyega"	=> "Game is completable".
-                   "<br>- No sound effects".
-                   "<br>- No music looping",
+                   "<br>- No sound effects",
 "pass"		=> "At least partly playable".
                    "<br>- No subtitles in indy3 demo".
                    "<br>- No sound effects",
 "loomcd"        => "Game is completable." .
                    "<br>- Various minor graphical glitches",
 "monkeyvga"	=> "Game is completable.".
-                   "<br>- No sound effects".
-                   "<br>- No music looping",
+                   "<br>- No sound effects",
 "monkey"	=> "No known problems - should be playable to the end",
 "monkey2"	=> "No known problems - should be playable to the end",
 "atlantis"	=> "No known problems - should be playable to the end".
