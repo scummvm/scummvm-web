@@ -136,13 +136,13 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 
       <li><p><a name="1-6"></a><b>When will Maniac Mansion Deluxe be supported?</b><br>
     The short answer: never. The long answer:
-	This game is a fan-made replica of original Maniac Mansion. It is not the same
-	game as Maniac Mansion Enhanced which we do support. It features improved
-	music, sounds, 256-colors graphics and revorked game interface. It was made using
+	This game is a fan-made replica of the original Maniac Mansion. It is not the same
+	game as Maniac Mansion Enhanced, which we do support. It features improved
+	music, sound, 256-colors graphics and reworked game interface. It was made using
 	the <a href="http://www.adventuregamestudio.co.uk/">Adventure Game Studio</a> which
 	is a free, albeit closed-source graphics adventures engine. There are Windows,
-	Linux and FreeBSD versions of the engine. Its author keeps his source code closed
-	due to some reasons explained in project <a href="http://www.agsforums.com/acfaq.htm">FAQ</a>
+	Linux and FreeBSD versions of the engine. It's author keeps his source code closed
+	due to reasons explained in the project's <a href="http://www.agsforums.com/acfaq.htm">FAQ</a>
 	(see last two questions). That means that you need to download that program to
 	play the game.
       </p></li>
@@ -295,7 +295,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	platform in the ScummVM Game Options dialog, or use the --platform=amiga command
 	line parameter to enable Amiga-specific code.</p></li>
       
-      <li><p><a name="4-8"></a><b>The characters in my non english game are messed up.</b><br>
+      <li><p><a name="4-8"></a><b>The subtitles in my non english game are messed up.</b><br>
       	You are most likely using a game such as Maniac Mansion or Zak McKracken if you have this problem. 
 	You need to specify a language in the ScummVM Game Options dialog, with the -q parameter or by
 	using the 'language' config file option.<BR>
@@ -341,8 +341,8 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
       <li><p><a name="5-1"></a><b>Will you add support for zip archives?</b><br>
 	We will not do it. There are two main reasons for that. First, we believe that it
 	would ease illegal distribution of games. Second, we already support compression
-	of game sound in most bigger titles, and use specially designed algorithms
-	like MP3, Ogg and FLAC, so you already can reduce the size of the data files.
+	of sound &amp; speech in most larger titles, and use specially designed algorithms
+	like MP3, Ogg and FLAC, so you can already reduce the size of the data files.
 	<br>
 	We as a team already discussed that question. We can't absolutely exclude
 	the possibility of changing our mind one day in the future, but for now, we
