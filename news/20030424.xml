@@ -2,15 +2,15 @@
 <DATE>Apr 24, 2003</DATE>
 <BODY>
 <p>
-We've recieved a number of e-mails lately asking if any work is happening on ScummVM. We would like to
+We've received a number of e-mails lately asking if any work is happening on ScummVM. We would like to
 reassure people that do -not- follow CVS that yes, a lot of work is happening.
 </p>
 <p>
 We are currently gearing up for the release of 0.4.0, which should be happening within a few weeks.
-I'd like to ask people who feel like living dangerously to try out CVS and Daily Build's, and let us
-know of any problems we should be aware of. In the 'Documentation' section below you will see a
-'Release Checklist'. Games that have been testing without any problems are marked here - please test
-the games that are not marked tested, and let us know your results on the Forum. Remember to include
+I'd like to ask people who feel like living dangerously to try out CVS and Daily Builds, and let us
+know of any problems we should be aware of. In the 'Documentation' section on the left, you will see a
+'ScummVM 0.4.0 Checklist'. Games that have been tested without any problems are marked there - please test
+the games that are not marked tested and let us know your results on the Forum. Remember to include
 the date you downloaded the build you completed the game with.
 </p>
 <p>
@@ -20,9 +20,9 @@ donated a Playstation 2 modchip to the team, so expect a native PS2 port as soon
 installed (ScummVM already runs fine under Playstation2 Linux).
 </p>
 <p>
-A reminder to those that are intrested in our latest progess, you can always sign up to the cvs-logs
-mailing list. Click the 'Project Home' link below, and browse to the 'Lists' page. This list will
-receive an e-mail every time there is a new change to the source-code, so bewarned it can be rather
+A reminder to those that are interested in our latest progress, you can always sign up to the cvs-logs
+mailing list. Click the 'Project Home' link on the left, and browse to the 'Lists' page. This list will
+receive an e-mail every time there is a new change to the source-code, so be warned it can be rather
 technical and high-traffic. As an alternative you can just play with CVS Checkouts or Daily Builds and
 discover anything new yourself :)
 </BODY>
