@@ -229,7 +229,6 @@ $notes = array(
 		   "<br>- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders".
 		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
 "sword1"	=> "Game should run up to Police Station point, but is not completable".
-		   "<br>- No load/save".
 		   "<br>- No cutscenes",
 "sword2"	=> "Game is completable, with several minor glitches".
 		   "<br>- Does not work on systems that require alignment".
