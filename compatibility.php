@@ -63,7 +63,7 @@ $games = array(
 		'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','30'),
 		'LOOM'							=> array('3','loom','0'),
 		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','5'),
-		'LOOM (256 color CD version)'				=> array('5','loomcd','30'),
+                'LOOM (256 color CD version)'                           => array('5','loomcd','80'),
 		'The Secret of Monkey Island (VGA CD)'			=> array('5','monkey','95'),
 		'Monkey Island 2: LeChuck\'s revenge'			=> array('5','monkey2','90'),
 		'Indiana Jones 4 and the Fate of Atlantis'		=> array('5','atlantis','90'),
@@ -83,14 +83,17 @@ $notes = array(
 "maniacega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format",
 "zakega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
 "indy3ega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Indy3-256 version",
-"indy3"		=> "Game will start, but is not playable.<BR>The intro freezes on the LucasArts logo - hit escape to proceed.<BR>".
-                   "Main bugs: Missing SCUMM opcodes cause occasional crashes, and incorrect object flags cause some game problems",
-"zak256"	=> "Game will start, but is not playable.<BR>The intro freezes on the LucasArts logo - hit escape to proceed.<BR>".
-                   "Main bugs: Inventory scrolling not implemented, making it impossible to carry more than 4 objects at once<BR>" .
-                   "You cannot proceed past the airport due to an apparant walkbox issue and several crashes",
+"indy3"         => "Game will start, but is not completely playable." .
+                   "<br>- The intro freezes on the LucasArts logo - hit escape to proceed.".
+                   "<br>- Missing SCUMM opcodes cause occasional crashes" .
+                   "<br>- Incorrect object flags cause some game problems, such as letters on Indys desk not appearing",
+"zak256"        => "Game will start, but is not completely playable." .
+                   "<br>- Inventory scrolling not implemented, making it impossible to carry more than 4 objects at once" .
+                   "<br>- You cannot proceed past the airport due to an apparant walkbox issue and several crashes",
 "loom"		=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Loom CD version",
 "monkeyega"	=> "Copy protection screen will show, but game crashes shortly afterwards.<BR>Graphics decoders and SCUMM opcodes not implimented yet.",
-"loomcd"        => "Game is somewhat playable, but may crash with invalid SCUMM opcodes and have graphics problems.<BR>A possible walkbox issue prevents leaving the Loom Room",
+"loomcd"        => "Game is completable." .
+                   "<br>- CD music and voices are out of sync with cutscenes, and sometimes may not play at all.",
 "monkey"	=> "No known problems - should be playable to the end",
 "monkey2"	=> "No known problems - should be playable to the end",
 "atlantis"	=> "Game is completable.".                        
