@@ -20,10 +20,9 @@ sidebar_start();
 echo html_round_frame_start("Website Revamp contest poll","");
 
 ?>
-	<h1>Website Revamp contest poll</h1>
+	<h1>Website Revamp contest poll -- closed, draven declared winner</h1>
 	
-	<p>The three finalists of the website revamp contest can be seen here. Keep in mind that those are all design drafts;
-	the final web site may look different in some aspects.</p>
+	<p>The three finalists of the website revamp contest can be seen here. The contest was won by draven, you can see the final standings below</p>
 	
 	<center>
 	<table cellpadding="10" cellspacing="10">
@@ -34,35 +33,64 @@ echo html_round_frame_start("Website Revamp contest poll","");
 	</tr>
 	
 <tr><td colspan="3" align="center">
-<!-- // Begin Pollhost.com Poll Code // -->
-<form method=post action=http://poll.pollhost.com/vote.cgi>
-<table border=0 width=150 bgcolor=#EEEEEE cellspacing=0 cellpadding=2>
-<tr><td colspan=2><font face="Arial" size=-1 color="#000000"><b>Which design do you prefer for the new ScummVM website?</b></td></tr>
-<tr><td width=5><input type=radio name=answer value=1></td><td><font face="Arial" size=-1 color="#000000">I just love arturom!</td></tr>
-<tr><td width=5><input type=radio name=answer value=2></td><td><font face="Arial" size=-1 color="#000000">Oh, draven is *sooo* cool!</td></tr>
-<tr><td width=5><input type=radio name=answer value=3></td><td><font face="Arial" size=-1 color="#000000">The one and only choice is ... jeanm!</td></tr>
-<tr><td width=5><input type=radio name=answer value=4></td><td><font face="Arial" size=-1 color="#000000">The old website is kinda cute... so ... green... and purple...</td></tr>
-<tr><td colspan=2>
-<input type=hidden name=config value="c2N1bW12bQkxMTAzMjk1MDM3CUVFRUVFRQkwMDAwMDAJQXJpYWwJQXNzb3J0ZWQ">
-<center><input type=submit value=Vote>&nbsp;&nbsp;<input type=submit name=view value=View></center>
-</td></tr>
-<tr><td bgcolor=#FFFFFF colspan=2 align=right><font face="Arial" size=-2 color="#000000"><a href=http://www.pollhost.com/><font color=#000099>Free polls from Pollhost.com</font></a></td></tr>
-</table></form>
-<!-- // End Pollhost.com Poll Code // -->
+
+<table border="0" bgcolor="#EEEEEE" cellspacing="0" cellpadding="3">
+	<tr>
+		<td colspan="2"><b>Which design do you prefer for the new ScummVM website?</b></td>
+		<td colspan="1">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="2">&nbsp;</td>
+		<td valign="bottom" align="center">
+			<b>Votes</b></td>
+	</tr>
+	<tr>
+		<td align="right">
+			I just love arturom!</td>
+		<td align="left">
+			<small><img src="http://www.pollhost.com/images/Redbar.gif" height="12" width="36">&nbsp;12%</small></td>
+		<td align="right">
+			165</td>
+	</tr>
+	<tr>
+		<td align="right">
+			Oh, draven is *sooo* cool!</td>
+		<td align="left">
+			<small><img src="http://www.pollhost.com/images/Orangebar.gif" height="12" width="166">&nbsp;55%</small></td>
+		<td align="right">
+			769</td>
+	</tr>
+	<tr>
+		<td align="right">
+			The one and only choice is ... jeanm!</td>
+		<td align="left">
+			<small><img src="http://www.pollhost.com/images/Yellowbar.gif" height="12" width="65">&nbsp;21%</small></td>
+		<td align="right">
+			299</td>
+	</tr>
+	<tr>
+		<td align="right">
+			The old website is kinda cute... so ... green... and purple...</td>
+		<td align="left">
+			<small><img src="http://www.pollhost.com/images/Greenbar.gif" height="12" width="37">&nbsp;12%</small></td>
+		<td align="right">
+			166</td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="3" align="right">
+			<b>1,399 votes total</b></td>
+	</tr>
+</table>
+
+
 </td></tr>
 	</table>
 </center>
 
-
-	<p>For technical reasons, the actual poll is hosted at an
-	external location. And somewhat annoyingly, it's ad-driven.
-	
-	<p>
-	One final note: We do not promise anything regarding the outcome of the poll. In particular, we don't guarantee that 
-	we'll go along with the user choice made by that poll (for example, if we have reasons to believe that the
-	poll was tampered; or if a funny looking cloud makes us believe another choice to be obviously far superior to
-	all the others).
-	</p>
 
 <?
 
