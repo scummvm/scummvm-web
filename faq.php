@@ -86,7 +86,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	VM stands for VIRTUAL MACHINE.</p></li>
 
       <li><p><a name="1-2"></a><b>What is SCUMM?</b><br>
-	SCUMM stands for "Script Creation Utility for Maniac Mansion". It is an utility used
+	SCUMM stands for "Script Creation Utility for Maniac Mansion". It is a utility used
 	to create the famous LucasArts adventure games.<br>
 	It was initially created in 1987 by Aric Wilmunder and Ron Gilbert for the game
 	"Maniac Manson" and was used later, with some modifications, for Zak McKracken and
@@ -111,7 +111,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
       <li><p><a name="1-5"></a><b>Will ScummVM support other games?</b><br>
 	The ScummVM team is working to make newer SCUMM games, such as "Full Throttle", playable.<br>
 	We are also working to correct make the currently supported games more accurate.<br>
-	However we are <i>NOT</i> goint to add support for non-SCUMM games!</p></li>
+	However we are <i>NOT</i> going to add support for non-SCUMM games!</p></li>
 
       <li><p><a name="1-6"></a><b>Where do I find ScummVM?</b><br>
 	You can find it on the page on SourceForge:
@@ -128,14 +128,14 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	It's currently in alpha status. See also 1.6 to learn where to find the latest version.</p></li>
 
       <li><p><a name="1-9"></a><b>On what platform does ScummVM run?</b><br>
-	ScummVM should be able to be compiled on any SDL platform, just with small modifications.<br>
+	ScummVM should be able to be compiled on any SDL platform, with just small modifications.<br>
 	Currently tested platforms are Win32 (Windows 9x/ME/NT/2000), Linux i386 and PPC, BeOS, Solaris,
     Mac OS X, Dreamcast, MorphOS, IRIX, and WinCE. It is also part of the FreeBSD ports collection
     and in Debian unstable</p></li>
 
       <li><p><a name="1-10"></a><b>Does ScummVM run any non-SCUMM games?</b><br>
-        Yes. Currently the only non-SCUMM game supported is Simon The Sorcerer. This game was added because it was very
-	similar to SCUMM. We don't have any plans to support any other non-SCUMM games at this time. If we do, it will
+        Yes. Currently the only non-SCUMM games supported are Simon The Sorcererand Beneath a Steel Sky. These games were added either because they were very
+	similar to SCUMM (Simon) or we had the source code to them (BASS). We don't have any plans to support any other non-SCUMM games at this time. If we do, it will
 	be added to the <a href="compatibility.php">Compatibility List</a>.</p></li>
 	
     </ol>
