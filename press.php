@@ -30,10 +30,18 @@ echo html_round_frame_start("Press Coverage","");
 	   ><b>Adventure games on PDAs</b></a> (French), PDA Magazine issue 9, Mars/April 2004
 	</p>
 
+	<p><a href="http://www.justadventure.com/articles/PortableGaming/PortableGaming.shtm"
+	  ><b>Adventure Gaming on the Go</b></a> Just Adventure, February 26, 2004
+	</p>
+
 	<p><a href="http://www.newsforge.com/article.pl?sid=03/10/07/1527227&amp;mode=thread&amp;tid=22"
 	   ><b>Bringing old adventure games back to life</b></a>, NewsForge, October 8, 2003
 	</p>
 
+	<p><a href="http://www.totalamiga.org/issue16.html"
+	  ><b>ScummVM review</b></a> Total Amiga Magazine 16, October 6, 2003
+	</p>
+	   
 	<p><a href="http://www.aventurepc.com/dossiers/scummvm1.html"
 	   ><b>Dossier ScummVM - première partie</b></a> (French), Aventure PC, October 1, 2003
 	</p>
