@@ -110,10 +110,8 @@ $games = array(
 
 $notes = array(
 "maniac"	=> "No known issues, game is completable.".
-		   "<br>- Minor graphical glitches with actors in classic version".
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target",
 "zak"		=> "No known issues, game is completable.".
-		   "<br>- Minor graphical glitches with actors in classic version".
 		   "<br>- Amiga, Atari ST and PC versions supported by this target",
 "indy3ega"	=> "Game is completable".
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
