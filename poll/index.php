@@ -32,7 +32,7 @@ echo html_round_frame_start("Website Revamp contest poll","");
 	<td align="center"><a href="jeanm.png" target="_blank"><img src="jeanm-thumb.png" height="120" width="120" alt="jeanm"><br>jeanm</a></td>
 	</tr>
 	
-<tr coslpan=3><td>
+<tr><td coslpan="3" align="center">
 <!-- // Begin Pollhost.com Poll Code // -->
 <form method=post action=http://poll.pollhost.com/vote.cgi>
 <table border=0 width=150 bgcolor=#EEEEEE cellspacing=0 cellpadding=2>
