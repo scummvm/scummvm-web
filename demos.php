@@ -23,11 +23,10 @@ echo html_round_frame_start("Game Demos","");
 	<h1>Game Demos</h1>
 	<p>
 	  This page lists some links to demos of various games, that in general don't work as well as the
-	  full versions. Full Throttle, The Dig, and the Curse of Monkey Island in particular.<br><br>
+	  full versions.<br><br>
 	  Do not file bug reports against these demos as they aren't supported games.<br><br>
-	  Please contact us if you have a copy of a demo not listed here, Beneath A Steel Sky demos and 
-	  the Broken Sword 1 demo aren't going to be supported for technical reasons and newer Humongous 
-	  Entertainment titles aren't yet being listed<br><br>
+	  Please contact us if you have a copy of a demo not listed here, Beneath A Steel Sky demos aren't 
+	  going to be supported for technical reasons.<br><br>
 	  Demos without functional download links are denoted by a * character.<br>
           <br><br>
 	</p>
@@ -137,6 +136,8 @@ $HE_demos = array(
 	);
 
 $MISC_demos = array(
+	'Broken Sword I'
+		=> array('http://www.gamershell.com/download_4731.shtml', 'sword1demo'),
 	'Broken Sword II'
 		=> array('http://ftp.se.kde.org/pub/pc/games/pcgameworld/demos/bs2-demo.zip', 'sword2demo'),
 	'Flight of the Amazon Queen (Datafile only)'
