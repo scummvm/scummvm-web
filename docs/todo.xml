@@ -39,11 +39,8 @@
 		<h2>Upcoming milestones</h2>
 		<p>Note that the following list is in no way set to stone and can be modified in the future.</p>
 		<ul>
-		<li> 0.2.4: New GUI used instead of old GUI</li>
-		<li> 0.2.6: Launcher dialog implemented</li>
-		<li> 0.2.8: All supported games next to bug free</li>
-		<li> 0.3.0: New save game system</li>
-		<li> 0.4.0: The Dig fully supported</li>
+		<li> 0.3.0: All supported games next to bug free; new GUI used instead of old GUI; launcher dialog implemented; The Dig fully supported</li>
+		<li> 0.4.0: New save game system</li>
 		<li> 0.4.5: Indiana Jones and The Last Crusade supported, more bugfixes</li>
 		<li> 0.5.0: Full Throttle supported, basic CMI and Maniac Mansion support</li>
 		<li> 0.6.0: More work on CMI, MM and further bugfixes</li>
