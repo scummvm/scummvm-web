@@ -113,10 +113,10 @@ $games = array(
 
 $notes = array(
 "maniac"	=> "No known issues, game is completable.".
-		   "<br>- Minor graphical glitches with actors in classic verison".
+		   "<br>- Minor graphical glitches with actors in classic version".
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target",
 "zak"		=> "No known issues, game is completable.".
-		   "<br>- Minor graphical glitches with actors in classic verison".
+		   "<br>- Minor graphical glitches with actors in classic version".
 		   "<br>- Amiga, Atari ST and PC versions supported by this target",
 "indy3ega"	=> "Game is completable".
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
@@ -176,7 +176,7 @@ $notes = array(
 "puttmoon"	=> "Fails an AKOS related assertion shortly after starting".
 		   "<br>- scummvm: scumm/akos.cpp:267: virtual byte AkosRenderer::drawLimb(const CostumeData&, int): Assertion `(code & 0xFFF) * 6 < READ_BE_UINT32((byte *)akof - 4) - 8' failed.",
 "moondemo"	=> "Completable if you don't trigger one fatal animation".
-		   "<br>- Creature behind garage door dissappears",
+		   "<br>- Creature behind garage door disappears",
 "funpack"	=> "Starts but mini games seem to have various problems".
 		   "<br>- Checkers: The checkers have some graphical glitches (actorOps case 218)".
 		   "<br>- Cheese King: Triggers an assertion".
