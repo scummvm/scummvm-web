@@ -25,6 +25,15 @@ function portStatus($ports) {
 	printStatus($ports["Palm"]);
 	printStatus($ports["DC"]);
 }
+
+function bugs($buglist) {
+	echo "<td>";
+	foreach ($buglist as $bug) {
+		echo "<a href="http://sourceforge.net/tracker/index.php?func=detail&aid=$bug&group_id=37116&atid=418820>$bug</a> ";
+	}
+	echo "</td>";
+}
+
 ?>
 
 	<h1>0.7.0 Checklist</h1>
@@ -80,64 +89,145 @@ function portStatus($ports) {
 </tr>
 
 <tr><th colspan="9">SCUMM Engine</th></tr>
-<tr><td>Maniac (V1)</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>Zak (V1)</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>Maniac (V2)</td><td>martingu 8/12</td><td>...</td>
-	<?php portStatus(array("Win32" => 1, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>Zak (V2)</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>Zak FM-TOWNS</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>Indy3 (EGA)</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>Indy3 (VGA)</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>Loom (EGA)</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>Loom (CD)</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>Monkey (EGA)</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>Monkey (VGA)</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>Atlantis</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>Monkey 2</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>Tentacle</td><td>khalek 6/12</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => +1)); ?></tr>
-<tr><td>Samnmax</td><td>zpeidar 9/12</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 1, "OpenBSD" => 0)); ?></tr>
-<tr><td>Full Throttle</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>The Dig</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>CoMI</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>Maniac (V1)</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>Zak (V1)</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>Maniac (V2)</td>
+	<td>martingu 8/12</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 1, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>Zak (V2)</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>Zak FM-TOWNS</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>Indy3 (EGA)</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>Indy3 (VGA)</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>Loom (EGA)</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>Loom (CD)</td>
+	<td>khalek 10/12</td>
+	<? bugs(array(1082838));
+	 portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => -1)); ?></tr>
+<tr><td>Monkey (EGA)</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>Monkey (VGA)</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>Atlantis</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>Monkey 2</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>Tentacle</td>
+	<td>khalek 6/12</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => +1)); ?></tr>
+<tr><td>Samnmax</td>
+	<td>zpeidar 9/12</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 1, "OpenBSD" => 0)); ?></tr>
+<tr><td>Full Throttle</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>The Dig</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>CoMI</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 
 <tr><th colspan="9">Simon Engine</th></tr>
-<tr><td>Simon1 (talkie)</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>Simon2 (talkie)</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>Simon1 (floppy)</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>Simon2 (floppy)</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>Simon1 (talkie)</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>Simon2 (talkie)</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>Simon1 (floppy)</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>Simon2 (floppy)</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 
 <tr><th colspan="9">Other Engines</th></tr>
-<tr><td>Sky (Floppy)</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>Sky (CD)</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>Broken Sword 1</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>Broken Sword 2</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>FOTAQ</td><td>cyx 3/12</td><td>...</td>
-	<?php portStatus(array("Win32" => +1, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>Sky (Floppy)</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>Sky (CD)</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>Broken Sword 1</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>Broken Sword 2</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>FOTAQ</td>
+	<td>cyx 3/12</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => +1, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 
 </table>
 </body>
