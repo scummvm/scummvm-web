@@ -13,17 +13,30 @@
 			padding-bottom: 10px;
 		}
 	</style>
+<center><b>Status: Part 1/2 fully playable, part 3 playable with graphical glitches if ship-to-ship combat is cheated past</b></center>
 <ul>
 <li>Generic:
+	<ul>
+		<li>AKOS crash leaving the crash site on Blood Island (scummvm -d0 -b600)
+		<li>Lack of actorHit opcode makes entering swordfighting during ship-to-ship oombat impossible without using shift-v cheat
+		<li>Cannot fire cannons in ship-to-ship combat
+	</ul>
 <li>Sound:
 	<ul>
 		<li>No SMUSH Audio: aquadran is working on this one
 		<li>Voices 'pop'
-		<li>Occasional crashes from 'sound que buffer overflow'
+		<li>Occasional crashes from 'sound que buffer overflow' (hard to reproduce)
+		<li>Lack of imGetMusicPosition kernel function breaks song sync in Part 3 intro
 	</ul>
 <li>Graphics:
 	<ul>
 		<li>Some text does not undraw correctly, again leaving behind artifacts
+		<li>Masking artifacts. See many animations, eg during insult sword fighting
+	</ul>
+<li>Conversation:
+	<ul>
+		<li>Verbs do not redraw correctly on scrolling, specifically during Insult Sword Fighting (Part 3). Makes it hard to
+complete without much squinting
 	</ul>
 <li>Inventory:
 	<ul>
@@ -33,11 +46,11 @@ item will actually return the second-last item
 <li>Actor:
 	<ul>
 		<li>The CHORE opcode still seems to be returning dodgy results
-		<li>setActorChoreLimbFrame isn't quite correct, eg Wallys animation after throwing the hook will show a few phantom 
+		<li>setActorChoreLimbFrame isn't quite correct, eg Wallys animation after throwing the hook will show a few phantom
 frames of his 'throw hook' and 'standing at cannon' animation
-		<li>Lack of MouthSync stuff causes odd actor speech animations
-		<li>Lack of MusicMouthSync will stop entry into Part 3 (hang during song sequence)
-		<li>Actor occasionally gets stuck (e.g. after taking Wally's fake hook)
+		<li>Lack of MouthSync and MuaicMouthSync stuff causes odd actor speech animations
+		<li>Actor 1 (Guybrush) occasionally gets stuck (e.g. after taking Wally's fake hook). Can work-around with console
+command "actor 1 ignoreboxes 1"
 	</ul>
 </ul>
 
