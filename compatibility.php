@@ -112,13 +112,13 @@ $notes = array(
 		   "<br>Classic version should be completable, with several glitches".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions are supported by this target".
 		   "<br>- Actor masking is broken in Classic PC version".
-		   "<br>- No flashlight and various graphic glitches in Classic PC version".
+		   "<br>- Various graphical glitches in Classic PC version".
 		   "<br>- No music or sound effects with Amiga version",
 "zak"		=> "Enhanced PC version is completable, with several minor glitches".
 		   "<br>Classic version still in progress, results may vary".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
 		   "<br>- Actor masking is broken in Classic PC version".
-		   "<br>- No flashlight and various graphic glitches in Classic PC version".
+		   "<br>- Various graphical glitches in Classic PC version".
 		   "<br>- No music or sound effects with Amiga version",
 "indy3ega"	=> "Game is completable".
 		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
