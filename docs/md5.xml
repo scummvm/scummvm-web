@@ -20,17 +20,10 @@ function addEntry($variant, $platform, $language, $md5, $target = "???", $source
 	<p>All the MD5 checksums listed below are computed for the canonic "first" file of each game.
 	This is usually a file like "00.lfl", "000.lfl", "*.000", "*.la0", "*.he0" etc.
 	</p>
-
-	<p>Note: this table is very very incomplete. For example, most games shipped
-	in different languages. This table for now mostly contains english and german
-	variants (and in some cases, the english variant is actually missing :-)).
-	</p>
-	
-	<p>Furthermore, many platform variants are missing.</p>
 	
 	<p>If you have data files not listed here, or if the MD5 of your data files
-	differs from the values listed here, please drop me a note so I can update
-	the table. Email me at <em>fingolfin AT scummvm DOT org</em>.</p>
+	differs from the values listed here, please drop us a note so we can update
+	the table. Email us at <em>scummvm-devel AT lists DOT sourceforge DOT net</em>.</p>
 
 </blockquote>
 
