@@ -85,65 +85,18 @@ echo html_round_frame_start("Contact","98%","",20);
       <tr><td colspan=3>&nbsp;</td></tr>
       <tr><td colspan=3><b>Contributors:</b><? echo html_line(); ?></td></tr>
 
-      <tr>
-	    <td>Claudio Matsuoka</td>
-	    <td></td>
-	    <td>- Daily Linux/BeOS builds (<a href="http://scummvm.sf.net/daily/">http://scummvm.sf.net/daily/</a>)</td>
-	  </tr>
-
-      <tr>
-	    <td>Janne Huttunen</td>
-	    <td></td>
-	    <td>- V3 actor mask support, Dig/FT SMUSH audio</td>
-	  </tr>
-
-      <tr>
-	    <td>Jeroen Janssen</td>
-	    <td></td>
-	    <td>- Numerous readability and bugfix patches</td>
-	  </tr>
-
-      <tr>
-	    <td>Gregory Montoir </td>
-	    <td></td>
-	    <td>- AdvanceMAME Scale-2X implementation</td>
-	  </tr>
-
-      <tr>
-	    <td>Mikesch Nepomuk</td>
-	    <td></td>
-	    <td>- MI1 VGA Floppy patches</td>
-	  </tr>
-
-      <tr>
-	    <td>Edward Rudd</td>
-	    <td></td>
-	    <td>- Fixes for playing MP3 versions of MI1/Loom Audio</td>
-	  </tr>
-
-      <tr>
-	    <td>Daniel Schepler</td>
-	    <td></td>
-	    <td>- Final MI1 CD music support</td>
-	  </tr>
-
-      <tr>
-	    <td>Tim ???</td>
-	    <td>[ realmz ]</td>
-	    <td>- Initial MI1 CD music support</td>
-	  </tr>
-
-      <tr>
-	    <td>Andr&eacute; Souza </td>
-	    <td></td>
-	    <td>- SDL-based OpenGL renderer</td>
-	  </tr>
-
-      <tr>
-	    <td>Kov&aacute;cs Endre J&aacute;nos</td>
-	    <td></td>
-	    <td>- Several fixes for Simon1</td>
-	  </tr>
+	  <?php
+	  add_person("Kov&aacute;cs Endre J&aacute;nos", "", "Several fixes for Simon1");
+	  add_person("Janne Huttunen", "", "V3 actor mask support, Dig/FT SMUSH audio");
+	  add_person("Jeroen Janssen", "", "Numerous readability and bugfix patches");
+	  add_person("Claudio Matsuoka", "", 'Daily Linux/BeOS builds (<a href="http://scummvm.sf.net/daily/">http://scummvm.sf.net/daily/</a>)');
+	  add_person("Gregory Montoir", "", "AdvanceMAME Scale-2X implementation");
+	  add_person("Mikesch Nepomuk", "", "MI1 VGA Floppy patches");
+	  add_person("Edward Rudd", "", "Fixes for playing MP3 versions of MI1/Loom Audio");
+	  add_person("Daniel Schepler", "", "Final MI1 CD music support");
+	  add_person("Andr&eacute; Souza", "", "SDL-based OpenGL renderer");
+	  add_person("Tim ???", "realmz", "Initial MI1 CD music support");
+	  ?>
 
       <tr><td colspan=3>&nbsp;</td></tr>
       <tr><td colspan=3>And to all the contributors, users, and beta testers we've missed. Thanks!</td></tr>
