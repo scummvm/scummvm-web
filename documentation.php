@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
  * Documentation Page for ScummVM
@@ -51,6 +51,16 @@ else
                                  )
                           );
     } // end of docs loop
+
+
+	// Hard code link to specs for now...
+	echo html_frame_tr(
+				html_frame_td(
+							  html_ahref("The inComplete SCUMM Reference Guide",$file_root."/docs/specs/index.php").html_br().
+							  "being a Partially Complete and Mostly Accurate guide to the SCUMM Engine data file Format
+							   for Versions Five and Six (and above)".html_br(2)."\n"
+							 )
+					  );
     
     // outro
     echo html_frame_tr(
