@@ -11,6 +11,7 @@
 		<?php addEntry("V2", "DOS", "fr", "114acdc2659a273c220f86ee9edb24c1", "maniac", "Nicolas Sauz&egrave;de"); ?>
 		<?php addEntry("V2 (DOTT)", "DOS", "fr", "99a3699f80b8f776efae592b44b9b991", "maniac", "Nicolas Sauz&egrave;de, Andrea Petrucci"); ?>
 		<?php addEntry("V2", "Amiga", "en", "e781230da44a44e2f0770edb2b3b3633", "maniac", "dhewg, Andrea Petrucci"); ?>
+		<?php addEntry("V2", "Amiga", "de", "9bc548e179cdb0767009401c094d0895", "maniac", "Norbert Lange"); ?>
 		<?php addEntry("V2", "Atari", "en", "a570381b028972d891052ee1e51dc011", "maniac", "Andreas Bylund"); ?>
 		<?php addEntry("V2", "Atari", "fr", "dd30a53035393baa5a5e222e716559af", "maniac", "Andreas Bylund"); ?>
 	<tr><td colspan='7'><strong>Zak McKracken and the Alien Mindbenders</strong></td></tr>
@@ -25,6 +26,7 @@
 		<?php addEntry("V2", "DOS", "it", "75ba23fff4fd63fa446c02864f2a5a4b", "zak", "Antti Leimi, Andrea Petrucci"); ?>
 		<?php addEntry("V2 (alt?)", "DOS", "it", "1900e501a52fbf55bde6e4196f6d2aa6", "zak", "Andrea Petrucci"); ?>
 		<?php addEntry("V2", "Amiga", "en", "e94c7cc3686fce406d3c91b5eae5a72d", "zak", "dhweg"); ?>
+		<?php addEntry("V2", "Amiga", "de", "6027e9ca9c35746d95dee2068cec17e5", "zak", "Norbert Lange"); ?>
 		<?php addEntry("V2", "Amiga", "it", "27b3a4224ad63d5b04627595c1c1a025", "zak", "Andrea Petrucci"); ?>
 		<?php addEntry("V2", "Atari", "fr", "613f64f78ea26c7353b2a5940eb61d6a", "zak", "Andreas Bylund"); ?>
 		<?php addEntry("FM-TOWNS", "FM-TOWNS", "en", "2d4536a56e01da4b02eb021e7770afa2", "zakTowns"); ?>
@@ -64,6 +66,7 @@
 		<?php addEntry("Floppy", "DOS", "es", "2a208ffbcd0e83e86f4356e6f64aa6e1", "loom", "abnog, Andrea Petrucci"); ?>
 		<?php addEntry("Floppy", "DOS", "hb", "187d315f6b5168f68680dfe8c3d76a3e", "loom"); ?>
 		<?php addEntry("Floppy", "Amiga", "en", "4dc780f1bc587a193ce8a97652791438", "loom", "Antti Leimi, Andrea Petrucci"); ?>
+		<?php addEntry("Floppy", "Amiga", "de", "2fe369ad70f52a8cf7ad6077ee64f81a", "loom", "Norbert Lange"); ?>
 		<?php addEntry("Floppy (same as IT?!?)", "Amiga", "fr", "39cb9dec16fa16f38d79acd80effb059", "loom", "Gerald Vincent"); ?>
 		<?php addEntry("Floppy (same as FR?!?)", "Amiga", "it", "39cb9dec16fa16f38d79acd80effb059", "loom", "Andrea Petrucci"); ?>
 		<?php addEntry("Floppy", "Atari", "de", "c24c490373aeb48fbd54caa8e7ae376d", "loom", "Andreas Bylund"); ?>
@@ -110,7 +113,7 @@
 		<?php addEntry("indy/zak non-interactive", "FM-TOWNS", "en", "3938ee1aa4433fca9d9308c9891172b1", "zakTowns", "khalek"); ?>
 	<tr><td colspan='7'><strong>Monkey Island 2: LeChuck's revenge</strong></td></tr>
 		<?php addEntry("-", "Amiga", "en", "132bff65e6367c09cc69318ce1b59333", "monkey2"); ?>
-		<?php addEntry("-", "Amiga", "de", "da669b20271b85182e9c17a2a37ea02e", "monkey2", "Andreas Bylund"); ?>
+		<?php addEntry("-", "Amiga", "de", "da669b20271b85182e9c17a2a37ea02e", "monkey2", "Andreas Bylund, Norbert Lange"); ?>
 		<?php addEntry("-", "Amiga", "es", "6ea966b4d660c870b9ee790d1fbfc535", "monkey2", "Andreas Bylund"); ?>
 		<?php addEntry("-", "Amiga", "fr", "c30ef068add4277104243c31ce46c12b", "monkey2", "Andreas Bylund"); ?>
 		<?php addEntry("-", "Amiga", "it", "11ddf1fde76e3156eb3a38da213f484e", "monkey2", "Andrea Petrucci"); ?>
