@@ -1,3 +1,4 @@
+<!-- BEGIN OF HEADER -->
 <?
 $file_root = "../../..";
 
@@ -9,3 +10,4 @@ html_header("ScummVM Documentation", '<LINK HREF="doxygen.css" REL="stylesheet" 
 sidebar_start();
 echo html_round_frame_start("$title","98%","",20);
 ?>
+<!-- END OF HEADER -->
