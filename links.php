@@ -86,18 +86,26 @@ it will know..
 	    </blockquote></td>
 	  </tr>
 
+	  <tr><td><a href="http://xu4.sourceforge.net/"><b>XU4 :: Ultima IV</b></a></td></tr>
+	  <tr>
+	    <td><blockquote>
+	    XU4 is the recreation of Ultima IV - Quest of the Avatar.
+	    </blockquote></td>
+	  </tr>
+
+	  <tr><td><a href="http://nuvie.sourceforge.net/"><b>Nuvie :: Ultima VI</b></a></td></tr>
+	  <tr>
+	    <td><blockquote>
+	    Nuvie, pronounced 'New-Vee' is an open sourced game engine for playing Origin's games
+	    Ultima 6, Martian Dreams and Savage Empire on modern operating systems.
+	    </blockquote></td>
+	  </tr>
+
 	  <tr><td><a href="http://exult.sourceforge.net/"><b>Exult :: Ultima VII</b></a></td></tr>
 	  <tr>
 	    <td><blockquote>
 	    Exult is the recreation of the Ultima VII engine used in <i>The Black Gate</i>
 	    and <i>The Serpent Isle</i>.
-	    </blockquote></td>
-	  </tr>
-
-	  <tr><td><a href="http://xu4.sourceforge.net/"><b>XU4 :: Ultima IV</b></a></td></tr>
-	  <tr>
-	    <td><blockquote>
-	    XU4 is the recreation of Ultima IV - Quest of the Avatar.
 	    </blockquote></td>
 	  </tr>
 
