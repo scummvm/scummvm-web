@@ -1,0 +1,118 @@
+<NAME>ScummVM code formatting conventions</NAME>
+<DESC>This page describes the coding style we use in ScummVM.</DESC>
+<BODY>
+		<style>
+			ul {
+				padding-bottom: 10px;
+			}
+			h2 {
+				margin-bottom: 0px;
+			}
+			h3 {
+				margin-bottom: 0px;
+			}
+		</style>
+
+		<h1>ScummVM code formatting conventions</h1>
+		
+		<h2>1. Use common sense</h2>
+		These here conventions are only highlighting a few things that are so unimportant that it becomes an issue of aesthetics, not common sense.
+		
+		<h2>2. Hugging braces</h2>
+		<pre>
+		if (int i = 0; i < t; i++) {
+			[...]
+		} else {
+			[...]
+		}
+		
+		class Dummy() {
+			[...]
+		}
+		</pre>
+		
+		Did you see the {}'s on that baby?
+		
+		<h2>3. Two-space tab indents</h2>
+		Says it all, really.
+		
+		<h2>4. Whitespaces</h2>
+
+		<ol style="list-style: none;">
+			<li><h3>Conventional operators surrounded by a space character</h3>
+				<pre>
+	a = (b + c) * d;
+				</pre>
+		
+			<li><h3>C++ reserved words followed by a white space</h3>
+				<pre>
+	while (true) {
+				</pre>
+			
+			<li><h3>Commas followed by a white space</h3>
+				<pre>
+	someFunction(a, b, c);
+	int d, e;
+				</pre>
+		
+			<li><h3>Semicolons followed by a space character, if there is more on line</h3>
+				<pre>
+	for (int a = 0; b++; c < d)
+	doSomething(e); doSomething(f);	// This is probably bad style anyway
+				</pre>
+			
+			<li><h3>When declaring class inheritance and in a ? construct, colons should be surrounded by white space</h3>
+				<pre>
+	class BusWheel : public RubberInflatable {
+	(isNight) ? colorMeDark() : colorMeBright();
+				</pre>
+		</ol>
+
+		<h2>5. Switch / Case constructs</h2>
+		<pre>
+	switch (cmd) {
+	case kSaveCmd:
+		Save();
+		break;
+	case kLoadCmd:
+	case kPlayCmd:
+		Close();
+		break;
+	default:
+		Dialog::handleCommand(sender, cmd, data);
+	}
+		</pre>
+
+
+		<h2>6. Naming</h2>
+		<ol style="list-style: none;">
+			<li><h3>Constants</h3><br>
+			Basically, you have to choices:
+			<pre>
+	kSomeKludgyConstantName		// notice k prefix
+			</pre>
+			or
+			<pre>
+	SOME_KLUDGY_CONSTANT_NAME
+			</pre>
+			
+			<li><h3>Classes</h3><br>
+			Mixed case starting with upper case
+			<pre>
+	class MeClass() {
+			</pre>
+			
+			<li><h3>Class members</h3><br>
+			_ prefixed and in mixed case (Yo! no underscore seperators), starting with lowercase.
+			<pre>
+	char *_someVariableName;
+			</pre>
+
+			<li><h3>Class methods</h3><br>
+			mixed case, starting with lowercase.
+			<pre>
+	void thisIsMyFancyMethod();
+			</pre>
+		</ol>
+		
+</BODY>
