@@ -84,8 +84,8 @@ $LEC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/digdemo.zip', 'digdemo'),
 	'The Curse of Monkey Island (Windows demo)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/cursedemo.exe', 'comidemo'),
-	'The Curse of Monkey Island (Windows demo with movies)*'
-		=> array('http://files.mixnmojo.com/m3demo.zip', 'comidemo')
+	'The Curse of Monkey Island (Windows demo with movies)'
+		=> array('http://quick.mixnmojo.com/demos/CMIFullDemoFiles.zip', 'comidemo')
 	);
 
 $HE_demos = array(
