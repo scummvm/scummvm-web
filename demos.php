@@ -42,12 +42,20 @@ $demos = array(
 		=> array('http://files.mixnmojo.com/loomdemo.zip', 'loom'),
 	'Passport to Adventure (playable 16 colour demos of mi, loom, indy3)'
 		=> array('http://files.mixnmojo.com/pass.zip', 'pass'),
+	'Indy3 & Loom (non interactive FM Towns demo'
+		=> array('http://files.mixnmojo.com/indyloom.zip', 'zak256'),
+	'Indy3 & Zak256 (non interactive FM Towns demo'
+		=>array('http://files.mixnmojo.com/indyzak.zip', 'zak256'),
+	'Zak256 & Loom (non interactive Fm Towns demo'
+		=>array('http://files.mixnmojo.com/zakloom.zip', 'zak256'),
 	'Monkey Island 2 (non interactive demo)'
 		=> array('http://www.lucasfiles.com/pafiledb.php?action=file&id=31', 'mi2demo'),
 	'Indiana Jones and the Fate of Atlantis (playable)'
 		=> array('http://files.mixnmojo.com/playfate.zip', 'playfate'),
 	'Indiana Jones and the Fate of Atlantis (non interactive)'
 		=> array('http://files.mixnmojo.com/fate.zip', 'fate'),
+	'Indiana Jones and the Fate of Atlantis (non interactive FM Towns)'
+		=> array('http://files.mixnmojo.com/indy4demo.zip', 'indydemo'),
 	'Sam and Max Hit the Road (non interacive)'
 		=> array('http://www.lucasfiles.com/pafiledb.php?action=file&id=29', 'samdemo'),
 	'Sam and Max Hit the Road (interacive)'
