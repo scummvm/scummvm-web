@@ -23,8 +23,7 @@
 	</ul>
 <li>Sound:
 	<ul>
-		<li>No SMUSH Audio: aquadran is working on this one
-		<li>Voices 'pop'
+		<li>Voices 'pop', and music decompressor uses too much CPU for smooth music playback
 		<li>Occasional crashes from 'sound que buffer overflow' (hard to reproduce)
 		<li>Lack of imGetMusicPosition kernel function breaks song sync in Part 3 intro
 		<li>Failed assertion when using shift w to win. 
