@@ -197,7 +197,7 @@ $notes = array(
 "tentacle"	=> "No known problems - should be playable to the end".
 		   "<br>- Both Mac and PC versions supported by this target".
 		   "<br>- Both disk and cd versions are supported by this target".
-		   "<br>- Maniac Mansion isn't playable on Ed's computer",
+		   "<br>- Maniac Mansion isn't playable on Ed's computer. To play the included copy, use 'Add Game' from the main ScummVM launcher and select the MANIAC directory inside the DOTT game directory",
 "dottdemo"	=> "No known problems - should be playable to the end",
 "samnmax"	=> "No major problems - should be playable to the end".
 		   "<br>- Both Mac and PC versions supported by this target".
