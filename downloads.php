@@ -43,7 +43,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 	</p>
 	<p>
 	  You can get the latest development source and binaries for Linux/Intel from the
-	  <a href="http://scummvm.sourceforge.net/daily/">CVS Daily Snapshot</a> page.
+	  <a href="http://www.scummvm.org/daily/">CVS Daily Snapshot</a> page.
 	</p>
 	<p>
 	  Additional daily builds:

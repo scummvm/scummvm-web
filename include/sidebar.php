@@ -51,7 +51,7 @@ function sidebar_start ($specs_mode = false)
 	$g->add("Forums", "http://sourceforge.net/forum/?group_id=37116");
 	$g->add("Bug Tracking", "http://sourceforge.net/tracker/?group_id=37116&amp;atid=418820");
 	$g->add("Daily Snapshots", "/daily/");
-	$g->add("CVS Tree", "http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/");
+	$g->add("CVS Tree", "http://cvs.sourceforge.net/viewcvs.py/scummvm/scummvm/");
 
 	$g->done();      
 
@@ -76,7 +76,7 @@ function sidebar_start ($specs_mode = false)
 	</div></form>	
 	
 	<p style="text-align: center">
-	  <a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=37116"
+	  <a href="http://sourceforge.net/"><img src="http://sourceforge.net/sflogo.php?group_id=37116"
 	  width="88" height="31" alt="SourceForge"></a>
 	</p>
 
