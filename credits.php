@@ -51,6 +51,7 @@ echo html_round_frame_start("Credits","");
 	  add_person("Pawel Kolodziejski", "aquadran", "Engine: SCUMM (Codecs, iMUSE, Smush, etc.)");
 	  add_person("Gregory Montoir", "cyx", "Engine: Flight of the Amazon Queen");
 	  add_person("Joost Peters", "joostp", "Engine: Beneath a Steel Sky, Flight of the Amazon Queen");
+	  add_person("Eugene Sandulenko", "_sev", "Engine: SCUMM (FT INSANE, bugfixes)");
 	  add_person("Chris Apers ", "chrilith ", "Port: PalmOS");
 	  add_person("Nicolas Bacca", "arisme", "Port: PocketPC/WinCE");
 	  add_person("Marcus Comstedt", "", "Port: DreamCast");
