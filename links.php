@@ -130,8 +130,8 @@ echo html_round_frame_start("Links","98%","",20);
 
 	<!-- -->
 
-	<b>Classic gaming news and help sites</b><? echo html_line(); ?>
-	<p>The following are links to sides that provide news and help on retro-gaming and other related news.</p>
+	<b>Other sites of interest</b><? echo html_line(); ?>
+	<p>The following are links to sides that provide news and help on retro-gaming or are otherwise of interest.</p>
 
 	<blockquote>
 	<table border=0 cellpadding=5 cellspacing=0>
@@ -159,6 +159,14 @@ International House of Mojo should be your very first stop.
             DoubleFine is the company of the lovable Tim Schafer, the genius behind some of the best of the worst gags and games in 
 LucasArts history. Go buy Psychonauts, their new game. Because if you don't, their super-intelligent news script will know.. Oh yes, 
 it will know..
+	    </blockquote></td>
+	  </tr>
+	  <tr><td><a href="http://www.revgames.com/"><b>Revolution Software</b></a></td></tr>
+	  <tr>
+	    <td><blockquote>
+	    Revolution Software are the people behind such wonderful titles as Beneath a Steel Sky and
+	    the Broken Sword series of games. Revolution have provided us with the source code to some
+	    of these games so that we can add support for them, thanks guys!
 	    </blockquote></td>
 	  </tr>
 
