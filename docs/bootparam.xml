@@ -135,32 +135,76 @@ Help here is welcome -- if you want, feel free to fill in some of the gaps and
 <br><a name="monkey2"></a>
 <h2>Monkey Island 2: LeChuck's revenge</h2>
 
+<p>Parts of the following table were contributed by Ben Gorman. Thanks, Ben!</p>
+
 <table border="1" cellspacing="0" cellpadding="2">
 <tr><th>Param</th><th>Description</th></tr>
 <tr><td>123</td><td>Men of Low Moral Fiber, laundry claim</td></tr>
 <tr><td>213</td><td>won drinking contest, telescope, mirror, bottle near-grog</td></tr>
+<tr><td>300</td><td>governor phatt</td></tr>
 <tr><td>323</td><td>call box in forest</td></tr>
 <tr><td>332</td><td>booty island overhead, invitation</td></tr>
 <tr><td>333</td><td>booty island overhead, invitation dress</td></tr>
 <tr><td>353</td><td>booty island outhouse</td></tr>
+<tr><td>400</td><td>forest?</td></tr>
 <tr><td>408</td><td>scabb island swamp with crate</td></tr>
 <tr><td>409</td><td>stans with hammer and nails</td></tr>
 <tr><td>415</td><td>costume shop with invitation</td></tr>
 <tr><td>456</td><td>woodtick</td></tr>
+<tr><td>459</td><td>???</td></tr>
 <tr><td>494</td><td>captain dredd's ship, heap of stuff</td></tr>
 <tr><td>495</td><td>woodtick, gold, monacle, shovel</td></tr>
 <tr><td>498</td><td>woodtick hotel, voodoo doll, pins</td></tr>
-<tr><td>300</td><td>governor phatt</td></tr>
-<tr><td>400</td><td>forest?</td></tr>
 <tr><td>500</td><td>hotel with mud</td></tr>
+<tr><td>501</td><td>???</td></tr>
 <tr><td>550</td><td>outside drinking contest house</td></tr>
+<tr><td>596</td><td>???</td></tr>
+<tr><td>598</td><td>The Bloody Lip with banana and library card</td></tr>
 <tr><td>600</td><td>elevator</td></tr>
+<tr><td>619</td><td>???</td></tr>
+<tr><td>666</td><td>Phatt Island arrest</td></tr>
+<tr><td>667</td><td>Phatt Island</td></tr>
+<tr><td>668</td><td>???</td></tr>
+<tr><td>669</td><td>???</td></tr>
+<tr><td>675</td><td>???</td></tr>
+<tr><td>676</td><td>???</td></tr>
+<tr><td>677</td><td>???</td></tr>
+<tr><td>704</td><td>???</td></tr>
+<tr><td>707</td><td>???</td></tr>
+<tr><td>714</td><td>???</td></tr>
+<tr><td>726</td><td>???</td></tr>
 <tr><td>800</td><td>card catalog</td></tr>
+<tr><td>818</td><td>Bloody Lip kitchen</td></tr>
+<tr><td>819</td><td>The Bloody Lip</td></tr>
+<tr><td>820</td><td>Woodtick</td></tr>
 <tr><td>850</td><td>map</td></tr>
+<tr><td>878</td><td>Phatt Island with small key</td></tr>
+<tr><td>887</td><td>???</td></tr>
+<tr><td>888</td><td>???</td></tr>
+<tr><td>890</td><td>Booty Island 6112 pieces o' eight</td></tr>
+<tr><td>897</td><td>???</td></tr>
+<tr><td>898</td><td>Phatt Island with Kate leaflet</td></tr>
+<tr><td>899</td><td>Booty Island 276 pieces o' eight</td></tr>
 <tr><td>900</td><td>scabb island overhead, with crypt key, pirate quotes, ash-2-life</td></tr>
+<tr><td>906</td><td>???</td></tr>
+<tr><td>907</td><td>???</td></tr>
+<tr><td>908</td><td>???</td></tr>
+<tr><td>909</td><td>???</td></tr>
+<tr><td>910</td><td>???</td></tr>
+<tr><td>989</td><td>Booty Island 6112 pieces o' eight and shipwrecks book</td></tr>
+<tr><td>993</td><td>???</td></tr>
+<tr><td>994</td><td>???</td></tr>
+<tr><td>995</td><td>???</td></tr>
+<tr><td>996</td><td>???</td></tr>
+<tr><td>997</td><td>???</td></tr>
+<tr><td>998</td><td>???</td></tr>
+<tr><td>999</td><td>???</td></tr>
 <tr><td>1000</td><td>scabb island outside shack, heaps of stuff</td></tr>
+<tr><td>1001</td><td>???</td></tr>
 <tr><td>1050</td><td>phatt island overhead</td></tr>
 <tr><td>1100</td><td>wally hanging on chains in lechucks dungeon</td></tr>
+<tr><td>1297</td><td>???</td></tr>
+<tr><td>1298</td><td>???</td></tr>
 <tr><td>1300</td><td>scabb island swamp</td></tr>
 <tr><td>1350</td><td>lechuck's fortress docks</td></tr>
 <tr><td>1550</td><td>Men of Low Moral Fiber</td></tr>
@@ -168,6 +212,36 @@ Help here is welcome -- if you want, feel free to fill in some of the gaps and
 <tr><td>1700</td><td>underground tunnels</td></tr>
 <tr><td>1800</td><td>wally at desk</td></tr>
 <tr><td>1850</td><td>cliff side</td></tr>
+<tr><td>1967</td><td>???</td></tr>
+<tr><td>1968</td><td>???</td></tr>
+<tr><td>1974</td><td>Beach with paper</td></tr>
+<tr><td>1976</td><td>???</td></tr>
+<tr><td>1977</td><td>???</td></tr>
+<tr><td>1978</td><td>???</td></tr>
+<tr><td>1984</td><td>Beach cutscene</td></tr>
+<tr><td>1985</td><td>???</td></tr>
+<tr><td>1989</td><td>???</td></tr>
+<tr><td>1990</td><td>Carpenters</td></tr>
+<tr><td>1991</td><td>???</td></tr>
+<tr><td>1992</td><td>???</td></tr>
+<tr><td>1993</td><td>???</td></tr>
+<tr><td>1998</td><td>???</td></tr>
+<tr><td>1999</td><td>???</td></tr>
+<tr><td>2001</td><td>???</td></tr>
+<tr><td>2010</td><td>Woodtick pre-largo intro</td></tr>
+<tr><td>2061</td><td>???</td></tr>
+<tr><td>3383</td><td>???</td></tr>
+<tr><td>4478</td><td>???</td></tr>
+<tr><td>6711</td><td>???</td></tr>
+<tr><td>8811</td><td>???</td></tr>
+<tr><td>9000</td><td>???</td></tr>
+<tr><td>9065</td><td>???</td></tr>
+<tr><td>9066</td><td>???</td></tr>
+<tr><td>9090</td><td>???</td></tr>
+<tr><td>9898</td><td>???</td></tr>
+<tr><td>9999</td><td>???</td></tr>
+<tr><td>10001</td><td>Start game without rolling demo, easy mode</td></tr>
+<tr><td>11111</td><td>Beach</td></tr>
 </table>
 
 <br><a name="comi"></a>
