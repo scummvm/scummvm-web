@@ -156,6 +156,7 @@ $gamesOther = array(
 		'Broken Sword I'			       		=> array('n/a','sword1','98'),
 		'Broken Sword II'			       		=> array('n/a','sword2','98'),
 		'Flight of the Amazon Queen'			       	=> array('n/a','queen','98'),
+		'Inherit the Earth'					=> array('n/a', 'ite', '10'),
 		'Simon The Sorcerer 1 Talkie'       			=> array('n/a','simon1talkie','93'),
 		'Simon The Sorcerer 1 Talkie (Amiga CD32)'     		=> array('n/a','simon1cd32','8'),
  		'Simon The Sorcerer 1 Talkie (Acorn)'			=> array('n/a','simon1acorn','93'),
@@ -365,6 +366,10 @@ $notes = array(
 		   "<br>- Only the PC version has been tested. We don't have any other versions, so we can't make any promises about them.",
 "queen"		=> "No known issues, game is completable.".
 		   "<br>- Some versions may require the <a href=\"http://0x.7fc1.org/fotaq/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases",
+"ite"		=> "Game is not completable.".
+		   "<br>- Puzzle is missing".
+		   "<br>- Converstaions could be performed only with keyboard".
+		   "<br>- Major graphics glitches in ISO mode",
 "simon1talkie" 	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target",
 "simon1cd32" 	=> "Game is completable, with major graphics glitches".
