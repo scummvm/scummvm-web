@@ -7,6 +7,7 @@ ScummVM 0.5.0.
 </p>
 <p>
 The following changes are included in this release:
+</p>
 <UL>
 <LI>Beneath a Steel Sky savegame code completely rewritten, eliminating several
 situations where ScummVM 0.5.0 would produce unusable 'frozen' saved games
@@ -16,7 +17,6 @@ situations where ScummVM 0.5.0 would produce unusable 'frozen' saved games
 <LI>MorphOS port has undergone several critical bugfixes
 <LI>Dreamcast port now supports Simon the Sorcerer 1 and 2
 </UL>
-</p>
 <p>
 We recommend all users upgrade to this release. Please note that whilst BASS
 saves from 0.5.0 are compatible with this release, we recommend restarting your
