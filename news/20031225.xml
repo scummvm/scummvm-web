@@ -1,0 +1,19 @@
+<NAME>That's the second biggest reindeer nose...</NAME>
+<DATE>Dec 55, 2003</DATE>
+<BODY>
+<p>Everybody here at ScummVM Central, well, everybody still conscious, hopes that everybody is
+having (or has had) a good Christmas!</p>
+<p>At a vauge attempt to start our new years resolution (of posting news more frequently) a
+bit early, here is a mostly pointless news post. First, a request. If anybody notices any
+article in the media about ScummVM (or indeed is from the media), please e-mail press [at]
+scummvm.org so we can add it to our press page.</p>
+<p>The release schedule for 0.6.0 has been pushed back a little due to 
+various problems (such as reencoding Broken Sword cutscenes) and heavy development on 
+certain features (like Full Throttles INSANE subsystem).</p>
+<p>In an effort to reduce the length of our pre-release testing phase, I would ask that 
+anybody here who does use a daily or CVS build please report any bugs they find in 
+every-day use. This includes (despite what we usually say) our 'new' games: Full 
+Throttle, Flight of the Amazon Queen, Broken Sword 1 and 2.</p>
+<p>As I am starting the testing off before we 'freeze' development, please ensure you test 
+with the latest available CVS before reporting any bugs.</p>
+</BODY>
