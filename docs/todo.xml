@@ -45,7 +45,7 @@
 		<li>Monkey1Ega support</li>
 		<li>Curse of Monkey Island support (we already have that partially in latest CVS!)</li>
 		<li>Maniac Mansion support</li>
-		<li>Zak McCracken (non-FmTowns) support</li>
+		<li>Zak McKracken (non-FmTowns) support</li>
 		<li>LoomEga support</li>
 		<li>Indy3Ega support</li>
 		</ul>
@@ -69,14 +69,13 @@
 			<li>Improve the launcher</li>
 			<li>Add tab support (i.e. allow multiple panes in one dialog)</li>
 			<li>Implement the global preferences dialog (it is already there but nothing is wired)</li>
-			<li><i>Ask: Fingolfin, Ender, painelf</i></li>
+			<li><i>Ask: Fingolfin, Ender</i></li>
 		</ul>
 		<h3>Specific games</h3>
 		<ul>
 			<li><h4>The DIG</h4>
 			<ul>
-				<li>Walkscript misbehaves (currently bypassed in CVS)</li>
-				<li>Some in-game music issues</li>
+				<li>Some in-game music issues
 				<li>See also the <a href="../compatibility.php?details=dig">compatibility page for The DIG</a></li>
 				<li><i>Ask: Ender</i></li>
 			</ul>
@@ -102,6 +101,10 @@
 				<li>Correct random walkbox issues</li>
 				<li>Correctly fix 'missing head' issue (see fixme in actor.cpp)</li>
 				<li><i>Ask: Ender</i></li>
+			</ul>
+			<li><h4>The Curse of Monkey Island</h4>
+			<ul>
+				<li>See <a href="../documentation.php?view=comi">here</a> for a list.
 			</ul>
 			<li><h4>Simon</h4>
 			<ul>
