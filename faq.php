@@ -72,6 +72,8 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
       <li><a href="#4-8">The characters in my non english game are messed up.</a></li>
       <li><a href="#4-9">How do I make my mac version of a game work?</a></li>
       <li><a href="#4-10">Reporting Bugs.</a></li>
+      <li><a href="#4-11">I downloaded Broken Sword packs from your site but game won't run.</a></li>
+      <li><a href="#4-12">There is no picture in Broken Sword I intro.</a></li>
     </ol>
   </li>
 
@@ -311,7 +313,19 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	still exists in the latest daily build/current CVS version. Also check the
 	<a href="compatibility.php">compatibility listing</a> for that game to ensure
 	the issue is not already known.</p></li>
+
+      <li><p><a name="4-11"></a><b>I downloaded Broken Sword packs from your site but game won't run.</b><br>
+	These are not full games but reencoded cutscene (video) packs. To run the games you 
+	still need original disks. Originally cutscenes were encoded in proprietary
+	format and Revolution Software kindly permitted us to reencode them into
+	MPEG and distribute freely from our site.
+	</p></li>
             
+      <li><p><a name="4-12"></a><b>There is no picture in Broken Sword I intro.</b><br>
+	Be patient. There are about 12 seconds of speech only and eventually Revolution logo
+	will appear.
+	</p></li>
+
     </ol>
   </li>
 
