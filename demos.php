@@ -91,7 +91,7 @@ $LEC_demos = array(
 
 $HE_demos = array(
 	'Backyard Baseball 2001 (Demo)'
-		=> array('ftp://ftp.infogrames.net/demos/backyardbaseball/bbdemo.exe', 'bb2demo')
+		=> array('ftp://ftp.infogrames.net/demos/backyardbaseball/bbdemo.exe', 'bb2demo'),
 	'Big Thinkers Kindergarten (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/BTK95d.EXE', 'kinddemo'),
 	'Big Thinkers First Grade (Demo)'
@@ -133,7 +133,7 @@ $HE_demos = array(
 	'Spyfox 2: Some Assembly Required (Demo)'
 		=> array('http://quick.mixnmojo.com/demos/sf2-demo.rar', 'sf2-demo'),
 	'Spyfox 3: Operation Ozone (Demo)'
-		=> array('http://quick.mixnmojo.com/demos/sf3-demo.rar', 'sf3-demo'),
+		=> array('http://quick.mixnmojo.com/demos/sf3-demo.rar', 'sf3-demo')
 	);
 
 $MISC_demos = array(
