@@ -36,12 +36,12 @@ echo html_round_frame_start("Game Demos","98%","",20);
 <?
 
 $demos = array(
-	'Zak McKracken and the Alien Mindbenders (Atari ST)*'
-		=> array('http://files.mixnmojo.com/zakstdemo.zip', 'zak'),
-	'The Secret of Monkey Island (16 colour)*'	
-		=> array('http://files.mixnmojo.com/mi_demo2.zip', 'monkeyega'),
-	'Indiana Jones and the Last Crusade (non interactive 16 colour)*'	
-		=> array('http://files.mixnmojo.com/indydemo.zip', 'indy3ega'),
+	'Zak McKracken and the Alien Mindbenders (Atari ST)'
+		=> array('http://www.cowlark.com/scumm.dat/zakstdemo.zip', 'zak'),
+	'The Secret of Monkey Island (16 colour)'	
+		=> array('http://www.cowlark.com/scumm.dat/mi_demo2.zip', 'monkeyega'),
+	'Indiana Jones and the Last Crusade (non interactive 16 colour)'	
+		=> array('http://www.cowlark.com/scumm.dat/indy3ega-demo.zip', 'indy3ega'),
 	'Loom (non interactive 16 colour)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Loomdemo.zip', 'loom'),
 	'Passport to Adventure (playable 16 colour demos of mi, loom, indy3)'
@@ -52,20 +52,20 @@ $demos = array(
 		=>array('http://files.mixnmojo.com/indyzak.zip', 'zak256'),
 	'Zak256 & Loom (non interactive Fm Towns demo)*'
 		=>array('http://files.mixnmojo.com/zakloom.zip', 'zak256'),
-	'Monkey Island 2 (non interactive demo)*'
-		=> array('http://www.lucasfiles.com/pafiledb.php?action=file&id=31', 'mi2demo'),
+	'Monkey Island 2 (non interactive demo)'
+		=> array('http://www.cowlark.com/scumm.dat/mi2demo.zip', 'mi2demo'),
 	'Indiana Jones and the Fate of Atlantis (playable)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Playfate.zip', 'playfate'),
-	'Indiana Jones and the Fate of Atlantis (non interactive)*'
-		=> array('http://files.mixnmojo.com/fate.zip', 'fate'),
+	'Indiana Jones and the Fate of Atlantis (non interactive)'
+		=> array('http://www.cowlark.com/scumm.dat/fate.zip', 'fate'),
 	'Indiana Jones and the Fate of Atlantis (non interactive FM Towns)*'
 		=> array('http://files.mixnmojo.com/indy4demo.zip', 'indydemo'),
-	'Sam and Max Hit the Road (non interacive)*'
-		=> array('http://www.lucasfiles.com/pafiledb.php?action=file&id=29', 'samdemo'),
+	'Sam and Max Hit the Road (non interacive)'
+		=> array('http://www.cowlark.com/scumm.dat/samdemo.zip', 'samdemo'),
 	'Sam and Max Hit the Road (interacive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Snmdemo.zip', 'snmdemo'),
-	'Sam and Max Hit the Road WIP (interacive)*'
-		=> array('http://files.mixnmojo.com/snmidemo.zip', 'snmidemo'),
+	'Sam and Max Hit the Road WIP (interacive)'
+		=> array('http://www.cowlark.com/scumm.dat/snmidemo.zip', 'snmidemo'),
 	'Putt-Putt Joins the Parade (DOS demo)*'
 		=> array('http://files.mixnmojo.com/puttpara.zip', 'puttdemo'),
 	'Putt-Putt Goes to the Moon (DOS demo)*'
@@ -82,10 +82,10 @@ $demos = array(
 		=> array('ftp://ftp.lucasarts.com/demos/pc/cursedemo.exe', 'comi'),
 	'The Curse of Monkey Island (demo with movies)*'
 		=> array('http://files.mixnmojo.com/m3demo.zip', 'comi'),
-	'Simon the Sorcerer*'
-		=> array('http://files.mixnmojo.com/simon1demo.zip', 'simon1demo'),
-	'Simon the Sorcerer 2 Talkie*'
-		=> array('http://files.mixnmojo.com/simon2demo.zip', 'simon2talkie'),
+	'Simon the Sorcerer'
+		=> array('http://www.cowlark.com/scumm.dat/simon1demo.zip', 'simon1demo'),
+	'Simon the Sorcerer 2 Talkie'
+		=> array('http://www.cowlark.com/scumm.dat/simon2demo.zip', 'simon2talkie'),
 	'Beneath A Steel Sky (disk version demo)*'
 		=> array('', 'sky'),
 	'Beneath A Steel Sky (talkie cd version demo)*'
