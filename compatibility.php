@@ -85,7 +85,7 @@ $games = array(
 		'Putt-Putt Goes To The Moon (DOS)'			=> array('6','puttmoon','20'),
 		'Putt-Putts Fun Pack'					=> array('6','funpack','50'),
 		'Fatty Bears Birthday Surprise (DOS Demo)'		=> array('6','fbdemo','95'),
-		'Fatty Bears Birthday Surprise (DOS)'			=> array('6','fbear','80'),
+		'Fatty Bears Birthday Surprise (DOS)'			=> array('6','fbear','60'),
 		'Fatty Bears Fun Pack'					=> array('6','fbpack','50'),
 		'Day Of The Tentacle'					=> array('6','tentacle','95'),
 		'Day Of The Tentacle (Demo)'				=> array('6','dottdemo','95'),
@@ -188,9 +188,9 @@ $notes = array(
 		   "<br>- Pinball/Remember/Tic-Tac-Toe/Puzzle blocks: Works",
 "fbdemo"	=> "Should be playable to the end",
 "fbear"		=> "Playable up to ending sequence, not completable".
-		   "<br>- Fails an array related assertion during ending sequence".
-		   "<br>- Wrong colourkey used for akos animations in laundry".
-		   "<br>- Decorations on birthday cake aren't remembered",
+		   "<br>- Fails an akos related assertion during ending sequence".
+		   "<br>- Decorations on birthday cake aren't remembered".
+		   "<br>- Piano mini game doesn't make any sound and crashes on exit",
 "fbpack"	=> "Game starts but various minigames have different problems".
 		   "<br>- Reversi/Go Fish/Lines and Boxes: o6_actorOps: case 218 graphics glitches".
 		   "<br>- Coloring: Painting has no effect".
