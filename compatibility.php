@@ -120,7 +120,7 @@ $notes = array(
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
 "simon1win" 	=> "Game is completable.".
                    "<br>- Music currently only works on Windows systems".
-                   "<br>- Various minor graphical glitches".
+                   "<br>- Various minor graphical glitches",
 "simon1talkie" 	=> "Game is completable.".
                    "<br>- Music currently only works on Windows systems".
                    "<br>- No music looping".
