@@ -63,6 +63,13 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  <li><a href="http://paras.rasmatazz.bei.t-online.de/">Dreamcast Daily Builds</a></li>
 	  <li><a href="http://sourceforge.net/cvs/?group_id=37116">CVS Instructions</a> <small> (for if you wish to retrieve the latest code to compile yourself</small></li>
 	</ul>
+	
+	<p>There are no daily builds for Mac OS X available at this point, but you can 
+	<a href="/downloads/ScummVM-20030724.tar.gz">download a prerelease build of 0.5.0</a>
+	(from 2003-07-24) in case you want to help us complete the Macintosh part of the
+	<a href="/documentation.php?view=release">0.5.0 release checklist</a>.
+	</p>
+	
 
 	<p>
  	  <b>0.4.1 Release binaries:</b>
