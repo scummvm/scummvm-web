@@ -28,7 +28,7 @@ echo html_round_frame_start("Game Demos","98%","",20);
 	  This page lists some links to demos of various games, that in general don't work as well as the
 	  full versions. Full Throttle, The Dig, and the Curse of Monkey Island in particular.<br><br>
 	  Do not file bug reports against these demos as they aren't supported games.<br><br>
-	  Please contact us if you have a copy of a demo not listed here such as the maniac mansion demo.<br><br>
+	  Please contact us if you have a copy of a demo not listed here such as the separate Maniac Mansion demo.<br><br>
 	  * Most of the demos are currently offline as mixnmojo.com is semi-down.<br>
           <br><br>
 	</p>
