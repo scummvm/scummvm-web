@@ -50,8 +50,6 @@ this page expecting news.
 <P>
 Some of the bigger outstanding tasks are:
 <UL>
- <LI>Save/Load support! We need this, but state saving/loading needs to be hacked
-     into the old LUA version we use. LUA expert wanted, apply within.
  <LI>A software renderer needs to be written as older OpenGL cards cannot blit the
      static depth-buffer used by Grim Fandango without causing major framerate impact.
 </UL>
