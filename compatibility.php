@@ -171,7 +171,7 @@ $notes = array(
 "indy3ega"	=> "Game is completable".
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
-		   "<br>- No inventory in Mac version".
+		   "<br>- no inventory controls in Mac version".
 		   "<br>- Atari ST and Mac versions require pcjr or pcspk music driver",
 "indy3"         => "No known issues, game is completable.",
 "indy3towns"    => "No known issues, game is completable." .
@@ -273,11 +273,11 @@ $notes = array(
 "freddi3"	=> "Game is playable but not completable".
 		   "<br>- Actors sometimes aren't visible or act strange".
 		   "<br>- Errors out when entering two locations",
-"f4-demo"	=> "Not completable, no inventory controls".
+"f4-demo"	=> "Not completable, no inventory controls controls".
 		   "<br>- Various issues",
-"freddi4"	=> "Not completable, no inventory controls".
+"freddi4"	=> "Not completable, no inventory controls controls".
 		   "<br>- Various issues",
-"freddicove"	=> "Not completable, no inventory controls".
+"freddicove"	=> "Not completable, no inventory controls controls".
 		   "<br>- Various issues",
 "maze"		=> "Game is playable, but settings aren't saved".
 		   "<br>- Various issues",
@@ -333,19 +333,19 @@ $notes = array(
 		   "<br>- Various issues",
 "dog"		=> "Game is playable, but settings aren't saved".
 		   "<br>- Various issues",
-"spydemo"	=> "Not completable, no inventory".
+"spydemo"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
-"foxdemo"	=> "Not completable, no inventory".
+"foxdemo"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
-"spyfox"	=> "Not completable, no inventory".
+"spyfox"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
-"sf2-demo"	=> "Not completable, no inventory".
+"sf2-demo"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
-"spyfox2"	=> "Not completable, no inventory".
+"spyfox2"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
-"sf3-demo"	=> "Not completable, no inventory".
+"sf3-demo"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
-"spyozon"	=> "Not completable, no inventory".
+"spyozon"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
 "chase"		=> "Only shows introduction",
 "mustard"	=> "Only shows introduction",
