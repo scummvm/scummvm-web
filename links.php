@@ -71,10 +71,21 @@ echo html_round_frame_start("Links","98%","",20);
 	<blockquote>
 	<table border=0 cellpadding=5 cellspacing=0>
 
-	  <tr><td><a href="http://www.sebelinteractive.de/scummvm/"><b>Amiga port</b></a></td></tr>
+	  <tr><td><a href="http://www.sebelinteractive.de/scummvm/"><b>Amiga port (based on SDL backend)</b></a></td></tr>
 	  <tr>
 	    <td><blockquote>
 	    Not to be confused with our MorphOS port, this port runs on the "classic" AmigaOS 3.1.
+	    It uses WarpSDL, a special SDL clone written for maximum speed on the Amiga.<br>
+	    Unfortunately, it seems they only have ScummVM version 0.3.0b.
+	    </blockquote></td>
+	  </tr>
+
+	  <tr><td><a href="http://nogfx.free.fr/scummvm/"><b>Amiga port (based on MorphOS backend)</b></a></td></tr>
+	  <tr>
+	    <td><blockquote>
+	    Another Amiga port. Unlike the above port, it's not based on the SDL backend, but rather
+	    on a modified version of the MorphOS backend.<br>
+	    They, too, only have ScummVM version 0.3.0b.
 	    </blockquote></td>
 	  </tr>
 
