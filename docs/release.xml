@@ -47,21 +47,14 @@ function portStatus($ports) {
 <table border=1 cellspacing=0 width=100%>
 
 <tr>
- <th width="10%">GameID</th><th>Last Test</th><th>Critical Bugs</th>
+ <th>GameID</th><th>Last Test</th><th>Critical Bugs</th>
  <th>x86</th><th>DC</th><th>Palm</th><th>WinCE</th><th>Mac</th>
-<!--
- <td width=10%><table border=0>
-	<tr><td colspan="5"><center><B>Supported Ports</B></center></td></tr>
-	<tr><td>x86</td><td>Mac</td><td>WinCE</td><td>DC</td><td>Palm</td></tr>
-     </table>
- </td>
--->
 </tr>
 
 <tr><td colspan=8><center><B>SCUMM Engine</B></center></td></tr>
 <tr><td>Maniac (V2)</td><td>Wishbone: 11 Jul (Syd-Bernard), logicd: 13 Jul (Mic-Jeff)</td><td>...</td>
 	<?php portStatus(array("x86" => +1, "DC" => +1, "Palm" => +1, "WinCE" => +1)); ?></tr>
-<tr><td>Zak (V2)</td><td>voodoofx: 15 Jul</td><td>770699 771483 771499</td>
+<tr><td>Zak (V2)</td><td>voodoofx: 15 Jul</td><td>770699, 771483, 771499</td>
 	<?php portStatus(array("x86" => +1, "DC" => +1, "Palm" => +1, "WinCE" => +1)); ?></tr>
 <tr><td>Zak256</td><td>VoodooFX: 12 Jul</td><td>...</td>
 	<?php portStatus(array("x86" => +1, "DC" => +1, "Palm" => +1, "WinCE" => +1)); ?></tr>
