@@ -174,7 +174,7 @@ if ($details) {
 				html_frame_td($name).
 			  	html_frame_td($array[0]).
 			    	html_frame_td($array[1]).
-		 	    	html_frame_td($array[2]."%", 'align="center" class="pct'.$array[2].'"'),
+		 	    	html_frame_td($array[2]."%", 'align="center" class="pct'.($array[2] - ($array[2]%5)).'"'),
 		  	        $color
 	  		);
 			echo html_frame_tr(html_frame_td(
@@ -193,7 +193,7 @@ if ($details) {
 				    html_frame_td(html_ahref($name, $PHP_SELF."?details=".$array[1])).
      				    html_frame_td($array[0]).
 				    html_frame_td($array[1]).
-			 	    html_frame_td($array[2]."%", 'align="center" class="pct'.$array[2].'"'),
+			 	    html_frame_td($array[2]."%", 'align="center" class="pct'.($array[2] - ($array[2]%5)).'"'),
  			  	    $color
 		);
 		$c++;
