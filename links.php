@@ -31,16 +31,6 @@ echo html_round_frame_start("Links","98%","",20);
 
 	<blockquote>
 	<table border=0 cellpadding=5 cellspacing=0>
-	  <tr><td><a href="http://capers.free.fr/ScummVM/"><b>PalmOS port</b></a></td></tr>
-	  <tr>
-	    <td><blockquote>
-	    The site provides a binary based on our 0.3.0b release, as well as the source code for it.
-	    Screenshots and some newer CVS builds are available, too.
-	    <br>
-	    <b>UPDATE:</b> The PalmOS port has been merged into CVS. ScummVM 0.4.0 will be the
-	    first version to have an official PalmOS version.
-	    </blockquote></td>
-	  </tr>
 
 	  <tr><td><a href="http://www.sebelinteractive.de/scummvm/"><b>Amiga port</b></a></td></tr>
 	  <tr>
@@ -206,13 +196,6 @@ GUI frontends for ScummVM.
 	  <tr>
 	    <td><blockquote>
 	    Yet another Mac OS X frontend.
-	    </blockquote></td>
-	  </tr>
-
-	  <tr><td><a href="http://www.domfree.de/trin/"><b>Scummer</b></a></td></tr>
-	  <tr>
-	    <td><blockquote>
-	    For Win32.
 	    </blockquote></td>
 	  </tr>
 
