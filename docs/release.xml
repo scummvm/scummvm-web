@@ -145,10 +145,10 @@ function bugs($buglist) {
 	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
 	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 <tr><td>Monkey (VGA)</td>
-	<td>Boris (Dec 14)</td>
+	<td>Boris (Dec 14), nnooiissee (Dec 17)</td>
 	<td>...</td>
 	<?php portStatus(array("Win32" => 1, "Linux" => 0, "DC" => 0,
-	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 1, "OpenBSD" => 0)); ?></tr>
 <tr><td>Atlantis</td>
 	<td>NONE</td>
 	<td>...</td>
@@ -214,9 +214,9 @@ function bugs($buglist) {
 	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
 	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 <tr><td>Sky (CD)</td>
-	<td>NONE</td>
+	<td>retroactivemind (Dec 16)</td>
 	<td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	<?php portStatus(array("Win32" => 1, "Linux" => 0, "DC" => 0,
 	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 <tr><td>Broken Sword 1</td>
 	<td>NONE</td>
