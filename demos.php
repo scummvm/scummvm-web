@@ -93,16 +93,12 @@ $demos = array(
 		=> array('', 'simon1acorn'),
 	'Simon the Sorcerer 2 Talkie (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/simon2demo.zip', 'simon2talkie'),
-	'Beneath A Steel Sky (FREEWARE FULL GAME - Floppy)'
-		=> array('http://www.mixnmojo.com/bss/BASS-Floppy.zip', 'sky'),
-	'Beneath A Steel Sky (FREEWARE FULL GAME - Talkie CD)'
-		=> array('http://prdownloads.sourceforge.net/scummvm/BASS-CD.zip?download', 'sky'),
 	'Broken Sword II'
 		=> array('http://ftp.se.kde.org/pub/pc/games/pcgameworld/demos/bs2-demo.zip', 'sword2demo'),
 	'Flight of the Amazon Queen (Datafile only)'
-		=> array('http://0x.7fc1.org/fotaq/fotaq_demo.zip', 'queencomp'),
+		=> array('http://0x.7fc1.org/fotaq/fotaq_demo.zip', 'queen'),
 	'Flight of the Amazon Queen (PCGAMES demo, Datafile only)'
-		=> array('http://0x.7fc1.org/fotaq/fotaq_demo_pcgames.zip', 'queencomp')
+		=> array('http://0x.7fc1.org/fotaq/fotaq_demo_pcgames.zip', 'queen')
 	);
 
 // render the demo list
