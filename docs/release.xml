@@ -1,0 +1,65 @@
+<name>ScummVM 0.4.0 Checklist</name>
+<desc>This page is the current checklist for releasing 0.4.0</desc>
+<body>
+	<style>
+		h2 {
+			margin-bottom: 0px;
+		}
+		h3 {
+			margin-bottom: 0px;
+		}
+		ul {
+			padding-bottom: 10px;
+		}
+	</style>
+
+	<h1>0.4.0 Checklist</h1>
+
+	<h2>Introduction</h2>
+	<p>This release is going to focus on the following:
+		<ul>
+			<li>The Curse Of Monkey Island support
+			<li>Prelimary support for some early Humongous Entertainment titles
+			<li>Enhanced Launcher functionality?
+		</ul>
+	</p>
+
+	<h2>Game Compatibility</h2>
+	<p>
+		The following games will soon (not yet) need to be tested with the latest CVS snapshosts:
+		<table border=0>
+		<tr><td>GameID</td><td>Testers</td><td>Date Tested</td><td>Critical Bugs</td></tr>
+		<tr><td colspan=4><hr></td></tr>
+		<tr><td>Zak256</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>LoomCD</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>Indy3</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>MonkeyVGA</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>Monkey1</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>Monkey2</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>Atlantis (Team)</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>Atlantis (Action)</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>Atlantis (Puzzle)</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>Tentacle</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>Samnmax</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>Dig</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>FT</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>COMI</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr<td colspan=4><hr></td></tr>
+		<!--Optional games, these aren't required for release -->
+		<tr><td>Simon1Dos</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>Simon1Talkie</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>Simon1Win</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>Simon2Dos</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>Simon2Talkie</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>Simon2Win</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>Simon2Mac</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		</table>
+	</p>
+
+	<p>
+		Please note that FT and/or Simon bugs will not hold back 0.4.0, but should be tested and
+		taken into account regardless. If anybody wishes to test, file any bug reports of bugs
+		found which you consider should be fixed for the release. Please tag the subject of the bug
+		report with '0.4.0 RC:'
+	</p>
+</body>
