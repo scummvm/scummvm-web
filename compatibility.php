@@ -111,11 +111,13 @@ $games = array(
 	      );
 
 $notes = array(
-"maniac"	=> "Enhanced PC version is completable, with several minor glitches".
-		   "<br>Classic version is completable, with several minor glitches".
+"maniac"	=> "Enhanced PC version is completable".
+		   "<br>Classic version is completable".
+		   "<br>- Minor graphical glitches with actors in classic verison".
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target",
 "zak"		=> "Enhanced PC version is completable, with several minor glitches".
 		   "<br>Classic version is completable, with several minor glitches".
+		   "<br>- Minor graphical glitches with actors in classic verison".
 		   "<br>- Amiga, Atari ST and PC versions supported by this target",
 "indy3ega"	=> "Game is completable".
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
@@ -225,10 +227,10 @@ $notes = array(
 		   "<br>&nbsp;&nbsp;&nbsp;&nbsp;This is especcially noticable in the court- and Mrs. Piermont sequence.".
 		   "<br>- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders".
 		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
-"sword2"	 => "Game is completable, with several minor glitches".
+"sword2"	=> "Game is completable, with several minor glitches".
 		   "<br>- Does not work on systems that require alignment".
 		   "<br>- No video for cutscenes",
-"queen"		 => "Game should be completable, with several glitches".
+"queen"		=> "Game should be completable, with several glitches".
                    "<br>- Various minor graphical glitches".
 		   "<br>- Requires <a href=\"http://0x.7fc1.org/fotaq/queen.tbl\">queen.tbl</a> resource file",
 "simon1win" 	=> "No known problems - game is completable.",
@@ -238,7 +240,7 @@ $notes = array(
                    "<br>- All graphics are decoded incorrectly".
                    "<br>- No music",
 "simon1acorn" 	=> "Game is completable.".
-                    "<br>- No inventory scrolling arrows shown, can still move around inventory though",
+                   "<br>- No inventory scrolling arrows shown, can still move around inventory though",
 "simon1dos" 	=> "Game is completable.".
                    "<br>- No inventory scrolling arrows shown, can still move around inventory though",
 "simon1amiga" 	=> "Game works a bit but can't see anything".
@@ -252,7 +254,7 @@ $notes = array(
                    "<br>- Text in Copy Protection screen is only shown for short time".
                    "<br>- Freezes briefly when Pirate Captain is talking to Mate, when Simon tries to escape",
 "simon2mac"     => "Game is completable.".
-                   "<br>- Only default language in data files is supported".
+                   "<br>- Only default language (English) in data files is supported".
                    "<br>- F10 key animation is different"
 );
 		
