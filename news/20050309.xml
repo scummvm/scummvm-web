@@ -1,13 +1,13 @@
-<NAME>Boot params, any body got some boot params?</NAME>
+<NAME>Boot params, anybody got some boot params?</NAME>
 <DATE>Mar. 9th, 2005</DATE>
 <BODY>
-<p>I guess it's time for the usual, regular, monthly life sign, <em>"Yes we are alive.
+<p>I guess it's time for the usual, regular, monthly life sign, <em>"Yes, we are alive.
 No, we still won't merge with FreeSCI. Yes, you can donate your Ferrari to me, I might
 reconsider then."</em>
 <br>
 As usual, lots of small and big things happened, we might post some info in the not
-too far future. In the meantime, I'd like to set a spot light on a small but nifty
-detail, maybe it'll be of interest/use for some of you...:
+too distant future. In the meantime, I'd like to set a spotlight on a small but nifty
+detail, maybe it'll be of interest/use to some of you...:
 </p>
 <p>
 Some time ago, we added a  <a href="documentation.php?view=bootparam">list of boot params</a>
