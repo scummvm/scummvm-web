@@ -59,7 +59,7 @@ echo html_round_frame_start("Download ScummVM","");
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-macosx.dmg?download">Mac OS X Disk Image</a> <small>(1.6M disk image)</small></li>
 
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-1_FC3.i386.rpm?download">Fedora Core 3 package</a> <small>(1.2M RPM)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-1.FC3.i386.rpm?download">Fedora Core 3 package</a> <small>(1.2M RPM)</small></li>
 <!--
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-1_FC2.i386.rpm?download">Fedora Core 1 and 2 package</a> <small>(1.4M RPM)</small></li>
 -->
