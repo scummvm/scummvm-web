@@ -44,7 +44,6 @@ function sidebar_start ($specs_mode = false)
 
 	$g->done();
 
-
 	$g = new htmlmenu("SourceForge Menu");
 
 	$g->add("Project Home", "http://sourceforge.net/projects/scummvm/");

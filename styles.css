@@ -1,27 +1,30 @@
 /* Body Document Defaults */
-BODY 		{ background-color: #6699CC; color: #000000; margin: 0px; }
+body {
+	background-color: #6699CC;
+	margin: 0px;
+}
+
+p, body, td, h2, h3, h4, h5, h6 {
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+/* General stuff */
+H1			{ font-size: 12pt; }
+PRE			{ font-family: Lucida Console, monospace; font-size: 10pt; }
+SMALL		{ font-size: 8pt; }
 
 /* Link Colors */
-A		{ color: #A50D0D; }
-A:hover		{ color: #FF6666; }
-A:active	{ color: #FF0000; }
-
-/* General Colors */
-OL,UL,P,BODY	{ font-family: Arial, Helvetica, sans-serif; font-size: 10pt; }
-TD,TR,TH,FORM	{ font-family: Arial, Helvetica, sans-serif; font-size: 10pt; }
-H1		{ font-family: Arial, Helvetica, sans-serif; font-size: 12pt; }
-H2		{ font-family: Arial, Helvetica, sans-serif; font-size: 10pt; }
-H3,H4,H5,H6	{ font-family: Arial, Helvetica, sans-serif; font-size: 10pt; }
-INPUT		{ font-family: Arial, Helvetica, sans-serif; font-size: 10pt; }
-T1			{ font-family: Arial, Helvetica, sans-serif; font-size: 10pt; }
-PRE			{ font-family: Lucida Console, monospace; font-size: 10pt; }
-SMALL		{ font-family: Arial, Helvetica, sans-serif; font-size: 8pt; }
+a			{ color: #A50D0D; }
+a:hover		{ color: #FF6666; }
+a:active	{ color: #FF0000; }
 
 /* no borders for images */
 img { border: 0px; }
 
 /* draw a line below the h1/h2/h3 elements */
-h1,h2		{
+h1, h2		{
 	background-image: url(images/grey_pixel.gif);
 	background-repeat: repeat-x;
 	background-position: left bottom;
@@ -63,10 +66,43 @@ h1,h2		{
 .menuTitle	{ font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #ffffff; font-weight: bold; }
 .menuItem 	{ font-family: Arial, Helvetica, sans-serif; font-size: 10pt; color: #ffffff; }
 .topMenu	{ background-color: #73106b; background-image: url('images/topmenu_bg.png'); }
-.sideMenu	{ background-color: #52208b; background-image: url('images/sidebar_bg.png'); }
+
+/* Side menus */
+.sideMenu {
+	color: white;
+	background-color: #52208b;
+	background-image: url('images/sidebar_bg.png');
+	width: 120px;
+	text-align: left;
+}
+.sideMenu a { color: white; }
+.sideMenu .header {
+	background-image: url('images/topmenu_bg.png');
+	font-size: 8pt;
+	font-weight: bold;
+	padding-left: 0.5ex;
+	margin-bottom: 8px;
+}
+.sideMenu .headerRight	{
+	background-image: url('images/main_right_top.gif');
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.sideMenu .item			{
+	font-size: 10pt;
+	padding: 2px 2px 2px 0.5ex;
+}
+.sideMenu .footer		{
+	padding-left: 0.5ex;
+	height: 13px;
+}
+.sideMenu .footerRight	{
+	background-image: url('images/main_right_bottom.gif');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
 
 /* Misc */
-.small		{ font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #ffffff; }
 TD.label	{ font-weight: bold }
 
 /* Copyright */
