@@ -88,10 +88,10 @@ $demos = array(
 		=> array('http://www.cowlark.com/scumm.dat/simon1demo.zip', 'simon1demo'),
 	'Simon the Sorcerer 2 Talkie'
 		=> array('http://www.cowlark.com/scumm.dat/simon2demo.zip', 'simon2talkie'),
-	'Beneath A Steel Sky (disk version demo)*'
-		=> array('', 'sky'),
-	'Beneath A Steel Sky (talkie cd version demo)*'
-		=> array('', 'sky'),
+	'Beneath A Steel Sky (disk version demo)'
+		=> array('http://www.mixnmojo.com/bss/BASS-Floppy.zip', 'sky'),
+	'Beneath A Steel Sky (talkie cd version demo)'
+		=> array('http://prdownloads.sourceforge.net/scummvm/BASS-CD.zip?download', 'sky'),
 	'Broken Sword II'
 		=> array('http://ftp.se.kde.org/pub/pc/games/pcgameworld/demos/bs2-demo.zip', 'sword2demo')
 	);
