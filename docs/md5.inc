@@ -207,6 +207,8 @@
 		<?php addEntry("Demo", "Windows", "en", "f3d55aea441e260e9e9c7d2a187097e0", "zoodemo", "khalek"); ?>
 		<?php addEntry("Demo", "Windows", "en", "de4efb910210736813c9a1185384bace", "zoodemo", "khalek"); ?>
 		<?php addEntry("Demo", "Mac", "en", "3486ede0f904789267d4bcc5537a46d4", "puttzoo", "khalek"); ?>
+	<tr><td colspan='7'><strong>Putt-Putt Joins the Circus</strong></td></tr>
+		<?php addEntry("Demo", "Mac", "en", "a7cacad9c40c4dc9e1812abf6c8af9d5", "TODO", "sev"); ?>
 	<tr><td colspan='7'><strong>Fatty Bears Birthday Surprise</strong></td></tr>
 		<?php addEntry("Demo", "DOS", "en", "47e75b1bdcb44c78cb94883d1731ccf8", "fbdemo", "khalek"); ?>
 		<?php addEntry("Demo", "Windows", "en", "22c9eb04455440131ffc157aeb8d40a8", "fbdemo", "khalek"); ?>
