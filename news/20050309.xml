@@ -1,0 +1,25 @@
+<NAME>Boot params, any body got some boot params?</NAME>
+<DATE>Mar. 9th, 2005</DATE>
+<BODY>
+<p>I guess it's time for the usual, regular, monthly life sign, <em>"Yes we are alive.
+No, we still won't merge with FreeSCI. Yes, you can donate your Ferrari to me, I might
+reconsider then."</em>
+<br>
+As usual, lots of small and big things happened, we might post some info in the not
+too far future. In the meantime, I'd like to set a spot light on a small but nifty
+detail, maybe it'll be of interest/use for some of you...:
+</p>
+<p>
+Some time ago, we added a  <a href="documentation.php?view=bootparam">list of boot params</a>
+to our documentation section. Maybe you have already noticed it, if not, check it out.
+</p>
+<p>In case you don't know what a boot param is (shame on you!), I actually tried to explain
+it <a href="documentation.php?view=bootparam">on that page</a>, so, have a look anyway ;-).
+If you think the explanation is not clear enough, drop me a line and tell me how to improve it.
+</p>
+<p>
+And if you really want to feel cool, you can even contribute a bit here and help us out
+by filling in some of the gaps in our boot param tables. Once again, see
+<a href="documentation.php?view=bootparam">the boot param page</a< for more information.
+</p>
+</BODY>
