@@ -19,10 +19,6 @@ sidebar_start();
 echo html_round_frame_start("Press","98%","",20);
 
 ?>
-	<p><a href="http://www.aftonbladet.se/vss/spela/story/0,2789,341129,00.html"
-	   ><b>Spelklassiker - alldeles gratis</b></a> (Swedish), Aftonbladet, October 6, 2003
-	</p>
-
 	<p><a href="http://www.aventurepc.com/dossiers/scummvm1.html"
 	   ><b>Dossier ScummVM - première partie</b></a> (French), Aventure PC, October 1, 2003
 	</p>
@@ -33,6 +29,10 @@ echo html_round_frame_start("Press","98%","",20);
 
 	<p><a href="http://linux.oreillynet.com/pub/a/linux/2003/08/21/scummvm.html"
 	   ><b>Inside ScummVM: Classic Adventure Engine Overhaul</b></a>, Oreilly Network, August 21, 2003
+	</p>
+
+	<p><a href="http://www.aftonbladet.se/vss/spela/story/0,2789,341129,00.html"
+	   ><b>Spelklassiker - alldeles gratis</b></a> (Swedish), Aftonbladet, August 6, 2003
 	</p>
 
 	<p><a href="http://games.slashdot.org/article.pl?sid=03/08/02/1235259"
