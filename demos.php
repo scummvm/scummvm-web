@@ -66,18 +66,18 @@ $demos = array(
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Snmdemo.zip', 'snmdemo'),
 	'Sam and Max Hit the Road WIP (interacive)'
 		=> array('http://www.cowlark.com/scumm.dat/snmidemo.zip', 'snmidemo'),
-	'Putt-Putt Joins the Parade (DOS demo)*'
-		=> array('http://files.mixnmojo.com/puttpara.zip', 'puttdemo'),
+	'Putt-Putt Joins the Parade (DOS demo)'
+		=> array('http://quick.mixnmojo.com/demos/puttpara.zip', 'puttdemo'),
 	'Putt-Putt Goes to the Moon (DOS demo)*'
 		=> array('http://files.mixnmojo.com/moondemo.zip', 'moondemo'),
-	'Fatty Bear\'s Birthday Surprise (DOS demo)*'
-		=> array('http://files.mixnmojo.com/fatdemo.zip', 'fbdemo'),
+	'Fatty Bear\'s Birthday Surprise (DOS demo)'
+		=> array('http://quick.mixnmojo.com/demos/fbemo.zip', 'fbdemo'),
 	'Day of the Tentacle (non interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Dottdemo.zip', 'dottdemo'),
-	'Full Throttle*'
-		=> array('http://files.mixnmojo.com/ftdemo.zip', 'ft'),
-	'The Dig*'
-		=> array('http://files.mixnmojo.com/digdemo.zip', 'dig'),
+	'Full Throttle'
+		=> array('http://quick.mixnmojo.com/demos/ftdemo.zip', 'ft'),
+	'The Dig'
+		=> array('http://quick.mixnmojo.com/demos/digdemo.zip', 'dig'),
 	'The Curse of Monkey Island (web demo)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/cursedemo.exe', 'comi'),
 	'The Curse of Monkey Island (demo with movies)*'
