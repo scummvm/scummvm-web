@@ -65,7 +65,7 @@ $games = array(
 		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','5'),
                 'LOOM (256 color CD version)'                           => array('5','loomcd','90'),
 		'The Secret of Monkey Island (VGA Floppy)'		=> array('5','monkeyvga','40'),
-		'The Secret of Monkey Island (VGA CD)'			=> array('5','monkey','95'),
+		'The Secret of Monkey Island (VGA CD)'			=> array('5','monkey','90'),
 		'Monkey Island 2: LeChuck\'s revenge'			=> array('5','monkey2','90'),
 		'Indiana Jones 4 and the Fate of Atlantis'		=> array('5','atlantis','95'),
 		'Indiana Jones 4 and the Fate of Atlantis (DEMO)'	=> array('5','playfate','95'),
@@ -86,6 +86,7 @@ $notes = array(
 "zakega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
 "indy3ega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Indy3-256 version",
 "indy3"         => "Game will start, but is not completely playable." .
+                   "<br>- Inventory scrolling not implemented, making it impossible to carry more than 4 objects at once" .
                    "<br>- Missing/Incorrect SCUMM opcodes cause occasional crashes",
 "zak256"        => "Game will start, but is not completely playable." .
                    "<br>- Inventory scrolling not implemented, making it impossible to carry more than 4 objects at once" .
@@ -102,7 +103,10 @@ $notes = array(
 "tentacle"	=> "No known problems - should be playable to the end",
 "dottdemo"	=> "No known problems - should be playable to the end",
 "samnmax"	=> "Game is completable.".
-                   "<br>- Subgames do not work",
+                   "<br>- Subgames do not work" . 
+                   "<br>- Wak-A-Mole may appear to freeze. Hit escape and wait." . 
+                   "<br>- Intro Credits will freeze of Mad Doctor cutscene is allowed to play" .
+                   "<br>- Script race in Mystery Vortex will cause hang if you wait around",
 "samdemo"	=> "No known problems - should be playable to the end",
 "ft"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
 		   "<br>- some palette glitches during movie playback, and missing movie sound".
