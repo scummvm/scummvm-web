@@ -129,9 +129,9 @@ $notes = array(
 		   "<br>- Indiana may be able to walk in odd places, in some rooms",
 "indy3towns"    => "Game is completable." .
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
-                   "<br>- Kanji version requires the FM Towns Font ROM",
+                   "<br>- Kanji version isn't supported",
 "zaktowns"      => "Game is completable.".
-                   "<br>- Kanji version requires the FM Towns Font ROM",
+                   "<br>- Kanji version isn't supported",
 "loom"		=> "Game is completable".
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
 		   "<br>- Mac version crashes after copy protection screen".
@@ -148,7 +148,7 @@ $notes = array(
 		   "<ul><li>0 practice (default)".
 		       "<li>1 standard".
 		       "<li>2 expert</ul>".
-                   "<br>- Kanji version requires the FM Towns Font ROM",
+                   "<br>- Kanji version isn't supported",
 "monkeyega"	=> "Game is completable".
 		   "<br>- Atari ST version requires pcjr or pcspk music driver".
 		   "<br>- MIDI support requires the Roland update from LucasArts",
@@ -166,7 +166,8 @@ $notes = array(
 		   "<br>- No sound effects",
 "monkey2"	=> "No known problems - should be playable to the end".
 		   "<br>- Amiga, Mac and PC versions supported by this target".
-		   "<br>- Various graphical glitches with Amiga version",
+		   "<br>- Various graphical glitches with Amiga version".
+                   "<br>- Kanji version requires the FM Towns Font ROM",
 "mi2demo"	=> "Often crashes due to missing resources, since it was never meant to be playable".
 		   "<br>- No support for playing back the recorded file of gameplay",
 "atlantis"	=> "No known problems - should be playable to the end".
