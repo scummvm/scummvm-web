@@ -107,6 +107,7 @@ $gamesHE = array(
 		'Freddi Fish 3: The Case of the Stolen Conch Shell'			=> array('n/a','freddi3','70'),
 		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Demo)'	=> array('n/a','f4-demo','10'),
 		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'	=> array('n/a','freddi4','10'),
+		'Freddi Fish 5: The Case of the Creature of Coral Cave (Demo)'		=> array('n/a','ff5demo','10'),
 		'Freddi Fish 5: The Case of the Creature of Coral Cave'			=> array('n/a','freddicove','10'),
 		'Freddi Fish and Luther\'s Maze Madness'				=> array('n/a','maze','50'),
 		'Freddi Fish and Luther\'s Water Worries'				=> array('n/a','water','50'),
@@ -248,7 +249,8 @@ $notes = array(
 "1grademo"	=> "Game is playable, but objects in mini games aren't drawn",
 "kinddemo"	=> "Game is playable, but settings aren't saved".
 		   "<br>- Various issues",
-"thinkerk"	=> "Triggers an assert when entering name",
+"thinkerk"	=> "Game is playable, but settings aren't saved".
+		   "<br>- Various issues",
 "fbdemo"	=> "Should be playable to the end".
 		   "<br>- Both DOS and Windows versions supported by this target".
 		   "<br>- Cursors aren't scaled correctly in Windows version",
@@ -272,6 +274,8 @@ $notes = array(
 		   "<br>- Various issues",
 "freddi4"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
+"ff5demo"	=> "Not completable, no inventory controls".
+		   "<br>- Various issues",
 "freddicove"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
 "maze"		=> "Game is playable, but settings aren't saved".
@@ -290,18 +294,14 @@ $notes = array(
 		   "<br>- Various issues",
 "pjs-demo"	=> "No known issues, game is completable",
 "pajama"	=> "Game is completable, with minor glitches".
-		   "<br>- Some quiz responses aren't positioned correctly".
-		   "<br>- Garbage is shown for ending credit subtitles".
 		   "<br>- No songs",
 "pj2demo"	=> "No known issues, game is completable",
 "pajama2"	=> "Game is completable, with minor glitches".
 		   "<br>- Actor limbs sometimes aren't visible",
 "pj3-demo"	=> "Game is completable, with minor glitches".
-		   "<br>- Not able to select some actors".
-		   "<br>- Various graphicial glitches",
+		   "<br>- Various issues",
 "pajama3"	=> "Game is playable but not completable".
-		   "<br>- Not able to select some actors".
-		   "<br>- Various graphicial glitches",
+		   "<br>- Various issues",
 "smaller"	=> "Only shows introduction",
 "lost"		=> "Only shows introduction",
 "socks"		=> "Game is playable, but settings aren't saved".
@@ -331,7 +331,8 @@ $notes = array(
 "zoodemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Inventory background and items are often not redrawn",
 "putttime"	=> "Game is completable, with minor glitches".
-		   "<br>- Inventory background and items are often not redrawn",
+		   "<br>- Inventory background and items are often not redrawn".
+		   "<br>- No songs",
 "timedemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Inventory background and items are often not redrawn",
 "balloon"	=> "Game is playable, but settings aren't saved".
