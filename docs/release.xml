@@ -14,8 +14,8 @@
 	<h2>Game Compatibility</h2>
 <p>
 	<B>Release status:</BR><BR>
-	&nbsp;&nbsp;&nbsp; * Left to test: Simon1/2 Talkies<BR>
-	&nbsp;&nbsp;&nbsp; * RC Bugs in: ZakV2 (4 RC's), Indy3EGA (1 RC)<BR>
+	&nbsp;&nbsp;&nbsp; * Left to test: Simon 1/2 Talkies<BR>
+	&nbsp;&nbsp;&nbsp; * RC Bugs in: ZakV2 (3 RC's)<BR>
 	&nbsp;&nbsp;&nbsp; * Generic engine-wide RC bugs: 1 (#747984)<BR>
 	<HR>
 	The following games need to be tested with the latest CVS snapshots:
@@ -34,8 +34,8 @@
 <tr><td colspan=4><center><B>SCUMM Engine</B></center></td></tr>
 <tr><td>Maniac (V2)</td><td>Wishbone: 11 Jul (Syd-Bernard), logicd: 13 Jul (Mic-Jeff)</td><td>...</td><td>x86 DC Palm WinCE</td></tr>
 <tr><td>Zak (V2)</td><td>voodoofx: 15 Jul</td><td>770699 771483 771499</td><td>x86 DC Palm WinCE</td></tr>
-<tr><td>Zak256</td><td>voodoofx: 12 Jul</td><td>...</td><td>x86 DC Palm WinCE</td></tr>
-<tr><td>Indy3EGA</td><td>Dan Fabulich: 14 Jul</td><td>770690 (can esc past)</td><td>x86 WinCE</td></tr>
+<tr><td>Zak256</td><td>VoodooFX: 12 Jul</td><td>...</td><td>x86 DC Palm WinCE</td></tr>
+<tr><td>Indy3EGA</td><td>Dan Fabulich: 14 Jul</td><td>...</td><td>x86 WinCE</td></tr>
 <tr><td>Indy3 (VGA)</td><td>Dan Fabulich: 10 Jul</td><td>...</td><td>x86 DC WinCE</td></tr>
 <tr><td>LoomEGA</td><td>inguin: 13 Jul</td><td>...</td><td>x86 WinCE</td></tr>
 <tr><td>Loom (CD)</td><td>voodoofx: 12 Jul</td><td>...</td><td>x86 DC WinCE</td></tr>
