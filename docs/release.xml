@@ -27,31 +27,31 @@
 </tr>
 
 <tr><td colspan=4><center><B>SCUMM Engine</B></center></td></tr>
-<tr><td>Maniac (V2)</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
-<tr><td>Zak (V2)</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
-<tr><td>Zak256</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+<tr><td>Maniac (V2)</td><td>Needs Testing</td><td>...</td><td>x86 DC</td></tr>
+<tr><td>Zak (V2)</td><td>Needs Testing</td><td>...</td><td>x86 DC</td></tr>
+<tr><td>Zak256</td><td>Needs Testing</td><td>...</td><td>x86 DC</td></tr>
 <tr><td>Indy3EGA</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
-<tr><td>Indy3 (VGA)</td><td>Dan Fabulich: 10 Jul</td><td>...</td><td>x86</td></tr>
+<tr><td>Indy3 (VGA)</td><td>Dan Fabulich: 10 Jul</td><td>...</td><td>x86 DC</td></tr>
 <tr><td>LoomEGA</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
-<tr><td>Loom (CD)</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+<tr><td>Loom (CD)</td><td>Needs Testing</td><td>...</td><td>x86 DC</td></tr>
 <tr><td>MonkeyEGA</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
-<tr><td>Monkey (VGA)</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
-<tr><td>Atlantis</td><td>Dan Fabulich: 10 Jul (team)</td><td>...</td><td>x86</td></tr>
-<tr><td>Monkey2</td><td>Dan Fabulich: 10 Jul</td><td>...</td><td>x86</td></tr>
-<tr><td>Tentacle</td><td>Dan Fabulich: 10 Jul</td><td>...</td><td>x86</td></tr>
-<tr><td>Samnmax</td><td>Dan Fabulich: 10 Jul</td><td>...</td><td>x86</td></tr>
-<tr><td>Dig</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
-<tr><td>ComI</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+<tr><td>Monkey (VGA)</td><td>Needs Testing</td><td>...</td><td>x86 DC</td></tr>
+<tr><td>Atlantis</td><td>Dan Fabulich: 10 Jul (team)</td><td>...</td><td>x86 DC</td></tr>
+<tr><td>Monkey2</td><td>Dan Fabulich: 10 Jul</td><td>...</td><td>x86 DC</td></tr>
+<tr><td>Tentacle</td><td>Dan Fabulich: 10 Jul</td><td>...</td><td>x86 DC</td></tr>
+<tr><td>Samnmax</td><td>Dan Fabulich: 10 Jul</td><td>...</td><td>x86 DC</td></tr>
+<tr><td>Dig</td><td>Needs Testing</td><td>...</td><td>x86 DC?</td></tr>
+<tr><td>ComI</td><td>Needs Testing</td><td>...</td><td>x86 -DC</td></tr>
 
 <tr><td colspan=4><center><B>SKY Engine</B></center></td></tr>
-<tr><td>Sky (Floppy)</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
-<tr><td>Sky (CD)</td><td>Ender: 11 Jul</td><td>...</td><td>x86</td></tr>
+<tr><td>Sky (Floppy)</td><td>Needs Testing</td><td>...</td><td>x86 -DC</td></tr>
+<tr><td>Sky (CD)</td><td>Ender: 11 Jul</td><td>...</td><td>x86  -DC</td></tr>
 
 <tr><td colspan=4><center><B>Simon Engine</B></center></td></tr>
-<tr><td>Simon1 (talkie)</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
-<tr><td>Simon2 (talkie)</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
-<tr><td>Simon1 (floppy)</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
-<tr><td>Simon2 (floppy)</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+<tr><td>Simon1 (talkie)</td><td>Needs Testing</td><td>...</td><td>x86 -DC</td></tr>
+<tr><td>Simon2 (talkie)</td><td>Needs Testing</td><td>...</td><td>x86 -DC</td></tr>
+<tr><td>Simon1 (floppy)</td><td>Needs Testing</td><td>...</td><td>x86 -DC</td></tr>
+<tr><td>Simon2 (floppy)</td><td>Needs Testing</td><td>...</td><td>x86 -DC</td></tr>
 
 </table>
 <p>
