@@ -55,7 +55,7 @@ echo html_round_frame_start("Links","98%","",20);
 	</p>
 
 	<p>
-	  <a href="http://www.zak256.com/"><b>Zak256 :: The Zak256 Project</b></a>
+          <a href="http://zak256.sourceforge.net/"><b>Zak256 :: The Zak256 Project</b></a>
 	  <ul>
 	    The ZakMcKracken and the Alien Mindbenders in 256 colors project. This project is
 	    working to get this Towns-FM version of Zak translated and working.
