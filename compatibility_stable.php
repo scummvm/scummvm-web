@@ -12,7 +12,7 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("ScummVM :: Compatibility - CVS");
+html_header("ScummVM :: Compatibility - 0.6.0");
 sidebar_start();
 
 //display welcome table
