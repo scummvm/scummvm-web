@@ -31,8 +31,8 @@ echo html_round_frame_start("Website Revamp contest poll","");
 	<td align="center"><a href="draven.jpg" target="_blank"><img src="draven-thumb.jpg" height="120" width="120" alt="draven"><br>draven</a></td>
 	<td align="center"><a href="jeanm.png" target="_blank"><img src="jeanm-thumb.png" height="120" width="120" alt="jeanm"><br>jeanm</a></td>
 	</tr>
-	</table>
 	
+<tr coslpan=3><td>
 <!-- // Begin Pollhost.com Poll Code // -->
 <form method=post action=http://poll.pollhost.com/vote.cgi>
 <table border=0 width=150 bgcolor=#EEEEEE cellspacing=0 cellpadding=2>
@@ -48,6 +48,9 @@ echo html_round_frame_start("Website Revamp contest poll","");
 <tr><td bgcolor=#FFFFFF colspan=2 align=right><font face="Arial" size=-2 color="#000000"><a href=http://www.pollhost.com/><font color=#000099>Free polls from Pollhost.com</font></a></td></tr>
 </table></form>
 <!-- // End Pollhost.com Poll Code // -->
+</td></tr>
+	</table>
+
 
 	<p>For techincal reasons, the actual poll is hosted at an
 	external location. And somewhat annoyingly, it's adware-driven.
