@@ -137,18 +137,18 @@ $notes = array(
                    "<br>- No music",
 "simon2talkie"  => "Game is completable.".
                    "<br>- Will freeze when waking up in Sordid's Tower if Simon isn't moved straight away".
-                   "<br>- No music and background sound effects are missing".
+                   "<br>- No music".
                    "<br>- Part of introduction is skipped".
                    "<br>- Various minor graphical glitches",
 "simon2win"     => "Game is completable.".
                    "<br>- Will freeze when waking up in Sordid's Tower if Simon isn't moved straight away".
                    "<br>- Music currently only works on MorphOS and Windows systems".
-                   "<br>- Background sound effects and some music is missing".
+                   "<br>- Some music is missing".
                    "<br>- Part of introduction is skipped".
                    "<br>- Various minor graphical glitches",
 "simon2dos"     => "Game is completable to a point, but not playable to the end".
                    "<br>- Will freeze during sequence shown when trying to escape from pirate ship".
-                   "<br>- No music and background sound effects are missing".
+                   "<br>- No music".
                    "<br>- Part of introduction is skipped".
                    "<br>- Various minor graphical glitches"
 );
