@@ -22,14 +22,11 @@ details.</p>
     <td>CLUSTERS folder<br>
       MUSIC folder<br>
       SPEECH folder<br>
-      SMACKSHI folder (High quality) or<br>
-      SMACKSLO folder (Low quality)</td>
   </tr>
   <tr>
     <td>Broken Sword 2</td>
     <td>*.clu<br>
       *.inf<br>
-      *.smk<br>
       *.tab<br>
       cd.bin<br>
       Rename music.clu on CD1 to music1.clu<br>
