@@ -26,8 +26,6 @@
 		in the game but you can normally just leave the room.
 		<li>There should be an 'Object line' option as per the menu that will show the names of objects at the
 		bottom of the screen when they are moused over.
-		<li>language.tab is neither opened or parsed, until this is done all localised versions will only show
-		english strings.
 	</ul>
 <li>Sound:
 	<ul>
