@@ -22,7 +22,13 @@ echo html_frame_start("","100%",1,1);
 
 if ($view and file_exists($file_root."/docs/".$view.".xml"))
 {
-    echo html_frame_tr(html_frame_td(display_xml($file_root."/docs/".$view.".xml",'BODY').html_p()));
+	// First extract the body from the XML file
+	$html = display_xml($file_root."/docs/".$view.".xml",'BODY');
+	// Now evaluate any PHP code embded into it
+	$html = eval("?>" . $html . "<?php ");
+	
+	// Finally disply the result
+    echo html_frame_tr(html_frame_td($html . html_p()));
 }
 else
 {
