@@ -220,8 +220,10 @@ $notes = array(
 		   "<br>- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders".
 		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
 "sword1"	=> "Game is completable.".
-		   "<br>- Czech support is untested. If you have a czech version, please contact us.",
-"sword2"	=> "Game is completable.",
+		   "<br>- Czech support is untested. If you have a czech version, please contact us.".
+		   "<br>- Only the PC version has been tested. We don't have any other versions, so we can't make any promises about them.",
+"sword2"	=> "Game is completable.".
+		   "<br>- Only the PC version has been tested. We don't have any other versions, so we can't make any promises about them.",
 "queen"		=> "Game is completable.".
 		   "<br>- Some versions may require the <a href=\"http://0x.7fc1.org/fotaq/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases",
 "simon1win" 	=> "No known problems - game is completable.",
