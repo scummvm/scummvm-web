@@ -54,11 +54,13 @@ else
 
 // This Array Defines the games and thier ratings, etc.
 $games = array(
-		'Maniac Mansion'					=> array('2','maniac','53'),
-		'Zak McKracken and the Alien Mindbenders'		=> array('2','zak','53'),
+		'Maniac Mansion (original)'				=> array('1','maniac','20'),
+		'Maniac Mansion (enhanced)'				=> array('2','maniac','70'),
+		'Zak McKracken and the Alien Mindbenders (original)'	=> array('1','zak','20'),
+		'Zak McKracken and the Alien Mindbenders (enhanced)'	=> array('2','zak','70'),
+		'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','85'),
 		'Indiana Jones and the Last Crusade'			=> array('3','indy3ega','80'),
 		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','80'),
-		'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','85'),
 		'Loom'							=> array('3','loom','80'),
 		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','80'),
 		'Passport to Adventure (Indy3, Monkey and Loom demos)'  => array('4','pass','50'),
@@ -83,8 +85,8 @@ $games = array(
 		'Full Throttle'						=> array('7','ft','60'),
 		'The Dig'                                               => array('7','dig','85'),
 		'Curse of Monkey Island'				=> array('8','comi','80'),
-		'Beneath a Steel Sky'			       		=> array('n/a','sky','5'),
-		'Simon The Sorcerer 1 Talkie (Win)'       		=> array('n/a','simon1win','85'),
+		'Beneath a Steel Sky'			       		=> array('n/a','sky','20'),
+ 		'Simon The Sorcerer 1 Talkie (Win)'			=> array('n/a','simon1win','85'),
 		'Simon The Sorcerer 1 Talkie (DOS)'       		=> array('n/a','simon1talkie','85'),
 		'Simon The Sorcerer 1 Talkie (Amiga CD32)'     		=> array('n/a','simon1cd32','5'),
 		'Simon The Sorcerer 1 (DOS)'           			=> array('n/a','simon1dos','83'),
@@ -97,13 +99,13 @@ $games = array(
 	      );
 
 $notes = array(
-"maniac"	=> "Enhanced PC version runs, although in-game there are still many things wrong".
-		   "<br>Classic PC version crashes when entering the next room".
+"maniac"	=> "Enhanced PC version is completable, with several minor glitches".
+		   "<br>Classic version still in progress, results may vary".
 		   "<br>- Both Amiga and PC versions supported by this target".
 		   "<br>- No actors shown in Classic PC version".
 		   "<br>- No music or sound effects with Amiga and Classic PC versions",
-"zak"		=> "Enhanced PC version runs, although in-game there are still many things wrong".
-		   "<br>Classic PC version is untested".
+"zak"		=> "Enhanced PC version runs, with glitches. May be completable".
+		   "<br>Classic version still in progress, results may vary".
 		   "<br>- Both Amiga and PC versions supported by this target".
 		   "<br>- No actors shown in Classic PC version".
 		   "<br>- No music or sound effects with Amiga and Classic PC versions",
@@ -173,7 +175,8 @@ $notes = array(
 		   "<br>- Derby scene is only properly controllable using the mouse",
 "dig"		=> "Game is fully completable, with some minor sound issues",
 "comi"		=> "Game is fully completable, although ship-to-ship is broken and several graphical glitches are present",
-"sky"	 	=> "Only the introduction works so far.",
+"sky"	 	=> "Game will run intro sequence and first few rooms, but is not completable".
+		   "<br>- Numerous opcodes are not implemented, so the game will exit frequently",
 "simon1win" 	=> "Game is completable.".
                    "<br>- Minor graphical glitches when using ring".
                    "<br>- Minor graphical glitch with Sordid statue after leaving room",
