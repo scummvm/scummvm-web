@@ -103,7 +103,13 @@ echo html_round_frame_start("Contact","98%","",20);
       <tr>
 	    <td>Claudio Matsuoka</td>
 	    <td></td>
-	    <td>- Daily builds (<a href="http://scummvm.sf.net/daily/">http://scummvm.sf.net/daily/</a>)</td>
+	    <td>- Daily Linux/BeOS builds (<a href="http://scummvm.sf.net/daily/">http://scummvm.sf.net/daily/</a>)</td>
+	  </tr>
+
+      <tr>
+	    <td>Travis Howell</td>
+	    <td>[ Kirben ]</td>
+	    <td>- Daily Win32 builds</td>
 	  </tr>
 
       <tr>
