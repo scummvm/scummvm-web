@@ -1,18 +1,18 @@
 <NAME>Curse of Monkey Island - Known issues</NAME>
 <DESC>This is a list of current issues that need in SCUMM V8 support</DESC>
 <BODY>
-                <style>
-                        h2 {
-                                margin-bottom: 0px;
-                        }
-                        h3 {
-                                margin-bottom: 0px;
-                        }
+		<style>
+			h2 {
+				margin-bottom: 0px;
+			}
+			h3 {
+				margin-bottom: 0px;
+			}
 
-                        ul {
-                                padding-bottom: 10px;
-                        }
-                </style>
+			ul {
+				padding-bottom: 10px;
+			}
+		</style>
 <ul>
 <li>Generic:
 	<ul>
@@ -26,10 +26,10 @@ Pirate - save game at http://www.enderboi.com/misc/comi.s04
 		<li>Some text does not undraw correctly, again leaving behind artifacts
 	</ul>
 <li>Inventory:
-	<ul>
-		<li>Click on an object in the inventory. Right click to 'drop it'.. now click on any blank space in the inventory. B00M!
-	</ul>
 <li>Conversation:
+	<ul>
+		<li>The background of the conversation verbs is not redrawn properly. Specifically, if they are above actors, the actors are not always drawn when the verb is redrawn
+	</ul>
 <li>Actor:
 	<ul>
 		<li>The CHORE opcode still seems to be returning dodgy results
