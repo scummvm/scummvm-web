@@ -91,7 +91,7 @@ $games = array(
 		'Beneath a Steel Sky'			       		=> array('n/a','sky','90'),
  		'Simon The Sorcerer 1 Talkie (Win)'			=> array('n/a','simon1win','90'),
 		'Simon The Sorcerer 1 Talkie (DOS)'       		=> array('n/a','simon1talkie','90'),
-		'Simon The Sorcerer 1 Talkie (Amiga CD32)'     		=> array('n/a','simon1cd32','5'),
+		'Simon The Sorcerer 1 Talkie (Amiga CD32)'     		=> array('n/a','simon1cd32','8'),
 		'Simon The Sorcerer 1 (DOS)'           			=> array('n/a','simon1dos','88'),
 		'Simon The Sorcerer 1 (Amiga)'          		=> array('n/a','simon1amiga','5'),
 		'Simon The Sorcerer 1 (Demo)'          			=> array('n/a','simon1demo','88'),
@@ -201,7 +201,7 @@ $notes = array(
                    "<br>- No inventory scrolling arrows shown, can still move around inventory though",
 "simon1cd32" 	=> "Game works a bit but can't see anything".
                    "<br>- All graphics are decoded incorrectly".
-                   "<br>- No music, sound effects or speech",
+                   "<br>- No music",
 "simon1dos" 	=> "Game is completable.".
                    "<br>- Freezes briefly when Swampling leaves his house".
                    "<br>- Freezes briefly when talking to demons in Sordid's Tower".
