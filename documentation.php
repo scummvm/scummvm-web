@@ -36,10 +36,18 @@ else
     // intro
     echo html_frame_tr(
                 html_frame_td(
-                              html_b("Documentation").html_br().
-                              html_line().html_br(2)
+                              "<h1>Documentation</h1>".html_br()
                              )
                       );
+
+	// Hard code link to README for now...
+	echo html_frame_tr(
+				html_frame_td(
+							  html_ahref("README 0.6.1","http://cvs.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/README?rev=1.256.2.13").html_br().
+							  "The ScummVM README, for version 0.6.1.".html_br(2)."\n"
+							 )
+					  );
+
 
     // get list of documentation items
     $docs = get_files($file_root."/docs","xml");
