@@ -1,0 +1,46 @@
+<NAME>Curse of Monkey Island - Known issues</NAME>
+<DESC>This is a list of current issues that need in SCUMM V8 support</DESC>
+<BODY>
+                <style>
+                        h2 {
+                                margin-bottom: 0px;
+                        }
+                        h3 {
+                                margin-bottom: 0px;
+                        }
+
+                        ul {
+                                padding-bottom: 10px;
+                        }
+                </style>
+<ul>
+<li>Generic:
+	<ul>
+		<li>No SMUSH: aquadran is working on this one
+	</ul>
+<li>Inventory:
+	<ul>
+		<li>Click on an object in the inventory. Right click to 'drop it'.. now click on any blank space in the inventory. B00M!
+	</ul>
+<li> Conversation:
+	<ul>
+		<li>Frequently conversations will crash with a "Too Many Verbs" error. Easiest step to
+	  	    reproduce is to save a game before talking to somebody.. if talking to them the first
+		    time doesn't trigger it, the save probably will. NOTE: This does not seem to happen to
+		    characters who say something before the conversation menu comes up - eg, Wally. Try
+		    talking to Murray after blowing the ships away.
+		<li>An flobject loading error seems to cause frequent crashes in later conversations.
+		    Specifically the object never seems to be loaded in some sequences. Eg, talking to the
+		    voodoo lady - during the first conversation, the object (188/189) is loaded. But after
+		    the cutscene where Guybrush finds Elaine stolen, on returning the object is unloaded
+		    and after the automated conversation the game will crash because it is unlocatable.
+	</ul>
+<li>Actor:
+	<ul>
+		<li>The CHORE opcode still seems to be returning dodgy results
+		<li>Lack of MouthSync stuff causes odd actor speech animations
+		<li>Lack of MusicMouthSync will stop entry into Part 3 (hang during song sequence)
+	</ul>
+</ul>
+
+</BODY>
