@@ -19,7 +19,8 @@ details.</p>
   </tr>
   <tr>
     <td>Broken Sword 1</td>
-    <td>CLUSTERS folder<br>
+    <td>*.clu<br>
+      swordres.rif<br>
       MUSIC folder<br>
       SPEECH folder<br>
   </tr>
@@ -56,12 +57,10 @@ details.</p>
   <tr>
     <td>Dig, The</td>
     <td>VIDEO folder<br>
-      BIGFONT.NUT<br>
       DIG.LA0<br>
       DIG.LA1<br>
       DIGMUSIC.BUN<br>
       DIGVOICE.BUN<br>
-      SMLFONT.NUT</td>
   </tr>
   <tr>
     <td>Dig, The (Demo)</td>
@@ -84,11 +83,9 @@ details.</p>
     <td>Full Throttle</td>
     <td>DATA foler<br>
       VIDEO folder<br>
-      BRUSH.NUT<br>
       FT.LA0<br>
       FT.LA1<br>
       MONSTER.SOU<br>
-      TITLFNT.NUT</td>
   </tr>
   <tr>
     <td>Full Throttle (Demo)</td>
