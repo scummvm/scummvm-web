@@ -53,6 +53,8 @@
 		<ul>
 			<li>Fix Actor masking</li>
 			<li>Fix graphical glitches when actors the move diagonally</li>
+			<li>Fix problem of last few lines of room gfx. often not been shown after changing roons</li>
+			<li>Fix problem of verb area when shown when it should be hidden (ie keypad)</li>
 			<li>Fix issues with text been cut off in demo mode</li>
 		</ul>
 		<li><h4>Maniac Mansion Enchanced</h4>
@@ -64,7 +66,9 @@
 		<ul>
 			<li>Fix actor masking</li>
 			<li>Fix graphical glitches when actors the move diagonally</li>
-			<li>Fix room palette problems</li>
+			<li>Fix problem of last few lines of room gfx. often not been shown after changing roons</li>
+			<li>Fix problem of verb area when shown when it should be hidden (ie keypad)</li>
+			<li>Fix room palette remapping problems</li>
 		</ul>
 		<li><h4>Zak McKracken Enchanced</h4>
 		<ul>
