@@ -103,7 +103,7 @@ $games = array(
  		'Simon The Sorcerer 1 Talkie (Acorn)'			=> array('n/a','simon1acorn','90'),
 		'Simon The Sorcerer 1 (DOS)'           			=> array('n/a','simon1dos','90'),
 		'Simon The Sorcerer 1 (Amiga)'          		=> array('n/a','simon1amiga','5'),
-		'Simon The Sorcerer 1 (Demo)'          			=> array('n/a','simon1demo','88'),
+		'Simon The Sorcerer 1 (Demo)'          			=> array('n/a','simon1demo','90'),
 		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','95'),
 		'Simon The Sorcerer 2 Talkie (DOS)'       		=> array('n/a','simon2talkie','90'),
 		'Simon The Sorcerer 2 Talkie (Amiga or Mac)'       	=> array('n/a','simon2mac','90'),
@@ -245,8 +245,7 @@ $notes = array(
 "simon1amiga" 	=> "Game works a bit but can't see anything".
                    "<br>- All graphics are decoded incorrectly".
                    "<br>- No music",
-"simon1demo" 	=> "Game demo is completable".
-                   "<br>- Freezes briefly when Swampling leaves his house",
+"simon1demo" 	=> "Game demo is completable",
 "simon2win"     => "No known problems - game is completable.",
 "simon2talkie"  => "Game is completable.".
                    "<br>- When subtiles are enabled, it freezes briefly when Pirate Captain is talking to Mate, when Simon tries to escape",
