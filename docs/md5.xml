@@ -175,7 +175,12 @@ function addEntry($variant, $platform, $language, $md5, $target = "???", $source
 
 
 	<tr><td colspan="7"><strong>Putt-Putt Joins The Parade</strong></td></tr>
-		<?php addEntry("Demo", "PC", "en", "31aa57f460a3d12429f0552a46a90b39", "puttdemo"); ?>
+		<?php addEntry("Demo", "PC DOS", "en", "31aa57f460a3d12429f0552a46a90b39", "puttdemo"); ?>
+		<?php addEntry("Demo", "PC Windows", "en", "37ff1b308999c4cca7319edfcc1280a0", "puttdemo"); ?>
+		<?php addEntry("Demo", "Mac", "en", "f40a7f495f59188ca57a9d1d50301bb6", "puttdemo"); ?>
+		<?php addEntry("-", "PC DOS", "en", "9708cf716ed8bcc9ff3fcfc69413b746", "puttputt"); ?>
+		<?php addEntry("-", "PC Windows", "en", "6a30a07f353a75cdc602db27d73e1b42", "puttputt"); ?>
+		<?php addEntry("-", "3DO", "en", "7e151c17adf624f1966c8fc5827c95e9", "puttputt"); ?>
 
 	<tr><td colspan="7"><strong>Putt-Putt Goes To The Moon</strong></td></tr>
 		<?php addEntry("Demo", "PC", "en", "aa6a91b7f6f119d1b7b1f2a4c9e24d59", "puttdemo"); ?>
@@ -195,7 +200,9 @@ function addEntry($variant, $platform, $language, $md5, $target = "???", $source
 		<?php addEntry("-", "PC", "nl", "c3b22fa4654bb580b20325ebf4174841", "TODO"); ?>
 
 	<tr><td colspan="7"><strong>Fatty Bears Birthday Surprise</strong></td></tr>
-		<?php addEntry("-", "PC", "en", "179879b6e35c1ead0d93aab26db0951b", "TODO"); ?>
+		<?php addEntry("-", "PC DOS", "en", "3824e60cdf639d22f6df92a03dc4b131", "TODO"); ?>
+		<?php addEntry("-", "PC Windows", "en", "179879b6e35c1ead0d93aab26db0951b", "TODO"); ?>
+		<?php addEntry("-", "Mac", "en", "df6ead57930488bc61e6e41901d0e97", "TODO"); ?>
 
 	<tr><td colspan="7"><strong>Fatty Bears Fun Pack</strong></td></tr>
 		<tr><td colspan="7"><em>TODO</em></td></tr>
@@ -222,17 +229,9 @@ function addEntry($variant, $platform, $language, $md5, $target = "???", $source
 <p>To be added (didn't get around to putting this into the right places yet):</p>
 <pre>
 The following are from khalek/Jonathan Gray:
-fbear dos en 3824e60cdf639d22f6df92a03dc4b131
-fbear win32 en 179879b6e35c1ead0d93aab26db0951b
-fbear mac en df6ead57930488bc61e6e41901d0e97
-puttputt dos en 9708cf716ed8bcc9ff3fcfc69413b746
-puttputt win32 en 6a30a07f353a75cdc602db27d73e1b42
-puttputt 3D0 en 7e151c17adf624f1966c8fc5827c95e9
 zoodemo pc en f3d55aea441e260e9e9c7d2a187097e0
 zoodemo pc en de4efb910210736813c9a1185384bace
 moondemo mac en 4af4a6b248103c1fe9edef619677f540
-puttdemo mac en f40a7f495f59188ca57a9d1d50301bb6
-puttdemo win32 en 37ff1b308999c4cca7319edfcc1280a0
 airdemo pc en 86c9902b7bec1a17926d4dae85beaa45
 airdemo pc en e144f5f49d9241d2a9dee2576b3d09cb
 airdemo pc en 8ffd618a776a4c0d8922bb28b09f8ce8
