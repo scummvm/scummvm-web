@@ -937,6 +937,31 @@ full game respectively.</p>
 <tr><td>3961</td><td>1</td><td>28: *new warehouse return to paris</td></tr>
 </table>
 
+<p>The following boot params are listed in startup.inf, but do not register
+themselves as starting points.</p>
+
+<table border="1" cellspacing="0" cellpadding="2">
+<tr><th>Param</th><th>Description</th></tr>
+<tr><td>599</td><td>Outside Oubier's house.</td></tr>
+<tr><td>627</td><td>???</td></tr>
+<tr><td>1106</td><td>???</td></tr>
+<tr><td>1113</td><td>???</td></tr>
+<tr><td>1469</td><td>Looking through the theodolite.</td></tr>
+<tr><td>2114</td><td>???</td></tr>
+<tr><td>2191</td><td>???</td></tr>
+<tr><td>2202</td><td>???</td></tr>
+<tr><td>2330</td><td>???</td></tr>
+<tr><td>2354</td><td>???</td></tr>
+<tr><td>2462</td><td>Near end of game.</td></tr>
+<tr><td>2641</td><td>Inside pyramid.</td></tr>
+<tr><td>2747</td><td>???</td></tr>
+<tr><td>3219</td><td>???</td></tr>
+<tr><td>3297</td><td>???</td></tr>
+<tr><td>3467</td><td>Death screen.</td></tr>
+<tr><td>3842</td><td>???</td></tr>
+<tr><td>3878</td><td>BASS easter egg.</td></tr>
+</table>
+
 <!--
 <br><a name="TARGET"></a>
 <h2>FOO</h2>
