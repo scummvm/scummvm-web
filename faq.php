@@ -26,7 +26,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 </p>
 
 <ol>
- <li><a href="#1">Introduction</a></li>
+ <li><a href="#1">Introduction</a>
    <ol>
        <li><a href="#11">Why is it called ScummVM - what does this name mean?</a></li>
        <li><a href="#12">What is SCUMM?</a></li>
@@ -39,8 +39,9 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
        <li><a href="#19">On what platforms does ScummVM run?</a></li>
        <li><a href="#110">Does ScummVM run any non Scumm games?</a></li>
     </ol>
+  </li>
     
-  <li><a href="#2">ScummVM and SCUMM games</a></li>
+  <li><a href="#2">ScummVM and SCUMM games</a>
     <ol>
        <li><a href="#21">Do I need original CDs/Floppies?</a></li>
        <li><a href="#22">Does ScummVM work with all versions of games?</a></li>
@@ -48,17 +49,18 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
        <li><a href="#24">Can I save/load the game?</a></li>
        <li><a href="#25">Do savegames from the original work in ScummVM?</a></li>
     </ol>
+  </li>
     
-  <li><a href="3">Graphics and Audio</a></li>
+  <li><a href="3">Graphics and Audio</a>
     <ol>
       <li><a href="31">Does ScummVM support CD audio?</a></li>
       <li><a href="32">Does ScummVM support using MP3 files instead of CD audio?</a></li>
       <li><a href="33">Does ScummVM support filtered graphics modes?</a></li>
       <li><a href="34">Can I run my game full screen?</a></li>
     </ol>
+  </li>
 
-
-  <li><a href="4">Troubleshooting</a></li>
+  <li><a href="4">Troubleshooting</a>
     <ol>
       <li><a href="41">My game won't run.</a></li>
       <li><a href="42">I don't hear any sound.</a></li>
@@ -67,7 +69,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
       <li><a href="45">The game colors are messed up.</a></li>
       <li><a href="46">Reporting Bugs.</a></li>
     </ol>
-    
+  </li>
 </ol>
 
 <p>
@@ -76,7 +78,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 
 <ol>
 
-  <li><a name="1"></a><b>Introduction</b></li><br>
+  <li><a name="1"></a><b>Introduction</b><br>
 
     <ol>
       <li><a name="11"></a><b>Why is it called ScummVM - what does this name mean?</b></li>
@@ -135,8 +137,9 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	be added to the <a href="compatibility.php">Compatibility List</a>.<br><br>
 	
     </ol>
-  
-  <li><a name="2"></a><b>ScummVM and SCUMM games</b></li><br>
+  </li>
+
+  <li><a name="2"></a><b>ScummVM and SCUMM games</b><br>
 
     <ol>
       <li><a name="21"></a><b>Do I need original CD or Floppy disks?</b></li>
@@ -160,8 +163,9 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	savegames again in the future.<br><br>
 
     </ol>
+  </li>
 
-  <li><a name="3"></a><b>Graphics and Audio</b></li><br>
+  <li><a name="3"></a><b>Graphics and Audio</b><br>
 
     <ol>
       <li><a name="31"></a><b>Does ScummVM support CD audio?</b></li>
@@ -186,8 +190,9 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	Alt+Enter in game to switch between full screen and windowed modes.<br><br>
       
     </ol>
-      
-  <li><a name="4"></a><b>Troubleshooting</b></li><br>
+  </li>
+
+  <li><a name="4"></a><b>Troubleshooting</b><br>
 
     <ol>
       <li><a name="41"></a><b>My game won't run.</b></li>
@@ -224,6 +229,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	the issue is not already known.<br><br>
             
     </ol>
+  </li>
 
 </ol>
 
