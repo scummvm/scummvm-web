@@ -23,11 +23,11 @@ echo html_round_frame_start("Links","98%","",20);
 	  <big><b>Links</b></big><br>
 	  <? echo html_line(); ?>
 	</p>
+	
 	<p>
 	  The following are links to other classic game engine open source projects similar
 	  to ScummVM.<br>
 	</p>
-
 
 	<p>
 	  <a href="http://exult.sourceforge.net/"><b>Exult :: Ultima VII</b></a>
@@ -61,7 +61,15 @@ echo html_round_frame_start("Links","98%","",20);
 	    working to get this Towns-FM version of Zak translated and working.
 	  </ul>
 	</p>
-	
+
+	<div align=center>
+	<table with=300 border=0><tr><td>
+	  <img src="images/scummvm-link.png" border=0 width=88 height=31 alt="ScummVM" align=left>
+	  <b>Link to us:</b><br>
+	  If you want to link your site to us. Please feel free to use this image.
+	</td></tr></table>
+	</div>
+		
 <?
 
 echo html_round_frame_end("&nbsp;");
