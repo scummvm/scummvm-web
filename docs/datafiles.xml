@@ -100,6 +100,50 @@ details.</p>
     <td>QUEEN.1</td>
   </tr>
   <tr>
+    <td>Freddi Fish 1: The Case of the Missing Kelp Seeds (Demo)</td>
+    <td>freddemo.he0<br>
+      freddemo.he1<br>
+      freddemo.he2<br>
+      freddemo.he3<br>
+      freddemo.he4</td>
+  </tr>
+  <tr>
+    <td>Freddi Fish 1: The Case of the Missing Kelp Seeds</td>
+    <td>FREDDI.HE0<br>
+      FREDDI.HE1<br>
+      FREDDI.HE2<br>
+      FREDDI.HE3 (Older version only)<br>
+      FREDDI.HE4</td>
+  </tr>
+  <tr>
+    <td>Freddi Fish 2: The Case of the Haunted Schoolhouse (Demo)</td>
+    <td>FF2-DEMO.HE0<br>
+      FF2-DEMO.HE1<br>
+      FF2-DEMO.HE2<br>
+      FF2-DEMO.HE4</td>
+  </tr>
+  <tr>
+    <td>Freddi Fish 2: The Case of the Haunted Schoolhouse</td>
+    <td>Freddi2.he0<br>
+      Freddi2.he1 or Freddi2.(a)<br>
+      Freddi2.he2<br>
+      Freddi2.he4</td>
+  </tr>
+  <tr>
+    <td>Freddi Fish 3: The Case of the Stolen Conch Shell (Demo)</td>
+    <td>F3-MDEMO.HE0<br>
+      F3-MDEMO.HE1<br>
+      F3-MDEMO.HE2<br>
+      F3-MDEMO.HE4</td>
+  </tr>
+  <tr>
+    <td>Freddi Fish 3: The Case of the Stolen Conch Shell</td>
+    <td>FFREDDI3.HE0<br>
+      FREDDI3.HE1<br>
+      FREDDI3.HE2<br>
+      FREDDI3.HE4</td>
+  </tr>
+  <tr>
     <td>Full Throttle</td>
     <td>DATA folder<br>
       VIDEO folder<br>
@@ -154,6 +198,51 @@ details.</p>
     <td>*.LFL</td>
   </tr>
   <tr>
+    <td>Let's Explore the Airport with Buzzy (Demo)</td>
+    <td>AIRDEMO.HE0<br>
+      AIRDEMO.HE1<br>
+      AIRDEMO.HE2<br>
+      AIRDEMO.HE3</td>
+      AIRDEMO.HE4</td>
+      AIRDEMO.HE9</td>
+  </tr>
+  <tr>
+    <td>Let's Explore the Airport with Buzzy</td>
+    <td>AIRPORT.HE0<br>
+      AIRPORT.HE1<br>
+      AIRPORT.HE2<br>
+      AIRPORT.HE3</td>
+      AIRPORT.HE4</td>
+      AIRPORT.HE7</td>
+      AIRPORT.HE9</td>
+  </tr>
+  <tr>
+    <td>Let's Explore the Farm with Buzzy (Demo)</td>
+    <td>farmdemo.HE0<br>
+      farmdemo.HE1<br>
+      farmdemo.HE2<br>
+      farmdemo.HE3</td>
+      farmdemo.HE4</td>
+  </tr>
+  <tr>
+    <td>Let's Explore the Farm with Buzzy</td>
+    <td>FARM.HE0<br>
+      FARM.HE1<br>
+      FARM.HE2<br>
+      FARM.HE3</td>
+      FARM.HE4</td>
+      FARM.HE9</td>
+  </tr>
+  <tr>
+    <td>Let's Explore the Jungle with Buzzy</td>
+    <td>JUNGLE.HE0<br>
+      JUNGLE.HE1<br>
+      JUNGLE.HE2<br>
+      JUNGLE.HE3</td>
+      JUNGLE.HE4</td>
+      JUNGLE.HE9</td>
+  </tr>
+  <tr>
     <td>Loom (Amiga, FM-TOWNS** or PC EGA, or PC Demo)</td>
     <td>*.LFL</td>
   </tr>
@@ -195,6 +284,36 @@ details.</p>
       MI2DEMO.002</td>
   </tr>
   <tr>
+    <td>Pajama Sam 1: No Need to Hide When It's Dark Outside (Demo)</td>
+    <td>PJS-DEMO.HE0<br>
+      PJS-DEMO.HE1<br>
+      PJS-DEMO.HE2<br>
+      PJS-DEMO.HE4</td>
+  </tr>
+  <tr>
+    <td>Pajama Sam 1: No Need to Hide When It's Dark Outside </td>
+    <td>PAJAMA.HE0<br>
+      PAJAMA.HE1<br>
+      PAJAMA.HE2<br>
+      PAJAMA.HE3</td>
+      PAJAMA.HE4</td>
+      PAJAMA.HE7</td>
+  </tr>
+  <tr>
+    <td>Pajama Sam 2: Thunder and Lightning Aren't so Frightening (Demo)</td>
+    <td>PJ2DEMO.HE0<br>
+      PJ2DEMO.HE1<br>
+      PJ2DEMO.HE2<br>
+      PJ2DEMO.HE4</td>
+  </tr>
+  <tr>
+    <td>Pajama Sam 2: Thunder and Lightning Aren't so Frightening</td>
+    <td>PAJAMA2.HE0<br>
+      PAJAMA2.HE1<br>
+      PAJAMA2.HE2<br>
+      PAJAMA2.HE4</td>
+  </tr>
+  <tr>
     <td>Passport to Adventure (Indy3, Monkey and Loom demos)</td>
     <td>DISK01.LEC<br>
       *.LFL</td>
@@ -222,6 +341,22 @@ details.</p>
     <td>moondemo.he0<br>
       moondemo.he1<br>
       moondemo.tlk</td>
+  </tr>
+  <tr>
+    <td>Putt-Putt Saves the Zoo (Demo)</td>
+    <td>ZOODEMO.HE0<br>
+      ZOODEMO.HE1<br>
+      ZOODEMO.HE2<br>
+      ZOODEMO.HE3<br>
+      ZOODEMO.HE4</td>
+  </tr>
+  <tr>
+    <td>Putt-Putt Saves the Zoo</td>
+    <td>PUTTZOO.HE0<br>
+      PUTTZOO.HE1<br>
+      PUTTZOO.HE2<br>
+      PUTTZOO.HE3<br>
+      PUTTZOO.HE4</td>
   </tr>
   <tr>
     <td>Putt-Putt Goes To The Moon (DOS)&nbsp;</td>
