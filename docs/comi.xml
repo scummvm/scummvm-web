@@ -26,6 +26,8 @@
 		<li>Voices 'pop', and music decompressor uses too much CPU for smooth music playback
 		<li>Occasional crashes from 'sound que buffer overflow' (hard to reproduce)
 		<li>Lack of imGetMusicPosition kernel function breaks song sync in Part 3 intro
+		<li>another failed bundled assertion this time shortly after part 3 starts
+		scumm/bundle.cpp:855: int32 Bundle::decompressCodec(int, byte *, byte *, int, int, int32 &): Assertion `src < endPos' failed. Use shovel in savegame found at http://users.bigpond.net.au/tgray2/comi.s04 to start part 3
 	</ul>
 <li>Graphics:
 	<ul>
