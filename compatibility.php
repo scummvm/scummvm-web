@@ -97,7 +97,7 @@ $games = array(
 		'The Dig'                                               => array('7','dig','85'),
 		'Curse of Monkey Island'				=> array('8','comi','80'),
 		'Beneath a Steel Sky'			       		=> array('n/a','sky','90'),
-		'Broken Sword II'			       		=> array('n/a','sword2','10'),
+		'Broken Sword II'			       		=> array('n/a','sword2','70'),
  		'Simon The Sorcerer 1 Talkie (Win)'			=> array('n/a','simon1win','95'),
 		'Simon The Sorcerer 1 Talkie (DOS)'       		=> array('n/a','simon1talkie','90'),
 		'Simon The Sorcerer 1 Talkie (Amiga CD32)'     		=> array('n/a','simon1cd32','8'),
@@ -146,7 +146,8 @@ $notes = array(
                    "<br>- Various minor graphical glitches".
 		   "<br>- No music and no sound effects looping with Amiga version".
 		   "<br>- No music or sound effects with Mac version".
-		   "<br>- Atari ST and Mac verions require pcjr or pcspk music driver",
+		   "<br>- Atari ST and Mac verions require pcjr or pcspk music driver".
+		   "<br>- MIDI support requires the Roland update from LucasArts",
 "loomtowns"	=> "Game is completable".
 		   "<br>- Fades are seemingly different to other versions in some cases".
 		   "<br>- Text palette sometimes incorrect".
@@ -158,7 +159,9 @@ $notes = array(
 		       "<li>1 standard".
 		       "<li>2 expert</ul>".
 		   "<br>- Kanji version not yet supported",
-"monkeyega"	=> "Game is completable",
+"monkeyega"	=> "Game is completable".
+		   "<br>- Atari ST verion requires pcjr or pcspk music driver".
+		   "<br>- MIDI support requires the Roland update from LucasArts",
 "pass"		=> "Loom and Monkey Island demos are completable.".
                    "<br>- No subtitles in indy3 demo",
 "loomcd"        => "Game is completable.".
@@ -233,9 +236,9 @@ $notes = array(
 		   "<br>&nbsp;&nbsp;&nbsp;&nbsp;This is especcially noticable in the court- and Mrs. Piermont sequence.".
 		   "<br>- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders".
 		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
-"sword2"	 => "Game is still in progress, results may vary".
-		   "<br>- No anti-aliasing".
-		   "<br>- No music or sound effects",
+"sword2"	 => "Game is s completable, with several minor glitches".
+		   "<br>Wasn't tested on big endian systems, yet".
+		   "<br>- No anti-aliasing",
 "simon1win" 	=> "No known problems - game is completable.",
 "simon1talkie" 	=> "Game is completable.".
                     "<br>- No inventory scrolling arrows shown, can still move around inventory though",
