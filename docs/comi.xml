@@ -20,9 +20,6 @@
 	</ul>
 <li>Graphics:
 	<ul>
-		<li>Crash when starting banjo duel.. unknown reason. To reproduce, use
-		the glove in your inventory on the Dapper Pirate - save game at
-		<a href="http://www.enderboi.com/misc/comi.s04">http://www.enderboi.com/misc/comi.s04</a>
 		<li>Verb coin does not undraw correctly, leaving behind artifacts
 		<li>Some text does not undraw correctly, again leaving behind artifacts
 	</ul>
