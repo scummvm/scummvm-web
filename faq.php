@@ -37,7 +37,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
        <li><a href="#1-7">How do I compile the source code for my OS?</a></li>
        <li><a href="#1-8">What is the latest version of ScummVM?</a></li>
        <li><a href="#1-9">On what platforms does ScummVM run?</a></li>
-       <li><a href="#1-10">Does ScummVM run any non Scumm games?</a></li>
+       <li><a href="#1-10">Does ScummVM run any non SCUMM games?</a></li>
     </ol>
   </li>
     
@@ -95,28 +95,29 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	and Full Throttle.<br><br>
 
       <li><a name="1-3"></a><b>Is ScummVM free?</b></li>
-	ScummVM is released under the GPL (General Public License), so it's more than free.
+	ScummVM is released under the
+	<a href="http://www.gnu.org/copyleft/gpl.html">GPL (General Public License)</a>,
+	so it's more than free.
 	ScummVM source code is freely available and you can do whatever you want with it. If you
 	make modifications to it and redistribute your work you MUST make the source available.
 	However, ScummVM team would be pleased if you choose to send them your modifications, so
-	they can be merged into the main tree.<br>
-	More information on the GNU GPL at
-	<a href="http://www.gnu.org/copyleft/gpl.html">http://www.gnu.org/copyleft/gpl.html</a>.<br><br>
+	they can be merged into the main tree.<br><br>
 
       <li><a name="1-4"></a><b>What games does ScummVM support?</b></li>
-	We have a Compatability List on our website that contains an up to date list of what games work,
-	and how well they work.
-	<a href="compatibility.php">http://www.scummvm.org/compatibility.php</a>.<br><br>
+	We have a <a href="compatibility.php">compatibility list</a> on our website
+	that contains an up to date list of what games work, and how well they work.
+	<br><br>
 
       <li><a name="1-5"></a><b>Will ScummVM support other games?</b></li>
-	The ScummVM team is working to make newer games, such as "The Dig", playable.<br>
-	We are also working to correct make the currently supported games more accurate.<br><br>
+	The ScummVM team is working to make newer SCUMM games, such as "Full Throttle", playable.<br>
+	We are also working to correct make the currently supported games more accurate.<br>
+	However we are <i>NOT</i> goint to add support for non-SCUMM games!<br><br>
 
       <li><a name="1-6"></a><b>Where do I find ScummVM?</b></li>
-	You can find it on the page on sourceforge:
+	You can find it on the page on SourceForge:
 	<a href="http://www.sourceforge.net/projects/scummvm">http://www.sourceforge.net/projects/scummvm</a>.
 	You can download the latest version, which could be a little old. For the most recent version,
-	you have to get it via CVS (instructions are on SourceForge page).<br><br>
+	you have to get it via CVS (instructions are on the SourceForge page).<br><br>
 
       <li><a name="1-7"></a><b>How do I compile the source code for my OS?</b></li>
 	The source code package contains a file called
@@ -128,12 +129,13 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 
       <li><a name="1-9"></a><b>On what platform does ScummVM run?</b></li>
 	ScummVM should be able to be compiled on any SDL platform, just with small modifications.<br>
-	Currently tested platforms are Win32 (Windows 9x/ME/NT/2000), Linux i386 and PPC, BeOS, Solaris, MacOS 9,
-        MacOSX, Dreamcast, MorphOS, IRIX, and WinCE. It is also part of the FreeBSD ports collection<br><br>
+	Currently tested platforms are Win32 (Windows 9x/ME/NT/2000), Linux i386 and PPC, BeOS, Solaris,
+    Mac OS X, Dreamcast, MorphOS, IRIX, and WinCE. It is also part of the FreeBSD ports collection
+    and in Debian unstable<br><br>
 
-      <li><a name="1-10"></a><b>Does ScummVM run any non-Scumm games?</b></li>
-        Yes. Currently the only non Scumm game supported is Simon The Sorcerer. This game was added because it was very
-	similar to Scumm. We don't have any plans to support any other non-Scumm games at this time. If we do, it will
+      <li><a name="1-10"></a><b>Does ScummVM run any non-SCUMM games?</b></li>
+        Yes. Currently the only non-SCUMM game supported is Simon The Sorcerer. This game was added because it was very
+	similar to SCUMM. We don't have any plans to support any other non-SCUMM games at this time. If we do, it will
 	be added to the <a href="compatibility.php">Compatibility List</a>.<br><br>
 	
     </ol>
@@ -154,7 +156,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	See <a href="#14">1.4 What games does ScummVM support?</a><br><br>
 
       <li><a name="2-4"></a><b>Can I save/restore the game?</b></li>
-	Yes. Saving and restoring is already supported (SHIFT-1/9 to save, CTRL - 1/9 to restore, or
+	Yes. Saving and restoring is already supported (ALT-1/9 to save, CTRL - 1/9 to restore, or
 	F5 to access the saving screen).<br><br>
 
       <li><a name="2-5"></a><b>Do savegames from the original games work in ScummVM?</b></li>
@@ -175,8 +177,9 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
 	for more info.<br><br>
 
-      <li><a name="3-2"></a><b>Does ScummVM support using MP3 files instead of CD audio?</b></li>
-	Yes. You can use LAME or some other CD audio conversion utility to convert your CD audio to MP3.  See the
+      <li><a name="3-2"></a><b>Does ScummVM support using MP3/Ogg files instead of CD audio?</b></li>
+	Yes. You can use LAME or some other CD audio conversion utility to convert your CD audio to MP3. Since
+	version 0.3.0 we also support Ogg Vorbis files. See the
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
 	for more info.<br><br>
 
@@ -202,7 +205,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	to the letter, then see <a href="#46">4.6</a> to report this as a bug.<br><br>
 	
       <li><a name="4-2"></a><b>I don't hear any sound.</b></li>
-      	Check the <a href="compatibility.php">Compatibility List</a> to see if your game has sound support currently. You can
+      	Check the <a href="compatibility.php">compatibility list</a> to see if your game has sound support currently. You can
 	also try the -s command line param to set the in game SFX volume.<br><br>
       
       <li><a name="4-3"></a><b>I don't hear any music.</b></li>
@@ -217,8 +220,8 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	reproduce this crash more than once, please report it to our Bug Tracker. See <a href="#46">4.6</a>.<br><br>
       
       <li><a name="4-5"></a><b>The game colors are messed up.</b></li>
-      	This is a known issue with using Amiga version datafiles. Use the -a command line parameter to enable Amiga pal
-	conversion.<br><br>
+      	This is a known issue with using Amiga version datafiles. Use the -a command
+    line parameter to enable Amiga palette conversion.<br><br>
       
       <li><a name="4-6"></a><b>Reporting Bugs.</b></li>
       	To report a bug, please create a SourceForge account and follow the
