@@ -70,7 +70,7 @@ $games = array(
 		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','80'),
 		'Indiana Jones and the Last Crusade (256 - FmTowns)'	=> array('3','indy3towns','80'),
 		'Loom'							=> array('3','loom','80'),
-		'Loom (256 - FmTowns)'					=> array('3','loomtowns','60'),
+		'Loom (256 - FmTowns)'					=> array('3','loomtowns','75'),
 		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','80'),
 		'Passport to Adventure (Indy3, Monkey and Loom demos)'  => array('4','pass','50'),
 		'Loom (256 color CD version)'                           => array('5','loomcd','90'),
@@ -144,8 +144,10 @@ $notes = array(
 		   "<br>- Mac version crashes after copy protection screen".
 		   "<br>- No music or sound effects looping with Amiga version".
 		   "<br>- No music or sound effects with Mac version",
-"loomtowns"	=> "Can't learn f, game may be completable with drafts learn command".
+"loomtowns"	=> "Game is completable".
 		   "<br>- Fades are seemingly different to other versions in some cases".
+		   "<br>- text palette sometimes incorrect".
+		   "<br>- distaff occasionally pink...".
 		   "<br>- Euphony tunes not yet supported so notes won't be heard".
 		   "<br>- difficulty select is via boot param:".
 
