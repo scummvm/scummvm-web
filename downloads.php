@@ -34,7 +34,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  If you have successfully ported ScummVM to a platform not listed, please drop us a note, telling which OS, etc.
 	  you used.<br><br>
 
-          You can also get the latest development source and binaries from the <a href="http://scummvm.sourceforge.net/daily/">CVS Daily Snapshot</a>
+	  You can also get the latest development source and binaries from the <a href="http://scummvm.sourceforge.net/daily/">CVS Daily Snapshot</a>
 	  page. To quickly get the binary executable from that page, download the .gz from the column of the OS you use. Then
 	  simply rename the file to it&#146;s executable form.<br>
 
@@ -42,12 +42,12 @@ echo html_round_frame_start("Downloads","98%","",20);
 	</p>
 	
 	<p>
-<!--          <b>Daily CVS Builds</b>
+	  <b>Daily CVS Builds</b>
 	  <ul>
 	    <li><a href="/downloads/scummvmwin32.exe">Win32 Daily Snapshot</a> <small>
 	    (<? echo intval(filesize("downloads/scummvmwin32.exe")/1024) ?>K exe file, last update:
 	    <? echo date("F j, Y, g:i a",filemtime("downloads/scummvmwin32.exe")); ?>)</small></li>	  
-          </ul> -->
+	  </ul>
 	</p>
 	
 	<p>
