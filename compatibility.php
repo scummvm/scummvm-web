@@ -102,12 +102,12 @@ $notes = array(
 "maniacc64" 	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format",
 "zakc64"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
 "maniac"	=> "Enhanced version runs, although in-game most things will crash".
-                   "<br>Internal functionality (inventory, verbs, etc) incomplete".
-                   "<br>Opcodes not yet complete and correct".
+                   "<br>-Internal functionality (inventory, verbs, etc) incomplete".
+                   "<br>-Opcodes not yet complete and correct".
                    "<br>- No music or sound effects",
 "zak"		=> "Enhanced version runs, although in-game most things will crash".
-                   "<br>Internal functionality (inventory, verbs, etc) incomplete".
-                   "<br>Opcodes not yet complete and correct".
+                   "<br>-Internal functionality (inventory, verbs, etc) incomplete".
+                   "<br>-Opcodes not yet complete and correct".
                    "<br>- No music or sound effects",
 "indy3ega"	=> "Game is completable".
                    "<br>- No music or sound effects",
@@ -197,7 +197,7 @@ $notes = array(
                    "<br>- Minor graphical glitch when giving items to baby",
 "simon2dos"     => "Game is completable.".
                    "<br>- Text in Copy Protection screen is only shown for short time".
-                   "<br>- Freezes briefly when Pirate Captain is talking to Mate, when Simon tries to escape",
+                   "<br>- Freezes briefly when Pirate Captain is talking to Mate, when Simon tries to escape".
                    "<br>- Minor graphical glitch when giving items to baby",
 "simon2mac"     => "Game is completable.".
                    "<br>- Only default language in data files is supported".
