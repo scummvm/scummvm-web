@@ -33,18 +33,21 @@ echo html_round_frame_start("Downloads","98%","",20);
 
 	  If you have successfully ported ScummVM to a platform not listed, please drop us a note, telling which OS, etc.
 	  you used.<br><br>
-<? 
-//	  You can also get the latest development source and binaries from the <a href="http://scummvm.sourceforge.net/daily/">CVS Daily Snapshot</a>
-//	  page. To quickly get the binary executable from that page, download the .gz from the column of the OS you use. Then
-//	  simply rename the file to it&#146;s executable form.<br>
-//	  For example on Win32: rename scummvm-20020122_stripped.gz scummvm.exe<br><br>
-?>	  
+
+	  You can also get the latest development source and binaries from the <a href="http://scummvm.sourceforge.net/daily/">CVS Daily Snapshot</a>
+	  page. To quickly get the binary executable from that page, download the .gz from the column of the OS you use. Then
+	  simply rename the file to it&#146;s executable form.<br>
+	  For example on Win32: rename scummvm-20020122_stripped.gz scummvm.exe<br><br>
 	</p>
 
 	<p>
+	  View the <a href="/daily/ChangeLog">ChangeLog<a> to see the latest updates of ScummVM
+	</p>
+	
+	<p>
 	  <b>Daily CVS Builds</b>
 	  <ul>
-	    <li><a href="http://scummvm.sourceforge.net/downloads/scummvmwin32.exe">Win32 Daily Snapshot</a> <small>(246K exe file) </small></li>	  
+	    <li><a href="/downloads/scummvmwin32.exe">Win32 Daily Snapshot</a> <small>(246K exe file) </small></li>	  
 	  </ul>
 	</p>
 	
@@ -69,9 +72,16 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  <b>Required Libraries:</b>
 	  <ul>
 	    <li><a href="http://www.libsdl.org/download-1.2.html">SDL 1.2.x</a></li>
-	    <li><a href="http://sources.redhat.com/cygwin/">Cygwin DLL</a> (Needed for Win32 CVS Only)</li>
 	  </ul>
 	</p>
+		
+	<p>
+	  <b>Optional Libraries:</b>
+	  <ul>
+	    <li><a href="http://www.mars.org/home/rob/proj/mpeg/">MAD</a>: MPEG Audio Decoder</li>
+	    <li><a href="http://sources.redhat.com/cygwin/">Cygwin DLL</a> (Needed for Win32 Daily Builds Only)</li>
+	  </ul>
+	</p>		
 		
 <?
 
