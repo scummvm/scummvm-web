@@ -138,7 +138,7 @@ $notes = array(
 		   "<br>- Error: akos_increaseAnim: invalid code d800!".
 		   "<br>- talkie data not synced/properly implemented",
 "funpack"	=> "Starts but mini games seem to have various problems".
-		   "<br>- Tic-Tac-Toe: Error(5:219:0x6A01): Invalid opcode 'a7' at 6a01!".
+		   "<br>- Tic-Tac-Toe: akos_increaseAnim: invalid code".
 		   "<br>- Checkers: Error(6:210:0x6A60): No items on stack to pop() for o6_startScriptQuick (0xBF) at [6-210]!".
 		   "<br>- Puzzle blocks/Pinball/Remember/Cheese King: Works but colour isn't set properly so game is black and white".
 		   "<br>- talkie data not synced/properly implemented",
