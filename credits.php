@@ -106,6 +106,7 @@ echo html_round_frame_start("Credits","98%","",20);
 	  <?php
 	  add_person("Sander Buskens", "", "For his work on the initial reversing of Monkey2");
 	  add_person("Kevin Carnes", "", "For Scumm16, the basis of ScummVM's older gfx codecs");
+	  add_person("Jim Leiterman", "", "Various info on his FmTowns/Marty SCUMM ports");
 	  add_person("Jimmi Th&oslash;gersen", "", "For ScummRev, and much obscure code/documentation");
 	  ?>
 
