@@ -82,7 +82,7 @@ $games = array(
 		'Sam & Max (DEMO)'					=> array('6','samdemo','95'),
 		'Full Throttle'						=> array('7','ft','75'),
                 'The DIG'                                               => array('7','dig','85'),
-		'Curse of Monkey Island'				=> array('8','comi','70'),
+		'Curse of Monkey Island'				=> array('8','comi','80'),
 		'Simon The Sorcerer 1 Talkie (Win)'       		=> array('n/a','simon1win','85'),
 		'Simon The Sorcerer 1 Talkie (Dos)'       		=> array('n/a','simon1talkie','85'),
 		'Simon The Sorcerer 1 Talkie (Amiga CD32)'     		=> array('n/a','simon1cd32','5'),
@@ -148,7 +148,7 @@ $notes = array(
                    "<br>- Lack of INSANE subsystem prevents action sequences, which skips a substantial portion of the game".
 		   "<br>- Derby scene is only properly controllable using the mouse",
 "dig"		=> "Game is fully completable, with some minor sound issues",
-"comi"		=> "Game is mostly completable, although ship-to-ship combat functions unusually, and graphical glitches abound.<BR>There are also a few sound glitches, expecially on slower machines.<BR>Still considered beta-quality support.",
+"comi"		=> "Game is fully completable, although ship-to-ship is broken and several graphical glitches are present".
 "simon1win" 	=> "Game is completable.".
                    "<br>- Various minor graphical glitches",
 "simon1talkie" 	=> "Game is completable.".
