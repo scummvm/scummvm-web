@@ -60,7 +60,7 @@ $games = array(
 		'Zak McKracken and the Alien Mindbenders'		=> array('2','zakega','0'),
 		'Indiana Jones and the Last Crusade'			=> array('2','indy3ega','0'),
 		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','30'),
-		'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','30'),
+                'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','85'),
 		'LOOM'							=> array('3','loom','0'),
 		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','5'),
                 'LOOM (256 color CD version)'                           => array('5','loomcd','90'),
@@ -88,8 +88,9 @@ $notes = array(
 "indy3"         => "Game will start, but is not completely playable." .
                    "<br>- Inventory scrolling not implemented, making it impossible to carry more than 4 objects at once" .
                    "<br>- Missing/Incorrect SCUMM opcodes cause occasional crashes",
-"zak256"        => "Game will start, but is not completely playable." .
-                   "<br>- Inventory scrolling not implemented, making it impossible to carry more than 4 objects at once" ,
+"zak256"        => "Game is completable." .
+                   "<br>- No music or sound effects" . 
+                   "<br>- You may become stuck buying items at the shop. If so, escape by hitting Ctrl-D to enter the debugger. Then type 'r 5', return, 'q', return. You will appear in the street outside the shop. Reenter for your inventory to reappear." ,
 "loom"		=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Loom CD version",
 "monkeyega"	=> "Copy protection screen will show, but game crashes shortly afterwards.<BR>Graphics decoders and SCUMM opcodes not implimented yet.",
 "loomcd"        => "Game is completable." .
