@@ -57,11 +57,6 @@ h1, h2		{
 .color3		{ background-color: #73106b }
 .color4		{ background-color: #999999 }
 
-/* box */
-.box-title	{ background-color: #AAAAAA; color: #FFFFFF; font-weight: bold }
-.box-label	{ background-color: #C0C0C0 }
-.box-body	{ background-color: #E0E0E0 }
-
 /* Menu Config */
 .menuTitle	{ font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #ffffff; font-weight: bold; }
 .menuItem 	{ font-family: Arial, Helvetica, sans-serif; font-size: 10pt; color: #ffffff; }
@@ -77,6 +72,7 @@ h1, h2		{
 }
 .sideMenu a { color: white; }
 .sideMenu .header {
+	background-color: #73106b;
 	background-image: url('images/topmenu_bg.png');
 	font-size: 8pt;
 	font-weight: bold;
@@ -101,9 +97,6 @@ h1, h2		{
 	background-repeat: no-repeat;
 	background-position: right bottom;
 }
-
-/* Misc */
-TD.label	{ font-weight: bold }
 
 /* Copyright */
 .copyright	{
@@ -185,7 +178,7 @@ DIV.opcode H5 {
 }
 
 PRE.box {
-	font-family: courier;
+	font-family: courier, monospace;
 	font-size: small;
 	white-space: pre;
 	border: 2pt solid #000000;
