@@ -19,6 +19,10 @@ sidebar_start();
 echo html_round_frame_start("Press","98%","",20);
 
 ?>
+	<p><a href="http://newsforge.com/newsforge/03/10/07/1527227.shtml?tid=8"
+	   ><b>Bringing old adventure games back to life</b></a>, NewsForge, October 8, 2003
+	</p>
+
 	<p><a href="http://www.aventurepc.com/dossiers/scummvm1.html"
 	   ><b>Dossier ScummVM - première partie</b></a> (French), Aventure PC, October 1, 2003
 	</p>
