@@ -201,7 +201,7 @@ $notes = array(
 "simon2win"     => "Game is completable.".
                    "<br>- Minor graphical glitch when giving items to baby",
 "simon2talkie"  => "Game is completable.".
-                   "<br>- When subtiles are enabled, it freezes briefly when Pirate Captain is talking to Mate, when Simon tries to escape",
+                   "<br>- When subtiles are enabled, it freezes briefly when Pirate Captain is talking to Mate, when Simon tries to escape".
                    "<br>- Minor graphical glitch when giving items to baby",
 "simon2dos"     => "Game is completable.".
                    "<br>- Text in Copy Protection screen is only shown for short time".
