@@ -76,7 +76,7 @@ echo html_round_frame_start("Contact","98%","",20);
       <tr>
 	    <td>Mutwin Kraus</td>
 	    <td>[ mutle ]</td>
-	    <td>- MacOS 9 port (Retired)</td>
+	    <td>- MacOS Carbon port (Retired)</td>
 	  </tr>
 
       <tr>
@@ -143,14 +143,14 @@ echo html_round_frame_start("Contact","98%","",20);
 	  </tr>
 
       <tr>
-	    <td>Tim 'realmz'</td>
-	    <td></td>
+	    <td>Tim ???</td>
+	    <td>[ realmz ]</td>
 	    <td>- Initial MI1 CD music support</td>
 	  </tr>
 
       <tr>
-	    <td>Jonathan 'khalek'</td>
-	    <td></td>
+	    <td>Jonathan Gray</td>
+	    <td>[ khalek ]</td>
 	    <td>- Expert weaver in the Loom</td>
 	  </tr>
 
@@ -173,13 +173,13 @@ echo html_round_frame_start("Contact","98%","",20);
 	  </tr>
 
       <tr>
-	    <td>Andr, Souza </td>
+	    <td>Andr&eacute; Souza </td>
 	    <td></td>
 	    <td>- SDL-based OpenGL renderer</td>
 	  </tr>
 
       <tr>
-	    <td>Kov cs Endre J nos</td>
+	    <td>Kov&aacute;cs Endre J&aacute;nos</td>
 	    <td></td>
 	    <td>- Several fixes for Simon1</td>
 	  </tr>
@@ -205,7 +205,7 @@ echo html_round_frame_start("Contact","98%","",20);
       <tr>
 	    <td>Kevin Carnes</td>
 	    <td></td>
-	    <td>- For Scumm16, the basis of ScummVM older gfx codecs</td>
+	    <td>- For Scumm16, the basis of ScummVM's older gfx codecs</td>
 	  </tr>
 
       <tr><td colspan=3>&nbsp;</td></tr>
