@@ -162,14 +162,15 @@
 		<?php addEntry("Interactive WIP Demo", "DOS", "en", "0e4c5d54a0ad4b26132e78b5ea76642a", "snmidemo"); ?>
 	<tr><td colspan='7'><strong>Full Throttle</strong></td></tr>
 		<?php addEntry("Version A", "All?", "en", "09820417db26687bb7fe0c83cc4c553b", "ft"); ?>
-		<?php addEntry("Version B", "All?", "en", "60ba818dc3bede86d40357e3913f8505", "ft"); ?>
+		<?php addEntry("Version B", "All?", "en", "60ba818dc3bede86d40357e3913f8505", "ft", "sev"); ?>
 		<?php addEntry("-", "All?", "de", "8bdb0bf87b5e303dd35693afb9351215", "ft", "dhewg"); ?>
 		<?php addEntry("-", "All?", "es", "e72bb4c2b613db2cf50f89ff6350e70a", "ft"); ?>
-		<?php addEntry("-", "All?", "ru", "55e4cc866ff9046824e1c638ba2b8c7f", "ft"); ?>
+		<?php addEntry("-", "All?", "ru", "55e4cc866ff9046824e1c638ba2b8c7f", "ft", "sev"); ?>
 		<?php addEntry("Demo", "DOS", "en", "32a433dea56b86a55b59e4ff7d755711", "ftpcdemo"); ?>
 		<?php addEntry("Demo", "Mac", "en", "9d7b67be003fea60be4dcbd193611936", "ftdemo"); ?>
 	<tr><td colspan='7'><strong>The Dig</strong></td></tr>
-		<?php addEntry("-", "All", "All", "d8323015ecb8b10bf53474f6e6b0ae33", "dig"); ?>
+		<?php addEntry("-", "All", "en", "d8323015ecb8b10bf53474f6e6b0ae33", "dig"); ?>
+		<?php addEntry("-", "All", "ru", "d62047a6729349ab36f7ee065bf26509", "dig", "sev"); ?>
 		<?php addEntry("Demo", "All", "en", "362c1d281fb9899254cda66ad246c66a", "digdemo"); ?>
 	<tr><td colspan='7'><strong>Curse of Monkey Island</strong></td></tr>
 		<?php addEntry("-", "All", "All", "fe60d6b5ff51b0553ac59963123b5777", "comi"); ?>
