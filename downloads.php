@@ -67,7 +67,7 @@ echo html_round_frame_start("Downloads","");
  	  <b>0.5.1 Release binaries:</b>
 	</p>
 	<p>For a list of changes since the previous version, <a href="http://sourceforge.net/project/shownotes.php?release_id=176395">read the release notes</a>.</p>
-	<p>0.5.1 should be apt-get'able from Debian Unstable (sid) later in the week.</p>
+	<p>0.5.1 should be apt-get'able from Debian unstable (sid) and testing (sarge).</p>
 
 	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.1-win32.exe?download">Windows Installer</a> <small>(841k Win32 .exe)</small></li>
