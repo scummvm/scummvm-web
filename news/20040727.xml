@@ -1,0 +1,27 @@
+<NAME>What have you done this time, you meddling milquetoast?!?</NAME>
+<DATE>Jul 27, 2004</DATE>
+<BODY>
+<P>
+ScummVM 0.6.1 is out, and can now be grabbed from our download page!<BR>
+Among the usual changes, ScummVM should now run natively on 64-bit machines - 
+something we actually forgot to mention in the NEWS file.
+</P>
+<P>
+And you know what they say: "To save the world, you have to push a few old ladies down the 
+stairs.". So we made a mother-load of fixes in this release. Some of the wonderful things 
+you will no LONGER see in ScummVM include:
+<UL>
+<LI>Glitches using an OGG'ed monster.sou in games playing multiple simultanious sfx
+<LI>Crashes on 64-bit machines
+<LI>Crashes when saving to an invalid directory in Broken Sword 1
+<LI>Lots of sound glitches in Curse of Monkey Island, Full Throttle and The Dig
+<LI>Crashes in some international versions of Simon the Sorcerer
+<LI>... and lots of other annoying bugs!
+</UL>
+</P>
+<P>
+So don't delay, download today. Downloads are not yet available for all supported 
+ports, such as non-ARM PocketPCs and the HandheldPC binaries. These should become available
+within the next week.
+</P>
+</BODY>
