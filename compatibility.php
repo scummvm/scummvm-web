@@ -132,12 +132,10 @@ $notes = array(
 "puttmoon"	=> "Fails to start due to unimplemented opcode in bootscript (0xDA)".
 		   "<br>- Bootscript stops rather early on and doesn't get a chance to call other scripts".
 		   "<br>- Humongous talkie file format currently unknown",
-"moondemo"	=> "Fails to start due to unimplemented opcode (0xD1)".
-		   "<br>- Dies on room 0 script 28 offset 0x3C".
+"moondemo"	=> "Fails to start due to unimplemented opcode in bootscript (0xE0)".
 		   "<br>- Humongous talkie file format currently unknown",
 "funpack"	=> "Unknown but probably fails to start in similiar manner to most other humongous dos based games",
-"fbdemo"	=> "Fails to start due to unimplemented opcode (0xD1)".
-		   "<br>- Dies on room 0 script 20 offset 0x36".
+"fbdemo"	=> "Fails to start due to unimplemented opcode in bootscript (0xE0)".
 		   "<br>- Humongous talkie file format currently unknown",
 "fbear"		=> "Assumed to Fail to start due to unimplemented opcode".
 		   "<br>- Humongous talkie file format currently unknown",
