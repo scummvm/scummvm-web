@@ -55,7 +55,7 @@ echo html_round_frame_start("Press","98%","",20);
 	   ><b>Gameboy Advance Clone Superemulator</b></a>, Slashdot, April 3, 2003
 	</p>
 
-	<p><a href="http://www.scummbar.com/resources/articles/index.php?newssniffer=readarticle&article=22"
+	<p><a href="http://www.scummbar.com/resources/articles/index.php?newssniffer=readarticle&amp;article=22"
 	   ><b>Get those old games working again</b></a>, Scumm Bar, March 7, 2003
 	</p>
 
@@ -75,7 +75,7 @@ echo html_round_frame_start("Press","98%","",20);
 	   ><b>Lucas Confuses ScummVM With Abandonware</b></a>, Slashdot, June 26, 2002
 	</p>
 	
-	<p><a href="http://www.pcdemano.com/sections.php?op=viewarticle&artid=151"
+	<p><a href="http://www.pcdemano.com/sections.php?op=viewarticle&amp;artid=151"
 	   ><b>Revisión de PocketScumm Build 0.2.0</b></a> (Spanish), PC demano, March 2002
 	</p>
 
