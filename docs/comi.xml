@@ -23,7 +23,6 @@
 	</ul>
 <li>Graphics:
 	<ul>
-		<li>Verb coin does not undraw correctly, leaving behind artifacts
 		<li>Some text does not undraw correctly, again leaving behind artifacts
 	</ul>
 <li>Inventory:
