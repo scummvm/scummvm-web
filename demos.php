@@ -147,7 +147,7 @@ $MISC_demos = array(
 	'Simon the Sorcerer 1 (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/simon1demo.zip', 'simon1demo'),
 	'Simon the Sorcerer 1 Talkie (Acorn demo)'
-		=> array('http://quick.mixnmojo.com/demos/simondemo_acorn.rar', 'simon1acorn'),
+		=> array('http://quick.mixnmojo.com/demos/simon1demo_acorn.rar', 'simon1acorn'),
 	'Simon the Sorcerer 2 Talkie (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/simon2demo.zip', 'simon2talkie')
 	);
