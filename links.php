@@ -101,11 +101,10 @@ it will know..
 	    </blockquote></td>
 	  </tr>
 
-	  <tr><td><a href="http://zak256.sourceforge.net/"><b>Zak256 :: The Zak256 Project</b></a></td></tr>
+	  <tr><td><a href="http://yarn.sourceforge.net/"><b>Yarn :: Dreamer's Guild SAGA Games</b></a></td></tr>
 	  <tr>
 	    <td><blockquote>
-	    The ZakMcKracken and the Alien Mindbenders in 256 colors project. This project is
-	    working to get this Towns-FM version of Zak translated and working.
+	    Yarn is an open source replacement for the SAGA adventure-game engine used for some of Dreamer's Guild's games including <i>Inherit The Earth</i> and <i>I Have No Mouth And I Must Scream</i> (possibly abandoned).
 	    </blockquote></td>
 	  </tr>
 	</table>
