@@ -102,6 +102,7 @@ $games = array(
  		'Simon The Sorcerer 1 Talkie (Win)'			=> array('n/a','simon1win','95'),
 		'Simon The Sorcerer 1 Talkie (DOS)'       		=> array('n/a','simon1talkie','90'),
 		'Simon The Sorcerer 1 Talkie (Amiga CD32)'     		=> array('n/a','simon1cd32','8'),
+ 		'Simon The Sorcerer 1 Talkie (Acorn)'			=> array('n/a','simon1acorn','90'),
 		'Simon The Sorcerer 1 (DOS)'           			=> array('n/a','simon1dos','88'),
 		'Simon The Sorcerer 1 (Amiga)'          		=> array('n/a','simon1amiga','5'),
 		'Simon The Sorcerer 1 (Demo)'          			=> array('n/a','simon1demo','88'),
@@ -117,12 +118,10 @@ $notes = array(
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
 		   "<br>- Actors sometimes cause minor graphical glitches in Classic PC version".
 		   "<br>- The last 8 lines of room graphics are sometimes cut off when changing rooms in Classic PC version".
-		   "<br>- No music and no sound effect looping with Amiga version",
 "zak"		=> "Enhanced PC version is completable, with several minor glitches".
 		   "<br>Classic version is completable, with several minor glitches".
 		   "<br>- Amiga, Atari ST and PC versions supported by this target".
 		   "<br>- Actors sometimes cause minor graphical glitches in Classic PC version".
-		   "<br>- No music and no sound effect looping with Amiga version",
 "indy3ega"	=> "Game is completable".
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
@@ -243,6 +242,8 @@ $notes = array(
 "simon1cd32" 	=> "Game works a bit but can't see anything".
                    "<br>- All graphics are decoded incorrectly".
                    "<br>- No music",
+"simon1acorn" 	=> "Game is completable.".
+                    "<br>- No inventory scrolling arrows shown, can still move around inventory though",
 "simon1dos" 	=> "Game is completable.".
                    "<br>- Freezes briefly when Swampling leaves his house".
                    "<br>- Freezes briefly when talking to demons in Sordid's Tower".
