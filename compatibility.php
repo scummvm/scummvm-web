@@ -89,7 +89,7 @@ $games = array(
 		'The Dig'                                               => array('7','dig','85'),
 		'Curse of Monkey Island'				=> array('8','comi','80'),
 		'Beneath a Steel Sky'			       		=> array('n/a','sky','90'),
- 		'Simon The Sorcerer 1 Talkie (Win)'			=> array('n/a','simon1win','90'),
+ 		'Simon The Sorcerer 1 Talkie (Win)'			=> array('n/a','simon1win','95'),
 		'Simon The Sorcerer 1 Talkie (DOS)'       		=> array('n/a','simon1talkie','90'),
 		'Simon The Sorcerer 1 Talkie (Amiga CD32)'     		=> array('n/a','simon1cd32','8'),
 		'Simon The Sorcerer 1 (DOS)'           			=> array('n/a','simon1dos','88'),
@@ -194,18 +194,15 @@ $notes = array(
 		   "<br>- Floppy demo isn't supported".
                    "<br>- Random crashes have been reported".
 		   "<br>- Amiga versions aren't supported and probably never will be",
-"simon1win" 	=> "Game is completable.".
-                   "<br>- Minor graphical glitches when using ring",
+"simon1win" 	=> "No known problems - game is completable.",
 "simon1talkie" 	=> "Game is completable.".
-                   "<br>- Minor graphical glitches when using ring".
-                   "<br>- No inventory scrolling arrows shown, can still move around inventory though",
+                    "<br>- No inventory scrolling arrows shown, can still move around inventory though",
 "simon1cd32" 	=> "Game works a bit but can't see anything".
                    "<br>- All graphics are decoded incorrectly".
                    "<br>- No music",
 "simon1dos" 	=> "Game is completable.".
                    "<br>- Freezes briefly when Swampling leaves his house".
                    "<br>- Freezes briefly when talking to demons in Sordid's Tower".
-                   "<br>- Minor graphical glitches when using ring".
                    "<br>- No inventory scrolling arrows shown, can still move around inventory though",
 "simon1amiga" 	=> "Game works a bit but can't see anything".
                    "<br>- All graphics are decoded incorrectly".
