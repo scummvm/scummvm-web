@@ -3,12 +3,12 @@
 <BODY>
 <P>
 ScummVM 0.6.1 is out, and can now be grabbed from our download page!<BR>
-Among the usual changes, ScummVM should now run natively on 64-bit machines - 
+Among the usual changes, ScummVM should now run natively on 64-bit machines -- 
 something we actually forgot to mention in the NEWS file.
 </P>
 <P>
 And you know what they say: "To save the world, you have to push a few old ladies down the 
-stairs.". So we made a mother-load of fixes in this release. Some of the wonderful things 
+stairs." So we made a mother-load of fixes in this release. Some of the wonderful things 
 you will no LONGER see in ScummVM include:
 <UL>
 <LI>Glitches using an Ogg Vorbis talkie file in some games
