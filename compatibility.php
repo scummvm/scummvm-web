@@ -37,10 +37,13 @@ else
 	  Click on the game name to view the complete notes of a game.
 	
           <br><br>Please note this list applies to the English versions of games, we attempt to test many versions of games, however there are occasionally problems with other languages.
-          Also, this is the compatibility of the current WIP CVS version, <B>not of the
-	  0.5.1 stable release</B>. The status of this release can be found on the 
-	  <a href="compatibility_stable.php">Stable Compatibility</A> chart.
+          This is the compatibility of the current WIP CVS version, <B>not of the
+	  0.5.1 stable release</B> (Please see the  <a href="compatibility_stable.php">Stable Compatibility</A> chart for this version).
           <br><br>
+          As this is the status of the Work In Progress version, occasional temporary bugs
+	  may be introduced with new changes, thus this list refects the 'best case' scenario. 
+	  It is highly recommended to use the latest stable release, where possible.
+	  <br><br>
 	  <small>Last Updated: <? echo date("F d, Y",getlastmod()); ?></small>
 	</p>
 
