@@ -42,10 +42,8 @@ packs, can also be found below.
 	</p>
 
 	<hr>
-	<A name="stable">
-	<p>
- 	  <b>0.6.0 Release binaries:</b>
-	</p>
+	<a name="stable"></a>
+	<h3>0.6.0 Release binaries</h3>
 	<p>For a list of changes since the previous version, <a href="http://sourceforge.net/project/shownotes.php?release_id=223566">read the release notes</a>.</p>
 	<p>0.6.0 is apt-get'able from Debian unstable (sid). <I>If downloading any of these files returns a File not Found error, please try a different mirror.</I></p>
 
@@ -64,7 +62,7 @@ packs, can also be found below.
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-palmos.zip?download">PalmOS binary</a> <small>(530k zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-solaris8-sparc.tar.gz?download">Solaris 8 (Sparc) binary</a> <small>(1.0M .tar.gz)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-dreamcast-plainfiles.tar.bz2?download">Dreamcast plain files</a> <small>(1.3M zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-dreamcast-nero+demos.zip?download">Dreamcast Nero Image & Demos</a> <small>3.7M zipfile</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-dreamcast-nero+demos.zip?download">Dreamcast Nero Image &amp; Demos</a> <small>3.7M zipfile</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-HandheldPC_ARM.zip?download">HandheldPC ARM binary</a> <small>(1.0M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-HandheldPC_MIPS.zip?download">HandheldPC MIPS binary</a> <small>(1.3M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-HandheldPC_SH3.zip?download">HandheldPC SH3 binary</a> <small>(1.1M zipfile)</small></li>
@@ -75,33 +73,25 @@ packs, can also be found below.
 
 	</ul>
 
-	<p>
-	  <b>0.6.0 Tools (mostly unsupported):</b>
-	</p>
+	<h3>0.6.0 Tools (mostly unsupported)</h3>
 	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.6.0-win32.exe?download">ScummVM Tools - Windows Installer</a> <small>(118k Win32 .exe)</small></li>
 	</ul>
 
-	<p>
-	  <b>0.6.0 Source Code:</b>
-	</p>
+	<h3>0.6.0 Source Code</h3>
 	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0.tar.bz2?download">Source tar.bz2</a> <small>(1.5M)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0.zip?download">Source .zip</a> <small>(2.5M)</small></li>
 	</ul>
 
-	<p>
-	  <b>0.6.0 Tools Source Code:</b>
-	</p>
+	<h3>0.6.0 Tools Source Code</h3>
 	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.6.0.tar.bz2?download">Tools - Source tar.bz2</a> <small>(74k)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.6.0.zip?download">Tools - Source .zip</a> <small>(102k)</small></li>
 	</ul>
 
-	<A NAME="extras">
-	<p>
-	   <b>Extras!:</b>
-	</p>
+	<a name="extras"></a>
+	<h3>Extras!</h3>
 	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/BASS-CD.zip?download">Beneath a Steel Sky, Freeware CD Version</a> <small>(67M)</small></li>
 	  <li><a href="http://www.mixnmojo.com/bss/BASS-Floppy.zip">Beneath a Steel Sky, Freeware Floppy Version</a> <small>(7.3M)</small></li>
@@ -117,15 +107,14 @@ lately. So, if you are having problems, try the following non-SourceForge mirror
 hosted by <a href="http://www.mthN.de">Snoke Media and Tech Hosting Network</a>!
 	</p>
 	<ul>
-	 <li><a href="http://mikemth.de:1337/modules.php?name=Downloads&d_op=getit&lid=826">Flight of the Amazon Queen, Freeware CD Version</a> <small>(34.8M)</small></li>
-	 <li><a href="http://mikemth.de:1337/modules.php?name=Downloads&d_op=getit&lid=827">Flight of the Amazon Queen, Freeware Floppy Version</a> <small>(6.7M)</small></li>
+	 <li><a href="http://mikemth.de:1337/modules.php?name=Downloads&amp;d_op=getit&amp;lid=826">Flight of the Amazon Queen, Freeware CD Version</a> <small>(34.8M)</small></li>
+	 <li><a href="http://mikemth.de:1337/modules.php?name=Downloads&amp;d_op=getit&amp;lid=827">Flight of the Amazon Queen, Freeware Floppy Version</a> <small>(6.7M)</small></li>
 	</ul>
-	<hr>
-	<A NAME="CVS">
-	<p>
-	  <b>Daily CVS Builds:</b>
-	</p>
 
+	<hr>
+
+	<a name="CVS"></a>
+	<h3>Daily CVS Builds:</h3>
 	<p>
 	  View the <a href="/daily/ChangeLog">ChangeLog</a> to see the latest updates of ScummVM.
 	</p>
@@ -150,16 +139,13 @@ hosted by <a href="http://www.mthN.de">Snoke Media and Tech Hosting Network</a>!
 	  <li><a href="http://sourceforge.net/cvs/?group_id=37116">CVS Instructions</a> <small> (for if you wish to retrieve the latest code to compile yourself)</small></li>
 	</ul>
 	<hr>
-	<p>
-	  <b>Required Libraries:</b>
-        </p>
+
+	<h3>Required Libraries:</h3>
 	<ul>
 	  <li><a href="http://www.libsdl.org/download-1.2.php">SDL 1.2.x</a></li>
 	</ul>
 		
-	<p>
-	  <b>Optional Libraries:</b>
-	</p>
+	<h3>Optional Libraries:</h3>
 	<ul>
 	  <li><a href="http://www.underbit.com/products/mad/">MAD</a>: MPEG Audio Decoder</li>
 	  <li><a href="http://www.vorbis.com/">Ogg Vorbis</a></li>
