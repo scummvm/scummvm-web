@@ -39,6 +39,7 @@
 <tr><td>Janne Huttunen</td><td></td><td>V3 actor mask support, Dig/FT SMUSH audio</td>
 <tr><td>Kov&aacute;cs Endre J&aacute;nos</td><td></td><td>Several fixes for Simon1</td>
 <tr><td>Jeroen Janssen</td><td></td><td>Numerous readability and bugfix patches</td>
+<tr><td>Robert Kelsen</td><td></td><td>Packaging for SlackWare</td>
 <tr><td>Claudio Matsuoka</td><td></td><td>Daily Linux/BeOS builds</td>
 <tr><td>Mikesch Nepomuk</td><td></td><td>MI1 VGA floppy patches</td>
 <tr><td>Nicolas Noble</td><td>[&nbsp;pixels&nbsp;]</td><td>Config file and ALSA support</td>
