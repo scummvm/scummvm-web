@@ -396,7 +396,7 @@ function html_header ($title, $extra = "")
 	<script language="JavaScript" src="<?=$file_root?>/scripts.js" type="text/javascript"></script>
 </head>
 
-<body bgcolor="#6699CC" text="#000000" topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0" marginheight="0" marginwidth="0">
+<body bgcolor="#6699CC" text="#000000">
 
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
 <tr>

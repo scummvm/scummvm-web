@@ -2,10 +2,11 @@
 function openWin(fileToOpen,nameOfWindow,width,height) {
 	myWindow = window.open("",nameOfWindow,"menubar=no,scrollbars=yes,status=no,width="+width+",height="+height);
 	myWindow.document.open();
-	myWindow.document.write('<HTML><HEAD><TITLE>ScreenShot Viewer</TITLE>')
-	myWindow.document.write('<BODY BGCOLOR="#FFFFFF" TEXT="#000000" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">');
+	myWindow.document.write('<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">\n')
+	myWindow.document.write('<html><head><title>ScreenShot Viewer</title></head>')
+	myWindow.document.write('<body topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">');
 	myWindow.document.write('<a href="javascript:self.close();"><img src="'+ fileToOpen +'" border=0></a>');
-	myWindow.document.write('</BODY></HTML>');
+	myWindow.document.write('</body></html>');
 	myWindow.document.close();
 }
 

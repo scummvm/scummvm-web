@@ -1,5 +1,5 @@
 /* Body Document Defaults */
-BODY 		{ background-color: #6699CC; color: #000000; }
+BODY 		{ background-color: #6699CC; color: #000000; margin: 0px; }
 
 /* Link Colors */
 A		{ color: #A50D0D; font-family: Helvetica, Arial, sans-serif; font-size: 10pt; }
