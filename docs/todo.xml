@@ -62,7 +62,6 @@
 		<ul>
 			<li>Fix graphical glitches when actors move diagonally</li>
 			<li>Fix problem of last few lines of room gfx. often not been shown after changing roons</li>
-			<li>Fix room palette remapping problems</li>
 		</ul>
 		<li><h4>Zak McKracken Enchanced</h4>
 		<ul>

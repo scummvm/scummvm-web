@@ -120,7 +120,6 @@ $notes = array(
 		   "<br>Classic version should be completable, with several glitches".
 		   "<br>- Amiga (Use Amiga option), Atari ST and PC versions supported by this target".
 		   "<br>- Actors sometimes cause graphical glitches in Classic PC version".
-		   "<br>- Palette remapping for rooms is broken".
 		   "<br>- No music or sound effects with Amiga version",
 "indy3ega"	=> "Game is completable".
 		   "<br>- Amiga (Use Amiga option), Atari ST, Mac and PC versions supported by this target".
