@@ -70,6 +70,7 @@ function addEntry($variant, $platform, $language, $md5, $target = "???", $source
 		<?php addEntry("VGA", "PC", "de", "399b217b0c8d65d0398076da486363a9", "indy3"); ?>
 
 		<?php addEntry("FmTowns", "FmTowns", "en", "04687cdf7f975a89d2474929f7b80946", "indy3towns"); ?>
+		<?php addEntry("FmTowns", "FmTowns", "jp", "3a0c35f3c147b98a2bdf8d400cfc4ab5", "indy3towns", "Paul Priest"); ?>
 		<?php addEntry("FmTowns Demo", "FmTowns", "en", "3938ee1aa4433fca9d9308c9891172b1", "zaktowns"); ?>
 
 	<tr><td colspan="7"><strong>Loom</strong></td></tr>
@@ -102,6 +103,9 @@ function addEntry($variant, $platform, $language, $md5, $target = "???", $source
 		<?php addEntry("-", "Mac", "en", "2ccd8891ce4d3f1a334d21bff6a88ca2", "monkey"); ?>
 		<?php addEntry("-", "SEGA", "en", "c13225cb1bbd3bc9fe578301696d8021", "game"); ?>
 		<?php addEntry("-", "Mac", "en", "2ccd8891ce4d3f1a334d21bff6a88ca2", "monkey"); ?>
+
+		<?php addEntry("FmTowns", "FmTowns", "en", "8eb84cee9b429314c7f0bdcf560723eb", "monkey", "Paul Priest"); ?>
+		<?php addEntry("FmTowns", "FmTowns", "jp", "e17db1ddf91b39ca6bbc8ad3ed19e883", "monkey", "Paul Priest"); ?>
 
 	<tr><td colspan="7"><strong>Misc demos</strong></td></tr>
 		<?php addEntry("Passport to Adventure", "PC", "en", "e6cd81b25ab1453a8a6d3482118c391e", "pass"); ?>
