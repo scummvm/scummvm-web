@@ -99,12 +99,12 @@ $games = array(
 		'Broken Sword II'			       		=> array('n/a','sword2','70'),
 		'Flight of the Amazon Queen'			       	=> array('n/a','queen','70'),
  		'Simon The Sorcerer 1 Talkie (Win)'			=> array('n/a','simon1win','95'),
-		'Simon The Sorcerer 1 Talkie (DOS)'       		=> array('n/a','simon1talkie','90'),
+		'Simon The Sorcerer 1 Talkie (DOS)'       		=> array('n/a','simon1talkie','93'),
 		'Simon The Sorcerer 1 Talkie (Amiga CD32)'     		=> array('n/a','simon1cd32','8'),
- 		'Simon The Sorcerer 1 Talkie (Acorn)'			=> array('n/a','simon1acorn','90'),
-		'Simon The Sorcerer 1 (DOS)'           			=> array('n/a','simon1dos','90'),
+ 		'Simon The Sorcerer 1 Talkie (Acorn)'			=> array('n/a','simon1acorn','93'),
+		'Simon The Sorcerer 1 (DOS)'           			=> array('n/a','simon1dos','93'),
 		'Simon The Sorcerer 1 (Amiga)'          		=> array('n/a','simon1amiga','5'),
-		'Simon The Sorcerer 1 (Demo)'          			=> array('n/a','simon1demo','90'),
+		'Simon The Sorcerer 1 (Demo)'          			=> array('n/a','simon1demo','93'),
 		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','95'),
 		'Simon The Sorcerer 2 Talkie (DOS)'       		=> array('n/a','simon2talkie','90'),
 		'Simon The Sorcerer 2 Talkie (Amiga or Mac)'       	=> array('n/a','simon2mac','90'),
@@ -238,15 +238,12 @@ $notes = array(
                    "<br>- Various minor graphical glitches".
 		   "<br>- Requires <a href=\"http://0x.7fc1.org/fotaq/queen.tbl\">queen.tbl</a> resource file",
 "simon1win" 	=> "No known problems - game is completable.",
-"simon1talkie" 	=> "Game is completable.".
-                    "<br>- No inventory scrolling arrows shown, can still move around inventory though",
+"simon1talkie" 	=> "Game is completable.",
 "simon1cd32" 	=> "Game works a bit but can't see anything".
                    "<br>- All graphics are decoded incorrectly".
                    "<br>- No music",
-"simon1acorn" 	=> "Game is completable.".
-                   "<br>- No inventory scrolling arrows shown, can still move around inventory though",
-"simon1dos" 	=> "Game is completable.".
-                   "<br>- No inventory scrolling arrows shown, can still move around inventory though",
+"simon1acorn" 	=> "Game is completable.",
+"simon1dos" 	=> "Game is completable.",
 "simon1amiga" 	=> "Game works a bit but can't see anything".
                    "<br>- All graphics are decoded incorrectly".
                    "<br>- No music",
