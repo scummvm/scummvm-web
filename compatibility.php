@@ -89,8 +89,7 @@ $notes = array(
                    "<br>- Inventory scrolling not implemented, making it impossible to carry more than 4 objects at once" .
                    "<br>- Missing/Incorrect SCUMM opcodes cause occasional crashes",
 "zak256"        => "Game will start, but is not completely playable." .
-                   "<br>- Inventory scrolling not implemented, making it impossible to carry more than 4 objects at once" .
-		   "<br>- Taking Blue Crystal causes game crash", 
+                   "<br>- Inventory scrolling not implemented, making it impossible to carry more than 4 objects at once" ,
 "loom"		=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Loom CD version",
 "monkeyega"	=> "Copy protection screen will show, but game crashes shortly afterwards.<BR>Graphics decoders and SCUMM opcodes not implimented yet.",
 "loomcd"        => "Game is completable." .
@@ -104,8 +103,8 @@ $notes = array(
 "dottdemo"	=> "No known problems - should be playable to the end",
 "samnmax"	=> "Game is completable.".
                    "<br>- Subgames do not work" . 
-                   "<br>- Wak-A-Mole may appear to freeze. Hit escape and wait." . 
-                   "<br>- Intro Credits will freeze of Mad Doctor cutscene is allowed to play" .
+                   "<br>- Wak-A-Rat may appear to freeze. Hit escape and wait." . 
+                   "<br>- Intro Credits will freeze if Mad Doctor cutscene is allowed to play" .
                    "<br>- Script race in Mystery Vortex will cause hang if you wait around",
 "samdemo"	=> "No known problems - should be playable to the end",
 "ft"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
@@ -114,7 +113,7 @@ $notes = array(
 "dig"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
                    "<br>- missing movie audio".
 		   "<br>- no music and not all animations playing correctly" .
-                   "<br>- crashes when pressing metal plates",
+                   "<br>- freezes occasionally due to actors not walking correctly",
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
 "simon1win" => "No known problems - should be playable to the end"
 );
