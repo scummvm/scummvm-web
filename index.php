@@ -48,16 +48,19 @@ echo html_round_frame_start("About ScummVM","98%","",20);
 		</p>
 
 		<p>
-		ScummVM is an implemention of several classic adventure game engines. Our
-		main implementation is the LucasArts <font color=green>S.C.U.M.M.</font>
-		<font color="#666666">(<i>Script Creation Utility for Maniac Mansion</i>)</font>
-		interpreter, used in games such as Monkey Island, Indiana Jones, Day Of The Tentacle,
-		Sam and Max, and many more. We also currently support two other interpreters, one
-		for Simon the Sorcerer 1/2 by AdventureSoft, and the second for Beneath a Steel
-		Sky by Revolution Software. Some things are still missing, and some games
-		cannot be completeted yet. Keep your eye on our Compatability page to see
-		which games function with the current build.<br>
-		Comments and suggestions can be left in our forum.
+		ScummVM is a 'virtual machine' for several classic graphical point-and-click adventure
+		games. It is designed to run <a href="http://www.adventuresoft.com">Adventure Soft</a>'s
+		<i>Simon the Sorcerer</i> 1 and 2, <a href="http://www.revolution.co.uk">Revolution</a>'s
+		<i>Beneath A Steel Sky</i>, and games based on <a href="http://www.lucasarts.com">LucasArts</a>' <font
+		color="green">S.C.U.M.M</font> <font color="#666666">(<i>Script Creation Utility for Maniac
+		Mansion</i>)</font> system. <font color="green">S.C.U.M.M</font> is used for many games,
+		including <i>Monkey Island</i>, <i>Day of the Tentacle</i>, <i>Sam and Max</i> and more.
+		Compatability with supported games is continually improving, so check back often.
+		</p>
+		<p>
+		Our forum and IRC channel, <a href="irc://irc.freenode.net/scummvm">#scummvm on
+		irc.freenode.net</a>, are open for comments and suggestions. Please read our FAQ
+		before posting, particularly regarding support for other adventure games.
 		</p>
 	  </td>
 	  <td>
