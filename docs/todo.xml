@@ -122,7 +122,6 @@
 			<li>Add implementation for file related opcode stubs</li>
 			<li>Figure out remaining scale/akos differences</li>
 			<li>Track down more differences from lec scumm</li>
-			<li>Add code to playback XMI midi music</li>
 			<li>Radgametools video support possibly needed for newer games?</li>
 			<li>Add support for sound formats used in 3DO versions</li>
 			<li>Improve handling of talkie files/blocks</li>
