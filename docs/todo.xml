@@ -70,6 +70,21 @@
 				be no issue.
 				</p>
 			</li>
+			<li>
+				<p><b>Implement a new save system</b></p>
+				<p>The current save system is quite messy, and whenever we have to change something, we must
+				break save game compatibility. Hence a new system should be implemented. If we use
+				a key based approach (that is, entries are not stored at a fixed position, but rather
+				are found using a "key string"), we can easily add/remove elements while still allowing
+				for older save games to be read.
+				</p>
+				<p>Another thing that might help would be if all objects (e.g. Actor) would contain
+				the code necessary to read/write itself to/from an archive stream. This would
+				make the whole approach more modular and easier to maintain.
+				</p>
+				<p>Please talk to Fingolfin if you want to work on this.
+				</p>
+			</li>
 			<li><p>Make it possible to restart (scumm) games</p></li>
 			<li><p>Allow the user to choose between multiple video drivers at startup when multiple choices are possible.
 			E.g. between SDL vs. SDL_gl. Just like one can choose a midi driver. Currently one has to recompile for this.</p></li>
@@ -85,12 +100,18 @@
 				<li>add getWidth() / getHeight() accessors to OSystem (so that we don't have to use _realHeight and _realWidth anymore)</li>
 				</ul>
 			</li>
-			<li><p><b>In NewGUI and the overlay code, deal with 555 vs. 565 16biz modes.</b></p><p>E.g. on my system in windowed mode, it's 565 mode - but in fullscreen it is 555. Maybe we can add another accesor to OSystem that returns which mode the overlay is in, then NewGUI can do its drawing accordingly...</p></li>
-			<li>Implement old dialogs (About, Options, Keys, ...)</li>
-			<li>Implement an edit field widget</li>
-			<li><b>Implement launcher dialog</b> that shows up at the start and allows the user to specify
+			<li>
+				<p><b>In NewGUI and the overlay code, deal with 555 vs. 565 16biz modes.</b></p>
+				<p>E.g. on my system in windowed mode, it's 565 - but in fullscreen it is 555.
+				Maybe we can add another accesor to OSystem that returns which mode the overlay
+				is in, then NewGUI can do its drawing accordingly...
+				</p>
+			</li>
+			<li><a name="launcher"></a><b>Implement a launcher dialog</b> that shows up at the start and allows the user to specify
 			which game to play. At first this could just allow the user to type in a command line;
 			better versions would offer a list of games we know about, etc.</li>
+			<li>Implement old dialogs (About, Options, Keys, ...)</li>
+			<li>Implement an edit field widget</li>
 			<li>Implement a generic error/warning/message dialog ("alert box")</li>
 			<li><i>Ask: Fingolfin, Ender, painelf</i></li>
 		</ul>
