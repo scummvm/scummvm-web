@@ -46,11 +46,9 @@
 		<?php addEntry("EGA", "Atari", "en", "157367c3c21e0d03a0cba44361b4cf65", "indy3EGA", "Andreas Bylund"); ?>
 		<?php addEntry("EGA", "Atari", "fr", "0f9c7a76657f0840b8f7ccb5bffeb9f4", "indy3EGA", "Andreas Bylund"); ?>
 		<?php addEntry("EGA Demo", "DOS", "en", "b597e0403cc0002f69170e6caba7edd9", "indy3EGA"); ?>
-		<?php addEntry("VGA", "DOS", "en", "1875b90fade138c9253a8e967007031a", "indy3"); ?>
+		<?php addEntry("VGA", "DOS", "All", "1875b90fade138c9253a8e967007031a", "indy3"); ?>
 		<?php addEntry("VGA", "DOS", "de", "399b217b0c8d65d0398076da486363a9", "indy3"); ?>
-		<?php addEntry("VGA (same as ES?)", "DOS", "fr", "1875b90fade138c9253a8e967007031a", "indy3", "Andrea Petrucci"); ?>
 		<?php addEntry("VGA", "DOS", "it", "17b5d5e6af4ae89d62631641d66d5a05", "indy3", "Andrea Petrucci"); ?>
-		<?php addEntry("VGA (same as FR?)", "DOS", "es", "1875b90fade138c9253a8e967007031a", "indy3", "Andrea Petrucci"); ?>
 		<?php addEntry("FM-TOWNS", "FM-TOWNS", "en", "04687cdf7f975a89d2474929f7b80946", "indy3towns"); ?>
 		<?php addEntry("FM-TOWNS", "FM-TOWNS", "jp", "3a0c35f3c147b98a2bdf8d400cfc4ab5", "indy3towns", "Paul Priest, Andrea Petrucci"); ?>
 		<?php addEntry("FM-TOWNS Demo", "FM-TOWNS", "en", "3938ee1aa4433fca9d9308c9891172b1", "zaktowns"); ?>
