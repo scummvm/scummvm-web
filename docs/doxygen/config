@@ -305,10 +305,9 @@ INPUT                  = /home/groups/s/sc/scummvm/scummvm/common \
                          /home/groups/s/sc/scummvm/scummvm/gui \
                          /home/groups/s/sc/scummvm/scummvm/scumm \
                          /home/groups/s/sc/scummvm/scummvm/simon \
+                         /home/groups/s/sc/scummvm/scummvm/sky \
                          /home/groups/s/sc/scummvm/scummvm/sound
 
-# No sky output for now, it contains far too many header files =)
-#                         /home/groups/s/sc/scummvm/scummvm/sky \
 # Also, skip the backends for now
 #                         /home/groups/s/sc/scummvm/scummvm/backends \
 
@@ -333,7 +332,7 @@ RECURSIVE              = YES
 # excluded from the INPUT source files. This way you can easily exclude a 
 # subdirectory from a directory tree whose root is specified with the INPUT tag.
 
-EXCLUDE                = 
+EXCLUDE                = /home/groups/s/sc/scummvm/scummvm/sky/compacts
 
 # The EXCLUDE_SYMLINKS tag can be used select whether or not files or directories 
 # that are symbolic links (a Unix filesystem feature) are excluded from the input.
