@@ -35,10 +35,11 @@
 
 	<h3>General</h3>
 	<ul>
+		<li><p>Add support for Loom TurboGrafx 16/PC Engine (Donations welcome as no one has it...)</p></li>
 		<li><p>Make it possible to restart (scumm) games (properly, current CVS has debugger cmd)</p></li>
 		<li><p>Fix handling of Kanji in FmTowns games (foreground is actually rendered on a second plane at 640x480)</p></li>
 		<li><p>Improve support for non PC versions of games</p></li>
-		<li><p>Figure out how to extract data from c64/appleII</p></li>
+		<li><p>Figure out how to extract data files from Apple II and Commodore 64 versions</p></li>
 	</ul>
 	<h3>New GUI</h3>
 	<ul>
@@ -89,10 +90,6 @@
 		<ul>
 			<li>Make distaff save/restore correctly</li>
 			<li>Add music for Amiga And Mac versions</li>
-		<li><h4>Loom TurboGrafx 16/PC Engine</h4>
-		<ul>
-			<li>Support this (donations welcome as no one has it...)
-		</ul>
 		</ul>
 		<li><h4>Monkey Island 1 EGA</h4>
 		<ul>
@@ -145,6 +142,11 @@
 			<li>Add support for SONG blocks/files</li>
 			<li>Add support for graphics formats used in 3DO versions (included in pc versions just not used)</li>
 			<li><i>Ask: khalek</i></li>
+		</ul>
+		<li><h4>Broken Sword II</h4>
+		<ul>
+			<li>Make code big endian safe</li>
+			<li><i>Ask: eriktorbjorn, khalek</i></li>
 		</ul>
 		<li><h4>Simon the Sorcerer 1 & 2</h4>
 		<ul>
