@@ -123,12 +123,12 @@ $notes = array(
                    "<br>- Various minor graphical glitches",
 "simon1talkie" 	=> "Game is completable.".
                    "<br>- Various minor graphical glitches",
-"simon1dos" 	=> "Game is completable to a point, but not playable to the end".
+"simon1dos" 	=> "Game is completable.".
                    "<br>- Freezes briefly when Swampling leaves his house".
                    "<br>- Freezes briefly when talking to demons in Sordid's Tower".
                    "<br>- No sound effects".
                    "<br>- Various minor graphical glitches",
-"simon1demo" 	=> "Game demo is completable to a point, but not playable to the end".
+"simon1demo" 	=> "Game demo is completable but doesn't end".
                    "<br>- Freezes briefly when Swampling leaves his house".
                    "<br>- No music",
 "simon2win"     => "Game is completable.".
@@ -137,7 +137,7 @@ $notes = array(
 "simon2talkie"  => "Game is completable.".
                    "<br>- No music".
                    "<br>- Various minor graphical glitches",
-"simon2dos"     => "Game is completable to a point, but not playable to the end".
+"simon2dos"     => "Game is completable.".
                    "<br>- Freezes briefly during sequence shown when trying to escape from pirate ship".
                    "<br>- No music".
                   "<br>- Various minor graphical glitches"
