@@ -12,11 +12,11 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("ScummVM :: Press");
+html_header("ScummVM :: Press Coverage");
 sidebar_start();
 
 //display welcome table
-echo html_round_frame_start("Press","");
+echo html_round_frame_start("Press Coverage","");
 
 ?>
 <h1>ScummVM press coverage</h1>
@@ -27,6 +27,10 @@ echo html_round_frame_start("Press","");
 
 	<p><a href="http://www.aventurepc.com/dossiers/scummvm1.html"
 	   ><b>Dossier ScummVM - première partie</b></a> (French), Aventure PC, October 1, 2003
+	</p>
+
+	<p><a href="http://obligement.free.fr/articles/scummvm.php"
+	  ><b>Labo : ScummVM</b></a> (French), Obligement, October 2003
 	</p>
 
 	<p><a href="http://207.44.176.77/~admin28/zodiacgamer/articles/scummvm.htm"
@@ -77,6 +81,10 @@ echo html_round_frame_start("Press","");
 	   ><b>Lucas Confuses ScummVM With Abandonware</b></a>, Slashdot, June 26, 2002
 	</p>
 	
+	<p><a href="http://www.amigafuture.de/interactive/interview/scummvm.php"
+	  ><b>Interview mit Rüdiger Hanke</b></a> (German), Amiga Future #36, May 2002
+	</p>
+
 	<p><a href="http://www.pcdemano.com/sections.php?op=viewarticle&amp;artid=151"
 	   ><b>Revisión de PocketScumm Build 0.2.0</b></a> (Spanish), PC demano, March 2002
 	</p>
