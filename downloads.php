@@ -62,7 +62,9 @@ echo html_round_frame_start("Download ScummVM","");
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-1_FC3.i386.rpm?download">Fedora Core 3 package</a> <small>(1.2M RPM)</small></li>
 <!--
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-1_FC2.i386.rpm?download">Fedora Core 1 and 2 package</a> <small>(1.4M RPM)</small></li>
+-->
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.7.1-0.woody.1_i386.deb?download">Debian Stable (woody) package</a> <small>(1.3M .deb)</small></li>
+<!--
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-1mdk.i586.rpm?download">Mandrake package</a> <small>(1.1M RPM)</small></li>
 -->
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1_slack-i486-2.tgz?download">SlackWare package</a> <small>(1.3M .tgz)</small></li>
@@ -116,7 +118,6 @@ echo html_round_frame_start("Download ScummVM","");
 	</p>
 	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-1_FC2.i386.rpm?download">0.7.0 Fedora Core 1 and 2 package</a> <small>(1.4M RPM)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.7.0-0.woody.1_i386.deb?download">0.7.0 Debian Stable (woody) package</a> <small>(1.3M .deb)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-1mdk.i586.rpm?download">0.7.0 Mandrake package</a> <small>(1.1M RPM)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-solaris8-sparc.tar.bz2?download">0.7.0 Solaris 8 (Sparc) binary</a> <small>(1.1M .tar.bz2)</small></li>
