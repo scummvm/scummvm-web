@@ -78,7 +78,7 @@ $games = array(
 		'Curse of Monkey Island'				=> array('8','curse','5'),
 		'Simon The Sorcerer 1 (Win)'           			=> array('n/a','simon1win','95'),
 		'Simon The Sorcerer 1 (Dos)'           			=> array('n/a','simon1dos','95'),
-		'Simon The Sorcerer 1 (DEMO)'          			=> array('n/a','simon1demo','5'),
+		'Simon The Sorcerer 1 (DEMO)'          			=> array('n/a','simon1demo','60'),
 		'Simon The Sorcerer 2 (Win)'           			=> array('n/a','simon2win','60'),
 		'Simon The Sorcerer 2 (Dos)'           			=> array('n/a','simon2dos','5')
 	      );
