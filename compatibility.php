@@ -94,7 +94,7 @@ $games = array(
 		'Simon The Sorcerer 1 (Demo)'          			=> array('n/a','simon1demo','80'),
 		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','80'),
 		'Simon The Sorcerer 2 Talkie (DOS)'       		=> array('n/a','simon2talkie','80'),
-		'Simon The Sorcerer 2 Talkie (Amiga or Mac)'       		=> array('n/a','simon2mac','80'),
+		'Simon The Sorcerer 2 Talkie (Amiga or Mac)'       	=> array('n/a','simon2mac','80'),
 		'Simon The Sorcerer 2 (DOS)'           			=> array('n/a','simon2dos','80')
 	      );
 
@@ -103,12 +103,14 @@ $notes = array(
 "zakc64"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
 "maniacega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format",
 "zakega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
-"indy3ega"	=> "Only introduction works, game locks up at copy protection point.<BR>ScummVM doesn't completely understand the non-blocked LFL format",
+"indy3ega"	=> "Only introduction works, game locks after copy protection".
+                   "<br>ScummVM doesn't completely understand the non-blocked LFL format",
 "indy3"         => "Game is completable" .
                    "<br>- Music and Sound effects are usually missing",
 "zak256"        => "Game is completable." .
                    "<br>- No sound effect looping" ,
-"loom"		=> "Only level selection screen is shown, game locks up at that point.<BR>ScummVM doesn't completely understand the non-blocked LFL format",
+"loom"		=> "Only level selection screen works, game locks after copy protection".
+                   "<br>ScummVM doesn't completely understand the non-blocked LFL format",
 "monkeyega"	=> "Game is completable".
                    "<br>- No sound effects".
                    "<br>- No music looping",
@@ -172,7 +174,8 @@ $notes = array(
                    "<br>- Minor graphical glitch with Sordid statue after leaving room",
 "simon1talkie" 	=> "Game is completable.".
                    "<br>- Minor graphical glitches when using ring".
-                   "<br>- Minor graphical glitch with Sordid statue after leaving room",
+                   "<br>- Minor graphical glitch with Sordid statue after leaving room".
+                   "<br>- No inventory scrolling arrows shown, can still move around inventory though",
 "simon1cd32" 	=> "Game works a bit but can't see anything".
                    "<br>- All graphics are decoded incorrectly".
                    "<br>- pkd compression format is unknown".
@@ -181,7 +184,8 @@ $notes = array(
                    "<br>- Freezes briefly when Swampling leaves his house".
                    "<br>- Freezes briefly when talking to demons in Sordid's Tower".
                    "<br>- Minor graphical glitches when using ring".
-                   "<br>- Minor graphical glitch with Sordid statue after leaving room",
+                   "<br>- Minor graphical glitch with Sordid statue after leaving room".
+                   "<br>- No inventory scrolling arrows shown, can still move around inventory though",
 "simon1amiga" 	=> "Not at all implemented yet".
                    "<br>- pkd compression format is unknown".
                    "<br>- Music format unknown",
