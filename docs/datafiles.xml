@@ -174,19 +174,35 @@ details.</p>
   </tr>
   <tr>
     <td>Full Throttle</td>
-    <td>DATA folder<br>
-      VIDEO folder<br>
-      FT.LA0<br>
-      FT.LA1<br>
-      MONSTER.SOU<br>
+    <td>FT.LA0<br>
+    FT.LA1<br>
+    MONSTER.SOU<br>
+    DATA folder, EXCEPT files:<br>
+      ( benbike.nut, roadrush.nut, roadrsh2.nut, chaseben.san )<br>
+      VIDEO folder, EXCEPT files:<br>
+      ( demogogg.trs, fi.trs, miranda.trs, showdown.trs,<br>
+      polexit.trs, rifell.trs, reststop.trs bikeswar.san,<br>
+      blink.san, blink2.san, blink3.san, catchup.san,<br>
+      crushdog.san, cvramp.san, driveby.san, fl_14.san,<br>
+      hi_sign.san, limoby.san, limoroar.san,<br>
+      plncrsh.san, reachher.san, tinytruc.san )</td>
   </tr>
   <tr>
     <td>Full Throttle (PC Demo)</td>
-    <td>data folder<br>
-      video folder<br>
-      ft.000<br>
+    <td>ft.000<br>
       ft.001<br>
-      monster.sou</td>
+      monster.sou<br>
+      DATA folder, EXCEPT files:<br>
+      ( benbike.nut, roadrash.nut, roadrsh2.nut,<br>
+      smushcut.txt, harlrev.sad, laser2.sad,<br>
+      liftbord.san, liftchay.san, liftgog.san, lidtsaw.san )<br>
+      VIDEO folder, EXCEPT files:<br>
+      ( bed.nut, bigfoot.nut, blackfrm.nut, blink.nut,<br>
+      blink2.nut, blink3.nut, crash.nut, dodge.nut,<br>
+      face-6.nut, fire.nut, fishogg.nut, focus.nut, focus-5.nut,<br>
+      goggles.nut, limopan.nut, peelout.nut, riding.nut,<br>
+      barkdog.san, burst.dog, cvramp.san, demogogg.san,<br>
+      finsushi.san, takeoff.san, test.san, vision.san )</td>
   </tr>
   <tr>
     <td>Indiana Jones and the Fate of Atlantis (Amiga)</td>
