@@ -25,7 +25,7 @@ echo html_round_frame_start("Downloads","");
 	<p>
 	  Downloads are hosted with SourceForge.net. If you have one of the supported systems, you can directly download
 	  the appropriate binary distribution. If you have another system, download the source and read the
-	  <a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
+	  <a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=release-0-6-0">README</a>
 	  file for directions on how to build ScummVM.
 	</p>
 
@@ -63,10 +63,11 @@ echo html_round_frame_start("Downloads","");
 	</ul>
 
 	<hr>
+	<A name="stable">
 	<p>
  	  <b>0.6.0 Release binaries:</b>
 	</p>
-	<p>For a list of changes since the previous version, <a href="http://sourceforge.net/project/shownotes.php?release_id=176395">read the release notes</a>.</p>
+	<p>For a list of changes since the previous version, <a href="http://sourceforge.net/project/shownotes.php?release_id=223566">read the release notes</a>.</p>
 	<p>0.6.0 should be apt-get'able from Debian unstable (sid) shortly.</p>
 
 	<ul>
@@ -77,8 +78,8 @@ echo html_round_frame_start("Downloads","");
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-1.src.rpm?download">Source RPM</a> <small>(2.2M RPM)</small></li>
 <!--
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-morphos.tgz?download">MorphOS binary</a> <small>(857k .tgz)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.6.0-0woody1_i386.deb?download">Debian Stable (woody) Package</a> <small>(630k .deb)</small></li>
 -->
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.6.0-0woody1_i386.deb?download">Debian Stable (woody) Package</a> <small>(1.7M .deb)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-beos-x86.pkg?download">BeOS package</a> <small>(1.6M pkg)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-palmos.zip?download">PalmOS binary</a> <small>(530k zipfile)</small></li>
@@ -117,6 +118,7 @@ echo html_round_frame_start("Downloads","");
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.6.0.zip?download">Tools - Source .zip</a> <small>(102k)</small></li>
 	</ul>
 
+	<A NAME="extras">
 	<p>
 	   <b>Extras!:</b>
 	</p>
