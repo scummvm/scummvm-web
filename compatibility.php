@@ -90,18 +90,13 @@ $gamesLucas = array(
 	      );
 
 $gamesHE = array(
-		'Putt-Putt Joins The Parade (Demo)'					=> array('n/a','puttdemo','95'),
-		'Putt-Putt Joins The Parade'						=> array('n/a','puttputt','95'),
-		'Putt-Putt Goes To The Moon ( Demo)'					=> array('n/a','moondemo','95'),
-		'Putt-Putt Goes To The Moon'						=> array('n/a','puttmoon','95'),
-		'Putt-Putts Fun Pack'							=> array('n/a','funpack','95'),
-		'Fatty Bears Birthday Surprise (Demo)'					=> array('n/a','fbdemo','95'),
-		'Fatty Bears Birthday Surprise'						=> array('n/a','fbear','93'),
-		'Fatty Bears Fun Pack'							=> array('n/a','fbpack','95'),
 		'Blue\'s ABC Time (Demo)'						=> array('n/a','BluesABCTimeDemo','50'),
 		'Big Thinkers First Grade (Demo)'					=> array('n/a','1grademo','10'),
 		'Big Thinkers Kindergarten (Demo)'					=> array('n/a','kinddemo','50'),
 		'Big Thinkers Kindergarten'						=> array('n/a','thinkerk','10'),
+		'Fatty Bears Birthday Surprise (Demo)'					=> array('n/a','fbdemo','95'),
+		'Fatty Bears Birthday Surprise'						=> array('n/a','fbear','93'),
+		'Fatty Bears Fun Pack'							=> array('n/a','fbpack','95'),
 		'Freddi Fish 1: The Case of the Missing Kelp Seeds (Demo)'		=> array('n/a','freddemo','90'),
 		'Freddi Fish 1: The Case of the Missing Kelp Seeds'			=> array('n/a','freddi','80'),
 		'Freddi Fish 2: The Case of the Haunted Schoolhouse (Demo)'		=> array('n/a','ff2-demo','70'),
@@ -129,14 +124,19 @@ $gamesHE = array(
 		'Pajama Sam\'s Sock Works'						=> array('n/a','socks','50'),
 		'Putt-Putt Enters the Race (Demo)'					=> array('n/a','racedemo','10'),
 		'Putt-Putt Enters the Race'						=> array('n/a','puttrace','10'),
+		'Putt-Putt Goes To The Moon (Demo)'					=> array('n/a','moondemo','95'),
+		'Putt-Putt Goes To The Moon'						=> array('n/a','puttmoon','95'),
 		'Putt-Putt Joins the Circus (Demo)'					=> array('n/a','circdemo','10'),
 		'Putt-Putt Joins the Circus'						=> array('n/a','puttcircus','10'),
+		'Putt-Putt Joins The Parade (Demo)'					=> array('n/a','puttdemo','95'),
+		'Putt-Putt Joins The Parade'						=> array('n/a','puttputt','95'),
 		'Putt-Putt Saves the Zoo (Demo)'					=> array('n/a','zoodemo','70'),
 		'Putt-Putt Saves the Zoo'						=> array('n/a','puttzoo','70'),
 		'Putt-Putt Travels Through Time (Demo)'					=> array('n/a','timedemo','70'),
 		'Putt-Putt Travels Through Time'					=> array('n/a','putttime','70'),
 		'Putt-Putt and Pep\'s Balloon-O-Rama'					=> array('n/a','balloon','50'),
 		'Putt-Putt and Pep\'s Dog on a Stick'					=> array('n/a','dog','50'),
+		'Putt-Putts Fun Pack'							=> array('n/a','funpack','95'),
 		'Spyfox 1: Dry Cereal (Demo)'						=> array('n/a','foxdemo','10'),
 		'Spyfox 1: Dry Cereal (Alternative Demo)'				=> array('n/a','spydemo','10'),
 		'Spyfox 1: Dry Cereal'							=> array('n/a','spyfox','10'),
@@ -239,20 +239,12 @@ $notes = array(
 		   "<br>- Both Mac and PC versions supported by this target",
 "comi"		=> "Game is completable, with minor glitches.",
 
-"puttdemo"	=> "No known issues, game is completable.".
-		   "<br>- Both DOS and Windows versions supported by this target".
-		   "<br>- Cursors aren't scaled correctly in Windows version",
-"puttputt"	=> "No known issues, game is completable.".
-		   "<br>- 3DO, DOS and Windows versions supported by this target".
-		   "<br>- Cursors aren't scaled correctly in Windows version",
-"puttmoon"	=> "No known issues, game is completable.".
-		   "<br>- 3DO, DOS and Windows versions supported by this target".
-		   "<br>- Cursors aren't scaled correctly in Windows version",
-"moondemo"	=> "No known issues, game is completable.".
-		   "<br>- Both DOS and Windows versions supported by this target".
-		   "<br>- Cursors aren't scaled correctly in Windows version",
-"funpack"	=> "No known issues, game is completable.".
-		   "<br>- Both 3DO and DOS versions supported by this target",
+"BluesABCTimeDemo" => "Game is playable".
+		   "<br>- Various issues",
+"1grademo"	=> "Game is playable,, but objects in mini games aren't drawn",
+"kinddemo"	=> "Game is playable, but settings aren't saved".
+		   "<br>- Various issues",
+"thinkerk"	=> "Triggers an assert when entering name",
 "fbdemo"	=> "Should be playable to the end".
 		   "<br>- Both DOS and Windows versions supported by this target".
 		   "<br>- Cursors aren't scaled correctly in Windows version",
@@ -262,12 +254,6 @@ $notes = array(
 		   "<br>- Cursors aren't scaled correctly",
 "fbpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
-"BluesABCTimeDemo" => "Game is playable".
-		   "<br>- Various issues",
-"1grademo"	=> "Game is playable,, but objects in mini games aren't drawn",
-"kinddemo"	=> "Game is playable, but settings aren't saved".
-		   "<br>- Various issues",
-"thinkerk"	=> "Triggers an assert when entering name",
 "freddemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Inventory bubbles don't pop in older demo",
 "freddi"	=> "Game is completable, with minor glitches".
@@ -326,10 +312,22 @@ $notes = array(
 		   "<br>- Various issues",
 "puttrace"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
+"moondemo"	=> "No known issues, game is completable.".
+		   "<br>- Both DOS and Windows versions supported by this target".
+		   "<br>- Cursors aren't scaled correctly in Windows version",
+"puttmoon"	=> "No known issues, game is completable.".
+		   "<br>- 3DO, DOS and Windows versions supported by this target".
+		   "<br>- Cursors aren't scaled correctly in Windows version",
 "circdemo"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
 "puttcircus"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
+"puttdemo"	=> "No known issues, game is completable.".
+		   "<br>- Both DOS and Windows versions supported by this target".
+		   "<br>- Cursors aren't scaled correctly in Windows version",
+"puttputt"	=> "No known issues, game is completable.".
+		   "<br>- 3DO, DOS and Windows versions supported by this target".
+		   "<br>- Cursors aren't scaled correctly in Windows version",
 "puttzoo"	=> "Game is completable, with minor glitches".
 		   "<br>- Inventory background and items are often not redrawn",
 "zoodemo"	=> "Game is completable, with minor glitches".
@@ -342,6 +340,8 @@ $notes = array(
 		   "<br>- Various issues",
 "dog"		=> "Game is playable, but settings aren't saved".
 		   "<br>- Various issues",
+"funpack"	=> "No known issues, game is completable.".
+		   "<br>- Both 3DO and DOS versions supported by this target",
 "spydemo"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
 "foxdemo"	=> "Not completable, no inventory controls".
