@@ -35,20 +35,31 @@ echo html_round_frame_start("Downloads","");
 	</p>
 
 	<p>
-	The latest STABLE release of ScummVM is 0.6.0, and can be downloaded below under 'Release Binaries'.<BR>
-	For UNSTABLE experimental versions of ScummVM,	please see the <a href="#CVS">CVS</a> section, at the end of this page.<BR>
-	 <a href="#extras">Extras</a>, such as the freeware release of Beneath a Steel Sky and Flight of the Amazon Queen, as well as Broken Sword cutscene 
-packs, can also be found below.
+	The latest STABLE release of ScummVM is 0.6.0, and can be downloaded below under 
+	'Release Binaries'.<BR>
+	<H3>If you run Windows and really are not sure what you are doing</H3>, you want to 
+	download the first file in the list below and READ THE INSTRUCTIONS IN README.TXT - this
+	will probably answer most of your questions.
+	</p>
+
+	<p>
+	For UNSTABLE experimental versions of ScummVM (for people who know what they 
+are doing), please see the <a href="#CVS">CVS</a> section, near the end of this page.
+	</p>
+
+	<p>
+	 <a href="#extras">Extras</a>, such as the freeware release of Beneath a Steel Sky and
+	 Flight of the Amazon Queen, as well as Broken Sword cutscene packs, can also be found below.
 	</p>
 
 	<hr>
 	<a name="stable"></a>
 	<h3>0.6.0 Release binaries</h3>
 	<p>For a list of changes since the previous version, <a href="http://sourceforge.net/project/shownotes.php?release_id=223566">read the release notes</a>.</p>
-	<p>0.6.0 is apt-get'able from Debian unstable (sid). <I>If downloading any of these files returns a File not Found error, please try a different mirror.</I></p>
+	<p>0.6.0 is apt-get'able from Debian unstable (sid)</p>
 
 	<ul>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-win32.exe?download">Windows Installer</a> <small>(1.2M Win32 .exe)</small></li>
+	  <li><B><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-win32.exe?download">Windows Installer</a></B> <small>(1.2M Win32 .exe)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-win32.zip?download">Windows zipfile</a> <small>(1.2M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-macosx.dmg?download">Mac OS X (10.2 + 10.3) Disk Image</a> <small>(1.5M disk image)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-1.i386.rpm?download">RedHat package</a> <small>(1.2M RPM)</small></li>
