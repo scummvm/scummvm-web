@@ -246,7 +246,7 @@ details.</p>
       samdemo.001</td>
   </tr>
   <tr>
-    <td>Secret of Monkey Island, The (Amiga)</td>
+    <td>Secret of Monkey Island, The (Amiga or Amiga demo)</td>
     <td>*.LEC<br>
       *.LFL<br>
       music.dat<br>
@@ -306,14 +306,7 @@ details.</p>
       TEXT*</td>
   </tr>
   <tr>
-    <td>Simon the Sorcerer 1 Talkie (Acorn)</td>
-    <td>EXECUTE folder<br>
-      DATA<br>
-      EFFECTS<br>
-      SIMON<br>
-  </tr>
-  <tr>
-    <td>Simon the Sorcerer 1 Talkie (Acorn Demo)</td>
+    <td>Simon the Sorcerer 1 Talkie (Acorn or Acorn demo)</td>
     <td>EXECUTE folder<br>
       DATA<br>
       EFFECTS<br>
@@ -375,7 +368,7 @@ details.</p>
       tbllist</td>
   </tr>
   <tr>
-    <td>Simon the Sorcerer 2 Talkie (DOS)</td>
+    <td>Simon the Sorcerer 2 Talkie (DOS or DOS Demo)</td>
     <td>GSPTR30<br>
       ICON.DAT<br>
       SIMON.GME<br>
@@ -389,15 +382,6 @@ details.</p>
       ICON.DAT<br>
       SIMON2.GME<br>
       SIMON2.WAV<br>
-      STRIPPED.TXT<br>
-      TBLLIST</td>
-  </tr>
-  <tr>
-    <td>Simon The Sorcerer 2 (Demo)</td>
-    <td>GSPTR30<br>
-      ICON.DAT<br>
-      SIMON.GME<br>
-      SIMON2.VOC<br>
       STRIPPED.TXT<br>
       TBLLIST</td>
   </tr>
