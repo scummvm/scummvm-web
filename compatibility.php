@@ -110,13 +110,13 @@ $notes = array(
                    "<br>- Music and sound effects are usually missing",
 "zak256"        => "Game is completable." .
                    "<br>- No sound effect looping" ,
-"loom"		=> "Game crashes when picking up the distaff".
-                   "<br>ScummVM doesn't completely understand the non-blocked LFL format",
+"loom"		=> "At least partly playable".
+                   "<br>- Music and sound effects are usually missing",
 "monkeyega"	=> "Game is completable".
                    "<br>- No sound effects".
                    "<br>- No music looping",
-"pass"		=> "At least partly payable".
-                   "<br>- No text dialog in indy3 demo".
+"pass"		=> "At least partly playable".
+                   "<br>- No subtitles in indy3 demo".
                    "<br>- No sound effects",
 "loomcd"        => "Game is completable." .
                    "<br>- Various minor graphical glitches",
