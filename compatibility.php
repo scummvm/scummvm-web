@@ -61,11 +61,11 @@ else
 
 // This Array Defines the games and thier ratings, etc.
 $games = array(
-		'Maniac Mansion (original)'				=> array('1','maniac','50'),
-		'Maniac Mansion (enhanced)'				=> array('2','maniac','70'),
-		'Zak McKracken and the Alien Mindbenders (original)'	=> array('1','zak','40'),
-		'Zak McKracken and the Alien Mindbenders (enhanced)'	=> array('2','zak','70'),
-		'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','85'),
+		'Maniac Mansion (original)'				=> array('1','maniac','70'),
+		'Maniac Mansion (enhanced)'				=> array('2','maniac','80'),
+		'Zak McKracken and the Alien Mindbenders (original)'	=> array('1','zak','50'),
+		'Zak McKracken and the Alien Mindbenders (enhanced)'	=> array('2','zak','80'),
+		'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','95'),
 		'Indiana Jones and the Last Crusade'			=> array('3','indy3ega','80'),
 		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','80'),
 		'Indiana Jones and the Last Crusade (256 - FmTowns)'	=> array('3','indy3towns','80'),
@@ -109,16 +109,16 @@ $games = array(
 
 $notes = array(
 "maniac"	=> "Enhanced PC version is completable, with several minor glitches".
-		   "<br>Classic version still in progress, results may vary".
+		   "<br>Classic version should be completable, with several glitches".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions are supported by this target".
-		   "<br>- Classic PC version actor costumes cause random crashes".
-		   "<br>- Classic PC version actor masking and palette is broken".
+		   "<br>- Actor masking and palette is broken in Classic PC version".
+		   "<br>- No flashlight and various graphic glitches in Classic PC version".
 		   "<br>- No music or sound effects with Amiga version",
 "zak"		=> "Enhanced PC version is completable, with several minor glitches".
 		   "<br>Classic version still in progress, results may vary".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
-		   "<br>- Classic PC version actor costumes cause random crashes".
-		   "<br>- Classic PC version actor masking and palette is broken".
+		   "<br>- Actor masking and palette is broken in Classic PC version".
+		   "<br>- No flashlight and various graphic glitches in Classic PC version".
 		   "<br>- No music or sound effects with Amiga version",
 "indy3ega"	=> "Game is completable".
 		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
@@ -135,8 +135,7 @@ $notes = array(
 		   "<br>- Various minor graphical glitches".
                    "<br>- Sounds with partial loops, loop the whole sample instead of just that portion".
                    "<br>- Kanji version isn't supported",
-"zak256"        => "Game is completable." .
-                   "<br>- Sounds with partial loops, loop the whole sample instead of just that portion".
+"zak256"        => "Game is completable.".
                    "<br>- Kanji version isn't supported",
 "loom"		=> "Game is completable".
 		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
