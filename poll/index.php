@@ -44,7 +44,7 @@ echo html_round_frame_start("Website Revamp contest poll","");
 <tr><td width=5><input type=radio name=answer value=4></td><td><font face="Arial" size=-1 color="#000000">The old website is kinda cute... so ... green... and purple...</td></tr>
 <tr><td colspan=2>
 <input type=hidden name=config value="c2N1bW12bQkxMTAzMjk1MDM3CUVFRUVFRQkwMDAwMDAJQXJpYWwJQXNzb3J0ZWQ">
-<center><input type=submit value=Vote></center>
+<center><input type=submit value=Vote>&nbsp;&nbsp;<input type=submit name=view value=View></center>
 </td></tr>
 <tr><td bgcolor=#FFFFFF colspan=2 align=right><font face="Arial" size=-2 color="#000000"><a href=http://www.pollhost.com/><font color=#000099>Free polls from Pollhost.com</font></a></td></tr>
 </table></form>
@@ -54,7 +54,7 @@ echo html_round_frame_start("Website Revamp contest poll","");
 </center>
 
 
-	<p>For techincal reasons, the actual poll is hosted at an
+	<p>For technical reasons, the actual poll is hosted at an
 	external location. And somewhat annoyingly, it's ads-driven.
 	
 	<p>
