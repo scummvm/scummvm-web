@@ -61,9 +61,9 @@ else
 
 // This Array Defines the games and thier ratings, etc.
 $games = array(
-		'Maniac Mansion (original)'				=> array('1','maniac','70'),
+		'Maniac Mansion (original)'				=> array('1','maniac','80'),
 		'Maniac Mansion (enhanced)'				=> array('2','maniac','80'),
-		'Zak McKracken and the Alien Mindbenders (original)'	=> array('1','zak','70'),
+		'Zak McKracken and the Alien Mindbenders (original)'	=> array('1','zak','80'),
 		'Zak McKracken and the Alien Mindbenders (enhanced)'	=> array('2','zak','80'),
 		'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','90'),
 		'Indiana Jones and the Last Crusade'			=> array('3','indy3ega','80'),
@@ -71,7 +71,7 @@ $games = array(
 		'Indiana Jones and the Last Crusade (256 - FmTowns)'	=> array('3','indy3towns','80'),
 		'Loom'							=> array('3','loom','80'),
 		'Loom (256 - FmTowns)'					=> array('3','loomtowns','75'),
-		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','80'),
+		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','90'),
 		'Passport to Adventure (Indy3, Monkey and Loom demos)'  => array('4','pass','50'),
 		'Loom (256 color CD version)'                           => array('5','loomcd','90'),
 		'The Secret of Monkey Island (VGA Floppy)'		=> array('5','monkeyvga','90'),
@@ -112,14 +112,15 @@ $games = array(
 
 $notes = array(
 "maniac"	=> "Enhanced PC version is completable, with several minor glitches".
-		   "<br>Classic version should be completable, with several glitches".
+		   "<br>Classic version is completable, with several minor glitches".
 		   "<br>- Amiga (Use Amiga option), Atari ST, Mac and PC versions supported by this target".
-		   "<br>- Actors sometimes cause graphical glitches in Classic PC version".
+		   "<br>- Actors sometimes cause minor graphical glitches in Classic PC version".
+		   "<br>- The last 8 lines of room graphics are sometimes cut off when changing rooms in Classic PC version".
 		   "<br>- No music or sound effects with Amiga version",
 "zak"		=> "Enhanced PC version is completable, with several minor glitches".
-		   "<br>Classic version should be completable, with several glitches".
+		   "<br>Classic version is completable, with several minor glitches".
 		   "<br>- Amiga (Use Amiga option), Atari ST and PC versions supported by this target".
-		   "<br>- Actors sometimes cause graphical glitches in Classic PC version".
+		   "<br>- Actors sometimes cause minor graphical glitches in Classic PC version".
 		   "<br>- No music or sound effects with Amiga version",
 "indy3ega"	=> "Game is completable".
 		   "<br>- Amiga (Use Amiga option), Atari ST, Mac and PC versions supported by this target".
@@ -234,7 +235,7 @@ $notes = array(
 		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
 "sword2"	 => "Game is still in progress, results may vary".
 		   "<br>- No anti-aliasing".
-		   "<br>- No music, sound effects",
+		   "<br>- No music or sound effects",
 "simon1win" 	=> "No known problems - game is completable.",
 "simon1talkie" 	=> "Game is completable.".
                     "<br>- No inventory scrolling arrows shown, can still move around inventory though",
