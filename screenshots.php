@@ -40,7 +40,6 @@ if ($view != "")
 	     html_frame_tr(
 				html_frame_td(
 					'<img src="'.$file_root.'/screenshots/big_scummvm_'.$view.'.png" '.
-						'width=640 height=400 '.
 						'alt="Screenshot '.$view.'">',
 					'align=center class="color0" style="padding-top: 10px;"'
 				)
