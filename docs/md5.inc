@@ -16,6 +16,7 @@
 		<?php addEntry("V2", "DOS", "en", "debe337f73d660e951ece7c1f1c81add", "zak"); ?>
 		<?php addEntry("V2 (w/o copy protection)", "DOS", "de", "cdd760228cf1010c2903f37e788ea31c", "zak", "Max Horn"); ?>
 		<?php addEntry("V2 (from 5\"25 floppies)", "DOS", "de", "d06fbe28818fef7bfc45c2cdf0c0849d", "zak", "Nicolas Sauz&egrave;de"); ?>
+		<?php addEntry("V2", "DOS", "it", "75ba23fff4fd63fa446c02864f2a5a4b", "zak", "Antti Leimi"); ?>
 		<?php addEntry("V2", "Amiga", "en", "e94c7cc3686fce406d3c91b5eae5a72d", "zak", "dhweg"); ?>
 		<?php addEntry("FmTowns", "FmTowns", "en", "2d4536a56e01da4b02eb021e7770afa2", "zak"); ?>
 		<?php addEntry("FmTowns", "FmTowns", "jp", "ce3edc99cd4f478c5b37104d70c68ca5", "zak", "khalek"); ?>
@@ -38,6 +39,7 @@
 		<?php addEntry("Floppy", "DOS", "en", "28ef68ee3ed76d7e2ee8ee13c15fbd5b", "loom"); ?>
 		<?php addEntry("Floppy", "DOS", "en", "37f56ceb13e401a7ac7d9e6b37fecaf7", "loom", "Kirben"); ?>
 		<?php addEntry("Floppy", "DOS", "de", "fa127d7c4bb47d05bb1c33ddcaa9f767", "loom"); ?>
+		<?php addEntry("Floppy", "Amiga", "en", "4dc780f1bc587a193ce8a97652791438", "loom", "Antti Leimi"); ?>
 		<?php addEntry("Talkie/CD", "DOS", "en", "5d88b9d6a88e6f8e90cded9d01b7f082", "loomcd"); ?>
 		<?php addEntry("FmTowns", "FmTowns", "en", "c5d10e190d4b4d59114b824f2fdbd00e", "loomTowns", "dhewg"); ?>
 		<?php addEntry("FmTowns", "FmTowns", "jp", "31b8fda4c8c7413fa6b39997e776eba4", "loomTowns", "khalek"); ?>
@@ -73,6 +75,7 @@
 		<?php addEntry("-", "DOS", "de", "6886e5d08cee329b1f2e743ae2e3ceed", "monkey2"); ?>
 		<?php addEntry("-", "DOS", "fr", "8e4ee4db46954bfe2912e259a16fad82", "monkey2", "Nicolas Sauz&egrave;de"); ?>
 		<?php addEntry("FmTowns", "FmTowns", "en", "da09e666fc8f5b78d7b0ac65d1a3b56e", "monkey2", "dhewg"); ?>
+		<?php addEntry("FmTowns", "FmTowns", "jp", "430bc518017b6fac046f58bab6baad5d", "monkey2", "Antti Leimi"); ?>
 		<?php addEntry("Demo (non-interactive)", "DOS", "en", "387a544b8b10b26912d8413bab63a853", "monkey2", "khalek"); ?>
 	<tr><td colspan='7'><strong>Indiana Jones 4 and the Fate of Atlantis</strong></td></tr>
 		<?php addEntry("Talkie", "DOS", "en", "182344899c2e2998fca0bebcd82aa81a", "atlantis"); ?>
@@ -157,58 +160,58 @@
 	<tr><td colspan='7'><strong>Fatty Bears Fun Pack</strong></td></tr>
 		<?php addEntry("TODO", "(null)", "(null)", "(null)", "(null)"); ?>
 	<tr><td colspan='7'><strong>Backyard Baseball 2001 </strong></td></tr>
-		<?php addEntry("Demo", "PC", "en", "a194f15f51ee62badab74b9e7da97693", "bb2demo", "khalek"); ?>
-		<?php addEntry("Demo", "PC", "en", "a194f15f51ee62badab74b9e7da97693", "byb2001-demo", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "a194f15f51ee62badab74b9e7da97693", "bb2demo", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "a194f15f51ee62badab74b9e7da97693", "byb2001-demo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Backyard Football 2002</strong></td></tr>
-		<?php addEntry("Demo", "PC", "en", "2e85f7aa054930c692a5b1bed1dfc295", "byf2002-demo", "khalek"); ?>
-		<?php addEntry("Demo", "PC", "en", "2e85f7aa054930c692a5b1bed1dfc295", "football2002", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "2e85f7aa054930c692a5b1bed1dfc295", "byf2002-demo", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "2e85f7aa054930c692a5b1bed1dfc295", "football2002", "khalek"); ?>
 	<tr><td colspan='7'><strong>Big Thinkers: Kindergarten</strong></td></tr>
 		<?php addEntry("Demo", "DOS", "en", "695fe0b3963333b7e15b37514db3c745", "TODO"); ?>
 		<?php addEntry("Demo", "Mac", "en", "695fe0b3963333b7e15b37514db3c745", "kinddemo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Big Thinkers First Grade</strong></td></tr>
-		<?php addEntry("Demo", "PC", "en", "0f5935bd5e88ba6f09e558d64459746d", "1grademo", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "0f5935bd5e88ba6f09e558d64459746d", "1grademo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Blue's ABC Time Activities</strong></td></tr>
-		<?php addEntry("Demo", "PC", "en", "7ddeaf52c8b9a50551ce0aa2ac811d07", "bluesabctimedemo", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "7ddeaf52c8b9a50551ce0aa2ac811d07", "bluesabctimedemo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Freddi Fish 1: Missing Kelp Seeds</strong></td></tr>
 		<?php addEntry("-", "Mac", "en", "c8aac5e3e701874e2fa4117896f9e1b1", "freddi", "khalek"); ?>
 		<?php addEntry("-", "Mac", "en", "df047cc4792150f601290357566d36a6", "freddi", "khalek"); ?>
-		<?php addEntry("-", "PC", "en", "df047cc4792150f601290357566d36a6", "freddi", "khalek"); ?>
-		<?php addEntry("Demo", "PC", "en", "084ed0fa98a6d1e9368d67fe9cfbd417", "freddemo", "khalek"); ?>
-		<?php addEntry("Demo", "PC", "en", "566165a7338fa11029e7c14d94fa70d0", "freddemo", "khalek"); ?>
+		<?php addEntry("-", "DOS", "en", "df047cc4792150f601290357566d36a6", "freddi", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "084ed0fa98a6d1e9368d67fe9cfbd417", "freddemo", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "566165a7338fa11029e7c14d94fa70d0", "freddemo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Freddi Fish 2: Haunted Schoolbus</strong></td></tr>
-		<?php addEntry("Demo", "PC", "en", "fc8d197a22146e74766e9cb0cfcaf1da", "ff2-demo", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "fc8d197a22146e74766e9cb0cfcaf1da", "ff2-demo", "khalek"); ?>
 		<?php addEntry("Demo", "Mac", "en", "fc8d197a22146e74766e9cb0cfcaf1da", "ff2-demo", "khalek"); ?>
-		<?php addEntry("Demo", "PC", "en", "d37c55388294b66e53e7ced3af88fa68", "ffhsdemo", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "d37c55388294b66e53e7ced3af88fa68", "ffhsdemo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Freddi Fish 3: The Case of the Stolen Conch Shell</strong></td></tr>
 		<?php addEntry("Demo", "DOS", "en", "cb1559e8405d17a5a278a6b5ad9338d1", "TODO"); ?>
 		<?php addEntry("Demo", "Mac", "en", "cb1559e8405d17a5a278a6b5ad9338d1", "f3-mdemo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Freddie Fish 4: The Case of the Hogfish Rustlers of Briny Gulch</strong></td></tr>
 		<?php addEntry("Demo", "DOS", "en", "c25755b08a8d0d47695e05f1e2111bfc", "TODO"); ?>
-		<?php addEntry("Demo", "PC", "en", "7c2e76087027eeee9c8f8985f93a1cc5", "f4-demo", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "7c2e76087027eeee9c8f8985f93a1cc5", "f4-demo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Humongous Interactive Catalog</strong></td></tr>
-		<?php addEntry("-", "PC", "en", "86c9902b7bec1a17926d4dae85beaa45", "catalog", "khalek"); ?>
+		<?php addEntry("-", "DOS", "en", "86c9902b7bec1a17926d4dae85beaa45", "catalog", "khalek"); ?>
 	<tr><td colspan='7'><strong>Let's Explore the Farm with Buzzy</strong></td></tr>
-		<?php addEntry("Demo", "PC", "en", "bf8b52fdd9a69c67f34e8e9fec72661c", "farmdemo", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "bf8b52fdd9a69c67f34e8e9fec72661c", "farmdemo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Let's Explore the Airport with Buzzy</strong></td></tr>
-		<?php addEntry("Demo", "PC", "en", "86c9902b7bec1a17926d4dae85beaa45", "airdemo", "khalek"); ?>
-		<?php addEntry("Demo", "PC", "en", "e144f5f49d9241d2a9dee2576b3d09cb", "airdemo", "khalek"); ?>
-		<?php addEntry("Demo", "PC", "en", "8ffd618a776a4c0d8922bb28b09f8ce8", "airdemo", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "86c9902b7bec1a17926d4dae85beaa45", "airdemo", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "e144f5f49d9241d2a9dee2576b3d09cb", "airdemo", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "8ffd618a776a4c0d8922bb28b09f8ce8", "airdemo", "khalek"); ?>
 		<?php addEntry("Demo", "Mac", "en", "7ea2da67ebabea4ac20cee9f4f9d2934", "Airport Demo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Pajama Sam 1: No Need to Hide</strong></td></tr>
-		<?php addEntry("-", "PC", "en", "672dec94b82f7f0877ebb5b5cf7f4bc1", "pajama", "khalek"); ?>
+		<?php addEntry("-", "DOS", "en", "672dec94b82f7f0877ebb5b5cf7f4bc1", "pajama", "khalek"); ?>
 		<?php addEntry("-", "Mac", "en", "672dec94b82f7f0877ebb5b5cf7f4bc1", "pajama", "khalek"); ?>
 		<?php addEntry("Demo", "Mac", "en", "f237bf8a5ef9af78b2a6a4f3901da341", "Pajama Sam Demo", "khalek"); ?>
-		<?php addEntry("Demo", "PC", "en", "f237bf8a5ef9af78b2a6a4f3901da341", "pjs-demo", "khalek"); ?>
-		<?php addEntry("Demo", "PC", "en", "d7ab7cd6105546016e6a0d46fb36b964", "pjsamdemo", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "f237bf8a5ef9af78b2a6a4f3901da341", "pjs-demo", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "d7ab7cd6105546016e6a0d46fb36b964", "pjsamdemo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Pajama Sam 2: Thunder and Lightning Aren't So Frightening</strong></td></tr>
 		<?php addEntry("-", "DOS", "nl", "4fa6870d9bc8c313b65d54b1da5a1891", "TODO"); ?>
 		<?php addEntry("Demo", "DOS", "en", "36a6750e03fb505fc19fc2bf3e4dbe91", "TODO"); ?>
 	<tr><td colspan='7'><strong>Pajama Sam 3: You Are What You Eat</strong></td></tr>
-		<?php addEntry("Demo", "PC", "en", "cf90b4db5486ef798db78fe6fbf897e5", "pj3-demo", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "cf90b4db5486ef798db78fe6fbf897e5", "pj3-demo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Spy Fox in Dry Cereal</strong></td></tr>
 		<?php addEntry("-", "DOS", "nl", "9bda5fee51d2fda5253d02c642016bf4", "TODO"); ?>
 		<?php addEntry("Demo", "DOS", "en", "fbdd947d21e8f5bac6d6f7a316af1c5a", "TODO"); ?>
-		<?php addEntry("Demo", "PC", "en", "53e94115b55dd51d4b8ff0871aa1df1e", "foxdemo", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "53e94115b55dd51d4b8ff0871aa1df1e", "foxdemo", "khalek"); ?>
 		<?php addEntry("Demo", "Mac", "en", "53e94115b55dd51d4b8ff0871aa1df1e", "foxdemo", "khalek"); ?>
-		<?php addEntry("Demo", "PC", "en", "9d4ab3e0e1d1ebc6ba8a6a4c470ed184", "spydemo", "khalek"); ?>
-		<?php addEntry("-", "PC", "en", "6bf70eee5de3d24d2403e0dd3d267e8a", "spyfox", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "9d4ab3e0e1d1ebc6ba8a6a4c470ed184", "spydemo", "khalek"); ?>
+		<?php addEntry("-", "DOS", "en", "6bf70eee5de3d24d2403e0dd3d267e8a", "spyfox", "khalek"); ?>
