@@ -32,8 +32,8 @@
 	<li>Curse of Monkey Island support (we already have that partially in latest CVS!)</li>
 	<li>Maniac Mansion support</li>
 	<li>Zak McKracken (non-FmTowns) support</li>
-	<li>LoomEga support</li>
-	<li>Indy3Ega support</li>
+	<li>Proper LoomEga support</li>
+	<li>Proper Indy3Ega support</li>
 	</ul>
 
 	<h3>General</h3>
@@ -85,11 +85,27 @@
 			<li>INSANE supported required</li>
 			<li><i>Ask: Ender, aquadran</i></li>
 		</ul>
+		<li><h4>Indiana Jones and The Last Crusade EGA</h4>
+		<ul>
+			<li>Add music and sound support</li>
+			<li>Fix grail diary and biplane manual not been drawn correctly</li>
+		</ul>
 		<li><h4>Indiana Jones and The Last Crusade</h4>
 		<ul>
 			<li>Fix music support, add sound support</li>
 			<li>Correct random walkbox issues</li>
 			<li><i>Ask: Ender</i></li>
+		</ul>
+		<li><h4>Loom EGA</h4>
+		<ul>
+			<li>Add music and sound support</li>
+			<li>Fix subtitles not been shown in correct color and place</li>
+			<li>Fix crash when picking up distaff</li>
+		</ul>
+		<li><h4>Passport to Adventure</h4>
+		<ul>
+			<li>Fix music support and add sound support</li>
+			<li>Fix subtitles not been shown in indy3 demo</li>
 		</ul>
 		<li><h4>The Curse of Monkey Island</h4>
 		<ul>
