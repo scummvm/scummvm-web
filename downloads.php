@@ -71,7 +71,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-macosx.dmg?download">MacOS X Disk Image</a> <small>(672k disk image)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-1.rh80.i386.rpm?download">RedHat 8.0 package</a> <small>(405k RPM)</small>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-1.src.rpm?download">Source RPM</a> <small>(1.1M RPM)</small>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.4.1-0woody1_i386.deb ?download">Debian Stable (woody) Package</a> <small>(377k .deb)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.4.1-0woody1_i386.deb?download">Debian Stable (woody) Package</a> <small>(377k .deb)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-palmos.zip?download">PalmOS binary</a> <small>(292k zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-solaris8-sparc.tar.gz?download">Solaris 8 (Sparc) binary</a> <small>(2.3M .tar.gz)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.4.1_arm.ipk?download">Zaurus binary</a> <small>(394k ipk)</small></li>
