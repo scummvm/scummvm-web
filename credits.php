@@ -49,22 +49,23 @@ echo html_round_frame_start("Credits","98%","",20);
 	  			 "Lead developer");
 	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=12935" target="_blank">Max Horn</a>',
 	  			 'fingolfin', "Lead developer");
-	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=339357" target="_blank">Jeremy Newman</a>',
-	  			 '<a href="http://www.dracowulf.com/">laxdragon</a>', "Webmaster");
 	  add_person("Jonathan Gray", "khalek", "Engine: SCUMM");
 	  add_person("Robert G&ouml;ffringmann", "lavosspawn", "Engine: Beneath a Steel Sky");
 	  add_person("Oliver Kiehl", "olki", "Engine: Beneath a Steel Sky, Simon");
 	  add_person("Pawel Kolodziejski", "aquadran", "Engine: SCUMM (Codecs, iMUSE, Smush, etc.)");
 	  add_person("Joost Peters", "joostp", "Engine: Beneath a Steel Sky");
-	  add_person("Chris Apers ", "chrilith ", "Port:   PalmOS");
-	  add_person("Nicolas Bacca", "arisme", "Port:   PocketPC/WinCE");
-	  add_person("Marcus Comstedt", "", "Port:   DreamCast");
-	  add_person("Ruediger Hanke", "", "Port:   MorphOS");
-	  add_person("Travis Howell", "Kirben", "Port:   Win32, Engine: Simon");
-	  add_person("Peter Moraliyski", "ph0x", "Port:   GP32");
-	  add_person("Lionel Ulmer", "bbrox", "Port:   X11");
+	  add_person("Chris Apers ", "chrilith ", "Port: PalmOS");
+	  add_person("Nicolas Bacca", "arisme", "Port: PocketPC/WinCE");
+	  add_person("Marcus Comstedt", "", "Port: DreamCast");
+	  add_person("Ruediger Hanke", "", "Port: MorphOS");
+	  add_person("Travis Howell", "Kirben", "Port: Win32, Engine: Simon");
+	  add_person("Peter Moraliyski", "ph0x", "Port: GP32");
+	  add_person("Lionel Ulmer", "bbrox", "Port: X11");
 	  add_person("Torbj&ouml;rn Andersson", "eriktorbjorn", "Generic Bugfixer and Patch Submitter");
 	  add_person("Jamieson Christian", "jamieson630", "iMuse, MIDI, all things musical");
+	  add_person("Jochen Hoenicke", "hoenicke", "Speaker & PCjr sound support, Adlib work");
+	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=339357" target="_blank">Jeremy Newman</a>',
+	  			 '<a href="http://www.dracowulf.com/">laxdragon</a>', "Webmaster");
 	  ?>
   
       <tr><td colspan=3>&nbsp;</td></tr>
