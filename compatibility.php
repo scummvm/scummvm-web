@@ -129,9 +129,10 @@ $notes = array(
                    "<br>- Sounds with partial loops, loop the whole sample instead of just that portion".
                    "<br>- Kanji version isn't supported",
 "loom"		=> "Game is completable".
-		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
+		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
 		   "<br>- No music with Amiga version".
 		   "<br>- No sound effect looping with Amiga version",
+		   "<br>- Mac version crashes after copy protection screen",
 "monkeyega"	=> "Game is completable".
                    "<br>- No sound effects",
 "pass"		=> "At least partly playable".
@@ -145,11 +146,11 @@ $notes = array(
 		   "<br>- No music with Amiga version",
 "monkey"	=> "No known problems - should be playable to the end",
 "monkey2"	=> "No known problems - should be playable to the end".
-		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
+		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
 		   "<br>- No sound effects with Amiga version".
 		   "<br>- Various minor graphical glitches with Amiga version",
 "atlantis"	=> "No known problems - should be playable to the end".
-		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
+		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
 		   "<br>- Both disk and cd PC versions are supported by this target".
 		   "<br>- Music loud on some systems, run with -m30 to lower music volume.".
 		   "<br>- No sound effects with Amiga version",
@@ -179,19 +180,23 @@ $notes = array(
 		   "<br>- Coloring/Tangrams: Error(6:209:0x40D5): Invalid opcode 'db' (readFile)".
 		   "<br>- talkie data not synced/properly implemented",
 "tentacle"	=> "No known problems - should be playable to the end".
+		   "<br>- Both Mac and PC versions supported by this target".
 		   "<br>- Both disk and cd versions are supported by this target".
 		   "<br>- Maniac Mansion isn't playable on Ed's computer",
 "dottdemo"	=> "No known problems - should be playable to the end",
 "samnmax"	=> "No major problems - should be playable to the end".
+		   "<br>- Both Mac and PC versions supported by this target".
 		   "<br>- Both disk and cd versions are supported by this target".
                    "<br>- Highway subgame doesn't behave correctly",
 "samdemo"	=> "No known problems - should be playable to the end",
 "ft"		=> "Game is completable to the end, but missing action sequences".
+		   "<br>- Both Mac and PC versions supported by this target".
 	 	   "<br>- Music is not continuous, and may pause, restart, and otherwise act oddly".
 		   "<br>- SMUSH audio (movie cutscenes) is a lot quieter than in-game voice, which is abnormally loud".
                    "<br>- Lack of INSANE subsystem prevents action sequences, which skips a substantial portion of the game".
 		   "<br>- Derby scene is only properly controllable using the mouse",
-"dig"		=> "Game is fully completable, with some minor sound issues",
+"dig"		=> "Game is fully completable, with some minor sound issues".
+		   "<br>- Both Mac and PC versions supported by this target",
 "comi"		=> "Game is fully completable, although ship-to-ship is broken and several graphical glitches are present",
 "sky"	 	=> "Game is completable".
 		   "<br>- Floppy demos are unsupported".
