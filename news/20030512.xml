@@ -1,0 +1,34 @@
+<NAME>SLEAZY TABLOID REPORTER ANNOUNCES SCUMMVM 0.4.0</NAME>
+<DATE>May 12, 2003</DATE>
+<BODY>
+<p>
+Five months after our last release, 0.3.0b, and over 2500 CVS commits/adds later, the ScummVM team proudly presents ScummVM 0.4.0.
+</p>
+
+<p>
+The following is an overview of what's new in 0.4.0:
+</p>
+<ul>
+<li>Curse of Monkey Island (comi) support (experimental)
+<li>Added support for the EGA versions of Loom, Monkey Island and Indy3
+<li>Improved music support in Indy3 and the floppy versions of Monkey Island
+<li>Many Simon the Sorcerer 1 & 2 improvements and fixes
+<li>Very pre-alpha Beneath a Steel Sky code. Don't expect it to do anything (in fact it is disabled in the 0.4.0 release, but you can get it by compiling ScummVM yourself). 
+<li>Even more pre-alpha support for V2 SCUMM games (Maniac Mansion and Zak)
+<li>Preliminary support for early Humongous Entertainment titles (very experimental)
+<li>New debug console and several GUI/Launcher enhancements
+<li>New Save/Load code (easier to expand while retaining compatibility)
+<li>Dreamcast port now works with new games added for 0.3.0b
+<li>New official PalmOS port
+<li>Various minor and not so minor SCUMM game fixes
+<li>Large memory leak fixed for The Dig/COMI
+<li>SMUSH code optimised, frame dropping added for slower machines
+<li>Code cleanups
+</ul>
+
+<p>The source code, as well as binaries for Linux, Windows, Mac OS X, PocketPC, Solaris and PalmOS are already available at our <a href="downloads.php">download page</a>. Other binaries for MorphOS, Dreamcast and others, will follow shortly.
+</p>
+
+<p><i>We hope you will enjoy the best ScummVM ever!</i></p>
+
+</BODY>
