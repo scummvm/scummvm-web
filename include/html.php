@@ -6,23 +6,11 @@
  *
  */
  
-$_indent_level = 0;
 $_trcolor = 0;
 
 // Set the current Indent Level
 function do_indent ($str, $v = 0)
 {
-	global $_indent_level;
-
-	if($v < 0)
-		$_indent_level += $v;
-
-	if($_indent_level > 0)
-	    $str =  str_repeat("  ", $_indent_level) . $str;
-
-	if($v > 0)
-		$_indent_level += $v;
-
 	return $str;
 }
 
@@ -90,99 +78,91 @@ function html_blockquote ($str = "&nbsp;", $extra = null)
 // Draw a Colored Pixel Line
 function html_line ($width = "100%", $height = 1, $color = "grey")
 {
-    global $file_root;
-    return '<img src="'.$file_root.'/images/'.$color.'_pixel.gif" height="'.$height.'" width="'.$width.'" alt="-">';
+	global $file_root;
+	return '<img src="'.$file_root.'/images/'.$color.'_pixel.gif" height="'.$height.'" width="'.$width.'" alt="-">';
 }
 
 function html_frame_start ($title = "", $width = "", $cellPad = 5, $cellSpc = 1, $color = "color2", $extra = "")
 {
+	global $file_root;
+	if ($width) { $width = 'width="'.$width.'"'; }
 
-    global $file_root;
-    global $_indent_level;
-    $_indent_level++;
-	  
-    if ($width) { $width = 'width="'.$width.'"'; }
+	$str = "\n".'<div align="center">'."\n";
+	$str .= '<table '.$width.' border="0" cellpadding="0" cellspacing="0">'."\n";
 
-    $str = "\n".'<div align="center">'."\n";
-    $str .= '<table '.$width.' border="0" cellpadding="0" cellspacing="0">'."\n";
-    
-    if ($title) {
-	$str .= '<tr><td class="topMenu">'."\n";
-	$str .= '    <table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
-	$str .= '	 <td align="center"><span class="menuTitle"> '.$title.' </span></td>'."\n";
-	$str .= '    </tr></table>'."\n";
-	$str .= '</td></tr>'."\n";
-    }
-    
-    $str .= '<tr><td class='.$color.'>'."\n";
-    $str .= '<table width="100%" border="0" cellpadding="'.$cellPad.'" cellspacing="'.$cellSpc.'" '.$extra.'>'."\n";
+	if ($title) {
+		$str .= '<tr><td class="topMenu">'."\n";
+		$str .= '	<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
+		$str .= '		<td align="center"><span class="menuTitle"> '.$title.' </span></td>'."\n";
+		$str .= '	</tr></table>'."\n";
+		$str .= '</td></tr>'."\n";
+	}
 
-    return $str;
+	$str .= '<tr><td class='.$color.'>'."\n";
+	$str .= '<table width="100%" border="0" cellpadding="'.$cellPad.'" cellspacing="'.$cellSpc.'" '.$extra.'>'."\n";
+
+	return $str;
 }
 
 function html_frame_end ($text = "")
 {
-    global $file_root;
-    global $_trcolor;
-    global $_indent_level;
-    $_indent_level--;
-	
-    $str .= '</table>'."\n";
-    $str .= '</td></tr>'."\n";
-    if ($text)
-    {
-	$str .= '<tr><td class="topMenu">'."\n";
-	$str .= '    <table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
-	$str .= '	 <td align="center"><span class="menuTitle"> '.$text.' </span></td>'."\n";
-	$str .= '    </tr></table>'."\n";
+	global $file_root;
+	global $_trcolor;
+	$str .= '</table>'."\n";
 	$str .= '</td></tr>'."\n";
-    }
-    $str .= "</table>\n</div>\n\n";
-    $_trcolor = 0;
-    return $str;
+	if ($text)
+	{
+		$str .= '<tr><td class="topMenu">'."\n";
+		$str .= '	<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
+		$str .= '		<td align="center"><span class="menuTitle"> '.$text.' </span></td>'."\n";
+		$str .= '	</tr></table>'."\n";
+		$str .= '</td></tr>'."\n";
+	}
+	$str .= "</table>\n</div>\n\n";
+	$_trcolor = 0;
+	return $str;
 }
 
 function html_round_frame_start ($title = "", $width = "", $extra = "", $innerPad = 5)
 {
+	global $file_root;
+	if ($width) { $width = 'width="'.$width.'"'; }
 
-    global $file_root;
-    if ($width) { $width = 'width="'.$width.'"'; }
+	$str = "\n".'<div align="center">'."\n";
+	$str .= '<table '.$width.' border="0" cellpadding="0" cellspacing="0">'."\n";
+	
+	if($title) {
+		$str .= '<tr><td class="topMenu">'."\n";
+		$str .= '	<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
+		$str .= '		<td valign=top align="left"><img src="'.$file_root.'/images/main_left_top.gif" alt="-"></td>'."\n";
+		$str .= '		<td align="center"><span class="menuTitle"> '.$title.' </span></td>'."\n";
+		$str .= '		<td valign=top align="right"><img src="'.$file_root.'/images/main_right_top.gif" alt="-"></td>'."\n";
+		$str .= '	</tr></table>'."\n";
+		$str .= '</td></tr>'."\n";
+	}
+	
+	$str .= '<tr><td>'."\n";	
+	$str .= '<table width="100%" border="0" cellpadding='.$innerPad.' cellspacing=1 '.$extra.'><tr><td class="color2">'."\n";
 
-    $str = "\n".'<div align="center">'."\n";
-    $str .= '<table '.$width.' border="0" cellpadding="0" cellspacing="0">'."\n";
-    
-    if($title) {
-	$str .= '<tr><td class="topMenu">'."\n";
-	$str .= '    <table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
-	$str .= '	 <td valign=top align="left"><img src="'.$file_root.'/images/main_left_top.gif" alt="-"></td>'."\n";
-	$str .= '	 <td align="center"><span class="menuTitle"> '.$title.' </span></td>'."\n";
-	$str .= '	 <td valign=top align="right"><img src="'.$file_root.'/images/main_right_top.gif" alt="-"></td>'."\n";
-	$str .= '    </tr></table>'."\n";
-	$str .= '</td></tr>'."\n";
-    }
-    
-    $str .= '<tr><td>'."\n";	
-    $str .= '<table width="100%" border="0" cellpadding='.$innerPad.' cellspacing=1 '.$extra.'><tr><td class="color2">'."\n";
-
-    return $str;
+	return $str;
 }
 
 function html_round_frame_end ($text = "")
 {
-    global $file_root;
-    $str .= '</td></tr></table></td></tr>'."\n";
-    if ($text)
-    {
-	$str .= '<tr><td class="topMenu">'."\n";
-	$str .= '    <table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
-	$str .= '	 <td valign=bottom align="left"><img src="'.$file_root.'/images/main_left_bottom.gif" alt="-"></td>'."\n";
-	$str .= '	 <td align="center"><span class="menuTitle"> '.$text.' </span></td>'."\n";
-	$str .= '	 <td valign=bottom align="right"><img src="'.$file_root.'/images/main_right_bottom.gif" alt="-"></td>'."\n";
-	$str .= '    </tr></table>'."\n";
-	$str .= '</td></tr>'."\n";
-    }
-    $str .= "</table>\n</div>\n\n";
-    return $str;
+	global $file_root;
+	$str .= '</td></tr></table></td></tr>'."\n";
+	if ($text)
+	{
+		$str .= '<tr><td class="topMenu">'."\n";
+		$str .= '	<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
+		$str .= '		<td valign=bottom align="left"><img src="'.$file_root.'/images/main_left_bottom.gif" alt="-"></td>'."\n";
+		$str .= '		<td align="center"><span class="menuTitle"> '.$text.' </span></td>'."\n";
+		$str .= '		<td valign=bottom align="right"><img src="'.$file_root.'/images/main_right_bottom.gif" alt="-"></td>'."\n";
+		$str .= '	</tr></table>'."\n";
+		$str .= '</td></tr>'."\n";
+	}
+	$str .= "</table>\n</div>\n\n";
+	return $str;
 }
 
 function html_frame_row_color ($text = "&nbsp;")
@@ -214,44 +194,25 @@ function html_frame_td ($txt = "&nbsp;", $extra = null)
 
 function html_frame_row_form ($name = "&nbsp;", $field = "&nbsp;")
 {
-    $str  = '	 <tr valign="top"><td class="color1" width="200"><b class="menuTitle">'.$name.'</b></td>'."\n";
-    $str .= '	 <td class="color2" width="100%">'.$field.'</td></tr>'."\n";
+    $str  = '	<tr valign="top"><td class="color1" width="200"><b class="menuTitle">'.$name.'</b></td>'."\n";
+    $str .= '	<td class="color2" width="100%">'.$field.'</td></tr>'."\n";
     return $str;
 }
 
 
 function html_frame_row_form_title ($name = "&nbsp;")
 {
-    $str  = '	 <tr valign="top"><td class="color3" colspan="2"><b class="menuTitle">'.$name.'</b></td></tr>'."\n";
-    return $str;
-}
-
-function html_select ($name, $values, $default = null, $descs = null)
-{
-    $str = "<select name='$name'>\n";
-    while(list($idx, $value) = each($values))
-	{
-	    $desc = $value;
-	    if($descs)
-		$desc = $descs[$idx];
-
-	    if($value == $default)
-		$str .= "  <option selected value='$value'>$desc\n";
-	    else
-		$str .= "  <option value='$value'>$desc\n";
-	}
-    $str .= "</select>\n";
-
+    $str  = '	<tr valign="top"><td class="color3" colspan="2"><b class="menuTitle">'.$name.'</b></td></tr>'."\n";
     return $str;
 }
 
 function html_back_link ($howmany = 1, $url = "")
 {
-    if (!$url)
-    {
-	$url = 'javascript:history.back('.$howmany.');';
-    }
-    return '<p>&nbsp;&nbsp; <a href="'.$url.'">&lt;&lt; Back</a></p>'."\n";
+	if (!$url)
+	{
+		$url = 'javascript:history.back('.$howmany.');';
+	}
+	return '<p>&nbsp;&nbsp; <a href="'.$url.'">&lt;&lt; Back</a></p>'."\n";
 }
 
 function html_form_start ($script, $name, $method = "post")
@@ -337,21 +298,21 @@ function html_add_br ($text = "")
 // url-ify urls
 function html_urlify ($text)
 {
-    $text = htmlspecialchars($text);
+	$text = htmlspecialchars($text);
 
-    $urlreg = "([a-zA-Z]+://([^\t\r\n ]+))";
-    if (ereg($urlreg,$text))
-    {
-	$text = ereg_replace($urlreg, "<a href=\"\\1\"> \\2 </a>", $text);
-    }
-    
-    $emailreg = "([a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+\.[a-zA-Z0-9_-]+)";
-    if (ereg($emailreg,$text))
-    {
-	$text = ereg_replace($emailreg, "<a href='mailto:\\1'>\\1</a>", $text);
-    }
+	$urlreg = "([a-zA-Z]+://([^\t\r\n ]+))";
+	if (ereg($urlreg,$text))
+	{
+		$text = ereg_replace($urlreg, "<a href=\"\\1\"> \\2 </a>", $text);
+	}
+	
+	$emailreg = "([a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+\.[a-zA-Z0-9_-]+)";
+	if (ereg($emailreg,$text))
+	{
+		$text = ereg_replace($emailreg, "<a href='mailto:\\1'>\\1</a>", $text);
+	}
 
-    return $text;
+	return $text;
 }
 
 // simple httpd header redirect 
@@ -379,21 +340,10 @@ function html_header ($title, $extra = "")
 
 <body>
 
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-<tr>
-    <td style="background-image:url(<?=$file_root?>/images/scummvm_top_tile.png)">
-	<table width="100%" border="0" cellpadding="0" cellspacing="0">
-	<tr>
-	    <td align="left"><img src="<?=$file_root?>/images/scummvm_logo.png"  width="407" height="111" alt="ScummVM"></td>
-	    <td>
-		&nbsp;
-	    </td>
-	    <td align="right"><img src="<?=$file_root?>/images/scummvm_chars.png" width="193" height="111"  alt="-"></td>
-	</tr>
-	</table>
-    </td>
-</tr>
-</table>
+<div style="width: 100%; height: 111px; background-image:url(<?=$file_root?>/images/scummvm_top_tile.png)">
+	<img src="<?=$file_root?>/images/scummvm_logo.png"  width="407" height="111" alt="ScummVM" style="float: left">
+	<img src="<?=$file_root?>/images/scummvm_chars.png" width="193" height="111" alt="-" style="float: right">
+</div>
 
 <?
 }
