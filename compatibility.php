@@ -85,8 +85,8 @@ $gamesLucas = array(
 		'Sam & Max'                                             => array('6','samnmax','95'),
 		'Sam & Max (Demo)'					=> array('6','samdemo','95'),
 		'Full Throttle'						=> array('7','ft','85'),
-		'The Dig'                                               => array('7','dig','85'),
-		'Curse of Monkey Island'				=> array('8','comi','80'),
+		'The Dig'                                               => array('7','dig','90'),
+		'Curse of Monkey Island'				=> array('8','comi','85'),
 	      );
 
 $gamesHE = array(
@@ -153,10 +153,10 @@ $gamesHE = array(
 
 $gamesOther = array(
 
-		'Beneath a Steel Sky'			       		=> array('n/a','sky','90'),
-		'Broken Sword I'			       		=> array('n/a','sword1','90'),
-		'Broken Sword II'			       		=> array('n/a','sword2','90'),
-		'Flight of the Amazon Queen'			       	=> array('n/a','queen','90'),
+		'Beneath a Steel Sky'			       		=> array('n/a','sky','98'),
+		'Broken Sword I'			       		=> array('n/a','sword1','98'),
+		'Broken Sword II'			       		=> array('n/a','sword2','98'),
+		'Flight of the Amazon Queen'			       	=> array('n/a','queen','98'),
 		'Simon The Sorcerer 1 Talkie'       			=> array('n/a','simon1talkie','93'),
 		'Simon The Sorcerer 1 Talkie (Amiga CD32)'     		=> array('n/a','simon1cd32','8'),
  		'Simon The Sorcerer 1 Talkie (Acorn)'			=> array('n/a','simon1acorn','93'),
