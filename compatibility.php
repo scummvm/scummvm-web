@@ -56,8 +56,8 @@ else
 $games = array(
 		'Maniac Mansion (C64)'					=> array('1','maniacc64','0'),
 		'Zak McKracken and the Alien Mindbenders (C64)'		=> array('1','zakc64','0'),
-		'Maniac Mansion'					=> array('2','maniac','10'),
-		'Zak McKracken and the Alien Mindbenders'		=> array('2','zak','10'),
+		'Maniac Mansion'					=> array('2','maniac','25'),
+		'Zak McKracken and the Alien Mindbenders'		=> array('2','zak','25'),
 		'Indiana Jones and the Last Crusade'			=> array('3','indy3ega','80'),
 		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','80'),
 		'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','85'),
@@ -101,12 +101,12 @@ $games = array(
 $notes = array(
 "maniacc64" 	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format",
 "zakc64"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
-"maniac"	=> "Enhanced version displays the initial character selection screen. Neither input nor text are implemented currently, so kids cannot be selected".
-                   "<br>Internal functionality (walkboxes, text, input) are missing".
-                   "<br>SCUMM v2 opcodes not completely implemented yet",
-"zak"		=> "The introduction sequence runs, and the game can be started by escaping past it. However neither text nor input are implemented.".
-                   "<br>Internal functionality (walkboxes, text, input) are missing".
-                   "<br>SCUMM v2 opcodes not completely implemented yet",
+"maniac"	=> "Enhanced version runs, although in-game most things will crash".
+                   "<br>Internal functionality (inventory, verbs, etc) incomplete".
+                   "<br>Opcodes not yet complete and correct",
+"zak"		=> "Enhanced version runs, although in-game most things will crash".
+                   "<br>Internal functionality (inventory, verbs, etc) incomplete".
+                   "<br>Opcodes not yet complete and correct",
 "indy3ega"	=> "Game is completable".
                    "<br>- No music or sound effects",
 "indy3"         => "Game is completable" .
