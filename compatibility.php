@@ -96,6 +96,7 @@ $games = array(
 		'The Dig'                                               => array('7','dig','85'),
 		'Curse of Monkey Island'				=> array('8','comi','80'),
 		'Beneath a Steel Sky'			       		=> array('n/a','sky','90'),
+		'Broken Sword II'			       		=> array('n/a','sword2','10'),
  		'Simon The Sorcerer 1 Talkie (Win)'			=> array('n/a','simon1win','95'),
 		'Simon The Sorcerer 1 Talkie (DOS)'       		=> array('n/a','simon1talkie','90'),
 		'Simon The Sorcerer 1 Talkie (Amiga CD32)'     		=> array('n/a','simon1cd32','8'),
@@ -134,9 +135,10 @@ $notes = array(
 "indy3towns"    => "Game is completable." .
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
 		   "<br>- Various minor graphical glitches".
-                   "<br>- Sounds with partial loops, loop the whole sample instead of just that portion".
+		   "<br>- Euphony tunes not yet supported so three music sections won't be heard".
                    "<br>- Kanji version isn't yet supported",
 "zak256"        => "Game is completable.".
+		   "<br>- Euphony tunes not yet supported so kazoo won't be heard".
                    "<br>- Kanji version isn't yet supported",
 "loom"		=> "Game is completable".
 		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
@@ -146,10 +148,10 @@ $notes = array(
 		   "<br>- No music or sound effects with Mac version",
 "loomtowns"	=> "Game is completable".
 		   "<br>- Fades are seemingly different to other versions in some cases".
-		   "<br>- text palette sometimes incorrect".
-		   "<br>- distaff occasionally pink...".
+		   "<br>- Text palette sometimes incorrect".
+		   "<br>- Distaff occasionally pink...".
 		   "<br>- Euphony tunes not yet supported so notes won't be heard".
-		   "<br>- difficulty select is via boot param:".
+		   "<br>- Difficulty select is via boot param:".
 
 		   "<ul><li>0 practice (default)".
 		       "<li>1 standard".
@@ -227,6 +229,10 @@ $notes = array(
 		   "<br>&nbsp;&nbsp;&nbsp;&nbsp;This is especcially noticable in the court- and Mrs. Piermont sequence.".
 		   "<br>- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders".
 		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
+"sword2"	 => "Game is still in progress, results may vary".
+		   "<br>- No anti-aliasing".
+		   "<br>- No music, sound or speech".
+		   "<br>- No loading or saving",
 "simon1win" 	=> "No known problems - game is completable.",
 "simon1talkie" 	=> "Game is completable.".
                     "<br>- No inventory scrolling arrows shown, can still move around inventory though",
