@@ -85,6 +85,7 @@ $games = array(
 		'Full Throttle'						=> array('7','ft','75'),
                 'The Dig'                                               => array('7','dig','85'),
 		'Curse of Monkey Island'				=> array('8','comi','80'),
+		'Beneath a Steel Sky'			       		=> array('n/a','sky','5'),
 		'Simon The Sorcerer 1 Talkie (Win)'       		=> array('n/a','simon1win','85'),
 		'Simon The Sorcerer 1 Talkie (DOS)'       		=> array('n/a','simon1talkie','85'),
 		'Simon The Sorcerer 1 Talkie (Amiga CD32)'     		=> array('n/a','simon1cd32','5'),
@@ -168,6 +169,7 @@ $notes = array(
 		   "<br>- Derby scene is only properly controllable using the mouse",
 "dig"		=> "Game is fully completable, with some minor sound issues",
 "comi"		=> "Game is fully completable, although ship-to-ship is broken and several graphical glitches are present",
+"sky"	 	=> "Only the introduction works so far.",
 "simon1win" 	=> "Game is completable.".
                    "<br>- Minor graphical glitches when using ring".
                    "<br>- Minor graphical glitch with Sordid statue after leaving room",
