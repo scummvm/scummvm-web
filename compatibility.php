@@ -367,7 +367,7 @@ $notes = array(
 "ite"		=> "Game is not completable.".
 		   "<br>- Puzzle is missing".
 		   "<br>- Converstaions could be performed only with keyboard".
-		   "<br>- Major graphics glitches in ISO mode",
+		   "<br>- Minor graphics glitches in ISO mode",
 "simon1talkie" 	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target",
 "simon1cd32" 	=> "Game is completable, with major graphics glitches".
