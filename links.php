@@ -125,6 +125,14 @@ echo html_round_frame_start("Links","");
 	    </td>
 	  </tr>
 
+	  <tr><td><a href="http://libmpeg2.sourceforge.net/"><b>libmpeg2</b></a></td></tr>
+	  <tr>
+	    <td style="padding-left: 3em;">
+	    libmpeg2 is a free library for decoding mpeg-2 and mpeg-1 video streams.
+	    ScummVM optionally supports playback of converted cutscenes in the Broken Sword games using libmpeg2.
+	    </td>
+	  </tr>
+
 	  <tr><td><a href="http://scale2x.sourceforge.net/"><b>Scale2x/3x/4x</b></a></td></tr>
 	  <tr>
 	    <td style="padding-left: 3em;">
