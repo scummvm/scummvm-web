@@ -171,7 +171,7 @@ $notes = array(
 "simon1cd32" 	=> "Game works a bit but can't see anything".
                    "<br>- All graphics are decoded incorrectly".
                    "<br>- pkd compression format is unknown".
-                   "<br>- No Music, sound effects or speech",
+                   "<br>- No music, sound effects or speech",
 "simon1dos" 	=> "Game is completable.".
                    "<br>- Freezes briefly when Swampling leaves his house".
                    "<br>- Freezes briefly when talking to demons in Sordid's Tower".
