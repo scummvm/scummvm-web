@@ -67,7 +67,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 
 	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.3.0b-win32.exe?download">ScummVM Windows Installer</a> <small>(1.0M Win32 .exe)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.3.0b-win32.zip?download">ScummVM Windows Zipfile</a> <small>(985k zipfile)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.3.0b-win32.zip?download">ScummVM Windows zipfile</a> <small>(985k zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.3.0b-macosx.dmg?download">MacOS X Disk Image</a> <small>(627k dmg image)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.3.0b-morphos.tar.bz2?download">MorphOS binary</a> <small>(397k tar.bz2)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.3.0b-0.woody.1_i386.deb?download">Debian Stable (woody) Package</a> <small>(321k .deb)</small></li>
@@ -84,7 +84,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 	</p>
 	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_tools_0.3.0b-win32.exe?download">ScummVM Tools - Windows Installer</a> <small>(159k Win32 .exe)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_tools_0.3.0b-win32.zip?download">ScummVM Tools - Windows Zipfile</a> <small>(119k zip file)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_tools_0.3.0b-win32.zip?download">ScummVM Tools - Windows zipfile</a> <small>(119k zip file)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.3.0-macosx.tar.gz?download">ScummVM Tools - MacOS X tarball</a> <small>(147k tar.gz)</small></li>
 	</ul>
 
@@ -92,7 +92,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  <b>0.3.0b Source Code:</b>
 	</p>
 	<ul>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.3.0b-src.zip?download">Source Zipfile</a> <small>(868k)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.3.0b-src.zip?download">Source zipfile</a> <small>(868k)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.3.0b-src.tar.gz?download">Source tar.gz</a> <small>(705k)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.3.0b-src.tar.bz2?download">Source tar.bz2</a> <small>(585k)</small>
 	  <hr></li>
