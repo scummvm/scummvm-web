@@ -56,7 +56,7 @@
 	<h3>Ports</h3>
 	<ul>
 		<li>Sony PS2 Port (ask Ender)</li>
-		<li>Symbian port (p800 people might merge changes?)<li>
+		<li>Symbian port (p800 people might merge changes?)</li>
 		<li>MS DOS port using <a href="http://www.talula.demon.co.uk/allegro/">Allegro</a> and <a href="http://www.delorie.com/djgpp/">DJGPP</a>?</li>
 		<li><a href="http://withintent.biz">Intent</a> port (already done by David Given, merge?)</li>
 	</ul>
