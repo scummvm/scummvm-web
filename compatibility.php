@@ -225,9 +225,9 @@ $notes = array(
 		   "<br>&nbsp;&nbsp;&nbsp;&nbsp;This is especcially noticable in the court- and Mrs. Piermont sequence.".
 		   "<br>- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders".
 		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
-"sword1"	=> "Game is completable, with several minor glitches".
-                   "<br>- Various minor graphical glitches".
-		   "<br>- No cutscenes",
+"sword1"	=> "Game is completable.".
+		   "<br>- Czech text output is not supported".
+		   "<br>- Smacker cutscenes are not supported",
 "sword2"	=> "Game is completable, with several minor glitches".
 		   "<br>- Does not work on systems that require alignment".
 		   "<br>- No video for cutscenes",
