@@ -96,7 +96,7 @@ $games = array(
 		'Curse of Monkey Island'				=> array('8','comi','80'),
 		'Beneath a Steel Sky'			       		=> array('n/a','sky','90'),
 		'Broken Sword I'			       		=> array('n/a','sword1','80'),
-		'Broken Sword II'			       		=> array('n/a','sword2','70'),
+		'Broken Sword II'			       		=> array('n/a','sword2','85'),
 		'Flight of the Amazon Queen'			       	=> array('n/a','queen','70'),
  		'Simon The Sorcerer 1 Talkie (Win)'			=> array('n/a','simon1win','95'),
 		'Simon The Sorcerer 1 Talkie (DOS)'       		=> array('n/a','simon1talkie','93'),
@@ -225,9 +225,8 @@ $notes = array(
 "sword1"	=> "Game is completable.".
 		   "<br>- Czech support is untested. If you have a czech version, please contact us.".
 		   "<br>- Smacker cutscenes are not supported",
-"sword2"	=> "Game is completable, with several minor glitches".
-		   "<br>- Does not work on systems that require alignment".
-		   "<br>- No video for cutscenes",
+"sword2"	=> "Game is completable.".
+		   "<br>- Does not work on systems that require alignment (pending)",
 "queen"		=> "Game should be completable, with several glitches".
                    "<br>- Various minor graphical glitches".
 		   "<br>- Requires <a href=\"http://0x.7fc1.org/fotaq/queen.tbl\">queen.tbl</a> resource file",
