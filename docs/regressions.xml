@@ -28,10 +28,6 @@
 	<ul>
 		<li>Failed assetion when turning on (not using) the lighter in the case. See bug report <a href ="http://sourceforge.net/tracker/index.php?func=detail&aid=670942&group_id=37116&atid=418820">670942</a>. scumm/usage_bits.cpp:42: void Scumm::setGfxUsageBit(int, int): Assertion `1 <= bit && bit <= 96' failed.
 	</ul>
-<li>DOTT:
-	<ul>
-		<li>Actors often don't finish what they are saying. This probably affects other games as well
-	</ul>
 </ul>
 
 </BODY>
