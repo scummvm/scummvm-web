@@ -380,7 +380,7 @@ function redirect ($url = ".")
 }
 
 
-function html_header ($title)
+function html_header ($title, $extra = "")
 {
 	global $file_root;
 ?>
@@ -392,6 +392,7 @@ function html_header ($title)
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 	<meta name="author" content="Jeremy Newman <jnewman at dracowulf.com>">
 	<link rel="stylesheet" href="<?=$file_root?>/styles.css" type="text/css">
+	<?=$extra?>
 	<script language="JavaScript" src="<?=$file_root?>/scripts.js" type="text/javascript"></script>
 </head>
 
