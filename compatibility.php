@@ -167,9 +167,11 @@ $notes = array(
 "dig"		=> "Game is fully completable, with some minor sound issues",
 "comi"		=> "Game is fully completable, although ship-to-ship is broken and several graphical glitches are present",
 "simon1win" 	=> "Game is completable.".
-                   "<br>- Minor graphical glitches when using ring and looking at Sordid statue",
+                   "<br>- Minor graphical glitches when using ring".
+                   "<br>- Minor graphical glitch with Sordid statue after leaving room",
 "simon1talkie" 	=> "Game is completable.".
-                   "<br>- Minor graphical glitches when using ring and looking at Sordid statue",
+                   "<br>- Minor graphical glitches when using ring".
+                   "<br>- Minor graphical glitch with Sordid statue after leaving room",
 "simon1cd32" 	=> "Game works a bit but can't see anything".
                    "<br>- All graphics are decoded incorrectly".
                    "<br>- pkd format is unknown".
@@ -178,7 +180,8 @@ $notes = array(
 "simon1dos" 	=> "Game is completable.".
                    "<br>- Freezes briefly when Swampling leaves his house".
                    "<br>- Freezes briefly when talking to demons in Sordid's Tower".
-                   "<br>- Minor graphical glitches when using ring and looking at Sordid statue",
+                   "<br>- Minor graphical glitches when using ring".
+                   "<br>- Minor graphical glitch with Sordid statue after leaving room",
 "simon1amiga" 	=> "Not at all implemented yet - ScummVM doesn't understand the pkd and music formats",
 "simon1demo" 	=> "Game demo is completable".
                    "<br>- Freezes briefly when Swampling leaves his house".
