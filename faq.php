@@ -325,7 +325,22 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	link from our homepage. Please make sure the bug is reproducible, and 
 	still exists in the latest daily build/current CVS version. Also check the
 	<a href="compatibility.php">compatibility listing</a> for that game to ensure
-	the issue is not already known.</p></li>
+	the issue is not already known. In your bugreport please provide the following
+	information:
+
+	<dl>
+		<dt> ScummVM version (PLEASE test the latest CVS/Daily build)</dt>
+		<dt> Bug details, including instructions on reproducing it</dt>
+		<dt> Language of game (English, German, ...)</dt>
+		<dt> Version of game (talkie, floppy, ...)</dt>
+		<dt> Platform and Compiler (Win32, Linux, MacOS, ...)</dt>
+		<dt> Attach a save game if possible</dt>
+		<dt> If this bug only occurred recently, please note the last
+		  version without the bug, and the first version including   
+		  the bug. That way we can fix it quicker by looking at the
+		  changes made.</dt>
+	</dl>
+	</p></li>
 
       <li><p><a name="4-11"></a><b>I downloaded the Broken Sword packs from your site but the game won't run.</b><br>
 	These are not full games but reencoded cutscene (video) packs. To run the games you 
