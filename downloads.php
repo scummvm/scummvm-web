@@ -92,8 +92,8 @@ release soon, but meanwhile here are links to experimental snapshots of the curr
 	</p>
 	<ul>
 	  <li><a href="http://www.mars.org/home/rob/proj/mpeg/">MAD</a>: MPEG Audio Decoder</li>
+	  <li><a href="http://www.vorbis.com/">Ogg Vorbis</a></li>
 	</ul>
-		
 <?
 
 echo html_round_frame_end("&nbsp;");
