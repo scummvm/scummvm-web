@@ -30,8 +30,8 @@
 <li>Sound:
 	<ul>
 		<li>Music decompressor uses too much CPU for smooth music playback
-		<li>Occasional crashes from 'sound que buffer overflow'. To reproduce, start ComI with -d0 -b605, hit
-ctrl-g.. and don't move! The crash will occur within about 3-5 seconds.
+		<li>The sound que fills up, resulting in a spew of warnings. This should never fill up anyway, so it's a bug.
+Easy way to reproduce (although it happens everywhere), start ComI with -d0 -b605, hit ctrl-g... eventually things will get spammy.
 		<li>Misimplementation of imGetMusicPosition kernel function breaks song sync in Part 3 intro
 	</ul>
 <li>Graphics:
