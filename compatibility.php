@@ -118,10 +118,10 @@ $notes = array(
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
 		   "<br>- Actors sometimes cause minor graphical glitches in Classic PC version".
 		   "<br>- The last 8 lines of room graphics are sometimes cut off when changing rooms in Classic PC version".
-"zak"		=> "Enhanced PC version is completable, with several minor glitches".
+"zak"		=> "Enhanced PC version is completable, with several minor glitches",
 		   "<br>Classic version is completable, with several minor glitches".
 		   "<br>- Amiga, Atari ST and PC versions supported by this target".
-		   "<br>- Actors sometimes cause minor graphical glitches in Classic PC version".
+		   "<br>- Actors sometimes cause minor graphical glitches in Classic PC version",
 "indy3ega"	=> "Game is completable".
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
