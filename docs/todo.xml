@@ -35,7 +35,7 @@
 
 	<h3>General</h3>
 	<ul>
-		<li><p>Add support for Loom TurboGrafx 16/PC Engine (Donations welcome as no one has it...)</p></li>
+		<li><p>Add support for Loom TurboGrafx 16/PC Engine</p></li>
 		<li><p>Make it possible to restart (scumm) games (properly, current CVS has debugger cmd)</p></li>
 		<li><p>Fix handling of Kanji in FmTowns games (foreground is actually rendered on a second plane at 640x480)</p></li>
 		<li><p>Improve support for non PC versions of games</p></li>
