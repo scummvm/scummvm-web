@@ -134,7 +134,10 @@ $notes = array(
                    "<br>- Various minor graphical glitches",
 "simon1talkie" 	=> "Game is completable.".
                    "<br>- Various minor graphical glitches",
-"simon1cd32" 	=> "Not at all implemented yet - ScummVM doesn't understand the pkd, music, sfx and speech formats",
+"simon1cd32" 	=> "Game works but all grapgics are decoded incorrectly".
+                   "<br>- pkd format is unknown".
+                   "<br>- Sound effects and speech formats are unknown".
+                   "<br>- No Music",
 "simon1dos" 	=> "Game is completable.".
                    "<br>- Freezes briefly when Swampling leaves his house".
                    "<br>- Freezes briefly when talking to demons in Sordid's Tower".
