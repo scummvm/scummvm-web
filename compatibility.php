@@ -189,6 +189,7 @@ $notes = array(
 		   "<br>- No music with Windows version".
 		   "<br>- Cursors are scaled correctly in Windows version",
 "funpack"	=> "Starts but mini games seem to have various problems".
+		   "<br>- Both 3DO and DOS versions supported by this target".
 		   "<br>- Checkers: The checkers have some graphical glitches (actorOps case 218)".
 		   "<br>- Cheese King: Triggers an assertion".
 		   "<br>- Pinball/Remember/Tic-Tac-Toe/Puzzle blocks: Works",
@@ -202,6 +203,7 @@ $notes = array(
 		   "<br>- No music with Windows version".
 		   "<br>- Cursors aren't scaled correctly",
 "fbpack"	=> "Starts but mini games seem to have various problems".
+		   "<br>- Both 3DO and DOS versions supported by this target".
 		   "<br>- Graphical glitches in all games due to o6_actorOps: case 218",
 "tentacle"	=> "No known issues, game is completable.".
 		   "<br>- Both Mac and PC versions supported by this target".
