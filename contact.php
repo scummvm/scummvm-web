@@ -81,6 +81,7 @@ echo html_round_frame_start("Contact","98%","",20);
 	  add_person("Peter Moraliyski", "ph0x", "GP32 port");
 	  add_person("Nicolas Noble", "pixels", "Config file and ALSA support");
 	  add_person("Joost Peters", "joostp", "Beneath a Steel Sky Support");
+	  add_person("Robert G&ouml;ffringmann", "lavosspawn", "Beneath a Steel Sky Support");
 	  add_person("Lionel Ulmer", "bbrox", "X11/Linux port");
 	  ?>
 
