@@ -170,15 +170,16 @@ $notes = array(
                    "<br>- Minor graphical glitch with Sordid statue after leaving room",
 "simon1cd32" 	=> "Game works a bit but can't see anything".
                    "<br>- All graphics are decoded incorrectly".
-                   "<br>- pkd format is unknown".
-                   "<br>- Sound effects and speech formats are unknown".
-                   "<br>- No Music",
+                   "<br>- pkd compression format is unknown".
+                   "<br>- No Music, sound effects or speech",
 "simon1dos" 	=> "Game is completable.".
                    "<br>- Freezes briefly when Swampling leaves his house".
                    "<br>- Freezes briefly when talking to demons in Sordid's Tower".
                    "<br>- Minor graphical glitches when using ring".
                    "<br>- Minor graphical glitch with Sordid statue after leaving room",
-"simon1amiga" 	=> "Not at all implemented yet - ScummVM doesn't understand the pkd and music formats",
+"simon1amiga" 	=> "Not at all implemented yet".
+                   "<br>- pkd compression format is unknown".
+                   "<br>- Music format unknown",
 "simon1demo" 	=> "Game demo is completable".
                    "<br>- Freezes briefly when Swampling leaves his house".
                    "<br>- No music",
