@@ -1,0 +1,29 @@
+<NAME>The people have spoken :)</NAME>
+<DATE>Jan 28th, 2003</DATE>
+<BODY>
+Over at the Linux Game Tome (http://happypenguin.org), ScummVM has been voted <a
+href="http://happypenguin.org/forums/viewtopic.php?t=549">Best Emulator</a>. Thanks to anybody who voted for us.
+<BR><BR>
+In other news, Curse of Monkey Island support is stabalising. While there are still a number of small graphical glitches, currently
+we are down to two known gameplay-critical bugs and a number of other 'inconvienences' and incorrect behavior. We hope to be able to
+announce Curse of Monkey Island completable very soon.
+<BR><BR>
+A lot of people have been asking where we are going from here. Here is a brief (very subject to change!) guide to our next few 
+targets:
+<UL>
+ <LI>Feburary 2003:  Curse of Monkey Island Completable
+ <LI>Feb - Mar 2003: Regression testing/bugfixes for other supported games
+ <LI>Feb - Mar 2003: Completion of the Launcher functionality (tabbed option dialogs, etc)
+ <LI>Early March 03: CVS Freeze, Regression testing, 0.4.0 release
+ <LI>March onwards:  V1/V2 game support (Maniac Mansion, non-FmTowns Zak, EGA Loom, ecetra)
+</UL>
+<BR><BR>
+As usual, this is but a rough guideline depending on both progress and free time for our developers. If you want to help, and know
+how to use CVS and a compiler... either fix bugs, or regression test! We are very much looking for people to test CVS with games
+other than ComI and look for critical bugs that were not present in 0.3.0b, then attempt to try different versions of CVS and locate
+at least the day when the bug started occuring. This allows us to more easily determine what changes have caused problems, without
+spending weeks blindly guessing.
+<BR><BR>
+Needless to say, if you find a critical bug that IS also present in 0.3.0b, check for a bug report. If one isn't present, please
+submit one!
+</BODY>
