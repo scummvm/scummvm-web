@@ -103,7 +103,7 @@ $notes = array(
 "zakc64"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
 "maniacega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format",
 "zakega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
-"indy3ega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Indy3-256 version",
+"indy3ega"	=> "Only introduction works, game locks up at copy protection point.<BR>ScummVM doesn't completely understand the non-blocked LFL format",
 "indy3"         => "Game is completable" .
                    "<br>- Music and Sound effects are usually missing",
 "zak256"        => "Game is completable." .
