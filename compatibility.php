@@ -101,9 +101,12 @@ $games = array(
 $notes = array(
 "maniacc64" 	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format",
 "zakc64"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
-"maniac"	=> "Intro screen shows up, but is distorted; game is not yet supported otherwise",
-"zak"		=> "LucasArts logo screen is shown with Enchanced version".
-                   "<br>ScummVM doesn't understand the non-blocked LFL format",
+"maniac"	=> "Introduction screen is shown with Enchanced version but is distorted, can't advance any further".
+                   "<br>ScummVM doesn't completely understand the non-blocked LFL format".
+                   "<br>SCUMM v2 opcodes not completely implimented yet",
+"zak"		=> "LucasArts logo screen is shown with Enchanced version, can't advance any further".
+                   "<br>ScummVM doesn't completely understand the non-blocked LFL format".
+                   "<br>SCUMM v2 opcodes not completely implimented yet",
 "indy3ega"	=> "Game is completable".
                    "<br>-Grail diary and biplane manual aren't drawn correctly".
                    "<br>- No music or sound effects",
@@ -198,6 +201,7 @@ $notes = array(
                    "<br>- No music".
                    "<br>- Minor graphical glitch when giving items to baby",
 "simon2dos"     => "Game is completable.".
+                   "<br>- Text in Copy Protection screen is only shown for short time".
                    "<br>- No music".
                    "<br>- Minor graphical glitch when giving items to baby",
 "simon2mac"     => "Game is completable.".
