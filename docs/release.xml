@@ -22,13 +22,13 @@
 things still need to be done. This release is going to focus mainly on three things:
 		<ul>
 			<li>The Dig
-			<li>Game Compatability
+			<li>Game Compatibility
 			<li>The New GUI
 		</ul>
 		</p>
 
 
-		<h2>Game Compatability</h2>
+		<h2>Game Compatibility</h2>
 		<p>
 			The following games need to be tested with the latest CVS snapshots:
 			<table border=0>
@@ -45,7 +45,7 @@ things still need to be done. This release is going to focus mainly on three thi
 			<tr><td>Dig</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
 			<tr><td>FT</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
 			<tr><td colspan=4><hr></td></tr>
-			<!--Optional games, these arn't required for release-->
+			<!--Optional games, these aren't required for release -->
 			<tr><td>Simon1Dos</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
 			<tr><td>Simon1Win</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
 			<tr><td>Simon2Dos</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
@@ -61,12 +61,12 @@ you consider should be fixed for the release. Please tag the subject of the bug 
 
 		<h2>New GUI</h2>
 		<p>
-			The Launcher GUI should to be finished for 0.3.0. Apparantly Fingolfin is 
+			The Launcher GUI should to be finished for 0.3.0. Apparently Fingolfin is 
 too busy to work on this currently, are there any other volunteers? At worst, we need a simple 'add 
 game' button... and best, we should also have a dropdown widget to help select items like graphic 
 scalers from a list. Note this may require a 'capabilities' extension to OSystem in order to 
 discover the supported Scaler modes. We can implement this as a bitwise or'ed return from 
-a Property() call to avoid breaking OSystem interface compatability.
+a Property() call to avoid breaking OSystem interface compatibility.
 		</p>
 
 </BODY>
