@@ -63,7 +63,7 @@ echo html_round_frame_start("Contact","98%","",20);
       
 	  <tr>
 	    <td>Lionel Ulmer</td>
-	    <td></td>
+	    <td>[ bbrox ]</td>
 	    <td>- X11/Linux port</td>
 	  </tr>
 
@@ -75,14 +75,14 @@ echo html_round_frame_start("Contact","98%","",20);
       
       <tr>
 	    <td>Mutwin Kraus</td>
-	    <td></td>
-	    <td>- Macintosh port (Retired)</td>
+	    <td>[ mutle ]</td>
+	    <td>- MacOS 9 port (Retired)</td>
 	  </tr>
 
       <tr>
 	    <td>Max Horn </td>
-	    <td></td>
-	    <td>- Macintosh port, many bug fixes</td>
+	    <td>[ fingolfin ]</td>
+	    <td>- MacOS X port, many bug fixes, new GUI</td>
 	  </tr>
 
       <tr>
@@ -156,7 +156,7 @@ echo html_round_frame_start("Contact","98%","",20);
 
       <tr>
 	    <td>Nicolas Noble</td>
-	    <td></td>
+	    <td>[ pixels ]</td>
 	    <td>- Config file and ALSA support</td>
 	  </tr>
 
