@@ -25,6 +25,7 @@ echo html_round_frame_start("Website Revamp contest poll","");
 	<p>The three finalists of the website revamp contest can be seen here. Keep in mind that those are all design drafts;
 	the final web site may look different in some aspects.</p>
 	
+	<center>
 	<table cellpadding="10" cellspacing="10">
 	<tr>
 	<td align="center"><a href="arturom.jpg" target="_blank"><img src="arturom-thumb.jpg" height="120" width="120" alt="arturom"><br>arturom</a></td>
@@ -50,6 +51,7 @@ echo html_round_frame_start("Website Revamp contest poll","");
 <!-- // End Pollhost.com Poll Code // -->
 </td></tr>
 	</table>
+</center>
 
 
 	<p>For techincal reasons, the actual poll is hosted at an
