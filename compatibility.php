@@ -84,7 +84,7 @@ $games = array(
 		'Putt-Putt Joins The Parade'				=> array('6','puttputt','85'),
 		'Putt-Putt Goes To The Moon ( Demo)'			=> array('6','moondemo','95'),
 		'Putt-Putt Goes To The Moon'				=> array('6','puttmoon','85'),
-		'Putt-Putts Fun Pack'					=> array('6','funpack','70'),
+		'Putt-Putts Fun Pack'					=> array('6','funpack','95'),
 		'Fatty Bears Birthday Surprise (Demo)'			=> array('6','fbdemo','95'),
 		'Fatty Bears Birthday Surprise'				=> array('6','fbear','80'),
 		'Fatty Bears Fun Pack'					=> array('6','fbpack','95'),
@@ -179,9 +179,8 @@ $notes = array(
 "moondemo"	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target".
 		   "<br>- Cursors aren't scaled correctly in Windows version",
-"funpack"	=> "Starts but mini games seem to have various problems".
-		   "<br>- Both 3DO and DOS versions supported by this target".
-		   "<br>- Cheese King: Triggers an assertion",
+"funpack"	=> "No known issues, game is completable.".
+		   "<br>- Both 3DO and DOS versions supported by this target",
 "fbdemo"	=> "Should be playable to the end".
 		   "<br>- Both DOS and Windows versions supported by this target".
 		   "<br>- Cursors aren't scaled correctly in Windows version",
