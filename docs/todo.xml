@@ -47,6 +47,19 @@
 		<li>Add tab support (i.e. allow multiple panes in one dialog)</li>
 		<li><i>Ask: Fingolfin, Ender</i></li>
 	</ul>
+	<h3>Documentation</h3>
+	<ul>
+		<li>Port specific documentation for users (dreamcast/palm especially)</li>
+		<li>Document OSystem Interface for people wanting to write new backends</li>
+		<li>High level overview of how the engine(s) work?</li>
+	</ul>
+	<h3>Ports</h3>
+	<ul>
+		<li>Sony PS2 Port (ask Ender)</li>
+		<li>Symbian port (p800 people might merge changes?)<li>
+		<li>MS DOS port using <a href="http://www.talula.demon.co.uk/allegro/">Allegro</a> and <a href="http://www.delorie.com/djgpp/">DJGPP</a>?</li>
+		<li><a href="http://withintent.biz">Intent</a> port (already done by David Given, merge?)</li>
+	</ul>
 	<h3>Specific games</h3>
 	<ul>
 		<li><h4>Maniac Mansion Classic</h4>
