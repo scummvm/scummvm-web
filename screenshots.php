@@ -93,7 +93,7 @@ else
 				   '<table cellpadding="0" cellspacing="0"><tr><td align="center">'.
 				   '<a href="'.$PHP_SELF."?view=".$c.'&amp;offset='.$offset.'">'.
 				   '<img src="'.$file_root.'/screenshots/scummvm_'.$c.'.png" '.
-				   'width=256 height=160 alt="Screenshot '.$c.'"></a>'.
+				   'width=256 height=192 alt="Screenshot '.$c.'"></a>'.
 				   '</td></tr><tr><td align="center">'.
 				   implode('', file($file_root.'/screenshots/scummvm_'.$c.'.txt')).
 				   '</td></tr></table>',

@@ -76,7 +76,7 @@ echo html_round_frame_start("About ScummVM","");
 			<a href="javascript:openWin('./screenshots/big_scummvm_'+i_jn+'.png','scummvm',640,402);"
 			onMouseOver="window.status='Click to View Full Size Image';return true;"
 			onMouseOut="window.status='';return true;"><img
-			src="./screenshots/scummvm_<?=$randImg?>.png" width=256 height=160
+			src="./screenshots/scummvm_<?=$randImg?>.png" width=256 height=192
 			style="margin: 5px"
 			name="img_jn" alt="Click to view Full Size"></a>
 		</td></tr>
