@@ -128,7 +128,7 @@ echo html_round_frame_start("Links","98%","",20);
 	    </blockquote></td>
 	  </tr>
 
-	  <tr><td><a href="http://www.hiend3d.com/hq3x.html/"><b>hq2x/3x/4x</b></a></td></tr>
+	  <tr><td><a href="http://www.hiend3d.com/hq3x.html"><b>hq2x/3x/4x</b></a></td></tr>
 	  <tr>
 	    <td><blockquote>
 	    The hq2x/3x/4x filters form a family of fast, high-quality magnification filters.
