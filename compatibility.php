@@ -140,8 +140,7 @@ $gamesHE = array(
 		'Putt-Putt and Pep\'s Balloon-O-Rama'					=> array('n/a','balloon','50'),
 		'Putt-Putt and Pep\'s Dog on a Stick'					=> array('n/a','dog','50'),
 		'Putt-Putts Fun Pack'							=> array('n/a','funpack','95'),
-		'Spyfox 1: Dry Cereal (Demo)'						=> array('n/a','foxdemo','10'),
-		'Spyfox 1: Dry Cereal (Alternative Demo)'				=> array('n/a','spydemo','10'),
+		'Spyfox 1: Dry Cereal (Demo)'						=> array('n/a','spydemo','10'),
 		'Spyfox 1: Dry Cereal'							=> array('n/a','spyfox','10'),
 		'Spyfox 2: Some Assembly Required (Demo)'				=> array('n/a','sf2-demo','10'),
 		'Spyfox 2: Some Assembly Required'					=> array('n/a','spyfox2','10'),
@@ -339,8 +338,6 @@ $notes = array(
 "funpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
 "spydemo"	=> "Not completable, no inventory controls".
-		   "<br>- Various issues",
-"foxdemo"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
 "spyfox"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
