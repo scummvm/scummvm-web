@@ -70,27 +70,27 @@ echo html_round_frame_start("Downloads","");
 	<p>0.6.0 should be apt-get'able from Debian unstable (sid) shortly.</p>
 
 	<ul>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-win32.exe?download">Windows Installer</a> <small>(841k Win32 .exe)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-win32.zip?download">Windows zipfile</a> <small>(802k zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-macosx.dmg?download">Mac OS X 10.2 Disk Image</a> <small>(1.1M disk image)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-1.i386.rpm?download">RedHat package</a> <small>(588k RPM)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-1.src.rpm?download">Source RPM</a> <small>(1.1M RPM)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-win32.exe?download">Windows Installer</a> <small>(1.2M Win32 .exe)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-win32.zip?download">Windows zipfile</a> <small>(1.2M zipfile)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-macosx.dmg?download">Mac OS X 10.2 Disk Image</a> <small>(1.5M disk image)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-1.i386.rpm?download">RedHat package</a> <small>(1.2M RPM)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-1.src.rpm?download">Source RPM</a> <small>(2.2M RPM)</small></li>
 <!--
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-morphos.tgz?download">MorphOS binary</a> <small>(857k .tgz)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.6.0-0woody1_i386.deb?download">Debian Stable (woody) Package</a> <small>(630k .deb)</small></li>
 -->
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-beos-x86.pkg?download">BeOS package</a> <small>(1.1M pkg)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-morphos.tgz?download">MorphOS binary</a> <small>(857k .tgz)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-beos-x86.pkg?download">BeOS package</a> <small>(1.6M pkg)</small></li>
 
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-palmos.zip?download">PalmOS binary</a> <small>(332k zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-solaris8-sparc.tar.gz?download">Solaris 8 (Sparc) binary</a> <small>(789k .tar.gz)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-dreamcast-plainfiles.tar.bz2?download">Dreamcast plain files</a> <small>(750k zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-HandheldPC_ARM.zip?download">HandheldPC ARM binary</a> <small>(691k zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-HandheldPC_MIPS.zip?download">HandheldPC MIPS binary</a> <small>(776k zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-HandheldPC_SH3.zip?download">HandheldPC SH3 binary</a> <small>(725k zipfile)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-palmos.zip?download">PalmOS binary</a> <small>(530k zipfile)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-solaris8-sparc.tar.gz?download">Solaris 8 (Sparc) binary</a> <small>(1.0M .tar.gz)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-dreamcast-plainfiles.tar.bz2?download">Dreamcast plain files</a> <small>(1.3M zipfile)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-HandheldPC_ARM.zip?download">HandheldPC ARM binary</a> <small>(1.0M zipfile)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-HandheldPC_MIPS.zip?download">HandheldPC MIPS binary</a> <small>(1.3M zipfile)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-HandheldPC_SH3.zip?download">HandheldPC SH3 binary</a> <small>(1.1M zipfile)</small></li>
 
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-PocketPC_ARM.zip?download">PocketPC ARM binary</a> <small>(672k zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-PocketPC_MIPS.zip?download">PocketPC MIPS binary</a> <small>(771k zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-PocketPC_SH3.zip?download">PocketPC SH3 binary</a> <small>(716k zipfile)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-PocketPC_ARM.zip?download">PocketPC ARM binary</a> <small>(1.0M zipfile)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-PocketPC_MIPS.zip?download">PocketPC MIPS binary</a> <small>(1.3M zipfile)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-PocketPC_SH3.zip?download">PocketPC SH3 binary</a> <small>(1.1M zipfile)</small></li>
 
 	</ul>
 
