@@ -20,7 +20,7 @@ attracting more developers to help maintain these side-programs.
 <P>
 Please do not ask where you can obtain binaries of these programs. Currently both 
 subprojects are still in a state only suitable for developers... so if you can't compile 
-the code yourself, then these are suitable not ready for you.
+the code yourself, then these are not really ready for you.
 </P>
 <H1>ScummEx (cvs module 'scummex')</H1>
 <P>
