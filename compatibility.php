@@ -66,9 +66,9 @@ $games = array(
 		'Zak McKracken and the Alien Mindbenders (original)'	=> array('1','zak','80'),
 		'Zak McKracken and the Alien Mindbenders (enhanced)'	=> array('2','zak','80'),
 		'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','90'),
-		'Indiana Jones and the Last Crusade'			=> array('3','indy3ega','80'),
-		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','80'),
-		'Indiana Jones and the Last Crusade (256 - FmTowns)'	=> array('3','indy3towns','80'),
+		'Indiana Jones and the Last Crusade'			=> array('3','indy3ega','90'),
+		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','90'),
+		'Indiana Jones and the Last Crusade (256 - FmTowns)'	=> array('3','indy3towns','90'),
 		'Loom'							=> array('3','loom','80'),
 		'Loom (256 - FmTowns)'					=> array('3','loomtowns','75'),
 		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','90'),
@@ -124,17 +124,14 @@ $notes = array(
 		   "<br>- No music or sound effects with Amiga version",
 "indy3ega"	=> "Game is completable".
 		   "<br>- Amiga (Use Amiga option), Atari ST, Mac and PC versions supported by this target".
-		   "<br>- Mac version crashes during copy protection".
+		   "<br>- Mac version crashes in first room".
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
-		   "<br>- Various minor graphical glitches".
 		   "<br>- No music and no sound effects looping with Amiga version".
 		   "<br>- Atari ST and Mac verions require pcjr or pcspk music driver",
 "indy3"         => "Game is completable".
-		   "<br>- Indiana may be able to walk in odd places, in some rooms".
-		   "<br>- Various minor graphical glitches",
+		   "<br>- Indiana may be able to walk in odd places, in some rooms",
 "indy3towns"    => "Game is completable." .
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
-		   "<br>- Various minor graphical glitches".
 		   "<br>- Euphony tunes not yet supported so three music sections won't be heard".
                    "<br>- Kanji version isn't yet supported",
 "zak256"        => "Game is completable.".
