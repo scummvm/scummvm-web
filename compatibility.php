@@ -59,7 +59,7 @@ $games = array(
 		'Maniac Mansion'					=> array('2','maniacega','0'),
 		'Zak McKracken and the Alien Mindbenders'		=> array('2','zakega','0'),
 		'Indiana Jones and the Last Crusade'			=> array('2','indy3ega','0'),
-		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','30'),
+		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','80'),
                 'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','85'),
 		'LOOM'							=> array('3','loom','0'),
 		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','5'),
@@ -91,9 +91,10 @@ $notes = array(
 "maniacega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format",
 "zakega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
 "indy3ega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Indy3-256 version",
-"indy3"         => "Game will start, but is not completable" .
-                   "<br>- Actor decoding is broken, causing odd side effects" .
-                   "<br>- Missing/Incorrect SCUMM opcodes cause occasional crashes",
+"indy3"         => "Game is completable, but some major crashes may occur in the catacombs" .
+                   "<br>- Music and Sound effects are usually missing" .
+		   "<br>- Various minor graphical glitches" . 
+                   "<br>- Indy may occasionally be able to walk outside of walkboxes (Eg, up walls)",
 "zak256"        => "Game is completable." .
                    "<br>- No sound effect looping" ,
 "loom"		=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Loom CD version",
