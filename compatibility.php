@@ -103,10 +103,10 @@ $notes = array(
 "zakc64"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
 "maniac"	=> "Introduction screen is shown with Enchanced version but is distorted, can't advance any further".
                    "<br>ScummVM doesn't completely understand the non-blocked LFL format".
-                   "<br>SCUMM v2 opcodes not completely implimented yet",
+                   "<br>SCUMM v2 opcodes not completely implemented yet",
 "zak"		=> "LucasArts logo screen is shown with Enchanced version, can't advance any further".
                    "<br>ScummVM doesn't completely understand the non-blocked LFL format".
-                   "<br>SCUMM v2 opcodes not completely implimented yet",
+                   "<br>SCUMM v2 opcodes not completely implemented yet",
 "indy3ega"	=> "Game is completable".
                    "<br>-Grail diary and biplane manual aren't drawn correctly".
                    "<br>- No music or sound effects",
