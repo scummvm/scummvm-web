@@ -44,7 +44,9 @@ echo html_round_frame_start("Downloads","98%","",20);
 	<p>
 	  <b>Daily CVS Builds</b>
 	  <ul>
-	    <li><a href="/downloads/scummvmwin32.exe">Win32 Daily Snapshot</a> <small>(246K exe file) </small></li>	  
+	    <li><a href="/downloads/scummvmwin32.exe">Win32 Daily Snapshot</a> <small>
+	    (<? echo intval(filesize("downloads/scummvmwin32.exe")/1024) ?>K exe file, last update:
+	    <? echo date("F j, Y, g:i a",filemtime("downloads/scummvmwin32.exe")); ?>)</small></li>	  
 	  </ul>
 	</p>
 	
