@@ -63,7 +63,7 @@ $games = array(
                 'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','85'),
 		'LOOM'							=> array('3','loom','0'),
 		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','5'),
-                'LOOM (256 color CD version)'                           => array('5','loomcd','90'),
+                'LOOM (256 color CD version)'                           => array('5','loomcd','85'),
 		'The Secret of Monkey Island (VGA Floppy)'		=> array('5','monkeyvga','40'),
 		'The Secret of Monkey Island (VGA CD)'			=> array('5','monkey','90'),
 		'Monkey Island 2: LeChuck\'s revenge'			=> array('5','monkey2','90'),
@@ -95,6 +95,7 @@ $notes = array(
 "loom"		=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Loom CD version",
 "monkeyega"	=> "Copy protection screen will show, but game crashes shortly afterwards.<BR>Graphics decoders and SCUMM opcodes not implimented yet.",
 "loomcd"        => "Game is completable." .
+                   "<br>- Various graphical glitches".
                    "<br>- CD music and voices are not always in perfect sync with cutscenes",
 "monkey"	=> "No known problems - should be playable to the end",
 "monkey2"	=> "No known problems - should be playable to the end",
@@ -107,15 +108,15 @@ $notes = array(
                    "<br>- Some subgames may not work",
 "samdemo"	=> "No known problems - should be playable to the end",
 "ft"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
-                   "<br>- some palette glitches during movie playback".
-                   "<br>- no in-game music, and some animations play incorrectly",
+                   "<br>- Some palette glitches during movie playback".
+                   "<br>- No in-game music, and some animations play incorrectly",
 "dig"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
-                   "<br>- freezes occasionally due to actors not walking correctly" .
-                   "<br>- no in-game music, and some animations play incorrectly",
+                   "<br>- Freezes occasionally due to actors not walking correctly" .
+                   "<br>- No in-game music, and some animations play incorrectly",
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
 "simon1win" 	=> "No known problems, Game is completable.",
 "simon1dos" 	=> "No known problems, Game is completable.",
-"simon2win"     => "Not well testing, will not run some versions of Simon2"
+"simon2win"     => "Not well tested, will not run some versions of Simon2"
 );
 		
 // render the compatibilty chart
