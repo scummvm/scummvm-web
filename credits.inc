@@ -65,6 +65,8 @@
 <tr><td colspan="3">&nbsp;</td></tr>
 <tr><td colspan="3">John Passfield and Steve Stamatiadis for sharing the source of their classic title, Flight of the Amazon Queen and also being incredibly supportive.</td></tr>
 <tr><td colspan="3">&nbsp;</td></tr>
+<tr><td colspan="3">Joe Pearce from The Wyrmkeep Entertainment Co. for sharing the source of their famous title Inherit the Earth and always prompt replies to our questions.</td></tr>
+<tr><td colspan="3">&nbsp;</td></tr>
 <tr><td colspan="3">Aric Wilmunder, Ron Gilbert, David Fox, Vince Lee, and all those at LucasFilm/LucasArts who made SCUMM the insane mess to reimplement that it is today. Feel free to drop us a line and tell us what you think, guys!</td></tr>
 <tr><td colspan="3">&nbsp;</td></tr>
 </table>
