@@ -81,7 +81,7 @@ $games = array(
 		'Simon The Sorcerer 1 (Dos)'           			=> array('n/a','simon1dos','95'),
 		'Simon The Sorcerer 1 (DEMO)'          			=> array('n/a','simon1demo','60'),
 		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','60'),
-		'Simon The Sorcerer 2 Talkie (Dos)'       		=> array('n/a','simon2talkie','60')
+		'Simon The Sorcerer 2 Talkie (Dos)'       		=> array('n/a','simon2talkie','60'),
 		'Simon The Sorcerer 2 (Dos)'           			=> array('n/a','simon2dos','5')
 	      );
 
