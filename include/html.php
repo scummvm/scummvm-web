@@ -400,7 +400,7 @@ function html_header ($title, $extra = "")
 
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
 <tr>
-    <td background="<?=$file_root?>/images/scummvm_top_tile.png">
+    <td style="background-image:url(<?=$file_root?>/images/scummvm_top_tile.png)">
 	<table width="100%" border="0" cellpadding="0" cellspacing="0">
 	<tr>
 	    <td><img src="<?=$file_root?>/images/scummvm_logo.png" border="0" width="407" height="111" alt="ScummVM"></td>
