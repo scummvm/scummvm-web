@@ -108,7 +108,7 @@ function portStatus($ports) {
 <tr><td>Monkey 2</td><td>NONE</td><td>...</td>
 	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 <tr><td>Tentacle</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 1)); ?></tr>
 <tr><td>Samnmax</td><td>NONE</td><td>...</td>
 	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 <tr><td>Full Throttle</td><td>NONE</td><td>...</td>
