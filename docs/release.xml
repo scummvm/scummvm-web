@@ -155,9 +155,9 @@ function bugs($buglist) {
 	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
 	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 <tr><td>Monkey 2</td>
-	<td>NONE</td>
+	<td>hp 12/15</td>
 	<td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	<?php portStatus(array("Win32" => 1, "Linux" => 0, "DC" => 0,
 	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 <tr><td>Tentacle</td>
 	<td>khalek 6/12</td>
@@ -170,14 +170,14 @@ function bugs($buglist) {
 	<?php portStatus(array("Win32" => 1, "Linux" => 0, "DC" => 0,
 	 "Palm" => 0, "WinCE" => 0, "Mac" => 1, "OpenBSD" => 0)); ?></tr>
 <tr><td>Full Throttle</td>
-	<td>NONE</td>
+	<td>trinity78 12/14</td>
 	<td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	<?php portStatus(array("Win32" => 1, "Linux" => 0, "DC" => 0,
 	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 <tr><td>The Dig</td>
-	<td>NONE</td>
+	<td>zeith 12/12</td>
 	<td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	<?php portStatus(array("Win32" => 1, "Linux" => 0, "DC" => 0,
 	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 <tr><td>CoMI</td>
 	<td>NONE</td>
