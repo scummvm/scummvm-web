@@ -55,7 +55,7 @@ echo html_round_frame_start("About ScummVM","98%","",20);
 		color="green">S.C.U.M.M</font> <font color="#666666">(<i>Script Creation Utility for Maniac
 		Mansion</i>)</font> system. <font color="green">S.C.U.M.M</font> is used for many games,
 		including <i>Monkey Island</i>, <i>Day of the Tentacle</i>, <i>Sam and Max</i> and more.
-		Compatability with supported games is continually improving, so check back often.
+		Compatibility with supported games is continually improving, so check back often.
 		</p>
 		<p>
 		Our forum and IRC channel, <a href="irc://irc.freenode.net/scummvm">#scummvm on
