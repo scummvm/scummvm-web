@@ -92,10 +92,8 @@ $games = array(
 		'Simon The Sorcerer 1 (DEMO)'          			=> array('n/a','simon1demo','80'),
 		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','80'),
 		'Simon The Sorcerer 2 Talkie (Dos)'       		=> array('n/a','simon2talkie','80'),
-		'Simon The Sorcerer 2 Talkie (Amiga)'       		=> array('n/a','simon2amiga','80'),
-		'Simon The Sorcerer 2 Talkie (Mac)'       		=> array('n/a','simon2mac','80'),
-		'Simon The Sorcerer 2 (Dos)'           			=> array('n/a','simon2dos','80'),
-		'Simon The Sorcerer 2 (DEMO)'          			=> array('n/a','simon2demo','80')
+		'Simon The Sorcerer 2 Talkie (Amiga or Mac)'       		=> array('n/a','simon2mac','80'),
+		'Simon The Sorcerer 2 (Dos)'           			=> array('n/a','simon2dos','80')
 	      );
 
 $notes = array(
