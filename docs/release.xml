@@ -1,58 +1,64 @@
-<name>ScummVM 0.4.0 Checklist</name>
-<desc>This page is the current checklist for releasing 0.4.0</desc>
+<name>ScummVM 0.5.0 Checklist</name>
+<desc>This page is the current checklist for releasing 0.5.0</desc>
 <body>
 	<h1>0.4.0 Checklist</h1>
 
 	<h2>Introduction</h2>
-	<p>This release is going to focus on the following:
-	</p>
-	<ul>
-		<li>The Curse Of Monkey Island support
-		<li>Prelimary support for some early Humongous Entertainment titles
-		<li>Support for several 16 color game versions (MonkeyEGA, LoomEGA, Indy3EGA)
-		<li>Enhanced Launcher functionality?
-	</ul>
-
+<p>
+	This is the test list for ScummVM 0.5.0, targeted for release the
+	first week of Aug 2003. Please test with the latest CVS
+	snapshot, and do not use anonymous CVS for testing as it is out of date.
+	Either use developer CVS (if you have access), or the source
+	snapshots/daily builds from the Download page.
+</p>
 	<h2>Game Compatibility</h2>
-	<p>
-		The following games need to be tested with the latest CVS snapshosts:
-	</p>
-		<table border=0>
-		<tr><td>GameID</td><td>Testers</td><td>Date Tested</td><td>Critical Bugs</td></tr>
-		<tr><td colspan=4><hr></td></tr>
-		<tr><td>Zak256</td><td>andrej4000</td><td>3/5</td><td>None Known</td></tr>
-		<tr><td>LoomEGA</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
-		<tr><td>LoomCD</td><td>WooShell</td><td>2/5</td><td>None Known</td></tr>
-		<tr><td>Indy3EGA</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
-		<tr><td>Indy3</td><td>khalek</td><td>3/5</td><td>
-		<a href="http://sourceforge.net/tracker/index.php?func=detail&aid=731680&group_id=37116&atid=418820">731680</a></td></tr>
-		<tr><td>MonkeyEGA</td><td>khalek</td><td>11/4</td><td>None Known</td></tr>
-		<tr><td>MonkeyVGA</td><td>Ge0rG</td><td>1/5</td><td>None Known</td></tr>
-		<tr><td>Monkey1</td><td>Nightweaver</td><td>29/4</td><td>None Known</td></tr>
-		<tr><td>Monkey2</td><td>Ge0rG</td><td>1/5</td><td>None Known</td></tr>
-		<tr><td>Atlantis (Team)</td><td>andrej4000</td><td>1/5</td><td>None Known</td></tr>
-		<tr><td>Atlantis (Action)</td><td>andrej4000</td><td>1/5</td><td>None Known</td></tr>
-		<tr><td>Atlantis (Puzzle)</td><td>andrej4000</td><td>1/5</td><td>None Known</td></tr>
-		<tr><td>Tentacle</td><td>xplo, olki</td><td>5/5</td><td>None Known</td></tr>
-		<tr><td>Samnmax</td><td>thingamabob</td><td>29/4</td><td>None Known</td></tr>
-		<tr><td>Dig</td><td>treke</td><td>18/4</td><td>None Known</td></tr>
-		<tr><td>FT</td><td>aquadran</td><td>1/5</td><td>None Known</td></tr>
-		<tr><td>COMI</td><td>Ge0rG</td><td>2/5</td><td>None Known</td></tr>
-		<tr><td colspan=4><hr></td></tr>
-		<!--Optional games, these aren't required for release -->
-		<tr><td>Simon1Dos</td><td>andrej4000</td><td>2/5</td><td>None Known</td></tr>
-		<tr><td>Simon1Talkie</td><td>andrej4000</td><td>4/5</td><td>None Known</td></tr>
-		<tr><td>Simon1Win</td><td>andrej4000</td><td>2/5</td><td>None Known</td></tr>
-		<tr><td>Simon2Dos</td><td>andrej4000</td><td>4/5</td><td>None Known</td></tr>
-		<tr><td>Simon2Talkie</td><td>andrej4000</td><td>2/5</td><td>None Known</td></tr>
-		<tr><td>Simon2Win</td><td>andrej4000</td><td>2/5</td><td>None Known</td></tr>
-		<tr><td>Simon2Mac</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
-		</table>
+<p>
+	The following games need to be tested with the latest CVS snapshosts:
+</p>
 
-	<p>
-		Please note that FT/COMI/Simon bugs will not hold back 0.4.0, but should be tested and
-		taken into account regardless. If anybody wishes to test, file any bug reports of bugs
-		found which you consider should be fixed for the release. Please tag the subject of the bug
-		report with '0.4.0 RC:'
-	</p>
+<table border=5 cellspacing=0 width=100%>
+<tr>
+ <td width=10%>GameID</td><td>Last Test</td><td>Critical Bugs</td>
+ <td width=10%><table border=0>
+	<tr><td colspan=5><center><B>Supported Ports</B></center></td></tr>
+	<tr><td>x86</td><td>Mac</td><td>WinCE</td><td>DC</td><td>Palm</td></tr>
+     </table>
+ </td>
+</tr>
+
+<tr><td colspan=4><center><B>SCUMM Engine</B></center></td></tr>
+<tr><td>Maniac (V2)</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+<tr><td>Zak (V2)</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+<tr><td>Zak256</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+<tr><td>Indy3</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+<tr><td>LoomEGA</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+<tr><td>Loom (CD)</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+<tr><td>MonkeyEGA</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+<tr><td>Monkey (VGA)</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+<tr><td>Atlantis</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+<tr><td>Monkey2</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+<tr><td>Tentacle</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+<tr><td>Samnmax</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+<tr><td>Dig</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+<tr><td>ComI</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+
+<tr><td colspan=4><center><B>SKY Engine</B></center></td></tr>
+<tr><td>Sky (Floppy)</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+<tr><td>Sky (CD)</td><td>Ender: 11 Jul</td><td>...</td><td>x86</td></tr>
+
+<tr><td colspan=4><center><B>Simon Engine</B></center></td></tr>
+<tr><td>Simon1 (talkie)</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+<tr><td>Simon2 (talkie)</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+<tr><td>Simon1 (floppy)</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+<tr><td>Simon2 (floppy)</td><td>Needs Testing</td><td>...</td><td>x86</td></tr>
+
+</table>
+<p>
+		If anybody wishes to test, file any bug reports of bugs
+		found which you consider should be fixed for the
+		release. Please tag the subject of the bug report with
+		'0.5.0 RC:'. Reports of sucessful completion should be
+		posted to the ScummVM-Devel mailing list or forums. Insure
+		you include the date of the CVS version you used to test.
+</p>
 </body>
