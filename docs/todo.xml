@@ -30,9 +30,9 @@
 	<li>Add sound effects in Indy3Vga, MonkeyEga, MonkeyVga and Pass</li>
 	<li>Add music and sound effects in Amiga versions of games</li>
 	<li>Complete Full Throttle support</li>
-	<li>Complete Maniac Mansion/Zak McKracken V2 support </li>
 	<li>Complete Maniac Mansion/Zak McKracken V1 support</li>
 	<li>Complete support for Humongous Entertainment scumm games (he v6/v7)</li>
+	<li>Complete Broken Sword 1 and 2 support</li>
 	</ul>
 
 	<h3>General</h3>
@@ -77,7 +77,7 @@
 		</ul>
 		<li><h4>Zak256</h4>
 		<ul>
-			<li>Incomplete sound effect support</li>
+			<li>Add Euphony music support</li>
 			<li>Several small bugs (see bug list)</li>
 			<li><i>Ask: Ender</i></li>
 		</ul>
