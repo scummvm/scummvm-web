@@ -109,8 +109,8 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	<a href="compatibility.php">http://scummvm.sourceforge.net/compatibility.php</a>.<br><br>
 
       <li><a name="1-5"></a><b>Will ScummVM support other games?</b></li>
-	ScummVM team is working to make newer games, such as "The Dig", playable.<br>
-	We are also working to correct make the currently supported games more acurate.<br><br>
+	The ScummVM team is working to make newer games, such as "The Dig", playable.<br>
+	We are also working to correct make the currently supported games more accurate.<br><br>
 
       <li><a name="1-6"></a><b>Where do I find ScummVM?</b></li>
 	You can find it on the page on sourceforge:
@@ -121,19 +121,19 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
       <li><a name="1-7"></a><b>How do I compile the source code for my OS?</b></li>
 	The source code package contains a file called
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/scummvm/scummvm/readme.txt?rev=HEAD">readme.txt</a>
-	that explains everything.<br><br>
+	that should explain everything.<br><br>
 
       <li><a name="1-8"></a><b>What is the latest version of ScummVM?</b></li>
 	It's currently in alpha status. See also 1.6 to learn where to find the latest version.<br><br>
 
       <li><a name="1-9"></a><b>On what platform does ScummVM run?</b></li>
 	ScummVM should be able to be compiled on any SDL platform, just with small modifications.<br>
-	Currently tested platforms are Win32 (Windows 9x/ME/NT/2000), Linux i386 and PPC, BeOS. Solaris, MacOS 9,
-	MacOSX, Dreamcast, and WinCE.<br><br>
+	Currently tested platforms are Win32 (Windows 9x/ME/NT/2000), Linux i386 and PPC, BeOS, Solaris, MacOS 9,
+	MacOSX, Dreamcast, MorphOS, IRIX, and WinCE.<br><br>
 
-      <li><a name="1-10"></a><b>Does ScummVM run any non Scumm games?</b></li>
+      <li><a name="1-10"></a><b>Does ScummVM run any non-Scumm games?</b></li>
         Yes. Currently the only non Scumm game supported is Simon The Sorcerer. This game was added because it was very
-	similar to Scumm. We don't have any plans to support any other non Scumm games at this time. If we do, it will
+	similar to Scumm. We don't have any plans to support any other non-Scumm games at this time. If we do, it will
 	be added to the <a href="compatibility.php">Compatibility List</a>.<br><br>
 	
     </ol>
@@ -181,7 +181,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	for more info.<br><br>
 
       <li><a name="3-3"></a><b>Does ScummVM support filtered graphic modes?</b></li>
-      	Yes, ScummVM supports several filtrered graphic modes such as super2xsai.  See the
+      	Yes, ScummVM supports several filtered graphic modes such as super2xsai.  See the
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/scummvm/scummvm/readme.txt?rev=HEAD">readme.txt</a>
 	for more info.<br><br>
       
@@ -199,7 +199,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
       	First make sure your game is supported. See <a href="#14">1.4</a>. If it is a supported game and you
 	have followed the instructions in
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/scummvm/scummvm/readme.txt?rev=HEAD">readme.txt</a>
-	to the letter. Then see <a href="#46">4.6</a> to report this as a bug.<br><br>
+	to the letter, then see <a href="#46">4.6</a> to report this as a bug.<br><br>
 	
       <li><a name="4-2"></a><b>I don't hear any sound.</b></li>
       	Check the <a href="compatibility.php">Compatibility List</a> to see if your game has sound support currently. You can
