@@ -79,10 +79,6 @@
 		<ul>
 			<li>Add music and sound effects support for Amiga version</li>
 		</ul>
-		<li><h4>Passport to Adventure</h4>
-		<ul>
-			<li>Fix subtitles not been shown in indy3 demo</li>
-		</ul>
 		<li><h4>Monkey Island 2</h4>
 		<ul>
 			<li>Fix palette problems in Amiga version</li>
@@ -94,8 +90,7 @@
 		</ul>
 		<li><h4>Full Throttle</h4>
 		<ul>
-			<li>INSANE supported required</li>
-			<li>Demo has various issues that need to be looked at</li>
+			<li>PC demo has various issues that need to be looked at</li>
 			<li><i>Ask: Ender, aquadran</i></li>
 		</ul>
 		<li><h4>The DIG</h4>

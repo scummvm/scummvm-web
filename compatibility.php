@@ -69,7 +69,7 @@ $games = array(
 		'Loom'							=> array('3','loom','80'),
 		'Loom (256 - FmTowns)'					=> array('3','loomtowns','75'),
 		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','95'),
-		'Passport to Adventure (Indy3, Monkey and Loom demos)'  => array('4','pass','50'),
+		'Passport to Adventure (Indy3, Monkey and Loom demos)'  => array('4','pass','95'),
 		'Loom (256 color CD version)'                           => array('5','loomcd','90'),
 		'The Secret of Monkey Island (VGA Floppy)'		=> array('5','monkeyvga','95'),
 		'The Secret of Monkey Island (VGA CD)'			=> array('5','monkey','95'),
@@ -152,8 +152,7 @@ $notes = array(
 "monkeyega"	=> "Game is completable".
 		   "<br>- Atari ST version requires pcjr or pcspk music driver".
 		   "<br>- MIDI support requires the Roland update from LucasArts",
-"pass"		=> "Loom and Monkey Island demos are completable.".
-                   "<br>- No subtitles in indy3 demo",
+"pass"		=> "All three demos are completable.",
 "loomcd"        => "Game is completable.".
                    "<br>- Various minor graphical glitches",
 "monkeyvga"	=> "Game is completable.".
