@@ -3,98 +3,98 @@
 
 	<tr><td colspan='7'><strong>Maniac Mansion</strong></td></tr>
 		<?php addEntry("V1", "DOS", "en", "7f45ddd6dbfbf8f80c0c0efea4c295bc", "maniac"); ?>
-		<?php addEntry("V2", "DOS", "en", "624cdb93654667c869d204a64af7e57f", "maniac", "Kirben, Gino Pilotino"); ?>
-		<?php addEntry("V2 (alt?)", "DOS", "en", "b250d0f9cc83f80ced56fe11a4fb057c", "maniac", "Gino Pilotino"); ?>
+		<?php addEntry("V2", "DOS", "en", "624cdb93654667c869d204a64af7e57f", "maniac", "Kirben, Andrea Petrucci"); ?>
+		<?php addEntry("V2 (alt?)", "DOS", "en", "b250d0f9cc83f80ced56fe11a4fb057c", "maniac", "Andrea Petrucci"); ?>
 		<?php addEntry("V2", "DOS", "de", "183d7464902d40d00800e8ee1f04117c", "maniac"); ?>
-		<?php addEntry("V2", "DOS", "es", "0d1b69471605201ef2fa9cec1f5f02d2", "maniac", "abnog, Gino Pilotino"); ?>
-		<?php addEntry("V2 (DOTT)", "DOS", "it", "87f6e8037b7cc996e13474b491a7a98e", "maniac", "Gino Pilotino"); ?>
+		<?php addEntry("V2", "DOS", "es", "0d1b69471605201ef2fa9cec1f5f02d2", "maniac", "abnog, Andrea Petrucci"); ?>
+		<?php addEntry("V2 (DOTT)", "DOS", "it", "87f6e8037b7cc996e13474b491a7a98e", "maniac", "Andrea Petrucci"); ?>
 		<?php addEntry("V2", "DOS", "fr", "114acdc2659a273c220f86ee9edb24c1", "maniac", "Nicolas Sauz&egrave;de"); ?>
-		<?php addEntry("V2 (DOTT)", "DOS", "fr", "99a3699f80b8f776efae592b44b9b991", "maniac", "Nicolas Sauz&egrave;de, Gino Pilotino"); ?>
-		<?php addEntry("V2", "Amiga", "en", "e781230da44a44e2f0770edb2b3b3633", "maniac", "dhewg, Gino Pilotino"); ?>
+		<?php addEntry("V2 (DOTT)", "DOS", "fr", "99a3699f80b8f776efae592b44b9b991", "maniac", "Nicolas Sauz&egrave;de, Andrea Petrucci"); ?>
+		<?php addEntry("V2", "Amiga", "en", "e781230da44a44e2f0770edb2b3b3633", "maniac", "dhewg, Andrea Petrucci"); ?>
 	<tr><td colspan='7'><strong>Zak McKracken and the Alien Mindbenders</strong></td></tr>
 		<?php addEntry("V1", "DOS", "en", "7020931d5a2be0a49d68e7a1882363e4", "zak"); ?>
-		<?php addEntry("V1 (alt?)", "DOS", "en", "b23f7cd7c304d7dff08e92a96120d5b4", "zak", "Gino Pilotino"); ?>
+		<?php addEntry("V1 (alt?)", "DOS", "en", "b23f7cd7c304d7dff08e92a96120d5b4", "zak", "Andrea Petrucci"); ?>
 		<?php addEntry("V2 Demo", "Atari", "en", "8299d9b8a1b0e7b881bae7a9971dc5e2", "zak"); ?>
 		<?php addEntry("V2", "DOS", "en", "675d71151e9b5a968c8ce46d9fbf4cbf", "zak", "Kirben"); ?>
-		<?php addEntry("V2 (alt?)", "DOS", "en", "debe337f73d660e951ece7c1f1c81add", "zak", "Gino Pilotino"); ?>
+		<?php addEntry("V2 (alt?)", "DOS", "en", "debe337f73d660e951ece7c1f1c81add", "zak", "Andrea Petrucci"); ?>
 		<?php addEntry("V2 (w/o copy protection)", "DOS", "de", "cdd760228cf1010c2903f37e788ea31c", "zak", "Max Horn"); ?>
-		<?php addEntry("V2 (from 5\"25 floppies)", "DOS", "de", "d06fbe28818fef7bfc45c2cdf0c0849d", "zak", "Nicolas Sauz&egrave;de, Gino Pilotino"); ?>
-		<?php addEntry("V2", "DOS", "fr", "52a4bae0746a11d7b1e8554e91a6645c", "zak", "Gino Pilotino"); ?>
-		<?php addEntry("V2", "DOS", "it", "75ba23fff4fd63fa446c02864f2a5a4b", "zak", "Antti Leimi, Gino Pilotino"); ?>
-		<?php addEntry("V2 (alt?)", "DOS", "it", "1900e501a52fbf55bde6e4196f6d2aa6", "zak", "Gino Pilotino"); ?>
+		<?php addEntry("V2 (from 5\"25 floppies)", "DOS", "de", "d06fbe28818fef7bfc45c2cdf0c0849d", "zak", "Nicolas Sauz&egrave;de, Andrea Petrucci"); ?>
+		<?php addEntry("V2", "DOS", "fr", "52a4bae0746a11d7b1e8554e91a6645c", "zak", "Andrea Petrucci"); ?>
+		<?php addEntry("V2", "DOS", "it", "75ba23fff4fd63fa446c02864f2a5a4b", "zak", "Antti Leimi, Andrea Petrucci"); ?>
+		<?php addEntry("V2 (alt?)", "DOS", "it", "1900e501a52fbf55bde6e4196f6d2aa6", "zak", "Andrea Petrucci"); ?>
 		<?php addEntry("V2", "Amiga", "en", "e94c7cc3686fce406d3c91b5eae5a72d", "zak", "dhweg"); ?>
-		<?php addEntry("V2", "Amiga", "it", "27b3a4224ad63d5b04627595c1c1a025", "zak", "Gino Pilotino"); ?>
+		<?php addEntry("V2", "Amiga", "it", "27b3a4224ad63d5b04627595c1c1a025", "zak", "Andrea Petrucci"); ?>
 		<?php addEntry("FmTowns", "FmTowns", "en", "2d4536a56e01da4b02eb021e7770afa2", "zak"); ?>
 		<?php addEntry("FmTowns", "FmTowns", "jp", "ce3edc99cd4f478c5b37104d70c68ca5", "zak", "khalek"); ?>
-		<?php addEntry("FmTowns (alt?)", "FmTowns", "jp", "1ca86e2cf9aaa2068738a1e5ba477e60", "zak", "Gino Pilotino"); ?>
+		<?php addEntry("FmTowns (alt?)", "FmTowns", "jp", "1ca86e2cf9aaa2068738a1e5ba477e60", "zak", "Andrea Petrucci"); ?>
 	<tr><td colspan='7'><strong>Indiana Jones and the Last Crusade</strong></td></tr>
 		<?php addEntry("EGA (1.0 7/09/89)", "DOS", "en", "5fbe557049892eb4b709d90916ec97ca", "indy3EGA"); ?>
-		<?php addEntry("EGA (1.3 8/14/89)", "DOS", "en", "6b3ec67da214f558dc5ceaa2acd47453", "indy3EGA", "tsuteiuQ, Gino Pilotino"); ?>
+		<?php addEntry("EGA (1.3 8/14/89)", "DOS", "en", "6b3ec67da214f558dc5ceaa2acd47453", "indy3EGA", "tsuteiuQ, Andrea Petrucci"); ?>
 		<?php addEntry("EGA", "DOS", "de", "6f6ef668c608c7f534fea6e6d3878dde", "indy3EGA", "dhewg"); ?>
-		<?php addEntry("EGA", "DOS", "fr", "66236cd1aec24e1d4aff4c4cc93b7e18 ", "indy3EGA", "Gino Pilotino"); ?>
-		<?php addEntry("EGA", "DOS", "it", "d62d248c3df6ec177405e2cb23d923b2 ", "indy3EGA", "Gino Pilotino"); ?>
+		<?php addEntry("EGA", "DOS", "fr", "66236cd1aec24e1d4aff4c4cc93b7e18 ", "indy3EGA", "Andrea Petrucci"); ?>
+		<?php addEntry("EGA", "DOS", "it", "d62d248c3df6ec177405e2cb23d923b2 ", "indy3EGA", "Andrea Petrucci"); ?>
 		<?php addEntry("EGA", "DOS", "es", "ce7fd0c382389a6791fc3e199c117ef4 ", "indy3EGA", "abnog"); ?>
-		<?php addEntry("EGA (alt?)", "DOS", "es", "86be8ada36371d4fdc35659d0e912a26 ", "indy3EGA", "Gino Pilotino"); ?>
+		<?php addEntry("EGA (alt?)", "DOS", "es", "86be8ada36371d4fdc35659d0e912a26 ", "indy3EGA", "Andrea Petrucci"); ?>
 		<?php addEntry("EGA", "Mac", "en", "1dd7aa088e09f96d06818aa9a9deabe0", "indy3EGA"); ?>
 		<?php addEntry("EGA", "Amiga", "en", "9c0fee288ad564a7d25ec3e841810d79", "indy3EGA", "dhewg"); ?>
 		<?php addEntry("EGA", "Amiga", "de", "330f631502e381a4e199a3f7cb483c20", "indy3EGA", "dhewg"); ?>
 		<?php addEntry("EGA", "Amiga", "fr", "e689bdf67f98b1d760ce4487ec0e8d06", "indy3EGA", "Gerald Vincent"); ?>
-		<?php addEntry("EGA", "Amiga", "it", "df03ee021aa9b81d90cab9c26da07614", "indy3EGA", "Gino Pilotino"); ?>
+		<?php addEntry("EGA", "Amiga", "it", "df03ee021aa9b81d90cab9c26da07614", "indy3EGA", "Andrea Petrucci"); ?>
 		<?php addEntry("EGA Demo", "DOS", "en", "b597e0403cc0002f69170e6caba7edd9", "indy3EGA"); ?>
 		<?php addEntry("VGA", "DOS", "en", "1875b90fade138c9253a8e967007031a", "indy3"); ?>
 		<?php addEntry("VGA", "DOS", "de", "399b217b0c8d65d0398076da486363a9", "indy3"); ?>
-		<?php addEntry("VGA (same as ES?)", "DOS", "fr", "1875b90fade138c9253a8e967007031a", "indy3", "Gino Pilotino"); ?>
-		<?php addEntry("VGA", "DOS", "it", "17b5d5e6af4ae89d62631641d66d5a05", "indy3", "Gino Pilotino"); ?>
-		<?php addEntry("VGA (same as FR?)", "DOS", "es", "1875b90fade138c9253a8e967007031a", "indy3", "Gino Pilotino"); ?>
+		<?php addEntry("VGA (same as ES?)", "DOS", "fr", "1875b90fade138c9253a8e967007031a", "indy3", "Andrea Petrucci"); ?>
+		<?php addEntry("VGA", "DOS", "it", "17b5d5e6af4ae89d62631641d66d5a05", "indy3", "Andrea Petrucci"); ?>
+		<?php addEntry("VGA (same as FR?)", "DOS", "es", "1875b90fade138c9253a8e967007031a", "indy3", "Andrea Petrucci"); ?>
 		<?php addEntry("FmTowns", "FmTowns", "en", "04687cdf7f975a89d2474929f7b80946", "indy3towns"); ?>
-		<?php addEntry("FmTowns", "FmTowns", "jp", "3a0c35f3c147b98a2bdf8d400cfc4ab5", "indy3towns", "Paul Priest, Gino Pilotino"); ?>
+		<?php addEntry("FmTowns", "FmTowns", "jp", "3a0c35f3c147b98a2bdf8d400cfc4ab5", "indy3towns", "Paul Priest, Andrea Petrucci"); ?>
 		<?php addEntry("FmTowns Demo", "FmTowns", "en", "3938ee1aa4433fca9d9308c9891172b1", "zaktowns"); ?>
 	<tr><td colspan='7'><strong>Loom</strong></td></tr>
 		<?php addEntry("Demo", "DOS", "en", "5a35e36fd777e9c37a49c5b2faca52f9", "loom"); ?>
 		<?php addEntry("Floppy", "Mac", "en", "6f0be328c64d689bb606d22a389e1b0f", "loom"); ?>
 		<?php addEntry("Floppy v1.0", "DOS", "en", "28ef68ee3ed76d7e2ee8ee13c15fbd5b", "loom"); ?>
-		<?php addEntry("Floppy v1.0 alternative", "DOS", "en", "73e5ab7dbb9a8061cc6d25df02dbd1e7", "loom", "Gino Pilotino"); ?>
-		<?php addEntry("Floppy v1.1", "DOS", "en", "37f56ceb13e401a7ac7d9e6b37fecaf7", "loom", "Kirben, Gino Pilotino"); ?>
+		<?php addEntry("Floppy v1.0 alternative", "DOS", "en", "73e5ab7dbb9a8061cc6d25df02dbd1e7", "loom", "Andrea Petrucci"); ?>
+		<?php addEntry("Floppy v1.1", "DOS", "en", "37f56ceb13e401a7ac7d9e6b37fecaf7", "loom", "Kirben, Andrea Petrucci"); ?>
 		<?php addEntry("Floppy", "DOS", "de", "fa127d7c4bb47d05bb1c33ddcaa9f767", "loom"); ?>
-		<?php addEntry("Floppy", "DOS", "fr", "b886b0a5d909c7158a914e1d7c1c6c65", "loom", "Gino Pilotino"); ?>
-		<?php addEntry("Floppy", "DOS", "it", "c3df37df9d3b481b45f75283a9907c47", "loom", "Gino Pilotino"); ?>
-		<?php addEntry("Floppy", "DOS", "es", "2a208ffbcd0e83e86f4356e6f64aa6e1", "loom", "abnog, Gino Pilotino"); ?>
-		<?php addEntry("Floppy", "Amiga", "en", "4dc780f1bc587a193ce8a97652791438", "loom", "Antti Leimi, Gino Pilotino"); ?>
+		<?php addEntry("Floppy", "DOS", "fr", "b886b0a5d909c7158a914e1d7c1c6c65", "loom", "Andrea Petrucci"); ?>
+		<?php addEntry("Floppy", "DOS", "it", "c3df37df9d3b481b45f75283a9907c47", "loom", "Andrea Petrucci"); ?>
+		<?php addEntry("Floppy", "DOS", "es", "2a208ffbcd0e83e86f4356e6f64aa6e1", "loom", "abnog, Andrea Petrucci"); ?>
+		<?php addEntry("Floppy", "Amiga", "en", "4dc780f1bc587a193ce8a97652791438", "loom", "Antti Leimi, Andrea Petrucci"); ?>
 		<?php addEntry("Floppy (same as IT?!?)", "Amiga", "fr", "39cb9dec16fa16f38d79acd80effb059", "loom", "Gerald Vincent"); ?>
-		<?php addEntry("Floppy (same as FR?!?)", "Amiga", "it", "39cb9dec16fa16f38d79acd80effb059", "loom", "Gino Pilotino"); ?>
+		<?php addEntry("Floppy (same as FR?!?)", "Amiga", "it", "39cb9dec16fa16f38d79acd80effb059", "loom", "Andrea Petrucci"); ?>
 		<?php addEntry("Talkie/CD", "DOS", "en", "5d88b9d6a88e6f8e90cded9d01b7f082", "loomcd"); ?>
-		<?php addEntry("FmTowns", "FmTowns", "en", "c5d10e190d4b4d59114b824f2fdbd00e", "loomTowns", "dhewg, Gino Pilotino"); ?>
-		<?php addEntry("FmTowns", "FmTowns", "jp", "31b8fda4c8c7413fa6b39997e776eba4", "loomTowns", "khalek, Gino Pilotino"); ?>
+		<?php addEntry("FmTowns", "FmTowns", "en", "c5d10e190d4b4d59114b824f2fdbd00e", "loomTowns", "dhewg, Andrea Petrucci"); ?>
+		<?php addEntry("FmTowns", "FmTowns", "jp", "31b8fda4c8c7413fa6b39997e776eba4", "loomTowns", "khalek, Andrea Petrucci"); ?>
 	<tr><td colspan='7'><strong>The Secret of Monkey Island</strong></td></tr>
-		<?php addEntry("EGA (4 disk)", "DOS", "en", "1d05cd189e4908f79b57e78a4402f292", "monkeyega", "Gino Pilotino"); ?>
+		<?php addEntry("EGA (4 disk)", "DOS", "en", "1d05cd189e4908f79b57e78a4402f292", "monkeyega", "Andrea Petrucci"); ?>
 		<?php addEntry("EGA (8 disk)", "DOS", "en", "49210e124e4c2b30f1290a9ef6306301", "monkeyega"); ?>
-		<?php addEntry("EGA (8 disk)", "DOS", "fr", "1dd3c11ea4439adfe681e4e405b624e1", "monkeyega", "Gino Pilotino"); ?>
-		<?php addEntry("EGA (4 disk)", "DOS", "it", "477dbafbd66a53c98416dc01aef019ad", "monkeyega", "Gino Pilotino"); ?>
-		<?php addEntry("EGA (8 disk)", "DOS", "es", "910e31cffb28226bd68c569668a0d6b4", "monkeyega", "Gino Pilotino"); ?>
+		<?php addEntry("EGA (8 disk)", "DOS", "de", "fc6b6148e80d67939d9a18697c0f626a", "monkeyega", "ghoostkilla"); ?>
+		<?php addEntry("EGA (8 disk)", "DOS", "fr", "1dd3c11ea4439adfe681e4e405b624e1", "monkeyega", "Andrea Petrucci"); ?>
+		<?php addEntry("EGA (4 disk)", "DOS", "it", "477dbafbd66a53c98416dc01aef019ad", "monkeyega", "Andrea Petrucci"); ?>
+		<?php addEntry("EGA (8 disk)", "DOS", "es", "910e31cffb28226bd68c569668a0d6b4", "monkeyega", "Andrea Petrucci"); ?>
 		<?php addEntry("EGA Demo", "DOS", "en", "71523b539491527d9860f4407faf0411", "monkeyega"); ?>
 		<?php addEntry("EGA Demo", "DOS", "de", "771bc18ec6f93837b839c992b211904b", "monkeyega", "khalek"); ?>
-		<?php addEntry("EGA", "Amiga", "de", "fc6b6148e80d67939d9a18697c0f626a", "monkeyega", "ghoostkilla"); ?>
 		<?php addEntry("VGA (4 disk)", "DOS", "en", "15e03ffbfeddb9c2aebc13dcb2a4a8f4", "monkeyvga"); ?>
-		<?php addEntry("VGA (8 disk)", "DOS", "en", "c7890e038806df2bb5c0c8c6f1986ea2", "monkeyvga", "Gino Pilotino"); ?>
+		<?php addEntry("VGA (8 disk)", "DOS", "en", "c7890e038806df2bb5c0c8c6f1986ea2", "monkeyvga", "Andrea Petrucci"); ?>
 		<?php addEntry("VGA (4 disk)", "DOS", "de", "d0b531227a27c6662018d2bd05aac52a", "monkeyvga"); ?>
 		<?php addEntry("VGA (4 disk)", "DOS", "es", "45152f7cf2ba8f43cf8a8ea2e740ae09", "monkeyvga"); ?>
-		<?php addEntry("VGA (4 disk)", "DOS", "it", "66fd5ff9a810dfeb6d6bdada18221140", "monkeyvga", "Gino Pilotino"); ?>
+		<?php addEntry("VGA (4 disk)", "DOS", "it", "66fd5ff9a810dfeb6d6bdada18221140", "monkeyvga", "Andrea Petrucci"); ?>
 		<?php addEntry("VGA", "Amiga", "en", "6c2bff0e327f2962e809c2e1a82d7309", "monkeyvga", "dhweg"); ?>
 		<?php addEntry("VGA", "Amiga", "de", "319a4dde52c7960b5aae8a1ec348d918", "monkeyvga", "ghoostkilla"); ?>
 		<?php addEntry("VGA", "Amiga", "fr", "3433be9866ca4261b2d5d25374e3f243", "monkeyvga", "Gerald Vincent"); ?>
-		<?php addEntry("VGA", "Amiga", "it", "fb66aa42de21675116346213f176a366", "monkeyvga", "Gino Pilotino"); ?>
+		<?php addEntry("VGA", "Amiga", "it", "fb66aa42de21675116346213f176a366", "monkeyvga", "Andrea Petrucci"); ?>
 		<?php addEntry("VGA Demo", "Amiga", "en", "54a936ad06161ff7bfefcb96200f7bff", "monkeyvga", "khalek"); ?>
 		<?php addEntry("CD", "DOS", "en", "2d1e891fe52df707c30185e52c50cd92", "monkey"); ?>
 		<?php addEntry("CD", "DOS", "de", "305d3dd57c96c65b017bc70c8c7cfb5e", "monkey"); ?>
-		<?php addEntry("CD", "DOS", "es", "f049e38c1f8302b5db6170f1872af89a", "monkey", "Andrej Sinicyn, Gino Pilotino"); ?>
-		<?php addEntry("CD", "DOS", "it", "da6269b18fcb08189c0aa9c95533cce2", "monkey", "Andrej Sinicyn, Gino Pilotino"); ?>
-		<?php addEntry("CD", "DOS", "fr", "aa8a0cb65f3afbbe2c14c3f9f92775a3", "monkey", "Andrej Sinicyn, Gino Pilotino"); ?>
+		<?php addEntry("CD", "DOS", "es", "f049e38c1f8302b5db6170f1872af89a", "monkey", "Andrej Sinicyn, Andrea Petrucci"); ?>
+		<?php addEntry("CD", "DOS", "it", "da6269b18fcb08189c0aa9c95533cce2", "monkey", "Andrej Sinicyn, Andrea Petrucci"); ?>
+		<?php addEntry("CD", "DOS", "fr", "aa8a0cb65f3afbbe2c14c3f9f92775a3", "monkey", "Andrej Sinicyn, Andrea Petrucci"); ?>
 		<?php addEntry("-", "DOS", "fr", "aa8a0cb65f3afbbe2c14c3f9f92775a3", "monkey1", "Nicolas Sauz&egrave;de"); ?>
 		<?php addEntry("-", "Mac", "en", "2ccd8891ce4d3f1a334d21bff6a88ca2", "monkey"); ?>
 		<?php addEntry("-", "SEGA", "en", "c13225cb1bbd3bc9fe578301696d8021", "game"); ?>
 		<?php addEntry("-", "Mac", "en", "2ccd8891ce4d3f1a334d21bff6a88ca2", "monkey"); ?>
-		<?php addEntry("FmTowns", "FmTowns", "en", "8eb84cee9b429314c7f0bdcf560723eb", "monkey", "Paul Priest, Gino Pilotino"); ?>
-		<?php addEntry("FmTowns", "FmTowns", "jp", "e17db1ddf91b39ca6bbc8ad3ed19e883", "monkey", "Paul Priest, Gino Pilotino"); ?>
+		<?php addEntry("FmTowns", "FmTowns", "en", "8eb84cee9b429314c7f0bdcf560723eb", "monkey", "Paul Priest, Andrea Petrucci"); ?>
+		<?php addEntry("FmTowns", "FmTowns", "jp", "e17db1ddf91b39ca6bbc8ad3ed19e883", "monkey", "Paul Priest, Andrea Petrucci"); ?>
 	<tr><td colspan='7'><strong>Misc demos</strong></td></tr>
 		<?php addEntry("Passport to Adventure", "DOS", "en", "e6cd81b25ab1453a8a6d3482118c391e", "pass"); ?>
 		<?php addEntry("indy/loom non-interactive", "FmTowns", "en", "2d388339d6050d8ccaa757b64633954e", "zakTowns", "khalek"); ?>
@@ -102,58 +102,58 @@
 		<?php addEntry("indy/zak non-interactive", "FmTowns", "en", "3938ee1aa4433fca9d9308c9891172b1", "zakTowns", "khalek"); ?>
 	<tr><td colspan='7'><strong>Monkey Island 2: LeChuck's revenge</strong></td></tr>
 		<?php addEntry("-", "Amiga", "en", "132bff65e6367c09cc69318ce1b59333", "monkey2"); ?>
-		<?php addEntry("-", "Amiga", "it", "11ddf1fde76e3156eb3a38da213f484e", "monkey2", "Gino Pilotino"); ?>
+		<?php addEntry("-", "Amiga", "it", "11ddf1fde76e3156eb3a38da213f484e", "monkey2", "Andrea Petrucci"); ?>
 		<?php addEntry("-", "Mac", "en", "4cb9c3618f71668f8e4346c8f323fa82", "monkey2"); ?>
 		<?php addEntry("-", "DOS", "en", "3686cf8f89e102ececf4366e1d2c8126", "monkey2"); ?>
 		<?php addEntry("-", "DOS", "de", "6886e5d08cee329b1f2e743ae2e3ceed", "monkey2"); ?>
-		<?php addEntry("-", "DOS", "fr", "8e4ee4db46954bfe2912e259a16fad82", "monkey2", "Nicolas Sauz&egrave;de, Gino Pilotino"); ?>
-		<?php addEntry("CD", "DOS", "it", "69ea626f1f87eecb78ea0d6c6b983a1d", "monkey2", "Gino Pilotino"); ?>
-		<?php addEntry("Floppy", "DOS", "it", "bd126753de619a495f9f22adc951c8d5", "monkey2", "Gino Pilotino"); ?>
-		<?php addEntry("-", "DOS", "es", "7974365d3dc0f43a2748c975f91ff042", "monkey2", "Gino Pilotino"); ?>
-		<?php addEntry("FmTowns", "FmTowns", "en", "da09e666fc8f5b78d7b0ac65d1a3b56e", "monkey2", "dhewg, Gino Pilotino"); ?>
-		<?php addEntry("FmTowns", "FmTowns", "jp", "430bc518017b6fac046f58bab6baad5d", "monkey2", "Antti Leimi, Gino Pilotino"); ?>
+		<?php addEntry("-", "DOS", "fr", "8e4ee4db46954bfe2912e259a16fad82", "monkey2", "Nicolas Sauz&egrave;de, Andrea Petrucci"); ?>
+		<?php addEntry("CD", "DOS", "it", "69ea626f1f87eecb78ea0d6c6b983a1d", "monkey2", "Andrea Petrucci"); ?>
+		<?php addEntry("Floppy", "DOS", "it", "bd126753de619a495f9f22adc951c8d5", "monkey2", "Andrea Petrucci"); ?>
+		<?php addEntry("-", "DOS", "es", "7974365d3dc0f43a2748c975f91ff042", "monkey2", "Andrea Petrucci"); ?>
+		<?php addEntry("FmTowns", "FmTowns", "en", "da09e666fc8f5b78d7b0ac65d1a3b56e", "monkey2", "dhewg, Andrea Petrucci"); ?>
+		<?php addEntry("FmTowns", "FmTowns", "jp", "430bc518017b6fac046f58bab6baad5d", "monkey2", "Antti Leimi, Andrea Petrucci"); ?>
 		<?php addEntry("Demo (non-interactive)", "DOS", "en", "387a544b8b10b26912d8413bab63a853", "monkey2", "khalek"); ?>
 	<tr><td colspan='7'><strong>Indiana Jones and the Fate of Atlantis</strong></td></tr>
 		<?php addEntry("Talkie", "DOS", "en", "182344899c2e2998fca0bebcd82aa81a", "atlantis"); ?>
 		<?php addEntry("Non-Talkie", "Mac", "en", "d6dd0646404768a63e963891a96daadd", "atlantis"); ?>
-		<?php addEntry("Non-Talkie", "DOS", "en", "c63ee46143ba65f9ce14cf539ca51bd7", "atlantis", "Gino Pilotino"); ?>
+		<?php addEntry("Non-Talkie", "DOS", "en", "c63ee46143ba65f9ce14cf539ca51bd7", "atlantis", "Andrea Petrucci"); ?>
 		<?php addEntry("Non-Talkie", "DOS", "de", "1fbebd7b2b692df5297870447a80cfed", "atlantis"); ?>
-		<?php addEntry("Non-Talkie", "DOS", "fr", "edfdb24a499d92c59f824c52987c0eec", "atlantis", "Nicolas Sauz&egrave;de, Gino Pilotino"); ?>
-		<?php addEntry("Non-Talkie", "DOS", "es", "9bd2a8f72613e715c199246dd511e10f", "atlantis", "abnog, Gino Pilotino"); ?>
+		<?php addEntry("Non-Talkie", "DOS", "fr", "edfdb24a499d92c59f824c52987c0eec", "atlantis", "Nicolas Sauz&egrave;de, Andrea Petrucci"); ?>
+		<?php addEntry("Non-Talkie", "DOS", "es", "9bd2a8f72613e715c199246dd511e10f", "atlantis", "abnog, Andrea Petrucci"); ?>
 		<?php addEntry("Non-Talkie", "DOS", "it", "8f3758ff98c9c5d78e5d635222cad026", "atlantis", "Andrea Petrucci"); ?>
 		<?php addEntry("Non-Talkie", "Amiga", "en", "3a03dab514e4038df192d8a8de469788", "atlantis", "dhewg"); ?>
 		<?php addEntry("Non-Talkie", "Amiga", "de", "4f267a901719623de7dde83e47d5b474", "atlantis", "ghoostkilla"); ?>
-		<?php addEntry("Non-Talkie", "Amiga", "it", "5798972220cd458be2626d54c80f71d7", "atlantis", "Gino Pilotino"); ?>
-		<?php addEntry("FmTowns", "FmTowns", "en", "c7be10f775404fd9785a8b92a06d240c", "indy4", "dhewg, Gino Pilotino"); ?>
-		<?php addEntry("FmTowns", "FmTowns", "jp", "4d34042713958b971cb139fba4658586", "indy4", "Gino Pilotino"); ?>
+		<?php addEntry("Non-Talkie", "Amiga", "it", "5798972220cd458be2626d54c80f71d7", "atlantis", "Andrea Petrucci"); ?>
+		<?php addEntry("FmTowns", "FmTowns", "en", "c7be10f775404fd9785a8b92a06d240c", "indy4", "dhewg, Andrea Petrucci"); ?>
+		<?php addEntry("FmTowns", "FmTowns", "jp", "4d34042713958b971cb139fba4658586", "indy4", "Andrea Petrucci"); ?>
 		<?php addEntry("FmTowns Demo", "FmTowns", "jp", "28d24a33448fab6795850bc9f159a4a2", "indydemo", "khalek"); ?>
 		<?php addEntry("Demo", "DOS", "en", "035deab53b47bc43abc763560d0f8d4b", "playfate"); ?>
 		<?php addEntry("Demo (non-interactive)", "DOS", "en", "99b6f822b0b2612415407865438697d6", "fate"); ?>
 	<tr><td colspan='7'><strong>Day Of The Tentacle</strong></td></tr>
 		<?php addEntry("Floppy Version A ?", "All?", "en", "acad97ab1c6fc2a5b2d98abf6db4a190", "tentacle"); ?>
-		<?php addEntry("Floppy Version B ?", "DOS", "en", "2723fea3dae0cb47768c424b145ae0e7", "tentacle", "Andrej Sinicyn, Gino Pilotino"); ?>
-		<?php addEntry("Floppy", "DOS", "de", "57b0d89af79befe1cabce3bece869e7f", "tentacle", "Andrej Sinicyn, Gino Pilotino"); ?>
-		<?php addEntry("Floppy", "DOS", "fr", "92b078d9d6d9d751da9c26b8b3075779", "tentacle", "Nicolas Sauz&egrave;de, Gino Pilotino"); ?>
-		<?php addEntry("Floppy", "DOS", "it", "50fcdc982a25063b78ad46bf389b8e8d", "tentacle", "Gino Pilotino"); ?>
-		<?php addEntry("Floppy", "DOS", "es", "ae94f110a14ce71fc515d5b648827a8f", "tentacle", "abnog, Gino Pilotino"); ?>
+		<?php addEntry("Floppy Version B ?", "DOS", "en", "2723fea3dae0cb47768c424b145ae0e7", "tentacle", "Andrej Sinicyn, Andrea Petrucci"); ?>
+		<?php addEntry("Floppy", "DOS", "de", "57b0d89af79befe1cabce3bece869e7f", "tentacle", "Andrej Sinicyn, Andrea Petrucci"); ?>
+		<?php addEntry("Floppy", "DOS", "fr", "92b078d9d6d9d751da9c26b8b3075779", "tentacle", "Nicolas Sauz&egrave;de, Andrea Petrucci"); ?>
+		<?php addEntry("Floppy", "DOS", "it", "50fcdc982a25063b78ad46bf389b8e8d", "tentacle", "Andrea Petrucci"); ?>
+		<?php addEntry("Floppy", "DOS", "es", "ae94f110a14ce71fc515d5b648827a8f", "tentacle", "abnog, Andrea Petrucci"); ?>
 		<?php addEntry("Talkie", "All?", "en", "4167a92a1d46baa4f4127d918d561f88", "tentacle"); ?>
 		<?php addEntry("Talkie", "All?", "de", "6e959d65358eedf9b68b81e304b97fa4", "tentacle"); ?>
-		<?php addEntry("Talkie ?", "All?", "fr", "8aa05d3cdb0e795436043f0546af2da2", "tentacle", "Gino Pilotino"); ?>
-		<?php addEntry("Talkie", "All?", "it", "4fbbe9f64b8bc547503a379a301183ce", "tentacle", "Gino Pilotino"); ?>
-		<?php addEntry("Talkie", "All?", "es", "883af4b0af4f77a92f1dcf1d0a283140", "tentacle", "Gino Pilotino"); ?>
+		<?php addEntry("Talkie ?", "All?", "fr", "8aa05d3cdb0e795436043f0546af2da2", "tentacle", "Andrea Petrucci"); ?>
+		<?php addEntry("Talkie", "All?", "it", "4fbbe9f64b8bc547503a379a301183ce", "tentacle", "Andrea Petrucci"); ?>
+		<?php addEntry("Talkie", "All?", "es", "883af4b0af4f77a92f1dcf1d0a283140", "tentacle", "Andrea Petrucci"); ?>
 		<?php addEntry("Demo", "DOS", "en", "c83079157ec765a28de445aec9768d60", "dottdemo"); ?>
 	<tr><td colspan='7'><strong>Sam &amp; Max</strong></td></tr>
-		<?php addEntry("Non-Talkie", "DOS", "en", "a3036878840720fbefa41e6965fa4a0a", "samnmax", "Gino Pilotino"); ?>
-		<?php addEntry("Non-Talkie (alt?)", "DOS", "en", "3b301b7892f883ce42ab4be6a274fea6", "samnmax", "Gino Pilotino"); ?>
-		<?php addEntry("Non-Talkie", "DOS", "de", "f27b1ba0eadaf2a6617b2b58192d1dbf", "samnmax", "dhewg, Gino Pilotino"); ?>
-		<?php addEntry("Non-Talkie", "DOS", "fr", "ef347474f3c7be3b29584eaa133cca05", "samnmax", "Nicolas Sauz&egrave;de, Gino Pilotino"); ?>
-		<?php addEntry("Non-Talkie", "DOS", "it", "b289a2a8cbedbf45786e0b4ad2f510f1", "samnmax", "Gino Pilotino"); ?>
-		<?php addEntry("Non-Talkie", "DOS", "es", "fc53ce0e5f6562b1c1e1b4b8203acafb", "samnmax", "Gino Pilotino"); ?>
+		<?php addEntry("Non-Talkie", "DOS", "en", "a3036878840720fbefa41e6965fa4a0a", "samnmax", "Andrea Petrucci"); ?>
+		<?php addEntry("Non-Talkie (alt?)", "DOS", "en", "3b301b7892f883ce42ab4be6a274fea6", "samnmax", "Andrea Petrucci"); ?>
+		<?php addEntry("Non-Talkie", "DOS", "de", "f27b1ba0eadaf2a6617b2b58192d1dbf", "samnmax", "dhewg, Andrea Petrucci"); ?>
+		<?php addEntry("Non-Talkie", "DOS", "fr", "ef347474f3c7be3b29584eaa133cca05", "samnmax", "Nicolas Sauz&egrave;de, Andrea Petrucci"); ?>
+		<?php addEntry("Non-Talkie", "DOS", "it", "b289a2a8cbedbf45786e0b4ad2f510f1", "samnmax", "Andrea Petrucci"); ?>
+		<?php addEntry("Non-Talkie", "DOS", "es", "fc53ce0e5f6562b1c1e1b4b8203acafb", "samnmax", "Andrea Petrucci"); ?>
 		<?php addEntry("Talkie", "All?", "en", "d917f311a448e3cc7239c31bddb00dd2", "samnmax"); ?>
 		<?php addEntry("Talkie", "All?", "de", "0fb73eddfcf584c02ba097984df131ba", "samnmax"); ?>
-		<?php addEntry("Talkie", "All?", "fr", "7edd665bbede7ea8b7233f8e650be6f8", "samnmax", "Gino Pilotino"); ?>
-		<?php addEntry("Talkie", "All?", "it", "0f6f2e716ba896a44e5059bba1de7ca9", "samnmax", "Gino Pilotino"); ?>
-		<?php addEntry("Talkie", "All?", "es", "4ba7fb331296c283e73d8f5b2096e551", "samnmax", "Gino Pilotino"); ?>
+		<?php addEntry("Talkie", "All?", "fr", "7edd665bbede7ea8b7233f8e650be6f8", "samnmax", "Andrea Petrucci"); ?>
+		<?php addEntry("Talkie", "All?", "it", "0f6f2e716ba896a44e5059bba1de7ca9", "samnmax", "Andrea Petrucci"); ?>
+		<?php addEntry("Talkie", "All?", "es", "4ba7fb331296c283e73d8f5b2096e551", "samnmax", "Andrea Petrucci"); ?>
 		<?php addEntry("Demo", "DOS", "en", "d9d0dd93d16ab4dec55cabc2b86bbd17", "samdemo"); ?>
 		<?php addEntry("Demo", "Mac", "en", "0425954a9db5c340861672892c3e678d", "samdemo"); ?>
 		<?php addEntry("interactive Demo", "DOS", "en", "c3196c5349e53e387aaff1533d95e53a", "snmdemo"); ?>
