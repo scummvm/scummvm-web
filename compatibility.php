@@ -111,9 +111,8 @@ $notes = array(
 "samdemo"	=> "No known problems - should be playable to the end",
 "ft"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
                    "<br>- Lack of INSANE subsystem prevents action sequences, which are needed to complete the game".
-                   "<br>- No in-game music, and some animations are missing",
+                   "<br>- Some animations are missing",
 "dig"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
-                   "<br>- iMUSE issues cause some hangs/crashes".
                    "<br>- Room graphical glitches prevent completing the game".
                    "<br>- Some rooms may cause actor to become 'stuck'",
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
