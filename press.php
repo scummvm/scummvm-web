@@ -70,6 +70,10 @@ echo html_round_frame_start("Press","98%","",20);
 	<p><a href="http://slashdot.org/article.pl?sid=02/06/26/1312251"
 	   ><b>Lucas Confuses ScummVM With Abandonware</b></a>, Slashdot, June 26, 2002
 	</p>
+	
+	<p>a href="http://www.pcdemano.com/sections.php?op=viewarticle&artid=151"
+	   ><b>Revisión de PocketScumm Build 0.2.0</b></a> (Spanish), PC demano, March 2002
+	</p>
 
 	<p><a href="http://slashdot.org/article.pl?sid=01/11/03/1429247"
 	   ><b>Linux SCUMM Interpreter</b></a>, Slashdot, November 3, 2001
