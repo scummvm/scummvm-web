@@ -36,8 +36,6 @@ Easy way to reproduce (although it happens everywhere), start ComI with -d0 -b60
 	<ul>
 		<li>Some text does not undraw correctly, again leaving behind artifacts (eg, conversation text, credits)
 		<li>Masking artifacts. See many animations, eg during insult sword fighting
-		<li>When specifying any non english language ie using -q de with any version of comi, ScummVM seems to segfault
-		in drawBitmap shortly after the intro.
 	</ul>
 <li>Conversation:
 	<ul>
