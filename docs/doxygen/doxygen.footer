@@ -1,8 +1,10 @@
 <!-- BEGIN OF FOOTER -->
-<?
+<div align="right"><small><em>
+Last updated:
+<?php echo gmdate("Y-m-d H:i T",filemtime($PATH_TRANSLATED)); ?>
+</em></small></div>
+<?php
 echo html_round_frame_end("&nbsp;");
-
-// end of html
 echo html_p();
 sidebar_end();
 html_footer();
