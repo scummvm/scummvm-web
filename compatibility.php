@@ -187,7 +187,7 @@ $notes = array(
 		   "<br>- talkie data not synced/properly implemented",
 "funpack"	=> "Starts but mini games seem to have various problems".
 		   "<br>- Checkers: o6_actorOps: default case 218".
-		   "<br>- Puzzle blocks/Pinball/Remember/Cheese King/Tic-Tac-Toe: Works but colour isn't set properly so game is black and white".
+		   "<br>- Puzzle blocks/Pinball/Remember/Cheese King/Tic-Tac-Toe: Works".
 		   "<br>- Talkie data not synced/properly implemented",
 "fbdemo"	=> "Should be playable to the end".
 		   "<br>- Talkie data not synced/properly implemented",
@@ -195,7 +195,8 @@ $notes = array(
 		   "<br>- Talkie data not synced/properly implemented",
 "fbpack"	=> "Game starts but various minigames have different problems".
 		   "<br>- Reversi/Go Fish/Lines and Boxes: o6_actorOps: default case 218".
-		   "<br>- Coloring/Tangrams: Error(6:209:0x40D5): Invalid opcode 'db' (readFile)".
+		   "<br>- Coloring: Painting has no effect".
+		   "<br>- Tangrams: Error(5:210:0x9BA2): Invalid opcode 'e9' (seekFile)".
 		   "<br>- talkie data not synced/properly implemented",
 "tentacle"	=> "No known problems - should be playable to the end".
 		   "<br>- Both Mac and PC versions supported by this target".
