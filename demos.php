@@ -46,20 +46,20 @@ $demos = array(
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Loomdemo.zip', 'loom'),
 	'Passport to Adventure (playable 16 colour demos of mi, loom, indy3)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Sampler.zip', 'pass'),
-	'Indy3 & Loom (non interactive FM Towns demo)*'
-		=> array('http://files.mixnmojo.com/indyloom.zip', 'zak256'),
-	'Indy3 & Zak256 (non interactive FM Towns demo)*'
-		=>array('http://files.mixnmojo.com/indyzak.zip', 'zak256'),
-	'Zak256 & Loom (non interactive Fm Towns demo)*'
-		=>array('http://files.mixnmojo.com/zakloom.zip', 'zak256'),
+	'Indy3 & Loom (non interactive FM Towns demo)'
+		=> array('http://www.cowlark.com/scumm.dat/indyloom.zip', 'zak256'),
+	'Indy3 & Zak256 (non interactive FM Towns demo)'
+		=>array('http://www.cowlark.com/scumm.dat/indyzak.zip', 'zak256'),
+	'Zak256 & Loom (non interactive Fm Towns demo)'
+		=>array('http://www.cowlark.com/scumm.dat/zakloom.zip', 'zak256'),
 	'Monkey Island 2 (non interactive demo)'
 		=> array('http://www.cowlark.com/scumm.dat/mi2demo.zip', 'mi2demo'),
 	'Indiana Jones and the Fate of Atlantis (playable)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Playfate.zip', 'playfate'),
 	'Indiana Jones and the Fate of Atlantis (non interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/fate.zip', 'fate'),
-	'Indiana Jones and the Fate of Atlantis (non interactive FM Towns)*'
-		=> array('http://files.mixnmojo.com/indy4demo.zip', 'indydemo'),
+	'Indiana Jones and the Fate of Atlantis (non interactive FM Towns)'
+		=> array('http://www.cowlark.com/scumm.dat/indy4demo.zip', 'indydemo'),
 	'Sam and Max Hit the Road (non interacive)'
 		=> array('http://www.cowlark.com/scumm.dat/samdemo.zip', 'samdemo'),
 	'Sam and Max Hit the Road (interacive)'
@@ -67,11 +67,11 @@ $demos = array(
 	'Sam and Max Hit the Road WIP (interacive)'
 		=> array('http://www.cowlark.com/scumm.dat/snmidemo.zip', 'snmidemo'),
 	'Putt-Putt Joins the Parade (DOS demo)'
-		=> array('http://quick.mixnmojo.com/demos/puttpara.zip', 'puttdemo'),
-	'Putt-Putt Goes to the Moon (DOS demo)*'
-		=> array('http://files.mixnmojo.com/moondemo.zip', 'moondemo'),
+		=> array('http://www.cowlark.com/scumm.dat/puttpara.zip', 'puttdemo'),
+	'Putt-Putt Goes to the Moon (DOS demo)'
+		=> array('http://www.cowlark.com/scumm.dat/moondemo.zip', 'moondemo'),
 	'Fatty Bear\'s Birthday Surprise (DOS demo)'
-		=> array('http://quick.mixnmojo.com/demos/fbemo.zip', 'fbdemo'),
+		=> array('http://www.cowlark.com/scumm.dat/fatdemo.zip', 'fbdemo'),
 	'Day of the Tentacle (non interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Dottdemo.zip', 'dottdemo'),
 	'Full Throttle'
