@@ -1,5 +1,5 @@
 <!-- BEGIN OF HEADER -->
-<?
+<?php
 $file_root = "../../..";
 
 // load libraries

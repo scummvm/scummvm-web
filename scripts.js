@@ -5,7 +5,7 @@ function openWin(fileToOpen,nameOfWindow,width,height) {
 	myWindow.document.write('<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">\n')
 	myWindow.document.write('<html><head><title>ScreenShot Viewer</title></head>')
 	myWindow.document.write('<body topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">');
-	myWindow.document.write('<a href="javascript:self.close();"><img src="'+ fileToOpen +'" border=0></a>');
+	myWindow.document.write('<a href="javascript:self.close();"><img src="'+ fileToOpen +'"></a>');
 	myWindow.document.write('</body></html>');
 	myWindow.document.close();
 }

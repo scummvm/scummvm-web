@@ -154,9 +154,9 @@ function html_round_frame_start ($title = "", $width = "", $extra = "", $innerPa
     if($title) {
 	$str .= '<tr><td class="topMenu">'."\n";
 	$str .= '    <table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
-	$str .= '	 <td valign=top align=left><img src="'.$file_root.'/images/main_left_top.gif" border="0" alt="-"></td>'."\n";
+	$str .= '	 <td valign=top align=left><img src="'.$file_root.'/images/main_left_top.gif" alt="-"></td>'."\n";
 	$str .= '	 <td width="100%" align="center"><span class="menuTitle"> '.$title.' </span></td>'."\n";
-	$str .= '	 <td valign=top align="right"><img src="'.$file_root.'/images/main_right_top.gif" border="0" alt="-"></td>'."\n";
+	$str .= '	 <td valign=top align="right"><img src="'.$file_root.'/images/main_right_top.gif" alt="-"></td>'."\n";
 	$str .= '    </tr></table>'."\n";
 	$str .= '</td></tr>'."\n";
     }
@@ -175,9 +175,9 @@ function html_round_frame_end ($text = "")
     {
 	$str .= '<tr><td class="topMenu">'."\n";
 	$str .= '    <table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
-	$str .= '	 <td valign=bottom align=left><img src="'.$file_root.'/images/main_left_bottom.gif" border="0" alt="-"></td>'."\n";
+	$str .= '	 <td valign=bottom align=left><img src="'.$file_root.'/images/main_left_bottom.gif" alt="-"></td>'."\n";
 	$str .= '	 <td width="100%" align="center"><span class="menuTitle"> '.$text.' </span></td>'."\n";
-	$str .= '	 <td valign=bottom align="right"><img src="'.$file_root.'/images/main_right_bottom.gif" border="0" alt="-"></td>'."\n";
+	$str .= '	 <td valign=bottom align="right"><img src="'.$file_root.'/images/main_right_bottom.gif" alt="-"></td>'."\n";
 	$str .= '    </tr></table>'."\n";
 	$str .= '</td></tr>'."\n";
     }
@@ -393,21 +393,21 @@ function html_header ($title, $extra = "")
 	<meta name="author" content="Jeremy Newman <jnewman at dracowulf.com>">
 	<link rel="stylesheet" href="<?=$file_root?>/styles.css" type="text/css">
 	<?=$extra?>
-	<script language="JavaScript" src="<?=$file_root?>/scripts.js" type="text/javascript"></script>
+	<script src="<?=$file_root?>/scripts.js" type="text/javascript"></script>
 </head>
 
-<body bgcolor="#6699CC" text="#000000">
+<body>
 
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
 <tr>
     <td style="background-image:url(<?=$file_root?>/images/scummvm_top_tile.png)">
 	<table width="100%" border="0" cellpadding="0" cellspacing="0">
 	<tr>
-	    <td><img src="<?=$file_root?>/images/scummvm_logo.png" border="0" width="407" height="111" alt="ScummVM"></td>
+	    <td><img src="<?=$file_root?>/images/scummvm_logo.png"  width="407" height="111" alt="ScummVM"></td>
 	    <td width="100%">
 		&nbsp;
 	    </td>
-	    <td><img src="<?=$file_root?>/images/scummvm_chars.png" width="193" height="111" border="0" alt="-"></td>
+	    <td><img src="<?=$file_root?>/images/scummvm_chars.png" width="193" height="111"  alt="-"></td>
 	</tr>
 	</table>
     </td>

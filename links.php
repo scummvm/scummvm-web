@@ -310,9 +310,9 @@ GUI frontends for ScummVM.
 	</blockquote>
     
 
-	<div align=center>
-	<table width=300 border=0><tr><td>
-	  <img src="images/scummvm-link.png" border=0 width=88 height=31 alt="ScummVM" align=left>
+	<div align="center">
+	<table width="300" border="0"><tr><td>
+	  <img src="images/scummvm-link.png" width="88" height="31" alt="ScummVM" align="left">
 	  <b>Link to us:</b><br>
 	  If you want to link your site to us. Please feel free to use this image.
 	</td></tr></table>

@@ -35,7 +35,7 @@ function sidebar_start ()
 
 	$g->add("Project Home", "http://sourceforge.net/projects/scummvm/");
 	$g->add("Forums", "http://sourceforge.net/forum/?group_id=37116");
-	$g->add("Bug Tracking", "http://sourceforge.net/tracker/?group_id=37116&atid=418820");
+	$g->add("Bug Tracking", "http://sourceforge.net/tracker/?group_id=37116&amp;atid=418820");
 	$g->add("Daily Snapshots", "/daily/");
 	$g->add("CVS Tree", "http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/");
 
@@ -49,7 +49,7 @@ function sidebar_start ()
 	$g->add("Credits", $file_root."/credits.php");
 	$g->add("Contact", $file_root."/contact.php");
 
-	$g->done("",'<img src="'.$file_root.'/images/hangmonk.gif" border=0 alt="monkey">');
+	$g->done('<img src="'.$file_root.'/images/hangmonk.gif" alt="monkey">');
  
 ?>
 	<p>&nbsp;</p>
@@ -63,7 +63,7 @@ function sidebar_start ()
 	
 	<p align="center">
 	  <a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=37116"
-	  width="88" height="31" border="0" alt="SourceForge"></a>
+	  width="88" height="31" alt="SourceForge"></a>
 	</p>
 
 </td>
