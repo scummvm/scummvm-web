@@ -23,7 +23,44 @@ echo html_round_frame_start("Links","98%","",20);
 	  <big><b>Links</b></big><br>
 	  <? echo html_line(); ?>
 	</p>
+	
+	<b>Official ports</b><? echo html_line(); ?>
+	<p>Some additional links for ports that have been merged into our CVS</p>
 
+	<blockquote>
+	<table border=0 cellpadding=5 cellspacing=0>
+
+	  <tr><td><a href="http://arisme.free.fr/PocketScumm/index.php"><b>PocketScumm port</b></a></td></tr>
+	  <tr>
+	    <td><blockquote>
+	    Information about the PocketScumm port.
+	    </blockquote></td>
+	  </tr>
+
+	  <tr><td><a href="http://forums.pocketmatrix.com/viewforum.php?f=20"><b>PocketScumm forum</b></a></td></tr>
+	  <tr>
+	    <td><blockquote>
+	    For help and discussion relating to PocketScumm.
+	    </blockquote></td>
+	  </tr>
+
+	  <tr><td><a href="http://capers.free.fr/ScummVM/index.php"><b>PalmOS port</b></a></td></tr>
+	  <tr>
+	    <td><blockquote>
+	    News and information about the PalmOS port.
+	    </blockquote></td>
+	  </tr>
+
+	  <tr><td><a href="http://people.inf.elte.hu/ph0x/gpscumm/"><b>GP32 port</b></a></td></tr>
+	  <tr>
+	    <td><blockquote>
+	    Information about the GP32 port.
+	    </blockquote></td>
+	  </tr>
+
+	</table>
+	</blockquote>
+	
 	<b>Unofficial ports</b><? echo html_line(); ?>
 	<p>There are a few unofficial ports of ScummVM floating around. Usually we prefer to merge any ports into our official
 	CVS, but for the following this has not (yet) happend for various reasons. Note that the ScummVM team does not endorse
