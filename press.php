@@ -63,7 +63,7 @@ echo html_round_frame_start("Press Coverage","");
 	</p>
 
 	<p><a href="http://207.44.176.77/~admin28/zodiacgamer/articles/scummvm.htm"
-	   ><b>Chrilith's ScummVM Zodiac Port WIP</b></a>, Zodiac Gamer, Sepetember 20, 2003
+	   ><b>Chrilith's ScummVM Zodiac Port WIP</b></a>, Zodiac Gamer, September 20, 2003
 	</p>
 
 	<p><a href="http://linux.oreillynet.com/pub/a/linux/2003/08/21/scummvm.html"
