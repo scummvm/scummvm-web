@@ -112,23 +112,24 @@ $games = array(
 $notes = array(
 "maniac"	=> "Enhanced PC version is completable, with several minor glitches".
 		   "<br>Classic version should be completable, with several glitches".
-		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
+		   "<br>- Amiga (Use Amiga option), Atari ST, Mac and PC versions supported by this target".
 		   "<br>- Actor masking is broken in Classic PC version".
 		   "<br>- Various graphical glitches in Classic PC version".
 		   "<br>- No music or sound effects with Amiga version",
 "zak"		=> "Enhanced PC version is completable, with several minor glitches".
 		   "<br>Classic version still in progress, results may vary".
-		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
+		   "<br>- Amiga (Use Amiga option), Atari ST and PC versions supported by this target".
 		   "<br>- Actor masking is broken in Classic PC version".
 		   "<br>- Various graphical glitches in Classic PC version".
 		   "<br>- No music or sound effects with Amiga version",
 "indy3ega"	=> "Game is completable".
-		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
+		   "<br>- Amiga (Use Amiga option), Atari ST, Mac and PC versions supported by this target".
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
 		   "<br>- Mac version crashes".
 		   "<br>- Various minor graphical glitches".
 		   "<br>- No music or sound effects looping with Amiga version".
-		   "<br>- No music or sound effects with Mac version",
+		   "<br>- No music or sound effects with Mac version".
+		   "<br>- Atari ST verion requires pcjr or pcspk music driver",
 "indy3"         => "Game is completable".
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
 		   "<br>- Various minor graphical glitches",
@@ -141,11 +142,12 @@ $notes = array(
 		   "<br>- Euphony tunes not yet supported so kazoo won't be heard".
                    "<br>- Kanji version isn't yet supported",
 "loom"		=> "Game is completable".
-		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
+		   "<br>- Amiga (Use Amiga option), Atari ST, Mac and PC versions supported by this target".
                    "<br>- Various minor graphical glitches".
 		   "<br>- Mac version crashes after copy protection screen".
 		   "<br>- No music or sound effects looping with Amiga version".
-		   "<br>- No music or sound effects with Mac version",
+		   "<br>- No music or sound effects with Mac version".
+		   "<br>- Atari ST verion requires pcjr or pcspk music driver",
 "loomtowns"	=> "Game is completable".
 		   "<br>- Fades are seemingly different to other versions in some cases".
 		   "<br>- Text palette sometimes incorrect".
