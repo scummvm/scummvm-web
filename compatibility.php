@@ -78,6 +78,7 @@ $games = array(
 		'Monkey Island 2: LeChuck\'s revenge'			=> array('5','monkey2','95'),
 		'Monkey Island 2: LeChuck\'s revenge (DOS Demo)'	=> array('5','mi2demo','10'),
 		'Indiana Jones 4 and the Fate of Atlantis'		=> array('5','atlantis','95'),
+		'Indiana Jones 4 and the Fate of Atlantis (FmTowns)'	=> array('5','indy4','95'),
 		'Indiana Jones 4 and the Fate of Atlantis (Demo)'	=> array('5','playfate','95'),
 		'Putt-Putt Joins The Parade (Demo)'			=> array('6','puttdemo','95'),
 		'Putt-Putt Joins The Parade'				=> array('6','puttputt','80'),
@@ -158,8 +159,10 @@ $notes = array(
 "mi2demo"	=> "Often crashes due to missing resources, since it was never meant to be playable".
 		   "<br>- No support for playing back the recorded file of gameplay",
 "atlantis"	=> "No known issues, game is completable.".
-		   "<br>- Amiga, FM Towns, Mac and PC versions supported by this target".
+		   "<br>- Amiga, Mac and PC versions supported by this target".
 		   "<br>- Both disk and cd PC versions are supported by this target".
+		   "<br>- Music loud on some systems, run with -m30 to lower music volume.",
+"indy4"		=> "No known issues, game is completable.".
 		   "<br>- Music loud on some systems, run with -m30 to lower music volume.".
                    "<br>- Kanji version requires the FM Towns Font ROM",
 "playfate"	=> "No known issues, game is completable.",
