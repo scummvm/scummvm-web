@@ -30,7 +30,7 @@ names and amounts are usually not listed.<br><br>
 
 If you wish to donate money, you may do so using the PayPal service by clicking the button
 underneath the left menu. We also welcome other forms of donations - if you have something
-you wish to contribute then please feel free to contact us via e-mail (donate @ scummvm dot
+you wish to contribute then please feel free to contact us via e-mail (donate @ scummvm dit
 org). All amounts are expressed in USD.
 <BR><BR>
 </td></tr>
