@@ -282,7 +282,7 @@
 		<?php addEntry("Demo", "Windows", "en", "fbdd947d21e8f5bac6d6f7a316af1c5a", "spydemo"); ?>
 		<?php addEntry("Demo", "Windows", "en", "9d4ab3e0e1d1ebc6ba8a6a4c470ed184", "spydemo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Spy Fox 2: Some Assembly Required</strong></td></tr>
-		<?php addEntry("-", "Windows", "en", "f79e60c17cca601e411f1f75e8ee9b5a", "spyfox2 Kirben"); ?>
-		<?php addEntry("Demo", "Windows", "en", "7222f260253f325c21fcfa68b5bfab67", "sf2-demo Kirben"); ?>
+		<?php addEntry("-", "Windows", "en", "f79e60c17cca601e411f1f75e8ee9b5a", "spyfox2", "Kirben"); ?>
+		<?php addEntry("Demo", "Windows", "en", "7222f260253f325c21fcfa68b5bfab67", "sf2-demo", "Kirben"); ?>
 	<tr><td colspan='7'><strong>Spy Fox 3: Operation Ozone</strong></td></tr>
 		<?php addEntry("-", "Windows", "en", "600abd3e9f47e63e670188b7e4e86ac7", "spyozon", "Kirben"); ?>
