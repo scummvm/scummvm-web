@@ -179,7 +179,10 @@ $notes = array(
 "dig"		=> "Game is fully completable, with some minor sound issues",
 "comi"		=> "Game is fully completable, although ship-to-ship is broken and several graphical glitches are present",
 "sky"	 	=> "Game is completable".
-		   "<br>- There may be bugs. Or it may work perfectly. Who am I to say.",
+		   "<br>- Game often plays wrong sound effects",
+		   "<br>- Restarting isn't yet implemented",
+		   "<br>- Floppy demo isn't working at all",
+		   "<br><br>- Wasn't tested on big endian systems, yet",
 "simon1win" 	=> "Game is completable.".
                    "<br>- Minor graphical glitches when using ring".
                    "<br>- Minor graphical glitch with Sordid statue after leaving room",
