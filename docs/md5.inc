@@ -36,10 +36,10 @@
 		<?php addEntry("EGA (1.0 7/09/89)", "DOS", "en", "5fbe557049892eb4b709d90916ec97ca", "indy3EGA"); ?>
 		<?php addEntry("EGA (1.3 8/14/89)", "DOS", "en", "6b3ec67da214f558dc5ceaa2acd47453", "indy3EGA", "tsuteiuQ, Andrea Petrucci"); ?>
 		<?php addEntry("EGA", "DOS", "de", "6f6ef668c608c7f534fea6e6d3878dde", "indy3EGA", "dhewg"); ?>
-		<?php addEntry("EGA", "DOS", "fr", "66236cd1aec24e1d4aff4c4cc93b7e18 ", "indy3EGA", "Andrea Petrucci"); ?>
-		<?php addEntry("EGA", "DOS", "it", "d62d248c3df6ec177405e2cb23d923b2 ", "indy3EGA", "Andrea Petrucci"); ?>
-		<?php addEntry("EGA", "DOS", "es", "ce7fd0c382389a6791fc3e199c117ef4 ", "indy3EGA", "abnog"); ?>
-		<?php addEntry("EGA (alt?)", "DOS", "es", "86be8ada36371d4fdc35659d0e912a26 ", "indy3EGA", "Andrea Petrucci"); ?>
+		<?php addEntry("EGA", "DOS", "fr", "66236cd1aec24e1d4aff4c4cc93b7e18", "indy3EGA", "Andrea Petrucci"); ?>
+		<?php addEntry("EGA", "DOS", "it", "d62d248c3df6ec177405e2cb23d923b2", "indy3EGA", "Andrea Petrucci"); ?>
+		<?php addEntry("EGA", "DOS", "es", "ce7fd0c382389a6791fc3e199c117ef4", "indy3EGA", "abnog"); ?>
+		<?php addEntry("EGA (alt?)", "DOS", "es", "86be8ada36371d4fdc35659d0e912a26", "indy3EGA", "Andrea Petrucci"); ?>
 		<?php addEntry("EGA", "Mac", "en", "1dd7aa088e09f96d06818aa9a9deabe0", "indy3EGA"); ?>
 		<?php addEntry("EGA", "Amiga", "en", "9c0fee288ad564a7d25ec3e841810d79", "indy3EGA", "dhewg"); ?>
 		<?php addEntry("EGA", "Amiga", "de", "330f631502e381a4e199a3f7cb483c20", "indy3EGA", "dhewg"); ?>
@@ -228,7 +228,7 @@
 		<?php addEntry("Demo", "Mac", "en", "6df20c50c1ab19799de9be7ae7716881", "TODO", "khalek"); ?>
 		<?php addEntry("-", "DOS", "en", "3824e60cdf639d22f6df92a03dc4b131", "fbear", "khalek"); ?>
 		<?php addEntry("-", "Windows", "en", "179879b6e35c1ead0d93aab26db0951b", "fbear", "khalek"); ?>
-		<?php addEntry("-", "Mac", "en", "df6ead57930488bc61e6e41901d0e97", "fbear", "khalek"); ?>
+		<?php addEntry("-", "Mac", "en", "3df6ead57930488bc61e6e41901d0e97", "fbear", "khalek"); ?>
 	<tr><td colspan='7'><strong>Fatty Bears Fun Pack</strong></td></tr>
 		<?php addEntry("-", "DOS", "hb", "f06e66fd45b2f8b0f4a2833ff4476050", "fbpack"); ?>
 	<tr><td colspan='7'><strong>Backyard Baseball 2001 </strong></td></tr>
