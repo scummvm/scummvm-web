@@ -1,0 +1,146 @@
+<name>ScummVM 0.7.0 Checklist</name>
+<desc>This page is the current checklist for releasing 0.7.0/desc>
+<body>
+<?php
+function printStatus($status) {
+	if ($status == 0) {
+		$color = "yellow";
+		$text = "?";
+	} else if ($status > 0) {
+		$color = "green";
+		$text = "+";
+	} else {
+		$color = "red";
+		$text = "-";
+	}
+	echo "<td style=\"background-color: $color; text-align: center; font-weight: bold;\">$text</td>";
+}
+
+function portStatus($ports) {
+	printStatus($ports["Win32"]);
+	printStatus($ports["Linux"]);
+	printStatus($ports["Mac"]);
+	printStatus($ports["WinCE"]);
+	printStatus($ports["Palm"]);
+	printStatus($ports["DC"]);
+}
+?>
+
+	<h1>0.7.0 Checklist</h1>
+
+	<h2>Introduction</h2>
+	<p>
+	This is the test list for ScummVM 0.7.0, targeted for release on Christmas 2004.
+	To achieve this release goal, we have to do tests with all our support games, on as
+	many different systems as possible. Everybody (including <em>you</em>, dear reader)
+	is welcomed and encouraged to participate in this process.
+	</p>
+	
+	<p>In particular, we need people who play through all the games listed below, and
+	then tell us the results. If you run into problems, tell us; if everything works fine, tell
+	us. Just be sure to also include the precise build of ScummVM you used, on what OS you
+	were running, which game you were playing (obviously ;-), and any other info you 
+	may deem useful.
+	</p>
+
+	<p>
+	Please file bug reports for any not yet reported bug you encounter during
+	your testing. If you believe the bug is critical, state so in your bug
+	submission.
+	Reports of successful completion should be posted to the scummvm-devel
+	mailing list or our forums. Make sure you include the date of the CVS
+	version you used to test and the operating system you used.
+	</p>
+	
+	<p>
+	Please do all tests with binaries built from latest CVS, or the source
+	snapshots/daily builds from the <a href="downloads.php">download page</a>.
+	</p>
+	
+
+	<h2>Release critical bugs</h2>
+	<ul>
+	<li>Currently there are no release critical bugs open
+	</ul>
+
+	<h2>Testing results</h2>
+	<p>
+	The following games need to be tested with the latest CVS snapshots:
+	</p>
+
+	<h2>Testing results</h2>
+	<p>
+	The following table lists the results of the current testing phase. For each game, there is
+	a row in this table, and for each of our main operating systems, there is a row.
+	Where they intersect, you'll either see a + (if the game was tested successfully on that OS),
+	a - (if there were problems), or a ? (if no test has been performed yet in this combination).
+	</p>
+
+<table border="1" cellspacing="0" width="100%">
+<tr>
+ <th>GameID</th><th>Last Test</th><th>Critical Bugs</th>
+ <th>Win32</th><th>Linux</th><th>Mac</th><th>WinCE</th><th>Palm</th><th>DC</th>
+</tr>
+
+<tr><th colspan="9">SCUMM Engine</th></tr>
+<tr><td>Maniac (V1)</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>Zak (V1)</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>Maniac (V2)</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>Zak (V2)</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>Zak FM-TOWNS</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>Indy3 (EGA)</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>Indy3 (VGA)</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>Loom (EGA)</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>Loom (CD)</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>Monkey (EGA)</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>Monkey (VGA)</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>Atlantis</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>Monkey 2</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>Tentacle</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>Samnmax</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>Full Throttle</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>The Dig</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>CoMI</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+
+<tr><th colspan="9">Simon Engine</th></tr>
+<tr><td>Simon1 (talkie)</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>Simon2 (talkie)</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>Simon1 (floppy)</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>Simon2 (floppy)</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+
+<tr><th colspan="9">Other Engines</th></tr>
+<tr><td>Sky (Floppy)</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>Sky (CD)</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>Broken Sword 1</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>Broken Sword 2</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+<tr><td>FOTAQ</td><td>NONE</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0)); ?></tr>
+
+</table>
+</body>
