@@ -114,19 +114,19 @@ $games = array(
 $notes = array(
 "maniac"	=> "Enhanced PC version is completable, with several minor glitches".
 		   "<br>Classic version is completable, with several minor glitches".
-		   "<br>- Amiga (Use Amiga option), Atari ST, Mac and PC versions supported by this target".
+		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
 		   "<br>- Actors sometimes cause minor graphical glitches in Classic PC version".
 		   "<br>- The last 8 lines of room graphics are sometimes cut off when changing rooms in Classic PC version".
 		   "<br>- No music and some sound effects missing with Amiga version",
 "zak"		=> "Enhanced PC version is completable, with several minor glitches".
 		   "<br>Classic version is completable, with several minor glitches".
-		   "<br>- Amiga (Use Amiga option), Atari ST and PC versions supported by this target".
+		   "<br>- Amiga, Atari ST and PC versions supported by this target".
 		   "<br>- Actors sometimes cause minor graphical glitches in Classic PC version".
 		   "<br>- No music and some sound effects missing with Amiga version",
 "indy3ega"	=> "Game is completable".
-		   "<br>- Amiga (Use Amiga option), Atari ST, Mac and PC versions supported by this target".
-		   "<br>- Mac version crashes in first room".
+		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
+		   "<br>- No inventory in Mac version".
 		   "<br>- No music with Amiga version".
 		   "<br>- Atari ST and Mac verions require pcjr or pcspk music driver",
 "indy3"         => "Game is completable".
@@ -139,7 +139,7 @@ $notes = array(
 		   "<br>- FM based Euphony tunes not yet supported so kazoo won't be heard".
                    "<br>- Kanji version isn't supported yet",
 "loom"		=> "Game is completable".
-		   "<br>- Amiga (Use Amiga option), Atari ST, Mac and PC versions supported by this target".
+		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
 		   "<br>- Mac version crashes after copy protection screen".
                    "<br>- Various minor graphical glitches".
 		   "<br>- No music with Amiga version".
@@ -165,7 +165,7 @@ $notes = array(
 "loomcd"        => "Game is completable.".
                    "<br>- Various minor graphical glitches",
 "monkeyvga"	=> "Game is completable.".
-		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
+		   "<br>- Both Amiga and PC versions supported by this target".
 		   "<br>- No music with Amiga version",
 "monkey"	=> "No known problems - should be playable to the end",
 "monkey1"	=> "No known problems - should be playable to the end".
@@ -174,12 +174,12 @@ $notes = array(
 "game"		=> "No known problems - should be playable to the end".
 		   "<br>- No sound effects",
 "monkey2"	=> "No known problems - should be playable to the end".
-		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
+		   "<br>- Amiga, Mac and PC versions supported by this target".
 		   "<br>- Various graphical glitches with Amiga version",
 "mi2demo"	=> "Often crashes due to missing resources, since it was never meant to be playable".
 		   "<br>- No support for playing back the recorded file of gameplay",
 "atlantis"	=> "No known problems - should be playable to the end".
-		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
+		   "<br>- Amiga, Mac and PC versions supported by this target".
 		   "<br>- Both disk and cd PC versions are supported by this target".
 		   "<br>- Music loud on some systems, run with -m30 to lower music volume.".
 		   "<br>- Various graphical glitches with Amiga version",
