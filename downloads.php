@@ -109,7 +109,16 @@ packs, can also be found below.
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes.zip?download">Broken Sword 1 Cutscene Pack</a> <small>(31.2M)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_Cutscenes.zip?download">Broken Sword 2 Cutscene Pack</a> <small>(27.8M)</small></li>
 	</ul>
-
+	<p>
+	<i>Having trouble downloading Flight of the Amazon Queen?</i>
+	Sourceforge has been experiencing some downloading problems with certain mirrors 
+lately. So, if you are having problems, try the following non-SourceForge mirror - kindly 
+hosted by <a href="http://www.mthN.de">Snoke Media and Tech Hosting Network</a>!
+	</p>
+	<ul>
+	 <li><a href="http://mikemth.de:1337/modules.php?name=Downloads&d_op=getit&lid=826">Flight of the Amazon Queen, Freeware CD Version</a> <small>(34.8M)</small></li>
+	 <li><a href="http://mikemth.de:1337/modules.php?name=Downloads&d_op=getit&lid=827">Flight of the Amazon Queen, Freeware Floppy Version</a> <small>(6.7M)</small></li>
+	</ul>
 	<hr>
 	<A NAME="CVS">
 	<p>
