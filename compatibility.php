@@ -208,7 +208,7 @@ $notes = array(
 );
 		
 // render the compatibility chart
-echo html_frame_start("Scumm Games Compatibility Chart","90%",2,1,"color4");
+echo html_frame_start("Game Compatibility Chart","90%",2,1,"color4");
 echo html_frame_tr(
 		   html_frame_td("Game Full Name").
 		   html_frame_td("Scumm Ver.").
