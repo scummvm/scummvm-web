@@ -79,13 +79,13 @@ $games = array(
 		'Monkey Island 2: LeChuck\'s revenge (DOS Demo)'	=> array('5','mi2demo','10'),
 		'Indiana Jones 4 and the Fate of Atlantis'		=> array('5','atlantis','95'),
 		'Indiana Jones 4 and the Fate of Atlantis (Demo)'	=> array('5','playfate','95'),
-		'Putt-Putt Joins The Parade (DOS Demo)'			=> array('6','puttdemo','95'),
-		'Putt-Putt Joins The Parade (DOS)'			=> array('6','puttputt','80'),
-		'Putt-Putt Goes To The Moon (DOS Demo)'			=> array('6','moondemo','60'),
-		'Putt-Putt Goes To The Moon (DOS)'			=> array('6','puttmoon','20'),
+		'Putt-Putt Joins The Parade (Demo)'			=> array('6','puttdemo','95'),
+		'Putt-Putt Joins The Parade'				=> array('6','puttputt','80'),
+		'Putt-Putt Goes To The Moon ( Demo)'			=> array('6','moondemo','60'),
+		'Putt-Putt Goes To The Moon'				=> array('6','puttmoon','20'),
 		'Putt-Putts Fun Pack'					=> array('6','funpack','50'),
-		'Fatty Bears Birthday Surprise (DOS Demo)'		=> array('6','fbdemo','95'),
-		'Fatty Bears Birthday Surprise (DOS)'			=> array('6','fbear','80'),
+		'Fatty Bears Birthday Surprise (Demo)'			=> array('6','fbdemo','95'),
+		'Fatty Bears Birthday Surprise'				=> array('6','fbear','80'),
 		'Fatty Bears Fun Pack'					=> array('6','fbpack','50'),
 		'Day Of The Tentacle'					=> array('6','tentacle','95'),
 		'Day Of The Tentacle (Demo)'				=> array('6','dottdemo','95'),
@@ -169,20 +169,38 @@ $notes = array(
 		   "<br>- Various graphical glitches with Amiga version".
                    "<br>- Kanji version requires the FM Towns Font ROM",
 "playfate"	=> "No known issues, game is completable.",
-"puttdemo"	=> "No known issues, game is completable.",
+"puttdemo"	=> "No known issues, game is completable.".
+		   "<br>- Both DOS and Windows versions supported by this target".
+		   "<br>- No music with Windows version".
+		   "<br>- Cursors aren't scaled correctly in Windows version",
 "puttputt"	=> "No known issues, game is completable.".
-                   "<br>- Minor graphical glitches when cars come out of their garages on streets",
+		   "<br>- 3DO, DOS and Windows versions supported by this target".
+                   "<br>- Minor graphical glitches when cars come out of their garages on streets".
+		   "<br>- No music with Windows version".
+		   "<br>- Cursors aren't scaled correctly in Windows version",
 "puttmoon"	=> "Fails an AKOS related assertion shortly after starting".
-		   "<br>- scummvm: scumm/akos.cpp:267: virtual byte AkosRenderer::drawLimb(const CostumeData&, int): Assertion `(code & 0xFFF) * 6 < READ_BE_UINT32((byte *)akof - 4) - 8' failed.",
+		   "<br>- 3DO, DOS and Windows versions supported by this target".
+		   "<br>- Fails AKOS related assertion in three locations".
+		   "<br>- No music with Windows version".
+		   "<br>- Cursors aren't scaled correctly in Windows version",
 "moondemo"	=> "Completable if you don't trigger one fatal animation".
-		   "<br>- Creature behind garage door disappears",
+		   "<br>- Creature behind garage door disappears".
+		   "<br>- Both DOS and Windows versions supported by this target".
+		   "<br>- No music with Windows version".
+		   "<br>- Cursors are scaled correctly in Windows version",
 "funpack"	=> "Starts but mini games seem to have various problems".
 		   "<br>- Checkers: The checkers have some graphical glitches (actorOps case 218)".
 		   "<br>- Cheese King: Triggers an assertion".
 		   "<br>- Pinball/Remember/Tic-Tac-Toe/Puzzle blocks: Works",
-"fbdemo"	=> "Should be playable to the end",
+"fbdemo"	=> "Should be playable to the end".
+		   "<br>- Both DOS and Windows versions supported by this target".
+		   "<br>- No music in Windows version".
+		   "<br>- Cursors aren't scaled correctly in Windows version",
 "fbear"		=> "Game should be completable, with several glitches".
-		   "<br>- Piano sounds aren't correct pitch and several sound effects are missing",
+		   "<br>- 3DO, DOS and Windows versions supported by this target".
+		   "<br>- Piano sounds aren't correct pitch and several sound effects are missing".
+		   "<br>- No music with Windows version".
+		   "<br>- Cursors aren't scaled correctly",
 "fbpack"	=> "Starts but mini games seem to have various problems".
 		   "<br>- Graphical glitches in all games due to o6_actorOps: case 218",
 "tentacle"	=> "No known issues, game is completable.".
