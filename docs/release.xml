@@ -228,7 +228,12 @@ function bugs($buglist) {
 	<td>...</td>
 	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
 	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>FOTAQ</td>
+<tr><td>FOTAQ (Floppy)</td>
+	<td>NONE</td>
+	<td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>FOTAQ (CD)</td>
 	<td>cyx (Dec 3)</td>
 	<td>...</td>
 	<?php portStatus(array("Win32" => +1, "Linux" => 0, "DC" => 0,
