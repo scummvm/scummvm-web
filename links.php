@@ -82,6 +82,10 @@ echo html_round_frame_start("Links","");
 	  <tr>
 	    <td style="padding-left: 3em;">
 	    An unofficial port to the Sony Ericsson P800 running Symbian 7.0.
+	    <p style="color: red"><strong>This port is currently in violation of the GPL!
+	    Despite repeated requests for release of the source code modifications the author
+	    made, the site <em>still</em> doesn't provide any source code. We are very unhappy
+	    about this and now have to consider taking legal steps.</strong></p>
 	    </td>
 	  </tr>
 
