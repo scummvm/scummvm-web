@@ -34,6 +34,8 @@ echo html_round_frame_start("Game Demos","98%","",20);
 <?
 
 $demos = array(
+	'Zak McKracken and the Alien Mindbenders (Atari ST)'
+		=> array('http://files.mixnmojo.com/zakstdemo.zip', 'zak'),
 	'The Secret of Monkey Island (16 colour)'	
 		=> array('http://files.mixnmojo.com/mi_demo2.zip', 'monkeyega'),
 	'Indiana Jones and the Last Crusade (non interactive 16 colour)'	
