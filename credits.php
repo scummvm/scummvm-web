@@ -93,7 +93,7 @@ echo html_round_frame_start("Credits","");
 	  add_person("Andr&eacute; Souza", "", "SDL-based OpenGL renderer");
 	  add_person("Tim ???", "realmz", "Initial MI1 CD music support");
 	  add_person("Stuart Caie", "", "Decoders for Simon 1 Amiga data files");
-	  add_person("Quietust", "", "Sound support for Amiga SCUMM V2 - V3 games");
+	  add_person("", "Quietust", "Sound support for Amiga SCUMM V2 - V3 games");
 	  ?>
 
       <tr><td colspan=3>&nbsp;</td></tr>
