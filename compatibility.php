@@ -93,9 +93,9 @@ $gamesHE = array(
 		'Backyard Baseball 2001 (Demo)'						=> array('n/a','bb2demo','5'),
 		'Backyard Football 2002 (Demo)'						=> array('n/a','footdemo','5'),
 		'Blue\'s ABC Time (Demo)'						=> array('n/a','BluesABCTimeDemo','90'),
-		'Big Thinkers First Grade (Demo)'					=> array('n/a','1grademo','10'),
+		'Big Thinkers First Grade (Demo)'					=> array('n/a','1grademo','50'),
 		'Big Thinkers Kindergarten (Demo)'					=> array('n/a','kinddemo','50'),
-		'Big Thinkers Kindergarten'						=> array('n/a','thinkerk','10'),
+		'Big Thinkers Kindergarten'						=> array('n/a','thinkerk','50'),
 		'Fatty Bears Birthday Surprise (Demo)'					=> array('n/a','fbdemo','95'),
 		'Fatty Bears Birthday Surprise'						=> array('n/a','fbear','93'),
 		'Fatty Bears Fun Pack'							=> array('n/a','fbpack','95'),
@@ -103,8 +103,8 @@ $gamesHE = array(
 		'Freddi Fish 1: The Case of the Missing Kelp Seeds'			=> array('n/a','freddi','80'),
 		'Freddi Fish 2: The Case of the Haunted Schoolhouse (Demo)'		=> array('n/a','ff2-demo','70'),
 		'Freddi Fish 2: The Case of the Haunted Schoolhouse'			=> array('n/a','freddi2','70'),
-		'Freddi Fish 3: The Case of the Stolen Conch Shell (Demo)'		=> array('n/a','f3-mdemo','70'),
-		'Freddi Fish 3: The Case of the Stolen Conch Shell'			=> array('n/a','freddi3','70'),
+		'Freddi Fish 3: The Case of the Stolen Conch Shell (Demo)'		=> array('n/a','f3-mdemo','95'),
+		'Freddi Fish 3: The Case of the Stolen Conch Shell'			=> array('n/a','freddi3','95'),
 		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Demo)'	=> array('n/a','f4-demo','10'),
 		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'	=> array('n/a','freddi4','10'),
 		'Freddi Fish 5: The Case of the Creature of Coral Cave (Demo)'		=> array('n/a','ff5demo','10'),
@@ -117,19 +117,19 @@ $gamesHE = array(
 		'Let\'s Explore the Farm with Buzzy'					=> array('n/a','farm','50'),
 		'Let\'s Explore the Jungle with Buzzy'					=> array('n/a','jungle','50'),
 		'Pajama Sam 1: No Need to Hide When It\'s Dark Outside (Demo)'		=> array('n/a','pjs-demo','90'),
-		'Pajama Sam 1: No Need to Hide When It\'s Dark Outside'			=> array('n/a','pajama','80'),
+		'Pajama Sam 1: No Need to Hide When It\'s Dark Outside'			=> array('n/a','pajama','70'),
 		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening (Demo)'	=> array('n/a','pj2demo','90'),
-		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'		=> array('n/a','pajama2','70'),
+		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'		=> array('n/a','pajama2','80'),
 		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Demo)'	=> array('n/a','pj3-demo','70'),
-		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('n/a','pajama3','20'),
+		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('n/a','pajama3','40'),
 		'Pajama Sam\'s Lost & Found (Demo)'					=> array('n/a','smaller','5'),
 		'Pajama Sam\'s Lost & Found'						=> array('n/a','lost','5'),
 		'Pajama Sam\'s Sock Works'						=> array('n/a','socks','50'),
-		'Putt-Putt Enters the Race (Demo)'					=> array('n/a','racedemo','10'),
+		'Putt-Putt Enters the Race (Demo)'					=> array('n/a','racedemo','80'),
 		'Putt-Putt Enters the Race'						=> array('n/a','puttrace','10'),
 		'Putt-Putt Goes To The Moon (Demo)'					=> array('n/a','moondemo','95'),
 		'Putt-Putt Goes To The Moon'						=> array('n/a','puttmoon','95'),
-		'Putt-Putt Joins the Circus (Demo)'					=> array('n/a','circdemo','10'),
+		'Putt-Putt Joins the Circus (Demo)'					=> array('n/a','circdemo','80'),
 		'Putt-Putt Joins the Circus'						=> array('n/a','puttcircus','10'),
 		'Putt-Putt Joins the Parade (Demo)'					=> array('n/a','puttdemo','95'),
 		'Putt-Putt Joins the Parade'						=> array('n/a','puttputt','95'),
@@ -140,12 +140,12 @@ $gamesHE = array(
 		'Putt-Putt and Pep\'s Balloon-O-Rama'					=> array('n/a','balloon','50'),
 		'Putt-Putt and Pep\'s Dog on a Stick'					=> array('n/a','dog','50'),
 		'Putt-Putts Fun Pack'							=> array('n/a','funpack','95'),
-		'Spyfox 1: Dry Cereal (Demo)'						=> array('n/a','spydemo','10'),
-		'Spyfox 1: Dry Cereal'							=> array('n/a','spyfox','10'),
-		'Spyfox 2: Some Assembly Required (Demo)'				=> array('n/a','sf2-demo','10'),
-		'Spyfox 2: Some Assembly Required'					=> array('n/a','spyfox2','10'),
-		'Spyfox 3: Operation Ozone (Demo)'					=> array('n/a','sf3-demo','10'),
-		'Spyfox 3: Operation Ozone'						=> array('n/a','spyozon','10'),
+		'Spyfox 1: Dry Cereal (Demo)'						=> array('n/a','spydemo','80'),
+		'Spyfox 1: Dry Cereal'							=> array('n/a','spyfox','20'),
+		'Spyfox 2: Some Assembly Required (Demo)'				=> array('n/a','sf2-demo','20'),
+		'Spyfox 2: Some Assembly Required'					=> array('n/a','spyfox2','20'),
+		'Spyfox 3: Operation Ozone (Demo)'					=> array('n/a','sf3-demo','80'),
+		'Spyfox 3: Operation Ozone'						=> array('n/a','spyozon','20'),
 		'Spy Fox in Cheese Chase Game'						=> array('n/a','chase','10'),
 		'Spy Fox in Hold the Mustard'						=> array('n/a','mustard','10'),
 	      );
@@ -243,11 +243,12 @@ $notes = array(
 "bb2demo"	=> "Only shows introduction",
 "footdemo"	=> "Only shows introduction",
 "BluesABCTimeDemo" => "Game is playable",
-"1grademo"	=> "Game is playable, but objects in mini games aren't drawn",
+"1grademo"	=> "Game is playable, but settings aren't saved".
+		   "<br>- Minor graphical glitches",
 "kinddemo"	=> "Game is playable, but settings aren't saved".
-		   "<br>- Various issues",
+		   "<br>- Minor graphical glitches",
 "thinkerk"	=> "Game is playable, but settings aren't saved".
-		   "<br>- Various issues",
+		   "<br>- Minor graphical glitches",
 "fbdemo"	=> "Should be playable to the end".
 		   "<br>- Both DOS and Windows versions supported by this target",
 "fbear"		=> "Game should be completable, with several glitches".
@@ -260,39 +261,40 @@ $notes = array(
 "freddi"	=> "Game is completable, with minor glitches".
 		   "<br>- Sometimes double speech when using objects",
 "ff2-demo"	=> "Game is completable, with minor glitches".
-		   "<br>- No songs",
+		   "<br>- Often uses wrong songs".
+		   "<br>- Minor graphical glitches",
 "freddi2"	=> "Game is completable, with minor glitches".
 		   "<br>- No songs",
-"f3-mdemo"	=> "Game is completable, with minor glitches",
-"freddi3"	=> "Game is completable, with minor glitches",
-"f4-demo"	=> "Not completable, no inventory controls".
+"f3-mdemo"	=> "No known issues, game is completable",
+"freddi3"	=> "No known issues, game is completable",
+"f4-demo"	=> "Not completable, no inventory response".
 		   "<br>- Various issues",
-"freddi4"	=> "Not completable, no inventory controls".
+"freddi4"	=> "Not completable, no inventory response".
 		   "<br>- Various issues",
-"ff5demo"	=> "Not completable, no inventory controls".
+"ff5demo"	=> "Not completable, no inventory response".
 		   "<br>- Various issues",
-"freddicove"	=> "Not completable, no inventory controls".
+"freddicove"	=> "Not completable, no inventory response".
 		   "<br>- Various issues",
 "maze"		=> "Game is playable, but settings aren't saved".
 		   "<br>- Various issues",
 "water"		=> "Game is playable, but settings aren't saved".
 		   "<br>- Various issues",
 "airdemo"	=> "Game is playable".
-		   "<br>- Various issues",
-"airport"	=> "Game is playable".
-		   "<br>- Various issues",
+		   "<br>- Minor graphical glitches",
+"airport"	=> "Game is playable, but settings aren't saved".
+		   "<br>- Minor graphical glitches",
 "farmdemo"	=> "Game is playable".
-		   "<br>- Various issues",
-"farm"		=> "Game is playable".
-		   "<br>- Various issues",
-"jungle"	=> "Game is playable".
-		   "<br>- Various issues",
+		   "<br>- Minor graphical glitches",
+"farm"		=> "Game is playable, but settings aren't saved".
+		   "<br>- Minor graphical glitches",
+"jungle"	=> "Game is playable, but settings aren't saved".
+		   "<br>- Minor graphical glitches",
 "pjs-demo"	=> "No known issues, game is completable",
 "pajama"	=> "Game is completable, with minor glitches".
 		   "<br>- No songs",
 "pj2demo"	=> "No known issues, game is completable",
 "pajama2"	=> "Game is completable, with minor glitches".
-		   "<br>- Actor limbs sometimes aren't visible",
+		   "<br>- Minor graphical glitches",
 "pj3-demo"	=> "Game is completable, with minor glitches".
 		   "<br>- Various issues",
 "pajama3"	=> "Game is playable but not completable".
@@ -301,16 +303,16 @@ $notes = array(
 "lost"		=> "Only shows introduction",
 "socks"		=> "Game is playable, but settings aren't saved".
 		   "<br>- Various issues",
-"racedemo"	=> "Not completable, no inventory controls".
-		   "<br>- Various issues",
+"racedemo"	=> "Game is completable, with minor glitches".
+		   "<br>- Minor graphical glitches",
 "puttrace"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
 "moondemo"	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target",
 "puttmoon"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS and Windows versions supported by this target",
-"circdemo"	=> "Not completable, no inventory controls".
-		   "<br>- Various issues",
+"circdemo"	=> "Game is completable, with minor glitches".
+		   "<br>- Minor graphical glitches",
 "puttcircus"	=> "Not completable, no inventory controls".
 		   "<br>- Various issues",
 "puttdemo"	=> "No known issues, game is completable.".
@@ -322,8 +324,7 @@ $notes = array(
 "zoodemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Inventory background and items are often not redrawn",
 "putttime"	=> "Game is completable, with minor glitches".
-		   "<br>- Inventory background and items are often not redrawn".
-		   "<br>- No songs",
+		   "<br>- Inventory background and items are often not redrawn",
 "timedemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Inventory background and items are often not redrawn",
 "balloon"	=> "Game is playable, but settings aren't saved".
@@ -332,17 +333,17 @@ $notes = array(
 		   "<br>- Various issues",
 "funpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
-"spydemo"	=> "Not completable, no inventory controls".
+"spydemo"	=> "Game is completable, with minor glitches".
+		   "<br>- Minor graphical glitches",
+"spyfox"	=> "Game is playable but not completable".
 		   "<br>- Various issues",
-"spyfox"	=> "Not completable, no inventory controls".
+"sf2-demo"	=> "Game is playable but not completable".
 		   "<br>- Various issues",
-"sf2-demo"	=> "Not completable, no inventory controls".
+"spyfox2"	=> "Game is playable but not completable".
 		   "<br>- Various issues",
-"spyfox2"	=> "Not completable, no inventory controls".
-		   "<br>- Various issues",
-"sf3-demo"	=> "Not completable, no inventory controls".
-		   "<br>- Various issues",
-"spyozon"	=> "Not completable, no inventory controls".
+"sf3-demo"	=> "Game is completable, with minor glitches".
+		   "<br>- Minor graphical glitches",
+"spyozon"	=> "Game is playable but not completable".
 		   "<br>- Various issues",
 "chase"		=> "Only shows introduction",
 "mustard"	=> "Only shows introduction",
