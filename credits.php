@@ -34,8 +34,7 @@ echo html_round_frame_start("Credits","");
 ?>
 	<h1>Credits</h1>
     
-	<blockquote>
-	<table border=0 cellpadding=5 cellspacing=0>
+	<table border=0 cellpadding=5 cellspacing=0s style="margin-left: 3em;">
 	  
       <tr><td colspan=3><h2>The ScummVM team:</h2></td></tr>
       
@@ -117,7 +116,6 @@ echo html_round_frame_start("Credits","");
       </td></tr>
 
 	</table>
-	</blockquote>
 
 <?
 

@@ -70,9 +70,9 @@ function html_p ($str = "&nbsp;", $extra = null)
 }
 
 // HTML blockquote
-function html_blockquote ($str = "&nbsp;", $extra = null)
+function html_blockquote ($str = "&nbsp;")
 {
-	return do_indent("<blockquote $extra>$str</blockquote>");
+	return do_indent('<div style="margin-left: 3em;">'.$str.'</div>');
 }
 
 // Draw a Colored Pixel Line
@@ -169,20 +169,6 @@ function html_frame_td ($txt = "&nbsp;", $extra = null)
 {
     $str = '<td '.$extra.'>'.$txt.'</td>'."\n";
     return do_indent($str);
-}
-
-function html_frame_row_form ($name = "&nbsp;", $field = "&nbsp;")
-{
-    $str  = '	<tr valign="top"><td class="color1" width="200"><b class="menuTitle">'.$name.'</b></td>'."\n";
-    $str .= '	<td class="color2" width="100%">'.$field.'</td></tr>'."\n";
-    return $str;
-}
-
-
-function html_frame_row_form_title ($name = "&nbsp;")
-{
-    $str  = '	<tr valign="top"><td class="color3" colspan="2"><b class="menuTitle">'.$name.'</b></td></tr>'."\n";
-    return $str;
 }
 
 function html_back_link ($howmany = 1, $url = "")

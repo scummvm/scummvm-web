@@ -19,11 +19,10 @@ sidebar_start();
 echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 
 ?>
-<p>
-  <big><b>FAQ</b></big><br>
-  <small>last updated: <? echo date("F d, Y",getlastmod()); ?></small><br>
-  <? echo html_line(); ?>
-</p>
+<h1>
+	FAQ<br>
+	<span class="caption">last updated: <? echo date("F d, Y",getlastmod()); ?></span>
+</h1>
 
 <ol>
  <li><a href="#1">Introduction</a>
