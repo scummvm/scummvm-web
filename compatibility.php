@@ -72,6 +72,7 @@ $games = array(
 		'Loom (256 color CD version)'                           => array('5','loomcd','90'),
 		'The Secret of Monkey Island (VGA Floppy)'		=> array('5','monkeyvga','90'),
 		'The Secret of Monkey Island (VGA CD)'			=> array('5','monkey','95'),
+		'The Secret of Monkey Island (Alternative VGA CD)'	=> array('5','monkey1','95'),
 		'Monkey Island 2: LeChuck\'s revenge'			=> array('5','monkey2','95'),
 		'Indiana Jones 4 and the Fate of Atlantis'		=> array('5','atlantis','95'),
 		'Indiana Jones 4 and the Fate of Atlantis (Demo)'	=> array('5','playfate','95'),
@@ -145,6 +146,8 @@ $notes = array(
                    "<br>- No sound effects".
 		   "<br>- No music with Amiga version",
 "monkey"	=> "No known problems - should be playable to the end",
+"monkey1"	=> "No known problems - should be playable to the end".
+		   "<br>- Both Mac and PC versions supported by this target",
 "monkey2"	=> "No known problems - should be playable to the end".
 		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
 		   "<br>- No sound effects with Amiga version".
