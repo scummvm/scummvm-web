@@ -82,7 +82,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.5.1-0woody1_i386.deb?download">Debian Stable (woody) Package</a> <small>(630k .deb)</small></li>
 -->
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.1-beos.pkg?download">BeOS package</a> <small>(1.1M pkg)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.1-morphos.tgz ?download">MorphOS binary</a> <small>(857k .tgz)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.1-morphos.tgz?download">MorphOS binary</a> <small>(857k .tgz)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.1-palmos.zip?download">PalmOS binary</a> <small>(332k zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.1-solaris8-sparc.tar.gz?download">Solaris 8 (Sparc) binary</a> <small>(789k .tar.gz)</small></li>
