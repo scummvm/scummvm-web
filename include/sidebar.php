@@ -50,8 +50,15 @@ function sidebar_start ()
 ?>
 	<p>&nbsp;</p>
 	
+	<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+	<input type="hidden" name="cmd" value="_xclick">
+	<input type="hidden" name="business" value="paypal@enderboi.com">
+	<input type="hidden" name="item_name" value="ScummVM donation">
+	<input type="image" src="<?=$file_root?>/images/ppdonate.gif" border="0" name="submit" alt="Donate to ScummVM with PayPal!">
+	</form>	
+	
 	<p align="center">
-	  <a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=37116"
+	  <a href="http://sourceforge.net"><img src="<?=$file_root?>/images/sfnet.gif"
 	  width="88" height="31" border="0" alt="SourceForge"></a>
 	</p>
 
