@@ -59,7 +59,7 @@ echo html_round_frame_start("Downloads","");
 	  <li><a href="/downloads/ScummVM-snapshot.dmg">Mac OS X Snapshot</a> <small> (<? echo intval(filesize("downloads/ScummVM-snapshot.dmg")/1024) ?>K dmg file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/ScummVM-snapshot.dmg")); ?>)</small></li>
 	  <li><a href="http://arisme.free.fr/PocketScumm/daily/">PocketPC Builds</a> <small> (infrequent snapshots of the PocketPC binaries)</small></li>
 	  <li><a href="http://paras.rasmatazz.bei.t-online.de/">Dreamcast Daily Builds</a></li>
-	  <li><a href="http://sourceforge.net/cvs/?group_id=37116">CVS Instructions</a> <small> (for if you wish to retrieve the latest code to compile yourself</small></li>
+	  <li><a href="http://sourceforge.net/cvs/?group_id=37116">CVS Instructions</a> <small> (for if you wish to retrieve the latest code to compile yourself)</small></li>
 	</ul>
 
 	<hr>
@@ -122,11 +122,11 @@ echo html_round_frame_start("Downloads","");
 	</p>
 	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/BASS-CD.zip?download">Beneath a Steel Sky, Freeware CD Version</a> <small>(67M)</small></li>
-	  <li><a href="http://www.mixnmojo.com/bss/BASS-Floppy.zip">Beneath a Steel Sky, Freeware Floppy Version</a> <small>(7.3M)</small>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ-Talkie.zip?download">Flight of the Amazon Queen, Freeware CD Version</a></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ-Floppy.zip?download">Flight of the Amazon Queen, Freeware Floppy Version</a></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes.zip?download">Broken Sword 1 Cutscene Pack</a></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_Cutscenes.zip?download">Broken Sword 2 Cutscene Pack</a></li>
+	  <li><a href="http://www.mixnmojo.com/bss/BASS-Floppy.zip">Beneath a Steel Sky, Freeware Floppy Version</a> <small>(7.3M)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ-Talkie.zip?download">Flight of the Amazon Queen, Freeware CD Version</a><small>(34.8M)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ-Floppy.zip?download">Flight of the Amazon Queen, Freeware Floppy Version</a><small>(6.7M)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes.zip?download">Broken Sword 1 Cutscene Pack</a><small>(31.2M)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_Cutscenes.zip?download">Broken Sword 2 Cutscene Pack</a><small>(27.8M)</small></li>
 	</ul>
 	<hr>
 	<p>
