@@ -109,9 +109,9 @@ $notes = array(
 "samnmax"	=> "No major problems - should be playable to the end".
                    "<br>- Some subgames may not work",
 "samdemo"	=> "No known problems - should be playable to the end",
-"ft"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
+"ft"		=> "Game is completable to a point, but not playable to the end".
                    "<br>- Lack of INSANE subsystem prevents action sequences, which are needed to complete the game".
-                   "<br>- Some character animations (AKOS codec 16 based) are missing",
+                   "<br>- Some AKOS codec 16 are not drawn incorrectly, eg the waking up in dumpster scene",
 "dig"		=> "Game is completable.".
                    "<br>- The nexus room doesn't 'wrap' correctly, there are some redraw problems at the room seam",
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
