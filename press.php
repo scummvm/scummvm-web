@@ -39,6 +39,10 @@ echo html_round_frame_start("Press","98%","",20);
 	   ><b>Spelklassiker - alldeles gratis</b></a> (Swedish), Aftonbladet, August 6, 2003
 	</p>
 
+	<p><a href=http://www.pcwelt.de/news/spiele/32970/"
+	   ><b>Gratis: Amüsanter Adventure-Klassiker zum Download</b></a> (German), PC WELT, August 4, 2003
+	</p>
+
 	<p><a href="http://games.slashdot.org/article.pl?sid=03/08/02/1235259"
 	   ><b>ScummVM 0.5.0 Out, With Some Official Game Support</b></a>, Slashdot, August 2, 2003
 	</p>
