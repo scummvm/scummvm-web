@@ -185,7 +185,6 @@ $notes = array(
 "comi"		=> "Game is fully completable, although ship-to-ship is broken and several graphical glitches are present",
 "sky"	 	=> "Game is completable".
 		   "<br>- Floppy demo is not supported".
-                   "<br>- Dialogues can not be skipped".
                    "<br>- Random crashes have been reported",
 "simon1win" 	=> "Game is completable.".
                    "<br>- Minor graphical glitches when using ring".
