@@ -9,8 +9,7 @@
 		<li>Lack of actorHit opcode breaks collision detection in ship-to-ship combat. Right now we always return 1.
 		This causes you to hit yourself in in ship-to-ship combat (but the script still thinks you have won :).
 		<li>Guybrush seems to walk down from the sky when entering the Canibal Village for the first time. This is because roomobj-53-873 calls a different script on the first entry, which runs a putActorAtObject opcode before loading the room. 
-		<li>There should be an 'Object line' option as per the menu that will show the names of objects at the
-		bottom of the screen when they are moused over.
+		<li>Make the in-game options / save-load dialogs work.
 		<li>Voice and Music bundles aren't closed before the CD change dialog making it impossible to unmount a CD
 		<li>strings that contain PU_M, EC_, SA_, or BT_ should not reach playBundleSound() as they don't
 		have audio equivalents.

@@ -1,12 +1,7 @@
 <NAME>Known regressions in ScummVM since 0.3.0b</NAME>
 <DESC>This is a list of current regressions introduced since 0.3.0b (before comi work started)</DESC>
 <BODY>
-<ul>
-<li>Loom:
-	<ul>
-		<li>Not all of the distaff is cleared from the screen after weaving open on the egg near the start of the game. See <a href="http://users.bigpond.net.au/tgray2/loombug.png">here</a> for a screenshot.
-	</ul>
 
-</ul>
+Somebody should update this, for now just look at the <a href="https://sourceforge.net/tracker/?func=browse&group_id=37116&atid=418820">bug tracker</a>.
 
 </BODY>
