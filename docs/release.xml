@@ -89,7 +89,7 @@ function bugs($buglist) {
 
 <table border="1" cellspacing="0" width="100%">
 <tr>
- <th>GameID</th><th>Last Test</th><th>Critical Bugs</th>
+ <th>GameID</th><th>Last Test(s)</th><th>Critical Bugs</th>
  <th>Win32</th><th>Linux</th><th>Mac</th><th>OpenBSD</th><th>WinCE</th><th>Palm</th><th>DC</th>
 </tr>
 
