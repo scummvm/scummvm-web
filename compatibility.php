@@ -60,8 +60,8 @@ else
 $games = array(
 		'Maniac Mansion (original)'				=> array('1','maniac','90'),
 		'Maniac Mansion (enhanced)'				=> array('2','maniac','95'),
-		'Zak McKracken and the Alien Mindbenders (original)'	=> array('1','zak','80'),
-		'Zak McKracken and the Alien Mindbenders (enhanced)'	=> array('2','zak','80'),
+		'Zak McKracken and the Alien Mindbenders (original)'	=> array('1','zak','85'),
+		'Zak McKracken and the Alien Mindbenders (enhanced)'	=> array('2','zak','90'),
 		'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zaktowns','90'),
 		'Indiana Jones and the Last Crusade'			=> array('3','indy3ega','90'),
 		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','90'),
@@ -89,15 +89,15 @@ $games = array(
 		'Fatty Bears Fun Pack'					=> array('6','fbpack','50'),
 		'Day Of The Tentacle'					=> array('6','tentacle','95'),
 		'Day Of The Tentacle (Demo)'				=> array('6','dottdemo','95'),
-		'Sam & Max'                                             => array('6','samnmax','93'),
+		'Sam & Max'                                             => array('6','samnmax','95'),
 		'Sam & Max (Demo)'					=> array('6','samdemo','95'),
 		'Full Throttle'						=> array('7','ft','80'),
 		'The Dig'                                               => array('7','dig','85'),
 		'Curse of Monkey Island'				=> array('8','comi','80'),
 		'Beneath a Steel Sky'			       		=> array('n/a','sky','90'),
-		'Broken Sword I'			       		=> array('n/a','sword1','80'),
-		'Broken Sword II'			       		=> array('n/a','sword2','85'),
-		'Flight of the Amazon Queen'			       	=> array('n/a','queen','80'),
+		'Broken Sword I'			       		=> array('n/a','sword1','85'),
+		'Broken Sword II'			       		=> array('n/a','sword2','90'),
+		'Flight of the Amazon Queen'			       	=> array('n/a','queen','90'),
  		'Simon The Sorcerer 1 Talkie (Win)'			=> array('n/a','simon1win','95'),
 		'Simon The Sorcerer 1 Talkie (DOS)'       		=> array('n/a','simon1talkie','93'),
 		'Simon The Sorcerer 1 Talkie (Amiga CD32)'     		=> array('n/a','simon1cd32','8'),
@@ -112,12 +112,10 @@ $games = array(
 	      );
 
 $notes = array(
-"maniac"	=> "Enhanced PC version is completable".
-		   "<br>Classic version is completable".
+"maniac"	=> "No known issues, game is completable.".
 		   "<br>- Minor graphical glitches with actors in classic verison".
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target",
-"zak"		=> "Enhanced PC version is completable, with several minor glitches".
-		   "<br>Classic version is completable, with several minor glitches".
+"zak"		=> "No known issues, game is completable.".
 		   "<br>- Minor graphical glitches with actors in classic verison".
 		   "<br>- Amiga, Atari ST and PC versions supported by this target",
 "indy3ega"	=> "Game is completable".
@@ -125,14 +123,12 @@ $notes = array(
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
 		   "<br>- No inventory in Mac version".
 		   "<br>- Atari ST and Mac versions require pcjr or pcspk music driver",
-"indy3"         => "Game is completable".
-		   "<br>- Indiana may be able to walk in odd places, in some rooms",
-"indy3towns"    => "Game is completable." .
-		   "<br>- Indiana may be able to walk in odd places, in some rooms".
+"indy3"         => "No known issues, game is completable.",
+"indy3towns"    => "No known issues, game is completable." .
                    "<br>- Kanji version isn't supported",
-"zaktowns"      => "Game is completable.".
+"zaktowns"      => "No known issues, game is completable.".
                    "<br>- Kanji version isn't supported",
-"loom"		=> "No known problems - should be playable to the end".
+"loom"		=> "No known issues, game is completable.".
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
 		   "<br>- No music or sound effects with Mac version".
 		   "<br>- Atari ST and Mac versions require pcjr or pcspk music driver".
@@ -147,35 +143,35 @@ $notes = array(
 		       "<li>1 standard".
 		       "<li>2 expert</ul>".
                    "<br>- Kanji version isn't supported",
-"monkeyega"	=> "Game is completable".
+"monkeyega"	=> "No known issues, game is completable.".
 		   "<br>- Atari ST version requires pcjr or pcspk music driver".
 		   "<br>- MIDI support requires the Roland update from LucasArts",
 "pass"		=> "All three demos are completable.",
-"loomcd"        => "No known problems - should be playable to the end",
+"loomcd"        => "No known issues, game is completable.",
 "monkeyvga"	=> "Game is completable.".
 		   "<br>- Both Amiga and PC versions supported by this target".
 		   "<br>- No music with Amiga version",
-"monkey"	=> "No known problems - should be playable to the end",
-"monkey1"	=> "No known problems - should be playable to the end".
+"monkey"	=> "No known issues, game is completable.",
+"monkey1"	=> "No known issues, game is completable.".
 		   "<br>- Both Mac and PC versions supported by this target",
-"game"		=> "No known problems - should be playable to the end".
+"game"		=> "No known issues, game is completable.".
 		   "<br>- No sound effects",
-"monkey2"	=> "No known problems - should be playable to the end".
+"monkey2"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, FM Towns, Mac and PC versions supported by this target".
 		   "<br>- Various graphical glitches with Amiga version".
                    "<br>- Kanji version requires the FM Towns Font ROM",
 "mi2demo"	=> "Often crashes due to missing resources, since it was never meant to be playable".
 		   "<br>- No support for playing back the recorded file of gameplay",
-"atlantis"	=> "No known problems - should be playable to the end".
+"atlantis"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, FM Towns, Mac and PC versions supported by this target".
 		   "<br>- Both disk and cd PC versions are supported by this target".
 		   "<br>- Music loud on some systems, run with -m30 to lower music volume.".
 		   "<br>- Various graphical glitches with Amiga version".
                    "<br>- Kanji version requires the FM Towns Font ROM",
-"playfate"	=> "No known problems - should be playable to the end",
-"puttdemo"	=> "Should be playable to the end".
+"playfate"	=> "No known issues, game is completable.",
+"puttdemo"	=> "No known issues, game is completable.".
 		   "<br>- Some sound effects missing",
-"puttputt"	=> "Game should be completable".
+"puttputt"	=> "No known issues, game is completable.".
                    "<br>- Minor graphical glitches when cars come out of their garages on streets",
 "puttmoon"	=> "Fails an AKOS related assertion shortly after starting".
 		   "<br>- scummvm: scumm/akos.cpp:267: virtual byte AkosRenderer::drawLimb(const CostumeData&, int): Assertion `(code & 0xFFF) * 6 < READ_BE_UINT32((byte *)akof - 4) - 8' failed.",
@@ -193,24 +189,24 @@ $notes = array(
 		   "<br>- Reversi/Go Fish/Lines and Boxes: o6_actorOps: case 218 graphics glitches".
 		   "<br>- Coloring: Painting has no effect".
 		   "<br>- Tangrams: Can only use central tangram piece",
-"tentacle"	=> "No known problems - should be playable to the end".
+"tentacle"	=> "No known issues, game is completable.".
 		   "<br>- Both Mac and PC versions supported by this target".
 		   "<br>- Both disk and cd versions are supported by this target".
 		   "<br>- Maniac Mansion isn't playable on Ed's computer. To play the included copy, use 'Add Game' from the main ScummVM launcher and select the MANIAC directory inside the DOTT game directory",
-"dottdemo"	=> "No known problems - should be playable to the end",
-"samnmax"	=> "No major problems - should be playable to the end".
+"dottdemo"	=> "No known issues, game is completable.",
+"samnmax"	=> "No known issues, game is completable.".
 		   "<br>- Both Mac and PC versions supported by this target".
 		   "<br>- Both disk and cd versions are supported by this target".
                    "<br>- Highway subgame doesn't behave correctly",
 "samdemo"	=> "No known problems - should be playable to the end",
-"ft"		=> "Game is completable to the end, but with several glitches".
+"ft"		=> "Game is completable, with several glitches".
 		   "<br>- Both Mac and PC versions supported by this target".
 	 	   "<br>- Music is not continuous, and may pause, restart, and otherwise act oddly".
 		   "<br>- SMUSH audio (movie cutscenes) is a lot quieter than in-game voice, which is abnormally loud",
-"dig"		=> "Game is fully completable, with some minor sound issues".
+"dig"		=> "Game is completable, with some minor sound issues".
 		   "<br>- Both Mac and PC versions supported by this target",
-"comi"		=> "Game is fully completable, although ship-to-ship combat is broken and several graphical glitches are present",
-"sky"	 	=> "Game is completable".
+"comi"		=> "Game is completable, with some minor glitches.",
+"sky"	 	=> "No known issues, game is completable.".
 		   "<br>- Floppy demos are unsupported".
 		   "<br>- Amiga versions aren't supported and probably never will be".
 		   "<br>".
@@ -219,28 +215,28 @@ $notes = array(
 		   "<br>&nbsp;&nbsp;&nbsp;&nbsp;This is especially noticeable in the court- and Mrs. Piermont sequence.".
 		   "<br>- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders".
 		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
-"sword1"	=> "Game is completable.".
+"sword1"	=> "No known issues, game is completable.".
 		   "<br>- Czech support is untested. If you have a czech version, please contact us.".
 		   "<br>- Only the PC version has been tested. We don't have any other versions, so we can't make any promises about them.",
-"sword2"	=> "Game is completable.".
+"sword2"	=> "No known issues, game is completable.".
 		   "<br>- Only the PC version has been tested. We don't have any other versions, so we can't make any promises about them.",
-"queen"		=> "Game is completable.".
+"queen"		=> "No known issues, game is completable.".
 		   "<br>- Some versions may require the <a href=\"http://0x.7fc1.org/fotaq/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases",
-"simon1win" 	=> "No known problems - game is completable.",
-"simon1talkie" 	=> "Game is completable.",
+"simon1win" 	=> "No known issues, game is completable.",
+"simon1talkie" 	=> "No known issues, game is completable.",
 "simon1cd32" 	=> "Game is completable, with major graphics glitches".
                    "<br>- Character and background graphics are decoded incorrectly".
                    "<br>- No music",
-"simon1acorn" 	=> "Game is completable.",
-"simon1dos" 	=> "Game is completable.",
+"simon1acorn" 	=> "No known issues, game is completable.",
+"simon1dos" 	=> "No known issues, game is completable.",
 "simon1amiga" 	=> "Game works a bit but can't see anything".
                    "<br>- Character and background graphics are decoded incorrectly".
                    "<br>- No music",
-"simon1demo" 	=> "Game demo is completable",
-"simon2win"     => "No known problems - game is completable.",
-"simon2talkie"  => "No known problems - game is completable.",
-"simon2dos"     => "No known problems - game is completable.",
-"simon2mac"     => "Game is completable.".
+"simon1demo" 	=> "No known issues, game demo is completable.",
+"simon2win"     => "No known issues, game is completable.",
+"simon2talkie"  => "No known issues, game is completable.",
+"simon2dos"     => "No known issues, game is completable.",
+"simon2mac"     => "No known issues, game is completable.".
                    "<br>- Only default language (English) in data files is supported".
                    "<br>- F10 key animation is different"
 );
