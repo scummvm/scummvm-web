@@ -334,25 +334,6 @@ function html_add_br ($text = "")
 	return $text;
 }
 
-function html_format_msg ($text = "")
-{
-	$arr = explode("\n",$text);
-	while (list($c,$val) = each($arr))
-	{
-		if (ereg("^>",$val))
-		{
-			$arr[$c] = "<font color=#666666>".htmlspecialchars($val)."</font>";
-		}
-		else
-		{
-			$arr[$c] = htmlspecialchars($val);
-		}
-	}
-	$text = html_urlify($text);
-	$text = implode("<br>\n",$arr);
-	return $text;
-}
-
 // url-ify urls
 function html_urlify ($text)
 {
@@ -423,11 +404,11 @@ function html_footer ()
 
 <div class="copyright">
 LucasArts, Monkey Island, Maniac Mansion, Full Throttle,
-<br>The Dig, LOOM, and probably lots of other things are
-<br>registered trademarks of <a href="http://www.lucasarts.com" class="copyright">LucasArts, Inc.</a>.
-<br>All other trademarks and registered trademarks are
-<br>owned by their respective companies.
-<br>ScummVM is not affiliated in any way with LucasArts, Inc.
+The Dig, LOOM, and probably lots of other things are
+registered trademarks of <a href="http://www.lucasarts.com">LucasArts, Inc.</a>.
+All other trademarks and registered trademarks are
+owned by their respective companies.
+ScummVM is not affiliated in any way with LucasArts, Inc.
 </div>
 
 </body>

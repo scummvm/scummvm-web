@@ -124,7 +124,6 @@ echo html_round_frame_start("Credits","98%","",20);
 echo html_round_frame_end("&nbsp;");
 
 // end of html
-echo html_p();
 sidebar_end();
 html_footer();
 

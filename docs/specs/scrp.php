@@ -235,7 +235,6 @@ All material &copy; 2000-2002 David Given, unless where stated otherwise.
 echo html_round_frame_end("&nbsp;");
 
 // end of html
-echo html_p();
 sidebar_end();
 html_footer();
 ?>

@@ -58,7 +58,6 @@ echo html_round_frame_end("&nbsp;");
 //end of donations display
 
 // end of html
-echo html_p();
 sidebar_end();
 html_footer();
 

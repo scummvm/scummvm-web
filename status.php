@@ -221,7 +221,6 @@ particular) access to the SMUSH display.</p>
 echo html_round_frame_end("&nbsp;");
 
 // end of html
-echo html_p();
 sidebar_end();
 html_footer();
 

@@ -2,7 +2,7 @@
 BODY 		{ background-color: #6699CC; color: #000000; margin: 0px; }
 
 /* Link Colors */
-A		{ color: #A50D0D; font-family: Arial, Helvetica, sans-serif; font-size: 10pt; }
+A		{ color: #A50D0D; }
 A:hover		{ color: #FF6666; }
 A:active	{ color: #FF0000; }
 
@@ -21,8 +21,7 @@ SMALL		{ font-family: Arial, Helvetica, sans-serif; font-size: 8pt; }
 img { border: 0px; }
 
 /* draw a line below the h1/h2/h3 elements */
-h1,h2
-{
+h1,h2		{
 	background-image: url(images/grey_pixel.gif);
 	background-repeat: repeat-x;
 	background-position: left bottom;
@@ -30,8 +29,7 @@ h1,h2
 }
 
 /* news items */
-.news-item .news-header
-{
+.news-item .news-header	{
 	font-weight: bold;
 	font-size: medium;
 	background-image: url(images/grey_pixel.gif);
@@ -40,14 +38,12 @@ h1,h2
 	padding-bottom: 1px;
 }
 
-.news-item  .news-header .date
-{
+.news-item  .news-header .date	{
 	font-style: normal;
 	color: #666666;
 }
 
-.news-item .news-body
-{
+.news-item .news-body	{
 	margin: 1em 40px 2em 40px;
 }
 
@@ -74,7 +70,16 @@ h1,h2
 TD.label	{ font-weight: bold }
 
 /* Copyright */
-.copyright	{ font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #FFFFFF; text-align: right; }
+.copyright	{
+	width: 45ex;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #FFFFFF;
+	text-align: justify;
+	float: right;
+	padding: 1%;
+}
+.copyright a { color: white; }
 
 /* Percentage Colors */
 .pct0   	{ background-color: #ff5050; }
