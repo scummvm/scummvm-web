@@ -105,8 +105,7 @@ $notes = array(
 "samnmax"	=> "Game is completable.".
                    "<br>- Subgames do not work" . 
                    "<br>- Wak-A-Rat may appear to freeze. Hit escape and wait." . 
-                   "<br>- Intro Credits will freeze if Mad Doctor cutscene is allowed to play" .
-                   "<br>- Script race in Mystery Vortex will cause hang if you wait around",
+                   "<br>- Intro Credits will freeze if Mad Doctor cutscene is allowed to play" ,
 "samdemo"	=> "No known problems - should be playable to the end",
 "ft"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
 		   "<br>- some palette glitches during movie playback, and missing movie sound".
