@@ -120,9 +120,11 @@ $notes = array(
 "indy3"         => "Game is completable" .
                    "<br>- No sound effects",
 "indy3towns"    => "Game is completable." .
-                   "<br>- Sounds with partial loops, loop the whole sample instead of just that portion" ,
+                   "<br>- Sounds with partial loops, loop the whole sample instead of just that portion".
+                   "<br>- Kanji version isn't supported",
 "zak256"        => "Game is completable." .
-                   "<br>- Sounds with partial loops, loop the whole sample instead of just that portion" ,
+                   "<br>- Sounds with partial loops, loop the whole sample instead of just that portion".
+                   "<br>- Kanji version isn't supported",
 "loom"		=> "Game is completable".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
 		   "<br>- No music with Amiga version".
@@ -189,8 +191,9 @@ $notes = array(
 "dig"		=> "Game is fully completable, with some minor sound issues",
 "comi"		=> "Game is fully completable, although ship-to-ship is broken and several graphical glitches are present",
 "sky"	 	=> "Game is completable".
-		   "<br>- Floppy demo is not supported".
-                   "<br>- Random crashes have been reported",
+		   "<br>- Floppy demo isn't supported".
+                   "<br>- Random crashes have been reported".
+		   "<br>- Amiga versions aren't supported and probably never will be",
 "simon1win" 	=> "Game is completable.".
                    "<br>- Minor graphical glitches when using ring",
 "simon1talkie" 	=> "Game is completable.".
