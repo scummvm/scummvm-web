@@ -131,22 +131,16 @@ $notes = array(
 "simon1demo" 	=> "Game demo is completable to a point, but not playable to the end".
                    "<br>- Freezes briefly when Swampling leaves his house".
                    "<br>- No music",
-"simon2talkie"  => "Game is completable.".
-                   "<br>- Freeze for awhile when waking up in Sordid's Tower if entire travelling sequence was watched".
-                   "<br>- No music".
-                   "<br>- Part of introduction is skipped".
-                   "<br>- Various minor graphical glitches",
 "simon2win"     => "Game is completable.".
-                   "<br>- Freeze for awhile when waking up in Sordid's Tower if entire travelling sequence was watched".
-                   "<br>- Some music is missing".
-                   "<br>- Part of introduction is skipped".
+                   "<br>- Some music is missing or wrong".
+                   "<br>- Various minor graphical glitches",
+"simon2talkie"  => "Game is completable.".
+                   "<br>- No music".
                    "<br>- Various minor graphical glitches",
 "simon2dos"     => "Game is completable to a point, but not playable to the end".
                    "<br>- Freezes briefly during sequence shown when trying to escape from pirate ship".
-                   "<br>- Freeze for awhile when waking up in Sordid's Tower if entire travelling sequence was watched".
                    "<br>- No music".
-                   "<br>- Part of introduction is skipped".
-                   "<br>- Various minor graphical glitches"
+                  "<br>- Various minor graphical glitches"
 );
 		
 // render the compatibility chart
