@@ -191,9 +191,14 @@ $notes = array(
 "dig"		=> "Game is fully completable, with some minor sound issues",
 "comi"		=> "Game is fully completable, although ship-to-ship is broken and several graphical glitches are present",
 "sky"	 	=> "Game is completable".
-		   "<br>- Floppy demo isn't supported".
-                   "<br>- Random crashes have been reported".
-		   "<br>- Amiga versions aren't supported and probably never will be",
+		   "<br>- Floppy demos are unsupported".
+		   "<br>- Amiga versions aren't supported and probably never will be".
+		   "<br>".
+		   "<br>There are also bugs which were already present in the original game and which we can't fix:".
+		   "<br>- The voice files for some sentences are missing.".
+		   "<br>&nbsp;&nbsp;&nbsp;&nbsp;This is especcially noticable in the court- and Mrs. Piermont sequence.".
+		   "<br>- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders".
+		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
 "simon1win" 	=> "No known problems - game is completable.",
 "simon1talkie" 	=> "Game is completable.".
                     "<br>- No inventory scrolling arrows shown, can still move around inventory though",
