@@ -112,12 +112,20 @@ $HE_demos = array(
 		=> array('ftp://ftp.humongous.com/humongous/pjs-demo.zip', 'pjs-demo'),
 	'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/PJ2Demo.exe', 'pj2demo'),
+	'Pajama Sam's Lost & Found (Demo)'
+		=> array('ftp://ftp.humongous.com/humongous/losttest.zip', 'smaller'),
 	'Putt-Putt Saves the Zoo (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/puttzoo.zip', 'zoodemo'),
 	'Putt-Putt Travels Through Time (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/putttime.zip', 'timedemo'),
 	'Putt-Putt Enters the Race (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/puttraceDemo/puttrace.exe', 'racedemo')
+	'Spyfox 1: Dry Cereal (Demo)'
+		=> array('ftp://ftp.humongous.com/humongous/FOX95d.EXE', 'foxdemo')
+	'Spyfox 1: Dry Cereal (Demo)'
+		=> array('ftp://ftp.humongous.com/humongous/spy95_98.zip', 'spydemo')
+	'Backyard Baseball 2001 (Demo)'
+		=> array('ftp://ftp.infogrames.net/demos/backyardbaseball/bbdemo.exe', 'bb2demo')
 	);
 
 $MISC_demos = array(
