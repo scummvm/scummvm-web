@@ -43,6 +43,7 @@ function sidebar_start ()
 
 	$g = new htmlmenu("Misc. Menu");
 
+	$g->add("Demos", $file_root."/demos.php");
 	$g->add("Links", $file_root."/links.php");
 	$g->add("Contact", $file_root."/contact.php");
 
