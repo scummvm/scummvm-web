@@ -40,6 +40,8 @@ $demos = array(
 		=> array('http://www.cowlark.com/scumm.dat/zakstdemo.zip', 'zak'),
 	'The Secret of Monkey Island (16 colour)'	
 		=> array('http://www.cowlark.com/scumm.dat/mi_demo2.zip', 'monkeyega'),
+	'The Secret of Monkey Island (Amiga)'	
+		=> array('http://quick.mixnmojo.com/demos/mi1amigademo.zip', 'monkeyvga'),
 	'Indiana Jones and the Last Crusade (non interactive 16 colour)'	
 		=> array('http://www.cowlark.com/scumm.dat/indy3ega-demo.zip', 'indy3ega'),
 	'Loom (non interactive 16 colour)'
