@@ -80,12 +80,11 @@ h1 .caption	{ font-size: 8pt; font-weight: normal; }
 /* Side bar / content part */
 #sideBar {
 	width: 120px;
-	float: left;
 	text-align: center;
 	vertical-align: top;
 }
 #main {
-	margin-left: 120px;
+	width: 100%;
 	padding-left: 1em;
 	padding-right: 1em;
 	vertical-align: top;
