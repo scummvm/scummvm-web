@@ -44,7 +44,6 @@ echo html_round_frame_start("Download ScummVM","");
 	freeware games 'Beneath a Steel Sky' and 'Flight of the Amazon Queen', along with
 	cutscene packs recommended for use when playing Broken Sword 1 or 2 under ScummVM</LI>
 	</UL>
-	</p>
 
 	<hr>
 	<a name="stable"></a>
