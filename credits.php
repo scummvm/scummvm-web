@@ -44,10 +44,11 @@ echo html_round_frame_start("Credits","");
 	  			 "Lead developer");
 	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=12935">Max Horn</a>',
 	  			 'fingolfin', "Lead developer");
+	  add_person("Torbj&ouml;rn Andersson", "eriktorbjorn", "Engine: SCUMM, Broken Sword II");
 	  add_person("David Eriksson", "twogood", "Engine: Flight of the Amazon Queen");
-	  add_person("Jonathan Gray", "khalek", "Engine: SCUMM");
+	  add_person("Robert G&ouml;ffringmann", "lavosspawn", "Engine: Beneath a Steel Sky, Broken Sword I");
+	  add_person("Jonathan Gray", "khalek", "Engine: SCUMM, Broken Sword II");
 	  add_person("Travis Howell", "Kirben", "Engine: SCUMM, Simon the Sorcerer");
-	  add_person("Robert G&ouml;ffringmann", "lavosspawn", "Engine: Beneath a Steel Sky, Broken Sword 1");
 	  add_person("Oliver Kiehl", "olki", "Engine: Beneath a Steel Sky, Simon");
 	  add_person("Pawel Kolodziejski", "aquadran", "Engine: SCUMM (Codecs, iMUSE, Smush, etc.)");
 	  add_person("Gregory Montoir", "cyx", "Engine: Flight of the Amazon Queen");
@@ -57,14 +58,9 @@ echo html_round_frame_start("Credits","");
 	  add_person("Nicolas Bacca", "arisme", "Port: PocketPC/WinCE");
 	  add_person("Marcus Comstedt", "", "Port: DreamCast");
 	  add_person("Ruediger Hanke", "", "Port: MorphOS");
-	  add_person("Peter Moraliyski", "ph0x", "Port: GP32");
-	  add_person("Lionel Ulmer", "bbrox", "Port: X11");
-	  add_person("Torbj&ouml;rn Andersson", "eriktorbjorn", "Generic Bugfixer and Patch Submitter");
 	  add_person("Jamieson Christian", "jamieson630", "iMuse, MIDI, all things musical");
-	  add_person("Jochen Hoenicke", "hoenicke", "Speaker & PCjr sound support, Adlib work");
 	  add_person("Jerome Fisher", "KingGuppy", "MT-32 emulator");
-	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=339357">Jeremy Newman</a>',
-	  			 '<a href="http://www.dracowulf.com/">laxdragon</a>', "Webmaster");
+	  add_person("Jochen Hoenicke", "hoenicke", "Speaker & PCjr sound support, Adlib work");
 	  ?>
   
       <tr><td colspan=3>&nbsp;</td></tr>
@@ -76,25 +72,31 @@ echo html_round_frame_start("Credits","");
 	  			 'yazoo', "Co-Founder");
 	  add_person("Felix Jakschitsch", "yot", "Zak256 reverse engineering");
 	  add_person("Mutwin Kraus", "mutle", "Original MacOS Porter");
+	  add_person("Peter Moraliyski", "ph0x", "Port: GP32");
+	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=339357">Jeremy Newman</a>',
+	  			 '<a href="http://www.dracowulf.com/">laxdragon</a>', "Former webmaster");
 	  add_person('Ludvig Strigeus', 'ludde', "Original ScummVM and SimonVM Author");
+	  add_person("Lionel Ulmer", "bbrox", "Port: X11");
 	  ?>
 
       <tr><td colspan=3>&nbsp;</td></tr>
       <tr><td colspan=3><h2>Contributors:</h2></td></tr>
 
 	  <?php
+	  add_person("Tore Anderson", "tore", "Packaging for Debian GNU/Linux");
+	  add_person("Stuart Caie", "", "Decoders for Simon 1 Amiga data files");
 	  add_person("Janne Huttunen", "", "V3 actor mask support, Dig/FT SMUSH audio");
 	  add_person("Kov&aacute;cs Endre J&aacute;nos", "", "Several fixes for Simon1");
 	  add_person("Jeroen Janssen", "", "Numerous readability and bugfix patches");
 	  add_person("Claudio Matsuoka", "", 'Provided aily Linux/BeOS builds in the past');
 	  add_person("Mikesch Nepomuk", "", "MI1 VGA Floppy patches");
 	  add_person("Nicolas Noble", "pixels", "Config file and ALSA support");
+	  add_person("Willem Jan Palenstijn", "wjp", "Packaging for Fedora/RedHat");
+	  add_person("", "Quietust", "Sound support for Amiga SCUMM V2/V3 games");
 	  add_person("Edward Rudd", "", "Fixes for playing MP3 versions of MI1/Loom Audio");
-	  add_person("Daniel Schepler", "", "Final MI1 CD music support/ Initial Ogg Vorbis support");
+	  add_person("Daniel Schepler", "", "Final MI1 CD music support, initial Ogg Vorbis support");
 	  add_person("Andr&eacute; Souza", "", "SDL-based OpenGL renderer");
 	  add_person("Tim ???", "realmz", "Initial MI1 CD music support");
-	  add_person("Stuart Caie", "", "Decoders for Simon 1 Amiga data files");
-	  add_person("", "Quietust", "Sound support for Amiga SCUMM V2 - V3 games");
 	  ?>
 
       <tr><td colspan=3>&nbsp;</td></tr>
@@ -105,17 +107,34 @@ echo html_round_frame_start("Credits","");
       
 	  <?php
 	  add_person("Sander Buskens", "", "For his work on the initial reversing of Monkey2");
+	  add_person("", "Canadacow", "For the original MT-32 emulator");
 	  add_person("Kevin Carnes", "", "For Scumm16, the basis of ScummVM's older gfx codecs");
-	  add_person("Jim Leiterman", "", "Various info on his FmTowns/Marty SCUMM ports");
+	  add_person("Jim Leiterman", "", "Various info on his FM-TOWNS/Marty SCUMM ports");
 	  add_person("Jimmi Th&oslash;gersen", "", "For ScummRev, and much obscure code/documentation");
+	  add_person("", "Tristan", "For additional work on the original MT-32 emulator");
 	  ?>
+
+      <tr><td colspan=3>&nbsp;</td></tr>
+      <tr><td colspan=3>
+        Tony Warriner and everyone at Revolution Software Ltd. for sharing
+        with us the source of some of their brilliant games, allowing us to
+        release Beneath a Steel Sky as freeware... and generally being
+        supportive above and beyond the call of duty.
+      </td></tr>
+
+      <tr><td colspan=3>&nbsp;</td></tr>
+      <tr><td colspan=3>
+        John Passfield and Steve Stamatiadis for sharing the source of their
+        classic title, Flight of the Amazon Queen and also being incredibly
+        supportive.
+      </td></tr>
 
       <tr><td colspan=3>&nbsp;</td></tr>
       <tr><td colspan=3>
         Aric Wilmunder, Ron Gilbert, David Fox, Vince Lee, and all those at
         LucasFilm/LucasArts who made SCUMM the insane mess to reimplement
         that it is today. Feel free to drop us a line and tell us what you
-        think, guys!        
+        think, guys!
       </td></tr>
 
 	</table>
