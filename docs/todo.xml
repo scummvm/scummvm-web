@@ -27,9 +27,8 @@
 	<p>Here is a list of things we plan to do for the future. Note that we don't promise to do any of these, nor when we will do them. It's just a list
 	of what we hope to be able to do one day.</p>
 	<ul>
-	<li>Music and Sound effects in Indy3Vga</li>
+	<li>Music and sound effects in Indy3Vga, MonkeyEGA and MonkeyVGA</li>
 	<li>proper Full Throttle support</li>
-	<li>Monkey1Ega support</li>
 	<li>Curse of Monkey Island support (we already have that partially in latest CVS!)</li>
 	<li>Maniac Mansion support</li>
 	<li>Zak McKracken (non-FmTowns) support</li>
@@ -66,6 +65,10 @@
 			<li>See also the <a href="../compatibility.php?details=dig">compatibility page for The DIG</a></li>
 			<li><i>Ask: Ender</i></li>
 		</ul>
+		<li><h4>Monkey1EGA</h4>
+		<ul>
+			<li>Fix music support, add sound support</li>
+		</ul>
 		<li><h4>Monkey1VGA</h4>
 		<ul>
 			<li>Fix music support, add sound support</li>
@@ -95,8 +98,10 @@
 		</ul>
 		<li><h4>Simon</h4>
 		<ul>
-			<li>There are many open bugs for Simon, we really need somebody who can take over maintaining the Simon part of ScummVM</li>
-			<li>Check <a href="http://members.optusnet.com.au/wormmon/simon.html">Simon issues</a></li>
+			<li>Add proper tranparency support</li>
+			<li>Add XMI music support for simon2dos/talkie</li>
+			<li>Add proper music support for Simon the Sorcerer 2</li>
+			<li>Check <a href="http://members.optusnet.com.au/wormmon/simon.html">Simon issues</a> for list of other bugs</li>
 			<li><i>Ask: olki, Kirben</i></li>
 		</ul>
 	</ul>
