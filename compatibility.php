@@ -95,7 +95,7 @@ $games = array(
 		'Simon The Sorcerer 1 (Amiga)'          		=> array('n/a','simon1amiga','5'),
 		'Simon The Sorcerer 1 (Demo)'          			=> array('n/a','simon1demo','83'),
 		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','85'),
-		'Simon The Sorcerer 2 Talkie (DOS)'       		=> array('n/a','simon2talkie','85'),
+		'Simon The Sorcerer 2 Talkie (DOS)'       		=> array('n/a','simon2talkie','90'),
 		'Simon The Sorcerer 2 Talkie (Amiga or Mac)'       	=> array('n/a','simon2mac','85'),
 		'Simon The Sorcerer 2 (DOS)'           			=> array('n/a','simon2dos','83')
 	      );
@@ -187,11 +187,9 @@ $notes = array(
 		   "<br>- Floppy demo is not supported".
                    "<br>- Random crashes have been reported",
 "simon1win" 	=> "Game is completable.".
-                   "<br>- Minor graphical glitches when using ring".
-                   "<br>- Minor graphical glitch with Sordid statue after leaving room",
+                   "<br>- Minor graphical glitches when using ring",
 "simon1talkie" 	=> "Game is completable.".
                    "<br>- Minor graphical glitches when using ring".
-                   "<br>- Minor graphical glitch with Sordid statue after leaving room".
                    "<br>- No inventory scrolling arrows shown, can still move around inventory though",
 "simon1cd32" 	=> "Game works a bit but can't see anything".
                    "<br>- All graphics are decoded incorrectly".
@@ -200,26 +198,21 @@ $notes = array(
                    "<br>- Freezes briefly when Swampling leaves his house".
                    "<br>- Freezes briefly when talking to demons in Sordid's Tower".
                    "<br>- Minor graphical glitches when using ring".
-                   "<br>- Minor graphical glitch with Sordid statue after leaving room".
                    "<br>- No inventory scrolling arrows shown, can still move around inventory though",
 "simon1amiga" 	=> "Game works a bit but can't see anything".
                    "<br>- All graphics are decoded incorrectly".
                    "<br>- No music",
 "simon1demo" 	=> "Game demo is completable".
                    "<br>- Freezes briefly when Swampling leaves his house",
-"simon2win"     => "Game is completable.".
-                   "<br>- Minor graphical glitch when giving items to baby",
+"simon2win"     => "No known problems - game is completable.",
 "simon2talkie"  => "Game is completable.".
-                   "<br>- When subtiles are enabled, it freezes briefly when Pirate Captain is talking to Mate, when Simon tries to escape".
-                   "<br>- Minor graphical glitch when giving items to baby",
+                   "<br>- When subtiles are enabled, it freezes briefly when Pirate Captain is talking to Mate, when Simon tries to escape",
 "simon2dos"     => "Game is completable.".
                    "<br>- Text in Copy Protection screen is only shown for short time".
-                   "<br>- Freezes briefly when Pirate Captain is talking to Mate, when Simon tries to escape".
-                   "<br>- Minor graphical glitch when giving items to baby",
+                   "<br>- Freezes briefly when Pirate Captain is talking to Mate, when Simon tries to escape",
 "simon2mac"     => "Game is completable.".
                    "<br>- Only default language in data files is supported".
-                   "<br>- F10 key animation is different".
-                   "<br>- Minor graphical glitch when giving items to baby"
+                   "<br>- F10 key animation is different"
 );
 		
 // render the compatibility chart
