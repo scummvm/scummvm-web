@@ -81,9 +81,9 @@ $games = array(
 		'Indiana Jones 4 and the Fate of Atlantis (FmTowns)'	=> array('5','indy4','95'),
 		'Indiana Jones 4 and the Fate of Atlantis (Demo)'	=> array('5','playfate','95'),
 		'Putt-Putt Joins The Parade (Demo)'			=> array('6','puttdemo','95'),
-		'Putt-Putt Joins The Parade'				=> array('6','puttputt','80'),
-		'Putt-Putt Goes To The Moon ( Demo)'			=> array('6','moondemo','60'),
-		'Putt-Putt Goes To The Moon'				=> array('6','puttmoon','20'),
+		'Putt-Putt Joins The Parade'				=> array('6','puttputt','85'),
+		'Putt-Putt Goes To The Moon ( Demo)'			=> array('6','moondemo','95'),
+		'Putt-Putt Goes To The Moon'				=> array('6','puttmoon','85'),
 		'Putt-Putts Fun Pack'					=> array('6','funpack','70'),
 		'Fatty Bears Birthday Surprise (Demo)'			=> array('6','fbdemo','95'),
 		'Fatty Bears Birthday Surprise'				=> array('6','fbear','80'),
@@ -173,14 +173,12 @@ $notes = array(
 		   "<br>- 3DO, DOS and Windows versions supported by this target".
                    "<br>- Minor graphical glitches when cars come out of their garages on streets".
 		   "<br>- Cursors aren't scaled correctly in Windows version",
-"puttmoon"	=> "Fails an AKOS related assertion shortly after starting".
+"puttmoon"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS and Windows versions supported by this target".
-		   "<br>- Fails AKOS related assertion in three locations".
 		   "<br>- Cursors aren't scaled correctly in Windows version",
-"moondemo"	=> "Completable if you don't trigger one fatal animation".
+"moondemo"	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target".
-		   "<br>- Creature behind garage door disappears".
-		   "<br>- Cursors are scaled correctly in Windows version",
+		   "<br>- Cursors aren't scaled correctly in Windows version",
 "funpack"	=> "Starts but mini games seem to have various problems".
 		   "<br>- Both 3DO and DOS versions supported by this target".
 		   "<br>- Cheese King: Triggers an assertion",
