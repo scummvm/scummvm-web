@@ -167,9 +167,9 @@ $notes = array(
 "dig"		=> "Game is fully completable, with some minor sound issues",
 "comi"		=> "Game is fully completable, although ship-to-ship is broken and several graphical glitches are present",
 "simon1win" 	=> "Game is completable.".
-                   "<br>- Various minor graphical glitches",
+                   "<br>- Minor graphical glitches when using ring and looking at Sordid statue",
 "simon1talkie" 	=> "Game is completable.".
-                   "<br>- Various minor graphical glitches",
+                   "<br>- Minor graphical glitches when using ring and looking at Sordid statue",
 "simon1cd32" 	=> "Game works a bit but can't see anything".
                    "<br>- All graphics are decoded incorrectly".
                    "<br>- pkd format is unknown".
@@ -178,30 +178,30 @@ $notes = array(
 "simon1dos" 	=> "Game is completable.".
                    "<br>- Freezes briefly when Swampling leaves his house".
                    "<br>- Freezes briefly when talking to demons in Sordid's Tower".
-                   "<br>- Various minor graphical glitches",
+                   "<br>- Minor graphical glitches when using ring and looking at Sordid statue",
 "simon1amiga" 	=> "Not at all implemented yet - ScummVM doesn't understand the pkd and music formats",
 "simon1demo" 	=> "Game demo is completable".
                    "<br>- Freezes briefly when Swampling leaves his house".
                    "<br>- No music",
 "simon2win"     => "Game is completable.".
                    "<br>- Some music is missing or wrong".
-                   "<br>- Various minor graphical glitches",
+                   "<br>- Minor graphical glitch when giving items to baby",
 "simon2talkie"  => "Game is completable.".
                    "<br>- No music".
-                   "<br>- Various minor graphical glitches",
+                   "<br>- Minor graphical glitch when giving items to baby",
 "simon2dos"     => "Game is completable.".
                    "<br>- No music".
-                   "<br>- Various minor graphical glitches",
+                   "<br>- Minor graphical glitch when giving items to baby",
 "simon2amiga"   => "Game is completable.".
                    "<br>- Only default language in data files is supported".
                    "<br>- No music".
-                   "<br>- F10 key animation is different".
-                   "<br>- Various minor graphical glitches",
+                   "<br>- F10 key animation is different"
+                   "<br>- Minor graphical glitch when giving items to baby",
 "simon2mac"     => "Game is completable.".
                    "<br>- Only default language in data files is supported".
                    "<br>- No music".
                    "<br>- F10 key animation is different".
-                   "<br>- Various minor graphical glitches",
+                   "<br>- Minor graphical glitch when giving items to baby",
 "simon2demo" 	=> "Game demo is completable".
                    "<br>- No music"
 );
