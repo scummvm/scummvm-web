@@ -134,7 +134,6 @@ $notes = array(
                    "<br>- Kanji version isn't supported",
 "loom"		=> "No known problems - should be playable to the end".
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
-		   "<br>- Mac version crashes after copy protection screen".
 		   "<br>- No music or sound effects with Mac version".
 		   "<br>- Atari ST and Mac versions require pcjr or pcspk music driver".
 		   "<br>- MIDI support requires the Roland update from LucasArts",
