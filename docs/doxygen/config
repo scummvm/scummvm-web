@@ -305,6 +305,7 @@ INPUT                  = \
 	/home/groups/s/sc/scummvm/scummvm/base \
 	/home/groups/s/sc/scummvm/scummvm/common \
 	/home/groups/s/sc/scummvm/scummvm/gui \
+	/home/groups/s/sc/scummvm/scummvm/saga \
 	/home/groups/s/sc/scummvm/scummvm/scumm \
 	/home/groups/s/sc/scummvm/scummvm/simon \
 	/home/groups/s/sc/scummvm/scummvm/sky \
