@@ -20,7 +20,7 @@ sidebar_start();
 echo html_round_frame_start("ScummVM Documentation","");
 echo html_frame_start("","100%",1,1);
 
-$view = $_GET['view'];
+$view = $HTTP_GET_VARS['view'];
 
 if ($view and file_exists($file_root."/docs/".$view.".xml"))
 {

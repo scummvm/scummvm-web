@@ -23,6 +23,8 @@ echo html_round_frame_start("Screenshots","");
 
 <?
 
+$view = $HTTP_GET_VARS['view'];
+$offset = $HTTP_GET_VARS['offset'];
 
 // if in single view
 if ($view != "")
@@ -36,19 +38,25 @@ if ($view != "")
 		echo
 		 html_frame_start("Screenshot Viewer","540",2,0,"color0"),
 	     html_frame_tr(
-	     		   html_frame_td(
-			   		 '<img src="'.$file_root.'/screenshots/big_scummvm_'.$view.'.png" '.
-				         'style="margin: 2px;" width=640 height=400 '.
-				         'alt="Screenshot '.$view.'">',
-					 'align=center class="color0"'
-					)
-	                  ),
+				html_frame_td(
+					'<img src="'.$file_root.'/screenshots/big_scummvm_'.$view.'.png" '.
+						'width=640 height=400 '.
+						'alt="Screenshot '.$view.'">',
+					'align=center class="color0" style="padding-top: 10px;"'
+				)
+			),
 	     html_frame_tr(
-	     		   html_frame_td(
-			   		 html_ahref("&nbsp; &lt;&lt; Back",$PHP_SELF."?offset=".$offset,"style='color: white;'"),
-					 'align=left class="color4"'
-			   		)
-	     		  ),
+				html_frame_td(
+					file_get_contents($file_root.'/screenshots/scummvm_'.$view.'.txt'),
+					'align=center class="color0" style="padding-bottom: 10px; font-style: italic;"'
+				)
+			),
+	     html_frame_tr(
+				html_frame_td(
+			   		html_ahref("&nbsp; &lt;&lt; Back",$PHP_SELF."?offset=".$offset,"style='color: white;'"),
+					'align=left class="color4"'
+				)
+			),
 	     html_frame_end();
 	}
 }
@@ -82,11 +90,14 @@ else
 
 		// display image
 		echo html_frame_td(
+				   '<table cellpadding="0" cellspacing="0"><tr><td align="center">'.
 				   '<a href="'.$PHP_SELF."?view=".$c.'&amp;offset='.$offset.'">'.
 				   '<img src="'.$file_root.'/screenshots/scummvm_'.$c.'.png" '.
-				   'style="margin: 10px;" width=256 height=160 '.
-				   'alt="Screenshot '.$c.'"></a>',
-				   'align=center class="color0"'
+				   'width=256 height=160 alt="Screenshot '.$c.'"></a>'.
+				   '</td></tr><tr><td align="center">'.
+				   file_get_contents($file_root.'/screenshots/scummvm_'.$c.'.txt').
+				   '</td></tr></table>',
+				   'align=center class="color0" style="padding-top: 10px; font-style: italic;"'
 				  );
 
 		// count number of images displayed.
