@@ -18,6 +18,7 @@
 <li><a href="#samnmax">Sam &amp; Max</a></li>
 <li><a href="#tentacle">Day Of The Tentacle</a></li>
 <li><a href="#ft">Full Throttle</a></li>
+<li><a href="#sword1">Broken Sword I</a></li>
 <!-- <li><a href="#TARGET">FOO</a></li> -->
 </ul>
 
@@ -347,54 +348,54 @@
 
 <table border="1" cellspacing="0" cellpadding="2">
 <tr><th>Param</th><th>Description</th></tr>
-<tr><td>101</td><td>???</td></tr>
-<tr><td>211</td><td>???</td></tr>
-<tr><td>212</td><td>???</td></tr>
-<tr><td>221</td><td>???</td></tr>
-<tr><td>222</td><td>???</td></tr>
-<tr><td>223</td><td>???</td></tr>
-<tr><td>233</td><td>???</td></tr>
-<tr><td>301</td><td>???</td></tr>
-<tr><td>402</td><td>???</td></tr>
-<tr><td>403</td><td>???</td></tr>
-<tr><td>404</td><td>???</td></tr>
-<tr><td>405</td><td>???</td></tr>
+<tr><td>101</td><td>office</td></tr>
+<tr><td>211</td><td>carnival</td></tr>
+<tr><td>212</td><td>carnival</td></tr>
+<tr><td>221</td><td>tunnel of love</td></tr>
+<tr><td>222</td><td>tunnel of love</td></tr>
+<tr><td>223</td><td>doug the moleman</td></tr>
+<tr><td>233</td><td>hall of oddities</td></tr>
+<tr><td>301</td><td>world of fish</td></tr>
+<tr><td>402</td><td>mystery vortex magnets</td></tr>
+<tr><td>403</td><td>mystery vortex</td></tr>
+<tr><td>404</td><td>mystery vortex</td></tr>
+<tr><td>405</td><td>Shuv-Oohl</td></tr>
 <tr><td>408</td><td>???</td></tr>
-<tr><td>409</td><td>???</td></tr>
-<tr><td>501</td><td>???</td></tr>
-<tr><td>503</td><td>???</td></tr>
-<tr><td>515</td><td>???</td></tr>
-<tr><td>516</td><td>???</td></tr>
-<tr><td>517</td><td>???</td></tr>
-<tr><td>518</td><td>???</td></tr>
-<tr><td>600</td><td>???</td></tr>
-<tr><td>650</td><td>???</td></tr>
-<tr><td>651</td><td>???</td></tr>
-<tr><td>652</td><td>???</td></tr>
-<tr><td>701</td><td>???</td></tr>
-<tr><td>711</td><td>???</td></tr>
-<tr><td>911</td><td>???</td></tr>
-<tr><td>1001</td><td>???</td></tr>
-<tr><td>1002</td><td>???</td></tr>
-<tr><td>1050</td><td>???</td></tr>
-<tr><td>1107</td><td>???</td></tr>
-<tr><td>1113</td><td>???</td></tr>
-<tr><td>1150</td><td>???</td></tr>
-<tr><td>1199</td><td>???</td></tr>
-<tr><td>1210</td><td>???</td></tr>
-<tr><td>1290</td><td>???</td></tr>
-<tr><td>1301</td><td>???</td></tr>
-<tr><td>1400</td><td>???</td></tr>
-<tr><td>1410</td><td>???</td></tr>
-<tr><td>1420</td><td>???</td></tr>
+<tr><td>409</td><td>mystery vortex</td></tr>
+<tr><td>501</td><td>worlds largest ball of twine</td></tr>
+<tr><td>503</td><td>inside fish head at ball of twine</td></tr>
+<tr><td>515</td><td>binoculars at ball of twine</td></tr>
+<tr><td>516</td><td>binoculars at ball of twine</td></tr>
+<tr><td>517</td><td>binoculars at ball of twine</td></tr>
+<tr><td>518</td><td>binoculars at ball of twine</td></tr>
+<tr><td>600</td><td>gator golf</td></tr>
+<tr><td>650</td><td>gator golf</td></tr>
+<tr><td>651</td><td>gator golf</td></tr>
+<tr><td>652</td><td>gator golf</td></tr>
+<tr><td>701</td><td>snuckey's</td></tr>
+<tr><td>711</td><td>snuckey's</td></tr>
+<tr><td>911</td><td>frog rock</td></tr>
+<tr><td>1001</td><td>outside bumpusville</td></tr>
+<tr><td>1002</td><td>outside bumpusville</td></tr>
+<tr><td>1050</td><td>bumpusville, conroy's hairpiece</td></tr>
+<tr><td>1107</td><td>outside savage jungle inn</td></tr>
+<tr><td>1113</td><td>savage jungle inn, freezer</td></tr>
+<tr><td>1150</td><td>savage jungle inn, pool</td></tr>
+<tr><td>1199</td><td>outside savage jungle inn</td></tr>
+<tr><td>1210</td><td>dino bungee national memorial</td></tr>
+<tr><td>1290</td><td>end sequence</td></tr>
+<tr><td>1301</td><td>celebrity vegetable musuem</td></tr>
+<tr><td>1400</td><td>savage jungle inn, totem poles</td></tr>
+<tr><td>1410</td><td>savage jungle inn, pool</td></tr>
+<tr><td>1420</td><td>end sequence</td></tr>
 <tr><td>1425</td><td>???</td></tr>
-<tr><td>1430</td><td>???</td></tr>
-<tr><td>1501</td><td>???</td></tr>
-<tr><td>1502</td><td>???</td></tr>
-<tr><td>1503</td><td>???</td></tr>
+<tr><td>1430</td><td>credits</td></tr>
+<tr><td>1501</td><td>car bomb</td></tr>
+<tr><td>1502</td><td>wax me</td></tr>
+<tr><td>1503</td><td>highway racing</td></tr>
 <tr><td>1505</td><td>???</td></tr>
-<tr><td>1506</td><td>???</td></tr>
-<tr><td>2000</td><td>???</td></tr>
+<tr><td>1506</td><td>dress up</td></tr>
+<tr><td>2000</td><td>intro</td></tr>
 </table>
 
 <br><a name="tentacle"></a>
@@ -541,6 +542,76 @@
 <tr><td>930</td><td>Finale: In the cargo plane</td></tr>
 <tr><td>940</td><td>Finale: Kill Ripburger!</td></tr>
 <tr><td>950</td><td>Finale: Finale</td></tr>
+</table>
+
+
+<br><a name="sword1"></a>
+<h2>Broken Sword I</h2>
+
+<table border="1" cellspacing="0" cellpadding="2">
+<tr><th>Param</th><th>Description</th></tr>
+<tr><td>0</td><td>intro</td></tr>
+<tr><td>1</td><td>skip the intro</td></tr>
+<tr><td>2</td><td>bind_alley</td></tr>
+<tr><td>3</td><td>cafe</td></tr>
+<tr><td>4</td><td>ready to use phone</td></tr>
+<tr><td>5</td><td>court_yard</td></tr>
+<tr><td>7</td><td>sewer_two</td></tr>
+<tr><td>8</td><td>cafe_repaired</td></tr>
+<tr><td>11</td><td>costumier</td></tr>
+<tr><td>12</td><td>hotel_street</td></tr>
+<tr><td>14</td><td>hotel_corridor</td></tr>
+<tr><td>17</td><td>hotel_assassin</td></tr>
+<tr><td>18</td><td>gendarmerie</td></tr>
+<tr><td>19</td><td>ireland_street</td></tr>
+<tr><td>20</td><td>macdevitts</td></tr>
+<tr><td>21</td><td>pub_cellar</td></tr>
+<tr><td>22</td><td>castle_gate</td></tr>
+<tr><td>23</td><td>castle_hay_top</td></tr>
+<tr><td>24</td><td>castle_yard</td></tr>
+<tr><td>25</td><td>castle_dig</td></tr>
+<tr><td>26</td><td>cellar_dark</td></tr>
+<tr><td>27</td><td>musuem_street</td></tr>
+<tr><td>31</td><td>hospital_street</td></tr>
+<tr><td>32</td><td>hospital_desk (after we've found out where Marquet is)</td></tr>
+<tr><td>35</td><td>hospital_jacques</td></tr>
+<tr><td>36</td><td>montfaucon</td></tr>
+<tr><td>37</td><td>catacomb_sewer</td></tr>
+<tr><td>38</td><td>catacomb_room</td></tr>
+<tr><td>39</td><td>catacomb_meeting</td></tr>
+<tr><td>40</td><td>excavation_exterior</td></tr>
+<tr><td>45</td><td>syria_stall</td></tr>
+<tr><td>47</td><td>syria_carpet</td></tr>
+<tr><td>48</td><td>templar_church</td></tr>
+<tr><td>49</td><td>syria_club</td></tr>
+<tr><td>50</td><td>syria_toilet</td></tr>
+<tr><td>53</td><td>bull_head pan</td></tr>
+<tr><td>54</td><td>bull_head</td></tr>
+<tr><td>55</td><td>bull_secret</td></tr>
+<tr><td>56</td><td>Countess' room (1st visit)</td></tr>
+<tr><td>57</td><td>Spain Drive (1st visit)</td></tr>
+<tr><td>58</td><td>Mausoleum Exterior (1st visit)</td></tr>
+<tr><td>59</td><td>Mausoleum Interior (1st visit)</td></tr>
+<tr><td>60</td><td>Spain Reception (1st visit)</td></tr>
+<tr><td>61</td><td>Spain Well (1st visit)</td></tr>
+<tr><td>62</td><td>Chess Puzzle (1st visit)</td></tr>
+<tr><td>63</td><td>train_one</td></tr>
+<tr><td>65</td><td>compt_one</td></tr>
+<tr><td>66</td><td>compt_two</td></tr>
+<tr><td>67</td><td>compt_three</td></tr>
+<tr><td>69</td><td>train_guard</td></tr>
+<tr><td>71</td><td>churchyard</td></tr>
+<tr><td>72</td><td>church_tower</td></tr>
+<tr><td>73</td><td>crypt </td></tr>
+<tr><td>80</td><td>Paris Map</td></tr>
+<tr><td>99</td><td>test text+speech on blank screen (sc99)</td></tr>
+<tr><td>956</td><td>Countess' room (2nd visit)</td></tr>
+<tr><td>957</td><td>Spain Drive (2nd visit)</td></tr>
+<tr><td>958</td><td>Mausoleum Exterior (2nd visit)</td></tr>
+<tr><td>959</td><td>Mausoleum Interior (2nd visit)</td></tr>
+<tr><td>960</td><td>Spain Reception (2nd visit)</td></tr>
+<tr><td>961</td><td>Spain Well (2nd visit)</td></tr>
+<tr><td>962</td><td>Chess Puzzle (2nd visit)</td></tr>
 </table>
 
 <!--
