@@ -18,6 +18,19 @@ sidebar_start();
 //display welcome table
 echo html_round_frame_start("Screenshots","");
 
+//hack around PHP <4.3.0
+if (!function_exists("file_get_contents")) {
+	function file_get_contents($filename) {
+		$text = "";
+		$file = fopen($filename, "rb");
+		if ($file) {
+			while (!feof($file)) 
+				$text .= fread($file, 1024);
+			fclose($file);
+    		}
+    		return $text;
+   	}
+}
 ?>
 	<h1>Screenshots</h1>
 
