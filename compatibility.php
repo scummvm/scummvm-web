@@ -232,8 +232,8 @@ $notes = array(
 		   "<br>- Requires <a href=\"http://0x.7fc1.org/fotaq/queen.tbl\">queen.tbl</a> resource file",
 "simon1win" 	=> "No known problems - game is completable.",
 "simon1talkie" 	=> "Game is completable.",
-"simon1cd32" 	=> "Game works a bit but can't see anything".
-                   "<br>- All graphics are decoded incorrectly".
+"simon1cd32" 	=> "Game is completable, with major graphics glitches".
+                   "<br>- Character and background graphics are decoded incorrectly".
                    "<br>- No music",
 "simon1acorn" 	=> "Game is completable.",
 "simon1dos" 	=> "Game is completable.",
