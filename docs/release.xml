@@ -1,6 +1,8 @@
 <name>ScummVM 0.7.0 Checklist</name>
 <desc>This page is the current checklist for releasing 0.7.0/desc>
 <body>
+The 0.7.0 testing phase is over now.
+<!--
 <?php
 function printStatus($status) {
 	if ($status == 0) {
@@ -240,4 +242,5 @@ function bugs($buglist) {
 	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 
 </table>
+-->
 </body>
