@@ -164,6 +164,15 @@ get you and eat your family, computer and house. And poop everywhere.
 	    of these games so that we can add support for them, and allowed us to release BASS as freeware. Thanks guys!
 	    </blockquote></td>
 	  </tr>
+	  <tr><td><a href="http://scummlinux.sourceforge.net/"><b>ScummLinux :: a ScummVM LiveCD</b></a></td></tr>
+	    <tr>
+	      <td><blockquote>
+	      ScummLinux allows you to play your favorite ScummVM-supported games anywhere; 
+	      just boot the CD, choose a game, and enjoy.  It supports all the soundcards 
+	      supported by the Linux kernel and TV-Out for some graphics cards, so you can
+	      even play on a television set.
+              </blockquote></td>
+	  </tr>
 
 	</table>
 	</blockquote>
