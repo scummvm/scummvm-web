@@ -65,11 +65,6 @@ function portStatus($ports) {
 
 	<h2>Testing results</h2>
 	<p>
-	The following games need to be tested with the latest CVS snapshots:
-	</p>
-
-	<h2>Testing results</h2>
-	<p>
 	The following table lists the results of the current testing phase. For each game, there is
 	a row in this table, and for each of our main operating systems, there is a row.
 	Where they intersect, you'll either see a + (if the game was tested successfully on that OS),
