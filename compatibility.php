@@ -103,7 +103,6 @@ $notes = array(
 "zakc64"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
 "maniac"	=> "Enhanced version runs, although in-game there are still many things wrong".
 		   "<br>- Both Amiga and enchanced PC versions supported by this target".
-                   "<br>- Some sound effects missing".
 		   "<br>- No music or sound effects with Amiga version",
 "zak"		=> "Enhanced version runs, although in-game there are still many things wrong".
 		   "<br>- Both Amiga and enchanced PC versions supported by this target".
