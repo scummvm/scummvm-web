@@ -32,7 +32,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
        <li><a href="#1-3">Is ScummVM free?</a></li>
        <li><a href="#1-4">What games does ScummVM support?</a></li>
        <li><a href="#1-5">Will ScummVM support other games?</a></li>
-       <li><a href="#1-6">When Maniac Mansion Deluxe will be supported?</a></li>
+       <li><a href="#1-6">When will Maniac Mansion Deluxe be supported?</a></li>
        <li><a href="#1-7">Where do I find ScummVM?</a></li>
        <li><a href="#1-8">How do I compile the source code for my OS?</a></li>
        <li><a href="#1-9">On what platforms does ScummVM run?</a></li>
@@ -79,7 +79,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 
   <li><a href="#5">Features</a>
     <ol>
-      <li><a href="#5-1">Please, add support for zip archives.</a></li>
+      <li><a href="#5-1">Will you add support for zip archives?</a></li>
     </ol>
   </li>
 </ol>
@@ -134,12 +134,13 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	in providing us with source code for one of your classic titles, please do not ask.
       </p></li>
 
-      <li><p><a name="1-6"></a><b>When Maniac Mansion Deluxe will be supported?</b><br>
-	This game is a fan-made replica of original Maniac Mansion. It is not same
-	game as Maniac Mansion Enchanced which we do support. It features improved
-	music, sounds, 256-colors graphics and revorked game interface. It runs on top
-	of <a href="http://www.adventuregamestudio.co.uk/">Adventure Game Studio</a> which
-	is free, albeit closed-source graphics adventures engine. There are Windows,
+      <li><p><a name="1-6"></a><b>When will Maniac Mansion Deluxe be supported?</b><br>
+    The short answer: never. The long answer:
+	This game is a fan-made replica of original Maniac Mansion. It is not the same
+	game as Maniac Mansion Enhanced which we do support. It features improved
+	music, sounds, 256-colors graphics and revorked game interface. It was made using
+	the <a href="http://www.adventuregamestudio.co.uk/">Adventure Game Studio</a> which
+	is a free, albeit closed-source graphics adventures engine. There are Windows,
 	Linux and FreeBSD versions of the engine. Its author keeps his source code closed
 	due to some reasons explained in project <a href="http://www.agsforums.com/acfaq.htm">FAQ</a>
 	(see last two questions). That means that you need to download that program to
@@ -259,9 +260,10 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	to the letter, then see <a href="#4-10">4.10</a> to report this as a bug.</p></li>
 	
       <li><p><a name="4-2"></a><b>I installed my game but ScummVM can't find it.</b><br>
-      	First don't use install.exe or setup.exe shipped with the game. It will not work as 
-	usually it copies just game .exe and some shortcuts. ScummVM requires all game
-	data to run, so you will need to copy those. See 
+      	First don't use the install.exe or setup.exe shipped with the game. They usually will
+      	not do what you need to run the game with ScummVM -- rather they just copy the game
+      	.exe and install some shortcuts. ScummVM requires all game
+	data to run, so you will need to copy those manually. Look at the
 	<a href="/documentation.php?view=datafiles">Game Data Files</a> page for
 	further details.
 	</p></li>
@@ -332,13 +334,15 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
   <li><a name="5"></a><b>Features</b><br>
 
     <ol>
-      <li><p><a name="5-1"></a><b>Please, add support for zip archives.</b><br>
-	We will not do it. There are some reasons. First, we believe that it
-	may ease illegal distribution of games. Second, we already support compression
+      <li><p><a name="5-1"></a><b>Will you add support for zip archives?</b><br>
+	We will not do it. There are two main reasons for that. First, we believe that it
+	would ease illegal distribution of games. Second, we already support compression
 	of game sound in most bigger titles, and use specially designed algorithms
-	like MP3, Ogg and FLAC, so goal to have smaller files is already achieved.
-	Third, and last, we as a team already made that decision not to add
-	such feature and it's final.
+	like MP3, Ogg and FLAC, so you already can reduce the size of the data files.
+	<br>
+	We as a team already discussed that question. We can't absolutely exclude
+	the possibility of changing our mind one day in the future, but for now, we
+	have no intentions to do so, hence please don't ask us about it!
 	</p></li>
 
     </ol>
