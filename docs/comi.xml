@@ -20,20 +20,20 @@
 		<li>Lack of actorHit opcode breaks collision detection in ship-to-ship combat
 		<li>Something is screwy with the cannon physics in ship-to-ship combat. You hit yourself. 
 		(but the script still thinks you have won :)
+		<li>Failed assertion when using shift w to win. 
+		scumm/script_v8.cpp:571: void Scumm::enqueueText(byte *, int, int, unsigned char, unsigned char, bool): Assertion `_blastTextQueuePos <= 8' failed.
 	</ul>
 <li>Sound:
 	<ul>
 		<li>Voices 'pop', and music decompressor uses too much CPU for smooth music playback
 		<li>Occasional crashes from 'sound que buffer overflow' (hard to reproduce)
 		<li>Lack of imGetMusicPosition kernel function breaks song sync in Part 3 intro
-		<li>Failed assertion when using shift w to win. 
-		scumm/bundle.cpp:318: int32 Bundle::decompressMusicSampleByIndex(int, int, byte *, int32 &): Assertion `num <= 3361' failed.
-		<li>Failed assertion during Murray's dialogue after getting anchor. scumm/bundle.cpp:263: int32 Bundle::decompressVoiceSampleByIndex(int, byte *, int32 &): Assertion `num <= 50' failed. See http://users.bigpond.net.au/tgray2/comi.s01 for a save.
 	</ul>
 <li>Graphics:
 	<ul>
 		<li>Some text does not undraw correctly, again leaving behind artifacts
 		<li>Masking artifacts. See many animations, eg during insult sword fighting
+		<li>Credits blur when they scroll
 	</ul>
 <li>Conversation:
 	<ul>
