@@ -28,6 +28,7 @@
 	of what we hope to be able to do one day.</p>
 	<ul>
 	<li>Add sound effects in Indy3Vga, MonkeyEga, MonkeyVga and Pass</li>
+	<li>Add music and sound effects in Amiga versions of games</li>
 	<li>Complete Full Throttle support</li>
 	<li>Complete Maniac Mansion/Zak McKracken V2 support </li>
 	<li>Complete Maniac Mansion/Zak McKracken V1 support</li>
@@ -64,12 +65,19 @@
 		<ul>
 			<li>Add sound effects support</li>
 			<li>Fix Amiga version</li>
+			<li>Add music and sound effects support for Amiga version</li>
 			<li>The demo version locks up after introduction</li>
 		</ul>
 		<li><h4>Monkey1VGA</h4>
 		<ul>
 			<li>Add sound effects support</li>
 			<li><i>Ask: MadMoose, Fingolfin</i></li>
+		</ul>
+		<li><h4>Monkey2</h4>
+		<ul>
+			<li>Fix graphic glitches in Amiga version</li>
+			<li>Add sound effects support for Amiga version</li>
+			<li>The demo version crashes after Lucasarts logo</li>
 		</ul>
 		<li><h4>Zak256</h4>
 		<ul>
@@ -90,6 +98,7 @@
 		<li><h4>Indiana Jones and the Last Crusade</h4>
 		<ul>
 			<li>Add sound effects support</li>
+			<li>Add music and sound effects support for Amiga version</li>
 			<li><i>Ask: Ender</i></li>
 		</ul>
 		<li><h4>Loom EGA</h4>
@@ -99,6 +108,7 @@
 			<a href="http://users.bigpond.net.au/tgray2/loom.s07">here</a> for a save. reflect is
 			affa in the save game</li>
 			<li>Make distaff save/restore correctly</li>
+			<li>Add music and sound effects support for Amiga version</li>
 		</ul>
 		<li><h4>Passport to Adventure</h4>
 		<ul>
