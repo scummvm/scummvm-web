@@ -13,6 +13,11 @@
 </p>
 	<h2>Game Compatibility</h2>
 <p>
+	<B>Release status:</BR><BR>
+	&nbsp;&nbsp;&nbsp; * Left to test: Simon1/2 Talkies, ComI<BR>
+	&nbsp;&nbsp;&nbsp; * RC Bugs in: ZakV2 (4 RC's), Indy3EGA (1 RC)<BR>
+	&nbsp;&nbsp;&nbsp; * Generic engine-wide RC bugs: 1 (#747984)<BR>
+	<HR>
 	The following games need to be tested with the latest CVS snapshots:
 </p>
 
@@ -28,7 +33,7 @@
 
 <tr><td colspan=4><center><B>SCUMM Engine</B></center></td></tr>
 <tr><td>Maniac (V2)</td><td>Wishbone: 11 Jul (Syd-Bernard), logicd: 13 Jul (Mic-Jeff)</td><td>...</td><td>x86 DC Palm WinCE</td></tr>
-<tr><td>Zak (V2)</td><td>Needs Testing</td><td>752293 750626 770699</td><td>x86 DC Palm WinCE</td></tr>
+<tr><td>Zak (V2)</td><td>voodoofx: 15 Jul</td><td>750626 770699 771483 771499</td><td>x86 DC Palm WinCE</td></tr>
 <tr><td>Zak256</td><td>VoodooFX: 12 Jul</td><td>...</td><td>x86 DC Palm WinCE</td></tr>
 <tr><td>Indy3EGA</td><td>Dan Fabulich: 14 Jul</td><td>770690 (can esc past)</td><td>x86 WinCE</td></tr>
 <tr><td>Indy3 (VGA)</td><td>Dan Fabulich: 10 Jul</td><td>...</td><td>x86 DC WinCE</td></tr>
@@ -41,7 +46,7 @@
 <tr><td>Tentacle</td><td>Dan Fabulich: 10 Jul, pronemisis: 12 Jul</td><td>...</td><td>x86 DC Palm WinCE</td></tr>
 <tr><td>Samnmax</td><td>Dan Fabulich: 10 Jul</td><td>...</td><td>x86 DC Palm WinCE</td></tr>
 <tr><td>Dig</td><td>inguin: 13 Jul</td><td>...</td><td>x86 DC Palm(lots-o-ram) WinCE</td></tr>
-<tr><td>ComI</td><td>Needs Testing</td><td>769744</td><td>x86 -DC -Palm WinCE</td></tr>
+<tr><td>ComI</td><td>Needs Testing</td><td>...</td><td>x86 -DC -Palm WinCE</td></tr>
 
 <tr><td colspan=4><center><B>SKY Engine</B></center></td></tr>
 <tr><td>Sky (Floppy)</td><td>pepijnvdgeer: 11 Jul</td><td>...</td><td>x86 -DC -Palm WinCE</td></tr>
@@ -50,8 +55,8 @@
 <tr><td colspan=4><center><B>Simon Engine</B></center></td></tr>
 <tr><td>Simon1 (talkie)</td><td>Needs Testing</td><td>...</td><td>x86 -DC -Palm WinCE</td></tr>
 <tr><td>Simon2 (talkie)</td><td>Needs Testing</td><td>...</td><td>x86 -DC -Palm WinCE</td></tr>
-<tr><td>Simon1 (floppy)</td><td>Needs Testing</td><td>...</td><td>x86 -DC -Palm WinCE</td></tr>
-<tr><td>Simon2 (floppy)</td><td>pronemisis: 12 Jul</td><td>...</td><td>x86 -DC -Palm  WinCE</td></tr>
+<tr><td>Simon1 (floppy)</td><td>neosmagus: 12 Jul</td><td>...</td><td>x86 -DC -Palm WinCE</td></tr>
+<tr><td>Simon2 (floppy)</td><td>pronemisis: 12 Jul</td><td>...</td><td>x86 -DC -Palm WinCE</td></tr>
 
 </table>
 <p>
