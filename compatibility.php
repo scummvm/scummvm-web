@@ -108,7 +108,7 @@ $notes = array(
                    "<br>-Grail diary and biplane manual aren't drawn correctly".
                    "<br>- No music or sound effects",
 "indy3"         => "Game is completable" .
-                   "<br>- No sound effects".
+                   "<br>- No sound effects",
 "zak256"        => "Game is completable." .
                    "<br>- No sound effect looping" ,
 "loom"		=> "Game is completable".
