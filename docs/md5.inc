@@ -156,6 +156,12 @@
 		<?php addEntry("-", "Mac", "en", "df6ead57930488bc61e6e41901d0e97", "fbear", "khalek"); ?>
 	<tr><td colspan='7'><strong>Fatty Bears Fun Pack</strong></td></tr>
 		<?php addEntry("TODO", "(null)", "(null)", "(null)", "(null)"); ?>
+	<tr><td colspan='7'><strong>Backyard Baseball 2001 </strong></td></tr>
+		<?php addEntry("Demo", "PC", "en", "a194f15f51ee62badab74b9e7da97693", "bb2demo", "khalek"); ?>
+		<?php addEntry("Demo", "PC", "en", "a194f15f51ee62badab74b9e7da97693", "byb2001-demo", "khalek"); ?>
+	<tr><td colspan='7'><strong>Backyard Football 2002</strong></td></tr>
+		<?php addEntry("Demo", "PC", "en", "2e85f7aa054930c692a5b1bed1dfc295", "byf2002-demo", "khalek"); ?>
+		<?php addEntry("Demo", "PC", "en", "2e85f7aa054930c692a5b1bed1dfc295", "football2002", "khalek"); ?>
 	<tr><td colspan='7'><strong>Big Thinkers: Kindergarten</strong></td></tr>
 		<?php addEntry("Demo", "DOS", "en", "695fe0b3963333b7e15b37514db3c745", "TODO"); ?>
 		<?php addEntry("Demo", "Mac", "en", "695fe0b3963333b7e15b37514db3c745", "kinddemo", "khalek"); ?>

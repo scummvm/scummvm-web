@@ -41,15 +41,6 @@ function addEntry($variant, $platform, $language, $md5, $target = "???", $source
 	<?php include $file_root."/docs/"."md5.inc"; ?>
 </table>
 <hr />
-
-<p>To be added (didn't get around to putting this into the right places yet):</p>
-<pre>
-The following are from khalek/Jonathan Gray:
-byb2001-demo bb2demo pc en a194f15f51ee62badab74b9e7da97693
-byf2002-demo football2002 pc en 2e85f7aa054930c692a5b1bed1dfc295
-
-</pre>
-
 <hr />
 
 <div style="font-size: small; font-style: italic; ">
