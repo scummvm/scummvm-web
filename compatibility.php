@@ -110,11 +110,11 @@ $notes = array(
 "samdemo"	=> "No known problems - should be playable to the end",
 "ft"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
 		   "<br>- some palette glitches during movie playback, and missing movie sound".
-                   "<br>- cannot proceed past the fuel tower due to missing vertical scrolling" .
 		   "<br>- not all sounds and animations playing correctly",
 "dig"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
-                   "<br>- some palette glitches during movie playback, and missing movie audio".
-		   "<br>- no sound and not all animations playing correctly",
+                   "<br>- missing movie audio".
+		   "<br>- no music and not all animations playing correctly" .
+                   "<br>- crashes when pressing metal plates",
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
 "simon1win" => "No known problems - should be playable to the end"
 );
