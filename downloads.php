@@ -21,7 +21,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 
 ?>
 	<p>
-	  <big><b>Downloads for ScummVM</b> ver: 0.1.0</big><br>
+	  <big><b>Downloads for ScummVM</b> ver: 0.2.0</big><br>
 	  <? echo html_line(); ?>
 	</p>
 
@@ -51,19 +51,23 @@ echo html_round_frame_start("Downloads","98%","",20);
 	</p>
 	
 	<p>
- 	  <b>0.1.0 Release binaries:</b>
+ 	  <b>0.2.0 Release binaries:</b>
 	  <ul>
-	    <li><a href="http://scummvm.sourceforge.net/downloads/scummvm-0.1.0-win32.zip">Win32 Official 0.1.0 Build</a> <small>(478K zip file) </small></li>
-	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.1.0-win32.exe">Win32 0.1.0 SDL Build</a> <small>(240K exe file) </small></li>
-	    <li><a href="http://www.doc.ic.ac.uk/~mbt99/dcdev/">Dreamcast</a> port by Mark Thomas.</li>
-	    <li>more builds (e.g. MacOS) coming soon....</li>
+	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.2.0-win32.zip">Win32 Official 0.2.0 Build</a><small>(260k zip file)</small></li>
+	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.2.0_i386.deb">Woody Official 0.2.0 Package</a><small>(212k deb package)</small></li>
+	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.2.0-macosx_sdl.tar.gz">MacOS X Official 0.2.0 Build</a><small>(359k gziped tarball)</small></li>
+	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.2-3_arm.ipk">iPaq Linux Official 0.2.0 Build</a><small>(250k ipkg package)</small></li>
+	    <li><a href="http://prdownloads.sourceforge.net/scummvm/PocketSCUMM_Install_0_2_0.exe">WinCE ARM/MIPS/SH3 Official 0.2.0 installer</a><small>(820k Win32 executable)</small></li>
+	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.2.0-dc-bin.zip">Dreamcast Official 0.2.0 scrambled binary</a><small>(338k zip file)</small></li>
+	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.2.0-dc-nero.zip">Dreamcast Official 0.2.0 NERO image</a><small>(2.3mb zip file)</small></li>
+	    <li>more builds (eg, BeOS, RPMs, MorphOS) coming soon..</li>
 	  </ul>
 	</p>
 	
 	<p>
-	  <b>0.1.0 Source Code:</b>
+	  <b>0.2.0 Source Code:</b>
 	  <ul>
-	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.1.0b.zip">zip</a> <small>(184k zip file)</small></li>
+	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.2.0-src.tgz">tar.gz</a> <small>(668k zip file)</small></li>
 	  </ul>
 	</p>
 	
