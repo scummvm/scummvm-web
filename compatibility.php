@@ -88,7 +88,7 @@ $notes = array(
                    "Main bugs: Incorrect object flags result in phantom objects, and cause issues with events such as picking up objects like the cashcard. Inventory scrolling not implemented, making it impossible to carry more than 4 objects at once",
 "loom"		=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Loom CD version",
 "monkeyega"	=> "Copy protection screen will show, but game crashes shortly afterwards.<BR>Graphics decoders and SCUMM opcodes not implimented yet.",
-"loomcd"	=> "Game is somewhat playable, but may crash with invalid SCUMM opcodes and have graphics problems.<BR>Incorrect object flags will cause issues with the Loom Room, and other game events"
+"loomcd"	=> "Game is somewhat playable, but may crash with invalid SCUMM opcodes and have graphics problems.<BR>Incorrect object flags will cause issues with the Loom Room, and other game events",
 "monkey"	=> "No known problems - should be playable to the end",
 "monkey2"	=> "No known problems - should be playable to the end",
 "atlantis"	=> "Game is completable.".
