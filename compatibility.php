@@ -140,6 +140,7 @@ $notes = array(
                    "<br>- Part of introduction is skipped".
                    "<br>- Various minor graphical glitches",
 "simon2win"     => "Game is completable.".
+                   "<br>- Will freeze when waking up in Sordid's Tower if Simon isn't moved straight away",
                    "<br>- Music currently only works on Windows systems",
                    "<br>- Background sound effects and some music is missing".
                    "<br>- Part of introduction is skipped".
