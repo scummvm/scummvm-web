@@ -66,7 +66,9 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
       <li><a href="#4-3">I don't hear any music.</a></li>
       <li><a href="#4-4">My game crashes at some point.</a></li>
       <li><a href="#4-5">The game colors are messed up.</a></li>
-      <li><a href="#4-6">Reporting Bugs.</a></li>
+      <li><a href="#4-6">The characters in my non english game are messed up.</a></li>
+      <li><a href="#4-7">How do I make my mac version of a game work?</a></li>
+      <li><a href="#4-8">Reporting Bugs.</a></li>
     </ol>
   </li>
 </ol>
@@ -177,7 +179,8 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	F5 to access the save/load menu).</p></li>
 
       <li><p><a name="2-5"></a><b>Do savegames from the original games work in ScummVM?</b><br>
-	No. We do not have any plans to load old savegames. Newer versions of ScummVM have
+	No. We do not have any plans to load old savegames (with the exception of the
+	Simon the Sorcerer series of games). Newer versions of ScummVM have
 	also broken compatibility with older ScummVM savegames. Since ScummVM is
 	in heavy development, this may occur again in the future.</p></li>
 
@@ -219,7 +222,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
       	First make sure your game is supported. See <a href="#1-4">1.4</a>. If it is a supported game and you
 	have followed the instructions in
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
-	to the letter, then see <a href="#4-6">4.6</a> to report this as a bug.</p></li>
+	to the letter, then see <a href="#4-8">4.6</a> to report this as a bug.</p></li>
 	
       <li><p><a name="4-2"></a><b>I don't hear any sound.</b><br>
       	Check the <a href="compatibility.php">compatibility list</a> to see if your game has sound support currently. You can
@@ -230,14 +233,28 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
       
       <li><p><a name="4-4"></a><b>My game crashes at some point.</b><br>
       	Check the <a href="compatibility.php">Compatibility List</a> to see if your game has any known issues. If you can
-	reproduce this crash more than once, please report it to our Bug Tracker. See <a href="#4-6">4.6</a>.</p></li>
+	reproduce this crash more than once, please report it to our Bug Tracker. See <a href="#4-8">4.8</a>.</p></li>
       
       <li><p><a name="4-5"></a><b>The game colors are messed up.</b><br>
-      	This is a known issue with using Amiga version datafiles. Use the -a command
+      	This is a known issue with using Amiga version datafiles. Use the --platform=amiga command
 	line parameter (or tick the Amiga checkbox in the Launcher / F5 menu) to enable Amiga
 	palette conversion.</p></li>
       
-      <li><p><a name="4-6"></a><b>Reporting Bugs.</b><br>
+      <li><p><a name="4-6"></a><b>The characters in my non english game are messed up.</b><br>
+      	You are most likely using a game such as Maniac Mansion or Zak McKracken if you have this problem. 
+	You need to specify a language with the -q parameter or use the language config file option.
+	Consult the 
+	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a> 
+	or command line help for further information.</p></li>
+      
+      <li><p><a name="4-7"></a><b>How do I make my mac version of a game work?</b></br>
+      	The majority of mac versions won't work without first extracting the resources into a format ScummVM
+	understands.  To do this you need to use the rescumm tool in the scummvm-tools package.
+	An example usage might look like: <i>rescumm "Sam &em; Max Demo Data"</i>.  Some CDs may appear to
+	only contain a application, in which case there is still a seperate data file but it is invisible.  
+	The older games which have LFL files should only need the --platform=macintosh option to run.</p></li>
+      
+      <li><p><a name="4-8"></a><b>Reporting Bugs.</b><br>
       	To report a bug, please create a SourceForge account and follow the
 	<a href="http://sourceforge.net/tracker/?atid=418820&group_id=37116&func=browse">bugs</a>
 	link from our homepage. Please make sure the bug is reproducible, and 
