@@ -56,9 +56,15 @@
 	<h3>Ports</h3>
 	<ul>
 		<li>Sony PS2 Port (ask Ender)</li>
-		<li>Symbian port (p800 people might merge changes?)</li>
-		<li>MS DOS port using <a href="http://www.talula.demon.co.uk/allegro/">Allegro</a> and <a href="http://www.delorie.com/djgpp/">DJGPP</a>?</li>
+		<li>Update PalmOS port to run on PalmOS based <a href="http://www.tapwave.com/">Zodiac</a> handheld
+		 (Chrilith is <a href="http://207.44.176.77/~admin28/zodiacgamer/articles/scummvm.htm">working on</a> 
+		 this via a Zodiac simulator)</li>
+		<li>EPOC32/Symbian OS port (p800 people might merge changes?). NGage uses Symbian OS... </li>
+		<li>MS DOS port using <a href="http://www.talula.demon.co.uk/allegro/">Allegro</a> and 
+		 <a href="http://www.delorie.com/djgpp/">DJGPP</a>?</li>
 		<li><a href="http://withintent.biz">Intent</a> port (already done by David Given, merge?)</li>
+		<li>Digita OS port? (play games on a <a href="http://digita.mame.net/reviews.htm">select few</a> 
+		 digital cameras...)</li>
 	</ul>
 	<h3>Specific games</h3>
 	<ul>
