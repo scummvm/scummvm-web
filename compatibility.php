@@ -88,16 +88,16 @@ $games = array(
 		'The Dig'                                               => array('7','dig','85'),
 		'Curse of Monkey Island'				=> array('8','comi','80'),
 		'Beneath a Steel Sky'			       		=> array('n/a','sky','90'),
- 		'Simon The Sorcerer 1 Talkie (Win)'			=> array('n/a','simon1win','85'),
-		'Simon The Sorcerer 1 Talkie (DOS)'       		=> array('n/a','simon1talkie','85'),
+ 		'Simon The Sorcerer 1 Talkie (Win)'			=> array('n/a','simon1win','90'),
+		'Simon The Sorcerer 1 Talkie (DOS)'       		=> array('n/a','simon1talkie','90'),
 		'Simon The Sorcerer 1 Talkie (Amiga CD32)'     		=> array('n/a','simon1cd32','5'),
-		'Simon The Sorcerer 1 (DOS)'           			=> array('n/a','simon1dos','83'),
+		'Simon The Sorcerer 1 (DOS)'           			=> array('n/a','simon1dos','88'),
 		'Simon The Sorcerer 1 (Amiga)'          		=> array('n/a','simon1amiga','5'),
-		'Simon The Sorcerer 1 (Demo)'          			=> array('n/a','simon1demo','83'),
-		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','85'),
+		'Simon The Sorcerer 1 (Demo)'          			=> array('n/a','simon1demo','88'),
+		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','95'),
 		'Simon The Sorcerer 2 Talkie (DOS)'       		=> array('n/a','simon2talkie','90'),
-		'Simon The Sorcerer 2 Talkie (Amiga or Mac)'       	=> array('n/a','simon2mac','85'),
-		'Simon The Sorcerer 2 (DOS)'           			=> array('n/a','simon2dos','83')
+		'Simon The Sorcerer 2 Talkie (Amiga or Mac)'       	=> array('n/a','simon2mac','90'),
+		'Simon The Sorcerer 2 (DOS)'           			=> array('n/a','simon2dos','88')
 	      );
 
 $notes = array(
