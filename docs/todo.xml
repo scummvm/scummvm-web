@@ -90,7 +90,8 @@
 		<li><h4>Indiana Jones and the Last Crusade EGA</h4>
 		<ul>
 			<li>Add adlib sound support</li>
-			<li>Add music and sound effects support for Amiga version</li>
+			<li>Add music support for Amiga version</li>
+			<li>Add sound effect looping support for Amiga version</li>
 		</ul>
 		<li><h4>Indiana Jones and the Last Crusade</h4>
 		<ul>
@@ -101,7 +102,8 @@
 		<ul>
 			<li>Add adlib/roland sound support</li>
 			<li>Make distaff save/restore correctly</li>
-			<li>Add music and sound effects support for Amiga version</li>
+			<li>Add music support for Amiga version</li>
+			<li>Add sound effect looping support for Amiga version</li>
 		</ul>
 		<li><h4>Loom TurboGrafx 16/PC Engine</h4>
 		<ul>

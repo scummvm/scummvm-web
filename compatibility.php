@@ -114,14 +114,16 @@ $notes = array(
 		   "<br>- No music or sound effects with Amiga and Classic PC versions",
 "indy3ega"	=> "Game is completable".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
-		   "<br>- No music or sound effects with Amiga version",
+		   "<br>- No music with Amiga version".
+		   "<br>- No sound effect looping with Amiga version",
 "indy3"         => "Game is completable" .
                    "<br>- No sound effects",
 "zak256"        => "Game is completable." .
                    "<br>- Sounds with partial loops, loop the whole sample instead of just that portion" ,
 "loom"		=> "Game is completable".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
-		   "<br>- No music or sound effects with Amiga version",
+		   "<br>- No music with Amiga version".
+		   "<br>- No sound effect looping with Amiga version",
 "monkeyega"	=> "Game is completable".
                    "<br>- No sound effects",
 "pass"		=> "At least partly playable".
