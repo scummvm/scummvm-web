@@ -69,6 +69,9 @@
 				</ul>
 				</li>
 				<li><p><b>Implement support to restart a game</b></p></li>
+				<li><p><b>Make it possible to choose between multiple video drivers at startup (e.g. SDL vs SDL_gl) at startup, like with the midi drivers</b></p></li>
+				<li><p><b>Add a "help" ingame dialog which lists all key shortcuts etc.</b></p></li>
+				<li><p><b>Make the NewGUI code independent from the Scumm parts (only the Scumm specific dialogs should retain any refernces to Scumm).</b> This way we can use the NewGUI stuff in Simon, too</p></li>
 			</ul>
 			<li><h3>New GUI</h3>
 			<ul>
