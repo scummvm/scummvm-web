@@ -76,9 +76,9 @@ $games = array(
 		'Full Thottle'						=> array('7','ft','75'),
                 'The DIG'                                               => array('7','dig','85'),
 		'Curse of Monkey Island'				=> array('8','curse','5'),
-		'Simon The Sorcerer 1 Talkie (Win)'       		=> array('n/a','simon1win','95'),
-		'Simon The Sorcerer 1 Talkie (Dos)'       		=> array('n/a','simon1talkie','95'),
-		'Simon The Sorcerer 1 (Dos)'           			=> array('n/a','simon1dos','95'),
+		'Simon The Sorcerer 1 Talkie (Win)'       		=> array('n/a','simon1win','85'),
+		'Simon The Sorcerer 1 Talkie (Dos)'       		=> array('n/a','simon1talkie','85'),
+		'Simon The Sorcerer 1 (Dos)'           			=> array('n/a','simon1dos','85'),
 		'Simon The Sorcerer 1 (DEMO)'          			=> array('n/a','simon1demo','60'),
 		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','60'),
 		'Simon The Sorcerer 2 Talkie (Dos)'       		=> array('n/a','simon2talkie','60'),
@@ -119,7 +119,7 @@ $notes = array(
 		   "<br>- Derby scene is only properly controlable using the mouse",
 "dig"		=> "Game is fully completable, with some minor sound issues",
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
-"simon1win" 	=> "Game is completable.",
+"simon1win" 	=> "Game is completable.".
                    "<br>- Various minor graphical glitches",
 "simon1talkie" 	=> "Game is completable.".
                    "<br>- No music looping".
