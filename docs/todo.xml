@@ -27,9 +27,8 @@
 	<p>Here is a list of things we plan to do for the future. Note that we don't promise to do any of these, nor when we will do them. It's just a list
 	of what we hope to be able to do one day.</p>
 	<ul>
-	<li>Add music and sound effects in Amiga versions of games</li>
+	<li>Add support for mod style music and sound effects used in Amiga versions of several games</li>
 	<li>Complete Full Throttle support</li>
-	<li>Complete Maniac Mansion/Zak McKracken V1 support</li>
 	<li>Complete support for Humongous Entertainment scumm games (he v6/v7)</li>
 	<li>Complete Broken Sword 1 and 2 support</li>
 	</ul>
@@ -39,7 +38,7 @@
 		<li><p>Make it possible to restart (scumm) games (properly, current CVS has debugger cmd)</p></li>
 		<li><p>Fix handling of Kanji in FmTowns games (foreground is actually rendered on a second plane at 640x480)</p></li>
 		<li><p>Improve support for non PC versions of games</p></li>
-		<li><p>Figure out how to extract data from c64/appleII/nes versions</p></li>
+		<li><p>Figure out how to extract data from c64/appleII</p></li>
 	</ul>
 	<h3>New GUI</h3>
 	<ul>
@@ -53,28 +52,33 @@
 		<ul>
 			<li>Fix graphical glitches when actors move diagonally</li>
 			<li>Fix problem of last few lines of room gfx. often not been shown after changing roons</li>
+			<li>Several small bugs (see bug list)</li>
 		</ul>
 		<li><h4>Maniac Mansion Enchanced</h4>
 		<ul>
 			<li>Add music and sound effects support for Amiga version</li>
+			<li>Several small bugs (see bug list)</li>
 		</ul>
 		<li><h4>Zak McKracken Classic</h4>
 		<ul>
 			<li>Fix graphical glitches when actors move diagonally</li>
+			<li>Several small bugs (see bug list)</li>
 		</ul>
 		<li><h4>Zak McKracken Enchanced</h4>
 		<ul>
 			<li>Add music and sound effects support for Amiga version</li>
+			<li>Several small bugs (see bug list)</li>
 		</ul>
 		<li><h4>Zak McKracken 256</h4>
 		<ul>
-			<li>Add Euphony music support</li>
+			<li>Add Euphony FM music support</li>
 			<li>Several small bugs (see bug list)</li>
 			<li><i>Ask: Ender</i></li>
 		</ul>
 		<li><h4>Indiana Jones and the Last Crusade EGA</h4>
 		<ul>
-			<li>Add music and sound effect looping support for Amiga version</li>
+			<li>Add music for Amiga version</li>
+			<li>Several small bugs (see bug list)</li>
 		</ul>
 		<li><h4>Indiana Jones and the Last Crusade</h4>
 		<ul>
@@ -84,30 +88,33 @@
 		<li><h4>Loom EGA</h4>
 		<ul>
 			<li>Make distaff save/restore correctly</li>
-			<li>Add music and sound effect looping support for Amiga version</li>
+			<li>Add music for Amiga And Mac versions</li>
+		<li><h4>Loom TurboGrafx 16/PC Engine</h4>
+		<ul>
+			<li>Support this (donations welcome as no one has it...)
 		</ul>
-		<li><h4>Monkey1EGA</h4>
+		</ul>
+		<li><h4>Monkey Island 1 EGA</h4>
 		<ul>
 			<li>Several small bugs (see bug list)</li>
 		</ul>
-		<li><h4>Monkey1VGA</h4>
+		<li><h4>Monkey Island 1 VGA</h4>
 		<ul>
 			<li>Add music and sound effects support for Amiga version</li>
-			<li>Several small bugs (see bug list)</li>
 			<li><i>Ask: MadMoose, Fingolfin</i></li>
 		</ul>
 		<li><h4>Passport to Adventure</h4>
 		<ul>
 			<li>Fix subtitles not been shown in indy3 demo</li>
 		</ul>
-		<li><h4>Monkey2</h4>
+		<li><h4>Monkey Island 2</h4>
 		<ul>
 			<li>Fix palette problems in Amiga version</li>
 			<li>Add support for playback from *.rec file for demo version</li>
 		</ul>
-		<li><h4>Loom TurboGrafx 16/PC Engine</h4>
+		<li><h4>Indiana Jones and the Fate of Atlantis</h4>
 		<ul>
-			<li>Support this (donations welcome as no one has it...)
+			<li>Fix palette problems in Amiga version</li>
 		</ul>
 		<li><h4>Full Throttle</h4>
 		<ul>

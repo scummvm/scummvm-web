@@ -79,6 +79,7 @@ $games = array(
 		'The Secret of Monkey Island (Alternative VGA CD)'	=> array('5','monkey1','95'),
 		'The Secret of Monkey Island (Sega CD)'			=> array('5','game','85'),
 		'Monkey Island 2: LeChuck\'s revenge'			=> array('5','monkey2','95'),
+		'Monkey Island 2: LeChuck\'s revenge (DOS Demo)'	=> array('5','mi2demo','10'),
 		'Indiana Jones 4 and the Fate of Atlantis'		=> array('5','atlantis','95'),
 		'Indiana Jones 4 and the Fate of Atlantis (Demo)'	=> array('5','playfate','95'),
 		'Putt-Putt Joins The Parade (DOS Demo)'			=> array('6','puttdemo','70'),
@@ -116,32 +117,32 @@ $notes = array(
 		   "<br>- Amiga (Use Amiga option), Atari ST, Mac and PC versions supported by this target".
 		   "<br>- Actors sometimes cause minor graphical glitches in Classic PC version".
 		   "<br>- The last 8 lines of room graphics are sometimes cut off when changing rooms in Classic PC version".
-		   "<br>- No music or sound effects with Amiga version",
+		   "<br>- No music and some sound effects missing with Amiga version",
 "zak"		=> "Enhanced PC version is completable, with several minor glitches".
 		   "<br>Classic version is completable, with several minor glitches".
 		   "<br>- Amiga (Use Amiga option), Atari ST and PC versions supported by this target".
 		   "<br>- Actors sometimes cause minor graphical glitches in Classic PC version".
-		   "<br>- No music or sound effects with Amiga version",
+		   "<br>- No music and some sound effects missing with Amiga version",
 "indy3ega"	=> "Game is completable".
 		   "<br>- Amiga (Use Amiga option), Atari ST, Mac and PC versions supported by this target".
 		   "<br>- Mac version crashes in first room".
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
-		   "<br>- No music and no sound effects looping with Amiga version".
+		   "<br>- No music with Amiga version".
 		   "<br>- Atari ST and Mac verions require pcjr or pcspk music driver",
 "indy3"         => "Game is completable".
 		   "<br>- Indiana may be able to walk in odd places, in some rooms",
 "indy3towns"    => "Game is completable." .
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
 		   "<br>- FM based Euphony tunes not yet supported so three music sections won't be heard".
-                   "<br>- Kanji version isn't yet supported",
+                   "<br>- Kanji version isn't supported yet",
 "zak256"        => "Game is completable.".
 		   "<br>- FM based Euphony tunes not yet supported so kazoo won't be heard".
-                   "<br>- Kanji version isn't yet supported",
+                   "<br>- Kanji version isn't supported yet",
 "loom"		=> "Game is completable".
 		   "<br>- Amiga (Use Amiga option), Atari ST, Mac and PC versions supported by this target".
 		   "<br>- Mac version crashes after copy protection screen".
                    "<br>- Various minor graphical glitches".
-		   "<br>- No music and no sound effects looping with Amiga version".
+		   "<br>- No music with Amiga version".
 		   "<br>- No music or sound effects with Mac version".
 		   "<br>- Atari ST and Mac verions require pcjr or pcspk music driver".
 		   "<br>- MIDI support requires the Roland update from LucasArts",
@@ -155,7 +156,7 @@ $notes = array(
 		   "<ul><li>0 practice (default)".
 		       "<li>1 standard".
 		       "<li>2 expert</ul>".
-		   "<br>- Kanji version not yet supported",
+                   "<br>- Kanji version isn't supported yet",
 "monkeyega"	=> "Game is completable".
 		   "<br>- Atari ST verion requires pcjr or pcspk music driver".
 		   "<br>- MIDI support requires the Roland update from LucasArts",
@@ -175,6 +176,8 @@ $notes = array(
 "monkey2"	=> "No known problems - should be playable to the end".
 		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
 		   "<br>- Various graphical glitches with Amiga version",
+"mi2demo"	=> "Often crashes due to missing resources, since it was never meant to be playable".
+		   "<br>- No support for playing back the recorded file of gameplay",
 "atlantis"	=> "No known problems - should be playable to the end".
 		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
 		   "<br>- Both disk and cd PC versions are supported by this target".
