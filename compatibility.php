@@ -122,10 +122,16 @@ $notes = array(
 		   "<br>- No music or sound effects with Amiga version",
 "indy3ega"	=> "Game is completable".
 		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
+		   "<br>- Indiana may be able to walk in odd places, in some rooms".
+		   "<br>- Various minor graphical glitches".
 		   "<br>- No music or sound effects looping with Amiga version".
 		   "<br>- No music or sound effects with Mac version",
-"indy3"         => "Game is completable",
+"indy3"         => "Game is completable".
+		   "<br>- Indiana may be able to walk in odd places, in some rooms".
+		   "<br>- Various minor graphical glitches",
 "indy3towns"    => "Game is completable." .
+		   "<br>- Indiana may be able to walk in odd places, in some rooms".
+		   "<br>- Various minor graphical glitches".
                    "<br>- Sounds with partial loops, loop the whole sample instead of just that portion".
                    "<br>- Kanji version isn't supported",
 "zak256"        => "Game is completable." .
@@ -133,6 +139,7 @@ $notes = array(
                    "<br>- Kanji version isn't supported",
 "loom"		=> "Game is completable".
 		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
+                   "<br>- Various minor graphical glitches".
 		   "<br>- Mac version crashes after copy protection screen".
 		   "<br>- No music or sound effects looping with Amiga version".
 		   "<br>- No music or sound effects with Mac version",
