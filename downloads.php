@@ -47,7 +47,7 @@ packs, can also be found below.
  	  <b>0.6.0 Release binaries:</b>
 	</p>
 	<p>For a list of changes since the previous version, <a href="http://sourceforge.net/project/shownotes.php?release_id=223566">read the release notes</a>.</p>
-	<p>0.6.0 should be apt-get'able from Debian unstable (sid) shortly. <I>If downloading any of these files returns a File not Found error, please try a different mirror.</I></p>
+	<p>0.6.0 is apt-get'able from Debian unstable (sid). <I>If downloading any of these files returns a File not Found error, please try a different mirror.</I></p>
 
 	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-win32.exe?download">Windows Installer</a> <small>(1.2M Win32 .exe)</small></li>
