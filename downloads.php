@@ -41,7 +41,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 	</p>
 
 	<p>
-	  View the <a href="/daily/ChangeLog">ChangeLog<a> to see the latest updates of ScummVM
+	  View the <a href="/daily/ChangeLog">ChangeLog</a> to see the latest updates of ScummVM
 	</p>
 	
 	<p>
