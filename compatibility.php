@@ -77,6 +77,7 @@ $games = array(
 		'The Secret of Monkey Island (VGA Floppy)'		=> array('5','monkeyvga','90'),
 		'The Secret of Monkey Island (VGA CD)'			=> array('5','monkey','95'),
 		'The Secret of Monkey Island (Alternative VGA CD)'	=> array('5','monkey1','95'),
+		'The Secret of Monkey Island (Sega CD)'			=> array('5','game','85'),
 		'Monkey Island 2: LeChuck\'s revenge'			=> array('5','monkey2','95'),
 		'Indiana Jones 4 and the Fate of Atlantis'		=> array('5','atlantis','95'),
 		'Indiana Jones 4 and the Fate of Atlantis (Demo)'	=> array('5','playfate','95'),
@@ -170,6 +171,8 @@ $notes = array(
 "monkey"	=> "No known problems - should be playable to the end",
 "monkey1"	=> "No known problems - should be playable to the end".
 		   "<br>- Both Mac and PC versions supported by this target",
+"game"		=> "No known problems - should be playable to the end".
+		   "<br>- No sound effects",
 "monkey2"	=> "No known problems - should be playable to the end".
 		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
 		   "<br>- Various graphical glitches with Amiga version",
