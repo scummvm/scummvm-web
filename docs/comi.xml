@@ -20,20 +20,23 @@
 		<li>Lack of actorHit opcode breaks collision detection in ship-to-ship combat
 		<li>Something is screwy with the cannon physics in ship-to-ship combat. You hit yourself. 
 		(but the script still thinks you have won :)
+		<li>Opcode 0x98 not implemented? Error(75:2006:0x2F7C): Invalid opcode '98' at 2f7c!
+		Go to beach in save that can be found <a href="http://users.bigpond.net.au/tgray2/comi.s08">here</a>
 	</ul>
 <li>Sound:
 	<ul>
 		<li>Voices 'pop', and music decompressor uses too much CPU for smooth music playback
 		<li>Occasional crashes from 'sound que buffer overflow' (hard to reproduce)
 		<li>Lack of imGetMusicPosition kernel function breaks song sync in Part 3 intro
-		<li>another failed bundled assertion this time shortly after part 3 starts
-		scumm/bundle.cpp:855: int32 Bundle::decompressCodec(int, byte *, byte *, int, int, int32 &): Assertion `src < endPos' failed. Use shovel in savegame found at http://users.bigpond.net.au/tgray2/comi.s04 to start part 3
+		<li>another failed bundled assertion this time shortly after part 3 starts if not skipped
+		scumm/bundle.cpp:855: int32 Bundle::decompressCodec(int, byte *, byte *, int, int, int32 &): Assertion `src < endPos' failed. Use shovel in savegame found <a href="http://users.bigpond.net.au/tgray2/comi.s04">here</a> to start part 3
 	</ul>
 <li>Graphics:
 	<ul>
 		<li>Some text does not undraw correctly, again leaving behind artifacts
 		<li>Masking artifacts. See many animations, eg during insult sword fighting
 		<li>Credits blur when they scroll
+		<li>Verb coin is drawn behind inventory
 	</ul>
 <li>Conversation:
 	<ul>
