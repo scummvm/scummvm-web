@@ -21,7 +21,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 
 ?>
 	<p>
-	  <big><b>Downloads for ScummVM</b> version 0.4.0</big><br>
+	  <big><b>Downloads for ScummVM</b> version 0.4.1</big><br>
 	  <? echo html_line(); ?>
 	</p>
 
@@ -60,23 +60,30 @@ echo html_round_frame_start("Downloads","98%","",20);
 	</ul>
 
 	<p>
- 	  <b>0.4.0 Release binaries:</b>
+ 	  <b>0.4.1 Release binaries:</b>
 	</p>
-	<p>For a list of changes since the last version (0.3.0), <a href="http://sourceforge.net/project/shownotes.php?release_id=158604">read the release notes</a>.</p>
+	<p>For a list of changes since the previous version, <a href="http://sourceforge.net/project/shownotes.php?release_id=161513">read the release notes</a>.</p>
 	<p>Users of Debian Unstable (sid) can apt-get ScummVM. Please do not attempt to use the Woody packages below on Sid, it won't work due to a Vorbis library conflict.</p>
 
 	<ul>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-win32.exe?download">Windows Installer</a> <small>(1.0M Win32 .exe)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-win32.zip?download">Windows zipfile</a> <small>(1.0M zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-macosx.dmg?download">MacOS X Disk Image</a> <small>(736k disk image)</small></li>
-<!--	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-morphos.tar.bz2?download">MorphOS binary</a> <small>(397k .tar.bz2)</small></li> -->
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-win32.exe?download">Windows Installer</a> <small>(1.0M Win32 .exe)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-win32.zip?download">Windows zipfile</a> <small>(1.0M zipfile)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-macosx.dmg?download">MacOS X Disk Image</a> <small>(672k disk image)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-1.rh80.i386.rpm?download">RedHat 8.0 package</a> <small>(405k RPM)</small>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-1.src.rpm?download">Source RPM</a> <small>(1.1M RPM)</small>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-palmos.zip?download">PalmOS binary</a> <small>(292k zipfile)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-solaris8-sparc.tar.gz?download">Solaris 8 (Sparc) binary</a> <small>(2.3M .tar.gz)</small></li>
+	</ul>
+
+
+	<p>
+ 	  <b>0.4.0 Release binaries (outdated):</b>
+	</p>
+	<p>A few binaries were not yet updated for the 0.4.1 release. Until that changes, here you can still find the old 0.4.0 binaries.
+	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.4.0-0.woody.1_i386.deb?download">Debian Stable (woody) Package</a> <small>(369k .deb)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-1.rh80.i386.rpm?download">RedHat 8.0 package</a> <small>(404k RPM)</small>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-1.src.rpm?download">Source RPM</a> <small>(1.1M RPM)</small>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-dreamcast-nero.zip?download">Dreamcast CD-ROM image for Nero</a> <small>(2.5M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-dreamcast-plainfiles.tar.bz2?download">Dreamcast plain files</a> <small>(462 k zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-palmos.zip?download">PalmOS binary</a> <small>(292k zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-solaris8-sparc.tar.gz?download">Solaris 8 (Sparc) binary</a> <small>(2.3M .tar.gz)</small></li>
 	  <hr></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-HandheldPC_ARM.zip?download">HandheldPC ARM binary</a> <small>(462k zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-HandheldPC_MIPS.zip?download">HandheldPC MIPS binary</a> <small>(531k zipfile)</small></li>
@@ -98,23 +105,23 @@ echo html_round_frame_start("Downloads","98%","",20);
 	</ul>
 
 	<p>
-	  <b>0.4.0 Tools (mostly unsupported):</b>
+	  <b>0.4.1 Tools (mostly unsupported):</b>
 	</p>
 	<ul>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.4.0-win32.exe?download">ScummVM Tools - Windows Installer</a> <small>(85k Win32 .exe)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.4.0-win32.zip?download">ScummVM Tools - Windows zipfile</a> <small>(46k zip file)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.4.0-macosx.tar.gz?download">ScummVM Tools - Mac OS X tarball</a> <small>(121k tar.gz)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.4.1-win32.exe?download">ScummVM Tools - Windows Installer</a> <small>(89k Win32 .exe)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.4.1-win32.zip?download">ScummVM Tools - Windows zipfile</a> <small>(49k zip file)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.4.1-macosx.tar.gz?download">ScummVM Tools - Mac OS X tarball</a> <small>(127k tar.gz)</small></li>
 	</ul>
 
 	<p>
-	  <b>0.4.0 Source Code:</b>
+	  <b>0.4.1 Source Code:</b>
 	</p>
 	<ul>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0.tar.gz?download">Source tar.gz</a> <small>(1104k)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0.tar.bz2?download">Source tar.bz2</a> <small>(934k)</small>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1.tar.gz?download">Source tar.gz</a> <small>(1105k)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1.tar.bz2?download">Source tar.bz2</a> <small>(934k)</small>
 	  <hr></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.4.0.tar.gz?download">Tools - Source tar.gz</a> <small>(44k)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.4.0.tar.bz2?download">Tools - Source tar.bz2</a> <small>(37k)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.4.1.tar.gz?download">Tools - Source tar.gz</a> <small>(46k)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.4.1.tar.bz2?download">Tools - Source tar.bz2</a> <small>(39k)</small></li>
 	</ul>
 	
 	<p>
