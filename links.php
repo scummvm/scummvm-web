@@ -134,6 +134,13 @@ echo html_round_frame_start("Links","98%","",20);
 	    </blockquote></td>
 	  </tr>
 
+	  <tr><td><a href="http://www.domfree.de/trin/"><b>Scummer</b></a></td></tr>
+	  <tr>
+	    <td><blockquote>
+	    For Win32.
+	    </blockquote></td>
+	  </tr>
+
 	</table>
 	</blockquote>
     
