@@ -190,6 +190,12 @@ echo html_round_frame_start("Contact","98%","",20);
 	    <td>- Several fixes for Simon1</td>
 	  </tr>
 
+      <tr>
+	    <td>Ralph Brorsen</td>
+	    <td>[ painelf ]</td>
+	    <td>- His work on the new GUI</td>
+	  </tr>
+
       <tr><td colspan=3>&nbsp;</td></tr>
       <tr><td colspan=3>And to all the contributors, users, and beta testers we've missed. Thanks!</td></tr>
       
