@@ -110,8 +110,7 @@ function html_frame_end ($text = "")
 	global $_trcolor;
 	$str .= '</table>'."\n";
 	$str .= '</td></tr>'."\n";
-	if ($text)
-	{
+	if ($text) {
 		$str .= '<tr><td class="topMenu">'."\n";
 		$str .= '	<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
 		$str .= '		<td align="center"><span class="menuTitle"> '.$text.' </span></td>'."\n";
@@ -131,7 +130,7 @@ function html_round_frame_start ($title = "", $width = "", $extra = "", $innerPa
 	$str = "\n".'<div align="center">'."\n";
 	$str .= '<table '.$width.' border="0" cellpadding="0" cellspacing="0">'."\n";
 	
-	if($title) {
+	if ($title) {
 		$str .= '<tr><td class="topMenu">'."\n";
 		$str .= '	<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
 		$str .= '		<td valign=top align="left"><img src="'.$file_root.'/images/main_left_top.gif" alt="-"></td>'."\n";
@@ -141,7 +140,7 @@ function html_round_frame_start ($title = "", $width = "", $extra = "", $innerPa
 		$str .= '</td></tr>'."\n";
 	}
 	
-	$str .= '<tr><td>'."\n";	
+	$str .= '<tr><td>'."\n";
 	$str .= '<table width="100%" border="0" cellpadding='.$innerPad.' cellspacing=1 '.$extra.'><tr><td class="color2">'."\n";
 
 	return $str;
@@ -151,8 +150,7 @@ function html_round_frame_end ($text = "")
 {
 	global $file_root;
 	$str .= '</td></tr></table></td></tr>'."\n";
-	if ($text)
-	{
+	if ($text) {
 		$str .= '<tr><td class="topMenu">'."\n";
 		$str .= '	<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
 		$str .= '		<td valign=bottom align="left"><img src="'.$file_root.'/images/main_left_bottom.gif" alt="-"></td>'."\n";
@@ -344,7 +342,6 @@ function html_header ($title, $extra = "")
 	<img src="<?=$file_root?>/images/scummvm_logo.png"  width="407" height="111" alt="ScummVM" style="float: left">
 	<img src="<?=$file_root?>/images/scummvm_chars.png" width="193" height="111" alt="-" style="float: right">
 </div>
-
 <?
 }
 
