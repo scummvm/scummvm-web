@@ -92,7 +92,9 @@ $gamesLucas = array(
 $gamesHE = array(
 		'Backyard Baseball 2001 (Demo)'						=> array('n/a','bb2demo','5'),
 		'Backyard Football 2002 (Demo)'						=> array('n/a','footdemo','5'),
+		'Blue\'s ABC Time'							=> array('n/a','BluesABCTime','5'),
 		'Blue\'s ABC Time (Demo)'						=> array('n/a','BluesABCTimeDemo','50'),
+		'Blue\'s Birthday Adventure (Demo)'					=> array('n/a','BluesBirthdayDemo','5'),
 		'Big Thinkers First Grade (Demo)'					=> array('n/a','1grademo','10'),
 		'Big Thinkers Kindergarten (Demo)'					=> array('n/a','kinddemo','50'),
 		'Big Thinkers Kindergarten'						=> array('n/a','thinkerk','10'),
@@ -241,8 +243,10 @@ $notes = array(
 
 "bb2demo"	=> "Only shows introduction",
 "footdemo"	=> "Only shows introduction",
+"BluesABCTime"	=> "Only shows introduction",
 "BluesABCTimeDemo" => "Game is playable".
 		   "<br>- Various issues",
+"BluesBirthdayDemo"	=> "Only shows introduction",
 "1grademo"	=> "Game is playable, but objects in mini games aren't drawn",
 "kinddemo"	=> "Game is playable, but settings aren't saved".
 		   "<br>- Various issues",
