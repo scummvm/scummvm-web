@@ -160,10 +160,10 @@ function bugs($buglist) {
 	<?php portStatus(array("Win32" => 0, "Linux" => 1, "DC" => 0,
 	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 <tr><td>Tentacle</td>
-	<td>khalek (Dec 6)</td>
+	<td>khalek (Dec 6), cyx (Dec 21)</td>
 	<td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
-	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => +1)); ?></tr>
+	<?php portStatus(array("Win32" => 0, "Linux" => 1, "DC" => 0,
+	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 1)); ?></tr>
 <tr><td>Samnmax</td>
 	<td>zpeidar (Dec 9), andi_z (Dec 10)</td>
 	<td>...</td>
