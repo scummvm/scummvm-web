@@ -131,7 +131,7 @@ echo html_round_frame_start("Links","98%","",20);
 	<!-- -->
 
 	<b>Other sites of interest</b><? echo html_line(); ?>
-	<p>The following are links to sides that provide news and help on retro-gaming or are otherwise of interest.</p>
+	<p>The following are links to sites that provide news and help on retro-gaming or are otherwise of interest.</p>
 
 	<blockquote>
 	<table border=0 cellpadding=5 cellspacing=0>
