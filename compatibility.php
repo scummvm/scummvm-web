@@ -96,6 +96,7 @@ $games = array(
 		'Curse of Monkey Island'				=> array('8','comi','80'),
 		'Beneath a Steel Sky'			       		=> array('n/a','sky','90'),
 		'Broken Sword II'			       		=> array('n/a','sword2','70'),
+		'Flight of the Amazon Queen'			       	=> array('n/a','queen','5'),
  		'Simon The Sorcerer 1 Talkie (Win)'			=> array('n/a','simon1win','95'),
 		'Simon The Sorcerer 1 Talkie (DOS)'       		=> array('n/a','simon1talkie','90'),
 		'Simon The Sorcerer 1 Talkie (Amiga CD32)'     		=> array('n/a','simon1cd32','8'),
@@ -229,6 +230,8 @@ $notes = array(
 "sword2"	 => "Game is completable, with several minor glitches".
 		   "<br>- Does not work on systems that require alignment".
 		   "<br>- No video for cutscenes",
+"queen"		 => "Only the introduction works so far.".
+		   "<br>- Requires queen.tbl resource file",
 "simon1win" 	=> "No known problems - game is completable.",
 "simon1talkie" 	=> "Game is completable.".
                     "<br>- No inventory scrolling arrows shown, can still move around inventory though",
