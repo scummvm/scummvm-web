@@ -20,10 +20,7 @@ echo html_round_frame_start("Compatibility","98%","",20);
 
 
 ?>
-	<p>
-	  <big><b>Compatibility</b></big><br>
-	  <? echo html_line(); ?>
-	</p>
+	<h1>Compatibility</h1>
 <?
 if ($details)
 {

@@ -19,12 +19,9 @@ sidebar_start();
 echo html_round_frame_start("Links","98%","",20);
 
 ?>
-	<p>
-	  <big><b>Links</b></big><br>
-	  <? echo html_line(); ?>
-	</p>
+	<h1>Links</h1>
 	
-	<b>Official ports</b><? echo html_line(); ?>
+	<h2>Official ports</h2>
 	<p>Some additional links for ports that have been merged into our CVS</p>
 
 	<blockquote>
@@ -63,7 +60,7 @@ echo html_round_frame_start("Links","98%","",20);
 	
 	<!-- -->
 
-	<b>Unofficial ports</b><? echo html_line(); ?>
+	<h2>Unofficial ports</h2>
 	<p>There are a few unofficial ports of ScummVM floating around. Usually we prefer to merge any ports into our official
 	CVS, but for the following this has not (yet) happened for various reasons. Note that the ScummVM team does not endorse
 	any of these ports. We did not test them, and we do not guarantee that they work properly. <span style="color: red">Use at your own risk!</span></p>
@@ -89,7 +86,7 @@ echo html_round_frame_start("Links","98%","",20);
 
 	<!-- -->
 
-	<b>Libraries &amp; Technologies</b><? echo html_line(); ?>
+	<h2>Libraries &amp; Technologies</h2>
 	<p>The following lists some libraries and technologies ScummVM makes use of
 	(depending on which system your run it and which configuration is chosen).</p>
 
@@ -141,7 +138,7 @@ echo html_round_frame_start("Links","98%","",20);
 
 	<!-- -->
 
-	<b>Other sites of interest</b><? echo html_line(); ?>
+	<h2>Other sites of interest</h2>
 	<p>The following are links to sites that provide news and help on retro-gaming or are otherwise of interest.</p>
 
 	<blockquote>
@@ -195,7 +192,7 @@ get you and eat your family, computer and house. And poop everywhere.
 	
 	<!-- -->
 
-	<b>Other classic game engine open source projects</b><? echo html_line(); ?>
+	<h2>Other classic game engine open source projects</h2>
 	<p>The following are links to other classic game engine open source projects similar to ScummVM. 
       Know any other classic game projects that should be linked here?
       <a href="http://sourceforge.net/sendmessage.php?touser=339357" target="_blank">Let me know!</a>
@@ -256,7 +253,7 @@ get you and eat your family, computer and house. And poop everywhere.
     
 	<!-- -->
 
-	<b>Technical information about SCUMM</b><? echo html_line(); ?>
+	<h2>Technical information about SCUMM</h2>
 	<p>SCUMM is a complex system that grew over many years. Understanding it can
 	be quite difficult at times. Luckily there are some sites that provide you
 	with a bunch of information about SCUMM; here are some of them.
@@ -290,7 +287,7 @@ get you and eat your family, computer and house. And poop everywhere.
 	</table>
 	</blockquote>
 
-	<b>GUI frontends for ScummVM</b><? echo html_line(); ?>
+	<h2>GUI frontends for ScummVM</h2>
 	<p>
 Although ScummVM now includes a basic graphical user interface for adding and configuring basic game options, it is new and fairly
 incomplete. For those whom are not comfortable using the command line to access the more advanced options, here are some other

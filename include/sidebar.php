@@ -15,7 +15,7 @@ function sidebar_start ()
 
 <table width="100%" border=0 cellpadding=0 cellspacing=0>
 <tr>
-<td align=center valign=top width="120">
+<td align=center valign=top>
 
 <?
 
@@ -54,14 +54,14 @@ function sidebar_start ()
 ?>
 	<p>&nbsp;</p>
 	
-	<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+	<form action="https://www.paypal.com/cgi-bin/webscr" method="post"><div>
 	<input type="hidden" name="cmd" value="_xclick">
 	<input type="hidden" name="business" value="paypal@enderboi.com">
 	<input type="hidden" name="item_name" value="ScummVM donation">
 	<input type="image" src="<?=$file_root?>/images/ppdonate.gif" name="submit" alt="Donate to ScummVM with PayPal!">
-	</form>	
+	</div></form>	
 	
-	<p align="center">
+	<p style="text-align: center">
 	  <a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=37116"
 	  width="88" height="31" alt="SourceForge"></a>
 	</p>

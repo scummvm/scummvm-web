@@ -301,18 +301,19 @@ WARN_LOGFILE           =
 # directories like "/usr/src/myproject". Separate the files or directories 
 # with spaces.
 
-INPUT                  = /home/groups/s/sc/scummvm/scummvm/common \
-                         /home/groups/s/sc/scummvm/scummvm/base \
-                         /home/groups/s/sc/scummvm/scummvm/bs2 \
-                         /home/groups/s/sc/scummvm/scummvm/gui \
-                         /home/groups/s/sc/scummvm/scummvm/scumm \
-                         /home/groups/s/sc/scummvm/scummvm/simon \
-                         /home/groups/s/sc/scummvm/scummvm/sky \
-                         /home/groups/s/sc/scummvm/scummvm/sound \
-                         /home/groups/s/sc/scummvm/scummvm/queen
+INPUT                  = \
+	/home/groups/s/sc/scummvm/scummvm/base \
+	/home/groups/s/sc/scummvm/scummvm/bs2 \
+	/home/groups/s/sc/scummvm/scummvm/common \
+	/home/groups/s/sc/scummvm/scummvm/gui \
+	/home/groups/s/sc/scummvm/scummvm/scumm \
+	/home/groups/s/sc/scummvm/scummvm/simon \
+	/home/groups/s/sc/scummvm/scummvm/sky \
+	/home/groups/s/sc/scummvm/scummvm/sound \
+	/home/groups/s/sc/scummvm/scummvm/queen
 
 # Also, skip the backends for now
-#                         /home/groups/s/sc/scummvm/scummvm/backends \
+#	/home/groups/s/sc/scummvm/scummvm/backends \
 
 
 # If the value of the INPUT tag contains directories, you can use the 

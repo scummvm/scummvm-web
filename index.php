@@ -41,19 +41,16 @@ echo html_round_frame_start("About ScummVM","98%","",20);
 ?>
 	<table width="100%" border=0 cellpadding=10 cellspacing=0>
 	<tr valign="top">
-	  <td width="100%">
-		<p>
-		  <big><b>What is <font color=green>Scumm</font>VM?</b></big><br>
-		  <? echo html_line(); ?>
-		</p>
+	  <td>
+		<h1>What is <span style="color: green">Scumm</span>VM?</h1>
 
 		<p>
 		ScummVM is a 'virtual machine' for several classic graphical point-and-click adventure
 		games. It is designed to run <a href="http://www.adventuresoft.com">Adventure Soft</a>'s
 		<i>Simon the Sorcerer</i> 1 and 2, <a href="http://www.revolution.co.uk">Revolution</a>'s
-		<i>Beneath A Steel Sky</i>, and games based on <a href="http://www.lucasarts.com">LucasArts</a>' <font
-		color="green">SCUMM</font> <font color="#666666">(<i>Script Creation Utility for Maniac
-		Mansion</i>)</font> system. <font color="green">SCUMM</font> is used for many games,
+		<i>Beneath A Steel Sky</i>, and games based on <a href="http://www.lucasarts.com">LucasArts</a>'
+		<span style="color: green">SCUMM</span> <span style="color: #666666">(<i>Script Creation Utility for Maniac
+		Mansion</i>)</span> system. <span style="color: green">SCUMM</span> is used for many games,
 		including <i>Monkey Island</i>, <i>Day of the Tentacle</i>, <i>Sam and Max</i> and more.
 		Compatibility with supported games is continually improving, so check back often.
 		</p>
@@ -70,19 +67,20 @@ echo html_round_frame_start("About ScummVM","98%","",20);
 			<a href="javascript:openWin('./screenshots/big_scummvm_'+i_jn+'.png','scummvm',640,400);"
 			onMouseOver="window.status='Click to View Full Size Image';return true;"
 			onMouseOut="window.status='';return true;"><img
-			src="./screenshots/scummvm_<?=$randImg?>.png" border=0 hspace=5 width=256 height=160
-			vspace=5 name="img_jn" alt="Click to view Full Size"></a>
+			src="./screenshots/scummvm_<?=$randImg?>.png" width=256 height=160
+			style="margin: 5px"
+			name="img_jn" alt="Click to view Full Size"></a>
 		</td></tr>
 		<tr><td>
 			<table width="100%" border=0 cellpadding=0 cellspacing=0>
 			<tr>
 				<td align=left>
 				  <a href="javascript:scrshot_jn(<?=$total?>,0);"><img
-				  src="./images/back.gif" border=0 width=43 height=23 alt="back"></a>
+				  src="./images/back.gif" width=43 height=23 alt="back"></a>
 				</td>
 				<td align=right>
 				  <a href="javascript:scrshot_jn(<?=$total?>,1);"><img
-				  src="./images/next.gif" border=0 width=38 height=23 alt="next"></a>
+				  src="./images/next.gif" width=38 height=23 alt="next"></a>
 				</td>
 			</tr>
 			</table>
@@ -115,12 +113,14 @@ while (list($key,$item) = each($news))
 	
 	echo html_frame_tr(
 			    html_frame_td(
-			    		   display_xml($file_root."/news/".$item,'IMG').
-					   "<p><big><b><font color=\"#666666\">".display_xml($file_root."/news/".$item,'DATE')."</font>: ".
-					   display_xml($file_root."/news/".$item,'NAME')."</b></big><br>\n".
-					   html_line()."</p>\n"."<blockquote>\n".
-					   display_xml($file_root."/news/".$item,'BODY')."</blockquote>\n".
-					   html_p()
+								'<div class="news-item">'.
+									'<div class="news-header">'.
+										'<span class="date">'.display_xml($file_root."/news/".$item,'DATE')."</span>: ".
+										display_xml($file_root."/news/".$item,'NAME').
+									'</div>'.
+									display_xml($file_root."/news/".$item,'IMG').
+									'<div class="news-body">'.display_xml($file_root."/news/".$item,'BODY').'</div>'.
+								'</div>'
 			                 )
 	                  );
 	

@@ -20,10 +20,7 @@ sidebar_start();
 echo html_round_frame_start("Downloads","98%","",20);
 
 ?>
-	<p>
-	  <big><b>Downloads for ScummVM</b> version 0.5.1</big><br>
-	  <? echo html_line(); ?>
-	</p>
+	<h1>Downloads for ScummVM <span style="color: gray;">version 0.5.1</span></h1>
 
 	<p>
 	  Downloads are hosted with SourceForge.net. If you have one of the supported systems, you can directly download

@@ -19,10 +19,7 @@ sidebar_start();
 echo html_round_frame_start("Screenshots","98%","",20);
 
 ?>
-	<p>
-	  <big><b>Screenshots</b></big><br>
-	  <? echo html_line(); ?>
-	</p>
+	<h1>Screenshots</h1>
 
 <?
 

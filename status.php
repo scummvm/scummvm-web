@@ -25,10 +25,7 @@ sidebar_start();
 echo html_round_frame_start("State of the SCUMM","98%","",20);
 
 ?>
-	<p>
-	  <? echo html_headline("<big>State of the SCUMM - 17th October 2002</big>"); ?>
-	</p>
-	<p>
+	<h1>State of the SCUMM - 17th October 2002</h1>
 	<h3 align="center"><a href="http://sourceforge.net/mailarchive/forum.php?thread_id=1199086&forum_id=7223">
 Link to the e-mail thread archive</a></h3>
 

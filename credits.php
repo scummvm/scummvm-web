@@ -21,7 +21,6 @@ function add_person ($name, $nick, $desc)
 	else
 		echo "<td></td>";
 	echo "<td>- ".$desc."</td>";
-	return do_indent("<b>$str</b><br>\n".html_line());
 }
 
 
@@ -33,15 +32,12 @@ sidebar_start();
 echo html_round_frame_start("Credits","98%","",20);
 
 ?>
-	<p>
-	  <big><b>Credits</b></big><br>
-	  <? echo html_line(); ?>
-	</p>
+	<h1>Credits</h1>
     
 	<blockquote>
 	<table border=0 cellpadding=5 cellspacing=0>
 	  
-      <tr><td colspan=3><b>The ScummVM team:</b><? echo html_line(); ?></td></tr>
+      <tr><td colspan=3><h2>The ScummVM team:</h2></td></tr>
       
 	  <?php
 	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=2715" target="_blank">James Brown</a>',
@@ -69,7 +65,7 @@ echo html_round_frame_start("Credits","98%","",20);
 	  ?>
   
       <tr><td colspan=3>&nbsp;</td></tr>
-      <tr><td colspan=3><b>Retired Team Members:</b><? echo html_line(); ?></td></tr>
+      <tr><td colspan=3><h2>Retired Team Members:</h2></td></tr>
       
 	  <?php
 	  add_person("Ralph Brorsen", "painelf", "Help with GUI Implementation");
@@ -81,7 +77,7 @@ echo html_round_frame_start("Credits","98%","",20);
 	  ?>
 
       <tr><td colspan=3>&nbsp;</td></tr>
-      <tr><td colspan=3><b>Contributors:</b><? echo html_line(); ?></td></tr>
+      <tr><td colspan=3><h2>Contributors:</h2></td></tr>
 
 	  <?php
 	  add_person("Janne Huttunen", "", "V3 actor mask support, Dig/FT SMUSH audio");
@@ -103,7 +99,7 @@ echo html_round_frame_start("Credits","98%","",20);
       <tr><td colspan=3>And to all the contributors, users, and beta testers we've missed. Thanks!</td></tr>
       
       <tr><td colspan=3>&nbsp;</td></tr>
-      <tr><td colspan=3><b>Special thanks to:</b><? echo html_line(); ?></td></tr>
+      <tr><td colspan=3><h2>Special thanks to:</h2></td></tr>
       
 	  <?php
 	  add_person("Sander Buskens", "", "For his work on the initial reversing of Monkey2");

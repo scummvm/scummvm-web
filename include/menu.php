@@ -14,7 +14,7 @@ class htmlmenu {
 	
 		echo "<table width=120 border=0 cellspacing=0 cellpadding=0>\n";
 		echo "<tr>\n";
-		echo "	<td width='100%' class=topMenu><span class=menuTitle>&nbsp;$name</span></td>\n";
+		echo "	<td class=topMenu><span class=menuTitle>&nbsp;$name</span></td>\n";
 		echo "	<td align=right valign=top class=topMenu><img src='".$file_root."/images/main_right_top.gif' alt='---'></td>\n";
 		echo " </tr>\n";
 		echo "</table>\n";
@@ -27,7 +27,7 @@ class htmlmenu {
     /* add a table row */
     function add($name, $url = null)
     {
-    	echo "<tr><td width='100%' class=sideMenu><span class=menuItem>&nbsp;";
+    	echo "<tr><td class=sideMenu><span class=menuItem>&nbsp;";
 		if($url) {
 			echo "<a href='$url' class=menuItem>$name</a>";
 		} else {

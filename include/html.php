@@ -162,7 +162,7 @@ function html_round_frame_start ($title = "", $width = "", $extra = "", $innerPa
     }
     
     $str .= '<tr><td>'."\n";	
-    $str .= '<table width="100%" border="0" cellpadding='.$innerPad.' cellspacing=1 '.$extra.'><tr><td class="color2" bgcolor="#ffffff">'."\n";
+    $str .= '<table width="100%" border="0" cellpadding='.$innerPad.' cellspacing=1 '.$extra.'><tr><td class="color2">'."\n";
 
     return $str;
 }
@@ -403,11 +403,11 @@ function html_header ($title, $extra = "")
     <td style="background-image:url(<?=$file_root?>/images/scummvm_top_tile.png)">
 	<table width="100%" border="0" cellpadding="0" cellspacing="0">
 	<tr>
-	    <td><img src="<?=$file_root?>/images/scummvm_logo.png"  width="407" height="111" alt="ScummVM"></td>
-	    <td width="100%">
+	    <td align="left"><img src="<?=$file_root?>/images/scummvm_logo.png"  width="407" height="111" alt="ScummVM"></td>
+	    <td>
 		&nbsp;
 	    </td>
-	    <td><img src="<?=$file_root?>/images/scummvm_chars.png" width="193" height="111"  alt="-"></td>
+	    <td align="right"><img src="<?=$file_root?>/images/scummvm_chars.png" width="193" height="111"  alt="-"></td>
 	</tr>
 	</table>
     </td>
@@ -421,7 +421,7 @@ function html_footer ()
 {
 ?>
 
-<div align="right" class="copyright">
+<div class="copyright">
 LucasArts, Monkey Island, Maniac Mansion, Full Throttle,
 <br>The Dig, LOOM, and probably lots of other things are
 <br>registered trademarks of <a href="http://www.lucasarts.com" class="copyright">LucasArts, Inc.</a>.

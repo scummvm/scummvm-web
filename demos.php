@@ -20,10 +20,7 @@ echo html_round_frame_start("Game Demos","98%","",20);
 
 
 ?>
-	<p>
-	  <big><b>Game Demos</b></big><br>
-	  <? echo html_line(); ?>
-	</p>
+	<h1>Game Demos</h1>
 	<p>
 	  This page lists some links to demos of various games, that in general don't work as well as the
 	  full versions. Full Throttle, The Dig, and the Curse of Monkey Island in particular.<br><br>
