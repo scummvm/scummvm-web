@@ -36,6 +36,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
        <li><a href="#1-7">How do I compile the source code for my OS?</a></li>
        <li><a href="#1-8">On what platforms does ScummVM run?</a></li>
        <li><a href="#1-9">Does ScummVM run any non SCUMM games?</a></li>
+       <li><a href="#1-10">Can I use ScummVM to make new games?</a></li>
     </ol>
   </li>
     
@@ -84,7 +85,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
       <li><p><a name="1-1"></a><b>Why is it called ScummVM - what does this name mean?</b><br>
 	Scumm comes from the fact that it was originally designed to run SCUMM games, like
 	Monkey Island.
-	VM stands for VIRTUAL MACHINE.</p></li>
+	VM stands for Virtual Machine.</p></li>
 
       <li><p><a name="1-2"></a><b>What is SCUMM?</b><br>
 	SCUMM stands for "Script Creation Utility for Maniac Mansion". It is a utility used
@@ -93,7 +94,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	"Maniac Mansion" and was used later, with some modifications, for Zak McKracken and
 	the Alien Mindbenders. Development on the SCUMM system continued for some time,
 	and was used in Loom, Indiana Jones and the Last Crusade, Indiana Jones and the Fate
-	of Atlantis, Monkey Island 1,2,3, Sam & Max Hit the Road, Day of the Tentacle, The Dig
+	of Atlantis, Monkey Island 1,2,3, Sam &amp; Max Hit the Road, Day of the Tentacle, The Dig
 	and Full Throttle.</p></li>
 
       <li><p><a name="1-3"></a><b>Is ScummVM free?</b><br>
@@ -153,6 +154,16 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	Unless you work for a company interested providing us with source code for one of your
 	classic titles, please do not ask us to support game XXX.
 	</p></li>
+  
+        <li><p><a name="1-10"></a><b>Can I use ScummVM to make new games?</b><br>
+	While it is theoretically possible to write a new game that uses ScummVM it is not
+	advisable.  ScummVM has many hacks to support older games and no tools geared towards
+	creating content usuable by ScummVM.  Potential game authors are encouraged to look
+	at open source technologies such as <a href="http://www.libsdl.org">libSDL</a> for
+	a cross platform DirectX like library, and the <a href="http://www.lua.org">Lua</a>
+	and <a href="http://www.python.org">Python</a> scripting languages for game logic.
+	</p></li>
+	
 	
     </ol>
   </li>
