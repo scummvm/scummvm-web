@@ -42,7 +42,7 @@ item will actually return the second-last item
 frames of his 'throw hook' and 'standing at cannon' animation
 		<li>Lack of MouthSync stuff causes odd actor speech animations
 		<li>Lack of MusicMouthSync will stop entry into Part 3 (hang during song sequence)
-		<li>Actor occasionally gets stuck - related to scaling bug? <b>(is this still there now scaling is implemented?)</b>
+		<li>Actor occasionally gets stuck (e.g. after taking Wally's fake hook)
 	</ul>
 </ul>
 
