@@ -166,7 +166,8 @@
 		</ul>
 		<li><h4>Simon the Sorcerer 1 & 2</h4>
 		<ul>
-			<li>Add Amiga decompressor + music support</li>
+			<li>Add support for Protracker music format used in Amiga versions</li>
+			<li>Add support for decoding main graphics correctly in Amiga versions</li>
 			<li>Check <a href="http://members.optusnet.com.au/wormmon/simon.html">Simon issues</a> for list of other bugs</li>
 			<li><i>Ask: olki, Kirben</i></li>
 		</ul>
