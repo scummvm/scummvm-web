@@ -80,8 +80,8 @@ $games = array(
 		'Simon The Sorcerer 1 Talkie (Dos)'       		=> array('n/a','simon1talkie','85'),
 		'Simon The Sorcerer 1 (Dos)'           			=> array('n/a','simon1dos','85'),
 		'Simon The Sorcerer 1 (DEMO)'          			=> array('n/a','simon1demo','60'),
-		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','60'),
-		'Simon The Sorcerer 2 Talkie (Dos)'       		=> array('n/a','simon2talkie','60'),
+		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','80'),
+		'Simon The Sorcerer 2 Talkie (Dos)'       		=> array('n/a','simon2talkie','80'),
 		'Simon The Sorcerer 2 (Dos)'           			=> array('n/a','simon2dos','5')
 	      );
 
@@ -129,11 +129,11 @@ $notes = array(
                    "<br>- Various minor graphical glitches",
 "simon1demo" 	=> "Game demo is completable to a point, but not playable to the end".
                    "<br>- No music",
-"simon2talkie"  => "Game is completable to a point, but not playable to the end".
+"simon2talkie"  => "Game is completable.".
                    "<br>- No music and some sound effects are missing".
                    "<br>- Part of introduction is skipped".
                    "<br>- Various minor graphical glitches",
-"simon2win"     => "Game is completable to a point, but not playable to the end".
+"simon2win"     => "Game is completable.".
                    "<br>- Some sound effects are missing".
                    "<br>- Part of introduction is skipped".
                    "<br>- Various minor graphical glitches",
