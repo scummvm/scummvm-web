@@ -19,9 +19,10 @@
 		<li>No SMUSH Audio: aquadran is working on this one
 		<li>Something is wrong with our flObject 
 implementation. See the conversation bug below. This problem also 
-causes a crash when bringing up the inventory after taking all the 
-items in the Snake in Part II (object 116, loaded and locked in 
-bootscript)
+causes a crash when bringing up the inventory after taking a large 
+number of items - such as all the 
+items in the Snake in Part II (objects 115/116 - inventory scroll 
+arrows - loaded and locked in bootscript)
 	</ul>
 <li>Inventory:
 	<ul>
