@@ -180,11 +180,6 @@ function addLinkEntry($name, $url, $desc) {
 				Black Gate</i> and <i>The Serpent Isle</i>.");
 			addLinkEntry('Pentagram :: Ultima VIII', 'http://pentagram.sourceforge.net/',
 				"Pentagram is a project aiming to create an Ultima 8 engine for use on modern operating systems.");
-			addLinkEntry("Yarn :: Dreamer's Guild SAGA Games", 'http://sourceforge.net/projects/yarn/',
-				"Yarn is an open source replacement for the SAGA adventure-game
-				engine used for some of Dreamer's Guild's games including
-				<i>Inherit The Earth</i> and <i>I Have No Mouth And I Must
-				Scream</i>.");
 		?>
 	</div>
     
