@@ -28,6 +28,7 @@
 		<?php addEntry("EGA", "DOS", "de", "6f6ef668c608c7f534fea6e6d3878dde", "indy3EGA", "dhewg"); ?>
 		<?php addEntry("EGA", "Amiga", "en", "9c0fee288ad564a7d25ec3e841810d79", "indy3EGA", "dhewg"); ?>
 		<?php addEntry("EGA", "Amiga", "de", "330f631502e381a4e199a3f7cb483c20", "indy3EGA", "dhewg"); ?>
+		<?php addEntry("EGA", "Amiga", "fr", "e689bdf67f98b1d760ce4487ec0e8d06", "indy3EGA", "Gerald Vincent"); ?>
 		<?php addEntry("EGA", "DOS", "es", "ce7fd0c382389a6791fc3e199c117ef4 ", "indy3EGA", "abnog"); ?>
 		<?php addEntry("EGA Demo", "DOS", "en", "b597e0403cc0002f69170e6caba7edd9", "indy3EGA"); ?>
 		<?php addEntry("VGA", "DOS", "en", "1875b90fade138c9253a8e967007031a", "indy3"); ?>
@@ -43,6 +44,7 @@
 		<?php addEntry("Floppy", "DOS", "de", "fa127d7c4bb47d05bb1c33ddcaa9f767", "loom"); ?>
 		<?php addEntry("Floppy", "DOS", "es", "2a208ffbcd0e83e86f4356e6f64aa6e1", "loom", "abnog"); ?>
 		<?php addEntry("Floppy", "Amiga", "en", "4dc780f1bc587a193ce8a97652791438", "loom", "Antti Leimi"); ?>
+		<?php addEntry("Floppy", "Amiga", "fr", "39cb9dec16fa16f38d79acd80effb059", "loom", "Gerald Vincent"); ?>
 		<?php addEntry("Talkie/CD", "DOS", "en", "5d88b9d6a88e6f8e90cded9d01b7f082", "loomcd"); ?>
 		<?php addEntry("FmTowns", "FmTowns", "en", "c5d10e190d4b4d59114b824f2fdbd00e", "loomTowns", "dhewg"); ?>
 		<?php addEntry("FmTowns", "FmTowns", "jp", "31b8fda4c8c7413fa6b39997e776eba4", "loomTowns", "khalek"); ?>
@@ -50,10 +52,13 @@
 		<?php addEntry("EGA", "DOS", "en", "49210e124e4c2b30f1290a9ef6306301", "monkeyega"); ?>
 		<?php addEntry("EGA Demo", "DOS", "en", "71523b539491527d9860f4407faf0411", "monkeyega"); ?>
 		<?php addEntry("EGA Demo", "DOS", "de", "771bc18ec6f93837b839c992b211904b", "monkeyega", "khalek"); ?>
+		<?php addEntry("EGA", "Amiga", "de", "fc6b6148e80d67939d9a18697c0f626a", "monkeyega", "ghoostkilla"); ?>
 		<?php addEntry("VGA", "DOS", "en", "15e03ffbfeddb9c2aebc13dcb2a4a8f4", "monkeyvga"); ?>
 		<?php addEntry("VGA", "DOS", "de", "d0b531227a27c6662018d2bd05aac52a", "monkeyvga"); ?>
 		<?php addEntry("VGA", "DOS", "es", "45152f7cf2ba8f43cf8a8ea2e740ae09", "monkeyvga"); ?>
 		<?php addEntry("VGA", "Amiga", "en", "6c2bff0e327f2962e809c2e1a82d7309", "monkeyvga", "dhweg"); ?>
+		<?php addEntry("VGA", "Amiga", "de", "319a4dde52c7960b5aae8a1ec348d918", "monkeyvga", "ghoostkilla"); ?>
+		<?php addEntry("VGA", "Amiga", "fr", "3433be9866ca4261b2d5d25374e3f243", "monkeyvga", "Gerald Vincent"); ?>
 		<?php addEntry("VGA Demo", "Amiga", "en", "54a936ad06161ff7bfefcb96200f7bff", "monkeyvga", "khalek"); ?>
 		<?php addEntry("CD", "DOS", "en", "2d1e891fe52df707c30185e52c50cd92", "monkey"); ?>
 		<?php addEntry("CD", "DOS", "de", "305d3dd57c96c65b017bc70c8c7cfb5e", "monkey"); ?>
@@ -87,6 +92,7 @@
 		<?php addEntry("Non-Talkie", "DOS", "de", "1fbebd7b2b692df5297870447a80cfed", "atlantis"); ?>
 		<?php addEntry("Non-Talkie", "DOS", "fr", "edfdb24a499d92c59f824c52987c0eec", "atlantis", "Nicolas Sauz&egrave;de"); ?>
 		<?php addEntry("Non-Talkie", "Amiga", "en", "3a03dab514e4038df192d8a8de469788", "atlantis", "dhewg"); ?>
+		<?php addEntry("Non-Talkie", "Amiga", "de", "4f267a901719623de7dde83e47d5b474", "atlantis", "ghoostkilla"); ?>
 		<?php addEntry("FmTowns", "FmTowns", "en", "c7be10f775404fd9785a8b92a06d240c", "indy4", "dhewg"); ?>
 		<?php addEntry("FmTowns Demo", "FmTowns", "jp", "28d24a33448fab6795850bc9f159a4a2", "indydemo", "khalek"); ?>
 		<?php addEntry("Demo", "DOS", "en", "035deab53b47bc43abc763560d0f8d4b", "playfate"); ?>
