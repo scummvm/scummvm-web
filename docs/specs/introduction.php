@@ -189,7 +189,7 @@ ones to be constructed.
 <p>One of the features of Skim is a linkable object file format, called SLOB.
 SLOB files can contain any normal SCUMM resources, plus information about them
 to allow several SLOB files to be linked together into a runnable game. See
-also the <a href="http://www.cowlark.com/scumm/slob.html">SLOB file format</a>.
+also the <a href="slob.php">SLOB file format</a>.
 
 <h2>Engines</h2>
 
