@@ -61,7 +61,6 @@
 		<li><h4>Zak McKracken Classic</h4>
 		<ul>
 			<li>Fix graphical glitches when actors move diagonally</li>
-			<li>Fix problem of last few lines of room gfx. often not been shown after changing roons</li>
 		</ul>
 		<li><h4>Zak McKracken Enchanced</h4>
 		<ul>
