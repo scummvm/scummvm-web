@@ -121,6 +121,7 @@ $notes = array(
 "monkey"	=> "No known problems - should be playable to the end",
 "monkey2"	=> "No known problems - should be playable to the end",
 "atlantis"	=> "No known problems - should be playable to the end".
+		   "<br>- Both disk and cd versions are supported by this target".
 		   "<br>- Music loud on some systems, run with -m30 to lower music volume.",
 "playfate"	=> "No known problems - should be playable to the end",
 "puttdemo"	=> "Should be playable to the end".
@@ -151,9 +152,13 @@ $notes = array(
 		   "<br>- Lines and Boxes: Error(4:203:0x4BFC): Value 88 is out of bounds (0,31) in script 203 (Illegal palet slot 88)".
 		   "<br>- Coloring/Tangrams: Error(6:209:0x40D5): Invalid opcode 'db'".
 		   "<br>- Humongous talkie file format currently unknown",
-"tentacle"	=> "No known problems - should be playable to the end",
+"tentacle"	=> "No known problems - should be playable to the end".
+		   "<br>- Both disk and cd versions are supported by this target".
+		   "<br>- Maniac Mansion isn't playable on eds computer",
 "dottdemo"	=> "No known problems - should be playable to the end",
 "samnmax"	=> "No major problems - should be playable to the end".
+		   "<br>- Disk version needs to have the .sm0 and .sm1 files renamed to .000 and .001".
+		   "<br>- Both disk and cd versions are supported by this target".
                    "<br>- Highway subgame doesn't behave correctly",
 "samdemo"	=> "No known problems - should be playable to the end",
 "ft"		=> "Game is completable to the end, but missing action sequences".
