@@ -71,3 +71,82 @@ TD.label	{ font-weight: bold }
 .pct90		{ background-color: #a0ff60; }
 .pct95		{ background-color: #8cff60; }
 .pct100		{ background-color: #60ff60; }
+
+/* from here down is stuff for the scumm reference guide */
+
+TABLE.bitfield TH {
+        text-align: center;
+        font-family: "Arial", helvetica, sans;
+        font-size: smaller;
+}
+ 
+TABLE.bitfield TD {
+        border: 1px solid #000000;
+        text-align: center;
+        font-family: "Arial", helvetica, sans;
+        font-size: smaller;
+}
+
+DIV.opcode {
+        background-color: #FAFAFA;
+        border: 2pt solid #000000;
+        padding: 0.5em;
+        margin-top: 1em;
+}
+
+DIV.opcode H2 {
+        position: top;
+        float: right;
+        font-family: "Arial", helvetica, sans;
+        font-size: larger;
+        font-weight: bold;
+        margin-top: 0em;
+}
+
+DIV.opcode H3 {
+        margin-top: 0em;
+        font-family: "Arial", helvetica, sans;
+        font-size: large;
+        position: top;
+        font-weight: normal;
+}
+
+DIV.opcode H5 {
+        margin-top: 0em;
+        font-family: monospace;
+        white-space: pre;
+        margin: 0 0;
+}
+
+PRE.box {
+	font-family: courier;
+	font-size: small;
+	white-space: pre;
+	border: 2pt solid #000000;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 2%;
+	background-color: #F0F0F0;
+}
+
+TABLE.list TH {
+        background-color: #A0A0A0;
+        text-align: center;
+        font-family: "Arial", helvetica, sans;
+        font-size: smaller;
+}
+
+TABLE.list CAPTION {
+        text-align: center;
+        font-family: "Arial", helvetica, sans;
+        font-size: small;
+        width: 100%;
+}
+
+TABLE.list TD {
+        background-color: #F0F0F0;
+        text-align: center;
+        font-family: "Arial", helvetica, sans;
+        font-size: smaller;
+}
+
