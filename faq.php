@@ -109,7 +109,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	that contains an up to date list of what games work, and how well they work. As
 	well as SCUMM games, we also include virtual machines for the first two Simon the Sorcerer
 	games (by Adventure Soft), and Beneath a Steel Sky by Revolution. Other games may be added,
-	but this is not a common occurance - see below.
+	but this is not a common occurrence - see below.
 	</p></li>
 
       <li><p><a name="1-5"></a><b>Will ScummVM support other games?</b><br>
@@ -119,7 +119,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	for their games, so we are more than happy to add support for these classic adventures.<BR><BR>
 	However we do <i>NOT</i> generally add support for non-SCUMM games! 
 	Reverse engineering a completely new game without source is a long process, and our
-	developers are all very busy as it is... so unless you work for a company intrested
+	developers are all very busy as it is... so unless you work for a company interested
 	in providing us with source code for one of your classic titles, please do not ask.
       </p></li>
 
@@ -145,13 +145,13 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
       <li><p><a name="1-9"></a><b>Does ScummVM run any non-SCUMM games?</b><br>
         Yes. Currently the only non-SCUMM games supported are Simon The Sorcerer (1 and 2), 
 	and Beneath a Steel Sky. Simon support was originally written by the
-	founder of ScummVM as a seperate program, and later included in the main binary.
+	founder of ScummVM as a separate program, and later included in the main binary.
 	Revolution Software Ltd. are very nice people and kindly provided us with the
 	source code to BASS, on which we based our interpreter. We are currently working
 	on support for Broken Sword 1 and 2, again thanks to Revolutions kind support.<BR>
 	We do not have any plans to support any other non-SCUMM games at this time. If we
 	do, it will be added to the <a href="compatibility.php">Compatibility List</a>.<BR><BR>
-	Unless you work for a company intrested providing us with source code for one of your
+	Unless you work for a company interested providing us with source code for one of your
 	classic titles, please do not ask us to support game XXX.
 	</p></li>
 	
@@ -223,7 +223,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	
       <li><p><a name="4-2"></a><b>I don't hear any sound.</b><br>
       	Check the <a href="compatibility.php">compatibility list</a> to see if your game has sound support currently. You can
-	also try the -s command line param to set the in game SFX volume.</p></li>
+	also try the -s command line parameter to set the in game SFX volume.</p></li>
       
       <li><p><a name="4-3"></a><b>I don't hear any music.</b><br>
 	See <a href="#4-2">above</a></p></li>
