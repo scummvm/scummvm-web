@@ -98,7 +98,7 @@ $notes = array(
                    "<br>- Various graphical glitches".
                    "<br>- CD music and voices are not always in perfect sync with cutscenes",
 "monkeyvga"	=> "Game is completable." .
-                   "<br>- Various graphical glitches".
+                   "<br>- Various graphical glitches",
 "monkey"	=> "No known problems - should be playable to the end",
 "monkey2"	=> "No known problems - should be playable to the end",
 "atlantis"	=> "Game is completable.".                        
