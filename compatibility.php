@@ -74,7 +74,8 @@ $games = array(
 		'Sam & Max (DEMO)'					=> array('6','samdemo','95'),
 		'Full Thottle'						=> array('7','ft','30'),
 		'The DIG'						=> array('7','dig','30'),
-		'Curse of Monkey Island'				=> array('8','curse','5')
+		'Curse of Monkey Island'				=> array('8','curse','5'),
+        'Simon The Sorcerer'            => array('n/a','simon1win','95')
 	      );
 
 $notes = array(
@@ -113,7 +114,8 @@ $notes = array(
                    "<br>- some palette glitches during movie playback, and missing movie audio".
                    "<br>- cannot proceed past the fuel tower due to missing vertical scrolling" .
 		   "<br>- not all sounds and animations playing correctly",
-"curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems"
+"curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
+"simon1win" => "No known problems - should be playable to the end"
 );
 		
 // render the compatibilty chart
@@ -137,7 +139,7 @@ if ($details) {
 			echo html_frame_tr(
 				html_frame_td($name).
 			  	html_frame_td($array[0]).
-			    	html_frame_td("/".$array[1]).
+			    	html_frame_td($array[1]).
 		 	    	html_frame_td($array[2]."%", 'align="center" class="pct'.$array[2].'"'),
 		  	        $color
 	  		);
