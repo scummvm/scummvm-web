@@ -100,21 +100,23 @@ $notes = array(
 "monkeyvga"	=> "Game is completable." ,
 "monkey"	=> "No known problems - should be playable to the end",
 "monkey2"	=> "No known problems - should be playable to the end",
-"atlantis"	=> "Game is completable.".                        
+"atlantis"	=> "No known problems - should be playable to the end".
 		   "<br>- Music loud on some systems, run with -m30 to lower music volume.",
 "playfate"	=> "No known problems - should be playable to the end",
 "tentacle"	=> "No known problems - should be playable to the end",
 "dottdemo"	=> "No known problems - should be playable to the end",
-"samnmax"	=> "Game is completable.".
-                   "<br>- Music system needs work, which may cause random hangs in areas such as the Vortex".
+"samnmax"	=> "No major problems - should be playable to the end".
                    "<br>- Some subgames may not work",
 "samdemo"	=> "No known problems - should be playable to the end",
 "ft"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
                    "<br>- Lack of INSANE subsystem prevents action sequences, which are needed to complete the game".
                    "<br>- Some animations are missing",
 "dig"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
-                   "<br>- Room graphical glitches prevent completing the game".
-                   "<br>- Some rooms may cause actor to become 'stuck'",
+                   "<br>- Some rooms have severe graphical glitches".
+		   "<br>- Some major sound glitches exist, such as missing lines".
+		   "<br>- Boston may freeze when taking some objects, can be avoided by opening the inventory before taking said object".
+                   "<br>- The nexus room doesn't 'wrap', just crashes if you try to walk too far in either direction".
+                   "<br>- Some animations are missing",
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
 "simon1win" 	=> "No known problems, Game is completable.",
 "simon1dos" 	=> "No known problems, Game is completable.",
