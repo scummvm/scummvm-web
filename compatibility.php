@@ -126,8 +126,7 @@ $notes = array(
 "playfate"	=> "No known problems - should be playable to the end",
 "puttdemo"	=> "Should be playable to the end".
 		   "<br>- talkie data not synced/properly implemented".
-		   "<br>- Sound format used for sound effects could use more work".
-		   "<br>- Cursor is not placed at the right offset, so some of the hotspots are out a bit",
+		   "<br>- Cursor is not placed at the right offset, so hotspots are out a bit",
 "puttputt"	=> "Fails to start after looking for seemingly non existent object (1)".
 		   "<br>- Adding a hack for objects < 17 seems to hack around it, not in CVS though as would prefer a proper fix".
 		   "<br>- talkie data not synced/properly implemented",
