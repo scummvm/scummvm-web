@@ -54,10 +54,9 @@ echo html_round_frame_start("Download ScummVM","");
 	</p>
 
 	<ul>
-<!--
 	  <li><B><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-win32.exe?download">Windows Installer</a></B> <small>(1.4M Win32 .exe)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-win32.zip?download">Windows zipfile</a> <small>(1.4M zipfile)</small></li>
--->
+
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-macosx.dmg?download">Mac OS X Disk Image</a> <small>(1.6M disk image)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-1_FC3.i386.rpm?download">Fedora Core 3 package</a> <small>(1.2M RPM)</small></li>
@@ -115,9 +114,6 @@ echo html_round_frame_start("Download ScummVM","");
 		have older versions around, for your convenience.
 	</p>
 	<ul>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-win32.exe?download">0.7.0 Windows Installer</a> <small>(1.4M Win32 .exe)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-win32.zip?download">0.7.0 Windows zipfile</a> <small>(1.4M zipfile)</small></li>
-
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-1_FC2.i386.rpm?download">0.7.0 Fedora Core 1 and 2 package</a> <small>(1.4M RPM)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.7.0-0.woody.1_i386.deb?download">0.7.0 Debian Stable (woody) package</a> <small>(1.3M .deb)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-1mdk.i586.rpm?download">0.7.0 Mandrake package</a> <small>(1.1M RPM)</small></li>
@@ -126,9 +122,6 @@ echo html_round_frame_start("Download ScummVM","");
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-solaris8-sparc.tar.bz2?download">0.7.0 Solaris 8 (Sparc) binary</a> <small>(1.1M .tar.bz2)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-palmos.zip?download">0.7.0 PalmOS binary</a> <small>(1.0M zipfile)</small></li>
-
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-PocketPC2003_and_Smartphone2003.zip?download">0.7.0 PocketPC 2003 / Smartphone 2003 binary</a> <small>(1.3M zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-PocketPC_ARM_and_Smartphone2002.zip?download">0.7.0 PocketPC 2002 / Smartphone 2002 (ARM) binary</a> <small>(1.3M zipfile)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-dreamcast-plainfiles.tar.bz2?download">0.7.0 Dreamcast plain files</a> <small>(2.2M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-dreamcast-nero+demos.zip?download">0.7.0 Dreamcast Nero Image &amp; Demos</a> <small>4.7M zipfile</small></li>
