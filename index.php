@@ -63,8 +63,10 @@ echo html_round_frame_start("About ScummVM","");
 	  <td>
 		<table border=0 cellpadding=0 cellspacing=0>
 		<tr><td>
+			<!-- We use a height of 402 instead of 400 to workaround something which
+			  appears to be a bug in Mozilla? -->
 			<script type="text/javascript">i_jn=<?=$randImg?>;</script>
-			<a href="javascript:openWin('./screenshots/big_scummvm_'+i_jn+'.png','scummvm',640,400);"
+			<a href="javascript:openWin('./screenshots/big_scummvm_'+i_jn+'.png','scummvm',640,402);"
 			onMouseOver="window.status='Click to View Full Size Image';return true;"
 			onMouseOut="window.status='';return true;"><img
 			src="./screenshots/scummvm_<?=$randImg?>.png" width=256 height=160
