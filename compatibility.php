@@ -109,13 +109,13 @@ $games = array(
 
 $notes = array(
 "maniac"	=> "Enhanced PC version is completable, with several minor glitches".
-		   "Classic version still in progress, results may vary".
+		   "<br>Classic version still in progress, results may vary".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions are supported by this target".
 		   "<br>- Classic PC version actor costumes cause random crashes".
 		   "<br>- Classic PC version actor masking and palette is broken".
 		   "<br>- No music or sound effects with Amiga version",
 "zak"		=> "Enhanced PC version is completable, with several minor glitches".
-		   "Classic version still in progress, results may vary".
+		   "<br>Classic version still in progress, results may vary".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
 		   "<br>- Classic PC version actor costumes cause random crashes".
 		   "<br>- Classic PC version actor masking and palette is broken".
@@ -123,6 +123,7 @@ $notes = array(
 "indy3ega"	=> "Game is completable".
 		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
+		   "<br>- Mac version crashes".
 		   "<br>- Various minor graphical glitches".
 		   "<br>- No music or sound effects looping with Amiga version".
 		   "<br>- No music or sound effects with Mac version",
