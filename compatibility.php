@@ -145,8 +145,11 @@ $notes = array(
                    "<br>- Background sound effects and some music is missing".
                    "<br>- Part of introduction is skipped".
                    "<br>- Various minor graphical glitches",
-"simon2dos"     => "Not fully implemented yet.".
-                   "<br>- No music and some sound effects are missing"
+"simon2dos"     => "Game is completable to a point, but not playable to the end".
+                   "<br>- Will freeze during sequence shown when trying to escape from pirate ship".
+                   "<br>- No music and background sound effects are missing".
+                   "<br>- Part of introduction is skipped".
+                   "<br>- Various minor graphical glitches"
 );
 		
 // render the compatibility chart
