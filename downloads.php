@@ -118,6 +118,7 @@ echo html_round_frame_start("Download ScummVM","");
 	  <li><a href="http://www.mixnmojo.com/bss/BASS-Floppy.zip">Beneath a Steel Sky, Freeware Floppy Version</a> <small>(7.3M)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ_Talkie.zip?download">Flight of the Amazon Queen, Freeware CD Version</a> <small>(34.8M)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ_Floppy.zip?download">Flight of the Amazon Queen, Freeware Floppy Version</a> <small>(6.7M)</small></li>
+	  <li><a href="http://0x.7fc1.org/fotaq/queen.tbl">Flight of the Amazon Queen, queen.tbl - required to run FOTAQ versions not obtained from the ScummVM website</a> <small>(1.1M)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes.zip?download">Broken Sword 1 Cutscene Pack (ENGLISH)</a> <small>(31.2M)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_Cutscenes.zip?download">Broken Sword 2 Cutscene Pack (ALL LANGUAGES)</a> <small>(27.8M)</small></li>
 	</ul>
