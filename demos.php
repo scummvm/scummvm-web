@@ -95,7 +95,7 @@ $demos = array(
 		=> array('ftp://ftp.humongous.com/humongous/pjs-demo.zip', 'pjs-demo'),
 	'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/PJ2Demo.exe', 'pj2demo'),
-	'Putt-Putt Saves the Zoo (Demo'
+	'Putt-Putt Saves the Zoo (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/puttzoo.zip', 'zoodemo'),
 	'Putt-Putt Travels Through Time (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/putttime.zip', 'timedemo'),
