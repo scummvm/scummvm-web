@@ -74,8 +74,8 @@ echo html_round_frame_start("Download ScummVM","");
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-PocketPC_ARM_and_Smartphone2002.zip?download">PocketPC 2002 / Smartphone 2002 (ARM) binary</a> <small>(1.3M zipfile)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-dreamcast-plainfiles.tar.bz2?download">Dreamcast plain files</a> <small>(2.2M zipfile)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-dreamcast-nero+demos.zip?download">Dreamcast Nero Image &amp; Demos</a> <small>4.7M zipfile</small></li>
 	<!--
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-dreamcast-nero+demos.zip?download">Dreamcast Nero Image &amp; Demos</a> <small>???M zipfile</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-morphos.tgz?download">MorphOS binary</a> <small>(???k .tgz)</small></li>
 	-->
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-beos-x86.pkg?download">BeOS package</a> <small>(2.8M pkg)</small></li>
@@ -109,7 +109,6 @@ echo html_round_frame_start("Download ScummVM","");
 	</p>
 	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-slack-i386-1.tgz?download">0.6.0 SlackWare package</a> <small>(1.2M .tgz)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-dreamcast-nero+demos.zip?download">0.6.0 Dreamcast Nero Image &amp; Demos</a> <small>(3.7M zipfile)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.1-morphos.tgz?download">0.5.1 MorphOS binary</a> <small>(857k zipfile)</small></li>
 
