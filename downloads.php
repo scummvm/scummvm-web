@@ -57,6 +57,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.2.0_i386.deb">Woody Official 0.2.0 Package</a> <small>(212k deb package)</small></li>
 	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.2.0-macosx_sdl.tar.gz">MacOS X Official 0.2.0 Build</a> <small>(359k gziped tarball)</small></li>
 	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.2-3_arm.ipk">iPaq Linux Official 0.2.0 Build</a> <small>(250k ipkg package)</small></li>
+	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-mips-sgi-irix5.gz">SGI Irix MIPS Official 0.2.0 binary</a> <small>(516kb gzip file)</small></li>
 	    <li><a href="http://prdownloads.sourceforge.net/scummvm/PocketSCUMM_Install_0_2_0.exe">WinCE ARM/MIPS/SH3 Official 0.2.0 installer</a> <small>(820k Win32 executable)</small></li>
 	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.2.0-dc-bin.zip">Dreamcast Official 0.2.0 scrambled binary</a> <small>(338k zip file)</small></li>
 	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.2.0-dc-nero.zip">Dreamcast Official 0.2.0 NERO image</a> <small>(2.3mb zip file)</small></li>
