@@ -47,13 +47,6 @@ Residual's core is in a fairly decent state, however it is not in full-time deve
 as such is progressing slowly. Lipsync support was recently added, in case anybody checks
 this page expecting news.
 </P>
-<P>
-Some of the bigger outstanding tasks are:
-<UL>
- <LI>A software renderer needs to be written as older OpenGL cards cannot blit the
-     static depth-buffer used by Grim Fandango without causing major framerate impact.
-</UL>
-</P>
 <?
 echo html_round_frame_end("&nbsp;");
 
