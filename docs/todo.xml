@@ -128,7 +128,8 @@
 			<li>Check <a href="http://members.optusnet.com.au/wormmon/simon.html">Simon issues</a> for list of other bugs</li>
 			<li><i>Ask: olki, Kirben</i></li>
 		</ul>
-		<li><ul><h4>Humongous Games</h4>
+		<li><h4>Humongous Games</h4>
+		<ul>
 			<li>Support HE v7 indexfile blocks like DIRI etc</li>
 			<li>Add implementation for file related opcode stubs</li>
 			<li>Figure out remaining scale/akos differences</li>
