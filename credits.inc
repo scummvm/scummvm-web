@@ -4,16 +4,17 @@
 <tr><td colspan=3><h2>The ScummVM team:</h2></td></tr>
 <tr><td>James Brown</td><td>[&nbsp;endy&nbsp;]</td><td>Lead developer</td>
 <tr><td>Max Horn</td><td>[&nbsp;fingolfin&nbsp;]</td><td>Lead developer</td>
-<tr><td>Torbj&ouml;rn Andersson</td><td>[&nbsp;eriktorbjorn&nbsp;]</td><td>Engine: SCUMM, Broken Sword II</td>
+<tr><td>Torbj&ouml;rn Andersson</td><td>[&nbsp;eriktorbjorn&nbsp;]</td><td>Engine: SCUMM, Broken Sword II, SAGA</td>
 <tr><td>David Eriksson</td><td>[&nbsp;twogood&nbsp;]</td><td>Engine: Flight of the Amazon Queen</td>
 <tr><td>Robert G&ouml;ffringmann</td><td>[&nbsp;lavosspawn&nbsp;]</td><td>Engine: Beneath a Steel Sky, Broken Sword I</td>
-<tr><td>Jonathan Gray</td><td>[&nbsp;khalek&nbsp;]</td><td>Engine: SCUMM, Broken Sword II</td>
-<tr><td>Travis Howell</td><td>[&nbsp;Kirben&nbsp;]</td><td>Engine: SCUMM, Simon the Sorcerer</td>
+<tr><td>Jonathan Gray</td><td>[&nbsp;khalek&nbsp;]</td><td>Engine: SCUMM, HE, Broken Sword II</td>
+<tr><td>Travis Howell</td><td>[&nbsp;Kirben&nbsp;]</td><td>Engine: SCUMM, HE, Simon the Sorcerer</td>
 <tr><td>Oliver Kiehl</td><td>[&nbsp;olki&nbsp;]</td><td>Engine: Beneath a Steel Sky, Simon</td>
-<tr><td>Pawel Kolodziejski</td><td>[&nbsp;aquadran&nbsp;]</td><td>Engine: SCUMM (Codecs, iMUSE, Smush, etc.)</td>
-<tr><td>Gregory Montoir</td><td>[&nbsp;cyx&nbsp;]</td><td>Engine: Flight of the Amazon Queen</td>
+<tr><td>Pawel Kolodziejski</td><td>[&nbsp;aquadran&nbsp;]</td><td>Engine: SCUMM (Codecs, iMUSE, Smush, etc)</td>
+<tr><td>Gregory Montoir</td><td>[&nbsp;cyx&nbsp;]</td><td>Engine: Flight of the Amazon Queen, HE</td>
 <tr><td>Joost Peters</td><td>[&nbsp;joostp&nbsp;]</td><td>Engine: Beneath a Steel Sky, Flight of the Amazon Queen</td>
-<tr><td>Eugene Sandulenko</td><td>[&nbsp;_sev&nbsp;]</td><td>Engine: SCUMM (FT INSANE, bugfixes)</td>
+<tr><td>Eugene Sandulenko</td><td>[&nbsp;_sev&nbsp;]</td><td>Engine: SCUMM (FT INSANE), HE, SAGA</td>
+<tr><td>Andrew Kurushin</td><td>[&nbsp;ajax16384&nbsp;]</td><td>Engine: SAGA</td>
 <tr><td>Chris Apers</td><td>[&nbsp;chrilith &nbsp;]</td><td>Port: PalmOS</td>
 <tr><td>Nicolas Bacca</td><td>[&nbsp;arisme&nbsp;]</td><td>Port: PocketPC/WinCE</td>
 <tr><td>Marcus Comstedt</td><td></td><td>Port: Dreamcast</td>
