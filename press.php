@@ -23,6 +23,10 @@ echo html_round_frame_start("Press Coverage","");
 <center><small>(If you wish to contact us in regards to media articles, please e-mail press 
 (@) scummvm.org)</small></center>
 
+	<p><a href="http://arisme.free.fr/PocketScumm/press"
+	   ><b>Adventure games on PDAs</b></a> (French), PDA Magazine issue 9, Mars/April 2004
+	</p>
+
 	<p><a href="http://www.newsforge.com/article.pl?sid=03/10/07/1527227&mode=thread&tid=22"
 	   ><b>Bringing old adventure games back to life</b></a>, NewsForge, October 8, 2003
 	</p>
