@@ -130,7 +130,10 @@ $notes = array(
 "loomcd"        => "Game is completable." .
                    "<br>- Various minor graphical glitches",
 "monkeyvga"	=> "Game is completable.".
-                   "<br>- No sound effects",
+		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
+                   "<br>- No sound effects".
+		   "<br>- Palette wrong in Amiga version".
+		   "<br>- No music with Amiga version",
 "monkey"	=> "No known problems - should be playable to the end",
 "monkey2"	=> "No known problems - should be playable to the end".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
