@@ -138,7 +138,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	of <a href="http://www.adventuregamestudio.co.uk/">Adventure Game Studio</a> which
 	is free, albeit closed-source graphics adventures engine. There are Windows,
 	Linux and FreeBSD versions of the engine. Its author keeps his source code closed
-	due to some reasons explained in project <a href="http://www.agsforums.com/acfaq.htm>FAQ</a>
+	due to some reasons explained in project <a href="http://www.agsforums.com/acfaq.htm">FAQ</a>
 	(see last two questions). That means that you need to download that program to
 	play the game.
       </p></li>
