@@ -12,14 +12,12 @@
 		<li>Guybrush seems to walk down from the sky when entering the Canibal Village for the first time. This is because roomobj-53-873 calls a different script on the first entry, which runs a putActorAtObject opcode before loading the room. 
 		<li>There should be an 'Object line' option as per the menu that will show the names of objects at the
 		bottom of the screen when they are moused over.
-		<li>comi should default to normal not 2x graphics scaler.
 		<li>Voice and Music bundles aren't closed before the CD change dialog making it impossible to unmount a CD
 		<li>strings that contain PU_M, EC_, SA_, or BT_ should not reach playBundleSound() as they don't
 		have audio equivalents.
 	</ul>
 <li>Sound:
 	<ul>
-		<li>Music decompressor uses too much CPU for smooth music playback
 		<li>The sound que fills up, resulting in a spew of warnings. This should never fill up anyway, so it's a bug.
 Easy way to reproduce (although it happens everywhere), start ComI with -d0 -b605, hit ctrl-g... eventually things will get spammy.
 		<li>Misimplementation of imGetMusicPosition kernel function breaks song sync in Part 3 intro
