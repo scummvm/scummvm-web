@@ -55,7 +55,10 @@ function sidebar_specs_start ()
 
 	$g = new htmlmenu("Misc. Menu");
 
+	$g->add("Demos", $file_root."/demos.php");
+	$g->add("Press", $file_root."/press.php");   
 	$g->add("Links", $file_root."/links.php");
+	$g->add("Credits", $file_root."/credits.php");
 	$g->add("Contact", $file_root."/contact.php");
 
 	$g->done("",'<img src="'.$file_root.'/images/hangmonk.gif" border=0 alt="monkey">');

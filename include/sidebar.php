@@ -25,7 +25,7 @@ function sidebar_start ()
 	$g->add("FAQ", $file_root."/faq.php");
 	$g->add("ScreenShots", $file_root."/screenshots.php");
 	$g->add("Compatibility", $file_root."/compatibility.php");
-    $g->add("Documentation", $file_root."/documentation.php");
+	$g->add("Documentation", $file_root."/documentation.php");
 	$g->add("Downloads", $file_root."/downloads.php");
 
 	$g->done();
@@ -44,6 +44,7 @@ function sidebar_start ()
 	$g = new htmlmenu("Misc. Menu");
 
 	$g->add("Demos", $file_root."/demos.php");
+	$g->add("Press", $file_root."/press.php");
 	$g->add("Links", $file_root."/links.php");
 	$g->add("Credits", $file_root."/credits.php");
 	$g->add("Contact", $file_root."/contact.php");
