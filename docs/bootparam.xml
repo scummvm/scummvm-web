@@ -276,11 +276,13 @@ by Laura Abbott. Thanks a lot for your excellent work, Laura!
 <tr><td>1101</td><td>Meeting Klaus Kerner for the first time in Indy's Office</td></tr>
 <tr><td>1102</td><td>ERROR: (7:10002:0xBF70): Invalid actor -111 in o5_putActorInRoom</td></tr>
 <tr><td>1103</td><td>Comming to Caswell Hall with Sophia</td></tr>
+<tr><td>1104</td><td>Indy in Caswell Hall
+	*Whip</td></tr>
 <tr><td>1111</td><td>Indy by himself with Sophia
 	*Magazine, newspaper</td></tr>
 <tr><td>1112</td><td>Sophia's Office is Ransacked</td></tr>
 <tr><td>1120</td><td>Riding the Camel in Fists mode</td></tr>
-<tr><td>1121</td><td>Riding the Camel in Wits mode</td></tr>
+<tr><td>1122</td><td>Riding the Camel in Wits mode</td></tr>
 <tr><td>1123</td><td>BUG(?)-music like the balloon is flying over the desert, but there
 	is no balloon to control</td></tr>
 <tr><td>1130</td><td>Flying the balloon over the desert</td></tr>
@@ -318,9 +320,10 @@ by Laura Abbott. Thanks a lot for your excellent work, Laura!
 <tr><td>4041</td><td>Indy in room with Atlantis subway
 	*Dialog, Sunstone, Moonstone, Whip, Ship Rib, Statue used to jump 	start truck at digsite, surveyor's equipment, rope, shovel, and 	Note with "No Icon"</td></tr>
 <tr><td>4061</td><td>Very Odd-Starts out like you entered the wrong boot Parameter, but
-	Then goes into Indy and Sophia Running out of Atlantis, complete
+	Then goes into Indy and Sophia running out of Atlantis, complete
 	with music</td></tr>
 <tr><td>4062</td><td>Same as 4061 except Indy is by himself</td></tr>
+<tr><td>4063</td><td>Ending with Indy and Sophia running away from atlantis</td></tr>
 <tr><td>4122</td><td>Indy in canal room with Giant Octopus
 	*3 Orachalum, Whip, Sunstone, Moonstone, Worldstone, Statue Part,
 	Bronze spoked Wheel, Crescent Gear, Ladder, Amber Fish</td></tr>
@@ -427,6 +430,7 @@ by Laura Abbott. Thanks a lot for your excellent work, Laura!
 <tr><td>8888</td><td>Monte Carlo Car Chase</td></tr>
 <tr><td>8889</td><td>Indy running around Monte Carol after the Car Chase</td></tr>
 <tr><td>8890</td><td>Same as above, except with the Stone disk in tow</td></tr>
+<tr><td>9000</td><td>Monte Carlo with Whip</td></tr>
 <tr><td>9001</td><td>Indy at a corner in Monte Carlo
 	*NO ITEMS!</td></tr>
 <tr><td>9101-9106</td><td>Indy and Sophia Enter the Room with the Lava Tiles of Doom (Not
@@ -466,15 +470,6 @@ by Laura Abbott. Thanks a lot for your excellent work, Laura!
 	*Bronze spoked wheel, crecent part, statue head, cup of lava, crab
 	in rib cage, eel figurine
 </td></tr>
-</table>
-
-<p>The following bootparams are not yet documented:</p>
-<table border="1" cellspacing="0" cellpadding="2">
-<tr><th>Param</th><th>Description</th></tr>
-<tr><td>1104</td><td>???</td></tr>
-<tr><td>1122</td><td>Our original table didn't list 1121, maybe this is a mistake?</td></tr>
-<tr><td>4063</td><td>???</td></tr>
-<tr><td>9000</td><td>???</td></tr>
 </table>
 
 
