@@ -69,7 +69,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 	<p>
  	  <b>0.5.1 Release binaries:</b>
 	</p>
-	<p>For a list of changes since the previous version, <a href="https://sourceforge.net/project/shownotes.php?release_id=175327">read the release notes</a>.</p>
+	<p>For a list of changes since the previous version, <a href="http://sourceforge.net/project/shownotes.php?release_id=176395">read the release notes</a>.</p>
 	<p>0.5.1 should be apt-get'able from Debian Unstable (sid) later in the week.</p>
 
 	<ul>
@@ -118,12 +118,17 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.1.tar.bz2?download">Source tar.bz2</a> <small>(1.1M)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.1.zip?download">Source .zip</a> <small>(1.6M)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.1-xboxsrc.zip?download">Source with XBox port mods</a> <small>(1.7M zipfile)</small></li>
-	  <hr/>
+	</ul>
+	
+	<p>
+	  <b>0.5.0 Tools Source Code:</b>
+	</p>
+	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.5.0.tar.gz?download">Tools - Source tar.gz</a> <small>(48k)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.5.0.tar.bz2?download">Tools - Source tar.bz2</a> <small>(39k)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.5.0.zip?download">Tools - Source .zip</a> <small>(57k)</small></li>
 	</ul>
-	
+
 	<p>
 	   <b>Extras!:</b>
 	</p>
