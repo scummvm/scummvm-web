@@ -12,7 +12,7 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("ScummVM :: Compatibility");
+html_header("ScummVM :: Compatibility - CVS");
 sidebar_start();
 
 //display welcome table
@@ -35,7 +35,9 @@ else
 	<p>
 	  This page lists the progress of ScummVM as it relates to individual game compatibility.<br>
 	  Click on the game name to view the complete notes of a game.
+	
           <br><br>Please note this list applies to the English versions of games, we attempt to test many versions of games, however there are occasionally problems with other languages.
+	  Also, this is the compatability of the current WIP CVS version, <B>not of the 0.4.0 stable release</B>
           <br><br>
 	  <small>Last Updated: <? echo date("F d, Y",getlastmod()); ?></small>
 	</p>
@@ -116,7 +118,7 @@ $notes = array(
 "indy3"         => "Game is completable" .
                    "<br>- No sound effects",
 "zak256"        => "Game is completable." .
-                   "<br>- No sound effect looping" ,
+                   "<br>- Sounds with partial loops, loop the whole sample instead of just that portion" ,
 "loom"		=> "Game is completable".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
 		   "<br>- No music or sound effects with Amiga version",
