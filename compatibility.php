@@ -178,7 +178,7 @@ $notes = array(
 		   "<br>- Some sound effects missing".
 		   "<br>- Talkie data not synced/properly implemented",
 "puttputt"	=> "Game should be completable, with several glitches".
-                   "<br>- Various minor graphical glitches".
+                   "<br>- Minor graphical glitches when cars come out of their garages on streets".
 		   "<br>- Talkie data not synced/properly implemented",
 "puttmoon"	=> "Fails an AKOS related assertion shortly after starting".
 		   "<br>- scummvm: scumm/akos.cpp:267: virtual byte AkosRenderer::drawLimb(const CostumeData&, int): Assertion `(code & 0xFFF) * 6 < READ_BE_UINT32((byte *)akof - 4) - 8' failed.".
@@ -186,12 +186,15 @@ $notes = array(
 "moondemo"	=> "Completable if you don't trigger one fatal animation".
 		   "<br>- talkie data not synced/properly implemented",
 "funpack"	=> "Starts but mini games seem to have various problems".
-		   "<br>- Checkers: o6_actorOps: default case 218".
-		   "<br>- Puzzle blocks/Pinball/Remember/Cheese King/Tic-Tac-Toe: Works".
+		   "<br>- Checkers: The checkers keep disappearing".
+		   "<br>- Puzzle blocks/Cheese King: Triggers an assertion".
+		   "<br>- Pinball/Remember/Tic-Tac-Toe: Works".
 		   "<br>- Talkie data not synced/properly implemented",
 "fbdemo"	=> "Should be playable to the end".
 		   "<br>- Talkie data not synced/properly implemented",
-"fbear"		=> "Playable up to decorating birthday cake, not completable".
+"fbear"		=> "Playable up to ending sequence, not completable".
+		   "<br>- Fails an array related assertion during ending sequence".
+		   "<br>- Decorations on birthday cake aren't remembered".
 		   "<br>- Talkie data not synced/properly implemented",
 "fbpack"	=> "Game starts but various minigames have different problems".
 		   "<br>- Reversi/Go Fish/Lines and Boxes: o6_actorOps: default case 218".
