@@ -136,7 +136,7 @@ $notes = array(
 		   "<br>- Mac version crashes after copy protection screen".
 		   "<br>- No music or sound effects looping with Amiga version".
 		   "<br>- No music or sound effects with Mac version",
-"monkeyega"	=> "Game is completable".
+"monkeyega"	=> "Game is completable",
 "pass"		=> "At least partly playable".
                    "<br>- No subtitles in indy3 demo".
                    "<br>- No sound effects",
