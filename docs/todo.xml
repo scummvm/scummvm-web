@@ -49,39 +49,33 @@
 	</ul>
 	<h3>Specific games</h3>
 	<ul>
-		<li><h4>The DIG</h4>
+		<li><h4>Maniac Mansion Classic</h4>
 		<ul>
-			<li>Some in-game music and sound issues</li>
-			<li>Actor voice files not supported in demo</li>
-			<li>Fix smooth scrolling support (see comment in gfx.cpp)</li>
-			<li><i>Ask: Ender</i></li>
+			<li>Fix Actor masking</li>
+			<li>Fix graphical glitches when actors the move diagonally</li>
+			<li>Fix issues with text been cut off in demo mode</li>
 		</ul>
-		<li><h4>Monkey1EGA</h4>
+		<li><h4>Maniac Mansion Enchanced</h4>
 		<ul>
-			<li>Several small bugs (see bug list)</li>
-		</ul>
-		<li><h4>Monkey1VGA</h4>
-		<ul>
+			<li>Fix problem of verb area when shown when it should be hidden (ie keypad)</li>
 			<li>Add music and sound effects support for Amiga version</li>
-			<li>Several small bugs (see bug list)</li>
-			<li><i>Ask: MadMoose, Fingolfin</i></li>
 		</ul>
-		<li><h4>Monkey2</h4>
+		<li><h4>Zak McKracken Classic</h4>
 		<ul>
-			<li>Fix palette problems in Amiga version</li>
-			<li>Add support for playback from *.rec file for demo version</li>
+			<li>Fix actor masking</li>
+			<li>Fix graphical glitches when actors the move diagonally</li>
+			<li>Fix room palette problems</li>
 		</ul>
-		<li><h4>Zak256</h4>
+		<li><h4>Zak McKracken Enchanced</h4>
+		<ul>
+			<li>Fix problem of verb area when shown when it should be hidden (ie keypad)</li>
+			<li>Add music and sound effects support for Amiga version</li>
+		</ul>
+		<li><h4>Zak McKracken 256</h4>
 		<ul>
 			<li>Add Euphony music support</li>
 			<li>Several small bugs (see bug list)</li>
 			<li><i>Ask: Ender</i></li>
-		</ul>
-		<li><h4>Full Throttle</h4>
-		<ul>
-			<li>INSANE supported required</li>
-			<li>Demo has various issues that need to be looked at</li>
-			<li><i>Ask: Ender, aquadran</i></li>
 		</ul>
 		<li><h4>Indiana Jones and the Last Crusade EGA</h4>
 		<ul>
@@ -97,23 +91,45 @@
 			<li>Make distaff save/restore correctly</li>
 			<li>Add music and sound effect looping support for Amiga version</li>
 		</ul>
-		<li><h4>Loom TurboGrafx 16/PC Engine</h4>
+		<li><h4>Monkey1EGA</h4>
 		<ul>
-			<li>Support this (donations welcome as no one has it...)
+			<li>Several small bugs (see bug list)</li>
+		</ul>
+		<li><h4>Monkey1VGA</h4>
+		<ul>
+			<li>Add music and sound effects support for Amiga version</li>
+			<li>Several small bugs (see bug list)</li>
+			<li><i>Ask: MadMoose, Fingolfin</i></li>
 		</ul>
 		<li><h4>Passport to Adventure</h4>
 		<ul>
 			<li>Fix subtitles not been shown in indy3 demo</li>
 		</ul>
+		<li><h4>Monkey2</h4>
+		<ul>
+			<li>Fix palette problems in Amiga version</li>
+			<li>Add support for playback from *.rec file for demo version</li>
+		</ul>
+		<li><h4>Loom TurboGrafx 16/PC Engine</h4>
+		<ul>
+			<li>Support this (donations welcome as no one has it...)
+		</ul>
+		<li><h4>Full Throttle</h4>
+		<ul>
+			<li>INSANE supported required</li>
+			<li>Demo has various issues that need to be looked at</li>
+			<li><i>Ask: Ender, aquadran</i></li>
+		</ul>
+		<li><h4>The DIG</h4>
+		<ul>
+			<li>Some in-game music and sound issues</li>
+			<li>Actor voice files not supported in demo</li>
+			<li>Fix smooth scrolling support (see comment in gfx.cpp)</li>
+			<li><i>Ask: Ender</i></li>
+		</ul>
 		<li><h4>The Curse of Monkey Island</h4>
 		<ul>
 			<li>See <a href="../documentation.php?view=comi">here</a> for a list.
-		</ul>
-		<li><h4>Simon the Sorcerer 1 & 2</h4>
-		<ul>
-			<li>Add Amiga decompressor + music support</li>
-			<li>Check <a href="http://members.optusnet.com.au/wormmon/simon.html">Simon issues</a> for list of other bugs</li>
-			<li><i>Ask: olki, Kirben</i></li>
 		</ul>
 		<li><h4>Humongous Games</h4>
 		<ul>
@@ -127,6 +143,12 @@
 			<li>Add support for SONG blocks/files</li>
 			<li>Add support for graphics formats used in 3DO versions (included in pc versions just not used)</li>
 			<li><i>Ask: khalek</i></li>
+		</ul>
+		<li><h4>Simon the Sorcerer 1 & 2</h4>
+		<ul>
+			<li>Add Amiga decompressor + music support</li>
+			<li>Check <a href="http://members.optusnet.com.au/wormmon/simon.html">Simon issues</a> for list of other bugs</li>
+			<li><i>Ask: olki, Kirben</i></li>
 		</ul>
 	</ul>
 </BODY>
