@@ -24,6 +24,33 @@ echo html_round_frame_start("Links","98%","",20);
 	  <? echo html_line(); ?>
 	</p>
 
+	<b>Unofficial ports</b><? echo html_line(); ?>
+	<p>There are a few inofficial ports of ScummVM floating around. Usually we prefer to merge any ports into our official
+	CVS, but for the following this has not (yet) happend for various reasons. Note that the ScummVM team does not endorse
+	any of these ports. We did not test them, and we do not gurantee that they work properly. Use at your own risk.</p>
+
+	<blockquote>
+	<table border=0 cellpadding=5 cellspacing=0>
+	  <tr><td><a href="http://capers.free.fr/ScummVM/"><b>PalmOS port</b></a></td></tr>
+	  <tr>
+	    <td><blockquote>
+	    The site provides a binary based on our 0.3.0b release, as well as the source code for it.
+	    Screenshots and some newer CVS builds are available, too.
+	    </blockquote></td>
+	  </tr>
+
+	  <tr><td><a href="http://www.sebelinteractive.de/scummvm/"><b>Amiga port</b></a></td></tr>
+	  <tr>
+	    <td><blockquote>
+	    Not to be confused with our MorphOS port, this port runs on the "classic" AmigaOS 3.1.
+	    </blockquote></td>
+	  </tr>
+
+	</table>
+	</blockquote>
+
+	<!-- -->
+
 	<b>Classic gaming news and help sites</b><? echo html_line(); ?>
 	<p>The following are links to sides that provide news and help on retro-gaming and other related news.</p>
 
@@ -59,6 +86,8 @@ it will know..
 	</table>
 	</blockquote>
 	
+	<!-- -->
+
 	<b>Other classic game engine open source projects</b><? echo html_line(); ?>
 	<p>The following are links to other classic game engine open source projects similar to ScummVM. 
       Know any other classic game projects that should be linked here?
@@ -118,6 +147,8 @@ it will know..
 	</table>
 	</blockquote>
     
+	<!-- -->
+
 	<b>Technical information about SCUMM</b><? echo html_line(); ?>
 	<p>SCUMM is a complex system that grew over many years. Understanding it can
 	be quite difficult at times. Luckily there are some sites that provide you
