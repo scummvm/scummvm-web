@@ -63,6 +63,7 @@ $games = array(
 		'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','85'),
 		'Indiana Jones and the Last Crusade'			=> array('3','indy3ega','80'),
 		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','80'),
+		'Indiana Jones and the Last Crusade (256 - FmTowns)'	=> array('3','indy3towns','80'),
 		'Loom'							=> array('3','loom','80'),
 		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','80'),
 		'Passport to Adventure (Indy3, Monkey and Loom demos)'  => array('4','pass','50'),
@@ -118,6 +119,8 @@ $notes = array(
 		   "<br>- No sound effect looping with Amiga version",
 "indy3"         => "Game is completable" .
                    "<br>- No sound effects",
+"indy3towns"    => "Game is completable." .
+                   "<br>- Sounds with partial loops, loop the whole sample instead of just that portion" ,
 "zak256"        => "Game is completable." .
                    "<br>- Sounds with partial loops, loop the whole sample instead of just that portion" ,
 "loom"		=> "Game is completable".
