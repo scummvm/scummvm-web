@@ -176,15 +176,20 @@ function addEntry($variant, $platform, $language, $md5, $target = "???", $source
 
 	<tr><td colspan="7"><strong>Putt-Putt Joins The Parade</strong></td></tr>
 		<?php addEntry("Demo", "PC DOS", "en", "31aa57f460a3d12429f0552a46a90b39", "puttdemo"); ?>
-		<?php addEntry("Demo", "PC Windows", "en", "37ff1b308999c4cca7319edfcc1280a0", "TODO"); ?>
-		<?php addEntry("Demo", "Mac", "en", "f40a7f495f59188ca57a9d1d50301bb6", "TODO"); ?>
+		<?php addEntry("Demo", "PC Windows", "en", "37ff1b308999c4cca7319edfcc1280a0", "puttdemo"); ?>
+		<?php addEntry("Demo", "Mac", "en", "f40a7f495f59188ca57a9d1d50301bb6", "puttdemo"); ?>
 		<?php addEntry("-", "PC DOS", "en", "9708cf716ed8bcc9ff3fcfc69413b746", "puttputt"); ?>
-		<?php addEntry("-", "PC Windows", "en", "6a30a07f353a75cdc602db27d73e1b42", "TODO"); ?>
-		<?php addEntry("-", "Mac", "en", "684732efb5799c0f78804c99d8de9aba", "TODO"); ?>
-		<?php addEntry("-", "3DO", "en", "7e151c17adf624f1966c8fc5827c95e9", "TODO"); ?>
+		<?php addEntry("-", "PC Windows", "en", "6a30a07f353a75cdc602db27d73e1b42", "puttputt"); ?>
+		<?php addEntry("-", "Mac", "en", "684732efb5799c0f78804c99d8de9aba", "Putt-Putt Parade"); ?>
+		<?php addEntry("-", "3DO", "en", "7e151c17adf624f1966c8fc5827c95e9", "puttputt"); ?>
 
 	<tr><td colspan="7"><strong>Putt-Putt Goes To The Moon</strong></td></tr>
-		<?php addEntry("Demo", "PC", "en", "aa6a91b7f6f119d1b7b1f2a4c9e24d59", "puttdemo"); ?>
+		<?php addEntry("Demo", "PC DOS", "en", "aa6a91b7f6f119d1b7b1f2a4c9e24d59", "moondemo"); ?>
+		<?php addEntry("Demo", "PC Windows", "en", "9c143c5905055d5df7a0f014ab379aee", "moondemo"); ?>
+		<?php addEntry("Demo", "Mac", "en", "4af4a6b248103c1fe9edef619677f540", "moondemo"); ?>
+		<?php addEntry("-", "PC DOS", "en", "780e4a0ae2ff17dc296f4a79543b44f8", "puttmoon"); ?>
+		<?php addEntry("-", "PC Windows", "en", "9c92eeaf517a31b7221ec2546ab669fd", "puttmoon"); ?>
+		<?php addEntry("-", "Mac", "en", "9dc02577bf50d4cfaf3de3fbac06fbe2", "puttmoon"); ?>
 
 	<tr><td colspan="7"><strong>Putt-Putts Fun Pack</strong></td></tr>
 		<tr><td colspan="7"><em>TODO</em></td></tr>
@@ -192,6 +197,7 @@ function addEntry($variant, $platform, $language, $md5, $target = "???", $source
 	<tr><td colspan="7"><strong>Putt-Putt Travels Through Time</strong></td></tr>
 		<?php addEntry("-", "All?", "en", "2108d83dcf09f8adb4bc524669c8cf51", "TODO"); ?>
 		<?php addEntry("Demo", "PC", "en", "4e5867848ee61bc30d157e2c94eee9b4", "TODO"); ?>
+		<?php addEntry("Demo", "PC", "en", "0ab19be9e2a3f6938226638b2a3744fe", "putttime-demo"); ?>
 
 	<tr><td colspan="7"><strong>Putt-Putt Enters the Race</strong></td></tr>
 		<?php addEntry("-", "PC", "en", "981e1e1891f2be7e25a01f50ae55a5af", "TODO"); ?>
@@ -199,14 +205,19 @@ function addEntry($variant, $platform, $language, $md5, $target = "???", $source
 
 	<tr><td colspan="7"><strong>Putt-Putt Saves the Zoo</strong></td></tr>
 		<?php addEntry("-", "PC", "nl", "c3b22fa4654bb580b20325ebf4174841", "TODO"); ?>
+		<?php addEntry("-", "Mac", "en", "58fdf4c7ad13540a734e18f8584cad89", "Putt-Putt Saves the Zoo"); ?>
+		<?php addEntry("Demo", "PC", "en", "1005456bfe351c1b679e1ff2dc2849e9", "puttzoo"); ?>
+		<?php addEntry("Demo", "PC", "en", "f3d55aea441e260e9e9c7d2a187097e0", "zoodemo"); ?>
+		<?php addEntry("Demo", "PC", "en", "de4efb910210736813c9a1185384bace", "zoodemo"); ?>
+		<?php addEntry("Demo", "Mac", "en", "3486ede0f904789267d4bcc5537a46d4", "puttzoo"); ?>
 
 	<tr><td colspan="7"><strong>Fatty Bears Birthday Surprise</strong></td></tr>
 		<?php addEntry("Demo", "PC DOS", "en", "47e75b1bdcb44c78cb94883d1731ccf8", "fbdemo"); ?>
-		<?php addEntry("Demo", "PC Windows", "en", "22c9eb04455440131ffc157aeb8d40a8", "TODO"); ?>
-		<?php addEntry("Demo", "Mac", "en", "6df20c50c1ab19799de9be7ae7716881", "TODO"); ?>
+		<?php addEntry("Demo", "PC Windows", "en", "22c9eb04455440131ffc157aeb8d40a8", "fbdemo"); ?>
+		<?php addEntry("Demo", "Mac", "en", "6df20c50c1ab19799de9be7ae7716881", "Fatty Bear Demo"); ?>
 		<?php addEntry("-", "PC DOS", "en", "3824e60cdf639d22f6df92a03dc4b131", "fbear"); ?>
-		<?php addEntry("-", "PC Windows", "en", "179879b6e35c1ead0d93aab26db0951b", "TODO"); ?>
-		<?php addEntry("-", "Mac", "en", "df6ead57930488bc61e6e41901d0e97", "TODO"); ?>
+		<?php addEntry("-", "PC Windows", "en", "179879b6e35c1ead0d93aab26db0951b", "fbear"); ?>
+		<?php addEntry("-", "Mac", "en", "df6ead57930488bc61e6e41901d0e97", "fbear"); ?>
 
 	<tr><td colspan="7"><strong>Fatty Bears Fun Pack</strong></td></tr>
 		<tr><td colspan="7"><em>TODO</em></td></tr>
@@ -233,9 +244,6 @@ function addEntry($variant, $platform, $language, $md5, $target = "???", $source
 <p>To be added (didn't get around to putting this into the right places yet):</p>
 <pre>
 The following are from khalek/Jonathan Gray:
-zoodemo pc en f3d55aea441e260e9e9c7d2a187097e0
-zoodemo pc en de4efb910210736813c9a1185384bace
-moondemo mac en 4af4a6b248103c1fe9edef619677f540
 airdemo pc en 86c9902b7bec1a17926d4dae85beaa45
 airdemo pc en e144f5f49d9241d2a9dee2576b3d09cb
 airdemo pc en 8ffd618a776a4c0d8922bb28b09f8ce8
@@ -243,10 +251,6 @@ Airport Demo mac en 7ea2da67ebabea4ac20cee9f4f9d2934
 farmdemo pc en bf8b52fdd9a69c67f34e8e9fec72661c
 freddemo pc en 084ed0fa98a6d1e9368d67fe9cfbd417
 freddemo pc en 566165a7338fa11029e7c14d94fa70d0
-moondemo win32 en 9c143c5905055d5df7a0f014ab379aee
-puttmoon dos en 780e4a0ae2ff17dc296f4a79543b44f8
-puttmoon win32 en 9c92eeaf517a31b7221ec2546ab669fd
-puttmoon mac en 9dc02577bf50d4cfaf3de3fbac06fbe2
 spydemo pc en 9d4ab3e0e1d1ebc6ba8a6a4c470ed184
 f4-demo pc en 7c2e76087027eeee9c8f8985f93a1cc5
 pjs-demo pc en f237bf8a5ef9af78b2a6a4f3901da341
@@ -254,13 +258,10 @@ Pajama Sam Demo mac en f237bf8a5ef9af78b2a6a4f3901da341
 pj3-demo pc en cf90b4db5486ef798db78fe6fbf897e5
 pjsamdemo pc en d7ab7cd6105546016e6a0d46fb36b964
 1grademo pc en 0f5935bd5e88ba6f09e558d64459746d
-fbdemo dos en 47e75b1bdcb44c78cb94883d1731ccf8
-putttime-demo pc en 0ab19be9e2a3f6938226638b2a3744fe
 ffhsdemo pc en d37c55388294b66e53e7ced3af88fa68
 bluesabctimedemo pc en 7ddeaf52c8b9a50551ce0aa2ac811d07
 byb2001-demo bb2demo pc en a194f15f51ee62badab74b9e7da97693
 byf2002-demo football2002 pc en 2e85f7aa054930c692a5b1bed1dfc295
-puttzoo pc en 1005456bfe351c1b679e1ff2dc2849e9
 ff2-demo pc en fc8d197a22146e74766e9cb0cfcaf1da
 ff2-demo mac en fc8d197a22146e74766e9cb0cfcaf1da
 f3-mdemo mac en cb1559e8405d17a5a278a6b5ad9338d1
@@ -271,8 +272,6 @@ foxdemo mac en 53e94115b55dd51d4b8ff0871aa1df1e
 pajama pc en 672dec94b82f7f0877ebb5b5cf7f4bc1
 pajama mac en 672dec94b82f7f0877ebb5b5cf7f4bc1
 freddi demo mac en c8aac5e3e701874e2fa4117896f9e1b1
-puttzoo demo mac en 3486ede0f904789267d4bcc5537a46d4
-Putt-Putt Saves the Zoo mac en 58fdf4c7ad13540a734e18f8584cad89
 kinddemo mac en 695fe0b3963333b7e15b37514db3c745
 TimeDemo mac en 4e5867848ee61bc30d157e2c94eee9b4
 catalog pc en 86c9902b7bec1a17926d4dae85beaa45
