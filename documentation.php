@@ -28,7 +28,7 @@ if ($view and file_exists($file_root."/docs/".$view.".xml"))
 	$html = display_xml($file_root."/docs/".$view.".xml",'BODY');
 	// Now evaluate any PHP code embedded into it, and output the result
 	echo '<tr valign="top" class="color2"><td>';
-	echo eval("?x>" . $html . "<x?php ");
+	echo eval("?>" . $html . "<?php ");
 	echo "</td></tr>";
 }
 else
