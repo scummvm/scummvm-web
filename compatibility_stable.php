@@ -159,13 +159,13 @@ $notes = array(
 "game"		=> "No known problems - should be playable to the end".
 		   "<br>- No sound effects",
 "monkey2"	=> "No known problems - should be playable to the end".
-		   "<br>- Amiga, Mac and PC versions supported by this target".
+		   "<br>- Amiga, FM Towns, Mac and PC versions supported by this target".
 		   "<br>- Various graphical glitches with Amiga version".
                    "<br>- Kanji version requires the FM Towns Font ROM",
 "mi2demo"	=> "Often crashes due to missing resources, since it was never meant to be playable".
 		   "<br>- No support for playing back the recorded file of gameplay",
 "atlantis"	=> "No known problems - should be playable to the end".
-		   "<br>- Amiga, Mac and PC versions supported by this target".
+		   "<br>- Amiga, FM Towns, Mac and PC versions supported by this target".
 		   "<br>- Both disk and cd PC versions are supported by this target".
 		   "<br>- Music loud on some systems, run with -m30 to lower music volume.".
 		   "<br>- Various graphical glitches with Amiga version".
