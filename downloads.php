@@ -110,8 +110,6 @@ echo html_round_frame_start("Download ScummVM","");
 	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.6.1b-0woody1_i386.deb?download">0.6.1b Debian Stable (woody) package</a> <small>(1.1M .deb)</small></li>
 
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-solaris8-sparc.tar.bz2?download">0.6.1b Solaris 8 (Sparc) binary</a> <small>(1.0M .tar.bz2)</small></li>
-
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-dreamcast-plainfiles.tar.bz2?download">0.6.1b Dreamcast plain files</a> <small>(1.3M zipfile)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-beos-x86.pkg?download">0.6.1b BeOS package</a> <small>(1.6M pkg)</small></li>
