@@ -40,7 +40,8 @@ echo html_round_frame_start("Contact","98%","",20);
 	</p>
 	<p>
       <b>Please do not contact the team for questions about using ScummVM. Use the forums or bug reporting system instead!</b><br>
-      Feel free to stop by our #scummvm IRC channel on irc.openprojects.net
+      Feel free to stop by our #scummvm IRC channel on
+      <a href="http://freenode.net/irc_servers.shtml">irc.freenode.net</a>.
     </p>
     
 	<blockquote>
