@@ -141,7 +141,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	Mac OS X, Dreamcast, MorphOS, IRIX, PalmOS and WinCE. It is also part of the FreeBSD
 	ports collection and included in Debian testing and unstable</p></li>
 
-      <li><p><a name="1-10"></a><b>Does ScummVM run any non-SCUMM games?</b><br>
+      <li><p><a name="1-9"></a><b>Does ScummVM run any non-SCUMM games?</b><br>
         Yes. Currently the only non-SCUMM games supported are Simon The Sorcerer (1 and 2), 
 	and Beneath a Steel Sky. Simon support was originally written by the
 	founder of ScummVM as a seperate program, and later included in the main binary.
