@@ -12,6 +12,20 @@ $file_root = ".";
 // load libraries
 require($file_root."/include/"."incl.php");
 
+// Function to insert people in the list of developers
+function add_person ($name, $nick, $desc)
+{
+	echo "<tr>";
+	echo "<td>".$name."</td>";
+	if ($nick != "")
+		echo "<td>[ ".$nick." ]</td>";
+	else
+		echo "<td></td>";
+	echo "<td>- ".$desc."</td>";
+	return do_indent("<b>$str</b><br>\n".html_line());
+}
+
+
 // start of html
 html_header("ScummVM :: Contact");
 sidebar_start();
@@ -34,68 +48,39 @@ echo html_round_frame_start("Contact","98%","",20);
 	  
       <tr><td colspan=3><b>The core ScummVM team:</b><? echo html_line(); ?></td></tr>
       
-	  <tr>
-	    <td><a href="http://sourceforge.net/sendmessage.php?touser=2715" target="_blank">James Brown</a></td>
-	    <td>[ <a href="http://www.enderboi.com/">endy</a> ]</td>
-	    <td>- Developer, Current Project Admin</td>
-	  </tr>
-	  
-	  <tr>
-	    <td><a href="http://sourceforge.net/sendmessage.php?touser=345958" target="_blank">Vincent Hamm</a></td>
-	    <td>[ yazoo ]</td>
-	    <td>- Developer</td>
-	  </tr>
-
-      <tr>
-	    <td><a href="http://sourceforge.net/sendmessage.php?touser=12935" target="_blank">Max Horn</a></td>
-	    <td>[ fingolfin ]</td>
-	    <td>- Developer</td>
-	  </tr>
-	  
-	  <tr>
-	    <td><a href="http://sourceforge.net/sendmessage.php?touser=339357" target="_blank">Jeremy Newman</a></td>
-	    <td>[ <a href="http://www.dracowulf.com/">laxdragon</a> ]</td>
-	    <td>- Webmaster</td>	  
-	  </tr>
-
-	  <tr>
-	    <td>Ludvig Strigeus</td>
-	    <td>[ strigeus ]</td>
-	    <td>- Original ScummVM author, Former Project Admin</td>
-	  </tr>
-	  
+	  <?php
+	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=2715" target="_blank">James Brown</a>',
+	  			 '<a href="http://www.enderboi.com/">endy</a>',
+	  			 "Lead developer");
+	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=345958" target="_blank">Vincent Hamm</a>',
+	  			 'yazoo', "Developer (retired)");
+	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=12935" target="_blank">Max Horn</a>',
+	  			 'fingolfin', "Developer, MacOS X port, new GUI");
+	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=339357" target="_blank">Jeremy Newman</a>',
+	  			 '<a href="http://www.dracowulf.com/">laxdragon</a>', "Webmaster");
+	  add_person('Ludvig Strigeus', 'ludde', "Original ScummVM author, initial Simon support (retired)");
+	  ?>
+  
       <tr><td colspan=3>&nbsp;</td></tr>
-      <tr><td colspan=3><b>Porters:</b><? echo html_line(); ?></td></tr>
+      <tr><td colspan=3><b>Developers:</b><? echo html_line(); ?></td></tr>
       
-	  <tr>
-	    <td>Lionel Ulmer</td>
-	    <td>[ bbrox ]</td>
-	    <td>- X11/Linux port</td>
-	  </tr>
-
-	  <tr>
-	    <td>Nicolas Bacca</td>
-	    <td>[ arisme ]</td>
-	    <td>- PocketPC/WinCE port</td>
-	  </tr>
-      
-      <tr>
-	    <td>Mutwin Kraus</td>
-	    <td>[ mutle ]</td>
-	    <td>- MacOS Carbon port (Retired)</td>
-	  </tr>
-
-      <tr>
-	    <td>Marcus Comstedt</td>
-	    <td></td>
-	    <td>- Dreamcast port</td>
-	  </tr>
-
-      <tr>
-	    <td>Ruediger Hanke</td>
-	    <td></td>
-	    <td>- MorphOS port</td>
-	  </tr>
+	  <?php
+	  add_person("Torbj&ouml;rn Andersson", "eriktorbjorn", "Many different contributions");
+	  add_person("Nicolas Bacca", "arisme", "PocketPC/WinCE port");
+	  add_person("Ralph Brorsen", "painelf", "His work on the new GUI");
+	  add_person("Jamieson Christian", "jamieson630", "Lots of work on iMuse/MIDI");
+	  add_person("Marcus Comstedt", "", "Dreamcast port");
+	  add_person("Jonathan Gray", "khalek", "Expert weaver in the Loom");
+	  add_person("Ruediger Hanke", "", "MorphOS port");
+	  add_person("Travis Howell", "Kirben", "Daily Win32 builds, Simon The Sorcerer work");
+	  add_person("Felix Jakschitsc", "yot", "His hard work on Zak256");
+	  add_person("Oliver Kiehl", "olki", "Simon The Sorcerer work");
+	  add_person("Pawel Kolodziejski", "aquadran", "Added missing Dig SMUSH codecs");
+	  add_person("Mutwin Kraus", "mutle", "MacOS Carbon port (retired)");
+	  add_person("Peter Moraliyski", "ph0x", "GP32 port");
+	  add_person("Nicolas Noble", "pixels", "Config file and ALSA support");
+	  add_person("Lionel Ulmer", "bbrox", "X11/Linux port");
+	  ?>
 
       <tr><td colspan=3>&nbsp;</td></tr>
       <tr><td colspan=3><b>Contributors:</b><? echo html_line(); ?></td></tr>
@@ -104,12 +89,6 @@ echo html_round_frame_start("Contact","98%","",20);
 	    <td>Claudio Matsuoka</td>
 	    <td></td>
 	    <td>- Daily Linux/BeOS builds (<a href="http://scummvm.sf.net/daily/">http://scummvm.sf.net/daily/</a>)</td>
-	  </tr>
-
-      <tr>
-	    <td>Travis Howell</td>
-	    <td>[ Kirben ]</td>
-	    <td>- Daily Win32 builds</td>
 	  </tr>
 
       <tr>
@@ -155,30 +134,6 @@ echo html_round_frame_start("Contact","98%","",20);
 	  </tr>
 
       <tr>
-	    <td>Jonathan Gray</td>
-	    <td>[ khalek ]</td>
-	    <td>- Expert weaver in the Loom</td>
-	  </tr>
-
-      <tr>
-	    <td>Nicolas Noble</td>
-	    <td>[ pixels ]</td>
-	    <td>- Config file and ALSA support</td>
-	  </tr>
-
-      <tr>
-	    <td>Pawel Kolodziejski</td>
-	    <td></td>
-	    <td>- Added missing Dig SMUSH codecs</td>
-	  </tr>
-
-      <tr>
-	    <td>Felix Jakschitsc</td>
-	    <td>[ yot ]</td>
-	    <td>- His hard work on Zak256</td>
-	  </tr>
-
-      <tr>
 	    <td>Andr&eacute; Souza </td>
 	    <td></td>
 	    <td>- SDL-based OpenGL renderer</td>
@@ -188,24 +143,6 @@ echo html_round_frame_start("Contact","98%","",20);
 	    <td>Kov&aacute;cs Endre J&aacute;nos</td>
 	    <td></td>
 	    <td>- Several fixes for Simon1</td>
-	  </tr>
-
-      <tr>
-	    <td>Ralph Brorsen</td>
-	    <td>[ painelf ]</td>
-	    <td>- His work on the new GUI</td>
-	  </tr>
-
-      <tr>
-	    <td>Jamieson Christian</td>
-	    <td>[ jamieson630 ]</td>
-	    <td>- Lots of work on iMuse/MIDI</td>
-	  </tr>
-
-      <tr>
-	    <td>Torbj&ouml;rn Andersson</td>
-	    <td>[ eriktorbjorn ]</td>
-	    <td>- Many different contributions</td>
 	  </tr>
 
       <tr><td colspan=3>&nbsp;</td></tr>
