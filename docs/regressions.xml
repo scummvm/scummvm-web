@@ -1,7 +1,13 @@
-<NAME>Known regressions in ScummVM since 0.3.0b</NAME>
-<DESC>This is a list of current regressions introduced since 0.3.0b (before comi work started)</DESC>
+<NAME>Known regressions in ScummVM since 0.4.1</NAME>
+<DESC>This is a list of current regressions introduced since 0.4.1</DESC>
 <BODY>
-
-Somebody should update this, for now just look at the <a href="https://sourceforge.net/tracker/?func=browse&group_id=37116&atid=418820">bug tracker</a>.
-
+<ul>
+<li>Monkey Island 2:
+	<ul>
+		<li>Looking at the coffin to mojo makes guybrush float up then appear in the hut. See bug report <a href="http://sourceforge.net/tracker/index.php?func=detail&aid=766532&group_id=37116&atid=418820">766532</a>.
+	</ul>
+<li>Full Throttle:
+	<ul>
+		<li>The sound in the intro sequence doesn't work as well as it used to. See bug report <a href="http://sourceforge.net/tracker/index.php?func=detail&aid=765800&group_id=37116&atid=418820">765800</a>.
+</ul>
 </BODY>
