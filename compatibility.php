@@ -73,7 +73,7 @@ $games = array(
 		'Day Of The Tentacle (DEMO)'				=> array('6','dottdemo','95'),
                 'Sam & Max'                                             => array('6','samnmax','90'),
 		'Sam & Max (DEMO)'					=> array('6','samdemo','95'),
-		'Full Thottle'						=> array('7','ft','75'),
+		'Full Throttle'						=> array('7','ft','75'),
                 'The DIG'                                               => array('7','dig','85'),
 		'Curse of Monkey Island'				=> array('8','curse','5'),
 		'Simon The Sorcerer 1 Talkie (Win)'       		=> array('n/a','simon1win','85'),
@@ -93,12 +93,12 @@ $notes = array(
 "indy3ega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Indy3-256 version",
 "indy3"         => "Game will start, but is not completely playable." .
                    "<br>- Inventory scrolling not implemented, making it impossible to carry more than 4 objects at once" .
-                   "<br>- Actor decoding is broken, causing odd sideeffects" .
+                   "<br>- Actor decoding is broken, causing odd side effects" .
                    "<br>- Missing/Incorrect SCUMM opcodes cause occasional crashes",
 "zak256"        => "Game is completable." .
                    "<br>- No sound effect looping" ,
 "loom"		=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Loom CD version",
-"monkeyega"	=> "Copy protection screen will show, but game crashes shortly afterwards.<BR>Graphics decoders and SCUMM opcodes not implimented yet.",
+"monkeyega"	=> "Copy protection screen will show, but game crashes shortly afterwards.<BR>Graphics decoders and SCUMM opcodes not implemented yet.",
 "loomcd"        => "Game is completable." .
                    "<br>- Various minor graphical glitches",
 "monkeyvga"	=> "Game is completable.".
@@ -116,7 +116,7 @@ $notes = array(
 "samdemo"	=> "No known problems - should be playable to the end",
 "ft"		=> "Game is completable to the end, but missing action sequencer".
                    "<br>- Lack of INSANE subsystem prevents action sequences, which skips a substantial portion of the game".
-		   "<br>- Derby scene is only properly controlable using the mouse",
+		   "<br>- Derby scene is only properly controllable using the mouse",
 "dig"		=> "Game is fully completable, with some minor sound issues",
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
 "simon1win" 	=> "Game is completable.".
@@ -141,8 +141,8 @@ $notes = array(
                    "<br>- No music and some sound effects are missing"
 );
 		
-// render the compatibilty chart
-echo html_frame_start("Scumm Games Compatabilty Chart","90%",2,1,"color4");
+// render the compatibility chart
+echo html_frame_start("Scumm Games Compatibility Chart","90%",2,1,"color4");
 echo html_frame_tr(
 		   html_frame_td("Game Full Name").
 		   html_frame_td("Scumm Ver.").
