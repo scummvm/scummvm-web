@@ -71,6 +71,7 @@ echo html_round_frame_start("Contact","98%","",20);
 	  add_person("Ralph Brorsen", "painelf", "His work on the new GUI");
 	  add_person("Jamieson Christian", "jamieson630", "Lots of work on iMuse/MIDI");
 	  add_person("Marcus Comstedt", "", "Dreamcast port");
+	  add_person("Robert G&ouml;ffringmann", "lavosspawn", "Beneath a Steel Sky Support");
 	  add_person("Jonathan Gray", "khalek", "Expert weaver in the Loom");
 	  add_person("Ruediger Hanke", "", "MorphOS port");
 	  add_person("Travis Howell", "Kirben", "Daily Win32 builds, Simon The Sorcerer work");
@@ -81,7 +82,6 @@ echo html_round_frame_start("Contact","98%","",20);
 	  add_person("Peter Moraliyski", "ph0x", "GP32 port");
 	  add_person("Nicolas Noble", "pixels", "Config file and ALSA support");
 	  add_person("Joost Peters", "joostp", "Beneath a Steel Sky Support");
-	  add_person("Robert G&ouml;ffringmann", "lavosspawn", "Beneath a Steel Sky Support");
 	  add_person("Lionel Ulmer", "bbrox", "X11/Linux port");
 	  ?>
 
