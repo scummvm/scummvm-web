@@ -90,6 +90,8 @@ $gamesLucas = array(
 	      );
 
 $gamesHE = array(
+		'Backyard Baseball 2001 (Demo)'						=> array('n/a','bb2demo','5'),
+		'Backyard Football 2002 (Demo)'						=> array('n/a','footdemo','5'),
 		'Blue\'s ABC Time (Demo)'						=> array('n/a','BluesABCTimeDemo','50'),
 		'Big Thinkers First Grade (Demo)'					=> array('n/a','1grademo','10'),
 		'Big Thinkers Kindergarten (Demo)'					=> array('n/a','kinddemo','50'),
@@ -128,8 +130,8 @@ $gamesHE = array(
 		'Putt-Putt Goes To The Moon'						=> array('n/a','puttmoon','95'),
 		'Putt-Putt Joins the Circus (Demo)'					=> array('n/a','circdemo','10'),
 		'Putt-Putt Joins the Circus'						=> array('n/a','puttcircus','10'),
-		'Putt-Putt Joins The Parade (Demo)'					=> array('n/a','puttdemo','95'),
-		'Putt-Putt Joins The Parade'						=> array('n/a','puttputt','95'),
+		'Putt-Putt Joins the Parade (Demo)'					=> array('n/a','puttdemo','95'),
+		'Putt-Putt Joins the Parade'						=> array('n/a','puttputt','95'),
 		'Putt-Putt Saves the Zoo (Demo)'					=> array('n/a','zoodemo','70'),
 		'Putt-Putt Saves the Zoo'						=> array('n/a','puttzoo','70'),
 		'Putt-Putt Travels Through Time (Demo)'					=> array('n/a','timedemo','70'),
@@ -146,8 +148,6 @@ $gamesHE = array(
 		'Spyfox 3: Operation Ozone'						=> array('n/a','spyozon','10'),
 		'Spy Fox in Cheese Chase Game'						=> array('n/a','chase','10'),
 		'Spy Fox in Hold the Mustard'						=> array('n/a','mustard','10'),
-		'Backyard Baseball 2001 (Demo)'						=> array('n/a','bb2demo','5'),
-		'Backyard Football 2002 (Demo)'						=> array('n/a','footdemo','5'),
 	      );
 
 $gamesOther = array(
@@ -239,6 +239,8 @@ $notes = array(
 		   "<br>- Both Mac and PC versions supported by this target",
 "comi"		=> "Game is completable, with minor glitches.",
 
+"bb2demo"	=> "Only shows introduction",
+"footdemo"	=> "Only shows introduction",
 "BluesABCTimeDemo" => "Game is playable".
 		   "<br>- Various issues",
 "1grademo"	=> "Game is playable,, but objects in mini games aren't drawn",
@@ -358,8 +360,6 @@ $notes = array(
 		   "<br>- Various issues",
 "chase"		=> "Only shows introduction",
 "mustard"	=> "Only shows introduction",
-"bb2demo"	=> "Only shows introduction",
-"footdemo"	=> "Only shows introduction",
 
 "sky"	 	=> "No known issues, game is completable.".
 		   "<br>- Floppy demos are unsupported".
