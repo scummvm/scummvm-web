@@ -64,6 +64,7 @@ $games = array(
 		'LOOM'							=> array('3','loom','0'),
 		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','5'),
                 'LOOM (256 color CD version)'                           => array('5','loomcd','90'),
+		'The Secret of Monkey Island (VGA Floppy)'		=> array('5','monkeyvga','40'),
 		'The Secret of Monkey Island (VGA CD)'			=> array('5','monkey','95'),
 		'Monkey Island 2: LeChuck\'s revenge'			=> array('5','monkey2','90'),
 		'Indiana Jones 4 and the Fate of Atlantis'		=> array('5','atlantis','95'),
