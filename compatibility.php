@@ -163,8 +163,7 @@ $notes = array(
 		   "<br>- No music with Amiga version",
 "monkey"	=> "No known problems - should be playable to the end",
 "monkey1"	=> "No known problems - should be playable to the end".
-		   "<br>- Both Mac and PC versions supported by this target".
-		   "<br>- No music with Mac version",
+		   "<br>- Both Mac and PC versions supported by this target",
 "game"		=> "No known problems - should be playable to the end".
 		   "<br>- No sound effects",
 "monkey2"	=> "No known problems - should be playable to the end".
