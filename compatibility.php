@@ -110,8 +110,7 @@ $notes = array(
                    "<br>- Some subgames may not work",
 "samdemo"	=> "No known problems - should be playable to the end",
 "ft"		=> "Game is completable to a point, but not playable to the end".
-                   "<br>- Lack of INSANE subsystem prevents action sequences, which are needed to complete the game".
-                   "<br>- Some AKOS codec 16 are not drawn incorrectly, eg the waking up in dumpster scene",
+                   "<br>- Lack of INSANE subsystem prevents action sequences, which are needed to complete the game",
 "dig"		=> "Game is completable.".
                    "<br>- The nexus room doesn't 'wrap' correctly, there are some redraw problems at the room seam",
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
