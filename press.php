@@ -19,6 +19,10 @@ sidebar_start();
 echo html_round_frame_start("Press","98%","",20);
 
 ?>
+	<p><a href="http://www.aftonbladet.se/vss/spela/story/0,2789,341129,00.html"
+	   ><b>Spelklassiker - alldeles gratis</b></a> (Swedish), Aftonbladet, October 6, 2003
+	</p>
+
 	<p><a href="http://207.44.176.77/~admin28/zodiacgamer/articles/scummvm.htm"
 	   ><b>Chrilith's ScummVM Zodiac Port WIP</b></a>, Zodiac Gamer, Sepetember 20, 2003
 	</p>
