@@ -122,7 +122,6 @@ $notes = array(
 "simon1win" 	=> "Game is completable.".
                    "<br>- Various minor graphical glitches",
 "simon1talkie" 	=> "Game is completable.".
-                   "<br>- No music looping".
                    "<br>- Various minor graphical glitches",
 "simon1dos" 	=> "Game is completable to a point, but not playable to the end".
                    "<br>- Freezes when Swampling leaves his house".
