@@ -57,7 +57,7 @@ else
 }
 
 // This Array Defines the games and thier ratings, etc.
-$games = array(
+$gamesLucas = array(
 		'Maniac Mansion (original)'				=> array('1','maniac','90'),
 		'Maniac Mansion (enhanced)'				=> array('2','maniac','95'),
 		'Zak McKracken and the Alien Mindbenders (original)'	=> array('1','zak','85'),
@@ -87,7 +87,9 @@ $games = array(
 		'Full Throttle'						=> array('7','ft','85'),
 		'The Dig'                                               => array('7','dig','85'),
 		'Curse of Monkey Island'				=> array('8','comi','80'),
+	      );
 
+$gamesHE = array(
 		'Putt-Putt Joins The Parade (Demo)'					=> array('60','puttdemo','95'),
 		'Putt-Putt Joins The Parade'						=> array('60','puttputt','85'),
 		'Putt-Putt Goes To The Moon ( Demo)'					=> array('60','moondemo','95'),
@@ -142,6 +144,9 @@ $games = array(
 		'Spy Fox in Hold the Mustard'						=> array('99','mustard','10'),
 		'Backyard Baseball 2001 (Demo)'						=> array('99','bb2demo','5'),
 		'Backyard Football 2002 (Demo)'						=> array('99','footdemo','5'),
+	      );
+
+$gamesOther = array(
 
 		'Beneath a Steel Sky'			       		=> array('n/a','sky','90'),
 		'Broken Sword I'			       		=> array('n/a','sword1','85'),
@@ -387,7 +392,11 @@ $notes = array(
 );
 		
 // render the compatibility chart
-echo html_frame_start("Game Compatibility Chart","90%",2,1,"color4");
+if ($details)
+	echo html_frame_start("Game Compatibility Chart","90%",2,1,"color4");
+else
+	echo html_frame_start("LucasArts Game Compatibility Chart","90%",2,1,"color4");
+
 echo html_frame_tr(
 		   html_frame_td("Game Full Name").
 		   html_frame_td("Scumm Ver.").
@@ -399,7 +408,7 @@ echo html_frame_tr(
 $c = 0;
 // Ender - Added this
 if ($details) {
-	while (list($name,$array) = each($games))
+	while (list($name,$array) = each(array_merge($gamesLucas, $gamesHE, $gamesOther)))
 	{	
 
 		if ($array[1] == $details) {
@@ -420,13 +429,63 @@ if ($details) {
 		}
 	}
 } else {
-	while (list($name,$array) = each($games))
+	while (list($name,$array) = each($gamesLucas))
 	{	
 		if ($c % 2 == 0) { $color = "color2"; } else { $color = "color0"; }
 		echo html_frame_tr(
 				    html_frame_td(html_ahref($name, $PHP_SELF."?details=".$array[1])).
      				    html_frame_td($array[0]).
 				    html_frame_td($array[1]).
+			 	    html_frame_td($array[2]."%", 'align="center" class="pct'.($array[2] - ($array[2]%5)).'"'),
+ 			  	    $color
+		);
+		$c++;
+	}		  
+
+	echo html_frame_end("&nbsp;");
+	echo html_p();
+
+	echo html_frame_start("Humongous Entertainment Game Compatibility Chart","90%",2,1,"color4");
+	echo html_frame_tr(
+		   html_frame_td("Game Full Name").
+		   html_frame_td("SPUTM Ver.").
+		   html_frame_td("Game Short Name").
+		   html_frame_td("% Completed"),
+		   "color4"
+
+		  );
+	$c = 0;
+	while (list($name,$array) = each($gamesHE))
+	{	
+		if ($c % 2 == 0) { $color = "color2"; } else { $color = "color0"; }
+		echo html_frame_tr(
+				    html_frame_td(html_ahref($name, $PHP_SELF."?details=".$array[1])).
+     				    html_frame_td($array[0]).
+				    html_frame_td($array[1]).
+			 	    html_frame_td($array[2]."%", 'align="center" class="pct'.($array[2] - ($array[2]%5)).'"'),
+ 			  	    $color
+		);
+		$c++;
+	}		  
+
+	echo html_frame_end("&nbsp;");
+	echo html_p();
+
+	echo html_frame_start("Other Game Compatibility Chart","90%",2,1,"color4");
+	echo html_frame_tr(
+		   html_frame_td("Game Full Name").
+		   html_frame_td("Game Short Name").
+		   html_frame_td("% Completed"),
+		   "color4"
+
+		  );
+	$c = 0;
+	while (list($name,$array) = each($gamesOther))
+	{	
+		if ($c % 2 == 0) { $color = "color2"; } else { $color = "color0"; }
+		echo html_frame_tr(
+				    html_frame_td(html_ahref($name, $PHP_SELF."?details=".$array[1])).
+     				    html_frame_td($array[0]).
 			 	    html_frame_td($array[2]."%", 'align="center" class="pct'.($array[2] - ($array[2]%5)).'"'),
  			  	    $color
 		);
