@@ -20,7 +20,7 @@
 		<tr><td>GameID</td><td>Testers</td><td>Date Tested</td><td>Critical Bugs</td></tr>
 		<tr><td colspan=4><hr></td></tr>
 		<tr><td>Zak256</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
-		<tr><td>LoomCD</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+		<tr><td>LoomCD</td><td>WooShell</td><td>2/5</td><td>None Known</td></tr>
 		<tr><td>Indy3</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
 		<tr><td>MonkeyEGA</td><td>khalek</td><td>11/4</td><td>None Known</td></tr>
 		<tr><td>MonkeyVGA</td><td>Ge0rG</td><td>1/5</td><td>None Known</td></tr>
