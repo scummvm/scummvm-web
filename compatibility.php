@@ -144,9 +144,8 @@ $notes = array(
 		   "<br>- No music or sound effects looping with Amiga version".
 		   "<br>- No music or sound effects with Mac version",
 "monkeyega"	=> "Game is completable",
-"pass"		=> "At least partly playable".
-                   "<br>- No subtitles in indy3 demo".
-                   "<br>- No sound effects",
+"pass"		=> "Loom and Monkey Island demos are completable.".
+                   "<br>- No subtitles in indy3 demo",
 "loomcd"        => "Game is completable.".
                    "<br>- Various minor graphical glitches",
 "monkeyvga"	=> "Game is completable.".
