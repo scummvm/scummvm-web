@@ -37,7 +37,7 @@ else
 	  Click on the game name to view the complete notes of a game.
 	
           <br><br>Please note this list applies to the English versions of games, we attempt to test many versions of games, however there are occasionally problems with other languages.
-	  Also, this is the compatability of the current WIP CVS version, <B>not of the 0.4.1 stable release</B>
+	  Also, this is the compatibility of the current WIP CVS version, <B>not of the 0.4.1 stable release</B>
           <br><br>
 	  <small>Last Updated: <? echo date("F d, Y",getlastmod()); ?></small>
 	</p>
@@ -159,7 +159,7 @@ $notes = array(
 "puttmoon"	=> "Fails an AKOS related assertion shortly after starting".
 		   "<br>- scummvm: scumm/akos.cpp:267: virtual byte AkosRenderer::drawLimb(const CostumeData&, int): Assertion `(code & 0xFFF) * 6 < READ_BE_UINT32((byte *)akof - 4) - 8' failed.".
 		   "<br>- talkie data not synced/properly implemented",
-"moondemo"	=> "Finishable if you don't trigger one or two fatal animations".
+"moondemo"	=> "Completable if you don't trigger one or two fatal animations".
 		   "<br>- cursor doesn't turn to arrow on the right hand side of the screen in the first room".
 		   "<br>- talkie data not synced/properly implemented",
 "funpack"	=> "Starts but mini games seem to have various problems".
@@ -169,7 +169,7 @@ $notes = array(
 "fbdemo"	=> "Fails assertion at the end of the intro".
 		   "<br>- scumm/resource.cpp:1222: void Scumm::nukeResource(int, int): Assertion `idx >= 0 && idx < res.num[type]' failed.",
 		   "<br>- talkie data not synced/properly implemented",
-"fbear"		=> "various errors that prevent the game from being finishable".
+"fbear"		=> "various errors that prevent the game from being completable".
 		   "<br>- talkie data not synced/properly implemented",
 "fbpack"	=> "Game starts but various minigames have different problems".
 		   "<br>- Reversi/Go Fish/Lines and Boxes: o6_actorOps: default case 218".
@@ -185,7 +185,7 @@ $notes = array(
 "samdemo"	=> "No known problems - should be playable to the end",
 "ft"		=> "Game is completable to the end, but missing action sequences".
 	 	   "<br>- Music is not continuous, and may pause, restart, and otherwise act oddly".
-		   "<br>- SMUSH audio (movie cutscenes) is a lot quieter than in-game voice, which is abnormallyloud".
+		   "<br>- SMUSH audio (movie cutscenes) is a lot quieter than in-game voice, which is abnormally loud".
                    "<br>- Lack of INSANE subsystem prevents action sequences, which skips a substantial portion of the game".
 		   "<br>- Derby scene is only properly controllable using the mouse",
 "dig"		=> "Game is fully completable, with some minor sound issues",
