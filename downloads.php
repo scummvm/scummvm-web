@@ -111,7 +111,7 @@ echo html_round_frame_start("Downloads","");
 	</ul>
 
 	<hr>
-	<A NAME="cvs">
+	<A NAME="CVS">
 	<p>
 	  <b>Daily CVS Builds:</b>
 	</p>
