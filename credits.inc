@@ -10,7 +10,7 @@
 <tr><td>Jonathan Gray</td><td>[&nbsp;khalek&nbsp;]</td><td>Engine: SCUMM, HE, Broken Sword II</td>
 <tr><td>Travis Howell</td><td>[&nbsp;Kirben&nbsp;]</td><td>Engine: SCUMM, HE, Simon the Sorcerer</td>
 <tr><td>Oliver Kiehl</td><td>[&nbsp;olki&nbsp;]</td><td>Engine: Beneath a Steel Sky, Simon</td>
-<tr><td>Pawel Kolodziejski</td><td>[&nbsp;aquadran&nbsp;]</td><td>Engine: SCUMM (Codecs, iMUSE, Smush, etc.)</td>
+<tr><td>Pawe&#322; Ko&#322;odziejski</td><td>[&nbsp;aquadran&nbsp;]</td><td>Engine: SCUMM (Codecs, iMUSE, Smush, etc.)</td>
 <tr><td>Andrew Kurushin</td><td>[&nbsp;ajax16384&nbsp;]</td><td>Engine: SAGA</td>
 <tr><td>Gregory Montoir</td><td>[&nbsp;cyx&nbsp;]</td><td>Engine: Flight of the Amazon Queen, HE</td>
 <tr><td>Joost Peters</td><td>[&nbsp;joostp&nbsp;]</td><td>Engine: Beneath a Steel Sky, Flight of the Amazon Queen</td>
