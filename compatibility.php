@@ -79,13 +79,13 @@ $games = array(
 		'Monkey Island 2: LeChuck\'s revenge (DOS Demo)'	=> array('5','mi2demo','10'),
 		'Indiana Jones 4 and the Fate of Atlantis'		=> array('5','atlantis','95'),
 		'Indiana Jones 4 and the Fate of Atlantis (Demo)'	=> array('5','playfate','95'),
-		'Putt-Putt Joins The Parade (DOS Demo)'			=> array('6','puttdemo','75'),
+		'Putt-Putt Joins The Parade (DOS Demo)'			=> array('6','puttdemo','95'),
 		'Putt-Putt Joins The Parade (DOS)'			=> array('6','puttputt','80'),
 		'Putt-Putt Goes To The Moon (DOS Demo)'			=> array('6','moondemo','60'),
 		'Putt-Putt Goes To The Moon (DOS)'			=> array('6','puttmoon','20'),
 		'Putt-Putts Fun Pack'					=> array('6','funpack','50'),
 		'Fatty Bears Birthday Surprise (DOS Demo)'		=> array('6','fbdemo','95'),
-		'Fatty Bears Birthday Surprise (DOS)'			=> array('6','fbear','70'),
+		'Fatty Bears Birthday Surprise (DOS)'			=> array('6','fbear','80'),
 		'Fatty Bears Fun Pack'					=> array('6','fbpack','50'),
 		'Day Of The Tentacle'					=> array('6','tentacle','95'),
 		'Day Of The Tentacle (Demo)'				=> array('6','dottdemo','95'),
@@ -169,8 +169,7 @@ $notes = array(
 		   "<br>- Various graphical glitches with Amiga version".
                    "<br>- Kanji version requires the FM Towns Font ROM",
 "playfate"	=> "No known issues, game is completable.",
-"puttdemo"	=> "No known issues, game is completable.".
-		   "<br>- Some sound effects missing",
+"puttdemo"	=> "No known issues, game is completable.",
 "puttputt"	=> "No known issues, game is completable.".
                    "<br>- Minor graphical glitches when cars come out of their garages on streets",
 "puttmoon"	=> "Fails an AKOS related assertion shortly after starting".
