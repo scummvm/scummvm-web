@@ -1,7 +1,7 @@
 <NAME>Progress report</NAME>
 <DATE>May 27, 2002</DATE>
 <BODY>
-<H3>WARNING! The person building the Windows daily builds may have accidently been infected with, and passed on in the builds, the TR/XBoxEmu.2 virus! We don't have confirmation yet, but highly suggest you check with a free virus scanner like <a href="http://www.free-av.com">AntiVir</a> or <a href="http://housecall.antivirus.com">Trend Housecall</a></H3>
+<H3>WARNING! The person building the Windows daily builds <i>may</i> have accidently been infected with, and passed on in the builds, the TR/XBoxEmu.2 virus! We don't have confirmation yet, but highly suggest you check with a free virus scanner like <a href="http://www.free-av.com">AntiVir</a> or <a href="http://housecall.antivirus.com">Trend Housecall</a>. We have not confirmed this yet, and it may just be a false positive result.. but to be safe, we have pulled the daily win32 downloads temporarily.</H3>
         Work on ScummVM has been proceeding very slowly of late, as the main
         devteam is quite busy on other matters.
         <BR><BR>
