@@ -111,7 +111,7 @@ $notes = array(
 "maniac"	=> "Enhanced PC version is completable, with several minor glitches".
 		   "<br>Classic version should be completable, with several glitches".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions are supported by this target".
-		   "<br>- Actor masking and palette is broken in Classic PC version".
+		   "<br>- Actor masking is broken in Classic PC version".
 		   "<br>- No flashlight and various graphic glitches in Classic PC version".
 		   "<br>- No music or sound effects with Amiga version",
 "zak"		=> "Enhanced PC version is completable, with several minor glitches".
