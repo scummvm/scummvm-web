@@ -125,26 +125,26 @@ $notes = array(
 		   "<br>- Music loud on some systems, run with -m30 to lower music volume.",
 "playfate"	=> "No known problems - should be playable to the end",
 "puttdemo"	=> "Should be playable to the end".
-		   "<br>- talkie data not synced/properly implemented".
-		   "<br>- Cursor is not placed at the right offset, so hotspots are out a bit",
+		   "<br>- talkie data not synced/properly implemented",
 "puttputt"	=> "Fails to start after looking for seemingly non existent object (1)".
 		   "<br>- Adding a hack for objects < 17 seems to hack around it, not in CVS though as would prefer a proper fix".
 		   "<br>- talkie data not synced/properly implemented",
 "puttmoon"	=> "Fails an AKOS related assertion shortly after starting".
 		   "<br>- scummvm: scumm/akos.cpp:267: virtual byte AkosRenderer::drawLimb(const CostumeData&, int): Assertion `(code & 0xFFF) * 6 < READ_BE_UINT32((byte *)akof - 4) - 8' failed.".
 		   "<br>- talkie data not synced/properly implemented",
-"moondemo"	=> "Hard to leave the first room due to hotspots being incorrect, some problems include".
-		   "<br>- Error: akos_increaseAnim: invalid code 9a00!".
-		   "<br>- Error: akos_increaseAnim: invalid code d800!".
+"moondemo"	=> "Finishable if you don't trigger one or two fatal animations".
+		   "<br>- cursor doesn't turn to arrow on the right hand side of the screen in the first room".
 		   "<br>- talkie data not synced/properly implemented",
 "funpack"	=> "Starts but mini games seem to have various problems".
-		   "<br>- Tic-Tac-Toe: akos_increaseAnim: invalid code".
+		   "<br>- Tic-Tac-Toe: can't win or lose a game only draw".
 		   "<br>- Checkers: Error(6:210:0x6A60): No items on stack to pop() for o6_startScriptQuick (0xBF) at [6-210]!".
-		   "<br>- Puzzle blocks/Pinball/Remember/Cheese King: Works but colour isn't set properly so game is black and white".
+		   "<br>- Puzzle blocks/Pinball/Remember/Cheese King/Tic-Tac-Toe: Works but colour isn't set properly so game is black and white".
 		   "<br>- talkie data not synced/properly implemented",
-"fbdemo"	=> "Fails shortly after starting on Error: akos_increaseAnim: invalid code 8006!".
+"fbdemo"	=> "Fails assertion at the end of the intro".
+		   "<br>- scumm/resource.cpp:1222: void Scumm::nukeResource(int, int): Assertion `idx >= 0 && idx < res.num[type]' failed.",
 		   "<br>- talkie data not synced/properly implemented",
-"fbear"		=> "Fails during intro with error: akos_increaseAnim: invalid code e400!".
+"fbear"		=> "Errors out when entering some rooms ie kitchen".
+		   "<br>- Error(18:44:0x57): Value -32768 is out of bounds (0,255) in script 10002 (State -32768 out of range in putState)!",
 		   "<br>- talkie data not synced/properly implemented",
 "fbpack"	=> "Game starts but various minigames have different problems".
 		   "<br>- Reversi/Go Fish/Lines and Boxes: o6_actorOps: default case 218".
