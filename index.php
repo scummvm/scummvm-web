@@ -52,8 +52,8 @@ echo html_round_frame_start("About ScummVM","98%","",20);
 		games. It is designed to run <a href="http://www.adventuresoft.com">Adventure Soft</a>'s
 		<i>Simon the Sorcerer</i> 1 and 2, <a href="http://www.revolution.co.uk">Revolution</a>'s
 		<i>Beneath A Steel Sky</i>, and games based on <a href="http://www.lucasarts.com">LucasArts</a>' <font
-		color="green">S.C.U.M.M</font> <font color="#666666">(<i>Script Creation Utility for Maniac
-		Mansion</i>)</font> system. <font color="green">S.C.U.M.M</font> is used for many games,
+		color="green">SCUMM</font> <font color="#666666">(<i>Script Creation Utility for Maniac
+		Mansion</i>)</font> system. <font color="green">SCUMM</font> is used for many games,
 		including <i>Monkey Island</i>, <i>Day of the Tentacle</i>, <i>Sam and Max</i> and more.
 		Compatibility with supported games is continually improving, so check back often.
 		</p>

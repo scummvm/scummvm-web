@@ -161,7 +161,7 @@ get you and eat your family, computer and house. And poop everywhere.
 	    <td><blockquote>
 	    Revolution Software are the people behind such wonderful titles as Beneath a Steel Sky and
 	    the Broken Sword series of games. Revolution have provided us with the source code to some
-	    of these games so that we can add support for them, and allowed us to release B.A.S.S as freeware. Thanks guys!
+	    of these games so that we can add support for them, and allowed us to release BASS as freeware. Thanks guys!
 	    </blockquote></td>
 	  </tr>
 
