@@ -71,9 +71,9 @@ echo html_round_frame_start("About ScummVM","");
 	  <td>
 		<table border=0 cellpadding=0 cellspacing=0>
 		<tr><td colspan="3">
-			<!-- We use a height of 482 instead of 480 to workaround something which
+			<!-- We use a height of 483 instead of 480 to workaround something which
 			  appears to be a bug in Mozilla? -->
-			<a href="javascript:openWin('./screenshots/big_scummvm_'+i_jn+'.png','scummvm',640,482);"
+			<a href="javascript:openWin('./screenshots/big_scummvm_'+i_jn+'.png','scummvm',640,483);"
 			onMouseOver="window.status='Click to View Full Size Image';return true;"
 			onMouseOut="window.status='';return true;"><img
 			src="./screenshots/scummvm_<?=$randImg?>.png" width=256 height=192
