@@ -156,7 +156,7 @@ $notes = array(
 		       "<li>2 expert</ul>".
                    "<br>- Kanji version isn't supported yet",
 "monkeyega"	=> "Game is completable".
-		   "<br>- Atari ST verion requires pcjr or pcspk music driver".
+		   "<br>- Atari ST version requires pcjr or pcspk music driver".
 		   "<br>- MIDI support requires the Roland update from LucasArts",
 "pass"		=> "Loom and Monkey Island demos are completable.".
                    "<br>- No subtitles in indy3 demo",
