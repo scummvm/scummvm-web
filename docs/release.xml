@@ -60,7 +60,7 @@ function portStatus($ports) {
 
 	<h2>Release critical bugs</h2>
 	<ul>
-	<li><a href="http://sourceforge.net/tracker/index.php?func=detail&aid=1007397&group_id=37116&atid=418820">#1007397 (WINCE: Disapearing clock)</a></li>
+	<li><a href="http://sourceforge.net/tracker/index.php?func=detail&amp;aid=1007397&amp;group_id=37116&amp;atid=418820">#1007397 (WINCE: Disapearing clock)</a></li>
 	<li><a href="http://sourceforge.net/tracker/index.php?func=detail&amp;aid=1074931&amp;group_id=37116&amp;atid=418820">#1074931 (GUI: Starting games in fullscreen doesn't work)</a></li>
 	</ul>
 
