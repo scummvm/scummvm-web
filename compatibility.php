@@ -238,7 +238,7 @@ $notes = array(
 "simon1acorn" 	=> "Game is completable.",
 "simon1dos" 	=> "Game is completable.",
 "simon1amiga" 	=> "Game works a bit but can't see anything".
-                   "<br>- All graphics are decoded incorrectly".
+                   "<br>- Character and background graphics are decoded incorrectly".
                    "<br>- No music",
 "simon1demo" 	=> "Game demo is completable",
 "simon2win"     => "No known problems - game is completable.",
