@@ -92,10 +92,10 @@ $games = array(
 		'Simon The Sorcerer 1 (DOS)'           			=> array('n/a','simon1dos','80'),
 		'Simon The Sorcerer 1 (Amiga)'          		=> array('n/a','simon1amiga','0'),
 		'Simon The Sorcerer 1 (Demo)'          			=> array('n/a','simon1demo','80'),
-		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','85'),
-		'Simon The Sorcerer 2 Talkie (DOS)'       		=> array('n/a','simon2talkie','85'),
-		'Simon The Sorcerer 2 Talkie (Amiga or Mac)'       	=> array('n/a','simon2mac','85'),
-		'Simon The Sorcerer 2 (DOS)'           			=> array('n/a','simon2dos','85')
+		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','80'),
+		'Simon The Sorcerer 2 Talkie (DOS)'       		=> array('n/a','simon2talkie','80'),
+		'Simon The Sorcerer 2 Talkie (Amiga or Mac)'       	=> array('n/a','simon2mac','80'),
+		'Simon The Sorcerer 2 (DOS)'           			=> array('n/a','simon2dos','80')
 	      );
 
 $notes = array(
@@ -189,10 +189,13 @@ $notes = array(
                    "<br>- Freezes briefly when Swampling leaves his house".
                    "<br>- No music",
 "simon2win"     => "Game is completable.".
+                   "<br>- Some music is missing or wrong".
                    "<br>- Minor graphical glitch when giving items to baby",
 "simon2talkie"  => "Game is completable.".
+                   "<br>- Some music is missing or wrong".
                    "<br>- Minor graphical glitch when giving items to baby",
 "simon2dos"     => "Game is completable.".
+                   "<br>- Some music is missing or wrong".
                    "<br>- Text in Copy Protection screen is only shown for short time".
                    "<br>- Minor graphical glitch when giving items to baby",
 "simon2mac"     => "Game is completable.".
