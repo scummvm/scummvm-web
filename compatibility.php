@@ -79,7 +79,7 @@ $games = array(
 		'Simon The Sorcerer 1 (Win)'           			=> array('n/a','simon1win','95'),
 		'Simon The Sorcerer 1 (Dos)'           			=> array('n/a','simon1dos','95'),
 		'Simon The Sorcerer 1 (DEMO)'          			=> array('n/a','simon1demo','5'),
-		'Simon The Sorcerer 2 (Win)'           			=> array('n/a','simon2win','20'),
+		'Simon The Sorcerer 2 (Win)'           			=> array('n/a','simon2win','60'),
 		'Simon The Sorcerer 2 (Dos)'           			=> array('n/a','simon2dos','5')
 	      );
 
@@ -121,11 +121,9 @@ $notes = array(
 "simon1dos" 	=> "No known problems, Game is completable.".
                    "<br>- No sound effects",
 "simon1demo" 	=> "Game demo is completable to a point, but not playable to the end".
-                   "<br>- No music or sound effects",
-"simon2win"     => "Can't advance very far due to movement problems".
+                   "<br>- No music",
+"simon2win"     => "Game is completable to a point, but not playable to the end".
                    "<br>- Part of introduction is skipped.".
-                   "<br>- Movement problems, sometimes can't move left.".
-                   "<br>- Speech needs to be enabled manually".
                    "<br>- Various minor graphical glitches",
 "simon2dos"     => "Not fully implemented yet.".
                    "<br>- No music or sound effects"
