@@ -83,10 +83,10 @@ $games = array(
 		'Putt-Putt Joins The Parade'				=> array('6','puttputt','80'),
 		'Putt-Putt Goes To The Moon ( Demo)'			=> array('6','moondemo','60'),
 		'Putt-Putt Goes To The Moon'				=> array('6','puttmoon','20'),
-		'Putt-Putts Fun Pack'					=> array('6','funpack','50'),
+		'Putt-Putts Fun Pack'					=> array('6','funpack','70'),
 		'Fatty Bears Birthday Surprise (Demo)'			=> array('6','fbdemo','95'),
 		'Fatty Bears Birthday Surprise'				=> array('6','fbear','80'),
-		'Fatty Bears Fun Pack'					=> array('6','fbpack','50'),
+		'Fatty Bears Fun Pack'					=> array('6','fbpack','95'),
 		'Day Of The Tentacle'					=> array('6','tentacle','95'),
 		'Day Of The Tentacle (Demo)'				=> array('6','dottdemo','95'),
 		'Sam & Max'                                             => array('6','samnmax','95'),
@@ -190,9 +190,7 @@ $notes = array(
 		   "<br>- Cursors are scaled correctly in Windows version",
 "funpack"	=> "Starts but mini games seem to have various problems".
 		   "<br>- Both 3DO and DOS versions supported by this target".
-		   "<br>- Checkers: The checkers have some graphical glitches (actorOps case 218)".
-		   "<br>- Cheese King: Triggers an assertion".
-		   "<br>- Pinball/Remember/Tic-Tac-Toe/Puzzle blocks: Works",
+		   "<br>- Cheese King: Triggers an assertion",
 "fbdemo"	=> "Should be playable to the end".
 		   "<br>- Both DOS and Windows versions supported by this target".
 		   "<br>- No music in Windows version".
@@ -202,9 +200,8 @@ $notes = array(
 		   "<br>- Piano sounds aren't correct pitch and several sound effects are missing".
 		   "<br>- No music with Windows version".
 		   "<br>- Cursors aren't scaled correctly",
-"fbpack"	=> "Starts but mini games seem to have various problems".
-		   "<br>- Both 3DO and DOS versions supported by this target".
-		   "<br>- Graphical glitches in all games due to o6_actorOps: case 218",
+"fbpack"	=> "No known issues, game is completable.".
+		   "<br>- Both 3DO and DOS versions supported by this target",
 "tentacle"	=> "No known issues, game is completable.".
 		   "<br>- Both Mac and PC versions supported by this target".
 		   "<br>- Both disk and cd versions are supported by this target".
