@@ -273,7 +273,29 @@ details.</p>
       MONKEY1.001</td>
   </tr>
   <tr>
-    <td>Simon the Sorcerer 1 (Floppy)</td>
+    <td>Simon the Sorcerer 1 (Amiga Floppy)</td>
+    <td>*tune<br>
+      *.pkd<br>
+      gameamiga<br>
+      icon.pkd<br>
+      stripped.txt<br>
+      tables*<br>
+      tbllist<br>
+      text*</td>
+  </tr>
+  <tr>
+    <td>Simon The Sorcerer 1 (DOS Demo)&nbsp;</td>
+    <td>*.VGA<br>
+      GDEMO<br>
+      ICON.DAT<br>
+      MOD02.MUS<br>
+      STRIPPED.TXT<br>
+      TABLES*<br>
+      TBLLIST<br>
+      TEXT*</td>
+  </tr>
+  <tr>
+    <td>Simon the Sorcerer 1 (DOS Floppy)</td>
     <td>*.MUS<br>
       *.VGA<br>
       GAMEPC<br>
@@ -282,6 +304,33 @@ details.</p>
       TABLES*<br>
       TBLLIST<br>
       TEXT*</td>
+  </tr>
+  <tr>
+    <td>Simon the Sorcerer 1 Talkie (Acorn)</td>
+    <td>EXECUTE folder<br>
+      DATA<br>
+      EFFECTS<br>
+      SIMON<br>
+  </tr>
+  <tr>
+    <td>Simon the Sorcerer 1 Talkie (Acorn Demo)</td>
+    <td>EXECUTE folder<br>
+      DATA<br>
+      EFFECTS<br>
+      SIMON<br>
+  </tr>
+  <tr>
+    <td>Simon the Sorcerer 1 Talkie (Amiga CD32)</td>
+    <td>*Effects<br>
+      *simon<br>
+      *tune<br>
+      *.out<br>
+      gameamiga<br>
+      icon.pkd<br>
+      stripped.txt<br>
+      tables*<br>
+      tbllist<br>
+      text*</td>
   </tr>
   <tr>
     <td>Simon the Sorcerer 1 Talkie (DOS)</td>
@@ -302,17 +351,6 @@ details.</p>
       SIMON.WAV<br>
       STRIPPED.TXT<br>
       TBLLIST</td>
-  </tr>
-  <tr>
-    <td>Simon The Sorcerer 1 (Demo)&nbsp;</td>
-    <td>*.VGA<br>
-      GDEMO<br>
-      ICON.DAT<br>
-      MOD02.MUS<br>
-      STRIPPED.TXT<br>
-      TABLES*<br>
-      TBLLIST<br>
-      TEXT*</td>
   </tr>
   <tr>
     <td>Simon the Sorcerer 2 (Floppy)</td>
