@@ -48,7 +48,7 @@ echo html_round_frame_start("Website Revamp contest poll","");
 		<td align="right">
 			I just love arturom!</td>
 		<td align="left">
-			<small><img src="http://www.pollhost.com/images/Redbar.gif" height="12" width="36">&nbsp;12%</small></td>
+			<small><img src="Redbar.gif" height="12" width="36">&nbsp;12%</small></td>
 		<td align="right">
 			165</td>
 	</tr>
@@ -56,7 +56,7 @@ echo html_round_frame_start("Website Revamp contest poll","");
 		<td align="right">
 			Oh, draven is *sooo* cool!</td>
 		<td align="left">
-			<small><img src="http://www.pollhost.com/images/Orangebar.gif" height="12" width="166">&nbsp;55%</small></td>
+			<small><img src="Orangebar.gif" height="12" width="166">&nbsp;55%</small></td>
 		<td align="right">
 			769</td>
 	</tr>
@@ -64,7 +64,7 @@ echo html_round_frame_start("Website Revamp contest poll","");
 		<td align="right">
 			The one and only choice is ... jeanm!</td>
 		<td align="left">
-			<small><img src="http://www.pollhost.com/images/Yellowbar.gif" height="12" width="65">&nbsp;21%</small></td>
+			<small><img src="Yellowbar.gif" height="12" width="65">&nbsp;21%</small></td>
 		<td align="right">
 			299</td>
 	</tr>
@@ -72,7 +72,7 @@ echo html_round_frame_start("Website Revamp contest poll","");
 		<td align="right">
 			The old website is kinda cute... so ... green... and purple...</td>
 		<td align="left">
-			<small><img src="http://www.pollhost.com/images/Greenbar.gif" height="12" width="37">&nbsp;12%</small></td>
+			<small><img src="Greenbar.gif" height="12" width="37">&nbsp;12%</small></td>
 		<td align="right">
 			166</td>
 	</tr>
