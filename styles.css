@@ -21,7 +21,7 @@ a:hover		{ color: #FF6666; }
 a:active	{ color: #FF0000; }
 
 /* no borders for images */
-img { border: 0px; }
+img { margin: 0px; }
 
 /* Headlines */
 h1, h2		{
