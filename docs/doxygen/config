@@ -334,7 +334,8 @@ RECURSIVE              = YES
 
 EXCLUDE                = \
 	/home/groups/s/sc/scummvm/scummvm/sky/compacts \
-	/home/groups/s/sc/scummvm/scummvm/sky/compact.h
+	/home/groups/s/sc/scummvm/scummvm/sky/compact.h \
+	/home/groups/s/sc/scummvm/scummvm/sky/talks.h
 
 # The EXCLUDE_SYMLINKS tag can be used select whether or not files or directories 
 # that are symbolic links (a Unix filesystem feature) are excluded from the input.
