@@ -103,10 +103,9 @@
 				<li><h4>Zak256</h4>
 				<ul>
 					<li>Bugs:
-						<a href="http://sourceforge.net/tracker/index.php?func=detail&aid=555651&group_id=37116&atid=418820">#555651</a>,
-						<a href="http://sourceforge.net/tracker/index.php?func=detail&aid=566724&group_id=37116&atid=418820">#566724</a>,
 						<a href="http://sourceforge.net/tracker/index.php?func=detail&aid=582365&group_id=37116&atid=418820">#582365</a>,
-						<a href="http://sourceforge.net/tracker/index.php?func=detail&aid=582476&group_id=37116&atid=418820">#582476</a>
+						<a href="http://sourceforge.net/tracker/index.php?func=detail&aid=590067&group_id=37116&atid=418820">#590067</a>,
+						<a href="http://sourceforge.net/tracker/index.php?func=detail&aid=590068&group_id=37116&atid=418820">#590068</a>,
 					</li>
 					<li>No music or sound effects (Ender can help you get effects done)</li>
 					<li>Ask: Ender</li>
@@ -125,7 +124,7 @@
 				</ul>
 				<li><h4>Sam and Max</h4>
 				<ul>
-					<li>There is something wrong with the object layering (see <a href="http://sourceforge.net/tracker/index.php?func=detail&aid=556498&group_id=37116&atid=418820">#556498</a></li>
+					<li>There is something wrong with the object layering (see <a href="http://sourceforge.net/tracker/index.php?func=detail&aid=556498&group_id=37116&atid=418820">#556498</a>)</li>
 					<li>iMuse needs work</li>
 					<li>Ask: Ender</li>
 				</ul>
