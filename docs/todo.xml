@@ -36,19 +36,18 @@
 			for things that need work.
 		</p>
 		
-		<h2>Upcoming milestones</h2>
-		<p>Note that the following list is in no way set to stone and can be modified in the future.</p>
+		<h2>Future goals</h2>
+		<p>Here is a list of things we plan to do for the future. Note that we don't promise to do any of these, nor when we will do them. It's just a list
+		of what we hope to be able to do one day.</p>
 		<ul>
-		<li> 0.3.0: All supported games next to bug free; new GUI used instead of old GUI; launcher dialog implemented; The Dig fully supported, initial support for Indiana Jones and the Last Crusade (VGA)</li>
-		<li> 0.3.5: Music and Sound effects in Indy3Vga</li>
-		<li> 0.4.0: New save game system, Full Throttle supported</li>
-		<li> 0.4.5: More bugfixes</li>
-		<li> 0.5.0: Monkey1-EGA supported, basic CMI and Maniac Mansion/Zak/Loom16/Indy3Ega support</li>
-		<li> 0.6.0: More work on CMI, MM and further bugfixes</li>
-		<li> 0.7.0: Maniac Mansion completable, also Zak McCracken, LoomEga and Indy3Ega playable</li>
-		<li> 0.8.0: Zak McCracken, LoomEga, Indy3Ega and Monkey1-EGA completable</li>
-		<li> 0.9.0: Bugfixes and CMI completable</li>
-		<li> 1.0.0: The end of the beginning</li>
+		<li>Music and Sound effects in Indy3Vga</li>
+		<li>proper Full Throttle support</li>
+		<li>Monkey1Ega support</li>
+		<li>Curse of Monkey Island support (we already have that partially in latest CVS!)</li>
+		<li>Maniac Mansion support</li>
+		<li>Zak McCracken (non-FmTowns) support</li>
+		<li>LoomEga support</li>
+		<li>Indy3Ega support</li>
 		</ul>
 
 		<h3>General</h3>
@@ -59,30 +58,6 @@
 				<li>Necessary if we want to allow users to switch between different games at runtime</li>
 			</ul>
 			</li>
-			<li>
-				<p><b>Make it possible to change the size of the OSystem screen</b></p>
-				<p>Right now this is not needed. But for the <a href="#launcher">launcher dialog</a>,
-				we will need this: at the time it is shown, we don't know yet which game is going to
-				run, thus we can't determine the final screen size (320x200, 320x240 or 640x480 for CMI).
-				Thus we must have a way to change it later on. At least for the SDL backend that should
-				be no issue.
-				</p>
-			</li>
-			<li>
-				<p><b>Implement a new save system</b></p>
-				<p>The current save system is quite messy, and whenever we have to change something, we must
-				break save game compatibility. Hence a new system should be implemented. If we use
-				a key based approach (that is, entries are not stored at a fixed position, but rather
-				are found using a "key string"), we can easily add/remove elements while still allowing
-				for older save games to be read.
-				</p>
-				<p>Another thing that might help would be if all objects (e.g. Actor) would contain
-				the code necessary to read/write itself to/from an archive stream. This would
-				make the whole approach more modular and easier to maintain.
-				</p>
-				<p>Please talk to Fingolfin if you want to work on this.
-				</p>
-			</li>
 			<li><p>Make it possible to restart (scumm) games</p></li>
 			<li><p>Allow the user to choose between multiple video drivers at startup when multiple choices are possible.
 			E.g. between SDL vs. SDL_gl. Just like one can choose a midi driver. Currently one has to recompile for this.</p></li>
@@ -90,34 +65,15 @@
 		</ul>
 		<h3>New GUI</h3>
 		<ul>
-			<li><p><b>Make the NewGUI code independent from the Scumm parts</b></p>
-				<p>We are fairly close towards this goal already. Some things that still have to be done:</p>
-				<ul>
-				<li>make NewGUI use its own event loop  (this will also fix the problem with the GUI during Smush movies)</li>
-				<li>add an abstraction for sound pausing) (not really necessary, we could just pause sound before we enter the GUI, then afterwards unpause...)</li>
-				<li>add getWidth() / getHeight() accessors to OSystem (so that we don't have to use _realHeight and _realWidth anymore)</li>
-				</ul>
-			</li>
-			<li>
-				<p><b>In NewGUI and the overlay code, deal with 555 vs. 565 16biz modes.</b></p>
-				<p>E.g. on my system in windowed mode, it's 565 - but in fullscreen it is 555.
-				Maybe we can add another accesor to OSystem that returns which mode the overlay
-				is in, then NewGUI can do its drawing accordingly...
-				</p>
-			</li>
-			<li><a name="launcher"></a><b>Implement a launcher dialog</b> that shows up at the start and allows the user to specify
-			which game to play. At first this could just allow the user to type in a command line;
-			better versions would offer a list of games we know about, etc.</li>
-			<li>Implement old dialogs (About, Options, Keys, ...)</li>
-			<li>Implement an edit field widget</li>
-			<li>Implement a generic error/warning/message dialog ("alert box")</li>
+			<li>Improve the launcher</li>
+			<li>Add tab support (i.e. allow multiple panes in one dialog)</li>
+			<li>Implement the global preferences dialog (it is already there but nothing is wired)</li>
 			<li><i>Ask: Fingolfin, Ender, painelf</i></li>
 		</ul>
 		<h3>Specific games</h3>
 		<ul>
 			<li><h4>The DIG</h4>
 			<ul>
-				<li>Apparant memory corruption issues (random crashes)</li>
 				<li>Walkscript misbehaves (currently bypassed in CVS)</li>
 				<li>Some in-game music issues</li>
 				<li>See also the <a href="../compatibility.php?details=dig">compatibility page for The DIG</a></li>
@@ -125,7 +81,6 @@
 			</ul>
 			<li><h4>Monkey1VGA</h4>
 			<ul>
-				<li>Mainly graphical problems</li>
 				<li>Fix music support, add sound support</li>
 				<li><i>Ask: MadMoose, Fingolfin</i></li>
 			</ul>
