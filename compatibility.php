@@ -60,7 +60,7 @@ $games = array(
 		'Zak McKracken and the Alien Mindbenders'		=> array('2','zakega','0'),
 		'Indiana Jones and the Last Crusade'			=> array('2','indy3ega','0'),
 		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','30'),
-                'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','85'),
+                'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','90'),
 		'LOOM'							=> array('3','loom','0'),
 		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','5'),
                 'LOOM (256 color CD version)'                           => array('5','loomcd','85'),
@@ -73,7 +73,7 @@ $games = array(
 		'Day Of The Tentacle (DEMO)'				=> array('6','dottdemo','95'),
                 'Sam & Max'                                             => array('6','samnmax','90'),
 		'Sam & Max (DEMO)'					=> array('6','samdemo','95'),
-		'Full Thottle'						=> array('7','ft','40'),
+		'Full Thottle'						=> array('7','ft','60'),
                 'The DIG'                                               => array('7','dig','40'),
 		'Curse of Monkey Island'				=> array('8','curse','5'),
 		'Simon The Sorcerer 1 (Win)'           			=> array('n/a','simon1win','95'),
@@ -89,16 +89,15 @@ $notes = array(
 "indy3ega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Indy3-256 version",
 "indy3"         => "Game will start, but is not completely playable." .
                    "<br>- Inventory scrolling not implemented, making it impossible to carry more than 4 objects at once" .
+                   "<br>- Actor decoding is broken, causing odd sideeffects" .
                    "<br>- Missing/Incorrect SCUMM opcodes cause occasional crashes",
 "zak256"        => "Game is completable." .
-                   "<br>- No music looping" ,
+                   "<br>- No sound effect looping" ,
 "loom"		=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Loom CD version",
 "monkeyega"	=> "Copy protection screen will show, but game crashes shortly afterwards.<BR>Graphics decoders and SCUMM opcodes not implimented yet.",
 "loomcd"        => "Game is completable." .
-                   "<br>- Various graphical glitches".
-                   "<br>- CD music and voices are not always in perfect sync with cutscenes",
-"monkeyvga"	=> "Game is completable." .
-                   "<br>- Various graphical glitches",
+                   "<br>- Various minor graphical glitches",
+"monkeyvga"	=> "Game is completable." ,
 "monkey"	=> "No known problems - should be playable to the end",
 "monkey2"	=> "No known problems - should be playable to the end",
 "atlantis"	=> "Game is completable.".                        
@@ -107,14 +106,16 @@ $notes = array(
 "tentacle"	=> "No known problems - should be playable to the end",
 "dottdemo"	=> "No known problems - should be playable to the end",
 "samnmax"	=> "Game is completable.".
+                   "<br>- Music system needs work, which may cause random hangs in areas such as the Vortex".
                    "<br>- Some subgames may not work",
 "samdemo"	=> "No known problems - should be playable to the end",
 "ft"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
-                   "<br>- Some palette glitches during movie playback".
-                   "<br>- No in-game music, and some animations play incorrectly",
+                   "<br>- Lack of INSANE subsystem prevents action sequences, which are needed to complete the game".
+                   "<br>- No in-game music, and some animations are missing",
 "dig"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
-                   "<br>- Freezes occasionally due to actors not walking correctly" .
-                   "<br>- Some animations play incorrectly",
+                   "<br>- iMUSE issues cause some hangs/crashes".
+                   "<br>- Room graphical glitches prevent completing the game".
+                   "<br>- Some rooms may cause actor to become 'stuck'",
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
 "simon1win" 	=> "No known problems, Game is completable.",
 "simon1dos" 	=> "No known problems, Game is completable.",
