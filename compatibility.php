@@ -179,10 +179,10 @@ $notes = array(
 		   "<br>- no inventory controls in Mac version".
 		   "<br>- Atari ST and Mac versions require pcjr or pcspk music driver",
 "indy3"         => "No known issues, game is completable.",
-"indy3towns"    => "No known issues, game is completable." .
-                   "<br>- Kanji version isn't supported",
+"indy3towns"    => "No known issues, game is completable.".
+                   "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "zaktowns"      => "No known issues, game is completable.".
-                   "<br>- Kanji version isn't supported",
+                   "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "loom"		=> "No known issues, game is completable.".
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
 		   "<br>- No music or sound effects with Mac version".
@@ -197,7 +197,7 @@ $notes = array(
 		   "<ul><li>0 practice (default)".
 		       "<li>1 standard".
 		       "<li>2 expert</ul>".
-                   "<br>- Kanji version isn't supported",
+                   "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "monkeyega"	=> "No known issues, game is completable.".
 		   "<br>- Atari ST version requires pcjr or pcspk music driver".
 		   "<br>- MIDI support requires the Roland update from LucasArts",
