@@ -47,7 +47,7 @@ packs, can also be found below.
  	  <b>0.6.0 Release binaries:</b>
 	</p>
 	<p>For a list of changes since the previous version, <a href="http://sourceforge.net/project/shownotes.php?release_id=223566">read the release notes</a>.</p>
-	<p>0.6.0 should be apt-get'able from Debian unstable (sid) shortly.</p>
+	<p>0.6.0 should be apt-get'able from Debian unstable (sid) shortly. <I>If downloading any of these files returns a File not Found error, please try a different mirror.</I></p>
 
 	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-win32.exe?download">Windows Installer</a> <small>(1.2M Win32 .exe)</small></li>
@@ -104,8 +104,8 @@ packs, can also be found below.
 	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/BASS-CD.zip?download">Beneath a Steel Sky, Freeware CD Version</a> <small>(67M)</small></li>
 	  <li><a href="http://www.mixnmojo.com/bss/BASS-Floppy.zip">Beneath a Steel Sky, Freeware Floppy Version</a> <small>(7.3M)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ-Talkie.zip?download">Flight of the Amazon Queen, Freeware CD Version</a> <small>(34.8M)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ-Floppy.zip?download">Flight of the Amazon Queen, Freeware Floppy Version</a> <small>(6.7M)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ_Talkie.zip?download">Flight of the Amazon Queen, Freeware CD Version</a> <small>(34.8M)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ_Floppy.zip?download">Flight of the Amazon Queen, Freeware Floppy Version</a> <small>(6.7M)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes.zip?download">Broken Sword 1 Cutscene Pack</a> <small>(31.2M)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_Cutscenes.zip?download">Broken Sword 2 Cutscene Pack</a> <small>(27.8M)</small></li>
 	</ul>
