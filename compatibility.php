@@ -140,6 +140,8 @@ $games = array(
 		'Spyfox 3: Operation Ozone'						=> array('n/a','spyozon','10'),
 		'Spy Fox in Cheese Chase Game'						=> array('n/a','chase','10'),
 		'Spy Fox in Hold the Mustard'						=> array('n/a','mustard','10'),
+		'Backyard Baseball 2001 (Demo)'						=> array('n/a','bb2demo','10'),
+		'Backyard Football 2002 (Demo)'						=> array('n/a','footdemo','10'),
 
 		'Beneath a Steel Sky'			       		=> array('n/a','sky','90'),
 		'Broken Sword I'			       		=> array('n/a','sword1','85'),
@@ -254,16 +256,18 @@ $notes = array(
 		   "<br>- Both 3DO and DOS versions supported by this target",
 
 "freddemo"	=> "Game is completable, with minor glitches".
-		   "<br>- Various issues",
+		   "<br>- Inventory bubbles don't pop in older demo",
 "freddi"	=> "Game is completable, with minor glitches".
-		   "<br>- Various issues",
+		   "<br>- Sometimes double speech when using objects",
 "ff2-demo"	=> "Game is completable, with minor glitches".
 		   "<br>- Various issues",
 "freddi2"	=> "Game is completable, with minor glitches".
+		   "<br>- Actors sometimes aren't visible or act strange",
 		   "<br>- Various issues",
 "f3-mdemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Various issues",
 "freddi3"	=> "Game is playable but not completable".
+		   "<br>- Actors sometimes aren't visible or act strange",
 		   "<br>- Various issues",
 "f4-demo"	=> "Not completable, no controls".
 		   "<br>- Various issues",
@@ -282,10 +286,12 @@ $notes = array(
 "pj2demo"	=> "Game is completable, but random akos crashes".
 		   "<br>- Various issues",
 "pajama2"	=> "Game is completable, but random akos crashes".
+		   "<br>- Actors sometimes aren't visible or act strange",
 		   "<br>- Various issues",
 "pj3-demo"	=> "Game is completable, with minor glitches".
 		   "<br>- Various issues",
 "pajama3"	=> "Game is playable but not completable".
+		   "<br>- Actors sometimes aren't visible or act strange",
 		   "<br>- Various issues",
 "smaller"	=> "Only shows introduction".
 		   "<br>- Various issues",
@@ -326,6 +332,14 @@ $notes = array(
 "sf3-demo"	=> "Not completable, no inventory".
 		   "<br>- Various issues",
 "spyozon"	=> "Not completable, no inventory".
+		   "<br>- Various issues",
+"chase"		=> "Only shows introduction".
+		   "<br>- Various issues",
+"mustard"	=> "Only shows introduction".
+		   "<br>- Various issues",
+"bb2demo"	=> "Only shows introduction".
+		   "<br>- Various issues",
+"footdemo"	=> "Only shows introduction".
 		   "<br>- Various issues",
 
 "sky"	 	=> "No known issues, game is completable.".
