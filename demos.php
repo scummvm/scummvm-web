@@ -34,7 +34,7 @@ echo html_round_frame_start("Game Demos","");
 
 <?
 
-$demos = array(
+$LEC_demos = array(
 	'Maniac Mansion (v1 DOS demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/maniac.rar', 'maniac'),
 	'Maniac Mansion (v2 DOS demo - Non interactive)'
@@ -73,6 +73,23 @@ $demos = array(
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Snmdemo.zip', 'snmdemo'),
 	'Sam and Max Hit the Road WIP (DOS demo - Interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/snmidemo.zip', 'snmidemo'),
+	'Day of the Tentacle (DOS demo - Non interactive)'
+		=> array('ftp://ftp.lucasarts.com/demos/pc/Dottdemo.zip', 'dottdemo'),
+	'Full Throttle (Macintosh demo)'
+		=> array('http://quick.mixnmojo.com/demos/ftdemo_mac.rar', 'ftdemo'),
+	'Full Throttle (DOS demo)'
+		=> array('http://quick.mixnmojo.com/demos/ftdemo.zip', 'ftpcdemo'),
+	'The Dig (Macintosh demo)'
+		=> array('http://quick.mixnmojo.com/demos/dig_demo_mac.rar', 'digdemo'),
+	'The Dig (DOS demo)'
+		=> array('http://quick.mixnmojo.com/demos/digdemo.zip', 'digdemo'),
+	'The Curse of Monkey Island (Windows demo)'
+		=> array('ftp://ftp.lucasarts.com/demos/pc/cursedemo.exe', 'comidemo'),
+	'The Curse of Monkey Island (Windows demo with movies)*'
+		=> array('http://files.mixnmojo.com/m3demo.zip', 'comidemo')
+	);
+
+$HE_demos = array(
 	'Putt-Putt Joins the Parade (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/puttpara.zip', 'puttdemo'),
 	'Putt-Putt Goes to the Moon (DOS demo)'
@@ -100,21 +117,10 @@ $demos = array(
 	'Putt-Putt Travels Through Time (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/putttime.zip', 'timedemo'),
 	'Putt-Putt Enters the Race (Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/puttraceDemo/puttrace.exe', 'racedemo'),
-	'Day of the Tentacle (DOS demo - Non interactive)'
-		=> array('ftp://ftp.lucasarts.com/demos/pc/Dottdemo.zip', 'dottdemo'),
-	'Full Throttle (Macintosh demo)'
-		=> array('http://quick.mixnmojo.com/demos/ftdemo_mac.rar', 'ftdemo'),
-	'Full Throttle (DOS demo)'
-		=> array('http://quick.mixnmojo.com/demos/ftdemo.zip', 'ftpcdemo'),
-	'The Dig (Macintosh demo)'
-		=> array('http://quick.mixnmojo.com/demos/dig_demo_mac.rar', 'digdemo'),
-	'The Dig (DOS demo)'
-		=> array('http://quick.mixnmojo.com/demos/digdemo.zip', 'digdemo'),
-	'The Curse of Monkey Island (Windows demo)'
-		=> array('ftp://ftp.lucasarts.com/demos/pc/cursedemo.exe', 'comidemo'),
-	'The Curse of Monkey Island (Windows demo with movies)*'
-		=> array('http://files.mixnmojo.com/m3demo.zip', 'comidemo'),
+		=> array('ftp://ftp.humongous.com/humongous/puttraceDemo/puttrace.exe', 'racedemo')
+	);
+
+$MISC_demos = array(
 	'Simon the Sorcerer 1 (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/simon1demo.zip', 'simon1demo'),
 	'Simon the Sorcerer 1 Talkie (Acorn demo)'
@@ -129,8 +135,9 @@ $demos = array(
 		=> array('http://0x.7fc1.org/fotaq/fotaq_demo_pcgames.zip', 'queen')
 	);
 
+function render_demos($title, $demos) {
 // render the demo list
-echo html_frame_start("Game Demos","90%",2,1,"color4");
+echo html_frame_start($title,"90%",2,1,"color4");
 echo html_frame_tr(
 		   html_frame_td("Demo Name / Download Link").
 		   html_frame_td("Game Target"),
@@ -150,8 +157,13 @@ echo html_frame_tr(
 	}
 
 echo html_frame_end("&nbsp;");
-  
 echo html_p();
+}
+
+render_demos("LucasArts Demos", $LEC_demos);
+render_demos("Humongous Demos", $HE_demos);
+render_demos("Miscellaneous Demos", $MISC_demos);
+
 echo html_round_frame_end("&nbsp;");
 
 // end of html
