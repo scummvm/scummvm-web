@@ -38,7 +38,7 @@ if ($view != "")
 	     html_frame_tr(
 	     		   html_frame_td(
 			   		 '<img src="'.$file_root.'/screenshots/big_scummvm_'.$view.'.png" '.
-				         'vspace=2 hspace=2 width=640 height=400 '.
+				         'style="margin: 2px;" width=640 height=400 '.
 				         'alt="Screenshot '.$view.'">',
 					 'align=center class="color0"'
 					)
@@ -82,9 +82,9 @@ else
 
 		// display image
 		echo html_frame_td(
-				   '<a href="'.$PHP_SELF."?view=".$c.'&auml;offset='.$offset.'">'.
+				   '<a href="'.$PHP_SELF."?view=".$c.'&amp;offset='.$offset.'">'.
 				   '<img src="'.$file_root.'/screenshots/scummvm_'.$c.'.png" '.
-				   'vspace=10 hspace=10 width=256 height=160 '.
+				   'style="margin: 10px;" width=256 height=160 '.
 				   'alt="Screenshot '.$c.'"></a>',
 				   'align=center class="color0"'
 				  );
