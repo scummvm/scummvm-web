@@ -21,7 +21,7 @@ echo html_round_frame_start("Press","");
 ?>
 <h1>ScummVM press coverage</h1>
 
-	<p><a href="http://newsforge.com/newsforge/03/10/07/1527227.shtml?tid=8"
+	<p><a href="http://www.newsforge.com/article.pl?sid=03/10/07/1527227&mode=thread&tid=22"
 	   ><b>Bringing old adventure games back to life</b></a>, NewsForge, October 8, 2003
 	</p>
 
