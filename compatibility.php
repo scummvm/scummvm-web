@@ -133,23 +133,22 @@ $notes = array(
 "puttmoon"	=> "Fails an AKOS related assertion shortly after starting".
 		   "<br>- scummvm: scumm/akos.cpp:267: virtual byte AkosRenderer::drawLimb(const CostumeData&, int): Assertion `(code & 0xFFF) * 6 < READ_BE_UINT32((byte *)akof - 4) - 8' failed.".
 		   "<br>- Humongous talkie file format currently unknown",
-"moondemo"	=> "Can't go to next room due to cursor boundry being incorrect".
+"moondemo"	=> "Hard to leave the first room due to hotspots being incorrect, some problems include".
+		   "<br>- Error: akos_increaseAnim: invalid code 9a00!".
+		   "<br>- Error: akos_increaseAnim: invalid code d800!".
 		   "<br>- Humongous talkie file format currently unknown",
 "funpack"	=> "Start but mini games seem to have various problems and generally not run".
 		   "<br>- Tic-Tac-Toe: Error(5:10:0xA8): Value 196 is out of bounds (0,31) in script 10 (Illegal palet slot 196)".
-		   "<br>- Pinball/Checkers/Remember: Similiar to above but different scripts".
-		   "<br>- Cheese King: Error(8:10002:0x8FD5): Invalid opcode 'd4'".
+		   "<br>- Pinball/Checkers/Remember/Cheese King: Similiar to above but different scripts".
 		   "<br>- Puzzle blocks: Error(7:4:0x499): No items on stack to pop() for o6_startObjectEx (0x60) at [7-4]".
 		   "<br>- Humongous talkie file format currently unknown",
 "fbdemo"	=> "Fails shortly after starting on Error: akos_increaseAnim: invalid code 8006!".
-		   "<br>- Palette changes aren't handled right leaving game without colour".
 		   "<br>- Humongous talkie file format currently unknown",
 "fbear"		=> "Assumed to have some AKOS related issues".
 		   "<br>- Humongous talkie file format currently unknown",
 "fbpack"	=> "Game starts but various minigames have different problems".
-		   "<br>- Reversi: Error(2:206:0x451B): o6_actorOps: default case 218".
+		   "<br>- Reversi/Go Fish: o6_actorOps: default case 218".
 		   "<br>- Lines and Boxes: Error(4:203:0x4BFC): Value 88 is out of bounds (0,31) in script 203 (Illegal palet slot 88)".
-		   "<br>- Go Fish: Error(3:202:0x99FD): Invalid opcode 'e2'".
 		   "<br>- Coloring/Tangrams: Error(6:209:0x40D5): Invalid opcode 'db'".
 		   "<br>- Humongous talkie file format currently unknown",
 "tentacle"	=> "No known problems - should be playable to the end",
