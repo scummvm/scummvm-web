@@ -23,7 +23,7 @@ echo html_round_frame_start("Press Coverage","");
 <small>(If you wish to contact us in regards to media articles, please e-mail press 
 (@) scummvm.org)</small>
 	<p><a href="http://www.pcplus.co.uk/tutorials/default.asp?pagetypeid=2&articleid=29821&subsectionid=376&subsubsectionid=749"
-	  ><b>Back to the Source</b></a> PC Plus issue 215, May 2004
+	  ><b>Back to the Source</b></a>. PC Plus issue 215, May 2004
 	</p>
 
 	<p><a href="http://www.mac-emu.net/article.php3?id_article=780"
@@ -43,7 +43,7 @@ echo html_round_frame_start("Press Coverage","");
 	</p>
 
 	<p><a href="http://www.justadventure.com/articles/PortableGaming/PortableGaming.shtm"
-	  ><b>Adventure Gaming on the Go</b></a> Just Adventure, February 26, 2004
+	  ><b>Adventure Gaming on the Go</b></a>, Just Adventure, February 26, 2004
 	</p>
 
 	<p><a href="http://www.newsforge.com/article.pl?sid=03/10/07/1527227&amp;mode=thread&amp;tid=22"
@@ -51,7 +51,7 @@ echo html_round_frame_start("Press Coverage","");
 	</p>
 
 	<p><a href="http://www.totalamiga.org/issue16.html"
-	  ><b>ScummVM review</b></a> Total Amiga Magazine 16, October 6, 2003
+	  ><b>ScummVM review</b></a>, Total Amiga Magazine 16, October 6, 2003
 	</p>
 	   
 	<p><a href="http://www.aventurepc.com/dossiers/scummvm1.html"
