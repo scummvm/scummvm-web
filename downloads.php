@@ -42,18 +42,21 @@ echo html_round_frame_start("Downloads","98%","",20);
 	</p>
 
 	<p>
+<!--
 	  You can get the latest development source and binaries for BeOS/Intel and Linux/Intel from the
 	  <a href="http://scummvm.sourceforge.net/daily/">CVS Daily Snapshot</a> page. To quickly get a
 	  binary executable from that page, download the .gz from the column of the OS you use. Then
 	  simply rename the file to it&#146;s executable form.<br>
 
 	  View the <a href="/daily/ChangeLog">ChangeLog</a> to see the latest updates of ScummVM
-	</p>
-	
-	<p>
-	  There is also the <a href="/downloads/scummvmwin32.exe">Win32 Daily Snapshot</a> <small>
-	  (<? echo intval(filesize("downloads/scummvmwin32.exe")/1024) ?>K exe file, last update:
-	  <? echo date("F j, Y, g:i a",filemtime("downloads/scummvmwin32.exe")); ?>)</small></li>	  
+-->
+	Please note that the 0.2.0 download linked below is several months old, and not recommended for use. We are planning a new 
+release soon, but meanwhile here are links to experimental snapshots of the current code:
+
+	  <ul>
+	  <li><a href="/downloads/scummvmwin32.exe">Win32 Daily Snapshot</a> <small> (<? echo intval(filesize("downloads/scummvmwin32.exe")/1024) ?>K exe file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummvmwin32.exe")); ?>)</small></li>
+	  <li><a href="http://arisme.free.fr/PocketScumm/daily/">PocketPC Builds</a> <small> (infrequent snapshots of the PocketPC binaries)</small></li>
+	  <li><a href="http://sourceforge.net/cvs/?group_id=37116">CVS Instructions</a> <small> (for if you wish to retrieve the latest code to compile yourself</small></li>
 	</p>
 	
 	<p>
