@@ -1,0 +1,162 @@
+	<tr><td colspan='7'><strong>Maniac Mansion</strong></td></tr>
+		<?php addEntry("V1", "DOS", "en", "7f45ddd6dbfbf8f80c0c0efea4c295bc", "maniac", ""); ?>
+		<?php addEntry("V2", "DOS", "en", "b250d0f9cc83f80ced56fe11a4fb057c", "maniac", ""); ?>
+		<?php addEntry("V2", "DOS", "de", "183d7464902d40d00800e8ee1f04117c", "maniac", ""); ?>
+		<?php addEntry("V2", "DOS", "fr", "114acdc2659a273c220f86ee9edb24c1", "maniac", "Nicolas Sauz&egrave;de"); ?>
+		<?php addEntry("V2 (DOTT)", "DOS", "fr", "99a3699f80b8f776efae592b44b9b991", "maniac", "Nicolas Sauz&egrave;de"); ?>
+		<?php addEntry("V2", "Amiga", "en", "e781230da44a44e2f0770edb2b3b3633", "maniac", "dhewg"); ?>
+	<tr><td colspan='7'><strong>Zak McKracken and the Alien Mindbenders</strong></td></tr>
+		<?php addEntry("V1", "DOS", "en", "7020931d5a2be0a49d68e7a1882363e4", "zak", ""); ?>
+		<?php addEntry("V2 Demo", "Atari", "en", "8299d9b8a1b0e7b881bae7a9971dc5e2", "zak", ""); ?>
+		<?php addEntry("V2", "DOS", "en", "debe337f73d660e951ece7c1f1c81add", "zak", ""); ?>
+		<?php addEntry("V2 (w/o copy protection)", "DOS", "de", "cdd760228cf1010c2903f37e788ea31c", "zak", "Max Horn"); ?>
+		<?php addEntry("V2 (from 5\"25 floppies)", "DOS", "de", "d06fbe28818fef7bfc45c2cdf0c0849d", "zak", "Nicolas Sauz&egrave;de"); ?>
+		<?php addEntry("V2", "Amiga", "en", "e94c7cc3686fce406d3c91b5eae5a72d", "zak", "dhweg"); ?>
+		<?php addEntry("FmTowns", "FmTowns", "en", "2d4536a56e01da4b02eb021e7770afa2", "zak", ""); ?>
+		<?php addEntry("FmTowns", "FmTowns", "jp", "ce3edc99cd4f478c5b37104d70c68ca5", "zak", "khalek"); ?>
+	<tr><td colspan='7'><strong>Indiana Jones and the Last Crusade</strong></td></tr>
+		<?php addEntry("EGA", "DOS", "en", "5fbe557049892eb4b709d90916ec97ca", "indy3EGA", ""); ?>
+		<?php addEntry("EGA", "Mac", "en", "1dd7aa088e09f96d06818aa9a9deabe0", "indy3EGA", ""); ?>
+		<?php addEntry("EGA", "DOS", "de", "6f6ef668c608c7f534fea6e6d3878dde", "indy3EGA", "dhewg"); ?>
+		<?php addEntry("EGA", "Amiga", "en", "9c0fee288ad564a7d25ec3e841810d79", "indy3EGA", "dhewg"); ?>
+		<?php addEntry("EGA", "Amiga", "de", "330f631502e381a4e199a3f7cb483c20", "indy3EGA", "dhewg"); ?>
+		<?php addEntry("EGA Demo", "DOS", "en", "b597e0403cc0002f69170e6caba7edd9", "indy3EGA", ""); ?>
+		<?php addEntry("VGA", "DOS", "en", "1875b90fade138c9253a8e967007031a", "indy3", ""); ?>
+		<?php addEntry("VGA", "DOS", "de", "399b217b0c8d65d0398076da486363a9", "indy3", ""); ?>
+		<?php addEntry("FmTowns", "FmTowns", "en", "04687cdf7f975a89d2474929f7b80946", "indy3towns", ""); ?>
+		<?php addEntry("FmTowns", "FmTowns", "jp", "3a0c35f3c147b98a2bdf8d400cfc4ab5", "indy3towns", "Paul Priest"); ?>
+		<?php addEntry("FmTowns Demo", "FmTowns", "en", "3938ee1aa4433fca9d9308c9891172b1", "zaktowns", ""); ?>
+	<tr><td colspan='7'><strong>Loom</strong></td></tr>
+		<?php addEntry("Demo", "DOS", "en", "5a35e36fd777e9c37a49c5b2faca52f9", "loom", ""); ?>
+		<?php addEntry("Floppy", "Mac", "en", "6f0be328c64d689bb606d22a389e1b0f", "loom", ""); ?>
+		<?php addEntry("Floppy", "DOS", "en", "28ef68ee3ed76d7e2ee8ee13c15fbd5b", "loom", ""); ?>
+		<?php addEntry("Floppy", "DOS", "de", "fa127d7c4bb47d05bb1c33ddcaa9f767", "loom", ""); ?>
+		<?php addEntry("Talkie/CD", "DOS", "en", "5d88b9d6a88e6f8e90cded9d01b7f082", "loomcd", ""); ?>
+		<?php addEntry("FmTowns", "FmTowns", "en", "c5d10e190d4b4d59114b824f2fdbd00e", "loomTowns", "dhewg"); ?>
+		<?php addEntry("FmTowns", "FmTowns", "jp", "31b8fda4c8c7413fa6b39997e776eba4", "loomTowns", "khalek"); ?>
+	<tr><td colspan='7'><strong>The Secret of Monkey Island</strong></td></tr>
+		<?php addEntry("EGA", "DOS", "en", "49210e124e4c2b30f1290a9ef6306301", "monkeyega", ""); ?>
+		<?php addEntry("EGA Demo", "DOS", "en", "71523b539491527d9860f4407faf0411", "monkeyega", ""); ?>
+		<?php addEntry("EGA Demo", "DOS", "de", "771bc18ec6f93837b839c992b211904b", "monkeyega", "khalek"); ?>
+		<?php addEntry("VGA", "DOS", "en", "15e03ffbfeddb9c2aebc13dcb2a4a8f4", "monkeyvga", ""); ?>
+		<?php addEntry("VGA", "DOS", "de", "d0b531227a27c6662018d2bd05aac52a", "monkeyvga", ""); ?>
+		<?php addEntry("VGA", "DOS", "es", "45152f7cf2ba8f43cf8a8ea2e740ae09", "monkeyvga", ""); ?>
+		<?php addEntry("VGA", "Amiga", "en", "6c2bff0e327f2962e809c2e1a82d7309", "monkeyvga", "dhweg"); ?>
+		<?php addEntry("VGA Demo", "Amiga", "en", "54a936ad06161ff7bfefcb96200f7bff", "monkeyvga", "khalek"); ?>
+		<?php addEntry("CD", "DOS", "en", "2d1e891fe52df707c30185e52c50cd92", "monkey", ""); ?>
+		<?php addEntry("CD", "DOS", "de", "305d3dd57c96c65b017bc70c8c7cfb5e", "monkey", ""); ?>
+		<?php addEntry("CD", "DOS", "es", "f049e38c1f8302b5db6170f1872af89a", "monkey", "Andrej Sinicyn"); ?>
+		<?php addEntry("CD", "DOS", "it", "da6269b18fcb08189c0aa9c95533cce2", "monkey", "Andrej Sinicyn"); ?>
+		<?php addEntry("CD", "DOS", "fr", "aa8a0cb65f3afbbe2c14c3f9f92775a3", "monkey", "Andrej Sinicyn"); ?>
+		<?php addEntry("-", "DOS", "fr", "aa8a0cb65f3afbbe2c14c3f9f92775a3", "monkey1", "Nicolas Sauz&egrave;de"); ?>
+		<?php addEntry("-", "Mac", "en", "2ccd8891ce4d3f1a334d21bff6a88ca2", "monkey", ""); ?>
+		<?php addEntry("-", "SEGA", "en", "c13225cb1bbd3bc9fe578301696d8021", "game", ""); ?>
+		<?php addEntry("-", "Mac", "en", "2ccd8891ce4d3f1a334d21bff6a88ca2", "monkey", ""); ?>
+		<?php addEntry("FmTowns", "FmTowns", "en", "8eb84cee9b429314c7f0bdcf560723eb", "monkey", "Paul Priest"); ?>
+		<?php addEntry("FmTowns", "FmTowns", "jp", "e17db1ddf91b39ca6bbc8ad3ed19e883", "monkey", "Paul Priest"); ?>
+	<tr><td colspan='7'><strong>Misc demos</strong></td></tr>
+		<?php addEntry("Passport to Adventure", "DOS", "en", "e6cd81b25ab1453a8a6d3482118c391e", "pass", ""); ?>
+		<?php addEntry("indy/loom non-interactive", "FmTowns", "en", "2d388339d6050d8ccaa757b64633954e", "zakTowns", "khalek"); ?>
+		<?php addEntry("zak/loom non-interactive", "FmTowns", "en", "77f5c9cc0986eb729c1a6b4c8823bbae", "zakTowns", "khalek"); ?>
+		<?php addEntry("indy/zak non-interactive", "FmTowns", "en", "3938ee1aa4433fca9d9308c9891172b1", "zakTowns", "khalek"); ?>
+	<tr><td colspan='7'><strong>Monkey Island 2: LeChuck's revenge</strong></td></tr>
+		<?php addEntry("-", "Amiga", "en", "132bff65e6367c09cc69318ce1b59333", "monkey2", ""); ?>
+		<?php addEntry("-", "Mac", "en", "4cb9c3618f71668f8e4346c8f323fa82", "monkey2", ""); ?>
+		<?php addEntry("-", "DOS", "en", "3686cf8f89e102ececf4366e1d2c8126", "monkey2", ""); ?>
+		<?php addEntry("-", "DOS", "de", "6886e5d08cee329b1f2e743ae2e3ceed", "monkey2", ""); ?>
+		<?php addEntry("-", "DOS", "fr", "8e4ee4db46954bfe2912e259a16fad82", "monkey2", "Nicolas Sauz&egrave;de"); ?>
+		<?php addEntry("FmTowns", "FmTowns", "en", "da09e666fc8f5b78d7b0ac65d1a3b56e", "monkey2", "dhewg"); ?>
+		<?php addEntry("Demo (non-interactive)", "DOS", "en", "387a544b8b10b26912d8413bab63a853", "monkey2", "khalek"); ?>
+	<tr><td colspan='7'><strong>Indiana Jones 4 and the Fate of Atlantis</strong></td></tr>
+		<?php addEntry("Talkie", "DOS", "en", "182344899c2e2998fca0bebcd82aa81a", "atlantis", ""); ?>
+		<?php addEntry("Non-Talkie", "Mac", "en", "d6dd0646404768a63e963891a96daadd", "atlantis", ""); ?>
+		<?php addEntry("Non-Talkie", "DOS", "de", "1fbebd7b2b692df5297870447a80cfed", "atlantis", ""); ?>
+		<?php addEntry("Non-Talkie", "DOS", "fr", "edfdb24a499d92c59f824c52987c0eec", "atlantis", "Nicolas Sauz&egrave;de"); ?>
+		<?php addEntry("Non-Talkie", "Amiga", "en", "3a03dab514e4038df192d8a8de469788", "atlantis", "dhewg"); ?>
+		<?php addEntry("FmTowns", "FmTowns", "en", "c7be10f775404fd9785a8b92a06d240c", "indy4", "dhewg"); ?>
+		<?php addEntry("FmTowns Demo", "FmTowns", "jp", "28d24a33448fab6795850bc9f159a4a2", "indydemo", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "035deab53b47bc43abc763560d0f8d4b", "playfate", ""); ?>
+		<?php addEntry("Demo (non-interactive)", "DOS", "en", "99b6f822b0b2612415407865438697d6", "fate", ""); ?>
+	<tr><td colspan='7'><strong>Day Of The Tentacle</strong></td></tr>
+		<?php addEntry("Floppy Version A ?", "All?", "en", "acad97ab1c6fc2a5b2d98abf6db4a190", "tentacle", ""); ?>
+		<?php addEntry("Floppy Version B ?", "DOS", "en", "2723fea3dae0cb47768c424b145ae0e7", "tentacle", "Andrej Sinicyn"); ?>
+		<?php addEntry("Floppy", "DOS", "de", "57b0d89af79befe1cabce3bece869e7f", "tentacle", "Andrej Sinicyn"); ?>
+		<?php addEntry("Talkie", "All?", "en", "4167a92a1d46baa4f4127d918d561f88", "tentacle", ""); ?>
+		<?php addEntry("Talkie", "All?", "de", "6e959d65358eedf9b68b81e304b97fa4", "tentacle", ""); ?>
+		<?php addEntry("Talkie", "All?", "fr", "92b078d9d6d9d751da9c26b8b3075779", "tentacle", "Nicolas Sauz&egrave;de"); ?>
+		<?php addEntry("Demo", "DOS", "en", "c83079157ec765a28de445aec9768d60", "dottdemo", ""); ?>
+	<tr><td colspan='7'><strong>Sam & Max</strong></td></tr>
+		<?php addEntry("Non-Talkie", "DOS", "de", "f27b1ba0eadaf2a6617b2b58192d1dbf", "samnmax", "dhewg"); ?>
+		<?php addEntry("Non-Talkie", "DOS", "fr", "ef347474f3c7be3b29584eaa133cca05", "samnmax", "Nicolas Sauz&egrave;de"); ?>
+		<?php addEntry("Talkie", "All?", "en", "d917f311a448e3cc7239c31bddb00dd2", "samnmax", ""); ?>
+		<?php addEntry("Talkie", "All?", "de", "0fb73eddfcf584c02ba097984df131ba", "samnmax", ""); ?>
+		<?php addEntry("Demo", "DOS", "en", "d9d0dd93d16ab4dec55cabc2b86bbd17", "samdemo", ""); ?>
+		<?php addEntry("Demo", "Mac", "en", "0425954a9db5c340861672892c3e678d", "samdemo", ""); ?>
+		<?php addEntry("interactive DEMO", "DOS", "en", "c3196c5349e53e387aaff1533d95e53a", "snmdemo", ""); ?>
+		<?php addEntry("Interactive WIP Demo", "DOS", "en", "0e4c5d54a0ad4b26132e78b5ea76642a", "snmidemo", ""); ?>
+	<tr><td colspan='7'><strong>Full Throttle</strong></td></tr>
+		<?php addEntry("Version A", "All?", "en", "09820417db26687bb7fe0c83cc4c553b", "ft", ""); ?>
+		<?php addEntry("Version B", "All?", "en", "60ba818dc3bede86d40357e3913f8505", "ft", ""); ?>
+		<?php addEntry("-", "All?", "de", "8bdb0bf87b5e303dd35693afb9351215", "ft", "dhewg"); ?>
+		<?php addEntry("-", "All?", "es", "e72bb4c2b613db2cf50f89ff6350e70a", "ft", ""); ?>
+		<?php addEntry("-", "All?", "ru", "55e4cc866ff9046824e1c638ba2b8c7f", "ft", ""); ?>
+		<?php addEntry("Demo", "DOS", "en", "32a433dea56b86a55b59e4ff7d755711", "ftpcdemo", ""); ?>
+		<?php addEntry("Demo", "Mac", "en", "9d7b67be003fea60be4dcbd193611936", "ftdemo", ""); ?>
+	<tr><td colspan='7'><strong>The Dig</strong></td></tr>
+		<?php addEntry("-", "All", "All", "d8323015ecb8b10bf53474f6e6b0ae33", "dig", ""); ?>
+		<?php addEntry("Demo", "All", "en", "362c1d281fb9899254cda66ad246c66a", "digdemo", ""); ?>
+	<tr><td colspan='7'><strong>Curse of Monkey Island</strong></td></tr>
+		<?php addEntry("-", "All?", "All?", "fe60d6b5ff51b0553ac59963123b5777", "comi", ""); ?>
+		<?php addEntry("Demo", "All?", "All?", "8fec68383202d38c0d25e9e3b757c5df", "comi", ""); ?>
+	<tr><td colspan='7'><strong>Putt-Putt Joins The Parade</strong></td></tr>
+		<?php addEntry("Demo", "DOS", "en", "31aa57f460a3d12429f0552a46a90b39", "puttdemo", ""); ?>
+		<?php addEntry("Demo", "Windows", "en", "37ff1b308999c4cca7319edfcc1280a0", "puttdemo", "khalek"); ?>
+		<?php addEntry("Demo", "Mac", "en", "f40a7f495f59188ca57a9d1d50301bb6", "puttdemo", "khalek"); ?>
+		<?php addEntry("-", "DOS", "en", "9708cf716ed8bcc9ff3fcfc69413b746", "puttputt", "khalek"); ?>
+		<?php addEntry("-", "Windows", "en", "6a30a07f353a75cdc602db27d73e1b42", "puttputt", "khalek"); ?>
+		<?php addEntry("-", "Mac", "en", "684732efb5799c0f78804c99d8de9aba", "Putt-Putt Parade", "khalek"); ?>
+		<?php addEntry("-", "3DO", "en", "7e151c17adf624f1966c8fc5827c95e9", "puttputt", "khalek"); ?>
+	<tr><td colspan='7'><strong>Putt-Putt Goes To The Moon</strong></td></tr>
+		<?php addEntry("Demo", "DOS", "en", "aa6a91b7f6f119d1b7b1f2a4c9e24d59", "moondemo", ""); ?>
+		<?php addEntry("Demo", "Windows", "en", "9c143c5905055d5df7a0f014ab379aee", "moondemo", "khalek"); ?>
+		<?php addEntry("Demo", "Mac", "en", "4af4a6b248103c1fe9edef619677f540", "moondemo", "khalek"); ?>
+		<?php addEntry("-", "DOS", "en", "780e4a0ae2ff17dc296f4a79543b44f8", "puttmoon", "khalek"); ?>
+		<?php addEntry("-", "Windows", "en", "9c92eeaf517a31b7221ec2546ab669fd", "puttmoon", "khalek"); ?>
+		<?php addEntry("-", "Mac", "en", "9dc02577bf50d4cfaf3de3fbac06fbe2", "puttmoon", "khalek"); ?>
+	<tr><td colspan='7'><strong>Putt-Putts Fun Pack</strong></td></tr>
+		<?php addEntry("TODO", "", "(null)", "(null)", "(null)"); ?>
+	<tr><td colspan='7'><strong>Putt-Putt Travels Through Time</strong></td></tr>
+		<?php addEntry("-", "All?", "en", "2108d83dcf09f8adb4bc524669c8cf51", "TODO", ""); ?>
+		<?php addEntry("Demo", "DOS", "en", "4e5867848ee61bc30d157e2c94eee9b4", "TODO", ""); ?>
+		<?php addEntry("Demo", "DOS", "en", "0ab19be9e2a3f6938226638b2a3744fe", "putttime-demo", "khalek"); ?>
+	<tr><td colspan='7'><strong>Putt-Putt Enters the Race</strong></td></tr>
+		<?php addEntry("-", "DOS", "en", "981e1e1891f2be7e25a01f50ae55a5af", "TODO", ""); ?>
+		<?php addEntry("Demo", "DOS", "en", "0ac41e2e3d2174e5a042a6b565328dba", "TODO", ""); ?>
+	<tr><td colspan='7'><strong>Putt-Putt Saves the Zoo</strong></td></tr>
+		<?php addEntry("-", "DOS", "nl", "c3b22fa4654bb580b20325ebf4174841", "TODO", ""); ?>
+		<?php addEntry("-", "Mac", "en", "58fdf4c7ad13540a734e18f8584cad89", "Putt-Putt Saves the Zoo", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "1005456bfe351c1b679e1ff2dc2849e9", "puttzoo", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "f3d55aea441e260e9e9c7d2a187097e0", "zoodemo", "khalek"); ?>
+		<?php addEntry("Demo", "DOS", "en", "de4efb910210736813c9a1185384bace", "zoodemo", "khalek"); ?>
+		<?php addEntry("Demo", "Mac", "en", "3486ede0f904789267d4bcc5537a46d4", "puttzoo", "khalek"); ?>
+	<tr><td colspan='7'><strong>Fatty Bears Birthday Surprise</strong></td></tr>
+		<?php addEntry("Demo", "DOS", "en", "47e75b1bdcb44c78cb94883d1731ccf8", "fbdemo", "khalek"); ?>
+		<?php addEntry("Demo", "Windows", "en", "22c9eb04455440131ffc157aeb8d40a8", "fbdemo", "khalek"); ?>
+		<?php addEntry("Demo", "Mac", "en", "6df20c50c1ab19799de9be7ae7716881", "Fatty Bear Demo", "khalek"); ?>
+		<?php addEntry("-", "DOS", "en", "3824e60cdf639d22f6df92a03dc4b131", "fbear", "khalek"); ?>
+		<?php addEntry("-", "Windows", "en", "179879b6e35c1ead0d93aab26db0951b", "fbear", "khalek"); ?>
+		<?php addEntry("-", "Mac", "en", "df6ead57930488bc61e6e41901d0e97", "fbear", "khalek"); ?>
+	<tr><td colspan='7'><strong>Fatty Bears Fun Pack</strong></td></tr>
+		<?php addEntry("TODO", "", "(null)", "(null)", "(null)"); ?>
+	<tr><td colspan='7'><strong>Freddie Fish 4: The Case of the Hogfish Rustlers of Briny Gulch</strong></td></tr>
+		<?php addEntry("Demo", "DOS", "en", "c25755b08a8d0d47695e05f1e2111bfc", "TODO", ""); ?>
+	<tr><td colspan='7'><strong>Freddie Fish and the Case of the Stolen Conch Shell</strong></td></tr>
+		<?php addEntry("Demo", "DOS", "en", "cb1559e8405d17a5a278a6b5ad9338d1", "TODO", ""); ?>
+	<tr><td colspan='7'><strong>Big Thinkers: Kindergarten</strong></td></tr>
+		<?php addEntry("Demo", "DOS", "en", "695fe0b3963333b7e15b37514db3c745", "TODO", ""); ?>
+	<tr><td colspan='7'><strong>Spy Fox in Dry Cereal</strong></td></tr>
+		<?php addEntry("-", "DOS", "nl", "9bda5fee51d2fda5253d02c642016bf4", "TODO", ""); ?>
+		<?php addEntry("Demo", "DOS", "en", "fbdd947d21e8f5bac6d6f7a316af1c5a", "TODO", ""); ?>
+	<tr><td colspan='7'><strong>Pajama Sam 2: Thunder and Lightning Aren't So Frightening</strong></td></tr>
+		<?php addEntry("-", "DOS", "nl", "4fa6870d9bc8c313b65d54b1da5a1891", "TODO", ""); ?>
+		<?php addEntry("Demo", "DOS", "en", "36a6750e03fb505fc19fc2bf3e4dbe91", "TODO", ""); ?>
