@@ -50,7 +50,7 @@ packs, can also be found below.
 	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-win32.exe?download">Windows Installer</a> <small>(1.2M Win32 .exe)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-win32.zip?download">Windows zipfile</a> <small>(1.2M zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-macosx.dmg?download">Mac OS X 10.2 Disk Image</a> <small>(1.5M disk image)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-macosx.dmg?download">Mac OS X (10.2 + 10.3) Disk Image</a> <small>(1.5M disk image)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-1.i386.rpm?download">RedHat package</a> <small>(1.2M RPM)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-1.src.rpm?download">Source RPM</a> <small>(2.2M RPM)</small></li>
 <!--
@@ -75,7 +75,7 @@ packs, can also be found below.
 
 	<h3>0.6.0 Tools (mostly unsupported)</h3>
 	<ul>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.6.0-win32.exe?download">ScummVM Tools - Windows Installer</a> <small>(118k Win32 .exe)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.6.0-win32.exe?download">Tools - Windows Installer</a> <small>(118k Win32 .exe)</small></li>
 	</ul>
 
 	<h3>0.6.0 Source Code</h3>
@@ -88,6 +88,18 @@ packs, can also be found below.
 	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.6.0.tar.bz2?download">Tools - Source tar.bz2</a> <small>(74k)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.6.0.zip?download">Tools - Source .zip</a> <small>(102k)</small></li>
+	</ul>
+
+	<h3>Older versions (unsupported)</h3>
+	<p>
+		In a few cases, we do not (yet) have new binaries of ScummVM
+		and/or the ScummVM tools for some platforms. In these cases, we still
+		have older versions around, for your convenience.
+	</p>
+	<ul>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.5.0-macosx.tar.gz?download">Tools 0.5.0 - Mac OS X binary</a> <small>(120k .tar.gz)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.5.0-solaris8-sparc.tar.gz?download">Tools 0.5.0 - Solaris 8 binary</a> <small>(121k .tar.gz)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.1-morphos.tar.gz?download">ScummVM 0.5.1 - MorphOS binary</a> <small>(857 .tar.gz)</small></li>
 	</ul>
 
 	<a name="extras"></a>
