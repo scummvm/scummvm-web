@@ -184,16 +184,16 @@
 	<tr><td colspan='7'><strong>Let's Explore the Farm with Buzzy</strong></td></tr>
 		<?php addEntry("Demo", "PC", "en", "bf8b52fdd9a69c67f34e8e9fec72661c", "farmdemo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Let's Explore the Airport with Buzzy</strong></td></tr>
-		<?php addEntry("Demo", "PC", "86c9902b7bec1a17926d4dae85beaa45", "airdemo", "khalek"); ?>
-		<?php addEntry("Demo", "PC", "e144f5f49d9241d2a9dee2576b3d09cb", "airdemo", "khalek"); ?>
-		<?php addEntry("Demo", "PC", "8ffd618a776a4c0d8922bb28b09f8ce8", "airdemo", "khalek"); ?>
-		<?php addEntry("Demo", "Mac", "7ea2da67ebabea4ac20cee9f4f9d2934", "Airport Demo", "khalek"); ?>
+		<?php addEntry("Demo", "PC", "en", "86c9902b7bec1a17926d4dae85beaa45", "airdemo", "khalek"); ?>
+		<?php addEntry("Demo", "PC", "en", "e144f5f49d9241d2a9dee2576b3d09cb", "airdemo", "khalek"); ?>
+		<?php addEntry("Demo", "PC", "en", "8ffd618a776a4c0d8922bb28b09f8ce8", "airdemo", "khalek"); ?>
+		<?php addEntry("Demo", "Mac", "en", "7ea2da67ebabea4ac20cee9f4f9d2934", "Airport Demo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Pajama Sam 1: No Need to Hide</strong></td></tr>
-		<?php addEntry("-", "PC", "672dec94b82f7f0877ebb5b5cf7f4bc1", "pajama", "khalek"); ?>
-		<?php addEntry("-", "Mac", "672dec94b82f7f0877ebb5b5cf7f4bc1", "pajama", "khalek"); ?>
-		<?php addEntry("Demo", "Mac", "f237bf8a5ef9af78b2a6a4f3901da341", "Pajama Sam Demo", "khalek"); ?>
-		<?php addEntry("Demo", "PC", "f237bf8a5ef9af78b2a6a4f3901da341", "pjs-demo", "khalek"); ?>
-		<?php addEntry("Demo", "PC", "d7ab7cd6105546016e6a0d46fb36b964", "pjsamdemo", "khalek"); ?>
+		<?php addEntry("-", "PC", "en", "672dec94b82f7f0877ebb5b5cf7f4bc1", "pajama", "khalek"); ?>
+		<?php addEntry("-", "Mac", "en", "672dec94b82f7f0877ebb5b5cf7f4bc1", "pajama", "khalek"); ?>
+		<?php addEntry("Demo", "Mac", "en", "f237bf8a5ef9af78b2a6a4f3901da341", "Pajama Sam Demo", "khalek"); ?>
+		<?php addEntry("Demo", "PC", "en", "f237bf8a5ef9af78b2a6a4f3901da341", "pjs-demo", "khalek"); ?>
+		<?php addEntry("Demo", "PC", "en", "d7ab7cd6105546016e6a0d46fb36b964", "pjsamdemo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Pajama Sam 2: Thunder and Lightning Aren't So Frightening</strong></td></tr>
 		<?php addEntry("-", "DOS", "nl", "4fa6870d9bc8c313b65d54b1da5a1891", "TODO"); ?>
 		<?php addEntry("Demo", "DOS", "en", "36a6750e03fb505fc19fc2bf3e4dbe91", "TODO"); ?>
