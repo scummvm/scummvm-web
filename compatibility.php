@@ -103,13 +103,13 @@ $notes = array(
 "zakc64"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
 "maniacega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format",
 "zakega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
-"indy3ega"	=> "Only introduction works, game locks after copy protection".
+"indy3ega"	=> "Game is playable until the catacombs until Venice".
                    "<br>ScummVM doesn't completely understand the non-blocked LFL format",
 "indy3"         => "Game is completable" .
                    "<br>- Music and Sound effects are usually missing",
 "zak256"        => "Game is completable." .
                    "<br>- No sound effect looping" ,
-"loom"		=> "Only level selection screen works, game locks after copy protection".
+"loom"		=> "Game crashes when picking up the distaff".
                    "<br>ScummVM doesn't completely understand the non-blocked LFL format",
 "monkeyega"	=> "Game is completable".
                    "<br>- No sound effects".
