@@ -30,6 +30,10 @@ echo html_round_frame_start("Press Coverage","");
 	   <b>Call for Help show</b></a>, TechTV, March 19th 2004
 	</p>
 
+	<p><a href="http://games.slashdot.org/article.pl?sid=04/03/16/1749211"
+	   ><b>ScummVM 0.6.0 Released With Freeware Bonus</b></a>, Slashdot, March 17, 2004
+	<p>
+
 	<p><a href="http://arisme.free.fr/PocketScumm/press"
 	   ><b>Adventure games on PDAs</b></a> (French), PDA Magazine issue 9, Mars/April 2004
 	</p>
