@@ -35,7 +35,7 @@ else
 	
           <br><br>Please note this list applies to the English versions of games, we attempt to test many versions of games, however there are occasionally problems with other languages.
           This is the compatibility of the current WIP CVS version, <B>not of the
-	  0.6.1 stable release</B> (Please see the  <a href="compatibility_stable.php">Stable Compatibility</A> chart for this version).
+	  0.6.0 stable release</B> (Please see the  <a href="compatibility_stable.php">Stable Compatibility</A> chart for this version).
           <br><br>
           As this is the status of the Work In Progress version, occasional temporary bugs
 	  may be introduced with new changes, thus this list refects the 'best case' scenario. 
@@ -236,7 +236,7 @@ $notes = array(
 "simon2talkie"  => "No known issues, game is completable.".
 		   "<br>- Amiga, DOS, Macintosh and Windows versions supported by this target".
                    "<br>- Only the default language (English) in Amiga & Mactinosh versions is supported".
-                   "<br>- F10 key animation is different in Amiga & Macintosh versions".
+                   "<br>- F10 key animation is different in Amiga & Macintosh versions",
 "simon2dos"     => "No known issues, game is completable."
 );
 		
