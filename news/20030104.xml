@@ -1,0 +1,18 @@
+<NAME>Ho Ho Ho and a Bottle of...</NAME>
+<DATE>Jan 4th, 2003</DATE>
+<BODY> 
+First, a quick note that the problems with the Clie Source forum have been resolved, and the Clie/Palm port will be merged into CVS
+as soon as chrilith has updated his port to work with 0.3.0's OSystem architecture.
+<BR><BR>
+A quick update on CMI (COMI/Monkey3) support. Within just several weeks, remarkable progress on support for this game, but work will
+likely be slowed for the next week as various developers are otherwise occupied. Currently, except for some bugs that make the Cannon
+scene rather difficult and unstable, it is possible to play some way into Part II of the game.
+<BR><BR>
+The current main issues remaining include a bug with flObject allocation (causes a crash in some dialog sequences), some script
+termination issues (causes various game-crippling crashes in the cannon scene and several Part II puzzles) and the various problems
+with the opening cannon puzzle.
+<BR><BR>
+As usual, please remember this work is still experimental, and please do not file any bug reports regarding it. Patches, however, are 
+very welcome! :)
+</BODY>
+
