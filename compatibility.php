@@ -148,7 +148,7 @@ $notes = array(
                    "<br>- Lack of INSANE subsystem prevents action sequences, which skips a substantial portion of the game".
 		   "<br>- Derby scene is only properly controllable using the mouse",
 "dig"		=> "Game is fully completable, with some minor sound issues",
-"comi"		=> "Game is fully completable, although ship-to-ship is broken and several graphical glitches are present".
+"comi"		=> "Game is fully completable, although ship-to-ship is broken and several graphical glitches are present",
 "simon1win" 	=> "Game is completable.".
                    "<br>- Various minor graphical glitches",
 "simon1talkie" 	=> "Game is completable.".
