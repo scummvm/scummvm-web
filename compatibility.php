@@ -104,7 +104,7 @@ $games = array(
 		'Freddi Fish 3: The Case of the Stolen Conch Shell (Demo)'		=> array('n/a','freddi3','50'),
 		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Demo)'	=> array('n/a','f4-demo','10'),
 		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'	=> array('n/a','freddi4','10'),
-		'Freddi Fish 5: The Case of the Creature of Coral Cave'			=> array('n/a','freddi5','10'),
+		'Freddi Fish 5: The Case of the Creature of Coral Cave'			=> array('n/a','freddicove','10'),
 		'Freddi Fish and Luther\'s Maze Madness'				=> array('n/a','maze','50'),
 		'Freddi Fish and Luther\'s Water Worries'				=> array('n/a','water','50'),
 		'Let\'s Explore the Airport with Buzzy (Demo)'				=> array('n/a','airdemo','50'),
@@ -279,7 +279,17 @@ $notes = array(
 		   "<br>- Various issues",
 "water"		=> "Game is playable, but settings aren't saved".
 		   "<br>- Various issues",
-"pj2demo"	=> "Game is completable, but random akos crashes".
+"airdemo"	=> "Game is playable".
+		   "<br>- Various issues",
+"airport"	=> "Game is playable".
+		   "<br>- Various issues",
+"farmdemo"	=> "Game is playable".
+		   "<br>- Various issues",
+"farm"		=> "Game is playable".
+		   "<br>- Various issues",
+"jungle"	=> "Game is playable".
+		   "<br>- Various issues",
+"pjs-demo"	=> "Game is completable, but random akos crashes".
 		   "<br>- Various issues",
 "pajama"	=> "Game is completable, with minor glitches".
 		   "<br>- Various issues",
