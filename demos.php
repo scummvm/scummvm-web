@@ -90,16 +90,14 @@ $LEC_demos = array(
 	);
 
 $HE_demos = array(
-	'Putt-Putt Joins the Parade (DOS demo)'
-		=> array('http://www.cowlark.com/scumm.dat/puttpara.zip', 'puttdemo'),
-	'Putt-Putt Goes to the Moon (DOS demo)'
-		=> array('http://www.cowlark.com/scumm.dat/moondemo.zip', 'moondemo'),
-	'Fatty Bear\'s Birthday Surprise (DOS demo)'
-		=> array('http://www.cowlark.com/scumm.dat/fatdemo.zip', 'fbdemo'),
+	'Backyard Baseball 2001 (Demo)'
+		=> array('ftp://ftp.infogrames.net/demos/backyardbaseball/bbdemo.exe', 'bb2demo')
 	'Big Thinkers Kindergarten (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/BTK95d.EXE', 'kinddemo'),
 	'Big Thinkers First Grade (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/BTFG95d.EXE', '1grademo'),
+	'Fatty Bear\'s Birthday Surprise (DOS demo)'
+		=> array('http://www.cowlark.com/scumm.dat/fatdemo.zip', 'fbdemo'),
 	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/freddi.zip', 'freddemo'),
 	'Freddi Fish 2: The Case of the Haunted Schoolhouse (Demo)'
@@ -112,8 +110,16 @@ $HE_demos = array(
 		=> array('ftp://ftp.humongous.com/humongous/pjs-demo.zip', 'pjs-demo'),
 	'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/PJ2Demo.exe', 'pj2demo'),
+	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Demo)'
+		=> array('http://quick.mixnmojo.com/demos/pj3-demo.rar', 'pj3-demo'),
 	'Pajama Sam\'s Lost & Found (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/losttest.zip', 'smaller'),
+	'Putt-Putt Goes to the Moon (DOS demo)'
+		=> array('http://www.cowlark.com/scumm.dat/moondemo.zip', 'moondemo'),
+	'Putt-Putt Joins the Circus (Demo)'
+		=> array('http://quick.mixnmojo.com/demos/circdemo.rar', 'circdemo'),
+	'Putt-Putt Joins the Parade (DOS demo)'
+		=> array('http://www.cowlark.com/scumm.dat/puttpara.zip', 'puttdemo'),
 	'Putt-Putt Saves the Zoo (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/puttzoo.zip', 'zoodemo'),
 	'Putt-Putt Travels Through Time (Demo)'
@@ -124,8 +130,10 @@ $HE_demos = array(
 		=> array('ftp://ftp.humongous.com/humongous/FOX95d.EXE', 'foxdemo'),
 	'Spyfox 1: Dry Cereal (Alternative Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/spy95_98.zip', 'spydemo'),
-	'Backyard Baseball 2001 (Demo)'
-		=> array('ftp://ftp.infogrames.net/demos/backyardbaseball/bbdemo.exe', 'bb2demo')
+	'Spyfox 2: Some Assembly Required (Demo)'
+		=> array('http://quick.mixnmojo.com/demos/sf2-demo.rar', 'sf2-demo'),
+	'Spyfox 3: Operation Ozone (Demo)'
+		=> array('http://quick.mixnmojo.com/demos/sf3-demo.rar', 'sf3-demo'),
 	);
 
 $MISC_demos = array(
