@@ -70,6 +70,7 @@ $games = array(
 		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','80'),
 		'Indiana Jones and the Last Crusade (256 - FmTowns)'	=> array('3','indy3towns','80'),
 		'Loom'							=> array('3','loom','80'),
+		'Loom (256 - FmTowns)'					=> array('3','loomtowns','60'),
 		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','80'),
 		'Passport to Adventure (Indy3, Monkey and Loom demos)'  => array('4','pass','50'),
 		'Loom (256 color CD version)'                           => array('5','loomcd','90'),
@@ -134,15 +135,19 @@ $notes = array(
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
 		   "<br>- Various minor graphical glitches".
                    "<br>- Sounds with partial loops, loop the whole sample instead of just that portion".
-                   "<br>- Kanji version isn't supported",
+                   "<br>- Kanji version isn't yet supported",
 "zak256"        => "Game is completable.".
-                   "<br>- Kanji version isn't supported",
+                   "<br>- Kanji version isn't yet supported",
 "loom"		=> "Game is completable".
 		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
                    "<br>- Various minor graphical glitches".
 		   "<br>- Mac version crashes after copy protection screen".
 		   "<br>- No music or sound effects looping with Amiga version".
 		   "<br>- No music or sound effects with Mac version",
+"loomtowns"	=> "Can't learn f, game may be completable with drafts learn command".
+		   "<br>- Fades are seemingly different to other versions in some cases".
+		   "<br>- Euphony tunes not yet supported so notes won't be heard".
+		   "<br>- Kanji version not yet supported",
 "monkeyega"	=> "Game is completable",
 "pass"		=> "Loom and Monkey Island demos are completable.".
                    "<br>- No subtitles in indy3 demo",
