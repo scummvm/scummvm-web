@@ -78,7 +78,8 @@ $games = array(
 		'Curse of Monkey Island'				=> array('8','curse','5'),
 		'Simon The Sorcerer 1 (Win)'           			=> array('n/a','simon1win','95'),
 		'Simon The Sorcerer 1 (Dos)'           			=> array('n/a','simon1dos','95'),
-		'Simon The Sorcerer 2 (Win)'           			=> array('n/a','simon2win','40')
+		'Simon The Sorcerer 2 (Win)'           			=> array('n/a','simon2win','20'),
+		'Simon The Sorcerer 2 (Dos)'           			=> array('n/a','simon2dos','5')
 	      );
 
 $notes = array(
@@ -119,7 +120,11 @@ $notes = array(
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
 "simon1win" 	=> "No known problems, Game is completable.",
 "simon1dos" 	=> "No known problems, Game is completable.",
-"simon2win"     => "Not well tested, will not run some versions of Simon2"
+"simon2win"     => "Can't advance very far due to movement problems, will not run some versions of Simon2"
+                   "<br>- Part of introduction is skipped.",
+                   "<br>- Movement problems, sometimes can't move left.",
+                   "<br>- Speech needs to be enabled manually",
+                   "<br>- Various minor graphical glitches"
 );
 		
 // render the compatibilty chart
