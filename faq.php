@@ -158,7 +158,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
         <li><p><a name="1-10"></a><b>Can I use ScummVM to make new games?</b><br>
 	While it is theoretically possible to write a new game that uses ScummVM it is not
 	advisable.  ScummVM has many hacks to support older games and no tools geared towards
-	creating content usuable by ScummVM.  Potential game authors are encouraged to look
+	creating content usable by ScummVM.  Potential game authors are encouraged to look
 	at open source technologies such as <a href="http://www.libsdl.org">libSDL</a> for
 	a cross platform DirectX like library, and the <a href="http://www.lua.org">Lua</a>
 	and <a href="http://www.python.org">Python</a> scripting languages for game logic.
