@@ -114,7 +114,7 @@ $notes = array(
 		   "<br>- Classic PC version actor costumes cause random crashes".
 		   "<br>- Classic PC version actor masking and palette is broken".
 		   "<br>- No music or sound effects with Amiga version",
-"zak"		=> "Enhanced PC version runs, with glitches. May be completable".
+"zak"		=> "Enhanced PC version is completable, with several minor glitches".
 		   "Classic version still in progress, results may vary".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
 		   "<br>- Classic PC version actor costumes cause random crashes".
