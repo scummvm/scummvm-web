@@ -1,0 +1,25 @@
+<NAME>Loom and 0.2.0</NAME>
+<DATE>April 04, 2002</DATE>
+<BODY>
+        After some work, the 256 color CD Talkie version of Loom is completable!
+        With this done, we are starting to gear up for a 0.2.0 release. To help
+        us with this, we ask you - our game players - to take the latest Daily
+        Builds and CVS snapshots and play through your favorite games!
+
+        We need to make sure that the following games are completable with no
+        major playability bugs (eg, crashes, freezes, etc - minor issues such
+        as sound syncro do not count):
+
+         - Loom CD
+         - Monkey Island 1 (CD)
+         - Monkey Island 2
+         - Indy 4: Fate of atlantis
+         - Sam and Max
+         - Day of the Tentacle
+
+        Thanks a lot, and we hope everything will work just fine so we can
+        finally get a new release out the door! Also, by popular demand,
+        0.2.0 will include a new 'auto-save' feature to ensure you'll never
+        lose hours of hard work because you forgot to save and suddenly
+        found a bug!
+</BODY>
