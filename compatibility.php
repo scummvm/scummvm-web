@@ -125,33 +125,33 @@ $notes = array(
 		   "<br>- Music loud on some systems, run with -m30 to lower music volume.",
 "playfate"	=> "No known problems - should be playable to the end",
 "puttdemo"	=> "Should be playable to the end".
-		   "<br>- Humongous talkie file format currently unknown".
+		   "<br>- talkie data not synced/properly implemented".
 		   "<br>- Sound format used for sound effects could use more work".
 		   "<br>- Cursor is not placed at the right offset, so some of the hotspots are out a bit",
 "puttputt"	=> "Fails to start after looking for seemingly non existent object (1)".
 		   "<br>- Adding a hack for objects < 17 seems to hack around it, not in CVS though as would prefer a proper fix".
-		   "<br>- Humongous talkie file format currently unknown",
+		   "<br>- talkie data not synced/properly implemented",
 "puttmoon"	=> "Fails an AKOS related assertion shortly after starting".
 		   "<br>- scummvm: scumm/akos.cpp:267: virtual byte AkosRenderer::drawLimb(const CostumeData&, int): Assertion `(code & 0xFFF) * 6 < READ_BE_UINT32((byte *)akof - 4) - 8' failed.".
-		   "<br>- Humongous talkie file format currently unknown",
+		   "<br>- talkie data not synced/properly implemented",
 "moondemo"	=> "Hard to leave the first room due to hotspots being incorrect, some problems include".
 		   "<br>- Error: akos_increaseAnim: invalid code 9a00!".
 		   "<br>- Error: akos_increaseAnim: invalid code d800!".
-		   "<br>- Humongous talkie file format currently unknown",
+		   "<br>- talkie data not synced/properly implemented",
 "funpack"	=> "Start but mini games seem to have various problems and generally not run".
 		   "<br>- Tic-Tac-Toe: Error(5:10:0xA8): Value 196 is out of bounds (0,31) in script 10 (Illegal palet slot 196)".
 		   "<br>- Pinball/Checkers/Remember/Cheese King: Similiar to above but different scripts".
 		   "<br>- Puzzle blocks: Works but colour isn't set properly so game is black and white".
-		   "<br>- Humongous talkie file format currently unknown",
+		   "<br>- talkie data not synced/properly implemented",
 "fbdemo"	=> "Fails shortly after starting on Error: akos_increaseAnim: invalid code 8006!".
-		   "<br>- Humongous talkie file format currently unknown",
+		   "<br>- talkie data not synced/properly implemented",
 "fbear"		=> "Fails during intro with error: akos_increaseAnim: invalid code e400!".
-		   "<br>- Humongous talkie file format currently unknown",
+		   "<br>- talkie data not synced/properly implemented",
 "fbpack"	=> "Game starts but various minigames have different problems".
 		   "<br>- Reversi/Go Fish: o6_actorOps: default case 218".
 		   "<br>- Lines and Boxes: Error(4:203:0x4BFC): Value 88 is out of bounds (0,31) in script 203 (Illegal palet slot 88)".
 		   "<br>- Coloring/Tangrams: Error(6:209:0x40D5): Invalid opcode 'db'".
-		   "<br>- Humongous talkie file format currently unknown",
+		   "<br>- talkie data not synced/properly implemented",
 "tentacle"	=> "No known problems - should be playable to the end".
 		   "<br>- Both disk and cd versions are supported by this target".
 		   "<br>- Maniac Mansion isn't playable on eds computer",
