@@ -63,19 +63,19 @@ $games = array(
 		'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','30'),
 		'LOOM'							=> array('3','loom','0'),
 		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','5'),
-                'LOOM (256 color CD version)'                           => array('5','loomcd','80'),
+                'LOOM (256 color CD version)'                           => array('5','loomcd','90'),
 		'The Secret of Monkey Island (VGA CD)'			=> array('5','monkey','95'),
 		'Monkey Island 2: LeChuck\'s revenge'			=> array('5','monkey2','90'),
-		'Indiana Jones 4 and the Fate of Atlantis'		=> array('5','atlantis','90'),
+		'Indiana Jones 4 and the Fate of Atlantis'		=> array('5','atlantis','95'),
 		'Indiana Jones 4 and the Fate of Atlantis (DEMO)'	=> array('5','playfate','95'),
-		'Day Of The Tentacle'					=> array('6','tentacle','90'),
+		'Day Of The Tentacle'					=> array('6','tentacle','95'),
 		'Day Of The Tentacle (DEMO)'				=> array('6','dottdemo','95'),
-		'Sam & Max'						=> array('6','samnmax','80'),
+		'Sam & Max'						=> array('6','samnmax','90'),
 		'Sam & Max (DEMO)'					=> array('6','samdemo','95'),
-		'Full Thottle'						=> array('7','ft','30'),
-		'The DIG'						=> array('7','dig','30'),
+		'Full Thottle'						=> array('7','ft','40'),
+		'The DIG'						=> array('7','dig','40'),
 		'Curse of Monkey Island'				=> array('8','curse','5'),
-        'Simon The Sorcerer'            => array('n/a','simon1win','95')
+		'Simon The Sorcerer'            			=> array('n/a','simon1win','95')
 	      );
 
 $notes = array(
@@ -85,14 +85,14 @@ $notes = array(
 "zakega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
 "indy3ega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Indy3-256 version",
 "indy3"         => "Game will start, but is not completely playable." .
-                   "<br>- The intro freezes on the LucasArts logo - hit escape to proceed.".
-                   "<br>- Missing SCUMM opcodes cause occasional crashes",
+                   "<br>- Missing/Incorrect SCUMM opcodes cause occasional crashes",
 "zak256"        => "Game will start, but is not completely playable." .
-                   "<br>- Inventory scrolling not implemented, making it impossible to carry more than 4 objects at once",
+                   "<br>- Inventory scrolling not implemented, making it impossible to carry more than 4 objects at once" .
+		   "<br>- Taking Blue Crystal causes game crash", 
 "loom"		=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Loom CD version",
 "monkeyega"	=> "Copy protection screen will show, but game crashes shortly afterwards.<BR>Graphics decoders and SCUMM opcodes not implimented yet.",
 "loomcd"        => "Game is completable." .
-                   "<br>- CD music and voices are out of sync with cutscenes, and sometimes may not play at all.",
+                   "<br>- CD music and voices are not always in perfect sync with cutscenes",
 "monkey"	=> "No known problems - should be playable to the end",
 "monkey2"	=> "No known problems - should be playable to the end",
 "atlantis"	=> "Game is completable.".                        
@@ -101,10 +101,7 @@ $notes = array(
 "tentacle"	=> "No known problems - should be playable to the end",
 "dottdemo"	=> "No known problems - should be playable to the end",
 "samnmax"	=> "Game is completable.".
-		   "<br>- Graphic glitches during intro".
-                   "<br>- Subgames do not work".
-                   "<br>- Torch does not work in the Tunnel Of Love".
-                   "<br>- MIDI music currently broken.",
+                   "<br>- Subgames do not work",
 "samdemo"	=> "No known problems - should be playable to the end",
 "ft"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
 		   "<br>- some palette glitches during movie playback, and missing movie sound".
@@ -112,8 +109,7 @@ $notes = array(
 		   "<br>- not all sounds and animations playing correctly",
 "dig"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
                    "<br>- some palette glitches during movie playback, and missing movie audio".
-                   "<br>- cannot proceed past the fuel tower due to missing vertical scrolling" .
-		   "<br>- not all sounds and animations playing correctly",
+		   "<br>- no sound and not all animations playing correctly",
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
 "simon1win" => "No known problems - should be playable to the end"
 );
