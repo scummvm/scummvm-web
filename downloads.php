@@ -70,7 +70,7 @@ echo html_round_frame_start("Downloads","98%","",20);
  	  <b>0.5.0 Release binaries:</b>
 	</p>
 	<p>For a list of changes since the previous version, <a href="https://sourceforge.net/project/shownotes.php?release_id=175327">read the release notes</a>.</p>
-	<p>0.5.0 should be apt-get'able from Debian Unstable (sid) later in the week. Debian Stable (woody) downloads and a BeOS binary will also be added later in the week</p>
+	<p>0.5.0 should be apt-get'able from Debian Unstable (sid) later in the week. A BeOS binary will also be added later in the week</p>
 
 	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.0-win32.exe?download">Windows Installer</a> <small>(1.0M Win32 .exe)</small></li>
@@ -78,8 +78,8 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.0-macosx.dmg?download">Mac OS X 10.2 Disk Image</a> <small>(672k disk image)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.0-1.i386.rpm?download">RedHat package</a> <small>(596k RPM)</small>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.0-1.src.rpm?download">Source RPM</a> <small>(1.3M RPM)</small>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.5.0-0woody1_i386.deb?download">Debian Stable (woody) Package</a> <small>(630k .deb)</small></li>
 <!--
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.4.1-0woody1_i386.deb?download">Debian Stable (woody) Package</a> <small>(377k .deb)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-beos.pkg?download">BeOS package</a> <small>(2.9M pkg)</small></li>
 -->
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.0-morphos.tgz ?download">MorphOS binary</a> <small>(779k .tar.gz)</small></li>
