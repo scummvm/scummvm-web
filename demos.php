@@ -37,8 +37,8 @@ echo html_round_frame_start("Game Demos","");
 $demos = array(
 	'Maniac Mansion (v1 DOS demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/maniac.rar', 'maniac'),
-	'Maniac Mansion (v2 DOS demo - Non interactive)*'
-		=> array('', 'maniac'),
+	'Maniac Mansion (v2 DOS demo - Non interactive)'
+		=> array('http://quick.mixnmojo.com/demos/mmdemo2.zip', 'maniac'),
 	'Zak McKracken and the Alien Mindbenders (Atari ST - Non interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/zakstdemo.zip', 'zak'),
 	'The Secret of Monkey Island (16 colour demo)'	
