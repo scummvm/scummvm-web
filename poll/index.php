@@ -55,7 +55,7 @@ echo html_round_frame_start("Website Revamp contest poll","");
 
 
 	<p>For technical reasons, the actual poll is hosted at an
-	external location. And somewhat annoyingly, it's ads-driven.
+	external location. And somewhat annoyingly, it's ad-driven.
 	
 	<p>
 	One final note: We do not promise anything regarding the outcome of the poll. In particular, we don't guarantee that 
