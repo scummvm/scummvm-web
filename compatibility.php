@@ -145,7 +145,7 @@ $notes = array(
 		   "<br>- Humongous talkie file format currently unknown",
 "fbdemo"	=> "Fails shortly after starting on Error: akos_increaseAnim: invalid code 8006!".
 		   "<br>- Humongous talkie file format currently unknown",
-"fbear"		=> "Assumed to have some AKOS related issues".
+"fbear"		=> "Fails during intro with error: akos_increaseAnim: invalid code e400!".
 		   "<br>- Humongous talkie file format currently unknown",
 "fbpack"	=> "Game starts but various minigames have different problems".
 		   "<br>- Reversi/Go Fish: o6_actorOps: default case 218".
