@@ -73,6 +73,16 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-1.src.rpm?download">Source RPM</a> <small>(1.1M RPM)</small>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-palmos.zip?download">PalmOS binary</a> <small>(292k zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-solaris8-sparc.tar.gz?download">Solaris 8 (Sparc) binary</a> <small>(2.3M .tar.gz)</small></li>
+	  <hr></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-HandheldPC_ARM.zip?download">HandheldPC ARM binary</a> <small>(463k zipfile)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-HandheldPC_MIPS.zip?download">HandheldPC MIPS binary</a> <small>(531k zipfile)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-HandheldPC_SH3.zip?download">HandheldPC SH3 binary</a> <small>(498k zipfile)</small></li>
+
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-PocketPC_ARM.zip?download">PocketPC ARM binary</a> <small>(447k zipfile)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-PocketPC_MIPS.zip?download">PocketPC MIPS binary</a> <small>(526k zipfile)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-PocketPC_SH3.zip?download">PocketPC SH3 binary</a> <small>(491k zipfile)</small></li>
+
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-Smartphone2002.zip?download">Smartphone 2002 binary</a> <small>(447k zipfile)</small></li>
 	</ul>
 
 
@@ -84,16 +94,6 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.4.0-0.woody.1_i386.deb?download">Debian Stable (woody) Package</a> <small>(369k .deb)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-dreamcast-nero.zip?download">Dreamcast CD-ROM image for Nero</a> <small>(2.5M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-dreamcast-plainfiles.tar.bz2?download">Dreamcast plain files</a> <small>(462 k zipfile)</small></li>
-	  <hr></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-HandheldPC_ARM.zip?download">HandheldPC ARM binary</a> <small>(462k zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-HandheldPC_MIPS.zip?download">HandheldPC MIPS binary</a> <small>(531k zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-HandheldPC_SH3.zip?download">HandheldPC SH3 binary</a> <small>(497k zipfile)</small></li>
-
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-PocketPC_ARM.zip?download">PocketPC ARM binary</a> <small>(447k zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-PocketPC_MIPS.zip?download">PocketPC MIPS binary</a> <small>(524k zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-PocketPC_SH3.zip?download">PocketPC SH3 binary</a> <small>(490k zipfile)</small></li>
-
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-Smartphone2002.zip?download">Smartphone 2002 binary</a> <small>(490k zipfile)</small></li>
 	</ul>
 
 	<p>
