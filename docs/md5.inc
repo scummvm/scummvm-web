@@ -6,6 +6,7 @@
 		<?php addEntry("V2", "DOS", "en", "624cdb93654667c869d204a64af7e57f", "maniac", "Kirben"); ?>
 		<?php addEntry("V2", "DOS", "en", "b250d0f9cc83f80ced56fe11a4fb057c", "maniac"); ?>
 		<?php addEntry("V2", "DOS", "de", "183d7464902d40d00800e8ee1f04117c", "maniac"); ?>
+		<?php addEntry("V2", "DOS", "es", "0d1b69471605201ef2fa9cec1f5f02d2", "maniac", "abnog"); ?>
 		<?php addEntry("V2", "DOS", "fr", "114acdc2659a273c220f86ee9edb24c1", "maniac", "Nicolas Sauz&egrave;de"); ?>
 		<?php addEntry("V2 (DOTT)", "DOS", "fr", "99a3699f80b8f776efae592b44b9b991", "maniac", "Nicolas Sauz&egrave;de"); ?>
 		<?php addEntry("V2", "Amiga", "en", "e781230da44a44e2f0770edb2b3b3633", "maniac", "dhewg"); ?>
@@ -27,6 +28,7 @@
 		<?php addEntry("EGA", "DOS", "de", "6f6ef668c608c7f534fea6e6d3878dde", "indy3EGA", "dhewg"); ?>
 		<?php addEntry("EGA", "Amiga", "en", "9c0fee288ad564a7d25ec3e841810d79", "indy3EGA", "dhewg"); ?>
 		<?php addEntry("EGA", "Amiga", "de", "330f631502e381a4e199a3f7cb483c20", "indy3EGA", "dhewg"); ?>
+		<?php addEntry("EGA", "DOS", "es", "ce7fd0c382389a6791fc3e199c117ef4 ", "indy3EGA", "abnog"); ?>
 		<?php addEntry("EGA Demo", "DOS", "en", "b597e0403cc0002f69170e6caba7edd9", "indy3EGA"); ?>
 		<?php addEntry("VGA", "DOS", "en", "1875b90fade138c9253a8e967007031a", "indy3"); ?>
 		<?php addEntry("VGA", "DOS", "de", "399b217b0c8d65d0398076da486363a9", "indy3"); ?>
@@ -39,6 +41,7 @@
 		<?php addEntry("Floppy", "DOS", "en", "28ef68ee3ed76d7e2ee8ee13c15fbd5b", "loom"); ?>
 		<?php addEntry("Floppy", "DOS", "en", "37f56ceb13e401a7ac7d9e6b37fecaf7", "loom", "Kirben"); ?>
 		<?php addEntry("Floppy", "DOS", "de", "fa127d7c4bb47d05bb1c33ddcaa9f767", "loom"); ?>
+		<?php addEntry("Floppy", "DOS", "es", "2a208ffbcd0e83e86f4356e6f64aa6e1", "loom", "abnog"); ?>
 		<?php addEntry("Floppy", "Amiga", "en", "4dc780f1bc587a193ce8a97652791438", "loom", "Antti Leimi"); ?>
 		<?php addEntry("Talkie/CD", "DOS", "en", "5d88b9d6a88e6f8e90cded9d01b7f082", "loomcd"); ?>
 		<?php addEntry("FmTowns", "FmTowns", "en", "c5d10e190d4b4d59114b824f2fdbd00e", "loomTowns", "dhewg"); ?>
@@ -79,6 +82,7 @@
 		<?php addEntry("Demo (non-interactive)", "DOS", "en", "387a544b8b10b26912d8413bab63a853", "monkey2", "khalek"); ?>
 	<tr><td colspan='7'><strong>Indiana Jones 4 and the Fate of Atlantis</strong></td></tr>
 		<?php addEntry("Talkie", "DOS", "en", "182344899c2e2998fca0bebcd82aa81a", "atlantis"); ?>
+		<?php addEntry("Non-Talkie", "DOS", "es", "9bd2a8f72613e715c199246dd511e10f", "atlantis", "abnog"); ?>
 		<?php addEntry("Non-Talkie", "Mac", "en", "d6dd0646404768a63e963891a96daadd", "atlantis"); ?>
 		<?php addEntry("Non-Talkie", "DOS", "de", "1fbebd7b2b692df5297870447a80cfed", "atlantis"); ?>
 		<?php addEntry("Non-Talkie", "DOS", "fr", "edfdb24a499d92c59f824c52987c0eec", "atlantis", "Nicolas Sauz&egrave;de"); ?>
@@ -91,6 +95,7 @@
 		<?php addEntry("Floppy Version A ?", "All?", "en", "acad97ab1c6fc2a5b2d98abf6db4a190", "tentacle"); ?>
 		<?php addEntry("Floppy Version B ?", "DOS", "en", "2723fea3dae0cb47768c424b145ae0e7", "tentacle", "Andrej Sinicyn"); ?>
 		<?php addEntry("Floppy", "DOS", "de", "57b0d89af79befe1cabce3bece869e7f", "tentacle", "Andrej Sinicyn"); ?>
+		<?php addEntry("Floppy", "DOS", "es", "ae94f110a14ce71fc515d5b648827a8f", "tentacle", "abnog"); ?>
 		<?php addEntry("Talkie", "All?", "en", "4167a92a1d46baa4f4127d918d561f88", "tentacle"); ?>
 		<?php addEntry("Talkie", "All?", "de", "6e959d65358eedf9b68b81e304b97fa4", "tentacle"); ?>
 		<?php addEntry("Talkie", "All?", "fr", "92b078d9d6d9d751da9c26b8b3075779", "tentacle", "Nicolas Sauz&egrave;de"); ?>
