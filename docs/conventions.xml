@@ -65,6 +65,18 @@
 	class BusWheel : public RubberInflatable {
 	(isNight) ? colorMeDark() : colorMeBright();
 				</pre>
+
+			<li><h3>Indentation level is not increased after namespace clause</h3>
+				<pre>
+	namespase Scumm {
+
+	byte Actor::kInvalidBox = 0;
+
+	void Actor::initActorClass(ScummEngine *scumm) {
+		_vm = scumm;
+	}
+
+				</pre>
 		</ol>
 
 		<h2>5. Switch / Case constructs</h2>
