@@ -34,6 +34,8 @@
 	<li>Add Zak McKracken (non-FmTowns) support</li>
 	<li>Complete LoomEga support</li>
 	<li>Complete Indy3Ega support</li>
+	<li>Complete support for Humongous Entertainment scumm games (he v6/v7)</li>
+	<li>Complete support for Beneath a Steel Sky</li>
 	</ul>
 
 	<h3>General</h3>
@@ -62,6 +64,7 @@
 		<li><h4>The DIG</h4>
 		<ul>
 			<li>Some in-game music and sound issues</li>
+			<li>Actor voice files not supported in demo</li>
 			<li><i>Ask: Ender</i></li>
 		</ul>
 		<li><h4>Monkey1EGA</h4>
@@ -83,6 +86,7 @@
 		<li><h4>Full Throttle</h4>
 		<ul>
 			<li>INSANE supported required</li>
+			<li>Demo has various issues that need to be looked at<li>
 			<li><i>Ask: Ender, aquadran</i></li>
 		</ul>
 		<li><h4>Indiana Jones and The Last Crusade EGA</h4>
@@ -100,6 +104,7 @@
 		<li><h4>Loom EGA</h4>
 		<ul>
 			<li>Add music and sound effects support</li>
+			<li>Drafts are not randomised and always seem to be cccc</li>
 		</ul>
 		<li><h4>Passport to Adventure</h4>
 		<ul>
@@ -117,6 +122,15 @@
 			<li>Add proper music support for Simon the Sorcerer 2</li>
 			<li>Check <a href="http://members.optusnet.com.au/wormmon/simon.html">Simon issues</a> for list of other bugs</li>
 			<li><i>Ask: olki, Kirben</i></li>
+		</ul>
+		<ul><h4>Humongous Games</h4>
+			<li>Support HE v7 indexfile blocks like DIRI etc</li>
+			<li>Add implementation for file related opcode stubs</li>
+			<li>Figure out remaining scale/akos differences</li>
+			<li>Track down more differences from lec scumm</li>
+			<li>Add code to playback XMI midi music</li>
+			<li>Radgametools video support possibly needed for newer games?</li>
+			<li><i>Ask: khalek</i></li>
 		</ul>
 	</ul>
 </BODY>
