@@ -63,6 +63,7 @@ Help here is welcome -- if you want, feel free to fill in some of the gaps and
 <li><a href="#samnmax">Sam &amp; Max</a></li>
 <li><a href="#tentacle">Day Of The Tentacle</a></li>
 <li><a href="#ft">Full Throttle</a></li>
+<li><a href="#digDemo">The Dig Demo</a></li>
 <li><a href="#sword1">Broken Sword I</a></li>
 <!-- <li><a href="#TARGET">FOO</a></li> -->
 </ul>
@@ -697,6 +698,7 @@ and cause the game to start in that room.
 <tr><td>1004</td><td>Start of epilogue sequence</td></tr>
 </table>
 
+
 <br><a name="ft"></a>
 <h2>Full Throttle</h2>
 
@@ -765,6 +767,19 @@ and cause the game to start in that room.
 <tr><td>930</td><td>Finale: In the cargo plane</td></tr>
 <tr><td>940</td><td>Finale: Kill Ripburger!</td></tr>
 <tr><td>950</td><td>Finale: Finale</td></tr>
+</table>
+
+
+<br><a name="digDemo"></a>
+<h2>The Dig Demo</h2>
+
+<p>The following table was contributed by Ben Gorman. Thanks, Ben!</p>
+
+<table border="1" cellspacing="0" cellpadding="2">
+<tr><th>Param</th><th>Description</th></tr>
+<tr><td>300</td><td>Skip intro movies</td></tr>
+<tr><td>305</td><td>Outside wrecked alien ship</td></tr>
+<tr><td>310</td><td>Canyon</td></tr>
 </table>
 
 
