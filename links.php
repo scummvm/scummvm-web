@@ -61,6 +61,8 @@ echo html_round_frame_start("Links","98%","",20);
 	</table>
 	</blockquote>
 	
+	<!-- -->
+
 	<b>Unofficial ports</b><? echo html_line(); ?>
 	<p>There are a few unofficial ports of ScummVM floating around. Usually we prefer to merge any ports into our official
 	CVS, but for the following this has not (yet) happend for various reasons. Note that the ScummVM team does not endorse
@@ -73,6 +75,42 @@ echo html_round_frame_start("Links","98%","",20);
 	  <tr>
 	    <td><blockquote>
 	    Not to be confused with our MorphOS port, this port runs on the "classic" AmigaOS 3.1.
+	    </blockquote></td>
+	  </tr>
+
+	</table>
+	</blockquote>
+
+	<!-- -->
+
+	<b>Libraries &amp; Technologies</b><? echo html_line(); ?>
+	<p>The following lists some libraries and technologies ScummVM makes use of
+	(depending on which system your run it and which configuration is chosen).</p>
+
+	<blockquote>
+	<table border=0 cellpadding=5 cellspacing=0>
+
+	  <tr><td><a href="http://www.libsdl.org/"><b>SDL</b></a></td></tr>
+	  <tr>
+	    <td><blockquote>
+	    SDL (Simple DirectMedia Layer) is a cross-platform multimedia library, and used by
+	    the primary backend of ScummVM.
+	    </blockquote></td>
+	  </tr>
+
+	  <tr><td><a href="http://www.underbit.com/products/mad/"><b>MAD</b></a></td></tr>
+	  <tr>
+	    <td><blockquote>
+	    MAD is a high-quality MPEG (MP3) audio decoder.
+	    ScummVM optionally supports playback of CD tracks etc. encoded using MP3.
+	    </blockquote></td>
+	  </tr>
+
+	  <tr><td><a href="http://www.xiph.org/ogg/vorbis/"><b>Ogg Vorbis</b></a></td></tr>
+	  <tr>
+	    <td><blockquote>
+	    Ogg Vorbis is a fully open, non-proprietary, patent-and-royalty-free, general-purpose compressed audio format.
+	    ScummVM optionally supports playback of CD tracks etc. encoded using Ogg Vorbis.
 	    </blockquote></td>
 	  </tr>
 
