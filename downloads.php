@@ -59,7 +59,8 @@ echo html_round_frame_start("Download ScummVM","");
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-macosx.dmg?download">Mac OS X (10.2 + 10.3) Disk Image</a> <small>(1.5M disk image)</small></li>
 
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-1.i386.rpm?download">RedHat package</a> <small>(1.2M RPM)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-1_FC3.i386.rpm?download">Fedora Core 3 package</a> <small>(1.0M RPM)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-1.i386.rpm?download">Fedora Core 1 and 2 package</a> <small>(1.2M RPM)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.6.1b-0woody1_i386.deb?download">Debian Stable (woody) package</a> <small>(1.1M .deb)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-solaris8-sparc.tar.bz2?download">Solaris 8 (Sparc) binary</a> <small>(1.0M .tar.bz2)</small></li>
