@@ -89,6 +89,12 @@ function addLinkEntry($name, $url, $desc) {
 				patent-and-royalty-free, general-purpose compressed audio
 				format. ScummVM optionally supports playback of CD tracks and
 				other audio data encoded using Ogg Vorbis.');
+			addLinkEntry('FLAC', 'http://flac.sourceforge.net/',
+				'FLAC stands for Free Lossless Audio Codec. Grossly
+				oversimplified, FLAC is similar to MP3, but lossless, meaning
+				that audio is compressed in FLAC without any loss in quality.
+				ScummVM optionally supports playback of CD tracks and other
+				audio data encoded using FLAC.');
 			addLinkEntry('libmpeg2', 'http://libmpeg2.sourceforge.net/',
 				'libmpeg2 is a free library for decoding mpeg-2 and mpeg-1
 				video streams. ScummVM optionally supports playback of

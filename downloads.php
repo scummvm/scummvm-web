@@ -177,7 +177,8 @@ hosted by <a href="http://www.mthN.de">Snoke Media and Tech Hosting Network</a>!
 	<h3>Optional Libraries:</h3>
 	<ul>
 	  <li><a href="http://www.underbit.com/products/mad/">MAD</a>: MPEG Audio Decoder</li>
-	  <li><a href="http://www.vorbis.com/">Ogg Vorbis</a></li>
+	  <li><a href="http://www.xiph.org/ogg/vorbis/">Ogg Vorbis</a></li>
+	  <li><a href="http://flac.sourceforge.net/">FLAC</a></li>
 	  <li><a href="http://libmpeg2.sourceforge.net/">libmpeg2</a>: a free MPEG-2 video stream decoder</li>
 	</ul>
 <?
