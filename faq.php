@@ -115,12 +115,13 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
       <li><p><a name="1-5"></a><b>Will ScummVM support other games?</b><br>
 	The ScummVM team is working to make newer SCUMM games, such as "Full Throttle" playable<br>
 	We are also working to correct make the currently supported games more accurate, and are adding support (over time) for Broken Sword 1 and 2, by Revolution.<br>
-	However we do <i>NOT</i> generally add support for non-SCUMM games! As Revolution
-	Software Ltd are really nice people, they have provided us with source code for their
-	games... so we are more than happy to add support for these classic adventures. But
-	reverse engineering a completely new game without source is a long process, and our
-	developers are all very busy as it is.
-</p></li>
+	As Revolution Software Ltd are really nice people, and have provided us with source code
+	for their games, so we are more than happy to add support for these classic adventures.<BR><BR>
+	However we do <i>NOT</i> generally add support for non-SCUMM games! 
+	Reverse engineering a completely new game without source is a long process, and our
+	developers are all very busy as it is... so unless you work for a company intrested
+	in providing us with source code for one of your classic titles, please do not ask.
+      </p></li>
 
       <li><p><a name="1-6"></a><b>Where do I find ScummVM?</b><br>
 	You can find it on the download section on our homepage, <a href="http://www.scummvm.org">
@@ -149,7 +150,10 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	source code to BASS, on which we based our interpreter. We are currently working
 	on support for Broken Sword 1 and 2, again thanks to Revolutions kind support.<BR>
 	We do not have any plans to support any other non-SCUMM games at this time. If we
-	do, it will be added to the <a href="compatibility.php">Compatibility List</a>.</p></li>
+	do, it will be added to the <a href="compatibility.php">Compatibility List</a>.<BR><BR>
+	Unless you work for a company intrested providing us with source code for one of your
+	classic titles, please do not ask us to support game XXX.
+	</p></li>
 	
     </ol>
   </li>
