@@ -37,7 +37,6 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  You can also get the latest development source and binaries from the <a href="http://scummvm.sourceforge.net/daily/">CVS Daily Snapshot</a>
 	  page. To quickly get the binary executable from that page, download the .gz from the column of the OS you use. Then
 	  simply rename the file to it&#146;s executable form.<br>
-	  For example on Win32: rename scummvm-20020122_stripped.gz scummvm.exe<br><br>
 
 	  View the <a href="/daily/ChangeLog">ChangeLog</a> to see the latest updates of ScummVM
 	</p>
@@ -53,7 +52,7 @@ echo html_round_frame_start("Downloads","98%","",20);
  	  <b>0.1.0 Release binaries:</b>
 	  <ul>
 	    <li><a href="http://scummvm.sourceforge.net/downloads/scummvm-0.1.0-win32.zip">Win32 Official 0.1.0 Build</a> <small>(478K zip file) </small></li>
-	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.1.0-win32.exe">Win32 0.1.0 GDI Build</a> <small>(240K exe file) </small></li>
+	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.1.0-win32.exe">Win32 0.1.0 SDL Build</a> <small>(240K exe file) </small></li>
 	    <li><a href="http://www.doc.ic.ac.uk/~mbt99/dcdev/">Dreamcast</a> port by Mark Thomas.</li>
 	    <li>more builds (e.g. MacOS) coming soon....</li>
 	  </ul>
@@ -77,7 +76,6 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  <b>Optional Libraries:</b>
 	  <ul>
 	    <li><a href="http://www.mars.org/home/rob/proj/mpeg/">MAD</a>: MPEG Audio Decoder</li>
-	    <li><a href="http://sources.redhat.com/cygwin/">Cygwin DLL</a> (Needed for Win32 Daily Builds Only)</li>
 	  </ul>
 	</p>		
 		
