@@ -44,7 +44,7 @@
 <tr><td>Nicolas Noble</td><td>[&nbsp;pixels&nbsp;]</td><td>Config file and ALSA support</td>
 <tr><td>Willem Jan Palenstijn</td><td>[&nbsp;wjp&nbsp;]</td><td>Packaging for Fedora/RedHat</td>
 <tr><td>???</td><td>[&nbsp;Quietust&nbsp;]</td><td>Sound support for Amiga SCUMM V2/V3 games</td>
-<tr><td>Andreas Roever</td><td></td><td>Broken Sword 1/2 MPEG2 cutscene support</td>
+<tr><td>Andreas R&ouml;ver</td><td></td><td>Broken Sword 1/2 MPEG2 cutscene support</td>
 <tr><td>Edward Rudd</td><td></td><td>Fixes for playing MP3 versions of MI1/Loom audio</td>
 <tr><td>Daniel Schepler</td><td></td><td>Final MI1 CD music support, initial Ogg Vorbis support</td>
 <tr><td>Andr&eacute; Souza</td><td></td><td>SDL-based OpenGL renderer</td>
