@@ -90,7 +90,11 @@ $demos = array(
 	'Beneath A Steel Sky (FREEWARE FULL GAME - Talkie CD)'
 		=> array('http://prdownloads.sourceforge.net/scummvm/BASS-CD.zip?download', 'sky'),
 	'Broken Sword II'
-		=> array('http://ftp.se.kde.org/pub/pc/games/pcgameworld/demos/bs2-demo.zip', 'sword2demo')
+		=> array('http://ftp.se.kde.org/pub/pc/games/pcgameworld/demos/bs2-demo.zip', 'sword2demo'),
+	'Flight of the Amazon Queen'
+		=> array('http://0x.7fc1.org/fotaq/fotaq_demo.zip', 'queencomp'),
+	'Flight of the Amazon Queen (PCGAMES)'
+		=> array('http://0x.7fc1.org/fotaq/fotaq_demo_pcgames.zip', 'queencomp')
 	);
 
 // render the demo list
