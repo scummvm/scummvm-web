@@ -20,133 +20,133 @@ echo html_round_frame_start("V5 opcode list","98%","",20);
 
 <p>The following conventions are used in the encoding descriptions.
 
-<p><DL CLASS=tablelike>
-<DT><tt>opcode</tt>
-<DD>
+<p><dl class=tablelike>
+<dt><tt>opcode</tt>
+<dd>
 The instruction's opcode, with the appropriate bits set according to the
 parameters.
 
-<DT><tt>result</tt>
-<DD>
+<dt><tt>result</tt>
+<dd>
 A result pointer. (A standard word pointer, always a LE word.)
 
-<DT><tt>value[8]</tt>
-<DD>
+<dt><tt>value[8]</tt>
+<dd>
 An 8-bit constant (a byte).
 
-<DT><tt>value[16]</tt>
+<dt><tt>value[16]</tt>
 <dd>A 16-bit constant (a word LE).
 
-<DT><tt>value[p8]</tt>
-<DD>An 8-bit parameter. This may be encoded as a word
+<dt><tt>value[p8]</tt>
+<dd>An 8-bit parameter. This may be encoded as a word
 LE if it's a pointer, or a byte if it's a constant.
 
-<DT><tt>value[p16]</tt>
-<DD>A 16-bit parameter. This is always encoded as
+<dt><tt>value[p16]</tt>
+<dd>A 16-bit parameter. This is always encoded as
 a word LE.
 
-<DT><tt>value[v16]</tt>
-<DD>A variable number of word LE parameters. These are encoded as a sequence of
-<tt>aux[8] param[p16]</tt>; <I>param</I>; <I>aux</I> contains the parameter bit
-to describe <I>param</I>. A byte of $FF terminates the sequence.
+<dt><tt>value[v16]</tt>
+<dd>A variable number of word LE parameters. These are encoded as a sequence of
+<tt>aux[8] param[p16]</tt>; <i>param</i>; <i>aux</i> contains the parameter bit
+to describe <i>param</i>. A byte of $FF terminates the sequence.
 
-<DT><tt>value[o]</tt>
-<DD>The offset word for parameter <I>value</I>. This
+<dt><tt>value[o]</tt>
+<dd>The offset word for parameter <i>value</i>. This
 is only encoded if needed, but always at the position indicated. If
 not specified, the offset word occurs immediately after the parameter.
 
-<DT><tt>(term)</tt>
-<DD>An optional term.
-</DL>
+<dt><tt>(term)</tt>
+<dd>An optional term.
+</dl>
 
-<!-- actorFollowCamera ---------------------------------------------------- -->
+<!-- actorFollowCamera -->
 
 <div class=opcode>
-<h2>actorFollowCamera
-<h3>$52
+<h2>actorFollowCamera</h2>
+<h3>$52</h3>
 </div>
 
-<!-- actorFromPos --------------------------------------------------------- -->
+<!-- actorFromPos -->
 
 <div class=opcode>
-<h2>actorFromPos
-<h3>$15
+<h2>actorFromPos</h2>
+<h3>$15</h3>
 </div>
 
-<!-- actorFollowCamera ---------------------------------------------------- -->
+<!-- actorFollowCamera -->
 
 <div class=opcode>
-<h2>actorFollowCamera
-<h3>$52
+<h2>actorFollowCamera</h2>
+<h3>$52</h3>
 </div>
 
-<!-- actorFromPos --------------------------------------------------------- -->
+<!-- actorFromPos -->
 
 <div class=opcode>
-<h2>actorFromPos
-<h3>$15
+<h2>actorFromPos</h2>
+<h3>$15</h3>
 </div>
 
-<!-- actorSet ------------------------------------------------------------- -->
+<!-- actorSet -->
 
 <div class=opcode>
-<h2>actorSet
-<h3>$13
+<h2>actorSet</h2>
+<h3>$13</h3>
 </div>
 
-<!-- actorSetClass -------------------------------------------------------- -->
+<!-- actorSetClass -->
 
 <div class=opcode>
-<h2>actorSetClass
-<h3>$5D
+<h2>actorSetClass</h2>
+<h3>$5D</h3>
 </div>
 
-<!-- add ------------------------------------------------------------------ -->
+<!-- add -->
 
 <div class=opcode>
-<h2>add
-<h3>$5A; one parameter, uses result
+<h2>add</h2>
+<h3>$5A; one parameter, uses result</h3>
 <h4>Encoding</h4>
-<h5>opcode result value[p16]
+<h5>opcode result value[p16]</h5>
 <h4>Operation</h4>
 <p class=operation><i>result</i> := <i>result</i> + <i>value</i>
 <p>
-The variable pointed to by <I>result</I> is read, <I>value</I> is
+The variable pointed to by <i>result</i> is read, <i>value</i> is
 added to it, and the result written back.
 </div>
 
-<!-- and ------------------------------------------------------------------ -->
+<!-- and -->
 
 <div class=opcode>
-<h2>and
-<h3>$17; one parameter, uses result
+<h2>and</h2>
+<h3>$17; one parameter, uses result</h3>
 <h4>Encoding</h4>
-<h5>opcode result value[p16]
+<h5>opcode result value[p16]</h5>
 <h4>Operation</h4>
 <p class=operation><i>result</i> := <i>result</i> and <i>value</i>
 <p>
-The variable pointed to by <I>result</I> is read, logically ANDed with
-<I>value</I>, and the result written back.
+The variable pointed to by <i>result</i> is read, logically ANDed with
+<i>value</i>, and the result written back.
 </div>
 
-<!-- animateActor --------------------------------------------------------- -->
+<!-- animateActor -->
 
 <div class=opcode>
-<h2>animateActor
-<h3>$11
+<h2>animateActor</h2>
+<h3>$11</h3>
 </div>
 
-<!-- arrayOp -------------------------------------------------------------- -->
+<!-- arrayOp -->
 
 <div class=opcode>
-<h2>arrayOp
-<h3>$27; parameters depend on auxiliary opcode
+<h2>arrayOp</h2>
+<h3>$27; parameters depend on auxiliary opcode</h3>
 <h4>Encoding</h4>
-<h5>opcode $01 array[p8]
-<h5>opcode $02 dest[p8] src[p8]
-<h5>opcode $03 array[p8] index[p8] data[p8]
-<h5>opcode $04 result array[p8] index[p8]
-<h5>opcode $05 array[p8] size[p8]
+<h5>opcode $01 array[p8]</h5>
+<h5>opcode $02 dest[p8] src[p8]</h5>
+<h5>opcode $03 array[p8] index[p8] data[p8]</h5>
+<h5>opcode $04 result array[p8] index[p8]</h5>
+<h5>opcode $05 array[p8] size[p8]</h5>
 <h4>Operation</h4>
 <p>Miscellaneous actions on Arrays (referred to by resource number).
 <p><table class=list>
@@ -183,7 +183,7 @@ of bounds accesses cause undefined behaviour.
 <td>read entry</td>
 <td class=l>
 Sets <i>result</i> to the byte of data at offset <i>index</i> of Array
-<i>array<i>. Out of bounds accesses cause undefined behaviour.
+<i>array</i>. Out of bounds accesses cause undefined behaviour.
 </td></tr>
 
 <tr><td>$05</td>
@@ -194,121 +194,121 @@ Allocates or frees an Array. The Array <i>array</i> is initialised to size <i>si
 </table>
 </div>
 
-<!-- breakHere ------------------------------------------------------------ -->
+<!-- breakHere -->
 
 <div class=opcode>
-<h2>breakHere
-<h3>$80; no parameters
+<h2>breakHere</h2>
+<h3>$80; no parameters</h3>
 <h4>Encoding</h4>
-<h5>opcode
+<h5>opcode</h5>
 <h4>Operation</h4>
 Deschedules the currently running thread. Execution continues at the next
 instruction when the thread's next timeslot comes around.
 </div>
 
-<!-- chainScript ---------------------------------------------------------- -->
+<!-- chainScript -->
 
 <div class=opcode>
-<h2>chainScript
-<h3>$42; one parameter plus varargs
+<h2>chainScript</h2>
+<h3>$42; one parameter plus varargs</h3>
 <h4>Encoding</h4>
-<h5>opcode script[p8] args[v16]...
+<h5>opcode script[p8] args[v16]...</h5>
 <h4>Operation</h4>
 Replaces the currently running script with another one. The current script is
-terminated immediately and the new script, resource number <I>script</I>, is
+terminated immediately and the new script, resource number <i>script</i>, is
 executed in the same thread. The new script has its local variables initialised
-to the list <I>args</I>. Uninitialised variables have undefined values.
+to the list <i>args</i>. Uninitialised variables have undefined values.
 </div>
 
-<!-- cursorCommand -------------------------------------------------------- -->
+<!-- cursorCommand -->
 
 <div class=opcode>
-<h2>cursorCommand
-<h3>$2C
+<h2>cursorCommand</h2>
+<h3>$2C</h3>
 </div>
 
-<!-- cutScene ------------------------------------------------------------- -->
+<!-- cutScene -->
 
 <div class=opcode>
-<h2>cutScene
-<h3>$40
+<h2>cutScene</h2>
+<h3>$40</h3>
 </div>
 
-<!-- debug ---------------------------------------------------------------- -->
+<!-- debug -->
 
 <div class=opcode>
-<h2>debug
-<h3>$6B; one parameter, no result
+<h2>debug</h2>
+<h3>$6B; one parameter, no result</h3>
 <h4>Encoding</h4>
-<h5>opcode param[p16]
+<h5>opcode param[p16]</h5>
 <h4>Operation</h4>
 Passes the parameter to the interpreter's debugger. What this does is entirely
 platform-specific (and may do nothing).
 </div>
 
-<!-- decrement ------------------------------------------------------------ -->
+<!-- decrement -->
 
 <div class=opcode>
-<h2>decrement
-<h3>$C6; no parameters, uses result
+<h2>decrement</h2>
+<h3>$C6; no parameters, uses result</h3>
 <h4>Encoding</h4>
-<h5>opcode result
+<h5>opcode result</h5>
 <h4>Operation</h4>
 <p><i>result</i> := <i>result</i> - 1
 <p>Reads the variable pointed to by <i>result</i>, decrements it, and writes it back.
 </div>
 
-<!-- delay ---------------------------------------------------------------- -->
+<!-- delay -->
 
 <div class=opcode>
-<h2>delay
-<h3>$2E; one constant parameter
+<h2>delay</h2>
+<h3>$2E; one constant parameter</h3>
 <h4>Encoding</h4>
-<h5>opcode param[24]
+<h5>opcode param[24]</h5>
 <h4>Operation</h4>
 <p>Suspends the current thread for the appropriate number of 1/60ths of a second. Yes, that really is a 24-bit LE constant.
 </div>
 
-<!-- delayVariable -------------------------------------------------------- -->
+<!-- delayVariable -->
 
 <div class=opcode>
-<h2>delayVariable
-<h3>$2E; one constant parameter
+<h2>delayVariable</h2>
+<h3>$2E; one constant parameter</h3>
 <h4>Encoding</h4>
-<h5>opcode pointer[16]
+<h5>opcode pointer[16]</h5>
 <h4>Operation</h4>
 <p><i>pointer</i> is dereferenced and the current thread suspended for that number of 1/60ths of a second. Note that <i>pointer</i> is an inline constant, not a parameter.
 </div>
 
-<!-- divide --------------------------------------------------------------- -->
+<!-- divide -->
 
 <div class=opcode>
-<h2>divide
-<h3>$5B; one parameter, uses result
+<h2>divide</h2>
+<h3>$5B; one parameter, uses result</h3>
 <h4>Encoding</h4>
-<h5>opcode result value[p16]
+<h5>opcode result value[p16]</h5>
 <h4>Operation</h4>
 <p class=operation><i>result</i> := <i>result</i> / <i>value</i>
 <p>
-The variable pointed to by <I>result</I> is read, divided by <I>value</I>, and
+The variable pointed to by <i>result</i> is read, divided by <i>value</i>, and
 the result written back. If <i>value</i> is zero, the result is undefined (and
 the interpeter may halt with an error).
 </div>
 
-<!-- doSentence ----------------------------------------------------------- -->
+<!-- doSentence -->
 
 <div class=opcode>
-<h2>doSentence
-<h3>$19
+<h2>doSentence</h2>
+<h3>$19</h3>
 </div>
 
-<!-- drawBox -------------------------------------------------------------- -->
+<!-- drawBox -->
 
 <div class=opcode>
-<h2>drawBox
-<h3>$3F; two parameters, does not use result, supplementary opcode byte with three more subsequent parameters
+<h2>drawBox</h2>
+<h3>$3F; two parameters, does not use result, supplementary opcode byte with three more subsequent parameters</h3>
 <h4>Encoding</h4>
-<h5>opcode left[p16] top[p16] auxopcode[8] right[p16] bottom[p16] colour[p8]
+<h5>opcode left[p16] top[p16] auxopcode[8] right[p16] bottom[p16] colour[p8]</h5>
 <h4>Operation</h4>
 <p>Draws a solid box on the backbuffer from (<i>left</i>,
 <i>top</i>)-(<i>right</i>, <i>bottom</i>) in the colour <i>colour</i>.
@@ -317,277 +317,277 @@ the interpeter may halt with an error).
 The rest of the opcode is ignored.
 </div>
 
-<!-- drawObject ----------------------------------------------------------- -->
+<!-- drawObject -->
 
 <div class=opcode>
-<h2>drawObject
-<h3>$05
+<h2>drawObject</h2>
+<h3>$05</h3>
 </div>
 
-<!-- dummy ---------------------------------------------------------------- -->
+<!-- dummy -->
 
 <div class=opcode>
-<h2>dummy
-<h3>$67
+<h2>dummy</h2>
+<h3>$67</h3>
 </div>
 
-<!-- endCutScene ---------------------------------------------------------- -->
+<!-- endCutScene -->
 
 <div class=opcode>
-<h2>endCutScene
-<h3>$C0
+<h2>endCutScene</h2>
+<h3>$C0</h3>
 </div>
 
-<!-- equalZero ------------------------------------------------------------ -->
+<!-- equalZero -->
 
 <div class=opcode>
-<h2>equalZero
-<h3>$28
+<h2>equalZero</h2>
+<h3>$28</h3>
 </div>
 
-<!-- expression ----------------------------------------------------------- -->
+<!-- expression -->
 
 <div class=opcode>
-<h2>expression
-<h3>$AC
+<h2>expression</h2>
+<h3>$AC</h3>
 </div>
 
-<!-- faceActor ------------------------------------------------------------ -->
+<!-- faceActor -->
 
 <div class=opcode>
-<h2>faceActor
-<h3>$09
+<h2>faceActor</h2>
+<h3>$09</h3>
 </div>
 
-<!-- findInventory -------------------------------------------------------- -->
+<!-- findInventory -->
 
 <div class=opcode>
-<h2>findInventory
-<h3>$3D
+<h2>findInventory</h2>
+<h3>$3D</h3>
 </div>
 
-<!-- findObject ----------------------------------------------------------- -->
+<!-- findObject -->
 
 <div class=opcode>
-<h2>findObject
-<h3>$35
+<h2>findObject</h2>
+<h3>$35</h3>
 </div>
 
-<!-- freezeScripts -------------------------------------------------------- -->
+<!-- freezeScripts -->
 
 <div class=opcode>
-<h2>freezeScripts
-<h3>$60
+<h2>freezeScripts</h2>
+<h3>$60</h3>
 </div>
 
-<!-- getActorCostume ------------------------------------------------------ -->
+<!-- getActorCostume -->
 
 <div class=opcode>
-<h2>getActorCostume
-<h3>$71
+<h2>getActorCostume</h2>
+<h3>$71</h3>
 </div>
 
-<!-- getActorElevation ---------------------------------------------------- -->
+<!-- getActorElevation -->
 
 <div class=opcode>
-<h2>getActorElevation
-<h3>$06
+<h2>getActorElevation</h2>
+<h3>$06</h3>
 </div>
 
-<!-- getActorFacing ------------------------------------------------------- -->
+<!-- getActorFacing -->
 
 <div class=opcode>
-<h2>getActorFacing
-<h3>$63
+<h2>getActorFacing</h2>
+<h3>$63</h3>
 </div>
 
-<!-- getActorMoving ------------------------------------------------------- -->
+<!-- getActorMoving -->
 
 <div class=opcode>
-<h2>getActorMoving
-<h3>$56
+<h2>getActorMoving</h2>
+<h3>$56</h3>
 </div>
 
-<!-- getActorRoom --------------------------------------------------------- -->
+<!-- getActorRoom -->
 
 <div class=opcode>
-<h2>getActorRoom
-<h3>$03
+<h2>getActorRoom</h2>
+<h3>$03</h3>
 </div>
 
-<!-- getActorScale -------------------------------------------------------- -->
+<!-- getActorScale -->
 
 <div class=opcode>
-<h2>getActorScale
-<h3>$3B
+<h2>getActorScale</h2>
+<h3>$3B</h3>
 </div>
 
-<!-- getActorWalkBox ------------------------------------------------------ -->
+<!-- getActorWalkBox -->
 
 <div class=opcode>
-<h2>getActorWalkBox
-<h3>$7B
+<h2>getActorWalkBox</h2>
+<h3>$7B</h3>
 </div>
 
-<!-- getActorWidth -------------------------------------------------------- -->
+<!-- getActorWidth -->
 
 <div class=opcode>
-<h2>getActorWidth
-<h3>$6C
+<h2>getActorWidth</h2>
+<h3>$6C</h3>
 </div>
 
-<!-- getActorX ------------------------------------------------------------ -->
+<!-- getActorX -->
 
 <div class=opcode>
-<h2>getActorX
-<h3>$43
+<h2>getActorX</h2>
+<h3>$43</h3>
 </div>
 
-<!-- getActorY ------------------------------------------------------------ -->
+<!-- getActorY -->
 
 <div class=opcode>
-<h2>getActorY
-<h3>$23
+<h2>getActorY</h2>
+<h3>$23</h3>
 </div>
 
-<!-- getAnimCounter ------------------------------------------------------- -->
+<!-- getAnimCounter -->
 
 <div class=opcode>
-<h2>getAnimCounter
-<h3>$22
+<h2>getAnimCounter</h2>
+<h3>$22</h3>
 </div>
 
-<!-- getClosestObjActor --------------------------------------------------- -->
+<!-- getClosestObjActor -->
 
 <div class=opcode>
-<h2>getClosestObjActor
-<h3>$66
+<h2>getClosestObjActor</h2>
+<h3>$66</h3>
 </div>
 
-<!-- getDist -------------------------------------------------------------- -->
+<!-- getDist -->
 
 <div class=opcode>
-<h2>getDist
-<h3>$34
+<h2>getDist</h2>
+<h3>$34</h3>
 </div>
 
-<!-- getInventoryCount ---------------------------------------------------- -->
+<!-- getInventoryCount -->
 
 <div class=opcode>
-<h2>getInventoryCount
-<h3>$31
+<h2>getInventoryCount</h2>
+<h3>$31</h3>
 </div>
 
-<!-- getObjectOwner ------------------------------------------------------- -->
+<!-- getObjectOwner -->
 
 <div class=opcode>
-<h2>getObjectOwner
-<h3>$10
+<h2>getObjectOwner</h2>
+<h3>$10</h3>
 </div>
 
-<!-- getObjectState ------------------------------------------------------- -->
+<!-- getObjectState -->
 
 <div class=opcode>
-<h2>getObjectState
-<h3>$0F
+<h2>getObjectState</h2>
+<h3>$0F</h3>
 </div>
 
-<!-- getRandomNumber ------------------------------------------------------ -->
+<!-- getRandomNumber -->
 
 <div class=opcode>
-<h2>getRandomNumber
-<h3>$16
+<h2>getRandomNumber</h2>
+<h3>$16</h3>
 </div>
 
-<!-- getScriptRunning ----------------------------------------------------- -->
+<!-- getScriptRunning -->
 
 <div class=opcode>
-<h2>getScriptRunning
-<h3>$68
+<h2>getScriptRunning</h2>
+<h3>$68</h3>
 </div>
 
-<!-- getVerbEntryPoint ---------------------------------------------------- -->
+<!-- getVerbEntryPoint -->
 
 <div class=opcode>
-<h2>getVerbEntryPoint
-<h3>$0B
+<h2>getVerbEntryPoint</h2>
+<h3>$0B</h3>
 </div>
 
-<!-- ifClassOfIs ---------------------------------------------------------- -->
+<!-- ifClassOfIs -->
 
 <div class=opcode>
-<h2>ifClassOfIs
-<h3>$1D
+<h2>ifClassOfIs</h2>
+<h3>$1D</h3>
 </div>
 
-<!-- increment ------------------------------------------------------------ -->
+<!-- increment -->
 
 <div class=opcode>
-<h2>increment
-<h3>$46; no parameters, uses result
+<h2>increment</h2>
+<h3>$46; no parameters, uses result</h3>
 <h4>Encoding</h4>
-<h5>opcode result
+<h5>opcode result</h5>
 <h4>Operation</h4>
 <p><i>result</i> := <i>result</i> + 1
 <p>Reads the variable pointed to by <i>result</i>, increments it, and writes it back.
 </div>
 
-<!-- isActorInBox --------------------------------------------------------- -->
+<!-- isActorInBox -->
 
 <div class=opcode>
-<h2>isActorInBox
-<h3>$1F
+<h2>isActorInBox</h2>
+<h3>$1F</h3>
 </div>
 
-<!-- isEqual -------------------------------------------------------------- -->
+<!-- isEqual -->
 
 <div class=opcode>
-<h2>isEqual
-<h3>$48
+<h2>isEqual</h2>
+<h3>$48</h3>
 </div>
 
-<!-- isGreater ------------------------------------------------------------ -->
+<!-- isGreater -->
 
 <div class=opcode>
-<h2>isGreater
-<h3>$78
+<h2>isGreater</h2>
+<h3>$78</h3>
 </div>
 
-<!-- isGreaterEqual ------------------------------------------------------- -->
+<!-- isGreaterEqual -->
 
 <div class=opcode>
-<h2>isGreaterEqual
-<h3>$04
+<h2>isGreaterEqual</h2>
+<h3>$04</h3>
 </div>
 
-<!-- isLess --------------------------------------------------------------- -->
+<!-- isLess -->
 
 <div class=opcode>
-<h2>isLess
-<h3>$44
+<h2>isLess</h2>
+<h3>$44</h3>
 </div>
 
-<!-- isNotEqual ----------------------------------------------------------- -->
+<!-- isNotEqual -->
 
 <div class=opcode>
-<h2>isNotEqual
-<h3>$08
+<h2>isNotEqual</h2>
+<h3>$08</h3>
 </div>
 
-<!-- isSoundRunning ------------------------------------------------------- -->
+<!-- isSoundRunning -->
 
 <div class=opcode>
-<h2>isSoundRunning
-<h3>$7C
+<h2>isSoundRunning</h2>
+<h3>$7C</h3>
 </div>
 
-<!-- jumpRelative --------------------------------------------------------- -->
+<!-- jumpRelative -->
 
 <div class=opcode>
-<h2>jumpRelative
-<h3>$18; non-standard encoding
+<h2>jumpRelative</h2>
+<h3>$18; non-standard encoding</h3>
 <h4>Encoding</h4>
-<h5>opcode target[16]
+<h5>opcode target[16]</h5>
 <h4>Operation</h4>
 <p>PC := PC + <i>target</i>
 
@@ -597,230 +597,230 @@ program counter after the instruction has been read. Therefore, if
 an infinite loop will result.
 </div>
 
-<!-- lessOrEqual ---------------------------------------------------------- -->
+<!-- lessOrEqual -->
 
 <div class=opcode>
-<h2>lessOrEqual
-<h3>$38
+<h2>lessOrEqual</h2>
+<h3>$38</h3>
 </div>
 
-<!-- lights --------------------------------------------------------------- -->
+<!-- lights -->
 
 <div class=opcode>
-<h2>lights
-<h3>$70
+<h2>lights</h2>
+<h3>$70</h3>
 </div>
 
-<!-- loadRoom ------------------------------------------------------------- -->
+<!-- loadRoom -->
 
 <div class=opcode>
-<h2>loadRoom
-<h3>$72
+<h2>loadRoom</h2>
+<h3>$72</h3>
 </div>
 
-<!-- loadRoomWithEgo ------------------------------------------------------ -->
+<!-- loadRoomWithEgo -->
 
 <div class=opcode>
-<h2>loadRoomWithEgo
-<h3>$24
+<h2>loadRoomWithEgo</h2>
+<h3>$24</h3>
 </div>
 
-<!-- matrixOp ------------------------------------------------------------- -->
+<!-- matrixOp -->
 
 <div class=opcode>
-<h2>matrixOp
-<h3>$30
+<h2>matrixOp</h2>
+<h3>$30</h3>
 </div>
 
-<!-- move ----------------------------------------------------------------- -->
+<!-- move -->
 
 <div class=opcode>
-<h2>move
-<h3>$1A
+<h2>move</h2>
+<h3>$1A</h3>
 </div>
 
-<!-- multiply ------------------------------------------------------------- -->
+<!-- multiply -->
 
 <div class=opcode>
-<h2>multiply
-<h3>$1B
+<h2>multiply</h2>
+<h3>$1B</h3>
 </div>
 
-<!-- notEqualZero --------------------------------------------------------- -->
+<!-- notEqualZero -->
 
 <div class=opcode>
-<h2>notEqualZero
-<h3>$A8
+<h2>notEqualZero</h2>
+<h3>$A8</h3>
 </div>
 
-<!-- or ------------------------------------------------------------------- -->
+<!-- or -->
 
 <div class=opcode>
-<h2>or
-<h3>$57; one parameter, uses result
+<h2>or</h2>
+<h3>$57; one parameter, uses result</h3>
 <h4>Encoding</h4>
-<h5>opcode result value[p16]
+<h5>opcode result value[p16]</h5>
 <h4>Operation</h4>
 <p class=operation><i>result</i> := <i>result</i> and <i>value</i>
 <p>
-The variable pointed to by <I>result</I> is read, logically ORed with
-<I>value</I>, and the result written back.
+The variable pointed to by <i>result</i> is read, logically ORed with
+<i>value</i>, and the result written back.
 </div>
 
-<!-- overRide ------------------------------------------------------------- -->
+<!-- overRide -->
 
 <div class=opcode>
-<h2>overRide
-<h3>$58
+<h2>overRide</h2>
+<h3>$58</h3>
 </div>
 
-<!-- panCameraTo ---------------------------------------------------------- -->
+<!-- panCameraTo -->
 
 <div class=opcode>
-<h2>panCameraTo
-<h3>$12
+<h2>panCameraTo</h2>
+<h3>$12</h3>
 </div>
 
-<!-- pickupObject --------------------------------------------------------- -->
+<!-- pickupObject -->
 
 <div class=opcode>
-<h2>pickupObject
-<h3>$25
+<h2>pickupObject</h2>
+<h3>$25</h3>
 </div>
 
-<!-- print ---------------------------------------------------------------- -->
+<!-- print -->
 
 <div class=opcode>
-<h2>print
-<h3>$14
+<h2>print</h2>
+<h3>$14</h3>
 </div>
 
-<!-- printEgo ------------------------------------------------------------- -->
+<!-- printEgo -->
 
 <div class=opcode>
-<h2>printEgo
-<h3>$D8
+<h2>printEgo</h2>
+<h3>$D8</h3>
 </div>
 
-<!-- pseudoRoom ----------------------------------------------------------- -->
+<!-- pseudoRoom -->
 
 <div class=opcode>
-<h2>pseudoRoom
-<h3>$CC
+<h2>pseudoRoom</h2>
+<h3>$CC</h3>
 </div>
 
-<!-- putActor ------------------------------------------------------------- -->
+<!-- putActor -->
 
 <div class=opcode>
-<h2>putActor
-<h3>$01
+<h2>putActor</h2>
+<h3>$01</h3>
 </div>
 
-<!-- putActorAtObject ----------------------------------------------------- -->
+<!-- putActorAtObject -->
 
 <div class=opcode>
-<h2>putActorAtObject
-<h3>$0E
+<h2>putActorAtObject</h2>
+<h3>$0E</h3>
 </div>
 
-<!-- putActorInRoom ------------------------------------------------------- -->
+<!-- putActorInRoom -->
 
 <div class=opcode>
-<h2>putActorInRoom
-<h3>$2D
+<h2>putActorInRoom</h2>
+<h3>$2D</h3>
 </div>
 
-<!-- quitPauseRestart ----------------------------------------------------- -->
+<!-- quitPauseRestart -->
 
 <div class=opcode>
-<h2>quitPauseRestart
-<h3>$98
+<h2>quitPauseRestart</h2>
+<h3>$98</h3>
 </div>
 
-<!-- resourceRoutines ----------------------------------------------------- -->
+<!-- resourceRoutines -->
 
 <div class=opcode>
-<h2>resourceRoutines
-<h3>$0C
+<h2>resourceRoutines</h2>
+<h3>$0C</h3>
 </div>
 
-<!-- roomOp --------------------------------------------------------------- -->
+<!-- roomOp -->
 
 <div class=opcode>
-<h2>roomOp
-<h3>$33
+<h2>roomOp</h2>
+<h3>$33</h3>
 </div>
 
-<!-- saveRestoreVerbs ----------------------------------------------------- -->
+<!-- saveRestoreVerbs -->
 
 <div class=opcode>
-<h2>saveRestoreVerbs
-<h3>$AB
+<h2>saveRestoreVerbs</h2>
+<h3>$AB</h3>
 </div>
 
-<!-- setCameraAt ---------------------------------------------------------- -->
+<!-- setCameraAt -->
 
 <div class=opcode>
-<h2>setCameraAt
-<h3>$32
+<h2>setCameraAt</h2>
+<h3>$32</h3>
 </div>
 
-<!-- setObjectName -------------------------------------------------------- -->
+<!-- setObjectName -->
 
 <div class=opcode>
-<h2>setObjectName
-<h3>$54
+<h2>setObjectName</h2>
+<h3>$54</h3>
 </div>
 
-<!-- setOwnerOf ----------------------------------------------------------- -->
+<!-- setOwnerOf -->
 
 <div class=opcode>
-<h2>setOwnerOf
-<h3>$29
+<h2>setOwnerOf</h2>
+<h3>$29</h3>
 </div>
 
-<!-- setState ------------------------------------------------------------- -->
+<!-- setState -->
 
 <div class=opcode>
-<h2>setState
-<h3>$07
+<h2>setState</h2>
+<h3>$07</h3>
 </div>
 
-<!-- setVarRange ---------------------------------------------------------- -->
+<!-- setVarRange -->
 
 <div class=opcode>
-<h2>setVarRange
-<h3>$26
+<h2>setVarRange</h2>
+<h3>$26</h3>
 </div>
 
-<!-- soundKludge ---------------------------------------------------------- -->
+<!-- soundKludge -->
 
 <div class=opcode>
-<h2>soundKludge
-<h3>$4C
+<h2>soundKludge</h2>
+<h3>$4C</h3>
 </div>
 
-<!-- startMusic ----------------------------------------------------------- -->
+<!-- startMusic -->
 
 <div class=opcode>
-<h2>startMusic
-<h3>$02
+<h2>startMusic</h2>
+<h3>$02</h3>
 </div>
 
-<!-- startObject ---------------------------------------------------------- -->
+<!-- startObject -->
 
 <div class=opcode>
-<h2>startObject
-<h3>$37
+<h2>startObject</h2>
+<h3>$37</h3>
 </div>
 
-<!-- startScript ---------------------------------------------------------- -->
+<!-- startScript -->
 
 <div class=opcode>
-<h2>startScript
-<h3>$0A; one parameter plus varargs, extra encoding in opcode
+<h2>startScript</h2>
+<h3>$0A; one parameter plus varargs, extra encoding in opcode</h3>
 <h4>Encoding</h4>
-<h5>opcode script[p8] args[v16]...
+<h5>opcode script[p8] args[v16]...</h5>
 <h4>Operation</h4>
 <p>Spawns a new thread running the code in script <i>script</i>. The new script has its local variables initialised to the list <i>args</i>. Uninitialised variables have undefined values.
 
@@ -844,92 +844,92 @@ The variable pointed to by <I>result</I> is read, logically ORed with
 bit is the parameter bit for <i>script</i>, as usual.
 </div>
 
-<!-- startSound ----------------------------------------------------------- -->
+<!-- startSound -->
 
 <div class=opcode>
-<h2>startSound
-<h3>$1C
+<h2>startSound</h2>
+<h3>$1C</h3>
 </div>
 
-<!-- stopMusic ------------------------------------------------------------ -->
+<!-- stopMusic -->
 
 <div class=opcode>
-<h2>stopMusic
-<h3>$20
+<h2>stopMusic</h2>
+<h3>$20</h3>
 </div>
 
-<!-- stopObjectCode ------------------------------------------------------- -->
+<!-- stopObjectCode -->
 
 <div class=opcode>
-<h2>stopObjectCode
-<h3>$00
+<h2>stopObjectCode</h2>
+<h3>$00</h3>
 </div>
 
-<!-- stopObjectScript ----------------------------------------------------- -->
+<!-- stopObjectScript -->
 
 <div class=opcode>
-<h2>stopObjectScript
-<h3>$6E
+<h2>stopObjectScript</h2>
+<h3>$6E</h3>
 </div>
 
-<!-- stopScript ----------------------------------------------------------- -->
+<!-- stopScript -->
 
 <div class=opcode>
-<h2>stopScript
-<h3>$62
+<h2>stopScript</h2>
+<h3>$62</h3>
 </div>
 
-<!-- stopSound ------------------------------------------------------------ -->
+<!-- stopSound -->
 
 <div class=opcode>
-<h2>stopSound
-<h3>$3C
+<h2>stopSound</h2>
+<h3>$3C</h3>
 </div>
 
-<!-- subtract ------------------------------------------------------------- -->
+<!-- subtract -->
 
 <div class=opcode>
-<h2>subtract
-<h3>$3A
+<h2>subtract</h2>
+<h3>$3A</h3>
 </div>
 
-<!-- verbOp --------------------------------------------------------------- -->
+<!-- verbOp -->
 
 <div class=opcode>
-<h2>animateActor
-<h3>$11
+<h2>animateActor</h2>
+<h3>$11</h3>
 </div>
 
-<!-- wait ----------------------------------------------------------------- -->
+<!-- wait -->
 
 <div class=opcode>
-<h2>wait
-<h3>$AE
+<h2>wait</h2>
+<h3>$AE</h3>
 </div>
 
-<!-- walkActorTo ---------------------------------------------------------- -->
+<!-- walkActorTo -->
 
 <div class=opcode>
-<h2>walkActorTo
-<h3>$1E
+<h2>walkActorTo</h2>
+<h3>$1E</h3>
 </div>
 
-<!-- walkActorToActor ----------------------------------------------------- -->
+<!-- walkActorToActor -->
 
 <div class=opcode>
-<h2>walkActorToActor
-<h3>$0D
+<h2>walkActorToActor</h2>
+<h3>$0D</h3>
 </div>
 
-<!-- walkActorToObject ---------------------------------------------------- -->
+<!-- walkActorToObject -->
 
 <div class=opcode>
-<h2>walkActorToObject
-<h3>$36
+<h2>walkActorToObject</h2>
+<h3>$36</h3>
 </div>
-<HR><P STYLE="font-size: smaller; text-align: center">
+<hr><p style="font-size: smaller; text-align: center">
 All material &copy; 2000-2002 David Given, unless where stated otherwise.
-</P>
+</p>
 
 <?
 echo html_round_frame_end("&nbsp;");
