@@ -93,7 +93,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 	</p>
 	<p>A few binaries were not yet updated for the 0.4.0 release. Until that changes, here you can still find the old 0.3.0 binaries.
 	<ul>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-morphos.tar.bz2?download">MorphOS binary</a> <small>(397k .tar.bz2)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.3.0-morphos.tar.bz2?download">MorphOS binary</a> <small>(397k .tar.bz2)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.3.0b-dreamcast_nero.zip?download">Dreamcast binary</a> <small>(4.7M zipfile)</small></li>
 	</ul>
 
