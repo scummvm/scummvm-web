@@ -109,13 +109,13 @@ $games = array(
 
 $notes = array(
 "maniac"	=> "Enhanced PC version is completable, with several minor glitches".
-		   "<br>Classic version still in progress, results may vary".
+		   "Classic version still in progress, results may vary".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions are supported by this target".
 		   "<br>- Classic PC version actor costumes cause random crashes".
 		   "<br>- Classic PC version actor masking and palette is broken".
-		   "<br>- No music or sound effects with Amiga and Classic PC versions",
+		   "<br>- No music or sound effects with Amiga version",
 "zak"		=> "Enhanced PC version runs, with glitches. May be completable".
-		   "<br>Classic version still in progress, results may vary".
+		   "Classic version still in progress, results may vary".
 		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
 		   "<br>- Classic PC version actor costumes cause random crashes".
 		   "<br>- Classic PC version actor masking and palette is broken".
