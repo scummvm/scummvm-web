@@ -35,9 +35,8 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
        <li><a href="#1-5">Will ScummVM support other games?</a></li>
        <li><a href="#1-6">Where do I find ScummVM?</a></li>
        <li><a href="#1-7">How do I compile the source code for my OS?</a></li>
-       <li><a href="#1-8">What is the latest version of ScummVM?</a></li>
-       <li><a href="#1-9">On what platforms does ScummVM run?</a></li>
-       <li><a href="#1-10">Does ScummVM run any non SCUMM games?</a></li>
+       <li><a href="#1-8">On what platforms does ScummVM run?</a></li>
+       <li><a href="#1-9">Does ScummVM run any non SCUMM games?</a></li>
     </ol>
   </li>
     
@@ -82,15 +81,17 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 
     <ol>
       <li><p><a name="1-1"></a><b>Why is it called ScummVM - what does this name mean?</b><br>
-	Scumm comes from the fact that it was designed to run SCUMM games, like Monkey Island.
+	Scumm comes from the fact that it was originally designed to run SCUMM games, like
+	Monkey Island.
 	VM stands for VIRTUAL MACHINE.</p></li>
 
       <li><p><a name="1-2"></a><b>What is SCUMM?</b><br>
 	SCUMM stands for "Script Creation Utility for Maniac Mansion". It is a utility used
 	to create the famous LucasArts adventure games.<br>
 	It was initially created in 1987 by Aric Wilmunder and Ron Gilbert for the game
-	"Maniac Manson" and was used later, with some modifications, for Zak McKracken and
-	the Alien Mindbenders, Loom, Indiana Jones and the Last Crusade, Indiana Jones and the Fate
+	"Maniac Mansion" and was used later, with some modifications, for Zak McKracken and
+	the Alien Mindbenders. Development on the SCUMM system continued for some time,
+	and was used in Loom, Indiana Jones and the Last Crusade, Indiana Jones and the Fate
 	of Atlantis, Monkey Island 1,2,3, Sam & max Hit the Road, Day of the Tentacle, The Dig
 	and Full Throttle.</p></li>
 
@@ -100,43 +101,55 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	so it's more than free.
 	ScummVM source code is freely available and you can do whatever you want with it. If you
 	make modifications to it and redistribute your work you MUST make the source available.
-	However, ScummVM team would be pleased if you choose to send them your modifications, so
-	they can be merged into the main tree.</p></li>
+	However, the ScummVM team would be pleased if you choose to send them your
+	modifications, so they can be merged into the main tree.</p></li>
 
       <li><p><a name="1-4"></a><b>What games does ScummVM support?</b><br>
 	We have a <a href="compatibility.php">compatibility list</a> on our website
-	that contains an up to date list of what games work, and how well they work.
+	that contains an up to date list of what games work, and how well they work. As
+	well as SCUMM games, we also include virtual machines for the first two Simon the Sorcerer
+	games (by Adventure Soft), and Beneath a Steel Sky by Revolution. Other games may be added,
+	but this is not a common occurance - see below.
 	</p></li>
 
       <li><p><a name="1-5"></a><b>Will ScummVM support other games?</b><br>
-	The ScummVM team is working to make newer SCUMM games, such as "Full Throttle", playable.<br>
-	We are also working to correct make the currently supported games more accurate.<br>
-	However we are <i>NOT</i> going to add support for non-SCUMM games!</p></li>
+	The ScummVM team is working to make newer SCUMM games, such as "Full Throttle" playable<br>
+	We are also working to correct make the currently supported games more accurate, and are adding support (over time) for Broken Sword 1 and 2, by Revolution.<br>
+	However we do <i>NOT</i> generally add support for non-SCUMM games! As Revolution
+	Software Ltd are really nice people, they have provided us with source code for their
+	games... so we are more than happy to add support for these classic adventures. But
+	reverse engineering a completely new game without source is a long process, and our
+	developers are all very busy as it is.
+</p></li>
 
       <li><p><a name="1-6"></a><b>Where do I find ScummVM?</b><br>
-	You can find it on the page on SourceForge:
+	You can find it on the download section on our homepage, <a href="http://www.scummvm.org">
+	http://www.scummvm.org/</a> (or <a href="http://scummvm.sourceforge.net">http://scummvm.sourceforge.net</a>)
 	<a href="http://sourceforge.net/projects/scummvm">http://sourceforge.net/projects/scummvm</a>.
-	You can download the latest version, which could be a little old. For the most recent version,
-	you have to get it via CVS (instructions are on the SourceForge page).</p></li>
+	You can download the latest version, which could be a little old. For the most
+	recent cutting-edge in-development version, you have to compile it yourself from
+	CVS or use the 'daily builds' linked from our download page.</p></li>
 
       <li><p><a name="1-7"></a><b>How do I compile the source code for my OS?</b><br>
 	The source code package contains a file called
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
 	that should explain everything.</p></li>
 
-      <li><p><a name="1-8"></a><b>What is the latest version of ScummVM?</b><br>
-	It's currently in alpha status. See also 1.6 to learn where to find the latest version.</p></li>
-
-      <li><p><a name="1-9"></a><b>On what platform does ScummVM run?</b><br>
+      <li><p><a name="1-8"></a><b>On what platform does ScummVM run?</b><br>
 	ScummVM should be able to be compiled on any SDL platform, with just small modifications.<br>
 	Currently tested platforms are Win32 (Windows 9x/ME/NT/2000), Linux i386 and PPC, BeOS, Solaris,
-    Mac OS X, Dreamcast, MorphOS, IRIX, and WinCE. It is also part of the FreeBSD ports collection
-    and in Debian unstable</p></li>
+	Mac OS X, Dreamcast, MorphOS, IRIX, PalmOS and WinCE. It is also part of the FreeBSD
+	ports collection and included in Debian testing and unstable</p></li>
 
       <li><p><a name="1-10"></a><b>Does ScummVM run any non-SCUMM games?</b><br>
-        Yes. Currently the only non-SCUMM games supported are Simon The Sorcerer and Beneath a Steel Sky. These games were added either because they were very
-	similar to SCUMM (Simon) or we had the source code to them (BASS). We don't have any plans to support any other non-SCUMM games at this time. If we do, it will
-	be added to the <a href="compatibility.php">Compatibility List</a>.</p></li>
+        Yes. Currently the only non-SCUMM games supported are Simon The Sorcerer (1 and 2), 
+	and Beneath a Steel Sky. Simon support was originally written by the
+	founder of ScummVM as a seperate program, and later included in the main binary.
+	Revolution Software Ltd. are very nice people and kindly provided us with the
+	source code to BASS, on which we based our interpreter. We are currently working
+	on support for Broken Sword 1 and 2, again thanks to Revolutions kind support.<BR>
+	We do not have any plans to support any other non-SCUMM games at this time. If we
+	do, it will be added to the <a href="compatibility.php">Compatibility List</a>.</p></li>
 	
     </ol>
   </li>
@@ -147,7 +160,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
       <li><p><a name="2-1"></a><b>Do I need original CD or Floppy disks?</b><br>
 	Most definitely. ScummVM won't work without them. If you would like to buy these games, we suggest you
 	browse <a href="http://www.ebay.com">Ebay</a>. Do not ask the ScummVM team where you can download the 
-	full versions of Lucas Arts games. These requests will be ignored.</p></li>
+	full versions of LucasArts games. These requests will be ignored.</p></li>
 
       <li><p><a name="2-2"></a><b>Does ScummVM work with all versions of games?</b><br>
 	See <a href="#1-4">1.4 What games does ScummVM support?</a></p></li>
@@ -157,12 +170,12 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 
       <li><p><a name="2-4"></a><b>Can I save/restore the game?</b><br>
 	Yes. Saving and restoring is already supported (ALT-1/9 to save, CTRL - 1/9 to restore, or
-	F5 to access the saving screen).</p></li>
+	F5 to access the save/load menu).</p></li>
 
       <li><p><a name="2-5"></a><b>Do savegames from the original games work in ScummVM?</b><br>
-	No. We do not have any plans to load old savegames. Newer versions of ScummVM have also broke
-	compatibility with older ScummVM savegames. Since ScummVM is still considered alpha, we may break
-	savegames again in the future.</p></li>
+	No. We do not have any plans to load old savegames. Newer versions of ScummVM have
+	also broken compatibility with older ScummVM savegames. Since ScummVM is
+	in heavy development, this may occur again in the future.</p></li>
 
     </ol>
   </li>
@@ -175,7 +188,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	inserted into your CD drive when you start ScummVM. If you have more than one CD drive in your
 	system. You can specify your CD drive using the -c command line parameter. See the
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
-	for more info. Note that CD audio doesn't work on Macintosh due to SDL not providing CD audio support.</p></li>
+	for more info.</p></li>
 
       <li><p><a name="3-2"></a><b>Does ScummVM support using MP3/Ogg files instead of CD audio?</b><br>
 	Yes. You can use LAME or some other CD audio conversion utility to convert your CD audio to MP3. Since
@@ -209,11 +222,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	also try the -s command line param to set the in game SFX volume.</p></li>
       
       <li><p><a name="4-3"></a><b>I don't hear any music.</b><br>
-      	By default, on most operating systems, ScummVM will automatically use ADLIB emulation. However, some games do not include
-	Adlib music - such as Sam and Max. Note: MIDI may not be available on all operating systems or may need manual configuration.
-	Use the -e command line param to choose the MIDI engine to use. See the 
-	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
-	for more info.</p></li>
+	See <a href="#4-2">above</a></p></li>
       
       <li><p><a name="4-4"></a><b>My game crashes at some point.</b><br>
       	Check the <a href="compatibility.php">Compatibility List</a> to see if your game has any known issues. If you can
@@ -221,7 +230,8 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
       
       <li><p><a name="4-5"></a><b>The game colors are messed up.</b><br>
       	This is a known issue with using Amiga version datafiles. Use the -a command
-    line parameter to enable Amiga palette conversion.</p></li>
+	line parameter (or tick the Amiga checkbox in the Launcher / F5 menu) to enable Amiga
+	palette conversion.</p></li>
       
       <li><p><a name="4-6"></a><b>Reporting Bugs.</b><br>
       	To report a bug, please create a SourceForge account and follow the
