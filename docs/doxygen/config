@@ -359,7 +359,9 @@ WARN_LOGFILE           =
 
 INPUT                  = /home/groups/s/sc/scummvm/scummvm/base \
                          /home/groups/s/sc/scummvm/scummvm/common \
+                         /home/groups/s/sc/scummvm/scummvm/graphics \
                          /home/groups/s/sc/scummvm/scummvm/gui \
+                         /home/groups/s/sc/scummvm/scummvm/kyra \
                          /home/groups/s/sc/scummvm/scummvm/saga \
                          /home/groups/s/sc/scummvm/scummvm/scumm \
                          /home/groups/s/sc/scummvm/scummvm/simon \
@@ -887,7 +889,8 @@ INCLUDE_FILE_PATTERNS  =
 # or name=definition (no spaces). If the definition and the = are 
 # omitted =1 is assumed.
 
-PREDEFINED             = USE_MAD \
+PREDEFINED             = USE_FLAC \
+                         USE_MAD \
                          USE_VORBIS \
                          UNIX
 
