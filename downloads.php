@@ -119,7 +119,8 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.1.zip?download">Source .zip</a> <small>(1.6M)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.1-xboxsrc.zip?download">Source with XBox port mods</a> <small>(1.7M zipfile)</small></li>
 	</ul>
-	
+	<B>We do NOT support the X-Box port. This is a third party port, and is sourcecode, not a binary. If you don't already know how to turn one into the other... we can't help you.</B>
+
 	<p>
 	  <b>0.5.0 Tools Source Code:</b>
 	</p>
