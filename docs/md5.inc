@@ -113,7 +113,7 @@
 		<?php addEntry("-", "DOS", "es", "7974365d3dc0f43a2748c975f91ff042", "monkey2", "Andrea Petrucci"); ?>
 		<?php addEntry("FM-TOWNS", "FM-TOWNS", "en", "da09e666fc8f5b78d7b0ac65d1a3b56e", "monkey2", "dhewg, Andrea Petrucci"); ?>
 		<?php addEntry("FM-TOWNS", "FM-TOWNS", "jp", "430bc518017b6fac046f58bab6baad5d", "monkey2", "Antti Leimi, Andrea Petrucci"); ?>
-		<?php addEntry("Demo (non-interactive)", "DOS", "en", "387a544b8b10b26912d8413bab63a853", "monkey2", "khalek"); ?>
+		<?php addEntry("Demo (non-interactive)", "DOS", "en", "387a544b8b10b26912d8413bab63a853", "mi2demo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Indiana Jones and the Fate of Atlantis</strong></td></tr>
 		<?php addEntry("Talkie", "DOS", "en", "182344899c2e2998fca0bebcd82aa81a", "atlantis"); ?>
 		<?php addEntry("Talkie", "Mac", "en", "1a6e5ae2777a6a33f06ffc0226210934", "atlantis", "Scott Summers"); ?>
@@ -175,7 +175,7 @@
 		<?php addEntry("Demo", "All", "en", "362c1d281fb9899254cda66ad246c66a", "digdemo"); ?>
 	<tr><td colspan='7'><strong>Curse of Monkey Island</strong></td></tr>
 		<?php addEntry("-", "All", "All", "fe60d6b5ff51b0553ac59963123b5777", "comi"); ?>
-		<?php addEntry("Demo", "All", "All", "8fec68383202d38c0d25e9e3b757c5df", "comi"); ?>
+		<?php addEntry("Demo", "All", "All", "8fec68383202d38c0d25e9e3b757c5df", "comidemo"); ?>
 	<tr><td colspan='7'><strong>Putt-Putt Joins The Parade</strong></td></tr>
 		<?php addEntry("Demo", "DOS", "en", "31aa57f460a3d12429f0552a46a90b39", "puttdemo"); ?>
 		<?php addEntry("Demo", "Windows", "en", "37ff1b308999c4cca7319edfcc1280a0", "puttdemo", "khalek"); ?>
