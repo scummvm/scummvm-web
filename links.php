@@ -30,14 +30,6 @@ echo html_round_frame_start("Links","98%","",20);
 	</p>
 
 	<p>
-	  <a href="http://exult.sourceforge.net/"><b>Exult :: Ultima VII</b></a>
-	  <ul>
-	    Exult is the recreation of the Ultima VII engine used in <i>The Black Gate</i>
-	    and <i>The Serpent Isle</i>.
-	  </ul>
-	</p>
-
-	<p>
 	  <a href="http://freesci.linuxgames.com/"><b>FreeSCI :: Sierra On-Line SCI Games</b></a>
 	  <ul>
 	    The FreeSCI project is an attempt to create a portable interpreter written for Sierra
@@ -55,12 +47,24 @@ echo html_round_frame_start("Links","98%","",20);
 	</p>
 
 	<p>
-          <a href="http://zak256.sourceforge.net/"><b>Zak256 :: The Zak256 Project</b></a>
+	  <a href="http://exult.sourceforge.net/"><b>Exult :: Ultima VII</b></a>
 	  <ul>
-	    The ZakMcKracken and the Alien Mindbenders in 256 colors project. This project is
-	    working to get this Towns-FM version of Zak translated and working.
+	    Exult is the recreation of the Ultima VII engine used in <i>The Black Gate</i>
+	    and <i>The Serpent Isle</i>.
 	  </ul>
 	</p>
+
+	<p>
+	  <a href="http://xu4.sourceforge.net/"><b>XU4 :: Ultima IV</b></a>
+	  <ul>
+	    XU4 is the recreation of Ultima IV - Quest of the Avatar.
+	  </ul>
+	</p>
+
+    <p>
+      Know any other classic game projects?
+      <a href="http://sourceforge.net/sendmessage.php?touser=339357" target="_blank">Let me know!</a>
+    </p>
 
 	<div align=center>
 	<table with=300 border=0><tr><td>
