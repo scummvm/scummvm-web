@@ -45,11 +45,11 @@ $demos = array(
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Loomdemo.zip', 'loom'),
 	'Passport to Adventure (16 colour demos of mi, loom, indy3)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Sampler.zip', 'pass'),
-	'Indy3 & Loom (FM Towns demo - Non interactive)'
+	'Indiana Jones and the Last Crusade & Loom (FM Towns demo - Non interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/indyloom.zip', 'zaktowns'),
-	'Indy3 & Zak256 (FM Towns demo - Non interactive)'
+	'Indiana Jones and the Last Crusade & Zak McKracken (FM Towns demo - Non interactive)'
 		=>array('http://www.cowlark.com/scumm.dat/indyzak.zip', 'zaktowns'),
-	'Zak256 & Loom (FM Towns demo - Non interactive)'
+	'Zak McKracken & Loom (FM Towns demo - Non interactive)'
 		=>array('http://www.cowlark.com/scumm.dat/zakloom.zip', 'zaktowns'),
 	'Monkey Island 2 (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/mi2demo.zip', 'mi2demo'),
@@ -73,7 +73,7 @@ $demos = array(
 		=> array('http://www.cowlark.com/scumm.dat/moondemo.zip', 'moondemo'),
 	'Fatty Bear\'s Birthday Surprise (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/fatdemo.zip', 'fbdemo'),
-	'Day of the Tentacle (Non interactive)'
+	'Day of the Tentacle (DOS demo - Non interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Dottdemo.zip', 'dottdemo'),
 	'Full Throttle (Macintosh demo)*'
 		=> array('', 'ftdemo'),
