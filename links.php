@@ -47,7 +47,7 @@ function addLinkEntry($name, $url, $desc) {
 			addLinkEntry('PocketScumm port', 'http://arisme.free.fr/PocketScumm/index.php', 'Information about the PocketScumm port.');
 			addLinkEntry('PocketScumm forum', 'http://forums.pocketmatrix.com/viewforum.php?f=20', 'For help and discussion relating to PocketScumm.');
 			addLinkEntry('PalmOS port', 'http://capers.free.fr/ScummVM/index.php', 'News and information about the PalmOS port.');
-			addLinkEntry('GP32 port', 'http://people.inf.elte.hu/ph0x/gpscumm/', 'Information about the GP32 port.');
+			addLinkEntry('GP32 port', 'http://www.distant-earth.co.uk/', 'Information about the GP32 port.');
 		?>
 	</div>
 	
