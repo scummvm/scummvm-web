@@ -22,7 +22,7 @@ echo html_round_frame_start("Screenshots","98%","",20);
 	<p>
 	  <big><b>Screenshots</b></big><br>
 	  <? echo html_line(); ?>
-	</p>	
+	</p>
 
 <?
 
@@ -30,22 +30,30 @@ echo html_round_frame_start("Screenshots","98%","",20);
 // if in single view
 if ($view)
 {
-	echo html_frame_start("Screenshot Viewer","540",2,0,"color0"),
+	if (!is_numeric($view))
+	{
+		echo "<h1>Error: Unknown image ID</h1>";
+	}
+	else
+	{
+		echo
+		 html_frame_start("Screenshot Viewer","540",2,0,"color0"),
 	     html_frame_tr(
 	     		   html_frame_td(
-			   		 '<img src="'.$file_root.'/screenshots/'.$view.'.png" '.
+			   		 '<img src="'.$file_root.'/screenshots/big_scummvm_'.$view.'.png" '.
 				         'border=0 vspace=2 hspace=2 width=640 height=400 '.
-				         'alt="'.$view.'">',
+				         'alt="Screenshot '.$view.'">',
 					 'align=center class="color0"'
 					)
 	                  ),
 	     html_frame_tr(
 	     		   html_frame_td(
-			   		 html_ahref("&nbsp; &lt;&lt; Back",$PHP_SELF."?x=".$x,"class=menuItem"),
+			   		 html_ahref("&nbsp; &lt;&lt; Back",$PHP_SELF."?offset=".$offset,"class=menuItem"),
 					 'align=left class="color4"'
 			   		)
-	     		  ),		  
-	     html_frame_end();	
+	     		  ),
+	     html_frame_end();
+	}
 }
 else
 {
@@ -72,15 +80,15 @@ else
 	while (list($c,$image) = each($shots))
 	{
 		// do not show images less than current pos
-		if ($x > $c)
+		if ($offset > $c)
 		  continue;
 
 		// display image
 		echo html_frame_td(
-				   '<a href="'.$PHP_SELF."?view=big_scummvm_".$c.'&x='.$x.'">'.
+				   '<a href="'.$PHP_SELF."?view=".$c.'&offset='.$offset.'">'.
 				   '<img src="'.$file_root.'/screenshots/scummvm_'.$c.'.png" '.
 				   'border=0 vspace=10 hspace=10 width=256 height=160 '.
-				   'alt="'.$image.'"></a>',
+				   'alt="Screenshot '.$c.'"></a>',
 				   'align=center class="color0"'
 				  );
 
@@ -107,18 +115,18 @@ else
 	$nextLink = "&nbsp;";
 
 	// display prev link
-	if ($x)
+	if ($offset)
 	{
-		$prev = $x - 4;
-		$prevLink = html_ahref("&lt;&lt; Prev 4 Images",$PHP_SELF."?x=".$prev,"class=menuItem");
+		$prev = $offset - 4;
+		$prevLink = html_ahref("&lt;&lt; Prev 4 Images",$PHP_SELF."?offset=".$prev,"class=menuItem");
 
 	}
 
 	// display next link
-	if (($x + 4) < $total)
+	if (($offset + 4) < $total)
 	{
 		$next = $where + 1;
-		$nextLink = html_ahref("Next 4 Images &gt;&gt;",$PHP_SELF."?x=".$next,"class=menuItem");
+		$nextLink = html_ahref("Next 4 Images &gt;&gt;",$PHP_SELF."?offset=".$next,"class=menuItem");
 	}
 
 	echo html_frame_tr(
@@ -127,12 +135,12 @@ else
 			    "color4"
 			  );
 	echo html_frame_end();
-	
+
 //end view
 }
 
 // close table
-echo html_p();		  
+echo html_p();
 echo html_round_frame_end("&nbsp;");
 
 // end of html
