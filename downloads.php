@@ -61,6 +61,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 	<p>
  	  <b>0.3.0b Release binaries:</b>
 	  <i><center>For a list of changes since the last version (0.2.0), <a href="http://sourceforge.net/project/shownotes.php?release_id=126358">read the release notes</a></center></i>
+	  <i><small>ScummVM 0.3.0 should be apt-get'able from Debian Unstable soon, meanwhile Woody packages are provided</small></i>
 	</p>
 
 	<ul>
