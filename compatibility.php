@@ -235,6 +235,7 @@ $notes = array(
 		   "<br>- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders".
 		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
 "sword2"	 => "Game is completable, with several minor glitches".
+		   "<br>- Does not work on systems that require alignment",
 		   "<br>- No cutscenes",
 "simon1win" 	=> "No known problems - game is completable.",
 "simon1talkie" 	=> "Game is completable.".
