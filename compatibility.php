@@ -95,7 +95,7 @@ $games = array(
 		'The Dig'                                               => array('7','dig','85'),
 		'Curse of Monkey Island'				=> array('8','comi','80'),
 		'Beneath a Steel Sky'			       		=> array('n/a','sky','90'),
-		'Broken Sword I'			       		=> array('n/a','sword1','70'),
+		'Broken Sword I'			       		=> array('n/a','sword1','80'),
 		'Broken Sword II'			       		=> array('n/a','sword2','70'),
 		'Flight of the Amazon Queen'			       	=> array('n/a','queen','70'),
  		'Simon The Sorcerer 1 Talkie (Win)'			=> array('n/a','simon1win','95'),
@@ -225,7 +225,7 @@ $notes = array(
 		   "<br>- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders".
 		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
 "sword1"	=> "Game is completable.".
-		   "<br>- Czech text output is not supported".
+		   "<br>- Czech support is untested. If you have a czech version, please contact us.".
 		   "<br>- Smacker cutscenes are not supported",
 "sword2"	=> "Game is completable, with several minor glitches".
 		   "<br>- Does not work on systems that require alignment".
