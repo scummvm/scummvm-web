@@ -5,7 +5,7 @@ $file_root = "../..";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("SCUMM Reference Guide :: Glossary");
+html_header("SCUMM Reference Guide :: Glossary", '<link href="specs.css" rel="stylesheet" type="text/css">');
 sidebar_start(true);
 
 //display welcome table

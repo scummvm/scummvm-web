@@ -12,7 +12,7 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("ScummVM :: Links");
+html_header("ScummVM :: Links", '<link href="links.css" rel="stylesheet" type="text/css">');
 sidebar_start();
 
 //display welcome table

@@ -5,7 +5,7 @@ $file_root = "../..";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("SCUMM Reference Guide :: AARY Arrays and Strings");
+html_header("SCUMM Reference Guide :: AARY Arrays and Strings", '<link href="specs.css" rel="stylesheet" type="text/css">');
 sidebar_start(true);
     
 //display welcome table

@@ -6,7 +6,7 @@ $file_root = "../../..";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("ScummVM Documentation", '<LINK HREF="doxygen.css" REL="stylesheet" TYPE="text/css">');
+html_header("ScummVM Documentation", '<link href="doxygen.css" rel="stylesheet" type="text/css">');
 sidebar_start();
 echo html_round_frame_start("$title","");
 ?>
