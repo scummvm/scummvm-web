@@ -75,7 +75,7 @@ echo html_round_frame_start("Download ScummVM","");
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-HandheldPC_MIPS.zip?download">HandheldPC MIPS binary</a> <small>(1.3M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-HandheldPC_SH3.zip?download">HandheldPC SH3 binary</a> <small>(1.2M zipfile)</small></li>
 
-	  <li>Coming soon: Dreamcast and more!</li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-dreamcast-plainfiles.tar.bz2?download">Dreamcast plain files</a> <small>(1.3M zipfile)</small></li>
 
 	<!--
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1-slack-i386-1.tgz?download">SlackWare package</a> <small>(???M .tgz)</small></li>
@@ -110,8 +110,6 @@ echo html_round_frame_start("Download ScummVM","");
 		have older versions around, for your convenience.
 	</p>
 	<ul>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1-dreamcast-plainfiles.tar.bz2?download">0.6.1 Dreamcast plain files</a> <small>(1.4M zipfile)</small></li>
-
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-slack-i386-1.tgz?download">0.6.0 SlackWare package</a> <small>(1.2M .tgz)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-beos-x86.pkg?download">0.6.0 BeOS package</a> <small>(1.6M pkg)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-dreamcast-nero+demos.zip?download">0.6.0 Dreamcast Nero Image &amp; Demos</a> <small>(3.7M zipfile)</small></li>
