@@ -183,12 +183,10 @@ $notes = array(
 		   "<br>- Pinball/Remember/Tic-Tac-Toe/Puzzle blocks: Works",
 "fbdemo"	=> "Should be playable to the end",
 "fbear"		=> "Game should be completable, with several glitches".
-		   "<br>- Decorations on birthday cake aren't remembered".
 		   "<br>- Piano sounds aren't correct pitch and several sound effects are missing",
 "fbpack"	=> "Game starts but various minigames have different problems".
-		   "<br>- Reversi/Go Fish/Lines and Boxes: o6_actorOps: case 218 graphics glitches".
-		   "<br>- Coloring: Painting has no effect".
-		   "<br>- Tangrams: Can only use central tangram piece",
+		   "<br>- Graphical glitches in all games due to o6_actorOps: case 218".
+		   "<br>- Coloring: Some paint options are difficult to select",
 "tentacle"	=> "No known issues, game is completable.".
 		   "<br>- Both Mac and PC versions supported by this target".
 		   "<br>- Both disk and cd versions are supported by this target".
