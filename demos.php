@@ -36,57 +36,59 @@ echo html_round_frame_start("Game Demos","98%","",20);
 <?
 
 $demos = array(
-	'Zak McKracken and the Alien Mindbenders (Atari ST)'
+	'Zak McKracken and the Alien Mindbenders (Atari ST)*'
 		=> array('http://files.mixnmojo.com/zakstdemo.zip', 'zak'),
-	'The Secret of Monkey Island (16 colour)'	
+	'The Secret of Monkey Island (16 colour)*'	
 		=> array('http://files.mixnmojo.com/mi_demo2.zip', 'monkeyega'),
-	'Indiana Jones and the Last Crusade (non interactive 16 colour)'	
+	'Indiana Jones and the Last Crusade (non interactive 16 colour)*'	
 		=> array('http://files.mixnmojo.com/indydemo.zip', 'indy3ega'),
 	'Loom (non interactive 16 colour)'
-		=> array('http://files.mixnmojo.com/loomdemo.zip', 'loom'),
+		=> array('ftp://ftp.lucasarts.com/demos/pc/Loomdemo.zip', 'loom'),
 	'Passport to Adventure (playable 16 colour demos of mi, loom, indy3)'
-		=> array('http://files.mixnmojo.com/pass.zip', 'pass'),
-	'Indy3 & Loom (non interactive FM Towns demo)'
+		=> array('ftp://ftp.lucasarts.com/demos/pc/Sampler.zip', 'pass'),
+	'Indy3 & Loom (non interactive FM Towns demo)*'
 		=> array('http://files.mixnmojo.com/indyloom.zip', 'zak256'),
-	'Indy3 & Zak256 (non interactive FM Towns demo)'
+	'Indy3 & Zak256 (non interactive FM Towns demo)*'
 		=>array('http://files.mixnmojo.com/indyzak.zip', 'zak256'),
-	'Zak256 & Loom (non interactive Fm Towns demo)'
+	'Zak256 & Loom (non interactive Fm Towns demo)*'
 		=>array('http://files.mixnmojo.com/zakloom.zip', 'zak256'),
-	'Monkey Island 2 (non interactive demo)'
+	'Monkey Island 2 (non interactive demo)*'
 		=> array('http://www.lucasfiles.com/pafiledb.php?action=file&id=31', 'mi2demo'),
 	'Indiana Jones and the Fate of Atlantis (playable)'
-		=> array('http://files.mixnmojo.com/playfate.zip', 'playfate'),
-	'Indiana Jones and the Fate of Atlantis (non interactive)'
+		=> array('ftp://ftp.lucasarts.com/demos/pc/Playfate.zip', 'playfate'),
+	'Indiana Jones and the Fate of Atlantis (non interactive)*'
 		=> array('http://files.mixnmojo.com/fate.zip', 'fate'),
-	'Indiana Jones and the Fate of Atlantis (non interactive FM Towns)'
+	'Indiana Jones and the Fate of Atlantis (non interactive FM Towns)*'
 		=> array('http://files.mixnmojo.com/indy4demo.zip', 'indydemo'),
-	'Sam and Max Hit the Road (non interacive)'
+	'Sam and Max Hit the Road (non interacive)*'
 		=> array('http://www.lucasfiles.com/pafiledb.php?action=file&id=29', 'samdemo'),
 	'Sam and Max Hit the Road (interacive)'
-		=> array('http://www.lucasfiles.com/pafiledb.php?action=file&id=28', 'snmdemo'),
-	'Sam and Max Hit the Road WIP (interacive)'
+		=> array('ftp://ftp.lucasarts.com/demos/pc/Snmdemo.zip', 'snmdemo'),
+	'Sam and Max Hit the Road WIP (interacive)*'
 		=> array('http://files.mixnmojo.com/snmidemo.zip', 'snmidemo'),
-	'Putt-Putt Joins the Parade (DOS demo)'
+	'Putt-Putt Joins the Parade (DOS demo)*'
 		=> array('http://files.mixnmojo.com/puttpara.zip', 'puttdemo'),
-	'Putt-Putt Goes to the Moon (DOS demo)'
+	'Putt-Putt Goes to the Moon (DOS demo)*'
 		=> array('http://files.mixnmojo.com/moondemo.zip', 'moondemo'),
-	'Fatty Bear\'s Birthday Surprise (DOS demo)'
+	'Fatty Bear\'s Birthday Surprise (DOS demo)*'
 		=> array('http://files.mixnmojo.com/fatdemo.zip', 'fbdemo'),
-	'Full Throttle'
+	'Day of the Tentacle (non interactive)'
+		=> array('ftp://ftp.lucasarts.com/demos/pc/Dottdemo.zip', 'dottdemo'),
+	'Full Throttle*'
 		=> array('http://files.mixnmojo.com/ftdemo.zip', 'ft'),
-	'The Dig'
+	'The Dig*'
 		=> array('http://files.mixnmojo.com/digdemo.zip', 'dig'),
 	'The Curse of Monkey Island (web demo)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/cursedemo.exe', 'comi'),
-	'The Curse of Monkey Island (demo with movies)'
+	'The Curse of Monkey Island (demo with movies)*'
 		=> array('http://files.mixnmojo.com/m3demo.zip', 'comi'),
-	'Simon the Sorcerer'
+	'Simon the Sorcerer*'
 		=> array('http://files.mixnmojo.com/simon1demo.zip', 'simon1demo'),
-	'Simon the Sorcerer 2 Talkie'
+	'Simon the Sorcerer 2 Talkie*'
 		=> array('http://files.mixnmojo.com/simon2demo.zip', 'simon2talkie'),
-	'Beneath A Steel Sky (disk version demo)'
+	'Beneath A Steel Sky (disk version demo)*'
 		=> array('', 'sky'),
-	'Beneath A Steel Sky (talkie cd version demo)'
+	'Beneath A Steel Sky (talkie cd version demo)*'
 		=> array('', 'sky'),
 	'Broken Sword II'
 		=> array('http://ftp.se.kde.org/pub/pc/games/pcgameworld/demos/bs2-demo.zip', 'sword2demo')
