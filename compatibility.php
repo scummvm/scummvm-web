@@ -35,7 +35,8 @@ else
 	<p>
 	  This page lists the progress of ScummVM as it relates to individual game compatibility.<br>
 	  Click on the game name to view the complete notes of a game.
-	  <br>
+	  <br><br>
+	  <small>Last Updated: <? echo date("F d, Y",getlastmod()); ?></small>
 	</p>
 
 <?
