@@ -141,7 +141,7 @@ $notes = array(
 "simon2dos"     => "Game is completable.".
                    "<br>- Freezes briefly during sequence shown when trying to escape from pirate ship".
                    "<br>- No music".
-                  "<br>- Various minor graphical glitches"
+                  "<br>- Various minor graphical glitches",
 "simon2demo" 	=> "Game demo is completable".
                    "<br>- No music"
 );
