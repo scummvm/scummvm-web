@@ -81,10 +81,10 @@ $games = array(
 		'Indiana Jones 4 and the Fate of Atlantis (Demo)'	=> array('5','playfate','95'),
 		'Putt-Putt Joins The Parade (DOS Demo)'			=> array('6','puttdemo','70'),
 		'Putt-Putt Joins The Parade (DOS)'			=> array('6','puttputt','10'),
-		'Putt-Putt Goes To The Moon (DOS Demo)'			=> array('6','moondemo','20'),
+		'Putt-Putt Goes To The Moon (DOS Demo)'			=> array('6','moondemo','50'),
 		'Putt-Putt Goes To The Moon (DOS)'			=> array('6','puttmoon','20'),
 		'Putt-Putts Fun Pack'					=> array('6','funpack','20'),
-		'Fatty Bears Birthday Surprise (DOS Demo)'		=> array('6','fbdemo','20'),
+		'Fatty Bears Birthday Surprise (DOS Demo)'		=> array('6','fbdemo','70'),
 		'Fatty Bears Birthday Surprise (DOS)'			=> array('6','fbear','20'),
 		'Fatty Bears Fun Pack'					=> array('6','fbpack','20'),
 		'Day Of The Tentacle'					=> array('6','tentacle','95'),
@@ -186,14 +186,12 @@ $notes = array(
 		   "<br>- scummvm: scumm/akos.cpp:267: virtual byte AkosRenderer::drawLimb(const CostumeData&, int): Assertion `(code & 0xFFF) * 6 < READ_BE_UINT32((byte *)akof - 4) - 8' failed.".
 		   "<br>- talkie data not synced/properly implemented",
 "moondemo"	=> "Completable if you don't trigger one or two fatal animations".
-		   "<br>- cursor doesn't turn to arrow on the right hand side of the screen in the first room".
 		   "<br>- talkie data not synced/properly implemented",
 "funpack"	=> "Starts but mini games seem to have various problems".
 		   "<br>- Checkers: o6_actorOps: default case 218".
 		   "<br>- Puzzle blocks/Pinball/Remember/Cheese King/Tic-Tac-Toe: Works but colour isn't set properly so game is black and white".
 		   "<br>- talkie data not synced/properly implemented",
-"fbdemo"	=> "Fails assertion at the end of the intro".
-		   "<br>- scumm/resource.cpp:1222: void Scumm::nukeResource(int, int): Assertion `idx >= 0 && idx < res.num[type]' failed.",
+"fbdemo"	=> "Should be playable to the end".
 		   "<br>- talkie data not synced/properly implemented",
 "fbear"		=> "various errors that prevent the game from being completable".
 		   "<br>- talkie data not synced/properly implemented",
