@@ -51,6 +51,8 @@
 		E.g. between SDL vs. SDL_gl. Just like one can choose a midi driver. Currently one has to recompile for this.</p></li>
 		<li><p>Add a "help" ingame dialog which lists key shortcuts etc.</p></li>
 		<li><p>Add long style command line arguments that work in a portable manner across many systems ie --foo-bar as we are quickly running out of single letters to use for arguments, and they make more sense</p></li>
+		<li><p>Make handling of non ascii charsets work properly (ie kanji)</p></li>
+		<li><p>Improve support for non pc versions of games</p></li>
 	</ul>
 	<h3>New GUI</h3>
 	<ul>
@@ -104,7 +106,10 @@
 		<li><h4>Loom EGA</h4>
 		<ul>
 			<li>Add music and sound effects support</li>
-			<li>Drafts are not randomised and always seem to be cccc</li>
+			<li>Make reflect work on rusty see 
+			<a href="http://users.bigpond.net.au/tgray2/loom.s07">here</a> for a save. reflect is
+			affa in the save game</li>
+			<li>Make distaff save/restore correctly</li>
 		</ul>
 		<li><h4>Passport to Adventure</h4>
 		<ul>
@@ -130,6 +135,9 @@
 			<li>Track down more differences from lec scumm</li>
 			<li>Add code to playback XMI midi music</li>
 			<li>Radgametools video support possibly needed for newer games?</li>
+			<li>Add support for sound formats used in 3DO versions</li>
+			<li>Add support for SONG blocks/files</li>
+			<li>Add support for graphics formats used in 3DO versions (included in pc versions just not used)</li>
 			<li><i>Ask: khalek</i></li>
 		</ul>
 	</ul>
