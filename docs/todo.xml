@@ -128,7 +128,7 @@
 			<li>Check <a href="http://members.optusnet.com.au/wormmon/simon.html">Simon issues</a> for list of other bugs</li>
 			<li><i>Ask: olki, Kirben</i></li>
 		</ul>
-		<ul><h4>Humongous Games</h4>
+		<li><ul><h4>Humongous Games</h4>
 			<li>Support HE v7 indexfile blocks like DIRI etc</li>
 			<li>Add implementation for file related opcode stubs</li>
 			<li>Figure out remaining scale/akos differences</li>
@@ -136,6 +136,7 @@
 			<li>Add code to playback XMI midi music</li>
 			<li>Radgametools video support possibly needed for newer games?</li>
 			<li>Add support for sound formats used in 3DO versions</li>
+			<li>Improve handling of talkie files/blocks</li>
 			<li>Add support for SONG blocks/files</li>
 			<li>Add support for graphics formats used in 3DO versions (included in pc versions just not used)</li>
 			<li><i>Ask: khalek</i></li>
