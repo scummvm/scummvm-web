@@ -64,7 +64,7 @@ packs, can also be found below.
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-palmos.zip?download">PalmOS binary</a> <small>(530k zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-solaris8-sparc.tar.gz?download">Solaris 8 (Sparc) binary</a> <small>(1.0M .tar.gz)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-dreamcast-plainfiles.tar.bz2?download">Dreamcast plain files</a> <small>(1.3M zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-dreamcast-plainfiles.tar.bz2?download">Dreamcast Nero Image & Demos</a>	<small>3.7M zipfile</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-dreamcast-nero+demos.zip?download">Dreamcast Nero Image & Demos</a> <small>3.7M zipfile</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-HandheldPC_ARM.zip?download">HandheldPC ARM binary</a> <small>(1.0M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-HandheldPC_MIPS.zip?download">HandheldPC MIPS binary</a> <small>(1.3M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-HandheldPC_SH3.zip?download">HandheldPC SH3 binary</a> <small>(1.1M zipfile)</small></li>
