@@ -110,7 +110,7 @@ $notes = array(
                    "<br>- Introduction music doesn't auto stop, if introduction is skipped when music is playing".
                    "<br>- Some sound effects missing",
 "indy3ega"	=> "Game is completable".
-		   "<br>- Both Amiga and enchanced PC versions supported by this target".
+		   "<br>- Both Amiga and PC versions supported by this target".
                    "<br>- No music or sound effects",
 "indy3"         => "Game is completable" .
                    "<br>- No sound effects",
@@ -129,10 +129,10 @@ $notes = array(
                    "<br>- No sound effects",
 "monkey"	=> "No known problems - should be playable to the end",
 "monkey2"	=> "No known problems - should be playable to the end".
-		   "<br>- Both Amiga (Use Amiga option) and enchanced PC versions supported by this target".
+		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
 		   "<br>- No music or sound effects with Amiga version",
 "atlantis"	=> "No known problems - should be playable to the end".
-		   "<br>- Both Amiga (Use Amiga option) and enchanced PC versions supported by this target".
+		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
 		   "<br>- Both disk and cd PC versions are supported by this target".
 		   "<br>- Music loud on some systems, run with -m30 to lower music volume.".
 		   "<br>- No sound effects with Amiga version",
