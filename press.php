@@ -51,6 +51,10 @@ echo html_round_frame_start("Press","98%","",20);
 	   ><b>And the winners are...</b></a>, Game Tome, Jan 28, 2003
 	</p>
 
+	<p><a href="media/pczone.jpg"
+	   ><b>Reference to PocketSCUMM in an iPAQ blurb</b></a>, PC-Zone issue 123, December 2002
+	</p>
+
 	<p><a href="http://freshmeat.net/articles/view/543/"
 	   ><b>Linux Games, Category Review</b></a>, Freshmeat.net, August 31, 2002
 	</p>
