@@ -193,7 +193,7 @@ $notes = array(
 "fbpack"	=> "Game starts but various minigames have different problems".
 		   "<br>- Reversi/Go Fish/Lines and Boxes: o6_actorOps: case 218 graphics glitches".
 		   "<br>- Coloring: Painting has no effect".
-		   "<br>- Tangrams: Error(5:210:0x9BA2): Invalid opcode 'e9' (seekFile)",
+		   "<br>- Tangrams: Can only use central tangram piece",
 "tentacle"	=> "No known problems - should be playable to the end".
 		   "<br>- Both Mac and PC versions supported by this target".
 		   "<br>- Both disk and cd versions are supported by this target".
