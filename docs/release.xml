@@ -120,9 +120,9 @@ function bugs($buglist) {
 	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
 	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 <tr><td>Indy3 (EGA)</td>
-	<td>NONE</td>
+	<td>quietust 12/12</td>
 	<td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	<?php portStatus(array("Win32" => 1, "Linux" => 0, "DC" => 0,
 	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 <tr><td>Indy3 (VGA)</td>
 	<td>NONE</td>
@@ -130,9 +130,9 @@ function bugs($buglist) {
 	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
 	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 <tr><td>Loom (EGA)</td>
-	<td>NONE</td>
+	<td>quietust 12/12</td>
 	<td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0,
+	<?php portStatus(array("Win32" => 1, "Linux" => 0, "DC" => 0,
 	 "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 <tr><td>Loom (CD)</td>
 	<td>khalek 10/12</td>
