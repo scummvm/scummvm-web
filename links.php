@@ -101,7 +101,7 @@ it will know..
 	    </blockquote></td>
 	  </tr>
 
-	  <tr><td><a href="http://yarn.sourceforge.net/"><b>Yarn :: Dreamer's Guild SAGA Games</b></a></td></tr>
+	  <tr><td><a href="http://sourceforge.net/projects/yarn/"><b>Yarn :: Dreamer's Guild SAGA Games</b></a></td></tr>
 	  <tr>
 	    <td><blockquote>
 	    Yarn is an open source replacement for the SAGA adventure-game engine used for some of Dreamer's Guild's games including <i>Inherit The Earth</i> and <i>I Have No Mouth And I Must Scream</i>.
