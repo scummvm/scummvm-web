@@ -62,7 +62,7 @@ $games = array(
 		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','80'),
                 'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','85'),
 		'LOOM'							=> array('3','loom','0'),
-		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','5'),
+		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','20'),
 		'Passport to Adventure (Indy3, Monkey and Loom demos)'  => array('4','pass','20'),
                 'LOOM (256 color CD version)'                           => array('5','loomcd','90'),
 		'The Secret of Monkey Island (VGA Floppy)'		=> array('5','monkeyvga','90'),
@@ -111,9 +111,11 @@ $notes = array(
 "zak256"        => "Game is completable." .
                    "<br>- No sound effect looping" ,
 "loom"		=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Loom CD version",
-"monkeyega"	=> "Introduction locks up but music is played.<BR>SCUMM opcodes not implemented yet.",
+"monkeyega"	=> "At least partly payable".
+                   "<br>- No sound effects".
+                   "<br>- No music looping",
 "pass"		=> "At least partly payable".
-                   "<br>- Palette glitches".
+                   "<br>- No text dialog in indy3 demo".
                    "<br>- No sound effects",
 "loomcd"        => "Game is completable." .
                    "<br>- Various minor graphical glitches",
