@@ -21,6 +21,7 @@ echo html_round_frame_start("SCRP: Scripts","98%","",20);
 <H2>Introduction</H2>
 
 <p>Insert here
+</p>
 
 <h2>The SCUMM virtual machine</h2>
 
@@ -28,82 +29,81 @@ echo html_round_frame_start("SCRP: Scripts","98%","",20);
 version 6. Both virtual machines are simple byte-code machines with built-in
 cooperative threading; up to 25 threads can be run simultaneously.  Each thread
 gets 16 words of local storage. Up to 8192 words and 32768 bits of global
-storage are also available. (The word and bit storage areas occupy seperate
-address spaces.)
+storage are also available. The word and bit storage areas occupy seperate
+address spaces. The exception to this rule is Zak256, where both actually use
+the same memory (possibly this is also true for other older SCUMM versions).
+</p>
 
 <p>The V5 machine has hard-coded limits on 800 word variables and 2048 bit
 variables. All operations are done to and from a variable (global or local).
 The V6 machine can stores the number of variables in the <tt>MAXS</tt> resource
 in the index and uses a 100-word global stack for performing operations.
+</p>
 
 <p>Additional storage is supplied in Array resources. V5 requires arrays to be
 declared in the data file; V6 can define new ones on the fly, which means they
 can be used as a dynamic heap.
+</p>
 
 <H2>Pointers</H2>
 
 <p>Both V5 and V6 use a common system of encoding the address of something in
 memory. These are referred to as pointers. These come in several forms,
 depending on what is being pointed at.
+</p>
 
 <h4>Word variables</h4>
 
-<p><table class=bitfield>
-<tr><th>15</th>
-	<th></th>
-		<th>13</th>
-			<th>12</th>
-				<th></th>
-					<th>0</th></tr>
-<tr><td colspan=3>0</td>
-			<td colspan=3><i>address</i></td></tr>
+<table class=bitfield>
+<tr><th>15</th><th>14</th><th>13</th>	<th>12</th><th>&hellip;</th><th>0</th></tr>
+<tr><td>0</td><td>0</td><td>0</td>		<td colspan=3><i>address</i></td></tr>
 </table>
 
-<h4>Indirected word variables (V5 only)</h4>
+<p>This is a plain direct reference to the word global storage.
+</p>
 
-<p><table class=bitfield>
+<h4>Bit variables</h4>
+
+<table class=bitfield>
+<tr><th>15</th> 	<th>14</th><th>&hellip;</th><th>0</th></tr>
+<tr><td>1</td>		<td colspan=3><i>address</i></td></tr>
+</table>
+
+
+<h4>Local variables</h4>
+
+<table class=bitfield>
 <tr><th>15</th>
 	<th>14</th>
 		<th>13</th>
 			<th>12</th>
-				<th></th>
-					<th>0</th></tr>
-<tr><td colspan=3>1</td> 
-			<td colspan=3><i>address</i></td></tr>
-<tr><td colspan=2>0</td>
-		<td><i>I</i></td>
-			<td colspan=3><i>offset</i></td></tr>
-</table>
-
-<p>If the <i>I</i> bit is not set, the word address
-<I>address</I>+<I>offset</I> is used. If it is set, the word address
-<I>address</I>+[<I>offset</I>] is used instead.
-
-<p>[Where does the offset word go? It's unclear.]
-
-<h4>Bit variables</h4>
-
-<p><table class=bitfield>
-<tr><th>15</th> 	<th>14</th> 	<th></th>	<th>0</th>
-<tr><td>1</td>		<td colspan=3><i>address</i></td></tr>
-</table>
-
-<h4>Local variables</h4>
-
-<p><table class=bitfield>
-<tr><th>15</th>
-	<th></th>
-		<th>13</th>
-			<th>12</th>
-				<th></th>
+				<th>&hellip;</th>
 					<th>4</th>
 						<th>3</th>
-							<th></th>
+							<th>&hellip;</th>
 								<th>0</th></tr>
-<tr><td colspan=3>2</td>
+<tr><td>0</td><td>1</td><td>?</td>
 			<td colspan=3>0</td>
 						<td colspan=3><i>var no</i></td></tr>
 </table>
+
+<h4>Indirected word variables (V5 only)</h4>
+
+<table class=bitfield>
+<tr><th>15</th><th>14</th><th>13</th>	<th>12</th><th>&hellip;</th><th>0</th></tr>
+<tr><td>0</td><td>0</td><td>1</td> 
+			<td colspan=3><i>address</i></td></tr>
+<tr><td>0</td><td>0</td><td><i>I</i></td>
+			<td colspan=3><i>offset</i></td></tr>
+</table>
+
+<p>If bit 13 is set, then the next 16 bit word from the script is fetched
+(represented by the second row in the above graph).
+If the <i>I</i> bit of this second word is not set, the effective word address
+becomes <I>address</I>+<I>offset</I>. If it is set, the effective word address
+<I>address</I>+[<I>offset</I>] is used instead.
+</p>
+
 
 <H2>Threads</H2>
 
@@ -111,14 +111,17 @@ depending on what is being pointed at.
 executed out of a single script until it suspends for some reason; the flow of
 execution will then move on to the next script. Each script has the opportunity
 to run once per frame, with some exceptions.
+</p>
 
 <p>In V6, because the stack is shared among all threads, it is the script's
 responsibility to ensure that the stack is empty when executing an instruction
 that could cause the thread to be descheduled. Leaving items on the stack is
 highly dangerous! If state needs to be saved from one frame to the next, it
 should be stored in local variables.
+</p>
 
 <p>Threads may be in one of the following states:
+</p>
 
 <p><table class=list>
 <tr><th>State</th> <th>Meaning</th></tr>
