@@ -134,7 +134,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
     and in Debian unstable</p></li>
 
       <li><p><a name="1-10"></a><b>Does ScummVM run any non-SCUMM games?</b><br>
-        Yes. Currently the only non-SCUMM games supported are Simon The Sorcererand Beneath a Steel Sky. These games were added either because they were very
+        Yes. Currently the only non-SCUMM games supported are Simon The Sorcerer and Beneath a Steel Sky. These games were added either because they were very
 	similar to SCUMM (Simon) or we had the source code to them (BASS). We don't have any plans to support any other non-SCUMM games at this time. If we do, it will
 	be added to the <a href="compatibility.php">Compatibility List</a>.</p></li>
 	
