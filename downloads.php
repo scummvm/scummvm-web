@@ -70,9 +70,10 @@ echo html_round_frame_start("Download ScummVM","");
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1_slack-i486-2.tgz?download">SlackWare package</a> <small>(1.3M .tgz)</small></li>
 <!--
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-solaris8-sparc.tar.bz2?download">Solaris 8 (Sparc) binary</a> <small>(1.1M .tar.bz2)</small></li>
-
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-palmos.zip?download">PalmOS binary</a> <small>(1.0M zipfile)</small></li>
 -->
+
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-palmos.zip?download">PalmOS binary</a> <small>(1.9M zipfile)</small></li>
+
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-PocketPC2003_and_Smartphone2003.zip?download">PocketPC 2003 / Smartphone 2003 binary</a> <small>(1.3M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-PocketPC2002_and_Smartphone2002.zip?download">PocketPC 2002 / Smartphone 2002 binary</a> <small>(1.3M zipfile)</small></li>
 
@@ -121,8 +122,6 @@ echo html_round_frame_start("Download ScummVM","");
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-1mdk.i586.rpm?download">0.7.0 Mandrake package</a> <small>(1.1M RPM)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-solaris8-sparc.tar.bz2?download">0.7.0 Solaris 8 (Sparc) binary</a> <small>(1.1M .tar.bz2)</small></li>
-
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-palmos.zip?download">0.7.0 PalmOS binary</a> <small>(1.0M zipfile)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-dreamcast-plainfiles.tar.bz2?download">0.7.0 Dreamcast plain files</a> <small>(2.2M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-dreamcast-nero+demos.zip?download">0.7.0 Dreamcast Nero Image &amp; Demos</a> <small>4.7M zipfile</small></li>
