@@ -1,0 +1,11 @@
+<?
+$file_root = "../../..";
+
+// load libraries
+require($file_root."/include/"."incl.php");
+
+// start of html
+html_header("ScummVM Documentation", '<LINK HREF="doxygen.css" REL="stylesheet" TYPE="text/css">');
+sidebar_start();
+echo html_round_frame_start("$title","98%","",20);
+?>
