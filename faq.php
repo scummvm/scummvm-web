@@ -175,7 +175,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	inserted into your CD drive when you start ScummVM. If you have more than one CD drive in your
 	system. You can specify your CD drive using the -c command line parameter. See the
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
-	for more info.<br><br>
+	for more info. Note that CD audio doesn't work on Macintosh due to SDL not providing CD audio support.<br><br>
 
       <li><a name="3-2"></a><b>Does ScummVM support using MP3/Ogg files instead of CD audio?</b></li>
 	Yes. You can use LAME or some other CD audio conversion utility to convert your CD audio to MP3. Since
