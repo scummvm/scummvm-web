@@ -26,6 +26,8 @@
 		in the game but you can normally just leave the room.
 		<li>There should be an 'Object line' option as per the menu that will show the names of objects at the
 		bottom of the screen when they are moused over.
+		<li>language.tab is neither opened or parsed, until this is done all localised versions will only show
+		english strings.
 	</ul>
 <li>Sound:
 	<ul>
@@ -39,6 +41,8 @@ Easy way to reproduce (although it happens everywhere), start ComI with -d0 -b60
 		<li>Some text does not undraw correctly, again leaving behind artifacts (eg, conversation text, credits)
 		<li>Masking artifacts. See many animations, eg during insult sword fighting
 		<li>Verb coin is drawn behind inventory
+		<li>When specifying any non english language ie using -q de with any version of comi, ScummVM seems to segfault
+		in drawBitmap shortly after the intro.
 	</ul>
 <li>Conversation:
 	<ul>
@@ -58,6 +62,7 @@ Easy way to reproduce (although it happens everywhere), start ComI with -d0 -b60
 		frames of his 'throw hook' and 'standing at cannon' animation
 		<li>Lack of MouthSync and MusicMouthSync stuff causes odd actor speech animations 
 		(CVS hacked to generate random values... it's wrong, it's not synced, but it look better than nothing)
+		<li>Dinghy dog shrinks size after he bites you, use boot param 1000 to test
 	</ul>
 </ul>
 
