@@ -27,7 +27,7 @@
 	<p>Here is a list of things we plan to do for the future. Note that we don't promise to do any of these, nor when we will do them. It's just a list
 	of what we hope to be able to do one day.</p>
 	<ul>
-	<li>Music and sound effects in Indy3Vga, MonkeyEga and MonkeyVga</li>
+	<li>Music and sound effects in Indy3Ega, Indy3Vga, LoomEga, MonkeyEga and MonkeyVga</li>
 	<li>Proper Full Throttle support</li>
 	<li>Curse of Monkey Island support (we already have that partially in latest CVS!)</li>
 	<li>Maniac Mansion support</li>
@@ -61,8 +61,7 @@
 	<ul>
 		<li><h4>The DIG</h4>
 		<ul>
-			<li>Some in-game music issues
-			<li>See also the <a href="../compatibility.php?details=dig">compatibility page for The DIG</a></li>
+			<li>Some in-game music and sound issues</li>
 			<li><i>Ask: Ender</i></li>
 		</ul>
 		<li><h4>Monkey1EGA</h4>
