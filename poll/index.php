@@ -32,7 +32,7 @@ echo html_round_frame_start("Website Revamp contest poll","");
 	<td align="center"><a href="jeanm.png" target="_blank"><img src="jeanm-thumb.png" height="120" width="120" alt="jeanm"><br>jeanm</a></td>
 	</tr>
 	
-<tr><td coslpan="3" align="center">
+<tr><td colspan="3" align="center">
 <!-- // Begin Pollhost.com Poll Code // -->
 <form method=post action=http://poll.pollhost.com/vote.cgi>
 <table border=0 width=150 bgcolor=#EEEEEE cellspacing=0 cellpadding=2>
@@ -53,7 +53,7 @@ echo html_round_frame_start("Website Revamp contest poll","");
 
 
 	<p>For techincal reasons, the actual poll is hosted at an
-	external location. And somewhat annoyingly, it's adware-driven.
+	external location. And somewhat annoyingly, it's ads-driven.
 	
 	<p>
 	One final note: We do not promise anything regarding the outcome of the poll. In particular, we don't guarantee that 
