@@ -25,7 +25,7 @@ echo html_round_frame_start("Download ScummVM","");
 	<p>
 	  Downloads are hosted with SourceForge.net. If you have one of the supported systems, you can directly download
 	  the appropriate binary distribution. If you have another system, download the source and read the
-	  <a href="http://cvs.sourceforge.net/viewcvs.py/scummvm/scummvm/README?rev=release-0-6-1b">README</a>
+	  <a href="http://cvs.sourceforge.net/viewcvs.py/scummvm/scummvm/README?rev=release-0-7-0">README</a>
 	  file for directions on how to build ScummVM.
 	  If you have successfully ported ScummVM to a platform not listed, please drop us a note, telling which OS, etc.
 	  you used.
@@ -48,7 +48,7 @@ echo html_round_frame_start("Download ScummVM","");
 	<hr>
 	<a name="stable"></a>
 	<h3>0.7.0 Release binaries</h3>
-	<p>For a list of changes since the previous version, <a href="http://sourceforge.net/project/shownotes.php?release_id=257836">read the release notes</a>.
+	<p>For a list of changes since the previous version, <a href="http://sourceforge.net/project/shownotes.php?release_id=291976">read the release notes</a>.
 	<BR>
 	0.7.0 should be directly apt-get'able from Debian unstable (sid), and more packages for other platforms will be available in the upcoming week
 	</p>
