@@ -24,6 +24,7 @@
 		<li>There should be an 'Object line' option as per the menu that will show the names of objects at the
 		bottom of the screen when they are moused over.
 		<li>comi should default to normal not 2x graphics scaler.
+		<li>strings that contain PU_M EC_ SA_ should not reach playBundleSound() as they don't have audio equivalents.
 	</ul>
 <li>Sound:
 	<ul>
@@ -31,6 +32,7 @@
 		<li>The sound que fills up, resulting in a spew of warnings. This should never fill up anyway, so it's a bug.
 Easy way to reproduce (although it happens everywhere), start ComI with -d0 -b605, hit ctrl-g... eventually things will get spammy.
 		<li>Misimplementation of imGetMusicPosition kernel function breaks song sync in Part 3 intro
+		<li>Somehow the problem of guybrush not saying his responses in conversation has happened again...
 	</ul>
 <li>Graphics:
 	<ul>
