@@ -11,9 +11,14 @@ function sidebar_start ($specs_mode = false)
   
     global $file_root;
 
+// It would be nice to use a plain simple <div> here, for maximum layout 
+// flexibility. Sadly, due to a bug in Internet Explorer 6, we can't do this
+// (at least not as long as we want the page to render correctly in IE 6).
+// So we resort to using a table with two columns and one row.
+
 ?>
 
-<div id="sideBar">
+<table border=0 cellpadding=0 cellspacing=0><tr><td id=sideBar>
 
 <?
 
@@ -82,9 +87,7 @@ function sidebar_start ($specs_mode = false)
 	<p>
 		<a href="http://jigsaw.w3.org/css-validator/"><img src="http://jigsaw.w3.org/css-validator/images/vcss" width="88" height="31" alt="Valid CSS!" ></a>
 	</p>
-</div>
-<div id="main">
-
+</td><td id="main">
 <?
 }
 
@@ -92,7 +95,7 @@ function sidebar_end ()
 {
 ?>
 
-</div>
+</td></tr></table>
 
 <?
 }
