@@ -212,7 +212,7 @@ get you and eat your family, computer and house. And poop everywhere.
     </p>
 
 	<table border=0 cellpadding=5 cellspacing=0 style="margin-left: 3em;">
-	  <tr><td><a href="http://freesci.linuxgames.com/"><b>FreeSCI :: Sierra On-Line SCI Games</b></a></td></tr>
+	  <tr><td><a href="http://www.freesci.org/"><b>FreeSCI :: Sierra On-Line SCI Games</b></a></td></tr>
 	  <tr>
 	    <td style="padding-left: 3em;">
 	    The FreeSCI project is an attempt to create a portable interpreter written for Sierra
