@@ -408,7 +408,8 @@ echo html_frame_tr(
 $c = 0;
 // Ender - Added this
 if ($details) {
-	while (list($name,$array) = each(array_merge($gamesLucas, $gamesHE, $gamesOther)))
+	$arrayt = array_merge($gamesLucas, $gamesHE, $gamesOther);
+	while (list($name,$array) = each($arrayt))
 	{	
 
 		if ($array[1] == $details) {
