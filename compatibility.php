@@ -76,6 +76,7 @@ $games = array(
 		'Putt-Putts Fun Pack'					=> array('6','funpack','20'),
 		'Fatty Bears Birthday Surprise (DOS Demo)'		=> array('6','fbdemo','20'),
 		'Fatty Bears Birthday Surprise (DOS)'			=> array('6','fbear','20'),
+		'Fatty Bears Fun Pack'					=> array('6','fbpack','20'),
 		'Day Of The Tentacle'					=> array('6','tentacle','95'),
 		'Day Of The Tentacle (DEMO)'				=> array('6','dottdemo','95'),
                 'Sam & Max'                                             => array('6','samnmax','93'),
@@ -126,18 +127,30 @@ $notes = array(
 		   "<br>- Humongous talkie file format currently unknown".
 		   "<br>- Sound format used for sound effects could use more work".
 		   "<br>- Cursor is not placed at the right offset, so some of the hotspots are out a bit",
-"puttputt"	=> "Fails to start due to unimplemented opcode in bootscript (0xDA)".
-		   "<br>- Bootscript stops rather early on and doesn't get a chance to call other scripts".
+"puttputt"	=> "Fails to start after looking for seemingly non existent object (1)".
+		   "<br>- Adding a hack for objects < 17 seems to hack around it, not in CVS though as would prefer a proper fix".
 		   "<br>- Humongous talkie file format currently unknown",
-"puttmoon"	=> "Fails to start due to unimplemented opcode in bootscript (0xDA)".
-		   "<br>- Bootscript stops rather early on and doesn't get a chance to call other scripts".
+"puttmoon"	=> "Fails an AKOS related assertion shortly after starting".
+		   "<br>- scummvm: scumm/akos.cpp:267: virtual byte AkosRenderer::drawLimb(const CostumeData&, int): Assertion `(code & 0xFFF) * 6 < READ_BE_UINT32((byte *)akof - 4) - 8' failed.".
 		   "<br>- Humongous talkie file format currently unknown",
-"moondemo"	=> "Fails to start due to unimplemented opcode in bootscript (0xE0)".
+"moondemo"	=> "Can't go to next room due to cursor boundry being incorrect".
 		   "<br>- Humongous talkie file format currently unknown",
-"funpack"	=> "Unknown but probably fails to start in similiar manner to most other humongous dos based games",
-"fbdemo"	=> "Fails to start due to unimplemented opcode in bootscript (0xE0)".
+"funpack"	=> "Start but mini games seem to have various problems and generally not run".
+		   "<br>- Tic-Tac-Toe: Error(5:10:0xA8): Value 196 is out of bounds (0,31) in script 10 (Illegal palet slot 196)".
+		   "<br>- Pinball/Checkers/Remember: Similiar to above but different scripts".
+		   "<br>- Cheese King: Error(8:10002:0x8FD5): Invalid opcode 'd4'".
+		   "<br>- Puzzle blocks: Error(7:4:0x499): No items on stack to pop() for o6_startObjectEx (0x60) at [7-4]".
 		   "<br>- Humongous talkie file format currently unknown",
-"fbear"		=> "Assumed to Fail to start due to unimplemented opcode".
+"fbdemo"	=> "Fails shortly after starting on Error: akos_increaseAnim: invalid code 8006!".
+		   "<br>- Palette changes aren't handled right leaving game without colour".
+		   "<br>- Humongous talkie file format currently unknown",
+"fbear"		=> "Assumed to have some AKOS related issues".
+		   "<br>- Humongous talkie file format currently unknown",
+"fbpack"	=> "Game starts but various minigames have different problems".
+		   "<br>- Reversi: Error(2:206:0x451B): o6_actorOps: default case 218".
+		   "<br>- Lines and Boxes: Error(4:203:0x4BFC): Value 88 is out of bounds (0,31) in script 203 (Illegal palet slot 88)".
+		   "<br>- Go Fish: Error(3:202:0x99FD): Invalid opcode 'e2'".
+		   "<br>- Coloring/Tangrams: Error(6:209:0x40D5): Invalid opcode 'db'".
 		   "<br>- Humongous talkie file format currently unknown",
 "tentacle"	=> "No known problems - should be playable to the end",
 "dottdemo"	=> "No known problems - should be playable to the end",
