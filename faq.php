@@ -328,18 +328,18 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	the issue is not already known. In your bugreport please provide the following
 	information:
 
-	<dl>
-		<dt> ScummVM version (PLEASE test the latest CVS/Daily build)</dt>
-		<dt> Bug details, including instructions on reproducing it</dt>
-		<dt> Language of game (English, German, ...)</dt>
-		<dt> Version of game (talkie, floppy, ...)</dt>
-		<dt> Platform and Compiler (Win32, Linux, MacOS, ...)</dt>
-		<dt> Attach a save game if possible</dt>
-		<dt> If this bug only occurred recently, please note the last
+	<ul>
+		<li> ScummVM version (PLEASE test the latest CVS/Daily build)</li>
+		<li> Bug details, including instructions on reproducing it</li>
+		<li> Language of game (English, German, ...)</li>
+		<li> Version of game (talkie, floppy, ...)</li>
+		<li> Platform and Compiler (Win32, Linux, MacOS, ...)</li>
+		<li> Attach a save game if possible</li>
+		<li> If this bug only occurred recently, please note the last
 		  version without the bug, and the first version including   
 		  the bug. That way we can fix it quicker by looking at the
-		  changes made.</dt>
-	</dl>
+		  changes made.</li>
+	</ul>
 	</p></li>
 
       <li><p><a name="4-11"></a><b>I downloaded the Broken Sword packs from your site but the game won't run.</b><br>
