@@ -46,7 +46,7 @@ org). All amounts are expressed in USD.
  <tr><td>$100</td><td>Ender</td><td>FmTowns Zak, partial auction cost + shipping from Japan</td></tr>
  <tr><td>$25</td><td>Ender</td><td>Copy of Broken Sword 1/2</td></tr>
  <tr><td>$25</td><td>Ender</td><td>Hosting for skunkworks sub-projects 'Shadow' and 'Residual'</td></tr>
- <tr><td>$18</td><td>khalek</td><td>FmTowns Indy3, shipping from Japan</td></tr>
+ <tr><td>$18</td><td>khalek</td><td>FmTowns Loom, shipping from Japan</td></tr>
  <tr><td>$12.30</td><td>&nbsp;</td><td>Paypal banking costs</td></tr>
  </table>
  <BR>
