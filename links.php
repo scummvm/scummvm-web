@@ -23,6 +23,41 @@ echo html_round_frame_start("Links","98%","",20);
 	  <big><b>Links</b></big><br>
 	  <? echo html_line(); ?>
 	</p>
+
+	<b>Classic gaming news and help sites</b><? echo html_line(); ?>
+	<p>The following are links to sides that provide news and help on retro-gaming and other related news.</p>
+
+	<blockquote>
+	<table border=0 cellpadding=5 cellspacing=0>
+	  <tr><td><a href="http://vogons.zetafleet.com/"><b>VOGONS :: Very Old Games On New Systems</b></a></td></tr>
+	  <tr>
+	    <td><blockquote>
+	    VOGONS is a large forum site, offering supports and tips for people who need help running older
+	    classic games on their modern computers and operating systems. If you want to play a game that
+	    ScummVM doesn't support, this is the place to ask for help!
+	    </blockquote></td>
+	  </tr>
+
+	  <tr><td><a href="http://www.mixnmojo.com/"><b>MixNMojo :: The Purple LucasArts Fan Site</b></a></td></tr>
+	  <tr>
+	    <td><blockquote>
+	    MixNmojo is one of the longest running, and definatly largest, LucasArts sites out there. If your looking for
+information, hints, news... or even just a place to hang... with hosted and partnered sites catering for everything, the
+International House of Mojo should be your very first stop.
+	    </blockquote></td>
+	  </tr>
+
+	  <tr><td><a href="http://www.doublefine.com/news.htm"><b>DoubleFine :: Where taking over the word is a news scripts job</b></a></td></tr>
+	  <tr>
+	    <td><blockquote>
+            DoubleFine is the company of the lovable Tim Schafer, the genius behind some of the best of the worst gags and games in 
+LucasArts history. Go buy Psychonauts, their new game. Because if you don't, their super-intellegent news script will know.. Oh yes, 
+it will know..
+	    </blockquote></td>
+	  </tr>
+
+	</table>
+	</blockquote>
 	
 	<b>Other classic game engine open source projects</b><? echo html_line(); ?>
 	<p>The following are links to other classic game engine open source projects similar to ScummVM. 
@@ -32,7 +67,6 @@ echo html_round_frame_start("Links","98%","",20);
 
 	<blockquote>
 	<table border=0 cellpadding=5 cellspacing=0>
-	  
 	  <tr><td><a href="http://freesci.linuxgames.com/"><b>FreeSCI :: Sierra On-Line SCI Games</b></a></td></tr>
 	  <tr>
 	    <td><blockquote>
@@ -112,10 +146,10 @@ echo html_round_frame_start("Links","98%","",20);
 	</blockquote>
 
 	<b>GUI frontends for ScummVM</b><? echo html_line(); ?>
-	<p>Currently ScummVM has no real graphical user interface which would allow users
-	to specify options like the path to the game data or which music engine to use. Rather
-	you have to steer it via the command line. For those of you who are not comfortable
-	with this, here are some GUI frontends for ScummVM.
+	<p>
+Although ScummVM now includes a basic graphical user interface for adding and configuring basic game options, it is new and fairly
+incomplete. For those whom are not comfortable using the command line to access the more advanced options, here are some other
+GUI frontends for ScummVM.
 	</p>
 	<blockquote>
 	<table border=0 cellpadding=5 cellspacing=0>
