@@ -150,10 +150,10 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	full versions of Lucas Arts games. These requests will be ignored.</p></li>
 
       <li><p><a name="2-2"></a><b>Does ScummVM work with all versions of games?</b><br>
-	See <a href="#14">1.4 What games does ScummVM support?</a></p></li>
+	See <a href="#1-4">1.4 What games does ScummVM support?</a></p></li>
 	
       <li><p><a name="2-3"></a><b>Can I play through xxx (place your favorite SCUMM adventure here) ?</b><br>
-	See <a href="#14">1.4 What games does ScummVM support?</a></p></li>
+	See <a href="#1-4">1.4 What games does ScummVM support?</a></p></li>
 
       <li><p><a name="2-4"></a><b>Can I save/restore the game?</b><br>
 	Yes. Saving and restoring is already supported (ALT-1/9 to save, CTRL - 1/9 to restore, or
@@ -199,10 +199,10 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 
     <ol>
       <li><p><a name="4-1"></a><b>My game won't run.</b><br>
-      	First make sure your game is supported. See <a href="#14">1.4</a>. If it is a supported game and you
+      	First make sure your game is supported. See <a href="#1-4">1.4</a>. If it is a supported game and you
 	have followed the instructions in
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
-	to the letter, then see <a href="#46">4.6</a> to report this as a bug.</p></li>
+	to the letter, then see <a href="#4-6">4.6</a> to report this as a bug.</p></li>
 	
       <li><p><a name="4-2"></a><b>I don't hear any sound.</b><br>
       	Check the <a href="compatibility.php">compatibility list</a> to see if your game has sound support currently. You can
@@ -215,9 +215,9 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
 	for more info.</p></li>
       
-      <li><p><a name="4-3"></a><b>My game crashes at some point.</b><br>
+      <li><p><a name="4-4"></a><b>My game crashes at some point.</b><br>
       	Check the <a href="compatibility.php">Compatibility List</a> to see if your game has any known issues. If you can
-	reproduce this crash more than once, please report it to our Bug Tracker. See <a href="#46">4.6</a>.</p></li>
+	reproduce this crash more than once, please report it to our Bug Tracker. See <a href="#4-6">4.6</a>.</p></li>
       
       <li><p><a name="4-5"></a><b>The game colors are messed up.</b><br>
       	This is a known issue with using Amiga version datafiles. Use the -a command
