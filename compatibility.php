@@ -54,8 +54,8 @@ else
 
 // This Array Defines the games and thier ratings, etc.
 $games = array(
-		'Maniac Mansion (C64)'					=> array('1','maniacc64','0'),
-		'Zak McKracken and the Alien Mindbenders (C64)'		=> array('1','zakc64','0'),
+		'Maniac Mansion (C64)'					=> array('1','maniac64','5'),
+		'Zak McKracken and the Alien Mindbenders (C64)'		=> array('1','zak64','0'),
 		'Maniac Mansion'					=> array('2','maniac','53'),
 		'Zak McKracken and the Alien Mindbenders'		=> array('2','zak','53'),
 		'Indiana Jones and the Last Crusade'			=> array('3','indy3ega','80'),
@@ -99,8 +99,10 @@ $games = array(
 	      );
 
 $notes = array(
-"maniacc64" 	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format",
-"zakc64"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
+"maniac64" 	=> "Crashes when the next room is entered".
+                   "<br>- No actors shown".
+                   "<br>- No music or sound effects",
+"zak64"		=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
 "maniac"	=> "Enhanced version runs, although in-game there are still many things wrong".
 		   "<br>- Both Amiga and enchanced PC versions supported by this target".
 		   "<br>- No music or sound effects with Amiga version",
