@@ -61,6 +61,14 @@ echo html_round_frame_start("Links","98%","",20);
 	  </ul>
 	</p>
 
+<p>
+      <a href="http://zak256.sourceforge.net/"><b>Zak256 :: The Zak256 Project</b></a>
+	  <ul>
+	    The ZakMcKracken and the Alien Mindbenders in 256 colors project. This project is
+	    working to get this Towns-FM version of Zak translated and working.
+	  </ul>
+	</p>
+    
     <p>
       Know any other classic game projects?
       <a href="http://sourceforge.net/sendmessage.php?touser=339357" target="_blank">Let me know!</a>
