@@ -83,6 +83,8 @@ $games = array(
 		'Simon The Sorcerer 1 (DEMO)'          			=> array('n/a','simon1demo','80'),
 		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','80'),
 		'Simon The Sorcerer 2 Talkie (Dos)'       		=> array('n/a','simon2talkie','80'),
+		'Simon The Sorcerer 2 Talkie (Amiga)'       		=> array('n/a','simon2amiga','80'),
+		'Simon The Sorcerer 2 Talkie (Mac)'       		=> array('n/a','simon2mac','80'),
 		'Simon The Sorcerer 2 (Dos)'           			=> array('n/a','simon2dos','80'),
 		'Simon The Sorcerer 2 (DEMO)'          			=> array('n/a','simon2demo','80')
 	      );
@@ -145,7 +147,15 @@ $notes = array(
                    "<br>- Various minor graphical glitches",
 "simon2dos"     => "Game is completable.".
                    "<br>- No music".
-                  "<br>- Various minor graphical glitches",
+                   "<br>- Various minor graphical glitches",
+"simon2amiga"   => "Game is completable.".
+                   "<br>- Only English language is support".
+                   "<br>- No music".
+                   "<br>- Various minor graphical glitches",
+"simon2mac"     => "Game is completable.".
+                   "<br>- Only English language is support".
+                   "<br>- No music".
+                   "<br>- Various minor graphical glitches",
 "simon2demo" 	=> "Game demo is completable".
                    "<br>- No music"
 );
