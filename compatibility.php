@@ -175,23 +175,24 @@ $notes = array(
                    "<br>- Kanji version requires the FM Towns Font ROM",
 "playfate"	=> "No known problems - should be playable to the end",
 "puttdemo"	=> "Should be playable to the end".
-		   "<br>- talkie data not synced/properly implemented",
+		   "<br>- Some sound effects missing".
+		   "<br>- Talkie data not synced/properly implemented",
 "puttputt"	=> "Game should be completable, with several glitches".
                    "<br>- Various minor graphical glitches".
-		   "<br>- talkie data not synced/properly implemented",
+		   "<br>- Talkie data not synced/properly implemented",
 "puttmoon"	=> "Fails an AKOS related assertion shortly after starting".
 		   "<br>- scummvm: scumm/akos.cpp:267: virtual byte AkosRenderer::drawLimb(const CostumeData&, int): Assertion `(code & 0xFFF) * 6 < READ_BE_UINT32((byte *)akof - 4) - 8' failed.".
-		   "<br>- talkie data not synced/properly implemented",
-"moondemo"	=> "Completable if you don't trigger one or two fatal animations".
+		   "<br>- Talkie data not synced/properly implemented",
+"moondemo"	=> "Completable if you don't trigger one fatal animation".
 		   "<br>- talkie data not synced/properly implemented",
 "funpack"	=> "Starts but mini games seem to have various problems".
 		   "<br>- Checkers: o6_actorOps: default case 218".
 		   "<br>- Puzzle blocks/Pinball/Remember/Cheese King/Tic-Tac-Toe: Works but colour isn't set properly so game is black and white".
-		   "<br>- talkie data not synced/properly implemented",
+		   "<br>- Talkie data not synced/properly implemented",
 "fbdemo"	=> "Should be playable to the end".
-		   "<br>- talkie data not synced/properly implemented",
+		   "<br>- Talkie data not synced/properly implemented",
 "fbear"		=> "Playable up to decorating birthday cake, not completable".
-		   "<br>- talkie data not synced/properly implemented",
+		   "<br>- Talkie data not synced/properly implemented",
 "fbpack"	=> "Game starts but various minigames have different problems".
 		   "<br>- Reversi/Go Fish/Lines and Boxes: o6_actorOps: default case 218".
 		   "<br>- Coloring/Tangrams: Error(6:209:0x40D5): Invalid opcode 'db' (readFile)".
