@@ -44,11 +44,13 @@ echo html_round_frame_start("Credits","");
 	  			 "Lead developer");
 	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=12935">Max Horn</a>',
 	  			 'fingolfin', "Lead developer");
+	  add_person("David Eriksson", "twogood", "Engine: Flight of the Amazon Queen");
 	  add_person("Jonathan Gray", "khalek", "Engine: SCUMM");
 	  add_person("Robert G&ouml;ffringmann", "lavosspawn", "Engine: Beneath a Steel Sky");
 	  add_person("Oliver Kiehl", "olki", "Engine: Beneath a Steel Sky, Simon");
 	  add_person("Pawel Kolodziejski", "aquadran", "Engine: SCUMM (Codecs, iMUSE, Smush, etc.)");
-	  add_person("Joost Peters", "joostp", "Engine: Beneath a Steel Sky");
+	  add_person("Gregory Montoir", "cyx", "Engine: Flight of the Amazon Queen");
+	  add_person("Joost Peters", "joostp", "Engine: Beneath a Steel Sky, Flight of the Amazon Queen");
 	  add_person("Chris Apers ", "chrilith ", "Port: PalmOS");
 	  add_person("Nicolas Bacca", "arisme", "Port: PocketPC/WinCE");
 	  add_person("Marcus Comstedt", "", "Port: DreamCast");
