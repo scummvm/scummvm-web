@@ -38,7 +38,7 @@ else
 	
           <br><br>Please note this list applies to the English versions of games, we attempt to test many versions of games, however there are occasionally problems with other languages.
           Also, this is the compatibility of the current WIP CVS version, <B>not of the
-	  0.5.0 stable release</B>. The status of this release can be found on the 
+	  0.5.1 stable release</B>. The status of this release can be found on the 
 	  <a href="compatibility_stable.php">Stable Compatibility</A> chart.
           <br><br>
 	  <small>Last Updated: <? echo date("F d, Y",getlastmod()); ?></small>
