@@ -56,8 +56,8 @@ else
 $games = array(
 		'Maniac Mansion (C64)'					=> array('1','maniacc64','0'),
 		'Zak McKracken and the Alien Mindbenders (C64)'		=> array('1','zakc64','0'),
-		'Maniac Mansion'					=> array('2','maniacega','0'),
-		'Zak McKracken and the Alien Mindbenders'		=> array('2','zakega','0'),
+		'Maniac Mansion'					=> array('2','maniac','0'),
+		'Zak McKracken and the Alien Mindbenders'		=> array('2','zak','5'),
 		'Indiana Jones and the Last Crusade'			=> array('2','indy3ega','50'),
 		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','80'),
                 'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','85'),
@@ -101,8 +101,9 @@ $games = array(
 $notes = array(
 "maniacc64" 	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format",
 "zakc64"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
-"maniacega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format",
-"zakega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
+"maniac"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format",
+"zak"		=> "LucasArts logo screen is shown with Enchanced version".
+                   "<br>ScummVM doesn't understand the non-blocked LFL format",
 "indy3ega"	=> "Game is completable".
                    "<br>-Grail diary and biplane manual aren't drawn correctly".
                    "<br>- No music or sound effects",
