@@ -231,7 +231,7 @@ $notes = array(
 		   "<br>- Does not work on systems that require alignment".
 		   "<br>- No video for cutscenes",
 "queen"		 => "Only the introduction works so far.".
-		   "<br>- Requires queen.tbl resource file",
+		   "<br>- Requires <a href="http://0x.7fc1.org/fotaq/queen.tbl">queen.tbl</a> resource file",
 "simon1win" 	=> "No known problems - game is completable.",
 "simon1talkie" 	=> "Game is completable.".
                     "<br>- No inventory scrolling arrows shown, can still move around inventory though",
