@@ -10,11 +10,11 @@
 <tr><td>Jonathan Gray</td><td>[&nbsp;khalek&nbsp;]</td><td>Engine: SCUMM, HE, Broken Sword II</td>
 <tr><td>Travis Howell</td><td>[&nbsp;Kirben&nbsp;]</td><td>Engine: SCUMM, HE, Simon the Sorcerer</td>
 <tr><td>Oliver Kiehl</td><td>[&nbsp;olki&nbsp;]</td><td>Engine: Beneath a Steel Sky, Simon</td>
-<tr><td>Pawel Kolodziejski</td><td>[&nbsp;aquadran&nbsp;]</td><td>Engine: SCUMM (Codecs, iMUSE, Smush, etc)</td>
+<tr><td>Pawel Kolodziejski</td><td>[&nbsp;aquadran&nbsp;]</td><td>Engine: SCUMM (Codecs, iMUSE, Smush, etc.)</td>
+<tr><td>Andrew Kurushin</td><td>[&nbsp;ajax16384&nbsp;]</td><td>Engine: SAGA</td>
 <tr><td>Gregory Montoir</td><td>[&nbsp;cyx&nbsp;]</td><td>Engine: Flight of the Amazon Queen, HE</td>
 <tr><td>Joost Peters</td><td>[&nbsp;joostp&nbsp;]</td><td>Engine: Beneath a Steel Sky, Flight of the Amazon Queen</td>
 <tr><td>Eugene Sandulenko</td><td>[&nbsp;_sev&nbsp;]</td><td>Engine: SCUMM (FT INSANE), HE, SAGA</td>
-<tr><td>Andrew Kurushin</td><td>[&nbsp;ajax16384&nbsp;]</td><td>Engine: SAGA</td>
 <tr><td>Chris Apers</td><td>[&nbsp;chrilith &nbsp;]</td><td>Port: PalmOS</td>
 <tr><td>Nicolas Bacca</td><td>[&nbsp;arisme&nbsp;]</td><td>Port: PocketPC/WinCE</td>
 <tr><td>Marcus Comstedt</td><td></td><td>Port: Dreamcast</td>
