@@ -104,23 +104,11 @@ echo html_round_frame_start("Contact","98%","",20);
       <tr><td colspan=3>&nbsp;</td></tr>
       <tr><td colspan=3><b>Special thanks to:</b><? echo html_line(); ?></td></tr>
       
-      <tr>
-	    <td>Sander Buskens</td>
-	    <td></td>
-	    <td>- For his work on the initial reversing of Monkey2</td>
-	  </tr>
-
-      <tr>
-	    <td>Jimmi Th&oslash;gersen</td>
-	    <td></td>
-	    <td>- For ScummRev, and much obscure code/documentation</td>
-	  </tr>
-
-      <tr>
-	    <td>Kevin Carnes</td>
-	    <td></td>
-	    <td>- For Scumm16, the basis of ScummVM's older gfx codecs</td>
-	  </tr>
+	  <?php
+	  add_person("Sander Buskens", "", "For his work on the initial reversing of Monkey2");
+	  add_person("Jimmi Th&oslash;gersen", "", "For ScummRev, and much obscure code/documentation");
+	  add_person("Kevin Carnes", "", "For Scumm16, the basis of ScummVM's older gfx codecs");
+	  ?>
 
       <tr><td colspan=3>&nbsp;</td></tr>
       <tr><td colspan=3>
