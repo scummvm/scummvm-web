@@ -40,10 +40,10 @@ echo html_round_frame_start("Credits","");
       <tr><td colspan=3><h2>The ScummVM team:</h2></td></tr>
       
 	  <?php
-	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=2715" target="_blank">James Brown</a>',
+	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=2715">James Brown</a>',
 	  			 '<a href="http://www.enderboi.com/">endy</a>',
 	  			 "Lead developer");
-	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=12935" target="_blank">Max Horn</a>',
+	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=12935">Max Horn</a>',
 	  			 'fingolfin', "Lead developer");
 	  add_person("Jonathan Gray", "khalek", "Engine: SCUMM");
 	  add_person("Robert G&ouml;ffringmann", "lavosspawn", "Engine: Beneath a Steel Sky");
@@ -60,7 +60,7 @@ echo html_round_frame_start("Credits","");
 	  add_person("Torbj&ouml;rn Andersson", "eriktorbjorn", "Generic Bugfixer and Patch Submitter");
 	  add_person("Jamieson Christian", "jamieson630", "iMuse, MIDI, all things musical");
 	  add_person("Jochen Hoenicke", "hoenicke", "Speaker & PCjr sound support, Adlib work");
-	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=339357" target="_blank">Jeremy Newman</a>',
+	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=339357">Jeremy Newman</a>',
 	  			 '<a href="http://www.dracowulf.com/">laxdragon</a>', "Webmaster");
 	  ?>
   
@@ -69,7 +69,7 @@ echo html_round_frame_start("Credits","");
       
 	  <?php
 	  add_person("Ralph Brorsen", "painelf", "Help with GUI Implementation");
-	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=345958" target="_blank">Vincent Hamm</a>',
+	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=345958">Vincent Hamm</a>',
 	  			 'yazoo', "Co-Founder");
 	  add_person("Felix Jakschitsch", "yot", "Zak256 reverse engineering");
 	  add_person("Mutwin Kraus", "mutle", "Original MacOS Porter");

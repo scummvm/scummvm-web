@@ -94,7 +94,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	"Maniac Mansion" and was used later, with some modifications, for Zak McKracken and
 	the Alien Mindbenders. Development on the SCUMM system continued for some time,
 	and was used in Loom, Indiana Jones and the Last Crusade, Indiana Jones and the Fate
-	of Atlantis, Monkey Island 1,2,3, Sam & max Hit the Road, Day of the Tentacle, The Dig
+	of Atlantis, Monkey Island 1,2,3, Sam & Max Hit the Road, Day of the Tentacle, The Dig
 	and Full Throttle.</p></li>
 
       <li><p><a name="1-3"></a><b>Is ScummVM free?</b><br>
@@ -245,16 +245,16 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a> 
 	or command line help for further information.</p></li>
       
-      <li><p><a name="4-7"></a><b>How do I make my mac version of a game work?</b></br>
+      <li><p><a name="4-7"></a><b>How do I make my mac version of a game work?</b><br>
       	The majority of mac versions won't work without first extracting the resources into a format ScummVM
 	understands.  To do this you need to use the rescumm tool in the scummvm-tools package.
-	An example usage might look like: <i>rescumm "Sam &em; Max Demo Data"</i>.  Some CDs may appear to
+	An example usage might look like: <i>rescumm "Sam &amp; Max Demo Data"</i>.  Some CDs may appear to
 	only contain a application, in which case there is still a seperate data file but it is invisible.  
 	The older games which have LFL files should only need the --platform=macintosh option to run.</p></li>
       
       <li><p><a name="4-8"></a><b>Reporting Bugs.</b><br>
       	To report a bug, please create a SourceForge account and follow the
-	<a href="http://sourceforge.net/tracker/?atid=418820&group_id=37116&func=browse">bugs</a>
+	<a href="http://sourceforge.net/tracker/?atid=418820&amp;group_id=37116&amp;func=browse">bugs</a>
 	link from our homepage. Please make sure the bug is reproducible, and 
 	still exists in the latest daily build/current CVS version. Also check the
 	<a href="compatibility.php">compatibility listing</a> for that game to ensure

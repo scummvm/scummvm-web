@@ -85,7 +85,7 @@ echo html_round_frame_start("Downloads","");
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.1-solaris8-sparc.tar.gz?download">Solaris 8 (Sparc) binary</a> <small>(789k .tar.gz)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.1-dreamcast-plainfiles.tar.bz2?download">Dreamcast plain files</a> <small>(750k zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.1-dreamcast-nero.zip?download">Dreamcast CD-ROM image for Nero</a> <small>(2.9M zipfile)</small></li>
-	  <hr/>
+	  <hr>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.1-HandheldPC_ARM.zip?download">HandheldPC ARM binary</a> <small>(691k zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.1-HandheldPC_MIPS.zip?download">HandheldPC MIPS binary</a> <small>(776k zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.5.1-HandheldPC_SH3.zip?download">HandheldPC SH3 binary</a> <small>(725k zipfile)</small></li>
