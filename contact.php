@@ -69,7 +69,7 @@ echo html_round_frame_start("Contact","98%","",20);
 
 	  <tr>
 	    <td>Nicolas Bacca</td>
-	    <td></td>
+	    <td>[ arisme ]</td>
 	    <td>- PocketPC/WinCE port</td>
 	  </tr>
       
@@ -168,7 +168,7 @@ echo html_round_frame_start("Contact","98%","",20);
 
       <tr>
 	    <td>Felix Jakschitsc</td>
-	    <td></td>
+	    <td>[ yot ]</td>
 	    <td>- His hard work on Zak256</td>
 	  </tr>
 
