@@ -69,7 +69,12 @@ $games = array(
 		'Monkey Island 2: LeChuck\'s revenge'			=> array('5','monkey2','95'),
 		'Indiana Jones 4 and the Fate of Atlantis'		=> array('5','atlantis','95'),
 		'Indiana Jones 4 and the Fate of Atlantis (DEMO)'	=> array('5','playfate','95'),
-		'Putt-Putt Joins The Parade (Demo)'			=> array('6','puttdemo','70'),
+		'Putt-Putt Joins The Parade (DOS Demo)'			=> array('6','puttdemo','70'),
+		'Putt-Putt Joins The Parade (DOS)'			=> array('6','puttputt','20'),
+		'Putt-Putt Goes To The Moon (DOS Demo)'			=> array('6','moondemo','20'),
+		'Putt-Putt's Fun Pack'					=> array('6','funpack','20'),
+		'Fatty Bear's Birthday Surprise (DOS Demo)'		=> array('6','fbdemo','20'),
+		'Fatty Bear's Birthday Surprise (DOS)'			=> array('6','fbdemo','20'),
 		'Day Of The Tentacle'					=> array('6','tentacle','95'),
 		'Day Of The Tentacle (DEMO)'				=> array('6','dottdemo','95'),
                 'Sam & Max'                                             => array('6','samnmax','93'),
@@ -120,6 +125,15 @@ $notes = array(
 		   "<br>- Humongous talkie file format currently unknown".
 		   "<br>- Sound format used for sound effects could use more work".
 		   "<br>- Cursor is not placed at the right offset, so some of the hotspots are out a bit",
+"puttputt"	=> "Fails to start due to unimplemented opcode".
+		   "<br>- Humongous talkie file format currently unknown",
+"moondemo"	=> "Fails to start due to unimplemented opcode".
+		   "<br>- Humongous talkie file format currently unknown",
+"funpack"	=> "Unknown but probably fails to start in similiar manner to most other humongous dos based games",
+"fbdemo"	=> "Fails to start due to unimplemented opcode".
+		   "<br>- Humongous talkie file format currently unknown",
+"fbear"		=> "Assumed to Fail to start due to unimplemented opcode".
+		   "<br>- Humongous talkie file format currently unknown",
 "tentacle"	=> "No known problems - should be playable to the end",
 "dottdemo"	=> "No known problems - should be playable to the end",
 "samnmax"	=> "No major problems - should be playable to the end".
