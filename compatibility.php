@@ -80,12 +80,12 @@ $games = array(
 		'Indiana Jones 4 and the Fate of Atlantis'		=> array('5','atlantis','95'),
 		'Indiana Jones 4 and the Fate of Atlantis (Demo)'	=> array('5','playfate','95'),
 		'Putt-Putt Joins The Parade (DOS Demo)'			=> array('6','puttdemo','70'),
-		'Putt-Putt Joins The Parade (DOS)'			=> array('6','puttputt','10'),
+		'Putt-Putt Joins The Parade (DOS)'			=> array('6','puttputt','70'),
 		'Putt-Putt Goes To The Moon (DOS Demo)'			=> array('6','moondemo','50'),
 		'Putt-Putt Goes To The Moon (DOS)'			=> array('6','puttmoon','20'),
 		'Putt-Putts Fun Pack'					=> array('6','funpack','20'),
 		'Fatty Bears Birthday Surprise (DOS Demo)'		=> array('6','fbdemo','70'),
-		'Fatty Bears Birthday Surprise (DOS)'			=> array('6','fbear','20'),
+		'Fatty Bears Birthday Surprise (DOS)'			=> array('6','fbear','50'),
 		'Fatty Bears Fun Pack'					=> array('6','fbpack','20'),
 		'Day Of The Tentacle'					=> array('6','tentacle','95'),
 		'Day Of The Tentacle (Demo)'				=> array('6','dottdemo','95'),
@@ -176,8 +176,8 @@ $notes = array(
 "playfate"	=> "No known problems - should be playable to the end",
 "puttdemo"	=> "Should be playable to the end".
 		   "<br>- talkie data not synced/properly implemented",
-"puttputt"	=> "Fails to start after looking for seemingly non existent object (1)".
-		   "<br>- Adding a hack for objects < 17 seems to hack around it, not in CVS though as would prefer a proper fix".
+"puttputt"	=> "Game should be completable, with several glitches".
+                   "<br>- Various minor graphical glitches".
 		   "<br>- talkie data not synced/properly implemented",
 "puttmoon"	=> "Fails an AKOS related assertion shortly after starting".
 		   "<br>- scummvm: scumm/akos.cpp:267: virtual byte AkosRenderer::drawLimb(const CostumeData&, int): Assertion `(code & 0xFFF) * 6 < READ_BE_UINT32((byte *)akof - 4) - 8' failed.".
@@ -190,7 +190,7 @@ $notes = array(
 		   "<br>- talkie data not synced/properly implemented",
 "fbdemo"	=> "Should be playable to the end".
 		   "<br>- talkie data not synced/properly implemented",
-"fbear"		=> "various errors that prevent the game from being completable".
+"fbear"		=> "Playable up to decorating birthday cake, not completable".
 		   "<br>- talkie data not synced/properly implemented",
 "fbpack"	=> "Game starts but various minigames have different problems".
 		   "<br>- Reversi/Go Fish/Lines and Boxes: o6_actorOps: default case 218".
