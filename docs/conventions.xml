@@ -86,7 +86,7 @@
 		<h2>6. Naming</h2>
 		<ol style="list-style: none;">
 			<li><h3>Constants</h3><br>
-			Basically, you have to choices:
+			Basically, you have two choices:
 			<pre>
 	kSomeKludgyConstantName		// notice k prefix
 			</pre>
