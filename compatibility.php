@@ -63,7 +63,7 @@ else
 $games = array(
 		'Maniac Mansion (original)'				=> array('1','maniac','70'),
 		'Maniac Mansion (enhanced)'				=> array('2','maniac','80'),
-		'Zak McKracken and the Alien Mindbenders (original)'	=> array('1','zak','50'),
+		'Zak McKracken and the Alien Mindbenders (original)'	=> array('1','zak','70'),
 		'Zak McKracken and the Alien Mindbenders (enhanced)'	=> array('2','zak','80'),
 		'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','90'),
 		'Indiana Jones and the Last Crusade'			=> array('3','indy3ega','80'),
@@ -118,7 +118,7 @@ $notes = array(
 		   "<br>- Various graphical glitches in Classic PC version".
 		   "<br>- No music or sound effects with Amiga version",
 "zak"		=> "Enhanced PC version is completable, with several minor glitches".
-		   "<br>Classic version still in progress, results may vary".
+		   "<br>Classic version should be completable, with several glitches".
 		   "<br>- Amiga (Use Amiga option), Atari ST and PC versions supported by this target".
 		   "<br>- Actor masking is broken in Classic PC version".
 		   "<br>- Various graphical glitches in Classic PC version".
