@@ -62,6 +62,7 @@ echo html_round_frame_start("Credits","");
 	  add_person("Torbj&ouml;rn Andersson", "eriktorbjorn", "Generic Bugfixer and Patch Submitter");
 	  add_person("Jamieson Christian", "jamieson630", "iMuse, MIDI, all things musical");
 	  add_person("Jochen Hoenicke", "hoenicke", "Speaker & PCjr sound support, Adlib work");
+	  add_person("Jerome Fisher", "KingGuppy", "MT-32 emulator");
 	  add_person('<a href="http://sourceforge.net/sendmessage.php?touser=339357">Jeremy Newman</a>',
 	  			 '<a href="http://www.dracowulf.com/">laxdragon</a>', "Webmaster");
 	  ?>
