@@ -28,7 +28,9 @@ class htmlmenu {
 
     function done($extra = "")
     {
-    	echo "<div class='footer'><div class='footerRight'>&nbsp;</div></div></div><br>\n";
+		echo "<div class='footer'><div class='footerRight'>&nbsp;</div></div></div>\n";
+		echo $extra;
+		echo "<br>\n";
     }
 }
 ?>
