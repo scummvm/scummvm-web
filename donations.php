@@ -17,24 +17,22 @@ html_header("ScummVM");
 sidebar_start();
 
 //display donations
-echo html_round_frame_start("ScummVM Donations","98%","",20);
-echo html_frame_start("","100%",1,1);
+echo html_round_frame_start("ScummVM Donations","",20);
 
-echo html_frame_tr(html_frame_td(html_b("Donations").html_br(). html_line()));
 ?>
-<tr><td><small>Donation status last updated: <? echo date("F d, Y",getlastmod());?></small><br></td></tr>
-<tr><td>ScummVM gladly accepts donations to help us with various expenses.
+<h1>Donations</h1>
+<small>Donation status last updated: <? echo date("F d, Y",getlastmod());?></small><br>
+<p>ScummVM gladly accepts donations to help us with various expenses.
 In the interest of public disclosure, this page keeps a running tally of donations and
 expenses incurred by the project. For privacy and logistic reasons, individual contributors
-names and amounts are usually not listed.<br><br>
+names and amounts are usually not listed.</p>
 
-If you wish to donate money, you may do so using the PayPal service by clicking the button
+<p>If you wish to donate money, you may do so using the PayPal service by clicking the button
 underneath the left menu. We also welcome other forms of donations - if you have something
 you wish to contribute then please feel free to contact us via e-mail (donate @ scummvm dit
 org). All amounts are expressed in USD.
-<BR><BR>
-</td></tr>
-<tr><td>
+</p>
+
  <U>Donations:</U><BR>
  &nbsp;&nbsp; Prior to page: $80, carried over from previous donations<BR>
  &nbsp;&nbsp; August 2003: $166 in 12 donations<BR>
@@ -51,9 +49,7 @@ org). All amounts are expressed in USD.
  </table>
  <BR>
  <U>Current Balance:</U> <B>$65.70</B>
-</td></tr>
  <?
-echo html_frame_end();
 echo html_round_frame_end("&nbsp;");
 //end of donations display
 
