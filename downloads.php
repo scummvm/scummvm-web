@@ -28,7 +28,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 	<p>
 	  Downloads are hosted with SourceForge.net. If you have one of the supported systems, you can directly download
 	  the appropriate binary distribution. If you have another system, download the source and read the
-	  <a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/scummvm/scummvm/readme.txt?rev=1.11">readme.txt</a>
+	  <a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/scummvm/scummvm/readme.txt?rev=HEAD">readme.txt</a>
 	  file for directions on how to build ScummVM.<br><br>
 
 	  If you have successfully ported ScummVM to a platform not listed, please drop us a note, telling which OS, etc.
@@ -38,9 +38,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  page. To quickly get the binary executable from that page, download the .gz from the column of the OS you use. Then
 	  simply rename the file to it&#146;s executable form.<br>
 	  For example on Win32: rename scummvm-20020122_stripped.gz scummvm.exe<br><br>
-	</p>
 
-	<p>
 	  View the <a href="/daily/ChangeLog">ChangeLog</a> to see the latest updates of ScummVM
 	</p>
 	
