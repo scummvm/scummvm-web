@@ -43,12 +43,13 @@ echo html_round_frame_start("About ScummVM","98%","",20);
 	<tr valign="top">
 	  <td width="100%">
 		<p>
-		  <big><b>What is ScummVM?</b></big><br>
+		  <big><b>What is <font color=green>Scumm</font>VM?</b></big><br>
 		  <? echo html_line(); ?>
 		</p>
 
 		<p>
-		ScummVM is an implementation of LucasArts S.C.U.M.M. (<i>Script Creation Utility for Maniac Mansion</i>)
+		ScummVM is an implementation of LucasArts <font color=green>S.C.U.M.M.</font>
+		<font color="#666666">(<i>Script Creation Utility for Maniac Mansion</i>)</font>
 		interpreter, used in games such as Monkey Island, Indiana Jones, Day Of The Tentacle,
 		Sam and Max, and many more. Some things are still missing, and some games cannot be completeted yet.
 		There are quite a few known bugs. Regardless of the bugs it is still possible to play some games
@@ -110,7 +111,7 @@ while (list($key,$item) = each($news))
 	echo html_frame_tr(
 			    html_frame_td(
 			    		   display_xml($file_root."/news/".$item,'IMG').
-					   "<p><big><b>".display_xml($file_root."/news/".$item,'DATE').": ".
+					   "<p><big><b><font color=\"#666666\">".display_xml($file_root."/news/".$item,'DATE')."</font>: ".
 					   display_xml($file_root."/news/".$item,'NAME')."</b></big><br>\n".
 					   html_line()."</p>\n"."<blockquote>\n".
 					   display_xml($file_root."/news/".$item,'BODY')."</blockquote>\n".

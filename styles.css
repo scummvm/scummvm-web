@@ -31,8 +31,8 @@ SMALL		{ font-family: Helvetica, Arial; font-size: 8pt; }
 /* Menu Config */
 .menuTitle	{ font-family: Helvetica, Arial; font-size: 8pt; color: #ffffff; font-weight: bold; }
 .menuItem 	{ font-family: Helvetica, Arial; font-size: 10pt; color: #ffffff; }
-.topMenu	{ background-color: #73106b; }
-.sideMenu	{ background-color: #52208b; }
+.topMenu	{ background-color: #73106b; background-image: url('images/topmenu_bg.png'); }
+.sideMenu	{ background-color: #52208b; background-image: url('images/sidebar_bg.png'); }
 
 /* Misc */
 .small		{ font-family: Helvetica, Arial; font-size: 8pt; color: #ffffff; }
@@ -43,11 +43,11 @@ TD.label	{ font-weight: bold }
 
 /* Generic Buttons */
 .button		{ background-color: #666666; color: #ffffff; font-family: Helvetica, Arial; font-size: 10pt;
-                   groove #000000; padding: 0; }
+                   groove: #000000; padding: 0; }
 
 /* Hidden Field */
 .hiddenfield	{ background-color: #ffffff; color: #666666; font-family: Helvetica, Arial; font-size: 10pt;
-                  groove #ffffff; padding: 0; }
+                  groove: #ffffff; padding: 0; }
 
 /* Percentage Colors */
 .pct0   	{ background-color: #ff5050; }

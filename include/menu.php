@@ -18,14 +18,14 @@ class htmlmenu {
 	}
 
         echo "<table width=120 border=0 cellspacing=0 cellpadding=0>\n";
-        echo "<tr class=topMenu>\n";
-	echo "  <td width='100%'><span class=menuTitle>&nbsp;$name</span></td>\n";
-        echo "  <td align=right valign=top><img src='".$file_root."/images/main_right_top.gif' border=0 alt='---'></td>\n";
+        echo "<tr>\n";
+	echo "  <td width='100%' class=topMenu><span class=menuTitle>&nbsp;$name</span></td>\n";
+        echo "  <td align=right valign=top class=topMenu><img src='".$file_root."/images/main_right_top.gif' border=0 alt='---'></td>\n";
         echo " </tr>\n";
         echo "</table>\n";
         echo  "<table width=120 border=0 cellspacing=0 cellpadding=2>\n";
-        echo "<tr class=sideMenu>\n";
-        echo "  <td><img src='".$file_root."/images/blank.gif' border=0 height=5 width=1 alt='---'></td>\n";
+        echo "<tr>\n";
+        echo "  <td class=sideMenu><img src='".$file_root."/images/blank.gif' border=0 height=5 width=1 alt='---'></td>\n";
         echo "</tr>\n";	
     }
 
@@ -34,15 +34,15 @@ class htmlmenu {
     {
 	if($url)
 	{
-	    echo "  <tr class=sideMenu><td width='100%'><span class=menuItem>&nbsp;<a href='$url' class=menuItem>$name</a></span></td></tr>\n";
+	    echo "  <tr><td width='100%' class=sideMenu><span class=menuItem>&nbsp;<a href='$url' class=menuItem>$name</a></span></td></tr>\n";
 	} else {
-	    echo "  <tr class=sideMenu><td width='100%'><span class=menuItem>&nbsp;$name</span></td></tr>\n";
+	    echo "  <tr><td width='100%' class=sideMenu><span class=menuItem>&nbsp;$name</span></td></tr>\n";
 	}
     }
 
     function addmisc($stuff, $align = "left")
     {
-	echo " <tr class=sideMenu><td width='100%' align=$align><span class=menuItem>&nbsp;$stuff</span></td></tr>\n";
+	echo " <tr><td width='100%' class=sideMenu align=$align><span class=menuItem>&nbsp;$stuff</span></td></tr>\n";
     }
 
     function done($form = null, $extra = "")
@@ -51,8 +51,8 @@ class htmlmenu {
 
 	echo "</table>\n";
         echo "<table width=120 border=0 cellspacing=0 cellpadding=0>\n";
-        echo "<tr class=sideMenu>\n";
-        echo "  <td align=right><img src='".$file_root."/images/main_right_bottom.gif' border=0 alt='---'></td>\n";
+        echo "<tr>\n";
+        echo "  <td align=right class=sideMenu><img src='".$file_root."/images/main_right_bottom.gif' border=0 alt='---'></td>\n";
         echo "</tr>\n";
         echo "</table>";
 	echo $extra;
