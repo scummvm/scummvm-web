@@ -12,7 +12,7 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("ScummVM :: Compatibility - 0.6.1");
+html_header("ScummVM :: Compatibility - 0.6.1b");
 sidebar_start();
 
 //display welcome table
@@ -34,7 +34,7 @@ else {
 
           <br><br>Please note this list applies to the English versions of games, we attempt to test many versions of games, however there are occasionally
            problems with other languages.
-          Also, this is the compatability of the 0.6.1 stable release, <B>not of CVS
+          Also, this is the compatability of the 0.6.1b stable release, <B>not of CVS
           snapshots/daily builds</B>. The status of these can be found on the <a
           href="compatibility.php">CVS Compatibility</A> chart.
           <br><br>
