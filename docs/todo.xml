@@ -88,14 +88,14 @@
 		<li><h4>Full Throttle</h4>
 		<ul>
 			<li>INSANE supported required</li>
-			<li>Demo has various issues that need to be looked at<li>
+			<li>Demo has various issues that need to be looked at</li>
 			<li><i>Ask: Ender, aquadran</i></li>
 		</ul>
-		<li><h4>Indiana Jones and The Last Crusade EGA</h4>
+		<li><h4>Indiana Jones and the Last Crusade EGA</h4>
 		<ul>
 			<li>Add music and sound effects support</li>
 		</ul>
-		<li><h4>Indiana Jones and The Last Crusade</h4>
+		<li><h4>Indiana Jones and the Last Crusade</h4>
 		<ul>
 			<li>Fix music support and add sound effects support</li>
 			<li>Correct random walkbox issues</li>
@@ -120,9 +120,9 @@
 		</ul>
 		<li><h4>Simon the Sorcerer 1 & 2</h4>
 		<ul>
-			<li>Add proper tranparency support</li>
+			<li>Add complete transparency support</li>
 			<li>Add XMI music support for simon2dos/talkie</li>
-			<li>Add proper music support for Simon the Sorcerer 2</li>
+			<li>Add complete music support for Simon the Sorcerer 2</li>
 			<li>Check <a href="http://members.optusnet.com.au/wormmon/simon.html">Simon issues</a> for list of other bugs</li>
 			<li><i>Ask: olki, Kirben</i></li>
 		</ul>
