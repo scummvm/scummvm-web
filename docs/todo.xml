@@ -1,116 +1,103 @@
 <NAME>ScummVM current areas of focus</NAME>
 <DESC>This page is the current TODO list for ScummVM.</DESC>
 <BODY>
-		<style>
-			h2 {
-				margin-bottom: 0px;
-			}
-			h3 {
-				margin-bottom: 0px;
-			}
+	<h1>ScummVM current areas of focus</h1>
+	
+	<h2>Introduction</h2>
+	<p>
+		If you want to dig in, this is the place to find out what we're
+		currently working on (or hoping somebody will pick it up for us,
+		you never know). This is the stuff where you might make the most
+		useful contribution, right now. Note that this is never complete,
+		and may be partially outdated, so just because you don't see it
+		here doesn't mean it is not important.
+	</p>
+	<p>Before you start work on something, you might want to talk to
+		somebody from the team. This will help us to prevent double work,
+		i.e. several people working on the same stuff at once without
+		knowing about each other.
+	</p>
+	<p>
+		Finally, always make sure to check out our <a href="http://sourceforge.net/tracker/?atid=418820&group_id=37116&func=browse">bug tracker</a>
+		and our <a href="http://sourceforge.net/tracker/?atid=418823&group_id=37116&func=browse">feature request tracker</a>
+		for things that need work.
+	</p>
+	
+	<h2>Future goals</h2>
+	<p>Here is a list of things we plan to do for the future. Note that we don't promise to do any of these, nor when we will do them. It's just a list
+	of what we hope to be able to do one day.</p>
+	<ul>
+	<li>Music and Sound effects in Indy3Vga</li>
+	<li>proper Full Throttle support</li>
+	<li>Monkey1Ega support</li>
+	<li>Curse of Monkey Island support (we already have that partially in latest CVS!)</li>
+	<li>Maniac Mansion support</li>
+	<li>Zak McKracken (non-FmTowns) support</li>
+	<li>LoomEga support</li>
+	<li>Indy3Ega support</li>
+	</ul>
 
-			ul {
-				padding-bottom: 10px;
-			}
-		</style>
-
-		<h1>ScummVM current areas of focus</h1>
-		
-		<h2>Introduction</h2>
-		<p>
-			If you want to dig in, this is the place to find out what we're
-			currently working on (or hoping somebody will pick it up for us,
-			you never know). This is the stuff where you might make the most
-			useful contribution, right now. Note that this is never complete,
-			and may be partially outdated, so just because you don't see it
-			here doesn't mean it is not important.
-		</p>
-		<p>Before you start work on something, you might want to talk to
-			somebody from the team. This will help us to prevent double work,
-			i.e. several people working on the same stuff at once without
-			knowing about each other.
-		</p>
-		<p>
-			Finally, always make sure to check out our <a href="http://sourceforge.net/tracker/?atid=418820&group_id=37116&func=browse">bug tracker</a>
-			and our <a href="http://sourceforge.net/tracker/?atid=418823&group_id=37116&func=browse">feature request tracker</a>
-			for things that need work.
-		</p>
-		
-		<h2>Future goals</h2>
-		<p>Here is a list of things we plan to do for the future. Note that we don't promise to do any of these, nor when we will do them. It's just a list
-		of what we hope to be able to do one day.</p>
+	<h3>General</h3>
+	<ul>
+		<li><p><b>Rewrite sound code so that the Adlib and MIDI encoders can be active at the same time.</b></p>
 		<ul>
-		<li>Music and Sound effects in Indy3Vga</li>
-		<li>proper Full Throttle support</li>
-		<li>Monkey1Ega support</li>
-		<li>Curse of Monkey Island support (we already have that partially in latest CVS!)</li>
-		<li>Maniac Mansion support</li>
-		<li>Zak McKracken (non-FmTowns) support</li>
-		<li>LoomEga support</li>
-		<li>Indy3Ega support</li>
+			<li>This will help in a few cases where games have a few tracks only available in Adlib format</li>
+			<li>Necessary if we want to allow users to switch between different games at runtime</li>
 		</ul>
-
-		<h3>General</h3>
+		</li>
+		<li><p>Make it possible to restart (scumm) games</p></li>
+		<li><p>Allow the user to choose between multiple video drivers at startup when multiple choices are possible.
+		E.g. between SDL vs. SDL_gl. Just like one can choose a midi driver. Currently one has to recompile for this.</p></li>
+		<li><p>Add a "help" ingame dialog which lists key shortcuts etc.</p></li>
+		<li><p>Add long style command line arguments that work in a portable manner across many systems ie --foo-bar as we are quickly running out of single letters to use for arguments, and they make more sense</p></li>
+	</ul>
+	<h3>New GUI</h3>
+	<ul>
+		<li>Improve the launcher</li>
+		<li>Add tab support (i.e. allow multiple panes in one dialog)</li>
+		<li>Implement the global preferences dialog (it is already there but nothing is wired)</li>
+		<li><i>Ask: Fingolfin, Ender</i></li>
+	</ul>
+	<h3>Specific games</h3>
+	<ul>
+		<li><h4>The DIG</h4>
 		<ul>
-			<li><p><b>Rewrite sound code so that the Adlib and MIDI encoders can be active at the same time.</b></p></li>
-			<ul>
-				<li>This will help in a few cases where games have a few tracks only available in Adlib format</li>
-				<li>Necessary if we want to allow users to switch between different games at runtime</li>
-			</ul>
-			</li>
-			<li><p>Make it possible to restart (scumm) games</p></li>
-			<li><p>Allow the user to choose between multiple video drivers at startup when multiple choices are possible.
-			E.g. between SDL vs. SDL_gl. Just like one can choose a midi driver. Currently one has to recompile for this.</p></li>
-			<li><p>Add a "help" ingame dialog which lists key shortcuts etc.</p></li>
-			<li><p>Add long style command line arguments that work in a portable manner across many systems ie --foo-bar as we are quickly running out of single letters to use for arguments, and they make more sense</p></li>
+			<li>Some in-game music issues
+			<li>See also the <a href="../compatibility.php?details=dig">compatibility page for The DIG</a></li>
+			<li><i>Ask: Ender</i></li>
 		</ul>
-		<h3>New GUI</h3>
+		<li><h4>Monkey1VGA</h4>
 		<ul>
-			<li>Improve the launcher</li>
-			<li>Add tab support (i.e. allow multiple panes in one dialog)</li>
-			<li>Implement the global preferences dialog (it is already there but nothing is wired)</li>
-			<li><i>Ask: Fingolfin, Ender</i></li>
+			<li>Fix music support, add sound support</li>
+			<li><i>Ask: MadMoose, Fingolfin</i></li>
 		</ul>
-		<h3>Specific games</h3>
+		<li><h4>Zak256</h4>
 		<ul>
-			<li><h4>The DIG</h4>
-			<ul>
-				<li>Some in-game music issues
-				<li>See also the <a href="../compatibility.php?details=dig">compatibility page for The DIG</a></li>
-				<li><i>Ask: Ender</i></li>
-			</ul>
-			<li><h4>Monkey1VGA</h4>
-			<ul>
-				<li>Fix music support, add sound support</li>
-				<li><i>Ask: MadMoose, Fingolfin</i></li>
-			</ul>
-			<li><h4>Zak256</h4>
-			<ul>
-				<li>Incomplete sound effect support</li>
-				<li>Several small bugs (see bug list)</li>
-				<li><i>Ask: Ender</i></li>
-			</ul>
-			<li><h4>Full Throttle</h4>
-			<ul>
-				<li>INSANE supported required</li>
-				<li><i>Ask: Ender, aquadran</i></li>
-			</ul>
-			<li><h4>Indiana Jones and The Last Crusade</h4>
-			<ul>
-				<li>Fix music support, add sound support</li>
-				<li>Correct random walkbox issues</li>
-				<li>Correctly fix 'missing head' issue (see fixme in actor.cpp)</li>
-				<li><i>Ask: Ender</i></li>
-			</ul>
-			<li><h4>The Curse of Monkey Island</h4>
-			<ul>
-				<li>See <a href="../documentation.php?view=comi">here</a> for a list.
-			</ul>
-			<li><h4>Simon</h4>
-			<ul>
-				<li>There are many open bugs for Simon, we really need somebody who can take over maintaining the Simon part of ScummVM</li>
-				<li>Check <a href="http://members.optusnet.com.au/wormmon/simon.html">Simon issues</a></li>
-				<li><i>Ask: olki, Kirben</i></li>
-			</ul>
+			<li>Incomplete sound effect support</li>
+			<li>Several small bugs (see bug list)</li>
+			<li><i>Ask: Ender</i></li>
 		</ul>
+		<li><h4>Full Throttle</h4>
+		<ul>
+			<li>INSANE supported required</li>
+			<li><i>Ask: Ender, aquadran</i></li>
+		</ul>
+		<li><h4>Indiana Jones and The Last Crusade</h4>
+		<ul>
+			<li>Fix music support, add sound support</li>
+			<li>Correct random walkbox issues</li>
+			<li>Correctly fix 'missing head' issue (see fixme in actor.cpp)</li>
+			<li><i>Ask: Ender</i></li>
+		</ul>
+		<li><h4>The Curse of Monkey Island</h4>
+		<ul>
+			<li>See <a href="../documentation.php?view=comi">here</a> for a list.
+		</ul>
+		<li><h4>Simon</h4>
+		<ul>
+			<li>There are many open bugs for Simon, we really need somebody who can take over maintaining the Simon part of ScummVM</li>
+			<li>Check <a href="http://members.optusnet.com.au/wormmon/simon.html">Simon issues</a></li>
+			<li><i>Ask: olki, Kirben</i></li>
+		</ul>
+	</ul>
 </BODY>

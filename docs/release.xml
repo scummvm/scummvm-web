@@ -1,32 +1,21 @@
 <name>ScummVM 0.4.0 Checklist</name>
 <desc>This page is the current checklist for releasing 0.4.0</desc>
 <body>
-	<style>
-		h2 {
-			margin-bottom: 0px;
-		}
-		h3 {
-			margin-bottom: 0px;
-		}
-		ul {
-			padding-bottom: 10px;
-		}
-	</style>
-
 	<h1>0.4.0 Checklist</h1>
 
 	<h2>Introduction</h2>
 	<p>This release is going to focus on the following:
-		<ul>
-			<li>The Curse Of Monkey Island support
-			<li>Prelimary support for some early Humongous Entertainment titles
-			<li>Enhanced Launcher functionality?
-		</ul>
 	</p>
+	<ul>
+		<li>The Curse Of Monkey Island support
+		<li>Prelimary support for some early Humongous Entertainment titles
+		<li>Enhanced Launcher functionality?
+	</ul>
 
 	<h2>Game Compatibility</h2>
 	<p>
 		The following games will soon (not yet) need to be tested with the latest CVS snapshosts:
+	</p>
 		<table border=0>
 		<tr><td>GameID</td><td>Testers</td><td>Date Tested</td><td>Critical Bugs</td></tr>
 		<tr><td colspan=4><hr></td></tr>
@@ -54,7 +43,6 @@
 		<tr><td>Simon2Win</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
 		<tr><td>Simon2Mac</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
 		</table>
-	</p>
 
 	<p>
 		Please note that FT and/or Simon bugs will not hold back 0.4.0, but should be tested and

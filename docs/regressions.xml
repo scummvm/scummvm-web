@@ -1,18 +1,6 @@
 <NAME>Known regressions in ScummVM since 0.3.0b</NAME>
 <DESC>This is a list of current regressions introduced since 0.3.0b (before comi work started)</DESC>
 <BODY>
-	<style>
-		h2 {
-			margin-bottom: 0px;
-		}
-		h3 {
-			margin-bottom: 0px;
-		}
-
-		ul {
-			padding-bottom: 10px;
-		}
-	</style>
 <ul>
 <li>Monkey Island:
 	<ul>

@@ -1,18 +1,6 @@
 <NAME>ScummVM code formatting conventions</NAME>
 <DESC>This page describes the coding style we use in ScummVM.</DESC>
 <BODY>
-		<style>
-			ul {
-				padding-bottom: 10px;
-			}
-			h2 {
-				margin-bottom: 0px;
-			}
-			h3 {
-				margin-bottom: 0px;
-			}
-		</style>
-
 		<h1>ScummVM code formatting conventions</h1>
 		
 		<h2>1. Use common sense</h2>
