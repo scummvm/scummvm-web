@@ -35,22 +35,23 @@
 	</ul>
 <li>Conversation:
 	<ul>
-		<li>Verbs do not redraw correctly on scrolling, specifically during Insult Sword Fighting (Part 3). Makes it hard to
-complete without much squinting
+		<li>The background of the conversation verbs is not redrawn properly. Specifically,
+		if they are above actors, the actors are not always drawn when the verb is redrawn. Some parts of the conversation 
+		verbs are clipped (eg, bottom of g's), leading me to believe that their clipping rectangles are incorrect.
 	</ul>
 <li>Inventory:
 	<ul>
 		<li>Upon combining two items in such a way as to reduce a two-page inventory to a one-page, trying to select the last 
-item will actually return the second-last item
+		item will actually return the second-last item
 	</ul>
 <li>Actor:
 	<ul>
 		<li>The CHORE opcode still seems to be returning dodgy results
 		<li>setActorChoreLimbFrame isn't quite correct, eg Wallys animation after throwing the hook will show a few phantom
-frames of his 'throw hook' and 'standing at cannon' animation
+		frames of his 'throw hook' and 'standing at cannon' animation
 		<li>Lack of MouthSync and MuaicMouthSync stuff causes odd actor speech animations
 		<li>Actor 1 (Guybrush) occasionally gets stuck (e.g. after taking Wally's fake hook). Can work-around with console
-command "actor 1 ignoreboxes 1"
+		command "actor 1 ignoreboxes 1"
 	</ul>
 </ul>
 
