@@ -243,7 +243,7 @@ $notes = array(
 "footdemo"	=> "Only shows introduction",
 "BluesABCTimeDemo" => "Game is playable".
 		   "<br>- Various issues",
-"1grademo"	=> "Game is playable,, but objects in mini games aren't drawn",
+"1grademo"	=> "Game is playable, but objects in mini games aren't drawn",
 "kinddemo"	=> "Game is playable, but settings aren't saved".
 		   "<br>- Various issues",
 "thinkerk"	=> "Triggers an assert when entering name",
