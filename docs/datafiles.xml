@@ -72,6 +72,15 @@ details.</p>
       dig.la1</td>
   </tr>
   <tr>
+    <td>Fatty Bear's Fun Pack</td>
+    <td>FBPACK.C*<br>
+        FBPACK.HE0<br>
+	FBPACK.HE1<br>
+	FBPACK.PAL<br>
+	FBPACK.TAN<br>
+	FBPACK.TLK</td>
+  </tr>
+  <tr>
     <td>Fatty Bears Birthday Surprise (DOS Demo)</td>
     <td>fbdemo.he0<br>
       fbdemo.he1<br>
@@ -187,6 +196,12 @@ details.</p>
     <td>Passport to Adventure (Indy3, Monkey and Loom demos)</td>
     <td>DISK01.LEC<br>
       *.LFL</td>
+  </tr>
+  <tr>
+    <td>Putt-Putt's Fun Pack</td>
+    <td>FUNPACK.HE0<br>
+        FUNPACK.HE1</br>
+	FUNPACK.TLK</td>
   </tr>
   <tr>
     <td>Putt-Putt Joins The Parade (DOS Demo)</td>
