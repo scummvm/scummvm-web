@@ -127,7 +127,7 @@ $notes = array(
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
 		   "<br>- No inventory in Mac version".
-		   "<br>- Atari ST and Mac verions require pcjr or pcspk music driver",
+		   "<br>- Atari ST and Mac versions require pcjr or pcspk music driver",
 "indy3"         => "Game is completable".
 		   "<br>- Indiana may be able to walk in odd places, in some rooms",
 "indy3towns"    => "Game is completable." .
@@ -142,7 +142,7 @@ $notes = array(
 		   "<br>- Mac version crashes after copy protection screen".
                    "<br>- Various minor graphical glitches".
 		   "<br>- No music or sound effects with Mac version".
-		   "<br>- Atari ST and Mac verions require pcjr or pcspk music driver".
+		   "<br>- Atari ST and Mac versions require pcjr or pcspk music driver".
 		   "<br>- MIDI support requires the Roland update from LucasArts",
 "loomtowns"	=> "Game is completable".
 		   "<br>- Fades are seemingly different to other versions in some cases".
