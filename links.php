@@ -66,7 +66,7 @@ echo html_round_frame_start("Links","98%","",20);
 	<b>Unofficial ports</b><? echo html_line(); ?>
 	<p>There are a few unofficial ports of ScummVM floating around. Usually we prefer to merge any ports into our official
 	CVS, but for the following this has not (yet) happened for various reasons. Note that the ScummVM team does not endorse
-	any of these ports. We did not test them, and we do not guarantee that they work properly. <font color="red">Use at your own risk!</font></p>
+	any of these ports. We did not test them, and we do not guarantee that they work properly. <span style="color: red">Use at your own risk!</span></p>
 
 	<blockquote>
 	<table border=0 cellpadding=5 cellspacing=0>
