@@ -1,0 +1,47 @@
+<NAME>The big Zero Six Zero</NAME>
+<DATE>Mar 16, 2004</DATE>
+<BODY>
+<P>
+The ScummVM project is pleased to announce the immediate release of ScummVM
+0.6.0. ScummVM is a graphic adventure game interpreter designed to allow users
+to play many classic adventure game titles on various computer systems;
+(Linux, Windows 2000/XP, *BSD, Mac OS X, PocketPC/Handheld PC, Palm,
+Dreamcast and more)
+</P>
+<P>
+Version 0.6.0 brings with it a new milestone in ScummVM history, with all
+LucasArts/LucasFilm SCUMM adventure titles now being supported. We are also
+proud to announce in conjunction with ScummVM 0.6.0 the release of the
+classic adventure game 'Flight of the Amazon Queen' (originally available
+for the Amiga and DOS) as freeware. The ScummVM team would like to thank
+the authors Steve Stamatiadis and John Passfield for providing the team
+with the source code to this classic game, and allowing us to release it.
+</P>
+<P>
+So, what's new?
+</P>
+<P>
+ScummVM 0.6.0 includes, as usual, many bugfixes in all supported game engines.
+There have also been dramatic fixes and improvements in the area of sound and
+music, as well as a greatly improved game management/options screen and two new
+graphics modes (HQ2x and HQ3x). Most importantly, we have also added new
+support for the following games:
+</P>
+<P>
+<UL>
+ <LI>The classic V1 versions of the original LucasArts SCUMM games
+     Maniac Mansion and Zak McKracken and the LucasArts SCUMM game 'Full
+     Throttle'
+ <LI>Broken Sword 1 and Broken Sword 2. Many thanks to Revolution for providing
+         us with the source-code to these games.
+ <LI>Support for Flight of the Amazon Queen. Thanks to Steve and John for
+     providing us with the source code to this game, and permitting its
+     release as freeware.
+</UL>
+</P>
+<P>
+ScummVM 0.6.0, the two freeware games Flight of the Amazon Queen and Beneath a Steel Sky,
+as well as converted cutscenes required for playing Broken Sword 1 and Broken Sword 2 may
+be downloaded from the ScummVM website: http://www.scummvm.org/
+</P>
+</BODY>
