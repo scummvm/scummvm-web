@@ -119,15 +119,16 @@ $notes = array(
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
 "simon1win" 	=> "No known problems, Game is completable.",
 "simon1dos" 	=> "No known problems, Game is completable.".
-                   "<br>- No music",
-"simon1demo" 	=> "Not fully implemented yet.".
+                   "<br>- No sound effects",
+"simon1demo" 	=> "Game demo is completable to a point, but not playable to the end".
                    "<br>- No music or sound effects",
-"simon2win"     => "Can't advance very far due to movement problems, will not run some versions of Simon2".
+"simon2win"     => "Can't advance very far due to movement problems".
                    "<br>- Part of introduction is skipped.".
                    "<br>- Movement problems, sometimes can't move left.".
                    "<br>- Speech needs to be enabled manually".
                    "<br>- Various minor graphical glitches",
-"simon2dos"     => "Not fully implemented yet."
+"simon2dos"     => "Not fully implemented yet.".
+                   "<br>- No music or sound effects"
 );
 		
 // render the compatibilty chart
