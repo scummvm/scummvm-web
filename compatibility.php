@@ -154,7 +154,7 @@ $gamesHE = array(
 $gamesOther = array(
 
 		'Beneath a Steel Sky'			       		=> array('n/a','sky','90'),
-		'Broken Sword I'			       		=> array('n/a','sword1','85'),
+		'Broken Sword I'			       		=> array('n/a','sword1','90'),
 		'Broken Sword II'			       		=> array('n/a','sword2','90'),
 		'Flight of the Amazon Queen'			       	=> array('n/a','queen','90'),
 		'Simon The Sorcerer 1 Talkie'       			=> array('n/a','simon1talkie','93'),
@@ -366,7 +366,6 @@ $notes = array(
 		   "<br>- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders".
 		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
 "sword1"	=> "No known issues, game is completable.".
-		   "<br>- Czech support is untested. If you have a czech version, please contact us.".
 		   "<br>- Only the PC version has been tested. We don't have any other versions, so we can't make any promises about them.",
 "sword2"	=> "No known issues, game is completable.".
 		   "<br>- Only the PC version has been tested. We don't have any other versions, so we can't make any promises about them.",

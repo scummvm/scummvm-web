@@ -47,7 +47,7 @@ echo html_round_frame_start("Credits","");
 	  add_person("David Eriksson", "twogood", "Engine: Flight of the Amazon Queen");
 	  add_person("Jonathan Gray", "khalek", "Engine: SCUMM");
 	  add_person("Travis Howell", "Kirben", "Engine: SCUMM, Simon the Sorcerer");
-	  add_person("Robert G&ouml;ffringmann", "lavosspawn", "Engine: Beneath a Steel Sky");
+	  add_person("Robert G&ouml;ffringmann", "lavosspawn", "Engine: Beneath a Steel Sky, Broken Sword 1");
 	  add_person("Oliver Kiehl", "olki", "Engine: Beneath a Steel Sky, Simon");
 	  add_person("Pawel Kolodziejski", "aquadran", "Engine: SCUMM (Codecs, iMUSE, Smush, etc.)");
 	  add_person("Gregory Montoir", "cyx", "Engine: Flight of the Amazon Queen");
