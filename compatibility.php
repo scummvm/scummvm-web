@@ -66,11 +66,11 @@ $games = array(
 		'Indiana Jones and the Last Crusade'			=> array('3','indy3ega','90'),
 		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','90'),
 		'Indiana Jones and the Last Crusade (256 - FmTowns)'	=> array('3','indy3towns','90'),
-		'Loom'							=> array('3','loom','80'),
+		'Loom'							=> array('3','loom','95'),
 		'Loom (256 - FmTowns)'					=> array('3','loomtowns','75'),
 		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','95'),
 		'Passport to Adventure (Indy3, Monkey and Loom demos)'  => array('4','pass','95'),
-		'Loom (256 color CD version)'                           => array('5','loomcd','90'),
+		'Loom (256 color CD version)'                           => array('5','loomcd','95'),
 		'The Secret of Monkey Island (VGA Floppy)'		=> array('5','monkeyvga','95'),
 		'The Secret of Monkey Island (VGA CD)'			=> array('5','monkey','95'),
 		'The Secret of Monkey Island (Alternative VGA CD)'	=> array('5','monkey1','95'),
@@ -132,10 +132,9 @@ $notes = array(
                    "<br>- Kanji version isn't supported",
 "zaktowns"      => "Game is completable.".
                    "<br>- Kanji version isn't supported",
-"loom"		=> "Game is completable".
+"loom"		=> "No known problems - should be playable to the end".
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
 		   "<br>- Mac version crashes after copy protection screen".
-                   "<br>- Various minor graphical glitches".
 		   "<br>- No music or sound effects with Mac version".
 		   "<br>- Atari ST and Mac versions require pcjr or pcspk music driver".
 		   "<br>- MIDI support requires the Roland update from LucasArts",
@@ -153,8 +152,7 @@ $notes = array(
 		   "<br>- Atari ST version requires pcjr or pcspk music driver".
 		   "<br>- MIDI support requires the Roland update from LucasArts",
 "pass"		=> "All three demos are completable.",
-"loomcd"        => "Game is completable.".
-                   "<br>- Various minor graphical glitches",
+"loomcd"        => "No known problems - should be playable to the end",
 "monkeyvga"	=> "Game is completable.".
 		   "<br>- Both Amiga and PC versions supported by this target".
 		   "<br>- No music with Amiga version",
