@@ -25,7 +25,7 @@ echo html_round_frame_start("Links","98%","",20);
 	</p>
 
 	<b>Unofficial ports</b><? echo html_line(); ?>
-	<p>There are a few inofficial ports of ScummVM floating around. Usually we prefer to merge any ports into our official
+	<p>There are a few unofficial ports of ScummVM floating around. Usually we prefer to merge any ports into our official
 	CVS, but for the following this has not (yet) happend for various reasons. Note that the ScummVM team does not endorse
 	any of these ports. We did not test them, and we do not gurantee that they work properly. Use at your own risk.</p>
 
@@ -36,6 +36,9 @@ echo html_round_frame_start("Links","98%","",20);
 	    <td><blockquote>
 	    The site provides a binary based on our 0.3.0b release, as well as the source code for it.
 	    Screenshots and some newer CVS builds are available, too.
+	    <br>
+	    <b>UPDATE:</b> The PalmOS port has been merged into CVS. ScummVM 0.4.0 will be the
+	    first version to have an official PalmOS version.
 	    </blockquote></td>
 	  </tr>
 
