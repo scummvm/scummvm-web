@@ -61,6 +61,7 @@ echo html_round_frame_start("About ScummVM","98%","",20);
 	  <td>
 		<table border=0 cellpadding=0 cellspacing=0>
 		<tr><td>
+			<script>i_jn=<?=$randImg?>;</script>
 			<a href="javascript:openWin('./screenshots/big_scummvm_'+i_jn+'.png','scummvm',640,400);"
 			onMouseOver="window.status='Click to View Full Size Image';return true;"
 			onMouseOut="window.status='';return true;"><img
