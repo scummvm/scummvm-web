@@ -29,36 +29,26 @@
 	<ul>
 	<li>Music and sound effects in Indy3Ega, Indy3Vga, LoomEga, MonkeyEga, MonkeyVga and Pass</li>
 	<li>Complete Full Throttle support</li>
-	<li>Complete Curse of Monkey Island support</li>
-	<li>Add Maniac Mansion support</li>
-	<li>Add Zak McKracken (non-FmTowns) support</li>
-	<li>Complete LoomEga support</li>
-	<li>Complete Indy3Ega support</li>
+	<li>Complete Maniac Mansion/Zak McKracken V2 support </li>
+	<li>Add Maniac Mansion/Zak McKracken V1 support</li>
 	<li>Complete support for Humongous Entertainment scumm games (he v6/v7)</li>
 	<li>Complete support for Beneath a Steel Sky</li>
 	</ul>
 
 	<h3>General</h3>
 	<ul>
-		<li><p><b>Rewrite sound code so that the Adlib and MIDI encoders can be active at the same time.</b></p>
-		<ul>
-			<li>This will help in a few cases where games have a few tracks only available in Adlib format</li>
-			<li>Necessary if we want to allow users to switch between different games at runtime</li>
-		</ul>
-		</li>
-		<li><p>Make it possible to restart (scumm) games</p></li>
+		<li><p>Make it possible to restart (scumm) games (properly, current CVS has debugger cmd)</p></li>
 		<li><p>Allow the user to choose between multiple video drivers at startup when multiple choices are possible.
 		E.g. between SDL vs. SDL_gl. Just like one can choose a midi driver. Currently one has to recompile for this.</p></li>
 		<li><p>Add a "help" ingame dialog which lists key shortcuts etc.</p></li>
 		<li><p>Add long style command line arguments that work in a portable manner across many systems ie --foo-bar as we are quickly running out of single letters to use for arguments, and they make more sense</p></li>
-		<li><p>Make handling of non ascii charsets work properly (ie kanji)</p></li>
+		<li><p>Fix handling of Kanji in FmTowns games (foreground is actually rendered on a second plane at 640x480)</p></li>
 		<li><p>Improve support for non pc versions of games</p></li>
 	</ul>
 	<h3>New GUI</h3>
 	<ul>
 		<li>Improve the launcher</li>
 		<li>Add tab support (i.e. allow multiple panes in one dialog)</li>
-		<li>Implement the global preferences dialog (it is already there but nothing is wired)</li>
 		<li><i>Ask: Fingolfin, Ender</i></li>
 	</ul>
 	<h3>Specific games</h3>
@@ -67,11 +57,13 @@
 		<ul>
 			<li>Some in-game music and sound issues</li>
 			<li>Actor voice files not supported in demo</li>
+			<li>Fix smooth scrolling support (see comment in gfx.cpp)</li>
 			<li><i>Ask: Ender</i></li>
 		</ul>
 		<li><h4>Monkey1EGA</h4>
 		<ul>
 			<li>Fix music support and add sound effects support</li>
+			<li>Fix Amiga version</li>
 			<li>The demo version locks up after introduction</li>
 		</ul>
 		<li><h4>Monkey1VGA</h4>
@@ -98,7 +90,6 @@
 		<li><h4>Indiana Jones and the Last Crusade</h4>
 		<ul>
 			<li>Fix music support and add sound effects support</li>
-			<li>Correct random walkbox issues</li>
 			<li><i>Ask: Ender</i></li>
 		</ul>
 		<li><h4>Loom EGA</h4>
@@ -121,6 +112,7 @@
 		<li><h4>Simon the Sorcerer 1 & 2</h4>
 		<ul>
 			<li>Add complete transparency support</li>
+			<li>Add Amiga decompressor + music support</li>
 			<li>Check <a href="http://members.optusnet.com.au/wormmon/simon.html">Simon issues</a> for list of other bugs</li>
 			<li><i>Ask: olki, Kirben</i></li>
 		</ul>
