@@ -1,0 +1,74 @@
+<NAME>ScummVM 0.3.0 Checklist</NAME>
+<DESC>This page is the current checklist for releasing 0.3.0</DESC>
+<BODY>
+                <style>
+                        h2 {
+                                margin-bottom: 0px;
+                        }
+                        h3 {
+                                margin-bottom: 0px;
+                        }
+
+                        ul {
+                                padding-bottom: 10px;
+                        }
+                </style>
+
+                <h1>Needed items for 0.3.0</h1>
+
+                <h2>Introduction</h2>
+                <p>
+		Well, if LEC don't veto it, we're gearing up for an 0.3.0 release... and some 
+things still need to be done. This release is going to focus mainly on three things:
+		<ul>
+			<li>The Dig
+			<li>Game Compatability
+			<li>The New GUI
+		</ul>
+		</p>
+
+
+		<h2>Game Compatability</h2>
+		<p>
+			The following games need to be tested with the latest CVS snapshots:
+			<table border=0>
+			<tr><td>GameID</td><td>Testers</td><td>Tested CVS date</td><td>Critical Bugs</td></tr>
+			<tr><td colspan=4><hr></td></tr>
+			<tr><td>Zak256</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+			<tr><td>LoomCD</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+			<tr><td>MonkeyVGA</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+			<tr><td>Monkey1</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+			<tr><td>Monkey2</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+			<tr><td>Atlantis</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+			<tr><td>Tentacle</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+			<tr><td>Samnmax</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+			<tr><td>Dig</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+			<tr><td>FT</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+			<tr><td colspan=4><hr></td></tr>
+			<!--Optional games, these arn't required for release-->
+			<tr><td>Simon1Dos</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+			<tr><td>Simon1Win</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+			<tr><td>Simon2Dos</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+			<tr><td>Simon2Win</td><td>none</td><td>N/A</td><td>Unknown</td></tr>
+			</table>
+		</p>
+		<p>
+			Please note that FT and/or Simon bugs will not hold back 0.3.0, but should 
+be tested and taken into account regardless. If anybody wishes to test, note the CVS version you 
+are testing with, then file a bug report when you have finished testing. List any bugs found that 
+you consider should be fixed for the release. Please tag the subject of the bug report with '0.3.0 RC:'
+		</p>
+
+		<h2>New GUI</h2>
+		<p>
+			The Launcher GUI should to be finished for 0.3.0. Apparantly Fingolfin is 
+too busy to work on this currently, are there any other volunteers? At worst, we need a simple 'add 
+game' button... and best, we should also have a dropdown widget to help select items like graphic 
+scalers from a list. Note this may require a 'capabilities' extension to OSystem in order to 
+discover the supported Scaler modes. We can implement this as a bitwise or'ed return from 
+a Property() call to avoid breaking OSystem interface compatability.
+		</p>
+
+</BODY>
+</DESC>
+</NAME>
