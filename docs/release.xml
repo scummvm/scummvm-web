@@ -62,7 +62,6 @@ function portStatus($ports) {
 	<h2>Release critical bugs</h2>
 	<ul>
 	<li><a href="http://sourceforge.net/tracker/index.php?func=detail&amp;aid=1007397&amp;group_id=37116&amp;atid=418820">#1007397 (WINCE: Disapearing clock)</a></li>
-	<li><a href="http://sourceforge.net/tracker/index.php?func=detail&amp;aid=1074931&amp;group_id=37116&amp;atid=418820">#1074931 (GUI: Starting games in fullscreen doesn't work)</a></li>
 	</ul>
 
 
@@ -107,8 +106,8 @@ function portStatus($ports) {
 	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 <tr><td>Monkey 2</td><td>NONE</td><td>...</td>
 	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>Tentacle</td><td>6/12</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 1)); ?></tr>
+<tr><td>Tentacle</td><td>khalek 6/12</td><td>...</td>
+	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => +1)); ?></tr>
 <tr><td>Samnmax</td><td>NONE</td><td>...</td>
 	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 <tr><td>Full Throttle</td><td>NONE</td><td>...</td>
@@ -137,8 +136,8 @@ function portStatus($ports) {
 	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 <tr><td>Broken Sword 2</td><td>NONE</td><td>...</td>
 	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>FOTAQ</td><td>3/12</td><td>...</td>
-	<?php portStatus(array("Win32" => 1, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>FOTAQ</td><td>cyx 3/12</td><td>...</td>
+	<?php portStatus(array("Win32" => +1, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 
 </table>
 </body>
