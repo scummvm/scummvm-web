@@ -79,13 +79,13 @@ $games = array(
 		'Monkey Island 2: LeChuck\'s revenge (DOS Demo)'	=> array('5','mi2demo','10'),
 		'Indiana Jones 4 and the Fate of Atlantis'		=> array('5','atlantis','95'),
 		'Indiana Jones 4 and the Fate of Atlantis (Demo)'	=> array('5','playfate','95'),
-		'Putt-Putt Joins The Parade (DOS Demo)'			=> array('6','puttdemo','70'),
-		'Putt-Putt Joins The Parade (DOS)'			=> array('6','puttputt','70'),
-		'Putt-Putt Goes To The Moon (DOS Demo)'			=> array('6','moondemo','50'),
+		'Putt-Putt Joins The Parade (DOS Demo)'			=> array('6','puttdemo','75'),
+		'Putt-Putt Joins The Parade (DOS)'			=> array('6','puttputt','80'),
+		'Putt-Putt Goes To The Moon (DOS Demo)'			=> array('6','moondemo','60'),
 		'Putt-Putt Goes To The Moon (DOS)'			=> array('6','puttmoon','20'),
 		'Putt-Putts Fun Pack'					=> array('6','funpack','20'),
-		'Fatty Bears Birthday Surprise (DOS Demo)'		=> array('6','fbdemo','70'),
-		'Fatty Bears Birthday Surprise (DOS)'			=> array('6','fbear','50'),
+		'Fatty Bears Birthday Surprise (DOS Demo)'		=> array('6','fbdemo','95'),
+		'Fatty Bears Birthday Surprise (DOS)'			=> array('6','fbear','60'),
 		'Fatty Bears Fun Pack'					=> array('6','fbpack','20'),
 		'Day Of The Tentacle'					=> array('6','tentacle','95'),
 		'Day Of The Tentacle (Demo)'				=> array('6','dottdemo','95'),
@@ -175,32 +175,25 @@ $notes = array(
                    "<br>- Kanji version requires the FM Towns Font ROM",
 "playfate"	=> "No known problems - should be playable to the end",
 "puttdemo"	=> "Should be playable to the end".
-		   "<br>- Some sound effects missing".
-		   "<br>- Talkie data not synced/properly implemented",
+		   "<br>- Some sound effects missing",
 "puttputt"	=> "Game should be completable".
-                   "<br>- Minor graphical glitches when cars come out of their garages on streets".
-		   "<br>- Talkie data not synced/properly implemented",
+                   "<br>- Minor graphical glitches when cars come out of their garages on streets",
 "puttmoon"	=> "Fails an AKOS related assertion shortly after starting".
-		   "<br>- scummvm: scumm/akos.cpp:267: virtual byte AkosRenderer::drawLimb(const CostumeData&, int): Assertion `(code & 0xFFF) * 6 < READ_BE_UINT32((byte *)akof - 4) - 8' failed.".
-		   "<br>- Talkie data not synced/properly implemented",
+		   "<br>- scummvm: scumm/akos.cpp:267: virtual byte AkosRenderer::drawLimb(const CostumeData&, int): Assertion `(code & 0xFFF) * 6 < READ_BE_UINT32((byte *)akof - 4) - 8' failed.",
 "moondemo"	=> "Completable if you don't trigger one fatal animation".
 		   "<br>- talkie data not synced/properly implemented",
 "funpack"	=> "Starts but mini games seem to have various problems".
 		   "<br>- Checkers: The checkers keep disappearing".
 		   "<br>- Puzzle blocks/Cheese King: Triggers an assertion".
-		   "<br>- Pinball/Remember/Tic-Tac-Toe: Works".
-		   "<br>- Talkie data not synced/properly implemented",
-"fbdemo"	=> "Should be playable to the end".
-		   "<br>- Talkie data not synced/properly implemented",
+		   "<br>- Pinball/Remember/Tic-Tac-Toe: Works",
+"fbdemo"	=> "Should be playable to the end",
 "fbear"		=> "Playable up to ending sequence, not completable".
 		   "<br>- Fails an array related assertion during ending sequence".
-		   "<br>- Decorations on birthday cake aren't remembered".
-		   "<br>- Talkie data not synced/properly implemented",
+		   "<br>- Decorations on birthday cake aren't remembered",
 "fbpack"	=> "Game starts but various minigames have different problems".
 		   "<br>- Reversi/Go Fish/Lines and Boxes: o6_actorOps: default case 218".
 		   "<br>- Coloring: Painting has no effect".
-		   "<br>- Tangrams: Error(5:210:0x9BA2): Invalid opcode 'e9' (seekFile)".
-		   "<br>- talkie data not synced/properly implemented",
+		   "<br>- Tangrams: Error(5:210:0x9BA2): Invalid opcode 'e9' (seekFile)",
 "tentacle"	=> "No known problems - should be playable to the end".
 		   "<br>- Both Mac and PC versions supported by this target".
 		   "<br>- Both disk and cd versions are supported by this target".
