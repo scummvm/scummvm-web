@@ -118,9 +118,11 @@ $notes = array(
 		   "<br>- Classic PC version actor masking and palette is broken".
 		   "<br>- No music or sound effects with Amiga version",
 "indy3ega"	=> "Game is completable".
-		   "<br>- Both Amiga (Use Amiga option) and PC versions supported by this target".
-		   "<br>- No music with Amiga version".
-		   "<br>- No sound effect looping with Amiga version",
+		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
+		   "<br>- No music with Amiga ad Mac versions".
+		   "<br>- No sound effect looping with Amiga version".
+		   "<br>- No sound effects with Mac version",
+		   "<br>- Mac version crashes after copy protection screen",
 "indy3"         => "Game is completable" .
                    "<br>- No sound effects",
 "indy3towns"    => "Game is completable." .
@@ -131,8 +133,9 @@ $notes = array(
                    "<br>- Kanji version isn't supported",
 "loom"		=> "Game is completable".
 		   "<br>- Amiga (Use Amiga option), Mac and PC versions supported by this target".
-		   "<br>- No music with Amiga version".
-		   "<br>- No sound effect looping with Amiga version",
+		   "<br>- No music with Amiga ad Mac versions".
+		   "<br>- No sound effect looping with Amiga version".
+		   "<br>- No sound effects with Mac version",
 		   "<br>- Mac version crashes after copy protection screen",
 "monkeyega"	=> "Game is completable".
                    "<br>- No sound effects",
