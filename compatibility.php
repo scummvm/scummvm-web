@@ -117,6 +117,7 @@ $notes = array(
 "zak256"        => "Game is completable." .
                    "<br>- No sound effect looping" ,
 "loom"		=> "Game is completable".
+		   "<br>- Both Amiga and PC versions supported by this target"
                    "<br>- No music or sound effects",
 "monkeyega"	=> "Game is completable".
                    "<br>- No sound effects",
