@@ -89,6 +89,14 @@ echo html_round_frame_start("Links","98%","",20);
 	  </ul>
 	</p>
     
+	<p>
+      <a href="http://scumm.mixnmojo.com/"><b>LucasHacks</b></a>
+	  <ul>
+	    Contains lots of information about all SCUMM games, links to demos and utilities,
+	    some documents on SCUMM internals and other useful things.
+	  </ul>
+	</p>
+    
 	<div align=center>
 	<table with=300 border=0><tr><td>
 	  <img src="images/scummvm-link.png" border=0 width=88 height=31 alt="ScummVM" align=left>
