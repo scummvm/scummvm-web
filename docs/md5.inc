@@ -195,8 +195,7 @@
 		<?php addEntry("-", "DOS", "en", "46b53fd430adcfbed791b48a0d4b079f", "funpack"); ?>
 	<tr><td colspan='7'><strong>Putt-Putt Travels Through Time</strong></td></tr>
 		<?php addEntry("-", "All?", "en", "2108d83dcf09f8adb4bc524669c8cf51", "PuttTime"); ?>
-		<?php addEntry("Demo", "Mac", "en", "4e5867848ee61bc30d157e2c94eee9b4", "TimeDemo", "khalek"); ?>
-		<?php addEntry("Demo", "Windows", "en", "4e5867848ee61bc30d157e2c94eee9b4", "timedemo"); ?>
+		<?php addEntry("Demo", "All", "en", "4e5867848ee61bc30d157e2c94eee9b4", "timedemo", "khalek, sev"); ?>
 		<?php addEntry("Demo", "Windows", "en", "0ab19be9e2a3f6938226638b2a3744fe", "putttime-demo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Putt-Putt Enters the Race</strong></td></tr>
 		<?php addEntry("-", "Windows", "en", "981e1e1891f2be7e25a01f50ae55a5af", "puttrace"); ?>
@@ -230,11 +229,11 @@
 	<tr><td colspan='7'><strong>Blue's ABC Time Activities</strong></td></tr>
 		<?php addEntry("Demo", "Windows", "en", "7ddeaf52c8b9a50551ce0aa2ac811d07", "bluesabctimedemo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Freddi Fish 1: The Case of the Missing Kelp Seeds</strong></td></tr>
-		<?php addEntry("-", "Mac", "en", "c8aac5e3e701874e2fa4117896f9e1b1", "freddi", "khalek"); ?>
 		<?php addEntry("-", "Mac", "en", "df047cc4792150f601290357566d36a6", "freddi", "khalek"); ?>
 		<?php addEntry("-", "Windows", "en", "df047cc4792150f601290357566d36a6", "freddi", "khalek"); ?>
 		<?php addEntry("Demo", "Windows", "en", "084ed0fa98a6d1e9368d67fe9cfbd417", "freddemo", "khalek"); ?>
 		<?php addEntry("Demo", "Windows", "en", "566165a7338fa11029e7c14d94fa70d0", "freddemo", "khalek"); ?>
+		<?php addEntry("Demo", "Mac", "en", "c8aac5e3e701874e2fa4117896f9e1b1", "freddemo", "khalek, sev"); ?>
 	<tr><td colspan='7'><strong>Freddi Fish 2: The Case of the Haunted Schoolhouse</strong></td></tr>
 		<?php addEntry("Demo", "All", "en", "fc8d197a22146e74766e9cb0cfcaf1da", "ff2-demo", "khalek, sev"); ?>
 		<?php addEntry("Demo", "Windows", "en", "d37c55388294b66e53e7ced3af88fa68", "ffhsdemo", "khalek"); ?>
