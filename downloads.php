@@ -73,10 +73,10 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.4.0-0.woody.1_i386.deb?download">Debian Stable (woody) Package</a> <small>(369k .deb)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-1.rh80.i386.rpm?download">RedHat 8.0 package</a> <small>(404k RPM)</small>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-1.src.rpm?download">Source RPM</a> <small>(1.1M RPM)</small>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-dreamcast-nero.zip?download">Dreamcast CD-ROM image for Nero</a> <small>(2.5M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-dreamcast-plainfiles.tar.bz2?download">Dreamcast plain files</a> <small>(462 k zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-dreamcast-nero.zip?download">Dreamcast nero file</a> <small>(2.5M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-palmos.zip?download">PalmOS binary</a> <small>(292k zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-solaris8-sparc.tar.gz?download">Solaris 8 (Sparc) binary</a> <small>(2.3M .deb)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-solaris8-sparc.tar.gz?download">Solaris 8 (Sparc) binary</a> <small>(2.3M .tar.gz)</small></li>
 	  <hr></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-HandheldPC_ARM.zip?download">HandheldPC ARM binary</a> <small>(462k zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.0-HandheldPC_MIPS.zip?download">HandheldPC MIPS binary</a> <small>(531k zipfile)</small></li>
@@ -95,7 +95,6 @@ echo html_round_frame_start("Downloads","98%","",20);
 	<p>A few binaries were not yet updated for the 0.4.0 release. Until that changes, here you can still find the old 0.3.0 binaries.
 	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.3.0-morphos.tar.bz2?download">MorphOS binary</a> <small>(397k .tar.bz2)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.3.0b-dreamcast_nero.zip?download">Dreamcast binary</a> <small>(4.7M zipfile)</small></li>
 	</ul>
 
 http://prdownloads.sourceforge.net/scummvm/scummvm_0.3.0b-dreamcast_nero.zip?download	
