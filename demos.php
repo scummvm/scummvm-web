@@ -80,7 +80,7 @@ $demos = array(
 	'Fatty Bear\'s Birthday Surprise (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/fatdemo.zip', 'fbdemo'),
 	'Big Thinkers Kindergarten (Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/BTFG95d.EXE', 'kinddemo'),
+		=> array('ftp://ftp.humongous.com/humongous/BTK95d.EXE', 'kinddemo'),
 	'Big Thinkers First Grade (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/BTFG95d.EXE', '1grademo'),
 	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Demo)'
