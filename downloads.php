@@ -41,14 +41,15 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  <b>Daily CVS Builds:</b>
 	</p>
 
-	<p>
 <!--
+	<p>
 	  You can get the latest development source and binaries for BeOS/Intel and Linux/Intel from the
 	  <a href="http://scummvm.sourceforge.net/daily/">CVS Daily Snapshot</a> page. To quickly get a
 	  binary executable from that page, download the .gz from the column of the OS you use. Then
 	  simply rename the file to it&#146;s executable form.<br>
 
 	  View the <a href="/daily/ChangeLog">ChangeLog</a> to see the latest updates of ScummVM
+	</p>
 -->
 
 	  <ul>
@@ -56,13 +57,12 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  <li><a href="http://arisme.free.fr/PocketScumm/daily/">PocketPC Builds</a> <small> (infrequent snapshots of the PocketPC binaries)</small></li>
 	  <li><a href="http://sourceforge.net/cvs/?group_id=37116">CVS Instructions</a> <small> (for if you wish to retrieve the latest code to compile yourself</small></li>
 	  </ul>
-	</p>
 	
 	<p>
  	  <b>0.3.0b Release binaries:</b>
-	  <i><center>For a list of changes since the last version (0.2.0), <a href="http://sourceforge.net/project/shownotes.php?release_id=126358">read the release notes</a></center></i>
-	  <i><small>Users of Debian Unstable (sid) can apt-get ScummVM. Please do not attempt to use the Woody packages below on Sid, it won't work due to a Vorbis library conflict</small></i>
 	</p>
+	<p>For a list of changes since the last version (0.2.0), <a href="http://sourceforge.net/project/shownotes.php?release_id=126358">read the release notes</a>.</p>
+	<p>Users of Debian Unstable (sid) can apt-get ScummVM. Please do not attempt to use the Woody packages below on Sid, it won't work due to a Vorbis library conflict.</p>
 
 	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.3.0b-win32.exe?download">ScummVM Windows Installer</a> <small>(1.0M Win32 .exe)</small></li>
