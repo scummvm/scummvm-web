@@ -32,7 +32,7 @@ function portStatus($ports) {
 	<h2>Introduction</h2>
 	<p>
 	This is the test list for ScummVM 0.7.0, targeted for release on Christmas 2004.
-	To achieve this release goal, we have to do tests with all our support games, on as
+	To achieve this release goal, we have to do tests with all our supported games, on as
 	many different systems as possible. Everybody (including <em>you</em>, dear reader)
 	is welcomed and encouraged to participate in this process.
 	</p>
@@ -137,8 +137,8 @@ function portStatus($ports) {
 	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 <tr><td>Broken Sword 2</td><td>NONE</td><td>...</td>
 	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
-<tr><td>FOTAQ</td><td>NONE</td><td>...</td>
-	<?php portStatus(array("Win32" => 0, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
+<tr><td>FOTAQ</td><td>3/12</td><td>...</td>
+	<?php portStatus(array("Win32" => 1, "Linux" => 0, "DC" => 0, "Palm" => 0, "WinCE" => 0, "Mac" => 0, "OpenBSD" => 0)); ?></tr>
 
 </table>
 </body>
