@@ -260,17 +260,10 @@ GUI frontends for ScummVM.
 	<blockquote>
 	<table border=0 cellpadding=5 cellspacing=0>
 
-	  <tr><td><a href="http://w1.864.telia.com/~u86428755/superqult_software/scummvm_frontend.html"><b>ScummVM Front-End</b></a></td></tr>
-	  <tr>
-	    <td><blockquote>
-	    For Mac OS X.
-	    </blockquote></td>
-	  </tr>
-
 	  <tr><td><a href="http://www.d.kth.se/~d00-ogo/ogosoft/scummaqua/"><b>ScummAqua</b></a></td></tr>
 	  <tr>
 	    <td><blockquote>
-	    Yet another Mac OS X frontend.
+	    For Mac OS X.
 	    </blockquote></td>
 	  </tr>
 
