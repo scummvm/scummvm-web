@@ -41,14 +41,6 @@ TD.label	{ font-weight: bold }
 /* Copyright */
 .copyright	{ font-family: Helvetica, Arial, sans-serif; font-size: 8pt; color: #FFFFFF; }
 
-/* Generic Buttons */
-.button		{ background-color: #666666; color: #ffffff; font-family: Helvetica, Arial, sans-serif; font-size: 10pt;
-              groove: #000000; padding: 0; }
-
-/* Hidden Field */
-.hiddenfield	{ background-color: #ffffff; color: #666666; font-family: Helvetica, Arial, sans-serif; font-size: 10pt;
-                  groove: #ffffff; padding: 0; }
-
 /* Percentage Colors */
 .pct0   	{ background-color: #ff5050; }
 .pct5   	{ background-color: #ff5d4f; }
@@ -95,7 +87,6 @@ DIV.opcode {
 }
 
 DIV.opcode H2 {
-        position: top;
         float: right;
         font-family: "Arial", helvetica, sans-serif;
         font-size: larger;
@@ -107,7 +98,6 @@ DIV.opcode H3 {
         margin-top: 0em;
         font-family: "Arial", helvetica, sans-serif;
         font-size: large;
-        position: top;
         font-weight: normal;
 }
 
