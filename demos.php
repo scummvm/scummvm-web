@@ -68,7 +68,7 @@ $demos = array(
 	'Sam and Max Hit the Road (DOS demo - Non interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/samdemo.zip', 'samdemo'),
 	'Sam and Max Hit the Road (Macintosh demo - Interactive)'
-		=> array('ftp://ftp.lucasarts.com/demos/mac/samdemo.sea.bin', 'samdemo'),
+		=> array('http://quick.mixnmojo.com/demos/samdemo_mac.rar', 'samdemo'),
 	'Sam and Max Hit the Road (DOS demo - Interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Snmdemo.zip', 'snmdemo'),
 	'Sam and Max Hit the Road WIP (DOS demo - Interactive)'
