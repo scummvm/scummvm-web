@@ -76,9 +76,9 @@ $demos = array(
 	'Full Throttle'
 		=> array('http://quick.mixnmojo.com/demos/ftdemo.zip', 'ftpcdemo'),
 	'The Dig'
-		=> array('http://quick.mixnmojo.com/demos/digdemo.zip', 'dig'),
+		=> array('http://quick.mixnmojo.com/demos/digdemo.zip', 'digdemo'),
 	'The Curse of Monkey Island (web demo)'
-		=> array('ftp://ftp.lucasarts.com/demos/pc/cursedemo.exe', 'comi'),
+		=> array('ftp://ftp.lucasarts.com/demos/pc/cursedemo.exe', 'comidemo'),
 	'The Curse of Monkey Island (demo with movies)*'
 		=> array('http://files.mixnmojo.com/m3demo.zip', 'comi'),
 	'Simon the Sorcerer'
