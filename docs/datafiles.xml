@@ -1,0 +1,338 @@
+<NAME>ScummVM games data files</NAME>
+<DESC>This page lists for many supported games which files exactly are needed by ScummVM in order to be able to play that game.</DESC>
+<BODY>
+	<h1>ScummVM games data files</h1>
+
+<p>The MONSTER.SOU files in SCUMM games and sound effects/speech files in Simon
+the Sorcerer 1/2 can also be compressed, check readme included with ScummVM for
+details.</p>
+
+<table border="1" width="100%">
+  <tr>
+    <td><b>Game</b></td>
+    <td><b>Files to keep</b></td>
+  </tr>
+  <tr>
+    <td>Beneath a Steel Sky (PC CD and Floppy)</td>
+    <td>SKY.DNR<br>
+      SKY.DSK</td>
+  </tr>
+  <tr>
+    <td>Broken Sword 1</td>
+    <td>CLUSTERS folder<br>
+      MUSIC folder<br>
+      SPEECH folder<br>
+      SMACKSHI folder (High quality) or<br>
+      SMACKSLO folder (Low quality)</td>
+  </tr>
+  <tr>
+    <td>Broken Sword 2</td>
+    <td>*.clu<br>
+      *.inf<br>
+      *.smk<br>
+      *.tab<br>
+      cd.bin<br>
+      Rename music.clu on CD1 to music1.clu<br>
+      Rename music.clu on CD2 to music2.clu<br>
+      Rename speech.clu on CD1 to speech1.clu<br>
+      Rename speech.clu on CD2 to speech2.clu</td>
+  </tr>
+  <tr>
+    <td>Curse of Monkey Island</td>
+    <td>RESOURCE folder<br>
+      COMI.LA0<br>
+      COMI.LA1<br>
+      COMI.LA2</td>
+  </tr>
+  <tr>
+    <td>Day of the Tentacle (CD and Floppy)</td>
+    <td>MONSTER.SOU<br>
+      TENTACLE.000<br>
+      TENTACLE.001</td>
+  </tr>
+  <tr>
+    <td>Day Of The Tentacle (Demo)</td>
+    <td>DOTTDEMO.000<br>
+      DOTTDEMO.001<br>
+      MONSTER.SOU</td>
+  </tr>
+  <tr>
+    <td>Dig, The</td>
+    <td>VIDEO folder<br>
+      BIGFONT.NUT<br>
+      DIG.LA0<br>
+      DIG.LA1<br>
+      DIGMUSIC.BUN<br>
+      DIGVOICE.BUN<br>
+      SMLFONT.NUT</td>
+  </tr>
+  <tr>
+    <td>Dig, The (Demo)</td>
+    <td>audio folder<br>
+      video folder<br>
+      dig.la0<br>
+      dig.la1</td>
+  </tr>
+  <tr>
+    <td>Fatty Bears Birthday Surprise (DOS Demo)</td>
+    <td>fbdemo.he0<br>
+      fbdemo.he1<br>
+      fbdemo.tlk</td>
+  </tr>
+  <tr>
+    <td>Flight of the Amazon Queen</td>
+    <td>QUEEN.1</td>
+  </tr>
+  <tr>
+    <td>Full Throttle</td>
+    <td>DATA foler<br>
+      VIDEO folder<br>
+      BRUSH.NUT<br>
+      FT.LA0<br>
+      FT.LA1<br>
+      MONSTER.SOU<br>
+      TITLFNT.NUT</td>
+  </tr>
+  <tr>
+    <td>Full Throttle (Demo)</td>
+    <td>data folder<br>
+      video folder<br>
+      ft.000<br>
+      ft.001<br>
+      monster.sou</td>
+  </tr>
+  <tr>
+    <td>Indiana Jones and the Fate of Atlantis (Amiga)</td>
+    <td>amiga*.ims<br>
+      atlantis.000<br>
+      atlantis.001<br>
+      atlantis.002<br>
+      atlantis.003<br>
+      atlantis.004<br>
+      atlantis.005<br>
+      atlantis.006<br>
+      atlantis.007<br>
+      atlantis.008<br>
+      atlantis.009<br>
+      atlantis.010<br>
+      atlantis.011</td>
+  </tr>
+  <tr>
+    <td>Indiana Jones and the Fate of Atlantis (PC CD)</td>
+    <td>MONSTER.SOU<br>
+      ATLANTIS.000<br>
+      ATLANTIS.001</td>
+  </tr>
+  <tr>
+    <td>Indiana Jones and the Fate of Atlantis (PC Floppy)</td>
+    <td>
+      ATLANTIS.000<br>
+      ATLANTIS.001</td>
+  </tr>
+  <tr>
+    <td>Indiana Jones and the Fate of Atlantis (Demo)</td>
+    <td>PLAYFATE.000<br>
+      PLAYFATE.001</td>
+  </tr>
+  <tr>
+    <td>Indiana Jones and the Last Crusade (Amiga, PC EGA or PC 256
+      color)</td>
+    <td>*.LFL</td>
+  </tr>
+  <tr>
+    <td>Loom (Amiga or PC EGA, or PC Demo)</td>
+    <td>*.LFL</td>
+  </tr>
+  <tr>
+    <td>Loom (CD)**</td>
+    <td>DISK01.LEC<br>
+      *.LFL</td>
+  </tr>
+  <tr>
+    <td>Maniac Mansion (Original or Enhanced)</td>
+    <td>*.LFL</td>
+  </tr>
+  <tr>
+    <td>Monkey Island 2 - LeChuck's revenge (Amiga)</td>
+    <td>amiga*.ims<br>
+      monkey2.000<br>
+      monkey2.001<br>
+      monkey2.002<br>
+      monkey2.003<br>
+      monkey2.004<br>
+      monkey2.005<br>
+      monkey2.006<br>
+      monkey2.007<br>
+      monkey2.008<br>
+      monkey2.009<br>
+      monkey2.010<br>
+      monkey2.011</td>
+  </tr>
+  <tr>
+    <td>Monkey Island 2 - LeChuck's revenge (PC)</td>
+    <td>MONKEY2.000<br>
+      MONKEY2.001</td>
+  </tr>
+  <tr>
+    <td>Monkey Island 2 - LeChuck's revenge (Demo)</td>
+    <td>DEMO.REC<br>
+      MI2DEMO.000<br>
+      MI2DEMO.001<br>
+      MI2DEMO.002</td>
+  </tr>
+  <tr>
+    <td>Passport to Adventure (Indy3, Monkey and Loom demos)</td>
+    <td>DISK01.LEC<br>
+      *.LFL</td>
+  </tr>
+  <tr>
+    <td>Putt-Putt Joins The Parade (DOS Demo)</td>
+    <td>puttdemo.he0<br>
+      puttdemo.he1<br>
+      puttdemo.tlk</td>
+  </tr>
+  <tr>
+    <td>Putt-Putt Goes To The Moon (DOS Demo)&nbsp;</td>
+    <td>moondemo.he0<br>
+      moondemo.he1<br>
+      moondemo.tlk</td>
+  </tr>
+  <tr>
+    <td>Sam and Max (Floppy)</td>
+    <td>MONSTER.SOU<br>
+      SAMNMAX.SM0<br>
+      SAMNMAX.SM1</td>
+  </tr>
+  <tr>
+    <td>Sam and Max (CD)</td>
+    <td>MONSTER.SOU<br>
+      SAMNMAX.000<br>
+      SAMNMAX.001</td>
+  </tr>
+  <tr>
+    <td>Sam &amp; Max (Demo)</td>
+    <td>samdemo.000<br>
+      samdemo.001</td>
+  </tr>
+  <tr>
+    <td>Secret of Monkey Island, The (Amiga)</td>
+    <td>*.LEC<br>
+      *.LFL<br>
+      music.dat<br>
+      sample.dat</td>
+  </tr>
+  <tr>
+    <td>Secret of Monkey Island,The (PC EGA or PC Demo)</td>
+    <td>*.LEC<br>
+      *.LFL</td>
+  </tr>
+  <tr>
+    <td>Secret of Monkey Island, The (PC VGA Floppy)</td>
+    <td>*.LEC<br>
+      *.LFL</td>
+  </tr>
+  <tr>
+    <td>Secret of Monkey Island, The (PC VGA CD)**</td>
+    <td>MONKEY.000<br>
+      MONKEY.001</td>
+  </tr>
+  <tr>
+    <td>Secret of Monkey Island, The (Alternative PC VGA CD)**</td>
+    <td>MONKEY1.000<br>
+      MONKEY1.001</td>
+  </tr>
+  <tr>
+    <td>Simon the Sorcerer 1 (Floppy)</td>
+    <td>*.MUS<br>
+      *.VGA<br>
+      GAMEPC<br>
+      ICON.DAT<br>
+      STRIPPED.TXT<br>
+      TABLES*<br>
+      TBLLIST<br>
+      TEXT*</td>
+  </tr>
+  <tr>
+    <td>Simon the Sorcerer 1 Talkie (DOS)</td>
+    <td>EFFECTS.VOC<br>
+      GAMEPC<br>
+      ICON.DAT<br>
+      SIMON.GME<br>
+      SIMON.VOC<br>
+      STRIPPED.TXT<br>
+      TBLLIST</td>
+  </tr>
+  <tr>
+    <td>Simon the Sorcerer 1 Talkie (Windows)</td>
+    <td>GAMEPC<br>
+      ICON.DAT<br>
+      SFX*<br>
+      SIMON.GME<br>
+      SIMON.WAV<br>
+      STRIPPED.TXT<br>
+      TBLLIST</td>
+  </tr>
+  <tr>
+    <td>Simon The Sorcerer 1 (Demo)&nbsp;</td>
+    <td>*.VGA<br>
+      GDEMO<br>
+      ICON.DAT<br>
+      MOD02.MUS<br>
+      STRIPPED.TXT<br>
+      TABLES*<br>
+      TBLLIST<br>
+      TEXT*</td>
+  </tr>
+  <tr>
+    <td>Simon the Sorcerer 2 (Floppy)</td>
+    <td>GAME32<br>
+      ICON.DAT<br>
+      SIMON2.GME<br>
+      STRIPPED.TXT<br>
+      TBLLIST</td>
+  </tr>
+  <tr>
+    <td>Simon the Sorcerer 2 Talkie (Amiga or Mac)</td>
+    <td>voices folder<br>
+      gsptp30<br>
+      icon.dat<br>
+      simon2.gme<br>
+      stripped.txt<br>
+      tbllist</td>
+  </tr>
+  <tr>
+    <td>Simon the Sorcerer 2 Talkie (DOS)</td>
+    <td>GSPTR30<br>
+      ICON.DAT<br>
+      SIMON.GME<br>
+      SIMON2.VOC<br>
+      STRIPPED.TXT<br>
+      TBLLIST</td>
+  </tr>
+  <tr>
+    <td>Simon the Sorcerer 2 Talkie (Windows)</td>
+    <td>GSPTR30<br>
+      ICON.DAT<br>
+      SIMON2.GME<br>
+      SIMON2.WAV<br>
+      STRIPPED.TXT<br>
+      TBLLIST</td>
+  </tr>
+  <tr>
+    <td>Simon The Sorcerer 2 (Demo)</td>
+    <td>GSPTR30<br>
+      ICON.DAT<br>
+      SIMON.GME<br>
+      SIMON2.VOC<br>
+      STRIPPED.TXT<br>
+      TBLLIST</td>
+  </tr>
+  <tr>
+    <td>Zak McKracken and the Alien Mindbenders (Original or Enhanced)</td>
+    <td>*.LFL</td>
+  </tr>
+</table>
+
+<p>** Games use CD audio tracks for music, check readme included with ScummVM to
+see how to convert them to compressed files. </p>
+</BODY>
