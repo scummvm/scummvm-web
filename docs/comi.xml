@@ -17,7 +17,6 @@
 <li>Generic:
 	<ul>
 		<li>No SMUSH Audio: aquadran is working on this one
-		<li>Since ScaleSlots were implemented, engine will crash on entering the town (_charset somehow gets freed!?)
 	</ul>
 <li>Graphics:
 	<ul>
