@@ -1,6 +1,8 @@
-<name>ScummVM 0.5.0 Checklist</name>
-<desc>This page is the current checklist for releasing 0.5.0</desc>
+<name>ScummVM 0.6.0 Checklist</name>
+<desc>This page is the current checklist for releasing 0.6.0</desc>
 <body>
+ScummVM 0.6.0 is not yet in the testing phase, please check back later.
+<!--
 	<h1>0.5.0 Checklist</h1>
 
 	<h2>Introduction</h2>
@@ -107,4 +109,5 @@ function portStatus($ports) {
 		posted to the ScummVM-Devel mailing list or forums. Insure
 		you include the date of the CVS version you used to test.
 </p>
+-->
 </body>
