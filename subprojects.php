@@ -12,9 +12,9 @@ sidebar_start();
 echo html_round_frame_start("ScummVM Subprojects","");
 ?>
 <P>
-The ScummVM team occasionally works on various subprojects, seperate from the main 
+The ScummVM team occasionally works on various subprojects, separate from the main 
 ScummVM program. These projects are generally reasonably stagnant and not given a high 
-priority. Regardless, this page is here to inform you of them, in the vauge hope of 
+priority. Regardless, this page is here to inform you of them, in the vague hope of 
 attracting more developers to help maintain these side-programs.
 </P>
 <P>
