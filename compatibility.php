@@ -211,11 +211,10 @@ $notes = array(
 		   "<br>- Both disk and cd versions are supported by this target".
                    "<br>- Highway subgame doesn't behave correctly",
 "samdemo"	=> "No known problems - should be playable to the end",
-"ft"		=> "Game is completable to the end, but missing action sequences".
+"ft"		=> "Game is completable to the end, but with several glitches".
 		   "<br>- Both Mac and PC versions supported by this target".
 	 	   "<br>- Music is not continuous, and may pause, restart, and otherwise act oddly".
-		   "<br>- SMUSH audio (movie cutscenes) is a lot quieter than in-game voice, which is abnormally loud".
-                   "<br>- Lack of INSANE subsystem prevents action sequences, which skips a substantial portion of the game",
+		   "<br>- SMUSH audio (movie cutscenes) is a lot quieter than in-game voice, which is abnormally loud",
 "dig"		=> "Game is fully completable, with some minor sound issues".
 		   "<br>- Both Mac and PC versions supported by this target",
 "comi"		=> "Game is fully completable, although ship-to-ship is broken and several graphical glitches are present",
