@@ -103,11 +103,13 @@ $notes = array(
 "zakc64"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
 "maniac"	=> "Enhanced version runs, although in-game there are still many things wrong".
 		   "<br>- Both Amiga and enchanced PC versions supported by this target".
-                   "<br>- Some sound effects missing",
+                   "<br>- Some sound effects missing".
+		   "<br>- No music or sound effects with Amiga version",
 "zak"		=> "Enhanced version runs, although in-game there are still many things wrong".
 		   "<br>- Both Amiga and enchanced PC versions supported by this target".
                    "<br>- Introduction music doesn't auto stop, if introduction is skipped when music is playing".
-                   "<br>- Some sound effects missing",
+                   "<br>- Some sound effects missing".
+		   "<br>- No music or sound effects with Amiga version",
 "indy3ega"	=> "Game is completable".
 		   "<br>- Both Amiga and PC versions supported by this target".
                    "<br>- No music or sound effects",
