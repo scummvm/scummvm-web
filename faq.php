@@ -69,7 +69,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
       <li><a href="#4-5">My game crashes at some point.</a></li>
       <li><a href="#4-6">ScummVM crashes, but console window disappears too quick to see the error message.</a></li>
       <li><a href="#4-7">The game colors are messed up.</a></li>
-      <li><a href="#4-8">The characters in my non english game are messed up.</a></li>
+      <li><a href="#4-8">The subtitles in my non english game are messed up.</a></li>
       <li><a href="#4-9">How do I make my mac version of a game work?</a></li>
       <li><a href="#4-10">Reporting Bugs.</a></li>
       <li><a href="#4-11">I downloaded the Broken Sword packs from your site but the game won't run.</a></li>
@@ -141,8 +141,8 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	music, sound, 256-colors graphics and reworked game interface. It was made using
 	the <a href="http://www.adventuregamestudio.co.uk/">Adventure Game Studio</a> which
 	is a free, albeit closed-source graphics adventures engine. There are Windows,
-	Linux and FreeBSD versions of the engine. It's author keeps his source code closed
-	due to reasons explained in the project's <a href="http://www.agsforums.com/acfaq.htm">FAQ</a>
+	Linux and FreeBSD versions of the engine. Its author keeps his source code closed
+	due to reasons explained in the project <a href="http://www.agsforums.com/acfaq.htm">FAQ</a>
 	(see last two questions). That means that you need to download that program to
 	play the game.
       </p></li>
