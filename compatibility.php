@@ -147,6 +147,11 @@ $notes = array(
 "loomtowns"	=> "Can't learn f, game may be completable with drafts learn command".
 		   "<br>- Fades are seemingly different to other versions in some cases".
 		   "<br>- Euphony tunes not yet supported so notes won't be heard".
+		   "<br>- difficulty select is via boot param:"
+
+		   "<ul><li>0 pratice (default)"
+		       "<li>1 standard"
+		       "<li>2 expert</ul>"
 		   "<br>- Kanji version not yet supported",
 "monkeyega"	=> "Game is completable",
 "pass"		=> "Loom and Monkey Island demos are completable.".
