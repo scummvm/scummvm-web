@@ -78,11 +78,11 @@ $games = array(
 		'Curse of Monkey Island'				=> array('8','curse','5'),
 		'Simon The Sorcerer 1 Talkie (Win)'       		=> array('n/a','simon1win','85'),
 		'Simon The Sorcerer 1 Talkie (Dos)'       		=> array('n/a','simon1talkie','85'),
-		'Simon The Sorcerer 1 (Dos)'           			=> array('n/a','simon1dos','50'),
-		'Simon The Sorcerer 1 (DEMO)'          			=> array('n/a','simon1demo','60'),
+		'Simon The Sorcerer 1 (Dos)'           			=> array('n/a','simon1dos','75'),
+		'Simon The Sorcerer 1 (DEMO)'          			=> array('n/a','simon1demo','75'),
 		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','80'),
 		'Simon The Sorcerer 2 Talkie (Dos)'       		=> array('n/a','simon2talkie','80'),
-		'Simon The Sorcerer 2 (Dos)'           			=> array('n/a','simon2dos','50')
+		'Simon The Sorcerer 2 (Dos)'           			=> array('n/a','simon2dos','75')
 	      );
 
 $notes = array(
@@ -124,28 +124,26 @@ $notes = array(
 "simon1talkie" 	=> "Game is completable.".
                    "<br>- Various minor graphical glitches",
 "simon1dos" 	=> "Game is completable to a point, but not playable to the end".
-                   "<br>- Freezes when Swampling leaves his house".
-                   "<br>  (Use right mouse button click to get past this freeze)".
-                   "<br>- Freezes when talking to demons in Sordid's Tower".
+                   "<br>- Freezes briefly when Swampling leaves his house".
+                   "<br>- Freezes briefly when talking to demons in Sordid's Tower".
                    "<br>- No sound effects".
                    "<br>- Various minor graphical glitches",
 "simon1demo" 	=> "Game demo is completable to a point, but not playable to the end".
-                   "<br>- Freezes when Swampling leaves his house".
+                   "<br>- Freezes briefly when Swampling leaves his house".
                    "<br>- No music",
 "simon2talkie"  => "Game is completable.".
-                   "<br>- Will freeze when waking up in Sordid's Tower if Simon isn't moved straight away".
+                   "<br>- Freeze for awhile when waking up in Sordid's Tower if entire travelling sequence was watched".
                    "<br>- No music".
                    "<br>- Part of introduction is skipped".
                    "<br>- Various minor graphical glitches",
 "simon2win"     => "Game is completable.".
-                   "<br>- Will freeze when waking up in Sordid's Tower if Simon isn't moved straight away".
+                   "<br>- Freeze for awhile when waking up in Sordid's Tower if entire travelling sequence was watched".
                    "<br>- Some music is missing".
                    "<br>- Part of introduction is skipped".
                    "<br>- Various minor graphical glitches",
 "simon2dos"     => "Game is completable to a point, but not playable to the end".
-                   "<br>- Will freeze during sequence shown when trying to escape from pirate ship".
-                   "<br>  (Use right mouse button click to get past this freeze)".
-                   "<br>- Will freeze when waking up in Sordid's Tower if Simon isn't moved straight away".
+                   "<br>- Freezes briefly during sequence shown when trying to escape from pirate ship".
+                   "<br>- Freeze for awhile when waking up in Sordid's Tower if entire travelling sequence was watched".
                    "<br>- No music".
                    "<br>- Part of introduction is skipped".
                    "<br>- Various minor graphical glitches"
