@@ -137,18 +137,18 @@ $HE_demos = array(
 	);
 
 $MISC_demos = array(
-	'Simon the Sorcerer 1 (DOS demo)'
-		=> array('http://www.cowlark.com/scumm.dat/simon1demo.zip', 'simon1demo'),
-	'Simon the Sorcerer 1 Talkie (Acorn demo)'
-		=> array('http://quick.mixnmojo.com/demos/simondemo_acorn.rar', 'simon1acorn'),
-	'Simon the Sorcerer 2 Talkie (DOS demo)'
-		=> array('http://www.cowlark.com/scumm.dat/simon2demo.zip', 'simon2talkie'),
 	'Broken Sword II'
 		=> array('http://ftp.se.kde.org/pub/pc/games/pcgameworld/demos/bs2-demo.zip', 'sword2demo'),
 	'Flight of the Amazon Queen (Datafile only)'
 		=> array('http://0x.7fc1.org/fotaq/fotaq_demo.zip', 'queen'),
 	'Flight of the Amazon Queen (PCGAMES demo, Datafile only)'
-		=> array('http://0x.7fc1.org/fotaq/fotaq_demo_pcgames.zip', 'queen')
+		=> array('http://0x.7fc1.org/fotaq/fotaq_demo_pcgames.zip', 'queen'),
+	'Simon the Sorcerer 1 (DOS demo)'
+		=> array('http://www.cowlark.com/scumm.dat/simon1demo.zip', 'simon1demo'),
+	'Simon the Sorcerer 1 Talkie (Acorn demo)'
+		=> array('http://quick.mixnmojo.com/demos/simondemo_acorn.rar', 'simon1acorn'),
+	'Simon the Sorcerer 2 Talkie (DOS demo)'
+		=> array('http://www.cowlark.com/scumm.dat/simon2demo.zip', 'simon2talkie')
 	);
 
 function render_demos($title, $demos) {
