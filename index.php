@@ -37,7 +37,7 @@ $total = (count($shots) - 1);
 srand((double) microtime() * 1000000);
 $randImg = rand(0,$total);
 
-echo html_round_frame_start("About ScummVM","98%","",20);
+echo html_round_frame_start("About ScummVM","");
 ?>
 	<table width="100%" border=0 cellpadding=10 cellspacing=0>
 	<tr valign="top">
@@ -95,7 +95,7 @@ echo html_round_frame_end("&nbsp;"),html_br();
 // end of welcome table
 
 //display News
-echo html_round_frame_start("Latest Developments","98%","",20);
+echo html_round_frame_start("Latest Developments","");
 echo html_frame_start("","100%",1,1);
 
 // get list of news items

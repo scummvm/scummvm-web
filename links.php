@@ -16,7 +16,7 @@ html_header("ScummVM :: Links");
 sidebar_start();
 
 //display welcome table
-echo html_round_frame_start("Links","98%","",20);
+echo html_round_frame_start("Links","");
 
 ?>
 	<h1>Links</h1>

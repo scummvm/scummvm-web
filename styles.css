@@ -57,10 +57,51 @@ h1, h2		{
 .color3		{ background-color: #73106b }
 .color4		{ background-color: #999999 }
 
-/* Menu Config */
-.menuTitle	{ font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #ffffff; font-weight: bold; }
-.menuItem 	{ font-family: Arial, Helvetica, sans-serif; font-size: 10pt; color: #ffffff; }
-.topMenu	{ background-color: #73106b; background-image: url('images/topmenu_bg.png'); }
+/* Frames */
+.frame			{ background-color: #fff; margin: 0 auto; font-size: 8pt; }
+.frameTitle		{ color: #fff; font-weight: bold; }
+.frameBody		{ padding: 1em 2em; } 
+.frameTop		{ text-align: center; background-color: #73106b; background-image: url('images/topmenu_bg.png'); }
+.frameTop .cornerLeft	{
+	background-image: url('images/main_left_top.gif'); background-repeat: no-repeat; background-position: left top;
+}
+.frameTop .cornerRight	{
+	background-image: url('images/main_right_top.gif'); background-repeat: no-repeat; background-position: right top;
+}
+.frameBottom	{ text-align: center; background-color: #73106b; background-image: url('images/topmenu_bg.png'); }
+.frameBottom .cornerLeft	{
+	background-image: url('images/main_left_bottom.gif'); background-repeat: no-repeat; background-position: left bottom;
+}
+.frameBottom .cornerRight	{
+	background-image: url('images/main_right_bottom.gif'); background-repeat: no-repeat; background-position: right bottom;
+}
+
+
+/* Side bar / content part */
+#sideBar {
+	width: 120px;
+	float: left;
+	text-align: center;
+	vertical-align: top;
+}
+#main {
+	margin-left: 120px;
+	padding-left: 1em;
+	padding-right: 1em;
+	vertical-align: top;
+}
+
+/* Copyright footer */
+#copyright	{
+	width: 45ex;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #FFFFFF;
+	text-align: justify;
+	float: right;
+	padding: 1ex;
+}
+#copyright a { color: white; }
 
 /* Side menus */
 .sideMenu {
@@ -97,18 +138,6 @@ h1, h2		{
 	background-repeat: no-repeat;
 	background-position: right bottom;
 }
-
-/* Copyright */
-.copyright	{
-	width: 45ex;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 8pt;
-	color: #FFFFFF;
-	text-align: justify;
-	float: right;
-	padding: 1%;
-}
-.copyright a { color: white; }
 
 /* Percentage Colors */
 .pct0   	{ background-color: #ff5050; }

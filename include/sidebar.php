@@ -13,9 +13,7 @@ function sidebar_start ($specs_mode = false)
 
 ?>
 
-<table width="100%" border=0 cellpadding=0 cellspacing=0>
-<tr>
-<td style="width: 120px" align=center valign=top>
+<div id="sideBar">
 
 <?
 
@@ -65,8 +63,7 @@ function sidebar_start ($specs_mode = false)
 	$g->done('<img src="'.$file_root.'/images/hangmonk.gif" alt="monkey">');
  
 ?>
-	<p>&nbsp;</p>
-	
+
 	<form action="https://www.paypal.com/cgi-bin/webscr" method="post"><div>
 	<input type="hidden" name="cmd" value="_xclick">
 	<input type="hidden" name="business" value="paypal@enderboi.com">
@@ -74,13 +71,19 @@ function sidebar_start ($specs_mode = false)
 	<input type="image" src="<?=$file_root?>/images/ppdonate.gif" name="submit" alt="Donate to ScummVM with PayPal!">
 	</div></form>	
 	
-	<p style="text-align: center">
-	  <a href="http://sourceforge.net/"><img src="http://sourceforge.net/sflogo.php?group_id=37116"
-	  width="88" height="31" alt="SourceForge"></a>
+	<p>
+		<a href="http://sourceforge.net/"><img src="http://sourceforge.net/sflogo.php?group_id=37116" width="88" height="31" alt="SourceForge"></a>
 	</p>
 
-</td>
-<td align="center" valign="top">
+	<p>
+		<a href="http://validator.w3.org/check/referer"><img src="http://www.w3.org/Icons/valid-html401" width="88" height="31" alt="Valid HTML 4.01!"></a>
+	</p> 
+
+	<p>
+		<a href="http://jigsaw.w3.org/css-validator/"><img src="http://jigsaw.w3.org/css-validator/images/vcss" width="88" height="31" alt="Valid CSS!" ></a>
+	</p>
+</div>
+<div id="main">
 
 <?
 }
@@ -89,9 +92,7 @@ function sidebar_end ()
 {
 ?>
 
-</td>
-</tr>
-</table>
+</div>
 
 <?
 }

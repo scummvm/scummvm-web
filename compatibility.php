@@ -16,7 +16,7 @@ html_header("ScummVM :: Compatibility - CVS");
 sidebar_start();
 
 //display welcome table
-echo html_round_frame_start("Compatibility","98%","",20);
+echo html_round_frame_start("Compatibility","");
 
 
 ?>

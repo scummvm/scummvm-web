@@ -17,7 +17,7 @@ html_header("ScummVM");
 sidebar_start();
 
 //display News
-echo html_round_frame_start("ScummVM Documentation","98%","",20);
+echo html_round_frame_start("ScummVM Documentation","");
 echo html_frame_start("","100%",1,1);
 
 if ($view and file_exists($file_root."/docs/".$view.".xml"))

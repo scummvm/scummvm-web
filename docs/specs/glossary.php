@@ -9,7 +9,7 @@ html_header("SCUMM Reference Guide :: Glossary");
 sidebar_start(true);
 
 //display welcome table
-echo html_round_frame_start("Glossary","98%","",20);
+echo html_round_frame_start("Glossary","");
 ?>
   
         <p>

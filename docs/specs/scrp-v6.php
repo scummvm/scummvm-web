@@ -9,7 +9,7 @@ html_header("SCUMM Reference Guide :: V6 opcode list");
 sidebar_start(true);
 
 //display welcome table
-echo html_round_frame_start("V6 opcode list","98%","",20);
+echo html_round_frame_start("V6 opcode list","");
 ?>
   
         <p>

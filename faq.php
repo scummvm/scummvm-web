@@ -16,7 +16,7 @@ html_header("ScummVM :: FAQ");
 sidebar_start();
 
 //display welcome table
-echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
+echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 
 ?>
 <p>

@@ -9,7 +9,7 @@ html_header("SCUMM Reference Guide :: AARY Arrays and Strings");
 sidebar_start(true);
     
 //display welcome table
-echo html_round_frame_start("AARY: Arrays and Strings","98%","",20);
+echo html_round_frame_start("AARY: Arrays and Strings","");
 ?>
 
         <p>

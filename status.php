@@ -22,7 +22,7 @@ html_header("ScummVM :: Status");
 sidebar_start();
 
 //display welcome table
-echo html_round_frame_start("State of the SCUMM","98%","",20);
+echo html_round_frame_start("State of the SCUMM","");
 
 ?>
 	<h1>State of the SCUMM - 17th October 2002</h1>

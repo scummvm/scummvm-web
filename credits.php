@@ -29,7 +29,7 @@ html_header("ScummVM :: Credits");
 sidebar_start();
 
 //display welcome table
-echo html_round_frame_start("Credits","98%","",20);
+echo html_round_frame_start("Credits","");
 
 ?>
 	<h1>Credits</h1>

@@ -17,7 +17,7 @@ html_header("ScummVM :: Downloads");
 sidebar_start();
 
 //display welcome table
-echo html_round_frame_start("Downloads","98%","",20);
+echo html_round_frame_start("Downloads","");
 
 ?>
 	<h1>Downloads for ScummVM <span style="color: gray;">version 0.5.1</span></h1>

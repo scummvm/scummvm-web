@@ -16,7 +16,7 @@ html_header("ScummVM :: Press");
 sidebar_start();
 
 //display welcome table
-echo html_round_frame_start("Press","",20);
+echo html_round_frame_start("Press","");
 
 ?>
 <h1>ScummVM press coverage</h1>

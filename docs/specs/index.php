@@ -11,7 +11,7 @@ sidebar_start(true);
 // add 
 
 //display welcome table
-echo html_round_frame_start("The inComplete SCUMM Reference Guide","98%","",20);
+echo html_round_frame_start("The inComplete SCUMM Reference Guide","");
 
 ?>
         <p>

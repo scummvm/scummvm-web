@@ -16,7 +16,7 @@ html_header("ScummVM :: Compatibility - Stable (0.5.0)");
 sidebar_start();
 
 //display welcome table
-echo html_round_frame_start("Compatibility","98%","",20);
+echo html_round_frame_start("Compatibility","");
 
 
 ?>

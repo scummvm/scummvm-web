@@ -16,7 +16,7 @@ html_header("ScummVM :: Screenshots");
 sidebar_start();
 
 //display welcome table
-echo html_round_frame_start("Screenshots","98%","",20);
+echo html_round_frame_start("Screenshots","");
 
 ?>
 	<h1>Screenshots</h1>
@@ -45,7 +45,7 @@ if ($view != "")
 	                  ),
 	     html_frame_tr(
 	     		   html_frame_td(
-			   		 html_ahref("&nbsp; &lt;&lt; Back",$PHP_SELF."?offset=".$offset,"class=menuItem"),
+			   		 html_ahref("&nbsp; &lt;&lt; Back",$PHP_SELF."?offset=".$offset,"style='color: white;'"),
 					 'align=left class="color4"'
 			   		)
 	     		  ),
@@ -115,7 +115,7 @@ else
 	if ($offset)
 	{
 		$prev = $offset - 4;
-		$prevLink = html_ahref("&lt;&lt; Prev 4 Images",$PHP_SELF."?offset=".$prev,"class=menuItem");
+		$prevLink = html_ahref("&lt;&lt; Prev 4 Images",$PHP_SELF."?offset=".$prev,"style='color: white;'");
 
 	}
 
@@ -123,7 +123,7 @@ else
 	if (($offset + 4) < $total)
 	{
 		$next = $where + 1;
-		$nextLink = html_ahref("Next 4 Images &gt;&gt;",$PHP_SELF."?offset=".$next,"class=menuItem");
+		$nextLink = html_ahref("Next 4 Images &gt;&gt;",$PHP_SELF."?offset=".$next,"style='color: white;'");
 	}
 
 	echo html_frame_tr(

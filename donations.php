@@ -17,7 +17,7 @@ html_header("ScummVM");
 sidebar_start();
 
 //display donations
-echo html_round_frame_start("ScummVM Donations","",20);
+echo html_round_frame_start("ScummVM Donations","");
 
 ?>
 <h1>Donations</h1>

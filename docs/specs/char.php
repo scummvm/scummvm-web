@@ -9,7 +9,7 @@ html_header("SCUMM Reference Guide :: CHAR Character Sets");
 sidebar_start(true);
 
 //display welcome table
-echo html_round_frame_start("CHAR: Character Sets","98%","",20);
+echo html_round_frame_start("CHAR: Character Sets","");
 ?>
 
         <p>

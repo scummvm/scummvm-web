@@ -85,21 +85,18 @@ function html_line ($width = "100%", $height = 1, $color = "grey")
 function html_frame_start ($title = "", $width = "", $cellPad = 5, $cellSpc = 1, $color = "color2", $extra = "")
 {
 	global $file_root;
-	if ($width) { $width = 'width="'.$width.'"'; }
+	global $_trcolor;
+	$_trcolor = 0;
+	if ($width) { $width = " style='width: $width;'"; }
 
-	$str = "\n".'<div align="center">'."\n";
-	$str .= '<table '.$width.' border="0" cellpadding="0" cellspacing="0">'."\n";
+	$str = "";
+	$str .= "<div class='frame'".$width.">\n";
 
 	if ($title) {
-		$str .= '<tr><td class="topMenu">'."\n";
-		$str .= '	<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
-		$str .= '		<td align="center"><span class="menuTitle"> '.$title.' </span></td>'."\n";
-		$str .= '	</tr></table>'."\n";
-		$str .= '</td></tr>'."\n";
+		$str .= '<div class="frameTop"><span class="frameTitle">'.$title.'</span></div>'."\n";
 	}
 
-	$str .= '<tr><td class='.$color.'>'."\n";
-	$str .= '<table width="100%" border="0" cellpadding="'.$cellPad.'" cellspacing="'.$cellSpc.'" '.$extra.'>'."\n";
+	$str .= '<table width="100%" border="0" class="'.$color.'" cellpadding="'.$cellPad.'" cellspacing="'.$cellSpc.'" '.$extra.'>'."\n";
 
 	return $str;
 }
@@ -107,58 +104,43 @@ function html_frame_start ($title = "", $width = "", $cellPad = 5, $cellSpc = 1,
 function html_frame_end ($text = "")
 {
 	global $file_root;
-	global $_trcolor;
-	$str .= '</table>'."\n";
-	$str .= '</td></tr>'."\n";
+	$str .= "</table>\n";
 	if ($text) {
-		$str .= '<tr><td class="topMenu">'."\n";
-		$str .= '	<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
-		$str .= '		<td align="center"><span class="menuTitle"> '.$text.' </span></td>'."\n";
-		$str .= '	</tr></table>'."\n";
-		$str .= '</td></tr>'."\n";
+		$str .= '<div class="frameBottom"><span class="frameTitle">'.$text.'</span></div>'."\n";
 	}
-	$str .= "</table>\n</div>\n\n";
-	$_trcolor = 0;
+	$str .= "</div>\n\n";
 	return $str;
 }
 
-function html_round_frame_start ($title = "", $width = "", $extra = "", $innerPad = 5)
+function html_round_frame_start ($title = "", $extra = "")
 {
 	global $file_root;
-	if ($width) { $width = 'width="'.$width.'"'; }
 
-	$str .= '<table '.$width.' border="0" cellpadding="0" cellspacing="0">'."\n";
+	$str .= "<div class='frame'>\n";
 	
 	if ($title) {
-		$str .= '<tr><td class="topMenu">'."\n";
-		$str .= '	<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
-		$str .= '		<td valign=top align="left"><img src="'.$file_root.'/images/main_left_top.gif" alt="-"></td>'."\n";
-		$str .= '		<td align="center"><span class="menuTitle"> '.$title.' </span></td>'."\n";
-		$str .= '		<td valign=top align="right"><img src="'.$file_root.'/images/main_right_top.gif" alt="-"></td>'."\n";
-		$str .= '	</tr></table>'."\n";
-		$str .= '</td></tr>'."\n";
+		$str .= '<div class="frameTop"><div class="cornerLeft"><div class="cornerRight">';
+		$str .= '<span class="frameTitle">'.$title.'</span>';
+		$str .= '</div></div></div>'."\n";
 	}
 	
-	$str .= '<tr><td>'."\n";
-	$str .= '<table width="100%" border="0" cellpadding='.$innerPad.' cellspacing=1 '.$extra.'><tr><td class="color2">'."\n";
+	$str .= "<div class='frameBody' style='background-color: #ffffff'>\n";
+//	$str .= '<table width="100%" border="0" cellpadding='.$innerPad.' cellspacing=1 '.$extra.'><tr><td class="color2">'."\n";
 
 	return $str;
 }
 
-function html_round_frame_end ($text = "")
+function html_round_frame_end ($text = "&nbsp;")
 {
 	global $file_root;
-	$str .= '</td></tr></table></td></tr>'."\n";
+	$str .= "</div>\n";
+//	$str .= '</td></tr></table>'."\n";
 	if ($text) {
-		$str .= '<tr><td class="topMenu">'."\n";
-		$str .= '	<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr>'."\n";
-		$str .= '		<td valign=bottom align="left"><img src="'.$file_root.'/images/main_left_bottom.gif" alt="-"></td>'."\n";
-		$str .= '		<td align="center"><span class="menuTitle"> '.$text.' </span></td>'."\n";
-		$str .= '		<td valign=bottom align="right"><img src="'.$file_root.'/images/main_right_bottom.gif" alt="-"></td>'."\n";
-		$str .= '	</tr></table>'."\n";
-		$str .= '</td></tr>'."\n";
+		$str .= '<div class="frameBottom"><div class="cornerLeft"><div class="cornerRight">';
+		$str .= '<span class="frameTitle">'.$text.'</span>';
+		$str .= '</div></div></div>'."\n";
 	}
-	$str .= "</table>\n\n";
+	$str .= "</div>\n\n";
 	return $str;
 }
 
@@ -323,7 +305,7 @@ function html_header ($title, $extra = "")
 {
 	global $file_root;
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
 
 <head>
@@ -348,7 +330,7 @@ function html_footer ()
 {
 ?>
 
-<div class="copyright">
+<div id="copyright">
 LucasArts, Monkey Island, Maniac Mansion, Full Throttle,
 The Dig, LOOM, and probably lots of other things are
 registered trademarks of <a href="http://www.lucasarts.com">LucasArts, Inc.</a>.

@@ -16,7 +16,7 @@ html_header("ScummVM :: Game Demos");
 sidebar_start();
 
 //display welcome table
-echo html_round_frame_start("Game Demos","98%","",20);
+echo html_round_frame_start("Game Demos","");
 
 
 ?>
