@@ -32,7 +32,6 @@
 	<ul>
 		<li>Some text does not undraw correctly, again leaving behind artifacts
 		<li>Masking artifacts. See many animations, eg during insult sword fighting
-		<li>Broken room palettes on Blood Island (scummvm -d0 -b600 then exit room to map, ecetra)
 	</ul>
 <li>Conversation:
 	<ul>
@@ -47,10 +46,11 @@
 	</ul>
 <li>Actor:
 	<ul>
-		<li>The CHORE opcode still seems to be returning dodgy results
+		<li>o8_getActorChore still seems to be returning dodgy results
 		<li>setActorChoreLimbFrame isn't quite correct, eg Wallys animation after throwing the hook will show a few phantom
 		frames of his 'throw hook' and 'standing at cannon' animation
-		<li>Lack of MouthSync and MuaicMouthSync stuff causes odd actor speech animations
+		<li>Lack of MouthSync and MuaicMouthSync stuff causes odd actor speech animations 
+		(CVS hacked to generate random values... it's wrong, it's not synced, but it look betters than nothing)
 		<li>Actor 1 (Guybrush) occasionally gets stuck (e.g. after taking Wally's fake hook). Can work-around with console
 		command "actor 1 ignoreboxes 1"
 	</ul>
