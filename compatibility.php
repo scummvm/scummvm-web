@@ -177,7 +177,7 @@ $notes = array(
 "puttdemo"	=> "Should be playable to the end".
 		   "<br>- Some sound effects missing".
 		   "<br>- Talkie data not synced/properly implemented",
-"puttputt"	=> "Game should be completable, with several glitches".
+"puttputt"	=> "Game should be completable".
                    "<br>- Minor graphical glitches when cars come out of their garages on streets".
 		   "<br>- Talkie data not synced/properly implemented",
 "puttmoon"	=> "Fails an AKOS related assertion shortly after starting".
