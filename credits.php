@@ -94,6 +94,7 @@ echo html_round_frame_start("Credits","98%","",20);
 	  add_person("Daniel Schepler", "", "Final MI1 CD music support/ Initial Ogg Vorbis support");
 	  add_person("Andr&eacute; Souza", "", "SDL-based OpenGL renderer");
 	  add_person("Tim ???", "realmz", "Initial MI1 CD music support");
+	  add_person("Stuart Caie", "", "Decoders for Simon 1 Amiga data files");
 	  ?>
 
       <tr><td colspan=3>&nbsp;</td></tr>
