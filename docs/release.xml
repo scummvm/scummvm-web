@@ -14,8 +14,7 @@
 	<h2>Game Compatibility</h2>
 <p>
 	<B>Release status:</BR><BR>
-	&nbsp;&nbsp;&nbsp; * RC Bugs in: ZakV2 (3 RC's)<BR>
-	&nbsp;&nbsp;&nbsp; * Generic engine-wide RC bugs: 1 (#747984)<BR>
+	&nbsp;&nbsp;&nbsp; * RC Bugs in: ZakV2 (2 RC's)<BR>
 	<HR>
 	The following games need to be tested with the latest CVS snapshots:
 </p>
@@ -54,7 +53,7 @@ function portStatus($ports) {
 <tr><td colspan=8><center><B>SCUMM Engine</B></center></td></tr>
 <tr><td>Maniac (V2)</td><td>Wishbone: 11 Jul (Syd-Bernard), logicd: 13 Jul (Mic-Jeff)</td><td>...</td>
 	<?php portStatus(array("x86" => +1, "DC" => +1, "Palm" => +1, "WinCE" => +1)); ?></tr>
-<tr><td>Zak (V2)</td><td>voodoofx: 15 Jul</td><td>770699, 771483, 771499</td>
+<tr><td>Zak (V2)</td><td>voodoofx: 15 Jul</td><td>771483, 771499</td>
 	<?php portStatus(array("x86" => +1, "DC" => +1, "Palm" => +1, "WinCE" => +1)); ?></tr>
 <tr><td>Zak256</td><td>VoodooFX: 12 Jul</td><td>...</td>
 	<?php portStatus(array("x86" => +1, "DC" => +1, "Palm" => +1, "WinCE" => +1)); ?></tr>
