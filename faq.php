@@ -110,16 +110,14 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	We have a <a href="compatibility.php">compatibility list</a> on our website
 	that contains an up to date list of what games work, and how well they work. As
 	well as SCUMM games, we also include virtual machines for the first two Simon the Sorcerer
-	games (by Adventure Soft), and Beneath a Steel Sky by Revolution. Other games may be added,
+	games (by Adventure Soft), Broken Sword 1/2 and Beneath a Steel Sky (by 
+	Revolution), as well as Flight of the Amazon Queen. Other games may be added,
 	but this is not a common occurrence - see below.
 	</p></li>
 
       <li><p><a name="1-5"></a><b>Will ScummVM support other games?</b><br>
-	The ScummVM team is working to make newer SCUMM games, such as "Full Throttle" playable<br>
-	We are also working to correct make the currently supported games more accurate, and are adding support (over time) for Broken Sword 1 and 2, by Revolution.<br>
-	As Revolution Software Ltd are really nice people, and have provided us with source code
-	for their games, so we are more than happy to add support for these classic adventures.<BR><BR>
-	However we do <i>NOT</i> generally add support for non-SCUMM games! 
+	The ScummVM team is currently focusing on bugfixes for our next release.<br>
+	We do <i>NOT</i> generally add support for non-SCUMM games! 
 	Reverse engineering a completely new game without source is a long process, and our
 	developers are all very busy as it is... so unless you work for a company interested
 	in providing us with source code for one of your classic titles, please do not ask.
@@ -143,16 +141,19 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	ports collections and included in Debian testing and unstable</p></li>
 
       <li><p><a name="1-9"></a><b>Does ScummVM run any non-SCUMM games?</b><br>
-        Yes. Currently the only non-SCUMM games supported are Simon The Sorcerer (1 and 2), 
-	and Beneath a Steel Sky. Simon support was originally written by the
-	founder of ScummVM as a separate program, and later included in the main binary.
+	Yes. As well as SCUMM titles, ScummVM supports Simon the Sorcerer (1 and 2),
+	Flight of the Amazon Queen, and the Revolution Games: Broken Sword 1, Broken Sword 
+	2, and Beneath a Steel Sky.<BR>
+	Simon support was initially written by the original founder of ScummVM as a 
+	separate program, and later included in the main binary.
 	Revolution Software Ltd. are very nice people and kindly provided us with the
-	source code to BASS, on which we based our interpreter. We are currently working
-	on support for Broken Sword 1 and 2, again thanks to Revolutions kind support.<BR>
+	source code to BASS and Broken Sword 1/2, from which we based our interpreters.
+	John Passfield and Steven Stamatiadis kindly provided the original source code to
+	Flight of the Amazon Queen.<BR>
 	We do not have any plans to support any other non-SCUMM games at this time. If we
 	do, it will be added to the <a href="compatibility.php">Compatibility List</a>.<BR><BR>
 	Unless you work for a company interested providing us with source code for one of your
-	classic titles, please do not ask us to support game XXX.
+	classic titles, please do not ask us to support a game.
 	</p></li>
   
         <li><p><a name="1-10"></a><b>Can I use ScummVM to make new games?</b><br>
@@ -205,9 +206,10 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
 	for more info.</p></li>
 
-      <li><p><a name="3-2"></a><b>Does ScummVM support using MP3/Ogg files instead of CD audio?</b><br>
+      <li><p><a name="3-2"></a><b>Does ScummVM support using MP3/Ogg/FLAC files instead of CD audio?</b><br>
 	Yes. You can use LAME or some other CD audio conversion utility to convert your CD audio to MP3. Since
-	version 0.3.0 we also support Ogg Vorbis files. See the
+	version 0.3.0 we also support Ogg Vorbis files. FLAC is also supported in the current CVS
+	tree, although not in the latest released 0.6.x version. See the
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
 	for more info.</p></li>
 
@@ -217,8 +219,9 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	for more info.</p></li>
       
       <li><p><a name="3-4"></a><b>Can I run my game full screen?</b><br>
-      	Yes. You can either start your game using the -f command line parameter. Or you can hit
-	Alt+Enter in game to switch between full screen and windowed modes.</p></li>
+      	Yes. You can either start your game using the -f command line parameter, setting 
+	the game to Full Screen in the ScummVM Options dialog, or by using the Alt+Enter key
+	combination in-game to switch between full screen and windowed modes.</p></li>
       
     </ol>
   </li>
@@ -244,13 +247,14 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	reproduce this crash more than once, please report it to our Bug Tracker. See <a href="#4-8">4.8</a>.</p></li>
       
       <li><p><a name="4-5"></a><b>The game colors are messed up.</b><br>
-      	This is a known issue with using Amiga version datafiles. Use the --platform=amiga command
-	line parameter (or tick the Amiga checkbox in the Launcher / F5 menu) to enable Amiga
-	palette conversion.</p></li>
+      	This is a known issue with using Amiga version datafiles. Select Amiga as a 
+	platform in the ScummVM Game Options dialog, or use the --platform=amiga command
+	line parameter to enable Amiga-specific code.</p></li>
       
       <li><p><a name="4-6"></a><b>The characters in my non english game are messed up.</b><br>
       	You are most likely using a game such as Maniac Mansion or Zak McKracken if you have this problem. 
-	You need to specify a language with the -q parameter or use the language config file option.
+	You need to specify a language in the ScummVM Game Options dialog, with the -q parameter or by
+	using the 'language' config file option.<BR>
 	Consult the 
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a> 
 	or command line help for further information.</p></li>
@@ -260,7 +264,9 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	understands.  To do this you need to use the rescumm tool in the scummvm-tools package.
 	An example usage might look like: <i>rescumm "Sam &amp; Max Demo Data"</i>.  Some CDs may appear to
 	only contain a application, in which case there is still a seperate data file but it is invisible.  
-	The older games which have LFL files should only need the --platform=macintosh option to run.</p></li>
+	The older games which have LFL files should only need the platform set to 'macintosh' to
+	run. See <a href="#4-5">4.5</a> for information on specifying the game platform.
+</p></li>
       
       <li><p><a name="4-8"></a><b>Reporting Bugs.</b><br>
       	To report a bug, please create a SourceForge account and follow the
