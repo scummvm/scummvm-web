@@ -84,6 +84,13 @@ echo html_round_frame_start("Links","");
 	    An unofficial port to the Sony Ericsson P800 running Symbian 7.0.
 	    </td>
 	  </tr>
+
+	  <tr><td><a href="http://www.acornemus.freeserve.co.uk/scumm/scu_info.htm"><b>RiscOS port</b></a></td></tr>
+	  <tr>
+	    <td style="padding-left: 3em;">
+	    A port to RiscOS. It's extremly dated (based on ScummVM 0.1.0), but hopefully it will be updated some day soon.
+	    </td>
+	  </tr>
 	</table>
 
 	<!-- -->
