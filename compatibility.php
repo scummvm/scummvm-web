@@ -71,7 +71,7 @@ $games = array(
 		'Indiana Jones 4 and the Fate of Atlantis'		=> array('5','atlantis','95'),
 		'Indiana Jones 4 and the Fate of Atlantis (Demo)'	=> array('5','playfate','95'),
 		'Putt-Putt Joins The Parade (DOS Demo)'			=> array('6','puttdemo','70'),
-		'Putt-Putt Joins The Parade (DOS)'			=> array('6','puttputt','20'),
+		'Putt-Putt Joins The Parade (DOS)'			=> array('6','puttputt','10'),
 		'Putt-Putt Goes To The Moon (DOS Demo)'			=> array('6','moondemo','20'),
 		'Putt-Putt Goes To The Moon (DOS)'			=> array('6','puttmoon','20'),
 		'Putt-Putts Fun Pack'					=> array('6','funpack','20'),
@@ -142,15 +142,13 @@ $notes = array(
 		   "<br>- cursor doesn't turn to arrow on the right hand side of the screen in the first room".
 		   "<br>- talkie data not synced/properly implemented",
 "funpack"	=> "Starts but mini games seem to have various problems".
-		   "<br>- Tic-Tac-Toe: can't win or lose a game only draw".
 		   "<br>- Checkers: o6_actorOps: default case 218".
 		   "<br>- Puzzle blocks/Pinball/Remember/Cheese King/Tic-Tac-Toe: Works but colour isn't set properly so game is black and white".
 		   "<br>- talkie data not synced/properly implemented",
 "fbdemo"	=> "Fails assertion at the end of the intro".
 		   "<br>- scumm/resource.cpp:1222: void Scumm::nukeResource(int, int): Assertion `idx >= 0 && idx < res.num[type]' failed.",
 		   "<br>- talkie data not synced/properly implemented",
-"fbear"		=> "Errors out when entering some rooms ie kitchen".
-		   "<br>- Error(18:44:0x57): Value -32768 is out of bounds (0,255) in script 10002 (State -32768 out of range in putState)!",
+"fbear"		=> "various errors that prevent the game from being finishable".
 		   "<br>- talkie data not synced/properly implemented",
 "fbpack"	=> "Game starts but various minigames have different problems".
 		   "<br>- Reversi/Go Fish/Lines and Boxes: o6_actorOps: default case 218".
