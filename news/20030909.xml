@@ -1,0 +1,27 @@
+<NAME>I'm feeling dirty</NAME>
+<DATE>Sept 09, 2003</DATE>
+<BODY>
+<p>
+Welcome to yet another quasi-regular reminder that, yes, your favorite project is far from
+dead. So what's going on in the world of ScummVM?
+</p>
+<p>
+ScummVM 0.6.0, although not due out for a few months at least, is going to knock your socks
+off. Or at least, make them a nice shade of purple. Among the usual massive structural
+changes, bugfixes galore, and maybe even a new platform or two... we have recently
+(almost) finished support for the original V1 versions of Maniac Mansion and Zak McKracken.
+This leaves the ever difficult Full Throttle as the only LucasArts game we do not support
+in it's mainstream form.
+</p>
+<p>
+Also, thanks once more to the gracious support of Revolution, the next version of ScummVM
+will include support for yet another of their wonderful innovative games - Broken Sword 2!
+</p>
+<p>
+These are both already present, in some form, in our developmental CVS and daily builds -
+however please remember they are experimental and still being heavily worked on. Please do
+NOT file bugs or pester anyone regarding them. And maybe, just maybe, we might have some
+more suprises in store before the next major release makes it to a SourceForge mirror near
+you!
+</p>
+</BODY>
