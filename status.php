@@ -45,7 +45,7 @@ beginning with the most specific and important issues... I'd like to hear
 feedback on any of this, as well as any volunteers who want to help work
 on the 'rough spots'</p>
 
-<? echo html_headline("PORTS"); ?>
+<br><? echo html_headline("PORTS"); ?>
 <p>Currently we have official in-cvs ports for:</p>
 <table cellspacing="3" cellpadding="3">
 	<tr><td align="right">SDL: </td><td>We might as well say 'Me'</td></tr>
@@ -70,7 +70,7 @@ a week or so, I'll assume you have abandoned that port.</p>
 <p>Of course, new ports are welcome, if you have ported ScummVM to some new
 exotic bit of hardware :)</p>
 
-<? echo html_headline("LEGAL"); ?>
+<br><? echo html_headline("LEGAL"); ?>
 
 <p> We are still in negotiations with LucasArts over this, although both of
 us are hoping to reach some kind of closure very very soon. Obviously,
@@ -94,7 +94,7 @@ re-licensing issues we're going to have to deal with.</p>
 can maintain a compatible license, we only have a few other steps left:</p>
 
 <ul>
-<li> Ensure all ports, makefiles and code are modified for proper separation
+<li><p>Ensure all ports, makefiles and code are modified for proper separation
 of the LGPL'ed code into statically linked library(s). "The New License"
 will only apply to the 'scumm' directory in CVS, so if there is anything
 contained within that you think has more generic use... please move it
@@ -102,15 +102,14 @@ into 'common' or some other suitable place. One we relicense it to "The
 New License", going back won't be easy :). Max Horn has already spent
 considerable time and effort splitting out the more generic functionality,
 and restructuring the code to allow for library separation... but we're not
-completely done yet.
+completely done yet.</p></li>
 
-<li> Negotiate with LucasArts regarding the use of trademarks, yadda yadda,
+<li><p>Negotiate with LucasArts regarding the use of trademarks, yadda yadda,
 on the webpage. Our current negotiations only involve the code itself, we
 still need to get permission (apparantly) to use the words "Monkey Island"
-anywhere on the site &lt;g&gt;
+anywhere on the site</p></li>
 </ul>
 
-<? echo html_line(); ?>
 
 <p>Those are the two most important issues holding us back from a release. So
 with those in mind, let's look onto a far more interesting subject... game
@@ -128,6 +127,8 @@ graphical glitches in LoomCD. We do need volunteers to go through with
 latest CVS versions and replay older games, to ensure there are no
 regression bugs.</p>
 
+
+<br><? echo html_headline("PROGRESS"); ?>
 
 <p>Now on to the good news for progress in the last few weeks/months:</p>
 
@@ -155,7 +156,7 @@ people won't have to commit all our obscure command-line parameters to
 memory. The Launcher in particular is going to be a key point of our next
 release, along with hopefully support for at least The Dig.</p>
 
-<? echo html_line(); ?>
+<br><? echo html_headline("TO DO"); ?>
 
 <p>So, what needs work?</p>
 
