@@ -34,7 +34,6 @@ function addEntry($variant, $platform, $language, $md5, $target = "???", $source
 	<?php include $file_root."/docs/"."md5.inc"; ?>
 </table>
 <hr />
-<hr />
 
 <div style="font-size: small; font-style: italic; ">
 Last updated: $Date$
