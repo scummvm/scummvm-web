@@ -62,7 +62,7 @@ $demos = array(
 	'Sam and Max Hit the Road (DOS demo - Non interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/samdemo.zip', 'samdemo'),
 	'Sam and Max Hit the Road (Macintosh demo - Interactive)'
-		=> array('', 'samdemo'),
+		=> array('ftp://ftp.lucasarts.com/demos/mac/samdemo.sea.bin', 'samdemo'),
 	'Sam and Max Hit the Road (DOS demo - Interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Snmdemo.zip', 'snmdemo'),
 	'Sam and Max Hit the Road WIP (DOS demo - Interactive)'
@@ -75,21 +75,21 @@ $demos = array(
 		=> array('http://www.cowlark.com/scumm.dat/fatdemo.zip', 'fbdemo'),
 	'Day of the Tentacle (Non interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Dottdemo.zip', 'dottdemo'),
-	'Full Throttle (Macintosh demo)'
+	'Full Throttle (Macintosh demo)*'
 		=> array('', 'ftdemo'),
 	'Full Throttle (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/ftdemo.zip', 'ftpcdemo'),
-	'The Dig (Macintosh demo)'
+	'The Dig (Macintosh demo)*'
 		=> array('', 'digdemo'),
 	'The Dig (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/digdemo.zip', 'digdemo'),
-	'The Curse of Monkey Island (Web demo)'
+	'The Curse of Monkey Island (Windows demo)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/cursedemo.exe', 'comidemo'),
-	'The Curse of Monkey Island (Demo with movies)*'
+	'The Curse of Monkey Island (Windows demo with movies)*'
 		=> array('http://files.mixnmojo.com/m3demo.zip', 'comidemo'),
 	'Simon the Sorcerer 1 (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/simon1demo.zip', 'simon1demo'),
-	'Simon the Sorcerer 1 Talkie (Acorn demo)'
+	'Simon the Sorcerer 1 Talkie (Acorn demo)*'
 		=> array('', 'simon1acorn'),
 	'Simon the Sorcerer 2 Talkie (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/simon2demo.zip', 'simon2talkie'),
