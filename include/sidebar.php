@@ -58,7 +58,7 @@ function sidebar_start ()
 	</form>	
 	
 	<p align="center">
-	  <a href="http://sourceforge.net"><img src="<?=$file_root?>/images/sfnet.gif"
+	  <a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=37116"
 	  width="88" height="31" border="0" alt="SourceForge"></a>
 	</p>
 
