@@ -76,7 +76,9 @@ $games = array(
 		'Full Thottle'						=> array('7','ft','40'),
                 'The DIG'                                               => array('7','dig','40'),
 		'Curse of Monkey Island'				=> array('8','curse','5'),
-		'Simon The Sorcerer'            			=> array('n/a','simon1win','95')
+		'Simon The Sorcerer 1 (Win)'           			=> array('n/a','simon1win','95'),
+		'Simon The Sorcerer 1 (Dos)'           			=> array('n/a','simon1dos','95'),
+		'Simon The Sorcerer 2 (Win)'           			=> array('n/a','simon2win','40')
 	      );
 
 $notes = array(
@@ -111,7 +113,9 @@ $notes = array(
                    "<br>- freezes occasionally due to actors not walking correctly" .
                    "<br>- no in-game music, and some animations play incorrectly",
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
-"simon1win" => "No known problems - should be playable to the end"
+"simon1win" 	=> "No known problems, Game is completable.",
+"simon1dos" 	=> "No known problems, Game is completable.",
+"simon2win"     => "Not well testing, will not run some versions of Simon2"
 );
 		
 // render the compatibilty chart
