@@ -90,7 +90,7 @@ $games = array(
 		'Simon The Sorcerer 1 Talkie (DOS)'       		=> array('n/a','simon1talkie','85'),
 		'Simon The Sorcerer 1 Talkie (Amiga CD32)'     		=> array('n/a','simon1cd32','5'),
 		'Simon The Sorcerer 1 (DOS)'           			=> array('n/a','simon1dos','83'),
-		'Simon The Sorcerer 1 (Amiga)'          		=> array('n/a','simon1amiga','0'),
+		'Simon The Sorcerer 1 (Amiga)'          		=> array('n/a','simon1amiga','5'),
 		'Simon The Sorcerer 1 (Demo)'          			=> array('n/a','simon1demo','83'),
 		'Simon The Sorcerer 2 Talkie (Win)'       		=> array('n/a','simon2win','85'),
 		'Simon The Sorcerer 2 Talkie (DOS)'       		=> array('n/a','simon2talkie','85'),
@@ -191,7 +191,9 @@ $notes = array(
                    "<br>- Minor graphical glitches when using ring".
                    "<br>- Minor graphical glitch with Sordid statue after leaving room".
                    "<br>- No inventory scrolling arrows shown, can still move around inventory though",
-"simon1amiga" 	=> "Not at all implemented yet",
+"simon1amiga" 	=> "Game works a bit but can't see anything".
+                   "<br>- All graphics are decoded incorrectly".
+                   "<br>- No music",
 "simon1demo" 	=> "Game demo is completable".
                    "<br>- Freezes briefly when Swampling leaves his house",
 "simon2win"     => "Game is completable.".
