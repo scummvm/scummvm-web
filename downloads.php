@@ -37,9 +37,9 @@ echo html_round_frame_start("Downloads","");
 	<p>
 	The latest STABLE release of ScummVM is 0.6.0, and can be downloaded below under 
 	'Release Binaries'.<BR>
-	<H3>If you run Windows and really are not sure what you are doing</H3>, you want to 
-	download the first file in the list below and READ THE INSTRUCTIONS IN README.TXT - this
-	will probably answer most of your questions.
+	<font size=+1><b>If you run Windows and really are not sure what you are doing</b></font>,
+	you want to download the first file in the list below and READ THE INSTRUCTIONS IN 
+	README.TXT - this will probably answer most of your questions.
 	</p>
 
 	<p>
