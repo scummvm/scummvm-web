@@ -85,11 +85,9 @@ $notes = array(
 "indy3ega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Indy3-256 version",
 "indy3"         => "Game will start, but is not completely playable." .
                    "<br>- The intro freezes on the LucasArts logo - hit escape to proceed.".
-                   "<br>- Missing SCUMM opcodes cause occasional crashes" .
-                   "<br>- Incorrect object flags cause some game problems, such as letters on Indys desk not appearing",
+                   "<br>- Missing SCUMM opcodes cause occasional crashes",
 "zak256"        => "Game will start, but is not completely playable." .
-                   "<br>- Inventory scrolling not implemented, making it impossible to carry more than 4 objects at once" .
-                   "<br>- You cannot proceed past the airport due to an apparant walkbox issue and several crashes",
+                   "<br>- Inventory scrolling not implemented, making it impossible to carry more than 4 objects at once",
 "loom"		=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Loom CD version",
 "monkeyega"	=> "Copy protection screen will show, but game crashes shortly afterwards.<BR>Graphics decoders and SCUMM opcodes not implimented yet.",
 "loomcd"        => "Game is completable." .
