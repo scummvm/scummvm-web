@@ -177,7 +177,6 @@ $notes = array(
                    "<br>- No inventory scrolling arrows shown, can still move around inventory though",
 "simon1cd32" 	=> "Game works a bit but can't see anything".
                    "<br>- All graphics are decoded incorrectly".
-                   "<br>- pkd compression format is unknown".
                    "<br>- No music, sound effects or speech",
 "simon1dos" 	=> "Game is completable.".
                    "<br>- Freezes briefly when Swampling leaves his house".
@@ -185,9 +184,7 @@ $notes = array(
                    "<br>- Minor graphical glitches when using ring".
                    "<br>- Minor graphical glitch with Sordid statue after leaving room".
                    "<br>- No inventory scrolling arrows shown, can still move around inventory though",
-"simon1amiga" 	=> "Not at all implemented yet".
-                   "<br>- pkd compression format is unknown".
-                   "<br>- Music format unknown",
+"simon1amiga" 	=> "Not at all implemented yet",
 "simon1demo" 	=> "Game demo is completable".
                    "<br>- Freezes briefly when Swampling leaves his house".
                    "<br>- No music",
