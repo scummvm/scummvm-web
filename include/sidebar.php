@@ -15,7 +15,7 @@ function sidebar_start ($specs_mode = false)
 
 <table width="100%" border=0 cellpadding=0 cellspacing=0>
 <tr>
-<td align=center valign=top>
+<td style="width: 120px" align=center valign=top>
 
 <?
 
@@ -80,7 +80,7 @@ function sidebar_start ($specs_mode = false)
 	</p>
 
 </td>
-<td width="100%" valign="top">
+<td align="center" valign="top">
 
 <?
 }

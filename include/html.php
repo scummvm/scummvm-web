@@ -127,7 +127,6 @@ function html_round_frame_start ($title = "", $width = "", $extra = "", $innerPa
 	global $file_root;
 	if ($width) { $width = 'width="'.$width.'"'; }
 
-	$str = "\n".'<div align="center">'."\n";
 	$str .= '<table '.$width.' border="0" cellpadding="0" cellspacing="0">'."\n";
 	
 	if ($title) {
@@ -159,7 +158,7 @@ function html_round_frame_end ($text = "")
 		$str .= '	</tr></table>'."\n";
 		$str .= '</td></tr>'."\n";
 	}
-	$str .= "</table>\n</div>\n\n";
+	$str .= "</table>\n\n";
 	return $str;
 }
 
