@@ -27,11 +27,6 @@
 		<li>Some text does not undraw correctly, again leaving behind artifacts (eg, conversation text, credits)
 		<li>Masking artifacts. See many animations, eg during insult sword fighting
 	</ul>
-<li>Inventory:
-	<ul>
-		<li>Upon combining two items in such a way as to reduce a two-page inventory to a one-page, trying to select the last 
-		item will actually return the second-last item
-	</ul>
 <li>Actor:
 	<ul>
 		<li>o8_getActorChore still seems to be returning dodgy results
