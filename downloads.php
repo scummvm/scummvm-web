@@ -62,6 +62,8 @@ echo html_round_frame_start("Download ScummVM","");
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-1.i386.rpm?download">RedHat package</a> <small>(1.2M RPM)</small></li>
 
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-solaris8-sparc.tar.bz2?download">Solaris 8 (Sparc) binary</a> <small>(1.0M .tar.bz2)</small></li>
+
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-PocketPC_ARM.zip?download">PocketPC ARM binary</a> <small>(1.1M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-PocketPC_MIPS.zip?download">PocketPC MIPS binary</a> <small>(1.3M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-PocketPC_SH3.zip?download">PocketPC SH3 binary</a> <small>(1.2M zipfile)</small></li>
@@ -76,7 +78,6 @@ echo html_round_frame_start("Download ScummVM","");
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1-slack-i386-1.tgz?download">SlackWare package</a> <small>(???M .tgz)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1-morphos.tgz?download">MorphOS binary</a> <small>(???k .tgz)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1-beos-x86.pkg?download">BeOS package</a> <small>(???M pkg)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1-solaris8-sparc.tar.gz?download">Solaris 8 (Sparc) binary</a> <small>(???M .tar.gz)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1-dreamcast-nero+demos.zip?download">Dreamcast Nero Image &amp; Demos</a> <small>???M zipfile</small></li>
 	-->
 	</ul>
@@ -85,6 +86,7 @@ echo html_round_frame_start("Download ScummVM","");
 	<ul>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.6.1-win32.exe?download">Tools - Windows Installer</a> <small>(140k Win32 .exe)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.6.1-macosx.tar.bz2?download">Tools - Mac OS X binary</a> <small>(93k .tar.bz2)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.6.1-solaris8-sparc.tar.bz2?download">Tools - Solaris 8 (Sparc)</a> <small>(161k .tar.bz2)</small></li>
 	</ul>
 
 	<h3>0.6.1b Source Code</h3>
