@@ -53,6 +53,15 @@ else
     } // end of docs loop
 
 
+	// Hard code link to doxygen for now...
+	echo html_frame_tr(
+				html_frame_td(
+							  html_ahref("Source code documentation",$file_root."/docs/doxygen/html/index.php").html_br().
+							  "Cross referenced source code documentation for ScummVM, generated using".
+							  html_ahref("Doxygen","http://www.doxygen.org").html_br(2)."\n"
+							 )
+					  );
+    
 	// Hard code link to specs for now...
 	echo html_frame_tr(
 				html_frame_td(
