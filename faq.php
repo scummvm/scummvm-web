@@ -280,10 +280,14 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	reproduce this crash more than once, please report it to our Bug Tracker. See <a href="#4-10">4.10</a>.</p></li>
       
       <li><p><a name="4-6"></a><b>ScummVM crashes, but console window disappears too quick to see the error message.</b><br>
-	To make it visible you should run ScummVM from command line. To do that in Windows XP&reg;
-	use Start->Run->Command and type 'cmd.exe' without quotes. In older flavors of
-	Windows&reg; use command.com. Then type 'cd \your\path\to\scummvm' to change
-	directory and then type 'scummvm' in there.
+	To make it visible, you should run ScummVM from command line. To open a 
+	command prompt, open the Start Menu and select the 'Run' option. Under 
+	Windows&reg; NT/2000/XP, type 'cmd.exe' (no quotes) in the dialog box that 
+	shows up; under Windows&reg; 95/98/Me, type 'command.com' instead. If 
+	necessary, change to the proper drive first by typing 'D:' (where 'D' is 
+	the drive ScummVM is located). Change to ScummVM's directory by typing 
+	'cd \your\path\to\scummvm' (substituting the appropriate path) and then 
+	type 'scummvm'.	
 	    </p></li>
 
       <li><p><a name="4-7"></a><b>The game colors are messed up.</b><br>
