@@ -89,8 +89,7 @@ echo html_frame_tr(
 		if ($c % 2 == 0) { $color = "color2"; } else { $color = "color0"; }
 		echo html_frame_tr(
 			html_frame_td("<a href=\"$array[0]\">$name</a>").
-		    	html_frame_td($array[1]).
-			html_frame_td($array[2], 'align="center" class="pct'.$array[2].'"'),
+		    	html_frame_td($array[1]),
 	  	        $color
 	 	);
 		$c++;
