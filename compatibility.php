@@ -32,12 +32,12 @@ else
 	<p>
 	  This page lists the progress of ScummVM as it relates to individual game compatibility.<br>
 	  Click on the game name to view the complete notes of a game.
-	
-          <br><br>Please note this list applies to the English versions of games, we attempt to test many versions of games, however there are occasionally problems with other languages.
-          This is the compatibility of the current WIP CVS version, <B>not of the
-	  0.6.1b stable release</B> (Please see the  <a href="compatibility_stable.php">Stable Compatibility</A> chart for this version).
-          <br><br>
-          As this is the status of the Work In Progress version, occasional temporary bugs
+
+	  <br><br>Please note this list applies to the English versions of games, we attempt to test many versions of games, however there are occasionally problems with other languages.
+	  This is the compatibility of the current WIP CVS version, <B>not of the
+	  0.7.0 stable release</B> (Please see the  <a href="compatibility_stable.php">Stable Compatibility</A> chart for this version).
+	  <br><br>
+	  As this is the status of the Work In Progress version, occasional temporary bugs
 	  may be introduced with new changes, thus this list refects the 'best case' scenario. 
 	  It is highly recommended to use the latest stable release, where possible.
 	  <br><br>
@@ -56,7 +56,7 @@ else
 	echo html_frame_end(),html_br();
 }
 
-// This Array Defines the games and thier ratings, etc.
+// This array defines the games and their ratings, etc.
 $gamesLucas = array(
 		'Maniac Mansion (original)'				=> array('1','maniac','90'),
 		'Maniac Mansion (enhanced)'				=> array('2','maniac','95'),

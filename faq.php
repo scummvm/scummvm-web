@@ -232,8 +232,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 
       <li><p><a name="3-2"></a><b>Does ScummVM support using MP3/Ogg/FLAC files instead of CD audio?</b><br>
 	Yes. You can use LAME or some other CD audio conversion utility to convert your CD audio to MP3. Since
-	version 0.3.0 we also support Ogg Vorbis files. FLAC is also supported in the current CVS
-	tree, although not in the latest released 0.6.x version. See the
+	version 0.3.0 we also support Ogg Vorbis files. And FLAC is supported since version 0.7.0. See the
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
 	for more info.</p></li>
 
@@ -308,14 +307,18 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	or command line help for further information.</p></li>
       
       <li><p><a name="4-9"></a><b>How do I make my mac version of a game work?</b><br>
-      	The majority of mac versions won't work without first extracting the resources into a format ScummVM
-	understands.  To do this you need to use the rescumm tool in the scummvm-tools package.
-	An example usage might look like: <i>rescumm "Sam &amp; Max Demo Data"</i>.  Some CDs may appear to
-	only contain a application, in which case there is still a seperate data file but it is invisible.  
+	First, if you use a ScummVM version prior to 0.7.0 we strongly recommend you
+	to upgrade to the latest version, as we improved support for mac games considerably starting with 0.7.0.<br>
+	For newer games ScummVM needs the main data file, usually called 
+	<q>&lt;Game&nbsp;Title&gt;&nbsp;Data</q> (where
+	&lt;Game&nbsp;Title&gt; is name of your game, such as <q>The&nbsp;Dig</q> 
+	or <q>Sam&nbsp;&amp;&nbsp;Max</q>). Some CDs may 
+	appear to only contain an application (watch out, it has almost the same name as the data file,
+	except that it lacks the " Data" at the end). In that case there is still a separate data file but it is invisible.<br>
 	The older games which have LFL files should only need the platform set to 'macintosh' to
 	run. See <a href="#4-7">4.7</a> for information on specifying the game platform.
-</p></li>
-      
+	</p></li>
+
       <li><p><a name="4-10"></a><b>Reporting Bugs.</b><br>
       	To report a bug, please create a SourceForge account and follow the
 	<a href="http://sourceforge.net/tracker/?atid=418820&amp;group_id=37116&amp;func=browse">bugs</a>
