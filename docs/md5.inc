@@ -200,7 +200,7 @@
 		<?php addEntry("Demo", "Windows", "en", "0ab19be9e2a3f6938226638b2a3744fe", "putttime-demo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Putt-Putt Enters the Race</strong></td></tr>
 		<?php addEntry("-", "Windows", "en", "981e1e1891f2be7e25a01f50ae55a5af", "puttrace"); ?>
-		<?php addEntry("Demo", "Windows", "en", "0ac41e2e3d2174e5a042a6b565328dba", "racedemo"); ?>
+		<?php addEntry("Demo", "All", "en", "0ac41e2e3d2174e5a042a6b565328dba", "racedemo", "sev"); ?>
 	<tr><td colspan='7'><strong>Putt-Putt Saves the Zoo</strong></td></tr>
 		<?php addEntry("-", "Windows", "nl", "c3b22fa4654bb580b20325ebf4174841", "TODO"); ?>
 		<?php addEntry("-", "Mac", "en", "58fdf4c7ad13540a734e18f8584cad89", "TODO", "khalek"); ?>
@@ -224,8 +224,7 @@
 		<?php addEntry("Demo", "Windows", "en", "2e85f7aa054930c692a5b1bed1dfc295", "byf2002-demo", "khalek"); ?>
 		<?php addEntry("Demo", "Windows", "en", "2e85f7aa054930c692a5b1bed1dfc295", "football2002", "khalek"); ?>
 	<tr><td colspan='7'><strong>Big Thinkers: Kindergarten</strong></td></tr>
-		<?php addEntry("Demo", "Windows", "en", "695fe0b3963333b7e15b37514db3c745", "kinddemo"); ?>
-		<?php addEntry("Demo", "Mac", "en", "695fe0b3963333b7e15b37514db3c745", "kinddemo", "khalek"); ?>
+		<?php addEntry("Demo", "All", "en", "695fe0b3963333b7e15b37514db3c745", "kinddemo", "khalek, sev"); ?>
 	<tr><td colspan='7'><strong>Big Thinkers First Grade</strong></td></tr>
 		<?php addEntry("Demo", "Windows", "en", "0f5935bd5e88ba6f09e558d64459746d", "1grademo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Blue's ABC Time Activities</strong></td></tr>
@@ -237,12 +236,10 @@
 		<?php addEntry("Demo", "Windows", "en", "084ed0fa98a6d1e9368d67fe9cfbd417", "freddemo", "khalek"); ?>
 		<?php addEntry("Demo", "Windows", "en", "566165a7338fa11029e7c14d94fa70d0", "freddemo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Freddi Fish 2: The Case of the Haunted Schoolhouse</strong></td></tr>
-		<?php addEntry("Demo", "Windows", "en", "fc8d197a22146e74766e9cb0cfcaf1da", "ff2-demo", "khalek"); ?>
-		<?php addEntry("Demo", "Mac", "en", "fc8d197a22146e74766e9cb0cfcaf1da", "ff2-demo", "khalek"); ?>
+		<?php addEntry("Demo", "All", "en", "fc8d197a22146e74766e9cb0cfcaf1da", "ff2-demo", "khalek, sev"); ?>
 		<?php addEntry("Demo", "Windows", "en", "d37c55388294b66e53e7ced3af88fa68", "ffhsdemo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Freddi Fish 3: The Case of the Stolen Conch Shell</strong></td></tr>
-		<?php addEntry("Demo", "Windows", "en", "cb1559e8405d17a5a278a6b5ad9338d1", "TODO"); ?>
-		<?php addEntry("Demo", "Mac", "en", "cb1559e8405d17a5a278a6b5ad9338d1", "f3-mdemo", "khalek"); ?>
+		<?php addEntry("Demo", "All", "en", "cb1559e8405d17a5a278a6b5ad9338d1", "f3-mdemo", "khalek, sev"); ?>
 	<tr><td colspan='7'><strong>Freddie Fish 4: The Case of the Hogfish Rustlers of Briny Gulch</strong></td></tr>
 		<?php addEntry("Demo", "Windows", "en", "c25755b08a8d0d47695e05f1e2111bfc", "TODO"); ?>
 		<?php addEntry("Demo", "Windows", "en", "7c2e76087027eeee9c8f8985f93a1cc5", "f4-demo", "khalek"); ?>
@@ -264,22 +261,20 @@
 	<tr><td colspan='7'><strong>Pajama Sam 1: No Need to Hide When It's Dark Outside</strong></td></tr>
 		<?php addEntry("-", "Windows", "en", "672dec94b82f7f0877ebb5b5cf7f4bc1", "pajama", "khalek"); ?>
 		<?php addEntry("-", "Mac", "en", "672dec94b82f7f0877ebb5b5cf7f4bc1", "pajama", "khalek"); ?>
-		<?php addEntry("Demo", "Mac", "en", "f237bf8a5ef9af78b2a6a4f3901da341", "Pajama Sam Demo", "khalek"); ?>
-		<?php addEntry("Demo", "Windows", "en", "f237bf8a5ef9af78b2a6a4f3901da341", "pjs-demo", "khalek"); ?>
+		<?php addEntry("Demo", "All", "en", "f237bf8a5ef9af78b2a6a4f3901da341", "pjs-demo", "khalek, sev"); ?>
 		<?php addEntry("Demo", "Windows", "en", "d7ab7cd6105546016e6a0d46fb36b964", "pjsamdemo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Pajama Sam 2: Thunder and Lightning Aren't so Frightening</strong></td></tr>
 		<?php addEntry("-", "Windows", "en", "d4e79c3d8645b8266cd78c325bc35154", "pajama2", "Kirben"); ?>
 		<?php addEntry("-", "Windows", "nl", "4fa6870d9bc8c313b65d54b1da5a1891", "TODO"); ?>
-		<?php addEntry("Demo", "Windows", "en", "36a6750e03fb505fc19fc2bf3e4dbe91", "pj2demo"); ?>
+		<?php addEntry("Demo", "All", "en", "36a6750e03fb505fc19fc2bf3e4dbe91", "pj2demo", "sev"); ?>
 	<tr><td colspan='7'><strong>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet</strong></td></tr>
 		<?php addEntry("-", "Windows", "en", "f7711f9264d4d43c2a1518ec7c10a607", "pajama3", "Kirben"); ?>
 		<?php addEntry("Demo", "Windows", "en", "cf90b4db5486ef798db78fe6fbf897e5", "pj3-demo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Spy Fox 1: Dry Cereal</strong></td></tr>
 		<?php addEntry("-", "Windows", "en", "6bf70eee5de3d24d2403e0dd3d267e8a", "spyfox", "khalek"); ?>
 		<?php addEntry("-", "Windows", "nl", "9bda5fee51d2fda5253d02c642016bf4", "TODO"); ?>
-		<?php addEntry("Demo", "Windows", "en", "53e94115b55dd51d4b8ff0871aa1df1e", "foxdemo", "khalek"); ?>
-		<?php addEntry("Demo", "Mac", "en", "53e94115b55dd51d4b8ff0871aa1df1e", "foxdemo", "khalek"); ?>
-		<?php addEntry("Demo", "Windows", "en", "fbdd947d21e8f5bac6d6f7a316af1c5a", "spydemo"); ?>
+		<?php addEntry("Demo", "All", "en", "53e94115b55dd51d4b8ff0871aa1df1e", "foxdemo", "khalek, sev"); ?>
+		<?php addEntry("Demo", "All", "en", "fbdd947d21e8f5bac6d6f7a316af1c5a", "spydemo", "sev"); ?>
 		<?php addEntry("Demo", "Windows", "en", "9d4ab3e0e1d1ebc6ba8a6a4c470ed184", "spydemo", "khalek"); ?>
 	<tr><td colspan='7'><strong>Spy Fox 2: Some Assembly Required</strong></td></tr>
 		<?php addEntry("-", "Windows", "en", "f79e60c17cca601e411f1f75e8ee9b5a", "spyfox2", "Kirben"); ?>
