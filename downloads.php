@@ -53,13 +53,13 @@ echo html_round_frame_start("Downloads","98%","",20);
 	<p>
  	  <b>0.2.0 Release binaries:</b>
 	  <ul>
-	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.2.0-win32.zip">Win32 Official 0.2.0 Build</a><small>(260k zip file)</small></li>
-	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.2.0_i386.deb">Woody Official 0.2.0 Package</a><small>(212k deb package)</small></li>
-	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.2.0-macosx_sdl.tar.gz">MacOS X Official 0.2.0 Build</a><small>(359k gziped tarball)</small></li>
-	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.2-3_arm.ipk">iPaq Linux Official 0.2.0 Build</a><small>(250k ipkg package)</small></li>
-	    <li><a href="http://prdownloads.sourceforge.net/scummvm/PocketSCUMM_Install_0_2_0.exe">WinCE ARM/MIPS/SH3 Official 0.2.0 installer</a><small>(820k Win32 executable)</small></li>
-	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.2.0-dc-bin.zip">Dreamcast Official 0.2.0 scrambled binary</a><small>(338k zip file)</small></li>
-	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.2.0-dc-nero.zip">Dreamcast Official 0.2.0 NERO image</a><small>(2.3mb zip file)</small></li>
+	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.2.0-win32.zip">Win32 Official 0.2.0 Build</a> <small>(260k zip file)</small></li>
+	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.2.0_i386.deb">Woody Official 0.2.0 Package</a> <small>(212k deb package)</small></li>
+	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.2.0-macosx_sdl.tar.gz">MacOS X Official 0.2.0 Build</a> <small>(359k gziped tarball)</small></li>
+	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.2-3_arm.ipk">iPaq Linux Official 0.2.0 Build</a> <small>(250k ipkg package)</small></li>
+	    <li><a href="http://prdownloads.sourceforge.net/scummvm/PocketSCUMM_Install_0_2_0.exe">WinCE ARM/MIPS/SH3 Official 0.2.0 installer</a> <small>(820k Win32 executable)</small></li>
+	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.2.0-dc-bin.zip">Dreamcast Official 0.2.0 scrambled binary</a> <small>(338k zip file)</small></li>
+	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.2.0-dc-nero.zip">Dreamcast Official 0.2.0 NERO image</a> <small>(2.3mb zip file)</small></li>
 	    <li>more builds (eg, BeOS, RPMs, MorphOS) coming soon..</li>
 	  </ul>
 	</p>
@@ -67,7 +67,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 	<p>
 	  <b>0.2.0 Source Code:</b>
 	  <ul>
-	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.2.0-src.tgz">tar.gz</a> <small>(668k zip file)</small></li>
+	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.2.0-src.tgz">Source tarball</a> <small>(668k)</small></li>
 	  </ul>
 	</p>
 	
