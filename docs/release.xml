@@ -29,7 +29,7 @@ function portStatus($ports) {
 function bugs($buglist) {
 	echo "<td>";
 	foreach ($buglist as $bug) {
-		echo "<a href="http://sourceforge.net/tracker/index.php?func=detail&aid=$bug&group_id=37116&atid=418820>$bug</a> ";
+		echo "<a href=\"http://sourceforge.net/tracker/index.php?func=detail&aid=$bug&group_id=37116&atid=418820\">$bug</a> ";
 	}
 	echo "</td>";
 }
