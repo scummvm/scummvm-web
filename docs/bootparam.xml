@@ -12,6 +12,7 @@
 
 <br>
 <h2>The Secret of Monkey Island</h2>
+
 <table border="1" cellspacing="0" cellpadding="2">
 <tr><th>Param</th><th>Description</th></tr>
 <tr><td>1</td><td>Monkey Island</td></tr>
@@ -180,6 +181,367 @@
 <tr><td>1050</td><td>coaster</td></tr>
 <tr><td>1070</td><td>hang-dia</td></tr>
 <tr><td>2000</td><td>win</td></tr>
+</table>
+
+<br>
+<h2>Indiana Jones and the Fate of Atlantis</h2>
+
+<table border="1" cellspacing="0" cellpadding="2">
+<tr><th>Param</th><th>Description</th></tr>
+<tr><td>-7873</td><td>???</td></tr>
+<tr><td>-26143</td><td>???</td></tr>
+<tr><td>100</td><td>???</td></tr>
+<tr><td>101</td><td>???</td></tr>
+<tr><td>145</td><td>???</td></tr>
+<tr><td>146</td><td>???</td></tr>
+<tr><td>666</td><td>???</td></tr>
+<tr><td>667</td><td>???</td></tr>
+<tr><td>668</td><td>???</td></tr>
+<tr><td>787</td><td>???</td></tr>
+<tr><td>878</td><td>???</td></tr>
+<tr><td>879</td><td>???</td></tr>
+<tr><td>888</td><td>???</td></tr>
+<tr><td>909</td><td>???</td></tr>
+<tr><td>1101</td><td>???</td></tr>
+<tr><td>1102</td><td>???</td></tr>
+<tr><td>1103</td><td>???</td></tr>
+<tr><td>1104</td><td>???</td></tr>
+<tr><td>1111</td><td>???</td></tr>
+<tr><td>1112</td><td>???</td></tr>
+<tr><td>1120</td><td>???</td></tr>
+<tr><td>1122</td><td>???</td></tr>
+<tr><td>1123</td><td>???</td></tr>
+<tr><td>1130</td><td>???</td></tr>
+<tr><td>1162</td><td>???</td></tr>
+<tr><td>1181</td><td>???</td></tr>
+<tr><td>1432</td><td>???</td></tr>
+<tr><td>2543</td><td>???</td></tr>
+<tr><td>2718</td><td>???</td></tr>
+<tr><td>2728</td><td>???</td></tr>
+<tr><td>2920</td><td>???</td></tr>
+<tr><td>3142</td><td>???</td></tr>
+<tr><td>3654</td><td>???</td></tr>
+<tr><td>3838</td><td>???</td></tr>
+<tr><td>3939</td><td>???</td></tr>
+<tr><td>3940</td><td>???</td></tr>
+<tr><td>3941</td><td>???</td></tr>
+<tr><td>4040</td><td>???</td></tr>
+<tr><td>4041</td><td>???</td></tr>
+<tr><td>4061</td><td>???</td></tr>
+<tr><td>4062</td><td>???</td></tr>
+<tr><td>4063</td><td>???</td></tr>
+<tr><td>4122</td><td>???</td></tr>
+<tr><td>4123</td><td>???</td></tr>
+<tr><td>4141</td><td>???</td></tr>
+<tr><td>4242</td><td>???</td></tr>
+<tr><td>4343</td><td>???</td></tr>
+<tr><td>4695</td><td>???</td></tr>
+<tr><td>4765</td><td>???</td></tr>
+<tr><td>4851</td><td>???</td></tr>
+<tr><td>4852</td><td>???</td></tr>
+<tr><td>4853</td><td>???</td></tr>
+<tr><td>4854</td><td>???</td></tr>
+<tr><td>4855</td><td>???</td></tr>
+<tr><td>4949</td><td>???</td></tr>
+<tr><td>4950</td><td>???</td></tr>
+<tr><td>4951</td><td>???</td></tr>
+<tr><td>4951</td><td>???</td></tr>
+<tr><td>4952</td><td>???</td></tr>
+<tr><td>4952</td><td>???</td></tr>
+<tr><td>4953</td><td>???</td></tr>
+<tr><td>4953</td><td>???</td></tr>
+<tr><td>4954</td><td>???</td></tr>
+<tr><td>4954</td><td>???</td></tr>
+<tr><td>4955</td><td>???</td></tr>
+<tr><td>4955</td><td>???</td></tr>
+<tr><td>4956</td><td>???</td></tr>
+<tr><td>4956</td><td>???</td></tr>
+<tr><td>4957</td><td>???</td></tr>
+<tr><td>4957</td><td>???</td></tr>
+<tr><td>4958</td><td>???</td></tr>
+<tr><td>4958</td><td>???</td></tr>
+<tr><td>4959</td><td>???</td></tr>
+<tr><td>4960</td><td>???</td></tr>
+<tr><td>4962</td><td>???</td></tr>
+<tr><td>4963</td><td>???</td></tr>
+<tr><td>4964</td><td>???</td></tr>
+<tr><td>5000</td><td>???</td></tr>
+<tr><td>5001</td><td>???</td></tr>
+<tr><td>5002</td><td>???</td></tr>
+<tr><td>5003</td><td>???</td></tr>
+<tr><td>5005</td><td>???</td></tr>
+<tr><td>5234</td><td>???</td></tr>
+<tr><td>5555</td><td>???</td></tr>
+<tr><td>5557</td><td>???</td></tr>
+<tr><td>5558</td><td>???</td></tr>
+<tr><td>5559</td><td>???</td></tr>
+<tr><td>5560</td><td>???</td></tr>
+<tr><td>5561</td><td>???</td></tr>
+<tr><td>5562</td><td>???</td></tr>
+<tr><td>5563</td><td>???</td></tr>
+<tr><td>5564</td><td>???</td></tr>
+<tr><td>5876</td><td>???</td></tr>
+<tr><td>5877</td><td>???</td></tr>
+<tr><td>5885</td><td>???</td></tr>
+<tr><td>5886</td><td>???</td></tr>
+<tr><td>5999</td><td>???</td></tr>
+<tr><td>6000</td><td>???</td></tr>
+<tr><td>6001</td><td>???</td></tr>
+<tr><td>6002</td><td>???</td></tr>
+<tr><td>6003</td><td>???</td></tr>
+<tr><td>6004</td><td>???</td></tr>
+<tr><td>6005</td><td>???</td></tr>
+<tr><td>6010</td><td>???</td></tr>
+<tr><td>6011</td><td>???</td></tr>
+<tr><td>6345</td><td>???</td></tr>
+<tr><td>6665</td><td>???</td></tr>
+<tr><td>6666</td><td>???</td></tr>
+<tr><td>6667</td><td>???</td></tr>
+<tr><td>6668</td><td>???</td></tr>
+<tr><td>6669</td><td>???</td></tr>
+<tr><td>7456</td><td>???</td></tr>
+<tr><td>7777</td><td>???</td></tr>
+<tr><td>8100</td><td>???</td></tr>
+<tr><td>8567</td><td>???</td></tr>
+<tr><td>8888</td><td>???</td></tr>
+<tr><td>8889</td><td>???</td></tr>
+<tr><td>8890</td><td>???</td></tr>
+<tr><td>9000</td><td>???</td></tr>
+<tr><td>9001</td><td>???</td></tr>
+<tr><td>9101</td><td>???</td></tr>
+<tr><td>9102</td><td>???</td></tr>
+<tr><td>9103</td><td>???</td></tr>
+<tr><td>9104</td><td>???</td></tr>
+<tr><td>9105</td><td>???</td></tr>
+<tr><td>9106</td><td>???</td></tr>
+<tr><td>9191</td><td>???</td></tr>
+<tr><td>9554</td><td>???</td></tr>
+<tr><td>9555</td><td>???</td></tr>
+<tr><td>9556</td><td>???</td></tr>
+<tr><td>9557</td><td>???</td></tr>
+<tr><td>9558</td><td>???</td></tr>
+<tr><td>9559</td><td>???</td></tr>
+<tr><td>9678</td><td>???</td></tr>
+<tr><td>9900</td><td>???</td></tr>
+<tr><td>9901</td><td>???</td></tr>
+<tr><td>9902</td><td>???</td></tr>
+<tr><td>9903</td><td>???</td></tr>
+<tr><td>9904</td><td>???</td></tr>
+<tr><td>9905</td><td>???</td></tr>
+<tr><td>9909</td><td>???</td></tr>
+</table>
+
+<br>
+<h2>Sam &amp; Max</h2>
+
+<table border="1" cellspacing="0" cellpadding="2">
+<tr><th>Param</th><th>Description</th></tr>
+<tr><td>101</td><td>???</td></tr>
+<tr><td>211</td><td>???</td></tr>
+<tr><td>212</td><td>???</td></tr>
+<tr><td>221</td><td>???</td></tr>
+<tr><td>222</td><td>???</td></tr>
+<tr><td>223</td><td>???</td></tr>
+<tr><td>233</td><td>???</td></tr>
+<tr><td>301</td><td>???</td></tr>
+<tr><td>402</td><td>???</td></tr>
+<tr><td>403</td><td>???</td></tr>
+<tr><td>404</td><td>???</td></tr>
+<tr><td>405</td><td>???</td></tr>
+<tr><td>408</td><td>???</td></tr>
+<tr><td>409</td><td>???</td></tr>
+<tr><td>501</td><td>???</td></tr>
+<tr><td>503</td><td>???</td></tr>
+<tr><td>515</td><td>???</td></tr>
+<tr><td>516</td><td>???</td></tr>
+<tr><td>517</td><td>???</td></tr>
+<tr><td>518</td><td>???</td></tr>
+<tr><td>600</td><td>???</td></tr>
+<tr><td>650</td><td>???</td></tr>
+<tr><td>651</td><td>???</td></tr>
+<tr><td>652</td><td>???</td></tr>
+<tr><td>701</td><td>???</td></tr>
+<tr><td>711</td><td>???</td></tr>
+<tr><td>911</td><td>???</td></tr>
+<tr><td>1001</td><td>???</td></tr>
+<tr><td>1002</td><td>???</td></tr>
+<tr><td>1050</td><td>???</td></tr>
+<tr><td>1107</td><td>???</td></tr>
+<tr><td>1113</td><td>???</td></tr>
+<tr><td>1150</td><td>???</td></tr>
+<tr><td>1199</td><td>???</td></tr>
+<tr><td>1210</td><td>???</td></tr>
+<tr><td>1290</td><td>???</td></tr>
+<tr><td>1301</td><td>???</td></tr>
+<tr><td>1400</td><td>???</td></tr>
+<tr><td>1410</td><td>???</td></tr>
+<tr><td>1420</td><td>???</td></tr>
+<tr><td>1425</td><td>???</td></tr>
+<tr><td>1430</td><td>???</td></tr>
+<tr><td>1501</td><td>???</td></tr>
+<tr><td>1502</td><td>???</td></tr>
+<tr><td>1503</td><td>???</td></tr>
+<tr><td>1505</td><td>???</td></tr>
+<tr><td>1506</td><td>???</td></tr>
+<tr><td>2000</td><td>???</td></tr>
+</table>
+
+<br>
+<h2>Day Of The Tentacle</h2>
+
+<table border="1" cellspacing="0" cellpadding="2">
+<tr><th>Param</th><th>Description</th></tr>
+<tr><td>101</td><td>???</td></tr>
+<tr><td>111</td><td>???</td></tr>
+<tr><td>121</td><td>???</td></tr>
+<tr><td>122</td><td>???</td></tr>
+<tr><td>131</td><td>???</td></tr>
+<tr><td>141</td><td>???</td></tr>
+<tr><td>151</td><td>???</td></tr>
+<tr><td>161</td><td>???</td></tr>
+<tr><td>177</td><td>???</td></tr>
+<tr><td>199</td><td>???</td></tr>
+<tr><td>201</td><td>???</td></tr>
+<tr><td>202</td><td>???</td></tr>
+<tr><td>221</td><td>???</td></tr>
+<tr><td>222</td><td>???</td></tr>
+<tr><td>223</td><td>???</td></tr>
+<tr><td>225</td><td>???</td></tr>
+<tr><td>232</td><td>???</td></tr>
+<tr><td>242</td><td>???</td></tr>
+<tr><td>252</td><td>???</td></tr>
+<tr><td>262</td><td>???</td></tr>
+<tr><td>272</td><td>???</td></tr>
+<tr><td>273</td><td>???</td></tr>
+<tr><td>301</td><td>???</td></tr>
+<tr><td>323</td><td>???</td></tr>
+<tr><td>333</td><td>???</td></tr>
+<tr><td>346</td><td>???</td></tr>
+<tr><td>345</td><td>???</td></tr>
+<tr><td>353</td><td>???</td></tr>
+<tr><td>363</td><td>???</td></tr>
+<tr><td>370</td><td>???</td></tr>
+<tr><td>401</td><td>???</td></tr>
+<tr><td>408</td><td>???</td></tr>
+<tr><td>444</td><td>???</td></tr>
+<tr><td>565</td><td>???</td></tr>
+<tr><td>555</td><td>???</td></tr>
+<tr><td>567</td><td>???</td></tr>
+<tr><td>600</td><td>???</td></tr>
+<tr><td>601</td><td>???</td></tr>
+<tr><td>602</td><td>???</td></tr>
+<tr><td>603</td><td>???</td></tr>
+<tr><td>604</td><td>???</td></tr>
+<tr><td>605</td><td>???</td></tr>
+<tr><td>701</td><td>???</td></tr>
+<tr><td>702</td><td>???</td></tr>
+<tr><td>703</td><td>???</td></tr>
+<tr><td>704</td><td>???</td></tr>
+<tr><td>705</td><td>???</td></tr>
+<tr><td>706</td><td>???</td></tr>
+<tr><td>707</td><td>???</td></tr>
+<tr><td>708</td><td>???</td></tr>
+<tr><td>709</td><td>???</td></tr>
+<tr><td>710</td><td>???</td></tr>
+<tr><td>969</td><td>???</td></tr>
+<tr><td>979</td><td>???</td></tr>
+<tr><td>989</td><td>???</td></tr>
+<tr><td>990</td><td>???</td></tr>
+<tr><td>991</td><td>???</td></tr>
+<tr><td>993</td><td>???</td></tr>
+<tr><td>994</td><td>???</td></tr>
+<tr><td>995</td><td>???</td></tr>
+<tr><td>996</td><td>???</td></tr>
+<tr><td>997</td><td>???</td></tr>
+<tr><td>998</td><td>???</td></tr>
+<tr><td>999</td><td>???</td></tr>
+<tr><td>1000</td><td>???</td></tr>
+<tr><td>1001</td><td>???</td></tr>
+<tr><td>1002</td><td>???</td></tr>
+<tr><td>1003</td><td>???</td></tr>
+<tr><td>1004</td><td>???</td></tr>
+</table>
+
+<br>
+<h2>Full Throttle</h2>
+
+<table border="1" cellspacing="0" cellpadding="2">
+<tr><th>Param</th><th>Description</th></tr>
+<tr><td>193</td><td>The Chrysler demo.</td></tr>
+<tr><td>194</td><td>Chrysler demo, pt. 2</td></tr>
+<tr><td>195</td><td>Chrysler demo, roadrash</td></tr>
+<tr><td>196</td><td>Chrysler demo, pt. 3</td></tr>
+<tr><td>197</td><td>Chrysler demo, pt. 4</td></tr>
+<tr><td>200</td><td>just after the opening (dumpster)</td></tr>
+<tr><td>210</td><td>ride out from barfront</td></tr>
+<tr><td>222</td><td>melonweed intro (Tim's version)</td></tr>
+<tr><td>242</td><td>Melonweed: meet Miranda.</td></tr>
+<tr><td>300</td><td>just after the roadrash (mo-cu) (Steve's version)</td></tr>
+<tr><td>333</td><td>After whackin Todd</td></tr>
+<tr><td>353</td><td>simulate CES demo (gas-gate)</td></tr>
+<tr><td>360</td><td>open gate (gas-gate)</td></tr>
+<tr><td>361</td><td>Get Gas (gastower)</td></tr>
+<tr><td>361</td><td>Gas-Run (gastower)</td></tr>
+<tr><td>370</td><td>get in junkyard (junkgate)</td></tr>
+<tr><td>380</td><td>Junkyard interior</td></tr>
+<tr><td>399</td><td>the fixed bike showcase!</td></tr>
+<tr><td>400</td><td>Corley's murder</td></tr>
+<tr><td>401</td><td>Testing Ben's riding in and out of kickstand</td></tr>
+<tr><td>444</td><td>After murder, back at Kickstand</td></tr>
+<tr><td>446</td><td>In bar with badge</td></tr>
+<tr><td>450</td><td>After murder, testing night sequence of rooms</td></tr>
+<tr><td>495</td><td>Arriving at Mink Ranch (daed si luap)</td></tr>
+<tr><td>496</td><td>Enter ranch from highway9</td></tr>
+<tr><td>500</td><td>Ben rides into caveturn to get ramp</td></tr>
+<tr><td>500</td><td>Ben rides into caveroad to get ramp</td></tr>
+<tr><td>505</td><td>Ben rides into cavemesa to get ramp</td></tr>
+<tr><td>509</td><td>scold n&b wipeout</td></tr>
+<tr><td>510</td><td>ben has the goggles & is pursued</td></tr>
+<tr><td>530</td><td>Messing with Emmet's load.</td></tr>
+<tr><td>535</td><td>Messing with Emmet's load.</td></tr>
+<tr><td>545</td><td>Messing with Emmet's load.</td></tr>
+<tr><td>546</td><td>Messing with Emmet's load.</td></tr>
+<tr><td>550</td><td>Test mineroad</td></tr>
+<tr><td>551</td><td>Test Mineroad with goggles</td></tr>
+<tr><td>552</td><td>enter dustspill from vista</td></tr>
+<tr><td>556</td><td>The real cavefish hijacking scene</td></tr>
+<tr><td>575</td><td>Talk to Father Torque on the mineroad</td></tr>
+<tr><td>580</td><td>Return to vista with ramp</td></tr>
+<tr><td>585</td><td>Jump the Mighty Poyahoga!</td></tr>
+<tr><td>600</td><td>arrive at corville</td></tr>
+<tr><td>650</td><td>souvenier stand</td></tr>
+<tr><td>660</td><td>Ben arrives at the minefield</td></tr>
+<tr><td>661</td><td>Ben arrives at the big-door</td></tr>
+<tr><td>662</td><td>Ben arrives at the vultures</td></tr>
+<tr><td>666</td><td>the Vultures' hideout</td></tr>
+<tr><td>670</td><td>Looking at the Photos</td></tr>
+<tr><td>680</td><td>demo derby intro</td></tr>
+<tr><td>690</td><td>a test of the demo-derby</td></tr>
+<tr><td>700</td><td>Inside shot of the derby car</td></tr>
+<tr><td>797</td><td>Ben and mo blow up</td></tr>
+<tr><td>798</td><td>Squish that firefly...</td></tr>
+<tr><td>799</td><td>The arena burns</td></tr>
+<tr><td>800</td><td>Ben returns after the demolition derby</td></tr>
+<tr><td>840</td><td>Ripburger's speech to the shareholders</td></tr>
+<tr><td>850</td><td>Corley's will</td></tr>
+<tr><td>900</td><td>Finale: Intro</td></tr>
+<tr><td>910</td><td>Finale: On the bumper</td></tr>
+<tr><td>920</td><td>Finale: Hopping on fuel lines</td></tr>
+<tr><td>930</td><td>Finale: In the cargo plane</td></tr>
+<tr><td>940</td><td>Finale: Kill Ripburger!</td></tr>
+<tr><td>950</td><td>Finale: Finale</td></tr>
+</table>
+
+<br>
+<h2>FOO</h2>
+
+<table border="1" cellspacing="0" cellpadding="2">
+</table>
+
+<br>
+<h2>FOO</h2>
+
+<table border="1" cellspacing="0" cellpadding="2">
 </table>
 
 
