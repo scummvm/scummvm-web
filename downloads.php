@@ -25,7 +25,7 @@ echo html_round_frame_start("Download ScummVM","");
 	<p>
 	  Downloads are hosted with SourceForge.net. If you have one of the supported systems, you can directly download
 	  the appropriate binary distribution. If you have another system, download the source and read the
-	  <a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=release-0-6-0">README</a>
+	  <a href="http://cvs.sourceforge.net/viewcvs.py/scummvm/scummvm/README?rev=release-0-6-1b">README</a>
 	  file for directions on how to build ScummVM.
 	  If you have successfully ported ScummVM to a platform not listed, please drop us a note, telling which OS, etc.
 	  you used.
@@ -49,7 +49,7 @@ echo html_round_frame_start("Download ScummVM","");
 	<hr>
 	<a name="stable"></a>
 	<h3>0.6.1b Release binaries</h3>
-	<p>For a list of changes since the previous version, <a href="http://sourceforge.net/project/shownotes.php?release_id=255654">read the release notes</a>.
+	<p>For a list of changes since the previous version, <a href="http://sourceforge.net/project/shownotes.php?release_id=257836">read the release notes</a>.
 	<BR>
 	0.6.1b should be directly apt-get'able from Debian unstable (sid), and more packages for other platforms will be available in the upcoming week
 	</p>
@@ -61,8 +61,11 @@ echo html_round_frame_start("Download ScummVM","");
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-macosx.dmg?download">Mac OS X (10.2 + 10.3) Disk Image</a> <small>(1.5M disk image)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-1.i386.rpm?download">RedHat package</a> <small>(1.2M RPM)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.6.1b-0woody1_i386.deb?download">Debian Stable (woody) package</a> <small>(1.1M .deb)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-solaris8-sparc.tar.bz2?download">Solaris 8 (Sparc) binary</a> <small>(1.0M .tar.bz2)</small></li>
+
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-palmos.zip?download">PalmOS binary</a> <small>(606k zipfile)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-PocketPC_ARM.zip?download">PocketPC ARM binary</a> <small>(1.1M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-PocketPC_MIPS.zip?download">PocketPC MIPS binary</a> <small>(1.3M zipfile)</small></li>
@@ -72,7 +75,7 @@ echo html_round_frame_start("Download ScummVM","");
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-HandheldPC_MIPS.zip?download">HandheldPC MIPS binary</a> <small>(1.3M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1b-HandheldPC_SH3.zip?download">HandheldPC SH3 binary</a> <small>(1.2M zipfile)</small></li>
 
-	  <li>Coming soon: Debian, Dreamcast, PalmOS, and more!</li>
+	  <li>Coming soon: Dreamcast and more!</li>
 
 	<!--
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1-slack-i386-1.tgz?download">SlackWare package</a> <small>(???M .tgz)</small></li>
@@ -107,9 +110,7 @@ echo html_round_frame_start("Download ScummVM","");
 		have older versions around, for your convenience.
 	</p>
 	<ul>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1-palmos.zip?download">0.6.1 PalmOS binary</a> <small>(600k zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.1-dreamcast-plainfiles.tar.bz2?download">0.6.1 Dreamcast plain files</a> <small>(1.4M zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.6.1-0woody1_i386.deb?download">0.6.1 Debian Stable (woody) package</a> <small>(1.1M .deb)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-slack-i386-1.tgz?download">0.6.0 SlackWare package</a> <small>(1.2M .tgz)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-beos-x86.pkg?download">0.6.0 BeOS package</a> <small>(1.6M pkg)</small></li>

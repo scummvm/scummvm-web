@@ -43,8 +43,8 @@ else
 	// Hard code link to README for now...
 	echo html_frame_tr(
 				html_frame_td(
-							  html_ahref("README 0.6.1","http://cvs.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/README?rev=1.256.2.13").html_br().
-							  "The ScummVM README, for version 0.6.1.".html_br(2)."\n"
+							  html_ahref("README 0.6.1b","http://cvs.sourceforge.net/viewcvs.py/scummvm/scummvm/README?rev=release-0-6-1b").html_br().
+							  "The ScummVM README, for version 0.6.1b.".html_br(2)."\n"
 							 )
 					  );
 
