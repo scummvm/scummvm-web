@@ -72,6 +72,24 @@ Help here is welcome -- if you want, feel free to fill in some of the gaps and
 <br><a name="monkey"></a>
 <h2>The Secret of Monkey Island</h2>
 
+<p>Some of the boot params given in the following table only work in the CD/Mac version
+of Monkey Island (and not in 'monkeyega' and 'monkeyvga'). Those are marked with an
+asteriks (*) symbol (except for the cases we overlooked ;-).</p>
+
+<p>In addition to the boot params listed below, you can use values greater than 900
+to be teleported to specific rooms. To be precise, if you give the number x, then you get
+sent to room (x-700).
+</p>
+
+<p>Furthermore, in the CD/Mac versions of Monkey (target 'monkey', not 'monkeyvga' or 'monkeyega),
+you can specify a boot param between 3000 and 3777 (including both numbers). It's
+currently not documented what those boot params do precisely.</p>
+
+<p>
+Finally, boot params not covered by the list below will be interpreted as raw room numbers
+and cause the game to start in that room.
+</p>
+
 <table border="1" cellspacing="0" cellpadding="2">
 <tr><th>Param</th><th>Description</th></tr>
 <tr><td>1</td><td>Monkey Island</td></tr>
@@ -114,12 +132,12 @@ Help here is welcome -- if you want, feel free to fill in some of the gaps and
 <tr><td>1436</td><td>Monkey Island - Bottom of crack with magnetic compass, pamphlet, leaflet, brochure, 3 bananas, oars</td></tr>
 <tr><td>2221</td><td>Ship Kitchen with spell ingredients</td></tr>
 <tr><td>2222</td><td>Ship deck with breath mints and rubber chicken</td></tr>
-<tr><td>2299</td><td>Ship Deck with Pamphlet, leaflet, brochure, rope, gunpowder, flaming mass and pot</td></tr>
-<tr><td>3777</td><td>Melee Island lookout with 2x 300 pieces of eight, sword, shovel, breath mints, rubber chicken</td></tr>
+<tr><td>2299*</td><td>Ship Deck with Pamphlet, leaflet, brochure, rope, gunpowder, flaming mass and pot</td></tr>
+<tr><td>3777*</td><td>Melee Island lookout with 2x 300 pieces of eight, sword, shovel, breath mints, rubber chicken</td></tr>
 <tr><td>4313</td><td>Cannibal Village, outside hut with monkey head key, oars, magnetic compass, pamphlet, leaflet, brochure, navigator head, navigator necklace</td></tr>
 <tr><td>4444</td><td>Monkey Island - By Monkey with 5 bananas and monkey head key</td></tr>
 <tr><td>5555</td><td>Inside Hut in Cannibal Village</td></tr>
-<tr><td>6342</td><td>Ghost Ship Main Deck, outside hut with monkey head key, oars, magnetic compass, pamphlet, leaflet, brochure, navigator head, navigator necklace</td></tr>
+<tr><td>6342*</td><td>Ghost Ship Main Deck, outside hut with monkey head key, oars, magnetic compass, pamphlet, leaflet, brochure, navigator head, navigator necklace</td></tr>
 <tr><td>6565</td><td>Monkey Island beach by banana</td></tr>
 <tr><td>6666</td><td>Outside Monkey Head with monkey head key</td></tr>
 <tr><td>6767</td><td>Ship Intro</td></tr>
@@ -129,8 +147,9 @@ Help here is welcome -- if you want, feel free to fill in some of the gaps and
 <tr><td>8888</td><td>Caverns Under Monkey Island by Bob after ship has sailed (escape with Toothrot)</td></tr>
 <tr><td>8889</td><td>Caverns Under Monkey Island by Bob after ship has sailed (escape with crew)</td></tr>
 <tr><td>8989</td><td>Melee Island Church during wedding</td></tr>
-<tr><td>9432</td><td>Monkey Island Beach, with magnetic compass, pamphlet, leaflet, brochure</td></tr>
+<tr><td>9432*</td><td>Monkey Island Beach, with magnetic compass, pamphlet, leaflet, brochure</td></tr>
 </table>
+
 
 <br><a name="monkey2"></a>
 <h2>Monkey Island 2: LeChuck's revenge</h2>
