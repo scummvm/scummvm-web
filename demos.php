@@ -46,11 +46,11 @@ $demos = array(
 	'Passport to Adventure (playable 16 colour demos of mi, loom, indy3)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Sampler.zip', 'pass'),
 	'Indy3 & Loom (non interactive FM Towns demo)'
-		=> array('http://www.cowlark.com/scumm.dat/indyloom.zip', 'zak256'),
+		=> array('http://www.cowlark.com/scumm.dat/indyloom.zip', 'zaktowns'),
 	'Indy3 & Zak256 (non interactive FM Towns demo)'
-		=>array('http://www.cowlark.com/scumm.dat/indyzak.zip', 'zak256'),
+		=>array('http://www.cowlark.com/scumm.dat/indyzak.zip', 'zaktowns'),
 	'Zak256 & Loom (non interactive Fm Towns demo)'
-		=>array('http://www.cowlark.com/scumm.dat/zakloom.zip', 'zak256'),
+		=>array('http://www.cowlark.com/scumm.dat/zakloom.zip', 'zaktowns'),
 	'Monkey Island 2 (non interactive demo)'
 		=> array('http://www.cowlark.com/scumm.dat/mi2demo.zip', 'mi2demo'),
 	'Indiana Jones and the Fate of Atlantis (playable)'

@@ -62,7 +62,7 @@ $games = array(
 		'Maniac Mansion (enhanced)'				=> array('2','maniac','80'),
 		'Zak McKracken and the Alien Mindbenders (original)'	=> array('1','zak','80'),
 		'Zak McKracken and the Alien Mindbenders (enhanced)'	=> array('2','zak','80'),
-		'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','90'),
+		'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zaktowns','90'),
 		'Indiana Jones and the Last Crusade'			=> array('3','indy3ega','90'),
 		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','90'),
 		'Indiana Jones and the Last Crusade (256 - FmTowns)'	=> array('3','indy3towns','90'),
@@ -130,7 +130,7 @@ $notes = array(
 "indy3towns"    => "Game is completable." .
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
                    "<br>- Kanji version requires the FM Towns Font ROM",
-"zak256"        => "Game is completable.".
+"zaktowns"      => "Game is completable.".
                    "<br>- Kanji version requires the FM Towns Font ROM",
 "loom"		=> "Game is completable".
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
