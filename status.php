@@ -96,7 +96,10 @@ of the LGPL'ed code into statically linked library(s). "The New License"
 will only apply to the 'scumm' directory in CVS, so if there is anything
 contained within that you think has more generic use... please move it
 into 'common' or some other suitable place. One we relicense it to "The
-New License", going back won't be easy :)
+New License", going back won't be easy :). Max Horn has already spent
+considerable time and effort splitting out the more generic functionality,
+and restructing the code to allow for library seperation.. but we're not
+completely done yet.
 
  - Negotiate with LucasArts regarding the use of trademarks, yadda yadda,
 on the webpage. Our current negotiations only involve the code itself, we
