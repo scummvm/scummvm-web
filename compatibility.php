@@ -128,7 +128,6 @@ $notes = array(
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
 		   "<br>- Various minor graphical glitches".
 		   "<br>- No music and no sound effects looping with Amiga version".
-		   "<br>- No sound effects with Mac version".
 		   "<br>- Atari ST and Mac verions require pcjr or pcspk music driver",
 "indy3"         => "Game is completable".
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
