@@ -27,13 +27,13 @@
 	<p>Here is a list of things we plan to do for the future. Note that we don't promise to do any of these, nor when we will do them. It's just a list
 	of what we hope to be able to do one day.</p>
 	<ul>
-	<li>Music and sound effects in Indy3Ega, Indy3Vga, LoomEga, MonkeyEga and MonkeyVga</li>
-	<li>Proper Full Throttle support</li>
-	<li>Curse of Monkey Island support (we already have that partially in latest CVS!)</li>
-	<li>Maniac Mansion support</li>
-	<li>Zak McKracken (non-FmTowns) support</li>
-	<li>Proper LoomEga support</li>
-	<li>Proper Indy3Ega support</li>
+	<li>Music and sound effects in Indy3Ega, Indy3Vga, LoomEga, MonkeyEga, MonkeyVga and Pass</li>
+	<li>Complete Full Throttle support</li>
+	<li>Complete Curse of Monkey Island support</li>
+	<li>Add Maniac Mansion support</li>
+	<li>Add Zak McKracken (non-FmTowns) support</li>
+	<li>Complete LoomEga support</li>
+	<li>Complete Indy3Ega support</li>
 	</ul>
 
 	<h3>General</h3>
@@ -66,11 +66,12 @@
 		</ul>
 		<li><h4>Monkey1EGA</h4>
 		<ul>
-			<li>Fix music support, add sound support</li>
+			<li>Fix music support and add sound effects support</li>
+			<li>The demo version locks up after introduction</li>
 		</ul>
 		<li><h4>Monkey1VGA</h4>
 		<ul>
-			<li>Fix music support, add sound support</li>
+			<li>Fix music support and add sound effects support</li>
 			<li><i>Ask: MadMoose, Fingolfin</i></li>
 		</ul>
 		<li><h4>Zak256</h4>
@@ -86,22 +87,23 @@
 		</ul>
 		<li><h4>Indiana Jones and The Last Crusade EGA</h4>
 		<ul>
-			<li>Add music and sound support</li>
+			<li>Add music and sound effects support</li>
 			<li>Fix grail diary and biplane manual not been drawn correctly</li>
+			<li>Lightning is missing in the demo version, in section where Indiana see a Nazi, uses rope and climbs up side of building</li>
 		</ul>
 		<li><h4>Indiana Jones and The Last Crusade</h4>
 		<ul>
-			<li>Fix music support, add sound support</li>
+			<li>Fix music support and add sound effects support</li>
 			<li>Correct random walkbox issues</li>
 			<li><i>Ask: Ender</i></li>
 		</ul>
 		<li><h4>Loom EGA</h4>
 		<ul>
-			<li>Add music and sound support</li>
+			<li>Add music and sound effects support</li>
 		</ul>
 		<li><h4>Passport to Adventure</h4>
 		<ul>
-			<li>Fix music support and add sound support</li>
+			<li>Fix music support and add sound effects support</li>
 			<li>Fix subtitles not been shown in indy3 demo</li>
 		</ul>
 		<li><h4>The Curse of Monkey Island</h4>
