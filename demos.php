@@ -81,12 +81,12 @@ $demos = array(
 		=> array('http://www.cowlark.com/scumm.dat/fatdemo.zip', 'fbdemo'),
 	'Day of the Tentacle (DOS demo - Non interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Dottdemo.zip', 'dottdemo'),
-	'Full Throttle (Macintosh demo)*'
-		=> array('', 'ftdemo'),
+	'Full Throttle (Macintosh demo)'
+		=> array('http://quick.mixnmojo.com/demos/ftdemo_mac.rar', 'ftdemo'),
 	'Full Throttle (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/ftdemo.zip', 'ftpcdemo'),
-	'The Dig (Macintosh demo)*'
-		=> array('', 'digdemo'),
+	'The Dig (Macintosh demo)'
+		=> array('http://quick.mixnmojo.com/demos/dig_demo_mac.rar', 'digdemo'),
 	'The Dig (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/digdemo.zip', 'digdemo'),
 	'The Curse of Monkey Island (Windows demo)'
@@ -95,8 +95,8 @@ $demos = array(
 		=> array('http://files.mixnmojo.com/m3demo.zip', 'comidemo'),
 	'Simon the Sorcerer 1 (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/simon1demo.zip', 'simon1demo'),
-	'Simon the Sorcerer 1 Talkie (Acorn demo)*'
-		=> array('', 'simon1acorn'),
+	'Simon the Sorcerer 1 Talkie (Acorn demo)'
+		=> array('http://quick.mixnmojo.com/demos/simondemo_acorn.rar', 'simon1acorn'),
 	'Simon the Sorcerer 2 Talkie (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/simon2demo.zip', 'simon2talkie'),
 	'Broken Sword I*'
