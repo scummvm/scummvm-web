@@ -58,7 +58,7 @@ $games = array(
 		'Zak McKracken and the Alien Mindbenders (C64)'		=> array('1','zakc64','0'),
 		'Maniac Mansion'					=> array('2','maniac','5'),
 		'Zak McKracken and the Alien Mindbenders'		=> array('2','zak','5'),
-		'Indiana Jones and the Last Crusade'			=> array('3','indy3ega','50'),
+		'Indiana Jones and the Last Crusade'			=> array('3','indy3ega','80'),
 		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','80'),
 		'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','85'),
 		'Loom'							=> array('3','loom','80'),
@@ -108,7 +108,6 @@ $notes = array(
                    "<br>ScummVM doesn't completely understand the non-blocked LFL format".
                    "<br>SCUMM v2 opcodes not completely implemented yet",
 "indy3ega"	=> "Game is completable".
-                   "<br>-Grail diary and biplane manual aren't drawn correctly".
                    "<br>- No music or sound effects",
 "indy3"         => "Game is completable" .
                    "<br>- No sound effects",
