@@ -137,7 +137,7 @@ hosted by <a href="http://www.mthN.de">Snoke Media and Tech Hosting Network</a>!
 	<hr>
 
 	<a name="CVS"></a>
-	<h3>Daily CVS Builds:</h3>
+	<h3>CVS Builds:</h3>
 	<p>
 	  View the <a href="/daily/ChangeLog">ChangeLog</a> to see the latest updates of ScummVM.
 	</p>
