@@ -27,7 +27,6 @@
 	<p>Here is a list of things we plan to do for the future. Note that we don't promise to do any of these, nor when we will do them. It's just a list
 	of what we hope to be able to do one day.</p>
 	<ul>
-	<li>Add sound effects in Indy3Vga, MonkeyEga, MonkeyVga and Pass</li>
 	<li>Add music and sound effects in Amiga versions of games</li>
 	<li>Complete Full Throttle support</li>
 	<li>Complete Maniac Mansion/Zak McKracken V1 support</li>
@@ -59,13 +58,13 @@
 		</ul>
 		<li><h4>Monkey1EGA</h4>
 		<ul>
-			<li>Add sound effects support</li>
+			<li>Add roland music support</li>
 			<li>The demo version locks up during introduction</li>
 			<li>Character animations (Like in Scumm Bar) don't work in the demo version</li>
 		</ul>
 		<li><h4>Monkey1VGA</h4>
 		<ul>
-			<li>Add sound effects support</li>
+			<li>Add roland music support</li>
 			<li>Add music and sound effects support for Amiga version</li>
 			<li><i>Ask: MadMoose, Fingolfin</i></li>
 		</ul>
@@ -89,21 +88,17 @@
 		</ul>
 		<li><h4>Indiana Jones and the Last Crusade EGA</h4>
 		<ul>
-			<li>Add adlib sound support</li>
-			<li>Add music support for Amiga version</li>
-			<li>Add sound effect looping support for Amiga version</li>
+			<li>Add music and sound effect looping support for Amiga version</li>
 		</ul>
 		<li><h4>Indiana Jones and the Last Crusade</h4>
 		<ul>
-			<li>Add sound effects support</li>
 			<li><i>Ask: Ender</i></li>
 		</ul>
 		<li><h4>Loom EGA</h4>
 		<ul>
-			<li>Add adlib/roland sound support</li>
+			<li>Add roland music support</li>
 			<li>Make distaff save/restore correctly</li>
-			<li>Add music support for Amiga version</li>
-			<li>Add sound effect looping support for Amiga version</li>
+			<li>Add music and sound effect looping support for Amiga version</li>
 		</ul>
 		<li><h4>Loom TurboGrafx 16/PC Engine</h4>
 		<ul>
@@ -111,7 +106,6 @@
 		</ul>
 		<li><h4>Passport to Adventure</h4>
 		<ul>
-			<li>Add sound effects support</li>
 			<li>Fix subtitles not been shown in indy3 demo</li>
 		</ul>
 		<li><h4>The Curse of Monkey Island</h4>
