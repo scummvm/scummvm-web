@@ -104,7 +104,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  <b>Required Libraries:</b>
     </p>
 	<ul>
-	  <li><a href="http://www.libsdl.org/download-1.2.html">SDL 1.2.x</a></li>
+	  <li><a href="http://www.libsdl.org/download-1.2.php">SDL 1.2.x</a></li>
 	</ul>
 		
 	<p>
