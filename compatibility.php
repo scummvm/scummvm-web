@@ -93,9 +93,10 @@ $notes = array(
 "maniacega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format",
 "zakega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version",
 "indy3ega"	=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Indy3-256 version",
-"indy3"         => "Game is completable, but some major crashes may occur in the catacombs" .
+"indy3"         => "Game is completable" .
                    "<br>- Music and Sound effects are usually missing" .
-		   "<br>- Various minor graphical glitches" . 
+		   "<br>- Various minor graphical glitches, including incorrect costume for Indy when talking to marcus in the intro". 
+		   "<br>- Indy is not shown in the letter stepping room near the end of the game but it is still passable".
                    "<br>- Indy may occasionally be able to walk outside of walkboxes (Eg, up walls)",
 "zak256"        => "Game is completable." .
                    "<br>- No sound effect looping" ,
