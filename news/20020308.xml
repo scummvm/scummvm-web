@@ -1,0 +1,15 @@
+<NAME>Some Fairly Major Updates</NAME>
+<DATE>March 8, 2002</DATE>
+<IMG><a href="screenshots.php?view=big_scummvm_15&x=12"><img
+src="screenshots/scummvm_15.png" width="256" height="160" border="0"
+alt="Full Throttle" align=right></a></IMG>
+<BODY>
+	Endy and Yazoo have been in major crunch mode this week (Kudos guys!). Here is what's new in the development of ScummVM:
+	<ul>
+		<li>Sam and Max is now completable!</li>
+		<li><i>inSane</i> video engine working. Used in Dig and Full Throttle</li>
+		<li>More command line options for control. See the readme.txt</li>
+		<li>Preliminary work has begun on Curse of Monkey Island</li>
+		<li>Muttle has committed the Mac port to the CVS tree</li>
+		<li>Many many bugs have been fixed.</li>
+</BODY>

@@ -48,12 +48,11 @@ echo html_round_frame_start("About ScummVM","98%","",20);
 		</p>
 
 		<p>
-		ScummVM is an implementation of LucasArts S.C.U.M.M. (Script Creation Utility for Maniac Mansion)
+		ScummVM is an implementation of LucasArts S.C.U.M.M. (<i>Script Creation Utility for Maniac Mansion</i>)
 		interpreter, used in games such as Monkey Island, Indiana Jones, Day Of The Tentacle,
 		Sam and Max, and many more. Some things are still missing, and some games cannot be completeted yet.
 		There are quite a few known bugs. Regardless of the bugs it is still possible to play some games
-		all the way through to the end. The Secret Of Monkey Island CD-ROM version can be played all the
-		way through. Screenshots of the end are on the screenshots page. Still other games do not load at all.
+		all the way through to the end. Still other games do not load at all.
 		Keep your eye on our Compatability page to see which games function with the current build.
 		Comments and suggestions can be left in our forum.
 		</p>
