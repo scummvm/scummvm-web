@@ -1,20 +1,20 @@
 /* Body Document Defaults */
-BODY 		{ background-color: #6699CC; }
+BODY 		{ background-color: #6699CC; color: #000000; }
 
 /* Link Colors */
-A		{ color: #A50D0D; font-family: Helvetica, Arial; font-size: 10pt; }
+A		{ color: #A50D0D; font-family: Helvetica, Arial, sans-serif; font-size: 10pt; }
 A:hover		{ color: #FF6666; }
 A:active	{ color: #FF0000; }
 
 /* General Colors */
-OL,UL,P,BODY	{ font-family: Helvetica, Arial; font-size: 10pt; }
-TD,TR,TH,FORM	{ font-family: Helvetica, Arial; font-size: 10pt; }
-SPAN		{ font-family: Helvetica, Arial; font-size: 10pt; }
-H1,H2,H3	{ font-family: Helvetica, Arial; font-size: 14pt; }
-H4,H5,H6	{ font-family: Helvetica, Arial; font-size: 12pt; }
-INPUT		{ font-family: Helvetica, Arial; font-size: 10pt; }
-PRE,T1		{ font-family: Helvetica, Arial; font-size: 10pt; }
-SMALL		{ font-family: Helvetica, Arial; font-size: 8pt; }
+OL,UL,P,BODY	{ font-family: Helvetica, Arial, sans-serif; font-size: 10pt; }
+TD,TR,TH,FORM	{ font-family: Helvetica, Arial, sans-serif; font-size: 10pt; }
+SPAN		{ font-family: Helvetica, Arial, sans-serif; font-size: 10pt; }
+H1,H2,H3	{ font-family: Helvetica, Arial, sans-serif; font-size: 14pt; }
+H4,H5,H6	{ font-family: Helvetica, Arial, sans-serif; font-size: 12pt; }
+INPUT		{ font-family: Helvetica, Arial, sans-serif; font-size: 10pt; }
+PRE,T1		{ font-family: Helvetica, Arial, sans-serif; font-size: 10pt; }
+SMALL		{ font-family: Helvetica, Arial, sans-serif; font-size: 8pt; }
 
 /* query row colors */
 .color0		{ background-color: #E0E0E0 }
@@ -29,24 +29,24 @@ SMALL		{ font-family: Helvetica, Arial; font-size: 8pt; }
 .box-body	{ background-color: #E0E0E0 }
 
 /* Menu Config */
-.menuTitle	{ font-family: Helvetica, Arial; font-size: 8pt; color: #ffffff; font-weight: bold; }
-.menuItem 	{ font-family: Helvetica, Arial; font-size: 10pt; color: #ffffff; }
+.menuTitle	{ font-family: Helvetica, Arial, sans-serif; font-size: 8pt; color: #ffffff; font-weight: bold; }
+.menuItem 	{ font-family: Helvetica, Arial, sans-serif; font-size: 10pt; color: #ffffff; }
 .topMenu	{ background-color: #73106b; background-image: url('images/topmenu_bg.png'); }
 .sideMenu	{ background-color: #52208b; background-image: url('images/sidebar_bg.png'); }
 
 /* Misc */
-.small		{ font-family: Helvetica, Arial; font-size: 8pt; color: #ffffff; }
+.small		{ font-family: Helvetica, Arial, sans-serif; font-size: 8pt; color: #ffffff; }
 TD.label	{ font-weight: bold }
 
 /* Copyright */
-.copyright	{ font-family: Helvetica, Arial; font-size: 8pt; color: #FFFFFF; }
+.copyright	{ font-family: Helvetica, Arial, sans-serif; font-size: 8pt; color: #FFFFFF; }
 
 /* Generic Buttons */
-.button		{ background-color: #666666; color: #ffffff; font-family: Helvetica, Arial; font-size: 10pt;
-                   groove: #000000; padding: 0; }
+.button		{ background-color: #666666; color: #ffffff; font-family: Helvetica, Arial, sans-serif; font-size: 10pt;
+              groove: #000000; padding: 0; }
 
 /* Hidden Field */
-.hiddenfield	{ background-color: #ffffff; color: #666666; font-family: Helvetica, Arial; font-size: 10pt;
+.hiddenfield	{ background-color: #ffffff; color: #666666; font-family: Helvetica, Arial, sans-serif; font-size: 10pt;
                   groove: #ffffff; padding: 0; }
 
 /* Percentage Colors */
@@ -76,14 +76,14 @@ TD.label	{ font-weight: bold }
 
 TABLE.bitfield TH {
         text-align: center;
-        font-family: "Arial", helvetica, sans;
+        font-family: "Arial", helvetica, sans-serif;
         font-size: smaller;
 }
  
 TABLE.bitfield TD {
         border: 1px solid #000000;
         text-align: center;
-        font-family: "Arial", helvetica, sans;
+        font-family: "Arial", helvetica, sans-serif;
         font-size: smaller;
 }
 
@@ -97,7 +97,7 @@ DIV.opcode {
 DIV.opcode H2 {
         position: top;
         float: right;
-        font-family: "Arial", helvetica, sans;
+        font-family: "Arial", helvetica, sans-serif;
         font-size: larger;
         font-weight: bold;
         margin-top: 0em;
@@ -105,7 +105,7 @@ DIV.opcode H2 {
 
 DIV.opcode H3 {
         margin-top: 0em;
-        font-family: "Arial", helvetica, sans;
+        font-family: "Arial", helvetica, sans-serif;
         font-size: large;
         position: top;
         font-weight: normal;
@@ -132,13 +132,13 @@ PRE.box {
 TABLE.list TH {
         background-color: #A0A0A0;
         text-align: center;
-        font-family: "Arial", helvetica, sans;
+        font-family: "Arial", helvetica, sans-serif;
         font-size: smaller;
 }
 
 TABLE.list CAPTION {
         text-align: center;
-        font-family: "Arial", helvetica, sans;
+        font-family: "Arial", helvetica, sans-serif;
         font-size: small;
         width: 100%;
 }
@@ -146,7 +146,7 @@ TABLE.list CAPTION {
 TABLE.list TD {
         background-color: #F0F0F0;
         text-align: center;
-        font-family: "Arial", helvetica, sans;
+        font-family: "Arial", helvetica, sans-serif;
         font-size: smaller;
 }
 
