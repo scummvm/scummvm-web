@@ -17,77 +17,122 @@
 		<h1>ScummVM current areas of focus</h1>
 		
 		<h2>Introduction</h2>
-		If you want to dig in, this is the place to find out what we're currently working on (or hoping somebody will pick it up for us, you never know). This is the stuff where you might make the most useful contribution, right now.
+		<p>
+			If you want to dig in, this is the place to find out what we're
+			currently working on (or hoping somebody will pick it up for us,
+			you never know). This is the stuff where you might make the most
+			useful contribution, right now. Note that this is never complete,
+			and may be partially outdated, so just because you don't see it
+			here doesn't mean it is not important.
+		</p>
+		<p>Before you start work on something, you might want to talk to
+			somebody from the team. This will help us to prevent double work,
+			i.e. several people working on the same stuff at once without
+			knowing about each other.
+		</p>
+		<p>
+			Finally, always make sure to check out our <a href="http://sourceforge.net/tracker/?atid=418820&group_id=37116&func=browse">bug tracker</a>
+			and our <a href="http://sourceforge.net/tracker/?atid=418823&group_id=37116&func=browse">feature request tracker</a>
+			for things that need work.
+		</p>
 		
 		<h2>Upcoming milestones</h2>
-		0.3.0: Possibly new license, supported games near bug free
+		<p>Note that the following list is in no way set to stone and can be modified in the future.</p>
+		<ul>
+		<li> 0.2.5: All supported games next to bugless</li>
+		<li> 0.3.0: The Dig and MI1 VGA Floppy supported</li>
+		<li> 0.4.0: Indiana Jones and The Last Crusade supported, more bugfixes</li>
+		<li> 0.5.0: Full Throttle supported, basic CMI and Maniac Mansion support</li>
+		<li> 0.6.0: More work on CMI, MM and further bugfixes</li>
+		<li> 0.7.0: Maniac Mansion completable, Zak McCracken and Loom16 playable</li>
+		<li> 0.8.0: Zak McCracken and Loom16 completable</li>
+		<li> 0.9.0: Bugfixes and CMI completable</li>
+		<li> 1.0.0: The end of the beginning</li>
+		</ul>
 
 		<h2>Areas</h2>
 		<ul>
 			<li><h3>General</h3>
 			<ul>
-				<li>Change internal screens to 16bit (current 8bit)
+				<li><p><b>Change internal graphic format from 8bit to 16bit.</b></p>
 				<ul>
-					<li>This is needed for in ScummV7 (The DIG and Full Throttle)
-					<li>.. and also makes a cameo appearance in alphablended dialogs
+					<li>This is needed for in ScummV7 (The DIG and Full Throttle)</li>
+					<li>It will be very useful for the new GUI (currently it's near to impossible to specify a color scheme for it since it has to work with all sorts of different palettes)</li>
+					<li>Keep in mind that color cycling etc. still must work efficiently.</li>
 				</ul>
+				</li>
+
+				<li><p><b>Rewrite sound code so that the Adlib and MIDI encoders can be active at the same time.</b></p>
+				<ul>
+					<li>This will help in a few cases where games have a few tracks only available in Adlib format</li>
+					<li>Necessary if we want to allow users to switch between different games at runtime</li>
+				</ul>
+				</li>
 			</ul>
 			<li><h3>New GUI</h3>
 			<ul>
-				<li>This isn't really important, but anyway.
-				<li>Todo
-				<ul>
-					<li>Editable list widget
-					<li>Implement old dialogs. Ouch. Biggie. Currently only test dialog exists (press F7)
-				</ul>
-				
-				<li>Ask: Fingolfin, Endy, painelf
+				<li>Implement old dialogs (About, Options, Keys, ...)</li>
+				<li>Implement an edit field widget</li>
+				<li>Implement a GUI that shows up at the start and allows the user to specify</li>
+				which game to play. At first this could just allow the user to type in a command line;
+				better versions would offer a list of games we know about, etc.</li>
+				<li>Ask: Fingolfin, Endy, painelf</li>
 			</ul>
-			<li><h3>The DIG</h3>
+			<li><h3>Specific games</h3>
 			<ul>
-				<li>Both graphical and logic problems
-				<li>From <a href="http://scummvm.sourceforge.net/compatibility.php?details=dig">http://scummvm.sourceforge.net/compatibility.php?details=dig</a>
+				<li><h4>The DIG</h4>
 				<ul>
-					<li>Game crashes at various points, due to
+					<li>Both graphical and logic problems</li>
+					<li>Game crashes at various points, due to vertical scrolling and unsupported features</li>
+					<li>Walkscript misbehaves (currently bypassed in CVS)</li>
+					<li>No in-game music</li>
+					<li>Some animations play incorrectly</li>
+					<li>See also <a href="http://scummvm.sourceforge.net/compatibility.php?details=dig">http://scummvm.sourceforge.net/compatibility.php?details=dig</a></li>
+					<li>Ask: Yazoo, Endy</li>
+				</ul>
+				<li><h4>Monkey1VGA</h4>
+				<ul>
+					<li>Mainly graphical problems</li>
+					<li>Bugs:
+						<a href="http://sourceforge.net/tracker/index.php?func=detail&aid=581700&group_id=37116&atid=418820">#581700</a>,
+						<a href="http://sourceforge.net/tracker/index.php?func=detail&aid=583053&group_id=37116&atid=418820">#583053</a>
+					</li>
+					<li>Ask: MadMoose, Fingolfin</li>
+				</ul>
+				<li><h4>Zak256</h4>
+				<ul>
+					<li>Bugs:
+						<a href="http://sourceforge.net/tracker/index.php?func=detail&aid=555651&group_id=37116&atid=418820">#555651</a>,
+						<a href="http://sourceforge.net/tracker/index.php?func=detail&aid=566724&group_id=37116&atid=418820">#566724</a>,
+						<a href="http://sourceforge.net/tracker/index.php?func=detail&aid=582365&group_id=37116&atid=418820">#582365</a>,
+						<a href="http://sourceforge.net/tracker/index.php?func=detail&aid=582476&group_id=37116&atid=418820">#582476</a>
+					</li>
+					<li>No music or sound effects (Endy can help you get effects done)</li>
+					<li>Ask: Endy</li>
+				</ul>
+				<li><h4>Full Throttle</h4>
+				<ul>
+					<li>Doesn't handle virtual rooms/resources properly
+					<li>From <a href="http://scummvm.sourceforge.net/compatibility.php?details=ft">http://scummvm.sourceforge.net/compatibility.php?details=ft</a>
 					<ul>
-						<li>vertical scrolling
-						<li>unsupported features
+						<li>Game crashes at various points, due to missing SCUMM opcodes
+						<li>Some palette glitches during movie playback
+						<li>Some in-game music not working
+						<li>Some animations play incorrectly
 					</ul>
-					<li>Walkscript misbehaves (currently bypassed in CVS)
-					<li>No in-game music
-					<li>Some animations play incorrectly
+					<li>Ask: Yazoo, khalek
 				</ul>
-				<li>Ask: Yazoo, Endy
-			</ul>
-			<li><h3>Monkey1VGA</h3>
-			<ul>
-				<li>Mainly graphical problems
+				<li><h4>Sam and Max</h4>
 				<ul>
-					<li>Bugs: <a href="http://sourceforge.net/tracker/index.php?func=detail&aid=556444&group_id=37116&atid=418820" title="MI1: German sz ligature">#556444</a>
+					<li>There is something wrong with the object layering (see <a href="http://sourceforge.net/tracker/index.php?func=detail&aid=556498&group_id=37116&atid=418820">#556498</a></li>
+					<li>iMuse needs work</li>
+					<li>Ask: Endy</li>
 				</ul>
-				<li>Ask: MadMoose
-			</ul>
-			<li><h3>Zak256</h3>
-			<ul>
-				<li>Logic problems
+				<li><h4>Simon</h4>
 				<ul>
-					<li>Bugs: <a href="http://sourceforge.net/tracker/index.php?func=detail&aid=555647&group_id=37116&atid=418820" title="ZAK256: airoplain's restroom door">#555647</a>, <a href="http://sourceforge.net/tracker/index.php?func=detail&aid=566724&group_id=37116&atid=418820" title="ZAK256: Broken Fuse on mars">#566724</a>
+					<li>There are many open bugs for Simon, we really need somebody who can take over maintaining the Simon part of ScummVM</li>
+					<li>Ask: ???</li>
 				</ul>
-				<li>Random Number Generator doesn't work (<a href="http://sourceforge.net/tracker/index.php?func=detail&aid=555651&group_id=37116&atid=418820" title="ZAK256: missing markings">#555651</a>)
-				<li>No music or sound effects (Endy can help you get effects done)
-				<li>Ask: Endy
-			</ul>
-			<li><h3>Full Throttle</h3>
-			<ul>
-				<li>Doesn't handle virtual rooms/resources properly
-				<li>From <a href="http://scummvm.sourceforge.net/compatibility.php?details=ft">http://scummvm.sourceforge.net/compatibility.php?details=ft</a>
-				<ul>
-					<li>Game crashes at various points, due to missing SCUMM opcodes
-					<li>Some palette glitches during movie playback
-					<li>Some in-game music not working
-					<li>Some animations play incorrectly
-				</ul>
-				<li>Ask: Yazoo, khalek
 			</ul>
 		</ul>
 </BODY>
