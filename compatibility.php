@@ -35,7 +35,8 @@ else
 	<p>
 	  This page lists the progress of ScummVM as it relates to individual game compatibility.<br>
 	  Click on the game name to view the complete notes of a game.
-	  <br><br>
+          <br><br>Please note this list applies to the English versions of games, we attempt to test many versions of games, however there are occasionally problems with other languages, expecially German translations.
+          <br><br>
 	  <small>Last Updated: <? echo date("F d, Y",getlastmod()); ?></small>
 	</p>
 
@@ -85,26 +86,31 @@ $notes = array(
 "indy3"		=> "Game will start, but is not playable.<BR>The intro freezes on the LucasArts logo - hit escape to proceed.<BR>".
                    "Main bugs: Missing SCUMM opcodes cause occasional crashes, and incorrect object flags cause some game problems",
 "zak256"	=> "Game will start, but is not playable.<BR>The intro freezes on the LucasArts logo - hit escape to proceed.<BR>".
-                   "Main bugs: Incorrect object flags result in phantom objects, and cause issues with events such as picking up objects like the cashcard. Inventory scrolling not implemented, making it impossible to carry more than 4 objects at once",
+                   "Main bugs: Inventory scrolling not implemented, making it impossible to carry more than 4 objects at once<BR>" .
+                   "You cannot proceed past the airport due to an apparant walkbox issue and several crashes",
 "loom"		=> "Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Loom CD version",
 "monkeyega"	=> "Copy protection screen will show, but game crashes shortly afterwards.<BR>Graphics decoders and SCUMM opcodes not implimented yet.",
-"loomcd"	=> "Game is somewhat playable, but may crash with invalid SCUMM opcodes and have graphics problems.<BR>Incorrect object flags will cause issues with the Loom Room, and other game events",
+"loomcd"        => "Game is somewhat playable, but may crash with invalid SCUMM opcodes and have graphics problems.<BR>A possible walkbox issue prevents leaving the Loom Room",
 "monkey"	=> "No known problems - should be playable to the end",
 "monkey2"	=> "No known problems - should be playable to the end",
-"atlantis"	=> "Game is completable.".
+"atlantis"	=> "Game is completable.".                        
 		   "<br>- Music loud on some systems, run with -m30 to lower music volume.",
 "playfate"	=> "No known problems - should be playable to the end",
 "tentacle"	=> "No known problems - should be playable to the end",
 "dottdemo"	=> "No known problems - should be playable to the end",
 "samnmax"	=> "Game is completable.".
 		   "<br>- Graphic glitches during intro".
+                   "<br>- Subgames do not work".
+                   "<br>- Torch does not work in the Tunnel Of Love".
                    "<br>- MIDI music currently broken.",
 "samdemo"	=> "No known problems - should be playable to the end",
 "ft"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
 		   "<br>- some palette glitches during movie playback, and missing movie sound".
+                   "<br>- cannot proceed past the fuel tower due to missing vertical scrolling" .
 		   "<br>- not all sounds and animations playing correctly",
 "dig"		=> "Game crashes at various points, due to missing SCUMM opcods. Not playable to the end".
-		   "<br>- some palette glitches during movie playback, and missing moviemissing".
+                   "<br>- some palette glitches during movie playback, and missing movie audio".
+                   "<br>- cannot proceed past the fuel tower due to missing vertical scrolling" .
 		   "<br>- not all sounds and animations playing correctly",
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems"
 );
