@@ -71,6 +71,7 @@ echo html_round_frame_start("Downloads","98%","",20);
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-macosx.dmg?download">MacOS X Disk Image</a> <small>(672k disk image)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-1.rh80.i386.rpm?download">RedHat 8.0 package</a> <small>(405k RPM)</small>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-1.src.rpm?download">Source RPM</a> <small>(1.1M RPM)</small>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.4.1-0woody1_i386.deb ?download">Debian Stable (woody) Package</a> <small>(377k .deb)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-palmos.zip?download">PalmOS binary</a> <small>(292k zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-solaris8-sparc.tar.gz?download">Solaris 8 (Sparc) binary</a> <small>(2.3M .tar.gz)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.4.1_arm.ipk?download">Zaurus binary</a> <small>(394k ipk)</small></li>
@@ -88,16 +89,6 @@ echo html_round_frame_start("Downloads","98%","",20);
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.4.1-Smartphone2002.zip?download">Smartphone 2002 binary</a> <small>(447k zipfile)</small></li>
 	</ul>
-
-
-	<p>
- 	  <b>0.4.0 Release binaries (outdated):</b>
-	</p>
-	<p>A few binaries were not yet updated for the 0.4.1 release. Until that changes, here you can still find the old 0.4.0 binaries.
-	<ul>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.4.0-0.woody.1_i386.deb?download">Debian Stable (woody) Package</a> <small>(369k .deb)</small></li>
-	</ul>
-
 	<p>
  	  <b>0.3.0 Release binaries (outdated):</b>
 	</p>
