@@ -73,8 +73,8 @@ $games = array(
 		'Day Of The Tentacle (DEMO)'				=> array('6','dottdemo','95'),
                 'Sam & Max'                                             => array('6','samnmax','90'),
 		'Sam & Max (DEMO)'					=> array('6','samdemo','95'),
-		'Full Thottle'						=> array('7','ft','60'),
-                'The DIG'                                               => array('7','dig','75'),
+		'Full Thottle'						=> array('7','ft','75'),
+                'The DIG'                                               => array('7','dig','85'),
 		'Curse of Monkey Island'				=> array('8','curse','5'),
 		'Simon The Sorcerer 1 (Win)'           			=> array('n/a','simon1win','95'),
 		'Simon The Sorcerer 1 (Dos)'           			=> array('n/a','simon1dos','95'),
@@ -112,10 +112,10 @@ $notes = array(
 "samnmax"	=> "No major problems - should be playable to the end".
                    "<br>- Some subgames may not work",
 "samdemo"	=> "No known problems - should be playable to the end",
-"ft"		=> "Game is completable to a point, but not playable to the end".
-                   "<br>- Lack of INSANE subsystem prevents action sequences, which are needed to complete the game",
-"dig"		=> "Game is completable.".
-                   "<br>- The nexus room doesn't 'wrap' correctly, there are some redraw problems at the room seam",
+"ft"		=> "Game is completable to the end, but missing action sequencer".
+                   "<br>- Lack of INSANE subsystem prevents action sequences, which skips a substantial portion of the game".
+		   "<br>- Derby scene is only properly controlable using the mouse",
+"dig"		=> "Game is fully completable, with some minor sound issues",
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
 "simon1win" 	=> "No known problems, Game is completable.",
 "simon1dos" 	=> "No known problems, Game is completable.".
