@@ -96,7 +96,7 @@ $games = array(
 		'Curse of Monkey Island'				=> array('8','comi','80'),
 		'Beneath a Steel Sky'			       		=> array('n/a','sky','90'),
 		'Broken Sword II'			       		=> array('n/a','sword2','70'),
-		'Flight of the Amazon Queen'			       	=> array('n/a','queen','50'),
+		'Flight of the Amazon Queen'			       	=> array('n/a','queen','70'),
  		'Simon The Sorcerer 1 Talkie (Win)'			=> array('n/a','simon1win','95'),
 		'Simon The Sorcerer 1 Talkie (DOS)'       		=> array('n/a','simon1talkie','90'),
 		'Simon The Sorcerer 1 Talkie (Amiga CD32)'     		=> array('n/a','simon1cd32','8'),
@@ -212,8 +212,7 @@ $notes = array(
 		   "<br>- Both Mac and PC versions supported by this target".
 	 	   "<br>- Music is not continuous, and may pause, restart, and otherwise act oddly".
 		   "<br>- SMUSH audio (movie cutscenes) is a lot quieter than in-game voice, which is abnormally loud".
-                   "<br>- Lack of INSANE subsystem prevents action sequences, which skips a substantial portion of the game".
-		   "<br>- Derby scene is only properly controllable using the mouse",
+                   "<br>- Lack of INSANE subsystem prevents action sequences, which skips a substantial portion of the game",
 "dig"		=> "Game is fully completable, with some minor sound issues".
 		   "<br>- Both Mac and PC versions supported by this target",
 "comi"		=> "Game is fully completable, although ship-to-ship is broken and several graphical glitches are present",
@@ -229,7 +228,8 @@ $notes = array(
 "sword2"	 => "Game is completable, with several minor glitches".
 		   "<br>- Does not work on systems that require alignment".
 		   "<br>- No video for cutscenes",
-"queen"		 => "- Lots of (graphical) glitches and quirks.".
+"queen"		 => "Game should be completable, with several glitches".
+                   "<br>- Various minor graphical glitches".
 		   "<br>- No music.".
 		   "<br>- Requires <a href=\"http://0x.7fc1.org/fotaq/queen.tbl\">queen.tbl</a> resource file",
 "simon1win" 	=> "No known problems - game is completable.",
