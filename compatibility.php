@@ -119,21 +119,29 @@ $notes = array(
 "dig"		=> "Game is fully completable, with some minor sound issues",
 "curse"		=> "Not fully implemented yet.<br>ScummVM doesn't understand the various CMI subsystems",
 "simon1win" 	=> "Game is completable.".
+                   "<br>- Music currently only works on Windows systems",
                    "<br>- Various minor graphical glitches",
 "simon1talkie" 	=> "Game is completable.".
+                   "<br>- Music currently only works on Windows systems",
                    "<br>- No music looping".
                    "<br>- Various minor graphical glitches",
-"simon1dos" 	=> "Game is completable to a point, but not playable to the end since it freezes at several points".
+"simon1dos" 	=> "Game is completable to a point, but not playable to the end".
+                   "<br>- Freezes when Swampling leaves his house",
+                   "<br>- Freezes when talking to demons in Sordid's Tower",
+                   "<br>- Music currently only works on Windows systems",
                    "<br>- No sound effects".
                    "<br>- Various minor graphical glitches",
 "simon1demo" 	=> "Game demo is completable to a point, but not playable to the end".
+                   "<br>- Freezes when Swampling leaves his house",
                    "<br>- No music",
 "simon2talkie"  => "Game is completable.".
-                   "<br>- No music and some sound effects are missing".
+                   "<br>- Will freeze when waking up in Sordid's Tower if Simon isn't moved straight away",
+                   "<br>- No music and background sound effects are missing".
                    "<br>- Part of introduction is skipped".
                    "<br>- Various minor graphical glitches",
 "simon2win"     => "Game is completable.".
-                   "<br>- Some sound effects are missing".
+                   "<br>- Music currently only works on Windows systems",
+                   "<br>- Background sound effects and some music is missing".
                    "<br>- Part of introduction is skipped".
                    "<br>- Various minor graphical glitches",
 "simon2dos"     => "Not fully implemented yet.".
