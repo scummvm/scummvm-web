@@ -58,20 +58,16 @@
 		</ul>
 		<li><h4>Monkey1EGA</h4>
 		<ul>
-			<li>Add roland music support</li>
 			<li>The demo version locks up during introduction</li>
-			<li>Character animations (Like in Scumm Bar) don't work in the demo version</li>
 		</ul>
 		<li><h4>Monkey1VGA</h4>
 		<ul>
-			<li>Add roland music support</li>
 			<li>Add music and sound effects support for Amiga version</li>
 			<li><i>Ask: MadMoose, Fingolfin</i></li>
 		</ul>
 		<li><h4>Monkey2</h4>
 		<ul>
-			<li>Fix graphic glitches in Amiga version</li>
-			<li>Add sound effects support for Amiga version</li>
+			<li>Fix palette problems in Amiga version</li>
 			<li>The demo version crashes after Lucasarts logo</li>
 		</ul>
 		<li><h4>Zak256</h4>
@@ -96,7 +92,6 @@
 		</ul>
 		<li><h4>Loom EGA</h4>
 		<ul>
-			<li>Add roland music support</li>
 			<li>Make distaff save/restore correctly</li>
 			<li>Add music and sound effect looping support for Amiga version</li>
 		</ul>
