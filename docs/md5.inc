@@ -18,7 +18,8 @@
 		<?php addEntry("FmTowns", "FmTowns", "en", "2d4536a56e01da4b02eb021e7770afa2", "zak", ""); ?>
 		<?php addEntry("FmTowns", "FmTowns", "jp", "ce3edc99cd4f478c5b37104d70c68ca5", "zak", "khalek"); ?>
 	<tr><td colspan='7'><strong>Indiana Jones and the Last Crusade</strong></td></tr>
-		<?php addEntry("EGA", "DOS", "en", "5fbe557049892eb4b709d90916ec97ca", "indy3EGA", ""); ?>
+		<?php addEntry("EGA (1.0 7/09/89)", "DOS", "en", "5fbe557049892eb4b709d90916ec97ca", "indy3EGA", ""); ?>
+		<?php addEntry("EGA (1.3 8/14/89)", "DOS", "en", "6b3ec67da214f558dc5ceaa2acd47453", "indy3EGA", "tsuteiuQ"); ?>
 		<?php addEntry("EGA", "Mac", "en", "1dd7aa088e09f96d06818aa9a9deabe0", "indy3EGA", ""); ?>
 		<?php addEntry("EGA", "DOS", "de", "6f6ef668c608c7f534fea6e6d3878dde", "indy3EGA", "dhewg"); ?>
 		<?php addEntry("EGA", "Amiga", "en", "9c0fee288ad564a7d25ec3e841810d79", "indy3EGA", "dhewg"); ?>
@@ -117,7 +118,7 @@
 		<?php addEntry("Demo", "Mac", "en", "f40a7f495f59188ca57a9d1d50301bb6", "puttdemo", "khalek"); ?>
 		<?php addEntry("-", "DOS", "en", "9708cf716ed8bcc9ff3fcfc69413b746", "puttputt", "khalek"); ?>
 		<?php addEntry("-", "Windows", "en", "6a30a07f353a75cdc602db27d73e1b42", "puttputt", "khalek"); ?>
-		<?php addEntry("-", "Mac", "en", "684732efb5799c0f78804c99d8de9aba", "Putt-Putt Parade", "khalek"); ?>
+		<?php addEntry("-", "Mac", "en", "684732efb5799c0f78804c99d8de9aba", "TODO", "khalek"); ?>
 		<?php addEntry("-", "3DO", "en", "7e151c17adf624f1966c8fc5827c95e9", "puttputt", "khalek"); ?>
 	<tr><td colspan='7'><strong>Putt-Putt Goes To The Moon</strong></td></tr>
 		<?php addEntry("Demo", "DOS", "en", "aa6a91b7f6f119d1b7b1f2a4c9e24d59", "moondemo", ""); ?>
@@ -137,7 +138,7 @@
 		<?php addEntry("Demo", "DOS", "en", "0ac41e2e3d2174e5a042a6b565328dba", "TODO", ""); ?>
 	<tr><td colspan='7'><strong>Putt-Putt Saves the Zoo</strong></td></tr>
 		<?php addEntry("-", "DOS", "nl", "c3b22fa4654bb580b20325ebf4174841", "TODO", ""); ?>
-		<?php addEntry("-", "Mac", "en", "58fdf4c7ad13540a734e18f8584cad89", "Putt-Putt Saves the Zoo", "khalek"); ?>
+		<?php addEntry("-", "Mac", "en", "58fdf4c7ad13540a734e18f8584cad89", "TODO", "khalek"); ?>
 		<?php addEntry("Demo", "DOS", "en", "1005456bfe351c1b679e1ff2dc2849e9", "puttzoo", "khalek"); ?>
 		<?php addEntry("Demo", "DOS", "en", "f3d55aea441e260e9e9c7d2a187097e0", "zoodemo", "khalek"); ?>
 		<?php addEntry("Demo", "DOS", "en", "de4efb910210736813c9a1185384bace", "zoodemo", "khalek"); ?>
@@ -145,7 +146,7 @@
 	<tr><td colspan='7'><strong>Fatty Bears Birthday Surprise</strong></td></tr>
 		<?php addEntry("Demo", "DOS", "en", "47e75b1bdcb44c78cb94883d1731ccf8", "fbdemo", "khalek"); ?>
 		<?php addEntry("Demo", "Windows", "en", "22c9eb04455440131ffc157aeb8d40a8", "fbdemo", "khalek"); ?>
-		<?php addEntry("Demo", "Mac", "en", "6df20c50c1ab19799de9be7ae7716881", "Fatty Bear Demo", "khalek"); ?>
+		<?php addEntry("Demo", "Mac", "en", "6df20c50c1ab19799de9be7ae7716881", "TODO", "khalek"); ?>
 		<?php addEntry("-", "DOS", "en", "3824e60cdf639d22f6df92a03dc4b131", "fbear", "khalek"); ?>
 		<?php addEntry("-", "Windows", "en", "179879b6e35c1ead0d93aab26db0951b", "fbear", "khalek"); ?>
 		<?php addEntry("-", "Mac", "en", "df6ead57930488bc61e6e41901d0e97", "fbear", "khalek"); ?>
