@@ -21,32 +21,37 @@ echo html_round_frame_start("Downloads","98%","",20);
 
 ?>
 	<p>
-	  <big><b>Downloads for ScummVM version: 0.1.0</b></big><br>
+	  <big><b>Downloads for ScummVM</b> ver: 0.1.0</big><br>
 	  <? echo html_line(); ?>
 	</p>
 
 	<p>
 	  Downloads are hosted with SourceForge.net. If you have one of the supported systems, you can directly download
-	  the appropriate binary distribution. If you have another system, download the source and read the readme.txt
+	  the appropriate binary distribution. If you have another system, download the source and read the
+	  <a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/scummvm/scummvm/readme.txt?rev=1.11">readme.txt</a>
 	  file for directions on how to build ScummVM.<br><br>
 
 	  If you have successfully ported ScummVM to a platform not listed, please drop us a note, telling which OS, etc.
 	  you used.<br><br>
- 
-	  You can also get the latest development source and binaries from the <a href="http://scummvm.sourceforge.net/daily/">CVS Daily Snapshot</a>
-	  page. To quickly get the binary executable from that page, download the .gz from the column of the OS you use. Then
-	  simply rename the file to it&#146;s executable form.<br>
-	  For example on Win32: rename scummvm-20020122_stripped.gz scummvm.exe<br><br>
-	  
-	  Note: For Windows you wil need cygwin1.dll and SDL.dll, you can get them in our official binary release below. Or from the libraries
-	  links at the bottom of this page.
+<? 
+//	  You can also get the latest development source and binaries from the <a href="http://scummvm.sourceforge.net/daily/">CVS Daily Snapshot</a>
+//	  page. To quickly get the binary executable from that page, download the .gz from the column of the OS you use. Then
+//	  simply rename the file to it&#146;s executable form.<br>
+//	  For example on Win32: rename scummvm-20020122_stripped.gz scummvm.exe<br><br>
+?>	  
 	</p>
 
 	<p>
-	  <b>Pre-compiled binaries:</b>
+	  <b>Daily CVS Builds</b>
+	  <ul>
+	    <li><a href="http://scummvm.sourceforge.net/downloads/scummvmwin32.exe">Win32 Daily Snapshot</a> <small>(246K exe file) </small></li>	  
+	  </ul>
+	</p>
+	
+	<p>
+ 	  <b>0.1.0 Release binaries:</b>
 	  <ul>
 	    <li><a href="http://scummvm.sourceforge.net/downloads/scummvm-0.1.0-win32.zip">Win32 Official 0.1.0 Build</a> <small>(478K zip file) </small></li>
-	    <li><a href="http://scummvm.sourceforge.net/downloads/scummvmwin32.exe">Win32 Daily Snapshot</a> <small>(246K exe file) </small></li>
 	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.1.0-win32.exe">Win32 0.1.0 GDI Build</a> <small>(240K exe file) </small></li>
 	    <li><a href="http://www.doc.ic.ac.uk/~mbt99/dcdev/">Dreamcast</a> port by Mark Thomas.</li>
 	    <li>more builds (e.g. MacOS) coming soon....</li>
@@ -54,15 +59,14 @@ echo html_round_frame_start("Downloads","98%","",20);
 	</p>
 	
 	<p>
-	  <b>Source Code:</b>
+	  <b>0.1.0 Source Code:</b>
 	  <ul>
 	    <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.1.0b.zip">zip</a> <small>(184k zip file)</small></li>
-	    <li><a href="http://scummvm.sourceforge.net/daily/">CVS Daily Snapshot</a></li>
 	  </ul>
 	</p>
 	
 	<p>
-	  <b>Libraries:</b>
+	  <b>Required Libraries:</b>
 	  <ul>
 	    <li><a href="http://www.libsdl.org/download-1.2.html">SDL 1.2.x</a></li>
 	    <li><a href="http://sources.redhat.com/cygwin/">Cygwin DLL</a> (Needed for Win32 CVS Only)</li>
