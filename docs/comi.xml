@@ -23,7 +23,7 @@
 	</ul>
 <li>Graphics:
 	<ul>
-		<li>Some text does not undraw correctly, again leaving behind artifacts (eg, conversation text, credits)
+		<li>Some text does not undraw correctly, again leaving behind artifacts (eg, conversation text)
 		<li>Masking artifacts. See many animations, eg during insult sword fighting
 	</ul>
 <li>Actor:
@@ -33,7 +33,7 @@
 		frames of his 'throw hook' and 'standing at cannon' animation
 		<li>Lack of MouthSync and MusicMouthSync stuff causes odd actor speech animations 
 		(CVS hacked to generate random values... it's wrong, it's not synced, but it look better than nothing)
-		<li>Dinghy dog shrinks size after he bites you, use boot param 1000 to test
+		<li>Dinghy dog shrinks size after he bites you, use boot param 1000 to test. This also happens in Stans office (Stan shrinks)
 	</ul>
 </ul>
 
