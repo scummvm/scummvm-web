@@ -197,7 +197,7 @@ echo html_round_frame_start("Contact","98%","",20);
 	  </tr>
 
       <tr>
-	    <td>Jimmi Thogersen</td>
+	    <td>Jimmi Th&oslash;gersen</td>
 	    <td></td>
 	    <td>- For ScummRev, and much obscure code/documentation</td>
 	  </tr>
