@@ -141,3 +141,6 @@ TABLE.list TD {
         font-size: smaller;
 }
 
+/* no borders for images */
+img { border: 0px; }
+
