@@ -20,6 +20,8 @@ echo html_round_frame_start("Press Coverage","");
 
 ?>
 <h1>ScummVM press coverage</h1>
+<center><small>(If you wish to contact us in regards to media articles, please e-mail press 
+(@) scummvm.org)</small></center>
 
 	<p><a href="http://www.newsforge.com/article.pl?sid=03/10/07/1527227&mode=thread&tid=22"
 	   ><b>Bringing old adventure games back to life</b></a>, NewsForge, October 8, 2003
