@@ -25,7 +25,7 @@ echo html_round_frame_start("Screenshots","98%","",20);
 
 
 // if in single view
-if ($view)
+if ($view != "")
 {
 	if (!is_numeric($view))
 	{
