@@ -131,10 +131,8 @@ $notes = array(
 		   "<br>- Indiana may be able to walk in odd places, in some rooms",
 "indy3towns"    => "Game is completable." .
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
-		   "<br>- FM based Euphony tunes not yet supported so three music sections won't be heard".
                    "<br>- Kanji version isn't supported yet",
 "zak256"        => "Game is completable.".
-		   "<br>- FM based Euphony tunes not yet supported so kazoo won't be heard".
                    "<br>- Kanji version isn't supported yet",
 "loom"		=> "Game is completable".
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
@@ -147,7 +145,6 @@ $notes = array(
 		   "<br>- Fades are seemingly different to other versions in some cases".
 		   "<br>- Text palette sometimes incorrect".
 		   "<br>- Distaff occasionally pink...".
-		   "<br>- FM based Euphony tunes not yet supported so notes won't be heard".
 		   "<br>- Difficulty select is via boot param:".
 
 		   "<ul><li>0 practice (default)".
