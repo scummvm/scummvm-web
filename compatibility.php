@@ -234,7 +234,7 @@ $notes = array(
 		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
 "sword2"	 => "Game is still in progress, results may vary".
 		   "<br>- No anti-aliasing".
-		   "<br>- No music, sound or speech",
+		   "<br>- No music, sound effects",
 "simon1win" 	=> "No known problems - game is completable.",
 "simon1talkie" 	=> "Game is completable.".
                     "<br>- No inventory scrolling arrows shown, can still move around inventory though",
