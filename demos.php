@@ -25,9 +25,9 @@ echo html_round_frame_start("Game Demos","");
 	  This page lists some links to demos of various games, that in general don't work as well as the
 	  full versions. Full Throttle, The Dig, and the Curse of Monkey Island in particular.<br><br>
 	  Do not file bug reports against these demos as they aren't supported games.<br><br>
-	  Please contact us if you have a copy of a demo not listed here, Beneath A Steel Sky demos aren't
-	  going to be supported for technical reasons and newer Humongous Entertainment titles aren't yet being
-	  listed<br><br>
+	  Please contact us if you have a copy of a demo not listed here, Beneath A Steel Sky demos and 
+	  the Broken Sword 1 demo aren't going to be supported for technical reasons and newer Humongous 
+	  Entertainment titles aren't yet being listed<br><br>
 	  Demos without functional download links are denoted by a * character.<br>
           <br><br>
 	</p>
@@ -99,8 +99,6 @@ $demos = array(
 		=> array('http://quick.mixnmojo.com/demos/simondemo_acorn.rar', 'simon1acorn'),
 	'Simon the Sorcerer 2 Talkie (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/simon2demo.zip', 'simon2talkie'),
-	'Broken Sword I*'
-		=> array('', 'sword1'),
 	'Broken Sword II'
 		=> array('http://ftp.se.kde.org/pub/pc/games/pcgameworld/demos/bs2-demo.zip', 'sword2demo'),
 	'Flight of the Amazon Queen (Datafile only)'
