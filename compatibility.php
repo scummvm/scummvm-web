@@ -60,11 +60,11 @@ $games = array(
 		'Zak McKracken and the Alien Mindbenders'		=> array('2','zak','5'),
 		'Indiana Jones and the Last Crusade'			=> array('2','indy3ega','50'),
 		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','80'),
-                'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','85'),
-		'Loom'							=> array('3','loom','20'),
+		'Zak McKracken and the Alien Mindbenders (256 - FmTowns)' => array('3','zak256','85'),
+		'Loom'							=> array('3','loom','80'),
 		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','80'),
 		'Passport to Adventure (Indy3, Monkey and Loom demos)'  => array('4','pass','50'),
-                'Loom (256 color CD version)'                           => array('5','loomcd','90'),
+		'Loom (256 color CD version)'                           => array('5','loomcd','90'),
 		'The Secret of Monkey Island (VGA Floppy)'		=> array('5','monkeyvga','90'),
 		'The Secret of Monkey Island (VGA CD)'			=> array('5','monkey','95'),
 		'Monkey Island 2: LeChuck\'s revenge'			=> array('5','monkey2','95'),
@@ -80,10 +80,10 @@ $games = array(
 		'Fatty Bears Fun Pack'					=> array('6','fbpack','20'),
 		'Day Of The Tentacle'					=> array('6','tentacle','95'),
 		'Day Of The Tentacle (Demo)'				=> array('6','dottdemo','95'),
-                'Sam & Max'                                             => array('6','samnmax','93'),
+		'Sam & Max'                                             => array('6','samnmax','93'),
 		'Sam & Max (Demo)'					=> array('6','samdemo','95'),
 		'Full Throttle'						=> array('7','ft','75'),
-                'The Dig'                                               => array('7','dig','85'),
+		'The Dig'                                               => array('7','dig','85'),
 		'Curse of Monkey Island'				=> array('8','comi','80'),
 		'Beneath a Steel Sky'			       		=> array('n/a','sky','5'),
 		'Simon The Sorcerer 1 Talkie (Win)'       		=> array('n/a','simon1win','85'),
@@ -112,7 +112,7 @@ $notes = array(
                    "<br>- No music looping",
 "zak256"        => "Game is completable." .
                    "<br>- No sound effect looping" ,
-"loom"		=> "At least partly playable".
+"loom"		=> "Game is completable".
                    "<br>- No music or sound effects",
 "monkeyega"	=> "Game is completable".
                    "<br>- No sound effects".
