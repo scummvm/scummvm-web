@@ -108,8 +108,6 @@ echo html_round_frame_start("Download ScummVM","");
 		have older versions around, for your convenience.
 	</p>
 	<ul>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.6.1b-0woody1_i386.deb?download">0.6.1b Debian Stable (woody) package</a> <small>(1.1M .deb)</small></li>
-
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-slack-i386-1.tgz?download">0.6.0 SlackWare package</a> <small>(1.2M .tgz)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.6.0-dreamcast-nero+demos.zip?download">0.6.0 Dreamcast Nero Image &amp; Demos</a> <small>(3.7M zipfile)</small></li>
 
