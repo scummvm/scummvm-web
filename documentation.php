@@ -24,11 +24,10 @@ if ($view and file_exists($file_root."/docs/".$view.".xml"))
 {
 	// First extract the body from the XML file
 	$html = display_xml($file_root."/docs/".$view.".xml",'BODY');
-	// Now evaluate any PHP code embded into it
-	$html = eval("?>" . $html . "<?php ");
-	
-	// Finally disply the result
-    echo html_frame_tr(html_frame_td($html . html_p()));
+	// Now evaluate any PHP code embedded into it, and output the result
+	echo '<tr valign="top" class="color2"><td>';
+	echo eval("?>" . $html . "<?php ");
+	echo "</td></tr>";
 }
 else
 {
