@@ -171,34 +171,28 @@ $notes = array(
 "playfate"	=> "No known issues, game is completable.",
 "puttdemo"	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target".
-		   "<br>- No music with Windows version".
 		   "<br>- Cursors aren't scaled correctly in Windows version",
 "puttputt"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS and Windows versions supported by this target".
                    "<br>- Minor graphical glitches when cars come out of their garages on streets".
-		   "<br>- No music with Windows version".
 		   "<br>- Cursors aren't scaled correctly in Windows version",
 "puttmoon"	=> "Fails an AKOS related assertion shortly after starting".
 		   "<br>- 3DO, DOS and Windows versions supported by this target".
 		   "<br>- Fails AKOS related assertion in three locations".
-		   "<br>- No music with Windows version".
 		   "<br>- Cursors aren't scaled correctly in Windows version",
 "moondemo"	=> "Completable if you don't trigger one fatal animation".
 		   "<br>- Both DOS and Windows versions supported by this target".
 		   "<br>- Creature behind garage door disappears".
-		   "<br>- No music with Windows version".
 		   "<br>- Cursors are scaled correctly in Windows version",
 "funpack"	=> "Starts but mini games seem to have various problems".
 		   "<br>- Both 3DO and DOS versions supported by this target".
 		   "<br>- Cheese King: Triggers an assertion",
 "fbdemo"	=> "Should be playable to the end".
 		   "<br>- Both DOS and Windows versions supported by this target".
-		   "<br>- No music in Windows version".
 		   "<br>- Cursors aren't scaled correctly in Windows version",
 "fbear"		=> "Game should be completable, with several glitches".
 		   "<br>- 3DO, DOS and Windows versions supported by this target".
 		   "<br>- Piano sounds aren't correct pitch and several sound effects are missing".
-		   "<br>- No music with Windows version".
 		   "<br>- Cursors aren't scaled correctly",
 "fbpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
