@@ -12,7 +12,7 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("ScummVM :: Compatibility - 0.6.0");
+html_header("ScummVM :: Compatibility - 0.6.1");
 sidebar_start();
 
 //display welcome table
@@ -34,7 +34,7 @@ else {
 
           <br><br>Please note this list applies to the English versions of games, we attempt to test many versions of games, however there are occasionally
            problems with other languages.
-          Also, this is the compatability of the 0.6.0 stable release, <B>not of CVS
+          Also, this is the compatability of the 0.6.1 stable release, <B>not of CVS
           snapshots/daily builds</B>. The status of these can be found on the <a
           href="compatibility.php">CVS Compatibility</A> chart.
           <br><br>
@@ -76,19 +76,19 @@ $games = array(
 		'Monkey Island 2: LeChuck\'s revenge (DOS Demo)'	=> array('5','mi2demo','10'),
 		'Indiana Jones 4 and the Fate of Atlantis'		=> array('5','atlantis','95'),
 		'Indiana Jones 4 and the Fate of Atlantis (Demo)'	=> array('5','playfate','95'),
-		'Putt-Putt Joins The Parade (DOS Demo)'			=> array('6','puttdemo','75'),
+		'Putt-Putt Joins The Parade (DOS Demo)'			=> array('6','puttdemo','95'),
 		'Putt-Putt Joins The Parade (DOS)'			=> array('6','puttputt','80'),
 		'Putt-Putt Goes To The Moon (DOS Demo)'			=> array('6','moondemo','60'),
 		'Putt-Putt Goes To The Moon (DOS)'			=> array('6','puttmoon','20'),
-		'Putt-Putts Fun Pack'					=> array('6','funpack','50'),
+		'Putt-Putts Fun Pack'					=> array('6','funpack','70'),
 		'Fatty Bears Birthday Surprise (DOS Demo)'		=> array('6','fbdemo','95'),
-		'Fatty Bears Birthday Surprise (DOS)'			=> array('6','fbear','70'),
-		'Fatty Bears Fun Pack'					=> array('6','fbpack','50'),
+		'Fatty Bears Birthday Surprise (DOS)'			=> array('6','fbear','80'),
+		'Fatty Bears Fun Pack'					=> array('6','fbpack','95'),
 		'Day Of The Tentacle'					=> array('6','tentacle','95'),
 		'Day Of The Tentacle (Demo)'				=> array('6','dottdemo','95'),
 		'Sam & Max'                                             => array('6','samnmax','93'),
 		'Sam & Max (Demo)'					=> array('6','samdemo','95'),
-		'Full Throttle'						=> array('7','ft','80'),
+		'Full Throttle'						=> array('7','ft','85'),
 		'The Dig'                                               => array('7','dig','85'),
 		'Curse of Monkey Island'				=> array('8','comi','80'),
 		'Beneath a Steel Sky'			       		=> array('n/a','sky','90'),
@@ -131,7 +131,6 @@ $notes = array(
                    "<br>- Kanji version isn't supported",
 "loom"		=> "No known problems - should be playable to the end".
 		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
-		   "<br>- Mac version crashes after copy protection screen".
 		   "<br>- No music or sound effects with Mac version".
 		   "<br>- Atari ST and Mac versions require pcjr or pcspk music driver".
 		   "<br>- MIDI support requires the Roland update from LucasArts",
@@ -171,8 +170,7 @@ $notes = array(
 		   "<br>- Various graphical glitches with Amiga version".
                    "<br>- Kanji version requires the FM Towns Font ROM",
 "playfate"	=> "No known problems - should be playable to the end",
-"puttdemo"	=> "Should be playable to the end".
-		   "<br>- Some sound effects missing",
+"puttdemo"	=> "No known issues, game is completable.",
 "puttputt"	=> "Game should be completable".
                    "<br>- Minor graphical glitches when cars come out of their garages on streets",
 "puttmoon"	=> "Fails an AKOS related assertion shortly after starting".
@@ -180,17 +178,11 @@ $notes = array(
 "moondemo"	=> "Completable if you don't trigger one fatal animation".
 		   "<br>- Creature behind garage door dissappears",
 "funpack"	=> "Starts but mini games seem to have various problems".
-		   "<br>- Checkers: The checkers have some graphical glitches (actorOps case 218)".
-		   "<br>- Cheese King: Triggers an assertion".
-		   "<br>- Pinball/Remember/Tic-Tac-Toe/Puzzle blocks: Works",
-"fbdemo"	=> "Should be playable to the end",
-"fbear"		=> "Game should be completable, with several glitches".
-		   "<br>- Decorations on birthday cake aren't remembered".
+		   "<br>- Cheese King: Triggers an assertion",
+"fbdemo"	=> "No known issues, game is completable.",
+"fbear"		=> "Game is completable, with minor glitches".
 		   "<br>- Piano sounds aren't correct pitch and several sound effects are missing",
-"fbpack"	=> "Game starts but various minigames have different problems".
-		   "<br>- Reversi/Go Fish/Lines and Boxes: o6_actorOps: case 218 graphics glitches".
-		   "<br>- Coloring: Painting has no effect".
-		   "<br>- Tangrams: Can only use central tangram piece",
+"fbpack"	=> "No known issues, game is completable.",
 "tentacle"	=> "No known problems - should be playable to the end".
 		   "<br>- Both Mac and PC versions supported by this target".
 		   "<br>- Both disk and cd versions are supported by this target".
@@ -201,11 +193,9 @@ $notes = array(
 		   "<br>- Both disk and cd versions are supported by this target".
                    "<br>- Highway subgame doesn't behave correctly",
 "samdemo"	=> "No known problems - should be playable to the end",
-"ft"		=> "Game is completable to the end, but with several glitches".
-		   "<br>- Both Mac and PC versions supported by this target".
-	 	   "<br>- Music is not continuous, and may pause, restart, and otherwise act oddly".
-		   "<br>- SMUSH audio (movie cutscenes) is a lot quieter than in-game voice, which is abnormally loud",
-"dig"		=> "Game is fully completable, with some minor sound issues".
+"ft"		=> "Game is completable, with minor glitches".
+		   "<br>- Both Mac and PC versions supported by this target",
+"dig"		=> "Game is completable, with minor glitches".
 		   "<br>- Both Mac and PC versions supported by this target",
 "comi"		=> "Game is fully completable, although ship-to-ship combat is broken and several graphical glitches are present",
 "sky"	 	=> "Game is completable".

@@ -158,7 +158,6 @@ $notes = array(
 		   "<br>- Dialogue choices can be selected with 6 (up) 7 (down) or mousewheel, with mouse button or number to select",
 "monkey2"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, FM Towns, Mac and PC versions supported by this target".
-		   "<br>- Various graphical glitches with Amiga version".
                    "<br>- Kanji version requires the FM Towns Font ROM",
 "mi2demo"	=> "Often crashes due to missing resources, since it was never meant to be playable".
 		   "<br>- No support for playing back the recorded file of gameplay",
@@ -166,7 +165,6 @@ $notes = array(
 		   "<br>- Amiga, FM Towns, Mac and PC versions supported by this target".
 		   "<br>- Both disk and cd PC versions are supported by this target".
 		   "<br>- Music loud on some systems, run with -m30 to lower music volume.".
-		   "<br>- Various graphical glitches with Amiga version".
                    "<br>- Kanji version requires the FM Towns Font ROM",
 "playfate"	=> "No known issues, game is completable.",
 "puttdemo"	=> "No known issues, game is completable.".
