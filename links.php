@@ -26,7 +26,7 @@ echo html_round_frame_start("Links","98%","",20);
 	
 	<p>
 	  The following are links to other classic game engine open source projects similar
-	  to ScummVM.<br>
+	  to ScummVM.
 	</p>
 
 	<p>
@@ -61,7 +61,7 @@ echo html_round_frame_start("Links","98%","",20);
 	  </ul>
 	</p>
 
-<p>
+	<p>
       <a href="http://zak256.sourceforge.net/"><b>Zak256 :: The Zak256 Project</b></a>
 	  <ul>
 	    The ZakMcKracken and the Alien Mindbenders in 256 colors project. This project is
@@ -74,6 +74,21 @@ echo html_round_frame_start("Links","98%","",20);
       <a href="http://sourceforge.net/sendmessage.php?touser=339357" target="_blank">Let me know!</a>
     </p>
 
+	<p>
+      <a href="http://www.cowlark.com/scumm/"><b>The inCompleat SCUMM Reference Guide</b></a>
+	  <ul>
+	    Information on the file format used by SCUMM five and six.
+	  </ul>
+	</p>
+    
+	<p>
+      <a href="http://scummrev.mixnmojo.com/"><b>SCUMM Revisited</b></a>
+	  <ul>
+	    Windows viewer for SCUMM data files. The website also has information on the 
+	    file formats used by the various SCUMM versions.
+	  </ul>
+	</p>
+    
 	<div align=center>
 	<table with=300 border=0><tr><td>
 	  <img src="images/scummvm-link.png" border=0 width=88 height=31 alt="ScummVM" align=left>
