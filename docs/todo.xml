@@ -39,13 +39,14 @@
 		<h2>Upcoming milestones</h2>
 		<p>Note that the following list is in no way set to stone and can be modified in the future.</p>
 		<ul>
-		<li> 0.3.0: All supported games next to bug free; new GUI used instead of old GUI; launcher dialog implemented; The Dig fully supported</li>
-		<li> 0.4.0: New save game system</li>
-		<li> 0.4.5: Indiana Jones and The Last Crusade supported, more bugfixes</li>
-		<li> 0.5.0: Full Throttle supported, basic CMI and Maniac Mansion support</li>
+		<li> 0.3.0: All supported games next to bug free; new GUI used instead of old GUI; launcher dialog implemented; The Dig fully supported, initial support for Indiana Jones and the Last Crusade (VGA)</li>
+		<li> 0.3.5: Music and Sound effects in Indy3Vga</li>
+		<li> 0.4.0: New save game system, Full Throttle supported</li>
+		<li> 0.4.5: More bugfixes</li>
+		<li> 0.5.0: Monkey1-EGA supported, basic CMI and Maniac Mansion/Zak/Loom16/Indy3Ega support</li>
 		<li> 0.6.0: More work on CMI, MM and further bugfixes</li>
-		<li> 0.7.0: Maniac Mansion completable, Zak McCracken and Loom16 playable</li>
-		<li> 0.8.0: Zak McCracken and Loom16 completable</li>
+		<li> 0.7.0: Maniac Mansion completable, also Zak McCracken, LoomEga and Indy3Ega playable</li>
+		<li> 0.8.0: Zak McCracken, LoomEga, Indy3Ega and Monkey1-EGA completable</li>
 		<li> 0.9.0: Bugfixes and CMI completable</li>
 		<li> 1.0.0: The end of the beginning</li>
 		</ul>
@@ -116,13 +117,11 @@
 		<ul>
 			<li><h4>The DIG</h4>
 			<ul>
-				<li>Graphic and logic problems</li>
-				<li>Game crashes at various points, due to vertical scrolling and unsupported features</li>
+				<li>Apparant memory corruption issues (random crashes)</li>
 				<li>Walkscript misbehaves (currently bypassed in CVS)</li>
-				<li>No in-game music</li>
-				<li>Some animations play incorrectly</li>
+				<li>Some in-game music issues</li>
 				<li>See also the <a href="../compatibility.php?details=dig">compatibility page for The DIG</a></li>
-				<li><i>Ask: Yazoo, Ender</i></li>
+				<li><i>Ask: Ender</i></li>
 			</ul>
 			<li><h4>Monkey1VGA</h4>
 			<ul>
@@ -131,39 +130,26 @@
 			</ul>
 			<li><h4>Zak256</h4>
 			<ul>
-				<li>Incomplete music and sound effect support (Ender can help you get effects done)</li>
+				<li>Incomplete sound effect support</li>
+				<li>Several small bugs (see bug list)</li>
 				<li><i>Ask: Ender</i></li>
 			</ul>
 			<li><h4>Full Throttle</h4>
 			<ul>
-				<li>Doesn't handle virtual rooms/resources properly
-				<li>From the <a href="../compatibility.php?details=ft">compatibility page for Full Throttle</a>
-				<ul>
-					<li>Game crashes at various points, due to missing SCUMM opcodes</li>
-					<li>Some palette glitches during movie playback</li>
-					<li>Some in-game music not working</li>
-					<li>Some animations play incorrectly</li>
-				</ul>
-				<li><i>Ask: Yazoo, khalek</i></li>
-			</ul>
-			<li><h4>Sam and Max</h4>
-			<ul>
-				<li>There is something wrong with the object layering (see <a href="http://sourceforge.net/tracker/index.php?func=detail&aid=556498&group_id=37116&atid=418820">#556498</a>)</li>
-				<li>iMuse needs work</li>
-				<li><i>Ask: Ender</i></li>
+				<li>INSANE supported required</li>
+				<li><i>Ask: Ender, aquadran</i></li>
 			</ul>
 			<li><h4>Indiana Jones and The Last Crusade</h4>
 			<ul>
-				<li>Many issues in here right from the start</li>
-				<li>Sometimes actors are drawing incomplete (e.g. the head is often missing)</li>
-				<li>Indy often refuses to follow clicks immediately, telling the player that he couldn't reach the target.
-				Clicking again several times usually helps (this might be caused by the Indy3 walkboxes not always being connected?!?)</li>
-				<li><i>Ask: ???</i></li>
+				<li>Fix music support, add sound support</li>
+				<li>Correct random walkbox issues</li>
+				<li>Correctly fix 'missing head' issue (see fixme in actor.cpp)</li>
+				<li><i>Ask: Ender</i></li>
 			</ul>
 			<li><h4>Simon</h4>
 			<ul>
 				<li>There are many open bugs for Simon, we really need somebody who can take over maintaining the Simon part of ScummVM</li>
-				<li><i>Ask: ???</i></li>
+				<li><i>Ask: olki, Kirben</i></li>
 			</ul>
 		</ul>
 </BODY>
