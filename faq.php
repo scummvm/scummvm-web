@@ -139,8 +139,8 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","98%","",20);
       <li><p><a name="1-8"></a><b>On what platform does ScummVM run?</b><br>
 	ScummVM should be able to be compiled on any SDL platform, with just small modifications.<br>
 	Currently tested platforms are Win32 (Windows 9x/ME/NT/2000), Linux i386 and PPC, BeOS, Solaris,
-	Mac OS X, Dreamcast, MorphOS, IRIX, PalmOS and WinCE. It is also part of the FreeBSD
-	ports collection and included in Debian testing and unstable</p></li>
+	Mac OS X, Dreamcast, MorphOS, IRIX, PalmOS and WinCE. It is also part of the Free/Net/Open BSD
+	ports collections and included in Debian testing and unstable</p></li>
 
       <li><p><a name="1-9"></a><b>Does ScummVM run any non-SCUMM games?</b><br>
         Yes. Currently the only non-SCUMM games supported are Simon The Sorcerer (1 and 2), 
