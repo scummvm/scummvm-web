@@ -87,7 +87,9 @@ $demos = array(
 	'Beneath A Steel Sky (disk version demo)'
 		=> array('', 'sky'),
 	'Beneath A Steel Sky (talkie cd version demo)'
-		=> array('', 'sky')
+		=> array('', 'sky'),
+	'Broken Sword II'
+		=> array('http://ftp.se.kde.org/pub/pc/games/pcgameworld/demos/bs2-demo.zip', 'sword2demo')
 	);
 
 // render the demo list
