@@ -183,15 +183,16 @@ $notes = array(
 "moondemo"	=> "Completable if you don't trigger one fatal animation".
 		   "<br>- Creature behind garage door dissappears",
 "funpack"	=> "Starts but mini games seem to have various problems".
-		   "<br>- Checkers: The checkers keep disappearing".
-		   "<br>- Puzzle blocks/Cheese King: Triggers an assertion".
-		   "<br>- Pinball/Remember/Tic-Tac-Toe: Works",
+		   "<br>- Checkers: The checkers have some graphical glitches (actorOps case 218)".
+		   "<br>- Cheese King: Triggers an assertion".
+		   "<br>- Pinball/Remember/Tic-Tac-Toe/Puzzle blocks: Works",
 "fbdemo"	=> "Should be playable to the end",
 "fbear"		=> "Playable up to ending sequence, not completable".
 		   "<br>- Fails an array related assertion during ending sequence".
+		   "<br>- Wrong colourkey used for akos animations in laundry".
 		   "<br>- Decorations on birthday cake aren't remembered",
 "fbpack"	=> "Game starts but various minigames have different problems".
-		   "<br>- Reversi/Go Fish/Lines and Boxes: o6_actorOps: default case 218".
+		   "<br>- Reversi/Go Fish/Lines and Boxes: o6_actorOps: case 218 graphics glitches".
 		   "<br>- Coloring: Painting has no effect".
 		   "<br>- Tangrams: Error(5:210:0x9BA2): Invalid opcode 'e9' (seekFile)",
 "tentacle"	=> "No known problems - should be playable to the end".
