@@ -67,16 +67,17 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
       <li><a href="#4-3">I don't hear any sound.</a></li>
       <li><a href="#4-4">I don't hear any music.</a></li>
       <li><a href="#4-5">My game crashes at some point.</a></li>
-      <li><a href="#4-6">The game colors are messed up.</a></li>
-      <li><a href="#4-7">The characters in my non english game are messed up.</a></li>
-      <li><a href="#4-8">How do I make my mac version of a game work?</a></li>
-      <li><a href="#4-9">Reporting Bugs.</a></li>
+      <li><a href="#4-6">ScummVM crashes, but console window disappears too quick to see the error message.</a></li>
+      <li><a href="#4-7">The game colors are messed up.</a></li>
+      <li><a href="#4-8">The characters in my non english game are messed up.</a></li>
+      <li><a href="#4-9">How do I make my mac version of a game work?</a></li>
+      <li><a href="#4-10">Reporting Bugs.</a></li>
     </ol>
   </li>
 
   <li><a href="#5">Features</a>
     <ol>
-      <li><a href="5-1">Please, add support for zip archives.</a></li>
+      <li><a href="#5-1">Please, add support for zip archives.</a></li>
     </ol>
   </li>
 </ol>
@@ -253,7 +254,7 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
       	First make sure your game is supported. See <a href="#1-4">1.4</a>. If it is a supported game and you
 	have followed the instructions in
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a>
-	to the letter, then see <a href="#4-9">4.9</a> to report this as a bug.</p></li>
+	to the letter, then see <a href="#4-10">4.10</a> to report this as a bug.</p></li>
 	
       <li><p><a name="4-2"></a><b>I installed my game but ScummVM can't find it.</b><br>
       	First don't use install.exe or setup.exe shipped with the game. It will not work as 
@@ -272,14 +273,21 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
       
       <li><p><a name="4-5"></a><b>My game crashes at some point.</b><br>
       	Check the <a href="compatibility.php">Compatibility List</a> to see if your game has any known issues. If you can
-	reproduce this crash more than once, please report it to our Bug Tracker. See <a href="#4-9">4.9</a>.</p></li>
+	reproduce this crash more than once, please report it to our Bug Tracker. See <a href="#4-10">4.10</a>.</p></li>
       
-      <li><p><a name="4-6"></a><b>The game colors are messed up.</b><br>
+      <li><p><a name="4-6"></a><b>ScummVM crashes, but console window disappears too quick to see the error message.</b><br>
+	To make it visible you should run ScummVM from command line. To do that in Windows XP
+	&reg; use Start->Run->Command and type 'cmd.exe' without quotes. In older flavors of
+	Windows&reg; use command.com. Then type 'cd \\your\\path\\to\\scummvm' and run
+	scummvm from there.
+	    </p></li>
+
+      <li><p><a name="4-7"></a><b>The game colors are messed up.</b><br>
       	This is a known issue with using Amiga version datafiles. Select Amiga as a 
 	platform in the ScummVM Game Options dialog, or use the --platform=amiga command
 	line parameter to enable Amiga-specific code.</p></li>
       
-      <li><p><a name="4-7"></a><b>The characters in my non english game are messed up.</b><br>
+      <li><p><a name="4-8"></a><b>The characters in my non english game are messed up.</b><br>
       	You are most likely using a game such as Maniac Mansion or Zak McKracken if you have this problem. 
 	You need to specify a language in the ScummVM Game Options dialog, with the -q parameter or by
 	using the 'language' config file option.<BR>
@@ -287,16 +295,16 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 	<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD">README</a> 
 	or command line help for further information.</p></li>
       
-      <li><p><a name="4-8"></a><b>How do I make my mac version of a game work?</b><br>
+      <li><p><a name="4-9"></a><b>How do I make my mac version of a game work?</b><br>
       	The majority of mac versions won't work without first extracting the resources into a format ScummVM
 	understands.  To do this you need to use the rescumm tool in the scummvm-tools package.
 	An example usage might look like: <i>rescumm "Sam &amp; Max Demo Data"</i>.  Some CDs may appear to
 	only contain a application, in which case there is still a seperate data file but it is invisible.  
 	The older games which have LFL files should only need the platform set to 'macintosh' to
-	run. See <a href="#4-6">4.6</a> for information on specifying the game platform.
+	run. See <a href="#4-7">4.7</a> for information on specifying the game platform.
 </p></li>
       
-      <li><p><a name="4-9"></a><b>Reporting Bugs.</b><br>
+      <li><p><a name="4-10"></a><b>Reporting Bugs.</b><br>
       	To report a bug, please create a SourceForge account and follow the
 	<a href="http://sourceforge.net/tracker/?atid=418820&amp;group_id=37116&amp;func=browse">bugs</a>
 	link from our homepage. Please make sure the bug is reproducible, and 
