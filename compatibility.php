@@ -225,10 +225,8 @@ $notes = array(
 		   "<br>- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders".
 		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
 "sword1"	=> "Game is completable.".
-		   "<br>- Czech support is untested. If you have a czech version, please contact us.".
-		   "<br>- Smacker cutscenes are not supported",
-"sword2"	=> "Game is completable.".
-		   "<br>- Does not work on systems that require alignment (pending)",
+		   "<br>- Czech support is untested. If you have a czech version, please contact us.",
+"sword2"	=> "Game is completable.",
 "queen"		=> "Game should be completable, with several glitches".
                    "<br>- Various minor graphical glitches".
 		   "<br>- Requires <a href=\"http://0x.7fc1.org/fotaq/queen.tbl\">queen.tbl</a> resource file",
