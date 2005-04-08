@@ -141,7 +141,7 @@ $gamesHE = array(
 		'Putt-Putt and Pep\'s Dog on a Stick'					=> array('n/a','dog','50'),
 		'Putt-Putts Fun Pack'							=> array('n/a','funpack','95'),
 		'Spyfox 1: Dry Cereal (Demo)'						=> array('n/a','spydemo','80'),
-		'Spyfox 1: Dry Cereal'							=> array('n/a','spyfox','20'),
+		'Spyfox 1: Dry Cereal'							=> array('n/a','spyfox','80'),
 		'Spyfox 2: Some Assembly Required (Demo)'				=> array('n/a','sf2-demo','20'),
 		'Spyfox 2: Some Assembly Required'					=> array('n/a','spyfox2','20'),
 		'Spyfox 3: Operation Ozone (Demo)'					=> array('n/a','sf3-demo','80'),
@@ -169,7 +169,8 @@ $gamesOther = array(
 
 $notes = array(
 "maniac"	=> "No known issues, game is completable.".
-		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target",
+		   "<br>- Amiga, Atari ST, Mac, NES and PC versions supported by this target".
+		   "<br>- NES version playable but not completable",
 "zak"		=> "No known issues, game is completable.".
 		   "<br>- Amiga, Atari ST and PC versions supported by this target".
 		   "<br>- Some sound effects buggy or missing in Amiga version",
@@ -335,8 +336,8 @@ $notes = array(
 		   "<br>- Both 3DO and DOS versions supported by this target",
 "spydemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Minor graphical glitches",
-"spyfox"	=> "Game is playable but not completable".
-		   "<br>- Various issues",
+"spyfox"	=> "Game is completable, with minor glitches".
+		   "<br>- Minor graphical glitches",
 "sf2-demo"	=> "Game is playable but not completable".
 		   "<br>- Various issues",
 "spyfox2"	=> "Game is playable but not completable".
