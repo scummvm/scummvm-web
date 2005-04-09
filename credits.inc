@@ -40,11 +40,12 @@
 <tr><td>Kov&aacute;cs Endre J&aacute;nos</td><td></td><td>Several fixes for Simon1</td>
 <tr><td>Jeroen Janssen</td><td></td><td>Numerous readability and bugfix patches</td>
 <tr><td>Robert Kelsen</td><td></td><td>Packaging for SlackWare</td>
-<tr><td>Claudio Matsuoka</td><td></td><td>Daily Linux/BeOS builds</td>
+<tr><td>Claudio Matsuoka</td><td></td><td>Daily Linux builds</td>
 <tr><td>Mikesch Nepomuk</td><td></td><td>MI1 VGA floppy patches</td>
 <tr><td>Nicolas Noble</td><td>[&nbsp;pixels&nbsp;]</td><td>Config file and ALSA support</td>
 <tr><td>Willem Jan Palenstijn</td><td>[&nbsp;wjp&nbsp;]</td><td>Packaging for Fedora/RedHat</td>
-<tr><td>???</td><td>[&nbsp;Quietust&nbsp;]</td><td>Sound support for Amiga SCUMM V2/V3 games</td>
+<tr><td>Stefan Parviainen</td><td></td><td>Packaging for BeOS</td>
+<tr><td>???</td><td>[&nbsp;Quietust&nbsp;]</td><td>Sound support for Amiga SCUMM V2/V3 games, MM NES suport</td>
 <tr><td>Andreas R&ouml;ver</td><td></td><td>Broken Sword 1/2 MPEG2 cutscene support</td>
 <tr><td>Edward Rudd</td><td></td><td>Fixes for playing MP3 versions of MI1/Loom audio</td>
 <tr><td>Daniel Schepler</td><td></td><td>Final MI1 CD music support, initial Ogg Vorbis support</td>
