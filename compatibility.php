@@ -241,7 +241,7 @@ $notes = array(
 		   "<br>- Both Mac and PC versions supported by this target",
 "comi"		=> "Game is completable, with minor glitches.",
 
-"bb2demo"	=> => "Game is playable, with glitches".
+"bb2demo"	=> "Game is playable, with glitches".
 		   "<br>- Graphical glitches",
 "footdemo"	=> "Only shows introduction",
 "BluesABCTimeDemo" => "Game is playable",
@@ -349,7 +349,7 @@ $notes = array(
 		   "<br>- Minor graphical glitches",
 "spyozon"	=> "Game is playable but not completable".
 		   "<br>- Various issues",
-"chase"		=> => "Game is playable, with glitches".
+"chase"		=> "Game is playable, with glitches".
 		   "<br>- Graphical glitches",
 "mustard"	=> "Only shows introduction",
 
