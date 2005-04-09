@@ -91,7 +91,7 @@ $gamesLucas = array(
 
 $gamesHE = array(
 		'Backyard Baseball 2001 (Demo)'						=> array('n/a','bb2demo','40'),
-		'Backyard Football 2002 (Demo)'						=> array('n/a','footdemo','5'),
+		'Backyard Football 2002 (Demo)'						=> array('n/a','footdemo','10'),
 		'Blue\'s ABC Time (Demo)'						=> array('n/a','BluesABCTimeDemo','90'),
 		'Big Thinkers First Grade (Demo)'					=> array('n/a','1grademo','50'),
 		'Big Thinkers Kindergarten (Demo)'					=> array('n/a','kinddemo','50'),
@@ -143,10 +143,10 @@ $gamesHE = array(
 		'Spyfox 1: Dry Cereal (Demo)'						=> array('n/a','spydemo','80'),
 		'Spyfox 1: Dry Cereal'							=> array('n/a','spyfox','80'),
 		'Spyfox 2: Some Assembly Required (Demo)'				=> array('n/a','sf2-demo','80'),
-		'Spyfox 2: Some Assembly Required'					=> array('n/a','spyfox2','20'),
+		'Spyfox 2: Some Assembly Required'					=> array('n/a','spyfox2','80'),
 		'Spyfox 3: Operation Ozone (Demo)'					=> array('n/a','sf3-demo','80'),
-		'Spyfox 3: Operation Ozone'						=> array('n/a','spyozon','20'),
-		'Spy Fox in Cheese Chase Game'						=> array('n/a','chase','10'),
+		'Spyfox 3: Operation Ozone'						=> array('n/a','spyozon','40'),
+		'Spy Fox in Cheese Chase Game'						=> array('n/a','chase','40'),
 		'Spy Fox in Hold the Mustard'						=> array('n/a','mustard','10'),
 	      );
 
@@ -343,7 +343,7 @@ $notes = array(
 		   "<br>- Minor graphical glitches",
 "sf2-demo"	=> "Game is completable, with minor glitches".
 		   "<br>- Minor graphical glitches",
-"spyfox2"	=> "Game is playable but not completable".
+"spyfox2"	=> "Game is completable, with minor glitches".
 		   "<br>- Various issues",
 "sf3-demo"	=> "Game is completable, with minor glitches".
 		   "<br>- Minor graphical glitches",
