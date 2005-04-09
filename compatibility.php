@@ -90,7 +90,7 @@ $gamesLucas = array(
 	      );
 
 $gamesHE = array(
-		'Backyard Baseball 2001 (Demo)'						=> array('n/a','bb2demo','5'),
+		'Backyard Baseball 2001 (Demo)'						=> array('n/a','bb2demo','40'),
 		'Backyard Football 2002 (Demo)'						=> array('n/a','footdemo','5'),
 		'Blue\'s ABC Time (Demo)'						=> array('n/a','BluesABCTimeDemo','90'),
 		'Big Thinkers First Grade (Demo)'					=> array('n/a','1grademo','50'),
@@ -105,10 +105,10 @@ $gamesHE = array(
 		'Freddi Fish 2: The Case of the Haunted Schoolhouse'			=> array('n/a','freddi2','70'),
 		'Freddi Fish 3: The Case of the Stolen Conch Shell (Demo)'		=> array('n/a','f3-mdemo','95'),
 		'Freddi Fish 3: The Case of the Stolen Conch Shell'			=> array('n/a','freddi3','95'),
-		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Demo)'	=> array('n/a','f4-demo','10'),
-		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'	=> array('n/a','freddi4','10'),
-		'Freddi Fish 5: The Case of the Creature of Coral Cave (Demo)'		=> array('n/a','ff5demo','10'),
-		'Freddi Fish 5: The Case of the Creature of Coral Cave'			=> array('n/a','freddicove','10'),
+		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Demo)'	=> array('n/a','f4-demo','80'),
+		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'	=> array('n/a','freddi4','20'),
+		'Freddi Fish 5: The Case of the Creature of Coral Cave (Demo)'		=> array('n/a','ff5demo','20'),
+		'Freddi Fish 5: The Case of the Creature of Coral Cave'			=> array('n/a','freddicove','20'),
 		'Freddi Fish and Luther\'s Maze Madness'				=> array('n/a','maze','50'),
 		'Freddi Fish and Luther\'s Water Worries'				=> array('n/a','water','50'),
 		'Let\'s Explore the Airport with Buzzy (Demo)'				=> array('n/a','airdemo','50'),
@@ -122,8 +122,8 @@ $gamesHE = array(
 		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'		=> array('n/a','pajama2','80'),
 		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Demo)'	=> array('n/a','pj3-demo','70'),
 		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('n/a','pajama3','40'),
-		'Pajama Sam\'s Lost & Found (Demo)'					=> array('n/a','smaller','5'),
-		'Pajama Sam\'s Lost & Found'						=> array('n/a','lost','5'),
+		'Pajama Sam\'s Lost & Found (Demo)'					=> array('n/a','smaller','40'),
+		'Pajama Sam\'s Lost & Found'						=> array('n/a','lost','40'),
 		'Pajama Sam\'s Sock Works'						=> array('n/a','socks','50'),
 		'Putt-Putt Enters the Race (Demo)'					=> array('n/a','racedemo','80'),
 		'Putt-Putt Enters the Race'						=> array('n/a','puttrace','10'),
@@ -142,7 +142,7 @@ $gamesHE = array(
 		'Putt-Putts Fun Pack'							=> array('n/a','funpack','95'),
 		'Spyfox 1: Dry Cereal (Demo)'						=> array('n/a','spydemo','80'),
 		'Spyfox 1: Dry Cereal'							=> array('n/a','spyfox','80'),
-		'Spyfox 2: Some Assembly Required (Demo)'				=> array('n/a','sf2-demo','20'),
+		'Spyfox 2: Some Assembly Required (Demo)'				=> array('n/a','sf2-demo','80'),
 		'Spyfox 2: Some Assembly Required'					=> array('n/a','spyfox2','20'),
 		'Spyfox 3: Operation Ozone (Demo)'					=> array('n/a','sf3-demo','80'),
 		'Spyfox 3: Operation Ozone'						=> array('n/a','spyozon','20'),
@@ -241,7 +241,8 @@ $notes = array(
 		   "<br>- Both Mac and PC versions supported by this target",
 "comi"		=> "Game is completable, with minor glitches.",
 
-"bb2demo"	=> "Only shows introduction",
+"bb2demo"	=> => "Game is playable, with glitches".
+		   "<br>- Graphical glitches",
 "footdemo"	=> "Only shows introduction",
 "BluesABCTimeDemo" => "Game is playable",
 "1grademo"	=> "Game is playable, but settings aren't saved".
@@ -268,13 +269,13 @@ $notes = array(
 		   "<br>- No songs",
 "f3-mdemo"	=> "No known issues, game is completable",
 "freddi3"	=> "No known issues, game is completable",
-"f4-demo"	=> "Not completable, no inventory response".
+"f4-demo"	=> "Game is completable, with minor glitches".
+		   "<br>- Minor graphical glitches",
+"freddi4"	=> "Game is playable but not completable".
 		   "<br>- Various issues",
-"freddi4"	=> "Not completable, no inventory response".
+"ff5demo"	=> "Game is playable but not completable".
 		   "<br>- Various issues",
-"ff5demo"	=> "Not completable, no inventory response".
-		   "<br>- Various issues",
-"freddicove"	=> "Not completable, no inventory response".
+"freddicove"	=> "Game is playable but not completable".
 		   "<br>- Various issues",
 "maze"		=> "Game is playable, but settings aren't saved".
 		   "<br>- Various issues",
@@ -300,8 +301,10 @@ $notes = array(
 		   "<br>- Various issues",
 "pajama3"	=> "Game is playable but not completable".
 		   "<br>- Various issues",
-"smaller"	=> "Only shows introduction",
-"lost"		=> "Only shows introduction",
+"smaller"	=> "Game is playable, with glitches".
+		   "<br>- Graphical glitches",
+"lost"		=> "Game is playable, with glitches".
+		   "<br>- Graphical glitches",
 "socks"		=> "Game is playable, but settings aren't saved".
 		   "<br>- Various issues",
 "racedemo"	=> "Game is completable, with minor glitches".
@@ -338,15 +341,16 @@ $notes = array(
 		   "<br>- Minor graphical glitches",
 "spyfox"	=> "Game is completable, with minor glitches".
 		   "<br>- Minor graphical glitches",
-"sf2-demo"	=> "Game is playable but not completable".
-		   "<br>- Various issues",
+"sf2-demo"	=> "Game is completable, with minor glitches".
+		   "<br>- Minor graphical glitches",
 "spyfox2"	=> "Game is playable but not completable".
 		   "<br>- Various issues",
 "sf3-demo"	=> "Game is completable, with minor glitches".
 		   "<br>- Minor graphical glitches",
 "spyozon"	=> "Game is playable but not completable".
 		   "<br>- Various issues",
-"chase"		=> "Only shows introduction",
+"chase"		=> => "Game is playable, with glitches".
+		   "<br>- Graphical glitches",
 "mustard"	=> "Only shows introduction",
 
 "sky"	 	=> "No known issues, game is completable.".
