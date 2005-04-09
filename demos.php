@@ -144,6 +144,8 @@ $MISC_demos = array(
 		=> array('http://0x.7fc1.org/fotaq/fotaq_demo.zip', 'queen'),
 	'Flight of the Amazon Queen (PCGAMES demo, Datafile only)'
 		=> array('http://0x.7fc1.org/fotaq/fotaq_demo_pcgames.zip', 'queen'),
+	'Gobliiins'
+		=> array('http://minifiles.ag.ru/demos/448/gobliiins_demo.exe', 'gob1'),
 	'Simon the Sorcerer 1 (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/simon1demo.zip', 'simon1demo'),
 	'Simon the Sorcerer 1 Talkie (Acorn demo)'
