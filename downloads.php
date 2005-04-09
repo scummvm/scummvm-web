@@ -86,8 +86,8 @@ echo html_round_frame_start("Download ScummVM","");
 <!--
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-dreamcast-plainfiles.tar.bz2?download">Dreamcast plain files</a> <small>(2.2M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-dreamcast-nero+demos.zip?download">Dreamcast Nero Image &amp; Demos</a> <small>4.7M zipfile</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-beos-x86.pkg?download">BeOS package</a> <small>(2.8M pkg)</small></li>
 -->
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-beos-x86.pkg?download">BeOS package</a> <small>(2.8M pkg)</small></li>
 	</ul>
 
 	<h3>0.7.1 Source Code</h3>
