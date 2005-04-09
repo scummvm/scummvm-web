@@ -309,7 +309,7 @@ $notes = array(
 		   "<br>- Various issues",
 "racedemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Minor graphical glitches",
-"puttrace"	=> "Not completable, no inventory controls".
+"puttrace"	=> "Game is playable but not completable".
 		   "<br>- Various issues",
 "moondemo"	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target",
@@ -317,7 +317,7 @@ $notes = array(
 		   "<br>- 3DO, DOS and Windows versions supported by this target",
 "circdemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Minor graphical glitches",
-"puttcircus"	=> "Not completable, no inventory controls".
+"puttcircus"	=> "Game is playable but not completable".
 		   "<br>- Various issues",
 "puttdemo"	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target",
