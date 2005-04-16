@@ -122,7 +122,7 @@ $gamesHE = array(
 		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'		=> array('n/a','pajama2','80'),
 		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Demo)'	=> array('n/a','pj3-demo','80'),
 		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('n/a','pajama3','50'),
-		'Pajama Sam\'s Lost & Found (Demo)'					=> array('n/a','smaller','40'),
+		'Pajama Sam\'s Lost & Found (Demo)'					=> array('n/a','smaller','70'),
 		'Pajama Sam\'s Lost & Found'						=> array('n/a','lost','40'),
 		'Pajama Sam\'s Sock Works'						=> array('n/a','socks','50'),
 		'Putt-Putt Enters the Race (Demo)'					=> array('n/a','racedemo','85'),
@@ -303,7 +303,7 @@ $notes = array(
 		   "<br>- Various issues",
 "pajama3"	=> "Game is playable but not completable".
 		   "<br>- Various issues",
-"smaller"	=> "Game is playable, with glitches".
+"smaller"	=> "Game is completable, with minor glitches".
 		   "<br>- Graphical glitches",
 "lost"		=> "Game is playable, with glitches".
 		   "<br>- Graphical glitches",
