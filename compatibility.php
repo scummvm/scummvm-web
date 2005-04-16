@@ -105,31 +105,31 @@ $gamesHE = array(
 		'Freddi Fish 2: The Case of the Haunted Schoolhouse'			=> array('n/a','freddi2','70'),
 		'Freddi Fish 3: The Case of the Stolen Conch Shell (Demo)'		=> array('n/a','f3-mdemo','95'),
 		'Freddi Fish 3: The Case of the Stolen Conch Shell'			=> array('n/a','freddi3','95'),
-		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Demo)'	=> array('n/a','f4-demo','80'),
-		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'	=> array('n/a','freddi4','20'),
+		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Demo)'	=> array('n/a','f4-demo','95'),
+		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'	=> array('n/a','freddi4','85'),
 		'Freddi Fish 5: The Case of the Creature of Coral Cave (Demo)'		=> array('n/a','ff5demo','20'),
 		'Freddi Fish 5: The Case of the Creature of Coral Cave'			=> array('n/a','freddicove','20'),
 		'Freddi Fish and Luther\'s Maze Madness'				=> array('n/a','maze','50'),
 		'Freddi Fish and Luther\'s Water Worries'				=> array('n/a','water','50'),
-		'Let\'s Explore the Airport with Buzzy (Demo)'				=> array('n/a','airdemo','50'),
-		'Let\'s Explore the Airport with Buzzy'					=> array('n/a','airport','50'),
-		'Let\'s Explore the Farm with Buzzy (Demo)'				=> array('n/a','farmdemo','50'),
-		'Let\'s Explore the Farm with Buzzy'					=> array('n/a','farm','50'),
-		'Let\'s Explore the Jungle with Buzzy'					=> array('n/a','jungle','50'),
+		'Let\'s Explore the Airport with Buzzy (Demo)'				=> array('n/a','airdemo','85'),
+		'Let\'s Explore the Airport with Buzzy'					=> array('n/a','airport','85'),
+		'Let\'s Explore the Farm with Buzzy (Demo)'				=> array('n/a','farmdemo','85'),
+		'Let\'s Explore the Farm with Buzzy'					=> array('n/a','farm','85'),
+		'Let\'s Explore the Jungle with Buzzy'					=> array('n/a','jungle','85'),
 		'Pajama Sam 1: No Need to Hide When It\'s Dark Outside (Demo)'		=> array('n/a','pjs-demo','90'),
 		'Pajama Sam 1: No Need to Hide When It\'s Dark Outside'			=> array('n/a','pajama','70'),
 		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening (Demo)'	=> array('n/a','pj2demo','90'),
 		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'		=> array('n/a','pajama2','80'),
-		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Demo)'	=> array('n/a','pj3-demo','70'),
-		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('n/a','pajama3','40'),
+		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Demo)'	=> array('n/a','pj3-demo','80'),
+		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('n/a','pajama3','50'),
 		'Pajama Sam\'s Lost & Found (Demo)'					=> array('n/a','smaller','40'),
 		'Pajama Sam\'s Lost & Found'						=> array('n/a','lost','40'),
 		'Pajama Sam\'s Sock Works'						=> array('n/a','socks','50'),
-		'Putt-Putt Enters the Race (Demo)'					=> array('n/a','racedemo','80'),
-		'Putt-Putt Enters the Race'						=> array('n/a','puttrace','40'),
+		'Putt-Putt Enters the Race (Demo)'					=> array('n/a','racedemo','85'),
+		'Putt-Putt Enters the Race'						=> array('n/a','puttrace','50'),
 		'Putt-Putt Goes To The Moon (Demo)'					=> array('n/a','moondemo','95'),
 		'Putt-Putt Goes To The Moon'						=> array('n/a','puttmoon','95'),
-		'Putt-Putt Joins the Circus (Demo)'					=> array('n/a','circdemo','80'),
+		'Putt-Putt Joins the Circus (Demo)'					=> array('n/a','circdemo','95'),
 		'Putt-Putt Joins the Circus'						=> array('n/a','puttcircus','40'),
 		'Putt-Putt Joins the Parade (Demo)'					=> array('n/a','puttdemo','95'),
 		'Putt-Putt Joins the Parade'						=> array('n/a','puttputt','95'),
@@ -140,11 +140,11 @@ $gamesHE = array(
 		'Putt-Putt and Pep\'s Balloon-O-Rama'					=> array('n/a','balloon','50'),
 		'Putt-Putt and Pep\'s Dog on a Stick'					=> array('n/a','dog','50'),
 		'Putt-Putts Fun Pack'							=> array('n/a','funpack','95'),
-		'Spyfox 1: Dry Cereal (Demo)'						=> array('n/a','spydemo','80'),
-		'Spyfox 1: Dry Cereal'							=> array('n/a','spyfox','80'),
-		'Spyfox 2: Some Assembly Required (Demo)'				=> array('n/a','sf2-demo','80'),
-		'Spyfox 2: Some Assembly Required'					=> array('n/a','spyfox2','80'),
-		'Spyfox 3: Operation Ozone (Demo)'					=> array('n/a','sf3-demo','80'),
+		'Spyfox 1: Dry Cereal (Demo)'						=> array('n/a','spydemo','95'),
+		'Spyfox 1: Dry Cereal'							=> array('n/a','spyfox','85'),
+		'Spyfox 2: Some Assembly Required (Demo)'				=> array('n/a','sf2-demo','95'),
+		'Spyfox 2: Some Assembly Required'					=> array('n/a','spyfox2','85'),
+		'Spyfox 3: Operation Ozone (Demo)'					=> array('n/a','sf3-demo','85'),
 		'Spyfox 3: Operation Ozone'						=> array('n/a','spyozon','40'),
 		'Spy Fox in Cheese Chase Game'						=> array('n/a','chase','40'),
 		'Spy Fox in Hold the Mustard'						=> array('n/a','mustard','10'),
@@ -266,13 +266,14 @@ $notes = array(
 		   "<br>- Often uses wrong songs".
 		   "<br>- Minor graphical glitches",
 "freddi2"	=> "Game is completable, with minor glitches".
-		   "<br>- No songs",
+		   "<br>- Often uses wrong songs".
+		   "<br>- Minor graphical glitches",
 "f3-mdemo"	=> "No known issues, game is completable",
 "freddi3"	=> "No known issues, game is completable",
-"f4-demo"	=> "Game is completable, with minor glitches".
-		   "<br>- Minor graphical glitches",
-"freddi4"	=> "Game is playable but not completable".
-		   "<br>- Various issues",
+"f4-demo"	=> "No known issues, game is completable".
+"freddi4"	=> "Game is completable, with minor glitches".
+		   "<br>- The seahorse in introduction shouldn't move upwards".
+		   "<br>- Need to ESC past the salesmen's introduction",
 "ff5demo"	=> "Game is playable but not completable".
 		   "<br>- Various issues",
 "freddicove"	=> "Game is playable but not completable".
@@ -283,13 +284,14 @@ $notes = array(
 		   "<br>- Various issues",
 "airdemo"	=> "Game is playable".
 		   "<br>- Minor graphical glitches",
-"airport"	=> "Game is playable, but settings aren't saved".
+"airport"	=> "Game is playable".
 		   "<br>- Minor graphical glitches",
 "farmdemo"	=> "Game is playable".
+		   "<br>- Index screen isn't cleared in older demo".
 		   "<br>- Minor graphical glitches",
-"farm"		=> "Game is playable, but settings aren't saved".
+"farm"		=> "Game is playable".
 		   "<br>- Minor graphical glitches",
-"jungle"	=> "Game is playable, but settings aren't saved".
+"jungle"	=> "Game is playable".
 		   "<br>- Minor graphical glitches",
 "pjs-demo"	=> "No known issues, game is completable",
 "pajama"	=> "Game is completable, with minor glitches".
@@ -310,20 +312,24 @@ $notes = array(
 "racedemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Minor graphical glitches",
 "puttrace"	=> "Game is playable but not completable".
-		   "<br>- Various issues",
+		   "<br>- Can't move around field".
+		   "<br>- Ending sequence locks up".
+		   "<br>- Minor graphical glitches",
 "moondemo"	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target",
 "puttmoon"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS and Windows versions supported by this target",
-"circdemo"	=> "Game is completable, with minor glitches".
-		   "<br>- Minor graphical glitches",
+"circdemo"	=> "No known issues, game is completable.".
 "puttcircus"	=> "Game is playable but not completable".
-		   "<br>- Various issues",
+		   "<br>- Runs out of array pointers".
+		   "<br>- No input response in pie and card mini games".
+		   "<br>- Minor graphical glitches",
 "puttdemo"	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target",
 "puttputt"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS and Windows versions supported by this target",
 "puttzoo"	=> "Game is completable, with minor glitches".
+		   "<br>- Often uses wrong songs".
 		   "<br>- Inventory background and items are often not redrawn",
 "zoodemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Inventory background and items are often not redrawn",
@@ -337,12 +343,10 @@ $notes = array(
 		   "<br>- Various issues",
 "funpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
-"spydemo"	=> "Game is completable, with minor glitches".
-		   "<br>- Minor graphical glitches",
+"spydemo"	=> "No known issues, game is completable.".
 "spyfox"	=> "Game is completable, with minor glitches".
 		   "<br>- Minor graphical glitches",
-"sf2-demo"	=> "Game is completable, with minor glitches".
-		   "<br>- Minor graphical glitches",
+"sf2-demo"	=> "No known issues, game is completable.".
 "spyfox2"	=> "Game is completable, with minor glitches".
 		   "<br>- Various issues",
 "sf3-demo"	=> "Game is completable, with minor glitches".
