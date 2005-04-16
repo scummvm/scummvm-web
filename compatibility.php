@@ -270,7 +270,7 @@ $notes = array(
 		   "<br>- Minor graphical glitches",
 "f3-mdemo"	=> "No known issues, game is completable",
 "freddi3"	=> "No known issues, game is completable",
-"f4-demo"	=> "No known issues, game is completable".
+"f4-demo"	=> "No known issues, game is completable",
 "freddi4"	=> "Game is completable, with minor glitches".
 		   "<br>- The seahorse in introduction shouldn't move upwards".
 		   "<br>- Need to ESC past the salesmen's introduction",
