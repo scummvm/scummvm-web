@@ -319,7 +319,7 @@ $notes = array(
 		   "<br>- Both DOS and Windows versions supported by this target",
 "puttmoon"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS and Windows versions supported by this target",
-"circdemo"	=> "No known issues, game is completable.".
+"circdemo"	=> "No known issues, game is completable.",
 "puttcircus"	=> "Game is playable but not completable".
 		   "<br>- Runs out of array pointers".
 		   "<br>- No input response in pie and card mini games".
@@ -343,10 +343,10 @@ $notes = array(
 		   "<br>- Various issues",
 "funpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
-"spydemo"	=> "No known issues, game is completable.".
+"spydemo"	=> "No known issues, game is completable.",
 "spyfox"	=> "Game is completable, with minor glitches".
 		   "<br>- Minor graphical glitches",
-"sf2-demo"	=> "No known issues, game is completable.".
+"sf2-demo"	=> "No known issues, game is completable.",
 "spyfox2"	=> "Game is completable, with minor glitches".
 		   "<br>- Various issues",
 "sf3-demo"	=> "Game is completable, with minor glitches".
