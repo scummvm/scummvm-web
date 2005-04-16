@@ -355,7 +355,7 @@ $notes = array(
 		   "<br>- Various issues",
 "chase"		=> "Game is playable, with glitches".
 		   "<br>- Graphical glitches",
-"mustard"	=> "Only shows introduction",
+"mustard"	=> "Only shows introduction ",
 
 "sky"	 	=> "No known issues, game is completable.".
 		   "<br>- Requires the <a href=\"SKY.CPT\">SKY.CPT</a> resource file to be placed in the game directory".
