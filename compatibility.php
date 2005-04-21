@@ -374,8 +374,8 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor selection issues in with actor/items in two sections",
 "sf2-demo"	=> "No known issues, game is completable.".
-"spyfox2"	=> "No known issues, game is completable.",
-		   "<br>- Both Macintosh and Windows versions supported by this target".
+"spyfox2"	=> "No known issues, game is completable.".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "sf3-demo"	=> "No known issues, game is completable.",
 "spyozon"	=> "Game is playable but not completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
