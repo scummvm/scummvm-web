@@ -245,7 +245,8 @@ $notes = array(
 		   "<br>- Graphical glitches",
 "footdemo"	=> "Only shows introduction".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"BluesABCTimeDemo" => "Game is playable",
+"BluesABCTimeDemo" => "Game is playable".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "1grademo"	=> "Game is playable, but settings aren't saved".
 		   "<br>- Minor graphical glitches",
 "kinddemo"	=> "Game is playable, but settings aren't saved".
@@ -331,6 +332,7 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Various issues",
 "racedemo"	=> "Game is completable, with minor glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
 "puttrace"	=> "Game is playable but not completable".
 		   "<br>- Can't move around the field".
@@ -343,6 +345,7 @@ $notes = array(
 "circdemo"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "puttcircus"	=> "Game is playable but not completable".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Runs out of array pointers".
 		   "<br>- Minor graphical glitches",
 "puttdemo"	=> "No known issues, game is completable.".
@@ -373,10 +376,12 @@ $notes = array(
 "spyfox"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor selection issues in with actor/items in two sections",
-"sf2-demo"	=> "No known issues, game is completable.",
+"sf2-demo"	=> "No known issues, game is completable.".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "spyfox2"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"sf3-demo"	=> "No known issues, game is completable.",
+"sf3-demo"	=> "No known issues, game is completable.".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "spyozon"	=> "Game is playable but not completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Can't see the combination to lock, when underwater".
