@@ -143,9 +143,9 @@ $gamesHE = array(
 		'Spyfox 1: Dry Cereal (Demo)'						=> array('n/a','spydemo','90'),
 		'Spyfox 1: Dry Cereal'							=> array('n/a','spyfox','85'),
 		'Spyfox 2: Some Assembly Required (Demo)'				=> array('n/a','sf2-demo','90'),
-		'Spyfox 2: Some Assembly Required'					=> array('n/a','spyfox2','85'),
-		'Spyfox 3: Operation Ozone (Demo)'					=> array('n/a','sf3-demo','85'),
-		'Spyfox 3: Operation Ozone'						=> array('n/a','spyozon','40'),
+		'Spyfox 2: Some Assembly Required'					=> array('n/a','spyfox2','90'),
+		'Spyfox 3: Operation Ozone (Demo)'					=> array('n/a','sf3-demo','90'),
+		'Spyfox 3: Operation Ozone'						=> array('n/a','spyozon','70'),
 		'Spy Fox in Cheese Chase Game'						=> array('n/a','chase','40'),
 		'Spy Fox in Hold the Mustard'						=> array('n/a','mustard','10'),
 	      );
@@ -324,7 +324,7 @@ $notes = array(
 "pajama3"	=> "Game is playable but not completable".
 		   "<br>- Various issues",
 "smaller"	=> "Game is completable, with minor glitches".
-		   "<br>- Graphical glitches",
+		   "<br>- Palette glitches",
 "lost"		=> "Game is playable, with glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Graphical glitches",
@@ -382,10 +382,10 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "sf3-demo"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"spyozon"	=> "Game is playable but not completable".
+"spyozon"	=> "Game is completable, with glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Can't see the combination to lock, when underwater".
-		   "<br>- Minor graphical glitches",
+		   "<br>- Need to guess the correct colors of Poodles's fingernails".
+		   "<br>- Palette glitches",
 "chase"		=> "Game is playable, with glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Graphical glitches",
