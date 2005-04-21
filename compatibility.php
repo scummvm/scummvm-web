@@ -103,9 +103,9 @@ $gamesHE = array(
 		'Freddi Fish 1: The Case of the Missing Kelp Seeds'			=> array('n/a','freddi','80'),
 		'Freddi Fish 2: The Case of the Haunted Schoolhouse (Demo)'		=> array('n/a','ff2-demo','70'),
 		'Freddi Fish 2: The Case of the Haunted Schoolhouse'			=> array('n/a','freddi2','70'),
-		'Freddi Fish 3: The Case of the Stolen Conch Shell (Demo)'		=> array('n/a','f3-mdemo','95'),
-		'Freddi Fish 3: The Case of the Stolen Conch Shell'			=> array('n/a','freddi3','95'),
-		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Demo)'	=> array('n/a','f4-demo','95'),
+		'Freddi Fish 3: The Case of the Stolen Conch Shell (Demo)'		=> array('n/a','f3-mdemo','90'),
+		'Freddi Fish 3: The Case of the Stolen Conch Shell'			=> array('n/a','freddi3','90'),
+		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Demo)'	=> array('n/a','f4-demo','90'),
 		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'	=> array('n/a','freddi4','85'),
 		'Freddi Fish 5: The Case of the Creature of Coral Cave (Demo)'		=> array('n/a','ff5demo','20'),
 		'Freddi Fish 5: The Case of the Creature of Coral Cave'			=> array('n/a','freddicove','20'),
@@ -129,20 +129,20 @@ $gamesHE = array(
 		'Putt-Putt Enters the Race'						=> array('n/a','puttrace','50'),
 		'Putt-Putt Goes To The Moon (Demo)'					=> array('n/a','moondemo','95'),
 		'Putt-Putt Goes To The Moon'						=> array('n/a','puttmoon','95'),
-		'Putt-Putt Joins the Circus (Demo)'					=> array('n/a','circdemo','95'),
+		'Putt-Putt Joins the Circus (Demo)'					=> array('n/a','circdemo','90'),
 		'Putt-Putt Joins the Circus'						=> array('n/a','puttcircus','40'),
 		'Putt-Putt Joins the Parade (Demo)'					=> array('n/a','puttdemo','95'),
 		'Putt-Putt Joins the Parade'						=> array('n/a','puttputt','95'),
-		'Putt-Putt Saves the Zoo (Demo)'					=> array('n/a','zoodemo','70'),
-		'Putt-Putt Saves the Zoo'						=> array('n/a','puttzoo','70'),
-		'Putt-Putt Travels Through Time (Demo)'					=> array('n/a','timedemo','70'),
-		'Putt-Putt Travels Through Time'					=> array('n/a','putttime','70'),
+		'Putt-Putt Saves the Zoo (Demo)'					=> array('n/a','zoodemo','80'),
+		'Putt-Putt Saves the Zoo'						=> array('n/a','puttzoo','80'),
+		'Putt-Putt Travels Through Time (Demo)'					=> array('n/a','timedemo','80'),
+		'Putt-Putt Travels Through Time'					=> array('n/a','putttime','80'),
 		'Putt-Putt and Pep\'s Balloon-O-Rama'					=> array('n/a','balloon','50'),
 		'Putt-Putt and Pep\'s Dog on a Stick'					=> array('n/a','dog','50'),
 		'Putt-Putts Fun Pack'							=> array('n/a','funpack','95'),
-		'Spyfox 1: Dry Cereal (Demo)'						=> array('n/a','spydemo','95'),
+		'Spyfox 1: Dry Cereal (Demo)'						=> array('n/a','spydemo','90'),
 		'Spyfox 1: Dry Cereal'							=> array('n/a','spyfox','85'),
-		'Spyfox 2: Some Assembly Required (Demo)'				=> array('n/a','sf2-demo','95'),
+		'Spyfox 2: Some Assembly Required (Demo)'				=> array('n/a','sf2-demo','90'),
 		'Spyfox 2: Some Assembly Required'					=> array('n/a','spyfox2','85'),
 		'Spyfox 3: Operation Ozone (Demo)'					=> array('n/a','sf3-demo','85'),
 		'Spyfox 3: Operation Ozone'						=> array('n/a','spyozon','40'),
@@ -243,13 +243,16 @@ $notes = array(
 
 "bb2demo"	=> "Game is playable, with glitches".
 		   "<br>- Graphical glitches",
-"footdemo"	=> "Only shows introduction",
+"footdemo"	=> "Only shows introduction".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "BluesABCTimeDemo" => "Game is playable",
 "1grademo"	=> "Game is playable, but settings aren't saved".
 		   "<br>- Minor graphical glitches",
 "kinddemo"	=> "Game is playable, but settings aren't saved".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
 "thinkerk"	=> "Game is playable, but settings aren't saved".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
 "fbdemo"	=> "Should be playable to the end".
 		   "<br>- Both DOS and Windows versions supported by this target",
@@ -259,102 +262,130 @@ $notes = array(
 "fbpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
 "freddemo"	=> "Game is completable, with minor glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Inventory bubbles don't pop in older demo",
 "freddi"	=> "Game is completable, with minor glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Sometimes double speech when using objects",
 "ff2-demo"	=> "Game is completable, with minor glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Often uses wrong songs".
 		   "<br>- Minor graphical glitches",
 "freddi2"	=> "Game is completable, with minor glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Often uses wrong songs".
 		   "<br>- Minor graphical glitches",
-"f3-mdemo"	=> "No known issues, game is completable",
-"freddi3"	=> "No known issues, game is completable",
-"f4-demo"	=> "No known issues, game is completable",
-"freddi4"	=> "Game is completable, with minor glitches".
-		   "<br>- The seahorse in introduction shouldn't move upwards",
+"f3-mdemo"	=> "No known issues, game is completable".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
+"freddi3"	=> "No known issues, game is completable".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
+"f4-demo"	=> "No known issues, game is completable".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
+"freddi4"	=> "No known issues, game is completable",
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 "ff5demo"	=> "Game is playable but not completable".
 		   "<br>- Various issues",
 "freddicove"	=> "Game is playable but not completable".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Various issues",
 "maze"		=> "Game is playable, but settings aren't saved".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Various issues",
 "water"		=> "Game is playable, but settings aren't saved".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Various issues",
 "airdemo"	=> "Game is playable".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
 "airport"	=> "Game is playable".
 		   "<br>- Minor graphical glitches",
 "farmdemo"	=> "Game is playable".
-		   "<br>- Index screen isn't cleared in older demo".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Screen isn't cleared when moving between dictionary enties in the older demo".
 		   "<br>- Minor graphical glitches",
 "farm"		=> "Game is playable".
 		   "<br>- Minor graphical glitches",
 "jungle"	=> "Game is playable".
 		   "<br>- Minor graphical glitches",
-"pjs-demo"	=> "No known issues, game is completable",
+"pjs-demo"	=> "No known issues, game is completable".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "pajama"	=> "Game is completable, with minor glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- No songs",
-"pj2demo"	=> "No known issues, game is completable",
+"pj2demo"	=> "No known issues, game is completable".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "pajama2"	=> "Game is completable, with minor glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
 "pj3-demo"	=> "Game is completable, with minor glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Various issues",
 "pajama3"	=> "Game is playable but not completable".
 		   "<br>- Various issues",
 "smaller"	=> "Game is completable, with minor glitches".
 		   "<br>- Graphical glitches",
 "lost"		=> "Game is playable, with glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Graphical glitches",
 "socks"		=> "Game is playable, but settings aren't saved".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Various issues",
 "racedemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Minor graphical glitches",
 "puttrace"	=> "Game is playable but not completable".
-		   "<br>- Can't move around field".
+		   "<br>- Can't move around the field".
 		   "<br>- Ending sequence locks up".
 		   "<br>- Minor graphical glitches",
 "moondemo"	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target",
 "puttmoon"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS and Windows versions supported by this target",
-"circdemo"	=> "No known issues, game is completable.",
+"circdemo"	=> "No known issues, game is completable.".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "puttcircus"	=> "Game is playable but not completable".
 		   "<br>- Runs out of array pointers".
-		   "<br>- No input response in pie and card mini games".
 		   "<br>- Minor graphical glitches",
 "puttdemo"	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target",
 "puttputt"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS and Windows versions supported by this target",
 "puttzoo"	=> "Game is completable, with minor glitches".
-		   "<br>- Often uses wrong songs".
-		   "<br>- Inventory background and items are often not redrawn",
+		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Minor graphical glitches",
 "zoodemo"	=> "Game is completable, with minor glitches".
-		   "<br>- Inventory background and items are often not redrawn",
+		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Minor graphical glitches",
 "putttime"	=> "Game is completable, with minor glitches".
-		   "<br>- Inventory background and items are often not redrawn",
+		   "<br>- Minor graphical glitches",
 "timedemo"	=> "Game is completable, with minor glitches".
-		   "<br>- Inventory background and items are often not redrawn",
+		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Minor graphical glitches",
 "balloon"	=> "Game is playable, but settings aren't saved".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Various issues",
 "dog"		=> "Game is playable, but settings aren't saved".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Various issues",
 "funpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
-"spydemo"	=> "No known issues, game is completable.",
+"spydemo"	=> "No known issues, game is completable.".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "spyfox"	=> "Game is completable, with minor glitches".
-		   "<br>- Minor graphical glitches",
-"sf2-demo"	=> "No known issues, game is completable.",
-"spyfox2"	=> "Game is completable, with minor glitches".
-		   "<br>- Various issues",
-"sf3-demo"	=> "Game is completable, with minor glitches".
-		   "<br>- Minor graphical glitches",
+		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Minor selection issues in with actor/items in two sections",
+"sf2-demo"	=> "No known issues, game is completable.".
+"spyfox2"	=> "No known issues, game is completable.",
+		   "<br>- Both Macintosh and Windows versions supported by this target".
+"sf3-demo"	=> "No known issues, game is completable.",
 "spyozon"	=> "Game is playable but not completable".
-		   "<br>- Various issues",
+		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Can't see the combination to lock, when underwater".
+		   "<br>- Minor graphical glitches",
 "chase"		=> "Game is playable, with glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Graphical glitches",
-"mustard"	=> "Only shows introduction ",
+"mustard"	=> "Only shows introduction ".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 
 "sky"	 	=> "No known issues, game is completable.".
 		   "<br>- Requires the <a href=\"SKY.CPT\">SKY.CPT</a> resource file to be placed in the game directory".
