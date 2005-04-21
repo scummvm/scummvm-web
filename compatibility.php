@@ -272,8 +272,7 @@ $notes = array(
 "freddi3"	=> "No known issues, game is completable",
 "f4-demo"	=> "No known issues, game is completable",
 "freddi4"	=> "Game is completable, with minor glitches".
-		   "<br>- The seahorse in introduction shouldn't move upwards".
-		   "<br>- Need to ESC past the salesmen's introduction",
+		   "<br>- The seahorse in introduction shouldn't move upwards",
 "ff5demo"	=> "Game is playable but not completable".
 		   "<br>- Various issues",
 "freddicove"	=> "Game is playable but not completable".
