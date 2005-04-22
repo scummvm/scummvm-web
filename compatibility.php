@@ -93,9 +93,9 @@ $gamesHE = array(
 		'Backyard Baseball 2001 (Demo)'						=> array('n/a','bb2demo','40'),
 		'Backyard Football 2002 (Demo)'						=> array('n/a','footdemo','10'),
 		'Blue\'s ABC Time (Demo)'						=> array('n/a','BluesABCTimeDemo','90'),
-		'Big Thinkers First Grade (Demo)'					=> array('n/a','1grademo','50'),
-		'Big Thinkers Kindergarten (Demo)'					=> array('n/a','kinddemo','50'),
-		'Big Thinkers Kindergarten'						=> array('n/a','thinkerk','50'),
+		'Big Thinkers First Grade (Demo)'					=> array('n/a','1grademo','80'),
+		'Big Thinkers Kindergarten (Demo)'					=> array('n/a','kinddemo','80'),
+		'Big Thinkers Kindergarten'						=> array('n/a','thinkerk','80'),
 		'Fatty Bears Birthday Surprise (Demo)'					=> array('n/a','fbdemo','95'),
 		'Fatty Bears Birthday Surprise'						=> array('n/a','fbear','93'),
 		'Fatty Bears Fun Pack'							=> array('n/a','fbpack','95'),
@@ -109,8 +109,8 @@ $gamesHE = array(
 		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'	=> array('n/a','freddi4','85'),
 		'Freddi Fish 5: The Case of the Creature of Coral Cave (Demo)'		=> array('n/a','ff5demo','20'),
 		'Freddi Fish 5: The Case of the Creature of Coral Cave'			=> array('n/a','freddicove','20'),
-		'Freddi Fish and Luther\'s Maze Madness'				=> array('n/a','maze','50'),
-		'Freddi Fish and Luther\'s Water Worries'				=> array('n/a','water','50'),
+		'Freddi Fish and Luther\'s Maze Madness'				=> array('n/a','maze','85'),
+		'Freddi Fish and Luther\'s Water Worries'				=> array('n/a','water','85'),
 		'Let\'s Explore the Airport with Buzzy (Demo)'				=> array('n/a','airdemo','85'),
 		'Let\'s Explore the Airport with Buzzy'					=> array('n/a','airport','85'),
 		'Let\'s Explore the Farm with Buzzy (Demo)'				=> array('n/a','farmdemo','85'),
@@ -124,21 +124,21 @@ $gamesHE = array(
 		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('n/a','pajama3','50'),
 		'Pajama Sam\'s Lost & Found (Demo)'					=> array('n/a','smaller','70'),
 		'Pajama Sam\'s Lost & Found'						=> array('n/a','lost','40'),
-		'Pajama Sam\'s Sock Works'						=> array('n/a','socks','50'),
+		'Pajama Sam\'s Sock Works'						=> array('n/a','socks','85'),
 		'Putt-Putt Enters the Race (Demo)'					=> array('n/a','racedemo','85'),
 		'Putt-Putt Enters the Race'						=> array('n/a','puttrace','50'),
 		'Putt-Putt Goes To The Moon (Demo)'					=> array('n/a','moondemo','95'),
 		'Putt-Putt Goes To The Moon'						=> array('n/a','puttmoon','95'),
 		'Putt-Putt Joins the Circus (Demo)'					=> array('n/a','circdemo','90'),
-		'Putt-Putt Joins the Circus'						=> array('n/a','puttcircus','40'),
+		'Putt-Putt Joins the Circus'						=> array('n/a','puttcircus','50'),
 		'Putt-Putt Joins the Parade (Demo)'					=> array('n/a','puttdemo','95'),
 		'Putt-Putt Joins the Parade'						=> array('n/a','puttputt','95'),
 		'Putt-Putt Saves the Zoo (Demo)'					=> array('n/a','zoodemo','80'),
 		'Putt-Putt Saves the Zoo'						=> array('n/a','puttzoo','80'),
 		'Putt-Putt Travels Through Time (Demo)'					=> array('n/a','timedemo','80'),
 		'Putt-Putt Travels Through Time'					=> array('n/a','putttime','80'),
-		'Putt-Putt and Pep\'s Balloon-O-Rama'					=> array('n/a','balloon','50'),
-		'Putt-Putt and Pep\'s Dog on a Stick'					=> array('n/a','dog','50'),
+		'Putt-Putt and Pep\'s Balloon-O-Rama'					=> array('n/a','balloon','85'),
+		'Putt-Putt and Pep\'s Dog on a Stick'					=> array('n/a','dog','85'),
 		'Putt-Putts Fun Pack'							=> array('n/a','funpack','95'),
 		'Putt-Putt & Fatty Bear\'s Activity Pack'				=> array('n/a','activity','95'),
 		'Spyfox 1: Dry Cereal (Demo)'						=> array('n/a','spydemo','90'),
@@ -147,8 +147,8 @@ $gamesHE = array(
 		'Spyfox 2: Some Assembly Required'					=> array('n/a','spyfox2','90'),
 		'Spyfox 3: Operation Ozone (Demo)'					=> array('n/a','sf3-demo','90'),
 		'Spyfox 3: Operation Ozone'						=> array('n/a','spyozon','70'),
-		'Spy Fox in Cheese Chase Game'						=> array('n/a','chase','40'),
-		'Spy Fox in Hold the Mustard'						=> array('n/a','mustard','10'),
+		'Spy Fox in Cheese Chase Game'						=> array('n/a','chase','20'),
+		'Spy Fox in Hold the Mustard'						=> array('n/a','mustard','20'),
 	      );
 
 $gamesOther = array(
@@ -241,14 +241,15 @@ $notes = array(
 "comi"		=> "Game is completable, with minor glitches.",
 
 "bb2demo"	=> "Game is playable, with glitches".
-		   "<br>- Graphical glitches",
-"footdemo"	=> "Only shows introduction".
-		   "<br>- Both Macintosh and Windows versions supported by this target",
+		   "<br>- Palette glitches",
+"footdemo"	=> "Game isn't playable".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Players on field are stuck in upper left corner and can't be controlled",
 "BluesABCTimeDemo" => "Game is playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"1grademo"	=> "Game is playable, but settings aren't saved".
+"1grademo"	=> "Game is completable, with minor glitches".
 		   "<br>- Minor graphical glitches",
-"kinddemo"	=> "Game is playable, but settings aren't saved".
+"kinddemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
 "thinkerk"	=> "Game is playable, but settings aren't saved".
@@ -289,12 +290,10 @@ $notes = array(
 "freddicove"	=> "Game is playable but not completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Various issues",
-"maze"		=> "Game is playable, but settings aren't saved".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Various issues",
-"water"		=> "Game is playable, but settings aren't saved".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Various issues",
+"maze"		=> "Game is completable, with minor glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
+"water"		=> "Game is completable, with minor glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "airdemo"	=> "Game is playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
@@ -328,9 +327,8 @@ $notes = array(
 "lost"		=> "Game is playable, with glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Graphical glitches",
-"socks"		=> "Game is playable, but settings aren't saved".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Various issues",
+"socks"		=> "Game is completable, with minor glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "racedemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
@@ -363,12 +361,10 @@ $notes = array(
 "timedemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
-"balloon"	=> "Game is playable, but settings aren't saved".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Various issues",
-"dog"		=> "Game is playable, but settings aren't saved".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Various issues",
+"balloon"	=> "Game is completable, with minor glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
+"dog"		=> "Game is completable, with minor glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "funpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
 "spydemo"	=> "No known issues, game is completable.".
@@ -389,8 +385,10 @@ $notes = array(
 "chase"		=> "Game is playable, with glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Graphical glitches",
-"mustard"	=> "Only shows introduction ".
-		   "<br>- Both Macintosh and Windows versions supported by this target",
+"mustard"	=> "Game is playable, with glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Need to remove first line of map.ini data file".
+		   "<br>- Graphical glitches",
 
 "sky"	 	=> "No known issues, game is completable.".
 		   "<br>- Requires the <a href=\"SKY.CPT\">SKY.CPT</a> resource file to be placed in the game directory".
