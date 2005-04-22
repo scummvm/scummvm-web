@@ -413,7 +413,6 @@ $notes = array(
 		   "<br>- Amiga version isn't supported.",
 "ite"		=> "Game is not completable.".
 		   "<br>- Puzzle is missing".
-		   "<br>- Converstaions could be performed only with keyboard".
 		   "<br>- Minor graphics glitches in ISO mode",
 "simon1talkie" 	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target",
