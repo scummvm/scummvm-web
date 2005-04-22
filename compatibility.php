@@ -129,6 +129,7 @@ $gamesHE = array(
 		'Putt-Putt Enters the Race'						=> array('n/a','puttrace','50'),
 		'Putt-Putt Goes To The Moon (Demo)'					=> array('n/a','moondemo','95'),
 		'Putt-Putt Goes To The Moon'						=> array('n/a','puttmoon','95'),
+		'Putt-Putt & Fatty Bear\'s Activity Pack'				=> array('n/a','activity','95'),
 		'Putt-Putt Joins the Circus (Demo)'					=> array('n/a','circdemo','90'),
 		'Putt-Putt Joins the Circus'						=> array('n/a','puttcircus','40'),
 		'Putt-Putt Joins the Parade (Demo)'					=> array('n/a','puttdemo','95'),
@@ -262,6 +263,7 @@ $notes = array(
 		   "<br>- Piano sounds aren't correct pitch in DOS version",
 "fbpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
+"activity"	=> "No known issues, game is completable.",
 "freddemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Inventory bubbles don't pop in older demo",
