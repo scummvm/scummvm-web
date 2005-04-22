@@ -159,10 +159,8 @@ $gamesOther = array(
 		'Flight of the Amazon Queen'			       	=> array('n/a','queen','98'),
 		'Inherit the Earth'					=> array('n/a', 'ite', '15'),
 		'Simon The Sorcerer 1 Talkie'       			=> array('n/a','simon1talkie','93'),
-		'Simon The Sorcerer 1 Talkie (Amiga CD32)'     		=> array('n/a','simon1cd32','8'),
  		'Simon The Sorcerer 1 Talkie (Acorn)'			=> array('n/a','simon1acorn','93'),
 		'Simon The Sorcerer 1 (DOS)'           			=> array('n/a','simon1dos','93'),
-		'Simon The Sorcerer 1 (Amiga)'          		=> array('n/a','simon1amiga','5'),
 		'Simon The Sorcerer 1 (Demo)'          			=> array('n/a','simon1demo','93'),
 		'Simon The Sorcerer 2 Talkie'       			=> array('n/a','simon2talkie','95'),
 		'Simon The Sorcerer 2 (DOS)'           			=> array('n/a','simon2dos','95')
@@ -416,14 +414,8 @@ $notes = array(
 		   "<br>- Minor graphics glitches in ISO mode",
 "simon1talkie" 	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target",
-"simon1cd32" 	=> "Game is completable, with major graphics glitches".
-                   "<br>- Character and background graphics are decoded incorrectly".
-                   "<br>- No music",
 "simon1acorn" 	=> "No known issues, game is completable.",
 "simon1dos" 	=> "No known issues, game is completable.",
-"simon1amiga" 	=> "Game works a bit but can't see anything".
-                   "<br>- Character and background graphics are decoded incorrectly".
-                   "<br>- No music",
 "simon1demo" 	=> "No known issues, game demo is completable.",
 "simon2talkie"  => "No known issues, game is completable.".
 		   "<br>- Amiga, DOS, Macintosh and Windows versions supported by this target".
