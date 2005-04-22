@@ -282,8 +282,8 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "f4-demo"	=> "No known issues, game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"freddi4"	=> "No known issues, game is completable",
-		   "<br>- Both Macintosh and Windows versions supported by this target".
+"freddi4"	=> "No known issues, game is completable".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "ff5demo"	=> "Game is playable but not completable".
 		   "<br>- Various issues",
 "freddicove"	=> "Game is playable but not completable".
