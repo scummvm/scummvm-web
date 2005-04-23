@@ -173,6 +173,22 @@ details.</p>
       freddicove.he4</td>
   </tr>
   <tr>
+    <td>Freddi Fish and Luther\'s Maze Madness</td>
+    <td>maze.HE0<br>
+      maze.HE1<br>
+      maze.he2<br>
+      maze.he4<br>
+      maze.he8</td>
+  </tr>
+  <tr>
+    <td>Freddi Fish and Luther\'s Water Worries</td>
+    <td>WATER.HE0<br>
+      WATER.HE1<br>
+      WATER.He2<br>
+      WATER.he4<br>
+      WATER.HE7</td>
+  </tr>
+  <tr>
     <td>Full Throttle</td>
     <td>FT.LA0<br>
     FT.LA1<br>
@@ -373,6 +389,19 @@ details.</p>
       PAJAMA3.HE4</td>
   </tr>
   <tr>
+    <td>Pajama Sam\'s Lost & Found (Demo)</td>
+    <td>data folder<br>
+      smaller.HE0<br>
+      smaller.(a)</td>
+  </tr>
+  <tr>
+    <td>Pajama Sam\'s Lost & Found</td>
+    <td>data folder<br>
+      lost.HE0<br>
+      lost.(a)<br>
+      lost.he2</td>
+  </tr>
+  <tr>
     <td>Passport to Adventure (Indy3, Monkey and Loom demos)</td>
     <td>DISK01.LEC<br>
       *.LFL</td>
@@ -423,6 +452,25 @@ details.</p>
       PUTTMOON.HE0<br>
       PUTTMOON.HE1<br>
       PUTTMOON.TLK</td>
+  </tr>
+  <tr>
+    <td>Putt-Putt and Pep\'s Balloon-O-Rama</td>
+    <td>balloon.HE0<br>
+      balloon.HE1<br>
+      BALLOON.HE2<br>
+      BALLOON.HE3<br>
+      BALLOON.HE4<br>
+      BALLOON.HE8<br>
+      BALLOON.HE9</td>
+  </tr>
+  <tr>
+    <td>Putt-Putt and Pep\'s Dog on a Stick</td>
+    <td>dog.HE0<br>
+      dog.HE1<br>
+      dog.he2<br>
+      dog.he4<br>
+      dog.he7<br>
+      dog.he8</td>
   </tr>
   <tr>
     <td>Sam and Max (Floppy)</td>
@@ -562,6 +610,72 @@ details.</p>
       simon2.italian<br>
       stripped.txt<br>
       tbllist</td>
+  </tr>
+  <tr>
+    <td>Spyfox 1: Dry Cereal (Demo)</td>
+    <td>SPYFOX.HE0<br>
+      SPYFOX.HE1<br>
+      SPYFOX.HE2<br>
+      SPYFOX.HE4</td>
+  </tr>
+  <tr>
+    <td>Spyfox 1: Dry Cereal</td>
+    <td>SPYFOX.HE0<br>
+      Spyfox.(a)<br>
+      SPYFOX.HE2<br>
+      SPYFOX.HE4</td>
+  </tr>
+  <tr>
+    <td>Spyfox 2: Some Assembly Required (Demo)</td>
+    <td>sf2-demo.HE0<br>
+      sf2-demo.(a)<br>
+      sf2-demo.he2<br>
+      SF2-DEMO.HE4</td>
+  </tr>
+  <tr>
+    <td>Spyfox 2: Some Assembly Required</td>
+    <td>spyfox2.HE0<br>
+      SPYFOX2.(a)<br>
+      SPYFOX2.HE2<br>
+      SPYFOX2.HE4<br>
+      spyfox2.he9</td>
+  </tr>
+  <tr>
+    <td>Spyfox 3: Operation Ozone (Demo)</td>
+    <td>SPYOZON.HE0<br>
+      SPYOZON.(A)<br>
+      SPYOZON.HE2<br>
+      SPYOZON.HE3<br>
+      SPYOZON.HE4</td>
+  </tr>
+  <tr>
+    <td>Spyfox 3: Operation Ozone</td>
+    <td>SF3-DEMO.HE0<br>
+      SF3-DEMO.(A)<br>
+      SF3-DEMO.HE2<br>
+      SF3-DEMO.HE3<br>
+      SF3-DEMO.HE4</td>
+  </tr>
+  <tr>
+    <td>Spy Fox in Cheese Chase Game</td>
+    <td>Custom folder<br>
+      Levels folder<br>
+      chase.HE0<br>
+      chase.HE1<br>
+      chase.he2<br>
+      chase.he4<br>
+      chase.he8<br>
+      chase.he9</td>
+  </tr>
+  <tr>
+    <td>Spy Fox in Hold the Mustard</td>
+    <td>images folder<br>
+      map.ini<br>
+      mustard.HE0<br>
+      mustard.(a)<br>
+      mustard.he2<br>
+      mustard.he4<br>
+      mustard.he7</td>
   </tr>
   <tr>
     <td>Simon the Sorcerer 2 Talkie (DOS or DOS Demo)</td>
