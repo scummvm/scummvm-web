@@ -124,10 +124,10 @@ details.</p>
   </tr>
   <tr>
     <td>Freddi Fish 2: The Case of the Haunted Schoolhouse</td>
-    <td>Freddi2.he0<br>
-      Freddi2.he1 or Freddi2.(a)<br>
-      Freddi2.he2<br>
-      Freddi2.he4</td>
+    <td>FREDDI2.HE0<br>
+      FREDDI2.HE1 or FREDDI2.(A)<br>
+      FREDDI2.HE2<br>
+      FREDDI2.HE4</td>
   </tr>
   <tr>
     <td>Freddi Fish 3: The Case of the Stolen Conch Shell (Demo)</td>
@@ -175,17 +175,17 @@ details.</p>
   <tr>
     <td>Freddi Fish and Luther\'s Maze Madness</td>
     <td>maze.HE0<br>
-      maze.HE1<br>
-      maze.he2<br>
-      maze.he4<br>
-      maze.he8</td>
+      MAZE.HE1<br>
+      MAZE.HE2<br>
+      MAZE.HE4<br>
+      MAZE.HE8</td>
   </tr>
   <tr>
     <td>Freddi Fish and Luther\'s Water Worries</td>
     <td>WATER.HE0<br>
       WATER.HE1<br>
-      WATER.He2<br>
-      WATER.he4<br>
+      WATER.HE2<br>
+      WATER.HE4<br>
       WATER.HE7</td>
   </tr>
   <tr>
@@ -279,11 +279,11 @@ details.</p>
   </tr>
   <tr>
     <td>Let's Explore the Farm with Buzzy (Demo)</td>
-    <td>farmdemo.HE0<br>
-      farmdemo.HE1<br>
-      farmdemo.HE2<br>
-      farmdemo.HE3<br>
-      farmdemo.HE4</td>
+    <td>FARMDEMO.HE0<br>
+      FARMDEMO.HE1<br>
+      FARMDEMO.HE2<br>
+      FARMDEMO.HE3<br>
+      FARMDEMO.HE4</td>
   </tr>
   <tr>
     <td>Let's Explore the Farm with Buzzy</td>
@@ -376,10 +376,10 @@ details.</p>
   </tr>
   <tr>
     <td>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Demo)</td>
-    <td>pj3-demo.HE0<br>
-      pj3-demo.(a)<br>
-      pj3-demo.HE2<br>
-      pj3-demo.HE3</td>
+    <td>PJ3-DEMO.HE0<br>
+      PJ3-DEMO.(A)<br>
+      PJ3-DEMO.HE2<br>
+      PJ3-DEMO.HE3</td>
   </tr>
   <tr>
     <td>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet</td>
@@ -391,15 +391,15 @@ details.</p>
   <tr>
     <td>Pajama Sam\'s Lost & Found (Demo)</td>
     <td>data folder<br>
-      smaller.HE0<br>
-      smaller.(a)</td>
+      SMALLER.HE0<br>
+      SMALLER.(A)</td>
   </tr>
   <tr>
     <td>Pajama Sam\'s Lost & Found</td>
     <td>data folder<br>
-      lost.HE0<br>
-      lost.(a)<br>
-      lost.he2</td>
+      LOST.HE0<br>
+      LOST.(A)<br>
+      LOST.HE2</td>
   </tr>
   <tr>
     <td>Passport to Adventure (Indy3, Monkey and Loom demos)</td>
@@ -456,7 +456,7 @@ details.</p>
   <tr>
     <td>Putt-Putt and Pep\'s Balloon-O-Rama</td>
     <td>balloon.HE0<br>
-      balloon.HE1<br>
+      BALLOON.HE1<br>
       BALLOON.HE2<br>
       BALLOON.HE3<br>
       BALLOON.HE4<br>
@@ -465,12 +465,12 @@ details.</p>
   </tr>
   <tr>
     <td>Putt-Putt and Pep\'s Dog on a Stick</td>
-    <td>dog.HE0<br>
-      dog.HE1<br>
-      dog.he2<br>
-      dog.he4<br>
-      dog.he7<br>
-      dog.he8</td>
+    <td>DOG.HE0<br>
+      DOG.HE1<br>
+      DOG.HE2<br>
+      DOG.HE4<br>
+      DOG.HE7<br>
+      DOG.HE8</td>
   </tr>
   <tr>
     <td>Sam and Max (Floppy)</td>
@@ -621,24 +621,24 @@ details.</p>
   <tr>
     <td>Spyfox 1: Dry Cereal</td>
     <td>SPYFOX.HE0<br>
-      Spyfox.(a)<br>
+      SPYFOX.(A)<br>
       SPYFOX.HE2<br>
       SPYFOX.HE4</td>
   </tr>
   <tr>
     <td>Spyfox 2: Some Assembly Required (Demo)</td>
-    <td>sf2-demo.HE0<br>
-      sf2-demo.(a)<br>
-      sf2-demo.he2<br>
+    <td>SF2-DEMO.HE0<br>
+      SF2-DEMO.(A)<br>
+      SF2-DEMO.he2<br>
       SF2-DEMO.HE4</td>
   </tr>
   <tr>
     <td>Spyfox 2: Some Assembly Required</td>
-    <td>spyfox2.HE0<br>
-      SPYFOX2.(a)<br>
+    <td>SPYFOX2.HE0<br>
+      SPYFOX2.(A)<br>
       SPYFOX2.HE2<br>
       SPYFOX2.HE4<br>
-      spyfox2.he9</td>
+      SPYFOX2.he9</td>
   </tr>
   <tr>
     <td>Spyfox 3: Operation Ozone (Demo)</td>
@@ -660,22 +660,22 @@ details.</p>
     <td>Spy Fox in Cheese Chase Game</td>
     <td>Custom folder<br>
       Levels folder<br>
-      chase.HE0<br>
-      chase.HE1<br>
-      chase.he2<br>
-      chase.he4<br>
-      chase.he8<br>
-      chase.he9</td>
+      CHASE.HE0<br>
+      CHASE.HE1<br>
+      CHASE.HE2<br>
+      CHASE.HE4<br>
+      CHASE.HE8<br>
+      CHASE.HE9</td>
   </tr>
   <tr>
     <td>Spy Fox in Hold the Mustard</td>
     <td>images folder<br>
       map.ini<br>
-      mustard.HE0<br>
-      mustard.(a)<br>
-      mustard.he2<br>
-      mustard.he4<br>
-      mustard.he7</td>
+      MUSTARD.HE0<br>
+      MUSTARD.(A)<br>
+      MUSTARD.HE2<br>
+      MUSTARD.HE4<br>
+      MUSTARD.HE7</td>
   </tr>
   <tr>
     <td>Simon the Sorcerer 2 Talkie (DOS or DOS Demo)</td>
