@@ -173,7 +173,7 @@ details.</p>
       freddicove.he4</td>
   </tr>
   <tr>
-    <td>Freddi Fish and Luther\'s Maze Madness</td>
+    <td>Freddi Fish and Luther's Maze Madness</td>
     <td>maze.HE0<br>
       MAZE.HE1<br>
       MAZE.HE2<br>
@@ -181,7 +181,7 @@ details.</p>
       MAZE.HE8</td>
   </tr>
   <tr>
-    <td>Freddi Fish and Luther\'s Water Worries</td>
+    <td>Freddi Fish and Luther's Water Worries</td>
     <td>WATER.HE0<br>
       WATER.HE1<br>
       WATER.HE2<br>
@@ -389,13 +389,13 @@ details.</p>
       PAJAMA3.HE4</td>
   </tr>
   <tr>
-    <td>Pajama Sam\'s Lost & Found (Demo)</td>
+    <td>Pajama Sam's Lost & Found (Demo)</td>
     <td>data folder<br>
       SMALLER.HE0<br>
       SMALLER.(A)</td>
   </tr>
   <tr>
-    <td>Pajama Sam\'s Lost & Found</td>
+    <td>Pajama Sam's Lost & Found</td>
     <td>data folder<br>
       LOST.HE0<br>
       LOST.(A)<br>
@@ -411,6 +411,21 @@ details.</p>
     <td>FUNPACK.HE0<br>
         FUNPACK.HE1<br>
 	FUNPACK.TLK</td>
+  </tr>
+  <tr>
+    <td>Putt-Putt Enters the Race (Demo)</td>
+    <td>RACEDEMO.HE0<br>
+      RACEDEMO.(A)<br>
+      RACEDEMO.HE2<br>
+      RACEDEMO.HE4</td>
+  </tr>
+  <tr>
+    <td>Putt-Putt Enters the Race</td>
+    <td>PUTTRACE.HE0<br>
+      PUTTRACE.(A)<br>
+      PUTTRACE.(B)<br>
+      PUTTRACE.HE2<br>
+      PUTTRACE.HE4</td>
   </tr>
   <tr>
     <td>Putt-Putt Joins The Parade (DOS Demo)</td>
@@ -431,6 +446,20 @@ details.</p>
       moondemo.tlk</td>
   </tr>
   <tr>
+    <td>Putt-Putt Joins the Circus (Demo)</td>
+    <td>CIRCDEMO.HE0<br>
+      CIRCDEMO.(A)<br>
+      CIRCDEMO.HE2<br>
+      CIRCDEMO.HE4</td>
+  </tr>
+  <tr>
+    <td>Putt-Putt Joins the Circus</td>
+    <td>PUTTCIRCUS.HE0<br>
+      PUTTCIRCUS.(A)<br>
+      PUTTCIRCUS.HE2<br>
+      PUTTCIRCUS.HE4</td>
+  </tr>
+  <tr>
     <td>Putt-Putt Saves the Zoo (Demo)</td>
     <td>ZOODEMO.HE0<br>
       ZOODEMO.HE1<br>
@@ -447,6 +476,21 @@ details.</p>
       PUTTZOO.HE4</td>
   </tr>
   <tr>
+    <td>Putt-Putt Travels Through Time (Demo)</td>
+    <td>TIMEDEMO.HE0<br>
+      TIMEDEMO.HE1<br>
+      TIMEDEMO.HE2<br>
+      TIMEDEMO.HE3<br>
+      TIMEDEMO.HE4</td>
+  </tr>
+  <tr>
+    <td>Putt-Putt Travels Through Time</td>
+    <td>PuttTTT.HE0<br>
+      PuttTTT.(A)<br>
+      PuttTTT.HE2<br>
+      PuttTTT.HE4</td>
+  </tr>
+  <tr>
     <td>Putt-Putt Goes To The Moon (DOS)&nbsp;</td>
     <td>PUTTMOON.BRS<br>
       PUTTMOON.HE0<br>
@@ -454,7 +498,7 @@ details.</p>
       PUTTMOON.TLK</td>
   </tr>
   <tr>
-    <td>Putt-Putt and Pep\'s Balloon-O-Rama</td>
+    <td>Putt-Putt and Pep's Balloon-O-Rama</td>
     <td>balloon.HE0<br>
       BALLOON.HE1<br>
       BALLOON.HE2<br>
@@ -464,7 +508,7 @@ details.</p>
       BALLOON.HE9</td>
   </tr>
   <tr>
-    <td>Putt-Putt and Pep\'s Dog on a Stick</td>
+    <td>Putt-Putt and Pep's Dog on a Stick</td>
     <td>DOG.HE0<br>
       DOG.HE1<br>
       DOG.HE2<br>

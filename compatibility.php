@@ -387,7 +387,6 @@ $notes = array(
 		   "<br>- Graphical glitches",
 "mustard"	=> "Game is playable, with glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Need to remove first line of map.ini data file".
 		   "<br>- Graphical glitches",
 
 "sky"	 	=> "No known issues, game is completable.".
