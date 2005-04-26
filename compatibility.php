@@ -333,6 +333,7 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
 "puttrace"	=> "Game is playable but not completable".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Can't move around the field".
 		   "<br>- Ending sequence locks up".
 		   "<br>- Minor graphical glitches",
