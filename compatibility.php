@@ -107,8 +107,6 @@ $gamesHE = array(
 		'Freddi Fish 3: The Case of the Stolen Conch Shell'			=> array('n/a','freddi3','90'),
 		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Demo)'	=> array('n/a','f4-demo','90'),
 		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'	=> array('n/a','freddi4','85'),
-		'Freddi Fish 5: The Case of the Creature of Coral Cave (Demo)'		=> array('n/a','ff5demo','20'),
-		'Freddi Fish 5: The Case of the Creature of Coral Cave'			=> array('n/a','freddicove','20'),
 		'Freddi Fish and Luther\'s Maze Madness'				=> array('n/a','maze','85'),
 		'Freddi Fish and Luther\'s Water Worries'				=> array('n/a','water','85'),
 		'Let\'s Explore the Airport with Buzzy (Demo)'				=> array('n/a','airdemo','85'),
@@ -285,11 +283,6 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "freddi4"	=> "No known issues, game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"ff5demo"	=> "Game is playable but not completable".
-		   "<br>- Various issues",
-"freddicove"	=> "Game is playable but not completable".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Various issues",
 "maze"		=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "water"		=> "Game is completable, with minor glitches".
