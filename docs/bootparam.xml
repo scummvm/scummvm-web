@@ -1,7 +1,7 @@
-<NAME>SCUMM boot params</NAME>
-<DESC>A partial list of the bootparams of some SCUMM games.</DESC>
+<NAME>boot params</NAME>
+<DESC>A partial list of the boot params of some games.</DESC>
 <BODY>
-	<h1>SCUMM boot params</h1>
+	<h1>boot params</h1>
 
 <h2>What are boot params?</h2>
 <p>
