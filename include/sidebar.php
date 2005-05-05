@@ -78,7 +78,7 @@ function sidebar_start ($specs_mode = false)
 	</div></form>	
 	
 	<p>
-		<a href="http://sourceforge.net/"><img src="http://sourceforge.net/sflogo.php?group_id=37116" width="88" height="31" alt="SourceForge"></a>
+		<a href="http://sourceforge.net/"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=37116" width="88" height="31" alt="SourceForge"></a>
 	</p>
 
 	<p>
