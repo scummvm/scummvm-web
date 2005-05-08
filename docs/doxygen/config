@@ -418,6 +418,7 @@ WARN_LOGFILE           =
 
 INPUT                  = /home/groups/s/sc/scummvm/scummvm/base \
                          /home/groups/s/sc/scummvm/scummvm/common \
+                         /home/groups/s/sc/scummvm/scummvm/gob \
                          /home/groups/s/sc/scummvm/scummvm/graphics \
                          /home/groups/s/sc/scummvm/scummvm/gui \
                          /home/groups/s/sc/scummvm/scummvm/kyra \
@@ -450,9 +451,7 @@ RECURSIVE              = YES
 # excluded from the INPUT source files. This way you can easily exclude a 
 # subdirectory from a directory tree whose root is specified with the INPUT tag.
 
-EXCLUDE                = /home/groups/s/sc/scummvm/scummvm/sky/compacts \
-                         /home/groups/s/sc/scummvm/scummvm/sky/compact.h \
-                         /home/groups/s/sc/scummvm/scummvm/sky/skydefs.h \
+EXCLUDE                = /home/groups/s/sc/scummvm/scummvm/sky/skydefs.h \
                          /home/groups/s/sc/scummvm/scummvm/sky/talks.h \
                          /home/groups/s/sc/scummvm/scummvm/sword1/swordres.h \
                          /home/groups/s/sc/scummvm/scummvm/queen/restables.cpp
@@ -960,6 +959,9 @@ INCLUDE_FILE_PATTERNS  =
 PREDEFINED             = USE_FLAC \
                          USE_MAD \
                          USE_VORBIS \
+                         USE_ZLIB \
+                         USE_MPEG2 \
+                         USE_MT32EMU \
                          UNIX
 
 # If the MACRO_EXPANSION and EXPAND_ONLY_PREDEF tags are set to YES then 
