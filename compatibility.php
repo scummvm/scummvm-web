@@ -124,7 +124,7 @@ $gamesHE = array(
 		'Pajama Sam\'s Lost & Found'						=> array('n/a','lost','40'),
 		'Pajama Sam\'s Sock Works'						=> array('n/a','socks','85'),
 		'Putt-Putt Enters the Race (Demo)'					=> array('n/a','racedemo','85'),
-		'Putt-Putt Enters the Race'						=> array('n/a','puttrace','50'),
+		'Putt-Putt Enters the Race'						=> array('n/a','puttrace','70'),
 		'Putt-Putt Goes To The Moon (Demo)'					=> array('n/a','moondemo','95'),
 		'Putt-Putt Goes To The Moon'						=> array('n/a','puttmoon','95'),
 		'Putt-Putt Joins the Circus (Demo)'					=> array('n/a','circdemo','90'),
@@ -325,10 +325,9 @@ $notes = array(
 "racedemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
-"puttrace"	=> "Game is playable but not completable".
+"puttrace"	=> "Game is completable, with glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Can't move around the field".
-		   "<br>- Ending sequence locks up".
+		   "<br>- Can't move around in the field".
 		   "<br>- Minor graphical glitches",
 "moondemo"	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target",
