@@ -22,6 +22,7 @@
 <tr><td>Jamieson Christian</td><td>[&nbsp;jamieson630&nbsp;]</td><td>iMUSE, MIDI, all things musical</td>
 <tr><td>Jerome Fisher</td><td>[&nbsp;KingGuppy&nbsp;]</td><td>MT-32 emulator</td>
 <tr><td>Jochen Hoenicke</td><td>[&nbsp;hoenicke&nbsp;]</td><td>Speaker &amp; PCjr sound support, Adlib work</td>
+<tr><td>Hans-J&ouml;rg Frieden</td><td></td><td>Port: AmigaOS 4</td>
 <tr><td colspan=3>&nbsp;</td></tr>
 <tr><td colspan=3><h2>Retired Team Members:</h2></td></tr>
 <tr><td>Ralph Brorsen</td><td>[&nbsp;painelf&nbsp;]</td><td>Help with GUI implementation</td>
@@ -52,6 +53,7 @@
 <tr><td>Johannes Schickel</td><td>[&nbsp;LordHoto&nbsp;]</td><td>Thumbnails for ScummEngine</td>
 <tr><td>Andr&eacute; Souza</td><td></td><td>SDL-based OpenGL renderer</td>
 <tr><td>Tim ???</td><td>[&nbsp;realmz&nbsp;]</td><td>Initial MI1 CD music support</td>
+<tr><td>Juha Niemim&auml;ki</td><td></td><td>AmigaOS 4 port maintaining</td>
 <tr><td colspan=3>&nbsp;</td></tr>
 <tr><td colspan="3">And to all the contributors, users, and beta testers we've missed. Thanks!</td></tr>
 <tr><td colspan="3">&nbsp;</td></tr>
