@@ -53,8 +53,12 @@ echo html_round_frame_start("About ScummVM","");
 		<h1>What is <span style="color: green">Scumm</span>VM?</h1>
 
 		<p>
-		ScummVM is a 'virtual machine' for several classic graphical point-and-click adventure
-		games. It is designed to run: <a href="http://www.adventuresoft.com">Adventure Soft</a>'s
+		ScummVM is a program which allows you to run certain classic graphical point-and-click adventure
+		games, provided you already have their data files. The clever part about this: ScummVM just replaces
+		the executables shipped with the game, allowing you to play them on systems for which they were never designed!
+		</p>
+		<p>
+		ScummVM lets you run these adventures: <a href="http://www.adventuresoft.com">Adventure Soft</a>'s
 		<i>Simon the Sorcerer</i> 1 and 2; <a href="http://www.revolution.co.uk">Revolution</a>'s
 		<i>Beneath A Steel Sky</i>, Broken Sword 1 and Broken Sword 2; Flight of the Amazon Queen;
 		and games based on <a href="http://www.lucasarts.com">LucasArts</a>'
@@ -64,8 +68,12 @@ echo html_round_frame_start("About ScummVM","");
 		Compatibility with supported games is continually improving, so check back often.
 		</p>
 		<p>
+		Among the systems on which you can play those games are Windows, Linux, Mac OS X, Dreamcast, PocketPC,
+		PalmOS, AmigaOS, BeOS, and many more...
+		</p>
+		<p>
 		Our forum and IRC channel, <a href="irc://irc.freenode.net/scummvm">#scummvm on
-		irc.freenode.net</a>, are open for comments and suggestions. Please read our FAQ
+		irc.freenode.net</a>, are open for comments and suggestions. Please read our <a href="faq.php">FAQ</a>
 		before posting, particularly regarding support for other adventure games.
 		</p>
 	  </td>
