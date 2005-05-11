@@ -18,6 +18,9 @@ sidebar_start();
 //display welcome table
 echo html_round_frame_start("Compatibility","");
 
+if (isset($_GET['details'])) {
+	$details = $_GET['details'];
+}
 
 ?>
 	<h1>Compatibility</h1>
@@ -55,113 +58,113 @@ else
 
 // This array defines the games and their ratings, etc.
 $gamesLucas = array(
-		'Maniac Mansion (original)'				=> array('1','maniac','90'),
-		'Maniac Mansion (enhanced)'				=> array('2','maniac','95'),
-		'Zak McKracken and the Alien Mindbenders (original)'	=> array('1','zak','85'),
-		'Zak McKracken and the Alien Mindbenders (enhanced)'	=> array('2','zak','90'),
-		'Zak McKracken and the Alien Mindbenders (FM-TOWNS)'	=> array('3','zaktowns','90'),
-		'Indiana Jones and the Last Crusade'			=> array('3','indy3ega','90'),
-		'Indiana Jones and the Last Crusade (256)'		=> array('3','indy3','90'),
-		'Indiana Jones and the Last Crusade (FM-TOWNS)'		=> array('3','indy3towns','90'),
-		'Loom'							=> array('3','loom','95'),
-		'Loom (FM-TOWNS)'					=> array('3','loomtowns','75'),
-		'The Secret of Monkey Island (EGA)'			=> array('4','monkeyega','95'),
-		'Passport to Adventure (Indy3, Monkey and Loom demos)'  => array('4','pass','95'),
-		'Loom (256 color CD version)'                           => array('5','loomcd','95'),
-		'The Secret of Monkey Island (VGA Floppy)'		=> array('5','monkeyvga','95'),
-		'The Secret of Monkey Island (VGA CD)'			=> array('5','monkey','95'),
-		'The Secret of Monkey Island (Alternative VGA CD)'	=> array('5','monkey1','95'),
-		'The Secret of Monkey Island (Sega CD)'			=> array('5','game','85'),
-		'Monkey Island 2: LeChuck\'s revenge'			=> array('5','monkey2','95'),
-		'Monkey Island 2: LeChuck\'s revenge (DOS Demo)'	=> array('5','mi2demo','10'),
-		'Indiana Jones 4 and the Fate of Atlantis'		=> array('5','atlantis','95'),
-		'Indiana Jones 4 and the Fate of Atlantis (FM-TOWNS)'	=> array('5','indy4','95'),
-		'Indiana Jones 4 and the Fate of Atlantis (Demo)'	=> array('5','playfate','95'),
-		'Day Of The Tentacle'					=> array('6','tentacle','95'),
-		'Day Of The Tentacle (Demo)'				=> array('6','dottdemo','95'),
-		'Sam & Max'                                             => array('6','samnmax','95'),
-		'Sam & Max (Demo)'					=> array('6','samdemo','95'),
-		'Full Throttle'						=> array('7','ft','85'),
-		'The Dig'                                               => array('7','dig','90'),
-		'Curse of Monkey Island'				=> array('8','comi','85'),
+		'Maniac Mansion (original)'				=> array('maniac','90'),
+		'Maniac Mansion (enhanced)'				=> array('maniac','95'),
+		'Zak McKracken and the Alien Mindbenders (original)'	=> array('zak','85'),
+		'Zak McKracken and the Alien Mindbenders (enhanced)'	=> array('zak','90'),
+		'Zak McKracken and the Alien Mindbenders (FM-TOWNS)'	=> array('zaktowns','90'),
+		'Indiana Jones and the Last Crusade'			=> array('indy3ega','90'),
+		'Indiana Jones and the Last Crusade (256)'		=> array('indy3','90'),
+		'Indiana Jones and the Last Crusade (FM-TOWNS)'		=> array('indy3towns','90'),
+		'Loom'							=> array('loom','95'),
+		'Loom (FM-TOWNS)'					=> array('loomtowns','75'),
+		'The Secret of Monkey Island (EGA)'			=> array('monkeyega','95'),
+		'Passport to Adventure (Indy3, Monkey and Loom demos)'  => array('pass','95'),
+		'Loom (256 color CD version)'                           => array('loomcd','95'),
+		'The Secret of Monkey Island (VGA Floppy)'		=> array('monkeyvga','95'),
+		'The Secret of Monkey Island (VGA CD)'			=> array('monkey','95'),
+		'The Secret of Monkey Island (Alternative VGA CD)'	=> array('monkey1','95'),
+		'The Secret of Monkey Island (Sega CD)'			=> array('game','85'),
+		'Monkey Island 2: LeChuck\'s revenge'			=> array('monkey2','95'),
+		'Monkey Island 2: LeChuck\'s revenge (DOS Demo)'	=> array('mi2demo','10'),
+		'Indiana Jones 4 and the Fate of Atlantis'		=> array('atlantis','95'),
+		'Indiana Jones 4 and the Fate of Atlantis (FM-TOWNS)'	=> array('indy4','95'),
+		'Indiana Jones 4 and the Fate of Atlantis (Demo)'	=> array('playfate','95'),
+		'Day Of The Tentacle'					=> array('tentacle','95'),
+		'Day Of The Tentacle (Demo)'				=> array('dottdemo','95'),
+		'Sam & Max'                                             => array('samnmax','95'),
+		'Sam & Max (Demo)'					=> array('samdemo','95'),
+		'Full Throttle'						=> array('ft','85'),
+		'The Dig'                                               => array('dig','90'),
+		'Curse of Monkey Island'				=> array('comi','85'),
 	      );
 
 $gamesHE = array(
-		'Backyard Baseball 2001 (Demo)'						=> array('n/a','bb2demo','5'),
-		'Backyard Football 2002 (Demo)'						=> array('n/a','footdemo','5'),
-		'Blue\'s ABC Time (Demo)'						=> array('n/a','BluesABCTimeDemo','90'),
-		'Big Thinkers First Grade (Demo)'					=> array('n/a','1grademo','10'),
-		'Big Thinkers Kindergarten (Demo)'					=> array('n/a','kinddemo','50'),
-		'Big Thinkers Kindergarten'						=> array('n/a','thinkerk','10'),
-		'Fatty Bears Birthday Surprise (Demo)'					=> array('n/a','fbdemo','95'),
-		'Fatty Bears Birthday Surprise'						=> array('n/a','fbear','93'),
-		'Fatty Bears Fun Pack'							=> array('n/a','fbpack','95'),
-		'Freddi Fish 1: The Case of the Missing Kelp Seeds (Demo)'		=> array('n/a','freddemo','90'),
-		'Freddi Fish 1: The Case of the Missing Kelp Seeds'			=> array('n/a','freddi','80'),
-		'Freddi Fish 2: The Case of the Haunted Schoolhouse (Demo)'		=> array('n/a','ff2-demo','70'),
-		'Freddi Fish 2: The Case of the Haunted Schoolhouse'			=> array('n/a','freddi2','70'),
-		'Freddi Fish 3: The Case of the Stolen Conch Shell (Demo)'		=> array('n/a','f3-mdemo','70'),
-		'Freddi Fish 3: The Case of the Stolen Conch Shell'			=> array('n/a','freddi3','70'),
-		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Demo)'	=> array('n/a','f4-demo','10'),
-		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'	=> array('n/a','freddi4','10'),
-		'Freddi Fish 5: The Case of the Creature of Coral Cave (Demo)'		=> array('n/a','ff5demo','10'),
-		'Freddi Fish 5: The Case of the Creature of Coral Cave'			=> array('n/a','freddicove','10'),
-		'Freddi Fish and Luther\'s Maze Madness'				=> array('n/a','maze','50'),
-		'Freddi Fish and Luther\'s Water Worries'				=> array('n/a','water','50'),
-		'Let\'s Explore the Airport with Buzzy (Demo)'				=> array('n/a','airdemo','50'),
-		'Let\'s Explore the Airport with Buzzy'					=> array('n/a','airport','50'),
-		'Let\'s Explore the Farm with Buzzy (Demo)'				=> array('n/a','farmdemo','50'),
-		'Let\'s Explore the Farm with Buzzy'					=> array('n/a','farm','50'),
-		'Let\'s Explore the Jungle with Buzzy'					=> array('n/a','jungle','50'),
-		'Pajama Sam 1: No Need to Hide When It\'s Dark Outside (Demo)'		=> array('n/a','pjs-demo','90'),
-		'Pajama Sam 1: No Need to Hide When It\'s Dark Outside'			=> array('n/a','pajama','80'),
-		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening (Demo)'	=> array('n/a','pj2demo','90'),
-		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'		=> array('n/a','pajama2','70'),
-		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Demo)'	=> array('n/a','pj3-demo','70'),
-		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('n/a','pajama3','20'),
-		'Pajama Sam\'s Lost & Found (Demo)'					=> array('n/a','smaller','5'),
-		'Pajama Sam\'s Lost & Found'						=> array('n/a','lost','5'),
-		'Pajama Sam\'s Sock Works'						=> array('n/a','socks','50'),
-		'Putt-Putt Enters the Race (Demo)'					=> array('n/a','racedemo','10'),
-		'Putt-Putt Enters the Race'						=> array('n/a','puttrace','10'),
-		'Putt-Putt Goes To The Moon (Demo)'					=> array('n/a','moondemo','95'),
-		'Putt-Putt Goes To The Moon'						=> array('n/a','puttmoon','95'),
-		'Putt-Putt Joins the Circus (Demo)'					=> array('n/a','circdemo','10'),
-		'Putt-Putt Joins the Circus'						=> array('n/a','puttcircus','10'),
-		'Putt-Putt Joins the Parade (Demo)'					=> array('n/a','puttdemo','95'),
-		'Putt-Putt Joins the Parade'						=> array('n/a','puttputt','95'),
-		'Putt-Putt Saves the Zoo (Demo)'					=> array('n/a','zoodemo','70'),
-		'Putt-Putt Saves the Zoo'						=> array('n/a','puttzoo','70'),
-		'Putt-Putt Travels Through Time (Demo)'					=> array('n/a','timedemo','70'),
-		'Putt-Putt Travels Through Time'					=> array('n/a','putttime','70'),
-		'Putt-Putt and Pep\'s Balloon-O-Rama'					=> array('n/a','balloon','50'),
-		'Putt-Putt and Pep\'s Dog on a Stick'					=> array('n/a','dog','50'),
-		'Putt-Putts Fun Pack'							=> array('n/a','funpack','95'),
-		'Spyfox 1: Dry Cereal (Demo)'						=> array('n/a','foxdemo','10'),
-		'Spyfox 1: Dry Cereal (Alternative Demo)'				=> array('n/a','spydemo','10'),
-		'Spyfox 1: Dry Cereal'							=> array('n/a','spyfox','10'),
-		'Spyfox 2: Some Assembly Required (Demo)'				=> array('n/a','sf2-demo','10'),
-		'Spyfox 2: Some Assembly Required'					=> array('n/a','spyfox2','10'),
-		'Spyfox 3: Operation Ozone (Demo)'					=> array('n/a','sf3-demo','10'),
-		'Spyfox 3: Operation Ozone'						=> array('n/a','spyozon','10'),
-		'Spy Fox in Cheese Chase Game'						=> array('n/a','chase','10'),
-		'Spy Fox in Hold the Mustard'						=> array('n/a','mustard','10'),
+		'Backyard Baseball 2001 (Demo)'						=> array('bb2demo','5'),
+		'Backyard Football 2002 (Demo)'						=> array('footdemo','5'),
+		'Blue\'s ABC Time (Demo)'						=> array('BluesABCTimeDemo','90'),
+		'Big Thinkers First Grade (Demo)'					=> array('1grademo','10'),
+		'Big Thinkers Kindergarten (Demo)'					=> array('kinddemo','50'),
+		'Big Thinkers Kindergarten'						=> array('thinkerk','10'),
+		'Fatty Bears Birthday Surprise (Demo)'					=> array('fbdemo','95'),
+		'Fatty Bears Birthday Surprise'						=> array('fbear','93'),
+		'Fatty Bears Fun Pack'							=> array('fbpack','95'),
+		'Freddi Fish 1: The Case of the Missing Kelp Seeds (Demo)'		=> array('freddemo','90'),
+		'Freddi Fish 1: The Case of the Missing Kelp Seeds'			=> array('freddi','80'),
+		'Freddi Fish 2: The Case of the Haunted Schoolhouse (Demo)'		=> array('ff2-demo','70'),
+		'Freddi Fish 2: The Case of the Haunted Schoolhouse'			=> array('freddi2','70'),
+		'Freddi Fish 3: The Case of the Stolen Conch Shell (Demo)'		=> array('f3-mdemo','70'),
+		'Freddi Fish 3: The Case of the Stolen Conch Shell'			=> array('freddi3','70'),
+		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Demo)'	=> array('f4-demo','10'),
+		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'	=> array('freddi4','10'),
+		'Freddi Fish 5: The Case of the Creature of Coral Cave (Demo)'		=> array('ff5demo','10'),
+		'Freddi Fish 5: The Case of the Creature of Coral Cave'			=> array('freddicove','10'),
+		'Freddi Fish and Luther\'s Maze Madness'				=> array('maze','50'),
+		'Freddi Fish and Luther\'s Water Worries'				=> array('water','50'),
+		'Let\'s Explore the Airport with Buzzy (Demo)'				=> array('airdemo','50'),
+		'Let\'s Explore the Airport with Buzzy'					=> array('airport','50'),
+		'Let\'s Explore the Farm with Buzzy (Demo)'				=> array('farmdemo','50'),
+		'Let\'s Explore the Farm with Buzzy'					=> array('farm','50'),
+		'Let\'s Explore the Jungle with Buzzy'					=> array('jungle','50'),
+		'Pajama Sam 1: No Need to Hide When It\'s Dark Outside (Demo)'		=> array('pjs-demo','90'),
+		'Pajama Sam 1: No Need to Hide When It\'s Dark Outside'			=> array('pajama','80'),
+		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening (Demo)'	=> array('pj2demo','90'),
+		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'		=> array('pajama2','70'),
+		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Demo)'	=> array('pj3-demo','70'),
+		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('pajama3','20'),
+		'Pajama Sam\'s Lost & Found (Demo)'					=> array('smaller','5'),
+		'Pajama Sam\'s Lost & Found'						=> array('lost','5'),
+		'Pajama Sam\'s Sock Works'						=> array('socks','50'),
+		'Putt-Putt Enters the Race (Demo)'					=> array('racedemo','10'),
+		'Putt-Putt Enters the Race'						=> array('puttrace','10'),
+		'Putt-Putt Goes To The Moon (Demo)'					=> array('moondemo','95'),
+		'Putt-Putt Goes To The Moon'						=> array('puttmoon','95'),
+		'Putt-Putt Joins the Circus (Demo)'					=> array('circdemo','10'),
+		'Putt-Putt Joins the Circus'						=> array('puttcircus','10'),
+		'Putt-Putt Joins the Parade (Demo)'					=> array('puttdemo','95'),
+		'Putt-Putt Joins the Parade'						=> array('puttputt','95'),
+		'Putt-Putt Saves the Zoo (Demo)'					=> array('zoodemo','70'),
+		'Putt-Putt Saves the Zoo'						=> array('puttzoo','70'),
+		'Putt-Putt Travels Through Time (Demo)'					=> array('timedemo','70'),
+		'Putt-Putt Travels Through Time'					=> array('putttime','70'),
+		'Putt-Putt and Pep\'s Balloon-O-Rama'					=> array('balloon','50'),
+		'Putt-Putt and Pep\'s Dog on a Stick'					=> array('dog','50'),
+		'Putt-Putts Fun Pack'							=> array('funpack','95'),
+		'Spyfox 1: Dry Cereal (Demo)'						=> array('foxdemo','10'),
+		'Spyfox 1: Dry Cereal (Alternative Demo)'				=> array('spydemo','10'),
+		'Spyfox 1: Dry Cereal'							=> array('spyfox','10'),
+		'Spyfox 2: Some Assembly Required (Demo)'				=> array('sf2-demo','10'),
+		'Spyfox 2: Some Assembly Required'					=> array('spyfox2','10'),
+		'Spyfox 3: Operation Ozone (Demo)'					=> array('sf3-demo','10'),
+		'Spyfox 3: Operation Ozone'						=> array('spyozon','10'),
+		'Spy Fox in Cheese Chase Game'						=> array('chase','10'),
+		'Spy Fox in Hold the Mustard'						=> array('mustard','10'),
 	      );
 
 $gamesOther = array(
 
-		'Beneath a Steel Sky'			       		=> array('n/a','sky','98'),
-		'Broken Sword I'			       		=> array('n/a','sword1','98'),
-		'Broken Sword II'			       		=> array('n/a','sword2','98'),
-		'Flight of the Amazon Queen'			       	=> array('n/a','queen','98'),
-		'Simon The Sorcerer 1 Talkie'       			=> array('n/a','simon1talkie','93'),
-		'Simon The Sorcerer 1 Talkie (Amiga CD32)'     		=> array('n/a','simon1cd32','8'),
- 		'Simon The Sorcerer 1 Talkie (Acorn)'			=> array('n/a','simon1acorn','93'),
-		'Simon The Sorcerer 1 (DOS)'           			=> array('n/a','simon1dos','93'),
-		'Simon The Sorcerer 1 (Amiga)'          		=> array('n/a','simon1amiga','5'),
-		'Simon The Sorcerer 1 (Demo)'          			=> array('n/a','simon1demo','93'),
-		'Simon The Sorcerer 2 Talkie'       			=> array('n/a','simon2talkie','95'),
-		'Simon The Sorcerer 2 (DOS)'           			=> array('n/a','simon2dos','95')
+		'Beneath a Steel Sky'			       		=> array('sky','98'),
+		'Broken Sword I'			       		=> array('sword1','98'),
+		'Broken Sword II'			       		=> array('sword2','98'),
+		'Flight of the Amazon Queen'			       	=> array('queen','98'),
+		'Simon The Sorcerer 1 Talkie'       			=> array('simon1talkie','93'),
+		'Simon The Sorcerer 1 Talkie (Amiga CD32)'     		=> array('simon1cd32','8'),
+ 		'Simon The Sorcerer 1 Talkie (Acorn)'			=> array('simon1acorn','93'),
+		'Simon The Sorcerer 1 (DOS)'           			=> array('simon1dos','93'),
+		'Simon The Sorcerer 1 (Amiga)'          		=> array('simon1amiga','5'),
+		'Simon The Sorcerer 1 (Demo)'          			=> array('simon1demo','93'),
+		'Simon The Sorcerer 2 Talkie'       			=> array('simon2talkie','95'),
+		'Simon The Sorcerer 2 (DOS)'           			=> array('simon2dos','95')
 	      );
 
 $notes = array(
@@ -386,33 +389,28 @@ $notes = array(
 );
 		
 // render the compatibility chart
-if ($details)
-	echo html_frame_start("Game Compatibility Chart","90%",2,1,"color4");
-else
-	echo html_frame_start("LucasArts Game Compatibility Chart","90%",2,1,"color4");
 
-echo html_frame_tr(
-		   html_frame_td("Game Full Name").
-		   html_frame_td("Scumm Ver.").
-		   html_frame_td("Game Short Name").
-		   html_frame_td("% Completed"),
-		   "color4"
-
-		  );
-$c = 0;
-// Ender - Added this
 if ($details) {
+	// 'Details' mode -- information about a specific game
+	echo html_frame_start("Game Compatibility Chart","90%",2,1,"color4");
+	echo html_frame_tr(
+			   html_frame_td("Game Full Name").
+			   html_frame_td("Game Short Name").
+			   html_frame_td("% Completed"),
+			   "color4"
+	
+			  );
+
 	$arrayt = array_merge($gamesLucas, $gamesHE, $gamesOther);
 	while (list($name,$array) = each($arrayt))
 	{	
 
-		if ($array[1] == $details) {
+		if ($array[0] == $details) {
 			$color = "color0";
 			echo html_frame_tr(
 				html_frame_td($name).
-			  	html_frame_td($array[0]).
-			    	html_frame_td($array[1]).
-		 	    	html_frame_td($array[2]."%", 'align="center" class="pct'.($array[2] - ($array[2]%5)).'"'),
+			    	html_frame_td($array[0]).
+		 	    	html_frame_td($array[1]."%", 'align="center" class="pct'.($array[1] - ($array[1]%5)).'"'),
 		  	        $color
 	  		);
 			echo html_frame_tr(html_frame_td(
@@ -424,66 +422,40 @@ if ($details) {
 		}
 	}
 } else {
-	while (list($name,$array) = each($gamesLucas))
-	{	
-		if ($c % 2 == 0) { $color = "color2"; } else { $color = "color0"; }
+	// List mode -- show all games
+	function displayGameList($title, $games) {
+		echo html_frame_start("$title Game Compatibility Chart","90%",2,1,"color4");
 		echo html_frame_tr(
-				    html_frame_td(html_ahref($name, $PHP_SELF."?details=".$array[1])).
-     				    html_frame_td($array[0]).
-				    html_frame_td($array[1]).
-			 	    html_frame_td($array[2]."%", 'align="center" class="pct'.($array[2] - ($array[2]%5)).'"'),
- 			  	    $color
-		);
-		$c++;
-	}		  
+			   html_frame_td("Game Full Name").
+			   html_frame_td("Game Short Name").
+			   html_frame_td("% Completed"),
+			   "color4"
+			  );
+		$c = 0;
+		while (list($name,$array) = each($games))
+		{	
+			if ($c % 2 == 0) { $color = "color2"; } else { $color = "color0"; }
+			echo html_frame_tr(
+						html_frame_td(html_ahref($name, $PHP_SELF."?details=".$array[0])).
+						html_frame_td($array[0]).
+						html_frame_td($array[1]."%", 'align="center" class="pct'.($array[1] - ($array[1]%5)).'"'),
+						$color
+			);
+			$c++;
+		}		  
+	}
+	
+	displayGameList("LucasArts", $gamesLucas);
 
 	echo html_frame_end("&nbsp;");
 	echo html_p();
 
-	echo html_frame_start("Humongous Entertainment Game Compatibility Chart","90%",2,1,"color4");
-	echo html_frame_tr(
-		   html_frame_td("Game Full Name").
-		   html_frame_td("Game Short Name").
-		   html_frame_td("% Completed"),
-		   "color4"
-
-		  );
-	$c = 0;
-	while (list($name,$array) = each($gamesHE))
-	{	
-		if ($c % 2 == 0) { $color = "color2"; } else { $color = "color0"; }
-		echo html_frame_tr(
-				    html_frame_td(html_ahref($name, $PHP_SELF."?details=".$array[1])).
-  				    html_frame_td($array[1]).
-			 	    html_frame_td($array[2]."%", 'align="center" class="pct'.($array[2] - ($array[2]%5)).'"'),
- 			  	    $color
-		);
-		$c++;
-	}		  
+	displayGameList("Other", $gamesOther);
 
 	echo html_frame_end("&nbsp;");
 	echo html_p();
 
-	echo html_frame_start("Other Game Compatibility Chart","90%",2,1,"color4");
-	echo html_frame_tr(
-		   html_frame_td("Game Full Name").
-		   html_frame_td("Game Short Name").
-		   html_frame_td("% Completed"),
-		   "color4"
-
-		  );
-	$c = 0;
-	while (list($name,$array) = each($gamesOther))
-	{	
-		if ($c % 2 == 0) { $color = "color2"; } else { $color = "color0"; }
-		echo html_frame_tr(
-				    html_frame_td(html_ahref($name, $PHP_SELF."?details=".$array[1])).
-     				    html_frame_td($array[1]).
-			 	    html_frame_td($array[2]."%", 'align="center" class="pct'.($array[2] - ($array[2]%5)).'"'),
- 			  	    $color
-		);
-		$c++;
-	}		  
+	displayGameList("Humongous Entertainment", $gamesHE);
 }
 
 echo html_frame_end("&nbsp;");
