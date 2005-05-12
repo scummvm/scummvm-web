@@ -93,8 +93,8 @@ $gamesLucas = array(
 	      );
 
 $gamesHE = array(
-		'Backyard Baseball 2001 (Demo)'						=> array('bb2demo','40'),
-		'Backyard Football 2002 (Demo)'						=> array('footdemo','10'),
+		'Backyard Baseball 2001 (Demo)'						=> array('bb2demo','70'),
+		'Backyard Football 2002 (Demo)'						=> array('footdemo','80'),
 		'Blue\'s ABC Time (Demo)'						=> array('BluesABCTimeDemo','90'),
 		'Big Thinkers First Grade (Demo)'					=> array('1grademo','80'),
 		'Big Thinkers Kindergarten (Demo)'					=> array('kinddemo','80'),
@@ -109,7 +109,7 @@ $gamesHE = array(
 		'Freddi Fish 3: The Case of the Stolen Conch Shell (Demo)'		=> array('f3-mdemo','90'),
 		'Freddi Fish 3: The Case of the Stolen Conch Shell'			=> array('freddi3','90'),
 		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Demo)'	=> array('f4-demo','90'),
-		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'	=> array('freddi4','85'),
+		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'	=> array('freddi4','90'),
 		'Freddi Fish and Luther\'s Maze Madness'				=> array('maze','85'),
 		'Freddi Fish and Luther\'s Water Worries'				=> array('water','85'),
 		'Let\'s Explore the Airport with Buzzy (Demo)'				=> array('airdemo','85'),
@@ -147,7 +147,7 @@ $gamesHE = array(
 		'Spyfox 2: Some Assembly Required (Demo)'				=> array('sf2-demo','90'),
 		'Spyfox 2: Some Assembly Required'					=> array('spyfox2','90'),
 		'Spyfox 3: Operation Ozone (Demo)'					=> array('sf3-demo','90'),
-		'Spyfox 3: Operation Ozone'						=> array('spyozon','70'),
+		'Spyfox 3: Operation Ozone'						=> array('spyozon','60'),
 		'Spy Fox in Cheese Chase Game'						=> array('chase','20'),
 		'Spy Fox in Hold the Mustard'						=> array('mustard','20'),
 	      );
@@ -241,11 +241,11 @@ $notes = array(
 		   "<br>- Both Mac and PC versions supported by this target",
 "comi"		=> "Game is completable, with minor glitches.",
 
-"bb2demo"	=> "Game is playable, with glitches".
+"bb2demo"	=> "Game is completable, with glitches".
 		   "<br>- Palette glitches",
-"footdemo"	=> "Game isn't playable".
+"footdemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Players on field are stuck in upper left corner and can't be controlled",
+		   "<br>- Minor graphical glitches",
 "BluesABCTimeDemo" => "Game is playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "1grademo"	=> "Game is completable, with minor glitches".
@@ -253,7 +253,7 @@ $notes = array(
 "kinddemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
-"thinkerk"	=> "Game is playable, but settings aren't saved".
+"thinkerk"	=> "Game is playable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
 "fbdemo"	=> "Should be playable to the end".
@@ -272,11 +272,11 @@ $notes = array(
 		   "<br>- Sometimes double speech when using objects",
 "ff2-demo"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Often uses wrong songs".
+		   "<br>- Animation isn't synced during songs".
 		   "<br>- Minor graphical glitches",
 "freddi2"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Often uses wrong songs".
+		   "<br>- Animation isn't synced during songs".
 		   "<br>- Minor graphical glitches",
 "f3-mdemo"	=> "No known issues, game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
@@ -315,9 +315,10 @@ $notes = array(
 		   "<br>- Minor graphical glitches",
 "pj3-demo"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Various issues",
+		   "<br>- Minor graphical glitches",
 "pajama3"	=> "Game is playable but not completable".
-		   "<br>- Various issues",
+		   "<br>- Sprites not displayed during Ski Ride".
+		   "<br>- Minor graphical glitches",
 "smaller"	=> "Game is completable, with minor glitches".
 		   "<br>- Palette glitches",
 "lost"		=> "Game is playable, with glitches".
@@ -331,6 +332,7 @@ $notes = array(
 "puttrace"	=> "Game is completable, with glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Can't move around in the field".
+		   "<br>- Flashlight doesn't work correctly".
 		   "<br>- Minor graphical glitches",
 "moondemo"	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target",
@@ -340,8 +342,9 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "puttcircus"	=> "Game is playable but not completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Magnifying glass doesn't work".
 		   "<br>- Runs out of array pointers".
-		   "<br>- Minor graphical glitches",
+		   "<br>- Graphical glitches",
 "puttdemo"	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target",
 "puttputt"	=> "No known issues, game is completable.".
@@ -375,8 +378,9 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "sf3-demo"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"spyozon"	=> "Game is completable, with glitches".
+"spyozon"	=> "Game is completable, depending on path".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Asserts when looking at pearls",
 		   "<br>- Need to guess the correct colors of Poodles's fingernails".
 		   "<br>- Palette glitches",
 "chase"		=> "Game is playable, with glitches".
