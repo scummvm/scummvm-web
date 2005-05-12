@@ -62,6 +62,7 @@
 <tr><td>???</td><td>[&nbsp;Canadacow&nbsp;]</td><td>For the original MT-32 emulator</td>
 <tr><td>Kevin Carnes</td><td></td><td>For Scumm16, the basis of ScummVM's older gfx codecs</td>
 <tr><td>???</td><td>[&nbsp;Jezar&nbsp;]</td><td>For his freeverb filter implementation</td>
+<tr><td>Ivan Dubrov</td><td></td><td>For contributing the initial version of the Gobliiins engine</td>
 <tr><td>Jim Leiterman</td><td></td><td>Various info on his FM-TOWNS/Marty SCUMM ports</td>
 <tr><td>Jimmi Th&oslash;gersen</td><td></td><td>For ScummRev, and much obscure code/documentation</td>
 <tr><td>???</td><td>[&nbsp;Tristan&nbsp;]</td><td>For additional work on the original MT-32 emulator</td>
