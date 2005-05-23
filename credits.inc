@@ -18,15 +18,15 @@
 <tr><td>Chris Apers</td><td>[&nbsp;chrilith &nbsp;]</td><td>Port: PalmOS</td>
 <tr><td>Nicolas Bacca</td><td>[&nbsp;arisme&nbsp;]</td><td>Port: PocketPC/WinCE</td>
 <tr><td>Marcus Comstedt</td><td></td><td>Port: Dreamcast</td>
-<tr><td>Ruediger Hanke</td><td></td><td>Port: MorphOS</td>
-<tr><td>Jamieson Christian</td><td>[&nbsp;jamieson630&nbsp;]</td><td>iMUSE, MIDI, all things musical</td>
+<tr><td>Hans-J&ouml;rg Frieden</td><td></td><td>Port: AmigaOS 4</td>
 <tr><td>Jerome Fisher</td><td>[&nbsp;KingGuppy&nbsp;]</td><td>MT-32 emulator</td>
 <tr><td>Jochen Hoenicke</td><td>[&nbsp;hoenicke&nbsp;]</td><td>Speaker &amp; PCjr sound support, Adlib work</td>
-<tr><td>Hans-J&ouml;rg Frieden</td><td></td><td>Port: AmigaOS 4</td>
 <tr><td colspan=3>&nbsp;</td></tr>
 <tr><td colspan=3><h2>Retired Team Members:</h2></td></tr>
 <tr><td>Ralph Brorsen</td><td>[&nbsp;painelf&nbsp;]</td><td>Help with GUI implementation</td>
+<tr><td>Jamieson Christian</td><td>[&nbsp;jamieson630&nbsp;]</td><td>iMUSE, MIDI, all things musical</td>
 <tr><td>Vincent Hamm</td><td>[&nbsp;yazoo&nbsp;]</td><td>Co-Founder</td>
+<tr><td>Ruediger Hanke</td><td></td><td>Port: MorphOS</td>
 <tr><td>Felix Jakschitsch</td><td>[&nbsp;yot&nbsp;]</td><td>Zak256 reverse engineering</td>
 <tr><td>Mutwin Kraus</td><td>[&nbsp;mutle&nbsp;]</td><td>Original MacOS porter</td>
 <tr><td>Peter Moraliyski</td><td>[&nbsp;ph0x&nbsp;]</td><td>Port: GP32</td>
@@ -43,6 +43,7 @@
 <tr><td>Robert Kelsen</td><td></td><td>Packaging for SlackWare</td>
 <tr><td>Claudio Matsuoka</td><td></td><td>Daily Linux builds</td>
 <tr><td>Mikesch Nepomuk</td><td></td><td>MI1 VGA floppy patches</td>
+<tr><td>Juha Niemim&auml;ki</td><td></td><td>AmigaOS 4 port maintaining</td>
 <tr><td>Nicolas Noble</td><td>[&nbsp;pixels&nbsp;]</td><td>Config file and ALSA support</td>
 <tr><td>Willem Jan Palenstijn</td><td>[&nbsp;wjp&nbsp;]</td><td>Packaging for Fedora/RedHat</td>
 <tr><td>Stefan Parviainen</td><td></td><td>Packaging for BeOS</td>
@@ -53,7 +54,6 @@
 <tr><td>Johannes Schickel</td><td>[&nbsp;LordHoto&nbsp;]</td><td>Thumbnails for ScummEngine</td>
 <tr><td>Andr&eacute; Souza</td><td></td><td>SDL-based OpenGL renderer</td>
 <tr><td>Tim ???</td><td>[&nbsp;realmz&nbsp;]</td><td>Initial MI1 CD music support</td>
-<tr><td>Juha Niemim&auml;ki</td><td></td><td>AmigaOS 4 port maintaining</td>
 <tr><td colspan=3>&nbsp;</td></tr>
 <tr><td colspan="3">And to all the contributors, users, and beta testers we've missed. Thanks!</td></tr>
 <tr><td colspan="3">&nbsp;</td></tr>
