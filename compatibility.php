@@ -149,7 +149,7 @@ $gamesHE = array(
 		'Spyfox 3: Operation Ozone (Demo)'					=> array('sf3-demo','90'),
 		'Spyfox 3: Operation Ozone'						=> array('spyozon','60'),
 		'Spy Fox in Cheese Chase Game'						=> array('chase','20'),
-		'Spy Fox in Hold the Mustard'						=> array('mustard','20'),
+		'Spy Fox in Hold the Mustard'						=> array('mustard','85'),
 	      );
 
 $gamesOther = array(
@@ -386,9 +386,8 @@ $notes = array(
 "chase"		=> "Game is playable, with glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Graphical glitches",
-"mustard"	=> "Game is playable, with glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Graphical glitches",
+"mustard"	=> "No known issues, game is completable.".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 
 "sky"	 	=> "No known issues, game is completable.".
 		   "<br>- Requires the <a href=\"SKY.CPT\">SKY.CPT</a> resource file to be placed in the game directory".
