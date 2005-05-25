@@ -170,7 +170,7 @@ $gamesOther = array(
 $notes = array(
 "maniac"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, Atari ST, Mac, NES and PC versions supported by this target".
-		   "<br>- NES version playable but not completable",
+		   "<br>- Graphical glitches in NES version",
 "zak"		=> "No known issues, game is completable.".
 		   "<br>- Amiga, Atari ST and PC versions supported by this target".
 		   "<br>- Some sound effects buggy or missing in Amiga version",
@@ -297,7 +297,6 @@ $notes = array(
 		   "<br>- Minor graphical glitches",
 "farmdemo"	=> "Game is playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Screen isn't cleared when moving between dictionary enties in the older demo".
 		   "<br>- Minor graphical glitches",
 "farm"		=> "Game is playable".
 		   "<br>- Minor graphical glitches",
@@ -385,7 +384,7 @@ $notes = array(
 		   "<br>- Palette glitches",
 "chase"		=> "Game is playable, with glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Graphical glitches",
+		   "<br>- Spy Fox's scooter is scrolled off screen, as the screen scrolls vertically",
 "mustard"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 
