@@ -319,7 +319,7 @@ $notes = array(
 "pajama3"	=> "Game is playable but not completable".
 		   "<br>- Sprites aren't displayed during Ski Ride".
 		   "<br>- Minor graphical glitches",
-"smaller"	=> "No known issues, game is completable".
+"smaller"	=> "No known issues, game is completable",
 "lost"		=> "Game is playable, with glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Asserts during bonus game selection, if not all bonus pieces were found. Use Esc to bypass issue".
