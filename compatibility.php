@@ -123,8 +123,8 @@ $gamesHE = array(
 		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'		=> array('pajama2','80'),
 		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Demo)'	=> array('pj3-demo','80'),
 		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('pajama3','50'),
-		'Pajama Sam\'s Lost & Found (Demo)'					=> array('smaller','70'),
-		'Pajama Sam\'s Lost & Found'						=> array('lost','40'),
+		'Pajama Sam\'s Lost & Found (Demo)'					=> array('smaller','90'),
+		'Pajama Sam\'s Lost & Found'						=> array('lost','50'),
 		'Pajama Sam\'s Sock Works'						=> array('socks','85'),
 		'Putt-Putt Enters the Race (Demo)'					=> array('racedemo','85'),
 		'Putt-Putt Enters the Race'						=> array('puttrace','70'),
@@ -257,7 +257,7 @@ $notes = array(
 "thinkerk"	=> "Game is playable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
-"fbdemo"	=> "Should be playable to the end".
+"fbdemo"	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target",
 "fbear"		=> "Game should be completable, with several glitches".
 		   "<br>- 3DO, DOS and Windows versions supported by this target".
@@ -317,13 +317,13 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
 "pajama3"	=> "Game is playable but not completable".
-		   "<br>- Sprites not displayed during Ski Ride".
+		   "<br>- Sprites aren't displayed during Ski Ride".
 		   "<br>- Minor graphical glitches",
-"smaller"	=> "Game is completable, with minor glitches".
-		   "<br>- Palette glitches",
+"smaller"	=> "No known issues, game is completable".
 "lost"		=> "Game is playable, with glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Graphical glitches",
+		   "<br>- Asserts during bonus game selection, if not all bonus pieces were found. Use Esc to bypass issue".
+		   "<br>- Minor graphical glitches",
 "socks"		=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "racedemo"	=> "Game is completable, with minor glitches".
