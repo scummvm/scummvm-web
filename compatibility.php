@@ -93,8 +93,10 @@ $gamesLucas = array(
 	      );
 
 $gamesHE = array(
-		'Backyard Baseball 2001 (Demo)'						=> array('bb2demo','70'),
-		'Backyard Football 2002 (Demo)'						=> array('footdemo','80'),
+		'Backyard Baseball'							=> array('baseball','20'),
+		'Backyard Football (Demo)'						=> array('footdemo','80'),
+		'Backyard Football'							=> array('football','80'),
+		'Backyard Soccer'							=> array('soccer','20'),
 		'Blue\'s ABC Time (Demo)'						=> array('BluesABCTimeDemo','90'),
 		'Big Thinkers First Grade (Demo)'					=> array('1grademo','80'),
 		'Big Thinkers Kindergarten (Demo)'					=> array('kinddemo','80'),
@@ -242,9 +244,18 @@ $notes = array(
 		   "<br>- Both Mac and PC versions supported by this target",
 "comi"		=> "Game is completable, with minor glitches.",
 
-"bb2demo"	=> "Game is completable, with glitches".
-		   "<br>- Palette glitches",
+"baseball"	=> "Game is playable, with glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Array out of bounds errors sometimes".
+		   "<br>- Minor graphical glitches",
 "footdemo"	=> "Game is completable, with minor glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Minor graphical glitches",
+"football"	=> "Game is completable, with minor glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Minor graphical glitches",
+"soccer"	=> "Game is playable, with minor glitches".
+		   "<br>- Array out of bounds errors sometimes".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
 "BluesABCTimeDemo" => "Game is playable".
