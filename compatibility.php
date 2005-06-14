@@ -255,8 +255,8 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
 "soccer"	=> "Game is playable, with minor glitches".
-		   "<br>- Array out of bounds errors sometimes".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Array out of bounds errors sometimes".
 		   "<br>- Minor graphical glitches",
 "BluesABCTimeDemo" => "Game is playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
