@@ -1,0 +1,90 @@
+<NAME>Mac CD ScummVM HOWTO</NAME>
+<DESC>This page describes how to copy files from Mac LEC game releases and prepare them for ScummVM.</DESC>
+<BODY>
+
+<h1>Mac CD ScummVM HOWTO</h1>
+
+<h2>Introduction:</h2>
+
+<p>This is a rough description of how to use your Macintosh CD
+version of a classic LucasArts game with ScummVM on Win32. Following
+procedure describes how to do it with "Sam &amp; Max Hit the Road
+Macintosh CD-ROM" on Windows 2000 Professional. Your mileage may 
+vary with other titles or versions of Windows.</p>
+
+<h2>Tools:</h2>
+
+<p>You will need the "Windows Installer" from the 
+<a href="http://scummvm.sourceforge.net/downloads.php">download page</a>.
+If you're using ScummVM version prior to 0.7.0 you additionally will need
+"ScummVM Tools Windows Installer" from same URL.
+To copy the game data file from the CD to your hard disc, you will
+need 
+<a href="http://gamma.nic.fi/~lpesonen/HFVExplorer/">HFVExplorer</a>. Make
+sure you get the "HFV Explorer installer" rather than the zip
+file.</p>
+
+<p>You should be running as Administrator to install all of the
+tools. Everything else should work as a normal user. Run the
+ScummVM installers and allow them to install to the default
+location (C:\ScummVM). Don't worry about overwriting files. Run the
+HFVExplorer installer and allow it to use its defaults.</p>
+
+<h2>Copying the game data file:</h2>
+
+<p>Start up HFVExplorer; if you don't have a shortcut for it, find
+it in "c:\program&nbsp;files\HFVExplorer". It should open the HFS
+(Macintosh filesystem) CD-ROM automatically when you insert the
+disc. Make sure HFVExplorer is displaying hidden files: Select
+View-&gt;Options and enable "Show invisible Mac files" on the "File
+attributes" tab.</p>
+
+<p>Now, look for the data file in the right pane. It will probably
+end with the word "Data" and will be the largest file on the
+volume. For instance, it is called "Sam &amp; Max Data" on the "Sam
+&amp; Max" CD-ROM. Select the data file and copy it (use Ctrl+C or
+Edit-&gt;Copy). In the left HFVExplorer pane, navigate to the
+directory where you want the game to reside on your hard disc. We
+recommend selecting drive C: and creating a new folder called
+"SamNMax" or a name that better reflects your particular game.</p>
+
+<p>Paste the data file (with Ctrl+V or Edit-&gt;Paste) and allow
+HFVExplorer to choose the copy mode. Now, wait while the program
+copies several hundred mebibytes from the CD. When the file is
+copied, close HFVExplorer.</p>
+
+<h2>Running rescumm:</h2>
+
+<p><b>NOTE:</b> If you are using ScummVM version 0.7.0 and
+above, you don't need this. Just point ScummVM to directory where
+you copied the Data file. <small>(Hint: If you're using older
+version we strongly recommend to upgrade)</small></p>
+
+<p>Open a command prompt window and change the directory to your
+newly created folder. Then, run rescumm on the data file to extract
+its contents. For example, type the following for Sam &amp; Max,
+making sure you use double quotes around the data filename:</p>
+<pre>
+cd c:\SamNMax
+c:\scummvm\rescumm "Sam &amp; Max Data"
+
+</pre>
+
+<p>Once the several files are successfully extracted, you can
+delete the data file. Now, you can fire up ScummVM and add the new
+game to play it. The ScummVM documentation (README) describes
+ScummVM and rescumm usage in detail. If you have any questions,
+look at the <a href="http://scummvm.sourceforge.net/faq.php">ScummVM FAQ</a>,
+the <a href="http://scummvm.sourceforge.net/documentation.php">ScummVM
+Documentation</a>, and the
+<a href="http://sourceforge.net/forum/?group_id=37116">forums</a>.</p>
+
+<h2>Related Information:</h2>
+
+<p>If you are using ScummVM on MacOS X, you may find
+<a href="http://www.ps2cheats.com/randomstuff/scumm/">How to Rescumm for Dummies!</a> useful.</p>
+<p><br />
+<br />
+Based on document Copyright &copy; 2004 Jonathan Rogers</p>
+
+</BODY>
