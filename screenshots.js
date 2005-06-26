@@ -9,8 +9,8 @@ function openWin(fileToOpen,nameOfWindow,width,height) {
 
 var i_jn = 0;
 function scrshot_jn(x,n) {
-	if (n) i_jn++; else i_jn--;
-	if (i_jn > x) i_jn = 0;
-	if (i_jn < 0) i_jn = x;
-	document['img_jn'].src = "./screenshots/scummvm_" + i_jn + ".png";
+	i_jn += n;
+	if (i_jn >= x) i_jn = 0;
+	if (i_jn < 0) i_jn = x-1;
+	document['img_jn'].src = "./screenshots/scummvm_" + i_jn + ".jpg";
 }

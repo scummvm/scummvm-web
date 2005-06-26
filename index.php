@@ -11,6 +11,7 @@ $file_root = ".";
 
 // load libraries
 require($file_root."/include/"."incl.php");
+require($file_root."/include/"."screenshots.php");
 
 // start of html
 html_header("ScummVM", '<script src="'.$file_root.'/screenshots.js" type="text/javascript"></script>');
@@ -23,21 +24,9 @@ $shownews = $HTTP_GET_VARS['shownews'];
 if (!$shownews)
 {
 
-// Grab list of images from screenshot dir
-// and loop through them and add to $shots array
-$shots = array();
-$images = get_files($file_root."/screenshots","png");
-while (list($key,$image) = each($images))
-{
-        if (ereg("big",$image))
-          continue;
-        array_push($shots,$image);
-}
-
 // counter vars
-$total = (count($shots) - 1);
 srand((double) microtime() * 1000000);
-$randImg = rand(0,$total);
+$randImg = rand(0, screenshots_count - 1);
 
 echo html_round_frame_start("About ScummVM","");
 ?>
@@ -85,17 +74,17 @@ echo html_round_frame_start("About ScummVM","");
 			<a href="javascript:openWin('./screenshots/big_scummvm_'+i_jn+'.png','scummvm',640,483);"
 			onMouseOver="window.status='Click to View Full Size Image';return true;"
 			onMouseOut="window.status='';return true;"><img
-			src="./screenshots/scummvm_<?=$randImg?>.png" width=256 height=192
+			src="<?=screenshot_thumb_path($randImg)?>" width="<?=$thumb_w?>" height="<?=$thumb_h?>"
 			style="margin: 5px"
 			name="img_jn" alt="Click to view Full Size"></a>
 		</td></tr>
 		<tr>
 			<td align=left>
-			  <a href="javascript:scrshot_jn(<?=$total?>,0);">&lt;&lt; Previous</a>
+			  <a href="javascript:scrshot_jn(<?=$screenshots_count?>,-1);">&lt;&lt; Previous</a>
 			</td>
 			<td></td>
 			<td align=right>
-			  <a href="javascript:scrshot_jn(<?=$total?>,1);">Next &gt;&gt;</a>
+			  <a href="javascript:scrshot_jn(<?=$screenshots_count?>,+1);">Next &gt;&gt;</a>
 			</td>
 		</tr>
 		</table>

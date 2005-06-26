@@ -10,6 +10,7 @@ $file_root = ".";
 
 // load libraries
 require($file_root."/include/"."incl.php");
+require($file_root."/include/"."screenshots.php");
 
 // start of html
 html_header("ScummVM :: Screenshots");
@@ -39,14 +40,14 @@ if ($view != "")
 		 html_frame_start("Screenshot Viewer","540",2,0,"color0"),
 	     html_frame_tr(
 				html_frame_td(
-					'<img src="'.$file_root.'/screenshots/big_scummvm_'.$view.'.png" '.
+					'<img src="'.screenshot_path($view).'" '.
 						'alt="Screenshot '.$view.'">',
 					'align=center class="color0" style="padding-top: 10px;"'
 				)
 			),
 	     html_frame_tr(
 				html_frame_td(
-					implode('', file($file_root.'/screenshots/scummvm_'.$view.'.txt')),
+					screenshot_caption($view),
 					'align=center class="color0" style="padding-bottom: 10px; font-style: italic;"'
 				)
 			),
@@ -62,26 +63,14 @@ if ($view != "")
 else
 {
 
-	// Grab list of images from screenshot dir
-	// and loop through them and add to $shots array
-	$shots = array();
-	$images = get_files($file_root."/screenshots","png");
-	while (list($key,$image) = each($images))
-	{
-		if (ereg("big",$image))
-		  continue;
-		array_push($shots,$image);
-	}
-
-	// counter vars
-	$total = count($shots);
-	$num = 0;
-	$where = 0;
+// counter vars
+$num = 0;
+$where = 0;
 
 	echo html_frame_start("Screenshot Gallery","540",2,0,"color0")."<tr>";
 
 	// loop and display images
-	while (list($c,$image) = each($shots))
+	while (list($c,$image) = each($screenshots))
 	{
 		// do not show images less than current pos
 		if ($offset > $c)
@@ -91,10 +80,10 @@ else
 		echo html_frame_td(
 				   '<table cellpadding="0" cellspacing="0"><tr><td align="center">'.
 				   '<a href="'.$PHP_SELF."?view=".$c.'&amp;offset='.$offset.'">'.
-				   '<img src="'.$file_root.'/screenshots/scummvm_'.$c.'.png" '.
-				   'width=256 height=192 alt="Screenshot '.$c.'"></a>'.
+				   '<img src="'.screenshot_thumb_path($c).'" '.
+				   'width="'.$thumb_w.'" height="'.$thumb_h.'" alt="Screenshot '.$c.'"></a>'.
 				   '</td></tr><tr><td align="center">'.
-				   implode('', file($file_root.'/screenshots/scummvm_'.$c.'.txt')).
+				   screenshot_caption($c).
 				   '</td></tr></table>',
 				   'align=center class="color0" style="padding-top: 10px; font-style: italic;"'
 				  );
@@ -130,7 +119,7 @@ else
 	}
 
 	// display next link
-	if (($offset + 4) < $total)
+	if (($offset + 4) < $screenshots_count)
 	{
 		$next = $where + 1;
 		$nextLink = html_ahref("Next 4 Images &gt;&gt;",$PHP_SELF."?offset=".$next,"style='color: white;'");
