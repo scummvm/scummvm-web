@@ -17,8 +17,10 @@
 <tr><td>Eugene Sandulenko</td><td>[&nbsp;_sev&nbsp;]</td><td>Engine: SCUMM (FT INSANE), HE, SAGA</td>
 <tr><td>Chris Apers</td><td>[&nbsp;chrilith &nbsp;]</td><td>Port: PalmOS</td>
 <tr><td>Nicolas Bacca</td><td>[&nbsp;arisme&nbsp;]</td><td>Port: PocketPC/WinCE</td>
+<tr><td>Jurgen Braam</td><td>[&nbsp;SumthinWicked&nbsp;]</td><td>Port: EPOC/SymbianOS maintainer</td>
 <tr><td>Marcus Comstedt</td><td></td><td>Port: Dreamcast</td>
 <tr><td>Hans-J&ouml;rg Frieden</td><td></td><td>Port: AmigaOS 4</td>
+<tr><td>Lars Persson</td><td>[&nbsp;AnotherGuest&nbsp;]</td><td>Port: EPOC/SymbianOS, ESDL</td>
 <tr><td>Jerome Fisher</td><td>[&nbsp;KingGuppy&nbsp;]</td><td>MT-32 emulator</td>
 <tr><td>Jochen Hoenicke</td><td>[&nbsp;hoenicke&nbsp;]</td><td>Speaker &amp; PCjr sound support, Adlib work</td>
 <tr><td colspan=3>&nbsp;</td></tr>
@@ -40,6 +42,7 @@
 <tr><td>Janne Huttunen</td><td></td><td>V3 actor mask support, Dig/FT SMUSH audio</td>
 <tr><td>Kov&aacute;cs Endre J&aacute;nos</td><td></td><td>Several fixes for Simon1</td>
 <tr><td>Jeroen Janssen</td><td></td><td>Numerous readability and bugfix patches</td>
+<tr><td>Andreas Karlsson</td><td>[&nbsp;Sprawl&nbsp;]</td><td>Initial port for EPOC/SymbianOS</td>
 <tr><td>Robert Kelsen</td><td></td><td>Packaging for SlackWare</td>
 <tr><td>Claudio Matsuoka</td><td></td><td>Daily Linux builds</td>
 <tr><td>Mikesch Nepomuk</td><td></td><td>MI1 VGA floppy patches</td>
