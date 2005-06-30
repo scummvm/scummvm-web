@@ -50,13 +50,13 @@ recommend selecting drive C: and creating a new folder called
 
 <p>Paste the data file (with Ctrl+V or Edit-&gt;Paste) and allow
 HFVExplorer to choose the copy mode. Now, wait while the program
-copies several hundred mebibytes from the CD. When the file is
+copies several hundred megabytes from the CD. When the file is
 copied, close HFVExplorer.</p>
 
 <h2>Running rescumm:</h2>
 
 <p><b>NOTE:</b> If you are using ScummVM version 0.7.0 and
-above, you don't need this. Just point ScummVM to directory where
+above, you don't need this. Just point ScummVM to folder where
 you copied the Data file. <small>(Hint: If you're using older
 version we strongly recommend to upgrade)</small></p>
 
@@ -74,9 +74,8 @@ c:\scummvm\rescumm "Sam &amp; Max Data"
 delete the data file. Now, you can fire up ScummVM and add the new
 game to play it. The ScummVM documentation (README) describes
 ScummVM and rescumm usage in detail. If you have any questions,
-look at the <a href="http://scummvm.sourceforge.net/faq.php">ScummVM FAQ</a>,
-the <a href="http://scummvm.sourceforge.net/documentation.php">ScummVM
-Documentation</a>, and the
+look at the <a href="/faq.php">ScummVM FAQ</a>,
+the <a href="/documentation.php">ScummVM Documentation</a>, and the
 <a href="http://sourceforge.net/forum/?group_id=37116">forums</a>.</p>
 
 <h2>Related Information:</h2>
