@@ -417,7 +417,9 @@ $notes = array(
 "queen"		=> "No known issues, game is completable.".
 		   "<br>- Some versions may require the <a href=\"http://0x.7fc1.org/fotaq/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases.".
 		   "<br>- Amiga version isn't supported.",
-"gob1"		=> "No known issues. Game is completable.",
+"gob1"		=> "No known issues. Game is completable.".
+		   "<br>- DOS, CD, Amiga, Atari and Mac versions are supported by this target".
+		   "<br>- Mac version lacks music",
 "ite"		=> "Game is completable.".
 		   "<br>- Occasional gfx glitches".
 		   "<br>- Some subtitles are missing like Puzzle hints",
