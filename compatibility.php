@@ -161,7 +161,7 @@ $gamesOther = array(
 		'Broken Sword II'			       		=> array('sword2','98'),
 		'Flight of the Amazon Queen'			       	=> array('queen','98'),
 		'Gobliiins'						=> array('gob1', '90'),
-		'Inherit the Earth'					=> array( 'ite', '80'),
+		'Inherit the Earth'					=> array( 'ite', '82'),
 		'Simon The Sorcerer 1 Talkie'       			=> array('simon1talkie','93'),
  		'Simon The Sorcerer 1 Talkie (Acorn)'			=> array('simon1acorn','93'),
 		'Simon The Sorcerer 1 (DOS)'           			=> array('simon1dos','93'),
@@ -420,8 +420,7 @@ $notes = array(
 "gob1"		=> "No known issues. Game is completable.",
 "ite"		=> "Game is completable.".
 		   "<br>- Occasional gfx glitches".
-		   "<br>- Some subtitles are missing like Puzzle hints".
-		   "<br>- Dragon is not moving",
+		   "<br>- Some subtitles are missing like Puzzle hints",
 "simon1talkie" 	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target",
 "simon1acorn" 	=> "No known issues, game is completable.",
