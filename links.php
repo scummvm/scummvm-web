@@ -64,8 +64,10 @@ function addLinkEntry($name, $url, $desc) {
 				'News site containing links and news for unofficial Amiga ports.');
 			addLinkEntry('P800 port', 'http://dreo.org/p800/escummvm/index.html',
 				'An unofficial port to the Sony Ericsson P800 running Symbian 7.0.');
-			addLinkEntry('RiscOS port', 'http://www.acornemus.freeserve.co.uk/scumm/scu_info.htm',
-				"A port to RiscOS. It's extremly dated (based on ScummVM 0.1.0), but hopefully it will be updated some day soon.");
+			addLinkEntry('RISC OS port', 'http://www.riscos.info/unix/indexes/emulation.html#scummvm',
+				"A port to RISC OS.");
+			addLinkEntry('Old RISC OS port', 'http://www.acornemus.freeserve.co.uk/scumm/scu_info.htm',
+				"Another (older) port to RISC OS. It's extremly dated (based on ScummVM 0.1.0).");
 		?>
 	</div>
 
