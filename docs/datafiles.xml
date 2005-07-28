@@ -221,6 +221,11 @@ details.</p>
       finsushi.san, takeoff.san, test.san, vision.san )</td>
   </tr>
   <tr>
+    <td>Gobliiins (Demo, EGA, VGA, CD**, Amiga, AtariST, Mac)</td>
+    <td>*.stk<br>
+      gob.lic (for CD version)</tr>
+  </tr>
+  <tr>
     <td>Indiana Jones and the Fate of Atlantis (Amiga)</td>
     <td>amiga*.ims<br>
       atlantis.000<br>
@@ -257,6 +262,18 @@ details.</p>
     <td>Indiana Jones and the Last Crusade (Amiga, FM-TOWNS**, 
       PC EGA or PC 256 color)</td>
     <td>*.LFL</td>
+  </tr>
+  <tr>
+    <td>Inherit the Earth (Win Demo, MacOS X Demo, Linux Demo, Floppy,
+       DOS CD, Win32, MacOS X, Linux)</td>
+    <td>*.rsc<br>
+      *.bbm (if exists)<br>
+      *.iaf (if exists)<br>
+      graphics/ folder (if exists)<br>
+      music/ folder (if exists)<br>
+      patch/ folder (if exists)<br>
+      sound/ folder (if exists)<br>
+      Inherit the Earth Voices (for MacOS X version)</td>
   </tr>
   <tr>
     <td>Let's Explore the Airport with Buzzy (Demo)</td>

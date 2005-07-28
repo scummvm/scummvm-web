@@ -161,7 +161,7 @@ $gamesOther = array(
 		'Broken Sword II'			       		=> array('sword2','98'),
 		'Flight of the Amazon Queen'			       	=> array('queen','98'),
 		'Gobliiins'						=> array('gob1', '90'),
-		'Inherit the Earth'					=> array( 'ite', '83'),
+		'Inherit the Earth'					=> array( 'ite', '87'),
 		'Simon The Sorcerer 1 Talkie'       			=> array('simon1talkie','93'),
  		'Simon The Sorcerer 1 Talkie (Acorn)'			=> array('simon1acorn','93'),
 		'Simon The Sorcerer 1 (DOS)'           			=> array('simon1dos','93'),
@@ -421,8 +421,9 @@ $notes = array(
 		   "<br>- DOS, CD, Amiga, Atari and Mac versions are supported by this target".
 		   "<br>- Mac version lacks music",
 "ite"		=> "Game is completable.".
-		   "<br>- Occasional gfx glitches".
-		   "<br>- Some subtitles are missing like Puzzle hints",
+		   "<br>- DOS Floppy, DOS CD, Win32, MacOS X and Linux versions are supported by this target".
+		   "<br>- Old Mac CD and Amiga CD aren't supported".
+		   "<br>- Occasional gfx glitches",
 "simon1talkie" 	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target",
 "simon1acorn" 	=> "No known issues, game is completable.",
