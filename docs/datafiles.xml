@@ -276,6 +276,14 @@ details.</p>
       Inherit the Earth Voices (for MacOS X version)</td>
   </tr>
   <tr>
+    <td>Inherit the Earth (Old MacOS9 CD)</td>
+    <td>ITE Music.bin<br>
+      ITE Resources.bin<br>
+      ITE Scripts.bin<br>
+      ITE Sounds.bin<br>
+      ITE Voices.bin (all files should be in MacBinary format)</td>
+  </tr>
+  <tr>
     <td>Let's Explore the Airport with Buzzy (Demo)</td>
     <td>AIRDEMO.HE0<br>
       AIRDEMO.HE1<br>
