@@ -265,7 +265,8 @@ $notes = array(
 		   "<br>- Minor graphical glitches",
 "thinker1"	=> "Game is playable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
+		   "<br>- Input issues when selecting locations on globe of world".
+		   "<br>- Need to use ESC when car is stuck in the smart star challenge",
 "kinddemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
