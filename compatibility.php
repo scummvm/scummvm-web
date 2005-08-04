@@ -99,6 +99,7 @@ $gamesHE = array(
 		'Backyard Soccer'							=> array('soccer','20'),
 		'Blue\'s ABC Time (Demo)'						=> array('BluesABCTimeDemo','90'),
 		'Big Thinkers First Grade (Demo)'					=> array('1grademo','80'),
+		'Big Thinkers First Grade'						=> array('thinker1','70'),
 		'Big Thinkers Kindergarten (Demo)'					=> array('kinddemo','80'),
 		'Big Thinkers Kindergarten'						=> array('thinkerk','80'),
 		'Fatty Bears Birthday Surprise (Demo)'					=> array('fbdemo','95'),
@@ -261,6 +262,9 @@ $notes = array(
 "BluesABCTimeDemo" => "Game is playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "1grademo"	=> "Game is completable, with minor glitches".
+		   "<br>- Minor graphical glitches",
+"thinker1"	=> "Game is playable, with minor glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
 "kinddemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
