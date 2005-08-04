@@ -968,13 +968,13 @@ themselves as starting points.</p>
 <br><a name="ite"></a>
 <h2>Inherit the Earth</h2>
 
-<p>Originally Inherit the Earth didn't have eny bootparams, but each scene in
-it has pre-script which does all necessary work. In ScummVM bootparams jumps
-to specified scene and add Magic Hat item, which lets either jump to any other
+<p>Originally Inherit the Earth didn't have any bootparams, but each scene in
+it has pre-script which does all necessary preparations. In ScummVM bootparam jumps
+to specified scene and adds Magic Hat item, which lets either jump to any other
 scene by using it or gives all important items when you open it.</p>
 
 <table border="1" cellspacing="0" cellpadding="2">
-<tr><th>Scene</th><th>Description</th></tr>
+<tr><th>Param</th><th>Description</th></tr>
 <tr><td>1</td><td>World Map (ISO Level)</td></tr>
 <tr><td>2</td><td>Ferret Village (ISO Level)</td></tr>
 <tr><td>3</td><td>Boar Castle Exterior</td></tr>
