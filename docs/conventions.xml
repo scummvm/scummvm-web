@@ -68,7 +68,7 @@
 
 			<li><h3>Indentation level is not increased after namespace clause</h3>
 				<pre>
-	namespase Scumm {
+	namespace Scumm {
 
 	byte Actor::kInvalidBox = 0;
 
@@ -85,11 +85,11 @@
 		<pre>
 	switch (cmd) {
 	case kSaveCmd:
-		Save();
+		save();
 		break;
 	case kLoadCmd:
 	case kPlayCmd:
-		Close();
+		close();
 		break;
 	default:
 		Dialog::handleCommand(sender, cmd, data);
