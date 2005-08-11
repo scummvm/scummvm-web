@@ -44,9 +44,12 @@ pun.
 </P>
 <P>
 Residual's core is in a fairly decent state, however it is not in full-time development and 
-as such is progressing slowly. Lipsync support was recently added, in case anybody checks
-this page expecting news.
+as such is progressing slowly.
 </P>
+<P>
+You can try compiled engine for Windows:
+</P>
+<a href="downloads/residualwin32.exe">Windows Installer</a> <small> (build from CVS HEAD, <? echo intval(filesize("downloads/residualwin32.exe")/1024) ?>K Win32 .exe file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/residualwin32.exe")); ?>)</small></li>
 <?
 echo html_round_frame_end("&nbsp;");
 
