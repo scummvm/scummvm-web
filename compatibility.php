@@ -173,25 +173,25 @@ $gamesOther = array(
 
 $notes = array(
 "maniac"	=> "No known issues, game is completable.".
-		   "<br>- Amiga, Atari ST, Mac, NES and PC versions supported by this target".
+		   "<br>- Amiga, Atari ST, Macintosh, NES and PC versions supported by this target".
 		   "<br>- Graphical glitches in NES version",
 "zak"		=> "No known issues, game is completable.".
 		   "<br>- Amiga, Atari ST and PC versions supported by this target".
 		   "<br>- Some sound effects buggy or missing in Amiga version",
 "indy3ega"	=> "Game is completable".
-		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
+		   "<br>- Amiga, Atari ST, Macintosh and PC versions supported by this target".
 		   "<br>- Indiana may be able to walk in odd places, in some rooms".
-		   "<br>- Mac version isn't completable, due to no inventory controls".
-		   "<br>- Atari ST and Mac versions require pcjr or pcspk music driver",
+		   "<br>- Macintosh version isn't completable, due to no inventory controls".
+		   "<br>- Atari ST and Macintosh versions require pcjr or pcspk music driver",
 "indy3"         => "No known issues, game is completable.",
 "indy3towns"    => "No known issues, game is completable.".
                    "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "zaktowns"      => "No known issues, game is completable.".
                    "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "loom"		=> "No known issues, game is completable.".
-		   "<br>- Amiga, Atari ST, Mac and PC versions supported by this target".
-		   "<br>- No music or sound effects with Mac version".
-		   "<br>- Atari ST and Mac versions require pcjr or pcspk music driver".
+		   "<br>- Amiga, Atari ST, Macintosh and PC versions supported by this target".
+		   "<br>- No music or sound effects with Macintosh version".
+		   "<br>- Atari ST and Macintosh versions require pcjr or pcspk music driver".
 		   "<br>- MIDI support requires the Roland update from LucasArts",
 "loomtowns"	=> "Game is completable".
 		   "<br>- Fades are seemingly different to other versions in some cases".
@@ -213,36 +213,33 @@ $notes = array(
 		   "<br>- No music or sound effects with Amiga version",
 "monkey"	=> "No known issues, game is completable.",
 "monkey1"	=> "No known issues, game is completable.".
-		   "<br>- Both Mac and PC versions supported by this target",
+		   "<br>- Both Macintosh and PC versions supported by this target",
 "game"		=> "No known issues, game is completable.".
 		   "<br>- Dialogue choices can be selected with 6 (up) 7 (down) or mousewheel, with mouse button or number to select",
 "monkey2"	=> "No known issues, game is completable.".
-		   "<br>- Amiga, FM-TOWNS, Mac and PC versions supported by this target".
+		   "<br>- Amiga, FM-TOWNS, Macintosh and PC versions supported by this target".
                    "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "mi2demo"	=> "Often crashes due to missing resources, since it was never meant to be playable".
 		   "<br>- No support for playing back the recorded file of gameplay",
 "atlantis"	=> "No known issues, game is completable.".
-		   "<br>- Amiga, Mac and PC versions supported by this target".
-		   "<br>- Both disk and cd PC versions are supported by this target".
+		   "<br>- Amiga, Macintosh and PC versions supported by this target".
 		   "<br>- Music loud on some systems, run with -m30 to lower music volume.",
 "indy4"		=> "No known issues, game is completable.".
 		   "<br>- Music loud on some systems, run with -m30 to lower music volume.".
                    "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "playfate"	=> "No known issues, game is completable.",
 "tentacle"	=> "No known issues, game is completable.".
-		   "<br>- Both Mac and PC versions supported by this target".
-		   "<br>- Both disk and cd versions are supported by this target".
+		   "<br>- Both Macintosh and PC versions supported by this target".
 		   "<br>- Maniac Mansion isn't playable on Ed's computer. To play the included copy, use 'Add Game' from the main ScummVM launcher and select the MANIAC directory inside the DOTT game directory",
 "dottdemo"	=> "No known issues, game is completable.",
 "samnmax"	=> "No known issues, game is completable.".
-		   "<br>- Both Mac and PC versions supported by this target".
-		   "<br>- Both disk and cd versions are supported by this target".
+		   "<br>- Both Macintosh and PC versions supported by this target".
                    "<br>- Highway subgame doesn't behave correctly",
 "samdemo"	=> "No known problems - should be playable to the end",
 "ft"		=> "Game is completable, with minor glitches".
-		   "<br>- Both Mac and PC versions supported by this target",
+		   "<br>- Both Macintosh and PC versions supported by this target",
 "dig"		=> "Game is completable, with minor glitches".
-		   "<br>- Both Mac and PC versions supported by this target",
+		   "<br>- Both Macintosh and PC versions supported by this target",
 "comi"		=> "Game is completable, with minor glitches.",
 
 "baseball"	=> "Game is playable, with glitches".
@@ -257,6 +254,7 @@ $notes = array(
 		   "<br>- Minor graphical glitches",
 "soccer"	=> "Game is playable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- PlayStation 1 version will never be supported.".
 		   "<br>- Array out of bounds errors sometimes".
 		   "<br>- Minor graphical glitches",
 "BluesABCTimeDemo" => "Game is playable".
@@ -333,6 +331,7 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
 "pajama3"	=> "Game is playable but not completable".
+		   "<br>- PlayStation 1 version will never be supported.".
 		   "<br>- Sprites aren't displayed during Ski Ride".
 		   "<br>- Minor graphical glitches",
 "smaller"	=> "No known issues, game is completable",
@@ -407,26 +406,26 @@ $notes = array(
 
 "sky"	 	=> "No known issues, game is completable.".
 		   "<br>- Requires the <a href=\"SKY.CPT\">SKY.CPT</a> resource file to be placed in the game directory".
-		   "<br>- Floppy demos are unsupported".
-		   "<br>- Amiga versions aren't supported and probably never will be".
+		   "<br>- Floppy demos aren't supported".
+		   "<br>- Amiga versions aren't supported".
 		   "<br>".
-		   "<br>There are also bugs which were already present in the original game and which we can't fix:".
+		   "<br>The following bugs are present in the original game and can't be fixed:".
 		   "<br>- The voice files for some sentences are missing.".
 		   "<br>&nbsp;&nbsp;&nbsp;&nbsp;This is especially noticeable in the court- and Mrs. Piermont sequence.".
 		   "<br>- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders".
 		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
 "sword1"	=> "No known issues, game is completable.".
-		   "<br>- Only the PC version has been tested. We don't have any other versions, so we can't make any promises about them.",
+		   "<br>- Macintosh and PlayStation 1 version aren't supported.",
 "sword2"	=> "No known issues, game is completable.".
-		   "<br>- Only the PC version has been tested. We don't have any other versions, so we can't make any promises about them.",
+		   "<br>- PlayStation 1 version isn't supported.",
 "queen"		=> "No known issues, game is completable.".
 		   "<br>- Some versions may require the <a href=\"http://0x.7fc1.org/fotaq/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases.".
 		   "<br>- Amiga version isn't supported.",
 "gob1"		=> "No known issues. Game is completable.".
-		   "<br>- DOS, CD, Amiga, Atari and Mac versions are supported by this target".
-		   "<br>- Mac version lacks music",
+		   "<br>- DOS, CD, Amiga, Atari and Macintosh versions are supported by this target".
+		   "<br>- Macintosh version lacks music",
 "ite"		=> "Game is completable.".
-		   "<br>- DOS Floppy, DOS CD, Win32, old Mac, MacOS X and Linux versions are supported by this target".
+		   "<br>- DOS Floppy, DOS CD, Win32, old Macintosh, MacOS X and Linux versions are supported by this target".
 		   "<br>- Amiga CD isn't supported".
 		   "<br>- Occasional gfx glitches",
 "simon1talkie" 	=> "No known issues, game is completable.".
