@@ -26,7 +26,7 @@ if (!$shownews)
 
 // counter vars
 srand((double) microtime() * 1000000);
-$randImg = rand(0, screenshots_count - 1);
+$randImg = rand(0, $screenshots_count - 1);
 
 echo html_round_frame_start("About ScummVM","");
 ?>
