@@ -32,6 +32,10 @@ Development on this project is currently stalled. The code-base needs quite some
 and viewers for many resource types still need adding to the code. Patches and volunteers
 a very welcome...
 </P>
+<P>
+You can try compiled engine for Windows:
+</P>
+<a href="downloads/scummexwin32.exe">Windows Daily Snapshot</a> <small> (build from CVS HEAD, <? echo intval(filesize("downloads/residualwin32.exe")/1024) ?>K Win32 .exe file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummexwin32.exe")); ?>)</small></li>
 
 <BR>
 
@@ -49,7 +53,7 @@ as such is progressing slowly.
 <P>
 You can try compiled engine for Windows:
 </P>
-<a href="downloads/residualwin32.exe">Windows Installer</a> <small> (build from CVS HEAD, <? echo intval(filesize("downloads/residualwin32.exe")/1024) ?>K Win32 .exe file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/residualwin32.exe")); ?>)</small></li>
+<a href="downloads/residualwin32.exe">Windows Daily Snapshot</a> <small> (build from CVS HEAD, <? echo intval(filesize("downloads/residualwin32.exe")/1024) ?>K Win32 .exe file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/residualwin32.exe")); ?>)</small></li>
 <?
 echo html_round_frame_end("&nbsp;");
 
