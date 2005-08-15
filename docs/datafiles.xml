@@ -194,14 +194,33 @@ details.</p>
     FT.LA1<br>
     MONSTER.SOU<br>
     DATA folder, EXCEPT files:<br>
-      ( benbike.nut, roadrush.nut, roadrsh2.nut, chaseben.san )<br>
+      BENBIKE.NUT<br>
+      CHASEBEN.SAN<br>
+      ROAHRUSH.NUT<br>
+      ROADRSH2.NUT<br>
       VIDEO folder, EXCEPT files:<br>
-      ( demogogg.trs, fi.trs, miranda.trs, showdown.trs,<br>
-      polexit.trs, ripfell.trs, reststop.trs bikeswar.san,<br>
-      blink.san, blink2.san, blink3.san, catchup.san,<br>
-      crushdog.san, cvramp.san, driveby.san, fl_14.san,<br>
-      hi_sign.san, limoby.san, limoroar.san,<br>
-      plncrsh.san, reachher.san, tinytruc.san )</td>
+      BIKESWAR.SAN<br>
+      BLINK.SAN<br>
+      BLINK2.SAN<br>
+      BLINK3.SAN<br>
+      CATCHUP.SAN<br>
+      CRUSHDOG.SAN<br>
+      CVRAMP.SAN<br>
+      DEMOGOGG.TRS<br>
+      DRIVEBY.SAN<br>
+      FI.TRS<br>
+      FI_14.SAN<br>
+      HI_SIGN.SAN <br>
+      LIMOBY.SAN<br>
+      LIMOROAR.SAN<br>
+      MIRANDA.TRS<br>
+      PLNCRSH.SAN<br>
+      POLEEXIT.TRS<br>
+      REACHHER.SAN<br>
+      RESTSTOP.TRS <br>
+      RIPFELL.TRS<br>
+      SHOWDOWN.TRS<br>
+      TINYTRUC.SAN</td>
   </tr>
   <tr>
     <td>Full Throttle (PC Demo)</td>
@@ -209,16 +228,16 @@ details.</p>
       ft.001<br>
       monster.sou<br>
       DATA folder, EXCEPT files:<br>
-      ( benbike.nut, roadrash.nut, roadrsh2.nut,<br>
+      ( benbike.NUT, roadrash.NUT, roadrsh2.NUT,<br>
       smushcut.txt, harlrev.sad, laser2.sad,<br>
-      liftbord.san, liftchay.san, liftgog.san, lidtsaw.san )<br>
+      liftbord.SAN, liftchay.SAN, liftgog.SAN, lidtsaw.SAN )<br>
       VIDEO folder, EXCEPT files:<br>
-      ( bed.nut, bigfoot.nut, blackfrm.nut, blink.nut,<br>
-      blink2.nut, blink3.nut, crash.nut, dodge.nut,<br>
-      face-6.nut, fire.nut, fishogg.nut, focus.nut, focus-5.nut,<br>
-      goggles.nut, limopan.nut, peelout.nut, riding.nut,<br>
-      barkdog.san, burst.dog, cvramp.san, demogogg.san,<br>
-      finsushi.san, takeoff.san, test.san, vision.san )</td>
+      ( bed.NUT, bigfoot.NUT, blackfrm.NUT, blink.NUT,<br>
+      blink2.NUT, blink3.NUT, crash.NUT, dodge.NUT,<br>
+      face-6.NUT, fire.NUT, fishogg.NUT, focus.NUT, focus-5.NUT,<br>
+      goggles.NUT, limopan.NUT, peelout.NUT, riding.NUT,<br>
+      barkdog.SAN, burst.dog, cvramp.SAN, demogogg.SAN,<br>
+      finsushi.SAN, takeoff.SAN, test.SAN, vision.SAN )</td>
   </tr>
   <tr>
     <td>Gobliiins (Demo, EGA, VGA, CD**, Amiga, AtariST, Mac)</td>
