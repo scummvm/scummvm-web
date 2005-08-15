@@ -194,33 +194,33 @@ details.</p>
     FT.LA1<br>
     MONSTER.SOU<br>
     DATA folder, EXCEPT files:<br>
-      BENBIKE.NUT<br>
-      CHASEBEN.SAN<br>
-      ROAHRUSH.NUT<br>
-      ROADRSH2.NUT<br>
+      -BENBIKE.NUT<br>
+      -CHASEBEN.SAN<br>
+      -ROAHRUSH.NUT<br>
+      -ROADRSH2.NUT<br>
       VIDEO folder, EXCEPT files:<br>
-      BIKESWAR.SAN<br>
-      BLINK.SAN<br>
-      BLINK2.SAN<br>
-      BLINK3.SAN<br>
-      CATCHUP.SAN<br>
-      CRUSHDOG.SAN<br>
-      CVRAMP.SAN<br>
-      DEMOGOGG.TRS<br>
-      DRIVEBY.SAN<br>
-      FI.TRS<br>
-      FI_14.SAN<br>
-      HI_SIGN.SAN <br>
-      LIMOBY.SAN<br>
-      LIMOROAR.SAN<br>
-      MIRANDA.TRS<br>
-      PLNCRSH.SAN<br>
-      POLEEXIT.TRS<br>
-      REACHHER.SAN<br>
-      RESTSTOP.TRS <br>
-      RIPFELL.TRS<br>
-      SHOWDOWN.TRS<br>
-      TINYTRUC.SAN</td>
+      -BIKESWAR.SAN<br>
+      -BLINK.SAN<br>
+      -BLINK2.SAN<br>
+      -BLINK3.SAN<br>
+      -CATCHUP.SAN<br>
+      -CRUSHDOG.SAN<br>
+      -CVRAMP.SAN<br>
+      -DEMOGOGG.TRS<br>
+      -DRIVEBY.SAN<br>
+      -FI.TRS<br>
+      -FI_14.SAN<br>
+      -HI_SIGN.SAN<br>
+      -LIMOBY.SAN<br>
+      -LIMOROAR.SAN<br>
+      -MIRANDA.TRS<br>
+      -PLNCRSH.SAN<br>
+      -POLEEXIT.TRS<br>
+      -REACHHER.SAN<br>
+      -RESTSTOP.TRS<br>
+      -RIPFELL.TRS<br>
+      -SHOWDOWN.TRS<br>
+      -TINYTRUC.SAN</td>
   </tr>
   <tr>
     <td>Full Throttle (PC Demo)</td>
@@ -228,16 +228,42 @@ details.</p>
       ft.001<br>
       monster.sou<br>
       DATA folder, EXCEPT files:<br>
-      ( benbike.NUT, roadrash.NUT, roadrsh2.NUT,<br>
-      smushcut.txt, harlrev.sad, laser2.sad,<br>
-      liftbord.SAN, liftchay.SAN, liftgog.SAN, lidtsaw.SAN )<br>
+      -benbike.nut<br>
+      -harlrev.sad<br>
+      -laser2.sad<br>
+      -liftbord.san<br>
+      -liftchay.san<br>
+      -liftgog.san<br>
+      -lidtsaw.san<br>
+      -roadrash.nut<br>
+      -roadrsh2.nut<br>
+      -smushcut.txt<br>
       VIDEO folder, EXCEPT files:<br>
-      ( bed.NUT, bigfoot.NUT, blackfrm.NUT, blink.NUT,<br>
-      blink2.NUT, blink3.NUT, crash.NUT, dodge.NUT,<br>
-      face-6.NUT, fire.NUT, fishogg.NUT, focus.NUT, focus-5.NUT,<br>
-      goggles.NUT, limopan.NUT, peelout.NUT, riding.NUT,<br>
-      barkdog.SAN, burst.dog, cvramp.SAN, demogogg.SAN,<br>
-      finsushi.SAN, takeoff.SAN, test.SAN, vision.SAN )</td>
+      -barkdog.san<br>
+      -bed.nut<br>
+      -bigfoot.nut<br>
+      -blackfrm.nut<br>
+      -blink.nut<br>
+      -blink2.nut<br>
+      -blink3.nut<br>
+      -burstdog.san<br>
+      -crash.nut<br>
+      -cvramp.san<br>
+      -demogogg.san<br>
+      -dodge.nut<br>
+      -face-6.nut<br>
+      -finsushi.san<br>
+      -fire.nut<br>
+      -fishgogg.nut<br>
+      -focus.nut<br>
+      -fucus-5.nut<br>
+      -goggles.nut<br>
+      -limopan.nut<br>
+      -peelout.nut<br>
+      -riding.nut,<br>
+      -takeoff.san<br>
+      -test.san<br>
+      -vision.san</td>
   </tr>
   <tr>
     <td>Gobliiins (Demo, EGA, VGA, CD**, Amiga, AtariST, Mac)</td>
