@@ -61,7 +61,7 @@ function addLinkEntry($name, $url, $desc) {
 	<div class="linklist">
 		<?php
 			addLinkEntry('Amiga Port', 'http://people.freenet.de/uweryssel/scumm_en.html', 
-				     'Homepage of the 68k/WarpOS port of ScummVM for the Amiga. Requires 020+ and AGA chipset or RTG Zorro card)'
+				     'Homepage of the 68k/WarpOS port of ScummVM for the Amiga. Requires 020+ and AGA chipset or RTG Zorro card');
 			addLinkEntry('Amiga Archives', 'http://www.mountmonkey.com/eng_index.html',
 				'An archive of older Amiga ports of ScummVM');
 			addLinkEntry('P800 port', 'http://dreo.org/p800/escummvm/index.html',
