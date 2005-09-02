@@ -87,9 +87,9 @@ $gamesLucas = array(
 		'Day Of The Tentacle (Demo)'				=> array('dottdemo','95'),
 		'Sam & Max'                                             => array('samnmax','95'),
 		'Sam & Max (Demo)'					=> array('samdemo','95'),
-		'Full Throttle'						=> array('ft','85'),
+		'Full Throttle'						=> array('ft','90'),
 		'The Dig'                                               => array('dig','90'),
-		'Curse of Monkey Island'				=> array('comi','85'),
+		'Curse of Monkey Island'				=> array('comi','90'),
 	      );
 
 $gamesHE = array(
