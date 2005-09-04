@@ -61,32 +61,16 @@ else
 
 // This array defines the games and their ratings, etc.
 $gamesLucas = array(
-		'Maniac Mansion (original)'				=> array('maniac','90'),
-		'Maniac Mansion (enhanced)'				=> array('maniac','95'),
-		'Zak McKracken and the Alien Mindbenders (original)'	=> array('zak','85'),
-		'Zak McKracken and the Alien Mindbenders (enhanced)'	=> array('zak','90'),
-		'Zak McKracken and the Alien Mindbenders (FM-TOWNS)'	=> array('zaktowns','90'),
-		'Indiana Jones and the Last Crusade (EGA)'			=> array('indy3ega','90'),
-		'Indiana Jones and the Last Crusade (VGA)'		=> array('indy3','90'),
-		'Indiana Jones and the Last Crusade (FM-TOWNS)'		=> array('indy3towns','90'),
-		'Loom (EGA)'							=> array('loom','95'),
-		'Loom (VGA CD)'                           => array('loomcd','95'),
-		'Loom (FM-TOWNS)'					=> array('loomtowns','75'),
+		'Maniac Mansion'					=> array('maniac','90'),
+		'Zak McKracken and the Alien Mindbenders'		=> array('zak','90'),
+		'Indiana Jones and the Last Crusade (EGA)'		=> array('indy3','90'),
+		'Loom'							=> array('loom','95'),
 		'Passport to Adventure (Indy3, Monkey and Loom demos)'  => array('pass','95'),
-		'The Secret of Monkey Island (EGA)'			=> array('monkeyega','95'),
-		'The Secret of Monkey Island (VGA Floppy)'		=> array('monkeyvga','95'),
-		'The Secret of Monkey Island (VGA CD)'			=> array('monkey','95'),
-		'The Secret of Monkey Island (Alternative VGA CD)'	=> array('monkey1','95'),
-		'The Secret of Monkey Island (Sega CD)'			=> array('game','85'),
+		'The Secret of Monkey Island'				=> array('monkey','95'),
 		'Monkey Island 2: LeChuck\'s revenge'			=> array('monkey2','95'),
-		'Monkey Island 2: LeChuck\'s revenge (DOS Demo)'	=> array('mi2demo','10'),
 		'Indiana Jones 4 and the Fate of Atlantis'		=> array('atlantis','95'),
-		'Indiana Jones 4 and the Fate of Atlantis (FM-TOWNS)'	=> array('indy4','95'),
-		'Indiana Jones 4 and the Fate of Atlantis (Demo)'	=> array('playfate','95'),
 		'Day Of The Tentacle'					=> array('tentacle','95'),
-		'Day Of The Tentacle (Demo)'				=> array('dottdemo','95'),
 		'Sam & Max'                                             => array('samnmax','95'),
-		'Sam & Max (Demo)'					=> array('samdemo','95'),
 		'Full Throttle'						=> array('ft','90'),
 		'The Dig'                                               => array('dig','90'),
 		'Curse of Monkey Island'				=> array('comi','90'),
@@ -174,26 +158,23 @@ $gamesOther = array(
 $notes = array(
 "maniac"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, Atari ST, Macintosh, NES and PC versions supported by this target".
-		   "<br>- Graphical glitches in NES version",
+		   "<br>- Minor graphical glitches in NES version",
 "zak"		=> "No known issues, game is completable.".
-		   "<br>- Amiga, Atari ST and PC versions supported by this target".
-		   "<br>- Some sound effects buggy or missing in Amiga version",
-"indy3ega"	=> "Game is completable".
-		   "<br>- Amiga, Atari ST, Macintosh and PC versions supported by this target".
-		   "<br>- Indiana may be able to walk in odd places, in some rooms".
-		   "<br>- Macintosh version isn't completable, due to no inventory controls".
-		   "<br>- Atari ST and Macintosh versions require pcjr or pcspk music driver",
-"indy3"         => "No known issues, game is completable.",
-"indy3towns"    => "No known issues, game is completable.".
+		   "<br>- Amiga, Atari ST, FM-TOWNS and PC versions supported by this target".
+		   "<br>- Several sound effects buggy or missing in Amiga version".
                    "<br>- Kanji version requires the FM-TOWNS Font ROM",
-"zaktowns"      => "No known issues, game is completable.".
+"indy3" 	=> "Game is completable".
+		   "<br>- Amiga, Atari ST, FM-TOWNS, Macintosh and PC versions supported by this target".
+		   "<br>- Atari ST and Macintosh versions require pcjr or pcspk music driver".
+		   "<br>- Macintosh version isn't completable, due to no inventory controls".
                    "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "loom"		=> "No known issues, game is completable.".
-		   "<br>- Amiga, Atari ST, Macintosh and PC versions supported by this target".
-		   "<br>- No music or sound effects with Macintosh version".
+		   "<br>- Amiga, Atari ST, FM-TOWNS, Macintosh and PC versions supported by this target".
+		   "<br>- The Roland update from LucasArts is required for MIDI support in the EGA version".
 		   "<br>- Atari ST and Macintosh versions require pcjr or pcspk music driver".
-		   "<br>- MIDI support requires the Roland update from LucasArts",
-"loomtowns"	=> "Game is completable".
+		   "<br>- No music or sound effects in the Macintosh version".
+
+                   "FM-TOWNS specific issues".
 		   "<br>- Fades are seemingly different to other versions in some cases".
 		   "<br>- Text palette sometimes incorrect".
 		   "<br>- Distaff occasionally pink...".
@@ -203,44 +184,30 @@ $notes = array(
 		       "<li>1 standard".
 		       "<li>2 expert</ul>".
                    "<br>- Kanji version requires the FM-TOWNS Font ROM",
-"monkeyega"	=> "No known issues, game is completable.".
+"monkey"	=> "No known issues, game is completable.".
+		   "<br>- Amiga, Atari ST, FM-TOWNS, Macintosh, PC and SegaCD versions supported by this target".
+		   "<br>- The Roland update from LucasArts is required for MIDI support in the EGA version".
 		   "<br>- Atari ST version requires pcjr or pcspk music driver".
-		   "<br>- MIDI support requires the Roland update from LucasArts",
-"pass"		=> "All three demos are completable.",
-"loomcd"        => "No known issues, game is completable.",
-"monkeyvga"	=> "Game is completable.".
-		   "<br>- Both Amiga and PC versions supported by this target".
-		   "<br>- No music or sound effects with Amiga version",
-"monkey"	=> "No known issues, game is completable.",
-"monkey1"	=> "No known issues, game is completable.".
-		   "<br>- Both Macintosh and PC versions supported by this target",
-"game"		=> "No known issues, game is completable.".
-		   "<br>- Dialogue choices can be selected with 6 (up) 7 (down) or mousewheel, with mouse button or number to select",
+		   "<br>- No music or sound effects in the Amiga version".
+		   "<br>- Dialogue choices in the SegaCD version can be selected with 6 (up) 7 (down) or mousewheel, with mouse button or number to select",
+
+"pass"		=> "No known issues, game is completable.",
 "monkey2"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, FM-TOWNS, Macintosh and PC versions supported by this target".
                    "<br>- Kanji version requires the FM-TOWNS Font ROM",
-"mi2demo"	=> "Often crashes due to missing resources, since it was never meant to be playable".
-		   "<br>- No support for playing back the recorded file of gameplay",
 "atlantis"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, Macintosh and PC versions supported by this target".
-		   "<br>- Music loud on some systems, run with -m30 to lower music volume.",
-"indy4"		=> "No known issues, game is completable.".
-		   "<br>- Music loud on some systems, run with -m30 to lower music volume.".
                    "<br>- Kanji version requires the FM-TOWNS Font ROM",
-"playfate"	=> "No known issues, game is completable.",
 "tentacle"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and PC versions supported by this target".
 		   "<br>- Maniac Mansion isn't playable on Ed's computer. To play the included copy, use 'Add Game' from the main ScummVM launcher and select the MANIAC directory inside the DOTT game directory",
-"dottdemo"	=> "No known issues, game is completable.",
 "samnmax"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and PC versions supported by this target".
-                   "<br>- Highway subgame doesn't behave correctly",
-"samdemo"	=> "No known problems - should be playable to the end",
-"ft"		=> "Game is completable, with minor glitches".
+"ft"		=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and PC versions supported by this target",
-"dig"		=> "Game is completable, with minor glitches".
+"dig"		=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and PC versions supported by this target",
-"comi"		=> "Game is completable, with minor glitches.",
+"comi"		=> "No known issues, game is completable.",
 
 "baseball"	=> "Game is playable, with glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
