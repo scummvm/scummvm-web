@@ -41,51 +41,51 @@ $LEC_demos = array(
 	'Zak McKracken and the Alien Mindbenders (Atari ST - Non interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/zakstdemo.zip', 'zak'),
 	'The Secret of Monkey Island (16 colour demo)'	
-		=> array('http://www.cowlark.com/scumm.dat/mi_demo2.zip', 'monkeyega'),
+		=> array('http://www.cowlark.com/scumm.dat/mi_demo2.zip', 'monkey'),
 	'The Secret of Monkey Island (Amiga demo)'	
-		=> array('http://quick.mixnmojo.com/demos/mi1amigademo.zip', 'monkeyvga'),
+		=> array('http://quick.mixnmojo.com/demos/mi1amigademo.zip', 'monkey'),
 	'Indiana Jones and the Last Crusade (16 colour - Non interactive)'	
-		=> array('http://www.cowlark.com/scumm.dat/indy3ega-demo.zip', 'indy3ega'),
+		=> array('http://www.cowlark.com/scumm.dat/indy3ega-demo.zip', 'indy3'),
 	'Loom (16 colour - Non interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Loomdemo.zip', 'loom'),
 	'Passport to Adventure (16 colour demos of mi, loom, indy3)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Sampler.zip', 'pass'),
 	'Indiana Jones and the Last Crusade & Loom (FM Towns demo - Non interactive)'
-		=> array('http://www.cowlark.com/scumm.dat/indyloom.zip', 'zaktowns'),
+		=> array('http://www.cowlark.com/scumm.dat/indyloom.zip', 'zak'),
 	'Indiana Jones and the Last Crusade & Zak McKracken (FM Towns demo - Non interactive)'
-		=>array('http://www.cowlark.com/scumm.dat/indyzak.zip', 'zaktowns'),
+		=>array('http://www.cowlark.com/scumm.dat/indyzak.zip', 'zak'),
 	'Zak McKracken & Loom (FM Towns demo - Non interactive)'
-		=>array('http://www.cowlark.com/scumm.dat/zakloom.zip', 'zaktowns'),
+		=>array('http://www.cowlark.com/scumm.dat/zakloom.zip', 'zak'),
 	'Monkey Island 2 (DOS demo)'
-		=> array('http://www.cowlark.com/scumm.dat/mi2demo.zip', 'mi2demo'),
+		=> array('http://www.cowlark.com/scumm.dat/mi2demo.zip', 'monkey2'),
 	'Indiana Jones and the Fate of Atlantis (DOS demo - Interactive)'
-		=> array('ftp://ftp.lucasarts.com/demos/pc/Playfate.zip', 'playfate'),
+		=> array('ftp://ftp.lucasarts.com/demos/pc/Playfate.zip', 'atlantis'),
 	'Indiana Jones and the Fate of Atlantis (DOS demo - Non interactive)'
-		=> array('http://www.cowlark.com/scumm.dat/fate.zip', 'fate'),
+		=> array('http://www.cowlark.com/scumm.dat/fate.zip', 'atlantis'),
 	'Indiana Jones and the Fate of Atlantis (FM Towns demo - Non interactive)'
-		=> array('http://www.cowlark.com/scumm.dat/indy4demo.zip', 'indydemo'),
+		=> array('http://www.cowlark.com/scumm.dat/indy4demo.zip', 'atlantis'),
 	'Sam and Max Hit the Road (DOS demo - Non interactive)'
-		=> array('http://www.cowlark.com/scumm.dat/samdemo.zip', 'samdemo'),
+		=> array('http://www.cowlark.com/scumm.dat/samdemo.zip', 'samnmax'),
 	'Sam and Max Hit the Road (Macintosh demo - Interactive)'
-		=> array('http://quick.mixnmojo.com/demos/samdemo_mac.rar', 'samdemo'),
+		=> array('http://quick.mixnmojo.com/demos/samdemo_mac.rar', 'samnmax'),
 	'Sam and Max Hit the Road (DOS demo - Interactive)'
-		=> array('ftp://ftp.lucasarts.com/demos/pc/Snmdemo.zip', 'snmdemo'),
+		=> array('ftp://ftp.lucasarts.com/demos/pc/Snmdemo.zip', 'samnmax'),
 	'Sam and Max Hit the Road WIP (DOS demo - Interactive)'
-		=> array('http://www.cowlark.com/scumm.dat/snmidemo.zip', 'snmidemo'),
+		=> array('http://www.cowlark.com/scumm.dat/snmidemo.zip', 'samnmax'),
 	'Day of the Tentacle (DOS demo - Non interactive)'
-		=> array('ftp://ftp.lucasarts.com/demos/pc/Dottdemo.zip', 'dottdemo'),
+		=> array('ftp://ftp.lucasarts.com/demos/pc/Dottdemo.zip', 'tentacle'),
 	'Full Throttle (Macintosh demo)'
-		=> array('http://quick.mixnmojo.com/demos/ftdemo_mac.rar', 'ftdemo'),
+		=> array('http://quick.mixnmojo.com/demos/ftdemo_mac.rar', 'ft'),
 	'Full Throttle (DOS demo)'
-		=> array('http://quick.mixnmojo.com/demos/ftdemo.zip', 'ftpcdemo'),
+		=> array('http://quick.mixnmojo.com/demos/ftdemo.zip', 'ft'),
 	'The Dig (Macintosh demo)'
-		=> array('http://quick.mixnmojo.com/demos/dig_demo_mac.zip', 'digdemo'),
+		=> array('http://quick.mixnmojo.com/demos/dig_demo_mac.zip', 'dig'),
 	'The Dig (DOS demo)'
-		=> array('http://quick.mixnmojo.com/demos/digdemo.zip', 'digdemo'),
+		=> array('http://quick.mixnmojo.com/demos/digdemo.zip', 'dig'),
 	'The Curse of Monkey Island (Windows demo)'
-		=> array('ftp://ftp.lucasarts.com/demos/pc/cursedemo.exe', 'comidemo'),
+		=> array('ftp://ftp.lucasarts.com/demos/pc/cursedemo.exe', 'comi'),
 	'The Curse of Monkey Island (Windows demo with movies)'
-		=> array('http://quick.mixnmojo.com/demos/CMIFullDemoFiles.zip', 'comidemo')
+		=> array('http://quick.mixnmojo.com/demos/CMIFullDemoFiles.zip', 'comi')
 	);
 
 $HE_demos = array(
