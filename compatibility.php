@@ -160,7 +160,7 @@ $notes = array(
 		   "<br>- Amiga, Atari ST, Macintosh, NES and PC versions supported by this target".
 		   "<br>- Minor graphical glitches in NES version",
 "zak"		=> "No known issues, game is completable.".
-		   "<br>- Amiga, Atari ST, FM-TOWNS and PC versions supported by this target".
+		   "<br>- Amiga, Atari ST, Commodore 64, FM-TOWNS and PC versions supported by this target".
 		   "<br>- Several sound effects buggy or missing in Amiga version".
                    "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "indy3" 	=> "Game is completable".
@@ -171,13 +171,10 @@ $notes = array(
 		   "<br>- Amiga, Atari ST, FM-TOWNS, Macintosh and PC versions supported by this target".
 		   "<br>- The Roland update from LucasArts is required for MIDI support in the EGA version".
 		   "<br>- No music or sound effects in the Macintosh version".
-
-                   "<br><br>FM-TOWNS specific issues".
-		   "<br>- Fades are seemingly different to other versions in some cases".
-		   "<br>- Text palette sometimes incorrect".
-		   "<br>- Distaff occasionally pink...".
-		   "<br>- Difficulty select is via boot param:".
-
+		   "<br>- Fades are seemingly different in the FM-TOWNS version".
+		   "<br>- Text palette sometimes incorrect in the FM-TOWNS version".
+		   "<br>- Distaff occasionally pink in the FM-TOWNS version".
+		   "<br>- Use boot parameter to choose difficulty in the FM-TOWNS version:".
 		   "<ul><li>0 practice (default)".
 		       "<li>1 standard".
 		       "<li>2 expert</ul>".
