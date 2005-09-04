@@ -202,11 +202,11 @@ $notes = array(
 		   "<br>- Both Macintosh and PC versions supported by this target".
 		   "<br>- Maniac Mansion isn't playable on Ed's computer. To play the included copy, use 'Add Game' from the main ScummVM launcher and select the MANIAC directory inside the DOTT game directory",
 "samnmax"	=> "No known issues, game is completable.".
-		   "<br>- Both Macintosh and PC versions supported by this target".
-"ft"		=> "No known issues, game is completable.",
-		   "<br>- Both Macintosh and PC versions supported by this target".
-"dig"		=> "No known issues, game is completable.",
-		   "<br>- Both Macintosh and PC versions supported by this target".
+		   "<br>- Both Macintosh and PC versions supported by this target",
+"ft"		=> "No known issues, game is completable.".
+		   "<br>- Both Macintosh and PC versions supported by this target",
+"dig"		=> "No known issues, game is completable.".
+		   "<br>- Both Macintosh and PC versions supported by this target",
 "comi"		=> "No known issues, game is completable.",
 
 "baseball"	=> "Game is playable, with glitches".
