@@ -63,9 +63,9 @@ else
 $gamesLucas = array(
 		'Maniac Mansion'					=> array('maniac','90'),
 		'Zak McKracken and the Alien Mindbenders'		=> array('zak','90'),
-		'Indiana Jones and the Last Crusade (EGA)'		=> array('indy3','90'),
+		'Indiana Jones and the Last Crusade'			=> array('indy3','90'),
 		'Loom'							=> array('loom','95'),
-		'Passport to Adventure (Indy3, Monkey and Loom demos)'  => array('pass','95'),
+		'Passport to Adventure' 				=> array('pass','95'),
 		'The Secret of Monkey Island'				=> array('monkey','95'),
 		'Monkey Island 2: LeChuck\'s revenge'			=> array('monkey2','95'),
 		'Indiana Jones 4 and the Fate of Atlantis'		=> array('atlantis','95'),
@@ -174,7 +174,7 @@ $notes = array(
 		   "<br>- Atari ST and Macintosh versions require pcjr or pcspk music driver".
 		   "<br>- No music or sound effects in the Macintosh version".
 
-                   "FM-TOWNS specific issues".
+                   "<br><br>FM-TOWNS specific issues".
 		   "<br>- Fades are seemingly different to other versions in some cases".
 		   "<br>- Text palette sometimes incorrect".
 		   "<br>- Distaff occasionally pink...".
@@ -196,7 +196,7 @@ $notes = array(
 		   "<br>- Amiga, FM-TOWNS, Macintosh and PC versions supported by this target".
                    "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "atlantis"	=> "No known issues, game is completable.".
-		   "<br>- Amiga, Macintosh and PC versions supported by this target".
+		   "<br>- Amiga, FM-TOWNS, Macintosh and PC versions supported by this target".
                    "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "tentacle"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and PC versions supported by this target".
