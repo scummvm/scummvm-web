@@ -26,7 +26,16 @@ if (!$shownews)
 
 // counter vars
 srand((double) microtime() * 1000000);
-$randImg = rand(0, $screenshots_count - 1);
+
+// Make LEC games appear in 60% of total shots
+$lastLECshot = 55;
+$randPart = rand(0, 10);
+
+if ($randPart < 6) {
+  $randImg = rand(0, $lastLECshot - 1);
+} else {
+  $randImg = $lastLECshot + rand(0, $screenshots_count - $lastLECshot - 1);
+}
 
 echo html_round_frame_start("About ScummVM","");
 ?>
