@@ -137,9 +137,10 @@ echo html_round_frame_start("Download ScummVM","");
 	  <li><a href="http://www.scummvm.org/SKY.CPT">Beneath a Steel Sky, SKY.CPT - required to run the game with a post-0.7.* ScummVM</a> <small>(416k)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/BASS-CD.zip?download">Beneath a Steel Sky, Freeware CD Version</a> <small>(67M)</small></li>
 	  <li><a href="http://www.mixnmojo.com/bss/BASS-Floppy.zip">Beneath a Steel Sky, Freeware Floppy Version</a> <small>(7.3M)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ_Talkie.zip?download">Flight of the Amazon Queen, Freeware CD Version</a> <small>(34.8M)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ_Talkie.zip?download">Flight of the Amazon Queen, Freeware CD Version (small - has mp3 compressed sfx/speech)</a> <small>(34.8M)</small></li>
+	  <li><a href="http://www.lysator.liu.se/~zino/scummvm/queen/queen.1.bz2">Flight of the Amazon Queen, Freeware CD Version (large - unmodified original)</a> <small>(87M) download this version if your ScummVM doesn't have mp3 support</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ_Floppy.zip?download">Flight of the Amazon Queen, Freeware Floppy Version</a> <small>(6.7M)</small></li>
-	  <li><a href="http://0x.7fc1.org/fotaq/queen.tbl">Flight of the Amazon Queen, queen.tbl - required to run FOTAQ versions not obtained from the ScummVM website</a> <small>(1.1M)</small></li>
+	  <li><a href="http://0x.7fc1.org/fotaq/queen.tbl">Flight of the Amazon Queen, queen.tbl - required to run original versions of FOTAQ</a> <small>(1.1M)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes.zip?download">Broken Sword 1 Cutscene Pack (ENGLISH)</a> <small>(31.2M)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_FRE_AddOn.zip?download">Broken Sword 1 Cutscene Pack (French AddOn)</a> <small>(1.6M) Override files in English Pack with this archive contents</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_GER_AddOn.zip?download">Broken Sword 1 Cutscene Pack (German AddOn)</a> <small>(1.8M) Override files in English Pack with this archive contents</small></li>
