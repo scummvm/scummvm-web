@@ -22,13 +22,8 @@ echo html_round_frame_start("Game Demos","");
 ?>
 	<h1>Game Demos</h1>
 	<p>
-	  This page lists some links to demos of various games, that in general don't work as well as the
-	  full versions.<br><br>
-	  Do not file bug reports against these demos as they aren't supported games.<br><br>
-	  Please contact us if you have a copy of a demo not listed here, Beneath A Steel Sky demos aren't 
-	  going to be supported for technical reasons.<br><br>
-	  Demos without functional download links are denoted by a * character.<br>
-          <br><br>
+	  This page lists links to demos of various games, please contact us if you have a copy of any demo not listed here,<br><br>
+	  Beneath A Steel Sky demos aren't going to be supported for technical reasons.<br><br>
 	</p>
 
 <?
