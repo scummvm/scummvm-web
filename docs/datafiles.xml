@@ -196,7 +196,7 @@ details.</p>
     DATA folder, EXCEPT files:<br>
       -BENBIKE.NUT<br>
       -CHASEBEN.SAN<br>
-      -ROAHRUSH.NUT<br>
+      -ROADRASH.NUT<br>
       -ROADRSH2.NUT<br>
       VIDEO folder, EXCEPT files:<br>
       -BIKESWAR.SAN<br>
@@ -327,6 +327,25 @@ details.</p>
       ITE Scripts.bin<br>
       ITE Sounds.bin<br>
       ITE Voices.bin (all files should be in MacBinary format)</td>
+  </tr>
+  <tr>
+    <td>Legend of Kyrandia (Demo)</td>
+    <td>8FAT.FNT<br>
+      BOTTOM.CPS<br>
+      DEMO1.COL<br>
+      DEMO1.WSA<br>
+      DEMO2.COL<br>
+      DEMO2.WSA<br>
+      DEMO3.COL<br>
+      DEMO3.WSA<br>
+      DEMO4.COL<br>
+      DEMO4.WSA<br>
+      FINAL.CPS<br>
+      INTRO.XMI<br>
+      KYRANDIA.WSA<br>
+      START.CPS<br>
+      TOP.CPS<br>
+      WESTWOOD.WSA</td>
   </tr>
   <tr>
     <td>Let's Explore the Airport with Buzzy (Demo)</td>
