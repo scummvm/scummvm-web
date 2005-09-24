@@ -85,49 +85,49 @@ $LEC_demos = array(
 
 $HE_demos = array(
 	'Backyard Baseball 2001 (Demo)'
-		=> array('ftp://ftp.infogrames.net/demos/backyardbaseball/bbdemo.exe', 'bb2demo'),
+		=> array('ftp://ftp.infogrames.net/demos/backyardbaseball/bbdemo.exe', 'baseball'),
 	'Big Thinkers Kindergarten (Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/BTK95d.EXE', 'kinddemo'),
+		=> array('ftp://ftp.humongous.com/humongous/BTK95d.EXE', 'thinkerk'),
 	'Big Thinkers First Grade (Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/BTFG95d.EXE', '1grademo'),
+		=> array('ftp://ftp.humongous.com/humongous/BTFG95d.EXE', 'thinker1'),
 	'Fatty Bear\'s Birthday Surprise (DOS demo)'
-		=> array('http://www.cowlark.com/scumm.dat/fatdemo.zip', 'fbdemo'),
+		=> array('http://www.cowlark.com/scumm.dat/fatdemo.zip', 'fbear'),
 	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/freddi.zip', 'freddemo'),
+		=> array('ftp://ftp.humongous.com/humongous/freddi.zip', 'freddi'),
 	'Freddi Fish 2: The Case of the Haunted Schoolhouse (Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/FF2-DEMO.ZIP', 'ff2-demo'),
+		=> array('ftp://ftp.humongous.com/humongous/FF2-DEMO.ZIP', 'freddi2'),
 	'Freddi Fish 3: The Case of the Stolen Conch Shell (Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/fred3-95.exe', 'f3-mdemo'),
+		=> array('ftp://ftp.humongous.com/humongous/fred3-95.exe', 'freddi3'),
 	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/freddi4_demo/freddi4.exe', 'f4-demo'),
+		=> array('ftp://ftp.humongous.com/humongous/freddi4_demo/freddi4.exe', 'freddi4'),
 	'Pajama Sam 1: No Need to Hide When It\'s Dark Outside (Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/pjs-demo.zip', 'pjs-demo'),
+		=> array('ftp://ftp.humongous.com/humongous/pjs-demo.zip', 'pajama'),
 	'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening (Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/PJ2Demo.exe', 'pj2demo'),
+		=> array('ftp://ftp.humongous.com/humongous/PJ2Demo.exe', 'pajama2'),
 	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Demo)'
-		=> array('http://quick.mixnmojo.com/demos/pj3-demo.rar', 'pj3-demo'),
+		=> array('http://quick.mixnmojo.com/demos/pj3-demo.rar', 'pajama3'),
 	'Pajama Sam\'s Lost & Found (Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/losttest.zip', 'smaller'),
+		=> array('ftp://ftp.humongous.com/humongous/losttest.zip', 'lost'),
 	'Putt-Putt Goes to the Moon (DOS demo)'
-		=> array('http://www.cowlark.com/scumm.dat/moondemo.zip', 'moondemo'),
+		=> array('http://www.cowlark.com/scumm.dat/moondemo.zip', 'puttmoon'),
 	'Putt-Putt Joins the Circus (Demo)'
-		=> array('http://quick.mixnmojo.com/demos/circdemo.rar', 'circdemo'),
+		=> array('http://quick.mixnmojo.com/demos/circdemo.rar', 'puttcircus'),
 	'Putt-Putt Joins the Parade (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/puttpara.zip', 'puttdemo'),
 	'Putt-Putt Saves the Zoo (Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/puttzoo.zip', 'zoodemo'),
+		=> array('ftp://ftp.humongous.com/humongous/puttzoo.zip', 'puttzoo'),
 	'Putt-Putt Travels Through Time (Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/putttime.zip', 'timedemo'),
+		=> array('ftp://ftp.humongous.com/humongous/putttime.zip', 'putttime'),
 	'Putt-Putt Enters the Race (Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/puttraceDemo/puttrace.exe', 'racedemo'),
+		=> array('ftp://ftp.humongous.com/humongous/puttraceDemo/puttrace.exe', 'puttrace'),
 	'Spyfox 1: Dry Cereal (Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/FOX95d.EXE', 'foxdemo'),
+		=> array('ftp://ftp.humongous.com/humongous/FOX95d.EXE', 'spyfox'),
 	'Spyfox 1: Dry Cereal (Alternative Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/spy95_98.zip', 'spydemo'),
+		=> array('ftp://ftp.humongous.com/humongous/spy95_98.zip', 'spyfox'),
 	'Spyfox 2: Some Assembly Required (Demo)'
-		=> array('http://quick.mixnmojo.com/demos/sf2-demo.rar', 'sf2-demo'),
+		=> array('http://quick.mixnmojo.com/demos/sf2-demo.rar', 'spyfox2'),
 	'Spyfox 3: Operation Ozone (Demo)'
-		=> array('http://quick.mixnmojo.com/demos/sf3-demo.rar', 'sf3-demo')
+		=> array('http://quick.mixnmojo.com/demos/sf3-demo.rar', 'spyozon')
 	);
 
 $MISC_demos = array(

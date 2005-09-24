@@ -78,62 +78,39 @@ $gamesLucas = array(
 
 $gamesHE = array(
 		'Backyard Baseball'							=> array('baseball','20'),
-		'Backyard Football (Demo)'						=> array('footdemo','80'),
 		'Backyard Football'							=> array('football','80'),
 		'Backyard Soccer'							=> array('soccer','20'),
 		'Blue\'s ABC Time (Demo)'						=> array('BluesABCTimeDemo','90'),
-		'Big Thinkers First Grade (Demo)'					=> array('1grademo','80'),
 		'Big Thinkers First Grade'						=> array('thinker1','70'),
-		'Big Thinkers Kindergarten (Demo)'					=> array('kinddemo','80'),
 		'Big Thinkers Kindergarten'						=> array('thinkerk','80'),
-		'Fatty Bears Birthday Surprise (Demo)'					=> array('fbdemo','95'),
 		'Fatty Bears Birthday Surprise'						=> array('fbear','93'),
 		'Fatty Bears Fun Pack'							=> array('fbpack','95'),
-		'Freddi Fish 1: The Case of the Missing Kelp Seeds (Demo)'		=> array('freddemo','90'),
 		'Freddi Fish 1: The Case of the Missing Kelp Seeds'			=> array('freddi','80'),
-		'Freddi Fish 2: The Case of the Haunted Schoolhouse (Demo)'		=> array('ff2-demo','70'),
 		'Freddi Fish 2: The Case of the Haunted Schoolhouse'			=> array('freddi2','70'),
-		'Freddi Fish 3: The Case of the Stolen Conch Shell (Demo)'		=> array('f3-mdemo','90'),
 		'Freddi Fish 3: The Case of the Stolen Conch Shell'			=> array('freddi3','90'),
-		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Demo)'	=> array('f4-demo','90'),
 		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'	=> array('freddi4','90'),
 		'Freddi Fish and Luther\'s Maze Madness'				=> array('maze','85'),
 		'Freddi Fish and Luther\'s Water Worries'				=> array('water','85'),
-		'Let\'s Explore the Airport with Buzzy (Demo)'				=> array('airdemo','85'),
 		'Let\'s Explore the Airport with Buzzy'					=> array('airport','85'),
-		'Let\'s Explore the Farm with Buzzy (Demo)'				=> array('farmdemo','85'),
 		'Let\'s Explore the Farm with Buzzy'					=> array('farm','85'),
 		'Let\'s Explore the Jungle with Buzzy'					=> array('jungle','85'),
-		'Pajama Sam 1: No Need to Hide When It\'s Dark Outside (Demo)'		=> array('pjs-demo','90'),
 		'Pajama Sam 1: No Need to Hide When It\'s Dark Outside'			=> array('pajama','70'),
-		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening (Demo)'	=> array('pj2demo','90'),
 		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'		=> array('pajama2','80'),
-		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Demo)'	=> array('pj3-demo','80'),
 		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('pajama3','50'),
-		'Pajama Sam\'s Lost & Found (Demo)'					=> array('smaller','90'),
 		'Pajama Sam\'s Lost & Found'						=> array('lost','50'),
 		'Pajama Sam\'s Sock Works'						=> array('socks','85'),
-		'Putt-Putt Enters the Race (Demo)'					=> array('racedemo','85'),
 		'Putt-Putt Enters the Race'						=> array('puttrace','70'),
-		'Putt-Putt Goes To The Moon (Demo)'					=> array('moondemo','95'),
 		'Putt-Putt Goes To The Moon'						=> array('puttmoon','95'),
-		'Putt-Putt Joins the Circus (Demo)'					=> array('circdemo','90'),
 		'Putt-Putt Joins the Circus'						=> array('puttcircus','50'),
-		'Putt-Putt Joins the Parade (Demo)'					=> array('puttdemo','95'),
 		'Putt-Putt Joins the Parade'						=> array('puttputt','95'),
-		'Putt-Putt Saves the Zoo (Demo)'					=> array('zoodemo','80'),
 		'Putt-Putt Saves the Zoo'						=> array('puttzoo','80'),
-		'Putt-Putt Travels Through Time (Demo)'					=> array('timedemo','80'),
 		'Putt-Putt Travels Through Time'					=> array('putttime','80'),
 		'Putt-Putt and Pep\'s Balloon-O-Rama'					=> array('balloon','85'),
 		'Putt-Putt and Pep\'s Dog on a Stick'					=> array('dog','85'),
 		'Putt-Putts Fun Pack'							=> array('funpack','95'),
 		'Putt-Putt & Fatty Bear\'s Activity Pack'				=> array('activity','95'),
-		'Spyfox 1: Dry Cereal (Demo)'						=> array('spydemo','90'),
 		'Spyfox 1: Dry Cereal'							=> array('spyfox','85'),
-		'Spyfox 2: Some Assembly Required (Demo)'				=> array('sf2-demo','90'),
 		'Spyfox 2: Some Assembly Required'					=> array('spyfox2','90'),
-		'Spyfox 3: Operation Ozone (Demo)'					=> array('sf3-demo','90'),
 		'Spyfox 3: Operation Ozone'						=> array('spyozon','60'),
 		'Spy Fox in Cheese Chase Game'						=> array('chase','20'),
 		'Spy Fox in Hold the Mustard'						=> array('mustard','85'),
@@ -208,9 +185,6 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Array out of bounds errors sometimes".
 		   "<br>- Minor graphical glitches",
-"footdemo"	=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
 "football"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
@@ -221,45 +195,27 @@ $notes = array(
 		   "<br>- Minor graphical glitches",
 "BluesABCTimeDemo" => "Game is playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"1grademo"	=> "Game is completable, with minor glitches".
-		   "<br>- Minor graphical glitches",
 "thinker1"	=> "Game is playable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Input issues when selecting locations on globe of world".
 		   "<br>- Need to use ESC when car is stuck in the smart star challenge",
-"kinddemo"	=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
 "thinkerk"	=> "Game is playable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
-"fbdemo"	=> "No known issues, game is completable.".
-		   "<br>- Both DOS and Windows versions supported by this target",
 "fbear"		=> "Game should be completable, with several glitches".
 		   "<br>- 3DO, DOS and Windows versions supported by this target".
 		   "<br>- Piano sounds aren't correct pitch in DOS version",
 "fbpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
 "activity"	=> "No known issues, game is completable.",
-"freddemo"	=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Inventory bubbles don't pop in older demo",
 "freddi"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Sometimes double speech when using objects",
-"ff2-demo"	=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Animation isn't synced during songs".
-		   "<br>- Minor graphical glitches",
 "freddi2"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Animation isn't synced during songs".
 		   "<br>- Minor graphical glitches",
-"f3-mdemo"	=> "No known issues, game is completable".
-		   "<br>- Both Macintosh and Windows versions supported by this target",
 "freddi3"	=> "No known issues, game is completable".
-		   "<br>- Both Macintosh and Windows versions supported by this target",
-"f4-demo"	=> "No known issues, game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "freddi4"	=> "No known issues, game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
@@ -267,75 +223,45 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "water"		=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"airdemo"	=> "Game is playable".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
 "airport"	=> "Game is playable".
-		   "<br>- Minor graphical glitches",
-"farmdemo"	=> "Game is playable".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
 "farm"		=> "Game is playable".
 		   "<br>- Minor graphical glitches",
 "jungle"	=> "Game is playable".
 		   "<br>- Minor graphical glitches",
-"pjs-demo"	=> "No known issues, game is completable".
-		   "<br>- Both Macintosh and Windows versions supported by this target",
 "pajama"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- No songs",
-"pj2demo"	=> "No known issues, game is completable".
-		   "<br>- Both Macintosh and Windows versions supported by this target",
 "pajama2"	=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
-"pj3-demo"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
 "pajama3"	=> "Game is playable but not completable".
 		   "<br>- PlayStation 1 version will never be supported.".
 		   "<br>- Sprites aren't displayed during Ski Ride".
 		   "<br>- Minor graphical glitches",
-"smaller"	=> "No known issues, game is completable",
 "lost"		=> "Game is playable, with glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Asserts during bonus game selection, if not all bonus pieces were found. Use Esc to bypass issue".
-		   "<br>- Minor graphical glitches",
+		   "<br>- Major graphical glitches in later levels",
 "socks"		=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"racedemo"	=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
 "puttrace"	=> "Game is completable, with glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Can't move around in the field".
 		   "<br>- Flashlight doesn't work correctly".
 		   "<br>- Minor graphical glitches",
-"moondemo"	=> "No known issues, game is completable.".
-		   "<br>- Both DOS and Windows versions supported by this target",
 "puttmoon"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS and Windows versions supported by this target",
-"circdemo"	=> "No known issues, game is completable.".
-		   "<br>- Both Macintosh and Windows versions supported by this target",
 "puttcircus"	=> "Game is playable but not completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Magnifying glass doesn't work".
 		   "<br>- Runs out of array pointers".
-		   "<br>- Graphical glitches",
-"puttdemo"	=> "No known issues, game is completable.".
-		   "<br>- Both DOS and Windows versions supported by this target",
+		   "<br>- Minor Graphical glitches",
 "puttputt"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS and Windows versions supported by this target",
 "puttzoo"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
-"zoodemo"	=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
 "putttime"	=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
-"timedemo"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
 "balloon"	=> "Game is completable, with minor glitches".
@@ -344,16 +270,10 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "funpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
-"spydemo"	=> "No known issues, game is completable.".
-		   "<br>- Both Macintosh and Windows versions supported by this target",
 "spyfox"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor selection issues in with actor/items in two sections",
-"sf2-demo"	=> "No known issues, game is completable.".
-		   "<br>- Both Macintosh and Windows versions supported by this target",
 "spyfox2"	=> "No known issues, game is completable.".
-		   "<br>- Both Macintosh and Windows versions supported by this target",
-"sf3-demo"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "spyozon"	=> "Game is completable, depending on path".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
