@@ -143,7 +143,6 @@ $notes = array(
                    "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "indy3" 	=> "Game is completable".
 		   "<br>- Amiga, Atari ST, FM-TOWNS, Macintosh and PC versions supported by this target".
-		   "<br>- Macintosh version isn't completable, due to no inventory controls".
                    "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "loom"		=> "No known issues, game is completable.".
 		   "<br>- Amiga, Atari ST, FM-TOWNS, Macintosh and PC versions supported by this target".
