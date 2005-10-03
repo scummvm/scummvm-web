@@ -134,12 +134,13 @@ $gamesOther = array(
 
 $notes = array(
 "maniac"	=> "No known issues, game is completable.".
-		   "<br>- Amiga, Atari ST, Macintosh, NES and PC versions supported by this target".
+		   "<br>- Amiga, Atari ST, Commodore 64, Macintosh, NES and PC versions supported by this target".
 		   "<br>- Major problems with Commodore 64 version",
 		   "<br>- Minor graphical glitches in NES version",
 "zak"		=> "No known issues, game is completable.".
 		   "<br>- Amiga, Atari ST, Commodore 64, FM-TOWNS and PC versions supported by this target".
 		   "<br>- Several sound effects buggy or missing in Amiga version".
+		   "<br>- No music or sound effects in the Commodore 64 version".
                    "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "indy3" 	=> "Game is completable".
 		   "<br>- Amiga, Atari ST, FM-TOWNS, Macintosh and PC versions supported by this target".
