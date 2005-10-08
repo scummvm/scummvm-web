@@ -68,7 +68,10 @@ work?</a></dt>
 <dt>4.11. <a href="#AEN225">I downloaded the Broken Sword packs
 from your site but the game won't run.</a></dt>
 <dt>4.12. <a href="#AEN230">There are no graphics in the Broken
-Sword I intro.</a></dt></dl></dd>
+Sword I intro.</a></dt>
+<dt>4.13. <a href="#AEN231">I get "WARNING: Unable to open configration file C:\windows\scummvm.ini!"</a></dt>
+<dt>4.14. <a href="#AEN232"> I get "Failed to save game state to file: xxx"</a></dt>
+</dl></dd>
 <dt>5. <a href="#AEN234">Features</a></dt>
 <dd>
 <dl>
@@ -486,6 +489,17 @@ Broken Sword I intro.</p></div>
 <div class="answer">
 <p>Be patient. There are about 12 seconds of speech only and
 eventually the Revolution logo will appear.</p></div></div></div>
+<div class="qandaentry">
+<div class="question">
+<p><a name="AEN231"></a><b>4.13.</b> I get "WARNING: Unable to open configration file C:\windows\scummvm.ini!"</p></div>
+<div class="answer">
+<p>Make sure you have enough permissions to write in c:\windows directory.</p></div></div>
+<div class="qandaentry">
+<div class="question">
+<p><a name="AEN232"></a><b>4.14.</b> I get "Failed to save game state to file: xxx"</p></div>
+<div class="answer">
+<p>Check savepath in Options-&gt;Paths-&gt;Save Path. That should point to writeable
+directory.
 <div class="qandadiv">
 <h3><a name="AEN234"></a>5. Features</h3>
 <div class="qandaentry">
