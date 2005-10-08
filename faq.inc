@@ -499,7 +499,7 @@ eventually the Revolution logo will appear.</p></div></div></div>
 <p><a name="AEN232"></a><b>4.14.</b> I get "Failed to save game state to file: xxx"</p></div>
 <div class="answer">
 <p>Check savepath in Options-&gt;Paths-&gt;Save Path. That should point to writeable
-directory.
+directory.</p></div></div></div>
 <div class="qandadiv">
 <h3><a name="AEN234"></a>5. Features</h3>
 <div class="qandaentry">
