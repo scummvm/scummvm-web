@@ -69,13 +69,14 @@ work?</a></dt>
 from your site but the game won't run.</a></dt>
 <dt>4.12. <a href="#AEN230">There are no graphics in the Broken
 Sword I intro.</a></dt>
-<dt>4.13. <a href="#AEN231">I get "WARNING: Unable to open configration file C:\windows\scummvm.ini!"</a></dt>
-<dt>4.14. <a href="#AEN232"> I get "Failed to save game state to file: xxx"</a></dt>
-</dl></dd>
-<dt>5. <a href="#AEN234">Features</a></dt>
+<dt>4.13. <a href="#AEN235">I get "WARNING: Unable to open
+configration file C:\windows\scummvm.ini!"</a></dt>
+<dt>4.14. <a href="#AEN240">I get "Failed to save game state to
+file: xxx"</a></dt></dl></dd>
+<dt>5. <a href="#AEN244">Features</a></dt>
 <dd>
 <dl>
-<dt>5.1. <a href="#AEN237">Will you add support for zip
+<dt>5.1. <a href="#AEN247">Will you add support for zip
 archives?</a></dt></dl></dd></dl>
 <div class="qandadiv">
 <h3><a name="AEN6"></a>1. Introduction</h3>
@@ -119,7 +120,8 @@ into the main tree.</p></div></div>
 <p><a name="question.supported-games"></a><b>1.4.</b> What games
 does ScummVM support?</p></div>
 <div class="answer">
-<p>We have a <a href="http://www.scummvm.org/compatibility.php">compatibility list</a> on our website that contains
+<p>We have a <a href="http://www.scummvm.org/compatibility.php"
+>compatibility list</a> on our website that contains
 an up to date list of what games work, and how well they work. As
 well as SCUMM games, we also include virtual machines for the first
 two Simon the Sorcerer games (by Adventure Soft), Broken Sword 1/2
@@ -222,8 +224,9 @@ older games and no tools geared towards creating content usable by
 ScummVM. Potential game authors are encouraged to look at open
 source technologies such as <a href="http://www.libsdl.org"
   >libSDL</a> for a cross platform DirectX like
-   library, and the <a href="http://www.lua.org">Lua</a> and <a href="http://www.python.org">Python</a> scripting languages for game
-   logic.</p></div></div></div>
+   library, and the <a href="http://www.lua.org">>Lua</a>
+   and <a href="http://www.python.org">Python</a> scripting
+   languages for game logic.</p></div></div></div>
 <div class="qandadiv">
 <h3><a name="AEN80"></a>2. ScummVM and SCUMM games</h3>
 <div class="qandaentry">
@@ -360,7 +363,8 @@ to copy those manually. Look at the <a href=
 <p><a name="question.no-sound"></a><b>4.3.</b> I don't hear any
 sound.</p></div>
 <div class="answer">
-<p>Check the <a href="http://www.scummvm.org/compatibility.php">compatibility list</a> to see if your game has sound
+<p>Check the <a href="http://www.scummvm.org/compatibility.php"
+>compatibility list</a> to see if your game has sound
 support currently. You can also try the -s command line parameter
 to set the in game SFX volume.</p></div></div>
 <div class="qandaentry">
@@ -375,7 +379,8 @@ sound.</i></a>".</p></div></div>
 <p><a name="AEN170"></a><b>4.5.</b> My game crashes at some
 point.</p></div>
 <div class="answer">
-<p>Check the <a href="http://www.scummvm.org/compatibility.php">Compatibility List</a> to see if your game has any
+<p>Check the <a href="http://www.scummvm.org/compatibility.php"
+>Compatibility List</a> to see if your game has any
 known issues. If you can reproduce this crash more than once,
 please report it to our Bug Tracker. See "<a href=
 "#question.report-bugs"><i>Reporting Bugs.</i></a>".</p>
@@ -450,7 +455,8 @@ the <a href=
   >bugs</a> link from our homepage. Please make sure
    the bug is reproducible, and still exists in the latest daily
    build/current CVS version. Also check the <a href=
-   "http://www.scummvm.org/compatibility.php">compatibility listing</a> for that game to ensure the
+   "http://www.scummvm.org/compatibility.php"
+   >compatibility listing</a> for that game to ensure the
    issue is not already known. In your bugreport please provide the
    following information:</p>
 <ul>
@@ -488,23 +494,26 @@ distribute them freely on our site.</p></div></div>
 Broken Sword I intro.</p></div>
 <div class="answer">
 <p>Be patient. There are about 12 seconds of speech only and
-eventually the Revolution logo will appear.</p></div></div></div>
+eventually the Revolution logo will appear.</p></div></div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN231"></a><b>4.13.</b> I get "WARNING: Unable to open configration file C:\windows\scummvm.ini!"</p></div>
+<p><a name="AEN235"></a><b>4.13.</b> I get "WARNING: Unable to open
+configration file C:\windows\scummvm.ini!"</p></div>
 <div class="answer">
-<p>Make sure you have enough permissions to write in c:\windows directory.</p></div></div>
+<p>Make sure you have enough permissions to write in c:\windows
+directory.</p></div></div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN232"></a><b>4.14.</b> I get "Failed to save game state to file: xxx"</p></div>
+<p><a name="AEN240"></a><b>4.14.</b> I get "Failed to save game
+state to file: xxx"</p></div>
 <div class="answer">
-<p>Check savepath in Options-&gt;Paths-&gt;Save Path. That should point to writeable
-directory.</p></div></div></div>
+<p>Check savepath in Options-&gt;Paths-&gt;Save Path. That should
+point to writeable directory.</p></div></div></div>
 <div class="qandadiv">
-<h3><a name="AEN234"></a>5. Features</h3>
+<h3><a name="AEN244"></a>5. Features</h3>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN237"></a><b>5.1.</b> Will you add support for zip
+<p><a name="AEN247"></a><b>5.1.</b> Will you add support for zip
 archives?</p></div>
 <div class="answer">
 <p>We will not do it. There are two main reasons for that. First,
