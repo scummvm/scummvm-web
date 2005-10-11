@@ -55,6 +55,7 @@
 <tr><td>Edward Rudd</td><td></td><td>Fixes for playing MP3 versions of MI1/Loom audio</td>
 <tr><td>Daniel Schepler</td><td></td><td>Final MI1 CD music support, initial Ogg Vorbis support</td>
 <tr><td>Johannes Schickel</td><td>[&nbsp;LordHoto&nbsp;]</td><td>Thumbnails for ScummEngine</td>
+<tr><td>Paul Smedley</td><td>[&nbsp;Creeping&nbsp;]</td><td>OS/2 fixes</td>
 <tr><td>Andr&eacute; Souza</td><td></td><td>SDL-based OpenGL renderer</td>
 <tr><td>Tim ???</td><td>[&nbsp;realmz&nbsp;]</td><td>Initial MI1 CD music support</td>
 <tr><td colspan=3>&nbsp;</td></tr>
