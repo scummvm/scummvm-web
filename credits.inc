@@ -4,7 +4,7 @@
 <tr><td colspan=3><h2>The ScummVM team:</h2></td></tr>
 <tr><td>James Brown</td><td>[&nbsp;endy&nbsp;]</td><td>Lead developer</td>
 <tr><td>Max Horn</td><td>[&nbsp;fingolfin&nbsp;]</td><td>Lead developer</td>
-<tr><td>Torbj&ouml;rn Andersson</td><td>[&nbsp;eriktorbjorn&nbsp;]</td><td>Engine: SCUMM, Broken Sword II, SAGA</td>
+<tr><td>Torbj&ouml;rn Andersson</td><td>[&nbsp;eriktorbjorn&nbsp;]</td><td>Engine: SCUMM, Broken Sword II, SAGA, Gob</td>
 <tr><td>David Eriksson</td><td>[&nbsp;twogood&nbsp;]</td><td>Engine: Flight of the Amazon Queen</td>
 <tr><td>Robert G&ouml;ffringmann</td><td>[&nbsp;lavosspawn&nbsp;]</td><td>Engine: Beneath a Steel Sky, Broken Sword I</td>
 <tr><td>Jonathan Gray</td><td>[&nbsp;khalek&nbsp;]</td><td>Engine: SCUMM, HE, Broken Sword II</td>
@@ -12,9 +12,10 @@
 <tr><td>Oliver Kiehl</td><td>[&nbsp;olki&nbsp;]</td><td>Engine: Beneath a Steel Sky, Simon</td>
 <tr><td>Pawe&#322; Ko&#322;odziejski</td><td>[&nbsp;aquadran&nbsp;]</td><td>Engine: SCUMM (Codecs, iMUSE, Smush, etc.)</td>
 <tr><td>Andrew Kurushin</td><td>[&nbsp;ajax16384&nbsp;]</td><td>Engine: SAGA</td>
-<tr><td>Gregory Montoir</td><td>[&nbsp;cyx&nbsp;]</td><td>Engine: Flight of the Amazon Queen, HE</td>
+<tr><td>Gregory Montoir</td><td>[&nbsp;cyx&nbsp;]</td><td>Engine: Flight of the Amazon Queen, HE, Kyra</td>
 <tr><td>Joost Peters</td><td>[&nbsp;joostp&nbsp;]</td><td>Engine: Beneath a Steel Sky, Flight of the Amazon Queen</td>
-<tr><td>Eugene Sandulenko</td><td>[&nbsp;_sev&nbsp;]</td><td>Engine: SCUMM (FT INSANE), HE, SAGA</td>
+<tr><td>Eugene Sandulenko</td><td>[&nbsp;_sev&nbsp;]</td><td>Engine: SCUMM (FT INSANE), HE, SAGA, Gob</td>
+<tr><td>Johannes Schickel</td><td>[&nbsp;LordHoto&nbsp;]</td><td>Engine: Kyra, GUI improvements</td>
 <tr><td>Chris Apers</td><td>[&nbsp;chrilith &nbsp;]</td><td>Port: PalmOS</td>
 <tr><td>Nicolas Bacca</td><td>[&nbsp;arisme&nbsp;]</td><td>Port: PocketPC/WinCE</td>
 <tr><td>Jurgen Braam</td><td>[&nbsp;SumthinWicked&nbsp;]</td><td>Port: EPOC/SymbianOS maintainer</td>
@@ -54,7 +55,6 @@
 <tr><td>Andreas R&ouml;ver</td><td></td><td>Broken Sword 1/2 MPEG2 cutscene support</td>
 <tr><td>Edward Rudd</td><td></td><td>Fixes for playing MP3 versions of MI1/Loom audio</td>
 <tr><td>Daniel Schepler</td><td></td><td>Final MI1 CD music support, initial Ogg Vorbis support</td>
-<tr><td>Johannes Schickel</td><td>[&nbsp;LordHoto&nbsp;]</td><td>Thumbnails for ScummEngine</td>
 <tr><td>Paul Smedley</td><td>[&nbsp;Creeping&nbsp;]</td><td>OS/2 fixes</td>
 <tr><td>Andr&eacute; Souza</td><td></td><td>SDL-based OpenGL renderer</td>
 <tr><td>Tim ???</td><td>[&nbsp;realmz&nbsp;]</td><td>Initial MI1 CD music support</td>
