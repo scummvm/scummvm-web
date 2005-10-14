@@ -119,24 +119,62 @@ while (list($key,$item) = each($news))
 {
 	$c++;
 	
-	// display news item
-	$arr = split("\.",$person);
+	// Load news item (it's in a pseudo XML format).
+	$file = $file_root."/news/".$item;
+	if (file_exists($file))
+	{ 
+		$fp = @fopen($file, "r");
+		$data = fread($fp, filesize($file));
+		@fclose($fp);
+
+		$news_date = "";
+		if (eregi("<DATE>(.*)</DATE>", $data, $out))
+		{
+			$news_date = $out[1];
+		}
+
+		$news_author = "";
+		if (eregi("<AUTHOR>(.*)</AUTHOR>", $data, $out))
+		{
+			$news_author = "Posted by ".$out[1];
+		}
+
+		$news_title = "";
+		if (eregi("<NAME>(.*)</NAME>", $data, $out))
+		{
+			$news_title = $out[1];
+		}
+
+		$news_img = "";
+		if (eregi("<IMG>(.*)</IMG>", $data, $out))
+		{
+			$news_img = $out[1];
+		}
+
+		$news_body = "";
+		if (eregi("<BODY>(.*)</BODY>", $data, $out))
+		{
+			$news_body = $out[1];
+		}
+	}
 	
+	// Display news item
 	echo html_frame_tr(
 			    html_frame_td(
 								'<div class="news-item">'.
 									'<div class="news-header">'.
-										'<span class="date">'.display_xml($file_root."/news/".$item,'DATE')."</span>: ".
-										display_xml($file_root."/news/".$item,'NAME').
+										'<span class="date">'.$news_date."</span>: ".
+										$news_title.
 									'</div>'.
-									display_xml($file_root."/news/".$item,'IMG').
-									'<div class="news-body">'.display_xml($file_root."/news/".$item,'BODY').'</div>'.
+									'<span class="news-author">'.$news_author."</span> ".
+									$news_img.
+									'<div class="news-body">'.$news_body.'</div>'.
 								'</div>'
 			                 )
 	                  );
 	
 	
-	// only show 5 records
+	// Only show first five records, unless we are in "news" mode
 	if ($c == 4 && !$shownews)
 	{
 		echo html_frame_tr(

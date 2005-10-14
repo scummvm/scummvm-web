@@ -162,9 +162,18 @@ th { font-size: 12pt; }
 	padding-bottom: 1px;
 }
 
-.news-item  .news-header .date	{
+.news-item .news-header .date	{
 	font-style: normal;
 	color: #666666;
+}
+
+.news-author {
+	float: right;
+	font-size: small;
+	font-style: italic;
+	color: #666;
+	text-indent: 2em;
+	position: relative;
 }
 
 .news-item .news-body	{
