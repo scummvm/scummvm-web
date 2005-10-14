@@ -101,10 +101,10 @@ $gamesHE = array(
 		'Pajama Sam\'s Sock Works'						=> array('socks','85'),
 		'Putt-Putt Enters the Race'						=> array('puttrace','70'),
 		'Putt-Putt Goes To The Moon'						=> array('puttmoon','95'),
-		'Putt-Putt Joins the Circus'						=> array('puttcircus','50'),
+		'Putt-Putt Joins the Circus'						=> array('puttcircus','85'),
 		'Putt-Putt Joins the Parade'						=> array('puttputt','95'),
-		'Putt-Putt Saves the Zoo'						=> array('puttzoo','80'),
-		'Putt-Putt Travels Through Time'					=> array('putttime','80'),
+		'Putt-Putt Saves the Zoo'						=> array('puttzoo','90'),
+		'Putt-Putt Travels Through Time'					=> array('putttime','90'),
 		'Putt-Putt and Pep\'s Balloon-O-Rama'					=> array('balloon','85'),
 		'Putt-Putt and Pep\'s Dog on a Stick'					=> array('dog','85'),
 		'Putt-Putts Fun Pack'							=> array('funpack','95'),
@@ -250,10 +250,9 @@ $notes = array(
 		   "<br>- Minor graphical glitches",
 "puttmoon"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS and Windows versions supported by this target",
-"puttcircus"	=> "Game is playable but not completable".
+"puttcircus"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Magnifying glass doesn't work".
-		   "<br>- Runs out of array pointers".
 		   "<br>- Minor Graphical glitches",
 "puttputt"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS and Windows versions supported by this target",
