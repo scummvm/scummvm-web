@@ -197,7 +197,6 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "thinker1"	=> "Game is playable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Input issues when selecting locations on globe of world".
 		   "<br>- Need to use ESC when car is stuck in the smart star challenge",
 "thinkerk"	=> "Game is playable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
@@ -270,7 +269,7 @@ $notes = array(
 		   "<br>- Both 3DO and DOS versions supported by this target",
 "spyfox"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor selection issues in with actor/items in two sections",
+		   "<br>- Minor selection issue with buttons on paintings",
 "spyfox2"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "spyozon"	=> "Game is completable, depending on path".
