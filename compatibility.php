@@ -260,10 +260,8 @@ $notes = array(
 		   "<br>- 3DO, DOS and Windows versions supported by this target",
 "puttzoo"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
-"putttime"	=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
+"putttime"	=> "Game is completable, with minor glitches",
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "balloon"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "dog"		=> "Game is completable, with minor glitches".
