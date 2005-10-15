@@ -81,7 +81,7 @@ $gamesHE = array(
 		'Backyard Football'							=> array('football','80'),
 		'Backyard Soccer'							=> array('soccer','20'),
 		'Blue\'s ABC Time (Demo)'						=> array('BluesABCTimeDemo','90'),
-		'Big Thinkers First Grade'						=> array('thinker1','70'),
+		'Big Thinkers First Grade'						=> array('thinker1','75'),
 		'Big Thinkers Kindergarten'						=> array('thinkerk','80'),
 		'Fatty Bears Birthday Surprise'						=> array('fbear','93'),
 		'Fatty Bears Fun Pack'							=> array('fbpack','95'),
@@ -97,11 +97,11 @@ $gamesHE = array(
 		'Pajama Sam 1: No Need to Hide When It\'s Dark Outside'			=> array('pajama','70'),
 		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'		=> array('pajama2','80'),
 		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('pajama3','50'),
-		'Pajama Sam\'s Lost & Found'						=> array('lost','50'),
+		'Pajama Sam\'s Lost & Found'						=> array('lost','80'),
 		'Pajama Sam\'s Sock Works'						=> array('socks','85'),
-		'Putt-Putt Enters the Race'						=> array('puttrace','70'),
+		'Putt-Putt Enters the Race'						=> array('puttrace','80'),
 		'Putt-Putt Goes To The Moon'						=> array('puttmoon','95'),
-		'Putt-Putt Joins the Circus'						=> array('puttcircus','85'),
+		'Putt-Putt Joins the Circus'						=> array('puttcircus','80'),
 		'Putt-Putt Joins the Parade'						=> array('puttputt','95'),
 		'Putt-Putt Saves the Zoo'						=> array('puttzoo','90'),
 		'Putt-Putt Travels Through Time'					=> array('putttime','90'),
@@ -218,10 +218,11 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "freddi4"	=> "No known issues, game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"maze"		=> "Game is completable, with minor glitches".
+"maze"		=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "water"		=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target",
+		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Minor Graphical glitches",
 "airport"	=> "Game is playable".
 		   "<br>- Minor graphical glitches",
 "farm"		=> "Game is playable".
@@ -238,14 +239,13 @@ $notes = array(
 		   "<br>- PlayStation 1 version will never be supported.".
 		   "<br>- Sprites aren't displayed during Ski Ride".
 		   "<br>- Minor graphical glitches",
-"lost"		=> "Game is playable, with glitches".
+"lost"		=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Major graphical glitches in later levels",
-"socks"		=> "Game is completable, with minor glitches".
+		   "<br>- Minor graphical glitches",
+"socks"		=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "puttrace"	=> "Game is completable, with glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Can't move around in the field".
 		   "<br>- Flashlight doesn't work correctly".
 		   "<br>- Minor graphical glitches",
 "puttmoon"	=> "No known issues, game is completable.".
@@ -261,8 +261,9 @@ $notes = array(
 "putttime"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "balloon"	=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target",
-"dog"		=> "Game is completable, with minor glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Minor Graphical glitches",
+"dog"		=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "funpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
