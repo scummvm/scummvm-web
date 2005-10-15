@@ -112,7 +112,7 @@ $gamesHE = array(
 		'Spyfox 1: Dry Cereal'							=> array('spyfox','85'),
 		'Spyfox 2: Some Assembly Required'					=> array('spyfox2','90'),
 		'Spyfox 3: Operation Ozone'						=> array('spyozon','60'),
-		'Spy Fox in Cheese Chase Game'						=> array('chase','20'),
+		'Spy Fox in Cheese Chase Game'						=> array('chase','85'),
 		'Spy Fox in Hold the Mustard'						=> array('mustard','85'),
 	      );
 
@@ -276,9 +276,8 @@ $notes = array(
 		   "<br>- Asserts when looking at pearls",
 		   "<br>- Need to guess the correct colors of Poodles's fingernails".
 		   "<br>- Palette glitches",
-"chase"		=> "Game is playable, with glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Spy Fox's scooter is scrolled off screen, as the screen scrolls vertically",
+"chase"		=> "No known issues, game is completable.".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "mustard"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 
