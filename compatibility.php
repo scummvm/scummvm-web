@@ -95,13 +95,13 @@ $gamesHE = array(
 		'Let\'s Explore the Farm with Buzzy'					=> array('farm','85'),
 		'Let\'s Explore the Jungle with Buzzy'					=> array('jungle','85'),
 		'Pajama Sam 1: No Need to Hide When It\'s Dark Outside'			=> array('pajama','70'),
-		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'		=> array('pajama2','80'),
+		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'		=> array('pajama2','90'),
 		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('pajama3','50'),
 		'Pajama Sam\'s Lost & Found'						=> array('lost','80'),
 		'Pajama Sam\'s Sock Works'						=> array('socks','85'),
-		'Putt-Putt Enters the Race'						=> array('puttrace','80'),
+		'Putt-Putt Enters the Race'						=> array('puttrace','90'),
 		'Putt-Putt Goes To The Moon'						=> array('puttmoon','95'),
-		'Putt-Putt Joins the Circus'						=> array('puttcircus','80'),
+		'Putt-Putt Joins the Circus'						=> array('puttcircus','85'),
 		'Putt-Putt Joins the Parade'						=> array('puttputt','95'),
 		'Putt-Putt Saves the Zoo'						=> array('puttzoo','90'),
 		'Putt-Putt Travels Through Time'					=> array('putttime','90'),
@@ -232,9 +232,8 @@ $notes = array(
 "pajama"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- No songs",
-"pajama2"	=> "Game is completable, with minor glitches".
+"pajama2"	=> "No known issues, game is completable",
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
 "pajama3"	=> "Game is playable but not completable".
 		   "<br>- PlayStation 1 version will never be supported.".
 		   "<br>- Sprites aren't displayed during Ski Ride".
@@ -244,22 +243,21 @@ $notes = array(
 		   "<br>- Minor graphical glitches",
 "socks"		=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"puttrace"	=> "Game is completable, with glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Flashlight doesn't work correctly".
-		   "<br>- Minor graphical glitches",
+"puttrace"	=> "No known issues, game is completable".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "puttmoon"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS and Windows versions supported by this target",
 "puttcircus"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Magnifying glass doesn't work".
-		   "<br>- Minor Graphical glitches",
+		   "<br>- Magnifying glass doesn't work",
 "puttputt"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS and Windows versions supported by this target",
 "puttzoo"	=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target",
+		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Minor graphical glitches",
 "putttime"	=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target",
+		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Minor graphical glitches",
 "balloon"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor Graphical glitches",
