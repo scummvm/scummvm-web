@@ -232,7 +232,7 @@ $notes = array(
 "pajama"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- No songs",
-"pajama2"	=> "No known issues, game is completable",
+"pajama2"	=> "No known issues, game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 "pajama3"	=> "Game is playable but not completable".
 		   "<br>- PlayStation 1 version will never be supported.".
