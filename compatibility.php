@@ -243,8 +243,10 @@ $notes = array(
 		   "<br>- Minor graphical glitches",
 "socks"		=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"puttrace"	=> "No known issues, game is completable".
-		   "<br>- Both Macintosh and Windows versions supported by this target",
+"puttrace"	=> "Game is completable, with minor glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Animation isn't synced during song".
+		   "<br>- Minor graphical glitches",
 "puttmoon"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS and Windows versions supported by this target",
 "puttcircus"	=> "Game is completable, with minor glitches".
