@@ -119,8 +119,8 @@ $gamesHE = array(
 $gamesOther = array(
 
 		'Beneath a Steel Sky'			       		=> array('sky','98'),
-		'Broken Sword I'			       		=> array('sword1','98'),
-		'Broken Sword II'			       		=> array('sword2','98'),
+		'Broken Sword 1'			       		=> array('sword1','98'),
+		'Broken Sword 2'			       		=> array('sword2','98'),
 		'Flight of the Amazon Queen'			       	=> array('queen','98'),
 		'Gobliiins'						=> array('gob1', '90'),
 		'Inherit the Earth'					=> array( 'ite', '87'),

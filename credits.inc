@@ -4,10 +4,10 @@
 <tr><td colspan=3><h2>The ScummVM team:</h2></td></tr>
 <tr><td>James Brown</td><td>[&nbsp;endy&nbsp;]</td><td>Lead developer</td>
 <tr><td>Max Horn</td><td>[&nbsp;fingolfin&nbsp;]</td><td>Lead developer</td>
-<tr><td>Torbj&ouml;rn Andersson</td><td>[&nbsp;eriktorbjorn&nbsp;]</td><td>Engine: SCUMM, Broken Sword II, SAGA, Gob</td>
+<tr><td>Torbj&ouml;rn Andersson</td><td>[&nbsp;eriktorbjorn&nbsp;]</td><td>Engine: SCUMM, Broken Sword 2, SAGA, Gob</td>
 <tr><td>David Eriksson</td><td>[&nbsp;twogood&nbsp;]</td><td>Engine: Flight of the Amazon Queen</td>
-<tr><td>Robert G&ouml;ffringmann</td><td>[&nbsp;lavosspawn&nbsp;]</td><td>Engine: Beneath a Steel Sky, Broken Sword I</td>
-<tr><td>Jonathan Gray</td><td>[&nbsp;khalek&nbsp;]</td><td>Engine: SCUMM, HE, Broken Sword II</td>
+<tr><td>Robert G&ouml;ffringmann</td><td>[&nbsp;lavosspawn&nbsp;]</td><td>Engine: Beneath a Steel Sky, Broken Sword 1</td>
+<tr><td>Jonathan Gray</td><td>[&nbsp;khalek&nbsp;]</td><td>Engine: SCUMM, HE, Broken Sword 2</td>
 <tr><td>Travis Howell</td><td>[&nbsp;Kirben&nbsp;]</td><td>Engine: SCUMM, HE, Simon the Sorcerer</td>
 <tr><td>Oliver Kiehl</td><td>[&nbsp;olki&nbsp;]</td><td>Engine: Beneath a Steel Sky, Simon</td>
 <tr><td>Pawe&#322; Ko&#322;odziejski</td><td>[&nbsp;aquadran&nbsp;]</td><td>Engine: SCUMM (Codecs, iMUSE, Smush, etc.)</td>

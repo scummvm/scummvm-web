@@ -131,9 +131,9 @@ $HE_demos = array(
 	);
 
 $MISC_demos = array(
-	'Broken Sword I'
+	'Broken Sword 1'
 		=> array('http://www.gamershell.com/download_4731.shtml', 'sword1demo'),
-	'Broken Sword II'
+	'Broken Sword 2'
 		=> array('http://ftp.se.kde.org/pub/pc/games/pcgameworld/demos/bs2-demo.zip', 'sword2demo'),
 	'Flight of the Amazon Queen (Datafile only)'
 		=> array('http://0x.7fc1.org/fotaq/fotaq_demo.zip', 'queen'),
