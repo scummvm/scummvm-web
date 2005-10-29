@@ -104,7 +104,7 @@ function html_frame_start ($title = "", $width = "", $cellPad = 5, $cellSpc = 1,
 function html_frame_end ($text = "")
 {
 	global $file_root;
-	$str .= "</table>\n";
+	$str = "</table>\n";
 	if ($text) {
 		$str .= '<div class="frameBottom"><span class="frameTitle">'.$text.'</span></div>'."\n";
 	}
@@ -116,7 +116,7 @@ function html_round_frame_start ($title = "", $extra = "")
 {
 	global $file_root;
 
-	$str .= "<div class='frame'>\n";
+	$str = "<div class='frame'>\n";
 	
 	if ($title) {
 		$str .= '<div class="frameTop"><div class="cornerLeft"><div class="cornerRight">';
@@ -133,7 +133,7 @@ function html_round_frame_start ($title = "", $extra = "")
 function html_round_frame_end ($text = "&nbsp;")
 {
 	global $file_root;
-	$str .= "</div>\n";
+	$str = "</div>\n";
 //	$str .= '</td></tr></table>'."\n";
 	if ($text) {
 		$str .= '<div class="frameBottom"><div class="cornerLeft"><div class="cornerRight">';
