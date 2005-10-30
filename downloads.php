@@ -82,7 +82,8 @@ echo html_round_frame_start("Download ScummVM","");
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-palmos.zip?download">PalmOS binary</a> <small>(1.9M zipfile)</small></li>
 -->
 
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-WindowsMobile_ARM.zip?download">Windows Mobile 2005 ARM package</a> <small>(1.4M zipfile)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-WindowsMobile_ARM.zip?download">Windows Mobile 5 ARM package</a> for Pocket PC 2002, Pocket PC 2003, Pocket PC 2003 SE, 
+Smartphone 2002, Smartphone 2003, and Windows Mobile 5 <small>(1.4M zipfile)</small></li>
 
 <!--
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-HandheldPC_MIPS.zip?download">HandheldPC MIPS binary</a> <small>(1.5M zipfile)</small></li>
@@ -130,9 +131,6 @@ echo html_round_frame_start("Download ScummVM","");
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-1.FC3.i386.rpm?download">0.7.1 Fedora Core 3 package</a> <small>(1.2M RPM)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-palmos.zip?download">0.7.1 PalmOS binary</a> <small>(1.9M zipfile)</small></li>
-
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-PocketPC2003_and_Smartphone2003.zip?download">0.7.1 PocketPC 2003 / Smartphone 2003 binary</a> <small>(1.3M zipfile)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-PocketPC2002_and_Smartphone2002.zip?download">0.7.1 PocketPC 2002 / Smartphone 2002 binary</a> <small>(1.3M zipfile)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-PocketPC_MIPS.zip?download">0.7.1 PocketPC MIPS binary</a> <small>(1.5M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-PocketPC_SH3.zip?download">0.7.1 PocketPC SH3 binary</a> <small>(1.4M zipfile)</small></li>
