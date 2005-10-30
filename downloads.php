@@ -76,9 +76,9 @@ echo html_round_frame_start("Download ScummVM","");
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-S60-v1.sis?download">Symbian S60 version 1 binary</a> <small>(1.0M .sis)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-S60-v2.sis?download">Symbian S60 version 2 binary</a> <small>(1.0M .sis)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-S80-v2.sis?download">Symbian S80 binary</a> <small>(1.1M .sis)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-S90-v2.sis?download">Symbian S90 binary</a> <small>(1.1M .sis)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-UIQ-v2.sis?download">Symbian UIQ binary</a> <small>(1.1M .sis)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-S80.sis?download">Symbian S80 binary</a> <small>(1.1M .sis)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-S90.sis?download">Symbian S90 binary</a> <small>(1.1M .sis)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-UIQ.sis?download">Symbian UIQ binary</a> <small>(1.1M .sis)</small></li>
 
 <!--
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-palmos.zip?download">PalmOS binary</a> <small>(1.9M zipfile)</small></li>
