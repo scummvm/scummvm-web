@@ -39,18 +39,24 @@ function sidebar_start ($specs_mode = false)
 	$g = new htmlmenu("Main Menu");
 
 	$g->add("Home", $file_root);
-	$g->add("FAQ", $file_root."/faq.php");
 	$g->add("ScreenShots", $file_root."/screenshots.php");
-	$g->add("Compatibility", $file_root."/compatibility.php");
-	$g->add("Documentation", $file_root."/documentation.php");
+	$g->add("Forums", "http://forums.scummvm.org/");
 	$g->add("Downloads", $file_root."/downloads.php");
+
+	$g->done();
+
+	$g = new htmlmenu("Documentation");
+	$g->add("FAQ", $file_root."/faq.php");
+	$g->add("Documentation", $file_root."/documentation.php");
+	$g->add("Compatibility", $file_root."/compatibility.php");
+	$g->add("Wiki", "http://wiki.scummvm.org/");
+	$g->add("Credits", $file_root."/credits.php");
 
 	$g->done();
 
 	$g = new htmlmenu("SourceForge Menu");
 
 	$g->add("Project Home", "http://sourceforge.net/projects/scummvm/");
-	$g->add("Forums", "http://sourceforge.net/forum/?group_id=37116");
 	$g->add("Bug Tracking", "http://sourceforge.net/tracker/?group_id=37116&amp;atid=418820");
 	$g->add("Daily Snapshots", "/daily/");
 	$g->add("CVS Tree", "http://cvs.sourceforge.net/viewcvs.py/scummvm/scummvm/");
@@ -61,7 +67,6 @@ function sidebar_start ($specs_mode = false)
 
 	$g->add("Subprojects", $file_root."/subprojects.php");
 	$g->add("Demos", $file_root."/demos.php");
-	$g->add("Credits", $file_root."/credits.php");
 	$g->add("Press Coverage", $file_root."/press.php");
 	$g->add("Contact", $file_root."/contact.php");
 	$g->add("Links", $file_root."/links.php");

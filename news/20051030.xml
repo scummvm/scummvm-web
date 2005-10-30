@@ -1,0 +1,35 @@
+<NAME>ScummVM 0.8.0 released.</NAME>
+<DATE>Oct. 30th, 2005</DATE>
+<AUTHOR>sev</AUTHOR>
+<BODY>
+<p>
+We are pleased to announce a long-awaited ScummVM 0.8.0 release. We, the ScummVM
+Team, have prepared a big pack of new features for you. Most outstanding amongst
+these are:
+<ul>
+<li>New improved launcher and in-game GUI
+<li>Support for <a href="http://www.wyrmkeep.com/ite/">Inherit the Earth</a> and
+  Gobliiins
+<li>Playstation Portable, Playstation 2 and EPOC/SymbianOS ports
+<li>CGA and Hercules rendering modes for some games
+<li>Preliminary support for NES and C64 LucasArts games
+</ul>
+</p> 
+<p>
+You may find a more detailed list of changes as well as files to download at our
+<a href="http://www.scummvm.org/downloads.php">downloads page</a>. We encourage
+you to update to this latest and best ScummVM version as soon as possible.
+</p>
+<p>
+Along with this release, we are also pleased to announce the launch
+of our <a href="http://forums.scummvm.org/">new forums.</a>. Located
+at the easy to remember address of <a href="http://forums.scummvm.org/">http://forums.scummvm.org/</a>, the
+new forums feature individual sub-forums for Ports, and many new functions
+for both the users and moderators alike.
+</p>
+<p>
+Please note that the SourceForge.net forums will be closed and archived
+within in the next 48 hours. These archives will be available from the
+bottom of the forums Main Index page.
+</p>
+</BODY>

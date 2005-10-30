@@ -58,7 +58,10 @@ echo html_round_frame_start("About ScummVM","");
 		<p>
 		ScummVM lets you run these adventures: <a href="http://www.adventuresoft.com">Adventure Soft</a>'s
 		<i>Simon the Sorcerer</i> 1 and 2; <a href="http://www.revolution.co.uk">Revolution</a>'s
-		<i>Beneath A Steel Sky</i>, Broken Sword 1 and Broken Sword 2; Flight of the Amazon Queen;
+		<i>Beneath A Steel Sky</i>, <i>Broken Sword 1</i> and <i>Broken Sword 2</i>;
+		<i>Flight of the Amazon Queen</i>;
+		<a href="http://www.wyrmkeep.com/ite/">Wyrmkeep</a>'s <i>Inherit the Earth</i>;
+		Coktel Vision's <i>Gobliiins</i>
 		and games based on <a href="http://www.lucasarts.com">LucasArts</a>'
 		<span style="color: green">SCUMM</span> <span style="color: #666666">(<i>Script Creation Utility for Maniac
 		Mansion</i>)</span> system. <span style="color: green">SCUMM</span> is used for many games,
