@@ -7,12 +7,12 @@ We are pleased to announce a long-awaited ScummVM 0.8.0 release. We, the ScummVM
 Team, have prepared a big pack of new features for you. Most outstanding amongst
 these are:
 <ul>
-<li>New improved launcher and in-game GUI
+<li>New improved launcher and in-game GUI</li>
 <li>Support for <a href="http://www.wyrmkeep.com/ite/">Inherit the Earth</a> and
-  Gobliiins
-<li>Playstation Portable, Playstation 2 and EPOC/SymbianOS ports
-<li>CGA and Hercules rendering modes for some games
-<li>Preliminary support for NES and C64 LucasArts games
+  Gobliiins</li>
+<li>Playstation Portable, Playstation 2 and EPOC/SymbianOS ports</li>
+<li>CGA and Hercules rendering modes for some games</li>
+<li>Preliminary support for NES and C64 LucasArts games</li>
 </ul>
 </p> 
 <p>
