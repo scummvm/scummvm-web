@@ -64,6 +64,8 @@ echo html_round_frame_start("Download ScummVM","");
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0_slack-i486-1.tgz?download">SlackWare package</a> <small>(1.5M .tgz)</small></li>
 
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-1mdk.i586.rpm?download">Mandriva 2006 package</a> <small>(1.3M RPM)</small></li>
+
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-macosx.dmg?download">Mac OS X Disk Image</a> <small>(2.0M disk image)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-os2r1.zip?download">OS/2 package</a> <small>(4.2M .zip)</small></li>
@@ -139,8 +141,6 @@ Smartphone 2002, Smartphone 2003, and Windows Mobile 5 <small>(1.4M zipfile)</sm
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-HandheldPC_SH3.zip?download">0.7.1 HandheldPC SH3 binary</a> <small>(1.4M zipfile)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-beos-x86.pkg?download">0.7.1 BeOS package</a> <small>(2.8M pkg)</small></li>
-
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-1mdk.i586.rpm?download">0.7.0 Mandrake package</a> <small>(1.1M RPM)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-solaris8-sparc.tar.bz2?download">0.7.0 Solaris 8 (Sparc) binary</a> <small>(1.1M .tar.bz2)</small></li>
 
