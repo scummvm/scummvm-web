@@ -154,7 +154,7 @@ Smartphone 2002, Smartphone 2003, and Windows Mobile 5 <small>(1.4M zipfile)</sm
 	<h3>Extras!</h3>
 	<ul>
 	  <li><a href="http://www.scummvm.org/SKY.CPT">Beneath a Steel Sky, SKY.CPT - required to run the game with a post-0.7.* ScummVM</a> <small>(416k)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/BASS-CD.zip?download">Beneath a Steel Sky, Freeware CD Version</a> <small>(67M)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/bass-cd-1.1.zip?download">Beneath a Steel Sky, Freeware CD Version</a> <small>(67M)</small></li>
 	  <li><a href="http://www.mixnmojo.com/bss/BASS-Floppy.zip">Beneath a Steel Sky, Freeware Floppy Version</a> <small>(7.3M)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ_Talkie.zip?download">Flight of the Amazon Queen, Freeware CD Version (small - has mp3 compressed sfx/speech)</a> <small>(34.8M)</small></li>
 	  <li><a href="ftp://ftp.suse.com/pub/suse/i386/supplementary/X/FOTAQ/">Flight of the Amazon Queen, Freeware CD Version (small - has ogg compressed sfx/speech)</a> <small>(35.6M)</small></li>
