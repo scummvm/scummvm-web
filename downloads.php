@@ -66,7 +66,7 @@ echo html_round_frame_start("Download ScummVM","");
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-1mdk.i586.rpm?download">Mandriva 2006 package</a> <small>(1.3M RPM)</small></li>
 
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-macosx.dmg?download">Mac OS X Disk Image</a> <small>(2.0M disk image)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0a-macosx.dmg?download">Mac OS X Disk Image (0.8.0a)</a> <small>(2.2M disk image)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-os2r1.zip?download">OS/2 package</a> <small>(4.2M .zip)</small></li>
 
