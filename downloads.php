@@ -89,8 +89,8 @@ Smartphone 2002, Smartphone 2003, and Windows Mobile 5 <small>(1.4M zipfile)</sm
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-amigaos4.lha?download">AmigaOS 4 package</a> <small>(3.3M .lha)</small></li>
 
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-dreamcast-plainfiles.tar.bz2?download">Dreamcast plain files</a> <small>(2.6M .tar.bz2)</small></li>
 <!--
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-dreamcast-plainfiles.tar.bz2?download">Dreamcast plain files</a> <small>(2.2M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-dreamcast-nero+demos.zip?download">Dreamcast Nero Image &amp; Demos</a> <small>4.7M zipfile</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-beos-x86.pkg?download">BeOS package</a> <small>(2.8M pkg)</small></li>
 -->
