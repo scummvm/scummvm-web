@@ -111,7 +111,7 @@ $gamesHE = array(
 		'Putt-Putt & Fatty Bear\'s Activity Pack'				=> array('activity','95'),
 		'Spyfox 1: Dry Cereal'							=> array('spyfox','85'),
 		'Spyfox 2: Some Assembly Required'					=> array('spyfox2','90'),
-		'Spyfox 3: Operation Ozone'						=> array('spyozon','60'),
+		'Spyfox 3: Operation Ozone'						=> array('spyozon','70'),
 		'Spy Fox in Cheese Chase Game'						=> array('chase','85'),
 		'Spy Fox in Hold the Mustard'						=> array('mustard','85'),
 	      );
@@ -273,9 +273,8 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "spyozon"	=> "Game is completable, depending on path".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Asserts when looking at pearls",
 		   "<br>- Need to guess the correct colors of Poodles's fingernails".
-		   "<br>- Palette glitches",
+		   "<br>- Various palette glitches",
 "chase"		=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "mustard"	=> "No known issues, game is completable.".
