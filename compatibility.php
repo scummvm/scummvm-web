@@ -198,8 +198,9 @@ $notes = array(
 "thinker1"	=> "Game is playable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Need to use ESC when car is stuck in the smart star challenge",
-"thinkerk"	=> "No known issues, game is completable.",
+"thinkerk"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Animation isn't synced during the introduction song",
 "fbear"		=> "Game should be completable, with several glitches".
 		   "<br>- 3DO, DOS and Windows versions supported by this target".
 		   "<br>- Piano sounds aren't correct pitch in DOS version",
