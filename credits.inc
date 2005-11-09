@@ -55,7 +55,7 @@
 <tr><td>Andreas R&ouml;ver</td><td></td><td>Broken Sword 1/2 MPEG2 cutscene support</td>
 <tr><td>Edward Rudd</td><td></td><td>Fixes for playing MP3 versions of MI1/Loom audio</td>
 <tr><td>Daniel Schepler</td><td></td><td>Final MI1 CD music support, initial Ogg Vorbis support</td>
-<tr><td>Paul Smedley</td><td>[&nbsp;Creeping&nbsp;]</td><td>OS/2 fixes</td>
+<tr><td>Paul Smedley</td><td>[&nbsp;Creeping&nbsp;]</td><td>OS/2 fixes and packaging</td>
 <tr><td>Andr&eacute; Souza</td><td></td><td>SDL-based OpenGL renderer</td>
 <tr><td>Tim ???</td><td>[&nbsp;realmz&nbsp;]</td><td>Initial MI1 CD music support</td>
 <tr><td colspan=3>&nbsp;</td></tr>
@@ -65,9 +65,10 @@
 <tr><td>Sander Buskens</td><td></td><td>For his work on the initial reversing of Monkey2</td>
 <tr><td>???</td><td>[&nbsp;Canadacow&nbsp;]</td><td>For the original MT-32 emulator</td>
 <tr><td>Kevin Carnes</td><td></td><td>For Scumm16, the basis of ScummVM's older gfx codecs</td>
-<tr><td>???</td><td>[&nbsp;Jezar&nbsp;]</td><td>For his freeverb filter implementation</td>
 <tr><td>Ivan Dubrov</td><td></td><td>For contributing the initial version of the Gobliiins engine</td>
+<tr><td>???</td><td>[&nbsp;Jezar&nbsp;]</td><td>For his freeverb filter implementation</td>
 <tr><td>Jim Leiterman</td><td></td><td>Various info on his FM-TOWNS/Marty SCUMM ports</td>
+<tr><td>???</td><td>[&nbsp;lloyd&nbsp;]</td><td>For deep tech details about C64 Zak & MM</td>
 <tr><td>Jimmi Th&oslash;gersen</td><td></td><td>For ScummRev, and much obscure code/documentation</td>
 <tr><td>???</td><td>[&nbsp;Tristan&nbsp;]</td><td>For additional work on the original MT-32 emulator</td>
 <tr><td colspan=3>&nbsp;</td></tr>
