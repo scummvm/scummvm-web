@@ -93,8 +93,8 @@ Smartphone 2002, Smartphone 2003, and Windows Mobile 5 <small>(1.4M zipfile)</sm
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-dreamcast-plainfiles.tar.bz2?download">Dreamcast plain files</a> <small>(2.6M .tar.bz2)</small></li>
 <!--
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-dreamcast-nero+demos.zip?download">Dreamcast Nero Image &amp; Demos</a> <small>4.7M zipfile</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-beos-x86.pkg?download">BeOS package</a> <small>(2.8M pkg)</small></li>
 -->
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-beos-x86.pkg?download">BeOS package</a> <small>(3.0M pkg)</small></li>
 	</ul>
 
 	<h3>0.8.0 Source Code</h3>
@@ -139,8 +139,6 @@ Smartphone 2002, Smartphone 2003, and Windows Mobile 5 <small>(1.4M zipfile)</sm
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-HandheldPC_ARM.zip?download">0.7.1 HandheldPC ARM binary</a> <small>(1.3M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-HandheldPC_MIPS.zip?download">0.7.1 HandheldPC MIPS binary</a> <small>(1.5M zipfile)</small></li>
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-HandheldPC_SH3.zip?download">0.7.1 HandheldPC SH3 binary</a> <small>(1.4M zipfile)</small></li>
-
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-beos-x86.pkg?download">0.7.1 BeOS package</a> <small>(2.8M pkg)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-solaris8-sparc.tar.bz2?download">0.7.0 Solaris 8 (Sparc) binary</a> <small>(1.1M .tar.bz2)</small></li>
 
