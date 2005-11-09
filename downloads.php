@@ -88,7 +88,7 @@ echo html_round_frame_start("Download ScummVM","");
 Smartphone 2002, Smartphone 2003, and Windows Mobile 5 <small>(1.4M zipfile)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-amigaos4.lha?download">AmigaOS 4 package</a> <small>(3.3M .lha)</small></li>
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-morphos.lha?download">0.8.0 MorphOS binary</a> <small>(2.4M .lha)</small></li>
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-morphos.lha?download">0.8.0 MorphOS package</a> <small>(2.4M .lha)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-dreamcast-plainfiles.tar.bz2?download">Dreamcast plain files</a> <small>(2.6M .tar.bz2)</small></li>
 <!--
