@@ -57,7 +57,6 @@ html_content_begin('Download ScummVM');
 	  If you have successfully ported ScummVM to a platform not listed, please drop us a note, telling which OS, etc.
 	  you used.
 
-	<p>
 	<UL>
 		<LI>The latest STABLE release of ScummVM is 0.8.0, and can be downloaded below
 	under '<A HREF="#stable">Release Binaries</A>'. If you run Windows and are confused,

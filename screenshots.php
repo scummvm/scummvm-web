@@ -56,7 +56,7 @@ if ($view == "") {
   echo "<a href=\"javascript:openWin('./screenshots/{$screenshots[$randImg]}','scummvm',640,483);\"\n";
   echo "  onMouseOver=\"window.status='Click to View Full Size Image';return true;\"\n";
   echo "  onMouseOut=\"window.status='';return true;\">";
-  echo '<img align=right src="'.screenshot_thumb_from_full($screenshots[$randImg]).'" alt="Random Screenshot" /';
+  echo '<img align=right src="'.screenshot_thumb_from_full($screenshots[$randImg]).'" alt="Random Screenshot"';
   echo ' title="Click to view Full Size"></a>';
 ?>
 </td><td style="background:#a82709;" width=7 height=192 rowspan=2></td></tr>

@@ -75,7 +75,7 @@ $gamesLucas = array(
 		'Monkey Island 2: LeChuck\'s revenge'			=> array('monkey2','95'),
 		'Indiana Jones 4 and the Fate of Atlantis'		=> array('atlantis','95'),
 		'Day Of The Tentacle'					=> array('tentacle','95'),
-		'Sam & Max'                                             => array('samnmax','95'),
+		'Sam &amp; Max'                                             => array('samnmax','95'),
 		'Full Throttle'						=> array('ft','90'),
 		'The Dig'                                               => array('dig','90'),
 		'Curse of Monkey Island'				=> array('comi','90'),
@@ -102,7 +102,7 @@ $gamesHE = array(
 		'Pajama Sam 1: No Need to Hide When It\'s Dark Outside'			=> array('pajama','70'),
 		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'		=> array('pajama2','90'),
 		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('pajama3','50'),
-		'Pajama Sam\'s Lost & Found'						=> array('lost','80'),
+		'Pajama Sam\'s Lost &amp; Found'						=> array('lost','80'),
 		'Pajama Sam\'s Sock Works'						=> array('socks','90'),
 		'Putt-Putt Enters the Race'						=> array('puttrace','90'),
 		'Putt-Putt Goes To The Moon'						=> array('puttmoon','95'),
@@ -113,7 +113,7 @@ $gamesHE = array(
 		'Putt-Putt and Pep\'s Balloon-O-Rama'					=> array('balloon','90'),
 		'Putt-Putt and Pep\'s Dog on a Stick'					=> array('dog','90'),
 		'Putt-Putts Fun Pack'							=> array('funpack','95'),
-		'Putt-Putt & Fatty Bear\'s Activity Pack'				=> array('activity','95'),
+		'Putt-Putt &amp; Fatty Bear\'s Activity Pack'				=> array('activity','95'),
 		'Spyfox 1: Dry Cereal'							=> array('spyfox','85'),
 		'Spyfox 2: Some Assembly Required'					=> array('spyfox2','90'),
 		'Spyfox 3: Operation Ozone'						=> array('spyozon','70'),
@@ -314,8 +314,8 @@ $notes = array(
 "simon1demo" 	=> "No known issues, game demo is completable.",
 "simon2talkie"  => "No known issues, game is completable.".
 		   "<br>- Amiga, DOS, Macintosh and Windows versions supported by this target".
-                   "<br>- Only the default language (English) in Amiga & Mactinosh versions is supported".
-                   "<br>- F10 key animation is different in Amiga & Macintosh versions",
+                   "<br>- Only the default language (English) in Amiga &amp; Mactinosh versions is supported".
+                   "<br>- F10 key animation is different in Amiga &amp; Macintosh versions",
 "simon2dos"     => "No known issues, game is completable."
 );
 		

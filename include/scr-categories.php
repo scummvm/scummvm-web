@@ -17,7 +17,7 @@ function display_categories() {
   global $categories;
 
   foreach ($categories as $cat) {
-    html_subhead_start('<a name="cat'.$cat->_catnum.'"/></a><a href="?cat1='.
+    html_subhead_start('<a name="cat'.$cat->_catnum.'"></a><a href="?cat1='.
 		       $cat->_catnum .'&amp;cat2=-1&amp;view=-1">'.$cat->_name.'</a>');
 
     echo '<div class="par-scr-content-cat'.$cat->_catnum.'">';

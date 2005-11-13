@@ -3,12 +3,11 @@
 function html_page_header($title, $extra = "") {
   global $file_root;
 
-  echo '<?xml version="1.0" encoding="iso-8859-1"?>'."\n";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en">
 	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 		<link rel="stylesheet" href="./style.css" type="text/css">
 <?php
   echo "<title>$title</title>\n";
