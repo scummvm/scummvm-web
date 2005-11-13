@@ -70,7 +70,7 @@
 <tr><td>Ivan Dubrov</td><td></td><td>For contributing the initial version of the Gobliiins engine</td>
 <tr><td>???</td><td>[&nbsp;Jezar&nbsp;]</td><td>For his freeverb filter implementation</td>
 <tr><td>Jim Leiterman</td><td></td><td>Various info on his FM-TOWNS/Marty SCUMM ports</td>
-<tr><td>???</td><td>[&nbsp;lloyd&nbsp;]</td><td>For deep tech details about C64 Zak & MM</td>
+<tr><td>???</td><td>[&nbsp;lloyd&nbsp;]</td><td>For deep tech details about C64 Zak &amp; MM</td>
 <tr><td>Jimmi Th&oslash;gersen</td><td></td><td>For ScummRev, and much obscure code/documentation</td>
 <tr><td>???</td><td>[&nbsp;Tristan&nbsp;]</td><td>For additional work on the original MT-32 emulator</td>
 <tr><td colspan=3>&nbsp;</td></tr>
