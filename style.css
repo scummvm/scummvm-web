@@ -53,7 +53,7 @@ td.content {
 table.intro {
 /*	border-spacing:8px;	*/
 	vertical-align:bottom;
-	border:background:#fff;
+/*	border:background:#fff; */
 	
 /*	width:452px;	*/
 	}
@@ -80,7 +80,7 @@ table.intro {
 	height:28px;
 	}
 .intro .intro h2 {
-	margin:0px;color:#356a02;font-weigth:bold;padding-left:1em;
+	margin:0px;color:#356a02;font-weight:bold;padding-left:1em;
 	font-family:Trebuchet MS,Verdana,Tahoma;font-size:18px;
 	}
 .intro .intro .content {
@@ -282,7 +282,7 @@ td.menus {
 .par-item .cat-link, .par-item .cat-bullet {
 	margin:3px;
 	padding:3px;
-	vertical-align:center;
+	vertical-align:middle;
 	}
 
 .par-item .cat-link a, .par-item .cat-link a:visited { 
@@ -328,13 +328,13 @@ td.menus {
 .navigation .nav-item {
 	margin:3px;
 	padding:3px;
-	vertical-align:center;
+	vertical-align:middle;
 	}
 
 .navigation .nav-bullet {
 	margin:3px;
 	padding:3px;
-	vertical-align:center;
+	vertical-align:middle;
 	width:14px;
 	}
 
