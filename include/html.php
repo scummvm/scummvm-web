@@ -1,23 +1,167 @@
 <?php
 
-/*
- * HTML lib for ScummVM
- * by Jeremy Newman <jnewman@dracowulf.com>
- *
- */
- 
-$_trcolor = 0;
+function html_page_header($title, $extra = "") {
+  global $file_root;
 
-// Set the current Indent Level
-function do_indent ($str, $v = 0)
-{
-	return $str;
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="./style.css" type="text/css">
+<?php
+  echo '<link rel="SHORTCUT ICON" HREF="'.$file_root.'/favicon.ico" />';
+  echo '<link rel="ICON" HREF="'.$file_root.'/favicon.ico" />';
+  echo "<title>$title</title>\n";
+  echo "$extra\n";
+?>
+	</head>
+	<body>
+
+        <!-- HTML/CSS coding by Jaroslaw Fedevich jaroslaw@nospam.kiev.ua -->
+
+	<table class="main-container" width="90%" cellspacing="0" cellpadding="0" align="center">
+		<tr>
+			<td colspan="2"><table cellspacing="0" cellpadding="0" style="width:100%;">
+					<tr><td rowspan="2" width="287"><img alt="ScummVM logo" src="images/scummvm_logo.png" width="287" height="118" border="0" /></td>
+					<td rowspan="2" style="background:url('images/bg-upper.gif')">&nbsp;</td>
+					<td width="483">
+
+<?php
+
+$heroes = get_files($file_root."/images", null, "(heroes.+\\.png)");
+
+$randImg = rand(0, count($heroes) - 1);
+
+echo '<img alt="Game characters" src="images/'.$heroes[$randImg].'" height="89" />';
+
+?>
+</td>
+					</tr>
+					<tr><td width="483"><img alt="Script creation utility for Maniac Mansion Virtual Machine" src="images/scummvm-caption.png" height="29" /></td>
+					<td width="24">&nbsp;</td></tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="content" valign="top" rowspan="2" style="padding-right:1px;">
+
+<?php
+    }
+
+
+function html_content_begin($title) {
+?>
+
+<table style="margin:0px;margin-top:0px;width:100%;" cellspacing="0" cellpadding="0">
+<tr><td style="padding-left:8px;padding-right:8px;">
+	<table width="100%" cellspacing="0" cellpadding="0">
+		<tr>
+		<td width="8" style="background:url('images/header-left-corner.gif');height:28px;">&nbsp;</td>
+		<td style="background:url('images/header-background.gif')"><h2 style="margin:0px;color:#356a02;font-weigth:bold;padding-left:1em;
+			font-family:Trebuchet MS,Verdana,Tahoma;font-size:18px;color:#821d06">
+<?php
+shadowed_text($title, '#821d06', '#ffffff');
+?>
+
+</h2></td>
+		<td width="8" style="background:url('images/header-right-corner.gif');height:28px;">&nbsp;</td>
+	</tr></table>
+</td></tr>
+<tr><td style="padding-left:8px;padding-right:8px;"><table width="100%" cellspacing="0"><tr><td style="border-left:1px solid #ebb716;border-right:1px solid #ebb716;padding:12px;background:#fff;">
+<?php
 }
 
-// HTML BR
+function html_content_end() {
+?>
+	</td></tr></table></td>
+<tr>
+	<td style="padding-left:8px;padding-right:8px;"><table width="100%" cellspacing="0" cellpadding="0"><tr>
+	<td width="8" style="height:28px;background:url('images/left-low-corner.gif')">&nbsp;</td>
+	<td style="border-bottom:1px solid #ebb716;text-align:right;background:#fff;">&nbsp;</td>
+	<td width="8" style="background:url('images/right-low-corner.gif')">&nbsp;</td>
+	</tr></table></td>
+</tr>
+</table>
+
+<?php
+}
+
+function html_page_footer() {
+  global $file_root;
+
+?>
+			</td>
+<?php
+  sidebar_start();
+  sidebar_end();
+?>
+
+
+		</tr><tr><td class="menus" style="vertical-align:bottom;" >
+		<img src="images/tentacle1.gif" style="vertical-align:bottom;" />
+		</td>
+		</tr>
+
+<tr><td colspan="2">
+<table width="100%" cellspacing="0" cellpadding="0" ><!-- class="main-container" -->
+<tr><td style="background:#fbf1ce;height:51px;" colspan=2>
+    <table style="border-spacing:0px;margin:0px;width:80%;margin-left:auto;margin-right:auto;" align="center" cellspacing="0"><!-- width="80%" -->
+	<tr>
+		<td>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin:0px;"><div>
+		<input type="hidden" name="cmd" value="_xclick">
+		<input type="hidden" name="business" value="paypal@enderboi.com">
+		<input type="hidden" name="item_name" value="ScummVM donation">
+		<input type="image" src="<?=$file_root?>/images/ppdonate.gif" name="submit" alt="Donate to ScummVM with PayPal!">
+		</div></form>	
+		</td>
+		<td>
+			<a href="http://sourceforge.net/"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=37116" width="88" height="31" alt="SourceForge"></a>
+		</td>
+		<td>
+			<a href="http://validator.w3.org/check/referer"><img src="http://www.w3.org/Icons/valid-html401" width="88" height="31" alt="Valid HTML 4.01!"></a>
+		</td>
+		<td>
+			<a href="http://jigsaw.w3.org/css-validator/"><img src="http://jigsaw.w3.org/css-validator/images/vcss" width="88" height="31" alt="Valid CSS!" ></a>
+		</td>
+	</tr>
+<!-- </td></tr> -->
+	</table>
+</td><td class="menus" style="width:163px;vertical-align:top;border:0px;" rowspan="2"><img src="images/tentacle2.gif" style="margin:0px;border:0px;
+	vertical-align:bottom" /></td>
+</tr><tr>
+<td colspan="2">
+<table width="100%" cellspacing="0" style="padding:0px;">
+<td width="12" style="height:5px;line-height:5px;width:12px;"><img alt="" src="images/content-left-bottom.gif" height="12" width="12"></td>
+   <td style="background:#fbf1ce;line-height:2px;">&nbsp;&nbsp;</td>
+</tr></table>
+</tr>
+</table>
+</td>
+</tr>
+		    <tr><td colspan="2">
+			<table width="100%" cellspacing="0">
+				<tr>
+					<td class="legal">LucasArts, Monkey Island, Maniac Mansion, Full Throttle, The Dig, LOOM, and probably lots of other 
+					things are registered trademarks of <a href="http://www.lucasarts.com/">LucasArts, Inc.</a>. 
+					All other trademarks and registered trademarks are owned by their respective companies. ScummVM is 
+					not affiliated in any way with LucasArts, Inc.</td>
+					<td width="110"><img src="images/tentacle3.gif" /></td>
+					<td width="29">&nbsp;</td> 
+				</tr>
+			</table>
+		</td></tr>
+		</table>
+	</body>
+</html>
+
+<?php
+}
+
 function html_br ($count = 1)
 {
-	return do_indent(str_repeat("<br>\n", $count));
+	return str_repeat("<br>\n", $count);
 }
 
 // HTML A HREF
@@ -28,53 +172,33 @@ function html_ahref ($label, $url, $extra = "")
 	{	
 		if (ereg("@",$url))
 		{
-			return do_indent(" <a href=\"mailto:$url\" $extra>$url</a> ");
+			return " <a href=\"mailto:$url\" $extra>$url</a> ";
 		}
 		else
 		{
-			return do_indent(" <a href=\"$url\" $extra>$url</a> ");
+			return " <a href=\"$url\" $extra>$url</a> ";
 		}
 	}
 	else if (!$label)
 	{
-		return do_indent(" &nbsp; ");
+		return " &nbsp; ";
 	}
 	else
 	{
-		return do_indent(" <a href=\"$url\" $extra>$label</a> ");
+		return " <a href=\"$url\" $extra>$label</a> ";
 	}
-}
-
-// HTML echo a string
-function html_echo ($str)
-{
-	return do_indent($str);
-}
-
-// HTML B (bold)
-function html_b ($str)
-{
-	return do_indent("<b>$str</b>");
-}
-
-// HTML SMALL (small text)
-function html_small ($str)
-{
-	return do_indent("<small>$str</small>");
 }
 
 // HTML P
 function html_p ($str = "&nbsp;", $extra = null)
 {
-	return do_indent("<p $extra>$str</p>");
+	return "<p $extra>$str</p>";
 }
 
-// HTML blockquote
 function html_blockquote ($str = "&nbsp;")
 {
-	return do_indent('<div style="margin-left: 3em;">'.$str.'</div>');
+	return '<div style="margin-left: 3em;">'.$str.'</div>';
 }
-
 // Draw a Colored Pixel Line
 function html_line ($width = "100%", $height = 1, $color = "grey")
 {
@@ -112,63 +236,16 @@ function html_frame_end ($text = "")
 	return $str;
 }
 
-function html_round_frame_start ($title = "", $extra = "")
-{
-	global $file_root;
-
-	$str = "<div class='frame'>\n";
-	
-	if ($title) {
-		$str .= '<div class="frameTop"><div class="cornerLeft"><div class="cornerRight">';
-		$str .= '<span class="frameTitle">'.$title.'</span>';
-		$str .= '</div></div></div>'."\n";
-	}
-	
-	$str .= "<div class='frameBody' style='background-color: #ffffff'>\n";
-//	$str .= '<table width="100%" border="0" cellpadding='.$innerPad.' cellspacing=1 '.$extra.'><tr><td class="color2">'."\n";
-
-	return $str;
-}
-
-function html_round_frame_end ($text = "&nbsp;")
-{
-	global $file_root;
-	$str = "</div>\n";
-//	$str .= '</td></tr></table>'."\n";
-	if ($text) {
-		$str .= '<div class="frameBottom"><div class="cornerLeft"><div class="cornerRight">';
-		$str .= '<span class="frameTitle">'.$text.'</span>';
-		$str .= '</div></div></div>'."\n";
-	}
-	$str .= "</div>\n\n";
-	return $str;
-}
-
-function html_frame_row_color ($text = "&nbsp;")
-{
-    global $_trcolor;
-    if ($_trcolor % 2 == 1) { $trcolor = 'color2'; } else { $trcolor = 'color1'; }
-    $str = '<tr class="'.$trcolor.'"><td>'.$text.'</td></tr>'."\n";
-    $_trcolor++;
-    return $str;
-}
-
-function html_frame_row ($text = "&nbsp;", $extra = null)
-{
-    $str = '<tr class=color2 '.$extra.'><td>'.$text.'</td></tr>'."\n";
-    return $str;
-}
-
 function html_frame_tr ($td = "<td>&nbsp;</td>", $color = "color2", $extra = null)
 {
     $str = '<tr valign="top" class="'.$color.'" '.$extra.'>'."\n".$td.'</tr>'."\n";
-    return do_indent($str);
+    return $str;
 }
 
 function html_frame_td ($txt = "&nbsp;", $extra = null)
 {
     $str = '<td '.$extra.'>'.$txt.'</td>'."\n";
-    return do_indent($str);
+    return $str;
 }
 
 function html_back_link ($howmany = 1, $url = "")
@@ -180,154 +257,15 @@ function html_back_link ($howmany = 1, $url = "")
 	return '<p>&nbsp;&nbsp; <a href="'.$url.'">&lt;&lt; Back</a></p>'."\n";
 }
 
-function html_form_start ($script, $name, $method = "post")
-{
-	$str = '<form name="'.$name.'" action="'.$script.'" method="'.$method.'">'."\n";
-	return $str;
-}
-
-function html_form_end ()
-{
-	return '</form>'."\n";
-}
-
-function html_form_input_text ($name, $size = 20, $value = "")
-{
-	$str = '<input type=text name="'.$name.'" size="'.$size.'" value="'.$value.'">'."\n";
-	return $str;
-}
-
-function html_form_input_password ($name, $size = 20, $value = "")
-{
-	$str = '<input type=password name="'.$name.'" size="'.$size.'" value="'.$value.'">'."\n";
-	return $str;
-}
-
-function html_form_input_hidden ($name, $value = "")
-{
-	$str = '<input type=hidden name="'.$name.'" value="'.$value.'">'."\n";
-	return $str;
-}
-
-function html_form_input_textarea ($name, $cols = 20, $rows = 5, $value = "")
-{
-	$str = '<textarea name="'.$name.'" cols="'.$cols.'" rows="'.$rows.'">'.$value.'</textarea>'."\n";
-	return $str;
-}
-
-function html_form_input_select ($name, $options, $selected = "")
-{
-	$str = '<select name="'.$name.'">'."\n";
-	while(list($key, $val) = each($options))
-	{	
-		if ($key == $selected)
-		{
-			$str .= '<option value="'.$key.'" selected>'.$val.'</option>'."\n";
-		} else {
-			$str .= '<option value="'.$key.'">'.$val.'</option>'."\n";		
-		}
-	}
-	$str .= '</select>'."\n";
-	return $str;
-}
-
-function html_form_input_checkbox ($name, $checked = null)
-{
-	if ($checked == 1)
-		$str = '<input type="checkbox" name="'.$name.'" checked>'."\n";
-	else
-		$str = '<input type="checkbox" name="'.$name.'">'."\n";
-	return $str;	
-}
-
-function html_form_submit ($value = "")
-{
-	$str = '<input type=submit name="submit" value="'.$value.'">'."\n";
-	return $str;
-}
-
-function html_form_js_button ($url = null)
-{
-	global $PHP_SELF;
-	if (!$url) { $url = $PHP_SELF; }
-	$str = '<input type=button value=" &lt;&lt; Back " name="jsback" onClick="javascript:self.location=\''.$url.'\';">'."\n";
-	return $str;
-}
-
-function html_add_br ($text = "")
-{
-	$text = ereg_replace("\n","<br>\n",$text);
-	return $text;
-}
-
-// url-ify urls
-function html_urlify ($text)
-{
-	$text = htmlspecialchars($text);
-
-	$urlreg = "([a-zA-Z]+://([^\t\r\n ]+))";
-	if (ereg($urlreg,$text))
-	{
-		$text = ereg_replace($urlreg, "<a href=\"\\1\"> \\2 </a>", $text);
-	}
-	
-	$emailreg = "([a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+\.[a-zA-Z0-9_-]+)";
-	if (ereg($emailreg,$text))
-	{
-		$text = ereg_replace($emailreg, "<a href='mailto:\\1'>\\1</a>", $text);
-	}
-
-	return $text;
-}
-
-// simple httpd header redirect 
-function redirect ($url = ".")
-{
-	header("Location: ".$url);
-}
-
-
-function html_header ($title, $extra = "")
-{
-	global $file_root;
+function html_subhead_start($subhead) {
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-
-<head>
-	<title><?=$title?></title>
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-	<meta name="author" content="Jeremy Newman <jnewman at dracowulf.com>">
-	<link rel="stylesheet" href="<?=$file_root?>/styles.css" type="text/css">
-	<?=$extra?>
-</head>
-
-<body>
-
-<div style="width: 100%; height: 111px; background-image:url(<?=$file_root?>/images/scummvm_top_tile.png)">
-	<img src="<?=$file_root?>/images/scummvm_logo.png"  width="407" height="111" alt="ScummVM" style="float: left">
-	<img src="<?=$file_root?>/images/scummvm_chars.png" width="193" height="111" alt="-" style="float: right">
-</div>
-<?
-}
-
-function html_footer ()
-{
-?>
-
-<div id="copyright">
-LucasArts, Monkey Island, Maniac Mansion, Full Throttle,
-The Dig, LOOM, and probably lots of other things are
-registered trademarks of <a href="http://www.lucasarts.com">LucasArts, Inc.</a>.
-All other trademarks and registered trademarks are
-owned by their respective companies.
-ScummVM is not affiliated in any way with LucasArts, Inc.
-</div>
-
-</body>
-</html>
-<?
-
+    <div class="par-subhead">
+    <?php echo $subhead; ?>
+    </div>
+    <div class="par-subhead-dots">
+	&nbsp;
+    </div>
+<?php
 }
 
 ?>

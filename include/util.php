@@ -62,26 +62,47 @@ function display_xml ($file, $mode = null)
 }
 
 // get a list of files in a directory
-function get_files ($dir, $filter = null)
-{
-    // read dir
-    $files = array();
-    $d = opendir($dir);
-    while($entry = readdir($d))
-    {
-    	if ($filter)
-	{
-	    if(!eregi("(.+)\\.".$filter, $entry))
-	        continue;
-	}
-    	array_push($files, $entry);
+function get_files ($dir, $filter = null, $filter2 = null) {
+  $flt = null;
+  if ($filter2)
+    $flt = $filter2;
+  else if ($filter)
+    $flt = "(.+)\\.".$filter;
+
+  // read dir
+  $files = array();
+  $d = opendir($dir);
+  while($entry = readdir($d)) {
+    if ($flt) {
+      if(!eregi($flt, $entry))
+	continue;
     }
-    closedir($d);
+    array_push($files, $entry);
+  }
+  closedir($d);
     
-    //sort dir
-    sort($files);
+  //sort dir
+  sort($files);
     
-    return $files;
+  return $files;
+}
+
+$isOpera = strstr($_SERVER['HTTP_USER_AGENT'], 'Opera');
+$isKHTML = strstr($_SERVER['HTTP_USER_AGENT'], 'KHTML');
+
+function shadowed_text ($text, $textcolor, $shadowcolor, $textclass = 'shadow-text') {
+  global $isKHTML;
+
+  if ($isKHTML) {
+    // Use the CSS3 text-shadow property for Safari and Konqueror
+    echo '<span class="shadow-container"><font color="' . $textcolor .
+         '" style="text-shadow: 0.1em 0.1em ' . $shadowcolor . '">'.
+         $text.'</font></span>';
+    return;
+  }
+
+  echo '<font color="'.$shadowcolor.'"><span class="shadow-container">'.$text.
+    '<font color="'.$textcolor.'" class="'.$textclass.'">'. $text . '</font></span></font>';
 }
 
 ?>

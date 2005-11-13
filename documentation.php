@@ -13,102 +13,76 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("ScummVM");
-sidebar_start();
+html_page_header('ScummVM :: Documentation');
 
-//display News
-echo html_round_frame_start("ScummVM Documentation","");
-echo html_frame_start("","100%",1,1);
+html_content_begin('ScummVM Documentation');
+
+echo '<div class="par-item">';
 
 $view = $HTTP_GET_VARS['view'];
 
-if ($view and file_exists($file_root."/docs/".$view.".xml"))
-{
-	// First extract the body from the XML file
-	$html = display_xml($file_root."/docs/".$view.".xml",'BODY');
-	// Now evaluate any PHP code embedded into it, and output the result
-	echo '<tr valign="top" class="color2"><td>';
-	echo eval("?>" . $html . "<?php ");
-	echo "</td></tr>";
-}
-else
-{
-    // intro
-    echo html_frame_tr(
-                html_frame_td(
-                              "<h1>Documentation</h1>".html_br()
-                             )
-                      );
+if ($view and file_exists($file_root."/docs/".$view.".xml")) {
+  echo  '  <div class="par-head">';
+  echo display_xml($file_root."/docs/".$view.".xml",'NAME');
+  echo  '  </div>';
+  echo '  <div class="par-content">';
+  // extract the body from the XML file
+  $html = display_xml($file_root."/docs/".$view.".xml",'BODY');
+  // Now evaluate any PHP code embedded into it, and output the result
+  echo eval("?>" . $html . "<?php ");
+  echo "<br/>";
+} else {
+?>
+  <div class="par-intro">
+    <br />
+    Click the title of the section of the documentation you want to read.
+    <br />
+    <br />
+  </div>
 
-	// Hard code link to README for now...
-	echo html_frame_tr(
-				html_frame_td(
-							  html_ahref("README 0.8.0","http://cvs.sourceforge.net/viewcvs.py/scummvm/scummvm/README?rev=release-0-8-0").html_br().
-							  "The ScummVM README, for version 0.8.0.".html_br(2)."\n"
-							 )
-					  );
+  <div class="par-content">
+  <br/>
 
-
-    // get list of documentation items
-    $docs = get_files($file_root."/docs","xml");
-    sort($docs);
-    
-    // loop and display docs
-    $c = 0;
-    while (list($key,$item) = each($docs))
-    {
-        $c++;
-        list($file,$ext) = split("\.",$item,2);
-        echo html_frame_tr(
-                    html_frame_td(
-                                  html_ahref(display_xml($file_root."/docs/".$item,'NAME'),"$PHP_SELF?view=$file").html_br().
-                                  display_xml($file_root."/docs/".$item,'DESC').html_br(2)."\n"
-                                 )
-                          );
-    } // end of docs loop
+  <a href='http://cvs.sourceforge.net/viewcvs.py/scummvm/scummvm/README?rev=release-0-8-0'>README 0.8.0</a><br />
+  The ScummVM README, for version 0.8.0<br /><br />
+<?php
 
 
-	// Hard code link to TODO for now...
-	echo html_frame_tr(
-				html_frame_td(
-							  html_ahref("ScummVM current areas of focus","http://cvs.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/TODO?rev=HEAD").html_br().
-							  "This page is the current TODO list for ScummVM.".html_br(2)."\n"
-							 )
-					  );
+  // get list of documentation items
+  $docs = get_files($file_root."/docs","xml");
+  sort($docs);
     
-	// Hard code link to doxygen for now...
-	echo html_frame_tr(
-				html_frame_td(
-							  html_ahref("Source code documentation",$file_root."/docs/doxygen/html/index.php").html_br().
-							  "Cross referenced source code documentation for ScummVM, generated using".
-							  html_ahref("Doxygen","http://www.doxygen.org").html_br(2)."\n"
-							 )
-					  );
-    
-	// Hard code link to specs for now...
-	echo html_frame_tr(
-				html_frame_td(
-							  html_ahref("The inComplete SCUMM Reference Guide",$file_root."/docs/specs/index.php").html_br().
-							  "being a Partially Complete and Mostly Accurate guide to the SCUMM Engine data file Format
-							   for Versions Five and Six (and above)".html_br(2)."\n"
-							 )
-					  );
-    
-    // outro
-    echo html_frame_tr(
-                html_frame_td(
-                              html_line().html_p("Click the title of the section of the documentation you want to read.")
-                             )
-                      );    
-    
+  // loop and display docs
+  $c = 0;
+  while (list($key,$item) = each($docs)) {
+    $c++;
+    list($file,$ext) = split("\.",$item,2);
+
+    echo "<a href='?view=$file'>".display_xml($file_root."/docs/".$item,'NAME')."</a><br />\n";
+    echo display_xml($file_root."/docs/".$item,'DESC')."<br /><br />\n";
+  } // end of docs loop
+
+
+?>
+  <a href='http://cvs.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/TODO?rev=HEAD'>ScummVM current areas of focus</a><br />
+  This page is the current TODO list for ScummVM.<br /><br />
+
+  <a href='$file_root/docs/doxygen/html/index.php'>Source code documentation</a><br />
+  Cross referenced source code documentation for ScummVM, generated using
+  <a href='http://www.doxygen.org'>Doxygen</a>.<br /><br />
+
+<?php
+
+  // Hard code link to specs for now...
+  echo "<a href='$file_root/docs/specs/index.php'>The inComplete SCUMM Reference Guide</a><br />\n";
+  echo "being a Partially Complete and Mostly Accurate guide to the SCUMM Engine data file Format for Versions Five and Six (and above)<br /><br />\n";
+
+  echo "  </div>\n";
 }
 
-echo html_frame_end();
-echo html_round_frame_end("&nbsp;");
-//end of docs display
+echo "</div>\n";
 
-// end of html
-sidebar_end();
-html_footer();
+html_content_end();
+html_page_footer();
 
 ?>

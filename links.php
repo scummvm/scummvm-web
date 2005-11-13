@@ -12,11 +12,9 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("ScummVM :: Links", '<link href="links.css" rel="stylesheet" type="text/css">');
-sidebar_start();
+html_page_header('ScummVM :: Links', '<link href="links.css" rel="stylesheet" type="text/css">');
+html_content_begin('Links');
 
-//display welcome table
-echo html_round_frame_start("Links","");
 
 /* Insert a link table entry */
 function addLinkEntry($name, $url, $desc) {
@@ -31,29 +29,41 @@ function addLinkEntry($name, $url, $desc) {
 }
 
 ?>
-	<h1>Links</h1>
-	
-	<p>
+  <div class="par-item">
+    <div class="par-head">
+       Links
+    </div>
+
+    <div class="par-intro">
+    <br />
 	  <img src="images/scummvm-link.png" width="88" height="31" alt="ScummVM" style="vertical-align: middle; text-align: left; margin: 5px;">
 	  <b>Link to us: </b>
 	  If you want to link your site to us: please feel free to use this image.
-	</p>
+    <br />
+    <br />
+    </div>
 
-	<h2>Official ports</h2>
+    <br />
+
+    <div class="par-content">
+
+    <?php html_subhead_start("Official ports"); ?>
+    <div class="par-subhead-content">
 	<p>Some additional links for ports that have been merged into our CVS</p>
 
 	<div class="linklist">
 		<?php
 			addLinkEntry('PocketScumm port', 'http://arisme.free.fr/PocketScumm/index.php', 'Information about the PocketScumm port.');
-			addLinkEntry('PocketScumm forum', 'http://forums.pocketmatrix.com/viewforum.php?f=20', 'For help and discussion relating to PocketScumm.');
 			addLinkEntry('PalmOS port', 'http://capers.free.fr/ScummVM/index.php', 'News and information about the PalmOS port.');
 			addLinkEntry('GP32 port', 'http://www.distant-earth.co.uk/', 'Information about the GP32 port.');
 		?>
 	</div>
+    </div>
 	
 	<!-- -->
 
-	<h2>Unofficial ports</h2>
+    <?php html_subhead_start("Unofficial ports"); ?>
+    <div class="par-subhead-content">
 	<p>There are a few unofficial ports of ScummVM floating around. Usually we prefer to merge any ports into our official
 	CVS, but for the following this has not (yet) happened for various reasons. Note that the ScummVM team does not endorse
 	any of these ports. We did not test them, and we do not guarantee that they work properly. <span style="color: red">Use at your own risk!</span></p>
@@ -64,18 +74,22 @@ function addLinkEntry($name, $url, $desc) {
 				     'Homepage of the 68k/WarpOS port of ScummVM for the Amiga. Requires 020+ and AGA chipset or RTG Zorro card');
 			addLinkEntry('Amiga Archives', 'http://www.mountmonkey.com/eng_index.html',
 				'An archive of older Amiga ports of ScummVM');
-			addLinkEntry('P800 port', 'http://dreo.org/p800/escummvm/index.html',
-				'An unofficial port to the Sony Ericsson P800 running Symbian 7.0.');
+			addLinkEntry('DS port', 'http://scummvm.drunkencoders.com/',
+				"A port to Nintendo DS.");
+			addLinkEntry('Nokia 770 port', 'http://770.fs-security.com/scummvm/',
+				"A port to Nokia 770.");
 			addLinkEntry('RISC OS port', 'http://www.riscos.info/unix/indexes/emulation.html#scummvm',
 				"A port to RISC OS.");
 			addLinkEntry('Old RISC OS port', 'http://www.acornemus.freeserve.co.uk/scumm/scu_info.htm',
 				"Another (older) port to RISC OS. It's extremly dated (based on ScummVM 0.1.0).");
 		?>
 	</div>
+    </div>
 
 	<!-- -->
 
-	<h2>Libraries &amp; Technologies</h2>
+    <?php html_subhead_start("Libraries &amp; Technologies"); ?>
+    <div class="par-subhead-content">
 	<p>The following lists some libraries and technologies ScummVM makes use of
 	(depending on which system your run it and which configuration is chosen).</p>
 
@@ -114,10 +128,12 @@ function addLinkEntry($name, $url, $desc) {
 				the game graphics using these scaler.');
 		?>
 	</div>
+    </div>
 
 	<!-- -->
 
-	<h2>Other sites of interest</h2>
+    <?php html_subhead_start("Other sites of interest"); ?>
+    <div class="par-subhead-content">
 	<p>The following are links to sites that provide news and help on retro-gaming or are otherwise of interest.</p>
 
 	<div class="linklist">
@@ -152,10 +168,12 @@ function addLinkEntry($name, $url, $desc) {
 				graphics cards, so you can even play on a television set.');
 		?>
 	</div>
+    </div>
 	
 	<!-- -->
 
-	<h2>Other classic game engine open source projects</h2>
+    <?php html_subhead_start("Other classic game engine open source projects"); ?>
+    <div class="par-subhead-content">
 	<p>The following are links to other classic game engine open source projects similar to ScummVM. 
       Know any other classic game projects that should be linked here?
       <a href="http://sourceforge.net/sendmessage.php?touser=339357">Let me know!</a>
@@ -186,10 +204,12 @@ function addLinkEntry($name, $url, $desc) {
 				"Pentagram is a project aiming to create an Ultima 8 engine for use on modern operating systems.");
 		?>
 	</div>
+    </div>
     
 	<!-- -->
 
-	<h2>Technical information about SCUMM</h2>
+    <?php html_subhead_start("Technical information about SCUMM"); ?>
+    <div class="par-subhead-content">
 	<p>SCUMM is a complex system that grew over many years. Understanding it can
 	be quite difficult at times. Luckily there are some sites that provide you
 	with a bunch of information about SCUMM; here are some of them.
@@ -207,8 +227,10 @@ function addLinkEntry($name, $url, $desc) {
 				utilities, some documents on SCUMM internals and other useful things.');
 		?>
 	</div>
+    </div>
 
-	<h2>GUI frontends for ScummVM</h2>
+    <?php html_subhead_start("GUI frontends for ScummVM"); ?>
+    <div class="par-subhead-content">
 	<p>
 Although ScummVM now includes a basic graphical user interface for adding and configuring basic game options, it is new and fairly
 incomplete. For those whom are not comfortable using the command line to access the more advanced options, here are some other
@@ -221,13 +243,13 @@ GUI frontends for ScummVM.
 			addLinkEntry("ScummAqua", "http://www.d.kth.se/~d00-ogo/ogosoft/scummaqua/", "For Mac OS X.");
 		?>
 	</div>
+    </div>
+
+  </div>
 		
 <?
 
-echo html_round_frame_end("&nbsp;");
-
-// end of html
-sidebar_end();
-html_footer();
+html_content_end();
+html_page_footer();
 
 ?>

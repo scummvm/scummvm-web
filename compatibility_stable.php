@@ -12,27 +12,28 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("ScummVM :: Compatibility - 0.8.0");
-sidebar_start();
+html_page_header('ScummVM :: Compatibility - 0.8.0');
 
-//display welcome table
-echo html_round_frame_start("Compatibility","");
+html_content_begin('0.8.0 Compatibility');
 
 if (isset($_GET['details'])) {
 	$details = $_GET['details'];
 }
 
 ?>
-	<h1>Compatibility</h1>
-<?
-if ($details)
-{
+  <div class="par-item">
+
+<?php
+
+if ($details) {
+
+  echo '<div class="par-content">';
 
 }
-else
-{
+else {
 ?>
-	<p>
+    <div class="par-intro">
+<br/>
 	  This page lists the progress of ScummVM as it relates to individual game compatibility.<br>
 	  Click on the game name to view the complete notes of a game.
 
@@ -42,11 +43,15 @@ else
 	  href="compatibility.php">CVS Compatibility</A> chart.
 	  <br><br>
 	  <small>Last Updated: <? echo date("F d, Y",getlastmod()); ?></small>
-	</p>
+<br/>
+<br/>
+    </div>
+<br/>
+    <div class="par-content">
 
 <?
 	// Display the Color Key Table
-	echo html_frame_start("Color Key","50%",1,1,"color4");
+	echo html_frame_start("Color Key","85%",1,1,"color4");
 	$pcts = array(0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100);
 	while (list($key,$num) = each($pcts))
 	{
@@ -350,7 +355,7 @@ if ($details) {
 } else {
 	// List mode -- show all games
 	function displayGameList($title, $games) {
-		echo html_frame_start("$title Game Compatibility Chart","90%",2,1,"color4");
+		echo html_frame_start("$title Game Compatibility Chart","95%",2,1,"color4");
 		echo html_frame_tr(
 			   html_frame_td("Game Full Name").
 			   html_frame_td("Game Short Name").
@@ -385,16 +390,15 @@ if ($details) {
 }
 
 echo html_frame_end("&nbsp;");
-  
+
 if ($details)
-    echo html_p(),html_back_link(1,$PHP_SELF);
+  echo '<p class="bottom-link"><a href="javascript:history.back(1)">&lt;&lt;Back</a></p>'."\n";
 
-echo html_p();
-echo html_round_frame_end("&nbsp;");
+echo " <br/>";
+echo "  </div>\n";
+echo "</div>\n";
 
-
-// end of html
-sidebar_end();
-html_footer();
+html_content_end();
+html_page_footer();
 
 ?>

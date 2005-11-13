@@ -1,36 +1,51 @@
 <?
-
-/*
- * Menu class for ScummVM
- * by Jeremy Newman <jnewman@dracowulf.com>
- *
- */
- 
 class htmlmenu {
 
-    function htmlmenu($name)
-    {
-		echo "<div class='sideMenu'>";
-		echo "<div class='header'><div class='headerRight'>".$name."</div></div>";
-    }
+  function htmlmenu($name, $style) {
+    echo '<table class="menu" cellspacing="0">';
+    echo '<tr class="'.$style.'">';
+    echo "  <th>$name</th>";
+?>
 
-    /* add a table row */
-    function add($name, $url = null)
-    {
-		echo '<div class="item">';
-		if($url) {
-			echo "<a href='$url'>$name</a>";
-		} else {
-			echo "$name";
-		}
-		echo "</div>\n";
-    }
+  </tr>
+  <tbody>
+    <tr>
+      <td>
+        <ul>
+<?php
+ }
 
-    function done($extra = "")
-    {
-		echo "<div class='footer'><div class='footerRight'>&nbsp;</div></div></div>\n";
-		echo $extra;
-		echo "<br>\n";
-    }
+ /* add a table row */
+ function add($name, $url = null) {
+   if($url) {
+     echo "          <li><a href='$url'><b>{$name[0]}</b>".substr($name, 1)."</a></li>";
+   } else {
+     echo "          <li><b>{$name[0]}</b>".substr($name, 1)."</li>";
+   }
+ }
+
+ function done($extra = "") {
+?>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td><img src="images/menu-bottom.gif" /></td>
+    </tr>
+
+<?php
+     if ($extra) {
+       echo "<tr><td>$extra</td></tr>\n";
+     }
+?>
+
+
+  </tfoot>
+</table>
+
+<?php
+ }
 }
 ?>

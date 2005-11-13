@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
  * FAQ Page
@@ -12,24 +12,27 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("ScummVM :: FAQ", '<link href="faq.css" rel="stylesheet" type="text/css">');
-sidebar_start();
+html_page_header("ScummVM :: FAQ", '<link href="faq.css" rel="stylesheet" type="text/css">');
 
-//display welcome table
-echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
+html_content_begin('FAQ :: Frequently Asked Questions');
 
 ?>
-<h1>
-	FAQ<br>
-	<span class="caption">last updated: <? echo date("F d, Y",getlastmod()); ?></span>
-</h1>
-<?
+  <div class="par-item">
+    <div class="par-head">
+       FAQ
+    </div>
+    <div class="par-content">
+    <div class="news-author">last updated: <? echo date("F d, Y",filemtime("faq.inc")); ?></div>
+<?php
 include $file_root."/faq.inc";
 
-echo html_round_frame_end("&nbsp;");
+?>
+    </div>
+  </div>
 
-// end of html
-sidebar_end();
-html_footer();
+<?php
+
+html_content_end();
+html_page_footer();
 
 ?>

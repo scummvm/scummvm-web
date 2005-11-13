@@ -12,18 +12,27 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("ScummVM :: Credits");
-sidebar_start();
+html_page_header('ScummVM :: Credits');
 
-//display welcome table
-echo html_round_frame_start("Credits","");
+html_content_begin('Credits');
+
+?>
+<div class="par-item">
+  <div class="par-head">
+    Credits
+  </div>
+  <div class="par-content">
+
+  <div class="credits-table">
+<?php
 
 include $file_root."/credits.inc";
 
-echo html_round_frame_end("&nbsp;");
+echo "     </div>\n";
+echo "  </div>\n";
+echo "</div>\n";
 
-// end of html
-sidebar_end();
-html_footer();
+html_content_end();
+html_page_footer();
 
 ?>

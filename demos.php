@@ -12,19 +12,46 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("ScummVM :: Game Demos");
-sidebar_start();
+html_page_header('ScummVM :: Game Demos');
 
-//display welcome table
-echo html_round_frame_start("Game Demos","");
-
+html_content_begin('Game Demos');
 
 ?>
-	<h1>Game Demos</h1>
-	<p>
-	  This page lists links to demos of various games, please contact us if you have a copy of any demo not listed here,<br><br>
-	  Beneath A Steel Sky demos aren't going to be supported for technical reasons.<br><br>
-	</p>
+<div class="par-item">
+  <div class="par-intro">
+  <br />
+       <table border=0>
+	  <tr><td width="35%">
+
+    <div class="navigation">
+       Navigation
+
+       <div class="nav-dots">
+	  &nbsp;
+       </div>
+
+<table border=0>
+	<tr><td class='nav-bullet'><img src='images/bullet-section.gif' /></td><td class='nav-item'><a href="#lec">LucasArts Demos</a></td></tr>
+	<tr><td class='nav-bullet'><img src='images/bullet-section.gif' /></td><td class='nav-item'><a href="#he">Humongous Entertainment Demos</a></td></tr>
+	<tr><td class='nav-bullet'><img src='images/bullet-section.gif' /></td><td class='nav-item'><a href="#other">Miscellaneous Demos</a></td></tr>
+
+</table>
+
+</td>
+<td>
+  This page lists links to demos of various games, please contact us if you have a copy of any demo not listed here,<br><br>
+  Beneath A Steel Sky demos aren't going to be supported for technical reasons.<br><br>
+</td></tr>
+</table>
+
+  <br />
+
+</div>
+
+  <br />
+  <br />
+
+  <div class="par-content">
 
 <?
 
@@ -173,17 +200,20 @@ echo html_frame_tr(
 	}
 
 echo html_frame_end("&nbsp;");
-echo html_p();
+echo "<p>&nbsp;</p>";
 }
 
+echo "<a name='lec'></a>\n";
 render_demos("LucasArts Demos", $LEC_demos);
-render_demos("Humongous Demos", $HE_demos);
+echo "<a name='he'></a>\n";
+render_demos("Humongous Entertainment Demos", $HE_demos);
+echo "<a name='other'></a>\n";
 render_demos("Miscellaneous Demos", $MISC_demos);
 
-echo html_round_frame_end("&nbsp;");
+echo "  </div>\n";
+echo "</div>\n";
 
-// end of html
-sidebar_end();
-html_footer();
+html_content_end();
+html_page_footer();
 
 ?>

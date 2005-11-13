@@ -1,8 +1,6 @@
 <NAME>ScummVM code formatting conventions</NAME>
 <DESC>This page describes the coding style we use in ScummVM.</DESC>
 <BODY>
-		<h1>ScummVM code formatting conventions</h1>
-		
 		<h2>1. Use common sense</h2>
 		<p>
 		These are conventions which we try to follow when writing code for ScummVM.

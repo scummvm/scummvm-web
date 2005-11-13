@@ -12,14 +12,17 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("ScummVM :: Press Coverage");
-sidebar_start();
+html_page_header('ScummVM :: Press Coverage');
 
-//display welcome table
-echo html_round_frame_start("Press Coverage","");
+html_content_begin('Press Coverage');
 
 ?>
-<h1>ScummVM press coverage</h1>
+  <div class="par-item">
+    <div class="par-head">
+       ScummVM press coverage
+    </div>
+    <div class="par-content">
+
 <small>(If you wish to contact us in regards to media articles, please e-mail press 
 (@) scummvm.org)</small>
 	<p><a href="http://www.micromart.co.uk/content/features/default.asp?Category=Article&Type=&ID=1746">
@@ -124,12 +127,12 @@ echo html_round_frame_start("Press Coverage","");
 	<p><a href="http://slashdot.org/article.pl?sid=01/11/03/1429247"
 	   ><b>Linux SCUMM Interpreter</b></a>, Slashdot, November 3, 2001
 	</p>
+
+    </div>
+  </div>
 <?
 
-echo html_round_frame_end("&nbsp;");
-
-// end of html
-sidebar_end();
-html_footer();
+html_content_end();
+html_page_footer();
 
 ?>

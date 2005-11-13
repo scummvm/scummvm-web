@@ -1,8 +1,6 @@
 <NAME>boot params</NAME>
 <DESC>A partial list of the boot params of some games.</DESC>
 <BODY>
-	<h1>boot params</h1>
-
 <h2>What are boot params?</h2>
 <p>
 A boot param is a special number which allows you (if used appropriately, see below)

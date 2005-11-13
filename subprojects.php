@@ -6,11 +6,13 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("ScummVM");
-sidebar_start();
+html_page_header("ScummVM :: Subprojects");
 
-echo html_round_frame_start("ScummVM Subprojects","");
+html_content_begin("ScummVM Subprojects");
 ?>
+  <div class="par-item">
+    <div class="par-intro">
+<br/>
 <P>
 The ScummVM team occasionally works on various subprojects, separate from the main 
 ScummVM program. These projects are generally reasonably stagnant and not given a high 
@@ -21,8 +23,15 @@ attracting more developers to help maintain these side-programs.
 Please do not ask where you can obtain binaries of these programs. Currently both 
 subprojects are still in a state only suitable for developers... so if you can't compile 
 the code yourself, then these are not really ready for you.
-</P>
-<H1>ScummEx (cvs module 'scummex')</H1>
+</P><br/>
+
+    </div>
+
+<br/>
+
+<?php html_subhead_start("ScummEx (cvs module 'scummex')"); ?>
+
+    <div class="par-subhead-content">
 <P>
 ScummEx is a multi-platform SCUMM resource browser, viewer and extractor using the 
 wxWindows toolkit.
@@ -30,16 +39,19 @@ wxWindows toolkit.
 <P>
 Development on this project is currently stalled. The code-base needs quite some cleanup, 
 and viewers for many resource types still need adding to the code. Patches and volunteers
-a very welcome...
+are very welcome...
 </P>
 <P>
-You can try compiled engine for Windows:
+You can try compile engine for Windows:
 </P>
 <a href="downloads/scummexwin32.exe">Windows Daily Snapshot</a> <small> (build from CVS HEAD, <? echo intval(filesize("downloads/residualwin32.exe")/1024) ?>K Win32 .exe file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummexwin32.exe")); ?>)</small></li>
 
-<BR>
+<p>&nbsp;</p>
+    </div>
 
-<H1>Residual (cvs module 'residual')</H1>
+<?php html_subhead_start("Residual (cvs module 'residual')"); ?>
+
+    <div class="par-subhead-content">
 <P>
 Residual is a LUA-powered 3D GRIME clone, designed to run the game Grim Fandango. Why 
 'Residual'? Because this engine covers games that the main ScummVM application will not 
@@ -54,11 +66,14 @@ as such is progressing slowly.
 You can try compiled engine for Windows:
 </P>
 <a href="downloads/residualwin32.exe">Windows Daily Snapshot</a> <small> (build from CVS HEAD, <? echo intval(filesize("downloads/residualwin32.exe")/1024) ?>K Win32 .exe file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/residualwin32.exe")); ?>)</small></li>
+<p></p>
+    </div>
+  </div>
+
 <?
-echo html_round_frame_end("&nbsp;");
 
 // end of html
-sidebar_end();
-html_footer();
+html_content_end();
+html_page_footer();
 
 ?>
