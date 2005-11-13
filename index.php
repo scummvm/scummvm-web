@@ -29,7 +29,7 @@ if ($randPart < 6) {
 
 ?>
 
-<script>
+<script type="text/javascript">
 function openWin(fileToOpen,nameOfWindow,width,height) {
 	myWindow = window.open("",nameOfWindow,"menubar=no,scrollbars=no,status=no,width="+width+",height="+height);
 	myWindow.document.open();

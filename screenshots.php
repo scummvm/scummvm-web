@@ -19,7 +19,7 @@ $cat1 = $HTTP_GET_VARS['cat1'];
 $cat2 = $HTTP_GET_VARS['cat2'];
 
 ?>
-<script>
+<script type="text/javascript">
 function openWin(fileToOpen,nameOfWindow,width,height) {
 	myWindow = window.open("",nameOfWindow,"menubar=no,scrollbars=no,status=no,width="+width+",height="+height);
 	myWindow.document.open();
