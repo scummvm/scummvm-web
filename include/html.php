@@ -99,7 +99,7 @@ function html_page_footer() {
 
 
 		</tr><tr><td class="menus" style="vertical-align:bottom;" >
-		<img src="images/tentacle1.gif" style="vertical-align:bottom;" />
+		<img src="images/tentacle1.gif" style="vertical-align:bottom;" alt="Tentacle" />
 		</td>
 		</tr>
 
@@ -129,7 +129,7 @@ function html_page_footer() {
 <!-- </td></tr> -->
 	</table>
 </td><td class="menus" style="width:163px;vertical-align:top;border:0px;" rowspan="2"><img src="images/tentacle2.gif" style="margin:0px;border:0px;
-	vertical-align:bottom" /></td>
+	vertical-align:bottom" alt="" /></td>
 </tr><tr>
 <td colspan="2">
 <table width="100%" cellspacing="0" style="padding:0px;">
@@ -147,7 +147,7 @@ function html_page_footer() {
 					things are registered trademarks of <a href="http://www.lucasarts.com/">LucasArts, Inc.</a>. 
 					All other trademarks and registered trademarks are owned by their respective companies. ScummVM is 
 					not affiliated in any way with LucasArts, Inc.</td>
-					<td width="110"><img src="images/tentacle3.gif" /></td>
+					<td width="110"><img src="images/tentacle3.gif" alt="" /></td>
 					<td width="29">&nbsp;</td> 
 				</tr>
 			</table>

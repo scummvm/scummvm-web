@@ -35,7 +35,7 @@ function sidebar_start () {
 
     $g->done();      
 
-    $g = new htmlmenu("Misc. Menu", "menu-misc");
+    $g = new htmlmenu("Misc. Menu", "menu-misc", '<img src="'.$file_root.'/images/hangmonk.gif" alt="monkey" align="right">');
 
     $g->add("Subprojects", $file_root."/subprojects.php");
     $g->add("Demos", $file_root."/demos.php");
@@ -43,7 +43,7 @@ function sidebar_start () {
     $g->add("Contact", $file_root."/contact.php");
     $g->add("Links", $file_root."/links.php");
     
-    $g->done('<img src="'.$file_root.'/images/hangmonk.gif" alt="monkey" align="right">');
+    $g->done();
 }
 
 function sidebar_end ()

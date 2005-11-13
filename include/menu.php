@@ -1,13 +1,26 @@
 <?
 class htmlmenu {
 
-  function htmlmenu($name, $style) {
+  function htmlmenu($name, $style, $extra = "") {
     echo '<table class="menu" cellspacing="0">';
     echo '<tr class="'.$style.'">';
     echo "  <th>$name</th>";
 ?>
 
   </tr>
+  <tfoot>
+    <tr>
+      <td><img src="images/menu-bottom.gif" alt="" /></td>
+    </tr>
+
+<?php
+     if ($extra) {
+       echo "<tr><td>$extra</td></tr>\n";
+     }
+?>
+
+
+  </tfoot>
   <tbody>
     <tr>
       <td>
@@ -24,25 +37,12 @@ class htmlmenu {
    }
  }
 
- function done($extra = "") {
+ function done() {
 ?>
         </ul>
       </td>
     </tr>
   </tbody>
-  <tfoot>
-    <tr>
-      <td><img src="images/menu-bottom.gif" /></td>
-    </tr>
-
-<?php
-     if ($extra) {
-       echo "<tr><td>$extra</td></tr>\n";
-     }
-?>
-
-
-  </tfoot>
 </table>
 
 <?php

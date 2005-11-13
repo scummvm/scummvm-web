@@ -39,7 +39,7 @@ html_content_begin('Contact');
     <div class="par-subhead-content">
 	<p>
 	We offer several <a href="http://forums.scummvm.org/">forums</a>.
-	Use the <a href="http://forums.scummvm.org/viewforum.php?f=2>Help and Support forum</a> if you encounter problems using ScummVM.
+	Use the <a href="http://forums.scummvm.org/viewforum.php?f=2">Help and Support forum</a> if you encounter problems using ScummVM.
 	The <a href="http://forums.scummvm.org/viewforum.php?f=1">General discussion forum</a> is, as the name suggests,
 	meant for general discussion of any topics somehow related to ScummVM.
   Also there are some platform-specific forums and <a href="http://forums.scummvm.org/viewforum.php?f=8">the Junkyard</a>.
