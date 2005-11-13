@@ -478,8 +478,8 @@ td.menus {
 	font-weight: bold;
 }
 .frameBody		{ padding: 1em 2em; } 
-.frameTop		{ text-align: center; background-color: #73106b; background-image: url('images/table-head.png'); }
-.frameBottom	{ text-align: center; background-color: #73106b; background-image: url('images/table-head.png'); }
+.frameTop		{ text-align: center; background-color: #a82709; background-image: url('images/table-head.png'); }
+.frameBottom	{ text-align: center; background-color: #a82709; background-image: url('images/table-head.png'); }
 
 /* Percentage Colors */
 .pct0   	{ background-color: #ff5050; }
