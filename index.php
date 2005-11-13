@@ -166,7 +166,7 @@ shadowed_text("?", '#66c409', '#ffffff');
 	</tr></table>
 </td></tr>
 <tr><td class="content">
-
+<br />
 <p>ScummVM is a program which allows you to run certain classic graphical point-and-click adventure
 games, provided you already have their data files. The clever part about this: ScummVM just replaces
 the executables shipped with the game, allowing you to play them on systems for which they were never designed!
