@@ -3,11 +3,7 @@ class htmlmenu {
 
   function htmlmenu($name, $style, $extra = "") {
     echo '<table class="menu" cellspacing="0">';
-    echo '<tr class="'.$style.'">';
-    echo "  <th>$name</th>";
 ?>
-
-  </tr>
   <tfoot>
     <tr>
       <td><img src="images/menu-bottom.gif" alt="" /></td>
@@ -18,9 +14,14 @@ class htmlmenu {
        echo "<tr><td>$extra</td></tr>\n";
      }
 ?>
-
-
   </tfoot>
+
+<?php
+    echo '<tr class="'.$style.'">';
+    echo "  <th>$name</th>";
+?>
+
+  </tr>
   <tbody>
     <tr>
       <td>
