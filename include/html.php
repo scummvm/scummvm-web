@@ -18,7 +18,7 @@ function html_page_header($title, $extra = "") {
 	</head>
 	<body>
 
-        <!-- HTML/CSS coding by Jaroslaw Fedevich jaroslaw@nospam.kiev.ua -->
+        <!-- HTML/CSS coding by Yaroslav Fedevych jaroslaw@nospam.kiev.ua -->
 
 	<table class="main-container" width="90%" cellspacing="0" cellpadding="0" align="center">
 		<tr>
