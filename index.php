@@ -110,7 +110,7 @@ function scrshot_jn(x,n) {
 			<tr>
 				<td class="sshots">
 <table width="100%" cellspacing="0"><tr><td>
-	<table width="100%;" cellspacing="0"><tr>
+	<table width="100%" cellspacing="0"><tr>
 	<td class="tlc">&nbsp;</td>
 	<td class="heading"><h2><?php
  if($isOpera)
