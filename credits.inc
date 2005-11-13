@@ -38,7 +38,9 @@
 <tr><td colspan=3>&nbsp;</td></tr>
 <tr><td colspan=3><h2>Contributors:</h2></td></tr>
 <tr><td>Tore Anderson</td><td>[&nbsp;tore&nbsp;]</td><td>Packaging for Debian GNU/Linux</td>
+<tr><td>Dob&oacute; Bal&aacute;zs</td><td>[&nbsp;draven&nbsp;]</td><td>Website design</td>
 <tr><td>Stuart Caie</td><td></td><td>Decoders for Simon 1 Amiga data files</td>
+<tr><td>Yaroslav Fedevych</td><td>[&nbsp;jafd&nbsp;]</td><td>HTML/CSS for the website</td>
 <tr><td>Janne Huttunen</td><td></td><td>V3 actor mask support, Dig/FT SMUSH audio</td>
 <tr><td>Kov&aacute;cs Endre J&aacute;nos</td><td></td><td>Several fixes for Simon1</td>
 <tr><td>Jeroen Janssen</td><td></td><td>Numerous readability and bugfix patches</td>
