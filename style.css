@@ -106,7 +106,7 @@ table.intro {
 .menu {
 	margin-left:0px;
 	width:145px;
-	overflow:clip;	
+	overflow:hidden;	
 	margin-bottom:8px;
 	}
 	
