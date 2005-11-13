@@ -46,6 +46,7 @@
 <tr><td>Jeroen Janssen</td><td></td><td>Numerous readability and bugfix patches</td>
 <tr><td>Andreas Karlsson</td><td>[&nbsp;Sprawl&nbsp;]</td><td>Initial port for EPOC/SymbianOS</td>
 <tr><td>Robert Kelsen</td><td></td><td>Packaging for SlackWare</td>
+<tr><td>Jean Marc</td><td></td><td>ScummVM logo</td>
 <tr><td>Claudio Matsuoka</td><td></td><td>Daily Linux builds</td>
 <tr><td>Mikesch Nepomuk</td><td></td><td>MI1 VGA floppy patches</td>
 <tr><td>Juha Niemim&auml;ki</td><td></td><td>AmigaOS 4 port maintaining</td>
