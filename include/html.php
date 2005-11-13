@@ -3,6 +3,7 @@
 function html_page_header($title, $extra = "") {
   global $file_root;
 
+  echo '<?xml version="1.0" encoding="iso-8859-1"?>'."\n";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -10,8 +11,6 @@ function html_page_header($title, $extra = "") {
 	<head>
 		<link rel="stylesheet" href="./style.css" type="text/css">
 <?php
-  echo '<link rel="SHORTCUT ICON" HREF="'.$file_root.'/favicon.ico" />';
-  echo '<link rel="ICON" HREF="'.$file_root.'/favicon.ico" />';
   echo "<title>$title</title>\n";
   echo "$extra\n";
 ?>
@@ -133,6 +132,7 @@ function html_page_footer() {
 </tr><tr>
 <td colspan="2">
 <table width="100%" cellspacing="0" style="padding:0px;">
+<tr>
 <td width="12" style="height:5px;line-height:5px;width:12px;"><img alt="" src="images/content-left-bottom.gif" height="12" width="12"></td>
    <td style="background:#fbf1ce;line-height:2px;">&nbsp;&nbsp;</td>
 </tr></table>
