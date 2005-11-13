@@ -130,7 +130,7 @@ if ($view == -1) {
     }
   }
 
-  echo "</tr>";
+  echo "<td></td></tr>";
 
   echo html_frame_end();
  }

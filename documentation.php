@@ -31,6 +31,7 @@ if ($view and file_exists($file_root."/docs/".$view.".xml")) {
   // Now evaluate any PHP code embedded into it, and output the result
   echo eval("?>" . $html . "<?php ");
   echo "<br/>";
+  echo "  </div>\n";
 } else {
 ?>
   <div class="par-intro">

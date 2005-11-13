@@ -25,10 +25,10 @@ html_content_begin('Press Coverage');
 
 <small>(If you wish to contact us in regards to media articles, please e-mail press 
 (@) scummvm.org)</small>
-	<p><a href="http://www.micromart.co.uk/content/features/default.asp?Category=Article&Type=&ID=1746">
+	<p><a href="http://www.micromart.co.uk/content/features/default.asp?Category=Article&amp;Type=&amp;ID=1746">
 	  <b>Retro-Mart</b></a>, www.micromart.co.uk
 	</p>
-	<p><a href="http://www.pcplus.co.uk/tutorials/default.asp?pagetypeid=2&articleid=29821&subsectionid=376&subsubsectionid=749">
+	<p><a href="http://www.pcplus.co.uk/tutorials/default.asp?pagetypeid=2&amp;articleid=29821&amp;subsectionid=376&amp;subsubsectionid=749">
 	  <b>Back to the Source</b></a>, PC Plus issue 215, May 2004
 	</p>
 

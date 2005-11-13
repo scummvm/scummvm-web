@@ -31,12 +31,12 @@ html_content_begin('Game Demos');
        </div>
 
 <table border=0>
-	<tr><td class='nav-bullet'><img src='images/bullet-section.gif' /></td><td class='nav-item'><a href="#lec">LucasArts Demos</a></td></tr>
-	<tr><td class='nav-bullet'><img src='images/bullet-section.gif' /></td><td class='nav-item'><a href="#he">Humongous Entertainment Demos</a></td></tr>
-	<tr><td class='nav-bullet'><img src='images/bullet-section.gif' /></td><td class='nav-item'><a href="#other">Miscellaneous Demos</a></td></tr>
+	<tr><td class='nav-bullet'><img src='images/bullet-section.gif' alt="*" /></td><td class='nav-item'><a href="#lec">LucasArts Demos</a></td></tr>
+	<tr><td class='nav-bullet'><img src='images/bullet-section.gif' alt="*" /></td><td class='nav-item'><a href="#he">Humongous Entertainment Demos</a></td></tr>
+	<tr><td class='nav-bullet'><img src='images/bullet-section.gif' alt="*" /></td><td class='nav-item'><a href="#other">Miscellaneous Demos</a></td></tr>
 
 </table>
-
+    </div>
 </td>
 <td>
   This page lists links to demos of various games, please contact us if you have a copy of any demo not listed here,<br><br>

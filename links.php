@@ -246,7 +246,8 @@ GUI frontends for ScummVM.
     </div>
 
   </div>
-		
+
+</div>		
 <?
 
 html_content_end();

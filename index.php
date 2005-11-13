@@ -131,10 +131,10 @@ function scrshot_jn(x,n) {
 	onMouseOut="window.status='';return true;"><img
 <?php
 
-        echo 'src="./screenshots/'.getScr($randImg) . '" width="128" height="96"\n';
+        echo 'src="./screenshots/'.getScr($randImg) . '" width="128" height="96"'."\n";
 ?>
 	style="margin: 5px"
-	name="img_jn" title="Click to view Full Size"></a>
+	name="img_jn" title="Click to view Full Size" alt="Rnadom screenshot"></a>
 	</td></tr>
 </table>					
 </td></tr>
@@ -149,7 +149,6 @@ function scrshot_jn(x,n) {
 <?php
   echo '<a href="javascript:scrshot_jn('.count($screenshots).',+1);">next &gt;&gt;</a>&nbsp;</td>';
 ?>
-</td>
 <td class="brc"></td>
 </tr></table></td></tr>
 </table>
@@ -164,7 +163,7 @@ shadowed_text("What Is ScummVM", '#356a02', '#ffffff');
 shadowed_text("?", '#66c409', '#ffffff');
 ?></h2>
 	<td class="trc">&nbsp;</td>
-	</td></tr></table>
+	</tr></table>
 </td></tr>
 <tr><td class="content">
 
