@@ -134,7 +134,7 @@ function scrshot_jn(x,n) {
         echo 'src="./screenshots/'.getScr($randImg) . '" width="128" height="96"'."\n";
 ?>
 	style="margin: 5px"
-	name="img_jn" title="Click to view Full Size" alt="Rnadom screenshot"></a>
+	name="img_jn" title="Click to view Full Size" alt="Random screenshot"></a>
 	</td></tr>
 </table>					
 </td></tr>
