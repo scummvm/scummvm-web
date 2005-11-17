@@ -21,7 +21,7 @@ function html_page_header($title, $extra = "") {
 	<table class="main-container" width="90%" cellspacing="0" cellpadding="0" align="center">
 		<tr>
 			<td colspan="2"><table cellspacing="0" cellpadding="0" style="width:100%;">
-					<tr><td rowspan="2" width="287"><img alt="ScummVM logo" src="images/scummvm_logo.png" width="287" height="118" border="0" /></td>
+					<tr><td rowspan="2" width="287"><img alt="ScummVM logo" src="images/scummvm_logo.jpg" width="287" height="118" border="0" /></td>
 					<td rowspan="2" style="background:url('images/bg-upper.gif')">&nbsp;</td>
 					<td width="483">
 
