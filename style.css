@@ -248,7 +248,7 @@ td.menus {
 	padding-left:20px;
 	margin:0px;
 	margin-right:-8px;
-	background-image:url('images/bg-lec-games.png');
+	background-image:url('images/bg-lec-games.jpg');
 	background-repeat: no-repeat;
 	background-position: top right;
 }
@@ -258,7 +258,7 @@ td.menus {
 	padding-right:20px;
 	margin:0px;
 	margin-right:-8px;
-	background-image:url('images/bg-he-games.png');
+	background-image:url('images/bg-he-games.jpg');
 	background-repeat: no-repeat;
 	background-position: top right;
 }
@@ -268,7 +268,7 @@ td.menus {
 	padding-right:20px;
 	margin:0px;
 	margin-right:-8px;
-	background-image:url('images/bg-other-games.png');
+	background-image:url('images/bg-other-games.jpg');
 	background-repeat: no-repeat;
 	background-position: top right;
 }
