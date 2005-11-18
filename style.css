@@ -81,7 +81,7 @@ table.intro {
 	}
 .intro .intro h2 {
 	margin:0px;color:#356a02;font-weight:bold;padding-left:1em;
-	font-family:Trebuchet MS,Verdana,Tahoma;font-size:18px;
+	font-family:"Trebuchet MS",Verdana,Tahoma,sans-serif;font-size:18px;
 	}
 .intro .intro .content {
 	border-left:1px solid #ebb716;border-right:1px solid #ebb716;background:#fff;
@@ -184,7 +184,7 @@ td.menus {
 .sshots h2 {
 	margin:0px;
 	color:#356a02;font-weight:bold;padding-left:1em;
-	font-family:Trebuchet MS,Verdana,Tahoma;font-size:16px;
+	font-family:"Trebuchet MS",Verdana,Tahoma,sans-serif;font-size:16px;
 	}
 .sshots a {
 	color:#356a02;
@@ -435,7 +435,7 @@ td.menus {
 }
 
 .md5 {
-	font-family: Lucida Console, monospace;
+	font-family: "Lucida Console", monospace;
 	font-size:9pt;
 	}
 
