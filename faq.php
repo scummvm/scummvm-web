@@ -12,7 +12,7 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_page_header("ScummVM :: FAQ", '<link href="faq.css" rel="stylesheet" type="text/css">');
+html_page_header("ScummVM :: FAQ", array("faq.css"));
 
 html_content_begin('FAQ :: Frequently Asked Questions');
 

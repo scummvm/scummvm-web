@@ -1,6 +1,6 @@
 <?php
 
-function html_page_header($title, $extra = "") {
+function html_page_header($title, $extra_css = array()) {
   global $file_root;
 
 ?>
@@ -10,6 +10,10 @@ function html_page_header($title, $extra = "") {
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 		<link rel="stylesheet" href="./style.css" type="text/css">
 <?php
+  foreach ($extra_css as $css_file) {
+    echo '<link rel="stylesheet" href="./' . $css_file . '" type="text/css">'."\n";
+  }
+
   echo "<title>$title</title>\n";
   echo "$extra\n";
 ?>

@@ -9,7 +9,7 @@ require($file_root."/include/"."scr-categories.php");
 function display_single_shot($cat1, $cat2, $cat3) {
 }
 
-html_page_header('ScummVM :: Screenshots');
+html_page_header('ScummVM :: Screenshots', array("screenshots.css"));
 
 html_content_begin('Screenshots');
 

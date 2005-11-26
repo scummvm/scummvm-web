@@ -1,0 +1,28 @@
+.par-item .par-scr-content-cat0 {
+	padding-left:20px;
+	margin:0px;
+	margin-right:-8px;
+	background-image:url('images/bg-lec-games.jpg');
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+.par-item .par-scr-content-cat1 {
+	padding-left:20px;
+	padding-right:20px;
+	margin:0px;
+	margin-right:-8px;
+	background-image:url('images/bg-he-games.jpg');
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+.par-item .par-scr-content-cat2 {
+	padding-left:20px;
+	padding-right:20px;
+	margin:0px;
+	margin-right:-8px;
+	background-image:url('images/bg-other-games.jpg');
+	background-repeat: no-repeat;
+	background-position: top right;
+}

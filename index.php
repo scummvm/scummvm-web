@@ -5,7 +5,7 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 require($file_root."/include/"."scr-categories.php");
 
-html_page_header('ScummVM :: Home');
+html_page_header('ScummVM :: Home', array("index.css"));
 
 $shownews = $HTTP_GET_VARS['shownews'];
 

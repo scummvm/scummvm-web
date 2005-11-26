@@ -12,7 +12,7 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_page_header('ScummVM :: Links', '<link href="links.css" rel="stylesheet" type="text/css">');
+html_page_header('ScummVM :: Links', array("links.css"));
 html_content_begin('Links');
 
 
