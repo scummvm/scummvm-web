@@ -211,11 +211,11 @@ $MISC_demos = array(
 	'Legend of Kyrandia (Non-interactive)'
 		=> array('http://quick.mixnmojo.com/demos/kyra1demo.zip', 'kyra1'),
 	'Simon the Sorcerer 1 (DOS demo)'
-		=> array('http://www.cowlark.com/scumm.dat/simon1demo.zip', 'simon1demo'),
+		=> array('http://www.cowlark.com/scumm.dat/simon1demo.zip', 'simon1'),
 	'Simon the Sorcerer 1 Talkie (Acorn demo)'
-		=> array('http://quick.mixnmojo.com/demos/simon1demo_acorn.rar', 'simon1acorn'),
+		=> array('http://quick.mixnmojo.com/demos/simon1demo_acorn.rar', 'simon1'),
 	'Simon the Sorcerer 2 Talkie (DOS demo)'
-		=> array('http://www.cowlark.com/scumm.dat/simon2demo.zip', 'simon2talkie')
+		=> array('http://www.cowlark.com/scumm.dat/simon2demo.zip', 'simon2')
 	);
 
 function render_demos($title, $demos) {

@@ -129,12 +129,8 @@ $gamesOther = array(
 		'Flight of the Amazon Queen'			       	=> array('queen','98'),
 		'Gobliiins'						=> array('gob1', '90'),
 		'Inherit the Earth'					=> array( 'ite', '87'),
-		'Simon The Sorcerer 1 Talkie'       			=> array('simon1talkie','93'),
- 		'Simon The Sorcerer 1 Talkie (Acorn)'			=> array('simon1acorn','93'),
-		'Simon The Sorcerer 1 (DOS)'           			=> array('simon1dos','93'),
-		'Simon The Sorcerer 1 (Demo)'          			=> array('simon1demo','93'),
-		'Simon The Sorcerer 2 Talkie'       			=> array('simon2talkie','95'),
-		'Simon The Sorcerer 2 (DOS)'           			=> array('simon2dos','95')
+		'Simon The Sorcerer 1'          			=> array('simon1','93'),
+		'Simon The Sorcerer 2'           			=> array('simon2','95')
 	      );
 
 $notes = array(
@@ -307,16 +303,12 @@ $notes = array(
 		   "<br>- DOS Floppy, DOS CD, Win32, old Macintosh, MacOS X and Linux versions are supported by this target".
 		   "<br>- Amiga CD isn't supported".
 		   "<br>- Occasional gfx glitches",
-"simon1talkie" 	=> "No known issues, game is completable.".
+"simon1" 	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target",
-"simon1acorn" 	=> "No known issues, game is completable.",
-"simon1dos" 	=> "No known issues, game is completable.",
-"simon1demo" 	=> "No known issues, game demo is completable.",
-"simon2talkie"  => "No known issues, game is completable.".
+"simon2"        => "No known issues, game is completable.".
 		   "<br>- Amiga, DOS, Macintosh and Windows versions supported by this target".
                    "<br>- Only the default language (English) in Amiga &amp; Mactinosh versions is supported".
-                   "<br>- F10 key animation is different in Amiga &amp; Macintosh versions",
-"simon2dos"     => "No known issues, game is completable."
+                   "<br>- F10 key animation is different in Amiga &amp; Macintosh versions"
 );
 		
 // render the compatibility chart
