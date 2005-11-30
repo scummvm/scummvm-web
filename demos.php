@@ -94,10 +94,10 @@ $LEC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/samdemo_mac.zip', 'samnmax'),
 	'Sam and Max Hit the Road (DOS demo - Interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Snmdemo.zip', 'samnmax'),
-	'Sam and Max Hit the Road WIP (DOS demo - Interactive)'
-		=> array('http://www.cowlark.com/scumm.dat/snmidemo.zip', 'samnmax'),
 	'Sam and Max Hit the Road (German DOS demo - Interactive)'
 		=> array('http://quick.mixnmojo.com/demos/sdemo-de.zip', 'samnmax'),
+	'Sam and Max Hit the Road WIP (DOS demo - Interactive)'
+		=> array('http://www.cowlark.com/scumm.dat/snmidemo.zip', 'samnmax'),
 	'The Curse of Monkey Island (Windows demo)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/cursedemo.exe', 'comi'),
 	'The Curse of Monkey Island (Windows demo with movies)'
@@ -120,7 +120,7 @@ $LEC_demos = array(
 
 $HE_demos = array(
 	'Backyard Football (Demo)'
-		=> array('http://quick.mixnmojo.com/demos/footdemo.zip', 'baseball'),
+		=> array('http://quick.mixnmojo.com/demos/footdemo.zip', 'football'),
 	'Big Thinkers Kindergarten (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/BTK95d.EXE', 'thinkerk'),
 	'Big Thinkers First Grade (Demo)'
