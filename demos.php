@@ -96,12 +96,12 @@ $LEC_demos = array(
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Snmdemo.zip', 'samnmax'),
 	'Sam and Max Hit the Road WIP (DOS demo - Interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/snmidemo.zip', 'samnmax'),
-	'Sam and Max Hit the Road (German DOS demo)'
+	'Sam and Max Hit the Road (German DOS demo - Interactive)'
 		=> array('http://quick.mixnmojo.com/demos/sdemo-de.zip', 'samnmax'),
 	'The Curse of Monkey Island (Windows demo)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/cursedemo.exe', 'comi'),
 	'The Curse of Monkey Island (Windows demo with movies)'
-		=> array('http://quick.mixnmojo.com/demos/CMICompleteDemo.rar', 'comi')
+		=> array('http://quick.mixnmojo.com/demos/CMICompleteDemo.rar', 'comi'),
 	'The Dig (Macintosh demo)'
 		=> array('http://quick.mixnmojo.com/demos/dig_demo_mac.zip', 'dig'),
 	'The Dig (DOS demo)'
@@ -115,7 +115,7 @@ $LEC_demos = array(
 	'Zak McKracken and the Alien Mindbenders (Atari ST - Non interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/zakstdemo.zip', 'zak'),
 	'Zak McKracken & Loom (FM Towns demo - Non interactive)'
-		=>array('http://www.cowlark.com/scumm.dat/zakloom.zip', 'zak'),
+		=>array('http://www.cowlark.com/scumm.dat/zakloom.zip', 'zak')
 	);
 
 $HE_demos = array(
