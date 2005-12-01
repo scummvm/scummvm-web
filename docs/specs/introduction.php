@@ -5,20 +5,51 @@ $file_root = "../..";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("SCUMM Reference Guide :: Introduction", '<link href="specs.css" rel="stylesheet" type="text/css">');
-sidebar_start(true);
+html_page_header("ScummVM :: SCUMM Reference Guide :: Introduction", '<link href="specs.css" rel="stylesheet" type="text/css">');
 
 //display welcome table
-echo html_round_frame_start("Introduction","");
+html_content_begin("Introduction");
 
 ?>
 
-        <p>
-          <big><b>Introduction</b></big><br>
-          <? echo html_line(); ?>
-        </p>
+<div class="par-item">
+  <div class="par-head">
+    Introduction
+  </div>
 
-<H2>Changes</h2>
+    <div class="par-intro">
+	<br/>
+
+    <div class="navigation">
+       Navigation
+
+       <div class="nav-dots">
+	  &nbsp;
+       </div>
+
+<table border=0>
+
+<?php
+  html_nav_item("#changes", "Changes");
+  html_nav_item("#whatis", "What is SCUMM?");
+  html_nav_item("#versions", "What versions of SCUMM are there available?");
+  html_nav_item("#engines", "Engines");
+?>
+
+</table>
+<br/>
+    </div>
+  </div>
+
+<br/>
+
+  <div class="par-content">
+
+<a name="changes"></a>
+
+    <?php html_subhead_start("Changes"); ?>
+
+    <div class="par-subhead-content">
 
 <dl>
 <dt>
@@ -43,7 +74,16 @@ it, added a bunch of opcodes, assorted tidying.
 <DD>Initial version
 </dl>
 
-<h2>What is SCUMM?</h2>
+    </div>
+  </div>
+</div>
+
+<a name="whatis"></a>
+<div class="par-item">
+  <div class="par-head">
+    What is SCUMM?
+  </div>
+  <div class="par-content">
 
 SCUMM, the <B>S</B>cript <B>C</B>reation <B>U</B>tility for
 <B><EM>M</EM></B><EM>aniac</EM> <B><EM>M</EM></B><EM>ansion</EM>, is an engine
@@ -102,7 +142,15 @@ SCUMM file browsing and analysis tool called <a href="http://scummrev.mixnmojo.c
 Revisited</a>. If you are at all interested in SCUMM files, this is an
 essential tool.
 
-<H2>What versions of SCUMM are there available?</H2>
+  </div>
+</div>
+
+<a name="versions"></a>
+<div class="par-item">
+  <div class="par-head">
+    What versions of SCUMM are there available?
+  </div>
+  <div class="par-content">
 
 <p>Many.
 
@@ -178,7 +226,15 @@ echo html_frame_end("&nbsp;");
 ?>
 <p>This document will only concern itself with SCUMM versions 5-8.
 
-<h2>Engines</h2>
+  </div>
+</div>
+
+<a name="engines"></a>
+<div class="par-item">
+  <div class="par-head">
+    Engines
+  </div>
+  <div class="par-content">
 
 <p>The SCUMM virtual machine is made up of a number of sub engines working together. Strictly, the term SCUMM only refers to the scripting language itself. The official term for the virtual machine as a whole is SPUTM --- but getting people to change is probably a lost cause.
 
@@ -208,11 +264,11 @@ echo html_frame_end("&nbsp;");
 All material &copy; 2000-2002 David Given, unless where stated otherwise.
 </P>
 
+  </div>
+</div>
+
 <?
-echo html_round_frame_end("&nbsp;");
-          
-// end of html
-sidebar_end();
-html_footer();
+html_content_end();
+html_page_footer();
 ?>
 

@@ -5,17 +5,17 @@ $file_root = "../..";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("SCUMM Reference Guide :: V6 opcode list", '<link href="specs.css" rel="stylesheet" type="text/css">');
-sidebar_start(true);
+html_page_header("ScummVM :: SCUMM Reference Guide :: V6 opcode list", '<link href="specs.css" rel="stylesheet" type="text/css">');
 
 //display welcome table
-echo html_round_frame_start("V6 opcode list","");
+echo html_content_begin("V6 opcode list");
 ?>
   
-        <p>
-          <big><b>V6 opcode list</b></big><br>
-          <? echo html_line(); ?>
-        </p>  
+<div class="par-item">
+  <div class="par-head">
+    V6 opcode list
+  </div>
+  <div class="par-content">
 
 <p>The following conventions are used in the encoding descriptions:
 
@@ -982,7 +982,7 @@ to the current program counter after the instruction has been decoded.<br>
 <h4>Stack</h4>( <i>bool</i> &nbsp;:&nbsp;-)<br>
 <br>
 
-<h4> Operation</h4>if  <i>bool</i>  <font face=symbol>¹</font> 0, pc := pc +  <i>offset</i> <br>
+<h4> Operation</h4>if  <i>bool</i>  <font face=symbol> </font> 0, pc := pc +  <i>offset</i> <br>
 <br>
 Pops the top value off the stack. If non-zero, then  <i>offset</i> 
 is added to the current program counter after the instruction has
@@ -1177,7 +1177,7 @@ Performs a multiplication operation on the stack. Note the order.<br>
 <h4>Stack</h4>( <i>value</i><sub><font size=2>1</font></sub> ,  <i>value</i><sub><font size=2>2</font></sub>  :  <i>bool</i> )<br>
 <br>
 
-<h4> Operation</h4>If  <i>value</i><sub><font size=2>1</font></sub>   <font face=symbol>¹</font>   <i>value</i><sub><font size=2>2</font></sub> , set  <i>bool</i> 
+<h4> Operation</h4>If  <i>value</i><sub><font size=2>1</font></sub>   <font face=symbol> </font>   <i>value</i><sub><font size=2>2</font></sub> , set  <i>bool</i> 
 to 1, otherwise set it to 0<br>
 <br>
 Tests the top two values on the stack to see if they are not equal.<br>
@@ -2008,11 +2008,12 @@ Tests the value on the stack to see if it compares to zero.
 All material &copy; 2000-2002 David Given, unless where stated otherwise.
 </p>
 
+  </div>
+</div>
+
 <?
-echo html_round_frame_end("&nbsp;");
 
 // end of html
-sidebar_end();
-html_footer();
+html_content_end();
+html_page_footer();
 ?>
-

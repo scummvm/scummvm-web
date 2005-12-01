@@ -5,17 +5,18 @@ $file_root = "../..";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("SCUMM Reference Guide :: V5 opcode list", '<link href="specs.css" rel="stylesheet" type="text/css">');
-sidebar_start(true);
+html_page_header("ScummVM :: SCUMM Reference Guide :: V5 opcode list", '<link href="specs.css" rel="stylesheet" type="text/css">');
 
 //display welcome table 
-echo html_round_frame_start("V5 opcode list","");
+echo html_content_begin("V5 opcode list");
 ?>
 
-        <p>
-          <big><b>V5 opcode list</b></big><br>
-          <? echo html_line(); ?>
-        </p>
+<div class="par-item">
+  <div class="par-head">
+    V5 opcode list
+  </div>
+  <div class="par-content">
+
 
 <p>The following conventions are used in the encoding descriptions.
 
@@ -930,11 +931,12 @@ bit is the parameter bit for <i>script</i>, as usual.
 All material &copy; 2000-2002 David Given, unless where stated otherwise.
 </p>
 
+  </div>
+</div>
+
 <?
-echo html_round_frame_end("&nbsp;");
 
 // end of html
-sidebar_end();
-html_footer();
+html_content_end();
+html_page_footer();
 ?>
-

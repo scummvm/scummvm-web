@@ -5,20 +5,22 @@ $file_root = "../..";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("SCUMM Reference Guide :: CHAR Character Sets", '<link href="specs.css" rel="stylesheet" type="text/css">');
-sidebar_start(true);
+html_page_header("ScummVM :: SCUMM Reference Guide :: CHAR Character Sets", '<link href="specs.css" rel="stylesheet" type="text/css">');
 
 //display welcome table
-echo html_round_frame_start("CHAR: Character Sets","");
+html_content_begin('CHAR: Character Sets');
 ?>
 
-        <p>
-          <big><b>CHAR: Character Sets</b></big><br>
-          <? echo html_line(); ?>
-        </p>
+<div class="par-item">
+  <div class="par-head">
+    CHAR: Character Sets
+  </div>
+  <div class="par-content">
 
+    <br/>
+    <?php html_subhead_start("Introduction"); ?>
 
-<H2>Introduction</H2>
+    <div class="par-subhead-content">
 
 Character sets define the fonts used by SCUMM to draw text, such as dialogue,
 on the screen. They are stored in <tt>CHAR</tt> chunks, and
@@ -32,7 +34,11 @@ usually the copyright and trademark symbols are included.
 
 <p> Character glyphs may be 1, 2 or 4 bits per pixel, and can be masked.
 
-<h2>Chunk Format</h2>
+  </div>
+
+    <?php html_subhead_start("Chunk Format"); ?>
+
+    <div class="par-subhead-content">
 
 <p><pre class=box>
 <u>Size</u>    <u>Type</u>             <u>Description</u>
@@ -92,15 +98,18 @@ Words of data: 00112233 44556677
 Bit position:  7      0 7      1 ...
 Words of data: 00001111 22223333
 </pre>
+  </div>
+
 <HR><P STYLE="font-size: smaller; text-align: center">
 All material &copy; 2000-2002 David Given, unless where stated otherwise.
 </P>
 
+  </div>
+</div>
+
 <?
-echo html_round_frame_end("&nbsp;");
 
 // end of html
-sidebar_end();
-html_footer();
+html_content_end();
+html_page_footer();
 ?>
-

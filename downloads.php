@@ -37,13 +37,15 @@ html_content_begin('Download ScummVM');
        </div>
 
 <table border=0>
-	<tr><td class='nav-bullet'><img src='images/bullet-section.gif' alt="*" /></td><td class='nav-item'><a href="#stable">0.8.0 Release binaries</a></td></tr>
-	<tr><td class='nav-bullet'><img src='images/bullet-section.gif' alt="*" /></td><td class='nav-item'><a href="#source">0.8.0 Source Code</a></td></tr>
-	<tr><td class='nav-bullet'><img src='images/bullet-section.gif' alt="*" /></td><td class='nav-item'><a href="#tools">0.8.0 Tools</a></td></tr>
-	<tr><td class='nav-bullet'><img src='images/bullet-section.gif' alt="*" /></td><td class='nav-item'><a href="#older">Older versions</a></td></tr>
-       <tr><td class='nav-bullet'><img src='images/bullet-section.gif' alt="*" /></td><td class='nav-item'><a href="#extras">Extras, game downloads</a></td></tr>
-	<tr><td class='nav-bullet'><img src='images/bullet-section.gif' alt="*" /></td><td class='nav-item'><a href="#CVS">CVS Builds</a></td></tr>
-	<tr><td class='nav-bullet'><img src='images/bullet-section.gif' alt="*" /></td><td class='nav-item'><a href="#libs">Libraries</a></td></tr>
+<?php
+  html_nav_item("#stable", "0.8.0 Release binaries");
+  html_nav_item("#source", "0.8.0 Source Code");
+  html_nav_item("#tools", "0.8.0 Tools");
+  html_nav_item("#older", "Older versions");
+  html_nav_item("#extras", "Extras, game downloads");
+  html_nav_item("#CVS", "CVS Builds");
+  html_nav_item("#libs", "Libraries");
+?>
 
 </table>
     </div>

@@ -5,24 +5,31 @@ $file_root = "../..";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("SCUMM Reference Guide :: SCRP Scripts", '<link href="specs.css" rel="stylesheet" type="text/css">');
-sidebar_start(true);
+html_page_header("ScummVM :: SCUMM Reference Guide :: SCRP Scripts", '<link href="specs.css" rel="stylesheet" type="text/css">');
 
 //display welcome table
-echo html_round_frame_start("SCRP: Scripts","");
+echo html_content_begin("SCRP: Scripts");
 ?>
 
-        <p>
-          <big><b>SCRP: Scripts</b></big><br>
-          <? echo html_line(); ?>
-        </p>
+<div class="par-item">
+  <div class="par-head">
+    SCRP: Scripts
+  </div>
+  <div class="par-content">
 
-<H2>Introduction</H2>
+    <br/>
+    <?php html_subhead_start("Introduction"); ?>
+
+    <div class="par-subhead-content">
 
 <p>Insert here
 </p>
 
-<h2>The SCUMM virtual machine</h2>
+  </div>
+
+    <?php html_subhead_start("The SCUMM virtual machine"); ?>
+
+    <div class="par-subhead-content">
 
 <p>The SCUMM virtual machine was given a complete rewrite between version 5 and
 version 6. Both virtual machines are simple byte-code machines with built-in
@@ -44,7 +51,11 @@ declared in the data file; V6 can define new ones on the fly, which means they
 can be used as a dynamic heap.
 </p>
 
-<H2>Pointers</H2>
+  </div>
+
+    <?php html_subhead_start("Pointers"); ?>
+
+    <div class="par-subhead-content">
 
 <p>Both V5 and V6 use a common system of encoding the address of something in
 memory. These are referred to as pointers. These come in several forms,
@@ -104,7 +115,11 @@ becomes <I>address</I>+<I>offset</I>. If it is set, the effective word address
 </p>
 
 
-<H2>Threads</H2>
+  </div>
+
+    <?php html_subhead_start("Threads"); ?>
+
+    <div class="par-subhead-content">
 
 <p>Both engines have automatic cooperative threading. Instructions will be
 executed out of a single script until it suspends for some reason; the flow of
@@ -169,7 +184,11 @@ ignored. It is possible to mark a thread as unfreezable when it is created;
 however, even unfreezable threads can be frozen with the appropriate code (see
 the <tt>freezeScripts</tt> and <tt>freezeUnfreeze</tt> opcodes).
 
-<h2>Version 5 instruction encoding</h2>
+  </div>
+
+    <?php html_subhead_start("Version 5 instruction encoding"); ?>
+
+    <div class="par-subhead-content">
 
 <p>Unfortunately, there is no set V5 instruction encoding. In the general form,
 instructions take a fixed number of parameters and return an optional value.
@@ -200,7 +219,11 @@ opcode encoded as a constant.  Some opcodes (such as <tt>drawBox</tt>) take too
 many parameters and have a supplementary opcode byte to contain the extra
 parameter bits.  You have been warned.
 
-<H2>Version 6 instruction encoding</H2>
+  </div>
+
+    <?php html_subhead_start("Version 6 instruction encoding"); ?>
+
+    <div class="par-subhead-content">
 
 <p>After V5, the byte-code engine was rewritten completely. The new engine is
 far more orthogonal and considerably easier to understand.
@@ -213,7 +236,11 @@ type bits are needed.
 <p>As a result of this more efficient encoding, the V6 engine actually has more
 instructions than the V5 one, despite using fewer entries in the opcode map.
 
-<H2>Arrays</H2>
+  </div>
+
+    <?php html_subhead_start("Arrays"); ?>
+
+    <div class="par-subhead-content">
 
 <p>Both V5 and V6 allow Array resources to be used as a dynamic heap.  V5
 allows up to 32 one-dimensional arrays, also referred to as Strings; V6 allows
@@ -226,15 +253,20 @@ bytes or words.
 The specified Array is initialised to zero. V6 does it with the <tt>dim</tt>,
 <tt>dim2</tt> or <tt>arrayOps/208</tt> opcodes, depending on the type of array
 and how it is to be initialised.
+
+</div>
+
 <HR><P STYLE="font-size: smaller; text-align: center">
 All material &copy; 2000-2002 David Given, unless where stated otherwise.
 </P>
 
+
+  </div>
+</div>
+
 <?
-echo html_round_frame_end("&nbsp;");
 
 // end of html
-sidebar_end();
-html_footer();
+html_content_end();
+html_page_footer();
 ?>
-

@@ -68,7 +68,9 @@ if ($view and file_exists($file_root."/docs/".$view.".xml")) {
   <a href='http://cvs.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/TODO?rev=HEAD'>ScummVM current areas of focus</a><br />
   This page is the current TODO list for ScummVM.<br /><br />
 
-  <a href='$file_root/docs/doxygen/html/index.php'>Source code documentation</a><br />
+<?php
+     echo "<a href='$file_root/docs/doxygen/html/index.php'>Source code documentation</a><br />\n";
+?>
   Cross referenced source code documentation for ScummVM, generated using
   <a href='http://www.doxygen.org'>Doxygen</a>.<br /><br />
 

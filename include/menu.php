@@ -2,11 +2,12 @@
 class htmlmenu {
 
   function htmlmenu($name, $style, $extra = "") {
+    global $file_root;
     echo '<table class="menu" cellspacing="0">';
 ?>
   <tfoot>
     <tr>
-      <td><img src="images/menu-bottom.gif" alt="" /></td>
+      <td><img src="<?=$file_root?>/images/menu-bottom.gif" alt="" /></td>
     </tr>
 
 <?php

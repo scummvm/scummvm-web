@@ -5,20 +5,20 @@ $file_root = "../..";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("The inComplete SCUMM Reference Guide", '<link href="specs.css" rel="stylesheet" type="text/css">');
-sidebar_start(true);
+html_page_header("ScummVM :: The inComplete SCUMM Reference Guide", '<link href="specs.css" rel="stylesheet" type="text/css">');
+
+html_content_begin('The inComplete SCUMM Reference Guide');
 
 // add 
 
 //display welcome table
-echo html_round_frame_start("The inComplete SCUMM Reference Guide","");
 
 ?>
-        <p>
-          <big><b>The inComplete SCUMM Reference Guide</b></big><br>
-          <? echo html_line(); ?>
-        </p>
-
+<div class="par-item">
+  <div class="par-head">
+    The inComplete SCUMM Reference Guide
+  </div>
+  <div class="par-content">
         <p>
 
 	<i>being a Partially Complete and Mostly Accurate guide to the SCUMM Engine data file Format for Versions Five and Six (and above)</i>
@@ -37,10 +37,12 @@ echo html_round_frame_start("The inComplete SCUMM Reference Guide","");
 All material &copy; 2000-2002 David Given, unless where stated otherwise.
 </P>
 
+  </div>
+</div>
+
 <?
-echo html_round_frame_end("&nbsp;");
 
 // end of html
-sidebar_end();
-html_footer();
+html_content_end();
+html_page_footer();
 ?>

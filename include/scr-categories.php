@@ -4,11 +4,11 @@ $categories = array();
 
 function display_categories_list() {
   global $categories;
+  global $file_root;
 
   echo "<table border=0>\n";
   foreach ($categories as $cat) {
-    echo "<tr><td class='nav-bullet'><img src='images/bullet-section.gif' alt='*' /></td><td class='nav-item'><a href=\"#cat".
-	$cat->_catnum.'">'.$cat->_name."</a></td></tr>\n";
+    html_nav_item("#cat".$cat->_catnum, $cat->_name);
   }
   echo "</table>\n";
 }
@@ -50,10 +50,11 @@ class category {
 
   function display() {
     global $scrcatnums;
+    global $file_root;
 
     echo "<table border=0>\n";
     foreach($this->_list as $cat) {
-      echo "<tr><td class='cat-bullet'><img src='images/".$cat['filename'].
+      echo "<tr><td class='cat-bullet'><img src='$file_root/images/".$cat['filename'].
       	"' alt=\"\" /></td><td class='cat-link'><a href=\"?cat1=".$this->_catnum."&amp;cat2=".$cat['catnum']."&amp;view=-1\">".
       	"<b>{$cat['description'][0]}</b>".substr($cat['description'], 1).
       	"</a> <font class='cat-count'>(".$scrcatnums[$this->_catnum][$cat['catnum']]." shots)</font></td></tr>\n";

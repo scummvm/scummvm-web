@@ -50,10 +50,10 @@ if ($view == "") {
 </td><td style="width:300px; vertical-align:center; align:left">
 
 <table border=0 align="left" cellspacing=0>
-<tr><td width=280 height=37 colspan=4><img src="images/rs-top.png" alt="" /></td></tr>
-<tr><td width=17 height=10 colspan=2><img src="images/rs-top-left.png" alt="" /></td><td rowspan=2 width=256 height=192>
+<tr><td width=280 height=37 colspan=4><img src="<?=$file_root?>/images/rs-top.png" alt="" /></td></tr>
+<tr><td width=17 height=10 colspan=2><img src="<?=$file_root?>/images/rs-top-left.png" alt="" /></td><td rowspan=2 width=256 height=192>
 <?php
-  echo "<a href=\"javascript:openWin('./screenshots/{$screenshots[$randImg]}','scummvm',640,483);\"\n";
+  echo "<a href=\"javascript:openWin('$file_root/screenshots/{$screenshots[$randImg]}','scummvm',640,483);\"\n";
   echo "  onMouseOver=\"window.status='Click to View Full Size Image';return true;\"\n";
   echo "  onMouseOut=\"window.status='';return true;\">";
   echo '<img align=right src="'.screenshot_thumb_from_full($screenshots[$randImg]).'" alt="Random Screenshot"';
@@ -61,7 +61,7 @@ if ($view == "") {
 ?>
 </td><td style="background:#a82709;" width=7 height=192 rowspan=2></td></tr>
 <tr><td width=10 height=182></td><td style="background:#a82709;" width=7></td></tr>
-<tr><td width=280 height=21 colspan=4><img src="images/rs-bottom.png" alt="" /></td></tr>
+<tr><td width=280 height=21 colspan=4><img src="<?=$file_root?>/images/rs-bottom.png" alt="" /></td></tr>
 </table>
 
 </td></tr>

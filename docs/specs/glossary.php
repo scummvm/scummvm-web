@@ -5,17 +5,17 @@ $file_root = "../..";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("SCUMM Reference Guide :: Glossary", '<link href="specs.css" rel="stylesheet" type="text/css">');
-sidebar_start(true);
+html_page_header("ScummVM :: SCUMM Reference Guide :: Glossary", '<link href="specs.css" rel="stylesheet" type="text/css">');
 
 //display welcome table
-echo html_round_frame_start("Glossary","");
+echo html_content_begin("Glossary");
 ?>
   
-        <p>
-          <big><b>Glossary</b></big><br>
-          <? echo html_line(); ?>
-        </p>  
+<div class="par-item">
+  <div class="par-head">
+    Glossary
+  </div>
+  <div class="par-content">
 
 <dl>
 <DT>
@@ -66,11 +66,12 @@ BEs (big endian).
 All material &copy; 2000-2002 David Given, unless where stated otherwise.
 </P>
 
+  </div>
+</div>
+
 <?
-echo html_round_frame_end("&nbsp;");
 
 // end of html
-sidebar_end();
-html_footer();
+html_content_end();
+html_page_footer();
 ?>
-

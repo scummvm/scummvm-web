@@ -3,10 +3,11 @@
 <BODY>
 <?php
 function addEntry($variant, $platform, $language, $md5, $target = "???", $source = "") {
+	global $file_root;
 	print "<tr><td></td><td>$variant</td><td>$platform</td>";
 	print "<td>";
 	if ($language != "All" && $language != "All?") {
-	  print "<img src='images/fl-$language.png' alt='$language' style='vertical-align: middle; width: 20px; height: 12px'/> ";
+	  print "<img src='$file_root/images/fl-$language.png' alt='$language' style='vertical-align: middle; width: 20px; height: 12px'/> ";
 	}
 	print "$language</td>";
 	print "<td class='md5'>$md5</td>";
