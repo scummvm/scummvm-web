@@ -5,7 +5,7 @@ $file_root = "../..";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_page_header("ScummVM :: The inComplete SCUMM Reference Guide", '<link href="specs.css" rel="stylesheet" type="text/css">');
+html_page_header("ScummVM :: The inComplete SCUMM Reference Guide", array("specs.css"));
 
 html_content_begin('The inComplete SCUMM Reference Guide');
 
