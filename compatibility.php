@@ -101,8 +101,8 @@ $gamesHE = array(
 		'Let\'s Explore the Jungle with Buzzy'					=> array('jungle','85'),
 		'Pajama Sam 1: No Need to Hide When It\'s Dark Outside'			=> array('pajama','70'),
 		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'		=> array('pajama2','90'),
-		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('pajama3','50'),
-		'Pajama Sam\'s Lost &amp; Found'						=> array('lost','80'),
+		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('pajama3','70'),
+		'Pajama Sam\'s Lost &amp; Found'					=> array('lost','80'),
 		'Pajama Sam\'s Sock Works'						=> array('socks','90'),
 		'Putt-Putt Enters the Race'						=> array('puttrace','90'),
 		'Putt-Putt Goes To The Moon'						=> array('puttmoon','95'),
@@ -191,7 +191,7 @@ $notes = array(
 		   "<br>- Minor graphical glitches",
 "soccer"	=> "Game is playable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- PlayStation 1 version will never be supported.".
+		   "<br>- PlayStation 1 version doesn't use SCUMM, so will never be supported.".
 		   "<br>- Array out of bounds errors sometimes".
 		   "<br>- Minor graphical glitches",
 "BluesABCTimeDemo" => "Game is playable".
@@ -233,9 +233,10 @@ $notes = array(
 		   "<br>- No songs",
 "pajama2"	=> "No known issues, game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"pajama3"	=> "Game is playable but not completable".
-		   "<br>- PlayStation 1 version will never be supported.".
-		   "<br>- Sprites aren't displayed during Ski Ride".
+"pajama3"	=> "Game is completable, with glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- PlayStation 1 version doesn't use SCUMM, so will never be supported.".
+		   "<br>- Major sprite glitches during Ski Ride".
 		   "<br>- Minor graphical glitches",
 "lost"		=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
@@ -270,7 +271,7 @@ $notes = array(
 		   "<br>- Minor selection issue with buttons on paintings",
 "spyfox2"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"spyozon"	=> "Game is completable, depending on path".
+"spyozon"	=> "Game is completable, with glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Need to guess the correct colors of Poodles's fingernails".
 		   "<br>- Various palette glitches",
