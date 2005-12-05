@@ -119,9 +119,9 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-palmos.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-palmos.zip?download">PalmOS binary</a> <font class='cat-count'>(1.9M zipfile)</font></td></tr>
 -->
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-PPC2002_ARM.zip?download">Pocket PC 2002 ARM package</a> <font class='cat-count'>(1.3M zipfile)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-PPC2002_ARM.zip?download">PocketPC 2002 ARM package</a> <font class='cat-count'>(1.3M zipfile)</font></td></tr>
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-WindowsMobile_ARM.zip?download">Windows Mobile 5 ARM package</a> for Pocket PC 2003, Pocket PC 2003 SE,
+	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-WindowsMobile_ARM.zip?download">Windows Mobile 5 ARM package</a> for PocketPC 2003, PocketPC 2003 SE,
 Smartphone 2003, and Windows Mobile 5 <font class='cat-count'>(1.4M zipfile)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-amiga.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-amigaos4.lha?download">AmigaOS 4 package</a> <font class='cat-count'>(3.3M .lha)</font></td></tr>
