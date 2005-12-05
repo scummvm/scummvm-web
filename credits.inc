@@ -48,6 +48,7 @@
 <tr><td>Robert Kelsen</td><td></td><td>Packaging for SlackWare</td>
 <tr><td>Jean Marc</td><td></td><td>ScummVM logo</td>
 <tr><td>Claudio Matsuoka</td><td></td><td>Daily Linux builds</td>
+<tr><td>Kostas Nakos</td><td>[&nbsp;knakos&nbsp;]</td><td>PocketPC 2002 builds</td>
 <tr><td>Mikesch Nepomuk</td><td></td><td>MI1 VGA floppy patches</td>
 <tr><td>Juha Niemim&auml;ki</td><td></td><td>AmigaOS 4 port maintaining</td>
 <tr><td>Nicolas Noble</td><td>[&nbsp;pixels&nbsp;]</td><td>Config file and ALSA support</td>
