@@ -92,6 +92,8 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-win32.exe?download"><b>Windows Installer</b></a> <font class='cat-count'>(1.4M Win32 .exe)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-win32.zip?download">Windows zipfile</a> <font class='cat-count'>(1.4M zipfile)</font></td></tr>
 
+	  <tr><td class='cat-bullet'><img src='images/catpl-win64.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-win64.zip?download">Windows 64 zipfile</a> <font class='cat-count'>(1.4M zipfile)</font></td></tr>
+
 	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-1_FC4.i386.rpm?download">Fedora Core 4 package</a> <font class='cat-count'>(1.4M RPM)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-1_FC2.i386.rpm?download">Fedora Core 2 package</a> <font class='cat-count'>(1.6M RPM)</font></td></tr>
 
