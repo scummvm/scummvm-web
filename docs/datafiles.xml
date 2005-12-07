@@ -44,19 +44,35 @@ details.</p>
       COMI.LA2</td>
   </tr>
   <tr>
-    <td>Day of the Tentacle (CD and Floppy)</td>
+    <td>Day of the Tentacle (Macintosh CD)</td>
+    <td>Day Of The Tentacle Data</td>
+  </tr>
+  <tr>
+    <td>Day of the Tentacle (Macintosh Demo)</td>
+    <td>Day of the Tentacle Demo Data</td>
+  </tr>
+  <tr>
+    <td>Day of the Tentacle (PC CD and Floppy)</td>
     <td>MONSTER.SOU<br>
       TENTACLE.000<br>
       TENTACLE.001</td>
   </tr>
   <tr>
-    <td>Day Of The Tentacle (Demo)</td>
+    <td>Day Of The Tentacle (PC Demo)</td>
     <td>DOTTDEMO.000<br>
       DOTTDEMO.001<br>
       MONSTER.SOU</td>
   </tr>
   <tr>
-    <td>Dig, The</td>
+    <td>Dig, The (Macintosh)</td>
+    <td>The Dig Data</td>
+  </tr>
+  <tr>
+    <td>Dig, The (Macintosh Demo)</td>
+    <td>The Dig Demo Data</td>
+  </tr>
+  <tr>
+    <td>Dig, The (PC)</td>
     <td>VIDEO folder<br>
       DIG.LA0<br>
       DIG.LA1<br>
@@ -65,7 +81,7 @@ details.</p>
       LANGUAGE.BND (Non-English versions)<br>
   </tr>
   <tr>
-    <td>Dig, The (Demo)</td>
+    <td>Dig, The (PC Demo)</td>
     <td>audio folder<br>
       video folder<br>
       dig.la0<br>
@@ -187,7 +203,15 @@ details.</p>
       WATER.HE7</td>
   </tr>
   <tr>
-    <td>Full Throttle</td>
+    <td>Full Throttle (Macintosh)</td>
+    <td>Full Throttle Data</td>
+  </tr>
+  <tr>
+    <td>Full Throttle (Macintosh Demo)</td>
+    <td>Full Throttle Demo Data</td>
+  </tr>
+  <tr>
+    <td>Full Throttle (PC)</td>
     <td>FT.LA0<br>
     FT.LA1<br>
     MONSTER.SOU<br>
@@ -285,6 +309,10 @@ details.</p>
       atlantis.011</td>
   </tr>
   <tr>
+    <td>Indiana Jones and the Fate of Atlantis (Macintosh CD)</td>
+    <td>Fate of Atlantis Data</td>
+  </tr>
+  <tr>
     <td>Indiana Jones and the Fate of Atlantis (PC CD)</td>
     <td>MONSTER.SOU<br>
       ATLANTIS.000<br>
@@ -344,6 +372,7 @@ details.</p>
       START.CPS<br>
       TOP.CPS<br>
       WESTWOOD.WSA</td>
+      <a href="http://cvs.sourceforge.net/viewcvs.py/*checkout*/scummvm/engine-data/kyra.dat">kyra.dat</a></td>
   </tr>
   <tr>
     <td>Legend of Kyrandia (PC CD)</td>
@@ -351,6 +380,7 @@ details.</p>
       *.CPS<br>
       *.PAK<br>
       *.VRM</td>
+      <a href="http://cvs.sourceforge.net/viewcvs.py/*checkout*/scummvm/engine-data/kyra.dat">kyra.dat</a></td>
   </tr>
   <tr>
     <td>Let's Explore the Airport with Buzzy (Demo)</td>
@@ -611,19 +641,27 @@ details.</p>
       DOG.HE8</td>
   </tr>
   <tr>
-    <td>Sam and Max (Floppy)</td>
+    <td>Sam and Max (Macintosh CD)</td>
+    <td>Sam & Max Data</td>
+  </tr>
+  <tr>
+    <td>Sam and Max (Macintosh Demo)</td>
+    <td>Sam & Max Demo Data</td>
+  </tr>
+  <tr>
+    <td>Sam and Max (PC Floppy)</td>
     <td>MONSTER.SOU<br>
       SAMNMAX.SM0<br>
       SAMNMAX.SM1</td>
   </tr>
   <tr>
-    <td>Sam and Max (CD)</td>
+    <td>Sam and Max (PC CD)</td>
     <td>MONSTER.SOU<br>
       SAMNMAX.000<br>
       SAMNMAX.001</td>
   </tr>
   <tr>
-    <td>Sam &amp; Max (Demo)</td>
+    <td>Sam &amp; Max (PC Demo)</td>
     <td>samdemo.000<br>
       samdemo.001</td>
   </tr>
