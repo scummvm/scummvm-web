@@ -346,6 +346,13 @@ details.</p>
       WESTWOOD.WSA</td>
   </tr>
   <tr>
+    <td>Legend of Kyrandia (PC CD)</td>
+    <td>*.APK<br>
+      *.CPS<br>
+      *.PAK<br>
+      *.VRM</td>
+  </tr>
+  <tr>
     <td>Let's Explore the Airport with Buzzy (Demo)</td>
     <td>AIRDEMO.HE0<br>
       AIRDEMO.HE1<br>
@@ -648,6 +655,13 @@ details.</p>
       MONKEY1.001</td>
   </tr>
   <tr>
+    <td>Simon the Sorcerer 1 (Acorn CD or Acorn CD demo)</td>
+    <td>EXECUTE folder<br>
+      DATA<br>
+      EFFECTS<br>
+      SIMON<br>
+  </tr>
+  <tr>
     <td>Simon the Sorcerer 1 (Amiga Floppy)</td>
     <td>*tune<br>
       *.pkd<br>
@@ -659,7 +673,20 @@ details.</p>
       text*</td>
   </tr>
   <tr>
-    <td>Simon The Sorcerer 1 (DOS Demo)&nbsp;</td>
+    <td>Simon the Sorcerer 1 (Amiga CD32)</td>
+    <td>*Effects<br>
+      *simon<br>
+      *tune<br>
+      *.out<br>
+      gameamiga<br>
+      icon.pkd<br>
+      stripped.txt<br>
+      tables*<br>
+      tbllist<br>
+      text*</td>
+  </tr>
+  <tr>
+    <td>Simon The Sorcerer 1 (DOS Floppy Demo)&nbsp;</td>
     <td>*.VGA<br>
       GDEMO<br>
       ICON.DAT<br>
@@ -681,27 +708,7 @@ details.</p>
       TEXT*</td>
   </tr>
   <tr>
-    <td>Simon the Sorcerer 1 Talkie (Acorn or Acorn demo)</td>
-    <td>EXECUTE folder<br>
-      DATA<br>
-      EFFECTS<br>
-      SIMON<br>
-  </tr>
-  <tr>
-    <td>Simon the Sorcerer 1 Talkie (Amiga CD32)</td>
-    <td>*Effects<br>
-      *simon<br>
-      *tune<br>
-      *.out<br>
-      gameamiga<br>
-      icon.pkd<br>
-      stripped.txt<br>
-      tables*<br>
-      tbllist<br>
-      text*</td>
-  </tr>
-  <tr>
-    <td>Simon the Sorcerer 1 Talkie (DOS)</td>
+    <td>Simon the Sorcerer 1 (DOS CD or DOS CD Demo)</td>
     <td>EFFECTS.VOC<br>
       GAMEPC<br>
       ICON.DAT<br>
@@ -711,7 +718,7 @@ details.</p>
       TBLLIST</td>
   </tr>
   <tr>
-    <td>Simon the Sorcerer 1 Talkie (Windows)</td>
+    <td>Simon the Sorcerer 1 (Windows CD)</td>
     <td>GAMEPC<br>
       ICON.DAT<br>
       SFX*<br>
@@ -729,7 +736,25 @@ details.</p>
       TBLLIST</td>
   </tr>
   <tr>
-    <td>Simon the Sorcerer 2 Talkie (Amiga or Mac)</td>
+    <td>Simon the Sorcerer 2 (DOS CD or DOS CD Demo)</td>
+    <td>GSPTR30<br>
+      ICON.DAT<br>
+      SIMON2.GME<br>
+      SIMON2.VOC<br>
+      STRIPPED.TXT<br>
+      TBLLIST</td>
+  </tr>
+  <tr>
+    <td>Simon the Sorcerer 2 (Windows CD)</td>
+    <td>GSPTR30<br>
+      ICON.DAT<br>
+      SIMON2.GME<br>
+      SIMON2.WAV<br>
+      STRIPPED.TXT<br>
+      TBLLIST</td>
+  </tr>
+  <tr>
+    <td>Simon the Sorcerer 2 (Amiga or Mac)</td>
     <td>voices folder<br>
       gsptr30<br>
       icon.dat<br>
@@ -807,24 +832,6 @@ details.</p>
       MUSTARD.HE2<br>
       MUSTARD.HE4<br>
       MUSTARD.HE7</td>
-  </tr>
-  <tr>
-    <td>Simon the Sorcerer 2 Talkie (DOS or DOS Demo)</td>
-    <td>GSPTR30<br>
-      ICON.DAT<br>
-      SIMON2.GME<br>
-      SIMON2.VOC<br>
-      STRIPPED.TXT<br>
-      TBLLIST</td>
-  </tr>
-  <tr>
-    <td>Simon the Sorcerer 2 Talkie (Windows)</td>
-    <td>GSPTR30<br>
-      ICON.DAT<br>
-      SIMON2.GME<br>
-      SIMON2.WAV<br>
-      STRIPPED.TXT<br>
-      TBLLIST</td>
   </tr>
   <tr>
     <td>Zak McKracken and the Alien Mindbenders (Amiga, Atari ST, FM-TOWNS**, Mac, PC)</td>
