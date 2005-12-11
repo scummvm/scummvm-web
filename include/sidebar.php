@@ -35,7 +35,7 @@ function sidebar_start () {
 
     $g->done();      
 
-    $g = new htmlmenu("Misc. Menu", "menu-misc", '<img src="'.$file_root.'/images/hangmonk.gif" alt="monkey" align="right" width="55" height=57">');
+    $g = new htmlmenu("Misc. Menu", "menu-misc", '<img src="'.$file_root.'/images/hangmonk.gif" alt="monkey" align="right" width="55" height="57">');
 
     $g->add("Subprojects", $file_root."/subprojects.php");
     $g->add("Demos", $file_root."/demos.php");
