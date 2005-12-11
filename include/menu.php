@@ -7,7 +7,7 @@ class htmlmenu {
 ?>
   <tfoot>
     <tr>
-      <td><img src="<?=$file_root?>/images/menu-bottom.gif" alt="" /></td>
+      <td><img src="<?=$file_root?>/images/menu-bottom.gif" alt="" width="145" height=13" /></td>
     </tr>
 
 <?php
