@@ -25,10 +25,10 @@ html_content_begin('Press Coverage');
 
 <small>(If you wish to contact us in regards to media articles, please e-mail press 
 (@) scummvm.org)</small>
-	<p><a href="http://www.micromart.co.uk/content/features/default.asp?Category=Article&amp;Type=&amp;ID=1746">
+	<p><a href="http://www.micromart.co.uk/default.aspx?contentid=0a437af8-b1f5-4ffc-a6c8-f567007946de&featureid=1746">
 	  <b>Retro-Mart</b></a>, www.micromart.co.uk
 	</p>
-	<p><a href="http://www.pcplus.co.uk/tutorials/default.asp?pagetypeid=2&amp;articleid=29821&amp;subsectionid=376&amp;subsubsectionid=749">
+	<p><a href="http://web.archive.org/web/20041010095443/http://www.pcplus.co.uk/tutorials/default.asp?pagetypeid=2&articleid=29821&subsectionid=376&subsubsectionid=749">
 	  <b>Back to the Source</b></a>, PC Plus issue 215, May 2004
 	</p>
 
@@ -36,7 +36,7 @@ html_content_begin('Press Coverage');
 	   (French), mac-emu, April 2004
 	</p>
 
-	<p><a href="http://www.techtv.com/callforhelp/freefile/story/0,24330,3640615,00.html">
+	<p><a href="http://www.g4tv.com/callforhelparchive/features/44047/Free_File_ScummVM.html">
 	   <b>Call for Help show</b></a>, TechTV, March 19th 2004
 	</p>
 
@@ -44,7 +44,7 @@ html_content_begin('Press Coverage');
 	   ><b>ScummVM 0.6.0 Released With Freeware Bonus</b></a>, Slashdot, March 17, 2004
 	<p>
 
-	<p><a href="http://arisme.free.fr/PocketScumm/press"
+	<p><a href="http://arisme.free.fr/PocketScumm/press/"
 	   ><b>Adventure games on PDAs</b></a> (French), PDA Magazine issue 9, Mars/April 2004
 	</p>
 
@@ -72,7 +72,7 @@ html_content_begin('Press Coverage');
 	   ><b>Chrilith's ScummVM Zodiac Port WIP</b></a>, Zodiac Gamer, September 20, 2003
 	</p>
 
-	<p><a href="http://linux.oreillynet.com/pub/a/linux/2003/08/21/scummvm.html"
+	<p><a href="http://www.linuxdevcenter.com/pub/a/linux/2003/08/21/scummvm.html"
 	   ><b>Inside ScummVM: Classic Adventure Engine Overhaul</b></a>, Oreilly Network, August 21, 2003
 	</p>
 
@@ -88,7 +88,8 @@ html_content_begin('Press Coverage');
 	   ><b>ScummVM 0.5.0 Out, With Some Official Game Support</b></a>, Slashdot, August 2, 2003
 	</p>
 
-	<p><a href="http://www.gamer-nation.co.uk/features/scummvm/index.shtml"
+	<p><a 
+href="http://web.archive.org/web/20040619081358/http://www.gamer-nation.co.uk/features/scummvm/index.shtml"
 	   ><b>A Deafening Silence</b></a>, Gamer Nation UK, June 30, 2003
 	</p>
 
@@ -116,7 +117,7 @@ html_content_begin('Press Coverage');
 	   ><b>Lucas Confuses ScummVM With Abandonware</b></a>, Slashdot, June 26, 2002
 	</p>
 	
-	<p><a href="http://www.amigafuture.de/interactive/interview/scummvm.php"
+	<p><a href="http://www.amigafuture.de/forum/kb.php?mode=article&k=145"
 	  ><b>Interview mit Rüdiger Hanke</b></a> (German), Amiga Future #36, May 2002
 	</p>
 

@@ -240,7 +240,7 @@ GUI frontends for ScummVM.
 	<div class="linklist">
 		<?php
 			addLinkEntry("ScummVM Quick And Easy", "http://quick.mixnmojo.com/", "For Win32.");
-			addLinkEntry("ScummAqua", "http://www.d.kth.se/~d00-ogo/ogosoft/scummaqua/", "For Mac OS X.");
+			addLinkEntry("ScummAqua", "http://www.student.nada.kth.se/~d00-ogo/ogosoft/scummaqua/", "For Mac OS X.");
 		?>
 	</div>
     </div>
