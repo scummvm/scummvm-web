@@ -7,6 +7,7 @@ We are proud to announce the release of ScummVM 0.7.0, right in time for Christm
 </p>
 <p>
 While not quite as ground breaking as some of our previous major releases, this version sports some notable improvements and additions, amongst them:
+</p>
 <ul>
 <li>Added preliminary support for 26 Humongous Entertainment titles
 <li>Added support for FLAC (lossless) encoded audio files
@@ -16,7 +17,6 @@ While not quite as ground breaking as some of our previous major releases, this 
 <li>Added support for compressed speech and music in Broken Sword 1 and 2
 <li>And as usual, we fixed lots and lots of bugs
 </ul>
-</p>
 <p>
 A link to the release notes and a more detailed list of changes can be found over on the <a href="http://www.scummvm.org/downloads.php">downloads page</a>, along with the download links.
 Updating to this latest and greatest version is strongly recommended to all our users.
