@@ -231,7 +231,7 @@ while (list($key,$item) = each($news)) {
 
     $news_date = "";
     if (eregi("<DATE>(.*)</DATE>", $data, $out)) {
-      $news_date = $out[1];
+      $news_date = strtotime($out[1]);
     }
 
     $news_author = "";
@@ -259,7 +259,7 @@ while (list($key,$item) = each($news)) {
 
   echo '<div class="par-item">'.
 	 '<div class="par-head">'.
-	   '<span class="newsdate">'.$news_date."</span>: ".
+	   '<a name="' . date("Y-m-d", $news_date) . '"></a><span class="newsdate">' . date("M. jS, Y", $news_date) . "</span>: ".
            $news_title.
 	 '</div>'.
          '<div class="par-content">'.
