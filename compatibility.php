@@ -203,7 +203,7 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Animation isn't synced during the introduction song",
 "fbear"		=> "Game should be completable, with several glitches".
-		   "<br>- 3DO, DOS and Windows versions supported by this target".
+		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target".
 		   "<br>- Piano sounds aren't correct pitch in DOS version",
 "fbpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
@@ -251,12 +251,12 @@ $notes = array(
 		   "<br>- Animation isn't synced during song".
 		   "<br>- Minor graphical glitches",
 "puttmoon"	=> "No known issues, game is completable.".
-		   "<br>- 3DO, DOS and Windows versions supported by this target",
+		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target",
 "puttcircus"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Magnifying glass doesn't work",
 "puttputt"	=> "No known issues, game is completable.".
-		   "<br>- 3DO, DOS and Windows versions supported by this target",
+		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target",
 "puttzoo"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
