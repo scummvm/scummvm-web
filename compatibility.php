@@ -85,9 +85,9 @@ $gamesHE = array(
 		'Backyard Baseball'							=> array('baseball','20'),
 		'Backyard Football'							=> array('football','80'),
 		'Backyard Soccer'							=> array('soccer','20'),
-		'Blue\'s ABC Time (Demo)'						=> array('BluesABCTimeDemo','90'),
 		'Big Thinkers First Grade'						=> array('thinker1','85'),
 		'Big Thinkers Kindergarten'						=> array('thinkerk','90'),
+		'Blue\'s ABC Time (Demo)'						=> array('BluesABCTimeDemo','90'),
 		'Fatty Bears Birthday Surprise'						=> array('fbear','93'),
 		'Fatty Bears Fun Pack'							=> array('fbpack','95'),
 		'Freddi Fish 1: The Case of the Missing Kelp Seeds'			=> array('freddi','90'),
@@ -194,14 +194,14 @@ $notes = array(
 		   "<br>- PlayStation 1 version doesn't use SCUMM, so will never be supported.".
 		   "<br>- Array out of bounds errors sometimes".
 		   "<br>- Minor graphical glitches",
-"BluesABCTimeDemo" => "Game is playable".
-		   "<br>- Both Macintosh and Windows versions supported by this target",
 "thinker1"	=> "Game is playable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Need to use ESC when car is stuck in the smart star challenge",
 "thinkerk"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Animation isn't synced during the introduction song",
+"BluesABCTimeDemo" => "Game is playable".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "fbear"		=> "Game should be completable, with several glitches".
 		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target".
 		   "<br>- Piano sounds aren't correct pitch in DOS version",
