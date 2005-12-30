@@ -109,12 +109,12 @@ $gamesHE = array(
 		'Putt-Putt Travels Through Time'					=> array('putttime','90'),
 		'Putt-Putt and Pep\'s Balloon-O-Rama'					=> array('balloon','85'),
 		'Putt-Putt and Pep\'s Dog on a Stick'					=> array('dog','85'),
-		'Putt-Putts Fun Pack'							=> array('funpack','95'),
+		'Putt-Putt\'s Fun Pack'							=> array('funpack','95'),
 		'Putt-Putt & Fatty Bear\'s Activity Pack'				=> array('activity','95'),
-		'Spyfox 1: Dry Cereal'							=> array('spyfox','85'),
-		'Spyfox 2: Some Assembly Required'					=> array('spyfox2','90'),
-		'Spyfox 3: Operation Ozone'						=> array('spyozon','60'),
-		'Spy Fox in Cheese Chase Game'						=> array('chase','85'),
+		'Spy Fox 1: Dry Cereal'							=> array('spyfox','85'),
+		'Spy Fox 2: Some Assembly Required'					=> array('spyfox2','90'),
+		'Spy Fox 3: Operation Ozone'						=> array('spyozon','60'),
+		'Spy Fox in Cheese Chase'						=> array('chase','85'),
 		'Spy Fox in Hold the Mustard'						=> array('mustard','85'),
 	      );
 
@@ -126,12 +126,12 @@ $gamesOther = array(
 		'Flight of the Amazon Queen'			       	=> array('queen','98'),
 		'Gobliiins'						=> array('gob1', '90'),
 		'Inherit the Earth'					=> array( 'ite', '87'),
-		'Simon The Sorcerer 1 Talkie'       			=> array('simon1talkie','93'),
- 		'Simon The Sorcerer 1 Talkie (Acorn)'			=> array('simon1acorn','93'),
-		'Simon The Sorcerer 1 (DOS)'           			=> array('simon1dos','93'),
-		'Simon The Sorcerer 1 (Demo)'          			=> array('simon1demo','93'),
-		'Simon The Sorcerer 2 Talkie'       			=> array('simon2talkie','95'),
-		'Simon The Sorcerer 2 (DOS)'           			=> array('simon2dos','95')
+		'Simon the Sorcerer 1 Talkie'       			=> array('simon1talkie','93'),
+ 		'Simon the Sorcerer 1 Talkie (Acorn)'			=> array('simon1acorn','93'),
+		'Simon the Sorcerer 1 (DOS)'           			=> array('simon1dos','93'),
+		'Simon the Sorcerer 1 (Demo)'          			=> array('simon1demo','93'),
+		'Simon the Sorcerer 2 Talkie'       			=> array('simon2talkie','95'),
+		'Simon the Sorcerer 2 (DOS)'           			=> array('simon2dos','95')
 	      );
 
 $notes = array(

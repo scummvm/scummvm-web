@@ -112,12 +112,12 @@ $gamesHE = array(
 		'Putt-Putt Travels Through Time'					=> array('putttime','90'),
 		'Putt-Putt and Pep\'s Balloon-O-Rama'					=> array('balloon','90'),
 		'Putt-Putt and Pep\'s Dog on a Stick'					=> array('dog','90'),
-		'Putt-Putts Fun Pack'							=> array('funpack','95'),
+		'Putt-Putt\'s Fun Pack'							=> array('funpack','95'),
 		'Putt-Putt &amp; Fatty Bear\'s Activity Pack'				=> array('activity','95'),
-		'Spyfox 1: Dry Cereal'							=> array('spyfox','85'),
-		'Spyfox 2: Some Assembly Required'					=> array('spyfox2','90'),
-		'Spyfox 3: Operation Ozone'						=> array('spyozon','70'),
-		'Spy Fox in Cheese Chase Game'						=> array('chase','85'),
+		'Spy Fox 1: Dry Cereal'							=> array('spyfox','85'),
+		'Spy Fox 2: Some Assembly Required'					=> array('spyfox2','90'),
+		'Spy Fox 3: Operation Ozone'						=> array('spyozon','70'),
+		'Spy Fox in Cheese Chase'						=> array('chase','85'),
 		'Spy Fox in Hold the Mustard'						=> array('mustard','85'),
 	      );
 
