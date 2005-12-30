@@ -111,7 +111,12 @@ details.</p>
   </tr>
   <tr>
     <td>Flight of the Amazon Queen</td>
-    <td>QUEEN.1</td>
+    <td>QUEEN.1<br>
+        <a href="http://0x.7fc1.org/fotaq/queen.tbl">queen.tbl</a></td>
+  </tr>
+  <tr>
+    <td>Flight of the Amazon Queen (freeware version)</td>
+    <td>queen.1c</td>
   </tr>
   <tr>
     <td>Freddi Fish 1: The Case of the Missing Kelp Seeds (Demo)</td>
