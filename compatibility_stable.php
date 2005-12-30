@@ -71,7 +71,7 @@ $gamesLucas = array(
 		'The Secret of Monkey Island'				=> array('monkey','95'),
 		'Monkey Island 2: LeChuck\'s revenge'			=> array('monkey2','95'),
 		'Indiana Jones 4 and the Fate of Atlantis'		=> array('atlantis','95'),
-		'Day Of The Tentacle'					=> array('tentacle','95'),
+		'Day of the Tentacle'					=> array('tentacle','95'),
 		'Sam & Max'                                             => array('samnmax','95'),
 		'Full Throttle'						=> array('ft','90'),
 		'The Dig'                                               => array('dig','90'),
@@ -82,9 +82,9 @@ $gamesHE = array(
 		'Backyard Baseball'							=> array('baseball','20'),
 		'Backyard Football'							=> array('football','80'),
 		'Backyard Soccer'							=> array('soccer','20'),
-		'Blue\'s ABC Time (Demo)'						=> array('BluesABCTimeDemo','90'),
 		'Big Thinkers First Grade'						=> array('thinker1','75'),
 		'Big Thinkers Kindergarten'						=> array('thinkerk','80'),
+		'Blue\'s ABC Time (Demo)'						=> array('BluesABCTimeDemo','90'),
 		'Fatty Bears Birthday Surprise'						=> array('fbear','93'),
 		'Fatty Bears Fun Pack'							=> array('fbpack','95'),
 		'Freddi Fish 1: The Case of the Missing Kelp Seeds'			=> array('freddi','90'),
@@ -102,7 +102,7 @@ $gamesHE = array(
 		'Pajama Sam\'s Lost & Found'						=> array('lost','80'),
 		'Pajama Sam\'s Sock Works'						=> array('socks','85'),
 		'Putt-Putt Enters the Race'						=> array('puttrace','90'),
-		'Putt-Putt Goes To The Moon'						=> array('puttmoon','95'),
+		'Putt-Putt Goes to the Moon'						=> array('puttmoon','95'),
 		'Putt-Putt Joins the Circus'						=> array('puttcircus','85'),
 		'Putt-Putt Joins the Parade'						=> array('puttputt','95'),
 		'Putt-Putt Saves the Zoo'						=> array('puttzoo','90'),
@@ -192,19 +192,19 @@ $notes = array(
 		   "<br>- Minor graphical glitches",
 "soccer"	=> "Game is playable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- PlayStation 1 version will never be supported.".
+		   "<br>- PlayStation 1 version doesn't use SCUMM, so will never be supported.".
 		   "<br>- Array out of bounds errors sometimes".
 		   "<br>- Minor graphical glitches",
-"BluesABCTimeDemo" => "Game is playable".
-		   "<br>- Both Macintosh and Windows versions supported by this target",
 "thinker1"	=> "Game is playable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Need to use ESC when car is stuck in the smart star challenge",
 "thinkerk"	=> "Game is playable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
+"BluesABCTimeDemo" => "Game is playable".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "fbear"		=> "Game should be completable, with several glitches".
-		   "<br>- 3DO, DOS and Windows versions supported by this target".
+		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target".
 		   "<br>- Piano sounds aren't correct pitch in DOS version",
 "fbpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
@@ -236,7 +236,7 @@ $notes = array(
 "pajama2"	=> "No known issues, game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "pajama3"	=> "Game is playable but not completable".
-		   "<br>- PlayStation 1 version will never be supported.".
+		   "<br>- PlayStation 1 version doesn't use SCUMM, so will never be supported.".
 		   "<br>- Sprites aren't displayed during Ski Ride".
 		   "<br>- Minor graphical glitches",
 "lost"		=> "Game is completable, with minor glitches".
@@ -249,12 +249,12 @@ $notes = array(
 		   "<br>- Animation isn't synced during song".
 		   "<br>- Minor graphical glitches",
 "puttmoon"	=> "No known issues, game is completable.".
-		   "<br>- 3DO, DOS and Windows versions supported by this target",
+		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target",
 "puttcircus"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Magnifying glass doesn't work",
 "puttputt"	=> "No known issues, game is completable.".
-		   "<br>- 3DO, DOS and Windows versions supported by this target",
+		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target",
 "puttzoo"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
