@@ -19,7 +19,7 @@
 <tr><td style='width:13em; padding:2px;'>Max Horn</td><td style='width:10em; text-align: left;' class='news-author'>Fingolfin</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Travis Howell</td><td style='width:10em; text-align: left;' class='news-author'>Kirben</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Pawe&#322; Ko&#322;odziejski</td><td style='width:10em; text-align: left;' class='news-author'>aquadran</td><td>Codecs, iMUSE, Smush, etc.</td>
-<tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td>FT INSANE</td>
+<tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td>FT INSANE, MM NES, MM C64, game detection, Herc/CGA</td>
 </table>
 <span style='font-weight: bold'>HE:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
@@ -102,7 +102,7 @@
 <span style='font-weight: bold'>SDL (Win/Linux/OS X/etc.):</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Max Horn</td><td style='width:10em; text-align: left;' class='news-author'>Fingolfin</td><td></td>
-<tr><td style='width:13em; padding:2px;'>Random Name</td><td></td><td>TODO: Add yourself if you feel it's appropriate</td>
+<tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td>Asm routines, GFX layers</td>
 </table>
 </div>
 <div class='par-subhead'>Other subsystems</div>
