@@ -109,8 +109,8 @@ $gamesHE = array(
 		'Putt-Putt Travels Through Time'					=> array('putttime','90'),
 		'Putt-Putt and Pep\'s Balloon-O-Rama'					=> array('balloon','85'),
 		'Putt-Putt and Pep\'s Dog on a Stick'					=> array('dog','85'),
-		'Putt-Putt\'s Fun Pack'							=> array('funpack','95'),
 		'Putt-Putt & Fatty Bear\'s Activity Pack'				=> array('activity','95'),
+		'Putt-Putt\'s Fun Pack'							=> array('funpack','95'),
 		'Spy Fox 1: Dry Cereal'							=> array('spyfox','85'),
 		'Spy Fox 2: Some Assembly Required'					=> array('spyfox2','90'),
 		'Spy Fox 3: Operation Ozone'						=> array('spyozon','60'),
@@ -301,12 +301,12 @@ $notes = array(
 		   "<br>- Some versions may require the <a href=\"http://0x.7fc1.org/fotaq/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases.".
 		   "<br>- Amiga version isn't supported.",
 "gob1"		=> "No known issues. Game is completable.".
-		   "<br>- DOS, CD, Amiga, Atari and Macintosh versions are supported by this target".
+		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
 		   "<br>- Macintosh version lacks music",
 "ite"		=> "Game is completable.".
-		   "<br>- DOS Floppy, DOS CD, Win32, old Macintosh, MacOS X and Linux versions are supported by this target".
-		   "<br>- Amiga CD isn't supported".
-		   "<br>- Occasional gfx glitches",
+		   "<br>- DOS, Linux, Macintosh, MacOS X and Windows versions are supported by this target".
+		   "<br>- Amiga versions aren't supported".
+		   "<br>- Occasional graphical glitches",
 "simon1talkie" 	=> "No known issues, game is completable.".
 		   "<br>- Both DOS and Windows versions supported by this target",
 "simon1acorn" 	=> "No known issues, game is completable.",

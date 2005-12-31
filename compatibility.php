@@ -112,8 +112,8 @@ $gamesHE = array(
 		'Putt-Putt Travels Through Time'					=> array('putttime','90'),
 		'Putt-Putt and Pep\'s Balloon-O-Rama'					=> array('balloon','90'),
 		'Putt-Putt and Pep\'s Dog on a Stick'					=> array('dog','90'),
-		'Putt-Putt\'s Fun Pack'							=> array('funpack','95'),
 		'Putt-Putt &amp; Fatty Bear\'s Activity Pack'				=> array('activity','95'),
+		'Putt-Putt\'s Fun Pack'							=> array('funpack','95'),
 		'Spy Fox 1: Dry Cereal'							=> array('spyfox','85'),
 		'Spy Fox 2: Some Assembly Required'					=> array('spyfox2','90'),
 		'Spy Fox 3: Operation Ozone'						=> array('spyozon','70'),
@@ -127,7 +127,7 @@ $gamesOther = array(
 		'Broken Sword 1'			       		=> array('sword1','98'),
 		'Broken Sword 2'			       		=> array('sword2','98'),
 		'Flight of the Amazon Queen'			       	=> array('queen','98'),
-		'Gobliiins'						=> array('gob1', '90'),
+		'Gobliiins'						=> array('gob1', '95'),
 		'Inherit the Earth'					=> array( 'ite', '87'),
 		'Simon the Sorcerer 1'          			=> array('simon1','93'),
 		'Simon the Sorcerer 2'           			=> array('simon2','95')
@@ -299,14 +299,14 @@ $notes = array(
 		   "<br>- PlayStation 1 version isn't supported.",
 "queen"		=> "No known issues, game is completable.".
 		   "<br>- Some versions may require the <a href=\"http://0x.7fc1.org/fotaq/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases.".
-		   "<br>- Amiga version isn't supported.",
+		   "<br>- Amiga versions aren't supported.",
 "gob1"		=> "No known issues. Game is completable.".
-		   "<br>- DOS, CD, Amiga, Atari and Macintosh versions are supported by this target".
-		   "<br>- Macintosh version lacks music",
+		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
+		   "<br>- No music in the Macintosh version",
 "ite"		=> "Game is completable.".
-		   "<br>- DOS Floppy, DOS CD, Win32, old Macintosh, MacOS X and Linux versions are supported by this target".
-		   "<br>- Amiga CD isn't supported".
-		   "<br>- Occasional gfx glitches",
+		   "<br>- DOS, Linux, Macintosh, MacOS X and Windows versions are supported by this target".
+		   "<br>- Amiga versions aren't supported".
+		   "<br>- Occasional graphical glitches",
 "simon1" 	=> "No known issues, game is completable.".
 		   "<br>- Acorn (CD), DOS and Windows versions supported by this target",
 "simon2"        => "No known issues, game is completable.".
