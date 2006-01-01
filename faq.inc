@@ -167,11 +167,11 @@ program to play the game.</p></div></div>
 ScummVM?</p></div>
 <div class="answer">
 <p>You can find it on the download section on our <a href=
-"http://www.scummvm.org" target="_top">homepage</a>. You can
+"http://www.scummvm.org" target="_top">web site</a>. You can
 download the latest version, which could be a little old. For the
 most recent cutting-edge in-development version, you have to
-compile it yourself from CVS or use the 'daily builds' linked from
-our download page.</p></div></div>
+compile it yourself from CVS or use the precompiled 'daily builds' 
+linked from our download page.</p></div></div>
 <div class="qandaentry">
 <div class="question">
 <p><a name="AEN52"></a><b>1.8.</b> How do I compile the source code
@@ -283,10 +283,12 @@ occur again in the future.</p></div></div></div>
 <p><a name="AEN113"></a><b>3.1.</b> Does ScummVM support CD
 audio?</p></div>
 <div class="answer">
-<p>Yes, ScummVM fully supports CD audio in Monkey Island CD, and
-Loom. Just keep your game CD inserted into your CD drive when you
-start ScummVM. If you have more than one CD drive in your system.
-You can specify your CD drive using the -c command line parameter.
+<p>Yes, ScummVM fully supports CD audio in Gobliins (CD), Indiana 
+Jones and the Last Crusade (FM-TOWNS), Loom (CD & FM-TOWNS), Monkey
+Island 1 (CD & SegaCD) and Zak McKracken (FM-TOWNS). Just keep your 
+game CD inserted into your CD drive when you start ScummVM. If you 
+have more than one CD drive in your system. You can specify your CD 
+drive using the -c command line parameter.
 See the <a href=
 "http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD"
    target="_top">README</a> for more info.</p></div></div>
