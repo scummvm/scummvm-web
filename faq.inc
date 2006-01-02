@@ -158,7 +158,7 @@ Game Studio</a> which is a free, albeit closed-source graphics
 adventures engine. There are Windows, Linux and FreeBSD versions of
 the engine. Its author keeps his source code closed due to reasons
 explained in the project <a href=
-"http://www.agsforums.com/acfaq.htm" target="_top">FAQ</a> (see
+"http://www.bigbluecup.com/acfaq.htm" target="_top">FAQ</a> (see
 last two questions). That means that you need to download that
 program to play the game.</p></div></div>
 <div class="qandaentry">
