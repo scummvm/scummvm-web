@@ -285,10 +285,10 @@ audio?</p></div>
 <div class="answer">
 <p>Yes, ScummVM fully supports CD audio in Gobliins (CD), Indiana 
 Jones and the Last Crusade (FM-TOWNS), Loom (CD & FM-TOWNS), Monkey
-Island 1 (CD & SegaCD) and Zak McKracken (FM-TOWNS). Just keep your 
-game CD inserted into your CD drive when you start ScummVM. If you 
-have more than one CD drive in your system. You can specify your CD 
-drive using the -c command line parameter.
+Island 1 (CD, FM-TOWNS & SegaCD) and Zak McKracken (FM-TOWNS). Just 
+keep your game CD inserted into your CD drive when you start ScummVM.
+ If you have more than one CD drive in your system, you can specify 
+your CD drive using the -c command line parameter.
 See the <a href=
 "http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD"
    target="_top">README</a> for more info.</p></div></div>
