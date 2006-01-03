@@ -195,6 +195,7 @@
 <div class='par-subhead-content'>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Stuart Caie</td><td></td><td>Decoders for Simon 1 Amiga data files</td>
+<tr><td style='width:13em; padding:2px;'>Sven Hesse</td><td></td><td>Help with gob engine</td>
 <tr><td style='width:13em; padding:2px;'>Janne Huttunen</td><td></td><td>V3 actor mask support, Dig/FT SMUSH audio</td>
 <tr><td style='width:13em; padding:2px;'>Kov&aacute;cs Endre J&aacute;nos</td><td></td><td>Several fixes for Simon1</td>
 <tr><td style='width:13em; padding:2px;'>Jeroen Janssen</td><td></td><td>Numerous readability and bugfix patches</td>
