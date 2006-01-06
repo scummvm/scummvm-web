@@ -208,7 +208,7 @@ $notes = array(
 "fbpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
 "activity"	=> "No known issues, game is completable.",
-"freddi"	=> "Game is completable, with minor glitches".
+"freddi"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "freddi2"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
