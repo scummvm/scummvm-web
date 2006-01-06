@@ -91,7 +91,7 @@ $gamesHE = array(
 		'Fatty Bears Birthday Surprise'						=> array('fbear','93'),
 		'Fatty Bears Fun Pack'							=> array('fbpack','95'),
 		'Freddi Fish 1: The Case of the Missing Kelp Seeds'			=> array('freddi','90'),
-		'Freddi Fish 2: The Case of the Haunted Schoolhouse'			=> array('freddi2','70'),
+		'Freddi Fish 2: The Case of the Haunted Schoolhouse'			=> array('freddi2','85'),
 		'Freddi Fish 3: The Case of the Stolen Conch Shell'			=> array('freddi3','90'),
 		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'	=> array('freddi4','90'),
 		'Freddi Fish and Luther\'s Maze Madness'				=> array('maze','90'),
@@ -212,9 +212,8 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "freddi2"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Animation isn't synced during songs".
 		   "<br>- Minor graphical glitches",
-"freddi3"	=> "Game is completable, with minor glitches".
+"freddi3"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "freddi4"	=> "No known issues, game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
@@ -248,7 +247,6 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "puttrace"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Animation isn't synced during song".
 		   "<br>- Minor graphical glitches",
 "puttmoon"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target",
