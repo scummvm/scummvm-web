@@ -230,6 +230,7 @@ Smartphone 2003, and Windows Mobile 5 <font class='cat-count'>(1.4M zipfile)</fo
 	  <tr><td class='cat-bullet'><img src='images/cat-bs1.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ITA_AddOn.zip?download">Broken Sword 1 Cutscene Pack (Italian AddOn)</a> <font class='cat-count'>(2.5M) Override files in English Pack with this archive contents</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-bs1.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ESP_AddOn.zip?download">Broken Sword 1 Cutscene Pack (Spanish AddOn)</a> <font class='cat-count'>(2.2M) Override files in English Pack with this archive contents</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-bs2.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_Cutscenes.zip?download">Broken Sword 2 Cutscene Pack (ALL LANGUAGES)</a> <font class='cat-count'>(27.8M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-kyra.png' alt="" /></td><td class='cat-link'><a href="http://cvs.sourceforge.net/viewcvs.py/*checkout*/scummvm/engine-data/kyra.dat">The Legend of Kyrandia, KYRA.DAT - required to run all versions of the game</a> <font class='cat-count'>(60k)</font></td></tr>
 	</table>
 	<p>
 	<i>Having trouble downloading Flight of the Amazon Queen?</i>
