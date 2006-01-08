@@ -319,7 +319,7 @@ $notes = array(
 		   "<br>- Occasional major graphics glitches.".
 		   "<br>- No music or sfx in the game.".
 		   "<br>- Ending credits are missing.".
-		   "<br>- Ingame menus do not work.",
+		   "<br>- Ingame menus do not work."
 );
 		
 // render the compatibility chart
