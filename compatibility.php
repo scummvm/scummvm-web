@@ -128,9 +128,10 @@ $gamesOther = array(
 		'Broken Sword 2'			       		=> array('sword2','98'),
 		'Flight of the Amazon Queen'			       	=> array('queen','98'),
 		'Gobliiins'						=> array('gob1', '95'),
-		'Inherit the Earth'					=> array( 'ite', '87'),
+		'Inherit the Earth'					=> array('ite', '87'),
 		'Simon the Sorcerer 1'          			=> array('simon1','93'),
-		'Simon the Sorcerer 2'           			=> array('simon2','95')
+		'Simon the Sorcerer 2'           			=> array('simon2','95'),
+		'The Legend of Kyrandia'				=> array('kyra1', '55')
 	      );
 
 $notes = array(
@@ -310,7 +311,15 @@ $notes = array(
 "simon2"        => "No known issues, game is completable.".
 		   "<br>- Amiga, DOS, Macintosh and Windows versions supported by this target".
                    "<br>- Only the default language (English) in Amiga &amp; Mactinosh versions is supported".
-                   "<br>- F10 key animation is different in Amiga &amp; Macintosh versions"
+                   "<br>- F10 key animation is different in Amiga &amp; Macintosh versions",
+"kyra1"		=> "Game is completable.".
+		   "<br>- Requires the KYRA.DAT resource file to be placed in the game directory.".
+		   "<br>- DOS Floppy and CD version are supported by this target.".
+		   "<br>- Amiga version is not supported.".
+		   "<br>- Occasional major graphics glitches.".
+		   "<br>- No music or sfx in the game.".
+		   "<br>- Ending credits are missing.".
+		   "<br>- Ingame menus do not work.",
 );
 		
 // render the compatibility chart
