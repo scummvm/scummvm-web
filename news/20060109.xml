@@ -1,0 +1,15 @@
+<NAME>Basic support for The Legend of Kyrandia</NAME>
+<DATE>Jan. 9th, 2006</DATE>
+<AUTHOR>Vinterstum</AUTHOR>
+<BODY>
+<p>
+At long last, <a href="http://www.scummvm.org/downloads.php#CVS">ScummVM CVS</a> now has basic support 
+for The Legend of Kyrandia by Westwood Studios. The game is fully completable, but lacks music, 
+sound effects and a menu system (for now). Please refer to section 3.8 of the 
+<a href="http://cvs.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/README">README</a> for more 
+information, and to the <a href="http://www.scummvm.org/downloads.php">Downloads</a> section for the 
+necessary datafile. All bugs should be reported to our <a href="http://sourceforge.net/tracker/?group_id=37116&atid=418820">
+bug tracker</a>, please see section 4.10 of the <a href="http://scummvm.org/faq.php#question.report-bugs">FAQ</a> for
+instructions.
+</p>
+</BODY>
