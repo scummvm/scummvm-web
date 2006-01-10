@@ -57,6 +57,7 @@
 </table>
 <span style='font-weight: bold'>Kyra:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Oystein Eftevaag</td><td style='width:10em; text-align: left;' class='news-author'>vinterstum</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Gregory Montoir</td><td style='width:10em; text-align: left;' class='news-author'>cyx</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Johannes Schickel</td><td style='width:10em; text-align: left;' class='news-author'>LordHoto</td><td></td>
 </table>
