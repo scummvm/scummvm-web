@@ -317,7 +317,7 @@ $notes = array(
 		   "<br>- DOS Floppy and CD version are supported by this target.".
 		   "<br>- Amiga version is not supported.".
 		   "<br>- Occasional major graphics glitches.".
-		   "<br>- No music or sfx in the game.".
+		   "<br>- Music and sfx do not work properly.".
 		   "<br>- Ending credits are missing.".
 		   "<br>- Ingame menus do not work."
 );
