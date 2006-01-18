@@ -199,9 +199,9 @@ $HE_demos = array(
 	);
 
 $MISC_demos = array(
-	'Broken Sword 1'
+	'Broken Sword 1 - The Shadow of the Templars'
 		=> array('http://www.gamershell.com/download_4731.shtml', 'sword1demo'),
-	'Broken Sword 2'
+	'Broken Sword 2 - The Smoking Mirror'
 		=> array('http://ftp.se.kde.org/pub/pc/games/pcgameworld/demos/bs2-demo.zip', 'sword2demo'),
 	'Flight of the Amazon Queen (Datafile only)'
 		=> array('http://0x.7fc1.org/fotaq/fotaq_demo.zip', 'queen'),
@@ -209,7 +209,7 @@ $MISC_demos = array(
 		=> array('http://0x.7fc1.org/fotaq/fotaq_demo_pcgames.zip', 'queen'),
 	'Gobliiins'
 		=> array('http://minifiles.ag.ru/demos/448/gobliiins_demo.exe', 'gob1'),
-	'Inherit the Earth demos'
+	'Inherit the Earth: Quest for the Orb demos'
 		=> array('http://www.wyrmkeep.com/ite/download.html', 'ite-demo'),
 	'Legend of Kyrandia (Non-interactive)'
 		=> array('http://quick.mixnmojo.com/demos/kyra1demo.zip', 'kyra1'),

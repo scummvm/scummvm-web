@@ -121,11 +121,11 @@ $gamesHE = array(
 $gamesOther = array(
 
 		'Beneath a Steel Sky'			       		=> array('sky','98'),
-		'Broken Sword 1'			       		=> array('sword1','98'),
-		'Broken Sword 2'			       		=> array('sword2','98'),
+		'Broken Sword 1 - The Shadow of the Templars'  		=> array('sword1','98'),
+		'Broken Sword 2 - The Smoking Mirror'	       		=> array('sword2','98'),
 		'Flight of the Amazon Queen'			       	=> array('queen','98'),
 		'Gobliiins'						=> array('gob1', '90'),
-		'Inherit the Earth'					=> array( 'ite', '87'),
+		'Inherit the Earth: Quest for the Orb'			=> array( 'ite', '87'),
 		'Simon the Sorcerer 1 Talkie'       			=> array('simon1talkie','93'),
  		'Simon the Sorcerer 1 Talkie (Acorn)'			=> array('simon1acorn','93'),
 		'Simon the Sorcerer 1 (DOS)'           			=> array('simon1dos','93'),

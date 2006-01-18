@@ -17,7 +17,7 @@ details.</p>
 	<a href="http://www.scummvm.org/SKY.CPT">SKY.CPT</a></td>
   </tr>
   <tr>
-    <td>Broken Sword 1</td>
+    <td>Broken Sword 1 - The Shadow of the Templars</td>
     <td>*.clu<br>
       swordres.rif<br>
       MUSIC folder<br>
@@ -26,7 +26,7 @@ details.</p>
       Rename speech.clu on CD2 to speech2.clu</td>
   </tr>
   <tr>
-    <td>Broken Sword 2</td>
+    <td>Broken Sword 2 - The Smoking Mirror</td>
     <td>*.clu<br>
       *.inf<br>
       *.tab<br>
@@ -325,7 +325,7 @@ details.</p>
     <td>*.LFL</td>
   </tr>
   <tr>
-    <td>Inherit the Earth (Win Demo, MacOS X Demo, Linux Demo, Floppy,
+    <td>Inherit the Earth: Quest for the Orb (Win Demo, MacOS X Demo, Linux Demo, Floppy,
        DOS CD, Win32, MacOS X, Linux)</td>
     <td>*.rsc<br>
       *.bbm (if exists)<br>
@@ -337,7 +337,7 @@ details.</p>
       Inherit the Earth Voices (for MacOS X version)</td>
   </tr>
   <tr>
-    <td>Inherit the Earth (Old MacOS9 CD)</td>
+    <td>Inherit the Earth: Quest for the Orb (Old MacOS9 CD)</td>
     <td>ITE Music.bin<br>
       ITE Resources.bin<br>
       ITE Scripts.bin<br>

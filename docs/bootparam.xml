@@ -55,16 +55,16 @@ Help here is welcome -- if you want, feel free to fill in some of the gaps and
 
 <ul>
 <li><a href="#monkey">The Secret of Monkey Island</a></li>
-<li><a href="#monkey2">Monkey Island 2: LeChuck's revenge</a></li>
-<li><a href="#comi">Curse of Monkey Island</a></li>
+<li><a href="#monkey2">Monkey Island 2: LeChuck's Revenge</a></li>
+<li><a href="#comi">The Curse of Monkey Island</a></li>
 <li><a href="#atlantis">Indiana Jones and the Fate of Atlantis</a></li>
-<li><a href="#samnmax">Sam &amp; Max</a></li>
-<li><a href="#tentacle">Day Of The Tentacle</a></li>
+<li><a href="#samnmax">Sam &amp; Max Hit the Road</a></li>
+<li><a href="#tentacle">Day of the Tentacle</a></li>
 <li><a href="#ft">Full Throttle</a></li>
 <li><a href="#digDemo">The Dig Demo</a></li>
-<li><a href="#sword1">Broken Sword 1</a></li>
-<li><a href="#sword2">Broken Sword 2</a></li>
-<li><a href="#ite">Inherit the Earth</a></li>
+<li><a href="#sword1">Broken Sword 1 - The Shadow of the Templars</a></li>
+<li><a href="#sword2">Broken Sword 2 - The Smoking Mirror</a></li>
+<li><a href="#ite">Inherit the Earth: Quest for the Orb</a></li>
 <!-- <li><a href="#TARGET">FOO</a></li> -->
 </ul>
 
@@ -266,7 +266,7 @@ and cause the game to start in that room.
 
 
 <br><a name="comi"></a>
-<h2>Curse of Monkey Island</h2>
+<h2>The Curse of Monkey Island</h2>
 
 <table border="1" cellspacing="0" cellpadding="2">
 <tr><th>Param</th><th>Description</th></tr>
@@ -567,7 +567,7 @@ and cause the game to start in that room.
 
 
 <br><a name="samnmax"></a>
-<h2>Sam &amp; Max</h2>
+<h2>Sam &amp; Max Hit the Road</h2>
 
 <table border="1" cellspacing="0" cellpadding="2">
 <tr><th>Param</th><th>Description</th></tr>
@@ -622,7 +622,7 @@ and cause the game to start in that room.
 </table>
 
 <br><a name="tentacle"></a>
-<h2>Day Of The Tentacle</h2>
+<h2>Day of the Tentacle</h2>
 
 <p>The following list was contributed by Spencer Travers. Thanks a lot, Spencer!</p>
 
@@ -785,7 +785,7 @@ and cause the game to start in that room.
 
 
 <br><a name="sword1"></a>
-<h2>Broken Sword 1</h2>
+<h2>Broken Sword 1 - The Shadow of the Templars</h2>
 
 <table border="1" cellspacing="0" cellpadding="2">
 <tr><th>Param</th><th>Description</th></tr>
@@ -855,7 +855,7 @@ and cause the game to start in that room.
 
 
 <br><a name="sword2"></a>
-<h2>Broken Sword 2</h2>
+<h2>Broken Sword 2 - The Smoking Mirror</h2>
 
 <p>Broken Sword 2 handles boot params slightly differently. The startup.inf
 file contains a list of script resources. For each of these, the game will run
@@ -964,7 +964,7 @@ themselves as starting points.</p>
 
 
 <br><a name="ite"></a>
-<h2>Inherit the Earth</h2>
+<h2>Inherit the Earth: Quest for the Orb</h2>
 
 <p>Originally Inherit the Earth didn't have any bootparams, but each scene in
 it has pre-script which does all necessary preparations. In ScummVM bootparam jumps
