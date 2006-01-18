@@ -37,7 +37,7 @@ details.</p>
       Rename speech.clu on CD2 to speech2.clu</td>
   </tr>
   <tr>
-    <td>Curse of Monkey Island</td>
+    <td>Curse of Monkey Island, The</td>
     <td>RESOURCE folder<br>
       COMI.LA0<br>
       COMI.LA1<br>
@@ -45,7 +45,7 @@ details.</p>
   </tr>
   <tr>
     <td>Day of the Tentacle (Macintosh CD)</td>
-    <td>Day Of The Tentacle Data</td>
+    <td>Day of the Tentacle Data</td>
   </tr>
   <tr>
     <td>Day of the Tentacle (Macintosh Demo)</td>
@@ -58,7 +58,7 @@ details.</p>
       TENTACLE.001</td>
   </tr>
   <tr>
-    <td>Day Of The Tentacle (PC Demo)</td>
+    <td>Day of the Tentacle (PC Demo)</td>
     <td>DOTTDEMO.000<br>
       DOTTDEMO.001<br>
       MONSTER.SOU</td>
@@ -88,6 +88,19 @@ details.</p>
       dig.la1</td>
   </tr>
   <tr>
+    <td>Fatty Bear's Birthday Surprise (DOS Demo)</td>
+    <td>fbdemo.he0<br>
+      fbdemo.he1<br>
+      fbdemo.tlk</td>
+  </tr>
+  <tr>
+    <td>Fatty Bear's Birthday Surprise (DOS)</td>
+    <td>FBEAR.HE0<br>
+      FBEAR.HE1<br>
+      FBEAR.SNG<br>
+      FBEAR.TLK</td>
+  </tr>
+  <tr>
     <td>Fatty Bear's Fun Pack</td>
     <td>FBPACK.C*<br>
         FBPACK.HE0<br>
@@ -97,25 +110,12 @@ details.</p>
 	FBPACK.TLK</td>
   </tr>
   <tr>
-    <td>Fatty Bears Birthday Surprise (DOS Demo)</td>
-    <td>fbdemo.he0<br>
-      fbdemo.he1<br>
-      fbdemo.tlk</td>
-  </tr>
-  <tr>
-    <td>Fatty Bears Birthday Surprise (DOS)</td>
-    <td>FBEAR.HE0<br>
-      FBEAR.HE1<br>
-      FBEAR.SNG<br>
-      FBEAR.TLK</td>
-  </tr>
-  <tr>
     <td>Flight of the Amazon Queen</td>
     <td>QUEEN.1<br>
         <a href="http://0x.7fc1.org/fotaq/queen.tbl">queen.tbl</a></td>
   </tr>
   <tr>
-    <td>Flight of the Amazon Queen (freeware version)</td>
+    <td>Flight of the Amazon Queen (Freeware version)</td>
     <td>queen.1c</td>
   </tr>
   <tr>
@@ -175,21 +175,6 @@ details.</p>
       FREDDI4.(A)<br>
       FREDDI4.HE2<br>
       FREDDI4.HE4</td>
-  </tr>
-  <tr>
-    <td>Freddi Fish 5: The Case of the Creature of Coral Cave (Demo)</td>
-    <td>FF5Demo.HE0<br>
-      FF5Demo.(a)<br>
-      FF5Demo.he2<br>
-      FF5Demo.he4</td>
-  </tr>
-  <tr>
-    <td>Freddi Fish 5: The Case of the Creature of Coral Cave</td>
-    <td>freddicove.HE0<br>
-      freddicove.(a)<br>
-      freddicove.he2<br>
-      FreddiCove.he3<br>
-      freddicove.he4</td>
   </tr>
   <tr>
     <td>Freddi Fish and Luther's Maze Madness</td>
@@ -336,7 +321,7 @@ details.</p>
   </tr>
   <tr>
     <td>Indiana Jones and the Last Crusade (Amiga, FM-TOWNS**, 
-      PC EGA or PC 256 color)</td>
+      Macintosh, PC EGA or PC 256 color)</td>
     <td>*.LFL</td>
   </tr>
   <tr>
@@ -446,7 +431,7 @@ details.</p>
       JUNGLE.HE9</td>
   </tr>
   <tr>
-    <td>Loom (Amiga, FM-TOWNS** or PC EGA, or PC Demo)</td>
+    <td>Loom (Amiga, FM-TOWNS**, Macintosh, PC EGA, PC Demo)</td>
     <td>*.LFL</td>
   </tr>
   <tr>
@@ -459,7 +444,7 @@ details.</p>
     <td>*.LFL</td>
   </tr>
   <tr>
-    <td>Monkey Island 2 - LeChuck's revenge (Amiga)</td>
+    <td>Monkey Island 2 - LeChuck's Revenge (Amiga)</td>
     <td>amiga*.ims<br>
       monkey2.000<br>
       monkey2.001<br>
@@ -475,12 +460,12 @@ details.</p>
       monkey2.011</td>
   </tr>
   <tr>
-    <td>Monkey Island 2 - LeChuck's revenge (PC)</td>
+    <td>Monkey Island 2 - LeChuck's Revenge (PC)</td>
     <td>MONKEY2.000<br>
       MONKEY2.001</td>
   </tr>
   <tr>
-    <td>Monkey Island 2 - LeChuck's revenge (Demo)</td>
+    <td>Monkey Island 2 - LeChuck's Revenge (Demo)</td>
     <td>DEMO.REC<br>
       MI2DEMO.000<br>
       MI2DEMO.001<br>
@@ -570,22 +555,17 @@ details.</p>
       PUTTRACE.HE4</td>
   </tr>
   <tr>
-    <td>Putt-Putt Joins The Parade (DOS Demo)</td>
-    <td>puttdemo.he0<br>
-      puttdemo.he1<br>
-      puttdemo.tlk</td>
-  </tr>
-  <tr>
-    <td>Putt-Putt Joins The Parade (DOS)</td>
-    <td>PUTTPUTT.HE0<br>
-      PUTTPUTT.HE1<br>
-      PUTTPUTT.TLK</td>
-  </tr>
-  <tr>
-    <td>Putt-Putt Goes To The Moon (DOS Demo)&nbsp;</td>
+    <td>Putt-Putt Goes to the Moon (DOS Demo)&nbsp;</td>
     <td>moondemo.he0<br>
       moondemo.he1<br>
       moondemo.tlk</td>
+  </tr>
+  <tr>
+    <td>Putt-Putt Goes to the Moon (DOS)&nbsp;</td>
+    <td>PUTTMOON.BRS<br>
+      PUTTMOON.HE0<br>
+      PUTTMOON.HE1<br>
+      PUTTMOON.TLK</td>
   </tr>
   <tr>
     <td>Putt-Putt Joins the Circus (Demo)</td>
@@ -600,6 +580,18 @@ details.</p>
       PUTTCIRCUS.(A)<br>
       PUTTCIRCUS.HE2<br>
       PUTTCIRCUS.HE4</td>
+  </tr>
+  <tr>
+    <td>Putt-Putt Joins the Parade (DOS Demo)</td>
+    <td>puttdemo.he0<br>
+      puttdemo.he1<br>
+      puttdemo.tlk</td>
+  </tr>
+  <tr>
+    <td>Putt-Putt Joins the Parade (DOS)</td>
+    <td>PUTTPUTT.HE0<br>
+      PUTTPUTT.HE1<br>
+      PUTTPUTT.TLK</td>
   </tr>
   <tr>
     <td>Putt-Putt Saves the Zoo (Demo)</td>
@@ -633,13 +625,6 @@ details.</p>
       PuttTTT.HE4</td>
   </tr>
   <tr>
-    <td>Putt-Putt Goes To The Moon (DOS)&nbsp;</td>
-    <td>PUTTMOON.BRS<br>
-      PUTTMOON.HE0<br>
-      PUTTMOON.HE1<br>
-      PUTTMOON.TLK</td>
-  </tr>
-  <tr>
     <td>Putt-Putt and Pep's Balloon-O-Rama</td>
     <td>balloon.HE0<br>
       BALLOON.HE1<br>
@@ -659,27 +644,27 @@ details.</p>
       DOG.HE8</td>
   </tr>
   <tr>
-    <td>Sam and Max (Macintosh CD)</td>
+    <td>Sam &amp; Max Hit the Road (Macintosh CD)</td>
     <td>Sam & Max Data</td>
   </tr>
   <tr>
-    <td>Sam and Max (Macintosh Demo)</td>
+    <td>Sam &amp; Max Hit the Road (Macintosh Demo)</td>
     <td>Sam & Max Demo Data</td>
   </tr>
   <tr>
-    <td>Sam and Max (PC Floppy)</td>
+    <td>Sam &amp; Max Hit the Road (PC Floppy)</td>
     <td>MONSTER.SOU<br>
       SAMNMAX.SM0<br>
       SAMNMAX.SM1</td>
   </tr>
   <tr>
-    <td>Sam and Max (PC CD)</td>
+    <td>Sam &amp; Max Hit the Road (PC CD)</td>
     <td>MONSTER.SOU<br>
       SAMNMAX.000<br>
       SAMNMAX.001</td>
   </tr>
   <tr>
-    <td>Sam &amp; Max (PC Demo)</td>
+    <td>Sam &amp; Max Hit the Road (PC Demo)</td>
     <td>samdemo.000<br>
       samdemo.001</td>
   </tr>
@@ -824,28 +809,28 @@ details.</p>
       tbllist</td>
   </tr>
   <tr>
-    <td>Spyfox 1: Dry Cereal (Demo)</td>
+    <td>Spy Fox 1: Dry Cereal (Demo)</td>
     <td>SPYFOX.HE0<br>
       SPYFOX.HE1<br>
       SPYFOX.HE2<br>
       SPYFOX.HE4</td>
   </tr>
   <tr>
-    <td>Spyfox 1: Dry Cereal</td>
+    <td>Spy Fox 1: Dry Cereal</td>
     <td>SPYFOX.HE0<br>
       SPYFOX.(A)<br>
       SPYFOX.HE2<br>
       SPYFOX.HE4</td>
   </tr>
   <tr>
-    <td>Spyfox 2: Some Assembly Required (Demo)</td>
+    <td>Spy Fox 2: Some Assembly Required (Demo)</td>
     <td>SF2-DEMO.HE0<br>
       SF2-DEMO.(A)<br>
       SF2-DEMO.he2<br>
       SF2-DEMO.HE4</td>
   </tr>
   <tr>
-    <td>Spyfox 2: Some Assembly Required</td>
+    <td>Spy Fox 2: Some Assembly Required</td>
     <td>SPYFOX2.HE0<br>
       SPYFOX2.(A)<br>
       SPYFOX2.HE2<br>
@@ -853,7 +838,7 @@ details.</p>
       SPYFOX2.he9</td>
   </tr>
   <tr>
-    <td>Spyfox 3: Operation Ozone (Demo)</td>
+    <td>Spy Fox 3: Operation Ozone (Demo)</td>
     <td>SPYOZON.HE0<br>
       SPYOZON.(A)<br>
       SPYOZON.HE2<br>
@@ -861,7 +846,7 @@ details.</p>
       SPYOZON.HE4</td>
   </tr>
   <tr>
-    <td>Spyfox 3: Operation Ozone</td>
+    <td>Spy Fox 3: Operation Ozone</td>
     <td>SF3-DEMO.HE0<br>
       SF3-DEMO.(A)<br>
       SF3-DEMO.HE2<br>
@@ -869,7 +854,7 @@ details.</p>
       SF3-DEMO.HE4</td>
   </tr>
   <tr>
-    <td>Spy Fox in Cheese Chase Game</td>
+    <td>Spy Fox in Cheese Chase</td>
     <td>Custom folder<br>
       Levels folder<br>
       CHASE.HE0<br>

@@ -91,15 +91,15 @@ $LEC_demos = array(
 		=> array('http://www.cowlark.com/scumm.dat/mi2demo.zip', 'monkey2'),
 	'Passport to Adventure (16 colour demos of mi, loom, indy3)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Sampler.zip', 'pass'),
-	'Sam and Max Hit the Road (DOS demo - Non interactive)'
+	'Sam &amp; Max Hit the Road (DOS demo - Non interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/samdemo.zip', 'samnmax'),
-	'Sam and Max Hit the Road (Macintosh demo - Interactive)'
+	'Sam &amp; Max Hit the Road (Macintosh demo - Interactive)'
 		=> array('http://quick.mixnmojo.com/demos/samdemo_mac.zip', 'samnmax'),
-	'Sam and Max Hit the Road (DOS demo - Interactive)'
+	'Sam &amp; Max Hit the Road (DOS demo - Interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Snmdemo.zip', 'samnmax'),
-	'Sam and Max Hit the Road (German DOS demo - Interactive)'
+	'Sam &amp; Max Hit the Road (German DOS demo - Interactive)'
 		=> array('http://quick.mixnmojo.com/demos/sdemo-de.zip', 'samnmax'),
-	'Sam and Max Hit the Road WIP (DOS demo - Interactive)'
+	'Sam &amp; Max Hit the Road WIP (DOS demo - Interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/snmidemo.zip', 'samnmax'),
 	'The Curse of Monkey Island (Windows demo)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/cursedemo.exe', 'comi'),
@@ -160,6 +160,14 @@ $HE_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/pj3demo-uk.zip', 'pajama3'),
 	'Pajama Sam\'s Lost & Found (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/losttest.zip', 'lost'),
+	'Putt-Putt Enters the Race (Demo)'
+		=> array('ftp://ftp.humongous.com/humongous/puttraceDemo/puttrace.exe', 'puttrace'),
+	'Putt-Putt Enters the Race (Dutch Demo)'
+		=> array('http://quick.mixnmojo.com/demos/500demo-nl.zip', 'puttrace'),
+	'Putt-Putt Enters the Race (German Demo)'
+		=> array('http://quick.mixnmojo.com/demos/rennen-de.zip', 'puttrace'),
+	'Putt-Putt Enters the Race (UK Demo)'
+		=> array('http://quick.mixnmojo.com/demos/racedemo-uk.zip', 'puttrace'),
 	'Putt-Putt Goes to the Moon (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/moondemo.zip', 'puttmoon'),
 	'Putt-Putt Joins the Circus (Demo)'
@@ -172,29 +180,21 @@ $HE_demos = array(
 		=> array('ftp://ftp.humongous.com/humongous/putttime.zip', 'putttime'),
 	'Putt-Putt Travels Through Time (French Demo)'
 		=> array('http://quick.mixnmojo.com/demos/tempdemo-fr.zip', 'putttime'),
-	'Putt-Putt Enters the Race (Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/puttraceDemo/puttrace.exe', 'puttrace'),
-	'Putt-Putt Enters the Race (Dutch Demo)'
-		=> array('http://quick.mixnmojo.com/demos/500demo-nl.zip', 'puttrace'),
-	'Putt-Putt Enters the Race (German Demo)'
-		=> array('http://quick.mixnmojo.com/demos/rennen-de.zip', 'puttrace'),
-	'Putt-Putt Enters the Race (UK Demo)'
-		=> array('http://quick.mixnmojo.com/demos/racedemo-uk.zip', 'puttrace'),
-	'Spyfox 1: Dry Cereal (Demo)'
+	'Spy Fox 1: Dry Cereal (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/FOX95d.EXE', 'spyfox'),
-	'Spyfox 1: Dry Cereal (Alternative Demo)'
+	'Spy Fox 1: Dry Cereal (Alternative Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/spy95_98.zip', 'spyfox'),
-	'Spyfox 1: Dry Cereal (Dutch Demo)'
+	'Spy Fox 1: Dry Cereal (Dutch Demo)'
 		=> array('http://quick.mixnmojo.com/demos/spydemo-nl.zip', 'spyfox'),
-	'Spyfox 1: Dry Cereal (French Demo)'
+	'Spy Fox 1: Dry Cereal (French Demo)'
 		=> array('http://quick.mixnmojo.com/demos/jamesdem-fr.zip', 'spyfox'),
-	'Spyfox 2: Some Assembly Required (Demo)'
+	'Spy Fox 2: Some Assembly Required (Demo)'
 		=> array('http://quick.mixnmojo.com/demos/sf2-demo.rar', 'spyfox2'),
-	'Spyfox 2: Some Assembly Required (German Demo)'
+	'Spy Fox 2: Some Assembly Required (German Demo)'
 		=> array('http://quick.mixnmojo.com/demos/sf2demo-de.zip', 'spyfox2'),
-	'Spyfox 2: Some Assembly Required (UK Demo)'
+	'Spy Fox 2: Some Assembly Required (UK Demo)'
 		=> array('http://quick.mixnmojo.com/demos/sf2demo-uk.zip', 'spyfox2'),
-	'Spyfox 3: Operation Ozone (Demo)'
+	'Spy Fox 3: Operation Ozone (Demo)'
 		=> array('http://quick.mixnmojo.com/demos/sf3-demo.rar', 'spyozon')
 	);
 
