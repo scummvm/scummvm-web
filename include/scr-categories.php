@@ -93,11 +93,11 @@ $cat->add(4, "cat-simon1.png", "Simon the Sorcerer series");
 $cat = & new category(1, "Humongous Entertainment games");
 $cat->add(0, "cat-1stgrade.png", "Big Thinkers series");
 $cat->add(1, "cat-airport.png", "Buzzy series");
-$cat->add(3, "cat-spyfox1.png", "Spy Fox series");
 $cat->add(4, "cat-fbear.png", "Fatty Bear series");
 $cat->add(6, "cat-freddi1.png", "Freddi Fish series");
 $cat->add(5, "cat-baseball.png", "Junior Sports series");
 $cat->add(7, "cat-pajama1.png", "Pajama Sam series");
 $cat->add(8, "cat-puttrace.png", "Putt-Putt series");
+$cat->add(3, "cat-spyfox1.png", "Spy Fox series");
 
 ?>
