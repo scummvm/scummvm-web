@@ -67,24 +67,24 @@ class category {
 $cat = & new category(0, "LucasArts games");
 
 $cat->add(0, "cat-maniac.png", "Maniac Mansion");
-$cat->add(1, "cat-zak.png", "Zak McKracken");
+$cat->add(1, "cat-zak.png", "Zak McKracken and the Alien Mindbenders");
 $cat->add(2, "cat-indy3.png", "Indiana Jones and the Last Crusade");
 $cat->add(3, "cat-indy4.png", "Indiana Jones and the Fate of Atlantis");
 $cat->add(4, "cat-monkey1.png", "The Secret of Monkey Island");
 $cat->add(5, "cat-monkey2.png", "Monkey Island 2: Le Chuck's Revenge");
 $cat->add(6, "cat-loom.png", "Loom");
-$cat->add(7, "cat-samnmax.png", "Sam &amp; Max");
-$cat->add(8, "cat-tentacle.png", "The Day of the Tentacle");
+$cat->add(7, "cat-samnmax.png", "Sam &amp; Max Hit the Road ");
+$cat->add(8, "cat-tentacle.png", "Day of the Tentacle");
 $cat->add(9, "cat-ft.png", "Full Throttle");
 $cat->add(10, "cat-dig.png", "The Dig");
-$cat->add(11, "cat-comi.png", "Curse of Monkey Island");
+$cat->add(11, "cat-comi.png", "The Curse of Monkey Island");
 
 // Other games
 $cat = & new category(2, "Other games");
 $cat->add(5, "cat-sky.png", "Beneath a Steel Sky");
 $cat->add(0, "cat-bs1.png", "Broken Sword series");
 $cat->add(3, "cat-queen.png", "The Flight of the Amazon Queen");
-$cat->add(1, "cat-gob1.png", "Goblins series");
+$cat->add(1, "cat-gob1.png", "Gobliins series");
 $cat->add(2, "cat-ite.png", "Inherit the Earth: Quest for the Orb");
 $cat->add(6, "cat-kyra.png", "The Legend of Kyrandia");
 $cat->add(4, "cat-simon1.png", "Simon the Sorcerer series");
