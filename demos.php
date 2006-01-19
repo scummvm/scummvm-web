@@ -211,7 +211,7 @@ $MISC_demos = array(
 		=> array('http://minifiles.ag.ru/demos/448/gobliiins_demo.exe', 'gob1'),
 	'Inherit the Earth: Quest for the Orb demos'
 		=> array('http://www.wyrmkeep.com/ite/download.html', 'ite-demo'),
-	'Legend of Kyrandia (Non-interactive)'
+	'The Legend of Kyrandia (Non-interactive)'
 		=> array('http://quick.mixnmojo.com/demos/kyra1demo.zip', 'kyra1'),
 	'Simon the Sorcerer 1 (DOS demo)'
 		=> array('http://www.cowlark.com/scumm.dat/simon1demo.zip', 'simon1'),

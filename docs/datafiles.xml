@@ -345,7 +345,7 @@ details.</p>
       ITE Voices.bin (all files should be in MacBinary format)</td>
   </tr>
   <tr>
-    <td>Legend of Kyrandia (PC Floppy)</td>
+    <td>Legend of Kyrandia, The (PC Floppy)</td>
     <td>*.COL<br>
         *.CPS<br>
 	*.DAT<br>
@@ -358,7 +358,7 @@ details.</p>
 	<a href="http://cvs.sourceforge.net/viewcvs.py/*checkout*/scummvm/engine-data/kyra.dat">kyra.dat</a></td>
   </tr>
   <tr>
-    <td>Legend of Kyrandia (PC CD)</td>
+    <td>Legend of Kyrandia, The (PC CD)</td>
     <td>*.APK<br>
       *.CPS<br>
       *.PAK<br>
@@ -366,7 +366,7 @@ details.</p>
       <a href="http://cvs.sourceforge.net/viewcvs.py/*checkout*/scummvm/engine-data/kyra.dat">kyra.dat</a></td>
   </tr>
   <tr>
-    <td>Legend of Kyrandia (Demo)</td>
+    <td>Legend of Kyrandia, The (Demo)</td>
     <td>8FAT.FNT<br>
       BOTTOM.CPS<br>
       DEMO1.COL<br>
