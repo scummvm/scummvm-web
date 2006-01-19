@@ -199,9 +199,9 @@ $HE_demos = array(
 	);
 
 $MISC_demos = array(
-	'Broken Sword 1 - The Shadow of the Templars'
+	'Broken Sword 1: The Shadow of the Templars'
 		=> array('http://www.gamershell.com/download_4731.shtml', 'sword1demo'),
-	'Broken Sword 2 - The Smoking Mirror'
+	'Broken Sword 2: The Smoking Mirror'
 		=> array('http://ftp.se.kde.org/pub/pc/games/pcgameworld/demos/bs2-demo.zip', 'sword2demo'),
 	'Flight of the Amazon Queen (Datafile only)'
 		=> array('http://0x.7fc1.org/fotaq/fotaq_demo.zip', 'queen'),
