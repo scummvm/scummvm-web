@@ -86,7 +86,7 @@ $cat->add(0, "cat-bs1.png", "Broken Sword series");
 $cat->add(3, "cat-queen.png", "Flight of the Amazon Queen");
 $cat->add(1, "cat-gob1.png", "Gobliiins series");
 $cat->add(2, "cat-ite.png", "Inherit the Earth: Quest for the Orb");
-$cat->add(6, "cat-kyra.png", "Legend of Kyrandia series");
+$cat->add(6, "cat-kyra.png", "The Legend of Kyrandia series");
 $cat->add(4, "cat-simon1.png", "Simon the Sorcerer series");
 
 // HE games
