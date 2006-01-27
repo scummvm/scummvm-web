@@ -197,11 +197,13 @@
 <div class='par-subhead-content'>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Stuart Caie</td><td></td><td>Decoders for Simon 1 Amiga data files</td>
+<tr><td style='width:13em; padding:2px;'>Paolo Costabel</td><td></td><td>PSP port contributions</td>
 <tr><td style='width:13em; padding:2px;'>Janne Huttunen</td><td></td><td>V3 actor mask support, Dig/FT SMUSH audio</td>
 <tr><td style='width:13em; padding:2px;'>Kov&aacute;cs Endre J&aacute;nos</td><td></td><td>Several fixes for Simon1</td>
 <tr><td style='width:13em; padding:2px;'>Jeroen Janssen</td><td></td><td>Numerous readability and bugfix patches</td>
 <tr><td style='width:13em; padding:2px;'>Andreas Karlsson</td><td style='width:10em; text-align: left;' class='news-author'>Sprawl</td><td>Initial port for EPOC/SymbianOS</td>
 <tr><td style='width:13em; padding:2px;'>Claudio Matsuoka</td><td></td><td>Daily Linux builds</td>
+<tr><td style='width:13em; padding:2px;'>Thomas Mayer</td><td></td><td>PSP port contributions</td>
 <tr><td style='width:13em; padding:2px;'>Mikesch Nepomuk</td><td></td><td>MI1 VGA floppy patches</td>
 <tr><td style='width:13em; padding:2px;'>Nicolas Noble</td><td style='width:10em; text-align: left;' class='news-author'>pixels</td><td>Config file and ALSA support</td>
 <tr><td style='width:13em; padding:2px;'>???</td><td style='width:10em; text-align: left;' class='news-author'>Quietust</td><td>Sound support for Amiga SCUMM V2/V3 games, MM NES support</td>
