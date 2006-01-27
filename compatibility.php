@@ -193,7 +193,6 @@ $notes = array(
 "soccer"	=> "Game isn't playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- PlayStation 1 version doesn't use SCUMM, so will never be supported.".
-		   "<br>- Assertion when starting soccer match".
                    "<br>- Players on field are stuck in upper left corner and can't be controlled".
 		   "<br>- Minor graphical glitches",
 "thinker1"	=> "Game is playable, with minor glitches".
