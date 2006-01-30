@@ -249,7 +249,7 @@ $notes = array(
 		   "<br>- Minor graphical glitches",
 "puttmoon"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target",
-"puttcircus"	=> => "No known issues, game is completable.".
+"puttcircus"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "puttputt"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target",
