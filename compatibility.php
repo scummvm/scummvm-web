@@ -101,12 +101,12 @@ $gamesHE = array(
 		'Let\'s Explore the Jungle with Buzzy'					=> array('jungle','85'),
 		'Pajama Sam 1: No Need to Hide When It\'s Dark Outside'			=> array('pajama','70'),
 		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'		=> array('pajama2','90'),
-		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('pajama3','70'),
+		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('pajama3','80'),
 		'Pajama Sam\'s Lost &amp; Found'					=> array('lost','80'),
 		'Pajama Sam\'s Sock Works'						=> array('socks','90'),
 		'Putt-Putt Enters the Race'						=> array('puttrace','90'),
 		'Putt-Putt Goes to the Moon'						=> array('puttmoon','95'),
-		'Putt-Putt Joins the Circus'						=> array('puttcircus','85'),
+		'Putt-Putt Joins the Circus'						=> array('puttcircus','90'),
 		'Putt-Putt Joins the Parade'						=> array('puttputt','95'),
 		'Putt-Putt Saves the Zoo'						=> array('puttzoo','90'),
 		'Putt-Putt Travels Through Time'					=> array('putttime','90'),
@@ -199,8 +199,7 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Need to use ESC when car is stuck in the smart star challenge",
 "thinkerk"	=> "No known issues, game is completable.".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Animation isn't synced during the introduction song",
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "BluesABCTimeDemo" => "Game is playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "fbear"		=> "Game should be completable, with several glitches".
@@ -216,7 +215,7 @@ $notes = array(
 		   "<br>- Minor graphical glitches",
 "freddi3"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"freddi4"	=> "No known issues, game is completable".
+"freddi4"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "maze"		=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
@@ -233,13 +232,12 @@ $notes = array(
 		   "<br>- Minor graphical glitches",
 "pajama"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- No songs",
+		   "<br>- No songs in the kitchen",
 "pajama2"	=> "No known issues, game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "pajama3"	=> "Game is completable, with glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- PlayStation 1 version doesn't use SCUMM, so will never be supported.".
-		   "<br>- Major sprite glitches during Ski Ride".
 		   "<br>- Minor graphical glitches",
 "lost"		=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
@@ -251,9 +249,8 @@ $notes = array(
 		   "<br>- Minor graphical glitches",
 "puttmoon"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target",
-"puttcircus"	=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Magnifying glass doesn't work",
+"puttcircus"	=> => "No known issues, game is completable.".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "puttputt"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target",
 "puttzoo"	=> "Game is completable, with minor glitches".
