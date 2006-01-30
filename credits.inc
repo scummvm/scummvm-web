@@ -124,6 +124,7 @@
 <div class='par-subhead-dots'>&nbsp;</div>
 <div class='par-subhead-content'>
 <table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Tore Anderson</td><td style='width:10em; text-align: left;' class='news-author'>tore</td><td>Formed Debian GNU/Linux maintainer</td>
 <tr><td style='width:13em; padding:2px;'>Ralph Brorsen</td><td style='width:10em; text-align: left;' class='news-author'>painelf</td><td>Help with GUI implementation</td>
 <tr><td style='width:13em; padding:2px;'>Jamieson Christian</td><td style='width:10em; text-align: left;' class='news-author'>jamieson630</td><td>iMUSE, MIDI, all things musical</td>
 <tr><td style='width:13em; padding:2px;'>Vincent Hamm</td><td style='width:10em; text-align: left;' class='news-author'>yazoo</td><td>Co-Founder</td>
@@ -152,7 +153,7 @@
 </table>
 <span style='font-weight: bold'>Debian GNU/Linux:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
-<tr><td style='width:13em; padding:2px;'>Tore Anderson</td><td style='width:10em; text-align: left;' class='news-author'>tore</td><td></td>
+<tr><td style='width:13em; padding:2px;'>David Weinehall</td><td style='width:10em; text-align: left;' class='news-author'>tao</td><td></td>
 </table>
 <span style='font-weight: bold'>Fedora / RedHat:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
