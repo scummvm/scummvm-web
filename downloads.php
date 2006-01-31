@@ -140,9 +140,7 @@ Smartphone 2003, and Windows Mobile 5 <font class='cat-count'>(1.5M zipfile)</fo
 <!--
 	  <tr><td class='cat-bullet'><img src='images/catpl-dc.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-dreamcast-nero+demos.zip?download">Dreamcast Nero Image &amp; Demos</a> <font class='cat-count'>4.7M zipfile</font></td></tr>
 -->
-<!--
-	  <tr><td class='cat-bullet'><img src='images/catpl-beos.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-beos-x86.pkg?download">BeOS package</a> <font class='cat-count'>(3.0M pkg)</font></td></tr>
--->
+	  <tr><td class='cat-bullet'><img src='images/catpl-beos.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.1-beosx86.pkg?download">BeOS package</a> <font class='cat-count'>(2.2M pkg)</font></td></tr>
 	</table>
     </div>
 
@@ -203,8 +201,6 @@ Smartphone 2003, and Windows Mobile 5 <font class='cat-count'>(1.5M zipfile)</fo
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-amiga.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-amigaos4.lha?download">0.8.0 AmigaOS 4 package</a> <font class='cat-count'>(3.3M .lha)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-morphos.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-morphos.lha?download">0.8.0 MorphOS package</a> <font class='cat-count'>(2.4M .lha)</font></td></tr>
-
-	  <tr><td class='cat-bullet'><img src='images/catpl-beos.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-beos-x86.pkg?download">0.8.0 BeOS package</a> <font class='cat-count'>(3.0M pkg)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-1.FC3.i386.rpm?download">0.7.1 Fedora Core 3 package</a> <font class='cat-count'>(1.2M RPM)</font></td></tr>
 
