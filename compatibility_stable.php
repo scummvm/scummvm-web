@@ -12,9 +12,9 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_page_header('ScummVM :: Compatibility - 0.8.0');
+html_page_header('ScummVM :: Compatibility - 0.8.1');
 
-html_content_begin('0.8.0 Compatibility');
+html_content_begin('0.8.1 Compatibility');
 
 if (isset($_GET['details'])) {
 	$details = $_GET['details'];
@@ -38,7 +38,7 @@ else {
 	  Click on the game name to view the complete notes of a game.
 
 	  <br><br>Please note this list applies to the English versions of games, we attempt to test many versions of games, however there are occasionally problems with other languages.
-	  Also, this is the compatability of the 0.8.0 stable release, <B>not of CVS
+	  Also, this is the compatability of the 0.8.1 stable release, <B>not of CVS
 	  snapshots/daily builds</B>. The status of these can be found on the <a
 	  href="compatibility.php">CVS Compatibility</A> chart.
 	  <br><br>
@@ -82,38 +82,38 @@ $gamesHE = array(
 		'Backyard Baseball'							=> array('baseball','20'),
 		'Backyard Football'							=> array('football','80'),
 		'Backyard Soccer'							=> array('soccer','20'),
-		'Big Thinkers First Grade'						=> array('thinker1','75'),
-		'Big Thinkers Kindergarten'						=> array('thinkerk','80'),
+		'Big Thinkers First Grade'						=> array('thinker1','85'),
+		'Big Thinkers Kindergarten'						=> array('thinkerk','90'),
 		'Blue\'s ABC Time (Demo)'						=> array('BluesABCTimeDemo','90'),
 		'Fatty Bear\'s Birthday Surprise'					=> array('fbear','93'),
 		'Fatty Bear\'s Fun Pack'						=> array('fbpack','95'),
 		'Freddi Fish 1: The Case of the Missing Kelp Seeds'			=> array('freddi','90'),
-		'Freddi Fish 2: The Case of the Haunted Schoolhouse'			=> array('freddi2','70'),
+		'Freddi Fish 2: The Case of the Haunted Schoolhouse'			=> array('freddi2','85'),
 		'Freddi Fish 3: The Case of the Stolen Conch Shell'			=> array('freddi3','90'),
 		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'	=> array('freddi4','90'),
-		'Freddi Fish and Luther\'s Maze Madness'				=> array('maze','85'),
-		'Freddi Fish and Luther\'s Water Worries'				=> array('water','85'),
+		'Freddi Fish and Luther\'s Maze Madness'				=> array('maze','90'),
+		'Freddi Fish and Luther\'s Water Worries'				=> array('water','90'),
 		'Let\'s Explore the Airport with Buzzy'					=> array('airport','85'),
 		'Let\'s Explore the Farm with Buzzy'					=> array('farm','85'),
 		'Let\'s Explore the Jungle with Buzzy'					=> array('jungle','85'),
 		'Pajama Sam 1: No Need to Hide When It\'s Dark Outside'			=> array('pajama','70'),
 		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'		=> array('pajama2','90'),
 		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('pajama3','50'),
-		'Pajama Sam\'s Lost & Found'						=> array('lost','80'),
-		'Pajama Sam\'s Sock Works'						=> array('socks','85'),
+		'Pajama Sam\'s Lost &amp; Found'					=> array('lost','80'),
+		'Pajama Sam\'s Sock Works'						=> array('socks','90'),
 		'Putt-Putt Enters the Race'						=> array('puttrace','90'),
 		'Putt-Putt Goes to the Moon'						=> array('puttmoon','95'),
 		'Putt-Putt Joins the Circus'						=> array('puttcircus','85'),
 		'Putt-Putt Joins the Parade'						=> array('puttputt','95'),
 		'Putt-Putt Saves the Zoo'						=> array('puttzoo','90'),
 		'Putt-Putt Travels Through Time'					=> array('putttime','90'),
-		'Putt-Putt and Pep\'s Balloon-O-Rama'					=> array('balloon','85'),
-		'Putt-Putt and Pep\'s Dog on a Stick'					=> array('dog','85'),
-		'Putt-Putt & Fatty Bear\'s Activity Pack'				=> array('activity','95'),
+		'Putt-Putt and Pep\'s Balloon-O-Rama'					=> array('balloon','90'),
+		'Putt-Putt and Pep\'s Dog on a Stick'					=> array('dog','90'),
+		'Putt-Putt &amp; Fatty Bear\'s Activity Pack'				=> array('activity','95'),
 		'Putt-Putt\'s Fun Pack'							=> array('funpack','95'),
 		'Spy Fox 1: Dry Cereal'							=> array('spyfox','85'),
 		'Spy Fox 2: Some Assembly Required'					=> array('spyfox2','90'),
-		'Spy Fox 3: Operation Ozone'						=> array('spyozon','60'),
+		'Spy Fox 3: Operation Ozone'						=> array('spyozon','70'),
 		'Spy Fox in Cheese Chase'						=> array('chase','85'),
 		'Spy Fox in Hold the Mustard'						=> array('mustard','85'),
 	      );
@@ -126,12 +126,8 @@ $gamesOther = array(
 		'Flight of the Amazon Queen'			       	=> array('queen','98'),
 		'Gobliiins'						=> array('gob1', '90'),
 		'Inherit the Earth: Quest for the Orb'			=> array( 'ite', '87'),
-		'Simon the Sorcerer 1 Talkie'       			=> array('simon1talkie','93'),
- 		'Simon the Sorcerer 1 Talkie (Acorn)'			=> array('simon1acorn','93'),
-		'Simon the Sorcerer 1 (DOS)'           			=> array('simon1dos','93'),
-		'Simon the Sorcerer 1 (Demo)'          			=> array('simon1demo','93'),
-		'Simon the Sorcerer 2 Talkie'       			=> array('simon2talkie','95'),
-		'Simon the Sorcerer 2 (DOS)'           			=> array('simon2dos','95')
+		'Simon the Sorcerer 1'          			=> array('simon1','93'),
+		'Simon the Sorcerer 2'           			=> array('simon2','95'),
 	      );
 
 $notes = array(
@@ -193,15 +189,13 @@ $notes = array(
 "soccer"	=> "Game isn't playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- PlayStation 1 version doesn't use SCUMM, so will never be supported.".
-		   "<br>- Assertion when starting soccer match".
                    "<br>- Players on field are stuck in upper left corner and can't be controlled".
 		   "<br>- Minor graphical glitches",
 "thinker1"	=> "Game is playable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Need to use ESC when car is stuck in the smart star challenge",
-"thinkerk"	=> "Game is playable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
+"thinkerk"	=> "No known issues, game is completable.".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "BluesABCTimeDemo" => "Game is playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "fbear"		=> "Game should be completable, with several glitches".
@@ -210,26 +204,27 @@ $notes = array(
 "fbpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
 "activity"	=> "No known issues, game is completable.",
-"freddi"	=> "Game is completable, with minor glitches".
+"freddi"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "freddi2"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Animation isn't synced during songs".
 		   "<br>- Minor graphical glitches",
-"freddi3"	=> "No known issues, game is completable".
+"freddi3"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"freddi4"	=> "No known issues, game is completable".
+"freddi4"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "maze"		=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"water"		=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor Graphical glitches",
+"water"		=> "No known issues, game is completable.".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "airport"	=> "Game is playable".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
 "farm"		=> "Game is playable".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
 "jungle"	=> "Game is playable".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
 "pajama"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
@@ -237,6 +232,7 @@ $notes = array(
 "pajama2"	=> "No known issues, game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "pajama3"	=> "Game is playable but not completable".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- PlayStation 1 version doesn't use SCUMM, so will never be supported.".
 		   "<br>- Sprites aren't displayed during Ski Ride".
 		   "<br>- Minor graphical glitches",
@@ -247,7 +243,6 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "puttrace"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Animation isn't synced during song".
 		   "<br>- Minor graphical glitches",
 "puttmoon"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target",
@@ -262,9 +257,8 @@ $notes = array(
 "putttime"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
-"balloon"	=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor Graphical glitches",
+"balloon"	=> "No known issues, game is completable.".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "dog"		=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "funpack"	=> "No known issues, game is completable.".
@@ -274,11 +268,10 @@ $notes = array(
 		   "<br>- Minor selection issue with buttons on paintings",
 "spyfox2"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"spyozon"	=> "Game is completable, depending on path".
+"spyozon"	=> "Game is completable, with glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Asserts when looking at pearls",
 		   "<br>- Need to guess the correct colors of Poodles's fingernails".
-		   "<br>- Palette glitches",
+		   "<br>- Various palette glitches",
 "chase"		=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "mustard"	=> "No known issues, game is completable.".
@@ -300,24 +293,20 @@ $notes = array(
 		   "<br>- PlayStation 1 version isn't supported.",
 "queen"		=> "No known issues, game is completable.".
 		   "<br>- Some versions may require the <a href=\"http://0x.7fc1.org/fotaq/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases.".
-		   "<br>- Amiga version isn't supported.",
+		   "<br>- Amiga versions aren't supported.",
 "gob1"		=> "No known issues. Game is completable.".
 		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
-		   "<br>- Macintosh version lacks music",
+		   "<br>- No music in the Macintosh version",
 "ite"		=> "Game is completable.".
 		   "<br>- DOS, Linux, Macintosh, MacOS X and Windows versions are supported by this target".
 		   "<br>- Amiga versions aren't supported".
 		   "<br>- Occasional graphical glitches",
-"simon1talkie" 	=> "No known issues, game is completable.".
-		   "<br>- Both DOS and Windows versions supported by this target",
-"simon1acorn" 	=> "No known issues, game is completable.",
-"simon1dos" 	=> "No known issues, game is completable.",
-"simon1demo" 	=> "No known issues, game demo is completable.",
-"simon2talkie"  => "No known issues, game is completable.".
+"simon1" 	=> "No known issues, game is completable.".
+		   "<br>- Acorn (CD), DOS and Windows versions supported by this target",
+"simon2"        => "No known issues, game is completable.".
 		   "<br>- Amiga, DOS, Macintosh and Windows versions supported by this target".
-                   "<br>- Only the default language (English) in Amiga & Mactinosh versions is supported".
-                   "<br>- F10 key animation is different in Amiga & Macintosh versions",
-"simon2dos"     => "No known issues, game is completable."
+                   "<br>- Only the default language (English) in Amiga &amp; Mactinosh versions is supported".
+                   "<br>- F10 key animation is different in Amiga &amp; Macintosh versions"
 );
 		
 // render the compatibility chart
