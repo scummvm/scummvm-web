@@ -6,6 +6,7 @@
 You can now experience the latest official flavour of ScummVM. The main reason 
 for this release is fixing several bugs that slipped into 0.8.0, some of these
 fixes are:
+</p>
 
 <ul>
   <li>Much improved support for Humongous Entertainment games</li>
@@ -16,7 +17,6 @@ fixes are:
   <li>Implemented more precise MD5-based game detection for Simon the Sorcerer</li>
   <li>First non-beta PS2 port release</li>
 </ul>
-</p>
 
 <p>
 For a complete list of changes see the
