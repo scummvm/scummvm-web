@@ -137,9 +137,7 @@ Smartphone 2003, and Windows Mobile 5 <font class='cat-count'>(1.5M zipfile)</fo
 -->
 	  <tr><td class='cat-bullet'><img src='images/catpl-dc.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.1-dreamcast-plainfiles.tar.bz2?download">Dreamcast plain files</a> <font class='cat-count'>(2.6M .tar.bz2)</font></td></tr>
 
-<!--
-	  <tr><td class='cat-bullet'><img src='images/catpl-dc.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-dreamcast-nero+demos.zip?download">Dreamcast Nero Image &amp; Demos</a> <font class='cat-count'>4.7M zipfile</font></td></tr>
--->
+	  <tr><td class='cat-bullet'><img src='images/catpl-dc.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.1-dreamcast-nero+demos.zip?download">Dreamcast Nero Image &amp; Demos</a> <font class='cat-count'>5.2M zipfile</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-beos.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.1-beosx86.pkg?download">BeOS package</a> <font class='cat-count'>(2.2M pkg)</font></td></tr>
 	</table>
     </div>
@@ -214,7 +212,6 @@ Smartphone 2003, and Windows Mobile 5 <font class='cat-count'>(1.5M zipfile)</fo
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-solaris8-sparc.tar.bz2?download">0.7.0 Solaris 8 (Sparc) binary</a> <font class='cat-count'>(1.1M .tar.bz2)</font></td></tr>
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-dc.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.0-dreamcast-nero+demos.zip?download">0.7.0 Dreamcast Nero Image &amp; Demos</a> <font class='cat-count'>4.7M zipfile</font></td></tr>
 	</table>
 
      </div>
