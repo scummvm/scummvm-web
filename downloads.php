@@ -166,7 +166,7 @@ Smartphone 2003, and Windows Mobile 5 <font class='cat-count'>(1.5M zipfile)</fo
 	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.8.0-win32.zip?download">Tools - Windows zipfile</a> <font class='cat-count'>(183k Win32 .exe)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.8.0-1.i386.rpm?download">Tools - Fedora Core 4 RPM</a> <font class='cat-count'>(110k .rpm)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.8.0-macosx.tar.bz2?download">Tools - Mac OS X binary</a> <font class='cat-count'>(212k .tar.bz2)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-macos.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.8.0-macosx.tar.bz2?download">Tools - Mac OS X binary</a> <font class='cat-count'>(212k .tar.bz2)</font></td></tr>
 <!--
 	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.7.0-solaris8-sparc.tar.bz2?download">Tools - Solaris 8 (Sparc)</a> <font class='cat-count'>(119k .tar.bz2)</font></td></tr>
 -->
