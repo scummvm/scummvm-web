@@ -207,6 +207,8 @@ $MISC_demos = array(
 		=> array('http://0x.7fc1.org/fotaq/fotaq_demo.zip', 'queen'),
 	'Flight of the Amazon Queen (PCGAMES demo, Datafile only)'
 		=> array('http://0x.7fc1.org/fotaq/fotaq_demo_pcgames.zip', 'queen'),
+	'Flight of the Amazon Queen (Interview demo, Datafile only)'
+		=> array('http://www.unet.univie.ac.at/~a0200586/binary/mirrors/scummvm/queen_interview.zip', 'queen'),
 	'Gobliiins'
 		=> array('http://minifiles.ag.ru/demos/448/gobliiins_demo.exe', 'gob1'),
 	'Inherit the Earth: Quest for the Orb demos'
