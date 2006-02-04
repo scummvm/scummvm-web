@@ -121,7 +121,7 @@ function html_page_footer() {
 		</div></form>	
 		</td>
 		<td>
-			<a href="http://sourceforge.net/"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=37116" width="88" height="31" alt="SourceForge"></a>
+			<a href="http://sourceforge.net/"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=37116&amp;type=1" width="88" height="31" alt="SourceForge"></a>
 		</td>
 		<td>
 			<a href="http://validator.w3.org/check/referer"><img src="http://www.w3.org/Icons/valid-html401" width="88" height="31" alt="Valid HTML 4.01!"></a>
