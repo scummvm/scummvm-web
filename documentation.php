@@ -44,8 +44,8 @@ if ($view and file_exists($file_root."/docs/".$view.".xml")) {
   <div class="par-content">
   <br/>
 
-  <a href='http://cvs.sourceforge.net/viewcvs.py/scummvm/scummvm/README?rev=release-0-8-1'>README 0.8.1</a><br />
-  The ScummVM README, for version 0.8.1<br /><br />
+  <a href='http://cvs.sourceforge.net/viewcvs.py/scummvm/scummvm/README?rev=release-0-8-2'>README 0.8.2</a><br />
+  The ScummVM README, for version 0.8.2<br /><br />
 <?php
 
 
