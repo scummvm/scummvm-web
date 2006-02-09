@@ -98,7 +98,7 @@ $gamesHE = array(
 		'Let\'s Explore the Jungle with Buzzy'					=> array('jungle','85'),
 		'Pajama Sam 1: No Need to Hide When It\'s Dark Outside'			=> array('pajama','70'),
 		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'		=> array('pajama2','90'),
-		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('pajama3','50'),
+		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('pajama3','80'),
 		'Pajama Sam\'s Lost &amp; Found'					=> array('lost','80'),
 		'Pajama Sam\'s Sock Works'						=> array('socks','90'),
 		'Putt-Putt Enters the Race'						=> array('puttrace','90'),
@@ -231,10 +231,9 @@ $notes = array(
 		   "<br>- No songs",
 "pajama2"	=> "No known issues, game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"pajama3"	=> "Game is playable but not completable".
+"pajama3"	=> "Game is completable, with glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- PlayStation 1 version doesn't use SCUMM, so will never be supported.".
-		   "<br>- Sprites aren't displayed during Ski Ride".
 		   "<br>- Minor graphical glitches",
 "lost"		=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
@@ -246,9 +245,8 @@ $notes = array(
 		   "<br>- Minor graphical glitches",
 "puttmoon"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target",
-"puttcircus"	=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Magnifying glass doesn't work",
+"puttcircus"	=> "No known issues, game is completable.".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "puttputt"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target",
 "puttzoo"	=> "Game is completable, with minor glitches".
