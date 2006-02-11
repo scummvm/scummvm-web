@@ -129,7 +129,7 @@ $gamesOther = array(
 		'Flight of the Amazon Queen'			       	=> array('queen','98'),
 		'Gobliiins'						=> array('gob1', '95'),
 		'Inherit the Earth: Quest for the Orb'			=> array('ite', '87'),
-		'The Legend of Kyrandia'				=> array('kyra1', '55'),
+		'The Legend of Kyrandia'				=> array('kyra1', '65'),
 		'Simon the Sorcerer 1'          			=> array('simon1','93'),
 		'Simon the Sorcerer 2'           			=> array('simon2','95'),
 	      );
@@ -311,12 +311,12 @@ $notes = array(
                    "<br>- F10 key animation is different in Amiga &amp; Macintosh versions",
 "kyra1"		=> "Game is completable.".
 		   "<br>- Requires the KYRA.DAT resource file to be placed in the game directory.".
-		   "<br>- DOS Floppy and CD version are supported by this target.".
+		   "<br>- DOS Floppy and CD versions are supported by this target.".
 		   "<br>- Amiga version is not supported.".
-		   "<br>- Occasional major graphics glitches.".
+		   "<br>- Occasional graphics glitches.".
 		   "<br>- Music and sfx do not work properly.".
 		   "<br>- Ending credits are missing.".
-		   "<br>- Ingame menus do not work."
+		   "<br>- Settings menu doesn't work"
 );
 		
 // render the compatibility chart
