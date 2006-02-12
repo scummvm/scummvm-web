@@ -355,7 +355,7 @@ details.</p>
 	CREDITS.TXT<br>
 	*.WSA<br>
 	*.XMI<br>
-	<a href="http://cvs.sourceforge.net/viewcvs.py/*checkout*/scummvm/engine-data/kyra.dat">kyra.dat</a></td>
+	<a href="http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/engine-data/trunk/kyra.dat">kyra.dat</a></td>
   </tr>
   <tr>
     <td>Legend of Kyrandia, The (PC CD)</td>
@@ -363,7 +363,7 @@ details.</p>
       *.CPS<br>
       *.PAK<br>
       *.VRM<br>
-      <a href="http://cvs.sourceforge.net/viewcvs.py/*checkout*/scummvm/engine-data/kyra.dat">kyra.dat</a></td>
+      <a href="http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/engine-data/trunk/kyra.dat">kyra.dat</a></td>
   </tr>
   <tr>
     <td>Legend of Kyrandia, The (Demo)</td>
@@ -383,7 +383,7 @@ details.</p>
       START.CPS<br>
       TOP.CPS<br>
       WESTWOOD.WSA<br>
-      <a href="http://cvs.sourceforge.net/viewcvs.py/*checkout*/scummvm/engine-data/kyra.dat">kyra.dat</a></td>
+      <a href="http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/engine-data/trunk/kyra.dat">kyra.dat</a></td>
   </tr>
   <tr>
     <td>Let's Explore the Airport with Buzzy (Demo)</td>

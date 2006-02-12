@@ -29,7 +29,7 @@ the code yourself, then these are not really ready for you.
 
 <br/>
 
-<?php html_subhead_start("ScummEx (cvs module 'scummex')"); ?>
+<?php html_subhead_start("ScummEx (svn subtree 'scummex')"); ?>
 
     <div class="par-subhead-content">
 <P>
@@ -44,12 +44,12 @@ are very welcome...
 <P>
 You can try compile engine for Windows:
 </P>
-<a href="downloads/scummexwin32.exe">Windows Daily Snapshot</a> <small> (build from CVS HEAD, <? echo intval(filesize("downloads/residualwin32.exe")/1024) ?>K Win32 .exe file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummexwin32.exe")); ?>)</small>
+<a href="downloads/scummexwin32.exe">Windows Daily Snapshot</a> <small> (build from Subversion trunk, <? echo intval(filesize("downloads/residualwin32.exe")/1024) ?>K Win32 .exe file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummexwin32.exe")); ?>)</small>
 
 <p>&nbsp;</p>
     </div>
 
-<?php html_subhead_start("Residual (cvs module 'residual')"); ?>
+<?php html_subhead_start("Residual (svn subtree 'residual')"); ?>
 
     <div class="par-subhead-content">
 <P>
@@ -65,7 +65,7 @@ as such is progressing slowly.
 <P>
 You can try compiled engine for Windows:
 </P>
-<a href="downloads/residualwin32.exe">Windows Daily Snapshot</a> <small> (build from CVS HEAD, <? echo intval(filesize("downloads/residualwin32.exe")/1024) ?>K Win32 .exe file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/residualwin32.exe")); ?>)</small>
+<a href="downloads/residualwin32.exe">Windows Daily Snapshot</a> <small> (build from Subversion trunk, <? echo intval(filesize("downloads/residualwin32.exe")/1024) ?>K Win32 .exe file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/residualwin32.exe")); ?>)</small>
 <p></p>
     </div>
   </div>

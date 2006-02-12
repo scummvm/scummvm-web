@@ -43,7 +43,7 @@ html_content_begin('Download ScummVM');
   html_nav_item("#tools", "0.8.0 Tools");
   html_nav_item("#older", "Older versions");
   html_nav_item("#extras", "Extras, game downloads");
-  html_nav_item("#CVS", "CVS Builds");
+  html_nav_item("#SVN", "Subversion Builds");
   html_nav_item("#libs", "Libraries");
 ?>
 
@@ -54,7 +54,7 @@ html_content_begin('Download ScummVM');
 <td>
 	  Downloads are hosted with SourceForge.net. If you have one of the supported systems, you can directly download
 	  the appropriate binary distribution. If you have another system, download the source and read the
-	  <a href="http://cvs.sourceforge.net/viewcvs.py/scummvm/scummvm/README?rev=release-0-8-2">README</a>
+	  <a href="http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/tags/release-0-8-2/README">README</a>
 	  file for directions on how to build ScummVM.
 	  If you have successfully ported ScummVM to a platform not listed, please drop us a note, telling which OS, etc.
 	  you used.
@@ -65,7 +65,7 @@ html_content_begin('Download ScummVM');
 	download the 'Windows Installer'</LI>
 
 		<LI>For UNSTABLE experimental versions of ScummVM (for people who know what they 
-	are doing), please see the <a href="#CVS">CVS Builds</a> section, near the end of this page.</LI>
+	are doing), please see the <a href="#SVN">Subversion Builds</a> section, near the end of this page.</LI>
 
 		<LI>Also below are the <a href="#extras">Extras</a>. These currently include two
 	freeware games 'Beneath a Steel Sky' and 'Flight of the Amazon Queen', along with
@@ -247,7 +247,7 @@ Smartphone 2003, and Windows Mobile 5 <font class='cat-count'>(1.5M zipfile)</fo
 	  <tr><td class='cat-bullet'><img src='images/cat-bs1.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ITA_AddOn.zip?download">Broken Sword 1 Cutscene Pack (Italian AddOn)</a> <font class='cat-count'>(2.5M) Override files in English Pack with this archive contents</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-bs1.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ESP_AddOn.zip?download">Broken Sword 1 Cutscene Pack (Spanish AddOn)</a> <font class='cat-count'>(2.2M) Override files in English Pack with this archive contents</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-bs2.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_Cutscenes.zip?download">Broken Sword 2 Cutscene Pack (ALL LANGUAGES)</a> <font class='cat-count'>(27.8M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-kyra.png' alt="" /></td><td class='cat-link'><a href="http://cvs.sourceforge.net/viewcvs.py/*checkout*/scummvm/engine-data/kyra.dat">The Legend of Kyrandia, KYRA.DAT - required to run all versions of the game</a> <font class='cat-count'>(60k)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-kyra.png' alt="" /></td><td class='cat-link'><a href="http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/engine-data/trunk/kyra.dat">The Legend of Kyrandia, KYRA.DAT - required to run all versions of the game</a> <font class='cat-count'>(60k)</font></td></tr>
 	</table>
 	<p>
 	<i>Having trouble downloading Flight of the Amazon Queen?</i>
@@ -263,10 +263,10 @@ hosted by <a href="http://www.mthN.de">Snoke Media and Tech Hosting Network</a>!
      </div>
   </div>
 
-	<a name="CVS"></a>
+	<a name="SVN"></a>
   <div class="par-item">
     <div class="par-head">
-       CVS Builds
+       Subversion Builds
     </div>
 
     <div class="par-content">
@@ -275,7 +275,7 @@ hosted by <a href="http://www.mthN.de">Snoke Media and Tech Hosting Network</a>!
 	</p>
 	<p>
 	  You can get the latest development source and binaries for Linux/Intel from the
-	  <a href="http://www.scummvm.org/daily/">CVS Daily Snapshot</a> page.
+	  <a href="http://www.scummvm.org/daily/">Subversion Daily Snapshot</a> page.
 	</p>
 	<p>
 	  Additional snapshot builds:
@@ -288,12 +288,12 @@ hosted by <a href="http://www.mthN.de">Snoke Media and Tech Hosting Network</a>!
 	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" /></td><td class='cat-link'><a href="/downloads/scummvm-daily.zip">Source Code Daily Snapshot Zipped</a> <font class='cat-count'> (<? echo intval(filesize("downloads/scummvm-daily.zip")/1024) ?>K file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummvm-daily.zip")); ?>)</font></td></tr>
 -->
 	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt="" /></td><td class='cat-link'><a href="/downloads/scummvmwin32.exe">Win32 Daily Snapshot</a> <font class='cat-count'> (<? echo intval(filesize("downloads/scummvmwin32.exe")/1024) ?>K exe file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummvmwin32.exe")); ?>)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-macos.png' alt="" /></td><td class='cat-link'><a href="/downloads/ScummVM-snapshot.dmg">Mac OS X Snapshot</a> <font class='cat-count'> (infrequently from CVS HEAD, <? echo intval(filesize("downloads/ScummVM-snapshot.dmg")/1024) ?>K dmg file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/ScummVM-snapshot.dmg")); ?>)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-macos.png' alt="" /></td><td class='cat-link'><a href="/downloads/ScummVM-snapshot.dmg">Mac OS X Snapshot</a> <font class='cat-count'> (infrequently from Subversion trunk, <? echo intval(filesize("downloads/ScummVM-snapshot.dmg")/1024) ?>K dmg file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/ScummVM-snapshot.dmg")); ?>)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt="" /></td><td class='cat-link'><a href="http://arisme.free.fr/PocketScumm/daily/">PocketPC Builds</a> <font class='cat-count'> (infrequent snapshots of the PocketPC binaries)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt="" /></td><td class='cat-link'><a href="/downloads/PocketPC2003.zip">Alternative PocketPC 2003 build</a> <font class='cat-count'> (infrequently from CVS HEAD, <? echo intval(filesize("downloads/PocketPC2003.zip")/1024) ?>K zip file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/PocketPC2003.zip")); ?>)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt="" /></td><td class='cat-link'><a href="/downloads/PocketPC2003.zip">Alternative PocketPC 2003 build</a> <font class='cat-count'> (infrequently from Subversion trunk, <? echo intval(filesize("downloads/PocketPC2003.zip")/1024) ?>K zip file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/PocketPC2003.zip")); ?>)</font></td></tr>
 <!--  <tr><td class='cat-bullet'><img src='images/catpl-dc.png' alt="" /></td><td class='cat-link'><a href="http://paras.rasmatazz.bei.t-online.de/">Dreamcast Daily Builds</a></td></tr> -->
-	<tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" /></td><td class='cat-link'><a href="http://anotherguest.b0.se/cvsbuilds/">SymbianOS CVS Builds</a></td></tr>	
-	<tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" /></td><td class='cat-link'><a href="http://sourceforge.net/cvs/?group_id=37116">CVS Instructions</a> <font class='cat-count'> (for if you wish to retrieve the latest code to compile yourself)</font></td></tr>
+	<tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" /></td><td class='cat-link'><a href="http://anotherguest.b0.se/cvsbuilds/">SymbianOS Subversion Builds</a></td></tr>	
+	<tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" /></td><td class='cat-link'><a href="http://sourceforge.net/svn/?group_id=37116">Subversion Instructions</a> <font class='cat-count'> (for if you wish to retrieve the latest code to compile yourself)</font></td></tr>
 	</table>
 
      </div>

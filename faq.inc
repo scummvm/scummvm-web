@@ -170,7 +170,7 @@ ScummVM?</p></div>
 "http://www.scummvm.org" target="_top">web site</a>. You can
 download the latest version, which could be a little old. For the
 most recent cutting-edge in-development version, you have to
-compile it yourself from CVS or use the precompiled 'daily builds' 
+compile it yourself from Subversion or use the precompiled 'daily builds' 
 linked from our download page.</p></div></div>
 <div class="qandaentry">
 <div class="question">
@@ -178,7 +178,7 @@ linked from our download page.</p></div></div>
 for my OS?</p></div>
 <div class="answer">
 <p>The source code package contains a file called <a href=
-"http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD"
+"http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/trunk/README"
    target="_top">README</a> that should explain
    everything.</p></div></div>
 <div class="qandaentry">
@@ -290,7 +290,7 @@ keep your game CD inserted into your CD drive when you start ScummVM.
  If you have more than one CD drive in your system, you can specify 
 your CD drive using the -c command line parameter.
 See the <a href=
-"http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD"
+"http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/trunk/README"
    target="_top">README</a> for more info.</p></div></div>
 <div class="qandaentry">
 <div class="question">
@@ -301,7 +301,7 @@ MP3/Ogg/FLAC files instead of CD audio?</p></div>
 to convert your CD audio to MP3. Since version 0.3.0 we also
 support Ogg Vorbis files, and FLAC is supported since version
 0.7.0. See the <a href=
-"http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD"
+"http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/trunk/README"
    target="_top">README</a> for more info.</p></div></div>
 <div class="qandaentry">
 <div class="question">
@@ -328,7 +328,7 @@ graphic modes?</p></div>
 <p>Yes, ScummVM supports several filtered graphic modes such as
 <a href="http://elektron.its.tudelft.nl/~dalikifa/" target=
 "_top">super2xsai</a>. See the <a href=
-"http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD"
+"http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/trunk/README"
    target="_top">README</a> for more info.</p></div></div>
 <div class="qandaentry">
 <div class="question">
@@ -349,7 +349,7 @@ between full screen and windowed modes.</p></div></div></div>
 "#question.supported-games"><i>What games does ScummVM
 support?</i></a>". If it is a supported game and you have followed
 the instructions in <a href=
-"http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD"
+"http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/trunk/README"
    target="_top">README</a> to the letter, then see "<a href=
    "#question.report-bugs"><i>Reporting Bugs.</i></a>" to report
    this as a bug.</p></div></div>
@@ -429,7 +429,7 @@ McKracken if you have this problem. You need to specify a language
 in the ScummVM Game Options dialog, with the -q parameter or by
 using the 'language' config file option.</p>
 <p>&#13; Consult the <a href=
-"http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/scummvm/scummvm/README?rev=HEAD"
+"http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/trunk/README"
    target="_top">README</a> or command line help for further
    information.</p></div></div>
 <div class="qandaentry">
@@ -465,14 +465,14 @@ the <a href=
 "http://sourceforge.net/tracker/?atid=418820&amp;group_id=37116&amp;func=browse"
    target="_top">bugs</a> link from our homepage. Please make sure
    the bug is reproducible, and still exists in the latest daily
-   build/current CVS version. Also check the <a href=
+   build/current Subversion version. Also check the <a href=
    "http://www.scummvm.org/compatibility.php" target=
    "_top">compatibility listing</a> for that game to ensure the
    issue is not already known. In your bugreport please provide the
    following information:</p>
 <ul>
 <li>
-<p>ScummVM version (PLEASE test the latest CVS/Daily
+<p>ScummVM version (PLEASE test the latest Subversion/Daily
 build)</p></li>
 <li>
 <p>Bug details, including instructions on reproducing it</p></li>

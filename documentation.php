@@ -44,7 +44,7 @@ if ($view and file_exists($file_root."/docs/".$view.".xml")) {
   <div class="par-content">
   <br/>
 
-  <a href='http://cvs.sourceforge.net/viewcvs.py/scummvm/scummvm/README?rev=release-0-8-2'>README 0.8.2</a><br />
+  <a href='http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/tags/release-0-8-2/README'>README 0.8.2</a><br />
   The ScummVM README, for version 0.8.2<br /><br />
 <?php
 
@@ -65,7 +65,7 @@ if ($view and file_exists($file_root."/docs/".$view.".xml")) {
 
 
 ?>
-  <a href='http://cvs.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/TODO?rev=HEAD'>ScummVM current areas of focus</a><br />
+  <a href='http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/trunk/TODO'>ScummVM current areas of focus</a><br />
   This page is the current TODO list for ScummVM.<br /><br />
 
 <?php
