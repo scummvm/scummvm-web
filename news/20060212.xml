@@ -34,7 +34,7 @@ If you used a CVS checkout so far, scrap it, install a
 checkout
 </p>
 <pre>
-   http://svn.sourceforge.net/svnroot/scummvm/scummvm/trunk/
+   https://svn.sourceforge.net/svnroot/scummvm/scummvm/trunk/
 </pre>
 
 <p>
@@ -42,7 +42,7 @@ If you are using the command line subversion client, that means you simply have 
 type the following command:
 </p>
 <pre>
-   svn co http://svn.sourceforge.net/svnroot/scummvm/scummvm/trunk/ scummvm
+   svn co https://svn.sourceforge.net/svnroot/scummvm/scummvm/trunk/ scummvm
 </pre>
 
 <p>
