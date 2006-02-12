@@ -81,7 +81,9 @@ $LEC_demos = array(
 		=> array('http://www.cowlark.com/scumm.dat/indyloom.zip', 'zak'),
 	'Indiana Jones and the Last Crusade & Zak McKracken (FM Towns demo - Non interactive)'
 		=>array('http://www.cowlark.com/scumm.dat/indyzak.zip', 'zak'),
-	'Loom (16 colour - Non interactive)'
+	'Loom (16 colour - Short Non interactive)'
+		=> array('http://cd.textfiles.com/tothemaxpcg/GAMEDEM/LOOMDE.ZIP', 'loom'),
+	'Loom (16 colour - Long Non interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Loomdemo.zip', 'loom'),
 	'Maniac Mansion (v1 DOS demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/maniac.rar', 'maniac'),
