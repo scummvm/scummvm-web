@@ -182,21 +182,21 @@ $HE_demos = array(
 		=> array('ftp://ftp.humongous.com/humongous/putttime.zip', 'putttime'),
 	'Putt-Putt Travels Through Time (French Demo)'
 		=> array('http://quick.mixnmojo.com/demos/tempdemo-fr.zip', 'putttime'),
-	'Spy Fox 1: Dry Cereal (Demo)'
+	'SPY Fox 1: Dry Cereal (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/FOX95d.EXE', 'spyfox'),
-	'Spy Fox 1: Dry Cereal (Alternative Demo)'
+	'SPY Fox 1: Dry Cereal (Alternative Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/spy95_98.zip', 'spyfox'),
-	'Spy Fox 1: Dry Cereal (Dutch Demo)'
+	'SPY Fox 1: Dry Cereal (Dutch Demo)'
 		=> array('http://quick.mixnmojo.com/demos/spydemo-nl.zip', 'spyfox'),
-	'Spy Fox 1: Dry Cereal (French Demo)'
+	'SPY Fox 1: Dry Cereal (French Demo)'
 		=> array('http://quick.mixnmojo.com/demos/jamesdem-fr.zip', 'spyfox'),
-	'Spy Fox 2: Some Assembly Required (Demo)'
+	'SPY Fox 2: Some Assembly Required (Demo)'
 		=> array('http://quick.mixnmojo.com/demos/sf2-demo.rar', 'spyfox2'),
-	'Spy Fox 2: Some Assembly Required (German Demo)'
+	'SPY Fox 2: Some Assembly Required (German Demo)'
 		=> array('http://quick.mixnmojo.com/demos/sf2demo-de.zip', 'spyfox2'),
-	'Spy Fox 2: Some Assembly Required (UK Demo)'
+	'SPY Fox 2: Some Assembly Required (UK Demo)'
 		=> array('http://quick.mixnmojo.com/demos/sf2demo-uk.zip', 'spyfox2'),
-	'Spy Fox 3: Operation Ozone (Demo)'
+	'SPY Fox 3: Operation Ozone (Demo)'
 		=> array('http://quick.mixnmojo.com/demos/sf3-demo.rar', 'spyozon')
 	);
 

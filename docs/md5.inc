@@ -483,7 +483,7 @@
 		<?php addEntry("CD", "DOS", "hb", "90a329d8ad5b7ce0690429e98cfbb32f", "funpack"); ?>
 	<tr><td colspan='7'><strong>Putt-Putt's One-Stop Fun Shop</strong></td></tr>
 		<?php addEntry("CD", "All", "en", "5262a27afcaee04e5c4900220bd463e7", "PuttsFunShop", "Kirben"); ?>
-	<tr><td colspan='7'><strong>Spy Fox 1: Dry Cereal</strong></td></tr>
+	<tr><td colspan='7'><strong>SPY Fox 1: Dry Cereal</strong></td></tr>
 		<?php addEntry("CD", "All", "en", "3de99ef0523f8ca7958faa3afccd035a", "spyfox", "Kirben"); ?>
 		<?php addEntry("CD", "All", "en", "58436e634f4fae1d9973591c2ffa1fcb", "spyfox", "Joachim Eberhard"); ?>
 		<?php addEntry("CD", "All", "de", "a28135a7ade38cc0208b04507c46efd1", "spyfox", "nachbarnebenan"); ?>
@@ -496,7 +496,7 @@
 		<?php addEntry("Demo", "All", "fr", "ba888e6831517597859e91aa173f945c", "spyfox", "Kirben"); ?>
 		<?php addEntry("Demo", "All", "de", "73b8197e236da4bf49adc99fe8f5fa1b", "spyfox", "Joachim Eberhard"); ?>
 		<?php addEntry("Demo", "Windows", "nl", "4edbf9d03550f7ba01e7f34d69b678dd", "spyfox", "Kirben"); ?>
-	<tr><td colspan='7'><strong>Spy Fox 2: Some Assembly Required</strong></td></tr>
+	<tr><td colspan='7'><strong>SPY Fox 2: Some Assembly Required</strong></td></tr>
 		<?php addEntry("CD", "All", "All", "f79e60c17cca601e411f1f75e8ee9b5a", "spyfox2", "Kirben"); ?>
 		<?php addEntry("CD", "All", "de", "bc4700bc0e12879f6d25d14d6be6cfdd", "spyfox2", "Joachim Eberhard"); ?>
 		<?php addEntry("CD", "All", "ru", "cea91e3dd47f2518ea418e41611aa77f", "spyfox2", "sev"); ?>
@@ -505,14 +505,14 @@
 		<?php addEntry("Demo", "All", "en", "7222f260253f325c21fcfa68b5bfab67", "spyfox2", "Kirben"); ?>
 		<?php addEntry("Demo", "All", "de", "732845548b1d6c2da572cb6a1bf81b07", "spyfox2", "Joachim Eberhard"); ?>
 		<?php addEntry("Demo", "Windows", "en", "19bf6938a94698296bcb0c99c31c91a7", "spyfox2", "eriktorbjorn"); ?>
-	<tr><td colspan='7'><strong>Spy Fox 3: Operation Ozone</strong></td></tr>
+	<tr><td colspan='7'><strong>SPY Fox 3: Operation Ozone</strong></td></tr>
 		<?php addEntry("CD", "All", "en", "600abd3e9f47e63e670188b7e4e86ac7", "spyozon", "Kirben"); ?>
 		<?php addEntry("CD", "All", "ru", "96a3069a3c63caa7329588ce1fef41ee", "spyozon", "sev"); ?>
 		<?php addEntry("CD", "Windows", "en", "be39a5d4db60e8aa736b9086778cb45c", "spyozon"); ?>
 		<?php addEntry("Demo", "All", "en", "ebd0b2c8a387f18887282afe6cad894a", "spyozon", "Kirben"); ?>
-	<tr><td colspan='7'><strong>Spy Fox in Cheese Chase</strong></td></tr>
+	<tr><td colspan='7'><strong>SPY Fox in Cheese Chase</strong></td></tr>
 		<?php addEntry("CD", "All", "en", "589601b676c98b1c0c987bc031ab68b3", "chase", "Kirben"); ?>
 		<?php addEntry("CD", "All", "en", "90c755e1c9b9b8a4129d37b2259d0655", "chase", "Kirben"); ?>
 		<?php addEntry("CD", "Windows", "ru", "9cdd327c1034c046cb595d251c44da2f", "chase", "sev"); ?>
-	<tr><td colspan='7'><strong>Spy Fox in Hold the Mustard</strong></td></tr>
+	<tr><td colspan='7'><strong>SPY Fox in Hold the Mustard</strong></td></tr>
 		<?php addEntry("CD", "All", "en", "225e18566e810c634bf7de63e7568e3e", "mustard", "Kirben"); ?>

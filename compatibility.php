@@ -114,11 +114,11 @@ $gamesHE = array(
 		'Putt-Putt and Pep\'s Dog on a Stick'					=> array('dog','90'),
 		'Putt-Putt &amp; Fatty Bear\'s Activity Pack'				=> array('activity','95'),
 		'Putt-Putt\'s Fun Pack'							=> array('funpack','95'),
-		'Spy Fox 1: Dry Cereal'							=> array('spyfox','85'),
-		'Spy Fox 2: Some Assembly Required'					=> array('spyfox2','90'),
-		'Spy Fox 3: Operation Ozone'						=> array('spyozon','70'),
-		'Spy Fox in Cheese Chase'						=> array('chase','85'),
-		'Spy Fox in Hold the Mustard'						=> array('mustard','85'),
+		'SPY Fox 1: Dry Cereal'							=> array('spyfox','85'),
+		'SPY Fox 2: Some Assembly Required'					=> array('spyfox2','90'),
+		'SPY Fox 3: Operation Ozone'						=> array('spyozon','70'),
+		'SPY Fox in Cheese Chase'						=> array('chase','85'),
+		'SPY Fox in Hold the Mustard'						=> array('mustard','85'),
 	      );
 
 $gamesOther = array(
