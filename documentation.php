@@ -48,7 +48,7 @@ if ($view and file_exists($file_root."/docs/".$view.".xml")) {
   The ScummVM README, for version 0.8.2<br /><br />
 
   <a href='http://wiki.scummvm.org/index.php/Documentation'>Documentation on Wiki</a><br />
-  Assorted documentation on our Wiki<br /><br />
+    Assorted documentation on our Wiki, several important HOWTO's<br /><br />
 
   <a href='http://wiki.scummvm.org/index.php/Developer_Central'>Developer Central</a><br />
   Guidelines on how to hack ScummVM. A must read for developers.<br /><br />
