@@ -99,7 +99,7 @@ $gamesHE = array(
 		'Let\'s Explore the Airport with Buzzy'					=> array('airport','85'),
 		'Let\'s Explore the Farm with Buzzy'					=> array('farm','85'),
 		'Let\'s Explore the Jungle with Buzzy'					=> array('jungle','85'),
-		'Pajama Sam 1: No Need to Hide When It\'s Dark Outside'			=> array('pajama','70'),
+		'Pajama Sam 1: No Need to Hide When It\'s Dark Outside'			=> array('pajama','90'),
 		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'		=> array('pajama2','90'),
 		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('pajama3','80'),
 		'Pajama Sam\'s Lost &amp; Found'					=> array('lost','80'),
@@ -230,9 +230,8 @@ $notes = array(
 "jungle"	=> "Game is playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
-"pajama"	=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- No songs in the kitchen",
+"pajama"	=> "No known issues, game is completable".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "pajama2"	=> "No known issues, game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "pajama3"	=> "Game is completable, with glitches".
