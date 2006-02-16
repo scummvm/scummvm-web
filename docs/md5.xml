@@ -2,16 +2,24 @@
 <DESC>This page lists MD5 checksums for various 'canonical' data files, which can be used to identify game versions/variants.</DESC>
 <BODY>
 <?php
-function addEntry($variant, $platform, $language, $md5, $target = "???", $source = "") {
+function beginSection($title, $gameid) {
+	print "<tr><th colspan='6' style='font-size: 200%'>$title ($gameid)</th></tr>";
+	print "<tr style='font-weight: bold'><td>MD5</td><td>Platform</td><td>Language</td><td>Extra information</td><td>Source</td></tr>";
+}
+function endSection() {
+	print "<tr><td colspan='7'>&nbsp;</td></tr>";
+}
+function addEntry($description, $platform, $language, $md5, $source = "") {
 	global $file_root;
-	print "<tr><td></td><td>$variant</td><td>$platform</td>";
+	print "<tr>";
+	print "<td class='md5'>$md5</td>";
+	print "<td>$platform</td>";
 	print "<td>";
 	if ($language != "All" && $language != "All?") {
 	  print "<img src='$file_root/images/fl-$language.png' alt='$language' style='vertical-align: middle; width: 20px; height: 12px'/> ";
 	}
 	print "$language</td>";
-	print "<td class='md5'>$md5</td>";
-	print "<td>$target</td>";
+	print "<td>$description</td>";
 	print "<td>$source</td></tr>";
 }
 ?>
@@ -36,7 +44,6 @@ Last updated: <?php echo date("F j, Y, g:i a",filemtime("docs/md5.inc")); ?>
 
 <div class='md5-table'>
 <table>
-<tr><th>Game</th><th>Variant</th><th>Platform</th><th>Language</th><th>MD5</th><th>Game Target</th><th>Source of information</th></tr>
 	<?php include $file_root."/docs/"."md5.inc"; ?>
 </table>
 </div>
