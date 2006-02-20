@@ -362,10 +362,10 @@ and cause the game to start in that room.
 	*Sunstone</td></tr>
 <tr><td>878</td><td>Indy at Thera</td></tr>
 <tr><td>879</td><td>Indy and Sophia at Thera
-	*2 orichalum, Lost Dialog, Sunstone, Moonstone, Worldstone</td></tr>
+	*2 Orichalcum, Lost Dialog, Sunstone, Moonstone, Worldstone</td></tr>
 <tr><td>888</td><td>Same as 878</td></tr>
 <tr><td>909</td><td>Indy before the Doors blocked by a pool of water in Atlantis
-	*2 Orichalum, Sunstone, Moonstone, Whip</td></tr>
+	*2 Orichalcum, Sunstone, Moonstone, Whip</td></tr>
 <tr><td>1101</td><td>Meeting Klaus Kerner for the first time in Indy's Office</td></tr>
 <tr><td>1102</td><td>ERROR: (7:10002:0xBF70): Invalid actor -111 in o5_putActorInRoom</td></tr>
 <tr><td>1103</td><td>Comming to Caswell Hall with Sophia</td></tr>
@@ -418,10 +418,10 @@ and cause the game to start in that room.
 <tr><td>4062</td><td>Same as 4061 except Indy is by himself</td></tr>
 <tr><td>4063</td><td>Ending with Indy and Sophia running away from atlantis</td></tr>
 <tr><td>4122</td><td>Indy in canal room with Giant Octopus
-	*3 Orachalum, Whip, Sunstone, Moonstone, Worldstone, Statue Part,
+	*3 Orichalcum, Whip, Sunstone, Moonstone, Worldstone, Statue Part,
 	Bronze spoked Wheel, Crescent Gear, Ladder, Amber Fish</td></tr>
 <tr><td>4123</td><td>Indy and Sophia in Canal
-	*3 Orachalum, Whip, Sunstone, Moonstone, Worldstone, Bronze Gear
+	*3 Orichalcum, Whip, Sunstone, Moonstone, Worldstone, Bronze Gear
 	Bronze spoked Wheel, Crescent Gear, Ladder, Amber Fish	</td></tr>
 <tr><td>4141</td><td>Indy at Crete
 	*Dialog, Sunstone, Moonstone, Archeology Magazine, Whip Ship Rib</td></tr>
@@ -429,9 +429,9 @@ and cause the game to start in that room.
 	*NO ITEMS</td></tr>
 <tr><td>4343</td><td>Indy on top of Nazi Sub in Team Mode(?)
 	*Dialog, Whip, Rib, Amber Fish, Gold Box, Clay Jar</td></tr>
-<tr><td>4695</td><td>Indy in Orachalum making room	
+<tr><td>4695</td><td>Indy in Orichalcum making room	
 	*Lava cup, Bronze Spoked Wheel</td></tr>
-<tr><td>4765</td><td>Indy in the Room to get Lava for Orichalum in Atlantis
+<tr><td>4765</td><td>Indy in the Room to get Lava for Orichalcum in Atlantis
 	*Stone Cup, Porcelain Mug, Clay Jar, Statue Head</td></tr>
 <tr><td>4851</td><td>Indy in Crete Labyrinth after physically beating the Nazi whom you
 	can push the stalagmite on.
@@ -459,14 +459,14 @@ and cause the game to start in that room.
 	*Whip</td></tr>
 <tr><td>5001</td><td>Indy on the Stone platform with the Gigantic Stone Head in the
 	labyrinth
-	*3 Orachalum, Entrenching tool, Whip, Staff, Comb Scarf</td></tr>
+	*3 Orichalcum, Entrenching tool, Whip, Staff, Comb Scarf</td></tr>
 <tr><td>5002</td><td>The Start of a Normal Game in NYC</td></tr>
 <tr><td>5003</td><td>Indy lands balloon in Crete
 	*Sunstone, Whip, Ship Rib, Surveyor's Equipment</td></tr>
 <tr><td>5005</td><td>Indy and Sophia in Labyrinth (5 way fork)</td></tr>
 <tr><td>5234</td><td>Indy and Sophia in Middle Atlantis. Sophia talks about how Nur-ab-Sal
 	is present
-	*3 Orichalum, Amber Fish, Gold Box, Hinge Pin, Light Wand, Sunstone
+	*3 Orichalcum, Amber Fish, Gold Box, Hinge Pin, Light Wand, Sunstone
 	Moonstone, Worldstone</td></tr>
 <tr><td>5555</td><td>Indy in Monte Carl
 	*Mask</td></tr>
@@ -544,7 +544,7 @@ and cause the game to start in that room.
 <tr><td>9678</td><td>Indy in Caswell Hall (Upstairs Closed for Repairs?)
 	*Whip</td></tr>
 <tr><td>9900</td><td>Indy and Sophia in the room with the Statue that has to open the door
-	*20 Orichalum, whip, sunstone, moonstone, worldstone, statue part
+	*20 Orichalcum, whip, sunstone, moonstone, worldstone, statue part
 	Bronze gear, bronze spoked wheel, crecent statue part, ladder</td></tr>
 <tr><td>9901</td><td>Indy and Sophia in the Airlock after getting off Nazi Sub
 	*Crecent statue part, hinge pin, amber fish, septer, metal rod
@@ -552,13 +552,13 @@ and cause the game to start in that room.
 <tr><td>9902</td><td>Indy in the outermost ring of Atlantis Maze *CANNOT GO ON TO ANOTHER 
 	SCREEN*</td></tr>
 <tr><td>9903</td><td>Indy and Sophia in the Airlock after getting off Nazi Sub
-	*3 Orichalum, Dialog, Whip, Sunstone, Moonstone, Worldstone</td></tr>
+	*3 Orichalcum, Dialog, Whip, Sunstone, Moonstone, Worldstone</td></tr>
 <tr><td>9904</td><td>Outside Lava pit room in Atlantis where Sophia is possessed by
 	Nur-ab-Sal
 	*Scepter, Metal Rod, Statue head, Gold Box, empty stone cup, crab
 	in rib cage, eel figurine</td></tr>
 <tr><td>9905</td><td>Indy and Sophia in the Airlock after getting off Nazi Sub
-	*25 Orichalum, Dialog, whip, Sunstone, moonstone, worldstone, box</td></tr>
+	*25 Orichalcum, Dialog, whip, Sunstone, moonstone, worldstone, box</td></tr>
 <tr><td>9909</td><td>Indy crashes Tram into Atlantis
 	*Bronze spoked wheel, crecent part, statue head, cup of lava, crab
 	in rib cage, eel figurine
