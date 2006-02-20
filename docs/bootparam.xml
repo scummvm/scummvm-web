@@ -396,7 +396,7 @@ and cause the game to start in that room.
 	total IQ points</td></tr>
 <tr><td>3654</td><td>Tikal</td></tr>
 <tr><td>3838</td><td>Indy and Sophia in the Crete Labyrinth. You have the Gold Box in
-	Your possession, but Indy keeps saying he can't reach it.
+	your possession, but Indy keeps saying he can't reach it.
 	*Dialog, Sunstone, Moonstone, Worldstone, Gold Box, Whip, Ship Rib
 	Amber Fish</td></tr>
 <tr><td>3939</td><td>Indy and Sophia Dropped off at Crete
@@ -468,10 +468,10 @@ and cause the game to start in that room.
 	is present
 	*3 Orichalcum, Amber Fish, Gold Box, Hinge Pin, Light Wand, Sunstone
 	Moonstone, Worldstone</td></tr>
-<tr><td>5555</td><td>Indy in Monte Carl
+<tr><td>5555</td><td>Indy in Monte Carlo
 	*Mask</td></tr>
-<tr><td>5557</td><td>Indy on the Crowed Market Streets of Algiers</td></tr>
-<tr><td>5558</td><td>Indy the Market Place (Wits?) 
+<tr><td>5557</td><td>Indy on the Crowded Market Streets of Algiers</td></tr>
+<tr><td>5558</td><td>Indy at the Market Place (Wits?) 
 	*NO ITEMS</td></tr>
 <tr><td>5559</td><td>Meeting Omar in his house. Wits Path
 	*Whip</td></tr>
@@ -491,8 +491,8 @@ and cause the game to start in that room.
 <tr><td>5886</td><td>Same as 5885, except with eel figurine</td></tr>
 <tr><td>5999</td><td>Outside the cave at Thera
 	*Dialog, whip, host, balloon, net, basket</td></tr>
-<tr><td>6000</td><td>Nothing. This doesn't appear to be a valid boot Parameter.</td></tr>
-<tr><td>6001</td><td>Indy Falls down from top Attic Level to the Next Bottom level
+<tr><td>6000</td><td>Nothing. This doesn't appear to be a valid boot parameter.</td></tr>
+<tr><td>6001</td><td>Indy falls down from top attic level to the next bottom level
 	at the introduction.</td></tr>
 <tr><td>6002</td><td>Indy falls down into the room with books at the very beginning</td></tr>
 <tr><td>6003</td><td>Indy falls down into the cat room</td></tr>
@@ -521,7 +521,7 @@ and cause the game to start in that room.
 <tr><td>8567</td><td>Indy at Crete
 	*Whip, Sunstone, Moonstone, Worldstone</td></tr>
 <tr><td>8888</td><td>Monte Carlo Car Chase</td></tr>
-<tr><td>8889</td><td>Indy running around Monte Carol after the Car Chase</td></tr>
+<tr><td>8889</td><td>Indy running around Monte Carlo after the Car Chase</td></tr>
 <tr><td>8890</td><td>Same as above, except with the Stone disk in tow</td></tr>
 <tr><td>9000</td><td>Monte Carlo with Whip</td></tr>
 <tr><td>9001</td><td>Indy at a corner in Monte Carlo
