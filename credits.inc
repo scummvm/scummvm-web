@@ -43,6 +43,12 @@
 <tr><td style='width:13em; padding:2px;'>Torbj&ouml;rn Andersson</td><td style='width:10em; text-align: left;' class='news-author'>eriktorbjorn</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Jonathan Gray</td><td style='width:10em; text-align: left;' class='news-author'>khalek</td><td></td>
 </table>
+<span style='font-weight: bold'>Cinematique evo 1:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Pawe&#322; Ko&#322;odziejski</td><td style='width:10em; text-align: left;' class='news-author'>aquadran</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Gregory Montoir</td><td style='width:10em; text-align: left;' class='news-author'>cyx</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td></td>
+</table>
 <span style='font-weight: bold'>FOTAQ:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>David Eriksson</td><td style='width:10em; text-align: left;' class='news-author'>twogood</td><td></td>
@@ -127,7 +133,7 @@
 <tr><td style='width:13em; padding:2px;'>Tore Anderson</td><td style='width:10em; text-align: left;' class='news-author'>tore</td><td>Former Debian GNU/Linux maintainer</td>
 <tr><td style='width:13em; padding:2px;'>Ralph Brorsen</td><td style='width:10em; text-align: left;' class='news-author'>painelf</td><td>Help with GUI implementation</td>
 <tr><td style='width:13em; padding:2px;'>Jamieson Christian</td><td style='width:10em; text-align: left;' class='news-author'>jamieson630</td><td>iMUSE, MIDI, all things musical</td>
-<tr><td style='width:13em; padding:2px;'>Vincent Hamm</td><td style='width:10em; text-align: left;' class='news-author'>yazoo</td><td>Co-Founder</td>
+<tr><td style='width:13em; padding:2px;'>Vincent Hamm</td><td style='width:10em; text-align: left;' class='news-author'>yazoo</td><td>Co-Founder, original CinE engine author</td>
 <tr><td style='width:13em; padding:2px;'>Ruediger Hanke</td><td></td><td>Port: MorphOS</td>
 <tr><td style='width:13em; padding:2px;'>Felix Jakschitsch</td><td style='width:10em; text-align: left;' class='news-author'>yot</td><td>Zak256 reverse engineering</td>
 <tr><td style='width:13em; padding:2px;'>Mutwin Kraus</td><td style='width:10em; text-align: left;' class='news-author'>mutle</td><td>Original MacOS porter</td>
