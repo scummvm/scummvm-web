@@ -16,7 +16,6 @@ function html_page_header($title, $extra_css = array()) {
   }
 
   echo "<title>$title</title>\n";
-  echo "$extra\n";
 ?>
 	</head>
 	<body>
@@ -55,6 +54,7 @@ echo '<img alt="Game characters" src="'.$file_root.'/images/'.$heroes[$randImg].
 
 
 function html_content_begin($title) {
+  global $file_root;
 ?>
 
 <table style="margin:0px;margin-top:0px;width:100%;" cellspacing="0" cellpadding="0">
@@ -77,6 +77,7 @@ shadowed_text($title, '#821d06', '#ffffff');
 }
 
 function html_content_end() {
+  global $file_root;
 ?>
 	</td></tr></table></td>
 <tr>
