@@ -13,13 +13,18 @@ $file_root = "..";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_header("ScummVM :: Website Revamp contest poll");
-sidebar_start();
+html_page_header("ScummVM :: Website Revamp contest poll");
 
 //display welcome table
-echo html_round_frame_start("Website Revamp contest poll","");
+html_content_begin('Website Revamp contest poll');
 
 ?>
+  <div class="par-item">
+    <div class="par-head">
+       Website Revamp contest poll
+    </div>
+
+    <div class="par-content">
 	<h1>Website Revamp contest poll -- closed, draven declared winner</h1>
 	
 	<p>The three finalists of the website revamp contest can be seen here. The contest was won by draven, you can see the final standings below</p>
@@ -33,7 +38,7 @@ echo html_round_frame_start("Website Revamp contest poll","");
 	</tr>
 	
 <tr><td colspan="3" align="center">
-
+<br>
 <table border="0" bgcolor="#EEEEEE" cellspacing="0" cellpadding="3">
 	<tr>
 		<td colspan="2"><b>Which design do you prefer for the new ScummVM website?</b></td>
@@ -91,13 +96,14 @@ echo html_round_frame_start("Website Revamp contest poll","");
 	</table>
 </center>
 
+<br>
+
+  </div>
+</div>
 
 <?
 
-echo html_round_frame_end("&nbsp;");
-
-// end of html
-sidebar_end();
-html_footer();
+html_content_end();
+html_page_footer();
 
 ?>
