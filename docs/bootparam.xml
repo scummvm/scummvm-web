@@ -62,6 +62,8 @@ Help here is welcome -- if you want, feel free to fill in some of the gaps and
 <li><a href="#tentacle">Day of the Tentacle</a></li>
 <li><a href="#ft">Full Throttle</a></li>
 <li><a href="#digDemo">The Dig Demo</a></li>
+<li><a href="#fbear">Fatty Bear's Birthday Surprise</li>
+<li><a href="#puttputt">Putt-Putt Joins the Parade</li>
 <li><a href="#sword1">Broken Sword 1: The Shadow of the Templars</a></li>
 <li><a href="#sword2">Broken Sword 2: The Smoking Mirror</a></li>
 <li><a href="#ite">Inherit the Earth: Quest for the Orb</a></li>
@@ -781,6 +783,42 @@ and cause the game to start in that room.
 <tr><td>300</td><td>Skip intro movies</td></tr>
 <tr><td>305</td><td>Outside wrecked alien ship</td></tr>
 <tr><td>310</td><td>Canyon</td></tr>
+</table>
+
+
+<br><a name="fbear"></a>
+<h2>Fatty Bear's Birthday Surprise</h2>
+
+<table border="1" cellspacing="0" cellpadding="2">
+<tr><th>Param</th><th>Description</th></tr>
+<tr><td>100</td><td>In the kitchen</td></tr>
+<tr><td>101</td><td>In the kitchen, with bone (Dog escaped)</td></tr>
+<tr><td>102</td><td>In the kitchen, with bone and ribbon (Dog escaped)</td></tr>
+<tr><td>200</td><td>In the kitchen cupboard</td></tr>
+<tr><td>300</td><td>At the mixing bowl, with all ingredients</td></tr>
+<tr><td>301</td><td>At the mixing bowl, with all ingredients added</td></tr>
+<tr><td>500</td><td>At the locked door to attic</td></tr>
+<tr><td>600</td><td>In the bathroon, with bone and dog</td></tr>
+<tr><td>700</td><td>In the bedroom, with cake made, given extra tasks</td></tr>
+<tr><td>701</td><td>In the bedroon, with cake made</td></tr>
+<tr><td>702</td><td>In the bedroon, with cake made and letters found</td></tr>
+<tr><td>703</td><td>In the bedroom, at the start of game</td></tr>
+<tr><td>750</td><td>In the bedroon, dog escaped and letters missing</td></tr>
+<tr><td>900</td><td>In the backyard</td></tr>
+</table>
+
+
+<br><a name="puttputt"></a>
+<h2>Putt-Putt Joins the Parade</h2>
+
+<table border="1" cellspacing="0" cellpadding="2">
+<tr><th>Param</th><th>Description</th></tr>
+<tr><td>800</td><td>Outside Car Wash with two coins</td></tr>
+<tr><td>850</td><td>Outside Car Wash with one coin</td></tr>
+<tr><td>900</td><td>Outside Cartown Color with three coins</td></tr>
+<tr><td>1000</td><td>Outside Putt-Putt's house</td></tr>
+<tr><td>1001</td><td>At the start of Green street</td></tr>
+<tr><td>1002</td><td>Outside Mr Baldini's Grocery Store with all items</td></tr>
 </table>
 
 
