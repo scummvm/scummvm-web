@@ -196,6 +196,7 @@
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Dob&oacute; Bal&aacute;zs</td><td style='width:10em; text-align: left;' class='news-author'>draven</td><td>Website design</td>
 <tr><td style='width:13em; padding:2px;'>Yaroslav Fedevych</td><td style='width:10em; text-align: left;' class='news-author'>jafd</td><td>HTML/CSS for the website</td>
+<tr><td style='width:13em; padding:2px;'>David Jensen</td><td style='width:10em; text-align: left;' class='news-author'>Tyst</td><td>SVG logo conversion</td>
 <tr><td style='width:13em; padding:2px;'>Jean Marc</td><td></td><td>ScummVM logo</td>
 </table>
 </div>
