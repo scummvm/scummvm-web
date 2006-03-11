@@ -14,7 +14,7 @@ details.</p>
     <td>Beneath a Steel Sky (PC CD and Floppy)</td>
     <td>SKY.DNR<br>
         SKY.DSK<br>
-	<a href="http://www.scummvm.org/SKY.CPT">SKY.CPT</a></td>
+	<a href="http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/engine-data/trunk/sky.cpt">SKY.CPT</a></td>
   </tr>
   <tr>
     <td>Broken Sword 1: The Shadow of the Templars</td>
