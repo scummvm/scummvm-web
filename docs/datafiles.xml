@@ -346,7 +346,8 @@ details.</p>
   </tr>
   <tr>
     <td>Legend of Kyrandia, The (PC Floppy)</td>
-    <td>*.COL<br>
+    <td>*.ADL<br>
+        *.COL<br>
         *.CPS<br>
 	*.DAT<br>
 	*.EMC<br>
@@ -378,6 +379,7 @@ details.</p>
       DEMO4.COL<br>
       DEMO4.WSA<br>
       FINAL.CPS<br>
+      INTRO.ADL<br>
       INTRO.XMI<br>
       KYRANDIA.WSA<br>
       START.CPS<br>
