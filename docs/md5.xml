@@ -4,7 +4,7 @@
 <?php
 function beginSection($title, $gameid) {
 	print "<tr><th colspan='6' style='font-size: 200%'>$title ($gameid)</th></tr>";
-	print "<tr style='font-weight: bold'><td>MD5</td><td>Platform</td><td>Language</td><td>Extra information</td><td>Source</td></tr>";
+	print "<tr style='font-weight: bold'><td>MD5</td><td>Extra information</td><td>Platform</td><td>Language</td><td>Source</td></tr>";
 }
 function endSection() {
 	print "<tr><td colspan='7'>&nbsp;</td></tr>";
@@ -13,13 +13,13 @@ function addEntry($description, $platform, $language, $md5, $source = "") {
 	global $file_root;
 	print "<tr>";
 	print "<td class='md5'>$md5</td>";
+	print "<td>$description</td>";
 	print "<td>$platform</td>";
 	print "<td>";
 	if ($language != "All" && $language != "All?") {
 	  print "<img src='$file_root/images/fl-$language.png' alt='$language' style='vertical-align: middle; width: 20px; height: 12px'/> ";
 	}
 	print "$language</td>";
-	print "<td>$description</td>";
 	print "<td>$source</td></tr>";
 }
 ?>
