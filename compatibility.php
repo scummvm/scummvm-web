@@ -312,13 +312,12 @@ $notes = array(
 		   "<br>- Requires the KYRA.DAT resource file to be placed in the game directory.".
 		   "<br>- DOS Floppy and CD versions are supported by this target.".
 		   "<br>- Amiga versions aren't supported.".
-		   "<br>-".
+		   "<br>".
 		   "<br>- Ending credits are missing.".
 		   "<br>- Occasional graphics glitches.".
 		   "<br>- Music and sfx do not work properly.".
 		   "<br>".
 		   "<br>- Menu in English for all versions.".
-		   "<br>- Menu missing volume/sfx sliders for CD version.".
 		   "<br>- Sound options don't work yet."
 );
 		
