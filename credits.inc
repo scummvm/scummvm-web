@@ -59,6 +59,7 @@
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Torbj&ouml;rn Andersson</td><td style='width:10em; text-align: left;' class='news-author'>eriktorbjorn</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Sven Hesse</td><td style='width:10em; text-align: left;' class='news-author'>DrMcCoy</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Willem Jan Palenstijn</td><td style='width:10em; text-align: left;' class='news-author'>wjp</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td></td>
 </table>
 <span style='font-weight: bold'>Kyra:</span>
