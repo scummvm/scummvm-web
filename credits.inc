@@ -5,7 +5,7 @@
 <div class='par-subhead-content'>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>James Brown</td><td style='width:10em; text-align: left;' class='news-author'>ender</td><td></td>
-<tr><td style='width:13em; padding:2px;'>Max Horn</td><td style='width:10em; text-align: left;' class='news-author'>Fingolfin</td><td>This is a long desc. A really, really long long description. No I really mean *long* like in 'very long'!</td>
+<tr><td style='width:13em; padding:2px;'>Max Horn</td><td style='width:10em; text-align: left;' class='news-author'>Fingolfin</td><td></td>
 </table>
 </div>
 <div class='par-subhead'>Engine Teams</div>
