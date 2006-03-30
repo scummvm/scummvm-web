@@ -122,6 +122,10 @@ function addLinkEntry($name, $url, $desc) {
 				size of small bitmaps guessing the missing pixels without
 				blurring the images. ScummVM optionally supports enlarging the
 				game graphics using this scaler.');
+			addLinkEntry('2xSaI', 'http://elektron.its.tudelft.nl/~dalikifa/',
+				'2xSaI is another real-time graphics scaler, and one of the oldest
+				out there, too. ScummVM optionally supports enlarging the
+				game graphics using this scaler.');
 			addLinkEntry('hq2x/3x/4x', 'http://www.hiend3d.com/hq3x.html',
 				'The hq2x/3x/4x filters form a family of fast, high-quality
 				magnification filters. ScummVM optionally supports enlarging
