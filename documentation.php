@@ -71,7 +71,7 @@ if ($view and file_exists($file_root."/docs/".$view.".xml")) {
 
 
 ?>
-  <a href='http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/trunk/TODO'>ScummVM current areas of focus</a><br />
+  <a href='http://wiki.scummvm.org/index.php/TODO'>ScummVM current areas of focus</a><br />
   This page is the current TODO list for ScummVM.<br /><br />
 
 <?php
