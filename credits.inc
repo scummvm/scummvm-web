@@ -6,6 +6,7 @@
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>James Brown</td><td style='width:10em; text-align: left;' class='news-author'>ender</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Max Horn</td><td style='width:10em; text-align: left;' class='news-author'>Fingolfin</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td></td>
 </table>
 </div>
 <div class='par-subhead'>Engine Teams</div>
