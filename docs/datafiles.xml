@@ -110,6 +110,45 @@ details.</p>
 	FBPACK.TLK</td>
   </tr>
   <tr>
+    <td>Feeble Files, The (Amiga)</td>
+    <td>gfx folder<br>
+      movies folder<br>
+      sfx folder<br>
+      speech folder<br>
+      GAME22<br>
+      gfxindex.dat<br>
+      TABLES*<br>
+      TBLLIST</td>
+  </tr>
+  <tr>
+    <td>Feeble Files, The (Macintosh)</td>
+    <td>movies folder<br>
+      effects.wav<br>
+      GAME22<br>
+      graphics.vga<br>
+      TABLES*<br>
+      TBLLIST<br>
+      TEXT*</td>
+  </tr>
+  <tr>
+    <td>Feeble Files, The (Windows 2CD)</td>
+    <td>GAME22<br>
+      TABLES*<br>
+      TBLLIST<br>
+      Rename voices.wav on CD1 to voices1.wav<br>
+      Rename voices.wav on CD2 to voices2.wav</td>
+  </tr>
+  <tr>
+    <td>Feeble Files, The (Windows 4CD)</td>
+    <td>GAME22<br>
+      TABLES*<br>
+      TBLLIST<br>
+      Rename voices.wav on CD1 to voices1.wav<br>
+      Rename voices.wav on CD2 to voices2.wav<br>
+      Rename voices.wav on CD3 to voices3.wav<br>
+      Rename voices.wav on CD4 to voices4.wav</td>
+  </tr>
+  <tr>
     <td>Flight of the Amazon Queen</td>
     <td>QUEEN.1<br>
         <a href="http://0x.7fc1.org/fotaq/queen.tbl">queen.tbl</a></td>
