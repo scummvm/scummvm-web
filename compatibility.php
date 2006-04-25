@@ -129,7 +129,7 @@ $gamesOther = array(
 		'Flight of the Amazon Queen'			       	=> array('queen','98'),
 		'Gobliiins'						=> array('gob1', '95'),
 		'Inherit the Earth: Quest for the Orb'			=> array('ite', '87'),
-		'The Legend of Kyrandia'				=> array('kyra1', '70'),
+		'The Legend of Kyrandia'				=> array('kyra1', '80'),
 		'Simon the Sorcerer 1'          			=> array('simon1','93'),
 		'Simon the Sorcerer 2'           			=> array('simon2','95'),
 	      );
@@ -313,11 +313,9 @@ $notes = array(
 		   "<br>- DOS Floppy and CD versions are supported by this target.".
 		   "<br>- Amiga versions aren't supported.".
 		   "<br>".
-		   "<br>- Ending credits are missing.".
 		   "<br>- Occasional graphics glitches.".
 		   "<br>- Music and sfx do not work properly.".
 		   "<br>".
-		   "<br>- Menu in English for all versions.".
 		   "<br>- Sound options don't work yet."
 );
 		
