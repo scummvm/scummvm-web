@@ -30,7 +30,7 @@ PROJECT_NUMBER         = CVSHEAD
 # If a relative path is entered, it will be relative to the location 
 # where doxygen was started. If left blank the current directory will be used.
 
-OUTPUT_DIRECTORY       = /home/groups/s/sc/scummvm/htdocs/docs/doxygen
+OUTPUT_DIRECTORY       = /tmp/persistent/scummvm/htdocs/docs/doxygen
 
 # If the CREATE_SUBDIRS tag is set to YES, then doxygen will create 
 # 2 levels of 10 sub-directories under the output directory of each output 
@@ -416,17 +416,17 @@ WARN_LOGFILE           =
 # directories like "/usr/src/myproject". Separate the files or directories 
 # with spaces.
 
-INPUT                  = /home/groups/s/sc/scummvm/scummvm/backends/fs \
-                         /home/groups/s/sc/scummvm/scummvm/backends/midi \
-                         /home/groups/s/sc/scummvm/scummvm/backends/null \
-                         /home/groups/s/sc/scummvm/scummvm/backends/x11 \
-                         /home/groups/s/sc/scummvm/scummvm/backends/sdl \
-                         /home/groups/s/sc/scummvm/scummvm/base \
-                         /home/groups/s/sc/scummvm/scummvm/common \
-                         /home/groups/s/sc/scummvm/scummvm/engines \
-                         /home/groups/s/sc/scummvm/scummvm/graphics \
-                         /home/groups/s/sc/scummvm/scummvm/gui \
-                         /home/groups/s/sc/scummvm/scummvm/sound
+INPUT                  = /tmp/persistent/scummvm/scummvm/backends/fs \
+                         /tmp/persistent/scummvm/scummvm/backends/midi \
+                         /tmp/persistent/scummvm/scummvm/backends/null \
+                         /tmp/persistent/scummvm/scummvm/backends/x11 \
+                         /tmp/persistent/scummvm/scummvm/backends/sdl \
+                         /tmp/persistent/scummvm/scummvm/base \
+                         /tmp/persistent/scummvm/scummvm/common \
+                         /tmp/persistent/scummvm/scummvm/engines \
+                         /tmp/persistent/scummvm/scummvm/graphics \
+                         /tmp/persistent/scummvm/scummvm/gui \
+                         /tmp/persistent/scummvm/scummvm/sound
 
 # If the value of the INPUT tag contains directories, you can use the 
 # FILE_PATTERNS tag to specify one or more wildcard pattern (like *.cpp 
@@ -448,9 +448,9 @@ RECURSIVE              = YES
 # excluded from the INPUT source files. This way you can easily exclude a 
 # subdirectory from a directory tree whose root is specified with the INPUT tag.
 
-EXCLUDE                = /home/groups/s/sc/scummvm/scummvm/engines/sky/skydefs.h \
-                         /home/groups/s/sc/scummvm/scummvm/engines/sword1/swordres.h \
-                         /home/groups/s/sc/scummvm/scummvm/engines/queen/restables.cpp
+EXCLUDE                = /tmp/persistent/scummvm/scummvm/engines/sky/skydefs.h \
+                         /tmp/persistent/scummvm/scummvm/engines/sword1/swordres.h \
+                         /tmp/persistent/scummvm/scummvm/engines/queen/restables.cpp
 
 # The EXCLUDE_SYMLINKS tag can be used select whether or not files or directories 
 # that are symbolic links (a Unix filesystem feature) are excluded from the input.
