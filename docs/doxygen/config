@@ -416,7 +416,12 @@ WARN_LOGFILE           =
 # directories like "/usr/src/myproject". Separate the files or directories 
 # with spaces.
 
-INPUT                  = /home/groups/s/sc/scummvm/scummvm/base \
+INPUT                  = /home/groups/s/sc/scummvm/scummvm/backends/fs \
+                         /home/groups/s/sc/scummvm/scummvm/backends/midi \
+                         /home/groups/s/sc/scummvm/scummvm/backends/null \
+                         /home/groups/s/sc/scummvm/scummvm/backends/x11 \
+                         /home/groups/s/sc/scummvm/scummvm/backends/sdl \
+                         /home/groups/s/sc/scummvm/scummvm/base \
                          /home/groups/s/sc/scummvm/scummvm/common \
                          /home/groups/s/sc/scummvm/scummvm/engines \
                          /home/groups/s/sc/scummvm/scummvm/graphics \
