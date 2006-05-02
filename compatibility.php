@@ -129,9 +129,10 @@ $gamesOther = array(
 		'Flight of the Amazon Queen'			       	=> array('queen','98'),
 		'Gobliiins'						=> array('gob1', '95'),
 		'Inherit the Earth: Quest for the Orb'			=> array('ite', '87'),
-		'The Legend of Kyrandia'				=> array('kyra1', '80'),
 		'Simon the Sorcerer 1'          			=> array('simon1','93'),
 		'Simon the Sorcerer 2'           			=> array('simon2','95'),
+		'The Feeble Files'           				=> array('feeble','70'),
+		'The Legend of Kyrandia'				=> array('kyra1', '80'),
 	      );
 
 $notes = array(
@@ -308,6 +309,9 @@ $notes = array(
 		   "<br>- Amiga, DOS, Macintosh and Windows versions supported by this target".
                    "<br>- Only the default language (English) in Amiga &amp; Mactinosh versions is supported".
                    "<br>- F10 key animation is different in Amiga &amp; Macintosh versions",
+"feeble"        => "Game is completable, with glitches".
+		   "<br>- Amiga, Macintosh and Windows versions supported by this target".
+		   "<br>- Various graphical glitches in game and Oracle",
 "kyra1"		=> "Game is completable.".
 		   "<br>- Requires the KYRA.DAT resource file to be placed in the game directory.".
 		   "<br>- DOS Floppy and CD versions are supported by this target.".
