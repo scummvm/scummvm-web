@@ -117,6 +117,7 @@ details.</p>
       speech folder<br>
       GAME22<br>
       gfxindex.dat<br>
+      setup<br>
       TABLES*<br>
       TBLLIST</td>
   </tr>
@@ -126,6 +127,7 @@ details.</p>
       effects.wav<br>
       GAME22<br>
       graphics.vga<br>
+      setup<br>
       TABLES*<br>
       TBLLIST</td>
   </tr>
@@ -133,6 +135,7 @@ details.</p>
     <td>Feeble Files, The (Windows 2CD)</td>
     <td>*.VGA<br>
       GAME22<br>
+      save.999<br>
       TABLES*<br>
       TBLLIST<br>
       Rename voices.wav on CD1 to voices1.wav<br>
@@ -142,6 +145,7 @@ details.</p>
     <td>Feeble Files, The (Windows 4CD)</td>
     <td>*.VGA<br>
       GAME22<br>
+      save.999<br>
       TABLES*<br>
       TBLLIST<br>
       Rename voices.wav on CD1 to voices1.wav<br>
