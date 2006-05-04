@@ -83,6 +83,7 @@ $cat->add(11, "cat-comi.png", "The Curse of Monkey Island");
 $cat = & new category(2, "Other games");
 $cat->add(5, "cat-sky.png", "Beneath a Steel Sky");
 $cat->add(0, "cat-bs1.png", "Broken Sword series");
+$cat->add(7, "cat-feeble.png", "The Feeble Files");
 $cat->add(3, "cat-queen.png", "Flight of the Amazon Queen");
 $cat->add(1, "cat-gob1.png", "Gobliiins series");
 $cat->add(2, "cat-ite.png", "Inherit the Earth: Quest for the Orb");
