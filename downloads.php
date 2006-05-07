@@ -270,6 +270,14 @@ hosted by <a href="http://www.mthN.de">Snoke Media and Tech Hosting Network</a>!
     </div>
 
     <div class="par-content">
+    <p>
+      <b>WARNING:</b> The following builds are bleeding edge development
+      versions made directly from our Subversion (= SVN) source repository.
+      That means that they received no proper testing (usually no testing at
+      all) and that any number of things may be broken in the them. For
+      example, they might corrupt your config file, crash frequently or or
+      might not even start. Use them at your own risk! 
+    </p>
 	<p>
 	  View the <a href="/daily/ChangeLog">ChangeLog</a> to see the latest updates of ScummVM.
 	</p>
