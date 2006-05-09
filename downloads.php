@@ -232,7 +232,7 @@ Smartphone 2003, and Windows Mobile 5 <font class='cat-count'>(1.5M zipfile)</fo
     <div class="par-content">
 
 	<table>
-	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt="" /></td><td class='cat-link'><a href="http://svn.sourceforge.net/viewcvs.cgi/*checkout*/scummvm/engine-data/trunk/sky.cpt">Beneath a Steel Sky, SKY.CPT - required to run the game with a post-0.7.* ScummVM</a> <font class='cat-count'>(416k)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt="" /></td><td class='cat-link'><a href="https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/sky.cpt">Beneath a Steel Sky, SKY.CPT - required to run the game with a post-0.7.* ScummVM</a> <font class='cat-count'>(416k)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/bass-cd-1.2.zip?download">Beneath a Steel Sky, Freeware CD Version</a> <font class='cat-count'>(67M)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt="" /></td><td class='cat-link'><a href="http://www.mixnmojo.com/bss/BASS-Floppy.zip">Beneath a Steel Sky, Freeware Floppy Version</a> <font class='cat-count'>(7.3M)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ_Talkie.zip?download">Flight of the Amazon Queen, Freeware CD Version (small - has mp3 compressed sfx/speech)</a> <font class='cat-count'>(34.8M)</font></td></tr>
@@ -247,7 +247,7 @@ Smartphone 2003, and Windows Mobile 5 <font class='cat-count'>(1.5M zipfile)</fo
 	  <tr><td class='cat-bullet'><img src='images/cat-bs1.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ITA_AddOn.zip?download">Broken Sword 1 Cutscene Pack (Italian AddOn)</a> <font class='cat-count'>(2.5M) Override files in English Pack with this archive contents</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-bs1.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ESP_AddOn.zip?download">Broken Sword 1 Cutscene Pack (Spanish AddOn)</a> <font class='cat-count'>(2.2M) Override files in English Pack with this archive contents</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-bs2.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_Cutscenes.zip?download">Broken Sword 2 Cutscene Pack (ALL LANGUAGES)</a> <font class='cat-count'>(27.8M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-kyra.png' alt="" /></td><td class='cat-link'><a href="http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/engine-data/trunk/kyra.dat">The Legend of Kyrandia, KYRA.DAT - required to run all versions of the game</a> <font class='cat-count'>(60k)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-kyra.png' alt="" /></td><td class='cat-link'><a href="https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/kyra.dat">The Legend of Kyrandia, KYRA.DAT - required to run all versions of the game</a> <font class='cat-count'>(60k)</font></td></tr>
 	</table>
 	<p>
 	<i>Having trouble downloading Flight of the Amazon Queen?</i>
