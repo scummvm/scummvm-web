@@ -232,6 +232,7 @@
 <tr><td style='width:13em; padding:2px;'>Sander Buskens</td><td></td><td>For his work on the initial reversing of Monkey2</td>
 <tr><td style='width:13em; padding:2px;'>???</td><td style='width:10em; text-align: left;' class='news-author'>Canadacow</td><td>For the original MT-32 emulator</td>
 <tr><td style='width:13em; padding:2px;'>Kevin Carnes</td><td></td><td>For Scumm16, the basis of ScummVM's older gfx codecs</td>
+<tr><td style='width:13em; padding:2px;'>Patrick Combet</td><td style='width:10em; text-align: left;' class='news-author'>Dorian Gray</td><td>For the original Gobliiins ADL player</td>
 <tr><td style='width:13em; padding:2px;'>Ivan Dubrov</td><td></td><td>For contributing the initial version of the Gobliiins engine</td>
 <tr><td style='width:13em; padding:2px;'>Joachim Eberhard</td><td style='width:10em; text-align: left;' class='news-author'>joachimeberhard</td><td>For numerous contributions to documentation</td>
 <tr><td style='width:13em; padding:2px;'>???</td><td style='width:10em; text-align: left;' class='news-author'>Jezar</td><td>For his freeverb filter implementation</td>
