@@ -206,6 +206,7 @@
 <div class='par-subhead-dots'>&nbsp;</div>
 <div class='par-subhead-content'>
 <table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Ori Avtalion</td><td style='width:10em; text-align: left;' class='news-author'>salty-horse</td><td>Subtitle control options in the GUI</td>
 <tr><td style='width:13em; padding:2px;'>Stuart Caie</td><td></td><td>Decoders for Simon 1 Amiga data files</td>
 <tr><td style='width:13em; padding:2px;'>Paolo Costabel</td><td></td><td>PSP port contributions</td>
 <tr><td style='width:13em; padding:2px;'>Benjamin Haisch</td><td></td><td>Encoder for DXA videos</td>
