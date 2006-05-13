@@ -551,12 +551,12 @@ variable?</p></div>
 using. Under Windows, you could try creating a file called
 <b>scummvm.bat</b> in the same folder as <b>scummvm.exe</b>. Open this
 file in your favorite text editor and put something like this in it:</p>
-<p><blockquote><pre>
+<blockquote><pre>
 @echo off
 set SDL_VIDEODRIVER=windib
 set SDL_AUDIODRIVER=waveout
 scummvm.exe %1 %2 %3 %4 %5 %6 %7 %8 %9
-</pre></blockquote></p>
+</pre></blockquote>
 <p>You should now be able to run ScummVM by double-clicking on this
 batch file, instead of the ScummVM executable.</p>
 <p>On more recent versions of Windows, you can also set an environment
