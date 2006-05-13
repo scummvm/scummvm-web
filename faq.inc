@@ -550,7 +550,7 @@ variable?</p></div>
 <p>That depends on what operating system and/or command shell you are
 using. Under Windows, you could try creating a file called
 <b>scummvm.bat</b> in the same folder as <b>scummvm.exe</b>. Open this
-file in your favorite text editor and put something like this in it:
+file in your favorite text editor and put something like this in it:</p>
 <p><blockquote><pre>
 @echo off
 set SDL_VIDEODRIVER=windib
