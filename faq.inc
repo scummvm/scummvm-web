@@ -72,7 +72,10 @@ Sword I intro.</a></dt>
 <dt>4.13. <a href="#AEN238">I get "WARNING: Unable to open
 configration file C:\windows\scummvm.ini!"</a></dt>
 <dt>4.14. <a href="#AEN243">I get "Failed to save game state to
-file: xxx"</a></dt></dl></dd>
+file: xxx"</a></dt>
+<dt>4.15. <a href="#AEN244">ScummVM starts, but all I get is a transparent window!</a></dt>
+<dt>4.16. <a href="#AEN245">ScummVM runs, but sound is stuttering and/or garbled!</a></dt>
+<dt>4.17. <a href="#AEN246">How do I set an environment variable?</a></dt></dl></dd>
 <dt>5. <a href="#AEN247">Features</a></dt>
 <dd>
 <dl>
@@ -521,6 +524,44 @@ state to file: xxx"</p></div>
 <div class="answer">
 <p>Check savepath in Options-&gt;Paths-&gt;Save Path. That should
 point to writeable directory.</p></div></div></div>
+<div class="qandaentry">
+<div class="question">
+<p><a name="AEN244"></a><b>4.15.</b> ScummVM starts, but all I
+get is a transparent window!</a></dt>
+<div class="answer">
+<p>This problem has been reported to happen under Windows in some
+cases. Check that you have the latest drivers for your graphics
+card. If that does not help, try setting the <tt>SDL_VIDEODRIVER</tt>
+environment variable to "windib" and try again.</p></div></div></div>
+<div class="qandaentry">
+<div class="question">
+<p><a name="AEN245"></a><b>4.16.</b> ScummVM runs, but sound is
+stuttering and/or gabled!</a></dt>
+<div class="answer">
+<p>This problem has been reported to happen under Windows in some
+cases. Check that you have the latest drivers for your sound card. If
+that does not help, try setting the <tt>SDL_AUDIODRIVER</tt>
+environment variable to "waveout" and try again.</p></div></div></div>
+<div class="qandaentry">
+<div class="question">
+<p><a name="AEN246"></a><b>4.17.</b> How do I set an environment
+variable?</a></dt>
+<div class="answer">
+<p>That depends on what operating system and/or command shell you are
+using. Under Windows, you could try creating a file called
+<b>scummvm.bat</b> in the same folder as <b>scummvm.exe</b>. Open this
+file in your favorite text editor and put something like this in it:
+<p><blockquote><pre>
+@echo off
+set SDL_VIDEODRIVER=windib
+set SDL_AUDIODRIVER=waveout
+scummvm.exe %1 %2 %3 %4 %5 %6 %7 %8 %9
+</pre></blockquote></p>
+<p>You should now be able to run ScummVM by double-clicking on this
+batch file, instead of the ScummVM executable.</p>
+<p>On more recent versions of Windows, you can also set an environment
+variable permanently, and for all applications, through the control
+panel.</p></div></div></div>
 <div class="qandadiv">
 <h3><a name="AEN247"></a>5. Features</h3>
 <div class="qandaentry">
