@@ -527,7 +527,7 @@ point to writeable directory.</p></div></div></div>
 <div class="qandaentry">
 <div class="question">
 <p><a name="AEN244"></a><b>4.15.</b> ScummVM starts, but all I
-get is a transparent window!</a></dt>
+get is a transparent window!</a></div>
 <div class="answer">
 <p>This problem has been reported to happen under Windows in some
 cases. Check that you have the latest drivers for your graphics
@@ -536,7 +536,7 @@ environment variable to "windib" and try again.</p></div></div></div>
 <div class="qandaentry">
 <div class="question">
 <p><a name="AEN245"></a><b>4.16.</b> ScummVM runs, but sound is
-stuttering and/or gabled!</a></dt>
+stuttering and/or gabled!</a></div>
 <div class="answer">
 <p>This problem has been reported to happen under Windows in some
 cases. Check that you have the latest drivers for your sound card. If
@@ -545,7 +545,7 @@ environment variable to "waveout" and try again.</p></div></div></div>
 <div class="qandaentry">
 <div class="question">
 <p><a name="AEN246"></a><b>4.17.</b> How do I set an environment
-variable?</a></dt>
+variable?</a></div>
 <div class="answer">
 <p>That depends on what operating system and/or command shell you are
 using. Under Windows, you could try creating a file called
