@@ -523,7 +523,7 @@ ScummVM, since the file does not exist yet then.</p></div></div>
 state to file: xxx"</p></div>
 <div class="answer">
 <p>Check savepath in Options-&gt;Paths-&gt;Save Path. That should
-point to writeable directory.</p></div></div></div>
+point to writeable directory.</p></div></div>
 <div class="qandaentry">
 <div class="question">
 <p><a name="AEN244"></a><b>4.15.</b> ScummVM starts, but all I
@@ -532,16 +532,16 @@ get is a transparent window!</p></div>
 <p>This problem has been reported to happen under Windows in some
 cases. Check that you have the latest drivers for your graphics
 card. If that does not help, try setting the <tt>SDL_VIDEODRIVER</tt>
-environment variable to "windib" and try again.</p></div></div></div>
+environment variable to "windib" and try again.</p></div></div>
 <div class="qandaentry">
 <div class="question">
 <p><a name="AEN245"></a><b>4.16.</b> ScummVM runs, but sound is
-stuttering and/or gabled!</p></div>
+stuttering and/or garbled!</p></div>
 <div class="answer">
 <p>This problem has been reported to happen under Windows in some
 cases. Check that you have the latest drivers for your sound card. If
 that does not help, try setting the <tt>SDL_AUDIODRIVER</tt>
-environment variable to "waveout" and try again.</p></div></div></div>
+environment variable to "waveout" and try again.</p></div></div>
 <div class="qandaentry">
 <div class="question">
 <p><a name="AEN246"></a><b>4.17.</b> How do I set an environment
