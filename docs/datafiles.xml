@@ -14,7 +14,7 @@ details.</p>
     <td>Beneath a Steel Sky (PC CD and Floppy)</td>
     <td>SKY.DNR<br>
         SKY.DSK<br>
-	<a href="http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/engine-data/trunk/sky.cpt">SKY.CPT</a></td>
+	<a href="https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/sky.cpt">SKY.CPT</a></td>
   </tr>
   <tr>
     <td>Broken Sword 1: The Shadow of the Templars</td>
@@ -402,7 +402,7 @@ details.</p>
 	CREDITS.TXT<br>
 	*.WSA<br>
 	*.XMI<br>
-	<a href="http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/engine-data/trunk/kyra.dat">kyra.dat</a></td>
+	<a href="https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/kyra.dat">kyra.dat</a></td>
   </tr>
   <tr>
     <td>Legend of Kyrandia, The (PC CD)</td>
@@ -410,7 +410,7 @@ details.</p>
       *.CPS<br>
       *.PAK<br>
       *.VRM<br>
-      <a href="http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/engine-data/trunk/kyra.dat">kyra.dat</a></td>
+      <a href="https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/kyra.dat">kyra.dat</a></td>
   </tr>
   <tr>
     <td>Legend of Kyrandia, The (Demo)</td>
@@ -431,7 +431,7 @@ details.</p>
       START.CPS<br>
       TOP.CPS<br>
       WESTWOOD.WSA<br>
-      <a href="http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/engine-data/trunk/kyra.dat">kyra.dat</a></td>
+      <a href="https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/kyra.dat">kyra.dat</a></td>
   </tr>
   <tr>
     <td>Let's Explore the Airport with Buzzy (Demo)</td>
