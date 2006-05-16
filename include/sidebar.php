@@ -11,7 +11,7 @@ function sidebar_start () {
    $g = new htmlmenu("Main Menu", "menu-main");
     
     $g->add("Home", $file_root);
-    $g->add("ScreenShots", $file_root."/screenshots.php");
+    $g->add("Screenshots", $file_root."/screenshots.php");
     $g->add("Forums", "http://forums.scummvm.org/");
     $g->add("Downloads", $file_root."/downloads.php");
 

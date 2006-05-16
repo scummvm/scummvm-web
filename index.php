@@ -114,9 +114,9 @@ function scrshot_jn(x,n) {
 	<td class="tlc">&nbsp;</td>
 	<td class="heading"><h2><?php
  if($isOpera)
-   shadowed_text("Game Shots", '#356a02', '#ffffff', 'shadow-text-em');
+   shadowed_text("Screenshots", '#356a02', '#ffffff', 'shadow-text-em');
  else
-   shadowed_text("Game Shots", '#356a02', '#ffffff');
+   shadowed_text("Screenshots", '#356a02', '#ffffff');
  ?></h2></td>
 	<td class="trc">&nbsp;</td>
 	</tr></table>
