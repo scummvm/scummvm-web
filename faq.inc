@@ -532,7 +532,16 @@ get is a transparent window!</p></div>
 <p>This problem has been reported to happen under Windows in some
 cases. Check that you have the latest drivers for your graphics
 card. If that does not help, try setting the <tt>SDL_VIDEODRIVER</tt>
-environment variable to "windib" and try again.</p></div></div>
+environment variable to "windib" and try again.</p>
+<p>Apparently other applications have had the same problem, because
+the release notes for SDL 1.2.10 (May 17, 2006) contained the
+following note:</p>
+<blockquote>
+The "windib" video driver is the default now, to prevent problems with
+certain laptops, 64-bit Windows, and Windows Vista. The DirectX driver
+is still available, and can be selected by setting the environment
+variable <tt>SDL_VIDEODRIVER</tt> to "directx".
+</blockquote></div></div>
 <div class="qandaentry">
 <div class="question">
 <p><a name="AEN245"></a><b>4.16.</b> ScummVM runs, but sound is
