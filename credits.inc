@@ -29,6 +29,11 @@
 <tr><td style='width:13em; padding:2px;'>Gregory Montoir</td><td style='width:10em; text-align: left;' class='news-author'>cyx</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td></td>
 </table>
+<span style='font-weight: bold'>AGI:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Pawe&#322; Ko&#322;odziejski</td><td style='width:10em; text-align: left;' class='news-author'>aquadran</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td></td>
+</table>
 <span style='font-weight: bold'>BASS:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Robert G&ouml;ffringmann</td><td style='width:10em; text-align: left;' class='news-author'>lavosspawn</td><td></td>
@@ -239,6 +244,7 @@
 <tr><td style='width:13em; padding:2px;'>???</td><td style='width:10em; text-align: left;' class='news-author'>Jezar</td><td>For his freeverb filter implementation</td>
 <tr><td style='width:13em; padding:2px;'>Jim Leiterman</td><td></td><td>Various info on his FM-TOWNS/Marty SCUMM ports</td>
 <tr><td style='width:13em; padding:2px;'>???</td><td style='width:10em; text-align: left;' class='news-author'>lloyd</td><td>For deep tech details about C64 Zak &amp; MM</td>
+<tr><td style='width:13em; padding:2px;'>Sarien Team</td><td></td><td>Original AGI engine code</td>
 <tr><td style='width:13em; padding:2px;'>Jimmi Th&oslash;gersen</td><td></td><td>For ScummRev, and much obscure code/documentation</td>
 <tr><td style='width:13em; padding:2px;'>???</td><td style='width:10em; text-align: left;' class='news-author'>Tristan</td><td>For additional work on the original MT-32 emulator</td>
 </table>
