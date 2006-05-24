@@ -66,76 +66,76 @@ else {
 
 // This array defines the games and their ratings, etc.
 $gamesLucas = array(
-		'Maniac Mansion'					=> array('maniac','90'),
-		'Zak McKracken and the Alien Mindbenders'		=> array('zak','90'),
-		'Indiana Jones and the Last Crusade'			=> array('indy3','90'),
-		'Loom'							=> array('loom','95'),
-		'Passport to Adventure' 				=> array('pass','95'),
-		'The Secret of Monkey Island'				=> array('monkey','95'),
-		'Monkey Island 2: LeChuck\'s Revenge'			=> array('monkey2','95'),
-		'Indiana Jones and the Fate of Atlantis'		=> array('atlantis','95'),
-		'Day of the Tentacle'					=> array('tentacle','95'),
-		'Sam &amp; Max Hit the Road'                            => array('samnmax','95'),
-		'Full Throttle'						=> array('ft','90'),
-		'The Dig'                                               => array('dig','90'),
-		'The Curse of Monkey Island'				=> array('comi','90'),
-	      );
+	'Maniac Mansion'                                        => array('maniac','90'),
+	'Zak McKracken and the Alien Mindbenders'               => array('zak','90'),
+	'Indiana Jones and the Last Crusade'                    => array('indy3','90'),
+	'Loom'                                                  => array('loom','95'),
+	'Passport to Adventure'                                 => array('pass','95'),
+	'The Secret of Monkey Island'                           => array('monkey','95'),
+	'Monkey Island 2: LeChuck\'s Revenge'                   => array('monkey2','95'),
+	'Indiana Jones and the Fate of Atlantis'                => array('atlantis','95'),
+	'Day of the Tentacle'                                   => array('tentacle','95'),
+	'Sam &amp; Max Hit the Road'                            => array('samnmax','95'),
+	'Full Throttle'                                         => array('ft','90'),
+	'The Dig'                                               => array('dig','90'),
+	'The Curse of Monkey Island'                            => array('comi','90'),
+	);
 
 $gamesHE = array(
-		'Backyard Baseball'							=> array('baseball','20'),
-		'Backyard Football'							=> array('football','80'),
-		'Backyard Soccer'							=> array('soccer','20'),
-		'Big Thinkers First Grade'						=> array('thinker1','85'),
-		'Big Thinkers Kindergarten'						=> array('thinkerk','90'),
-		'Blue\'s ABC Time (Demo)'						=> array('BluesABCTimeDemo','90'),
-		'Fatty Bear\'s Birthday Surprise'					=> array('fbear','93'),
-		'Fatty Bear\'s Fun Pack'						=> array('fbpack','95'),
-		'Freddi Fish 1: The Case of the Missing Kelp Seeds'			=> array('freddi','90'),
-		'Freddi Fish 2: The Case of the Haunted Schoolhouse'			=> array('freddi2','85'),
-		'Freddi Fish 3: The Case of the Stolen Conch Shell'			=> array('freddi3','90'),
-		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'	=> array('freddi4','90'),
-		'Freddi Fish and Luther\'s Maze Madness'				=> array('maze','90'),
-		'Freddi Fish and Luther\'s Water Worries'				=> array('water','90'),
-		'Let\'s Explore the Airport with Buzzy'					=> array('airport','85'),
-		'Let\'s Explore the Farm with Buzzy'					=> array('farm','85'),
-		'Let\'s Explore the Jungle with Buzzy'					=> array('jungle','85'),
-		'Pajama Sam 1: No Need to Hide When It\'s Dark Outside'			=> array('pajama','90'),
-		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'		=> array('pajama2','90'),
-		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('pajama3','80'),
-		'Pajama Sam\'s Lost &amp; Found'					=> array('lost','80'),
-		'Pajama Sam\'s Sock Works'						=> array('socks','90'),
-		'Putt-Putt Enters the Race'						=> array('puttrace','90'),
-		'Putt-Putt Goes to the Moon'						=> array('puttmoon','95'),
-		'Putt-Putt Joins the Circus'						=> array('puttcircus','90'),
-		'Putt-Putt Joins the Parade'						=> array('puttputt','95'),
-		'Putt-Putt Saves the Zoo'						=> array('puttzoo','90'),
-		'Putt-Putt Travels Through Time'					=> array('putttime','90'),
-		'Putt-Putt and Pep\'s Balloon-O-Rama'					=> array('balloon','90'),
-		'Putt-Putt and Pep\'s Dog on a Stick'					=> array('dog','90'),
-		'Putt-Putt &amp; Fatty Bear\'s Activity Pack'				=> array('activity','95'),
-		'Putt-Putt\'s Fun Pack'							=> array('funpack','95'),
-		'SPY Fox 1: Dry Cereal'							=> array('spyfox','85'),
-		'SPY Fox 2: Some Assembly Required'					=> array('spyfox2','90'),
-		'SPY Fox 3: Operation Ozone'						=> array('spyozon','70'),
-		'SPY Fox in Cheese Chase'						=> array('chase','85'),
-		'SPY Fox in Hold the Mustard'						=> array('mustard','85'),
-	      );
+	'Backyard Baseball'                                                => array('baseball','20'),
+	'Backyard Football'                                                => array('football','80'),
+	'Backyard Soccer'                                                  => array('soccer','20'),
+	'Big Thinkers First Grade'                                         => array('thinker1','85'),
+	'Big Thinkers Kindergarten'                                        => array('thinkerk','90'),
+	'Blue\'s ABC Time (Demo)'                                          => array('BluesABCTimeDemo','90'),
+	'Fatty Bear\'s Birthday Surprise'                                  => array('fbear','93'),
+	'Fatty Bear\'s Fun Pack'                                           => array('fbpack','95'),
+	'Freddi Fish 1: The Case of the Missing Kelp Seeds'                => array('freddi','90'),
+	'Freddi Fish 2: The Case of the Haunted Schoolhouse'               => array('freddi2','85'),
+	'Freddi Fish 3: The Case of the Stolen Conch Shell'                => array('freddi3','90'),
+	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'   => array('freddi4','90'),
+	'Freddi Fish and Luther\'s Maze Madness'                           => array('maze','90'),
+	'Freddi Fish and Luther\'s Water Worries'                          => array('water','90'),
+	'Let\'s Explore the Airport with Buzzy'                            => array('airport','85'),
+	'Let\'s Explore the Farm with Buzzy'                               => array('farm','85'),
+	'Let\'s Explore the Jungle with Buzzy'                             => array('jungle','85'),
+	'Pajama Sam 1: No Need to Hide When It\'s Dark Outside'            => array('pajama','90'),
+	'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'       => array('pajama2','90'),
+	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'   => array('pajama3','80'),
+	'Pajama Sam\'s Lost &amp; Found'                                   => array('lost','80'),
+	'Pajama Sam\'s Sock Works'                                         => array('socks','90'),
+	'Putt-Putt Enters the Race'                                        => array('puttrace','90'),
+	'Putt-Putt Goes to the Moon'                                       => array('puttmoon','95'),
+	'Putt-Putt Joins the Circus'                                       => array('puttcircus','90'),
+	'Putt-Putt Joins the Parade'                                       => array('puttputt','95'),
+	'Putt-Putt Saves the Zoo'                                          => array('puttzoo','90'),
+	'Putt-Putt Travels Through Time'                                   => array('putttime','90'),
+	'Putt-Putt and Pep\'s Balloon-O-Rama'                              => array('balloon','90'),
+	'Putt-Putt and Pep\'s Dog on a Stick'                              => array('dog','90'),
+	'Putt-Putt &amp; Fatty Bear\'s Activity Pack'                      => array('activity','95'),
+	'Putt-Putt\'s Fun Pack'                                            => array('funpack','95'),
+	'SPY Fox 1: Dry Cereal'                                            => array('spyfox','85'),
+	'SPY Fox 2: Some Assembly Required'                                => array('spyfox2','90'),
+	'SPY Fox 3: Operation Ozone'                                       => array('spyozon','70'),
+	'SPY Fox in Cheese Chase'                                          => array('chase','85'),
+	'SPY Fox in Hold the Mustard'                                      => array('mustard','85'),
+	);
 
 $gamesOther = array(
 
-		'Beneath a Steel Sky'			       		=> array('sky','98'),
-		'Broken Sword 1: The Shadow of the Templars'  		=> array('sword1','98'),
-		'Broken Sword 2: The Smoking Mirror'	       		=> array('sword2','98'),
-		'Future Wars'				=> array('fw', 'XX'),
-		'Flight of the Amazon Queen'			       	=> array('queen','98'),
-		'Gobliiins'						=> array('gob1', '95'),
-		'Inherit the Earth: Quest for the Orb'			=> array('ite', '87'),
-		'Simon the Sorcerer 1'          			=> array('simon1','93'),
-		'Simon the Sorcerer 2'           			=> array('simon2','95'),
-		'The Feeble Files'           				=> array('feeble','70'),
-		'The Legend of Kyrandia'				=> array('kyra1', '80'),
-		'Operation Stealth'				=> array('os', 'XX'),
-	      );
+	'Beneath a Steel Sky'                                   => array('sky','98'),
+	'Broken Sword 1: The Shadow of the Templars'            => array('sword1','98'),
+	'Broken Sword 2: The Smoking Mirror'                    => array('sword2','98'),
+	'Future Wars'                                           => array('fw', 'XX'),
+	'Flight of the Amazon Queen'                            => array('queen','98'),
+	'Gobliiins'                                             => array('gob1', '95'),
+	'Inherit the Earth: Quest for the Orb'                  => array('ite', '87'),
+	'Simon the Sorcerer 1'                                  => array('simon1','93'),
+	'Simon the Sorcerer 2'                                  => array('simon2','95'),
+	'The Feeble Files'                                      => array('feeble','70'),
+	'The Legend of Kyrandia'                                => array('kyra1', '80'),
+	'Operation Stealth'                                     => array('os', 'XX'),
+	);
 
 $notes = array(
 "maniac"	=> "No known issues, game is completable.".
@@ -146,10 +146,10 @@ $notes = array(
 		   "<br>- Amiga, Atari ST, Commodore 64, FM-TOWNS and PC versions supported by this target".
 		   "<br>- Several sound effects buggy or missing in Amiga version".
 		   "<br>- No music or sound effects in the Commodore 64 version".
-                   "<br>- Kanji version requires the FM-TOWNS Font ROM",
+		   "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "indy3" 	=> "Game is completable".
 		   "<br>- Amiga, Atari ST, FM-TOWNS, Macintosh and PC versions supported by this target".
-                   "<br>- Kanji version requires the FM-TOWNS Font ROM",
+		   "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "loom"		=> "No known issues, game is completable.".
 		   "<br>- Amiga, Atari ST, FM-TOWNS, Macintosh and PC versions supported by this target".
 		   "<br>- The Roland update from LucasArts is required for MIDI support in the EGA version".
@@ -161,7 +161,7 @@ $notes = array(
 		   "<ul><li>0 practice (default)".
 		       "<li>1 standard".
 		       "<li>2 expert</ul>".
-                   "<br>- Kanji version requires the FM-TOWNS Font ROM",
+		   "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "monkey"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, Atari ST, FM-TOWNS, Macintosh, PC and SegaCD versions supported by this target".
 		   "<br>- The Roland update from LucasArts is required for MIDI support in the EGA version".
@@ -171,10 +171,10 @@ $notes = array(
 "pass"		=> "No known issues, game is completable.",
 "monkey2"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, FM-TOWNS, Macintosh and PC versions supported by this target".
-                   "<br>- Kanji version requires the FM-TOWNS Font ROM",
+		   "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "atlantis"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, FM-TOWNS, Macintosh and PC versions supported by this target".
-                   "<br>- Kanji version requires the FM-TOWNS Font ROM",
+		   "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "tentacle"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and PC versions supported by this target".
 		   "<br>- Maniac Mansion isn't playable on Ed's computer. To play the included copy, use 'Add Game' from the main ScummVM launcher and select the MANIAC directory inside the DOTT game directory",
@@ -196,7 +196,7 @@ $notes = array(
 "soccer"	=> "Game isn't playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- PlayStation 1 version doesn't use SCUMM, so will never be supported.".
-                   "<br>- Players on field are stuck in upper left corner and can't be controlled".
+		   "<br>- Players on field are stuck in upper left corner and can't be controlled".
 		   "<br>- Minor graphical glitches",
 "thinker1"	=> "Game is playable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
@@ -307,11 +307,11 @@ $notes = array(
 		   "<br>- Occasional graphical glitches",
 "simon1" 	=> "No known issues, game is completable.".
 		   "<br>- Acorn (CD), DOS and Windows versions supported by this target",
-"simon2"        => "No known issues, game is completable.".
+"simon2"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, DOS, Macintosh and Windows versions supported by this target".
-                   "<br>- Only the default language (English) in Amiga &amp; Mactinosh versions is supported".
-                   "<br>- F10 key animation is different in Amiga &amp; Macintosh versions",
-"feeble"        => "Game is completable, with glitches".
+		   "<br>- Only the default language (English) in Amiga &amp; Mactinosh versions is supported".
+		   "<br>- F10 key animation is different in Amiga &amp; Macintosh versions",
+"feeble"	=> "Game is completable, with glitches".
 		   "<br>- Amiga, Macintosh and Windows versions supported by this target".
 		   "<br>- Various graphical glitches in game and Oracle",
 "kyra1"		=> "Game is completable.".
