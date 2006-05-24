@@ -126,7 +126,6 @@ $gamesOther = array(
 	'Beneath a Steel Sky'                                   => array('sky','98'),
 	'Broken Sword 1: The Shadow of the Templars'            => array('sword1','98'),
 	'Broken Sword 2: The Smoking Mirror'                    => array('sword2','98'),
-	'Future Wars'                                           => array('fw', 'XX'),
 	'Flight of the Amazon Queen'                            => array('queen','98'),
 	'Gobliiins'                                             => array('gob1', '95'),
 	'Inherit the Earth: Quest for the Orb'                  => array('ite', '87'),
@@ -134,7 +133,6 @@ $gamesOther = array(
 	'Simon the Sorcerer 2'                                  => array('simon2','95'),
 	'The Feeble Files'                                      => array('feeble','70'),
 	'The Legend of Kyrandia'                                => array('kyra1', '80'),
-	'Operation Stealth'                                     => array('os', 'XX'),
 	);
 
 $notes = array(
