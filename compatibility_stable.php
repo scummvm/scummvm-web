@@ -263,7 +263,7 @@ $notes = array(
 		   "<br>- Both 3DO and DOS versions supported by this target",
 "spyfox"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor selection issue with buttons on paintings",
+		   "<br>- Can't select buttons on paintings and safe in the NogRoom multiple times, just select a different item between each change.",
 "spyfox2"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "spyozon"	=> "Game is completable, with glitches".
