@@ -12,9 +12,9 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_page_header('ScummVM :: Compatibility - CVS');
+html_page_header('ScummVM :: Compatibility - SVN');
 
-html_content_begin('CVS Compatibility');
+html_content_begin('SVN Compatibility');
 
 if (isset($_GET['details'])) {
 	$details = $_GET['details'];

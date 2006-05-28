@@ -49,7 +49,7 @@ function addLinkEntry($name, $url, $desc) {
 
     <?php html_subhead_start("Official ports"); ?>
     <div class="par-subhead-content">
-	<p>Some additional links for ports that have been merged into our CVS</p>
+	<p>Some additional links for ports that have been merged into our SVN</p>
 
 	<div class="linklist">
 		<?php
@@ -65,7 +65,7 @@ function addLinkEntry($name, $url, $desc) {
     <?php html_subhead_start("Unofficial ports"); ?>
     <div class="par-subhead-content">
 	<p>There are a few unofficial ports of ScummVM floating around. Usually we prefer to merge any ports into our official
-	CVS, but for the following this has not (yet) happened for various reasons. Note that the ScummVM team does not endorse
+	SVN, but for the following this has not (yet) happened for various reasons. Note that the ScummVM team does not endorse
 	any of these ports. We did not test them, and we do not guarantee that they work properly. <span style="color: red">Use at your own risk!</span></p>
 
 	<div class="linklist">
