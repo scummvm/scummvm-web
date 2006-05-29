@@ -301,7 +301,7 @@ hosted by <a href="http://www.mthN.de">Snoke Media and Tech Hosting Network</a>!
 	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt="" /></td><td class='cat-link'><a href="http://arisme.free.fr/PocketScumm/daily/">PocketPC Builds</a> <font class='cat-count'> (infrequent snapshots of the PocketPC binaries)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-debian.png' alt="" /></td><td class='cat-link'><a href="/downloads/scummvm_opie_svn_arm.ipk">Familiar SDL-Opie Linux build for iPAQ h1915 and MyPal 716</a> <font class='cat-count'> (infrequently from Subversion trunk, <? echo intval(filesize("downloads/scummvm_opie_svn_arm.ipk")/1024) ?>K ipk file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummvm_opie_svn_arm.ipk")); ?>)</font></td></tr>
 <!--  <tr><td class='cat-bullet'><img src='images/catpl-dc.png' alt="" /></td><td class='cat-link'><a href="http://paras.rasmatazz.bei.t-online.de/">Dreamcast Daily Builds</a></td></tr> -->
-	<tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" /></td><td class='cat-link'><a href="http://anotherguest.b0.se/cvsbuilds/">SymbianOS Subversion Builds</a></td></tr>	
+	<tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" /></td><td class='cat-link'><a href="http://anotherguest.k0.se/cvsbuilds/">SymbianOS Subversion Builds</a></td></tr>	
 	<tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" /></td><td class='cat-link'><a href="http://sourceforge.net/svn/?group_id=37116">Subversion Instructions</a> <font class='cat-count'> (for if you wish to retrieve the latest code to compile yourself)</font></td></tr>
 	</table>
 
