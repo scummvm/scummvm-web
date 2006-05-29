@@ -121,7 +121,7 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-s60-v2.sis?download">Symbian S60 version 2 binary</a> <font class='cat-count'>(1.1M .sis)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-s80.sis?download">Symbian S80 binary</a> <font class='cat-count'>(1.1M .sis)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-s90.sis?download">Symbian S90 binary</a> <font class='cat-count'>(1.1M .sis)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-uiq2.sis?download">Symbian UIQ 2 binary</a> <font class='cat-count'>(1.1M .sis)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-uiq.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-uiq2.sis?download">Symbian UIQ 2 binary</a> <font class='cat-count'>(1.1M .sis)</font></td></tr>
 
 <!--
 	  <tr><td class='cat-bullet'><img src='images/catpl-palmos.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-palmos.zip?download">PalmOS binary</a> <font class='cat-count'>(1.9M zipfile)</font></td></tr>
