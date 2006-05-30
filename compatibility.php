@@ -169,6 +169,8 @@ $notes = array(
 "pass"		=> "No known issues, game is completable.",
 "monkey2"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, FM-TOWNS, Macintosh and PC versions supported by this target".
+		   "<br>- Demo version often crashes due to missing resources, since it was never meant to be playable".
+		   "<br>- No support for playing back the recorded file of gameplay in demo version".
 		   "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "atlantis"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, FM-TOWNS, Macintosh and PC versions supported by this target".
