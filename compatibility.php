@@ -131,7 +131,7 @@ $gamesOther = array(
 	'Inherit the Earth: Quest for the Orb'                  => array('ite', '87'),
 	'Simon the Sorcerer 1'                                  => array('simon1','93'),
 	'Simon the Sorcerer 2'                                  => array('simon2','95'),
-	'The Feeble Files'                                      => array('feeble','70'),
+	'The Feeble Files'                                      => array('feeble','90'),
 	'The Legend of Kyrandia'                                => array('kyra1', '80'),
 	);
 
@@ -309,9 +309,9 @@ $notes = array(
 		   "<br>- Amiga, DOS, Macintosh and Windows versions supported by this target".
 		   "<br>- Only the default language (English) in Amiga &amp; Mactinosh versions is supported".
 		   "<br>- F10 key animation is different in Amiga &amp; Macintosh versions",
-"feeble"	=> "Game is completable, with glitches".
+"feeble"	=> "Game is completable".
 		   "<br>- Amiga, Macintosh and Windows versions supported by this target".
-		   "<br>- Various graphical glitches in game and Oracle",
+		   "<br>- Minor graphical glitches",
 "kyra1"		=> "Game is completable.".
 		   "<br>- Requires the KYRA.DAT resource file to be placed in the game directory.".
 		   "<br>- DOS Floppy and CD versions are supported by this target.".
