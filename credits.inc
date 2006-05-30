@@ -123,6 +123,17 @@
 <div class='par-subhead'>Other subsystems</div>
 <div class='par-subhead-dots'>&nbsp;</div>
 <div class='par-subhead-content'>
+<span style='font-weight: bold'>Infrastructure:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Max Horn</td><td style='width:10em; text-align: left;' class='news-author'>Fingolfin</td><td>Backend & Engine APIs, file API, sound mixer, audiostreams, data structures, etc.</td>
+<tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td></td>
+</table>
+<span style='font-weight: bold'>GUI:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Johannes Schickel</td><td style='width:10em; text-align: left;' class='news-author'>LordHoto</td><td></td>
+</table>
+<span style='font-weight: bold'>Miscellaneous:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Jerome Fisher</td><td style='width:10em; text-align: left;' class='news-author'>KingGuppy</td><td>MT-32 emulator</td>
 <tr><td style='width:13em; padding:2px;'>Jochen Hoenicke</td><td style='width:10em; text-align: left;' class='news-author'>hoenicke</td><td>Speaker &amp; PCjr sound support, Adlib work</td>
