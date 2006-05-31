@@ -208,7 +208,7 @@
 <tr><td style='width:13em; padding:2px;'>Chris Gray</td><td style='width:10em; text-align: left;' class='news-author'>Psychoid</td><td></td>
 </table>
 </div>
-<div class='par-subhead'>Website (design)</div>
+<div class='par-subhead'>Websites (design)</div>
 <div class='par-subhead-dots'>&nbsp;</div>
 <div class='par-subhead-content'>
 <table style='margin-left:2em; margin-bottom: 1em'>
@@ -216,6 +216,8 @@
 <tr><td style='width:13em; padding:2px;'>Yaroslav Fedevych</td><td style='width:10em; text-align: left;' class='news-author'>jafd</td><td>HTML/CSS for the website</td>
 <tr><td style='width:13em; padding:2px;'>David Jensen</td><td style='width:10em; text-align: left;' class='news-author'>Tyst</td><td>SVG logo conversion</td>
 <tr><td style='width:13em; padding:2px;'>Jean Marc</td><td></td><td>ScummVM logo</td>
+<tr><td style='width:13em; padding:2px;'>???</td><td style='width:10em; text-align: left;' class='news-author'>Raina</td><td>ScummVM forum buttons</td>
+<tr><td style='width:13em; padding:2px;'>Clemens Steinhuber</td><td></td><td>ScummVM forum theme</td>
 </table>
 </div>
 <div class='par-subhead'>Code contributions</div>
