@@ -321,7 +321,7 @@ $notes = array(
 		   "<br>- FM-Towns version isn't supported.".
 		   "<br>".
 		   "<br>- Occasional graphics glitches.".
-		   "<br>- MT-32 music and sfx do not work properly.".
+		   "<br>- MT-32 music and sfx do not work properly."
 );
 		
 // render the compatibility chart
