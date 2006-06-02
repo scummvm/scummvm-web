@@ -318,11 +318,10 @@ $notes = array(
 		   "<br>- Requires the KYRA.DAT resource file to be placed in the game directory.".
 		   "<br>- DOS Floppy and CD versions are supported by this target.".
 		   "<br>- Amiga versions aren't supported.".
+		   "<br>- FM-Towns version isn't supported.".
 		   "<br>".
 		   "<br>- Occasional graphics glitches.".
-		   "<br>- Music and sfx do not work properly.".
-		   "<br>".
-		   "<br>- Sound options don't work yet."
+		   "<br>- MT-32 music and sfx do not work properly.".
 );
 		
 // render the compatibility chart
