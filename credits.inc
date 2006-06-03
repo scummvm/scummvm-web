@@ -265,6 +265,6 @@
 <p style='margin-left:2em; margin-bottom: 1em'>John Passfield and Steve Stamatiadis for sharing the source of their classic title, Flight of the Amazon Queen and also being incredibly supportive.</p>
 <p style='margin-left:2em; margin-bottom: 1em'>Joe Pearce from The Wyrmkeep Entertainment Co. for sharing the source of their famous title Inherit the Earth and always prompt replies to our questions.</p>
 <p style='margin-left:2em; margin-bottom: 1em'>Aric Wilmunder, Ron Gilbert, David Fox, Vince Lee, and all those at LucasFilm/LucasArts who made SCUMM the insane mess to reimplement that it is today. Feel free to drop us a line and tell us what you think, guys!</p>
-<p style='margin-left:2em; margin-bottom: 1em'>Alan Bridgman, Simon Woodroffe and everyone at Adventure Soft forsharing the source code of The Feeble Files with us.</p>
+<p style='margin-left:2em; margin-bottom: 1em'>Alan Bridgman, Simon Woodroffe and everyone at Adventure Soft for sharing the source code of The Feeble Files with us.</p>
 </div></div>
 
