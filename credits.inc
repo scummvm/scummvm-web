@@ -199,6 +199,10 @@
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Robert Kelsen</td><td></td><td></td>
 </table>
+<span style='font-weight: bold'>Solaris x86:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Laurent Blume</td><td style='width:10em; text-align: left;' class='news-author'>laurent</td><td></td>
+</table>
 <span style='font-weight: bold'>Win32:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Travis Howell</td><td style='width:10em; text-align: left;' class='news-author'>Kirben</td><td></td>
