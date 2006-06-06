@@ -87,7 +87,8 @@ $gamesHE = array(
 	'Backyard Soccer'                                                  => array('soccer','20'),
 	'Big Thinkers First Grade'                                         => array('thinker1','85'),
 	'Big Thinkers Kindergarten'                                        => array('thinkerk','90'),
-	'Blue\'s ABC Time (Demo)'                                          => array('BluesABCTimeDemo','90'),
+	'Blue\'s ABC Time'                                                 => array('BluesABCTime','50'),
+	'Blue\'s Birthday Adventure'                                       => array('BluesBirthday','50'),
 	'Fatty Bear\'s Birthday Surprise'                                  => array('fbear','93'),
 	'Fatty Bear\'s Fun Pack'                                           => array('fbpack','95'),
 	'Freddi Fish 1: The Case of the Missing Kelp Seeds'                => array('freddi','90'),
@@ -203,8 +204,10 @@ $notes = array(
 		   "<br>- Need to use ESC when car is stuck in the smart star challenge",
 "thinkerk"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"BluesABCTimeDemo" => "Game is playable".
+"BluesABCTime" => "Game is playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
+"BluesBirthday" => "Game is playable".
+		   "<br>- Only Windows version is supported by this target",
 "fbear"		=> "Game should be completable, with several glitches".
 		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target".
 		   "<br>- Piano sounds aren't correct pitch in DOS version",
