@@ -213,7 +213,8 @@ $notes = array(
 		   "<br>- Piano sounds aren't correct pitch in DOS version",
 "fbpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
-"activity"	=> "No known issues, game is completable.",
+"activity"	=> "No known issues, game is completable.".
+		   "<br>- DOS, Macintosh and Windows versions supported by this target",
 "freddi"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "freddi2"	=> "Game is completable, with minor glitches".
