@@ -107,7 +107,7 @@
 <tr><td style='width:13em; padding:2px;'>Nicolas Bacca</td><td style='width:10em; text-align: left;' class='news-author'>arisme</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Kostas Nakos</td><td style='width:10em; text-align: left;' class='news-author'>knakos</td><td></td>
 </table>
-<span style='font-weight: bold'>Playstation 2:</span>
+<span style='font-weight: bold'>PlayStation 2:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Robert G&ouml;ffringmann</td><td style='width:10em; text-align: left;' class='news-author'>lavosspawn</td><td></td>
 </table>
