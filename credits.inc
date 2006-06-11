@@ -145,6 +145,11 @@
 <div class='par-subhead-content'>
 <p style='margin-left:2em; margin-bottom: 1em'>All active team members</p>
 </div>
+<div class='par-subhead'>Documentation</div>
+<div class='par-subhead-dots'>&nbsp;</div>
+<div class='par-subhead-content'>
+<tr><td style='width:13em; padding:2px;'>Joachim Eberhard</td><td style='width:10em; text-align: left;' class='news-author'>joachimeberhard</td><td></td>
+</div>
 <div class='par-subhead'>Retired Team Members</div>
 <div class='par-subhead-dots'>&nbsp;</div>
 <div class='par-subhead-content'>
@@ -254,7 +259,6 @@
 <tr><td style='width:13em; padding:2px;'>Kevin Carnes</td><td></td><td>For Scumm16, the basis of ScummVM's older gfx codecs</td>
 <tr><td style='width:13em; padding:2px;'>Patrick Combet</td><td style='width:10em; text-align: left;' class='news-author'>Dorian Gray</td><td>For the original Gobliiins ADL player</td>
 <tr><td style='width:13em; padding:2px;'>Ivan Dubrov</td><td></td><td>For contributing the initial version of the Gobliiins engine</td>
-<tr><td style='width:13em; padding:2px;'>Joachim Eberhard</td><td style='width:10em; text-align: left;' class='news-author'>joachimeberhard</td><td>For numerous contributions to documentation</td>
 <tr><td style='width:13em; padding:2px;'>???</td><td style='width:10em; text-align: left;' class='news-author'>Jezar</td><td>For his freeverb filter implementation</td>
 <tr><td style='width:13em; padding:2px;'>Jim Leiterman</td><td></td><td>Various info on his FM-TOWNS/Marty SCUMM ports</td>
 <tr><td style='width:13em; padding:2px;'>???</td><td style='width:10em; text-align: left;' class='news-author'>lloyd</td><td>For deep tech details about C64 Zak &amp; MM</td>
