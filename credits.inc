@@ -105,6 +105,7 @@
 <span style='font-weight: bold'>PocketPC / WinCE:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Nicolas Bacca</td><td style='width:10em; text-align: left;' class='news-author'>arisme</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Kostas Nakos</td><td style='width:10em; text-align: left;' class='news-author'>knakos</td><td></td>
 </table>
 <span style='font-weight: bold'>Playstation 2:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
@@ -125,7 +126,7 @@
 <div class='par-subhead-content'>
 <span style='font-weight: bold'>Infrastructure:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
-<tr><td style='width:13em; padding:2px;'>Max Horn</td><td style='width:10em; text-align: left;' class='news-author'>Fingolfin</td><td>Backend & Engine APIs, file API, sound mixer, audiostreams, data structures, etc.</td>
+<tr><td style='width:13em; padding:2px;'>Max Horn</td><td style='width:10em; text-align: left;' class='news-author'>Fingolfin</td><td>Backend &amp; Engine APIs, file API, sound mixer, audiostreams, data structures, etc.</td>
 <tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td></td>
 </table>
 <span style='font-weight: bold'>GUI:</span>
@@ -190,10 +191,6 @@
 <span style='font-weight: bold'>OS/2:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Paul Smedley</td><td style='width:10em; text-align: left;' class='news-author'>Creeping</td><td></td>
-</table>
-<span style='font-weight: bold'>PocketPC 2002:</span>
-<table style='margin-left:2em; margin-bottom: 1em'>
-<tr><td style='width:13em; padding:2px;'>Kostas Nakos</td><td style='width:10em; text-align: left;' class='news-author'>knakos</td><td></td>
 </table>
 <span style='font-weight: bold'>SlackWare:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
