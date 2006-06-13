@@ -107,7 +107,7 @@
 <tr><td style='width:13em; padding:2px;'>Nicolas Bacca</td><td style='width:10em; text-align: left;' class='news-author'>arisme</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Kostas Nakos</td><td style='width:10em; text-align: left;' class='news-author'>knakos</td><td></td>
 </table>
-<span style='font-weight: bold'>Playstation 2:</span>
+<span style='font-weight: bold'>PlayStation 2:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Robert G&ouml;ffringmann</td><td style='width:10em; text-align: left;' class='news-author'>lavosspawn</td><td></td>
 </table>
@@ -148,9 +148,8 @@
 <div class='par-subhead'>Documentation</div>
 <div class='par-subhead-dots'>&nbsp;</div>
 <div class='par-subhead-content'>
-<span style='font-weight: bold'>Documentation Manager:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
-<tr><td style='width:13em; padding:2px;'>Joachim Eberhard</td><td style='width:10em; text-align: left;' class='news-author'>joachimeberhard</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Joachim Eberhard</td><td style='width:10em; text-align: left;' class='news-author'>joachimeberhard</td><td>Documentation manager</td>
 </table>
 </div>
 <div class='par-subhead'>Retired Team Members</div>
