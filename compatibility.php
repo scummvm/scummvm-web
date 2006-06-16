@@ -92,17 +92,17 @@ $gamesHE = array(
 	'Fatty Bear\'s Birthday Surprise'                                  => array('fbear','93'),
 	'Fatty Bear\'s Fun Pack'                                           => array('fbpack','95'),
 	'Freddi Fish 1: The Case of the Missing Kelp Seeds'                => array('freddi','90'),
-	'Freddi Fish 2: The Case of the Haunted Schoolhouse'               => array('freddi2','85'),
+	'Freddi Fish 2: The Case of the Haunted Schoolhouse'               => array('freddi2','90'),
 	'Freddi Fish 3: The Case of the Stolen Conch Shell'                => array('freddi3','90'),
 	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'   => array('freddi4','90'),
 	'Freddi Fish and Luther\'s Maze Madness'                           => array('maze','90'),
 	'Freddi Fish and Luther\'s Water Worries'                          => array('water','90'),
-	'Let\'s Explore the Airport with Buzzy'                            => array('airport','85'),
-	'Let\'s Explore the Farm with Buzzy'                               => array('farm','85'),
-	'Let\'s Explore the Jungle with Buzzy'                             => array('jungle','85'),
+	'Let\'s Explore the Airport with Buzzy'                            => array('airport','90'),
+	'Let\'s Explore the Farm with Buzzy'                               => array('farm','90'),
+	'Let\'s Explore the Jungle with Buzzy'                             => array('jungle','90'),
 	'Pajama Sam 1: No Need to Hide When It\'s Dark Outside'            => array('pajama','90'),
 	'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'       => array('pajama2','90'),
-	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'   => array('pajama3','80'),
+	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'   => array('pajama3','90'),
 	'Pajama Sam\'s Lost &amp; Found'                                   => array('lost','80'),
 	'Pajama Sam\'s Sock Works'                                         => array('socks','90'),
 	'Putt-Putt Enters the Race'                                        => array('puttrace','90'),
@@ -118,7 +118,7 @@ $gamesHE = array(
 	'SPY Fox 1: Dry Cereal'                                            => array('spyfox','85'),
 	'SPY Fox 2: Some Assembly Required'                                => array('spyfox2','90'),
 	'SPY Fox 3: Operation Ozone'                                       => array('spyozon','70'),
-	'SPY Fox in Cheese Chase'                                          => array('chase','85'),
+	'SPY Fox in Cheese Chase'                                          => array('chase','90'),
 	'SPY Fox in Hold the Mustard'                                      => array('mustard','85'),
 	);
 
@@ -193,6 +193,7 @@ $notes = array(
 		   "<br>- Minor graphical glitches",
 "football"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Freezes when computer chooses a player, when selecting teams".
 		   "<br>- Minor graphical glitches",
 "soccer"	=> "Game isn't playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
@@ -217,9 +218,8 @@ $notes = array(
 		   "<br>- DOS, Macintosh and Windows versions supported by this target",
 "freddi"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"freddi2"	=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
+"freddi2"	=> "No known issues, game is completable.".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "freddi3"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "freddi4"	=> "No known issues, game is completable.".
@@ -228,23 +228,19 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "water"		=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"airport"	=> "Game is playable".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
-"farm"		=> "Game is playable".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
-"jungle"	=> "Game is playable".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
+"airport"	=> "No known issues, game is playable".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
+"farm"		=> "No known issues, game is playable".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
+"jungle"	=> "No known issues, game is playable".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "pajama"	=> "No known issues, game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "pajama2"	=> "No known issues, game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"pajama3"	=> "Game is completable, with glitches".
+"pajama3"	=> "No known issues, game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- PlayStation 1 version doesn't use SCUMM, so will never be supported.".
-		   "<br>- Minor graphical glitches",
+		   "<br>- PlayStation 1 version doesn't use SCUMM, so will never be supported.",
 "lost"		=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
@@ -273,7 +269,7 @@ $notes = array(
 		   "<br>- Both 3DO and DOS versions supported by this target",
 "spyfox"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Can't select buttons on paintings and safe in the NogRoom multiple times, just select a different item between each change.",
+		   "<br>- Can't select buttons on paintings and safe in the NogRoom multiple times. Enable subtitles and select a different item between each change, to work around issue.",
 "spyfox2"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "spyozon"	=> "Game is completable, with glitches".
@@ -282,8 +278,9 @@ $notes = array(
 		   "<br>- Various palette glitches",
 "chase"		=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"mustard"	=> "No known issues, game is completable.".
-		   "<br>- Both Macintosh and Windows versions supported by this target",
+"mustard"	=> "Game is completable, with minor glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Minor graphical glitches",
 
 "sky"	 	=> "No known issues, game is completable.".
 		   "<br>- Requires the <a href=\"SKY.CPT\">SKY.CPT</a> resource file to be placed in the game directory".
