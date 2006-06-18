@@ -103,7 +103,7 @@ $gamesHE = array(
 	'Pajama Sam 1: No Need to Hide When It\'s Dark Outside'            => array('pajama','90'),
 	'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'       => array('pajama2','90'),
 	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'   => array('pajama3','90'),
-	'Pajama Sam\'s Lost &amp; Found'                                   => array('lost','80'),
+	'Pajama Sam\'s Lost &amp; Found'                                   => array('lost','85'),
 	'Pajama Sam\'s Sock Works'                                         => array('socks','90'),
 	'Putt-Putt Enters the Race'                                        => array('puttrace','90'),
 	'Putt-Putt Goes to the Moon'                                       => array('puttmoon','95'),
@@ -115,7 +115,7 @@ $gamesHE = array(
 	'Putt-Putt and Pep\'s Dog on a Stick'                              => array('dog','90'),
 	'Putt-Putt &amp; Fatty Bear\'s Activity Pack'                      => array('activity','95'),
 	'Putt-Putt\'s Fun Pack'                                            => array('funpack','95'),
-	'SPY Fox 1: Dry Cereal'                                            => array('spyfox','85'),
+	'SPY Fox 1: Dry Cereal'                                            => array('spyfox','90'),
 	'SPY Fox 2: Some Assembly Required'                                => array('spyfox2','90'),
 	'SPY Fox 3: Operation Ozone'                                       => array('spyozon','70'),
 	'SPY Fox in Cheese Chase'                                          => array('chase','90'),
@@ -268,8 +268,7 @@ $notes = array(
 "funpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
 "spyfox"	=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Can't select buttons on paintings and safe in the NogRoom multiple times. Enable subtitles and select a different item between each change, to work around issue.",
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "spyfox2"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "spyozon"	=> "Game is completable, with glitches".
