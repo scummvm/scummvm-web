@@ -179,6 +179,10 @@
 <tr><td style='width:13em; padding:2px;'>Hans-J&ouml;rg Frieden</td><td></td><td></td>
 <tr><td style='width:13em; padding:2px;'>Juha Niemim&auml;ki</td><td></td><td></td>
 </table>
+<span style='font-weight: bold'>Atari/FreeMiNT:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Keith Scroggins</td><td style='width:10em; text-align: left;' class='news-author'>KeithS</td><td></td>
+</table>
 <span style='font-weight: bold'>BeOS:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Stefan Parviainen</td><td></td><td></td>
