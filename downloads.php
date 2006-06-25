@@ -118,7 +118,7 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-ps2.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-ps2.zip?download">PlayStation2 package</a> <font class='cat-count'>(2.0M .zip)</font></td></tr>
 -->
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-psp.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-psp.zip?download">PlaysStation Portable  package</a> <font class='cat-count'>(3.9M .zip)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-psp.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-psp.zip?download">PSP (PlayStation Portable) package</a> <font class='cat-count'>(3.9M .zip)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-s60-v1.sis?download">Symbian S60 version 1 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-s60-v2.sis?download">Symbian S60 version 2 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
