@@ -12,9 +12,9 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_page_header('ScummVM :: Compatibility - 0.8.2');
+html_page_header('ScummVM :: Compatibility - 0.9.0');
 
-html_content_begin('0.8.2 Compatibility');
+html_content_begin('0.9.0 Compatibility');
 
 if (isset($_GET['details'])) {
 	$details = $_GET['details'];
@@ -37,8 +37,8 @@ else {
 	  This page lists the progress of ScummVM as it relates to individual game compatibility.<br>
 	  Click on the game name to view the complete notes of a game.
 
-	  <br><br>Please note this list applies to the English versions of games, we attempt to test many versions of games, however there are occasionally problems with other languages.
-	  Also, this is the compatability of the 0.8.2 stable release, <B>not of SVN
+    	  <br><br>Please note this list applies to the English versions of games, we attempt to test many versions of games, however there are occasionally problems with other languages.
+	  Also, this is the compatability of the 0.9.0 stable release, <B>not of SVN
 	  snapshots/daily builds</B>. The status of these can be found on the <a
 	  href="compatibility.php">SVN Compatibility</A> chart.
 	  <br><br>
@@ -63,72 +63,75 @@ else {
 
 // This array defines the games and their ratings, etc.
 $gamesLucas = array(
-		'Maniac Mansion'					=> array('maniac','90'),
-		'Zak McKracken and the Alien Mindbenders'		=> array('zak','90'),
-		'Indiana Jones and the Last Crusade'			=> array('indy3','90'),
-		'Loom'							=> array('loom','95'),
-		'Passport to Adventure' 				=> array('pass','95'),
-		'The Secret of Monkey Island'				=> array('monkey','95'),
-		'Monkey Island 2: LeChuck\'s Revenge'			=> array('monkey2','95'),
-		'Indiana Jones and the Fate of Atlantis'		=> array('atlantis','95'),
-		'Day of the Tentacle'					=> array('tentacle','95'),
-		'Sam &amp; Max Hit the Road'                            => array('samnmax','95'),
-		'Full Throttle'						=> array('ft','90'),
-		'The Dig'                                               => array('dig','90'),
-		'The Curse of Monkey Island'				=> array('comi','90'),
-	      );
+	'Maniac Mansion'                                        => array('maniac','90'),
+	'Zak McKracken and the Alien Mindbenders'               => array('zak','90'),
+	'Indiana Jones and the Last Crusade'                    => array('indy3','90'),
+	'Loom'                                                  => array('loom','95'),
+	'Passport to Adventure'                                 => array('pass','95'),
+	'The Secret of Monkey Island'                           => array('monkey','95'),
+	'Monkey Island 2: LeChuck\'s Revenge'                   => array('monkey2','95'),
+	'Indiana Jones and the Fate of Atlantis'                => array('atlantis','95'),
+	'Day of the Tentacle'                                   => array('tentacle','95'),
+	'Sam &amp; Max Hit the Road'                            => array('samnmax','95'),
+	'Full Throttle'                                         => array('ft','90'),
+	'The Dig'                                               => array('dig','90'),
+	'The Curse of Monkey Island'                            => array('comi','90'),
+	);
 
 $gamesHE = array(
-		'Backyard Baseball'							=> array('baseball','20'),
-		'Backyard Football'							=> array('football','80'),
-		'Backyard Soccer'							=> array('soccer','20'),
-		'Big Thinkers First Grade'						=> array('thinker1','85'),
-		'Big Thinkers Kindergarten'						=> array('thinkerk','90'),
-		'Blue\'s ABC Time (Demo)'						=> array('BluesABCTimeDemo','90'),
-		'Fatty Bear\'s Birthday Surprise'					=> array('fbear','93'),
-		'Fatty Bear\'s Fun Pack'						=> array('fbpack','95'),
-		'Freddi Fish 1: The Case of the Missing Kelp Seeds'			=> array('freddi','90'),
-		'Freddi Fish 2: The Case of the Haunted Schoolhouse'			=> array('freddi2','85'),
-		'Freddi Fish 3: The Case of the Stolen Conch Shell'			=> array('freddi3','90'),
-		'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'	=> array('freddi4','90'),
-		'Freddi Fish and Luther\'s Maze Madness'				=> array('maze','90'),
-		'Freddi Fish and Luther\'s Water Worries'				=> array('water','90'),
-		'Let\'s Explore the Airport with Buzzy'					=> array('airport','85'),
-		'Let\'s Explore the Farm with Buzzy'					=> array('farm','85'),
-		'Let\'s Explore the Jungle with Buzzy'					=> array('jungle','85'),
-		'Pajama Sam 1: No Need to Hide When It\'s Dark Outside'			=> array('pajama','70'),
-		'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'		=> array('pajama2','90'),
-		'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'	=> array('pajama3','80'),
-		'Pajama Sam\'s Lost &amp; Found'					=> array('lost','80'),
-		'Pajama Sam\'s Sock Works'						=> array('socks','90'),
-		'Putt-Putt Enters the Race'						=> array('puttrace','90'),
-		'Putt-Putt Goes to the Moon'						=> array('puttmoon','95'),
-		'Putt-Putt Joins the Circus'						=> array('puttcircus','85'),
-		'Putt-Putt Joins the Parade'						=> array('puttputt','95'),
-		'Putt-Putt Saves the Zoo'						=> array('puttzoo','90'),
-		'Putt-Putt Travels Through Time'					=> array('putttime','90'),
-		'Putt-Putt and Pep\'s Balloon-O-Rama'					=> array('balloon','90'),
-		'Putt-Putt and Pep\'s Dog on a Stick'					=> array('dog','90'),
-		'Putt-Putt &amp; Fatty Bear\'s Activity Pack'				=> array('activity','95'),
-		'Putt-Putt\'s Fun Pack'							=> array('funpack','95'),
-		'SPY Fox 1: Dry Cereal'							=> array('spyfox','85'),
-		'SPY Fox 2: Some Assembly Required'					=> array('spyfox2','90'),
-		'SPY Fox 3: Operation Ozone'						=> array('spyozon','70'),
-		'SPY Fox in Cheese Chase'						=> array('chase','85'),
-		'SPY Fox in Hold the Mustard'						=> array('mustard','85'),
-	      );
+	'Backyard Baseball'                                                => array('baseball','20'),
+	'Backyard Football'                                                => array('football','80'),
+	'Backyard Soccer'                                                  => array('soccer','20'),
+	'Big Thinkers First Grade'                                         => array('thinker1','85'),
+	'Big Thinkers Kindergarten'                                        => array('thinkerk','90'),
+	'Blue\'s ABC Time'                                                 => array('BluesABCTime','50'),
+	'Blue\'s Birthday Adventure'                                       => array('BluesBirthday','50'),
+	'Fatty Bear\'s Birthday Surprise'                                  => array('fbear','93'),
+	'Fatty Bear\'s Fun Pack'                                           => array('fbpack','95'),
+	'Freddi Fish 1: The Case of the Missing Kelp Seeds'                => array('freddi','90'),
+	'Freddi Fish 2: The Case of the Haunted Schoolhouse'               => array('freddi2','90'),
+	'Freddi Fish 3: The Case of the Stolen Conch Shell'                => array('freddi3','90'),
+	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'   => array('freddi4','90'),
+	'Freddi Fish and Luther\'s Maze Madness'                           => array('maze','90'),
+	'Freddi Fish and Luther\'s Water Worries'                          => array('water','90'),
+	'Let\'s Explore the Airport with Buzzy'                            => array('airport','90'),
+	'Let\'s Explore the Farm with Buzzy'                               => array('farm','90'),
+	'Let\'s Explore the Jungle with Buzzy'                             => array('jungle','90'),
+	'Pajama Sam 1: No Need to Hide When It\'s Dark Outside'            => array('pajama','90'),
+	'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening'       => array('pajama2','90'),
+	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet'   => array('pajama3','90'),
+	'Pajama Sam\'s Lost &amp; Found'                                   => array('lost','85'),
+	'Pajama Sam\'s Sock Works'                                         => array('socks','90'),
+	'Putt-Putt Enters the Race'                                        => array('puttrace','90'),
+	'Putt-Putt Goes to the Moon'                                       => array('puttmoon','95'),
+	'Putt-Putt Joins the Circus'                                       => array('puttcircus','90'),
+	'Putt-Putt Joins the Parade'                                       => array('puttputt','95'),
+	'Putt-Putt Saves the Zoo'                                          => array('puttzoo','90'),
+	'Putt-Putt Travels Through Time'                                   => array('putttime','90'),
+	'Putt-Putt and Pep\'s Balloon-O-Rama'                              => array('balloon','90'),
+	'Putt-Putt and Pep\'s Dog on a Stick'                              => array('dog','90'),
+	'Putt-Putt &amp; Fatty Bear\'s Activity Pack'                      => array('activity','95'),
+	'Putt-Putt\'s Fun Pack'                                            => array('funpack','95'),
+	'SPY Fox 1: Dry Cereal'                                            => array('spyfox','90'),
+	'SPY Fox 2: Some Assembly Required'                                => array('spyfox2','90'),
+	'SPY Fox 3: Operation Ozone'                                       => array('spyozon','70'),
+	'SPY Fox in Cheese Chase'                                          => array('chase','90'),
+	'SPY Fox in Hold the Mustard'                                      => array('mustard','85'),
+	);
 
 $gamesOther = array(
 
-		'Beneath a Steel Sky'			       		=> array('sky','98'),
-		'Broken Sword 1: The Shadow of the Templars'  		=> array('sword1','98'),
-		'Broken Sword 2: The Smoking Mirror'	       		=> array('sword2','98'),
-		'Flight of the Amazon Queen'			       	=> array('queen','98'),
-		'Gobliiins'						=> array('gob1', '90'),
-		'Inherit the Earth: Quest for the Orb'			=> array( 'ite', '87'),
-		'Simon the Sorcerer 1'          			=> array('simon1','93'),
-		'Simon the Sorcerer 2'           			=> array('simon2','95'),
-	      );
+	'Beneath a Steel Sky'                                   => array('sky','98'),
+	'Broken Sword 1: The Shadow of the Templars'            => array('sword1','98'),
+	'Broken Sword 2: The Smoking Mirror'                    => array('sword2','98'),
+	'Flight of the Amazon Queen'                            => array('queen','98'),
+	'Gobliiins'                                             => array('gob1', '95'),
+	'Inherit the Earth: Quest for the Orb'                  => array('ite', '87'),
+	'Simon the Sorcerer 1'                                  => array('simon1','93'),
+	'Simon the Sorcerer 2'                                  => array('simon2','95'),
+	'The Feeble Files'                                      => array('feeble','90'),
+	'The Legend of Kyrandia'                                => array('kyra1', '80'),
+	);
 
 $notes = array(
 "maniac"	=> "No known issues, game is completable.".
@@ -139,10 +142,10 @@ $notes = array(
 		   "<br>- Amiga, Atari ST, Commodore 64, FM-TOWNS and PC versions supported by this target".
 		   "<br>- Several sound effects buggy or missing in Amiga version".
 		   "<br>- No music or sound effects in the Commodore 64 version".
-                   "<br>- Kanji version requires the FM-TOWNS Font ROM",
+		   "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "indy3" 	=> "Game is completable".
 		   "<br>- Amiga, Atari ST, FM-TOWNS, Macintosh and PC versions supported by this target".
-                   "<br>- Kanji version requires the FM-TOWNS Font ROM",
+		   "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "loom"		=> "No known issues, game is completable.".
 		   "<br>- Amiga, Atari ST, FM-TOWNS, Macintosh and PC versions supported by this target".
 		   "<br>- The Roland update from LucasArts is required for MIDI support in the EGA version".
@@ -154,7 +157,7 @@ $notes = array(
 		   "<ul><li>0 practice (default)".
 		       "<li>1 standard".
 		       "<li>2 expert</ul>".
-                   "<br>- Kanji version requires the FM-TOWNS Font ROM",
+		   "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "monkey"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, Atari ST, FM-TOWNS, Macintosh, PC and SegaCD versions supported by this target".
 		   "<br>- The Roland update from LucasArts is required for MIDI support in the EGA version".
@@ -164,10 +167,12 @@ $notes = array(
 "pass"		=> "No known issues, game is completable.",
 "monkey2"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, FM-TOWNS, Macintosh and PC versions supported by this target".
-                   "<br>- Kanji version requires the FM-TOWNS Font ROM",
+		   "<br>- Demo version often crashes due to missing resources, since it was never meant to be playable".
+		   "<br>- No support for playing back the recorded file of gameplay in demo version".
+		   "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "atlantis"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, FM-TOWNS, Macintosh and PC versions supported by this target".
-                   "<br>- Kanji version requires the FM-TOWNS Font ROM",
+		   "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "tentacle"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and PC versions supported by this target".
 		   "<br>- Maniac Mansion isn't playable on Ed's computer. To play the included copy, use 'Add Game' from the main ScummVM launcher and select the MANIAC directory inside the DOTT game directory",
@@ -185,30 +190,33 @@ $notes = array(
 		   "<br>- Minor graphical glitches",
 "football"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Freezes when computer chooses a player, when selecting teams".
 		   "<br>- Minor graphical glitches",
 "soccer"	=> "Game isn't playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- PlayStation 1 version doesn't use SCUMM, so will never be supported.".
-                   "<br>- Players on field are stuck in upper left corner and can't be controlled".
+		   "<br>- Players on field are stuck in upper left corner and can't be controlled".
 		   "<br>- Minor graphical glitches",
 "thinker1"	=> "Game is playable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Need to use ESC when car is stuck in the smart star challenge",
 "thinkerk"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"BluesABCTimeDemo" => "Game is playable".
+"BluesABCTime" => "Game is playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
+"BluesBirthday" => "Game is playable".
+		   "<br>- Only Windows version is supported by this target",
 "fbear"		=> "Game should be completable, with several glitches".
 		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target".
 		   "<br>- Piano sounds aren't correct pitch in DOS version",
 "fbpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
-"activity"	=> "No known issues, game is completable.",
+"activity"	=> "No known issues, game is completable.".
+		   "<br>- DOS, Macintosh and Windows versions supported by this target",
 "freddi"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"freddi2"	=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
+"freddi2"	=> "No known issues, game is completable.".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "freddi3"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "freddi4"	=> "No known issues, game is completable.".
@@ -217,24 +225,19 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "water"		=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"airport"	=> "Game is playable".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
-"farm"		=> "Game is playable".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
-"jungle"	=> "Game is playable".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
-"pajama"	=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- No songs",
+"airport"	=> "No known issues, game is playable".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
+"farm"		=> "No known issues, game is playable".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
+"jungle"	=> "No known issues, game is playable".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
+"pajama"	=> "No known issues, game is completable".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "pajama2"	=> "No known issues, game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"pajama3"	=> "Game is completable, with glitches".
+"pajama3"	=> "No known issues, game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- PlayStation 1 version doesn't use SCUMM, so will never be supported.".
-		   "<br>- Minor graphical glitches",
+		   "<br>- PlayStation 1 version doesn't use SCUMM, so will never be supported.",
 "lost"		=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
@@ -262,8 +265,7 @@ $notes = array(
 "funpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
 "spyfox"	=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Can't select buttons on paintings and safe in the NogRoom multiple times, just select a different item between each change.",
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "spyfox2"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "spyozon"	=> "Game is completable, with glitches".
@@ -272,8 +274,9 @@ $notes = array(
 		   "<br>- Various palette glitches",
 "chase"		=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"mustard"	=> "No known issues, game is completable.".
-		   "<br>- Both Macintosh and Windows versions supported by this target",
+"mustard"	=> "Game is completable, with minor glitches".
+		   "<br>- Both Macintosh and Windows versions supported by this target".
+		   "<br>- Minor graphical glitches",
 
 "sky"	 	=> "No known issues, game is completable.".
 		   "<br>- Requires the <a href=\"SKY.CPT\">SKY.CPT</a> resource file to be placed in the game directory".
@@ -301,10 +304,21 @@ $notes = array(
 		   "<br>- Occasional graphical glitches",
 "simon1" 	=> "No known issues, game is completable.".
 		   "<br>- Acorn (CD), DOS and Windows versions supported by this target",
-"simon2"        => "No known issues, game is completable.".
+"simon2"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, DOS, Macintosh and Windows versions supported by this target".
-                   "<br>- Only the default language (English) in Amiga &amp; Mactinosh versions is supported".
-                   "<br>- F10 key animation is different in Amiga &amp; Macintosh versions"
+		   "<br>- Only the default language (English) in Amiga &amp; Mactinosh versions is supported".
+		   "<br>- F10 key animation is different in Amiga &amp; Macintosh versions",
+"feeble"	=> "Game is completable".
+		   "<br>- Amiga, Macintosh and Windows versions supported by this target".
+		   "<br>- Minor graphical glitches",
+"kyra1"		=> "Game is completable.".
+		   "<br>- Requires the KYRA.DAT resource file to be placed in the game directory.".
+		   "<br>- DOS Floppy and CD versions are supported by this target.".
+		   "<br>- Amiga versions aren't supported.".
+		   "<br>- FM-Towns version isn't supported.".
+		   "<br>".
+		   "<br>- Occasional graphics glitches.".
+		   "<br>- MT-32 music and sfx do not work properly."
 );
 		
 // render the compatibility chart
