@@ -139,9 +139,9 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-WinCERecent.zip?download">Windows Mobile 5 ARM package</a> for PocketPC 2003, PocketPC 2003 SE,
 Smartphone 2003, and Windows Mobile 5 <font class='cat-count'>(1.8M zipfile)</font></td></tr>
 
-<!--
-	  <tr><td class='cat-bullet'><img src='images/catpl-amiga.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-amigaos.lha?download">AmigaOS 4 package</a> <font class='cat-count'>(3.4M .lha)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-amiga.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-amigaos4.lha?download">AmigaOS 4 package</a> <font class='cat-count'>(2.8M .lha)</font></td></tr>
 
+<!--
 	  <tr><td class='cat-bullet'><img src='images/catpl-morphos.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-morphos.lha?download">MorphOS package</a> <font class='cat-count'>(2.2M .lha)</font></td></tr>
 -->
 
@@ -225,8 +225,6 @@ Smartphone 2003, and Windows Mobile 5 <font class='cat-count'>(1.8M zipfile)</fo
 	  <tr><td class='cat-bullet'><img src='images/catpl-ps2.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-ps2.zip?download">0.8.2 PlayStation2 package</a> <font class='cat-count'>(2.0M .zip)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-WinCE2002.zip?download">0.8.2 PocketPC 2002 ARM package</a> <font class='cat-count'>(1.3M zipfile)</font></td></tr>
-
-	  <tr><td class='cat-bullet'><img src='images/catpl-amiga.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-amigaos.lha?download">0.8.2 AmigaOS 4 package</a> <font class='cat-count'>(3.4M .lha)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-morphos.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-morphos.lha?download">0.8.2 MorphOS package</a> <font class='cat-count'>(2.2M .lha)</font></td></tr>
 
