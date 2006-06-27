@@ -208,7 +208,7 @@ $notes = array(
 		   "<br>- Only Windows version is supported by this target",
 "fbear"		=> "Game should be completable, with several glitches".
 		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target".
-		   "<br>- Piano sounds aren't correct pitch in DOS version",
+		   "<br>- Piano sounds aren't the correct pitch in DOS version",
 "fbpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
 "activity"	=> "No known issues, game is completable.".

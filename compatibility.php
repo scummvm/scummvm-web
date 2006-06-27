@@ -85,7 +85,7 @@ $gamesHE = array(
 	'Backyard Baseball'                                                => array('baseball','20'),
 	'Backyard Football'                                                => array('football','80'),
 	'Backyard Soccer'                                                  => array('soccer','20'),
-	'Big Thinkers First Grade'                                         => array('thinker1','85'),
+	'Big Thinkers First Grade'                                         => array('thinker1','90'),
 	'Big Thinkers Kindergarten'                                        => array('thinkerk','90'),
 	'Blue\'s ABC Time'                                                 => array('BluesABCTime','50'),
 	'Blue\'s Birthday Adventure'                                       => array('BluesBirthday','50'),
@@ -200,9 +200,8 @@ $notes = array(
 		   "<br>- PlayStation 1 version doesn't use SCUMM, so will never be supported.".
 		   "<br>- Players on field are stuck in upper left corner and can't be controlled".
 		   "<br>- Minor graphical glitches",
-"thinker1"	=> "Game is playable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Need to use ESC when car is stuck in the smart star challenge",
+"thinker1"	=> "No known issues, game is completable.".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "thinkerk"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "BluesABCTime" => "Game is playable".
@@ -211,7 +210,7 @@ $notes = array(
 		   "<br>- Only Windows version is supported by this target",
 "fbear"		=> "Game should be completable, with several glitches".
 		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target".
-		   "<br>- Piano sounds aren't correct pitch in DOS version",
+		   "<br>- Piano sounds aren't the correct pitch in DOS version",
 "fbpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
 "activity"	=> "No known issues, game is completable.".
