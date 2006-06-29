@@ -156,9 +156,8 @@ Smartphone 2003, and Windows Mobile 5 <font class='cat-count'>(1.8M zipfile)</fo
 	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-solaris-sparc.tar.bz2?download">Solaris 8 and up (Sparc) binary</a> <font class='cat-count'>(1.6M .tar.bz2)</font></td></tr>
 -->
 	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-solaris10-x86.pkg.bz2?download">Solaris 10 (both IA32 and AMD64) binary</a> <font class='cat-count'>(5.6M .pkg.bz2)</font></td></tr>
-<!--
-	  <tr><td class='cat-bullet'><img src='images/catpl-beos.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-beosx86.pkg?download">BeOS package</a> <font class='cat-count'>(2.2M pkg)</font></td></tr>
--->
+
+	  <tr><td class='cat-bullet'><img src='images/catpl-beos.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-beosx86.pkg?download">BeOS package</a> <font class='cat-count'>(2.4M pkg)</font></td></tr>
 
 	</table>
     </div>
@@ -227,8 +226,6 @@ Smartphone 2003, and Windows Mobile 5 <font class='cat-count'>(1.8M zipfile)</fo
 	  <tr><td class='cat-bullet'><img src='images/catpl-morphos.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-morphos.lha?download">0.8.2 MorphOS package</a> <font class='cat-count'>(2.2M .lha)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-solaris-sparc.tar.bz2?download">0.8.2 Solaris 8 and up (Sparc) binary</a> <font class='cat-count'>(1.6M .tar.bz2)</font></td></tr>
-
-	  <tr><td class='cat-bullet'><img src='images/catpl-beos.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-beosx86.pkg?download">0.8.2 BeOS package</a> <font class='cat-count'>(2.2M pkg)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-dc.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.1-dreamcast-nero+demos.zip?download">0.8.1 Dreamcast Nero Image &amp; Demos</a> <font class='cat-count'>5.2M zipfile</font></td></tr>
 
