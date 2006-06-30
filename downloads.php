@@ -141,9 +141,7 @@ Smartphone 2003, and Windows Mobile 5 <font class='cat-count'>(1.8M zipfile)</fo
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-amiga.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-amigaos4.lha?download">AmigaOS 4 package</a> <font class='cat-count'>(2.8M .lha)</font></td></tr>
 
-<!--
-	  <tr><td class='cat-bullet'><img src='images/catpl-morphos.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-morphos.lha?download">MorphOS package</a> <font class='cat-count'>(2.2M .lha)</font></td></tr>
--->
+	  <tr><td class='cat-bullet'><img src='images/catpl-morphos.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-morphos.lha?download">MorphOS package</a> <font class='cat-count'>(2.6M .lha)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-freemint.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-atari.zip?download">Atari/FreeMiNT package (68020 and up)</a> <font class='cat-count'>(1.6M .zip)</font></td></tr>
 
@@ -222,8 +220,6 @@ Smartphone 2003, and Windows Mobile 5 <font class='cat-count'>(1.8M zipfile)</fo
 	  <tr><td class='cat-bullet'><img src='images/catpl-ps2.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-ps2.zip?download">0.8.2 PlayStation2 package</a> <font class='cat-count'>(2.0M .zip)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-WinCE2002.zip?download">0.8.2 PocketPC 2002 ARM package</a> <font class='cat-count'>(1.3M zipfile)</font></td></tr>
-
-	  <tr><td class='cat-bullet'><img src='images/catpl-morphos.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-morphos.lha?download">0.8.2 MorphOS package</a> <font class='cat-count'>(2.2M .lha)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-solaris-sparc.tar.bz2?download">0.8.2 Solaris 8 and up (Sparc) binary</a> <font class='cat-count'>(1.6M .tar.bz2)</font></td></tr>
 
