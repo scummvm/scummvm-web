@@ -110,7 +110,7 @@ html_content_begin('Download ScummVM');
 -->
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-macos.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-macosx-ppc.dmg?download">Mac OS X PPC Disk Image</a> <font class='cat-count'>(2.3M disk image)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-macos-universal.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-macosx-universal.dmg?download">Mac OS X Universal Disk Image</a> <font class='cat-count'>(4.1M disk image)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-macos-universal.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-macosx-universal.dmg?download">Mac OS X Universal Disk Image (10.3.9 and up)</a> <font class='cat-count'>(4.1M disk image)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-os2.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-os2.zip?download">OS/2 package</a> <font class='cat-count'>(2.4M .zip)</font></td></tr>
 
@@ -185,8 +185,8 @@ Smartphone 2003, and Windows Mobile 5 <font class='cat-count'>(1.8M zipfile)</fo
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.9.0-1_FC4.i386.rpm?download">Tools - Fedora Core 4 RPM</a> <font class='cat-count'>(148k .rpm)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.9.0-1_FC2.i386.rpm?download">Tools - Fedora Core 2 RPM</a> <font class='cat-count'>(169k .rpm)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-macos.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.9.0-macosx-ppc.tar.bz2?download">Tools - Mac OS X PPC binary</a> <font class='cat-count'>(321k .tar.bz2)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-macos-universal.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.9.0-macosx-universal.tar.bz2?download">Tools - Mac OS X Universal binary</a> <font class='cat-count'>(615k .tar.bz2)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-macos.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.9.0-macosx-ppc.tar.bz2?download">Tools - Mac OS X PPC binaries</a> <font class='cat-count'>(321k .tar.bz2)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-macos-universal.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.9.0-macosx-universal.tar.bz2?download">Tools - Mac OS X Universal binaries</a> <font class='cat-count'>(615k .tar.bz2)</font></td></tr>
 
 <!--
 	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.8.0-solaris-sparc.tar.bz2?download">Tools - Solaris 8 (Sparc)</a> <font class='cat-count'>(135k .tar.bz2)</font></td></tr>
