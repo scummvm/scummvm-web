@@ -181,7 +181,7 @@ Smartphone 2003, and Windows Mobile 5 <font class='cat-count'>(1.8M zipfile)</fo
 
 	<table>
 	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.9.0-win32.exe?download">Tools - Windows Installer</a> <font class='cat-count'>(438k Win32 .exe)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.9.0-win32.zip?download">Tools - Windows zipfile</a> <font class='cat-count'>(280k Win32 .exe)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.9.0-win32.zip?download">Tools - Windows zipfile</a> <font class='cat-count'>(280k Win32 .zip)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.9.0-1_FC4.i386.rpm?download">Tools - Fedora Core 4 RPM</a> <font class='cat-count'>(148k .rpm)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.9.0-1_FC2.i386.rpm?download">Tools - Fedora Core 2 RPM</a> <font class='cat-count'>(169k .rpm)</font></td></tr>
