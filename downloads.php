@@ -122,8 +122,8 @@ html_content_begin('Download ScummVM');
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-s60-v1.sis?download">Symbian S60 version 1 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-s60-v2.sis?download">Symbian S60 version 2 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
-    <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-s60-v3-scumm.sis?download">Symbian S60 version 3 binary (SCUMM games <i>only</i>)</a> <font class='cat-count'>(1.2M .sis)</font></td></tr>
-    <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-s60-v3-nonscumm.sis?download">Symbian S60 version 3 binary (<b><i>non</i></b>SCUMM games)</a> <font class='cat-count'>(1.0M .sis)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-s60-v3-scumm.sis?download">Symbian S60 version 3 binary (SCUMM games <i>only</i>)</a> <font class='cat-count'>(1.2M .sis)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-s60-v3-nonscumm.sis?download">Symbian S60 version 3 binary (<b><i>non</i></b>SCUMM games)</a> <font class='cat-count'>(1.0M .sis)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-s80.sis?download">Symbian S80 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-s90.sis?download">Symbian S90 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-uiq.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-uiq2.sis?download">Symbian UIQ 2 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
@@ -150,9 +150,9 @@ Smartphone 2003, and Windows Mobile 5 <font class='cat-count'>(1.8M zipfile)</fo
 
 <!--
 	  <tr><td class='cat-bullet'><img src='images/catpl-dc.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.1-dreamcast-nero+demos.zip?download">Dreamcast Nero Image &amp; Demos</a> <font class='cat-count'>5.2M zipfile</font></td></tr>
-
-	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-solaris-sparc.tar.bz2?download">Solaris 8 and up (Sparc) binary</a> <font class='cat-count'>(1.6M .tar.bz2)</font></td></tr>
 -->
+
+	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-solaris-sparc.tar.bz2?download">Solaris 8 and up (Sparc) binary</a> <font class='cat-count'>(1.6M .tar.bz2)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-solaris10-x86.pkg.bz2?download">Solaris 10 (both IA32 and AMD64) binary</a> <font class='cat-count'>(5.6M .pkg.bz2)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-beos.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.0-beosx86.pkg?download">BeOS package</a> <font class='cat-count'>(2.4M pkg)</font></td></tr>
@@ -188,12 +188,10 @@ Smartphone 2003, and Windows Mobile 5 <font class='cat-count'>(1.8M zipfile)</fo
 	  <tr><td class='cat-bullet'><img src='images/catpl-macos.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.9.0-macosx-ppc.tar.bz2?download">Tools - Mac OS X PPC binaries</a> <font class='cat-count'>(321k .tar.bz2)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-macos-universal.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.9.0-macosx-universal.tar.bz2?download">Tools - Mac OS X Universal binaries (10.3.9 and up)</a> <font class='cat-count'>(615k .tar.bz2)</font></td></tr>
 
-<!--
-	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.8.0-solaris-sparc.tar.bz2?download">Tools - Solaris 8 (Sparc)</a> <font class='cat-count'>(135k .tar.bz2)</font></td></tr>
--->
+	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.9.0-solaris-sparc.tar.bz2?download">Tools - Solaris 8 (Sparc)</a> <font class='cat-count'>(135k .tar.bz2)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.9.0-solaris10-x86.tar.bz2?download">Tools - Solaris 10 (both IA32 and AMD64)</a> <font class='cat-count'>(145k .tar.bz2)</font></td></tr>
 
-    <tr><td class='cat-bullet'><img src='images/catpl-freemint.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.9.0-atari.tar.gz?download">Tools - Atari/FreeMiNT (68020 and up)</a> <font class='cat-count'>(1153k .tar.gz)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-freemint.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.9.0-atari.tar.gz?download">Tools - Atari/FreeMiNT (68020 and up)</a> <font class='cat-count'>(1153k .tar.gz)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.9.0.tar.bz2?download">Tools - Source .tar.bz2</a> <font class='cat-count'>(114k .tar.bz2)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.9.0.tar.gz?download">Tools - Source .tar.gz</a> <font class='cat-count'>(136k .tar.bz2)</font></td></tr>
@@ -220,8 +218,6 @@ Smartphone 2003, and Windows Mobile 5 <font class='cat-count'>(1.8M zipfile)</fo
 	  <tr><td class='cat-bullet'><img src='images/catpl-ps2.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-ps2.zip?download">0.8.2 PlayStation2 package</a> <font class='cat-count'>(2.0M .zip)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-WinCE2002.zip?download">0.8.2 PocketPC 2002 ARM package</a> <font class='cat-count'>(1.3M zipfile)</font></td></tr>
-
-	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.2-solaris-sparc.tar.bz2?download">0.8.2 Solaris 8 and up (Sparc) binary</a> <font class='cat-count'>(1.6M .tar.bz2)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-dc.png' alt="" /></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.1-dreamcast-nero+demos.zip?download">0.8.1 Dreamcast Nero Image &amp; Demos</a> <font class='cat-count'>5.2M zipfile</font></td></tr>
 
