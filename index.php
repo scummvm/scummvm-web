@@ -4,6 +4,7 @@ $file_root = ".";
 // load libraries
 require($file_root."/include/"."incl.php");
 require($file_root."/include/"."scr-categories.php");
+require($file_root."/include/"."news.php");
 
 html_page_header('ScummVM :: Home', array("index.css"));
 
@@ -211,71 +212,32 @@ before posting.
 
 html_content_begin('Latest Developments');
 
-//display News
-
-// get list of news items
-$news = get_files($file_root."/news","xml");
-$news = array_reverse ($news);
-
 // loop and display news
-$c = 0;
+if ($shownews) {
+  $news = list_latest_news(-1);
+} else {
+  $news = list_latest_news(4);
+}
+
 while (list($key,$item) = each($news)) {
-  $c++;
-	
-  // Load news item (it's in a pseudo XML format).
-  $file = $file_root."/news/".$item;
-  if (file_exists($file)) { 
-    $fp = @fopen($file, "r");
-    $data = fread($fp, filesize($file));
-    @fclose($fp);
-
-    $news_date = "";
-    if (eregi("<DATE>(.*)</DATE>", $data, $out)) {
-      $news_date = strtotime($out[1]);
-    }
-
-    $news_author = "";
-    if (eregi("<AUTHOR>(.*)</AUTHOR>", $data, $out)) {
-      $news_author = "Posted by ".$out[1];
-    }
-
-    $news_title = "";
-    if (eregi("<NAME>(.*)</NAME>", $data, $out)) {
-      $news_title = $out[1];
-    }
-
-    $news_img = "";
-    if (eregi("<IMG>(.*)</IMG>", $data, $out)) {
-      $news_img = $out[1];
-    }
-
-    $news_body = "";
-    if (eregi("<BODY>(.*)</BODY>", $data, $out)) {
-      $news_body = $out[1];
-    }
-  }
-	
   // Display news item
-
   echo '<div class="par-item">'.
 	 '<div class="par-head">'.
-	   '<a name="' . date("Y-m-d", $news_date) . '"></a><span class="newsdate">' . date("M. jS, Y", $news_date) . "</span>: ".
-           $news_title.
+	   '<a name="' . date("Y-m-d", $item["date"]) . '"></a><span class="newsdate">' . date("M. jS, Y", $item["date"]) . "</span>: ".
+           $item["title"].
 	 '</div>'.
          '<div class="par-content">'.
-		 	 '<div class="news-author">'.$news_author."</div> ".
-  		$news_img.
-		$news_body.
+		 	 '<div class="news-author">'.$item["author"]."</div> ".
+  		$item["img"].
+		$item["body"].
 	 '</div>'.
        '</div>';
-	
-	
-  // Only show first five records, unless we are in "news" mode
-  if ($c == 4 && !$shownews) {
-    echo '<p class="bottom-link"><a href="?shownews=archive">More News...</a></p>'."\n";
-    break;
-  }
 } // end of news loop
+
+// Show 'More News...' link, unless we are already in the showsnews mode.
+if (!$shownews) {
+  echo '<p class="bottom-link"><a href="?shownews=archive">More News...</a></p>'."\n";
+}
 
 html_content_end();
 html_page_footer();
