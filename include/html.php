@@ -13,6 +13,8 @@ function html_page_header($title, $extra_css = array()) {
 <?php
   foreach ($extra_css as $css_file) {
     echo '<link rel="stylesheet" href="./' . $css_file . '" type="text/css">'."\n";
+    echo '<link rel="alternate" type="application/atom+xml" title="ScummVM Atom news feed" href="feed://www.scummvm.org/feed-atom.php">'."\n";
+    echo '<link rel="alternate" type="application/rss+xml" title="ScummVM RSS news feed" href="feed://www.scummvm.org/feed-rss20.php">'."\n";
   }
 
   echo "<title>$title</title>\n";
