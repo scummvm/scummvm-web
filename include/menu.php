@@ -1,4 +1,4 @@
-<?
+<?php
 class htmlmenu {
 
   function htmlmenu($name, $style, $extra = "") {

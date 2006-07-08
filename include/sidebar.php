@@ -1,4 +1,4 @@
-<?
+<?php
 
 function sidebar_start () {
   

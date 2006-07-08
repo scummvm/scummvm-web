@@ -1,4 +1,4 @@
-<?
+<?php
 //set global path
 global $file_root;
 
