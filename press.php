@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
  * Press Page
