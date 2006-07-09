@@ -93,6 +93,10 @@
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Marcus Comstedt</td><td></td><td></td>
 </table>
+<span style='font-weight: bold'>Nintendo DS:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Neil Millstone</td><td style='width:10em; text-align: left;' class='news-author'>agent-q</td><td></td>
+</table>
 <span style='font-weight: bold'>SymbianOS:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Jurgen Braam</td><td style='width:10em; text-align: left;' class='news-author'>SumthinWicked</td><td></td>
