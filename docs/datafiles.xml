@@ -37,6 +37,32 @@ details.</p>
       Rename speech.clu on CD2 to speech2.clu</td>
   </tr>
   <tr>
+    <td>Blue's ABC Time (Windows)</td>
+    <td>BluesABCTime.he0<br>
+      BluesABCTime.(a)<br>
+      BluesABCTime.(b)<br>
+      BluesABCTime.he2<br>
+      BluesABCTime.he4</td>
+  </tr>
+  <tr>
+    <td>Blue's Birthday Adventure (Red) (Windows)</td>
+    <td>Blue'sBirthday.(b)<br>
+      Blue'sBirthday-Red.exe<br>
+      Blue'sBirthday-Red.HE0<br>
+      Blue'sBirthday-Red.(a)<br>
+      Blue'sBirthday-Red.he2<br>
+      Blue'sBirthday-Red.he4</td>
+  </tr>
+  <tr>
+    <td>Blue's Birthday Adventure (Yellow) (Windows)</td>
+    <td>Blue'sBirthday.(b)<br>
+      Blue'sBirthday-Yellow.exe<br>
+      Blue'sBirthday-Yellow.HE0<br>
+      Blue'sBirthday-Yellow.(a)<br>
+      Blue'sBirthday-Yellow.he2<br>
+      Blue'sBirthday-Yellow.he4</td>
+  </tr>
+  <tr>
     <td>Curse of Monkey Island, The</td>
     <td>RESOURCE folder<br>
       COMI.LA0<br>
@@ -165,7 +191,7 @@ details.</p>
     <td>queen.1c</td>
   </tr>
   <tr>
-    <td>Freddi Fish 1: The Case of the Missing Kelp Seeds (Demo)</td>
+    <td>Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows Demo)</td>
     <td>freddemo.he0<br>
       freddemo.he1<br>
       freddemo.he2<br>
@@ -173,7 +199,7 @@ details.</p>
       freddemo.he4</td>
   </tr>
   <tr>
-    <td>Freddi Fish 1: The Case of the Missing Kelp Seeds</td>
+    <td>Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows)</td>
     <td>FREDDI.HE0<br>
       FREDDI.HE1<br>
       FREDDI.HE2<br>
@@ -181,49 +207,49 @@ details.</p>
       FREDDI.HE4</td>
   </tr>
   <tr>
-    <td>Freddi Fish 2: The Case of the Haunted Schoolhouse (Demo)</td>
+    <td>Freddi Fish 2: The Case of the Haunted Schoolhouse (Windows Demo)</td>
     <td>FF2-DEMO.HE0<br>
       FF2-DEMO.HE1<br>
       FF2-DEMO.HE2<br>
       FF2-DEMO.HE4</td>
   </tr>
   <tr>
-    <td>Freddi Fish 2: The Case of the Haunted Schoolhouse</td>
+    <td>Freddi Fish 2: The Case of the Haunted Schoolhouse (Windows)</td>
     <td>FREDDI2.HE0<br>
       FREDDI2.HE1 or FREDDI2.(A)<br>
       FREDDI2.HE2<br>
       FREDDI2.HE4</td>
   </tr>
   <tr>
-    <td>Freddi Fish 3: The Case of the Stolen Conch Shell (Demo)</td>
+    <td>Freddi Fish 3: The Case of the Stolen Conch Shell (Windows Demo)</td>
     <td>F3-MDEMO.HE0<br>
       F3-MDEMO.HE1<br>
       F3-MDEMO.HE2<br>
       F3-MDEMO.HE4</td>
   </tr>
   <tr>
-    <td>Freddi Fish 3: The Case of the Stolen Conch Shell</td>
+    <td>Freddi Fish 3: The Case of the Stolen Conch Shell (Windows)</td>
     <td>FFREDDI3.HE0<br>
       FREDDI3.HE1<br>
       FREDDI3.HE2<br>
       FREDDI3.HE4</td>
   </tr>
   <tr>
-    <td>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Demo)</td>
+    <td>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows Demo)</td>
     <td>f4-demo.HE0<br>
       f4-demo.(a)<br>
       f4-demo.he2<br>
       f4-demo.he4</td>
   </tr>
   <tr>
-    <td>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch</td>
+    <td>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows)</td>
     <td>FREDDI4.HE0<br>
       FREDDI4.(A)<br>
       FREDDI4.HE2<br>
       FREDDI4.HE4</td>
   </tr>
   <tr>
-    <td>Freddi Fish and Luther's Maze Madness</td>
+    <td>Freddi Fish and Luther's Maze Madness (Windows)</td>
     <td>maze.HE0<br>
       MAZE.HE1<br>
       MAZE.HE2<br>
@@ -231,7 +257,7 @@ details.</p>
       MAZE.HE8</td>
   </tr>
   <tr>
-    <td>Freddi Fish and Luther's Water Worries</td>
+    <td>Freddi Fish and Luther's Water Worries (Windows)</td>
     <td>WATER.HE0<br>
       WATER.HE1<br>
       WATER.HE2<br>
@@ -434,7 +460,7 @@ details.</p>
       <a href="https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/kyra.dat">kyra.dat</a></td>
   </tr>
   <tr>
-    <td>Let's Explore the Airport with Buzzy (Demo)</td>
+    <td>Let's Explore the Airport with Buzzy (Windows Demo)</td>
     <td>AIRDEMO.HE0<br>
       AIRDEMO.HE1<br>
       AIRDEMO.HE2<br>
@@ -443,7 +469,7 @@ details.</p>
       AIRDEMO.HE9</td>
   </tr>
   <tr>
-    <td>Let's Explore the Airport with Buzzy</td>
+    <td>Let's Explore the Airport with Buzzy (Windows)</td>
     <td>AIRPORT.HE0<br>
       AIRPORT.HE1<br>
       AIRPORT.HE2<br>
@@ -453,7 +479,7 @@ details.</p>
       AIRPORT.HE9</td>
   </tr>
   <tr>
-    <td>Let's Explore the Farm with Buzzy (Demo)</td>
+    <td>Let's Explore the Farm with Buzzy (Windows Demo)</td>
     <td>FARMDEMO.HE0<br>
       FARMDEMO.HE1<br>
       FARMDEMO.HE2<br>
@@ -461,7 +487,7 @@ details.</p>
       FARMDEMO.HE4</td>
   </tr>
   <tr>
-    <td>Let's Explore the Farm with Buzzy</td>
+    <td>Let's Explore the Farm with Buzzy (Windows)</td>
     <td>FARM.HE0<br>
       FARM.HE1<br>
       FARM.HE2<br>
@@ -470,7 +496,7 @@ details.</p>
       FARM.HE9</td>
   </tr>
   <tr>
-    <td>Let's Explore the Jungle with Buzzy</td>
+    <td>Let's Explore the Jungle with Buzzy (Windows)</td>
     <td>JUNGLE.HE0<br>
       JUNGLE.HE1<br>
       JUNGLE.HE2<br>
@@ -520,14 +546,14 @@ details.</p>
       MI2DEMO.002</td>
   </tr>
   <tr>
-    <td>Pajama Sam 1: No Need to Hide When It's Dark Outside (Demo)</td>
+    <td>Pajama Sam 1: No Need to Hide When It's Dark Outside (Windows Demo)</td>
     <td>PJS-DEMO.HE0<br>
       PJS-DEMO.HE1<br>
       PJS-DEMO.HE2<br>
       PJS-DEMO.HE4</td>
   </tr>
   <tr>
-    <td>Pajama Sam 1: No Need to Hide When It's Dark Outside</td>
+    <td>Pajama Sam 1: No Need to Hide When It's Dark Outside (Windows)</td>
     <td>PAJAMA.HE0<br>
       PAJAMA.HE1<br>
       PAJAMA.HE2<br>
@@ -536,45 +562,53 @@ details.</p>
       PAJAMA.HE7</td>
   </tr>
   <tr>
-    <td>Pajama Sam 2: Thunder and Lightning Aren't so Frightening (Demo)</td>
+    <td>Pajama Sam 2: Thunder and Lightning Aren't so Frightening (Windows Demo)</td>
     <td>PJ2DEMO.HE0<br>
       PJ2DEMO.HE1<br>
       PJ2DEMO.HE2<br>
       PJ2DEMO.HE4</td>
   </tr>
   <tr>
-    <td>Pajama Sam 2: Thunder and Lightning Aren't so Frightening</td>
+    <td>Pajama Sam 2: Thunder and Lightning Aren't so Frightening (Windows)</td>
     <td>PAJAMA2.HE0<br>
       PAJAMA2.HE1<br>
       PAJAMA2.HE2<br>
       PAJAMA2.HE4</td>
   </tr>
   <tr>
-    <td>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Demo)</td>
+    <td>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows Demo)</td>
     <td>PJ3-DEMO.HE0<br>
       PJ3-DEMO.(A)<br>
       PJ3-DEMO.HE2<br>
       PJ3-DEMO.HE3</td>
   </tr>
   <tr>
-    <td>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet</td>
+    <td>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows)</td>
     <td>PAJAMA3.HE0<br>
       PAJAMA3.(A)<br>
       PAJAMA3.HE2<br>
       PAJAMA3.HE4</td>
   </tr>
   <tr>
-    <td>Pajama Sam's Lost & Found (Demo)</td>
+    <td>Pajama Sam's Lost & Found (Windows Demo)</td>
     <td>data folder<br>
       SMALLER.HE0<br>
       SMALLER.(A)</td>
   </tr>
   <tr>
-    <td>Pajama Sam's Lost & Found</td>
+    <td>Pajama Sam's Lost & Found (Windows)</td>
     <td>data folder<br>
       LOST.HE0<br>
       LOST.(A)<br>
       LOST.HE2</td>
+  </tr>
+  <tr>
+    <td>Pajama Sam's Sock Works (Windows)</td>
+    <td>SOCKS.HE0<br>
+      SOCKS.HE1<br>
+      SOCKS.HE2<br>
+      SOCKS.HE4<br>
+      SOCKS.HE7</td>
   </tr>
   <tr>
     <td>Passport to Adventure (Indy3, Monkey and Loom demos)</td>
@@ -582,14 +616,14 @@ details.</p>
       *.LFL</td>
   </tr>
   <tr>
-    <td>Putt-Putt Enters the Race (Demo)</td>
+    <td>Putt-Putt Enters the Race (Windows Demo)</td>
     <td>RACEDEMO.HE0<br>
       RACEDEMO.(A)<br>
       RACEDEMO.HE2<br>
       RACEDEMO.HE4</td>
   </tr>
   <tr>
-    <td>Putt-Putt Enters the Race</td>
+    <td>Putt-Putt Enters the Race (Windows)</td>
     <td>PUTTRACE.HE0<br>
       PUTTRACE.(A)<br>
       PUTTRACE.(B)<br>
@@ -610,14 +644,14 @@ details.</p>
       PUTTMOON.TLK</td>
   </tr>
   <tr>
-    <td>Putt-Putt Joins the Circus (Demo)</td>
+    <td>Putt-Putt Joins the Circus (Windows Demo)</td>
     <td>CIRCDEMO.HE0<br>
       CIRCDEMO.(A)<br>
       CIRCDEMO.HE2<br>
       CIRCDEMO.HE4</td>
   </tr>
   <tr>
-    <td>Putt-Putt Joins the Circus</td>
+    <td>Putt-Putt Joins the Circus (Windows)</td>
     <td>PUTTCIRCUS.HE0<br>
       PUTTCIRCUS.(A)<br>
       PUTTCIRCUS.HE2<br>
@@ -636,7 +670,7 @@ details.</p>
       PUTTPUTT.TLK</td>
   </tr>
   <tr>
-    <td>Putt-Putt Saves the Zoo (Demo)</td>
+    <td>Putt-Putt Saves the Zoo (Windows Demo)</td>
     <td>ZOODEMO.HE0<br>
       ZOODEMO.HE1<br>
       ZOODEMO.HE2<br>
@@ -644,7 +678,7 @@ details.</p>
       ZOODEMO.HE4</td>
   </tr>
   <tr>
-    <td>Putt-Putt Saves the Zoo</td>
+    <td>Putt-Putt Saves the Zoo (Windows)</td>
     <td>PUTTZOO.HE0<br>
       PUTTZOO.HE1 or PUTTZOO.(A)<br>
       PUTTZOO.HE2<br>
@@ -652,7 +686,7 @@ details.</p>
       PUTTZOO.HE4</td>
   </tr>
   <tr>
-    <td>Putt-Putt Travels Through Time (Demo)</td>
+    <td>Putt-Putt Travels Through Time (Windows Demo)</td>
     <td>TIMEDEMO.HE0<br>
       TIMEDEMO.HE1<br>
       TIMEDEMO.HE2<br>
@@ -660,14 +694,14 @@ details.</p>
       TIMEDEMO.HE4</td>
   </tr>
   <tr>
-    <td>Putt-Putt Travels Through Time</td>
+    <td>Putt-Putt Travels Through Time (Windows)</td>
     <td>PuttTTT.HE0<br>
       PuttTTT.(A)<br>
       PuttTTT.HE2<br>
       PuttTTT.HE4</td>
   </tr>
   <tr>
-    <td>Putt-Putt and Pep's Balloon-O-Rama</td>
+    <td>Putt-Putt and Pep's Balloon-O-Rama (Windows)</td>
     <td>balloon.HE0<br>
       BALLOON.HE1<br>
       BALLOON.HE2<br>
@@ -677,7 +711,7 @@ details.</p>
       BALLOON.HE9</td>
   </tr>
   <tr>
-    <td>Putt-Putt and Pep's Dog on a Stick</td>
+    <td>Putt-Putt and Pep's Dog on a Stick (Windows)</td>
     <td>DOG.HE0<br>
       DOG.HE1<br>
       DOG.HE2<br>
@@ -857,28 +891,28 @@ details.</p>
       tbllist</td>
   </tr>
   <tr>
-    <td>SPY Fox 1: Dry Cereal (Demo)</td>
+    <td>SPY Fox 1: Dry Cereal (Windows Demo)</td>
     <td>SPYFOX.HE0<br>
       SPYFOX.HE1<br>
       SPYFOX.HE2<br>
       SPYFOX.HE4</td>
   </tr>
   <tr>
-    <td>SPY Fox 1: Dry Cereal</td>
+    <td>SPY Fox 1: Dry Cereal (Windows)</td>
     <td>SPYFOX.HE0<br>
       SPYFOX.(A)<br>
       SPYFOX.HE2<br>
       SPYFOX.HE4</td>
   </tr>
   <tr>
-    <td>SPY Fox 2: Some Assembly Required (Demo)</td>
+    <td>SPY Fox 2: Some Assembly Required (Windows Demo)</td>
     <td>SF2-DEMO.HE0<br>
       SF2-DEMO.(A)<br>
       SF2-DEMO.he2<br>
       SF2-DEMO.HE4</td>
   </tr>
   <tr>
-    <td>SPY Fox 2: Some Assembly Required</td>
+    <td>SPY Fox 2: Some Assembly Required (Windows)</td>
     <td>SPYFOX2.HE0<br>
       SPYFOX2.(A)<br>
       SPYFOX2.HE2<br>
@@ -886,7 +920,7 @@ details.</p>
       SPYFOX2.he9</td>
   </tr>
   <tr>
-    <td>SPY Fox 3: Operation Ozone (Demo)</td>
+    <td>SPY Fox 3: Operation Ozone (Windows Demo)</td>
     <td>SPYOZON.HE0<br>
       SPYOZON.(A)<br>
       SPYOZON.HE2<br>
@@ -894,7 +928,7 @@ details.</p>
       SPYOZON.HE4</td>
   </tr>
   <tr>
-    <td>SPY Fox 3: Operation Ozone</td>
+    <td>SPY Fox 3: Operation Ozone (Windows)</td>
     <td>SF3-DEMO.HE0<br>
       SF3-DEMO.(A)<br>
       SF3-DEMO.HE2<br>
@@ -902,7 +936,7 @@ details.</p>
       SF3-DEMO.HE4</td>
   </tr>
   <tr>
-    <td>SPY Fox in Cheese Chase</td>
+    <td>SPY Fox in Cheese Chase (Windows)</td>
     <td>Custom folder<br>
       Levels folder<br>
       CHASE.HE0<br>
@@ -913,7 +947,7 @@ details.</p>
       CHASE.HE9</td>
   </tr>
   <tr>
-    <td>SPY Fox in Hold the Mustard</td>
+    <td>SPY Fox in Hold the Mustard (Windows)</td>
     <td>images folder<br>
       map.ini<br>
       MUSTARD.HE0<br>

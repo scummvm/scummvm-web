@@ -207,7 +207,7 @@ $notes = array(
 "BluesABCTime" => "Game is playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "BluesBirthday" => "Game is playable".
-		   "<br>- Only Windows version is supported by this target",
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "fbear"		=> "Game should be completable, with several glitches".
 		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target".
 		   "<br>- Piano sounds aren't the correct pitch in DOS version",
