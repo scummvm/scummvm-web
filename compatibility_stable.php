@@ -237,7 +237,7 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "pajama3"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- PlayStation 1 version doesn't use SCUMM, so will never be supported.",
+		   "<br>- PlayStation 1 version doesn't use SCUMM, so will never be supported.".
 		   "<br>- Minor graphical glitches with dancing can in stomach",
 "lost"		=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
@@ -277,7 +277,7 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "mustard"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
+		   "<br>- Minor graphical glitches with clouds",
 
 "sky"	 	=> "No known issues, game is completable.".
 		   "<br>- Requires the <a href=\"SKY.CPT\">SKY.CPT</a> resource file to be placed in the game directory".

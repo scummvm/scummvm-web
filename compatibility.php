@@ -256,10 +256,9 @@ $notes = array(
 		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target",
 "puttzoo"	=> "Game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches in HE72 version",
+		   "<br>- Minor graphical glitches when meeting Kenya in HE72 version",
 "putttime"	=> "No known issues, game is completable.".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "balloon"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "dog"		=> "No known issues, game is completable.".
@@ -278,7 +277,7 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "mustard"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
+		   "<br>- Minor graphical glitches with clouds",
 
 "sky"	 	=> "No known issues, game is completable.".
 		   "<br>- Requires the <a href=\"SKY.CPT\">SKY.CPT</a> resource file to be placed in the game directory".
