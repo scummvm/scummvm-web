@@ -235,9 +235,10 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "pajama2"	=> "No known issues, game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"pajama3"	=> "No known issues, game is completable".
+"pajama3"	=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- PlayStation 1 version doesn't use SCUMM, so will never be supported.",
+		   "<br>- Minor graphical glitches with dancing can in stomach",
 "lost"		=> "Game is completable, with minor glitches".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
@@ -252,19 +253,19 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "puttputt"	=> "No known issues, game is completable.".
 		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target",
-"puttzoo"	=> "Game is completable, with minor glitches".
+"puttzoo"	=> "Game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
-"putttime"	=> "Game is completable, with minor glitches".
+		   "<br>- Minor graphical glitches when meeting Kenya in HE72 version",
+"putttime"	=> "Game is completable".
 		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
+		   "<br>- Minor graphical glitches when talking in HE80 version",
 "balloon"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "dog"		=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "funpack"	=> "No known issues, game is completable.".
 		   "<br>- Both 3DO and DOS versions supported by this target",
-"spyfox"	=> "Game is completable, with minor glitches".
+"spyfox"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "spyfox2"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
