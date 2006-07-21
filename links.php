@@ -234,7 +234,7 @@ function addLinkEntry($name, $url, $desc) {
 			addLinkEntry('Mega-Tokyo forum', 'http://www.mega-tokyo.com/forum/',
 				'Information and discussion on the Sierra interpreters and games.');
 			addLinkEntry('AGI Development Site', 'http://www.agidev.com',
-				'Large amounts of information surrounding Sierra's AGI system
+				'Large amounts of information surrounding Sierra\'s AGI system
 				and home of the NAGI AGI interpreter.');
 		?>
 	</div>
