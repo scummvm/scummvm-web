@@ -212,7 +212,7 @@ function addLinkEntry($name, $url, $desc) {
     
 	<!-- -->
 
-    <?php html_subhead_start("Technical information about SCUMM"); ?>
+    <?php html_subhead_start("Technical information about SCUMM and other engines"); ?>
     <div class="par-subhead-content">
 	<p>SCUMM is a complex system that grew over many years. Understanding it can
 	be quite difficult at times. Luckily there are some sites that provide you
@@ -229,6 +229,13 @@ function addLinkEntry($name, $url, $desc) {
 			addLinkEntry('LucasHacks', 'http://scumm.mixnmojo.com/',
 				'Contains lots of information about all SCUMM games, links to demos and
 				utilities, some documents on SCUMM internals and other useful things.');
+			addLinkEntry('SCUMM Hacking forum', 'http://www.lucasforums.com/forumdisplay.php?f=363',
+				'Information and discussion on resource formats used in LucasArts games.');
+			addLinkEntry('Mega-Tokyo forum', 'http://www.mega-tokyo.com/forum/',
+				'Information and discussion on the Sierra interpreters and games.');
+			addLinkEntry('AGI Development Site', 'http://www.agidev.com',
+				'Large amounts of information surrounding Sierra's AGI system
+				and home of the NAGI AGI interpreter.');
 		?>
 	</div>
     </div>
