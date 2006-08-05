@@ -79,6 +79,10 @@ td.content {
 	margin-bottom: 8px;
 }
 
+.menu li:first-letter {
+	font-weight:bold;
+}
+
 .menu a {
 	color: #fff;
 	text-decoration: none;
