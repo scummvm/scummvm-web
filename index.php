@@ -160,8 +160,7 @@ function scrshot_jn(x,n) {
 	<table width="100%" cellspacing="0"><tr>
 	<td class="tlc">&nbsp;</td>
 	<td style="background:url('images/header-background.gif')"><h2><?php
-shadowed_text("What Is ScummVM", '#356a02', '#ffffff');
-shadowed_text("?", '#66c409', '#ffffff');
+shadowed_text("What Is ScummVM?", '#356a02', '#ffffff');
 ?></h2>
 	<td class="trc">&nbsp;</td>
 	</tr></table>
@@ -178,7 +177,7 @@ ScummVM lets you run these adventures: <a href="http://www.adventuresoft.com">Ad
 <i>Beneath A Steel Sky</i>, <i>Broken Sword 1</i> and <i>Broken Sword 2</i>;
 <i>Flight of the Amazon Queen</i>;
 <a href="http://www.wyrmkeep.com/ite/">Wyrmkeep</a>'s <i>Inherit the Earth</i>;
-Coktel Vision's <i>Gobliiins</i>
+Coktel Vision's <i>Gobliiins</i>; Westwood Studios' <i>The Legend of Kyrandia</i> 
 and games based on <a href="http://www.lucasarts.com">LucasArts</a>'
 <span style="color: green">SCUMM</span> <span style="color: #666666">(<i>Script Creation Utility for Maniac
 Mansion</i>)</span> system. <span style="color: green">SCUMM</span> is used for many games,
