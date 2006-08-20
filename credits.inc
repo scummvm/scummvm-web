@@ -75,6 +75,10 @@
 <tr><td style='width:13em; padding:2px;'>Gregory Montoir</td><td style='width:10em; text-align: left;' class='news-author'>cyx</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Johannes Schickel</td><td style='width:10em; text-align: left;' class='news-author'>LordHoto</td><td></td>
 </table>
+<span style='font-weight: bold'>Lure:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Paul Gilbert</td><td style='width:10em; text-align: left;' class='news-author'>dreammaster</td><td></td>
+</table>
 <span style='font-weight: bold'>SAGA:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Torbj&ouml;rn Andersson</td><td style='width:10em; text-align: left;' class='news-author'>eriktorbjorn</td><td></td>
@@ -94,14 +98,13 @@
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Marcus Comstedt</td><td></td><td></td>
 </table>
+<span style='font-weight: bold'>GP32:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Won Star</td><td style='width:10em; text-align: left;' class='news-author'>wonst719</td><td></td>
+</table>
 <span style='font-weight: bold'>Nintendo DS:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Neil Millstone</td><td style='width:10em; text-align: left;' class='news-author'>agent-q</td><td></td>
-</table>
-<span style='font-weight: bold'>SymbianOS:</span>
-<table style='margin-left:2em; margin-bottom: 1em'>
-<tr><td style='width:13em; padding:2px;'>Jurgen Braam</td><td style='width:10em; text-align: left;' class='news-author'>SumthinWicked</td><td></td>
-<tr><td style='width:13em; padding:2px;'>Lars Persson</td><td style='width:10em; text-align: left;' class='news-author'>AnotherGuest</td><td></td>
 </table>
 <span style='font-weight: bold'>PalmOS:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
@@ -124,6 +127,11 @@
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Max Horn</td><td style='width:10em; text-align: left;' class='news-author'>Fingolfin</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td>Asm routines, GFX layers</td>
+</table>
+<span style='font-weight: bold'>SymbianOS:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Jurgen Braam</td><td style='width:10em; text-align: left;' class='news-author'>SumthinWicked</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Lars Persson</td><td style='width:10em; text-align: left;' class='news-author'>AnotherGuest</td><td></td>
 </table>
 </div>
 <div class='par-subhead'>Other subsystems</div>
@@ -204,6 +212,14 @@
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Max Horn</td><td style='width:10em; text-align: left;' class='news-author'>Fingolfin</td><td></td>
 </table>
+<span style='font-weight: bold'>Mandriva:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Dominik Scherer</td><td></td><td></td>
+</table>
+<span style='font-weight: bold'>MorphOS:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Fabien Coeurjoly</td><td></td><td></td>
+</table>
 <span style='font-weight: bold'>OS/2:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Paul Smedley</td><td style='width:10em; text-align: left;' class='news-author'>Creeping</td><td></td>
@@ -215,6 +231,10 @@
 <span style='font-weight: bold'>Solaris x86:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Laurent Blume</td><td style='width:10em; text-align: left;' class='news-author'>laurent</td><td></td>
+</table>
+<span style='font-weight: bold'>Solaris Spark:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Markus Strangl</td><td style='width:10em; text-align: left;' class='news-author'>WooShell</td><td></td>
 </table>
 <span style='font-weight: bold'>Win32:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
