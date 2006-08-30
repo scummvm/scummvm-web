@@ -115,13 +115,7 @@ function html_page_footer() {
 <tr><td style="background:#fbf1ce;height:51px;" colspan=2>
     <table style="border-spacing:0px;margin:0px;width:80%;margin-left:auto;margin-right:auto;" align="center" cellspacing="0"><!-- width="80%" -->
 	<tr>
-		<td>
-		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin:0px;"><div>
-		<input type="hidden" name="cmd" value="_xclick">
-		<input type="hidden" name="business" value="paypal@enderboi.com">
-		<input type="hidden" name="item_name" value="ScummVM donation">
-		<input type="image" src="<?=$file_root?>/images/ppdonate.gif" name="submit" alt="Donate to ScummVM with PayPal!">
-		</div></form>	
+		<td> &nbsp; 
 		</td>
 		<td>
 			<a href="http://sourceforge.net/"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=37116&amp;type=1" width="88" height="31" alt="SourceForge"></a>
