@@ -159,7 +159,7 @@ function addLinkEntry($name, $url, $desc) {
 				history. Go buy Psychonauts, their new game. Because if you don't,
 				the rats will get you and eat your family, computer and house. And
 				poop everywhere.");
-			addLinkEntry('Revolution Software', 'http://www.revgames.com/',
+			addLinkEntry('Revolution Software', 'http://www.revolution.co.uk/',
 				'Revolution Software are the people behind such wonderful titles as
 				Beneath a Steel Sky and the Broken Sword series of games. Revolution
 				have provided us with the source code to some of these games so that
