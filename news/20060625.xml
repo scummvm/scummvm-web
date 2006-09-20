@@ -11,7 +11,7 @@ improved GUI. We also added support for 2 completely new games &mdash;
 The Legend of Kyrandia and The Feeble Files.
 </p>
 
-<p>Other important changes include:
+<p>Other important changes include:</p>
 <ul>
 <li>Reworked detection code for SCUMM games. Now all your fan translations
 will work out of the box</li>
@@ -20,6 +20,7 @@ will work out of the box</li>
 <li>Much improved WinCE port</li>
 <li>Numerous bugfixes in the SCUMM, SAGA, Simon, Broken Sword 2 and BASS engines</li>
 </ul>
+<p>
 For the complete list 
 <a href="http://sourceforge.net/project/shownotes.php?release_id=426636">read the release notes</a>.
 </p>
