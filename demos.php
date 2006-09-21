@@ -146,6 +146,10 @@ $HE_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/ff4demo-de.zip', 'freddi4'),
 	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (UK Demo)'
 		=> array('http://quick.mixnmojo.com/demos/ff4demo-uk.zip', 'freddi4'),
+	'Let\'s Explore the Airport with Buzzy (Demo)'
+		=> array('http://quick.mixnmojo.com/demos/airdemo.rar', 'airport'),
+	'Let\'s Explore the Farm with Buzzy (Demo)'
+		=> array('http://quick.mixnmojo.com/demos/farmdemo.rar', 'farm'),
 	'Pajama Sam 1: No Need to Hide When It\'s Dark Outside (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/pjs-demo.zip', 'pajama'),
 	'Pajama Sam 1: No Need to Hide When It\'s Dark Outside (French Demo)'
@@ -214,7 +218,7 @@ $MISC_demos = array(
 	'Gobliiins'
 		=> array('http://minifiles.ag.ru/demos/448/gobliiins_demo.exe', 'gob1'),
 	'Inherit the Earth: Quest for the Orb demos'
-		=> array('http://www.wyrmkeep.com/ite/download.html', 'ite-demo'),
+		=> array('http://www.wyrmkeep.com/ite/download.html', 'ite'),
 	'The Legend of Kyrandia (Non-interactive)'
 		=> array('http://quick.mixnmojo.com/demos/kyra1demo.zip', 'kyra1'),
 	'Simon the Sorcerer 1 (DOS demo)'
