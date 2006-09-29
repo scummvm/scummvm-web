@@ -87,6 +87,7 @@
 </table>
 <span style='font-weight: bold'>Simon:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Torbj&ouml;rn Andersson</td><td style='width:10em; text-align: left;' class='news-author'>eriktorbjorn</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Travis Howell</td><td style='width:10em; text-align: left;' class='news-author'>Kirben</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Oliver Kiehl</td><td style='width:10em; text-align: left;' class='news-author'>olki</td><td></td>
 </table>
@@ -261,6 +262,7 @@
 <div class='par-subhead-dots'>&nbsp;</div>
 <div class='par-subhead-content'>
 <table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>John Doe</td><td></td><td>Improved DXA compression</td>
 <tr><td style='width:13em; padding:2px;'>Ori Avtalion</td><td style='width:10em; text-align: left;' class='news-author'>salty-horse</td><td>Subtitle control options in the GUI</td>
 <tr><td style='width:13em; padding:2px;'>Stuart Caie</td><td></td><td>Decoders for Simon 1 Amiga data files</td>
 <tr><td style='width:13em; padding:2px;'>Paolo Costabel</td><td></td><td>PSP port contributions</td>
@@ -301,6 +303,6 @@
 <p style='margin-left:2em; margin-bottom: 1em'>John Passfield and Steve Stamatiadis for sharing the source of their classic title, Flight of the Amazon Queen and also being incredibly supportive.</p>
 <p style='margin-left:2em; margin-bottom: 1em'>Joe Pearce from The Wyrmkeep Entertainment Co. for sharing the source of their famous title Inherit the Earth and always prompt replies to our questions.</p>
 <p style='margin-left:2em; margin-bottom: 1em'>Aric Wilmunder, Ron Gilbert, David Fox, Vince Lee, and all those at LucasFilm/LucasArts who made SCUMM the insane mess to reimplement that it is today. Feel free to drop us a line and tell us what you think, guys!</p>
-<p style='margin-left:2em; margin-bottom: 1em'>Alan Bridgman, Simon Woodroffe and everyone at Adventure Soft for sharing the source code of The Feeble Files with us.</p>
+<p style='margin-left:2em; margin-bottom: 1em'>Alan Bridgman, Simon Woodroffe and everyone at Adventure Soft for sharing the source code of The Feeble Files and Simon the Sorcerer's </p>
 </div></div>
 
