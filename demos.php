@@ -19,7 +19,7 @@ html_content_begin('Game Demos');
 ?>
 <div class="par-item">
   <div class="par-intro">
-  <br />
+  <br>
        <table border=0>
 	  <tr><td width="35%">
 
@@ -47,12 +47,12 @@ html_content_begin('Game Demos');
 </td></tr>
 </table>
 
-  <br />
+  <br>
 
 </div>
 
-  <br />
-  <br />
+  <br>
+  <br>
 
   <div class="par-content">
 

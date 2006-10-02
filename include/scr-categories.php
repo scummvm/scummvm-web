@@ -23,7 +23,7 @@ function display_categories() {
     echo '<div class="par-scr-content-cat'.$cat->_catnum.'">';
 
     $cat->display();
-    echo "<br/><br/>\n";
+    echo "<br><br>\n";
     echo "</div>\n";
   }
 }
@@ -55,7 +55,7 @@ class category {
     echo "<table border=0>\n";
     foreach($this->_list as $cat) {
       echo "<tr><td class='cat-bullet'><img src='$file_root/images/".$cat['filename'].
-      	"' alt=\"\" /></td><td class='cat-link'><a href=\"?cat1=".$this->_catnum."&amp;cat2=".$cat['catnum']."&amp;view=-1\">".
+      	"' alt=\"\"></td><td class='cat-link'><a href=\"?cat1=".$this->_catnum."&amp;cat2=".$cat['catnum']."&amp;view=-1\">".
       	"<b>{$cat['description'][0]}</b>".substr($cat['description'], 1).
       	"</a> <font class='cat-count'>(".$scrcatnums[$this->_catnum][$cat['catnum']]." shots)</font></td></tr>\n";
     }

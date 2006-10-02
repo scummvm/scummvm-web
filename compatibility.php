@@ -33,7 +33,7 @@ if ($details) {
 else {
 ?>
     <div class="par-intro">
-<br/>
+<br>
 	  This page lists the progress of ScummVM as it relates to individual game compatibility.<br>
 	  Click on the game name to view the complete notes of a game.
 
@@ -46,10 +46,10 @@ else {
 	  It is highly recommended to use the latest stable release, where possible.
 	  <br><br>
 	  <small>Last Updated: <? echo date("F d, Y",getlastmod()); ?></small>
-<br/>
-<br/>
+<br>
+<br>
     </div>
-<br/>
+<br>
     <div class="par-content">
 
 <?
@@ -397,7 +397,7 @@ echo html_frame_end("&nbsp;");
 if ($details)
   echo '<p class="bottom-link"><a href="javascript:history.back(1)">&lt;&lt;Back</a></p>'."\n";
 
-echo " <br/>";
+echo " <br>";
 echo "  </div>\n";
 echo "</div>\n";
 

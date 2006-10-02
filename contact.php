@@ -15,10 +15,10 @@ html_content_begin('Contact');
   <div class="par-item">
     <div class="par-intro">
 	<p>
-	<br/>
+	<br>
 		<b>Please do not contact the team for questions about using ScummVM. Instead use the
 		<a href="http://forums.scummvm.org/">forums</a> or the
-		<a href="http://sourceforge.net/tracker/?group_id=37116&auml;atid=418820">bug reporting system</a>!</b><br/><br/>
+		<a href="http://sourceforge.net/tracker/?group_id=37116&auml;atid=418820">bug reporting system</a>!</b><br><br>
 	</p>
     </div>
 	<br>

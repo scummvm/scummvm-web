@@ -12,7 +12,7 @@ html_content_begin("ScummVM Subprojects");
 ?>
   <div class="par-item">
     <div class="par-intro">
-<br/>
+<br>
 <P>
 The ScummVM team occasionally works on various subprojects, separate from the main 
 ScummVM program. These projects are generally reasonably stagnant and not given a high 
@@ -23,11 +23,11 @@ attracting more developers to help maintain these side-programs.
 Please do not ask where you can obtain binaries of these programs. Currently both 
 subprojects are still in a state only suitable for developers... so if you can't compile 
 the code yourself, then these are not really ready for you.
-</P><br/>
+</P><br>
 
     </div>
 
-<br/>
+<br>
 
 <?php html_subhead_start("ScummEx (svn subtree 'scummex')"); ?>
 

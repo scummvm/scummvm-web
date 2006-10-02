@@ -17,7 +17,7 @@ echo html_content_begin("SCRP: Scripts");
   </div>
   <div class="par-content">
 
-    <br/>
+    <br>
     <?php html_subhead_start("Introduction"); ?>
 
     <div class="par-subhead-content">

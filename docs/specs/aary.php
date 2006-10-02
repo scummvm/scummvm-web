@@ -17,7 +17,7 @@ echo html_content_begin("AARY: Arrays and Strings","");
   </div>
   <div class="par-content">
 
-    <br/>
+    <br>
     <?php html_subhead_start("Introduction"); ?>
 
     <div class="par-subhead-content">
@@ -75,7 +75,7 @@ an entry of 0 means a size of 1. Arrays are always two-dimensional.</p>
 
   </div>
 
-<br/>
+<br>
 
     <?php html_subhead_start("V8 chunk Format"); ?>
 

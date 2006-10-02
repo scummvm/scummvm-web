@@ -29,7 +29,7 @@ function html_page_header($title, $extra_css = array()) {
 	<table class="main-container" width="90%" cellspacing="0" cellpadding="0" align="center">
 		<tr>
 			<td colspan="2"><table cellspacing="0" cellpadding="0" style="width:100%;">
-	    <tr><td rowspan="2" width="287"><img alt="ScummVM logo" src="<?=$file_root?>/images/scummvm_logo.jpg" width="287" height="118" border="0" /></td>
+	    <tr><td rowspan="2" width="287"><img alt="ScummVM logo" src="<?=$file_root?>/images/scummvm_logo.jpg" width="287" height="118" border="0"></td>
 	    <td rowspan="2" style="background:url('<?=$file_root?>/images/bg-upper.gif')">&nbsp;</td>
 
 					<td width="483">
@@ -40,12 +40,12 @@ $heroes = get_files($file_root."/images", null, "(heroes.+\\.png)");
 
 $randImg = rand(0, count($heroes) - 1);
 
-echo '<img alt="Game characters" src="'.$file_root.'/images/'.$heroes[$randImg].'" width="483" height="89" />';
+echo '<img alt="Game characters" src="'.$file_root.'/images/'.$heroes[$randImg].'" width="483" height="89">';
 
 ?>
 </td>
 					</tr>
-    <tr><td width="483"><img alt="Script creation utility for Maniac Mansion Virtual Machine" src="<?=$file_root?>/images/scummvm-caption.png" width="482" height="29" /></td>
+    <tr><td width="483"><img alt="Script creation utility for Maniac Mansion Virtual Machine" src="<?=$file_root?>/images/scummvm-caption.png" width="482" height="29"></td>
 					<td width="24">&nbsp;</td></tr>
 				</table>
 			</td>
@@ -108,7 +108,7 @@ function html_page_footer() {
 
 
 		</tr><tr><td class="menus" style="vertical-align:bottom;" >
-		<img src="<?=$file_root?>/images/tentacle1.gif" style="vertical-align:bottom;" alt="Tentacle" width="163" height="159" />
+		<img src="<?=$file_root?>/images/tentacle1.gif" style="vertical-align:bottom;" alt="Tentacle" width="163" height="159">
 		</td>
 		</tr>
 
@@ -132,7 +132,7 @@ function html_page_footer() {
 <!-- </td></tr> -->
 	</table>
 </td><td class="menus" style="width:163px;vertical-align:top;border:0px;" rowspan="2"><img src="<?=$file_root?>/images/tentacle2.gif" style="margin:0px;border:0px;
-	vertical-align:bottom" alt="" width="150" height="63" /></td>
+	vertical-align:bottom" alt="" width="150" height="63"></td>
 </tr><tr>
 <td colspan="2">
 <table width="100%" cellspacing="0" style="padding:0px;">
@@ -151,7 +151,7 @@ function html_page_footer() {
 					things are registered trademarks of <a href="http://www.lucasarts.com/">LucasArts, Inc.</a>. 
 					All other trademarks and registered trademarks are owned by their respective companies. ScummVM is 
 					not affiliated in any way with LucasArts, Inc.</td>
-					<td width="110"><img src="<?=$file_root?>/images/tentacle3.gif" alt="" width="116" height="74" /></td>
+					<td width="110"><img src="<?=$file_root?>/images/tentacle3.gif" alt="" width="116" height="74"></td>
 					<td width="29">&nbsp;</td> 
 				</tr>
 			</table>
@@ -275,7 +275,7 @@ function html_subhead_start($subhead) {
 function html_nav_item($href, $text) {
   global $file_root;
 
-  echo "  <tr><td class='nav-bullet'><img src='$file_root/images/bullet-section.gif' alt='*' width='10' height='7' /></td><td class='nav-item'><a href='$href'>$text</a></td></tr>\n";
+  echo "  <tr><td class='nav-bullet'><img src='$file_root/images/bullet-section.gif' alt='*' width='10' height='7'></td><td class='nav-item'><a href='$href'>$text</a></td></tr>\n";
 }
 
 ?>

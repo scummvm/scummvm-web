@@ -17,14 +17,14 @@ function addEntry($description, $platform, $language, $md5, $source = "") {
 	print "<td>$platform</td>";
 	print "<td>";
 	if ($language != "All" && $language != "All?") {
-	  print "<img src='$file_root/images/fl-$language.png' alt='$language' style='vertical-align: middle; width: 20px; height: 12px'/> ";
+	  print "<img src='$file_root/images/fl-$language.png' alt='$language' style='vertical-align: middle; width: 20px; height: 12px'> ";
 	}
 	print "$language</td>";
 	print "<td>$source</td></tr>";
 }
 ?>
 <div class="par-intro">
-<br />
+<br>
 	<p>All the MD5 checksums listed below are computed for the canonic "first" file of each game.
 	This is usually a file like "00.lfl", "000.lfl", "*.000", "*.la0", "*.he0" etc.
 	</p>
@@ -32,15 +32,15 @@ function addEntry($description, $platform, $language, $md5, $source = "") {
 	<p>If you have data files not listed here, or if the MD5 of your data files
 	differs from the values listed here, please drop us a note so we can update
 	the table. Email us at <em>scummvm-devel AT lists DOT sourceforge DOT net</em>.</p>
-<br />
+<br>
 </div>
 
 <div class="document-time">
 Last updated: <?php echo date("F j, Y, g:i a",filemtime("docs/md5.inc")); ?>
 </div>
 		
-<br />
-<br />
+<br>
+<br>
 
 <div class='md5-table'>
 <table>

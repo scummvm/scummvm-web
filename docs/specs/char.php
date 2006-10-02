@@ -17,7 +17,7 @@ html_content_begin('CHAR: Character Sets');
   </div>
   <div class="par-content">
 
-    <br/>
+    <br>
     <?php html_subhead_start("Introduction"); ?>
 
     <div class="par-subhead-content">

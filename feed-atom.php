@@ -10,7 +10,7 @@ header("Content-type: application/atom+xml");
 <feed xml:lang="en" xml:base="http://www.scummvm.org/" xmlns="http://www.w3.org/2005/Atom">
     <id>tag:scummvm.org,2006:news/atom</id>
     <title>ScummVM news</title>
-    <link rel="self" href="http://<?php echo $_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>"/>
+    <link rel="self" href="http://<?php echo $_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>">
     <tagline mode="escaped" type="text/html">ScummVM is a cross-platform interpreter for several point-and-click adventure engines. This includes all SCUMM-based adventures by LucasArts, Simon the Sorcerer 1&amp;2 by AdventureSoft, Beneath a Steel Sky and Broken Sword 1&amp;2 by Revolution, and many more.</tagline>
     <author>
         <name>ScummVM team</name>
@@ -31,7 +31,7 @@ while (list($key,$item) = each($news)) {
   echo '<entry>'.
 	 '<title mode="escaped">'.htmlentities($item["title"]).'</title>'.
      '<id>tag:scummvm.org,2006:news/atom/'.$item["date"].'</id>'.
-	 '<link rel="alternate" href="http://www.scummvm.org/?shownews=archive#'.date("Y-m-d", $item["date"]).'" />'.
+	 '<link rel="alternate" href="http://www.scummvm.org/?shownews=archive#'.date("Y-m-d", $item["date"]).'">'.
 	 '<content mode="escaped" type="text/html">'.htmlentities($item["body"]).'</content>'.
 	 '<published>'.date("Y-m-d\Th:i:s\Z", $item["date"] - date("Z", $item["date"])).'</published>'.
      '<author><name>'.$item["author"].'</name></author>'.

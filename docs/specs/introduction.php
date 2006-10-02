@@ -18,7 +18,7 @@ html_content_begin("Introduction");
   </div>
 
     <div class="par-intro">
-	<br/>
+	<br>
 
     <div class="navigation">
        Navigation
@@ -37,11 +37,11 @@ html_content_begin("Introduction");
 ?>
 
 </table>
-<br/>
+<br>
     </div>
   </div>
 
-<br/>
+<br>
 
   <div class="par-content">
 

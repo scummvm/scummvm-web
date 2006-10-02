@@ -35,15 +35,15 @@ function addLinkEntry($name, $url, $desc) {
     </div>
 
     <div class="par-intro">
-    <br />
+    <br>
 	  <img src="images/scummvm-link.png" width="88" height="31" alt="ScummVM" style="vertical-align: middle; text-align: left; margin: 5px;">
 	  <b>Link to us: </b>
 	  If you want to link your site to us: please feel free to use this image.
-    <br />
-    <br />
+    <br>
+    <br>
     </div>
 
-    <br />
+    <br>
 
     <div class="par-content">
 

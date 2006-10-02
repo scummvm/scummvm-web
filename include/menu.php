@@ -7,7 +7,7 @@ class htmlmenu {
   <table class="menu" cellspacing="0">
   <tfoot>
     <tr>
-      <td><img src="<?=$file_root?>/images/menu-bottom.gif" alt="" width="145" height="13" /></td>
+      <td><img src="<?=$file_root?>/images/menu-bottom.gif" alt="" width="145" height="13"></td>
     </tr>
 <?php
      if ($extra) {
