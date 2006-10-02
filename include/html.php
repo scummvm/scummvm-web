@@ -128,6 +128,9 @@ function html_page_footer() {
 		<td>
 			<a href="http://jigsaw.w3.org/css-validator/"><img src="http://jigsaw.w3.org/css-validator/images/vcss" width="88" height="31" alt="Valid CSS!" ></a>
 		</td>
+		<td>
+		<a href="http://www.validome.org/referer"><img src="http://www.validome.org/images/set2/valid_html_4_0_1.gif" width="88" height="31" alt="Valid HTML 4.01"></a>
+		</td>
 	</tr>
 <!-- </td></tr> -->
 	</table>
