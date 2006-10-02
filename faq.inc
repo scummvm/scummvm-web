@@ -553,7 +553,7 @@ application (watch out, it has almost the same name as the data
 file, except that it lacks the " Data" at the end). In that case
 there is still a separate data file but it is invisible.</p>
 <p>There also exists a seperate <a href=
-"http://www.scummvm.org/documentation.php?view=maccd-howto" target=
+"http://wiki.scummvm.org/index.php/HOWTO-Mac_Games" target=
 "_top">tutorial</a> for setting up Mac versions</p>
 <p>The older games which have LFL files should only need the
 platform set to 'macintosh' to run. See "<a href=
