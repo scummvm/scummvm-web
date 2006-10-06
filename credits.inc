@@ -99,6 +99,10 @@
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Marcus Comstedt</td><td></td><td></td>
 </table>
+<span style='font-weight: bold'>GP2X:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>John Willis</td><td style='width:10em; text-align: left;' class='news-author'>DJWillis</td><td></td>
+</table>
 <span style='font-weight: bold'>GP32:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Won Star</td><td style='width:10em; text-align: left;' class='news-author'>wonst719</td><td></td>
