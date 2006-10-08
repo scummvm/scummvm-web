@@ -1,13 +1,14 @@
 <?php
 $file_root = ".";
 
-// load libraries
-require($file_root."/include/"."incl.php");
+// load specific libraries
+require($file_root."/include/"."util.php");
 require($file_root."/include/"."news.php");
 
-header("Content-type: text/xml");
+header("Content-Type: text/xml; charset=UTF-8");
+echo "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n";
 ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>ScummVM news</title>
         <link>http://www.scummvm.org/</link>
@@ -21,12 +22,15 @@ $news = list_latest_news(5);
 
 // Display news items
 while (list($key,$item) = each($news)) {
-  echo '<item>'.
-	 '<title>'.htmlentities($item["title"]).'</title>'.
-	 '<link>http://www.scummvm.org/?shownews=archive#'.date("Y-m-d", $item["date"]).'</link>'.
-	 '<description>'.htmlentities($item["body"]).'</description>'.
-	 '<pubDate>'.date("r", $item["date"]).'</pubDate>'.
-       '</item>';
+  $news_url = "http://www.scummvm.org/?shownews=archive#".date("Y-m-d",$item["date"]);
+  echo "\t\t<item>\n";
+  echo "\t\t\t<title><![CDATA[".$item["title"]."]]></title>\n";
+  echo "\t\t\t<description><![CDATA[\n".$item["body"]."\n\t\t\t]]></description>\n";
+  echo "\t\t\t<pubDate>".date("r",$item["date"])."</pubDate>\n";
+  echo "\t\t\t<author>nospam@scummvm.org (".$item["author"].")</author>\n";
+  echo "\t\t\t<guid isPermaLink=\"true\">".$news_url."</guid>\n";
+  echo "\t\t\t<link>".$news_url."</link>\n";
+  echo "\t\t</item>\n";
 } // end of news loop
 ?>
 

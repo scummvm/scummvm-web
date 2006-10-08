@@ -1,21 +1,25 @@
 <?php
 $file_root = ".";
 
-// load libraries
-require($file_root."/include/"."incl.php");
+// load specific libraries
+require($file_root."/include/"."util.php");
 require($file_root."/include/"."news.php");
 
-header("Content-type: application/atom+xml");
+header("Content-Type: text/xml; charset=UTF-8");
+echo "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n";
+
+$uri = $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
+
 ?>
-<feed xml:lang="en" xml:base="http://www.scummvm.org/" xmlns="http://www.w3.org/2005/Atom">
-    <id>tag:scummvm.org,2006:news/atom</id>
-    <title>ScummVM news</title>
-    <link rel="self" href="http://<?php echo $_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>">
-    <tagline mode="escaped" type="text/html">ScummVM is a cross-platform interpreter for several point-and-click adventure engines. This includes all SCUMM-based adventures by LucasArts, Simon the Sorcerer 1&amp;2 by AdventureSoft, Beneath a Steel Sky and Broken Sword 1&amp;2 by Revolution, and many more.</tagline>
-    <author>
-        <name>ScummVM team</name>
-        <uri>http://www.scummvm.org/</uri>
-    </author>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom">
+	<id>http://<?php echo $uri; ?></id>
+	<link rel="self" href="http://<?php echo $uri; ?>" />
+	<title type="text">ScummVM news</title>
+	<subtitle type="html"><![CDATA[ScummVM is a cross-platform interpreter for several point-and-click adventure engines. This includes all SCUMM-based adventures by LucasArts, Simon the Sorcerer 1&2 by AdventureSoft, Beneath a Steel Sky and Broken Sword 1&2 by Revolution, and many more.]]></subtitle>
+	<author>
+		<name>ScummVM team</name>
+		<uri>http://www.scummvm.org/</uri>
+	</author>
 
 <?php
 
@@ -28,14 +32,18 @@ echo "<updated>$published</updated>";
 
 // Display news item
 while (list($key,$item) = each($news)) {
-  echo '<entry>'.
-	 '<title mode="escaped">'.htmlentities($item["title"]).'</title>'.
-     '<id>tag:scummvm.org,2006:news/atom/'.$item["date"].'</id>'.
-	 '<link rel="alternate" href="http://www.scummvm.org/?shownews=archive#'.date("Y-m-d", $item["date"]).'">'.
-	 '<content mode="escaped" type="text/html">'.htmlentities($item["body"]).'</content>'.
-	 '<published>'.date("Y-m-d\Th:i:s\Z", $item["date"] - date("Z", $item["date"])).'</published>'.
-     '<author><name>'.$item["author"].'</name></author>'.
-     '</entry>';
+  $news_date = date("Y-m-d\Th:i:s\Z", $item["date"] - date("Z", $item["date"]));
+  $news_url = "http://www.scummvm.org/?shownews=archive#".date("Y-m-d", $item["date"]);
+  echo "\t<entry xml:lang=\"en\">\n";
+  echo "\t\t<id>".$news_url."</id>\n";
+  echo "\t\t<link rel=\"alternate\" href=\"".$news_url."\" />";
+  echo "\t\t<updated>".$news_date."</updated>\n";
+  echo "\t\t<published>".$news_date."</published>\n";
+  echo "\t\t<title type=\"html\"><![CDATA[".$item["title"]."]]></title>\n";
+
+  echo "\t\t<content type=\"html\" xml:base=\"".$news_url."\"><![CDATA[\n\t\t".$item["body"]."\n\t\t]]></content>\n";
+  echo "\t\t<author>\n\t\t\t<name>".$item["author"]."</name>\n\t\t\t<email>nospam@scummvm.org</email>\n\t\t</author>\n";
+  echo "\t</entry>\n";
 } // end of news loop
 ?>
 </feed>
