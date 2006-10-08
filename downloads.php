@@ -64,7 +64,7 @@ html_content_begin('Download ScummVM');
 	under '<A HREF="#stable">Release Binaries</A>'. If you run Windows and are confused,
 	download the 'Windows Installer'</LI>
 
-		<LI>For UNSTABLE experimental versions of ScummVM (for people who know what they 
+		<LI>For UNSTABLE experimental versions of ScummVM (for people who know what they
 	are doing), please see the <a href="#SVN">Subversion Builds</a> section, near the end of this page.</LI>
 
 		<LI>Also below are the <a href="#extras">Extras</a>. These currently include two
@@ -267,8 +267,8 @@ Smartphone 2003, and Windows Mobile 5 <font class='cat-count'>(1.8M zipfile)</fo
 	</table>
 	<p>
 	<i>Having trouble downloading Flight of the Amazon Queen?</i>
-	Sourceforge has been experiencing some downloading problems with certain mirrors 
-lately. So, if you are having problems, try the following non-SourceForge mirror - kindly 
+	Sourceforge has been experiencing some downloading problems with certain mirrors
+lately. So, if you are having problems, try the following non-SourceForge mirror - kindly
 hosted by <a href="http://www.mthN.de">Snoke Media and Tech Hosting Network</a>!
 	</p>
 	<table>
@@ -292,7 +292,7 @@ hosted by <a href="http://www.mthN.de">Snoke Media and Tech Hosting Network</a>!
       That means that they received no proper testing (usually no testing at
       all) and that any number of things may be broken in the them. For
       example, they might corrupt your config file, crash frequently or or
-      might not even start. Use them at your own risk! 
+      might not even start. Use them at your own risk!
     </p>
 	<p>
 	  View the <a href="/daily/ChangeLog">ChangeLog</a> to see the latest updates of ScummVM.
@@ -313,10 +313,11 @@ hosted by <a href="http://www.mthN.de">Snoke Media and Tech Hosting Network</a>!
 -->
 	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt=""></td><td class='cat-link'><a href="/downloads/scummvmwin32.exe">Win32 Daily Snapshot</a> <font class='cat-count'> (<? echo intval(filesize("downloads/scummvmwin32.exe")/1024) ?>K exe file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummvmwin32.exe")); ?>)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-macos.png' alt=""></td><td class='cat-link'><a href="http://worldsmainorganization.org/scummvm/">Mac OS X Snapshots</a> <font class='cat-count'> (infrequently from Subversion trunk)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-gp2x.png' alt=""></td><td class='cat-link'><a href="http://www.distant-earth.com/scummvm/">GP2X Builds</a> <font class='cat-count'> (infrequent builds from Subversion trunk)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt=""></td><td class='cat-link'><a href="http://arisme.free.fr/PocketScumm/daily/">PocketPC Builds</a> <font class='cat-count'> (infrequent snapshots of the PocketPC binaries)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-opie.png' alt=""></td><td class='cat-link'><a href="/downloads/scummvm_opie_svn_arm.ipk">Opie SDL build for iPAQ h1915 and MyPal 716</a> - compiled against latest custom <a href="http://handhelds.org/~aquadran/distro/latest"><b>Familiar Opie distribution image</b></a> <font class='cat-count'> (infrequently from Subversion trunk, <? echo intval(filesize("downloads/scummvm_opie_svn_arm.ipk")/1024) ?>K ipk file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummvm_opie_svn_arm.ipk")); ?>)</font></td></tr>
 <!--  <tr><td class='cat-bullet'><img src='images/catpl-dc.png' alt=""></td><td class='cat-link'><a href="http://paras.rasmatazz.bei.t-online.de/">Dreamcast Daily Builds</a></td></tr> -->
-	<tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt=""></td><td class='cat-link'><a href="http://anotherguest.k0.se/cvsbuilds/">SymbianOS Subversion Builds</a></td></tr>	
+	<tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt=""></td><td class='cat-link'><a href="http://anotherguest.k0.se/cvsbuilds/">SymbianOS Subversion Builds</a></td></tr>
 	<tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt=""></td><td class='cat-link'><a href="http://sourceforge.net/svn/?group_id=37116">Subversion Instructions</a> <font class='cat-count'> (for if you wish to retrieve the latest code to compile yourself)</font></td></tr>
 	</table>
 
@@ -339,7 +340,7 @@ hosted by <a href="http://www.mthN.de">Snoke Media and Tech Hosting Network</a>!
 	  <li><a href="http://www.libsdl.org/download-1.2.php">SDL 1.2.x</a></li>
 	</ul>
 
-    </div>		
+    </div>
 
     <?php html_subhead_start("Optional Libraries"); ?>
 
