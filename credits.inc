@@ -34,6 +34,12 @@
 <tr><td style='width:13em; padding:2px;'>Pawe&#322; Ko&#322;odziejski</td><td style='width:10em; text-align: left;' class='news-author'>aquadran</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td></td>
 </table>
+<span style='font-weight: bold'>AGOS:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Torbj&ouml;rn Andersson</td><td style='width:10em; text-align: left;' class='news-author'>eriktorbjorn</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Travis Howell</td><td style='width:10em; text-align: left;' class='news-author'>Kirben</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Oliver Kiehl</td><td style='width:10em; text-align: left;' class='news-author'>olki</td><td></td>
+</table>
 <span style='font-weight: bold'>BASS:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Robert G&ouml;ffringmann</td><td style='width:10em; text-align: left;' class='news-author'>lavosspawn</td><td></td>
@@ -84,12 +90,6 @@
 <tr><td style='width:13em; padding:2px;'>Torbj&ouml;rn Andersson</td><td style='width:10em; text-align: left;' class='news-author'>eriktorbjorn</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Andrew Kurushin</td><td style='width:10em; text-align: left;' class='news-author'>ajax16384</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td></td>
-</table>
-<span style='font-weight: bold'>Simon:</span>
-<table style='margin-left:2em; margin-bottom: 1em'>
-<tr><td style='width:13em; padding:2px;'>Torbj&ouml;rn Andersson</td><td style='width:10em; text-align: left;' class='news-author'>eriktorbjorn</td><td></td>
-<tr><td style='width:13em; padding:2px;'>Travis Howell</td><td style='width:10em; text-align: left;' class='news-author'>Kirben</td><td></td>
-<tr><td style='width:13em; padding:2px;'>Oliver Kiehl</td><td style='width:10em; text-align: left;' class='news-author'>olki</td><td></td>
 </table>
 </div>
 <div class='par-subhead'>Backend Teams</div>
