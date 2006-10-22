@@ -31,7 +31,7 @@ function sidebar_start () {
     $g->add("Project Home", "http://sourceforge.net/projects/scummvm/");
     $g->add("Bug Tracking", "http://sourceforge.net/tracker/?group_id=37116&amp;atid=418820");
     $g->add("Daily Snapshots", "/daily/");
-    $g->add("Subversion Tree", "http://svn.sourceforge.net/viewcvs.py/scummvm/scummvm/trunk/");
+    $g->add("Subversion Tree", "http://svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/");
 
     $g->done();      
 
