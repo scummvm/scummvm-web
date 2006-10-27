@@ -133,6 +133,10 @@ $gamesOther = array(
 	'Inherit the Earth: Quest for the Orb'                  => array('ite', '87'),
 	'Simon the Sorcerer 1'                                  => array('simon1','93'),
 	'Simon the Sorcerer 2'                                  => array('simon2','95'),
+	'Simon the Sorcerer\'s Puzzle Pack - D.I.M.P.'          => array('dimp','70'),
+	'Simon the Sorcerer\'s Puzzle Pack - Jumble'            => array('jumble','70'),
+	'Simon the Sorcerer\'s Puzzle Pack - Puzzle'            => array('puzzle','70'),
+	'Simon the Sorcerer\'s Puzzle Pack - Swampy Adventures' => array('swampy','70'),
 	'The Feeble Files'                                      => array('feeble','90'),
 	'The Legend of Kyrandia'                                => array('kyra1', '80'),
 	);
@@ -310,6 +314,15 @@ $notes = array(
 		   "<br>- Amiga, DOS, Macintosh and Windows versions supported by this target".
 		   "<br>- Only the default language (English) in Amiga &amp; Mactinosh versions is supported".
 		   "<br>- F10 key animation is different in Amiga &amp; Macintosh versions",
+"dimp" 		=> "Game is completable, with minor glitches".
+		   "<br>- No random animations or sound effect when idle",
+"jumble" 	=> "Game is completable, with minor glitches".
+		   "<br>- No support for displaying, entering, loading and saving high scores",
+"puzzle" 	=> "Game is completable, with minor glitches".
+		   "<br>- No support for displaying, entering, loading and saving high scores",
+"swampy" 	=> "Game is completable, with minor glitches".
+		   "<br>- No support for displaying explanation, when clicking on items".
+		   "<br>- No support for displaying, entering, loading and saving high scores",
 "feeble"	=> "Game is completable".
 		   "<br>- Amiga, Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
