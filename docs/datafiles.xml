@@ -114,6 +114,80 @@ details.</p>
       dig.la1</td>
   </tr>
   <tr>
+    <td>Elvira - Mistress of the Dark (Amiga)</td>
+    <td>*.out<br>
+      *.pkd<br>
+      *tune<br>
+      gameamiga<br>
+      icon.dat</td>
+  </tr>
+  <tr>
+    <td>Elvira - Mistress of the Dark (Amiga Demo)</td>
+    <td>*.out<br>
+      agos.mdf<br>
+      elvira2<br>
+      englishdemo<br>
+      icon.dat</td>
+  </tr>
+  <tr>
+    <td>Elvira - Mistress of the Dark (Atari ST)</td>
+    <td>*.OUT<br>
+      *.PKD<br>
+      GAMEST<br>
+      ICON.DAT<br>
+      TABLES*<br>
+      TBLLIST</td>
+  </tr>
+  <tr>
+    <td>Elvira - Mistress of the Dark (DOS)</td>
+    <td>*.MUS<br>
+      *.SND<br>
+      *.VGA<br>
+      GAMEPC<br>
+      ICON.DAT<br>
+      INSTR.DAT<br>
+      TABLES*<br>
+      TBLLIST</td>
+  </tr>
+  <tr>
+    <td>Elvira II - The Jaws of Cerberus (Amiga)</td>
+    <td>*.out<br>
+      *.pkd<br>
+      *tune<br>
+      gameamiga<br>
+      ICON.DAT<br>
+      menus.dat<br>
+      stripped.txt<br>
+      tables*<br>
+      tbllist<br>
+      text*</td>
+  </tr>
+  <tr>
+    <td>Elvira II - The Jaws of Cerberus (Atari ST)</td>
+    <td>*.OUT<br>
+      *.PKD<br>
+      GAMEST<br>
+      ICON.DAT<br>
+      MENUS.DAT<br>
+      STRIPPED.TXT<br>
+      TABLES*<br>
+      TBLLIST<br>
+      TEXT*</td>
+  </tr>
+  <tr>
+    <td>Elvira II - The Jaws of Cerberus (DOS)</td>
+    <td>*.MUS<br>
+      *.VGA<br>
+      GAMEPC<br>
+      ICON.DAT<br>
+      INSTR.DAT<br>
+      MENUS.DAT<br>
+      STRIPPED.TXT<br>
+      TABLES*<br>
+      TBLLIST<br>
+      TEXT*</td>
+  </tr>
+  <tr>
     <td>Fatty Bear's Birthday Surprise (DOS Demo)</td>
     <td>fbdemo.he0<br>
       fbdemo.he1<br>
@@ -825,6 +899,7 @@ details.</p>
       *.VGA<br>
       GAMEPC<br>
       ICON.DAT<br>
+      MT_FM.IBK<br>
       STRIPPED.TXT<br>
       TABLES*<br>
       TBLLIST<br>
@@ -835,6 +910,7 @@ details.</p>
     <td>EFFECTS.VOC<br>
       GAMEPC<br>
       ICON.DAT<br>
+      MT_FM.IBK<br>
       SIMON.GME<br>
       SIMON.VOC<br>
       STRIPPED.TXT<br>
@@ -889,6 +965,16 @@ details.</p>
       simon2.italian<br>
       stripped.txt<br>
       tbllist</td>
+  </tr>
+  <tr>
+    <td>Simon the Sorcerer's Puzzle Pack (Windows)</td>
+    <td>*.vga<br>
+      *.wav<br>
+      Gdimp<br>
+      Gjumble<br>
+      Gpuzzle<br>
+      Gswampy<br>
+      Music</td>
   </tr>
   <tr>
     <td>SPY Fox 1: Dry Cereal (Windows Demo)</td>
@@ -955,6 +1041,37 @@ details.</p>
       MUSTARD.HE2<br>
       MUSTARD.HE4<br>
       MUSTARD.HE7</td>
+  </tr>
+  <tr>
+    <td>Waxworks (Amiga)</td>
+    <td>*.OUT<br>
+      *.pkd<br>
+      *tune<br>
+      gameamiga<br>
+      icon.pkd<br>
+      MENUS.DAT<br>
+      stripped.txt<br>
+      tables*<br>
+      tbllist<br>
+      text*<br>
+      xtable*<br>
+      xtblist</td>
+  </tr>
+  <tr>
+    <td>Waxworks (DOS)</td>
+    <td>*.MUS<br>
+      *.VGA<br>
+      GAMEPC<br>
+      ICON.DAT<br>
+      MENUS.DAT<br>
+      STRIPPED.TXT<br>
+      ROOMS*<br>
+      ROOMSLST<br>
+      TABLES*<br>
+      TBLLIST<br>
+      TEXT*<br>
+      XTABLE*<br>
+      XTBLIST</td>
   </tr>
   <tr>
     <td>Zak McKracken and the Alien Mindbenders (Amiga, Atari ST, FM-TOWNS**, Mac, PC)</td>
