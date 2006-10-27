@@ -418,9 +418,12 @@ WARN_LOGFILE           =
 
 INPUT                  = /tmp/persistent/scummvm/scummvm/backends/fs \
                          /tmp/persistent/scummvm/scummvm/backends/midi \
-                         /tmp/persistent/scummvm/scummvm/backends/null \
-                         /tmp/persistent/scummvm/scummvm/backends/x11 \
-                         /tmp/persistent/scummvm/scummvm/backends/sdl \
+                         /tmp/persistent/scummvm/scummvm/backends/plugins \
+                         /tmp/persistent/scummvm/scummvm/backends/saves \
+                         /tmp/persistent/scummvm/scummvm/backends/timer \
+                         /tmp/persistent/scummvm/scummvm/backends/platforms/null \
+                         /tmp/persistent/scummvm/scummvm/backends/platforms/x11 \
+                         /tmp/persistent/scummvm/scummvm/backends/platforms/sdl \
                          /tmp/persistent/scummvm/scummvm/base \
                          /tmp/persistent/scummvm/scummvm/common \
                          /tmp/persistent/scummvm/scummvm/engines \
