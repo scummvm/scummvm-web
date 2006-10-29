@@ -216,6 +216,7 @@
 <span style='font-weight: bold'>Mac OS X:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Max Horn</td><td style='width:10em; text-align: left;' class='news-author'>Fingolfin</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Oystein Eftevaag</td><td style='width:10em; text-align: left;' class='news-author'>vinterstum</td><td></td>
 </table>
 <span style='font-weight: bold'>Mandriva:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
@@ -237,7 +238,7 @@
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Laurent Blume</td><td style='width:10em; text-align: left;' class='news-author'>laurent</td><td></td>
 </table>
-<span style='font-weight: bold'>Solaris Spark:</span>
+<span style='font-weight: bold'>Solaris SPARC:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Markus Strangl</td><td style='width:10em; text-align: left;' class='news-author'>WooShell</td><td></td>
 </table>
