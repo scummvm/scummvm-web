@@ -124,7 +124,7 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-uiq.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-uiq3.sis?download">Symbian UIQ 3 binary</a> <font class='cat-count'>(1.8M .sis)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-palmos.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-palmos-os5.zip?download">PalmOS 5 binary</a> <font class='cat-count'>(2.4M zipfile)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-palmos.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-palmos-zodiac.zip?download">PalmOS Tapware Zodiac binary</a> <font class='cat-count'>(3.1M zipfile)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-palmos.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-palmos-zodiac.zip?download">PalmOS Tapwave Zodiac binary</a> <font class='cat-count'>(3.1M zipfile)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-WinCE.zip?download">Windows CE ARM package</a> <font class='cat-count'>(1.8M zipfile)</font></td></tr>
 
