@@ -146,6 +146,7 @@ details.</p>
       GAMEPC<br>
       ICON.DAT<br>
       INSTR.DAT<br>
+      START<br>
       TABLES*<br>
       TBLLIST</td>
   </tr>
@@ -182,6 +183,7 @@ details.</p>
       ICON.DAT<br>
       INSTR.DAT<br>
       MENUS.DAT<br>
+      START<br>
       STRIPPED.TXT<br>
       TABLES*<br>
       TBLLIST<br>
@@ -1067,6 +1069,7 @@ details.</p>
       STRIPPED.TXT<br>
       ROOMS*<br>
       ROOMSLST<br>
+      START<br>
       TABLES*<br>
       TBLLIST<br>
       TEXT*<br>
