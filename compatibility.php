@@ -139,6 +139,7 @@ $gamesOther = array(
 	'Simon the Sorcerer\'s Puzzle Pack - Swampy Adventures' => array('swampy','70'),
 	'The Feeble Files'                                      => array('feeble','90'),
 	'The Legend of Kyrandia'                                => array('kyra1', '80'),
+	'Touche: The Adventures of the Fifth Musketeer'         => array('touche', '65'),
 	);
 
 $notes = array(
@@ -336,7 +337,9 @@ $notes = array(
 		   "<br>- MT-32 music and sfx do not work properly.",
 "fw"		=> "Game is completable".
 		   "<br>- Occasional graphical glitches".
-		   "<br>- Only DOS version is supported"
+		   "<br>- Only DOS version is supported",
+"touche"	=> "Game is completable".
+		   "<br>- Occasional graphical glitches"
 );
 		
 // render the compatibility chart
