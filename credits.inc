@@ -270,6 +270,7 @@
 <tr><td style='width:13em; padding:2px;'>Ori Avtalion</td><td style='width:10em; text-align: left;' class='news-author'>salty-horse</td><td>Subtitle control options in the GUI</td>
 <tr><td style='width:13em; padding:2px;'>Stuart Caie</td><td></td><td>Decoders for Simon 1 Amiga data files</td>
 <tr><td style='width:13em; padding:2px;'>Paolo Costabel</td><td></td><td>PSP port contributions</td>
+<tr><td style='width:13em; padding:2px;'>Thierry Crozat</td><td style='width:10em; text-align: left;' class='news-author'>criezy</td><td>Support for Broken Sword 1 Macintosh version</td>
 <tr><td style='width:13em; padding:2px;'>John Doe</td><td></td><td>Improved DXA compression</td>
 <tr><td style='width:13em; padding:2px;'>Thomas Fach-Pedersen</td><td style='width:10em; text-align: left;' class='news-author'>madmoose</td><td>ProTracker module player</td>
 <tr><td style='width:13em; padding:2px;'>Benjamin Haisch</td><td></td><td>Encoder for DXA videos</td>
