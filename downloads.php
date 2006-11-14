@@ -105,7 +105,7 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-mandriva.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-1mdk.i586.rpm?download">Mandriva 2006 package</a> <font class='cat-count'>(1.3M RPM)</font></td></tr>
 -->
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-macos-universal.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-macosx.dmg?download">Mac OS X Universal Disk Image</a> <font class='cat-count'>(3.9M disk image)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-macos-universal.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1a-macosx.dmg?download">Mac OS X Universal Disk Image</a> <font class='cat-count'>(3.9M disk image)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-os2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-os2.zip?download">OS/2 package</a> <font class='cat-count'>(2.4M .zip)</font></td></tr>
 
