@@ -217,6 +217,8 @@ $MISC_demos = array(
 		=> array('http://www.unet.univie.ac.at/~a0200586/binary/mirrors/scummvm/queen_interview.zip', 'queen'),
 	'Gobliiins'
 		=> array('http://minifiles.ag.ru/demos/448/gobliiins_demo.exe', 'gob1'),
+	'Gobliins 2 (Non interactive)'
+		=> array('http://minifiles.ag.ru/demos/449/gobliins2_demo.exe', 'gob2'),
 	'Inherit the Earth: Quest for the Orb demos'
 		=> array('http://www.wyrmkeep.com/ite/download.html', 'ite'),
 	'The Legend of Kyrandia (Non-interactive)'
