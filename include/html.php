@@ -66,7 +66,7 @@ function html_content_begin($title) {
 	<table width="100%" cellspacing="0" cellpadding="0">
 		<tr>
     <td width="8" style="background:url('<?=$file_root?>/images/header-left-corner.gif');height:28px;">&nbsp;</td>
-    <td style="background:url('<?=$file_root?>/images/header-background.gif')"><h2 style="margin:0px;color:#356a02;font-weigth:bold;padding-left:1em;
+    <td style="background:url('<?=$file_root?>/images/header-background.gif')"><h2 style="margin:0px;color:#356a02;font-weight:bold;padding-left:1em;
 			font-family:Trebuchet MS,Verdana,Tahoma;font-size:18px;color:#821d06">
 <?php
 shadowed_text($title, '#821d06', '#ffffff');
