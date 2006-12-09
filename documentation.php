@@ -44,6 +44,11 @@ if ($view and file_exists($file_root."/docs/".$view.".xml")) {
   <div class="par-content">
   <br>
 
+  <!-- Ohloh badge with project metrics -->
+  <SCRIPT type='text/javascript' language='JavaScript' src='http://www.ohloh.net/projects/113;badge_js'></SCRIPT>
+  <br>
+  <br>
+
   <a href='http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/tags/release-0-9-1/README'>README 0.9.1</a><br>
   The ScummVM README, for version 0.9.1<br><br>
 
