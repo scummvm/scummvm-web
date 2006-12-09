@@ -275,9 +275,8 @@
 <tr><td style='width:13em; padding:2px;'>Stuart Caie</td><td></td><td>Decoders for Simon 1 Amiga data files</td>
 <tr><td style='width:13em; padding:2px;'>Paolo Costabel</td><td></td><td>PSP port contributions</td>
 <tr><td style='width:13em; padding:2px;'>Thierry Crozat</td><td style='width:10em; text-align: left;' class='news-author'>criezy</td><td>Support for Broken Sword 1 Macintosh version</td>
-<tr><td style='width:13em; padding:2px;'>John Doe</td><td></td><td>Improved DXA compression</td>
 <tr><td style='width:13em; padding:2px;'>Thomas Fach-Pedersen</td><td style='width:10em; text-align: left;' class='news-author'>madmoose</td><td>ProTracker module player</td>
-<tr><td style='width:13em; padding:2px;'>Benjamin Haisch</td><td></td><td>Encoder for DXA videos</td>
+<tr><td style='width:13em; padding:2px;'>Benjamin Haisch</td><td></td><td>Heavily improved de-/encoder for DXA videos</td>
 <tr><td style='width:13em; padding:2px;'>Janne Huttunen</td><td></td><td>V3 actor mask support, Dig/FT SMUSH audio</td>
 <tr><td style='width:13em; padding:2px;'>Kov&aacute;cs Endre J&aacute;nos</td><td></td><td>Several fixes for Simon1</td>
 <tr><td style='width:13em; padding:2px;'>Jeroen Janssen</td><td></td><td>Numerous readability and bugfix patches</td>
