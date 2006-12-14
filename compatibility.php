@@ -139,7 +139,7 @@ $gamesOther = array(
 	'Simon the Sorcerer\'s Puzzle Pack - Swampy Adventures' => array('swampy','70'),
 	'The Feeble Files'                                      => array('feeble','90'),
 	'The Legend of Kyrandia'                                => array('kyra1', '80'),
-	'Touche: The Adventures of the Fifth Musketeer'         => array('touche', '65'),
+	'Touche: The Adventures of the Fifth Musketeer'         => array('touche','75'),
 	);
 
 $notes = array(
