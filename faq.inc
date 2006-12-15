@@ -85,6 +85,7 @@ transparent window!</a></dt>
 and/or garbled!</a></dt>
 <dt>4.17. <a href="#AEN264">How do I set an environment
 variable?</a></dt>
+<dt>4.18. <a href="#AEN265">ScummVM starts somewhere in the middle of my two Xinerama monitors in fullscreen mode. Help!</a></dt>
 </dl>
 </dd>
 <dt>5. <a href="#AEN274">Features</a></dt>
@@ -710,6 +711,19 @@ batch file, instead of the ScummVM executable.</p>
 <p>On more recent versions of Windows, you can also set an
 environment variable permanently, and for all applications, through
 the control panel.</p>
+</div>
+</div>
+<div class="qandaentry">
+<div class="question">
+<p><a name="AEN265" id="AEN265"></a><b>4.18.</b> ScummVM starts somewhere in the
+middle of my two Xinerama monitors in fullscreen mode. Help!</p>
+</div>
+<div class="answer">
+ <p>	In fact, this is SDL problem. SDL does by default has xinerama support
+	enabled. Set the <code class="envar">SDL_VIDEO_FULLSCREEN_HEAD</code>
+	environment variable to "1" to start ScummVM (and other SDL applications) in
+	fullscreen on only one monitor. If this does not work make sure your SDL
+	library does have Xinerama support compiled in.</p>
 </div>
 </div>
 </div>
