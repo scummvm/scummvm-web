@@ -282,8 +282,8 @@ $notes = array(
 "chase"		=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "mustard"	=> "Game is completable, with minor glitches".
-		   "<br>- Both Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches with clouds",
+		   "<br>- Only the Windows version is supported by this target".
+		   "<br>- The Macintosh version isn't supported, due to map data using a custom format",
 
 "sky"	 	=> "No known issues, game is completable.".
 		   "<br>- Requires the <a href=\"SKY.CPT\">SKY.CPT</a> resource file to be placed in the game directory".
