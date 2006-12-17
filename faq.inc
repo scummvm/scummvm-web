@@ -85,13 +85,14 @@ transparent window!</a></dt>
 and/or garbled!</a></dt>
 <dt>4.17. <a href="#AEN264">How do I set an environment
 variable?</a></dt>
-<dt>4.18. <a href="#AEN265">ScummVM starts somewhere in the middle of my two Xinerama monitors in fullscreen mode. Help!</a></dt>
+<dt>4.18. <a href="#AEN275">ScummVM starts somewhere in the middle
+of my two Xinerama monitors in fullscreen mode. Help!</a></dt>
 </dl>
 </dd>
-<dt>5. <a href="#AEN274">Features</a></dt>
+<dt>5. <a href="#AEN280">Features</a></dt>
 <dd>
 <dl>
-<dt>5.1. <a href="#AEN277">Will you add support for zip
+<dt>5.1. <a href="#AEN283">Will you add support for zip
 archives?</a></dt>
 </dl>
 </dd>
@@ -715,23 +716,25 @@ the control panel.</p>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN265" id="AEN265"></a><b>4.18.</b> ScummVM starts somewhere in the
-middle of my two Xinerama monitors in fullscreen mode. Help!</p>
+<p><a name="AEN275" id="AEN275"></a><b>4.18.</b> ScummVM starts
+somewhere in the middle of my two Xinerama monitors in fullscreen
+mode. Help!</p>
 </div>
 <div class="answer">
- <p>	In fact, this is SDL problem. SDL does by default has xinerama support
-	enabled. Set the <code class="envar">SDL_VIDEO_FULLSCREEN_HEAD</code>
-	environment variable to "1" to start ScummVM (and other SDL applications) in
-	fullscreen on only one monitor. If this does not work make sure your SDL
-	library does have Xinerama support compiled in.</p>
+<p>In fact, this is SDL problem. SDL does by default has xinerama
+support enabled. Set the <code class=
+"envar">SDL_VIDEO_FULLSCREEN_HEAD</code> environment variable to
+"1" to start ScummVM (and other SDL applications) in fullscreen on
+only one monitor. If this does not work make sure your SDL library
+does have Xinerama support compiled in.</p>
 </div>
 </div>
 </div>
 <div class="qandadiv">
-<h3><a name="AEN274" id="AEN274"></a>5. Features</h3>
+<h3><a name="AEN280" id="AEN280"></a>5. Features</h3>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN277" id="AEN277"></a><b>5.1.</b> Will you add
+<p><a name="AEN283" id="AEN283"></a><b>5.1.</b> Will you add
 support for zip archives?</p>
 </div>
 <div class="answer">
