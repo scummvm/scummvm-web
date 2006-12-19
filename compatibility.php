@@ -130,6 +130,7 @@ $gamesOther = array(
 	'Flight of the Amazon Queen'                            => array('queen','98'),
 	'Future Wars'                                           => array('fw','75'),
 	'Gobliiins'                                             => array('gob1', '95'),
+	'Gobliins 2'                                            => array('gob2', '90'),
 	'Inherit the Earth: Quest for the Orb'                  => array('ite', '87'),
 	'Simon the Sorcerer 1'                                  => array('simon1','93'),
 	'Simon the Sorcerer 2'                                  => array('simon2','95'),
@@ -307,6 +308,10 @@ $notes = array(
 "gob1"		=> "No known issues. Game is completable.".
 		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
 		   "<br>- Problems with music in the Macintosh version",
+"gob2"		=> "Game is completable, with minor glitches".
+		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
+		   "<br>- Some missing and wrong sounds".
+		   "<br>- A few wrong instruments during music playback".
 "ite"		=> "Game is completable.".
 		   "<br>- DOS, Linux, Macintosh, MacOS X and Windows versions are supported by this target".
 		   "<br>- Amiga versions aren't supported".
