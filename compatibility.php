@@ -311,7 +311,7 @@ $notes = array(
 "gob2"		=> "Game is completable, with minor glitches".
 		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
 		   "<br>- Some missing and wrong sounds".
-		   "<br>- A few wrong instruments during music playback".
+		   "<br>- A few wrong instruments during music playback",
 "ite"		=> "Game is completable.".
 		   "<br>- DOS, Linux, Macintosh, MacOS X and Windows versions are supported by this target".
 		   "<br>- Amiga versions aren't supported".
