@@ -6,93 +6,98 @@
 <dl>
 <dt>1.1. <a href="#AEN9">Why is it called ScummVM - what does this
 name mean?</a></dt>
-<dt>1.2. <a href="#AEN14">What is SCUMM?</a></dt>
-<dt>1.3. <a href="#AEN20">Is ScummVM free?</a></dt>
-<dt>1.4. <a href="#question.supported-games">What games does
-ScummVM support?</a></dt>
-<dt>1.5. <a href="#AEN32">Will ScummVM support other
-games?</a></dt>
-<dt>1.6. <a href="#AEN39">When will Maniac Mansion Deluxe be
-supported?</a></dt>
-<dt>1.7. <a href="#AEN46">Where do I find ScummVM?</a></dt>
-<dt>1.8. <a href="#AEN52">How do I compile the source code for my
+<dt>1.2. <a href="#AEN19">What is SCUMM?</a></dt>
+<dt>1.3. <a href="#AEN25">Is ScummVM free?</a></dt>
+<dt>1.4. <a href="#AEN31">Where do I find ScummVM?</a></dt>
+<dt>1.5. <a href="#AEN37">How do I compile the source code for my
 OS?</a></dt>
-<dt>1.9. <a href="#AEN58">On what platform does ScummVM
+<dt>1.6. <a href="#AEN43">On what platform does ScummVM
 run?</a></dt>
-<dt>1.10. <a href="#AEN64">Does ScummVM run any non-SCUMM
-games?</a></dt>
-<dt>1.11. <a href="#AEN73">Can I use ScummVM to make new
+<dt>1.7. <a href="#AEN51">Can I use ScummVM to make new
 games?</a></dt>
 </dl>
 </dd>
-<dt>2. <a href="#AEN80">ScummVM and SCUMM games</a></dt>
+<dt>2. <a href="#AEN58">Supported games</a></dt>
 <dd>
 <dl>
-<dt>2.1. <a href="#AEN83">Do I need original CD or Floppy
-disks?</a></dt>
-<dt>2.2. <a href="#AEN89">Does ScummVM work with all versions of
+<dt>2.1. <a href="#question.supported-games">What games does
+ScummVM support?</a></dt>
+<dt>2.2. <a href="#AEN67">Does ScummVM run any non-SCUMM
 games?</a></dt>
-<dt>2.3. <a href="#AEN95">Can I play through xxx (place your
+<dt>2.3. <a href="#AEN76">Will ScummVM support other
+games?</a></dt>
+<dt>2.4. <a href="#AEN83">When will Maniac Mansion Deluxe be
+supported?</a></dt>
+</dl>
+</dd>
+<dt>3. <a href="#AEN89">Running games</a></dt>
+<dd>
+<dl>
+<dt>3.1. <a href="#AEN92">Do I need original CD or Floppy
+disks?</a></dt>
+<dt>3.2. <a href="#AEN98">Does ScummVM work with all versions of
+games?</a></dt>
+<dt>3.3. <a href="#AEN104">Can I play through xxx (place your
 favorite SCUMM adventure here) ?</a></dt>
-<dt>2.4. <a href="#AEN101">Can I save/restore the game?</a></dt>
-<dt>2.5. <a href="#AEN106">Do savegames from the original games
+<dt>3.4. <a href="#AEN110">Can I save/restore the game?</a></dt>
+<dt>3.5. <a href="#AEN115">Do savegames from the original games
 work in ScummVM?</a></dt>
 </dl>
 </dd>
-<dt>3. <a href="#AEN110">Graphics and Audio</a></dt>
+<dt>4. <a href="#AEN119">Graphics and Audio</a></dt>
 <dd>
 <dl>
-<dt>3.1. <a href="#AEN113">Does ScummVM support CD audio?</a></dt>
-<dt>3.2. <a href="#AEN119">Does ScummVM support using MP3/Ogg/FLAC
+<dt>4.1. <a href="#AEN122">Does ScummVM support CD audio?</a></dt>
+<dt>4.2. <a href="#AEN128">Does ScummVM support using MP3/Ogg/FLAC
 files instead of CD audio?</a></dt>
-<dt>3.3. <a href="#AEN125">Does ScummVM support using MP3/Ogg/FLAC
+<dt>4.3. <a href="#AEN134">Does ScummVM support using MP3/Ogg/FLAC
 files instead of the original MIDI music?</a></dt>
-<dt>3.4. <a href="#AEN131">Does ScummVM support filtered graphic
+<dt>4.4. <a href="#AEN140">Does ScummVM support filtered graphic
 modes?</a></dt>
-<dt>3.5. <a href="#AEN138">Can I run my game full screen?</a></dt>
+<dt>4.5. <a href="#AEN147">Can I run my game full screen?</a></dt>
 </dl>
 </dd>
-<dt>4. <a href="#AEN142">Troubleshooting</a></dt>
+<dt>5. <a href="#AEN151">Troubleshooting</a></dt>
 <dd>
 <dl>
-<dt>4.1. <a href="#AEN145">My game won't run.</a></dt>
-<dt>4.2. <a href="#AEN153">I installed my game but ScummVM can't
+<dt>5.1. <a href="#AEN154">My game won't run.</a></dt>
+<dt>5.2. <a href="#AEN162">I installed my game but ScummVM can't
 find it.</a></dt>
-<dt>4.3. <a href="#question.no-sound">I don't hear any
+<dt>5.3. <a href="#question.no-sound">I don't hear any
 sound.</a></dt>
-<dt>4.4. <a href="#AEN165">I don't hear any music.</a></dt>
-<dt>4.5. <a href="#AEN171">My game crashes at some point.</a></dt>
-<dt>4.6. <a href="#AEN179">ScummVM crashes, but console window
+<dt>5.4. <a href="#AEN174">I don't hear any music.</a></dt>
+<dt>5.5. <a href="#AEN180">My game crashes at some point.</a></dt>
+<dt>5.6. <a href="#AEN188">ScummVM crashes, but console window
 disappears too quick to see the error message.</a></dt>
-<dt>4.7. <a href="#question.messy-colors">The game colors are
+<dt>5.7. <a href="#question.messy-colors">The game colors are
 messed up.</a></dt>
-<dt>4.8. <a href="#AEN189">The subtitles in my non English game are
+<dt>5.8. <a href="#AEN198">The subtitles in my non English game are
 messed up.</a></dt>
-<dt>4.9. <a href="#AEN196">How do I make my mac version of a game
+<dt>5.9. <a href="#AEN205">How do I make my mac version of a game
 work?</a></dt>
-<dt>4.10. <a href="#question.report-bugs">Reporting Bugs.</a></dt>
-<dt>4.11. <a href="#AEN228">I downloaded the Broken Sword packs
+<dt>5.10. <a href="#question.report-bugs">Reporting Bugs.</a></dt>
+<dt>5.11. <a href="#AEN237">I downloaded the Broken Sword packs
 from your site but the game won't run.</a></dt>
-<dt>4.12. <a href="#AEN233">There are no graphics in the Broken
+<dt>5.12. <a href="#AEN242">There are no graphics in the Broken
 Sword I intro.</a></dt>
-<dt>4.13. <a href="#AEN238">I get "WARNING: Unable to open
+<dt>5.13. <a href="#AEN247">I get "WARNING: Unable to open
 configration file C:\windows\scummvm.ini!"</a></dt>
-<dt>4.14. <a href="#AEN243">I get "Failed to save game state to
+<dt>5.14. <a href="#AEN252">I get "Failed to save game state to
 file: xxx"</a></dt>
-<dt>4.15. <a href="#AEN248">ScummVM starts, but all I get is a
+<dt>5.15. <a href="#AEN257">ScummVM starts, but all I get is a
 transparent window!</a></dt>
-<dt>4.16. <a href="#AEN258">ScummVM runs, but sound is stuttering
+<dt>5.16. <a href="#AEN267">ScummVM runs, but sound is stuttering
 and/or garbled!</a></dt>
-<dt>4.17. <a href="#AEN264">How do I set an environment
+<dt>5.17. <a href="#AEN273">How do I set an environment
 variable?</a></dt>
-<dt>4.18. <a href="#AEN275">ScummVM starts somewhere in the middle
+<dt>5.18. <a href="#AEN284">ScummVM starts somewhere in the middle
 of my two Xinerama monitors in fullscreen mode. Help!</a></dt>
 </dl>
 </dd>
-<dt>5. <a href="#AEN280">Features</a></dt>
+<dt>6. <a href="#AEN289">Features</a></dt>
 <dd>
 <dl>
-<dt>5.1. <a href="#AEN283">Will you add support for zip
+<dt>6.1. <a href="#AEN292">Will you add support for zip
 archives?</a></dt>
 </dl>
 </dd>
@@ -105,13 +110,21 @@ archives?</a></dt>
 ScummVM - what does this name mean?</p>
 </div>
 <div class="answer">
-<p>Scumm comes from the fact that it was originally designed to run
-SCUMM games, like Monkey Island. VM stands for Virtual Machine.</p>
+<p><span class="QUOTE">"Scumm"</span> comes from the fact that it
+was originally designed to run SCUMM games, like Monkey Island.
+<span class="QUOTE">"VM"</span> stands for Virtual Machine.</p>
+<p>Every now and then somebody will raise the subject of finding a
+<span class="QUOTE">"better"</span> name for ScummVM, one that fits
+better with it's modern scope (which extends well beyond SCUMM
+games). So <a href="http://wiki.scummvm.org/index.php/ScummVM_Name"
+target="_top">at this page</a> we present you with some nice
+alternatives. Choose whichever suits you best -- but we will stay
+ScummVM.</p>
 </div>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN14" id="AEN14"></a><b>1.2.</b> What is SCUMM?</p>
+<p><a name="AEN19" id="AEN19"></a><b>1.2.</b> What is SCUMM?</p>
 </div>
 <div class="answer">
 <p>SCUMM stands for "Script Creation Utility for Maniac Mansion".
@@ -128,7 +141,7 @@ Road, Day of the Tentacle, The Dig and Full Throttle.</p>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN20" id="AEN20"></a><b>1.3.</b> Is ScummVM free?</p>
+<p><a name="AEN25" id="AEN25"></a><b>1.3.</b> Is ScummVM free?</p>
 </div>
 <div class="answer">
 <p>ScummVM is released under the <a href=
@@ -143,8 +156,71 @@ into the main tree.</p>
 </div>
 <div class="qandaentry">
 <div class="question">
+<p><a name="AEN31" id="AEN31"></a><b>1.4.</b> Where do I find
+ScummVM?</p>
+</div>
+<div class="answer">
+<p>You can find it on the download section on our <a href=
+"http://www.scummvm.org" target="_top">web site</a>. You can
+download the latest version, which could be a little old. For the
+most recent cutting-edge in-development version, you have to
+compile it yourself from Subversion or use the precompiled 'daily
+builds' linked from our download page.</p>
+</div>
+</div>
+<div class="qandaentry">
+<div class="question">
+<p><a name="AEN37" id="AEN37"></a><b>1.5.</b> How do I compile the
+source code for my OS?</p>
+</div>
+<div class="answer">
+<p>The source code package contains a file called <a href=
+"http://svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README"
+target="_top">README</a> that should explain everything.</p>
+</div>
+</div>
+<div class="qandaentry">
+<div class="question">
+<p><a name="AEN43" id="AEN43"></a><b>1.6.</b> On what platform does
+ScummVM run?</p>
+</div>
+<div class="answer">
+<p>ScummVM should be able to be compiled on any SDL platform, with
+just small modifications.</p>
+<p>Currently tested platforms include Win32 (Windows
+95/98/ME/NT/2000/XP), Linux i386 and PPC, BeOS, Solaris, Mac OS X,
+Dreamcast, MorphOS, IRIX, PalmOS, WinCE, GP32, Sony PSP and PS2. It
+is also part of the Free/Net/Open BSD ports collections and
+included in Debian testing and unstable.</p>
+<p>See also the <a href=
+"http://wiki.scummvm.org/index.php/Platforms" target=
+"_top">platforms list</a> in our Wiki.</p>
+</div>
+</div>
+<div class="qandaentry">
+<div class="question">
+<p><a name="AEN51" id="AEN51"></a><b>1.7.</b> Can I use ScummVM to
+make new games?</p>
+</div>
+<div class="answer">
+<p>While it is theoretically possible to write a new game that uses
+ScummVM it is not advisable. ScummVM has many hacks to support
+older games and no tools geared towards creating content usable by
+ScummVM. Potential game authors are encouraged to look at open
+source technologies such as <a href="http://www.libsdl.org" target=
+"_top">SDL</a> for a cross platform DirectX like library, and the
+<a href="http://www.lua.org" target="_top">Lua</a> and <a href=
+"http://www.python.org" target="_top">Python</a> scripting
+languages for game logic.</p>
+</div>
+</div>
+</div>
+<div class="qandadiv">
+<h3><a name="AEN58" id="AEN58"></a>2. Supported games</h3>
+<div class="qandaentry">
+<div class="question">
 <p><a name="question.supported-games" id=
-"question.supported-games"></a><b>1.4.</b> What games does ScummVM
+"question.supported-games"></a><b>2.1.</b> What games does ScummVM
 support?</p>
 </div>
 <div class="answer">
@@ -161,84 +237,7 @@ a common occurrence - see below.</p>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN32" id="AEN32"></a><b>1.5.</b> Will ScummVM support
-other games?</p>
-</div>
-<div class="answer">
-<p>The ScummVM team is currently focusing on bugfixes for our next
-release.</p>
-<p>We do <span class="emphasis"><i class="emphasis">NOT</i></span>
-generally add support for non-SCUMM games! Reverse engineering a
-completely new game without source is a long process, and our
-developers are all very busy as it is... so unless you work for a
-company interested in providing us with source code for one of your
-classic titles, please do not ask.</p>
-</div>
-</div>
-<div class="qandaentry">
-<div class="question">
-<p><a name="AEN39" id="AEN39"></a><b>1.6.</b> When will Maniac
-Mansion Deluxe be supported?</p>
-</div>
-<div class="answer">
-<p>The short answer: never. The long answer: This game is a
-fan-made replica of the original Maniac Mansion. It is not the same
-game as Maniac Mansion Enhanced, which we do support. It features
-improved music, sound, 256-colors graphics and reworked game
-interface. It was made using the <a href=
-"http://www.adventuregamestudio.co.uk/" target="_top">Adventure
-Game Studio</a> which is a free, albeit closed-source graphics
-adventures engine. There are Windows, Linux and FreeBSD versions of
-the engine. Its author keeps his source code closed due to reasons
-explained in the project <a href=
-"http://www.bigbluecup.com/acfaq.htm" target="_top">FAQ</a> (see
-last two questions). That means that you need to download that
-program to play the game.</p>
-</div>
-</div>
-<div class="qandaentry">
-<div class="question">
-<p><a name="AEN46" id="AEN46"></a><b>1.7.</b> Where do I find
-ScummVM?</p>
-</div>
-<div class="answer">
-<p>You can find it on the download section on our <a href=
-"http://www.scummvm.org" target="_top">web site</a>. You can
-download the latest version, which could be a little old. For the
-most recent cutting-edge in-development version, you have to
-compile it yourself from Subversion or use the precompiled 'daily
-builds' linked from our download page.</p>
-</div>
-</div>
-<div class="qandaentry">
-<div class="question">
-<p><a name="AEN52" id="AEN52"></a><b>1.8.</b> How do I compile the
-source code for my OS?</p>
-</div>
-<div class="answer">
-<p>The source code package contains a file called <a href=
-"http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/trunk/README"
-target="_top">README</a> that should explain everything.</p>
-</div>
-</div>
-<div class="qandaentry">
-<div class="question">
-<p><a name="AEN58" id="AEN58"></a><b>1.9.</b> On what platform does
-ScummVM run?</p>
-</div>
-<div class="answer">
-<p>ScummVM should be able to be compiled on any SDL platform, with
-just small modifications.</p>
-<p>Currently tested platforms are Win32 (Windows
-95/98/ME/NT/2000/XP), Linux i386 and PPC, BeOS, Solaris, Mac OS X,
-Dreamcast, MorphOS, IRIX, PalmOS, WinCE, GP32, Sony PSP and PS2. It
-is also part of the Free/Net/Open BSD ports collections and
-included in Debian testing and unstable.</p>
-</div>
-</div>
-<div class="qandaentry">
-<div class="question">
-<p><a name="AEN64" id="AEN64"></a><b>1.10.</b> Does ScummVM run any
+<p><a name="AEN67" id="AEN67"></a><b>2.2.</b> Does ScummVM run any
 non-SCUMM games?</p>
 </div>
 <div class="answer">
@@ -265,27 +264,47 @@ support a game.</p>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN73" id="AEN73"></a><b>1.11.</b> Can I use ScummVM to
-make new games?</p>
+<p><a name="AEN76" id="AEN76"></a><b>2.3.</b> Will ScummVM support
+other games?</p>
 </div>
 <div class="answer">
-<p>While it is theoretically possible to write a new game that uses
-ScummVM it is not advisable. ScummVM has many hacks to support
-older games and no tools geared towards creating content usable by
-ScummVM. Potential game authors are encouraged to look at open
-source technologies such as <a href="http://www.libsdl.org" target=
-"_top">SDL</a> for a cross platform DirectX like library, and the
-<a href="http://www.lua.org" target="_top">Lua</a> and <a href=
-"http://www.python.org" target="_top">Python</a> scripting
-languages for game logic.</p>
+<p>The ScummVM team is currently focusing on bugfixes for our next
+release.</p>
+<p>We do <span class="emphasis"><i class="emphasis">NOT</i></span>
+generally add support for non-SCUMM games! Reverse engineering a
+completely new game without source is a long process, and our
+developers are all very busy as it is... so unless you work for a
+company interested in providing us with source code for one of your
+classic titles, please do not ask.</p>
+</div>
+</div>
+<div class="qandaentry">
+<div class="question">
+<p><a name="AEN83" id="AEN83"></a><b>2.4.</b> When will Maniac
+Mansion Deluxe be supported?</p>
+</div>
+<div class="answer">
+<p>The short answer: never. The long answer: This game is a
+fan-made replica of the original Maniac Mansion. It is not the same
+game as Maniac Mansion Enhanced, which we do support. It features
+improved music, sound, 256-colors graphics and reworked game
+interface. It was made using the <a href=
+"http://www.adventuregamestudio.co.uk/" target="_top">Adventure
+Game Studio</a> which is a free, albeit closed-source graphics
+adventures engine. There are Windows, Linux and FreeBSD versions of
+the engine. Its author keeps his source code closed due to reasons
+explained in the project <a href=
+"http://www.bigbluecup.com/acfaq.htm" target="_top">FAQ</a> (see
+last two questions). That means that you need to download that
+program to play the game.</p>
 </div>
 </div>
 </div>
 <div class="qandadiv">
-<h3><a name="AEN80" id="AEN80"></a>2. ScummVM and SCUMM games</h3>
+<h3><a name="AEN89" id="AEN89"></a>3. Running games</h3>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN83" id="AEN83"></a><b>2.1.</b> Do I need original CD
+<p><a name="AEN92" id="AEN92"></a><b>3.1.</b> Do I need original CD
 or Floppy disks?</p>
 </div>
 <div class="answer">
@@ -298,7 +317,7 @@ games. These requests will be ignored.</p>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN89" id="AEN89"></a><b>2.2.</b> Does ScummVM work
+<p><a name="AEN98" id="AEN98"></a><b>3.2.</b> Does ScummVM work
 with all versions of games?</p>
 </div>
 <div class="answer">
@@ -308,7 +327,7 @@ ScummVM support?</i></a>".</p>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN95" id="AEN95"></a><b>2.3.</b> Can I play through
+<p><a name="AEN104" id="AEN104"></a><b>3.3.</b> Can I play through
 xxx (place your favorite SCUMM adventure here) ?</p>
 </div>
 <div class="answer">
@@ -318,7 +337,7 @@ ScummVM support?</i></a>".</p>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN101" id="AEN101"></a><b>2.4.</b> Can I save/restore
+<p><a name="AEN110" id="AEN110"></a><b>3.4.</b> Can I save/restore
 the game?</p>
 </div>
 <div class="answer">
@@ -328,23 +347,23 @@ CTRL - 1/9 to restore, or F5 to access the save/load menu).</p>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN106" id="AEN106"></a><b>2.5.</b> Do savegames from
+<p><a name="AEN115" id="AEN115"></a><b>3.5.</b> Do savegames from
 the original games work in ScummVM?</p>
 </div>
 <div class="answer">
-<p>No. We do not have any plans to load old savegames (with the
-exception of the Simon the Sorcerer series of games). Newer
-versions of ScummVM have also broken compatibility with older
-ScummVM savegames. Since ScummVM is in heavy development, this may
-occur again in the future.</p>
+<p>In general, no. We do not have any plans to load old savegames
+(with the exception of the Simon the Sorcerer series of games).
+Newer versions of ScummVM have also sometimes broken compatibility
+with older ScummVM savegames. Since ScummVM is under heavy
+development, this may occur again in the future.</p>
 </div>
 </div>
 </div>
 <div class="qandadiv">
-<h3><a name="AEN110" id="AEN110"></a>3. Graphics and Audio</h3>
+<h3><a name="AEN119" id="AEN119"></a>4. Graphics and Audio</h3>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN113" id="AEN113"></a><b>3.1.</b> Does ScummVM
+<p><a name="AEN122" id="AEN122"></a><b>4.1.</b> Does ScummVM
 support CD audio?</p>
 </div>
 <div class="answer">
@@ -355,13 +374,13 @@ Monkey Island 1 (CD, FM-TOWNS &amp; SegaCD) and Zak McKracken
 you start ScummVM. If you have more than one CD drive in your
 system, you can specify your CD drive using the -c command line
 parameter. See the <a href=
-"http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/trunk/README"
+"http://svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README"
 target="_top">README</a> for more info.</p>
 </div>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN119" id="AEN119"></a><b>3.2.</b> Does ScummVM
+<p><a name="AEN128" id="AEN128"></a><b>4.2.</b> Does ScummVM
 support using MP3/Ogg/FLAC files instead of CD audio?</p>
 </div>
 <div class="answer">
@@ -369,13 +388,13 @@ support using MP3/Ogg/FLAC files instead of CD audio?</p>
 to convert your CD audio to MP3. Since version 0.3.0 we also
 support Ogg Vorbis files, and FLAC is supported since version
 0.7.0. See the <a href=
-"http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/trunk/README"
+"http://svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README"
 target="_top">README</a> for more info.</p>
 </div>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN125" id="AEN125"></a><b>3.3.</b> Does ScummVM
+<p><a name="AEN134" id="AEN134"></a><b>4.3.</b> Does ScummVM
 support using MP3/Ogg/FLAC files instead of the original MIDI
 music?</p>
 </div>
@@ -396,20 +415,20 @@ like this.</p>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN131" id="AEN131"></a><b>3.4.</b> Does ScummVM
+<p><a name="AEN140" id="AEN140"></a><b>4.4.</b> Does ScummVM
 support filtered graphic modes?</p>
 </div>
 <div class="answer">
 <p>Yes, ScummVM supports several filtered graphic modes such as
 <a href="http://elektron.its.tudelft.nl/~dalikifa/" target=
 "_top">Super2xSAI</a>. See the <a href=
-"http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/trunk/README"
+"http://svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README"
 target="_top">README</a> for more info.</p>
 </div>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN138" id="AEN138"></a><b>3.5.</b> Can I run my game
+<p><a name="AEN147" id="AEN147"></a><b>4.5.</b> Can I run my game
 full screen?</p>
 </div>
 <div class="answer">
@@ -421,10 +440,10 @@ between full screen and windowed modes.</p>
 </div>
 </div>
 <div class="qandadiv">
-<h3><a name="AEN142" id="AEN142"></a>4. Troubleshooting</h3>
+<h3><a name="AEN151" id="AEN151"></a>5. Troubleshooting</h3>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN145" id="AEN145"></a><b>4.1.</b> My game won't
+<p><a name="AEN154" id="AEN154"></a><b>5.1.</b> My game won't
 run.</p>
 </div>
 <div class="answer">
@@ -432,7 +451,7 @@ run.</p>
 "#question.supported-games"><i>What games does ScummVM
 support?</i></a>". If it is a supported game and you have followed
 the instructions in <a href=
-"http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/trunk/README"
+"http://svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README"
 target="_top">README</a> to the letter, then see "<a href=
 "#question.report-bugs"><i>Reporting Bugs.</i></a>" to report this
 as a bug.</p>
@@ -440,7 +459,7 @@ as a bug.</p>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN153" id="AEN153"></a><b>4.2.</b> I installed my game
+<p><a name="AEN162" id="AEN162"></a><b>5.2.</b> I installed my game
 but ScummVM can't find it.</p>
 </div>
 <div class="answer">
@@ -456,7 +475,7 @@ to copy those manually. Look at the <a href=
 <div class="qandaentry">
 <div class="question">
 <p><a name="question.no-sound" id=
-"question.no-sound"></a><b>4.3.</b> I don't hear any sound.</p>
+"question.no-sound"></a><b>5.3.</b> I don't hear any sound.</p>
 </div>
 <div class="answer">
 <p>Check the <a href="http://www.scummvm.org/compatibility.php"
@@ -467,7 +486,7 @@ to set the in game SFX volume.</p>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN165" id="AEN165"></a><b>4.4.</b> I don't hear any
+<p><a name="AEN174" id="AEN174"></a><b>5.4.</b> I don't hear any
 music.</p>
 </div>
 <div class="answer">
@@ -477,7 +496,7 @@ sound.</i></a>".</p>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN171" id="AEN171"></a><b>4.5.</b> My game crashes at
+<p><a name="AEN180" id="AEN180"></a><b>5.5.</b> My game crashes at
 some point.</p>
 </div>
 <div class="answer">
@@ -494,7 +513,7 @@ them from there.</p>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN179" id="AEN179"></a><b>4.6.</b> ScummVM crashes,
+<p><a name="AEN188" id="AEN188"></a><b>5.6.</b> ScummVM crashes,
 but console window disappears too quick to see the error
 message.</p>
 </div>
@@ -512,7 +531,7 @@ Change to ScummVM's directory by typing 'cd \your\path\to\scummvm'
 <div class="qandaentry">
 <div class="question">
 <p><a name="question.messy-colors" id=
-"question.messy-colors"></a><b>4.7.</b> The game colors are messed
+"question.messy-colors"></a><b>5.7.</b> The game colors are messed
 up.</p>
 </div>
 <div class="answer">
@@ -524,7 +543,7 @@ code.</p>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN189" id="AEN189"></a><b>4.8.</b> The subtitles in my
+<p><a name="AEN198" id="AEN198"></a><b>5.8.</b> The subtitles in my
 non English game are messed up.</p>
 </div>
 <div class="answer">
@@ -533,14 +552,14 @@ McKracken if you have this problem. You need to specify a language
 in the ScummVM Game Options dialog, with the -q parameter or by
 using the 'language' config file option.</p>
 <p>Consult the <a href=
-"http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/trunk/README"
+"http://svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README"
 target="_top">README</a> or command line help for further
 information.</p>
 </div>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN196" id="AEN196"></a><b>4.9.</b> How do I make my
+<p><a name="AEN205" id="AEN205"></a><b>5.9.</b> How do I make my
 mac version of a game work?</p>
 </div>
 <div class="answer">
@@ -566,7 +585,7 @@ for information on specifying the game platform.</p>
 <div class="qandaentry">
 <div class="question">
 <p><a name="question.report-bugs" id=
-"question.report-bugs"></a><b>4.10.</b> Reporting Bugs.</p>
+"question.report-bugs"></a><b>5.10.</b> Reporting Bugs.</p>
 </div>
 <div class="answer">
 <p>To report a bug, please create a SourceForge account and follow
@@ -609,7 +628,7 @@ we can fix it quicker by looking at the changes made.</p>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN228" id="AEN228"></a><b>4.11.</b> I downloaded the
+<p><a name="AEN237" id="AEN237"></a><b>5.11.</b> I downloaded the
 Broken Sword packs from your site but the game won't run.</p>
 </div>
 <div class="answer">
@@ -622,7 +641,7 @@ distribute them freely on our site.</p>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN233" id="AEN233"></a><b>4.12.</b> There are no
+<p><a name="AEN242" id="AEN242"></a><b>5.12.</b> There are no
 graphics in the Broken Sword I intro.</p>
 </div>
 <div class="answer">
@@ -632,7 +651,7 @@ eventually the Revolution logo will appear.</p>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN238" id="AEN238"></a><b>4.13.</b> I get "WARNING:
+<p><a name="AEN247" id="AEN247"></a><b>5.13.</b> I get "WARNING:
 Unable to open configration file C:\windows\scummvm.ini!"</p>
 </div>
 <div class="answer">
@@ -643,7 +662,7 @@ ScummVM, since the file does not exist yet then.</p>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN243" id="AEN243"></a><b>4.14.</b> I get "Failed to
+<p><a name="AEN252" id="AEN252"></a><b>5.14.</b> I get "Failed to
 save game state to file: xxx"</p>
 </div>
 <div class="answer">
@@ -653,7 +672,7 @@ point to writeable directory.</p>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN248" id="AEN248"></a><b>4.15.</b> ScummVM starts,
+<p><a name="AEN257" id="AEN257"></a><b>5.15.</b> ScummVM starts,
 but all I get is a transparent window!</p>
 </div>
 <div class="answer">
@@ -665,7 +684,7 @@ try again.</p>
 <p>Apparently other applications have had the same problem, because
 the release notes for SDL 1.2.10 (May 17, 2006) contained the
 following note:</p>
-<a name="AEN254" id="AEN254"></a>
+<a name="AEN263" id="AEN263"></a>
 <blockquote class="BLOCKQUOTE">
 <p>The "windib" video driver is the default now, to prevent
 problems with certain laptops, 64-bit Windows, and Windows Vista.
@@ -677,7 +696,7 @@ setting the environment variable <code class=
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN258" id="AEN258"></a><b>4.16.</b> ScummVM runs, but
+<p><a name="AEN267" id="AEN267"></a><b>5.16.</b> ScummVM runs, but
 sound is stuttering and/or garbled!</p>
 </div>
 <div class="answer">
@@ -690,7 +709,7 @@ and try again.</p>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN264" id="AEN264"></a><b>4.17.</b> How do I set an
+<p><a name="AEN273" id="AEN273"></a><b>5.17.</b> How do I set an
 environment variable?</p>
 </div>
 <div class="answer">
@@ -699,7 +718,7 @@ are using. Under Windows, you could try creating a file called
 <b class="command">scummvm.bat</b> in the same folder as <b class=
 "command">scummvm.exe</b>. Open this file in your favorite text
 editor and put something like this in it:</p>
-<a name="AEN270" id="AEN270"></a>
+<a name="AEN279" id="AEN279"></a>
 <blockquote class="BLOCKQUOTE">
 <pre class="programlisting">
 @echo off
@@ -716,7 +735,7 @@ the control panel.</p>
 </div>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN275" id="AEN275"></a><b>4.18.</b> ScummVM starts
+<p><a name="AEN284" id="AEN284"></a><b>5.18.</b> ScummVM starts
 somewhere in the middle of my two Xinerama monitors in fullscreen
 mode. Help!</p>
 </div>
@@ -731,10 +750,10 @@ does have Xinerama support compiled in.</p>
 </div>
 </div>
 <div class="qandadiv">
-<h3><a name="AEN280" id="AEN280"></a>5. Features</h3>
+<h3><a name="AEN289" id="AEN289"></a>6. Features</h3>
 <div class="qandaentry">
 <div class="question">
-<p><a name="AEN283" id="AEN283"></a><b>5.1.</b> Will you add
+<p><a name="AEN292" id="AEN292"></a><b>6.1.</b> Will you add
 support for zip archives?</p>
 </div>
 <div class="answer">
