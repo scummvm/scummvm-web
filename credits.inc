@@ -172,6 +172,7 @@
 <div class='par-subhead-content'>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Joachim Eberhard</td><td style='width:10em; text-align: left;' class='news-author'>joachimeberhard</td><td>Documentation manager</td>
+<tr><td style='width:13em; padding:2px;'>Matthew Hoops</td><td style='width:10em; text-align: left;' class='news-author'>clone2727</td><td>Wiki editor</td>
 </table>
 </div>
 <div class='par-subhead'>Retired Team Members</div>
