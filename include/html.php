@@ -122,7 +122,7 @@ function html_page_footer() {
 		<input type="hidden" name="cmd" value="_xclick">
 		<input type="hidden" name="business" value="paypal@enderboi.com">
 		<input type="hidden" name="item_name" value="ScummVM donation">
-		<input type="image" src="<?=$file_root?>/images/ppdonate.gif" name="submit" alt="Donate to ScummVM with PayPal!">
+		<input type="image" src="http://images.sourceforge.net/images/project-support.jpg" name="submit" alt="Donate to ScummVM with PayPal!">
 		</td>
 		<td>
 			<a href="http://sourceforge.net/"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=37116&amp;type=1" width="88" height="31" alt="SourceForge"></a>
