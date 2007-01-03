@@ -30,32 +30,29 @@ function list_latest_news ($num = -1) {
 	@fclose($fp);
 
 	// Parse the (pseudo-XML) contents of the news file.
+	$newsitem = array("filename" => $item);
 
-	$news[$c]["date"] = "";
 	if (eregi("<DATE>(.*)</DATE>", $data, $out)) {
-	  $news[$c]["date"] = strtotime($out[1]);
+	  $newsitem["date"] = strtotime($out[1]);
 	}
 
-	$news[$c]["author"] = "";
 	if (eregi("<AUTHOR>(.*)</AUTHOR>", $data, $out)) {
-	  $news[$c]["author"] = $out[1];
+	  $newsitem["author"] = $out[1];
 	}
 
-	$news[$c]["title"] = "";
 	if (eregi("<NAME>(.*)</NAME>", $data, $out)) {
-	  $news[$c]["title"] = $out[1];
+	  $newsitem["title"] = $out[1];
 	}
 
-	$news[$c]["img"] = "";
 	if (eregi("<IMG>(.*)</IMG>", $data, $out)) {
-	  $news[$c]["img"] = $out[1];
+	  $newsitem["img"] = $out[1];
 	}
 
-	$news[$c]["body"] = "";
 	if (eregi("<BODY>(.*)</BODY>", $data, $out)) {
-	  $news[$c]["body"] = $out[1];
+	  $newsitem["body"] = $out[1];
 	}
 
+	$news[$item] = $newsitem;
 	$c++;
 	
 	if ($num >= 0 && $c >= $num) {

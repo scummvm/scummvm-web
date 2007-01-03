@@ -134,6 +134,11 @@ td.menus {
 	border: 0px;
 }
 
+.par-item .par-head a {
+	color: #fff;
+	text-decoration: none;
+}
+
 .par-item .par-subhead {
 	color: #a82709;
 	font-weight: bold;

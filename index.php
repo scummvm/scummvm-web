@@ -220,12 +220,15 @@ if ($shownews) {
   $news = list_latest_news(4);
 }
 
-while (list($key,$item) = each($news)) {
+function displayNewsItem($item) {
   // Display news item
   echo '<div class="par-item">'.
 	 '<div class="par-head">'.
-	   '<a name="' . date("Y-m-d", $item["date"]) . '"></a><span class="newsdate">' . date("M. jS, Y", $item["date"]) . "</span>: ".
+	   '<a name="' . date("Y-m-d", $item["date"]) . '"></a>'.
+	    '<a href="http://fingolfin.dnsalias.net/~maxhorn/scummvm/?shownews=' . $item["filename"] . '">'.
+	      '<span class="newsdate">' . date("M. jS, Y", $item["date"]) . "</span>: ".
            $item["title"].
+        '</a>'.
 	 '</div>'.
          '<div class="par-content">'.
 		 	 '<div class="news-author">Posted by '.$item["author"]."</div> ".
@@ -233,7 +236,18 @@ while (list($key,$item) = each($news)) {
 		$item["body"].
 	 '</div>'.
        '</div>';
-} // end of news loop
+}
+
+if (!$shownews or $shownews == "archive") {
+	while (list($key,$item) = each($news)) {
+	  // Display news item
+	  displayNewsItem($item);
+	}
+} else if ($news[$shownews] != "") {
+	displayNewsItem($news[$shownews]);
+} else {
+	echo "ERROR";
+}
 
 // Show 'More News...' link, unless we are already in the showsnews mode.
 if (!$shownews) {
