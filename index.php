@@ -225,7 +225,7 @@ function displayNewsItem($item) {
   echo '<div class="par-item">'.
 	 '<div class="par-head">'.
 	   '<a name="' . date("Y-m-d", $item["date"]) . '"></a>'.
-	    '<a href="http://fingolfin.dnsalias.net/~maxhorn/scummvm/?shownews=' . $item["filename"] . '">'.
+	    '<a href="http://www.scummvm.org/?shownews=' . $item["filename"] . '">'.
 	      '<span class="newsdate">' . date("M. jS, Y", $item["date"]) . "</span>: ".
            $item["title"].
         '</a>'.
