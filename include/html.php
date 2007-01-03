@@ -118,7 +118,7 @@ function html_page_footer() {
     <table style="border-spacing:0px;margin:0px;width:80%;margin-left:auto;margin-right:auto;" align="center" cellspacing="0"><!-- width="80%" -->
 	<tr>
 		<td>
-		<a href="http://sourceforge.net/donate/index.php?group_id=37116"><img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" border="0" alt="Support This Project" /></a>
+		<a href="http://sourceforge.net/donate/index.php?group_id=37116"><img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" border="0" alt="Support This Project"></a>
 		</td>
 		<td>
 			<a href="http://sourceforge.net/"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=37116&amp;type=1" width="88" height="31" alt="SourceForge"></a>

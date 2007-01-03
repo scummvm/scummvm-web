@@ -35,7 +35,7 @@ function sidebar_start () {
     $g->add("Subversion Tree", "http://svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/");
     $g->done();      
 
-    $g = new htmlmenu("Misc. Menu", "menu-misc", '<img src="'.$file_root.'/images/hangmonk.gif" alt="monkey" align="right" width="55" height="57"><a href="http://sourceforge.net/donate/index.php?group_id=37116"><img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" border="0" alt="Support This Project" /> </a>
+    $g = new htmlmenu("Misc. Menu", "menu-misc", '<img src="'.$file_root.'/images/hangmonk.gif" alt="monkey" align="right" width="55" height="57"><a href="http://sourceforge.net/donate/index.php?group_id=37116"><img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" border="0" alt="Support This Project"> </a>
 ');
 
     $g->add("Subprojects", $file_root."/subprojects.php");
