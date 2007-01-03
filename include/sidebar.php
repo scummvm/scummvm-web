@@ -14,6 +14,7 @@ function sidebar_start () {
     $g->add("Screenshots", $file_root."/screenshots.php");
     $g->add("Forums", "http://forums.scummvm.org/");
     $g->add("Downloads", $file_root."/downloads.php");
+    $g->add("Donate to ScummVM", "http://sourceforge.net/donate/index.php?group_id=37116");
 
     $g->done();
 
@@ -32,10 +33,10 @@ function sidebar_start () {
     $g->add("Bug Tracking", "http://sourceforge.net/tracker/?group_id=37116&amp;atid=418820");
     $g->add("Daily Snapshots", "/daily/");
     $g->add("Subversion Tree", "http://svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/");
-
     $g->done();      
 
-    $g = new htmlmenu("Misc. Menu", "menu-misc", '<img src="'.$file_root.'/images/hangmonk.gif" alt="monkey" align="right" width="55" height="57">');
+    $g = new htmlmenu("Misc. Menu", "menu-misc", '<img src="'.$file_root.'/images/hangmonk.gif" alt="monkey" align="right" valign="top" width="55" height="57"><a href="http://sourceforge.net/donate/index.php?group_id=37116"><img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" border="0" alt="Support This Project" /> </a>
+');
 
     $g->add("Subprojects", $file_root."/subprojects.php");
     $g->add("Demos", $file_root."/demos.php");
