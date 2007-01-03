@@ -24,10 +24,11 @@ $news = list_latest_news(5);
 while (list($key,$item) = each($news)) {
   $news_url = "http://www.scummvm.org/?shownews=archive#".date("Y-m-d",$item["date"]);
   echo "\t\t<item>\n";
-  echo "\t\t\t<title><![CDATA[".$item["title"]."]]></title>\n";
+  echo "\t\t\t<title>".$item["title"]."</title>\n";
   echo "\t\t\t<description><![CDATA[\n".$item["body"]."\n\t\t\t]]></description>\n";
   echo "\t\t\t<pubDate>".date("r",$item["date"])."</pubDate>\n";
-  echo "\t\t\t<author>nospam@scummvm.org (".$item["author"].")</author>\n";
+  if ($item["author"] != "")
+    echo "\t\t\t<author>nospam@scummvm.org (".$item["author"].")</author>\n";
   echo "\t\t\t<guid isPermaLink=\"true\">".$news_url."</guid>\n";
   echo "\t\t\t<link>".$news_url."</link>\n";
   echo "\t\t</item>\n";

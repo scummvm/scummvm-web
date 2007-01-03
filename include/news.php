@@ -38,7 +38,7 @@ function list_latest_news ($num = -1) {
 
 	$news[$c]["author"] = "";
 	if (eregi("<AUTHOR>(.*)</AUTHOR>", $data, $out)) {
-	  $news[$c]["author"] = "Posted by ".$out[1];
+	  $news[$c]["author"] = $out[1];
 	}
 
 	$news[$c]["title"] = "";

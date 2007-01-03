@@ -191,7 +191,7 @@ PalmOS, AmigaOS, BeOS, OS/2, PSP, PS2, SymbianOS/EPOC and many more...
 </p>
 <p>
 Our forum and IRC channel, <a href="irc://irc.freenode.net/scummvm">#scummvm on
-irc.freenode.net</a>, are open for comments and suggestions. Please read our <a href="faq.php">FAQ</a>
+irc.freenode.net</a>, are open for comments and suggestions. Please read our <a href="http://www.scummvm.org/faq.php">FAQ</a>
 before posting.
 </p>
 <p><B>Fundraiser Progress:</B></p><center><img src="http://wiki.scummvm.org/donations/progress.png" border=0 alt="Progress Bar"></center> 
@@ -228,7 +228,7 @@ while (list($key,$item) = each($news)) {
            $item["title"].
 	 '</div>'.
          '<div class="par-content">'.
-		 	 '<div class="news-author">'.$item["author"]."</div> ".
+		 	 '<div class="news-author">Posted by '.$item["author"]."</div> ".
   		$item["img"].
 		$item["body"].
 	 '</div>'.

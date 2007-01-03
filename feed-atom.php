@@ -39,10 +39,11 @@ while (list($key,$item) = each($news)) {
   echo "\t\t<link rel=\"alternate\" href=\"".$news_url."\" />";
   echo "\t\t<updated>".$news_date."</updated>\n";
   echo "\t\t<published>".$news_date."</published>\n";
-  echo "\t\t<title type=\"html\"><![CDATA[".$item["title"]."]]></title>\n";
+  echo "\t\t<title type=\"html\">".$item["title"]."</title>\n";
 
   echo "\t\t<content type=\"html\" xml:base=\"".$news_url."\"><![CDATA[\n\t\t".$item["body"]."\n\t\t]]></content>\n";
-  echo "\t\t<author>\n\t\t\t<name>".$item["author"]."</name>\n\t\t\t<email>nospam@scummvm.org</email>\n\t\t</author>\n";
+  if ($item["author"] != "")
+    echo "\t\t<author>\n\t\t\t<name>".$item["author"]."</name>\n\t\t</author>\n";
   echo "\t</entry>\n";
 } // end of news loop
 ?>
