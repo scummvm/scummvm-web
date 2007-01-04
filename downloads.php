@@ -128,7 +128,7 @@ html_content_begin('Download ScummVM');
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-WinCE.zip?download">Windows CE ARM package</a> <font class='cat-count'>(1.8M zipfile)</font></td></tr>
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-opie.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-opie_arm.ipk?download">Opie SDL package><b> Only </b>for iPAQ h1910/h1915 and MyPal 716</a> <font class='cat-count'>(1.7M .ipk)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-opie.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-opie_arm.ipk?download">Opie SDL package<b> Only </b>for iPAQ h1910/h1915 and MyPal 716</a> <font class='cat-count'>(1.7M .ipk)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-amiga.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-amigaos4.lha?download">AmigaOS 4 package</a> <font class='cat-count'>(3.0M .lha)</font></td></tr>
 
