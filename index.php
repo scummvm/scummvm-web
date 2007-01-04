@@ -172,7 +172,7 @@ games, provided you already have their data files. The clever part about this: S
 the executables shipped with the game, allowing you to play them on systems for which they were never designed!
 </p>
 <p>
-ScummVM lets you run these adventures: <a href="http://www.adventuresoft.com">Adventure Soft</a>'s
+Some of the adventures ScummVM supports include <a href="http://www.adventuresoft.com">Adventure Soft</a>'s
 <i>Simon the Sorcerer</i> 1 and 2; <a href="http://www.revolution.co.uk">Revolution</a>'s
 <i>Beneath A Steel Sky</i>, <i>Broken Sword 1</i> and <i>Broken Sword 2</i>;
 <i>Flight of the Amazon Queen</i>;
@@ -180,9 +180,8 @@ ScummVM lets you run these adventures: <a href="http://www.adventuresoft.com">Ad
 Coktel Vision's <i>Gobliiins</i>; Westwood Studios' <i>The Legend of Kyrandia</i> 
 and games based on <a href="http://www.lucasarts.com">LucasArts</a>'
 <span style="color: green">SCUMM</span> <span style="color: #666666">(<i>Script Creation Utility for Maniac
-Mansion</i>)</span> system. <span style="color: green">SCUMM</span> is used for many games,
-including <i>Monkey Island</i>, <i>Day of the Tentacle</i>, <i>Sam and Max</i> and more.
-Compatibility with supported games is continually improving, so check back often.
+Mansion</i>)</span> system such as <i>Monkey Island</i>, <i>Day of the Tentacle</i>, <i>Sam and Max</i> and more.
+You can find a thorough list with details on which games are supported and how well on the <a href="compatibility.php">compatibility page</a>. ScummVM is continually improving, so check back often.
 </p>
 
 <p>
