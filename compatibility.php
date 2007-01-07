@@ -128,7 +128,7 @@ $gamesOther = array(
 	'Broken Sword 1: The Shadow of the Templars'            => array('sword1','98'),
 	'Broken Sword 2: The Smoking Mirror'                    => array('sword2','98'),
 	'Flight of the Amazon Queen'                            => array('queen','98'),
-	'Future Wars'                                           => array('fw','75'),
+	'Future Wars'                                           => array('fw','80'),
 	'Gobliiins'                                             => array('gob1', '95'),
 	'Gobliins 2'                                            => array('gob2', '90'),
 	'Inherit the Earth: Quest for the Orb'                  => array('ite', '87'),
@@ -344,7 +344,8 @@ $notes = array(
 		   "<br>- MT-32 music and sfx do not work properly.",
 "fw"		=> "Game is completable".
 		   "<br>- Occasional graphical glitches".
-		   "<br>- Only DOS version is supported",
+		   "<br>- DOS, Amiga and Atari versions are supported".
+		   "<br>- Amiga and Atari versions lack sfx and musix",
 "touche"	=> "Game is completable".
 		   "<br>- Occasional graphical glitches"
 );
