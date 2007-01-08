@@ -172,7 +172,7 @@ $notes = array(
 		   "<br>- Amiga, Atari ST, FM-TOWNS, Macintosh, PC and SegaCD versions supported by this target".
 		   "<br>- The Roland update from LucasArts is required for MIDI support in the EGA version".
 		   "<br>- No music or sound effects in the Amiga version".
-		   "<br>- Dialogue choices in the SegaCD version can be selected with 6 (up) 7 (down) or mousewheel, with mouse button or number to select",
+		   "<br>- Dialogue choices in the SegaCD version can be selected with mousewheel or keyboard arrow keys",
 
 "pass"		=> "No known issues, game is completable.",
 "monkey2"	=> "No known issues, game is completable.".
