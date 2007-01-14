@@ -193,9 +193,6 @@ Our forum and IRC channel, <a href="irc://irc.freenode.net/scummvm">#scummvm on
 irc.freenode.net</a>, are open for comments and suggestions. Please read our <a href="http://www.scummvm.org/faq.php">FAQ</a>
 before posting.
 </p>
-<p style="text-align: center;"><a href="http://forums.scummvm.org/viewtopic.php?t=3224"><B>Fundraiser Progress:</B></a><br><br>
- <a href="http://forums.scummvm.org/viewtopic.php?t=3224"><img src="http://wiki.scummvm.org/donations/progress.png" border=0 alt="Progress Bar"></a>
-</p>
 </td></tr>
 <tr>
 	<td><table width="100%" cellspacing="0" cellpadding="0"><tr>
