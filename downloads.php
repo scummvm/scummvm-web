@@ -107,8 +107,6 @@ html_content_begin('Download ScummVM');
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-macos-universal.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1a-macosx.dmg?download">Mac OS X Universal Disk Image</a> <font class='cat-count'>(3.9M disk image)</font></td></tr>
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-os2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-os2.zip?download">OS/2 package</a> <font class='cat-count'>(2.4M .zip)</font></td></tr>
-
 	  <tr><td class='cat-bullet'><img src='images/catpl-ps2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-ps2.zip?download">PlayStation2 package</a> <font class='cat-count'>(3.0M .zip)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-psp.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-psp.zip?download">PSP (PlayStation Portable) package</a> <font class='cat-count'>(4.0M .zip)</font></td></tr>
@@ -129,13 +127,6 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-WinCE.zip?download">Windows CE ARM package</a> <font class='cat-count'>(1.8M zipfile)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-opie.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-opie_arm.ipk?download">Opie SDL package<b> Only </b>for iPAQ h1910/h1915 and MyPal 716</a> <font class='cat-count'>(1.7M .ipk)</font></td></tr>
-
-	  <tr><td class='cat-bullet'><img src='images/catpl-amiga.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-amigaos4.lha?download">AmigaOS 4 package</a> <font class='cat-count'>(3.0M .lha)</font></td></tr>
-
-	  <tr><td class='cat-bullet'><img src='images/catpl-morphos.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-morphos.lha?download">MorphOS package</a> <font class='cat-count'>(2.8M .lha)</font></td></tr>
-
-	  <tr><td class='cat-bullet'><img src='images/catpl-freemint.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-atari.zip?download">Atari/FreeMiNT package (68020 and up)</a> <font class='cat-count'>(1.7M .zip)</font></td></tr>
-
 	  <tr><td class='cat-bullet'><img src='images/catpl-dc.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-dreamcast-plainfiles.tar.bz2?download">Dreamcast plain files</a> <font class='cat-count'>(3.0M .tar.bz2)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-dc.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-dreamcast-nero+demos.zip?download">Dreamcast Nero Image &amp; Demos</a> <font class='cat-count'>6.9M zipfile</font></td></tr>
@@ -146,6 +137,14 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-solaris10-x86.pkg.bz2?download">Solaris 10 (both IA32 and AMD64) binary</a> <font class='cat-count'>(5.7M .pkg.bz2)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-beos.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-beosx86.pkg?download">BeOS package</a> <font class='cat-count'>(2.0M pkg)</font></td></tr>
+
+	  <tr><td class='cat-bullet'><img src='images/catpl-amiga.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-amigaos4.lha?download">AmigaOS 4 package</a> <font class='cat-count'>(3.0M .lha)</font></td></tr>
+
+	  <tr><td class='cat-bullet'><img src='images/catpl-morphos.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-morphos.lha?download">MorphOS package</a> <font class='cat-count'>(2.8M .lha)</font></td></tr>
+
+	  <tr><td class='cat-bullet'><img src='images/catpl-freemint.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-atari.zip?download">Atari/FreeMiNT package (68020 and up)</a> <font class='cat-count'>(1.7M .zip)</font></td></tr>
+
+	  <tr><td class='cat-bullet'><img src='images/catpl-os2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-os2.zip?download">OS/2 package</a> <font class='cat-count'>(2.4M .zip)</font></td></tr>
 
 	</table>
     </div>
