@@ -426,9 +426,20 @@ details.</p>
       -vision.san</td>
   </tr>
   <tr>
-    <td>Gobliiins (Demo, EGA, VGA, CD**, Amiga, AtariST, Mac)</td>
-    <td>*.stk<br>
-      gob.lic (for CD version)
+    <td>Gobliiins (Amiga, Atari ST, Demo, DOS EGA, DOS VGA, DOS CD**, Macintosh)</td>
+    <td>*.STK<br>
+      GOB.LIC (for CD version)</td>
+  </tr>
+  <tr>
+    <td>Gobliins 2 (Amiga Demo, Amiga)</td>
+    <td>*.DUM<br>
+      *.ins<br>
+      *.STK</td>
+  </tr>
+  <tr>
+    <td>Gobliins 2 (Atari ST, Demo, DOS EGA, DOS VGA, DOS CD**, Macintosh)</td>
+    <td>*.STK<br>
+      GOB2.LIC (for CD version)</td>
   </tr>
   <tr>
     <td>Indiana Jones and the Fate of Atlantis (Amiga)</td>
