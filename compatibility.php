@@ -130,7 +130,7 @@ $gamesOther = array(
 	'Flight of the Amazon Queen'                            => array('queen','98'),
 	'Future Wars'                                           => array('fw','80'),
 	'Gobliiins'                                             => array('gob1', '95'),
-	'Gobliins 2'                                            => array('gob2', '90'),
+	'Gobliins 2'                                            => array('gob2', '95'),
 	'Inherit the Earth: Quest for the Orb'                  => array('ite', '87'),
 	'Simon the Sorcerer 1'                                  => array('simon1','93'),
 	'Simon the Sorcerer 2'                                  => array('simon2','95'),
@@ -141,6 +141,7 @@ $gamesOther = array(
 	'The Feeble Files'                                      => array('feeble','90'),
 	'The Legend of Kyrandia'                                => array('kyra1', '80'),
 	'Touche: The Adventures of the Fifth Musketeer'         => array('touche','75'),
+	'Ween: The Prophecy'                                    => array('ween','90'),
 	);
 
 $notes = array(
@@ -307,10 +308,9 @@ $notes = array(
 		   "<br>- Amiga versions aren't supported.",
 "gob1"		=> "No known issues. Game is completable.".
 		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
-		   "<br>- Problems with music in the Macintosh version",
-"gob2"		=> "Game is completable, with minor glitches".
+		   "<br>- Problem with one music piece in the Macintosh version",
+"gob2"		=> "Game is completable".
 		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
-		   "<br>- Some missing and wrong sounds".
 		   "<br>- A few wrong instruments during music playback",
 "ite"		=> "Game is completable.".
 		   "<br>- DOS, Linux, Macintosh, MacOS X and Windows versions are supported by this target".
@@ -347,7 +347,10 @@ $notes = array(
 		   "<br>- DOS, Amiga and Atari versions are supported".
 		   "<br>- Amiga and Atari versions lack sfx and musix",
 "touche"	=> "Game is completable".
-		   "<br>- Occasional graphical glitches"
+		   "<br>- Occasional graphical glitches",
+"ween"  	=> "Game is completable".
+		   "<br>- Amiga, Atari and DOS versions are supported by this target".
+		   "<br>- Issues with the mouse cursor visibility"
 );
 		
 // render the compatibility chart
