@@ -1,7 +1,7 @@
 <NAME>Donations no longer accepted</NAME>
 <DATE>Aug 30th, 2006</DATE>
 <AUTHOR>Ender</AUTHOR>
-<body>
+<BODY>
 <p>As regular ScummVM web-viewers may have noticed already, we have removed the Paypal button from
 our site and no donations are currently being accepted.</p>
 <p>Paypal has informed as that all software capable of playing a game on a system 'it was not sold for' is in 
@@ -15,4 +15,4 @@ even to the point of being shipped by Sold Out in their Broken Sword 1/2 compila
 suggestion of a safe, open-source friendly system please let us know in the <a 
 href="http://forums.scummvm.org/viewtopic.php?p=12891">"Paypal Sucks"</a> forum thread.
 </p>
-</body>
+</BODY>

@@ -1,7 +1,7 @@
 <NAME>ScummVM 0.8.1 "Codename: missing" released</NAME>
 <DATE>Jan. 31st, 2006</DATE>
 <AUTHOR>sev</AUTHOR>
-<body>
+<BODY>
 <p>Rejoice, ScummVM 0.8.1 "Codename: missing" has just been released.
 You can now experience the latest official flavour of ScummVM. The main reason 
 for this release is fixing several bugs that slipped into 0.8.0, some of these
@@ -31,4 +31,4 @@ page</a>
 <p>
 Enjoy!
 </p>
-</body>
+</BODY>

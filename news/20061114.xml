@@ -1,7 +1,7 @@
 <NAME>Mac OS X port of ScummVM 0.9.1 updated</NAME>
 <DATE>Nov. 14th, 2006</DATE>
 <AUTHOR>vinterstum</AUTHOR>
-<body>
+<BODY>
 <p>As some of you may have noticed, the Mac OS X version of ScummVM 0.9.1 had
 some issues when running on PowerPC machines, particularly when playing MP3
 encoded sound. A new build (0.9.1a) is now up on the
@@ -9,4 +9,4 @@ encoded sound. A new build (0.9.1a) is now up on the
 versions beyond the Mac OS X version remain the same).
 </p>
 
-</body>
+</BODY>
