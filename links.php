@@ -190,11 +190,6 @@ function addLinkEntry($name, $url, $desc) {
 				interpreter written for Sierra On-Line's SCI game system. This
 				engine was used in such games as: <i>King's Quest IV, Leisure
 				Suit Larry III, Space Quest III,</i> and many more.");
-			addLinkEntry('Sarien :: Sierra On-Line AGI Games', 'http://sarien.sourceforge.net/',
-				"Sarien is an open source, portable implementation of the Sierra
-				On-Line Adventure Game Interpreter (AGI). This engine was used
-				in such games as: <i>King's Quest I - III, Leisure Suit Larry I,
-				Space Quest I - II, Police Quest I,</i> and many more.");
 			addLinkEntry('XU4 :: Ultima IV', 'http://xu4.sourceforge.net/',
 				"XU4 is the recreation of Ultima IV - Quest of the Avatar.");
 			addLinkEntry('Nuvie :: Ultima VI', 'http://nuvie.sourceforge.net/',
