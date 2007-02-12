@@ -317,7 +317,7 @@ $notes = array(
 		   "<br>- Amiga versions aren't supported".
 		   "<br>- Occasional graphical glitches",
 "simon1" 	=> "No known issues, game is completable.".
-		   "<br>- Acorn (CD), DOS and Windows versions supported by this target",
+		   "<br>- Acorn, Amiga, DOS and Windows versions supported by this target",
 "simon2"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, DOS, Macintosh and Windows versions supported by this target".
 		   "<br>- Only the default language (English) in Amiga &amp; Mactinosh versions is supported".
