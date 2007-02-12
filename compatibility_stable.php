@@ -307,7 +307,7 @@ $notes = array(
 		   "<br>- Acorn (CD), DOS and Windows versions supported by this target",
 "simon2"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, DOS, Macintosh and Windows versions supported by this target".
-		   "<br>- Only the default language (English) in Amiga &amp; Mactinosh versions is supported".
+		   "<br>- Only the default language (English) in Amiga &amp; Macintosh versions is supported".
 		   "<br>- F10 key animation is different in Amiga &amp; Macintosh versions",
 "feeble"	=> "Game is completable".
 		   "<br>- Amiga, Macintosh and Windows versions supported by this target".
