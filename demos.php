@@ -216,9 +216,9 @@ $MISC_demos = array(
 	'Flight of the Amazon Queen (Interview demo, Datafile only)'
 		=> array('http://www.unet.univie.ac.at/~a0200586/binary/mirrors/scummvm/queen_interview.zip', 'queen'),
 	'Gobliiins'
-		=> array('http://minifiles.ag.ru/demos/448/gobliiins_demo.exe', 'gob1'),
+		=> array('http://minifiles.ag.ru/demos/448/gobliiins_demo.exe', 'gob'),
 	'Gobliins 2 (Non interactive)'
-		=> array('http://minifiles.ag.ru/demos/449/gobliins2_demo.exe', 'gob2'),
+		=> array('http://minifiles.ag.ru/demos/449/gobliins2_demo.exe', 'gob'),
 	'Inherit the Earth: Quest for the Orb demos'
 		=> array('http://www.wyrmkeep.com/ite/download.html', 'ite'),
 	'The Legend of Kyrandia (Non-interactive)'
@@ -228,7 +228,9 @@ $MISC_demos = array(
 	'Simon the Sorcerer 1 Talkie (Acorn demo)'
 		=> array('http://quick.mixnmojo.com/demos/simon1demo_acorn.rar', 'simon1'),
 	'Simon the Sorcerer 2 Talkie (DOS demo)'
-		=> array('http://www.cowlark.com/scumm.dat/simon2demo.zip', 'simon2')
+		=> array('http://www.cowlark.com/scumm.dat/simon2demo.zip', 'simon2'),
+	'Ween: The Prophecy'
+		=> array('http://minifiles.ag.ru/demos/781/ween_demo.exe', 'gob')
 	);
 
 function render_demos($title, $demos) {
