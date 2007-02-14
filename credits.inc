@@ -282,6 +282,7 @@
 <tr><td style='width:13em; padding:2px;'>Janne Huttunen</td><td></td><td>V3 actor mask support, Dig/FT SMUSH audio</td>
 <tr><td style='width:13em; padding:2px;'>Kov&aacute;cs Endre J&aacute;nos</td><td></td><td>Several fixes for Simon1</td>
 <tr><td style='width:13em; padding:2px;'>Jeroen Janssen</td><td></td><td>Numerous readability and bugfix patches</td>
+<tr><td style='width:13em; padding:2px;'>Florian Kagerer</td><td style='width:10em; text-align: left;' class='news-author'>athrxx</td><td>Various Kyrandia 1 FM-Towns code contributions</td>
 <tr><td style='width:13em; padding:2px;'>Andreas Karlsson</td><td style='width:10em; text-align: left;' class='news-author'>Sprawl</td><td>Initial port for EPOC/SymbianOS</td>
 <tr><td style='width:13em; padding:2px;'>Claudio Matsuoka</td><td></td><td>Daily Linux builds</td>
 <tr><td style='width:13em; padding:2px;'>Thomas Mayer</td><td></td><td>PSP port contributions</td>
