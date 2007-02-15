@@ -179,7 +179,7 @@ $HE_demos = array(
 	'Putt-Putt Joins the Circus (Demo)'
 		=> array('http://quick.mixnmojo.com/demos/circdemo.rar', 'puttcircus'),
 	'Putt-Putt Joins the Parade (DOS demo)'
-		=> array('http://www.cowlark.com/scumm.dat/puttpara.zip', 'puttdemo'),
+		=> array('http://quick.mixnmojo.com/demos/puttpara.zip', 'puttdemo'),
 	'Putt-Putt Saves the Zoo (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/puttzoo.zip', 'puttzoo'),
 	'Putt-Putt Travels Through Time (Demo)'
@@ -224,11 +224,11 @@ $MISC_demos = array(
 	'The Legend of Kyrandia (Non-interactive)'
 		=> array('http://quick.mixnmojo.com/demos/kyra1demo.zip', 'kyra1'),
 	'Simon the Sorcerer 1 (DOS demo)'
-		=> array('http://www.cowlark.com/scumm.dat/simon1demo.zip', 'simon1'),
+		=> array('http://quick.mixnmojo.com/demos/simon1demo.zip', 'simon1'),
 	'Simon the Sorcerer 1 Talkie (Acorn demo)'
 		=> array('http://quick.mixnmojo.com/demos/simon1demo_acorn.rar', 'simon1'),
 	'Simon the Sorcerer 2 Talkie (DOS demo)'
-		=> array('http://www.cowlark.com/scumm.dat/simon2demo.zip', 'simon2'),
+		=> array('http://quick.mixnmojo.com/demos/simon2demo.zip', 'simon2'),
 	'Ween: The Prophecy'
 		=> array('http://minifiles.ag.ru/demos/781/ween_demo.exe', 'gob')
 	);
