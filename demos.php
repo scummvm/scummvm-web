@@ -72,17 +72,17 @@ $LEC_demos = array(
 	'Indiana Jones and the Fate of Atlantis (DOS demo - Interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Playfate.zip', 'atlantis'),
 	'Indiana Jones and the Fate of Atlantis (DOS demo - Non interactive)'
-		=> array('http://www.cowlark.com/scumm.dat/fate.zip', 'atlantis'),
+		=> array('http://quick.mixnmojo.com/demos/fate.zip', 'atlantis'),
 	'Indiana Jones and the Fate of Atlantis (FM Towns demo - Non interactive)'
-		=> array('http://www.cowlark.com/scumm.dat/indy4demo.zip', 'atlantis'),
+		=> array('http://quick.mixnmojo.com/demos/indy4demo.zip', 'atlantis'),
 	'Indiana Jones and the Last Crusade (16 colour - Non interactive)'	
-		=> array('http://www.cowlark.com/scumm.dat/indy3ega-demo.zip', 'indy3'),
+		=> array('http://quick.mixnmojo.com/demos/indy3ega-demo.zip', 'indy3'),
 	'Indiana Jones and the Last Crusade & Loom (FM Towns demo - Non interactive)'
-		=> array('http://www.cowlark.com/scumm.dat/indyloom.zip', 'zak'),
+		=> array('http://quick.mixnmojo.com/demos/indyloom.zip', 'zak'),
 	'Indiana Jones and the Last Crusade & Zak McKracken (FM Towns demo - Non interactive)'
-		=>array('http://www.cowlark.com/scumm.dat/indyzak.zip', 'zak'),
+		=>array('http://quick.mixnmojo.com/demos/indyzak.zip', 'zak'),
 	'Loom (16 colour - Short Non interactive)'
-		=> array('http://cd.textfiles.com/tothemaxpcg/GAMEDEM/LOOMDE.ZIP', 'loom'),
+		=> array('http://quick.mixnmojo.com/demos/loom_alt_demo.zip', 'loom'),
 	'Loom (16 colour - Long Non interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Loomdemo.zip', 'loom'),
 	'Maniac Mansion (v1 DOS demo - Non interactive)'
@@ -90,19 +90,19 @@ $LEC_demos = array(
 	'Maniac Mansion (v2 DOS demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/mmdemo2.zip', 'maniac'),
 	'Monkey Island 2 (DOS demo)'
-		=> array('http://www.cowlark.com/scumm.dat/mi2demo.zip', 'monkey2'),
+		=> array('http://quick.mixnmojo.com/demos/mi2demo.zip', 'monkey2'),
 	'Passport to Adventure (16 colour demos of mi, loom, indy3)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Sampler.zip', 'pass'),
 	'Sam &amp; Max Hit the Road (DOS demo - Non interactive)'
-		=> array('http://www.cowlark.com/scumm.dat/samdemo.zip', 'samnmax'),
+		=> array('http://quick.mixnmojo.com/demos/samdemo.zip', 'samnmax'),
 	'Sam &amp; Max Hit the Road (Macintosh demo - Interactive)'
 		=> array('http://quick.mixnmojo.com/demos/samdemo_mac.zip', 'samnmax'),
 	'Sam &amp; Max Hit the Road (DOS demo - Interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Snmdemo.zip', 'samnmax'),
 	'Sam &amp; Max Hit the Road (German DOS demo - Interactive)'
-		=> array('http://quick.mixnmojo.com/demos/sdemo-de.zip', 'samnmax'),
+		=> array('http://quick.mixnmojo.com/demos/SDEMO_DE.zip', 'samnmax'),
 	'Sam &amp; Max Hit the Road WIP (DOS demo - Interactive)'
-		=> array('http://www.cowlark.com/scumm.dat/snmidemo.zip', 'samnmax'),
+		=> array('http://quick.mixnmojo.com/demos/snmidemo.zip', 'samnmax'),
 	'The Curse of Monkey Island (Windows demo)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/cursedemo.exe', 'comi'),
 	'The Curse of Monkey Island (Windows demo with movies)'
@@ -112,15 +112,15 @@ $LEC_demos = array(
 	'The Dig (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/digdemo.zip', 'dig'),
 	'The Secret of Monkey Island (16 colour demo)'	
-		=> array('http://www.cowlark.com/scumm.dat/mi_demo2.zip', 'monkey'),
+		=> array('http://quick.mixnmojo.com/demos/mi_demo2.zip', 'monkey'),
 	'The Secret of Monkey Island (German 16 colour demo)'	
 		=> array('http://quick.mixnmojo.com/demos/midemo-de.zip', 'monkey'),
 	'The Secret of Monkey Island (Amiga demo)'	
 		=> array('http://quick.mixnmojo.com/demos/mi1amigademo.zip', 'monkey'),
 	'Zak McKracken and the Alien Mindbenders (Atari ST - Non interactive)'
-		=> array('http://www.cowlark.com/scumm.dat/zakstdemo.zip', 'zak'),
+		=> array('http://quick.mixnmojo.com/demos/zakstdemo.zip', 'zak'),
 	'Zak McKracken & Loom (FM Towns demo - Non interactive)'
-		=>array('http://www.cowlark.com/scumm.dat/zakloom.zip', 'zak')
+		=>array('http://quick.mixnmojo.com/demos/zakloom.zip', 'zak')
 	);
 
 $HE_demos = array(
@@ -131,9 +131,13 @@ $HE_demos = array(
 	'Big Thinkers First Grade (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/BTFG95d.EXE', 'thinker1'),
 	'Fatty Bear\'s Birthday Surprise (DOS demo)'
-		=> array('http://www.cowlark.com/scumm.dat/fatdemo.zip', 'fbear'),
+		=> array('http://quick.mixnmojo.com/demos/fatdemo.zip', 'fbear'),
 	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/freddi.zip', 'freddi'),
+	'Freddi Fish 1: The Case of the Missing Kelp Seeds (French Demo)'
+		=> array('http://quick.mixnmojo.com/demos/mm-demo_fr.zip', 'freddi'),
+	'Freddi Fish 1: The Case of the Missing Kelp Seeds (German demo)'
+		=> array('http://quick.mixnmojo.com/demos/freddemo_de.zip', 'freddi'),
 	'Freddi Fish 2: The Case of the Haunted Schoolhouse (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/FF2-DEMO.ZIP', 'freddi2'),
 	'Freddi Fish 3: The Case of the Stolen Conch Shell (Demo)'
@@ -175,13 +179,15 @@ $HE_demos = array(
 	'Putt-Putt Enters the Race (UK Demo)'
 		=> array('http://quick.mixnmojo.com/demos/racedemo-uk.zip', 'puttrace'),
 	'Putt-Putt Goes to the Moon (DOS demo)'
-		=> array('http://www.cowlark.com/scumm.dat/moondemo.zip', 'puttmoon'),
+		=> array('http://quick.mixnmojo.com/demos/moondemo.zip', 'puttmoon'),
 	'Putt-Putt Joins the Circus (Demo)'
 		=> array('http://quick.mixnmojo.com/demos/circdemo.rar', 'puttcircus'),
 	'Putt-Putt Joins the Parade (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/puttpara.zip', 'puttdemo'),
 	'Putt-Putt Saves the Zoo (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/puttzoo.zip', 'puttzoo'),
+	'Putt-Putt Saves the Zoo (German Demo)'
+		=> array('http://quick.mixnmojo.com/demos/zoodemo_de.zip', 'puttzoo'),
 	'Putt-Putt Travels Through Time (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/putttime.zip', 'putttime'),
 	'Putt-Putt Travels Through Time (French Demo)'
@@ -209,18 +215,30 @@ $MISC_demos = array(
 		=> array('http://www.gamershell.com/download_4731.shtml', 'sword1demo'),
 	'Broken Sword 2: The Smoking Mirror'
 		=> array('http://files.5star-network.com/Games/bs2-demo.zip', 'sword2demo'),
+	'Elvira - Mistress of Darkness (Amiga demo - Non interactive)'
+		=> array('http://quick.mixnmojo.com/demos/elvira1_demo_ami.zip', 'elvira1'),
+	'Elvira - Mistress of Darkness (Atari ST demo - Non interactive)'
+		=> array('http://quick.mixnmojo.com/demos/elvira1_demo_st.zip', 'elvira1'),
 	'Flight of the Amazon Queen (Datafile only)'
 		=> array('http://0x.7fc1.org/fotaq/fotaq_demo.zip', 'queen'),
 	'Flight of the Amazon Queen (PCGAMES demo, Datafile only)'
 		=> array('http://0x.7fc1.org/fotaq/fotaq_demo_pcgames.zip', 'queen'),
 	'Flight of the Amazon Queen (Interview demo, Datafile only)'
 		=> array('http://www.unet.univie.ac.at/~a0200586/binary/mirrors/scummvm/queen_interview.zip', 'queen'),
+	'Future Wars (Amiga demo - Non interactive)'
+		=> array('http://quick.mixnmojo.com/demos/fw_demo_ami.zip', 'fw'),
 	'Gobliiins'
 		=> array('http://minifiles.ag.ru/demos/448/gobliiins_demo.exe', 'gob'),
+	'Gobliiins (Amiga demo)'
+		=> array('http://quick.mixnmojo.com/demos/gob1_demo_ami.zip', 'gob'),
 	'Gobliins 2 (Non interactive)'
 		=> array('http://minifiles.ag.ru/demos/449/gobliins2_demo.exe', 'gob'),
+	'Gobliins 2 (Amiga demo)'
+		=> array('http://quick.mixnmojo.com/demos/gob2_demo_ami.zip', 'gob'),
 	'Inherit the Earth: Quest for the Orb demos'
 		=> array('http://www.wyrmkeep.com/ite/download.html', 'ite'),
+	'Operation Stealth (Amiga demo - Non interactive)'
+		=> array('http://quick.mixnmojo.com/demos/op_demo_ami.zip', 'os'),
 	'The Legend of Kyrandia (Non-interactive)'
 		=> array('http://quick.mixnmojo.com/demos/kyra1demo.zip', 'kyra1'),
 	'Simon the Sorcerer 1 (DOS demo)'
@@ -231,6 +249,8 @@ $MISC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/simon2demo.zip', 'simon2'),
 	'Ween: The Prophecy'
 		=> array('http://minifiles.ag.ru/demos/781/ween_demo.exe', 'gob')
+	'Touche: The Adventures of the Fifth Musketeer'
+		=> array('http://quick.mixnmojo.com/demos/touche_demo.zip', 'touche')
 	);
 
 function render_demos($title, $demos) {
