@@ -145,11 +145,13 @@ $notes = array(
 		   "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "indy3" 	=> "Game is completable".
 		   "<br>- Amiga, Atari ST, FM-TOWNS, Macintosh and PC versions supported by this target".
+		   "<br>- There is no support for the Macintosh interface".
 		   "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "loom"		=> "No known issues, game is completable.".
 		   "<br>- Amiga, Atari ST, FM-TOWNS, Macintosh and PC versions supported by this target".
 		   "<br>- The Roland update from LucasArts is required for MIDI support in the EGA version".
 		   "<br>- No music or sound effects in the Macintosh version".
+		   "<br>- There is no support for the Macintosh interface".
 		   "<br>- Fades are seemingly different in the FM-TOWNS version".
 		   "<br>- Text palette sometimes incorrect in the FM-TOWNS version".
 		   "<br>- Distaff occasionally pink in the FM-TOWNS version".
