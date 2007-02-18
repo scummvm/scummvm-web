@@ -74,6 +74,11 @@ if ($view and file_exists($file_root."/docs/".$view.".xml")) {
     echo display_xml($file_root."/docs/".$item,'DESC')."<br><br>\n";
   } // end of docs loop
 
+?>
+  <a href='http://wiki.scummvm.org/index.php/Datafiles'>Game data files</a><br>
+  This page lists for many supported games which files exactly are needed by ScummVM in order to play that game.<br><br>
+
+<?php
 
 ?>
   <a href='http://wiki.scummvm.org/index.php/TODO'>ScummVM current areas of focus</a><br>
