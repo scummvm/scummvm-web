@@ -84,11 +84,13 @@ $cat = & new category(2, "Other games");
 $cat->add(5, "cat-sky.png", "Beneath a Steel Sky");
 $cat->add(0, "cat-bs1.png", "Broken Sword series");
 $cat->add(3, "cat-queen.png", "Flight of the Amazon Queen");
+$cat->add(8, "cat-fw.png", "Future Wars: Time Travelers");
 $cat->add(1, "cat-gob1.png", "Gobliiins series");
 $cat->add(2, "cat-ite.png", "Inherit the Earth: Quest for the Orb");
 $cat->add(4, "cat-simon1.png", "Simon the Sorcerer series");
 $cat->add(7, "cat-feeble.png", "The Feeble Files");
 $cat->add(6, "cat-kyra.png", "The Legend of Kyrandia series");
+$cat->add(9, "cat-ween.png", "Ween: The Prophecy");
 
 // HE games
 $cat = & new category(1, "Humongous Entertainment games");
