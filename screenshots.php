@@ -13,10 +13,23 @@ html_page_header('ScummVM :: Screenshots', array("screenshots.css"));
 
 html_content_begin('Screenshots');
 
-$view = $HTTP_GET_VARS['view'];
-$offset = $HTTP_GET_VARS['offset'];
-$cat1 = $HTTP_GET_VARS['cat1'];
-$cat2 = $HTTP_GET_VARS['cat2'];
+$view = $offset = $cat1 = $cat2 = "";
+
+if (array_key_exists('view', $HTTP_GET_VARS)) {
+  $view = $HTTP_GET_VARS['view'];
+}
+
+if (array_key_exists('offset', $HTTP_GET_VARS)) {
+  $offset = $HTTP_GET_VARS['offset'];
+}
+
+if (array_key_exists('cat1', $HTTP_GET_VARS)) {
+  $cat1 = $HTTP_GET_VARS['cat1'];
+}
+
+if (array_key_exists('cat2', $HTTP_GET_VARS)) {
+  $cat2 = $HTTP_GET_VARS['cat2'];
+}
 
 echo '<script src="'.$file_root.'/screenshots.js" type="text/javascript"></script>';
 
@@ -80,7 +93,7 @@ if ($view == "") {
   </div>
 <?php
 }
-if ($view != -1 && view != "") {
+if ($view != -1 && $view != "") {
   display_single_shot($cat1, $cat2, $view);
 }
 if ($view == -1) {

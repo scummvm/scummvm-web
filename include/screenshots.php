@@ -73,6 +73,12 @@ foreach ($tmp as $image) {
   $n = count($cats);
   $t = explode(".", $cats[$n - 1]);
   $num = $t[0];
+
+  if (!array_key_exists($cats[$n - 3], $scrcatnums) or
+      !array_key_exists($cats[$n - 2], $scrcatnums[$cats[$n - 3]])) {
+    $scrcatnums[$cats[$n - 3]][$cats[$n - 2]] = 0;
+  }
+
   if ($scrcatnums[$cats[$n - 3]][$cats[$n - 2]] < $num + 1)
     $scrcatnums[$cats[$n - 3]][$cats[$n - 2]] = $num + 1;
 }
