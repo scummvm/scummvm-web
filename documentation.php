@@ -78,9 +78,6 @@ if ($view and file_exists($file_root."/docs/".$view.".xml")) {
   <a href='http://wiki.scummvm.org/index.php/Datafiles'>Game data files</a><br>
   This page lists for many supported games which files exactly are needed by ScummVM in order to play that game.<br><br>
 
-<?php
-
-?>
   <a href='http://wiki.scummvm.org/index.php/TODO'>ScummVM current areas of focus</a><br>
   This page is the current TODO list for ScummVM.<br><br>
 
