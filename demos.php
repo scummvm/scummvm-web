@@ -248,7 +248,7 @@ $MISC_demos = array(
 	'Simon the Sorcerer 2 Talkie (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/simon2demo.zip', 'simon2'),
 	'Ween: The Prophecy'
-		=> array('http://minifiles.ag.ru/demos/781/ween_demo.exe', 'gob')
+		=> array('http://minifiles.ag.ru/demos/781/ween_demo.exe', 'gob'),
 	'Touche: The Adventures of the Fifth Musketeer'
 		=> array('http://quick.mixnmojo.com/demos/touche_demo.zip', 'touche')
 	);
