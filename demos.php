@@ -124,12 +124,18 @@ $LEC_demos = array(
 	);
 
 $HE_demos = array(
+	'Backyard Baseball (Demo - Non interactive)'
+		=> array('http://quick.mixnmojo.com/demos/baseball_cup_demo.zip', 'baseball'),
 	'Backyard Football (Demo)'
 		=> array('http://quick.mixnmojo.com/demos/footdemo.zip', 'football'),
 	'Big Thinkers Kindergarten (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/BTK95d.EXE', 'thinkerk'),
 	'Big Thinkers First Grade (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/BTFG95d.EXE', 'thinker1'),
+	'Blue's ABC Time (Demo - Non interactive)'
+		=> array('http://quick.mixnmojo.com/demos/BluesABCTime_cup_demo.zip', 'BluesABCTime'),
+	'Blue's Birthday Adventure (Demo - Non interactive)'
+		=> array('http://quick.mixnmojo.com/demos/BluesBirthday_cup_demo.zip', 'BluesBirthday'),
 	'Fatty Bear\'s Birthday Surprise (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/fatdemo.zip', 'fbear'),
 	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Demo)'
@@ -172,6 +178,8 @@ $HE_demos = array(
 		=> array('ftp://ftp.humongous.com/humongous/losttest.zip', 'lost'),
 	'Putt-Putt Enters the Race (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/puttraceDemo/puttrace.exe', 'puttrace'),
+	'Putt-Putt Enters the Race (Demo - Non interactive)'
+		=> array('http://quick.mixnmojo.com/demos/puttrace_cup_demo.zip', 'puttrace'),
 	'Putt-Putt Enters the Race (Dutch Demo)'
 		=> array('http://quick.mixnmojo.com/demos/500demo-nl.zip', 'puttrace'),
 	'Putt-Putt Enters the Race (German Demo)'
@@ -202,12 +210,16 @@ $HE_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/jamesdem-fr.zip', 'spyfox'),
 	'SPY Fox 2: Some Assembly Required (Demo)'
 		=> array('http://quick.mixnmojo.com/demos/sf2-demo.rar', 'spyfox2'),
+	'SPY Fox 2: Some Assembly Required (Demo - Non interactive)'
+		=> array('http://quick.mixnmojo.com/demos/spyfox2_cup_demo.zip', 'spyfox2'),
 	'SPY Fox 2: Some Assembly Required (German Demo)'
 		=> array('http://quick.mixnmojo.com/demos/sf2demo-de.zip', 'spyfox2'),
 	'SPY Fox 2: Some Assembly Required (UK Demo)'
 		=> array('http://quick.mixnmojo.com/demos/sf2demo-uk.zip', 'spyfox2'),
 	'SPY Fox 3: Operation Ozone (Demo)'
-		=> array('http://quick.mixnmojo.com/demos/sf3-demo.rar', 'spyozon')
+		=> array('http://quick.mixnmojo.com/demos/sf3-demo.rar', 'spyozon'),
+	'SPY Fox 3: Operation Ozone (Demo - Non interactive)'
+		=> array('http://quick.mixnmojo.com/demos/spyozon_cup_demo.zip', 'spyozon')
 	);
 
 $MISC_demos = array(
@@ -219,22 +231,28 @@ $MISC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/elvira1_demo_ami.zip', 'elvira1'),
 	'Elvira - Mistress of Darkness (Atari ST demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/elvira1_demo_st.zip', 'elvira1'),
-	'Flight of the Amazon Queen (Datafile only)'
+	'Flight of the Amazon Queen (Amiga demo)'
+		=> array('http://quick.mixnmojo.com/demos/queen_demo_ami.zip', 'queen'),
+	'Flight of the Amazon Queen (Amiga interview demo)'
+		=> array('http://quick.mixnmojo.com/demos/queen_interview_ami.zip', 'queen'),
+	'Flight of the Amazon Queen (DOS demo - Datafile only)'
 		=> array('http://0x.7fc1.org/fotaq/fotaq_demo.zip', 'queen'),
-	'Flight of the Amazon Queen (PCGAMES demo, Datafile only)'
-		=> array('http://0x.7fc1.org/fotaq/fotaq_demo_pcgames.zip', 'queen'),
-	'Flight of the Amazon Queen (Interview demo, Datafile only)'
-		=> array('http://www.unet.univie.ac.at/~a0200586/binary/mirrors/scummvm/queen_interview.zip', 'queen'),
+	'Flight of the Amazon Queen (DOS PCGAMES demo)'
+		=> array('http://quick.mixnmojo.com/demos/queen_demo_pcgames.zip', 'queen'),
+	'Flight of the Amazon Queen (DOS interview demo)'
+		=> array('http://quick.mixnmojo.com/demos/queen_interview.zip', 'queen'),
 	'Future Wars (Amiga demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/fw_demo_ami.zip', 'fw'),
-	'Gobliiins'
-		=> array('http://minifiles.ag.ru/demos/448/gobliiins_demo.exe', 'gob'),
 	'Gobliiins (Amiga demo)'
 		=> array('http://quick.mixnmojo.com/demos/gob1_demo_ami.zip', 'gob'),
-	'Gobliins 2 (Non interactive)'
-		=> array('http://minifiles.ag.ru/demos/449/gobliins2_demo.exe', 'gob'),
+	'Gobliiins (DOS demo)'
+		=> array('http://minifiles.ag.ru/demos/448/gobliiins_demo.exe', 'gob'),
 	'Gobliins 2 (Amiga demo)'
 		=> array('http://quick.mixnmojo.com/demos/gob2_demo_ami.zip', 'gob'),
+	'Gobliins 2 (DOS demo)'
+		=> array('http://quick.mixnmojo.com/demos/gob2_demo.zip', 'gob'),
+	'Gobliins 2 (DOS demo - Non interactive)'
+		=> array('http://minifiles.ag.ru/demos/449/gobliins2_demo.exe', 'gob'),
 	'Inherit the Earth: Quest for the Orb demos'
 		=> array('http://www.wyrmkeep.com/ite/download.html', 'ite'),
 	'Operation Stealth (Amiga demo - Non interactive)'
