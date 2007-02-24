@@ -249,10 +249,10 @@ $MISC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/simon1demo_acorn.rar', 'simon1'),
 	'Simon the Sorcerer 2 (DOS CD demo)'
 		=> array('http://quick.mixnmojo.com/demos/simon2demo.zip', 'simon2'),
-	'Ween: The Prophecy'
-		=> array('http://minifiles.ag.ru/demos/781/ween_demo.exe', 'gob'),
 	'Touche: The Adventures of the Fifth Musketeer'
-		=> array('http://quick.mixnmojo.com/demos/touche_demo.zip', 'touche')
+		=> array('http://quick.mixnmojo.com/demos/touche_demo.zip', 'touche'),
+	'Ween: The Prophecy'
+		=> array('http://minifiles.ag.ru/demos/781/ween_demo.exe', 'gob')
 	);
 
 function render_demos($title, $demos) {
