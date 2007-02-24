@@ -241,11 +241,13 @@ $MISC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/op_demo_ami.zip', 'os'),
 	'The Legend of Kyrandia (Non-interactive)'
 		=> array('http://quick.mixnmojo.com/demos/kyra1demo.zip', 'kyra1'),
+	'Simon the Sorcerer 1 (Amiga demo)'
+		=> array('http://quick.mixnmojo.com/demos/simon1amigademo.zip', 'simon1'),
 	'Simon the Sorcerer 1 (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/simon1demo.zip', 'simon1'),
-	'Simon the Sorcerer 1 Talkie (Acorn demo)'
+	'Simon the Sorcerer 1 (Acorn CD demo)'
 		=> array('http://quick.mixnmojo.com/demos/simon1demo_acorn.rar', 'simon1'),
-	'Simon the Sorcerer 2 Talkie (DOS demo)'
+	'Simon the Sorcerer 2 (DOS CD demo)'
 		=> array('http://quick.mixnmojo.com/demos/simon2demo.zip', 'simon2'),
 	'Ween: The Prophecy'
 		=> array('http://minifiles.ag.ru/demos/781/ween_demo.exe', 'gob'),
