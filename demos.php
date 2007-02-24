@@ -132,9 +132,9 @@ $HE_demos = array(
 		=> array('ftp://ftp.humongous.com/humongous/BTK95d.EXE', 'thinkerk'),
 	'Big Thinkers First Grade (Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/BTFG95d.EXE', 'thinker1'),
-	'Blue's ABC Time (Demo - Non interactive)'
+	'Blue\'s ABC Time (Demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/BluesABCTime_cup_demo.zip', 'BluesABCTime'),
-	'Blue's Birthday Adventure (Demo - Non interactive)'
+	'Blue\'s Birthday Adventure (Demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/BluesBirthday_cup_demo.zip', 'BluesBirthday'),
 	'Fatty Bear\'s Birthday Surprise (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/fatdemo.zip', 'fbear'),
