@@ -61,21 +61,21 @@ html_content_begin('Game Demos');
 $LEC_demos = array(
 	'Day of the Tentacle (DOS demo - Non interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Dottdemo.zip', 'tentacle'),
-	'Day of the Tentacle (French DOS demo - Non interactive)'
+	'Day of the Tentacle (DOS French demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/dottdemo-fr.zip', 'tentacle'),
-	'Day of the Tentacle (German DOS demo - Non interactive)'
+	'Day of the Tentacle (DOS German demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/dottdemo-de.zip', 'tentacle'),
-	'Full Throttle (Macintosh demo)'
-		=> array('http://quick.mixnmojo.com/demos/ftdemo_mac.zip', 'ft'),
 	'Full Throttle (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/ftdemo.zip', 'ft'),
+	'Full Throttle (Macintosh demo)'
+		=> array('http://quick.mixnmojo.com/demos/ftdemo_mac.zip', 'ft'),
 	'Indiana Jones and the Fate of Atlantis (DOS demo - Interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Playfate.zip', 'atlantis'),
 	'Indiana Jones and the Fate of Atlantis (DOS demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/fate.zip', 'atlantis'),
 	'Indiana Jones and the Fate of Atlantis (FM Towns demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/indy4demo.zip', 'atlantis'),
-	'Indiana Jones and the Last Crusade (16 colour - Non interactive)'	
+	'Indiana Jones and the Last Crusade (DOS EGA - Non interactive)'	
 		=> array('http://quick.mixnmojo.com/demos/indy3ega-demo.zip', 'indy3'),
 	'Indiana Jones and the Last Crusade & Loom (FM Towns demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/indyloom.zip', 'zak'),
@@ -91,18 +91,18 @@ $LEC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/mmdemo2.zip', 'maniac'),
 	'Monkey Island 2 (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/mi2demo.zip', 'monkey2'),
-	'Passport to Adventure (16 colour demos of mi, loom, indy3)'
+	'Passport to Adventure (DOS EGA demos of mi, loom, indy3)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Sampler.zip', 'pass'),
 	'Sam &amp; Max Hit the Road (DOS demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/samdemo.zip', 'samnmax'),
-	'Sam &amp; Max Hit the Road (Macintosh demo - Interactive)'
-		=> array('http://quick.mixnmojo.com/demos/samdemo_mac.zip', 'samnmax'),
 	'Sam &amp; Max Hit the Road (DOS demo - Interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Snmdemo.zip', 'samnmax'),
-	'Sam &amp; Max Hit the Road (German DOS demo - Interactive)'
+	'Sam &amp; Max Hit the Road (DOS German demo - Interactive)'
 		=> array('http://quick.mixnmojo.com/demos/SDEMO_DE.zip', 'samnmax'),
-	'Sam &amp; Max Hit the Road WIP (DOS demo - Interactive)'
+	'Sam &amp; Max Hit the Road (DOS WIP demo - Interactive)'
 		=> array('http://quick.mixnmojo.com/demos/snmidemo.zip', 'samnmax'),
+	'Sam &amp; Max Hit the Road (Macintosh demo - Interactive)'
+		=> array('http://quick.mixnmojo.com/demos/samdemo_mac.zip', 'samnmax'),
 	'The Curse of Monkey Island (Windows demo)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/cursedemo.exe', 'comi'),
 	'The Curse of Monkey Island (Windows demo with movies)'
@@ -111,121 +111,121 @@ $LEC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/dig_demo_mac.zip', 'dig'),
 	'The Dig (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/digdemo.zip', 'dig'),
-	'The Secret of Monkey Island (16 colour demo)'	
+	'The Secret of Monkey Island (DOS EGA German demo)'	
 		=> array('http://quick.mixnmojo.com/demos/mi_demo2.zip', 'monkey'),
-	'The Secret of Monkey Island (German 16 colour demo)'	
+	'The Secret of Monkey Island (DOS EGA German demo)'	
 		=> array('http://quick.mixnmojo.com/demos/midemo-de.zip', 'monkey'),
 	'The Secret of Monkey Island (Amiga demo)'	
 		=> array('http://quick.mixnmojo.com/demos/mi1amigademo.zip', 'monkey'),
-	'Zak McKracken and the Alien Mindbenders (Atari ST - Non interactive)'
+	'Zak McKracken and the Alien Mindbenders (Atari ST demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/zakstdemo.zip', 'zak'),
 	'Zak McKracken & Loom (FM Towns demo - Non interactive)'
 		=>array('http://quick.mixnmojo.com/demos/zakloom.zip', 'zak')
 	);
 
 $HE_demos = array(
-	'Backyard Baseball (Demo - Non interactive)'
+	'Backyard Baseball (Windows Demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/baseball_cup_demo.zip', 'baseball'),
-	'Backyard Football (Demo)'
+	'Backyard Football (Windows Demo)'
 		=> array('http://quick.mixnmojo.com/demos/footdemo.zip', 'football'),
-	'Big Thinkers Kindergarten (Demo)'
+	'Big Thinkers Kindergarten (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/BTK95d.EXE', 'thinkerk'),
-	'Big Thinkers First Grade (Demo)'
+	'Big Thinkers First Grade (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/BTFG95d.EXE', 'thinker1'),
-	'Blue\'s ABC Time (Demo - Non interactive)'
+	'Blue\'s ABC Time (Windows Demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/BluesABCTime_cup_demo.zip', 'BluesABCTime'),
-	'Blue\'s Birthday Adventure (Demo - Non interactive)'
+	'Blue\'s Birthday Adventure (Windows Demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/BluesBirthday_cup_demo.zip', 'BluesBirthday'),
 	'Fatty Bear\'s Birthday Surprise (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/fatdemo.zip', 'fbear'),
-	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Demo)'
+	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/freddi.zip', 'freddi'),
-	'Freddi Fish 1: The Case of the Missing Kelp Seeds (French Demo)'
+	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows French Demo)'
 		=> array('http://quick.mixnmojo.com/demos/mm-demo_fr.zip', 'freddi'),
-	'Freddi Fish 1: The Case of the Missing Kelp Seeds (German demo)'
+	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows German demo)'
 		=> array('http://quick.mixnmojo.com/demos/freddemo_de.zip', 'freddi'),
-	'Freddi Fish 2: The Case of the Haunted Schoolhouse (Demo)'
+	'Freddi Fish 2: The Case of the Haunted Schoolhouse (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/FF2-DEMO.ZIP', 'freddi2'),
-	'Freddi Fish 3: The Case of the Stolen Conch Shell (Demo)'
+	'Freddi Fish 3: The Case of the Stolen Conch Shell (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/fred3-95.exe', 'freddi3'),
-	'Freddi Fish 3: The Case of the Stolen Conch Shell (French Demo)'
+	'Freddi Fish 3: The Case of the Stolen Conch Shell (Windows French Demo)'
 		=> array('http://quick.mixnmojo.com/demos/mm3-demo-fr.zip', 'freddi3'),
-	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Demo)'
+	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/freddi4_demo/freddi4.exe', 'freddi4'),
-	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (German Demo)'
+	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows German Demo)'
 		=> array('http://quick.mixnmojo.com/demos/ff4demo-de.zip', 'freddi4'),
-	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (UK Demo)'
+	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows UK Demo)'
 		=> array('http://quick.mixnmojo.com/demos/ff4demo-uk.zip', 'freddi4'),
-	'Let\'s Explore the Airport with Buzzy (Demo)'
+	'Let\'s Explore the Airport with Buzzy (Windows Demo)'
 		=> array('http://quick.mixnmojo.com/demos/airdemo.rar', 'airport'),
-	'Let\'s Explore the Farm with Buzzy (Demo)'
+	'Let\'s Explore the Farm with Buzzy (Windows Demo)'
 		=> array('http://quick.mixnmojo.com/demos/farmdemo.rar', 'farm'),
-	'Pajama Sam 1: No Need to Hide When It\'s Dark Outside (Demo)'
+	'Pajama Sam 1: No Need to Hide When It\'s Dark Outside (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/pjs-demo.zip', 'pajama'),
-	'Pajama Sam 1: No Need to Hide When It\'s Dark Outside (French Demo)'
+	'Pajama Sam 1: No Need to Hide When It\'s Dark Outside (Windows French Demo)'
 		=> array('http://quick.mixnmojo.com/demos/samdemo-fr.zip', 'pajama'),
-	'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening (Demo)'
+	'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/PJ2Demo.exe', 'pajama2'),
-	'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening (Dutch Demo)'
+	'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening (Windows Dutch Demo)'
 		=> array('http://quick.mixnmojo.com/demos/pjs2demo-nl.zip', 'pajama2'),
-	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Demo)'
+	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows Demo)'
 		=> array('http://quick.mixnmojo.com/demos/pj3-demo.rar', 'pajama3'),
-	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (German Demo)'
+	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows German Demo)'
 		=> array('http://quick.mixnmojo.com/demos/gpj3demo_de.zip', 'pajama3'),
-	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (UK Demo)'
+	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows UK Demo)'
 		=> array('http://quick.mixnmojo.com/demos/pj3demo-uk.zip', 'pajama3'),
-	'Pajama Sam\'s Lost & Found (Demo)'
+	'Pajama Sam\'s Lost & Found (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/losttest.zip', 'lost'),
-	'Putt-Putt Enters the Race (Demo)'
+	'Putt-Putt Enters the Race (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/puttraceDemo/puttrace.exe', 'puttrace'),
-	'Putt-Putt Enters the Race (Demo - Non interactive)'
+	'Putt-Putt Enters the Race (Windows Demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/puttrace_cup_demo.zip', 'puttrace'),
-	'Putt-Putt Enters the Race (Dutch Demo)'
+	'Putt-Putt Enters the Race (Windows Dutch Demo)'
 		=> array('http://quick.mixnmojo.com/demos/500demo-nl.zip', 'puttrace'),
-	'Putt-Putt Enters the Race (German Demo)'
+	'Putt-Putt Enters the Race (Windows German Demo)'
 		=> array('http://quick.mixnmojo.com/demos/rennen-de.zip', 'puttrace'),
-	'Putt-Putt Enters the Race (UK Demo)'
+	'Putt-Putt Enters the Race (Windows UK Demo)'
 		=> array('http://quick.mixnmojo.com/demos/racedemo-uk.zip', 'puttrace'),
 	'Putt-Putt Goes to the Moon (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/moondemo.zip', 'puttmoon'),
-	'Putt-Putt Joins the Circus (Demo)'
+	'Putt-Putt Joins the Circus (Windows Demo)'
 		=> array('http://quick.mixnmojo.com/demos/circdemo.rar', 'puttcircus'),
 	'Putt-Putt Joins the Parade (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/puttpara.zip', 'puttdemo'),
-	'Putt-Putt Saves the Zoo (Demo)'
+	'Putt-Putt Saves the Zoo (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/puttzoo.zip', 'puttzoo'),
-	'Putt-Putt Saves the Zoo (German Demo)'
+	'Putt-Putt Saves the Zoo (Windows German Demo)'
 		=> array('http://quick.mixnmojo.com/demos/zoodemo_de.zip', 'puttzoo'),
-	'Putt-Putt Travels Through Time (Demo)'
+	'Putt-Putt Travels Through Time (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/putttime.zip', 'putttime'),
-	'Putt-Putt Travels Through Time (French Demo)'
+	'Putt-Putt Travels Through Time (Windows French Demo)'
 		=> array('http://quick.mixnmojo.com/demos/tempdemo-fr.zip', 'putttime'),
-	'SPY Fox 1: Dry Cereal (Demo)'
+	'SPY Fox 1: Dry Cereal (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/FOX95d.EXE', 'spyfox'),
-	'SPY Fox 1: Dry Cereal (Alternative Demo)'
+	'SPY Fox 1: Dry Cereal (Windows Alternative Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/spy95_98.zip', 'spyfox'),
-	'SPY Fox 1: Dry Cereal (Dutch Demo)'
+	'SPY Fox 1: Dry Cereal (Windows Dutch Demo)'
 		=> array('http://quick.mixnmojo.com/demos/spydemo-nl.zip', 'spyfox'),
-	'SPY Fox 1: Dry Cereal (French Demo)'
+	'SPY Fox 1: Dry Cereal (Windows French Demo)'
 		=> array('http://quick.mixnmojo.com/demos/jamesdem-fr.zip', 'spyfox'),
-	'SPY Fox 2: Some Assembly Required (Demo)'
+	'SPY Fox 2: Some Assembly Required (Windows Demo)'
 		=> array('http://quick.mixnmojo.com/demos/sf2-demo.rar', 'spyfox2'),
-	'SPY Fox 2: Some Assembly Required (Demo - Non interactive)'
+	'SPY Fox 2: Some Assembly Required (Windows Demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/spyfox2_cup_demo.zip', 'spyfox2'),
-	'SPY Fox 2: Some Assembly Required (German Demo)'
+	'SPY Fox 2: Some Assembly Required (Windows German Demo)'
 		=> array('http://quick.mixnmojo.com/demos/sf2demo-de.zip', 'spyfox2'),
-	'SPY Fox 2: Some Assembly Required (UK Demo)'
+	'SPY Fox 2: Some Assembly Required (Windows UK Demo)'
 		=> array('http://quick.mixnmojo.com/demos/sf2demo-uk.zip', 'spyfox2'),
-	'SPY Fox 3: Operation Ozone (Demo)'
+	'SPY Fox 3: Operation Ozone (Windows Demo)'
 		=> array('http://quick.mixnmojo.com/demos/sf3-demo.rar', 'spyozon'),
-	'SPY Fox 3: Operation Ozone (Demo - Non interactive)'
+	'SPY Fox 3: Operation Ozone (Windows Demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/spyozon_cup_demo.zip', 'spyozon')
 	);
 
 $MISC_demos = array(
-	'Broken Sword 1: The Shadow of the Templars'
+	'Broken Sword 1: The Shadow of the Templars (Windows Demo)'
 		=> array('http://www.gamershell.com/download_4731.shtml', 'sword1demo'),
-	'Broken Sword 2: The Smoking Mirror'
+	'Broken Sword 2: The Smoking Mirror (Windows Demo)'
 		=> array('http://files.5star-network.com/Games/bs2-demo.zip', 'sword2demo'),
 	'Elvira - Mistress of Darkness (Amiga demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/elvira1_demo_ami.zip', 'elvira1'),
@@ -257,7 +257,7 @@ $MISC_demos = array(
 		=> array('http://www.wyrmkeep.com/ite/download.html', 'ite'),
 	'Operation Stealth (Amiga demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/op_demo_ami.zip', 'os'),
-	'The Legend of Kyrandia (Non-interactive)'
+	'The Legend of Kyrandia (DOS demo - Non-interactive)'
 		=> array('http://quick.mixnmojo.com/demos/kyra1demo.zip', 'kyra1'),
 	'Simon the Sorcerer 1 (Amiga demo)'
 		=> array('http://quick.mixnmojo.com/demos/simon1amigademo.zip', 'simon1'),
@@ -267,9 +267,9 @@ $MISC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/simon1demo_acorn.rar', 'simon1'),
 	'Simon the Sorcerer 2 (DOS CD demo)'
 		=> array('http://quick.mixnmojo.com/demos/simon2demo.zip', 'simon2'),
-	'Touche: The Adventures of the Fifth Musketeer'
+	'Touche: The Adventures of the Fifth Musketeer (DOS Demo)'
 		=> array('http://quick.mixnmojo.com/demos/touche_demo.zip', 'touche'),
-	'Ween: The Prophecy'
+	'Ween: The Prophecy (DOS demo)'
 		=> array('http://minifiles.ag.ru/demos/781/ween_demo.exe', 'gob')
 	);
 
