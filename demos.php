@@ -138,6 +138,8 @@ $HE_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/BluesBirthday_cup_demo.zip', 'BluesBirthday'),
 	'Fatty Bear\'s Birthday Surprise (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/fatdemo.zip', 'fbear'),
+	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Macintosh Demo)'
+		=> array('http://quick.mixnmojo.com/demos/freddi_demo_mac.zip', 'freddi'),
 	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/freddi.zip', 'freddi'),
 	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows French Demo)'
@@ -156,6 +158,10 @@ $HE_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/ff4demo-de.zip', 'freddi4'),
 	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows UK Demo)'
 		=> array('http://quick.mixnmojo.com/demos/ff4demo-uk.zip', 'freddi4'),
+	'Humongous Catalog demo (Windows Demo - Non interactive)'
+		=> array('http://quick.mixnmojo.com/demos/catalog_cup_demo_de.zip', 'catalog'),
+	'Let\'s Explore the Airport with Buzzy (Macintosh Demo)'
+		=> array('http://quick.mixnmojo.com/demos/airport_demo_mac.zip', 'airport'),
 	'Let\'s Explore the Airport with Buzzy (Windows Demo)'
 		=> array('http://quick.mixnmojo.com/demos/airdemo.rar', 'airport'),
 	'Let\'s Explore the Farm with Buzzy (Windows Demo)'
@@ -192,6 +198,8 @@ $HE_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/circdemo.rar', 'puttcircus'),
 	'Putt-Putt Joins the Parade (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/puttpara.zip', 'puttdemo'),
+	'Putt-Putt Saves the Zoo (Macintosh Demo)'
+		=> array('http://quick.mixnmojo.com/demos/puttzoo_demo_mac.zip', 'puttzoo'),
 	'Putt-Putt Saves the Zoo (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/puttzoo.zip', 'puttzoo'),
 	'Putt-Putt Saves the Zoo (Windows German Demo)'
