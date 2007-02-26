@@ -65,6 +65,8 @@ $LEC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/dottdemo-fr.zip', 'tentacle'),
 	'Day of the Tentacle (DOS German demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/dottdemo-de.zip', 'tentacle'),
+	'Day of the Tentacle (Macintosh demo - Non interactive)'
+		=> array('http://quick.mixnmojo.com/demos/dott_demo_mac.zip', 'tentacle'),
 	'Full Throttle (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/ftdemo.zip', 'ft'),
 	'Full Throttle (Macintosh demo)'
@@ -277,6 +279,8 @@ $MISC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/simon2demo.zip', 'simon2'),
 	'Touche: The Adventures of the Fifth Musketeer (DOS Demo)'
 		=> array('http://quick.mixnmojo.com/demos/touche_demo.zip', 'touche'),
+	'Waxworks (DOS demo)'
+		=> array('http://quick.mixnmojo.com/demos/waxworks_demo.zip', 'waxworks'),
 	'Ween: The Prophecy (DOS demo)'
 		=> array('http://minifiles.ag.ru/demos/781/ween_demo.exe', 'gob')
 	);
