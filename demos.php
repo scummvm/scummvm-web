@@ -81,9 +81,9 @@ $LEC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/indyloom.zip', 'zak'),
 	'Indiana Jones and the Last Crusade & Zak McKracken (FM Towns demo - Non interactive)'
 		=>array('http://quick.mixnmojo.com/demos/indyzak.zip', 'zak'),
-	'Loom (16 colour - Short Non interactive)'
+	'Loom (DOS EGA - Short Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/loom_alt_demo.zip', 'loom'),
-	'Loom (16 colour - Long Non interactive)'
+	'Loom (DOS EGA - Long Non interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Loomdemo.zip', 'loom'),
 	'Maniac Mansion (v1 DOS demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/maniac.rar', 'maniac'),
@@ -111,7 +111,7 @@ $LEC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/dig_demo_mac.zip', 'dig'),
 	'The Dig (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/digdemo.zip', 'dig'),
-	'The Secret of Monkey Island (DOS EGA German demo)'	
+	'The Secret of Monkey Island (DOS EGA demo)'	
 		=> array('http://quick.mixnmojo.com/demos/mi_demo2.zip', 'monkey'),
 	'The Secret of Monkey Island (DOS EGA German demo)'	
 		=> array('http://quick.mixnmojo.com/demos/midemo-de.zip', 'monkey'),
