@@ -338,17 +338,16 @@ $notes = array(
 		   "<br>- Amiga, Macintosh and Windows versions supported by this target".
 		   "<br>- Minor graphical glitches",
 "kyra1"		=> "Game is completable.".
-		   "<br>- Requires the KYRA.DAT resource file to be placed in the game directory.".
-		   "<br>- DOS Floppy and CD versions are supported by this target.".
+		   "<br>- Requires the <a href=\"https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory.".
+		   "<br>- DOS and FM-TOWNS versions are supported by this target.".
 		   "<br>- Amiga versions aren't supported.".
-		   "<br>- FM-Towns version isn't supported.".
 		   "<br>".
 		   "<br>- Occasional graphics glitches.".
 		   "<br>- MT-32 music and sfx do not work properly.",
 "fw"		=> "Game is completable".
 		   "<br>- Occasional graphical glitches".
 		   "<br>- DOS, Amiga and Atari versions are supported".
-		   "<br>- Amiga and Atari versions lack sfx and musix",
+		   "<br>- No music or sound effects in the Amiga and Atari ST versions",
 "touche"	=> "Game is completable".
 		   "<br>- Occasional graphical glitches",
 "ween"  	=> "Game is completable".
