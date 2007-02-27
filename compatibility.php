@@ -290,7 +290,7 @@ $notes = array(
 		   "<br>- The Macintosh version isn't supported, due to map data using a custom format",
 
 "sky"	 	=> "No known issues, game is completable.".
-		   "<br>- Requires the <a href=\"SKY.CPT\">SKY.CPT</a> resource file to be placed in the game directory".
+		   "<br>- Requires the <a href=\"https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/sky.cpt\">sky.cpt</a> resource file to be placed in the game directory".
 		   "<br>- Floppy demos aren't supported".
 		   "<br>- Amiga versions aren't supported".
 		   "<br>".
@@ -306,7 +306,7 @@ $notes = array(
 "sword2"	=> "No known issues, game is completable.".
 		   "<br>- PlayStation 1 version isn't supported.",
 "queen"		=> "No known issues, game is completable.".
-		   "<br>- Some versions may require the <a href=\"http://0x.7fc1.org/fotaq/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases.".
+		   "<br>- Some versions may require the <a href=\"https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases.".
 		   "<br>- Amiga versions aren't supported.",
 "gob1"		=> "No known issues. Game is completable.".
 		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
@@ -319,7 +319,8 @@ $notes = array(
 		   "<br>- Amiga versions aren't supported".
 		   "<br>- Occasional graphical glitches",
 "simon1" 	=> "No known issues, game is completable.".
-		   "<br>- Acorn, Amiga, DOS and Windows versions supported by this target",
+		   "<br>- Acorn, Amiga, DOS and Windows versions supported by this target".
+		   "<br>- Various graphical glitches in Amiga verisons",
 "simon2"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, DOS, Macintosh and Windows versions supported by this target".
 		   "<br>- Only the default language (English) in Amiga &amp; Macintosh versions is supported".
