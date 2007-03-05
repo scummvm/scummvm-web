@@ -83,6 +83,10 @@ td.content {
 	font-weight:bold;
 }
 
+.menu li a:first-letter {
+	font-weight:bold;
+}
+
 .menu a {
 	color: #fff;
 	text-decoration: none;

@@ -24,3 +24,11 @@
 	background-position: top right;
 	padding: 0 20px 0 20px;
 }
+
+.par-item .cat-link:first-letter {
+	font-weight:bold;
+}
+
+.par-item .cat-link a:first-letter {
+	font-weight:bold;
+}

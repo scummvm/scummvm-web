@@ -56,7 +56,7 @@ class category {
     foreach($this->_list as $cat) {
       echo "<tr><td class='cat-bullet'><img src='$file_root/images/".$cat['filename'].
       	"' alt=\"\"></td><td class='cat-link'><a href=\"?cat1=".$this->_catnum."&amp;cat2=".$cat['catnum']."&amp;view=-1\">".
-      	"<b>{$cat['description'][0]}</b>".substr($cat['description'], 1).
+      	$cat['description'].
       	"</a> <font class='cat-count'>(".$scrcatnums[$this->_catnum][$cat['catnum']]." shots)</font></td></tr>\n";
     }
     echo "</table>\n";
