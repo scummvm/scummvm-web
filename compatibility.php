@@ -124,6 +124,7 @@ $gamesHE = array(
 
 $gamesOther = array(
 
+	'Bargon Attack'                                         => array('bargon','90'),
 	'Beneath a Steel Sky'                                   => array('sky','98'),
 	'Broken Sword 1: The Shadow of the Templars'            => array('sword1','98'),
 	'Broken Sword 2: The Smoking Mirror'                    => array('sword2','98'),
@@ -141,7 +142,7 @@ $gamesOther = array(
 	'The Feeble Files'                                      => array('feeble','90'),
 	'The Legend of Kyrandia'                                => array('kyra1', '80'),
 	'Touche: The Adventures of the Fifth Musketeer'         => array('touche','75'),
-	'Ween: The Prophecy'                                    => array('ween','90'),
+	'Ween: The Prophecy'                                    => array('ween','95'),
 	);
 
 $notes = array(
@@ -351,6 +352,9 @@ $notes = array(
 "touche"	=> "Game is completable".
 		   "<br>- Occasional graphical glitches",
 "ween"  	=> "Game is completable".
+		   "<br>- Amiga, Atari and DOS versions are supported by this target".
+		   "<br>- Issues with the mouse cursor visibility",
+"bargon"  	=> "Game is completable".
 		   "<br>- Amiga, Atari and DOS versions are supported by this target".
 		   "<br>- Issues with the mouse cursor visibility"
 );
