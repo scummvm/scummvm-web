@@ -218,9 +218,6 @@ function addLinkEntry($name, $url, $desc) {
 		<?php
 			addLinkEntry('The inCompleat SCUMM Reference Guide', 'http://www.cowlark.com/scumm/',
 				'Information on the file format used by SCUMM five and six.');
-			addLinkEntry('SCUMM Revisited', 'http://scummrev.mixnmojo.com/',
-				'Windows viewer for SCUMM data files. The site also has information on
-				the file formats used by the various SCUMM versions.');
 			addLinkEntry('LucasHacks', 'http://scumm.mixnmojo.com/',
 				'Contains lots of information about all SCUMM games, links to demos and
 				utilities, some documents on SCUMM internals and other useful things.');
