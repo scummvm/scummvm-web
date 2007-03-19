@@ -1,5 +1,5 @@
-<NAME>Data File MD5 Checksums</NAME>
-<DESC>This page lists MD5 checksums for various 'canonical' data files, which can be used to identify game versions/variants.</DESC>
+<NAME>SCUMM Data File MD5 Checksums</NAME>
+<DESC>This page lists MD5 checksums for various 'canonical' data files of SCUMM games, which can be used to identify game versions/variants.</DESC>
 <BODY>
 <?php
 function beginSection($title, $gameid) {
@@ -32,6 +32,9 @@ function addEntry($description, $platform, $language, $md5, $source = "") {
 	<p>If you have data files not listed here, or if the MD5 of your data files
 	differs from the values listed here, please drop us a note so we can update
 	the table. Email us at <em>scummvm-devel AT lists DOT sourceforge DOT net</em>.</p>
+
+	<p>Note: If a game appears here, this does <b>not</b> imply that it is officially supported by ScummVM or even playable. If you want to find out whether a game is supported, please consult the <a href="<?=$file_root?>/compatibility.php">compatibility page</a>.
+</p>
 <br>
 </div>
 
