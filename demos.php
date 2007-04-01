@@ -265,6 +265,8 @@ $MISC_demos = array(
 		=> array('http://minifiles.ag.ru/demos/449/gobliins2_demo.exe', 'gob'),
 	'Inherit the Earth: Quest for the Orb demos'
 		=> array('http://www.wyrmkeep.com/ite/download.html', 'ite'),
+	'Nippon Safes (Amiga demo)'
+		=> array('http://quick.mixnmojo.com/demos/nippon_demo_ami.zip', 'nippon'),
 	'Operation Stealth (Amiga demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/op_demo_ami.zip', 'os'),
 	'The Legend of Kyrandia (DOS demo - Non-interactive)'
