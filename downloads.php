@@ -41,7 +41,7 @@ html_content_begin('Download ScummVM');
   html_nav_item("#stable", "0.9.1 Release binaries");
   html_nav_item("#source", "0.9.1 Source Code");
   html_nav_item("#tools", "0.9.0 Tools");
-  html_nav_item("#older", "Older versions");
+  html_nav_item("#older", "Older versions (unsupported)");
   html_nav_item("#extras", "Extras, game downloads");
   html_nav_item("#SVN", "Subversion Builds");
   html_nav_item("#libs", "Libraries");
@@ -52,8 +52,8 @@ html_content_begin('Download ScummVM');
 
 </td>
 <td>
-	  Downloads are hosted with SourceForge.net. If you have one of the supported systems, you can directly download
-	  the appropriate binary distribution. If you have another system, download the source and read the
+	  Downloads are mostly hosted with SourceForge.net. If you have one of the supported systems, you can directly
+	  download the appropriate binary distribution. If you have another system, download the source and read the
 	  <a href="http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/tags/release-0-9-1/README">README</a>
 	  file for directions on how to build ScummVM.
 	  If you have successfully ported ScummVM to a platform not listed, please drop us a note, telling which OS, etc.
@@ -221,7 +221,7 @@ html_content_begin('Download ScummVM');
 	<a name="extras"></a>
   <div class="par-item">
     <div class="par-head">
-       Extras
+       Extras, game downloads
     </div>
 
     <div class="par-content">
@@ -230,32 +230,36 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt=""></td><td class='cat-link'><a href="https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/sky.cpt">Beneath a Steel Sky, SKY.CPT - required to run the game with a post-0.7.* ScummVM</a> <font class='cat-count'>(416k)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/bass-cd-1.2.zip?download">Beneath a Steel Sky, Freeware CD Version</a> <font class='cat-count'>(67M)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt=""></td><td class='cat-link'><a href="http://www.mixnmojo.com/bss/BASS-Floppy.zip">Beneath a Steel Sky, Freeware Floppy Version</a> <font class='cat-count'>(7.3M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ_Talkie.zip?download">Flight of the Amazon Queen, Freeware CD Version (small - has mp3 compressed sfx/speech)</a> <font class='cat-count'>(34.8M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt=""></td><td class='cat-link'><a href="ftp://ftp.suse.com/pub/suse/i386/supplementary/X/FOTAQ/">Flight of the Amazon Queen, Freeware CD Version (small - has ogg compressed sfx/speech)</a> <font class='cat-count'>(35.6M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt=""></td><td class='cat-link'><a href="http://www.lysator.liu.se/~zino/scummvm/queen/">Flight of the Amazon Queen, Freeware CD Version (large - unmodified original)</a> <font class='cat-count'>(87M) download this version if your ScummVM doesn't have mp3 support</font></td></tr>
+
+	  <tr><td></td><td>&nbsp;</td></tr>
+
+	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ_Talkie.zip?download">Flight of the Amazon Queen, Freeware CD Version (mp3 compressed sfx/speech)</a> <font class='cat-count'>(34.8M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt=""></td><td class='cat-link'><a href="http://mikemth.de:1337/modules.php?name=Downloads&amp;d_op=getit&amp;lid=826">Flight of the Amazon Queen, Freeware CD Version (mp3 compressed sfx/speech)</a> - <a href="http://www.mthN.de">hosted by Snoke Media and Tech Hosting Network</a> <font class='cat-count'>(34.8M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt=""></td><td class='cat-link'><a href="ftp://ftp.suse.com/pub/suse/i386/supplementary/X/FOTAQ/">Flight of the Amazon Queen, Freeware CD Version (ogg compressed sfx/speech)</a> <font class='cat-count'>(35.6M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt=""></td><td class='cat-link'><a href="http://www.lysator.liu.se/~zino/scummvm/queen/">Flight of the Amazon Queen, Freeware CD Version (unmodified original)</a> <font class='cat-count'>(87M) download this version if your ScummVM doesn't have mp3 support</font></td></tr>
 <!-- ' Relax XEmacs syntax highlighting -->
 	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ_Floppy.zip?download">Flight of the Amazon Queen, Freeware Floppy Version</a> <font class='cat-count'>(6.7M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt=""></td><td class='cat-link'><a href="http://mikemth.de:1337/modules.php?name=Downloads&amp;d_op=getit&amp;lid=827">Flight of the Amazon Queen, Freeware Floppy Version</a> - <a href="http://www.mthN.de">hosted by Snoke Media and Tech Hosting Network</a> <font class='cat-count'>(6.7M)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt=""></td><td class='cat-link'><a href="http://0x.7fc1.org/fotaq/queen.tbl">Flight of the Amazon Queen, queen.tbl - required to run original versions of FOTAQ</a> <font class='cat-count'>(1.1M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-bs1.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes.zip?download">Broken Sword 1 Cutscene Pack (ENGLISH)</a> <font class='cat-count'>(31.2M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-bs1.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_FRE_AddOn.zip?download">Broken Sword 1 Cutscene Pack (French AddOn)</a> <font class='cat-count'>(1.6M) Override files in English Pack with this archive contents</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-bs1.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_GER_AddOn.zip?download">Broken Sword 1 Cutscene Pack (German AddOn)</a> <font class='cat-count'>(1.8M) Override files in English Pack with this archive contents</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-bs1.png' alt=""></td><td class='cat-link'><a href="http://www.unet.univie.ac.at/~a0200586/binary/mirrors/scummvm/Sword1_Cutscenes_GER_Complete.zip">Broken Sword 1 Cutscene Pack (German)</a> <font class='cat-count'>(32M) This is alternative offsite package with both German videos and audio</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-bs1.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ITA_AddOn.zip?download">Broken Sword 1 Cutscene Pack (Italian AddOn)</a> <font class='cat-count'>(2.5M) Override files in English Pack with this archive contents</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-bs1.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ESP_AddOn.zip?download">Broken Sword 1 Cutscene Pack (Spanish AddOn)</a> <font class='cat-count'>(2.2M) Override files in English Pack with this archive contents</font></td></tr>
+
+	  <tr><td></td><td>&nbsp;</td></tr>
+
+	  <tr><td class='cat-bullet'><img src='images/cat-bs1.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes.zip?download">Broken Sword 1 Cutscene Pack (English)</a> <font class='cat-count'>(31.2M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-bs1.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_FRE_AddOn.zip?download">Broken Sword 1 Cutscene Pack (French AddOn)</a> <font class='cat-count'>(1.6M) Overwrite files in English Pack with files from this archive</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-bs1.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_GER_AddOn.zip?download">Broken Sword 1 Cutscene Pack (German AddOn)</a> <font class='cat-count'>(1.8M) Overwrite files in English Pack with files from this archive</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-bs1.png' alt=""></td><td class='cat-link'><a href="http://www.unet.univie.ac.at/~a0200586/binary/mirrors/scummvm/Sword1_Cutscenes_GER_Complete.zip">Broken Sword 1 Cutscene Pack (German)</a> <font class='cat-count'>(32M) This is an alternative offsite package with both German videos and audio</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-bs1.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ITA_AddOn.zip?download">Broken Sword 1 Cutscene Pack (Italian AddOn)</a> <font class='cat-count'>(2.5M) Overwrite files in English Pack with files from this archive</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-bs1.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ESP_AddOn.zip?download">Broken Sword 1 Cutscene Pack (Spanish AddOn)</a> <font class='cat-count'>(2.2M) Overwrite files in English Pack with files from this archive</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-bs1.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Demo_Cutscenes.zip?download">Broken Sword 1 Demo Cutscene Pack</a> <font class='cat-count'>(19M) - Requires ScummVM 0.10.0svn</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-bs2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_Cutscenes.zip?download">Broken Sword 2 Cutscene Pack (ALL LANGUAGES)</a> <font class='cat-count'>(27.8M)</font></td></tr>
+
+	  <tr><td></td><td>&nbsp;</td></tr>
+
+	  <tr><td class='cat-bullet'><img src='images/cat-bs2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_Cutscenes.zip?download">Broken Sword 2 Cutscene Pack (all languages)</a> <font class='cat-count'>(27.8M)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-bs2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_Demo_Cutscenes.zip?download">Broken Sword 2 Demo Cutscene Pack</a> <font class='cat-count'>(767KB) - Requires ScummVM 0.10.0svn</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-kyra.png' alt=""></td><td class='cat-link'><a href="https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/kyra.dat">The Legend of Kyrandia, KYRA.DAT - required to run all versions of the game</a> <font class='cat-count'>(60k)</font></td></tr>
-	</table>
-	<p>
-	<i>Having trouble downloading Flight of the Amazon Queen?</i>
-	Sourceforge has been experiencing some downloading problems with certain mirrors
-lately. So, if you are having problems, try the following non-SourceForge mirror - kindly
-hosted by <a href="http://www.mthN.de">Snoke Media and Tech Hosting Network</a>!
-	</p>
-	<table>
-	 <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt=""></td><td class='cat-link'><a href="http://mikemth.de:1337/modules.php?name=Downloads&amp;d_op=getit&amp;lid=826">Flight of the Amazon Queen, Freeware CD Version</a> <font class='cat-count'>(34.8M)</font></td></tr>
-	 <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt=""></td><td class='cat-link'><a href="http://mikemth.de:1337/modules.php?name=Downloads&amp;d_op=getit&amp;lid=827">Flight of the Amazon Queen, Freeware Floppy Version</a> <font class='cat-count'>(6.7M)</font></td></tr>
+
+	  <tr><td></td><td>&nbsp;</td></tr>
+
+	  <tr><td class='cat-bullet'><img src='images/cat-kyra.png' alt=""></td><td class='cat-link'><a href="https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/kyra.dat">The Legend of Kyrandia, KYRA.DAT - required to run all versions of the game</a> <font class='cat-count'>(177k)</font></td></tr>
 	</table>
 
      </div>
@@ -288,17 +292,11 @@ hosted by <a href="http://www.mthN.de">Snoke Media and Tech Hosting Network</a>!
 	</p>
 
 	<table>
-<!--
-	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt=""></td><td class='cat-link'><a href="/downloads/scummvm-daily.tar.bz2">Source Code Daily Snapshot Bzipped</a> <font class='cat-count'> (<? echo intval(filesize("downloads/scummvm-daily.tar.bz2")/1024) ?>K file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummvm-daily.tar.bz2")); ?>)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt=""></td><td class='cat-link'><a href="/downloads/scummvm-daily.tar.gz">Source Code Daily Snapshot Gzipped</a> <font class='cat-count'> (<? echo intval(filesize("downloads/scummvm-daily.tar.gz")/1024) ?>K file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummvm-daily.tar.gz")); ?>)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt=""></td><td class='cat-link'><a href="/downloads/scummvm-daily.zip">Source Code Daily Snapshot Zipped</a> <font class='cat-count'> (<? echo intval(filesize("downloads/scummvm-daily.zip")/1024) ?>K file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummvm-daily.zip")); ?>)</font></td></tr>
--->
 	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt=""></td><td class='cat-link'><a href="http://scummvm.sourceforge.net/downloads/scummvmwin32.exe">Win32 Daily Snapshot</a> <font class='cat-count'> (<? echo intval(filesize("downloads/scummvmwin32.exe")/1024) ?>K exe file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummvmwin32.exe")); ?>)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-macos.png' alt=""></td><td class='cat-link'><a href="http://worldsmainorganization.org/scummvm/">Mac OS X Snapshots</a> <font class='cat-count'> (infrequently from Subversion trunk)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-gp2x.png' alt=""></td><td class='cat-link'><a href="http://www.distant-earth.com/scummvm/">GP2X Builds</a> <font class='cat-count'> (infrequent builds from Subversion trunk)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt=""></td><td class='cat-link'><a href="http://arisme.free.fr/PocketScumm/daily/">PocketPC Builds</a> <font class='cat-count'> (infrequent snapshots of the PocketPC binaries)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-opie.png' alt=""></td><td class='cat-link'><a href="/downloads/scummvm_opie_svn_arm.ipk">Opie SDL package<b> Only </b>for iPAQ h1910/h1915 and MyPal 716</a> - compiled against latest custom <a href="http://handhelds.org/~aquadran/distro/latest"><b>Familiar Opie distribution image</b></a> <font class='cat-count'> (infrequently from Subversion trunk, <? echo intval(filesize("downloads/scummvm_opie_svn_arm.ipk")/1024) ?>K ipk file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummvm_opie_svn_arm.ipk")); ?>)</font></td></tr>
-<!--  <tr><td class='cat-bullet'><img src='images/catpl-dc.png' alt=""></td><td class='cat-link'><a href="http://paras.rasmatazz.bei.t-online.de/">Dreamcast Daily Builds</a></td></tr> -->
 	<tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt=""></td><td class='cat-link'><a href="http://anotherguest.k0.se/cvsbuilds/">SymbianOS Subversion Builds</a></td></tr>
 	<tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt=""></td><td class='cat-link'><a href="http://sourceforge.net/svn/?group_id=37116">Subversion Instructions</a> <font class='cat-count'> (for if you wish to retrieve the latest code to compile yourself)</font></td></tr>
 	</table>
