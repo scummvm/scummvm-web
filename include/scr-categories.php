@@ -90,6 +90,7 @@ $cat->add(2, "cat-ite.png", "Inherit the Earth: Quest for the Orb");
 $cat->add(4, "cat-simon1.png", "Simon the Sorcerer series");
 $cat->add(7, "cat-feeble.png", "The Feeble Files");
 $cat->add(6, "cat-kyra.png", "The Legend of Kyrandia series");
+$cat->add(10, "cat-touche.png", "Touch&eacute;: The Adventures of the Fifth Musketeer");
 $cat->add(9, "cat-ween.png", "Ween: The Prophecy");
 
 // HE games
