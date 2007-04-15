@@ -302,7 +302,6 @@ $notes = array(
 		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
 "sword1"	=> "No known issues, game is completable.".
 		   "<br>- DOS and Macintosh versions are supported by this target".
-		   "<br>- No music in Macintosh version.".
 		   "<br>- PlayStation 1 version isn't supported.",
 "sword2"	=> "No known issues, game is completable.".
 		   "<br>- PlayStation 1 version isn't supported.",
