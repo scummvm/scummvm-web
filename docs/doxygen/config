@@ -423,7 +423,8 @@ WARN_LOGFILE           =
 # directories like "/usr/src/myproject". Separate the files or directories 
 # with spaces.
 
-INPUT                  = /tmp/persistent/scummvm/scummvm/backends/fs \
+INPUT                  = /tmp/persistent/scummvm/scummvm/backends/events \
+                         /tmp/persistent/scummvm/scummvm/backends/fs \
                          /tmp/persistent/scummvm/scummvm/backends/midi \
                          /tmp/persistent/scummvm/scummvm/backends/plugins \
                          /tmp/persistent/scummvm/scummvm/backends/saves \
@@ -979,6 +980,8 @@ PREDEFINED             = USE_FLAC \
                          USE_VORBIS \
                          USE_ZLIB \
                          USE_MPEG2 \
+                         USE_ALSA \
+                         USE_FLUIDSYNTH \
                          USE_MT32EMU \
                          UNIX
 
