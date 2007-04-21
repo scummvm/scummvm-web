@@ -124,7 +124,7 @@ $gamesHE = array(
 
 $gamesOther = array(
 
-	'Bargon Attack'                                         => array('bargon','90'),
+	'Bargon Attack'                                         => array('bargon','95'),
 	'Beneath a Steel Sky'                                   => array('sky','98'),
 	'Broken Sword 1: The Shadow of the Templars'            => array('sword1','98'),
 	'Broken Sword 2: The Smoking Mirror'                    => array('sword2','98'),
@@ -132,6 +132,7 @@ $gamesOther = array(
 	'Future Wars'                                           => array('fw','80'),
 	'Gobliiins'                                             => array('gob1', '95'),
 	'Gobliins 2'                                            => array('gob2', '95'),
+	'Goblins 3'                                             => array('gob3', '90'),
 	'Inherit the Earth: Quest for the Orb'                  => array('ite', '87'),
 	'Simon the Sorcerer 1'                                  => array('simon1','93'),
 	'Simon the Sorcerer 2'                                  => array('simon2','95'),
@@ -314,6 +315,10 @@ $notes = array(
 "gob2"		=> "Game is completable".
 		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
 		   "<br>- A few wrong instruments during music playback",
+"gob3"		=> "Game is completable".
+		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
+		   "<br>- Issues with the mouse cursor visibility".
+		   "<br>- The number of used jokers isn't saved correctly. You'll always have 5 to spend again after loading",
 "ite"		=> "Game is completable.".
 		   "<br>- DOS, Linux, Macintosh, MacOS X and Windows versions are supported by this target".
 		   "<br>- Amiga versions aren't supported".
