@@ -32,6 +32,7 @@
 <span style='font-weight: bold'>AGI:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Stuart George</td><td style='width:10em; text-align: left;' class='news-author'>darkfiber</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Filippos Karapetis</td><td style='width:10em; text-align: left;' class='news-author'>[md5]</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Pawe&#322; Ko&#322;odziejski</td><td style='width:10em; text-align: left;' class='news-author'>aquadran</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td></td>
 <tr><td style='width:13em; padding:2px;'>David Symonds</td><td style='width:10em; text-align: left;' class='news-author'>dsymonds</td><td></td>
