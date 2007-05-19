@@ -261,7 +261,9 @@ html_content_begin('Download ScummVM');
 
 	  <tr><td></td><td>&nbsp;</td></tr>
 
-	  <tr><td class='cat-bullet'><img src='images/cat-kyra.png' alt=""></td><td class='cat-link'><a href="https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/kyra.dat">The Legend of Kyrandia, KYRA.DAT - required to run all versions of the game</a> <font class='cat-count'>(177k)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-kyra.png' alt=""></td><td class='cat-link'><a href="http://svn.sourceforge.net/viewvc/*checkout*/scummvm/engine-data/trunk/kyra.dat?revision=22700">The Legend of Kyrandia, KYRA.DAT - required for all versions of the game</a> <font class='cat-count'>(177k)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-kyra.png' 
+alt=""></td><td class='cat-link'><a href="https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/kyra.dat">The Legend of Kyrandia, KYRA.DAT - required for all versions of the game</a> <font class='cat-count'>(177k) - Requires ScummVM 0.10.0svn</font></td></tr>
 	</table>
 
      </div>
