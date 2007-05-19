@@ -85,7 +85,7 @@ html_content_begin('Download ScummVM');
 
 	<p>For a list of changes since the previous version, <a href="http://sourceforge.net/project/shownotes.php?release_id=457706">read the release notes</a>.
 	<BR>
-	0.9.1 should be directly apt-get'able from Debian unstable (sid).
+	0.9.1 should be directly apt-get'able from Debian stable (etch) and Debian unstable (sid).
 	</p>
 
 <!-- ' Relax XEmacs syntax highlighting -->
@@ -97,7 +97,8 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-1_FC5.i386.rpm?download">Fedora Core 5 and 6 package</a> <font class='cat-count'>(1.8M RPM)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-1_FC2.i386.rpm?download">Fedora Core 2 package</a> <font class='cat-count'>(1.6M RPM)</font></td></tr>
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-debian.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.9.1-0.sarge.1_i386.deb?download">Debian Stable (sarge) package</a> <font class='cat-count'>(1.6M .deb)</font></td></tr>
+	
+	  <tr><td class='cat-bullet'><img src='images/catpl-debian.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.9.1-0.sarge.1_i386.deb?download">Debian oldstable (sarge) package</a> <font class='cat-count'>(1.6M .deb)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-slackware.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1_slack-i486-2.tgz?download">SlackWare package</a> <font class='cat-count'>(1.7M .tgz)</font></td></tr>
 
