@@ -88,6 +88,10 @@
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Paul Gilbert</td><td style='width:10em; text-align: left;' class='news-author'>dreammaster</td><td></td>
 </table>
+<span style='font-weight: bold'>Parallaction:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>???</td><td style='width:10em; text-align: left;' class='news-author'>peres</td><td></td>
+</table>
 <span style='font-weight: bold'>SAGA:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Torbj&ouml;rn Andersson</td><td style='width:10em; text-align: left;' class='news-author'>eriktorbjorn</td><td></td>
