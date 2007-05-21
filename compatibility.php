@@ -134,6 +134,7 @@ $gamesOther = array(
 	'Gobliins 2'                                            => array('gob2', '95'),
 	'Goblins 3'                                             => array('gob3', '90'),
 	'Inherit the Earth: Quest for the Orb'                  => array('ite', '87'),
+	'Nippon Safes Inc.' 			                => array('nippon', '70'),
 	'Simon the Sorcerer 1'                                  => array('simon1','93'),
 	'Simon the Sorcerer 2'                                  => array('simon2','95'),
 	'Simon the Sorcerer\'s Puzzle Pack - D.I.M.P.'          => array('dimp','70'),
@@ -360,7 +361,10 @@ $notes = array(
 		   "<br>- Issues with the mouse cursor visibility",
 "bargon"  	=> "Game is completable".
 		   "<br>- Amiga, Atari and DOS versions are supported by this target".
-		   "<br>- Issues with the mouse cursor visibility"
+		   "<br>- Issues with the mouse cursor visibility",
+"nippon"  	=> "Game is completable".
+		   "<br>- Only DOS version is supported by this target".
+		   "<br>- Occasional minor graphical glitches"
 );
 		
 // render the compatibility chart
