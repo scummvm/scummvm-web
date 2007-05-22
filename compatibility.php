@@ -147,6 +147,24 @@ $gamesOther = array(
 	'Ween: The Prophecy'                                    => array('ween','95'),
 	);
 
+$gamesAGI = array(
+
+	'The Black Cauldron'                                         => array('bc','90'),
+	'Gold Rush!'                                                 => array('goldrush','90'),
+	'King\'s Quest I'                                            => array('kq1','90'),
+	'King\'s Quest II'                                           => array('kq2','90'),
+	'King\'s Quest III'                                          => array('kq3','90'),
+	'King\'s Quest IV'                                           => array('kq4','90'),
+	'Leisure Suit Larry in the Land of the Lounge Lizards'       => array('lsl1','90'),
+	'Mixed-Up Mother Goose'                                      => array('mixedup', '90'),
+	'Manhunter 1: New York'                                      => array('mh1', '90'),
+	'Manhunter 2: San Francisco'                                 => array('mh2', '90'),
+	'Police Quest I: In Pursuit of the Death Angel'              => array('pq1', '90'),
+	'Space Quest I: The Sarien Encounter' 			     => array('sq1', '90'),
+	'Space Quest II: Vohaul\'s Revenge'                          => array('sq2', '90'),
+	'Fanmade Games' 		                             => array('agi-fanmade', '80'),
+	);
+
 $notes = array(
 "maniac"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, Atari ST, Commodore 64, Macintosh, NES and PC versions supported by this target".
@@ -364,7 +382,49 @@ $notes = array(
 		   "<br>- Issues with the mouse cursor visibility",
 "nippon"  	=> "Game is completable".
 		   "<br>- Only DOS version is supported by this target".
-		   "<br>- Occasional minor graphical glitches"
+		   "<br>- Occasional minor graphical glitches",
+"bc"		=> "Game is completable".
+		   "<br>- DOS, Amiga, Atari ST, Apple IIgs versions are supported by this target".
+		   "<br>- Apple IIgs version has no sound",
+"goldrush"	=> "Game is completable".
+		   "<br>- DOS, Amiga, Atari ST, Apple IIgs versions are supported by this target".
+		   "<br>- Apple IIgs version has no sound",
+"kq1"		=> "Game is completable".
+		   "<br>- DOS, Mac, Amiga, Atari ST, Apple IIgs versions are supported by this target".
+		   "<br>- Apple IIgs version has no sound",
+"kq2"		=> "Game is completable".
+		   "<br>- DOS, Mac, Amiga, Atari ST, Apple IIgs versions are supported by this target".
+		   "<br>- Apple IIgs version has no sound",
+"kq3"		=> "Game is completable".
+		   "<br>- DOS, Mac, Amiga, Atari ST, Apple IIgs versions are supported by this target".
+		   "<br>- Apple IIgs version has no sound",
+"kq4"		=> "Game is completable".
+		   "<br>- DOS, Apple IIgs versions are supported by this target".
+		   "<br>- Apple IIgs version has no sound",
+"lsl1"		=> "Game is completable".
+		   "<br>- DOS, Mac, Amiga, Atari ST, Apple IIgs versions are supported by this target".
+		   "<br>- Apple IIgs version has no sound",
+"mixedup"	=> "Game is completable".
+		   "<br>- DOS, Amiga, Apple IIgs versions are supported by this target".
+		   "<br>- Apple IIgs version has no sound",
+"mh1"		=> "Game is completable".
+		   "<br>- DOS, Amiga, Atari ST, Apple IIgs versions are supported by this target".
+		   "<br>- Apple IIgs version has no sound",
+"mh2"		=> "Game is completable".
+		   "<br>- DOS, Amiga, Atari ST versions are supported by this target",
+"pq1"		=> "Game is completable".
+		   "<br>- DOS, Mac, Amiga, Apple IIgs versions are supported by this target".
+		   "<br>- Apple IIgs version has no sound",
+"sq1"		=> "Game is completable".
+		   "<br>- DOS, Mac, Amiga, Atari ST, Apple IIgs versions are supported by this target".
+		   "<br>- Apple IIgs version has no sound",
+"sq2"		=> "Game is completable".
+		   "<br>- DOS, Mac, Amiga, Apple IIgs versions are supported by this target".
+		   "<br>- Apple IIgs version has no sound",
+"agi-fanmade"   => "Most games are completable".
+		   "<br>- AGIMOUSE and AGIPAL hacks are also supported by this target".
+		   "<br>- Occasional graphics glitches".
+		   "<br>- AGI256 and AGI256-2 hacks aren't supported"
 );
 		
 // render the compatibility chart
@@ -380,7 +440,7 @@ if ($details) {
 	
 			  );
 
-	$arrayt = array_merge($gamesLucas, $gamesHE, $gamesOther);
+	$arrayt = array_merge($gamesLucas, $gamesHE, $gamesOther, $gamesAGI);
 	while (list($name,$array) = each($arrayt))
 	{	
 
@@ -425,6 +485,11 @@ if ($details) {
 	}
 	
 	displayGameList("LucasArts", $gamesLucas);
+
+	echo html_frame_end("&nbsp;");
+	echo html_p();
+
+	displayGameList("Sierra AGI", $gamesAGI);
 
 	echo html_frame_end("&nbsp;");
 	echo html_p();
