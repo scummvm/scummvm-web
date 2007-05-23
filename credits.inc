@@ -57,17 +57,17 @@
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Torbj&ouml;rn Andersson</td><td style='width:10em; text-align: left;' class='news-author'>eriktorbjorn</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Jonathan Gray</td><td style='width:10em; text-align: left;' class='news-author'>khalek</td><td></td>
-<tr><td style='width:13em; padding:2px;'>Vincent Hamm</td><td style='width:10em; text-align: left;' class='news-author'>yazoo</td><td>original CinE engine author</td>
 </table>
 <span style='font-weight: bold'>Cinematique evo 1:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
-<tr><td style='width:13em; padding:2px;'>Vincent Hamm</td><td style='width:10em; text-align: left;' class='news-author'>yazoo</td><td></td>
-</table>
-<span style='font-weight: bold'>Cinematique evo 2:</span>
-<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Vincent Hamm</td><td style='width:10em; text-align: left;' class='news-author'>yazoo</td><td>original CinE engine author</td>
 <tr><td style='width:13em; padding:2px;'>Pawe&#322; Ko&#322;odziejski</td><td style='width:10em; text-align: left;' class='news-author'>aquadran</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Gregory Montoir</td><td style='width:10em; text-align: left;' class='news-author'>cyx</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td></td>
+</table>
+<span style='font-weight: bold'>Cinematique evo 2:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Vincent Hamm</td><td style='width:10em; text-align: left;' class='news-author'>yazoo</td><td></td>
 </table>
 <span style='font-weight: bold'>FOTAQ:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
