@@ -80,7 +80,7 @@ $cat->add(10, "cat-dig.png", "The Dig");
 $cat->add(11, "cat-comi.png", "The Curse of Monkey Island");
 
 // AGI games
-$cat = & new category(3, "AGI games");
+$cat = & new category(3, "Sierra AGI games");
 $cat->add(1, "cat-bc.png", "The Black Cauldron");
 $cat->add(2, "cat-gr.png", "Gold Rush");
 $cat->add(3, "cat-kq.png", "King's Quest series");
