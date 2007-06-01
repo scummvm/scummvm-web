@@ -81,19 +81,19 @@ $cat->add(11, "cat-comi.png", "The Curse of Monkey Island");
 
 // AGI games
 $cat = & new category(3, "AGI games");
-$cat->add(1, "bullet-section.gif", "The Black Cauldron");
-$cat->add(2, "bullet-section.gif", "Gold Rush");
-$cat->add(3, "bullet-section.gif", "King's Quest series");
-$cat->add(4, "bullet-section.gif", "Leisure Suit Larry");
-$cat->add(5, "bullet-section.gif", "Manhunter series");
-$cat->add(6, "bullet-section.gif", "Mixed-Up Mother Goose");
-$cat->add(7, "bullet-section.gif", "Police Quest");
-$cat->add(8, "bullet-section.gif", "Space Quest series");
-$cat->add(9, "bullet-section.gif", "Fanmade games");
+$cat->add(1, "cat-bc.png", "The Black Cauldron");
+$cat->add(2, "cat-gr.png", "Gold Rush");
+$cat->add(3, "cat-kq.png", "King's Quest series");
+$cat->add(4, "cat-lsl.png", "Leisure Suit Larry");
+$cat->add(5, "cat-mh.png", "Manhunter series");
+$cat->add(6, "cat-mumg.png", "Mixed-Up Mother Goose");
+$cat->add(7, "cat-pq.png", "Police Quest");
+$cat->add(8, "cat-sq.png", "Space Quest series");
+$cat->add(9, "cat-fan.png", "Fanmade games");
 
 // Other games
 $cat = & new category(2, "Other games");
-$cat->add(11, "bullet-section.gif", "Bargon Attack");
+$cat->add(11, "cat-bargon.png", "Bargon Attack");
 $cat->add(5, "cat-sky.png", "Beneath a Steel Sky");
 $cat->add(0, "cat-bs1.png", "Broken Sword series");
 $cat->add(3, "cat-queen.png", "Flight of the Amazon Queen");
