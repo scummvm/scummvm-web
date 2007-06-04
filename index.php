@@ -34,76 +34,20 @@ echo '<script src="'.$file_root.'/screenshots.js" type="text/javascript"></scrip
 <script type="text/javascript">
 
 <?php
-  echo "scr_cats = [\n";
+  echo "screenshotIds = [\n";
+  echo '"' . join('", "', $screenshots) . '"' . "\n";
+  echo "];\n";
 
-  foreach ($categories as $i) {
-    echo "// {$i->_name}\n";
-    echo "  ";
-    foreach ($i->_list as $j)
-      echo $scrcatnums[$i->_catnum][$j['catnum']]  . ", ";
-    echo "0,\n";
-  }
-
-  echo "-1];\n";
-
-  echo "var i_jn = $randImg;\n";
-
-  echo "scr_cats0 = [";
-  foreach ($categories as $i) {
-    echo '"'.$i->_catnum.'", ';
-  }
-  echo '""];'."\n";
-
-  echo "scr_cats1 = new Array();\n";
-
-  $c = 0;
-  foreach ($categories as $i) {
-    echo "scr_cats1[$c] = [";
-    foreach ($i->_list as $j)
-      echo '"'.$j['catnum']  . '", ';
-    echo '"-1"];'."\n";
-    $c++;
-  }
+  echo "var curScreenshotId = $randImg;\n";
 
 ?>
 
-function getScr(n) {
-  cat0 = 0;
-  cat1 = 0;
-  cat2 = 0;
-  curnum = 0;
-  idx = 0;
+function scrshot_jn(n) {
+  curScreenshotId += n;
+  if (curScreenshotId >= screenshotIds.length) curScreenshotId = 0;
+  if (curScreenshotId < 0) curScreenshotId = screenshotIds.length-1;
 
-  while (curnum < n) {
-    if (scr_cats[idx] == 0) {
-      idx++;
-    }
-
-    if (curnum + scr_cats[idx] <= n) {
-      curnum += scr_cats[idx];
-      cat1++;
-      idx++;
-    } else {
-      cat2 = n - curnum;
-      curnum = n;
-    }
-    if (scr_cats1[cat0][cat1] == "-1") {
-      cat1 = 0;
-      cat0++;
-    }
-  }
-
-  return "scummvm_" + scr_cats0[cat0] + "_" + scr_cats1[cat0][cat1] + "_" + cat2;
-}
-
-
-function scrshot_jn(x,n) {
-  i_jn += n;
-  if (i_jn >= x) i_jn = 0;
-  if (i_jn < 0) i_jn = x-1;
-
-
-  document['img_jn'].src = "./screenshots/" + getScr(i_jn) + ".jpg";
+  document['curScreenshotId'].src = "./screenshots/scummvm_" + screenshotIds[curScreenshotId] + ".jpg";
 }
 </script>
 
@@ -127,14 +71,14 @@ function scrshot_jn(x,n) {
 <tr><td>
 <!-- We use a height of 483 instead of 480 to workaround something which
   appears to be a bug in Mozilla? -->
-	<a href="javascript:openWin('./screenshots/big'+getScr(i_jn)+'.png','Screenshot Viewer',640,483);"
+	<a href="javascript:openWin('./screenshots/bigscummvm_'+screenshotIds[curScreenshotId]+'.png','Screenshot Viewer',640,483);"
 	onMouseOver="window.status='Click to View Full Size Image';return true;"
 	onMouseOut="window.status='';return true;"><img
 <?php
-        echo 'src="./screenshots/'.getScr($randImg) . '" width="128" height="96"'."\n";
+        echo 'src="' . screenshot_thumb_path($screenshots[$randImg]) . '" width="128" height="96"'."\n";
 ?>
 	style="margin: 5px"
-	name="img_jn" title="Click to view Full Size" alt="Random screenshot"></a>
+	name="curScreenshotId" title="Click to view Full Size" alt="Random screenshot"></a>
 	</td></tr>
 </table>					
 </td></tr>
@@ -143,11 +87,11 @@ function scrshot_jn(x,n) {
 <td class="blc"></td>
 <td class="nav-prev">
 <?php
-  echo '<a href="javascript:scrshot_jn('.count($screenshots).',-1);">&lt;&lt; previous</a>&nbsp;</td>';
+  echo '<a href="javascript:scrshot_jn(-1);">&lt;&lt; previous</a>&nbsp;</td>';
 ?>
 <td class="nav-next">&nbsp;
 <?php
-  echo '<a href="javascript:scrshot_jn('.count($screenshots).',+1);">next &gt;&gt;</a>&nbsp;</td>';
+  echo '<a href="javascript:scrshot_jn(+1);">next &gt;&gt;</a>&nbsp;</td>';
 ?>
 <td class="brc"></td>
 </tr></table></td></tr>
