@@ -66,7 +66,10 @@ if ($view == "") {
 <tr><td width=280 height=37 colspan=4><img src="<?=$file_root?>/images/rs-top.png" alt=""></td></tr>
 <tr><td width=17 height=10 colspan=2><img src="<?=$file_root?>/images/rs-top-left.png" alt=""></td><td rowspan=2 width=256 height=192>
 <?php
-  echo "<a href=\"javascript:openWin('$file_root/screenshots/{$screenshots[$randImg]}','scummvm',640,483);\"\n";
+  $t = explode("scummvm_", $screenshots[$randImg]);
+  $t1 = explode(".", $t[1]);
+
+  echo "<a href=\"javascript:openWin('$file_root/screenshots/{$screenshots[$randImg]}','Screenshot:" . screenshot_caption($t1[0]) ."',640,483);\"\n";
   echo "  onMouseOver=\"window.status='Click to View Full Size Image';return true;\"\n";
   echo "  onMouseOut=\"window.status='';return true;\">";
   echo '<img align=right src="'.screenshot_thumb_from_full($screenshots[$randImg]).'" alt="Random Screenshot"';
@@ -125,7 +128,7 @@ if ($view == -1) {
     // display image
     echo html_frame_td(
 	'<table cellpadding="0" cellspacing="0"><tr><td align="center">'.
-	"<a href=\"javascript:openWin('./screenshots/bigscummvm_$image.png','scummvm',640,483);\">".
+	"<a href=\"javascript:openWin('./screenshots/bigscummvm_$image.png','Screenshot: " . screenshot_caption($image) . "',640,483);\">".
 	'<img src="'.screenshot_thumb_path($image).'" '.
 	'width="'.$thumb_w.'" height="'.$thumb_h.'" alt="Screenshot '.$c.'"></a>'.
 	'</td></tr><tr><td align="center">'.

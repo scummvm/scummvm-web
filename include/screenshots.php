@@ -17,6 +17,11 @@ function screenshot_thumb_from_full ($fname) {
   return screenshot_thumb_path($t1[0]);
 }
 
+function screenshot_caption ($id) {
+  global $file_root;
+  return implode("", file($file_root."/screenshots/scummvm_".$id.".txt"));
+}
+
 function getScr($n) {
   global $categories;
   global $scrcatnums;
@@ -54,11 +59,6 @@ function getScr($n) {
   }
 
   return "scummvm_{$categories[$cat0]->_catnum}_{$categories[$cat0]->_list[$cat1]['catnum']}_{$cat2}.jpg";
-}
-
-function screenshot_caption ($id) {
-  global $file_root;
-  return implode("", file($file_root."/screenshots/scummvm_".$id.".txt"));
 }
 
 
