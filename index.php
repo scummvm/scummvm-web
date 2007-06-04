@@ -25,7 +25,7 @@ $randPart = rand(0, 10);
 if ($randPart < 6) {
   $randImg = rand(0, $lastLECshot - 1);
 } else {
-  $randImg = $lastLECshot + rand(0, $screenshots_count - $lastLECshot - 1);
+  $randImg = $lastLECshot + rand(0, count($screenshots) - $lastLECshot - 1);
 }
 
 echo '<script src="'.$file_root.'/screenshots.js" type="text/javascript"></script>';

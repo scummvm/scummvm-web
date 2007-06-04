@@ -44,7 +44,7 @@ if ($view == "") {
 
 
   // Random screenshot
-  $randImg = rand(0, $screenshots_count - 1);
+  $randImg = rand(0, count($screenshots) - 1);
 ?>
 <br>
 <table border=0 width="100%">
@@ -66,13 +66,11 @@ if ($view == "") {
 <tr><td width=280 height=37 colspan=4><img src="<?=$file_root?>/images/rs-top.png" alt=""></td></tr>
 <tr><td width=17 height=10 colspan=2><img src="<?=$file_root?>/images/rs-top-left.png" alt=""></td><td rowspan=2 width=256 height=192>
 <?php
-  $t = explode("scummvm_", $screenshots[$randImg]);
-  $t1 = explode(".", $t[1]);
-
-  echo "<a href=\"javascript:openWin('$file_root/screenshots/{$screenshots[$randImg]}','Screenshot:" . screenshot_caption($t1[0]) ."',640,483);\"\n";
+  $image = $screenshots[$randImg];
+  echo "<a href=\"javascript:openWin('$file_root/screenshots/bigscummvm_$image.png','Screenshot:" . screenshot_caption($image) ."',640,483);\"\n";
   echo "  onMouseOver=\"window.status='Click to View Full Size Image';return true;\"\n";
   echo "  onMouseOut=\"window.status='';return true;\">";
-  echo '<img align=right src="'.screenshot_thumb_from_full($screenshots[$randImg]).'" alt="Random Screenshot"';
+  echo '<img align=right src="'.screenshot_thumb_path($image).'" alt="Random Screenshot"';
   echo ' title="Click to view Full Size"></a>';
 ?>
 </td><td style="background:#a82709;" width=7 height=192 rowspan=2></td></tr>
@@ -130,7 +128,7 @@ if ($view == -1) {
 	'<table cellpadding="0" cellspacing="0"><tr><td align="center">'.
 	"<a href=\"javascript:openWin('./screenshots/bigscummvm_$image.png','Screenshot: " . screenshot_caption($image) . "',640,483);\">".
 	'<img src="'.screenshot_thumb_path($image).'" '.
-	'width="'.$thumb_w.'" height="'.$thumb_h.'" alt="Screenshot '.$c.'"></a>'.
+	'width=256 height=192 alt="Screenshot '.$c.'"></a>'.
 	'</td></tr><tr><td align="center">'.
 	screenshot_caption($image).
 	'</td></tr></table>',

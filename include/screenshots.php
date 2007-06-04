@@ -10,13 +10,6 @@ function screenshot_thumb_path ($id) {
   return $file_root . "/screenshots/scummvm_" . $id . ".jpg";
 }
 
-function screenshot_thumb_from_full ($fname) {
-  $t = explode("scummvm_", $fname);
-  $t1 = explode(".", $t[1]);
-
-  return screenshot_thumb_path($t1[0]);
-}
-
 function screenshot_caption ($id) {
   global $file_root;
   return implode("", file($file_root."/screenshots/scummvm_".$id.".txt"));
@@ -68,23 +61,25 @@ $screenshots = array();
 $scrcatnums = array();
 $tmp = get_files($file_root."/screenshots","png");
 foreach ($tmp as $image) {
-  array_push($screenshots,$image);
-  $cats = explode("_", $image);
-  $n = count($cats);
-  $t = explode(".", $cats[$n - 1]);
-  $num = $t[0];
 
-  if (!array_key_exists($cats[$n - 3], $scrcatnums) or
-      !array_key_exists($cats[$n - 2], $scrcatnums[$cats[$n - 3]])) {
-    $scrcatnums[$cats[$n - 3]][$cats[$n - 2]] = 0;
+  // Parse the ID of the schot in the file name, consisting of three numbers:
+  // 1) the "broad" category
+  // 2) the game
+  // 3) sequential number, used to distinguish shots of a single game
+  preg_match("/bigscummvm_(\d+)_(\d+)_(\d+).png/", $image, $cats);
+  $num = $cats[3];
+
+  // Push the three-number-id into an array (mainly used for selecting random screenshots)  
+  array_push($screenshots,$cats[1]."_".$cats[2]."_".$cats[3]);
+
+  // Update scrcatnums map
+  if (!array_key_exists($cats[1], $scrcatnums) or
+      !array_key_exists($cats[2], $scrcatnums[$cats[1]])) {
+    $scrcatnums[$cats[1]][$cats[2]] = 0;
   }
 
-  if ($scrcatnums[$cats[$n - 3]][$cats[$n - 2]] < $num + 1)
-    $scrcatnums[$cats[$n - 3]][$cats[$n - 2]] = $num + 1;
+  if ($scrcatnums[$cats[1]][$cats[2]] < $num + 1)
+    $scrcatnums[$cats[1]][$cats[2]] = $num + 1;
 }
-$screenshots_count = count($screenshots);
-
-$thumb_w = 256;
-$thumb_h = 192;
 
 ?>
