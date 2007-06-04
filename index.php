@@ -131,7 +131,6 @@ function scrshot_jn(x,n) {
 	onMouseOver="window.status='Click to View Full Size Image';return true;"
 	onMouseOut="window.status='';return true;"><img
 <?php
-
         echo 'src="./screenshots/'.getScr($randImg) . '" width="128" height="96"'."\n";
 ?>
 	style="margin: 5px"
