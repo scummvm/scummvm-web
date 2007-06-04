@@ -22,7 +22,7 @@ $scrcatnums = array();
 $tmp = get_files($file_root."/screenshots","png");
 foreach ($tmp as $image) {
 
-  // Parse the ID of the schot in the file name, consisting of three numbers:
+  // Parse the ID of the screenshot in the file name, consisting of three numbers:
   // 1) the "broad" category
   // 2) the game
   // 3) sequential number, used to distinguish shots of a single game
