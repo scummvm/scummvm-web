@@ -71,7 +71,7 @@ function scrshot_jn(n) {
 <tr><td>
 <!-- We use a height of 483 instead of 480 to workaround something which
   appears to be a bug in Mozilla? -->
-	<a href="javascript:openWin('./screenshots/bigscummvm_'+screenshotIds[curScreenshotId]+'.png','Screenshot Viewer',640,483);"
+	<a href="javascript:openWin(screenshotIds[curScreenshotId]);"
 	onMouseOver="window.status='Click to View Full Size Image';return true;"
 	onMouseOut="window.status='';return true;"><img
 <?php

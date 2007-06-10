@@ -18,7 +18,7 @@ function display_categories() {
 
   foreach ($categories as $cat) {
     html_subhead_start('<a name="cat'.$cat->_catnum.'"></a><a href="?cat1='.
-		       $cat->_catnum .'&amp;cat2=-1&amp;view=-1">'.$cat->_name.'</a>');
+		       $cat->_catnum .'&amp;cat2=-1">'.$cat->_name.'</a>');
 
     echo '<div class="par-scr-content-cat'.$cat->_catnum.'">';
 
@@ -55,7 +55,7 @@ class category {
     echo "<table border=0>\n";
     foreach($this->_list as $cat) {
       echo "<tr><td class='cat-bullet'><img src='$file_root/images/".$cat['filename'].
-      	"' alt=\"\"></td><td class='cat-link'><a href=\"?cat1=".$this->_catnum."&amp;cat2=".$cat['catnum']."&amp;view=-1\">".
+      	"' alt=\"\"></td><td class='cat-link'><a href=\"?cat1=".$this->_catnum."&amp;cat2=".$cat['catnum']."\">".
       	$cat['description'].
       	"</a> <font class='cat-count'>(".$scrcatnums[$this->_catnum][$cat['catnum']]." shots)</font></td></tr>\n";
     }

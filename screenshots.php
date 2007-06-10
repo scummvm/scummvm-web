@@ -6,18 +6,7 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 require($file_root."/include/"."scr-categories.php");
 
-function display_single_shot($cat1, $cat2, $cat3) {
-}
-
-html_page_header('ScummVM :: Screenshots', array("screenshots.css"));
-
-html_content_begin('Screenshots');
-
-$view = $offset = $cat1 = $cat2 = "";
-
-if (array_key_exists('view', $HTTP_GET_VARS)) {
-  $view = $HTTP_GET_VARS['view'];
-}
+$offset = $cat1 = $cat2 = $screenshotID = "";
 
 if (array_key_exists('offset', $HTTP_GET_VARS)) {
   $offset = $HTTP_GET_VARS['offset'];
@@ -31,9 +20,32 @@ if (array_key_exists('cat2', $HTTP_GET_VARS)) {
   $cat2 = $HTTP_GET_VARS['cat2'];
 }
 
+if (array_key_exists('screenshotID', $HTTP_GET_VARS)) {
+  $screenshotID = $HTTP_GET_VARS['screenshotID'];
+}
+
+// If a full screenshotID was provided, ignore all other params and display the corresponding page
+if (preg_match("/^(\d+)_(\d+)_(\d+)\$/", $screenshotID)) {
+	$caption = screenshot_caption($screenshotID);
+?>
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+	<html><head><title>Screenshot: <?=$caption?></title><link rel="stylesheet" href="style.css" type="text/css"></head>
+	<body onClick="javascript:self.close();" style="margin:0px;text-align:center;">
+	<img src="./screenshots/bigscummvm_<?=$screenshotID?>.png">
+	</body>
+	</html>
+<?php
+exit;
+}
+
+
+html_page_header('ScummVM :: Screenshots', array("screenshots.css"));
+
+html_content_begin('Screenshots');
+
 echo '<script src="'.$file_root.'/screenshots.js" type="text/javascript"></script>';
 
-if ($view == "") {
+if ($cat1 == "") {
 ?>
   <div class="par-item">
     <div class="par-head">
@@ -67,7 +79,7 @@ if ($view == "") {
 <tr><td width=17 height=10 colspan=2><img src="<?=$file_root?>/images/rs-top-left.png" alt=""></td><td rowspan=2 width=256 height=192>
 <?php
   $image = $screenshots[$randImg];
-  echo "<a href=\"javascript:openWin('" . screenshot_path($image) ."','Screenshot:" . screenshot_caption($image) ."',640,483);\"\n";
+  echo "<a href=\"javascript:openWin('" . $image ."');\"\n";
   echo "  onMouseOver=\"window.status='Click to View Full Size Image';return true;\"\n";
   echo "  onMouseOut=\"window.status='';return true;\">";
   echo '<img align=right src="'.screenshot_thumb_path($image).'" alt="Random Screenshot"';
@@ -94,10 +106,7 @@ if ($view == "") {
   </div>
 <?php
 }
-if ($view != -1 && $view != "") {
-  display_single_shot($cat1, $cat2, $view);
-}
-if ($view == -1) {
+if ($cat1 != "") {
   // generate list of all shots to show
   $showlist = array();
 
@@ -126,7 +135,7 @@ if ($view == -1) {
     // display image
     echo html_frame_td(
 	'<table cellpadding="0" cellspacing="0"><tr><td align="center">'.
-	"<a href=\"javascript:openWin('" . screenshot_path($image) ."','Screenshot: " . screenshot_caption($image) . "',640,483);\">".
+	"<a href=\"javascript:openWin('" . $image ."');\">".
 	'<img src="'.screenshot_thumb_path($image).'" '.
 	'width=256 height=192 alt="Screenshot '.$c.'"></a>'.
 	'</td></tr><tr><td align="center">'.
