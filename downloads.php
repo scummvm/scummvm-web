@@ -262,13 +262,13 @@ html_content_begin('Download ScummVM');
 
 	  <tr><td class='cat-bullet'><img src='images/cat-bs2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_Cutscenes.zip?download">Broken Sword 2 Cutscene Pack (all languages)</a> <font class='cat-count'>(27.8M)</font></td></tr>
 <!--
-	  <tr><td class='cat-bullet'><img src='images/cat-bs1.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_DXA_Cutscenes.zip?download">Broken Sword 2 Cutscene Pack (all languages)</a> <font class='cat-count'>(111M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-bs2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_DXA_Cutscenes.zip?download">Broken Sword 2 Cutscene Pack (all languages)</a> <font class='cat-count'>(111M)</font></td></tr>
 -->
 	  <tr><td class='cat-bullet'><img src='images/cat-bs2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_Demo_Cutscenes.zip?download">Broken Sword 2 Demo Cutscene Pack</a> <font class='cat-count'>(767KB) - Requires ScummVM 0.10.0svn</font></td></tr>
 
 	  <tr><td></td><td>&nbsp;</td></tr>
 
-	  <tr><td class='cat-bullet'><img src='images/cat-feeble.png' alt=""></td><td class='cat-link'><a href="http://svn.sourceforge.net/viewvc/*checkout*/scummvm/engine-data/trunk/kyra.dat?revision=22700">The Omni TV and epilogue cutscenes for the Amiga and Macintosh versions of The Feeble Files</a> <font class='cat-count'>(13.6M) - Requires ScummVM 0.10.0svn</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-feeble.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Feeble_OmniTV_Cutscenes.zip?download">The Feeble Files - Omni TV and epilogue cutscenes for the Amiga and Macintosh versions</a> <font class='cat-count'>(13.6M) - Requires ScummVM 0.10.0svn</font></td></tr>
 
 	  <tr><td></td><td>&nbsp;</td></tr>
 
