@@ -27,8 +27,6 @@ if ($randPart < 6) {
 } else {
   $randImg = $lastLECshot + rand(0, count($screenshots) - $lastLECshot - 1);
 }
-
-echo '<script src="'.$file_root.'/screenshots.js" type="text/javascript"></script>';
 ?>
 
 <script type="text/javascript">
@@ -47,7 +45,7 @@ function scrshot_jn(n) {
   if (curScreenshotId >= screenshotIds.length) curScreenshotId = 0;
   if (curScreenshotId < 0) curScreenshotId = screenshotIds.length-1;
 
-  document['curScreenshotId'].src = "./screenshots/scummvm_" + screenshotIds[curScreenshotId] + ".jpg";
+  document['curScreenshot'].src = "./screenshots/scummvm_" + screenshotIds[curScreenshotId] + ".jpg";
 }
 </script>
 
@@ -69,16 +67,12 @@ function scrshot_jn(n) {
 <tr><td class="content-wrap">
 <table border="0" cellpadding="0" cellspacing="0" align="center">
 <tr><td>
-<!-- We use a height of 483 instead of 480 to workaround something which
-  appears to be a bug in Mozilla? -->
-	<a href="javascript:openWin(screenshotIds[curScreenshotId]);"
-	onMouseOver="window.status='Click to View Full Size Image';return true;"
-	onMouseOut="window.status='';return true;"><img
 <?php
-        echo 'src="' . screenshot_thumb_path($screenshots[$randImg]) . '" width="128" height="96"'."\n";
+echo screenshot_previewer_link("screenshotIds[curScreenshotId]", 
+	'<img src="' . screenshot_thumb_path($screenshots[$randImg]) . '" width=128 height=96 '.
+	'style="margin: 5px" ' .
+	'name="curScreenshot" title="Click to view Full Size" alt="Random screenshot">');
 ?>
-	style="margin: 5px"
-	name="curScreenshotId" title="Click to view Full Size" alt="Random screenshot"></a>
 	</td></tr>
 </table>					
 </td></tr>

@@ -15,6 +15,18 @@ function screenshot_caption ($id) {
   return implode("", file($file_root."/screenshots/scummvm_".$id.".txt"));
 }
 
+function screenshot_previewer_link ($id, $content) {
+	// We use a height of 483 instead of 480 to workaround something which appears to be a bug in Mozilla?
+	$result =
+	"<div onclick=\"window.open('screenshots.php?screenshotID='+" . $id . ",'scummvm_screenshot_viewer','menubar=no,scrollbars=no,status=no,width=640,height=483')\"" .
+	    " onMouseOver=\"window.status='Click to View Full Size Image';return true;\"".
+	    " onMouseOut=\"window.status='';return true;\">" .
+		$content .
+	"</div>";
+
+	return $result;
+}
+
 // Grab list of images from screenshot dir
 // and loop through them and add to $screenshots array
 $screenshots = array();
