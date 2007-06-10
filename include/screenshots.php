@@ -18,11 +18,11 @@ function screenshot_caption ($id) {
 function screenshot_previewer_link ($id, $content) {
 	// We use a height of 483 instead of 480 to workaround something which appears to be a bug in Mozilla?
 	$result =
-	"<div onclick=\"window.open('screenshots.php?screenshotID='+" . $id . ",'scummvm_screenshot_viewer','menubar=no,scrollbars=no,status=no,width=640,height=483').focus()\"" .
+	"<a href=\"javascript:window.open('screenshots.php?screenshotID='+" . $id . ",'scummvm_screenshot_viewer','menubar=no,scrollbars=no,status=no,width=640,height=483').focus()\"" .
 	    " onMouseOver=\"window.status='Click to View Full Size Image';return true;\"".
 	    " onMouseOut=\"window.status='';return true;\">" .
 		$content .
-	"</div>";
+	"</a>";
 
 	return $result;
 }
