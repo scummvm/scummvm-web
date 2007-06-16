@@ -241,7 +241,7 @@
 </table>
 <span style='font-weight: bold'>MorphOS:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
-<tr><td style='width:13em; padding:2px;'>Fabien Coeurjoly</td><td></td><td></td>
+<tr><td style='width:13em; padding:2px;'>Fabien Coeurjoly</td><td style='width:10em; text-align: left;' class='news-author'>fab1</td><td></td>
 </table>
 <span style='font-weight: bold'>OS/2:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
@@ -289,24 +289,24 @@
 <tr><td style='width:13em; padding:2px;'>Paolo Costabel</td><td></td><td>PSP port contributions</td>
 <tr><td style='width:13em; padding:2px;'>Thierry Crozat</td><td style='width:10em; text-align: left;' class='news-author'>criezy</td><td>Support for Broken Sword 1 Macintosh version</td>
 <tr><td style='width:13em; padding:2px;'>Thomas Fach-Pedersen</td><td style='width:10em; text-align: left;' class='news-author'>madmoose</td><td>ProTracker module player</td>
-<tr><td style='width:13em; padding:2px;'>Benjamin Haisch</td><td></td><td>Heavily improved de-/encoder for DXA videos</td>
+<tr><td style='width:13em; padding:2px;'>Benjamin Haisch</td><td style='width:10em; text-align: left;' class='news-author'>john_doe</td><td>Heavily improved de-/encoder for DXA videos</td>
 <tr><td style='width:13em; padding:2px;'>Janne Huttunen</td><td></td><td>V3 actor mask support, Dig/FT SMUSH audio</td>
 <tr><td style='width:13em; padding:2px;'>Kov&aacute;cs Endre J&aacute;nos</td><td></td><td>Several fixes for Simon1</td>
-<tr><td style='width:13em; padding:2px;'>Jeroen Janssen</td><td></td><td>Numerous readability and bugfix patches</td>
+<tr><td style='width:13em; padding:2px;'>Jeroen Janssen</td><td style='width:10em; text-align: left;' class='news-author'>japj</td><td>Numerous readability and bugfix patches</td>
 <tr><td style='width:13em; padding:2px;'>Florian Kagerer</td><td style='width:10em; text-align: left;' class='news-author'>athrxx</td><td>Various Kyrandia 1 FM-Towns code contributions</td>
 <tr><td style='width:13em; padding:2px;'>Andreas Karlsson</td><td style='width:10em; text-align: left;' class='news-author'>Sprawl</td><td>Initial port for EPOC/SymbianOS</td>
 <tr><td style='width:13em; padding:2px;'>Claudio Matsuoka</td><td></td><td>Daily Linux builds</td>
 <tr><td style='width:13em; padding:2px;'>Thomas Mayer</td><td></td><td>PSP port contributions</td>
 <tr><td style='width:13em; padding:2px;'>???</td><td style='width:10em; text-align: left;' class='news-author'>n0p</td><td>Windows CE port aspect ratio correction scaler and right click input method</td>
-<tr><td style='width:13em; padding:2px;'>Mikesch Nepomuk</td><td></td><td>MI1 VGA floppy patches</td>
+<tr><td style='width:13em; padding:2px;'>Mikesch Nepomuk</td><td style='width:10em; text-align: left;' class='news-author'>mnepomuk</td><td>MI1 VGA floppy patches</td>
 <tr><td style='width:13em; padding:2px;'>Nicolas Noble</td><td style='width:10em; text-align: left;' class='news-author'>pixels</td><td>Config file and ALSA support</td>
+<tr><td style='width:13em; padding:2px;'>Tim Phillips</td><td style='width:10em; text-align: left;' class='news-author'>realmz</td><td>Initial MI1 CD music support</td>
 <tr><td style='width:13em; padding:2px;'>???</td><td style='width:10em; text-align: left;' class='news-author'>Quietust</td><td>Sound support for Amiga SCUMM V2/V3 games, MM NES support</td>
 <tr><td style='width:13em; padding:2px;'>Andreas R&ouml;ver</td><td></td><td>Broken Sword 1/2 MPEG2 cutscene support</td>
-<tr><td style='width:13em; padding:2px;'>Edward Rudd</td><td></td><td>Fixes for playing MP3 versions of MI1/Loom audio</td>
+<tr><td style='width:13em; padding:2px;'>Edward Rudd</td><td style='width:10em; text-align: left;' class='news-author'>urkle</td><td>Fixes for playing MP3 versions of MI1/Loom audio</td>
 <tr><td style='width:13em; padding:2px;'>Daniel Schepler</td><td></td><td>Final MI1 CD music support, initial Ogg Vorbis support</td>
 <tr><td style='width:13em; padding:2px;'>Andr&eacute; Souza</td><td></td><td>SDL-based OpenGL renderer</td>
-<tr><td style='width:13em; padding:2px;'>Tim Phillips</td><td style='width:10em; text-align: left;' class='news-author'>realmz</td><td>Initial MI1 CD music support</td>
-<tr><td style='width:13em; padding:2px;'>Robin Watts</td><td></td><td>ARM assembly routines for the Windows CE port</td>
+<tr><td style='width:13em; padding:2px;'>Robin Watts</td><td style='width:10em; text-align: left;' class='news-author'>robinwatts</td><td>ARM assembly routines for the Windows CE port</td>
 </table>
 </div>
 <p style='margin-left:2em; margin-bottom: 1em'>And to all the contributors, users, and beta testers we've missed. Thanks!</p>
