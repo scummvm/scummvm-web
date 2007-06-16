@@ -304,8 +304,8 @@
 <tr><td style='width:13em; padding:2px;'>???</td><td style='width:10em; text-align: left;' class='news-author'>Quietust</td><td>Sound support for Amiga SCUMM V2/V3 games, MM NES support</td>
 <tr><td style='width:13em; padding:2px;'>Andreas R&ouml;ver</td><td></td><td>Broken Sword 1/2 MPEG2 cutscene support</td>
 <tr><td style='width:13em; padding:2px;'>Edward Rudd</td><td style='width:10em; text-align: left;' class='news-author'>urkle</td><td>Fixes for playing MP3 versions of MI1/Loom audio</td>
-<tr><td style='width:13em; padding:2px;'>Daniel Schepler</td><td></td><td>Final MI1 CD music support, initial Ogg Vorbis support</td>
-<tr><td style='width:13em; padding:2px;'>Andr&eacute; Souza</td><td></td><td>SDL-based OpenGL renderer</td>
+<tr><td style='width:13em; padding:2px;'>Daniel Schepler</td><td style='width:10em; text-align: left;' class='news-author'>dschepler</td><td>Final MI1 CD music support, initial Ogg Vorbis support</td>
+<tr><td style='width:13em; padding:2px;'>Andr&eacute; Souza</td><td style='width:10em; text-align: left;' class='news-author'>luke_br</td><td>SDL-based OpenGL renderer</td>
 <tr><td style='width:13em; padding:2px;'>Robin Watts</td><td style='width:10em; text-align: left;' class='news-author'>robinwatts</td><td>ARM assembly routines for the Windows CE port</td>
 </table>
 </div>
