@@ -150,7 +150,7 @@ $gamesOther = array(
 $gamesAGI = array(
 
 	'The Black Cauldron'                                         => array('bc','90'),
-	'Gold Rush!'                                                 => array('goldrush','90'),
+	'Gold Rush!'                                                 => array('goldrush','60'),
 	'King\'s Quest I'                                            => array('kq1','90'),
 	'King\'s Quest II'                                           => array('kq2','90'),
 	'King\'s Quest III'                                          => array('kq3','90'),
@@ -386,7 +386,7 @@ $notes = array(
 "bc"		=> "Game is completable".
 		   "<br>- DOS, Amiga, Atari ST, Apple IIgs versions are supported by this target".
 		   "<br>- Apple IIgs version has no sound",
-"goldrush"	=> "Game is completable".
+"goldrush"	=> "Game is not completable".
 		   "<br>- DOS, Amiga, Atari ST, Apple IIgs versions are supported by this target".
 		   "<br>- Apple IIgs version has no sound",
 "kq1"		=> "Game is completable".
