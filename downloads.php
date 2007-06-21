@@ -85,7 +85,7 @@ html_content_begin('Download ScummVM');
 
 	<p>For a list of changes since the previous version, <a href="http://sourceforge.net/project/shownotes.php?release_id=516640">read the release notes</a>.
 	<BR>
-	0.10.0 should be directly apt-get'able from Debian stable (etch) and Debian unstable (sid).
+	0.10.0 should be directly apt-get'able from Debian unstable (sid).
 	</p>
 
 <!-- ' Relax XEmacs syntax highlighting -->
