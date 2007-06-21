@@ -434,9 +434,8 @@ $notes = array(
 		   "<br>- DOS, Mac, Amiga, Apple IIgs versions are supported by this target".
 		   "<br>- Apple IIgs version has no sound",
 "agi-fanmade"   => "Most games are completable".
-		   "<br>- AGIMOUSE and AGIPAL hacks are also supported by this target".
-		   "<br>- Occasional graphics glitches".
-		   "<br>- AGI256 and AGI256-2 hacks aren't supported"
+		   "<br>- AGIMOUSE, AGIPAL, AGI256 and AGI256-2 hacks are also supported by this target".
+		   "<br>- Occasional graphics glitches"
 );
 		
 // render the compatibility chart
