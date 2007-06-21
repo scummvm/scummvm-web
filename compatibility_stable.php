@@ -135,13 +135,13 @@ $gamesOther = array(
 	'Goblins 3'                                             => array('gob3', '90'),
 	'Inherit the Earth: Quest for the Orb'                  => array('ite', '87'),
 	'Nippon Safes Inc.' 			                => array('nippon', '70'),
-	'Simon the Sorcerer 1'                                  => array('simon1','93'),
+	'Simon the Sorcerer 1'                                  => array('simon1','95'),
 	'Simon the Sorcerer 2'                                  => array('simon2','95'),
 	'Simon the Sorcerer\'s Puzzle Pack - D.I.M.P.'          => array('dimp','70'),
 	'Simon the Sorcerer\'s Puzzle Pack - Jumble'            => array('jumble','70'),
 	'Simon the Sorcerer\'s Puzzle Pack - NoPatience'        => array('puzzle','70'),
 	'Simon the Sorcerer\'s Puzzle Pack - Swampy Adventures' => array('swampy','70'),
-	'The Feeble Files'                                      => array('feeble','90'),
+	'The Feeble Files'                                      => array('feeble','95'),
 	'The Legend of Kyrandia'                                => array('kyra1', '80'),
 	'Touche: The Adventures of the Fifth Musketeer'         => array('touche','75'),
 	'Ween: The Prophecy'                                    => array('ween','95'),
@@ -167,8 +167,8 @@ $gamesAGI = array(
 
 $notes = array(
 "maniac"	=> "No known issues, game is completable.".
-		   "<br>- Amiga, Atari ST, Commodore 64, Macintosh, NES and PC versions supported by this target".
-		   "<br>- Major problems with Commodore 64 version",
+		   "<br>- Amiga, Apple II, Atari ST, Commodore 64, Macintosh, NES and PC versions supported by this target".
+		   "<br>- Apple II and Commodore 64 versions aren't completable",
 		   "<br>- Minor graphical glitches in NES version",
 "zak"		=> "No known issues, game is completable.".
 		   "<br>- Amiga, Atari ST, Commodore 64, FM-TOWNS and PC versions supported by this target".
@@ -344,23 +344,23 @@ $notes = array(
 		   "<br>- Occasional graphical glitches",
 "simon1" 	=> "No known issues, game is completable.".
 		   "<br>- Acorn, Amiga, DOS and Windows versions supported by this target".
-		   "<br>- Various graphical glitches in Amiga verisons",
+		   "<br>- Minor palette glitches in Amiga versions".
+		   "<br>- No music in Acorn disk version",
 "simon2"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, DOS, Macintosh and Windows versions supported by this target".
 		   "<br>- Only the default language (English) in Amiga &amp; Macintosh versions is supported".
 		   "<br>- F10 key animation is different in Amiga &amp; Macintosh versions",
-"dimp" 		=> "Game is completable, with minor glitches".
-		   "<br>- No random animations or sound effect when idle",
-"jumble" 	=> "Game is completable, with minor glitches".
+"dimp" 		=> "Game is completable".
+		   "<br>- Demon takes longer to die, compared to original",
+"jumble" 	=> "Game is completable".
 		   "<br>- No support for displaying, entering, loading and saving high scores",
-"puzzle" 	=> "Game is completable, with minor glitches".
+"puzzle" 	=> "Game is completable".
 		   "<br>- No support for displaying, entering, loading and saving high scores",
-"swampy" 	=> "Game is completable, with minor glitches".
+"swampy" 	=> "Game is completable".
 		   "<br>- No support for displaying explanation, when clicking on items".
 		   "<br>- No support for displaying, entering, loading and saving high scores",
-"feeble"	=> "Game is completable".
-		   "<br>- Amiga, Macintosh and Windows versions supported by this target".
-		   "<br>- Minor graphical glitches",
+"feeble"	=> "No known issues, game is completable.".
+		   "<br>- Amiga, Macintosh and Windows versions supported by this target",
 "kyra1"		=> "Game is completable.".
 		   "<br>- Requires the <a href=\"https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory.".
 		   "<br>- DOS and FM-TOWNS versions are supported by this target.".
@@ -370,8 +370,7 @@ $notes = array(
 		   "<br>- MT-32 music and sfx do not work properly.",
 "fw"		=> "Game is completable".
 		   "<br>- Occasional graphical glitches".
-		   "<br>- DOS, Amiga and Atari versions are supported".
-		   "<br>- No music or sound effects in the Amiga and Atari ST versions",
+		   "<br>- DOS, Amiga and Atari versions are supported",
 "touche"	=> "Game is completable".
 		   "<br>- Occasional graphical glitches",
 "ween"  	=> "Game is completable".
