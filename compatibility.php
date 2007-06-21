@@ -39,7 +39,7 @@ else {
 
 	  <br><br>Please note this list applies to the English versions of games, we attempt to test many versions of games, however there are occasionally problems with other languages.
 	  This is the compatibility of the current WIP SVN version, <B>not of the
-	  0.9.1 stable release</B> (Please see the  <a href="compatibility_stable.php">Stable Compatibility</A> chart for this version).
+	  0.10.0 stable release</B> (Please see the  <a href="compatibility_stable.php">Stable Compatibility</A> chart for this version).
 	  <br><br>
 	  As this is the status of the Work In Progress version, occasional temporary bugs
 	  may be introduced with new changes, thus this list refects the 'best case' scenario. 
@@ -128,8 +128,6 @@ $gamesOther = array(
 	'Beneath a Steel Sky'                                   => array('sky','98'),
 	'Broken Sword 1: The Shadow of the Templars'            => array('sword1','98'),
 	'Broken Sword 2: The Smoking Mirror'                    => array('sword2','98'),
-	'Elvira - Mistress of the Dark'                         => array('elvira1','90'),
-	'Elvira II - The Jaws of Cerberus'                      => array('elvira2','50'),
 	'Flight of the Amazon Queen'                            => array('queen','98'),
 	'Future Wars'                                           => array('fw','80'),
 	'Gobliiins'                                             => array('gob1', '95'),
@@ -152,7 +150,7 @@ $gamesOther = array(
 $gamesAGI = array(
 
 	'The Black Cauldron'                                         => array('bc','90'),
-	'Gold Rush!'                                                 => array('goldrush','60'),
+	'Gold Rush!'                                                 => array('goldrush','90'),
 	'King\'s Quest I'                                            => array('kq1','90'),
 	'King\'s Quest II'                                           => array('kq2','90'),
 	'King\'s Quest III'                                          => array('kq3','90'),
@@ -327,15 +325,6 @@ $notes = array(
 		   "<br>- PlayStation 1 version isn't supported.",
 "sword2"	=> "No known issues, game is completable.".
 		   "<br>- PlayStation 1 version isn't supported.",
-"elvira1"	=> "No known issues, game is completable.".
-		   "<br>- Amiga and Atari ST and DOS versions are supported by this target".
-		   "<br>- No music in the Atari ST version.".
-		   "<br>- No text description in the Atari ST version.",
-"elvira2"	=> "No known issues, game is playable.".
-		   "<br>- Amiga and Atari ST and DOS versions are supported by this target".
-		   "<br>- No music in the Atari ST version.".
-		   "<br>- No sound effects in the DOS version.".
-		   "<br>- Palette issues in the Atari ST version.",
 "queen"		=> "No known issues, game is completable.".
 		   "<br>- Some versions may require the <a href=\"https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases.".
 		   "<br>- Amiga and DOS versions supported by this target.",
@@ -397,7 +386,7 @@ $notes = array(
 "bc"		=> "Game is completable".
 		   "<br>- DOS, Amiga, Atari ST, Apple IIgs versions are supported by this target".
 		   "<br>- Apple IIgs version has no sound",
-"goldrush"	=> "Game is not completable".
+"goldrush"	=> "Game is completable".
 		   "<br>- DOS, Amiga, Atari ST, Apple IIgs versions are supported by this target".
 		   "<br>- Apple IIgs version has no sound",
 "kq1"		=> "Game is completable".

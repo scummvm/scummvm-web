@@ -12,9 +12,9 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_page_header('ScummVM :: Compatibility - SVN');
+html_page_header('ScummVM :: Compatibility - Stable');
 
-html_content_begin('SVN Compatibility');
+html_content_begin('0.10.0 Compatibility');
 
 if (isset($_GET['details'])) {
 	$details = $_GET['details'];
@@ -38,8 +38,8 @@ else {
 	  Click on the game name to view the complete notes of a game.
 
 	  <br><br>Please note this list applies to the English versions of games, we attempt to test many versions of games, however there are occasionally problems with other languages.
-	  This is the compatibility of the current WIP SVN version, <B>not of the
-	  0.9.1 stable release</B> (Please see the  <a href="compatibility_stable.php">Stable Compatibility</A> chart for this version).
+	  This is the compatibility of the current 0.10.0 stable release, <B>not of the
+	  current WIP SVN version</B> (Please see the  <a href="compatibility.php">WIP SVN Compatibility</A> chart for this version).
 	  <br><br>
 	  As this is the status of the Work In Progress version, occasional temporary bugs
 	  may be introduced with new changes, thus this list refects the 'best case' scenario. 
