@@ -128,6 +128,8 @@ $gamesOther = array(
 	'Beneath a Steel Sky'                                   => array('sky','98'),
 	'Broken Sword 1: The Shadow of the Templars'            => array('sword1','98'),
 	'Broken Sword 2: The Smoking Mirror'                    => array('sword2','98'),
+	'Elvira - Mistress of the Dark'                         => array('elvira1','90'),
+	'Elvira II - The Jaws of Cerberus'                      => array('elvira2','50'),
 	'Flight of the Amazon Queen'                            => array('queen','98'),
 	'Future Wars'                                           => array('fw','80'),
 	'Gobliiins'                                             => array('gob1', '95'),
@@ -325,6 +327,15 @@ $notes = array(
 		   "<br>- PlayStation 1 version isn't supported.",
 "sword2"	=> "No known issues, game is completable.".
 		   "<br>- PlayStation 1 version isn't supported.",
+"elvira1"	=> "No known issues, game is completable.".
+		   "<br>- Amiga and Atari ST and DOS versions are supported by this target".
+		   "<br>- No music in the Atari ST version.".
+		   "<br>- No text description in the Atari ST version.",
+"elvira2"	=> "No known issues, game is playable.".
+		   "<br>- Amiga and Atari ST and DOS versions are supported by this target".
+		   "<br>- No music in the Atari ST version.".
+		   "<br>- No sound effects in the DOS version.".
+		   "<br>- Palette issues in the Atari ST version.",
 "queen"		=> "No known issues, game is completable.".
 		   "<br>- Some versions may require the <a href=\"https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases.".
 		   "<br>- Amiga and DOS versions supported by this target.",
