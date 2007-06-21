@@ -170,7 +170,7 @@ $gamesAGI = array(
 $notes = array(
 "maniac"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, Apple II, Atari ST, Commodore 64, Macintosh, NES and PC versions supported by this target".
-		   "<br>- Apple II and Commodore 64 versions aren't completable",
+		   "<br>- Apple II and Commodore 64 versions aren't completable".
 		   "<br>- Minor graphical glitches in NES version",
 "zak"		=> "No known issues, game is completable.".
 		   "<br>- Amiga, Atari ST, Commodore 64, FM-TOWNS and PC versions supported by this target".
@@ -329,12 +329,12 @@ $notes = array(
 		   "<br>- PlayStation 1 version isn't supported.",
 "elvira1"	=> "No known issues, game is completable.".
 		   "<br>- Amiga and Atari ST and DOS versions are supported by this target".
-		   "<br>- Commodore 64 version doesn't use AGOS, so will never be supported.",
+		   "<br>- Commodore 64 version doesn't use AGOS, so will never be supported.".
 		   "<br>- No music in the Atari ST version.".
 		   "<br>- No text descriptions in the Atari ST version.",
 "elvira2"	=> "No known issues, game is playable.".
 		   "<br>- Amiga and Atari ST and DOS versions are supported by this target".
-		   "<br>- Commodore 64 version doesn't use AGOS, so will never be supported.",
+		   "<br>- Commodore 64 version doesn't use AGOS, so will never be supported.".
 		   "<br>- No music in the Atari ST version.".
 		   "<br>- No sound effects in the DOS version.".
 		   "<br>- Palette issues in the Atari ST version.",

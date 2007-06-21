@@ -168,7 +168,7 @@ $gamesAGI = array(
 $notes = array(
 "maniac"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, Apple II, Atari ST, Commodore 64, Macintosh, NES and PC versions supported by this target".
-		   "<br>- Apple II and Commodore 64 versions aren't completable",
+		   "<br>- Apple II and Commodore 64 versions aren't completable".
 		   "<br>- Minor graphical glitches in NES version",
 "zak"		=> "No known issues, game is completable.".
 		   "<br>- Amiga, Atari ST, Commodore 64, FM-TOWNS and PC versions supported by this target".
