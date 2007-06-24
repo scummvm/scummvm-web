@@ -173,6 +173,7 @@
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Jerome Fisher</td><td style='width:10em; text-align: left;' class='news-author'>KingGuppy</td><td>MT-32 emulator</td>
 <tr><td style='width:13em; padding:2px;'>Jochen Hoenicke</td><td style='width:10em; text-align: left;' class='news-author'>hoenicke</td><td>Speaker &amp; PCjr sound support, Adlib work</td>
+<tr><td style='width:13em; padding:2px;'>Robin Watts</td><td style='width:10em; text-align: left;' class='news-author'>robinwatts</td><td>ARM assembly routines for nice speedups on several ports; improvements to the sound mixer</td>
 </table>
 </div>
 <div class='par-subhead'>Website (content)</div>
@@ -306,7 +307,6 @@
 <tr><td style='width:13em; padding:2px;'>Edward Rudd</td><td style='width:10em; text-align: left;' class='news-author'>urkle</td><td>Fixes for playing MP3 versions of MI1/Loom audio</td>
 <tr><td style='width:13em; padding:2px;'>Daniel Schepler</td><td style='width:10em; text-align: left;' class='news-author'>dschepler</td><td>Final MI1 CD music support, initial Ogg Vorbis support</td>
 <tr><td style='width:13em; padding:2px;'>Andr&eacute; Souza</td><td style='width:10em; text-align: left;' class='news-author'>luke_br</td><td>SDL-based OpenGL renderer</td>
-<tr><td style='width:13em; padding:2px;'>Robin Watts</td><td style='width:10em; text-align: left;' class='news-author'>robinwatts</td><td>ARM assembly routines for the Windows CE port</td>
 </table>
 </div>
 <p style='margin-left:2em; margin-bottom: 1em'>And to all the contributors, users, and beta testers we've missed. Thanks!</p>
