@@ -350,6 +350,7 @@ $notes = array(
 "gob3"		=> "Game is completable".
 		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
 		   "<br>- Issues with the mouse cursor visibility".
+		   "<br>- No support for original font and music files in Macintosh version".
 		   "<br>- The number of used jokers isn't saved correctly. You'll always have 5 to spend again after loading",
 "ite"		=> "Game is completable.".
 		   "<br>- DOS, Linux, Macintosh, MacOS X and Windows versions are supported by this target".
