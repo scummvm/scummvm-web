@@ -1,6 +1,7 @@
 #!/bin/sh
 
-for i in big*.png; do
+for i in *-full.png; do
 	echo "Processing $i..."
-	./mkthumb.sh `echo $i | cut -c12- | cut -f1 -d.`
+	j=`basename $i -full.png`
+	echo ./mkthumb.sh $j
 done
