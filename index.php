@@ -34,9 +34,14 @@ if ($randPart < 6) {
 <?php
   echo "screenshotIds = [\n";
   foreach ($screenshots as $s) {
-    echo " [\"$s\", \"" . screenshot_thumb_path($s) . "\"],\n";
+    echo " \"$s\", ";
   }
-  echo "];\n";
+  echo "\n];\n";
+  echo "screenshotPaths = [\n";
+  foreach ($screenshots as $s) {
+    echo " \"".screenshot_thumb_path($s)."\", ";
+  }
+  echo "\n];\n";
 
   echo "var curScreenshotId = $randImg;\n";
 
@@ -47,7 +52,7 @@ function scrshot_jn(n) {
   if (curScreenshotId >= screenshotIds.length) curScreenshotId = 0;
   if (curScreenshotId < 0) curScreenshotId = screenshotIds.length-1;
 
-  document['curScreenshot'].src = screenshotIds[curScreenshotId][1];
+  document['curScreenshot'].src = screenshotPaths[curScreenshotId];
 }
 </script>
 
@@ -70,7 +75,7 @@ function scrshot_jn(n) {
 <table border="0" cellpadding="0" cellspacing="0" align="center">
 <tr><td>
 <?php
-echo screenshot_previewer_link("screenshotIds[curScreenshotId][0]", 
+echo screenshot_previewer_link("screenshotIds[curScreenshotId]", 
 	'<img src="' . screenshot_thumb_path($screenshots[$randImg]) . '" width=128 height=96 '.
 	'style="margin: 5px" ' .
 	'name="curScreenshot" title="Click to view Full Size" alt="Random screenshot">');
