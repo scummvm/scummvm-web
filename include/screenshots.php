@@ -1,18 +1,18 @@
 <?php
 
 function screenshot_path ($id) {
-	global $file_root;
-	return $file_root . "/screenshots/bigscummvm_" . $id . ".png";
+	global $scr_table;
+	return $scr_table[$id]["path"];
 }
 
 function screenshot_thumb_path ($id) {
-	global $file_root;
-	return $file_root . "/screenshots/scummvm_" . $id . ".jpg";
+	global $scr_table;
+	return $scr_table[$id]["thumb"];
 }
 
 function screenshot_caption ($id) {
-	global $scrcaption;
-	return $scrcaption[$id];
+	global $scr_table;
+	return $scr_table[$id]["caption"];
 }
 
 function screenshot_previewer_link ($id, $content) {
@@ -30,7 +30,9 @@ function screenshot_previewer_link ($id, $content) {
 function read_screenshot_list($fname) {
 	global $screenshots;
 	global $scrcatnums;
-	global $scrcaption;
+	global $scr_table;
+
+	global $file_root;
 
 	if(!is_readable($fname)) {
 		echo "No read permission for $fname !";
@@ -45,7 +47,7 @@ function read_screenshot_list($fname) {
 
 	$screenshots = array();
 	$scrcatnums = array();
-	$scrcaption = array();
+	$scr_table = array();
 
 	while (!feof($fp)) {
 		$line = trim(fgets($fp));
@@ -64,7 +66,10 @@ function read_screenshot_list($fname) {
 			array_push($screenshots, $id);
 			
 			// Store the screenshot caption from $data[4]
-			$scrcaption[$id] = $data[4];
+			$scr_table[$id] = array("caption" => $data[4],
+						"path" => $file_root . "/screenshots/bigscummvm_" . $id . ".png",
+						"thumb" => $file_root . "/screenshots/scummvm_" . $id . ".jpg"
+					);
 
 			// Insert into a table of screenshots which is indexed by category & subcategory.
 			if (!isset($scrcatnums[$data[0]][$data[1]]))

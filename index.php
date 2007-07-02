@@ -27,16 +27,15 @@ if ($randPart < 6) {
 } else {
   $randImg = $lastLECshot + rand(0, count($screenshots) - $lastLECshot - 1);
 }
-
-// TODO: The screenshotIds should contain tuples:
-//   The path to the thumb, *plus* the category triple used to identify the screenshot
 ?>
 
 <script type="text/javascript">
 
 <?php
   echo "screenshotIds = [\n";
-  echo '"' . join('", "', $screenshots) . '"' . "\n";
+  foreach ($screenshots as $s) {
+    echo " [\"$s\", \"" . screenshot_thumb_path($s) . "\"],\n";
+  }
   echo "];\n";
 
   echo "var curScreenshotId = $randImg;\n";
@@ -48,7 +47,7 @@ function scrshot_jn(n) {
   if (curScreenshotId >= screenshotIds.length) curScreenshotId = 0;
   if (curScreenshotId < 0) curScreenshotId = screenshotIds.length-1;
 
-  document['curScreenshot'].src = "<?=screenshot_thumb_path('" + screenshotIds[curScreenshotId] + "')?>";
+  document['curScreenshot'].src = screenshotIds[curScreenshotId][1];
 }
 </script>
 
@@ -71,7 +70,7 @@ function scrshot_jn(n) {
 <table border="0" cellpadding="0" cellspacing="0" align="center">
 <tr><td>
 <?php
-echo screenshot_previewer_link("screenshotIds[curScreenshotId]", 
+echo screenshot_previewer_link("screenshotIds[curScreenshotId][0]", 
 	'<img src="' . screenshot_thumb_path($screenshots[$randImg]) . '" width=128 height=96 '.
 	'style="margin: 5px" ' .
 	'name="curScreenshot" title="Click to view Full Size" alt="Random screenshot">');
