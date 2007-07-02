@@ -67,8 +67,8 @@ function read_screenshot_list($fname) {
 			
 			// Store the screenshot caption from $data[4]
 			$scr_table[$id] = array("caption" => $data[4],
-						"path" => $file_root . "/screenshots/bigscummvm_" . $id . ".png",
-						"thumb" => $file_root . "/screenshots/scummvm_" . $id . ".jpg"
+						"path" => $file_root . "/screenshots/" . $data[3] . "-full.png",
+						"thumb" => $file_root . "/screenshots/" . $data[3] . ".jpg"
 					);
 
 			// Insert into a table of screenshots which is indexed by category & subcategory.
