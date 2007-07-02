@@ -112,9 +112,7 @@ if ($cat1 != "") {
     if ($cat1 == $i->_catnum || $cat1 == -1) {
       foreach ($i->_list as $j) {
         if ($cat2 == $j['catnum'] || $cat2 == -1) {
-          for ($k = 0; $k < $scrcatnums[$i->_catnum][$j['catnum']]; $k++) {
-            array_push($showlist, $i->_catnum."_".$j['catnum']."_{$k}");
-	  }
+          $showlist = array_merge($showlist, $scrcatnums[$i->_catnum][$j['catnum']]);
         }
       }
     }

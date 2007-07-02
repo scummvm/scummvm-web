@@ -57,7 +57,7 @@ class category {
       echo "<tr><td class='cat-bullet'><img src='$file_root/images/".$cat['filename'].
       	"' alt=\"\"></td><td class='cat-link'><a href=\"?cat1=".$this->_catnum."&amp;cat2=".$cat['catnum']."\">".
       	$cat['description'].
-      	"</a> <font class='cat-count'>(".$scrcatnums[$this->_catnum][$cat['catnum']]." shots)</font></td></tr>\n";
+      	"</a> <font class='cat-count'>(".count($scrcatnums[$this->_catnum][$cat['catnum']])." shots)</font></td></tr>\n";
     }
     echo "</table>\n";
   }

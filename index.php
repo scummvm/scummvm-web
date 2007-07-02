@@ -27,6 +27,9 @@ if ($randPart < 6) {
 } else {
   $randImg = $lastLECshot + rand(0, count($screenshots) - $lastLECshot - 1);
 }
+
+// TODO: The screenshotIds should contain tuples:
+//   The path to the thumb, *plus* the category triple used to identify the screenshot
 ?>
 
 <script type="text/javascript">

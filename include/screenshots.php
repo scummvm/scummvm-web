@@ -56,6 +56,7 @@ function read_screenshot_list($fname) {
 		} else {
 			$data = explode('|', $line);
 
+			// Compute an "id" consisting of category, subcategory and running number.
 			$id = $data[0]."_".$data[1]."_".$data[2];
 
 			// Push the three-number-id into an array (mainly used for selecting random screenshots)
@@ -65,15 +66,10 @@ function read_screenshot_list($fname) {
 			// Store the screenshot caption from $data[4]
 			$scrcaption[$id] = $data[4];
 
-			// Update scrcatnums map
-			if (!array_key_exists($data[0], $scrcatnums) or
-			  !array_key_exists($data[1], $scrcatnums[$data[0]])) {
-				$scrcatnums[$data[0]][$data[1]] = 0;
-			}
-
-			if ($scrcatnums[$data[0]][$data[1]] < $data[2] + 1)
-				$scrcatnums[$data[0]][$data[1]] = $data[2] + 1;
-
+			// Insert into a table of screenshots which is indexed by category & subcategory.
+			if (!isset($scrcatnums[$data[0]][$data[1]]))
+				$scrcatnums[$data[0]][$data[1]] = array();
+			array_push($scrcatnums[$data[0]][$data[1]], $id);
 		}
 	}
 
