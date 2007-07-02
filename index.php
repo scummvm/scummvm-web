@@ -45,7 +45,7 @@ function scrshot_jn(n) {
   if (curScreenshotId >= screenshotIds.length) curScreenshotId = 0;
   if (curScreenshotId < 0) curScreenshotId = screenshotIds.length-1;
 
-  document['curScreenshot'].src = "./screenshots/scummvm_" + screenshotIds[curScreenshotId] + ".jpg";
+  document['curScreenshot'].src = "<?=screenshot_thumb_path('" + screenshotIds[curScreenshotId] + "')?>";
 }
 </script>
 

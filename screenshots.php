@@ -20,18 +20,21 @@ if (array_key_exists('cat2', $HTTP_GET_VARS)) {
   $cat2 = $HTTP_GET_VARS['cat2'];
 }
 
+// TODO: Replace screenshotID by cat3 field (this will require changes to the JavaScript code)
 if (array_key_exists('screenshotID', $HTTP_GET_VARS)) {
   $screenshotID = $HTTP_GET_VARS['screenshotID'];
 }
 
 // If a full screenshotID was provided, ignore all other params and display the corresponding page
 if (preg_match("/^(\d+)_(\d+)_(\d+)\$/", $screenshotID)) {
+	// FIXME:
 	$caption = screenshot_caption($screenshotID);
+	$path = screenshot_path($screenshotID);
 ?>
 	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
 	<html><head><title>Screenshot: <?=$caption?></title><link rel="stylesheet" href="style.css" type="text/css"></head>
 	<body onClick="javascript:self.close();" style="margin:0px;text-align:center;">
-	<img src="./screenshots/bigscummvm_<?=$screenshotID?>.png">
+	<img src="<?=$path?>">
 	</body>
 	</html>
 <?php

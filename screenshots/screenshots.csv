@@ -1,0 +1,262 @@
+# maincategory | subcatgeory | running number | filename | caption
+#
+# Right now, "filename" is not used. Ultimately, the plan is as follows:
+# The filename is *without extension, and can be a relative path.
+# E.g. FILENAME=scumm/zak-2  will cause the system to use the
+# thumbnail "scumm/zak-2.jpg" and the full pic "scumm/zak-2-full.png"
+0|0|0|scummvm_0_0_0|Maniac Mansion (NES)
+0|0|1|scummvm_0_0_1|Maniac Mansion (NES)
+0|0|2|scummvm_0_0_2|Maniac Mansion
+0|0|3|scummvm_0_0_3|Maniac Mansion
+0|0|4|scummvm_0_0_4|Maniac Mansion (Enhanced)
+0|0|5|scummvm_0_0_5|Maniac Mansion (Enhanced)
+0|0|6|scummvm_0_0_6|Maniac Mansion (Amiga German)
+0|1|0|scummvm_0_1_0|Zak McKracken and the Alien Mindbenders (C64 German)
+0|1|1|scummvm_0_1_1|Zak McKracken and the Alien Mindbenders
+0|1|2|scummvm_0_1_2|Zak McKracken and the Alien Mindbenders (Amiga)
+0|1|3|scummvm_0_1_3|Zak McKracken and the Alien Mindbenders (FM-TOWNS)
+0|1|4|scummvm_0_1_4|Zak McKracken and the Alien Mindbenders (FM-TOWNS)
+0|2|0|scummvm_0_2_0|Indiana Jones and the Last Crusade (EGA)
+0|2|1|scummvm_0_2_1|Indiana Jones and the Last Crusade (EGA)
+0|2|2|scummvm_0_2_2|Indiana Jones and the Last Crusade (Amiga)
+0|2|3|scummvm_0_2_3|Indiana Jones and the Last Crusade (VGA)
+0|2|4|scummvm_0_2_4|Indiana Jones and the Last Crusade (VGA)
+0|3|0|scummvm_0_3_0|Indiana Jones and the Fate of Atlantis
+0|3|1|scummvm_0_3_1|Indiana Jones and the Fate of Atlantis
+0|3|2|scummvm_0_3_2|Indiana Jones and the Fate of Atlantis (Amiga)
+0|4|0|scummvm_0_4_0|The Secret of Monkey Island (Hercules)
+0|4|1|scummvm_0_4_1|The Secret of Monkey Island (CGA)
+0|4|2|scummvm_0_4_2|The Secret of Monkey Island (EGA)
+0|4|3|scummvm_0_4_3|The Secret of Monkey Island (EGA)
+0|4|4|scummvm_0_4_4|The Secret of Monkey Island (VGA)
+0|4|5|scummvm_0_4_5|The Secret of Monkey Island (VGA German)
+0|4|6|scummvm_0_4_6|The Secret of Monkey Island (Amiga)
+0|4|7|scummvm_0_4_7|The Secret of Monkey Island (DOS CD)
+0|4|8|scummvm_0_4_8|The Secret of Monkey Island (DOS CD German)
+0|4|9|scummvm_0_4_9|The Secret of Monkey Island (SegaCD)
+0|5|0|scummvm_0_5_0|Monkey Island 2: LeChuck's Revenge
+0|5|1|scummvm_0_5_1|Monkey Island 2: LeChuck's Revenge (German)
+0|5|2|scummvm_0_5_2|Monkey Island 2: LeChuck's Revenge (Amiga)
+0|6|0|scummvm_0_6_0|Loom (EGA)
+0|6|1|scummvm_0_6_1|Loom (EGA German)
+0|6|2|scummvm_0_6_2|Loom (Amiga)
+0|6|3|scummvm_0_6_3|Loom (VGA)
+0|6|4|scummvm_0_6_4|Loom (VGA)
+0|7|0|scummvm_0_7_0|Sam &amp; Max Hit the Road
+0|7|1|scummvm_0_7_1|Sam &amp; Max Hit the Road
+0|7|2|scummvm_0_7_2|Sam &amp; Max Hit the Road
+0|8|0|scummvm_0_8_0|Day of the Tentacle
+0|8|1|scummvm_0_8_1|Day of the Tentacle
+0|8|2|scummvm_0_8_2|Day of the Tentacle (French)
+0|9|0|scummvm_0_9_0|Full Throttle
+0|9|1|scummvm_0_9_1|Full Throttle
+0|9|2|scummvm_0_9_2|Full Throttle
+0|10|0|scummvm_0_10_0|The Dig
+0|10|1|scummvm_0_10_1|The Dig
+0|10|2|scummvm_0_10_2|The Dig
+0|11|0|scummvm_0_11_0|The Curse of Monkey Island
+0|11|1|scummvm_0_11_1|The Curse of Monkey Island
+0|11|2|scummvm_0_11_2|The Curse of Monkey Island
+#
+1|0|0|scummvm_1_0_0|Big Thinkers Kindergarten
+1|0|1|scummvm_1_0_1|Big Thinkers Kindergarten
+1|0|2|scummvm_1_0_2|Big Thinkers First Grade
+1|0|3|scummvm_1_0_3|Big Thinkers First Grade
+1|1|0|scummvm_1_1_0|Let's Explore the Airport with Buzzy
+1|1|1|scummvm_1_1_1|Let's Explore the Airport with Buzzy
+1|1|2|scummvm_1_1_2|Let's Explore the Farm with Buzzy
+1|1|3|scummvm_1_1_3|Let's Explore the Farm with Buzzy
+1|1|4|scummvm_1_1_4|Let's Explore the Jungle with Buzzy
+1|1|5|scummvm_1_1_5|Let's Explore the Jungle with Buzzy
+1|3|0|scummvm_1_3_0|Spy Fox 1: Dry Cereal
+1|3|1|scummvm_1_3_1|Spy Fox 1: Dry Cereal
+1|3|2|scummvm_1_3_2|Spy Fox 2: Some Assembly Required
+1|3|3|scummvm_1_3_3|Spy Fox 2: Some Assembly Required
+1|3|4|scummvm_1_3_4|Spy Fox in Cheese Chase
+1|3|5|scummvm_1_3_5|Spy Fox in Cheese Chase
+1|3|6|scummvm_1_3_6|Spy Fox in Hold the Mustard
+1|3|7|scummvm_1_3_7|Spy Fox in Hold the Mustard
+1|4|0|scummvm_1_4_0|Fatty Bear's Birthday Surprise (Win32)
+1|4|1|scummvm_1_4_1|Fatty Bear's Birthday Surprise (Win32)
+1|4|2|scummvm_1_4_2|Fatty Bear's Fun Pack
+1|4|3|scummvm_1_4_3|Fatty Bear's Fun Pack
+1|5|0|scummvm_1_5_0|Backyard Football
+1|5|1|scummvm_1_5_1|Backyard Football
+1|6|0|scummvm_1_6_0|Freddi Fish 1: The Case of the Missing Kelp Seeds
+1|6|1|scummvm_1_6_1|Freddi Fish 1: The Case of the Missing Kelp Seeds
+1|6|2|scummvm_1_6_2|Freddi Fish 2: The Case of the Haunted Schoolhouse
+1|6|3|scummvm_1_6_3|Freddi Fish 2: The Case of the Haunted Schoolhouse
+1|6|4|scummvm_1_6_4|Freddi Fish 3: The Case of the Stolen Conch Shell
+1|6|5|scummvm_1_6_5|Freddi Fish 3: The Case of the Stolen Conch Shell
+1|6|6|scummvm_1_6_6|Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch
+1|6|7|scummvm_1_6_7|Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch
+1|6|8|scummvm_1_6_8|Freddi Fish and Luther's Maze Madness
+1|6|9|scummvm_1_6_9|Freddi Fish and Luther's Maze Madness
+1|6|10|scummvm_1_6_10|Freddi Fish and Luther's Water Worries
+1|6|11|scummvm_1_6_11|Freddi Fish and Luther's Water Worries
+1|7|0|scummvm_1_7_0|Pajama Sam 1: No Need to Hide When It's Dark Outside
+1|7|1|scummvm_1_7_1|Pajama Sam 1: No Need to Hide When It's Dark Outside
+1|7|2|scummvm_1_7_2|Pajama Sam 2: Thunder and Lightning Aren't so Frightening
+1|7|3|scummvm_1_7_3|Pajama Sam 2: Thunder and Lightning Aren't so Frightening
+1|7|4|scummvm_1_7_4|Pajama Sam 3: You Are What You Eat From Your Head to Your Feet
+1|7|5|scummvm_1_7_5|Pajama Sam 3: You Are What You Eat From Your Head to Your Feet
+1|7|6|scummvm_1_7_6|Pajama Sam's Sock Works
+1|7|7|scummvm_1_7_7|Pajama Sam's Sock Works
+1|8|0|scummvm_1_8_0|Putt-Putt Joins the Parade (DOS)
+1|8|1|scummvm_1_8_1|Putt-Putt Joins the Parade (Win32)
+1|8|2|scummvm_1_8_2|Putt-Putt Goes to the Moon (DOS)
+1|8|3|scummvm_1_8_3|Putt-Putt Goes to the Moon (Win32)
+1|8|4|scummvm_1_8_4|Putt-Putt Enters the Race
+1|8|5|scummvm_1_8_5|Putt-Putt Enters the Race
+1|8|6|scummvm_1_8_6|Putt-Putt Joins the Circus
+1|8|7|scummvm_1_8_7|Putt-Putt Joins the Circus
+1|8|8|scummvm_1_8_8|Putt-Putt Saves the Zoo
+1|8|9|scummvm_1_8_9|Putt-Putt Saves the Zoo
+1|8|10|scummvm_1_8_10|Putt-Putt Travels Through Time
+1|8|11|scummvm_1_8_11|Putt-Putt Travels Through Time
+1|8|12|scummvm_1_8_12|Putt-Putt and Pep's Balloon-O-Rama
+1|8|13|scummvm_1_8_13|Putt-Putt and Pep's Balloon-O-Rama
+1|8|14|scummvm_1_8_14|Putt-Putt and Pep's Dog on a Stick
+1|8|15|scummvm_1_8_15|Putt-Putt and Pep's Dog on a Stick
+1|8|16|scummvm_1_8_16|Putt-Putt's Fun Pack
+1|8|17|scummvm_1_8_17|Putt-Putt's Fun Pack
+1|8|18|scummvm_1_8_18|Putt-Putt & Fatty Bear's Activity Pack
+1|8|19|scummvm_1_8_19|Putt-Putt & Fatty Bear's Activity Pack
+#
+2|0|0|scummvm_2_0_0|Broken Sword 1 - The Shadow of the Templars
+2|0|1|scummvm_2_0_1|Broken Sword 1 - The Shadow of the Templars
+2|0|2|scummvm_2_0_2|Broken Sword 2 - The Smoking Mirror
+2|0|3|scummvm_2_0_3|Broken Sword 2 - The Smoking Mirror
+2|10|0|scummvm_2_10_0|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|10|1|scummvm_2_10_1|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|10|2|scummvm_2_10_2|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|10|3|scummvm_2_10_3|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|10|4|scummvm_2_10_4|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|10|5|scummvm_2_10_5|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|11|0|scummvm_2_11_0|Bargon Attack (DOS) 
+2|11|1|scummvm_2_11_1|Bargon Attack (DOS) 
+2|11|2|scummvm_2_11_2|Bargon Attack (DOS) 
+2|1|0|scummvm_2_1_0|Gobliiins
+2|1|1|scummvm_2_1_1|Gobliiins
+2|1|2|scummvm_2_1_2|Gobliins 2 (CD)
+2|1|3|scummvm_2_1_3|Gobliins 2 (CD)
+2|1|4|scummvm_2_1_4|Gobliins 2 (CD)
+2|2|0|scummvm_2_2_0|Inherit the Earth: Quest for the Orb
+2|2|1|scummvm_2_2_1|Inherit the Earth: Quest for the Orb (German)
+2|3|0|scummvm_2_3_0|Flight of the Amazon Queen
+2|3|1|scummvm_2_3_1|Flight of the Amazon Queen (DOS Hebrew)
+2|4|0|scummvm_2_4_0|Simon the Sorcerer
+2|4|1|scummvm_2_4_1|Simon the Sorcerer
+2|4|10|scummvm_2_4_10|Simon the Sorcerer's Puzzle Pack - Swampy Adventures
+2|4|11|scummvm_2_4_11|Simon the Sorcerer's Puzzle Pack - Swampy Adventures
+2|4|2|scummvm_2_4_2|Simon the Sorcerer 2
+2|4|3|scummvm_2_4_3|Simon the Sorcerer 2 (DOS Hebrew)
+2|4|4|scummvm_2_4_4|Simon the Sorcerer's Puzzle Pack - D.I.M.P.
+2|4|5|scummvm_2_4_5|Simon the Sorcerer's Puzzle Pack - D.I.M.P.
+2|4|6|scummvm_2_4_6|Simon the Sorcerer's Puzzle Pack - Jumble
+2|4|7|scummvm_2_4_7|Simon the Sorcerer's Puzzle Pack - Jumble
+2|4|8|scummvm_2_4_8|Simon the Sorcerer's Puzzle Pack - NoPatience
+2|4|9|scummvm_2_4_9|Simon the Sorcerer's Puzzle Pack - NoPatience
+2|5|0|scummvm_2_5_0|Beneath a Steel Sky
+2|5|1|scummvm_2_5_1|Beneath a Steel Sky
+2|6|0|scummvm_2_6_0|The Legend of Kyrandia (DOS)
+2|6|1|scummvm_2_6_1|The Legend of Kyrandia (DOS)
+2|7|0|scummvm_2_7_0|The Feeble Files (Windows)
+2|7|1|scummvm_2_7_1|The Feeble Files (Windows)
+2|7|2|scummvm_2_7_2|The Feeble Files (Windows)
+2|7|3|scummvm_2_7_3|The Feeble Files (Windows)
+2|7|4|scummvm_2_7_4|The Feeble Files (Windows)
+2|8|0|scummvm_2_8_0|Future Wars: Time Travellers
+2|8|1|scummvm_2_8_1|Future Wars: Time Travellers
+2|8|2|scummvm_2_8_2|Future Wars: Time Travellers
+2|8|3|scummvm_2_8_3|Future Wars: Time Travellers
+2|9|0|scummvm_2_9_0|Ween: The Prophecy
+2|9|1|scummvm_2_9_1|Ween: The Prophecy
+2|9|2|scummvm_2_9_2|Ween: The Prophecy
+2|9|3|scummvm_2_9_3|Ween: The Prophecy
+#
+3|1|0|scummvm_3_1_0|The Black Cauldron (2.00 1987-06-14/DOS/English)
+3|1|1|scummvm_3_1_1|The Black Cauldron (2.00 1987-06-14/DOS/English)
+3|1|2|scummvm_3_1_2|The Black Cauldron (2.00 1987-06-14/DOS/English)
+3|1|3|scummvm_3_1_3|The Black Cauldron (2.00 1987-06-14/DOS/English)
+3|1|4|scummvm_3_1_4|The Black Cauldron (2.00 1987-06-14/DOS/English)
+3|2|0|scummvm_3_2_0|Gold Rush! (2.01 1988-12-22 3.5&quot;/DOS/English)
+3|2|1|scummvm_3_2_1|Gold Rush! (2.01 1988-12-22 3.5&quot;/DOS/English)
+3|2|2|scummvm_3_2_2|Gold Rush! (2.01 1988-12-22 3.5&quot;/DOS/English)
+3|2|3|scummvm_3_2_3|Gold Rush! (2.01 1988-12-22 3.5&quot;/DOS/English)
+3|3|0|scummvm_3_3_0|King's Quest I: Quest for the Crown (2.0F 1987-05-05 5.25&quot;/3.5&quot;/DOS/English)
+3|3|1|scummvm_3_3_1|King's Quest I: Quest for the Crown (2.0F 1987-05-05 5.25&quot;/3.5&quot;/DOS/English)
+3|3|2|scummvm_3_3_2|King's Quest I: Quest for the Crown (2.0F 1987-05-05 5.25&quot;/3.5&quot;/DOS/English)
+3|3|3|scummvm_3_3_3|King's Quest I: Quest for the Crown (2.0F 1987-05-05 5.25&quot;/3.5&quot;/DOS/English)
+3|3|4|scummvm_3_3_4|King's Quest II: Romancing the Stone (2.1 1987-04-10/DOS/English)
+3|3|5|scummvm_3_3_5|King's Quest II: Romancing the Stone (2.1 1987-04-10/DOS/English)
+3|3|6|scummvm_3_3_6|King's Quest II: Romancing the Throne (2.2 1987-05-07 5.25&quot;/3.5&quot;/DOS/English)
+3|3|7|scummvm_3_3_7|King's Quest II: Romancing the Throne (2.2 1987-05-07 5.25&quot;/3.5&quot;/DOS/English)
+3|3|8|scummvm_3_3_8|King's Quest III: To Heir Is Human (2.14 1988-03-15 3.5&quot;/DOS/English)
+3|3|9|scummvm_3_3_9|King's Quest III: To Heir Is Human (2.14 1988-03-15 3.5&quot;/DOS/English)
+3|3|10|scummvm_3_3_10|King's Quest III: To Heir Is Human (2.14 1988-03-15 3.5&quot;/DOS/English)
+3|3|11|scummvm_3_3_11|King's Quest III: To Heir Is Human (2.14 1988-03-15 3.5&quot;/DOS/English)
+3|3|12|scummvm_3_3_12|King's Quest III: To Heir Is Human (2.14 1988-03-15 3.5&quot;/DOS/English)
+3|3|13|scummvm_3_3_13|King's Quest IV: The Perils of Rosella (2.0 1988-07-27 3.5&quot;/DOS/English)
+3|3|14|scummvm_3_3_14|King's Quest IV: The Perils of Rosella (2.0 1988-07-27 3.5&quot;/DOS/English)
+3|3|15|scummvm_3_3_15|King's Quest IV: The Perils of Rosella (2.0 1988-07-27 3.5&quot;/DOS/English)
+3|3|16|scummvm_3_3_16|King's Quest IV: The Perils of Rosella (2.0 1988-07-27 3.5&quot;/DOS/English)
+3|3|17|scummvm_3_3_17|King's Quest IV: The Perils of Rosella (2.0 1988-07-27 3.5&quot;/DOS/English)
+3|4|0|scummvm_3_4_0|Leisure Suit Larry in the Land of the Lounge Lizards (1.00 1987-06-01 5.25&quot;/3.5&quot"/DOS/English)
+3|4|1|scummvm_3_4_1|Leisure Suit Larry in the Land of the Lounge Lizards (1.00 1987-06-01 5.25&quot;/3.5&quot"/DOS/English)
+3|4|2|scummvm_3_4_2|Leisure Suit Larry in the Land of the Lounge Lizards (1.00 1987-06-01 5.25&quot;/3.5&quot"/DOS/English)
+3|4|3|scummvm_3_4_3|Leisure Suit Larry in the Land of the Lounge Lizards (1.00 1987-06-01 5.25&quot;/3.5&quot"/DOS/English)
+3|5|0|scummvm_3_5_0|Manhunter 1: New York (1.22 1988-08-31/DOS/English)
+3|5|1|scummvm_3_5_1|Manhunter 1: New York (1.22 1988-08-31/DOS/English)
+3|5|2|scummvm_3_5_2|Manhunter 1: New York (1.22 1988-08-31/DOS/English)
+3|5|3|scummvm_3_5_3|Manhunter 1: New York (1.22 1988-08-31/DOS/English)
+3|5|4|scummvm_3_5_4|Manhunter 1: New York (1.22 1988-08-31/DOS/English)
+3|5|5|scummvm_3_5_5|Manhunter 1: New York (1.22 1988-08-31/DOS/English)
+3|5|6|scummvm_3_5_6|Manhunter 2: San Francisco (3.02 1989-07-26 3.5&quot;/DOS/English)
+3|5|7|scummvm_3_5_7|Manhunter 2: San Francisco (3.02 1989-07-26 3.5&quot;/DOS/English)
+3|5|8|scummvm_3_5_8|Manhunter 2: San Francisco (3.02 1989-07-26 3.5&quot;/DOS/English)
+3|5|9|scummvm_3_5_9|Manhunter 2: San Francisco (3.02 1989-07-26 3.5&quot;/DOS/English)
+3|5|10|scummvm_3_5_10|Manhunter 2: San Francisco (3.02 1989-07-26 3.5&quot;/DOS/English)
+3|5|11|scummvm_3_5_11|Manhunter 2: San Francisco (3.02 1989-07-26 3.5&quot;/DOS/English)
+3|6|0|scummvm_3_6_0|Mixed-Up Mother Goose (1987-11-10/DOS/English)
+3|6|1|scummvm_3_6_1|Mixed-Up Mother Goose (1987-11-10/DOS/English)
+3|6|2|scummvm_3_6_2|Mixed-Up Mother Goose (1987-11-10/DOS/English)
+3|6|3|scummvm_3_6_3|Mixed-Up Mother Goose (1987-11-10/DOS/English)
+3|6|4|scummvm_3_6_4|Mixed-Up Mother Goose (1987-11-10/DOS/English)
+3|6|5|scummvm_3_6_5|Mixed-Up Mother Goose (1987-11-10/DOS/English)
+3|7|0|scummvm_3_7_0|Police Quest I: In Pursuit of the Death Angel (2.0G 1987-12-03/DOS/English)
+3|7|1|scummvm_3_7_1|Police Quest I: In Pursuit of the Death Angel (2.0G 1987-12-03/DOS/English)
+3|7|2|scummvm_3_7_2|Police Quest I: In Pursuit of the Death Angel (2.0G 1987-12-03/DOS/English)
+3|7|3|scummvm_3_7_3|Police Quest I: In Pursuit of the Death Angel (2.0G 1987-12-03/DOS/English)
+3|7|4|scummvm_3_7_4|Police Quest I: In Pursuit of the Death Angel (2.0G 1987-12-03/DOS/English)
+3|7|5|scummvm_3_7_5|Police Quest I: In Pursuit of the Death Angel (2.0G 1987-12-03/DOS/English)
+3|8|0|scummvm_3_8_0|Space Quest I: The Sarien Encounter (1.1A 1986-11-13/DOS/English)
+3|8|1|scummvm_3_8_1|Space Quest I: The Sarien Encounter (1.1A 1986-11-13/DOS/English)
+3|8|2|scummvm_3_8_2|Space Quest I: The Sarien Encounter (1.1A 1986-11-13/DOS/English)
+3|8|3|scummvm_3_8_3|Space Quest I: The Sarien Encounter (1.1A 1986-11-13/DOS/English)
+3|8|4|scummvm_3_8_4|Space Quest I: The Sarien Encounter (1.1A 1986-11-13/DOS/English)
+3|8|5|scummvm_3_8_5|Space Quest I: The Sarien Encounter (1.1A 1986-11-13/DOS/English)
+3|8|6|scummvm_3_8_6|Space Quest II: Vohaul's Revenge (2.0A 1987-11-06 5.25&quot;/DOS/English)
+3|8|7|scummvm_3_8_7|Space Quest II: Vohaul's Revenge (2.0A 1987-11-06 5.25&quot;/DOS/English)
+3|8|8|scummvm_3_8_8|Space Quest II: Vohaul's Revenge (2.0A 1987-11-06 5.25&quot;/DOS/English)
+3|8|9|scummvm_3_8_9|Space Quest II: Vohaul's Revenge (2.0A 1987-11-06 5.25&quot;/DOS/English)
+3|8|10|scummvm_3_8_10|Space Quest II: Vohaul's Revenge (2.0A 1987-11-06 5.25&quot;/DOS/English)
+3|8|11|scummvm_3_8_11|Space Quest II: Vohaul's Revenge (2.0A 1987-11-06 5.25&quot;/DOS/English)
+3|8|12|scummvm_3_8_12|Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)
+3|8|13|scummvm_3_8_13|Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)
+3|9|0|scummvm_3_9_0|Serguei's Destiny 1 (v1.1 2003 Apr 10/DOS/English)
+3|9|1|scummvm_3_9_1|Serguei's Destiny 1 (v1.1 2003 Apr 10/DOS/English)
+3|9|2|scummvm_3_9_2|Serguei's Destiny 1 (v1.1 2003 Apr 10/DOS/English)
+3|9|3|scummvm_3_9_3|Space Quest 0: Replicated (v1.04/DOS/English)
+3|9|4|scummvm_3_9_4|Space Quest 0: Replicated (v1.04/DOS/English)
+3|9|5|scummvm_3_9_5|Space Quest 0: Replicated (v1.04/DOS/English)
+3|9|6|scummvm_3_9_6|Space Quest 0: Replicated (v1.04/DOS/English)
+3|9|7|scummvm_3_9_7|Space Quest 0: Replicated (v1.04/DOS/English)
+3|9|8|scummvm_3_9_8|Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)
+3|9|9|scummvm_3_9_9|Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)
+3|9|10|scummvm_3_9_10|Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)
+3|9|11|scummvm_3_9_11|Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)
+3|9|12|scummvm_3_9_12|Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)
+3|9|13|scummvm_3_9_13|Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)
+3|9|14|scummvm_3_9_14|Voodoo Girl - Queen of the Darned (v1.2 2002 Jan 1/DOS/English)
+3|9|15|scummvm_3_9_15|Voodoo Girl - Queen of the Darned (v1.2 2002 Jan 1/DOS/English)
