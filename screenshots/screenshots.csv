@@ -1,7 +1,5 @@
 # maincategory | subcatgeory | running number | filename | caption
-#
-# Right now, "filename" is not used. Ultimately, the plan is as follows:
-# The filename is *without extension, and can be a relative path.
+# The filename is without extension, and can be a relative path.
 # E.g. FILENAME=scumm/zak-2  will cause the system to use the
 # thumbnail "scumm/zak-2.jpg" and the full pic "scumm/zak-2-full.png"
 0|0|0|scumm/scummvm_0_0_0|Maniac Mansion (NES)
@@ -127,15 +125,6 @@
 2|0|1|scummvm_2_0_1|Broken Sword 1 - The Shadow of the Templars
 2|0|2|scummvm_2_0_2|Broken Sword 2 - The Smoking Mirror
 2|0|3|scummvm_2_0_3|Broken Sword 2 - The Smoking Mirror
-2|10|0|scummvm_2_10_0|Touch&eacute;: The Adventures of the Fifth Musketeer
-2|10|1|scummvm_2_10_1|Touch&eacute;: The Adventures of the Fifth Musketeer
-2|10|2|scummvm_2_10_2|Touch&eacute;: The Adventures of the Fifth Musketeer
-2|10|3|scummvm_2_10_3|Touch&eacute;: The Adventures of the Fifth Musketeer
-2|10|4|scummvm_2_10_4|Touch&eacute;: The Adventures of the Fifth Musketeer
-2|10|5|scummvm_2_10_5|Touch&eacute;: The Adventures of the Fifth Musketeer
-2|11|0|scummvm_2_11_0|Bargon Attack (DOS) 
-2|11|1|scummvm_2_11_1|Bargon Attack (DOS) 
-2|11|2|scummvm_2_11_2|Bargon Attack (DOS) 
 2|1|0|scummvm_2_1_0|Gobliiins
 2|1|1|scummvm_2_1_1|Gobliiins
 2|1|2|scummvm_2_1_2|Gobliins 2 (CD)
@@ -174,6 +163,15 @@
 2|9|1|scummvm_2_9_1|Ween: The Prophecy
 2|9|2|scummvm_2_9_2|Ween: The Prophecy
 2|9|3|scummvm_2_9_3|Ween: The Prophecy
+2|10|0|scummvm_2_10_0|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|10|1|scummvm_2_10_1|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|10|2|scummvm_2_10_2|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|10|3|scummvm_2_10_3|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|10|4|scummvm_2_10_4|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|10|5|scummvm_2_10_5|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|11|0|scummvm_2_11_0|Bargon Attack (DOS) 
+2|11|1|scummvm_2_11_1|Bargon Attack (DOS) 
+2|11|2|scummvm_2_11_2|Bargon Attack (DOS) 
 #
 3|1|0|scummvm_3_1_0|The Black Cauldron (2.00 1987-06-14/DOS/English)
 3|1|1|scummvm_3_1_1|The Black Cauldron (2.00 1987-06-14/DOS/English)
