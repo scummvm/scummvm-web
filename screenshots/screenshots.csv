@@ -125,62 +125,60 @@
 1|8|18|he/puttputt/scummvm_1_8_18|Putt-Putt & Fatty Bear's Activity Pack
 1|8|19|he/puttputt/scummvm_1_8_19|Putt-Putt & Fatty Bear's Activity Pack
 #
-2|0|0|scummvm_2_0_0|Broken Sword 1 - The Shadow of the Templars
-2|0|1|scummvm_2_0_1|Broken Sword 1 - The Shadow of the Templars
-2|0|2|scummvm_2_0_2|Broken Sword 2 - The Smoking Mirror
-2|0|3|scummvm_2_0_3|Broken Sword 2 - The Smoking Mirror
-2|1|0|scummvm_2_1_0|Gobliiins
-2|1|1|scummvm_2_1_1|Gobliiins
-2|1|2|scummvm_2_1_2|Gobliins 2 (CD)
-2|1|3|scummvm_2_1_3|Gobliins 2 (CD)
-2|1|4|scummvm_2_1_4|Gobliins 2 (CD)
-
-2|1|5|scummvm_2_1_5|Goblins Quest 3 (DOS)
-2|1|6|scummvm_2_1_6|Goblins Quest 3 (DOS)
-2|1|7|scummvm_2_1_7|Goblins Quest 3 (DOS)
-
-2|2|0|scummvm_2_2_0|Inherit the Earth: Quest for the Orb
-2|2|1|scummvm_2_2_1|Inherit the Earth: Quest for the Orb (German)
-2|3|0|scummvm_2_3_0|Flight of the Amazon Queen
-2|3|1|scummvm_2_3_1|Flight of the Amazon Queen (DOS Hebrew)
-2|4|0|scummvm_2_4_0|Simon the Sorcerer
-2|4|1|scummvm_2_4_1|Simon the Sorcerer
-2|4|10|scummvm_2_4_10|Simon the Sorcerer's Puzzle Pack - Swampy Adventures
-2|4|11|scummvm_2_4_11|Simon the Sorcerer's Puzzle Pack - Swampy Adventures
-2|4|2|scummvm_2_4_2|Simon the Sorcerer 2
-2|4|3|scummvm_2_4_3|Simon the Sorcerer 2 (DOS Hebrew)
-2|4|4|scummvm_2_4_4|Simon the Sorcerer's Puzzle Pack - D.I.M.P.
-2|4|5|scummvm_2_4_5|Simon the Sorcerer's Puzzle Pack - D.I.M.P.
-2|4|6|scummvm_2_4_6|Simon the Sorcerer's Puzzle Pack - Jumble
-2|4|7|scummvm_2_4_7|Simon the Sorcerer's Puzzle Pack - Jumble
-2|4|8|scummvm_2_4_8|Simon the Sorcerer's Puzzle Pack - NoPatience
-2|4|9|scummvm_2_4_9|Simon the Sorcerer's Puzzle Pack - NoPatience
-2|5|0|scummvm_2_5_0|Beneath a Steel Sky
-2|5|1|scummvm_2_5_1|Beneath a Steel Sky
-2|6|0|scummvm_2_6_0|The Legend of Kyrandia (DOS)
-2|6|1|scummvm_2_6_1|The Legend of Kyrandia (DOS)
-2|7|0|scummvm_2_7_0|The Feeble Files (Windows)
-2|7|1|scummvm_2_7_1|The Feeble Files (Windows)
-2|7|2|scummvm_2_7_2|The Feeble Files (Windows)
-2|7|3|scummvm_2_7_3|The Feeble Files (Windows)
-2|7|4|scummvm_2_7_4|The Feeble Files (Windows)
-2|8|0|scummvm_2_8_0|Future Wars: Time Travellers
-2|8|1|scummvm_2_8_1|Future Wars: Time Travellers
-2|8|2|scummvm_2_8_2|Future Wars: Time Travellers
-2|8|3|scummvm_2_8_3|Future Wars: Time Travellers
-2|9|0|scummvm_2_9_0|Ween: The Prophecy
-2|9|1|scummvm_2_9_1|Ween: The Prophecy
-2|9|2|scummvm_2_9_2|Ween: The Prophecy
-2|9|3|scummvm_2_9_3|Ween: The Prophecy
-2|10|0|scummvm_2_10_0|Touch&eacute;: The Adventures of the Fifth Musketeer
-2|10|1|scummvm_2_10_1|Touch&eacute;: The Adventures of the Fifth Musketeer
-2|10|2|scummvm_2_10_2|Touch&eacute;: The Adventures of the Fifth Musketeer
-2|10|3|scummvm_2_10_3|Touch&eacute;: The Adventures of the Fifth Musketeer
-2|10|4|scummvm_2_10_4|Touch&eacute;: The Adventures of the Fifth Musketeer
-2|10|5|scummvm_2_10_5|Touch&eacute;: The Adventures of the Fifth Musketeer
-2|11|0|scummvm_2_11_0|Bargon Attack (DOS) 
-2|11|1|scummvm_2_11_1|Bargon Attack (DOS) 
-2|11|2|scummvm_2_11_2|Bargon Attack (DOS) 
+2|0|0|other/sword/scummvm_2_0_0|Broken Sword 1 - The Shadow of the Templars
+2|0|1|other/sword/scummvm_2_0_1|Broken Sword 1 - The Shadow of the Templars
+2|0|2|other/sword/scummvm_2_0_2|Broken Sword 2 - The Smoking Mirror
+2|0|3|other/sword/scummvm_2_0_3|Broken Sword 2 - The Smoking Mirror
+2|1|0|other/gob/scummvm_2_1_0|Gobliiins
+2|1|1|other/gob/scummvm_2_1_1|Gobliiins
+2|1|2|other/gob/scummvm_2_1_2|Gobliins 2 (CD)
+2|1|3|other/gob/scummvm_2_1_3|Gobliins 2 (CD)
+2|1|4|other/gob/scummvm_2_1_4|Gobliins 2 (CD)
+2|1|5|other/gob/scummvm_2_1_5|Goblins Quest 3 (DOS)
+2|1|6|other/gob/scummvm_2_1_6|Goblins Quest 3 (DOS)
+2|1|7|other/gob/scummvm_2_1_7|Goblins Quest 3 (DOS)
+2|2|0|other/ite/scummvm_2_2_0|Inherit the Earth: Quest for the Orb
+2|2|1|other/ite/scummvm_2_2_1|Inherit the Earth: Quest for the Orb (German)
+2|3|0|other/queen/scummvm_2_3_0|Flight of the Amazon Queen
+2|3|1|other/queen/scummvm_2_3_1|Flight of the Amazon Queen (DOS Hebrew)
+2|4|0|other/simon/scummvm_2_4_0|Simon the Sorcerer
+2|4|1|other/simon/scummvm_2_4_1|Simon the Sorcerer
+2|4|10|other/simon/scummvm_2_4_10|Simon the Sorcerer's Puzzle Pack - Swampy Adventures
+2|4|11|other/simon/scummvm_2_4_11|Simon the Sorcerer's Puzzle Pack - Swampy Adventures
+2|4|2|other/simon/scummvm_2_4_2|Simon the Sorcerer 2
+2|4|3|other/simon/scummvm_2_4_3|Simon the Sorcerer 2 (DOS Hebrew)
+2|4|4|other/simon/scummvm_2_4_4|Simon the Sorcerer's Puzzle Pack - D.I.M.P.
+2|4|5|other/simon/scummvm_2_4_5|Simon the Sorcerer's Puzzle Pack - D.I.M.P.
+2|4|6|other/simon/scummvm_2_4_6|Simon the Sorcerer's Puzzle Pack - Jumble
+2|4|7|other/simon/scummvm_2_4_7|Simon the Sorcerer's Puzzle Pack - Jumble
+2|4|8|other/simon/scummvm_2_4_8|Simon the Sorcerer's Puzzle Pack - NoPatience
+2|4|9|other/simon/scummvm_2_4_9|Simon the Sorcerer's Puzzle Pack - NoPatience
+2|5|0|other/sky/scummvm_2_5_0|Beneath a Steel Sky
+2|5|1|other/sky/scummvm_2_5_1|Beneath a Steel Sky
+2|6|0|other/kyra/scummvm_2_6_0|The Legend of Kyrandia (DOS)
+2|6|1|other/kyra/scummvm_2_6_1|The Legend of Kyrandia (DOS)
+2|7|0|other/feeble/scummvm_2_7_0|The Feeble Files (Windows)
+2|7|1|other/feeble/scummvm_2_7_1|The Feeble Files (Windows)
+2|7|2|other/feeble/scummvm_2_7_2|The Feeble Files (Windows)
+2|7|3|other/feeble/scummvm_2_7_3|The Feeble Files (Windows)
+2|7|4|other/feeble/scummvm_2_7_4|The Feeble Files (Windows)
+2|8|0|other/fw/scummvm_2_8_0|Future Wars: Time Travellers
+2|8|1|other/fw/scummvm_2_8_1|Future Wars: Time Travellers
+2|8|2|other/fw/scummvm_2_8_2|Future Wars: Time Travellers
+2|8|3|other/fw/scummvm_2_8_3|Future Wars: Time Travellers
+2|9|0|other/ween/scummvm_2_9_0|Ween: The Prophecy
+2|9|1|other/ween/scummvm_2_9_1|Ween: The Prophecy
+2|9|2|other/ween/scummvm_2_9_2|Ween: The Prophecy
+2|9|3|other/ween/scummvm_2_9_3|Ween: The Prophecy
+2|10|0|other/touche/scummvm_2_10_0|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|10|1|other/touche/scummvm_2_10_1|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|10|2|other/touche/scummvm_2_10_2|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|10|3|other/touche/scummvm_2_10_3|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|10|4|other/touche/scummvm_2_10_4|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|10|5|other/touche/scummvm_2_10_5|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|11|0|other/bargon/scummvm_2_11_0|Bargon Attack (DOS) 
+2|11|1|other/bargon/scummvm_2_11_1|Bargon Attack (DOS) 
+2|11|2|other/bargon/scummvm_2_11_2|Bargon Attack (DOS) 
 #
 # Sierra AGI games
 #
