@@ -60,42 +60,42 @@
 0|11|1|lec/comi/scummvm_0_11_1|The Curse of Monkey Island
 0|11|2|lec/comi/scummvm_0_11_2|The Curse of Monkey Island
 #
-1|0|0|scummvm_1_0_0|Big Thinkers Kindergarten
-1|0|1|scummvm_1_0_1|Big Thinkers Kindergarten
-1|0|2|scummvm_1_0_2|Big Thinkers First Grade
-1|0|3|scummvm_1_0_3|Big Thinkers First Grade
-1|1|0|scummvm_1_1_0|Let's Explore the Airport with Buzzy
-1|1|1|scummvm_1_1_1|Let's Explore the Airport with Buzzy
-1|1|2|scummvm_1_1_2|Let's Explore the Farm with Buzzy
-1|1|3|scummvm_1_1_3|Let's Explore the Farm with Buzzy
-1|1|4|scummvm_1_1_4|Let's Explore the Jungle with Buzzy
-1|1|5|scummvm_1_1_5|Let's Explore the Jungle with Buzzy
-1|3|0|scummvm_1_3_0|Spy Fox 1: Dry Cereal
-1|3|1|scummvm_1_3_1|Spy Fox 1: Dry Cereal
-1|3|2|scummvm_1_3_2|Spy Fox 2: Some Assembly Required
-1|3|3|scummvm_1_3_3|Spy Fox 2: Some Assembly Required
-1|3|4|scummvm_1_3_4|Spy Fox in Cheese Chase
-1|3|5|scummvm_1_3_5|Spy Fox in Cheese Chase
-1|3|6|scummvm_1_3_6|Spy Fox in Hold the Mustard
-1|3|7|scummvm_1_3_7|Spy Fox in Hold the Mustard
-1|4|0|scummvm_1_4_0|Fatty Bear's Birthday Surprise (Win32)
-1|4|1|scummvm_1_4_1|Fatty Bear's Birthday Surprise (Win32)
-1|4|2|scummvm_1_4_2|Fatty Bear's Fun Pack
-1|4|3|scummvm_1_4_3|Fatty Bear's Fun Pack
-1|5|0|scummvm_1_5_0|Backyard Football
-1|5|1|scummvm_1_5_1|Backyard Football
-1|6|0|scummvm_1_6_0|Freddi Fish 1: The Case of the Missing Kelp Seeds
-1|6|1|scummvm_1_6_1|Freddi Fish 1: The Case of the Missing Kelp Seeds
-1|6|2|scummvm_1_6_2|Freddi Fish 2: The Case of the Haunted Schoolhouse
-1|6|3|scummvm_1_6_3|Freddi Fish 2: The Case of the Haunted Schoolhouse
-1|6|4|scummvm_1_6_4|Freddi Fish 3: The Case of the Stolen Conch Shell
-1|6|5|scummvm_1_6_5|Freddi Fish 3: The Case of the Stolen Conch Shell
-1|6|6|scummvm_1_6_6|Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch
-1|6|7|scummvm_1_6_7|Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch
-1|6|8|scummvm_1_6_8|Freddi Fish and Luther's Maze Madness
-1|6|9|scummvm_1_6_9|Freddi Fish and Luther's Maze Madness
-1|6|10|scummvm_1_6_10|Freddi Fish and Luther's Water Worries
-1|6|11|scummvm_1_6_11|Freddi Fish and Luther's Water Worries
+1|0|0|he/thinkers/scummvm_1_0_0|Big Thinkers Kindergarten
+1|0|1|he/thinkers/scummvm_1_0_1|Big Thinkers Kindergarten
+1|0|2|he/thinkers/scummvm_1_0_2|Big Thinkers First Grade
+1|0|3|he/thinkers/scummvm_1_0_3|Big Thinkers First Grade
+1|1|0|he/field/scummvm_1_1_0|Let's Explore the Airport with Buzzy
+1|1|1|he/field/scummvm_1_1_1|Let's Explore the Airport with Buzzy
+1|1|2|he/field/scummvm_1_1_2|Let's Explore the Farm with Buzzy
+1|1|3|he/field/scummvm_1_1_3|Let's Explore the Farm with Buzzy
+1|1|4|he/field/scummvm_1_1_4|Let's Explore the Jungle with Buzzy
+1|1|5|he/field/scummvm_1_1_5|Let's Explore the Jungle with Buzzy
+1|3|0|he/spyfox/scummvm_1_3_0|Spy Fox 1: Dry Cereal
+1|3|1|he/spyfox/scummvm_1_3_1|Spy Fox 1: Dry Cereal
+1|3|2|he/spyfox/scummvm_1_3_2|Spy Fox 2: Some Assembly Required
+1|3|3|he/spyfox/scummvm_1_3_3|Spy Fox 2: Some Assembly Required
+1|3|4|he/spyfox/scummvm_1_3_4|Spy Fox in Cheese Chase
+1|3|5|he/spyfox/scummvm_1_3_5|Spy Fox in Cheese Chase
+1|3|6|he/spyfox/scummvm_1_3_6|Spy Fox in Hold the Mustard
+1|3|7|he/spyfox/scummvm_1_3_7|Spy Fox in Hold the Mustard
+1|4|0|he/fbear/scummvm_1_4_0|Fatty Bear's Birthday Surprise (Win32)
+1|4|1|he/fbear/scummvm_1_4_1|Fatty Bear's Birthday Surprise (Win32)
+1|4|2|he/fbear/scummvm_1_4_2|Fatty Bear's Fun Pack
+1|4|3|he/fbear/scummvm_1_4_3|Fatty Bear's Fun Pack
+1|5|0|he/sports/scummvm_1_5_0|Backyard Football
+1|5|1|he/sports/scummvm_1_5_1|Backyard Football
+1|6|0|he/ffish/scummvm_1_6_0|Freddi Fish 1: The Case of the Missing Kelp Seeds
+1|6|1|he/ffish/scummvm_1_6_1|Freddi Fish 1: The Case of the Missing Kelp Seeds
+1|6|2|he/ffish/scummvm_1_6_2|Freddi Fish 2: The Case of the Haunted Schoolhouse
+1|6|3|he/ffish/scummvm_1_6_3|Freddi Fish 2: The Case of the Haunted Schoolhouse
+1|6|4|he/ffish/scummvm_1_6_4|Freddi Fish 3: The Case of the Stolen Conch Shell
+1|6|5|he/ffish/scummvm_1_6_5|Freddi Fish 3: The Case of the Stolen Conch Shell
+1|6|6|he/ffish/scummvm_1_6_6|Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch
+1|6|7|he/ffish/scummvm_1_6_7|Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch
+1|6|8|he/ffish/scummvm_1_6_8|Freddi Fish and Luther's Maze Madness
+1|6|9|he/ffish/scummvm_1_6_9|Freddi Fish and Luther's Maze Madness
+1|6|10|he/ffish/scummvm_1_6_10|Freddi Fish and Luther's Water Worries
+1|6|11|he/ffish/scummvm_1_6_11|Freddi Fish and Luther's Water Worries
 1|7|0|scummvm_1_7_0|Pajama Sam 1: No Need to Hide When It's Dark Outside
 1|7|1|scummvm_1_7_1|Pajama Sam 1: No Need to Hide When It's Dark Outside
 1|7|2|scummvm_1_7_2|Pajama Sam 2: Thunder and Lightning Aren't so Frightening
