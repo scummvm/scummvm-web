@@ -32,7 +32,7 @@ function sidebar_start () {
     $g->add("Project Home", "http://sourceforge.net/projects/scummvm/");
     $g->add("Bug Tracking", "http://sourceforge.net/tracker/?group_id=37116&amp;atid=418820");
     $g->add("Daily Snapshots", "/daily/");
-    $g->add("Subversion Tree", "http://svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/");
+    $g->add("Subversion Tree", "http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/");
     $g->done();      
 
     $g = new htmlmenu("Misc. Menu", "menu-misc", '<img src="'.$file_root.'/images/hangmonk.gif" alt="monkey" align="right" width="55" height="57"><a href="http://sourceforge.net/donate/index.php?group_id=37116"><img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" border="0" alt="Support This Project"> </a>
