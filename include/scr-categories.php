@@ -100,6 +100,7 @@ $cat->add(3, "cat-queen.png", "Flight of the Amazon Queen");
 $cat->add(8, "cat-fw.png", "Future Wars: Time Travelers");
 $cat->add(1, "cat-gob.png", "Gobliiins series");
 $cat->add(2, "cat-ite.png", "Inherit the Earth: Quest for the Orb");
+$cat->add(12, "cat-nippon.png", "Nippon Safes Inc.");
 $cat->add(4, "cat-simon.png", "Simon the Sorcerer series");
 $cat->add(7, "cat-feeble.png", "The Feeble Files");
 $cat->add(6, "cat-kyra.png", "The Legend of Kyrandia series");
