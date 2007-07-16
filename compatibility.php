@@ -85,6 +85,7 @@ $gamesHE = array(
 	'Backyard Baseball'                                                => array('baseball','20'),
 	'Backyard Football'                                                => array('football','80'),
 	'Backyard Soccer'                                                  => array('soccer','20'),
+	'Bear Stormin\''                   			           => array('brstorm','95'),
 	'Big Thinkers First Grade'                                         => array('thinker1','90'),
 	'Big Thinkers Kindergarten'                                        => array('thinkerk','90'),
 	'Blue\'s ABC Time'                                                 => array('BluesABCTime','50'),
@@ -241,6 +242,7 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "BluesBirthday" => "Game is playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
+"brstorm"	=> "Game is playable",
 "fbear"		=> "Game should be completable, with several glitches".
 		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target".
 		   "<br>- Piano sounds aren't the correct pitch in DOS version",
