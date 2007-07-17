@@ -49,7 +49,7 @@ if ($view and file_exists($file_root."/docs/".$view.".xml")) {
   <br>
   <br>
 
-  <a href='http://svn.sourceforge.net/viewcvs.py/*checkout*/scummvm/scummvm/tags/release-0-10-0/README'>README 0.10.0</a><br>
+  <a href='http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/branches/branch-0-10-0/README?view=markup'>README 0.10.0</a><br>
   The ScummVM README, for version 0.10.0<br><br>
 
   <a href='http://wiki.scummvm.org/index.php/Documentation'>Documentation on Wiki</a><br>
