@@ -125,7 +125,6 @@ $gamesHE = array(
 
 $gamesOther = array(
 
-        'A.J\'s World of Discovery'                             => array('ajworld','80'),
 	'Bargon Attack'                                         => array('bargon','95'),
 	'Beneath a Steel Sky'                                   => array('sky','98'),
 	'Broken Sword 1: The Shadow of the Templars'            => array('sword1','98'),
@@ -393,8 +392,6 @@ $notes = array(
 "ween"  	=> "Game is completable".
 		   "<br>- Amiga, Atari and DOS versions are supported by this target".
 		   "<br>- Issues with the mouse cursor visibility",
-"ajworld"  	=> "Game is playable".
-		   "<br>- break-out minigame doesn't work properly",
 "bargon"  	=> "Game is completable".
 		   "<br>- Amiga, Atari and DOS versions are supported by this target".
 		   "<br>- Issues with the mouse cursor visibility",
