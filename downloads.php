@@ -248,7 +248,7 @@ html_content_begin('Download ScummVM');
 	<table>
 	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt=""></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/engine-data/tags/release-0-10-0/sky.cpt">Beneath a Steel Sky, SKY.CPT - required to run the game with a post-0.7.* ScummVM</a> <font class='cat-count'>(416k)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/bass-cd-1.2.zip?download">Beneath a Steel Sky, Freeware CD Version</a> <font class='cat-count'>(67M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt=""></td><td class='cat-link'><a href="http://www.mixnmojo.com/bss/BASS-Floppy.zip">Beneath a Steel Sky, Freeware Floppy Version</a> <font class='cat-count'>(7.3M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/BASS-Floppy.zip?download">Beneath a Steel Sky, Freeware Floppy Version</a> <font class='cat-count'>(7.3M)</font></td></tr>
 
 	  <tr><td></td><td>&nbsp;</td></tr>
 
