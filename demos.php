@@ -263,6 +263,8 @@ $MISC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/gob2_demo.zip', 'gob'),
 	'Gobliins 2 (DOS demo - Non interactive)'
 		=> array('http://minifiles.ag.ru/demos/449/gobliins2_demo.exe', 'gob'),
+	'I Have No Mouth And I Must Scream (DOS demo - Non interactive)'
+		=> array('http://quick.mixnmojo.com/demos/ihnmdemo.zip', 'ihnm'),
 	'Inherit the Earth: Quest for the Orb demos'
 		=> array('http://www.wyrmkeep.com/ite/download.html', 'ite'),
 	'Nippon Safes (Amiga demo)'
@@ -281,7 +283,7 @@ $MISC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/simon2demo.zip', 'simon2'),
 	'Touche: The Adventures of the Fifth Musketeer (DOS Demo)'
 		=> array('http://quick.mixnmojo.com/demos/touche_demo.zip', 'touche'),
-	'Waxworks (DOS demo)'
+	'Waxworks (DOS demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/waxworks_demo.zip', 'waxworks'),
 	'Ween: The Prophecy (DOS demo)'
 		=> array('http://minifiles.ag.ru/demos/781/ween_demo.exe', 'gob')
