@@ -263,7 +263,7 @@ $MISC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/gob2_demo.zip', 'gob'),
 	'Gobliins 2 (DOS demo - Non interactive)'
 		=> array('http://minifiles.ag.ru/demos/449/gobliins2_demo.exe', 'gob'),
-	'I Have No Mouth And I Must Scream (DOS demo - Non interactive)'
+	'I Have No Mouth And I Must Scream (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/ihnmdemo.zip', 'ihnm'),
 	'Inherit the Earth: Quest for the Orb demos'
 		=> array('http://www.wyrmkeep.com/ite/download.html', 'ite'),
