@@ -269,11 +269,6 @@
 <tr><td style='width:13em; padding:2px;'>Chris Gray</td><td style='width:10em; text-align: left;' class='news-author'>Psychoid</td><td></td>
 </table>
 </div>
-<div class='par-subhead'>ScummVM Music Enhancement project</div>
-<div class='par-subhead-dots'>&nbsp;</div>
-<div class='par-subhead-content'>
-<tr><td style='width:13em; padding:2px;'>James Woodcock</td><td style='width:10em; text-align: left;' class='news-author'>James|GlideManiac</td><td></td>
-</div>
 <div class='par-subhead'>Websites (design)</div>
 <div class='par-subhead-dots'>&nbsp;</div>
 <div class='par-subhead-content'>
