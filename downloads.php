@@ -114,10 +114,8 @@ html_content_begin('Download ScummVM');
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-psp.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.10.0-psp.zip?download">PSP (PlayStation Portable) package</a> <font class='cat-count'>(6.2M .zip)</font></td></tr>
 
-<!--
-	  <tr><td class='cat-bullet'><img src='images/catpl-ds.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1a-ds.zip?download">Nintendo DS package 0.9.1a</a> <font class='cat-count'>(3.4M .zip)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-ds.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.10.0a-ds.zip?download">Nintendo DS package 0.10.0a</a> <font class='cat-count'>(6.7M .zip)</font></td></tr>
 
--->
 	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.10.0-s60-v3.sis?download">Symbian S60 version 3 binary</a> <font class='cat-count'>(2.6M .sis)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-uiq.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.10.0-uiq3.sis?download">Symbian UIQ 3 binary</a> <font class='cat-count'>(2.6M .sis)</font></td></tr>
 
@@ -159,6 +157,7 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.10.0.tar.gz?download">ScummVM - Source .tar.gz</a> <font class='cat-count'>(5.5M)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.10.0.zip?download">ScummVM - Source .zip</a> <font class='cat-count'>(6.9M)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.10.0-1.src.rpm?download">ScummVM - Source RPM</a> <font class='cat-count'>(5.9M RPM)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.10.0a.tar.bz2?download">ScummVM 0.10.0a - Source .tar.bz2</a> <font class='cat-count'>(4.6M) Used for DS build only</font></td></tr>
 	</table>
 
 
@@ -211,8 +210,6 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-debian.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.9.1-0.sarge.1_i386.deb?download">Debian 3.1 (sarge) package</a> <font class='cat-count'>(1.6M .deb)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-ps2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-ps2.zip?download">PlayStation2 package</a> <font class='cat-count'>(3.0M .zip)</font></td></tr>
-
-	  <tr><td class='cat-bullet'><img src='images/catpl-ds.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1a-ds.zip?download">Nintendo DS package 0.9.1a</a> <font class='cat-count'>(3.4M .zip)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-s60-v1.sis?download">Symbian S60 version 1 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-s60-v2.sis?download">Symbian S60 version 2 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
