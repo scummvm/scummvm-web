@@ -81,6 +81,6 @@ function read_screenshot_list($fname) {
 	fclose($fp);
 }
 
-read_screenshot_list("screenshots/screenshots.csv");
+read_screenshot_list($file_root . "/screenshots/screenshots.csv");
 
 ?>
