@@ -377,13 +377,15 @@ $notes = array(
 		   "<br>- No support for displaying, entering, loading and saving high scores",
 "feeble"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, Macintosh and Windows versions supported by this target",
-"kyra1"		=> "Game is completable.".
-		   "<br>- Requires the <a href=\"https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory.".
-		   "<br>- DOS and FM-TOWNS versions are supported by this target.".
-		   "<br>- Amiga versions aren't supported.".
+"kyra1"		=> "Game is completable".
+		   "<br>- Requires the <a href=\"https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory".
+		   "<br>- DOS, FM-TOWNS, Macintosh and PC-9821 versions are supported".
+		   "<br>- Amiga versions aren't supported".
 		   "<br>".
-		   "<br>- Occasional graphics glitches.".
-		   "<br>- MT-32 music and sfx do not work properly.",
+		   "<br>- Occasional graphics glitches".
+		   "<br>- MT-32 music and sfx do not work properly".
+		   "<br>- No music or sound effects in the Macintosh version".
+		   "<br>- PC-9821 version lacks support for PC-98 music and sound effects",
 "fw"		=> "Game is completable".
 		   "<br>- Occasional graphical glitches".
 		   "<br>- DOS, Amiga and Atari versions are supported",
