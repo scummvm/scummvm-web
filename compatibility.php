@@ -124,7 +124,6 @@ $gamesHE = array(
 	);
 
 $gamesOther = array(
-
 	'Bargon Attack'                                         => array('bargon','95'),
 	'Beneath a Steel Sky'                                   => array('sky','98'),
 	'Broken Sword 1: The Shadow of the Templars'            => array('sword1','98'),
@@ -136,8 +135,9 @@ $gamesOther = array(
 	'Gobliiins'                                             => array('gob1', '95'),
 	'Gobliins 2'                                            => array('gob2', '95'),
 	'Goblins 3'                                             => array('gob3', '90'),
-	'Inherit the Earth: Quest for the Orb'                  => array('ite', '87'),
-	'Nippon Safes Inc.' 			                => array('nippon', '70'),
+	'I Have No Mouth, and I Must Scream'                    => array('ihnm', '80'),
+	'Inherit the Earth: Quest for the Orb'                  => array('ite', '95'),
+	'Nippon Safes Inc.'                                     => array('nippon', '70'),
 	'Simon the Sorcerer 1'                                  => array('simon1','95'),
 	'Simon the Sorcerer 2'                                  => array('simon2','95'),
 	'Simon the Sorcerer\'s Puzzle Pack - D.I.M.P.'          => array('dimp','70'),
@@ -354,10 +354,11 @@ $notes = array(
 		   "<br>- Issues with the mouse cursor visibility".
 		   "<br>- No support for original font and music files in Macintosh version".
 		   "<br>- The number of used jokers isn't saved correctly. You'll always have 5 to spend again after loading",
-"ite"		=> "Game is completable.".
+"ihnm"		=> "Game is completable.".
+		   "<br>- Occasional minor glitches",
+"ite"		=> "No known issues, game is completable.".
 		   "<br>- DOS, Linux, Macintosh, MacOS X and Windows versions are supported by this target".
-		   "<br>- Amiga versions aren't supported".
-		   "<br>- Occasional graphical glitches",
+		   "<br>- Amiga versions aren't supported",
 "simon1" 	=> "No known issues, game is completable.".
 		   "<br>- Acorn, Amiga, DOS and Windows versions supported by this target".
 		   "<br>- Minor palette glitches in Amiga versions".
