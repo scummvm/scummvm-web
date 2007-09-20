@@ -113,7 +113,7 @@ shadowed_text("What Is ScummVM?", '#356a02', '#ffffff');
 <br>
 <p>ScummVM is a program which allows you to run certain classic graphical point-and-click adventure
 games, provided you already have their data files. The clever part about this: ScummVM just replaces
-the executables shipped with the game, allowing you to play them on systems for which they were never designed!
+the executables shipped with the games, allowing you to play them on systems for which they were never designed!
 </p>
 <p>
 Some of the adventures ScummVM supports include <a href="http://www.adventuresoft.com">Adventure Soft</a>'s
