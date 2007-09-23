@@ -166,6 +166,7 @@ $gamesAGI = array(
 	'Space Quest I: The Sarien Encounter' 			     => array('sq1', '90'),
 	'Space Quest II: Vohaul\'s Revenge'                          => array('sq2', '90'),
 	'Fanmade Games' 		                             => array('agi-fanmade', '80'),
+	'Troll\'s Tale'                                              => array('troll', '80'),
 	);
 
 $notes = array(
@@ -441,7 +442,10 @@ $notes = array(
 		   "<br>- Apple IIgs version has no sound",
 "agi-fanmade"   => "Most games are completable".
 		   "<br>- AGIMOUSE, AGIPAL, AGI256 and AGI256-2 hacks are also supported by this target".
-		   "<br>- Occasional graphics glitches"
+		   "<br>- Occasional graphics glitches",
+"troll"		=> "Game is completable".
+		   "<br>- Only DOS booter version is supported by this target".
+		   "<br>- Game lacks sound"
 );
 		
 // render the compatibility chart
