@@ -342,7 +342,7 @@ $notes = array(
 		   "<br>- No sound effects in the DOS version.".
 		   "<br>- Palette issues in the Atari ST version.",
 "queen"		=> "No known issues, game is completable.".
-		   "<br>- Some versions may require the <a href=\"https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases.".
+		   "<br>- Some versions may require the <a href=\"https://scummvm.svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases.".
 		   "<br>- Amiga and DOS versions supported by this target.",
 "gob1"		=> "No known issues. Game is completable.".
 		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
