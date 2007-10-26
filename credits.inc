@@ -68,7 +68,7 @@
 </table>
 <span style='font-weight: bold'>Cinematique evo 2:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
-<tr><td style='width:13em; padding:2px;'>Vincent Hamm</td><td style='width:10em; text-align: left;' class='news-author'>yazoo</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Vincent Hamm</td><td style='width:10em; text-align: left;' class='news-author'>yazoo</td><td>original CruisE engine author</td>
 </table>
 <span style='font-weight: bold'>FOTAQ:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
@@ -198,6 +198,7 @@
 <tr><td style='width:13em; padding:2px;'>Ralph Brorsen</td><td style='width:10em; text-align: left;' class='news-author'>painelf</td><td>Help with GUI implementation</td>
 <tr><td style='width:13em; padding:2px;'>Jamieson Christian</td><td style='width:10em; text-align: left;' class='news-author'>jamieson630</td><td>iMUSE, MIDI, all things musical</td>
 <tr><td style='width:13em; padding:2px;'>R&uuml;diger Hanke</td><td></td><td>Port: MorphOS</td>
+<tr><td style='width:13em; padding:2px;'>Vincent Hamm</td><td style='width:10em; text-align: left;' class='news-author'>yaz0r</td><td>ScummVM co-founder, Original Cruise/CinE author</td>
 <tr><td style='width:13em; padding:2px;'>Felix Jakschitsch</td><td style='width:10em; text-align: left;' class='news-author'>yot</td><td>Zak256 reverse engineering</td>
 <tr><td style='width:13em; padding:2px;'>Mutwin Kraus</td><td style='width:10em; text-align: left;' class='news-author'>mutle</td><td>Original MacOS porter</td>
 <tr><td style='width:13em; padding:2px;'>Peter Moraliyski</td><td style='width:10em; text-align: left;' class='news-author'>ph0x</td><td>Port: GP32</td>
