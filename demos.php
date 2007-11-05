@@ -263,6 +263,16 @@ $MISC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/gob2_demo.zip', 'gob'),
 	'Gobliins 2 (DOS demo - Non interactive)'
 		=> array('http://minifiles.ag.ru/demos/449/gobliins2_demo.exe', 'gob'),
+	'Gobliins 3 (DOS demo)'
+		=> array('http://quick.mixnmojo.com/demos/gob3_demo.zip', 'gob'),
+	'Gobliins 3 (DOS demo - Non interactive)'
+		=> array('http://quick.mixnmojo.com/demos/gob3_ni_demo.zip', 'gob'),
+	'Gobliins 3 (DOS French demo)'
+		=> array('http://quick.mixnmojo.com/demos/gob3_demo_fr.zip', 'gob'),
+	'Gobliins 3 (DOS French Alternative demo)'
+		=> array('http://quick.mixnmojo.com/demos/gob3_demo2_fr.zip', 'gob'),
+	'Igor: Objective Uikokahonia (DOS demo)'
+		=> array('http://quick.mixnmojo.com/demos/igor_demo.zip', 'igor'),
 	'I Have No Mouth And I Must Scream (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/ihnmdemo.zip', 'ihnm'),
 	'Inherit the Earth: Quest for the Orb demos'
