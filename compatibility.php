@@ -123,21 +123,9 @@ $gamesHE = array(
 	'SPY Fox in Hold the Mustard'                                      => array('mustard','85'),
 	);
 
-$gamesOther = array(
-	'Bargon Attack'                                         => array('bargon','95'),
-	'Beneath a Steel Sky'                                   => array('sky','98'),
-	'Broken Sword 1: The Shadow of the Templars'            => array('sword1','98'),
-	'Broken Sword 2: The Smoking Mirror'                    => array('sword2','98'),
+$gamesAGOS = array(
 	'Elvira - Mistress of the Dark'                         => array('elvira1','90'),
 	'Elvira II - The Jaws of Cerberus'                      => array('elvira2','50'),
-	'Flight of the Amazon Queen'                            => array('queen','98'),
-	'Future Wars'                                           => array('fw','80'),
-	'Gobliiins'                                             => array('gob1', '95'),
-	'Gobliins 2'                                            => array('gob2', '95'),
-	'Goblins 3'                                             => array('gob3', '90'),
-	'I Have No Mouth, and I Must Scream'                    => array('ihnm', '80'),
-	'Inherit the Earth: Quest for the Orb'                  => array('ite', '95'),
-	'Nippon Safes Inc.'                                     => array('nippon', '70'),
 	'Simon the Sorcerer 1'                                  => array('simon1','95'),
 	'Simon the Sorcerer 2'                                  => array('simon2','95'),
 	'Simon the Sorcerer\'s Puzzle Pack - D.I.M.P.'          => array('dimp','70'),
@@ -145,9 +133,27 @@ $gamesOther = array(
 	'Simon the Sorcerer\'s Puzzle Pack - NoPatience'        => array('puzzle','70'),
 	'Simon the Sorcerer\'s Puzzle Pack - Swampy Adventures' => array('swampy','70'),
 	'The Feeble Files'                                      => array('feeble','95'),
+	);
+
+$gamesGOB = array(
+	'Bargon Attack'                                         => array('bargon','95'),
+	'Gobliiins'                                             => array('gob1', '95'),
+	'Gobliins 2'                                            => array('gob2', '95'),
+	'Goblins 3'                                             => array('gob3', '90'),
+	'Ween: The Prophecy'                                    => array('ween','95'),
+	);
+
+$gamesOther = array(
+	'Beneath a Steel Sky'                                   => array('sky','98'),
+	'Broken Sword 1: The Shadow of the Templars'            => array('sword1','98'),
+	'Broken Sword 2: The Smoking Mirror'                    => array('sword2','98'),
+	'Flight of the Amazon Queen'                            => array('queen','98'),
+	'Future Wars'                                           => array('fw','80'),
+	'I Have No Mouth, and I Must Scream'                    => array('ihnm', '80'),
+	'Inherit the Earth: Quest for the Orb'                  => array('ite', '95'),
+	'Nippon Safes Inc.'                                     => array('nippon', '70'),
 	'The Legend of Kyrandia'                                => array('kyra1', '80'),
 	'Touche: The Adventures of the Fifth Musketeer'         => array('touche','75'),
-	'Ween: The Prophecy'                                    => array('ween','95'),
 	);
 
 $gamesAGI = array(
@@ -461,7 +467,7 @@ if ($details) {
 	
 			  );
 
-	$arrayt = array_merge($gamesLucas, $gamesHE, $gamesOther, $gamesAGI);
+	$arrayt = array_merge($gamesLucas, $gamesHE, $gamesAGOS, $gamesGOB, $gamesAGI, $gamesOther);
 	while (list($name,$array) = each($arrayt))
 	{	
 
@@ -506,6 +512,16 @@ if ($details) {
 	}
 	
 	displayGameList("LucasArts", $gamesLucas);
+
+	echo html_frame_end("&nbsp;");
+	echo html_p();
+
+	displayGameList("Adventuresoft/Horrorsoft AGOS", $gamesAGOS);
+
+	echo html_frame_end("&nbsp;");
+	echo html_p();
+
+	displayGameList("Coktel Vision GOB", $gamesGOB);
 
 	echo html_frame_end("&nbsp;");
 	echo html_p();

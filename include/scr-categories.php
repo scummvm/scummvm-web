@@ -79,6 +79,17 @@ $cat->add(9, "cat-ft.png", "Full Throttle");
 $cat->add(10, "cat-dig.png", "The Dig");
 $cat->add(11, "cat-comi.png", "The Curse of Monkey Island");
 
+// AGOS games
+$cat = & new category(5, "Adventuresoft/Horrorsoft AGOS games");
+$cat->add(4, "cat-simon.png", "Simon the Sorcerer series");
+$cat->add(7, "cat-feeble.png", "The Feeble Files");
+
+// Coktel Vision games
+$cat = & new category(4, "Coktel Vision GOB games");
+$cat->add(11, "cat-bargon.png", "Bargon Attack");
+$cat->add(1, "cat-gob.png", "Gobliiins series");
+$cat->add(9, "cat-ween.png", "Ween: The Prophecy");
+
 // AGI games
 $cat = & new category(3, "Sierra AGI games");
 $cat->add(1, "cat-bc.png", "The Black Cauldron");
@@ -93,19 +104,14 @@ $cat->add(9, "cat-fan.png", "Fanmade games");
 
 // Other games
 $cat = & new category(2, "Other games");
-$cat->add(11, "cat-bargon.png", "Bargon Attack");
 $cat->add(5, "cat-sky.png", "Beneath a Steel Sky");
 $cat->add(0, "cat-sword.png", "Broken Sword series");
 $cat->add(3, "cat-queen.png", "Flight of the Amazon Queen");
 $cat->add(8, "cat-fw.png", "Future Wars: Time Travelers");
-$cat->add(1, "cat-gob.png", "Gobliiins series");
 $cat->add(2, "cat-ite.png", "Inherit the Earth: Quest for the Orb");
 $cat->add(12, "cat-nippon.png", "Nippon Safes Inc.");
-$cat->add(4, "cat-simon.png", "Simon the Sorcerer series");
-$cat->add(7, "cat-feeble.png", "The Feeble Files");
 $cat->add(6, "cat-kyra.png", "The Legend of Kyrandia series");
 $cat->add(10, "cat-touche.png", "Touch&eacute;: The Adventures of the Fifth Musketeer");
-$cat->add(9, "cat-ween.png", "Ween: The Prophecy");
 
 // HE games
 $cat = & new category(1, "Humongous Entertainment games");

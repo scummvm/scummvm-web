@@ -232,27 +232,24 @@ $HE_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/spyozon_cup_demo.zip', 'spyozon')
 	);
 
-$MISC_demos = array(
-	'Broken Sword 1: The Shadow of the Templars (Windows Demo)'
-		=> array('http://www.gamershell.com/download_4731.shtml', 'sword1demo'),
-	'Broken Sword 2: The Smoking Mirror (Windows Demo)'
-		=> array('http://files.5star-network.com/Games/bs2-demo.zip', 'sword2demo'),
+$AGOS_demos = array(
 	'Elvira - Mistress of Darkness (Amiga demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/elvira1_demo_ami.zip', 'elvira1'),
 	'Elvira - Mistress of Darkness (Atari ST demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/elvira1_demo_st.zip', 'elvira1'),
-	'Flight of the Amazon Queen (Amiga demo)'
-		=> array('http://quick.mixnmojo.com/demos/queen_demo_ami.zip', 'queen'),
-	'Flight of the Amazon Queen (Amiga interview demo)'
-		=> array('http://quick.mixnmojo.com/demos/queen_interview_ami.zip', 'queen'),
-	'Flight of the Amazon Queen (DOS demo - Datafile only)'
-		=> array('http://0x.7fc1.org/fotaq/fotaq_demo.zip', 'queen'),
-	'Flight of the Amazon Queen (DOS PCGAMES demo)'
-		=> array('http://quick.mixnmojo.com/demos/queen_demo_pcgames.zip', 'queen'),
-	'Flight of the Amazon Queen (DOS interview demo)'
-		=> array('http://quick.mixnmojo.com/demos/queen_interview.zip', 'queen'),
-	'Future Wars (Amiga demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/fw_demo_ami.zip', 'fw'),
+		=> array('http://quick.mixnmojo.com/demos/elvira1_demo_st.zip', 'elvira1')
+	'Simon the Sorcerer 1 (Amiga demo)'
+		=> array('http://quick.mixnmojo.com/demos/simon1amigademo.zip', 'simon1'),
+	'Simon the Sorcerer 1 (DOS demo)'
+		=> array('http://quick.mixnmojo.com/demos/simon1demo.zip', 'simon1'),
+	'Simon the Sorcerer 1 (Acorn CD demo)'
+		=> array('http://quick.mixnmojo.com/demos/simon1demo_acorn.rar', 'simon1'),
+	'Simon the Sorcerer 2 (DOS CD demo)'
+		=> array('http://quick.mixnmojo.com/demos/simon2demo.zip', 'simon2'),
+	'Waxworks (DOS demo - Non interactive)'
+		=> array('http://quick.mixnmojo.com/demos/waxworks_demo.zip', 'waxworks')
+	);
+
+$GOB_demos = array(
 	'Gobliiins (Amiga demo)'
 		=> array('http://quick.mixnmojo.com/demos/gob1_demo_ami.zip', 'gob'),
 	'Gobliiins (DOS demo)'
@@ -271,6 +268,27 @@ $MISC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/gob3_demo_fr.zip', 'gob'),
 	'Gobliins 3 (DOS French Alternative demo)'
 		=> array('http://quick.mixnmojo.com/demos/gob3_demo2_fr.zip', 'gob'),
+	'Ween: The Prophecy (DOS demo)'
+		=> array('http://minifiles.ag.ru/demos/781/ween_demo.exe', 'gob')
+	);
+
+$MISC_demos = array(
+	'Broken Sword 1: The Shadow of the Templars (Windows Demo)'
+		=> array('http://www.gamershell.com/download_4731.shtml', 'sword1demo'),
+	'Broken Sword 2: The Smoking Mirror (Windows Demo)'
+		=> array('http://files.5star-network.com/Games/bs2-demo.zip', 'sword2demo'),
+	'Flight of the Amazon Queen (Amiga demo)'
+		=> array('http://quick.mixnmojo.com/demos/queen_demo_ami.zip', 'queen'),
+	'Flight of the Amazon Queen (Amiga interview demo)'
+		=> array('http://quick.mixnmojo.com/demos/queen_interview_ami.zip', 'queen'),
+	'Flight of the Amazon Queen (DOS demo - Datafile only)'
+		=> array('http://0x.7fc1.org/fotaq/fotaq_demo.zip', 'queen'),
+	'Flight of the Amazon Queen (DOS PCGAMES demo)'
+		=> array('http://quick.mixnmojo.com/demos/queen_demo_pcgames.zip', 'queen'),
+	'Flight of the Amazon Queen (DOS interview demo)'
+		=> array('http://quick.mixnmojo.com/demos/queen_interview.zip', 'queen'),
+	'Future Wars (Amiga demo - Non interactive)'
+		=> array('http://quick.mixnmojo.com/demos/fw_demo_ami.zip', 'fw'),
 	'Igor: Objective Uikokahonia (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/igor_demo.zip', 'igor'),
 	'I Have No Mouth And I Must Scream (DOS demo)'
@@ -283,20 +301,8 @@ $MISC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/op_demo_ami.zip', 'os'),
 	'The Legend of Kyrandia (DOS demo - Non-interactive)'
 		=> array('http://quick.mixnmojo.com/demos/kyra1demo.zip', 'kyra1'),
-	'Simon the Sorcerer 1 (Amiga demo)'
-		=> array('http://quick.mixnmojo.com/demos/simon1amigademo.zip', 'simon1'),
-	'Simon the Sorcerer 1 (DOS demo)'
-		=> array('http://quick.mixnmojo.com/demos/simon1demo.zip', 'simon1'),
-	'Simon the Sorcerer 1 (Acorn CD demo)'
-		=> array('http://quick.mixnmojo.com/demos/simon1demo_acorn.rar', 'simon1'),
-	'Simon the Sorcerer 2 (DOS CD demo)'
-		=> array('http://quick.mixnmojo.com/demos/simon2demo.zip', 'simon2'),
 	'Touche: The Adventures of the Fifth Musketeer (DOS Demo)'
-		=> array('http://quick.mixnmojo.com/demos/touche_demo.zip', 'touche'),
-	'Waxworks (DOS demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/waxworks_demo.zip', 'waxworks'),
-	'Ween: The Prophecy (DOS demo)'
-		=> array('http://minifiles.ag.ru/demos/781/ween_demo.exe', 'gob')
+		=> array('http://quick.mixnmojo.com/demos/touche_demo.zip', 'touche')
 	);
 
 function render_demos($title, $demos) {
@@ -328,6 +334,10 @@ echo "<a name='lec'></a>\n";
 render_demos("LucasArts Demos", $LEC_demos);
 echo "<a name='he'></a>\n";
 render_demos("Humongous Entertainment Demos", $HE_demos);
+echo "<a name='agos'></a>\n";
+render_demos("Adventuresoft/Horrorsoft Demos", $AGOS_demos);
+echo "<a name='gob'></a>\n";
+render_demos("Coktel Vision Demos", $GOB_demos);
 echo "<a name='other'></a>\n";
 render_demos("Miscellaneous Demos", $MISC_demos);
 
