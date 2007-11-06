@@ -35,6 +35,8 @@ html_content_begin('Game Demos');
 <?php
   html_nav_item("#lec", "LucasArts Demos");
   html_nav_item("#he", "Humongous Entertainment Demos");
+  html_nav_item("#agos", "Adventuresoft/Horrorsoft Demos");
+  html_nav_item("#gob", "Coktel Vision Demos");
   html_nav_item("#other", "Miscellaneous Demos");
 ?>
 
@@ -236,7 +238,7 @@ $AGOS_demos = array(
 	'Elvira - Mistress of Darkness (Amiga demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/elvira1_demo_ami.zip', 'elvira1'),
 	'Elvira - Mistress of Darkness (Atari ST demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/elvira1_demo_st.zip', 'elvira1')
+		=> array('http://quick.mixnmojo.com/demos/elvira1_demo_st.zip', 'elvira1'),
 	'Simon the Sorcerer 1 (Amiga demo)'
 		=> array('http://quick.mixnmojo.com/demos/simon1amigademo.zip', 'simon1'),
 	'Simon the Sorcerer 1 (DOS demo)'

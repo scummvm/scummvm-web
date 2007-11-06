@@ -80,12 +80,12 @@ $cat->add(10, "cat-dig.png", "The Dig");
 $cat->add(11, "cat-comi.png", "The Curse of Monkey Island");
 
 // AGOS games
-$cat = & new category(5, "Adventuresoft/Horrorsoft AGOS games");
+$cat = & new category(2, "Adventuresoft/Horrorsoft games");
 $cat->add(4, "cat-simon.png", "Simon the Sorcerer series");
 $cat->add(7, "cat-feeble.png", "The Feeble Files");
 
 // Coktel Vision games
-$cat = & new category(4, "Coktel Vision GOB games");
+$cat = & new category(2, "Coktel Vision games");
 $cat->add(11, "cat-bargon.png", "Bargon Attack");
 $cat->add(1, "cat-gob.png", "Gobliiins series");
 $cat->add(9, "cat-ween.png", "Ween: The Prophecy");

@@ -516,12 +516,12 @@ if ($details) {
 	echo html_frame_end("&nbsp;");
 	echo html_p();
 
-	displayGameList("Adventuresoft/Horrorsoft AGOS", $gamesAGOS);
+	displayGameList("Adventuresoft/Horrorsoft", $gamesAGOS);
 
 	echo html_frame_end("&nbsp;");
 	echo html_p();
 
-	displayGameList("Coktel Vision GOB", $gamesGOB);
+	displayGameList("Coktel Vision", $gamesGOB);
 
 	echo html_frame_end("&nbsp;");
 	echo html_p();
