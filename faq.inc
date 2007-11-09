@@ -35,7 +35,7 @@
 		Subversion or use the precompiled 'daily builds' linked from our download page.
 		</p></td></tr><tr class="question"><td align="left" valign="top"><a name="id898722"></a><a name="id898723"></a><b>1.5.</b></td><td align="left" valign="top"><p>How do I compile the source code for my OS?</p></td></tr><tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>
 		The source code package contains a file called
-		<a href="http://svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README" target="_top">README</a>
+		<a href="http://scummvm.svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README" target="_top">README</a>
 		that should explain everything.
 		</p></td></tr><tr class="question"><td align="left" valign="top"><a name="id898744"></a><a name="id898745"></a><b>1.6.</b></td><td align="left" valign="top"><p>On what platform does ScummVM run?</p></td></tr><tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>
 		ScummVM should be able to be compiled on any SDL platform, with just small modifications.
@@ -156,12 +156,12 @@
 		Loom (CD &amp; FM-TOWNS), Monkey Island 1 (CD, FM-TOWNS &amp; SegaCD) and Zak McKracken (FM-TOWNS). Just keep your game CD
 		inserted into your CD drive when you start ScummVM. If you have more than one CD drive in your
 		system, you can specify your CD drive using the -c command line parameter. See the
-		<a href="http://svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README" target="_top">README</a>
+		<a href="http://scummvm.svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README" target="_top">README</a>
 		for more info.
 		</p></td></tr><tr class="question"><td align="left" valign="top"><a name="id899183"></a><a name="id899184"></a><b>4.2.</b></td><td align="left" valign="top"><p>Does ScummVM support using MP3/Ogg/FLAC files instead of CD audio?</p></td></tr><tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>
 		Yes. You can use LAME or some other CD audio conversion utility to convert your CD audio to MP3. Since
 		version 0.3.0 we also support Ogg Vorbis files, and FLAC is supported since version 0.7.0. See the
-		<a href="http://svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README" target="_top">README</a>
+		<a href="http://scummvm.svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README" target="_top">README</a>
 		for more info.
 		</p></td></tr><tr class="question"><td align="left" valign="top"><a name="id899208"></a><a name="id899209"></a><b>4.3.</b></td><td align="left" valign="top"><p>Does ScummVM support using MP3/Ogg/FLAC files instead of the original MIDI music?</p></td></tr><tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>
 		No. If all the game does is to play or loop a tune it would be possible, but many of the games do
@@ -188,7 +188,7 @@
 		See "<a href="#question.supported-games">What games does ScummVM support?</a>".
 		If it is a supported game and you
 		have followed the instructions in
-		<a href="http://svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README" target="_top">README</a>
+		<a href="http://scummvm.svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README" target="_top">README</a>
 		to the letter, then see "<a href="#question.report-bugs">Reporting Bugs.</a>"
 		to report this as a bug.
 		</p></td></tr><tr class="question"><td align="left" valign="top"><a name="id899324"></a><a name="id899325"></a><b>5.2.</b></td><td align="left" valign="top"><p>I installed my game but ScummVM can't find it.</p></td></tr><tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>
@@ -231,7 +231,7 @@
 		using the 'language' config file option.
 		</p><p>
 		Consult the 
-		<a href="http://svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README" target="_top">README</a> 
+		<a href="http://scummvm.svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README" target="_top">README</a> 
 		or command line help for further information.
 		</p></td></tr><tr class="question"><td align="left" valign="top"><a name="id899512"></a><a name="id899513"></a><b>5.9.</b></td><td align="left" valign="top"><p>How do I make my mac version of a game work?</p></td></tr><tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>
 		First, if you use a ScummVM version prior to 0.7.0 we strongly recommend you
