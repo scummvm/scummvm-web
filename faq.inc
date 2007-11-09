@@ -175,9 +175,9 @@
 		too much fancy stuff to even consider an idea like this.
 		</p></td></tr><tr class="question"><td align="left" valign="top"><a name="id899173"></a><a name="id899232"></a><b>4.4.</b></td><td align="left" valign="top"><p>Does ScummVM support filtered graphic modes?</p></td></tr><tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>
 		Yes, ScummVM supports several filtered graphic modes such as 
-		<a href="http://elektron.its.tudelft.nl/~dalikifa/" target="_top">Super2xSAI</a>.
+		<a href="http://scale2x.sf.net/" target="_top">AdvMAME2x</a> (Scale2x).
 		See the
-		<a href="http://svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README" target="_top">README</a>
+		<a href="http://scummvm.svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README" target="_top">README</a>
 		for more info.
 		</p></td></tr><tr class="question"><td align="left" valign="top"><a name="id899258"></a><a name="id899259"></a><b>4.5.</b></td><td align="left" valign="top"><p>Can I run my game full screen?</p></td></tr><tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>
 		Yes. You can either start your game using the -f command line parameter, setting 
