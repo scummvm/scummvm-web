@@ -125,7 +125,7 @@ $gamesHE = array(
 
 $gamesAGOS = array(
 	'Elvira - Mistress of the Dark'                         => array('elvira1','90'),
-	'Elvira II - The Jaws of Cerberus'                      => array('elvira2','50'),
+	'Elvira II - The Jaws of Cerberus'                      => array('elvira2','80'),
 	'Simon the Sorcerer 1'                                  => array('simon1','95'),
 	'Simon the Sorcerer 2'                                  => array('simon2','95'),
 	'Simon the Sorcerer\'s Puzzle Pack - D.I.M.P.'          => array('dimp','70'),
@@ -133,6 +133,7 @@ $gamesAGOS = array(
 	'Simon the Sorcerer\'s Puzzle Pack - NoPatience'        => array('puzzle','70'),
 	'Simon the Sorcerer\'s Puzzle Pack - Swampy Adventures' => array('swampy','70'),
 	'The Feeble Files'                                      => array('feeble','95'),
+	'Waxworks'                                              => array('waxworks','10'),
 	);
 
 $gamesGOB = array(
@@ -321,21 +322,6 @@ $notes = array(
 		   "<br>- Only the Windows version is supported by this target".
 		   "<br>- The Macintosh version isn't supported, due to map data using a custom format",
 
-"sky"	 	=> "No known issues, game is completable.".
-		   "<br>- Requires the <a href=\"https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/sky.cpt\">sky.cpt</a> resource file to be placed in the game directory".
-		   "<br>- Floppy demos aren't supported".
-		   "<br>- Amiga versions aren't supported".
-		   "<br>".
-		   "<br>The following bugs are present in the original game and can't be fixed:".
-		   "<br>- The voice files for some sentences are missing.".
-		   "<br>&nbsp;&nbsp;&nbsp;&nbsp;This is especially noticeable in the court- and Mrs. Piermont sequence.".
-		   "<br>- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders".
-		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
-"sword1"	=> "No known issues, game is completable.".
-		   "<br>- DOS and Macintosh versions are supported by this target".
-		   "<br>- PlayStation 1 version isn't supported.",
-"sword2"	=> "No known issues, game is completable.".
-		   "<br>- PlayStation 1 version isn't supported.",
 "elvira1"	=> "No known issues, game is completable.".
 		   "<br>- Amiga and Atari ST and DOS versions are supported by this target".
 		   "<br>- Commodore 64 version doesn't use AGOS, so will never be supported.".
@@ -347,25 +333,6 @@ $notes = array(
 		   "<br>- No music in the Atari ST version.".
 		   "<br>- No sound effects in the DOS version.".
 		   "<br>- Palette issues in the Atari ST version.",
-"queen"		=> "No known issues, game is completable.".
-		   "<br>- Some versions may require the <a href=\"https://scummvm.svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases.".
-		   "<br>- Amiga and DOS versions supported by this target.",
-"gob1"		=> "No known issues. Game is completable.".
-		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
-		   "<br>- Problem with one music piece in the Macintosh version",
-"gob2"		=> "Game is completable".
-		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
-		   "<br>- A few wrong instruments during music playback",
-"gob3"		=> "Game is completable".
-		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
-		   "<br>- Issues with the mouse cursor visibility".
-		   "<br>- No support for original font and music files in Macintosh version".
-		   "<br>- The number of used jokers isn't saved correctly. You'll always have 5 to spend again after loading",
-"ihnm"		=> "Game is completable.".
-		   "<br>- Occasional minor glitches",
-"ite"		=> "No known issues, game is completable.".
-		   "<br>- DOS, Linux, Macintosh, MacOS X and Windows versions are supported by this target".
-		   "<br>- Amiga versions aren't supported",
 "simon1" 	=> "No known issues, game is completable.".
 		   "<br>- Acorn, Amiga, DOS and Windows versions supported by this target".
 		   "<br>- Minor palette glitches in Amiga versions".
@@ -385,6 +352,57 @@ $notes = array(
 		   "<br>- No support for displaying, entering, loading and saving high scores",
 "feeble"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, Macintosh and Windows versions supported by this target",
+"waxworks"	=> "No known issues, game is playable.".
+		   "<br>- Amiga and DOS versions are supported by this target".
+		   "<br>- DOS versions isn't completable.",
+
+"bargon"  	=> "Game is completable".
+		   "<br>- Amiga, Atari and DOS versions are supported by this target".
+		   "<br>- Issues with the mouse cursor visibility",
+"gob1"		=> "No known issues. Game is completable.".
+		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
+		   "<br>- Problem with one music piece in the Macintosh version",
+"gob2"		=> "Game is completable".
+		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
+		   "<br>- A few wrong instruments during music playback",
+"gob3"		=> "Game is completable".
+		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
+		   "<br>- Issues with the mouse cursor visibility".
+		   "<br>- No support for original font and music files in Macintosh version".
+		   "<br>- The number of used jokers isn't saved correctly. You'll always have 5 to spend again after loading",
+"ween"  	=> "Game is completable".
+		   "<br>- Amiga, Atari and DOS versions are supported by this target".
+		   "<br>- Issues with the mouse cursor visibility",
+
+"sky"	 	=> "No known issues, game is completable.".
+		   "<br>- Requires the <a href=\"https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/sky.cpt\">sky.cpt</a> resource file to be placed in the game directory".
+		   "<br>- Floppy demos aren't supported".
+		   "<br>- Amiga versions aren't supported".
+		   "<br>".
+		   "<br>The following bugs are present in the original game and can't be fixed:".
+		   "<br>- The voice files for some sentences are missing.".
+		   "<br>&nbsp;&nbsp;&nbsp;&nbsp;This is especially noticeable in the court- and Mrs. Piermont sequence.".
+		   "<br>- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders".
+		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
+"sword1"	=> "No known issues, game is completable.".
+		   "<br>- DOS and Macintosh versions are supported by this target".
+		   "<br>- PlayStation 1 version isn't supported.",
+"sword2"	=> "No known issues, game is completable.".
+		   "<br>- PlayStation 1 version isn't supported.",
+"queen"		=> "No known issues, game is completable.".
+		   "<br>- Some versions may require the <a href=\"https://scummvm.svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases.".
+		   "<br>- Amiga and DOS versions supported by this target.",
+"fw"		=> "Game is completable".
+		   "<br>- Occasional graphical glitches".
+		   "<br>- DOS, Amiga and Atari versions are supported",
+"ihnm"		=> "Game is completable.".
+		   "<br>- Occasional minor glitches",
+"ite"		=> "No known issues, game is completable.".
+		   "<br>- DOS, Linux, Macintosh, MacOS X and Windows versions are supported by this target".
+		   "<br>- Amiga versions aren't supported",
+"nippon"  	=> "Game is completable".
+		   "<br>- Only DOS version is supported by this target".
+		   "<br>- Occasional minor graphical glitches",
 "kyra1"		=> "Game is completable".
 		   "<br>- Requires the <a href=\"https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory".
 		   "<br>- DOS, FM-TOWNS, Macintosh and PC-9821 versions are supported".
@@ -394,20 +412,9 @@ $notes = array(
 		   "<br>- MT-32 music and sfx do not work properly".
 		   "<br>- No music or sound effects in the Macintosh version".
 		   "<br>- PC-9821 version lacks support for PC-98 music and sound effects",
-"fw"		=> "Game is completable".
-		   "<br>- Occasional graphical glitches".
-		   "<br>- DOS, Amiga and Atari versions are supported",
 "touche"	=> "Game is completable".
 		   "<br>- Occasional graphical glitches",
-"ween"  	=> "Game is completable".
-		   "<br>- Amiga, Atari and DOS versions are supported by this target".
-		   "<br>- Issues with the mouse cursor visibility",
-"bargon"  	=> "Game is completable".
-		   "<br>- Amiga, Atari and DOS versions are supported by this target".
-		   "<br>- Issues with the mouse cursor visibility",
-"nippon"  	=> "Game is completable".
-		   "<br>- Only DOS version is supported by this target".
-		   "<br>- Occasional minor graphical glitches",
+
 "bc"		=> "Game is completable".
 		   "<br>- DOS, Amiga, Atari ST, Apple IIgs versions are supported by this target".
 		   "<br>- Apple IIgs version has no sound",
