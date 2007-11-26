@@ -293,6 +293,8 @@ $MISC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/fw_demo_ami.zip', 'fw'),
 	'Igor: Objective Uikokahonia (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/igor_demo.zip', 'igor'),
+	'Igor: Objective Uikokahonia 1.10 (DOS demo)'
+		=> array('http://quick.mixnmojo.com/demos/igor110_demo.zip', 'igor'),
 	'I Have No Mouth And I Must Scream (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/ihnmdemo.zip', 'ihnm'),
 	'Inherit the Earth: Quest for the Orb demos'
