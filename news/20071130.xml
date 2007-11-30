@@ -1,0 +1,37 @@
+NAME>ScummVM adds another freeware game to it's ranks</NAME>
+<DATE>November 30th, 2007</DATE>
+<AUTHOR>DreamMaster</AUTHOR>
+<BODY>
+<p>ScummVM now adds another freeware title to it's list of games: <a href="http://wiki.scummvm.org/index.php/Lure_of_the_Temptress">
+<i>Lure of the Temptress</i></a>,
+which was the first game to use Revolution Software's Virtual Theatre engine. Players must help Diermot escape
+imprisonment, unravel the mysteries surrounding the Skorl occupation of the town, and eventually defeat the evil
+enchantress that controls them.
+</p>
+<p>Get the latest <a href="http://www.scummvm.org/downloads.php#SVN">daily build</a> of ScummVM and the required
+<a href="http://scummvm.svn.sourceforge.net/viewvc/*checkout*/scummvm/engine-data/trunk/lure.dat">support data file</a>.
+Since the game is freeware, you can freely download it in any of the available languages:
+<a href="http://prdownloads.sourceforge.net/scummvm/lure.zip?download">English</a>,
+<a href="http://prdownloads.sourceforge.net/scummvm/lure-fr.zip?download">French</a>,
+<a href="http://prdownloads.sourceforge.net/scummvm/lure-de.zip?download">German</a>,
+<a href="http://prdownloads.sourceforge.net/scummvm/lure-it.zip?download">Italian</a>, and
+<a href="http://prdownloads.sourceforge.net/scummvm/lure-es.zip?download">Spanish</a>.
+You can also pick up several versions of the game directly from the
+<a href="http://www.revolution.co.uk/_display.php?id=10">Revolution website</a>.
+
+
+</p>
+
+<p>
+Please post any bugs you can find to our <a href="http://sourceforge.net/tracker/?atid=418820&group_id=37116&func=browse">
+bug tracker</a>, following the <a href="http://www.scummvm.org/faq.php#question.report-bugs">bug submission guidelines</a>.
+Screenshots are also needed, which can be submitted using the appropriate
+<a href="http://wiki.scummvm.org/index.php/Screenshots">guidelines</a> for screenshot submission.
+</p>
+
+<p>
+We are also currently looking for anyone who may have knowledge of a Dutch release of the game and can provide us with a
+copy.
+</p>
+
+</BODY>
