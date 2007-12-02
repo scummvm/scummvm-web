@@ -46,6 +46,8 @@ function list_latest_news ($num = -1) {
 
 	if (ereg("<IMG>(.*)</IMG>", $data, $out)) {
 	  $newsitem["img"] = $out[1];
+	} else {
+	  $newsitem["img"] = "";
 	}
 
 	if (ereg("<BODY>(.*)</BODY>", $data, $out)) {

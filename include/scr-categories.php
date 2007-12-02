@@ -40,7 +40,7 @@ class category {
     $this->_name = $name;
     $this->_catnum = $catnum;
 
-    array_push($categories, & $this);
+    $categories[] = &$this;
   }
 
   function add($scrnum, $filename, $description) {
@@ -64,7 +64,7 @@ class category {
 }
 
 // LEC games
-$cat = & new category(0, "LucasArts games");
+$cat = new category(0, "LucasArts games");
 
 $cat->add(0, "cat-maniac.png", "Maniac Mansion");
 $cat->add(1, "cat-zak.png", "Zak McKracken and the Alien Mindbenders");

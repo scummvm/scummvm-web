@@ -8,7 +8,12 @@ require($file_root."/include/"."news.php");
 
 html_page_header('ScummVM :: Home', array("index.css"));
 
-$shownews = $HTTP_GET_VARS['shownews'];
+if (array_key_exists('shownews', $HTTP_GET_VARS)) {
+  $shownews = $HTTP_GET_VARS['shownews'];
+} else {
+  $shownews = 0;
+}
+  
 
 // display welcome table
 // don't show this if we are in news mode
