@@ -174,6 +174,7 @@ $gamesAGI = array(
 	'Space Quest II: Vohaul\'s Revenge'                          => array('sq2', '90'),
 	'Fanmade Games' 		                             => array('agi-fanmade', '80'),
 	'Troll\'s Tale'                                              => array('troll', '80'),
+	'Winnie the Pooh in the Hundred Acre Wood'                   => array('winnie', '80'),
 	);
 
 $notes = array(
@@ -458,6 +459,9 @@ $notes = array(
 		   "<br>- Occasional graphics glitches",
 "troll"		=> "Game is completable".
 		   "<br>- Only DOS booter version is supported by this target".
+		   "<br>- Game lacks sound",
+"winnie"	=> "Game is completable".
+		   "<br>- Only DOS version is supported by this target".
 		   "<br>- Game lacks sound"
 );
 		
