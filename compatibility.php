@@ -170,9 +170,10 @@ $gamesAGI = array(
 	'Manhunter 1: New York'                                      => array('mh1', '90'),
 	'Manhunter 2: San Francisco'                                 => array('mh2', '90'),
 	'Police Quest I: In Pursuit of the Death Angel'              => array('pq1', '90'),
-	'Space Quest I: The Sarien Encounter' 			     => array('sq1', '90'),
+	'Space Quest I: The Sarien Encounter'                        => array('sq1', '90'),
 	'Space Quest II: Vohaul\'s Revenge'                          => array('sq2', '90'),
-	'Fanmade Games' 		                             => array('agi-fanmade', '80'),
+	'Fanmade Games'                                              => array('agi-fanmade', '80'),
+	'Mickey\'s Space Adventure'                                  => array('mickey', '90'),
 	'Troll\'s Tale'                                              => array('troll', '80'),
 	'Winnie the Pooh in the Hundred Acre Wood'                   => array('winnie', '80'),
 	);
@@ -457,6 +458,8 @@ $notes = array(
 "agi-fanmade"   => "Most games are completable".
 		   "<br>- AGIMOUSE, AGIPAL, AGI256 and AGI256-2 hacks are also supported by this target".
 		   "<br>- Occasional graphics glitches",
+"mickey"	=> "Game is completable".
+		   "<br>- Only DOS version is supported by this target",
 "troll"		=> "Game is completable".
 		   "<br>- Only DOS booter version is supported by this target".
 		   "<br>- Game lacks sound",
