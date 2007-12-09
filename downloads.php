@@ -262,6 +262,14 @@ html_content_begin('Download ScummVM');
 
 	  <tr><td></td><td>&nbsp;</td></tr>
 
+	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure.zip?download">Lure of the Temptress, Freeware Version (English)</a> <font class='cat-count'>(3.9M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-fr.zip?download">Lure of the Temptress, Freeware Version (French)</a> <font class='cat-count'>(3.4M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-de.zip?download">Lure of the Temptress, Freeware Version (German)</a> <font class='cat-count'>(3.5M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-it.zip?download">Lure of the Temptress, Freeware Version (Italian)</a> <font class='cat-count'>(3.0M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-es.zip?download">Lure of the Temptress, Freeware Version (Spanish)</a> <font class='cat-count'>(2.1M)</font></td></tr>
+
+	  <tr><td></td><td>&nbsp;</td></tr>
+
 	  <tr><td class='cat-bullet'><img src='images/cat-sword.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_DXA_Cutscenes.zip?download">Broken Sword 1 Cutscene Pack (English, DXA compression)</a> <font class='cat-count'>(58.5M) - Requires ScummVM 0.10.0</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-sword.png' alt=""></td><td class='cat-link'><a href="http://downloads.scummbr.com/Sword1_Cutscenes_BRA_Complete.zip">Broken Sword 1 Cutscene Pack (Brazilian)</a> <font class='cat-count'>(38M) This is an offsite package with both Brazillian videos and audio</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-sword.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_FRE_AddOn.zip?download">Broken Sword 1 Cutscene Pack (French AddOn)</a> <font class='cat-count'>(1.6M) Overwrite files in English Pack with files from this archive</font></td></tr>
