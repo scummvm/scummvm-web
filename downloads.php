@@ -205,21 +205,21 @@ html_content_begin('Download ScummVM');
 		have older versions around, for your convenience.
 	</p>
 	<table>
-	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-1_FC2.i386.rpm?download">Fedora Core 2 package</a> <font class='cat-count'>(1.6M RPM)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-1_FC2.i386.rpm?download">0.9.1 Fedora Core 2 package</a> <font class='cat-count'>(1.6M RPM)</font></td></tr>
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-debian.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.9.1-0.sarge.1_i386.deb?download">Debian 3.1 (sarge) package</a> <font class='cat-count'>(1.6M .deb)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-debian.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.9.1-0.sarge.1_i386.deb?download">0.9.1 Debian 3.1 (sarge) package</a> <font class='cat-count'>(1.6M .deb)</font></td></tr>
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-ps2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-ps2.zip?download">PlayStation2 package</a> <font class='cat-count'>(3.0M .zip)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-ps2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-ps2.zip?download">0.9.1 PlayStation2 package</a> <font class='cat-count'>(3.0M .zip)</font></td></tr>
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-s60-v1.sis?download">Symbian S60 version 1 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-s60-v2.sis?download">Symbian S60 version 2 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-s80.sis?download">Symbian S80 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-s90.sis?download">Symbian S90 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-uiq.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-uiq2.sis?download">Symbian UIQ 2 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-s60-v1.sis?download">0.9.1 Symbian S60 version 1 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-s60-v2.sis?download">0.9.1 Symbian S60 version 2 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-s80.sis?download">0.9.1 Symbian S80 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-s90.sis?download">0.9.1 Symbian S90 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-uiq.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-uiq2.sis?download">0.9.1 Symbian UIQ 2 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
+
+	  <tr><td class='cat-bullet'><img src='images/catpl-morphos.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-morphos.lha?download">0.9.1 MorphOS package</a> <font class='cat-count'>(2.8M .lha)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-win64.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-win64.zip?download">0.8.0 Windows 64 zipfile</a> <font class='cat-count'>(1.4M zipfile)</font></td></tr>
-
-	  <tr><td class='cat-bullet'><img src='images/catpl-morphos.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-morphos.lha?download">MorphOS package</a> <font class='cat-count'>(2.8M .lha)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-mandriva.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-1mdk.i586.rpm?download">0.8.0 Mandriva 2006 package</a> <font class='cat-count'>(1.3M RPM)</font></td></tr>
 
