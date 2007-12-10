@@ -175,10 +175,10 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.10.0-1_F7.i386.rpm?download">Tools - Fedora 7 RPM</a> <font class='cat-count'>(177k .rpm)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.10.0-1_FC5.i386.rpm?download">Tools - Fedora Core 5 RPM</a> <font class='cat-count'>(177k .rpm)</font></td></tr>
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-macos-universal.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.10.0-macosx-universal.tar.bz2?download">Tools - Mac OS X Universal binaries (10.3.9 and up)</a> <font class='cat-count'>(920k .tar.bz2)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-macos-universal.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.10.0-macosx.tar.bz2?download">Tools - Mac OS X Universal binaries (10.3.9 and up)</a> <font class='cat-count'>(920k .tar.bz2)</font></td></tr>
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.10.0-solaris-sparc.tar.bz2?download">Tools - Solaris 8 (Sparc)</a> <font class='cat-count'>(204k .tar.bz2)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.10.0-solaris10-x86.tar.bz2?download">Tools - Solaris 10 (both IA32 and AMD64)</a> <font class='cat-count'>(177k .tar.bz2)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.10.0-solaris8-sparc.tar.bz2?download">Tools - Solaris 8 (Sparc)</a> <font class='cat-count'>(204k .tar.bz2)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.10.0-solaris10-x86.pkg.bz2?download">Tools - Solaris 10 (both IA32 and AMD64)</a> <font class='cat-count'>(177k .tar.bz2)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-freemint.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.10.0-atari.tar.gz?download">Tools - Atari/FreeMiNT (68020 and up)</a> <font class='cat-count'>(1289k .tar.gz)</font></td></tr>
 
