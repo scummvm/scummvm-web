@@ -35,6 +35,7 @@
 <tr><td style='width:13em; padding:2px;'>Matthew Hoops</td><td style='width:10em; text-align: left;' class='news-author'>clone2727</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Filippos Karapetis</td><td style='width:10em; text-align: left;' class='news-author'>[md5]</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Pawe&#322; Ko&#322;odziejski</td><td style='width:10em; text-align: left;' class='news-author'>aquadran</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Kari Salminen</td><td style='width:10em; text-align: left;' class='news-author'>Buddha^</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td></td>
 <tr><td style='width:13em; padding:2px;'>David Symonds</td><td style='width:10em; text-align: left;' class='news-author'>dsymonds</td><td></td>
 </table>
@@ -176,6 +177,7 @@
 </table>
 <span style='font-weight: bold'>Miscellaneous:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>David Corrales-Lopez</td><td style='width:10em; text-align: left;' class='news-author'>david_corrales</td><td>Filesystem access improvements</td>
 <tr><td style='width:13em; padding:2px;'>Jerome Fisher</td><td style='width:10em; text-align: left;' class='news-author'>KingGuppy</td><td>MT-32 emulator</td>
 <tr><td style='width:13em; padding:2px;'>Jochen Hoenicke</td><td style='width:10em; text-align: left;' class='news-author'>hoenicke</td><td>Speaker &amp; PCjr sound support, Adlib work</td>
 <tr><td style='width:13em; padding:2px;'>Robin Watts</td><td style='width:10em; text-align: left;' class='news-author'>robinwatts</td><td>ARM assembly routines for nice speedups on several ports; improvements to the sound mixer</td>
