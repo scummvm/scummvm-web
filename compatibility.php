@@ -152,7 +152,7 @@ $gamesOther = array(
 	'Future Wars'                                           => array('fw','80'),
 	'I Have No Mouth, and I Must Scream'                    => array('ihnm', '80'),
 	'Inherit the Earth: Quest for the Orb'                  => array('ite', '95'),
-	'Nippon Safes Inc.'                                     => array('nippon', '70'),
+	'Nippon Safes Inc.'                                     => array('nippon', '90'),
 	'The Legend of Kyrandia'                                => array('kyra1', '80'),
 	'Lure of the Temptress'					=> array('lure', '95'),
 	'Touche: The Adventures of the Fifth Musketeer'         => array('touche','75'),
@@ -404,7 +404,7 @@ $notes = array(
 		   "<br>- DOS, Linux, Macintosh, MacOS X and Windows versions are supported by this target".
 		   "<br>- Amiga versions aren't supported",
 "nippon"  	=> "Game is completable".
-		   "<br>- Only DOS version is supported by this target".
+		   "<br>- DOS and Amiga versions are supported by this target".
 		   "<br>- Occasional minor graphical glitches",
 "kyra1"		=> "Game is completable".
 		   "<br>- Requires the <a href=\"https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory".
