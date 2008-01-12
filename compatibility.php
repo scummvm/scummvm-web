@@ -154,6 +154,7 @@ $gamesOther = array(
 	'Inherit the Earth: Quest for the Orb'                  => array('ite', '95'),
 	'Nippon Safes Inc.'                                     => array('nippon', '70'),
 	'The Legend of Kyrandia'                                => array('kyra1', '80'),
+	'Lure of the Temptress'					=> array('lure', '95'),
 	'Touche: The Adventures of the Fifth Musketeer'         => array('touche','75'),
 	);
 
@@ -465,7 +466,9 @@ $notes = array(
 		   "<br>- Game lacks sound",
 "winnie"	=> "Game is completable".
 		   "<br>- Only DOS version is supported by this target".
-		   "<br>- Game lacks sound"
+		   "<br>- Game lacks sound",
+"lure"		=> "Game is completable".
+		   "<br>- Only DOS VGA version is supported"
 );
 		
 // render the compatibility chart

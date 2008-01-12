@@ -101,6 +101,8 @@ $cat->add(6, "cat-mumg.png", "Mixed-Up Mother Goose");
 $cat->add(7, "cat-pq.png", "Police Quest");
 $cat->add(8, "cat-sq.png", "Space Quest series");
 $cat->add(9, "cat-fan.png", "Fanmade games");
+$cat->add(10, "cat-troll.png", "Troll's Tale");
+$cat->add(11, "cat-winnie.png", "Winnie the Pooh in the Hundred Acre Wood");
 
 // Other games
 $cat = & new category(2, "Other games");
@@ -108,9 +110,11 @@ $cat->add(5, "cat-sky.png", "Beneath a Steel Sky");
 $cat->add(0, "cat-sword.png", "Broken Sword series");
 $cat->add(3, "cat-queen.png", "Flight of the Amazon Queen");
 $cat->add(8, "cat-fw.png", "Future Wars: Time Travelers");
+$cat->add(13, "cat-ihnm.png", "I Have no Mouth and I Must Scream");
 $cat->add(2, "cat-ite.png", "Inherit the Earth: Quest for the Orb");
 $cat->add(12, "cat-nippon.png", "Nippon Safes Inc.");
 $cat->add(6, "cat-kyra.png", "The Legend of Kyrandia series");
+$cat->add(14, "cat-lure.png", "Lure of the Temptress");
 $cat->add(10, "cat-touche.png", "Touch&eacute;: The Adventures of the Fifth Musketeer");
 
 // HE games

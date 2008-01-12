@@ -187,6 +187,18 @@
 2|12|1|other/nippon/nippon-1|Nippon Safes Inc. (DOS)
 2|12|2|other/nippon/nippon-2|Nippon Safes Inc. (DOS)
 2|12|3|other/nippon/nippon-3|Nippon Safes Inc. (DOS)
+2|13|0|other/ihnm/ihnm-1|I Have no Mouth and I Must Scream (DOS)
+2|13|1|other/ihnm/ihnm-2|I Have no Mouth and I Must Scream (DOS)
+2|13|2|other/ihnm/ihnm-3|I Have no Mouth and I Must Scream (DOS)
+2|13|3|other/ihnm/ihnm-4|I Have no Mouth and I Must Scream (DOS)
+2|13|4|other/ihnm/ihnm-5|I Have no Mouth and I Must Scream (DOS)
+2|13|5|other/ihnm/ihnm-6|I Have no Mouth and I Must Scream (DOS)
+2|14|0|other/lure/lure-1|Lure of the Temptress (DOS VGA)
+2|14|1|other/lure/lure-2|Lure of the Temptress (DOS VGA)
+2|14|2|other/lure/lure-3|Lure of the Temptress (DOS VGA)
+2|14|3|other/lure/lure-4|Lure of the Temptress (DOS VGA)
+2|14|4|other/lure/lure-5|Lure of the Temptress (DOS VGA)
+2|14|5|other/lure/lure-6|Lure of the Temptress (DOS VGA)
 #
 # Sierra AGI games
 #
@@ -281,3 +293,14 @@
 3|9|13|agi/fanmade/scummvm_3_9_13|Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)
 3|9|14|agi/fanmade/scummvm_3_9_14|Voodoo Girl - Queen of the Darned (v1.2 2002 Jan 1/DOS/English)
 3|9|15|agi/fanmade/scummvm_3_9_15|Voodoo Girl - Queen of the Darned (v1.2 2002 Jan 1/DOS/English)
+#
+3|10|0|agi/preagi/troll-1|Troll's Tale (DOS)
+3|10|1|agi/preagi/troll-2|Troll's Tale (DOS)
+3|10|2|agi/preagi/troll-3|Troll's Tale (DOS)
+#
+3|11|0|agi/preagi/winnie-1|Winnie the Pooh in the Hundred Acre Wood (DOS)
+3|11|1|agi/preagi/winnie-2|Winnie the Pooh in the Hundred Acre Wood (DOS)
+3|11|2|agi/preagi/winnie-3|Winnie the Pooh in the Hundred Acre Wood (DOS)
+3|11|3|agi/preagi/winnie-4|Winnie the Pooh in the Hundred Acre Wood (DOS)
+3|11|4|agi/preagi/winnie-5|Winnie the Pooh in the Hundred Acre Wood (DOS)
+3|11|5|agi/preagi/winnie-6|Winnie the Pooh in the Hundred Acre Wood (DOS)
