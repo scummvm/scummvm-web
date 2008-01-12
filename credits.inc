@@ -130,6 +130,10 @@
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Oystein Eftevaag</td><td style='width:10em; text-align: left;' class='news-author'>vinterstum</td><td></td>
 </table>
+<span style='font-weight: bold'>Maemo:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Frantisek Dufka</td><td style='width:10em; text-align: left;' class='news-author'>fanoush</td><td></td>
+</table>
 <span style='font-weight: bold'>Nintendo DS:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Neil Millstone</td><td style='width:10em; text-align: left;' class='news-author'>agent-q</td><td></td>
