@@ -145,7 +145,7 @@ $HE_demos = array(
 	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Macintosh Demo)'
 		=> array('http://quick.mixnmojo.com/demos/freddi_demo_mac.zip', 'freddi'),
 	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/freddi.zip', 'freddi'),
+		=> array('http://quick.mixnmojo.com/demos/Freddi%20Fish%201%20Pc%20Demo.zip', 'freddi'),
 	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows French Demo)'
 		=> array('http://quick.mixnmojo.com/demos/mm-demo_fr.zip', 'freddi'),
 	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows German demo)'
@@ -153,11 +153,11 @@ $HE_demos = array(
 	'Freddi Fish 2: The Case of the Haunted Schoolhouse (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/FF2-DEMO.ZIP', 'freddi2'),
 	'Freddi Fish 3: The Case of the Stolen Conch Shell (Windows Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/fred3-95.exe', 'freddi3'),
+		=> array('http://quick.mixnmojo.com/demos/Freddi%20Fish%203%20%20Pc%20Demo.zip', 'freddi3'),
 	'Freddi Fish 3: The Case of the Stolen Conch Shell (Windows French Demo)'
 		=> array('http://quick.mixnmojo.com/demos/mm3-demo-fr.zip', 'freddi3'),
 	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/freddi4_demo/freddi4.exe', 'freddi4'),
+		=> array('http://quick.mixnmojo.com/demos/Freddi%20Fish%204%20%20Pc%20Demo.zip', 'freddi4'),
 	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows German Demo)'
 		=> array('http://quick.mixnmojo.com/demos/ff4demo-de.zip', 'freddi4'),
 	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows UK Demo)'
@@ -187,7 +187,7 @@ $HE_demos = array(
 	'Pajama Sam\'s Lost & Found (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/losttest.zip', 'lost'),
 	'Putt-Putt Enters the Race (Windows Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/puttraceDemo/puttrace.exe', 'puttrace'),
+		=> array('http://quick.mixnmojo.com/demos/Putt%20Putt%20Enters%20The%20Race%20Pc%20Demo.zip', 'puttrace'),
 	'Putt-Putt Enters the Race (Windows Demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/puttrace_cup_demo.zip', 'puttrace'),
 	'Putt-Putt Enters the Race (Windows Dutch Demo)'
@@ -215,7 +215,7 @@ $HE_demos = array(
 	'SPY Fox 1: Dry Cereal (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/FOX95d.EXE', 'spyfox'),
 	'SPY Fox 1: Dry Cereal (Windows Alternative Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/spy95_98.zip', 'spyfox'),
+		=> array('http://quick.mixnmojo.com/demos/Spyfox%20Dry%20Cereal%20Pc%20Demo.zip', 'spyfox'),
 	'SPY Fox 1: Dry Cereal (Windows Dutch Demo)'
 		=> array('http://quick.mixnmojo.com/demos/spydemo-nl.zip', 'spyfox'),
 	'SPY Fox 1: Dry Cereal (Windows French Demo)'

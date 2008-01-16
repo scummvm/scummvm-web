@@ -222,8 +222,6 @@ html_content_begin('Download ScummVM');
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-beos.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.10.0-beosx86.pkg?download">0.10.0 BeOS package</a> <font class='cat-count'>(3.3M pkg)</font></td></tr>
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-morphos.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-morphos.lha?download">0.10.0 MorphOS package</a> <font class='cat-count'>(2.8M .lha)</font></td></tr>
-
 	  <tr><td class='cat-bullet'><img src='images/catpl-os2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.10.0-os2.zip?download">0.10.0 OS/2 package</a> <font class='cat-count'>(3.0M .zip)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.10.0-1_FC5.i386.rpm?download">0.10.0 Fedora Core 5 and 6 package</a> <font class='cat-count'>(2.8M RPM)</font></td></tr>
@@ -296,6 +294,7 @@ html_content_begin('Download ScummVM');
 
 	  <tr><td class='cat-bullet'><img src='images/cat-sword.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_DXA_Cutscenes.zip?download">Broken Sword 1 Cutscene Pack (English, DXA compression)</a> <font class='cat-count'>(58.5M) - Requires ScummVM 0.10.0</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-sword.png' alt=""></td><td class='cat-link'><a href="http://downloads.scummbr.com/Sword1_Cutscenes_BRA_Complete.zip">Broken Sword 1 Cutscene Pack (Brazilian)</a> <font class='cat-count'>(38M) This is an offsite package with both Brazillian videos and audio</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-sword.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_OGG_Cutscenes.zip?download">Broken Sword 1 Cutscene Pack (English OGG AddOn)</a> <font class='cat-count'>(2.9M) Overwrite files in English Pack with files from this archive</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-sword.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_FRE_AddOn.zip?download">Broken Sword 1 Cutscene Pack (French AddOn)</a> <font class='cat-count'>(1.6M) Overwrite files in English Pack with files from this archive</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-sword.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_GER_AddOn.zip?download">Broken Sword 1 Cutscene Pack (German AddOn)</a> <font class='cat-count'>(1.8M) Overwrite files in English Pack with files from this archive</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-sword.png' alt=""></td><td class='cat-link'><a href="http://www.unet.univie.ac.at/~a0200586/binary/mirrors/scummvm/Sword1_Cutscenes_GER_Complete.zip">Broken Sword 1 Cutscene Pack (German)</a> <font class='cat-count'>(32M) This is an alternative offsite package with both German videos and audio</font></td></tr>
@@ -306,6 +305,7 @@ html_content_begin('Download ScummVM');
 	  <tr><td></td><td>&nbsp;</td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/cat-sword2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_DXA_Cutscenes.zip?download">Broken Sword 2 Cutscene Pack (all languages, DXA compression)</a> <font class='cat-count'>(111M) - Requires ScummVM 0.10.0</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-sword2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_OGG_Cutscenes.zip?download">Broken Sword 2 Cutscene Pack (English OGG AddOn)</a> <font class='cat-count'>(2.9M) Overwrite files in All Languages Pack with files from this archive</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-sword2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_Demo_Cutscenes.zip?download">Broken Sword 2 Demo Cutscene Pack</a> <font class='cat-count'>(767KB) - Requires ScummVM 0.10.0</font></td></tr>
 
 	  <tr><td></td><td>&nbsp;</td></tr>
