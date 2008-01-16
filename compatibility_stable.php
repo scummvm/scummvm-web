@@ -14,7 +14,7 @@ require($file_root."/include/"."incl.php");
 // start of html
 html_page_header('ScummVM :: Compatibility - Stable');
 
-html_content_begin('0.10.0 Compatibility');
+html_content_begin('0.11.0 Compatibility');
 
 if (isset($_GET['details'])) {
 	$details = $_GET['details'];
@@ -38,7 +38,7 @@ else {
 	  Click on the game name to view the complete notes of a game.
 
 	  <br><br>Please note this list applies to the English versions of games, we attempt to test many versions of games, however there are occasionally problems with other languages.
-	  This is the compatibility of the current 0.10.0 stable release, <B>not of the
+	  This is the compatibility of the current 0.11.0 stable release, <B>not of the
 	  current WIP SVN version</B> (Please see the  <a href="compatibility.php">WIP SVN Compatibility</A> chart for this version).
 	  <br><br>
 	  As this is the status of the Work In Progress version, occasional temporary bugs
@@ -85,6 +85,7 @@ $gamesHE = array(
 	'Backyard Baseball'                                                => array('baseball','20'),
 	'Backyard Football'                                                => array('football','80'),
 	'Backyard Soccer'                                                  => array('soccer','20'),
+	'Bear Stormin\''                   			           => array('brstorm','95'),
 	'Big Thinkers First Grade'                                         => array('thinker1','90'),
 	'Big Thinkers Kindergarten'                                        => array('thinkerk','90'),
 	'Blue\'s ABC Time'                                                 => array('BluesABCTime','50'),
@@ -122,19 +123,9 @@ $gamesHE = array(
 	'SPY Fox in Hold the Mustard'                                      => array('mustard','85'),
 	);
 
-$gamesOther = array(
-
-	'Bargon Attack'                                         => array('bargon','95'),
-	'Beneath a Steel Sky'                                   => array('sky','98'),
-	'Broken Sword 1: The Shadow of the Templars'            => array('sword1','98'),
-	'Broken Sword 2: The Smoking Mirror'                    => array('sword2','98'),
-	'Flight of the Amazon Queen'                            => array('queen','98'),
-	'Future Wars'                                           => array('fw','80'),
-	'Gobliiins'                                             => array('gob1', '95'),
-	'Gobliins 2'                                            => array('gob2', '95'),
-	'Goblins 3'                                             => array('gob3', '90'),
-	'Inherit the Earth: Quest for the Orb'                  => array('ite', '87'),
-	'Nippon Safes Inc.' 			                => array('nippon', '70'),
+$gamesAGOS = array(
+	'Elvira - Mistress of the Dark'                         => array('elvira1','90'),
+	'Elvira II - The Jaws of Cerberus'                      => array('elvira2','80'),
 	'Simon the Sorcerer 1'                                  => array('simon1','95'),
 	'Simon the Sorcerer 2'                                  => array('simon2','95'),
 	'Simon the Sorcerer\'s Puzzle Pack - D.I.M.P.'          => array('dimp','70'),
@@ -142,15 +133,35 @@ $gamesOther = array(
 	'Simon the Sorcerer\'s Puzzle Pack - NoPatience'        => array('puzzle','70'),
 	'Simon the Sorcerer\'s Puzzle Pack - Swampy Adventures' => array('swampy','70'),
 	'The Feeble Files'                                      => array('feeble','95'),
-	'The Legend of Kyrandia'                                => array('kyra1', '80'),
-	'Touche: The Adventures of the Fifth Musketeer'         => array('touche','75'),
+	'Waxworks'                                              => array('waxworks','10'),
+	);
+
+$gamesGOB = array(
+	'Bargon Attack'                                         => array('bargon','95'),
+	'Gobliiins'                                             => array('gob1', '95'),
+	'Gobliins 2'                                            => array('gob2', '95'),
+	'Goblins 3'                                             => array('gob3', '90'),
 	'Ween: The Prophecy'                                    => array('ween','95'),
+	);
+
+$gamesOther = array(
+	'Beneath a Steel Sky'                                   => array('sky','98'),
+	'Broken Sword 1: The Shadow of the Templars'            => array('sword1','98'),
+	'Broken Sword 2: The Smoking Mirror'                    => array('sword2','98'),
+	'Flight of the Amazon Queen'                            => array('queen','98'),
+	'Future Wars'                                           => array('fw','80'),
+	'I Have No Mouth, and I Must Scream'                    => array('ihnm', '80'),
+	'Inherit the Earth: Quest for the Orb'                  => array('ite', '95'),
+	'Nippon Safes Inc.'                                     => array('nippon', '90'),
+	'The Legend of Kyrandia'                                => array('kyra1', '80'),
+	'Lure of the Temptress'					=> array('lure', '95'),
+	'Touche: The Adventures of the Fifth Musketeer'         => array('touche','75'),
 	);
 
 $gamesAGI = array(
 
 	'The Black Cauldron'                                         => array('bc','90'),
-	'Gold Rush!'                                                 => array('goldrush','60'),
+	'Gold Rush!'                                                 => array('goldrush','90'),
 	'King\'s Quest I'                                            => array('kq1','90'),
 	'King\'s Quest II'                                           => array('kq2','90'),
 	'King\'s Quest III'                                          => array('kq3','90'),
@@ -160,9 +171,12 @@ $gamesAGI = array(
 	'Manhunter 1: New York'                                      => array('mh1', '90'),
 	'Manhunter 2: San Francisco'                                 => array('mh2', '90'),
 	'Police Quest I: In Pursuit of the Death Angel'              => array('pq1', '90'),
-	'Space Quest I: The Sarien Encounter' 			     => array('sq1', '90'),
+	'Space Quest I: The Sarien Encounter'                        => array('sq1', '90'),
 	'Space Quest II: Vohaul\'s Revenge'                          => array('sq2', '90'),
-	'Fanmade Games' 		                             => array('agi-fanmade', '80'),
+	'Fanmade Games'                                              => array('agi-fanmade', '80'),
+	'Mickey\'s Space Adventure'                                  => array('mickey', '90'),
+	'Troll\'s Tale'                                              => array('troll', '80'),
+	'Winnie the Pooh in the Hundred Acre Wood'                   => array('winnie', '80'),
 	);
 
 $notes = array(
@@ -239,6 +253,7 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "BluesBirthday" => "Game is playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
+"brstorm"	=> "Game is playable",
 "fbear"		=> "Game should be completable, with several glitches".
 		   "<br>- 3DO, DOS, Macintosh and Windows versions supported by this target".
 		   "<br>- Piano sounds aren't the correct pitch in DOS version",
@@ -310,38 +325,17 @@ $notes = array(
 		   "<br>- Only the Windows version is supported by this target".
 		   "<br>- The Macintosh version isn't supported, due to map data using a custom format",
 
-"sky"	 	=> "No known issues, game is completable.".
-		   "<br>- Requires the <a href=\"https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/sky.cpt\">sky.cpt</a> resource file to be placed in the game directory".
-		   "<br>- Floppy demos aren't supported".
-		   "<br>- Amiga versions aren't supported".
-		   "<br>".
-		   "<br>The following bugs are present in the original game and can't be fixed:".
-		   "<br>- The voice files for some sentences are missing.".
-		   "<br>&nbsp;&nbsp;&nbsp;&nbsp;This is especially noticeable in the court- and Mrs. Piermont sequence.".
-		   "<br>- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders".
-		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
-"sword1"	=> "No known issues, game is completable.".
-		   "<br>- DOS and Macintosh versions are supported by this target".
-		   "<br>- PlayStation 1 version isn't supported.",
-"sword2"	=> "No known issues, game is completable.".
-		   "<br>- PlayStation 1 version isn't supported.",
-"queen"		=> "No known issues, game is completable.".
-		   "<br>- Some versions may require the <a href=\"https://scummvm.svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases.".
-		   "<br>- Amiga and DOS versions supported by this target.",
-"gob1"		=> "No known issues. Game is completable.".
-		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
-		   "<br>- Problem with one music piece in the Macintosh version",
-"gob2"		=> "Game is completable".
-		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
-		   "<br>- A few wrong instruments during music playback",
-"gob3"		=> "Game is completable".
-		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
-		   "<br>- Issues with the mouse cursor visibility".
-		   "<br>- The number of used jokers isn't saved correctly. You'll always have 5 to spend again after loading",
-"ite"		=> "Game is completable.".
-		   "<br>- DOS, Linux, Macintosh, MacOS X and Windows versions are supported by this target".
-		   "<br>- Amiga versions aren't supported".
-		   "<br>- Occasional graphical glitches",
+"elvira1"	=> "No known issues, game is completable.".
+		   "<br>- Amiga and Atari ST and DOS versions are supported by this target".
+		   "<br>- Commodore 64 version doesn't use AGOS, so will never be supported.".
+		   "<br>- No music in the Atari ST version.".
+		   "<br>- No text descriptions in the Atari ST version.",
+"elvira2"	=> "No known issues, game is playable.".
+		   "<br>- Amiga and Atari ST and DOS versions are supported by this target".
+		   "<br>- Commodore 64 version doesn't use AGOS, so will never be supported.".
+		   "<br>- No music in the Atari ST version.".
+		   "<br>- No sound effects in the DOS version.".
+		   "<br>- Palette issues in the Atari ST version.",
 "simon1" 	=> "No known issues, game is completable.".
 		   "<br>- Acorn, Amiga, DOS and Windows versions supported by this target".
 		   "<br>- Minor palette glitches in Amiga versions".
@@ -361,32 +355,75 @@ $notes = array(
 		   "<br>- No support for displaying, entering, loading and saving high scores",
 "feeble"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, Macintosh and Windows versions supported by this target",
-"kyra1"		=> "Game is completable.".
-		   "<br>- Requires the <a href=\"https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory.".
-		   "<br>- DOS and FM-TOWNS versions are supported by this target.".
-		   "<br>- Amiga versions aren't supported.".
-		   "<br>".
-		   "<br>- Occasional graphics glitches.".
-		   "<br>- MT-32 music and sfx do not work properly.",
-"fw"		=> "Game is completable".
-		   "<br>- Occasional graphical glitches".
-		   "<br>- DOS, Amiga and Atari versions are supported",
-"touche"	=> "Game is completable".
-		   "<br>- Occasional graphical glitches",
-"ween"  	=> "Game is completable".
-		   "<br>- Amiga, Atari and DOS versions are supported by this target".
-		   "<br>- Issues with the mouse cursor visibility",
+"waxworks"	=> "No known issues, game is playable.".
+		   "<br>- Amiga and DOS versions are supported by this target".
+		   "<br>- DOS versions isn't completable.",
+
 "bargon"  	=> "Game is completable".
 		   "<br>- Amiga, Atari and DOS versions are supported by this target".
 		   "<br>- Issues with the mouse cursor visibility",
+"gob1"		=> "No known issues. Game is completable.".
+		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
+		   "<br>- Problem with one music piece in the Macintosh version",
+"gob2"		=> "Game is completable".
+		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
+		   "<br>- A few wrong instruments during music playback",
+"gob3"		=> "Game is completable".
+		   "<br>- Amiga, Atari, DOS and Macintosh versions are supported by this target".
+		   "<br>- Issues with the mouse cursor visibility".
+		   "<br>- No support for original font and music files in Macintosh version".
+		   "<br>- The number of used jokers isn't saved correctly. You'll always have 5 to spend again after loading",
+"ween"  	=> "Game is completable".
+		   "<br>- Amiga, Atari and DOS versions are supported by this target".
+		   "<br>- Issues with the mouse cursor visibility",
+
+"sky"	 	=> "No known issues, game is completable.".
+		   "<br>- Requires the <a href=\"https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/sky.cpt\">sky.cpt</a> resource file to be placed in the game directory".
+		   "<br>- Floppy demos aren't supported".
+		   "<br>- Amiga versions aren't supported".
+		   "<br>".
+		   "<br>The following bugs are present in the original game and can't be fixed:".
+		   "<br>- The voice files for some sentences are missing.".
+		   "<br>&nbsp;&nbsp;&nbsp;&nbsp;This is especially noticeable in the court- and Mrs. Piermont sequence.".
+		   "<br>- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders".
+		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
+"sword1"	=> "No known issues, game is completable.".
+		   "<br>- DOS and Macintosh versions are supported by this target".
+		   "<br>- PlayStation 1 version isn't supported.",
+"sword2"	=> "No known issues, game is completable.".
+		   "<br>- PlayStation 1 version isn't supported.",
+"queen"		=> "No known issues, game is completable.".
+		   "<br>- Some versions may require the <a href=\"https://scummvm.svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases.".
+		   "<br>- Amiga and DOS versions supported by this target.",
+"fw"		=> "Game is completable".
+		   "<br>- Occasional graphical glitches".
+		   "<br>- DOS, Amiga and Atari versions are supported",
+"ihnm"		=> "Game is completable.".
+		   "<br>- Occasional minor glitches",
+"ite"		=> "No known issues, game is completable.".
+		   "<br>- DOS, Linux, Macintosh, MacOS X and Windows versions are supported by this target".
+		   "<br>- Amiga versions aren't supported",
 "nippon"  	=> "Game is completable".
-		   "<br>- Only DOS version is supported by this target".
+		   "<br>- DOS and Amiga versions are supported by this target".
 		   "<br>- Occasional minor graphical glitches",
+"kyra1"		=> "Game is completable".
+		   "<br>- Requires the <a href=\"https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory".
+		   "<br>- DOS, FM-TOWNS, Macintosh and PC-9821 versions are supported".
+		   "<br>- Amiga versions aren't supported".
+		   "<br>".
+		   "<br>- Occasional graphics glitches".
+		   "<br>- MT-32 music and sfx do not work properly".
+		   "<br>- No music or sound effects in the Macintosh version".
+		   "<br>- PC-9821 version lacks support for PC-98 music and sound effects",
+"touche"	=> "Game is completable".
+		   "<br>- Occasional graphical glitches",
+
 "bc"		=> "Game is completable".
 		   "<br>- DOS, Amiga, Atari ST, Apple IIgs versions are supported by this target".
 		   "<br>- Apple IIgs version has no sound",
-"goldrush"	=> "Game is not completable".
-		   "<br>- DOS, Amiga, Atari ST, Apple IIgs versions are supported by this target".
+"goldrush"	=> "Game is completable".
+		   "<br>- DOS, Atari ST, Apple IIgs versions are supported by this target".
+		   "<br>- Amiga version is not completable".
 		   "<br>- Apple IIgs version has no sound",
 "kq1"		=> "Game is completable".
 		   "<br>- DOS, Mac, Amiga, Atari ST, Apple IIgs versions are supported by this target".
@@ -421,9 +458,18 @@ $notes = array(
 		   "<br>- DOS, Mac, Amiga, Apple IIgs versions are supported by this target".
 		   "<br>- Apple IIgs version has no sound",
 "agi-fanmade"   => "Most games are completable".
-		   "<br>- AGIMOUSE and AGIPAL hacks are also supported by this target".
-		   "<br>- Occasional graphics glitches".
-		   "<br>- AGI256 and AGI256-2 hacks aren't supported"
+		   "<br>- AGIMOUSE, AGIPAL, AGI256 and AGI256-2 hacks are also supported by this target".
+		   "<br>- Occasional graphics glitches",
+"mickey"	=> "Game is completable".
+		   "<br>- Only DOS version is supported by this target",
+"troll"		=> "Game is completable".
+		   "<br>- Only DOS booter version is supported by this target".
+		   "<br>- Game lacks sound",
+"winnie"	=> "Game is completable".
+		   "<br>- Only DOS version is supported by this target".
+		   "<br>- Game lacks sound",
+"lure"		=> "Game is completable".
+		   "<br>- Only DOS VGA version is supported"
 );
 		
 // render the compatibility chart
