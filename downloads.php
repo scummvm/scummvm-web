@@ -178,8 +178,8 @@ html_content_begin('Download ScummVM');
     <div class="par-subhead-content">
 
 	<table>
-	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.10.0-win32.exe?download">Tools - Windows Installer</a> <font class='cat-count'>(534k Win32 .exe)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.10.0-win32.zip?download">Tools - Windows zipfile</a> <font class='cat-count'>(726k Win32 .zip)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.11.0-win32.exe?download">Tools - Windows Installer</a> <font class='cat-count'>(534k Win32 .exe)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.11.0-win32.zip?download">Tools - Windows zipfile</a> <font class='cat-count'>(726k Win32 .zip)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.11.0-1_F8.i386.rpm?download">Tools - Fedora 7 and 8 i386 RPM</a> <font class='cat-count'>(180k .rpm)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.11.0-1_F8.x86_64.rpm?download">Tools - Fedora 7 and 8 x86 64bit RPM</a> <font class='cat-count'>(199k .rpm)</font></td></tr>
