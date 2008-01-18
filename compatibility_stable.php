@@ -37,8 +37,8 @@ else {
 	  This page lists the progress of ScummVM as it relates to individual game compatibility.<br>
 	  Click on the game name to view the complete notes of a game.
 
-	  <br><br>Please note this list applies to the English versions of games, we attempt to test many versions of games, however there are occasionally problems with other languages.
-    	   Also, this is the compatability of the 0.9.1 stable release, <B>not
+	  <br><br>Please note this list applies to the English versions of games. We attempt to test many versions of games, however there are occasionally problems with other languages.
+    	   Also, this is the compatibility of the 0.11.0 stable release, <B>not
            of SVN snapshots/daily builds</B>. The status of these can be found on the <a href="compatibility.php">SVN Compatibility</A> chart.
 	 	  <br><br>
 	  <small>Last Updated: <? echo date("F d, Y",getlastmod()); ?></small>
