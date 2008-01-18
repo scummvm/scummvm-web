@@ -534,6 +534,16 @@ if ($details) {
 	echo html_frame_end("&nbsp;");
 	echo html_p();
 
+	displayGameList("Adventuresoft/Horrorsoft", $gamesAGOS);
+
+	echo html_frame_end("&nbsp;");
+	echo html_p();
+
+	displayGameList("Coktel Vision", $gamesGOB);
+
+	echo html_frame_end("&nbsp;");
+	echo html_p();
+
 	displayGameList("Sierra AGI", $gamesAGI);
 
 	echo html_frame_end("&nbsp;");
