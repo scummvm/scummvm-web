@@ -93,7 +93,7 @@ $LEC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/maniac.rar', 'maniac'),
 	'Maniac Mansion (v2 DOS demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/mmdemo2.zip', 'maniac'),
-	'Monkey Island 2 (DOS demo)'
+	'Monkey Island 2 (DOS demo - not supported by ScummVM)'
 		=> array('http://quick.mixnmojo.com/demos/mi2demo.zip', 'monkey2'),
 	'Passport to Adventure (DOS EGA demos of mi, loom, indy3)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Sampler.zip', 'pass'),
