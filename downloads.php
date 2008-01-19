@@ -129,6 +129,9 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-opie.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.0-opie_arm.ipk?download">Opie SDL package<b> Only </b>for iPAQ h1910/h1915 and MyPal 716</a> <font class='cat-count'>(3.5M .ipk)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-maemo.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.11.0-0_armel.deb?download">Maemo package (OS 2006, 2007 and 2008)</a> <font class='cat-count'>(2.4M .deb)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-maemo.png' alt=""></td><td class='cat-link'>Most recent version is available from Maemo Extras repository. For 
+    single click install use Maemo Downloads: [<a href="http://downloads.maemo.org/product/OS2006/scummvm/">Nokia 770/OS2006</a>] [<a href="http://downloads.maemo.org/product/OS2007/scummvm/">N800/OS2007</a>] 
+[<a href="http://downloads.maemo.org/product/OS2008/scummvm/">N8x0/OS2008</a>]</td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-dc.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.0-dreamcast-plainfiles.tar.bz2?download">Dreamcast plain files</a> <font class='cat-count'>(5.6M .tar.bz2)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-dc.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.0-dreamcast-nero+demos.zip?download">Dreamcast Nero Image &amp; Demos</a> <font class='cat-count'>(11M .zip)</font></td></tr>
