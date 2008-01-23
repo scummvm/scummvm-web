@@ -1,64 +1,4 @@
-<?
-
-/*
- * ScummVM Compatibility Page
- *
- */
-
-// set this for position of this file relative
-$file_root = ".";
-
-// load libraries
-require($file_root."/include/"."incl.php");
-
-// start of html
-html_page_header('ScummVM :: Compatibility - Stable');
-
-html_content_begin('0.11.0 Compatibility');
-
-if (isset($_GET['details'])) {
-	$details = $_GET['details'];
-}
-
-?>
-  <div class="par-item">
-
 <?php
-
-if ($details) {
-
-  echo '<div class="par-content">';
-
-}
-else {
-?>
-    <div class="par-intro">
-<br>
-	  This page lists the progress of ScummVM as it relates to individual game compatibility.<br>
-	  Click on the game name to view the complete notes of a game.
-
-	  <br><br>Please note this list applies to the English versions of games. We attempt to test many versions of games, however there are occasionally problems with other languages.
-    	   Also, this is the compatibility of the 0.11.0 stable release, <B>not
-           of SVN snapshots/daily builds</B>. The status of these can be found on the <a href="compatibility.php">SVN Compatibility</A> chart.
-	 	  <br><br>
-	  <small>Last Updated: <? echo date("F d, Y",getlastmod()); ?></small>
-<br>
-<br>
-    </div>
-<br>
-    <div class="par-content">
-
-<?
-	// Display the Color Key Table
-	echo html_frame_start("Color Key","85%",1,1,"color4");
-	$pcts = array(0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100);
-	while (list($key,$num) = each($pcts))
-	{
-		$keyTD .= html_frame_td($num,'align=center class="pct'.$num.'"');
-	}
-	echo html_frame_tr($keyTD);
-	echo html_frame_end(),html_br();
-}
 
 // This array defines the games and their ratings, etc.
 $gamesLucas = array(
@@ -155,24 +95,32 @@ $gamesOther = array(
 	);
 
 $gamesAGI = array(
+	'The Black Cauldron'                                    => array('bc','90'),
+	'Gold Rush!'                                            => array('goldrush','90'),
+	'King\'s Quest I'                                       => array('kq1','90'),
+	'King\'s Quest II'                                      => array('kq2','90'),
+	'King\'s Quest III'                                     => array('kq3','90'),
+	'King\'s Quest IV'                                      => array('kq4','90'),
+	'Leisure Suit Larry in the Land of the Lounge Lizards'  => array('lsl1','90'),
+	'Mixed-Up Mother Goose'                                 => array('mixedup', '90'),
+	'Manhunter 1: New York'                                 => array('mh1', '90'),
+	'Manhunter 2: San Francisco'                            => array('mh2', '90'),
+	'Police Quest I: In Pursuit of the Death Angel'         => array('pq1', '90'),
+	'Space Quest I: The Sarien Encounter'                   => array('sq1', '90'),
+	'Space Quest II: Vohaul\'s Revenge'                     => array('sq2', '90'),
+	'Fanmade Games'                                         => array('agi-fanmade', '80'),
+	'Mickey\'s Space Adventure'                             => array('mickey', '90'),
+	'Troll\'s Tale'                                         => array('troll', '80'),
+	'Winnie the Pooh in the Hundred Acre Wood'              => array('winnie', '80'),
+	);
 
-	'The Black Cauldron'                                         => array('bc','90'),
-	'Gold Rush!'                                                 => array('goldrush','90'),
-	'King\'s Quest I'                                            => array('kq1','90'),
-	'King\'s Quest II'                                           => array('kq2','90'),
-	'King\'s Quest III'                                          => array('kq3','90'),
-	'King\'s Quest IV'                                           => array('kq4','90'),
-	'Leisure Suit Larry in the Land of the Lounge Lizards'       => array('lsl1','90'),
-	'Mixed-Up Mother Goose'                                      => array('mixedup', '90'),
-	'Manhunter 1: New York'                                      => array('mh1', '90'),
-	'Manhunter 2: San Francisco'                                 => array('mh2', '90'),
-	'Police Quest I: In Pursuit of the Death Angel'              => array('pq1', '90'),
-	'Space Quest I: The Sarien Encounter'                        => array('sq1', '90'),
-	'Space Quest II: Vohaul\'s Revenge'                          => array('sq2', '90'),
-	'Fanmade Games'                                              => array('agi-fanmade', '80'),
-	'Mickey\'s Space Adventure'                                  => array('mickey', '90'),
-	'Troll\'s Tale'                                              => array('troll', '80'),
-	'Winnie the Pooh in the Hundred Acre Wood'                   => array('winnie', '80'),
+$gamesCompanies = array(
+	"LucasArts"                  => $gamesLucas,
+	"Adventuresoft/Horrorsoft"   => $gamesAGOS,
+	"Coktel Vision"              => $gamesGOB,
+	"Sierra AGI"                 => $gamesAGI,
+	"Other"                      => $gamesOther,
+	"Humongous Entertainment"    => $gamesHE,
 	);
 
 $notes = array(
@@ -418,8 +366,7 @@ $notes = array(
 		   "<br>- DOS, Amiga, Atari ST, Apple IIgs versions are supported by this target".
 		   "<br>- Apple IIgs version has no sound",
 "goldrush"	=> "Game is completable".
-		   "<br>- DOS, Atari ST, Apple IIgs versions are supported by this target".
-		   "<br>- Amiga version is not completable".
+		   "<br>- DOS, Amiga, Atari ST, Apple IIgs versions are supported by this target".
 		   "<br>- Apple IIgs version has no sound",
 "kq1"		=> "Game is completable".
 		   "<br>- DOS, Mac, Amiga, Atari ST, Apple IIgs versions are supported by this target".
@@ -467,102 +414,5 @@ $notes = array(
 "lure"		=> "Game is completable".
 		   "<br>- Only DOS VGA version is supported"
 );
-		
-// render the compatibility chart
-
-if ($details) {
-	// 'Details' mode -- information about a specific game
-	echo html_frame_start("Game Compatibility Chart","90%",2,1,"color4");
-	echo html_frame_tr(
-			   html_frame_td("Game Full Name").
-			   html_frame_td("Game Short Name").
-			   html_frame_td("% Completed"),
-			   "color4"
-	
-			  );
-
-	$arrayt = array_merge($gamesLucas, $gamesHE, $gamesOther, $gamesAGI);
-	while (list($name,$array) = each($arrayt))
-	{	
-
-		if ($array[0] == $details) {
-			$color = "color0";
-			echo html_frame_tr(
-				html_frame_td($name).
-			    	html_frame_td($array[0]).
-		 	    	html_frame_td($array[1]."%", 'align="center" class="pct'.($array[1] - ($array[1]%5)).'"'),
-		  	        $color
-	  		);
-			echo html_frame_tr(html_frame_td(
-							 html_br().
-							 html_blockquote($notes{$details}).
-							 html_br(),
-							 "colspan=4")
-							);
-		}
-	}
-} else {
-	// List mode -- show all games
-	function displayGameList($title, $games) {
-		echo html_frame_start("$title Game Compatibility Chart","95%",2,1,"color4");
-		echo html_frame_tr(
-			   html_frame_td("Game Full Name").
-			   html_frame_td("Game Short Name").
-			   html_frame_td("% Completed"),
-			   "color4"
-			  );
-		$c = 0;
-		while (list($name,$array) = each($games))
-		{	
-			if ($c % 2 == 0) { $color = "color2"; } else { $color = "color0"; }
-			echo html_frame_tr(
-						html_frame_td(html_ahref($name, $PHP_SELF."?details=".$array[0])).
-						html_frame_td($array[0]).
-						html_frame_td($array[1]."%", 'align="center" class="pct'.($array[1] - ($array[1]%5)).'"'),
-						$color
-			);
-			$c++;
-		}		  
-	}
-	
-	displayGameList("LucasArts", $gamesLucas);
-
-	echo html_frame_end("&nbsp;");
-	echo html_p();
-
-	displayGameList("Adventuresoft/Horrorsoft", $gamesAGOS);
-
-	echo html_frame_end("&nbsp;");
-	echo html_p();
-
-	displayGameList("Coktel Vision", $gamesGOB);
-
-	echo html_frame_end("&nbsp;");
-	echo html_p();
-
-	displayGameList("Sierra AGI", $gamesAGI);
-
-	echo html_frame_end("&nbsp;");
-	echo html_p();
-
-	displayGameList("Other", $gamesOther);
-
-	echo html_frame_end("&nbsp;");
-	echo html_p();
-
-	displayGameList("Humongous Entertainment", $gamesHE);
-}
-
-echo html_frame_end("&nbsp;");
-
-if ($details)
-  echo '<p class="bottom-link"><a href="javascript:history.back(1)">&lt;&lt;Back</a></p>'."\n";
-
-echo " <br>";
-echo "  </div>\n";
-echo "</div>\n";
-
-html_content_end();
-html_page_footer();
 
 ?>
