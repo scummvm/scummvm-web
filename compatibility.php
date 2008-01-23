@@ -18,12 +18,12 @@ if (isset($_GET['version'])) {
 	$version = preg_replace('/[^a-z0-9\.]/i', "", $version);
 
 	// Test whether the file exists
-	if (!file_exists($file_root."/compat-".$version.".inc"))
+	if (!file_exists($file_root."/include/compatibility/compat-".$version.".inc"))
 		$version = "SVN";
 } else {
 	$version = "SVN";
 }
-include($file_root."/compat-".$version.".inc");
+include($file_root."/include/compatibility/compat-".$version.".inc");
 
 // start of html
 html_page_header('ScummVM :: Compatibility - '.$version);
@@ -55,7 +55,7 @@ else {
 
 // Get the available versions of compatibility information
 $versions = array();
-if ($dir = opendir($file_root)) {
+if ($dir = opendir($file_root."/include/compatibility/")) {
 	while (($compatfile = readdir($dir)) !== false) {
 		if (substr($compatfile, 0, 7) == "compat-" && substr($compatfile, -4) == ".inc") {
 			$ver = substr($compatfile, 7, strlen($compatfile) - 11);
@@ -100,7 +100,7 @@ foreach ($versions as $ver)
 }
 ?>
 	  <br><br>
-	  <small>Last Updated: <? echo date("F d, Y",filemtime($file_root."/compat-".$version.".inc")); ?></small>
+	  <small>Last Updated: <? echo date("F d, Y",filemtime($file_root."/include/compatibility/compat-".$version.".inc")); ?></small>
 <br>
 <br>
     </div>
