@@ -67,7 +67,7 @@ html_content_begin('Download ScummVM');
 		<LI>For UNSTABLE experimental versions of ScummVM (for people who know what they
 	are doing), please see the <a href="#SVN">Subversion Builds</a> section, near the end of this page.</LI>
 
-		<LI>Also below are the <a href="#extras">Extras</a>. These currently include two
+		<LI>Also below are the <a href="#extras">Extras</a>. These currently include three
 	  freeware games 'Beneath a Steel Sky', 'Flight of the Amazon Queen' and 'Lure of the Temptress', along with
     cutscene packs recommended for use when playing Broken Sword 1, 2 or Feeble Files under ScummVM</LI>
 	</UL>
