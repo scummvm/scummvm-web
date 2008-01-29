@@ -310,6 +310,7 @@
 <tr><td style='width:13em; padding:2px;'>Andreas Karlsson</td><td style='width:10em; text-align: left;' class='news-author'>Sprawl</td><td>Initial port for EPOC/SymbianOS</td>
 <tr><td style='width:13em; padding:2px;'>Claudio Matsuoka</td><td></td><td>Daily Linux builds</td>
 <tr><td style='width:13em; padding:2px;'>Thomas Mayer</td><td></td><td>PSP port contributions</td>
+<tr><td style='width:13em; padding:2px;'>Sean Murray</td><td style='width:10em; text-align: left;' class='news-author'>lightcast</td><td>ScummVM tools GUI application (GSoC 2007 task)</td>
 <tr><td style='width:13em; padding:2px;'>???</td><td style='width:10em; text-align: left;' class='news-author'>n0p</td><td>Windows CE port aspect ratio correction scaler and right click input method</td>
 <tr><td style='width:13em; padding:2px;'>Mikesch Nepomuk</td><td style='width:10em; text-align: left;' class='news-author'>mnepomuk</td><td>MI1 VGA floppy patches</td>
 <tr><td style='width:13em; padding:2px;'>Nicolas Noble</td><td style='width:10em; text-align: left;' class='news-author'>pixels</td><td>Config file and ALSA support</td>
