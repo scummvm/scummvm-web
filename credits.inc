@@ -234,6 +234,7 @@
 <span style='font-weight: bold'>BeOS:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Stefan Parviainen</td><td></td><td></td>
+<tr><td style='width:13em; padding:2px;'>Luc Schrijvers</td><td style='width:10em; text-align: left;' class='news-author'>Begasus</td><td></td>
 </table>
 <span style='font-weight: bold'>Debian GNU/Linux:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
