@@ -255,7 +255,7 @@ html_content_begin('Download ScummVM');
 	<table>
 	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt=""></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/release-0-11-0/dists/engine-data/sky.cpt">Beneath a Steel Sky, SKY.CPT - required to run the game with a post-0.7.* ScummVM</a> <font class='cat-count'>(410k)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/bass-cd-1.2.zip?download">Beneath a Steel Sky, Freeware CD Version</a> <font class='cat-count'>(67M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/BASS-Floppy.zip?download">Beneath a Steel Sky, Freeware Floppy Version</a> <font class='cat-count'>(7.3M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/BASS-Floppy-1.3.zip?download">Beneath a Steel Sky, Freeware Floppy Version</a> <font class='cat-count'>(7.3M)</font></td></tr>
 
 	  <tr><td></td><td>&nbsp;</td></tr>
 
@@ -272,11 +272,11 @@ html_content_begin('Download ScummVM');
 
 	  <tr><td></td><td>&nbsp;</td></tr>
 
-	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure.zip?download">Lure of the Temptress, Freeware Version (English)</a> <font class='cat-count'>(3.9M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-fr.zip?download">Lure of the Temptress, Freeware Version (French)</a> <font class='cat-count'>(3.4M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-de.zip?download">Lure of the Temptress, Freeware Version (German)</a> <font class='cat-count'>(3.5M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-it.zip?download">Lure of the Temptress, Freeware Version (Italian)</a> <font class='cat-count'>(3.0M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-es.zip?download">Lure of the Temptress, Freeware Version (Spanish)</a> <font class='cat-count'>(2.1M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-1.1.zip?download">Lure of the Temptress, Freeware Version (English)</a> <font class='cat-count'>(3.9M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-fr-1.1.zip?download">Lure of the Temptress, Freeware Version (French)</a> <font class='cat-count'>(3.4M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-de-1.1.zip?download">Lure of the Temptress, Freeware Version (German)</a> <font class='cat-count'>(3.5M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-it-1.1.zip?download">Lure of the Temptress, Freeware Version (Italian)</a> <font class='cat-count'>(3.0M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-es-1.1.zip?download">Lure of the Temptress, Freeware Version (Spanish)</a> <font class='cat-count'>(2.1M)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt=""></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/release-0-11-0/dists/engine-data/lure.dat">Lure of the Temptress, lure.dat - required to run original versions of Lure of the Temptress</a> <font class='cat-count'>(623k) - Requires ScummVM 0.11.0</font></td></tr>
 
 	  <tr><td></td><td>&nbsp;</td></tr>
