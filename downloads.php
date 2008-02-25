@@ -151,7 +151,7 @@ html_content_begin('Download ScummVM');
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-freemint.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.0-atari.zip?download">Atari/FreeMiNT package (68020 and up)</a> <font class='cat-count'>(3.3M .zip)</font></td></tr>
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-os2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.10.0-os2.zip?download">OS/2 package</a> <font class='cat-count'>(3.4M .zip)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-os2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.0-os2.zip?download">OS/2 package</a> <font class='cat-count'>(3.4M .zip)</font></td></tr>
 	</table>
     </div>
 
