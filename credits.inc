@@ -123,10 +123,6 @@
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>John Willis</td><td style='width:10em; text-align: left;' class='news-author'>DJWillis</td><td></td>
 </table>
-<span style='font-weight: bold'>GP32:</span>
-<table style='margin-left:2em; margin-bottom: 1em'>
-<tr><td style='width:13em; padding:2px;'>Won Star</td><td style='width:10em; text-align: left;' class='news-author'>wonst719</td><td></td>
-</table>
 <span style='font-weight: bold'>iPhone:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Oystein Eftevaag</td><td style='width:10em; text-align: left;' class='news-author'>vinterstum</td><td></td>
@@ -145,12 +141,12 @@
 </table>
 <span style='font-weight: bold'>PocketPC / WinCE:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
-<tr><td style='width:13em; padding:2px;'>Nicolas Bacca</td><td style='width:10em; text-align: left;' class='news-author'>arisme</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Kostas Nakos</td><td style='width:10em; text-align: left;' class='news-author'>Jubanka</td><td></td>
 </table>
 <span style='font-weight: bold'>PlayStation 2:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Robert G&ouml;ffringmann</td><td style='width:10em; text-align: left;' class='news-author'>lavosspawn</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Max Lingua</td><td style='width:10em; text-align: left;' class='news-author'>sunmax</td><td></td>
 </table>
 <span style='font-weight: bold'>PSP (PlayStation Portable):</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
@@ -206,6 +202,7 @@
 <div class='par-subhead-content'>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Tore Anderson</td><td style='width:10em; text-align: left;' class='news-author'>tore</td><td>Former Debian GNU/Linux maintainer</td>
+<tr><td style='width:13em; padding:2px;'>Nicolas Bacca</td><td style='width:10em; text-align: left;' class='news-author'>arisme</td><td>Former WinCE porter</td>
 <tr><td style='width:13em; padding:2px;'>Ralph Brorsen</td><td style='width:10em; text-align: left;' class='news-author'>painelf</td><td>Help with GUI implementation</td>
 <tr><td style='width:13em; padding:2px;'>Jamieson Christian</td><td style='width:10em; text-align: left;' class='news-author'>jamieson630</td><td>iMUSE, MIDI, all things musical</td>
 <tr><td style='width:13em; padding:2px;'>R&uuml;diger Hanke</td><td></td><td>Port: MorphOS</td>
@@ -216,6 +213,7 @@
 <tr><td style='width:13em; padding:2px;'>Jeremy Newman</td><td style='width:10em; text-align: left;' class='news-author'>laxdragon</td><td>Former webmaster</td>
 <tr><td style='width:13em; padding:2px;'>Ludvig Strigeus</td><td style='width:10em; text-align: left;' class='news-author'>ludde</td><td>Original ScummVM and SimonVM author</td>
 <tr><td style='width:13em; padding:2px;'>Lionel Ulmer</td><td style='width:10em; text-align: left;' class='news-author'>bbrox</td><td>Port: X11</td>
+<tr><td style='width:13em; padding:2px;'>Won Star</td><td style='width:10em; text-align: left;' class='news-author'>wonst719</td><td>Former GP32 porter</td>
 </table>
 </div>
 </div></div>
