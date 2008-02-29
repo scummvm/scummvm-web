@@ -224,6 +224,7 @@
 <span style='font-weight: bold'>AmigaOS 4:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Hans-J&ouml;rg Frieden</td><td></td><td></td>
+<tr><td style='width:13em; padding:2px;'>Hubert Maier</td><td style='width:10em; text-align: left;' class='news-author'>Raziel_AOne</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Juha Niemim&auml;ki</td><td></td><td></td>
 </table>
 <span style='font-weight: bold'>Atari/FreeMiNT:</span>
