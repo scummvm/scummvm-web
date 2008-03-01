@@ -213,6 +213,10 @@ html_content_begin('Download ScummVM');
 		have older versions around, for your convenience.
 	</p>
 	<table>
+	  <tr><td class='cat-bullet'><img src='images/catpl-gp2x.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.0-gp2x.zip?download">0.11.0 GP2X package</a> <font class='cat-count'>(3.8M .zip)</font></td></tr>
+
+	  <tr><td class='cat-bullet'><img src='images/catpl-morphos.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.0-morphos.lha?download">0.11.0 MorphOS package</a> <font class='cat-count'>(4.2M .lha)</font></td></tr>
+
 	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.10.0-1_FC5.i386.rpm?download">0.10.0 Fedora Core 5 and 6 package</a> <font class='cat-count'>(2.8M RPM)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-1_FC2.i386.rpm?download">0.9.1 Fedora Core 2 package</a> <font class='cat-count'>(1.6M RPM)</font></td></tr>
