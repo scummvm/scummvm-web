@@ -136,9 +136,9 @@ html_content_begin('Download ScummVM');
 
 <!--
 	  <tr><td class='cat-bullet'><img src='images/catpl-gp2x.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.0-gp2x.zip?download">GP2X package</a> <font class='cat-count'>(3.8M .zip)</font></td></tr>
-
-	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.0-solaris8-sparc.tar.bz2?download">Solaris 8 and up (Sparc) binary</a> <font class='cat-count'>(4.2M .tar.bz2)</font></td></tr>	
 -->
+
+	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-solaris8-sparc.tar.bz2?download">Solaris 8 and up (Sparc) binary</a> <font class='cat-count'>(3.9M .tar.bz2)</font></td></tr>	
   <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-solaris10-x86.pkg.bz2?download">Solaris 10 (both IA32 and AMD64) binary</a> <font class='cat-count'>(9.6M .pkg.bz2)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-beos.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-beosx86.pkg?download">BeOS package</a> <font class='cat-count'>(4.0M pkg)</font></td></tr>
