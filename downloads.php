@@ -126,7 +126,7 @@ html_content_begin('Download ScummVM');
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-opie.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-opie_arm.ipk?download">Opie SDL package<b> Only </b>for iPAQ h1910/h1915 and MyPal 716</a> <font class='cat-count'>(3.6M .ipk)</font></td></tr>
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-maemo.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.11.1-0_armel.deb?download">Maemo package (OS 2006, 2007 and 2008)</a> <font class='cat-count'>(2.5M .deb)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-maemo.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.11.1_armel.deb?download">Maemo package (OS 2006, 2007 and 2008)</a> <font class='cat-count'>(2.5M .deb)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-maemo.png' alt=""></td><td class='cat-link'>Most recent version is available from Maemo Extras repository. For 
     single click install use Maemo Downloads: [<a href="http://downloads.maemo.org/product/OS2006/scummvm/">Nokia 770/OS2006</a>] [<a href="http://downloads.maemo.org/product/OS2007/scummvm/">N800/OS2007</a>] 
 [<a href="http://downloads.maemo.org/product/OS2008/scummvm/">N8x0/OS2008</a>]</td></tr>
