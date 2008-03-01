@@ -325,11 +325,11 @@ html_content_begin('Download ScummVM');
       might not even start. Use them at your own risk!
     </p>
 	<p>
-	  View the <a href="/daily/ChangeLog">ChangeLog</a> to see the latest updates of ScummVM.
+	  View the <a href="http://helllabs.org/scummvm/">ChangeLog</a> to see the latest updates of ScummVM.
 	</p>
 	<p>
 	  You can get the latest development source and binaries for Linux/Intel from the
-	  <a href="http://www.scummvm.org/daily/">Subversion Daily Snapshot</a> page.
+	  <a href="http://helllabs.org/scummvm/">Subversion Daily Snapshot</a> page.
 	</p>
 	<p>
 	  Additional snapshot builds:
