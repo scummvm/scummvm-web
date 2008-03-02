@@ -76,7 +76,8 @@ $gamesGOB = array(
 	'Bargon Attack'                                         => array('bargon','95'),
 	'Gobliiins'                                             => array('gob1', '95'),
 	'Gobliins 2'                                            => array('gob2', '95'),
-	'Goblins 3'                                             => array('gob3', '90'),
+	'Goblins 3'                                             => array('gob3', '95'),
+	'Lost in Time'                                          => array('lostintime', '90'),
 	'Ween: The Prophecy'                                    => array('ween','95'),
 	);
 
