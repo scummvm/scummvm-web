@@ -163,7 +163,7 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1.tar.bz2?download">ScummVM - Source .tar.bz2</a> <font class='cat-count'>(5.3M)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1.tar.gz?download">ScummVM - Source .tar.gz</a> <font class='cat-count'>(6.4M)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1.zip?download">ScummVM - Source .zip</a> <font class='cat-count'>(8.0M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.0-1.src.rpm?download">ScummVM - Source RPM</a> <font class='cat-count'>(6.0M RPM)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-1.src.rpm?download">ScummVM - Source RPM</a> <font class='cat-count'>(6.0M RPM)</font></td></tr>
 	</table>
 
 
