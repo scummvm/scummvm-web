@@ -12,12 +12,20 @@
 0|0|3|lec/maniac/scummvm_0_0_3|Maniac Mansion
 0|0|4|lec/maniac/scummvm_0_0_4|Maniac Mansion (Enhanced)
 0|0|5|lec/maniac/scummvm_0_0_5|Maniac Mansion (Enhanced)
+0|0|7|lec/maniac/maniac-amiga-0|Maniac Mansion (Amiga)
+0|0|8|lec/maniac/maniac-amiga-1|Maniac Mansion (Amiga)
+0|0|9|lec/maniac/maniac-amiga-2|Maniac Mansion (Amiga)
+0|0|10|lec/maniac/maniac-amiga-3|Maniac Mansion (Amiga)
 0|0|6|lec/maniac/scummvm_0_0_6|Maniac Mansion (Amiga German)
 0|1|0|lec/zak/scummvm_0_1_0|Zak McKracken and the Alien Mindbenders (C64 German)
 0|1|1|lec/zak/scummvm_0_1_1|Zak McKracken and the Alien Mindbenders
 0|1|2|lec/zak/scummvm_0_1_2|Zak McKracken and the Alien Mindbenders (Amiga)
 0|1|3|lec/zak/scummvm_0_1_3|Zak McKracken and the Alien Mindbenders (FM-TOWNS)
 0|1|4|lec/zak/scummvm_0_1_4|Zak McKracken and the Alien Mindbenders (FM-TOWNS)
+0|1|5|lec/zak/zak-fm-2|Zak McKracken and the Alien Mindbenders (FM-TOWNS)
+0|1|6|lec/zak/zak-fm-3|Zak McKracken and the Alien Mindbenders (FM-TOWNS)
+0|1|7|lec/zak/zak-fm-4|Zak McKracken and the Alien Mindbenders (FM-TOWNS)
+0|1|8|lec/zak/zak-fm-5|Zak McKracken and the Alien Mindbenders (FM-TOWNS)
 0|2|0|lec/indy3/scummvm_0_2_0|Indiana Jones and the Last Crusade (EGA)
 0|2|1|lec/indy3/scummvm_0_2_1|Indiana Jones and the Last Crusade (EGA)
 0|2|2|lec/indy3/scummvm_0_2_2|Indiana Jones and the Last Crusade (Amiga)
@@ -34,9 +42,15 @@
 0|4|5|lec/monkey/scummvm_0_4_5|The Secret of Monkey Island (VGA German)
 0|4|6|lec/monkey/scummvm_0_4_6|The Secret of Monkey Island (Amiga)
 0|4|7|lec/monkey/scummvm_0_4_7|The Secret of Monkey Island (DOS CD)
+0|4|10|lec/monkey/monkey-cd-1|The Secret of Monkey Island (DOS CD)
+0|4|11|lec/monkey/monkey-cd-2|The Secret of Monkey Island (DOS CD)
+0|4|12|lec/monkey/monkey-cd-3|The Secret of Monkey Island (DOS CD)
 0|4|8|lec/monkey/scummvm_0_4_8|The Secret of Monkey Island (DOS CD German)
 0|4|9|lec/monkey/scummvm_0_4_9|The Secret of Monkey Island (SegaCD)
 0|5|0|lec/monkey2/scummvm_0_5_0|Monkey Island 2: LeChuck's Revenge
+0|5|3|lec/monkey2/monkey2-1|Monkey Island 2: LeChuck's Revenge
+0|5|4|lec/monkey2/monkey2-2|Monkey Island 2: LeChuck's Revenge
+0|5|5|lec/monkey2/monkey2-3|Monkey Island 2: LeChuck's Revenge
 0|5|1|lec/monkey2/scummvm_0_5_1|Monkey Island 2: LeChuck's Revenge (German)
 0|5|2|lec/monkey2/scummvm_0_5_2|Monkey Island 2: LeChuck's Revenge (Amiga)
 0|6|0|lec/loom/scummvm_0_6_0|Loom (EGA)
@@ -47,18 +61,30 @@
 0|7|0|lec/samnmax/scummvm_0_7_0|Sam &amp; Max Hit the Road
 0|7|1|lec/samnmax/scummvm_0_7_1|Sam &amp; Max Hit the Road
 0|7|2|lec/samnmax/scummvm_0_7_2|Sam &amp; Max Hit the Road
+0|7|3|lec/samnmax/samnmax-3|Sam &amp; Max Hit the Road
+0|7|4|lec/samnmax/samnmax-4|Sam &amp; Max Hit the Road
+0|7|5|lec/samnmax/samnmax-5|Sam &amp; Max Hit the Road
 0|8|0|lec/tentacle/scummvm_0_8_0|Day of the Tentacle
 0|8|1|lec/tentacle/scummvm_0_8_1|Day of the Tentacle
 0|8|2|lec/tentacle/scummvm_0_8_2|Day of the Tentacle (French)
 0|9|0|lec/ft/scummvm_0_9_0|Full Throttle
 0|9|1|lec/ft/scummvm_0_9_1|Full Throttle
 0|9|2|lec/ft/scummvm_0_9_2|Full Throttle
+0|9|3|lec/ft/ft-3|Full Throttle
+0|9|4|lec/ft/ft-4|Full Throttle
+0|9|5|lec/ft/ft-5|Full Throttle
 0|10|0|lec/dig/scummvm_0_10_0|The Dig
 0|10|1|lec/dig/scummvm_0_10_1|The Dig
 0|10|2|lec/dig/scummvm_0_10_2|The Dig
+0|10|3|lec/dig/dig-3|The Dig
+0|10|4|lec/dig/dig-4|The Dig
+0|10|5|lec/dig/dig-5|The Dig
 0|11|0|lec/comi/scummvm_0_11_0|The Curse of Monkey Island
 0|11|1|lec/comi/scummvm_0_11_1|The Curse of Monkey Island
 0|11|2|lec/comi/scummvm_0_11_2|The Curse of Monkey Island
+0|11|5|lec/comi/comi-3|The Curse of Monkey Island
+0|11|6|lec/comi/comi-4|The Curse of Monkey Island
+0|11|7|lec/comi/comi-5|The Curse of Monkey Island
 0|11|3|lec/comi/comi-zh-0|The Curse of Monkey Island (Chinese (Taiwan))
 0|11|4|lec/comi/comi-zh-1|The Curse of Monkey Island (Chinese (Taiwan))
 #
@@ -74,50 +100,114 @@
 1|1|5|he/field/scummvm_1_1_5|Let's Explore the Jungle with Buzzy
 1|3|0|he/spyfox/scummvm_1_3_0|Spy Fox 1: Dry Cereal
 1|3|1|he/spyfox/scummvm_1_3_1|Spy Fox 1: Dry Cereal
+1|3|8|he/spyfox/spyfox1-2|Spy Fox 1: Dry Cereal
+1|3|9|he/spyfox/spyfox1-3|Spy Fox 1: Dry Cereal
+1|3|10|he/spyfox/spyfox1-4|Spy Fox 1: Dry Cereal
+1|3|11|he/spyfox/spyfox1-5|Spy Fox 1: Dry Cereal
 1|3|2|he/spyfox/scummvm_1_3_2|Spy Fox 2: Some Assembly Required
 1|3|3|he/spyfox/scummvm_1_3_3|Spy Fox 2: Some Assembly Required
+1|3|12|he/spyfox/spyfox2-2|Spy Fox 2: Some Assembly Required
+1|3|13|he/spyfox/spyfox2-3|Spy Fox 2: Some Assembly Required
+1|3|14|he/spyfox/spyfox2-4|Spy Fox 2: Some Assembly Required
+1|3|15|he/spyfox/spyfox2-5|Spy Fox 2: Some Assembly Required
 1|3|4|he/spyfox/scummvm_1_3_4|Spy Fox in Cheese Chase
 1|3|5|he/spyfox/scummvm_1_3_5|Spy Fox in Cheese Chase
 1|3|6|he/spyfox/scummvm_1_3_6|Spy Fox in Hold the Mustard
 1|3|7|he/spyfox/scummvm_1_3_7|Spy Fox in Hold the Mustard
 1|4|0|he/fbear/scummvm_1_4_0|Fatty Bear's Birthday Surprise (Win32)
 1|4|1|he/fbear/scummvm_1_4_1|Fatty Bear's Birthday Surprise (Win32)
+1|4|4|he/fbear/fbear-2|Fatty Bear's Birthday Surprise (DOS)
+1|4|5|he/fbear/fbear-3|Fatty Bear's Birthday Surprise (DOS)
+1|4|6|he/fbear/fbear-4|Fatty Bear's Birthday Surprise (DOS)
+1|4|7|he/fbear/fbear-5|Fatty Bear's Birthday Surprise (DOS)
 1|4|2|he/fbear/scummvm_1_4_2|Fatty Bear's Fun Pack
 1|4|3|he/fbear/scummvm_1_4_3|Fatty Bear's Fun Pack
 1|5|0|he/sports/scummvm_1_5_0|Backyard Football
 1|5|1|he/sports/scummvm_1_5_1|Backyard Football
 1|6|0|he/ffish/scummvm_1_6_0|Freddi Fish 1: The Case of the Missing Kelp Seeds
 1|6|1|he/ffish/scummvm_1_6_1|Freddi Fish 1: The Case of the Missing Kelp Seeds
+1|6|16|he/ffish/freddi1-2|Freddi Fish 1: The Case of the Missing Kelp Seeds
+1|6|17|he/ffish/freddi1-3|Freddi Fish 1: The Case of the Missing Kelp Seeds
+1|6|18|he/ffish/freddi1-4|Freddi Fish 1: The Case of the Missing Kelp Seeds
+1|6|19|he/ffish/freddi1-5|Freddi Fish 1: The Case of the Missing Kelp Seeds
 1|6|2|he/ffish/scummvm_1_6_2|Freddi Fish 2: The Case of the Haunted Schoolhouse
 1|6|3|he/ffish/scummvm_1_6_3|Freddi Fish 2: The Case of the Haunted Schoolhouse
+1|6|20|he/ffish/freddi2-2|Freddi Fish 2: The Case of the Haunted Schoolhouse
+1|6|21|he/ffish/freddi2-3|Freddi Fish 2: The Case of the Haunted Schoolhouse
+1|6|22|he/ffish/freddi2-4|Freddi Fish 2: The Case of the Haunted Schoolhouse
+1|6|23|he/ffish/freddi2-5|Freddi Fish 2: The Case of the Haunted Schoolhouse
 1|6|4|he/ffish/scummvm_1_6_4|Freddi Fish 3: The Case of the Stolen Conch Shell
 1|6|5|he/ffish/scummvm_1_6_5|Freddi Fish 3: The Case of the Stolen Conch Shell
+1|6|12|he/ffish/freddi3-2|Freddi Fish 3: The Case of the Stolen Conch Shell
+1|6|13|he/ffish/freddi3-3|Freddi Fish 3: The Case of the Stolen Conch Shell
+1|6|14|he/ffish/freddi3-4|Freddi Fish 3: The Case of the Stolen Conch Shell
+1|6|15|he/ffish/freddi3-5|Freddi Fish 3: The Case of the Stolen Conch Shell
 1|6|6|he/ffish/scummvm_1_6_6|Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch
 1|6|7|he/ffish/scummvm_1_6_7|Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch
+1|6|24|he/ffish/freddi4-2|Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch
+1|6|25|he/ffish/freddi4-3|Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch
+1|6|26|he/ffish/freddi4-4|Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch
+1|6|27|he/ffish/freddi4-5|Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch
 1|6|8|he/ffish/scummvm_1_6_8|Freddi Fish and Luther's Maze Madness
 1|6|9|he/ffish/scummvm_1_6_9|Freddi Fish and Luther's Maze Madness
 1|6|10|he/ffish/scummvm_1_6_10|Freddi Fish and Luther's Water Worries
 1|6|11|he/ffish/scummvm_1_6_11|Freddi Fish and Luther's Water Worries
 1|7|0|he/pajama/scummvm_1_7_0|Pajama Sam 1: No Need to Hide When It's Dark Outside
 1|7|1|he/pajama/scummvm_1_7_1|Pajama Sam 1: No Need to Hide When It's Dark Outside
+1|7|8|he/pajama/pajama1-2|Pajama Sam 1: No Need to Hide When It's Dark Outside
+1|7|9|he/pajama/pajama1-3|Pajama Sam 1: No Need to Hide When It's Dark Outside
+1|7|10|he/pajama/pajama1-4|Pajama Sam 1: No Need to Hide When It's Dark Outside
+1|7|11|he/pajama/pajama1-5|Pajama Sam 1: No Need to Hide When It's Dark Outside
 1|7|2|he/pajama/scummvm_1_7_2|Pajama Sam 2: Thunder and Lightning Aren't so Frightening
 1|7|3|he/pajama/scummvm_1_7_3|Pajama Sam 2: Thunder and Lightning Aren't so Frightening
+1|7|11|he/pajama/pajama2-2|Pajama Sam 2: Thunder and Lightning Aren't so Frightening
+1|7|12|he/pajama/pajama2-3|Pajama Sam 2: Thunder and Lightning Aren't so Frightening
+1|7|13|he/pajama/pajama2-4|Pajama Sam 2: Thunder and Lightning Aren't so Frightening
+1|7|14|he/pajama/pajama2-5|Pajama Sam 2: Thunder and Lightning Aren't so Frightening
 1|7|4|he/pajama/scummvm_1_7_4|Pajama Sam 3: You Are What You Eat From Your Head to Your Feet
 1|7|5|he/pajama/scummvm_1_7_5|Pajama Sam 3: You Are What You Eat From Your Head to Your Feet
+1|7|15|he/pajama/pajama3-2|Pajama Sam 3: You Are What You Eat From Your Head to Your Feet
+1|7|16|he/pajama/pajama3-3|Pajama Sam 3: You Are What You Eat From Your Head to Your Feet
+1|7|17|he/pajama/pajama3-4|Pajama Sam 3: You Are What You Eat From Your Head to Your Feet
+1|7|18|he/pajama/pajama3-5|Pajama Sam 3: You Are What You Eat From Your Head to Your Feet
 1|7|6|he/pajama/scummvm_1_7_6|Pajama Sam's Sock Works
 1|7|7|he/pajama/scummvm_1_7_7|Pajama Sam's Sock Works
 1|8|0|he/puttputt/scummvm_1_8_0|Putt-Putt Joins the Parade (DOS)
 1|8|1|he/puttputt/scummvm_1_8_1|Putt-Putt Joins the Parade (Win32)
+1|8|28|he/puttputt/puttputt-2|Putt-Putt Joins the Parade (3DO)
+1|8|29|he/puttputt/puttputt-3|Putt-Putt Joins the Parade (3DO)
+1|8|30|he/puttputt/puttputt-4|Putt-Putt Joins the Parade (3DO)
+1|8|31|he/puttputt/puttputt-5|Putt-Putt Joins the Parade (3DO)
 1|8|2|he/puttputt/scummvm_1_8_2|Putt-Putt Goes to the Moon (DOS)
 1|8|3|he/puttputt/scummvm_1_8_3|Putt-Putt Goes to the Moon (Win32)
+1|8|24|he/puttputt/puttmoon-2|Putt-Putt Goes to the Moon (3DO)
+1|8|25|he/puttputt/puttmoon-3|Putt-Putt Goes to the Moon (3DO)
+1|8|26|he/puttputt/puttmoon-4|Putt-Putt Goes to the Moon (3DO)
+1|8|27|he/puttputt/puttmoon-5|Putt-Putt Goes to the Moon (3DO)
 1|8|4|he/puttputt/scummvm_1_8_4|Putt-Putt Enters the Race
 1|8|5|he/puttputt/scummvm_1_8_5|Putt-Putt Enters the Race
+1|8|32|he/puttputt/puttrace-2|Putt-Putt Enters the Race
+1|8|33|he/puttputt/puttrace-3|Putt-Putt Enters the Race
+1|8|34|he/puttputt/puttrace-4|Putt-Putt Enters the Race
+1|8|35|he/puttputt/puttrace-5|Putt-Putt Enters the Race
 1|8|6|he/puttputt/scummvm_1_8_6|Putt-Putt Joins the Circus
 1|8|7|he/puttputt/scummvm_1_8_7|Putt-Putt Joins the Circus
+1|8|20|he/puttputt/puttcircus-2|Putt-Putt Joins the Circus
+1|8|21|he/puttputt/puttcircus-3|Putt-Putt Joins the Circus
+1|8|22|he/puttputt/puttcircus-4|Putt-Putt Joins the Circus
+1|8|23|he/puttputt/puttcircus-5|Putt-Putt Joins the Circus
 1|8|8|he/puttputt/scummvm_1_8_8|Putt-Putt Saves the Zoo
 1|8|9|he/puttputt/scummvm_1_8_9|Putt-Putt Saves the Zoo
+1|8|40|he/puttputt/puttzoo-2|Putt-Putt Saves the Zoo
+1|8|41|he/puttputt/puttzoo-3|Putt-Putt Saves the Zoo
+1|8|42|he/puttputt/puttzoo-4|Putt-Putt Saves the Zoo
+1|8|43|he/puttputt/puttzoo-5|Putt-Putt Saves the Zoo
 1|8|10|he/puttputt/scummvm_1_8_10|Putt-Putt Travels Through Time
 1|8|11|he/puttputt/scummvm_1_8_11|Putt-Putt Travels Through Time
+1|8|36|he/puttputt/putttime-2|Putt-Putt Travels Through Time
+1|8|37|he/puttputt/putttime-3|Putt-Putt Travels Through Time
+1|8|38|he/puttputt/putttime-4|Putt-Putt Travels Through Time
+1|8|39|he/puttputt/putttime-5|Putt-Putt Travels Through Time
 1|8|12|he/puttputt/scummvm_1_8_12|Putt-Putt and Pep's Balloon-O-Rama
 1|8|13|he/puttputt/scummvm_1_8_13|Putt-Putt and Pep's Balloon-O-Rama
 1|8|14|he/puttputt/scummvm_1_8_14|Putt-Putt and Pep's Dog on a Stick
@@ -133,21 +223,37 @@
 2|0|3|other/sword/scummvm_2_0_3|Broken Sword 2 - The Smoking Mirror
 2|1|0|other/gob/scummvm_2_1_0|Gobliiins
 2|1|1|other/gob/scummvm_2_1_1|Gobliiins
+2|1|8|other/gob/gob1-2|Gobliiins
+2|1|9|other/gob/gob1-3|Gobliiins
+2|1|10|other/gob/gob1-4|Gobliiins
+2|1|11|other/gob/gob1-5|Gobliiins
 2|1|2|other/gob/scummvm_2_1_2|Gobliins 2 (CD)
 2|1|3|other/gob/scummvm_2_1_3|Gobliins 2 (CD)
 2|1|4|other/gob/scummvm_2_1_4|Gobliins 2 (CD)
+2|1|12|other/gob/gob2-3|Gobliins 2 (CD)
+2|1|13|other/gob/gob2-4|Gobliins 2 (CD)
+2|1|14|other/gob/gob2-5|Gobliins 2 (CD)
 2|1|5|other/gob/scummvm_2_1_5|Goblins Quest 3 (DOS)
 2|1|6|other/gob/scummvm_2_1_6|Goblins Quest 3 (DOS)
 2|1|7|other/gob/scummvm_2_1_7|Goblins Quest 3 (DOS)
+2|1|15|other/gob/gob3-3|Goblins Quest 3 (DOS)
+2|1|16|other/gob/gob3-4|Goblins Quest 3 (DOS)
+2|1|17|other/gob/gob3-5|Goblins Quest 3 (DOS)
 2|2|0|other/ite/scummvm_2_2_0|Inherit the Earth: Quest for the Orb
 2|2|1|other/ite/scummvm_2_2_1|Inherit the Earth: Quest for the Orb (German)
 2|3|0|other/queen/scummvm_2_3_0|Flight of the Amazon Queen
 2|3|1|other/queen/scummvm_2_3_1|Flight of the Amazon Queen (DOS Hebrew)
 2|4|0|other/simon/scummvm_2_4_0|Simon the Sorcerer
 2|4|1|other/simon/scummvm_2_4_1|Simon the Sorcerer
-2|4|10|other/simon/scummvm_2_4_10|Simon the Sorcerer's Puzzle Pack - Swampy Adventures
-2|4|11|other/simon/scummvm_2_4_11|Simon the Sorcerer's Puzzle Pack - Swampy Adventures
+2|4|12|other/simon/simon1-2|Simon the Sorcerer
+2|4|13|other/simon/simon1-3|Simon the Sorcerer
+2|4|14|other/simon/simon1-4|Simon the Sorcerer
+2|4|15|other/simon/simon1-5|Simon the Sorcerer
 2|4|2|other/simon/scummvm_2_4_2|Simon the Sorcerer 2
+2|4|16|other/simon/simon2-1|Simon the Sorcerer 2
+2|4|17|other/simon/simon2-2|Simon the Sorcerer 2
+2|4|18|other/simon/simon2-3|Simon the Sorcerer 2
+2|4|19|other/simon/simon2-4|Simon the Sorcerer 2
 2|4|3|other/simon/scummvm_2_4_3|Simon the Sorcerer 2 (DOS Hebrew)
 2|4|4|other/simon/scummvm_2_4_4|Simon the Sorcerer's Puzzle Pack - D.I.M.P.
 2|4|5|other/simon/scummvm_2_4_5|Simon the Sorcerer's Puzzle Pack - D.I.M.P.
@@ -155,6 +261,8 @@
 2|4|7|other/simon/scummvm_2_4_7|Simon the Sorcerer's Puzzle Pack - Jumble
 2|4|8|other/simon/scummvm_2_4_8|Simon the Sorcerer's Puzzle Pack - NoPatience
 2|4|9|other/simon/scummvm_2_4_9|Simon the Sorcerer's Puzzle Pack - NoPatience
+2|4|10|other/simon/scummvm_2_4_10|Simon the Sorcerer's Puzzle Pack - Swampy Adventures
+2|4|11|other/simon/scummvm_2_4_11|Simon the Sorcerer's Puzzle Pack - Swampy Adventures
 2|5|0|other/sky/scummvm_2_5_0|Beneath a Steel Sky
 2|5|1|other/sky/scummvm_2_5_1|Beneath a Steel Sky
 2|6|0|other/kyra/scummvm_2_6_0|The Legend of Kyrandia (DOS)
@@ -166,6 +274,10 @@
 2|7|2|other/feeble/scummvm_2_7_2|The Feeble Files (Windows)
 2|7|3|other/feeble/scummvm_2_7_3|The Feeble Files (Windows)
 2|7|4|other/feeble/scummvm_2_7_4|The Feeble Files (Windows)
+2|7|5|other/feeble/feeble-5|The Feeble Files (Windows)
+2|7|6|other/feeble/feeble-6|The Feeble Files (Windows)
+2|7|7|other/feeble/feeble-7|The Feeble Files (Windows)
+2|7|8|other/feeble/feeble-8|The Feeble Files (Windows)
 2|8|0|other/fw/scummvm_2_8_0|Future Wars: Time Travellers
 2|8|1|other/fw/scummvm_2_8_1|Future Wars: Time Travellers
 2|8|2|other/fw/scummvm_2_8_2|Future Wars: Time Travellers
@@ -212,6 +324,8 @@
 3|2|1|agi/goldrush/scummvm_3_2_1|Gold Rush! (2.01 1988-12-22 3.5&quot;/DOS/English)
 3|2|2|agi/goldrush/scummvm_3_2_2|Gold Rush! (2.01 1988-12-22 3.5&quot;/DOS/English)
 3|2|3|agi/goldrush/scummvm_3_2_3|Gold Rush! (2.01 1988-12-22 3.5&quot;/DOS/English)
+3|2|4|agi/goldrush/gr-amiga-0|Gold Rush! (1.01 1989-01-13 aka 2.05 1989-03-09/Amiga/English)
+3|2|5|agi/goldrush/gr-amiga-1|Gold Rush! (1.01 1989-01-13 aka 2.05 1989-03-09/Amiga/English)
 #
 3|3|0|agi/kq/scummvm_3_3_0|King's Quest I: Quest for the Crown (2.0F 1987-05-05 5.25&quot;/3.5&quot;/DOS/English)
 3|3|1|agi/kq/scummvm_3_3_1|King's Quest I: Quest for the Crown (2.0F 1987-05-05 5.25&quot;/3.5&quot;/DOS/English)
@@ -236,6 +350,8 @@
 3|4|1|agi/lsl/scummvm_3_4_1|Leisure Suit Larry in the Land of the Lounge Lizards (1.00 1987-06-01 5.25&quot;/3.5&quot"/DOS/English)
 3|4|2|agi/lsl/scummvm_3_4_2|Leisure Suit Larry in the Land of the Lounge Lizards (1.00 1987-06-01 5.25&quot;/3.5&quot"/DOS/English)
 3|4|3|agi/lsl/scummvm_3_4_3|Leisure Suit Larry in the Land of the Lounge Lizards (1.00 1987-06-01 5.25&quot;/3.5&quot"/DOS/English)
+3|4|4|agi/lsl/lsl-amiga-0|Leisure Suit Larry in the Land of the Lounge Lizards (1.05 1987-06-26/Amiga/English)
+3|4|5|agi/lsl/lsl-amiga-1|Leisure Suit Larry in the Land of the Lounge Lizards (1.05 1987-06-26/Amiga/English)
 #
 3|5|0|agi/mh/scummvm_3_5_0|Manhunter 1: New York (1.22 1988-08-31/DOS/English)
 3|5|1|agi/mh/scummvm_3_5_1|Manhunter 1: New York (1.22 1988-08-31/DOS/English)
@@ -263,6 +379,8 @@
 3|7|3|agi/pq/scummvm_3_7_3|Police Quest I: In Pursuit of the Death Angel (2.0G 1987-12-03/DOS/English)
 3|7|4|agi/pq/scummvm_3_7_4|Police Quest I: In Pursuit of the Death Angel (2.0G 1987-12-03/DOS/English)
 3|7|5|agi/pq/scummvm_3_7_5|Police Quest I: In Pursuit of the Death Angel (2.0G 1987-12-03/DOS/English)
+3|7|6|agi/pq/pq-amiga-0|Police Quest I: In Pursuit of the Death Angel (2.0B 1989-02-22/Amiga/English)
+3|7|7|agi/pq/pq-amiga-1|Police Quest I: In Pursuit of the Death Angel (2.0B 1989-02-22/Amiga/English)
 #
 3|8|0|agi/sq/scummvm_3_8_0|Space Quest I: The Sarien Encounter (1.1A 1986-11-13/DOS/English)
 3|8|1|agi/sq/scummvm_3_8_1|Space Quest I: The Sarien Encounter (1.1A 1986-11-13/DOS/English)
@@ -277,6 +395,10 @@
 3|8|10|agi/sq/scummvm_3_8_10|Space Quest II: Vohaul's Revenge (2.0A 1987-11-06 5.25&quot;/DOS/English)
 3|8|11|agi/sq/scummvm_3_8_11|Space Quest II: Vohaul's Revenge (2.0A 1987-11-06 5.25&quot;/DOS/English)
 #
+3|9|16|agi/fanmade/enclosure-0|Enclosure 1 (v1.03)
+3|9|17|agi/fanmade/enclosure-1|Enclosure 1 (v1.03)
+3|9|18|agi/fanmade/enclosure-2|Enclosure 1 (v1.03)
+3|9|19|agi/fanmade/enclosure-3|Enclosure 1 (v1.03)
 3|9|0|agi/fanmade/scummvm_3_9_0|Serguei's Destiny 1 (v1.1 2003 Apr 10/DOS/English)
 3|9|1|agi/fanmade/scummvm_3_9_1|Serguei's Destiny 1 (v1.1 2003 Apr 10/DOS/English)
 3|9|2|agi/fanmade/scummvm_3_9_2|Serguei's Destiny 1 (v1.1 2003 Apr 10/DOS/English)
