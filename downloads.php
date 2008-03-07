@@ -85,7 +85,7 @@ html_content_begin('Download ScummVM');
 
 	<p>For a list of changes since the previous version, <a href="http://sourceforge.net/project/shownotes.php?release_id=568141">read the release notes</a>.
 	<BR>
-	0.11.1 is not yet apt-get'able from Debian unstable (sid), only 0.10.0 is available there at this time. We still recommend using 0.11.0 as it contains major improvements and bug fixes, but you will have to compile it yourself or obtain it from an unofficial deb repository.
+	0.11.1 is also apt-get'able from Debian unstable (sid).
 	</p>
 
 <!-- ' Relax XEmacs syntax highlighting -->
