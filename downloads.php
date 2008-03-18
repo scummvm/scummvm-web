@@ -20,7 +20,7 @@ html_content_begin('Download ScummVM');
 ?>
   <div class="par-item">
     <div class="par-head">
-       Downloads for ScummVM <span style="color: #aaaaaa;">version 0.11.1</span>
+       Downloads for ScummVM <span style="color: #aaaaaa;">version <? echo $current_release; ?></span>
     </div>
 
     <div class="par-intro">
@@ -38,8 +38,8 @@ html_content_begin('Download ScummVM');
 
 <table border=0>
 <?php
-  html_nav_item("#stable", "0.11.1 Release binaries");
-  html_nav_item("#source", "0.11.1 Source Code");
+  html_nav_item("#stable", $current_release . " Release binaries");
+  html_nav_item("#source", $current_release . " Source Code");
   html_nav_item("#tools", "0.11.0 Tools");
   html_nav_item("#older", "Older versions (unsupported)");
   html_nav_item("#extras", "Extras, game downloads");
@@ -54,13 +54,13 @@ html_content_begin('Download ScummVM');
 <td>
 	  Downloads are mostly hosted with SourceForge.net. If you have one of the supported systems, you can directly
 	  download the appropriate binary distribution. If you have another system, download the source and read the
-	  <a href="http://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/release-0-11-0/README">README</a>
+	  <a href="http://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<? echo $current_release_tag; ?>/README">README</a>
 	  file for directions on how to build ScummVM.
 	  If you have successfully ported ScummVM to a platform not listed, please drop us a note, telling which OS, etc.
 	  you used.
 
 	<UL>
-		<LI>The latest STABLE release of ScummVM is 0.11.1, and can be downloaded below
+		<LI>The latest STABLE release of ScummVM is <? echo $current_release; ?>, and can be downloaded below
 	under '<A HREF="#stable">Release Binaries</A>'. If you run Windows and are confused,
 	download the 'Windows Installer'</LI>
 
@@ -79,7 +79,7 @@ html_content_begin('Download ScummVM');
 
 	<a name="stable"></a>
 	<br>
-    <?php html_subhead_start("0.11.1 Release binaries"); ?>
+    <?php html_subhead_start($current_release . " Release binaries"); ?>
 
     <div class="par-subhead-content">
 
@@ -156,14 +156,14 @@ html_content_begin('Download ScummVM');
     </div>
 
     <a name="source"></a>
-    <?php html_subhead_start("0.11.1 Source Code"); ?>
+    <?php html_subhead_start($current_release . " Source Code"); ?>
 
     <div class="par-subhead-content">
 	<table>
-	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1.tar.bz2?download">ScummVM - Source .tar.bz2</a> <font class='cat-count'>(5.3M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1.tar.gz?download">ScummVM - Source .tar.gz</a> <font class='cat-count'>(6.4M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1.zip?download">ScummVM - Source .zip</a> <font class='cat-count'>(8.0M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-1.src.rpm?download">ScummVM - Source RPM</a> <font class='cat-count'>(6.0M RPM)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-<? echo $current_release; ?>.tar.bz2?download">ScummVM - Source .tar.bz2</a> <font class='cat-count'>(5.3M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-<? echo $current_release; ?>.tar.gz?download">ScummVM - Source .tar.gz</a> <font class='cat-count'>(6.4M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-<? echo $current_release; ?>.zip?download">ScummVM - Source .zip</a> <font class='cat-count'>(8.0M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-<? echo $current_release; ?>-1.src.rpm?download">ScummVM - Source RPM</a> <font class='cat-count'>(6.0M RPM)</font></td></tr>
 	</table>
 
 
@@ -253,7 +253,7 @@ html_content_begin('Download ScummVM');
     <div class="par-content">
 
 	<table>
-	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt=""></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/release-0-11-0/dists/engine-data/sky.cpt">Beneath a Steel Sky, SKY.CPT - required to run the game with a post-0.7.* ScummVM</a> <font class='cat-count'>(410k)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt=""></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<? echo $current_release_tag; ?>/dists/engine-data/sky.cpt">Beneath a Steel Sky, SKY.CPT - required to run the game with a post-0.7.* ScummVM</a> <font class='cat-count'>(410k)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/bass-cd-1.2.zip?download">Beneath a Steel Sky, Freeware CD Version</a> <font class='cat-count'>(67M)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/BASS-Floppy-1.3.zip?download">Beneath a Steel Sky, Freeware Floppy Version</a> <font class='cat-count'>(7.3M)</font></td></tr>
 
@@ -268,7 +268,7 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ_Heb_talkie.zip?download">Flight of the Amazon Queen, Freeware CD Version (<i>Hebrew</i> subtitles, English voices, ogg compressed sfx/speech)</a> <font class='cat-count'>(63.1M)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ_Floppy.zip?download">Flight of the Amazon Queen, Freeware Floppy Version</a> <font class='cat-count'>(6.7M)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt=""></td><td class='cat-link'><a href="http://mikemth.de:1337/modules.php?name=Downloads&amp;d_op=getit&amp;lid=827">Flight of the Amazon Queen, Freeware Floppy Version</a> - <a href="http://www.mthN.de">hosted by Snoke Media and Tech Hosting Network</a> <font class='cat-count'>(6.7M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt=""></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/release-0-11-0/dists/engine-data/queen.tbl">Flight of the Amazon Queen, queen.tbl - required to run original versions of FOTAQ</a> <font class='cat-count'>(1.0M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt=""></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<? echo $current_release_tag; ?>/dists/engine-data/queen.tbl">Flight of the Amazon Queen, queen.tbl - required to run original versions of FOTAQ</a> <font class='cat-count'>(1.0M)</font></td></tr>
 
 	  <tr><td></td><td>&nbsp;</td></tr>
 
@@ -277,7 +277,7 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-de-1.1.zip?download">Lure of the Temptress, Freeware Version (German)</a> <font class='cat-count'>(3.5M)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-it-1.1.zip?download">Lure of the Temptress, Freeware Version (Italian)</a> <font class='cat-count'>(3.0M)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-es-1.1.zip?download">Lure of the Temptress, Freeware Version (Spanish)</a> <font class='cat-count'>(2.1M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt=""></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/release-0-11-0/dists/engine-data/lure.dat">Lure of the Temptress, lure.dat - required to run original versions of Lure of the Temptress</a> <font class='cat-count'>(623k) - Requires ScummVM 0.11.0</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt=""></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<? echo $current_release_tag; ?>/dists/engine-data/lure.dat">Lure of the Temptress, lure.dat - required to run original versions of Lure of the Temptress</a> <font class='cat-count'>(623k) - Requires ScummVM <? echo $current_release; ?></font></td></tr>
 
 	  <tr><td></td><td>&nbsp;</td></tr>
 
@@ -303,7 +303,7 @@ html_content_begin('Download ScummVM');
 
 	  <tr><td></td><td>&nbsp;</td></tr>
 
-	  <tr><td class='cat-bullet'><img src='images/cat-kyra.png' alt=""></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/release-0-11-0/dists/engine-data/kyra.dat">The Legend of Kyrandia, KYRA.DAT - required for all versions of the game</a> <font class='cat-count'>(182k)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-kyra.png' alt=""></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<? echo $current_release_tag; ?>/dists/engine-data/kyra.dat">The Legend of Kyrandia, KYRA.DAT - required for all versions of the game</a> <font class='cat-count'>(182k)</font></td></tr>
 	</table>
 
      </div>
