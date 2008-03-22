@@ -301,7 +301,7 @@ $notes = array(
 		   "<br>- Amiga, Macintosh and Windows versions supported by this target",
 "waxworks"	=> "No known issues, game is playable.".
 		   "<br>- Amiga and DOS versions are supported by this target".
-		   "<br>- DOS versions isn't completable.",
+		   "<br>- No music in the DOS version.",
 
 "bargon"  	=> "Game is completable".
 		   "<br>- Amiga, Atari and DOS versions are supported by this target".
