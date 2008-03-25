@@ -282,7 +282,6 @@ $notes = array(
 		   "<br>- Palette issues in the Atari ST version.",
 "simon1" 	=> "No known issues, game is completable.".
 		   "<br>- Acorn, Amiga, DOS and Windows versions supported by this target".
-		   "<br>- Minor palette glitches in Amiga versions".
 		   "<br>- No music in Acorn disk version",
 "simon2"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, DOS, Macintosh and Windows versions supported by this target".
