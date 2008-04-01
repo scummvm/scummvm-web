@@ -91,7 +91,8 @@ $gamesOther = array(
 	'Inherit the Earth: Quest for the Orb'                  => array('ite', '95'),
 	'Nippon Safes Inc.'                                     => array('nippon', '90'),
 	'The Legend of Kyrandia'                                => array('kyra1', '80'),
-	'Lure of the Temptress'					=> array('lure', '95'),
+	'The Legend of Kyrandia: Book Two: Hand of Fate'		=> array('kyra2', '60'),
+	'Lure of the Temptress'									=> array('lure', '95'),
 	'Touche: The Adventures of the Fifth Musketeer'         => array('touche','75'),
 	);
 
@@ -350,7 +351,7 @@ $notes = array(
 		   "<br>- DOS and Amiga versions are supported by this target".
 		   "<br>- Occasional minor graphical glitches",
 "kyra1"		=> "Game is completable".
-		   "<br>- Requires the <a href=\"https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory".
+		   "<br>- Requires the <a href=\"https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/trunk/dists/engine-data/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory".
 		   "<br>- DOS, FM-TOWNS, Macintosh and PC-9821 versions are supported".
 		   "<br>- Amiga versions aren't supported".
 		   "<br>".
@@ -358,6 +359,14 @@ $notes = array(
 		   "<br>- MT-32 music and sfx do not work properly".
 		   "<br>- No music or sound effects in the Macintosh version".
 		   "<br>- PC-9821 version lacks support for PC-98 music and sound effects",
+"kyra2"		=> "Game is completable".
+		   "<br>- Requires the <a href=\"https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/trunk/dists/engine-data/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory".
+		   "<br>- DOS CD-ROM versions are supported".
+		   "<br>- FM-Towns, PC-9821 and DOS Floppy versions aren't supported".
+		   "<br>".
+		   "<br>- Occasional graphics glitches".
+		   "<br>- GUI not implemented".
+		   "<br>- MIDI music and sfx do not work properly",
 "touche"	=> "Game is completable".
 		   "<br>- Occasional graphical glitches",
 
