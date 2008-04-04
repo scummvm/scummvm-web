@@ -91,7 +91,7 @@ $gamesOther = array(
 	'Inherit the Earth: Quest for the Orb'                  => array('ite', '95'),
 	'Nippon Safes Inc.'                                     => array('nippon', '90'),
 	'The Legend of Kyrandia'                                => array('kyra1', '80'),
-	'The Legend of Kyrandia: Book Two: Hand of Fate'		=> array('kyra2', '60'),
+	'The Legend of Kyrandia: Book Two: Hand of Fate'		=> array('kyra2', '65'),
 	'Lure of the Temptress'									=> array('lure', '95'),
 	'Touche: The Adventures of the Fifth Musketeer'         => array('touche','75'),
 	);
@@ -365,7 +365,7 @@ $notes = array(
 		   "<br>- FM-Towns, PC-9821 and DOS Floppy versions aren't supported".
 		   "<br>".
 		   "<br>- Occasional graphics glitches".
-		   "<br>- GUI not implemented".
+		   "<br>- Delete savegame menu not implemented".
 		   "<br>- MIDI music and sfx do not work properly",
 "touche"	=> "Game is completable".
 		   "<br>- Occasional graphical glitches",
