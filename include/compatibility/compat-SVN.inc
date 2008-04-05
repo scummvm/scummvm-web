@@ -365,7 +365,6 @@ $notes = array(
 		   "<br>- FM-Towns, PC-9821 and DOS Floppy versions aren't supported".
 		   "<br>".
 		   "<br>- Occasional graphics glitches".
-		   "<br>- Delete savegame menu not implemented".
 		   "<br>- MIDI music and sfx do not work properly",
 "touche"	=> "Game is completable".
 		   "<br>- Occasional graphical glitches",
