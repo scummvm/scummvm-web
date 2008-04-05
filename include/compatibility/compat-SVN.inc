@@ -87,7 +87,7 @@ $gamesOther = array(
 	'Broken Sword 2: The Smoking Mirror'                    => array('sword2','98'),
 	'Flight of the Amazon Queen'                            => array('queen','98'),
 	'Future Wars'                                           => array('fw','80'),
-	'I Have No Mouth, and I Must Scream'                    => array('ihnm', '80'),
+	'I Have No Mouth, and I Must Scream'                    => array('ihnm', '90'),
 	'Inherit the Earth: Quest for the Orb'                  => array('ite', '95'),
 	'Nippon Safes Inc.'                                     => array('nippon', '90'),
 	'The Legend of Kyrandia'                                => array('kyra1', '80'),
@@ -344,6 +344,8 @@ $notes = array(
 		   "<br>- DOS, Amiga and Atari versions are supported",
 "ihnm"		=> "Game is completable.".
 		   "<br>- Occasional minor glitches",
+		   "<br>- DOS and Macintosh versions are supported by this target".
+		   "<br>- No music in the Macintosh version.",		   
 "ite"		=> "No known issues, game is completable.".
 		   "<br>- DOS, Linux, Macintosh, MacOS X and Windows versions are supported by this target".
 		   "<br>- Amiga versions aren't supported",
