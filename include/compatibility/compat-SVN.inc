@@ -91,7 +91,7 @@ $gamesOther = array(
 	'Inherit the Earth: Quest for the Orb'                  => array('ite', '95'),
 	'Nippon Safes Inc.'                                     => array('nippon', '90'),
 	'The Legend of Kyrandia'                                => array('kyra1', '80'),
-	'The Legend of Kyrandia: Book Two: Hand of Fate'		=> array('kyra2', '65'),
+	'The Legend of Kyrandia: Book Two: Hand of Fate'		=> array('kyra2', '70'),
 	'Lure of the Temptress'									=> array('lure', '95'),
 	'Touche: The Adventures of the Fifth Musketeer'         => array('touche','75'),
 	);
@@ -363,11 +363,12 @@ $notes = array(
 		   "<br>- PC-9821 version lacks support for PC-98 music and sound effects",
 "kyra2"		=> "Game is completable".
 		   "<br>- Requires the <a href=\"https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/trunk/dists/engine-data/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory".
-		   "<br>- DOS CD-ROM versions are supported".
-		   "<br>- FM-Towns, PC-9821 and DOS Floppy versions aren't supported".
+		   "<br>- DOS CD-ROM and FM-Towns versions are supported".
+		   "<br>- PC-9821 and DOS Floppy versions aren't supported".
 		   "<br>".
 		   "<br>- Occasional graphics glitches".
-		   "<br>- MIDI music and sfx do not work properly",
+		   "<br>- MIDI music and sfx do not work properly".
+		   "<br>- FM-Towns music is not fully supported",
 "touche"	=> "Game is completable".
 		   "<br>- Occasional graphical glitches",
 
