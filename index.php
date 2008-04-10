@@ -135,7 +135,7 @@ You can find a thorough list with details on which games are supported and how w
 
 <p>
 Among the systems on which you can play those games are Windows, Linux, Mac OS X, Dreamcast, PocketPC,
-PalmOS, AmigaOS, BeOS, OS/2, PSP, PS2, SymbianOS/EPOC and many more...
+PalmOS, AmigaOS, BeOS, OS/2, PSP, PS2, SymbianOS and many more...
 </p>
 <p>
 Our forum and IRC channel, <a href="irc://irc.freenode.net/scummvm">#scummvm on
