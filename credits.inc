@@ -96,6 +96,17 @@
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Paul Gilbert</td><td style='width:10em; text-align: left;' class='news-author'>dreammaster</td><td></td>
 </table>
+<span style='font-weight: bold'>M4:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Torbj&ouml;rn Andersson</td><td style='width:10em; text-align: left;' class='news-author'>eriktorbjorn</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Paul Gilbert</td><td style='width:10em; text-align: left;' class='news-author'>dreammaster</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Benjamin Haisch</td><td style='width:10em; text-align: left;' class='news-author'>johndoe</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Filippos Karapetis</td><td style='width:10em; text-align: left;' class='news-author'>[md5]</td><td></td>
+</table>
+<span style='font-weight: bold'>MADE:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Benjamin Haisch</td><td style='width:10em; text-align: left;' class='news-author'>johndoe</td><td></td>
+</table>
 <span style='font-weight: bold'>Parallaction:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>???</td><td style='width:10em; text-align: left;' class='news-author'>peres</td><td></td>
