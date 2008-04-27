@@ -290,7 +290,7 @@ html_content_begin('Download ScummVM');
 	  <tr><td></td><td>&nbsp;</td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/cat-sword2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_DXA_Cutscenes.zip?download">Broken Sword 2 Cutscene Pack (all languages, DXA compression)</a> <font class='cat-count'>(111M) - Requires ScummVM 0.10.0</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-sword2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_OGG_Cutscenes.zip?download">Broken Sword 2 Cutscene Pack (English OGG AddOn)</a> <font class='cat-count'>(2.9M) Alternative audio pack, for ports without FLAC support</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-sword2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_OGG_Cutscenes.zip?download">Broken Sword 2 Cutscene Pack (all languages, OGG AddOn)</a> <font class='cat-count'>(2.9M) Alternative audio pack, for ports without FLAC support</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-sword2.png' alt=""></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_Demo_Cutscenes.zip?download">Broken Sword 2 Demo Cutscene Pack</a> <font class='cat-count'>(767KB) - Requires ScummVM 0.10.0</font></td></tr>
 
 	  <tr><td></td><td>&nbsp;</td></tr>
