@@ -317,6 +317,10 @@ $notes = array(
 		   "<br>- Issues with the mouse cursor visibility".
 		   "<br>- No support for original font and music files in Macintosh version".
 		   "<br>- The number of used jokers isn't saved correctly. You'll always have 5 to spend again after loading",
+"lostintime"	=> "Game is completable".
+		   "<br>- DOS floppy and CD versions are supported by this target".
+		   "<br>- Versions that split part one and two are untested".
+		   "<br>- Issues with the mouse cursor visibility",
 "ween"  	=> "Game is completable".
 		   "<br>- Amiga, Atari and DOS versions are supported by this target".
 		   "<br>- Issues with the mouse cursor visibility",
