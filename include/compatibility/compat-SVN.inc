@@ -82,18 +82,19 @@ $gamesGOB = array(
 	);
 
 $gamesOther = array(
-	'Beneath a Steel Sky'                                   => array('sky','98'),
-	'Broken Sword 1: The Shadow of the Templars'            => array('sword1','98'),
-	'Broken Sword 2: The Smoking Mirror'                    => array('sword2','98'),
-	'Flight of the Amazon Queen'                            => array('queen','98'),
-	'Future Wars'                                           => array('fw','80'),
-	'I Have No Mouth, and I Must Scream'                    => array('ihnm', '90'),
-	'Inherit the Earth: Quest for the Orb'                  => array('ite', '95'),
-	'Nippon Safes Inc.'                                     => array('nippon', '90'),
-	'The Legend of Kyrandia'                                => array('kyra1', '80'),
-	'The Legend of Kyrandia: Book Two: Hand of Fate'		=> array('kyra2', '70'),
-	'Lure of the Temptress'									=> array('lure', '95'),
-	'Touche: The Adventures of the Fifth Musketeer'         => array('touche','75'),
+	'Beneath a Steel Sky'										=> array('sky','98'),
+	'Broken Sword 1: The Shadow of the Templars'				=> array('sword1','98'),
+	'Broken Sword 2: The Smoking Mirror'						=> array('sword2','98'),
+	'Flight of the Amazon Queen'								=> array('queen','98'),
+	'Future Wars'												=> array('fw','80'),
+	'I Have No Mouth, and I Must Scream'						=> array('ihnm', '90'),
+	'Inherit the Earth: Quest for the Orb'						=> array('ite', '95'),
+	'Nippon Safes Inc.'											=> array('nippon', '90'),
+	'The Legend of Kyrandia'									=> array('kyra1', '85'),
+	'The Legend of Kyrandia: Book Two: Hand of Fate'			=> array('kyra2', '75'),
+	'The Legend of Kyrandia: Book Three: Malcolm\'s Revenge'	=> array('kyra3', '80'),
+	'Lure of the Temptress'										=> array('lure', '95'),
+	'Touche: The Adventures of the Fifth Musketeer'				=> array('touche','75'),
 	);
 
 $gamesAGI = array(
@@ -370,9 +371,10 @@ $notes = array(
 		   "<br>- DOS CD-ROM and FM-Towns versions are supported".
 		   "<br>- PC-9821 and DOS Floppy versions aren't supported".
 		   "<br>".
-		   "<br>- Occasional graphics glitches".
 		   "<br>- MIDI music and sfx do not work properly".
 		   "<br>- FM-Towns music is not fully supported",
+"kyra3"		=> "Game is completable".
+		   "<br>- DOS versions are supported",
 "touche"	=> "Game is completable".
 		   "<br>- Occasional graphical glitches",
 
