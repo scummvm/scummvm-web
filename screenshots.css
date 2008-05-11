@@ -34,6 +34,24 @@
 	padding: 0 0 0 20px;
 }
 
+.par-item .par-scr-content-cat4 {
+	margin: 0px;
+	margin-right: -8px;
+	background-image: url('images/bg-other-games.jpg');
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding: 0 20px 0 20px;
+}
+
+.par-item .par-scr-content-cat5 {
+	margin: 0px;
+	margin-right: -8px;
+	background-image: url('images/bg-other-games.jpg');
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding: 0 20px 0 20px;
+}
+
 .par-item .cat-link:first-letter {
 	font-weight:bold;
 }

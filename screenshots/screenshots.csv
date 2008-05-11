@@ -221,100 +221,46 @@
 2|0|1|other/sword/scummvm_2_0_1|Broken Sword 1 - The Shadow of the Templars
 2|0|2|other/sword/scummvm_2_0_2|Broken Sword 2 - The Smoking Mirror
 2|0|3|other/sword/scummvm_2_0_3|Broken Sword 2 - The Smoking Mirror
-2|1|0|other/gob/scummvm_2_1_0|Gobliiins
-2|1|1|other/gob/scummvm_2_1_1|Gobliiins
-2|1|8|other/gob/gob1-2|Gobliiins
-2|1|9|other/gob/gob1-3|Gobliiins
-2|1|10|other/gob/gob1-4|Gobliiins
-2|1|11|other/gob/gob1-5|Gobliiins
-2|1|2|other/gob/scummvm_2_1_2|Gobliins 2 (CD)
-2|1|3|other/gob/scummvm_2_1_3|Gobliins 2 (CD)
-2|1|4|other/gob/scummvm_2_1_4|Gobliins 2 (CD)
-2|1|12|other/gob/gob2-3|Gobliins 2 (CD)
-2|1|13|other/gob/gob2-4|Gobliins 2 (CD)
-2|1|14|other/gob/gob2-5|Gobliins 2 (CD)
-2|1|5|other/gob/scummvm_2_1_5|Goblins Quest 3 (DOS)
-2|1|6|other/gob/scummvm_2_1_6|Goblins Quest 3 (DOS)
-2|1|7|other/gob/scummvm_2_1_7|Goblins Quest 3 (DOS)
-2|1|15|other/gob/gob3-3|Goblins Quest 3 (DOS)
-2|1|16|other/gob/gob3-4|Goblins Quest 3 (DOS)
-2|1|17|other/gob/gob3-5|Goblins Quest 3 (DOS)
-2|2|0|other/ite/scummvm_2_2_0|Inherit the Earth: Quest for the Orb
-2|2|1|other/ite/scummvm_2_2_1|Inherit the Earth: Quest for the Orb (German)
-2|3|0|other/queen/scummvm_2_3_0|Flight of the Amazon Queen
-2|3|1|other/queen/scummvm_2_3_1|Flight of the Amazon Queen (DOS Hebrew)
-2|4|0|other/simon/scummvm_2_4_0|Simon the Sorcerer
-2|4|1|other/simon/scummvm_2_4_1|Simon the Sorcerer
-2|4|12|other/simon/simon1-2|Simon the Sorcerer
-2|4|13|other/simon/simon1-3|Simon the Sorcerer
-2|4|14|other/simon/simon1-4|Simon the Sorcerer
-2|4|15|other/simon/simon1-5|Simon the Sorcerer
-2|4|2|other/simon/scummvm_2_4_2|Simon the Sorcerer 2
-2|4|16|other/simon/simon2-1|Simon the Sorcerer 2
-2|4|17|other/simon/simon2-2|Simon the Sorcerer 2
-2|4|18|other/simon/simon2-3|Simon the Sorcerer 2
-2|4|19|other/simon/simon2-4|Simon the Sorcerer 2
-2|4|3|other/simon/scummvm_2_4_3|Simon the Sorcerer 2 (DOS Hebrew)
-2|4|4|other/simon/scummvm_2_4_4|Simon the Sorcerer's Puzzle Pack - D.I.M.P.
-2|4|5|other/simon/scummvm_2_4_5|Simon the Sorcerer's Puzzle Pack - D.I.M.P.
-2|4|6|other/simon/scummvm_2_4_6|Simon the Sorcerer's Puzzle Pack - Jumble
-2|4|7|other/simon/scummvm_2_4_7|Simon the Sorcerer's Puzzle Pack - Jumble
-2|4|8|other/simon/scummvm_2_4_8|Simon the Sorcerer's Puzzle Pack - NoPatience
-2|4|9|other/simon/scummvm_2_4_9|Simon the Sorcerer's Puzzle Pack - NoPatience
-2|4|10|other/simon/scummvm_2_4_10|Simon the Sorcerer's Puzzle Pack - Swampy Adventures
-2|4|11|other/simon/scummvm_2_4_11|Simon the Sorcerer's Puzzle Pack - Swampy Adventures
-2|5|0|other/sky/scummvm_2_5_0|Beneath a Steel Sky
-2|5|1|other/sky/scummvm_2_5_1|Beneath a Steel Sky
-2|6|0|other/kyra/scummvm_2_6_0|The Legend of Kyrandia (DOS)
-2|6|1|other/kyra/scummvm_2_6_1|The Legend of Kyrandia (DOS)
-2|6|2|other/kyra/scummvm_2_6_2|The Legend of Kyrandia (PC-98 Japanese)
-2|6|3|other/kyra/scummvm_2_6_3|The Legend of Kyrandia (PC-98 Japanese)
-2|6|4|other/kyra/kyra2-1|The Legend of Kyrandia: Book Two: Hand of Fate (DOS)
-2|6|5|other/kyra/kyra2-2|The Legend of Kyrandia: Book Two: Hand of Fate (DOS)
-2|6|6|other/kyra/kyra2-de-1|The Legend of Kyrandia: Book Two: Hand of Fate (DOS German)
-2|6|7|other/kyra/kyra2-fr-1|The Legend of Kyrandia: Book Two: Hand of Fate (DOS French)
-2|7|0|other/feeble/scummvm_2_7_0|The Feeble Files (Windows)
-2|7|1|other/feeble/scummvm_2_7_1|The Feeble Files (Windows)
-2|7|2|other/feeble/scummvm_2_7_2|The Feeble Files (Windows)
-2|7|3|other/feeble/scummvm_2_7_3|The Feeble Files (Windows)
-2|7|4|other/feeble/scummvm_2_7_4|The Feeble Files (Windows)
-2|7|5|other/feeble/feeble-5|The Feeble Files (Windows)
-2|7|6|other/feeble/feeble-6|The Feeble Files (Windows)
-2|7|7|other/feeble/feeble-7|The Feeble Files (Windows)
-2|7|8|other/feeble/feeble-8|The Feeble Files (Windows)
-2|8|0|other/fw/scummvm_2_8_0|Future Wars: Time Travellers
-2|8|1|other/fw/scummvm_2_8_1|Future Wars: Time Travellers
-2|8|2|other/fw/scummvm_2_8_2|Future Wars: Time Travellers
-2|8|3|other/fw/scummvm_2_8_3|Future Wars: Time Travellers
-2|9|0|other/ween/scummvm_2_9_0|Ween: The Prophecy
-2|9|1|other/ween/scummvm_2_9_1|Ween: The Prophecy
-2|9|2|other/ween/scummvm_2_9_2|Ween: The Prophecy
-2|9|3|other/ween/scummvm_2_9_3|Ween: The Prophecy
-2|10|0|other/touche/scummvm_2_10_0|Touch&eacute;: The Adventures of the Fifth Musketeer
-2|10|1|other/touche/scummvm_2_10_1|Touch&eacute;: The Adventures of the Fifth Musketeer
-2|10|2|other/touche/scummvm_2_10_2|Touch&eacute;: The Adventures of the Fifth Musketeer
-2|10|3|other/touche/scummvm_2_10_3|Touch&eacute;: The Adventures of the Fifth Musketeer
-2|10|4|other/touche/scummvm_2_10_4|Touch&eacute;: The Adventures of the Fifth Musketeer
-2|10|5|other/touche/scummvm_2_10_5|Touch&eacute;: The Adventures of the Fifth Musketeer
-2|11|0|other/bargon/scummvm_2_11_0|Bargon Attack (DOS)
-2|11|1|other/bargon/scummvm_2_11_1|Bargon Attack (DOS)
-2|11|2|other/bargon/scummvm_2_11_2|Bargon Attack (DOS)
-2|12|0|other/nippon/nippon-0|Nippon Safes Inc. (DOS)
-2|12|1|other/nippon/nippon-1|Nippon Safes Inc. (DOS)
-2|12|2|other/nippon/nippon-2|Nippon Safes Inc. (DOS)
-2|12|3|other/nippon/nippon-3|Nippon Safes Inc. (DOS)
-2|13|0|other/ihnm/ihnm-1|I Have no Mouth and I Must Scream (DOS)
-2|13|1|other/ihnm/ihnm-2|I Have no Mouth and I Must Scream (DOS)
-2|13|2|other/ihnm/ihnm-3|I Have no Mouth and I Must Scream (DOS)
-2|13|3|other/ihnm/ihnm-4|I Have no Mouth and I Must Scream (DOS)
-2|13|4|other/ihnm/ihnm-5|I Have no Mouth and I Must Scream (DOS)
-2|13|5|other/ihnm/ihnm-6|I Have no Mouth and I Must Scream (DOS)
-2|14|0|other/lure/lure-1|Lure of the Temptress (DOS VGA)
-2|14|1|other/lure/lure-2|Lure of the Temptress (DOS VGA)
-2|14|2|other/lure/lure-3|Lure of the Temptress (DOS VGA)
-2|14|3|other/lure/lure-4|Lure of the Temptress (DOS VGA)
-2|14|4|other/lure/lure-5|Lure of the Temptress (DOS VGA)
-2|14|5|other/lure/lure-6|Lure of the Temptress (DOS VGA)
+2|1|0|other/ite/scummvm_2_2_0|Inherit the Earth: Quest for the Orb
+2|1|1|other/ite/scummvm_2_2_1|Inherit the Earth: Quest for the Orb (German)
+2|2|0|other/queen/scummvm_2_3_0|Flight of the Amazon Queen
+2|2|1|other/queen/scummvm_2_3_1|Flight of the Amazon Queen (DOS Hebrew)
+2|3|0|other/sky/scummvm_2_5_0|Beneath a Steel Sky
+2|3|1|other/sky/scummvm_2_5_1|Beneath a Steel Sky
+2|4|0|other/kyra/scummvm_2_6_0|The Legend of Kyrandia (DOS)
+2|4|1|other/kyra/scummvm_2_6_1|The Legend of Kyrandia (DOS)
+2|4|2|other/kyra/scummvm_2_6_2|The Legend of Kyrandia (PC-98 Japanese)
+2|4|3|other/kyra/scummvm_2_6_3|The Legend of Kyrandia (PC-98 Japanese)
+2|4|4|other/kyra/kyra2-1|The Legend of Kyrandia: Book Two: Hand of Fate (DOS)
+2|4|5|other/kyra/kyra2-2|The Legend of Kyrandia: Book Two: Hand of Fate (DOS)
+2|4|6|other/kyra/kyra2-de-1|The Legend of Kyrandia: Book Two: Hand of Fate (DOS German)
+2|4|7|other/kyra/kyra2-fr-1|The Legend of Kyrandia: Book Two: Hand of Fate (DOS French)
+2|5|0|other/fw/scummvm_2_8_0|Future Wars: Time Travellers
+2|5|1|other/fw/scummvm_2_8_1|Future Wars: Time Travellers
+2|5|2|other/fw/scummvm_2_8_2|Future Wars: Time Travellers
+2|5|3|other/fw/scummvm_2_8_3|Future Wars: Time Travellers
+2|6|0|other/touche/scummvm_2_10_0|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|6|1|other/touche/scummvm_2_10_1|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|6|2|other/touche/scummvm_2_10_2|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|6|3|other/touche/scummvm_2_10_3|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|6|4|other/touche/scummvm_2_10_4|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|6|5|other/touche/scummvm_2_10_5|Touch&eacute;: The Adventures of the Fifth Musketeer
+2|7|0|other/nippon/nippon-0|Nippon Safes Inc. (DOS)
+2|7|1|other/nippon/nippon-1|Nippon Safes Inc. (DOS)
+2|7|2|other/nippon/nippon-2|Nippon Safes Inc. (DOS)
+2|7|3|other/nippon/nippon-3|Nippon Safes Inc. (DOS)
+2|8|0|other/ihnm/ihnm-1|I Have no Mouth and I Must Scream (DOS)
+2|8|1|other/ihnm/ihnm-2|I Have no Mouth and I Must Scream (DOS)
+2|8|2|other/ihnm/ihnm-3|I Have no Mouth and I Must Scream (DOS)
+2|8|3|other/ihnm/ihnm-4|I Have no Mouth and I Must Scream (DOS)
+2|8|4|other/ihnm/ihnm-5|I Have no Mouth and I Must Scream (DOS)
+2|8|5|other/ihnm/ihnm-6|I Have no Mouth and I Must Scream (DOS)
+2|9|0|other/lure/lure-1|Lure of the Temptress (DOS VGA)
+2|9|1|other/lure/lure-2|Lure of the Temptress (DOS VGA)
+2|9|2|other/lure/lure-3|Lure of the Temptress (DOS VGA)
+2|9|3|other/lure/lure-4|Lure of the Temptress (DOS VGA)
+2|9|4|other/lure/lure-5|Lure of the Temptress (DOS VGA)
+2|9|5|other/lure/lure-6|Lure of the Temptress (DOS VGA)
 #
 # Sierra AGI games
 #
@@ -430,3 +376,66 @@
 3|11|3|agi/preagi/winnie-4|Winnie the Pooh in the Hundred Acre Wood (DOS)
 3|11|4|agi/preagi/winnie-5|Winnie the Pooh in the Hundred Acre Wood (DOS)
 3|11|5|agi/preagi/winnie-6|Winnie the Pooh in the Hundred Acre Wood (DOS)
+
+#
+# AdventureSoft games
+#
+4|0|0|other/simon/scummvm_2_4_0|Simon the Sorcerer
+4|0|1|other/simon/scummvm_2_4_1|Simon the Sorcerer
+4|0|12|other/simon/simon1-2|Simon the Sorcerer
+4|0|13|other/simon/simon1-3|Simon the Sorcerer
+4|0|14|other/simon/simon1-4|Simon the Sorcerer
+4|0|15|other/simon/simon1-5|Simon the Sorcerer
+4|0|2|other/simon/scummvm_2_4_2|Simon the Sorcerer 2
+4|0|16|other/simon/simon2-1|Simon the Sorcerer 2
+4|0|17|other/simon/simon2-2|Simon the Sorcerer 2
+4|0|18|other/simon/simon2-3|Simon the Sorcerer 2
+4|0|19|other/simon/simon2-4|Simon the Sorcerer 2
+4|0|3|other/simon/scummvm_2_4_3|Simon the Sorcerer 2 (DOS Hebrew)
+4|0|4|other/simon/scummvm_2_4_4|Simon the Sorcerer's Puzzle Pack - D.I.M.P.
+4|0|5|other/simon/scummvm_2_4_5|Simon the Sorcerer's Puzzle Pack - D.I.M.P.
+4|0|6|other/simon/scummvm_2_4_6|Simon the Sorcerer's Puzzle Pack - Jumble
+4|0|7|other/simon/scummvm_2_4_7|Simon the Sorcerer's Puzzle Pack - Jumble
+4|0|8|other/simon/scummvm_2_4_8|Simon the Sorcerer's Puzzle Pack - NoPatience
+4|0|9|other/simon/scummvm_2_4_9|Simon the Sorcerer's Puzzle Pack - NoPatience
+4|0|10|other/simon/scummvm_2_4_10|Simon the Sorcerer's Puzzle Pack - Swampy Adventures
+4|0|11|other/simon/scummvm_2_4_11|Simon the Sorcerer's Puzzle Pack - Swampy Adventures
+#
+4|1|0|other/feeble/scummvm_2_7_0|The Feeble Files (Windows)
+4|1|1|other/feeble/scummvm_2_7_1|The Feeble Files (Windows)
+4|1|2|other/feeble/scummvm_2_7_2|The Feeble Files (Windows)
+4|1|3|other/feeble/scummvm_2_7_3|The Feeble Files (Windows)
+4|1|4|other/feeble/scummvm_2_7_4|The Feeble Files (Windows)
+4|1|5|other/feeble/feeble-5|The Feeble Files (Windows)
+4|1|6|other/feeble/feeble-6|The Feeble Files (Windows)
+4|1|7|other/feeble/feeble-7|The Feeble Files (Windows)
+4|1|8|other/feeble/feeble-8|The Feeble Files (Windows)
+
+#
+# Gob engine games
+#
+5|0|0|other/gob/scummvm_2_1_0|Gobliiins
+5|0|1|other/gob/scummvm_2_1_1|Gobliiins
+5|0|8|other/gob/gob1-2|Gobliiins
+5|0|9|other/gob/gob1-3|Gobliiins
+5|0|10|other/gob/gob1-4|Gobliiins
+5|0|11|other/gob/gob1-5|Gobliiins
+5|0|2|other/gob/scummvm_2_1_2|Gobliins 2 (CD)
+5|0|3|other/gob/scummvm_2_1_3|Gobliins 2 (CD)
+5|0|4|other/gob/scummvm_2_1_4|Gobliins 2 (CD)
+5|0|12|other/gob/gob2-3|Gobliins 2 (CD)
+5|0|13|other/gob/gob2-4|Gobliins 2 (CD)
+5|0|14|other/gob/gob2-5|Gobliins 2 (CD)
+5|0|5|other/gob/scummvm_2_1_5|Goblins Quest 3 (DOS)
+5|0|6|other/gob/scummvm_2_1_6|Goblins Quest 3 (DOS)
+5|0|7|other/gob/scummvm_2_1_7|Goblins Quest 3 (DOS)
+5|0|15|other/gob/gob3-3|Goblins Quest 3 (DOS)
+5|0|16|other/gob/gob3-4|Goblins Quest 3 (DOS)
+5|0|17|other/gob/gob3-5|Goblins Quest 3 (DOS)
+5|1|0|other/ween/scummvm_2_9_0|Ween: The Prophecy
+5|1|1|other/ween/scummvm_2_9_1|Ween: The Prophecy
+5|1|2|other/ween/scummvm_2_9_2|Ween: The Prophecy
+5|1|3|other/ween/scummvm_2_9_3|Ween: The Prophecy
+5|2|0|other/bargon/scummvm_2_11_0|Bargon Attack (DOS)
+5|2|1|other/bargon/scummvm_2_11_1|Bargon Attack (DOS)
+5|2|2|other/bargon/scummvm_2_11_2|Bargon Attack (DOS)

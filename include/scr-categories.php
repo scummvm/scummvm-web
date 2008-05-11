@@ -80,15 +80,15 @@ $cat->add(10, "cat-dig.png", "The Dig");
 $cat->add(11, "cat-comi.png", "The Curse of Monkey Island");
 
 // AGOS games
-$cat = & new category(2, "Adventuresoft/Horrorsoft games");
-$cat->add(4, "cat-simon.png", "Simon the Sorcerer series");
-$cat->add(7, "cat-feeble.png", "The Feeble Files");
+$cat = & new category(4, "Adventuresoft/Horrorsoft games");
+$cat->add(0, "cat-simon.png", "Simon the Sorcerer series");
+$cat->add(1, "cat-feeble.png", "The Feeble Files");
 
 // Coktel Vision games
-$cat = & new category(2, "Coktel Vision games");
-$cat->add(11, "cat-bargon.png", "Bargon Attack");
-$cat->add(1, "cat-gob.png", "Gobliiins series");
-$cat->add(9, "cat-ween.png", "Ween: The Prophecy");
+$cat = & new category(5, "Coktel Vision games");
+$cat->add(2, "cat-bargon.png", "Bargon Attack");
+$cat->add(0, "cat-gob.png", "Gobliiins series");
+$cat->add(1, "cat-ween.png", "Ween: The Prophecy");
 
 // AGI games
 $cat = & new category(3, "Sierra AGI games");
@@ -106,16 +106,16 @@ $cat->add(11, "cat-winnie.png", "Winnie the Pooh in the Hundred Acre Wood");
 
 // Other games
 $cat = & new category(2, "Other games");
-$cat->add(5, "cat-sky.png", "Beneath a Steel Sky");
+$cat->add(3, "cat-sky.png", "Beneath a Steel Sky");
 $cat->add(0, "cat-sword.png", "Broken Sword series");
-$cat->add(3, "cat-queen.png", "Flight of the Amazon Queen");
-$cat->add(8, "cat-fw.png", "Future Wars: Time Travelers");
-$cat->add(13, "cat-ihnm.png", "I Have no Mouth and I Must Scream");
-$cat->add(2, "cat-ite.png", "Inherit the Earth: Quest for the Orb");
-$cat->add(12, "cat-nippon.png", "Nippon Safes Inc.");
-$cat->add(6, "cat-kyra.png", "The Legend of Kyrandia series");
-$cat->add(14, "cat-lure.png", "Lure of the Temptress");
-$cat->add(10, "cat-touche.png", "Touch&eacute;: The Adventures of the Fifth Musketeer");
+$cat->add(2, "cat-queen.png", "Flight of the Amazon Queen");
+$cat->add(5, "cat-fw.png", "Future Wars: Time Travelers");
+$cat->add(8, "cat-ihnm.png", "I Have no Mouth and I Must Scream");
+$cat->add(1, "cat-ite.png", "Inherit the Earth: Quest for the Orb");
+$cat->add(7, "cat-nippon.png", "Nippon Safes Inc.");
+$cat->add(4, "cat-kyra.png", "The Legend of Kyrandia series");
+$cat->add(9, "cat-lure.png", "Lure of the Temptress");
+$cat->add(6, "cat-touche.png", "Touch&eacute;: The Adventures of the Fifth Musketeer");
 
 // HE games
 $cat = & new category(1, "Humongous Entertainment games");
