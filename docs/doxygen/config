@@ -429,8 +429,6 @@ INPUT                  = /tmp/persistent/scummvm/scummvm/backends/events \
                          /tmp/persistent/scummvm/scummvm/backends/plugins \
                          /tmp/persistent/scummvm/scummvm/backends/saves \
                          /tmp/persistent/scummvm/scummvm/backends/timer \
-                         /tmp/persistent/scummvm/scummvm/backends/platform/null \
-                         /tmp/persistent/scummvm/scummvm/backends/platform/x11 \
                          /tmp/persistent/scummvm/scummvm/backends/platform/sdl \
                          /tmp/persistent/scummvm/scummvm/base \
                          /tmp/persistent/scummvm/scummvm/common \
