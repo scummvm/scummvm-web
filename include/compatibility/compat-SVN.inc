@@ -77,7 +77,8 @@ $gamesGOB = array(
 	'Gobliiins'                                             => array('gob1', '95'),
 	'Gobliins 2'                                            => array('gob2', '95'),
 	'Goblins 3'                                             => array('gob3', '95'),
-	'Lost in Time'                                          => array('lostintime', '90'),
+	'Lost in Time'                                          => array('lostintime', '95'),
+	'The Bizarre Adventures of Woodruff and the Schnibble'  => array('woodruff', 90),
 	'Ween: The Prophecy'                                    => array('ween','95'),
 	);
 
@@ -322,6 +323,10 @@ $notes = array(
 		   "<br>- DOS floppy and CD versions are supported by this target".
 		   "<br>- Versions that split part one and two are untested".
 		   "<br>- Issues with the mouse cursor visibility",
+"woodruff"	=> "Game is completable".
+		   "<br>- PC CD versions are supported by this target".
+		   "<br>- Issues with the mouse cursor visibility".
+		   "<br>- Some object videos flicker the very first frame",
 "ween"  	=> "Game is completable".
 		   "<br>- Amiga, Atari and DOS versions are supported by this target".
 		   "<br>- Issues with the mouse cursor visibility",
