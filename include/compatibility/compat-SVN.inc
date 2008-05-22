@@ -78,7 +78,7 @@ $gamesGOB = array(
 	'Gobliins 2'                                            => array('gob2', '95'),
 	'Goblins 3'                                             => array('gob3', '95'),
 	'Lost in Time'                                          => array('lostintime', '95'),
-	'The Bizarre Adventures of Woodruff and the Schnibble'  => array('woodruff', 90),
+	'The Bizarre Adventures of Woodruff and the Schnibble'  => array('woodruff', '90'),
 	'Ween: The Prophecy'                                    => array('ween','95'),
 	);
 
