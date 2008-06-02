@@ -198,7 +198,7 @@ $notes = array(
 "thinkerk"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "Blues123Time" => "Game is playable".
-		   "<br>- Only the Windows version is supported by this target",
+		   "<br>- Both Macintosh and Windows versions supported by this target",
 "BluesABCTime" => "Game is playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "BluesBirthday" => "Game is playable".
