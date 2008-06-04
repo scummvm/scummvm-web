@@ -173,6 +173,10 @@
 <tr><td style='width:13em; padding:2px;'>Jurgen Braam</td><td style='width:10em; text-align: left;' class='news-author'>SumthinWicked</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Lars Persson</td><td style='width:10em; text-align: left;' class='news-author'>AnotherGuest</td><td></td>
 </table>
+<span style='font-weight: bold'>Wii:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Andre Heider</td><td style='width:10em; text-align: left;' class='news-author'>dhewg</td><td></td>
+</table>
 </div>
 <div class='par-subhead'>Other subsystems</div>
 <div class='par-subhead-dots'>&nbsp;</div>
