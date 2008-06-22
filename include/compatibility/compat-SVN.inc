@@ -87,6 +87,7 @@ $gamesOther = array(
 	'Beneath a Steel Sky'										=> array('sky','98'),
 	'Broken Sword 1: The Shadow of the Templars'				=> array('sword1','98'),
 	'Broken Sword 2: The Smoking Mirror'						=> array('sword2','98'),
+	'Drascula: The Vampire Strikes Back'						=> array('drascula','98'),	
 	'Flight of the Amazon Queen'								=> array('queen','98'),
 	'Future Wars'												=> array('fw','80'),
 	'I Have No Mouth, and I Must Scream'						=> array('ihnm', '90'),
@@ -334,8 +335,10 @@ $notes = array(
 		   "<br>- Amiga, Atari and DOS versions are supported by this target".
 		   "<br>- Issues with the mouse cursor visibility",
 
+"drascula"	 	=> "No known issues, game is completable.".
+		   "<br>- Requires the <a href=\"http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/drascula.dat\">drascula.dat</a> resource file to be placed in the game directory".		   
 "sky"	 	=> "No known issues, game is completable.".
-		   "<br>- Requires the <a href=\"https://svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/sky.cpt\">sky.cpt</a> resource file to be placed in the game directory".
+		   "<br>- Requires the <a href=\"http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/sky.cpt\">sky.cpt</a> resource file to be placed in the game directory".
 		   "<br>- Floppy demos aren't supported".
 		   "<br>- Amiga versions aren't supported".
 		   "<br>".
@@ -350,7 +353,7 @@ $notes = array(
 "sword2"	=> "No known issues, game is completable.".
 		   "<br>- PlayStation 1 version isn't supported.",
 "queen"		=> "No known issues, game is completable.".
-		   "<br>- Some versions may require the <a href=\"https://scummvm.svn.sourceforge.net/svnroot/scummvm/engine-data/trunk/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases.".
+		   "<br>- Some versions may require the <a href=\"http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases.".
 		   "<br>- Amiga and DOS versions supported by this target.",
 "fw"		=> "Game is completable".
 		   "<br>- Occasional graphical glitches".
@@ -366,7 +369,7 @@ $notes = array(
 		   "<br>- DOS and Amiga versions are supported by this target".
 		   "<br>- Occasional minor graphical glitches",
 "kyra1"		=> "Game is completable".
-		   "<br>- Requires the <a href=\"https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/trunk/dists/engine-data/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory".
+		   "<br>- Requires the <a href=\"http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory".
 		   "<br>- DOS, FM-TOWNS, Macintosh and PC-9821 versions are supported".
 		   "<br>- Amiga versions aren't supported".
 		   "<br>".
@@ -375,7 +378,7 @@ $notes = array(
 		   "<br>- No music or sound effects in the Macintosh version".
 		   "<br>- PC-9821 version lacks support for PC-98 music and sound effects",
 "kyra2"		=> "Game is completable".
-		   "<br>- Requires the <a href=\"https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/trunk/dists/engine-data/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory".
+		   "<br>- Requires the <a href=\"http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory".
 		   "<br>- DOS and FM-Towns versions are supported".
 		   "<br>- PC-9821 versions aren't supported".
 		   "<br>".
