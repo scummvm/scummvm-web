@@ -336,7 +336,7 @@ $notes = array(
 		   "<br>- Issues with the mouse cursor visibility",
 
 "drascula"	 	=> "No known issues, game is completable.".
-		   "<br>- Requires the <a href=\"http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/drascula.dat\">drascula.dat</a> resource file to be placed in the game directory".		   
+		   "<br>- Requires the <a href=\"http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/drascula.dat\">drascula.dat</a> resource file to be placed in the game directory",
 "sky"	 	=> "No known issues, game is completable.".
 		   "<br>- Requires the <a href=\"http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/sky.cpt\">sky.cpt</a> resource file to be placed in the game directory".
 		   "<br>- Floppy demos aren't supported".
