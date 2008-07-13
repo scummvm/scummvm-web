@@ -44,7 +44,7 @@ are very welcome...
 <P>
 You can try compile engine for Windows:
 </P>
-<a href="downloads/scummexwin32.exe">Windows Daily Snapshot</a> <small> (build from Subversion trunk, <? echo intval(filesize("downloads/residualwin32.exe")/1024) ?>K Win32 .exe file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummexwin32.exe")); ?>)</small>
+<a href="downloads/scummexwin32.exe">Windows Daily Snapshot</a> <small> (build from Subversion trunk, <? echo intval(filesize("downloads/scummexwin32.exe")/1024) ?>K Win32 .exe file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummexwin32.exe")); ?>)</small>
 
 <p>&nbsp;</p>
     </div>
