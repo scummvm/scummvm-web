@@ -132,10 +132,12 @@ $HE_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/baseball_cup_demo.zip', 'baseball'),
 	'Backyard Football (Windows Demo)'
 		=> array('http://quick.mixnmojo.com/demos/footdemo.zip', 'football'),
+<!--
 	'Big Thinkers Kindergarten (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/BTK95d.EXE', 'thinkerk'),
 	'Big Thinkers First Grade (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/BTFG95d.EXE', 'thinker1'),
+-->
 	'Blue\'s ABC Time (Windows Demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/BluesABCTime_cup_demo.zip', 'BluesABCTime'),
 	'Blue\'s Birthday Adventure (Windows Demo - Non interactive)'
@@ -151,7 +153,7 @@ $HE_demos = array(
 	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows German demo)'
 		=> array('http://quick.mixnmojo.com/demos/freddemo_de.zip', 'freddi'),
 	'Freddi Fish 2: The Case of the Haunted Schoolhouse (Windows Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/FF2-DEMO.ZIP', 'freddi2'),
+		=> array('ftp://ftp.atari.com/demos/ff_haunted_schoolhouse/FFHaunted-Demo.zip', 'freddi2'),
 	'Freddi Fish 3: The Case of the Stolen Conch Shell (Windows Demo)'
 		=> array('http://quick.mixnmojo.com/demos/Freddi%20Fish%203%20%20Pc%20Demo.zip', 'freddi3'),
 	'Freddi Fish 3: The Case of the Stolen Conch Shell (Windows French Demo)'
@@ -171,11 +173,13 @@ $HE_demos = array(
 	'Let\'s Explore the Farm with Buzzy (Windows Demo)'
 		=> array('http://quick.mixnmojo.com/demos/farmdemo.rar', 'farm'),
 	'Pajama Sam 1: No Need to Hide When It\'s Dark Outside (Windows Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/pjs-demo.zip', 'pajama'),
+		=> array('ftp://ftp.atari.com/demos/psam_no_where_to_hide/PJSamHide-Demo.zip', 'pajama'),
 	'Pajama Sam 1: No Need to Hide When It\'s Dark Outside (Windows French Demo)'
 		=> array('http://quick.mixnmojo.com/demos/samdemo-fr.zip', 'pajama'),
+<!--
 	'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/PJ2Demo.exe', 'pajama2'),
+-->
 	'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening (Windows Dutch Demo)'
 		=> array('http://quick.mixnmojo.com/demos/pjs2demo-nl.zip', 'pajama2'),
 	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows Demo)'
@@ -184,8 +188,10 @@ $HE_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/gpj3demo_de.zip', 'pajama3'),
 	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows UK Demo)'
 		=> array('http://quick.mixnmojo.com/demos/pj3demo-uk.zip', 'pajama3'),
+<!--
 	'Pajama Sam\'s Lost & Found (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/losttest.zip', 'lost'),
+-->
 	'Putt-Putt Enters the Race (Windows Demo)'
 		=> array('http://quick.mixnmojo.com/demos/Putt%20Putt%20Enters%20The%20Race%20Pc%20Demo.zip', 'puttrace'),
 	'Putt-Putt Enters the Race (Windows Demo - Non interactive)'
@@ -204,18 +210,18 @@ $HE_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/puttpara.zip', 'puttdemo'),
 	'Putt-Putt Saves the Zoo (Macintosh Demo)'
 		=> array('http://quick.mixnmojo.com/demos/puttzoo_demo_mac.zip', 'puttzoo'),
+<!--
 	'Putt-Putt Saves the Zoo (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/puttzoo.zip', 'puttzoo'),
+-->
 	'Putt-Putt Saves the Zoo (Windows German Demo)'
 		=> array('http://quick.mixnmojo.com/demos/zoodemo_de.zip', 'puttzoo'),
 	'Putt-Putt Travels Through Time (Windows Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/putttime.zip', 'putttime'),
+		=> array('ftp://ftp.atari.com/demos/putt_travel_thru_time/PuttTime-Demo.zip', 'putttime'),
 	'Putt-Putt Travels Through Time (Windows French Demo)'
 		=> array('http://quick.mixnmojo.com/demos/tempdemo-fr.zip', 'putttime'),
 	'SPY Fox 1: Dry Cereal (Windows Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/FOX95d.EXE', 'spyfox'),
-	'SPY Fox 1: Dry Cereal (Windows Alternative Demo)'
-		=> array('http://quick.mixnmojo.com/demos/Spyfox%20Dry%20Cereal%20Pc%20Demo.zip', 'spyfox'),
+		=> array('ftp://ftp.atari.com/demos/spyfox_dry_cereal/SPYCereal-Demo.zip', 'spyfox'),
 	'SPY Fox 1: Dry Cereal (Windows Dutch Demo)'
 		=> array('http://quick.mixnmojo.com/demos/spydemo-nl.zip', 'spyfox'),
 	'SPY Fox 1: Dry Cereal (Windows French Demo)'
