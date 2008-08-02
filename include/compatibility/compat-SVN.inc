@@ -382,8 +382,7 @@ $notes = array(
 		   "<br>- DOS and FM-Towns versions are supported".
 		   "<br>- PC-9821 versions aren't supported".
 		   "<br>".
-		   "<br>- MIDI music and sfx are not supported".
-		   "<br>- FM-Towns music is not fully supported",
+		   "<br>- MIDI music and sfx are not supported",
 "kyra3"		=> "Game is completable".
 		   "<br>- Requires the <a href=\"https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/trunk/dists/engine-data/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory".
 		   "<br>- DOS versions are supported",
