@@ -127,17 +127,25 @@ $LEC_demos = array(
 		=>array('http://quick.mixnmojo.com/demos/zakloom.zip', 'zak')
 	);
 
+<!-- Broken HE demos links
+
+	'Big Thinkers Kindergarten (Windows Demo)'
+		=> array('ftp://ftp.humongous.com/humongous/BTK95d.EXE', 'thinkerk'),
+	'Big Thinkers First Grade (Windows Demo)'
+		=> array('ftp://ftp.humongous.com/humongous/BTFG95d.EXE', 'thinker1'),
+	'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening (Windows Demo)'
+		=> array('ftp://ftp.humongous.com/humongous/PJ2Demo.exe', 'pajama2'),
+	'Pajama Sam\'s Lost & Found (Windows Demo)'
+		=> array('ftp://ftp.humongous.com/humongous/losttest.zip', 'lost'),
+	'Putt-Putt Saves the Zoo (Windows Demo)'
+		=> array('ftp://ftp.humongous.com/humongous/puttzoo.zip', 'puttzoo'),
+-->
+
 $HE_demos = array(
 	'Backyard Baseball (Windows Demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/baseball_cup_demo.zip', 'baseball'),
 	'Backyard Football (Windows Demo)'
 		=> array('http://quick.mixnmojo.com/demos/footdemo.zip', 'football'),
-<!--
-	'Big Thinkers Kindergarten (Windows Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/BTK95d.EXE', 'thinkerk'),
-	'Big Thinkers First Grade (Windows Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/BTFG95d.EXE', 'thinker1'),
--->
 	'Blue\'s ABC Time (Windows Demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/BluesABCTime_cup_demo.zip', 'BluesABCTime'),
 	'Blue\'s Birthday Adventure (Windows Demo - Non interactive)'
@@ -176,10 +184,6 @@ $HE_demos = array(
 		=> array('ftp://ftp.atari.com/demos/psam_no_where_to_hide/PJSamHide-Demo.zip', 'pajama'),
 	'Pajama Sam 1: No Need to Hide When It\'s Dark Outside (Windows French Demo)'
 		=> array('http://quick.mixnmojo.com/demos/samdemo-fr.zip', 'pajama'),
-<!--
-	'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening (Windows Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/PJ2Demo.exe', 'pajama2'),
--->
 	'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening (Windows Dutch Demo)'
 		=> array('http://quick.mixnmojo.com/demos/pjs2demo-nl.zip', 'pajama2'),
 	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows Demo)'
@@ -188,10 +192,6 @@ $HE_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/gpj3demo_de.zip', 'pajama3'),
 	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows UK Demo)'
 		=> array('http://quick.mixnmojo.com/demos/pj3demo-uk.zip', 'pajama3'),
-<!--
-	'Pajama Sam\'s Lost & Found (Windows Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/losttest.zip', 'lost'),
--->
 	'Putt-Putt Enters the Race (Windows Demo)'
 		=> array('http://quick.mixnmojo.com/demos/Putt%20Putt%20Enters%20The%20Race%20Pc%20Demo.zip', 'puttrace'),
 	'Putt-Putt Enters the Race (Windows Demo - Non interactive)'
@@ -210,10 +210,6 @@ $HE_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/puttpara.zip', 'puttdemo'),
 	'Putt-Putt Saves the Zoo (Macintosh Demo)'
 		=> array('http://quick.mixnmojo.com/demos/puttzoo_demo_mac.zip', 'puttzoo'),
-<!--
-	'Putt-Putt Saves the Zoo (Windows Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/puttzoo.zip', 'puttzoo'),
--->
 	'Putt-Putt Saves the Zoo (Windows German Demo)'
 		=> array('http://quick.mixnmojo.com/demos/zoodemo_de.zip', 'puttzoo'),
 	'Putt-Putt Travels Through Time (Windows Demo)'
