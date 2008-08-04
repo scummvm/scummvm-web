@@ -273,7 +273,7 @@ $GOB_demos = array(
 	'Gobliins 3 (DOS French Alternative demo)'
 		=> array('http://quick.mixnmojo.com/demos/gob3_demo2_fr.zip', 'gob'),
 	'Lost in Time (DOS demo - Non interactive)'
-		=> array('http://minifiles.ag.ru/demos/632/lostintime_noninteractive_demo.exe', 'gob')
+		=> array('http://minifiles.ag.ru/demos/632/lostintime_noninteractive_demo.exe', 'gob'),
 	'Ween: The Prophecy (DOS demo)'
 		=> array('http://minifiles.ag.ru/demos/781/ween_demo.exe', 'gob')
 	);
