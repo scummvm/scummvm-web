@@ -309,6 +309,8 @@ $MISC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/op_demo_ami.zip', 'os'),
 	'The Legend of Kyrandia (DOS demo - Non-interactive)'
 		=> array('http://quick.mixnmojo.com/demos/kyra1demo.zip', 'kyra1'),
+	'The Legend of Kyrandia: The Hand of Fate (DOS demo - Non-interactive)'
+		=> array('ftp://ftp.westwood.com/pub/kyrandia2/previews/demos/hofdemo.exe', 'kyra2'),
 	'Touche: The Adventures of the Fifth Musketeer (DOS Demo)'
 		=> array('http://quick.mixnmojo.com/demos/touche_demo.zip', 'touche')
 	);
