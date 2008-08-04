@@ -127,7 +127,7 @@ $LEC_demos = array(
 		=>array('http://quick.mixnmojo.com/demos/zakloom.zip', 'zak')
 	);
 
-<!-- Broken HE demos links
+/* Broken HE demos links
 
 	'Big Thinkers Kindergarten (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/BTK95d.EXE', 'thinkerk'),
@@ -139,7 +139,7 @@ $LEC_demos = array(
 		=> array('ftp://ftp.humongous.com/humongous/losttest.zip', 'lost'),
 	'Putt-Putt Saves the Zoo (Windows Demo)'
 		=> array('ftp://ftp.humongous.com/humongous/puttzoo.zip', 'puttzoo'),
--->
+*/
 
 $HE_demos = array(
 	'Backyard Baseball (Windows Demo - Non interactive)'
