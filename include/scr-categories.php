@@ -82,12 +82,16 @@ $cat->add(11, "cat-comi.png", "The Curse of Monkey Island");
 // AGOS games
 $cat = & new category(4, "Adventuresoft/Horrorsoft games");
 $cat->add(0, "cat-simon.png", "Simon the Sorcerer series");
+$cat->add(2, "cat-elvira.png", "Elvira series");
 $cat->add(1, "cat-feeble.png", "The Feeble Files");
+$cat->add(3, "cat-waxworks.png", "Waxworks");
 
 // Coktel Vision games
 $cat = & new category(5, "Coktel Vision games");
 $cat->add(2, "cat-bargon.png", "Bargon Attack");
+$cat->add(3, "cat-woodruff.png", "The Bizarre Adventures of Woodruff and the Schnibble");
 $cat->add(0, "cat-gob.png", "Gobliiins series");
+$cat->add(4, "cat-lostintime.png", "Lost In Time");
 $cat->add(1, "cat-ween.png", "Ween: The Prophecy");
 
 // AGI games
@@ -101,6 +105,7 @@ $cat->add(6, "cat-mumg.png", "Mixed-Up Mother Goose");
 $cat->add(7, "cat-pq.png", "Police Quest");
 $cat->add(8, "cat-sq.png", "Space Quest series");
 $cat->add(9, "cat-fan.png", "Fanmade games");
+$cat->add(12, "cat-mickey.png", "Mickey's Space Adventure");
 $cat->add(10, "cat-troll.png", "Troll's Tale");
 $cat->add(11, "cat-winnie.png", "Winnie the Pooh in the Hundred Acre Wood");
 
@@ -108,6 +113,7 @@ $cat->add(11, "cat-winnie.png", "Winnie the Pooh in the Hundred Acre Wood");
 $cat = & new category(2, "Other games");
 $cat->add(3, "cat-sky.png", "Beneath a Steel Sky");
 $cat->add(0, "cat-sword.png", "Broken Sword series");
+$cat->add(10, "cat-drascula.png", "Drascula: The Vampire Strikes Back");
 $cat->add(2, "cat-queen.png", "Flight of the Amazon Queen");
 $cat->add(5, "cat-fw.png", "Future Wars: Time Travelers");
 $cat->add(8, "cat-ihnm.png", "I Have no Mouth and I Must Scream");
