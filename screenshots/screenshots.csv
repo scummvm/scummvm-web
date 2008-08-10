@@ -235,6 +235,12 @@
 2|4|5|other/kyra/kyra2-2|The Legend of Kyrandia: Book Two: Hand of Fate (DOS)
 2|4|6|other/kyra/kyra2-de-1|The Legend of Kyrandia: Book Two: Hand of Fate (DOS German)
 2|4|7|other/kyra/kyra2-fr-1|The Legend of Kyrandia: Book Two: Hand of Fate (DOS French)
+2|4|8|other/kyra/kyra3-1|The Legend of Kyrandia: Malcolm's Revenge (DOS)
+2|4|9|other/kyra/kyra3-2|The Legend of Kyrandia: Malcolm's Revenge (DOS)
+2|4|10|other/kyra/kyra3-3|The Legend of Kyrandia: Malcolm's Revenge (DOS)
+2|4|11|other/kyra/kyra3-4|The Legend of Kyrandia: Malcolm's Revenge (DOS)
+2|4|12|other/kyra/kyra3-5|The Legend of Kyrandia: Malcolm's Revenge (DOS)
+2|4|13|other/kyra/kyra3-de-1|The Legend of Kyrandia: Malcolm's Revenge (DOS German)
 2|5|0|other/fw/scummvm_2_8_0|Future Wars: Time Travellers
 2|5|1|other/fw/scummvm_2_8_1|Future Wars: Time Travellers
 2|5|2|other/fw/scummvm_2_8_2|Future Wars: Time Travellers
@@ -261,6 +267,11 @@
 2|9|3|other/lure/lure-4|Lure of the Temptress (DOS VGA)
 2|9|4|other/lure/lure-5|Lure of the Temptress (DOS VGA)
 2|9|5|other/lure/lure-6|Lure of the Temptress (DOS VGA)
+2|10|0|other/drascula/drascula-1|Drascula: The Vampire Strikes Back
+2|10|1|other/drascula/drascula-2|Drascula: The Vampire Strikes Back
+2|10|2|other/drascula/drascula-3|Drascula: The Vampire Strikes Back
+2|10|3|other/drascula/drascula-4|Drascula: The Vampire Strikes Back
+2|10|4|other/drascula/drascula-5|Drascula: The Vampire Strikes Back
 #
 # Sierra AGI games
 #
@@ -376,6 +387,18 @@
 3|11|3|agi/preagi/winnie-4|Winnie the Pooh in the Hundred Acre Wood (DOS)
 3|11|4|agi/preagi/winnie-5|Winnie the Pooh in the Hundred Acre Wood (DOS)
 3|11|5|agi/preagi/winnie-6|Winnie the Pooh in the Hundred Acre Wood (DOS)
+#
+3|12|0|agi/preagi/mickey-1|Mickey's Space Adventure (DOS)
+3|12|1|agi/preagi/mickey-2|Mickey's Space Adventure (DOS)
+3|12|2|agi/preagi/mickey-cga-1|Mickey's Space Adventure (DOS CGA)
+3|12|3|agi/preagi/mickey-cga-2|Mickey's Space Adventure (DOS CGA)
+#
+3|13|0|agi/ddp/ddp-1|Donald Duck's Playground (DOS)
+3|13|1|agi/ddp/ddp-2|Donald Duck's Playground (DOS)
+3|13|2|agi/ddp/ddp-3|Donald Duck's Playground (DOS)
+3|13|3|agi/ddp/ddp-cga-1|Donald Duck's Playground (DOS CGA)
+3|13|4|agi/ddp/ddp-cga-2|Donald Duck's Playground (DOS CGA)
+3|13|5|agi/ddp/ddp-cga-3|Donald Duck's Playground (DOS CGA)
 
 #
 # AdventureSoft games
@@ -410,6 +433,22 @@
 4|1|6|other/feeble/feeble-6|The Feeble Files (Windows)
 4|1|7|other/feeble/feeble-7|The Feeble Files (Windows)
 4|1|8|other/feeble/feeble-8|The Feeble Files (Windows)
+#
+4|2|0|agos/elvira/elvira-1|Elvira - Mistress of the Dark (DOS/English)
+4|2|1|agos/elvira/elvira-2|Elvira - Mistress of the Dark (DOS/English)
+4|2|2|agos/elvira/elvira-3|Elvira - Mistress of the Dark (DOS/English)
+4|2|3|agos/elvira/elvira-4|Elvira - Mistress of the Dark (DOS/English)
+4|2|4|agos/elvira/elvira-5|Elvira - Mistress of the Dark (DOS/English)
+4|2|5|agos/elvira/elvira2-amiga-1|Elvira II - The Jaws of Cerberus (Amiga/English)
+4|2|6|agos/elvira/elvira2-amiga-2|Elvira II - The Jaws of Cerberus (Amiga/English)
+4|2|7|agos/elvira/elvira2-amiga-3|Elvira II - The Jaws of Cerberus (Amiga/English)
+4|2|8|agos/elvira/elvira2-amiga-4|Elvira II - The Jaws of Cerberus (Amiga/English)
+4|2|9|agos/elvira/elvira2-amiga-5|Elvira II - The Jaws of Cerberus (Amiga/English)
+4|3|0|agos/waxworks/waxworks-1|Waxworks (DOS/English)
+4|3|1|agos/waxworks/waxworks-2|Waxworks (DOS/English)
+4|3|2|agos/waxworks/waxworks-3|Waxworks (DOS/English)
+4|3|3|agos/waxworks/waxworks-4|Waxworks (DOS/English)
+4|3|4|agos/waxworks/waxworks-amiga-1|Waxworks (Amiga/English)
 
 #
 # Gob engine games
@@ -439,3 +478,14 @@
 5|2|0|other/bargon/scummvm_2_11_0|Bargon Attack (DOS)
 5|2|1|other/bargon/scummvm_2_11_1|Bargon Attack (DOS)
 5|2|2|other/bargon/scummvm_2_11_2|Bargon Attack (DOS)
+5|3|0|gob/woodruff/woodruff-0|The Bizarre Adventures of Woodruff and the Schnibble
+5|3|1|gob/woodruff/woodruff-1|The Bizarre Adventures of Woodruff and the Schnibble
+5|3|2|gob/woodruff/woodruff-2|The Bizarre Adventures of Woodruff and the Schnibble
+5|3|3|gob/woodruff/woodruff-3|The Bizarre Adventures of Woodruff and the Schnibble
+5|3|4|gob/woodruff/woodruff-4|The Bizarre Adventures of Woodruff and the Schnibble
+5|4|0|gob/lostintime/lostintime-1|Lost in Time (CD DOS)
+5|4|1|gob/lostintime/lostintime-2|Lost in Time (CD DOS)
+5|4|2|gob/lostintime/lostintime-3|Lost in Time (CD DOS)
+5|4|3|gob/lostintime/lostintime-fr-1|Lost in Time (CD DOS French)
+5|4|4|gob/lostintime/lostintime-de-1|Lost in Time (CD DOS German)
+5|4|5|gob/lostintime/lostintime-it-1|Lost in Time (CD DOS Italian)
