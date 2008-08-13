@@ -385,7 +385,7 @@ $notes = array(
 		   "<br>- MIDI music and sfx are not supported",
 "kyra3"		=> "Game is completable".
 		   "<br>- Requires the <a href=\"https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/trunk/dists/engine-data/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory".
-		   "<br>- DOS versions are supported",
+		   "<br>- DOS and Macintosh versions are supported",
 "touche"	=> "Game is completable".
 		   "<br>- Occasional graphical glitches",
 
