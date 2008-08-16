@@ -376,11 +376,10 @@ $notes = array(
 		   "<br>- Occasional graphics glitches".
 		   "<br>- MT-32 (MIDI) music and sfx are not supported".
 		   "<br>- No music or sound effects in the Macintosh version".
-		   "<br>- PC-9821 version lacks support for PC-98 music and sound effects",
+		   "<br>- PC-9821 version lacks support for sound effects",
 "kyra2"		=> "Game is completable".
 		   "<br>- Requires the <a href=\"http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory".
-		   "<br>- DOS and FM-Towns versions are supported".
-		   "<br>- PC-9821 versions aren't supported".
+		   "<br>- DOS, FM-Towns and PC-9821 versions are supported".
 		   "<br>".
 		   "<br>- MIDI music and sfx are not supported",
 "kyra3"		=> "Game is completable".
