@@ -66,6 +66,8 @@ as such is progressing slowly.
 You can try compiled engine for Windows:
 </P>
 <a href="downloads/residualwin32.exe">Windows Daily Snapshot</a> <small> (build from Subversion trunk, <? echo intval(filesize("downloads/residualwin32.exe")/1024) ?>K Win32 .exe file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/residualwin32.exe")); ?>)</small>
+<p>Also you can try Mac OS X Leopard version on Intel platform:</p>
+<a href="downloads/Residual-MacOSX-Intel.dmg">Mac OS X Snapshot</a> <small> (build from Subversion trunk, <? echo intval(filesize("downloads/Residual-MacOSX-Intel.dmg")/1024) ?>K dmg file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/Residual-MacOSX-Intel.dmg")); ?>)</small>
 <p></p>
     </div>
   </div>
