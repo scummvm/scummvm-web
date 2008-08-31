@@ -110,7 +110,6 @@ html_content_begin('Download ScummVM');
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-macos-universal.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-macosx.dmg?download">Mac OS X Universal Disk Image</a> <font class='cat-count'>(7.3M disk image)</font></td></tr>
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-ps2.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-ps2.tar.bz2?download">PlayStation2 package</a> <font class='cat-count'>(4.5M .tar.bz2)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-ps2.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-ps2.zip?download">PlayStation2 package</a> <font class='cat-count'>(4.5M .zip)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-psp.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-psp.zip?download">PSP (PlayStation Portable) package</a> <font class='cat-count'>(7.0M .zip)</font></td></tr>
