@@ -1,0 +1,20 @@
+<NAME>ScummVM 0.12.0 "&amp;nbsp;" was released</NAME>
+<DATE>August 31st, 2008</DATE>
+<AUTHOR>sev</AUTHOR>
+<BODY>
+	<p>
+		We can call it a tremendous development. Half a year since 0.11.1 passed pretty quickly, and we are pleased to announce the release of 0.12.0!
+	</p>
+	<p>
+This new version of ScummVM adds support for 5 completely new games. The games that now run smoothly on many more platforms than was initially intended are: <i>The Legend of Kyrandia: Book Two: Hand of Fate</i>, <i>The Legend of Kyrandia: Book Three: Malcolm's Revenge</i>, <i>Lost in Time</i>, <i>The Bizarre Adventures of Woodruff and the Schnibble</i> and <i>Drascula: The Vampire Strikes Back</i>.
+	</p>
+	<p>
+		The number of supported platforms grew as well. The <b>PS2</b> port has been revived, and the <b>GameCube</b> and <b>Wii</b> are now supported too. Take your Wiimote and make your beloved adventure game protagonist run around the screen :).
+	</p>
+	<p>
+		No need to go any further into details here, those who want to know the gory details can always refer to <a href="http://sourceforge.net/project/shownotes.php?release_id=621976">the release notes</a>, and all of you are invited to go to <a href="/downloads.php">our downloads page</a>.
+	</p>
+	<p>
+		P.S. <i>Soon, pretty soon, look out for more news from us.</i>
+	</p>
+</BODY>
