@@ -95,8 +95,8 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-win32.exe?download"><b>Windows Installer</b></a> <font class='cat-count'>(2.7M Win32 .exe)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-win32.zip?download">Windows zipfile</a> <font class='cat-count'>(3.9M zipfile)</font></td></tr>
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-1_F8.i386.rpm?download">Fedora 7 and 8 i386 package</a> <font class='cat-count'>(4.2M RPM)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-1_F8.x86_64.rpm?download">Fedora 7 and 8 x86 64bit package</a> <font class='cat-count'>(4.0M RPM)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-1_F8.i386.rpm?download">Fedora 7, 8 and 9 i386 package</a> <font class='cat-count'>(4.2M RPM)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-1_F8.x86_64.rpm?download">Fedora 7, 8 and 9 x86 64bit package</a> <font class='cat-count'>(4.0M RPM)</font></td></tr>
 
 <!--
 	  <tr><td class='cat-bullet'><img src='images/catpl-debian.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.11.1-0.etch.1_i386.deb?download">Debian 4.0 (etch) package</a> <font class='cat-count'>(2.2M .deb)</font></td></tr>
@@ -194,8 +194,8 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-win32.exe?download">Tools - Windows Installer</a> <font class='cat-count'>(916k Win32 .exe)</font></td></tr>
     <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-win32.zip?download">Tools - Windows zipfile</a> <font class='cat-count'>(3,4M Win32 .zip)</font></td></tr>
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-1_F8.i386.rpm?download">Tools - Fedora 7 and 8 i386 RPM</a> <font class='cat-count'>(245k .rpm)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-1_F8.x86_64.rpm?download">Tools - Fedora 7 and 8 x86 64bit RPM</a> <font class='cat-count'>(278k .rpm)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-1_F8.i386.rpm?download">Tools - Fedora 7, 8 and 9 i386 RPM</a> <font class='cat-count'>(245k .rpm)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-1_F8.x86_64.rpm?download">Tools - Fedora 7, 8 and 9 x86 64bit RPM</a> <font class='cat-count'>(278k .rpm)</font></td></tr>
 
 <!--
 	  <tr><td class='cat-bullet'><img src='images/catpl-macos-universal.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-macosx.tar.bz2?download">Tools - Mac OS X Universal binaries (10.3.9 and up)</a> <font class='cat-count'>(941k .tar.bz2)</font></td></tr>
