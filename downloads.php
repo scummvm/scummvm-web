@@ -336,6 +336,10 @@ html_content_begin('Download ScummVM');
 	  <tr><td></td><td>&nbsp;</td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/cat-kyra.png' alt="" width=24 height=24></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<? echo $current_release_tag; ?>/dists/engine-data/kyra.dat">The Legend of Kyrandia, KYRA.DAT - required for all versions of the game</a> <font class='cat-count'>(182k)</font></td></tr>
+
+	  <tr><td></td><td>&nbsp;</td></tr>
+
+	  <tr><td class='cat-bullet'><img src='images/cat-drascula.png' alt="" width=24 height=24></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<? echo $current_release_tag; ?>/dists/engine-data/drascula.dat">Drascula: The Vampire Strikes Back, DRASCULA.DAT - required for all versions of the game</a> <font class='cat-count'>(211k)</font></td></tr>
 	</table>
 
      </div>
