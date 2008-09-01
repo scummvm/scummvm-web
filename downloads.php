@@ -164,9 +164,7 @@ html_content_begin('Download ScummVM');
 -->
 	  <tr><td class='cat-bullet'><img src='images/catpl-freemint.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-atari.zip?download">Atari/FreeMiNT package (68020 and up)</a> <font class='cat-count'>(3.9M .zip)</font></td></tr>
 
-<!--
-	  <tr><td class='cat-bullet'><img src='images/catpl-os2.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-os2.zip?download">OS/2 package</a> <font class='cat-count'>(3.4M .zip)</font></td></tr>
--->
+	  <tr><td class='cat-bullet'><img src='images/catpl-os2.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-os2.zip?download">OS/2 package</a> <font class='cat-count'>(4.9M .zip)</font></td></tr>
 	</table>
     </div>
 
@@ -196,9 +194,7 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-1_F8.i386.rpm?download">Tools - Fedora 7, 8 and 9 i386 RPM</a> <font class='cat-count'>(245k .rpm)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-1_F8.x86_64.rpm?download">Tools - Fedora 7, 8 and 9 x86 64bit RPM</a> <font class='cat-count'>(278k .rpm)</font></td></tr>
 
-<!--
-	  <tr><td class='cat-bullet'><img src='images/catpl-macos-universal.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-macosx.tar.bz2?download">Tools - Mac OS X Universal binaries (10.3.9 and up)</a> <font class='cat-count'>(941k .tar.bz2)</font></td></tr>
--->
+	  <tr><td class='cat-bullet'><img src='images/catpl-macos-universal.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-macosx.tar.bz2?download">Tools - Mac OS X Universal binaries (10.3.9 and up)</a> <font class='cat-count'>(9.0M .tar.bz2)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-solaris8-sparc.tar.bz2?download">Tools - Solaris 8 (Sparc)</a> <font class='cat-count'>(148k .tar.bz2)</font></td></tr>
 <!--
@@ -243,8 +239,6 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-gp2x.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-gp2x.zip?download">0.11.1 GP2X package</a> <font class='cat-count'>(3.8M .zip)</font></td></tr>
 
   <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-solaris10-x86.pkg.bz2?download">0.11.1 Solaris 10 (both IA32 and AMD64) binary</a> <font class='cat-count'>(9.6M .pkg.bz2)</font></td></tr>
-
-	  <tr><td class='cat-bullet'><img src='images/catpl-os2.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-os2.zip?download">0.11.1 OS/2 package</a> <font class='cat-count'>(3.4M .zip)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-morphos.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.0-morphos.lha?download">0.11.0 MorphOS package</a> <font class='cat-count'>(4.2M .lha)</font></td></tr>
 
