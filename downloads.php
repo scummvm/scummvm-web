@@ -199,10 +199,10 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-solaris8-sparc.tar.bz2?download">Tools - Solaris 8 (Sparc)</a> <font class='cat-count'>(148k .tar.bz2)</font></td></tr>
 <!--
 	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.11.0-solaris10-x86.pkg.bz2?download">Tools - Solaris 10 (both IA32 and AMD64)</a> <font class='cat-count'>(182k .pkg.bz2)</font></td></tr>
-
-	  <tr><td class='cat-bullet'><img src='images/catpl-amiga.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.11.0-amigaos4.lha?download">Tools - AmigaOS 4</a> <font class='cat-count'>(2.1M .lha)</font></td></tr>
-
 -->
+
+	  <tr><td class='cat-bullet'><img src='images/catpl-amiga.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-amigaos4.lha?download">Tools - AmigaOS 4</a> <font class='cat-count'>(7.7M .lha)</font></td></tr>
+
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.11.0.tar.bz2?download">Tools - Source .tar.bz2</a> <font class='cat-count'>(178k .tar.bz2)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.11.0.tar.gz?download">Tools - Source .tar.gz</a> <font class='cat-count'>(215k .tar.gz)</font></td></tr>
