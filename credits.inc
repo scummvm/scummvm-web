@@ -9,6 +9,14 @@
 <tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td></td>
 </table>
 </div>
+<div class='par-subhead'>Retired Project Leaders</div>
+<div class='par-subhead-dots'>&nbsp;</div>
+<div class='par-subhead-content'>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Vincent Hamm</td><td style='width:10em; text-align: left;' class='news-author'>yaz0r</td><td>ScummVM co-founder, Original Cruise/CinE author</td>
+<tr><td style='width:13em; padding:2px;'>Ludvig Strigeus</td><td style='width:10em; text-align: left;' class='news-author'>ludde</td><td>Original ScummVM and SimonVM author</td>
+</table>
+</div>
 <div class='par-subhead'>Engine Teams</div>
 <div class='par-subhead-dots'>&nbsp;</div>
 <div class='par-subhead-content'>
@@ -203,9 +211,10 @@
 </table>
 <span style='font-weight: bold'>Miscellaneous:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
-<tr><td style='width:13em; padding:2px;'>David Corrales-Lopez</td><td style='width:10em; text-align: left;' class='news-author'>david_corrales</td><td>Filesystem access improvements</td>
+<tr><td style='width:13em; padding:2px;'>David Corrales-Lopez</td><td style='width:10em; text-align: left;' class='news-author'>david_corrales</td><td>Filesystem access improvements (GSoC 2007 task)</td>
 <tr><td style='width:13em; padding:2px;'>Jerome Fisher</td><td style='width:10em; text-align: left;' class='news-author'>KingGuppy</td><td>MT-32 emulator</td>
 <tr><td style='width:13em; padding:2px;'>Jochen Hoenicke</td><td style='width:10em; text-align: left;' class='news-author'>hoenicke</td><td>Speaker &amp; PCjr sound support, Adlib work</td>
+<tr><td style='width:13em; padding:2px;'>Chris Page</td><td style='width:10em; text-align: left;' class='news-author'>cp88</td><td>Return to launcher, savestate improvements, leak fixes, ... (GSoC 2008 task)</td>
 <tr><td style='width:13em; padding:2px;'>Robin Watts</td><td style='width:10em; text-align: left;' class='news-author'>robinwatts</td><td>ARM assembly routines for nice speedups on several ports; improvements to the sound mixer</td>
 </table>
 </div>
@@ -231,12 +240,10 @@
 <tr><td style='width:13em; padding:2px;'>Ralph Brorsen</td><td style='width:10em; text-align: left;' class='news-author'>painelf</td><td>Help with GUI implementation</td>
 <tr><td style='width:13em; padding:2px;'>Jamieson Christian</td><td style='width:10em; text-align: left;' class='news-author'>jamieson630</td><td>iMUSE, MIDI, all things musical</td>
 <tr><td style='width:13em; padding:2px;'>R&uuml;diger Hanke</td><td></td><td>Port: MorphOS</td>
-<tr><td style='width:13em; padding:2px;'>Vincent Hamm</td><td style='width:10em; text-align: left;' class='news-author'>yaz0r</td><td>ScummVM co-founder, Original Cruise/CinE author</td>
 <tr><td style='width:13em; padding:2px;'>Felix Jakschitsch</td><td style='width:10em; text-align: left;' class='news-author'>yot</td><td>Zak256 reverse engineering</td>
 <tr><td style='width:13em; padding:2px;'>Mutwin Kraus</td><td style='width:10em; text-align: left;' class='news-author'>mutle</td><td>Original MacOS porter</td>
 <tr><td style='width:13em; padding:2px;'>Peter Moraliyski</td><td style='width:10em; text-align: left;' class='news-author'>ph0x</td><td>Port: GP32</td>
 <tr><td style='width:13em; padding:2px;'>Jeremy Newman</td><td style='width:10em; text-align: left;' class='news-author'>laxdragon</td><td>Former webmaster</td>
-<tr><td style='width:13em; padding:2px;'>Ludvig Strigeus</td><td style='width:10em; text-align: left;' class='news-author'>ludde</td><td>Original ScummVM and SimonVM author</td>
 <tr><td style='width:13em; padding:2px;'>Lionel Ulmer</td><td style='width:10em; text-align: left;' class='news-author'>bbrox</td><td>Port: X11</td>
 <tr><td style='width:13em; padding:2px;'>Won Star</td><td style='width:10em; text-align: left;' class='news-author'>wonst719</td><td>Former GP32 porter</td>
 </table>
