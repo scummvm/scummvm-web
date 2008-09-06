@@ -299,6 +299,13 @@ html_content_begin('Download ScummVM');
 
 	  <tr><td></td><td>&nbsp;</td></tr>
 
+	  <tr><td class='cat-bullet'><img src='images/cat-drascula.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/drascula-1.0.zip?download">Drascula: The Vampire Strikes Back (English)</a> <font class='cat-count'>(31.3M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-drascula.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/drascula-1.0-audio.zip?download">Drascula: The Vampire Strikes Back (Music AddOn, OGG format)</a> <font class='cat-count'>(34.4M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-drascula.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/drascula-1.0-int.zip?download">Drascula: The Vampire Strikes Back (Spanish, German, French and Italian AddOn)</a> <font class='cat-count'>(33.2M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-drascula.png' alt="" width=24 height=24></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<? echo $current_release_tag; ?>/dists/engine-data/drascula.dat">Drascula: The Vampire Strikes Back, DRASCULA.DAT - required for all versions of the game</a> <font class='cat-count'>(211k) - Requires ScummVM <? echo $current_release; ?></font></td></tr>
+
+	  <tr><td></td><td>&nbsp;</td></tr>
+
 	  <tr><td class='cat-bullet'><img src='images/cat-sword.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_DXA_Cutscenes.zip?download">Broken Sword 1 Cutscene Pack (English, DXA compression)</a> <font class='cat-count'>(58.5M) - Requires ScummVM 0.10.0</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-sword.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://downloads.scummbr.com/Sword1_Cutscenes_BRA_Complete.zip">Broken Sword 1 Cutscene Pack (Brazilian)</a> <font class='cat-count'>(38M) This is an offsite package with both Brazillian videos and audio</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-sword.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_OGG_Cutscenes.zip?download">Broken Sword 1 Cutscene Pack (English OGG AddOn)</a> <font class='cat-count'>(2.9M) Alternative audio pack, for ports without FLAC support</font></td></tr>
@@ -323,9 +330,6 @@ html_content_begin('Download ScummVM');
 
 	  <tr><td class='cat-bullet'><img src='images/cat-kyra.png' alt="" width=24 height=24></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<? echo $current_release_tag; ?>/dists/engine-data/kyra.dat">The Legend of Kyrandia, KYRA.DAT - required for all versions of the game</a> <font class='cat-count'>(182k)</font></td></tr>
 
-	  <tr><td></td><td>&nbsp;</td></tr>
-
-	  <tr><td class='cat-bullet'><img src='images/cat-drascula.png' alt="" width=24 height=24></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<? echo $current_release_tag; ?>/dists/engine-data/drascula.dat">Drascula: The Vampire Strikes Back, DRASCULA.DAT - required for all versions of the game</a> <font class='cat-count'>(211k)</font></td></tr>
 	</table>
 
      </div>
