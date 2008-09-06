@@ -225,7 +225,6 @@ html_content_begin('Download ScummVM');
 		have older versions around, for your convenience.
 	</p>
 	<table>
-	  <tr><td class='cat-bullet'><img src='images/catpl-debian.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.11.1-0.etch.1_i386.deb?download">0.11.1 Debian 4.0 (etch) package</a> <font class='cat-count'>(2.2M .deb)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-ds.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-ds.zip?download">0.11.1 Nintendo DS package</a> <font class='cat-count'>(7.3M .zip)</font></td></tr>
 
