@@ -146,9 +146,7 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-gp2x.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-gp2x.zip?download">GP2X package</a> <font class='cat-count'>(4.3M .zip)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-solaris8-sparc.tar.bz2?download">Solaris 8 and up (Sparc) binary</a> <font class='cat-count'>(4.4M .tar.bz2)</font></td></tr>	
-<!--
-  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-solaris10-x86.pkg.bz2?download">Solaris 10 (both IA32 and AMD64) binary</a> <font class='cat-count'>(9.6M .pkg.bz2)</font></td></tr>
--->
+  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-solaris10-x86.pkg.bz2?download">Solaris 10 (both IA32 and AMD64) binary</a> <font class='cat-count'>(10.2M .pkg.bz2)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-beos.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-beos.tar.gz?download">BeOS package</a> <font class='cat-count'>(4.4M pkg)</font></td></tr>
 
@@ -193,9 +191,7 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-macos-universal.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-macosx.tar.bz2?download">Tools - Mac OS X Universal binaries (10.3.9 and up)</a> <font class='cat-count'>(9.0M .tar.bz2)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-solaris8-sparc.tar.bz2?download">Tools - Solaris 8 (Sparc)</a> <font class='cat-count'>(148k .tar.bz2)</font></td></tr>
-<!--
-	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.11.0-solaris10-x86.pkg.bz2?download">Tools - Solaris 10 (both IA32 and AMD64)</a> <font class='cat-count'>(182k .pkg.bz2)</font></td></tr>
--->
+	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-solaris10-x86.pkg.bz2?download">Tools - Solaris 10 (both IA32 and AMD64)</a> <font class='cat-count'>(4.8M .pkg.bz2)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-amiga.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-amigaos4.lha?download">Tools - AmigaOS 4</a> <font class='cat-count'>(7.7M .lha)</font></td></tr>
 
@@ -230,8 +226,6 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/catpl-palmos.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-palmos-zodiac.zip?download">0.11.1 PalmOS Tapwave Zodiac binary</a> <font class='cat-count'>(8.0M zipfile)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-opie.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-opie_arm.ipk?download">0.11.1 Opie SDL package<b> Only </b>for iPAQ h1910/h1915 and MyPal 716</a> <font class='cat-count'>(3.6M .ipk)</font></td></tr>
-
-  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-solaris10-x86.pkg.bz2?download">0.11.1 Solaris 10 (both IA32 and AMD64) binary</a> <font class='cat-count'>(9.6M .pkg.bz2)</font></td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/catpl-morphos.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.0-morphos.lha?download">0.11.0 MorphOS package</a> <font class='cat-count'>(4.2M .lha)</font></td></tr>
 
