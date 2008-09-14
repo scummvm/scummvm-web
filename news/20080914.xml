@@ -1,0 +1,20 @@
+<NAME>Minor update to Flight of the Amazon Queen</NAME>
+<DATE>September 14th, 2008</DATE>
+<AUTHOR>eriktorbjorn</AUTHOR>
+<BODY>
+	<p>
+Observant users have noticed that there is an updated version of
+Flight of the Amazon Queen on SourceForge but not, until now, on the
+ScummVM <a href="/downloads.php">downloads page</a>.
+</p>
+
+<p>
+Apart from some minor typographical changes to the license to keep the
+legal beagles happy, the only difference compared to the old version
+is that it has been compressed using the latest version of the ScummVM
+tools. This should fix problems with clicks at the beginning of some
+speech, and speech being played a bit too slow. (ScummVM 0.12.0
+already has a workaround for the latter problem, so you may not even
+notice the difference.)
+	</p>
+</BODY>
