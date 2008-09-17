@@ -1,4 +1,4 @@
-<?
+<?php
 
 // set this for position of this file relative
 $file_root = ".";
@@ -79,7 +79,7 @@ html_content_begin('Contact');
     </div>
   </div>
 
-<?
+<?php
 
 html_content_end();
 html_page_footer();

@@ -6,7 +6,7 @@ function sidebar_start () {
 
 ?>
 <td class="menus">
-<?
+<?php
 
    $g = new htmlmenu("Main Menu", "menu-main");
     
@@ -53,7 +53,7 @@ function sidebar_end ()
 
 </td>
 
-<?
+<?php
 }
 
 ?>

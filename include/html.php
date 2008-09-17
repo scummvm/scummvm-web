@@ -11,7 +11,7 @@ function html_page_header($title, $extra_css = array()) {
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 		<meta http-equiv="Content-Script-Type" content="text/javascript">
    		<meta http-equiv="Content-Style-Type" content="text/css">
-		<link rel="stylesheet" href="<?=$file_root?>/style.css" type="text/css">
+		<link rel="stylesheet" href="<?php echo $file_root; ?>/style.css" type="text/css">
 
 <?php
   foreach ($extra_css as $css_file) {
@@ -30,8 +30,8 @@ function html_page_header($title, $extra_css = array()) {
 	<table class="main-container" width="90%" cellspacing="0" cellpadding="0" align="center">
 		<tr>
 			<td colspan="2"><table cellspacing="0" cellpadding="0" style="width:100%;">
-	    <tr><td rowspan="2" width="287"><img alt="ScummVM logo" src="<?=$file_root?>/images/scummvm_logo.jpg" width="287" height="118" border="0"></td>
-	    <td rowspan="2" style="background:url('<?=$file_root?>/images/bg-upper.gif')">&nbsp;</td>
+	    <tr><td rowspan="2" width="287"><img alt="ScummVM logo" src="<?php echo $file_root; ?>/images/scummvm_logo.jpg" width="287" height="118" border="0"></td>
+	    <td rowspan="2" style="background:url('<?php echo $file_root; ?>/images/bg-upper.gif')">&nbsp;</td>
 
 					<td width="483">
 
@@ -46,7 +46,7 @@ echo '<img alt="Game characters" src="'.$file_root.'/images/'.$heroes[$randImg].
 ?>
 </td>
 					</tr>
-    <tr><td width="483"><img alt="Script creation utility for Maniac Mansion Virtual Machine" src="<?=$file_root?>/images/scummvm-caption.png" width="482" height="29"></td>
+    <tr><td width="483"><img alt="Script creation utility for Maniac Mansion Virtual Machine" src="<?php echo $file_root; ?>/images/scummvm-caption.png" width="482" height="29"></td>
 					<td width="24">&nbsp;</td></tr>
 				</table>
 			</td>
@@ -66,15 +66,15 @@ function html_content_begin($title) {
 <tr><td style="padding-left:8px;padding-right:8px;">
 	<table width="100%" cellspacing="0" cellpadding="0">
 		<tr>
-    <td width="8" style="background:url('<?=$file_root?>/images/header-left-corner.gif');height:28px;">&nbsp;</td>
-    <td style="background:url('<?=$file_root?>/images/header-background.gif')"><h2 style="margin:0px;color:#356a02;font-weight:bold;padding-left:1em;
+    <td width="8" style="background:url('<?php echo $file_root; ?>/images/header-left-corner.gif');height:28px;">&nbsp;</td>
+    <td style="background:url('<?php echo $file_root; ?>/images/header-background.gif')"><h2 style="margin:0px;color:#356a02;font-weight:bold;padding-left:1em;
 			font-family:Trebuchet MS,Verdana,Tahoma;font-size:18px;color:#821d06">
 <?php
 shadowed_text($title, '#821d06', '#ffffff');
 ?>
 
 </h2></td>
-  <td width="8" style="background:url('<?=$file_root?>/images/header-right-corner.gif');height:28px;">&nbsp;</td>
+  <td width="8" style="background:url('<?php echo $file_root; ?>/images/header-right-corner.gif');height:28px;">&nbsp;</td>
 	</tr></table>
 </td></tr>
 <tr><td style="padding-left:8px;padding-right:8px;"><table width="100%" cellspacing="0"><tr><td style="border-left:1px solid #ebb716;border-right:1px solid #ebb716;padding:12px;background:#fff;">
@@ -87,9 +87,9 @@ function html_content_end() {
 	</td></tr></table></td>
 <tr>
 	<td style="padding-left:8px;padding-right:8px;"><table width="100%" cellspacing="0" cellpadding="0"><tr>
-	<td width="8" style="height:28px;background:url('<?=$file_root?>/images/left-low-corner.gif')">&nbsp;</td>
+	<td width="8" style="height:28px;background:url('<?php echo $file_root; ?>/images/left-low-corner.gif')">&nbsp;</td>
 	<td style="border-bottom:1px solid #ebb716;text-align:right;background:#fff;">&nbsp;</td>
-	<td width="8" style="background:url('<?=$file_root?>/images/right-low-corner.gif')">&nbsp;</td>
+	<td width="8" style="background:url('<?php echo $file_root; ?>/images/right-low-corner.gif')">&nbsp;</td>
 	</tr></table></td>
 </tr>
 </table>
@@ -109,7 +109,7 @@ function html_page_footer() {
 
 
 		</tr><tr><td class="menus" style="vertical-align:bottom;" >
-		<img src="<?=$file_root?>/images/tentacle1.gif" style="vertical-align:bottom;" alt="Tentacle" width="163" height="159">
+		<img src="<?php echo $file_root; ?>/images/tentacle1.gif" style="vertical-align:bottom;" alt="Tentacle" width="163" height="159">
 		</td>
 		</tr>
 
@@ -136,13 +136,13 @@ function html_page_footer() {
 	</tr>
 <!-- </td></tr> -->
 	</table>
-</td><td class="menus" style="width:163px;vertical-align:top;border:0px;" rowspan="2"><img src="<?=$file_root?>/images/tentacle2.gif" style="margin:0px;border:0px;
+</td><td class="menus" style="width:163px;vertical-align:top;border:0px;" rowspan="2"><img src="<?php echo $file_root; ?>/images/tentacle2.gif" style="margin:0px;border:0px;
 	vertical-align:bottom" alt="" width="150" height="63"></td>
 </tr><tr>
 <td colspan="2">
 <table width="100%" cellspacing="0" style="padding:0px;">
 <tr>
-<td width="12" style="height:5px;line-height:5px;width:12px;"><img alt="" src="<?=$file_root?>/images/content-left-bottom.gif" height="12" width="12"></td>
+<td width="12" style="height:5px;line-height:5px;width:12px;"><img alt="" src="<?php echo $file_root; ?>/images/content-left-bottom.gif" height="12" width="12"></td>
    <td style="background:#fbf1ce;line-height:2px;">&nbsp;&nbsp;</td>
 </tr></table>
 </tr>
@@ -156,7 +156,7 @@ function html_page_footer() {
 					things are registered trademarks of <a href="http://www.lucasarts.com/">LucasArts, Inc.</a>. 
 					All other trademarks and registered trademarks are owned by their respective companies. ScummVM is 
 					not affiliated in any way with LucasArts, Inc.</td>
-					<td width="110"><img src="<?=$file_root?>/images/tentacle3.gif" alt="" width="116" height="74"></td>
+					<td width="110"><img src="<?php echo $file_root; ?>/images/tentacle3.gif" alt="" width="116" height="74"></td>
 					<td width="29">&nbsp;</td> 
 				</tr>
 			</table>

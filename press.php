@@ -131,7 +131,7 @@ href="http://web.archive.org/web/20040619081358/http://www.gamer-nation.co.uk/fe
 
     </div>
   </div>
-<?
+<?php
 
 html_content_end();
 html_page_footer();

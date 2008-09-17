@@ -1,4 +1,4 @@
-<?
+<?php
 
 $file_root = "../..";
 // load libs
@@ -934,7 +934,7 @@ All material &copy; 2000-2002 David Given, unless where stated otherwise.
   </div>
 </div>
 
-<?
+<?php
 
 // end of html
 html_content_end();

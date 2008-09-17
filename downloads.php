@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
  * Downloads Page for ScummVM
@@ -20,7 +20,7 @@ html_content_begin('Download ScummVM');
 ?>
   <div class="par-item">
     <div class="par-head">
-       Downloads for ScummVM <span style="color: #aaaaaa;">version <? echo $current_release; ?></span>
+       Downloads for ScummVM <span style="color: #aaaaaa;">version <?php echo $current_release; ?></span>
     </div>
 
     <div class="par-intro">
@@ -54,13 +54,13 @@ html_content_begin('Download ScummVM');
 <td>
 	  Downloads are mostly hosted with SourceForge.net. If you have one of the supported systems, you can directly
 	  download the appropriate binary distribution. If you have another system, download the source and read the
-	  <a href="http://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<? echo $current_release_tag; ?>/README">README</a>
+	  <a href="http://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<?php echo $current_release_tag; ?>/README">README</a>
 	  file for directions on how to build ScummVM.
 	  If you have successfully ported ScummVM to a platform not listed, please drop us a note, telling which OS, etc.
 	  you used.
 
 	<UL>
-		<LI>The latest STABLE release of ScummVM is <? echo $current_release; ?>, and can be downloaded below
+		<LI>The latest STABLE release of ScummVM is <?php echo $current_release; ?>, and can be downloaded below
 	under '<A HREF="#stable">Release Binaries</A>'. If you run Windows and are confused,
 	download the 'Windows Installer'</LI>
 
@@ -167,10 +167,10 @@ html_content_begin('Download ScummVM');
 
     <div class="par-subhead-content">
 	<table>
-	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-<? echo $current_release; ?>.tar.bz2?download">ScummVM - Source .tar.bz2</a> <font class='cat-count'>(5.7M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-<? echo $current_release; ?>.tar.gz?download">ScummVM - Source .tar.gz</a> <font class='cat-count'>(7.0M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-<? echo $current_release; ?>.zip?download">ScummVM - Source .zip</a> <font class='cat-count'>(8.7M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-<? echo $current_release; ?>-1.src.rpm?download">ScummVM - Source RPM</a> <font class='cat-count'>(6.4M RPM)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-<?php echo $current_release; ?>.tar.bz2?download">ScummVM - Source .tar.bz2</a> <font class='cat-count'>(5.7M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-<?php echo $current_release; ?>.tar.gz?download">ScummVM - Source .tar.gz</a> <font class='cat-count'>(7.0M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-<?php echo $current_release; ?>.zip?download">ScummVM - Source .zip</a> <font class='cat-count'>(8.7M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-<?php echo $current_release; ?>-1.src.rpm?download">ScummVM - Source RPM</a> <font class='cat-count'>(6.4M RPM)</font></td></tr>
 	</table>
 
 
@@ -265,7 +265,7 @@ html_content_begin('Download ScummVM');
     <div class="par-content">
 
 	<table>
-	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt="" width=24 height=24></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<? echo $current_release_tag; ?>/dists/engine-data/sky.cpt">Beneath a Steel Sky, SKY.CPT - required to run the game with a post-0.7.* ScummVM</a> <font class='cat-count'>(410k)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt="" width=24 height=24></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<?php echo $current_release_tag; ?>/dists/engine-data/sky.cpt">Beneath a Steel Sky, SKY.CPT - required to run the game with a post-0.7.* ScummVM</a> <font class='cat-count'>(410k)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/bass-cd-1.2.zip?download">Beneath a Steel Sky, Freeware CD Version</a> <font class='cat-count'>(67M)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/BASS-Floppy-1.3.zip?download">Beneath a Steel Sky, Freeware Floppy Version</a> <font class='cat-count'>(7.3M)</font></td></tr>
 
@@ -280,7 +280,7 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ_Heb_talkie.zip?download">Flight of the Amazon Queen, Freeware CD Version (<i>Hebrew</i> subtitles, English voices, ogg compressed sfx/speech)</a> <font class='cat-count'>(63.1M)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ_Floppy.zip?download">Flight of the Amazon Queen, Freeware Floppy Version</a> <font class='cat-count'>(6.7M)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://mikemth.de:1337/modules.php?name=Downloads&amp;d_op=getit&amp;lid=827">Flight of the Amazon Queen, Freeware Floppy Version</a> - <a href="http://www.mthN.de">hosted by Snoke Media and Tech Hosting Network</a> <font class='cat-count'>(6.7M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt="" width=24 height=24></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<? echo $current_release_tag; ?>/dists/engine-data/queen.tbl">Flight of the Amazon Queen, queen.tbl - required to run original versions of FOTAQ</a> <font class='cat-count'>(1.0M)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt="" width=24 height=24></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<?php echo $current_release_tag; ?>/dists/engine-data/queen.tbl">Flight of the Amazon Queen, queen.tbl - required to run original versions of FOTAQ</a> <font class='cat-count'>(1.0M)</font></td></tr>
 
 	  <tr><td></td><td>&nbsp;</td></tr>
 
@@ -289,14 +289,14 @@ html_content_begin('Download ScummVM');
 	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-de-1.1.zip?download">Lure of the Temptress, Freeware Version (German)</a> <font class='cat-count'>(3.5M)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-it-1.1.zip?download">Lure of the Temptress, Freeware Version (Italian)</a> <font class='cat-count'>(3.0M)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-es-1.1.zip?download">Lure of the Temptress, Freeware Version (Spanish)</a> <font class='cat-count'>(2.1M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt="" width=24 height=24></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<? echo $current_release_tag; ?>/dists/engine-data/lure.dat">Lure of the Temptress, lure.dat - required to run original versions of Lure of the Temptress</a> <font class='cat-count'>(623k) - Requires ScummVM <? echo $current_release; ?></font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt="" width=24 height=24></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<?php echo $current_release_tag; ?>/dists/engine-data/lure.dat">Lure of the Temptress, lure.dat - required to run original versions of Lure of the Temptress</a> <font class='cat-count'>(623k) - Requires ScummVM <?php echo $current_release; ?></font></td></tr>
 
 	  <tr><td></td><td>&nbsp;</td></tr>
 
 	  <tr><td class='cat-bullet'><img src='images/cat-drascula.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/drascula-1.0.zip?download">Drascula: The Vampire Strikes Back, Freeware Version (English)</a> <font class='cat-count'>(31.3M)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-drascula.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/drascula-audio-1.0.zip?download">Drascula: The Vampire Strikes Back, Freeware Version (Music AddOn, OGG format)</a> <font class='cat-count'>(34.4M)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/cat-drascula.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/drascula-int-1.0.zip?download">Drascula: The Vampire Strikes Back, Freeware Version (Spanish, German, French and Italian AddOn)</a> <font class='cat-count'>(33.2M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-drascula.png' alt="" width=24 height=24></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<? echo $current_release_tag; ?>/dists/engine-data/drascula.dat">Drascula: The Vampire Strikes Back, DRASCULA.DAT - required for all versions of the game</a> <font class='cat-count'>(211k) - Requires ScummVM <? echo $current_release; ?></font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-drascula.png' alt="" width=24 height=24></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<?php echo $current_release_tag; ?>/dists/engine-data/drascula.dat">Drascula: The Vampire Strikes Back, DRASCULA.DAT - required for all versions of the game</a> <font class='cat-count'>(211k) - Requires ScummVM <?php echo $current_release; ?></font></td></tr>
 
 	  <tr><td></td><td>&nbsp;</td></tr>
 
@@ -322,7 +322,7 @@ html_content_begin('Download ScummVM');
 
 	  <tr><td></td><td>&nbsp;</td></tr>
 
-	  <tr><td class='cat-bullet'><img src='images/cat-kyra.png' alt="" width=24 height=24></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<? echo $current_release_tag; ?>/dists/engine-data/kyra.dat">The Legend of Kyrandia, KYRA.DAT - required for all versions of the game</a> <font class='cat-count'>(182k)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/cat-kyra.png' alt="" width=24 height=24></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<?php echo $current_release_tag; ?>/dists/engine-data/kyra.dat">The Legend of Kyrandia, KYRA.DAT - required for all versions of the game</a> <font class='cat-count'>(182k)</font></td></tr>
 
 	</table>
 
@@ -356,8 +356,8 @@ html_content_begin('Download ScummVM');
 	</p>
 
 	<table>
-	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://scummvm.sourceforge.net/downloads/scummvm-win32.exe">Win32 ScummVM Daily Snapshot</a> <font class='cat-count'> (<? echo intval(filesize("downloads/scummvm-win32.exe")/1024) ?>K exe file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummvm-win32.exe")); ?>)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://scummvm.sourceforge.net/downloads/scummvm-tools-win32.exe">Win32 ScummVM Tools Daily Snapshot</a> <font class='cat-count'> (<? echo intval(filesize("downloads/scummvm-tools-win32.exe")/1024) ?>K exe file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummvm-tools-win32.exe")); ?>)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://scummvm.sourceforge.net/downloads/scummvm-win32.exe">Win32 ScummVM Daily Snapshot</a> <font class='cat-count'> (<?php echo intval(filesize("downloads/scummvm-win32.exe")/1024) ?>K exe file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/scummvm-win32.exe")); ?>)</font></td></tr>
+	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://scummvm.sourceforge.net/downloads/scummvm-tools-win32.exe">Win32 ScummVM Tools Daily Snapshot</a> <font class='cat-count'> (<?php echo intval(filesize("downloads/scummvm-tools-win32.exe")/1024) ?>K exe file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/scummvm-tools-win32.exe")); ?>)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-macos.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://worldsmainorganization.org/scummvm/">Mac OS X Snapshots</a> <font class='cat-count'> (infrequently from Subversion trunk)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-gp2x.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://www.distant-earth.com/scummvm/">GP2X Builds</a> <font class='cat-count'> (infrequent builds from Subversion trunk)</font></td></tr>
 	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://arisme.free.fr/PocketScumm/daily/">Old PocketPC Builds</a> <font class='cat-count'> (infrequent snapshots of the PocketPC binaries)</font></td></tr>
@@ -396,7 +396,7 @@ html_content_begin('Download ScummVM');
 	</ul>
     </div>
   </div>
-<?
+<?php
 
 html_content_end();
 html_page_footer();

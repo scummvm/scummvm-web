@@ -251,7 +251,7 @@ GUI frontends for ScummVM.
   </div>
 
 </div>		
-<?
+<?php
 
 html_content_end();
 html_page_footer();

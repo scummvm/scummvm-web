@@ -49,8 +49,8 @@ if ($view and file_exists($file_root."/docs/".$view.".xml")) {
   <br>
   <br>
 
-  <a href='http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/tags/<? echo $current_release_tag; ?>/README?view=markup'>README <? echo $current_release; ?></a><br>
-  The ScummVM README, for version <? echo $current_release; ?><br><br>
+  <a href='http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/tags/<?php echo $current_release_tag; ?>/README?view=markup'>README <?php echo $current_release; ?></a><br>
+  The ScummVM README, for version <?php echo $current_release; ?><br><br>
 
   <a href='http://wiki.scummvm.org/index.php/Documentation'>Documentation on Wiki</a><br>
     Assorted documentation on our Wiki, several important HOWTO's<br><br>

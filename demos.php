@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
  * Links to Demo downloads
@@ -58,7 +58,7 @@ html_content_begin('Game Demos');
 
   <div class="par-content">
 
-<?
+<?php
 
 $LEC_demos = array(
 	'Day of the Tentacle (DOS demo - Non interactive)'

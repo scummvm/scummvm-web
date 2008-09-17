@@ -22,7 +22,7 @@ html_content_begin('FAQ :: Frequently Asked Questions');
        FAQ
     </div>
     <div class="par-content">
-    <div class="news-author">last updated: <? echo date("F d, Y",filemtime("faq.inc")); ?></div>
+    <div class="news-author">last updated: <?php echo date("F d, Y",filemtime("faq.inc")); ?></div>
 <?php
 include $file_root."/faq.inc";
 

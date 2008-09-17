@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
  * Downloads Page for ScummVM
@@ -101,7 +101,7 @@ html_content_begin('Website Revamp contest poll');
   </div>
 </div>
 
-<?
+<?php
 
 html_content_end();
 html_page_footer();

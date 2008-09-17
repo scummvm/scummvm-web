@@ -33,7 +33,7 @@ function addEntry($description, $platform, $language, $md5, $source = "") {
 	differs from the values listed here, please drop us a note so we can update
 	the table. Email us at <em>scummvm-devel AT lists DOT sourceforge DOT net</em>.</p>
 
-	<p>Note: If a game appears here, this does <b>not</b> imply that it is officially supported by ScummVM or even playable. If you want to find out whether a game is supported, please consult the <a href="<?=$file_root?>/compatibility.php">compatibility page</a>.
+	<p>Note: If a game appears here, this does <b>not</b> imply that it is officially supported by ScummVM or even playable. If you want to find out whether a game is supported, please consult the <a href="<?php echo $file_root; ?>/compatibility.php">compatibility page</a>.
 </p>
 <br>
 </div>

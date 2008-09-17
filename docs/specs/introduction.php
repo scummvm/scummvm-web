@@ -1,4 +1,4 @@
-<?
+<?php
 
 $file_root = "../..";
 // load libs
@@ -174,7 +174,7 @@ Fandango</EM>.
 
 <p>The full list of games and versions follows.
 
-<?
+<?php
 
 $games = array(
 		'Maniac Mansion (c64)'                                  => array('1'),
@@ -267,7 +267,7 @@ All material &copy; 2000-2002 David Given, unless where stated otherwise.
   </div>
 </div>
 
-<?
+<?php
 html_content_end();
 html_page_footer();
 ?>

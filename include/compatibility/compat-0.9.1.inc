@@ -1,4 +1,4 @@
-<?
+<?php
 
 // This array defines the games and their ratings, etc.
 $gamesLucas = array(

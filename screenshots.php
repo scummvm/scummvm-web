@@ -32,9 +32,9 @@ if (preg_match("/^(\d+)_(\d+)_(\d+)\$/", $screenshotID)) {
 	$path = screenshot_path($screenshotID);
 ?>
 	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
-	<html><head><title>Screenshot: <?=$caption?></title><link rel="stylesheet" href="style.css" type="text/css"></head>
+	<html><head><title>Screenshot: <?php echo $caption; ?></title><link rel="stylesheet" href="style.css" type="text/css"></head>
 	<body onClick="javascript:self.close();" style="margin:0px;text-align:center;">
-	<img src="<?=$path?>">
+	<img src="<?php echo $path; ?>">
 	</body>
 	</html>
 <?php
@@ -76,8 +76,8 @@ if ($cat1 == "") {
 </td><td style="width:300px; vertical-align:center; align:left">
 
 <table border=0 align="left" cellspacing=0>
-<tr><td width=280 height=37 colspan=4><img src="<?=$file_root?>/images/rs-top.png" alt=""></td></tr>
-<tr><td width=17 height=10 colspan=2><img src="<?=$file_root?>/images/rs-top-left.png" alt=""></td><td rowspan=2 width=256 height=192>
+<tr><td width=280 height=37 colspan=4><img src="<?php echo $file_root; ?>/images/rs-top.png" alt=""></td></tr>
+<tr><td width=17 height=10 colspan=2><img src="<?php echo $file_root; ?>/images/rs-top-left.png" alt=""></td><td rowspan=2 width=256 height=192>
 <?php
   $image = $screenshots[$randImg];
   echo screenshot_previewer_link("'" . $image . "'", 
@@ -85,7 +85,7 @@ if ($cat1 == "") {
 ?>
 </td><td style="background:#a82709;" width=7 height=192 rowspan=2></td></tr>
 <tr><td width=10 height=182></td><td style="background:#a82709;" width=7></td></tr>
-<tr><td width=280 height=21 colspan=4><img src="<?=$file_root?>/images/rs-bottom.png" alt=""></td></tr>
+<tr><td width=280 height=21 colspan=4><img src="<?php echo $file_root; ?>/images/rs-bottom.png" alt=""></td></tr>
 </table>
 
 </td></tr>

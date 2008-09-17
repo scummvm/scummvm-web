@@ -7,7 +7,7 @@ class htmlmenu {
   <table class="menu" cellspacing="0">
   <tfoot>
     <tr>
-      <td><img src="<?=$file_root?>/images/menu-bottom.gif" alt="" width="145" height="13"></td>
+      <td><img src="<?php echo $file_root; ?>/images/menu-bottom.gif" alt="" width="145" height="13"></td>
     </tr>
 <?php
      if ($extra) {
@@ -15,7 +15,7 @@ class htmlmenu {
      }
 ?>
   </tfoot>
-  <tr class="<?=$style?>"><th><?=$name?></th></tr>
+  <tr class="<?php echo $style; ?>"><th><?php echo $name; ?></th></tr>
   <tbody><tr><td><ul>
 <?php
  }

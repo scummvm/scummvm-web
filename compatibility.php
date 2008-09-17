@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
  * ScummVM Compatibility Page
@@ -51,7 +51,7 @@ else {
 	  This page lists the progress of ScummVM as it relates to individual game compatibility.
 	  Please note this list applies to the English versions of games. We attempt to test many versions of games, however there are occasionally problems with other languages.<br><br>
 	  Click on the game name to view the complete notes of a game.<br><br>
-<?
+<?php
 
 // Get the available versions of compatibility information
 $versions = array();
@@ -76,8 +76,7 @@ if ($version == "SVN") {
 ?>
 	  This is the compatibility of the current WIP SVN version, <B>not of a stable release</B>
 	  (Please see one of the following for the Compatibility charts of the stable releases:
-<?
-
+<?php
 foreach ($versions as $ver)
 	echo " <a href=\"compatibility.php?version=".$ver."\">".$ver."</a>";
 
@@ -85,13 +84,13 @@ foreach ($versions as $ver)
 	  As this is the status of the Work In Progress version, occasional temporary bugs
 	  may be introduced with new changes, thus this list refects the 'best case' scenario. 
 	  It is highly recommended to use the latest stable release, where possible.
-<?
+<?php
 } else {
 ?>
-	  Also, this is the compatibility of the <? echo $version; ?> stable release, <B>not
+	  Also, this is the compatibility of the <?php echo $version; ?> stable release, <B>not
 	  of SVN snapshots/daily builds</B>. The status of these can be found on the <a href="compatibility.php">SVN Compatibility</A> chart.<br>
 	  You can also see the Compatibility chart for these releases:
-<?
+<?php
 
 foreach ($versions as $ver)
 	if ($ver != $version)
@@ -100,14 +99,14 @@ foreach ($versions as $ver)
 }
 ?>
 	  <br><br>
-	  <small>Last Updated: <? echo date("F d, Y",filemtime($file_root."/include/compatibility/compat-".$version.".inc")); ?></small>
+	  <small>Last Updated: <?php echo date("F d, Y",filemtime($file_root."/include/compatibility/compat-".$version.".inc")); ?></small>
 <br>
 <br>
     </div>
 <br>
     <div class="par-content">
 
-<?
+<?php
 	// Display the Color Key Table
 	echo html_frame_start("Color Key","85%",1,1,"color4");
 	$pcts = array(0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100);
