@@ -8,21 +8,21 @@ require($file_root."/include/"."scr-categories.php");
 
 $offset = $cat1 = $cat2 = $screenshotID = "";
 
-if (array_key_exists('offset', $HTTP_GET_VARS)) {
-  $offset = $HTTP_GET_VARS['offset'];
+if (array_key_exists('offset', $_GET)) {
+  $offset = $_GET['offset'];
 }
 
-if (array_key_exists('cat1', $HTTP_GET_VARS)) {
-  $cat1 = $HTTP_GET_VARS['cat1'];
+if (array_key_exists('cat1', $_GET)) {
+  $cat1 = $_GET['cat1'];
 }
 
-if (array_key_exists('cat2', $HTTP_GET_VARS)) {
-  $cat2 = $HTTP_GET_VARS['cat2'];
+if (array_key_exists('cat2', $_GET)) {
+  $cat2 = $_GET['cat2'];
 }
 
 // TODO: Replace screenshotID by cat3 field (this will require changes to the JavaScript code)
-if (array_key_exists('screenshotID', $HTTP_GET_VARS)) {
-  $screenshotID = $HTTP_GET_VARS['screenshotID'];
+if (array_key_exists('screenshotID', $_GET)) {
+  $screenshotID = $_GET['screenshotID'];
 }
 
 // If a full screenshotID was provided, ignore all other params and display the corresponding page

@@ -8,8 +8,8 @@ require($file_root."/include/"."news.php");
 
 html_page_header('ScummVM :: Home', array("index.css"));
 
-if (array_key_exists('shownews', $HTTP_GET_VARS)) {
-  $shownews = $HTTP_GET_VARS['shownews'];
+if (array_key_exists('shownews', $_GET)) {
+  $shownews = $_GET['shownews'];
 } else {
   $shownews = 0;
 }

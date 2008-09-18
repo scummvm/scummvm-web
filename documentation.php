@@ -19,7 +19,7 @@ html_content_begin('ScummVM Documentation');
 
 echo '<div class="par-item">';
 
-$view = $HTTP_GET_VARS['view'];
+$view = $_GET['view'];
 
 if ($view and file_exists($file_root."/docs/".$view.".xml")) {
   echo  '  <div class="par-head">';
