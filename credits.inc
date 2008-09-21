@@ -174,7 +174,6 @@
 </table>
 <span style='font-weight: bold'>PlayStation 2:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
-<tr><td style='width:13em; padding:2px;'>Robert G&ouml;ffringmann</td><td style='width:10em; text-align: left;' class='news-author'>lavosspawn</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Max Lingua</td><td style='width:10em; text-align: left;' class='news-author'>sunmax</td><td></td>
 </table>
 <span style='font-weight: bold'>PSP (PlayStation Portable):</span>
@@ -239,10 +238,13 @@
 <tr><td style='width:13em; padding:2px;'>Nicolas Bacca</td><td style='width:10em; text-align: left;' class='news-author'>arisme</td><td>Former WinCE porter</td>
 <tr><td style='width:13em; padding:2px;'>Ralph Brorsen</td><td style='width:10em; text-align: left;' class='news-author'>painelf</td><td>Help with GUI implementation</td>
 <tr><td style='width:13em; padding:2px;'>Jamieson Christian</td><td style='width:10em; text-align: left;' class='news-author'>jamieson630</td><td>iMUSE, MIDI, all things musical</td>
+<tr><td style='width:13em; padding:2px;'>Hans-J&ouml;rg Frieden</td><td></td><td>Former AmigaOS 4 packager</td>
+<tr><td style='width:13em; padding:2px;'>Robert G&ouml;ffringmann</td><td style='width:10em; text-align: left;' class='news-author'>lavosspawn</td><td>Original PS2 porter</td>
 <tr><td style='width:13em; padding:2px;'>R&uuml;diger Hanke</td><td></td><td>Port: MorphOS</td>
 <tr><td style='width:13em; padding:2px;'>Felix Jakschitsch</td><td style='width:10em; text-align: left;' class='news-author'>yot</td><td>Zak256 reverse engineering</td>
 <tr><td style='width:13em; padding:2px;'>Mutwin Kraus</td><td style='width:10em; text-align: left;' class='news-author'>mutle</td><td>Original MacOS porter</td>
 <tr><td style='width:13em; padding:2px;'>Peter Moraliyski</td><td style='width:10em; text-align: left;' class='news-author'>ph0x</td><td>Port: GP32</td>
+<tr><td style='width:13em; padding:2px;'>Juha Niemim&auml;ki</td><td></td><td>Formaer AmigaOS 4 packager</td>
 <tr><td style='width:13em; padding:2px;'>Jeremy Newman</td><td style='width:10em; text-align: left;' class='news-author'>laxdragon</td><td>Former webmaster</td>
 <tr><td style='width:13em; padding:2px;'>Lionel Ulmer</td><td style='width:10em; text-align: left;' class='news-author'>bbrox</td><td>Port: X11</td>
 <tr><td style='width:13em; padding:2px;'>Won Star</td><td style='width:10em; text-align: left;' class='news-author'>wonst719</td><td>Former GP32 porter</td>
@@ -255,9 +257,7 @@
 <div class='par-subhead-content'>
 <span style='font-weight: bold'>AmigaOS 4:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
-<tr><td style='width:13em; padding:2px;'>Hans-J&ouml;rg Frieden</td><td></td><td></td>
 <tr><td style='width:13em; padding:2px;'>Hubert Maier</td><td style='width:10em; text-align: left;' class='news-author'>Raziel_AOne</td><td></td>
-<tr><td style='width:13em; padding:2px;'>Juha Niemim&auml;ki</td><td></td><td></td>
 </table>
 <span style='font-weight: bold'>Atari/FreeMiNT:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
@@ -334,6 +334,7 @@
 <tr><td style='width:13em; padding:2px;'>Stuart Caie</td><td></td><td>Decoders for Simon 1 Amiga data files</td>
 <tr><td style='width:13em; padding:2px;'>Paolo Costabel</td><td></td><td>PSP port contributions</td>
 <tr><td style='width:13em; padding:2px;'>Thierry Crozat</td><td style='width:10em; text-align: left;' class='news-author'>criezy</td><td>Support for Broken Sword 1 Macintosh version</td>
+<tr><td style='width:13em; padding:2px;'>Martin Doucha</td><td style='width:10em; text-align: left;' class='news-author'>next_ghost</td><td>CinE engine objectification</td>
 <tr><td style='width:13em; padding:2px;'>Thomas Fach-Pedersen</td><td style='width:10em; text-align: left;' class='news-author'>madmoose</td><td>ProTracker module player</td>
 <tr><td style='width:13em; padding:2px;'>Benjamin Haisch</td><td style='width:10em; text-align: left;' class='news-author'>john_doe</td><td>Heavily improved de-/encoder for DXA videos</td>
 <tr><td style='width:13em; padding:2px;'>Janne Huttunen</td><td></td><td>V3 actor mask support, Dig/FT SMUSH audio</td>
@@ -361,14 +362,17 @@
 <tr><td style='width:13em; padding:2px;'>Sander Buskens</td><td></td><td>For his work on the initial reversing of Monkey2</td>
 <tr><td style='width:13em; padding:2px;'>???</td><td style='width:10em; text-align: left;' class='news-author'>Canadacow</td><td>For the original MT-32 emulator</td>
 <tr><td style='width:13em; padding:2px;'>Kevin Carnes</td><td></td><td>For Scumm16, the basis of ScummVM's older gfx codecs</td>
+<tr><td style='width:13em; padding:2px;'>Curt Coder</td><td></td><td>For the original TrollVM (preAGI) code</td>
 <tr><td style='width:13em; padding:2px;'>Patrick Combet</td><td style='width:10em; text-align: left;' class='news-author'>Dorian Gray</td><td>For the original Gobliiins ADL player</td>
 <tr><td style='width:13em; padding:2px;'>Ivan Dubrov</td><td></td><td>For contributing the initial version of the Gobliiins engine</td>
+<tr><td style='width:13em; padding:2px;'>Till Kresslein</td><td style='width:10em; text-align: left;' class='news-author'>Krest</td><td>For design of modern ScummVM GUI</td>
 <tr><td style='width:13em; padding:2px;'>???</td><td style='width:10em; text-align: left;' class='news-author'>Jezar</td><td>For his freeverb filter implementation</td>
 <tr><td style='width:13em; padding:2px;'>Jim Leiterman</td><td></td><td>Various info on his FM-TOWNS/Marty SCUMM ports</td>
 <tr><td style='width:13em; padding:2px;'>???</td><td style='width:10em; text-align: left;' class='news-author'>lloyd</td><td>For deep tech details about C64 Zak &amp; MM</td>
 <tr><td style='width:13em; padding:2px;'>Sarien Team</td><td></td><td>Original AGI engine code</td>
 <tr><td style='width:13em; padding:2px;'>Jimmi Th&oslash;gersen</td><td></td><td>For ScummRev, and much obscure code/documentation</td>
 <tr><td style='width:13em; padding:2px;'>???</td><td style='width:10em; text-align: left;' class='news-author'>Tristan</td><td>For additional work on the original MT-32 emulator</td>
+<tr><td style='width:13em; padding:2px;'>James Woodcock</td><td></td><td>Soundtrack enhancements</td>
 </table>
 <p style='margin-left:2em; margin-bottom: 1em'>Tony Warriner and everyone at Revolution Software Ltd. for sharing with us the source of some of their brilliant games, allowing us to release Beneath a Steel Sky as freeware... and generally being supportive above and beyond the call of duty.</p>
 <p style='margin-left:2em; margin-bottom: 1em'>John Passfield and Steve Stamatiadis for sharing the source of their classic title, Flight of the Amazon Queen and also being incredibly supportive.</p>
