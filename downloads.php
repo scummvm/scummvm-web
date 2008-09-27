@@ -13,11 +13,34 @@ $file_root = ".";
 require($file_root."/include/"."incl.php");
 
 // start of html
-html_page_header('ScummVM :: Downloads');
+html_page_header('ScummVM :: Downloads', array("downloads.css"));
 
 html_content_begin('Download ScummVM');
 
+/*
+ * Some extra tools
+ */
+function startDownloadList() {
+	echo " <ul class='download-list'>";
+}
+
+function endDownloadList() {
+	echo "</ul>";
+}
+
+function addDownloadSeparator() {
+	echo "<li>&nbsp;</li>";
+}
+
+function addDownload($image, $linkText, $desc, $url) {
+	echo "<li>";
+	echo "<img src='images/$image.png' alt='' width=24 height=24 style='vertical-align: middle;' >";
+	echo " <a href='$url'>$linkText</a>";
+	echo " <span class='download-extras'>$desc</span></li>";
+}
+
 ?>
+
   <div class="par-item">
     <div class="par-head">
        Downloads for ScummVM <span style="color: #aaaaaa;">version <?php echo $current_release; ?></span>
@@ -88,91 +111,99 @@ html_content_begin('Download ScummVM');
 	0.12.0 is also apt-get'able from Debian unstable (sid).
 	</p>
 
-<!-- ' Relax XEmacs syntax highlighting -->
+<?php
+	startDownloadList();
+	
+	addDownload("catpl-windows", "<b>Windows Installer</b>", "(2.7M Win32 .exe)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-win32.exe?download");
 
-	<table>
+	addDownload("catpl-windows", "Windows zipfile", "(3.9M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-win32.zip?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-win32.exe?download"><b>Windows Installer</b></a> <font class='cat-count'>(2.7M Win32 .exe)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-win32.zip?download">Windows zipfile</a> <font class='cat-count'>(3.9M zipfile)</font></td></tr>
+	addDownload("catpl-fedora", "Fedora 7, 8 and 9 i386 package", "(4.2M RPM)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-1_F8.i386.rpm?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-1_F8.i386.rpm?download">Fedora 7, 8 and 9 i386 package</a> <font class='cat-count'>(4.2M RPM)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-1_F8.x86_64.rpm?download">Fedora 7, 8 and 9 x86 64bit package</a> <font class='cat-count'>(4.0M RPM)</font></td></tr>
+	addDownload("catpl-fedora", "Fedora 7, 8 and 9 x86 64bit package", "(4.0M RPM)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-1_F8.x86_64.rpm?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-debian.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.12.0-0.etch.1_i386.deb?download">Debian 4.0 (etch) package</a> <font class='cat-count'>(2.7M .deb)</font></td></tr>
+	addDownload("catpl-debian", "Debian 4.0 (etch) package", "(2.7M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_0.12.0-0.etch.1_i386.deb?download");
+	
+	addDownload("catpl-slackware", "SlackWare package", "(3.3M .tgz)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0_slack-i486-1.tgz?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-slackware.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0_slack-i486-1.tgz?download">SlackWare package</a> <font class='cat-count'>(3.3M .tgz)</font></td></tr>
+/*
+	addDownload("catpl-mandriva", "Mandriva 2006 package", "(1.3M RPM)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-1mdk.i586.rpm?download");
+*/
+	
+	addDownload("catpl-macos-universal", "Mac OS X Universal Disk Image", "(7.3M disk image)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-macosx.dmg?download");
 
-<!--
-	  <tr><td class='cat-bullet'><img src='images/catpl-mandriva.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-1mdk.i586.rpm?download">Mandriva 2006 package</a> <font class='cat-count'>(1.3M RPM)</font></td></tr>
--->
+		addDownload("catpl-ps2", "PlayStation2 package", "(4.5M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-ps2.zip?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-macos-universal.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-macosx.dmg?download">Mac OS X Universal Disk Image</a> <font class='cat-count'>(7.3M disk image)</font></td></tr>
+		addDownload("catpl-psp", "PSP (PlayStation Portable) package", "(7.0M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-psp.zip?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-ps2.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-ps2.zip?download">PlayStation2 package</a> <font class='cat-count'>(4.5M .zip)</font></td></tr>
+/*
+		addDownload("catpl-ds", "Nintendo DS package", "(7.3M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-ds.zip?download");
+*/
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-psp.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-psp.zip?download">PSP (PlayStation Portable) package</a> <font class='cat-count'>(7.0M .zip)</font></td></tr>
+		addDownload("catpl-symbian", "Symbian S60 version 3 binary", "(3.6M .sis)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-s60-v3.sis?download");
+		addDownload("catpl-uiq", "Symbian UIQ 3 binary", "(3.6M .sis)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-uiq3.sis?download");
 
-<!--
-	  <tr><td class='cat-bullet'><img src='images/catpl-ds.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-ds.zip?download">Nintendo DS package</a> <font class='cat-count'>(7.3M .zip)</font></td></tr>
--->
+/*
+		addDownload("catpl-palmos", "PalmOS 5 binary", "(7.8M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-palmos-os5.zip?download");
+		addDownload("catpl-palmos", "PalmOS Tapwave Zodiac binary", "(8.0M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-palmos-zodiac.zip?download");
+*/
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-s60-v3.sis?download">Symbian S60 version 3 binary</a> <font class='cat-count'>(3.6M .sis)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-uiq.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-uiq3.sis?download">Symbian UIQ 3 binary</a> <font class='cat-count'>(3.6M .sis)</font></td></tr>
+		addDownload("catpl-wince", "Windows CE ARM package", "(4.7M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-WinCE.zip?download");
 
-<!--
-	  <tr><td class='cat-bullet'><img src='images/catpl-palmos.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-palmos-os5.zip?download">PalmOS 5 binary</a> <font class='cat-count'>(7.8M zipfile)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-palmos.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-palmos-zodiac.zip?download">PalmOS Tapwave Zodiac binary</a> <font class='cat-count'>(8.0M zipfile)</font></td></tr>
--->
+		addDownload("catpl-iphone", "iPhone package", "(5.2M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-iphone.deb?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-WinCE.zip?download">Windows CE ARM package</a> <font class='cat-count'>(4.7M zipfile)</font></td></tr>
+/*
+		addDownload("catpl-opie", "Opie SDL package <b>Only</b> for iPAQ h1910/h1915 and MyPal 716", "(3.6M .ipk)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-opie_arm.ipk?download");
+*/
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-iphone.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-iphone.deb?download">iPhone package</a> <font class='cat-count'>(5.2M .deb)</font></td></tr>
+		addDownload("catpl-maemo", "Maemo package (OS 2006, 2007 and 2008)", "(2.8M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_0.12.0_armel.deb?download");
+		addDownload("catpl-maemo", "Maemo single click install package for N770/OS2006", "(Most recent version from Maemo Extras repository)", "http://downloads.maemo.org/product/OS2006/scummvm/");
+		addDownload("catpl-maemo", "Maemo single click install package for N800/OS2007", "(Most recent version from Maemo Extras repository)", "http://downloads.maemo.org/product/OS2007/scummvm/");
+		addDownload("catpl-maemo", "Maemo single click install package for N8x0/OS2008", "(Most recent version from Maemo Extras repository)", "http://downloads.maemo.org/product/OS2008/scummvm/");
 
-<!--
-	  <tr><td class='cat-bullet'><img src='images/catpl-opie.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-opie_arm.ipk?download">Opie SDL package<b> Only </b>for iPAQ h1910/h1915 and MyPal 716</a> <font class='cat-count'>(3.6M .ipk)</font></td></tr>
--->
+		addDownload("catpl-dc", "Dreamcast plain files", "(6.4M .tar.bz2)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-dreamcast-plainfiles.tar.bz2?download");
+		addDownload("catpl-dc", "Dreamcast Nero Image &amp; Demos", "(11.7M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-dreamcast-nero+demos.zip?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-maemo.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.12.0_armel.deb?download">Maemo package (OS 2006, 2007 and 2008)</a> <font class='cat-count'>(2.8M .deb)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-maemo.png' alt="" width=24 height=24></td><td class='cat-link'>Most recent version is available from Maemo Extras repository. For 
-    single click install use Maemo Downloads: [<a href="http://downloads.maemo.org/product/OS2006/scummvm/">Nokia 770/OS2006</a>] [<a href="http://downloads.maemo.org/product/OS2007/scummvm/">N800/OS2007</a>] 
-[<a href="http://downloads.maemo.org/product/OS2008/scummvm/">N8x0/OS2008</a>]</td></tr>
+		addDownload("catpl-gc", "Nintendo GameCube package", "(3.7M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-gamecube.zip?download");
+		addDownload("catpl-wii", "Wii package", "(3.8M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-wii.zip?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-dc.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-dreamcast-plainfiles.tar.bz2?download">Dreamcast plain files</a> <font class='cat-count'>(6.4M .tar.bz2)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-dc.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-dreamcast-nero+demos.zip?download">Dreamcast Nero Image &amp; Demos</a> <font class='cat-count'>(11.7M .zip)</font></td></tr>
+		addDownload("catpl-gp2x", "GP2X package", "(4.3M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-gp2x.zip?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-gc.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-gamecube.zip?download">Nintendo GameCube package</a> <font class='cat-count'>(3.7M .zip)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-wii.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-wii.zip?download">Wii package</a> <font class='cat-count'>(3.8M .zip)</font></td></tr>
+		addDownload("catpl-solaris", "Solaris 8 and up (Sparc) binary", "(4.4M .tar.bz2)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-solaris8-sparc.tar.bz2?download");	
+		addDownload("catpl-solaris", "Solaris 10 (both IA32 and AMD64) binary", "(10.2M .pkg.bz2)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-solaris10-x86.pkg.bz2?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-gp2x.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-gp2x.zip?download">GP2X package</a> <font class='cat-count'>(4.3M .zip)</font></td></tr>
+		addDownload("catpl-beos", "BeOS package", "(4.4M pkg)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-beos.tar.gz?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-solaris8-sparc.tar.bz2?download">Solaris 8 and up (Sparc) binary</a> <font class='cat-count'>(4.4M .tar.bz2)</font></td></tr>	
-  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-solaris10-x86.pkg.bz2?download">Solaris 10 (both IA32 and AMD64) binary</a> <font class='cat-count'>(10.2M .pkg.bz2)</font></td></tr>
+		addDownload("catpl-amiga", "AmigaOS 4 package", "(6.6M .lha)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-amigaos4.lha?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-beos.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-beos.tar.gz?download">BeOS package</a> <font class='cat-count'>(4.4M pkg)</font></td></tr>
+/*
+		addDownload("catpl-morphos", "MorphOS package", "(4.2M .lha)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.0-morphos.lha?download");
+*/
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-amiga.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-amigaos4.lha?download">AmigaOS 4 package</a> <font class='cat-count'>(6.6M .lha)</font></td></tr>
-<!--
+		addDownload("catpl-freemint", "Atari/FreeMiNT package (68020 and up)", "(3.9M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-atari.zip?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-morphos.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.0-morphos.lha?download">MorphOS package</a> <font class='cat-count'>(4.2M .lha)</font></td></tr>
+		addDownload("catpl-os2", "OS/2 package", "(4.9M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-os2.zip?download");
 
--->
-	  <tr><td class='cat-bullet'><img src='images/catpl-freemint.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-atari.zip?download">Atari/FreeMiNT package (68020 and up)</a> <font class='cat-count'>(3.9M .zip)</font></td></tr>
+	endDownloadList();
+?>
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-os2.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-os2.zip?download">OS/2 package</a> <font class='cat-count'>(4.9M .zip)</font></td></tr>
-	</table>
     </div>
 
     <a name="source"></a>
     <?php html_subhead_start($current_release . " Source Code"); ?>
 
     <div class="par-subhead-content">
-	<table>
-	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-<?php echo $current_release; ?>.tar.bz2?download">ScummVM - Source .tar.bz2</a> <font class='cat-count'>(5.7M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-<?php echo $current_release; ?>.tar.gz?download">ScummVM - Source .tar.gz</a> <font class='cat-count'>(7.0M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-<?php echo $current_release; ?>.zip?download">ScummVM - Source .zip</a> <font class='cat-count'>(8.7M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-<?php echo $current_release; ?>-1.src.rpm?download">ScummVM - Source RPM</a> <font class='cat-count'>(6.4M RPM)</font></td></tr>
-	</table>
 
+<?php
+	startDownloadList();
+	
+		addDownload("catpl-cpp", "ScummVM - Source .tar.bz2", "(5.7M)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release.tar.bz2?download");
+		addDownload("catpl-cpp", "ScummVM - Source .tar.gz", "(7.0M)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release.tar.gz?download");
+		addDownload("catpl-cpp", "ScummVM - Source .zip", "(8.7M)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release.zip?download");
+		addDownload("catpl-cpp", "ScummVM - Source RPM", "(6.4M RPM)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-1.src.rpm?download");
+
+	endDownloadList();
+?>
 
     </div>
 
@@ -181,27 +212,31 @@ html_content_begin('Download ScummVM');
 
     <div class="par-subhead-content">
 
-	<table>
-	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-win32.exe?download">Tools - Windows Installer</a> <font class='cat-count'>(916k Win32 .exe)</font></td></tr>
-    <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-win32.zip?download">Tools - Windows zipfile</a> <font class='cat-count'>(3,4M Win32 .zip)</font></td></tr>
+<?php
+	startDownloadList();
+	
+		addDownload("catpl-windows", "Tools - Windows Installer", "(916k Win32 .exe)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-win32.exe?download");
+		addDownload("catpl-windows", "Tools - Windows zipfile", "(3,4M Win32 .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-win32.zip?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-1_F8.i386.rpm?download">Tools - Fedora 7, 8 and 9 i386 RPM</a> <font class='cat-count'>(245k .rpm)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-1_F8.x86_64.rpm?download">Tools - Fedora 7, 8 and 9 x86 64bit RPM</a> <font class='cat-count'>(278k .rpm)</font></td></tr>
+		addDownload("catpl-fedora", "Tools - Fedora 7, 8 and 9 i386 RPM", "(245k .rpm)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-1_F8.i386.rpm?download");
+		addDownload("catpl-fedora", "Tools - Fedora 7, 8 and 9 x86 64bit RPM", "(278k .rpm)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-1_F8.x86_64.rpm?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-macos-universal.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-macosx.tar.bz2?download">Tools - Mac OS X Universal binaries (10.3.9 and up)</a> <font class='cat-count'>(9.0M .tar.bz2)</font></td></tr>
+		addDownload("catpl-macos-universal", "Tools - Mac OS X Universal binaries (10.3.9 and up)", "(9.0M .tar.bz2)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-macosx.tar.bz2?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-solaris8-sparc.tar.bz2?download">Tools - Solaris 8 (Sparc)</a> <font class='cat-count'>(148k .tar.bz2)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-solaris.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-solaris10-x86.pkg.bz2?download">Tools - Solaris 10 (both IA32 and AMD64)</a> <font class='cat-count'>(4.8M .pkg.bz2)</font></td></tr>
+		addDownload("catpl-solaris", "Tools - Solaris 8 (Sparc)", "(148k .tar.bz2)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-solaris8-sparc.tar.bz2?download");
+		addDownload("catpl-solaris", "Tools - Solaris 10 (both IA32 and AMD64)", "(4.8M .pkg.bz2)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-solaris10-x86.pkg.bz2?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-amiga.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-amigaos4.lha?download">Tools - AmigaOS 4</a> <font class='cat-count'>(7.7M .lha)</font></td></tr>
+		addDownload("catpl-amiga", "Tools - AmigaOS 4", "(7.7M .lha)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-amigaos4.lha?download");
 
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0.tar.bz2?download">Tools - Source .tar.bz2</a> <font class='cat-count'>(178k .tar.bz2)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0.tar.gz?download">Tools - Source .tar.gz</a> <font class='cat-count'>(215k .tar.gz)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0.zip?download">Tools - Source .zip</a> <font class='cat-count'>(325k .zip)</font></td></tr>
+		addDownload("catpl-cpp", "Tools - Source .tar.bz2", "(178k .tar.bz2)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0.tar.bz2?download");
+		addDownload("catpl-cpp", "Tools - Source .tar.gz", "(215k .tar.gz)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0.tar.gz?download");
+		addDownload("catpl-cpp", "Tools - Source .zip", "(325k .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0.zip?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-1.src.rpm?download">Tools - Source RPM</a> <font class='cat-count'>(181k .rpm)</font></td></tr>
-	</table>
+		addDownload("catpl-cpp", "Tools - Source RPM", "(181k .rpm)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-1.src.rpm?download");
+
+	endDownloadList();
+?>
 
     </div>
    </div>
@@ -218,40 +253,43 @@ html_content_begin('Download ScummVM');
 		and/or the ScummVM tools for some platforms. In these cases, we still
 		have older versions around, for your convenience.
 	</p>
-	<table>
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-ds.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-ds.zip?download">0.11.1 Nintendo DS package</a> <font class='cat-count'>(7.3M .zip)</font></td></tr>
+<?php
+	startDownloadList();
+	
+		addDownload("catpl-ds", "0.11.1 Nintendo DS package", "(7.3M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-ds.zip?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-palmos.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-palmos-os5.zip?download">0.11.1 PalmOS 5 binary</a> <font class='cat-count'>(7.8M zipfile)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-palmos.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-palmos-zodiac.zip?download">0.11.1 PalmOS Tapwave Zodiac binary</a> <font class='cat-count'>(8.0M zipfile)</font></td></tr>
+		addDownload("catpl-palmos", "0.11.1 PalmOS 5 binary", "(7.8M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-palmos-os5.zip?download");
+		addDownload("catpl-palmos", "0.11.1 PalmOS Tapwave Zodiac binary", "(8.0M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-palmos-zodiac.zip?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-opie.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-opie_arm.ipk?download">0.11.1 Opie SDL package<b> Only </b>for iPAQ h1910/h1915 and MyPal 716</a> <font class='cat-count'>(3.6M .ipk)</font></td></tr>
+		addDownload("catpl-opie", "0.11.1 Opie SDL package <b>Only</b> for iPAQ h1910/h1915 and MyPal 716", "(3.6M .ipk)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-opie_arm.ipk?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-morphos.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.0-morphos.lha?download">0.11.0 MorphOS package</a> <font class='cat-count'>(4.2M .lha)</font></td></tr>
+		addDownload("catpl-morphos", "0.11.0 MorphOS package", "(4.2M .lha)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.0-morphos.lha?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.10.0-1_FC5.i386.rpm?download">0.10.0 Fedora Core 5 and 6 package</a> <font class='cat-count'>(2.8M RPM)</font></td></tr>
+		addDownload("catpl-fedora", "0.10.0 Fedora Core 5 and 6 package", "(2.8M RPM)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.10.0-1_FC5.i386.rpm?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-fedora.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-1_FC2.i386.rpm?download">0.9.1 Fedora Core 2 package</a> <font class='cat-count'>(1.6M RPM)</font></td></tr>
+		addDownload("catpl-fedora", "0.9.1 Fedora Core 2 package", "(1.6M RPM)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-1_FC2.i386.rpm?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-debian.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm_0.9.1-0.sarge.1_i386.deb?download">0.9.1 Debian 3.1 (sarge) package</a> <font class='cat-count'>(1.6M .deb)</font></td></tr>
+		addDownload("catpl-debian", "0.9.1 Debian 3.1 (sarge) package", "(1.6M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_0.9.1-0.sarge.1_i386.deb?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-s60-v1.sis?download">0.9.1 Symbian S60 version 1 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-s60-v2.sis?download">0.9.1 Symbian S60 version 2 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-s80.sis?download">0.9.1 Symbian S80 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-s90.sis?download">0.9.1 Symbian S90 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-uiq.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-uiq2.sis?download">0.9.1 Symbian UIQ 2 binary</a> <font class='cat-count'>(1.4M .sis)</font></td></tr>
+		addDownload("catpl-symbian", "0.9.1 Symbian S60 version 1 binary", "(1.4M .sis)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-s60-v1.sis?download");
+		addDownload("catpl-symbian", "0.9.1 Symbian S60 version 2 binary", "(1.4M .sis)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-s60-v2.sis?download");
+		addDownload("catpl-symbian", "0.9.1 Symbian S80 binary", "(1.4M .sis)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-s80.sis?download");
+		addDownload("catpl-symbian", "0.9.1 Symbian S90 binary", "(1.4M .sis)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-s90.sis?download");
+		addDownload("catpl-uiq", "0.9.1 Symbian UIQ 2 binary", "(1.4M .sis)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-uiq2.sis?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-win64.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-win64.zip?download">0.8.0 Windows 64 zipfile</a> <font class='cat-count'>(1.4M zipfile)</font></td></tr>
+		addDownload("catpl-win64", "0.8.0 Windows 64 zipfile", "(1.4M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-win64.zip?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-mandriva.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-1mdk.i586.rpm?download">0.8.0 Mandriva 2006 package</a> <font class='cat-count'>(1.3M RPM)</font></td></tr>
+		addDownload("catpl-mandriva", "0.8.0 Mandriva 2006 package", "(1.3M RPM)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-1mdk.i586.rpm?download");
 
-	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-PocketPC_MIPS.zip?download">0.7.1 PocketPC MIPS binary</a> <font class='cat-count'>(1.5M zipfile)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-PocketPC_SH3.zip?download">0.7.1 PocketPC SH3 binary</a> <font class='cat-count'>(1.4M zipfile)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-HandheldPC_ARM.zip?download">0.7.1 HandheldPC ARM binary</a> <font class='cat-count'>(1.3M zipfile)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-HandheldPC_MIPS.zip?download">0.7.1 HandheldPC MIPS binary</a> <font class='cat-count'>(1.5M zipfile)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-HandheldPC_SH3.zip?download">0.7.1 HandheldPC SH3 binary</a> <font class='cat-count'>(1.4M zipfile)</font></td></tr>
+		addDownload("catpl-wince", "0.7.1 PocketPC MIPS binary", "(1.5M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-PocketPC_MIPS.zip?download");
+		addDownload("catpl-wince", "0.7.1 PocketPC SH3 binary", "(1.4M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-PocketPC_SH3.zip?download");
+		addDownload("catpl-wince", "0.7.1 HandheldPC ARM binary", "(1.3M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-HandheldPC_ARM.zip?download");
+		addDownload("catpl-wince", "0.7.1 HandheldPC MIPS binary", "(1.5M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-HandheldPC_MIPS.zip?download");
+		addDownload("catpl-wince", "0.7.1 HandheldPC SH3 binary", "(1.4M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-HandheldPC_SH3.zip?download");
 
-	</table>
+	endDownloadList();
+?>
 
      </div>
   </div>
@@ -264,67 +302,71 @@ html_content_begin('Download ScummVM');
 
     <div class="par-content">
 
-	<table>
-	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt="" width=24 height=24></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<?php echo $current_release_tag; ?>/dists/engine-data/sky.cpt">Beneath a Steel Sky, SKY.CPT - required to run the game with a post-0.7.* ScummVM</a> <font class='cat-count'>(410k)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/bass-cd-1.2.zip?download">Beneath a Steel Sky, Freeware CD Version</a> <font class='cat-count'>(67M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-sky.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/BASS-Floppy-1.3.zip?download">Beneath a Steel Sky, Freeware Floppy Version</a> <font class='cat-count'>(7.3M)</font></td></tr>
+<?php
+	startDownloadList();
+	
+		addDownload("cat-sky", "Beneath a Steel Sky, SKY.CPT - required to run the game with a post-0.7.* ScummVM", "(410k)", "https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/$current_release_tag/dists/engine-data/sky.cpt");
+		addDownload("cat-sky", "Beneath a Steel Sky, Freeware CD Version", "(67M)", "http://prdownloads.sourceforge.net/scummvm/bass-cd-1.2.zip?download");
+		addDownload("cat-sky", "Beneath a Steel Sky, Freeware Floppy Version", "(7.3M)", "http://prdownloads.sourceforge.net/scummvm/BASS-Floppy-1.3.zip?download");
 
-	  <tr><td></td><td>&nbsp;</td></tr>
+		addDownloadSeparator();
 
-	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ_Talkie-1.1.zip?download">Flight of the Amazon Queen, Freeware CD Version (mp3 compressed sfx/speech)</a> <font class='cat-count'>(34.8M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://mikemth.de:1337/modules.php?name=Downloads&amp;d_op=getit&amp;lid=826">Flight of the Amazon Queen, Freeware CD Version (mp3 compressed sfx/speech)</a> - <a href="http://www.mthN.de">hosted by Snoke Media and Tech Hosting Network</a> <font class='cat-count'>(34.8M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt="" width=24 height=24></td><td class='cat-link'><a href="ftp://ftp.suse.com/pub/suse/i386/supplementary/X/FOTAQ/">Flight of the Amazon Queen, Freeware CD Version (ogg compressed sfx/speech)</a> <font class='cat-count'>(35.6M)</font></td></tr>
-	   <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt="" width=24 height=24></td><td class='cat-link'><a href="ftp://holarse-linuxgaming.de/clients/opensource/Flight-of-the-Amazon-Queen/fotaq-english-flac.tar.bz2">Flight of the Amazon Queen, Freeware CD Version (FLAC compressed sfx/speech)</a> - <a href="http://holarse.de/">hosted by Holarse</a> <font class='cat-count'>(82M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://www.lysator.liu.se/~zino/scummvm/queen/">Flight of the Amazon Queen, Freeware CD Version (unmodified original)</a> <font class='cat-count'>(87M) download this version if your ScummVM doesn't have mp3 support</font></td></tr>
-<!-- ' Relax XEmacs syntax highlighting -->
-	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ_Heb_talkie.zip?download">Flight of the Amazon Queen, Freeware CD Version (<i>Hebrew</i> subtitles, English voices, ogg compressed sfx/speech)</a> <font class='cat-count'>(63.1M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/FOTAQ_Floppy.zip?download">Flight of the Amazon Queen, Freeware Floppy Version</a> <font class='cat-count'>(6.7M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://mikemth.de:1337/modules.php?name=Downloads&amp;d_op=getit&amp;lid=827">Flight of the Amazon Queen, Freeware Floppy Version</a> - <a href="http://www.mthN.de">hosted by Snoke Media and Tech Hosting Network</a> <font class='cat-count'>(6.7M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-queen.png' alt="" width=24 height=24></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<?php echo $current_release_tag; ?>/dists/engine-data/queen.tbl">Flight of the Amazon Queen, queen.tbl - required to run original versions of FOTAQ</a> <font class='cat-count'>(1.0M)</font></td></tr>
+		addDownload("cat-queen", "Flight of the Amazon Queen, Freeware CD Version (mp3 compressed sfx/speech)", "(34.8M)", "http://prdownloads.sourceforge.net/scummvm/FOTAQ_Talkie-1.1.zip?download");
+		addDownload("cat-queen", "Flight of the Amazon Queen, Freeware CD Version (mp3 compressed sfx/speech)", "(34.8M) <a href='http://www.mthN.de'>hosted by Snoke Media and Tech Hosting Network</a>", "http://mikemth.de:1337/modules.php?name=Downloads&amp;d_op=getit&amp;lid=826");
+		addDownload("cat-queen", "Flight of the Amazon Queen, Freeware CD Version (ogg compressed sfx/speech)", "(35.6M)", "ftp://ftp.suse.com/pub/suse/i386/supplementary/X/FOTAQ/");
+		addDownload("cat-queen", "Flight of the Amazon Queen, Freeware CD Version (FLAC compressed sfx/speech)", "(82M) <a href='http://holarse.de'>hosted by Holarse</a>", "ftp://holarse-linuxgaming.de/clients/opensource/Flight-of-the-Amazon-Queen/fotaq-english-flac.tar.bz2");
+		addDownload("cat-queen", "Flight of the Amazon Queen, Freeware CD Version (unmodified original)", "(87M) download this version if your ScummVM doesn't have mp3 support", "http://www.lysator.liu.se/~zino/scummvm/queen/");
+		addDownload("cat-queen", "Flight of the Amazon Queen, Freeware CD Version (<i>Hebrew</i> subtitles, English voices, ogg compressed sfx/speech)", "(63.1M)", "http://prdownloads.sourceforge.net/scummvm/FOTAQ_Heb_talkie.zip?download");
+		addDownload("cat-queen", "Flight of the Amazon Queen, Freeware Floppy Version", "(6.7M)", "http://prdownloads.sourceforge.net/scummvm/FOTAQ_Floppy.zip?download");
+		addDownload("cat-queen", "Flight of the Amazon Queen, Freeware Floppy Version", "(6.7M) <a href='http://www.mthN.de'>hosted by Snoke Media and Tech Hosting Network", "http://mikemth.de:1337/modules.php?name=Downloads&amp;d_op=getit&amp;lid=827");
+		addDownload("cat-queen", "Flight of the Amazon Queen, queen.tbl - required to run original versions of FOTAQ", "(1.0M)", "https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/$current_release_tag/dists/engine-data/queen.tbl");
 
-	  <tr><td></td><td>&nbsp;</td></tr>
+		addDownloadSeparator();
 
-	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-1.1.zip?download">Lure of the Temptress, Freeware Version (English)</a> <font class='cat-count'>(3.9M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-fr-1.1.zip?download">Lure of the Temptress, Freeware Version (French)</a> <font class='cat-count'>(3.4M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-de-1.1.zip?download">Lure of the Temptress, Freeware Version (German)</a> <font class='cat-count'>(3.5M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-it-1.1.zip?download">Lure of the Temptress, Freeware Version (Italian)</a> <font class='cat-count'>(3.0M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/lure-es-1.1.zip?download">Lure of the Temptress, Freeware Version (Spanish)</a> <font class='cat-count'>(2.1M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-lure.png' alt="" width=24 height=24></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<?php echo $current_release_tag; ?>/dists/engine-data/lure.dat">Lure of the Temptress, lure.dat - required to run original versions of Lure of the Temptress</a> <font class='cat-count'>(623k) - Requires ScummVM <?php echo $current_release; ?></font></td></tr>
+		addDownload("cat-lure", "Lure of the Temptress, Freeware Version (English)", "(3.9M)", "http://prdownloads.sourceforge.net/scummvm/lure-1.1.zip?download");
+		addDownload("cat-lure", "Lure of the Temptress, Freeware Version (French)", "(3.4M)", "http://prdownloads.sourceforge.net/scummvm/lure-fr-1.1.zip?download");
+		addDownload("cat-lure", "Lure of the Temptress, Freeware Version (German)", "(3.5M)", "http://prdownloads.sourceforge.net/scummvm/lure-de-1.1.zip?download");
+		addDownload("cat-lure", "Lure of the Temptress, Freeware Version (Italian)", "(3.0M)", "http://prdownloads.sourceforge.net/scummvm/lure-it-1.1.zip?download");
+		addDownload("cat-lure", "Lure of the Temptress, Freeware Version (Spanish)", "(2.1M)", "http://prdownloads.sourceforge.net/scummvm/lure-es-1.1.zip?download");
 
-	  <tr><td></td><td>&nbsp;</td></tr>
+		addDownload("cat-lure", "Lure of the Temptress, lure.dat - required to run original versions of Lure of the Temptress", "(623k) - Requires ScummVM $current_release", "https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/$current_release_tag/dists/engine-data/lure.dat");
 
-	  <tr><td class='cat-bullet'><img src='images/cat-drascula.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/drascula-1.0.zip?download">Drascula: The Vampire Strikes Back, Freeware Version (English)</a> <font class='cat-count'>(31.3M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-drascula.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/drascula-audio-1.0.zip?download">Drascula: The Vampire Strikes Back, Freeware Version (Music AddOn, OGG format)</a> <font class='cat-count'>(34.4M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-drascula.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/drascula-int-1.0.zip?download">Drascula: The Vampire Strikes Back, Freeware Version (Spanish, German, French and Italian AddOn)</a> <font class='cat-count'>(33.2M)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-drascula.png' alt="" width=24 height=24></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<?php echo $current_release_tag; ?>/dists/engine-data/drascula.dat">Drascula: The Vampire Strikes Back, DRASCULA.DAT - required for all versions of the game</a> <font class='cat-count'>(211k) - Requires ScummVM <?php echo $current_release; ?></font></td></tr>
+		addDownloadSeparator();
 
-	  <tr><td></td><td>&nbsp;</td></tr>
+		addDownload("cat-drascula", "Drascula: The Vampire Strikes Back, Freeware Version (English)", "(31.3M)", "http://prdownloads.sourceforge.net/scummvm/drascula-1.0.zip?download");
+		addDownload("cat-drascula", "Drascula: The Vampire Strikes Back, Freeware Version (Music AddOn, OGG format)", "(34.4M)", "http://prdownloads.sourceforge.net/scummvm/drascula-audio-1.0.zip?download");
+		addDownload("cat-drascula", "Drascula: The Vampire Strikes Back, Freeware Version (Spanish, German, French and Italian AddOn)", "(33.2M)", "http://prdownloads.sourceforge.net/scummvm/drascula-int-1.0.zip?download");
 
-	  <tr><td class='cat-bullet'><img src='images/cat-sword.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_DXA_Cutscenes.zip?download">Broken Sword 1 Cutscene Pack (English, DXA compression)</a> <font class='cat-count'>(58.5M) - Requires ScummVM 0.10.0</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-sword.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://downloads.scummbr.com/Sword1_Cutscenes_BRA_Complete.zip">Broken Sword 1 Cutscene Pack (Brazilian)</a> <font class='cat-count'>(38M) This is an offsite package with both Brazillian videos and audio</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-sword.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_OGG_Cutscenes.zip?download">Broken Sword 1 Cutscene Pack (English OGG AddOn)</a> <font class='cat-count'>(2.9M) Alternative audio pack, for ports without FLAC support</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-sword.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_FRE_AddOn.zip?download">Broken Sword 1 Cutscene Pack (French AddOn)</a> <font class='cat-count'>(1.6M) Overwrite files in English Pack with files from this archive</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-sword.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_GER_AddOn.zip?download">Broken Sword 1 Cutscene Pack (German AddOn)</a> <font class='cat-count'>(1.8M) Overwrite files in English Pack with files from this archive</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-sword.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://www.unet.univie.ac.at/~a0200586/binary/mirrors/scummvm/Sword1_Cutscenes_GER_Complete.zip">Broken Sword 1 Cutscene Pack (German)</a> <font class='cat-count'>(32M) This is an alternative offsite package with both German videos and audio</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-sword.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ITA_AddOn.zip?download">Broken Sword 1 Cutscene Pack (Italian AddOn)</a> <font class='cat-count'>(2.5M) Overwrite files in English Pack with files from this archive</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-sword.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ESP_AddOn.zip?download">Broken Sword 1 Cutscene Pack (Spanish AddOn)</a> <font class='cat-count'>(2.2M) Overwrite files in English Pack with files from this archive</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-sword.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword1_Demo_Cutscenes.zip?download">Broken Sword 1 Demo Cutscene Pack</a> <font class='cat-count'>(19M) - Requires ScummVM 0.10.0</font></td></tr>
+		addDownload("cat-drascula", "Drascula: The Vampire Strikes Back, DRASCULA.DAT - required for all versions of the game", "(211k) - Requires ScummVM $current_release", "https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/$current_release_tag/dists/engine-data/drascula.dat");
 
-	  <tr><td></td><td>&nbsp;</td></tr>
+		addDownloadSeparator();
 
-	  <tr><td class='cat-bullet'><img src='images/cat-sword2.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_DXA_Cutscenes.zip?download">Broken Sword 2 Cutscene Pack (all languages, DXA compression)</a> <font class='cat-count'>(111M) - Requires ScummVM 0.10.0</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-sword2.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_OGG_Cutscenes.zip?download">Broken Sword 2 Cutscene Pack (all languages, OGG AddOn)</a> <font class='cat-count'>(2.9M) Alternative audio pack, for ports without FLAC support</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/cat-sword2.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Sword2_Demo_Cutscenes.zip?download">Broken Sword 2 Demo Cutscene Pack</a> <font class='cat-count'>(767KB) - Requires ScummVM 0.10.0</font></td></tr>
+		addDownload("cat-sword", "Broken Sword 1 Cutscene Pack (English, DXA compression)", "(58.5M) - Requires ScummVM 0.10.0", "http://prdownloads.sourceforge.net/scummvm/Sword1_DXA_Cutscenes.zip?download");
+		addDownload("cat-sword", "Broken Sword 1 Cutscene Pack (Brazilian)", "(38M) This is an offsite package with both Brazillian videos and audio", "http://downloads.scummbr.com/Sword1_Cutscenes_BRA_Complete.zip");
+		addDownload("cat-sword", "Broken Sword 1 Cutscene Pack (English OGG AddOn)", "(2.9M) Alternative audio pack, for ports without FLAC support", "http://prdownloads.sourceforge.net/scummvm/Sword1_OGG_Cutscenes.zip?download");
+		addDownload("cat-sword", "Broken Sword 1 Cutscene Pack (French AddOn)", "(1.6M) Overwrite files in English Pack with files from this archive", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_FRE_AddOn.zip?download");
+		addDownload("cat-sword", "Broken Sword 1 Cutscene Pack (German AddOn)", "(1.8M) Overwrite files in English Pack with files from this archive", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_GER_AddOn.zip?download");
+		addDownload("cat-sword", "Broken Sword 1 Cutscene Pack (German)", "(32M) This is an alternative offsite package with both German videos and audio", "http://www.unet.univie.ac.at/~a0200586/binary/mirrors/scummvm/Sword1_Cutscenes_GER_Complete.zip");
+		addDownload("cat-sword", "Broken Sword 1 Cutscene Pack (Italian AddOn)", "(2.5M) Overwrite files in English Pack with files from this archive", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ITA_AddOn.zip?download");
+		addDownload("cat-sword", "Broken Sword 1 Cutscene Pack (Spanish AddOn)", "(2.2M) Overwrite files in English Pack with files from this archive", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ESP_AddOn.zip?download");
+		addDownload("cat-sword", "Broken Sword 1 Demo Cutscene Pack", "(19M) - Requires ScummVM 0.10.0", "http://prdownloads.sourceforge.net/scummvm/Sword1_Demo_Cutscenes.zip?download");
 
-	  <tr><td></td><td>&nbsp;</td></tr>
+		addDownloadSeparator();
 
-	  <tr><td class='cat-bullet'><img src='images/cat-feeble.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://prdownloads.sourceforge.net/scummvm/Feeble_OmniTV_Cutscenes.zip?download">The Feeble Files - Omni TV and epilogue cutscenes for the Amiga and Macintosh versions</a> <font class='cat-count'>(13.6M) - Requires ScummVM 0.10.0</font></td></tr>
+		addDownload("cat-sword2", "Broken Sword 2 Cutscene Pack (all languages, DXA compression)", "(111M) - Requires ScummVM 0.10.0", "http://prdownloads.sourceforge.net/scummvm/Sword2_DXA_Cutscenes.zip?download");
+		addDownload("cat-sword2", "Broken Sword 2 Cutscene Pack (all languages, OGG AddOn)", "(2.9M) Alternative audio pack, for ports without FLAC support", "http://prdownloads.sourceforge.net/scummvm/Sword2_OGG_Cutscenes.zip?download");
+		addDownload("cat-sword2", "Broken Sword 2 Demo Cutscene Pack", "(767KB) - Requires ScummVM 0.10.0", "http://prdownloads.sourceforge.net/scummvm/Sword2_Demo_Cutscenes.zip?download");
 
-	  <tr><td></td><td>&nbsp;</td></tr>
+		addDownloadSeparator();
 
-	  <tr><td class='cat-bullet'><img src='images/cat-kyra.png' alt="" width=24 height=24></td><td class='cat-link'><a href="https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/<?php echo $current_release_tag; ?>/dists/engine-data/kyra.dat">The Legend of Kyrandia, KYRA.DAT - required for all versions of the game</a> <font class='cat-count'>(182k)</font></td></tr>
+		addDownload("cat-feeble", "The Feeble Files - Omni TV and epilogue cutscenes for the Amiga and Macintosh versions", "(13.6M) - Requires ScummVM 0.10.0", "http://prdownloads.sourceforge.net/scummvm/Feeble_OmniTV_Cutscenes.zip?download");
 
-	</table>
+		addDownloadSeparator();
+
+		addDownload("cat-kyra", "The Legend of Kyrandia, KYRA.DAT - required for all versions of the game", "(182k)", "https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/$current_release_tag/dists/engine-data/kyra.dat");
+
+	endDownloadList();
+?>
 
      </div>
   </div>
@@ -355,15 +397,28 @@ html_content_begin('Download ScummVM');
 	  Additional snapshot builds:
 	</p>
 
-	<table>
-	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://scummvm.sourceforge.net/downloads/scummvm-win32.exe">Win32 ScummVM Daily Snapshot</a> <font class='cat-count'> (<?php echo intval(filesize("downloads/scummvm-win32.exe")/1024) ?>K exe file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/scummvm-win32.exe")); ?>)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-windows.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://scummvm.sourceforge.net/downloads/scummvm-tools-win32.exe">Win32 ScummVM Tools Daily Snapshot</a> <font class='cat-count'> (<?php echo intval(filesize("downloads/scummvm-tools-win32.exe")/1024) ?>K exe file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/scummvm-tools-win32.exe")); ?>)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-macos.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://worldsmainorganization.org/scummvm/">Mac OS X Snapshots</a> <font class='cat-count'> (infrequently from Subversion trunk)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-gp2x.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://www.distant-earth.com/scummvm/">GP2X Builds</a> <font class='cat-count'> (infrequent builds from Subversion trunk)</font></td></tr>
-	  <tr><td class='cat-bullet'><img src='images/catpl-wince.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://arisme.free.fr/PocketScumm/daily/">Old PocketPC Builds</a> <font class='cat-count'> (infrequent snapshots of the PocketPC binaries)</font></td></tr>
-	<tr><td class='cat-bullet'><img src='images/catpl-symbian.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://anotherguest.k0.se/cvsbuilds/">SymbianOS Subversion Builds</a></td></tr>
-	<tr><td class='cat-bullet'><img src='images/catpl-cpp.png' alt="" width=24 height=24></td><td class='cat-link'><a href="http://sourceforge.net/svn/?group_id=37116">Subversion Instructions</a> <font class='cat-count'> (for if you wish to retrieve the latest code to compile yourself)</font></td></tr>
-	</table>
+<?php
+	startDownloadList();
+	
+		$size = intval(filesize("downloads/scummvm-win32.exe")/1024);
+		$date = date("F j, Y, g:i a",filemtime("downloads/scummvm-win32.exe"));
+		addDownload("catpl-windows", "Win32 ScummVM Daily Snapshot", "(" . $size ."K exe file, last update: $date)", "http://scummvm.sourceforge.net/downloads/scummvm-win32.exe");
+
+		$size = intval(filesize("downloads/scummvm-tools-win32.exe")/1024);
+		$date = date("F j, Y, g:i a",filemtime("downloads/scummvm-tools-win32.exe"));
+		addDownload("catpl-windows", "Win32 ScummVM Tools Daily Snapshot", "(" . $size ."K exe file, last update: $date)", "http://scummvm.sourceforge.net/downloads/scummvm-tools-win32.exe");
+
+		addDownload("catpl-macos", "Mac OS X Snapshots", "(infrequently from Subversion trunk)", "http://worldsmainorganization.org/scummvm/");
+		addDownload("catpl-gp2x", "GP2X Builds", "(infrequent builds from Subversion trunk)", "http://www.distant-earth.com/scummvm/");
+		addDownload("catpl-wince", "Old PocketPC Builds", "(infrequent snapshots of the PocketPC binaries)", "http://arisme.free.fr/PocketScumm/daily/");
+
+
+		addDownload("catpl-symbian", "SymbianOS Subversion Builds", "", "http://anotherguest.k0.se/cvsbuilds/");
+
+		addDownload("catpl-cpp", "Subversion Instructions", "(for if you wish to retrieve the latest code to compile yourself)", "http://sourceforge.net/svn/?group_id=37116");
+
+	endDownloadList();
+?>
 
      </div>
   </div>
