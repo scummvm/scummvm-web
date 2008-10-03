@@ -127,7 +127,7 @@
 <tr><td style='width:13em; padding:2px;'>Andrew Kurushin</td><td style='width:10em; text-align: left;' class='news-author'>ajax16384</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td></td>
 </table>
-<span style='font-weight: bold'>Tinsel;:</span>
+<span style='font-weight: bold'>Tinsel:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Torbj&ouml;rn Andersson</td><td style='width:10em; text-align: left;' class='news-author'>eriktorbjorn</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Paul Gilbert</td><td style='width:10em; text-align: left;' class='news-author'>dreammaster</td><td></td>
@@ -244,7 +244,7 @@
 <tr><td style='width:13em; padding:2px;'>Felix Jakschitsch</td><td style='width:10em; text-align: left;' class='news-author'>yot</td><td>Zak256 reverse engineering</td>
 <tr><td style='width:13em; padding:2px;'>Mutwin Kraus</td><td style='width:10em; text-align: left;' class='news-author'>mutle</td><td>Original MacOS porter</td>
 <tr><td style='width:13em; padding:2px;'>Peter Moraliyski</td><td style='width:10em; text-align: left;' class='news-author'>ph0x</td><td>Port: GP32</td>
-<tr><td style='width:13em; padding:2px;'>Juha Niemim&auml;ki</td><td></td><td>Formaer AmigaOS 4 packager</td>
+<tr><td style='width:13em; padding:2px;'>Juha Niemim&auml;ki</td><td></td><td>Former AmigaOS 4 packager</td>
 <tr><td style='width:13em; padding:2px;'>Jeremy Newman</td><td style='width:10em; text-align: left;' class='news-author'>laxdragon</td><td>Former webmaster</td>
 <tr><td style='width:13em; padding:2px;'>Lionel Ulmer</td><td style='width:10em; text-align: left;' class='news-author'>bbrox</td><td>Port: X11</td>
 <tr><td style='width:13em; padding:2px;'>Won Star</td><td style='width:10em; text-align: left;' class='news-author'>wonst719</td><td>Former GP32 porter</td>
