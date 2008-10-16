@@ -63,11 +63,14 @@ Residual's core is in a fairly decent state, however it is not in full-time deve
 as such is progressing slowly.
 </P>
 <P>
-You can try compiled engine for Windows:
+You can try compiled engine for:
 </P>
-<a href="downloads/residualwin32.exe">Windows Daily Snapshot</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/residualwin32.exe")/1024) ?>K Win32 .exe file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/residualwin32.exe")); ?>)</small>
-<p>Also you can try Mac OS X Leopard version on Intel platform:</p>
+<p>Windows:</p>
+<a href="downloads/residualwin32.exe">Windows Snapshot</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/residualwin32.exe")/1024) ?>K Win32 .exe file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/residualwin32.exe")); ?>)</small>
+<p>Mac OS X Leopard version on Intel platform:</p>
 <a href="downloads/Residual-MacOSX-Intel.dmg">Mac OS X Snapshot</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/Residual-MacOSX-Intel.dmg")/1024) ?>K dmg file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/Residual-MacOSX-Intel.dmg")); ?>)</small>
+<p>Debian Etch on i386 compatible platform:</p>
+<a href="downloads/residual_etch_i386.deb">Debian Etch i386 Snapshot</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/residual_etch_i386.deb")/1024) ?>K dmg file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/residual_etch_i386.deb")); ?>)</small>
 <p></p>
     </div>
   </div>
