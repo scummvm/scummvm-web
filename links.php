@@ -56,6 +56,7 @@ function addLinkEntry($name, $url, $desc) {
 			addLinkEntry('PocketScumm port', 'http://arisme.free.fr/PocketScumm/index.php', 'Information about the PocketScumm port.');
 			addLinkEntry('PalmOS port', 'http://capers.free.fr/ScummVM/index.php', 'News and information about the PalmOS port.');
 			addLinkEntry('GP32 port', 'http://www.distant-earth.co.uk/', 'Information about the GP32 port.');
+			addLinkEntry('DS port', 'http://scummvm.drunkencoders.com/', "Information about the Nintendo DS port.");
 		?>
 	</div>
     </div>
@@ -74,8 +75,6 @@ function addLinkEntry($name, $url, $desc) {
 				     'Homepage of the 68k/WarpOS port of ScummVM for the Amiga. Requires 020+ and AGA chipset or RTG Zorro card');
 			addLinkEntry('Amiga Archives', 'http://www.mountmonkey.com/eng_index.html',
 				'An archive of older Amiga ports of ScummVM');
-			addLinkEntry('DS port', 'http://scummvm.drunkencoders.com/',
-				"A port to Nintendo DS.");
 			addLinkEntry('Nokia 770 port', 'http://770.fs-security.com/scummvm/',
 				"A port to Nokia 770.");
 			addLinkEntry('RISC OS port', 'http://www.riscos.info/unix/indexes/emulation.html#scummvm',
@@ -165,11 +164,9 @@ function addLinkEntry($name, $url, $desc) {
 				have provided us with the source code to some of these games so that
 				we can add support for them, and allowed us to release BASS as
 				freeware. Thanks guys!');
-			addLinkEntry('ScummLinux :: a ScummVM LiveCD', 'http://scummlinux.sourceforge.net/',
-				'ScummLinux allows you to play your favorite ScummVM-supported games
-				anywhere; just boot the CD, choose a game, and enjoy.  It supports
-				all the soundcards supported by the Linux kernel and TV-Out for some
-				graphics cards, so you can even play on a television set.');
+			addLinkEntry("Grumpy Gamer", "http://grumpygamer.com/",
+				"The personal blog of Ron Gilbert, the man behind many great LucasArts
+				adventures, like Maniac Mansion and Monkey Island.");
 		?>
 	</div>
     </div>
@@ -216,34 +213,16 @@ function addLinkEntry($name, $url, $desc) {
 
 	<div class="linklist">
 		<?php
-			addLinkEntry('The inCompleat SCUMM Reference Guide', 'http://www.cowlark.com/scumm/',
-				'Information on the file format used by SCUMM five and six.');
 			addLinkEntry('LucasHacks', 'http://scumm.mixnmojo.com/',
 				'Contains lots of information about all SCUMM games, links to demos and
 				utilities, some documents on SCUMM internals and other useful things.');
 			addLinkEntry('SCUMM Hacking forum', 'http://www.lucasforums.com/forumdisplay.php?f=363',
 				'Information and discussion on resource formats used in LucasArts games.');
-			addLinkEntry('Mega-Tokyo forum', 'http://www.mega-tokyo.com/forum/',
-				'Information and discussion on the Sierra interpreters and games.');
+			addLinkEntry('AGI Games forum', 'http://www.agigames.com/forum/',
+				'Information and discussion on the Sierra interpreters and games, successor of the Mega-Tokyo forums.');
 			addLinkEntry('AGI Development Site', 'http://www.agidev.com',
 				'Large amounts of information surrounding Sierra\'s AGI system
 				and home of the NAGI AGI interpreter.');
-		?>
-	</div>
-    </div>
-
-    <?php html_subhead_start("GUI frontends for ScummVM"); ?>
-    <div class="par-subhead-content">
-	<p>
-Although ScummVM now includes a basic graphical user interface for adding and configuring basic game options, it is new and fairly
-incomplete. For those whom are not comfortable using the command line to access the more advanced options, here are some other
-GUI frontends for ScummVM.
-	</p>
-
-	<div class="linklist">
-		<?php
-			addLinkEntry("ScummVM Quick And Easy", "http://quick.mixnmojo.com/", "For Win32.");
-			addLinkEntry("ScummAqua", "http://www.student.nada.kth.se/~d00-ogo/ogosoft/scummaqua/", "For Mac OS X.");
 		?>
 	</div>
     </div>
