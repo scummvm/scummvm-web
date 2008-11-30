@@ -379,7 +379,7 @@ $notes = array(
 "kyra2"		=> "Game is completable".
 		   "<br>- Requires the <a href=\"http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory".
 		   "<br>- DOS, FM-Towns and PC-9821 versions are supported".
-"kyra3"		=> "Game is completable".
+"kyra3"		=> "Game is completable",
 		   "<br>- Requires the <a href=\"https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/trunk/dists/engine-data/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory".
 		   "<br>- DOS and Macintosh versions are supported",
 "touche"	=> "Game is completable".
