@@ -93,8 +93,8 @@ $gamesOther = array(
 	'I Have No Mouth, and I Must Scream'						=> array('ihnm', '90'),
 	'Inherit the Earth: Quest for the Orb'						=> array('ite', '95'),
 	'Nippon Safes Inc.'											=> array('nippon', '90'),
-	'The Legend of Kyrandia'									=> array('kyra1', '85'),
-	'The Legend of Kyrandia: Book Two: Hand of Fate'			=> array('kyra2', '80'),
+	'The Legend of Kyrandia'									=> array('kyra1', '87'),
+	'The Legend of Kyrandia: Book Two: Hand of Fate'			=> array('kyra2', '85'),
 	'The Legend of Kyrandia: Book Three: Malcolm\'s Revenge'	=> array('kyra3', '80'),
 	'Lure of the Temptress'										=> array('lure', '95'),
 	'Touche: The Adventures of the Fifth Musketeer'				=> array('touche','75'),
@@ -374,14 +374,11 @@ $notes = array(
 		   "<br>- Amiga versions aren't supported".
 		   "<br>".
 		   "<br>- Occasional graphics glitches".
-		   "<br>- MT-32 (MIDI) music and sfx are not supported".
 		   "<br>- No music or sound effects in the Macintosh version".
 		   "<br>- PC-9821 version lacks support for sound effects",
 "kyra2"		=> "Game is completable".
 		   "<br>- Requires the <a href=\"http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory".
 		   "<br>- DOS, FM-Towns and PC-9821 versions are supported".
-		   "<br>".
-		   "<br>- MIDI music and sfx are not supported",
 "kyra3"		=> "Game is completable".
 		   "<br>- Requires the <a href=\"https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/trunk/dists/engine-data/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory".
 		   "<br>- DOS and Macintosh versions are supported",
