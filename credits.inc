@@ -4,7 +4,6 @@
 <div class='par-subhead-dots'>&nbsp;</div>
 <div class='par-subhead-content'>
 <table style='margin-left:2em; margin-bottom: 1em'>
-<tr><td style='width:13em; padding:2px;'>James Brown</td><td style='width:10em; text-align: left;' class='news-author'>ender</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Max Horn</td><td style='width:10em; text-align: left;' class='news-author'>Fingolfin</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td></td>
 </table>
@@ -13,6 +12,7 @@
 <div class='par-subhead-dots'>&nbsp;</div>
 <div class='par-subhead-content'>
 <table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>James Brown</td><td style='width:10em; text-align: left;' class='news-author'>ender</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Vincent Hamm</td><td style='width:10em; text-align: left;' class='news-author'>yaz0r</td><td>ScummVM co-founder, Original Cruise/CinE author</td>
 <tr><td style='width:13em; padding:2px;'>Ludvig Strigeus</td><td style='width:10em; text-align: left;' class='news-author'>ludde</td><td>Original ScummVM and SimonVM author</td>
 </table>
@@ -28,6 +28,7 @@
 <tr><td style='width:13em; padding:2px;'>Max Horn</td><td style='width:10em; text-align: left;' class='news-author'>Fingolfin</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Travis Howell</td><td style='width:10em; text-align: left;' class='news-author'>Kirben</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Pawe&#322; Ko&#322;odziejski</td><td style='width:10em; text-align: left;' class='news-author'>aquadran</td><td>Codecs, iMUSE, Smush, etc.</td>
+<tr><td style='width:13em; padding:2px;'>Gregory Montoir</td><td style='width:10em; text-align: left;' class='news-author'>cyx</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td>FT INSANE, MM NES, MM C64, game detection, Herc/CGA</td>
 </table>
 <span style='font-weight: bold'>HE:</span>
