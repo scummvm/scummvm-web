@@ -34,20 +34,20 @@ function read_screenshot_list($fname) {
 
 	global $file_root;
 
+	$screenshots = array();
+	$scrcatnums = array();
+	$scr_table = array();
+
 	if(!is_readable($fname)) {
 		echo "No read permission for $fname !";
-		exit;
+		return;
 	}
 
 	@$fp = fopen($fname, 'r');
 	if(!$fp) {
 		echo "Could not open file $fname !";
-		exit;
+		return;
 	}
-
-	$screenshots = array();
-	$scrcatnums = array();
-	$scr_table = array();
 
 	while (!feof($fp)) {
 		$line = trim(fgets($fp));
