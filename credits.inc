@@ -93,6 +93,12 @@
 <tr><td style='width:13em; padding:2px;'>Willem Jan Palenstijn</td><td style='width:10em; text-align: left;' class='news-author'>wjp</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td></td>
 </table>
+<span style='font-weight: bold'>Groovie:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Henry Bush</td><td style='width:10em; text-align: left;' class='news-author'>spookypeanut</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Scott Thomas</td><td style='width:10em; text-align: left;' class='news-author'>ST</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Jordi Vilalta Prat</td><td style='width:10em; text-align: left;' class='news-author'>jvprat</td><td></td>
+</table>
 <span style='font-weight: bold'>Kyra:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Torbj&ouml;rn Andersson</td><td style='width:10em; text-align: left;' class='news-author'>eriktorbjorn</td><td>VQA Player</td>
