@@ -147,6 +147,10 @@
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Gregory Montoir</td><td style='width:10em; text-align: left;' class='news-author'>cyx</td><td></td>
 </table>
+<span style='font-weight: bold'>Tucker:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Gregory Montoir</td><td style='width:10em; text-align: left;' class='news-author'>cyx</td><td></td>
+</table>
 </div>
 <div class='par-subhead'>Backend Teams</div>
 <div class='par-subhead-dots'>&nbsp;</div>
