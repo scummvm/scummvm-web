@@ -87,6 +87,7 @@ $gamesOther = array(
 	'Beneath a Steel Sky'										=> array('sky','98'),
 	'Broken Sword 1: The Shadow of the Templars'				=> array('sword1','98'),
 	'Broken Sword 2: The Smoking Mirror'						=> array('sword2','98'),
+	'Bud Tucker in Double Trouble'						=> array('tucker','95'),
 	'Drascula: The Vampire Strikes Back'						=> array('drascula','98'),	
 	'Flight of the Amazon Queen'								=> array('queen','98'),
 	'Future Wars'												=> array('fw','80'),
@@ -385,6 +386,8 @@ $notes = array(
 "touche"	=> "Game is completable".
 		   "<br>- Occasional graphical glitches",
 
+"tucker"	=> "Game is completable".
+		   "<br>- No known issues",
 "bc"		=> "Game is completable".
 		   "<br>- DOS, Amiga, Atari ST, Apple IIgs versions are supported by this target".
 		   "<br>- Apple IIgs version has no sound",
