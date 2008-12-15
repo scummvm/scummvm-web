@@ -301,8 +301,6 @@ $MISC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/igor110_demo.zip', 'igor'),
 	'I Have No Mouth And I Must Scream (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/ihnmdemo.zip', 'ihnm'),
-	'Inherit the Earth: Quest for the Orb demos'
-		=> array('http://www.wyrmkeep.com/ite/download.html', 'ite'),
 	'Lands of Lore: The Throne of Chaos (DOS demo - Non-interactive) - Requires ScummVM 0.13.0svn'
 		=> array('ftp://ftp.westwood.com/pub/lands1/previews/demos/loredemo.exe', 'lol'),
 	'Nippon Safes (Amiga demo)'
