@@ -97,6 +97,7 @@ $gamesOther = array(
 	'The Legend of Kyrandia'									=> array('kyra1', '87'),
 	'The Legend of Kyrandia: Book Two: Hand of Fate'			=> array('kyra2', '85'),
 	'The Legend of Kyrandia: Book Three: Malcolm\'s Revenge'	=> array('kyra3', '80'),
+	'The 7th Guest'	=> array('t7g', '95'),
 	'Lure of the Temptress'										=> array('lure', '95'),
 	'Touche: The Adventures of the Fifth Musketeer'				=> array('touche','75'),
 	);
@@ -438,7 +439,9 @@ $notes = array(
 		   "<br>- Only DOS version is supported by this target".
 		   "<br>- Game lacks sound",
 "lure"		=> "Game is completable".
-		   "<br>- Only DOS VGA version is supported"
+		"<br>- Only DOS VGA version is supported",
+"t7g"	=> "No known issues, game is completable.".
+		   "<br>- Only DOS and Windows versions are supported by this target"
 );
 
 ?>
