@@ -361,7 +361,7 @@ $notes = array(
 		   "<br>- Occasional graphical glitches".
 		   "<br>- DOS, Amiga and Atari versions are supported",
 "ihnm"		=> "Game is completable.".
-		   "<br>- Occasional minor glitches",
+		   "<br>- Occasional minor glitches".
 		   "<br>- DOS and Macintosh versions are supported by this target".
 		   "<br>- No music in the Macintosh version.",		   
 "ite"		=> "No known issues, game is completable.".
