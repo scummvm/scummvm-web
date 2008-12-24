@@ -23,7 +23,6 @@
 <span style='font-weight: bold'>SCUMM:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Torbj&ouml;rn Andersson</td><td style='width:10em; text-align: left;' class='news-author'>eriktorbjorn</td><td></td>
-<tr><td style='width:13em; padding:2px;'>James Brown</td><td style='width:10em; text-align: left;' class='news-author'>ender</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Jonathan Gray</td><td style='width:10em; text-align: left;' class='news-author'>khalek</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Max Horn</td><td style='width:10em; text-align: left;' class='news-author'>Fingolfin</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Travis Howell</td><td style='width:10em; text-align: left;' class='news-author'>Kirben</td><td></td>
