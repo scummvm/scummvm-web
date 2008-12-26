@@ -25,7 +25,7 @@ $gamesHE = array(
 	'Big Thinkers First Grade'                                         => array('thinker1','90'),
 	'Big Thinkers Kindergarten'                                        => array('thinkerk','90'),
 	'Blue\'s 123 Time Activities'                                      => array('Blues123Time','50'),
-	'Blue\'s ABC Time Activities'                                      => array('BluesABCTime','50'),
+	'Blue\'s ABC Time Activities'                                      => array('BluesABCTime','90'),
 	'Blue\'s Birthday Adventure'                                       => array('BluesBirthday','50'),
 	'Fatty Bear\'s Birthday Surprise'                                  => array('fbear','93'),
 	'Fatty Bear\'s Fun Pack'                                           => array('fbpack','95'),
@@ -202,7 +202,7 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "Blues123Time" => "Game is playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"BluesABCTime" => "Game is playable".
+"BluesABCTime" => "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "BluesBirthday" => "Game is playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
