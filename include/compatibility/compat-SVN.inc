@@ -27,6 +27,7 @@ $gamesHE = array(
 	'Blue\'s 123 Time Activities'                                      => array('Blues123Time','50'),
 	'Blue\'s ABC Time Activities'                                      => array('BluesABCTime','90'),
 	'Blue\'s Birthday Adventure'                                       => array('BluesBirthday','50'),
+	'Blue\'s Treasure Hunt'                                            => array('BluesTreasureHunt','50'),
 	'Fatty Bear\'s Birthday Surprise'                                  => array('fbear','93'),
 	'Fatty Bear\'s Fun Pack'                                           => array('fbpack','95'),
 	'Freddi Fish 1: The Case of the Missing Kelp Seeds'                => array('freddi','90'),
@@ -205,6 +206,8 @@ $notes = array(
 "BluesABCTime" => "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "BluesBirthday" => "Game is playable".
+		   "<br>- Both Macintosh and Windows versions supported by this target",
+"BluesTreasureHunt" => "Game is playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "brstorm"	=> "Game is playable",
 "fbear"		=> "Game should be completable, with several glitches".
