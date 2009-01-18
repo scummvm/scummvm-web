@@ -23,7 +23,6 @@
 <span style='font-weight: bold'>SCUMM:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Torbj&ouml;rn Andersson</td><td style='width:10em; text-align: left;' class='news-author'>eriktorbjorn</td><td></td>
-<tr><td style='width:13em; padding:2px;'>Jonathan Gray</td><td style='width:10em; text-align: left;' class='news-author'>khalek</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Max Horn</td><td style='width:10em; text-align: left;' class='news-author'>Fingolfin</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Travis Howell</td><td style='width:10em; text-align: left;' class='news-author'>Kirben</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Pawe&#322; Ko&#322;odziejski</td><td style='width:10em; text-align: left;' class='news-author'>aquadran</td><td>Codecs, iMUSE, Smush, etc.</td>
@@ -32,7 +31,6 @@
 </table>
 <span style='font-weight: bold'>HE:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
-<tr><td style='width:13em; padding:2px;'>Jonathan Gray</td><td style='width:10em; text-align: left;' class='news-author'>khalek</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Travis Howell</td><td style='width:10em; text-align: left;' class='news-author'>Kirben</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Gregory Montoir</td><td style='width:10em; text-align: left;' class='news-author'>cyx</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td></td>
@@ -45,28 +43,22 @@
 <tr><td style='width:13em; padding:2px;'>Pawe&#322; Ko&#322;odziejski</td><td style='width:10em; text-align: left;' class='news-author'>aquadran</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Kari Salminen</td><td style='width:10em; text-align: left;' class='news-author'>Buddha^</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td></td>
-<tr><td style='width:13em; padding:2px;'>David Symonds</td><td style='width:10em; text-align: left;' class='news-author'>dsymonds</td><td></td>
 </table>
 <span style='font-weight: bold'>AGOS:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Torbj&ouml;rn Andersson</td><td style='width:10em; text-align: left;' class='news-author'>eriktorbjorn</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Travis Howell</td><td style='width:10em; text-align: left;' class='news-author'>Kirben</td><td></td>
-<tr><td style='width:13em; padding:2px;'>Oliver Kiehl</td><td style='width:10em; text-align: left;' class='news-author'>olki</td><td></td>
 </table>
 <span style='font-weight: bold'>BASS:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
-<tr><td style='width:13em; padding:2px;'>Robert G&ouml;ffringmann</td><td style='width:10em; text-align: left;' class='news-author'>lavosspawn</td><td></td>
-<tr><td style='width:13em; padding:2px;'>Oliver Kiehl</td><td style='width:10em; text-align: left;' class='news-author'>olki</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Joost Peters</td><td style='width:10em; text-align: left;' class='news-author'>joostp</td><td></td>
 </table>
 <span style='font-weight: bold'>Broken Sword 1:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
-<tr><td style='width:13em; padding:2px;'>Robert G&ouml;ffringmann</td><td style='width:10em; text-align: left;' class='news-author'>lavosspawn</td><td></td>
 </table>
 <span style='font-weight: bold'>Broken Sword 2:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Torbj&ouml;rn Andersson</td><td style='width:10em; text-align: left;' class='news-author'>eriktorbjorn</td><td></td>
-<tr><td style='width:13em; padding:2px;'>Jonathan Gray</td><td style='width:10em; text-align: left;' class='news-author'>khalek</td><td></td>
 </table>
 <span style='font-weight: bold'>Cinematique evo 1:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
@@ -81,7 +73,6 @@
 </table>
 <span style='font-weight: bold'>FOTAQ:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
-<tr><td style='width:13em; padding:2px;'>David Eriksson</td><td style='width:10em; text-align: left;' class='news-author'>twogood</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Gregory Montoir</td><td style='width:10em; text-align: left;' class='news-author'>cyx</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Joost Peters</td><td style='width:10em; text-align: left;' class='news-author'>joostp</td><td></td>
 </table>
@@ -248,16 +239,20 @@
 <tr><td style='width:13em; padding:2px;'>Nicolas Bacca</td><td style='width:10em; text-align: left;' class='news-author'>arisme</td><td>Former WinCE porter</td>
 <tr><td style='width:13em; padding:2px;'>Ralph Brorsen</td><td style='width:10em; text-align: left;' class='news-author'>painelf</td><td>Help with GUI implementation</td>
 <tr><td style='width:13em; padding:2px;'>Jamieson Christian</td><td style='width:10em; text-align: left;' class='news-author'>jamieson630</td><td>iMUSE, MIDI, all things musical</td>
+<tr><td style='width:13em; padding:2px;'>David Eriksson</td><td style='width:10em; text-align: left;' class='news-author'>twogood</td><td>Engines: FOTAQ</td>
 <tr><td style='width:13em; padding:2px;'>Hans-J&ouml;rg Frieden</td><td></td><td>Former AmigaOS 4 packager</td>
-<tr><td style='width:13em; padding:2px;'>Robert G&ouml;ffringmann</td><td style='width:10em; text-align: left;' class='news-author'>lavosspawn</td><td>Original PS2 porter</td>
+<tr><td style='width:13em; padding:2px;'>Robert G&ouml;ffringmann</td><td style='width:10em; text-align: left;' class='news-author'>lavosspawn</td><td>Original PS2 porter; Engines: BASS, BS1</td>
+<tr><td style='width:13em; padding:2px;'>Jonathan Gray</td><td style='width:10em; text-align: left;' class='news-author'>khalek</td><td>Engines: SCUMM, HE, BS2</td>
 <tr><td style='width:13em; padding:2px;'>R&uuml;diger Hanke</td><td></td><td>Port: MorphOS</td>
 <tr><td style='width:13em; padding:2px;'>Felix Jakschitsch</td><td style='width:10em; text-align: left;' class='news-author'>yot</td><td>Zak256 reverse engineering</td>
+<tr><td style='width:13em; padding:2px;'>Oliver Kiehl</td><td style='width:10em; text-align: left;' class='news-author'>olki</td><td>Engines: AGOS, BASS</td>
 <tr><td style='width:13em; padding:2px;'>Mutwin Kraus</td><td style='width:10em; text-align: left;' class='news-author'>mutle</td><td>Original MacOS porter</td>
 <tr><td style='width:13em; padding:2px;'>Peter Moraliyski</td><td style='width:10em; text-align: left;' class='news-author'>ph0x</td><td>Port: GP32</td>
 <tr><td style='width:13em; padding:2px;'>Juha Niemim&auml;ki</td><td></td><td>Former AmigaOS 4 packager</td>
 <tr><td style='width:13em; padding:2px;'>Jeremy Newman</td><td style='width:10em; text-align: left;' class='news-author'>laxdragon</td><td>Former webmaster</td>
 <tr><td style='width:13em; padding:2px;'>Lionel Ulmer</td><td style='width:10em; text-align: left;' class='news-author'>bbrox</td><td>Port: X11</td>
 <tr><td style='width:13em; padding:2px;'>Won Star</td><td style='width:10em; text-align: left;' class='news-author'>wonst719</td><td>Former GP32 porter</td>
+<tr><td style='width:13em; padding:2px;'>David Symonds</td><td style='width:10em; text-align: left;' class='news-author'>dsymonds</td><td>Engines: AGI</td>
 </table>
 </div>
 </div></div>
