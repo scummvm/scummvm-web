@@ -410,7 +410,6 @@ function addDownload($image, $linkText, $desc, $url) {
 
 		addDownload("catpl-macos", "Mac OS X Snapshots", "(infrequently from Subversion trunk)", "http://worldsmainorganization.org/scummvm/");
 		addDownload("catpl-gp2x", "GP2X Builds", "(infrequent builds from Subversion trunk)", "http://www.distant-earth.com/scummvm/");
-		addDownload("catpl-wince", "Old PocketPC Builds", "(infrequent snapshots of the PocketPC binaries)", "http://arisme.free.fr/PocketScumm/daily/");
 
 
 		addDownload("catpl-symbian", "SymbianOS Subversion Builds", "", "http://anotherguest.k0.se/cvsbuilds/");
