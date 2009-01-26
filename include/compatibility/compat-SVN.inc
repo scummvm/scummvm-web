@@ -284,8 +284,7 @@ $notes = array(
 "elvira1"	=> "No known issues, game is completable.".
 		   "<br>- Amiga and Atari ST and DOS versions are supported by this target".
 		   "<br>- Commodore 64 version doesn't use AGOS, so will never be supported.".
-		   "<br>- No music in the Atari ST version.".
-		   "<br>- No text descriptions in the Atari ST version.",
+		   "<br>- No music in the Atari ST version.",
 "elvira2"	=> "No known issues, game is playable.".
 		   "<br>- Amiga and Atari ST and DOS versions are supported by this target".
 		   "<br>- Commodore 64 version doesn't use AGOS, so will never be supported.".
