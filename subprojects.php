@@ -67,8 +67,10 @@ You can try compiled engine for:
 </P>
 <p><a href="downloads/residualwin32.exe">Windows</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/residualwin32.exe")/1024) ?>K Win32 .exe file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/residualwin32.exe")); ?>)</small></p>
 <p><a href="downloads/Residual-MacOSX-Intel.dmg">Mac OS X Intel</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/Residual-MacOSX-Intel.dmg")/1024) ?>K dmg file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/Residual-MacOSX-Intel.dmg")); ?>)</small></p>
-<p><a href="downloads/residual_etch_i386.deb">Debian Etch i386</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/residual_etch_i386.deb")/1024) ?>K deb file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/residual_etch_i386.deb")); ?>)</small></p>
-<p><a href="downloads/residual_hardy_i386.deb">Ubuntu Hardy i386</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/residual_hardy_i386.deb")/1024) ?>K deb file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/residual_hardy_i386.deb")); ?>)</small></p>
+<p><a href="downloads/residual_debian_i386.deb">Debian i386</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/residual_debian_i386.deb")/1024) ?>K deb file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/residual_debian_i386.deb")); ?>)</small></p>
+<p><a href="downloads/residual_debian_i386.deb">Debian x86_64</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/residual_debian_amd64.deb")/1024) ?>K deb file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/residual_debian_amd64.deb")); ?>)</small></p>
+<p><a href="downloads/residual_ubuntu_amd64.deb">Ubuntu i386</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/residual_ubuntu_i386.deb")/1024) ?>K deb file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/residual_ubuntu_i386.deb")); ?>)</small></p>
+<p><a href="downloads/residual_ubuntu_amd64.deb">Ubuntu x86_64</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/residual_ubuntu_amd64.deb")/1024) ?>K deb file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/residual_ubuntu_amd64.deb")); ?>)</small></p>
 <p></p>
     </div>
   </div>
