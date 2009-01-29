@@ -231,6 +231,16 @@ td.menus {
 
 .newsdate { font-weight: normal; }
 
+.bottom-feed-floater{
+	float: left;
+}
+
+.bottom-feed-floater a {
+	color: #a82709;
+	font-weight: bold;
+	text-decoration: none;
+}
+
 .bottom-link a {
 	display: block;
 	text-align: right;

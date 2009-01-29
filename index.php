@@ -196,8 +196,16 @@ if (!$shownews or $shownews == "archive") {
 	echo "ERROR";
 }
 
+?>
+
+<div class="bottom-feed-floater">
+<a href="http://www.scummvm.org/feed-atom.php">Atom</a> | 
+<a href="http://www.scummvm.org/feed-rss20.php">RSS</a>
+</div>
+
+<?php
 // Show 'More News...' link, unless we are already in the showsnews mode.
-if (!$shownews) {
+if (true || !$shownews) {
   echo '<p class="bottom-link"><a href="?shownews=archive">More News...</a></p>'."\n";
 }
 
