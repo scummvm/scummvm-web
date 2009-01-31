@@ -410,19 +410,19 @@ function addDownload($image, $linkText, $desc, $url) {
 
 		$size = intval(filesize("downloads/scummvm_debian_i386.deb")/1024);
 		$date = date("F j, Y, g:i a",filemtime("downloads/scummvm_debian_i386.deb"));
-		addDownload("catpl-debian", "Debian i386 ScummVM Daily Snapshot", "(" . $size ."K exe file, last update: $date)", "http://scummvm.sourceforge.net/downloads/scummvm_debian_i386.deb");
+		addDownload("catpl-debian", "Debian i386 ScummVM Daily Snapshot", "(" . $size ."K deb file, last update: $date)", "http://scummvm.sourceforge.net/downloads/scummvm_debian_i386.deb");
 
 		$size = intval(filesize("downloads/scummvm_debian_amd64.deb")/1024);
 		$date = date("F j, Y, g:i a",filemtime("downloads/scummvm_debian_amd64.deb"));
-		addDownload("catpl-debian", "Debian x86_64 ScummVM Daily Snapshot", "(" . $size ."K exe file, last update: $date)", "http://scummvm.sourceforge.net/downloads/scummvm_debian_amd64.deb");
+		addDownload("catpl-debian", "Debian x86_64 ScummVM Daily Snapshot", "(" . $size ."K deb file, last update: $date)", "http://scummvm.sourceforge.net/downloads/scummvm_debian_amd64.deb");
 
 		$size = intval(filesize("downloads/scummvm_ubuntu_i386.deb")/1024);
 		$date = date("F j, Y, g:i a",filemtime("downloads/scummvm_ubuntu_i386.deb"));
-		addDownload("catpl-ubuntu", "Ubuntu i386 ScummVM Daily Snapshot", "(" . $size ."K exe file, last update: $date)", "http://scummvm.sourceforge.net/downloads/scummvm_ubuntu_i386.deb");
+		addDownload("catpl-ubuntu", "Ubuntu i386 ScummVM Daily Snapshot", "(" . $size ."K deb file, last update: $date)", "http://scummvm.sourceforge.net/downloads/scummvm_ubuntu_i386.deb");
 
 		$size = intval(filesize("downloads/scummvm_ubuntu_amd64.deb")/1024);
 		$date = date("F j, Y, g:i a",filemtime("downloads/scummvm_ubuntu_amd64.deb"));
-		addDownload("catpl-ubuntu", "Ubuntu x86_64 ScummVM Daily Snapshot", "(" . $size ."K exe file, last update: $date)", "http://scummvm.sourceforge.net/downloads/scummvm_ubuntu_amd64.deb");
+		addDownload("catpl-ubuntu", "Ubuntu x86_64 ScummVM Daily Snapshot", "(" . $size ."K deb file, last update: $date)", "http://scummvm.sourceforge.net/downloads/scummvm_ubuntu_amd64.deb");
 
 		addDownload("catpl-macos", "Mac OS X Snapshots", "(infrequently from Subversion trunk)", "http://worldsmainorganization.org/scummvm/");
 		addDownload("catpl-gp2x", "GP2X Builds", "(infrequent builds from Subversion trunk)", "http://www.distant-earth.com/scummvm/");
