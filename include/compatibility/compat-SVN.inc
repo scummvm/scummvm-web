@@ -21,7 +21,7 @@ $gamesHE = array(
 	'Backyard Baseball'                                                => array('baseball','20'),
 	'Backyard Football'                                                => array('football','80'),
 	'Backyard Soccer'                                                  => array('soccer','20'),
-	'Bear Stormin\''                   			           => array('brstorm','95'),
+	'Bear Stormin\''                                                   => array('brstorm','95'),
 	'Big Thinkers First Grade'                                         => array('thinker1','90'),
 	'Big Thinkers Kindergarten'                                        => array('thinkerk','90'),
 	'Blue\'s 123 Time Activities'                                      => array('Blues123Time','90'),
@@ -85,22 +85,22 @@ $gamesGOB = array(
 	);
 
 $gamesOther = array(
-	'Beneath a Steel Sky'										=> array('sky','98'),
-	'Broken Sword 1: The Shadow of the Templars'				=> array('sword1','98'),
-	'Broken Sword 2: The Smoking Mirror'						=> array('sword2','98'),
-	'Bud Tucker in Double Trouble'						=> array('tucker','95'),
-	'Drascula: The Vampire Strikes Back'						=> array('drascula','98'),	
-	'Flight of the Amazon Queen'								=> array('queen','98'),
-	'Future Wars'												=> array('fw','80'),
-	'I Have No Mouth, and I Must Scream'						=> array('ihnm', '90'),
-	'Inherit the Earth: Quest for the Orb'						=> array('ite', '95'),
-	'Nippon Safes Inc.'											=> array('nippon', '90'),
-	'The Legend of Kyrandia'									=> array('kyra1', '87'),
-	'The Legend of Kyrandia: Book Two: Hand of Fate'			=> array('kyra2', '85'),
-	'The Legend of Kyrandia: Book Three: Malcolm\'s Revenge'	=> array('kyra3', '80'),
-	'The 7th Guest'	=> array('t7g', '95'),
-	'Lure of the Temptress'										=> array('lure', '95'),
-	'Touche: The Adventures of the Fifth Musketeer'				=> array('touche','75'),
+	'Beneath a Steel Sky'                                   => array('sky','98'),
+	'Broken Sword 1: The Shadow of the Templars'            => array('sword1','98'),
+	'Broken Sword 2: The Smoking Mirror'                    => array('sword2','98'),
+	'Bud Tucker in Double Trouble'                          => array('tucker','95'),
+	'Drascula: The Vampire Strikes Back'                    => array('drascula','98'),
+	'Flight of the Amazon Queen'                            => array('queen','98'),
+	'Future Wars'                                           => array('fw','80'),
+	'I Have No Mouth, and I Must Scream'                    => array('ihnm', '90'),
+	'Inherit the Earth: Quest for the Orb'                  => array('ite', '95'),
+	'Nippon Safes Inc.'                                     => array('nippon', '90'),
+	'The Legend of Kyrandia'                                => array('kyra1', '87'),
+	'The Legend of Kyrandia: Book Two: Hand of Fate'        => array('kyra2', '85'),
+	'The Legend of Kyrandia: Book Three: Malcolm\'s Revenge' => array('kyra3', '80'),
+	'The 7th Guest'                                         => array('t7g', '90'),
+	'Lure of the Temptress'                                 => array('lure', '95'),
+	'Touche: The Adventures of the Fifth Musketeer'         => array('touche','75'),
 	);
 
 $gamesAGI = array(
@@ -141,9 +141,9 @@ $notes = array(
 		   "<br>- Amiga, Atari ST, Commodore 64, FM-TOWNS and PC versions supported by this target".
 		   "<br>- No music or sound effects in the Commodore 64 version".
 		   "<br>- Kanji version requires the FM-TOWNS Font ROM",
-"indy3" 	=> "Game is completable".
+"indy3"		=> "Game is completable".
 		   "<br>- Amiga, Atari ST, FM-TOWNS, Macintosh and PC versions supported by this target".
-		   "<br>- There is no support for the Macintosh interface".		   
+		   "<br>- There is no support for the Macintosh interface".
 		   "<br>- Kanji version requires the FM-TOWNS Font ROM",
 "loom"		=> "No known issues, game is completable.".
 		   "<br>- Amiga, Atari ST, FM-TOWNS, Macintosh and PC versions supported by this target".
@@ -201,9 +201,9 @@ $notes = array(
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "thinkerk"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"Blues123Time" => "Game is playable".
+"Blues123Time"	=> "Game is playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
-"BluesABCTime" => "No known issues, game is completable.".
+"BluesABCTime"	=> "No known issues, game is completable.".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
 "BluesBirthday" => "Game is playable".
 		   "<br>- Both Macintosh and Windows versions supported by this target",
@@ -291,20 +291,20 @@ $notes = array(
 		   "<br>- No music in the Atari ST version.".
 		   "<br>- No sound effects in the DOS version.".
 		   "<br>- Palette issues in the Atari ST version.",
-"simon1" 	=> "No known issues, game is completable.".
+"simon1"	=> "No known issues, game is completable.".
 		   "<br>- Acorn, Amiga, DOS and Windows versions supported by this target".
 		   "<br>- No music in Acorn disk version",
 "simon2"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, DOS, Macintosh and Windows versions supported by this target".
 		   "<br>- Only the default language (English) in Amiga &amp; Macintosh versions is supported".
 		   "<br>- F10 key animation is different in Amiga &amp; Macintosh versions",
-"dimp" 		=> "Game is completable".
+"dimp"		=> "Game is completable".
 		   "<br>- Demon takes longer to die, compared to original",
-"jumble" 	=> "Game is completable".
+"jumble"	=> "Game is completable".
 		   "<br>- No support for displaying, entering, loading and saving high scores",
-"puzzle" 	=> "Game is completable".
+"puzzle"	=> "Game is completable".
 		   "<br>- No support for displaying, entering, loading and saving high scores",
-"swampy" 	=> "Game is completable".
+"swampy"	=> "Game is completable".
 		   "<br>- No support for displaying explanation, when clicking on items".
 		   "<br>- No support for displaying, entering, loading and saving high scores",
 "feeble"	=> "No known issues, game is completable.".
@@ -313,7 +313,7 @@ $notes = array(
 		   "<br>- Amiga and DOS versions are supported by this target".
 		   "<br>- No music in the DOS version.",
 
-"bargon"  	=> "Game is completable".
+"bargon"	=> "Game is completable".
 		   "<br>- Amiga, Atari and DOS versions are supported by this target".
 		   "<br>- Issues with the mouse cursor visibility",
 "gob1"		=> "No known issues. Game is completable.".
@@ -335,13 +335,13 @@ $notes = array(
 		   "<br>- PC CD versions are supported by this target".
 		   "<br>- Issues with the mouse cursor visibility".
 		   "<br>- Some object videos flicker the very first frame",
-"ween"  	=> "Game is completable".
+"ween"		=> "Game is completable".
 		   "<br>- Amiga, Atari and DOS versions are supported by this target".
 		   "<br>- Issues with the mouse cursor visibility",
 
-"drascula"	 	=> "No known issues, game is completable.".
+"drascula"	=> "No known issues, game is completable.".
 		   "<br>- Requires the <a href=\"http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/drascula.dat\">drascula.dat</a> resource file to be placed in the game directory",
-"sky"	 	=> "No known issues, game is completable.".
+"sky"		=> "No known issues, game is completable.".
 		   "<br>- Requires the <a href=\"http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/sky.cpt\">sky.cpt</a> resource file to be placed in the game directory".
 		   "<br>- Floppy demos aren't supported".
 		   "<br>- Amiga versions aren't supported".
@@ -365,11 +365,11 @@ $notes = array(
 "ihnm"		=> "Game is completable.".
 		   "<br>- Occasional minor glitches".
 		   "<br>- DOS and Macintosh versions are supported by this target".
-		   "<br>- No music in the Macintosh version.",		   
+		   "<br>- No music in the Macintosh version.",
 "ite"		=> "No known issues, game is completable.".
 		   "<br>- DOS, Linux, Macintosh, MacOS X and Windows versions are supported by this target".
 		   "<br>- Amiga versions aren't supported",
-"nippon"  	=> "Game is completable".
+"nippon"	=> "Game is completable".
 		   "<br>- DOS and Amiga versions are supported by this target".
 		   "<br>- Occasional minor graphical glitches",
 "kyra1"		=> "Game is completable".
@@ -441,8 +441,10 @@ $notes = array(
 		   "<br>- Only DOS version is supported by this target".
 		   "<br>- Game lacks sound",
 "lure"		=> "Game is completable".
-		"<br>- Only DOS VGA version is supported",
-"t7g"	=> "No known issues, game is completable.".
+		   "<br>- Only DOS VGA version is supported",
+"t7g"		=> "Game is completable.".
+		   "<br>- There are some issues with music not playing when it should".
+		   "<br>- The MT-32 instrument definitions aren't supported yet, so it will play with wrong instruments".
 		   "<br>- Only DOS and Windows versions are supported by this target"
 );
 
