@@ -8,7 +8,7 @@
 Most attentive users who watch our development list perhaps noticed that there exists yet another SCI1 engine implementation made from scratch. But for the benefit of everyone it was decided that the joint effort is much better.
 </p>
 
-<p>Of course, don't expect any magic from it. First, the engine is not announced as supported yet. It is in early stages of integration. Then, you should keep in mind that after the merge will settle down, only SCI0, SCI0.1 and SCI1 games will be supported. However, due to fact that some of ScummVM developers are interested in SCI development for some time now, we look forward to speeding up the work on the engine.
+<p>Of course, don't expect any magic from it. First, the engine is not announced as supported yet. It is in early stages of integration. Then, you should keep in mind that after the merge will settle down, only SCI0, SCI01 and SCI1 games will be supported. However, due to the fact that some of ScummVM developers are interested in SCI development for some time now, we look forward to speeding up the work on the engine.
 </p>
 
 <p>In the meantime, please, help us some more with 0.13.0 version <a href="http://forums.scummvm.org/viewtopic.php?t=6773">playtesting</a>.</p>
