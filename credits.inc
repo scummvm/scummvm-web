@@ -41,6 +41,7 @@
 <tr><td style='width:13em; padding:2px;'>Matthew Hoops</td><td style='width:10em; text-align: left;' class='news-author'>clone2727</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Filippos Karapetis</td><td style='width:10em; text-align: left;' class='news-author'>[md5]</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Pawe&#322; Ko&#322;odziejski</td><td style='width:10em; text-align: left;' class='news-author'>aquadran</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Walter van Niftrik</td><td style='width:10em; text-align: left;' class='news-author'>waltervn</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Kari Salminen</td><td style='width:10em; text-align: left;' class='news-author'>Buddha^</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td></td>
 </table>
@@ -123,6 +124,14 @@
 <tr><td style='width:13em; padding:2px;'>Filippos Karapetis</td><td style='width:10em; text-align: left;' class='news-author'>[md5]</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Andrew Kurushin</td><td style='width:10em; text-align: left;' class='news-author'>ajax16384</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Eugene Sandulenko</td><td style='width:10em; text-align: left;' class='news-author'>sev</td><td></td>
+</table>
+<span style='font-weight: bold'>SCI:</span>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Paul Gilbert</td><td style='width:10em; text-align: left;' class='news-author'>dreammaster</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Filippos Karapetis</td><td style='width:10em; text-align: left;' class='news-author'>[md5]</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Walter van Niftrik</td><td style='width:10em; text-align: left;' class='news-author'>waltervn</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Jordi Vilalta Prat</td><td style='width:10em; text-align: left;' class='news-author'>jvprat</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Lars Skovlund</td><td style='width:10em; text-align: left;' class='news-author'>lskovlun</td><td></td>
 </table>
 <span style='font-weight: bold'>Tinsel:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
