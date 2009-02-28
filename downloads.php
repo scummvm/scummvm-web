@@ -63,7 +63,7 @@ function addDownload($image, $linkText, $desc, $url) {
 <?php
   html_nav_item("#stable", $current_release . " Release binaries");
   html_nav_item("#source", $current_release . " Source Code");
-  html_nav_item("#tools", "0.12.0 Tools");
+  html_nav_item("#tools", "$current_tools_release Tools");
   html_nav_item("#older", "Older versions (unsupported)");
   html_nav_item("#extras", "Extras, game downloads");
   html_nav_item("#SVN", "Subversion Builds");
@@ -90,8 +90,8 @@ function addDownload($image, $linkText, $desc, $url) {
 		<LI>For UNSTABLE experimental versions of ScummVM (for people who know what they
 	are doing), please see the <a href="#SVN">Subversion Builds</a> section, near the end of this page.</LI>
 
-		<LI>Also below are the <a href="#extras">Extras</a>. These currently include three
-	  freeware games 'Beneath a Steel Sky', 'Flight of the Amazon Queen' and 'Lure of the Temptress', along with
+		<LI>Also below are the <a href="#extras">Extras</a>. These currently include four
+	  freeware games 'Beneath a Steel Sky', 'Drascula: The Vampire Strikes Back', 'Flight of the Amazon Queen' and 'Lure of the Temptress', along with
     cutscene packs recommended for use when playing Broken Sword 1, 2 or Feeble Files under ScummVM</LI>
 	</UL>
 </td></tr>
@@ -113,76 +113,84 @@ function addDownload($image, $linkText, $desc, $url) {
 
 <?php
 	startDownloadList();
-	
-	addDownload("catpl-windows", "<b>Windows Installer</b>", "(2.7M Win32 .exe)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-win32.exe?download");
 
-	addDownload("catpl-windows", "Windows zipfile", "(3.9M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-win32.zip?download");
+	addDownload("catpl-windows", "<b>Windows Installer</b>", "(2.8M Win32 .exe)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-win32.exe?download");
 
-	addDownload("catpl-fedora", "Fedora 7, 8 and 9 i386 package", "(4.2M RPM)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-1_F8.i386.rpm?download");
+	addDownload("catpl-windows", "Windows zipfile", "(4.1M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-win32.zip?download");
 
-	addDownload("catpl-fedora", "Fedora 7, 8 and 9 x86 64bit package", "(4.0M RPM)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-1_F8.x86_64.rpm?download");
+	addDownload("catpl-fedora", "Fedora 8, 9 and 10 i386 package", "(4.0M RPM)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-1_F8.i386.rpm?download");
 
-	addDownload("catpl-debian", "Debian 4.0 (etch) package", "(2.7M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_0.12.0-0.etch.1_i386.deb?download");
-	
-	addDownload("catpl-slackware", "SlackWare package", "(3.3M .tgz)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0_slack-i486-1.tgz?download");
+	addDownload("catpl-fedora", "Fedora 8, 9 and 10 x86 64bit package", "(4.5M RPM)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-1_F8.x86_64.rpm?download");
 
-/*
+	addDownload("catpl-debian", "Debian 5.0 (lenny) i386 package", "(3.7M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_$current_release-0.lenny.1_i386.deb?download");
+	addDownload("catpl-debian", "Debian 5.0 (lenny) x86 64bit package", "(4.1M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_$current_release-0.lenny.1_amd64.deb?download");
+
+	addDownload("catpl-ubuntu", "Ubuntu 8.10 (intrepid) i386 package", "(3.7M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_$current_release-0.intrepid.1_i386.deb?download");
+	addDownload("catpl-ubuntu", "Ubuntu 8.10 (intrepid) x86 64bit package", "(4.2M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_$current_release-0.intrepid.1_amd64.deb?download");
+
+	addDownload("catpl-slackware", "SlackWare package", "(3.6M .tgz)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release_slack-i486-1.tgz?download");
+
+/*	
 	addDownload("catpl-mandriva", "Mandriva 2006 package", "(1.3M RPM)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-1mdk.i586.rpm?download");
 */
-	
-	addDownload("catpl-macos-universal", "Mac OS X Universal Disk Image", "(7.3M disk image)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-macosx.dmg?download");
 
-		addDownload("catpl-ps2", "PlayStation2 package", "(4.5M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-ps2.zip?download");
-
-		addDownload("catpl-psp", "PSP (PlayStation Portable) package", "(7.0M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-psp.zip?download");
+	addDownload("catpl-macos-universal", "Mac OS X Universal Disk Image", "(8.0M disk image)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-macosx.dmg?download");
 
 /*
-		addDownload("catpl-ds", "Nintendo DS package", "(7.3M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-ds.zip?download");
+	addDownload("catpl-ps2", "PlayStation2 package", "(4.5M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-ps2.zip?download");
 */
 
-		addDownload("catpl-symbian", "Symbian S60 version 3 binary", "(3.6M .sis)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-s60-v3.sis?download");
-		addDownload("catpl-uiq", "Symbian UIQ 3 binary", "(3.6M .sis)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-uiq3.sis?download");
+	addDownload("catpl-psp", "PSP (PlayStation Portable) package", "(8.4M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-psp.zip?download");
 
 /*
-		addDownload("catpl-palmos", "PalmOS 5 binary", "(7.8M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-palmos-os5.zip?download");
-		addDownload("catpl-palmos", "PalmOS Tapwave Zodiac binary", "(8.0M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-palmos-zodiac.zip?download");
+	addDownload("catpl-ds", "Nintendo DS package", "(7.3M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-ds.zip?download");
+
+*/
+	addDownload("catpl-symbian", "Symbian S60 version 3 binary", "(4.5M .sis)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-s60-v3.sis?download");
+	addDownload("catpl-uiq", "Symbian UIQ 3 binary", "(4.5M .sis)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-uiq3.sis?download");
+
+/*
+	addDownload("catpl-palmos", "PalmOS 5 binary", "(7.8M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-palmos-os5.zip?download");
+	addDownload("catpl-palmos", "PalmOS Tapwave Zodiac binary", "(8.0M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-palmos-zodiac.zip?download");
 */
 
-		addDownload("catpl-wince", "Windows CE ARM package", "(4.7M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-WinCE.zip?download");
+	addDownload("catpl-wince", "Windows CE ARM package", "(6.1M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-WinCE.zip?download");
 
-		addDownload("catpl-iphone", "iPhone package", "(5.2M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-iphone.deb?download");
+	addDownload("catpl-iphone", "iPhone package", "(5.8M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-iphone.deb?download");
 
 /*
-		addDownload("catpl-opie", "Opie SDL package <b>Only</b> for iPAQ h1910/h1915 and MyPal 716", "(3.6M .ipk)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-opie_arm.ipk?download");
+	addDownload("catpl-opie", "Opie SDL package <b>Only</b> for iPAQ h1910/h1915 and MyPal 716", "(3.6M .ipk)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-opie_arm.ipk?download");
 */
 
-		addDownload("catpl-maemo", "Maemo package (OS 2006, 2007 and 2008)", "(2.8M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_0.12.0_armel.deb?download");
-		addDownload("catpl-maemo", "Maemo single click install package for N770/OS2006", "(Most recent version from Maemo Extras repository)", "http://downloads.maemo.org/product/OS2006/scummvm/");
-		addDownload("catpl-maemo", "Maemo single click install package for N800/OS2007", "(Most recent version from Maemo Extras repository)", "http://downloads.maemo.org/product/OS2007/scummvm/");
-		addDownload("catpl-maemo", "Maemo single click install package for N8x0/OS2008", "(Most recent version from Maemo Extras repository)", "http://downloads.maemo.org/product/OS2008/scummvm/");
+	addDownload("catpl-maemo", "Maemo package (OS 2006, 2007 and 2008)", "(3.1M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_$current_release_armel.deb?download");
+	addDownload("catpl-maemo", "Maemo single click install package for N770/OS2006", "(Most recent version from Maemo Extras repository)", "http://downloads.maemo.org/product/OS2006/scummvm/");
+	addDownload("catpl-maemo", "Maemo single click install package for N800/OS2007", "(Most recent version from Maemo Extras repository)", "http://downloads.maemo.org/product/OS2007/scummvm/");
+	addDownload("catpl-maemo", "Maemo single click install package for N8x0/OS2008", "(Most recent version from Maemo Extras repository)", "http://downloads.maemo.org/product/OS2008/scummvm/");
 
-		addDownload("catpl-dc", "Dreamcast plain files", "(6.4M .tar.bz2)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-dreamcast-plainfiles.tar.bz2?download");
-		addDownload("catpl-dc", "Dreamcast Nero Image &amp; Demos", "(11.7M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-dreamcast-nero+demos.zip?download");
+	addDownload("catpl-dc", "Dreamcast plain files", "(7.1M .tar.bz2)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-dreamcast-plainfiles.tar.bz2?download");
+	addDownload("catpl-dc", "Dreamcast Nero Image &amp; Demos", "(13.0M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-dreamcast-nero+demos.zip?download");
 
-		addDownload("catpl-gc", "Nintendo GameCube package", "(3.7M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-gamecube.zip?download");
-		addDownload("catpl-wii", "Wii package", "(3.8M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-wii.zip?download");
-
-		addDownload("catpl-gp2x", "GP2X package", "(4.3M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-gp2x.zip?download");
-
-		addDownload("catpl-solaris", "Solaris 8 and up (Sparc) binary", "(4.4M .tar.bz2)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-solaris8-sparc.tar.bz2?download");	
-		addDownload("catpl-solaris", "Solaris 10 (both IA32 and AMD64) binary", "(10.2M .pkg.bz2)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-solaris10-x86.pkg.bz2?download");
-
-		addDownload("catpl-beos", "BeOS package", "(4.4M pkg)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-beos.tar.gz?download");
-
-		addDownload("catpl-amiga", "AmigaOS 4 package", "(6.6M .lha)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-amigaos4.lha?download");
+	addDownload("catpl-gc", "Nintendo GameCube package", "(3.6M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-gamecube.zip?download");
+	addDownload("catpl-wii", "Wii package", "(3.7M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-wii.zip?download");
 
 /*
+	addDownload("catpl-gp2x", "GP2X package", "(4.3M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-gp2x.zip?download");
+*/
+
+		addDownload("catpl-solaris", "Solaris 8 and up (Sparc) binary", "(4.8M .tar.bz2)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-solaris8-sparc.tar.bz2?download");	
+		addDownload("catpl-solaris", "Solaris 10 (both IA32 and AMD64) binary", "(11.1M .pkg.bz2)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-solaris10-x86.pkg.bz2?download");
+
+		addDownload("catpl-beos", "BeOS package", "(4.9M .tgz)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-beos.tgz?download");
+
+		addDownload("catpl-amiga", "AmigaOS 4 package", "(7.0M .lha)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-amigaos4.lha?download");
+/*
+
 		addDownload("catpl-morphos", "MorphOS package", "(4.2M .lha)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.0-morphos.lha?download");
 */
 
-		addDownload("catpl-freemint", "Atari/FreeMiNT package (68020 and up)", "(3.9M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-atari.zip?download");
+		addDownload("catpl-freemint", "Atari/FreeMiNT package (68020 and up)", "(4.1M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-atari.zip?download");
 
-		addDownload("catpl-os2", "OS/2 package", "(4.9M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-os2.zip?download");
+		addDownload("catpl-os2", "OS/2 package", "(4.9M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-os2.zip?download");
 
 	endDownloadList();
 ?>
@@ -197,10 +205,10 @@ function addDownload($image, $linkText, $desc, $url) {
 <?php
 	startDownloadList();
 	
-		addDownload("catpl-cpp", "ScummVM - Source .tar.bz2", "(5.7M)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release.tar.bz2?download");
-		addDownload("catpl-cpp", "ScummVM - Source .tar.gz", "(7.0M)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release.tar.gz?download");
-		addDownload("catpl-cpp", "ScummVM - Source .zip", "(8.7M)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release.zip?download");
-		addDownload("catpl-cpp", "ScummVM - Source RPM", "(6.4M RPM)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-1.src.rpm?download");
+		addDownload("catpl-cpp", "ScummVM - Source .tar.bz2", "(6.8M)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release.tar.bz2?download");
+		addDownload("catpl-cpp", "ScummVM - Source .tar.gz", "(8.2M)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release.tar.gz?download");
+		addDownload("catpl-cpp", "ScummVM - Source .zip", "(10.2M)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release.zip?download");
+		addDownload("catpl-cpp", "ScummVM - Source RPM", "(7.5M RPM)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-1.src.rpm?download");
 
 	endDownloadList();
 ?>
@@ -208,32 +216,32 @@ function addDownload($image, $linkText, $desc, $url) {
     </div>
 
     <a name="tools"></a>
-    <?php html_subhead_start("0.12.0 Tools (mostly unsupported)"); ?>
+    <?php html_subhead_start("$current_tools_release Tools (mostly unsupported)"); ?>
 
     <div class="par-subhead-content">
 
 <?php
 	startDownloadList();
-	
-		addDownload("catpl-windows", "Tools - Windows Installer", "(916k Win32 .exe)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-win32.exe?download");
-		addDownload("catpl-windows", "Tools - Windows zipfile", "(3,4M Win32 .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-win32.zip?download");
+		addDownload("catpl-windows", "Tools - Windows Installer", "(943k Win32 .exe)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-$current_tools_release-win32.exe?download");
+		addDownload("catpl-windows", "Tools - Windows zipfile", "(3,8M Win32 .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-$current_tools_release-win32.zip?download");
 
-		addDownload("catpl-fedora", "Tools - Fedora 7, 8 and 9 i386 RPM", "(245k .rpm)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-1_F8.i386.rpm?download");
-		addDownload("catpl-fedora", "Tools - Fedora 7, 8 and 9 x86 64bit RPM", "(278k .rpm)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-1_F8.x86_64.rpm?download");
+		addDownload("catpl-fedora", "Tools - Fedora 8, 9 and 10 i386 RPM", "(268k .rpm)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-$current_tools_release-1_F8.i386.rpm?download");
+		addDownload("catpl-fedora", "Tools - Fedora 8, 9 and 10 x86 64bit RPM", "(303k .rpm)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-$current_tools_release-1_F8.x86_64.rpm?download");
 
-		addDownload("catpl-macos-universal", "Tools - Mac OS X Universal binaries (10.3.9 and up)", "(9.0M .tar.bz2)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-macosx.tar.bz2?download");
+		addDownload("catpl-macos-universal", "Tools - Mac OS X Universal binaries (10.3.9 and up)", "(9.8M .tar.bz2)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-$current_tools_release-macosx.tar.bz2?download");
 
-		addDownload("catpl-solaris", "Tools - Solaris 8 (Sparc)", "(148k .tar.bz2)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-solaris8-sparc.tar.bz2?download");
-		addDownload("catpl-solaris", "Tools - Solaris 10 (both IA32 and AMD64)", "(4.8M .pkg.bz2)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-solaris10-x86.pkg.bz2?download");
+		addDownload("catpl-solaris", "Tools - Solaris 8 (Sparc)", "(445k .tar.bz2)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-$current_tools_release-solaris8-sparc.tar.bz2?download");
+		addDownload("catpl-solaris", "Tools - Solaris 10 (both IA32 and AMD64)", "(4.8M .pkg.bz2)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-$current_tools_release-solaris10-x86.pkg.bz2?download");
 
-		addDownload("catpl-amiga", "Tools - AmigaOS 4", "(7.7M .lha)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-amigaos4.lha?download");
+		addDownload("catpl-amiga", "Tools - AmigaOS 4", "(7.5M .lha)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-$current_tools_release-amigaos4.lha?download");
 
+		addDownload("catpl-beos", "Tools - BeOS", "(1.3M .tgz)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-$current_tools_release-beos.tgz?download");
 
-		addDownload("catpl-cpp", "Tools - Source .tar.bz2", "(178k .tar.bz2)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0.tar.bz2?download");
-		addDownload("catpl-cpp", "Tools - Source .tar.gz", "(215k .tar.gz)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0.tar.gz?download");
-		addDownload("catpl-cpp", "Tools - Source .zip", "(325k .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0.zip?download");
+		addDownload("catpl-cpp", "Tools - Source .tar.bz2", "(272k .tar.bz2)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-$current_tools_release.tar.bz2?download");
+		addDownload("catpl-cpp", "Tools - Source .tar.gz", "(330k .tar.gz)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-$current_tools_release.tar.gz?download");
+		addDownload("catpl-cpp", "Tools - Source .zip", "(372k .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-$current_tools_release.zip?download");
 
-		addDownload("catpl-cpp", "Tools - Source RPM", "(181k .rpm)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-0.12.0-1.src.rpm?download");
+		addDownload("catpl-cpp", "Tools - Source RPM", "(274k .rpm)", "http://prdownloads.sourceforge.net/scummvm/scummvm-tools-$current_tools_release-1.src.rpm?download");
 
 	endDownloadList();
 ?>
@@ -257,6 +265,10 @@ function addDownload($image, $linkText, $desc, $url) {
 <?php
 	startDownloadList();
 	
+		addDownload("catpl-ps2", "PlayStation2 package", "(4.5M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-ps2.zip?download");
+
+		addDownload("catpl-gp2x", "GP2X package", "(4.3M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-gp2x.zip?download");
+
 		addDownload("catpl-ds", "0.11.1 Nintendo DS package", "(7.3M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-ds.zip?download");
 
 		addDownload("catpl-palmos", "0.11.1 PalmOS 5 binary", "(7.8M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-palmos-os5.zip?download");
