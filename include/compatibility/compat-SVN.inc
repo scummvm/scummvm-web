@@ -71,7 +71,7 @@ $gamesAGOS = array(
 	'Simon the Sorcerer\'s Puzzle Pack - NoPatience'        => array('puzzle','70'),
 	'Simon the Sorcerer\'s Puzzle Pack - Swampy Adventures' => array('swampy','70'),
 	'The Feeble Files'                                      => array('feeble','95'),
-	'Waxworks'                                              => array('waxworks','10'),
+	'Waxworks'                                              => array('waxworks','20'),
 	);
 
 $gamesGOB = array(
