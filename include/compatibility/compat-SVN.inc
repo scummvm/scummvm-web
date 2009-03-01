@@ -308,7 +308,7 @@ $notes = array(
 		   "<br>- No support for displaying, entering, loading and saving high scores",
 "feeble"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, Macintosh and Windows versions supported by this target",
-"waxworks"	=> "No known issues, game is playable.".
+"waxworks"	=> "No known issues, game is playable, but not confirmed as completable.".
 		   "<br>- Amiga and DOS versions are supported by this target".
 		   "<br>- No music in the DOS version.",
 

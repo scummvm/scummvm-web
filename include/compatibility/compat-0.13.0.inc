@@ -71,7 +71,7 @@ $gamesAGOS = array(
 	'Simon the Sorcerer\'s Puzzle Pack - NoPatience'        => array('puzzle','70'),
 	'Simon the Sorcerer\'s Puzzle Pack - Swampy Adventures' => array('swampy','70'),
 	'The Feeble Files'                                      => array('feeble','95'),
-	'Waxworks'                                              => array('waxworks','10'),
+	'Waxworks'                                              => array('waxworks','20'),
 	);
 
 $gamesGOB = array(
@@ -309,7 +309,7 @@ $notes = array(
 		   "<br>- No support for displaying, entering, loading and saving high scores",
 "feeble"	=> "No known issues, game is completable.".
 		   "<br>- Amiga, Macintosh and Windows versions supported by this target",
-"waxworks"	=> "No known issues, game is playable.".
+"waxworks"	=> "No known issues, game is playable, but not confirmed as completable.".
 		   "<br>- Amiga and DOS versions are supported by this target".
 		   "<br>- No music in the DOS version.",
 
