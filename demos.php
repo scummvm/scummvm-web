@@ -241,6 +241,8 @@ $AGOS_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/elvira1_demo_ami.zip', 'elvira1'),
 	'Elvira - Mistress of Darkness (Atari ST demo - Non interactive)'
 		=> array('http://quick.mixnmojo.com/demos/elvira1_demo_st.zip', 'elvira1'),
+	'Elvira - Mistress of Darkness (DOS demo - Non interactive)'
+		=> array('http://cd.textfiles.com/ugameware/DEMO/ELVIRDMO.ZIP', 'elvira1'),
 	'Simon the Sorcerer 1 (Amiga demo)'
 		=> array('http://quick.mixnmojo.com/demos/simon1amigademo.zip', 'simon1'),
 	'Simon the Sorcerer 1 (DOS demo)'
@@ -301,7 +303,7 @@ $MISC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/igor110_demo.zip', 'igor'),
 	'I Have No Mouth And I Must Scream (DOS demo)'
 		=> array('http://quick.mixnmojo.com/demos/ihnmdemo.zip', 'ihnm'),
-	'Lands of Lore: The Throne of Chaos (DOS demo - Non-interactive) - Requires ScummVM 0.13.0svn'
+	'Lands of Lore: The Throne of Chaos (DOS demo - Non-interactive) - Requires ScummVM 0.14.0svn'
 		=> array('ftp://ftp.westwood.com/pub/lands1/previews/demos/loredemo.exe', 'lol'),
 	'Nippon Safes (Amiga demo)'
 		=> array('http://quick.mixnmojo.com/demos/nippon_demo_ami.zip', 'nippon'),
