@@ -289,8 +289,7 @@ $notes = array(
 		   "<br>- Amiga and Atari ST and DOS versions are supported by this target".
 		   "<br>- Commodore 64 version doesn't use AGOS, so will never be supported.".
 		   "<br>- No music in the Atari ST version.".
-		   "<br>- No sound effects in the DOS version.".
-		   "<br>- Palette issues in the Atari ST version.",
+		   "<br>- No sound effects in the DOS version.",
 "simon1"	=> "No known issues, game is completable.".
 		   "<br>- Acorn, Amiga, DOS and Windows versions supported by this target".
 		   "<br>- No music in Acorn disk version",
