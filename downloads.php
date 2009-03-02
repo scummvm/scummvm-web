@@ -128,7 +128,7 @@ function addDownload($image, $linkText, $desc, $url) {
 	addDownload("catpl-ubuntu", "Ubuntu 8.10 (intrepid) i386 package", "(3.7M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_$current_release-0.intrepid.1_i386.deb?download");
 	addDownload("catpl-ubuntu", "Ubuntu 8.10 (intrepid) x86 64bit package", "(4.2M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_$current_release-0.intrepid.1_amd64.deb?download");
 
-	addDownload("catpl-slackware", "SlackWare package", "(3.6M .tgz)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release_slack-i486-1.tgz?download");
+	addDownload("catpl-slackware", "SlackWare package", "(3.6M .tgz)", "http://prdownloads.sourceforge.net/scummvm/scummvm-".$current_release."_slack-i486-1.tgz?download");
 
 /*	
 	addDownload("catpl-mandriva", "Mandriva 2006 package", "(1.3M RPM)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-1mdk.i586.rpm?download");
@@ -162,7 +162,7 @@ function addDownload($image, $linkText, $desc, $url) {
 	addDownload("catpl-opie", "Opie SDL package <b>Only</b> for iPAQ h1910/h1915 and MyPal 716", "(3.6M .ipk)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-opie_arm.ipk?download");
 */
 
-	addDownload("catpl-maemo", "Maemo package (OS 2006, 2007 and 2008)", "(3.1M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_$current_release_armel.deb?download");
+	addDownload("catpl-maemo", "Maemo package (OS 2006, 2007 and 2008)", "(3.1M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_".$current_release."_armel.deb?download");
 	addDownload("catpl-maemo", "Maemo single click install package for N770/OS2006", "(Most recent version from Maemo Extras repository)", "http://downloads.maemo.org/product/OS2006/scummvm/");
 	addDownload("catpl-maemo", "Maemo single click install package for N800/OS2007", "(Most recent version from Maemo Extras repository)", "http://downloads.maemo.org/product/OS2007/scummvm/");
 	addDownload("catpl-maemo", "Maemo single click install package for N8x0/OS2008", "(Most recent version from Maemo Extras repository)", "http://downloads.maemo.org/product/OS2008/scummvm/");
