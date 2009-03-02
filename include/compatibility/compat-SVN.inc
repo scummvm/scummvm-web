@@ -351,8 +351,7 @@ $notes = array(
 		   "<br>- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders".
 		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
 "sword1"	=> "No known issues, game is completable.".
-		   "<br>- DOS and Macintosh versions are supported by this target".
-		   "<br>- PlayStation 1 version isn't supported.",
+		   "<br>- Windows, Macintosh, and PlayStation versions are supported by this target",
 "sword2"	=> "No known issues, game is completable.".
 		   "<br>- PlayStation 1 version isn't supported.",
 "queen"		=> "No known issues, game is completable.".
