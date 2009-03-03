@@ -265,9 +265,9 @@ function addDownload($image, $linkText, $desc, $url) {
 <?php
 	startDownloadList();
 	
-		addDownload("catpl-ps2", "PlayStation2 package", "(4.5M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-ps2.zip?download");
+		addDownload("catpl-ps2", "0.12.0 PlayStation2 package", "(4.5M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-ps2.zip?download");
 
-		addDownload("catpl-gp2x", "GP2X package", "(4.3M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-gp2x.zip?download");
+		addDownload("catpl-gp2x", "0.12.0 GP2X package", "(4.3M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.12.0-gp2x.zip?download");
 
 		addDownload("catpl-ds", "0.11.1 Nintendo DS package", "(7.3M .zip)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.11.1-ds.zip?download");
 
