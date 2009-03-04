@@ -72,9 +72,9 @@ You can try compiled engine for:
 <p><img src='images/catpl-debian.png' alt='' width=24 height=24 style='vertical-align: middle;'>
 <a href="downloads/residual_debian_i386.deb">Debian i386</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/residual_debian_i386.deb")/1024) ?>K deb file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/residual_debian_i386.deb")); ?>)</small></p>
 <p><img src='images/catpl-debian.png' alt='' width=24 height=24 style='vertical-align: middle;'>
-<a href="downloads/residual_debian_i386.deb">Debian x86_64</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/residual_debian_amd64.deb")/1024) ?>K deb file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/residual_debian_amd64.deb")); ?>)</small></p>
+<a href="downloads/residual_debian_amd64.deb">Debian x86_64</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/residual_debian_amd64.deb")/1024) ?>K deb file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/residual_debian_amd64.deb")); ?>)</small></p>
 <p><img src='images/catpl-ubuntu.png' alt='' width=24 height=24 style='vertical-align: middle;'>
-<a href="downloads/residual_ubuntu_amd64.deb">Ubuntu i386</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/residual_ubuntu_i386.deb")/1024) ?>K deb file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/residual_ubuntu_i386.deb")); ?>)</small></p>
+<a href="downloads/residual_ubuntu_i386.deb">Ubuntu i386</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/residual_ubuntu_i386.deb")/1024) ?>K deb file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/residual_ubuntu_i386.deb")); ?>)</small></p>
 <p><img src='images/catpl-ubuntu.png' alt='' width=24 height=24 style='vertical-align: middle;'>
 <a href="downloads/residual_ubuntu_amd64.deb">Ubuntu x86_64</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/residual_ubuntu_amd64.deb")/1024) ?>K deb file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/residual_ubuntu_amd64.deb")); ?>)</small></p>
 <p></p>
