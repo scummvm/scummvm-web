@@ -439,7 +439,7 @@ function addDownload($image, $linkText, $desc, $url) {
 		addDownload("catpl-gp2x", "GP2X Builds", "(infrequent builds from Subversion trunk)", "http://www.distant-earth.com/scummvm/");
 
 
-		addDownload("catpl-symbian", "SymbianOS Subversion Builds", "", "http://anotherguest.k0.se/cvsbuilds/");
+		addDownload("catpl-symbian", "SymbianOS Subversion Builds", "", "http://anotherguest.se/cvsbuilds/");
 
 		addDownload("catpl-cpp", "Subversion Instructions", "(for if you wish to retrieve the latest code to compile yourself)", "http://sourceforge.net/svn/?group_id=37116");
 
