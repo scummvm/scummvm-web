@@ -1,7 +1,7 @@
 <NAME>You are standing in a open field, west of a white house, with a boarded front door.</NAME>
 <DATE>March 7, 2009</DATE>
 <AUTHOR>md5</AUTHOR>
-<body>
+<BODY>
 <p>As you open the mailbox behind the white house, a wizard tells you that you're the lucky
  sweepstakes winner, who can now play several great game titles by Activision under ScummVM!</p>
 
@@ -10,11 +10,11 @@
  Funscreen</p>
 
 <p>All you need to have is a copy of one of the aforementioned Activision games, and a new 
- <a href="http://www.scummvm.org/downloads.php#SVN">daily build</a> of ScummVM.
+ <a href="http://www.scummvm.org/downloads.php#SVN">daily build</a> of ScummVM.</p>
  
 <p>If you find any bugs, you're welcome to report them to our <a href="http://sourceforge.net/tracker/?atid=418820&amp;group_id=37116&amp;func=browse">
 bug tracker</a>. Screenshots are also needed, which you can submit following our <a
 href="http://wiki.scummvm.org/index.php/Screenshots">Screenshot submission guidelines</a>.</p>
 
-</body>
+</BODY>
 
