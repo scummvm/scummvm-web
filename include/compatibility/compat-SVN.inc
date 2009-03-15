@@ -441,7 +441,6 @@ $notes = array(
 "lure"		=> "Game is completable".
 		   "<br>- Only DOS VGA version is supported",
 "t7g"		=> "Game is completable.".
-		   "<br>- There are some issues with music not playing when it should".
 		   "<br>- The MT-32 instrument definitions aren't supported yet, so it will play with wrong instruments".
 		   "<br>- Only DOS and Windows versions are supported by this target"
 );
