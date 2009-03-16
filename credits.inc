@@ -48,6 +48,7 @@
 <span style='font-weight: bold'>AGOS:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Torbj&ouml;rn Andersson</td><td style='width:10em; text-align: left;' class='news-author'>eriktorbjorn</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Paul Gilbert</td><td style='width:10em; text-align: left;' class='news-author'>dreammaster</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Travis Howell</td><td style='width:10em; text-align: left;' class='news-author'>Kirben</td><td></td>
 </table>
 <span style='font-weight: bold'>BASS:</span>
@@ -127,7 +128,9 @@
 </table>
 <span style='font-weight: bold'>SCI:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Greg Frieger</td><td style='width:10em; text-align: left;' class='news-author'>_FRG_</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Paul Gilbert</td><td style='width:10em; text-align: left;' class='news-author'>dreammaster</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Max Horn</td><td style='width:10em; text-align: left;' class='news-author'>Fingolfin</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Filippos Karapetis</td><td style='width:10em; text-align: left;' class='news-author'>[md5]</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Walter van Niftrik</td><td style='width:10em; text-align: left;' class='news-author'>waltervn</td><td></td>
 <tr><td style='width:13em; padding:2px;'>Jordi Vilalta Prat</td><td style='width:10em; text-align: left;' class='news-author'>jvprat</td><td></td>
@@ -239,6 +242,50 @@
 <tr><td style='width:13em; padding:2px;'>Joachim Eberhard</td><td style='width:10em; text-align: left;' class='news-author'>joachimeberhard</td><td>Numerous contributions to documentation</td>
 <tr><td style='width:13em; padding:2px;'>Matthew Hoops</td><td style='width:10em; text-align: left;' class='news-author'>clone2727</td><td>Wiki editor</td>
 </table>
+</div>
+<div class='par-subhead'>FreeSCI Contributors</div>
+<div class='par-subhead-dots'>&nbsp;</div>
+<div class='par-subhead-content'>
+<table style='margin-left:2em; margin-bottom: 1em'>
+<tr><td style='width:13em; padding:2px;'>Anders Baden Nielsen</td><td></td><td>PPC testing</td>
+<tr><td style='width:13em; padding:2px;'>Bas Zoetekouw</td><td></td><td>Man pages, debian package management, CVS maintenance</td>
+<tr><td style='width:13em; padding:2px;'>Carl Muckenhoupt</td><td></td><td>Sources to the SCI resource viewer tools that started it all</td>
+<tr><td style='width:13em; padding:2px;'>Chris Kehler</td><td></td><td>Makefile enhancements</td>
+<tr><td style='width:13em; padding:2px;'>Christoph Reichenbach</td><td></td><td>UN*X code, VM/Graphics/Sound/other infrastructure</td>
+<tr><td style='width:13em; padding:2px;'>Christopher T. Lansdown</td><td></td><td>Original CVS maintainer, Alpha compatibility fixes</td>
+<tr><td style='width:13em; padding:2px;'>Claudio Matsuoka</td><td></td><td>CVS snapshots, daily builds, BeOS and cygwin ports</td>
+<tr><td style='width:13em; padding:2px;'>Dark Minister</td><td></td><td>SCI research (bytecode and parser)</td>
+<tr><td style='width:13em; padding:2px;'>Dmitry Jemerov</td><td></td><td>Port to the Win32 platform, numerous bugfixes</td>
+<tr><td style='width:13em; padding:2px;'>Emmanuel Jeandel</td><td></td><td>Bugfixes and bug reports</td>
+<tr><td style='width:13em; padding:2px;'>Francois-R Boyer</td><td></td><td>MT-32 information and mapping code</td>
+<tr><td style='width:13em; padding:2px;'>George Reid</td><td></td><td>FreeBSD package management</td>
+<tr><td style='width:13em; padding:2px;'>Hubert Maier</td><td></td><td>AmigaOS 4 port</td>
+<tr><td style='width:13em; padding:2px;'>Hugues Valois</td><td></td><td>Game selection menu</td>
+<tr><td style='width:13em; padding:2px;'>Johannes Manhave</td><td></td><td>Document format translation</td>
+<tr><td style='width:13em; padding:2px;'>Jordi Vilalta</td><td></td><td>Numerous code and website clean-up patches</td>
+<tr><td style='width:13em; padding:2px;'>Lars Skovlund</td><td></td><td>Project maintenance, most documentation, bugfixes, SCI1 support</td>
+<tr><td style='width:13em; padding:2px;'>Magnus Reftel</td><td></td><td>Heap implementation, Python class viewer, bugfixes</td>
+<tr><td style='width:13em; padding:2px;'>Matt Hargett</td><td></td><td>Clean-ups, bugfixes, Hardcore QA, Win32</td>
+<tr><td style='width:13em; padding:2px;'>Max Horn</td><td></td><td>SetJump implementation</td>
+<tr><td style='width:13em; padding:2px;'>Paul David Doherty</td><td></td><td>Game version information</td>
+<tr><td style='width:13em; padding:2px;'>Petr Vyhnak</td><td></td><td>The DCL-INFLATE algorithm, many Win32 improvements</td>
+<tr><td style='width:13em; padding:2px;'>Rainer Canavan</td><td></td><td>IRIX MIDI driver and bug fixes</td>
+<tr><td style='width:13em; padding:2px;'>Rainer De Temple</td><td></td><td>SCI research</td>
+<tr><td style='width:13em; padding:2px;'>Ravi I.</td><td></td><td>SCI0 sound resource specification</td>
+<tr><td style='width:13em; padding:2px;'>Ruediger Hanke</td><td></td><td>Port to the MorphOS platform</td>
+<tr><td style='width:13em; padding:2px;'>Rune Orsval</td><td></td><td>Configuration file editor</td>
+<tr><td style='width:13em; padding:2px;'>Rickard Lind</td><td></td><td>MT32->GM MIDI mapping magic, sound research</td>
+<tr><td style='width:13em; padding:2px;'>Rink Springer</td><td></td><td>Port to the DOS platform, several bug fixes</td>
+<tr><td style='width:13em; padding:2px;'>Robey Pointer</td><td></td><td>Bug tracking system hosting</td>
+<tr><td style='width:13em; padding:2px;'>Sergey Lapin</td><td></td><td>Port of Carl's type 2 decompression code</td>
+<tr><td style='width:13em; padding:2px;'>Solomon Peachy</td><td></td><td>SDL ports and much of the sound subsystem</td>
+<tr><td style='width:13em; padding:2px;'>Vyacheslav Dikonov</td><td></td><td>Config script improvements</td>
+<tr><td style='width:13em; padding:2px;'>Walter van Niftrik</td><td></td><td>Ports to the Dreamcast and GP32 platforms</td>
+<tr><td style='width:13em; padding:2px;'>Xiaojun Chen</td><td></td><td></td>
+<tr><td style='width:13em; padding:2px;'>Sean Terrell</td><td></td><td></td>
+</table>
+<p style='margin-left:2em; margin-bottom: 1em'>Special thanks to Prof. Dr. Gary Nutt for allowing the FreeSCI VM extension as a course project in his Advanced OS course</p>
+<p style='margin-left:2em; margin-bottom: 1em'>Special thanks to Bob Heitman and Corey Cole for their support of FreeSCI</p>
 </div>
 <div class='par-subhead'>Retired Team Members</div>
 <div class='par-subhead-dots'>&nbsp;</div>
