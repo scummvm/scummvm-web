@@ -351,15 +351,15 @@ $notes = array(
 		   "<br>- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders".
 		   "<br>- Special characters for french and italian subtitles are incorrect sometimes",
 "sword1"	=> "No known issues, game is completable.".
-		   "<br>- Windows, Macintosh, and PlayStation versions are supported by this target",
+		   "<br>- DOS, Macintosh, PlayStation and Windows versions are supported by this target",
 "sword2"	=> "No known issues, game is completable.".
-		   "<br>- PlayStation 1 version isn't supported.",
+		   "<br>- PlayStation and Windows versions are supported by this target",
 "queen"		=> "No known issues, game is completable.".
 		   "<br>- Some versions may require the <a href=\"http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/queen.tbl\">queen.tbl</a> resource file to be placed in the game directory. This is not required for the freeware releases.".
 		   "<br>- Amiga and DOS versions supported by this target.",
 "fw"		=> "Game is completable".
 		   "<br>- Occasional graphical glitches".
-		   "<br>- DOS, Amiga and Atari versions are supported",
+		   "<br>- Amiga, Atari and DOS versions are supported by this target",
 "ihnm"		=> "Game is completable.".
 		   "<br>- Occasional minor glitches".
 		   "<br>- DOS and Macintosh versions are supported by this target".
@@ -368,7 +368,7 @@ $notes = array(
 		   "<br>- DOS, Linux, Macintosh, MacOS X and Windows versions are supported by this target".
 		   "<br>- Amiga versions aren't supported",
 "nippon"	=> "Game is completable".
-		   "<br>- DOS and Amiga versions are supported by this target".
+		   "<br>- Amiga and DOS versions are supported by this target".
 		   "<br>- Occasional minor graphical glitches",
 "kyra1"		=> "Game is completable".
 		   "<br>- Requires the <a href=\"http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory".
