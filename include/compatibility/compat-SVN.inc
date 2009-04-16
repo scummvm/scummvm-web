@@ -376,7 +376,7 @@ $notes = array(
 		   "<br>- Amiga versions aren't supported".
 		   "<br>".
 		   "<br>- Occasional graphics glitches".
-		   "<br>- No music or sound effects in the Macintosh floopy version".
+		   "<br>- No music or sound effects in the Macintosh floppy version".
 		   "<br>- Macintosh CD is using included DOS music and sound effects".
 		   "<br>- PC-9821 version lacks support for sound effects",
 "kyra2"		=> "Game is completable".
