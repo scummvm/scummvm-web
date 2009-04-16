@@ -376,7 +376,8 @@ $notes = array(
 		   "<br>- Amiga versions aren't supported".
 		   "<br>".
 		   "<br>- Occasional graphics glitches".
-		   "<br>- No music or sound effects in the Macintosh version".
+		   "<br>- No music or sound effects in the Macintosh floopy version".
+		   "<br>- Macintosh CD is using included DOS music and sound effects".
 		   "<br>- PC-9821 version lacks support for sound effects",
 "kyra2"		=> "Game is completable".
 		   "<br>- Requires the <a href=\"http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/kyra.dat\">kyra.dat</a> resource file to be placed in the game directory".
