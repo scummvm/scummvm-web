@@ -430,22 +430,22 @@ function addDownload($image, $linkText, $desc, $url) {
 		$size = intval(filesize("downloads/scummvm-win32.exe")/1024);
 		$date = date("F j, Y, g:i a",filemtime("downloads/scummvm-win32.exe"));
 		addDownload("catpl-windows", "Win32 ScummVM Daily Snapshot", "(" . $size ."K exe file, last update: $date)", "http://scummvm.sourceforge.net/downloads/scummvm-win32.exe");
-	echo " Provided by ScummVM Team member Travis 'Kirben' Howell, updated several times daily";
+	echo "<br>Provided by ScummVM Team member Travis 'Kirben' Howell, updated several times daily";
 
 		$size = intval(filesize("downloads/scummvm-tools-win32.exe")/1024);
 		$date = date("F j, Y, g:i a",filemtime("downloads/scummvm-tools-win32.exe"));
 		addDownload("catpl-windows", "Win32 ScummVM Tools Daily Snapshot", "(" . $size ."K exe file, last update: $date)", "http://scummvm.sourceforge.net/downloads/scummvm-tools-win32.exe");
-	echo " Provided by ScummVM Team member Travis 'Kirben' Howell, updated several times daily";
+	echo "<br>Provided by ScummVM Team member Travis 'Kirben' Howell, updated several times daily";
 
 		$size = intval(filesize("downloads/scummvm_debian_i386.deb")/1024);
 		$date = date("F j, Y, g:i a",filemtime("downloads/scummvm_debian_i386.deb"));
 		addDownload("catpl-debian", "Debian i386 ScummVM Daily Snapshot", "(" . $size ."K deb file, last update: $date)", "http://scummvm.sourceforge.net/downloads/scummvm_debian_i386.deb");
-	echo " Provided by ScummVM Team member Pawel 'aquadran' Kolodziejski";
+	echo "<br>Provided by ScummVM Team member Pawel 'aquadran' Kolodziejski";
 
 		$size = intval(filesize("downloads/scummvm_debian_amd64.deb")/1024);
 		$date = date("F j, Y, g:i a",filemtime("downloads/scummvm_debian_amd64.deb"));
 		addDownload("catpl-debian", "Debian x86_64 ScummVM Daily Snapshot", "(" . $size ."K deb file, last update: $date)", "http://scummvm.sourceforge.net/downloads/scummvm_debian_amd64.deb");
-	echo " Provided by ScummVM Team member Pawel 'aquadran' Kolodziejski";
+	echo "<br>Provided by ScummVM Team member Pawel 'aquadran' Kolodziejski";
 
 		$size = intval(filesize("downloads/scummvm_ubuntu_i386.deb")/1024);
 		$date = date("F j, Y, g:i a",filemtime("downloads/scummvm_ubuntu_i386.deb"));
@@ -456,7 +456,7 @@ function addDownload($image, $linkText, $desc, $url) {
 		addDownload("catpl-ubuntu", "Ubuntu x86_64 ScummVM Daily Snapshot", "(" . $size ."K deb file, last update: $date)", "http://scummvm.sourceforge.net/downloads/scummvm_ubuntu_amd64.deb");
 
 		addDownload("catpl-symbian", "SymbianOS Subversion Builds", "", "http://anotherguest.se/cvsbuilds/");
-	echo " Provided by ScummVM Team member Lars 'anotherguest' Persson";
+	echo "<br>Provided by ScummVM Team member Lars 'anotherguest' Persson";
 
 		addDownload("catpl-cpp", "Subversion Instructions", "(for if you wish to retrieve the latest code to compile yourself)", "http://sourceforge.net/svn/?group_id=37116");
 
