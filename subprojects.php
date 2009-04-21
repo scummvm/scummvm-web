@@ -46,41 +46,6 @@ You can try compile engine for Windows:
 </P>
 <a href="downloads/scummexwin32.exe">Windows Daily Snapshot</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/scummexwin32.exe")/1024) ?>K Win32 .exe file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/scummexwin32.exe")); ?>)</small>
 
-<p>&nbsp;</p>
-    </div>
-
-<?php html_subhead_start("Residual (svn subtree 'residual')"); ?>
-
-    <div class="par-subhead-content">
-<P>
-Residual is a LUA-powered 3D GRIME clone, designed to run the game Grim Fandango. Why 
-'Residual'? Because this engine covers games that the main ScummVM application will not 
-support due to their 3D nature. Also, GRIME is a residue. Yes, we know, it's a bad word 
-pun.
-</P>
-<P>
-Residual's core is in a fairly decent state, however it is not in full-time development and 
-as such is progressing slowly.
-</P>
-<P>
-You can try compiled engine for:
-</P>
-<p><img src='images/catpl-windows.png' alt='' width=24 height=24 style='vertical-align: middle;'>
-<a href="downloads/residualwin32.exe">Windows</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/residualwin32.exe")/1024) ?>K Win32 .exe file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/residualwin32.exe")); ?>)</small></p>
-<p><img src='images/catpl-macos.png' alt='' width=24 height=24 style='vertical-align: middle;'>
-<a href="downloads/Residual-MacOSX-Intel.dmg">Mac OS X Intel</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/Residual-MacOSX-Intel.dmg")/1024) ?>K dmg file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/Residual-MacOSX-Intel.dmg")); ?>)</small></p>
-<p><img src='images/catpl-debian.png' alt='' width=24 height=24 style='vertical-align: middle;'>
-<a href="downloads/residual_debian_i386.deb">Debian i386</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/residual_debian_i386.deb")/1024) ?>K deb file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/residual_debian_i386.deb")); ?>)</small></p>
-<p><img src='images/catpl-debian.png' alt='' width=24 height=24 style='vertical-align: middle;'>
-<a href="downloads/residual_debian_amd64.deb">Debian x86_64</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/residual_debian_amd64.deb")/1024) ?>K deb file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/residual_debian_amd64.deb")); ?>)</small></p>
-<p><img src='images/catpl-ubuntu.png' alt='' width=24 height=24 style='vertical-align: middle;'>
-<a href="downloads/residual_ubuntu_i386.deb">Ubuntu i386</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/residual_ubuntu_i386.deb")/1024) ?>K deb file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/residual_ubuntu_i386.deb")); ?>)</small></p>
-<p><img src='images/catpl-ubuntu.png' alt='' width=24 height=24 style='vertical-align: middle;'>
-<a href="downloads/residual_ubuntu_amd64.deb">Ubuntu x86_64</a> <small> (build from Subversion trunk, <?php echo intval(filesize("downloads/residual_ubuntu_amd64.deb")/1024) ?>K deb file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/residual_ubuntu_amd64.deb")); ?>)</small></p>
-<p></p>
-    </div>
-  </div>
-
 <?php
 
 // end of html
