@@ -435,16 +435,28 @@ function addDownload($image, $linkText, $desc, $url) {
 		$date = date("F j, Y, g:i a",filemtime("downloads/scummvm_ubuntu_amd64.deb"));
 		addDownload("catpl-ubuntu", "Ubuntu x86_64 ScummVM Daily Snapshot", "(" . $size ."K deb file, last update: $date)", "http://scummvm.sourceforge.net/downloads/scummvm_ubuntu_amd64.deb");
 
-		addDownload("catpl-gp2x", "GP2X Daily Snapshot", "(" . $size ."K exe file, last update: $date)", "http://buildbot.scummvm.org/snapshots/trunk/gp2x-trunk-latest.tar.bz2");
+		$size = intval(filesize("http://buildbot.scummvm.org/snapshots/trunk/gp2x-trunk-latest.tar.bz2")/1024);
+		$date = date("F j, Y, g:i a",filemtime("http://buildbot.scummvm.org/snapshots/trunk/gp2x-trunk-latest.tar.bz2"));
+		addDownload("catpl-gp2x", "GP2X Daily Snapshot", "(" . $size ."K file, last update: $date)", "http://buildbot.scummvm.org/snapshots/trunk/gp2x-trunk-latest.tar.bz2");
 
-		addDownload("catpl-iphone", "iPhone Daily Snapshot", "(" . $size ."K exe file, last update: $date)", "http://buildbot.scummvm.org/snapshots/trunk/iphone-trunk-latest.tar.bz2");
+		$size = intval(filesize("http://buildbot.scummvm.org/snapshots/trunk/iphone-trunk-latest.tar.bz2")/1024);
+		$date = date("F j, Y, g:i a",filemtime("http://buildbot.scummvm.org/snapshots/trunk/iphone-trunk-latest.tar.bz2"));
+		addDownload("catpl-iphone", "iPhone Daily Snapshot", "(" . $size ."K file, last update: $date)", "http://buildbot.scummvm.org/snapshots/trunk/iphone-trunk-latest.tar.bz2");
 
-		addDownload("catpl-macos", "Mac OS X Intel Daily Snapshot", "(" . $size ."K exe file, last update: $date)", "http://buildbot.scummvm.org/snapshots/trunk/os_x_intel-trunk-latest.tar.bz2");
-		addDownload("catpl-macos", "Mac OS X PPC Daily Snapshot", "(" . $size ."K exe file, last update: $date)", "http://buildbot.scummvm.org/snapshots/trunk/os_x_ppc-trunk-latest.tar.bz2");
+		$size = intval(filesize("http://buildbot.scummvm.org/snapshots/trunk/os_x_intel-trunk-latest.tar.bz2")/1024);
+		$date = date("F j, Y, g:i a",filemtime("http://buildbot.scummvm.org/snapshots/trunk/os_x_intel-trunk-latest.tar.bz2"));
+		addDownload("catpl-macos", "Mac OS X Intel Daily Snapshot", "(" . $size ."K file, last update: $date)", "http://buildbot.scummvm.org/snapshots/trunk/os_x_intel-trunk-latest.tar.bz2");
+		$size = intval(filesize("http://buildbot.scummvm.org/snapshots/trunk/os_x_ppc-trunk-latest.tar.bz2")/1024);
+		$date = date("F j, Y, g:i a",filemtime("http://buildbot.scummvm.org/snapshots/trunk/os_x_ppc-trunk-latest.tar.bz2"));
+		addDownload("catpl-macos", "Mac OS X PPC Daily Snapshot", "(" . $size ."K file, last update: $date)", "http://buildbot.scummvm.org/snapshots/trunk/os_x_ppc-trunk-latest.tar.bz2");
 
-		addDownload("catpl-psp", "PSP (PlayStation Portable) Daily Snapshot", "(" . $size ."K exe file, last update: $date)", "http://buildbot.scummvm.org/snapshots/trunk/psp-trunk-latest.tar.bz2");
+		$size = intval(filesize("http://buildbot.scummvm.org/snapshots/trunk/psp-trunk-latest.tar.bz2")/1024);
+		$date = date("F j, Y, g:i a",filemtime("http://buildbot.scummvm.org/snapshots/trunk/psp-trunk-latest.tar.bz2"));
+		addDownload("catpl-psp", "PSP (PlayStation Portable) Daily Snapshot", "(" . $size ."K file, last update: $date)", "http://buildbot.scummvm.org/snapshots/trunk/psp-trunk-latest.tar.bz2");
 
-		addDownload("catpl-wii", "Wii Daily Snapshot", "(" . $size ."K exe file, last update: $date)", "http://buildbot.scummvm.org/snapshots/trunk/wii-trunk-latest.tar.bz2");
+		$size = intval(filesize("http://buildbot.scummvm.org/snapshots/trunk/wii-trunk-latest.tar.bz2")/1024);
+		$date = date("F j, Y, g:i a",filemtime("http://buildbot.scummvm.org/snapshots/trunk/wii-trunk-latest.tar.bz2"));
+		addDownload("catpl-wii", "Wii Daily Snapshot", "(" . $size ."K file, last update: $date)", "http://buildbot.scummvm.org/snapshots/trunk/wii-trunk-latest.tar.bz2");
 
 		addDownload("catpl-symbian", "SymbianOS Subversion Builds", "", "http://anotherguest.se/cvsbuilds/");
 
