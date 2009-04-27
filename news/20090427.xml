@@ -1,0 +1,20 @@
+<NAME>ScummVM 0.13.1 "SAGA returns" goes gold</NAME>
+<DATE>April 27, 2009</DATE>
+<AUTHOR>sev</AUTHOR>
+<BODY>
+<p>
+It was not that long since our previous release, and now <a href="/downloads.php">here</a> is a new bugfix release hot off the press!
+</p>
+
+<p>
+The list of fixed bugs is quite long, and you could read all of it in the <a href="http://sourceforge.net/project/shownotes.php?release_id=676818">release notes</a>, but here is a summary for those of you who are too lazy to follow the links and eager to play the games better.
+</p>
+
+<p>SAGA: <i>Inherit the Earth</i> is completable again; AGOS, Groovie, Sword2: fixed many sound-related issues; Parallaction: fixed a bug in one of the puzzles; squashed a number of bugs in the GUI. Also iPhone, Symbian, WinCE ports are much improved and NDS and PS2 ports are back again since 0.11.0. 
+</p>
+
+<p>We won't bother you anymore with the details. Go, <a href="/downloads.php">download ScummVM</a> and enjoy your play!
+</p>
+
+</BODY>
+
