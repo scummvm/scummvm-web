@@ -455,7 +455,7 @@ function addDownload($image, $linkText, $desc, $url) {
 ?>
 
 	<p>
-	  Additional daily builds for Windows and Linux (x86) as well as source snapshots can be <a href="http://helllabs.org/scummvm/">downloaded from 
+	  Additional daily builds for Linux (x86) as well as source snapshots can be <a href="http://helllabs.org/scummvm/">downloaded from 
 	  here</a>.
 	</p>
 
