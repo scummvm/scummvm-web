@@ -291,6 +291,8 @@ $AGOS_demos = array(
 		=> array('http://demos.robertmegone.com/agos/simon2-dos-cd-demo-en.zip', 'simon2'),
 	'Simon the Sorcerer 2 (DOS CD German demo)'
 		=> array('http://demos.robertmegone.com/agos/simon2-dos-cd-demo-de.zip', 'simon2'),
+	'Simon the Sorcerer 2 (DOS CD German demo - Non interactive)'
+		=> array('http://demos.robertmegone.com/agos/simon2-dos-cd-ni-demo-de.zip', 'simon2'),
 	'Waxworks (DOS demo - Non interactive)'
 		=> array('http://demos.robertmegone.com/agos/waxworks-dos-ni-demo-en.zip', 'waxworks')
 	);
