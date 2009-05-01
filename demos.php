@@ -346,7 +346,7 @@ $MISC_demos = array(
 	'Broken Sword 2: The Smoking Mirror (Windows Demo)'
 		=> array('http://demos.robertmegone.com/sword2/sword2-win-demo-en.zip', 'sword2demo'),
 	'Bud Tucker in Double Trouble (DOS Demo)'
-		=> array('http://demos.robertmegone.com/tucker/tucker-dos-demo.zip', 'tucker')
+		=> array('http://demos.robertmegone.com/tucker/tucker-dos-demo.zip', 'tucker'),
 	'Bud Tucker in Double Trouble (DOS demo - Non-interactive)'
 		=> array('http://demos.robertmegone.com/tucker/tucker-dos-ni-demo.zip', 'tucker'),
 	'Flight of the Amazon Queen (Amiga demo)'
