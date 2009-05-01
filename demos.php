@@ -62,259 +62,325 @@ html_content_begin('Game Demos');
 
 $LEC_demos = array(
 	'Day of the Tentacle (DOS demo - Non interactive)'
-		=> array('ftp://ftp.lucasarts.com/demos/pc/Dottdemo.zip', 'tentacle'),
+		=> array('http://demos.robertmegone.com/scumm/dott-dos-ni-demo-en.zip', 'tentacle'),
 	'Day of the Tentacle (DOS French demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/dottdemo-fr.zip', 'tentacle'),
-	'Day of the Tentacle (DOS German demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/dottdemo-de.zip', 'tentacle'),
+		=> array('http://demos.robertmegone.com/scumm/dott-dos-ni-demo-fr.zip', 'tentacle'),
 	'Day of the Tentacle (Macintosh demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/dott_demo_mac.zip', 'tentacle'),
+		=> array('http://demos.robertmegone.com/scumm/dott-mac-ni-demo-en.zip', 'tentacle'),
 	'Full Throttle (DOS demo)'
-		=> array('http://quick.mixnmojo.com/demos/ftdemo.zip', 'ft'),
+		=> array('http://demos.robertmegone.com/scumm/ft-dos-demo-en.zip', 'ft'),
 	'Full Throttle (Macintosh demo)'
-		=> array('http://quick.mixnmojo.com/demos/ftdemo_mac.zip', 'ft'),
+		=> array('http://demos.robertmegone.com/scumm/ft-mac-demo-en.zip', 'ft'),
 	'Indiana Jones and the Fate of Atlantis (DOS demo - Interactive)'
-		=> array('ftp://ftp.lucasarts.com/demos/pc/Playfate.zip', 'atlantis'),
+		=> array('http://demos.robertmegone.com/scumm/atlantis-dos-demo-en.zip', 'atlantis'),
 	'Indiana Jones and the Fate of Atlantis (DOS demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/fate.zip', 'atlantis'),
+		=> array('http://demos.robertmegone.com/scumm/atlantis-dos-ni-demo-en.zip', 'atlantis'),
 	'Indiana Jones and the Fate of Atlantis (FM Towns demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/indy4demo.zip', 'atlantis'),
+		=> array('http://demos.robertmegone.com/scumm/atlantis-fmtowns-ni-demo-jp.zip', 'atlantis'),
 	'Indiana Jones and the Last Crusade (DOS EGA - Non interactive)'	
-		=> array('http://quick.mixnmojo.com/demos/indy3ega-demo.zip', 'indy3'),
+		=> array('http://demos.robertmegone.com/scumm/indy3-ega-ni-demo-en.zip', 'indy3'),
 	'Indiana Jones and the Last Crusade & Loom (FM Towns demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/indyloom.zip', 'zak'),
+		=> array('http://demos.robertmegone.com/scumm/zak-fmtowns-indyloom-ni-demo.zip', 'zak'),
 	'Indiana Jones and the Last Crusade & Zak McKracken (FM Towns demo - Non interactive)'
-		=>array('http://quick.mixnmojo.com/demos/indyzak.zip', 'zak'),
+		=>array('http://demos.robertmegone.com/scumm/zak-fmtowns-indyzak-ni-demo.zip', 'zak'),
 	'Loom (DOS EGA - Short Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/loom_alt_demo.zip', 'loom'),
+		=> array('http://demos.robertmegone.com/scumm/loom-dos-alt-demo-en.zip', 'loom'),
 	'Loom (DOS EGA - Long Non interactive)'
-		=> array('ftp://ftp.lucasarts.com/demos/pc/Loomdemo.zip', 'loom'),
+		=> array('http://demos.robertmegone.com/scumm/loom-dos-demo-en.zip', 'loom'),
 	'Maniac Mansion (v1 DOS demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/maniac.rar', 'maniac'),
+		=> array('http://demos.robertmegone.com/scumm/maniac-dos-v1-ni-demo-en.zip', 'maniac'),
 	'Maniac Mansion (v2 DOS demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/mmdemo2.zip', 'maniac'),
+		=> array('http://demos.robertmegone.com/scumm/maniac-dos-v2-ni-demo-en.zip', 'maniac'),
 	'Monkey Island 2 (DOS demo - not supported by ScummVM)'
-		=> array('http://quick.mixnmojo.com/demos/mi2demo.zip', 'monkey2'),
+		=> array('http://demos.robertmegone.com/scumm/monkey2-dos-ni-demo-en.zip', 'monkey2'),
 	'Passport to Adventure (DOS EGA demos of mi, loom, indy3)'
-		=> array('ftp://ftp.lucasarts.com/demos/pc/Sampler.zip', 'pass'),
-	'Sam &amp; Max Hit the Road (DOS demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/samdemo.zip', 'samnmax'),
+		=> array('http://demos.robertmegone.com/scumm/pass-dos-en.zip', 'pass'),
 	'Sam &amp; Max Hit the Road (DOS demo - Interactive)'
-		=> array('ftp://ftp.lucasarts.com/demos/pc/Snmdemo.zip', 'samnmax'),
+		=> array('http://demos.robertmegone.com/scumm/samnmax-dos-demo-en.zip', 'samnmax'),
+	'Sam &amp; Max Hit the Road (DOS demo - Non interactive)'
+		=> array('http://demos.robertmegone.com/scumm/samnmax-dos-ni-demo-en.zip', 'samnmax'),
 	'Sam &amp; Max Hit the Road (DOS German demo - Interactive)'
-		=> array('http://quick.mixnmojo.com/demos/SDEMO_DE.zip', 'samnmax'),
+		=> array('http://demos.robertmegone.com/scumm/samnmax-dos-demo-de.zip', 'samnmax'),
 	'Sam &amp; Max Hit the Road (DOS WIP demo - Interactive)'
-		=> array('http://quick.mixnmojo.com/demos/snmidemo.zip', 'samnmax'),
+		=> array('http://demos.robertmegone.com/scumm/samnmax-dos-wip-demo-en.zip', 'samnmax'),
 	'Sam &amp; Max Hit the Road (Macintosh demo - Interactive)'
-		=> array('http://quick.mixnmojo.com/demos/samdemo_mac.zip', 'samnmax'),
-	'The Curse of Monkey Island (Windows demo)'
-		=> array('ftp://ftp.lucasarts.com/demos/pc/cursedemo.exe', 'comi'),
-	'The Curse of Monkey Island (Windows demo with movies)'
-		=> array('http://quick.mixnmojo.com/demos/CMICompleteDemo.rar', 'comi'),
+		=> array('http://demos.robertmegone.com/scumm/samnmax-mac-demo-en.zip', 'samnmax'),
+	'The Curse of Monkey Island (Windows small demo)'
+		=> array('http://demos.robertmegone.com/scumm/comi-win-small-demo-en.zip', 'comi'),
+	'The Curse of Monkey Island (Windows large demo)'
+		=> array('http://demos.robertmegone.com/scumm/comi-win-large-demo-en.zip', 'comi'),
 	'The Dig (Macintosh demo)'
-		=> array('http://quick.mixnmojo.com/demos/dig_demo_mac.zip', 'dig'),
+		=> array('http://demos.robertmegone.com/scumm/dig-mac-demo-en.zip', 'dig'),
 	'The Dig (DOS demo)'
-		=> array('http://quick.mixnmojo.com/demos/digdemo.zip', 'dig'),
-	'The Secret of Monkey Island (DOS EGA demo)'	
-		=> array('http://quick.mixnmojo.com/demos/mi_demo2.zip', 'monkey'),
-	'The Secret of Monkey Island (DOS EGA German demo)'	
-		=> array('http://quick.mixnmojo.com/demos/midemo-de.zip', 'monkey'),
+		=> array('http://demos.robertmegone.com/scumm/dig-dos-demo-en.zip', 'dig'),
 	'The Secret of Monkey Island (Amiga demo)'	
-		=> array('http://quick.mixnmojo.com/demos/mi1amigademo.zip', 'monkey'),
+		=> array('http://demos.robertmegone.com/scumm/monkey1-amiga-demo-en.zip', 'monkey'),
+	'The Secret of Monkey Island (DOS EGA demo)'	
+		=> array('http://demos.robertmegone.com/scumm/monkey1-dos-ega-demo-en.zip', 'monkey'),
+	'The Secret of Monkey Island (DOS EGA German demo)'	
+		=> array('http://demos.robertmegone.com/scumm/monkey1-dos-ega-demo-de.zip', 'monkey'),
 	'Zak McKracken and the Alien Mindbenders (Atari ST demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/zakstdemo.zip', 'zak'),
+		=> array('http://demos.robertmegone.com/scumm/zak-atari-ni-demo.zip', 'zak'),
 	'Zak McKracken & Loom (FM Towns demo - Non interactive)'
-		=>array('http://quick.mixnmojo.com/demos/zakloom.zip', 'zak')
+		=>array('http://demos.robertmegone.com/scumm/zak-fmtowns-zakloom-ni-demo.zip', 'zak')
 	);
 
-/* Broken HE demos links
-
-	'Big Thinkers Kindergarten (Windows Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/BTK95d.EXE', 'thinkerk'),
-	'Big Thinkers First Grade (Windows Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/BTFG95d.EXE', 'thinker1'),
-	'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening (Windows Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/PJ2Demo.exe', 'pajama2'),
-	'Pajama Sam\'s Lost & Found (Windows Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/losttest.zip', 'lost'),
-	'Putt-Putt Saves the Zoo (Windows Demo)'
-		=> array('ftp://ftp.humongous.com/humongous/puttzoo.zip', 'puttzoo'),
-*/
-
 $HE_demos = array(
-	'Backyard Baseball (Windows Demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/baseball_cup_demo.zip', 'baseball'),
+	'Backyard Baseball (Windows Preview)'
+		=> array('http://demos.robertmegone.com/scumm/he/baseball-win-preview1-us.zip', 'baseball'),
+	'Backyard Baseball (Windows Alternative Preview)'
+		=> array('http://demos.robertmegone.com/scumm/he/baseball-win-preview2-us.zip', 'baseball'),
+	'Backyard Baseball 2001 (Windows Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/baseball2001-win-demo-us.zip', 'baseball2001'),
 	'Backyard Football (Windows Demo)'
-		=> array('http://quick.mixnmojo.com/demos/footdemo.zip', 'football'),
-	'Blue\'s ABC Time (Windows Demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/BluesABCTime_cup_demo.zip', 'BluesABCTime'),
-	'Blue\'s Birthday Adventure (Windows Demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/BluesBirthday_cup_demo.zip', 'BluesBirthday'),
+		=> array('http://demos.robertmegone.com/scumm/he/football-win-demo-us.zip', 'football'),
+	'Big Thinkers Kindergarten (Windows Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/thinker1-win-demo-us.zip', 'thinkerk'),
+	'Big Thinkers First Grade (Windows Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/thinkerk-win-demo-us.zip', 'thinker1'),
+	'Blue\'s ABC Time (Windows Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/BluesABCTime-win-demo1-us.zip', 'BluesABCTime'),
+	'Blue\'s ABC Time (Windows Alternative Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/BluesABCTime-win-demo2-us.zip', 'BluesABCTime'),
+	'Blue\'s ABC Time (Windows Preview)'
+		=> array('http://demos.robertmegone.com/scumm/he/BluesABCTime-win-preview-us.zip', 'BluesABCTime'),
+	'Blue\'s Birthday Adventure (Windows Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/BluesBirthday-win-demo1-us.zip', 'BluesBirthday'),
+	'Blue\'s Birthday Adventure (Windows Alternative Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/BluesBirthday-win-demo2-us.zip', 'BluesBirthday'),
+	'Blue\'s Birthday Adventure (Windows Preview)'
+		=> array('http://demos.robertmegone.com/scumm/he/BluesBirthday-win-preview-us.zip', 'BluesBirthday'),
 	'Fatty Bear\'s Birthday Surprise (DOS demo)'
-		=> array('http://quick.mixnmojo.com/demos/fatdemo.zip', 'fbear'),
+		=> array('http://demos.robertmegone.com/scumm/he/fbear-dos-demo-us.zip', 'fbear'),
+	'Fatty Bear\'s Birthday Surprise (Windows demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/fbear-win-demo-us.zip', 'fbear'),
 	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Macintosh Demo)'
-		=> array('http://quick.mixnmojo.com/demos/freddi_demo_mac.zip', 'freddi'),
+		=> array('http://demos.robertmegone.com/scumm/he/freddi-mac-demo_us.zip', 'freddi'),
 	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows Demo)'
-		=> array('http://quick.mixnmojo.com/demos/Freddi%20Fish%201%20Pc%20Demo.zip', 'freddi'),
+		=> array('http://demos.robertmegone.com/scumm/he/freddi-win-demo-us.zip', 'freddi'),
+	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows Updated Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/freddi-win-updated-demo-us.zip', 'freddi'),
 	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows French Demo)'
-		=> array('http://quick.mixnmojo.com/demos/mm-demo_fr.zip', 'freddi'),
+		=> array('http://demos.robertmegone.com/scumm/he/freddi-win-demo-fr.zip', 'freddi'),
 	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows German demo)'
-		=> array('http://quick.mixnmojo.com/demos/freddemo_de.zip', 'freddi'),
+		=> array('http://demos.robertmegone.com/scumm/he/freddi-win-demo-de.zip', 'freddi'),
 	'Freddi Fish 2: The Case of the Haunted Schoolhouse (Windows Demo)'
-		=> array('ftp://ftp.atari.com/demos/ff_haunted_schoolhouse/FFHaunted-Demo.zip', 'freddi2'),
+		=> array('http://demos.robertmegone.com/scumm/he/freddi2-win-demo-us.zip', 'freddi2'),
+	'Freddi Fish 2: The Case of the Haunted Schoolhouse (Windows Updated Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/freddi2-win-updated-demo-us.zip', 'freddi2'),
 	'Freddi Fish 3: The Case of the Stolen Conch Shell (Windows Demo)'
-		=> array('http://quick.mixnmojo.com/demos/Freddi%20Fish%203%20%20Pc%20Demo.zip', 'freddi3'),
+		=> array('http://demos.robertmegone.com/scumm/he/freddi3-win-demo-us.zip', 'freddi3'),
 	'Freddi Fish 3: The Case of the Stolen Conch Shell (Windows French Demo)'
-		=> array('http://quick.mixnmojo.com/demos/mm3-demo-fr.zip', 'freddi3'),
+		=> array('http://demos.robertmegone.com/scumm/he/freddi3-win-demo-fr.zip', 'freddi3'),
 	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows Demo)'
-		=> array('http://quick.mixnmojo.com/demos/Freddi%20Fish%204%20%20Pc%20Demo.zip', 'freddi4'),
+		=> array('http://demos.robertmegone.com/scumm/he/freddi4-win-demo-us.zip', 'freddi4'),
+	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows Updated Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/freddi4-win-updated-demo-us.zip', 'freddi4'),
 	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows German Demo)'
-		=> array('http://quick.mixnmojo.com/demos/ff4demo-de.zip', 'freddi4'),
+		=> array('http://demos.robertmegone.com/scumm/he/freddi4-win-demo-de.zip', 'freddi4'),
 	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows UK Demo)'
-		=> array('http://quick.mixnmojo.com/demos/ff4demo-uk.zip', 'freddi4'),
-	'Humongous Catalog demo (Windows Demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/catalog_cup_demo_de.zip', 'catalog'),
+		=> array('http://demos.robertmegone.com/scumm/he/freddi4-win-demo-uk.zip', 'freddi4'),
+	'Humongous Catalog demo (Windows Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/catalog-win-demo-en.zip', 'catalog'),
+	'Humongous Catalog demo (Windows German Preview)'
+		=> array('http://demos.robertmegone.com/scumm/he/catalog-win-preview-de.zip', 'catalog'),
 	'Let\'s Explore the Airport with Buzzy (Macintosh Demo)'
-		=> array('http://quick.mixnmojo.com/demos/airport_demo_mac.zip', 'airport'),
+		=> array('http://demos.robertmegone.com/scumm/he/airport-mac-demo-us.zip', 'airport'),
 	'Let\'s Explore the Airport with Buzzy (Windows Demo)'
-		=> array('http://quick.mixnmojo.com/demos/airdemo.rar', 'airport'),
+		=> array('http://demos.robertmegone.com/scumm/he/airport-win-demo-us.zip', 'airport'),
+	'Let\'s Explore the Airport with Buzzy (Windows Updated Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/airport-win-updated-demo1-us.zip', 'airport'),
+	'Let\'s Explore the Airport with Buzzy (Windows Updated Alternative Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/airport-win-updated-demo2-us.zip', 'airport'),
 	'Let\'s Explore the Farm with Buzzy (Windows Demo)'
-		=> array('http://quick.mixnmojo.com/demos/farmdemo.rar', 'farm'),
+		=> array('http://demos.robertmegone.com/scumm/he/farm-win-demo-us.zip', 'farm'),
 	'Pajama Sam 1: No Need to Hide When It\'s Dark Outside (Windows Demo)'
-		=> array('ftp://ftp.atari.com/demos/psam_no_where_to_hide/PJSamHide-Demo.zip', 'pajama'),
+		=> array('http://demos.robertmegone.com/scumm/he/pajama-win-demo-us.zip', 'pajama'),
+	'Pajama Sam 1: No Need to Hide When It\'s Dark Outside (Windows Updated Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/pajama-win-updated-demo-us.zip', 'pajama'),
+	'Pajama Sam 1: No Need to Hide When It\'s Dark Outside (Windows Dutch Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/pajama2-win-demo-nl.zip', 'pajama'),
 	'Pajama Sam 1: No Need to Hide When It\'s Dark Outside (Windows French Demo)'
-		=> array('http://quick.mixnmojo.com/demos/samdemo-fr.zip', 'pajama'),
+		=> array('http://demos.robertmegone.com/scumm/he/pajama-win-demo-fr.zip', 'pajama'),
+	'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening (Windows Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/pajama2-win-demo-us.zip', 'pajama2'),
 	'Pajama Sam 2: Thunder and Lightning Aren\'t so Frightening (Windows Dutch Demo)'
-		=> array('http://quick.mixnmojo.com/demos/pjs2demo-nl.zip', 'pajama2'),
+		=> array('http://demos.robertmegone.com/scumm/he/pajama2-win-demo-nl.zip', 'pajama2'),
 	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows Demo)'
-		=> array('http://quick.mixnmojo.com/demos/pj3-demo.rar', 'pajama3'),
+		=> array('http://demos.robertmegone.com/scumm/he/pajama3-win-demo-us.zip', 'pajama3'),
 	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows German Demo)'
-		=> array('http://quick.mixnmojo.com/demos/gpj3demo_de.zip', 'pajama3'),
+		=> array('http://demos.robertmegone.com/scumm/he/pajama3-win-demo-de.zip', 'pajama3'),
 	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows UK Demo)'
-		=> array('http://quick.mixnmojo.com/demos/pj3demo-uk.zip', 'pajama3'),
+		=> array('http://demos.robertmegone.com/scumm/he/pajama3-win-demo-uk.zip', 'pajama3'),
+	'Pajama Sam\'s Lost & Found (Windows Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/lost-win-demo-us.zip', 'lost'),
 	'Putt-Putt Enters the Race (Windows Demo)'
-		=> array('http://quick.mixnmojo.com/demos/Putt%20Putt%20Enters%20The%20Race%20Pc%20Demo.zip', 'puttrace'),
-	'Putt-Putt Enters the Race (Windows Demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/puttrace_cup_demo.zip', 'puttrace'),
+		=> array('http://demos.robertmegone.com/scumm/he/puttrace-win-demo-us.zip', 'puttrace'),
+	'Putt-Putt Enters the Race (Windows Preview)'
+		=> array('http://demos.robertmegone.com/scumm/he/puttrace-win-preview-us.zip', 'puttrace'),
 	'Putt-Putt Enters the Race (Windows Dutch Demo)'
-		=> array('http://quick.mixnmojo.com/demos/500demo-nl.zip', 'puttrace'),
+		=> array('http://demos.robertmegone.com/scumm/he/puttrace-win-demo-nl.zip', 'puttrace'),
 	'Putt-Putt Enters the Race (Windows German Demo)'
-		=> array('http://quick.mixnmojo.com/demos/rennen-de.zip', 'puttrace'),
+		=> array('http://demos.robertmegone.com/scumm/he/puttrace-win-demo-de.zip', 'puttrace'),
 	'Putt-Putt Enters the Race (Windows UK Demo)'
-		=> array('http://quick.mixnmojo.com/demos/racedemo-uk.zip', 'puttrace'),
+		=> array('http://demos.robertmegone.com/scumm/he/puttrace-win-demo-uk.zip', 'puttrace'),
 	'Putt-Putt Goes to the Moon (DOS demo)'
-		=> array('http://quick.mixnmojo.com/demos/moondemo.zip', 'puttmoon'),
+		=> array('http://demos.robertmegone.com/scumm/he/puttmoon-dos-demo-us.zip', 'puttmoon'),
+	'Putt-Putt Goes to the Moon (Window demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/puttmoon-win-demo-us.zip', 'puttmoon'),
 	'Putt-Putt Joins the Circus (Windows Demo)'
-		=> array('http://quick.mixnmojo.com/demos/circdemo.rar', 'puttcircus'),
+		=> array('http://demos.robertmegone.com/scumm/he/puttcircus-win-demo-us.zip', 'puttcircus'),
 	'Putt-Putt Joins the Parade (DOS demo)'
-		=> array('http://quick.mixnmojo.com/demos/puttpara.zip', 'puttdemo'),
+		=> array('http://demos.robertmegone.com/scumm/he/puttputt-dos-demo-us.zip', 'puttdemo'),
+	'Putt-Putt Joins the Parade (Windows demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/puttputt-win-demo-us.zip', 'puttdemo'),
 	'Putt-Putt Saves the Zoo (Macintosh Demo)'
-		=> array('http://quick.mixnmojo.com/demos/puttzoo_demo_mac.zip', 'puttzoo'),
+		=> array('http://demos.robertmegone.com/scumm/he/puttzoo-mac-demo-us.zip', 'puttzoo'),
+	'Putt-Putt Saves the Zoo (Windows Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/puttzoo-win-demo-us.zip', 'puttzoo'),
+	'Putt-Putt Saves the Zoo (Windows Updated Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/puttzoo-win-updated-demo-us.zip', 'puttzoo'),
 	'Putt-Putt Saves the Zoo (Windows German Demo)'
-		=> array('http://quick.mixnmojo.com/demos/zoodemo_de.zip', 'puttzoo'),
+		=> array('http://demos.robertmegone.com/scumm/he/puttzoo-win-demo-de.zip', 'puttzoo'),
 	'Putt-Putt Travels Through Time (Windows Demo)'
-		=> array('ftp://ftp.atari.com/demos/putt_travel_thru_time/PuttTime-Demo.zip', 'putttime'),
+		=> array('http://demos.robertmegone.com/scumm/he/putttime-win-demo-us.zip', 'putttime'),
+	'Putt-Putt Travels Through Time (Windows Updated Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/putttime-win-updated-demo-us.zip', 'putttime'),
 	'Putt-Putt Travels Through Time (Windows French Demo)'
-		=> array('http://quick.mixnmojo.com/demos/tempdemo-fr.zip', 'putttime'),
+		=> array('http://demos.robertmegone.com/scumm/he/putttime-win-demo-fr.zip', 'putttime'),
 	'SPY Fox 1: Dry Cereal (Windows Demo)'
-		=> array('ftp://ftp.atari.com/demos/spyfox_dry_cereal/SPYCereal-Demo.zip', 'spyfox'),
+		=> array('http://demos.robertmegone.com/scumm/he/spyfox-win-demo1-us.zip', 'spyfox'),
+	'SPY Fox 1: Dry Cereal (Windows Alternative Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/spyfox-win-demo2-us.zip', 'spyfox'),
+	'SPY Fox 1: Dry Cereal (Windows Updated Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/spyfox-win-updated-demo-us.zip', 'spyfox'),
 	'SPY Fox 1: Dry Cereal (Windows Dutch Demo)'
-		=> array('http://quick.mixnmojo.com/demos/spydemo-nl.zip', 'spyfox'),
+		=> array('http://demos.robertmegone.com/scumm/he/spyfox-win-demo-nl.zip', 'spyfox'),
 	'SPY Fox 1: Dry Cereal (Windows French Demo)'
-		=> array('http://quick.mixnmojo.com/demos/jamesdem-fr.zip', 'spyfox'),
+		=> array('http://demos.robertmegone.com/scumm/he/spyfox-win-demo-fr.zip', 'spyfox'),
 	'SPY Fox 2: Some Assembly Required (Windows Demo)'
-		=> array('http://quick.mixnmojo.com/demos/sf2-demo.rar', 'spyfox2'),
-	'SPY Fox 2: Some Assembly Required (Windows Demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/spyfox2_cup_demo.zip', 'spyfox2'),
+		=> array('http://demos.robertmegone.com/scumm/he/spyfox2-win-demo-us.zip', 'spyfox2'),
+	'SPY Fox 2: Some Assembly Required (Windows Preview)'
+		=> array('http://demos.robertmegone.com/scumm/he/spyfox2-win-preview-us.zip', 'spyfox2'),
 	'SPY Fox 2: Some Assembly Required (Windows German Demo)'
-		=> array('http://quick.mixnmojo.com/demos/sf2demo-de.zip', 'spyfox2'),
+		=> array('http://demos.robertmegone.com/scumm/he/spyfox2-win-demo-de.zip', 'spyfox2'),
 	'SPY Fox 2: Some Assembly Required (Windows UK Demo)'
-		=> array('http://quick.mixnmojo.com/demos/sf2demo-uk.zip', 'spyfox2'),
+		=> array('http://demos.robertmegone.com/scumm/he/spyfox2-win-demo-uk.zip', 'spyfox2'),
 	'SPY Fox 3: Operation Ozone (Windows Demo)'
-		=> array('http://quick.mixnmojo.com/demos/sf3-demo.rar', 'spyozon'),
-	'SPY Fox 3: Operation Ozone (Windows Demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/spyozon_cup_demo.zip', 'spyozon')
+		=> array('http://demos.robertmegone.com/scumm/he/spyozon-win-demo-us.zip', 'spyozon'),
+	'SPY Fox 3: Operation Ozone (Windows Preview)'
+		=> array('http://demos.robertmegone.com/scumm/he/spyozon-win-preview-us.zip', 'spyozon')
 	);
 
 $AGOS_demos = array(
 	'Elvira - Mistress of Darkness (Amiga demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/elvira1_demo_ami.zip', 'elvira1'),
+		=> array('http://demos.robertmegone.com/agos/elvira1-amiga-ni-demo-en.zip', 'elvira1'),
 	'Elvira - Mistress of Darkness (Atari ST demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/elvira1_demo_st.zip', 'elvira1'),
+		=> array('http://demos.robertmegone.com/agos/elvira1-atari-ni-demo-en.zip', 'elvira1'),
 	'Elvira - Mistress of Darkness (DOS demo - Non interactive)'
-		=> array('http://cd.textfiles.com/ugameware/DEMO/ELVIRDMO.ZIP', 'elvira1'),
+		=> array('http://demos.robertmegone.com/agos/elvira1-dos-ni-demo-en.zip', 'elvira1'),
+	'Personal Nightmare (Atari ST demo - Non-interactive) - Requires ScummVM 0.14.0svn'
+		=> array('http://demos.robertmegone.com/agos/pn-atari-ni-demo-en.zip', 'pn'),
 	'Simon the Sorcerer 1 (Amiga demo)'
-		=> array('http://quick.mixnmojo.com/demos/simon1amigademo.zip', 'simon1'),
+		=> array('http://demos.robertmegone.com/agos/simon1-amiga-floppy-demo-en.zip', 'simon1'),
 	'Simon the Sorcerer 1 (DOS demo)'
-		=> array('http://quick.mixnmojo.com/demos/simon1demo.zip', 'simon1'),
+		=> array('http://demos.robertmegone.com/agos/simon1-dos-floppy-demo-en.zip', 'simon1'),
 	'Simon the Sorcerer 1 (Acorn CD demo)'
-		=> array('http://quick.mixnmojo.com/demos/simon1demo_acorn.rar', 'simon1'),
+		=> array('http://demos.robertmegone.com/agos/simon1-acorn-cd-demo-en.zip', 'simon1'),
 	'Simon the Sorcerer 2 (DOS CD demo)'
-		=> array('http://quick.mixnmojo.com/demos/simon2demo.zip', 'simon2'),
+		=> array('http://demos.robertmegone.com/agos/simon2-dos-cd-demo-en.zip', 'simon2'),
+	'Simon the Sorcerer 2 (DOS CD German demo)'
+		=> array('http://demos.robertmegone.com/agos/simon2-dos-cd-demo-de.zip', 'simon2'),
 	'Waxworks (DOS demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/waxworks_demo.zip', 'waxworks')
+		=> array('http://demos.robertmegone.com/agos/waxworks-dos-ni-demo-en.zip', 'waxworks')
 	);
 
 $GOB_demos = array(
 	'Gobliiins (Amiga demo)'
-		=> array('http://quick.mixnmojo.com/demos/gob1_demo_ami.zip', 'gob'),
+		=> array('http://demos.robertmegone.com/gob/gob1-amiga_demo_en.zip', 'gob'),
 	'Gobliiins (DOS demo)'
-		=> array('http://minifiles.ag.ru/demos/448/gobliiins_demo.exe', 'gob'),
+		=> array('http://demos.robertmegone.com/gob/gob1-dos-demo1-en.zip', 'gob'),
+	'Gobliiins (DOS Alternative demo)'
+		=> array('http://demos.robertmegone.com/gob/gob1-dos-demo2-en.zip', 'gob'),
 	'Gobliins 2 (Amiga demo)'
-		=> array('http://quick.mixnmojo.com/demos/gob2_demo_ami.zip', 'gob'),
+		=> array('http://demos.robertmegone.com/gob/gob2-amiga-demo-en.zip', 'gob'),
 	'Gobliins 2 (DOS demo)'
-		=> array('http://quick.mixnmojo.com/demos/gob2_demo.zip', 'gob'),
+		=> array('http://demos.robertmegone.com/gob/gob2-dos-demo-en.zip', 'gob'),
 	'Gobliins 2 (DOS demo - Non interactive)'
-		=> array('http://minifiles.ag.ru/demos/449/gobliins2_demo.exe', 'gob'),
+		=> array('http://demos.robertmegone.com/gob/gob2-dos-ni-demo-en.zip', 'gob'),
 	'Gobliins 3 (DOS demo)'
-		=> array('http://quick.mixnmojo.com/demos/gob3_demo.zip', 'gob'),
+		=> array('http://demos.robertmegone.com/gob/gob3-dos-demo-en.zip', 'gob'),
 	'Gobliins 3 (DOS demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/gob3_ni_demo.zip', 'gob'),
+		=> array('http://demos.robertmegone.com/gob/gob3-dos-ni-demo-en.zip', 'gob'),
 	'Gobliins 3 (DOS French demo)'
-		=> array('http://quick.mixnmojo.com/demos/gob3_demo_fr.zip', 'gob'),
+		=> array('http://demos.robertmegone.com/gob/gob3-dos-demo1-fr.zip', 'gob'),
 	'Gobliins 3 (DOS French Alternative demo)'
-		=> array('http://quick.mixnmojo.com/demos/gob3_demo2_fr.zip', 'gob'),
+		=> array('http://demos.robertmegone.com/gob/gob3-dos-demo2-fr.zip', 'gob'),
+	'Inca II: Wiracocha (DOS demo - Non-interactive) - Requires ScummVM 0.14.0svn'
+		=> array('http://demos.robertmegone.com/gob/inca2-dos-ni-demo-en.zip', 'gob'),
 	'Lost in Time (DOS demo - Non interactive)'
-		=> array('http://minifiles.ag.ru/demos/632/lostintime_noninteractive_demo.exe', 'gob'),
+		=> array('http://demos.robertmegone.com/gob/lostintime-dos-ni-demo-en.zip', 'gob'),
+	'Playtoon 1 - Uncle Archibald (DOS demo - Non-interactive) - Requires ScummVM 0.14.0svn'
+		=> array('http://demos.robertmegone.com/gob/playtoons-dos-ni-demo-en.zip', 'gob'),
+	'Playtoon 1 - Uncle Archibald (DOS demo - Non-interactive) - Requires ScummVM 0.14.0svn'
+		=> array('http://demos.robertmegone.com/gob/playtoons-dos-ni-demo2-en.zip', 'gob'),
+	'Playtoon 1 - Uncle Archibald (DOS Italian demo - Non-interactive) - Requires ScummVM 0.14.0svn'
+		=> array('http://demos.robertmegone.com/gob/playtoons-dos-ni-demo2-it.zip', 'gob'),
+	'Playtoon 1 - Uncle Archibald (DOS Spanish demo - Non-interactive) - Requires ScummVM 0.14.0svn'
+		=> array('http://demos.robertmegone.com/gob/playtoons-dos-ni-demo2-sp.zip', 'gob'),
+	'The Bizarre Adventures of Woodruff and the Schnibble (DOS demo - Non-interactive) - Requires ScummVM 0.14.0svn'
+		=> array('http://demos.robertmegone.com/gob/woodruff-dos-ni-demo-en.zip', 'gob'),
+	'The Last Dynasty (DOS demo - Non interactive) - Requires ScummVM 0.14.0svn'
+		=> array('http://demos.robertmegone.com/gob/dynasty-win-ni-demo-en.zip', 'gob'),
+	'Urban Runner (DOS demo - Non-interactive) - Requires ScummVM 0.14.0svn'
+		=> array('http://demos.robertmegone.com/gob/urban-win-ni-demo-en.zip', 'gob'),
 	'Ween: The Prophecy (DOS demo)'
-		=> array('http://minifiles.ag.ru/demos/781/ween_demo.exe', 'gob')
+		=> array('http://demos.robertmegone.com/gob/ween-dos-demo-en.zip', 'gob')
 	);
 
 $MISC_demos = array(
+	'Broken Sword 1: The Shadow of the Templars (Macintosh Demo)'
+		=> array('http://demos.robertmegone.com/sword1/sword1-mac-demo-en.zip', 'sword1demo'),
 	'Broken Sword 1: The Shadow of the Templars (Windows Demo)'
-		=> array('http://www.gamershell.com/download_4731.shtml', 'sword1demo'),
+		=> array('http://demos.robertmegone.com/sword1/sword1-win-demo-en.zip', 'sword1demo'),
 	'Broken Sword 2: The Smoking Mirror (Windows Demo)'
-		=> array('http://files.5star-network.com/Games/bs2-demo.zip', 'sword2demo'),
+		=> array('http://demos.robertmegone.com/sword2/sword2-win-demo-en.zip', 'sword2demo'),
+	'Bud Tucker in Double Trouble (DOS Demo)'
+		=> array('http://demos.robertmegone.com/tucker/tucker-dos-demo.zip', 'tucker')
+	'Bud Tucker in Double Trouble (DOS demo - Non-interactive)'
+		=> array('http://demos.robertmegone.com/tucker/tucker-dos-ni-demo.zip', 'tucker'),
 	'Flight of the Amazon Queen (Amiga demo)'
-		=> array('http://quick.mixnmojo.com/demos/queen_demo_ami.zip', 'queen'),
+		=> array('http://demos.robertmegone.com/queen/queen-amiga-demo-en.zip', 'queen'),
 	'Flight of the Amazon Queen (Amiga interview demo)'
-		=> array('http://quick.mixnmojo.com/demos/queen_interview_ami.zip', 'queen'),
-	'Flight of the Amazon Queen (DOS demo - Datafile only)'
-		=> array('http://0x.7fc1.org/fotaq/fotaq_demo.zip', 'queen'),
+		=> array('http://demos.robertmegone.com/queen/queen-amiga-interview-en.zip', 'queen'),
 	'Flight of the Amazon Queen (DOS PCGAMES demo)'
-		=> array('http://quick.mixnmojo.com/demos/queen_demo_pcgames.zip', 'queen'),
+		=> array('http://demos.robertmegone.com/queen/queen-dos-pcgames-demo-en.zip', 'queen'),
 	'Flight of the Amazon Queen (DOS interview demo)'
-		=> array('http://quick.mixnmojo.com/demos/queen_interview.zip', 'queen'),
+		=> array('http://demos.robertmegone.com/queen/queen-dos-interview-en.zip', 'queen'),
 	'Future Wars (Amiga demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/fw_demo_ami.zip', 'fw'),
+		=> array('http://demos.robertmegone.com/cine/fw-amiga-demo-en.zip', 'fw'),
 	'Igor: Objective Uikokahonia (DOS demo)'
-		=> array('http://quick.mixnmojo.com/demos/igor_demo.zip', 'igor'),
+		=> array('http://demos.robertmegone.com/igor/igor-dos-1.0-demo-en.zip', 'igor'),
 	'Igor: Objective Uikokahonia 1.10 (DOS demo)'
-		=> array('http://quick.mixnmojo.com/demos/igor110_demo.zip', 'igor'),
+		=> array('http://demos.robertmegone.com/igor/igor-dos-1.1-demo-en.zip', 'igor'),
 	'I Have No Mouth And I Must Scream (DOS demo)'
-		=> array('http://quick.mixnmojo.com/demos/ihnmdemo.zip', 'ihnm'),
+		=> array('http://demos.robertmegone.com/saga/ihnm-dos-demo-en.zip', 'ihnm'),
 	'Lands of Lore: The Throne of Chaos (DOS demo - Non-interactive) - Requires ScummVM 0.14.0svn'
-		=> array('ftp://ftp.westwood.com/pub/lands1/previews/demos/loredemo.exe', 'lol'),
+		=> array('http://demos.robertmegone.com/kyra/lol-dos-ni-demo-en.zip', 'lol'),
 	'Nippon Safes (Amiga demo)'
-		=> array('http://quick.mixnmojo.com/demos/nippon_demo_ami.zip', 'nippon'),
+		=> array('http://demos.robertmegone.com/parallaction/nippon-amiga-demo-en.zip', 'nippon'),
 	'Operation Stealth (Amiga demo - Non interactive)'
-		=> array('http://quick.mixnmojo.com/demos/op_demo_ami.zip', 'os'),
+		=> array('http://demos.robertmegone.com/cine/op-amiga-demo-en.zip', 'os'),
 	'The Legend of Kyrandia (DOS demo - Non-interactive)'
-		=> array('http://quick.mixnmojo.com/demos/kyra1demo.zip', 'kyra1'),
+		=> array('http://demos.robertmegone.com/kyra/kyra1-dos-ni-demo-en.zip', 'kyra1'),
+	'The Legend of Kyrandia: The Hand of Fate (DOS demo)'
+		=> array('http://demos.robertmegone.com/kyra/kyra2-dos-cd-demo-en.zip', 'kyra2'),
 	'The Legend of Kyrandia: The Hand of Fate (DOS demo - Non-interactive)'
-		=> array('ftp://ftp.westwood.com/pub/kyrandia2/previews/demos/hofdemo.exe', 'kyra2'),
+		=> array('http://demos.robertmegone.com/kyra/kyra2-dos-ni-demo1-en.zip', 'kyra2'),
+	'The Legend of Kyrandia: The Hand of Fate (DOS Alternative demo - Non-interactive)'
+		=> array('http://demos.robertmegone.com/kyra/kyra2-dos-ni-demo2-en.zip', 'kyra2'),
 	'Touche: The Adventures of the Fifth Musketeer (DOS Demo)'
-		=> array('http://quick.mixnmojo.com/demos/touche_demo.zip', 'touche')
+		=> array('http://demos.robertmegone.com/touche/touche-dos-demo-en.zip', 'touche')
 	);
 
 function render_demos($title, $demos) {
