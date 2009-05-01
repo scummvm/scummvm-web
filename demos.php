@@ -84,9 +84,9 @@ $LEC_demos = array(
 	'Indiana Jones and the Last Crusade & Zak McKracken (FM Towns demo - Non interactive)'
 		=>array('http://demos.robertmegone.com/scumm/zak-fmtowns-indyzak-ni-demo.zip', 'zak'),
 	'Loom (DOS EGA - Short Non interactive)'
-		=> array('http://demos.robertmegone.com/scumm/loom-dos-alt-demo-en.zip', 'loom'),
+		=> array('http://demos.robertmegone.com/scumm/loom-dos-short-demo-en.zip', 'loom'),
 	'Loom (DOS EGA - Long Non interactive)'
-		=> array('http://demos.robertmegone.com/scumm/loom-dos-demo-en.zip', 'loom'),
+		=> array('http://demos.robertmegone.com/scumm/loom-dos-long-demo-en.zip', 'loom'),
 	'Maniac Mansion (v1 DOS demo - Non interactive)'
 		=> array('http://demos.robertmegone.com/scumm/maniac-dos-v1-ni-demo-en.zip', 'maniac'),
 	'Maniac Mansion (v2 DOS demo - Non interactive)'
@@ -321,13 +321,13 @@ $GOB_demos = array(
 	'Lost in Time (DOS demo - Non interactive)'
 		=> array('http://demos.robertmegone.com/gob/lostintime-dos-ni-demo-en.zip', 'gob'),
 	'Playtoon 1 - Uncle Archibald (DOS demo - Non-interactive) - Requires ScummVM 0.14.0svn'
-		=> array('http://demos.robertmegone.com/gob/playtoons-dos-ni-demo-en.zip', 'gob'),
+		=> array('http://demos.robertmegone.com/gob/playtoons-dos-ni-demo1-en.zip', 'gob'),
 	'Playtoon 1 - Uncle Archibald (DOS demo - Non-interactive) - Requires ScummVM 0.14.0svn'
 		=> array('http://demos.robertmegone.com/gob/playtoons-dos-ni-demo2-en.zip', 'gob'),
 	'Playtoon 1 - Uncle Archibald (DOS Italian demo - Non-interactive) - Requires ScummVM 0.14.0svn'
-		=> array('http://demos.robertmegone.com/gob/playtoons-dos-ni-demo2-it.zip', 'gob'),
+		=> array('http://demos.robertmegone.com/gob/playtoons-dos-ni-demo-it.zip', 'gob'),
 	'Playtoon 1 - Uncle Archibald (DOS Spanish demo - Non-interactive) - Requires ScummVM 0.14.0svn'
-		=> array('http://demos.robertmegone.com/gob/playtoons-dos-ni-demo2-sp.zip', 'gob'),
+		=> array('http://demos.robertmegone.com/gob/playtoons-dos-ni-demo-sp.zip', 'gob'),
 	'The Bizarre Adventures of Woodruff and the Schnibble (DOS demo - Non-interactive) - Requires ScummVM 0.14.0svn'
 		=> array('http://demos.robertmegone.com/gob/woodruff-dos-ni-demo-en.zip', 'gob'),
 	'The Last Dynasty (DOS demo - Non interactive) - Requires ScummVM 0.14.0svn'
