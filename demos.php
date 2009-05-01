@@ -231,9 +231,9 @@ $HE_demos = array(
 	'Putt-Putt Joins the Circus (Windows Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/puttcircus-win-demo-us.zip', 'puttcircus'),
 	'Putt-Putt Joins the Parade (DOS demo)'
-		=> array('http://demos.robertmegone.com/scumm/he/puttputt-dos-demo-us.zip', 'puttdemo'),
+		=> array('http://demos.robertmegone.com/scumm/he/puttputt-dos-demo-us.zip', 'puttputt'),
 	'Putt-Putt Joins the Parade (Windows demo)'
-		=> array('http://demos.robertmegone.com/scumm/he/puttputt-win-demo-us.zip', 'puttdemo'),
+		=> array('http://demos.robertmegone.com/scumm/he/puttputt-win-demo-us.zip', 'puttputt'),
 	'Putt-Putt Saves the Zoo (Macintosh Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/puttzoo-mac-demo-us.zip', 'puttzoo'),
 	'Putt-Putt Saves the Zoo (Windows Demo)'
