@@ -45,7 +45,7 @@ html_content_begin('Game Demos');
 </td>
 <td>
   This page lists links to demos of various games, please contact us if you have a copy of any demo not listed here,<br><br>
-  Beneath A Steel Sky demos aren't going to be supported for technical reasons.<br><br>
+  Beneath A Steel Sky floppy demos aren't going to be supported for technical reasons.<br><br>
 </td></tr>
 </table>
 
