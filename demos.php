@@ -343,6 +343,8 @@ $GOB_demos = array(
 	);
 
 $MISC_demos = array(
+	'Beneath a Steel Sky (DOS CD Demo)'
+		=> array('http://demos.robertmegone.com/sky/sky-dos-v0365-cd-demo-en.zip', 'sky'),
 	'Broken Sword 1: The Shadow of the Templars (Macintosh Demo)'
 		=> array('http://demos.robertmegone.com/sword1/sword1-mac-demo-en.zip', 'sword1demo'),
 	'Broken Sword 1: The Shadow of the Templars (Windows Demo)'
