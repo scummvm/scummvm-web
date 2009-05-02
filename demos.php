@@ -103,6 +103,8 @@ $LEC_demos = array(
 		=> array('http://demos.robertmegone.com/scumm/samnmax-dos-demo-de.zip', 'samnmax'),
 	'Sam &amp; Max Hit the Road (DOS WIP demo - Interactive)'
 		=> array('http://demos.robertmegone.com/scumm/samnmax-dos-wip-demo-en.zip', 'samnmax'),
+	'Sam &amp; Max Hit the Road (DOS CD demo - Interactive)'
+		=> array('http://demos.robertmegone.com/scumm/samnmax-dos-cd-demo-en.zip', 'samnmax'),
 	'Sam &amp; Max Hit the Road (Macintosh demo - Interactive)'
 		=> array('http://demos.robertmegone.com/scumm/samnmax-mac-demo-en.zip', 'samnmax'),
 	'The Curse of Monkey Island (Windows small demo)'
