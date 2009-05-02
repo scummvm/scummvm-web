@@ -178,6 +178,8 @@ $HE_demos = array(
 		=> array('http://demos.robertmegone.com/scumm/he/freddi4-win-demo-us.zip', 'freddi4'),
 	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows Updated Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/freddi4-win-updated-demo-us.zip', 'freddi4'),
+	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows Dutch Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/freddi4-win-demo-nl.zip', 'freddi4'),
 	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows German Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/freddi4-win-demo-de.zip', 'freddi4'),
 	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows UK Demo)'
@@ -210,6 +212,8 @@ $HE_demos = array(
 		=> array('http://demos.robertmegone.com/scumm/he/pajama2-win-demo-nl.zip', 'pajama2'),
 	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/pajama3-win-demo-us.zip', 'pajama3'),
+	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows Dutch Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/pajama3-win-demo-nl.zip', 'pajama3'),
 	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows German Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/pajama3-win-demo-de.zip', 'pajama3'),
 	'Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows UK Demo)'
@@ -222,6 +226,8 @@ $HE_demos = array(
 		=> array('http://demos.robertmegone.com/scumm/he/puttrace-win-preview-us.zip', 'puttrace'),
 	'Putt-Putt Enters the Race (Windows Dutch Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/puttrace-win-demo-nl.zip', 'puttrace'),
+	'Putt-Putt Enters the Race (Windows Updated Dutch Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/puttrace-win-updated-demo-nl.zip', 'puttrace'),
 	'Putt-Putt Enters the Race (Windows German Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/puttrace-win-demo-de.zip', 'puttrace'),
 	'Putt-Putt Enters the Race (Windows UK Demo)'
@@ -264,6 +270,8 @@ $HE_demos = array(
 		=> array('http://demos.robertmegone.com/scumm/he/spyfox2-win-demo-us.zip', 'spyfox2'),
 	'SPY Fox 2: Some Assembly Required (Windows Preview)'
 		=> array('http://demos.robertmegone.com/scumm/he/spyfox2-win-preview-us.zip', 'spyfox2'),
+	'SPY Fox 2: Some Assembly Required (Windows Dutch Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/spyfox2-win-demo-nl.zip', 'spyfox2'),
 	'SPY Fox 2: Some Assembly Required (Windows German Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/spyfox2-win-demo-de.zip', 'spyfox2'),
 	'SPY Fox 2: Some Assembly Required (Windows UK Demo)'
