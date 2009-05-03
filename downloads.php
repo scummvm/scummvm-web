@@ -128,6 +128,9 @@ function addDownload($image, $linkText, $desc, $url) {
 	addDownload("catpl-ubuntu", "Ubuntu 8.10 (intrepid) i386 package", "(3.7M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_$current_release-0.intrepid.1_i386.deb?download");
 	addDownload("catpl-ubuntu", "Ubuntu 8.10 (intrepid) x86 64bit package", "(4.1M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_$current_release-0.intrepid.1_amd64.deb?download");
 
+	addDownload("catpl-ubuntu", "Ubuntu 9.04 (jaunty) i386 package", "(3.7M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_$current_release-0.jaunty.1_i386.deb?download");
+	addDownload("catpl-ubuntu", "Ubuntu 9.04 (jaunty) x86 64bit package", "(4.1M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_$current_release-0.jaunty.1_amd64.deb?download");
+
 	addDownload("catpl-slackware", "SlackWare package", "(3.6M .tgz)", "http://prdownloads.sourceforge.net/scummvm/scummvm-".$current_release."_slack-i486-1.tgz?download");
 
 /*
