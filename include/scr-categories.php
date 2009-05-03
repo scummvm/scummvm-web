@@ -79,6 +79,13 @@ $cat->add(9, "cat-ft.png", "Full Throttle");
 $cat->add(10, "cat-dig.png", "The Dig");
 $cat->add(11, "cat-comi.png", "The Curse of Monkey Island");
 
+// MADE games
+$cat = & new category(6, "Activision Adventure games");
+$cat->add(1, "cat-lgop2.png", "Leather Goddesses of Phobos 2");
+$cat->add(2, "cat-manhole.png", "The Manhole");
+$cat->add(3, "cat-rtz.png", "Return to Zork");
+$cat->add(4, "cat-rodney.png", "Rodney's Funscreen");
+
 // AGOS games
 $cat = & new category(4, "Adventuresoft/Horrorsoft games");
 $cat->add(0, "cat-simon.png", "Simon the Sorcerer series");
@@ -93,6 +100,13 @@ $cat->add(3, "cat-woodruff.png", "The Bizarre Adventures of Woodruff and the Sch
 $cat->add(0, "cat-gob.png", "Gobliiins series");
 $cat->add(4, "cat-lostintime.png", "Lost In Time");
 $cat->add(1, "cat-ween.png", "Ween: The Prophecy");
+
+// Revolution games
+$cat = & new category(7, "Revolution Software games");
+$cat->add(3, "cat-sky.png", "Beneath a Steel Sky");
+$cat->add(1, "cat-sword.png", "Broken Sword 1 - The Shadow of the Templars");
+$cat->add(2, "cat-sword2.png", "Broken Sword 2 - The Smoking Mirror");
+$cat->add(4, "cat-lure.png", "Lure of the Temptress");
 
 // AGI games
 $cat = & new category(3, "Sierra AGI games");
@@ -111,8 +125,6 @@ $cat->add(11, "cat-winnie.png", "Winnie the Pooh in the Hundred Acre Wood");
 
 // Other games
 $cat = & new category(2, "Other games");
-$cat->add(3, "cat-sky.png", "Beneath a Steel Sky");
-$cat->add(0, "cat-sword.png", "Broken Sword series");
 $cat->add(15, "cat-tucker.png", "Bud Tucker in Double Trouble");
 // $cat->add(17, "cat-dw.png", "Discworld series");
 $cat->add(10, "cat-drascula.png", "Drascula: The Vampire Strikes Back");
@@ -120,13 +132,8 @@ $cat->add(2, "cat-queen.png", "Flight of the Amazon Queen");
 $cat->add(5, "cat-fw.png", "Future Wars: Time Travelers");
 $cat->add(8, "cat-ihnm.png", "I Have no Mouth and I Must Scream");
 $cat->add(1, "cat-ite.png", "Inherit the Earth: Quest for the Orb");
-$cat->add(11, "cat-lgop2.png", "Leather Goddesses of Phobos 2");
-$cat->add(12, "cat-manhole.png", "The Manhole");
-$cat->add(13, "cat-rtz.png", "Return to Zork");
-$cat->add(14, "cat-rodney.png", "Rodney's Funscreen");
 $cat->add(7, "cat-nippon.png", "Nippon Safes Inc.");
 $cat->add(4, "cat-kyra.png", "The Legend of Kyrandia series");
-$cat->add(9, "cat-lure.png", "Lure of the Temptress");
 $cat->add(16, "cat-t7g.png", "The 7th Guest");
 $cat->add(6, "cat-touche.png", "Touch&eacute;: The Adventures of the Fifth Musketeer");
 

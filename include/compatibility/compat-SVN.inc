@@ -84,25 +84,31 @@ $gamesGOB = array(
 	'Ween: The Prophecy'                                    => array('ween','95'),
 	);
 
-$gamesOther = array(
+$gamesMADE = array(
+	'Leather Goddesses of Phobos 2'				=> array('lgop2', '90'),
+	'The Manhole'						=> array('manhole', '90'),
+	'Return to Zork'					=> array('rtz', '90'),
+	'Rodney\'s Funscreen'					=> array('rodney', '90'),
+	);
+
+$gamesRevolution = array(
 	'Beneath a Steel Sky'                                   => array('sky','98'),
 	'Broken Sword 1: The Shadow of the Templars'            => array('sword1','98'),
 	'Broken Sword 2: The Smoking Mirror'                    => array('sword2','98'),
+	'Lure of the Temptress'                                 => array('lure', '95'),
+	);
+
+$gamesOther = array(
 	'Bud Tucker in Double Trouble'                          => array('tucker','95'),
 	'Drascula: The Vampire Strikes Back'                    => array('drascula','98'),
 	'Flight of the Amazon Queen'                            => array('queen','98'),
 	'Future Wars'                                           => array('fw','80'),
 	'I Have No Mouth, and I Must Scream'                    => array('ihnm', '90'),
 	'Inherit the Earth: Quest for the Orb'                  => array('ite', '95'),
-	'Leather Goddesses of Phobos 2'                                     => array('lgop2', '90'),
-	'The Manhole'                                     => array('manhole', '90'),
 	'Nippon Safes Inc.'                                     => array('nippon', '90'),
 	'The Legend of Kyrandia'                                => array('kyra1', '87'),
 	'The Legend of Kyrandia: Book Two: Hand of Fate'        => array('kyra2', '85'),
 	'The Legend of Kyrandia: Book Three: Malcolm\'s Revenge' => array('kyra3', '80'),
-	'Lure of the Temptress'                                 => array('lure', '95'),
-	'Return to Zork'                                     => array('rtz', '90'),
-	'Rodney\'s Funscreen'                                     => array('rodney', '90'),
 	'The 7th Guest'                                         => array('t7g', '90'),
 	'Touche: The Adventures of the Fifth Musketeer'         => array('touche','75'),
 	);
@@ -129,8 +135,10 @@ $gamesAGI = array(
 
 $gamesCompanies = array(
 	"LucasArts"                  => $gamesLucas,
+	"Activision Adventure"       => $gamesMADE,
 	"Adventuresoft/Horrorsoft"   => $gamesAGOS,
 	"Coktel Vision"              => $gamesGOB,
+	"Revolution Software"        => $gamesRevolution,
 	"Sierra AGI"                 => $gamesAGI,
 	"Other"                      => $gamesOther,
 	"Humongous Entertainment"    => $gamesHE,

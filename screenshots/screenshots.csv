@@ -217,16 +217,10 @@
 1|8|18|he/puttputt/scummvm_1_8_18|Putt-Putt & Fatty Bear's Activity Pack
 1|8|19|he/puttputt/scummvm_1_8_19|Putt-Putt & Fatty Bear's Activity Pack
 #
-2|0|0|other/sword/scummvm_2_0_0|Broken Sword 1 - The Shadow of the Templars
-2|0|1|other/sword/scummvm_2_0_1|Broken Sword 1 - The Shadow of the Templars
-2|0|2|other/sword/scummvm_2_0_2|Broken Sword 2 - The Smoking Mirror
-2|0|3|other/sword/scummvm_2_0_3|Broken Sword 2 - The Smoking Mirror
 2|1|0|other/ite/scummvm_2_2_0|Inherit the Earth: Quest for the Orb
 2|1|1|other/ite/scummvm_2_2_1|Inherit the Earth: Quest for the Orb (German)
 2|2|0|other/queen/scummvm_2_3_0|Flight of the Amazon Queen
 2|2|1|other/queen/scummvm_2_3_1|Flight of the Amazon Queen (DOS Hebrew)
-2|3|0|other/sky/scummvm_2_5_0|Beneath a Steel Sky
-2|3|1|other/sky/scummvm_2_5_1|Beneath a Steel Sky
 2|4|0|other/kyra/scummvm_2_6_0|The Legend of Kyrandia (DOS)
 2|4|1|other/kyra/scummvm_2_6_1|The Legend of Kyrandia (DOS)
 2|4|2|other/kyra/scummvm_2_6_2|The Legend of Kyrandia (PC-98 Japanese)
@@ -261,40 +255,11 @@
 2|8|3|other/ihnm/ihnm-4|I Have no Mouth and I Must Scream (DOS)
 2|8|4|other/ihnm/ihnm-5|I Have no Mouth and I Must Scream (DOS)
 2|8|5|other/ihnm/ihnm-6|I Have no Mouth and I Must Scream (DOS)
-2|9|0|other/lure/lure-1|Lure of the Temptress (DOS VGA)
-2|9|1|other/lure/lure-2|Lure of the Temptress (DOS VGA)
-2|9|2|other/lure/lure-3|Lure of the Temptress (DOS VGA)
-2|9|3|other/lure/lure-4|Lure of the Temptress (DOS VGA)
-2|9|4|other/lure/lure-5|Lure of the Temptress (DOS VGA)
-2|9|5|other/lure/lure-6|Lure of the Temptress (DOS VGA)
 2|10|0|other/drascula/drascula-1|Drascula: The Vampire Strikes Back
 2|10|1|other/drascula/drascula-2|Drascula: The Vampire Strikes Back
 2|10|2|other/drascula/drascula-3|Drascula: The Vampire Strikes Back
 2|10|3|other/drascula/drascula-4|Drascula: The Vampire Strikes Back
 2|10|4|other/drascula/drascula-5|Drascula: The Vampire Strikes Back
-2|11|0|made/lgop-0|Leather Goddesses of Phobos 2
-2|11|1|made/lgop-1|Leather Goddesses of Phobos 2
-2|11|2|made/lgop-2|Leather Goddesses of Phobos 2
-2|11|3|made/lgop-3|Leather Goddesses of Phobos 2
-2|11|4|made/lgop-4|Leather Goddesses of Phobos 2
-2|12|0|made/manhole-0|The Manhole
-2|12|1|made/manhole-1|The Manhole
-2|12|2|made/manhole-2|The Manhole
-2|12|3|made/manhole-3|The Manhole
-2|12|4|made/manhole-4|The Manhole
-2|12|5|made/manhole-5|The Manhole
-2|13|0|made/rtz-0|Return to Zork
-2|13|1|made/rtz-1|Return to Zork
-2|13|2|made/rtz-2|Return to Zork
-2|13|3|made/rtz-3|Return to Zork
-2|13|4|made/rtz-4|Return to Zork
-2|13|5|made/rtz-5|Return to Zork
-2|14|0|made/rodney-0|Rodney's Funscreen
-2|14|1|made/rodney-1|Rodney's Funscreen
-2|14|2|made/rodney-2|Rodney's Funscreen
-2|14|3|made/rodney-3|Rodney's Funscreen
-2|14|4|made/rodney-4|Rodney's Funscreen
-2|14|5|made/rodney-5|Rodney's Funscreen
 2|15|0|other/tucker/tucker-0|Bud Tucker in Double Trouble
 2|15|1|other/tucker/tucker-1|Bud Tucker in Double Trouble
 2|15|2|other/tucker/tucker-2|Bud Tucker in Double Trouble
@@ -316,6 +281,49 @@
 2|17|5|tinsel/dw1-5|Discworld
 2|17|6|tinsel/dw1-6|Discworld
 2|17|7|tinsel/dw1-7|Discworld
+
+#
+# MADE games
+#
+6|1|0|made/lgop-0|Leather Goddesses of Phobos 2
+6|1|1|made/lgop-1|Leather Goddesses of Phobos 2
+6|1|2|made/lgop-2|Leather Goddesses of Phobos 2
+6|1|3|made/lgop-3|Leather Goddesses of Phobos 2
+6|1|4|made/lgop-4|Leather Goddesses of Phobos 2
+6|2|0|made/manhole-0|The Manhole
+6|2|1|made/manhole-1|The Manhole
+6|2|2|made/manhole-2|The Manhole
+6|2|3|made/manhole-3|The Manhole
+6|2|4|made/manhole-4|The Manhole
+6|2|5|made/manhole-5|The Manhole
+6|3|0|made/rtz-0|Return to Zork
+6|3|1|made/rtz-1|Return to Zork
+6|3|2|made/rtz-2|Return to Zork
+6|3|3|made/rtz-3|Return to Zork
+6|3|4|made/rtz-4|Return to Zork
+6|3|5|made/rtz-5|Return to Zork
+6|4|0|made/rodney-0|Rodney's Funscreen
+6|4|1|made/rodney-1|Rodney's Funscreen
+6|4|2|made/rodney-2|Rodney's Funscreen
+6|4|3|made/rodney-3|Rodney's Funscreen
+6|4|4|made/rodney-4|Rodney's Funscreen
+6|4|5|made/rodney-5|Rodney's Funscreen
+
+#
+# Revolution games
+#
+7|1|0|other/sword/scummvm_2_0_0|Broken Sword 1 - The Shadow of the Templars
+7|1|1|other/sword/scummvm_2_0_1|Broken Sword 1 - The Shadow of the Templars
+7|2|0|other/sword/scummvm_2_0_2|Broken Sword 2 - The Smoking Mirror
+7|2|1|other/sword/scummvm_2_0_3|Broken Sword 2 - The Smoking Mirror
+7|3|0|other/sky/scummvm_2_5_0|Beneath a Steel Sky
+7|3|1|other/sky/scummvm_2_5_1|Beneath a Steel Sky
+7|4|0|other/lure/lure-1|Lure of the Temptress (DOS VGA)
+7|4|1|other/lure/lure-2|Lure of the Temptress (DOS VGA)
+7|5|2|other/lure/lure-3|Lure of the Temptress (DOS VGA)
+7|5|3|other/lure/lure-4|Lure of the Temptress (DOS VGA)
+7|5|4|other/lure/lure-5|Lure of the Temptress (DOS VGA)
+7|5|5|other/lure/lure-6|Lure of the Temptress (DOS VGA)
 
 #
 # Sierra AGI games

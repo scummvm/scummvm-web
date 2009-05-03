@@ -46,6 +46,24 @@
 .par-item .par-scr-content-cat5 {
 	margin: 0px;
 	margin-right: -8px;
+	background-image: url('images/bg-lec-games.jpg');
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding: 0 20px 0 20px;
+}
+
+.par-item .par-scr-content-cat6 {
+	margin: 0px;
+	margin-right: -8px;
+	background-image: url('images/bg-he-games.jpg');
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding: 0 20px 0 20px;
+}
+
+.par-item .par-scr-content-cat7 {
+	margin: 0px;
+	margin-right: -8px;
 	background-image: url('images/bg-other-games.jpg');
 	background-repeat: no-repeat;
 	background-position: top right;
