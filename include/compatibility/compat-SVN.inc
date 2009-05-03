@@ -94,12 +94,16 @@ $gamesOther = array(
 	'Future Wars'                                           => array('fw','80'),
 	'I Have No Mouth, and I Must Scream'                    => array('ihnm', '90'),
 	'Inherit the Earth: Quest for the Orb'                  => array('ite', '95'),
+	'Leather Goddesses of Phobos 2'                                     => array('lgop2', '90'),
+	'The Manhole'                                     => array('manhole', '90'),
 	'Nippon Safes Inc.'                                     => array('nippon', '90'),
 	'The Legend of Kyrandia'                                => array('kyra1', '87'),
 	'The Legend of Kyrandia: Book Two: Hand of Fate'        => array('kyra2', '85'),
 	'The Legend of Kyrandia: Book Three: Malcolm\'s Revenge' => array('kyra3', '80'),
-	'The 7th Guest'                                         => array('t7g', '90'),
 	'Lure of the Temptress'                                 => array('lure', '95'),
+	'Return to Zork'                                     => array('rtz', '90'),
+	'Rodney\'s Funscreen'                                     => array('rodney', '90'),
+	'The 7th Guest'                                         => array('t7g', '90'),
 	'Touche: The Adventures of the Fifth Musketeer'         => array('touche','75'),
 	);
 
@@ -440,10 +444,14 @@ $notes = array(
 		   "<br>- Only DOS version is supported by this target".
 		   "<br>- Game lacks sound",
 "lure"		=> "Game is completable".
-		   "<br>- Only DOS VGA version is supported",
+		   "<br>- DOS VGA and EGA versions are supported",
 "t7g"		=> "Game is completable.".
 		   "<br>- The MT-32 instrument definitions aren't supported yet, so it will play with wrong instruments".
-		   "<br>- Only DOS and Windows versions are supported by this target"
+		   "<br>- Only DOS and Windows versions are supported by this target",
+"manhole"		=> "Game is playable.",
+"rodney"		=> "Game is playable.",
+"rtz"			=> "Game is completable.",
+"lgop2"			=> "Game is completable."
 );
 
 ?>
