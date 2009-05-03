@@ -175,7 +175,7 @@ function addDownload($image, $linkText, $desc, $url) {
 		addDownload("catpl-solaris", "Solaris 10 (both IA32 and AMD64) binary", "(11.0M .pkg.bz2)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-solaris10-x86.pkg.bz2?download");
 
 		addDownload("catpl-beos", "BeOS package", "(4.8M .tgz)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-beos.tgz?download");
-		addDownload("catpl-beos", "Haiku package", "(4.3M .tgz)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-haiku-gcc4.tgz?download");
+		addDownload("catpl-haiku", "Haiku package", "(4.3M .tgz)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-haiku-gcc4.tgz?download");
 
 		addDownload("catpl-amiga", "AmigaOS 4 package", "(5.3M .lha)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-amigaos4.lha?download");
 
