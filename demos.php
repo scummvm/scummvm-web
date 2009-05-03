@@ -356,15 +356,15 @@ $GOB_demos = array(
 $SIERRA_demos = array(
 	'AGI Demo Pack 1 (DOS demos of 3-D Helicopter Sim, Police Quest, Thexder, Space Quest 2, Mixed-up Mother Goose, Leisure Suit Larry)'
 		=> array('http://demos.robertmegone.com/agi/agi-dos-pack1-demo-en.zip', 'agidemo'),
-	'AGI Demo Pack 2 (DOS demos of 3-D Helicopter Sim, Space Quest 2, Thexder, King's Quest 3, Mixed- up Mother Goose, King's Quest 2, Police Quest, Leisure Suit Larry, Space Quest)'
+	'AGI Demo Pack 2 (DOS demos of 3-D Helicopter Sim, Space Quest 2, Thexder, King\'s Quest 3, Mixed- up Mother Goose, King\'s Quest 2, Police Quest, Leisure Suit Larry, Space Quest)'
 		=> array('http://demos.robertmegone.com/agi/agi-dos-pack2-demo-en.zip', 'agidemo'),
-	'AGI Demo Pack 3 (DOS demos of 3-D Helicopter Sim, Space Quest 2, Police Quest, King's Quest 3, Mixed-up Mother Goose, Leisure Suit Larry)'
+	'AGI Demo Pack 3 (DOS demos of 3-D Helicopter Sim, Space Quest 2, Police Quest, King\'s Quest 3, Mixed-up Mother Goose, Leisure Suit Larry)'
 		=> array('http://demos.robertmegone.com/agi/agi-dos-pack3-demo-en.zip', 'agidemo'),
 	'AGI Demo Pack 4 (DOS demos of Gold Rush!, Manhunter: NewYork, Mixed-up Mother Goose, Police Quest, Space Quest 2, Leisure Suit Larry)'
 		=> array('http://demos.robertmegone.com/agi/agi-dos-pack4-demo-en.zip', 'agidemo'),
-	'AGI Demo Pack 5 (DOS demos of Space Quest, Donald Duck's Playground, King's Quest 3, Leisure Suit Larry)'
+	'AGI Demo Pack 5 (DOS demos of Space Quest, Donald Duck\'s Playground, King\'s Quest 3, Leisure Suit Larry)'
 		=> array('http://demos.robertmegone.com/agi/agi-dos-pack5-demo-en.zip', 'agidemo'),
-	'King's Quest IV: The Perils of Rosella (DOS demo)'
+	'King\'s Quest IV: The Perils of Rosella (DOS demo)'
 		=> array('http://demos.robertmegone.com/agi/kq4-dos-demo-en.zip', 'kq4'),
 	'Xmas Card (DOS demo)'
 		=> array('http://demos.robertmegone.com/agi/xmascard-dos-en.zip', 'xmascard')
