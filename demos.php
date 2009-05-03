@@ -189,8 +189,12 @@ $HE_demos = array(
 		=> array('http://demos.robertmegone.com/scumm/he/freddi4-win-demo-uk.zip', 'freddi4'),
 	'Humongous Catalog demo (Windows Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/catalog-win-demo-en.zip', 'catalog'),
+	'Humongous Catalog demo (Windows French Preview)'
+		=> array('http://demos.robertmegone.com/scumm/he/catalog-win-preview-fr.zip', 'catalog'),
 	'Humongous Catalog demo (Windows German Preview)'
 		=> array('http://demos.robertmegone.com/scumm/he/catalog-win-preview-de.zip', 'catalog'),
+	'Humongous Catalog demo (Windows UK Preview)'
+		=> array('http://demos.robertmegone.com/scumm/he/catalog-win-preview-uk.zip', 'catalog'),
 	'Let\'s Explore the Airport with Buzzy (Macintosh Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/airport-mac-demo-us.zip', 'airport'),
 	'Let\'s Explore the Airport with Buzzy (Windows Demo)'
