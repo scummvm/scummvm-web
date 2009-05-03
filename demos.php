@@ -72,7 +72,9 @@ $LEC_demos = array(
 	'Full Throttle (Macintosh demo)'
 		=> array('http://demos.robertmegone.com/scumm/ft-mac-demo-en.zip', 'ft'),
 	'Indiana Jones and the Fate of Atlantis (DOS demo - Interactive)'
-		=> array('http://demos.robertmegone.com/scumm/atlantis-dos-demo-en.zip', 'atlantis'),
+		=> array('http://demos.robertmegone.com/scumm/atlantis-dos-demo1-en.zip', 'atlantis'),
+	'Indiana Jones and the Fate of Atlantis (DOS Alternative demo - Interactive)'
+		=> array('http://demos.robertmegone.com/scumm/atlantis-dos-demo2-en.zip', 'atlantis'),
 	'Indiana Jones and the Fate of Atlantis (DOS demo - Non interactive)'
 		=> array('http://demos.robertmegone.com/scumm/atlantis-dos-ni-demo-en.zip', 'atlantis'),
 	'Indiana Jones and the Fate of Atlantis (FM Towns demo - Non interactive)'
