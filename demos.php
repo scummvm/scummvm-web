@@ -317,6 +317,8 @@ $GOB_demos = array(
 		=> array('http://demos.robertmegone.com/gob/gob1-dos-demo1-en.zip', 'gob'),
 	'Gobliiins (DOS Alternative demo)'
 		=> array('http://demos.robertmegone.com/gob/gob1-dos-demo2-en.zip', 'gob'),
+	'Gobliiins (DOS French demo)'
+		=> array('http://demos.robertmegone.com/gob/gob1-dos-demo-fr.zip', 'gob'),
 	'Gobliins 2 (Amiga demo)'
 		=> array('http://demos.robertmegone.com/gob/gob2-amiga-demo-en.zip', 'gob'),
 	'Gobliins 2 (DOS demo)'
