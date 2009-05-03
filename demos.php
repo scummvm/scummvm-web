@@ -96,7 +96,7 @@ $LEC_demos = array(
 		=> array('http://demos.robertmegone.com/scumm/maniac-dos-v2-ni-demo-en.zip', 'maniac'),
 	'Monkey Island 2 (DOS demo - not supported by ScummVM)'
 		=> array('http://demos.robertmegone.com/scumm/monkey2-dos-ni-demo-en.zip', 'monkey2'),
-	'Passport to Adventure (DOS EGA demos of mi, loom, indy3)'
+	'Passport to Adventure (DOS EGA demos of Indiana Jones and the Last Crusade, The Secret of Monkey Island, Loom)'
 		=> array('http://demos.robertmegone.com/scumm/pass-dos-en.zip', 'pass'),
 	'Sam &amp; Max Hit the Road (DOS demo - Interactive)'
 		=> array('http://demos.robertmegone.com/scumm/samnmax-dos-demo-en.zip', 'samnmax'),
@@ -354,8 +354,6 @@ $GOB_demos = array(
 	);
 
 $SIERRA_demos = array(
-
-
 	'AGI Demo Pack 1 (DOS demos of 3-D Helicopter Sim, Police Quest, Thexder, Space Quest 2, Mixed-up Mother Goose, Leisure Suit Larry)'
 		=> array('http://demos.robertmegone.com/agi/agi-dos-pack1-demo-en.zip', 'agidemo'),
 	'AGI Demo Pack 2 (DOS demos of 3-D Helicopter Sim, Space Quest 2, Thexder, King\'s Quest 3, Mixed- up Mother Goose, King\'s Quest 2, Police Quest, Leisure Suit Larry, Space Quest)'
