@@ -370,6 +370,8 @@ $MISC_demos = array(
 	'Flight of the Amazon Queen (Amiga interview demo)'
 		=> array('http://demos.robertmegone.com/queen/queen-amiga-interview-en.zip', 'queen'),
 	'Flight of the Amazon Queen (DOS PCGAMES demo)'
+		=> array('http://demos.robertmegone.com/queen/queen-dos-demo-en.zip', 'queen'),
+	'Flight of the Amazon Queen (DOS PCGAMES demo)'
 		=> array('http://demos.robertmegone.com/queen/queen-dos-pcgames-demo-en.zip', 'queen'),
 	'Flight of the Amazon Queen (DOS interview demo)'
 		=> array('http://demos.robertmegone.com/queen/queen-dos-interview-en.zip', 'queen'),
