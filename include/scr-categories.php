@@ -114,6 +114,7 @@ $cat = & new category(2, "Other games");
 $cat->add(3, "cat-sky.png", "Beneath a Steel Sky");
 $cat->add(0, "cat-sword.png", "Broken Sword series");
 $cat->add(15, "cat-tucker.png", "Bud Tucker in Double Trouble");
+// $cat->add(17, "cat-dw.png", "Discworld series");
 $cat->add(10, "cat-drascula.png", "Drascula: The Vampire Strikes Back");
 $cat->add(2, "cat-queen.png", "Flight of the Amazon Queen");
 $cat->add(5, "cat-fw.png", "Future Wars: Time Travelers");
