@@ -37,6 +37,7 @@ html_content_begin('Game Demos');
   html_nav_item("#he", "Humongous Entertainment Demos");
   html_nav_item("#agos", "Adventuresoft/Horrorsoft Demos");
   html_nav_item("#gob", "Coktel Vision Demos");
+  html_nav_item("#sierra", "Sierra Demos");
   html_nav_item("#other", "Miscellaneous Demos");
 ?>
 
@@ -352,6 +353,23 @@ $GOB_demos = array(
 		=> array('http://demos.robertmegone.com/gob/ween-dos-demo-en.zip', 'gob')
 	);
 
+$SIERRA_demos = array(
+	'AGI Demo Pack 1 (DOS demos of 3-D Helicopter Sim, Police Quest, Thexder, Space Quest 2, Mixed-up Mother Goose, Leisure Suit Larry)'
+		=> array('http://demos.robertmegone.com/agi/agi-dos-pack1-demo-en.zip', 'agidemo'),
+	'AGI Demo Pack 2 (DOS demos of 3-D Helicopter Sim, Space Quest 2, Thexder, King's Quest 3, Mixed- up Mother Goose, King's Quest 2, Police Quest, Leisure Suit Larry, Space Quest)'
+		=> array('http://demos.robertmegone.com/agi/agi-dos-pack2-demo-en.zip', 'agidemo'),
+	'AGI Demo Pack 3 (DOS demos of 3-D Helicopter Sim, Space Quest 2, Police Quest, King's Quest 3, Mixed-up Mother Goose, Leisure Suit Larry)'
+		=> array('http://demos.robertmegone.com/agi/agi-dos-pack3-demo-en.zip', 'agidemo'),
+	'AGI Demo Pack 4 (DOS demos of Gold Rush!, Manhunter: NewYork, Mixed-up Mother Goose, Police Quest, Space Quest 2, Leisure Suit Larry)'
+		=> array('http://demos.robertmegone.com/agi/agi-dos-pack4-demo-en.zip', 'agidemo'),
+	'AGI Demo Pack 5 (DOS demos of Space Quest, Donald Duck's Playground, King's Quest 3, Leisure Suit Larry)'
+		=> array('http://demos.robertmegone.com/agi/agi-dos-pack5-demo-en.zip', 'agidemo'),
+	'King's Quest IV: The Perils of Rosella (DOS demo)'
+		=> array('http://demos.robertmegone.com/agi/kq4-dos-demo-en.zip', 'kq4'),
+	'Xmas Card (DOS demo)'
+		=> array('http://demos.robertmegone.com/agi/xmascard-dos-en.zip', 'xmascard')
+	);
+
 $MISC_demos = array(
 	'Beneath a Steel Sky (DOS CD Demo)'
 		=> array('http://demos.robertmegone.com/sky/sky-dos-v0365-cd-demo-en.zip', 'sky'),
@@ -434,6 +452,8 @@ echo "<a name='agos'></a>\n";
 render_demos("Adventuresoft/Horrorsoft Demos", $AGOS_demos);
 echo "<a name='gob'></a>\n";
 render_demos("Coktel Vision Demos", $GOB_demos);
+echo "<a name='sierra'></a>\n";
+render_demos("Sierra Demos", $SIERRA_demos);
 echo "<a name='other'></a>\n";
 render_demos("Miscellaneous Demos", $MISC_demos);
 
