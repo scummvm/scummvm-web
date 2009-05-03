@@ -336,13 +336,13 @@ $GOB_demos = array(
 	'Lost in Time (DOS demo - Non interactive)'
 		=> array('http://demos.robertmegone.com/gob/lostintime-dos-ni-demo-en.zip', 'gob'),
 	'Playtoon 1 - Uncle Archibald (DOS demo - Non-interactive) - Requires ScummVM 0.14.0svn'
-		=> array('http://demos.robertmegone.com/gob/playtoons-dos-ni-demo1-en.zip', 'gob'),
+		=> array('http://demos.robertmegone.com/gob/archibald-dos-ni-demo1-en.zip', 'gob'),
 	'Playtoon 1 - Uncle Archibald (DOS demo - Alternative Non-interactive) - Requires ScummVM 0.14.0svn'
-		=> array('http://demos.robertmegone.com/gob/playtoons-dos-ni-demo2-en.zip', 'gob'),
+		=> array('http://demos.robertmegone.com/gob/archibald-dos-ni-demo2-en.zip', 'gob'),
 	'Playtoon 1 - Uncle Archibald (DOS Italian demo - Non-interactive) - Requires ScummVM 0.14.0svn'
-		=> array('http://demos.robertmegone.com/gob/playtoons-dos-ni-demo-it.zip', 'gob'),
+		=> array('http://demos.robertmegone.com/gob/archibald-dos-ni-demo-it.zip', 'gob'),
 	'Playtoon 1 - Uncle Archibald (DOS Spanish demo - Non-interactive) - Requires ScummVM 0.14.0svn'
-		=> array('http://demos.robertmegone.com/gob/playtoons-dos-ni-demo-sp.zip', 'gob'),
+		=> array('http://demos.robertmegone.com/gob/archibald-dos-ni-demo-sp.zip', 'gob'),
 	'The Bizarre Adventures of Woodruff and the Schnibble (DOS demo - Non-interactive) - Requires ScummVM 0.14.0svn'
 		=> array('http://demos.robertmegone.com/gob/woodruff-dos-ni-demo-en.zip', 'gob'),
 	'The Last Dynasty (DOS demo - Non interactive) - Requires ScummVM 0.14.0svn'
