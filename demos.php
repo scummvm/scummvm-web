@@ -322,13 +322,13 @@ $GOB_demos = array(
 		=> array('http://demos.robertmegone.com/gob/gob2-dos-demo-en.zip', 'gob'),
 	'Gobliins 2 (DOS demo - Non interactive)'
 		=> array('http://demos.robertmegone.com/gob/gob2-dos-ni-demo-en.zip', 'gob'),
-	'Gobliins 3 (DOS demo)'
+	'Goblins Quest 3 (DOS demo)'
 		=> array('http://demos.robertmegone.com/gob/gob3-dos-demo-en.zip', 'gob'),
-	'Gobliins 3 (DOS demo - Non interactive)'
+	'Goblins Quest 3 (DOS demo - Non interactive)'
 		=> array('http://demos.robertmegone.com/gob/gob3-dos-ni-demo-en.zip', 'gob'),
-	'Gobliins 3 (DOS French demo)'
+	'Goblins Quest 3 (DOS French demo)'
 		=> array('http://demos.robertmegone.com/gob/gob3-dos-demo1-fr.zip', 'gob'),
-	'Gobliins 3 (DOS French Alternative demo)'
+	'Goblins Quest 3 (DOS French Alternative demo)'
 		=> array('http://demos.robertmegone.com/gob/gob3-dos-demo2-fr.zip', 'gob'),
 	'Inca II: Wiracocha (DOS demo - Non-interactive) - Requires ScummVM 0.14.0svn'
 		=> array('http://demos.robertmegone.com/gob/inca2-dos-ni-demo-en.zip', 'gob'),
@@ -369,7 +369,7 @@ $MISC_demos = array(
 		=> array('http://demos.robertmegone.com/queen/queen-amiga-demo-en.zip', 'queen'),
 	'Flight of the Amazon Queen (Amiga interview demo)'
 		=> array('http://demos.robertmegone.com/queen/queen-amiga-interview-en.zip', 'queen'),
-	'Flight of the Amazon Queen (DOS PCGAMES demo)'
+	'Flight of the Amazon Queen (DOS demo)'
 		=> array('http://demos.robertmegone.com/queen/queen-dos-demo-en.zip', 'queen'),
 	'Flight of the Amazon Queen (DOS PCGAMES demo)'
 		=> array('http://demos.robertmegone.com/queen/queen-dos-pcgames-demo-en.zip', 'queen'),
