@@ -66,6 +66,8 @@ $LEC_demos = array(
 		=> array('http://demos.robertmegone.com/scumm/dott-dos-ni-demo-en.zip', 'tentacle'),
 	'Day of the Tentacle (DOS French demo - Non interactive)'
 		=> array('http://demos.robertmegone.com/scumm/dott-dos-ni-demo-fr.zip', 'tentacle'),
+	'Day of the Tentacle (DOS German demo - Non interactive)'
+		=> array('http://demos.robertmegone.com/scumm/dott-dos-ni-demo-de.zip', 'tentacle'),
 	'Day of the Tentacle (Macintosh demo - Non interactive)'
 		=> array('http://demos.robertmegone.com/scumm/dott-mac-ni-demo-en.zip', 'tentacle'),
 	'Full Throttle (DOS demo)'
