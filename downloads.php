@@ -284,8 +284,6 @@ function addDownload($image, $linkText, $desc, $url) {
 		addDownload("catpl-symbian", "0.9.1 Symbian S90 binary", "(1.4M .sis)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-s90.sis?download");
 		addDownload("catpl-uiq", "0.9.1 Symbian UIQ 2 binary", "(1.4M .sis)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.9.1-uiq2.sis?download");
 
-		addDownload("catpl-win64", "0.8.0 Windows 64 zipfile", "(1.4M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-win64.zip?download");
-
 		addDownload("catpl-mandriva", "0.8.0 Mandriva 2006 package", "(1.3M RPM)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-1mdk.i586.rpm?download");
 
 		addDownload("catpl-wince", "0.7.1 PocketPC MIPS binary", "(1.5M zipfile)", "http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-PocketPC_MIPS.zip?download");
