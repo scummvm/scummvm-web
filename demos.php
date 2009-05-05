@@ -343,9 +343,9 @@ $GOB_demos = array(
 		=> array('http://demos.robertmegone.com/gob/inca2-dos-ni-demo-en.zip', 'gob'),
 	'Lost in Time (DOS demo - Non interactive)'
 		=> array('http://demos.robertmegone.com/gob/lostintime-dos-ni-demo-en.zip', 'gob'),
-	'Playtoon 1 - Uncle Archibald (DOS demo - Non-interactive) - Requires ScummVM 0.14.0svn'
+	'Playtoons (DOS demos of Playtoon 1 - Uncle Archibald, Playtoon 2 - Spirou, Playtoons 3 - Secret of the Castle) - Requires ScummVM 0.14.0svn'
 		=> array('http://demos.robertmegone.com/gob/archibald-dos-ni-demo1-en.zip', 'gob'),
-	'Playtoon 1 - Uncle Archibald (DOS demo - Alternative Non-interactive) - Requires ScummVM 0.14.0svn'
+	'Playtoon 1 - Uncle Archibald (DOS demo - Non-interactive) - Requires ScummVM 0.14.0svn'
 		=> array('http://demos.robertmegone.com/gob/archibald-dos-ni-demo2-en.zip', 'gob'),
 	'Playtoon 1 - Uncle Archibald (DOS Italian demo - Non-interactive) - Requires ScummVM 0.14.0svn'
 		=> array('http://demos.robertmegone.com/gob/archibald-dos-ni-demo-it.zip', 'gob'),
