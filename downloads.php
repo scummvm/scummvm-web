@@ -122,11 +122,11 @@ function addDownload($image, $linkText, $desc, $url) {
 
 	addDownload("catpl-fedora", "Fedora 8, 9 and 10 x86 64bit package", "(4.3M RPM)", "http://prdownloads.sourceforge.net/scummvm/scummvm-$current_release-1_F8.x86_64.rpm?download");
 
-	addDownload("catpl-debian", "Debian 5.0 (lenny) i386 package", "(3.7M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_$current_release-0.lenny.1_i386.deb?download");
-	addDownload("catpl-debian", "Debian 5.0 (lenny) x86 64bit package", "(4.1M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_$current_release-0.lenny.1_amd64.deb?download");
+	addDownload("catpl-debian", "Debian 5.0 (lenny) i386 package", "(3.7M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_$current_release-lenny.1_i386.deb?download");
+	addDownload("catpl-debian", "Debian 5.0 (lenny) x86 64bit package", "(4.1M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_$current_release-lenny.1_amd64.deb?download");
 
-	addDownload("catpl-ubuntu", "Ubuntu 8.10 (intrepid) i386 package", "(3.7M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_$current_release-0.intrepid.1_i386.deb?download");
-	addDownload("catpl-ubuntu", "Ubuntu 8.10 (intrepid) x86 64bit package", "(4.1M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_$current_release-0.intrepid.1_amd64.deb?download");
+	addDownload("catpl-ubuntu", "Ubuntu 8.10 (intrepid) i386 package", "(3.7M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_$current_release-intrepid.1_i386.deb?download");
+	addDownload("catpl-ubuntu", "Ubuntu 8.10 (intrepid) x86 64bit package", "(4.1M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_$current_release-intrepid.1_amd64.deb?download");
 
 	addDownload("catpl-ubuntu", "Ubuntu 9.04 (jaunty) i386 package", "(3.7M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_$current_release-0.jaunty.1_i386.deb?download");
 	addDownload("catpl-ubuntu", "Ubuntu 9.04 (jaunty) x86 64bit package", "(4.1M .deb)", "http://prdownloads.sourceforge.net/scummvm/scummvm_$current_release-0.jaunty.1_amd64.deb?download");
