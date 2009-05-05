@@ -321,7 +321,6 @@ function addDownload($image, $linkText, $desc, $url) {
 
 		addDownload("cat-queen", "Flight of the Amazon Queen, Freeware CD Version (mp3 compressed sfx/speech)", "(34.8M)", "http://prdownloads.sourceforge.net/scummvm/FOTAQ_Talkie-1.1.zip?download");
 		addDownload("cat-queen", "Flight of the Amazon Queen, Freeware CD Version (ogg compressed sfx/speech)", "(35.6M)", "ftp://ftp.suse.com/pub/suse/i386/supplementary/X/FOTAQ/");
-		addDownload("cat-queen", "Flight of the Amazon Queen, Freeware CD Version (FLAC compressed sfx/speech)", "(82M) <a href='http://holarse.de'>hosted by Holarse</a>", "ftp://holarse-linuxgaming.de/clients/opensource/Flight-of-the-Amazon-Queen/fotaq-english-flac.tar.bz2");
 		addDownload("cat-queen", "Flight of the Amazon Queen, Freeware CD Version (unmodified original)", "(87M) download this version if your ScummVM doesn't have mp3 support", "http://www.lysator.liu.se/~zino/scummvm/queen/");
 		addDownload("cat-queen", "Flight of the Amazon Queen, Freeware CD Version (<i>Hebrew</i> subtitles, English voices, ogg compressed sfx/speech)", "(63.1M)", "http://prdownloads.sourceforge.net/scummvm/FOTAQ_Heb_talkie.zip?download");
 		addDownload("cat-queen", "Flight of the Amazon Queen, Freeware Floppy Version", "(6.7M)", "http://prdownloads.sourceforge.net/scummvm/FOTAQ_Floppy.zip?download");
