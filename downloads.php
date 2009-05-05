@@ -106,9 +106,9 @@ function addDownload($image, $linkText, $desc, $url) {
 
     <div class="par-subhead-content">
 
-	<p>For a list of changes since the previous version, <a href="http://sourceforge.net/project/shownotes.php?release_id=621976">read the release notes</a>.
+	<p>For a list of changes since the previous version, <a href="http://sourceforge.net/project/shownotes.php?release_id=676818">read the release notes</a>.
 	<BR>
-	0.12.0 is also apt-get'able from Debian unstable (sid).
+	0.13.1 is also apt-get'able from Debian unstable (sid).
 	</p>
 
 <?php
