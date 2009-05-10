@@ -457,9 +457,19 @@ $notes = array(
 		   "<br>- The MT-32 instrument definitions aren't supported yet, so it will play with wrong instruments".
 		   "<br>- Only DOS and Windows versions are supported by this target",
 "manhole"		=> "Game is playable.",
-"rodney"		=> "Game is playable.",
-"rtz"			=> "Game is completable.",
-"lgop2"			=> "Game is completable."
+		   "<br>- The DOS EGA and VGA floppy (\"New and Enhanced\") version is supported by this target".
+		   "<br>- The Mac version is not supported".
+		   "<br>- The TurboGrafx version and the CD-ROM \"Masterpiece Edition\" version are not supported".
+		   "<br>- Some sound effects are not working when interacting with the phone and the piano on the desk inside the ship",
+"rodney"		=> "Game is playable.".
+		   "<br>- The DOS floppy version is supported by this target",
+"rtz"			=> "Game is completable.".
+		   "<br>- DOS floppy and CD versions are supported by this target".
+		   "<br>- The 3DO, Macintosh, PC-FX, PlayStation and SEGA Saturn versions are not supported".
+		   "<br>- Only soundblaster music is played. MIDI music playing/MT32 instrument mapping needs more work",
+"lgop2"			=> "Game is completable.".
+		   "<br>- The DOS floppy version is supported by this target".
+		    "<br>- Only soundblaster music is played. MIDI music playing/MT32 instrument mapping needs more work"
 );
 
 ?>
