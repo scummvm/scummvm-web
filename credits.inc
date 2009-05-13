@@ -113,6 +113,7 @@
 <span style='font-weight: bold'>MADE:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Benjamin Haisch</td><td style='width:10em; text-align: left;' class='news-author'>johndoe</td><td></td>
+<tr><td style='width:13em; padding:2px;'>Filippos Karapetis</td><td style='width:10em; text-align: left;' class='news-author'>[md5]</td><td></td>
 </table>
 <span style='font-weight: bold'>Parallaction:</span>
 <table style='margin-left:2em; margin-bottom: 1em'>
@@ -225,7 +226,7 @@
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>David Corrales-Lopez</td><td style='width:10em; text-align: left;' class='news-author'>david_corrales</td><td>Filesystem access improvements (GSoC 2007 task)</td>
 <tr><td style='width:13em; padding:2px;'>Jerome Fisher</td><td style='width:10em; text-align: left;' class='news-author'>KingGuppy</td><td>MT-32 emulator</td>
-<tr><td style='width:13em; padding:2px;'>Jochen Hoenicke</td><td style='width:10em; text-align: left;' class='news-author'>hoenicke</td><td>Speaker &amp; PCjr sound support, Adlib work</td>
+<tr><td style='width:13em; padding:2px;'>Jochen Hoenicke</td><td style='width:10em; text-align: left;' class='news-author'>hoenicke</td><td>Speaker &amp; PCjr sound support, AdLib work</td>
 <tr><td style='width:13em; padding:2px;'>Chris Page</td><td style='width:10em; text-align: left;' class='news-author'>cp88</td><td>Return to launcher, savestate improvements, leak fixes, ... (GSoC 2008 task)</td>
 <tr><td style='width:13em; padding:2px;'>Robin Watts</td><td style='width:10em; text-align: left;' class='news-author'>robinwatts</td><td>ARM assembly routines for nice speedups on several ports; improvements to the sound mixer</td>
 </table>
@@ -391,7 +392,7 @@
 <div class='par-subhead-content'>
 <table style='margin-left:2em; margin-bottom: 1em'>
 <tr><td style='width:13em; padding:2px;'>Ori Avtalion</td><td style='width:10em; text-align: left;' class='news-author'>salty-horse</td><td>Subtitle control options in the GUI; BASS GUI fixes</td>
-<tr><td style='width:13em; padding:2px;'>Stuart Caie</td><td></td><td>Decoders for Simon 1 Amiga data files</td>
+<tr><td style='width:13em; padding:2px;'>Stuart Caie</td><td></td><td>Decoders for Amiga and AtariST data files (AGOS engine)</td>
 <tr><td style='width:13em; padding:2px;'>Paolo Costabel</td><td></td><td>PSP port contributions</td>
 <tr><td style='width:13em; padding:2px;'>Thierry Crozat</td><td style='width:10em; text-align: left;' class='news-author'>criezy</td><td>Support for Broken Sword 1 Macintosh version</td>
 <tr><td style='width:13em; padding:2px;'>Martin Doucha</td><td style='width:10em; text-align: left;' class='news-author'>next_ghost</td><td>CinE engine objectification</td>
