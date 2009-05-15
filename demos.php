@@ -207,6 +207,8 @@ $HE_demos = array(
 		=> array('http://demos.robertmegone.com/scumm/he/airport-win-updated-demo2-us.zip', 'airport'),
 	'Let\'s Explore the Farm with Buzzy (Windows Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/farm-win-demo-us.zip', 'farm'),
+	'Let\'s Explore the Farm with Buzzy (Windows Dutch Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/farm-win-demo-nl.zip', 'farm'),
 	'Pajama Sam 1: No Need to Hide When It\'s Dark Outside (Windows Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/pajama-win-demo-us.zip', 'pajama'),
 	'Pajama Sam 1: No Need to Hide When It\'s Dark Outside (Windows Updated Demo)'
