@@ -167,6 +167,8 @@ $HE_demos = array(
 		=> array('http://demos.robertmegone.com/scumm/he/freddi-win-demo-us.zip', 'freddi'),
 	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows Updated Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/freddi-win-updated-demo-us.zip', 'freddi'),
+	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows Dutch Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/freddi-win-demo-nl.zip', 'freddi'),
 	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows French Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/freddi-win-demo-fr.zip', 'freddi'),
 	'Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows German demo)'
@@ -175,8 +177,12 @@ $HE_demos = array(
 		=> array('http://demos.robertmegone.com/scumm/he/freddi2-win-demo-us.zip', 'freddi2'),
 	'Freddi Fish 2: The Case of the Haunted Schoolhouse (Windows Updated Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/freddi2-win-updated-demo-us.zip', 'freddi2'),
+	'Freddi Fish 2: The Case of the Haunted Schoolhouse (Windows Dutch Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/freddi2-win-demo-nl.zip', 'freddi2'),
 	'Freddi Fish 3: The Case of the Stolen Conch Shell (Windows Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/freddi3-win-demo-us.zip', 'freddi3'),
+	'Freddi Fish 3: The Case of the Stolen Conch Shell (Windows Dutch Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/freddi3-win-demo-nl.zip', 'freddi3'),
 	'Freddi Fish 3: The Case of the Stolen Conch Shell (Windows French Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/freddi3-win-demo-fr.zip', 'freddi3'),
 	'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows Demo)'
@@ -259,12 +265,16 @@ $HE_demos = array(
 		=> array('http://demos.robertmegone.com/scumm/he/puttzoo-win-demo-us.zip', 'puttzoo'),
 	'Putt-Putt Saves the Zoo (Windows Updated Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/puttzoo-win-updated-demo-us.zip', 'puttzoo'),
+	'Putt-Putt Saves the Zoo (Windows Dutch Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/puttzoo-win-demo-nl.zip', 'puttzoo'),
 	'Putt-Putt Saves the Zoo (Windows German Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/puttzoo-win-demo-de.zip', 'puttzoo'),
 	'Putt-Putt Travels Through Time (Windows Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/putttime-win-demo-us.zip', 'putttime'),
 	'Putt-Putt Travels Through Time (Windows Updated Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/putttime-win-updated-demo-us.zip', 'putttime'),
+	'Putt-Putt Travels Through Time (Windows Dutch Demo)'
+		=> array('http://demos.robertmegone.com/scumm/he/putttime-win-demo-nl.zip', 'putttime'),
 	'Putt-Putt Travels Through Time (Windows French Demo)'
 		=> array('http://demos.robertmegone.com/scumm/he/putttime-win-demo-fr.zip', 'putttime'),
 	'SPY Fox 1: Dry Cereal (Windows Demo)'
