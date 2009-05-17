@@ -437,6 +437,8 @@ $MISC_demos = array(
 		=> array('http://demos.robertmegone.com/parallaction/nippon-amiga-demo-en.zip', 'nippon'),
 	'Operation Stealth (Amiga demo - Non interactive)'
 		=> array('http://demos.robertmegone.com/cine/op-amiga-demo-en.zip', 'os'),
+	'Return to Zork (DOS demo - Non interactive)'
+		=> array('http://demos.robertmegone.com/made/rtz-dos-ni-demo-en.zip', 'rtz'),
 	'The Legend of Kyrandia (DOS demo - Non-interactive)'
 		=> array('http://demos.robertmegone.com/kyra/kyra1-dos-ni-demo-en.zip', 'kyra1'),
 	'The Legend of Kyrandia: The Hand of Fate (DOS demo)'
