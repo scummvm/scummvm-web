@@ -1,0 +1,22 @@
+<NAME>Now you can see subtitles in Broken Sword 1 cutscenes</NAME>
+<DATE>May 17, 2009</DATE>
+<AUTHOR>sev</AUTHOR>
+<BODY>
+<p>
+Since ScummVM 0.10.0 there has been unannounced support for subtitles in the <i>Broken Sword 1</i> cutscenes.
+</p>
+
+<p>
+Now we finally managed to provide a package with subtitles for the following languages: English, Brazilian, German, Spanish, French, Italian and Russian. Also, subtitles for the English demo are provided.
+</p>
+
+<p>
+You can grab the package from the <a href="/downloads.php#extras">downloads</a> page.
+</p>
+
+<p>
+At the moment we still lack Czech subtitles, thus if you're willing to help us with providing them, please contact sev.
+</p>
+
+</BODY>
+
