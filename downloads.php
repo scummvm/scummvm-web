@@ -355,13 +355,18 @@ function addDownload($image, $linkText, $desc, $url) {
 
 		addDownload("cat-flac", "Broken Sword 1 Cutscene Pack (English, DXA compression)", "(58.5M) - Requires ScummVM 0.10.0", "http://prdownloads.sourceforge.net/scummvm/Sword1_DXA_Cutscenes.zip?download");
 		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (Brazilian)", "(38M) This is an offsite package with both Brazillian videos and audio", "http://downloads.scummbr.com/Sword1_Cutscenes_BRA_Complete.zip");
-		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (English OGG AddOn)", "(2.9M) Alternative audio pack, for ports without FLAC support", "http://prdownloads.sourceforge.net/scummvm/Sword1_OGG_Cutscenes.zip?download");
 		addDownload("cat-sword", "Broken Sword 1 Cutscene Pack (all languages, Subtitles AddOn)", "(18k) Cutscene subtitles pack. All languages", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_Subtitles-1.0.zip?download");
-		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (French AddOn)", "(1.6M) Overwrite files in English Pack with files from this archive", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_FRE_AddOn.zip?download");
-		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (German AddOn)", "(1.8M) Overwrite files in English Pack with files from this archive", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_GER_AddOn.zip?download");
-		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (Italian AddOn)", "(2.5M) Overwrite files in English Pack with files from this archive", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ITA_AddOn.zip?download");
-		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (Spanish AddOn)", "(2.2M) Overwrite files in English Pack with files from this archive", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ESP_AddOn.zip?download");
+		addDownload("cat-flac", "Broken Sword 1 Cutscene Pack (French AddOn)", "(26.4M) Overwrite files in English Pack with files from this archive", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_DXA_FRE_AddOn.zip?download");
+		addDownload("cat-flac", "Broken Sword 1 Cutscene Pack (German AddOn)", "(26.4M) Overwrite files in English Pack with files from this archive", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_DXA_GER_AddOn.zip?download");
+		addDownload("cat-flac", "Broken Sword 1 Cutscene Pack (Italian AddOn)", "(22.6M) Overwrite files in English Pack with files from this archive", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_DXA_ITA_AddOn.zip?download");
+		addDownload("cat-flac", "Broken Sword 1 Cutscene Pack (Spanish AddOn)", "(25.6M) Overwrite files in English Pack with files from this archive", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_DXA_ESP_AddOn.zip?download");
 		addDownload("cat-flac", "Broken Sword 1 Demo Cutscene Pack", "(19M) - Requires ScummVM 0.10.0", "http://prdownloads.sourceforge.net/scummvm/Sword1_Demo_Cutscenes.zip?download");
+
+		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (English OGG AddOn)", "(2.9M) Alternative English audio pack, for ports without FLAC support", "http://prdownloads.sourceforge.net/scummvm/Sword1_OGG_Cutscenes.zip?download");
+		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (French OGG AddOn)", "(1.6M) Alternative French audio pack, for ports without FLAC support", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_FRE_AddOn.zip?download");
+		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (German OGG AddOn)", "(1.8M) Alternative German audio pack, for ports without FLAC support", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_GER_AddOn.zip?download");
+		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (Italian OGG AddOn)", "(2.5M) Alternative Italianaudio pack, for ports without FLAC support", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ITA_AddOn.zip?download");
+		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (Spanish OGG AddOn)", "(2.2M) Alternative Spanish audio pack, for ports without FLAC support", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ESP_AddOn.zip?download");
 
 		addDownloadSeparator();
 
