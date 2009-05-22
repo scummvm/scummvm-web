@@ -365,7 +365,7 @@ function addDownload($image, $linkText, $desc, $url) {
 		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (English OGG AddOn)", "(2.9M) Alternative English audio pack, for ports without FLAC support", "http://prdownloads.sourceforge.net/scummvm/Sword1_OGG_Cutscenes.zip?download");
 		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (French OGG AddOn)", "(1.6M) Alternative French audio pack, for ports without FLAC support", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_FRE_AddOn.zip?download");
 		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (German OGG AddOn)", "(1.8M) Alternative German audio pack, for ports without FLAC support", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_GER_AddOn.zip?download");
-		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (Italian OGG AddOn)", "(2.5M) Alternative Italianaudio pack, for ports without FLAC support", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ITA_AddOn.zip?download");
+		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (Italian OGG AddOn)", "(2.5M) Alternative Italian audio pack, for ports without FLAC support", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ITA_AddOn.zip?download");
 		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (Spanish OGG AddOn)", "(2.2M) Alternative Spanish audio pack, for ports without FLAC support", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ESP_AddOn.zip?download");
 
 		addDownloadSeparator();
