@@ -34,6 +34,7 @@ function addDownloadSeparator() {
 
 function addDownload($image, $linkText, $desc, $url) {
 	echo "<li>";
+
 	echo "<img src='images/$image.png' alt='' width=24 height=24 style='vertical-align: middle;' >";
 	echo " <a href='$url'>$linkText</a>";
 	echo " <span class='download-extras'>$desc</span>";
@@ -309,20 +310,26 @@ function addDownload($image, $linkText, $desc, $url) {
 <?php
 	startDownloadList();
 	
+		html_subhead_start("Beneath a Steel Sky");
+
 		addDownload("cat-sky", "Beneath a Steel Sky, SKY.CPT - required to run the game with a post-0.7.* ScummVM", "(410k)", "https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/$current_release_tag/dists/engine-data/sky.cpt");
 		addDownload("cat-sky", "Beneath a Steel Sky, Freeware CD Version", "(67M)", "http://prdownloads.sourceforge.net/scummvm/bass-cd-1.2.zip?download");
 		addDownload("cat-sky", "Beneath a Steel Sky, Freeware Floppy Version", "(7.3M)", "http://prdownloads.sourceforge.net/scummvm/BASS-Floppy-1.3.zip?download");
 
 		addDownloadSeparator();
 
-		addDownload("cat-queen", "Flight of the Amazon Queen, Freeware CD Version (mp3 compressed sfx/speech)", "(34.8M)", "http://prdownloads.sourceforge.net/scummvm/FOTAQ_Talkie-1.1.zip?download");
-		addDownload("cat-queen", "Flight of the Amazon Queen, Freeware CD Version (ogg compressed sfx/speech)", "(35.6M)", "ftp://ftp.suse.com/pub/suse/i386/supplementary/X/FOTAQ/");
+		html_subhead_start("Flight of the Amazon Queen");
+
+		addDownload("cat-queen", "Flight of the Amazon Queen, Freeware CD Version (mp3 compressed sfx/speech)", "(34.8M)", "http://prdownloads.sourceforge.net/scummvm/FOTAQ_Talkie-1.1.zip?download", "cat-mp3");
+		addDownload("cat-ogg", "Flight of the Amazon Queen, Freeware CD Version (ogg compressed sfx/speech)", "(35.6M)", "ftp://ftp.suse.com/pub/suse/i386/supplementary/X/FOTAQ/");
 		addDownload("cat-queen", "Flight of the Amazon Queen, Freeware CD Version (unmodified original)", "(87M) download this version if your ScummVM doesn't have mp3 support", "http://www.lysator.liu.se/~zino/scummvm/queen/");
 		addDownload("cat-queen", "Flight of the Amazon Queen, Freeware CD Version (<i>Hebrew</i> subtitles, English voices, ogg compressed sfx/speech)", "(63.1M)", "http://prdownloads.sourceforge.net/scummvm/FOTAQ_Heb_talkie.zip?download");
 		addDownload("cat-queen", "Flight of the Amazon Queen, Freeware Floppy Version", "(6.7M)", "http://prdownloads.sourceforge.net/scummvm/FOTAQ_Floppy.zip?download");
 		addDownload("cat-queen", "Flight of the Amazon Queen, queen.tbl - required to run original versions of FOTAQ", "(1.0M)", "https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/$current_release_tag/dists/engine-data/queen.tbl");
 
 		addDownloadSeparator();
+
+		html_subhead_start("Lure of the Temptress");
 
 		addDownload("cat-lure", "Lure of the Temptress, Freeware Version (English)", "(3.9M)", "http://prdownloads.sourceforge.net/scummvm/lure-1.1.zip?download");
 		addDownload("cat-lure", "Lure of the Temptress, Freeware Version (French)", "(3.4M)", "http://prdownloads.sourceforge.net/scummvm/lure-fr-1.1.zip?download");
@@ -334,35 +341,45 @@ function addDownload($image, $linkText, $desc, $url) {
 
 		addDownloadSeparator();
 
+		html_subhead_start("Drascula: The Vampire Strikes Back");
+
 		addDownload("cat-drascula", "Drascula: The Vampire Strikes Back, Freeware Version (English)", "(31.3M)", "http://prdownloads.sourceforge.net/scummvm/drascula-1.0.zip?download");
-		addDownload("cat-drascula", "Drascula: The Vampire Strikes Back, Freeware Version (Music AddOn, OGG format)", "(34.4M)", "http://prdownloads.sourceforge.net/scummvm/drascula-audio-1.0.zip?download");
+		addDownload("cat-ogg", "Drascula: The Vampire Strikes Back, Freeware Version (Music AddOn, OGG format)", "(34.4M)", "http://prdownloads.sourceforge.net/scummvm/drascula-audio-1.0.zip?download");
 		addDownload("cat-drascula", "Drascula: The Vampire Strikes Back, Freeware Version (Spanish, German, French and Italian AddOn)", "(33.2M)", "http://prdownloads.sourceforge.net/scummvm/drascula-int-1.0.zip?download");
 
 		addDownload("cat-drascula", "Drascula: The Vampire Strikes Back, DRASCULA.DAT - required for all versions of the game", "(211k) - Requires ScummVM $current_release", "https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/$current_release_tag/dists/engine-data/drascula.dat");
 
 		addDownloadSeparator();
 
-		addDownload("cat-sword", "Broken Sword 1 Cutscene Pack (English, DXA compression)", "(58.5M) - Requires ScummVM 0.10.0", "http://prdownloads.sourceforge.net/scummvm/Sword1_DXA_Cutscenes.zip?download");
-		addDownload("cat-sword", "Broken Sword 1 Cutscene Pack (Brazilian)", "(38M) This is an offsite package with both Brazillian videos and audio", "http://downloads.scummbr.com/Sword1_Cutscenes_BRA_Complete.zip");
-		addDownload("cat-sword", "Broken Sword 1 Cutscene Pack (English OGG AddOn)", "(2.9M) Alternative audio pack, for ports without FLAC support", "http://prdownloads.sourceforge.net/scummvm/Sword1_OGG_Cutscenes.zip?download");
+		html_subhead_start("Broken Sword 1");
+
+		addDownload("cat-flac", "Broken Sword 1 Cutscene Pack (English, DXA compression)", "(58.5M) - Requires ScummVM 0.10.0", "http://prdownloads.sourceforge.net/scummvm/Sword1_DXA_Cutscenes.zip?download");
+		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (Brazilian)", "(38M) This is an offsite package with both Brazillian videos and audio", "http://downloads.scummbr.com/Sword1_Cutscenes_BRA_Complete.zip");
+		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (English OGG AddOn)", "(2.9M) Alternative audio pack, for ports without FLAC support", "http://prdownloads.sourceforge.net/scummvm/Sword1_OGG_Cutscenes.zip?download");
 		addDownload("cat-sword", "Broken Sword 1 Cutscene Pack (all languages, Subtitles AddOn)", "(18k) Cutscene subtitles pack. All languages", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_Subtitles-1.0.zip?download");
-		addDownload("cat-sword", "Broken Sword 1 Cutscene Pack (French AddOn)", "(1.6M) Overwrite files in English Pack with files from this archive", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_FRE_AddOn.zip?download");
-		addDownload("cat-sword", "Broken Sword 1 Cutscene Pack (German AddOn)", "(1.8M) Overwrite files in English Pack with files from this archive", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_GER_AddOn.zip?download");
-		addDownload("cat-sword", "Broken Sword 1 Cutscene Pack (Italian AddOn)", "(2.5M) Overwrite files in English Pack with files from this archive", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ITA_AddOn.zip?download");
-		addDownload("cat-sword", "Broken Sword 1 Cutscene Pack (Spanish AddOn)", "(2.2M) Overwrite files in English Pack with files from this archive", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ESP_AddOn.zip?download");
-		addDownload("cat-sword", "Broken Sword 1 Demo Cutscene Pack", "(19M) - Requires ScummVM 0.10.0", "http://prdownloads.sourceforge.net/scummvm/Sword1_Demo_Cutscenes.zip?download");
+		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (French AddOn)", "(1.6M) Overwrite files in English Pack with files from this archive", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_FRE_AddOn.zip?download");
+		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (German AddOn)", "(1.8M) Overwrite files in English Pack with files from this archive", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_GER_AddOn.zip?download");
+		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (Italian AddOn)", "(2.5M) Overwrite files in English Pack with files from this archive", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ITA_AddOn.zip?download");
+		addDownload("cat-ogg", "Broken Sword 1 Cutscene Pack (Spanish AddOn)", "(2.2M) Overwrite files in English Pack with files from this archive", "http://prdownloads.sourceforge.net/scummvm/Sword1_Cutscenes_ESP_AddOn.zip?download");
+		addDownload("cat-flac", "Broken Sword 1 Demo Cutscene Pack", "(19M) - Requires ScummVM 0.10.0", "http://prdownloads.sourceforge.net/scummvm/Sword1_Demo_Cutscenes.zip?download");
 
 		addDownloadSeparator();
 
-		addDownload("cat-sword2", "Broken Sword 2 Cutscene Pack (all languages, DXA compression)", "(111M) - Requires ScummVM 0.10.0", "http://prdownloads.sourceforge.net/scummvm/Sword2_DXA_Cutscenes.zip?download");
-		addDownload("cat-sword2", "Broken Sword 2 Cutscene Pack (all languages, OGG AddOn)", "(2.9M) Alternative audio pack, for ports without FLAC support", "http://prdownloads.sourceforge.net/scummvm/Sword2_OGG_Cutscenes.zip?download");
-		addDownload("cat-sword2", "Broken Sword 2 Demo Cutscene Pack", "(767KB) - Requires ScummVM 0.10.0", "http://prdownloads.sourceforge.net/scummvm/Sword2_Demo_Cutscenes.zip?download");
+		html_subhead_start("Broken Sword 2");
+
+	addDownload("cat-flac", "Broken Sword 2 Cutscene Pack (all languages, DXA compression)", "(111M) - Requires ScummVM 0.10.0", "http://prdownloads.sourceforge.net/scummvm/Sword2_DXA_Cutscenes.zip?download");
+	addDownload("cat-ogg", "Broken Sword 2 Cutscene Pack (all languages, OGG AddOn)", "(2.9M) Alternative audio pack, for ports without FLAC support", "http://prdownloads.sourceforge.net/scummvm/Sword2_OGG_Cutscenes.zip?download");
+	addDownload("cat-flac", "Broken Sword 2 Demo Cutscene Pack", "(767KB) - Requires ScummVM 0.10.0", "http://prdownloads.sourceforge.net/scummvm/Sword2_Demo_Cutscenes.zip?download");
 
 		addDownloadSeparator();
 
-		addDownload("cat-feeble", "The Feeble Files - Omni TV and epilogue cutscenes for the Amiga and Macintosh versions", "(13.6M) - Requires ScummVM 0.10.0", "http://prdownloads.sourceforge.net/scummvm/Feeble_OmniTV_Cutscenes.zip?download");
+		html_subhead_start("The Feeble Files");
+
+	addDownload("cat-flac", "The Feeble Files - Omni TV and epilogue cutscenes for the Amiga and Macintosh versions", "(13.6M) - Requires ScummVM 0.10.0", "http://prdownloads.sourceforge.net/scummvm/Feeble_OmniTV_Cutscenes.zip?download");
 
 		addDownloadSeparator();
+
+		html_subhead_start("The Legend of Kyrandia");
 
 		addDownload("cat-kyra", "The Legend of Kyrandia, KYRA.DAT - required for all versions of the game", "(182k)", "https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/$current_release_tag/dists/engine-data/kyra.dat");
 
