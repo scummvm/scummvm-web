@@ -11,7 +11,12 @@ define('NEWS_ITEMS', 4);
 define('HEROES_NUM', 4);
 
 /* Base URL to the website. */
-$url = "http://{$_SERVER['SERVER_NAME']}" . dirname($_SERVER['PHP_SELF']);
+if ($_SERVER['SERVER_PORT'] == '80') {
+	$url = "http://{$_SERVER['SERVER_NAME']}" . dirname($_SERVER['PHP_SELF']);
+} else {
+	$url = "http://{$_SERVER['SERVER_NAME']}:{$_SERVER['SERVER_PORT']}" . dirname($_SERVER['PHP_SELF']);
+}
+
 if (substr($url, -1) != '/') {
 	$url .= '/';
 }
