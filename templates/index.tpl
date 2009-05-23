@@ -19,8 +19,8 @@
 		@import url("css/ie6.css");
 	</style>
 	<![endif]-->
-	<link rel="alternate" type="application/atom+xml" title="ScummVM Atom news feed" href="{$baseurl}/feeds/atom/">
-	<link rel="alternate" type="application/rss+xml" title="ScummVM RSS news feed" href="{$baseurl}/feeds/rss/">
+	<link rel="alternate" type="application/atom+xml" title="ScummVM Atom news feed" href="{$baseurl}feeds/atom/">
+	<link rel="alternate" type="application/rss+xml" title="ScummVM RSS news feed" href="{$baseurl}feeds/rss/">
 	<title>ScummVM :: {$title}</title>
 </head>
 <body>
