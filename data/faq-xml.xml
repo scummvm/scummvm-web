@@ -6,12 +6,12 @@
       <href/>
       <question>Why is it called ScummVM - what does this name mean?</question>
       <answer>
-        <simpara>
+		<simpara>
 		<quote>Scumm</quote> comes from the fact that it was originally designed to run SCUMM games, like
 		Monkey Island.
 		<quote>VM</quote> stands for Virtual Machine.
 		</simpara>
-        <simpara>
+		<simpara>
 		Every now and then somebody will raise the subject of finding
 		a <quote>better</quote> name for ScummVM, one that fits better with its modern
 		scope (which extends well beyond SCUMM games). So
@@ -19,17 +19,17 @@
 		we present you with some nice alternatives. Choose whichever suits you
 		best -- but we will stay ScummVM.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>What is SCUMM?</question>
       <answer>
-        <simpara>
+		<simpara>
 		SCUMM stands for "Script Creation Utility for Maniac Mansion". It is a
 		utility used to create the famous LucasArts adventure games.
 		</simpara>
-        <simpara>
+		<simpara>
 		It was initially created in 1987 by Aric Wilmunder and Ron Gilbert for
 		the game "Maniac Mansion" and was used later, with some modifications,
 		for Zak McKracken and the Alien Mindbenders. Development on the SCUMM
@@ -38,13 +38,13 @@
 		1,2,3, Sam &amp; Max Hit the Road, Day of the Tentacle, The Dig and Full
 		Throttle.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>Is ScummVM free?</question>
       <answer>
-        <simpara>
+		<simpara>
 		ScummVM is released under the <ulink url="http://www.gnu.org/copyleft/gpl.html">GPL (General Public
 		License)</ulink>, so it's more than free. ScummVM source code is freely
 		available and you can do whatever you want with it. If you make
@@ -52,54 +52,54 @@
 		available. However, the ScummVM team would be pleased if you choose to
 		send them your modifications, so they can be merged into the main tree.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>Where do I find ScummVM?</question>
       <answer>
-        <simpara>
+		<simpara>
 		You can find it on the download section on our <ulink url="http://www.scummvm.org">web site</ulink>.
 		You can download the latest version, which could be a little old. For the most
 		recent cutting-edge in-development version, you have to compile it yourself from
 		Subversion or use the precompiled 'daily builds' linked from our download page.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>How do I compile the source code for my OS?</question>
       <answer>
-        <simpara>
+		<simpara>
 		The source code package contains a file called
 		<ulink url="http://scummvm.svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README">README</ulink>
 		that should explain everything.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>On what platform does ScummVM run?</question>
       <answer>
-        <simpara>
+		<simpara>
 		ScummVM should be able to be compiled on any SDL platform, with just small modifications.
 		</simpara>
-        <simpara>
+		<simpara>
 		Currently tested platforms include Win32 (Windows 95/98/ME/NT/2000/XP), Linux i386 and PPC, BeOS, Solaris,
 		Mac OS X, Dreamcast, MorphOS, IRIX, PalmOS, WinCE, GP32, Sony PSP and PS2. It is also part of the
 		Free/Net/Open BSD ports collections and included in Debian testing and unstable.
 		</simpara>
-        <simpara>
+		<simpara>
 		See also the <ulink url="http://wiki.scummvm.org/index.php/Platforms">platforms list</ulink>
 		in our Wiki.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>Can I use ScummVM to make new games?</question>
       <answer>
-        <simpara>
+		<simpara>
 		While it is theoretically possible to write a new game that uses ScummVM it is not
 		advisable.	ScummVM has many hacks to support older games and no tools geared towards
 		creating content usable by ScummVM.	 Potential game authors are encouraged to look
@@ -107,7 +107,7 @@
 		a cross platform DirectX like library, and the <ulink url="http://www.lua.org">Lua</ulink>
 		and <ulink url="http://www.python.org">Python</ulink> scripting languages for game logic.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
   </section>
   <section>
@@ -116,24 +116,24 @@
       <href>question.supported-games</href>
       <question>What games does ScummVM support?</question>
       <answer>
-        <simpara>
+		<simpara>
 		We have a <ulink url="http://www.scummvm.org/compatibility.php">compatibility
 		list</ulink> on our website that contains an up to date list of which
 		games work, and how well they work. Apart from SCUMM games, we now
 		also support quite a few other adventure games. More games may
 		be added, but this is not a common occurrence &#8212; see below.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>Will ScummVM support other games?</question>
       <answer>
-        <simpara>
+		<simpara>
 		That depends on several factors. First off, it has to fit within the scope of ScummVM,
 		i.e., it has to be a point and click adventure with 2D graphics. 
 		</simpara>
-        <simpara>
+		<simpara>
 		Secondly, there must be a developer (or multiple) who is interested in working on this
 		and both willing and able to perform the work required.
 		Reverse engineering a completely new game without source is a
@@ -141,13 +141,13 @@
 		you work for a company interested in providing us with source code for
 		one of your classic titles, or want to do the work yourself, please do not ask.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>When will Maniac Mansion Deluxe be supported?</question>
       <answer>
-        <simpara>
+		<simpara>
 		The short answer: never. The long answer:
 		This game is a fan-made replica of the original Maniac Mansion. It is not the same
 		game as Maniac Mansion Enhanced, which we do support. It features improved
@@ -159,18 +159,18 @@
 		(see last two questions). That means that you need to download that program to
 		play the game.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>Will you add support for Sierra's SCI games?</question>
       <answer>
-        <simpara>
+		<simpara>
 		FreeSCI has now been merged into ScummVM, see <ulink url="http://www.scummvm.org/?shownews=20090215.xml">this news item</ulink>.
 		However, many SCI games are still not supported, so you may also want to check out <ulink url="http://dosbox.sourceforge.net">DOSBox</ulink>
 		if you want to play all SCI games, especially newer ones.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
   </section>
   <section>
@@ -179,73 +179,73 @@
       <href/>
       <question>How do I install games to run in ScummVM?</question>
       <answer>
-        <simpara>
+		<simpara>
 		For most games you do not need to run the installer. Simply copy
 		<ulink url="http://wiki.scummvm.org/index.php/Datafiles">the files listed here</ulink>
 		from your floppy or CD to your hard drive, then start ScummVM. Click
 		on 'Add Game' and select the directory to which you copied the game
 		files.
 		</simpara>
-        <simpara>
+		<simpara>
 		For some games the files are packed and not directly accessible
 		on the floppy or CD. In such a case you will need to run the original
 		game installer and then copy the files from where they have been
 		installed to the directory in which you want to install the
 		game to play with ScummVM.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>Do I need original CD or Floppy disks?</question>
       <answer>
-        <simpara>
+		<simpara>
 		Most definitely. ScummVM won't work without them. If you would like to
 		buy these games, we suggest you browse <ulink url="http://www.ebay.com">Ebay</ulink>.
 		Do not ask the ScummVM team where you can download the full versions of
 		LucasArts games. These requests will be ignored.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>Does ScummVM work with all versions of games?</question>
       <answer>
-        <simpara>
+		<simpara>
 		See "<xref linkend="question.supported-games" endterm="question.supported-games.text"/>".
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>Can I play through xxx (place your favorite SCUMM adventure here) ?</question>
       <answer>
-        <simpara>
+		<simpara>
 		See "<xref linkend="question.supported-games" endterm="question.supported-games.text"/>".
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>Can I save/restore the game?</question>
       <answer>
-        <simpara>
+		<simpara>
 		Yes. Saving and restoring is already supported (ALT-1/9 to save, CTRL - 1/9 to restore, or
 		F5 to access the save/load menu).
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>Do savegames from the original games work in ScummVM?</question>
       <answer>
-        <simpara>
+		<simpara>
 		In general, no. We do not have any plans to load old savegames (with the exception of the
 		Simon the Sorcerer series of games). Newer versions of ScummVM have
 		also sometimes broken compatibility with older ScummVM savegames. Since ScummVM is
 		under heavy development, this may occur again in the future.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
   </section>
   <section>
@@ -254,7 +254,7 @@
       <href/>
       <question>Does ScummVM support CD audio?</question>
       <answer>
-        <simpara>
+		<simpara>
 		Yes, ScummVM fully supports CD audio in Gobliins (CD), Indiana Jones and the Last Crusade (FM-TOWNS),
 		Loom (CD &amp; FM-TOWNS), Monkey Island 1 (CD, FM-TOWNS &amp; SegaCD) and Zak McKracken (FM-TOWNS). Just keep your game CD
 		inserted into your CD drive when you start ScummVM. If you have more than one CD drive in your
@@ -262,61 +262,61 @@
 		<ulink url="http://scummvm.svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README">README</ulink>
 		for more info.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>Does ScummVM support using MP3/Ogg/FLAC files instead of CD audio?</question>
       <answer>
-        <simpara>
+		<simpara>
 		Yes. You can use LAME or some other CD audio conversion utility to convert your CD audio to MP3. Since
 		version 0.3.0 we also support Ogg Vorbis files, and FLAC is supported since version 0.7.0. See the
 		<ulink url="http://scummvm.svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README">README</ulink>
 		for more info.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>Does ScummVM support using MP3/Ogg/FLAC files instead of the original MIDI music?</question>
       <answer>
-        <simpara>
+		<simpara>
 		No. If all the game does is to play or loop a tune it would be possible, but many of the games do
 		fancy stuff like smooth transitions from one tune to another, or turn individual instruments on and
 		off, etc. There's simply no way ScummVM could take a piece of digital music and emulate that kind
 		of behavior.
 		</simpara>
-        <simpara>
+		<simpara>
 		This question usually comes up in connection with Sam &amp; Max Hit the Road (which has a few
 		unused bonus audio tracks on the CD) and Monkey Island 2 (which is sometimes distributed on
 		the same CD as the version of Monkey Island 1 that uses CD audio). Both of these games do far
 		too much fancy stuff to even consider an idea like this.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>Does ScummVM support filtered graphic modes?</question>
       <answer>
-        <simpara>
+		<simpara>
 		Yes, ScummVM supports several filtered graphic modes such as AdvMAME2x, also known as 
 		<ulink url="http://scale2x.sourceforge.net/">Scale2x</ulink>.
 		See the
 		<ulink url="http://scummvm.svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README">README</ulink>
 		for more info.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>Can I run my game full screen?</question>
       <answer>
-        <simpara>
+		<simpara>
 		Yes. You can either start your game using the -f command line parameter, setting 
 		the game to Full Screen in the ScummVM Options dialog, or by using the Alt+Enter key
 		combination in-game to switch between full screen and windowed modes.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
   </section>
   <section>
@@ -325,7 +325,7 @@
       <href/>
       <question>My game won't run.</question>
       <answer>
-        <simpara>
+		<simpara>
 		First make sure your game is supported.
 		See "<xref linkend="question.supported-games" endterm="question.supported-games.text"/>".
 		If it is a supported game and you
@@ -334,13 +334,13 @@
 		to the letter, then see "<xref linkend="question.report-bugs" endterm="question.report-bugs.text"/>"
 		to report this as a bug.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>I installed my game but ScummVM can't find it.</question>
       <answer>
-        <simpara>
+		<simpara>
 		First don't use the install.exe or setup.exe shipped with the game. They usually will
 		not do what you need to run the game with ScummVM -- rather they just copy the game
 		.exe and install some shortcuts. ScummVM requires all game
@@ -348,49 +348,49 @@
 		<ulink url="http://www.scummvm.org/documentation.php?view=datafiles">Game Data Files</ulink> page for
 		further details.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href>question.no-sound</href>
       <question>I don't hear any sound.</question>
       <answer>
-        <simpara>
+		<simpara>
 		Check the <ulink url="http://www.scummvm.org/compatibility.php">compatibility list</ulink>
 		to see if your game has sound support currently. You can
 		also try the -s command line parameter to set the in game SFX volume.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>I don't hear any music.</question>
       <answer>
-        <simpara>
+		<simpara>
 		See "<xref linkend="question.no-sound" endterm="question.no-sound.text"/>".
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>My game crashes at some point.</question>
       <answer>
-        <simpara>
+		<simpara>
 		Check the <ulink url="http://www.scummvm.org/compatibility.php">Compatibility List</ulink> to see if your game has any known issues. If you can
 		reproduce this crash more than once, please report it to our Bug Tracker.
 		See "<xref linkend="question.report-bugs" endterm="question.report-bugs.text"/>".
 		</simpara>
-        <simpara>
+		<simpara>
 		If you are experiencing random crashes, and your game plays music from
 		CD, you most certainly have encountered a Windows bug. Try copying the data files from
 		CD to your hard disk, and running them from there.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>ScummVM crashes, but the console window disappears too quickly to see the error message.</question>
       <answer>
-        <simpara>
+		<simpara>
 		On Windows, to make it visible, you should run ScummVM from the command line. To open a 
 		command prompt, open the Start Menu and select the 'Run' option. Under 
 		Windows NT/2000/XP, type 'cmd.exe' (no quotes) in the dialog box that 
@@ -400,7 +400,7 @@
 		'cd \your\path\to\scummvm' (substituting the appropriate path) and then 
 		type 'scummvm'.
 		</simpara>
-        <simpara>
+		<simpara>
 		On MacOS X, you can find the error messages by starting Console.app
 		(in Utilities within the Applications folder). If you prefer, you can
 		also run ScummVM from the terminal. To do this, start Terminal.app
@@ -410,44 +410,44 @@
 		line should look like this: '/Path/to/ScummVM.app/Contents/MacOS/scummvm'.
 		Then press return to start ScummVM.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href>question.messy-colors</href>
       <question>The game colors are messed up.</question>
       <answer>
-        <simpara>
+		<simpara>
 		This is a known issue with using Amiga version datafiles. Select Amiga as a 
 		platform in the ScummVM Game Options dialog, or use the --platform=amiga command
 		line parameter to enable Amiga-specific code.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>The subtitles in my non English game are messed up.</question>
       <answer>
-        <simpara>
+		<simpara>
 		You are most likely using a game such as Maniac Mansion or Zak McKracken if you have this problem. 
 		You need to specify a language in the ScummVM Game Options dialog, with the -q parameter or by
 		using the 'language' config file option.
 		</simpara>
-        <simpara>
+		<simpara>
 		Consult the 
 		<ulink url="http://scummvm.svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README">README</ulink> 
 		or command line help for further information.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>How do I make my mac version of a game work?</question>
       <answer>
-        <simpara>
+		<simpara>
 		First, if you use a ScummVM version prior to 0.7.0 we strongly recommend you
 		to upgrade to the latest version, as we improved support for mac games considerably starting with 0.7.0.
 		</simpara>
-        <simpara>
+		<simpara>
 		For newer games ScummVM needs the main data file, usually called
 		"&lt;Game Title&gt; Data" (where &lt;Game Title&gt; is
 		name of your game, such as "The Dig" or "Sam &amp; Max").
@@ -456,22 +456,22 @@
 		at the end). In that case there is still a separate data file but it is
 		invisible.
 		</simpara>
-        <simpara>
+		<simpara>
 		There also exists a separate <ulink url="http://wiki.scummvm.org/index.php/HOWTO-Mac_Games">tutorial
 		</ulink> for setting up Mac versions
 		</simpara>
-        <simpara>
+		<simpara>
 		The older games which have LFL files should only need the platform set
 		to 'macintosh' to run. See "<xref linkend="question.messy-colors" endterm="question.messy-colors.text"/>" for information on specifying the
 		game platform.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href>question.report-bugs</href>
       <question>Reporting Bugs.</question>
       <answer>
-        <simpara>
+		<simpara>
 		To report a bug, please create a SourceForge account and follow the
 		<ulink url="http://sourceforge.net/tracker/?atid=418820&amp;group_id=37116&amp;func=browse">bugs</ulink>
 		link from our homepage. Please make sure the bug is reproducible, and 
@@ -480,110 +480,136 @@
 		the issue is not already known. In your bugreport please provide the following
 		information:
 		</simpara>
-      </answer>
+		<itemizedlist>
+		<listitem><simpara>ScummVM version (PLEASE test the latest Subversion/Daily build)</simpara></listitem>
+		<listitem><simpara>Bug details, including instructions on reproducing it</simpara></listitem>
+		<listitem><simpara>Language of game (English, German, ...)</simpara></listitem>
+		<listitem><simpara>Version of game (talkie, floppy, ...)</simpara></listitem>
+		<listitem><simpara>Platform and Compiler (Win32, Linux, MacOS, ...)</simpara></listitem>
+		<listitem><simpara>Attach a save game if possible</simpara></listitem>
+		<listitem><simpara>If this bug only occurred recently, please note the last
+			version without the bug, and the first version including	 
+			the bug. That way we can fix it quicker by looking at the
+			changes made.</simpara></listitem>
+		</itemizedlist>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>I downloaded the Broken Sword packs from your site but the game won't run.</question>
       <answer>
-        <simpara>
+		<simpara>
 		These are not full games but reencoded cutscene (video) packs. To run the games you 
 		still need the original disks. Originally cutscenes were encoded in a proprietary
 		format but Revolution Software kindly permitted us to reencode them into
 		DXA and distribute them freely on our site.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>There are no graphics in the Broken Sword I intro.</question>
       <answer>
-        <simpara>
+		<simpara>
 		Be patient. There are about 12 seconds of speech only and eventually the Revolution logo
 		will appear.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>I get "WARNING: Unable to open configuration file C:\windows\scummvm.ini!"</question>
       <answer>
-        <simpara>
+		<simpara>
 		Make sure you have enough permissions to write in c:\windows directory. Also note that this warning the
 		first time you run ScummVM, since the file does not exist yet then.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>I get "Failed to save game state to file: xxx"</question>
       <answer>
-        <simpara>
+		<simpara>
 		Check savepath in Options-&gt;Paths-&gt;Save Path. That should point to writable directory.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>ScummVM starts, but all I get is a transparent window!</question>
       <answer>
-        <simpara>
+		<simpara>
 		This problem has been reported to happen under Windows in some cases. Check
 		that you have the latest drivers for your graphics card. If that does not
 		help, try setting the <envar>SDL_VIDEODRIVER</envar> environment variable to
 		"windib" and try again.
 		</simpara>
-        <simpara>
+		<simpara>
 		Apparently other applications have had the same problem, because the release
 		notes for SDL 1.2.10 (May 17, 2006) contained the following note:
 		</simpara>
-      </answer>
+		<blockquote>
+		<simpara>
+		The "windib" video driver is the default now, to prevent problems with
+		certain laptops, 64-bit Windows, and Windows Vista. The DirectX driver
+		is still available, and can be selected by setting the environment
+		variable <envar>SDL_VIDEODRIVER</envar> to "directx".
+		</simpara>
+		</blockquote>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>ScummVM runs, but sound is stuttering and/or garbled!</question>
       <answer>
-        <simpara>
+		<simpara>
 		This problem has been reported to happen under Windows in some cases. Check
 		that you have the latest drivers for your sound card. If that does not help,
 		try setting the <envar>SDL_AUDIODRIVER</envar> environment variable to "waveout"
 		and try again.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>How do I set an environment variable?</question>
       <answer>
-        <simpara>
+		<simpara>
 		That depends on what operating system and/or command shell you are using.
 		Under Windows, you could try creating a file called
 		<command moreinfo="none">scummvm.bat</command> in the same folder as
 		<command moreinfo="none">scummvm.exe</command>. Open this file in your favorite text
 		editor and put something like this in it:
 		</simpara>
-        <simpara>
+		<blockquote>
+		<programlisting format="linespecific">@echo off
+set SDL_VIDEODRIVER=windib
+set SDL_AUDIODRIVER=waveout
+scummvm.exe %1 %2 %3 %4 %5 %6 %7 %8 %9</programlisting>
+		</blockquote>
+		<simpara>
 		You should now be able to run ScummVM by double-clicking on this batch file,
 		instead of the ScummVM executable.
 		</simpara>
-        <simpara>
+		<simpara>
 		On more recent versions of Windows, you can also set an environment variable
 		permanently, and for all applications, through the control panel.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
     <entry>
       <href/>
       <question>ScummVM starts somewhere in the middle of my two Xinerama monitors in fullscreen mode. Help!</question>
       <answer>
-        <simpara>
+		<simpara>
 		In fact, this is SDL problem. SDL does by default has xinerama support
 		enabled. Set the <envar>SDL_VIDEO_FULLSCREEN_HEAD</envar>
 		environment variable to "1" to start ScummVM (and other SDL applications) in
 		fullscreen on only one monitor. If this does not work make sure your SDL
 		library does have Xinerama support compiled in.
 		</simpara>
-      </answer>
+	</answer>
     </entry>
   </section>
   <section>
@@ -592,18 +618,18 @@
       <href/>
       <question>Will you add support for zip archives?</question>
       <answer>
-        <simpara>
+		<simpara>
 		We will not do it. There are two main reasons for that. First, we believe that it
 		would ease illegal distribution of games. Second, we already support compression
 		of sound &amp; speech in most larger titles, and use specially designed algorithms
 		like MP3, Ogg and FLAC, so you can already reduce the size of the data files.
 		</simpara>
-        <simpara>
+		<simpara>
 		We as a team already discussed that question. We can't absolutely exclude
 		the possibility of changing our mind one day in the future, but for now, we
 		have no intentions to do so, hence please don't ask us about it!
 		</simpara>
-      </answer>
+	</answer>
     </entry>
   </section>
 </faq>
