@@ -16,12 +16,12 @@
 					<question>
 						<xsl:value-of select="question" />
 					</question>
-					<answer>
+					<!--<answer>
 						<xsl:for-each select="answer/simpara">
 							<xsl:copy-of select="." />
 						</xsl:for-each>
-					</answer>
-					<!--<xsl:copy-of select="answer" />-->
+					</answer>-->
+					<xsl:copy-of select="answer" />
 				</entry>
 				</xsl:for-each>
 			</section>
