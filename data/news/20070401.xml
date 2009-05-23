@@ -5,8 +5,8 @@
 	<p>You think RTS and ScummVM don't fit together? Of course they do! As you know, we have support for The Legend of Kyrandia for some time now. Now, after some work, we have parts of Dune 2 working with extensions to our Kyrandia code. However, there are only a few things working correctly. At least the introduction sequence works like a charm by now (check the screenshots).</p>
 	<p>Also the mentat is basically working, although it misses some animation sequences. Last but not least, the only in-game support we have so far is map loading, but there are some other things that you can't see on screenshots now. So stay tuned and wait for the first RTS supported by ScummVM!</p>
 	<p>As the code is still a work in progress, it has not been committed yet. But, look for it within the next couple of days when LordHoto has a bit more working.</p>
-	<p><a href="http://www.scummvm.org/news/20070401_1.png">Screenshot 1</a></p>
-	<p><a href="http://www.scummvm.org/news/20070401_2.png">Screenshot 2</a></p>
-	<p><a href="http://www.scummvm.org/news/20070401_3.png">Screenshot 3</a></p>
+	<p><a href="data/news/20070401_1.png">Screenshot 1</a></p>
+	<p><a href="data/news/20070401_2.png">Screenshot 2</a></p>
+	<p><a href="data/news/20070401_3.png">Screenshot 3</a></p>
 	<p><b>Ok, so we all know this is an April Fool's joke. But, truthfully, Dune 2 does share several of the resources of the Kyrandia games. Furthermore, parts of the screenshots seen here were extracted using a Kyrandia tool (as LordHoto says). This still doesn't mean support will be added though.</b></p>
 </BODY>
