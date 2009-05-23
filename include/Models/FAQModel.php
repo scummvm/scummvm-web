@@ -38,9 +38,9 @@ abstract class FAQModel extends BasicModel{
 			'/<simpara>(.+)<\/simpara>/isU',
 			'/<emphasis>(.+)<\/emphasis>/isU',
 			'/<envar>(.+)<\/envar>/isU',
-			'/<command>(.+)<\/command>/isU',
+			'/<command(?:\s+[^>]+)?>(.+)<\/command>/isU',
 			'/<blockquote>(.+)<\/blockquote>/isU',
-			'/<programlisting>(.+)<\/programlisting>/isU',
+			'/<programlisting(?:\s+[^>]+)?>(.+)<\/programlisting>/isU',
 			'/<quote>(.+)<\/quote>/isU',
 			'/<xref linkend="(.+)"\s+endterm=".+"\/>/isU',
 			'/(&(?:lt|gt|quot);)/is',
@@ -62,6 +62,7 @@ abstract class FAQModel extends BasicModel{
 		$data = preg_replace($pattern, $replace, $data);
 		/* Remove this weird character as it displays as À in Firefox. */
 		$data = str_replace(chr(194), '', $data);
+
 		/* Now parse the data. */
 		$parser = new XMLParser();
 		$a = $parser->parseByData($data);
