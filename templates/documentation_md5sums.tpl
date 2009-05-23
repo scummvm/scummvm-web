@@ -49,7 +49,10 @@
 						</td>
 						<td>{$data.platform}</td>
 						<td>
-							<img src="images/fl-{$data.language}.png" alt="{$data.language}">
+							{* Hack for "All" as there is no such image. *}
+							{if $data.language != 'All'}
+								<img src="images/fl-{$data.language}.png" alt="{$data.language}">
+							{/if}
 							{$data.language}
 						</td>
 						<td>{$data.source}</td>
