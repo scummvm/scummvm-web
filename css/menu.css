@@ -1,0 +1,64 @@
+div.menugroup {
+	background: transparent url('../images/menu-bottom.gif') scroll no-repeat bottom left;
+	/*font-size: 9pt;*/
+	margin-bottom: 8px;
+	overflow: hidden;
+	padding-bottom: 12px;
+	width: 145px;
+}
+
+div.menugroup h1 {
+	background-repeat: no-repeat;
+	color: rgb(221, 221, 0);
+	font-size: 7.5pt;
+	line-height: 3.3;
+	height: 34px;
+	margin: 0px;
+	padding: 0px 24px;
+	text-align: left;
+}
+
+div.menugroup h1.menu-main {
+	background: url('../images/menu-main.gif');
+}
+
+div.menugroup h1.menu-docs {
+	background: url('../images/menu-misc.gif');
+}
+
+div.menugroup h1.menu-sf {
+	background: url('../images/menu-sf.gif');
+	padding: 0px 18px;
+}
+
+div.menugroup h1.menu-misc {
+	background: url('../images/menu-misc.gif');
+}
+
+div.menugroup ul {
+	background: rgb(168, 39, 9);
+	color: rgb(255, 255, 255);
+	list-style-image: url('../images/bullet.gif');
+	margin: 0px;
+	padding: 8px 8px 0px 30px;
+}
+
+div.menugroup ul li {
+	/*margin-top: 8px;
+	margin-bottom: 8px;*/
+	padding-bottom: 8px;
+}
+
+div.menugroup ul li a:first-letter,
+div.menugroup ul li:first-letter {
+	font-weight: bold;
+}
+
+div.menugroup a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+div.menugroup a:hover {
+	color: rgb(255, 255, 0);
+}

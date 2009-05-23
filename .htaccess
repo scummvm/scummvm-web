@@ -1,0 +1,56 @@
+# Enable mod_rewrite
+RewriteEngine On
+
+# Set the base for the rewritten URLs
+RewriteBase /
+
+##
+# Images linked directly from the wiki need to work
+##
+RewriteRule		^screenshots/(.+)\.(jpg|png)$								data/screenshots/$1.$2 [L]
+
+##
+# Forward old page requests to the new fancy URLs
+##
+# Compatibility page, with args
+RewriteCond		%{QUERY_STRING}												version=(SVN|[0-9\.]+)(&details=(.+))?
+RewriteRule		^compatibility.php$											compatibility/%1/%3/? [R=301,NS]
+# Documentation page, with args
+RewriteCond		%{QUERY_STRING}												view=md5
+RewriteRule		^documentation.php$											documentation/md5sums/? [R=301,NS]
+# News page, with args
+RewriteCond		%{QUERY_STRING}												shownews=([0-9]{8}).xml [OR]
+RewriteCond		%{QUERY_STRING}												shownews=(archive)
+RewriteRule		^(index.php)?$												news/%1/? [R=301,NS]
+# Other pages, without args
+RewriteRule		^(.+)\.php$													$1/ [R=301,NS]
+
+##
+# Basic rewrite
+##
+RewriteRule		^([a-z]+)/?$												?p=$1
+ 
+##
+# Compatibility
+##
+RewriteRule		^(compatibility)(/(SVN|[0-9\.]+)(/([^/]+))?)?/?$		?p=$1&v=$3&t=$5 [L]
+
+##
+# Documentation
+##
+RewriteRule		^(documentation)(/([^/]+))?/? 								?p=$1&d=$3 [L]
+
+##
+# Feeds
+##
+RewriteRule		^(feeds)/(atom|rss)/?										?p=$1&f=$2 [L]
+
+## 
+# News
+##
+RewriteRule		^(news)(/([0-9]{8}|archive))?/?$							?p=$1&d=$3 [L]
+
+##
+# Screenshots
+##
+RewriteRule		^(screenshots)(/([a-z]+)(/([a-z0-9]+)(/([0-9]+))?)?)?/?		?p=$1&cat=$3&game=$5&num=$7 [L]

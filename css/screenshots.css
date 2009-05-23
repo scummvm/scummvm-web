@@ -1,0 +1,101 @@
+.random-screenshot {
+	background: rgb(192, 192, 192) url('../images/random-screenshot.png') no-repeat scroll 0 0;
+	height: 192px;
+	margin-right: 2em;
+	padding: 37px 7px 21px 17px;
+	width: 256px;
+}
+
+.random-screenshot img {
+	height: 192px;
+	width: 256px;
+}
+
+.navigation {
+	padding: 4.5em 2em;
+}
+
+.subhead a {
+	text-decoration: none;
+}
+
+.scr-content {
+	margin: 0px 8px 10px 0px;
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding: 0 0 0 20px;
+}
+
+.scr-content-lec,
+.scr-content-agi {
+	background-image: url('../images/bg-lec-games.jpg');
+}
+
+.scr-content-he {
+	background-image: url('../images/bg-he-games.jpg');
+}
+
+.scr-content-other,
+.scr-content-agos,
+.scr-content-cok {
+	background-image: url('../images/bg-other-games.jpg');
+}
+
+.scr-content a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+.scr-content a:hover {
+	color: rgb(255, 0, 0);
+}
+
+.scr-content ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.scr-content ul li:first-letter,
+.scr-content ul li a:first-letter {
+	font-weight: bold;
+}
+
+.scr-content ul li {
+	height: 24px;
+	margin-bottom: 6px;
+}
+
+.scr-content ul li img {
+	height: 24px;
+	vertical-align: middle;
+	width: 24px;
+}
+
+
+.screenshot {
+background: #ccc;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	width: 256px;
+}
+
+.screenshot .caption {
+	text-align: center;
+}
+
+
+.viewer {
+background: #ccc;
+	margin: 0 auto;
+	padding: 10px;
+	width: 640px;
+}
+
+.viewer .screenshot {
+	margin: 0px;
+	padding: 0px;
+	width: 640px;
+}

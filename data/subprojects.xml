@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<subprojects xmlns:h="http://www.w3.org/TR/html4/">
+	<project>
+		<name>ScummEx (svn subtree 'scummex')</name>
+		<info>
+			<h:p>
+				ScummEx is a multi-platform SCUMM resource browser, viewer and extractor using the wxWindows toolkit.
+			</h:p>
+			<h:p>
+				Development on this project is currently stalled. The code-base needs quite some cleanup, and viewers for many resource types still need adding to the code. Patches and volunteers are very welcome...
+			</h:p>
+			<h:p>
+				You can try compiled engine for:
+			</h:p>
+		</info>
+		<entries>
+			<file>
+				<category_icon>catpl-windows.png</category_icon>
+				<url local_file="true">scummexwin32.exe</url>
+				<name>Windows</name>
+				<type>svn</type>
+			</file>
+		</entries>
+	</project>
+<!--
+	<project>
+		<name>Residual (svn subtree 'residual')</name>
+		<info>
+			<h:p>
+				Residual is a LUA-powered 3D GRIME clone, designed to run the game Grim Fandango. Why 'Residual'? Because this engine covers games that the main ScummVM application will not support due to their 3D nature. Also, GRIME is a residue. Yes, we know, it's a bad word pun.
+			</h:p>
+			<h:p>
+				Residual's core is in a fairly decent state, however it is not in full-time development and as such is progressing slowly.
+			</h:p>
+			<h:p>
+				You can try compiled engine for:
+			</h:p>
+		</info>
+		<entries>
+			<file>
+				<category_icon>catpl-windows.png</category_icon>
+				<url local_file="true">residualwin32.exe</url>
+				<name>Windows</name>
+				<type>svn</type>
+			</file>
+			<file>
+				<category_icon>catpl-macos.png</category_icon>
+				<url local_file="true">Residual-MacOSX-Intel.dmg</url>
+				<name>Mac OS X Intel</name>
+				<type>svn</type>
+			</file>
+			<file>
+				<category_icon>catpl-debian.png</category_icon>
+				<url local_file="true">residual_debian_i386.deb</url>
+				<name>Debian i386</name>
+				<type>svn</type>
+			</file>
+			<file>
+				<category_icon>catpl-debian.png</category_icon>
+				<url local_file="true">residual_debian_amd64.deb</url>
+				<name>Debian x86_64</name>
+				<type>svn</type>
+			</file>
+			<file>
+				<category_icon>catpl-ubuntu.png</category_icon>
+				<url local_file="true">residual_ubuntu_i386.deb</url>
+				<name>Ubuntu i386</name>
+				<type>svn</type>
+			</file>
+			<file>
+				<category_icon>catpl-ubuntu.png</category_icon>
+				<url local_file="true">residual_ubuntu_amd64.deb</url>
+				<name>Ubuntu x86_64</name>
+				<type>svn</type>
+			</file>
+		</entries>
+	</project>
+-->
+</subprojects>

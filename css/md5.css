@@ -1,0 +1,50 @@
+.box .content {
+	padding: 0;
+}
+
+.document-time {
+	padding-right: 4px;
+}
+
+.md5-table {
+	margin: 0 auto 1em auto;
+	width: 99%;
+}
+
+.md5-table caption {
+	font-size: 200%;
+	font-weight: bold;
+}
+
+.md5-table thead tr {
+	background: #ccc;
+}
+
+.md5-table th {
+	padding-left: 3px;
+	text-align: left;
+}
+
+.md5-table tr.odd {
+	background: #f0f0f0;
+}
+
+.md5-table tr.even {
+	background: #fefefe;
+}
+
+.md5-table td {
+	margin: 3px;
+	padding: 4px;
+}
+
+td.md5 {
+	font: 9pt/normal "Lucida Console", Monospace;
+	width: 19em;
+}
+
+.md5-table img {
+	height: 12px;
+	vertical-align: middle; 
+	width: 20px; 
+}

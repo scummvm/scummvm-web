@@ -1,0 +1,29 @@
+ul.downloads li.file a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+ul.downloads li.file a:hover,
+ul.downloads li.link a:hover {
+	color: rgb(255, 0, 0);
+}
+
+ul.downloads span.download-extras {
+	color: rgb(133, 177, 50);
+	font-size: x-small;
+}
+
+ul.downloads li.link {
+	margin-left: 1.5em;
+}
+	
+ul.downloads li.link a {
+	color: rgb(170, 51, 51);
+	text-decoration: underline;
+}
+
+span.svn_provider {
+	display: block;
+	font-size: 90;
+	padding-left: 3em;
+}

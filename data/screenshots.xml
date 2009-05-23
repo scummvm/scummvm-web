@@ -1,0 +1,2250 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- <file> contains the base of the filename, thumbnail is <file>.jpg, full image is <file>-full.png -->
+<screenshots>
+	<group>
+		<title>LucasArts games</title>
+		<category>lec</category>
+		<game>
+			<name>Maniac Mansion</name>
+			<category>maniac</category>
+			<image>
+				<file>lec/maniac/scummvm_0_0_0</file>
+				<caption>Maniac Mansion (NES)</caption>
+			</image>
+			<image>
+				<file>lec/maniac/scummvm_0_0_1</file>
+				<caption>Maniac Mansion (NES)</caption>
+			</image>
+			<image>
+				<file>lec/maniac/scummvm_0_0_2</file>
+				<caption>Maniac Mansion</caption>
+			</image>
+			<image>
+				<file>lec/maniac/scummvm_0_0_3</file>
+				<caption>Maniac Mansion</caption>
+			</image>
+			<image>
+				<file>lec/maniac/scummvm_0_0_4</file>
+				<caption>Maniac Mansion (Enhanced)</caption>
+			</image>
+			<image>
+				<file>lec/maniac/scummvm_0_0_5</file>
+				<caption>Maniac Mansion (Enhanced)</caption>
+			</image>
+			<image>
+				<file>lec/maniac/maniac-amiga-0</file>
+				<caption>Maniac Mansion (Amiga)</caption>
+			</image>
+			<image>
+				<file>lec/maniac/maniac-amiga-1</file>
+				<caption>Maniac Mansion (Amiga)</caption>
+			</image>
+			<image>
+				<file>lec/maniac/maniac-amiga-2</file>
+				<caption>Maniac Mansion (Amiga)</caption>
+			</image>
+			<image>
+				<file>lec/maniac/maniac-amiga-3</file>
+				<caption>Maniac Mansion (Amiga)</caption>
+			</image>
+			<image>
+				<file>lec/maniac/scummvm_0_0_6</file>
+				<caption>Maniac Mansion (Amiga German)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Zak McKracken and the Alien Mindbenders</name>
+			<category>zak</category>
+			<image>
+				<file>lec/zak/scummvm_0_1_0</file>
+				<caption>Zak McKracken and the Alien Mindbenders (C64 German)</caption>
+			</image>
+			<image>
+				<file>lec/zak/scummvm_0_1_1</file>
+				<caption>Zak McKracken and the Alien Mindbenders</caption>
+			</image>
+			<image>
+				<file>lec/zak/scummvm_0_1_2</file>
+				<caption>Zak McKracken and the Alien Mindbenders (Amiga)</caption>
+			</image>
+			<image>
+				<file>lec/zak/scummvm_0_1_3</file>
+				<caption>Zak McKracken and the Alien Mindbenders (FM-TOWNS)</caption>
+			</image>
+			<image>
+				<file>lec/zak/scummvm_0_1_4</file>
+				<caption>Zak McKracken and the Alien Mindbenders (FM-TOWNS)</caption>
+			</image>
+			<image>
+				<file>lec/zak/zak-fm-2</file>
+				<caption>Zak McKracken and the Alien Mindbenders (FM-TOWNS)</caption>
+			</image>
+			<image>
+				<file>lec/zak/zak-fm-3</file>
+				<caption>Zak McKracken and the Alien Mindbenders (FM-TOWNS)</caption>
+			</image>
+			<image>
+				<file>lec/zak/zak-fm-4</file>
+				<caption>Zak McKracken and the Alien Mindbenders (FM-TOWNS)</caption>
+			</image>
+			<image>
+				<file>lec/zak/zak-fm-5</file>
+				<caption>Zak McKracken and the Alien Mindbenders (FM-TOWNS)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Indiana Jones and the Last Crusade</name>
+			<category>indy3</category>
+			<image>
+				<file>lec/indy3/scummvm_0_2_0</file>
+				<caption>Indiana Jones and the Last Crusade (EGA)</caption>
+			</image>
+			<image>
+				<file>lec/indy3/scummvm_0_2_1</file>
+				<caption>Indiana Jones and the Last Crusade (EGA)</caption>
+			</image>
+			<image>
+				<file>lec/indy3/scummvm_0_2_2</file>
+				<caption>Indiana Jones and the Last Crusade (Amiga)</caption>
+			</image>
+			<image>
+				<file>lec/indy3/scummvm_0_2_3</file>
+				<caption>Indiana Jones and the Last Crusade (VGA)</caption>
+			</image>
+			<image>
+				<file>lec/indy3/scummvm_0_2_4</file>
+				<caption>Indiana Jones and the Last Crusade (VGA)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Loom</name>
+			<category>loom</category>
+			<image>
+				<file>lec/loom/scummvm_0_6_0</file>
+				<caption>Loom (EGA)</caption>
+			</image>
+			<image>
+				<file>lec/loom/scummvm_0_6_1</file>
+				<caption>Loom (EGA German)</caption>
+			</image>
+			<image>
+				<file>lec/loom/scummvm_0_6_2</file>
+				<caption>Loom (Amiga)</caption>
+			</image>
+			<image>
+				<file>lec/loom/scummvm_0_6_3</file>
+				<caption>Loom (VGA)</caption>
+			</image>
+			<image>
+				<file>lec/loom/scummvm_0_6_4</file>
+				<caption>Loom (VGA)</caption>
+			</image>
+		</game>
+		<game>
+			<name>The Secret of Monkey Island</name>
+			<category>monkey1</category>
+			<image>
+				<file>lec/monkey/scummvm_0_4_0</file>
+				<caption>The Secret of Monkey Island (Hercules)</caption>
+			</image>
+			<image>
+				<file>lec/monkey/scummvm_0_4_1</file>
+				<caption>The Secret of Monkey Island (CGA)</caption>
+			</image>
+			<image>
+				<file>lec/monkey/scummvm_0_4_2</file>
+				<caption>The Secret of Monkey Island (EGA)</caption>
+			</image>
+			<image>
+				<file>lec/monkey/scummvm_0_4_3</file>
+				<caption>The Secret of Monkey Island (EGA)</caption>
+			</image>
+			<image>
+				<file>lec/monkey/scummvm_0_4_4</file>
+				<caption>The Secret of Monkey Island (VGA)</caption>
+			</image>
+			<image>
+				<file>lec/monkey/scummvm_0_4_5</file>
+				<caption>The Secret of Monkey Island (VGA German)</caption>
+			</image>
+			<image>
+				<file>lec/monkey/scummvm_0_4_6</file>
+				<caption>The Secret of Monkey Island (Amiga)</caption>
+			</image>
+			<image>
+				<file>lec/monkey/scummvm_0_4_7</file>
+				<caption>The Secret of Monkey Island (DOS CD)</caption>
+			</image>
+			<image>
+				<file>lec/monkey/monkey-cd-1</file>
+				<caption>The Secret of Monkey Island (DOS CD)</caption>
+			</image>
+			<image>
+				<file>lec/monkey/monkey-cd-2</file>
+				<caption>The Secret of Monkey Island (DOS CD)</caption>
+			</image>
+			<image>
+				<file>lec/monkey/monkey-cd-3</file>
+				<caption>The Secret of Monkey Island (DOS CD)</caption>
+			</image>
+			<image>
+				<file>lec/monkey/scummvm_0_4_8</file>
+				<caption>The Secret of Monkey Island (DOS CD German)</caption>
+			</image>
+			<image>
+				<file>lec/monkey/scummvm_0_4_9</file>
+				<caption>The Secret of Monkey Island (SegaCD)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Monkey Island 2: Le Chuck's Revenge</name>
+			<category>monkey2</category>
+			<image>
+				<file>lec/monkey2/scummvm_0_5_0</file>
+				<caption>Monkey Island 2: LeChuck's Revenge</caption>
+			</image>
+			<image>
+				<file>lec/monkey2/monkey2-1</file>
+				<caption>Monkey Island 2: LeChuck's Revenge</caption>
+			</image>
+			<image>
+				<file>lec/monkey2/monkey2-2</file>
+				<caption>Monkey Island 2: LeChuck's Revenge</caption>
+			</image>
+			<image>
+				<file>lec/monkey2/monkey2-3</file>
+				<caption>Monkey Island 2: LeChuck's Revenge</caption>
+			</image>
+			<image>
+				<file>lec/monkey2/scummvm_0_5_1</file>
+				<caption>Monkey Island 2: LeChuck's Revenge (German)</caption>
+			</image>
+			<image>
+				<file>lec/monkey2/scummvm_0_5_2</file>
+				<caption>Monkey Island 2: LeChuck's Revenge (Amiga)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Indiana Jones and the Fate of Atlantis</name>
+			<category>indy4</category>
+			<image>
+				<file>lec/atlantis/scummvm_0_3_0</file>
+				<caption>Indiana Jones and the Fate of Atlantis</caption>
+			</image>
+			<image>
+				<file>lec/atlantis/scummvm_0_3_1</file>
+				<caption>Indiana Jones and the Fate of Atlantis</caption>
+			</image>
+			<image>
+				<file>lec/atlantis/scummvm_0_3_2</file>
+				<caption>Indiana Jones and the Fate of Atlantis (Amiga)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Day of the Tentacle</name>
+			<category>tentacle</category>
+			<image>
+				<file>lec/tentacle/scummvm_0_8_0</file>
+				<caption>Day of the Tentacle</caption>
+			</image>
+			<image>
+				<file>lec/tentacle/scummvm_0_8_1</file>
+				<caption>Day of the Tentacle</caption>
+			</image>
+			<image>
+				<file>lec/tentacle/scummvm_0_8_2</file>
+				<caption>Day of the Tentacle (French)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Sam &amp; Max Hit the Road </name>
+			<category>samnmax</category>
+			<image>
+				<file>lec/samnmax/scummvm_0_7_0</file>
+				<caption>Sam &amp; Max Hit the Road</caption>
+			</image>
+			<image>
+				<file>lec/samnmax/scummvm_0_7_1</file>
+				<caption>Sam &amp; Max Hit the Road</caption>
+			</image>
+			<image>
+				<file>lec/samnmax/scummvm_0_7_2</file>
+				<caption>Sam &amp; Max Hit the Road</caption>
+			</image>
+			<image>
+				<file>lec/samnmax/samnmax-3</file>
+				<caption>Sam &amp; Max Hit the Road</caption>
+			</image>
+			<image>
+				<file>lec/samnmax/samnmax-4</file>
+				<caption>Sam &amp; Max Hit the Road</caption>
+			</image>
+			<image>
+				<file>lec/samnmax/samnmax-5</file>
+				<caption>Sam &amp; Max Hit the Road</caption>
+			</image>
+		</game>
+		<game>
+			<name>Full Throttle</name>
+			<category>ft</category>
+			<image>
+				<file>lec/ft/scummvm_0_9_0</file>
+				<caption>Full Throttle</caption>
+			</image>
+			<image>
+				<file>lec/ft/scummvm_0_9_1</file>
+				<caption>Full Throttle</caption>
+			</image>
+			<image>
+				<file>lec/ft/scummvm_0_9_2</file>
+				<caption>Full Throttle</caption>
+			</image>
+			<image>
+				<file>lec/ft/ft-3</file>
+				<caption>Full Throttle</caption>
+			</image>
+			<image>
+				<file>lec/ft/ft-4</file>
+				<caption>Full Throttle</caption>
+			</image>
+			<image>
+				<file>lec/ft/ft-5</file>
+				<caption>Full Throttle</caption>
+			</image>
+		</game>
+		<game>
+			<name>The Dig</name>
+			<category>dig</category>
+			<image>
+				<file>lec/dig/scummvm_0_10_0</file>
+				<caption>The Dig</caption>
+			</image>
+			<image>
+				<file>lec/dig/scummvm_0_10_1</file>
+				<caption>The Dig</caption>
+			</image>
+			<image>
+				<file>lec/dig/scummvm_0_10_2</file>
+				<caption>The Dig</caption>
+			</image>
+			<image>
+				<file>lec/dig/dig-3</file>
+				<caption>The Dig</caption>
+			</image>
+			<image>
+				<file>lec/dig/dig-4</file>
+				<caption>The Dig</caption>
+			</image>
+			<image>
+				<file>lec/dig/dig-5</file>
+				<caption>The Dig</caption>
+			</image>
+		</game>
+		<game>
+			<name>The Curse of Monkey Island</name>
+			<category>comi</category>
+			<image>
+				<file>lec/comi/scummvm_0_11_0</file>
+				<caption>The Curse of Monkey Island</caption>
+			</image>
+			<image>
+				<file>lec/comi/scummvm_0_11_1</file>
+				<caption>The Curse of Monkey Island</caption>
+			</image>
+			<image>
+				<file>lec/comi/scummvm_0_11_2</file>
+				<caption>The Curse of Monkey Island</caption>
+			</image>
+			<image>
+				<file>lec/comi/comi-3</file>
+				<caption>The Curse of Monkey Island</caption>
+			</image>
+			<image>
+				<file>lec/comi/comi-4</file>
+				<caption>The Curse of Monkey Island</caption>
+			</image>
+			<image>
+				<file>lec/comi/comi-5</file>
+				<caption>The Curse of Monkey Island</caption>
+			</image>
+			<image>
+				<file>lec/comi/comi-zh-0</file>
+				<caption>The Curse of Monkey Island (Chinese (Taiwan))</caption>
+			</image>
+			<image>
+				<file>lec/comi/comi-zh-1</file>
+				<caption>The Curse of Monkey Island (Chinese (Taiwan))</caption>
+			</image>
+		</game>
+	</group>
+	<group>
+		<title>Activision Adventure games</title>
+		<category>made</category>
+		<game>
+			<name>Leather Goddesses of Phobos 2</name>
+			<category>lgop2</category>
+			<image>
+				<file>made/lgop-0</file>
+				<caption>Leather Goddesses of Phobos 2</caption>
+			</image>
+			<image>
+				<file>made/lgop-1</file>
+				<caption>Leather Goddesses of Phobos 2</caption>
+			</image>
+			<image>
+				<file>made/lgop-2</file>
+				<caption>Leather Goddesses of Phobos 2</caption>
+			</image>
+			<image>
+				<file>made/lgop-3</file>
+				<caption>Leather Goddesses of Phobos 2</caption>
+			</image>
+			<image>
+				<file>made/lgop-4</file>
+				<caption>Leather Goddesses of Phobos 2</caption>
+			</image>
+		</game>
+		<game>
+			<name>The Manhole</name>
+			<category>manhole</category>
+			<image>
+				<file>made/manhole-0</file>
+				<caption>The Manhole</caption>
+			</image>
+			<image>
+				<file>made/manhole-1</file>
+				<caption>The Manhole</caption>
+			</image>
+			<image>
+				<file>made/manhole-2</file>
+				<caption>The Manhole</caption>
+			</image>
+			<image>
+				<file>made/manhole-3</file>
+				<caption>The Manhole</caption>
+			</image>
+			<image>
+				<file>made/manhole-4</file>
+				<caption>The Manhole</caption>
+			</image>
+			<image>
+				<file>made/manhole-5</file>
+				<caption>The Manhole</caption>
+			</image>
+		</game>
+		<game>
+			<name>Return to Zork</name>
+			<category>rtz</category>
+			<image>
+				<file>made/rtz-0</file>
+				<caption>Return to Zork</caption>
+			</image>
+			<image>
+				<file>made/rtz-1</file>
+				<caption>Return to Zork</caption>
+			</image>
+			<image>
+				<file>made/rtz-2</file>
+				<caption>Return to Zork</caption>
+			</image>
+			<image>
+				<file>made/rtz-3</file>
+				<caption>Return to Zork</caption>
+			</image>
+			<image>
+				<file>made/rtz-4</file>
+				<caption>Return to Zork</caption>
+			</image>
+			<image>
+				<file>made/rtz-5</file>
+				<caption>Return to Zork</caption>
+			</image>
+		</game>
+		<game>
+			<name>Rodney's Funscreen</name>
+			<category>rodney</category>
+			<image>
+				<file>made/rodney-0</file>
+				<caption>Rodney's Funscreen</caption>
+			</image>
+			<image>
+				<file>made/rodney-1</file>
+				<caption>Rodney's Funscreen</caption>
+			</image>
+			<image>
+				<file>made/rodney-2</file>
+				<caption>Rodney's Funscreen</caption>
+			</image>
+			<image>
+				<file>made/rodney-3</file>
+				<caption>Rodney's Funscreen</caption>
+			</image>
+			<image>
+				<file>made/rodney-4</file>
+				<caption>Rodney's Funscreen</caption>
+			</image>
+			<image>
+				<file>made/rodney-5</file>
+				<caption>Rodney's Funscreen</caption>
+			</image>
+		</game>
+	</group>
+	<group>
+		<title>Adventuresoft/Horrorsoft games</title>
+		<category>agos</category>
+		<game>
+			<name>Simon the Sorcerer series</name>
+			<category>simon</category>
+			<image>
+				<file>other/simon/scummvm_2_4_0</file>
+				<caption>Simon the Sorcerer</caption>
+			</image>
+			<image>
+				<file>other/simon/scummvm_2_4_1</file>
+				<caption>Simon the Sorcerer</caption>
+			</image>
+			<image>
+				<file>other/simon/simon1-2</file>
+				<caption>Simon the Sorcerer</caption>
+			</image>
+			<image>
+				<file>other/simon/simon1-3</file>
+				<caption>Simon the Sorcerer</caption>
+			</image>
+			<image>
+				<file>other/simon/simon1-4</file>
+				<caption>Simon the Sorcerer</caption>
+			</image>
+			<image>
+				<file>other/simon/simon1-5</file>
+				<caption>Simon the Sorcerer</caption>
+			</image>
+			<image>
+				<file>other/simon/scummvm_2_4_2</file>
+				<caption>Simon the Sorcerer 2</caption>
+			</image>
+			<image>
+				<file>other/simon/simon2-1</file>
+				<caption>Simon the Sorcerer 2</caption>
+			</image>
+			<image>
+				<file>other/simon/simon2-2</file>
+				<caption>Simon the Sorcerer 2</caption>
+			</image>
+			<image>
+				<file>other/simon/simon2-3</file>
+				<caption>Simon the Sorcerer 2</caption>
+			</image>
+			<image>
+				<file>other/simon/simon2-4</file>
+				<caption>Simon the Sorcerer 2</caption>
+			</image>
+			<image>
+				<file>other/simon/scummvm_2_4_3</file>
+				<caption>Simon the Sorcerer 2 (DOS Hebrew)</caption>
+			</image>
+			<image>
+				<file>other/simon/scummvm_2_4_4</file>
+				<caption>Simon the Sorcerer's Puzzle Pack - D.I.M.P.</caption>
+			</image>
+			<image>
+				<file>other/simon/scummvm_2_4_5</file>
+				<caption>Simon the Sorcerer's Puzzle Pack - D.I.M.P.</caption>
+			</image>
+			<image>
+				<file>other/simon/scummvm_2_4_6</file>
+				<caption>Simon the Sorcerer's Puzzle Pack - Jumble</caption>
+			</image>
+			<image>
+				<file>other/simon/scummvm_2_4_7</file>
+				<caption>Simon the Sorcerer's Puzzle Pack - Jumble</caption>
+			</image>
+			<image>
+				<file>other/simon/scummvm_2_4_8</file>
+				<caption>Simon the Sorcerer's Puzzle Pack - NoPatience</caption>
+			</image>
+			<image>
+				<file>other/simon/scummvm_2_4_9</file>
+				<caption>Simon the Sorcerer's Puzzle Pack - NoPatience</caption>
+			</image>
+			<image>
+				<file>other/simon/scummvm_2_4_10</file>
+				<caption>Simon the Sorcerer's Puzzle Pack - Swampy Adventures</caption>
+			</image>
+			<image>
+				<file>other/simon/scummvm_2_4_11</file>
+				<caption>Simon the Sorcerer's Puzzle Pack - Swampy Adventures</caption>
+			</image>
+		</game>
+		<game>
+			<name>Elvira series</name>
+			<category>elvira</category>
+			<image>
+				<file>agos/elvira/elvira-1</file>
+				<caption>Elvira - Mistress of the Dark (DOS/English)</caption>
+			</image>
+			<image>
+				<file>agos/elvira/elvira-2</file>
+				<caption>Elvira - Mistress of the Dark (DOS/English)</caption>
+			</image>
+			<image>
+				<file>agos/elvira/elvira-3</file>
+				<caption>Elvira - Mistress of the Dark (DOS/English)</caption>
+			</image>
+			<image>
+				<file>agos/elvira/elvira-4</file>
+				<caption>Elvira - Mistress of the Dark (DOS/English)</caption>
+			</image>
+			<image>
+				<file>agos/elvira/elvira-5</file>
+				<caption>Elvira - Mistress of the Dark (DOS/English)</caption>
+			</image>
+			<image>
+				<file>agos/elvira/elvira2-amiga-1</file>
+				<caption>Elvira II - The Jaws of Cerberus (Amiga/English)</caption>
+			</image>
+			<image>
+				<file>agos/elvira/elvira2-amiga-2</file>
+				<caption>Elvira II - The Jaws of Cerberus (Amiga/English)</caption>
+			</image>
+			<image>
+				<file>agos/elvira/elvira2-amiga-3</file>
+				<caption>Elvira II - The Jaws of Cerberus (Amiga/English)</caption>
+			</image>
+			<image>
+				<file>agos/elvira/elvira2-amiga-4</file>
+				<caption>Elvira II - The Jaws of Cerberus (Amiga/English)</caption>
+			</image>
+			<image>
+				<file>agos/elvira/elvira2-amiga-5</file>
+				<caption>Elvira II - The Jaws of Cerberus (Amiga/English)</caption>
+			</image>
+		</game>
+		<game>
+			<name>The Feeble Files</name>
+			<category>feeble</category>
+			<image>
+				<file>other/feeble/scummvm_2_7_0</file>
+				<caption>The Feeble Files (Windows)</caption>
+			</image>
+			<image>
+				<file>other/feeble/scummvm_2_7_1</file>
+				<caption>The Feeble Files (Windows)</caption>
+			</image>
+			<image>
+				<file>other/feeble/scummvm_2_7_2</file>
+				<caption>The Feeble Files (Windows)</caption>
+			</image>
+			<image>
+				<file>other/feeble/scummvm_2_7_3</file>
+				<caption>The Feeble Files (Windows)</caption>
+			</image>
+			<image>
+				<file>other/feeble/scummvm_2_7_4</file>
+				<caption>The Feeble Files (Windows)</caption>
+			</image>
+			<image>
+				<file>other/feeble/feeble-5</file>
+				<caption>The Feeble Files (Windows)</caption>
+			</image>
+			<image>
+				<file>other/feeble/feeble-6</file>
+				<caption>The Feeble Files (Windows)</caption>
+			</image>
+			<image>
+				<file>other/feeble/feeble-7</file>
+				<caption>The Feeble Files (Windows)</caption>
+			</image>
+			<image>
+				<file>other/feeble/feeble-8</file>
+				<caption>The Feeble Files (Windows)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Waxworks</name>
+			<category>waxworks</category>
+			<image>
+				<file>agos/waxworks/waxworks-1</file>
+				<caption>Waxworks (DOS/English)</caption>
+			</image>
+			<image>
+				<file>agos/waxworks/waxworks-2</file>
+				<caption>Waxworks (DOS/English)</caption>
+			</image>
+			<image>
+				<file>agos/waxworks/waxworks-3</file>
+				<caption>Waxworks (DOS/English)</caption>
+			</image>
+			<image>
+				<file>agos/waxworks/waxworks-4</file>
+				<caption>Waxworks (DOS/English)</caption>
+			</image>
+			<image>
+				<file>agos/waxworks/waxworks-amiga-1</file>
+				<caption>Waxworks (Amiga/English)</caption>
+			</image>
+		</game>
+	</group>
+	<group>
+		<title>Coktel Vision games</title>
+		<category>cok</category>
+		<game>
+			<name>Bargon Attack</name>
+			<category>bargon</category>
+			<image>
+				<file>other/bargon/scummvm_2_11_0</file>
+				<caption>Bargon Attack (DOS)</caption>
+			</image>
+			<image>
+				<file>other/bargon/scummvm_2_11_1</file>
+				<caption>Bargon Attack (DOS)</caption>
+			</image>
+			<image>
+				<file>other/bargon/scummvm_2_11_2</file>
+				<caption>Bargon Attack (DOS)</caption>
+			</image>
+		</game>
+		<game>
+			<name>The Bizarre Adventures of Woodruff and the Schnibble</name>
+			<category>woodruff</category>
+			<image>
+				<file>gob/woodruff/woodruff-0</file>
+				<caption>The Bizarre Adventures of Woodruff and the Schnibble</caption>
+			</image>
+			<image>
+				<file>gob/woodruff/woodruff-1</file>
+				<caption>The Bizarre Adventures of Woodruff and the Schnibble</caption>
+			</image>
+			<image>
+				<file>gob/woodruff/woodruff-2</file>
+				<caption>The Bizarre Adventures of Woodruff and the Schnibble</caption>
+			</image>
+			<image>
+				<file>gob/woodruff/woodruff-3</file>
+				<caption>The Bizarre Adventures of Woodruff and the Schnibble</caption>
+			</image>
+			<image>
+				<file>gob/woodruff/woodruff-4</file>
+				<caption>The Bizarre Adventures of Woodruff and the Schnibble</caption>
+			</image>
+		</game>
+		<game>
+			<name>Gobliiins series</name>
+			<category>gob</category>
+			<image>
+				<file>other/gob/scummvm_2_1_0</file>
+				<caption>Gobliiins</caption>
+			</image>
+			<image>
+				<file>other/gob/scummvm_2_1_1</file>
+				<caption>Gobliiins</caption>
+			</image>
+			<image>
+				<file>other/gob/gob1-2</file>
+				<caption>Gobliiins</caption>
+			</image>
+			<image>
+				<file>other/gob/gob1-3</file>
+				<caption>Gobliiins</caption>
+			</image>
+			<image>
+				<file>other/gob/gob1-4</file>
+				<caption>Gobliiins</caption>
+			</image>
+			<image>
+				<file>other/gob/gob1-5</file>
+				<caption>Gobliiins</caption>
+			</image>
+			<image>
+				<file>other/gob/scummvm_2_1_2</file>
+				<caption>Gobliins 2 (CD)</caption>
+			</image>
+			<image>
+				<file>other/gob/scummvm_2_1_3</file>
+				<caption>Gobliins 2 (CD)</caption>
+			</image>
+			<image>
+				<file>other/gob/gob2-3</file>
+				<caption>Gobliins 2 (CD)</caption>
+			</image>
+			<image>
+				<file>other/gob/gob2-4</file>
+				<caption>Gobliins 2 (CD)</caption>
+			</image>
+			<image>
+				<file>other/gob/gob2-5</file>
+				<caption>Gobliins 2 (CD)</caption>
+			</image>
+			<image>
+				<file>other/gob/scummvm_2_1_5</file>
+				<caption>Goblins Quest 3 (DOS)</caption>
+			</image>
+			<image>
+				<file>other/gob/scummvm_2_1_6</file>
+				<caption>Goblins Quest 3 (DOS)</caption>
+			</image>
+			<image>
+				<file>other/gob/scummvm_2_1_7</file>
+				<caption>Goblins Quest 3 (DOS)</caption>
+			</image>
+			<image>
+				<file>other/gob/gob3-3</file>
+				<caption>Goblins Quest 3 (DOS)</caption>
+			</image>
+			<image>
+				<file>other/gob/gob3-4</file>
+				<caption>Goblins Quest 3 (DOS)</caption>
+			</image>
+			<image>
+				<file>other/gob/gob3-5</file>
+				<caption>Goblins Quest 3 (DOS)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Lost In Time</name>
+			<category>lostintime</category>
+			<image>
+				<file>gob/lostintime/lostintime-1</file>
+				<caption>Lost in Time (CD DOS)</caption>
+			</image>
+			<image>
+				<file>gob/lostintime/lostintime-2</file>
+				<caption>Lost in Time (CD DOS)</caption>
+			</image>
+			<image>
+				<file>gob/lostintime/lostintime-3</file>
+				<caption>Lost in Time (CD DOS)</caption>
+			</image>
+			<image>
+				<file>gob/lostintime/lostintime-fr-1</file>
+				<caption>Lost in Time (CD DOS French)</caption>
+			</image>
+			<image>
+				<file>gob/lostintime/lostintime-de-1</file>
+				<caption>Lost in Time (CD DOS German)</caption>
+			</image>
+			<image>
+				<file>gob/lostintime/lostintime-it-1</file>
+				<caption>Lost in Time (CD DOS Italian)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Ween: The Prophecy</name>
+			<category>ween</category>
+			<image>
+				<file>other/ween/scummvm_2_9_0</file>
+				<caption>Ween: The Prophecy</caption>
+			</image>
+			<image>
+				<file>other/ween/scummvm_2_9_1</file>
+				<caption>Ween: The Prophecy</caption>
+			</image>
+			<image>
+				<file>other/ween/scummvm_2_9_2</file>
+				<caption>Ween: The Prophecy</caption>
+			</image>
+			<image>
+				<file>other/ween/scummvm_2_9_3</file>
+				<caption>Ween: The Prophecy</caption>
+			</image>
+		</game>
+	</group>
+	<group>
+		<title>Revolution Software games</title>
+		<category>rev</category>
+		<game>
+			<name>Beneath a Steel Sky</name>
+			<category>sky</category>
+			<image>
+				<file>other/sky/scummvm_2_5_0</file>
+				<caption>Beneath a Steel Sky</caption>
+			</image>
+			<image>
+				<file>other/sky/scummvm_2_5_1</file>
+				<caption>Beneath a Steel Sky</caption>
+			</image>
+		</game>
+		<game>
+			<name>Broken Sword 1 - The Shadow of the Templars</name>
+			<category>sword</category>
+			<image>
+				<file>other/sword/scummvm_2_0_0</file>
+				<caption>Broken Sword 1 - The Shadow of the Templars</caption>
+			</image>
+			<image>
+				<file>other/sword/scummvm_2_0_1</file>
+				<caption>Broken Sword 1 - The Shadow of the Templars</caption>
+			</image>
+		</game>
+		<game>
+			<name>Broken Sword 2 - The Smoking Mirror</name>
+			<category>sword2</category>
+			<image>
+				<file>other/sword/scummvm_2_0_2</file>
+				<caption>Broken Sword 2 - The Smoking Mirror</caption>
+			</image>
+			<image>
+				<file>other/sword/scummvm_2_0_3</file>
+				<caption>Broken Sword 2 - The Smoking Mirror</caption>
+			</image>
+		</game>
+		<game>
+			<name>Lure of the Temptress</name>
+			<category>lure</category>
+			<image>
+				<file>other/lure/lure-1</file>
+				<caption>Lure of the Temptress (DOS VGA)</caption>
+			</image>
+			<image>
+				<file>other/lure/lure-2</file>
+				<caption>Lure of the Temptress (DOS VGA)</caption>
+			</image>
+			<image>
+				<file>other/lure/lure-3</file>
+				<caption>Lure of the Temptress (DOS VGA)</caption>
+			</image>
+			<image>
+				<file>other/lure/lure-4</file>
+				<caption>Lure of the Temptress (DOS VGA)</caption>
+			</image>
+			<image>
+				<file>other/lure/lure-5</file>
+				<caption>Lure of the Temptress (DOS VGA)</caption>
+			</image>
+			<image>
+				<file>other/lure/lure-6</file>
+				<caption>Lure of the Temptress (DOS VGA)</caption>
+			</image>
+		</game>
+	</group>
+	<group>
+		<title>Sierra AGI games</title>
+		<category>agi</category>
+		<game>
+			<name>The Black Cauldron</name>
+			<category>bc</category>
+			<image>
+				<file>agi/bc/scummvm_3_1_0</file>
+				<caption>The Black Cauldron (2.00 1987-06-14/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/bc/scummvm_3_1_1</file>
+				<caption>The Black Cauldron (2.00 1987-06-14/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/bc/scummvm_3_1_2</file>
+				<caption>The Black Cauldron (2.00 1987-06-14/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/bc/scummvm_3_1_3</file>
+				<caption>The Black Cauldron (2.00 1987-06-14/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/bc/scummvm_3_1_4</file>
+				<caption>The Black Cauldron (2.00 1987-06-14/DOS/English)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Gold Rush</name>
+			<category>gr</category>
+			<image>
+				<file>agi/goldrush/scummvm_3_2_0</file>
+				<caption>Gold Rush! (2.01 1988-12-22 3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/goldrush/scummvm_3_2_1</file>
+				<caption>Gold Rush! (2.01 1988-12-22 3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/goldrush/scummvm_3_2_2</file>
+				<caption>Gold Rush! (2.01 1988-12-22 3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/goldrush/scummvm_3_2_3</file>
+				<caption>Gold Rush! (2.01 1988-12-22 3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/goldrush/gr-amiga-0</file>
+				<caption>Gold Rush! (1.01 1989-01-13 aka 2.05 1989-03-09/Amiga/English)</caption>
+			</image>
+			<image>
+				<file>agi/goldrush/gr-amiga-1</file>
+				<caption>Gold Rush! (1.01 1989-01-13 aka 2.05 1989-03-09/Amiga/English)</caption>
+			</image>
+		</game>
+		<game>
+			<name>King's Quest series</name>
+			<category>kq</category>
+			<image>
+				<file>agi/kq/scummvm_3_3_0</file>
+				<caption>King's Quest I: Quest for the Crown (2.0F 1987-05-05 5.25&quot;/3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/kq/scummvm_3_3_1</file>
+				<caption>King's Quest I: Quest for the Crown (2.0F 1987-05-05 5.25&quot;/3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/kq/scummvm_3_3_2</file>
+				<caption>King's Quest I: Quest for the Crown (2.0F 1987-05-05 5.25&quot;/3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/kq/scummvm_3_3_3</file>
+				<caption>King's Quest I: Quest for the Crown (2.0F 1987-05-05 5.25&quot;/3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/kq/scummvm_3_3_4</file>
+				<caption>King's Quest II: Romancing the Stone (2.1 1987-04-10/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/kq/scummvm_3_3_5</file>
+				<caption>King's Quest II: Romancing the Stone (2.1 1987-04-10/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/kq/scummvm_3_3_6</file>
+				<caption>King's Quest II: Romancing the Throne (2.2 1987-05-07 5.25&quot;/3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/kq/scummvm_3_3_7</file>
+				<caption>King's Quest II: Romancing the Throne (2.2 1987-05-07 5.25&quot;/3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/kq/scummvm_3_3_8</file>
+				<caption>King's Quest III: To Heir Is Human (2.14 1988-03-15 3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/kq/scummvm_3_3_9</file>
+				<caption>King's Quest III: To Heir Is Human (2.14 1988-03-15 3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/kq/scummvm_3_3_10</file>
+				<caption>King's Quest III: To Heir Is Human (2.14 1988-03-15 3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/kq/scummvm_3_3_11</file>
+				<caption>King's Quest III: To Heir Is Human (2.14 1988-03-15 3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/kq/scummvm_3_3_12</file>
+				<caption>King's Quest III: To Heir Is Human (2.14 1988-03-15 3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/kq/scummvm_3_3_13</file>
+				<caption>King's Quest IV: The Perils of Rosella (2.0 1988-07-27 3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/kq/scummvm_3_3_14</file>
+				<caption>King's Quest IV: The Perils of Rosella (2.0 1988-07-27 3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/kq/scummvm_3_3_15</file>
+				<caption>King's Quest IV: The Perils of Rosella (2.0 1988-07-27 3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/kq/scummvm_3_3_16</file>
+				<caption>King's Quest IV: The Perils of Rosella (2.0 1988-07-27 3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/kq/scummvm_3_3_17</file>
+				<caption>King's Quest IV: The Perils of Rosella (2.0 1988-07-27 3.5&quot;/DOS/English)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Leisure Suit Larry</name>
+			<category>lsl</category>
+			<image>
+				<file>agi/lsl/scummvm_3_4_0</file>
+				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (1.00 1987-06-01 5.25&quot;/3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/lsl/scummvm_3_4_1</file>
+				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (1.00 1987-06-01 5.25&quot;/3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/lsl/scummvm_3_4_2</file>
+				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (1.00 1987-06-01 5.25&quot;/3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/lsl/scummvm_3_4_3</file>
+				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (1.00 1987-06-01 5.25&quot;/3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/lsl/lsl-amiga-0</file>
+				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (1.05 1987-06-26/Amiga/English)</caption>
+			</image>
+			<image>
+				<file>agi/lsl/lsl-amiga-1</file>
+				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (1.05 1987-06-26/Amiga/English)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Manhunter series</name>
+			<category>mh</category>
+			<image>
+				<file>agi/mh/scummvm_3_5_0</file>
+				<caption>Manhunter 1: New York (1.22 1988-08-31/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/mh/scummvm_3_5_1</file>
+				<caption>Manhunter 1: New York (1.22 1988-08-31/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/mh/scummvm_3_5_2</file>
+				<caption>Manhunter 1: New York (1.22 1988-08-31/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/mh/scummvm_3_5_3</file>
+				<caption>Manhunter 1: New York (1.22 1988-08-31/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/mh/scummvm_3_5_4</file>
+				<caption>Manhunter 1: New York (1.22 1988-08-31/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/mh/scummvm_3_5_5</file>
+				<caption>Manhunter 1: New York (1.22 1988-08-31/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/mh/scummvm_3_5_6</file>
+				<caption>Manhunter 2: San Francisco (3.02 1989-07-26 3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/mh/scummvm_3_5_7</file>
+				<caption>Manhunter 2: San Francisco (3.02 1989-07-26 3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/mh/scummvm_3_5_8</file>
+				<caption>Manhunter 2: San Francisco (3.02 1989-07-26 3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/mh/scummvm_3_5_9</file>
+				<caption>Manhunter 2: San Francisco (3.02 1989-07-26 3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/mh/scummvm_3_5_10</file>
+				<caption>Manhunter 2: San Francisco (3.02 1989-07-26 3.5&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/mh/scummvm_3_5_11</file>
+				<caption>Manhunter 2: San Francisco (3.02 1989-07-26 3.5&quot;/DOS/English)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Mixed-Up Mother Goose</name>
+			<category>mumg</category>
+			<image>
+				<file>agi/mixedup/scummvm_3_6_0</file>
+				<caption>Mixed-Up Mother Goose (1987-11-10/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/mixedup/scummvm_3_6_1</file>
+				<caption>Mixed-Up Mother Goose (1987-11-10/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/mixedup/scummvm_3_6_2</file>
+				<caption>Mixed-Up Mother Goose (1987-11-10/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/mixedup/scummvm_3_6_3</file>
+				<caption>Mixed-Up Mother Goose (1987-11-10/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/mixedup/scummvm_3_6_4</file>
+				<caption>Mixed-Up Mother Goose (1987-11-10/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/mixedup/scummvm_3_6_5</file>
+				<caption>Mixed-Up Mother Goose (1987-11-10/DOS/English)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Police Quest</name>
+			<category>pq</category>
+			<image>
+				<file>agi/pq/scummvm_3_7_0</file>
+				<caption>Police Quest I: In Pursuit of the Death Angel (2.0G 1987-12-03/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/pq/scummvm_3_7_1</file>
+				<caption>Police Quest I: In Pursuit of the Death Angel (2.0G 1987-12-03/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/pq/scummvm_3_7_2</file>
+				<caption>Police Quest I: In Pursuit of the Death Angel (2.0G 1987-12-03/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/pq/scummvm_3_7_3</file>
+				<caption>Police Quest I: In Pursuit of the Death Angel (2.0G 1987-12-03/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/pq/scummvm_3_7_4</file>
+				<caption>Police Quest I: In Pursuit of the Death Angel (2.0G 1987-12-03/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/pq/scummvm_3_7_5</file>
+				<caption>Police Quest I: In Pursuit of the Death Angel (2.0G 1987-12-03/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/pq/pq-amiga-0</file>
+				<caption>Police Quest I: In Pursuit of the Death Angel (2.0B 1989-02-22/Amiga/English)</caption>
+			</image>
+			<image>
+				<file>agi/pq/pq-amiga-1</file>
+				<caption>Police Quest I: In Pursuit of the Death Angel (2.0B 1989-02-22/Amiga/English)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Space Quest series</name>
+			<category>sq</category>
+			<image>
+				<file>agi/sq/scummvm_3_8_0</file>
+				<caption>Space Quest I: The Sarien Encounter (1.1A 1986-11-13/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/sq/scummvm_3_8_1</file>
+				<caption>Space Quest I: The Sarien Encounter (1.1A 1986-11-13/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/sq/scummvm_3_8_2</file>
+				<caption>Space Quest I: The Sarien Encounter (1.1A 1986-11-13/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/sq/scummvm_3_8_3</file>
+				<caption>Space Quest I: The Sarien Encounter (1.1A 1986-11-13/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/sq/scummvm_3_8_4</file>
+				<caption>Space Quest I: The Sarien Encounter (1.1A 1986-11-13/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/sq/scummvm_3_8_5</file>
+				<caption>Space Quest I: The Sarien Encounter (1.1A 1986-11-13/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/sq/scummvm_3_8_6</file>
+				<caption>Space Quest II: Vohaul's Revenge (2.0A 1987-11-06 5.25&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/sq/scummvm_3_8_7</file>
+				<caption>Space Quest II: Vohaul's Revenge (2.0A 1987-11-06 5.25&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/sq/scummvm_3_8_8</file>
+				<caption>Space Quest II: Vohaul's Revenge (2.0A 1987-11-06 5.25&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/sq/scummvm_3_8_9</file>
+				<caption>Space Quest II: Vohaul's Revenge (2.0A 1987-11-06 5.25&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/sq/scummvm_3_8_10</file>
+				<caption>Space Quest II: Vohaul's Revenge (2.0A 1987-11-06 5.25&quot;/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/sq/scummvm_3_8_11</file>
+				<caption>Space Quest II: Vohaul's Revenge (2.0A 1987-11-06 5.25&quot;/DOS/English)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Fanmade games</name>
+			<category>fan</category>
+			<image>
+				<file>agi/fanmade/enclosure-0</file>
+				<caption>Enclosure 1 (v1.03)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/enclosure-1</file>
+				<caption>Enclosure 1 (v1.03)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/enclosure-2</file>
+				<caption>Enclosure 1 (v1.03)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/enclosure-3</file>
+				<caption>Enclosure 1 (v1.03)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_0</file>
+				<caption>Serguei's Destiny 1 (v1.1 2003 Apr 10/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_1</file>
+				<caption>Serguei's Destiny 1 (v1.1 2003 Apr 10/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_2</file>
+				<caption>Serguei's Destiny 1 (v1.1 2003 Apr 10/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_3</file>
+				<caption>Space Quest 0: Replicated (v1.04/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_4</file>
+				<caption>Space Quest 0: Replicated (v1.04/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_5</file>
+				<caption>Space Quest 0: Replicated (v1.04/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_6</file>
+				<caption>Space Quest 0: Replicated (v1.04/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_7</file>
+				<caption>Space Quest 0: Replicated (v1.04/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_8</file>
+				<caption>Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_9</file>
+				<caption>Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_10</file>
+				<caption>Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_11</file>
+				<caption>Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_12</file>
+				<caption>Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_13</file>
+				<caption>Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_14</file>
+				<caption>Voodoo Girl - Queen of the Darned (v1.2 2002 Jan 1/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_15</file>
+				<caption>Voodoo Girl - Queen of the Darned (v1.2 2002 Jan 1/DOS/English)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Mickey's Space Adventure</name>
+			<category>mickey</category>
+			<image>
+				<file>agi/preagi/mickey-1</file>
+				<caption>Mickey's Space Adventure (DOS)</caption>
+			</image>
+			<image>
+				<file>agi/preagi/mickey-2</file>
+				<caption>Mickey's Space Adventure (DOS)</caption>
+			</image>
+			<image>
+				<file>agi/preagi/mickey-cga-1</file>
+				<caption>Mickey's Space Adventure (DOS CGA)</caption>
+			</image>
+			<image>
+				<file>agi/preagi/mickey-cga-2</file>
+				<caption>Mickey's Space Adventure (DOS CGA)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Troll's Tale</name>
+			<category>troll</category>
+			<image>
+				<file>agi/preagi/troll-1</file>
+				<caption>Troll's Tale (DOS)</caption>
+			</image>
+			<image>
+				<file>agi/preagi/troll-2</file>
+				<caption>Troll's Tale (DOS)</caption>
+			</image>
+			<image>
+				<file>agi/preagi/troll-3</file>
+				<caption>Troll's Tale (DOS)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Winnie the Pooh in the Hundred Acre Wood</name>
+			<category>winnie</category>
+			<image>
+				<file>agi/preagi/winnie-1</file>
+				<caption>Winnie the Pooh in the Hundred Acre Wood (DOS)</caption>
+			</image>
+			<image>
+				<file>agi/preagi/winnie-2</file>
+				<caption>Winnie the Pooh in the Hundred Acre Wood (DOS)</caption>
+			</image>
+			<image>
+				<file>agi/preagi/winnie-3</file>
+				<caption>Winnie the Pooh in the Hundred Acre Wood (DOS)</caption>
+			</image>
+			<image>
+				<file>agi/preagi/winnie-4</file>
+				<caption>Winnie the Pooh in the Hundred Acre Wood (DOS)</caption>
+			</image>
+			<image>
+				<file>agi/preagi/winnie-5</file>
+				<caption>Winnie the Pooh in the Hundred Acre Wood (DOS)</caption>
+			</image>
+			<image>
+				<file>agi/preagi/winnie-6</file>
+				<caption>Winnie the Pooh in the Hundred Acre Wood (DOS)</caption>
+			</image>
+		</game>
+	</group>
+	<group>
+		<title>Other games</title>
+		<category>other</category>
+		<game>
+			<name>Bud Tucker in Double Trouble</name>
+			<category>tucker</category>
+			<image>
+				<file>other/tucker/tucker-0</file>
+				<caption>Bud Tucker in Double Trouble</caption>
+			</image>
+			<image>
+				<file>other/tucker/tucker-1</file>
+				<caption>Bud Tucker in Double Trouble</caption>
+			</image>
+			<image>
+				<file>other/tucker/tucker-2</file>
+				<caption>Bud Tucker in Double Trouble</caption>
+			</image>
+			<image>
+				<file>other/tucker/tucker-3</file>
+				<caption>Bud Tucker in Double Trouble</caption>
+			</image>
+			<image>
+				<file>other/tucker/tucker-4</file>
+				<caption>Bud Tucker in Double Trouble</caption>
+			</image>
+		</game>
+<!--
+		<game>
+			<name>Discworld series</name>
+			<category>dw</category>
+			<image>
+				<file>tinsel/dw1-0</file>
+				<caption>Discworld</caption>
+			</image>
+			<image>
+				<file>tinsel/dw1-1</file>
+				<caption>Discworld</caption>
+			</image>
+			<image>
+				<file>tinsel/dw1-2</file>
+				<caption>Discworld</caption>
+			</image>
+			<image>
+				<file>tinsel/dw1-3</file>
+				<caption>Discworld</caption>
+			</image>
+			<image>
+				<file>tinsel/dw1-4</file>
+				<caption>Discworld</caption>
+			</image>
+			<image>
+				<file>tinsel/dw1-5</file>
+				<caption>Discworld</caption>
+			</image>
+			<image>
+				<file>tinsel/dw1-6</file>
+				<caption>Discworld</caption>
+			</image>
+			<image>
+				<file>tinsel/dw1-7</file>
+				<caption>Discworld</caption>
+			</image>
+		</game>
+-->
+		<game>
+			<name>Drascula: The Vampire Strikes Back</name>
+			<category>drascula</category>
+			<image>
+				<file>other/drascula/drascula-1</file>
+				<caption>Drascula: The Vampire Strikes Back</caption>
+			</image>
+			<image>
+				<file>other/drascula/drascula-2</file>
+				<caption>Drascula: The Vampire Strikes Back</caption>
+			</image>
+			<image>
+				<file>other/drascula/drascula-3</file>
+				<caption>Drascula: The Vampire Strikes Back</caption>
+			</image>
+			<image>
+				<file>other/drascula/drascula-4</file>
+				<caption>Drascula: The Vampire Strikes Back</caption>
+			</image>
+			<image>
+				<file>other/drascula/drascula-5</file>
+				<caption>Drascula: The Vampire Strikes Back</caption>
+			</image>
+		</game>
+		<game>
+			<name>Flight of the Amazon Queen</name>
+			<category>queen</category>
+			<image>
+				<file>other/queen/scummvm_2_3_0</file>
+				<caption>Flight of the Amazon Queen</caption>
+			</image>
+			<image>
+				<file>other/queen/scummvm_2_3_1</file>
+				<caption>Flight of the Amazon Queen (DOS Hebrew)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Future Wars: Time Travelers</name>
+			<category>fw</category>
+			<image>
+				<file>other/fw/scummvm_2_8_0</file>
+				<caption>Future Wars: Time Travellers</caption>
+			</image>
+			<image>
+				<file>other/fw/scummvm_2_8_1</file>
+				<caption>Future Wars: Time Travellers</caption>
+			</image>
+			<image>
+				<file>other/fw/scummvm_2_8_2</file>
+				<caption>Future Wars: Time Travellers</caption>
+			</image>
+			<image>
+				<file>other/fw/scummvm_2_8_3</file>
+				<caption>Future Wars: Time Travellers</caption>
+			</image>
+		</game>
+		<game>
+			<name>I Have no Mouth and I Must Scream</name>
+			<category>ihnm</category>
+			<image>
+				<file>other/ihnm/ihnm-1</file>
+				<caption>I Have no Mouth and I Must Scream (DOS)</caption>
+			</image>
+			<image>
+				<file>other/ihnm/ihnm-2</file>
+				<caption>I Have no Mouth and I Must Scream (DOS)</caption>
+			</image>
+			<image>
+				<file>other/ihnm/ihnm-3</file>
+				<caption>I Have no Mouth and I Must Scream (DOS)</caption>
+			</image>
+			<image>
+				<file>other/ihnm/ihnm-4</file>
+				<caption>I Have no Mouth and I Must Scream (DOS)</caption>
+			</image>
+			<image>
+				<file>other/ihnm/ihnm-5</file>
+				<caption>I Have no Mouth and I Must Scream (DOS)</caption>
+			</image>
+			<image>
+				<file>other/ihnm/ihnm-6</file>
+				<caption>I Have no Mouth and I Must Scream (DOS)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Inherit the Earth: Quest for the Orb</name>
+			<category>ite</category>
+			<image>
+				<file>other/ite/scummvm_2_2_0</file>
+				<caption>Inherit the Earth: Quest for the Orb</caption>
+			</image>
+			<image>
+				<file>other/ite/scummvm_2_2_1</file>
+				<caption>Inherit the Earth: Quest for the Orb (German)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Nippon Safes Inc.</name>
+			<category>nippon</category>
+			<image>
+				<file>other/nippon/nippon-0</file>
+				<caption>Nippon Safes Inc. (DOS)</caption>
+			</image>
+			<image>
+				<file>other/nippon/nippon-1</file>
+				<caption>Nippon Safes Inc. (DOS)</caption>
+			</image>
+			<image>
+				<file>other/nippon/nippon-2</file>
+				<caption>Nippon Safes Inc. (DOS)</caption>
+			</image>
+			<image>
+				<file>other/nippon/nippon-3</file>
+				<caption>Nippon Safes Inc. (DOS)</caption>
+			</image>
+		</game>
+		<game>
+			<name>The Legend of Kyrandia series</name>
+			<category>kyra</category>
+			<image>
+				<file>other/kyra/scummvm_2_6_0</file>
+				<caption>The Legend of Kyrandia (DOS)</caption>
+			</image>
+			<image>
+				<file>other/kyra/scummvm_2_6_1</file>
+				<caption>The Legend of Kyrandia (DOS)</caption>
+			</image>
+			<image>
+				<file>other/kyra/scummvm_2_6_2</file>
+				<caption>The Legend of Kyrandia (PC-98 Japanese)</caption>
+			</image>
+			<image>
+				<file>other/kyra/scummvm_2_6_3</file>
+				<caption>The Legend of Kyrandia (PC-98 Japanese)</caption>
+			</image>
+			<image>
+				<file>other/kyra/kyra2-1</file>
+				<caption>The Legend of Kyrandia: Book Two: Hand of Fate (DOS)</caption>
+			</image>
+			<image>
+				<file>other/kyra/kyra2-2</file>
+				<caption>The Legend of Kyrandia: Book Two: Hand of Fate (DOS)</caption>
+			</image>
+			<image>
+				<file>other/kyra/kyra2-de-1</file>
+				<caption>The Legend of Kyrandia: Book Two: Hand of Fate (DOS German)</caption>
+			</image>
+			<image>
+				<file>other/kyra/kyra2-fr-1</file>
+				<caption>The Legend of Kyrandia: Book Two: Hand of Fate (DOS French)</caption>
+			</image>
+			<image>
+				<file>other/kyra/kyra3-1</file>
+				<caption>The Legend of Kyrandia: Malcolm's Revenge (DOS)</caption>
+			</image>
+			<image>
+				<file>other/kyra/kyra3-2</file>
+				<caption>The Legend of Kyrandia: Malcolm's Revenge (DOS)</caption>
+			</image>
+			<image>
+				<file>other/kyra/kyra3-3</file>
+				<caption>The Legend of Kyrandia: Malcolm's Revenge (DOS)</caption>
+			</image>
+			<image>
+				<file>other/kyra/kyra3-4</file>
+				<caption>The Legend of Kyrandia: Malcolm's Revenge (DOS)</caption>
+			</image>
+			<image>
+				<file>other/kyra/kyra3-5</file>
+				<caption>The Legend of Kyrandia: Malcolm's Revenge (DOS)</caption>
+			</image>
+			<image>
+				<file>other/kyra/kyra3-de-1</file>
+				<caption>The Legend of Kyrandia: Malcolm's Revenge (DOS German)</caption>
+			</image>
+		</game>
+		<game>
+			<name>The 7th Guest</name>
+			<category>t7g</category>
+			<image>
+				<file>groovie/t7g-0</file>
+				<caption>The 7th Guest</caption>
+			</image>
+			<image>
+				<file>groovie/t7g-1</file>
+				<caption>The 7th Guest</caption>
+			</image>
+			<image>
+				<file>groovie/t7g-2</file>
+				<caption>The 7th Guest</caption>
+			</image>
+			<image>
+				<file>groovie/t7g-3</file>
+				<caption>The 7th Guest</caption>
+			</image>
+			<image>
+				<file>groovie/t7g-4</file>
+				<caption>The 7th Guest</caption>
+			</image>
+			<image>
+				<file>groovie/t7g-5</file>
+				<caption>The 7th Guest</caption>
+			</image>
+			<image>
+				<file>groovie/t7g-6</file>
+				<caption>The 7th Guest</caption>
+			</image>
+			<image>
+				<file>groovie/t7g-7</file>
+				<caption>The 7th Guest</caption>
+			</image>
+		</game>
+		<game>
+			<name>Touch&eacute;: The Adventures of the Fifth Musketeer</name>
+			<category>touche</category>
+			<image>
+				<file>other/touche/scummvm_2_10_0</file>
+				<caption>Touch&eacute;: The Adventures of the Fifth Musketeer</caption>
+			</image>
+			<image>
+				<file>other/touche/scummvm_2_10_1</file>
+				<caption>Touch&eacute;: The Adventures of the Fifth Musketeer</caption>
+			</image>
+			<image>
+				<file>other/touche/scummvm_2_10_2</file>
+				<caption>Touch&eacute;: The Adventures of the Fifth Musketeer</caption>
+			</image>
+			<image>
+				<file>other/touche/scummvm_2_10_3</file>
+				<caption>Touch&eacute;: The Adventures of the Fifth Musketeer</caption>
+			</image>
+			<image>
+				<file>other/touche/scummvm_2_10_4</file>
+				<caption>Touch&eacute;: The Adventures of the Fifth Musketeer</caption>
+			</image>
+			<image>
+				<file>other/touche/scummvm_2_10_5</file>
+				<caption>Touch&eacute;: The Adventures of the Fifth Musketeer</caption>
+			</image>
+		</game>
+	</group>
+	<group>
+		<title>Humongous Entertainment games</title>
+		<category>he</category>
+		<game>
+			<name>Big Thinkers series</name>
+			<category>thinkers</category>
+			<image>
+				<file>he/thinkers/scummvm_1_0_0</file>
+				<caption>Big Thinkers Kindergarten</caption>
+			</image>
+			<image>
+				<file>he/thinkers/scummvm_1_0_1</file>
+				<caption>Big Thinkers Kindergarten</caption>
+			</image>
+			<image>
+				<file>he/thinkers/scummvm_1_0_2</file>
+				<caption>Big Thinkers First Grade</caption>
+			</image>
+			<image>
+				<file>he/thinkers/scummvm_1_0_3</file>
+				<caption>Big Thinkers First Grade</caption>
+			</image>
+		</game>
+		<game>
+			<name>Fatty Bear series</name>
+			<category>fbear</category>
+			<image>
+				<file>he/fbear/scummvm_1_4_0</file>
+				<caption>Fatty Bear's Birthday Surprise (Win32)</caption>
+			</image>
+			<image>
+				<file>he/fbear/scummvm_1_4_1</file>
+				<caption>Fatty Bear's Birthday Surprise (Win32)</caption>
+			</image>
+			<image>
+				<file>he/fbear/fbear-2</file>
+				<caption>Fatty Bear's Birthday Surprise (DOS)</caption>
+			</image>
+			<image>
+				<file>he/fbear/fbear-3</file>
+				<caption>Fatty Bear's Birthday Surprise (DOS)</caption>
+			</image>
+			<image>
+				<file>he/fbear/fbear-4</file>
+				<caption>Fatty Bear's Birthday Surprise (DOS)</caption>
+			</image>
+			<image>
+				<file>he/fbear/fbear-5</file>
+				<caption>Fatty Bear's Birthday Surprise (DOS)</caption>
+			</image>
+			<image>
+				<file>he/fbear/scummvm_1_4_2</file>
+				<caption>Fatty Bear's Fun Pack</caption>
+			</image>
+			<image>
+				<file>he/fbear/scummvm_1_4_3</file>
+				<caption>Fatty Bear's Fun Pack</caption>
+			</image>
+		</game>
+		<game>
+			<name>Freddi Fish series</name>
+			<category>ffish</category>
+			<image>
+				<file>he/ffish/scummvm_1_6_0</file>
+				<caption>Freddi Fish 1: The Case of the Missing Kelp Seeds</caption>
+			</image>
+			<image>
+				<file>he/ffish/scummvm_1_6_1</file>
+				<caption>Freddi Fish 1: The Case of the Missing Kelp Seeds</caption>
+			</image>
+			<image>
+				<file>he/ffish/freddi1-2</file>
+				<caption>Freddi Fish 1: The Case of the Missing Kelp Seeds</caption>
+			</image>
+			<image>
+				<file>he/ffish/freddi1-3</file>
+				<caption>Freddi Fish 1: The Case of the Missing Kelp Seeds</caption>
+			</image>
+			<image>
+				<file>he/ffish/freddi1-4</file>
+				<caption>Freddi Fish 1: The Case of the Missing Kelp Seeds</caption>
+			</image>
+			<image>
+				<file>he/ffish/freddi1-5</file>
+				<caption>Freddi Fish 1: The Case of the Missing Kelp Seeds</caption>
+			</image>
+			<image>
+				<file>he/ffish/scummvm_1_6_2</file>
+				<caption>Freddi Fish 2: The Case of the Haunted Schoolhouse</caption>
+			</image>
+			<image>
+				<file>he/ffish/scummvm_1_6_3</file>
+				<caption>Freddi Fish 2: The Case of the Haunted Schoolhouse</caption>
+			</image>
+			<image>
+				<file>he/ffish/freddi2-2</file>
+				<caption>Freddi Fish 2: The Case of the Haunted Schoolhouse</caption>
+			</image>
+			<image>
+				<file>he/ffish/freddi2-3</file>
+				<caption>Freddi Fish 2: The Case of the Haunted Schoolhouse</caption>
+			</image>
+			<image>
+				<file>he/ffish/freddi2-4</file>
+				<caption>Freddi Fish 2: The Case of the Haunted Schoolhouse</caption>
+			</image>
+			<image>
+				<file>he/ffish/freddi2-5</file>
+				<caption>Freddi Fish 2: The Case of the Haunted Schoolhouse</caption>
+			</image>
+			<image>
+				<file>he/ffish/scummvm_1_6_4</file>
+				<caption>Freddi Fish 3: The Case of the Stolen Conch Shell</caption>
+			</image>
+			<image>
+				<file>he/ffish/scummvm_1_6_5</file>
+				<caption>Freddi Fish 3: The Case of the Stolen Conch Shell</caption>
+			</image>
+			<image>
+				<file>he/ffish/freddi3-2</file>
+				<caption>Freddi Fish 3: The Case of the Stolen Conch Shell</caption>
+			</image>
+			<image>
+				<file>he/ffish/freddi3-3</file>
+				<caption>Freddi Fish 3: The Case of the Stolen Conch Shell</caption>
+			</image>
+			<image>
+				<file>he/ffish/freddi3-4</file>
+				<caption>Freddi Fish 3: The Case of the Stolen Conch Shell</caption>
+			</image>
+			<image>
+				<file>he/ffish/freddi3-5</file>
+				<caption>Freddi Fish 3: The Case of the Stolen Conch Shell</caption>
+			</image>
+			<image>
+				<file>he/ffish/scummvm_1_6_6</file>
+				<caption>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch</caption>
+			</image>
+			<image>
+				<file>he/ffish/scummvm_1_6_7</file>
+				<caption>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch</caption>
+			</image>
+			<image>
+				<file>he/ffish/freddi4-2</file>
+				<caption>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch</caption>
+			</image>
+			<image>
+				<file>he/ffish/freddi4-3</file>
+				<caption>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch</caption>
+			</image>
+			<image>
+				<file>he/ffish/freddi4-4</file>
+				<caption>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch</caption>
+			</image>
+			<image>
+				<file>he/ffish/freddi4-5</file>
+				<caption>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch</caption>
+			</image>
+			<image>
+				<file>he/ffish/scummvm_1_6_8</file>
+				<caption>Freddi Fish and Luther's Maze Madness</caption>
+			</image>
+			<image>
+				<file>he/ffish/scummvm_1_6_9</file>
+				<caption>Freddi Fish and Luther's Maze Madness</caption>
+			</image>
+			<image>
+				<file>he/ffish/scummvm_1_6_10</file>
+				<caption>Freddi Fish and Luther's Water Worries</caption>
+			</image>
+			<image>
+				<file>he/ffish/scummvm_1_6_11</file>
+				<caption>Freddi Fish and Luther's Water Worries</caption>
+			</image>
+		</game>
+		<game>
+			<name>Junior Field Trips series</name>
+			<category>field</category>
+			<image>
+				<file>he/field/scummvm_1_1_0</file>
+				<caption>Let's Explore the Airport with Buzzy</caption>
+			</image>
+			<image>
+				<file>he/field/scummvm_1_1_1</file>
+				<caption>Let's Explore the Airport with Buzzy</caption>
+			</image>
+			<image>
+				<file>he/field/scummvm_1_1_2</file>
+				<caption>Let's Explore the Farm with Buzzy</caption>
+			</image>
+			<image>
+				<file>he/field/scummvm_1_1_3</file>
+				<caption>Let's Explore the Farm with Buzzy</caption>
+			</image>
+			<image>
+				<file>he/field/scummvm_1_1_4</file>
+				<caption>Let's Explore the Jungle with Buzzy</caption>
+			</image>
+			<image>
+				<file>he/field/scummvm_1_1_5</file>
+				<caption>Let's Explore the Jungle with Buzzy</caption>
+			</image>
+		</game>
+		<game>
+			<name>Junior Sports series</name>
+			<category>sports</category>
+			<image>
+				<file>he/sports/scummvm_1_5_0</file>
+				<caption>Backyard Football</caption>
+			</image>
+			<image>
+				<file>he/sports/scummvm_1_5_1</file>
+				<caption>Backyard Football</caption>
+			</image>
+		</game>
+		<game>
+			<name>Pajama Sam series</name>
+			<category>pajama</category>
+			<image>
+				<file>he/pajama/scummvm_1_7_0</file>
+				<caption>Pajama Sam 1: No Need to Hide When It's Dark Outside</caption>
+			</image>
+			<image>
+				<file>he/pajama/scummvm_1_7_1</file>
+				<caption>Pajama Sam 1: No Need to Hide When It's Dark Outside</caption>
+			</image>
+			<image>
+				<file>he/pajama/pajama1-2</file>
+				<caption>Pajama Sam 1: No Need to Hide When It's Dark Outside</caption>
+			</image>
+			<image>
+				<file>he/pajama/pajama1-3</file>
+				<caption>Pajama Sam 1: No Need to Hide When It's Dark Outside</caption>
+			</image>
+			<image>
+				<file>he/pajama/pajama1-4</file>
+				<caption>Pajama Sam 1: No Need to Hide When It's Dark Outside</caption>
+			</image>
+			<image>
+				<file>he/pajama/pajama1-5</file>
+				<caption>Pajama Sam 1: No Need to Hide When It's Dark Outside</caption>
+			</image>
+			<image>
+				<file>he/pajama/scummvm_1_7_2</file>
+				<caption>Pajama Sam 2: Thunder and Lightning Aren't so Frightening</caption>
+			</image>
+			<image>
+				<file>he/pajama/scummvm_1_7_3</file>
+				<caption>Pajama Sam 2: Thunder and Lightning Aren't so Frightening</caption>
+			</image>
+			<image>
+				<file>he/pajama/pajama2-2</file>
+				<caption>Pajama Sam 2: Thunder and Lightning Aren't so Frightening</caption>
+			</image>
+			<image>
+				<file>he/pajama/pajama2-3</file>
+				<caption>Pajama Sam 2: Thunder and Lightning Aren't so Frightening</caption>
+			</image>
+			<image>
+				<file>he/pajama/pajama2-4</file>
+				<caption>Pajama Sam 2: Thunder and Lightning Aren't so Frightening</caption>
+			</image>
+			<image>
+				<file>he/pajama/pajama2-5</file>
+				<caption>Pajama Sam 2: Thunder and Lightning Aren't so Frightening</caption>
+			</image>
+			<image>
+				<file>he/pajama/scummvm_1_7_4</file>
+				<caption>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet</caption>
+			</image>
+			<image>
+				<file>he/pajama/scummvm_1_7_5</file>
+				<caption>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet</caption>
+			</image>
+			<image>
+				<file>he/pajama/pajama3-2</file>
+				<caption>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet</caption>
+			</image>
+			<image>
+				<file>he/pajama/pajama3-3</file>
+				<caption>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet</caption>
+			</image>
+			<image>
+				<file>he/pajama/pajama3-4</file>
+				<caption>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet</caption>
+			</image>
+			<image>
+				<file>he/pajama/pajama3-5</file>
+				<caption>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet</caption>
+			</image>
+			<image>
+				<file>he/pajama/scummvm_1_7_6</file>
+				<caption>Pajama Sam's Sock Works</caption>
+			</image>
+			<image>
+				<file>he/pajama/scummvm_1_7_7</file>
+				<caption>Pajama Sam's Sock Works</caption>
+			</image>
+		</game>
+		<game>
+			<name>Putt-Putt series</name>
+			<category>puttputt</category>
+			<image>
+				<file>he/puttputt/scummvm_1_8_0</file>
+				<caption>Putt-Putt Joins the Parade (DOS)</caption>
+			</image>
+			<image>
+				<file>he/puttputt/scummvm_1_8_1</file>
+				<caption>Putt-Putt Joins the Parade (Win32)</caption>
+			</image>
+			<image>
+				<file>he/puttputt/puttputt-2</file>
+				<caption>Putt-Putt Joins the Parade (3DO)</caption>
+			</image>
+			<image>
+				<file>he/puttputt/puttputt-3</file>
+				<caption>Putt-Putt Joins the Parade (3DO)</caption>
+			</image>
+			<image>
+				<file>he/puttputt/puttputt-4</file>
+				<caption>Putt-Putt Joins the Parade (3DO)</caption>
+			</image>
+			<image>
+				<file>he/puttputt/puttputt-5</file>
+				<caption>Putt-Putt Joins the Parade (3DO)</caption>
+			</image>
+			<image>
+				<file>he/puttputt/scummvm_1_8_2</file>
+				<caption>Putt-Putt Goes to the Moon (DOS)</caption>
+			</image>
+			<image>
+				<file>he/puttputt/scummvm_1_8_3</file>
+				<caption>Putt-Putt Goes to the Moon (Win32)</caption>
+			</image>
+			<image>
+				<file>he/puttputt/puttmoon-2</file>
+				<caption>Putt-Putt Goes to the Moon (3DO)</caption>
+			</image>
+			<image>
+				<file>he/puttputt/puttmoon-3</file>
+				<caption>Putt-Putt Goes to the Moon (3DO)</caption>
+			</image>
+			<image>
+				<file>he/puttputt/puttmoon-4</file>
+				<caption>Putt-Putt Goes to the Moon (3DO)</caption>
+			</image>
+			<image>
+				<file>he/puttputt/puttmoon-5</file>
+				<caption>Putt-Putt Goes to the Moon (3DO)</caption>
+			</image>
+			<image>
+				<file>he/puttputt/scummvm_1_8_4</file>
+				<caption>Putt-Putt Enters the Race</caption>
+			</image>
+			<image>
+				<file>he/puttputt/scummvm_1_8_5</file>
+				<caption>Putt-Putt Enters the Race</caption>
+			</image>
+			<image>
+				<file>he/puttputt/puttrace-2</file>
+				<caption>Putt-Putt Enters the Race</caption>
+			</image>
+			<image>
+				<file>he/puttputt/puttrace-3</file>
+				<caption>Putt-Putt Enters the Race</caption>
+			</image>
+			<image>
+				<file>he/puttputt/puttrace-4</file>
+				<caption>Putt-Putt Enters the Race</caption>
+			</image>
+			<image>
+				<file>he/puttputt/puttrace-5</file>
+				<caption>Putt-Putt Enters the Race</caption>
+			</image>
+			<image>
+				<file>he/puttputt/scummvm_1_8_6</file>
+				<caption>Putt-Putt Joins the Circus</caption>
+			</image>
+			<image>
+				<file>he/puttputt/scummvm_1_8_7</file>
+				<caption>Putt-Putt Joins the Circus</caption>
+			</image>
+			<image>
+				<file>he/puttputt/puttcircus-2</file>
+				<caption>Putt-Putt Joins the Circus</caption>
+			</image>
+			<image>
+				<file>he/puttputt/puttcircus-3</file>
+				<caption>Putt-Putt Joins the Circus</caption>
+			</image>
+			<image>
+				<file>he/puttputt/puttcircus-4</file>
+				<caption>Putt-Putt Joins the Circus</caption>
+			</image>
+			<image>
+				<file>he/puttputt/puttcircus-5</file>
+				<caption>Putt-Putt Joins the Circus</caption>
+			</image>
+			<image>
+				<file>he/puttputt/scummvm_1_8_8</file>
+				<caption>Putt-Putt Saves the Zoo</caption>
+			</image>
+			<image>
+				<file>he/puttputt/scummvm_1_8_9</file>
+				<caption>Putt-Putt Saves the Zoo</caption>
+			</image>
+			<image>
+				<file>he/puttputt/puttzoo-2</file>
+				<caption>Putt-Putt Saves the Zoo</caption>
+			</image>
+			<image>
+				<file>he/puttputt/puttzoo-3</file>
+				<caption>Putt-Putt Saves the Zoo</caption>
+			</image>
+			<image>
+				<file>he/puttputt/puttzoo-4</file>
+				<caption>Putt-Putt Saves the Zoo</caption>
+			</image>
+			<image>
+				<file>he/puttputt/puttzoo-5</file>
+				<caption>Putt-Putt Saves the Zoo</caption>
+			</image>
+			<image>
+				<file>he/puttputt/scummvm_1_8_10</file>
+				<caption>Putt-Putt Travels Through Time</caption>
+			</image>
+			<image>
+				<file>he/puttputt/scummvm_1_8_11</file>
+				<caption>Putt-Putt Travels Through Time</caption>
+			</image>
+			<image>
+				<file>he/puttputt/putttime-2</file>
+				<caption>Putt-Putt Travels Through Time</caption>
+			</image>
+			<image>
+				<file>he/puttputt/putttime-3</file>
+				<caption>Putt-Putt Travels Through Time</caption>
+			</image>
+			<image>
+				<file>he/puttputt/putttime-4</file>
+				<caption>Putt-Putt Travels Through Time</caption>
+			</image>
+			<image>
+				<file>he/puttputt/putttime-5</file>
+				<caption>Putt-Putt Travels Through Time</caption>
+			</image>
+			<image>
+				<file>he/puttputt/scummvm_1_8_12</file>
+				<caption>Putt-Putt and Pep's Balloon-O-Rama</caption>
+			</image>
+			<image>
+				<file>he/puttputt/scummvm_1_8_13</file>
+				<caption>Putt-Putt and Pep's Balloon-O-Rama</caption>
+			</image>
+			<image>
+				<file>he/puttputt/scummvm_1_8_14</file>
+				<caption>Putt-Putt and Pep's Dog on a Stick</caption>
+			</image>
+			<image>
+				<file>he/puttputt/scummvm_1_8_15</file>
+				<caption>Putt-Putt and Pep's Dog on a Stick</caption>
+			</image>
+			<image>
+				<file>he/puttputt/scummvm_1_8_16</file>
+				<caption>Putt-Putt's Fun Pack</caption>
+			</image>
+			<image>
+				<file>he/puttputt/scummvm_1_8_17</file>
+				<caption>Putt-Putt's Fun Pack</caption>
+			</image>
+			<image>
+				<file>he/puttputt/scummvm_1_8_18</file>
+				<caption>Putt-Putt &amp; Fatty Bear's Activity Pack</caption>
+			</image>
+			<image>
+				<file>he/puttputt/scummvm_1_8_19</file>
+				<caption>Putt-Putt &amp; Fatty Bear's Activity Pack</caption>
+			</image>
+		</game>
+		<game>
+			<name>Spy Fox series</name>
+			<category>spyfox</category>
+			<image>
+				<file>he/spyfox/scummvm_1_3_0</file>
+				<caption>Spy Fox 1: Dry Cereal</caption>
+			</image>
+			<image>
+				<file>he/spyfox/scummvm_1_3_1</file>
+				<caption>Spy Fox 1: Dry Cereal</caption>
+			</image>
+			<image>
+				<file>he/spyfox/spyfox1-2</file>
+				<caption>Spy Fox 1: Dry Cereal</caption>
+			</image>
+			<image>
+				<file>he/spyfox/spyfox1-3</file>
+				<caption>Spy Fox 1: Dry Cereal</caption>
+			</image>
+			<image>
+				<file>he/spyfox/spyfox1-4</file>
+				<caption>Spy Fox 1: Dry Cereal</caption>
+			</image>
+			<image>
+				<file>he/spyfox/spyfox1-5</file>
+				<caption>Spy Fox 1: Dry Cereal</caption>
+			</image>
+			<image>
+				<file>he/spyfox/scummvm_1_3_2</file>
+				<caption>Spy Fox 2: Some Assembly Required</caption>
+			</image>
+			<image>
+				<file>he/spyfox/scummvm_1_3_3</file>
+				<caption>Spy Fox 2: Some Assembly Required</caption>
+			</image>
+			<image>
+				<file>he/spyfox/spyfox2-2</file>
+				<caption>Spy Fox 2: Some Assembly Required</caption>
+			</image>
+			<image>
+				<file>he/spyfox/spyfox2-3</file>
+				<caption>Spy Fox 2: Some Assembly Required</caption>
+			</image>
+			<image>
+				<file>he/spyfox/spyfox2-4</file>
+				<caption>Spy Fox 2: Some Assembly Required</caption>
+			</image>
+			<image>
+				<file>he/spyfox/spyfox2-5</file>
+				<caption>Spy Fox 2: Some Assembly Required</caption>
+			</image>
+			<image>
+				<file>he/spyfox/scummvm_1_3_4</file>
+				<caption>Spy Fox in Cheese Chase</caption>
+			</image>
+			<image>
+				<file>he/spyfox/scummvm_1_3_5</file>
+				<caption>Spy Fox in Cheese Chase</caption>
+			</image>
+			<image>
+				<file>he/spyfox/scummvm_1_3_6</file>
+				<caption>Spy Fox in Hold the Mustard</caption>
+			</image>
+			<image>
+				<file>he/spyfox/scummvm_1_3_7</file>
+				<caption>Spy Fox in Hold the Mustard</caption>
+			</image>
+		</game>
+	</group>
+</screenshots>

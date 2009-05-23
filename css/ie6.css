@@ -1,0 +1,31 @@
+.navigation ul {
+	padding-left: 0em;
+}
+
+#container {
+	height: auto !important;
+	height: 1080px;
+}
+
+#footer {
+	bottom: -1px;
+}
+
+.rbcontent {
+	overflow: visible;
+}
+
+.box .intro {
+	padding: 10px 0;
+	width: 100%;
+}
+.box .intro .text {
+	padding-right: 5px;
+}
+
+.box .head a:hover {
+	color: rgb(255, 255, 255);
+}
+.box .content {
+	width: auto;
+}

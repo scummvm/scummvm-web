@@ -1,0 +1,340 @@
+body {
+	font: normal 8pt/normal verdana, tahoma, arial, helvetica, sans-serif;
+	background: rgb(239, 196, 24) url('../images/body-bg.png') repeat-x scroll 0 0;
+	margin-top: 0px;
+}
+
+#header {
+	background: transparent url('../images/bg-upper.gif') repeat scroll 0 0;
+	height: 118px;
+	margin: 0 auto;
+	min-width: 780px;
+	width: 90%;
+}
+
+#header span {
+	float: right;
+	width: 483px;
+}
+
+#header span img {
+	display: block;
+}
+
+#container {
+	background: rgb(251, 241, 206);
+	margin: 0;
+	margin: 0px auto;
+	min-height: 1080px;
+	min-width: 780px;
+	position: relative;
+	width: 90%;
+}
+
+#menu {
+	right: -11px;
+	position: absolute;
+	top: 0px;
+	width: 145px;
+}
+
+#menu .monkey {
+	border: 0px;
+	padding: 0px;
+	position: relative;
+	top: -8px;
+}
+
+#content {
+	background: transparent url('../images/content-bg.jpg') no-repeat scroll top left;
+	margin-right: 145px;
+	padding: 0px 0px 54px 8px;
+}
+
+#footer {
+	background: url('../images/content-left-bottom.gif') no-repeat scroll bottom left;
+	bottom: 0px;
+	height: 32px;
+	margin: 0px;
+	padding: 10px;
+	position: absolute;
+	width: 85%;
+	text-align: center;
+}
+
+#footer a {
+	float: left;
+	width: 16%;
+}
+
+#legal {
+	color: rgb(185, 151, 14);
+	margin: 25px auto 5px auto;
+	text-align: right;
+	width: 90%;
+}
+
+#legal a {
+	color: inherit;
+}
+
+#legal p {
+	margin-right: 120px;
+	padding-left: 2em;
+}
+
+.tentacle {
+	position: absolute;
+	bottom: -84px;
+	right: -28px;
+}
+
+
+.box {
+	background: rgb(231, 231, 231);
+	border: 1px solid rgb(192, 192, 192);
+	border-top: 0px;
+	margin-bottom: 8px;
+}
+.box .head {
+	background: rgb(168, 39, 9) url('../images/par-head.png') repeat-x;
+	border: 0px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	margin: 0px;
+	padding: 4px;
+}
+.box .head a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+.box .intro {
+	background: rgb(192, 192, 192);
+	margin-bottom: 1em;
+	padding: 4px 8px 4px 5px;
+}
+.box .intro .navigation {
+	float: left;
+	width: 35%;
+}
+.box .intro .text {
+	/*float: right;*/
+	padding: 1em 0em;
+	margin-left: 35%;
+	/*width: 58%;*/
+}
+.box .content {
+	margin: 0px;
+	padding: 8px;
+}
+.box .subhead {
+	background: transparent url('../images/subhead-dots.gif') repeat-x bottom;
+	color: rgb(168, 39, 9);
+	font-weight: bold;
+	line-height: 300%;
+	padding-left: 5px;
+	margin: 0px 15px;
+}
+.box .subhead-content {
+	margin: 0px;
+	padding: 10px 20px;
+}
+
+.navigation {
+	padding: 0.5em 2em;
+}
+
+.navigation h2 {
+	background: transparent url('../images/nav-dots.gif')  repeat-x bottom center;
+	font-size: 8pt;
+	line-height: 2.0;
+}
+
+.navigation ul {
+	padding-left: 2.0em;
+}
+
+.navigation li {
+	/*list-style: none;*/
+	list-style-image: url('../images/bullet-section-small.gif');
+	margin: 0.5em auto;
+}
+
+/*.navigation li img {
+	margin-right: 1em;
+}*/
+
+.navigation a {
+	color: rgb(64, 106, 4);
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: rgb(255, 0, 0);
+}
+
+
+.shadow-container {
+	left: 1px;
+	position: relative;
+	top: 1px;
+}
+
+.shadow-text {
+	left: -2px;
+	position: absolute;
+	top: -2px;
+}
+
+.shadow-text-em {
+	left: -2px;
+	padding-left: 1em;
+	position: absolute;
+	top: -2px;
+}
+
+a {
+	color: rgb(170, 51, 51);
+	font-size: inherit;
+}
+
+a:hover {
+	color: rgb(255, 0, 0);
+	text-decoration: none;
+}
+
+a img {
+	border: 0;
+}
+
+ul.downloads {
+	margin: 0;
+	padding: 0;
+}
+
+ul.downloads li.file {
+	list-style-type: none;
+	padding: 3px;
+}
+
+ul.downloads img {
+	height: 24px;
+	vertical-align: middle;
+	width: 24px;
+}
+
+
+
+
+
+/* Kudos to http://www.redmelon.net/tstme/4corners/ */
+.rbtop div  {
+	background: url('../images/header-left-corner.gif') no-repeat top left;
+}
+.rbtop p {
+	background: url('../images/header-background.gif') repeat-x top center;
+	display: block;
+	color: rgb(53, 106, 2);
+	font: bold large/1.4 "Trebuchet MS", Verdana, Tahoma, Sans-Serif;
+	height: 28px;
+	margin: 0px 8px;
+	padding-left: 1em;
+}
+.rbtop {
+	background: url('../images/header-right-corner.gif') no-repeat top right;
+}
+.rbbot div {
+	background: url('../images/left-low-corner.gif') no-repeat bottom left;
+}
+.rbbot {
+	background: url('../images/right-low-corner.gif') no-repeat bottom right;
+}
+.rbbot p {
+	background: #fff;
+	border-bottom: solid 1px rgb(235, 177, 118);
+	font-size: 1px;
+	height: 7px;
+	margin: 0px 8px;
+}
+
+.rbtop,
+.rbtop div {
+	height: 28px;
+	width: 100%;
+}
+
+.rbbot,
+.rbbot div {
+	height: 8px;
+	width: 100%;
+}
+
+.rbcontent  {
+	background: #fff;
+	border-left: 1px solid rgb(235, 177, 118);
+	border-right: 1px solid rgb(235, 177, 118);
+	height: 100%;
+	margin: 0px;
+	overflow: hidden;
+	padding-top: 10px;
+}
+.rbcontent .rbwrapper {
+	display: block;
+	padding: 0px 15px;
+}
+.rbroundbox {
+	margin: auto;
+}
+
+
+.document-time,
+.news-author {
+	color: rgb(119, 119, 119);
+	font-style: italic;
+	margin: 0px 0px -8px 0px;
+	position: relative;
+	text-align: right;
+	top: -8px;
+}
+
+.news-date {
+	font-weight: normal;
+}
+
+
+span.green {
+	color: rgb(133, 177, 50);
+}
+
+span.red {
+	color: rgb(255, 0, 0);
+}
+
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.float_clear {
+	clear: both;
+}
+.float_clear_left {
+	clear: left;
+}
+.float_clear_right {
+	clear: right;
+}
+
+.spacing {
+	clear: both;
+	font-size: 0px;
+	height: 0px;
+}
+
+
+.bottom-link a {
+	/*color: #a82709;*/
+	font-weight: bold;
+	text-decoration: none;
+}

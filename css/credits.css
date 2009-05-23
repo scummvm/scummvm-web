@@ -1,0 +1,29 @@
+p.credits,
+table.credits {
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+table.credits {
+	margin-bottom: 1em;
+}
+
+table.credits caption {
+	font-weight: bold;
+	margin-left: -2em;
+	text-align: left;
+}
+
+.credits .name {
+	padding: 2px;
+	width: 13em;
+}
+
+.credits .alias {
+	text-align: left;
+	width: 10em;
+}
+
+.box .subhead-content {
+	padding: 5px 20px;
+}

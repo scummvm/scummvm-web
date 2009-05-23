@@ -1,0 +1,26 @@
+{* Screenshot viewer, link to next/prev screenshots if any. *}
+{assign var='files' value=$screenshot->getFiles()}
+
+<div class="box">
+	<div class="head">Screenshot Gallery</div>
+	<div class="viewer">
+		<div class="screenshot">
+			<img src="{$smarty.const.DIR_SCREENSHOTS}/{$files[$num].filename}-full.png" alt="{$files[$num].caption}">
+			<div class="caption">{$files[$num].caption}</div>
+		</div>
+		<div>
+			{if $num > 0}
+				<a href="screenshots/{$category}/{$screenshot->getCategory()}/{$num}/" class="float_left">
+					Previous
+				</a>
+			{/if}
+			{if $num < ($files|@count) - 1}
+				<a href="screenshots/{$category}/{$screenshot->getCategory()}/{$num+2}/" class="float_right">
+					Next
+				</a>
+			{/if}
+		</div>
+		<div class="spacing"></div>
+	</div>
+	<a href="screenshots/{$category}/{$screenshot->getCategory()}/">Back</a>
+</div>

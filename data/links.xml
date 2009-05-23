@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<external_links xmlns:h="http://www.w3.org/TR/html4/">
+	<group>
+		<name>Official ports</name>
+		<description>Some additional links for ports that have been merged into our SVN</description>
+		<link>
+			<name>PocketScumm port</name>
+			<url>http://arisme.free.fr/PocketScumm/index.php</url>
+			<description>Information about the PocketScumm port.</description>
+		</link>
+		<link>
+			<name>PalmOS port</name>
+			<url>http://capers.free.fr/ScummVM/index.php</url>
+			<description>News and information about the PalmOS port.</description>
+		</link>
+		<link>
+			<name>GP32 port</name>
+			<url>http://www.distant-earth.co.uk/</url>
+			<description>Information about the GP32 port.</description>
+		</link>
+		<link>
+			<name>DS port</name>
+			<url>http://scummvm.drunkencoders.com/</url>
+			<description>Information about the Nintendo DS port.</description>
+		</link>
+	</group>
+	<group>
+		<name>Unofficial ports</name>
+		<description>There are a few unofficial ports of ScummVM floating around. Usually we prefer to merge any ports into our official SVN, but for the following this has not (yet) happened for various reasons. Note that the ScummVM team does not endorse any of these ports. We did not test them, and we do not guarantee that they work properly. <h:span class="red">Use at your own risk!</h:span></description>
+		<link>
+			<name>Amiga Port</name>
+			<url>http://people.freenet.de/uweryssel/scumm_en.html</url>
+			<description>Homepage of the 68k/WarpOS port of ScummVM for the Amiga. Requires 020+ and AGA chipset or RTG Zorro card.</description>
+		</link>
+		<link>
+			<name>Amiga Archives</name>
+			<url>http://www.mountmonkey.com/eng_index.html</url>
+			<description>An archive of older Amiga ports of ScummVM.</description>
+		</link>
+		<link>
+			<name>Nokia 770 port</name>
+			<url>http://770.fs-security.com/scummvm/</url>
+			<description>A port to Nokia 770.</description>
+		</link>
+		<link>
+			<name>RISC OS port</name>
+			<url>http://www.riscos.info/unix/indexes/emulation.html#scummvm</url>
+			<description>A port to RISC OS.</description>
+		</link>
+		<link>
+			<name>Old RISC OS port</name>
+			<url>http://www.acornemus.freeserve.co.uk/scumm/scu_info.htm</url>
+			<description>Another (older) port to RISC OS. It's extremly dated (based on ScummVM 0.1.0).</description>
+		</link>
+	</group>
+	<group>
+		<name>Libraries &amp; Technologies</name>
+		<description>The following lists some libraries and technologies ScummVM makes use of (depending on which system your run it and which configuration is chosen).</description>
+		<link>
+			<name>SDL</name>
+			<url>http://www.libsdl.org/</url>
+			<description>SDL (Simple DirectMedia Layer) is a cross-platform multimedia library, and used by the primary backend of ScummVM.</description>
+		</link>
+		<link>
+			<name>MAD</name>
+			<url>http://www.underbit.com/products/mad/</url>
+			<description>MAD is a high-quality MPEG (MP3) audio decoder. ScummVM optionally supports playback of CD tracks and other audio data encoded using MP3.</description>
+		</link>
+		<link>
+			<name>Ogg Vorbis</name>
+			<url>http://www.xiph.org/ogg/vorbis/</url>
+			<description>Ogg Vorbis is a fully open, non-proprietary, patent-and-royalty-free, general-purpose compressed audio format. ScummVM optionally supports playback of CD tracks and other audio data encoded using Ogg Vorbis.</description>
+		</link>
+		<link>
+			<name>FLAC</name>
+			<url>http://flac.sourceforge.net/</url>
+			<description>FLAC stands for Free Lossless Audio Codec. Grossly oversimplified, FLAC is similar to MP3, but lossless, meaning that audio is compressed in FLAC without any loss in quality. ScummVM optionally supports playback of CD tracks and other audio data encoded using FLAC.</description>
+		</link>
+		<link>
+			<name>libmpeg2</name>
+			<url>http://libmpeg2.sourceforge.net/</url>
+			<description>libmpeg2 is a free library for decoding mpeg-2 and mpeg-1 video streams. ScummVM optionally supports playback of converted cutscenes in the Broken Sword games using libmpeg2.</description>
+		</link>
+		<link>
+			<name>Scale2x/3x/4x</name>
+			<url>http://scale2x.sourceforge.net/</url>
+			<description>Scale2x is a real-time graphics effect able to increase the size of small bitmaps guessing the missing pixels without blurring the images. ScummVM optionally supports enlarging the game graphics using this scaler.</description>
+		</link>
+		<link>
+			<name>2xSaI</name>
+			<url>http://elektron.its.tudelft.nl/~dalikifa/</url>
+			<description>2xSaI is another real-time graphics scaler, and one of the oldest out there, too. ScummVM optionally supports enlarging the game graphics using this scaler.</description>
+		</link>
+		<link>
+			<name>hq2x/3x/4x</name>
+			<url>http://www.hiend3d.com/hq3x.html</url>
+			<description>The hq2x/3x/4x filters form a family of fast, high-quality magnification filters. ScummVM optionally supports enlarging the game graphics using these scaler.</description>
+		</link>
+	</group>
+	<group>
+		<name>Other sites of interest</name>
+		<description>The following are links to sites that provide news and help on retro-gaming or are otherwise of interest.</description>
+		<link>
+			<name>VOGONS :: Very Old Games On New Systems</name>
+			<url>http://vogons.zetafleet.com/</url>
+			<description>VOGONS is a large forum site, offering supports and tips for people who need help running older classic games on their modern computers and operating systems. If you want to play a game that ScummVM doesn't support, this is the place to ask for help!</description>
+		</link>
+		<link>
+			<name>MixNMojo :: The Purple LucasArts Fan Site</name>
+			<url>http://www.mixnmojo.com/</url>
+			<description>MixNmojo is one of the longest running, and definitely largest, LucasArts sites out there. If your looking for information, hints, news... or even just a place to hang... with hosted and partnered sites catering for everything, the International House of Mojo should be your very first stop.</description>
+		</link>
+		<link>
+			<name>DoubleFine :: Where taking over the word is a news scripts job</name>
+			<url>http://www.doublefine.com/news.htm</url>
+			<description>DoubleFine is the company of the lovable Tim Schafer, the genius behind some of the best of the worst gags and games in LucasArts history. Go buy Psychonauts, their new game. Because if you don't, the rats will get you and eat your family, computer and house. And poop everywhere.</description>
+		</link>
+		<link>
+			<name>Revolution Software</name>
+			<url>http://www.revolution.co.uk/</url>
+			<description>Revolution Software are the people behind such wonderful titles as Beneath a Steel Sky and the Broken Sword series of games. Revolution have provided us with the source code to some of these games so that we can add support for them, and allowed us to release BASS as freeware. Thanks guys!</description>
+		</link>
+		<link>
+			<name>Grumpy Gamer</name>
+			<url>http://grumpygamer.com/</url>
+			<description>The personal blog of Ron Gilbert, the man behind many great LucasArts adventures, like Maniac Mansion and Monkey Island.</description>
+		</link>
+	</group>
+	<group>
+		<name>Other classic game engine open source projects</name>
+		<description>The following are links to other classic game engine open source projects similar to ScummVM. Know any other classic game projects that should be linked here? <h:a href="http://sourceforge.net/sendmessage.php?touser=339357">Let me know!</h:a></description>
+		<link>
+			<name>FreeSCI :: Sierra On-Line SCI Games</name>
+			<url>http://www.freesci.org/</url>
+			<description>The FreeSCI project is an attempt to create a portable interpreter written for Sierra On-Line's SCI game system. This engine was used in such games as: <h:i>King's Quest IV, Leisure Suit Larry III, Space Quest III,</h:i> and many more.</description>
+		</link>
+		<link>
+			<name>XU4 :: Ultima IV</name>
+			<url>http://xu4.sourceforge.net/</url>
+			<description>XU4 is the recreation of Ultima IV - Quest of the Avatar.</description>
+		</link>
+		<link>
+			<name>Nuvie :: Ultima VI</name>
+			<url>http://nuvie.sourceforge.net/</url>
+			<description>Nuvie, pronounced 'New-Vee' is an open sourced game engine for playing Origin's games Ultima 6, Martian Dreams and Savage Empire on modern operating systems.</description>
+		</link>
+		<link>
+			<name>Exult :: Ultima VII</name>
+			<url>http://exult.sourceforge.net/</url>
+			<description>Exult is the recreation of the Ultima VII engine used in <h:i>The Black Gate</h:i> and <h:i>The Serpent Isle</h:i></description>
+		</link>
+		<link>
+			<name>Pentagram :: Ultima VIII</name>
+			<url>http://pentagram.sourceforge.net/</url>
+			<description>Pentagram is a project aiming to create an Ultima 8 engine for use on modern operating systems.</description>
+		</link>
+	</group>
+	<group>
+		<name>Technical information about SCUMM and other engines</name>
+		<description>SCUMM is a complex system that grew over many years. Understanding it can be quite difficult at times. Luckily there are some sites that provide you with a bunch of information about SCUMM; here are some of them.</description>
+		<link>
+			<name>LucasHacks</name>
+			<url>http://scumm.mixnmojo.com/</url>
+			<description>Contains lots of information about all SCUMM games, links to demos and utilities, some documents on SCUMM internals and other useful things.</description>
+		</link>
+		<link>
+			<name>SCUMM Hacking forum</name>
+			<url>http://www.lucasforums.com/forumdisplay.php?f=363</url>
+			<description>Information and discussion on resource formats used in LucasArts games.</description>
+		</link>
+		<link>
+			<name>AGI Games forum</name>
+			<url>http://www.agigames.com/forum/</url>
+			<description>Information and discussion on the Sierra interpreters and games, successor of the Mega-Tokyo forums.</description>
+		</link>
+		<link>
+			<name>AGI Development Site</name>
+			<url>http://www.agidev.com</url>
+			<description>Large amounts of information surrounding Sierra's AGI system and home of the NAGI AGI interpreter.</description>
+		</link>
+	</group>
+</external_links>

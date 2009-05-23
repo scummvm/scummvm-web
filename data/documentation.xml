@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<documentation xmlns:h="http://www.w3.org/TR/html4/">
+	<document>
+		<name>README {$release}</name>
+		<url>http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/tags/{$release_tag}/README?view=markup</url>
+		<description>The ScummVM README, for version {$release}</description>
+	</document>
+	<document>
+		<name>Documentation on Wiki</name>
+		<url>http://wiki.scummvm.org/index.php/Documentation</url>
+		<description>Assorted documentation on our Wiki, several important HOWTO's</description>
+	</document>
+	<document>
+		<name>Developer Central</name>
+		<url>http://wiki.scummvm.org/index.php/Developer_Central</url>
+		<description>Guidelines on how to hack ScummVM. A must read for developers.</description>
+	</document>
+	<document>
+		<name>SCUMM Data File MD5 Checksums</name>
+		<url>documentation/md5sums/</url>
+		<description>This page lists MD5 checksums for various 'canonical' data files of SCUMM games, which can be used to identify game versions/variants.</description>
+	</document>
+	<document>
+		<name>Game data files</name>
+		<url>http://wiki.scummvm.org/index.php/Datafiles</url>
+		<description>This page lists for many supported games which files exactly are needed by ScummVM in order to play that game.</description>
+	</document>
+	<document>
+		<name>ScummVM current areas of focus</name>
+		<url>http://wiki.scummvm.org/index.php/TODO</url>
+		<description>This page is the current TODO list for ScummVM.</description>
+	</document>
+	<document>
+		<name>Source code documentation</name>
+		<url>http://doxygen.scummvm.org</url>
+		<description>Cross referenced source code documentation for ScummVM, generated using <h:a href="http://www.doxygen.org">Doxygen</h:a></description>
+	</document>
+</documentation>

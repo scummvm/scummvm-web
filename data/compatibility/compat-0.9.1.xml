@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<compatibility xmlns:h="http://www.w3.org/TR/xhtml1/">
+	<company>
+		<name>LucasArts</name>
+		<games>
+			<game>
+				<name>Maniac Mansion</name>
+				<target>maniac</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Amiga, Atari ST, Commodore 64, Macintosh, NES and PC versions supported by this target<h:br />- Major problems with Commodore 64 version
+				</notes>
+			</game>
+			<game>
+				<name>Zak McKracken and the Alien Mindbenders</name>
+				<target>zak</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Amiga, Atari ST, Commodore 64, FM-TOWNS and PC versions supported by this target<h:br />- Several sound effects buggy or missing in Amiga version<h:br />- No music or sound effects in the Commodore 64 version<h:br />- Kanji version requires the FM-TOWNS Font ROM
+				</notes>
+			</game>
+			<game>
+				<name>Indiana Jones and the Last Crusade</name>
+				<target>indy3</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable<h:br />- Amiga, Atari ST, FM-TOWNS, Macintosh and PC versions supported by this target<h:br />- There is no support for the Macintosh interface<h:br />- Kanji version requires the FM-TOWNS Font ROM
+				</notes>
+			</game>
+			<game>
+				<name>Loom</name>
+				<target>loom</target>
+				<percent>95</percent>
+				<notes>
+					No known issues, game is completable.<h:br />
+							- Amiga, Atari ST, FM-TOWNS, Macintosh and PC versions supported by this target<h:br />
+							- The Roland update from LucasArts is required for MIDI support in the EGA version<h:br />
+							- No music or sound effects in the Macintosh version<h:br />
+							- There is no support for the Macintosh interface<h:br />
+							- Fades are seemingly different in the FM-TOWNS version<h:br />
+							- Text palette sometimes incorrect in the FM-TOWNS version<h:br />
+							- Distaff occasionally pink in the FM-TOWNS version<h:br />
+							- Use boot parameter to choose difficulty in the FM-TOWNS version:
+							<h:ul>
+								<h:li>0 practice (default)</h:li>
+								<h:li>1 standard</h:li>
+								<h:li>2 expert</h:li>
+							</h:ul>
+							- Kanji version requires the FM-TOWNS Font ROM
+				</notes>
+			</game>
+			<game>
+				<name>Passport to Adventure</name>
+				<target>pass</target>
+				<percent>95</percent>
+				<notes>
+					No known issues, game is completable.
+				</notes>
+			</game>
+			<game>
+				<name>The Secret of Monkey Island</name>
+				<target>monkey</target>
+				<percent>95</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Amiga, Atari ST, FM-TOWNS, Macintosh, PC and SegaCD versions supported by this target<h:br />- The Roland update from LucasArts is required for MIDI support in the EGA version<h:br />- No music or sound effects in the Amiga version<h:br />- Dialogue choices in the SegaCD version can be selected with 6 (up) 7 (down) or mousewheel, with mouse button or number to select
+				</notes>
+			</game>
+			<game>
+				<name>Monkey Island 2: LeChuck's Revenge</name>
+				<target>monkey2</target>
+				<percent>95</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Amiga, FM-TOWNS, Macintosh and PC versions supported by this target<h:br />- Demo version often crashes due to missing resources, since it was never meant to be playable<h:br />- No support for playing back the recorded file of gameplay in demo version<h:br />- Kanji version requires the FM-TOWNS Font ROM
+				</notes>
+			</game>
+			<game>
+				<name>Indiana Jones and the Fate of Atlantis</name>
+				<target>atlantis</target>
+				<percent>95</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Amiga, FM-TOWNS, Macintosh and PC versions supported by this target<h:br />- Kanji version requires the FM-TOWNS Font ROM
+				</notes>
+			</game>
+			<game>
+				<name>Day of the Tentacle</name>
+				<target>tentacle</target>
+				<percent>95</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and PC versions supported by this target<h:br />- Maniac Mansion isn't playable on Ed's computer. To play the included copy, use 'Add Game' from the main ScummVM launcher and select the MANIAC directory inside the DOTT game directory
+				</notes>
+			</game>
+			<game>
+				<name>Sam &amp; Max Hit the Road</name>
+				<target>samnmax</target>
+				<percent>95</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and PC versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Full Throttle</name>
+				<target>ft</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and PC versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>The Dig</name>
+				<target>dig</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and PC versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>The Curse of Monkey Island</name>
+				<target>comi</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.
+				</notes>
+			</game>
+		</games>
+	</company>
+	<company>
+		<name>Other</name>
+		<games>
+			<game>
+				<name>Beneath a Steel Sky</name>
+				<target>sky</target>
+				<percent>98</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Requires the <h:a href="SKY.CPT">SKY.CPT</h:a> resource file to be placed in the game directory<h:br />- Floppy demos aren't supported<h:br />- Amiga versions aren't supported<h:br /><h:br />The following bugs are present in the original game and can't be fixed:<h:br />- The voice files for some sentences are missing.<h:br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;This is especially noticeable in the court- and Mrs. Piermont sequence.<h:br />- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders<h:br />- Special characters for french and italian subtitles are incorrect sometimes
+				</notes>
+			</game>
+			<game>
+				<name>Broken Sword 1: The Shadow of the Templars</name>
+				<target>sword1</target>
+				<percent>98</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Macintosh and PlayStation 1 version aren't supported.
+				</notes>
+			</game>
+			<game>
+				<name>Broken Sword 2: The Smoking Mirror</name>
+				<target>sword2</target>
+				<percent>98</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- PlayStation 1 version isn't supported.
+				</notes>
+			</game>
+			<game>
+				<name>Flight of the Amazon Queen</name>
+				<target>queen</target>
+				<percent>98</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Some versions may require the <h:a href="http://0x.7fc1.org/fotaq/queen.tbl">queen.tbl</h:a> resource file to be placed in the game directory. This is not required for the freeware releases.<h:br />- Amiga versions aren't supported.
+				</notes>
+			</game>
+			<game>
+				<name>Gobliiins</name>
+				<target>gob1</target>
+				<percent>95</percent>
+				<notes>
+					No known issues. Game is completable.<h:br />- Amiga, Atari, DOS and Macintosh versions are supported by this target<h:br />- Problems with music in the Macintosh version
+				</notes>
+			</game>
+			<game>
+				<name>Inherit the Earth: Quest for the Orb</name>
+				<target>ite</target>
+				<percent>87</percent>
+				<notes>
+					Game is completable.<h:br />- DOS, Linux, Macintosh, MacOS X and Windows versions are supported by this target<h:br />- Amiga versions aren't supported<h:br />- Occasional graphical glitches
+				</notes>
+			</game>
+			<game>
+				<name>Simon the Sorcerer 1</name>
+				<target>simon1</target>
+				<percent>93</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Acorn (CD), DOS and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Simon the Sorcerer 2</name>
+				<target>simon2</target>
+				<percent>95</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Amiga, DOS, Macintosh and Windows versions supported by this target<h:br />- Only the default language (English) in Amiga &amp; Macintosh versions is supported<h:br />- F10 key animation is different in Amiga &amp; Macintosh versions
+				</notes>
+			</game>
+			<game>
+				<name>The Feeble Files</name>
+				<target>feeble</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable<h:br />- Amiga, Macintosh and Windows versions supported by this target<h:br />- Minor graphical glitches
+				</notes>
+			</game>
+			<game>
+				<name>The Legend of Kyrandia</name>
+				<target>kyra1</target>
+				<percent>80</percent>
+				<notes>
+					Game is completable.<h:br />- Requires the KYRA.DAT resource file to be placed in the game directory.<h:br />- DOS Floppy and CD versions are supported by this target.<h:br />- Amiga versions aren't supported.<h:br />- FM-Towns version isn't supported.<h:br /><h:br />- Occasional graphics glitches.<h:br />- MT-32 music and sfx do not work properly.
+				</notes>
+			</game>
+		</games>
+	</company>
+	<company>
+		<name>Humongous Entertainment</name>
+		<games>
+			<game>
+				<name>Backyard Baseball</name>
+				<target>baseball</target>
+				<percent>20</percent>
+				<notes>
+					Game is playable, with glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Array out of bounds errors sometimes<h:br />- Minor graphical glitches
+				</notes>
+			</game>
+			<game>
+				<name>Backyard Football</name>
+				<target>football</target>
+				<percent>80</percent>
+				<notes>
+					Game is completable, with minor glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Freezes when computer chooses a player, when selecting teams<h:br />- Minor graphical glitches
+				</notes>
+			</game>
+			<game>
+				<name>Backyard Soccer</name>
+				<target>soccer</target>
+				<percent>20</percent>
+				<notes>
+					Game isn't playable<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- PlayStation 1 version doesn't use SCUMM, so will never be supported.<h:br />- Players on field are stuck in upper left corner and can't be controlled<h:br />- Minor graphical glitches
+				</notes>
+			</game>
+			<game>
+				<name>Big Thinkers First Grade</name>
+				<target>thinker1</target>
+				<percent>85</percent>
+				<notes>
+					Game is playable, with minor glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Need to use ESC when car is stuck in the smart star challenge
+				</notes>
+			</game>
+			<game>
+				<name>Big Thinkers Kindergarten</name>
+				<target>thinkerk</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Blue's ABC Time</name>
+				<target>BluesABCTime</target>
+				<percent>50</percent>
+				<notes>
+					Game is playable<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Blue's Birthday Adventure</name>
+				<target>BluesBirthday</target>
+				<percent>50</percent>
+				<notes>
+					Game is playable<h:br />- Only Windows version is supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Fatty Bear's Birthday Surprise</name>
+				<target>fbear</target>
+				<percent>93</percent>
+				<notes>
+					Game should be completable, with several glitches<h:br />- 3DO, DOS, Macintosh and Windows versions supported by this target<h:br />- Piano sounds aren't the correct pitch in DOS version
+				</notes>
+			</game>
+			<game>
+				<name>Fatty Bear's Fun Pack</name>
+				<target>fbpack</target>
+				<percent>95</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both 3DO and DOS versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Freddi Fish 1: The Case of the Missing Kelp Seeds</name>
+				<target>freddi</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Freddi Fish 2: The Case of the Haunted Schoolhouse</name>
+				<target>freddi2</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Freddi Fish 3: The Case of the Stolen Conch Shell</name>
+				<target>freddi3</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch</name>
+				<target>freddi4</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Freddi Fish and Luther's Maze Madness</name>
+				<target>maze</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Freddi Fish and Luther's Water Worries</name>
+				<target>water</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Let's Explore the Airport with Buzzy</name>
+				<target>airport</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is playable<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Let's Explore the Farm with Buzzy</name>
+				<target>farm</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is playable<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Let's Explore the Jungle with Buzzy</name>
+				<target>jungle</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is playable<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Pajama Sam 1: No Need to Hide When It's Dark Outside</name>
+				<target>pajama</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Pajama Sam 2: Thunder and Lightning Aren't so Frightening</name>
+				<target>pajama2</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet</name>
+				<target>pajama3</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable, with minor glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- PlayStation 1 version doesn't use SCUMM, so will never be supported.<h:br />- Minor graphical glitches with dancing can in stomach
+				</notes>
+			</game>
+			<game>
+				<name>Pajama Sam's Lost &amp; Found</name>
+				<target>lost</target>
+				<percent>85</percent>
+				<notes>
+					Game is completable, with minor glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Minor graphical glitches
+				</notes>
+			</game>
+			<game>
+				<name>Pajama Sam's Sock Works</name>
+				<target>socks</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Putt-Putt Enters the Race</name>
+				<target>puttrace</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable, with minor glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Minor graphical glitches
+				</notes>
+			</game>
+			<game>
+				<name>Putt-Putt Goes to the Moon</name>
+				<target>puttmoon</target>
+				<percent>95</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- 3DO, DOS, Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Putt-Putt Joins the Circus</name>
+				<target>puttcircus</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Putt-Putt Joins the Parade</name>
+				<target>puttputt</target>
+				<percent>95</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- 3DO, DOS, Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Putt-Putt Saves the Zoo</name>
+				<target>puttzoo</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Minor graphical glitches when meeting Kenya in HE72 version
+				</notes>
+			</game>
+			<game>
+				<name>Putt-Putt Travels Through Time</name>
+				<target>putttime</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Minor graphical glitches when talking in HE80 version
+				</notes>
+			</game>
+			<game>
+				<name>Putt-Putt and Pep's Balloon-O-Rama</name>
+				<target>balloon</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Putt-Putt and Pep's Dog on a Stick</name>
+				<target>dog</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Putt-Putt &amp; Fatty Bear's Activity Pack</name>
+				<target>activity</target>
+				<percent>95</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- DOS, Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Putt-Putt's Fun Pack</name>
+				<target>funpack</target>
+				<percent>95</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both 3DO and DOS versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>SPY Fox 1: Dry Cereal</name>
+				<target>spyfox</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>SPY Fox 2: Some Assembly Required</name>
+				<target>spyfox2</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>SPY Fox 3: Operation Ozone</name>
+				<target>spyozon</target>
+				<percent>70</percent>
+				<notes>
+					Game is completable, with glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Need to guess the correct colors of Poodles's fingernails<h:br />- Various palette glitches
+				</notes>
+			</game>
+			<game>
+				<name>SPY Fox in Cheese Chase</name>
+				<target>chase</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>SPY Fox in Hold the Mustard</name>
+				<target>mustard</target>
+				<percent>85</percent>
+				<notes>
+					Game is completable, with minor glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Minor graphical glitches with clouds
+				</notes>
+			</game>
+		</games>
+	</company>
+</compatibility>

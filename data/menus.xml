@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<menus>
+	<group>
+		<name>Main Menu</name>
+		<class>menu-main</class>
+		<link>
+			<name>Home</name>
+			<href>{$baseurl}</href>
+		</link>
+		<link>
+			<name>Screenshots</name>
+			<href>screenshots/</href>
+		</link>
+		<link>
+			<name>Forums</name>
+			<href>http://forums.scummvm.org/</href>
+		</link>
+		<link>
+			<name>Downloads</name>
+			<href>downloads/</href>
+		</link>
+		<link>
+			<name>ScummVM Blogs</name>
+			<href>http://planet.scummvm.org</href>
+		</link>
+<!-- FIXME: Donate temporarily disabled, waiting for us to reestablish its functionality at SF.net
+		<link>
+			<name>Donate to ScummVM</name>
+			<href>http://sourceforge.net/donate/index.php?group_id=37116</href>
+		</link>
+-->
+	</group>
+	<group>
+		<name>Documentation</name>
+		<class>menu-docs</class>
+		<link>
+			<name>F.A.Q.</name>
+			<href>faq/</href>
+		</link>
+		<link>
+			<name>Documentation</name>
+			<href>documentation/</href>
+		</link>
+		<link>
+			<name>Compatibility</name>
+			<href>compatibility/</href>
+		</link>
+		<link>
+			<name>Wiki</name>
+			<href>http://wiki.scummvm.org/</href>
+		</link>
+		<link>
+			<name>Credits</name>
+			<href>credits/</href>
+		</link>
+	</group>
+	<group>
+		<name>Development</name>
+		<class>menu-sf</class>
+		<link>
+			<name>SF.net Project Home</name>
+			<href>http://sourceforge.net/projects/scummvm/</href>
+		</link>
+		<link>
+			<name>Bug Tracker</name>
+			<href>http://sourceforge.net/tracker/?group_id=37116&amp;atid=418820</href>
+		</link>
+		<link>
+			<name>Feature Requests</name>
+			<href>http://sourceforge.net/tracker/?group_id=37116&amp;atid=418823</href>
+		</link>
+		<link>
+			<name>Patch Tracker</name>
+			<href>http://sourceforge.net/tracker/?group_id=37116&amp;atid=418822</href>
+		</link>
+		<link>
+			<name>Daily Snapshots</name>
+			<href>downloads/#SVN</href>
+		</link>
+		<link>
+			<name>Subversion Tree</name>
+			<href>http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/</href>
+		</link>
+		<link>
+			<name>Buildbot</name>
+			<href>http://buildbot.scummvm.org/</href>
+		</link>
+	</group>
+	<group>
+		<name>Misc. Menu</name>
+		<class>menu-misc</class>
+		<link>
+			<name>Subprojects</name>
+			<href>subprojects/</href>
+		</link>
+		<link>
+			<name>Demos</name>
+			<href>demos/</href>
+		</link>
+		<link>
+			<name>Press Coverage</name>
+			<href>press/</href>
+		</link>
+		<link>
+			<name>Contact</name>
+			<href>contact/</href>
+		</link>
+		<link>
+			<name>Links</name>
+			<href>links/</href>
+		</link>
+	</group>
+</menus>
