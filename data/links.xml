@@ -4,18 +4,13 @@
 		<name>Official ports</name>
 		<description>Some additional links for ports that have been merged into our SVN</description>
 		<link>
-			<name>PocketScumm port</name>
-			<url>http://arisme.free.fr/PocketScumm/index.php</url>
-			<description>Information about the PocketScumm port.</description>
-		</link>
-		<link>
 			<name>PalmOS port</name>
 			<url>http://capers.free.fr/ScummVM/index.php</url>
 			<description>News and information about the PalmOS port.</description>
 		</link>
 		<link>
 			<name>GP32 port</name>
-			<url>http://www.distant-earth.co.uk/</url>
+			<url>http://blogs.distant-earth.com/wp/?cat=3</url>
 			<description>Information about the GP32 port.</description>
 		</link>
 		<link>
@@ -130,11 +125,6 @@
 		<name>Other classic game engine open source projects</name>
 		<description>The following are links to other classic game engine open source projects similar to ScummVM. Know any other classic game projects that should be linked here? <h:a href="http://sourceforge.net/sendmessage.php?touser=339357">Let me know!</h:a></description>
 		<link>
-			<name>FreeSCI :: Sierra On-Line SCI Games</name>
-			<url>http://www.freesci.org/</url>
-			<description>The FreeSCI project is an attempt to create a portable interpreter written for Sierra On-Line's SCI game system. This engine was used in such games as: <h:i>King's Quest IV, Leisure Suit Larry III, Space Quest III,</h:i> and many more.</description>
-		</link>
-		<link>
 			<name>XU4 :: Ultima IV</name>
 			<url>http://xu4.sourceforge.net/</url>
 			<description>XU4 is the recreation of Ultima IV - Quest of the Avatar.</description>
@@ -153,6 +143,11 @@
 			<name>Pentagram :: Ultima VIII</name>
 			<url>http://pentagram.sourceforge.net/</url>
 			<description>Pentagram is a project aiming to create an Ultima 8 engine for use on modern operating systems.</description>
+		</link>
+		<link>
+			<name>Residual</name>
+			<url>http://residual.sourceforge.net/</url>
+			<description>Residual is a cross-platform interpreter which allows you to play LucasArts' LUA-based 3D adventures <h:i>Grim Fandango</h:i> and <h:i>Escape from Monkey Island</h:i>.</description>
 		</link>
 	</group>
 	<group>
