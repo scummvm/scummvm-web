@@ -28,19 +28,9 @@
 			<description>Homepage of the 68k/WarpOS port of ScummVM for the Amiga. Requires 020+ and AGA chipset or RTG Zorro card.</description>
 		</link>
 		<link>
-			<name>Amiga Archives</name>
-			<url>http://www.mountmonkey.com/eng_index.html</url>
-			<description>An archive of older Amiga ports of ScummVM.</description>
-		</link>
-		<link>
 			<name>Nokia 770 port</name>
 			<url>http://770.fs-security.com/scummvm/</url>
 			<description>A port to Nokia 770.</description>
-		</link>
-		<link>
-			<name>RISC OS port</name>
-			<url>http://www.riscos.info/unix/indexes/emulation.html#scummvm</url>
-			<description>A port to RISC OS.</description>
 		</link>
 		<link>
 			<name>Old RISC OS port</name>
