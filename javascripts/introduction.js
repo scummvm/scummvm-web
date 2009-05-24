@@ -1,4 +1,6 @@
-var rand_img = $('a#screenshots_random img')[0];
+var base_href = $('base').attr('href');
+var rand_img = $('a#screenshots_random img');
+var image_regexp = /(data\/screenshots\/(?:.+)-full\.png)/;
 var screenshots = [];
 var position = 0;
 
@@ -10,27 +12,28 @@ function changeScreenshot (pos) {
 	} else if (position >= screenshots.length) {
 		position = 0;
 	}
-	rand_img.src = screenshots[position][0].replace('-full.png', '.jpg');
-	rand_img.parentNode.title = screenshots[position][1];
+	rand_img.attr('src', screenshots[position][0].replace('-full.png', '.jpg'));
+	rand_img.get(0).parentNode.title = screenshots[position][1];
 }
 
 /* Find the position for the random screenshot. */
 function findPosition () {
-	var rand_url = rand_img.src.replace('.jpg', '-full.png');
-	rand_url = rand_url.replace(rand_img.baseURI, '');
+	var rand_url = rand_img.attr('src').replace('.jpg', '-full.png');
+	rand_url = rand_url.replace(base_href, '');
 	for (var i=0, i_max=screenshots.length; i < i_max; i++) {
 		if (screenshots[i][0] == rand_url) {
 			position = i;
 			break;
 		}
 	}
+	
 	changeScreenshot(0);
 }
 
-/* */
+/* Update the preview when closing slimbox. */
 function handleClosure () {
-	var cur_img = $('#lbImage').css('background-image').replace(rand_img.baseURI, '');
-	rand_img.src = cur_img.substring(4, cur_img.length-1);
+	var cur_img = $('#lbImage').css('background-image');
+	rand_img.attr('src', image_regexp.exec(cur_img)[0]);
 	findPosition();
 }
 
@@ -59,7 +62,7 @@ $(document).ready(function () {
 	});
 
 	/* Clicking the image. */
-	$(rand_img).click(function (evt) {
+	rand_img.click(function (evt) {
 		evt.preventDefault();
 		$.slimbox(screenshots, position);
 	});
