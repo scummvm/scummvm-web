@@ -17,8 +17,8 @@
 		{assign var='timezone_offset' value=$n->getDate()|date_f:'Z'}
 		{assign var='updated' value=$n->getDate()-$timezone_offset}
 		<entry xml:lang="en">
-			<id>{$baseurl}/news/archive/#{$n->getDate()|date_f:'Y-m-d'}</id>
-			<link rel="alternate" href="{$baseurl}/news/#{$n->getDate()|date_f:'Y-m-d'}" />
+			<id>{$baseurl}news/archive/#{$n->getDate()|date_f:'Y-m-d'}</id>
+			<link rel="alternate" href="{$baseurl}news/#{$n->getDate()|date_f:'Y-m-d'}" />
 			<updated>{$updated|date_f:'Y-m-d\Th:i:s\Z'}</updated>
 			<published>{$updated|date_f:'Y-m-d\Th:i:s\Z'}</published>
 			<title type="html">{$n->getTitle()}</title>

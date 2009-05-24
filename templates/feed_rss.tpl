@@ -13,8 +13,8 @@
 			{if $n->getAuthor() != ''}
 			<author>nospam@scummvm.org ({$n->getAuthor()})</author>
 			{/if}
-			<guid isPermaLink='true'>{$baseurl}/news/archive/#{$n->getDate()|date_f:'Y-m-d'}</guid>
-			<link>{$baseurl}/news/#{$n->getDate()|date_f:'Y-m-d'}</link>
+			<guid isPermaLink='true'>{$baseurl}news/archive/#{$n->getDate()|date_f:'Y-m-d'}</guid>
+			<link>{$baseurl}news/#{$n->getDate()|date_f:'Y-m-d'}</link>
 		</item>
 		{/foreach}
 	</channel>
