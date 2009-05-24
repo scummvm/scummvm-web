@@ -14,18 +14,18 @@ RewriteRule		^screenshots/(.+)\.(jpg|png)$								data/screenshots/$1.$2 [NS,L]
 ##
 # Compatibility page, with args
 RewriteCond		%{QUERY_STRING}												version=(SVN|[0-9\.]+)(&details=(.+))?
-RewriteRule		^compatibility.php$											compatibility/%1/%3/? [NS,R=301]
+RewriteRule		^compatibility\.php$										compatibility/%1/%3/? [NS,R=301]
 # Documentation page, with args
 RewriteCond		%{QUERY_STRING}												view=md5
-RewriteRule		^documentation.php$											documentation/md5sums/? [NS,R=301]
+RewriteRule		^documentation\.php$										documentation/md5sums/? [NS,R=301]
 # News page, with args
 RewriteCond		%{QUERY_STRING}												shownews=([0-9]{8}).xml [OR]
 RewriteCond		%{QUERY_STRING}												shownews=(archive)
-RewriteRule		^(index.php)?$												news/%1/? [NS,R=301]
+RewriteRule		^(index\.php)?$												news/%1/? [NS,R=301]
 # Feeds (not pretty)
 RewriteRule		^feed-(atom|rss)(20)?.php$									feeds/$1/? [NS,R=301]
 # Other pages, without args
-#RewriteRule	^(.+)\.php$													$1/? [NS,R=301]
+RewriteRule	^(.+)\.php$														$1/? [NS,R=301]
 
 
 ##
