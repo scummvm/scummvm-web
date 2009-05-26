@@ -21,7 +21,7 @@ class Controller {
 	 * to what's been specified in config.inc.
 	 */
 	public function __construct() {
-		/* Create a Smarty object */
+		/* Create a Smarty object. */
 		$this->_smarty = new Smarty();
 		/* Configure smarty. */
 		$this->_smarty->template_dir = SMARTY_DIR_TEMPLATE;
@@ -56,12 +56,13 @@ class Controller {
 		$this->_content = '';
 
 		/* Set up the common variables before displaying. */
+		$menus = MenuModel::getAllMenus();
 		$vars = array(
 			'release' => RELEASE,
 			'release_tag' => RELEASE_TAG,
 			'baseurl' => URL_BASE,
 			'heroes_num' => HEROES_NUM,
-			'menus' => MenuModel::getAllMenus(),
+			'menus' => $menus,
 		);
 		$this->_smarty->assign($vars);
 	}
@@ -70,8 +71,12 @@ class Controller {
 	public function outputFilter($string, &$smarty) {
 		/* Properly encode all ampersands as "&amp;". */
 		$string = preg_replace('/&(?!([a-z]+|(#\d+));)/', '&amp;', $string);
-		/* Replace weird character that appears in some of the data. */
-		$string = str_replace(chr(160), '&nbsp;', $string);
+		/* Replace weird characters that appears in some of the data. */
+		$string = str_replace(
+			array(chr(160), chr(194)), 
+			array('&nbsp;', ''), 
+			$string
+		);
 		return $string;
 	}
 
