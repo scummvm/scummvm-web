@@ -66,8 +66,15 @@ class ScreenshotsPage extends Controller {
 			'screenshots.js',
 		));
 
-		$screenshots = ScreenshotsModel::getCategoryScreenshots($category);
-
+		if (empty($game)) {
+			$screenshots = ScreenshotsModel::getCategoryScreenshots($category);
+		} else {
+			$screenshots = array(
+				'category' => $category,
+				'games' => array(ScreenshotsModel::getTargetScreenshots($game))
+			);
+		}
+		
 		return $this->renderPage(
 			array(
 				'title' => 'Screenshots',
