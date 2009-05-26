@@ -10,7 +10,7 @@ if (!is_writeable(SMARTY_DIR_COMPILE)) {
 }
 
 /* Exception handling. */
-function exceptionHandler ($exception) {
+function exceptionHandler (Exception $exception) {
 	require_once('Pages/ExceptionsPage.php');
 	$ep = new ExceptionsPage();
 	return $ep->index($exception);
