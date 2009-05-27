@@ -15,7 +15,9 @@ abstract class ScreenshotsModel extends BasicModel {
 		$parser = new XMLParser();
 		$a = $parser->parseByFilename($fname);
 		$entries = array();
+		BasicObject::toArray($a['screenshots']['group']);
 		foreach ($a['screenshots']['group'] as $value) {
+			BasicObject::toArray($value['game']);
 			$games = array();
 			foreach ($value['game'] as $data) {
 				$games[] = new Screenshot($data);
