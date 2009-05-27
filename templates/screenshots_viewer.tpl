@@ -3,6 +3,7 @@
 
 <div class="box">
 	<div class="head">Screenshot Gallery</div>
+	<h3 class="subhead">{$screenshot->getName()} (#{$num+1} of {$files|@count})</h3>
 	<div class="viewer">
 		<div class="screenshot">
 			<img src="{$smarty.const.DIR_SCREENSHOTS}/{$files[$num].filename}-full.png" alt="{$files[$num].caption}">
