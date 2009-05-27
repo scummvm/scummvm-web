@@ -48,20 +48,21 @@ class XMLParser {
 	 * @throws ErrorException
 	 */
 	public function parseByFilename($filename) {
+		$file = "\n\nFilename: " . basename($filename) . "\n";
 		/* If we can't read the file there is nothing we can do. */
 		if (!is_file($filename) || !is_readable($filename)) {
-			throw new ErrorException(self::FILE_NOT_FOUND);
+			throw new ErrorException(self::FILE_NOT_FOUND . $file);
 		}
 		/* Read the file contents. */
 		if (!($xml = @file_get_contents($filename))) {
-			throw new ErrorException(self::FILE_NOT_READABLE);
+			throw new ErrorException(self::FILE_NOT_READABLE . $file);
 		}
 		
 		/* Parse the XML. */
 		try {
 			return $this->parseByData($xml);
 		} catch (ErrorException $e) {
-			$msg = "{$e->getMessage()}Filename: " . basename($filename) . "\n";
+			$msg = "{$e->getMessage()}{$file}";
 			throw new ErrorException($msg);
 		}
 	}
@@ -98,13 +99,13 @@ class XMLParser {
 		$replace = '<![CDATA[\\1]]>';
 		$xml = preg_replace($pattern, $replace, $xml);
 		/* Parse the data and free the parser resource. */
-		#if (!xml_parse($parser, $xml, true)) {
+		if (!xml_parse($parser, $xml, true)) {
 			$error = "\n\nError code: " . xml_get_error_code($parser) . "\n";
 			$error .= "Line: " . xml_get_current_line_number($parser) . ", character: " . xml_get_current_column_number($parser) . "\n";
 			$error .= "Error message: " . xml_error_string(xml_get_error_code($parser)) . "\n";
 			xml_parser_free($parser);
 			throw new ErrorException(self::PARSER_ERROR . $error);
-		#}
+		}
 		xml_parser_free($parser);
 		/**
 		 * The root element will contain an array with an empty key, so we can

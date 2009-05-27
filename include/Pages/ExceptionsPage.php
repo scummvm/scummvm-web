@@ -12,8 +12,6 @@ class ExceptionsPage extends Controller {
 
 	/* Display the index page. */
 	public function index($exception) {
-		$this->addCSSFiles(array(
-		));
 		return $this->renderPage(
 			array(
 				'title' => 'Exception',

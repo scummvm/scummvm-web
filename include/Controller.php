@@ -55,8 +55,11 @@ class Controller {
 		$this->_content_title = '';
 		$this->_content = '';
 
+		/* The menus have caused an exception, need to skip them. */
+		if (!ExceptionHandler::skipMenus()) {
+			$menus = MenuModel::getAllMenus();
+		}
 		/* Set up the common variables before displaying. */
-		$menus = MenuModel::getAllMenus();
 		$vars = array(
 			'release' => RELEASE,
 			'release_tag' => RELEASE_TAG,

@@ -10,12 +10,8 @@ if (!is_writeable(SMARTY_DIR_COMPILE)) {
 }
 
 /* Exception handling. */
-function exceptionHandler (Exception $exception) {
-	require_once('Pages/ExceptionsPage.php');
-	$ep = new ExceptionsPage();
-	return $ep->index($exception);
-}
-set_exception_handler('exceptionHandler');
+require_once('ExceptionHandler.php');
+set_exception_handler(array('ExceptionHandler', 'handleException'));
 
 /* Page mapping. */
 $pages = array(
