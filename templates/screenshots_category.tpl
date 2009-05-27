@@ -2,11 +2,11 @@
 
 {* A single game (target) was selected. *}
 {if !empty($game)}
-
 	<div class="box">
 		<div class="head">Screenshot Gallery</div>
 		{foreach from=$screenshots.games item=g name=cat_loop}
 			{if $game == $g->getCategory()}
+				<h3 class="subhead">{$g->getName()}</h3>
 				{foreach from=$g->getFiles() item=fdata name=game_loop}
 					<div class="screenshot">
 						<a href="screenshots/{$category}/{$g->getCategory()}/{$smarty.foreach.game_loop.iteration}/" rel="lightbox-{$g->getCategory()}" title="{$fdata.caption}">
