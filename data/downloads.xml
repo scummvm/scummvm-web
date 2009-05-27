@@ -651,7 +651,7 @@
 				<file>
 					<category_icon>cat-lure.png</category_icon>
 					<url>https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/{$release_tag}/dists/engine-data/lure.dat</url>
-					<name>Lure of the Temptress, lure.dat - required to run original versions of Lure of the Tempfileess</name>
+					<name>Lure of the Temptress, lure.dat - required to run original versions of Lure of the Temptress</name>
 					<extra_info>(623k) - Requires ScummVM {$release}</extra_info>
 				</file>
 			</entries>
