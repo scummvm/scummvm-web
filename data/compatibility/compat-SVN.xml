@@ -564,7 +564,7 @@
 				<target>kyra3</target>
 				<percent>80</percent>
 				<notes>
-					Game is completable
+					Game is completable<h:br />- Requires the <h:a href="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/kyra.dat">kyra.dat</h:a> resource file to be placed in the game directory<h:br />- DOS and Macintosh versions are supported
 				</notes>
 			</game>
 			<game>
