@@ -111,7 +111,7 @@
 				<file>
 					<category_icon>catpl-psp.png</category_icon>
 					<url>scummvm-{$release}-psp.zip?download</url>
-					<name>PSP (PlayStation Porfiles) package</name>
+					<name>PSP (PlayStation Portable) package</name>
 					<extra_info>(8.4M .zip)</extra_info>
 				</file>
 	
