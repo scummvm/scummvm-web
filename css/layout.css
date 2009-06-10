@@ -45,6 +45,10 @@ body {
 	top: -8px;
 }
 
+#menu div a.float_left {
+	margin-bottom: 2px;
+}
+
 #content {
 	background: transparent url('../images/content-bg.jpg') no-repeat scroll top left;
 	margin-right: 145px;
