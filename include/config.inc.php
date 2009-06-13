@@ -39,7 +39,7 @@ define('DIR_SCREENSHOTS', 'data/screenshots');
  */
 define('SMARTY_DIR_BASE', 'include/smarty');
 define('SMARTY_DIR_TEMPLATE', 'templates');
-define('SMARTY_DIR_COMPILE', '/home/groups/s/sc/scummvm/persistent/template_c');
+define('SMARTY_DIR_COMPILE', SMARTY_DIR_BASE . '/template_c');
 define('SMARTY_DIR_CACHE', SMARTY_DIR_BASE . '/cache');
 define('SMARTY_DIR_CONFIG', SMARTY_DIR_BASE . '/config');
 define('SMARTY_USE_GLOBALS', false);
