@@ -50,7 +50,7 @@
 					<category_icon>catpl-debian.png</category_icon>
 					<url>scummvm_{$release}-lenny.1_amd64.deb?download</url>
 					<name>Debian 5.0 (lenny) x86 64bit package</name>
-					<extra_info>(4.1 .deb)</extra_info>
+					<extra_info>(4.1M .deb)</extra_info>
 				</file>
 				
 				<file>
@@ -712,7 +712,7 @@
 					<category_icon>cat-sword.png</category_icon>
 					<url>Sword1_Cutscenes_Subtitles-1.0.zip?download</url>
 					<name>Broken Sword 1 Cutscene Pack (all languages, Subtitles AddOn)</name>
-					<extra_info>(18k) Cutscene subtitles pack. All language</extra_info>
+					<extra_info>(18k) Cutscene subtitles pack. All languages</extra_info>
 				</file>
 				<file>
 					<category_icon>cat-flac.png</category_icon>
@@ -796,7 +796,7 @@
 					<category_icon>cat-flac.png</category_icon>
 					<url>Sword2_Demo_Cutscenes.zip?download</url>
 					<name>Broken Sword 2 Demo Cutscene Pack</name>
-					<extra_info>(767KB) - Requires ScummVM 0.10.0</extra_info>
+					<extra_info>(767k) - Requires ScummVM 0.10.0</extra_info>
 				</file>
 			</entries>
 		</subsection>
