@@ -1,5 +1,5 @@
 <NAME>Code Freeze</NAME>
-<DATE>March 20, 2002</DATE>
+<DATE>Mar 20, 2002</DATE>
 <AUTHOR>ender</AUTHOR>
 <BODY>
 	ScummVM is currently in a code freeze. This means the CVS will not be updated with any new bugfixes, as we are doing a major reorganisation of the engine.
