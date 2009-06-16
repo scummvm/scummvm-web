@@ -3,7 +3,7 @@
 	<a name="{$news->getDate()|date_format:"%Y-%m-%d"}"></a>
 	<div class="head">
 		<a href="{$baseurl}news/{$news->getDate()|date_format:"%Y%m%d"}/">
-			<span class="news-date">{$news->getDate()|date_f:"M. jS, Y"}</span>:
+			<span class="news-date">{$news->getDate()|date_f:"M j, Y"}</span>:
 			{$news->getTitle()}
 		</a>
 	</div>
