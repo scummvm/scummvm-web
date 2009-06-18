@@ -858,12 +858,12 @@
 					</h:li>
 					<h:li class="file">
 						<h:img src="images/catpl-macos.png" alt="" class="category" />
-						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/os_x_intel-trunk-latest.tar.bz2">Mac OS X Intel nightly build</h:a>
+						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/osx_intel-trunk-latest.tar.bz2">Mac OS X Intel nightly build</h:a>
 						<h:span class="download-extras">&nbsp;</h:span>
 					</h:li>
 					<h:li class="file">
 						<h:img src="images/catpl-macos.png" alt="" class="category" />
-						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/os_x_ppc-trunk-latest.tar.bz2">Mac OS X PPC nightly build</h:a>
+						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/osx_ppc-trunk-latest.tar.bz2">Mac OS X PPC nightly build</h:a>
 						<h:span class="download-extras">&nbsp;</h:span>
 					</h:li>
 					<h:li class="file">
