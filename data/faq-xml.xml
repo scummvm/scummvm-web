@@ -45,7 +45,7 @@
       <question>Is ScummVM free?</question>
       <answer>
 		<simpara>
-		ScummVM is released under the <ulink url="http://www.gnu.org/copyleft/gpl.html">GPL (General Public
+		ScummVM is released under the <ulink url="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GPL (General Public
 		License)</ulink>, so it's more than free. ScummVM source code is freely
 		available and you can do whatever you want with it. If you make
 		modifications to it and redistribute your work you MUST make the source
@@ -449,8 +449,8 @@
 		</simpara>
 		<simpara>
 		For newer games ScummVM needs the main data file, usually called
-		"&lt;Game Title&gt; Data" (where &lt;Game Title&gt; is
-		name of your game, such as "The Dig" or "Sam &amp; Max").
+		"&lt;Game Title&gt; Data" (where &lt;Game Title&gt; is
+		name of your game, such as "The Dig" or "Sam &amp; Max").
 		Some CDs may appear to only contain an application (watch out, it has
 		almost the same name as the data file, except that it lacks the " Data"
 		at the end). In that case there is still a separate data file but it is
