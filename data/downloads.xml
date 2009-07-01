@@ -583,12 +583,6 @@
 					<extra_info>(34.8M)</extra_info>
 				</file>
 				<file>
-					<category_icon>cat-ogg.png</category_icon>
-					<url>ftp://ftp.suse.com/pub/suse/i386/supplementary/X/FOTAQ/</url>
-					<name>Flight of the Amazon Queen, Freeware CD Version (ogg compressed sfx/speech)</name>
-					<extra_info>(35.6M)</extra_info>
-				</file>
-				<file>
 					<category_icon>cat-queen.png</category_icon>
 					<url>http://www.lysator.liu.se/~zino/scummvm/queen/</url>
 					<name>Flight of the Amazon Queen, Freeware CD Version (unmodified original)</name>
