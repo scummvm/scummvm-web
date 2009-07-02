@@ -26,6 +26,7 @@ $pages = array(
 	'links' => 'LinksPage',
 	'news' => 'NewsPage',
 	'press' => 'PressPage',
+	'presssnowberry' => 'PressSnowberryPage',
 	'screenshots' => 'ScreenshotsPage',
 	'subprojects' => 'SubprojectsPage',
 );
