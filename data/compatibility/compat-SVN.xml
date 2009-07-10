@@ -496,6 +496,32 @@
 				</notes>
 			</game>
 			<game>
+				<name>Cruise for a Corpse</name>
+				<target>cruise</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable. Only PC version is supported.
+				</notes>
+			</game>
+			<game>
+				<name>Discworld</name>
+				<target>dw</target>
+				<percent>98</percent>
+				<notes>
+					Game is completable<h:br />
+				- PC Version - No major issues<h:br />
+				- PSX Version - Still missing music 						suport.
+				</notes>
+			</game>
+			<game>
+				<name>Discworld II - Missing presumed...!?</name>
+				<target>dw2</target>
+				<percent>98</percent>
+				<notes>
+					Game is completable. Only the PC version is supported.
+				</notes>
+			</game>
+			<game>
 				<name>Drascula: The Vampire Strikes Back</name>
 				<target>drascula</target>
 				<percent>98</percent>
