@@ -1576,19 +1576,19 @@
 			<name>The Legend of Kyrandia series</name>
 			<category>kyra</category>
 			<image>
-				<file>other/kyra/scummvm_2_6_0</file>
+				<file>other/kyra/kyra1-1</file>
 				<caption>The Legend of Kyrandia (DOS)</caption>
 			</image>
 			<image>
-				<file>other/kyra/scummvm_2_6_1</file>
+				<file>other/kyra/kyra1-2</file>
 				<caption>The Legend of Kyrandia (DOS)</caption>
 			</image>
 			<image>
-				<file>other/kyra/scummvm_2_6_2</file>
+				<file>other/kyra/kyra1-pc98-jp-1</file>
 				<caption>The Legend of Kyrandia (PC-98 Japanese)</caption>
 			</image>
 			<image>
-				<file>other/kyra/scummvm_2_6_3</file>
+				<file>other/kyra/kyra1-pc98-jp-2</file>
 				<caption>The Legend of Kyrandia (PC-98 Japanese)</caption>
 			</image>
 			<image>
