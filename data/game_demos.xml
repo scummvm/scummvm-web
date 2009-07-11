@@ -642,6 +642,11 @@
 				<target>simon1</target>
 			</demo>
 			<demo>
+				<name>Simon the Sorcerer 1 (DOS CD demo)</name>
+				<url>http://demos.robertmegone.com/agos/simon1-dos-cd-demo-en.zip</url>
+				<target>simon1</target>
+			</demo>
+			<demo>
 				<name>Simon the Sorcerer 2 (DOS CD demo)</name>
 				<url>http://demos.robertmegone.com/agos/simon2-dos-cd-demo-en.zip</url>
 				<target>simon2</target>
