@@ -1421,6 +1421,34 @@
 			</image>
 		</game>
 		<game>
+			<name>Cruise for a Corpse</name>
+			<category>cruise</category>
+			<image>
+				<file>other/cruise/cruise-1</file>
+				<caption>Cruise for a Corpse</caption>
+			</image>
+			<image>
+				<file>other/cruise/cruise-2</file>
+				<caption>Cruise for a Corpse</caption>
+			</image>
+			<image>
+				<file>other/cruise/cruise-3</file>
+				<caption>Cruise for a Corpse</caption>
+			</image>
+			<image>
+				<file>other/cruise/cruise-4</file>
+				<caption>Cruise for a Corpse</caption>
+			</image>
+			<image>
+				<file>other/cruise/cruise-fr-1</file>
+				<caption>Cruise for a Corpse (French)</caption>
+			</image>
+			<image>
+				<file>other/cruise/cruise-fr-2</file>
+				<caption>Cruise for a Corpse (French)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Discworld series</name>
 			<category>dw</category>
 			<image>
