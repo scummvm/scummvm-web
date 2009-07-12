@@ -1484,6 +1484,14 @@
 				<caption>Discworld</caption>
 			</image>
 			<image>
+				<file>tinsel/dw1-de-1</file>
+				<caption>Discworld (German)</caption>
+			</image>
+			<image>
+				<file>tinsel/dw1-de-2</file>
+				<caption>Discworld (German)</caption>
+			</image>
+			<image>
 				<file>tinsel/dw1-psx-1</file>
 				<caption>Discworld (PlayStation) (Multilanguage/PAL)</caption>
 			</image>
