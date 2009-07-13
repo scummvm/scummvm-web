@@ -198,6 +198,24 @@
 					<alias>yazoo</alias>
 					<description>original CruisE engine author</description>
 				</person>
+				<person>
+					<name>Paul Gilbert</name>
+					<alias>dreammaster</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Drascula</name>
+				<person>
+					<name>Filippos Karapetis</name>
+					<alias>[md5]</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Pawe&#322; Ko&#322;odziejski</name>
+					<alias>aquadran</alias>
+					<description></description>
+				</person>
 			</group>
 			<group>
 				<name>FOTAQ</name>
