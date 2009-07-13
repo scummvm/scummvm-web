@@ -841,6 +841,11 @@
 				</h:p>
 				<h:ul class="downloads">
 					<h:li class="file">
+						<h:img src="images/catpl-dc.png" alt="" class="category" /> 
+						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/dc-trunk-latest.tar.bz2">Dreamcast nightly build</h:a>
+						<h:span class="download-extras">&nbsp;</h:span>
+					</h:li>
+					<h:li class="file">
 						<h:img src="images/catpl-gp2x.png" alt="" class="category" /> 
 						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/gp2x-trunk-latest.tar.bz2">GP2X nightly build</h:a>
 						<h:span class="download-extras">&nbsp;</h:span>
