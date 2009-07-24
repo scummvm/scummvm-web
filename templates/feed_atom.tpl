@@ -5,7 +5,7 @@
 <feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom">
 	<id>{$baseurl}</id>
 	<link rel="alternate" type="text/html" href="http://www.scummvm.org" />
-	<link rel="self" type="application/atom+xml" href="{$baseurl}" />
+	<link rel="self" type="application/atom+xml" href="{$baseurl}feeds/atom/" />
 	<title type="text">ScummVM news</title>
 	<subtitle type="html"><![CDATA[ScummVM is a cross-platform interpreter for several point-and-click adventure engines. This includes all SCUMM-based adventures by LucasArts, Simon the Sorcerer 1&2 by AdventureSoft, Beneath a Steel Sky and Broken Sword 1&2 by Revolution, and many more.]]></subtitle>
 	<author>
