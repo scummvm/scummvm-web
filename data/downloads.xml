@@ -842,37 +842,37 @@
 				<h:ul class="downloads">
 					<h:li class="file">
 						<h:img src="images/catpl-dc.png" alt="" class="category" /> 
-						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/dc-trunk-latest.tar.bz2">Dreamcast nightly build</h:a>
+						<h:a href="http://buildbot.scummvm.org/snapshots/1.0.0/dc-1.0.0-latest.tar.bz2">Dreamcast nightly build</h:a>
 						<h:span class="download-extras">&nbsp;</h:span>
 					</h:li>
 					<h:li class="file">
 						<h:img src="images/catpl-gp2x.png" alt="" class="category" /> 
-						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/gp2x-trunk-latest.tar.bz2">GP2X nightly build</h:a>
+						<h:a href="http://buildbot.scummvm.org/snapshots/1.0.0/gp2x-1.0.0-latest.tar.bz2">GP2X nightly build</h:a>
 						<h:span class="download-extras">&nbsp;</h:span>
 					</h:li>
 					<h:li class="file">
 						<h:img src="images/catpl-iphone.png" alt="" class="category" />
-						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/iphone-trunk-latest.tar.bz2">iPhone nightly build</h:a>
+						<h:a href="http://buildbot.scummvm.org/snapshots/1.0.0/iphone-1.0.0-latest.tar.bz2">iPhone nightly build</h:a>
 						<h:span class="download-extras">&nbsp;</h:span>
 					</h:li>
 					<h:li class="file">
 						<h:img src="images/catpl-macos.png" alt="" class="category" />
-						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/osx_intel-trunk-latest.tar.bz2">Mac OS X Intel nightly build</h:a>
+						<h:a href="http://buildbot.scummvm.org/snapshots/1.0.0/osx_intel-1.0.0-latest.tar.bz2">Mac OS X Intel nightly build</h:a>
 						<h:span class="download-extras">&nbsp;</h:span>
 					</h:li>
 					<h:li class="file">
 						<h:img src="images/catpl-macos.png" alt="" class="category" />
-						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/osx_ppc-trunk-latest.tar.bz2">Mac OS X PPC nightly build</h:a>
+						<h:a href="http://buildbot.scummvm.org/snapshots/1.0.0/osx_ppc-1.0.0-latest.tar.bz2">Mac OS X PPC nightly build</h:a>
 						<h:span class="download-extras">&nbsp;</h:span>
 					</h:li>
 					<h:li class="file">
 						<h:img src="images/catpl-psp.png" alt="" class="category" />
-						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/psp-trunk-latest.tar.bz2">PSP (PlayStation Portable) nightly build</h:a> 
+						<h:a href="http://buildbot.scummvm.org/snapshots/1.0.0/psp-1.0.0-latest.tar.bz2">PSP (PlayStation Portable) nightly build</h:a> 
 						<h:span class="download-extras">&nbsp;</h:span>
 					</h:li>
 					<h:li class="file">
 						<h:img src="images/catpl-wii.png" alt="" class="category" /> 
-						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/wii-trunk-latest.tar.bz2">Wii nightly build</h:a> 
+						<h:a href="http://buildbot.scummvm.org/snapshots/1.0.0/wii-1.0.0-latest.tar.bz2">Wii nightly build</h:a> 
 						<h:span class="download-extras">&nbsp;</h:span>
 					</h:li>
 				</h:ul>	
