@@ -20,7 +20,7 @@
 		{assign var='news_filename' value=$n->getFilename()|substr:'0':'-4'}
 
 		<entry xml:lang="en">
-			<id>{$baseurl}news/archive/#{$n->getDate()|date_f:'Y-m-d'}</id>
+			<id>{$baseurl}news/archive/#{$n->getDate()|date_f:'Y-m-d'}{if $news_filename|strlen == 9}{$news_filename|substr:'-1'}{/if}</id>
 			<link rel="alternate" href="{$baseurl}news/{$news_filename}/" />
 			<updated>{$updated|date_f:'Y-m-d\Th:i:s\Z'}</updated>
 			<published>{$updated|date_f:'Y-m-d\Th:i:s\Z'}</published>
