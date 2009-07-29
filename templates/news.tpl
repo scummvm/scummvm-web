@@ -1,8 +1,14 @@
 {foreach from=$news_items item=news}
+{assign var='news_date' value=$news->getDate()|date_format:"%Y%m%d"}
+{assign var='news_filename' value=$news->getFilename()|substr:'0':'-4'}
+{if !empty($date) && ($date == 'archive' || strlen($date) == 8)}
+	{assign var='news_date' value=$news_filename}
+{/if}
+
 <div class="box">
-	<a name="{$news->getDate()|date_format:"%Y-%m-%d"}"></a>
+	<a name="{$news->getDate()|date_format:"%Y-%m-%d"}{if $news_filename|strlen == 9}{$news_filename|substr:'-1'}{/if}"></a>
 	<div class="head">
-		<a href="{$baseurl}news/{$news->getDate()|date_format:"%Y%m%d"}/">
+		<a href="{$baseurl}news/{$news_date}/">
 			<span class="news-date">{$news->getDate()|date_f:"M j, Y"}</span>:
 			{$news->getTitle()}
 		</a>

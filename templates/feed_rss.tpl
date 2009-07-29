@@ -7,6 +7,7 @@
 		<description>ScummVM is a cross-platform interpreter for several point-and-click adventure engines. This includes all SCUMM-based adventures by LucasArts, Simon the Sorcerer 1&amp;2 by AdventureSoft, Beneath a Steel Sky and Broken Sword 1&amp;2 by Revolution, and many more.</description>
 		<language>en</language>
 		{foreach from=$news item=n}
+		{assign var='news_filename' value=$n->getFilename()|substr:'0':'-4'}
 		<item>
 			<title>{$n->getTitle()}</title>
 			<description><![CDATA[{$n->getContent()}]]></description>
@@ -14,8 +15,8 @@
 			{if $n->getAuthor() != ''}
 			<author>nospam@scummvm.org ({$n->getAuthor()})</author>
 			{/if}
-			<guid isPermaLink='true'>{$baseurl}news/archive/#{$n->getDate()|date_f:'Y-m-d'}</guid>
-			<link>{$baseurl}news/#{$n->getDate()|date_f:'Y-m-d'}</link>
+			<guid isPermaLink='true'>{$baseurl}news/archive/#{$n->getDate()|date_f:'Y-m-d'}{if $news_filename|strlen == 9}{$news_filename|substr:'-1'}{/if}</guid>
+			<link>{$baseurl}news/{$news_filename}/</link>
 		</item>
 		{/foreach}
 	</channel>

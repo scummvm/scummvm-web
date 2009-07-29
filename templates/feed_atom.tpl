@@ -17,9 +17,11 @@
 	{foreach from=$news item=n}
 		{assign var='timezone_offset' value=$n->getDate()|date_f:'Z'}
 		{assign var='updated' value=$n->getDate()-$timezone_offset}
+		{assign var='news_filename' value=$n->getFilename()|substr:'0':'-4'}
+
 		<entry xml:lang="en">
 			<id>{$baseurl}news/archive/#{$n->getDate()|date_f:'Y-m-d'}</id>
-			<link rel="alternate" href="{$baseurl}news/#{$n->getDate()|date_f:'Y-m-d'}" />
+			<link rel="alternate" href="{$baseurl}news/{$news_filename}/" />
 			<updated>{$updated|date_f:'Y-m-d\Th:i:s\Z'}</updated>
 			<published>{$updated|date_f:'Y-m-d\Th:i:s\Z'}</published>
 			<title type="html">{$n->getTitle()}</title>

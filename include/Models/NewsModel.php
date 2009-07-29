@@ -31,14 +31,14 @@ abstract class NewsModel extends BasicModel {
 			throw new ErrorException(self::NO_FILES);
 		}
 		$news = array();
-		foreach ($files as $file) {
-			if (substr($file, -4) != '.xml') {
+		foreach ($files as $filename) {
+			if (substr($filename, -4) != '.xml') {
 				continue;
 			}
-			if (!($data = @file_get_contents(DIR_NEWS . "/{$file}"))) {
+			if (!($data = @file_get_contents(DIR_NEWS . "/{$filename}"))) {
 				continue;
 			}
-			$news[] = new News($data);
+			$news[] = new News($data, $filename);
 		}
 		return array_reverse($news);
 	}
@@ -55,22 +55,42 @@ abstract class NewsModel extends BasicModel {
 			$newslist = array_slice($newslist, 0, $num);
 			$news = array();
 			foreach ($newslist as $date) {
-				$news[] = NewsModel::getByDate($date);
+				$news[] = NewsModel::getOneByDate($date);
 			}
 			return $news;
 		}
 	}
 
 	/* Get the news item that was posted on a specific date. */
-	static public function getByDate($date) {
-		if ($date == null || !is_numeric($date) || strlen($date) != 8) {
+	static public function getOneByDate($date) {
+		if (is_null($date) || !preg_match('/^\d{8}[a-z]?$/', $date)) {
 			throw new ErrorException(self::INVALID_DATE);
 		}
 		if (!is_file(($fname = DIR_NEWS . "/{$date}.xml"))
 			|| !is_readable($fname) || !($data = @file_get_contents($fname))) {
 			throw new ErrorException(self::FILE_NOT_FOUND);
 		}
-		return new News($data);
+		return new News($data, $fname);
+	}
+
+	/* Get the news item that was posted on a specific date. */
+	static public function getAllByDate($date) {
+		if ($date == null || !is_numeric($date) || strlen($date) != 8) {
+			throw new ErrorException(self::INVALID_DATE);
+		}
+		$files = glob(DIR_NEWS . "/{$date}*.xml");
+		if (!is_array($files) || count($files) == 0) {
+			throw new ErrorException(self::FILE_NOT_FOUND);
+		}
+		natsort($files);
+		$files = array_reverse($files);
+		$news = array();
+		foreach ($files as $filename) {
+			if (($data = @file_get_contents($filename))) {
+				$news[] = new News($data, $filename);
+			}
+		}
+		return $news;
 	}
 }
 ?>

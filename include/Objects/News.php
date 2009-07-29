@@ -9,6 +9,7 @@ class News extends BasicObject {
 	private $_author;
 	private $_image;
 	private $_content;
+	private $_filename;
 
 	/**
 	 * News object constructor that extracts the data from the pseudo-XML scheme
@@ -23,7 +24,7 @@ class News extends BasicObject {
 	 *
 	 * FIXME: It currently fails at grabbing the image (see 20020214.xml)
 	 */
-	public function __construct($data) {
+	public function __construct($data, $filename) {
 		$vars = array();
 		preg_match("/<NAME>(.*)<\/NAME>.*		# Grab the title
 					<DATE>(.*)<\/DATE>.*		# Grab the date
@@ -39,6 +40,7 @@ class News extends BasicObject {
 			$this->_image = $vars[4];
 			$this->_content = $vars[5];
 		}
+		$this->_filename = basename($filename);
 	}
 
 	/* Get the title. */
@@ -64,6 +66,11 @@ class News extends BasicObject {
 	/* Get the content. */
 	public function getContent() {
 		return $this->_content;
+	}
+
+	/* Get the filename. */
+	public function getFilename() {
+		return $this->_filename;
 	}
 }
 ?>

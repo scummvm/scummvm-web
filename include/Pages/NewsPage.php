@@ -29,12 +29,17 @@ class NewsPage extends Controller {
 	public function getNews($date = null) {
 		if ($date == null) {
 			$news_items = NewsModel::getAllNews();
+			$date = 'archive';
 		} else {
-			$news_items = array(NewsModel::getByDate($date));
+			if (strlen($date) == 8) {
+				$news_items = NewsModel::getAllByDate($date);
+			} else {
+				$news_items = array(NewsModel::getOneByDate($date));
+			}
 		}
-		
+
 		$this->addCSSFiles('news.css');
-		
+
 		return $this->renderPage(
 			array(
 				'title' => 'Home',
@@ -42,6 +47,7 @@ class NewsPage extends Controller {
 				'show_intro' => false,
 				'news_items' => $news_items,
 				'news_archive_link' => false,
+				'date' => $date,
 			),
 			$this->_template
 		);
