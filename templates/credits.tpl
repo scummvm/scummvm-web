@@ -13,6 +13,11 @@
 					}
 				</div>
 			{/foreach}
+			{* If the section itself has paragraphs, we must process them here. *}
+			{include
+				file='credits_entry.tpl'
+				paragraphs=$csection->getParagraphs()
+			}
 		{else}
 			{include
 				file='credits_entry.tpl'
