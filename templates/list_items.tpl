@@ -10,7 +10,7 @@
 				<span class="download-extras">
 					{if is_array($data)}
 						(
-							{if $item->getType() == 'svn'}build from Subversion trunk, {/if} 
+							{if $item->getType() == 'svn'}build from Subversion, {/if} 
 							{$data.size}K {if $data.ext == 'exe'}Win32 {/if}{$data.ext} file, last update: {$data.date}
 						)
 					{else}
