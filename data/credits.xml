@@ -50,6 +50,21 @@
 					<description></description>
 				</person>
 				<person>
+					<name>James Brown</name>
+					<alias>ender</alias>
+					<description>(retired)</description>
+				</person>
+				<person>
+					<name>Jonathan Gray</name>
+					<alias>khalek</alias>
+					<description>(retired)</description>
+				</person>
+				<person>
+					<name>Vincent Hamm</name>
+					<alias>yaz0r</alias>
+					<description>(retired)</description>
+				</person>
+				<person>
 					<name>Max Horn</name>
 					<alias>Fingolfin</alias>
 					<description></description>
@@ -74,9 +89,19 @@
 					<alias>sev</alias>
 					<description>FT INSANE, MM NES, MM C64, game detection, Herc/CGA</description>
 				</person>
+				<person>
+					<name>Ludvig Strigeus</name>
+					<alias>ludde</alias>
+					<description>(retired)</description>
+				</person>
 			</group>
 			<group>
 				<name>HE</name>
+				<person>
+					<name>Jonathan Gray</name>
+					<alias>khalek</alias>
+					<description>(retired)</description>
+				</person>
 				<person>
 					<name>Travis Howell</name>
 					<alias>Kirben</alias>
@@ -130,6 +155,11 @@
 					<alias>sev</alias>
 					<description></description>
 				</person>
+				<person>
+					<name>David Symonds</name>
+					<alias>dsymonds</alias>
+					<description>(retired)</description>
+				</person>
 			</group>
 			<group>
 				<name>AGOS</name>
@@ -148,9 +178,29 @@
 					<alias>Kirben</alias>
 					<description></description>
 				</person>
+				<person>
+					<name>Oliver Kiehl</name>
+					<alias>olki</alias>
+					<description>(retired)</description>
+				</person>
+				<person>
+					<name>Ludvig Strigeus</name>
+					<alias>ludde</alias>
+					<description>(retired)</description>
+				</person>
 			</group>
 			<group>
 				<name>BASS</name>
+				<person>
+					<name>Robert G&ouml;ffringmann</name>
+					<alias>lavosspawn</alias>
+					<description>(retired)</description>
+				</person>
+				<person>
+					<name>Oliver Kiehl</name>
+					<alias>olki</alias>
+					<description>(retired)</description>
+				</person>
 				<person>
 					<name>Joost Peters</name>
 					<alias>joostp</alias>
@@ -159,6 +209,11 @@
 			</group>
 			<group>
 				<name>Broken Sword 1</name>
+				<person>
+					<name>Robert G&ouml;ffringmann</name>
+					<alias>lavosspawn</alias>
+					<description>(retired)</description>
+				</person>
 			</group>
 			<group>
 				<name>Broken Sword 2</name>
@@ -167,13 +222,18 @@
 					<alias>eriktorbjorn</alias>
 					<description></description>
 				</person>
+				<person>
+					<name>Jonathan Gray</name>
+					<alias>khalek</alias>
+					<description>(retired)</description>
+				</person>
 			</group>
 			<group>
 				<name>Cinematique evo 1</name>
 				<person>
 					<name>Vincent Hamm</name>
-					<alias>yazoo</alias>
-					<description>original CinE engine author</description>
+					<alias>yaz0r</alias>
+					<description>(retired)</description>
 				</person>
 				<person>
 					<name>Pawe&#322; Ko&#322;odziejski</name>
@@ -186,6 +246,11 @@
 					<description></description>
 				</person>
 				<person>
+					<name>Kari Salminen</name>
+					<alias>Buddha^</alias>
+					<description></description>
+				</person>
+				<person>
 					<name>Eugene Sandulenko</name>
 					<alias>sev</alias>
 					<description></description>
@@ -194,14 +259,14 @@
 			<group>
 				<name>Cinematique evo 2</name>
 				<person>
-					<name>Vincent Hamm</name>
-					<alias>yazoo</alias>
-					<description>original CruisE engine author</description>
-				</person>
-				<person>
 					<name>Paul Gilbert</name>
 					<alias>dreammaster</alias>
 					<description></description>
+				</person>
+				<person>
+					<name>Vincent Hamm</name>
+					<alias>yaz0r</alias>
+					<description>(retired)</description>
 				</person>
 			</group>
 			<group>
@@ -219,6 +284,11 @@
 			</group>
 			<group>
 				<name>FOTAQ</name>
+				<person>
+					<name>David Eriksson</name>
+					<alias>twogood</alias>
+					<description>(retired)</description>
+				</person>
 				<person>
 					<name>Gregory Montoir</name>
 					<alias>cyx</alias>
@@ -295,7 +365,7 @@
 				</person>
 				<person>
 					<name>Johannes Schickel</name>
-					<alias>LordHoto</alias>
+					<alias>10rdH070</alias>
 					<description></description>
 				</person>
 			</group>
@@ -321,7 +391,7 @@
 				</person>
 				<person>
 					<name>Benjamin Haisch</name>
-					<alias>johndoe</alias>
+					<alias>john_doe</alias>
 					<description></description>
 				</person>
 				<person>
@@ -334,7 +404,7 @@
 				<name>MADE</name>
 				<person>
 					<name>Benjamin Haisch</name>
-					<alias>johndoe</alias>
+					<alias>john_doe</alias>
 					<description></description>
 				</person>
 				<person>
@@ -356,11 +426,6 @@
 				<person>
 					<name>Torbj&ouml;rn Andersson</name>
 					<alias>eriktorbjorn</alias>
-					<description></description>
-				</person>
-				<person>
-					<name>Sven Hesse</name>
-					<alias>DrMcCoy</alias>
 					<description></description>
 				</person>
 				<person>
@@ -520,6 +585,11 @@
 			<group>
 				<name>PocketPC / WinCE</name>
 				<person>
+					<name>Nicolas Bacca</name>
+					<alias>arisme</alias>
+					<description>(retired)</description>
+				</person>
+				<person>
 					<name>Kostas Nakos</name>
 					<alias>Jubanka</alias>
 					<description></description>
@@ -527,6 +597,11 @@
 			</group>
 			<group>
 				<name>PlayStation 2</name>
+				<person>
+					<name>Robert G&ouml;ffringmann</name>
+					<alias>lavosspawn</alias>
+					<description>(retired)</description>
+				</person>
 				<person>
 					<name>Max Lingua</name>
 					<alias>sunmax</alias>
@@ -605,7 +680,7 @@
 				</person>
 				<person>
 					<name>Johannes Schickel</name>
-					<alias>LordHoto</alias>
+					<alias>10rdH070</alias>
 					<description></description>
 				</person>
 			</group>
@@ -614,27 +689,43 @@
 				<person>
 					<name>David Corrales-Lopez</name>
 					<alias>david_corrales</alias>
-					<description>Filesystem access improvements (GSoC 2007 task)</description>
+					<description>Filesystem access improvements (GSoC 2007 task) (retired)</description>
 				</person>
 				<person>
 					<name>Jerome Fisher</name>
 					<alias>KingGuppy</alias>
-					<description>MT-32 emulator</description>
+					<description>MT-32 emulator (retired)</description>
+				</person>
+				<person>
+					<name>Benjamin Haisch</name>
+					<alias>john_doe</alias>
+					<description>Heavily improved de-/encoder for DXA videos</description>
 				</person>
 				<person>
 					<name>Jochen Hoenicke</name>
 					<alias>hoenicke</alias>
-					<description>Speaker &amp; PCjr sound support, AdLib work</description>
+					<description>Speaker &amp; PCjr sound support, AdLib work (retired)</description>
 				</person>
 				<person>
 					<name>Chris Page</name>
 					<alias>cp88</alias>
-					<description>Return to launcher, savestate improvements, leak fixes, ... (GSoC 2008 task)</description>
+					<description>Return to launcher, savestate improvements, leak fixes, ... (GSoC 2008 task) (retired)</description>
 				</person>
 				<person>
 					<name>Robin Watts</name>
 					<alias>robinwatts</alias>
 					<description>ARM assembly routines for nice speedups on several ports; improvements to the sound mixer</description>
+				</person>
+			</group>
+		</subsection>
+		<subsection>
+			<title>Website (code)</title>
+			<group>
+				<name></name>
+				<person>
+					<name>Fredrik Wendel</name>
+					<alias></alias>
+					<description></description>
 				</person>
 			</group>
 		</subsection>
@@ -655,6 +746,352 @@
 					<name>Matthew Hoops</name>
 					<alias>clone2727</alias>
 					<description>Wiki editor</description>
+				</person>
+			</group>
+		</subsection>
+		<subsection>
+			<title>Retired Team Members</title>
+			<group>
+				<name></name>
+				<person>
+					<name>Ralph Brorsen</name>
+					<alias>painelf</alias>
+					<description>Help with GUI implementation</description>
+				</person>
+				<person>
+					<name>Jamieson Christian</name>
+					<alias>jamieson630</alias>
+					<description>iMUSE, MIDI, all things musical</description>
+				</person>
+				<person>
+					<name>Felix Jakschitsch</name>
+					<alias>yot</alias>
+					<description>Zak256 reverse engineering</description>
+				</person>
+				<person>
+					<name>Mutwin Kraus</name>
+					<alias>mutle</alias>
+					<description>Original MacOS porter</description>
+				</person>
+				<person>
+					<name>Peter Moraliyski</name>
+					<alias>ph0x</alias>
+					<description>Port: GP32</description>
+				</person>
+				<person>
+					<name>Jeremy Newman</name>
+					<alias>laxdragon</alias>
+					<description>Former webmaster</description>
+				</person>
+				<person>
+					<name>Lionel Ulmer</name>
+					<alias>bbrox</alias>
+					<description>Port: X11</description>
+				</person>
+				<person>
+					<name>Won Star</name>
+					<alias>wonst719</alias>
+					<description>Former GP32 porter</description>
+				</person>
+			</group>
+		</subsection>
+	</section>
+	<section>
+		<title>Other contributions</title>
+		<subsection>
+			<title>Packages</title>
+			<group>
+				<name>AmigaOS 4</name>
+				<person>
+					<name>Hans-J&ouml;rg Frieden</name>
+					<alias></alias>
+					<description>(retired)</description>
+				</person>
+				<person>
+					<name>Hubert Maier</name>
+					<alias>Raziel_AOne</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Juha Niemim&auml;ki</name>
+					<alias></alias>
+					<description>(retired)</description>
+				</person>
+			</group>
+			<group>
+				<name>Atari/FreeMiNT</name>
+				<person>
+					<name>Keith Scroggins</name>
+					<alias>KeithS</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>BeOS</name>
+				<person>
+					<name>Stefan Parviainen</name>
+					<alias></alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Luc Schrijvers</name>
+					<alias>Begasus</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Debian GNU/Linux</name>
+				<person>
+					<name>Tore Anderson</name>
+					<alias>tore</alias>
+					<description>(retired)</description>
+				</person>
+				<person>
+					<name>David Weinehall</name>
+					<alias>tao</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Fedora / RedHat</name>
+				<person>
+					<name>Willem Jan Palenstijn</name>
+					<alias>wjp</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Mac OS X</name>
+				<person>
+					<name>Max Horn</name>
+					<alias>Fingolfin</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Oystein Eftevaag</name>
+					<alias>vinterstum</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Mandriva</name>
+				<person>
+					<name>Dominik Scherer</name>
+					<alias></alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>MorphOS</name>
+				<person>
+					<name>Fabien Coeurjoly</name>
+					<alias>fab1</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>R&uuml;diger Hanke</name>
+					<alias></alias>
+					<description>(retired)</description>
+				</person>
+			</group>
+			<group>
+				<name>OS/2</name>
+				<person>
+					<name>Paul Smedley</name>
+					<alias>Creeping</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>SlackWare</name>
+				<person>
+					<name>Robert Kelsen</name>
+					<alias></alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Solaris x86</name>
+				<person>
+					<name>Laurent Blume</name>
+					<alias>laurent</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Solaris SPARC</name>
+				<person>
+					<name>Markus Strangl</name>
+					<alias>WooShell</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Win32</name>
+				<person>
+					<name>Travis Howell</name>
+					<alias>Kirben</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Win64</name>
+				<person>
+					<name>Chris Gray</name>
+					<alias>Psychoid</alias>
+					<description></description>
+				</person>
+			</group>
+		</subsection>
+		<subsection>
+			<title>Websites (design)</title>
+			<group>
+				<name></name>
+				<person>
+					<name>Dob&oacute; Bal&aacute;zs</name>
+					<alias>draven</alias>
+					<description>Website design</description>
+				</person>
+				<person>
+					<name>Yaroslav Fedevych</name>
+					<alias>jafd</alias>
+					<description>HTML/CSS for the website</description>
+				</person>
+				<person>
+					<name>David Jensen</name>
+					<alias>Tyst</alias>
+					<description>SVG logo conversion</description>
+				</person>
+				<person>
+					<name>Jean Marc Gimenez</name>
+					<alias></alias>
+					<description>ScummVM logo</description>
+				</person>
+				<person>
+					<name>???</name>
+					<alias>Raina</alias>
+					<description>ScummVM forum buttons</description>
+				</person>
+			</group>
+		</subsection>
+		<subsection>
+			<title>Code contributions</title>
+			<group>
+				<name></name>
+				<person>
+					<name>Ori Avtalion</name>
+					<alias>salty-horse</alias>
+					<description>Subtitle control options in the GUI; BASS GUI fixes</description>
+				</person>
+				<person>
+					<name>Stuart Caie</name>
+					<alias></alias>
+					<description>Decoders for Amiga and AtariST data files (AGOS engine)</description>
+				</person>
+				<person>
+					<name>Paolo Costabel</name>
+					<alias></alias>
+					<description>PSP port contributions</description>
+				</person>
+				<person>
+					<name>Thierry Crozat</name>
+					<alias>criezy</alias>
+					<description>Support for Broken Sword 1 Macintosh version</description>
+				</person>
+				<person>
+					<name>Martin Doucha</name>
+					<alias>next_ghost</alias>
+					<description>CinE engine objectification</description>
+				</person>
+				<person>
+					<name>Thomas Fach-Pedersen</name>
+					<alias>madmoose</alias>
+					<description>ProTracker module player</description>
+				</person>
+				<person>
+					<name>Janne Huttunen</name>
+					<alias></alias>
+					<description>V3 actor mask support, Dig/FT SMUSH audio</description>
+				</person>
+				<person>
+					<name>Kov&aacute;cs Endre J&aacute;nos</name>
+					<alias></alias>
+					<description>Several fixes for Simon1</description>
+				</person>
+				<person>
+					<name>Jeroen Janssen</name>
+					<alias>japj</alias>
+					<description>Numerous readability and bugfix patches</description>
+				</person>
+				<person>
+					<name>Andreas Karlsson</name>
+					<alias>Sprawl</alias>
+					<description>Initial port for SymbianOS</description>
+				</person>
+				<person>
+					<name>Claudio Matsuoka</name>
+					<alias></alias>
+					<description>Daily Linux builds</description>
+				</person>
+				<person>
+					<name>Thomas Mayer</name>
+					<alias></alias>
+					<description>PSP port contributions</description>
+				</person>
+				<person>
+					<name>Sean Murray</name>
+					<alias>lightcast</alias>
+					<description>ScummVM tools GUI application (GSoC 2007 task)</description>
+				</person>
+				<person>
+					<name>???</name>
+					<alias>n0p</alias>
+					<description>Windows CE port aspect ratio correction scaler and right click input method</description>
+				</person>
+				<person>
+					<name>Mikesch Nepomuk</name>
+					<alias>mnepomuk</alias>
+					<description>MI1 VGA floppy patches</description>
+				</person>
+				<person>
+					<name>Nicolas Noble</name>
+					<alias>pixels</alias>
+					<description>Config file and ALSA support</description>
+				</person>
+				<person>
+					<name>Tim Phillips</name>
+					<alias>realmz</alias>
+					<description>Initial MI1 CD music support</description>
+				</person>
+				<person>
+					<name>???</name>
+					<alias>Quietust</alias>
+					<description>Sound support for Amiga SCUMM V2/V3 games, MM NES support</description>
+				</person>
+				<person>
+					<name>???</name>
+					<alias>segra</alias>
+					<description>Improved support for Apple II/C64 versions of MM</description>
+				</person>
+				<person>
+					<name>Andreas R&ouml;ver</name>
+					<alias></alias>
+					<description>Broken Sword 1/2 MPEG2 cutscene support</description>
+				</person>
+				<person>
+					<name>Edward Rudd</name>
+					<alias>urkle</alias>
+					<description>Fixes for playing MP3 versions of MI1/Loom audio</description>
+				</person>
+				<person>
+					<name>Daniel Schepler</name>
+					<alias>dschepler</alias>
+					<description>Final MI1 CD music support, initial Ogg Vorbis support</description>
+				</person>
+				<person>
+					<name>Andr&eacute; Souza</name>
+					<alias>luke_br</alias>
+					<description>SDL-based OpenGL renderer</description>
 				</person>
 			</group>
 		</subsection>
@@ -843,389 +1280,8 @@
 					<description></description>
 				</person>
 			</group>
-		<paragraph>Special thanks to Prof. Dr. Gary Nutt for allowing the FreeSCI VM extension as a course project in his Advanced OS course</paragraph>
-		<paragraph>Special thanks to Bob Heitman and Corey Cole for their support of FreeSCI</paragraph>
-		</subsection>
-		<subsection>
-			<title>Retired Team Members</title>
-			<group>
-				<name></name>
-				<person>
-					<name>Tore Anderson</name>
-					<alias>tore</alias>
-					<description>Former Debian GNU/Linux maintainer</description>
-				</person>
-				<person>
-					<name>Nicolas Bacca</name>
-					<alias>arisme</alias>
-					<description>Former WinCE porter</description>
-				</person>
-				<person>
-					<name>Ralph Brorsen</name>
-					<alias>painelf</alias>
-					<description>Help with GUI implementation</description>
-				</person>
-				<person>
-					<name>Jamieson Christian</name>
-					<alias>jamieson630</alias>
-					<description>iMUSE, MIDI, all things musical</description>
-				</person>
-				<person>
-					<name>David Eriksson</name>
-					<alias>twogood</alias>
-					<description>Engines: FOTAQ</description>
-				</person>
-				<person>
-					<name>Hans-J&ouml;rg Frieden</name>
-					<alias></alias>
-					<description>Former AmigaOS 4 packager</description>
-				</person>
-				<person>
-					<name>Robert G&ouml;ffringmann</name>
-					<alias>lavosspawn</alias>
-					<description>Original PS2 porter; Engines: BASS, BS1</description>
-				</person>
-				<person>
-					<name>Jonathan Gray</name>
-					<alias>khalek</alias>
-					<description>Engines: SCUMM, HE, BS2</description>
-				</person>
-				<person>
-					<name>R&uuml;diger Hanke</name>
-					<alias></alias>
-					<description>Port: MorphOS</description>
-				</person>
-				<person>
-					<name>Felix Jakschitsch</name>
-					<alias>yot</alias>
-					<description>Zak256 reverse engineering</description>
-				</person>
-				<person>
-					<name>Oliver Kiehl</name>
-					<alias>olki</alias>
-					<description>Engines: AGOS, BASS</description>
-				</person>
-				<person>
-					<name>Mutwin Kraus</name>
-					<alias>mutle</alias>
-					<description>Original MacOS porter</description>
-				</person>
-				<person>
-					<name>Peter Moraliyski</name>
-					<alias>ph0x</alias>
-					<description>Port: GP32</description>
-				</person>
-				<person>
-					<name>Juha Niemim&auml;ki</name>
-					<alias></alias>
-					<description>Former AmigaOS 4 packager</description>
-				</person>
-				<person>
-					<name>Jeremy Newman</name>
-					<alias>laxdragon</alias>
-					<description>Former webmaster</description>
-				</person>
-				<person>
-					<name>Lionel Ulmer</name>
-					<alias>bbrox</alias>
-					<description>Port: X11</description>
-				</person>
-				<person>
-					<name>Won Star</name>
-					<alias>wonst719</alias>
-					<description>Former GP32 porter</description>
-				</person>
-				<person>
-					<name>David Symonds</name>
-					<alias>dsymonds</alias>
-					<description>Engines: AGI</description>
-				</person>
-			</group>
-		</subsection>
-	</section>
-	<section>
-		<title>Other contributions</title>
-		<subsection>
-			<title>Packages</title>
-			<group>
-				<name>AmigaOS 4</name>
-				<person>
-					<name>Hubert Maier</name>
-					<alias>Raziel_AOne</alias>
-					<description></description>
-				</person>
-			</group>
-			<group>
-				<name>Atari/FreeMiNT</name>
-				<person>
-					<name>Keith Scroggins</name>
-					<alias>KeithS</alias>
-					<description></description>
-				</person>
-			</group>
-			<group>
-				<name>BeOS</name>
-				<person>
-					<name>Stefan Parviainen</name>
-					<alias></alias>
-					<description></description>
-				</person>
-				<person>
-					<name>Luc Schrijvers</name>
-					<alias>Begasus</alias>
-					<description></description>
-				</person>
-			</group>
-			<group>
-				<name>Debian GNU/Linux</name>
-				<person>
-					<name>David Weinehall</name>
-					<alias>tao</alias>
-					<description></description>
-				</person>
-			</group>
-			<group>
-				<name>Fedora / RedHat</name>
-				<person>
-					<name>Willem Jan Palenstijn</name>
-					<alias>wjp</alias>
-					<description></description>
-				</person>
-			</group>
-			<group>
-				<name>Mac OS X</name>
-				<person>
-					<name>Max Horn</name>
-					<alias>Fingolfin</alias>
-					<description></description>
-				</person>
-				<person>
-					<name>Oystein Eftevaag</name>
-					<alias>vinterstum</alias>
-					<description></description>
-				</person>
-			</group>
-			<group>
-				<name>Mandriva</name>
-				<person>
-					<name>Dominik Scherer</name>
-					<alias></alias>
-					<description></description>
-				</person>
-			</group>
-			<group>
-				<name>MorphOS</name>
-				<person>
-					<name>Fabien Coeurjoly</name>
-					<alias>fab1</alias>
-					<description></description>
-				</person>
-			</group>
-			<group>
-				<name>OS/2</name>
-				<person>
-					<name>Paul Smedley</name>
-					<alias>Creeping</alias>
-					<description></description>
-				</person>
-			</group>
-			<group>
-				<name>SlackWare</name>
-				<person>
-					<name>Robert Kelsen</name>
-					<alias></alias>
-					<description></description>
-				</person>
-			</group>
-			<group>
-				<name>Solaris x86</name>
-				<person>
-					<name>Laurent Blume</name>
-					<alias>laurent</alias>
-					<description></description>
-				</person>
-			</group>
-			<group>
-				<name>Solaris SPARC</name>
-				<person>
-					<name>Markus Strangl</name>
-					<alias>WooShell</alias>
-					<description></description>
-				</person>
-			</group>
-			<group>
-				<name>Win32</name>
-				<person>
-					<name>Travis Howell</name>
-					<alias>Kirben</alias>
-					<description></description>
-				</person>
-			</group>
-			<group>
-				<name>Win64</name>
-				<person>
-					<name>Chris Gray</name>
-					<alias>Psychoid</alias>
-					<description></description>
-				</person>
-			</group>
-		</subsection>
-		<subsection>
-			<title>Websites (design)</title>
-			<group>
-				<name></name>
-				<person>
-					<name>Dob&oacute; Bal&aacute;zs</name>
-					<alias>draven</alias>
-					<description>Website design</description>
-				</person>
-				<person>
-					<name>Yaroslav Fedevych</name>
-					<alias>jafd</alias>
-					<description>HTML/CSS for the website</description>
-				</person>
-				<person>
-					<name>David Jensen</name>
-					<alias>Tyst</alias>
-					<description>SVG logo conversion</description>
-				</person>
-				<person>
-					<name>Jean Marc Gimenez</name>
-					<alias></alias>
-					<description>ScummVM logo</description>
-				</person>
-				<person>
-					<name>???</name>
-					<alias>Raina</alias>
-					<description>ScummVM forum buttons</description>
-				</person>
-			</group>
-		</subsection>
-		<subsection>
-			<title>Code contributions</title>
-			<group>
-				<name></name>
-				<person>
-					<name>Ori Avtalion</name>
-					<alias>salty-horse</alias>
-					<description>Subtitle control options in the GUI; BASS GUI fixes</description>
-				</person>
-				<person>
-					<name>Stuart Caie</name>
-					<alias></alias>
-					<description>Decoders for Amiga and AtariST data files (AGOS engine)</description>
-				</person>
-				<person>
-					<name>Paolo Costabel</name>
-					<alias></alias>
-					<description>PSP port contributions</description>
-				</person>
-				<person>
-					<name>Thierry Crozat</name>
-					<alias>criezy</alias>
-					<description>Support for Broken Sword 1 Macintosh version</description>
-				</person>
-				<person>
-					<name>Martin Doucha</name>
-					<alias>next_ghost</alias>
-					<description>CinE engine objectification</description>
-				</person>
-				<person>
-					<name>Thomas Fach-Pedersen</name>
-					<alias>madmoose</alias>
-					<description>ProTracker module player</description>
-				</person>
-				<person>
-					<name>Benjamin Haisch</name>
-					<alias>john_doe</alias>
-					<description>Heavily improved de-/encoder for DXA videos</description>
-				</person>
-				<person>
-					<name>Janne Huttunen</name>
-					<alias></alias>
-					<description>V3 actor mask support, Dig/FT SMUSH audio</description>
-				</person>
-				<person>
-					<name>Kov&aacute;cs Endre J&aacute;nos</name>
-					<alias></alias>
-					<description>Several fixes for Simon1</description>
-				</person>
-				<person>
-					<name>Jeroen Janssen</name>
-					<alias>japj</alias>
-					<description>Numerous readability and bugfix patches</description>
-				</person>
-				<person>
-					<name>Andreas Karlsson</name>
-					<alias>Sprawl</alias>
-					<description>Initial port for SymbianOS</description>
-				</person>
-				<person>
-					<name>Claudio Matsuoka</name>
-					<alias></alias>
-					<description>Daily Linux builds</description>
-				</person>
-				<person>
-					<name>Thomas Mayer</name>
-					<alias></alias>
-					<description>PSP port contributions</description>
-				</person>
-				<person>
-					<name>Sean Murray</name>
-					<alias>lightcast</alias>
-					<description>ScummVM tools GUI application (GSoC 2007 task)</description>
-				</person>
-				<person>
-					<name>???</name>
-					<alias>n0p</alias>
-					<description>Windows CE port aspect ratio correction scaler and right click input method</description>
-				</person>
-				<person>
-					<name>Mikesch Nepomuk</name>
-					<alias>mnepomuk</alias>
-					<description>MI1 VGA floppy patches</description>
-				</person>
-				<person>
-					<name>Nicolas Noble</name>
-					<alias>pixels</alias>
-					<description>Config file and ALSA support</description>
-				</person>
-				<person>
-					<name>Tim Phillips</name>
-					<alias>realmz</alias>
-					<description>Initial MI1 CD music support</description>
-				</person>
-				<person>
-					<name>???</name>
-					<alias>Quietust</alias>
-					<description>Sound support for Amiga SCUMM V2/V3 games, MM NES support</description>
-				</person>
-				<person>
-					<name>???</name>
-					<alias>segra</alias>
-					<description>Improved support for Apple II/C64 versions of MM</description>
-				</person>
-				<person>
-					<name>Andreas R&ouml;ver</name>
-					<alias></alias>
-					<description>Broken Sword 1/2 MPEG2 cutscene support</description>
-				</person>
-				<person>
-					<name>Edward Rudd</name>
-					<alias>urkle</alias>
-					<description>Fixes for playing MP3 versions of MI1/Loom audio</description>
-				</person>
-				<person>
-					<name>Daniel Schepler</name>
-					<alias>dschepler</alias>
-					<description>Final MI1 CD music support, initial Ogg Vorbis support</description>
-				</person>
-				<person>
-					<name>Andr&eacute; Souza</name>
-					<alias>luke_br</alias>
-					<description>SDL-based OpenGL renderer</description>
-				</person>
-			</group>
+		<paragraph>Special thanks to Prof. Dr. Gary Nutt for allowing the FreeSCI VM extension as a course project in his Advanced OS course.</paragraph>
+		<paragraph>Special thanks to Bob Heitman and Corey Cole for their support of FreeSCI.</paragraph>
 		</subsection>
 		<paragraph>And to all the contributors, users, and beta testers we've missed. Thanks!</paragraph>
 	</section>
