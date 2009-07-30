@@ -594,6 +594,11 @@
 			<group>
 				<name>GUI</name>
 				<person>
+					<name>Vicent Marti</name>
+					<alias>tanoku</alias>
+					<description></description>
+				</person>
+				<person>
 					<name>Eugene Sandulenko</name>
 					<alias>sev</alias>
 					<description></description>
@@ -1194,6 +1199,11 @@
 					<name>???</name>
 					<alias>Quietust</alias>
 					<description>Sound support for Amiga SCUMM V2/V3 games, MM NES support</description>
+				</person>
+				<person>
+					<name>???</name>
+					<alias>segra</alias>
+					<description>Improved support for Apple II/C64 versions of MM</description>
 				</person>
 				<person>
 					<name>Andreas R&ouml;ver</name>
