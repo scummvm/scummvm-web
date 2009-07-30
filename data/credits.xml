@@ -210,6 +210,11 @@
 			<group>
 				<name>Broken Sword 1</name>
 				<person>
+					<name>Fabio Battaglia</name>
+					<alias>Hkz</alias>
+					<description>PSX version support</description>
+				</person>
+				<person>
 					<name>Robert G&ouml;ffringmann</name>
 					<alias>lavosspawn</alias>
 					<description>(retired)</description>
@@ -221,6 +226,11 @@
 					<name>Torbj&ouml;rn Andersson</name>
 					<alias>eriktorbjorn</alias>
 					<description></description>
+				</person>
+				<person>
+					<name>Fabio Battaglia</name>
+					<alias>Hkz</alias>
+					<description>PSX version support</description>
 				</person>
 				<person>
 					<name>Jonathan Gray</name>
@@ -365,7 +375,7 @@
 				</person>
 				<person>
 					<name>Johannes Schickel</name>
-					<alias>10rdH070</alias>
+					<alias>LordHoto</alias>
 					<description></description>
 				</person>
 			</group>
@@ -488,6 +498,11 @@
 					<name>Torbj&ouml;rn Andersson</name>
 					<alias>eriktorbjorn</alias>
 					<description></description>
+				</person>
+				<person>
+					<name>Fabio Battaglia</name>
+					<alias>Hkz</alias>
+					<description>PSX version support</description>
 				</person>
 				<person>
 					<name>Paul Gilbert</name>
@@ -680,7 +695,7 @@
 				</person>
 				<person>
 					<name>Johannes Schickel</name>
-					<alias>10rdH070</alias>
+					<alias>LordHoto</alias>
 					<description></description>
 				</person>
 			</group>
