@@ -875,6 +875,11 @@
 						<h:a href="http://buildbot.scummvm.org/snapshots/1.0.0/wii-1.0.0-latest.tar.bz2">Wii nightly build</h:a> 
 						<h:span class="download-extras">&nbsp;</h:span>
 					</h:li>
+					<h:li class="file">
+						<h:img src="images/catpl-wince.png" alt="" class="category" /> 
+						<h:a href="http://buildbot.scummvm.org/snapshots/1.0.0/wince-1.0.0-latest.tar.bz2">Windows CE ARM nightly build</h:a> 
+						<h:span class="download-extras">&nbsp;</h:span>
+					</h:li>
 				</h:ul>	
 				<h:p>Additional snapshot builds:</h:p>
 			</notes>
