@@ -500,7 +500,7 @@
 				<target>cruise</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable. Only PC version is supported.
+					Game is completable. Only PC version with Adlib emulation is supported.
 				</notes>
 			</game>
 			<game>
