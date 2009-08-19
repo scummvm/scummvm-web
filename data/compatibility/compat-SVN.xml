@@ -500,7 +500,7 @@
 				<target>cruise</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable. Only PC version with Adlib emulation is supported.
+					Game is completable<h:br />- Only DOS versions are supported by this target<h:br />- Only AdLib music and sound effects are supported
 				</notes>
 			</game>
 			<game>
@@ -508,9 +508,7 @@
 				<target>dw</target>
 				<percent>98</percent>
 				<notes>
-					Game is completable<h:br />
-				- PC Version - No major issues<h:br />
-				- PSX Version - Still missing music 						suport.
+				Game is completable<h:br />- DOS and PSX versions are supported by this target<h:br />- PSX version is missing music support
 				</notes>
 			</game>
 			<game>
@@ -518,7 +516,7 @@
 				<target>dw2</target>
 				<percent>98</percent>
 				<notes>
-					Game is completable. Only the PC version is supported.
+					Game is completable.<h:br />- DOS and Windows versions are supported by this target
 				</notes>
 			</game>
 			<game>
