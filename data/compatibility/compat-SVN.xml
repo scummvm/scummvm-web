@@ -629,6 +629,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Backyard Football 2002</name>
+				<target>football2002</target>
+				<percent>70</percent>
+				<notes>
+					Game is playable, with minor glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Array out of bounds error when computer chooses a player, when selecting teams<h:br />- Minor graphical glitches<h:br />- No videos
+				</notes>
+			</game>
+			<game>
 				<name>Backyard Soccer</name>
 				<target>soccer</target>
 				<percent>20</percent>
@@ -677,11 +685,27 @@
 				</notes>
 			</game>
 			<game>
+				<name>Blue's Art Time Activities</name>
+				<target>arttime</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
 				<name>Blue's Birthday Adventure</name>
 				<target>BluesBirthday</target>
 				<percent>50</percent>
 				<notes>
 					Game is playable<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Blue's Reading Time Activities</name>
+				<target>readtime</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
 			<game>
@@ -741,6 +765,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Freddi Fish 5: The Case of the Creature of Coral Cave</name>
+				<target>freddicove</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
 				<name>Freddi Fish and Luther's Maze Madness</name>
 				<target>maze</target>
 				<percent>90</percent>
@@ -778,6 +810,14 @@
 				<percent>90</percent>
 				<notes>
 					No known issues, game is playable<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Pajama Sam: Games to Play On Any Day</name>
+				<target>pjgames</target>
+				<percent>70</percent>
+				<notes>
+					All games, except Jumping Beans are playable<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Jumping Beans freezes, after introduction
 				</notes>
 			</game>
 			<game>
