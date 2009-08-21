@@ -621,6 +621,22 @@
 				</notes>
 			</game>
 			<game>
+				<name>Backyard Baseball 2001</name>
+				<target>baseball2001</target>
+				<percent>20</percent>
+				<notes>
+					Game is playable, with glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Array out of bounds errors sometimes<h:br />- Minor graphical glitches
+				</notes>
+			</game>
+			<game>
+				<name>Backyard Baseball 2003</name>
+				<target>baseball2003</target>
+				<percent>20</percent>
+				<notes>
+					Game is playable, with glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Array out of bounds errors sometimes<h:br />- Minor graphical glitches
+				</notes>
+			</game>
+			<game>
 				<name>Backyard Football</name>
 				<target>football</target>
 				<percent>80</percent>
