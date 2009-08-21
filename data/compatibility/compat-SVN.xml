@@ -653,14 +653,6 @@
 				</notes>
 			</game>
 			<game>
-				<name>Backyard Soccer</name>
-				<target>soccer</target>
-				<percent>20</percent>
-				<notes>
-					Game isn't playable<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- PlayStation 1 version doesn't use SCUMM, so will never be supported.<h:br />- Players on field are stuck in upper left corner and can't be controlled<h:br />- Minor graphical glitches
-				</notes>
-			</game>
-			<game>
 				<name>Bear Stormin'</name>
 				<target>brstorm</target>
 				<percent>95</percent>
