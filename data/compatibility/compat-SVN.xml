@@ -959,9 +959,9 @@
 			<game>
 				<name>SPY Fox 3: Operation Ozone</name>
 				<target>spyozon</target>
-				<percent>70</percent>
+				<percent>90</percent>
 				<notes>
-					Game is completable, with glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Need to guess the correct colors of Poodles's fingernails<h:br />- Various palette glitches
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
 			<game>
