@@ -191,7 +191,7 @@
 				<target>baseball</target>
 			</demo>
 			<demo>
-				<name>Backyard Baseball 2001 (Windows Demo)</name>
+				<name>Backyard Baseball 2001 (Windows Demo) - Requires ScummVM 1.1.0svn</name>
 				<url>http://demos.robertmegone.com/scumm/he/baseball2001-win-demo-us.zip</url>
 				<target>baseball2001</target>
 			</demo>
