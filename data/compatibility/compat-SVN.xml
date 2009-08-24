@@ -62,7 +62,7 @@
 				<target>monkey</target>
 				<percent>95</percent>
 				<notes>
-					No known issues, game is completable.<h:br />- Amiga, Atari ST, FM-TOWNS, Macintosh, PC and SegaCD versions supported by this target<h:br />- The Roland update from LucasArts is required for MIDI support in the EGA version<h:br />- No music or sound effects in the Amiga version<h:br />- Dialogue choices in the SegaCD version can be selected with mousewheel or keyboard arrow keys
+					No known issues, game is completable.<h:br />- Amiga, Atari ST, FM-TOWNS, Macintosh, PC and SegaCD versions supported by this target<h:br />- The Roland update from LucasArts is required for MIDI support in the EGA version<h:br />- Dialogue choices in the SegaCD version can be selected with mousewheel or keyboard arrow keys
 				</notes>
 			</game>
 			<game>
