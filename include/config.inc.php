@@ -1,8 +1,8 @@
 <?php
 /* Current version. */
-define('RELEASE', '0.13.1');
-define('RELEASE_TAG', 'release-0-13-1');
-define('RELEASE_TOOLS', '0.13.0');
+define('RELEASE', '1.0.0rc1');
+define('RELEASE_TAG', 'release-1-0-0rc1');
+define('RELEASE_TOOLS', '1.0.0rc1');
 define('RELEASE_DEBIAN', '0.13.1');
 
 /* News items on the front page. */
