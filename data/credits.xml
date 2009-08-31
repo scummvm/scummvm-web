@@ -579,6 +579,14 @@
 				</person>
 			</group>
 			<group>
+				<name>LinuxMoto</name>
+				<person>
+					<name>Lubomyr Lisen</name>
+					<alias></alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>Maemo</name>
 				<person>
 					<name>Frantisek Dufka</name>
@@ -1057,6 +1065,11 @@
 					<name>Thomas Mayer</name>
 					<alias></alias>
 					<description>PSP port contributions</description>
+				</person>
+				<person>
+					<name>Yotam Barnoy</name>
+					<alias>bluddy</alias>
+					<description>PSP port suspend/resume support</description>
 				</person>
 				<person>
 					<name>Sean Murray</name>
