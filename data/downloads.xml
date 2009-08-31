@@ -42,32 +42,32 @@
 	
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
-					<url>scummvm_{$release}-lenny.1_i386.deb?download</url>
+					<url>scummvm_1.0.0~rc1-lenny.1_i386.deb?download</url>
 					<name>Debian 5.0 (lenny) i386 package</name>
 					<extra_info>(4.1M .deb)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
-					<url>scummvm_{$release}-lenny.1_amd64.deb?download</url>
+					<url>scummvm_1.0.0~rc1-lenny.1_amd64.deb?download</url>
 					<name>Debian 5.0 (lenny) x86 64bit package</name>
 					<extra_info>(4.6M .deb)</extra_info>
 				</file>
 	
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_{$release}-jaunty.1_i386.deb?download</url>
+					<url>scummvm_1.0.0~rc1-jaunty.1_i386.deb?download</url>
 					<name>Ubuntu 9.04 (jaunty) i386 package</name>
 					<extra_info>(4.2M .deb)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_{$release}-jaunty.1_amd64.deb?download</url>
+					<url>scummvm_1.0.0~rc1-jaunty.1_amd64.deb?download</url>
 					<name>Ubuntu 9.04 (jaunty) x86 64bit package</name>
 					<extra_info>(4.7M .deb)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_{$release}-jaunty.1_powerpc.deb?download</url>
+					<url>scummvm_1.0.0~rc1-jaunty.1_powerpc.deb?download</url>
 					<name>Ubuntu 9.04 (jaunty) PowerPC package</name>
 					<extra_info>(4.3M .deb)</extra_info>
 				</file>
