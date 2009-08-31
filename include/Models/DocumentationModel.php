@@ -54,7 +54,7 @@ abstract class DocumentationModel extends BasicModel {
 		if (!($data = @file_get_contents($fname))) {
 			throw new ErrorException(self::ERROR_READING_FILE);
 		}
-		$gameid = null;
+		$gameid = 0;
 		foreach (explode("\n", $data) as $line) {
 			/* Skip comments and empty lines. */
 			if (substr($line, 0, 1) == '#' || strlen($line) == 0) {
@@ -66,9 +66,10 @@ abstract class DocumentationModel extends BasicModel {
 			 * entry.
 			 */
 			if (count($tsv) == 2) {
-				$gameid = $tsv[0];
+				#$gameid = $tsv[0];
+				$gameid++;
 				$games[$gameid] = array(
-					//'description' => Utils::ampersandEntity($tsv[1]),
+					'gameid' => $tsv[0],
 					'description' => $tsv[1],
 					'md5sums' => array(),
 				);

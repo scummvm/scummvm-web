@@ -23,9 +23,9 @@
 		</div>
 		<br><br>
 
-		{foreach from=$games key=gameid item=game name=games_loop}
+		{foreach from=$games item=game name=games_loop}
 			<table class="md5-table">
-				<caption>{$game.description} ({$gameid})</caption>
+				<caption>{$game.description} ({$game.gameid})</caption>
 				<thead>
 					<tr>
 						<th>MD5</th>
