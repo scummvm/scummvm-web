@@ -3,15 +3,20 @@
 <AUTHOR>sev</AUTHOR>
 <BODY>
 <p>
-Did you hear about our plans for 1.0.0? This is going to be the best ScummVM release ever! And to make it even more remarkable, we decided to put out a Release Candidate, which is <a href="/downloads.php">awaiting you here</a>.
+Did you hear about our plans for 1.0.0? This is going to be the best ScummVM release ever! And to make it even more remarkable, we have decided to put out a Release Candidate, which is <a href="/downloads.php">awaiting you here</a>.
 </p>
 
 <p>
-It is the usual stable and supported release so don't let the name of 'Release Candidate' or 'RC1' throw you off, however we encourage you to test thoroughly. We have a
-<a href="http://wiki.scummvm.org/index.php/Release_Testing/1.0.0">release testing wiki page</a>, which we would like to see turn into a mass of green indicating successful removal of any issues in the titles supported, and thus we need your help, our dear users of ScummVM. It would be really great to test as many games as possible on all variety platforms our project is ported to.
+It is a regular stable and supported release so don't let the name of 'Release Candidate' or 'RC1' throw you off. We have a
+<a href="http://wiki.scummvm.org/index.php/Release_Testing/1.0.0">release
+testing wiki page</a> for the upcoming 1.0.0 release, which we would like to
+see turned into a mass of green indicating successful removal of any issues in
+the titles supported, and thus we need your help, our dear users of ScummVM. It
+would be really great to test as many games as possible on all varieties of
+platforms our project is ported to.
 </p>
 
-<p>The list of changes which are prepared for you in this release is quite long. The most outstanding ones are:</p>
+<p>The list of changes which are prepared for you in this release is quite long. The highlights are:</p>
 <ul>
 <li>Added support for <i>Discworld</i></li>
 <li>Added support for <i>Discworld 2 - Missing Presumed ...!?</i></li>
@@ -28,11 +33,11 @@ It is the usual stable and supported release so don't let the name of 'Release C
 </ul>
 
 <p>
-Full change list can be found in the <a href="http://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/release-1-0-0rc1/NEWS">NEWS file</a>.
+The full list of changes can be found in the <a href="http://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/release-1-0-0rc1/NEWS">NEWS file</a>.
 </p>
 
 <p>
-'Nuff said, <a href="/downloads.php">download ScummVM</a> and be one step closer to 1.0.0.
+'Nuff said, so <a href="/downloads.php">download ScummVM</a> and be one step closer to 1.0.0.
 </p>
 
 </BODY>
