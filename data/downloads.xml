@@ -219,13 +219,13 @@
 					<name>Solaris 8 and up (Sparc) binary</name>
 					<extra_info>(5.3M .pkg.bz2)</extra_info>
 				</file>
-	<!--			<file>
+				<file>
 					<category_icon>catpl-solaris.png</category_icon>
 					<url>scummvm-{$release}-solaris10-x86.pkg.bz2?download</url>
 					<name>Solaris 10 (both IA32 and AMD64) binary</name>
-					<extra_info>(11.0M .pkg.bz2)</extra_info>
+					<extra_info>(12.3M .pkg.bz2)</extra_info>
 				</file>
-	
+	<!--
 				<file>
 					<category_icon>catpl-beos.png</category_icon>
 					<url>scummvm-{$release}-beos.tgz?download</url>
@@ -344,13 +344,13 @@
 					<name>Tools - Solaris 8 (Sparc)</name>
 					<extra_info>(165k .pkg.bz2)</extra_info>
 				</file>
-	<!--			<file>
+				<file>
 					<category_icon>catpl-solaris.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-solaris10-x86.pkg.bz2?download</url>
 					<name>Tools - Solaris 10 (both IA32 and AMD64)</name>
-					<extra_info>(4.8M .pkg.bz2)</extra_info>
+					<extra_info>(4.7M .pkg.bz2)</extra_info>
 				</file>
-	
+	<!--
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-amigaos4.lha?download</url>
