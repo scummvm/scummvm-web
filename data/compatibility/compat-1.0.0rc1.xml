@@ -570,9 +570,9 @@
 			<game>
 				<name>The Legend of Kyrandia</name>
 				<target>kyra1</target>
-				<percent>90</percent>
+				<percent>87</percent>
 				<notes>
-					Game is completable<h:br />- Requires the <h:a href="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/kyra.dat">kyra.dat</h:a> resource file to be placed in the game directory<h:br />- Amiga, DOS, FM-TOWNS, Macintosh and PC-9821 versions are supported<h:br />- Occasional graphics glitches<h:br />- No music or sound effects in the Macintosh floppy versions<h:br />- Macintosh CD is using included DOS music and sound effects<h:br />- PC-9821 version lacks support for sound effects
+					Game is completable<h:br />- Requires the <h:a href="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/tags/release-1-0-0rc1/dists/engine-data/kyra.dat">kyra.dat</h:a> resource file to be placed in the game directory<h:br />- Amiga, DOS, FM-TOWNS, Macintosh and PC-9821 versions are supported<h:br />- Occasional graphics glitches<h:br />- No music or sound effects in the Amiga and Macintosh floppy versions<h:br />- Macintosh CD is using included DOS music and sound effects<h:br />- PC-9821 version lacks support for sound effects
 				</notes>
 			</game>
 			<game>
@@ -580,7 +580,7 @@
 				<target>kyra2</target>
 				<percent>85</percent>
 				<notes>
-					Game is completable<h:br />- Requires the <h:a href="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/kyra.dat">kyra.dat</h:a> resource file to be placed in the game directory<h:br />- DOS, FM-TOWNS and PC-9821 versions are supported
+					Game is completable<h:br />- Requires the <h:a href="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/tags/release-1-0-0rc1/dists/engine-data/kyra.dat">kyra.dat</h:a> resource file to be placed in the game directory<h:br />- DOS, FM-TOWNS and PC-9821 versions are supported
 				</notes>
 			</game>
 			<game>
@@ -588,7 +588,7 @@
 				<target>kyra3</target>
 				<percent>80</percent>
 				<notes>
-					Game is completable<h:br />- Requires the <h:a href="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/kyra.dat">kyra.dat</h:a> resource file to be placed in the game directory<h:br />- DOS and Macintosh versions are supported
+					Game is completable<h:br />- Requires the <h:a href="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/tags/release-1-0-0rc1/dists/engine-data/kyra.dat">kyra.dat</h:a> resource file to be placed in the game directory<h:br />- DOS and Macintosh versions are supported
 				</notes>
 			</game>
 			<game>
@@ -621,35 +621,11 @@
 				</notes>
 			</game>
 			<game>
-				<name>Backyard Baseball 2001</name>
-				<target>baseball2001</target>
-				<percent>20</percent>
-				<notes>
-					Game is playable, with glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Array out of bounds errors sometimes<h:br />- Minor graphical glitches
-				</notes>
-			</game>
-			<game>
-				<name>Backyard Baseball 2003</name>
-				<target>baseball2003</target>
-				<percent>20</percent>
-				<notes>
-					Game is playable, with glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Array out of bounds errors sometimes<h:br />- Minor graphical glitches
-				</notes>
-			</game>
-			<game>
 				<name>Backyard Football</name>
 				<target>football</target>
 				<percent>80</percent>
 				<notes>
 					Game is completable, with minor glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Freezes when computer chooses a player, when selecting teams<h:br />- Minor graphical glitches
-				</notes>
-			</game>
-			<game>
-				<name>Backyard Football 2002</name>
-				<target>football2002</target>
-				<percent>70</percent>
-				<notes>
-					Game is playable, with minor glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Array out of bounds error when computer chooses a player, when selecting teams<h:br />- Minor graphical glitches<h:br />- No videos
 				</notes>
 			</game>
 			<game>
@@ -693,27 +669,11 @@
 				</notes>
 			</game>
 			<game>
-				<name>Blue's Art Time Activities</name>
-				<target>arttime</target>
-				<percent>90</percent>
-				<notes>
-					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
-				</notes>
-			</game>
-			<game>
 				<name>Blue's Birthday Adventure</name>
 				<target>BluesBirthday</target>
 				<percent>50</percent>
 				<notes>
 					Game is playable<h:br />- Both Macintosh and Windows versions supported by this target
-				</notes>
-			</game>
-			<game>
-				<name>Blue's Reading Time Activities</name>
-				<target>readtime</target>
-				<percent>90</percent>
-				<notes>
-					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
 			<game>
@@ -773,14 +733,6 @@
 				</notes>
 			</game>
 			<game>
-				<name>Freddi Fish 5: The Case of the Creature of Coral Cove</name>
-				<target>freddicove</target>
-				<percent>90</percent>
-				<notes>
-					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
-				</notes>
-			</game>
-			<game>
 				<name>Freddi Fish and Luther's Maze Madness</name>
 				<target>maze</target>
 				<percent>90</percent>
@@ -818,14 +770,6 @@
 				<percent>90</percent>
 				<notes>
 					No known issues, game is playable<h:br />- Both Macintosh and Windows versions supported by this target
-				</notes>
-			</game>
-			<game>
-				<name>Pajama Sam: Games to Play on Any Day</name>
-				<target>pjgames</target>
-				<percent>70</percent>
-				<notes>
-					All games, except Jumping Beans are playable<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Jumping Beans freezes, after introduction
 				</notes>
 			</game>
 			<game>
@@ -967,9 +911,9 @@
 			<game>
 				<name>SPY Fox 3: Operation Ozone</name>
 				<target>spyozon</target>
-				<percent>90</percent>
+				<percent>70</percent>
 				<notes>
-					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+					Game is completable, with glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Need to guess the correct colors of Poodles's fingernails<h:br />- Various palette glitches
 				</notes>
 			</game>
 			<game>
