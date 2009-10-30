@@ -1022,6 +1022,11 @@
 					<description>Decoders for Amiga and AtariST data files (AGOS engine)</description>
 				</person>
 				<person>
+					<name>Tobias Gunkel</name>
+					<alias>hennymcc</alias>
+					<description>Graphic support for PCE version of Loom</description>
+				</person>
+				<person>
 					<name>Paolo Costabel</name>
 					<alias></alias>
 					<description>PSP port contributions</description>
@@ -1403,5 +1408,6 @@
 		<paragraph>Joe Pearce from The Wyrmkeep Entertainment Co. for sharing the source of their famous title Inherit the Earth and always prompt replies to our questions.</paragraph>
 		<paragraph>Aric Wilmunder, Ron Gilbert, David Fox, Vince Lee, and all those at LucasFilm/LucasArts who made SCUMM the insane mess to reimplement that it is today. Feel free to drop us a line and tell us what you think, guys!</paragraph>
 		<paragraph>Alan Bridgman, Simon Woodroffe and everyone at Adventure Soft for sharing the source code of some of their games with us.</paragraph>
+		<paragraph>John Young, Colin Smythe and especially Terry Patchet himself for sharing the source code of Discworld I & II with us.</paragraph>
 	</section>
 </credits>
