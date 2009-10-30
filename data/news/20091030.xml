@@ -1,0 +1,29 @@
+<NAME>Revised ScummVM logo and icon(s)</NAME>
+<DATE>Oct 30, 2009</DATE>
+<AUTHOR>fingolfin</AUTHOR>
+<BODY>
+
+<p>As you may have already noticed, we are in the process of switching
+from our old trusty logo and icons to new, slightly revised versions. The
+main change is that the lowercase "s" has now become an uppercase "S" --
+this is meant to help stop the confusion lots of people seem to have
+about our name: We are called "ScummVM", and not "scummvm" :-).
+</p>
+
+<p>Besides that, the new logo was touched up by its original author,
+Jean-Marc, to produce higher quality versions (in PNG and SVG format) of
+both the logo and the icon. As a result, they look better and yummier
+than ever before. 
+</p>
+
+<p>We are not yet completely done converting everything to the new logo
+and icon (boy, they are really present in <em>lots</em> of places), but
+are actively working on it. The upcoming 1.0.0 release of ScummVM will
+be the first to feature the new art everywhere.
+</p>
+
+<p>
+So, I hope you like the new art just as much as we do :-). 
+</p>
+
+</BODY>
