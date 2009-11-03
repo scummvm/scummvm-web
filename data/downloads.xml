@@ -409,13 +409,6 @@
 			</notes>
 			<entries>
 				<file>
-					<category_icon>catpl-solaris.png</category_icon>
-					<url>scummvm-0.13.1-solaris10-x86.pkg.bz2?download</url>
-					<name>0.13.1 Solaris 10 (both IA32 and AMD64) binary</name>
-					<extra_info>(11.0M .pkg.bz2)</extra_info>
-				</file>
-	
-				<file>
 					<category_icon>catpl-beos.png</category_icon>
 					<url>scummvm-0.13.1-beos.tgz?download</url>
 					<name>0.13.1 BeOS package</name>
