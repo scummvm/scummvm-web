@@ -516,6 +516,19 @@
 				</person>
 			</group>
 			<group>
+				<name>TeenAgent</name>
+				<person>
+					<name>Vladimir Menshakov</name>
+					<alias>whoozle</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Robert Megone</name>
+					<alias>sanguine</alias>
+					<description>Help with callback rewriting</description>
+				</person>
+			</group>
+			<group>
 				<name>Tinsel</name>
 				<person>
 					<name>Torbj&ouml;rn Andersson</name>
