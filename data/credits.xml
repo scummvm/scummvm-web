@@ -490,6 +490,11 @@
 					<description></description>
 				</person>
 				<person>
+					<name>Martin Kiewitz</name>
+					<alias>m_kiewitz</alias>
+					<description></description>
+				</person>
+				<person>
 					<name>Walter van Niftrik</name>
 					<alias>waltervn</alias>
 					<description></description>
@@ -509,23 +514,18 @@
 					<alias>lskovlun</alias>
 					<description></description>
 				</person>
-				<person>
-					<name>Martin Kiewitz</name>
-					<alias>m_kiewitz</alias>
-					<description></description>
-				</person>
 			</group>
 			<group>
 				<name>TeenAgent</name>
 				<person>
-					<name>Vladimir Menshakov</name>
-					<alias>whoozle</alias>
-					<description></description>
-				</person>
-				<person>
 					<name>Robert Megone</name>
 					<alias>sanguine</alias>
 					<description>Help with callback rewriting</description>
+				</person>
+				<person>
+					<name>Vladimir Menshakov</name>
+					<alias>whoozle</alias>
+					<description></description>
 				</person>
 			</group>
 			<group>
@@ -1048,11 +1048,6 @@
 					<description>Decoders for Amiga and AtariST data files (AGOS engine)</description>
 				</person>
 				<person>
-					<name>Tobias Gunkel</name>
-					<alias>hennymcc</alias>
-					<description>Graphic support for PCE version of Loom</description>
-				</person>
-				<person>
 					<name>Paolo Costabel</name>
 					<alias></alias>
 					<description>PSP port contributions</description>
@@ -1071,6 +1066,11 @@
 					<name>Thomas Fach-Pedersen</name>
 					<alias>madmoose</alias>
 					<description>ProTracker module player</description>
+				</person>
+				<person>
+					<name>Tobias Gunkel</name>
+					<alias>hennymcc</alias>
+					<description>Graphic support for PCE version of Loom</description>
 				</person>
 				<person>
 					<name>Janne Huttunen</name>
