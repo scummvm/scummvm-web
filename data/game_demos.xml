@@ -930,16 +930,6 @@
 				<target>fw</target>
 			</demo>
 			<demo>
-				<name>Igor: Objective Uikokahonia (DOS demo)</name>
-				<url>http://demos.robertmegone.com/igor/igor-dos-1.0-demo-en.zip</url>
-				<target>igor</target>
-			</demo>
-			<demo>
-				<name>Igor: Objective Uikokahonia 1.10 (DOS demo)</name>
-				<url>http://demos.robertmegone.com/igor/igor-dos-1.1-demo-en.zip</url>
-				<target>igor</target>
-			</demo>
-			<demo>
 				<name>I Have No Mouth And I Must Scream (DOS demo)</name>
 				<url>http://demos.robertmegone.com/saga/ihnm-dos-demo-en.zip</url>
 				<target>ihnm</target>
