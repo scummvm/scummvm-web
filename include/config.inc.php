@@ -1,9 +1,9 @@
 <?php
 /* Current version. */
-define('RELEASE', '1.0.0rc1');
-define('RELEASE_TAG', 'release-1-0-0rc1');
-define('RELEASE_TOOLS', '1.0.0rc1');
-define('RELEASE_DEBIAN', '0.13.1');
+define('RELEASE', '1.0.0');
+define('RELEASE_TAG', 'release-1-0-0');
+define('RELEASE_TOOLS', '1.0.0');
+define('RELEASE_DEBIAN', '1.0.0rc1');
 
 /* News items on the front page. */
 define('NEWS_ITEMS', 4);
