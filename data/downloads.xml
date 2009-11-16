@@ -253,6 +253,13 @@
 				</file>
 	
 				<file>
+					<category_icon>catpl-irix.png</category_icon>
+					<url>scummvm-{$release}-irix-mips4.tar.gz?download</url>
+					<name>IRIX (6.5.*, n32, mips4) package</name>
+					<extra_info>(9.0M .tar.gz)</extra_info>
+				</file>
+	
+				<file>
 					<category_icon>catpl-beos.png</category_icon>
 					<url>scummvm-{$release}-beos.tgz?download</url>
 					<name>BeOS package</name>
