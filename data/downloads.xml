@@ -210,20 +210,20 @@
 					<name>Dreamcast Nero Image &amp; Demos</name>
 					<extra_info>(12.9M .zip)</extra_info>
 				</file>
-	<!--
+	
 				<file>
 					<category_icon>catpl-gc.png</category_icon>
-					<url>scummvm-{$release}-gamecube.zip?download</url>
+					<url>scummvm-{$release}-gc.zip?download</url>
 					<name>Nintendo GameCube package</name>
-					<extra_info>(4.2M .zip)</extra_info>
+					<extra_info>(4.3M .zip)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-wii.png</category_icon>
 					<url>scummvm-{$release}-wii.zip?download</url>
 					<name>Wii package</name>
-					<extra_info>(4.3M .zip)</extra_info>
+					<extra_info>(4.4M .zip)</extra_info>
 				</file>
-	-->
+	
 				<file>
 					<category_icon>catpl-gp2x.png</category_icon>
 					<url>scummvm-{$release}-gp2x.zip?download</url>
@@ -244,14 +244,14 @@
 					<name>Solaris 8 and up (Sparc) binary</name>
 					<extra_info>(5.4M .pkg.bz2)</extra_info>
 				</file>
-	<!--
+	
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
 					<url>scummvm-{$release}-solaris10-x86.pkg.bz2?download</url>
 					<name>Solaris 10 (both IA32 and AMD64) binary</name>
-					<extra_info>(12.3M .pkg.bz2)</extra_info>
+					<extra_info>(12.4M .pkg.bz2)</extra_info>
 				</file>
-	-->
+	
 				<file>
 					<category_icon>catpl-beos.png</category_icon>
 					<url>scummvm-{$release}-beos.tgz?download</url>
@@ -370,14 +370,14 @@
 					<name>Tools - Solaris 8 (Sparc)</name>
 					<extra_info>(750k .pkg.bz2)</extra_info>
 				</file>
-	<!--
+	
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-solaris10-x86.pkg.bz2?download</url>
 					<name>Tools - Solaris 10 (both IA32 and AMD64)</name>
 					<extra_info>(4.7M .pkg.bz2)</extra_info>
 				</file>
-	-->
+	
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-amigaos.lha?download</url>
@@ -439,24 +439,6 @@
 				older versions around, for your convenience.
 			</notes>
 			<entries>
-				<file>
-					<category_icon>catpl-gc.png</category_icon>
-					<url>scummvm-1.0.0rc1-gamecube.zip?download</url>
-					<name>1.0.0rc1 Nintendo GameCube package</name>
-					<extra_info>(4.2M zip)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-wii.png</category_icon>
-					<url>scummvm-1.0.0rc1-wii.zip?download</url>
-					<name>1.0.0rc1 Wii package</name>
-					<extra_info>(4.3M .zip)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-solaris.png</category_icon>
-					<url>scummvm-1.0.0rc1-solaris10-x86.pkg.bz2?download</url>
-					<name>1.0.0rc1 Solaris 10 (both IA32 and AMD64) binary</name>
-					<extra_info>(12.3M .pkg.bz2)</extra_info>
-				</file>
 				<file>
 					<category_icon>catpl-os2.png</category_icon>
 					<url>scummvm-0.13.1-os2.zip?download</url>
