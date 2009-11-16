@@ -677,17 +677,17 @@
 				<target>simon2</target>
 			</demo>
 			<demo>
-				<name>Simon the Sorcerer 2 (DOS CD German demo - Non interactive) - Requires ScummVM 1.0.0pre</name>
+				<name>Simon the Sorcerer 2 (DOS CD German demo - Non interactive)</name>
 				<url>http://demos.robertmegone.com/agos/simon2-dos-cd-ni-demo-de.zip</url>
 				<target>simon2</target>
 			</demo>
 			<demo>
-				<name>The Feeble Files (DOS demo - Non interactive) - Requires ScummVM 1.0.0pre</name>
+				<name>The Feeble Files (DOS demo - Non interactive)</name>
 				<url>http://demos.robertmegone.com/agos/feeble-dos-ni-demo-en.zip</url>
 				<target>feeble</target>
 			</demo>
 			<demo>
-				<name>The Feeble Files (DOS German demo - Non interactive) - Requires ScummVM 1.0.0pre</name>
+				<name>The Feeble Files (DOS German demo - Non interactive)</name>
 				<url>http://demos.robertmegone.com/agos/feeble-dos-ni-demo-de.zip</url>
 				<target>feeble</target>
 			</demo>
@@ -758,7 +758,7 @@
 				<target>gob</target>
 			</demo>
 			<demo>
-				<name>Inca II: Wiracocha (DOS demo - Non-interactive) - Requires ScummVM 1.0.0pre</name>
+				<name>Inca II: Wiracocha (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/gob/inca2-dos-ni-demo-en.zip</url>
 				<target>gob</target>
 			</demo>
@@ -768,37 +768,37 @@
 				<target>gob</target>
 			</demo>
 			<demo>
-				<name>Playtoons (DOS demos of Playtoon 1 - Uncle Archibald, Playtoon 2 - Spirou, Playtoons 3 - Secret of the Castle) - Requires ScummVM 1.0.0pre</name>
+				<name>Playtoons (DOS demos of Playtoon 1 - Uncle Archibald, Playtoon 2 - Spirou, Playtoons 3 - Secret of the Castle)</name>
 				<url>http://demos.robertmegone.com/gob/archibald-dos-ni-demo1-en.zip</url>
 				<target>gob</target>
 			</demo>
 			<demo>
-				<name>Playtoon 1 - Uncle Archibald (DOS demo - Non-interactive) - Requires ScummVM 1.0.0pre</name>
+				<name>Playtoon 1 - Uncle Archibald (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/gob/archibald-dos-ni-demo2-en.zip</url>
 				<target>gob</target>
 			</demo>
 			<demo>
-				<name>Playtoon 1 - Uncle Archibald (DOS Italian demo - Non-interactive) - Requires ScummVM 1.0.0pre</name>
+				<name>Playtoon 1 - Uncle Archibald (DOS Italian demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/gob/archibald-dos-ni-demo-it.zip</url>
 				<target>gob</target>
 			</demo>
 			<demo>
-				<name>Playtoon 1 - Uncle Archibald (DOS Spanish demo - Non-interactive) - Requires ScummVM 1.0.0pre</name>
+				<name>Playtoon 1 - Uncle Archibald (DOS Spanish demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/gob/archibald-dos-ni-demo-sp.zip</url>
 				<target>gob</target>
 			</demo>
 			<demo>
-				<name>The Bizarre Adventures of Woodruff and the Schnibble (DOS demo - Non-interactive) - Requires ScummVM 1.0.0pre</name>
+				<name>The Bizarre Adventures of Woodruff and the Schnibble (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/gob/woodruff-dos-ni-demo-en.zip</url>
 				<target>gob</target>
 			</demo>
 			<demo>
-				<name>The Last Dynasty (DOS demo - Non interactive) - Requires ScummVM 1.0.0pre</name>
+				<name>The Last Dynasty (DOS demo - Non interactive)</name>
 				<url>http://demos.robertmegone.com/gob/dynasty-win-ni-demo-en.zip</url>
 				<target>gob</target>
 			</demo>
 			<demo>
-				<name>Urban Runner (DOS demo - Non-interactive) - Requires ScummVM 1.0.0pre</name>
+				<name>Urban Runner (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/gob/urban-win-ni-demo-en.zip</url>
 				<target>gob</target>
 			</demo>
@@ -950,7 +950,7 @@
 				<target>os</target>
 			</demo>
 			<demo>
-				<name>Return to Zork (DOS demo - Non interactive) - Requires ScummVM 1.0.0pre</name>
+				<name>Return to Zork (DOS demo - Non interactive)</name>
 				<url>http://demos.robertmegone.com/made/rtz-dos-ni-demo-en.zip</url>
 				<target>rtz</target>
 			</demo>
