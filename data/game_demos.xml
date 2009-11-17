@@ -955,6 +955,16 @@
 				<target>rtz</target>
 			</demo>
 			<demo>
+				<name>Teen Agent (DOS Union demo) - Requires ScummVM 1.1.0svn</name>
+				<url>http://demos.robertmegone.com/teen/teen-dos-union-demo-en.zip</url>
+				<target>teenagent</target>
+			</demo>
+			<demo>
+				<name>Teen Agent (DOS WizTech demo) - Requires ScummVM 1.1.0svn</name>
+				<url>http://demos.robertmegone.com/teen/teen-dos-wiztech-demo-en.zip</url>
+				<target>teenagent</target>
+			</demo>
+			<demo>
 				<name>The Legend of Kyrandia (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/kyra/kyra1-dos-ni-demo-en.zip</url>
 				<target>kyra1</target>
