@@ -724,7 +724,12 @@
 			</demo>
 			<demo>
 				<name>Gobliins 2 (Amiga demo)</name>
-				<url>http://demos.robertmegone.com/gob/gob2-amiga-demo-en.zip</url>
+				<url>http://demos.robertmegone.com/gob/gob2-amiga-demo1-en.zip</url>
+				<target>gob</target>
+			</demo>
+			<demo>
+				<name>Gobliins 2 (Amiga Alternative demo)</name>
+				<url>http://demos.robertmegone.com/gob/gob2-amiga-demo2-en.zip</url>
 				<target>gob</target>
 			</demo>
 			<demo>
