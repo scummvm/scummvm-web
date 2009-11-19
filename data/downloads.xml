@@ -67,7 +67,7 @@
 				</file>
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_{$release}-jaunty.1_powerpc.deb?download</url>
+					<url>scummvm_{$release}-karmic.1_powerpc.deb?download</url>
 					<name>Ubuntu 9.10 (karmic) PowerPC / Cell (PlayStation3) package</name>
 					<extra_info>(4.9M .deb)</extra_info>
 				</file>
@@ -360,13 +360,13 @@
 	
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
-					<url>scummvm-tools-{$release_tools}-1.i386.rpm?download</url>
+					<url>scummvm-tools-{$release_tools}-1_F8.i386.rpm?download</url>
 					<name>Tools - Fedora 8, 9, 10, 11 and 12 i386 RPM</name>
 					<extra_info>(281k .rpm)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
-					<url>scummvm-tools-{$release_tools}-1.x86_64.rpm?download</url>
+					<url>scummvm-tools-{$release_tools}-1_F8.x86_64.rpm?download</url>
 					<name>Tools - Fedora 8, 9, 10, 11 and 12 x86 64bit RPM</name>
 					<extra_info>(317k .rpm)</extra_info>
 				</file>
@@ -402,7 +402,7 @@
 				<file>
 					<category_icon>catpl-freemint.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-atari.tar.bz2?download</url>
-					<name>Atari/FreeMiNT package (68020 and up)</name>
+					<name>Tools - Atari/FreeMiNT package (68020 and up)</name>
 					<extra_info>(4.5M .zip)</extra_info>
 				</file>
 	
