@@ -16,7 +16,7 @@
 				<target>zak</target>
 				<percent>90</percent>
 				<notes>
-					No known issues, game is completable.<h:br />- Amiga, Atari ST, Commodore 64, FM-TOWNS and PC versions supported by this target<h:br />- No music or sound effects in the Commodore 64 version<h:br />- Kanji version requires the FM-TOWNS Font ROM
+					No known issues, game is completable.<h:br />- Amiga, Atari ST, Commodore 64, FM-TOWNS and PC versions supported by this target<h:br />- No music or sound effects in the Commodore 64 version<h:br />- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM
 				</notes>
 			</game>
 			<game>
@@ -24,7 +24,7 @@
 				<target>indy3</target>
 				<percent>90</percent>
 				<notes>
-					Game is completable<h:br />- Amiga, Atari ST, FM-TOWNS, Macintosh and PC versions supported by this target<h:br />- There is no support for the Macintosh interface<h:br />- Kanji version requires the FM-TOWNS Font ROM
+					Game is completable<h:br />- Amiga, Atari ST, FM-TOWNS, Macintosh and PC versions supported by this target<h:br />- There is no support for the Macintosh interface<h:br />- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM
 				</notes>
 			</game>
 			<game>
@@ -33,9 +33,10 @@
 				<percent>95</percent>
 				<notes>
 					No known issues, game is completable.<h:br />
-							- Amiga, Atari ST, FM-TOWNS, Macintosh and PC versions supported by this target<h:br />
+							- Amiga, Atari ST, FM-TOWNS, Macintosh, PC and PC-Engine versions supported by this target<h:br />
 							- The Roland update from LucasArts is required for MIDI support in the EGA version<h:br />
 							- No music or sound effects in the Macintosh version<h:br />
+							- No sound effects in the PC-Engine version<h:br />
 							- There is no support for the Macintosh interface<h:br />
 							- Fades are seemingly different in the FM-TOWNS version<h:br />
 							- Text palette sometimes incorrect in the FM-TOWNS version<h:br />
@@ -46,7 +47,8 @@
 								<h:li>1 standard</h:li>
 								<h:li>2 expert</h:li>
 							</h:ul>
-							- Kanji version requires the FM-TOWNS Font ROM
+							- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM
+							- PC-Engine Kanji version requires the system card ROM
 				</notes>
 			</game>
 			<game>
@@ -70,7 +72,7 @@
 				<target>monkey2</target>
 				<percent>95</percent>
 				<notes>
-					No known issues, game is completable.<h:br />- Amiga, FM-TOWNS, Macintosh and PC versions supported by this target<h:br />- Demo version often crashes due to missing resources, since it was never meant to be playable<h:br />- No support for playing back the recorded file of gameplay in demo version<h:br />- Kanji version requires the FM-TOWNS Font ROM
+					No known issues, game is completable.<h:br />- Amiga, FM-TOWNS, Macintosh and PC versions supported by this target<h:br />- Demo version often crashes due to missing resources, since it was never meant to be playable<h:br />- No support for playing back the recorded file of gameplay in demo version<h:br />- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM
 				</notes>
 			</game>
 			<game>
@@ -78,7 +80,7 @@
 				<target>atlantis</target>
 				<percent>95</percent>
 				<notes>
-					No known issues, game is completable.<h:br />- Amiga, FM-TOWNS, Macintosh and PC versions supported by this target<h:br />- Kanji version requires the FM-TOWNS Font ROM
+					No known issues, game is completable.<h:br />- Amiga, FM-TOWNS, Macintosh and PC versions supported by this target<h:br />- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM
 				</notes>
 			</game>
 			<game>
