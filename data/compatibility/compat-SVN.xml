@@ -729,9 +729,9 @@
 			<game>
 				<name>Fatty Bear's Birthday Surprise</name>
 				<target>fbear</target>
-				<percent>93</percent>
+				<percent>95</percent>
 				<notes>
-					Game should be completable, with several glitches<h:br />- 3DO, DOS, Macintosh and Windows versions supported by this target<h:br />- Piano sounds aren't the correct pitch in DOS version
+					No known issues, game is completable.<h:br />- 3DO, DOS, Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
 			<game>
