@@ -95,7 +95,7 @@ class XMLParser {
 		 * Workaround the XML-parser not being able to handle HTML-entities by
 		 * encapsulating them as CDATA.
 		 */
-		$pattern = '/(&(?:(?!quot|amp|apos|lt|gt|Scaron)([a-z]+)|(#\d+));)/iU';
+		$pattern = '/(&(?:(?!quot|amp|apos|lt|gt)([a-z]+)|(#\d+)|(Scaron));)/iU';
 		$replace = '<![CDATA[\\1]]>';
 		$xml = preg_replace($pattern, $replace, $xml);
 		/* Parse the data and free the parser resource. */
