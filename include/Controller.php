@@ -73,7 +73,7 @@ class Controller {
 	/** Smarty outputfilter, run just before displaying. */
 	public function outputFilter($string, &$smarty) {
 		/* Properly encode all ampersands as "&amp;". */
-		$string = preg_replace('/&(?!([a-z]+|(#\d+)|(Scaron));)/', '&amp;', $string);
+		$string = preg_replace('/&(?!([a-z]+|(#\d+));)/i', '&amp;', $string);
 		/* Replace weird characters that appears in some of the data. */
 		$string = str_replace(
 			array(chr(160), chr(194)),
