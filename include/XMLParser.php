@@ -17,7 +17,7 @@ class XMLParser {
 
 	const NS_HTML4 = 'http://www.w3.org/TR/html4/';
 	const NS_XHTML = 'http://www.w3.org/TR/xhtml1/';
-	
+
 	static private $empty_elements = array('br', 'hr', 'img');
 	private $_tree;
 	private $_data;
@@ -57,7 +57,7 @@ class XMLParser {
 		if (!($xml = @file_get_contents($filename))) {
 			throw new ErrorException(self::FILE_NOT_READABLE . $file);
 		}
-		
+
 		/* Parse the XML. */
 		try {
 			return $this->parseByData($xml);
@@ -95,7 +95,7 @@ class XMLParser {
 		 * Workaround the XML-parser not being able to handle HTML-entities by
 		 * encapsulating them as CDATA.
 		 */
-		$pattern = '/(&(?:(?!quot|amp|apos|lt|gt)([a-z]+)|(#\d+));)/iU';
+		$pattern = '/(&(?:(?!quot|amp|apos|lt|gt|Scaron)([a-z]+)|(#\d+));)/iU';
 		$replace = '<![CDATA[\\1]]>';
 		$xml = preg_replace($pattern, $replace, $xml);
 		/* Parse the data and free the parser resource. */
