@@ -858,7 +858,7 @@
 					versions made directly from our Subversion (= SVN) source repository.
 					That means that they received no proper testing (usually no testing at
 					all) and that any number of things may be broken in the them. For
-					example, they might corrupt your config file, crash frequently or or
+					example, they might corrupt your config file, crash frequently or
 					might not even start. Use them at your own risk!
     			</h:p>
 				<h:p>
