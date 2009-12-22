@@ -609,6 +609,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>TeenAgent</name>
+				<target>teenagent</target>
+				<percent>80</percent>
+				<notes>
+					Game is completable.<h:br />- Requires the <h:a href="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/teenagent.dat">teenagent.dat</h:a> resource file to be placed in the game directory<h:br /><h:br />- Occasional graphical glitches
+				</notes>
+			</game>
+			<game>
 				<name>Touche: The Adventures of the Fifth Musketeer</name>
 				<target>touche</target>
 				<percent>75</percent>
