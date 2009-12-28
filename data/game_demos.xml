@@ -844,9 +844,24 @@
 				<target>agidemo</target>
 			</demo>
 			<demo>
+				<name>Castle of Dr. Brain (DOS demo - Non-interactive) - Requires ScummVM 1.1.0svn</name>
+				<url>http://demos.robertmegone.com/sci/castlebrain-dos-ni-demo-en.zip</url>
+				<target>castlebrain</target>
+			</demo>
+			<demo>
 				<name>Conquests of Camelot: King Arthur, Quest for the Grail (DOS demo - Non-interactive) - Requires ScummVM 1.1.0svn</name>
 				<url>http://demos.robertmegone.com/sci/camelot-dos-ni-demo-en.zip</url>
 				<target>camelot</target>
+			</demo>
+			<demo>
+				<name>EcoQuest: The Search for Cetus (DOS demo - Non-interactive) - Requires ScummVM 1.1.0svn</name>
+				<url>http://demos.robertmegone.com/sci/ecoquest-dos-ni-demo-en.zip</url>
+				<target>ecoquest</target>
+			</demo>
+			<demo>
+				<name>King's Quest I: Quest for the Crown, SCI Remake (DOS demo - Non-interactive)</name>
+				<url>http://demos.robertmegone.com/sci/kq1sci-dos-ni-demo-en.zip</url>
+				<target>kq1sci</target>
 			</demo>
 			<demo>
 				<name>King's Quest IV: The Perils of Rosella (DOS demo - Non-interactive)</name>
@@ -854,9 +869,29 @@
 				<target>kq4</target>
 			</demo>
 			<demo>
+				<name>King's Quest IV: The Perils of Rosella, SCI Remake (DOS demo - Non-interactive) - Requires ScummVM 1.1.0svn</name>
+				<url>http://demos.robertmegone.com/sci/kq4sci-dos-ni-demo-en.zip</url>
+				<target>kq4sci</target>
+			</demo>
+			<demo>
+				<name>Laura Bow: The Colonel's Bequest (DOS demo - Non-interactive) - Requires ScummVM 1.1.0svn</name>
+				<url>http://demos.robertmegone.com/sci/laurabow-dos-ni-demo-en.zip</url>
+				<target>laurabow</target>
+			</demo>
+			<demo>
 				<name>Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places) (DOS demo - Non-interactive) - Requires ScummVM 1.1.0svn</name>
 				<url>http://demos.robertmegone.com/sci/lsl2-dos-ni-demo-en.zip</url>
 				<target>lsl2</target>
+			</demo>
+			<demo>
+				<name>Police Quest III: The Kindred (DOS demo - Non-interactive) - Requires ScummVM 1.1.0svn</name>
+				<url>http://demos.robertmegone.com/sci/pq3-dos-ni-demo-en.zip</url>
+				<target>pq3</target>
+			</demo>
+			<demo>
+				<name>Space Quest I: The Sarien Encounter (DOS demo - Non-interactive) - Requires ScummVM 1.1.0svn</name>
+				<url>http://demos.robertmegone.com/sci/sq1sci-dos-ni-demo-en.zip</url>
+				<target>sq1sci</target>
 			</demo>
 			<demo>
 				<name>Space Quest III: The Pirates of Pestulon (DOS demo - Non-interactive) - Requires ScummVM 1.1.0svn</name>
