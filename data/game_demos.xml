@@ -889,6 +889,11 @@
 				<target>pq3</target>
 			</demo>
 			<demo>
+				<name>Quest for Glory I: So You Want to Be a Hero (DOS demo - Non-interactive) - Requires ScummVM 1.1.0svn</name>
+				<url>http://demos.robertmegone.com/sci/qfg1-dos-ni-demo-en.zip</url>
+				<target>qfg1</target>
+			</demo>
+			<demo>
 				<name>Space Quest I: The Sarien Encounter (DOS demo - Non-interactive) - Requires ScummVM 1.1.0svn</name>
 				<url>http://demos.robertmegone.com/sci/sq1sci-dos-ni-demo-en.zip</url>
 				<target>sq1sci</target>
