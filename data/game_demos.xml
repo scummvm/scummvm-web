@@ -849,6 +849,21 @@
 				<target>castlebrain</target>
 			</demo>
 			<demo>
+				<name>Christmas Card 1990: The Seasoned Professional (EGA DOS demo) - Requires ScummVM 1.1.0svn</name>
+				<url>http://demos.robertmegone.com/sci/christmas1990-dos-ega-en.zip</url>
+				<target>christmas1990</target>
+			</demo>
+			<demo>
+				<name>Christmas Card 1990: The Seasoned Professional (VGA DOS demo) - Requires ScummVM 1.1.0svn</name>
+				<url>http://demos.robertmegone.com/sci/christmas1990-dos-vga-en.zip</url>
+				<target>christmas1990</target>
+			</demo>
+			<demo>
+				<name>Christmas Card 1992 (DOS demo) - Requires ScummVM 1.1.0svn</name>
+				<url>http://demos.robertmegone.com/sci/christmas1992-dos-en.zip</url>
+				<target>christmas1992</target>
+			</demo>
+			<demo>
 				<name>Conquests of Camelot: King Arthur, Quest for the Grail (DOS demo - Non-interactive) - Requires ScummVM 1.1.0svn</name>
 				<url>http://demos.robertmegone.com/sci/camelot-dos-ni-demo-en.zip</url>
 				<target>camelot</target>
