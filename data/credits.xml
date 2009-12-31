@@ -437,6 +437,29 @@
 				</person>
 			</group>
 			<group>
+				<name>Mohawk</name>
+				<person>
+					<name>Matthew Hoops</name>
+					<alias>clone2727</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Filippos Karapetis</name>
+					<alias>[md5]</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Eugene Sandulenko</name>
+					<alias>sev</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>David Turner</name>
+					<alias>digitall</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>Parallaction</name>
 				<person>
 					<name>???</name>
@@ -1070,7 +1093,7 @@
 				<person>
 					<name>Tobias Gunkel</name>
 					<alias>hennymcc</alias>
-					<description>Graphic support for PCE version of Loom</description>
+					<description>Sound support for C64 version of MM/Zak, Loom PCE support</description>
 				</person>
 				<person>
 					<name>Janne Huttunen</name>
