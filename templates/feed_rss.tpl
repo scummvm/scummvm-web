@@ -4,7 +4,7 @@
 		<title>ScummVM news</title>
 		<link>http://www.scummvm.org/</link>
 		<atom:link rel="self" type="application/rss+xml" href="{$baseurl}feeds/rss/" />
-		<description>ScummVM is a cross-platform interpreter for several point-and-click adventure engines. This includes all SCUMM-based adventures by LucasArts, Simon the Sorcerer 1&amp;2 by AdventureSoft, Beneath a Steel Sky and Broken Sword 1&amp;2 by Revolution, and many more.</description>
+		<description>ScummVM is a cross-platform interpreter for several point-and-click adventure engines. This includes all SCUMM-based adventures by LucasArts, Simon the Sorcerer 1&amp;2 by AdventureSoft, Beneath a Steel Sky and Broken Sword I &amp; II by Revolution, and many more.</description>
 		<language>en</language>
 		{foreach from=$news item=n}
 		{assign var='news_filename' value=$n->getFilename()|substr:'0':'-4'}

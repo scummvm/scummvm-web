@@ -42,7 +42,7 @@
 						Also below are the <a href="downloads/#extras">Extras</a>. These currently
 						include three freeware games 'Beneath a Steel Sky', 'Flight of the Amazon Queen'
 						and 'Lure of the Temptress', along with cutscene packs recommended for use when
-						playing Broken Sword 1, 2 or Feeble Files under ScummVM.
+						playing any of the Broken Sword games or Feeble Files under ScummVM.
 					</li>
 				</ul>
 			</div>

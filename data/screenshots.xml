@@ -865,27 +865,27 @@
 			</image>
 		</game>
 		<game>
-			<name>Broken Sword 1 - The Shadow of the Templars</name>
+			<name>Broken Sword: The Shadow of the Templars</name>
 			<category>sword</category>
 			<image>
 				<file>other/sword/scummvm_2_0_0</file>
-				<caption>Broken Sword 1 - The Shadow of the Templars</caption>
+				<caption>Broken Sword: The Shadow of the Templars</caption>
 			</image>
 			<image>
 				<file>other/sword/scummvm_2_0_1</file>
-				<caption>Broken Sword 1 - The Shadow of the Templars</caption>
+				<caption>Broken Sword: The Shadow of the Templars</caption>
 			</image>
 		</game>
 		<game>
-			<name>Broken Sword 2 - The Smoking Mirror</name>
+			<name>Broken Sword II: The Smoking Mirror</name>
 			<category>sword2</category>
 			<image>
 				<file>other/sword/scummvm_2_0_2</file>
-				<caption>Broken Sword 2 - The Smoking Mirror</caption>
+				<caption>Broken Sword II: The Smoking Mirror</caption>
 			</image>
 			<image>
 				<file>other/sword/scummvm_2_0_3</file>
-				<caption>Broken Sword 2 - The Smoking Mirror</caption>
+				<caption>Broken Sword II: The Smoking Mirror</caption>
 			</image>
 		</game>
 		<game>

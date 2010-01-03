@@ -722,108 +722,108 @@
 		</subsection>
 	
 		<subsection>
-			<title>Broken Sword 1</title>
+			<title>Broken Sword</title>
 			<entries>
 				<file>
 					<category_icon>cat-flac.png</category_icon>
 					<url>Sword1_DXA_Cutscenes.zip?download</url>
-					<name>Broken Sword 1 Cutscene Pack (English, DXA compression)</name>
+					<name>Broken Sword Cutscene Pack (English, DXA compression)</name>
 					<extra_info>(58.5M) - Requires ScummVM 0.10.0</extra_info>
 				</file>
 				<file>
 					<category_icon>cat-ogg.png</category_icon>
 					<url>http://downloads.scummbr.com/Sword1_Cutscenes_BRA_Complete.zip</url>
-					<name>Broken Sword 1 Cutscene Pack (Brazilian)</name>
+					<name>Broken Sword Cutscene Pack (Brazilian)</name>
 					<extra_info>(38M) This is an offsite package with both Brazillian videos and audio</extra_info>
 				</file>
 				<file>
 					<category_icon>cat-sword.png</category_icon>
 					<url>Sword1_Cutscenes_Subtitles-1.0.zip?download</url>
-					<name>Broken Sword 1 Cutscene Pack (all languages, Subtitles AddOn)</name>
+					<name>Broken Sword Cutscene Pack (all languages, Subtitles AddOn)</name>
 					<extra_info>(18k) Cutscene subtitles pack. All languages</extra_info>
 				</file>
 				<file>
 					<category_icon>cat-flac.png</category_icon>
 					<url>Sword1_Cutscenes_DXA_FRE_AddOn.zip?download</url>
-					<name>Broken Sword 1 Cutscene Pack (French AddOn)</name>
+					<name>Broken Sword Cutscene Pack (French AddOn)</name>
 					<extra_info>(26.4M) Overwrite files in English Pack with files from this archive</extra_info>
 				</file>
 				<file>
 					<category_icon>cat-flac.png</category_icon>
 					<url>Sword1_Cutscenes_DXA_GER_AddOn.zip?download</url>
-					<name>Broken Sword 1 Cutscene Pack (German AddOn)</name>
+					<name>Broken Sword Cutscene Pack (German AddOn)</name>
 					<extra_info>(26.4M) Overwrite files in English Pack with files from this archive</extra_info>
 				</file>
 				<file>
 					<category_icon>cat-flac.png</category_icon>
 					<url>Sword1_Cutscenes_DXA_ITA_AddOn.zip?download</url>
-					<name>Broken Sword 1 Cutscene Pack (Italian AddOn)</name>
+					<name>Broken Sword Cutscene Pack (Italian AddOn)</name>
 					<extra_info>(22.6M) Overwrite files in English Pack with files from this archive</extra_info>
 				</file>
 				<file>
 					<category_icon>cat-flac.png</category_icon>
 					<url>Sword1_Cutscenes_DXA_ESP_AddOn.zip?download</url>
-					<name>Broken Sword 1 Cutscene Pack (Spanish AddOn)</name>
+					<name>Broken Sword Cutscene Pack (Spanish AddOn)</name>
 					<extra_info>(25.6M) Overwrite files in English Pack with files from this archive</extra_info>
 				</file>
 				<file>
 					<category_icon>cat-flac.png</category_icon>
 					<url>Sword1_Demo_Cutscenes.zip?download</url>
-					<name>Broken Sword 1 Demo Cutscene Pack</name>
+					<name>Broken Sword Demo Cutscene Pack</name>
 					<extra_info>(19M) - Requires ScummVM 0.10.0</extra_info>
 				</file>
 				<file>
 					<category_icon>cat-ogg.png</category_icon>
 					<url>Sword1_OGG_Cutscenes.zip?download</url>
-					<name>Broken Sword 1 Cutscene Pack (English OGG AddOn)</name>
+					<name>Broken Sword Cutscene Pack (English OGG AddOn)</name>
 					<extra_info>(2.9M) Alternative English audio pack, for ports without FLAC support</extra_info>
 				</file>
 				<file>
 					<category_icon>cat-ogg.png</category_icon>
 					<url>Sword1_Cutscenes_FRE_AddOn.zip?download</url>
-					<name>Broken Sword 1 Cutscene Pack (French OGG AddOn)</name>
+					<name>Broken Sword Cutscene Pack (French OGG AddOn)</name>
 					<extra_info>(1.6M) Alternative French audio pack, for ports without FLAC support</extra_info>
 				</file>
 				<file>
 					<category_icon>cat-ogg.png</category_icon>
 					<url>Sword1_Cutscenes_GER_AddOn.zip?download</url>
-					<name>Broken Sword 1 Cutscene Pack (German OGG AddOn)</name>
+					<name>Broken Sword Cutscene Pack (German OGG AddOn)</name>
 					<extra_info>(1.8M) Alternative German audio pack, for ports without FLAC support</extra_info>
 				</file>
 				<file>
 					<category_icon>cat-ogg.png</category_icon>
 					<url>Sword1_Cutscenes_ITA_AddOn.zip?download</url>
-					<name>Broken Sword 1 Cutscene Pack (Italian OGG AddOn)</name>
+					<name>Broken Sword Cutscene Pack (Italian OGG AddOn)</name>
 					<extra_info>(2.5M) Alternative Italian audio pack, for ports without FLAC support</extra_info>
 				</file>
 				<file>
 					<category_icon>cat-ogg.png</category_icon>
 					<url>Sword1_Cutscenes_ESP_AddOn.zip?download</url>
-					<name>Broken Sword 1 Cutscene Pack (Spanish OGG AddOn)</name>
+					<name>Broken Sword Cutscene Pack (Spanish OGG AddOn)</name>
 					<extra_info>(2.2M) Alternative Spanish audio pack, for ports without FLAC support</extra_info>
 				</file>
 			</entries>
 		</subsection>
 	
 		<subsection>
-			<title>Broken Sword 2</title>
+			<title>Broken Sword II</title>
 			<entries>
 				<file>
 					<category_icon>cat-flac.png</category_icon>
 					<url>Sword2_DXA_Cutscenes.zip?download</url>
-					<name>Broken Sword 2 Cutscene Pack (all languages, DXA compression)</name>
+					<name>Broken Sword II Cutscene Pack (all languages, DXA compression)</name>
 					<extra_info>(111M) - Requires ScummVM 0.10.0</extra_info>
 				</file>
 				<file>
 					<category_icon>cat-ogg.png</category_icon>
 					<url>Sword2_OGG_Cutscenes.zip?download</url>
-					<name>Broken Sword 2 Cutscene Pack (all languages, OGG AddOn)</name>
+					<name>Broken Sword II Cutscene Pack (all languages, OGG AddOn)</name>
 					<extra_info>(2.9M) Alternative audio pack, for ports without FLAC support</extra_info>
 				</file>
 				<file>
 					<category_icon>cat-flac.png</category_icon>
 					<url>Sword2_Demo_Cutscenes.zip?download</url>
-					<name>Broken Sword 2 Demo Cutscene Pack</name>
+					<name>Broken Sword II Demo Cutscene Pack</name>
 					<extra_info>(767k) - Requires ScummVM 0.10.0</extra_info>
 				</file>
 			</entries>

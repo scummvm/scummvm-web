@@ -208,7 +208,7 @@
 				</person>
 			</group>
 			<group>
-				<name>Broken Sword 1</name>
+				<name>Broken Sword</name>
 				<person>
 					<name>Fabio Battaglia</name>
 					<alias>Hkz</alias>
@@ -221,7 +221,7 @@
 				</person>
 			</group>
 			<group>
-				<name>Broken Sword 2</name>
+				<name>Broken Sword II</name>
 				<person>
 					<name>Torbj&ouml;rn Andersson</name>
 					<alias>eriktorbjorn</alias>
@@ -1078,7 +1078,7 @@
 				<person>
 					<name>Thierry Crozat</name>
 					<alias>criezy</alias>
-					<description>Support for Broken Sword 1 Macintosh version</description>
+					<description>Support for Broken Sword Macintosh version</description>
 				</person>
 				<person>
 					<name>Martin Doucha</name>
@@ -1168,7 +1168,7 @@
 				<person>
 					<name>Andreas R&ouml;ver</name>
 					<alias></alias>
-					<description>Broken Sword 1/2 MPEG2 cutscene support</description>
+					<description>Broken Sword I & II MPEG2 cutscene support</description>
 				</person>
 				<person>
 					<name>Edward Rudd</name>

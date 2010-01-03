@@ -51,8 +51,8 @@
 				<p>
 					Some of the adventures ScummVM supports include
 					<a href="http://www.adventuresoft.com">Adventure Soft</a>'s <i>Simon the Sorcerer</i> 1 and 2;
-					<a href="http://www.revolution.co.uk">Revolution</a>'s <i>Beneath A Steel Sky</i>,
-					<i>Broken Sword 1</i> and <i>Broken Sword 2</i>; <i>Flight of the Amazon Queen</i>;
+					<a href="http://www.revolution.co.uk">Revolution</a>'s <i>Beneath A Steel Sky</i> and
+					<i>Broken Sword I &amp; II</i>; <i>Flight of the Amazon Queen</i>;
 					<a href="http://www.wyrmkeep.com/ite/">Wyrmkeep</a>'s <i>Inherit the Earth</i>;
 					Coktel Vision's <i>Gobliiins</i>; Westwood Studios' <i>The Legend of Kyrandia</i> and games
 					based on <a href="http://www.lucasarts.com">LucasArts</a>' <span class="green">SCUMM</span>
