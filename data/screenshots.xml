@@ -403,6 +403,14 @@
 				<file>made/lgop-4</file>
 				<caption>Leather Goddesses of Phobos 2</caption>
 			</image>
+			<image>
+				<file>made/lgop-de-0</file>
+				<caption>Leather Goddesses of Phobos 2 (German)</caption>
+			</image>
+			<image>
+				<file>made/lgop-de-1</file>
+				<caption>Leather Goddesses of Phobos 2 (German)</caption>
+			</image>
 		</game>
 		<game>
 			<name>The Manhole</name>
@@ -458,6 +466,14 @@
 			<image>
 				<file>made/rtz-5</file>
 				<caption>Return to Zork</caption>
+			</image>
+			<image>
+				<file>made/rtz-de-0</file>
+				<caption>Return to Zork (German)</caption>
+			</image>
+			<image>
+				<file>made/rtz-de-1</file>
+				<caption>Return to Zork (German)</caption>
 			</image>
 		</game>
 		<game>
