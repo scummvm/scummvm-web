@@ -50,6 +50,10 @@
 				</a>
 			</div>
 			<p>
+				<a href="http://combobreaker.com/">
+					<img src="images/scummvm_cb.png" alt="Buy ScummVM T-Shirt" width="88" height="32">
+				</a>
+				<br/>
 				<a href="http://www.gog.com/en/frontpage/pp/22d200f8670dbdb3e253a90eee5098477c95c23d">
 					<img src="images/GOG_button_small.png" alt="Buy with GOG.com" width="88" height="32">
 				</a>
