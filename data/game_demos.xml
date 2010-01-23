@@ -859,6 +859,11 @@
 				<target>castlebrain</target>
 			</demo>
 			<demo>
+				<name>Christmas Card 1988 (DOS demo) - Requires ScummVM 1.1.0svn</name>
+				<url>http://demos.robertmegone.com/sci/christmas1988-dos-en.zip</url>
+				<target>christmas1988</target>
+			</demo>
+			<demo>
 				<name>Christmas Card 1990: The Seasoned Professional (EGA DOS demo) - Requires ScummVM 1.1.0svn</name>
 				<url>http://demos.robertmegone.com/sci/christmas1990-dos-ega-en.zip</url>
 				<target>christmas1990</target>
@@ -902,6 +907,11 @@
 				<name>Laura Bow: The Colonel's Bequest (DOS demo - Non-interactive) - Requires ScummVM 1.1.0svn</name>
 				<url>http://demos.robertmegone.com/sci/laurabow-dos-ni-demo-en.zip</url>
 				<target>laurabow</target>
+			</demo>
+			<demo>
+				<name>Laura Bow 2: The Dagger of Amon Ra (DOS demo - Non-interactive) - Requires ScummVM 1.1.0svn</name>
+				<url>http://demos.robertmegone.com/sci/laurabow2-dos-ni-demo-en.zip</url>
+				<target>laurabow2</target>
 			</demo>
 			<demo>
 				<name>Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places) (DOS demo - Non-interactive) - Requires ScummVM 1.1.0svn</name>
