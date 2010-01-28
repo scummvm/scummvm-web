@@ -929,9 +929,19 @@
 				<target>laurabow2</target>
 			</demo>
 			<demo>
+				<name>Leisure Suit Larry in the Land of the Lounge Lizards, SCI Remake (DOS demo - Non-interactive) - Requires ScummVM 1.1.0svn</name>
+				<url>http://demos.robertmegone.com/sci/lsl1sci-dos-ni-demo-en.zip</url>
+				<target>lsl1sci</target>
+			</demo>
+			<demo>
 				<name>Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places) (DOS demo - Non-interactive) - Requires ScummVM 1.1.0svn</name>
 				<url>http://demos.robertmegone.com/sci/lsl2-dos-ni-demo-en.zip</url>
 				<target>lsl2</target>
+			</demo>
+			<demo>
+				<name>Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work (DOS demo - Non-interactive) - Requires ScummVM 1.1.0svn</name>
+				<url>http://demos.robertmegone.com/sci/lsl5-dos-ni-demo-en.zip</url>
+				<target>lsl5</target>
 			</demo>
 			<demo>
 				<name>Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals (DOS demo - Non-interactive) - Requires ScummVM 1.1.0svn</name>
@@ -954,7 +964,7 @@
 				<target>qfg1</target>
 			</demo>
 			<demo>
-				<name>Space Quest I: The Sarien Encounter (DOS demo - Non-interactive) - Requires ScummVM 1.1.0svn</name>
+				<name>Space Quest I: The Sarien Encounter, SCI Remake (DOS demo - Non-interactive) - Requires ScummVM 1.1.0svn</name>
 				<url>http://demos.robertmegone.com/sci/sq1sci-dos-ni-demo-en.zip</url>
 				<target>sq1sci</target>
 			</demo>
