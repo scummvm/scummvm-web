@@ -889,6 +889,21 @@
 				<target>ecoquest</target>
 			</demo>
 			<demo>
+				<name>Freddy Pharkas: Frontier Pharmacist (DOS demo) - Requires ScummVM 1.1.0svn</name>
+				<url>http://demos.robertmegone.com/sci/freddypharkas-dos-demo1-en.zip</url>
+				<target>freddypharkas</target>
+			</demo>
+			<demo>
+				<name>Freddy Pharkas: Frontier Pharmacist (DOS Alternative demo) - Requires ScummVM 1.1.0svn</name>
+				<url>http://demos.robertmegone.com/sci/freddypharkas-dos-demo2-en.zip</url>
+				<target>freddypharkas</target>
+			</demo>
+			<demo>
+				<name>Freddy Pharkas: Frontier Pharmacist (Windows CD demo) - Requires ScummVM 1.1.0svn</name>
+				<url>http://demos.robertmegone.com/sci/freddypharkas-win-cd-demo-en.zip</url>
+				<target>freddypharkas</target>
+			</demo>
+			<demo>
 				<name>King's Quest I: Quest for the Crown, SCI Remake (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/sci/kq1sci-dos-ni-demo-en.zip</url>
 				<target>kq1sci</target>
