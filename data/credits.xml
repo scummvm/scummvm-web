@@ -1412,6 +1412,11 @@
 					<description>For contributing the initial version of the Gobliiins engine</description>
 				</person>
 				<person>
+					<name>DOSBox Team</name>
+					<alias></alias>
+					<description>For their awesome OPL2 and OPL3 emulator</description>
+				</person>
+				<person>
 					<name>Till Kresslein</name>
 					<alias>Krest</alias>
 					<description>For design of modern ScummVM GUI</description>
