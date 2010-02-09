@@ -149,17 +149,12 @@
 			<url>http://www.dosbox.com/</url>
 			<description>DOSBox does not really quite fit in here since it emulates a classic operating system (namely DOS) and
 			even a PC to run it on; but since it can be used to run many classic DOS games (at least if you are using a
-			sufficiently powerful desktop computer), we mention it here anyway. Plus it's a cool project, too :)</description>
+			sufficiently powerful desktop computer), we mention it here anyway. Plus it's a cool project, too :).</description>
 		</link>
 	</group>
 	<group>
 		<name>Technical information about SCUMM and other engines</name>
-		<description>SCUMM is a complex system that grew over many years.
-		Understanding it can be quite difficult at times.
-		Therefore we tried to collect some information about these engines in our Don't forget that our <a href="http://wiki.scummvm.org">Wiki</a>.
-		Sadly not everything is in there.
-		But there are other sites out there that provide you with a bunch of information about some engines; here are some of them.
-		</description>
+		<description>SCUMM is a complex system that grew over many years. Understanding it can be quite difficult at times. Therefore we tried to collect some information about these engines in our <a href="http://wiki.scummvm.org">Wiki</a>. Sadly not everything is in there. But there are other sites out there that provide you with a bunch of information about some engines; here are some of them.</description>
 		<link>
 			<name>LucasHacks</name>
 			<url>http://scumm.mixnmojo.com/</url>
