@@ -25,7 +25,12 @@
 		<link>
 			<name>Amiga Port</name>
 			<url>http://people.freenet.de/uweryssel/scumm_en.html</url>
-			<description>Homepage of the 68k/WarpOS port of ScummVM for the Amiga. Requires 020+ and AGA chipset or RTG Zorro card.</description>
+			<description>Homepage of a 68k/WarpOS port of ScummVM for the Amiga. Requires 020+ and AGA chipset or RTG Zorro card.</description>
+		</link>
+		<link>
+			<name>Android Port</name>
+			<url>http://sites.google.com/site/scummvmandroid/</url>
+			<description>Homepage of a port of ScummVM for the Android.</description>
 		</link>
 		<link>
 			<name>Nokia 770 port</name>
