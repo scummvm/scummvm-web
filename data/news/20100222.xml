@@ -1,0 +1,21 @@
+<NAME>ScummVM 1.1.0 Release Testing is Here!</NAME>
+<DATE>Feb 22, 2010</DATE>
+<AUTHOR>clone2727</AUTHOR>
+<BODY>
+
+<p>It's time once again to go out and test all your favorite ScummVM games as we gear up for another release of our humble little software. We have several new games announced as supported:</p>
+
+<ul>
+<li><i>Blue's Art Time Activities</i></li>
+<li><i>Blue's Reading Time Activities</i></li>
+<li><i>Dragon Historie</i></li>
+<li><i>Freddi Fish 5: The Case of the Creature of Coral Cove</i></li>
+<li><i>Pajama Sam: Games to Play on Any Day</i></li>
+<li><i>Spy Fox 3: Operation Ozone</i></li>
+<li><i>TeenAgent</i></li>
+</ul>
+
+<p>So, go grab your favorite games, and play through them using a <a href="http://www.scummvm.org/downloads.php#SVN">daily build</a>. If you find any bugs, report them on the <a href="http://sourceforge.net/tracker/?group_id=37116&amp;atid=418820">bug tracker</a>. Once you've completed a game, please report it on the forums so it can be added to the <a href="http://wiki.scummvm.org/index.php/Release_Testing/1.1.0">release testing wiki page</a>. When reporting, make sure you provide the version, language, and platform of the game you're testing. Any other questions? Go see the <a href="http://wiki.scummvm.org/index.php/Release_Testing">Release Testing guidelines</a>.</p>
+
+</BODY>
+
