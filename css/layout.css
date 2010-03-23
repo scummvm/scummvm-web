@@ -45,8 +45,9 @@ body {
 	top: -8px;
 }
 
-#menu div a.float_left {
-	margin-bottom: 2px;
+#menu_banners a {
+	float: left;
+	margin-bottom: 3px;
 }
 
 #content {

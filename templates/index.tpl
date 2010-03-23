@@ -45,19 +45,20 @@
 			{/foreach}
 			<div>
 				<img src="images/hangmonk.gif" alt="monkey" width="55" height="57" class="monkey float_right">
-				<a href="http://sourceforge.net/donate/index.php?group_id=37116" class="float_left">
+			</div>
+			<div id="menu_banners">
+				<a href="http://sourceforge.net/donate/index.php?group_id=37116">
 					<img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" alt="Support This Project">
 				</a>
-			</div>
-			<p>
+				<br>
 				<a href="http://combobreaker.com/">
-					<img src="images/scummvm_cb.png" alt="Buy ScummVM T-Shirt" width="88" height="32">
+					<img src="images/scummvm_cb.png" alt="Buy ScummVM T-Shirt" width="88" height="32" alt="Combobreaker.com T-Shirts">
 				</a>
-				<br/>
+				<br>
 				<a href="http://www.gog.com/en/frontpage/pp/22d200f8670dbdb3e253a90eee5098477c95c23d">
-					<img src="images/GOG_button_small.png" alt="Buy with GOG.com" width="88" height="32">
+					<img src="images/GOG_button_small.png" alt="Buy with GOG.com" width="88" height="32" alt="GOG.com games">
 				</a>
-			</p>
+			</div>
 		</div>
 
 		{* Content *}
