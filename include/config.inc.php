@@ -9,6 +9,8 @@ define('RELEASE_DEBIAN', '1.0.0rc1');
 define('NEWS_ITEMS', 4);
 /* Number of heroes header files. */
 define('HEROES_NUM', 4);
+/* Time zone to use for news items etc. */
+date_default_timezone_set("UTC");
 
 /* Base URL to the website. */
 if ($_SERVER['SERVER_PORT'] == '80') {
