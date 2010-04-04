@@ -10,10 +10,11 @@
 			<anchor>stable</anchor>
 			<notes>
 				For a list of changes since the previous version,
-				<h:a href="http://sourceforge.net/project/shownotes.php?release_id=676818">read the release notes</h:a>.
+				<h:a href="https://sourceforge.net/projects/scummvm/files/scummvm/{$release_tools}/ReleaseNotes/view">read the release notes</h:a>.
 				<h:br/>{$release_debian} is also apt-get'able from Debian unstable (sid).<h:br/><h:br/>
 			</notes>
 			<entries>
+<!--
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
 					<url>scummvm-{$release}-win32.exe?download</url>
@@ -26,134 +27,129 @@
 					<name>Windows zipfile</name>
 					<extra_info>(4.5M zipfile)</extra_info>
 				</file>
-	
+	-->
+
+				<file>
+					<category_icon>catpl-windows.png</category_icon>
+					<url>scummvm-{$release}-win64.zip?download</url>
+					<name>Windows 64bit zipfile</name>
+					<extra_info>(5.0M zipfile)</extra_info>
+				</file>
+
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
 					<url>scummvm-{$release}-1_F8.i386.rpm?download</url>
 					<name>Fedora 8, 9, 10, 11 and 12 i386 package</name>
-					<extra_info>(4.3M RPM)</extra_info>
+					<extra_info>(4.6M RPM)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
 					<url>scummvm-{$release}-1_F8.x86_64.rpm?download</url>
 					<name>Fedora 8, 9, 10, 11 and 12 x86 64bit package</name>
-					<extra_info>(4.8M RPM)</extra_info>
+					<extra_info>(5.0M RPM)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
 					<url>scummvm_{$release}-lenny.1_i386.deb?download</url>
 					<name>Debian 5.0 (lenny) i386 package</name>
-					<extra_info>(4.5M .deb)</extra_info>
+					<extra_info>(4.6M .deb)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
 					<url>scummvm_{$release}-lenny.1_amd64.deb?download</url>
 					<name>Debian 5.0 (lenny) x86 64bit package</name>
-					<extra_info>(4.9M .deb)</extra_info>
+					<extra_info>(5.1M .deb)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
 					<url>scummvm_{$release}-karmic.1_i386.deb?download</url>
 					<name>Ubuntu 9.10 (karmic) i386 package</name>
-					<extra_info>(4.6M .deb)</extra_info>
+					<extra_info>(4.4M .deb)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
 					<url>scummvm_{$release}-karmic.1_amd64.deb?download</url>
 					<name>Ubuntu 9.10 (karmic) x86 64bit package</name>
-					<extra_info>(5.0M .deb)</extra_info>
+					<extra_info>(5.1M .deb)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
 					<url>scummvm_{$release}-karmic.1_powerpc.deb?download</url>
 					<name>Ubuntu 9.10 (karmic) PowerPC / Cell (PlayStation3) package</name>
-					<extra_info>(4.9M .deb)</extra_info>
+					<extra_info>(4.8M .deb)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-slackware.png</category_icon>
 					<url>scummvm-{$release}_slack-i486-1.tgz?download</url>
 					<name>SlackWare package</name>
-					<extra_info>(3.9M .tgz)</extra_info>
+					<extra_info>(4.1M .tgz)</extra_info>
 				</file>
-	
-	
+
 				<file>
 					<category_icon>catpl-macos-universal.png</category_icon>
 					<url>scummvm-{$release}-macosx.dmg?download</url>
 					<name>Mac OS X Universal Disk Image</name>
-					<extra_info>(8.9M disk image)</extra_info>
+					<extra_info>(9.3M disk image)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-ps2.png</category_icon>
 					<url>scummvm-{$release}-ps2.zip?download</url>
 					<name>PlayStation2 package</name>
-					<extra_info>(4.7M .zip)</extra_info>
+					<extra_info>(8.2M .zip)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-psp.png</category_icon>
 					<url>scummvm-{$release}-psp.zip?download</url>
 					<name>PSP (PlayStation Portable) package</name>
-					<extra_info>(5.1M .zip)</extra_info>
+					<extra_info>(6.8M .zip)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-ds.png</category_icon>
 					<url>scummvm-{$release}-ds.zip?download</url>
 					<name>Nintendo DS package</name>
-					<extra_info>(9.9M .zip)</extra_info>
+					<extra_info>(11.3M .zip)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-symbian.png</category_icon>
 					<url>scummvm-{$release}-s60-v3.sis?download</url>
 					<name>Symbian S60 version 3 binary</name>
-					<extra_info>(5.0M .sis)</extra_info>
+					<extra_info>(5.2M .sis)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-uiq.png</category_icon>
 					<url>scummvm-{$release}-uiq3.sis?download</url>
 					<name>Symbian UIQ 3 binary</name>
-					<extra_info>(4.6M .sis)</extra_info>
+					<extra_info>(5.0M .sis)</extra_info>
 				</file>
-	<!--
-				<file>
-					<category_icon>catpl-palmos.png</category_icon>
-					<url>scummvm-0.11.1-palmos-os5.zip?download</url>
-					<name>PalmOS 5 binary</name>
-					<extra_info>(7.8M zipfile)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-palmos.png</category_icon>
-					<url>scummvm-0.11.1-palmos-zodiac.zip?download</url>
-					<name>PalmOS Tapwave Zodiac binary</name>
-					<extra_info>(8.0M zipfile)</extra_info>
-				</file>
-	-->
+
 				<file>
 					<category_icon>catpl-wince.png</category_icon>
-					<url>scummvm-{$release}-WinCE.zip?download</url>
+					<url>scummvm-{$release}-wince.zip?download</url>
 					<name>Windows CE ARM package</name>
-					<extra_info>(6.4M zipfile)</extra_info>
+					<extra_info>(12.2M zipfile)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-iphone.png</category_icon>
 					<url>scummvm-{$release}-iphone.deb?download</url>
 					<name>iPhone package</name>
-					<extra_info>(6.7M deb)</extra_info>
+					<extra_info>(7.0M deb)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-maemo.png</category_icon>
 					<url>scummvm_{$release}_armel.deb?download</url>
 					<name>Maemo package (OS 2006, 2007 and 2008)</name>
-					<extra_info>(3.5M .deb)</extra_info>
+					<extra_info>(4.6M .deb)</extra_info>
 				</file>
+<!--
 				<file>
 					<category_icon>catpl-maemo.png</category_icon>
 					<url>http://downloads.maemo.org/product/OS2006/scummvm/</url>
@@ -172,7 +168,7 @@
 					<name>Maemo single click install package for N8x0/OS2008</name>
 					<extra_info>(Most recent version from Maemo Extras repository)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-linuxmoto.png</category_icon>
 					<url>scummvm-{$release}-motoezx.pkg?download</url>
@@ -197,20 +193,28 @@
 					<name>Motorola Z6, V8 package</name>
 					<extra_info>(4.5M .mpkg)</extra_info>
 				</file>
-	
+	-->
+
 				<file>
 					<category_icon>catpl-dc.png</category_icon>
 					<url>scummvm-{$release}-dreamcast-plainfiles.tar.bz2?download</url>
 					<name>Dreamcast plain files</name>
-					<extra_info>(7.3M .tar.bz2)</extra_info>
+					<extra_info>(7.6M .tar.bz2)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-dc.png</category_icon>
 					<url>scummvm-{$release}-dreamcast-nero+demos.zip?download</url>
 					<name>Dreamcast Nero Image &amp; Demos</name>
-					<extra_info>(12.9M .zip)</extra_info>
+					<extra_info>(13.4M .zip)</extra_info>
 				</file>
-	
+
+				<file>
+					<category_icon>catpl-n64.png</category_icon>
+					<url>scummvm-{$release}-n64.zip?download</url>
+					<name>Nintendo 64 package</name>
+					<extra_info>(8.8M .zip)</extra_info>
+				</file>
+<!--
 				<file>
 					<category_icon>catpl-gc.png</category_icon>
 					<url>scummvm-{$release}-gc.zip?download</url>
@@ -223,49 +227,49 @@
 					<name>Wii package</name>
 					<extra_info>(4.4M .zip)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-gp2x.png</category_icon>
 					<url>scummvm-{$release}-gp2x.zip?download</url>
 					<name>GP2X package</name>
 					<extra_info>(5.1M .zip)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-gp2xwiz.png</category_icon>
 					<url>scummvm-{$release}-gp2xwiz.zip?download</url>
 					<name>GP2X Wiz package</name>
 					<extra_info>(14.3M .zip)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
 					<url>SCVMscummvm-{$release}-solaris8-sparc-local.pkg.bz2?download</url>
 					<name>Solaris 8 and up (Sparc) binary</name>
 					<extra_info>(5.4M .pkg.bz2)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
 					<url>scummvm-{$release}-solaris10-x86.pkg.bz2?download</url>
 					<name>Solaris 10 (both IA32 and AMD64) binary</name>
 					<extra_info>(12.4M .pkg.bz2)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-irix.png</category_icon>
 					<url>scummvm-{$release}-irix-mips3.tar.gz?download</url>
 					<name>IRIX (6.5.*, n32, mips3) package</name>
 					<extra_info>(9.0M .tar.gz)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-irix.png</category_icon>
 					<url>scummvm-{$release}-irix-mips4.tar.gz?download</url>
 					<name>IRIX (6.5.*, n32, mips4) package</name>
 					<extra_info>(9.0M .tar.gz)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-beos.png</category_icon>
 					<url>scummvm-{$release}-beos.tgz?download</url>
@@ -278,28 +282,31 @@
 					<name>Haiku package</name>
 					<extra_info>(4.9M tgz)</extra_info>
 				</file>
-	
+	-->
+
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
-					<url>scummvm-{$release}-amigaos.lha?download</url>
+					<url>scummvm-{$release}-amigaos4.lha?download</url>
 					<name>AmigaOS 4 package</name>
-					<extra_info>(6.3M .lha)</extra_info>
+					<extra_info>(6.2M .lha)</extra_info>
 				</file>
-	
+
+<!--
 				<file>
 					<category_icon>catpl-morphos.png</category_icon>
 					<url>scummvm-{$release}-morphos.lha?download</url>
 					<name>MorphOS package</name>
 					<extra_info>(6.3M .lha)</extra_info>
 				</file>
-	
+	-->
+
 				<file>
 					<category_icon>catpl-freemint.png</category_icon>
 					<url>scummvm-{$release}-atari.zip?download</url>
 					<name>Atari/FreeMiNT package (68020 and up)</name>
 					<extra_info>(4.7M .zip)</extra_info>
 				</file>
-	<!--
+<!--
 				<file>
 					<category_icon>catpl-os2.png</category_icon>
 					<url>scummvm-{$release}-os2.zip?download</url>
@@ -345,6 +352,7 @@
 			<title>{$release_tools} Tools</title>
 			<anchor>tools</anchor>
 			<entries>
+	<!--
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-win32.exe?download</url>
@@ -357,86 +365,89 @@
 					<name>Tools - Windows zipfile</name>
 					<extra_info>(4.2M Win32 .zip)</extra_info>
 				</file>
-	
+	-->
+
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
-					<url>scummvm-tools-{$release_tools}-1_F8.i386.rpm?download</url>
-					<name>Tools - Fedora 8, 9, 10, 11 and 12 i386 RPM</name>
-					<extra_info>(281k .rpm)</extra_info>
+					<url>scummvm-tools-{$release_tools}-1_F8.i586.rpm?download</url>
+					<name>Tools - Fedora 11 and 12 i386 RPM</name>
+					<extra_info>(728k .rpm)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-1_F8.x86_64.rpm?download</url>
-					<name>Tools - Fedora 8, 9, 10, 11 and 12 x86 64bit RPM</name>
-					<extra_info>(317k .rpm)</extra_info>
+					<name>Tools - Fedora 11 and 12 x86 64bit RPM</name>
+					<extra_info>(778k .rpm)</extra_info>
 				</file>
-	<!--
 				<file>
 					<category_icon>catpl-macos-universal.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-macosx.tar.bz2?download</url>
 					<name>Tools - Mac OS X Universal binaries (10.3.9 and up)</name>
-					<extra_info>(10.4M .tar.bz2)</extra_info>
+					<extra_info>(8.2M .tar.bz2)</extra_info>
 				</file>
-	-->
+	<!--
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
 					<url>SCVMscummvm-tools-{$release_tools}-solaris8-sparc-local.pkg.bz2?download</url>
 					<name>Tools - Solaris 8 (Sparc)</name>
 					<extra_info>(750k .pkg.bz2)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-solaris10-x86.pkg.bz2?download</url>
 					<name>Tools - Solaris 10 (both IA32 and AMD64)</name>
 					<extra_info>(4.7M .pkg.bz2)</extra_info>
 				</file>
-	
+		-->
+
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
-					<url>scummvm-tools-{$release_tools}-amigaos.lha?download</url>
+					<url>scummvm-tools-{$release_tools}-amigaos4.lha?download</url>
 					<name>Tools - AmigaOS 4</name>
-					<extra_info>(5.1M .lha)</extra_info>
+					<extra_info>(879k .lha)</extra_info>
 				</file>
-	
+
+	<!--
 				<file>
 					<category_icon>catpl-freemint.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-atari.tar.bz2?download</url>
 					<name>Tools - Atari/FreeMiNT package (68020 and up)</name>
 					<extra_info>(4.5M .zip)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-beos.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-beos.tgz?download</url>
 					<name>Tools - BeOS</name>
 					<extra_info>(1.4 .tgz)</extra_info>
 				</file>
-	
+	-->
+
 				<file>
 					<category_icon>catpl-cpp.png</category_icon>
 					<url>scummvm-tools-{$release_tools}.tar.bz2?download</url>
 					<name>Tools - Source .tar.bz2</name>
-					<extra_info>(240k .tar.bz2)</extra_info>
+					<extra_info>(444k .tar.bz2)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-cpp.png</category_icon>
 					<url>scummvm-tools-{$release_tools}.tar.gz?download</url>
 					<name>Tools - Source .tar.gz</name>
-					<extra_info>(286k .tar.gz)</extra_info>
+					<extra_info>(494k .tar.gz)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-cpp.png</category_icon>
 					<url>scummvm-tools-{$release_tools}.zip?download</url>
 					<name>Tools - Source .zip</name>
-					<extra_info>(441k .zip)</extra_info>
+					<extra_info>(687k .zip)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-cpp.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-1.src.rpm?download</url>
 					<name>Tools - Source RPM</name>
-					<extra_info>(242k .rpm)</extra_info>
+					<extra_info>(816k .rpm)</extra_info>
 				</file>
 			</entries>
 		</subsection>
@@ -471,35 +482,35 @@
 					<name>0.11.1 PalmOS Tapwave Zodiac binary</name>
 					<extra_info>(8.0M zipfile)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-opie.png</category_icon>
 					<url>scummvm-0.11.1-opie_arm.ipk?download</url>
 					<name>0.11.1 Opie SDL package <h:b>Only</h:b> for iPAQ h1910/h1915 and MyPal 716</name>
 					<extra_info>(3.6M .ipk)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
 					<url>scummvm-0.10.0-1_FC5.i386.rpm?download</url>
 					<name>0.10.0 Fedora Core 5 and 6 package</name>
 					<extra_info>(2.8M RPM)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
 					<url>scummvm-0.9.1-1_FC2.i386.rpm?download</url>
 					<name>0.9.1 Fedora Core 2 package</name>
 					<extra_info>(1.6M RPM)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
 					<url>scummvm_0.9.1-0.sarge.1_i386.deb?download</url>
 					<name>0.9.1 Debian 3.1 (sarge) package</name>
 					<extra_info>(1.6M .deb)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-symbian.png</category_icon>
 					<url>scummvm-0.9.1-s60-v1.sis?download</url>
@@ -530,14 +541,14 @@
 					<name>0.9.1 Symbian UIQ 2 binary</name>
 					<extra_info>(1.4M .sis)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-mandriva.png</category_icon>
 					<url>scummvm-0.8.0-1mdk.i586.rpm?download</url>
 					<name>0.8.0 Mandriva 2006 package</name>
 					<extra_info>(1.3M RPM)</extra_info>
 				</file>
-	
+
 				<file>
 					<category_icon>catpl-wince.png</category_icon>
 					<url>scummvm-0.7.1-PocketPC_MIPS.zip?download</url>
@@ -600,7 +611,7 @@
 				</file>
 			</entries>
 		</subsection>
-	
+
 		<subsection>
 			<title>Flight of the Amazon Queen</title>
 			<entries>
@@ -642,7 +653,7 @@
 				</file>
 			</entries>
 		</subsection>
-	
+
 		<subsection>
 			<title>Lure of the Temptress</title>
 			<entries>
@@ -684,10 +695,10 @@
 				</file>
 			</entries>
 		</subsection>
-	
+
 		<subsection>
 			<title>Drascula: The Vampire Strikes Back</title>
-			<entries> 
+			<entries>
 				<file>
 					<category_icon>cat-drascula.png</category_icon>
 					<url>drascula-1.0.zip?download</url>
@@ -720,7 +731,7 @@
 				</file>
 			</entries>
 		</subsection>
-	
+
 		<subsection>
 			<title>Broken Sword</title>
 			<entries>
@@ -804,7 +815,7 @@
 				</file>
 			</entries>
 		</subsection>
-	
+
 		<subsection>
 			<title>Broken Sword II</title>
 			<entries>
@@ -828,7 +839,7 @@
 				</file>
 			</entries>
 		</subsection>
-	
+
 		<subsection>
 			<title>The Feeble Files</title>
 			<entries>
@@ -840,7 +851,7 @@
 				</file>
 			</entries>
 		</subsection>
-	
+
 		<subsection>
 			<title>The Legend Of Kyrandia</title>
 			<entries>
@@ -875,12 +886,12 @@
 				</h:p>
 				<h:ul class="downloads">
 					<h:li class="file">
-						<h:img src="images/catpl-dc.png" alt="" class="category" /> 
+						<h:img src="images/catpl-dc.png" alt="" class="category" />
 						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/dc-trunk-latest.tar.bz2">Dreamcast nightly build</h:a>
 						<h:span class="download-extras">&nbsp;</h:span>
 					</h:li>
 					<h:li class="file">
-						<h:img src="images/catpl-gp2x.png" alt="" class="category" /> 
+						<h:img src="images/catpl-gp2x.png" alt="" class="category" />
 						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/gp2x-trunk-latest.tar.bz2">GP2X nightly build</h:a>
 						<h:span class="download-extras">&nbsp;</h:span>
 					</h:li>
@@ -901,24 +912,24 @@
 					</h:li>
 					<h:li class="file">
 						<h:img src="images/catpl-psp.png" alt="" class="category" />
-						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/psp-trunk-latest.tar.bz2">PSP (PlayStation Portable) nightly build</h:a> 
+						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/psp-trunk-latest.tar.bz2">PSP (PlayStation Portable) nightly build</h:a>
 						<h:span class="download-extras">&nbsp;</h:span>
 					</h:li>
 					<h:li class="file">
-						<h:img src="images/catpl-wii.png" alt="" class="category" /> 
-						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/wii-trunk-latest.tar.bz2">Wii nightly build</h:a> 
+						<h:img src="images/catpl-wii.png" alt="" class="category" />
+						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/wii-trunk-latest.tar.bz2">Wii nightly build</h:a>
 						<h:span class="download-extras">&nbsp;</h:span>
 					</h:li>
 					<h:li class="file">
-						<h:img src="images/catpl-wince.png" alt="" class="category" /> 
-						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/wince-trunk-latest.tar.bz2">Windows CE ARM nightly build</h:a> 
+						<h:img src="images/catpl-wince.png" alt="" class="category" />
+						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/wince-trunk-latest.tar.bz2">Windows CE ARM nightly build</h:a>
 						<h:span class="download-extras">&nbsp;</h:span>
 					</h:li>
-				</h:ul>	
+				</h:ul>
 				<h:p>Additional snapshot builds:</h:p>
 			</notes>
 			<footer>
-				Additional daily builds for Linux (x86) as well as source snapshots can be <h:a href="http://helllabs.org/scummvm/">downloaded from here</h:a>. 
+				Additional daily builds for Linux (x86) as well as source snapshots can be <h:a href="http://helllabs.org/scummvm/">downloaded from here</h:a>.
 			</footer>
 			<entries>
 				<file>
@@ -963,7 +974,7 @@
 					<type>svn</type>
 					<extra_info>Provided by ScummVM Team member Pawel 'aquadran' Kolodziejski</extra_info>
 				</file>
-<!-- 					
+<!--
 				<file>
 					<category_icon>catpl-macos.png</category_icon>
 					<url>http://worldsmainorganization.org/scummvm/</url>
