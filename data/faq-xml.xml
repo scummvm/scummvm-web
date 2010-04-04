@@ -72,7 +72,7 @@
       <answer>
 		<simpara>
 		The source code package contains a file called
-		<ulink url="http://scummvm.svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README">README</ulink>
+		<ulink url="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/README">README</ulink>
 		that should explain everything.
 		</simpara>
 	</answer>
@@ -259,7 +259,7 @@
 		Loom (CD &amp; FM-TOWNS), Monkey Island 1 (CD, FM-TOWNS &amp; SegaCD) and Zak McKracken (FM-TOWNS). Just keep your game CD
 		inserted into your CD drive when you start ScummVM. If you have more than one CD drive in your
 		system, you can specify your CD drive using the -c command line parameter. See the
-		<ulink url="http://scummvm.svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README">README</ulink>
+		<ulink url="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/README">README</ulink>
 		for more info.
 		</simpara>
 	</answer>
@@ -271,7 +271,7 @@
 		<simpara>
 		Yes. You can use LAME or some other CD audio conversion utility to convert your CD audio to MP3. Since
 		version 0.3.0 we also support Ogg Vorbis files, and FLAC is supported since version 0.7.0. See the
-		<ulink url="http://scummvm.svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README">README</ulink>
+		<ulink url="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/README">README</ulink>
 		for more info.
 		</simpara>
 	</answer>
@@ -302,7 +302,7 @@
 		Yes, ScummVM supports several filtered graphic modes such as AdvMAME2x, also known as 
 		<ulink url="http://scale2x.sourceforge.net/">Scale2x</ulink>.
 		See the
-		<ulink url="http://scummvm.svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README">README</ulink>
+		<ulink url="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/README">README</ulink>
 		for more info.
 		</simpara>
 	</answer>
@@ -330,7 +330,7 @@
 		See "<xref linkend="question.supported-games" endterm="question.supported-games.text"/>".
 		If it is a supported game and you
 		have followed the instructions in
-		<ulink url="http://scummvm.svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README">README</ulink>
+		<ulink url="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/README">README</ulink>
 		to the letter, then see "<xref linkend="question.report-bugs" endterm="question.report-bugs.text"/>"
 		to report this as a bug.
 		</simpara>
@@ -434,7 +434,7 @@
 		</simpara>
 		<simpara>
 		Consult the 
-		<ulink url="http://scummvm.svn.sourceforge.net/viewvc/*checkout*/scummvm/scummvm/trunk/README">README</ulink> 
+		<ulink url="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/README">README</ulink> 
 		or command line help for further information.
 		</simpara>
 	</answer>
