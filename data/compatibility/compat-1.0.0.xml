@@ -572,7 +572,7 @@
 				<target>kyra1</target>
 				<percent>87</percent>
 				<notes>
-					Game is completable<h:br />- Requires the <h:a href="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/tags/release-1-0-0rc1/dists/engine-data/kyra.dat">kyra.dat</h:a> resource file to be placed in the game directory<h:br />- Amiga, DOS, FM-TOWNS, Macintosh and PC-9821 versions are supported<h:br />- Occasional graphics glitches<h:br />- No music or sound effects in the Amiga and Macintosh floppy versions<h:br />- Macintosh CD is using included DOS music and sound effects<h:br />- PC-9821 version lacks support for sound effects
+					Game is completable<h:br />- Requires the <h:a href="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/tags/release-1-0-0/dists/engine-data/kyra.dat">kyra.dat</h:a> resource file to be placed in the game directory<h:br />- Amiga, DOS, FM-TOWNS, Macintosh and PC-9821 versions are supported<h:br />- Occasional graphics glitches<h:br />- No music or sound effects in the Amiga and Macintosh floppy versions<h:br />- Macintosh CD is using included DOS music and sound effects<h:br />- PC-9821 version lacks support for sound effects
 				</notes>
 			</game>
 			<game>
@@ -580,7 +580,7 @@
 				<target>kyra2</target>
 				<percent>85</percent>
 				<notes>
-					Game is completable<h:br />- Requires the <h:a href="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/tags/release-1-0-0rc1/dists/engine-data/kyra.dat">kyra.dat</h:a> resource file to be placed in the game directory<h:br />- DOS, FM-TOWNS and PC-9821 versions are supported
+					Game is completable<h:br />- Requires the <h:a href="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/tags/release-1-0-0/dists/engine-data/kyra.dat">kyra.dat</h:a> resource file to be placed in the game directory<h:br />- DOS, FM-TOWNS and PC-9821 versions are supported
 				</notes>
 			</game>
 			<game>
@@ -588,7 +588,7 @@
 				<target>kyra3</target>
 				<percent>80</percent>
 				<notes>
-					Game is completable<h:br />- Requires the <h:a href="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/tags/release-1-0-0rc1/dists/engine-data/kyra.dat">kyra.dat</h:a> resource file to be placed in the game directory<h:br />- DOS and Macintosh versions are supported
+					Game is completable<h:br />- Requires the <h:a href="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/tags/release-1-0-0/dists/engine-data/kyra.dat">kyra.dat</h:a> resource file to be placed in the game directory<h:br />- DOS and Macintosh versions are supported
 				</notes>
 			</game>
 			<game>
