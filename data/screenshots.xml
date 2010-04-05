@@ -139,6 +139,14 @@
 				<file>lec/loom/scummvm_0_6_4</file>
 				<caption>Loom (VGA)</caption>
 			</image>
+			<image>
+				<file>lec/loom/scummvm_0_6_5</file>
+				<caption>Loom (PCE/TG16 USA)</caption>
+			</image>
+			<image>
+				<file>lec/loom/scummvm_0_6_6</file>
+				<caption>Loom (PCE/TG16 USA)</caption>
+			</image>
 		</game>
 		<game>
 			<name>The Secret of Monkey Island</name>
