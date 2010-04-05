@@ -14,20 +14,18 @@
 				<h:br/>{$release_debian} is also apt-get'able from Debian unstable (sid).<h:br/><h:br/>
 			</notes>
 			<entries>
-<!--
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
 					<url>scummvm-{$release}-win32.exe?download</url>
 					<name><h:b>Windows Installer</h:b></name>
-					<extra_info>(3.1M Win32 .exe)</extra_info>
+					<extra_info>(3.4M Win32 .exe)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
 					<url>scummvm-{$release}-win32.zip?download</url>
 					<name>Windows zipfile</name>
-					<extra_info>(4.5M zipfile)</extra_info>
+					<extra_info>(5.1M zipfile)</extra_info>
 				</file>
-	-->
 
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
@@ -352,20 +350,18 @@
 			<title>{$release_tools} Tools</title>
 			<anchor>tools</anchor>
 			<entries>
-	<!--
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-win32.exe?download</url>
 					<name>Tools - Windows Installer</name>
-					<extra_info>(1.0M Win32 .exe)</extra_info>
+					<extra_info>(1.7M Win32 .exe)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-win32.zip?download</url>
 					<name>Tools - Windows zipfile</name>
-					<extra_info>(4.2M Win32 .zip)</extra_info>
+					<extra_info>(3.3M Win32 .zip)</extra_info>
 				</file>
-	-->
 
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
