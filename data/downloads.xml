@@ -212,6 +212,7 @@
 					<name>Nintendo 64 package</name>
 					<extra_info>(8.8M .zip)</extra_info>
 				</file>
+
 <!--
 				<file>
 					<category_icon>catpl-gc.png</category_icon>
@@ -260,14 +261,16 @@
 					<name>IRIX (6.5.*, n32, mips3) package</name>
 					<extra_info>(9.0M .tar.gz)</extra_info>
 				</file>
+	-->
 
 				<file>
 					<category_icon>catpl-irix.png</category_icon>
-					<url>scummvm-{$release}-irix-mips4.tar.gz?download</url>
+					<url>scummvm-{$release}-irix-mips4.tar.bz2?download</url>
 					<name>IRIX (6.5.*, n32, mips4) package</name>
-					<extra_info>(9.0M .tar.gz)</extra_info>
+					<extra_info>(9.3M .tar.bz2)</extra_info>
 				</file>
 
+<!--
 				<file>
 					<category_icon>catpl-beos.png</category_icon>
 					<url>scummvm-{$release}-beos.tgz?download</url>
@@ -396,6 +399,13 @@
 					<extra_info>(4.7M .pkg.bz2)</extra_info>
 				</file>
 		-->
+
+				<file>
+					<category_icon>catpl-irix.png</category_icon>
+					<url>scummvm-tools-{$release_tools}-irix-mips4.tar.bz2?download</url>
+					<name>Tools - IRIX (6.5.*, n32, mips4) package</name>
+					<extra_info>(2.3M .tar.bz2)</extra_info>
+				</file>
 
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
