@@ -240,14 +240,15 @@
 					<name>GP2X Wiz package</name>
 					<extra_info>(14.3M .zip)</extra_info>
 				</file>
+	-->
 
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
 					<url>SCVMscummvm-{$release}-solaris8-sparc-local.pkg.bz2?download</url>
 					<name>Solaris 8 and up (Sparc) binary</name>
-					<extra_info>(5.4M .pkg.bz2)</extra_info>
+					<extra_info>(5.9M .pkg.bz2)</extra_info>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
 					<url>scummvm-{$release}-solaris10-x86.pkg.bz2?download</url>
@@ -384,14 +385,14 @@
 					<name>Tools - Mac OS X Universal binaries (10.3.9 and up)</name>
 					<extra_info>(8.2M .tar.bz2)</extra_info>
 				</file>
-	<!--
+
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
 					<url>SCVMscummvm-tools-{$release_tools}-solaris8-sparc-local.pkg.bz2?download</url>
 					<name>Tools - Solaris 8 (Sparc)</name>
-					<extra_info>(750k .pkg.bz2)</extra_info>
+					<extra_info>(580k .pkg.bz2)</extra_info>
 				</file>
-
+	<!--
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-solaris10-x86.pkg.bz2?download</url>
