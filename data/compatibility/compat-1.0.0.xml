@@ -564,7 +564,7 @@
 				<target>nippon</target>
 				<percent>90</percent>
 				<notes>
-					Game is completable<h:br />- Amiga and DOS versions are supported by this target<h:br />- Occasional minor graphical glitches
+					Game isn't completable, due to regressions.<h:br />- Amiga and DOS versions are supported by this target<h:br />- Occasional minor graphical glitches
 				</notes>
 			</game>
 			<game>
