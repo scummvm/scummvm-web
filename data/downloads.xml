@@ -365,13 +365,13 @@
 
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
-					<url>scummvm-tools-{$release_tools}-1_F8.i586.rpm?download</url>
-					<name>Tools - Fedora 11 and 12 i386 RPM</name>
+					<url>scummvm-tools-{$release_tools}-1_F11.i586.rpm?download</url>
+					<name>Tools - Fedora 11 and 12 i586 RPM</name>
 					<extra_info>(728k .rpm)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
-					<url>scummvm-tools-{$release_tools}-1_F8.x86_64.rpm?download</url>
+					<url>scummvm-tools-{$release_tools}-1_F11.x86_64.rpm?download</url>
 					<name>Tools - Fedora 11 and 12 x86 64bit RPM</name>
 					<extra_info>(778k .rpm)</extra_info>
 				</file>
