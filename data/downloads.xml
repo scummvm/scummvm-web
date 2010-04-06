@@ -314,6 +314,12 @@
 					<extra_info>(4.9M .zip)</extra_info>
 				</file>
 -->
+				<file>
+					<category_icon>catpl-samsungtv.png</category_icon>
+					<url>scummvm-{$release}-samsungtv.zip?download</url>
+					<name>Samsung TV package (2009 series)</name>
+					<extra_info>(7.4M .zip)</extra_info>
+				</file>
 			</entries>
 		</subsection>
 
