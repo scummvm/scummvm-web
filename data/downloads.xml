@@ -191,7 +191,7 @@
 					<name>Motorola Z6, V8 package</name>
 					<extra_info>(4.5M .mpkg)</extra_info>
 				</file>
-	-->
+-->
 
 				<file>
 					<category_icon>catpl-dc.png</category_icon>
@@ -240,7 +240,7 @@
 					<name>GP2X Wiz package</name>
 					<extra_info>(14.3M .zip)</extra_info>
 				</file>
-	-->
+-->
 
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
@@ -262,7 +262,7 @@
 					<name>IRIX (6.5.*, n32, mips3) package</name>
 					<extra_info>(9.0M .tar.gz)</extra_info>
 				</file>
-	-->
+-->
 
 				<file>
 					<category_icon>catpl-irix.png</category_icon>
@@ -278,13 +278,13 @@
 					<name>BeOS package</name>
 					<extra_info>(5.4M tgz)</extra_info>
 				</file>
+-->
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
 					<url>scummvm-{$release}-haiku-gcc4.tgz?download</url>
 					<name>Haiku package</name>
-					<extra_info>(4.9M tgz)</extra_info>
+					<extra_info>(5.3M .tgz)</extra_info>
 				</file>
-	-->
 
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
@@ -293,14 +293,12 @@
 					<extra_info>(6.2M .lha)</extra_info>
 				</file>
 
-<!--
 				<file>
 					<category_icon>catpl-morphos.png</category_icon>
 					<url>scummvm-{$release}-morphos.lha?download</url>
 					<name>MorphOS package</name>
-					<extra_info>(6.3M .lha)</extra_info>
+					<extra_info>(6.8M .lha)</extra_info>
 				</file>
-	-->
 
 				<file>
 					<category_icon>catpl-freemint.png</category_icon>
@@ -315,7 +313,7 @@
 					<name>OS/2 package</name>
 					<extra_info>(4.9M .zip)</extra_info>
 				</file>
-	-->
+-->
 			</entries>
 		</subsection>
 
@@ -392,20 +390,35 @@
 					<name>Tools - Solaris 8 (Sparc)</name>
 					<extra_info>(580k .pkg.bz2)</extra_info>
 				</file>
-	<!--
+<!--
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-solaris10-x86.pkg.bz2?download</url>
 					<name>Tools - Solaris 10 (both IA32 and AMD64)</name>
 					<extra_info>(4.7M .pkg.bz2)</extra_info>
 				</file>
-		-->
+-->
 
 				<file>
 					<category_icon>catpl-irix.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-irix-mips4.tar.bz2?download</url>
 					<name>Tools - IRIX (6.5.*, n32, mips4) package</name>
 					<extra_info>(2.3M .tar.bz2)</extra_info>
+				</file>
+
+<!--
+				<file>
+					<category_icon>catpl-beos.png</category_icon>
+					<url>scummvm-tools-{$release_tools}-beos.tgz?download</url>
+					<name>Tools - BeOS</name>
+					<extra_info>(1.4 .tgz)</extra_info>
+				</file>
+-->
+				<file>
+					<category_icon>catpl-haiku.png</category_icon>
+					<url>scummvm-{$release_tools}-haiku-gcc4.tgz?download</url>
+					<name>Haiku package</name>
+					<extra_info>(749k .tgz)</extra_info>
 				</file>
 
 				<file>
@@ -415,21 +428,14 @@
 					<extra_info>(879k .lha)</extra_info>
 				</file>
 
-	<!--
+<!--
 				<file>
 					<category_icon>catpl-freemint.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-atari.tar.bz2?download</url>
 					<name>Tools - Atari/FreeMiNT package (68020 and up)</name>
 					<extra_info>(4.5M .zip)</extra_info>
 				</file>
-
-				<file>
-					<category_icon>catpl-beos.png</category_icon>
-					<url>scummvm-tools-{$release_tools}-beos.tgz?download</url>
-					<name>Tools - BeOS</name>
-					<extra_info>(1.4 .tgz)</extra_info>
-				</file>
-	-->
+-->
 
 				<file>
 					<category_icon>catpl-cpp.png</category_icon>
