@@ -143,7 +143,7 @@
 
 				<file>
 					<category_icon>catpl-maemo.png</category_icon>
-					<url>scummvm_{$release}_armel.deb?download</url>
+					<url>scummvm_{$release}-maemo_armel.deb?download</url>
 					<name>Maemo package (OS 2006, 2007, 2008 and Maemo5/Fremantle)</name>
 					<extra_info>(4.6M .deb)</extra_info>
 				</file>
