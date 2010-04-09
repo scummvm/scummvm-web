@@ -484,6 +484,75 @@
 			</notes>
 			<entries>
 				<file>
+					<category_icon>catpl-linuxmoto.png</category_icon>
+					<url>scummvm-1.0.0-motoezx.pkg?download</url>
+					<name>1.0.0 Motorola A1200, ROKR E6, A1600 package</name>
+					<extra_info>(4.5M .pkg)</extra_info>
+				</file>
+				<file>
+					<category_icon>catpl-linuxmoto.png</category_icon>
+					<url>scummvm-1.0.0-motomagx.mgx?download</url>
+					<name>1.0.0 Motorola E8, EM30, ZN5, U9 package</name>
+					<extra_info>(4.5M .mgx)</extra_info>
+				</file>
+				<file>
+					<category_icon>catpl-linuxmoto.png</category_icon>
+					<url>scummvm-1.0.0-motomagx.pep?download</url>
+					<name>1.0.0 Motorola Z6, V8 package</name>
+					<extra_info>(4.5M .pep)</extra_info>
+				</file>
+				<file>
+					<category_icon>catpl-linuxmoto.png</category_icon>
+					<url>scummvm-1.0.0-motomagx.mpkg?download</url>
+					<name>1.0.0 Motorola Z6, V8 package</name>
+					<extra_info>(4.5M .mpkg)</extra_info>
+				</file>
+				<file>
+					<category_icon>catpl-gc.png</category_icon>
+					<url>scummvm-1.0.0-gc.zip?download</url>
+					<name>1.0.0 Nintendo GameCube package</name>
+					<extra_info>(4.3M .zip)</extra_info>
+				</file>
+				<file>
+					<category_icon>catpl-wii.png</category_icon>
+					<url>scummvm-1.0.0-wii.zip?download</url>
+					<name>1.0.0 Wii package</name>
+					<extra_info>(4.4M .zip)</extra_info>
+				</file>
+
+				<file>
+					<category_icon>catpl-gp2x.png</category_icon>
+					<url>scummvm-1.0.0-gp2x.zip?download</url>
+					<name>1.0.0 GP2X package</name>
+					<extra_info>(5.1M .zip)</extra_info>
+				</file>
+
+				<file>
+					<category_icon>catpl-gp2xwiz.png</category_icon>
+					<url>scummvm-1.0.0-gp2xwiz.zip?download</url>
+					<name>1.0.0 GP2X Wiz package</name>
+					<extra_info>(14.3M .zip)</extra_info>
+				</file>
+				<file>
+					<category_icon>catpl-solaris.png</category_icon>
+					<url>scummvm-1.0.0-solaris10-x86.pkg.bz2?download</url>
+					<name>1.0.0 Solaris 10 (both IA32 and AMD64) binary</name>
+					<extra_info>(12.4M .pkg.bz2)</extra_info>
+				</file>
+				<file>
+					<category_icon>catpl-irix.png</category_icon>
+					<url>scummvm-1.0.0-irix-mips3.tar.gz?download</url>
+					<name>1.0.0 IRIX (6.5.*, n32, mips3) package</name>
+					<extra_info>(9.0M .tar.gz)</extra_info>
+				</file>
+				<file>
+					<category_icon>catpl-beos.png</category_icon>
+					<url>scummvm-1.0.0-beos.tgz?download</url>
+					<name>1.0.0 BeOS package</name>
+					<extra_info>(5.4M tgz)</extra_info>
+				</file>
+
+				<file>
 					<category_icon>catpl-os2.png</category_icon>
 					<url>scummvm-0.13.1-os2.zip?download</url>
 					<name>0.13.1 OS/2 package</name>
