@@ -166,32 +166,32 @@
 					<name>Maemo single click install package for N8x0/OS2008</name>
 					<extra_info>(Most recent version from Maemo Extras repository)</extra_info>
 				</file>
+-->
 
 				<file>
 					<category_icon>catpl-linuxmoto.png</category_icon>
 					<url>scummvm-{$release}-motoezx.pkg?download</url>
 					<name>Motorola A1200, ROKR E6, A1600 package</name>
-					<extra_info>(4.5M .pkg)</extra_info>
+					<extra_info>(4.8M .pkg)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-linuxmoto.png</category_icon>
 					<url>scummvm-{$release}-motomagx.mgx?download</url>
 					<name>Motorola E8, EM30, ZN5, U9 package</name>
-					<extra_info>(4.5M .mgx)</extra_info>
+					<extra_info>(3.0M .mgx)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-linuxmoto.png</category_icon>
 					<url>scummvm-{$release}-motomagx.pep?download</url>
 					<name>Motorola Z6, V8 package</name>
-					<extra_info>(4.5M .pep)</extra_info>
+					<extra_info>(4.8M .pep)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-linuxmoto.png</category_icon>
 					<url>scummvm-{$release}-motomagx.mpkg?download</url>
 					<name>Motorola Z6, V8 package</name>
-					<extra_info>(4.5M .mpkg)</extra_info>
+					<extra_info>(4.8M .mpkg)</extra_info>
 				</file>
--->
 
 				<file>
 					<category_icon>catpl-dc.png</category_icon>
@@ -483,30 +483,6 @@
 				older versions around, for your convenience.
 			</notes>
 			<entries>
-				<file>
-					<category_icon>catpl-linuxmoto.png</category_icon>
-					<url>scummvm-1.0.0-motoezx.pkg?download</url>
-					<name>1.0.0 Motorola A1200, ROKR E6, A1600 package</name>
-					<extra_info>(4.5M .pkg)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-linuxmoto.png</category_icon>
-					<url>scummvm-1.0.0-motomagx.mgx?download</url>
-					<name>1.0.0 Motorola E8, EM30, ZN5, U9 package</name>
-					<extra_info>(4.5M .mgx)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-linuxmoto.png</category_icon>
-					<url>scummvm-1.0.0-motomagx.pep?download</url>
-					<name>1.0.0 Motorola Z6, V8 package</name>
-					<extra_info>(4.5M .pep)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-linuxmoto.png</category_icon>
-					<url>scummvm-1.0.0-motomagx.mpkg?download</url>
-					<name>1.0.0 Motorola Z6, V8 package</name>
-					<extra_info>(4.5M .mpkg)</extra_info>
-				</file>
 				<file>
 					<category_icon>catpl-gc.png</category_icon>
 					<url>scummvm-1.0.0-gc.zip?download</url>
