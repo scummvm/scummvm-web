@@ -1708,6 +1708,14 @@
 				<caption>The Legend of Kyrandia (PC-98 Japanese)</caption>
 			</image>
 			<image>
+				<file>other/kyra/kyra1-amiga-1</file>
+				<caption>The Legend of Kyrandia (Amiga)</caption>
+			</image>
+			<image>
+				<file>other/kyra/kyra1-amiga-2</file>
+				<caption>The Legend of Kyrandia (Amiga)</caption>
+			</image>
+			<image>
 				<file>other/kyra/kyra2-1</file>
 				<caption>The Legend of Kyrandia: Book Two: Hand of Fate (DOS)</caption>
 			</image>
