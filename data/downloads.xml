@@ -383,9 +383,9 @@
 					<extra_info>(778k .rpm)</extra_info>
 				</file>
 				<file>
-					<category_icon>catpl-macos-universal.png</category_icon>
+					<category_icon>catpl-macos.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-macosx.tar.bz2?download</url>
-					<name>Tools - Mac OS X Universal binaries (10.3.9 and up)</name>
+					<name>Tools - Mac OS X Intel binaries (10.3.9 and up)</name>
 					<extra_info>(8.2M .tar.bz2)</extra_info>
 				</file>
 
