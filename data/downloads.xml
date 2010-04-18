@@ -482,19 +482,6 @@
 			</notes>
 			<entries>
 				<file>
-					<category_icon>catpl-gc.png</category_icon>
-					<url>scummvm-1.0.0-gc.zip?download</url>
-					<name>1.0.0 Nintendo GameCube package</name>
-					<extra_info>(4.3M .zip)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-wii.png</category_icon>
-					<url>scummvm-1.0.0-wii.zip?download</url>
-					<name>1.0.0 Wii package</name>
-					<extra_info>(4.4M .zip)</extra_info>
-				</file>
-
-				<file>
 					<category_icon>catpl-gp2x.png</category_icon>
 					<url>scummvm-1.0.0-gp2x.zip?download</url>
 					<name>1.0.0 GP2X package</name>
