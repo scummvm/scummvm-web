@@ -28,7 +28,7 @@
 				</file>
 
 				<file>
-					<category_icon>catpl-windows.png</category_icon>
+					<category_icon>catpl-win64.png</category_icon>
 					<url>scummvm-{$release}-win64.zip?download</url>
 					<name>Windows 64bit zipfile</name>
 					<extra_info>(5.0M zipfile)</extra_info>
