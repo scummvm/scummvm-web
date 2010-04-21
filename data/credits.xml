@@ -215,6 +215,11 @@
 					<description>PSX version support</description>
 				</person>
 				<person>
+					<name>Thierry Crozat</name>
+					<alias>criezy</alias>
+					<description>Mac version support</description>
+				</person>
+				<person>
 					<name>Robert G&ouml;ffringmann</name>
 					<alias>lavosspawn</alias>
 					<description>(retired)</description>
@@ -705,6 +710,11 @@
 					<alias>joostp</alias>
 					<description></description>
 				</person>
+				<person>
+					<name>Yotam Barnoy</name>
+					<alias>bluddy</alias>
+					<description></description>
+				</person>
 			</group>
 			<group>
 				<name>SDL (Win/Linux/OS X/etc.)</name>
@@ -815,7 +825,7 @@
 				<person>
 					<name>Fredrik Wendel</name>
 					<alias></alias>
-					<description></description>
+					<description>(retired)</description>
 				</person>
 			</group>
 		</subsection>
@@ -827,6 +837,11 @@
 			<title>Documentation</title>
 			<group>
 				<name></name>
+				<person>
+					<name>Thierry Crozat</name>
+					<alias>criezy</alias>
+					<description>Numerous contributions to documentation</description>
+				</person>
 				<person>
 					<name>Joachim Eberhard</name>
 					<alias>joachimeberhard</alias>
@@ -1089,11 +1104,6 @@
 					<description>PSP port contributions</description>
 				</person>
 				<person>
-					<name>Thierry Crozat</name>
-					<alias>criezy</alias>
-					<description>Support for Broken Sword Macintosh version</description>
-				</person>
-				<person>
 					<name>Martin Doucha</name>
 					<alias>next_ghost</alias>
 					<description>CinE engine objectification</description>
@@ -1137,11 +1147,6 @@
 					<name>Thomas Mayer</name>
 					<alias></alias>
 					<description>PSP port contributions</description>
-				</person>
-				<person>
-					<name>Yotam Barnoy</name>
-					<alias>bluddy</alias>
-					<description>PSP port suspend/resume support</description>
 				</person>
 				<person>
 					<name>Sean Murray</name>
