@@ -5,19 +5,20 @@
 	<p>
 		<img src="data/news/20100428.jpg" alt="GSoC 2010 Logo" align="right">
 		Google recently announced the list of students for this year's 
-		<a href="http://socghop.appspot.com">Summer of Code</a> program.
+		<a href="http://socghop.appspot.com">Summer of Code</a> program.<br><br>
 		For ScummVM, the accepted students and their respective projects
 		can be found at our
 		<a href="http://socghop.appspot.com/org/home/google/gsoc2010/scummvm">landing page</a>
 		of the GSoC 2010 site.
 	</p>
 	<p>
-		The ScummVM team and especially the mentors welcome our 4 students this year:
-		<a href="http://sud03r.wordpress.com/">Neeraj</a>, <a href="http://tonypuccinelli.blogspot.com/">Tony</a>, <a href="http://blog.birdiesoft.dk/">Michael</a> and <a href="http://vgvgf.com.ar/gsoc/">Alejandro</a> who will be tackling a <a href="http://wiki.scummvm.org/index.php/Summer_of_Code/GSoC2010">range of interesting projects</a>.
+		The ScummVM team and especially the mentors welcome our 4 students this year:<br><br>
+		<a href="http://sud03r.wordpress.com/">Neeraj</a>, <a href="http://tonypuccinelli.blogspot.com/">Tony</a>, <a href="http://blog.birdiesoft.dk/">Michael</a> and <a href="http://vgvgf.com.ar/gsoc/">Alejandro</a> who will be tackling a <a href="http://wiki.scummvm.org/index.php/Summer_of_Code/GSoC2010">range of interesting projects</a>.<br>
 		Congratulations, the best of luck and enjoy coding this summer :-)
 	</p>
 	<p>
 		We would also like to take the time to thank everyone who applied for ScummVM GSoC places this year
-		but was unsuccessful. We hope we can welcome many of you into our community.
+		but was unsuccessful.<br>
+		We hope we can welcome many of you into our community.
 	</p>
 </BODY>
