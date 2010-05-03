@@ -95,14 +95,14 @@
 					<name>Mac OS X Universal Disk Image</name>
 					<extra_info>(9.3M disk image)</extra_info>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-ps2.png</category_icon>
 					<url>scummvm-{$release}-ps2.zip?download</url>
 					<name>PlayStation2 package</name>
 					<extra_info>(8.2M .zip)</extra_info>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-psp.png</category_icon>
 					<url>scummvm-{$release}-psp.zip?download</url>
