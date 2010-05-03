@@ -128,14 +128,14 @@
 					<name>Symbian UIQ 3 binary</name>
 					<extra_info>(5.0M .sis)</extra_info>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-wince.png</category_icon>
 					<url>scummvm-{$release}-wince.zip?download</url>
 					<name>Windows CE ARM package</name>
 					<extra_info>(12.2M zipfile)</extra_info>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-iphone.png</category_icon>
 					<url>scummvm-{$release}-iphone.deb?download</url>
