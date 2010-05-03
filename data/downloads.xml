@@ -150,7 +150,6 @@
 					<name>Maemo package (OS 2006, 2007, 2008 and Maemo5/Fremantle)</name>
 					<extra_info>(4.9M .deb)</extra_info>
 				</file>
-<!--
 				<file>
 					<category_icon>catpl-maemo.png</category_icon>
 					<url>http://downloads.maemo.org/product/OS2006/scummvm/</url>
@@ -163,6 +162,7 @@
 					<name>Maemo single click install package for N800/OS2007</name>
 					<extra_info>(Most recent version from Maemo Extras repository)</extra_info>
 				</file>
+<!--
 				<file>
 					<category_icon>catpl-maemo.png</category_icon>
 					<url>http://downloads.maemo.org/product/OS2008/scummvm/</url>
@@ -295,14 +295,14 @@
 					<name>AmigaOS 4 package</name>
 					<extra_info>(6.8M .lha)</extra_info>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-morphos.png</category_icon>
 					<url>scummvm-{$release}-morphos.lha?download</url>
 					<name>MorphOS package</name>
 					<extra_info>(6.8M .lha)</extra_info>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-freemint.png</category_icon>
 					<url>scummvm-{$release}-atari.zip?download</url>
