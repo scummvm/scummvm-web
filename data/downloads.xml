@@ -115,20 +115,20 @@
 					<name>Nintendo DS package</name>
 					<extra_info>(11.3M .zip)</extra_info>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-symbian.png</category_icon>
 					<url>scummvm-{$release}-s60-v3.sis?download</url>
 					<name>Symbian S60 version 3 binary</name>
-					<extra_info>(5.2M .sis)</extra_info>
+					<extra_info>(5.3M .sis)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-uiq.png</category_icon>
 					<url>scummvm-{$release}-uiq3.sis?download</url>
 					<name>Symbian UIQ 3 binary</name>
-					<extra_info>(5.0M .sis)</extra_info>
+					<extra_info>(5.1M .sis)</extra_info>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-wince.png</category_icon>
 					<url>scummvm-{$release}-wince.zip?download</url>
