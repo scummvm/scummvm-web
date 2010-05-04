@@ -487,16 +487,78 @@
 			<entries>
 
 				<file>
+					<category_icon>catpl-haiku.png</category_icon>
+					<url>scummvm-1.1.0-haiku-gcc4.tgz?download</url>
+					<name>1.1.0 Haiku package</name>
+					<extra_info>(5.3M .tgz)</extra_info>
+				</file>
+
+				<file>
+					<category_icon>catpl-irix.png</category_icon>
+					<url>scummvm-1.1.0-irix-mips4.tar.bz2?download</url>
+					<name>1.1.0 IRIX (6.5.*, n32, mips4) package</name>
+					<extra_info>(9.3M .tar.bz2)</extra_info>
+				</file>
+
+				<file>
+					<category_icon>catpl-slackware.png</category_icon>
+					<url>scummvm-1.1.0_slack-i486-1.tgz?download</url>
+					<name>1.1.0 SlackWare package</name>
+					<extra_info>(4.1M .tgz)</extra_info>
+				</file>
+
+				<file>
+					<category_icon>catpl-ubuntu.png</category_icon>
+					<url>scummvm_1.1.0-karmic.1_i386.deb?download</url>
+					<name>1.1.0 Ubuntu 9.10 (karmic) i386 package</name>
+					<extra_info>(4.4M .deb)</extra_info>
+				</file>
+				<file>
+					<category_icon>catpl-ubuntu.png</category_icon>
+					<url>scummvm_1.1.0-karmic.1_amd64.deb?download</url>
+					<name>1.1.0 Ubuntu 9.10 (karmic) x86 64bit package</name>
+					<extra_info>(5.1M .deb)</extra_info>
+				</file>
+
+				<file>
+					<category_icon>catpl-ubuntu.png</category_icon>
+					<url>scummvm_1.1.0-karmic.1_powerpc.deb?download</url>
+					<name>1.1.0 Ubuntu 9.10 (karmic) PowerPC / Cell (PlayStation3) package</name>
+					<extra_info>(4.8M .deb)</extra_info>
+				</file>
+
+				<file>
+					<category_icon>catpl-beos.png</category_icon>
+					<url>scummvm-1.0.0-beos.tgz?download</url>
+					<name>1.0.0 BeOS package</name>
+					<extra_info>(5.4M tgz)</extra_info>
+				</file>
+
+				<file>
 					<category_icon>catpl-gp2xwiz.png</category_icon>
 					<url>scummvm-1.0.0-gp2xwiz.zip?download</url>
 					<name>1.0.0 GP2X Wiz package</name>
 					<extra_info>(14.3M .zip)</extra_info>
 				</file>
+
 				<file>
-					<category_icon>catpl-beos.png</category_icon>
-					<url>scummvm-1.1.0-beos.tgz?download</url>
-					<name>1.1.0 BeOS package</name>
-					<extra_info>(5.4M tgz)</extra_info>
+					<category_icon>catpl-ubuntu.png</category_icon>
+					<url>scummvm_1.0.0~rc1-jaunty.1_i386.deb?download</url>
+					<name>1.0.0rc1 Ubuntu 9.04 (jaunty) i386 package</name>
+					<extra_info>(4.2M .deb)</extra_info>
+				</file>
+				<file>
+					<category_icon>catpl-ubuntu.png</category_icon>
+					<url>scummvm_1.0.0~rc1-jaunty.1_amd64.deb?download</url>
+					<name>1.0.0rc1 Ubuntu 9.04 (jaunty) x86 64bit package</name>
+					<extra_info>(4.6M .deb)</extra_info>
+				</file>
+
+				<file>
+					<category_icon>catpl-ubuntu.png</category_icon>
+					<url>scummvm_1.0.0~rc1-jaunty.1_powerpc.deb?download</url>
+					<name>1.0.0rc1 Ubuntu 9.04 (jaunty) PowerPC / Cell (PlayStation3) package</name>
+					<extra_info>(4.3M .deb)</extra_info>
 				</file>
 
 				<file>
@@ -505,6 +567,14 @@
 					<name>0.13.1 OS/2 package</name>
 					<extra_info>(4.9M .zip)</extra_info>
 				</file>
+
+				<file>
+					<category_icon>catpl-debian.png</category_icon>
+					<url>scummvm_0.12.0-0.etch.1_i386.deb?download</url>
+					<name>0.12.0 Debian 4.0 (etch) package</name>
+					<extra_info>(2.6M .deb)</extra_info>
+				</file>
+
 				<file>
 					<category_icon>catpl-palmos.png</category_icon>
 					<url>scummvm-0.11.1-palmos-os5.zip?download</url>
