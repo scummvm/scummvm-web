@@ -161,14 +161,12 @@
 					<name>Maemo single click install package for N800/OS2007</name>
 					<extra_info>(Most recent version from Maemo Extras repository)</extra_info>
 				</file>
-<!--
 				<file>
 					<category_icon>catpl-maemo.png</category_icon>
 					<url>http://downloads.maemo.org/product/OS2008/scummvm/</url>
 					<name>Maemo single click install package for N8x0/OS2008</name>
 					<extra_info>(Most recent version from Maemo Extras repository)</extra_info>
 				</file>
--->
 
 				<file>
 					<category_icon>catpl-linuxmoto.png</category_icon>
