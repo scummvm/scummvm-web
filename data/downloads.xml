@@ -256,7 +256,7 @@
 					<category_icon>catpl-irix.png</category_icon>
 					<url>scummvm-{$release}-irix-mips3.tardist?download</url>
 					<name>IRIX (6.5.*, n32, mips3) package</name>
-					<extra_info>(13.7M .tar.gz)</extra_info>
+					<extra_info>(13.7M .tardist)</extra_info>
 				</file>
 <!--
 				<file>
