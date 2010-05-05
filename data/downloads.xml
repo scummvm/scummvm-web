@@ -302,14 +302,14 @@
 					<name>Atari/FreeMiNT package (68020 and up)</name>
 					<extra_info>(4.7M .zip)</extra_info>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-os2.png</category_icon>
 					<url>scummvm-{$release}-os2.zip?download</url>
 					<name>OS/2 package</name>
-					<extra_info>(4.9M .zip)</extra_info>
+					<extra_info>(6.1M .zip)</extra_info>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-samsungtv.png</category_icon>
 					<url>scummvm-{$release}-samsungtv.zip?download</url>
@@ -499,13 +499,6 @@
 				</file>
 
 				<file>
-					<category_icon>catpl-slackware.png</category_icon>
-					<url>scummvm-1.1.0_slack-i486-1.tgz?download</url>
-					<name>1.1.0 SlackWare package</name>
-					<extra_info>(4.1M .tgz)</extra_info>
-				</file>
-
-				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
 					<url>scummvm_1.1.0-karmic.1_i386.deb?download</url>
 					<name>1.1.0 Ubuntu 9.10 (karmic) i386 package</name>
@@ -557,13 +550,6 @@
 					<url>scummvm_1.0.0~rc1-jaunty.1_powerpc.deb?download</url>
 					<name>1.0.0rc1 Ubuntu 9.04 (jaunty) PowerPC / Cell (PlayStation3) package</name>
 					<extra_info>(4.3M .deb)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-os2.png</category_icon>
-					<url>scummvm-0.13.1-os2.zip?download</url>
-					<name>0.13.1 OS/2 package</name>
-					<extra_info>(4.9M .zip)</extra_info>
 				</file>
 
 				<file>
