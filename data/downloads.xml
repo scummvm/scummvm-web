@@ -274,14 +274,13 @@
 					<extra_info>(5.4M tgz)</extra_info>
 				</file>
 -->
-<!--
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
 					<url>scummvm-{$release}-haiku-gcc4.tgz?download</url>
 					<name>Haiku package</name>
 					<extra_info>(5.3M .tgz)</extra_info>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
 					<url>scummvm-{$release}-amigaos4.lha?download</url>
@@ -418,17 +417,16 @@
 					<category_icon>catpl-beos.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-beos.tgz?download</url>
 					<name>Tools - BeOS</name>
-					<extra_info>(1.4 .tgz)</extra_info>
+					<extra_info>(1.4M .tgz)</extra_info>
 				</file>
 -->
-<!--
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
 					<url>scummvm-{$release_tools}-haiku-gcc4.tgz?download</url>
 					<name>Haiku package</name>
-					<extra_info>(749k .tgz)</extra_info>
+					<extra_info>(1.9M .tgz)</extra_info>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-amigaos4.lha?download</url>
@@ -483,13 +481,6 @@
 				older versions around, for your convenience.
 			</notes>
 			<entries>
-
-				<file>
-					<category_icon>catpl-haiku.png</category_icon>
-					<url>scummvm-1.1.0-haiku-gcc4.tgz?download</url>
-					<name>1.1.0 Haiku package</name>
-					<extra_info>(5.3M .tgz)</extra_info>
-				</file>
 
 				<file>
 					<category_icon>catpl-irix.png</category_icon>
