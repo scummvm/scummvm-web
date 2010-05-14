@@ -670,6 +670,12 @@
 					<extra_info>(31.3M)</extra_info>
 				</file>
 				<file>
+					<category_icon>cat-mp3.png</category_icon>
+					<url>drascula-audio-mp3-1.0.zip?download</url>
+					<name>Drascula: The Vampire Strikes Back, Freeware Version (Music AddOn, MP3 format)</name>
+					<extra_info>(44.6M)</extra_info>
+				</file>
+				<file>
 					<category_icon>cat-flac.png</category_icon>
 					<url>drascula-audio-flac-1.0.zip?download</url>
 					<name>Drascula: The Vampire Strikes Back, Freeware Version (Music AddOn, FLAC format)</name>
