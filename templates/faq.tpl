@@ -31,7 +31,11 @@
 				</dl>
 				{foreach from=$section->getEntries() item=entry name='entry_loop'}
 					{assign var='entry_num' value=$smarty.foreach.entry_loop.iteration}
-					<div class="question">{$section_num}.{$entry_num}. <a name="{$entry->getHref()}"></a>{$entry->getQuestion()}</div>
+					<div class="question">{$section_num}.{$entry_num}.
+						{foreach from=$entry->getHrefs() item=href name='href_loop'}
+						<a name="{$href}"></a>
+						{/foreach}
+						{$entry->getQuestion()}</div>
 					<div class="answer">{$entry->getAnswer()}</div>
 				{/foreach}
 			</div>

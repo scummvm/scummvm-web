@@ -5,7 +5,7 @@ require_once('Objects/BasicObject.php');
  * F.A.Q. page.
  */
 class QAEntry extends BasicObject {
-	private $_href;
+	private $_hrefs;
 	private $_question;
 	private $_answer;
 	private $_xref;
@@ -19,21 +19,27 @@ class QAEntry extends BasicObject {
 	 * @param array $xref reference to xref map
 	 */
 	public function __construct($data, $section_number, $entry_number, &$xref) {
-		if (empty($data['href'])) {
-			$this->_href = "{$section_number}_{$entry_number}";
-		} else {
-			$this->_href = $data['href'];
+		$this->_hrefs = array();
+		if (! empty($data['href'])) {
+			array_push($this->_hrefs, $data['href']);
 			$xref[$data['href']] = $data['question'];
 		}
+		array_push($this->_hrefs, "{$section_number}_{$entry_number}");
+
 		$this->_question = $data['question'];
 		$this->_answer = $data['answer'];
 		/* Save a reference to the xref table for later use. */
 		$this->_xref = &$xref;
 	}
 
-	/* Get the anchor name for this entry. */
+	/* Get the primary anchor name for this entry. */
 	public function getHref() {
-		return $this->_href;
+		return $this->_hrefs[0];
+	}
+
+	/* Get all anchor names for this entry. */
+	public function getHrefs() {
+		return $this->_hrefs;
 	}
 
 	/* Get the question for this entry. */
