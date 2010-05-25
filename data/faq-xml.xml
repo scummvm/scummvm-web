@@ -67,45 +67,52 @@
 	</answer>
     </entry>
     <entry>
-      <href/>
+      <href>question.compiling</href>
       <question>How do I compile the source code for my OS?</question>
       <answer>
 		<simpara>
 		The source code package contains a file called
 		<ulink url="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/README">README</ulink>
-		that should explain everything.
+		explaining the basics. More detailed information can be found
+		<ulink url="http://wiki.scummvm.org/index.php/Compiling_ScummVM">on our Wiki</ulink>.
 		</simpara>
 	</answer>
     </entry>
     <entry>
-      <href/>
+      <href>question.supported-platforms</href>
       <question>On what platform does ScummVM run?</question>
       <answer>
 		<simpara>
-		ScummVM should be able to be compiled on any SDL platform, with just small modifications.
+		ScummVM should be able to be compiled for any platform supported by
+		<ulink url="http://www.libsdl.org">SDL</ulink>, with just small modifications.
 		</simpara>
 		<simpara>
-		Currently tested platforms include Win32 (Windows 95/98/ME/NT/2000/XP), Linux i386 and PPC, BeOS, Solaris,
-		Mac OS X, Dreamcast, MorphOS, IRIX, PalmOS, WinCE, GP32, Sony PSP and PS2. It is also part of the
-		Free/Net/Open BSD ports collections and included in Debian testing and unstable.
+		ScummVM runs on a wide variety of platforms, including Win32 (Windows
+		95/98/ME/NT/2000/XP), Linux i386 and PPC, Mac OS X, many smart phones
+		and game consoles and more. It is also part of various BSD ports
+		collections and included in Debian testing and unstable.
 		</simpara>
 		<simpara>
-		See also the <ulink url="http://wiki.scummvm.org/index.php/Platforms">platforms list</ulink>
+		For a more comprehensive overview please take a look at the
+		<ulink url="http://wiki.scummvm.org/index.php/Platforms">platforms list</ulink>
 		in our Wiki.
 		</simpara>
 	</answer>
     </entry>
     <entry>
-      <href/>
+      <href>question.make-new-games</href>
       <question>Can I use ScummVM to make new games?</question>
       <answer>
 		<simpara>
-		While it is theoretically possible to write a new game that uses ScummVM it is not
-		advisable.	ScummVM has many hacks to support older games and no tools geared towards
-		creating content usable by ScummVM.	 Potential game authors are encouraged to look
-		at open source technologies such as <ulink url="http://www.libsdl.org">SDL</ulink> for
-		a cross platform DirectX like library, and the <ulink url="http://www.lua.org">Lua</ulink>
-		and <ulink url="http://www.python.org">Python</ulink> scripting languages for game logic.
+		While it is theoretically possible to write a new game that uses ScummVM
+		it is not advisable. ScummVM has many hacks to support older games and
+		no tools geared towards creating content usable by ScummVM. Potential
+		game authors are encouraged to look at open source technologies such as
+		<ulink url="http://www.libsdl.org">SDL</ulink> for a cross platform
+		multimedia library (also used by ScummVM), and the
+		<ulink url="http://www.lua.org">Lua</ulink> and
+		<ulink url="http://www.python.org">Python</ulink> scripting languages
+		for game logic.
 		</simpara>
 	</answer>
     </entry>
@@ -126,20 +133,28 @@
 	</answer>
     </entry>
     <entry>
-      <href/>
+      <href>question.add-new-games</href>
       <question>Will ScummVM support other games?</question>
       <answer>
 		<simpara>
-		That depends on several factors. First off, it has to fit within the scope of ScummVM,
-		i.e., it has to be a point and click adventure with 2D graphics. 
+		That depends on several factors: First off, it has to fit within the
+		scope of ScummVM, i.e., it has to be a point and click adventure with 2D
+		graphics. Secondly, there must be a developer (or multiple) who is
+		interested in working on this and both willing and able to carry out the
+		required work.
 		</simpara>
 		<simpara>
-		Secondly, there must be a developer (or multiple) who is interested in working on this
-		and both willing and able to perform the work required.
-		Reverse engineering a completely new game without source is a
-		long and difficult process, and our developers are all very busy as it is... so unless
-		you work for a company interested in providing us with source code for
-		one of your classic titles, or want to do the work yourself, please do not ask.
+		You have to understand that all ScummVM developers are volunteers who
+		work on ScummVM in their spare time, solely for fun, and not for profit.
+		Yet reverse engineering a completely new game without source is a long
+		and difficult process. Even with source it can be very tedious and time
+		consuming.
+		</simpara>
+		<simpara>
+		So unless you work for a company interested in providing us with source
+		code for one of your classic titles, or want to do the work yourself,
+		please do not ask us to add support for a new game. We will simply
+		reject any such requests out of hand.
 		</simpara>
 	</answer>
     </entry>
@@ -417,19 +432,25 @@
       <question>The game colors are messed up.</question>
       <answer>
 		<simpara>
-		This is a known issue with using Amiga version datafiles. Select Amiga as a 
-		platform in the ScummVM Game Options dialog, or use the --platform=amiga command
-		line parameter to enable Amiga-specific code.
+		This is a known issue when using certain Amiga version datafiles.
+		Normally, ScummVM should have detected your game as an "Amiga" version,
+		but sometimes this fails for various reasons.
+		</simpara>
+		<simpara>
+		To fix this, select "Amiga" as a platform in the ScummVM Game Options
+		dialog, or use the "--platform=amiga" command line parameter to enable
+		Amiga-specific code.
 		</simpara>
 	</answer>
     </entry>
     <entry>
       <href/>
-      <question>The subtitles in my non English game are messed up.</question>
+      <question>The subtitles in my non-English game are messed up.</question>
       <answer>
 		<simpara>
-		You are most likely using a game such as Maniac Mansion or Zak McKracken if you have this problem. 
-		You need to specify a language in the ScummVM Game Options dialog, with the -q parameter or by
+		You are most likely using a game such as Maniac Mansion or Zak McKracken
+		if you have this problem. You need to specify the correct language in
+		the ScummVM Game Options dialog, or via the "--language" parameter or by
 		using the 'language' config file option.
 		</simpara>
 		<simpara>
@@ -441,7 +462,7 @@
     </entry>
     <entry>
       <href/>
-      <question>How do I make my mac version of a game work?</question>
+      <question>How do I make my Macintosh version of a game work?</question>
       <answer>
 		<simpara>
 		First, if you use a ScummVM version prior to 0.7.0 we strongly recommend you
@@ -449,8 +470,8 @@
 		</simpara>
 		<simpara>
 		For newer games ScummVM needs the main data file, usually called
-		"&lt;Game Title&gt; Data" (where &lt;Game Title&gt; is
-		name of your game, such as "The Dig" or "Sam &amp; Max").
+		"&lt;Game Title&gt; Data" (where &lt;Game Title&gt; is
+		name of your game, such as "The Dig" or "Sam &amp; Max").
 		Some CDs may appear to only contain an application (watch out, it has
 		almost the same name as the data file, except that it lacks the " Data"
 		at the end). In that case there is still a separate data file but it is
