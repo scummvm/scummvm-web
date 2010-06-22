@@ -605,7 +605,7 @@
 				<target>t7g</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable.<h:br />- The DOS, Windows and Macintosh versions are supported by this target<h:br />- The music of the Macintosh version isn't supported<h:br />- The CD-i version doesn't use Groovie, so it will never be supported.
+					Game is completable.<h:br />- The DOS, Windows and Macintosh versions are supported by this target<h:br />- The CD-i version doesn't use Groovie, so it will never be supported.
 				</notes>
 			</game>
 			<game>
