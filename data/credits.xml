@@ -614,6 +614,14 @@
 		<subsection>
 			<title>Backend Teams</title>
 			<group>
+				<name>Android</name>
+				<person>
+					<name>Angus Lees</name>
+					<alias>Gus</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>Dreamcast</name>
 				<person>
 					<name>Marcus Comstedt</name>
@@ -1049,6 +1057,54 @@
 				<person>
 					<name>Johannes Schickel</name>
 					<alias>LordHoto</alias>
+					<description></description>
+				</person>
+			</group>
+		</subsection>
+		<subsection>
+			<title>Translations</title>
+			<group>
+				<name></name>
+				<person>
+					<name>Thierry Crozat</name>
+					<alias>criezy</alias>
+					<description>Translation Lead</description>
+				</person>
+			</group>
+			<group>
+				<name>French</name>
+				<person>
+					<name>Thierry Crozat</name>
+					<alias>criezy</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>German</name>
+				<person>
+					<name>Simon Sawatzki</name>
+					<alias>SimSaw</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Lothar Serra Mari</name>
+					<alias>Lothar93</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Hungarian</name>
+				<person>
+					<name>Alex Bevilacqua</name>
+					<alias></alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Russian</name>
+				<person>
+					<name>Eugene Sandulenko</name>
+					<alias>sev</alias>
 					<description></description>
 				</person>
 			</group>
