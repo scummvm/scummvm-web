@@ -1072,6 +1072,14 @@
 				</person>
 			</group>
 			<group>
+				<name>Catalan</name>
+				<person>
+					<name>Jordi Vilalta Prat</name>
+					<alias>jvprat</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>French</name>
 				<person>
 					<name>Thierry Crozat</name>
@@ -1097,6 +1105,14 @@
 				<person>
 					<name>Alex Bevilacqua</name>
 					<alias></alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Italian</name>
+				<person>
+					<name>Matteo Angelino</name>
+					<alias>Maff</alias>
 					<description></description>
 				</person>
 			</group>
