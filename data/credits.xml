@@ -1112,7 +1112,7 @@
 				<name>Italian</name>
 				<person>
 					<name>Matteo Angelino</name>
-					<alias>Maff</alias>
+					<alias></alias>
 					<description></description>
 				</person>
 			</group>
@@ -1419,7 +1419,7 @@
 				<person>
 					<name>Rickard Lind</name>
 					<alias></alias>
-					<description>MT32->GM MIDI mapping magic, sound research</description>
+					<description>MT-32->GM MIDI mapping magic, sound research</description>
 				</person>
 				<person>
 					<name>Rink Springer</name>
