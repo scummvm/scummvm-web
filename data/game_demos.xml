@@ -854,6 +854,11 @@
 				<target>agidemo</target>
 			</demo>
 			<demo>
+				<name>Astro Chicken (DOS demo) - Requires ScummVM 1.2.0svn</name>
+				<url>http://demos.robertmegone.com/sci/astrochicken-dos-demo-en.zip</url>
+				<target>astrochicken</target>
+			</demo>
+			<demo>
 				<name>Castle of Dr. Brain (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
 				<url>http://demos.robertmegone.com/sci/castlebrain-dos-ni-demo-en.zip</url>
 				<target>castlebrain</target>
@@ -884,6 +889,11 @@
 				<target>camelot</target>
 			</demo>
 			<demo>
+				<name>Conquests of the Longbow: The Adventures of Robin Hood (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<url>http://demos.robertmegone.com/sci/longbow-dos-ni-demo-en.zip</url>
+				<target>longbow</target>
+			</demo>
+			<demo>
 				<name>EcoQuest: The Search for Cetus (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
 				<url>http://demos.robertmegone.com/sci/ecoquest-dos-ni-demo-en.zip</url>
 				<target>ecoquest</target>
@@ -907,6 +917,16 @@
 				<name>Freddy Pharkas: Frontier Pharmacist (Windows CD demo) - Requires ScummVM 1.2.0svn</name>
 				<url>http://demos.robertmegone.com/sci/freddypharkas-win-cd-demo-en.zip</url>
 				<target>freddypharkas</target>
+			</demo>
+			<demo>
+				<name>Fun Seeker's Guide (DOS demo) - Requires ScummVM 1.2.0svn</name>
+				<url>http://demos.robertmegone.com/sci/funseeker-dos-demo-en.zip</url>
+				<target>funseeker</target>
+			</demo>
+			<demo>
+				<name>Hoyle Classic Card Games (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<url>http://demos.robertmegone.com/sci/hoyle4-dos-ni-demo-en.zip</url>
+				<target>hoyle4</target>
 			</demo>
 			<demo>
 				<name>King's Quest I: Quest for the Crown, SCI Remake (DOS demo - Non-interactive)</name>
@@ -954,6 +974,21 @@
 				<target>lsl5</target>
 			</demo>
 			<demo>
+				<name>Mixed-up Fairy Tales (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<url>http://demos.robertmegone.com/sci/fairytales-dos-ni-demo-en.zip</url>
+				<target>fairytales</target>
+			</demo>
+			<demo>
+				<name>Mixed-Up Mother Goose (DOS demo) - Requires ScummVM 1.2.0svn</name>
+				<url>http://demos.robertmegone.com/sci/mothergoose-win-demo-en.zip</url>
+				<target>mothergoose</target>
+			</demo>
+			<demo>
+				<name>Ms. Astro Chicken (DOS demo) - Requires ScummVM 1.2.0svn</name>
+				<url>http://demos.robertmegone.com/sci/msastrochicken-dos-demo-en.zip</url>
+				<target>msastrochicken</target>
+			</demo>
+			<demo>
 				<name>Police Quest III: The Kindred (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
 				<url>http://demos.robertmegone.com/sci/pq3-dos-ni-demo-en.zip</url>
 				<target>pq3</target>
@@ -967,6 +1002,16 @@
 				<name>Quest for Glory I: So You Want to Be a Hero (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
 				<url>http://demos.robertmegone.com/sci/qfg1-dos-ni-demo-en.zip</url>
 				<target>qfg1</target>
+			</demo>
+			<demo>
+				<name>Quest for Glory II: Trial by Fire (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<url>http://demos.robertmegone.com/sci/qfg2-dos-ni-demo-en.zip</url>
+				<target>qfg2</target>
+			</demo>
+			<demo>
+				<name>Slater & Charlie Go Camping (DOS demo) - Requires ScummVM 1.2.0svn</name>
+				<url>http://demos.robertmegone.com/sci/slater-dos-demo.en.zip</url>
+				<target>slater</target>
 			</demo>
 			<demo>
 				<name>Space Quest I: The Sarien Encounter, SCI Remake (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
