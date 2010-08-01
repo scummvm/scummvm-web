@@ -678,14 +678,6 @@
 				</person>
 			</group>
 			<group>
-				<name>PalmOS</name>
-				<person>
-					<name>Chris Apers</name>
-					<alias>chrilith </alias>
-					<description></description>
-				</person>
-			</group>
-			<group>
 				<name>PocketPC / WinCE</name>
 				<person>
 					<name>Nicolas Bacca</name>
@@ -866,6 +858,11 @@
 			<title>Retired Team Members</title>
 			<group>
 				<name></name>
+				<person>
+					<name>Chris Apers</name>
+					<alias>chrilith </alias>
+					<description>Former PalmOS porter</description>
+				</person>
 				<person>
 					<name>Ralph Brorsen</name>
 					<alias>painelf</alias>
@@ -1121,6 +1118,22 @@
 				<person>
 					<name>Eugene Sandulenko</name>
 					<alias>sev</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Spanish</name>
+				<person>
+					<name>Tom&aacute;s Maidagan</name>
+					<alias>Truido</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Ukrainian</name>
+				<person>
+					<name>Lubomyr Lisen</name>
+					<alias></alias>
 					<description></description>
 				</person>
 			</group>
