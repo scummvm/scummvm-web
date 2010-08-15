@@ -861,6 +861,11 @@
 						<h:span class="download-extras">&nbsp;</h:span>
 					</h:li>
 					<h:li class="file">
+						<h:img src="images/catpl-gc.png" alt="" class="category" />
+						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/gamecube-trunk-latest.tar.bz2">GameCube nightly build</h:a>
+						<h:span class="download-extras">&nbsp;</h:span>
+					</h:li>
+					<h:li class="file">
 						<h:img src="images/catpl-gp2x.png" alt="" class="category" />
 						<h:a href="http://buildbot.scummvm.org/snapshots/trunk/gp2x-trunk-latest.tar.bz2">GP2X nightly build</h:a>
 						<h:span class="download-extras">&nbsp;</h:span>
