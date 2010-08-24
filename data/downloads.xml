@@ -231,14 +231,12 @@
 					<extra_info>(5.4M .zip)</extra_info>
 				</file>
 
-<!--
 				<file>
 					<category_icon>catpl-gp2xwiz.png</category_icon>
 					<url>scummvm-{$release}-gp2xwiz.zip?download</url>
 					<name>GP2X Wiz package</name>
-					<extra_info>(14.3M .zip)</extra_info>
+					<extra_info>(6.2M .zip)</extra_info>
 				</file>
--->
 
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
@@ -514,13 +512,6 @@
 					<url>scummvm-1.0.0-beos.tgz?download</url>
 					<name>1.0.0 BeOS package</name>
 					<extra_info>(5.4M tgz)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-gp2xwiz.png</category_icon>
-					<url>scummvm-1.0.0-gp2xwiz.zip?download</url>
-					<name>1.0.0 GP2X Wiz package</name>
-					<extra_info>(14.3M .zip)</extra_info>
 				</file>
 
 				<file>
