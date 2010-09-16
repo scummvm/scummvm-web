@@ -353,6 +353,315 @@
 		</games>
 	</company>
 	<company>
+		<name>Sierra SCI</name>
+		<games>
+			<game>
+				<name>Castle of Dr. Brain (EGA and VGA)</name>
+				<target>castlebrain</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Codename: ICEMAN</name>
+				<target>iceman</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Conquests of Camelot</name>
+				<target>camelot</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Conquests of the Longbow (EGA and VGA)</name>
+				<target>longbow</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>EcoQuest: The Search for Cetus</name>
+				<target>ecoquest</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>EcoQuest 2: Lost Secret of the Rainforest</name>
+				<target>ecoquest2</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Freddy Pharkas: Frontier Pharmacist</name>
+				<target>freddypharkas</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Hoyle's Book of Games 1</name>
+				<target>hoyle1</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Hoyle's Book of Games 2</name>
+				<target>hoyle2</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Hoyle's Book of Games 3 (EGA and VGA)</name>
+				<target>hoyle3</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Jones in the Fast Lane</name>
+				<target>jones</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>King's Quest I (SCI remake)</name>
+				<target>kq1sci</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>King's Quest IV (SCI version)</name>
+				<target>kq4sci</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>King's Quest V (EGA and VGA)</name>
+				<target>kq5</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>King's Quest VI (low and hi res)</name>
+				<target>kq6</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS and Windows versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Laura Bow: The Colonel's Bequest</name>
+				<target>laurabow</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Laura Bow 2: The Dagger of Amon Ra</name>
+				<target>laurabow2</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Leisure Suit Larry 1 (SCI remake) (EGA and VGA)</name>
+				<target>lsl1sci</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Leisure Suit Larry 2</name>
+				<target>lsl2</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Leisure Suit Larry 3</name>
+				<target>lsl3</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Leisure Suit Larry 5 (EGA and VGA)</name>
+				<target>lsl5</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Leisure Suit Larry 6 (low res)</name>
+				<target>lsl6</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Mixed-up Fairy Tales</name>
+				<target>fairytales</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Mixed-up Mother Goose</name>
+				<target>mothergoose</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Pepper's Adventures in Time</name>
+				<target>pepper</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Police Quest 1 (SCI remake)</name>
+				<target>pq1sci</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Police Quest 2</name>
+				<target>pq2</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Police Quest 3 (EGA and VGA)</name>
+				<target>pq3</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Quest for Glory 1/Hero's Quest</name>
+				<target>qfg1</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Quest for Glory 1 VGA remake</name>
+				<target>qfg1vga</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Quest for Glory 2</name>
+				<target>qfg2</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Quest for Glory 3</name>
+				<target>qfg3</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Slater & Charlie go camping</name>
+				<target>slater</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Space Quest I (SCI remake) (EGA and VGA)</name>
+				<target>sq1sci</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Space Quest III</name>
+				<target>sq3</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Space Quest IV (EGA and VGA)</name>
+				<target>sq4</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Space Quest V</name>
+				<target>sq5</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>The Island of Dr. Brain</name>
+				<target>islandbrain</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+		</games>
+	</company>
+	<company>
 		<name>Sierra AGI</name>
 		<games>
 			<game>
