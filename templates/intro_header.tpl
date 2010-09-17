@@ -49,20 +49,24 @@
 					never designed!
 				</p>
 				<p>
-					Some of the adventures ScummVM supports include
-					<a href="http://www.adventuresoft.com">Adventure Soft</a>'s <i>Simon the Sorcerer</i> 1 and 2;
-					<a href="http://www.revolution.co.uk">Revolution</a>'s <i>Beneath A Steel Sky</i> and
-					<i>Broken Sword I &amp; II</i>; <i>Flight of the Amazon Queen</i>;
-					<a href="http://www.wyrmkeep.com/ite/">Wyrmkeep</a>'s <i>Inherit the Earth</i>;
-					Coktel Vision's <i>Gobliiins</i>; Westwood Studios' <i>The Legend of Kyrandia</i> and games
-					based on <a href="http://www.lucasarts.com">LucasArts</a>' <span class="green">SCUMM</span>
-					<span class="grey">(<i>Script Creation Utility for Maniac Mansion</i>)</span>
-					system such as <i>Monkey Island</i>, <i>Day of the Tentacle</i>, <i>Sam and Max</i> and more.
-					You can find a thorough list with details on which games are supported and how well on
-					the <a href="compatibility/">compatibility page</a>.
-					ScummVM is continually improving, so check back often.
-				</p>
+					ScummVM supports many adventure games, including LucasArts
+					SCUMM games (such as <i>Monkey Island</i> 1-3,
+					<i>Day of the Tentacle</i>, <i>Sam &amp; Max</i>, ...),
+					Sierra's AGI games (such as
+					<i>King's Quest</i> 1-3, <i>Space Quest</i> 1-2, ...),
+					<i>Discworld</i> 1 and 2, <i>Simon the Sorcerer</i>
+					1 and 2, <i>Beneath A Steel Sky</i>,
+					<i>Lure of the Temptress</i>, <i>Broken Sword</i> 1 and 2,
+					<i>Flight of the Amazon Queen</i>, <i>Gobliiins</i> 1-3,
+					<i>The Legend of Kyrandia</i> 1-3, many of
+					Humongous Entertainment's children's SCUMM games
+					(including <i>Freddi Fish</i> and <i>Putt Putt</i> games)
+					and many more.
 				<p>
+					You can find a full list with details on which games are
+					supported and how well on the
+					<a href="compatibility/">compatibility page</a>.
+					ScummVM is continually improving, so check back often.
 					Among the systems on which you can play those games are Windows, Linux, Mac OS X,
 					Dreamcast, PocketPC, PalmOS, AmigaOS, BeOS, OS/2, PSP, PS2, SymbianOS and many more...
 				</p>
