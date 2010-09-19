@@ -54,11 +54,11 @@
 				<a href="http://combobreaker.com/">
 					<img src="images/scummvm_cb.png" width="88" height="32" alt="Combobreaker.com T-Shirts">
 				</a>
-				<br>
+<!--				<br>
 				<a href="http://www.gog.com/en/frontpage/pp/22d200f8670dbdb3e253a90eee5098477c95c23d">
 					<img src="images/GOG_button_small.png" width="88" height="32" alt="GOG.com games">
 				</a>
-			</div>
+-->			</div>
 		</div>
 
 		{* Content *}
