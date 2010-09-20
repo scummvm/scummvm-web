@@ -436,6 +436,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Hoyle Classic Card Games</name>
+				<target>hoyle4</target>
+				<percent>95</percent>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
 				<name>Jones in the Fast Lane</name>
 				<target>jones</target>
 				<percent>95</percent>
