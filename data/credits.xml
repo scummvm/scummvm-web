@@ -1515,6 +1515,11 @@
 					<description>For contributing the initial version of the Gobliiins engine</description>
 				</person>
 				<person>
+					<name>Henrik Engqvist</name>
+					<alias>qvist</alias>
+					<description>For generously providing hosting for our buildbot, SVN repository, planet and doxygen sites as well as tons of HD space</description>
+				</person>
+				<person>
 					<name>DOSBox Team</name>
 					<alias></alias>
 					<description>For their awesome OPL2 and OPL3 emulator</description>
