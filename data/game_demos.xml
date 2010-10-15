@@ -994,7 +994,7 @@
 				<target>pq3</target>
 			</demo>
 			<demo>
-				<name>Police Quest IV: Open Season (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<name>Police Quest IV: Open Season (DOS demo - Non-interactive) - Requires ScummVM 1.3.0svn</name>
 				<url>http://demos.robertmegone.com/sci/pq4-dos-ni-demo-en.zip</url>
 				<target>pq4</target>
 			</demo>
@@ -1100,7 +1100,7 @@
 				<target>ihnm</target>
 			</demo>
 			<demo>
-				<name>Lands of Lore: The Throne of Chaos (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<name>Lands of Lore: The Throne of Chaos (DOS demo - Non-interactive) - Requires ScummVM 1.3.0svn</name>
 				<url>http://demos.robertmegone.com/kyra/lol-dos-ni-demo-en.zip</url>
 				<target>lol</target>
 			</demo>
