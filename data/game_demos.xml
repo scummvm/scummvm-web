@@ -652,7 +652,7 @@
 				<target>elvira1</target>
 			</demo>
 			<demo>
-				<name>Personal Nightmare (Atari ST demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<name>Personal Nightmare (Atari ST demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/agos/pn-atari-ni-demo-en.zip</url>
 				<target>pn</target>
 			</demo>
@@ -854,77 +854,77 @@
 				<target>agidemo</target>
 			</demo>
 			<demo>
-				<name>Astro Chicken (DOS demo) - Requires ScummVM 1.2.0svn</name>
+				<name>Astro Chicken (DOS demo)</name>
 				<url>http://demos.robertmegone.com/sci/astrochicken-dos-demo-en.zip</url>
 				<target>astrochicken</target>
 			</demo>
 			<demo>
-				<name>Castle of Dr. Brain (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<name>Castle of Dr. Brain (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/sci/castlebrain-dos-ni-demo-en.zip</url>
 				<target>castlebrain</target>
 			</demo>
 			<demo>
-				<name>Christmas Card 1988 (DOS demo) - Requires ScummVM 1.2.0svn</name>
+				<name>Christmas Card 1988 (DOS demo)</name>
 				<url>http://demos.robertmegone.com/sci/christmas1988-dos-en.zip</url>
 				<target>christmas1988</target>
 			</demo>
 			<demo>
-				<name>Christmas Card 1990: The Seasoned Professional (EGA DOS demo) - Requires ScummVM 1.2.0svn</name>
+				<name>Christmas Card 1990: The Seasoned Professional (EGA DOS demo)</name>
 				<url>http://demos.robertmegone.com/sci/christmas1990-dos-ega-en.zip</url>
 				<target>christmas1990</target>
 			</demo>
 			<demo>
-				<name>Christmas Card 1990: The Seasoned Professional (VGA DOS demo) - Requires ScummVM 1.2.0svn</name>
+				<name>Christmas Card 1990: The Seasoned Professional (VGA DOS demo)</name>
 				<url>http://demos.robertmegone.com/sci/christmas1990-dos-vga-en.zip</url>
 				<target>christmas1990</target>
 			</demo>
 			<demo>
-				<name>Christmas Card 1992 (DOS demo) - Requires ScummVM 1.2.0svn</name>
+				<name>Christmas Card 1992 (DOS demo)</name>
 				<url>http://demos.robertmegone.com/sci/christmas1992-dos-en.zip</url>
 				<target>christmas1992</target>
 			</demo>
 			<demo>
-				<name>Conquests of Camelot: King Arthur, Quest for the Grail (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<name>Conquests of Camelot: King Arthur, Quest for the Grail (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/sci/camelot-dos-ni-demo-en.zip</url>
 				<target>camelot</target>
 			</demo>
 			<demo>
-				<name>Conquests of the Longbow: The Adventures of Robin Hood (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<name>Conquests of the Longbow: The Adventures of Robin Hood (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/sci/longbow-dos-ni-demo-en.zip</url>
 				<target>longbow</target>
 			</demo>
 			<demo>
-				<name>EcoQuest: The Search for Cetus (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<name>EcoQuest: The Search for Cetus (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/sci/ecoquest-dos-ni-demo-en.zip</url>
 				<target>ecoquest</target>
 			</demo>
 			<demo>
-				<name>EcoQuest II: Lost Secret of the Rainforest (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<name>EcoQuest II: Lost Secret of the Rainforest (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/sci/ecoquest2-dos-ni-demo-en.zip</url>
 				<target>ecoquest2</target>
 			</demo>
 			<demo>
-				<name>Freddy Pharkas: Frontier Pharmacist (DOS demo) - Requires ScummVM 1.2.0svn</name>
+				<name>Freddy Pharkas: Frontier Pharmacist (DOS demo)</name>
 				<url>http://demos.robertmegone.com/sci/freddypharkas-dos-demo1-en.zip</url>
 				<target>freddypharkas</target>
 			</demo>
 			<demo>
-				<name>Freddy Pharkas: Frontier Pharmacist (DOS Alternative demo) - Requires ScummVM 1.2.0svn</name>
+				<name>Freddy Pharkas: Frontier Pharmacist (DOS Alternative demo)</name>
 				<url>http://demos.robertmegone.com/sci/freddypharkas-dos-demo2-en.zip</url>
 				<target>freddypharkas</target>
 			</demo>
 			<demo>
-				<name>Freddy Pharkas: Frontier Pharmacist (Windows CD demo) - Requires ScummVM 1.2.0svn</name>
+				<name>Freddy Pharkas: Frontier Pharmacist (Windows CD demo)</name>
 				<url>http://demos.robertmegone.com/sci/freddypharkas-win-cd-demo-en.zip</url>
 				<target>freddypharkas</target>
 			</demo>
 			<demo>
-				<name>Fun Seeker's Guide (DOS demo) - Requires ScummVM 1.2.0svn</name>
+				<name>Fun Seeker's Guide (DOS demo)</name>
 				<url>http://demos.robertmegone.com/sci/funseeker-dos-demo-en.zip</url>
 				<target>funseeker</target>
 			</demo>
 			<demo>
-				<name>Hoyle Classic Card Games (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<name>Hoyle Classic Card Games (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/sci/hoyle4-dos-ni-demo-en.zip</url>
 				<target>hoyle4</target>
 			</demo>
@@ -939,57 +939,57 @@
 				<target>kq4</target>
 			</demo>
 			<demo>
-				<name>King's Quest IV: The Perils of Rosella, SCI Remake (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<name>King's Quest IV: The Perils of Rosella, SCI Remake (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/sci/kq4sci-dos-ni-demo-en.zip</url>
 				<target>kq4sci</target>
 			</demo>
 			<demo>
-				<name>Laura Bow: The Colonel's Bequest (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<name>Laura Bow: The Colonel's Bequest (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/sci/laurabow-dos-ni-demo-en.zip</url>
 				<target>laurabow</target>
 			</demo>
 			<demo>
-				<name>Laura Bow 2: The Dagger of Amon Ra (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<name>Laura Bow 2: The Dagger of Amon Ra (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/sci/laurabow2-dos-ni-demo-en.zip</url>
 				<target>laurabow2</target>
 			</demo>
 			<demo>
-				<name>Leisure Suit Larry in the Land of the Lounge Lizards, SCI Remake (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<name>Leisure Suit Larry in the Land of the Lounge Lizards, SCI Remake (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/sci/lsl1sci-dos-ni-demo-en.zip</url>
 				<target>lsl1sci</target>
 			</demo>
 			<demo>
-				<name>Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places) (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<name>Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places) (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/sci/lsl2-dos-ni-demo-en.zip</url>
 				<target>lsl2</target>
 			</demo>
 			<demo>
-				<name>Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<name>Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/sci/lsl3-dos-ni-demo-en.zip</url>
 				<target>lsl3</target>
 			</demo>
 			<demo>
-				<name>Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<name>Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/sci/lsl5-dos-ni-demo-en.zip</url>
 				<target>lsl5</target>
 			</demo>
 			<demo>
-				<name>Mixed-up Fairy Tales (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<name>Mixed-up Fairy Tales (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/sci/fairytales-dos-ni-demo-en.zip</url>
 				<target>fairytales</target>
 			</demo>
 			<demo>
-				<name>Mixed-Up Mother Goose (DOS demo) - Requires ScummVM 1.2.0svn</name>
+				<name>Mixed-Up Mother Goose (DOS demo)</name>
 				<url>http://demos.robertmegone.com/sci/mothergoose-win-demo-en.zip</url>
 				<target>mothergoose</target>
 			</demo>
 			<demo>
-				<name>Ms. Astro Chicken (DOS demo) - Requires ScummVM 1.2.0svn</name>
+				<name>Ms. Astro Chicken (DOS demo)</name>
 				<url>http://demos.robertmegone.com/sci/msastrochicken-dos-demo-en.zip</url>
 				<target>msastrochicken</target>
 			</demo>
 			<demo>
-				<name>Police Quest III: The Kindred (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<name>Police Quest III: The Kindred (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/sci/pq3-dos-ni-demo-en.zip</url>
 				<target>pq3</target>
 			</demo>
@@ -999,27 +999,27 @@
 				<target>pq4</target>
 			</demo>
 			<demo>
-				<name>Quest for Glory I: So You Want to Be a Hero (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<name>Quest for Glory I: So You Want to Be a Hero (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/sci/qfg1-dos-ni-demo-en.zip</url>
 				<target>qfg1</target>
 			</demo>
 			<demo>
-				<name>Quest for Glory II: Trial by Fire (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<name>Quest for Glory II: Trial by Fire (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/sci/qfg2-dos-ni-demo-en.zip</url>
 				<target>qfg2</target>
 			</demo>
 			<demo>
-				<name>Slater &amp; Charlie Go Camping (DOS demo) - Requires ScummVM 1.2.0svn</name>
+				<name>Slater &amp; Charlie Go Camping (DOS demo)</name>
 				<url>http://demos.robertmegone.com/sci/slater-dos-demo.en.zip</url>
 				<target>slater</target>
 			</demo>
 			<demo>
-				<name>Space Quest I: The Sarien Encounter, SCI Remake (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<name>Space Quest I: The Sarien Encounter, SCI Remake (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/sci/sq1sci-dos-ni-demo-en.zip</url>
 				<target>sq1sci</target>
 			</demo>
 			<demo>
-				<name>Space Quest III: The Pirates of Pestulon (DOS demo - Non-interactive) - Requires ScummVM 1.2.0svn</name>
+				<name>Space Quest III: The Pirates of Pestulon (DOS demo - Non-interactive)</name>
 				<url>http://demos.robertmegone.com/sci/sq3-dos-ni-demo-en.zip</url>
 				<target>sq3</target>
 			</demo>
