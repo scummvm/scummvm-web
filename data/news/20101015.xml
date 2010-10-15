@@ -1,0 +1,46 @@
+<NAME>ScummVM 1.2.0 "FaSCInating release" is here!</NAME>
+<DATE>Oct 15, 2010</DATE>
+<AUTHOR>sev</AUTHOR>
+<BODY>
+
+<p><a href="http://scummvm.org/news/20040401">CABAL</a> (Coalesced 'Adventures beyond Architecture' League)
+finally came alive, and now for real. Yes, truly, it took us just 6.5 years, and today we are eagerly announcing
+that a universal adventure game interpreter, playing SCUMM, AGI, and <b>SCI</b> games
+has been released.</p>
+
+<p>From now on, it is available on ScummVM's <a href="http://www.scummvm.org/downloads/">downloads page</a> (Look for version 1.2.0). You may jump straight there, or stay a bit longer
+and see what cool new features are included.</p>
+
+<p>As you have probably already realized, this release has support for SCI, and moreover,
+<a href="http://scummvm.org/compatibility/1.2.0/">the list of compatible</a> games goes beyond
+the original FreeSCI which was merged some 1.5 years ago. We support <i>Conquest of 
+Camelot/the Longbow</i>, <i>Castle/Island of Dr. Brain</i>, <i>Codename: ICEMAN</i>,
+<i>EcoQuest 1&amp;2</i>, <i>all four Hoyle games</i>, <i>Freddy Pharkas</i>, <i>Jones
+in the Fast Lane</i>, <i>King's Quest I-VI</i>, both <i>Laura Bow</i> games, 
+<i>Larry</i> up to 6 (low-res 6 only), <i>Police Quest 1-3</i>, <i>Quest for Glory I-III</i>,
+<i>Space Quest up to V</i> and a few others.
+Incredible work by the FreeSCI team and our own SCI engine team!</p>
+
+<p>Early SCI 16-color games can be optionally undithered by ScummVM, making them look much better.
+To see a comparison between undithered graphics and the original, watch
+<a href="http://www.youtube.com/watch?v=FScrBr16vkM">this video</a> produced by one
+of our SCI engine developers and see for yourself.</p>
+
+<p>Besides SCI, we have added support for yet another Coktel game called <i>Fascination</i>, also
+we have a number of new ports: Android, Dingux, Caanoo and OpenPandora. Unfortunately we had
+to declare the PalmOS port officially dead.</p>
+
+<p>As usual there are tons of engine-specific bugfixes. Take a look at the
+<a href="https://sourceforge.net/projects/scummvm/files/scummvm/1.2.0/ReleaseNotes/view">release notes</a>
+if you want to know more. But wait, we would like to tell a little bit about 
+another long-awaited feature new in this release. After all these years we are finally 
+going international, and the ScummVM GUI can be translated into any language (well, 
+almost any). Right now we have Catalan, English, French, German, Italian, Russian, Spanish 
+and Ukrainian localizations. Besides this there are a lot of smaller improvements 
+like tooltips, radio buttons, improved usability and we support more games running 
+from original media without the need to shuffle the game files.</p>
+
+<p>Enough talking, now it is time to <a href="http://www.scummvm.org/downloads/">download</a> ScummVM
+and start playing!</p>
+
+</BODY>
