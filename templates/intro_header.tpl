@@ -52,8 +52,8 @@
 					ScummVM supports many adventure games, including LucasArts
 					SCUMM games (such as <i>Monkey Island</i> 1-3,
 					<i>Day of the Tentacle</i>, <i>Sam &amp; Max</i>, ...),
-					Sierra's AGI games (such as
-					<i>King's Quest</i> 1-3, <i>Space Quest</i> 1-2, ...),
+					many of Sierra's AGI and SCI games (such as
+					<i>King's Quest</i> 1-6, <i>Space Quest</i> 1-5, ...),
 					<i>Discworld</i> 1 and 2, <i>Simon the Sorcerer</i>
 					1 and 2, <i>Beneath A Steel Sky</i>,
 					<i>Lure of the Temptress</i>, <i>Broken Sword</i> 1 and 2,
