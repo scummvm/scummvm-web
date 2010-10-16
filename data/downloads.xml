@@ -78,14 +78,14 @@
 					<name>Ubuntu 10.04 (lucid) PowerPC / Cell (PlayStation3) package</name>
 					<extra_info>(4.8M .deb)</extra_info>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-slackware.png</category_icon>
 					<url>scummvm-{$release}_slack-i486-1.tgz?download</url>
 					<name>SlackWare package</name>
-					<extra_info>(4.2M .tgz)</extra_info>
+					<extra_info>(4.6M .tgz)</extra_info>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-macos-universal.png</category_icon>
 					<url>scummvm-{$release}-macosx.dmg?download</url>
@@ -529,13 +529,6 @@
 					<url>scummvm_1.1.1-lucid.1_powerpc.deb?download</url>
 					<name>Ubuntu 10.04 (lucid) PowerPC / Cell (PlayStation3) package</name>
 					<extra_info>(4.8M .deb)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-slackware.png</category_icon>
-					<url>scummvm-1.1.1_slack-i486-1.tgz?download</url>
-					<name>SlackWare package</name>
-					<extra_info>(4.2M .tgz)</extra_info>
 				</file>
 
 				<file>
