@@ -46,39 +46,30 @@
 					<name>Fedora 8, 9, 10, 11, 12 and 13 x86 64bit package</name>
 					<extra_info>(6.0M RPM)</extra_info>
 				</file>
-<!--
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
 					<url>scummvm_{$release}-lenny.1_i386.deb?download</url>
 					<name>Debian 5.0 (lenny) i386 package</name>
-					<extra_info>(4.6M .deb)</extra_info>
+					<extra_info>(5.0M .deb)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
 					<url>scummvm_{$release}-lenny.1_amd64.deb?download</url>
 					<name>Debian 5.0 (lenny) x86 64bit package</name>
-					<extra_info>(5.1M .deb)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_{$release}-lucid.1_i386.deb?download</url>
-					<name>Ubuntu 10.04 (lucid) i386 package</name>
-					<extra_info>(4.5M .deb)</extra_info>
+					<extra_info>(5.6M .deb)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_{$release}-lucid.1_amd64.deb?download</url>
-					<name>Ubuntu 10.04 (lucid) x86 64bit package</name>
-					<extra_info>(5.1M .deb)</extra_info>
+					<url>scummvm_{$release}-maverick.1_i386.deb?download</url>
+					<name>Ubuntu 10.10 (maverick) i386 package</name>
+					<extra_info>(4.9M .deb)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_{$release}-lucid.1_powerpc.deb?download</url>
-					<name>Ubuntu 10.04 (lucid) PowerPC / Cell (PlayStation3) package</name>
-					<extra_info>(4.8M .deb)</extra_info>
+					<url>scummvm_{$release}-maverick.1_amd64.deb?download</url>
+					<name>Ubuntu 10.10 (maverick) x86 64bit package</name>
+					<extra_info>(5.7M .deb)</extra_info>
 				</file>
--->
 				<file>
 					<category_icon>catpl-slackware.png</category_icon>
 					<url>scummvm-{$release}_slack-i486-1.tgz?download</url>
@@ -319,14 +310,13 @@
 					<name>OS/2 package</name>
 					<extra_info>(6.7M .zip)</extra_info>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-samsungtv.png</category_icon>
 					<url>scummvm-{$release}-samsungtv.zip?download</url>
 					<name>Samsung TV package (2009 series)</name>
-					<extra_info>(7.3M .zip)</extra_info>
+					<extra_info>(8.0M .zip)</extra_info>
 				</file>
--->
 			</entries>
 		</subsection>
 
@@ -496,32 +486,6 @@
 				older versions around, for your convenience.
 			</notes>
 			<entries>
-
-				<file>
-					<category_icon>catpl-debian.png</category_icon>
-					<url>scummvm_1.1.1-lenny.1_i386.deb?download</url>
-					<name>Debian 5.0 (lenny) i386 package</name>
-					<extra_info>(4.6M .deb)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-debian.png</category_icon>
-					<url>scummvm_1.1.1-lenny.1_amd64.deb?download</url>
-					<name>Debian 5.0 (lenny) x86 64bit package</name>
-					<extra_info>(5.1M .deb)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_1.1.1-lucid.1_i386.deb?download</url>
-					<name>Ubuntu 10.04 (lucid) i386 package</name>
-					<extra_info>(4.5M .deb)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_1.1.1-lucid.1_amd64.deb?download</url>
-					<name>Ubuntu 10.04 (lucid) x86 64bit package</name>
-					<extra_info>(5.1M .deb)</extra_info>
-				</file>
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
 					<url>scummvm_1.1.1-lucid.1_powerpc.deb?download</url>
@@ -541,13 +505,6 @@
 					<url>scummvm-1.1.1-irix-mips3.tardist?download</url>
 					<name>IRIX (6.5.*, n32, mips3) package</name>
 					<extra_info>(13.7M .tardist)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-samsungtv.png</category_icon>
-					<url>scummvm-1.1.1-samsungtv.zip?download</url>
-					<name>Samsung TV package (2009 series)</name>
-					<extra_info>(7.3M .zip)</extra_info>
 				</file>
 
 				<file>
