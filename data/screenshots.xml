@@ -761,6 +761,34 @@
 			</image>
 		</game>
 		<game>
+			<name>Fascination</name>
+			<category>fascination</category>
+			<image>
+				<file>gob/fascination/fascination-1</file>
+				<caption>Fascination (CD English)</caption>
+			</image>
+			<image>
+				<file>gob/fascination/fascination-2</file>
+				<caption>Fascination (CD English)</caption>
+			</image>
+			<image>
+				<file>gob/fascination/fascination-3</file>
+				<caption>Fascination (CD English)</caption>
+			</image>
+			<image>
+				<file>gob/fascination/fascination-4</file>
+				<caption>Fascination (CD English)</caption>
+			</image>
+			<image>
+				<file>gob/fascination/fascination-5</file>
+				<caption>Fascination (CD English)</caption>
+			</image>
+			<image>
+				<file>gob/fascination/fascination-6</file>
+				<caption>Fascination (CD English)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Gobliiins series</name>
 			<category>gob</category>
 			<image>
@@ -1573,6 +1601,42 @@
 			</image>
 		</game>
 		<game>
+			<name>Dragon History</name>
+			<category>draci</category>
+			<image>
+				<file>other/draci/draci-1</file>
+				<caption>Dragon History</caption>
+			</image>
+			<image>
+				<file>other/draci/draci-2</file>
+				<caption>Dragon History</caption>
+			</image>
+			<image>
+				<file>other/draci/draci-3</file>
+				<caption>Dragon History</caption>
+			</image>
+			<image>
+				<file>other/draci/draci-4</file>
+				<caption>Dragon History</caption>
+			</image>
+			<image>
+				<file>other/draci/draci-cz-1</file>
+				<caption>Dragon History (Czech)</caption>
+			</image>
+			<image>
+				<file>other/draci/draci-cz-2</file>
+				<caption>Dragon History (Czech)</caption>
+			</image>
+			<image>
+				<file>other/draci/draci-pl-1</file>
+				<caption>Dragon History (Polish)</caption>
+			</image>
+			<image>
+				<file>other/draci/draci-pl-2</file>
+				<caption>Dragon History (Polish)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Drascula: The Vampire Strikes Back</name>
 			<category>drascula</category>
 			<image>
@@ -1790,6 +1854,34 @@
 			<image>
 				<file>groovie/t7g-7</file>
 				<caption>The 7th Guest</caption>
+			</image>
+		</game>
+		<game>
+			<name>Teenagent</name>
+			<category>teenagent</category>
+			<image>
+				<file>other/teenagent/teenagent-0</file>
+				<caption>Teenagent</caption>
+			</image>
+			<image>
+				<file>other/teenagent/teenagent-1</file>
+				<caption>Teenagent</caption>
+			</image>
+			<image>
+				<file>other/teenagent/teenagent-2</file>
+				<caption>Teenagent</caption>
+			</image>
+			<image>
+				<file>other/teenagent/teenagent-3</file>
+				<caption>Teenagent</caption>
+			</image>
+			<image>
+				<file>other/teenagent/teenagent-4</file>
+				<caption>Teenagent</caption>
+			</image>
+			<image>
+				<file>other/teenagent/teenagent-5</file>
+				<caption>Teenagent</caption>
 			</image>
 		</game>
 		<game>
