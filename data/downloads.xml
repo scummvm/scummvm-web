@@ -210,7 +210,6 @@
 					<name>Nintendo 64 package</name>
 					<extra_info>(9.8M .zip)</extra_info>
 				</file>
-<!--
 				<file>
 					<category_icon>catpl-gc.png</category_icon>
 					<url>scummvm-{$release}-gc.zip?download</url>
@@ -223,7 +222,6 @@
 					<name>Wii package</name>
 					<extra_info>(4.8M .zip)</extra_info>
 				</file>
--->
 				<file>
 					<category_icon>catpl-gp2x.png</category_icon>
 					<url>scummvm-{$release}-gp2x.zip?download</url>
@@ -536,19 +534,6 @@
 					<url>scummvm-1.1.1-wince.zip?download</url>
 					<name>Windows CE ARM package</name>
 					<extra_info>(12.2M zipfile)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-gc.png</category_icon>
-					<url>scummvm-1.1.1-gc.zip?download</url>
-					<name>Nintendo GameCube package</name>
-					<extra_info>(4.6M .zip)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-wii.png</category_icon>
-					<url>scummvm-1.1.1-wii.zip?download</url>
-					<name>Wii package</name>
-					<extra_info>(4.8M .zip)</extra_info>
 				</file>
 
 				<file>
