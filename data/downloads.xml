@@ -514,7 +514,7 @@
 
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_{$release}-lucid.1_i386.deb?download</url>
+					<url>scummvm_1.1.1-lucid.1_i386.deb?download</url>
 					<name>Ubuntu 10.04 (lucid) i386 package</name>
 					<extra_info>(4.5M .deb)</extra_info>
 				</file>
