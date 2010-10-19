@@ -215,15 +215,20 @@
 				</file>
 				<file>
 					<category_icon>catpl-gp2x.png</category_icon>
-					<url>scummvm-{$release}-gp2x.zip?download</url>
+					<url>scummvm-{$release}-gp2x.tar.bz2?download</url>
 					<name>GP2X package</name>
 					<extra_info>(5.6M .zip)</extra_info>
 				</file>
-
 				<file>
 					<category_icon>catpl-gp2xwiz.png</category_icon>
-					<url>scummvm-{$release}-gp2xwiz.zip?download</url>
+					<url>scummvm-{$release}-gp2xwiz.tar.bz2?download</url>
 					<name>GP2X Wiz package</name>
+					<extra_info>(6.3M .zip)</extra_info>
+				</file>
+				<file>
+					<category_icon>catpl-caanoo.png</category_icon>
+					<url>scummvm-{$release}-caanoo.tar.bz2?download</url>
+					<name>Caanoo package</name>
 					<extra_info>(6.3M .zip)</extra_info>
 				</file>
 				<file>
