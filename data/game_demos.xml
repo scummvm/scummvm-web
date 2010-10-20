@@ -191,7 +191,7 @@
 				<target>baseball</target>
 			</demo>
 			<demo>
-				<name>Backyard Baseball 2001 (Windows Demo)</name>
+				<name>Backyard Baseball 2001 (Windows Demo) - Requires ScummVM 1.3.0svn</name>
 				<url>http://demos.robertmegone.com/scumm/he/baseball2001-win-demo-us.zip</url>
 				<target>baseball2001</target>
 			</demo>
@@ -253,6 +253,11 @@
 			<demo>
 				<name>Fatty Bear's Birthday Surprise (DOS demo)</name>
 				<url>http://demos.robertmegone.com/scumm/he/fbear-dos-demo-us.zip</url>
+				<target>fbear</target>
+			</demo>
+			<demo>
+				<name>Fatty Bear's Birthday Surprise (Macintosh demo)</name>
+				<url>http://demos.robertmegone.com/scumm/he/fbear-mac-demo-us.zip</url>
 				<target>fbear</target>
 			</demo>
 			<demo>
@@ -506,6 +511,11 @@
 				<target>puttmoon</target>
 			</demo>
 			<demo>
+				<name>Putt-Putt Goes to the Moon (Macintosh demo)</name>
+				<url>http://demos.robertmegone.com/scumm/he/puttmoon-mac-demo-us.zip</url>
+				<target>puttmoon</target>
+			</demo>
+			<demo>
 				<name>Putt-Putt Goes to the Moon (Window demo)</name>
 				<url>http://demos.robertmegone.com/scumm/he/puttmoon-win-demo-us.zip</url>
 				<target>puttmoon</target>
@@ -518,6 +528,11 @@
 			<demo>
 				<name>Putt-Putt Joins the Parade (DOS demo)</name>
 				<url>http://demos.robertmegone.com/scumm/he/puttputt-dos-demo-us.zip</url>
+				<target>puttputt</target>
+			</demo>
+			<demo>
+				<name>Putt-Putt Joins the Parade (Macintosh demo)</name>
+				<url>http://demos.robertmegone.com/scumm/he/puttputt-mac-demo-us.zip</url>
 				<target>puttputt</target>
 			</demo>
 			<demo>
