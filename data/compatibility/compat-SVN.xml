@@ -957,17 +957,17 @@
 			<game>
 				<name>Backyard Baseball</name>
 				<target>baseball</target>
-				<percent>20</percent>
+				<percent>90</percent>
 				<notes>
-					Game is playable, with glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Array out of bounds errors sometimes<h:br />- Minor graphical glitches
+					Game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
 			<game>
 				<name>Backyard Baseball 2001</name>
 				<target>baseball2001</target>
-				<percent>20</percent>
+				<percent>80</percent>
 				<notes>
-					Game is playable, with glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Array out of bounds errors sometimes<h:br />- Minor graphical glitches
+					Game is completable.<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- No support for multiplayer
 				</notes>
 			</game>
 			<game>
@@ -975,7 +975,7 @@
 				<target>baseball2003</target>
 				<percent>20</percent>
 				<notes>
-					Game is playable, with glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Array out of bounds errors sometimes<h:br />- Minor graphical glitches
+					Game is playable, with minor glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Minor graphical glitches
 				</notes>
 			</game>
 			<game>
