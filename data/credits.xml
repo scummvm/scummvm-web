@@ -656,7 +656,7 @@
 				</person>
 			</group>
 			<group>
-				<name>GP2X</name>
+				<name>GPH Devices (GP2X, GP2XWiz & Caanoo)</name>
 				<person>
 					<name>John Willis</name>
 					<alias>DJWillis</alias>
@@ -700,6 +700,14 @@
 				<person>
 					<name>Neil Millstone</name>
 					<alias>agent-q</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>OpenPandora</name>
+				<person>
+					<name>John Willis</name>
+					<alias>DJWillis</alias>
 					<description></description>
 				</person>
 			</group>
