@@ -981,17 +981,17 @@
 			<game>
 				<name>Backyard Football</name>
 				<target>football</target>
-				<percent>80</percent>
+				<percent>90</percent>
 				<notes>
-					Game is completable, with minor glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Freezes when computer chooses a player, when selecting teams<h:br />- Minor graphical glitches
+					Game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
 			<game>
 				<name>Backyard Football 2002</name>
 				<target>football2002</target>
-				<percent>70</percent>
+				<percent>80</percent>
 				<notes>
-					Game is playable, with minor glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Array out of bounds error when computer chooses a player, when selecting teams<h:br />- Minor graphical glitches<h:br />- No videos
+					Game is playable, with minor glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Minor graphical glitches<h:br />- No support for multiplayer<h:br />- No videos
 				</notes>
 			</game>
 			<game>
