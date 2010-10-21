@@ -1080,6 +1080,21 @@
 				<target>tucker</target>
 			</demo>
 			<demo>
+				<name>Discworld 1 (DOS CD demo)</name>
+				<url>http://demos.robertmegone.com/tinsel/dw-dos-cd-demo-en.zip</url>
+				<target>dw</target>
+			</demo>
+			<demo>
+				<name>Discworld 1 (DOS Floppy demo)</name>
+				<url>http://demos.robertmegone.com/tinsel/dw-dos-floppy-demo-en.zip</url>
+				<target>dw</target>
+			</demo>
+			<demo>
+				<name>Discworld 1 (PlayStation 1 Floppy demo)</name>
+				<url>http://demos.robertmegone.com/tinsel/dw-psx-demo-en.zip</url>
+				<target>dw</target>
+			</demo>
+			<demo>
 				<name>Flight of the Amazon Queen (Amiga demo)</name>
 				<url>http://demos.robertmegone.com/queen/queen-amiga-demo-en.zip</url>
 				<target>queen</target>
