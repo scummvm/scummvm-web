@@ -1095,6 +1095,11 @@
 				<target>dw</target>
 			</demo>
 			<demo>
+				<name>Discworld 2 (Windows demo) - Requires ScummVM 1.3.0svn</name>
+				<url>http://demos.robertmegone.com/tinsel/dw2-win-demo-en.zip</url>
+				<target>dw2/target>
+			</demo>
+			<demo>
 				<name>Flight of the Amazon Queen (Amiga demo)</name>
 				<url>http://demos.robertmegone.com/queen/queen-amiga-demo-en.zip</url>
 				<target>queen</target>
