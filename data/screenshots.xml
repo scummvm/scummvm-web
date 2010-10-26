@@ -1453,6 +1453,152 @@
 			</image>
 		</game>
 	</group>
+<!--
+	<group>
+		<title>Sierra SCI games</title>
+		<category>sci</category>
+		<game>
+			<name>Conquests of Camelot</name>
+			<category>camelot</category>
+			<image>
+				<file>sci/camelot/camelot-1</file>
+				<caption>Conquests of Camelot (DOS)</caption>
+			</image>
+			<image>
+				<file>sci/camelot/camelot-2</file>
+				<caption>Conquests of Camelot (DOS)</caption>
+			</image>
+			<image>
+				<file>sci/camelot/camelot-3</file>
+				<caption>Conquests of Camelot (DOS)</caption>
+			</image>
+			<image>
+				<file>sci/camelot/camelot-4</file>
+				<caption>Conquests of Camelot (DOS)</caption>
+			</image>
+			<image>
+				<file>sci/camelot/camelot-5</file>
+				<caption>Conquests of Camelot (DOS)</caption>
+			</image>
+			<image>
+				<file>sci/camelot/camelot-6</file>
+				<caption>Conquests of Camelot (DOS)</caption>
+			</image>
+			<image>
+				<file>sci/camelot/camelot-7</file>
+				<caption>Conquests of Camelot (DOS)</caption>
+			</image>
+		</game>
+		<game>
+			<name>The Castle of Dr. Brain</name>
+			<category>castlebrain</category>
+			<image>
+				<file>sci/castlebrain/castlebrain-ega-1</file>
+				<caption>The Castle of Dr. Brain (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/castlebrain/castlebrain-ega-2</file>
+				<caption>The Castle of Dr. Brain (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/castlebrain/castlebrain-vga-1</file>
+				<caption>The Castle of Dr. Brain (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/castlebrain/castlebrain-vga-2</file>
+				<caption>The Castle of Dr. Brain (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/castlebrain/castlebrain-de-1</file>
+				<caption>The Castle of Dr. Brain (EGA/German)</caption>
+			</image>
+			<image>
+				<file>sci/castlebrain/castlebrain-de-2</file>
+				<caption>The Castle of Dr. Brain (EGA/German)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Eco Quest Series</name>
+			<category>ecoquest</category>
+			<image>
+				<file>sci/ecoquest/ecoquest-1</file>
+				<caption>EcoQuest: The Search for Cetus</caption>
+			</image>
+			<image>
+				<file>sci/ecoquest/ecoquest-2</file>
+				<caption>EcoQuest: The Search for Cetus</caption>
+			</image>
+			<image>
+				<file>sci/ecoquest/ecoquest-3</file>
+				<caption>EcoQuest: The Search for Cetus</caption>
+			</image>
+			<image>
+				<file>sci/ecoquest/ecoquest2-1</file>
+				<caption>EcoQuest II: Lost Secret of the Rainforest</caption>
+			</image>
+			<image>
+				<file>sci/ecoquest/ecoquest2-2</file>
+				<caption>EcoQuest II: Lost Secret of the Rainforest</caption>
+			</image>
+		</game>
+		<game>
+			<name>Laura Bow Series</name>
+			<category>laurabow</category>
+			<image>
+				<file>sci/laurabow/laurabow-1</file>
+				<caption>Laura Bow: The Colonel's Bequest</caption>
+			</image>
+			<image>
+				<file>sci/laurabow/laurabow-2</file>
+				<caption>Laura Bow: The Colonel's Bequest</caption>
+			</image>
+			<image>
+				<file>sci/laurabow/laurabow-3</file>
+				<caption>Laura Bow: The Colonel's Bequest</caption>
+			</image>
+			<image>
+				<file>sci/laurabow/laurabow-4</file>
+				<caption>Laura Bow: The Colonel's Bequest</caption>
+			</image>
+			<image>
+				<file>sci/laurabow/laurabow-5</file>
+				<caption>Laura Bow: The Colonel's Bequest</caption>
+			</image>
+			<image>
+				<file>sci/laurabow/laurabow-6</file>
+				<caption>Laura Bow: The Colonel's Bequest</caption>
+			</image>
+			<image>
+				<file>sci/laurabow/laurabow2-1</file>
+				<caption>Laura Bow 2: The Dagger of Amon Ra</caption>
+			</image>
+			<image>
+				<file>sci/laurabow/laurabow2-2</file>
+				<caption>Laura Bow 2: The Dagger of Amon Ra</caption>
+			</image>
+			<image>
+				<file>sci/laurabow/laurabow2-3</file>
+				<caption>Laura Bow 2: The Dagger of Amon Ra</caption>
+			</image>
+			<image>
+				<file>sci/laurabow/laurabow2-4</file>
+				<caption>Laura Bow 2: The Dagger of Amon Ra</caption>
+			</image>
+			<image>
+				<file>sci/laurabow/laurabow2-de-1</file>
+				<caption>Laura Bow 2: The Dagger of Amon Ra (German)</caption>
+			</image>
+			<image>
+				<file>sci/laurabow/laurabow2-de-2</file>
+				<caption>Laura Bow 2: The Dagger of Amon Ra (German)</caption>
+			</image>
+			<image>
+				<file>sci/laurabow/laurabow2-de-3</file>
+				<caption>Laura Bow 2: The Dagger of Amon Ra (German)</caption>
+			</image>
+		</game>
+	</group>
+-->
 	<group>
 		<title>Other games</title>
 		<category>other</category>
