@@ -140,7 +140,7 @@
 				<target>manhole</target>
 				<percent>90</percent>
 				<notes>
-					Game is playable.
+					Game is playable.<h:br />- DOS floppy and CD versions are supported by this target
 				</notes>
 			</game>
 			<game>
