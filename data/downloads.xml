@@ -190,7 +190,7 @@
 				</file>
 				<file>
 					<category_icon>catpl-dc.png</category_icon>
-					<url>scummvm-{$release}-dreamcast-nero+demos.zip?download</url>
+					<url>scummvm-{$release}-dreamcast-nero%2Bdemos.zip?download</url>
 					<name>Dreamcast Nero Image &amp; Demos</name>
 					<extra_info>(15.6M .zip)</extra_info>
 				</file>
