@@ -351,6 +351,11 @@
 				<target>freddi4</target>
 			</demo>
 			<demo>
+				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows French Demo)</name>
+				<url>freddi4-win-demo.fr.zip</url>
+				<target>freddi4</target>
+			</demo>
+			<demo>
 				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows German Demo)</name>
 				<url>http://demos.robertmegone.com/scumm/he/freddi4-win-demo-de.zip</url>
 				<target>freddi4</target>
@@ -461,6 +466,11 @@
 				<target>pajama3</target>
 			</demo>
 			<demo>
+				<name>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows French Demo)</name>
+				<url>http://demos.robertmegone.com/scumm/he/pajama3-win-demo-fr.zip</url>
+				<target>pajama3</target>
+			</demo>
+			<demo>
 				<name>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows German Demo)</name>
 				<url>http://demos.robertmegone.com/scumm/he/pajama3-win-demo-de.zip</url>
 				<target>pajama3</target>
@@ -493,6 +503,11 @@
 			<demo>
 				<name>Putt-Putt Enters the Race (Windows Updated Dutch Demo)</name>
 				<url>http://demos.robertmegone.com/scumm/he/puttrace-win-updated-demo-nl.zip</url>
+				<target>puttrace</target>
+			</demo>
+			<demo>
+				<name>Putt-Putt Enters the Race (Windows French Demo)</name>
+				<url>puttrace-win-demo-fr.zip</url>
 				<target>puttrace</target>
 			</demo>
 			<demo>
@@ -613,6 +628,11 @@
 			<demo>
 				<name>SPY Fox 2: Some Assembly Required (Windows Demo)</name>
 				<url>http://demos.robertmegone.com/scumm/he/spyfox2-win-demo-us.zip</url>
+				<target>spyfox2</target>
+			</demo>
+			<demo>
+				<name>SPY Fox 2: Some Assembly Required (Windows French Demo)</name>
+				<url>spyfox2-win-demo-fr.zip</url>
 				<target>spyfox2</target>
 			</demo>
 			<demo>
