@@ -257,21 +257,21 @@
 					<name>Solaris 10 (both IA32 and AMD64) binary</name>
 					<extra_info>(13.3M .pkg.bz2)</extra_info>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-irix.png</category_icon>
-					<url>scummvm-{$release}-irix-mips3.tardist?download</url>
+					<url>scummvm-{$release}-irix-mips3.tar.gz?download</url>
 					<name>IRIX (6.5.*, n32, mips3) package</name>
-					<extra_info>(13.7M .tardist)</extra_info>
+					<extra_info>(6.6M .tar.gz)</extra_info>
 				</file>
 
 				<file>
 					<category_icon>catpl-irix.png</category_icon>
-					<url>scummvm-{$release}-irix-mips4.tar.bz2?download</url>
+					<url>scummvm-{$release}-irix-mips4.tar.gz?download</url>
 					<name>IRIX (6.5.*, n32, mips4) package</name>
-					<extra_info>(9.3M .tar.bz2)</extra_info>
+					<extra_info>(6.7M .tar.gz)</extra_info>
 				</file>
--->
+
 <!--
 				<file>
 					<category_icon>catpl-beos.png</category_icon>
@@ -503,20 +503,6 @@
 					<url>scummvm-1.1.1-wince.zip?download</url>
 					<name>Windows CE ARM package</name>
 					<extra_info>(12.2M zipfile)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-irix.png</category_icon>
-					<url>scummvm-1.1.1-irix-mips3.tardist?download</url>
-					<name>IRIX (6.5.*, n32, mips3) package</name>
-					<extra_info>(13.7M .tardist)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-irix.png</category_icon>
-					<url>scummvm-1.1.0-irix-mips4.tar.bz2?download</url>
-					<name>IRIX (6.5.*, n32, mips4) package</name>
-					<extra_info>(9.3M .tar.bz2)</extra_info>
 				</file>
 
 				<file>
