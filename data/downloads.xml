@@ -106,6 +106,13 @@
 				</file>
 
 				<file>
+					<category_icon>catpl-android.png</category_icon>
+					<url>scummvm-{$release}-android.apk?download</url>
+					<name>Android binary</name>
+					<extra_info>(5.8M .apk)</extra_info>
+				</file>
+
+				<file>
 					<category_icon>catpl-symbian.png</category_icon>
 					<url>scummvm-{$release}-s60-v3.sis?download</url>
 					<name>Symbian S60 version 3 binary</name>
