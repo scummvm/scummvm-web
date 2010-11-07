@@ -244,6 +244,34 @@
 				</person>
 			</group>
 			<group>
+				<name>Broken Sword 2.5</name>
+				<person>
+					<name>Eugene Sandulenko</name>
+					<alias>sev</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Filippos Karapetis</name>
+					<alias>[md5]</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Max Horn</name>
+					<alias>Fingolfin</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Paul Gilbert</name>
+					<alias>dreammaster</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Torbj&ouml;rn Andersson</name>
+					<alias>eriktorbjorn</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>Cinematique evo 1</name>
 				<person>
 					<name>Vincent Hamm</name>
@@ -897,7 +925,7 @@
 				<person>
 					<name>Joachim Eberhard</name>
 					<alias>joachimeberhard</alias>
-					<description>Numerous contributions to documentation</description>
+					<description>Numerous contributions to documentation (retired)</description>
 				</person>
 				<person>
 					<name>Matthew Hoops</name>
