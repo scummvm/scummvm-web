@@ -260,7 +260,7 @@
 			<game>
 				<name>Fascination</name>
 				<target>fascination</target>
-				<percent>80</percent>
+				<percent>90</percent>
 				<notes>
 					No known issues. Game is completable<h:br />- Amiga, Atari and DOS versions are supported by this target<h:br />- AdLib player is not supported in DOS floppy version
 				</notes>
