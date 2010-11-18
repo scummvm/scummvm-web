@@ -16,11 +16,6 @@
 		<description>Guidelines on how to hack ScummVM. A must read for developers.</description>
 	</document>
 	<document>
-		<name>SCUMM Data File MD5 Checksums</name>
-		<url>documentation/md5sums/</url>
-		<description>This page lists MD5 checksums for various 'canonical' data files of SCUMM games, which can be used to identify game versions/variants.</description>
-	</document>
-	<document>
 		<name>Game data files</name>
 		<url>http://wiki.scummvm.org/index.php/Datafiles</url>
 		<description>This page lists for many supported games which files exactly are needed by ScummVM in order to play that game.</description>
