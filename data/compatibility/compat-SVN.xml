@@ -353,6 +353,147 @@
 		</games>
 	</company>
 	<company>
+		<name>Sierra AGI</name>
+		<games>
+			<game>
+				<name>The Black Cauldron</name>
+				<target>bc</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable<h:br />- DOS, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
+				</notes>
+			</game>
+			<game>
+				<name>Gold Rush!</name>
+				<target>goldrush</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable<h:br />- DOS, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
+				</notes>
+			</game>
+			<game>
+				<name>King's Quest I</name>
+				<target>kq1</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable<h:br />- DOS, Mac, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
+				</notes>
+			</game>
+			<game>
+				<name>King's Quest II</name>
+				<target>kq2</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable<h:br />- DOS, Mac, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
+				</notes>
+			</game>
+			<game>
+				<name>King's Quest III</name>
+				<target>kq3</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable<h:br />- DOS, Mac, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
+				</notes>
+			</game>
+			<game>
+				<name>King's Quest IV</name>
+				<target>kq4</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable<h:br />- DOS, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
+				</notes>
+			</game>
+			<game>
+				<name>Leisure Suit Larry in the Land of the Lounge Lizards</name>
+				<target>lsl1</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable<h:br />- DOS, Mac, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
+				</notes>
+			</game>
+			<game>
+				<name>Mixed-Up Mother Goose</name>
+				<target>mixedup</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable<h:br />- DOS, Amiga, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
+				</notes>
+			</game>
+			<game>
+				<name>Manhunter 1: New York</name>
+				<target>mh1</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable<h:br />- DOS, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
+				</notes>
+			</game>
+			<game>
+				<name>Manhunter 2: San Francisco</name>
+				<target>mh2</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable<h:br />- DOS, Amiga, Atari ST versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Police Quest I: In Pursuit of the Death Angel</name>
+				<target>pq1</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable<h:br />- DOS, Mac, Amiga, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
+				</notes>
+			</game>
+			<game>
+				<name>Space Quest I: The Sarien Encounter</name>
+				<target>sq1</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable<h:br />- DOS, Mac, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
+				</notes>
+			</game>
+			<game>
+				<name>Space Quest II: Vohaul's Revenge</name>
+				<target>sq2</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable<h:br />- DOS, Mac, Amiga, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
+				</notes>
+			</game>
+			<game>
+				<name>Fanmade Games</name>
+				<target>agi-fanmade</target>
+				<percent>80</percent>
+				<notes>
+					Most games are completable<h:br />- AGIMOUSE, AGIPAL, AGI256 and AGI256-2 hacks are also supported by this target<h:br />- Occasional graphics glitches
+				</notes>
+			</game>
+			<game>
+				<name>Mickey's Space Adventure</name>
+				<target>mickey</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable<h:br />- Only DOS version is supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Troll's Tale</name>
+				<target>troll</target>
+				<percent>80</percent>
+				<notes>
+					Game is completable<h:br />- Only DOS booter version is supported by this target<h:br />- Game lacks sound
+				</notes>
+			</game>
+			<game>
+				<name>Winnie the Pooh in the Hundred Acre Wood</name>
+				<target>winnie</target>
+				<percent>80</percent>
+				<notes>
+					Game is completable<h:br />- Only DOS version is supported by this target<h:br />- Game lacks sound
+				</notes>
+			</game>
+		</games>
+	</company>
+	<company>
 		<name>Sierra SCI</name>
 		<games>
 			<game>
@@ -665,147 +806,6 @@
 				<percent>95</percent>
 				<notes>
 					Game is completable<h:br />- DOS versions are supported by this target
-				</notes>
-			</game>
-		</games>
-	</company>
-	<company>
-		<name>Sierra AGI</name>
-		<games>
-			<game>
-				<name>The Black Cauldron</name>
-				<target>bc</target>
-				<percent>90</percent>
-				<notes>
-					Game is completable<h:br />- DOS, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
-				</notes>
-			</game>
-			<game>
-				<name>Gold Rush!</name>
-				<target>goldrush</target>
-				<percent>90</percent>
-				<notes>
-					Game is completable<h:br />- DOS, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
-				</notes>
-			</game>
-			<game>
-				<name>King's Quest I</name>
-				<target>kq1</target>
-				<percent>90</percent>
-				<notes>
-					Game is completable<h:br />- DOS, Mac, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
-				</notes>
-			</game>
-			<game>
-				<name>King's Quest II</name>
-				<target>kq2</target>
-				<percent>90</percent>
-				<notes>
-					Game is completable<h:br />- DOS, Mac, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
-				</notes>
-			</game>
-			<game>
-				<name>King's Quest III</name>
-				<target>kq3</target>
-				<percent>90</percent>
-				<notes>
-					Game is completable<h:br />- DOS, Mac, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
-				</notes>
-			</game>
-			<game>
-				<name>King's Quest IV</name>
-				<target>kq4</target>
-				<percent>90</percent>
-				<notes>
-					Game is completable<h:br />- DOS, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
-				</notes>
-			</game>
-			<game>
-				<name>Leisure Suit Larry in the Land of the Lounge Lizards</name>
-				<target>lsl1</target>
-				<percent>90</percent>
-				<notes>
-					Game is completable<h:br />- DOS, Mac, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
-				</notes>
-			</game>
-			<game>
-				<name>Mixed-Up Mother Goose</name>
-				<target>mixedup</target>
-				<percent>90</percent>
-				<notes>
-					Game is completable<h:br />- DOS, Amiga, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
-				</notes>
-			</game>
-			<game>
-				<name>Manhunter 1: New York</name>
-				<target>mh1</target>
-				<percent>90</percent>
-				<notes>
-					Game is completable<h:br />- DOS, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
-				</notes>
-			</game>
-			<game>
-				<name>Manhunter 2: San Francisco</name>
-				<target>mh2</target>
-				<percent>90</percent>
-				<notes>
-					Game is completable<h:br />- DOS, Amiga, Atari ST versions are supported by this target
-				</notes>
-			</game>
-			<game>
-				<name>Police Quest I: In Pursuit of the Death Angel</name>
-				<target>pq1</target>
-				<percent>90</percent>
-				<notes>
-					Game is completable<h:br />- DOS, Mac, Amiga, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
-				</notes>
-			</game>
-			<game>
-				<name>Space Quest I: The Sarien Encounter</name>
-				<target>sq1</target>
-				<percent>90</percent>
-				<notes>
-					Game is completable<h:br />- DOS, Mac, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
-				</notes>
-			</game>
-			<game>
-				<name>Space Quest II: Vohaul's Revenge</name>
-				<target>sq2</target>
-				<percent>90</percent>
-				<notes>
-					Game is completable<h:br />- DOS, Mac, Amiga, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
-				</notes>
-			</game>
-			<game>
-				<name>Fanmade Games</name>
-				<target>agi-fanmade</target>
-				<percent>80</percent>
-				<notes>
-					Most games are completable<h:br />- AGIMOUSE, AGIPAL, AGI256 and AGI256-2 hacks are also supported by this target<h:br />- Occasional graphics glitches
-				</notes>
-			</game>
-			<game>
-				<name>Mickey's Space Adventure</name>
-				<target>mickey</target>
-				<percent>90</percent>
-				<notes>
-					Game is completable<h:br />- Only DOS version is supported by this target
-				</notes>
-			</game>
-			<game>
-				<name>Troll's Tale</name>
-				<target>troll</target>
-				<percent>80</percent>
-				<notes>
-					Game is completable<h:br />- Only DOS booter version is supported by this target<h:br />- Game lacks sound
-				</notes>
-			</game>
-			<game>
-				<name>Winnie the Pooh in the Hundred Acre Wood</name>
-				<target>winnie</target>
-				<percent>80</percent>
-				<notes>
-					Game is completable<h:br />- Only DOS version is supported by this target<h:br />- Game lacks sound
 				</notes>
 			</game>
 		</games>
