@@ -33,15 +33,15 @@
 			<a href="screenshots/{$arr.category}/">{$arr.title}</a>
 		</div>
 		<div class="scr-content scr-content-{$arr.category}">
-			<ul>
+			<table>
 			{foreach from=$arr.games item=game}
-				<li>
-					<img src="images/cat-{$game->getCategory()}.png" alt="{$game->getName()}">
-					<a href="screenshots/{$arr.category}/{$game->getCategory()}/">{$game->getName()}</a>
-					<span class="green">({$game->getFiles()|@count} shots)</span>
-				</li>
+				<tr>
+					<td><img src="images/cat-{$game->getCategory()}.png" alt=""></td>
+					<td><a href="screenshots/{$arr.category}/{$game->getCategory()}/">{$game->getName()}</a>
+					<span class="green">({$game->getFiles()|@count} shots)</span></td>
+				</tr>
 			{/foreach}
-			</ul>
+			</table>
 		</div>
 	{/foreach}
 </div>
