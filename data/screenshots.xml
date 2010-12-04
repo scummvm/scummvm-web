@@ -1531,6 +1531,24 @@
 				<file>sci/ecoquest/ecoquest-3</file>
 				<caption>EcoQuest: The Search for Cetus</caption>
 			</image>
+
+			<image>
+				<file>sci/ecoquest/ecoquest-de-1</file>
+				<caption>EcoQuest: The Search for Cetus (German)</caption>
+			</image>
+			<image>
+				<file>sci/ecoquest/ecoquest-de-2</file>
+				<caption>EcoQuest: The Search for Cetus (German)</caption>
+			</image>
+			<image>
+				<file>sci/ecoquest/ecoquest-de-3</file>
+				<caption>EcoQuest: The Search for Cetus (German)</caption>
+			</image>
+			<image>
+				<file>sci/ecoquest/ecoquest-de-4</file>
+				<caption>EcoQuest: The Search for Cetus (German)</caption>
+			</image>
+
 			<image>
 				<file>sci/ecoquest/ecoquest2-1</file>
 				<caption>EcoQuest II: Lost Secret of the Rainforest</caption>
