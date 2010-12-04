@@ -50,23 +50,16 @@
 	color: rgb(255, 0, 0);
 }
 
-.scr-content ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-.scr-content ul li:first-letter,
-.scr-content ul li a:first-letter {
+.scr-content td:first-letter {
 	font-weight: bold;
 }
 
-.scr-content ul li {
+.scr-content td {
 	height: 24px;
 	margin-bottom: 6px;
 }
 
-.scr-content ul li img {
+.scr-content td img {
 	height: 24px;
 	vertical-align: middle;
 	width: 24px;
