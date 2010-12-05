@@ -1917,6 +1917,7 @@
 				<file>sci/pq/pq3-ega-4</file>
 				<caption>Police Quest III: The Kindred (EGA)</caption>
 			</image>
+
 			<image>
 				<file>sci/pq/pq3-vga-1</file>
 				<caption>Police Quest III: The Kindred (VGA)</caption>
@@ -1940,6 +1941,27 @@
 			<image>
 				<file>sci/pq/pq3-vga-6</file>
 				<caption>Police Quest III: The Kindred (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/pq/pq3-vga-7</file>
+				<caption>Police Quest III: The Kindred (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/pq/pq3-vga-8</file>
+				<caption>Police Quest III: The Kindred (VGA)</caption>
+			</image>
+
+			<image>
+				<file>sci/pq/pq3-de-1</file>
+				<caption>Police Quest III: The Kindred (VGA/German)</caption>
+			</image>
+			<image>
+				<file>sci/pq/pq3-de-2</file>
+				<caption>Police Quest III: The Kindred (VGA/German)</caption>
+			</image>
+			<image>
+				<file>sci/pq/pq3-de-3</file>
+				<caption>Police Quest III: The Kindred (VGA/German)</caption>
 			</image>
 		</game>
 		<game>
