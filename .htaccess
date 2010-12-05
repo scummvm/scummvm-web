@@ -56,4 +56,4 @@ RewriteRule		^(news)(/([0-9]{8}[a-z]?|archive))?/?$							?p=$1&d=$3 [L]
 ##
 # Screenshots
 ##
-RewriteRule		^(screenshots)(/([a-z]+)(/([a-z0-9]+)(/([0-9]+))?)?)?/?		?p=$1&cat=$3&game=$5&num=$7 [L]
+RewriteRule		^(screenshots)(/([a-z]+)(/([-_a-z0-9]+)(/([0-9]+))?)?)?/?		?p=$1&cat=$3&game=$5&num=$7 [L]
