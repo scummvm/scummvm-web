@@ -1517,6 +1517,22 @@
 			</image>
 		</game>
 		<game>
+			<name>Codename: ICEMAN</name>
+			<category>iceman</category>
+			<image>
+				<file>sci/iceman/iceman-1</file>
+				<caption>Codename: ICEMAN</caption>
+			</image>
+			<image>
+				<file>sci/iceman/iceman-2</file>
+				<caption>Codename: ICEMAN</caption>
+			</image>
+			<image>
+				<file>sci/iceman/iceman-3</file>
+				<caption>Codename: ICEMAN</caption>
+			</image>
+		</game>
+		<game>
 			<name>EcoQuest Series</name>
 			<category>ecoquest</category>
 			<image>
@@ -1556,6 +1572,74 @@
 			<image>
 				<file>sci/ecoquest/ecoquest2-2</file>
 				<caption>EcoQuest II: Lost Secret of the Rainforest</caption>
+			</image>
+		</game>
+		<game>
+			<name>Freddy Pharkas</name>
+			<category>freddypharkas</category>
+			<image>
+				<file>sci/freddypharkas/freddypharkas-1</file>
+				<caption>Freddy Pharkas: Frontier Pharmacist</caption>
+			</image>
+			<image>
+				<file>sci/freddypharkas/freddypharkas-2</file>
+				<caption>Freddy Pharkas: Frontier Pharmacist</caption>
+			</image>
+			<image>
+				<file>sci/freddypharkas/freddypharkas-3</file>
+				<caption>Freddy Pharkas: Frontier Pharmacist</caption>
+			</image>
+			<image>
+				<file>sci/freddypharkas/freddypharkas-4</file>
+				<caption>Freddy Pharkas: Frontier Pharmacist</caption>
+			</image>
+			<image>
+				<file>sci/freddypharkas/freddypharkas-de-1</file>
+				<caption>Freddy Pharkas: Frontier Pharmacist (German)</caption>
+			</image>
+			<image>
+				<file>sci/freddypharkas/freddypharkas-de-2</file>
+				<caption>Freddy Pharkas: Frontier Pharmacist (German)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Hoyle's Official Book of Games series</name>
+			<category>holye</category>
+			<image>
+				<file>sci/hoyle/hoyle3-ega-1</file>
+				<caption>Hoyle's Official Book of Games: Volume 3 (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/hoyle/hoyle3-ega-2</file>
+				<caption>Hoyle's Official Book of Games: Volume 3 (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/hoyle/hoyle3-ega-3</file>
+				<caption>Hoyle's Official Book of Games: Volume 3 (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/hoyle/hoyle3-ega-4</file>
+				<caption>Hoyle's Official Book of Games: Volume 3 (EGA)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Jones in the Fast Lane</name>
+			<category>jones</category>
+			<image>
+				<file>sci/jones/jones-ega-1</file>
+				<caption>Jones in the Fast Lane (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/jones/jones-ega-2</file>
+				<caption>Jones in the Fast Lane (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/jones/jones-vga-1</file>
+				<caption>Jones in the Fast Lane (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/jones/jones-vga-2</file>
+				<caption>Jones in the Fast Lane (VGA)</caption>
 			</image>
 		</game>
 		<game>
