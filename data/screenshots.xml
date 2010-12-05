@@ -1509,11 +1509,11 @@
 			</image>
 			<image>
 				<file>sci/castlebrain/castlebrain-de-1</file>
-				<caption>The Castle of Dr. Brain (EGA/German)</caption>
+				<caption>The Castle of Dr. Brain (VGA/German)</caption>
 			</image>
 			<image>
 				<file>sci/castlebrain/castlebrain-de-2</file>
-				<caption>The Castle of Dr. Brain (EGA/German)</caption>
+				<caption>The Castle of Dr. Brain (VGA/German)</caption>
 			</image>
 		</game>
 		<game>
@@ -1612,6 +1612,506 @@
 			<image>
 				<file>sci/laurabow/laurabow2-de-3</file>
 				<caption>Laura Bow 2: The Dagger of Amon Ra (German)</caption>
+			</image>
+		</game>
+		<game>
+			<name>King's Quest series</name>
+			<category>kq-sci</category>
+			<image>
+				<file>sci/kq/kq1sci-1</file>
+				<caption>King's Quest: Quest for the Crown (VGA remake)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq1sci-2</file>
+				<caption>King's Quest: Quest for the Crown (VGA remake)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq1sci-3</file>
+				<caption>King's Quest: Quest for the Crown (VGA remake)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq1sci-4</file>
+				<caption>King's Quest: Quest for the Crown (VGA remake)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq1sci-5</file>
+				<caption>King's Quest: Quest for the Crown (VGA remake)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq1sci-6</file>
+				<caption>King's Quest: Quest for the Crown (VGA remake)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq4sci-1</file>
+				<caption>King's Quest IV: The Perils of Rosella (SCI)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq4sci-2</file>
+				<caption>King's Quest IV: The Perils of Rosella (SCI)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq4sci-3</file>
+				<caption>King's Quest IV: The Perils of Rosella (SCI)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq4sci-4</file>
+				<caption>King's Quest IV: The Perils of Rosella (SCI)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq4sci-5</file>
+				<caption>King's Quest IV: The Perils of Rosella (SCI)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq4sci-6</file>
+				<caption>King's Quest IV: The Perils of Rosella (SCI)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq5-ega-1</file>
+				<caption>King's Quest V: Absence Makes the Heart Go Yonder (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq5-ega-2</file>
+				<caption>King's Quest V: Absence Makes the Heart Go Yonder (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq5-ega-3</file>
+				<caption>King's Quest V: Absence Makes the Heart Go Yonder (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq5-ega-4</file>
+				<caption>King's Quest V: Absence Makes the Heart Go Yonder (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq5-vga-1</file>
+				<caption>King's Quest V: Absence Makes the Heart Go Yonder (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq5-vga-2</file>
+				<caption>King's Quest V: Absence Makes the Heart Go Yonder (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq5-vga-3</file>
+				<caption>King's Quest V: Absence Makes the Heart Go Yonder (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq5-vga-4</file>
+				<caption>King's Quest V: Absence Makes the Heart Go Yonder (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq5-vga-de-1</file>
+				<caption>King's Quest V: Absence Makes the Heart Go Yonder (VGA/German)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq5-vga-de-2</file>
+				<caption>King's Quest V: Absence Makes the Heart Go Yonder (VGA/German)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq6-1</file>
+				<caption>King's Quest VI: Heir Today, Gone Tomorrow</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq6-2</file>
+				<caption>King's Quest VI: Heir Today, Gone Tomorrow</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq6-3</file>
+				<caption>King's Quest VI: Heir Today, Gone Tomorrow</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq6-4</file>
+				<caption>King's Quest VI: Heir Today, Gone Tomorrow</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq6-5</file>
+				<caption>King's Quest VI: Heir Today, Gone Tomorrow</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq6-de-1</file>
+				<caption>King's Quest VI: Heir Today, Gone Tomorrow (German)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq6-de-2</file>
+				<caption>King's Quest VI: Heir Today, Gone Tomorrow (German)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq6-de-3</file>
+				<caption>King's Quest VI: Heir Today, Gone Tomorrow (German)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Leisure Suit Larry series</name>
+			<category>lsl-sci</category>
+			<image>
+				<file>sci/lsl/lsl3-de-1</file>
+				<caption>Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals (German)</caption>
+			</image>
+			<image>
+				<file>sci/lsl/lsl3-de-2</file>
+				<caption>Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals (German)</caption>
+			</image>
+			<image>
+				<file>sci/lsl/lsl3-de-3</file>
+				<caption>Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals (German)</caption>
+			</image>
+			<image>
+				<file>sci/lsl/lsl3-de-4</file>
+				<caption>Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals (German)</caption>
+			</image>
+			<image>
+				<file>sci/lsl/lsl5-de-1</file>
+				<caption>Leisure Suit Larry 5: Passionate Patti Does Some Undercover Work (German)</caption>
+			</image>
+			<image>
+				<file>sci/lsl/lsl5-de-2</file>
+				<caption>Leisure Suit Larry 5: Passionate Patti Does Some Undercover Work (German)</caption>
+			</image>
+			<image>
+				<file>sci/lsl/lsl5-de-3</file>
+				<caption>Leisure Suit Larry 5: Passionate Patti Does Some Undercover Work (German)</caption>
+			</image>
+			<image>
+				<file>sci/lsl/lsl5-de-4</file>
+				<caption>Leisure Suit Larry 5: Passionate Patti Does Some Undercover Work (German)</caption>
+			</image>
+			<image>
+				<file>sci/lsl/lsl6-1</file>
+				<caption>Leisure Suit Larry 6: Shape Up or Slip Out!</caption>
+			</image>
+			<image>
+				<file>sci/lsl/lsl6-2</file>
+				<caption>Leisure Suit Larry 6: Shape Up or Slip Out!</caption>
+			</image>
+			<image>
+				<file>sci/lsl/lsl6-3</file>
+				<caption>Leisure Suit Larry 6: Shape Up or Slip Out!</caption>
+			</image>
+			<image>
+				<file>sci/lsl/lsl6-4</file>
+				<caption>Leisure Suit Larry 6: Shape Up or Slip Out!</caption>
+			</image>
+		</game>
+		<game>
+			<name>Police Quest series</name>
+			<category>pq-sci</category>
+			<image>
+				<file>sci/pq/pq1sci-1</file>
+				<caption>Police Quest: In Pursuit of the Death Angel (VGA remake)</caption>
+			</image>
+			<image>
+				<file>sci/pq/pq1sci-2</file>
+				<caption>Police Quest: In Pursuit of the Death Angel (VGA remake)</caption>
+			</image>
+			<image>
+				<file>sci/pq/pq1sci-3</file>
+				<caption>Police Quest: In Pursuit of the Death Angel (VGA remake)</caption>
+			</image>
+			<image>
+				<file>sci/pq/pq2-1</file>
+				<caption>Police Quest II: The Vengeance</caption>
+			</image>
+			<image>
+				<file>sci/pq/pq2-2</file>
+				<caption>Police Quest II: The Vengeance</caption>
+			</image>
+			<image>
+				<file>sci/pq/pq2-3</file>
+				<caption>Police Quest II: The Vengeance</caption>
+			</image>
+			<image>
+				<file>sci/pq/pq3-ega-1</file>
+				<caption>Police Quest III: The Kindred (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/pq/pq3-ega-2</file>
+				<caption>Police Quest III: The Kindred (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/pq/pq3-ega-3</file>
+				<caption>Police Quest III: The Kindred (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/pq/pq3-ega-4</file>
+				<caption>Police Quest III: The Kindred (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/pq/pq3-vga-1</file>
+				<caption>Police Quest III: The Kindred (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/pq/pq3-vga-2</file>
+				<caption>Police Quest III: The Kindred (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/pq/pq3-vga-3</file>
+				<caption>Police Quest III: The Kindred (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/pq/pq3-vga-4</file>
+				<caption>Police Quest III: The Kindred (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/pq/pq3-vga-5</file>
+				<caption>Police Quest III: The Kindred (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/pq/pq3-vga-6</file>
+				<caption>Police Quest III: The Kindred (VGA)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Quest For Glory series</name>
+			<category>qfg-sci</category>
+			<image>
+				<file>sci/qfg/qfg1-ega-1</file>
+				<caption>Quest for Glory: So You Want to Be a Hero (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg1-ega-2</file>
+				<caption>Quest for Glory: So You Want to Be a Hero (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg1-ega-3</file>
+				<caption>Quest for Glory: So You Want to Be a Hero (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg1-ega-4</file>
+				<caption>Quest for Glory: So You Want to Be a Hero (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg1-ega-5</file>
+				<caption>Quest for Glory: So You Want to Be a Hero (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg1-ega-6</file>
+				<caption>Quest for Glory: So You Want to Be a Hero (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg1-vga-1</file>
+				<caption>Quest for Glory: So You Want to Be a Hero (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg1-vga-2</file>
+				<caption>Quest for Glory: So You Want to Be a Hero (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg1-vga-3</file>
+				<caption>Quest for Glory: So You Want to Be a Hero (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg1-vga-4</file>
+				<caption>Quest for Glory: So You Want to Be a Hero (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg1-vga-5</file>
+				<caption>Quest for Glory: So You Want to Be a Hero (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg1-vga-6</file>
+				<caption>Quest for Glory: So You Want to Be a Hero (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg2-1</file>
+				<caption>Quest for Glory II: Trial by Fire</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg2-2</file>
+				<caption>Quest for Glory II: Trial by Fire</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg2-3</file>
+				<caption>Quest for Glory II: Trial by Fire</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg2-4</file>
+				<caption>Quest for Glory II: Trial by Fire</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg2-5</file>
+				<caption>Quest for Glory II: Trial by Fire</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg2-6</file>
+				<caption>Quest for Glory II: Trial by Fire</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg3-1</file>
+				<caption>Quest for Glory III: Wages of War</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg3-2</file>
+				<caption>Quest for Glory III: Wages of War</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg3-3</file>
+				<caption>Quest for Glory III: Wages of War</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg3-4</file>
+				<caption>Quest for Glory III: Wages of War</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg3-5</file>
+				<caption>Quest for Glory III: Wages of War</caption>
+			</image>
+			<image>
+				<file>sci/qfg/qfg3-6</file>
+				<caption>Quest for Glory III: Wages of War</caption>
+			</image>
+		</game>
+		<game>
+			<name>Space Quest series</name>
+			<category>sq-sci</category>
+			<image>
+				<file>sci/sq/sq1sci-ega-1</file>
+				<caption>Space Quest: The Sarien Encounter (SCI/EGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq1sci-ega-2</file>
+				<caption>Space Quest: The Sarien Encounter (SCI/EGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq1sci-ega-3</file>
+				<caption>Space Quest: The Sarien Encounter (SCI/EGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq1sci-ega-4</file>
+				<caption>Space Quest: The Sarien Encounter (SCI/EGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq1sci-ega-5</file>
+				<caption>Space Quest: The Sarien Encounter (SCI/EGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq1sci-ega-6</file>
+				<caption>Space Quest: The Sarien Encounter (SCI/EGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq1sci-vga-1</file>
+				<caption>Space Quest: The Sarien Encounter (SCI/VGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq1sci-vga-2</file>
+				<caption>Space Quest: The Sarien Encounter (SCI/VGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq1sci-vga-3</file>
+				<caption>Space Quest: The Sarien Encounter (SCI/VGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq1sci-vga-4</file>
+				<caption>Space Quest: The Sarien Encounter (SCI/VGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq1sci-vga-5</file>
+				<caption>Space Quest: The Sarien Encounter (SCI/VGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq1sci-vga-6</file>
+				<caption>Space Quest: The Sarien Encounter (SCI/VGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq3-1</file>
+				<caption>Space Quest III: The Pirates of Pestulon</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq3-2</file>
+				<caption>Space Quest III: The Pirates of Pestulon</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq3-3</file>
+				<caption>Space Quest III: The Pirates of Pestulon</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq3-4</file>
+				<caption>Space Quest III: The Pirates of Pestulon</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq3-5</file>
+				<caption>Space Quest III: The Pirates of Pestulon</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq3-6</file>
+				<caption>Space Quest III: The Pirates of Pestulon</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq4-ega-1</file>
+				<caption>Space Quest IV: Roger Wilco and the Time Rippers (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq4-ega-2</file>
+				<caption>Space Quest IV: Roger Wilco and the Time Rippers (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq4-ega-3</file>
+				<caption>Space Quest IV: Roger Wilco and the Time Rippers (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq4-ega-4</file>
+				<caption>Space Quest IV: Roger Wilco and the Time Rippers (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq4-ega-5</file>
+				<caption>Space Quest IV: Roger Wilco and the Time Rippers (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq4-ega-6</file>
+				<caption>Space Quest IV: Roger Wilco and the Time Rippers (EGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq4-vga-1</file>
+				<caption>Space Quest IV: Roger Wilco and the Time Rippers (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq4-vga-2</file>
+				<caption>Space Quest IV: Roger Wilco and the Time Rippers (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq4-vga-3</file>
+				<caption>Space Quest IV: Roger Wilco and the Time Rippers (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq4-vga-4</file>
+				<caption>Space Quest IV: Roger Wilco and the Time Rippers (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq4-vga-5</file>
+				<caption>Space Quest IV: Roger Wilco and the Time Rippers (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq4-vga-6</file>
+				<caption>Space Quest IV: Roger Wilco and the Time Rippers (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq4-vga-7</file>
+				<caption>Space Quest IV: Roger Wilco and the Time Rippers (VGA)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq5-1</file>
+				<caption>Space Quest V: The Next Mutation</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq5-2</file>
+				<caption>Space Quest V: The Next Mutation</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq5-3</file>
+				<caption>Space Quest V: The Next Mutation</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq5-4</file>
+				<caption>Space Quest V: The Next Mutation</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq5-5</file>
+				<caption>Space Quest V: The Next Mutation</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq5-6</file>
+				<caption>Space Quest V: The Next Mutation</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq5-7</file>
+				<caption>Space Quest V: The Next Mutation</caption>
 			</image>
 		</game>
 	</group>
