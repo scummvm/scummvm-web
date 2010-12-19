@@ -1,0 +1,17 @@
+<NAME>ScummVM 1.2.1 "B&oslash;rk B&oslash;rk B&oslash;rk" released!</NAME>
+<DATE>Dec 19, 2010</DATE>
+<AUTHOR>sev</AUTHOR>
+<BODY>
+
+<p>
+The last ScummVM release in this year just has been released. This is a maintenance
+release and is aimed to fix several important bugs since 1.2.0.
+</p>
+
+<p>Particularly we added Hungarian and Brazilian translations of the GUI, and made bugfixes to the Cruise, Groovie and Lure engines.</p>
+
+<p>It is available from our <a href="http://scummvm.org/downloads">downloads</a> page
+and full release notes could be found <a href="https://sourceforge.net/projects/scummvm/files/scummvm/1.2.1/ReleaseNotes/view">here</a>.
+</p>
+
+</BODY>
