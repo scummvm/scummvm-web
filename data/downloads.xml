@@ -99,7 +99,6 @@
 					<name>PSP (PlayStation Portable) package</name>
 					<extra_info>(8.0M .zip)</extra_info>
 				</file>
-<!--
 				<file>
 					<category_icon>catpl-ds.png</category_icon>
 					<url>scummvm-{$release}-ds.zip?download</url>
@@ -107,6 +106,7 @@
 					<extra_info>(12.0M .zip)</extra_info>
 				</file>
 
+<!--
 				<file>
 					<category_icon>catpl-android.png</category_icon>
 					<url>scummvm-{$release}-android.apk?download</url>
@@ -538,13 +538,6 @@
 					<url>scummvm_1.1.1-lucid.1_powerpc.deb?download</url>
 					<name>1.2.0 Ubuntu 10.04 (lucid) PowerPC / Cell (PlayStation3) package</name>
 					<extra_info>(4.8M .deb)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-ds.png</category_icon>
-					<url>scummvm-1.2.0-ds.zip?download</url>
-					<name>1.2.0 Nintendo DS package</name>
-					<extra_info>(12.0M .zip)</extra_info>
 				</file>
 
 				<file>
