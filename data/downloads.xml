@@ -10,7 +10,7 @@
 			<anchor>stable</anchor>
 			<notes>
 				For a list of changes since the previous version,
-				<h:a href="https://sourceforge.net/projects/scummvm/files/scummvm/{$release_tools}/ReleaseNotes/view">read the release notes</h:a>.
+				<h:a href="https://sourceforge.net/projects/scummvm/files/scummvm/{$release}/ReleaseNotes/view">read the release notes</h:a>.
 				<h:br/>{$release_debian} is also apt-get'able from Debian unstable (sid).<h:br/><h:br/>
 			</notes>
 			<entries>
