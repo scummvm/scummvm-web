@@ -296,14 +296,14 @@
 					<name>BeOS package</name>
 					<extra_info>(5.4M tgz)</extra_info>
 				</file>
+-->
 
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
 					<url>scummvm-{$release}-haiku-gcc4.tgz?download</url>
 					<name>Haiku package</name>
-					<extra_info>(6.1M .tgz)</extra_info>
+					<extra_info>(6.6M .tgz)</extra_info>
 				</file>
--->
 
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
@@ -564,12 +564,6 @@
 					<url>scummvm-1.2.0-wii.zip?download</url>
 					<name>1.2.0 Wii package</name>
 					<extra_info>(5.3M .zip)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-haiku.png</category_icon>
-					<url>scummvm-1.2.0-haiku-gcc4.tgz?download</url>
-					<name>1.2.0 Haiku package</name>
-					<extra_info>(6.1M .tgz)</extra_info>
 				</file>
 
 				<file>
