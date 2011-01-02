@@ -46,7 +46,7 @@
 					<name>Fedora 8-14 x86 64bit package</name>
 					<extra_info>(6.1M RPM)</extra_info>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
 					<url>scummvm_{$release}-lenny.1_i386.deb?download</url>
@@ -57,21 +57,21 @@
 					<category_icon>catpl-debian.png</category_icon>
 					<url>scummvm_{$release}-lenny.1_amd64.deb?download</url>
 					<name>Debian 5.0 (lenny) x86 64bit package</name>
-					<extra_info>(5.9M .deb)</extra_info>
+					<extra_info>(5.8M .deb)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
 					<url>scummvm_{$release}-maverick.1_i386.deb?download</url>
 					<name>Ubuntu 10.10 (maverick) i386 package</name>
-					<extra_info>(5.2M .deb)</extra_info>
+					<extra_info>(5.3M .deb)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
 					<url>scummvm_{$release}-maverick.1_amd64.deb?download</url>
 					<name>Ubuntu 10.10 (maverick) x86 64bit package</name>
-					<extra_info>(6.1M .deb)</extra_info>
+					<extra_info>(5.8M .deb)</extra_info>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-slackware.png</category_icon>
 					<url>scummvm-{$release}_slack-i486-1.tgz?download</url>
@@ -332,14 +332,14 @@
 					<name>OS/2 package</name>
 					<extra_info>(7.5M .zip)</extra_info>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-samsungtv.png</category_icon>
 					<url>scummvm-{$release}-samsungtv.zip?download</url>
 					<name>Samsung TV package (2009 series)</name>
-					<extra_info>(8.4M .zip)</extra_info>
+					<extra_info>(8.0M .zip)</extra_info>
 				</file>
--->
+
 			</entries>
 		</subsection>
 
@@ -510,30 +510,6 @@
 			</notes>
 			<entries>
 				<file>
-					<category_icon>catpl-debian.png</category_icon>
-					<url>scummvm_1.2.0-lenny.1_i386.deb?download</url>
-					<name>1.2.0 Debian 5.0 (lenny) i386 package</name>
-					<extra_info>(5.3M .deb)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-debian.png</category_icon>
-					<url>scummvm_1.2.0-lenny.1_amd64.deb?download</url>
-					<name>1.2.0 Debian 5.0 (lenny) x86 64bit package</name>
-					<extra_info>(5.9M .deb)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_1.2.0-maverick.1_i386.deb?download</url>
-					<name>1.2.0 Ubuntu 10.10 (maverick) i386 package</name>
-					<extra_info>(5.2M .deb)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_1.2.0-maverick.1_amd64.deb?download</url>
-					<name>1.2.0 Ubuntu 10.10 (maverick) x86 64bit package</name>
-					<extra_info>(6.1M .deb)</extra_info>
-				</file>
-				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
 					<url>scummvm_1.1.1-lucid.1_powerpc.deb?download</url>
 					<name>1.2.0 Ubuntu 10.04 (lucid) PowerPC / Cell (PlayStation3) package</name>
@@ -564,13 +540,6 @@
 					<url>scummvm-1.2.0-wii.zip?download</url>
 					<name>1.2.0 Wii package</name>
 					<extra_info>(5.3M .zip)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-samsungtv.png</category_icon>
-					<url>scummvm-1.2.0-samsungtv.zip?download</url>
-					<name>1.2.0 Samsung TV package (2009 series)</name>
-					<extra_info>(8.4M .zip)</extra_info>
 				</file>
 
 				<file>
