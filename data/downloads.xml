@@ -24,14 +24,14 @@
 					<category_icon>catpl-windows.png</category_icon>
 					<url>scummvm-{$release}-win32.zip?download</url>
 					<name>Windows zipfile</name>
-					<extra_info>(5.8M zipfile)</extra_info>
+					<extra_info>(5.8M .zip)</extra_info>
 				</file>
 
 				<file>
 					<category_icon>catpl-win64.png</category_icon>
 					<url>scummvm-{$release}-win64.zip?download</url>
 					<name>Windows 64bit zipfile</name>
-					<extra_info>(6.3M zipfile)</extra_info>
+					<extra_info>(6.3M .zip)</extra_info>
 				</file>
 
 				<file>
@@ -131,14 +131,14 @@
 					<category_icon>catpl-wince.png</category_icon>
 					<url>scummvm-{$release}-wince.zip?download</url>
 					<name>Windows CE ARM package</name>
-					<extra_info>(12.2M zipfile)</extra_info>
+					<extra_info>(12.2M .zip)</extra_info>
 				</file>
 -->
 				<file>
 					<category_icon>catpl-iphone.png</category_icon>
 					<url>scummvm-{$release}-iphone.deb?download</url>
 					<name>iPhone package</name>
-					<extra_info>(8.2M deb)</extra_info>
+					<extra_info>(8.2M .deb)</extra_info>
 				</file>
 
 				<file>
@@ -234,19 +234,19 @@
 					<category_icon>catpl-gp2x.png</category_icon>
 					<url>scummvm-{$release}-gp2x.tar.bz2?download</url>
 					<name>GP2X package</name>
-					<extra_info>(5.6M .zip)</extra_info>
+					<extra_info>(5.6M .tar.bz2)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-gp2xwiz.png</category_icon>
 					<url>scummvm-{$release}-gp2xwiz.tar.bz2?download</url>
 					<name>GP2X Wiz package</name>
-					<extra_info>(6.3M .zip)</extra_info>
+					<extra_info>(6.3M .tar.bz2)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-caanoo.png</category_icon>
 					<url>scummvm-{$release}-caanoo.tar.bz2?download</url>
 					<name>Caanoo package</name>
-					<extra_info>(6.3M .zip)</extra_info>
+					<extra_info>(6.3M .tar.bz2)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-openpandora.png</category_icon>
@@ -294,15 +294,15 @@
 					<category_icon>catpl-beos.png</category_icon>
 					<url>scummvm-{$release}-beos.tgz?download</url>
 					<name>BeOS package</name>
-					<extra_info>(5.4M tgz)</extra_info>
+					<extra_info>(5.4M .tgz)</extra_info>
 				</file>
 -->
 
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
-					<url>scummvm-{$release}-haiku-gcc4.tgz?download</url>
+					<url>scummvm-{$release}-haiku-gcc4.zip?download</url>
 					<name>Haiku package</name>
-					<extra_info>(6.6M .tgz)</extra_info>
+					<extra_info>(6.6M .zip)</extra_info>
 				</file>
 
 				<file>
@@ -450,9 +450,9 @@
 -->
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
-					<url>scummvm-{$release_tools}-haiku-gcc4.tgz?download</url>
+					<url>scummvm-tools-{$release_tools}-haiku-gcc4.zip?download</url>
 					<name>Haiku package</name>
-					<extra_info>(2.0M .tgz)</extra_info>
+					<extra_info>(2.0M .zip)</extra_info>
 				</file>
 
 				<file>
@@ -466,7 +466,7 @@
 					<category_icon>catpl-freemint.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-atari.tar.bz2?download</url>
 					<name>Tools - Atari/FreeMiNT package (68020 and up)</name>
-					<extra_info>(1.5M .zip)</extra_info>
+					<extra_info>(1.5M .tar.bz2)</extra_info>
 				</file>
 
 				<file>
@@ -546,14 +546,14 @@
 					<category_icon>catpl-wince.png</category_icon>
 					<url>scummvm-1.1.1-wince.zip?download</url>
 					<name>1.1.1 Windows CE ARM package</name>
-					<extra_info>(12.2M zipfile)</extra_info>
+					<extra_info>(12.2M .zip)</extra_info>
 				</file>
 
 				<file>
 					<category_icon>catpl-beos.png</category_icon>
 					<url>scummvm-1.0.0-beos.tgz?download</url>
 					<name>1.0.0 BeOS package</name>
-					<extra_info>(5.4M tgz)</extra_info>
+					<extra_info>(5.4M .tgz)</extra_info>
 				</file>
 			</entries>
 		</subsection>
