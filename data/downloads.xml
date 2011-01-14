@@ -113,20 +113,20 @@
 					<extra_info>(5.9M .apk)</extra_info>
 				</file>
 
-<!--
 				<file>
 					<category_icon>catpl-symbian.png</category_icon>
 					<url>scummvm-{$release}-s60-v3.sis?download</url>
 					<name>Symbian S60 version 3 binary</name>
-					<extra_info>(6.3M .sis)</extra_info>
+					<extra_info>(7.1M .sis)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-uiq.png</category_icon>
 					<url>scummvm-{$release}-uiq3.sis?download</url>
 					<name>Symbian UIQ 3 binary</name>
-					<extra_info>(6.1M .sis)</extra_info>
+					<extra_info>(7.0M .sis)</extra_info>
 				</file>
 
+<!--
 				<file>
 					<category_icon>catpl-wince.png</category_icon>
 					<url>scummvm-{$release}-wince.zip?download</url>
@@ -514,19 +514,6 @@
 					<url>scummvm_1.1.1-lucid.1_powerpc.deb?download</url>
 					<name>1.2.0 Ubuntu 10.04 (lucid) PowerPC / Cell (PlayStation3) package</name>
 					<extra_info>(4.8M .deb)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-symbian.png</category_icon>
-					<url>scummvm-1.2.0-s60-v3.sis?download</url>
-					<name>1.2.0 Symbian S60 version 3 binary</name>
-					<extra_info>(6.3M .sis)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-uiq.png</category_icon>
-					<url>scummvm-1.2.0-uiq3.sis?download</url>
-					<name>1.2.0 Symbian UIQ 3 binary</name>
-					<extra_info>(6.1M .sis)</extra_info>
 				</file>
 
 				<file>
