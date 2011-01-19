@@ -1162,6 +1162,14 @@
 				</person>
 			</group>
 			<group>
+				<name>Danish</name>
+				<person>
+					<name>Steffen Nyeland</name>
+					<alias></alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>French</name>
 				<person>
 					<name>Thierry Crozat</name>
@@ -1205,6 +1213,14 @@
 			</group>
 			<group>
 				<name>Norwegian (Bokm&aring;l)</name>
+				<person>
+					<name>Einar Johan T. S&oslash;m&aring;en</name>
+					<alias></alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Norwegian (Nynorsk)</name>
 				<person>
 					<name>Einar Johan T. S&oslash;m&aring;en</name>
 					<alias></alias>
