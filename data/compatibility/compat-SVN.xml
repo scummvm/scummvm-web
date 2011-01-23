@@ -298,11 +298,27 @@
 				</notes>
 			</game>
 			<game>
+				<name>Playtoons: Bambou le Sauveur de la Jungle</name>
+				<target>bambou</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable<h:br />- Windows version is supported by this target
+				</notes>
+			</game>
+			<game>
 				<name>The Bizarre Adventures of Woodruff and the Schnibble</name>
 				<target>woodruff</target>
 				<percent>95</percent>
 				<notes>
 					Game is completable<h:br />- PC CD versions are supported by this target<h:br />- Issues with the mouse cursor visibility
+				</notes>
+			</game>
+			<game>
+				<name>Urban Runner</name>
+				<target>urban</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable<h:br />- Windows version is supported by this target
 				</notes>
 			</game>
 			<game>
