@@ -10,17 +10,17 @@
 				<span class="download-extras">
 					{if is_array($data)}
 						(
-							{if $item->getType() == 'svn'}build from Subversion, {/if} 
+							{if $item->getType() == 'daily'}build from repository, {/if} 
 							{$data.size}K {if $data.ext == 'exe'}Win32 {/if}{$data.ext} file, last update: {$data.date}
 						)
 					{else}
-						{if $item->getType() != 'svn'}
+						{if $item->getType() != 'daily'}
 							{eval var=$data|default:'&nbsp;'}
 						{/if}
 					{/if}
 				</span>
-				{if $item->getType() == 'svn'}
-					<span class="svn_provider">
+				{if $item->getType() == 'daily'}
+					<span class="daily_provider">
 						{if is_array($data)}
 							{$data.info}
 						{else}

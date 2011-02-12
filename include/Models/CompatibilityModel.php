@@ -57,7 +57,7 @@ abstract class CompatibilityModel extends BasicModel {
 		return strnatcmp($version1, $version2);
 	}
 
-	/* Get version numbers for all available compatibility charts, excluding the SVN charts. */
+	/* Get version numbers for all available compatibility charts, excluding the DEV charts. */
 	static public function getAllVersions() {
 		if (!($files = scandir(DIR_COMPAT))) {
 			throw new ErrorException(self::NO_FILES);
@@ -67,8 +67,8 @@ abstract class CompatibilityModel extends BasicModel {
 			if (substr($file, -4) != '.xml') {
 				continue;
 			}
-			/* Always exclude the SVN-chart. */
-			if (strpos($file, 'SVN') === false) {
+			/* Always exclude the DEV-chart. */
+			if (strpos($file, 'DEV') === false) {
 				$dates[] = substr($file, (strpos($file, '-') + 1), -4);
 			}
 		}

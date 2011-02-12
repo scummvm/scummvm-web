@@ -7,9 +7,9 @@
 		<p>
 			Click on the game name to view the complete notes of a game.
 		</p>
-		{if $version == 'SVN'}
+		{if $version == 'DEV'}
 			<p>
-				This is the compatibility of the current WIP SVN version, <b>not of a stable release</b>
+				This is the compatibility of the current development version, <b>not of a stable release</b>
 				(Please see one of the following for the Compatibility charts of the stable releases:
 				{foreach from=$versions item=ver name=versions_loop}
 					{if $smarty.foreach.versions_loop.last}
@@ -19,14 +19,14 @@
 				{/foreach}
 			</p>
 			<p>
-				As this is the status of the Work In Progress version, occasional temporary bugs
+				As this is the status of the development version, occasional temporary bugs
 				may be introduced with new changes, thus this list refects the 'best case' scenario.
 				It is highly recommended to use the latest stable release, where possible.
 			</p>
 		{else}
 			<p>
-				Also, this is the compatibility of the {$version} stable release, <b>not of SVN snapshots/daily builds</b>.
-				The status of these can be found on the <a href="compatibility/">SVN Compatibility</a> chart.
+				Also, this is the compatibility of the {$version} stable release, <b>not of current repository/daily builds</b>.
+				The status of these can be found on the <a href="compatibility/">Development Compatibility</a> chart.
 			</p>
 			<p>
 			You can also see the Compatibility chart for these releases:

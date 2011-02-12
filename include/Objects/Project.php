@@ -21,7 +21,7 @@ class Project extends BasicObject {
 				'filename' => $ddata['filename'],
 				'type' => $ddata['type'],
 			);
-			# Add detailed information about SVN daily builds.
+			# Add detailed information about daily builds.
 			if ($ddata['type'] == 'SVN_DAILY') {
 				$url = DIR_DOWNLOADS . "/{$ddata['filename']}";
 				$download['info'] = array(

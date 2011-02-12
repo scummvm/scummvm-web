@@ -13,7 +13,7 @@ RewriteRule		^screenshots/(.+)\.(jpg|png)$								data/screenshots/$1.$2 [NS,L]
 # Forward old page requests to the new fancy URLs
 ##
 # Compatibility page, with args
-RewriteCond		%{QUERY_STRING}												version=(SVN|[0-9\.rc]+)(&details=(.+))?
+RewriteCond		%{QUERY_STRING}												version=(DEV|[0-9\.rc]+)(&details=(.+))?
 RewriteRule		^compatibility\.php$										compatibility/%1/%3/? [NS,R=301]
 # Documentation page, with args
 RewriteCond		%{QUERY_STRING}												view=md5
@@ -36,7 +36,7 @@ RewriteRule		^([a-z]+)/?$												?p=$1
 ##
 # Compatibility
 ##
-RewriteRule		^(compatibility)(/(SVN|[0-9\.rc]+)(/([^/]+))?)?/?$			?p=$1&v=$3&t=$5 [L]
+RewriteRule		^(compatibility)(/(DEV|[0-9\.rc]+)(/([^/]+))?)?/?$			?p=$1&v=$3&t=$5 [L]
 
 ##
 # Documentation

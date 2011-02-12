@@ -19,7 +19,7 @@
 				<p>
 					Downloads are mostly hosted with SourceForge.net. If you have one of the supported systems, you can directly
 					download the appropriate binary distribution. If you have another system, download the source and read the
-					<a href="http://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/tags/{$release_tag}/README">README</a>
+					<a href="http://github.com/scummvm/scummvm/blob/v{$release}/README">README</a>
 					file for directions on how to build ScummVM.
 					If you have successfully ported ScummVM to a platform not listed, please drop us a note, telling which OS, etc.
 					you used.
@@ -34,7 +34,7 @@
 
 					<li>
 						For UNSTABLE experimental versions of ScummVM (for people who know what they
-						are doing), please see the <a href="downloads/#SVN">Subversion Builds</a>
+						are doing), please see the <a href="downloads/#daily">Daily Builds</a>
 						section, near the end of this page.
 					</li>
 

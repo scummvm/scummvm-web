@@ -18,7 +18,7 @@
 				<category_icon>catpl-windows.png</category_icon>
 				<url local_file="true">scummexwin32.exe</url>
 				<name>Windows</name>
-				<type>svn</type>
+				<type>daily</type>
 			</file>
 		</entries>
 	</project>

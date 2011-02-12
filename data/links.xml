@@ -2,7 +2,7 @@
 <external_links xmlns:h="http://www.w3.org/TR/html4/">
 	<group>
 		<name>Official ports</name>
-		<description>Some additional links for ports that have been merged into our SVN</description>
+		<description>Some additional links for ports that have been merged into our repository</description>
 		<link>
 			<name>GP32 port</name>
 			<url>http://blogs.distant-earth.com/wp/?cat=3</url>
@@ -16,7 +16,7 @@
 	</group>
 	<group>
 		<name>Unofficial ports</name>
-		<description>There are a few unofficial ports of ScummVM floating around. Usually we prefer to merge any ports into our official SVN, but for the following this has not (yet) happened for various reasons. Note that the ScummVM team does not endorse any of these ports. We did not test them, and we do not guarantee that they work properly. <h:span class="red">Use at your own risk!</h:span></description>
+		<description>There are a few unofficial ports of ScummVM floating around. Usually we prefer to merge any ports into our official repository, but for the following this has not (yet) happened for various reasons. Note that the ScummVM team does not endorse any of these ports. We did not test them, and we do not guarantee that they work properly. <h:span class="red">Use at your own risk!</h:span></description>
 		<link>
 			<name>Android Port</name>
 			<url>http://sites.google.com/site/scummvmandroid/</url>

@@ -2,7 +2,7 @@
 <documentation xmlns:h="http://www.w3.org/TR/html4/">
 	<document>
 		<name>README {$release}</name>
-		<url>http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/tags/{$release_tag}/README?view=markup</url>
+		<url>http://github.com/scummvm/scummvm/raw/v{$release}/README</url>
 		<description>The ScummVM README, for version {$release}</description>
 	</document>
 	<document>

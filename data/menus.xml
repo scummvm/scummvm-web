@@ -75,11 +75,11 @@
 		</link>
 		<link>
 			<name>Daily Snapshots</name>
-			<href>downloads/#SVN</href>
+			<href>downloads/#daily</href>
 		</link>
 		<link>
-			<name>Subversion Tree</name>
-			<href>http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/</href>
+			<name>Source Code Tree</name>
+			<href>http://github.com/scummvm/scummvm</href>
 		</link>
 		<link>
 			<name>Buildbot</name>

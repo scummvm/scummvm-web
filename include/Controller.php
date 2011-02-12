@@ -62,7 +62,6 @@ class Controller {
 		/* Set up the common variables before displaying. */
 		$vars = array(
 			'release' => RELEASE,
-			'release_tag' => RELEASE_TAG,
 			'baseurl' => URL_BASE,
 			'heroes_num' => HEROES_NUM,
 			'menus' => $menus,

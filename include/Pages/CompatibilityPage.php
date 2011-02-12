@@ -4,7 +4,7 @@ require_once('Models/CompatibilityModel.php');
 /**
  * The Compatibility page gets all the data from the CompatibilityModel and
  * either displays the full list of games, or specific details about one
- * game. It defaults to showing the compatibility list of the SVN-version.
+ * game. It defaults to showing the compatibility list of the DEV-version.
  */
 class CompatibilityPage extends Controller {
 	private $_template;
@@ -19,7 +19,7 @@ class CompatibilityPage extends Controller {
 
 	/* Display the index page. */
 	public function index() {
-		$version = (!empty($_GET['v']) ? $_GET['v'] : 'SVN');
+		$version = (!empty($_GET['v']) ? $_GET['v'] : 'DEV');
 		$target = $_GET['t'];
 
 		if (!empty($target)) {
@@ -47,13 +47,13 @@ class CompatibilityPage extends Controller {
 
 	/* We should show all the compatibility stats for a specific version. */
 	public function getAll($version) {
-		/* Default to SVN */
+		/* Default to DEV */
 		$versions = CompatibilityModel::getAllVersions();
 		if (!in_array($version, $versions)) {
-			$version = 'SVN';
+			$version = 'DEV';
 		}
 		/* Remove the current version from the versions array. */
-		if ($version != 'SVN') {
+		if ($version != 'DEV') {
 			$key = array_search($version, $versions);
 			unset($versions[$key]);
 		}
