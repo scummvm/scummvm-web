@@ -688,6 +688,11 @@
 			<group>
 				<name>Android</name>
 				<person>
+					<name>Andre Heider</name>
+					<alias>dhewg</alias>
+					<description></description>
+				</person>
+				<person>
 					<name>Angus Lees</name>
 					<alias>Gus</alias>
 					<description></description>
@@ -911,6 +916,52 @@
 					<name>Fredrik Wendel</name>
 					<alias></alias>
 					<description>(retired)</description>
+				</person>
+			</group>
+		</subsection>
+		<subsection>
+			<title>Website (maintenance)</title>
+			<group>
+				<name></name>
+				<person>
+					<name>James Brown</name>
+					<alias>Ender</alias>
+					<description>IRC Logs maintainer</description>
+				</person>
+				<person>
+					<name>Thierry Crozat</name>
+					<alias>criezy</alias>
+					<description>Wiki maintainer</description>
+				</person>
+				<person>
+					<name>Andre Heider</name>
+					<alias>dhewg</alias>
+					<description>Buildbot maintainer</description>
+				</person>
+				<person>
+					<name>Max Horn</name>
+					<alias>Fingolfin</alias>
+					<description>Forum, IRC channel and Mailing list maintainer</description>
+				</person>
+				<person>
+					<name>Joost Peters</name>
+					<alias>JoostP</alias>
+					<description>Doxygen Project Documentation maintainer</description>
+				</person>
+				<person>
+					<name>Jordi Vilalta Prat</name>
+					<alias>jvprat</alias>
+					<description>Wiki maintainer</description>
+				</person>
+				<person>
+					<name>Eugene Sandulenko</name>
+					<alias>sev</alias>
+					<description>Forum, IRC channel, Screen Shots and Mailing list maintainer</description>
+				</person>
+				<person>
+					<name>John Willis</name>
+					<alias>DJWillis</alias>
+					<description></description>
 				</person>
 			</group>
 		</subsection>
@@ -1304,6 +1355,11 @@
 					<name>???</name>
 					<alias>Raina</alias>
 					<description>ScummVM forum buttons</description>
+				</person>
+				<person>
+					<name>William Claydon</name>
+					<alias>billwashere</alias>
+					<description>Skins for doxygen and wiki</description>
 				</person>
 			</group>
 		</subsection>
