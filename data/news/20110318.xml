@@ -1,0 +1,38 @@
+<NAME>Fancy a Summer (of Code) job with ScummVM?</NAME>
+<DATE>Mar 18, 2011</DATE>
+<AUTHOR>DJWillis</AUTHOR>
+<BODY>
+	<p>
+		<img src="data/news/20110318.jpg" alt="GSoC 2011 Logo" align="right">
+		ScummVM is  pleased to announce that it has been accepted 
+		for participation in Google’s <a href="http//www.google-melange.com/">Summer of Code 2011</a> program.
+	</p>
+	<p>
+		This is our fifth year in the program and we would like to make it our best yet.
+	</p>
+	<p>
+        We are now welcoming applications to join the program, provided that you are:
+    </p>		
+
+	<ul> 
+	<li>A current student (undergraduate, graduate, post-graduate ...)</li> 
+	<li>Like point and click adventures</li> 
+	<li>Know some C++ and have some coding skills</li> 
+	<li>Like the prospect of spending your summer with the ScummVM team, writing superb code for cool games full time for 12 weeks</li> 
+	</ul> 		
+
+	<p>
+        You will be rewarded, both financially thanks to Google and with gratitude, encouragement
+        and the legally mandated minimal amounts of abuse by the ScummVM Team upon completion of a successful project.
+        You never know, we may even share are secret Grog recipe!
+    </p>
+	<p>
+		Now run, pick up some interesting ideas from our <a href="http://wiki.scummvm.org/index.php/OpenTasks">Open Tasks page</a>
+        page or be creative and propose your own ideas and <a href="http://www.google-melange.com/">apply</a>. Make sure you read our
+        requirements on the Open Tasks page and review the rest of our 
+        <a href="http://wiki.scummvm.org/index.php/Summer_of_Code">Summer of Code</a> notes on the wiki.</p>
+	<p>
+		If you have any doubts or questions, feel free to send an e-mail to the <a href="https://lists.sourceforge.net/lists/listinfo/scummvm-devel">
+        scummvm-devel mailing list</a> or come by our IRC channel (#scummvm at freenode.net).
+	</p>
+</BODY>
