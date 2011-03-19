@@ -5,7 +5,7 @@
     <p>
         <img src="data/news/20110318.jpg" alt="GSoC 2011 Logo" align="right">
             ScummVM is  pleased to announce that it has been accepted
-            for participation in Google's <a href="http//www.google-melange.com/">Summer of Code 2011</a> program.
+            for participation in Google's <a href="http://www.google-melange.com/">Summer of Code 2011</a> program.
         </p>
     <p>
         This is our fifth year in the program and we would like to make it our best yet.
@@ -48,10 +48,8 @@
     </p>
     <p>
         If you have any questions or comments, feel free to send an e-mail to the <a href="https://lists.sourceforge.net/lists/listinfo/scummvm-devel">
-            scummvm-devel mailing list
-        </a>, drop by our <a href="http://forum.scummvm.org/">
-            forum
-        </a> or pop into our IRC channel (<a
+            scummvm-devel mailing list</a>, drop by our <a href="http://forum.scummvm.org/">
+            forum</a> or pop into our IRC channel (<a
             href="http://webchat.freenode.net/?channels=scummvm&amp;uio=OT10cnVlJjExPTUx91">#scummvm</a>
         at freenode.net).
     </p>
