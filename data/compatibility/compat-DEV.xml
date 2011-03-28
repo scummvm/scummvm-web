@@ -1367,8 +1367,6 @@
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
-		</games>
-		<games>
 			<game>
 				<name>Arthur's Birthday</name>
 				<target>arthurbday</target>
@@ -1377,8 +1375,6 @@
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- The 2.0 version is not supported yet
 				</notes>
 			</game>
-		</games>
-		<games>
 			<game>
 				<name>Arthur's Teacher Trouble</name>
 				<target>arthur</target>
@@ -1387,8 +1383,6 @@
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
-		</games>
-		<games>
 			<game>
 				<name>Dr. Seuss's ABC</name>
 				<target>seussabc</target>
@@ -1397,8 +1391,6 @@
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
-		</games>
-		<games>
 			<game>
 				<name>Green Eggs and Ham</name>
 				<target>greeneggs</target>
@@ -1407,8 +1399,6 @@
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Minigames are not supported yet
 				</notes>
 			</game>
-		</games>
-		<games>
 			<game>
 				<name>Harry and the Haunted House</name>
 				<target>harryhh</target>
@@ -1417,8 +1407,6 @@
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
-		</games>
-		<games>
 			<game>
 				<name>Just Grandma and Me</name>
 				<target>grandma</target>
@@ -1427,8 +1415,6 @@
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- The 2.0 version is not supported yet
 				</notes>
 			</game>
-		</games>
-		<games>
 			<game>
 				<name>Little Monster at School</name>
 				<target>lilmonster</target>
@@ -1437,8 +1423,6 @@
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
-		</games>
-		<games>
 			<game>
 				<name>Ruff's Bone</name>
 				<target>ruff</target>
@@ -1447,8 +1431,6 @@
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
-		</games>
-		<games>
 			<game>
 				<name>Sheila Rae, the Brave</name>
 				<target>sheila</target>
@@ -1457,8 +1439,6 @@
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
-		</games>
-		<games>
 			<game>
 				<name>Stellaluna</name>
 				<target>stellaluna</target>
@@ -1467,8 +1447,6 @@
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
-		</games>
-		<games>
 			<game>
 				<name>The Berenstain Bears Get in a Fight</name>
 				<target>bearfight</target>
@@ -1477,8 +1455,6 @@
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
-		</games>
-		<games>
 			<game>
 				<name>The Berenstain Bears in the Dark</name>
 				<target>beardark</target>
@@ -1487,8 +1463,6 @@
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
-		</games>
-		<games>
 			<game>
 				<name>The New Kid on the Block</name>
 				<target>newkid</target>
