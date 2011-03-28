@@ -1356,4 +1356,147 @@
 			</game>
 		</games>
 	</company>
+	<company>
+		<name>Living Books Games</name>
+		<games>
+			<game>
+				<name>Aesop's Fables: The Tortoise and the Hare</name>
+				<target>tortoise</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+		</games>
+		<games>
+			<game>
+				<name>Arthur's Birthday</name>
+				<target>arthurbday</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- The 2.0 version is not supported yet
+				</notes>
+			</game>
+		</games>
+		<games>
+			<game>
+				<name>Arthur's Teacher Trouble</name>
+				<target>arthur</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+		</games>
+		<games>
+			<game>
+				<name>Dr. Seuss's ABC</name>
+				<target>seussabc</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+		</games>
+		<games>
+			<game>
+				<name>Green Eggs and Ham</name>
+				<target>greeneggs</target>
+				<percent>80</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Minigames are not supported yet
+				</notes>
+			</game>
+		</games>
+		<games>
+			<game>
+				<name>Harry and the Haunted House</name>
+				<target>harryhh</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+		</games>
+		<games>
+			<game>
+				<name>Just Grandma and Me</name>
+				<target>grandma</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- The 2.0 version is not supported yet
+				</notes>
+			</game>
+		</games>
+		<games>
+			<game>
+				<name>Little Monster at School</name>
+				<target>lilmonster</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+		</games>
+		<games>
+			<game>
+				<name>Ruff's Bone</name>
+				<target>ruff</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+		</games>
+		<games>
+			<game>
+				<name>Sheila Rae, the Brave</name>
+				<target>sheila</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+		</games>
+		<games>
+			<game>
+				<name>Stellaluna</name>
+				<target>stellaluna</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+		</games>
+		<games>
+			<game>
+				<name>The Berenstain Bears Get in a Fight</name>
+				<target>bearfight</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+		</games>
+		<games>
+			<game>
+				<name>The Berenstain Bears in the Dark</name>
+				<target>beardark</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+		</games>
+		<games>
+			<game>
+				<name>The New Kid on the Block</name>
+				<target>newkid</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+				</notes>
+			</game>
+		</games>
+	</company>
 </compatibility>
