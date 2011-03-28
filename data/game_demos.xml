@@ -1198,7 +1198,12 @@
 			<demo>
 				<name>Broken Sword 1: The Shadow of the Templars (Macintosh Demo)</name>
 				<url>http://demos.robertmegone.com/sword1/sword1-mac-demo-en.zip</url>
-				<target>sword1demo</target>
+				<target>sword1macdemo</target>
+			</demo>
+			<demo>
+				<name>Broken Sword 1: The Shadow of the Templars (PlayStation Demo)</name>
+				<url>http://demos.robertmegone.com/sword1/sword1-psx-demo-en.zip</url>
+				<target>sword1psxdemo</target>
 			</demo>
 			<demo>
 				<name>Broken Sword 1: The Shadow of the Templars (Windows Demo)</name>
@@ -1209,6 +1214,11 @@
 				<name>Broken Sword II: The Smoking Mirror (Windows Demo)</name>
 				<url>http://demos.robertmegone.com/sword2/sword2-win-demo-en.zip</url>
 				<target>sword2demo</target>
+			</demo>
+			<demo>
+				<name>Broken Sword II: The Smoking Mirror (PlayStation Demo)</name>
+				<url>http://demos.robertmegone.com/sword2/sword2-psx-demo-en.zip</url>
+				<target>sword2psxdemo</target>
 			</demo>
 			<demo>
 				<name>Bud Tucker in Double Trouble (DOS Demo)</name>
