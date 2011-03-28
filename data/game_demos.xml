@@ -1326,6 +1326,11 @@
 				<target>kyra2</target>
 			</demo>
 			<demo>
+				<name>Toonstruck (DOS German demo) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/toon/toon-dos-demo-de.zip</url>
+				<target>toon</target>
+			</demo>
+			<demo>
 				<name>Touche: The Adventures of the Fifth Musketeer (DOS Demo)</name>
 				<url>http://demos.robertmegone.com/touche/touche-dos-demo-en.zip</url>
 				<target>touche</target>
