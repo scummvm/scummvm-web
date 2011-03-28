@@ -508,6 +508,11 @@
 			<group>
 				<name>Mohawk</name>
 				<person>
+					<name>Bastien Bouclet</name>
+					<alias>bgk</alias>
+					<description></description>
+				</person>
+				<person>
 					<name>Matthew Hoops</name>
 					<alias>clone2727</alias>
 					<description></description>
@@ -515,6 +520,11 @@
 				<person>
 					<name>Filippos Karapetis</name>
 					<alias>[md5]</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Alyssa Milburn</name>
+					<alias>fuzzie</alias>
 					<description></description>
 				</person>
 				<person>
