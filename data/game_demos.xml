@@ -860,6 +860,127 @@
 		</demos>
 	</group>
 	<group>
+		<name>Living Books Demos</name>
+		<href>lb</href>
+		<demos>
+			<demo>
+				<name>Aesop's Fables: The Tortoise and the Hare (Macintosh demo) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/tortoise-demo-mac-en.zip</url>
+				<target>tortoise</target>
+			</demo>
+			<demo>
+				<name>Aesop's Fables: The Tortoise and the Hare (Windows demo) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/tortoise-win-demo-en.zip</url>
+				<target>tortoise</target>
+			</demo>
+			<demo>
+				<name>Aesop's Fables: The Tortoise and the Hare (Windows demo alt) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/tortoise-win-demo2-en-v1.1.zip</url>
+				<target>tortoise</target>
+			</demo>
+			<demo>
+				<name>Arthur's Birthday (Macintosh demo) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/arthurbday-mac-demo-en.zip</url>
+				<target>arthurbday</target>
+			</demo>
+			<demo>
+				<name>Arthur's Birthday (Windows demo) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/arthurbday-win-demo-en.zip</url>
+				<target>arthurbday</target>
+			</demo>
+			<demo>
+				<name>Arthur's Teacher Troubles (Macintosh demo) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/arthur-mac-demo-en.zip</url>
+				<target>arthur</target>
+			</demo>
+			<demo>
+				<name>Arthur's Teacher Troubles (Macintosh demo alt) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/arthur-mac-demo2-en.zip</url>
+				<target>arthur</target>
+			</demo>
+			<demo>
+				<name>Arthur's Teacher Troubles (Windows demo) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/arthur-win-demo-en.zip</url>
+				<target>arthur</target>
+			</demo>
+			<demo>
+				<name>Arthur's Teacher Troubles (Windows demo alt) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/arthur-win-demo-en-v1.1.zip</url>
+				<target>arthur</target>
+			</demo>
+			<demo>
+				<name>Green Eggs and Ham (Windows demo) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/greeneggs-win-demo-en.zip</url>
+				<target>greeneggs</target>
+			</demo>
+			<demo>
+				<name>Just Grandma and Me (Macintosh demo) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/grandma-mac-demo-en.zip</url>
+				<target>grandma</target>
+			</demo>
+			<demo>
+				<name>Just Grandma and Me (Macintosh demo alt) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/grandma-mac-demo2-en.zip</url>
+				<target>grandma</target>
+			</demo>
+			<demo>
+				<name>Just Grandma and Me (Windows demo) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/grandma-win-demo-en.zip</url>
+				<target>grandma</target>
+			</demo>
+			<demo>
+				<name>Just Grandma and Me (Windows demo alt) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/grandma-win-demo-en-v1.1.zip</url>
+				<target>grandma</target>
+			</demo>
+			<demo>
+				<name>Living Books Sampler v1 (Macintosh demo) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/lbsampler-demo-mac-en-v1.zip</url>
+				<target>lbsampler</target>
+			</demo>
+			<demo>
+				<name>Living Books Sampler v1 (Windows demo) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/lbsampler-demo-win-en-v1.zip</url>
+				<target>lbsampler</target>
+			</demo>
+			<demo>
+				<name>Living Books Sampler v2 (Macintosh demo) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/lbsampler-demo-mac-en-v2.zip</url>
+				<target>lbsampler</target>
+			</demo>
+			<demo>
+				<name>Living Books Sampler v2 (Windows demo) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/lbsampler-demo-win-en-v2.zip</url>
+				<target>lbsampler</target>
+			</demo>
+			<demo>
+				<name>Ruff's Bone (Macintosh demo) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/ruff-mac-demo-en.zip</url>
+				<target>ruff</target>
+			</demo>
+			<demo>
+				<name>Ruff's Bone (Windows demo) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/ruff-win-demo-en.zip</url>
+				<target>ruff</target>
+			</demo>
+			<demo>
+				<name>The New Kid on the Block (Macintosh demo) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/newkid-demo-mac-en.zip</url>
+				<target>newkid</target>
+			</demo>
+			<demo>
+				<name>The New Kid on the Block (Windows demo) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/newkid-win-demo-en.zip</url>
+				<target>newkid</target>
+			</demo>
+			<demo>
+				<name>The New Kid on the Block (Windows demo alt) - Requires ScummVM 1.3.0dev</name>
+				<url>http://demos.robertmegone.com/mohawk/newkid-win-demo-en-v1.1.zip</url>
+				<target>newkid</target>
+			</demo>
+		</demos>
+	</group>
+	<group>
 		<name>Sierra Demos</name>
 		<href>sierra</href>
 		<demos>
