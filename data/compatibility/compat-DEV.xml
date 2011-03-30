@@ -1420,7 +1420,7 @@
 				<target>lilmonster</target>
 				<percent>90</percent>
 				<notes>
-					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- The CD-i version is not supported
 				</notes>
 			</game>
 			<game>
