@@ -2,8 +2,10 @@
 <DATE>Apr 1, 2011</DATE>
 <AUTHOR>clone2727</AUTHOR>
 <BODY>
-	<p>We are very excited to announce support for ScummVM on Linux using Kinect!</p>
-	<p>Through the tireless efforts of a few coders, Strangerke, LordHoto, and Hkz, they have managed to come up with an amazing per-game gesture system. This new Kinect input system recognizes player input and translates it to mouse and keyboard presses which are then processed by the game engine. Unfortunately, this currently only works with the Kinect for Linux drivers.</p>
-	<p>The code is still very much a work-in-progress, but we've put up some screenshots of various developers testing out their favorite games in ScummVM. Here's <a href="data/news/20110401_1.jpg">ST testing out <i>Backyard Soccer</i></a>, <a href="data/news/20110401_2.jpg">myself playing <i>Full Throttle</i></a>, <a href="data/news/20110401_3.jpg">Hkz playing <i>Gabriel Knight</i></a>, and <a href="data/news/20110401_4.jpg">DrMcCoy playing <i>Urban Runner</i></a>.</p>
-	<p>Stay tuned for more info and a daily build should be expected within the next few days! :)</p>
+	<p><del>We are very excited to announce support for ScummVM on Linux using Kinect!</del></p>
+	<p><del>Through the tireless efforts of a few coders, Strangerke, LordHoto, and Hkz, they have managed to come up with an amazing per-game gesture system. This new Kinect input system recognizes player input and translates it to mouse and keyboard presses which are then processed by the game engine. Unfortunately, this currently only works with the Kinect for Linux drivers.</del></p>
+	<p><del>The code is still very much a work-in-progress, but we've put up some screenshots of various developers testing out their favorite games in ScummVM. Here's <a href="data/news/20110401_1.jpg">ST testing out <i>Backyard Soccer</i></a>, <a href="data/news/20110401_2.jpg">myself playing <i>Full Throttle</i></a>, <a href="data/news/20110401_3.jpg">Hkz playing <i>Gabriel Knight</i></a>, and <a href="data/news/20110401_4.jpg">DrMcCoy playing <i>Urban Runner</i></a>.</del></p>
+	<p><del>Stay tuned for more info and a daily build should be expected within the next few days! :)</del></p>
+
+	<p><b>Happy April Fools' Day!</b></p>
 </BODY>
