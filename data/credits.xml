@@ -685,6 +685,19 @@
 				</person>
 			</group>
 			<group>
+				<name>TsAGE</name>
+				<person>
+					<name>Paul Gilbert</name>
+					<alias>dreammaster</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Arnaud Boutonn&eacute;</name>
+					<alias>Strangerke</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>Tucker</name>
 				<person>
 					<name>Gregory Montoir</name>
@@ -834,6 +847,14 @@
 				<person>
 					<name>Lars Persson</name>
 					<alias>AnotherGuest</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>WebOS</name>
+				<person>
+					<name>Klaus Reimer</name>
+					<alias>kayahr</alias>
 					<description></description>
 				</person>
 			</group>
