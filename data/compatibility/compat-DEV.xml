@@ -517,7 +517,7 @@
 				<target>castlebrain</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS, Mac and Amiga versions are supported by this target<h:br />- Music in Mac and Amiga versions may have glitches
 				</notes>
 			</game>
 			<game>
@@ -525,7 +525,7 @@
 				<target>iceman</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
 			</game>
 			<game>
@@ -533,7 +533,7 @@
 				<target>camelot</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
 			</game>
 			<game>
@@ -573,7 +573,7 @@
 				<target>hoyle1</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
 			</game>
 			<game>
@@ -581,7 +581,7 @@
 				<target>hoyle2</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
 			</game>
 			<game>
@@ -589,7 +589,7 @@
 				<target>hoyle3</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
 			</game>
 			<game>
@@ -613,7 +613,7 @@
 				<target>kq1sci</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version is not working
 				</notes>
 			</game>
 			<game>
@@ -621,7 +621,7 @@
 				<target>kq4sci</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
 			</game>
 			<game>
@@ -629,7 +629,7 @@
 				<target>kq5</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
 			</game>
 			<game>
@@ -645,7 +645,7 @@
 				<target>laurabow</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
 			</game>
 			<game>
@@ -661,7 +661,7 @@
 				<target>lsl1sci</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS, Mac and Amiga versions are supported by this target<h:br />- Music in Mac and Amiga versions may have glitches
 				</notes>
 			</game>
 			<game>
@@ -669,7 +669,7 @@
 				<target>lsl2</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
 			</game>
 			<game>
@@ -677,7 +677,7 @@
 				<target>lsl3</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
 			</game>
 			<game>
@@ -685,7 +685,7 @@
 				<target>lsl5</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS, Mac and Amiga versions are supported by this target<h:br />- Music in Mac and Amiga versions may have glitches
 				</notes>
 			</game>
 			<game>
@@ -709,7 +709,7 @@
 				<target>mothergoose</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
 			</game>
 			<game>
@@ -733,7 +733,7 @@
 				<target>pq2</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
 			</game>
 			<game>
@@ -741,7 +741,7 @@
 				<target>pq3</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
 			</game>
 			<game>
@@ -749,7 +749,7 @@
 				<target>qfg1</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
 			</game>
 			<game>
@@ -765,7 +765,7 @@
 				<target>qfg2</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
 			</game>
 			<game>
@@ -789,7 +789,7 @@
 				<target>sq1sci</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS, Mac and Amiga versions are supported by this target<h:br />- Music in Mac and Amiga versions may have glitches
 				</notes>
 			</game>
 			<game>
@@ -797,7 +797,7 @@
 				<target>sq3</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
 			</game>
 			<game>
@@ -805,7 +805,7 @@
 				<target>sq4</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS, Mac and Amiga versions are supported by this target<h:br />- Music in Mac and Amiga versions may have glitches
 				</notes>
 			</game>
 			<game>
