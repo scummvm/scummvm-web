@@ -935,6 +935,14 @@
 				<file>other/sword/scummvm_2_0_1</file>
 				<caption>Broken Sword: The Shadow of the Templars</caption>
 			</image>
+			<image>
+				<file>other/sword/sword1-de-1</file>
+				<caption>Broken Sword: The Shadow of the Templars (Windows German)</caption>
+			</image>
+			<image>
+				<file>other/sword/sword1-de-2</file>
+				<caption>Broken Sword: The Shadow of the Templars (Windows German)</caption>
+			</image>
 		</game>
 		<game>
 			<name>Broken Sword II: The Smoking Mirror</name>
@@ -946,6 +954,18 @@
 			<image>
 				<file>other/sword/scummvm_2_0_3</file>
 				<caption>Broken Sword II: The Smoking Mirror</caption>
+			</image>
+			<image>
+				<file>other/sword/sword2-de-1</file>
+				<caption>Broken Sword II: The Smoking Mirror (Windows German)</caption>
+			</image>
+			<image>
+				<file>other/sword/sword2-de-2</file>
+				<caption>Broken Sword II: The Smoking Mirror (Windows German)</caption>
+			</image>
+			<image>
+				<file>other/sword/sword2-de-3</file>
+				<caption>Broken Sword II: The Smoking Mirror (Windows German)</caption>
 			</image>
 		</game>
 		<game>
