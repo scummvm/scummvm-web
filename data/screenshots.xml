@@ -271,6 +271,18 @@
 				<file>lec/tentacle/scummvm_0_8_2</file>
 				<caption>Day of the Tentacle (French)</caption>
 			</image>
+			<image>
+				<file>lec/tentacle/tentacle-de-1</file>
+				<caption>Day of the Tentacle (German)</caption>
+			</image>
+			<image>
+				<file>lec/tentacle/tentacle-de-2</file>
+				<caption>Day of the Tentacle (German)</caption>
+			</image>
+			<image>
+				<file>lec/tentacle/tentacle-de-3</file>
+				<caption>Day of the Tentacle (German)</caption>
+			</image>
 		</game>
 		<game>
 			<name>Sam &amp; Max Hit the Road </name>
@@ -390,6 +402,14 @@
 			<image>
 				<file>lec/comi/comi-zh-1</file>
 				<caption>The Curse of Monkey Island (Chinese (Taiwan))</caption>
+			</image>
+			<image>
+				<file>lec/comi/comi-de-1</file>
+				<caption>The Curse of Monkey Island (German)</caption>
+			</image>
+			<image>
+				<file>lec/comi/comi-de-2</file>
+				<caption>The Curse of Monkey Island (German)</caption>
 			</image>
 		</game>
 	</group>
@@ -759,6 +779,14 @@
 				<file>gob/woodruff/woodruff-4</file>
 				<caption>The Bizarre Adventures of Woodruff and the Schnibble</caption>
 			</image>
+			<image>
+				<file>gob/woodruff/woodruff-de-1</file>
+				<caption>The Bizarre Adventures of Woodruff and the Schnibble (DOS German)</caption>
+			</image>
+			<image>
+				<file>gob/woodruff/woodruff-de-2</file>
+				<caption>The Bizarre Adventures of Woodruff and the Schnibble (DOS German)</caption>
+			</image>
 		</game>
 		<game>
 			<name>Fascination</name>
@@ -941,6 +969,10 @@
 			</image>
 			<image>
 				<file>other/sword/sword1-de-2</file>
+				<caption>Broken Sword: The Shadow of the Templars (Windows German)</caption>
+			</image>
+			<image>
+				<file>other/sword/sword1-de-3</file>
 				<caption>Broken Sword: The Shadow of the Templars (Windows German)</caption>
 			</image>
 		</game>
@@ -2160,6 +2192,14 @@
 				<caption>Space Quest III: The Pirates of Pestulon</caption>
 			</image>
 			<image>
+				<file>sci/sq/sq3-de-1</file>
+				<caption>Space Quest III: The Pirates of Pestulon (DOS German)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq3-de-2</file>
+				<caption>Space Quest III: The Pirates of Pestulon (DOS German)</caption>
+			</image>
+			<image>
 				<file>sci/sq/sq4-ega-1</file>
 				<caption>Space Quest IV: Roger Wilco and the Time Rippers (EGA)</caption>
 			</image>
@@ -2212,6 +2252,14 @@
 				<caption>Space Quest IV: Roger Wilco and the Time Rippers (VGA)</caption>
 			</image>
 			<image>
+				<file>sci/sq/sq4-de-1</file>
+				<caption>Space Quest IV: Roger Wilco and the Time Rippers (DOS German)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq4-de-2</file>
+				<caption>Space Quest IV: Roger Wilco and the Time Rippers (DOS German)</caption>
+			</image>
+			<image>
 				<file>sci/sq/sq5-1</file>
 				<caption>Space Quest V: The Next Mutation</caption>
 			</image>
@@ -2238,6 +2286,22 @@
 			<image>
 				<file>sci/sq/sq5-7</file>
 				<caption>Space Quest V: The Next Mutation</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq5-de-1</file>
+				<caption>Space Quest V: The Next Mutation (DOS German)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq5-de-2</file>
+				<caption>Space Quest V: The Next Mutation (DOS German)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq5-de-3</file>
+				<caption>Space Quest V: The Next Mutation (DOS German)</caption>
+			</image>
+			<image>
+				<file>sci/sq/sq5-de-4</file>
+				<caption>Space Quest V: The Next Mutation (DOS German)</caption>
 			</image>
 		</game>
 	</group>
@@ -2266,6 +2330,10 @@
 			<image>
 				<file>other/tucker/tucker-4</file>
 				<caption>Bud Tucker in Double Trouble</caption>
+			</image>
+			<image>
+				<file>other/tucker/tucker-de-1</file>
+				<caption>Bud Tucker in Double Trouble (DOS German)</caption>
 			</image>
 		</game>
 		<game>
@@ -2466,6 +2534,14 @@
 			<image>
 				<file>other/queen/scummvm_2_3_1</file>
 				<caption>Flight of the Amazon Queen (DOS Hebrew)</caption>
+			</image>
+			<image>
+				<file>other/queen/queen-de-1</file>
+				<caption>Flight of the Amazon Queen (DOS German)</caption>
+			</image>
+			<image>
+				<file>other/queen/queen-de-2</file>
+				<caption>Flight of the Amazon Queen (DOS German)</caption>
 			</image>
 		</game>
 		<game>
