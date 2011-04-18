@@ -392,7 +392,7 @@
 				<target>kq1</target>
 				<percent>90</percent>
 				<notes>
-					Game is completable<h:br />- DOS, Mac, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
+					Game is completable<h:br />- DOS, Macintosh, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
 				</notes>
 			</game>
 			<game>
@@ -408,7 +408,7 @@
 				<target>kq3</target>
 				<percent>90</percent>
 				<notes>
-					Game is completable<h:br />- DOS, Mac, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
+					Game is completable<h:br />- DOS, Macintosh, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
 				</notes>
 			</game>
 			<game>
@@ -424,7 +424,7 @@
 				<target>lsl1</target>
 				<percent>90</percent>
 				<notes>
-					Game is completable<h:br />- DOS, Mac, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
+					Game is completable<h:br />- DOS, Macintosh, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
 				</notes>
 			</game>
 			<game>
@@ -456,7 +456,7 @@
 				<target>pq1</target>
 				<percent>90</percent>
 				<notes>
-					Game is completable<h:br />- DOS, Mac, Amiga, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
+					Game is completable<h:br />- DOS, Macintosh, Amiga, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
 				</notes>
 			</game>
 			<game>
@@ -464,7 +464,7 @@
 				<target>sq1</target>
 				<percent>90</percent>
 				<notes>
-					Game is completable<h:br />- DOS, Mac, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
+					Game is completable<h:br />- DOS, Macintosh, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
 				</notes>
 			</game>
 			<game>
@@ -472,7 +472,7 @@
 				<target>sq2</target>
 				<percent>90</percent>
 				<notes>
-					Game is completable<h:br />- DOS, Mac, Amiga, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
+					Game is completable<h:br />- DOS, Macintosh, Amiga, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
 				</notes>
 			</game>
 			<game>
@@ -517,7 +517,7 @@
 				<target>castlebrain</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS, Mac and Amiga versions are supported by this target<h:br />- Music in Mac and Amiga versions may have glitches
+					Game is completable<h:br />- DOS, Macintosh and Amiga versions are supported by this target<h:br />- Music in Macintosh and Amiga versions may have glitches<h:br />- No support for Macintosh hi-res fonts
 				</notes>
 			</game>
 			<game>
@@ -629,7 +629,7 @@
 				<target>kq5</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
+					Game is completable<h:br />- DOS, Macintosh and Amiga versions are supported by this target<h:br />- Music in the Macintosh and Amiga versions may have glitches<h:br />- No support for Macintosh hi-res fonts
 				</notes>
 			</game>
 			<game>
@@ -661,7 +661,7 @@
 				<target>lsl1sci</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS, Mac and Amiga versions are supported by this target<h:br />- Music in Mac and Amiga versions may have glitches
+					Game is completable<h:br />- DOS, Macintosh and Amiga versions are supported by this target<h:br />- Music in Macintosh and Amiga versions may have glitches<h:br />- No support for Macintosh hi-res fonts
 				</notes>
 			</game>
 			<game>
@@ -685,7 +685,7 @@
 				<target>lsl5</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS, Mac and Amiga versions are supported by this target<h:br />- Music in Mac and Amiga versions may have glitches
+					Game is completable<h:br />- DOS, Macintosh and Amiga versions are supported by this target<h:br />- Music in Macintosh and Amiga versions may have glitches<h:br />- No support for Macintosh hi-res fonts
 				</notes>
 			</game>
 			<game>
@@ -789,7 +789,7 @@
 				<target>sq1sci</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS, Mac and Amiga versions are supported by this target<h:br />- Music in Mac and Amiga versions may have glitches
+					Game is completable<h:br />- DOS, Macintosh and Amiga versions are supported by this target<h:br />- Music in Macintosh and Amiga versions may have glitches<h:br />- No support for Macintosh hi-res fonts
 				</notes>
 			</game>
 			<game>
@@ -805,7 +805,7 @@
 				<target>sq4</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS, Mac and Amiga versions are supported by this target<h:br />- Music in Mac and Amiga versions may have glitches
+					Game is completable<h:br />- DOS, Macintosh and Amiga versions are supported by this target<h:br />- Music in Macintosh and Amiga versions may have glitches<h:br />- No support for Macintosh hi-res fonts
 				</notes>
 			</game>
 			<game>
@@ -930,7 +930,7 @@
 				<target>ite</target>
 				<percent>95</percent>
 				<notes>
-					No known issues, game is completable.<h:br />- DOS, Linux, Macintosh, MacOS X and Windows versions are supported by this target<h:br />- Amiga versions aren't supported
+					No known issues, game is completable.<h:br />- DOS, Linux, Macintosh, Mac OS X and Windows versions are supported by this target<h:br />- Amiga versions aren't supported
 				</notes>
 			</game>
 			<game>
