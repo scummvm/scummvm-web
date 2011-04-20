@@ -181,6 +181,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Personal Nightmare</name>
+				<target>pn</target>
+				<percent>50</percent>
+				<notes>
+					Game is playable, but not confirmed as completable.<h:br />- Amiga, Atari ST and DOS versions are supported by this target<h:br />- Minor spacing glitches with charset.<h:br />- No day to night fading in Amiga and Atari ST versions.
+				</notes>
+			</game>
+			<game>
 				<name>Simon the Sorcerer 1</name>
 				<target>simon1</target>
 				<percent>95</percent>
@@ -241,7 +249,7 @@
 				<target>waxworks</target>
 				<percent>50</percent>
 				<notes>
-					No known issues, game is playable, but not confirmed as completable.<h:br />- Amiga and DOS versions are supported by this target
+					Game is playable, but not confirmed as completable.<h:br />- Amiga and DOS versions are supported by this target
 				</notes>
 			</game>
 		</games>
