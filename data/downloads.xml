@@ -855,9 +855,6 @@
 				</h:p>
 				<h:p>Additional snapshot builds:</h:p>
 			</notes>
-			<footer>
-				Additional daily builds for Linux (x86) as well as source snapshots can be <h:a href="http://helllabs.org/scummvm/">downloaded from here</h:a>.
-			</footer>
 			<entries>
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
