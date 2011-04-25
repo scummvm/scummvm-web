@@ -694,6 +694,12 @@
 				</file>
 				<file>
 					<category_icon>cat-drascula.png</category_icon>
+					<url>drascula-int-1.1.zip?download</url>
+					<name>Drascula: The Vampire Strikes Back, Freeware Version (Updated Spanish, German, French and Italian AddOn) - requires ScummVM 1.3.0 or more</name>
+					<extra_info>(33.2M)</extra_info>
+				</file>
+				<file>
+					<category_icon>cat-drascula.png</category_icon>
 					<url>http://github.com/scummvm/scummvm/raw/v{$release}/dists/engine-data/drascula.dat</url>
 					<name>Drascula: The Vampire Strikes Back, DRASCULA.DAT - required for all versions of the game</name>
 					<extra_info>(211k) - Requires ScummVM {$release}</extra_info>
