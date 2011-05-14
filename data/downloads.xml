@@ -849,7 +849,7 @@
 					<h:b>WARNING:</h:b> The following builds are bleeding edge development
 					versions made directly from our source repository.
 					That means that they received no proper testing (usually no testing at
-					all) and that any number of things may be broken in the them. For
+					all) and that any number of things may be broken in them. For
 					example, they might corrupt your config file, crash frequently or
 					might not even start. Use them at your own risk!
     			</h:p>
