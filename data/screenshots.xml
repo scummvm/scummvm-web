@@ -1878,6 +1878,30 @@
 			<name>Leisure Suit Larry series</name>
 			<category>lsl-sci</category>
 			<image>
+				<file>sci/lsl/lsl1sci-1</file>
+				<caption>Leisure Suit Larry in the Land of the Lounge Lizards</caption>
+			</image>
+			<image>
+				<file>sci/lsl/lsl1sci-2</file>
+				<caption>Leisure Suit Larry in the Land of the Lounge Lizards</caption>
+			</image>
+			<image>
+				<file>sci/lsl/lsl1sci-3</file>
+				<caption>Leisure Suit Larry in the Land of the Lounge Lizards</caption>
+			</image>
+			<image>
+				<file>sci/lsl/lsl2-2</file>
+				<caption>Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places)</caption>
+			</image>
+			<image>
+				<file>sci/lsl/lsl2-3</file>
+				<caption>Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places)</caption>
+			</image>
+			<image>
+				<file>sci/lsl/lsl2-1</file>
+				<caption>Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places)</caption>
+			</image>
+			<image>
 				<file>sci/lsl/lsl3-de-1</file>
 				<caption>Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals (German)</caption>
 			</image>
