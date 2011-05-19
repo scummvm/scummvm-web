@@ -2797,6 +2797,38 @@
 			</image>
 		</game>
 		<game>
+			<name>Toonstruck</name>
+			<category>tooon</category>
+			<image>
+				<file>other/toon/toon-1</file>
+				<caption>Tooonstruck</caption>
+			</image>
+			<image>
+				<file>other/toon/toon-2</file>
+				<caption>Tooonstruck</caption>
+			</image>
+			<image>
+				<file>other/toon/toon-3</file>
+				<caption>Tooonstruck</caption>
+			</image>
+			<image>
+				<file>other/toon/toon-4</file>
+				<caption>Tooonstruck</caption>
+			</image>
+			<image>
+				<file>other/toon/toon-5</file>
+				<caption>Tooonstruck</caption>
+			</image>
+			<image>
+				<file>other/toon/toon-6</file>
+				<caption>Tooonstruck</caption>
+			</image>
+			<image>
+				<file>other/toon/toon-7</file>
+				<caption>Tooonstruck</caption>
+			</image>
+		</game>
+		<game>
 			<name>Touch&eacute;: The Adventures of the Fifth Musketeer</name>
 			<category>touche</category>
 			<image>
