@@ -1601,6 +1601,15 @@
 			</image>
 
 			<image>
+				<file>sci/ecoquest/ecoquest-fr-1</file>
+				<caption>EcoQuest: The Search for Cetus (French)</caption>
+			</image>
+			<image>
+				<file>sci/ecoquest/ecoquest-fr-2</file>
+				<caption>EcoQuest: The Search for Cetus (French)</caption>
+			</image>
+
+			<image>
 				<file>sci/ecoquest/ecoquest-de-1</file>
 				<caption>EcoQuest: The Search for Cetus (German)</caption>
 			</image>
