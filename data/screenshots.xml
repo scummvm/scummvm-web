@@ -1967,6 +1967,38 @@
 			</image>
 		</game>
 		<game>
+			<name>Pepper's Adventure in Time</name>
+			<category>pepper</category>
+			<image>
+				<file>sci/pepper/pepper-1</file>
+				<caption>Pepper's Adventure in Time</caption>
+			</image>
+			<image>
+				<file>sci/pepper/pepper-2</file>
+				<caption>Pepper's Adventure in Time</caption>
+			</image>
+			<image>
+				<file>sci/pepper/pepper-3</file>
+				<caption>Pepper's Adventure in Time</caption>
+			</image>
+			<image>
+				<file>sci/pepper/pepper-4</file>
+				<caption>Pepper's Adventure in Time</caption>
+			</image>
+			<image>
+				<file>sci/pepper/pepper-5</file>
+				<caption>Pepper's Adventure in Time</caption>
+			</image>
+			<image>
+				<file>sci/pepper/pepper-6</file>
+				<caption>Pepper's Adventure in Time</caption>
+			</image>
+			<image>
+				<file>sci/pepper/pepper-7</file>
+				<caption>Pepper's Adventure in Time</caption>
+			</image>
+		</game>
+		<game>
 			<name>Police Quest series</name>
 			<category>pq-sci</category>
 			<image>
