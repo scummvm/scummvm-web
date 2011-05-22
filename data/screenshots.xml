@@ -2198,6 +2198,33 @@
 			</image>
 		</game>
 		<game>
+			<name>Roberta Williams' Mixed-Up Mother Goose</name>
+			<image>
+				<file>sci/mothergoose/mothergoose-1</file>
+				<caption>Roberta Williams' Mixed-Up Mother Goose (CD/DOS/Multilanguage)</caption>
+			</image>
+			<image>
+				<file>sci/mothergoose/mothergoose-2</file>
+				<caption>Roberta Williams' Mixed-Up Mother Goose (CD/DOS/Multilanguage)</caption>
+			</image>
+			<image>
+				<file>sci/mothergoose/mothergoose-3</file>
+				<caption>Roberta Williams' Mixed-Up Mother Goose (CD/DOS/Multilanguage)</caption>
+			</image>
+			<image>
+				<file>sci/mothergoose/mothergoose-4</file>
+				<caption>Roberta Williams' Mixed-Up Mother Goose (CD/DOS/Multilanguage)</caption>
+			</image>
+			<image>
+				<file>sci/mothergoose/mothergoose-5</file>
+				<caption>Roberta Williams' Mixed-Up Mother Goose (CD/DOS/Multilanguage)</caption>
+			</image>
+			<image>
+				<file>sci/mothergoose/mothergoose-6</file>
+				<caption>Roberta Williams' Mixed-Up Mother Goose (CD/DOS/Multilanguage)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Space Quest series</name>
 			<category>sq-sci</category>
 			<image>
