@@ -3045,6 +3045,49 @@
 				<caption>Aesop's Fables: The Tortoise and the Hare (Spanish)</caption>
 			</image>
 		</game>
+		<game>
+			<name>Arthur series</name>
+			<category>arthur</category>
+			<image>
+				<file>livingbooks/arthur/arthur-1</file>
+				<caption>Arthur's Teacher Trouble</caption>
+			</image>
+			<image>
+				<file>livingbooks/arthur/arthur-2</file>
+				<caption>Arthur's Teacher Trouble</caption>
+			</image>
+			<image>
+				<file>livingbooks/arthur/arthur-3</file>
+				<caption>Arthur's Teacher Trouble</caption>
+			</image>
+			<image>
+				<file>livingbooks/arthur/arthur-4</file>
+				<caption>Arthur's Teacher Trouble</caption>
+			</image>
+			<image>
+				<file>livingbooks/arthur/arthur-5</file>
+				<caption>Arthur's Teacher Trouble</caption>
+			</image>
+			<image>
+				<file>livingbooks/arthur/arthur-6</file>
+				<caption>Arthur's Teacher Trouble</caption>
+			</image>
+			<image>
+				<file>livingbooks/arthur/arthur-7</file>
+				<caption>Arthur's Teacher Trouble</caption>
+			</image>
+			<image>
+				<file>livingbooks/arthur/arthur-es-1</file>
+				<caption>Arthur's Teacher Trouble (Spanish)</caption>
+			</image>
+			<image>
+				<file>livingbooks/arthur/arthur-es-2</file>
+				<caption>Arthur's Teacher Trouble (Spanish)</caption>
+			</image>
+			<image>
+				<file>livingbooks/arthur/arthur-es-3</file>
+				<caption>Arthur's Teacher Trouble (Spanish)</caption>
+			</image>
 	</group>
 	<group>
 		<title>Humongous Entertainment games</title>
