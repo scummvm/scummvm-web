@@ -3088,6 +3088,35 @@
 				<file>livingbooks/arthur/arthur-es-3</file>
 				<caption>Arthur's Teacher Trouble (Spanish)</caption>
 			</image>
+		</game>
+		<game>
+			<name>Dr Seuss's ABC</name>
+			<category>seussabc</category>
+			<image>
+				<file>livingbooks/seussabc/seussabc-win-1</file>
+				<caption>Dr Seuss's ABC</caption>
+			</image>
+			<image>
+				<file>livingbooks/seussabc/seussabc-win-2</file>
+				<caption>Dr Seuss's ABC</caption>
+			</image>
+			<image>
+				<file>livingbooks/seussabc/seussabc-win-3</file>
+				<caption>Dr Seuss's ABC</caption>
+			</image>
+			<image>
+				<file>livingbooks/seussabc/seussabc-win-4</file>
+				<caption>Dr Seuss's ABC</caption>
+			</image>
+			<image>
+				<file>livingbooks/seussabc/seussabc-win-5</file>
+				<caption>Dr Seuss's ABC</caption>
+			</image>
+			<image>
+				<file>livingbooks/seussabc/seussabc-win-6</file>
+				<caption>Dr Seuss's ABC</caption>
+			</image>
+		</game>
 	</group>
 	<group>
 		<title>Humongous Entertainment games</title>
