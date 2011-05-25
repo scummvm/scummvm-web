@@ -1682,6 +1682,30 @@
 				<file>sci/hoyle/hoyle3-ega-4</file>
 				<caption>Hoyle's Official Book of Games: Volume 3 (EGA)</caption>
 			</image>
+			<image>
+				<file>sci/hoyle/hoyle4-1</file>
+				<caption>Hoyle Classic Card Games</caption>
+			</image>
+			<image>
+				<file>sci/hoyle/hoyle4-2</file>
+				<caption>Hoyle Classic Card Games</caption>
+			</image>
+			<image>
+				<file>sci/hoyle/hoyle4-3</file>
+				<caption>Hoyle Classic Card Games</caption>
+			</image>
+			<image>
+				<file>sci/hoyle/hoyle4-4</file>
+				<caption>Hoyle Classic Card Games</caption>
+			</image>
+			<image>
+				<file>sci/hoyle/hoyle4-5</file>
+				<caption>Hoyle Classic Card Games</caption>
+			</image>
+			<image>
+				<file>sci/hoyle/hoyle4-6</file>
+				<caption>Hoyle Classic Card Games</caption>
+			</image>
 		</game>
 		<game>
 			<name>Jones in the Fast Lane</name>
