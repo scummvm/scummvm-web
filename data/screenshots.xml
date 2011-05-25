@@ -3117,6 +3117,42 @@
 				<caption>Dr Seuss's ABC</caption>
 			</image>
 		</game>
+		<game>
+			<name>Green Eggs and Ham</name>
+			<category>greeneggs</category>
+			<image>
+				<file>livingbooks/greeneggs/greeneggs-win-1</file>
+				<caption>Green Eggs and Ham</caption>
+			</image>
+			<image>
+				<file>livingbooks/greeneggs/greeneggs-win-2</file>
+				<caption>Green Eggs and Ham</caption>
+			</image>
+			<image>
+				<file>livingbooks/greeneggs/greeneggs-win-3</file>
+				<caption>Green Eggs and Ham</caption>
+			</image>
+			<image>
+				<file>livingbooks/greeneggs/greeneggs-win-4</file>
+				<caption>Green Eggs and Ham</caption>
+			</image>
+			<image>
+				<file>livingbooks/greeneggs/greeneggs-win-5</file>
+				<caption>Green Eggs and Ham</caption>
+			</image>
+			<image>
+				<file>livingbooks/greeneggs/greeneggs-win-6</file>
+				<caption>Green Eggs and Ham</caption>
+			</image>
+			<image>
+				<file>livingbooks/greeneggs/greeneggs-win-7</file>
+				<caption>Green Eggs and Ham</caption>
+			</image>
+			<image>
+				<file>livingbooks/greeneggs/greeneggs-win-8</file>
+				<caption>Green Eggs and Ham</caption>
+			</image>
+		</game>
 	</group>
 	<group>
 		<title>Humongous Entertainment games</title>
