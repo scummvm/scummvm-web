@@ -3153,6 +3153,34 @@
 				<caption>Green Eggs and Ham</caption>
 			</image>
 		</game>
+		<game>
+			<name>Harry and the Haunted House</name>
+			<category>harryhh</category>
+			<image>
+				<file>livingbooks/harryhh/harryhh-1</file>
+				<caption>Harry and the Haunted House</caption>
+			</image>
+			<image>
+				<file>livingbooks/harryhh/harryhh-2</file>
+				<caption>Harry and the Haunted House</caption>
+			</image>
+			<image>
+				<file>livingbooks/harryhh/harryhh-3</file>
+				<caption>Harry and the Haunted House</caption>
+			</image>
+			<image>
+				<file>livingbooks/harryhh/harryhh-es-1</file>
+				<caption>Harry and the Haunted House (Spanish)</caption>
+			</image>
+			<image>
+				<file>livingbooks/harryhh/harryhh-es-2</file>
+				<caption>Harry and the Haunted House (Spanish)</caption>
+			</image>
+			<image>
+				<file>livingbooks/harryhh/harryhh-es-3</file>
+				<caption>Harry and the Haunted House (Spanish)</caption>
+			</image>
+		</game>
 	</group>
 	<group>
 		<title>Humongous Entertainment games</title>
