@@ -2274,6 +2274,38 @@
 			</image>			
 		</game>
 		<game>
+			<name>Slater &and; Charlie Go Camping</name>
+			<category>slater</category>
+			<image>
+				<file>sci/slater/slater-1</file>
+				<caption>Slater &and; Charlie Go Camping</caption>
+			</image>
+			<image>
+				<file>sci/slater/slater-2</file>
+				<caption>Slater &and; Charlie Go Camping</caption>
+			</image>
+			<image>
+				<file>sci/slater/slater-3</file>
+				<caption>Slater &and; Charlie Go Camping</caption>
+			</image>
+			<image>
+				<file>sci/slater/slater-4</file>
+				<caption>Slater &and; Charlie Go Camping</caption>
+			</image>
+			<image>
+				<file>sci/slater/slater-5</file>
+				<caption>Slater &and; Charlie Go Camping</caption>
+			</image>
+			<image>
+				<file>sci/slater/slater-6</file>
+				<caption>Slater &and; Charlie Go Camping</caption>
+			</image>
+			<image>
+				<file>sci/slater/slater-7</file>
+				<caption>Slater &and; Charlie Go Camping</caption>
+			</image>
+		</game>
+		<game>
 			<name>Space Quest series</name>
 			<category>sq-sci</category>
 			<image>
@@ -2978,35 +3010,39 @@
 		<title>Living Books series</title>
 		<category>livingbooks</category>
 		<game>
-			<name>Slater &and; Charlie Go Camping</name>
-			<category>slater</category>
+			<name>Aesop's Fables: The Tortoise and the Hare</name>
+			<category>tortoise</category>
 			<image>
-				<file>livingbooks/slater/slater-1</file>
-				<caption>Slater &and; Charlie Go Camping</caption>
+				<file>livingbooks/tortoise/tortoise-1</file>
+				<caption>Aesop's Fables: The Tortoise and the Hare</caption>
 			</image>
 			<image>
-				<file>livingbooks/slater/slater-2</file>
-				<caption>Slater &and; Charlie Go Camping</caption>
+				<file>livingbooks/tortoise/tortoise-2</file>
+				<caption>Aesop's Fables: The Tortoise and the Hare</caption>
 			</image>
 			<image>
-				<file>livingbooks/slater/slater-3</file>
-				<caption>Slater &and; Charlie Go Camping</caption>
+				<file>livingbooks/tortoise/tortoise-3</file>
+				<caption>Aesop's Fables: The Tortoise and the Hare</caption>
 			</image>
 			<image>
-				<file>livingbooks/slater/slater-4</file>
-				<caption>Slater &and; Charlie Go Camping</caption>
+				<file>livingbooks/tortoise/tortoise-4</file>
+				<caption>Aesop's Fables: The Tortoise and the Hare</caption>
 			</image>
 			<image>
-				<file>livingbooks/slater/slater-5</file>
-				<caption>Slater &and; Charlie Go Camping</caption>
+				<file>livingbooks/tortoise/tortoise-5</file>
+				<caption>Aesop's Fables: The Tortoise and the Hare</caption>
 			</image>
 			<image>
-				<file>livingbooks/slater/slater-6</file>
-				<caption>Slater &and; Charlie Go Camping</caption>
+				<file>livingbooks/tortoise/tortoise-6</file>
+				<caption>Aesop's Fables: The Tortoise and the Hare</caption>
 			</image>
 			<image>
-				<file>livingbooks/slater/slater-7</file>
-				<caption>Slater &and; Charlie Go Camping</caption>
+				<file>livingbooks/tortoise/tortoise-es-1</file>
+				<caption>Aesop's Fables: The Tortoise and the Hare (Spanish)</caption>
+			</image>
+			<image>
+				<file>livingbooks/tortoise/tortoise-es-2</file>
+				<caption>Aesop's Fables: The Tortoise and the Hare (Spanish)</caption>
 			</image>
 		</game>
 	</group>
