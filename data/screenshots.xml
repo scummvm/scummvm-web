@@ -2975,6 +2975,42 @@
 		</game>
 	</group>
 	<group>
+		<title>Living Books series</title>
+		<category>livingbooks</category>
+		<game>
+			<name>Slater &and; Charlie Go Camping</name>
+			<category>slater</category>
+			<image>
+				<file>livingbooks/slater/slater-1</file>
+				<caption>Slater &and; Charlie Go Camping</caption>
+			</image>
+			<image>
+				<file>livingbooks/slater/slater-2</file>
+				<caption>Slater &and; Charlie Go Camping</caption>
+			</image>
+			<image>
+				<file>livingbooks/slater/slater-3</file>
+				<caption>Slater &and; Charlie Go Camping</caption>
+			</image>
+			<image>
+				<file>livingbooks/slater/slater-4</file>
+				<caption>Slater &and; Charlie Go Camping</caption>
+			</image>
+			<image>
+				<file>livingbooks/slater/slater-5</file>
+				<caption>Slater &and; Charlie Go Camping</caption>
+			</image>
+			<image>
+				<file>livingbooks/slater/slater-6</file>
+				<caption>Slater &and; Charlie Go Camping</caption>
+			</image>
+			<image>
+				<file>livingbooks/slater/slater-7</file>
+				<caption>Slater &and; Charlie Go Camping</caption>
+			</image>
+		</game>
+	</group>
+	<group>
 		<title>Humongous Entertainment games</title>
 		<category>he</category>
 		<game>
