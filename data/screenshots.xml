@@ -3181,6 +3181,38 @@
 				<caption>Harry and the Haunted House (Spanish)</caption>
 			</image>
 		</game>
+		<game>
+			<name>Little Monster at School</name>
+			<category>lilmonster</category>
+			<image>
+				<file>livingbooks/lilmonster/lilmonster-win-1</file>
+				<caption>Little Monster at School</caption>
+			</image>
+			<image>
+				<file>livingbooks/lilmonster/lilmonster-win-2</file>
+				<caption>Little Monster at School</caption>
+			</image>
+			<image>
+				<file>livingbooks/lilmonster/lilmonster-win-3</file>
+				<caption>Little Monster at School</caption>
+			</image>
+			<image>
+				<file>livingbooks/lilmonster/lilmonster-win-4</file>
+				<caption>Little Monster at School</caption>
+			</image>
+			<image>
+				<file>livingbooks/lilmonster/lilmonster-win-5</file>
+				<caption>Little Monster at School</caption>
+			</image>
+			<image>
+				<file>livingbooks/lilmonster/lilmonster-win-es-1</file>
+				<caption>Little Monster at School (Spanish)</caption>
+			</image>
+			<image>
+				<file>livingbooks/lilmonster/lilmonster-win-es-2</file>
+				<caption>Little Monster at School (Spanish)</caption>
+			</image>
+		</game>
 	</group>
 	<group>
 		<title>Humongous Entertainment games</title>
