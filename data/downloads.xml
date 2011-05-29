@@ -152,14 +152,13 @@
 					<name>iPhone package</name>
 					<extra_info>(7.9M .deb)</extra_info>
 				</file>
-<!--
 				<file>
 					<category_icon>catpl-webos.png</category_icon>
 					<url>scummvm-{$release}-webos.zip?download</url>
 					<name>WebOS package</name>
 					<extra_info>(8.5M .zip)</extra_info>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-maemo.png</category_icon>
 					<url>scummvm_{$release}-maemo_armel.deb?download</url>
