@@ -326,14 +326,14 @@
 					<name>AmigaOS 4 package</name>
 					<extra_info>(7.2M .lha)</extra_info>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-morphos.png</category_icon>
 					<url>scummvm-{$release}-morphos.lha?download</url>
 					<name>MorphOS package</name>
-					<extra_info>(7.8M .lha)</extra_info>
+					<extra_info>(10.0M .lha)</extra_info>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-freemint.png</category_icon>
 					<url>scummvm-{$release}-atari.zip?download</url>
@@ -607,13 +607,6 @@
 					<url>scummvm-1.2.1-amigaos4.lha?download</url>
 					<name>1.2.1 AmigaOS 4 package</name>
 					<extra_info>(7.2M .lha)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-morphos.png</category_icon>
-					<url>scummvm-1.2.1-morphos.lha?download</url>
-					<name>1.2.1 MorphOS package</name>
-					<extra_info>(7.8M .lha)</extra_info>
 				</file>
 
 				<file>
