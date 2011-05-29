@@ -14,20 +14,18 @@
 				<h:br/>{$release_debian} is also apt-get'able from Debian unstable (sid).<h:br/><h:br/>
 			</notes>
 			<entries>
-
-<!--				<file>
+				<file>
 					<category_icon>catpl-windows.png</category_icon>
 					<url>scummvm-{$release}-win32.exe?download</url>
 					<name><h:b>Windows Installer</h:b></name>
-					<extra_info>(4.2M Win32 .exe)</extra_info>
+					<extra_info>(4.6M Win32 .exe)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
 					<url>scummvm-{$release}-win32.zip?download</url>
 					<name>Windows zipfile</name>
-					<extra_info>(5.8M .zip)</extra_info>
+					<extra_info>(6.1M .zip)</extra_info>
 				</file>
--->
 				<file>
 					<category_icon>catpl-win64.png</category_icon>
 					<url>scummvm-{$release}-win64.zip?download</url>
