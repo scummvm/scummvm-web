@@ -400,13 +400,14 @@
 					<name>Tools - Windows Installer</name>
 					<extra_info>(1.8M Win32 .exe)</extra_info>
 				</file>
+-->
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-win32.zip?download</url>
 					<name>Tools - Windows zipfile</name>
 					<extra_info>(3.3M Win32 .zip)</extra_info>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-1_F11.i586.rpm?download</url>
