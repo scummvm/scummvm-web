@@ -524,19 +524,6 @@
 			</notes>
 			<entries>
 				<file>
-					<category_icon>catpl-windows.png</category_icon>
-					<url>scummvm-1.2.1-win32.exe?download</url>
-					<name><h:b>1.2.1 Windows Installer</h:b></name>
-					<extra_info>(4.2M Win32 .exe)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-windows.png</category_icon>
-					<url>scummvm-1.2.1-win32.zip?download</url>
-					<name>1.2.1 Windows zipfile</name>
-					<extra_info>(5.8M .zip)</extra_info>
-
-				</file>
-				<file>
 					<category_icon>catpl-ds.png</category_icon>
 					<url>scummvm-1.2.1-ds.zip?download</url>
 					<name>1.2.1 Nintendo DS package</name>
