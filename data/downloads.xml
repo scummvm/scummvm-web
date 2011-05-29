@@ -75,8 +75,14 @@
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
 					<url>scummvm_{$release}-natty.1_amd64.deb?download</url>
-					<name>Ubuntu 11.04 (maverick) x86 64bit package</name>
+					<name>Ubuntu 11.04 (natty) x86 64bit package</name>
 					<extra_info>(6.6M .deb)</extra_info>
+				</file>
+				<file>
+					<category_icon>catpl-ubuntu.png</category_icon>
+					<url>scummvm_{$release}-natty.1_powerpc.deb?download</url>
+					<name>Ubuntu 11.04 (natty) PowerPC package</name>
+					<extra_info>(6.3M .deb)</extra_info>
 				</file>
 
 				<file>
@@ -636,13 +642,6 @@
 					<url>scummvm-1.2.1-os2.zip?download</url>
 					<name>1.2.1 OS/2 package</name>
 					<extra_info>(7.5M .zip)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_1.1.1-lucid.1_powerpc.deb?download</url>
-					<name>1.2.0 Ubuntu 10.04 (lucid) PowerPC / Cell (PlayStation3) package</name>
-					<extra_info>(4.8M .deb)</extra_info>
 				</file>
 
 				<file>
