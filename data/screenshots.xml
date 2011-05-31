@@ -755,6 +755,14 @@
 				<file>gob/bargon/scummvm_2_11_2</file>
 				<caption>Bargon Attack (DOS)</caption>
 			</image>
+			<image>
+				<file>gob/bargon/bargon-fr-1</file>
+				<caption>Bargon Attack (DOS/French)</caption>
+			</image>
+			<image>
+				<file>gob/bargon/bargon-fr-2</file>
+				<caption>Bargon Attack (DOS/French)</caption>
+			</image>
 		</game>
 		<game>
 			<name>The Bizarre Adventures of Woodruff and the Schnibble</name>
