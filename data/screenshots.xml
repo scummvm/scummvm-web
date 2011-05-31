@@ -3262,6 +3262,30 @@
 			</image>
 		</game>
 		<game>
+			<name>Blue's Clues series</name>
+			<category>blues</category>
+			<image>
+				<file>he/blues/blues123time-1</file>
+				<caption>Blue's 123 Time Activities</caption>
+			</image>
+			<image>
+				<file>he/blues/blues123time-2</file>
+				<caption>Blue's 123 Time Activities</caption>
+			</image>
+			<image>
+				<file>he/blues/blues123time-3</file>
+				<caption>Blue's 123 Time Activities</caption>
+			</image>
+			<image>
+				<file>he/blues/blues123time-4</file>
+				<caption>Blue's 123 Time Activities</caption>
+			</image>
+			<image>
+				<file>he/blues/blues123time-5</file>
+				<caption>Blue's 123 Time Activities</caption>
+			</image>
+		</game>
+		<game>
 			<name>Fatty Bear series</name>
 			<category>fbear</category>
 			<image>
