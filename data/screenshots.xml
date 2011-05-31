@@ -744,15 +744,15 @@
 			<name>Bargon Attack</name>
 			<category>bargon</category>
 			<image>
-				<file>other/bargon/scummvm_2_11_0</file>
+				<file>gob/bargon/scummvm_2_11_0</file>
 				<caption>Bargon Attack (DOS)</caption>
 			</image>
 			<image>
-				<file>other/bargon/scummvm_2_11_1</file>
+				<file>gob/bargon/scummvm_2_11_1</file>
 				<caption>Bargon Attack (DOS)</caption>
 			</image>
 			<image>
-				<file>other/bargon/scummvm_2_11_2</file>
+				<file>gob/bargon/scummvm_2_11_2</file>
 				<caption>Bargon Attack (DOS)</caption>
 			</image>
 		</game>
