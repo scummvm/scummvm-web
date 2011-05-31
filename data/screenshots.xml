@@ -2976,6 +2976,18 @@
 				<file>other/toon/toon-7</file>
 				<caption>Tooonstruck</caption>
 			</image>
+			<image>
+				<file>other/toon/toon-fr-1</file>
+				<caption>Tooonstruck (French)</caption>
+			</image>
+			<image>
+				<file>other/toon/toon-fr-2</file>
+				<caption>Tooonstruck (French)</caption>
+			</image>
+			<image>
+				<file>other/toon/toon-fr-3</file>
+				<caption>Tooonstruck (French)</caption>
+			</image>
 		</game>
 		<game>
 			<name>Touch&eacute;: The Adventures of the Fifth Musketeer</name>
