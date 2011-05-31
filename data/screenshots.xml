@@ -960,19 +960,19 @@
 			<name>Ween: The Prophecy</name>
 			<category>ween</category>
 			<image>
-				<file>other/ween/scummvm_2_9_0</file>
+				<file>gob/ween/scummvm_2_9_0</file>
 				<caption>Ween: The Prophecy</caption>
 			</image>
 			<image>
-				<file>other/ween/scummvm_2_9_1</file>
+				<file>gob/ween/scummvm_2_9_1</file>
 				<caption>Ween: The Prophecy</caption>
 			</image>
 			<image>
-				<file>other/ween/scummvm_2_9_2</file>
+				<file>gob/ween/scummvm_2_9_2</file>
 				<caption>Ween: The Prophecy</caption>
 			</image>
 			<image>
-				<file>other/ween/scummvm_2_9_3</file>
+				<file>gob/ween/scummvm_2_9_3</file>
 				<caption>Ween: The Prophecy</caption>
 			</image>
 		</game>
