@@ -831,6 +831,14 @@
 				<file>gob/fascination/fascination-de-2</file>
 				<caption>Fascination (CD/German)</caption>
 			</image>
+			<image>
+				<file>gob/fascination/fascination-it-1</file>
+				<caption>Fascination (CD/Italian)</caption>
+			</image>
+			<image>
+				<file>gob/fascination/fascination-it-2</file>
+				<caption>Fascination (CD/Italian)</caption>
+			</image>
 		</game>
 		<game>
 			<name>Gobliiins series</name>
