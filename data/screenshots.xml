@@ -863,6 +863,14 @@
 				<file>gob/fascination/fascination-amiga-de-2</file>
 				<caption>Fascination (Amiga/German)</caption>
 			</image>
+			<image>
+				<file>gob/fascination/fascination-amiga-fr-1</file>
+				<caption>Fascination (Amiga/French)</caption>
+			</image>
+			<image>
+				<file>gob/fascination/fascination-amiga-fr-2</file>
+				<caption>Fascination (Amiga/French)</caption>
+			</image>
 		</game>
 		<game>
 			<name>Gobliiins series</name>
