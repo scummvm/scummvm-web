@@ -904,6 +904,14 @@
 				<caption>Gobliins 2 (CD)</caption>
 			</image>
 			<image>
+				<file>gob/gob/gob2-amiga-de-1</file>
+				<caption>Gobliins 2 (Amiga/German)</caption>
+			</image>
+			<image>
+				<file>gob/gob/gob2-amiga-de-2</file>
+				<caption>Gobliins 2 (Amiga/German)</caption>
+			</image>
+			<image>
 				<file>gob/gob/scummvm_2_1_5</file>
 				<caption>Goblins Quest 3 (DOS)</caption>
 			</image>
