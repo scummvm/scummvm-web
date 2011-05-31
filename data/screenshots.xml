@@ -951,6 +951,14 @@
 				<file>gob/gob/gob3-5</file>
 				<caption>Goblins Quest 3 (DOS)</caption>
 			</image>
+			<image>
+				<file>gob/gob/gob3-amiga-fr-1</file>
+				<caption>Goblins Quest 3 (Amiga/French)</caption>
+			</image>
+			<image>
+				<file>gob/gob/gob3-amiga-fr-2</file>
+				<caption>Goblins Quest 3 (Amiga/French)</caption>
+			</image>
 		</game>
 		<game>
 			<name>Lost In Time</name>
