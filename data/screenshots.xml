@@ -1726,6 +1726,14 @@
 				<file>sci/freddypharkas/freddypharkas-de-2</file>
 				<caption>Freddy Pharkas: Frontier Pharmacist (German)</caption>
 			</image>
+			<image>
+				<file>sci/freddypharkas/freddypharkas-win-fr-1</file>
+				<caption>Freddy Pharkas: Frontier Pharmacist (Windows/French)</caption>
+			</image>
+			<image>
+				<file>sci/freddypharkas/freddypharkas-win-fr-2</file>
+				<caption>Freddy Pharkas: Frontier Pharmacist (Windows/French)</caption>
+			</image>
 		</game>
 		<game>
 			<name>Hoyle's Official Book of Games series</name>
