@@ -48,7 +48,7 @@
 
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
-					<url>scummvm_{$release}-squeze.1_i386.deb?download</url>
+					<url>scummvm_{$release}-squeeze.1_i386.deb?download</url>
 					<name>Debian 6.0 (squeeze) i386 package</name>
 					<extra_info>(6.0M .deb)</extra_info>
 				</file>
