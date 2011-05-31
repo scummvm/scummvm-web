@@ -823,6 +823,14 @@
 				<file>gob/fascination/fascination-fr-2</file>
 				<caption>Fascination (CD/French)</caption>
 			</image>
+			<image>
+				<file>gob/fascination/fascination-de-1</file>
+				<caption>Fascination (CD/German)</caption>
+			</image>
+			<image>
+				<file>gob/fascination/fascination-de-2</file>
+				<caption>Fascination (CD/German)</caption>
+			</image>
 		</game>
 		<game>
 			<name>Gobliiins series</name>
