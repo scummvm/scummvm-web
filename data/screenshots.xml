@@ -3016,6 +3016,18 @@
 				<file>other/touche/scummvm_2_10_5</file>
 				<caption>Touch&eacute;: The Adventures of the Fifth Musketeer</caption>
 			</image>
+			<image>
+				<file>other/touche/touche-fr-1</file>
+				<caption>Touch&eacute;: The Adventures of the Fifth Musketeer (French)</caption>
+			</image>
+			<image>
+				<file>other/touche/touche-fr-2</file>
+				<caption>Touch&eacute;: The Adventures of the Fifth Musketeer (French)</caption>
+			</image>
+			<image>
+				<file>other/touche/touche-fr-3</file>
+				<caption>Touch&eacute;: The Adventures of the Fifth Musketeer (French)</caption>
+			</image>
 		</game>
 	</group>
 	<group>
