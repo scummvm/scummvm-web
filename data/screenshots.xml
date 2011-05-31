@@ -860,71 +860,71 @@
 			<name>Gobliiins series</name>
 			<category>gob</category>
 			<image>
-				<file>other/gob/scummvm_2_1_0</file>
+				<file>gob/gob/scummvm_2_1_0</file>
 				<caption>Gobliiins</caption>
 			</image>
 			<image>
-				<file>other/gob/scummvm_2_1_1</file>
+				<file>gob/gob/scummvm_2_1_1</file>
 				<caption>Gobliiins</caption>
 			</image>
 			<image>
-				<file>other/gob/gob1-2</file>
+				<file>gob/gob/gob1-2</file>
 				<caption>Gobliiins</caption>
 			</image>
 			<image>
-				<file>other/gob/gob1-3</file>
+				<file>gob/gob/gob1-3</file>
 				<caption>Gobliiins</caption>
 			</image>
 			<image>
-				<file>other/gob/gob1-4</file>
+				<file>gob/gob/gob1-4</file>
 				<caption>Gobliiins</caption>
 			</image>
 			<image>
-				<file>other/gob/gob1-5</file>
+				<file>gob/gob/gob1-5</file>
 				<caption>Gobliiins</caption>
 			</image>
 			<image>
-				<file>other/gob/scummvm_2_1_2</file>
+				<file>gob/gob/scummvm_2_1_2</file>
 				<caption>Gobliins 2 (CD)</caption>
 			</image>
 			<image>
-				<file>other/gob/scummvm_2_1_3</file>
+				<file>gob/gob/scummvm_2_1_3</file>
 				<caption>Gobliins 2 (CD)</caption>
 			</image>
 			<image>
-				<file>other/gob/gob2-3</file>
+				<file>gob/gob/gob2-3</file>
 				<caption>Gobliins 2 (CD)</caption>
 			</image>
 			<image>
-				<file>other/gob/gob2-4</file>
+				<file>gob/gob/gob2-4</file>
 				<caption>Gobliins 2 (CD)</caption>
 			</image>
 			<image>
-				<file>other/gob/gob2-5</file>
+				<file>gob/gob/gob2-5</file>
 				<caption>Gobliins 2 (CD)</caption>
 			</image>
 			<image>
-				<file>other/gob/scummvm_2_1_5</file>
+				<file>gob/gob/scummvm_2_1_5</file>
 				<caption>Goblins Quest 3 (DOS)</caption>
 			</image>
 			<image>
-				<file>other/gob/scummvm_2_1_6</file>
+				<file>gob/gob/scummvm_2_1_6</file>
 				<caption>Goblins Quest 3 (DOS)</caption>
 			</image>
 			<image>
-				<file>other/gob/scummvm_2_1_7</file>
+				<file>gob/gob/scummvm_2_1_7</file>
 				<caption>Goblins Quest 3 (DOS)</caption>
 			</image>
 			<image>
-				<file>other/gob/gob3-3</file>
+				<file>gob/gob/gob3-3</file>
 				<caption>Goblins Quest 3 (DOS)</caption>
 			</image>
 			<image>
-				<file>other/gob/gob3-4</file>
+				<file>gob/gob/gob3-4</file>
 				<caption>Goblins Quest 3 (DOS)</caption>
 			</image>
 			<image>
-				<file>other/gob/gob3-5</file>
+				<file>gob/gob/gob3-5</file>
 				<caption>Goblins Quest 3 (DOS)</caption>
 			</image>
 		</game>
