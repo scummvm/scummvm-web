@@ -2912,6 +2912,18 @@
 				<file>other/nippon/nippon-3</file>
 				<caption>Nippon Safes Inc. (DOS)</caption>
 			</image>
+			<image>
+				<file>other/nippon/nippon-amiga-fr-1</file>
+				<caption>Nippon Safes Inc. (Amiga/French)</caption>
+			</image>
+			<image>
+				<file>other/nippon/nippon-amiga-fr-2</file>
+				<caption>Nippon Safes Inc. (Amiga/French)</caption>
+			</image>
+			<image>
+				<file>other/nippon/nippon-amiga-de-1</file>
+				<caption>Nippon Safes Inc. (Amiga/German)</caption>
+			</image>
 		</game>
 		<game>
 			<name>The Legend of Kyrandia series</name>
