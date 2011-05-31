@@ -975,6 +975,14 @@
 				<file>gob/ween/scummvm_2_9_3</file>
 				<caption>Ween: The Prophecy</caption>
 			</image>
+			<image>
+				<file>gob/ween/ween-amiga-fr-1</file>
+				<caption>Ween: The Prophecy (Amiga/French)</caption>
+			</image>
+			<image>
+				<file>gob/ween/ween-amiga-fr-2</file>
+				<caption>Ween: The Prophecy (Amiga/French)</caption>
+			</image>
 		</game>
 	</group>
 	<group>
