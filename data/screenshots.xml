@@ -2163,12 +2163,16 @@
 				<caption>Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals</caption>
 			</image>
 			<image>
-				<file>sci/lsl/lsl3-de-1</file>
-				<caption>Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals (German)</caption>
+				<file>sci/lsl/lsl5-amiga-1</file>
+				<caption>Leisure Suit Larry 5: Passionate Patti Does Some Undercover Work (Amiga)</caption>
 			</image>
 			<image>
-				<file>sci/lsl/lsl5-pl-1</file>
-				<caption>Leisure Suit Larry 5: Passionate Patti Does Some Undercover Work (Polish)</caption>
+				<file>sci/lsl/lsl5-amiga-2</file>
+				<caption>Leisure Suit Larry 5: Passionate Patti Does Some Undercover Work (Amiga)</caption>
+			</image>
+			<image>
+				<file>sci/lsl/lsl3-de-1</file>
+				<caption>Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals (German)</caption>
 			</image>
 			<image>
 				<file>sci/lsl/lsl5-de-1</file>
@@ -2185,6 +2189,10 @@
 			<image>
 				<file>sci/lsl/lsl5-de-4</file>
 				<caption>Leisure Suit Larry 5: Passionate Patti Does Some Undercover Work (German)</caption>
+			</image>
+			<image>
+				<file>sci/lsl/lsl5-pl-1</file>
+				<caption>Leisure Suit Larry 5: Passionate Patti Does Some Undercover Work (Polish)</caption>
 			</image>
 			<image>
 				<file>sci/lsl/lsl6-1</file>
