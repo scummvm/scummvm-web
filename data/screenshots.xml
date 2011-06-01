@@ -2098,6 +2098,10 @@
 				<file>sci/lsl/lsl6-4</file>
 				<caption>Leisure Suit Larry 6: Shape Up or Slip Out!</caption>
 			</image>
+			<image>
+				<file>sci/lsl/lsl6-de-1</file>
+				<caption>Leisure Suit Larry 6: Shape Up or Slip Out! (German)</caption>
+			</image>
 		</game>
 		<game>
 			<name>Pepper's Adventure in Time</name>
