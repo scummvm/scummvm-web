@@ -3462,6 +3462,42 @@
 			</image>
 		</game>
 		<game>
+			<name>Just Grandma and Me</name>
+			<category>grandma</category>
+			<image>
+				<file>livingbooks/grandma/grandma-win-1</file>
+				<caption>Just Grandma and Me</caption>
+			</image>
+			<image>
+				<file>livingbooks/grandma/grandma-win-2</file>
+				<caption>Just Grandma and Me</caption>
+			</image>
+			<image>
+				<file>livingbooks/grandma/grandma-win-3</file>
+				<caption>Just Grandma and Me</caption>
+			</image>
+			<image>
+				<file>livingbooks/grandma/grandma-win-4</file>
+				<caption>Just Grandma and Me</caption>
+			</image>
+			<image>
+				<file>livingbooks/grandma/grandma-win-jp-1</file>
+				<caption>Just Grandma and Me (Japanese)</caption>
+			</image>
+			<image>
+				<file>livingbooks/grandma/grandma-win-jp-2</file>
+				<caption>Just Grandma and Me (Japanese)</caption>
+			</image>
+			<image>
+				<file>livingbooks/grandma/grandma-win-es-1</file>
+				<caption>Just Grandma and Me (Spanish)</caption>
+			</image>
+			<image>
+				<file>livingbooks/grandma/grandma-win-es-2</file>
+				<caption>Just Grandma and Me (Spanish)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Little Monster at School</name>
 			<category>lilmonster</category>
 			<image>
