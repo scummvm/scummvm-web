@@ -1655,6 +1655,30 @@
 				<file>sci/drbrain/castlebrain-de-2</file>
 				<caption>The Castle of Dr. Brain (VGA/German)</caption>
 			</image>
+			<image>
+				<file>sci/drbrain/islandbrain-1</file>
+				<caption>The Island of Dr. Brain</caption>
+			</image>
+			<image>
+				<file>sci/drbrain/islandbrain-2</file>
+				<caption>The Island of Dr. Brain</caption>
+			</image>
+			<image>
+				<file>sci/drbrain/islandbrain-3</file>
+				<caption>The Island of Dr. Brain</caption>
+			</image>
+			<image>
+				<file>sci/drbrain/islandbrain-4</file>
+				<caption>The Island of Dr. Brain</caption>
+			</image>
+			<image>
+				<file>sci/drbrain/islandbrain-5</file>
+				<caption>The Island of Dr. Brain</caption>
+			</image>
+			<image>
+				<file>sci/drbrain/islandbrain-6</file>
+				<caption>The Island of Dr. Brain</caption>
+			</image>
 		</game>
 		<game>
 			<name>Codename: ICEMAN</name>
