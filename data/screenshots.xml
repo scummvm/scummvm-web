@@ -989,6 +989,34 @@
 			</image>
 		</game>
 		<game>
+			<name>Urban Runner</name>
+			<category>urban</category>
+			<image>
+				<file>gob/urban/urban-1</file>
+				<caption>Urban Runner</caption>
+			</image>
+			<image>
+				<file>gob/urban/urban-2</file>
+				<caption>Urban Runner</caption>
+			</image>
+			<image>
+				<file>gob/urban/urban-3</file>
+				<caption>Urban Runner</caption>
+			</image>
+			<image>
+				<file>gob/urban/urban-4</file>
+				<caption>Urban Runner</caption>
+			</image>
+			<image>
+				<file>gob/urban/urban-5</file>
+				<caption>Urban Runner</caption>
+			</image>
+			<image>
+				<file>gob/urban/urban-6</file>
+				<caption>Urban Runner</caption>
+			</image>
+		</game>
+		<game>
 			<name>Ween: The Prophecy</name>
 			<category>ween</category>
 			<image>
