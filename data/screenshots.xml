@@ -788,12 +788,20 @@
 				<caption>The Bizarre Adventures of Woodruff and the Schnibble</caption>
 			</image>
 			<image>
+				<file>gob/woodruff/woodruff-fr-1</file>
+				<caption>The Bizarre Adventures of Woodruff and the Schnibble (French)</caption>
+			</image>
+			<image>
+				<file>gob/woodruff/woodruff-fr-2</file>
+				<caption>The Bizarre Adventures of Woodruff and the Schnibble (French)</caption>
+			</image>
+			<image>
 				<file>gob/woodruff/woodruff-de-1</file>
-				<caption>The Bizarre Adventures of Woodruff and the Schnibble (DOS German)</caption>
+				<caption>The Bizarre Adventures of Woodruff and the Schnibble (German)</caption>
 			</image>
 			<image>
 				<file>gob/woodruff/woodruff-de-2</file>
-				<caption>The Bizarre Adventures of Woodruff and the Schnibble (DOS German)</caption>
+				<caption>The Bizarre Adventures of Woodruff and the Schnibble (German)</caption>
 			</image>
 			<image>
 				<file>gob/woodruff/woodruff-es-1</file>
