@@ -1629,30 +1629,30 @@
 			</image>
 		</game>
 		<game>
-			<name>The Castle of Dr. Brain</name>
+			<name>Dr. Brain series</name>
 			<category>castlebrain</category>
 			<image>
-				<file>sci/castlebrain/castlebrain-ega-1</file>
+				<file>sci/drbrain/castlebrain-ega-1</file>
 				<caption>The Castle of Dr. Brain (EGA)</caption>
 			</image>
 			<image>
-				<file>sci/castlebrain/castlebrain-ega-2</file>
+				<file>sci/drbrain/castlebrain-ega-2</file>
 				<caption>The Castle of Dr. Brain (EGA)</caption>
 			</image>
 			<image>
-				<file>sci/castlebrain/castlebrain-vga-1</file>
+				<file>sci/drbrain/castlebrain-vga-1</file>
 				<caption>The Castle of Dr. Brain (VGA)</caption>
 			</image>
 			<image>
-				<file>sci/castlebrain/castlebrain-vga-2</file>
+				<file>sci/drbrain/castlebrain-vga-2</file>
 				<caption>The Castle of Dr. Brain (VGA)</caption>
 			</image>
 			<image>
-				<file>sci/castlebrain/castlebrain-de-1</file>
+				<file>sci/drbrain/castlebrain-de-1</file>
 				<caption>The Castle of Dr. Brain (VGA/German)</caption>
 			</image>
 			<image>
-				<file>sci/castlebrain/castlebrain-de-2</file>
+				<file>sci/drbrain/castlebrain-de-2</file>
 				<caption>The Castle of Dr. Brain (VGA/German)</caption>
 			</image>
 		</game>
