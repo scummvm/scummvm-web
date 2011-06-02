@@ -968,7 +968,7 @@
 			<game>
 				<name>The Legend of Kyrandia: Book Two: Hand of Fate</name>
 				<target>kyra2</target>
-				<percent>85</percent>
+				<percent>90</percent>
 				<notes>
 					Game is completable<h:br />- Requires the kyra.dat resource file to be placed in the game directory<h:br />- DOS, FM-TOWNS and PC-9821 versions are supported
 				</notes>
@@ -976,7 +976,7 @@
 			<game>
 				<name>The Legend of Kyrandia: Book Three: Malcolm's Revenge</name>
 				<target>kyra3</target>
-				<percent>80</percent>
+				<percent>90</percent>
 				<notes>
 					Game is completable<h:br />- Requires the kyra.dat resource file to be placed in the game directory<h:br />- DOS and Macintosh versions are supported
 				</notes>
