@@ -393,14 +393,12 @@
 			<title>{$release_tools} Tools</title>
 			<anchor>tools</anchor>
 			<entries>
-<!--
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-win32.exe?download</url>
 					<name>Tools - Windows Installer</name>
 					<extra_info>(1.8M Win32 .exe)</extra_info>
 				</file>
--->
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-win32.zip?download</url>
