@@ -296,14 +296,14 @@
 					<category_icon>catpl-irix.png</category_icon>
 					<url>scummvm-{$release}-irix-mips3.tar.gz?download</url>
 					<name>IRIX (6.5.*, n32, mips3) package</name>
-					<extra_info>(6.6M .tar.gz)</extra_info>
+					<extra_info>(7.1M .tar.gz)</extra_info>
 				</file>
 
 				<file>
 					<category_icon>catpl-irix.png</category_icon>
 					<url>scummvm-{$release}-irix-mips4.tar.gz?download</url>
 					<name>IRIX (6.5.*, n32, mips4) package</name>
-					<extra_info>(6.8M .tar.gz)</extra_info>
+					<extra_info>(7.4M .tar.gz)</extra_info>
 				</file>
 <!--
 				<file>
@@ -397,13 +397,13 @@
 					<category_icon>catpl-windows.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-win32.exe?download</url>
 					<name>Tools - Windows Installer</name>
-					<extra_info>(1.8M Win32 .exe)</extra_info>
+					<extra_info>(1.9M Win32 .exe)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-win32.zip?download</url>
 					<name>Tools - Windows zipfile</name>
-					<extra_info>(3.3M Win32 .zip)</extra_info>
+					<extra_info>(3.5M Win32 .zip)</extra_info>
 				</file>
 <!--
 				<file>
@@ -584,20 +584,6 @@
 					<url>scummvm-1.2.1-openpandora.zip?download</url>
 					<name>1.2.1 OpenPandora package</name>
 					<extra_info>(6.9M .zip)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-irix.png</category_icon>
-					<url>scummvm-1.2.1-irix-mips3.tar.gz?download</url>
-					<name>1.2.1 IRIX (6.5.*, n32, mips3) package</name>
-					<extra_info>(6.6M .tar.gz)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-irix.png</category_icon>
-					<url>scummvm-1.2.1-irix-mips4.tar.gz?download</url>
-					<name>1.2.1 IRIX (6.5.*, n32, mips4) package</name>
-					<extra_info>(6.8M .tar.gz)</extra_info>
 				</file>
 
 				<file>
