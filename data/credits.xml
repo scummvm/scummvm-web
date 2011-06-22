@@ -8,11 +8,6 @@
 			<group>
 				<name></name>
 				<person>
-					<name>Max Horn</name>
-					<alias>Fingolfin</alias>
-					<description></description>
-				</person>
-				<person>
 					<name>Eugene Sandulenko</name>
 					<alias>sev</alias>
 					<description></description>
@@ -32,6 +27,11 @@
 					<name>Vincent Hamm</name>
 					<alias>yaz0r</alias>
 					<description>ScummVM co-founder, Original Cruise/CinE author</description>
+				</person>
+				<person>
+					<name>Max Horn</name>
+					<alias>Fingolfin</alias>
+					<description></description>
 				</person>
 				<person>
 					<name>Ludvig Strigeus</name>
@@ -67,7 +67,7 @@
 				<person>
 					<name>Max Horn</name>
 					<alias>Fingolfin</alias>
-					<description></description>
+					<description>(retired)</description>
 				</person>
 				<person>
 					<name>Travis Howell</name>
@@ -190,89 +190,7 @@
 				</person>
 			</group>
 			<group>
-				<name>BASS</name>
-				<person>
-					<name>Robert G&ouml;ffringmann</name>
-					<alias>lavosspawn</alias>
-					<description>(retired)</description>
-				</person>
-				<person>
-					<name>Oliver Kiehl</name>
-					<alias>olki</alias>
-					<description>(retired)</description>
-				</person>
-				<person>
-					<name>Joost Peters</name>
-					<alias>joostp</alias>
-					<description></description>
-				</person>
-			</group>
-			<group>
-				<name>Broken Sword</name>
-				<person>
-					<name>Fabio Battaglia</name>
-					<alias>Hkz</alias>
-					<description>PSX version support</description>
-				</person>
-				<person>
-					<name>Thierry Crozat</name>
-					<alias>criezy</alias>
-					<description>Mac version support</description>
-				</person>
-				<person>
-					<name>Robert G&ouml;ffringmann</name>
-					<alias>lavosspawn</alias>
-					<description>(retired)</description>
-				</person>
-			</group>
-			<group>
-				<name>Broken Sword II</name>
-				<person>
-					<name>Torbj&ouml;rn Andersson</name>
-					<alias>eriktorbjorn</alias>
-					<description></description>
-				</person>
-				<person>
-					<name>Fabio Battaglia</name>
-					<alias>Hkz</alias>
-					<description>PSX version support</description>
-				</person>
-				<person>
-					<name>Jonathan Gray</name>
-					<alias>khalek</alias>
-					<description>(retired)</description>
-				</person>
-			</group>
-			<group>
-				<name>Broken Sword 2.5</name>
-				<person>
-					<name>Eugene Sandulenko</name>
-					<alias>sev</alias>
-					<description></description>
-				</person>
-				<person>
-					<name>Filippos Karapetis</name>
-					<alias>[md5]</alias>
-					<description></description>
-				</person>
-				<person>
-					<name>Max Horn</name>
-					<alias>Fingolfin</alias>
-					<description></description>
-				</person>
-				<person>
-					<name>Paul Gilbert</name>
-					<alias>dreammaster</alias>
-					<description></description>
-				</person>
-				<person>
-					<name>Torbj&ouml;rn Andersson</name>
-					<alias>eriktorbjorn</alias>
-					<description></description>
-				</person>
-			</group>
-			<group>
-				<name>Cinematique evo 1</name>
+				<name>Cine</name>
 				<person>
 					<name>Vincent Hamm</name>
 					<alias>yaz0r</alias>
@@ -300,7 +218,7 @@
 				</person>
 			</group>
 			<group>
-				<name>Cinematique evo 2</name>
+				<name>CruisE</name>
 				<person>
 					<name>Paul Gilbert</name>
 					<alias>dreammaster</alias>
@@ -339,20 +257,15 @@
 				</person>
 			</group>
 			<group>
-				<name>FOTAQ</name>
+				<name>DreamWeb</name>
 				<person>
-					<name>David Eriksson</name>
-					<alias>twogood</alias>
-					<description>(retired)</description>
-				</person>
-				<person>
-					<name>Gregory Montoir</name>
-					<alias>cyx</alias>
+					<name>Vladimir Menshakov</name>
+					<alias>whoozle</alias>
 					<description></description>
 				</person>
 				<person>
-					<name>Joost Peters</name>
-					<alias>joostp</alias>
+					<name>Torbj&ouml;rn Andersson</name>
+					<alias>eriktorbjorn</alias>
 					<description></description>
 				</person>
 			</group>
@@ -444,7 +357,7 @@
 				</person>
 			</group>
 			<group>
-				<name>Last Express</name>
+				<name>Lastexpress</name>
 				<person>
 					<name>Matthew Hoops</name>
 					<alias>clone2727</alias>
@@ -547,6 +460,24 @@
 				</person>
 			</group>
 			<group>
+				<name>Queen</name>
+				<person>
+					<name>David Eriksson</name>
+					<alias>twogood</alias>
+					<description>(retired)</description>
+				</person>
+				<person>
+					<name>Gregory Montoir</name>
+					<alias>cyx</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Joost Peters</name>
+					<alias>joostp</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>SAGA</name>
 				<person>
 					<name>Torbj&ouml;rn Andersson</name>
@@ -584,7 +515,7 @@
 				<person>
 					<name>Max Horn</name>
 					<alias>Fingolfin</alias>
-					<description></description>
+					<description>(retired)</description>
 				</person>
 				<person>
 					<name>Filippos Karapetis</name>
@@ -614,6 +545,88 @@
 				<person>
 					<name>Lars Skovlund</name>
 					<alias>lskovlun</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Sky</name>
+				<person>
+					<name>Robert G&ouml;ffringmann</name>
+					<alias>lavosspawn</alias>
+					<description>(retired)</description>
+				</person>
+				<person>
+					<name>Oliver Kiehl</name>
+					<alias>olki</alias>
+					<description>(retired)</description>
+				</person>
+				<person>
+					<name>Joost Peters</name>
+					<alias>joostp</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Sword1</name>
+				<person>
+					<name>Fabio Battaglia</name>
+					<alias>Hkz</alias>
+					<description>PSX version support</description>
+				</person>
+				<person>
+					<name>Thierry Crozat</name>
+					<alias>criezy</alias>
+					<description>Mac version support</description>
+				</person>
+				<person>
+					<name>Robert G&ouml;ffringmann</name>
+					<alias>lavosspawn</alias>
+					<description>(retired)</description>
+				</person>
+			</group>
+			<group>
+				<name>Sword2</name>
+				<person>
+					<name>Torbj&ouml;rn Andersson</name>
+					<alias>eriktorbjorn</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Fabio Battaglia</name>
+					<alias>Hkz</alias>
+					<description>PSX version support</description>
+				</person>
+				<person>
+					<name>Jonathan Gray</name>
+					<alias>khalek</alias>
+					<description>(retired)</description>
+				</person>
+			</group>
+			<group>
+				<name>Sword25</name>
+				<person>
+					<name>Eugene Sandulenko</name>
+					<alias>sev</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Filippos Karapetis</name>
+					<alias>[md5]</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Max Horn</name>
+					<alias>Fingolfin</alias>
+					<description>(retired)</description>
+				</person>
+				<person>
+					<name>Paul Gilbert</name>
+					<alias>dreammaster</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Torbj&ouml;rn Andersson</name>
+					<alias>eriktorbjorn</alias>
 					<description></description>
 				</person>
 			</group>
@@ -655,7 +668,7 @@
 				<person>
 					<name>Max Horn</name>
 					<alias>Fingolfin</alias>
-					<description></description>
+					<description>(retired)</description>
 				</person>
 				<person>
 					<name>Filippos Karapetis</name>
@@ -793,9 +806,14 @@
 					<description>(retired)</description>
 				</person>
 				<person>
+					<name>Ismail Khatib</name>
+					<alias>CeRiAl</alias>
+					<description></description>
+				</person>
+				<person>
 					<name>Kostas Nakos</name>
 					<alias>Jubanka</alias>
-					<description></description>
+					<description>(retired)</description>
 				</person>
 			</group>
 			<group>
@@ -829,7 +847,7 @@
 				<person>
 					<name>Max Horn</name>
 					<alias>Fingolfin</alias>
-					<description></description>
+					<description>(retired)</description>
 				</person>
 				<person>
 					<name>Eugene Sandulenko</name>
@@ -874,7 +892,7 @@
 				<person>
 					<name>Max Horn</name>
 					<alias>Fingolfin</alias>
-					<description>Backend &amp; Engine APIs, file API, sound mixer, audiostreams, data structures, etc.</description>
+					<description>Backend &amp; Engine APIs, file API, sound mixer, audiostreams, data structures, etc. (retired)</description>
 				</person>
 				<person>
 					<name>Eugene Sandulenko</name>
@@ -968,11 +986,6 @@
 					<name>Andre Heider</name>
 					<alias>dhewg</alias>
 					<description>Buildbot maintainer</description>
-				</person>
-				<person>
-					<name>Max Horn</name>
-					<alias>Fingolfin</alias>
-					<description>Forum, IRC channel and Mailing list maintainer</description>
 				</person>
 				<person>
 					<name>Joost Peters</name>
@@ -1142,7 +1155,7 @@
 				<person>
 					<name>Max Horn</name>
 					<alias>Fingolfin</alias>
-					<description></description>
+					<description>(retired)</description>
 				</person>
 				<person>
 					<name>Oystein Eftevaag</name>
