@@ -912,7 +912,6 @@
 				<h:p>Additional snapshot builds:</h:p>
 			</notes>
 			<entries>
-<!--
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
 					<url local_file="true">scummvm-win32.exe</url>
@@ -927,7 +926,6 @@
 					<type>daily</type>
 					<extra_info>Provided by ScummVM Team member Travis 'Kirben' Howell, updated several times daily</extra_info>
 				</file>
--->
 <!--
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
