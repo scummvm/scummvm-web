@@ -16,7 +16,7 @@
 		<entries>
 			<file>
 				<category_icon>catpl-windows.png</category_icon>
-				<url local_file="true">scummexwin32.exe</url>
+				<url local_file="true">scummex-win32.exe</url>
 				<name>Windows</name>
 				<type>daily</type>
 			</file>
