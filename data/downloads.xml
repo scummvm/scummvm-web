@@ -82,7 +82,14 @@
 					<name>Ubuntu 11.04 (natty) PowerPC package</name>
 					<extra_info>(6.3M .deb)</extra_info>
 				</file>
-
+<!--
+				<file>
+					<category_icon>catpl-ubuntu.png</category_icon>
+					<url>scummvm_{$release}-natty.1_armel.deb?download</url>
+					<name>Ubuntu 11.04 (natty) ARMv7 package</name>
+					<extra_info>(6.3M .deb)</extra_info>
+				</file>
+-->
 				<file>
 					<category_icon>catpl-slackware.png</category_icon>
 					<url>scummvm-{$release}_slack-i486-1.txz?download</url>
