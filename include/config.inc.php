@@ -1,6 +1,6 @@
 <?php
 /* Current version. */
-define('RELEASE', '1.3.0');
+define('RELEASE', '1.3.1');
 define('RELEASE_TOOLS', '1.3.0');
 define('RELEASE_DEBIAN', '1.3.0');
 
