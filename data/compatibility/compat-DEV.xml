@@ -1109,9 +1109,9 @@
 			<game>
 				<name>Blue's Birthday Adventure</name>
 				<target>BluesBirthday</target>
-				<percent>50</percent>
+				<percent>90</percent>
 				<notes>
-					Game is playable<h:br />- Both Macintosh and Windows versions supported by this target
+					Game is completable.<h:br />- Both Macintosh and Windows versions supported by this target<h:br />-Minor graphical glitches
 				</notes>
 			</game>
 			<game>
