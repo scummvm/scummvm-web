@@ -958,6 +958,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Ringworld: Revenge Of The Patriarch</name>
+				<target>ring</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.
+				</notes>
+			</game>
+			<game>
 				<name>The Legend of Kyrandia</name>
 				<target>kyra1</target>
 				<percent>90</percent>
