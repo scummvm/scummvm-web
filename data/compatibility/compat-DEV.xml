@@ -510,9 +510,9 @@
 			<game>
 				<name>Winnie the Pooh in the Hundred Acre Wood</name>
 				<target>winnie</target>
-				<percent>80</percent>
+				<percent>90</percent>
 				<notes>
-					Game is completable<h:br />- Only DOS version is supported by this target<h:br />- Game lacks sound
+					Game is completable<h:br />- Only DOS version is supported by this target
 				</notes>
 			</game>
 		</games>
