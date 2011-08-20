@@ -864,117 +864,117 @@
 		<href>lb</href>
 		<demos>
 			<demo>
-				<name>Aesop's Fables: The Tortoise and the Hare (Macintosh demo) - Requires ScummVM 1.3.0dev</name>
+				<name>Aesop's Fables: The Tortoise and the Hare (Macintosh demo)</name>
 				<url>http://demos.scummvm.org/mohawk/tortoise-demo-mac-en.zip</url>
 				<target>tortoise</target>
 			</demo>
 			<demo>
-				<name>Aesop's Fables: The Tortoise and the Hare (Windows demo) - Requires ScummVM 1.3.0dev</name>
+				<name>Aesop's Fables: The Tortoise and the Hare (Windows demo)</name>
 				<url>http://demos.scummvm.org/mohawk/tortoise-win-demo-en.zip</url>
 				<target>tortoise</target>
 			</demo>
 			<demo>
-				<name>Aesop's Fables: The Tortoise and the Hare (Windows demo alt) - Requires ScummVM 1.3.0dev</name>
+				<name>Aesop's Fables: The Tortoise and the Hare (Windows demo alt)</name>
 				<url>http://demos.scummvm.org/mohawk/tortoise-win-demo2-en-v1.1.zip</url>
 				<target>tortoise</target>
 			</demo>
 			<demo>
-				<name>Arthur's Birthday (Macintosh demo) - Requires ScummVM 1.3.0dev</name>
+				<name>Arthur's Birthday (Macintosh demo)</name>
 				<url>http://demos.scummvm.org/mohawk/arthurbday-mac-demo-en.zip</url>
 				<target>arthurbday</target>
 			</demo>
 			<demo>
-				<name>Arthur's Birthday (Windows demo) - Requires ScummVM 1.3.0dev</name>
+				<name>Arthur's Birthday (Windows demo)</name>
 				<url>http://demos.scummvm.org/mohawk/arthurbday-win-demo-en.zip</url>
 				<target>arthurbday</target>
 			</demo>
 			<demo>
-				<name>Arthur's Teacher Troubles (Macintosh demo) - Requires ScummVM 1.3.0dev</name>
+				<name>Arthur's Teacher Troubles (Macintosh demo)</name>
 				<url>http://demos.scummvm.org/mohawk/arthur-mac-demo-en.zip</url>
 				<target>arthur</target>
 			</demo>
 			<demo>
-				<name>Arthur's Teacher Troubles (Macintosh demo alt) - Requires ScummVM 1.3.0dev</name>
+				<name>Arthur's Teacher Troubles (Macintosh demo alt)</name>
 				<url>http://demos.scummvm.org/mohawk/arthur-mac-demo2-en.zip</url>
 				<target>arthur</target>
 			</demo>
 			<demo>
-				<name>Arthur's Teacher Troubles (Windows demo) - Requires ScummVM 1.3.0dev</name>
+				<name>Arthur's Teacher Troubles (Windows demo)</name>
 				<url>http://demos.scummvm.org/mohawk/arthur-win-demo-en.zip</url>
 				<target>arthur</target>
 			</demo>
 			<demo>
-				<name>Arthur's Teacher Troubles (Windows demo alt) - Requires ScummVM 1.3.0dev</name>
+				<name>Arthur's Teacher Troubles (Windows demo alt)</name>
 				<url>http://demos.scummvm.org/mohawk/arthur-win-demo-en-v1.1.zip</url>
 				<target>arthur</target>
 			</demo>
 			<demo>
-				<name>Green Eggs and Ham (Windows demo) - Requires ScummVM 1.3.0dev</name>
+				<name>Green Eggs and Ham (Windows demo)</name>
 				<url>http://demos.scummvm.org/mohawk/greeneggs-win-demo-en.zip</url>
 				<target>greeneggs</target>
 			</demo>
 			<demo>
-				<name>Just Grandma and Me (Macintosh demo) - Requires ScummVM 1.3.0dev</name>
+				<name>Just Grandma and Me (Macintosh demo)</name>
 				<url>http://demos.scummvm.org/mohawk/grandma-mac-demo-en.zip</url>
 				<target>grandma</target>
 			</demo>
 			<demo>
-				<name>Just Grandma and Me (Macintosh demo alt) - Requires ScummVM 1.3.0dev</name>
+				<name>Just Grandma and Me (Macintosh demo alt)</name>
 				<url>http://demos.scummvm.org/mohawk/grandma-mac-demo2-en.zip</url>
 				<target>grandma</target>
 			</demo>
 			<demo>
-				<name>Just Grandma and Me (Windows demo) - Requires ScummVM 1.3.0dev</name>
+				<name>Just Grandma and Me (Windows demo)</name>
 				<url>http://demos.scummvm.org/mohawk/grandma-win-demo-en.zip</url>
 				<target>grandma</target>
 			</demo>
 			<demo>
-				<name>Just Grandma and Me (Windows demo alt) - Requires ScummVM 1.3.0dev</name>
+				<name>Just Grandma and Me (Windows demo alt)</name>
 				<url>http://demos.scummvm.org/mohawk/grandma-win-demo-en-v1.1.zip</url>
 				<target>grandma</target>
 			</demo>
 			<demo>
-				<name>Living Books Sampler v1 (Macintosh demo) - Requires ScummVM 1.3.0dev</name>
+				<name>Living Books Sampler v1 (Macintosh demo)</name>
 				<url>http://demos.scummvm.org/mohawk/lbsampler-demo-mac-en-v1.zip</url>
 				<target>lbsampler</target>
 			</demo>
 			<demo>
-				<name>Living Books Sampler v1 (Windows demo) - Requires ScummVM 1.3.0dev</name>
+				<name>Living Books Sampler v1 (Windows demo)</name>
 				<url>http://demos.scummvm.org/mohawk/lbsampler-demo-win-en-v1.zip</url>
 				<target>lbsampler</target>
 			</demo>
 			<demo>
-				<name>Living Books Sampler v2 (Macintosh demo) - Requires ScummVM 1.3.0dev</name>
+				<name>Living Books Sampler v2 (Macintosh demo)</name>
 				<url>http://demos.scummvm.org/mohawk/lbsampler-demo-mac-en-v2.zip</url>
 				<target>lbsampler</target>
 			</demo>
 			<demo>
-				<name>Living Books Sampler v2 (Windows demo) - Requires ScummVM 1.3.0dev</name>
+				<name>Living Books Sampler v2 (Windows demo)</name>
 				<url>http://demos.scummvm.org/mohawk/lbsampler-demo-win-en-v2.zip</url>
 				<target>lbsampler</target>
 			</demo>
 			<demo>
-				<name>Ruff's Bone (Macintosh demo) - Requires ScummVM 1.3.0dev</name>
+				<name>Ruff's Bone (Macintosh demo)</name>
 				<url>http://demos.scummvm.org/mohawk/ruff-mac-demo-en.zip</url>
 				<target>ruff</target>
 			</demo>
 			<demo>
-				<name>Ruff's Bone (Windows demo) - Requires ScummVM 1.3.0dev</name>
+				<name>Ruff's Bone (Windows demo)</name>
 				<url>http://demos.scummvm.org/mohawk/ruff-win-demo-en.zip</url>
 				<target>ruff</target>
 			</demo>
 			<demo>
-				<name>The New Kid on the Block (Macintosh demo) - Requires ScummVM 1.3.0dev</name>
+				<name>The New Kid on the Block (Macintosh demo)</name>
 				<url>http://demos.scummvm.org/mohawk/newkid-demo-mac-en.zip</url>
 				<target>newkid</target>
 			</demo>
 			<demo>
-				<name>The New Kid on the Block (Windows demo) - Requires ScummVM 1.3.0dev</name>
+				<name>The New Kid on the Block (Windows demo)</name>
 				<url>http://demos.scummvm.org/mohawk/newkid-win-demo-en.zip</url>
 				<target>newkid</target>
 			</demo>
 			<demo>
-				<name>The New Kid on the Block (Windows demo alt) - Requires ScummVM 1.3.0dev</name>
+				<name>The New Kid on the Block (Windows demo alt)</name>
 				<url>http://demos.scummvm.org/mohawk/newkid-win-demo-en-v1.1.zip</url>
 				<target>newkid</target>
 			</demo>
@@ -1286,7 +1286,7 @@
 				<target>ihnm</target>
 			</demo>
 			<demo>
-				<name>Lands of Lore: The Throne of Chaos (DOS demo - Non-interactive) - Requires ScummVM 1.3.0dev</name>
+				<name>Lands of Lore: The Throne of Chaos (DOS demo - Non-interactive) - Requires ScummVM 1.4.0dev</name>
 				<url>http://demos.scummvm.org/kyra/lol-dos-ni-demo-en.zip</url>
 				<target>lol</target>
 			</demo>
@@ -1336,7 +1336,7 @@
 				<target>kyra2</target>
 			</demo>
 			<demo>
-				<name>Toonstruck (DOS German demo) - Requires ScummVM 1.3.0dev</name>
+				<name>Toonstruck (DOS German demo)</name>
 				<url>http://demos.scummvm.org/toon/toon-dos-demo-de.zip</url>
 				<target>toon</target>
 			</demo>
