@@ -549,7 +549,7 @@
 				<target>longbow</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
 			</game>
 			<game>
@@ -557,7 +557,7 @@
 				<target>ecoquest</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS and Windows versions are supported by this target
 				</notes>
 			</game>
 			<game>
@@ -613,7 +613,7 @@
 				<target>jones</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					Game is completable<h:br />- DOS and Windows versions are supported by this target
 				</notes>
 			</game>
 			<game>
@@ -637,7 +637,7 @@
 				<target>kq5</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS, Macintosh and Amiga versions are supported by this target<h:br />- Music in the Macintosh and Amiga versions may have glitches<h:br />- No support for Macintosh hi-res fonts
+					Game is completable<h:br />- DOS, Windows, Macintosh and Amiga versions are supported by this target<h:br />- Music in the Macintosh and Amiga versions may have glitches<h:br />- No support for Macintosh hi-res fonts
 				</notes>
 			</game>
 			<game>
@@ -813,7 +813,7 @@
 				<target>sq4</target>
 				<percent>95</percent>
 				<notes>
-					Game is completable<h:br />- DOS, Macintosh and Amiga versions are supported by this target<h:br />- Music in Macintosh and Amiga versions may have glitches<h:br />- No support for Macintosh hi-res fonts
+					Game is completable<h:br />- DOS, Windows, Macintosh and Amiga versions are supported by this target<h:br />- Music in Macintosh and Amiga versions may have glitches<h:br />- No support for Macintosh hi-res fonts
 				</notes>
 			</game>
 			<game>
