@@ -790,6 +790,14 @@
 				</person>
 			</group>
 			<group>
+				<name>BADA</name>
+				<person>
+					<name>Chris Warren-Smith</name>
+					<alias></alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>Dreamcast</name>
 				<person>
 					<name>Marcus Comstedt</name>
@@ -826,6 +834,11 @@
 				<person>
 					<name>Frantisek Dufka</name>
 					<alias>fanoush</alias>
+					<description>(retired)</description>
+				</person>
+				<person>
+					<name>Tarek Soliman</name>
+					<alias>tsoliman</alias>
 					<description></description>
 				</person>
 			</group>
