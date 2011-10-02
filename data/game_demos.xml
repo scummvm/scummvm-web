@@ -576,6 +576,11 @@
 				<target>puttzoo</target>
 			</demo>
 			<demo>
+				<name>Putt-Putt Saves the Zoo (Windows French Demo)</name>
+				<url>http://demos.scummvm.org/scumm/he/puttzoo-win-demo-fr.zip</url>
+				<target>puttzoo</target>
+			</demo>
+			<demo>
 				<name>Putt-Putt Saves the Zoo (Windows German Demo)</name>
 				<url>http://demos.scummvm.org/scumm/he/puttzoo-win-demo-de.zip</url>
 				<target>puttzoo</target>
