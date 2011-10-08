@@ -309,11 +309,6 @@
 			<group>
 				<name>DreamWeb</name>
 				<person>
-					<name>Vladimir Menshakov</name>
-					<alias>whoozle</alias>
-					<description></description>
-				</person>
-				<person>
 					<name>Torbj&ouml;rn Andersson</name>
 					<alias>eriktorbjorn</alias>
 					<description></description>
@@ -321,6 +316,11 @@
 				<person>
 					<name>Bertrand Augereau</name>
 					<alias>Tramb</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Vladimir Menshakov</name>
+					<alias>whoozle</alias>
 					<description></description>
 				</person>
 			</group>
@@ -660,13 +660,13 @@
 			<group>
 				<name>Sword25</name>
 				<person>
-					<name>Eugene Sandulenko</name>
-					<alias>sev</alias>
+					<name>Torbj&ouml;rn Andersson</name>
+					<alias>eriktorbjorn</alias>
 					<description></description>
 				</person>
 				<person>
-					<name>Filippos Karapetis</name>
-					<alias>[md5]</alias>
+					<name>Paul Gilbert</name>
+					<alias>dreammaster</alias>
 					<description></description>
 				</person>
 				<person>
@@ -675,13 +675,13 @@
 					<description>(retired)</description>
 				</person>
 				<person>
-					<name>Paul Gilbert</name>
-					<alias>dreammaster</alias>
+					<name>Filippos Karapetis</name>
+					<alias>[md5]</alias>
 					<description></description>
 				</person>
 				<person>
-					<name>Torbj&ouml;rn Andersson</name>
-					<alias>eriktorbjorn</alias>
+					<name>Eugene Sandulenko</name>
+					<alias>sev</alias>
 					<description></description>
 				</person>
 			</group>
@@ -755,13 +755,13 @@
 			<group>
 				<name>TsAGE</name>
 				<person>
-					<name>Paul Gilbert</name>
-					<alias>dreammaster</alias>
+					<name>Arnaud Boutonn&eacute;</name>
+					<alias>Strangerke</alias>
 					<description></description>
 				</person>
 				<person>
-					<name>Arnaud Boutonn&eacute;</name>
-					<alias>Strangerke</alias>
+					<name>Paul Gilbert</name>
+					<alias>dreammaster</alias>
 					<description></description>
 				</person>
 			</group>
@@ -853,14 +853,14 @@
 			<group>
 				<name>Nintendo DS</name>
 				<person>
-					<name>Neil Millstone</name>
-					<alias>agent-q</alias>
-					<description></description>
-				</person>
-				<person>
 					<name>Bertrand Augereau</name>
 					<alias>Tramb</alias>
 					<description>HQ software scaler</description>
+				</person>
+				<person>
+					<name>Neil Millstone</name>
+					<alias>agent-q</alias>
+					<description></description>
 				</person>
 			</group>
 			<group>
@@ -905,13 +905,13 @@
 			<group>
 				<name>PSP (PlayStation Portable)</name>
 				<person>
-					<name>Joost Peters</name>
-					<alias>joostp</alias>
+					<name>Yotam Barnoy</name>
+					<alias>bluddy</alias>
 					<description></description>
 				</person>
 				<person>
-					<name>Yotam Barnoy</name>
-					<alias>bluddy</alias>
+					<name>Joost Peters</name>
+					<alias>joostp</alias>
 					<description></description>
 				</person>
 			</group>
@@ -1462,14 +1462,14 @@
 					<description>Website design</description>
 				</person>
 				<person>
+					<name>William Claydon</name>
+					<alias>billwashere</alias>
+					<description>Skins for doxygen, buildbot and wiki</description>
+				</person>
+				<person>
 					<name>Yaroslav Fedevych</name>
 					<alias>jafd</alias>
 					<description>HTML/CSS for the website</description>
-				</person>
-				<person>
-					<name>David Jensen</name>
-					<alias>Tyst</alias>
-					<description>SVG logo conversion</description>
 				</person>
 				<person>
 					<name>Jean Marc Gimenez</name>
@@ -1477,14 +1477,14 @@
 					<description>ScummVM logo</description>
 				</person>
 				<person>
+					<name>David Jensen</name>
+					<alias>Tyst</alias>
+					<description>SVG logo conversion</description>
+				</person>
+				<person>
 					<name>???</name>
 					<alias>Raina</alias>
 					<description>ScummVM forum buttons</description>
-				</person>
-				<person>
-					<name>William Claydon</name>
-					<alias>billwashere</alias>
-					<description>Skins for doxygen, buildbot and wiki</description>
 				</person>
 			</group>
 		</subsection>
@@ -1614,94 +1614,34 @@
 			<group>
 				<name></name>
 				<person>
-					<name>Anders Baden Nielsen</name>
-					<alias></alias>
-					<description>PPC testing</description>
-				</person>
-				<person>
-					<name>Bas Zoetekouw</name>
-					<alias></alias>
-					<description>Man pages, debian package management, CVS maintenance</description>
-				</person>
-				<person>
-					<name>Carl Muckenhoupt</name>
-					<alias></alias>
-					<description>Sources to the SCI resource viewer tools that started it all</description>
-				</person>
-				<person>
-					<name>Chris Kehler</name>
-					<alias></alias>
-					<description>Makefile enhancements</description>
-				</person>
-				<person>
-					<name>Christoph Reichenbach</name>
-					<alias></alias>
-					<description>UN*X code, VM/Graphics/Sound/other infrastructure</description>
-				</person>
-				<person>
-					<name>Christopher T. Lansdown</name>
-					<alias></alias>
-					<description>Original CVS maintainer, Alpha compatibility fixes</description>
-				</person>
-				<person>
-					<name>Claudio Matsuoka</name>
-					<alias></alias>
-					<description>CVS snapshots, daily builds, BeOS and cygwin ports</description>
-				</person>
-				<person>
-					<name>Dark Minister</name>
-					<alias></alias>
-					<description>SCI research (bytecode and parser)</description>
-				</person>
-				<person>
-					<name>Dmitry Jemerov</name>
-					<alias></alias>
-					<description>Port to the Win32 platform, numerous bugfixes</description>
-				</person>
-				<person>
-					<name>Emmanuel Jeandel</name>
-					<alias></alias>
-					<description>Bugfixes and bug reports</description>
-				</person>
-				<person>
 					<name>Francois-R Boyer</name>
 					<alias></alias>
 					<description>MT-32 information and mapping code</description>
 				</person>
 				<person>
-					<name>George Reid</name>
+					<name>Rainer Canavan</name>
 					<alias></alias>
-					<description>FreeBSD package management</description>
+					<description>IRIX MIDI driver and bug fixes</description>
 				</person>
 				<person>
-					<name>Hubert Maier</name>
+					<name>Xiaojun Chen</name>
 					<alias></alias>
-					<description>AmigaOS 4 port</description>
+					<description></description>
 				</person>
 				<person>
-					<name>Hugues Valois</name>
+					<name>Paul David Doherty</name>
 					<alias></alias>
-					<description>Game selection menu</description>
+					<description>Game version information</description>
 				</person>
 				<person>
-					<name>Johannes Manhave</name>
+					<name>Vyacheslav Dikonov</name>
 					<alias></alias>
-					<description>Document format translation</description>
+					<description>Config script improvements</description>
 				</person>
 				<person>
-					<name>Jordi Vilalta</name>
+					<name>Ruediger Hanke</name>
 					<alias></alias>
-					<description>Numerous code and website clean-up patches</description>
-				</person>
-				<person>
-					<name>Lars Skovlund</name>
-					<alias></alias>
-					<description>Project maintenance, most documentation, bugfixes, SCI1 support</description>
-				</person>
-				<person>
-					<name>Magnus Reftel</name>
-					<alias></alias>
-					<description>Heap implementation, Python class viewer, bugfixes</description>
+					<description>Port to the MorphOS platform</description>
 				</person>
 				<person>
 					<name>Matt Hargett</name>
@@ -1714,54 +1654,29 @@
 					<description>SetJump implementation</description>
 				</person>
 				<person>
-					<name>Paul David Doherty</name>
-					<alias></alias>
-					<description>Game version information</description>
-				</person>
-				<person>
-					<name>Petr Vyhnak</name>
-					<alias></alias>
-					<description>The DCL-INFLATE algorithm, many Win32 improvements</description>
-				</person>
-				<person>
-					<name>Rainer Canavan</name>
-					<alias></alias>
-					<description>IRIX MIDI driver and bug fixes</description>
-				</person>
-				<person>
-					<name>Rainer De Temple</name>
-					<alias></alias>
-					<description>SCI research</description>
-				</person>
-				<person>
 					<name>Ravi I.</name>
 					<alias></alias>
 					<description>SCI0 sound resource specification</description>
 				</person>
 				<person>
-					<name>Ruediger Hanke</name>
+					<name>Emmanuel Jeandel</name>
 					<alias></alias>
-					<description>Port to the MorphOS platform</description>
+					<description>Bugfixes and bug reports</description>
 				</person>
 				<person>
-					<name>Rune Orsval</name>
+					<name>Dmitry Jemerov</name>
 					<alias></alias>
-					<description>Configuration file editor</description>
+					<description>Port to the Win32 platform, numerous bugfixes</description>
 				</person>
 				<person>
-					<name>Rickard Lind</name>
+					<name>Chris Kehler</name>
 					<alias></alias>
-					<description>MT-32->GM MIDI mapping magic, sound research</description>
+					<description>Makefile enhancements</description>
 				</person>
 				<person>
-					<name>Rink Springer</name>
+					<name>Christopher T. Lansdown</name>
 					<alias></alias>
-					<description>Port to the DOS platform, several bug fixes</description>
-				</person>
-				<person>
-					<name>Robey Pointer</name>
-					<alias></alias>
-					<description>Bug tracking system hosting</description>
+					<description>Original CVS maintainer, Alpha compatibility fixes</description>
 				</person>
 				<person>
 					<name>Sergey Lapin</name>
@@ -1769,14 +1684,39 @@
 					<description>Port of Carl's type 2 decompression code</description>
 				</person>
 				<person>
-					<name>Solomon Peachy</name>
+					<name>Rickard Lind</name>
 					<alias></alias>
-					<description>SDL ports and much of the sound subsystem</description>
+					<description>MT-32->GM MIDI mapping magic, sound research</description>
 				</person>
 				<person>
-					<name>Vyacheslav Dikonov</name>
+					<name>Hubert Maier</name>
 					<alias></alias>
-					<description>Config script improvements</description>
+					<description>AmigaOS 4 port</description>
+				</person>
+				<person>
+					<name>Johannes Manhave</name>
+					<alias></alias>
+					<description>Document format translation</description>
+				</person>
+				<person>
+					<name>Claudio Matsuoka</name>
+					<alias></alias>
+					<description>CVS snapshots, daily builds, BeOS and cygwin ports</description>
+				</person>
+				<person>
+					<name>Dark Minister</name>
+					<alias></alias>
+					<description>SCI research (bytecode and parser)</description>
+				</person>
+				<person>
+					<name>Carl Muckenhoupt</name>
+					<alias></alias>
+					<description>Sources to the SCI resource viewer tools that started it all</description>
+				</person>
+				<person>
+					<name>Anders Baden Nielsen</name>
+					<alias></alias>
+					<description>PPC testing</description>
 				</person>
 				<person>
 					<name>Walter van Niftrik</name>
@@ -1784,14 +1724,74 @@
 					<description>Ports to the Dreamcast and GP32 platforms</description>
 				</person>
 				<person>
-					<name>Xiaojun Chen</name>
+					<name>Rune Orsval</name>
 					<alias></alias>
-					<description></description>
+					<description>Configuration file editor</description>
+				</person>
+				<person>
+					<name>Solomon Peachy</name>
+					<alias></alias>
+					<description>SDL ports and much of the sound subsystem</description>
+				</person>
+				<person>
+					<name>Robey Pointer</name>
+					<alias></alias>
+					<description>Bug tracking system hosting</description>
+				</person>
+				<person>
+					<name>Magnus Reftel</name>
+					<alias></alias>
+					<description>Heap implementation, Python class viewer, bugfixes</description>
+				</person>
+				<person>
+					<name>Christoph Reichenbach</name>
+					<alias></alias>
+					<description>UN*X code, VM/Graphics/Sound/other infrastructure</description>
+				</person>
+				<person>
+					<name>George Reid</name>
+					<alias></alias>
+					<description>FreeBSD package management</description>
+				</person>
+				<person>
+					<name>Lars Skovlund</name>
+					<alias></alias>
+					<description>Project maintenance, most documentation, bugfixes, SCI1 support</description>
+				</person>
+				<person>
+					<name>Rink Springer</name>
+					<alias></alias>
+					<description>Port to the DOS platform, several bug fixes</description>
+				</person>
+				<person>
+					<name>Rainer De Temple</name>
+					<alias></alias>
+					<description>SCI research</description>
 				</person>
 				<person>
 					<name>Sean Terrell</name>
 					<alias></alias>
 					<description></description>
+				</person>
+				<person>
+					<name>Hugues Valois</name>
+					<alias></alias>
+					<description>Game selection menu</description>
+				</person>
+				<person>
+					<name>Jordi Vilalta</name>
+					<alias></alias>
+					<description>Numerous code and website clean-up patches</description>
+				</person>
+				<person>
+					<name>Petr Vyhnak</name>
+					<alias></alias>
+					<description>The DCL-INFLATE algorithm, many Win32 improvements</description>
+				</person>
+				<person>
+					<name>Bas Zoetekouw</name>
+					<alias></alias>
+					<description>Man pages, debian package management, CVS maintenance</description>
 				</person>
 			</group>
 		<paragraph>Special thanks to Prof. Dr. Gary Nutt for allowing the FreeSCI VM extension as a course project in his Advanced OS course.</paragraph>
