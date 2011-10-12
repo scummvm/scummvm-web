@@ -541,6 +541,11 @@
 				<target>puttcircus</target>
 			</demo>
 			<demo>
+				<name>Putt-Putt Joins the Circus (Windows French Demo)</name>
+				<url>http://demos.scummvm.org/scumm/he/puttcircus-win-demo-fr.zip</url>
+				<target>puttcircus</target>
+			</demo>
+			<demo>
 				<name>Putt-Putt Joins the Parade (DOS demo)</name>
 				<url>http://demos.scummvm.org/scumm/he/puttputt-dos-demo-us.zip</url>
 				<target>puttputt</target>
@@ -663,6 +668,11 @@
 			<demo>
 				<name>SPY Fox 3: Operation Ozone (Windows Demo)</name>
 				<url>http://demos.scummvm.org/scumm/he/spyozon-win-demo-us.zip</url>
+				<target>spyozon</target>
+			</demo>
+			<demo>
+				<name>SPY Fox 3: Operation Ozone (Windows French Demo)</name>
+				<url>http://demos.scummvm.org/scumm/he/spyozon-win-demo-fr.zip</url>
 				<target>spyozon</target>
 			</demo>
 			<demo>
