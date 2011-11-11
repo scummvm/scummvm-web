@@ -103,14 +103,14 @@
 					<name>Mac OS X Universal Disk Image</name>
 					<extra_info>(15.3M disk image)</extra_info>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-ps2.png</category_icon>
 					<url>scummvm-{$release}-ps2.zip?download</url>
 					<name>PlayStation2 package</name>
-					<extra_info>(10.4M .zip)</extra_info>
+					<extra_info>(11.9M .zip)</extra_info>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-ps3.png</category_icon>
 					<url>scummvm-{$release}-ps3.zip?download</url>
@@ -577,13 +577,6 @@
 					<url>scummvm_1.3.1-natty.1_armel.deb?download</url>
 					<name>1.3.1 Ubuntu 11.04 (natty) ARMv7 package</name>
 					<extra_info>(5.8M .deb)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-ps2.png</category_icon>
-					<url>scummvm-1.3.1-ps2.zip?download</url>
-					<name>1.3.1 PlayStation2 package</name>
-					<extra_info>(10.4M .zip)</extra_info>
 				</file>
 
 				<file>
