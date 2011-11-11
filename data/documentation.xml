@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <documentation xmlns:h="http://www.w3.org/TR/html4/">
 	<document>
 		<name>README {$release}</name>
@@ -6,7 +6,7 @@
 		<description>The ScummVM README, for version {$release}</description>
 	</document>
 	<document>
-		<name>Přečti mě {$release}</name>
+		<name>Precti me {$release}</name>
 		<url>http://github.com/scummvm/scummvm/raw/v{$release}/doc/cz/PrectiMe</url>
 		<description>The ScummVM README in Czech, for version {$release}</description>
 	</document>
@@ -16,12 +16,12 @@
 		<description>The ScummVM README in German, for version {$release}</description>
 	</document>
 	<document>
-		<name>Inicio Rápido {$release}</name>
+		<name>Inicio R�pido {$release}</name>
 		<url>http://github.com/scummvm/scummvm/raw/v{$release}/doc/es/InicioRapido</url>
 		<description>The ScummVM Quick Start in Spanish, for version {$release}</description>
 	</document>
 	<document>
-		<name>Démarrage Rapide {$release}</name>
+		<name>D�marrage Rapide {$release}</name>
 		<url>http://github.com/scummvm/scummvm/raw/v{$release}/doc/fr/DemarrageRapide</url>
 		<description>The ScummVM Quick Start in French, for version {$release}</description>
 	</document>
@@ -33,7 +33,7 @@
 	<document>
 		<name>Hurtig Start {$release}</name>
 		<url>http://github.com/scummvm/scummvm/raw/v{$release}/doc/no-nb/HurtigStart</url>
-		<description>The ScummVM Quick Start in Norwegian Bokmål, for version {$release}</description>
+		<description>The ScummVM Quick Start in Norwegian Bokm�l, for version {$release}</description>
 	</document>
 	<document>
 		<name>Documentation on Wiki</name>
