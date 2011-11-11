@@ -6,8 +6,8 @@
 <p>
 It has been over 10 years. We are here thanks to the work of 131 developers. 49,124 commits
 were made just to the ScummVM tree and those turned into a massive 1,085,714 lines of code
-(comments are not counted) and of course over 7.6MM downloads just from the main site.
-I would say, those were great ten years.
+(excluding comments) and of course over 7.6 million downloads from the main site alone.
+I would say those were a great ten years.
 </p>
 
 <p>
@@ -16,9 +16,12 @@ The outcome is ScummVM 1.4.0 which we are releasing today, 11/11/11 11:11:11.11.
 
 <p>More games are supported: <i>Lands of Lore: The Throne of Chaos</i> <small>(based
 on same engine as Kyrandia)</small>, the kids' game <i>Blue's Birthday Adventure</i>,
-the SF game <i>Ringworld: Revenge of the Patriarch</i> and practically all supported Sierra
-SCI games have now their Amiga versions working. Our musically inspired users will <i>MI2</i> and <i>Indy4</i> early SCUMM
-games, CMS support in <i>Loom</i>, <i>MI1</i> and <i>Indy3</i>, and even <i>Winnie the Pooh</i> got looney tunes!
+the science fiction game <i>Ringworld: Revenge of the Patriarch</i> and practically all
+supported Sierra SCI games now have their Amiga versions working. Our musically inclined
+users will notice PC Speaker support in <i>Monkey Island 2: LeChuck's Revenge</i> and
+<i>Indiana Jones and the Fate of Atlantis</i>, CMS support in <i>Loom</i>, <i>The Secret of
+Monkey Island</i> and <i>Indiana Jones and the Last Crusade</i>, fixed MIDI in the DOS versions
+of the Elvira series, and even sound in <i>Winnie the Pooh in the Hundred Acre Wood</i>!
 </p>
 
 <p>Of course as always there are many more features and you can find the full list 
