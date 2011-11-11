@@ -6,7 +6,7 @@
 		<description>The ScummVM README, for version {$release}</description>
 	</document>
 	<document>
-		<name>Precti me {$release}</name>
+		<name>P&#0345;e&#0269;ti m&#0283; {$release}</name>
 		<url>http://github.com/scummvm/scummvm/raw/v{$release}/doc/cz/PrectiMe</url>
 		<description>The ScummVM README in Czech, for version {$release}</description>
 	</document>
@@ -16,12 +16,12 @@
 		<description>The ScummVM README in German, for version {$release}</description>
 	</document>
 	<document>
-		<name>Inicio Rápido {$release}</name>
+		<name>Inicio R&aacute;pido {$release}</name>
 		<url>http://github.com/scummvm/scummvm/raw/v{$release}/doc/es/InicioRapido</url>
 		<description>The ScummVM Quick Start in Spanish, for version {$release}</description>
 	</document>
 	<document>
-		<name>Démarrage Rapide {$release}</name>
+		<name>D&eacute;marrage Rapide {$release}</name>
 		<url>http://github.com/scummvm/scummvm/raw/v{$release}/doc/fr/DemarrageRapide</url>
 		<description>The ScummVM Quick Start in French, for version {$release}</description>
 	</document>
