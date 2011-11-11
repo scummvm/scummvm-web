@@ -15,18 +15,18 @@ The outcome is ScummVM 1.4.0 which we are releasing today, 11/11/11 11:11:11.11.
 </p>
 
 <p>More games are supported: <i>Lands of Lore: The Throne of Chaos</i> <small>(based
-on same engine as Kyrandia)</small>, the kids' game <i>Blue's Birthday Adventure</i>,
-the science fiction game <i>Ringworld: Revenge of the Patriarch</i> and practically all
+on the same engine as Kyrandia)</small>, the kids' game <i>Blue's Birthday Adventure</i>,
+and the science fiction game <i>Ringworld: Revenge of the Patriarch</i>. On top of that, practically all
 supported Sierra SCI games now have their Amiga versions working. Our musically inclined
-users will notice PC Speaker support in <i>Monkey Island 2: LeChuck's Revenge</i> and
+users will notice PC speaker support in <i>Monkey Island 2: LeChuck's Revenge</i> and
 <i>Indiana Jones and the Fate of Atlantis</i>, CMS support in <i>Loom</i>, <i>The Secret of
 Monkey Island</i> and <i>Indiana Jones and the Last Crusade</i>, fixed MIDI in the DOS versions
 of the Elvira series, and even sound in <i>Winnie the Pooh in the Hundred Acre Wood</i>!
 </p>
 
-<p>Of course as always there are many more features and you can find the full list 
-<a href="https://sourceforge.net/projects/scummvm/files/scummvm/1.4.0/ReleaseNotes/view">here</a>.
-And the release itself is on our <a href="http://www.scummvm.org/downloads">downloads page</a>.
+<p>As always, there are many more new features; you can find the full list in
+<a href="https://sourceforge.net/projects/scummvm/files/scummvm/1.4.0/ReleaseNotes/view">our release notes</a>
+and the release itself on our <a href="http://www.scummvm.org/downloads">downloads page</a>.
 </p>
 
 <p>Enjoy!</p>
