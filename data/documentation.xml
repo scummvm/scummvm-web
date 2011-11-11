@@ -33,7 +33,7 @@
 	<document>
 		<name>Hurtig Start {$release}</name>
 		<url>http://github.com/scummvm/scummvm/raw/v{$release}/doc/no-nb/HurtigStart</url>
-		<description>The ScummVM Quick Start in Norwegian Bokmål, for version {$release}</description>
+		<description>The ScummVM Quick Start in Norwegian Bokm&aring;l, for version {$release}</description>
 	</document>
 	<document>
 		<name>Documentation on Wiki</name>
