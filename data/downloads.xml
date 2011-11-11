@@ -36,13 +36,13 @@
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
 					<url>scummvm-{$release}-1.i386.rpm?download</url>
-					<name>Fedora 8-15 i386 package</name>
+					<name>Fedora 8-16 i386 package</name>
 					<extra_info>(7.3M RPM)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
 					<url>scummvm-{$release}-1.x86_64.rpm?download</url>
-					<name>Fedora 8-15 x86 64bit package</name>
+					<name>Fedora 8-16 x86 64bit package</name>
 					<extra_info>(8.0M RPM)</extra_info>
 				</file>
 <!--
