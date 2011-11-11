@@ -1,0 +1,31 @@
+<NAME>ScummVM 1.4.0 "10th Anniversary" Released!</NAME>
+<DATE>November 11, 2011</DATE>
+<AUTHOR>sev</AUTHOR>
+<BODY>
+
+<p>
+It has been over 10 years. We are here thanks to the work of 131 developers. 49,124 commits
+were made just to the ScummVM tree and those turned into a massive 1,085,714 lines of code
+(comments are not counted) and of course over 7.6MM downloads just from the main site.
+I would say, those were great ten years.
+</p>
+
+<p>
+The outcome is ScummVM 1.4.0 which we are releasing today, 11/11/11 11:11:11.11.
+</p>
+
+<p>More games are supported: <i>Lands of Lore: The Throne of Chaos</i> <small>(based
+on same engine as Kyrandia)</small>, the kids' game <i>Blue's Birthday Adventure</i>,
+the SF game <i>Ringworld: Revenge of the Patriarch</i> and practically all supported Sierra
+SCI games have now their Amiga versions working. Our musically inspired users will <i>MI2</i> and <i>Indy4</i> early SCUMM
+games, CMS support in <i>Loom</i>, <i>MI1</i> and <i>Indy3</i>, and even <i>Winnie the Pooh</i> got looney tunes!
+</p>
+
+<p>Of course as always there are many more features and you can find the full list 
+<a href="https://sourceforge.net/projects/scummvm/files/scummvm/1.4.0/ReleaseNotes/view">here</a>.
+And the release itself is on our <a href="http://www.scummvm.org/downloads">downloads page</a>.
+</p>
+
+<p>Enjoy!</p>
+
+</BODY>
