@@ -18,11 +18,6 @@
 		<name>Unofficial ports</name>
 		<description>There are a few unofficial ports of ScummVM floating around. Usually we prefer to merge any ports into our official repository, but for the following this has not (yet) happened for various reasons. Note that the ScummVM team does not endorse any of these ports. We did not test them, and we do not guarantee that they work properly. <h:span class="red">Use at your own risk!</h:span></description>
 		<link>
-			<name>Android Port</name>
-			<url>http://sites.google.com/site/scummvmandroid/</url>
-			<description>Homepage of a port of ScummVM for the Android.</description>
-		</link>
-		<link>
 			<name>Nokia 770 port</name>
 			<url>http://770.fs-security.com/scummvm/</url>
 			<description>A port to Nokia 770.</description>
