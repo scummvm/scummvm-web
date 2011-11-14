@@ -421,6 +421,11 @@
 				<target>farm</target>
 			</demo>
 			<demo>
+				<name>Let's Explore the Farm with Buzzy (Windows Updated Demo)</name>
+				<url>http://demos.scummvm.org/scumm/he/farm-win-updated-demo-us.zip</url>
+				<target>farm</target>
+			</demo>
+			<demo>
 				<name>Let's Explore the Farm with Buzzy (Windows Dutch Demo)</name>
 				<url>http://demos.scummvm.org/scumm/he/farm-win-demo-nl.zip</url>
 				<target>farm</target>
