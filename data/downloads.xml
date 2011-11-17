@@ -1140,6 +1140,11 @@
 					<url>http://flac.sourceforge.net/</url>
 					<description>: Free Lossless Audio Codec</description>
 				</link>
+				<link>
+					<name>FAAD2</name>
+					<url>http://www.audiocoding.com/faad2.html/</url>
+					<description>: MPEG-4 and MPEG-2 AAC Decoder</description>
+				</link>
 			</entries>
 		</subsection>
 	</section>
