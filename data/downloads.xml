@@ -1142,8 +1142,23 @@
 				</link>
 				<link>
 					<name>FAAD2</name>
-					<url>http://www.audiocoding.com/faad2.html/</url>
+					<url>http://www.audiocoding.com/faad2.html</url>
 					<description>: MPEG-4 and MPEG-2 AAC Decoder</description>
+				</link>
+				<link>
+					<name>Theora</name>
+					<url>http://theora.org/</url>
+					<description>: Theora Decoder</description>
+				</link>
+				<link>
+					<name>zlib</name>
+					<url>http://zlib.net//</url>
+					<description>: Data Compression</description>
+				</link>
+				<link>
+					<name>FluidSynth</name>
+					<url>http://www.fluidsynth.org/</url>
+					<description>: Real-Time Software MIDI Synthesizer</description>
 				</link>
 			</entries>
 		</subsection>
