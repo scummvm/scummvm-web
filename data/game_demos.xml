@@ -1170,7 +1170,7 @@
 				<target>pq3</target>
 			</demo>
 			<demo>
-				<name>Police Quest IV: Open Season (DOS demo - Non-interactive) - Requires ScummVM 1.5.0dev</name>
+				<name>Police Quest IV: Open Season (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/pq4-dos-ni-demo-en.zip/download</url>
 				<target>pq4</target>
 			</demo>
