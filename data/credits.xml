@@ -268,6 +268,14 @@
 				</person>
 			</group>
 			<group>
+				<name>Composer</name>
+				<person>
+					<name>Alyssa Milburn</name>
+					<alias>fuzzie</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>CruisE</name>
 				<person>
 					<name>Paul Gilbert</name>
@@ -321,7 +329,7 @@
 				<person>
 					<name>Vladimir Menshakov</name>
 					<alias>whoozle</alias>
-					<description></description>
+					<description>(retired)</description>
 				</person>
 			</group>
 			<group>
@@ -434,29 +442,6 @@
 				<person>
 					<name>Paul Gilbert</name>
 					<alias>dreammaster</alias>
-					<description></description>
-				</person>
-			</group>
-			<group>
-				<name>M4</name>
-				<person>
-					<name>Torbj&ouml;rn Andersson</name>
-					<alias>eriktorbjorn</alias>
-					<description></description>
-				</person>
-				<person>
-					<name>Paul Gilbert</name>
-					<alias>dreammaster</alias>
-					<description></description>
-				</person>
-				<person>
-					<name>Benjamin Haisch</name>
-					<alias>john_doe</alias>
-					<description></description>
-				</person>
-				<person>
-					<name>Filippos Karapetis</name>
-					<alias>[md5]</alias>
 					<description></description>
 				</person>
 			</group>
@@ -695,7 +680,7 @@
 				<person>
 					<name>Vladimir Menshakov</name>
 					<alias>whoozle</alias>
-					<description></description>
+					<description>(retired)</description>
 				</person>
 			</group>
 			<group>
@@ -1434,6 +1419,11 @@
 					<alias></alias>
 					<description></description>
 				</person>
+				<person>
+					<name>Jordi Vilalta Prat</name>
+					<alias>jvprat</alias>
+					<description></description>
+				</person>
 			</group>
 			<group>
 				<name>Swedish</name>
@@ -1884,6 +1874,7 @@
 					<description>Soundtrack enhancements</description>
 				</person>
 			</group>
+		<paragraph>Some icons by Yusuke Kamiyamane</paragraph>
 		<paragraph>Tony Warriner and everyone at Revolution Software Ltd. for sharing with us the source of some of their brilliant games, allowing us to release Beneath a Steel Sky as freeware... and generally being supportive above and beyond the call of duty.</paragraph>
 		<paragraph>John Passfield and Steve Stamatiadis for sharing the source of their classic title, Flight of the Amazon Queen and also being incredibly supportive.</paragraph>
 		<paragraph>Joe Pearce from The Wyrmkeep Entertainment Co. for sharing the source of their famous title Inherit the Earth and always prompt replies to our questions.</paragraph>
