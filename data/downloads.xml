@@ -823,6 +823,28 @@
 		</subsection>
 
 		<subsection>
+			<title>Soltys</title>
+			<entries>
+				<file>
+<!--
+					<category_icon>cat-soltys.png</category_icon>
+-->
+					<url>soltys-en-v1.0.zip/download</url>
+					<name>Soltys, Freeware Version (English)</name>
+					<extra_info>(3.5M)</extra_info>
+				</file>
+				<file>
+<!--
+					<category_icon>cat-soltys.png</category_icon>
+-->
+					<url>soltys-pl-v1.0.zip/download</url>
+					<name>Soltys, Freeware Version (Polish)</name>
+					<extra_info>(3.5M)</extra_info>
+				</file>
+			</entries>
+		</subsection>
+
+		<subsection>
 			<title>Broken Sword</title>
 			<entries>
 				<file>
