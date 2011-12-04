@@ -1405,9 +1405,9 @@
 			<game>
 				<name>SPY Fox in Hold the Mustard</name>
 				<target>mustard</target>
-				<percent>85</percent>
+				<percent>90</percent>
 				<notes>
-					Game is completable, with minor glitches<h:br />- Only the Windows version is supported by this target<h:br />- The Macintosh version isn't supported, due to map data using a custom format
+					Game is completable, with minor glitches<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
 		</games>
