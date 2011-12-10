@@ -1416,6 +1416,50 @@
 		<name>Living Books</name>
 		<games>
 			<game>
+				<name>Darby the Dragon</name>
+				<target>darby</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.
+				</notes>
+			</game>
+			<game>
+				<name>Gregory and the Hot Air Balloon</name>
+				<target>gregory</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.
+				</notes>
+			</game>
+			<game>
+				<name>Magic Tales: Liam Finds a Story</name>
+				<target>liam</target>
+				<percent>80</percent>
+				<notes>
+					No known issues, game is completable.
+				</notes>
+			</game>
+			<game>
+				<name>The Princess and the Crab</name>
+				<target>princess</target>
+				<percent>80</percent>
+				<notes>
+					No known issues, game is completable.
+				</notes>
+			</game>
+			<game>
+				<name>Sleeping Cub's Test of Courage</name>
+				<target>sleepingcub</target>
+				<percent>80</percent>
+				<notes>
+					No known issues, game is completable.
+				</notes>
+			</game>
+	</company>
+	<company>
+		<name>Living Books</name>
+		<games>
+			<game>
 				<name>Aesop's Fables: The Tortoise and the Hare</name>
 				<target>tortoise</target>
 				<percent>90</percent>
