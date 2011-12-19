@@ -838,6 +838,14 @@
 		<name>Other</name>
 		<games>
 			<game>
+				<name>Blue Force</name>
+				<target>blueforce</target>
+				<percent>90</percent>
+				<notes>
+					No known issues, game is completable.
+				</notes>
+			</game>
+			<game>
 				<name>Bud Tucker in Double Trouble</name>
 				<target>tucker</target>
 				<percent>95</percent>
