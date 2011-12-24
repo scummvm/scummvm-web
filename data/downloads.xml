@@ -289,21 +289,22 @@
 					<name>Solaris 10 (both IA32 and AMD64) binary</name>
 					<extra_info>(14.2M .pkg.bz2)</extra_info>
 				</file>
+-->
 
 				<file>
 					<category_icon>catpl-irix.png</category_icon>
 					<url>scummvm-{$release}-irix-mips3.tar.gz?download</url>
 					<name>IRIX (6.5.*, n32, mips3) package</name>
-					<extra_info>(7.1M .tar.gz)</extra_info>
+					<extra_info>(8.7M .tar.gz)</extra_info>
 				</file>
 
 				<file>
 					<category_icon>catpl-irix.png</category_icon>
 					<url>scummvm-{$release}-irix-mips4.tar.gz?download</url>
 					<name>IRIX (6.5.*, n32, mips4) package</name>
-					<extra_info>(7.4M .tar.gz)</extra_info>
+					<extra_info>(8.8M .tar.gz)</extra_info>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-beos.png</category_icon>
 					<url>scummvm-{$release}-beos.tgz?download</url>
