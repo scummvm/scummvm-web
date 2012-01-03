@@ -463,7 +463,7 @@
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-gcc4-haiku.tgz?download</url>
-					<name>Haiku package</name>
+					<name>Tools - Haiku package</name>
 					<extra_info>(2.3M .tgz)</extra_info>
 				</file>
 
