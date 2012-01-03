@@ -311,14 +311,15 @@
 					<name>BeOS package</name>
 					<extra_info>(5.4M .tgz)</extra_info>
 				</file>
+-->
 
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
-					<url>scummvm-{$release}-haiku-gcc4.zip?download</url>
+					<url>scummvm-{$release}-gcc4-haiku.tgz?download</url>
 					<name>Haiku package</name>
-					<extra_info>(7.4M .zip)</extra_info>
+					<extra_info>(8.2M .tgz)</extra_info>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
 					<url>scummvm-{$release}-amigaos4.lha?download</url>
@@ -458,14 +459,14 @@
 					<name>Tools - BeOS</name>
 					<extra_info>(1.4M .tgz)</extra_info>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
-					<url>scummvm-tools-{$release_tools}-haiku-gcc4.zip?download</url>
+					<url>scummvm-tools-{$release_tools}-gcc4-haiku.tgz?download</url>
 					<name>Haiku package</name>
-					<extra_info>(2.8M .zip)</extra_info>
+					<extra_info>(2.3M .tgz)</extra_info>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-amigaos4.lha?download</url>
@@ -597,13 +598,6 @@
 					<url>scummvm-1.3.0-irix-mips4.tar.gz?download</url>
 					<name>1.3.0 IRIX (6.5.*, n32, mips4) package</name>
 					<extra_info>(7.4M .tar.gz)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-haiku.png</category_icon>
-					<url>scummvm-1.3.0-haiku-gcc4.zip?download</url>
-					<name>1.3.0 Haiku package</name>
-					<extra_info>(7.4M .zip)</extra_info>
 				</file>
 
 				<file>
