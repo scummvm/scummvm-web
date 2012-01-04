@@ -1,8 +1,4 @@
 <?php
-if ($_SERVER['HTTP_HOST']!="www.residualvm.org") {
-	header("HTTP/1.1 301 Moved Permanently");
-	header("location: http://www.residualvm.org");
-}
 /* Load the configuration. */
 require_once('include/config.inc.php');
 /* Set up the include path. */
