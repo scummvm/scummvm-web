@@ -115,9 +115,9 @@
 			<description>Pentagram is a project aiming to create an Ultima 8 engine for use on modern operating systems.</description>
 		</link>
 		<link>
-			<name>Residual</name>
-			<url>http://residual.sourceforge.net/</url>
-			<description>Residual is a cross-platform interpreter which allows you to play LucasArts' LUA-based 3D adventures <h:i>Grim Fandango</h:i> and <h:i>Escape from Monkey Island</h:i>.</description>
+			<name>ResidualVM</name>
+			<url>http://residualvm.org/</url>
+			<description>ResidualVM is a cross-platform interpreter which allows you to play LucasArts' LUA-based 3D adventures <h:i>Grim Fandango</h:i> and <h:i>Escape from Monkey Island</h:i>.</description>
 		</link>
 		<link>
 			<name>DOSBox</name>
