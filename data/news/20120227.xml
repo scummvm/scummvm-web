@@ -14,7 +14,7 @@ The ScummVM Team is pleased to announce ScummVM 1.4.1, a maintenance only releas
 <li>Slight graphical improvement for the PlayStation version of <i>Broken Sword 2</i></li>
 <li>Several bugfixes for <i>Lands of Lore</i></li>
 <li>More logical sound settings for SCI games</li>
-<li>Fixed crash in <i>QFG1</i> VGA version</li>
+<li>A fixed crash in the VGA version of <i>Quest for Glory 1</i></li>
 </ul>
 
 <p>The full list of changes can be found in the 
