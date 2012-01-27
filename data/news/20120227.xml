@@ -7,7 +7,8 @@
 The ScummVM Team is pleased to announce ScummVM 1.4.1, a maintenance only release that fixes several bugs in 1.4.0.
 </p>
 
-<p>The most notable changes in this release are:
+<p>The most notable changes in this release are:</p>
+
 <ul>
 <li>Support for the <i>Beneath a Steel Sky</i> <a href="http://www.jameswoodcock.co.uk/?p=7695">Enhanced Soundtrack</a> by James Woodcock</li>
 <li>Slight graphical improvement for the PlayStation version of <i>Broken Sword 2</i></li>
@@ -15,7 +16,6 @@ The ScummVM Team is pleased to announce ScummVM 1.4.1, a maintenance only releas
 <li>More logical sound settings for SCI games</li>
 <li>Fixed crash in <i>QFG1</i> VGA version</li>
 </ul>
-</p>
 
 <p>The full list of changes can be found in the 
 <a href="https://sourceforge.net/projects/scummvm/files/scummvm/1.4.1/ReleaseNotes/view">release notes</a>
