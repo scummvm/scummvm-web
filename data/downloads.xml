@@ -1030,7 +1030,7 @@
 					<name>GP2X Builds</name>
 					<extra_info>(infrequent builds from the repository)</extra_info>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-symbian.png</category_icon>
 					<url>http://anotherguest.se/cvsbuilds/</url>
@@ -1038,6 +1038,7 @@
 					<type>daily</type>
 					<extra_info>Provided by ScummVM Team member Lars 'anotherguest' Persson</extra_info>
 				</file>
+-->
 				<file>
 					<category_icon>catpl-cpp.png</category_icon>
 					<url>http://github.com/scummvm/scummvm</url>
