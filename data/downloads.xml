@@ -430,14 +430,14 @@
 					<name>Tools - Solaris 8 (Sparc)</name>
 					<extra_info>(602k .pkg.bz2)</extra_info>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-solaris10-x86.pkg.bz2?download</url>
 					<name>Tools - Solaris 10 (both IA32 and AMD64)</name>
-					<extra_info>(5.7M .pkg.bz2)</extra_info>
+					<extra_info>(5.3M .pkg.bz2)</extra_info>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-irix.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-irix-mips3.tar.bz2?download</url>
