@@ -325,7 +325,7 @@
 					<name>AmigaOS 4 package</name>
 					<extra_info>(10.3M .lha)</extra_info>
 				</file>
-<--
+<!--
 				<file>
 					<category_icon>catpl-morphos.png</category_icon>
 					<url>scummvm-{$release}-morphos.lha?download</url>
