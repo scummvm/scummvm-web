@@ -525,6 +525,11 @@
 					<description></description>
 				</person>
 				<person>
+					<name>Daniel Balsom</name>
+					<alias>DanielFox</alias>
+					<description>Original engine reimplementation author (retired)</description>
+				</person>
+				<person>
 					<name>Filippos Karapetis</name>
 					<alias>[md5]</alias>
 					<description></description>
@@ -1597,6 +1602,11 @@
 					<alias>luke_br</alias>
 					<description>SDL-based OpenGL renderer</description>
 				</person>
+				<person>
+					<name>Tom Frost</name>
+					<alias>TomFrost</alias>
+					<description>WebOS port contributions</description>
+				</person>
 			</group>
 		</subsection>
 		<subsection>
@@ -1793,6 +1803,11 @@
 		<title>Special thanks to</title>
 			<group>
 				<name></name>
+				<person>
+					<name>Daniel Balsom</name>
+					<alias>DanielFox</alias>
+					<description>For the original Reinherit (SAGA) code</description>
+				</person>
 				<person>
 					<name>Sander Buskens</name>
 					<alias></alias>
