@@ -137,20 +137,20 @@
 					<name>Android packages</name>
 					<extra_info>(15M .zip)</extra_info>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-symbian.png</category_icon>
 					<url>scummvm-{$release}-s60v3.sis?download</url>
 					<name>Symbian S60 version 3 binary</name>
-					<extra_info>(14.0M .sis)</extra_info>
+					<extra_info>(15.0M .sis)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-uiq.png</category_icon>
 					<url>scummvm-{$release}-uiq3.sis?download</url>
 					<name>Symbian UIQ 3 binary</name>
-					<extra_info>(13.6M .sis)</extra_info>
+					<extra_info>(14.6M .sis)</extra_info>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-wince.png</category_icon>
 					<url>scummvm-{$release}-wince.zip?download</url>
@@ -549,19 +549,6 @@
 					<url>scummvm-1.3.1-wii.zip?download</url>
 					<name>1.3.1 Wii package</name>
 					<extra_info>(8.1M .zip)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-symbian.png</category_icon>
-					<url>scummvm-1.3.0-s60v3.sis?download</url>
-					<name>1.3.0 Symbian S60 version 3 binary</name>
-					<extra_info>(14.0M .sis)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-uiq.png</category_icon>
-					<url>scummvm-1.3.0-uiq3.sis?download</url>
-					<name>1.3.0 Symbian UIQ 3 binary</name>
-					<extra_info>(13.6M .sis)</extra_info>
 				</file>
 
 				<file>
