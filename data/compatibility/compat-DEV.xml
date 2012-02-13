@@ -37,15 +37,6 @@
 							- The Roland update from LucasArts is required for MIDI support in the EGA version<h:br />
 							- No music or sound effects in the Macintosh version<h:br />
 							- There is no support for the Macintosh interface<h:br />
-							- Fades are seemingly different in the FM-TOWNS version<h:br />
-							- Text palette sometimes incorrect in the FM-TOWNS version<h:br />
-							- Distaff occasionally pink in the FM-TOWNS version<h:br />
-							- Use boot parameter to choose difficulty in the FM-TOWNS version:
-							<h:ul>
-								<h:li>0 practice (default)</h:li>
-								<h:li>1 standard</h:li>
-								<h:li>2 expert</h:li>
-							</h:ul>
 							- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM<h:br />
 							- PC-Engine Kanji version requires the system card ROM
 				</notes>
