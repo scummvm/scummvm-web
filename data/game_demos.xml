@@ -201,14 +201,14 @@
 				<target>football</target>
 			</demo>
 			<demo>
-				<name>Big Thinkers Kindergarten (Windows Demo)</name>
+				<name>Big Thinkers First Grade (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/thinker1-win-demo-us.zip/download</url>
-				<target>thinkerk</target>
+				<target>thinker1</target>
 			</demo>
 			<demo>
-				<name>Big Thinkers First Grade (Windows Demo)</name>
+				<name>Big Thinkers Kindergarten (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/thinkerk-win-demo-us.zip/download</url>
-				<target>thinker1</target>
+				<target>thinkerk</target>
 			</demo>
 			<demo>
 				<name>Blue's ABC Time (Windows Demo)</name>
