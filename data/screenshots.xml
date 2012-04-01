@@ -3078,6 +3078,50 @@
 			</image>
 		</game>
 		<game>
+			<name>Lands of Lore: The Throne of Chaos</name>
+			<category>lol</category>
+			<image>
+				<file>other/lol/lol-1</file>
+				<caption>Lands of Lore: The Throne of Chaos</caption>
+			</image>
+			<image>
+				<file>other/lol/lol-2</file>
+				<caption>Lands of Lore: The Throne of Chaos</caption>
+			</image>
+			<image>
+				<file>other/lol/lol-3</file>
+				<caption>Lands of Lore: The Throne of Chaos</caption>
+			</image>
+			<image>
+				<file>other/lol/lol-4</file>
+				<caption>Lands of Lore: The Throne of Chaos</caption>
+			</image>
+			<image>
+				<file>other/lol/lol-5</file>
+				<caption>Lands of Lore: The Throne of Chaos</caption>
+			</image>
+			<image>
+				<file>other/lol/lol-6</file>
+				<caption>Lands of Lore: The Throne of Chaos</caption>
+			</image>
+			<image>
+				<file>other/lol/lol-7</file>
+				<caption>Lands of Lore: The Throne of Chaos</caption>
+			</image>
+			<image>
+				<file>other/lol/lol-8</file>
+				<caption>Lands of Lore: The Throne of Chaos</caption>
+			</image>
+			<image>
+				<file>other/lol/lol-9</file>
+				<caption>Lands of Lore: The Throne of Chaos</caption>
+			</image>
+			<image>
+				<file>other/lol/lol-10</file>
+				<caption>Lands of Lore: The Throne of Chaos</caption>
+			</image>
+		</game>
+		<game>
 			<name>Nippon Safes Inc.</name>
 			<category>nippon</category>
 			<image>
@@ -3184,10 +3228,6 @@
 				<file>other/kyra/kyra3-de-1</file>
 				<caption>The Legend of Kyrandia: Malcolm's Revenge (DOS German)</caption>
 			</image>
-		</game>
-		<game>
-			<name>Lands of Lore: The Throne of Chaos</name>
-			<category>lol</category>
 		</game>
 		<game>
 			<name>The 7th Guest</name>
