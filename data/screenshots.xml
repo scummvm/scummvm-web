@@ -1851,20 +1851,40 @@
 			<name>Hoyle's Official Book of Games series</name>
 			<category>hoyle</category>
 			<image>
+				<file>sci/hoyle/hoyle1-1</file>
+				<caption>Hoyle Official Book of Games: Volume 1</caption>
+			</image>
+			<image>
+				<file>sci/hoyle/hoyle1-2</file>
+				<caption>Hoyle Official Book of Games: Volume 1</caption>
+			</image>
+			<image>
+				<file>sci/hoyle/hoyle1-3</file>
+				<caption>Hoyle Official Book of Games: Volume 1</caption>
+			</image>
+			<image>
+				<file>sci/hoyle/hoyle1-4</file>
+				<caption>Hoyle Official Book of Games: Volume 1</caption>
+			</image>
+			<image>
+				<file>sci/hoyle/hoyle1-5</file>
+				<caption>Hoyle Official Book of Games: Volume 1</caption>
+			</image>
+			<image>
 				<file>sci/hoyle/hoyle3-ega-1</file>
-				<caption>Hoyle's Official Book of Games: Volume 3 (EGA)</caption>
+				<caption>Hoyle Official Book of Games: Volume 3 (EGA)</caption>
 			</image>
 			<image>
 				<file>sci/hoyle/hoyle3-ega-2</file>
-				<caption>Hoyle's Official Book of Games: Volume 3 (EGA)</caption>
+				<caption>Hoyle Official Book of Games: Volume 3 (EGA)</caption>
 			</image>
 			<image>
 				<file>sci/hoyle/hoyle3-ega-3</file>
-				<caption>Hoyle's Official Book of Games: Volume 3 (EGA)</caption>
+				<caption>Hoyle Official Book of Games: Volume 3 (EGA)</caption>
 			</image>
 			<image>
 				<file>sci/hoyle/hoyle3-ega-4</file>
-				<caption>Hoyle's Official Book of Games: Volume 3 (EGA)</caption>
+				<caption>Hoyle Official Book of Games: Volume 3 (EGA)</caption>
 			</image>
 			<image>
 				<file>sci/hoyle/hoyle4-1</file>
