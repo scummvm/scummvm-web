@@ -3162,6 +3162,50 @@
 			</image>
 		</game>
 		<game>
+			<name>Ringworld series</name>
+			<category>ringworld</category>
+			<image>
+				<file>other/ringworld/ringworld1-1</file>
+				<caption>Ringworld: Revenge of the Patriarch</caption>
+			</image>
+			<image>
+				<file>other/ringworld/ringworld1-2</file>
+				<caption>Ringworld: Revenge of the Patriarch</caption>
+			</image>
+			<image>
+				<file>other/ringworld/ringworld1-3</file>
+				<caption>Ringworld: Revenge of the Patriarch</caption>
+			</image>
+			<image>
+				<file>other/ringworld/ringworld1-4</file>
+				<caption>Ringworld: Revenge of the Patriarch</caption>
+			</image>
+			<image>
+				<file>other/ringworld/ringworld1-5</file>
+				<caption>Ringworld: Revenge of the Patriarch</caption>
+			</image>
+			<image>
+				<file>other/ringworld/ringworld1-6</file>
+				<caption>Ringworld: Revenge of the Patriarch</caption>
+			</image>
+			<image>
+				<file>other/ringworld/ringworld1-7</file>
+				<caption>Ringworld: Revenge of the Patriarch</caption>
+			</image>
+			<image>
+				<file>other/ringworld/ringworld1-8</file>
+				<caption>Ringworld: Revenge of the Patriarch</caption>
+			</image>
+			<image>
+				<file>other/ringworld/ringworld1-9</file>
+				<caption>Ringworld: Revenge of the Patriarch</caption>
+			</image>
+			<image>
+				<file>other/ringworld/ringworld1-10</file>
+				<caption>Ringworld: Revenge of the Patriarch</caption>
+			</image>
+		</game>
+		<game>
 			<name>The Legend of Kyrandia series</name>
 			<category>kyra</category>
 			<image>
