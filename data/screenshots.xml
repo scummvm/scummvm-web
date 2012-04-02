@@ -3689,6 +3689,50 @@
 				<caption>Little Monster at School (Spanish)</caption>
 			</image>
 		</game>
+		<game>
+			<name>Ruff's Bone</name>
+			<category>ruff</category>
+			<image>
+				<file>livingbooks/ruff/ruff-win-1</file>
+				<caption>Ruff's Bone</caption>
+			</image>
+			<image>
+				<file>livingbooks/ruff/ruff-win-2</file>
+				<caption>Ruff's Bone</caption>
+			</image>
+			<image>
+				<file>livingbooks/ruff/ruff-win-3</file>
+				<caption>Ruff's Bone</caption>
+			</image>
+			<image>
+				<file>livingbooks/ruff/ruff-win-4</file>
+				<caption>Ruff's Bone</caption>
+			</image>
+			<image>
+				<file>livingbooks/ruff/ruff-win-5</file>
+				<caption>Ruff's Bone</caption>
+			</image>
+			<image>
+				<file>livingbooks/ruff/ruff-win-6</file>
+				<caption>Ruff's Bone</caption>
+			</image>
+			<image>
+				<file>livingbooks/ruff/ruff-win-7</file>
+				<caption>Ruff's Bone</caption>
+			</image>
+			<image>
+				<file>livingbooks/ruff/ruff-win-es-8</file>
+				<caption>Ruff's Bone (Spanish)</caption>
+			</image>
+			<image>
+				<file>livingbooks/ruff/ruff-win-es-9</file>
+				<caption>Ruff's Bone (Spanish)</caption>
+			</image>
+			<image>
+				<file>livingbooks/ruff/ruff-win-es-10</file>
+				<caption>Ruff's Bone (Spanish)</caption>
+			</image>
+		<game>
 	</group>
 	<group>
 		<title>Humongous Entertainment games</title>
