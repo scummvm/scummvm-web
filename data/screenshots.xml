@@ -3423,6 +3423,54 @@
 		</game>
 	</group>
 	<group>
+		<title>Animation Magic series</title>
+		<category>composer</category>
+		<game>
+			<name>Darby the Dragon</name>
+			<category>darby</category>
+			<image>
+				<file>composer/darby/darby-win-1</file>
+				<caption>Darby the Dragon</caption>
+			</image>
+			<image>
+				<file>composer/darby/darby-win-2</file>
+				<caption>Darby the Dragon</caption>
+			</image>
+			<image>
+				<file>composer/darby/darby-win-3</file>
+				<caption>Darby the Dragon</caption>
+			</image>
+			<image>
+				<file>composer/darby/darby-win-4</file>
+				<caption>Darby the Dragon</caption>
+			</image>
+			<image>
+				<file>composer/darby/darby-win-5</file>
+				<caption>Darby the Dragon</caption>
+			</image>
+			<image>
+				<file>composer/darby/darby-win-6</file>
+				<caption>Darby the Dragon</caption>
+			</image>
+			<image>
+				<file>composer/darby/darby-win-7</file>
+				<caption>Darby the Dragon</caption>
+			</image>
+			<image>
+				<file>composer/darby/darby-win-8</file>
+				<caption>Darby the Dragon</caption>
+			</image>
+			<image>
+				<file>composer/darby/darby-win-9</file>
+				<caption>Darby the Dragon</caption>
+			</image>
+			<image>
+				<file>composer/darby/darby-win-10</file>
+				<caption>Darby the Dragon</caption>
+			</image>
+		</game>
+	</group>
+	<group>
 		<title>Living Books series</title>
 		<category>livingbooks</category>
 		<game>
