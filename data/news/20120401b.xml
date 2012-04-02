@@ -1,8 +1,9 @@
 <NAME>ScummVM .NET</NAME>
 <DATE>Apr 1, 2012</DATE>
-<AUTHOR>ST</AUTHOR>
+<AUTHOR><del>ST</del> clone2727</AUTHOR>
 <BODY>
-	<p>No, we're not moving to a new website. I'm proud to announce the <b>new</b> ScummVM rewrite in C# for Windows Phone 7 and Xbox 360 ports. This does not include any of the previous "ScummVM-XNA" code and is all new code based on our current working tree.</p>
-	<p>The Windows Phone 7 port has been the main target of our work as I'm more familiar with the touchscreen controls. It shouldn't be much more work for the Xbox 360 port since I'm going through the XNA Game Studio. Since going through each engine is very tedious work, I've only worked on the engine I'm most familiar with: Groovie. And, I think the <a href="data/news/20120401_6.jpg">results speak for themselves</a>.</p>
-	<p>I'll have the source code up on GitHub soon, but here's <a href="data/news/20120401_7.png">a brief snippet</a> of some working converted C# code.</p>
+	<p><b>Happy April Fools' Day!</b> Thanks to ST for providing a screenshot of one of his Groovie C# tools.</p>
+	<p><del>No, we're not moving to a new website. I'm proud to announce the <b>new</b> ScummVM rewrite in C# for Windows Phone 7 and Xbox 360 ports. This does not include any of the previous "ScummVM-XNA" code and is all new code based on our current working tree.</del></p>
+	<p><del>The Windows Phone 7 port has been the main target of our work as I'm more familiar with the touchscreen controls. It shouldn't be much more work for the Xbox 360 port since I'm going through the XNA Game Studio. Since going through each engine is very tedious work, I've only worked on the engine I'm most familiar with: Groovie. And, I think the <a href="data/news/20120401_6.jpg">results speak for themselves</a>.</del></p>
+	<p><del>I'll have the source code up on GitHub soon, but here's <a href="data/news/20120401_7.png">a brief snippet</a> of some working converted C# code.</del></p>
 </BODY>
