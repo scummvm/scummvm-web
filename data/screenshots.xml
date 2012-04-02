@@ -3781,6 +3781,50 @@
 				<caption>Ruff's Bone (Spanish)</caption>
 			</image>
 		</game>
+		<game>
+			<name>The New Kid on the Block</name>
+			<category>newkid</category>
+			<image>
+				<file>livingbooks/newkid/newkid-win-1</file>
+				<caption>The New Kid on the Block</caption>
+			</image>
+			<image>
+				<file>livingbooks/newkid/newkid-win-2</file>
+				<caption>The New Kid on the Block</caption>
+			</image>
+			<image>
+				<file>livingbooks/newkid/newkid-win-3</file>
+				<caption>The New Kid on the Block</caption>
+			</image>
+			<image>
+				<file>livingbooks/newkid/newkid-win-4</file>
+				<caption>The New Kid on the Block</caption>
+			</image>
+			<image>
+				<file>livingbooks/newkid/newkid-win-5</file>
+				<caption>The New Kid on the Block</caption>
+			</image>
+			<image>
+				<file>livingbooks/newkid/newkid-win-6</file>
+				<caption>The New Kid on the Block</caption>
+			</image>
+			<image>
+				<file>livingbooks/newkid/newkid-win-7</file>
+				<caption>The New Kid on the Block</caption>
+			</image>
+			<image>
+				<file>livingbooks/newkid/newkid-win-8</file>
+				<caption>The New Kid on the Block</caption>
+			</image>
+			<image>
+				<file>livingbooks/newkid/newkid-win-9</file>
+				<caption>The New Kid on the Block</caption>
+			</image>
+			<image>
+				<file>livingbooks/newkid/newkid-win-10</file>
+				<caption>The New Kid on the Block</caption>
+			</image>
+		</game>
 	</group>
 	<group>
 		<title>Humongous Entertainment games</title>
