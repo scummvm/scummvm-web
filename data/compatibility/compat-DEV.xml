@@ -1284,9 +1284,9 @@
 			<game>
 				<name>Pajama Sam's Lost &amp; Found</name>
 				<target>lost</target>
-				<percent>85</percent>
+				<percent>90</percent>
 				<notes>
-					Game is completable, with minor glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Minor graphical glitches
+					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
 			<game>
