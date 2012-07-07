@@ -16,6 +16,11 @@
 		<description>The ScummVM README in German, for version {$release}</description>
 	</document>
 	<document>
+		<name>L&auml;s mig {$release}</name>
+		<url>http://github.com/scummvm/scummvm/raw/v{$release}/doc/se/LasMig</url>
+		<description>The ScummVM README in Swedish, for version {$release}</description>
+	</document>
+	<document>
 		<name>Inicio R&aacute;pido {$release}</name>
 		<url>http://github.com/scummvm/scummvm/raw/v{$release}/doc/es/InicioRapido</url>
 		<description>The ScummVM Quick Start in Spanish, for version {$release}</description>
@@ -34,6 +39,11 @@
 		<name>Hurtig Start {$release}</name>
 		<url>http://github.com/scummvm/scummvm/raw/v{$release}/doc/no-nb/HurtigStart</url>
 		<description>The ScummVM Quick Start in Norwegian Bokm&aring;l, for version {$release}</description>
+	</document>
+	<document>
+		<name>Hurtig Start {$release}</name>
+		<url>http://github.com/scummvm/scummvm/raw/v{$release}/doc/da/HurtigStart</url>
+		<description>The ScummVM Quick Start in Danish, for version {$release}</description>
 	</document>
 	<document>
 		<name>Documentation on Wiki</name>
