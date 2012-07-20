@@ -327,9 +327,19 @@
 					<description></description>
 				</person>
 				<person>
+					<name>Filippos Karapetis</name>
+					<alias>[md5]</alias>
+					<description></description>
+				</person>
+				<person>
 					<name>Vladimir Menshakov</name>
 					<alias>whoozle</alias>
 					<description>(retired)</description>
+				</person>
+				<person>
+					<name>Willem Jan Palenstijn</name>
+					<alias>wjp</alias>
+					<description></description>
 				</person>
 			</group>
 			<group>
@@ -1907,5 +1917,7 @@
 		<paragraph>Emilio de Paz Arag&oacute;n from Alcachofa Soft for sharing the source code of Drascula: The Vampire Strikes Back with us and his generosity with freewaring the game.</paragraph>
 		<paragraph>David P. Gray from Gray Design Associates for sharing the source code of the Hugo trilogy.</paragraph>
 		<paragraph>Broken Sword 2.5 team for providing sources of their engine and their great support.</paragraph>
+		<paragraph>Neil Dodwell and David Dew from Creative Reality for providing the source of Dreamweb and for their tremendous support.</paragraph>
+		<paragraph>Janusz Wi&#347;niewski and Miroslaw Liminowicz from Laboratorium Komputerowe Avalon for providing full source code for So&#322;tys and letting us to redistribute the game.</paragraph>
 	</section>
 </credits>
