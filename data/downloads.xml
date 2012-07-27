@@ -909,6 +909,12 @@
 					<extra_info>(18k) Cutscene subtitles pack. All languages</extra_info>
 				</file>
 				<file>
+					<category_icon>cat-sword.png</category_icon>
+					<url>Sword1_Cutscenes_Subtitles-1.1.zip?download</url>
+					<name>Broken Sword Cutscene Pack (all languages, Updated Subtitles AddOn) - requires ScummVM 1.5.0 or more</name>
+					<extra_info>(20k) Cutscene subtitles pack. All languages</extra_info>
+				</file>
+				<file>
 					<category_icon>cat-flac.png</category_icon>
 					<url>Sword1_Cutscenes_DXA_FRE_AddOn.zip?download</url>
 					<name>Broken Sword Cutscene Pack (French AddOn)</name>
