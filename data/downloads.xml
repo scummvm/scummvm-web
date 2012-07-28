@@ -152,14 +152,14 @@
 					<name>Symbian UIQ 3 binary</name>
 					<extra_info>(14.6M .sis)</extra_info>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-wince.png</category_icon>
 					<url>scummvm-{$release}-wince.zip?download</url>
 					<name>Windows CE ARM package</name>
-					<extra_info>(16.4M .zip)</extra_info>
+					<extra_info>(17.3M .zip)</extra_info>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-iphone.png</category_icon>
 					<url>scummvm-{$release}-iphone.deb?download</url>
@@ -334,14 +334,14 @@
 					<name>MorphOS package</name>
 					<extra_info>(12.6M .lha)</extra_info>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-freemint.png</category_icon>
 					<url>scummvm-{$release}-atari.zip?download</url>
 					<name>Atari/FreeMiNT package (68020 and up)</name>
-					<extra_info>(7.0M .zip)</extra_info>
+					<extra_info>(7.9M .zip)</extra_info>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-os2.png</category_icon>
 					<url>scummvm-{$release}-os2.zip?download</url>
@@ -568,13 +568,6 @@
 				</file>
 
 				<file>
-					<category_icon>catpl-wince.png</category_icon>
-					<url>scummvm-1.4.1-wince.zip?download</url>
-					<name>1.4.1 Windows CE ARM package</name>
-					<extra_info>(16.4M .zip)</extra_info>
-				</file>
-
-				<file>
 					<category_icon>catpl-iphone.png</category_icon>
 					<url>scummvm-1.4.1-iphone.deb?download</url>
 					<name>1.4.1 iPhone package</name>
@@ -605,7 +598,6 @@
 					<extra_info>(16.3M .pkg.bz2)</extra_info>
 				</file>
 
-
 				<file>
 					<category_icon>catpl-irix.png</category_icon>
 					<url>scummvm-1.4.1-irix-mips3.tar.gz?download</url>
@@ -624,13 +616,6 @@
 					<url>scummvm-1.4.1-morphos.lha?download</url>
 					<name>1.4.1 MorphOS package</name>
 					<extra_info>(12.6M .lha)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-freemint.png</category_icon>
-					<url>scummvm-1.4.1-atari.zip?download</url>
-					<name>1.4.1 Atari/FreeMiNT package (68020 and up)</name>
-					<extra_info>(7.0M .zip)</extra_info>
 				</file>
 
 				<file>
