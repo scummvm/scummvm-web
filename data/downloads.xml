@@ -91,14 +91,13 @@
 					<name>SlackWare package</name>
 					<extra_info>(8.6M .tgz)</extra_info>
 				</file>
-<!--
 				<file>
 					<category_icon>catpl-macos-universal.png</category_icon>
 					<url>scummvm-{$release}-macosx.dmg?download</url>
 					<name>Mac OS X Universal Disk Image</name>
-					<extra_info>(15.1M disk image)</extra_info>
+					<extra_info>(16.3M disk image)</extra_info>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-ps2.png</category_icon>
 					<url>scummvm-{$release}-ps2.zip?download</url>
@@ -159,14 +158,12 @@
 					<name>Windows CE ARM package</name>
 					<extra_info>(17.3M .zip)</extra_info>
 				</file>
-<!--
 				<file>
 					<category_icon>catpl-iphone.png</category_icon>
 					<url>scummvm-{$release}-iphone.deb?download</url>
 					<name>iPhone package</name>
-					<extra_info>(9.6M .deb)</extra_info>
+					<extra_info>(10.7M .deb)</extra_info>
 				</file>
--->
 				<file>
 					<category_icon>catpl-webos.png</category_icon>
 					<url>scummvm-{$release}-webos.zip?download</url>
@@ -529,13 +526,6 @@
 					<extra_info>(7.8M .deb)</extra_info>
 				</file>
 				<file>
-					<category_icon>catpl-macos-universal.png</category_icon>
-					<url>scummvm-1.4.1-macosx.dmg?download</url>
-					<name>1.4.1 Mac OS X Universal Disk Image</name>
-					<extra_info>(15.1M disk image)</extra_info>
-				</file>
-
-				<file>
 					<category_icon>catpl-ps2.png</category_icon>
 					<url>scummvm-1.4.1-ps2.zip?download</url>
 					<name>1.4.1 PlayStation2 package</name>
@@ -566,12 +556,6 @@
 					<name>1.4.1 Symbian UIQ 3 binary</name>
 					<extra_info>(14.6M .sis)</extra_info>
 				</file>
-
-				<file>
-					<category_icon>catpl-iphone.png</category_icon>
-					<url>scummvm-1.4.1-iphone.deb?download</url>
-					<name>1.4.1 iPhone package</name>
-					<extra_info>(9.6M .deb)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-gp2x.png</category_icon>
