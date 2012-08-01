@@ -241,26 +241,26 @@
 					<name>Wii package</name>
 					<extra_info>(11.0M .zip)</extra_info>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-gp2x.png</category_icon>
 					<url>scummvm-{$release}-gp2x.tar.bz2?download</url>
 					<name>GP2X package</name>
-					<extra_info>(7.3M .tar.bz2)</extra_info>
+					<extra_info>(8.4M .tar.bz2)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-gp2xwiz.png</category_icon>
 					<url>scummvm-{$release}-gp2xwiz.tar.bz2?download</url>
 					<name>GP2X Wiz package</name>
-					<extra_info>(8.6M .tar.bz2)</extra_info>
+					<extra_info>(9.7M .tar.bz2)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-caanoo.png</category_icon>
 					<url>scummvm-{$release}-caanoo.tar.bz2?download</url>
 					<name>Caanoo package</name>
-					<extra_info>(8.8M .tar.bz2)</extra_info>
+					<extra_info>(9.9M .tar.bz2)</extra_info>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-openpandora.png</category_icon>
 					<url>scummvm-{$release}-openpandora.zip?download</url>
