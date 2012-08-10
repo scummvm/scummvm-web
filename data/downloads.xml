@@ -324,14 +324,14 @@
 					<name>AmigaOS 4 package</name>
 					<extra_info>(11.8M .lha)</extra_info>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-morphos.png</category_icon>
 					<url>scummvm-{$release}-morphos.lha?download</url>
 					<name>MorphOS package</name>
-					<extra_info>(12.6M .lha)</extra_info>
+					<extra_info>(13.9M .lha)</extra_info>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-freemint.png</category_icon>
 					<url>scummvm-{$release}-atari.zip?download</url>
@@ -557,24 +557,6 @@
 					<extra_info>(14.6M .sis)</extra_info>
 				</file>
 				<file>
-					<category_icon>catpl-gp2x.png</category_icon>
-					<url>scummvm-1.4.1-gp2x.tar.bz2?download</url>
-					<name>1.4.1 GP2X package</name>
-					<extra_info>(7.3M .tar.bz2)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-gp2xwiz.png</category_icon>
-					<url>scummvm-1.4.1-gp2xwiz.tar.bz2?download</url>
-					<name>1.4.1 GP2X Wiz package</name>
-					<extra_info>(8.6M .tar.bz2)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-caanoo.png</category_icon>
-					<url>scummvm-1.4.1-caanoo.tar.bz2?download</url>
-					<name>1.4.1 Caanoo package</name>
-					<extra_info>(8.8M .tar.bz2)</extra_info>
-				</file>
-				<file>
 					<category_icon>catpl-solaris.png</category_icon>
 					<url>scummvm-1.4.1-solaris10-x86.pkg.bz2?download</url>
 					<name>1.4.1 Solaris 10 (both IA32 and AMD64) binary</name>
@@ -593,12 +575,6 @@
 					<url>scummvm-1.4.1-irix-mips4.tar.gz?download</url>
 					<name>1.4.1 IRIX (6.5.*, n32, mips4) package</name>
 					<extra_info>(9.0M .tar.gz)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-morphos.png</category_icon>
-					<url>scummvm-1.4.1-morphos.lha?download</url>
-					<name>1.4.1 MorphOS package</name>
-					<extra_info>(12.6M .lha)</extra_info>
 				</file>
 
 				<file>
