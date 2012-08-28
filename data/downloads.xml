@@ -662,12 +662,6 @@
 			<entries>
 				<file>
 					<category_icon>cat-sky.png</category_icon>
-					<url>http://github.com/scummvm/scummvm/raw/v{$release}/dists/engine-data/sky.cpt</url>
-					<name>Beneath a Steel Sky, SKY.CPT - required to run the game with a post-0.7.* ScummVM</name>
-					<extra_info>(410k)</extra_info>
-				</file>
-				<file>
-					<category_icon>cat-sky.png</category_icon>
 					<url>bass-cd-1.2.zip?download</url>
 					<name>Beneath a Steel Sky, Freeware CD Version</name>
 					<extra_info>(67M)</extra_info>
@@ -714,12 +708,6 @@
 					<name>Flight of the Amazon Queen, Freeware Floppy Version</name>
 					<extra_info>(6.7M)</extra_info>
 				</file>
-				<file>
-					<category_icon>cat-queen.png</category_icon>
-					<url>http://github.com/scummvm/scummvm/raw/v{$release}/dists/engine-data/queen.tbl</url>
-					<name>Flight of the Amazon Queen, queen.tbl - required to run original versions of FOTAQ</name>
-					<extra_info>(1.0M)</extra_info>
-				</file>
 			</entries>
 		</subsection>
 
@@ -755,12 +743,6 @@
 					<url>lure-es-1.1.zip?download</url>
 					<name>Lure of the Temptress, Freeware Version (Spanish)</name>
 					<extra_info>(2.1M)</extra_info>
-				</file>
-				<file>
-					<category_icon>cat-lure.png</category_icon>
-					<url>http://github.com/scummvm/scummvm/raw/v{$release}/dists/engine-data/lure.dat</url>
-					<name>Lure of the Temptress, lure.dat - required to run original versions of Lure of the Temptress</name>
-					<extra_info>(623k) - Requires ScummVM {$release}</extra_info>
 				</file>
 			</entries>
 		</subsection>
@@ -803,12 +785,6 @@
 					<url>drascula-int-1.1.zip?download</url>
 					<name>Drascula: The Vampire Strikes Back, Freeware Version (Updated Spanish, German, French and Italian AddOn) - requires ScummVM 1.3.0 or more</name>
 					<extra_info>(33.2M)</extra_info>
-				</file>
-				<file>
-					<category_icon>cat-drascula.png</category_icon>
-					<url>http://github.com/scummvm/scummvm/raw/v{$release}/dists/engine-data/drascula.dat</url>
-					<name>Drascula: The Vampire Strikes Back, DRASCULA.DAT - required for all versions of the game</name>
-					<extra_info>(211k) - Requires ScummVM {$release}</extra_info>
 				</file>
 			</entries>
 		</subsection>
@@ -957,17 +933,6 @@
 			</entries>
 		</subsection>
 
-		<subsection>
-			<title>The Legend Of Kyrandia</title>
-			<entries>
-				<file>
-					<category_icon>cat-kyra.png</category_icon>
-					<url>http://github.com/scummvm/scummvm/raw/v{$release}/dists/engine-data/kyra.dat</url>
-					<name>The Legend of Kyrandia, KYRA.DAT - required for all versions of the game</name>
-					<extra_info>(182k)</extra_info>
-				</file>
-			</entries>
-		</subsection>
 	</section>
 
 	<section>
