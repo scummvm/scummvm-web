@@ -773,6 +773,14 @@
 					<description>(retired)</description>
 				</person>
 			</group>
+			<group>
+				<name>Wintermute</name>
+				<person>
+					<name>Einar Johan T. S&oslash;m&aring;en</name>
+					<alias>somaen</alias>
+					<description></description>
+				</person>
+			</group>
 		</subsection>
 		<subsection>
 			<title>Backend Teams</title>
@@ -1362,6 +1370,14 @@
 				</person>
 			</group>
 			<group>
+				<name>Galician</name>
+				<person>
+					<name>Santiago G. Sanz</name>
+					<alias>sgsanz</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>German</name>
 				<person>
 					<name>Simon Sawatzki</name>
@@ -1867,6 +1883,11 @@
 					<description>For their awesome OPL2 and OPL3 emulator</description>
 				</person>
 				<person>
+					<name>Yusuke Kamiyamane</name>
+					<alias></alias>
+					<description>For contributing some GUI icons </description>
+				</person>
+				<person>
 					<name>Till Kresslein</name>
 					<alias>Krest</alias>
 					<description>For design of modern ScummVM GUI</description>
@@ -1907,7 +1928,6 @@
 					<description>Soundtrack enhancements</description>
 				</person>
 			</group>
-		<paragraph>Some icons by Yusuke Kamiyamane</paragraph>
 		<paragraph>Tony Warriner and everyone at Revolution Software Ltd. for sharing with us the source of some of their brilliant games, allowing us to release Beneath a Steel Sky as freeware... and generally being supportive above and beyond the call of duty.</paragraph>
 		<paragraph>John Passfield and Steve Stamatiadis for sharing the source of their classic title, Flight of the Amazon Queen and also being incredibly supportive.</paragraph>
 		<paragraph>Joe Pearce from The Wyrmkeep Entertainment Co. for sharing the source of their famous title Inherit the Earth and always prompt replies to our questions.</paragraph>
@@ -1918,6 +1938,7 @@
 		<paragraph>David P. Gray from Gray Design Associates for sharing the source code of the Hugo trilogy.</paragraph>
 		<paragraph>Broken Sword 2.5 team for providing sources of their engine and their great support.</paragraph>
 		<paragraph>Neil Dodwell and David Dew from Creative Reality for providing the source of Dreamweb and for their tremendous support.</paragraph>
-		<paragraph>Janusz Wi&#347;niewski and Miroslaw Liminowicz from Laboratorium Komputerowe Avalon for providing full source code for So&#322;tys and letting us to redistribute the game.</paragraph>
+		<paragraph>Janusz Wi&#347;niewski and Miroslaw Liminowicz from Laboratorium Komputerowe Avalon for providing full source code for So&#322;tys and letting us redistribute the game.</paragraph>
+		<paragraph>Jan Nedoma for providing the sources to the Wintermute-engine, and for his support while porting the engine to ScummVM.</paragraph>
 	</section>
 </credits>
