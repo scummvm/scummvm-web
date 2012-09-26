@@ -102,6 +102,9 @@
 			<a href="http://www.gog.com/en/frontpage/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
 				<img src="images/GOG_button_small.png" alt="Buy with GOG.com" width="88" height="32">
 			</a>
+			<a href="https://github.com/scummvm">
+				<img src="images/github-logo.png" alt="ScummVM on GitHub" width="72" height="32">
+			</a>
 			<a href="http://sourceforge.net/projects/scummvm">
 				<img src="http://sflogo.sourceforge.net/sflogo.php?group_id=37116&amp;type=13" width="120" height="30" alt="Get ScummVM at SourceForge.net. Fast, secure and Free Open Source software downloads">
 			</a>
