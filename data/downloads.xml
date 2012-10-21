@@ -676,6 +676,54 @@
 		</subsection>
 
 		<subsection>
+			<title>Dreamweb</title>
+			<entries>
+				<file>
+					<category_icon>cat-dreamweb.png</category_icon>
+					<url>dreamweb-uk-1.0.zip?download</url>
+					<name>Dreamweb, Freeware Floppy DOS Version (English UK)</name>
+					<extra_info>(9.5M)</extra_info>
+				</file>
+				<file>
+					<category_icon>cat-dreamweb.png</category_icon>
+					<url>dreamweb-cd-uk-1.0.zip?download</url>
+					<name>Dreamweb, Freeware CD DOS Version (English UK)</name>
+					<extra_info>(225.3M)</extra_info>
+				</file>
+				<file>
+					<category_icon>cat-dreamweb.png</category_icon>
+					<url>dreamweb-cd-us-1.0.zip?download</url>
+					<name>Dreamweb, Freeware CD DOS Version (English US)</name>
+					<extra_info>(225.6M)</extra_info>
+				</file>
+				<file>
+					<category_icon>cat-dreamweb.png</category_icon>
+					<url>dreamweb-cd-fr-1.0.zip?download</url>
+					<name>Dreamweb, Freeware CD DOS Version (French)</name>
+					<extra_info>(166.1M)</extra_info>
+				</file>
+				<file>
+					<category_icon>cat-dreamweb.png</category_icon>
+					<url>dreamweb-cd-es-1.0.zip?download</url>
+					<name>Dreamweb, Freeware CD DOS Version (Spanish)</name>
+					<extra_info>(170.8M)</extra_info>
+				</file>
+				<file>
+					<category_icon>cat-dreamweb.png</category_icon>
+					<url>dreamweb-manuals-en-highres.zip?download</url>
+					<name>Dreamweb, Manuals (English High Resolution)</name>
+					<extra_info>(186.4M)</extra_info>
+				</file>
+				<file>
+					<category_icon>cat-dreamweb.png</category_icon>
+					<url>dreamweb-manuals-en-lores.zip?download</url>
+					<name>Dreamweb, Manuals (English Low Resolution)</name>
+					<extra_info>(25.7M)</extra_info>
+				</file>
+			</entries>
+		</subsection>
+
+		<subsection>
 			<title>Flight of the Amazon Queen</title>
 			<entries>
 				<file>
