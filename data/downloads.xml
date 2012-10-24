@@ -703,6 +703,12 @@
 					<extra_info>(166.1M)</extra_info>
 				</file>
 				<file>
+                                        <category_icon>cat-dreamweb.png</category_icon>
+                                        <url>dreamweb-cd-de-1.0.zip?download</url>
+                                        <name>Dreamweb, Freeware CD DOS Version (German)</name>
+                                        <extra_info>(243.1M)</extra_info>
+                                </file>
+				<file>
 					<category_icon>cat-dreamweb.png</category_icon>
 					<url>dreamweb-cd-es-1.0.zip?download</url>
 					<name>Dreamweb, Freeware CD DOS Version (Spanish)</name>
