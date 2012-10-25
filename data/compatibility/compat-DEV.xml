@@ -869,6 +869,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>DreamWeb</name>
+				<target>dreamweb</target>
+				<percent>95</percent>
+				<notes>
+					No known issues, game is completable. Only DOS versions are supported.
+				</notes>
+			</game>
+			<game>
 				<name>Discworld</name>
 				<target>dw</target>
 				<percent>98</percent>
