@@ -105,6 +105,9 @@
 			<a href="http://www.gog.com/en/frontpage/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
 				<img src="images/GOG_button_small.png" alt="Buy with GOG.com" width="88" height="32">
 			</a>
+			<a href="http://www.dotemu.com/affiliate/32202">
+				<img src="images/dotemu_scummvm.png" width="88" height="32" alt="DotEmu.com games">
+			</a>
 			<a href="http://sourceforge.net/projects/scummvm">
 				<img src="http://sflogo.sourceforge.net/sflogo.php?group_id=37116&amp;type=13" width="120" height="30" alt="Get ScummVM at SourceForge.net. Fast, secure and Free Open Source software downloads">
 			</a>
