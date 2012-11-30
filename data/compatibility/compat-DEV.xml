@@ -909,6 +909,22 @@
 				</notes>
 			</game>
 			<game>
+				<name>Eye of the Beholder</name>
+				<target>eob</target>
+				<percent>80</percent>
+				<notes>
+					Game is completable<h:br />- Requires the kyra.dat resource file to be placed in the game directory<h:br />- DOS versions are supported<h:br />- Amiga and PC-98 versions are not supported
+				</notes>
+			</game>
+			<game>
+				<name>Eye of the Beholder II: The Legend of Darkmoon</name>
+				<target>eob2</target>
+				<percent>80</percent>
+				<notes>
+					Game is completable<h:br />- Requires the kyra.dat resource file to be placed in the game directory<h:br />- DOS versions are supported<h:br />- Amiga, FM-TOWNS and PC-98 versions are not supported
+				</notes>
+			</game>
+			<game>
 				<name>Flight of the Amazon Queen</name>
 				<target>queen</target>
 				<percent>98</percent>
