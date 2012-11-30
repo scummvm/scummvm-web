@@ -354,7 +354,7 @@
 				<target>sky</target>
 				<percent>98</percent>
 				<notes>
-					No known issues, game is completable.<h:br />- Requires the sky.cpt resource file to be placed in the game directory<h:br />- Floppy demos aren't supported<h:br />- Amiga versions aren't supported<h:br /><h:br />The following bugs are present in the original game and can't be fixed:<h:br />- The voice files for some sentences are missing.<h:br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;This is especially noticeable in the court- and Mrs. Piermont sequence.<h:br />- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders<h:br />- Special characters for french and italian subtitles are incorrect sometimes
+					No known issues, game is completable.<h:br />- Floppy demos aren't supported<h:br />- Amiga versions aren't supported<h:br /><h:br />The following bugs are present in the original game and can't be fixed:<h:br />- The voice files for some sentences are missing.<h:br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;This is especially noticeable in the court- and Mrs. Piermont sequence.<h:br />- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders<h:br />- Special characters for french and italian subtitles are incorrect sometimes
 				</notes>
 			</game>
 			<game>
@@ -905,7 +905,7 @@
 				<target>drascula</target>
 				<percent>98</percent>
 				<notes>
-					No known issues, game is completable.<h:br />- Requires the drascula.dat resource file to be placed in the game directory
+					No known issues, game is completable.
 				</notes>
 			</game>
 			<game>
@@ -913,7 +913,7 @@
 				<target>eob</target>
 				<percent>80</percent>
 				<notes>
-					Game is completable<h:br />- Requires the kyra.dat resource file to be placed in the game directory<h:br />- DOS versions are supported<h:br />- Amiga and PC-98 versions are not supported
+					Game is completable<h:br />- DOS versions are supported<h:br />- Amiga and PC-98 versions are not supported
 				</notes>
 			</game>
 			<game>
@@ -921,7 +921,7 @@
 				<target>eob2</target>
 				<percent>80</percent>
 				<notes>
-					Game is completable<h:br />- Requires the kyra.dat resource file to be placed in the game directory<h:br />- DOS versions are supported<h:br />- Amiga, FM-TOWNS and PC-98 versions are not supported
+					Game is completable<h:br />- DOS versions are supported<h:br />- Amiga, FM-TOWNS and PC-98 versions are not supported
 				</notes>
 			</game>
 			<game>
@@ -929,7 +929,7 @@
 				<target>queen</target>
 				<percent>98</percent>
 				<notes>
-					No known issues, game is completable.<h:br />- Some versions may require the queen.tbl resource file to be placed in the game directory. This is not required for the freeware releases.<h:br />- Amiga and DOS versions supported by this target.
+					No known issues, game is completable.<h:br />- Amiga and DOS versions supported by this target.
 				</notes>
 			</game>
 			<game>
@@ -985,7 +985,7 @@
 				<target>lol</target>
 				<percent>80</percent>
 				<notes>
-					Game is completable<h:br />- Requires the kyra.dat resource file to be placed in the game directory<h:br />- DOS and PC-9821 versions are supported
+					Game is completable<h:br />- DOS and PC-9821 versions are supported
 				</notes>
 			</game>
 			<game>
@@ -1017,7 +1017,7 @@
 				<target>kyra1</target>
 				<percent>90</percent>
 				<notes>
-					Game is completable<h:br />- Requires the kyra.dat resource file to be placed in the game directory<h:br />- Amiga, DOS, FM-TOWNS, Macintosh and PC-9821 versions are supported<h:br />- No music or sound effects in the Macintosh floppy versions<h:br />- Macintosh CD is using included DOS music and sound effects for now
+					Game is completable<h:br />- Amiga, DOS, FM-TOWNS, Macintosh and PC-9821 versions are supported<h:br />- No music or sound effects in the Macintosh floppy versions<h:br />- Macintosh CD is using included DOS music and sound effects for now
 				</notes>
 			</game>
 			<game>
@@ -1025,7 +1025,7 @@
 				<target>kyra2</target>
 				<percent>90</percent>
 				<notes>
-					Game is completable<h:br />- Requires the kyra.dat resource file to be placed in the game directory<h:br />- DOS, FM-TOWNS and PC-9821 versions are supported
+					Game is completable<h:br />- DOS, FM-TOWNS and PC-9821 versions are supported
 				</notes>
 			</game>
 			<game>
@@ -1033,7 +1033,7 @@
 				<target>kyra3</target>
 				<percent>90</percent>
 				<notes>
-					Game is completable<h:br />- Requires the kyra.dat resource file to be placed in the game directory<h:br />- DOS and Macintosh versions are supported
+					Game is completable<h:br />- DOS and Macintosh versions are supported
 				</notes>
 			</game>
 			<game>
@@ -1049,7 +1049,7 @@
 				<target>teenagent</target>
 				<percent>80</percent>
 				<notes>
-					Game is completable.<h:br />- Requires the teenagent.dat resource file to be placed in the game directory<h:br /><h:br />- Occasional graphical glitches
+					Game is completable.<h:br /><h:br />- Occasional graphical glitches
 				</notes>
 			</game>
 			<game>
@@ -1057,7 +1057,7 @@
 				<target>toon</target>
 				<percent>80</percent>
 				<notes>
-					Game is completable.<h:br />- Requires the toon.dat resource file to be placed in the game directory<h:br /><h:br />- Occasional graphical glitches
+					Game is completable.<h:br /><h:br />- Occasional graphical glitches
 				</notes>
 			</game>
 			<game>
