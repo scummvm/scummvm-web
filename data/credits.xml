@@ -510,6 +510,14 @@
 				</person>
 			</group>
 			<group>
+				<name>Pegasus</name>
+				<person>
+					<name>Matthew Hoops</name>
+					<alias>clone2727</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>Queen</name>
 				<person>
 					<name>David Eriksson</name>
@@ -733,6 +741,24 @@
 				<person>
 					<name>Joost Peters</name>
 					<alias>joostp</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Tony</name>
+				<person>
+					<name>Arnaud Boutonn&eacute;</name>
+					<alias>Strangerke</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Paul Gilbert</name>
+					<alias>dreammaster</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Alyssa Milburn</name>
+					<alias>fuzzie</alias>
 					<description></description>
 				</person>
 			</group>
@@ -1362,6 +1388,14 @@
 				</person>
 			</group>
 			<group>
+				<name>Finnish</name>
+				<person>
+					<name>Toni Saarela</name>
+					<alias>catnose</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>French</name>
 				<person>
 					<name>Thierry Crozat</name>
@@ -1387,7 +1421,7 @@
 				<person>
 					<name>Lothar Serra Mari</name>
 					<alias>Lothar93</alias>
-					<description></description>
+					<description>(retired)</description>
 				</person>
 			</group>
 			<group>
@@ -1940,5 +1974,6 @@
 		<paragraph>Neil Dodwell and David Dew from Creative Reality for providing the source of Dreamweb and for their tremendous support.</paragraph>
 		<paragraph>Janusz Wi&#347;niewski and Miroslaw Liminowicz from Laboratorium Komputerowe Avalon for providing full source code for So&#322;tys and letting us redistribute the game.</paragraph>
 		<paragraph>Jan Nedoma for providing the sources to the Wintermute-engine, and for his support while porting the engine to ScummVM.</paragraph>
+		<paragraph>Bob Bell, Michel Kripalani, Tommy Yune, from Presto Studios for providing the source code of The Journeyman Project: Pegasus Prime.</paragraph>
 	</section>
 </credits>
