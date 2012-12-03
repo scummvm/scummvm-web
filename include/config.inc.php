@@ -5,7 +5,7 @@ define('RELEASE_TOOLS', '1.4.0');
 define('RELEASE_DEBIAN', '1.4.0');
 
 /* News items on the front page. */
-define('NEWS_ITEMS', 4);
+define('NEWS_ITEMS', 5);
 /* Number of heroes header files. */
 define('HEROES_NUM', 4);
 /* Time zone to use for news items etc. */
