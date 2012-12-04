@@ -8,7 +8,7 @@
 		{foreach from=$group.persons item=person}
 			<tr>
 				<td class="name">{$person->getName()}</td>
-				<td class="alias news-author">{$person->getAlias()}</td>
+				<td class="alias">{$person->getAlias()}</td>
 				<td>{$person->getDescription()}</td>
 			</tr>
 		{/foreach}

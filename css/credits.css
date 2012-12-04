@@ -22,6 +22,8 @@ table.credits caption {
 .credits .alias {
 	text-align: left;
 	width: 10em;
+	color: rgb(119, 119, 119);
+	font-style: italic;
 }
 
 .box .subhead-content {
