@@ -384,6 +384,19 @@
 				</person>
 			</group>
 			<group>
+				<name>Hopkins</name>
+				<person>
+					<name>Arnaud Boutonn&eacute;</name>
+					<alias>Strangerke</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Paul Gilbert</name>
+					<alias>dreammaster</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>Hugo</name>
 				<person>
 					<name>Arnaud Boutonn&eacute;</name>
@@ -745,6 +758,19 @@
 				</person>
 			</group>
 			<group>
+				<name>Toltecs</name>
+				<person>
+					<name>Benjamin Haisch</name>
+					<alias>john_doe</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Filippos Karapetis</name>
+					<alias>[md5]</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>Tony</name>
 				<person>
 					<name>Arnaud Boutonn&eacute;</name>
@@ -1051,6 +1077,11 @@
 					<name>Jochen Hoenicke</name>
 					<alias>hoenicke</alias>
 					<description>Speaker &amp; PCjr sound support, AdLib work (retired)</description>
+				</person>
+				<person>
+					<name>Dani&euml;l ter Laan</name>
+					<alias>NoiZe</alias>
+					<description>Restoring original Drascula tracks, and writing convert_dxa.bat</description>
 				</person>
 				<person>
 					<name>Chris Page</name>
