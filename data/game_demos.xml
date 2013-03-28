@@ -1341,6 +1341,11 @@
 				<target>teenagent</target>
 			</demo>
 			<demo>
+				<name>The Journeyman Project: Pegasus Prime (Macintosh demo) - Requires ScummVM 1.6.0dev</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/pegasus/pegasus-mac-demo-en.zip/download</url>
+				<target>pegasus</target>
+			</demo>
+			<demo>
 				<name>The Legend of Kyrandia (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/kyra/kyra1-dos-ni-demo-en.zip/download</url>
 				<target>kyra1</target>

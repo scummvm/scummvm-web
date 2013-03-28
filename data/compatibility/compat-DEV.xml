@@ -1020,6 +1020,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>The Journeyman Project: Pegasus Prime</name>
+				<target>pegasus</target>
+				<percent>90</percent>
+				<notes>
+					Game is completable<h:br />- Macintosh versions are supported<h:br />- Occasional video graphical glitches
+				</notes>
+			</game>
+			<game>
 				<name>The Legend of Kyrandia</name>
 				<target>kyra1</target>
 				<percent>90</percent>
