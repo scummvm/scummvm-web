@@ -1070,9 +1070,9 @@
 			<game>
 				<name>Toonstruck</name>
 				<target>toon</target>
-				<percent>80</percent>
+				<percent>95</percent>
 				<notes>
-					Game is completable.<h:br /><h:br />- Occasional graphical glitches
+					No known issues, game is completable.
 				</notes>
 			</game>
 			<game>
