@@ -888,7 +888,7 @@
 				<target>dw</target>
 				<percent>98</percent>
 				<notes>
-				Game is completable<h:br />- DOS and PSX versions are supported by this target<h:br />- PSX version is missing music support
+				Game is completable<h:br />- DOS, Macintosh and PSX versions are supported by this target<h:br />- PSX version is missing music support
 				</notes>
 			</game>
 			<game>
