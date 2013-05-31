@@ -1,0 +1,22 @@
+<NAME>Students for GSoC are known!</NAME>
+<DATE>May 31, 2013</DATE>
+<AUTHOR>Strangerke</AUTHOR>
+<BODY>
+<p>
+  <img src="http://scummvm.org/data/news/GSOC_13_banner.png" alt="GSoC 2013 Banner" align="center">
+</p>
+<p>We announced 6 weeks ago that Google accepted ScummVM for the Google Summer of Code this year again.</p>
+<p>We now know how many students Google assigned to us: 4 students will work with us this summer!</p>
+<p>In order to tease you a bit, here is a short introduction:</p>
+<ul>
+<li><i>RichieSams</i> will work on integrating Marisa Chan's Z-Engine, which concerns Zork Nemesis and Zork Grand Inquisitor.</li>
+<li><i>Rundfunk</i> will focus on GUI extensions and improvement, with particular care for touchscreen devices.</li>
+<li><i>Uruk</i> will port from Pascal to C++ the Avalanche engine, which concerns Lord Avalot d'Argent. </li>
+<li><i>T0by</i> will work on our Wintermute engine and will fix several issues and add several features not present in WME light</li>
+</ul>
+ 
+<p>We'd like you to join us and warmly welcome to those four students and wish them all the best for the next 3 months.</p>
+<p>We also are really grateful to Google to give us again the opportunity to mentor students this year and benefit their passion!</p>
+<p>Stay tuned!</p>
+</BODY>
+
