@@ -1,8 +1,8 @@
 <?php
 /* Current version. */
-define('RELEASE', '1.5.0');
-define('RELEASE_TOOLS', '1.4.0');
-define('RELEASE_DEBIAN', '1.4.0');
+define('RELEASE', '1.6.0');
+define('RELEASE_TOOLS', '1.6.0');
+define('RELEASE_DEBIAN', '1.5.0');
 
 /* News items on the front page. */
 define('NEWS_ITEMS', 5);
