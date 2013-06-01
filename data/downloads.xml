@@ -227,14 +227,14 @@
 					<extra_info>(15.2M .zip)</extra_info>
 				</file>
 
-<!--
 				<file>
 					<category_icon>catpl-n64.png</category_icon>
 					<url>scummvm-{$release}-n64.zip?download</url>
 					<name>Nintendo 64 package</name>
-					<extra_info>(12.0M .zip)</extra_info>
+					<extra_info>(12.2M .zip)</extra_info>
 				</file>
 
+<!--
 				<file>
 					<category_icon>catpl-gc.png</category_icon>
 					<url>scummvm-{$release}-gamecube.zip?download</url>
@@ -273,14 +273,14 @@
 					<name>OpenPandora package</name>
 					<extra_info>(10.1M .zip)</extra_info>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-dingux.png</category_icon>
 					<url>scummvm-{$release}-dingux.zip?download</url>
 					<name>Dingux package</name>
-					<extra_info>(10.2M .zip)</extra_info>
+					<extra_info>(11.8M .zip)</extra_info>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
 					<url>scummvm-{$release}-solaris8-sparc.pkg.bz2?download</url>
@@ -564,12 +564,6 @@
 					<name>1.5.0 iPhone package</name>
 					<extra_info>(10.7M .deb)</extra_info>
 				</file>
-				<file>
-					<category_icon>catpl-n64.png</category_icon>
-					<url>scummvm-1.5.0-n64.zip?download</url>
-					<name>1.5.0 Nintendo 64 package</name>
-					<extra_info>(12.0M .zip)</extra_info>
-				</file>
 
 				<file>
 					<category_icon>catpl-gc.png</category_icon>
@@ -610,12 +604,6 @@
 					<extra_info>(10.1M .zip)</extra_info>
 				</file>
 
-				<file>
-					<category_icon>catpl-dingux.png</category_icon>
-					<url>scummvm-1.5.0-dingux.zip?download</url>
-					<name>1.5.0 Dingux package</name>
-					<extra_info>(10.2M .zip)</extra_info>
-				</file>
 				<file>
 					<category_icon>catpl-morphos.png</category_icon>
 					<url>scummvm-1.5.0-morphos.lha?download</url>
