@@ -73,14 +73,14 @@
 					<name>Ubuntu 13.04 (raring) i386 package</name>
 					<extra_info>(9.8M .deb)</extra_info>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
 					<url>scummvm_{$release}-raring.1_amd64.deb?download</url>
 					<name>Ubuntu 13.04 (raring) x86 64bit package</name>
 					<extra_info>(9.9M .deb)</extra_info>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-slackware.png</category_icon>
 					<url>scummvm-{$release}_slack-i486-1.tgz?download</url>
