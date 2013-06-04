@@ -142,20 +142,20 @@
 					<name>Android packages</name>
 					<extra_info>(15M .zip)</extra_info>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-symbian.png</category_icon>
 					<url>scummvm-{$release}-s60v3.sis?download</url>
 					<name>Symbian S60 version 3 binary</name>
-					<extra_info>(15.0M .sis)</extra_info>
+					<extra_info>(22.8M .sis)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-uiq.png</category_icon>
 					<url>scummvm-{$release}-uiq3.sis?download</url>
 					<name>Symbian UIQ 3 binary</name>
-					<extra_info>(14.6M .sis)</extra_info>
+					<extra_info>(22.4M .sis)</extra_info>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-wince.png</category_icon>
 					<url>scummvm-{$release}-wince.zip?download</url>
@@ -635,18 +635,6 @@
 					<extra_info>(15M .zip)</extra_info>
 				</file>
 
-				<file>
-					<category_icon>catpl-symbian.png</category_icon>
-					<url>scummvm-1.4.1-s60v3.sis?download</url>
-					<name>1.4.1 Symbian S60 version 3 binary</name>
-					<extra_info>(15.0M .sis)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-uiq.png</category_icon>
-					<url>scummvm-1.4.1-uiq3.sis?download</url>
-					<name>1.4.1 Symbian UIQ 3 binary</name>
-					<extra_info>(14.6M .sis)</extra_info>
-				</file>
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
 					<url>scummvm-1.4.1-solaris10-x86.pkg.bz2?download</url>
