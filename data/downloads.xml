@@ -145,15 +145,15 @@
 -->
 				<file>
 					<category_icon>catpl-symbian.png</category_icon>
-					<url>scummvm-{$release}-s60v3.sis?download</url>
+					<url>scummvm-{$release}-s60v3.zip?download</url>
 					<name>Symbian S60 version 3 binary</name>
-					<extra_info>(22.8M .sis)</extra_info>
+					<extra_info>(22.8M .zip)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-uiq.png</category_icon>
-					<url>scummvm-{$release}-uiq3.sis?download</url>
+					<url>scummvm-{$release}-uiq3.zip?download</url>
 					<name>Symbian UIQ 3 binary</name>
-					<extra_info>(22.4M .sis)</extra_info>
+					<extra_info>(22.4M .zip)</extra_info>
 				</file>
 <!--
 				<file>
