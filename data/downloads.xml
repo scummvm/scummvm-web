@@ -33,20 +33,19 @@
 					<name>Windows 64bit zipfile</name>
 					<extra_info>(8.5M .zip)</extra_info>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
 					<url>scummvm-{$release}-1.i386.rpm?download</url>
 					<name>Fedora 8-17 i386 package</name>
-					<extra_info>(8.4M RPM)</extra_info>
+					<extra_info>(8.9M RPM)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
 					<url>scummvm-{$release}-1.x86_64.rpm?download</url>
 					<name>Fedora 8-17 x86 64bit package</name>
-					<extra_info>(9.1M RPM)</extra_info>
+					<extra_info>(9.7M RPM)</extra_info>
 				</file>
--->
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
 					<url>scummvm_{$release}-wheezy.1_i386.deb?download</url>
@@ -384,14 +383,12 @@
 					<name>ScummVM - Source .zip</name>
 					<extra_info>(25.5M)</extra_info>
 				</file>
-<!--
 				<file>
 					<category_icon>catpl-cpp.png</category_icon>
 					<url>scummvm-{$release}-1.src.rpm?download</url>
 					<name>ScummVM - Source RPM</name>
-					<extra_info>(18.7M)</extra_info>
+					<extra_info>(18.8M)</extra_info>
 				</file>
--->
 			</entries>
 		</subsection>
 
@@ -506,13 +503,14 @@
 					<name>Tools - Source .zip</name>
 					<extra_info>(1.3M .zip)</extra_info>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-cpp.png</category_icon>
 					<url>scummvm-tools-{$release_tools}-1.src.rpm?download</url>
 					<name>Tools - Source RPM</name>
 					<extra_info>(1.3M .rpm)</extra_info>
 				</file>
+-->
 			</entries>
 		</subsection>
 	</section>
@@ -528,18 +526,6 @@
 				older versions around, for your convenience.
 			</notes>
 			<entries>
-				<file>
-					<category_icon>catpl-fedora.png</category_icon>
-					<url>scummvm-1.5.0-1.i386.rpm?download</url>
-					<name>1.5.0 Fedora 8-17 i386 package</name>
-					<extra_info>(8.4M RPM)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-fedora.png</category_icon>
-					<url>scummvm-1.5.0-1.x86_64.rpm?download</url>
-					<name>1.5.0 Fedora 8-17 x86 64bit package</name>
-					<extra_info>(9.1M RPM)</extra_info>
-				</file>
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
 					<url>scummvm_1.5.0-precise.1_armel.deb?download</url>
