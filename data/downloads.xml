@@ -93,14 +93,14 @@
 					<extra_info>(9.4M .txz)</extra_info>
 				</file>
 
-<!--
+
 				<file>
 					<category_icon>catpl-macos-universal.png</category_icon>
 					<url>scummvm-{$release}-macosx.dmg?download</url>
 					<name>Mac OS X Universal Disk Image</name>
-					<extra_info>(16.3M disk image)</extra_info>
+					<extra_info>(18.2M disk image)</extra_info>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-ps2.png</category_icon>
 					<url>scummvm-{$release}-ps2.zip?download</url>
@@ -531,12 +531,6 @@
 					<url>scummvm_1.5.0-precise.1_armel.deb?download</url>
 					<name>1.5.0 Ubuntu 12.04 (precise) ARM package</name>
 					<extra_info>(7.8M .deb)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-macos-universal.png</category_icon>
-					<url>scummvm-1.5.0-macosx.dmg?download</url>
-					<name>1.5.0 Mac OS X Universal Disk Image</name>
-					<extra_info>(16.3M disk image)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-wince.png</category_icon>
