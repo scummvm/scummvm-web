@@ -293,8 +293,7 @@
 					<name>iSolaris 10 x86, Solaris 11 x86, OpenIndiana binary</name>
 					<extra_info>(24.5M .pkg.7z)</extra_info>
 				</file>
--->
-
+<!--
 				<file>
 					<category_icon>catpl-irix.png</category_icon>
 					<url>scummvm-{$release}-irix-mips3.tar.gz?download</url>
