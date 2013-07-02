@@ -53,10 +53,7 @@ class News extends BasicObject {
 	 * for a list of valid entities for both XML and HTML
 	 */
 	function processText($text) {
-		$search  = array("&eacute;");
-		$replace = array("é");
-		
-		return str_replace($search, $replace, $text);
+		return html_entity_decode($text, ENT_COMPAT, 'UTF-8');
 	}
 	
 	/* Get the title. */
