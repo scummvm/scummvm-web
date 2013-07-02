@@ -32,7 +32,7 @@ $pages = array(
 );
 
 /* Default to the news page. */
-if (!array_key_exists(($page = $_GET['p']), $pages)) {
+if (!array_key_exists(($page = isset($_GET['p']) ? $_GET['p'] : null), $pages)) {
 	$page = 'news';
 }
 

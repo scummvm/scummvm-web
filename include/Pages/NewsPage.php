@@ -14,7 +14,7 @@ class NewsPage extends Controller {
 
 	/* Display the index page. */
 	public function index() {
-		$date = $_GET['d'];
+		$date = isset($_GET['d']) ? $_GET['d'] : null;
 
 		if ($date != null) {
 			if (strtolower($date) == 'archive' || $date == '') {
