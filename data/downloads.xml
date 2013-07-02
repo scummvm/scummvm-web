@@ -279,21 +279,21 @@
 					<name>Dingux package</name>
 					<extra_info>(11.8M .zip)</extra_info>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
-					<url>scummvm-{$release}-solaris8-sparc.pkg.bz2?download</url>
-					<name>Solaris 8 and up (Sparc) binary</name>
-					<extra_info>(5.6M .pkg.bz2)</extra_info>
+					<url>scummvm-{$release}-solaris10-sparc.pkg.7z?download</url>
+					<name>Solaris 10 sparc, Solaris 11 sparc binary</name>
+					<extra_info>(23.9M .pkg.7z)</extra_info>
 				</file>
 
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
-					<url>scummvm-{$release}-solaris10-x86.pkg.bz2?download</url>
-					<name>Solaris 10 (both IA32 and AMD64) binary</name>
-					<extra_info>(16.3M .pkg.bz2)</extra_info>
+					<url>scummvm-{$release}-solaris10-x86.pkg.7z?download</url>
+					<name>iSolaris 10 x86, Solaris 11 x86, OpenIndiana binary</name>
+					<extra_info>(24.5M .pkg.7z)</extra_info>
 				</file>
-
+-->
 
 				<file>
 					<category_icon>catpl-irix.png</category_icon>
