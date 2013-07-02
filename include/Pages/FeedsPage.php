@@ -22,7 +22,7 @@ class FeedsPage extends Controller {
 			$template = $this->_template_rss;
 		}
 
-		$news_items = NewsModel::getLatestNews(NEWS_ITEMS);
+		$news_items = NewsModel::getLatestNews(NEWS_ITEMS, true);
 
 		header('Content-Type: text/xml; charset=UTF-8');
 		print $this->fetch(

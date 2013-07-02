@@ -26,7 +26,7 @@ abstract class NewsModel extends BasicModel {
 	}
 
 	/* Get all news items ordered by date, descending. */
-	static public function getAllNews() {
+	static public function getAllNews($processContent = false) {
 		if (!($files = scandir(DIR_NEWS))) {
 			throw new ErrorException(self::NO_FILES);
 		}
@@ -38,15 +38,15 @@ abstract class NewsModel extends BasicModel {
 			if (!($data = @file_get_contents(DIR_NEWS . "/{$filename}"))) {
 				continue;
 			}
-			$news[] = new News($data, $filename);
+			$news[] = new News($data, $filename, $processContent);
 		}
 		return array_reverse($news);
 	}
 
 	/* Get the latest number of news items, or if no number is specified get all news items. */
-	static public function getLatestNews($num=-1) {
+	static public function getLatestNews($num=-1, $processContent = false) {
 		if ($num == -1) {
-			return NewsModel::getAllNews();
+			return NewsModel::getAllNews($processContent);
 		} else {
 			if (!($newslist = NewsModel::getListOfNewsDates())) {
 				throw new ErrorException(self::NO_FILES);
@@ -55,14 +55,14 @@ abstract class NewsModel extends BasicModel {
 			$newslist = array_slice($newslist, 0, $num);
 			$news = array();
 			foreach ($newslist as $date) {
-				$news[] = NewsModel::getOneByDate($date);
+				$news[] = NewsModel::getOneByDate($date, $processContent);
 			}
 			return $news;
 		}
 	}
 
 	/* Get the news item that was posted on a specific date. */
-	static public function getOneByDate($date) {
+	static public function getOneByDate($date, $processContent = false) {
 		if (is_null($date) || !preg_match('/^\d{8}[a-z]?$/', $date)) {
 			throw new ErrorException(self::INVALID_DATE);
 		}
@@ -70,11 +70,11 @@ abstract class NewsModel extends BasicModel {
 			|| !is_readable($fname) || !($data = @file_get_contents($fname))) {
 			throw new ErrorException(self::FILE_NOT_FOUND);
 		}
-		return new News($data, $fname);
+		return new News($data, $fname, $processContent);
 	}
 
 	/* Get the news item that was posted on a specific date. */
-	static public function getAllByDate($date) {
+	static public function getAllByDate($date, $processContent = false) {
 		if ($date == null || !is_numeric($date) || strlen($date) != 8) {
 			throw new ErrorException(self::INVALID_DATE);
 		}
@@ -87,7 +87,7 @@ abstract class NewsModel extends BasicModel {
 		$news = array();
 		foreach ($files as $filename) {
 			if (($data = @file_get_contents($filename))) {
-				$news[] = new News($data, $filename);
+				$news[] = new News($data, $filename, $processContent);
 			}
 		}
 		return $news;

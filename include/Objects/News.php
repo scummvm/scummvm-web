@@ -24,7 +24,7 @@ class News extends BasicObject {
 	 *
 	 * FIXME: It currently fails at grabbing the image (see 20020214.xml)
 	 */
-	public function __construct($data, $filename) {
+	public function __construct($data, $filename, $processContent = false) {
 		$vars = array();
 		preg_match("/<NAME>(.*)<\/NAME>.*		# Grab the title
 					<DATE>(.*)<\/DATE>.*		# Grab the date
@@ -33,16 +33,32 @@ class News extends BasicObject {
 					<BODY>(.*)<\/BODY>			# Grab the body
 					/sUx", $data, $vars);
 		if (count($vars) == 6) {
-			$this->_title = $vars[1];
+			$this->_title = $processContent ? $this->processText($vars[1]) : $vars[1];
 			/* Store the date as an unix timestamp*/
 			$this->_date = intval(strtotime($vars[2]));
 			$this->_author = $vars[3];
 			$this->_image = $vars[4];
-			$this->_content = $vars[5];
+			$this->_content = $processContent ? $this->processText($vars[5]) : $vars[5];
 		}
 		$this->_filename = basename($filename);
 	}
 
+	/**
+	 * Search and replace specific text from the title and content of a news item.
+	 * Used to filter out entities from the RSS/atom feeds that are not in the XML
+	 * standard.
+	 *
+	 * Check:
+	 * http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references
+	 * for a list of valid entities for both XML and HTML
+	 */
+	function processText($text) {
+		$search  = array("&eacute;");
+		$replace = array("é");
+		
+		return str_replace($search, $replace, $text);
+	}
+	
 	/* Get the title. */
 	public function getTitle() {
 		return $this->_title;
