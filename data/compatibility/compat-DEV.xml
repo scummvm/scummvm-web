@@ -239,7 +239,7 @@
 				<target>waxworks</target>
 				<percent>50</percent>
 				<notes>
-					Game is playable, but not confirmed as completable.<h:br />- Amiga and DOS versions are supported by this target
+					Game is playable, but requires further play testing.<h:br />- Amiga and DOS versions are supported by this target<h:br />- Amiga version has not been confirmed as completable.<h:br />- PC version doesn't load or save items states correctly, leading to various bugs
 				</notes>
 			</game>
 		</games>
