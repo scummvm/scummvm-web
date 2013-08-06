@@ -247,18 +247,28 @@ class XMLParser {
 	 * @access private
 	 * @since 1.0
 	 */
-	private function simplifyArray(&$array, $all_singles=false) {
+	private function simplifyArray(&$array, $parent='', $all_singles=false) {
 		if (is_array($array) && count($array) > 0) {
 			foreach ((array)$array as $key => $value) {
 				if (is_array($value) && $key !== '@attributes') {
-					$this->simplifyArray($array[$key]);
+					$this->simplifyArray($array[$key], $key);
 				}
 				if (count($array) == 1) {
 					if (array_key_exists(0, $array)) {
-						$array = $array[0];
+						// HACK: The compatibility page assumes that the entry
+						// 'game' is always an array. In case only one 'game'
+						// tag is specified in a 'games' tag this would result
+						// in the array of 'game' being simplified (i.e.
+						// replaced by its contents). This breaks the
+						// compatibility page. We work around this issue by
+						// simply not simplifying arrays when the parent is
+						// named 'game'.
+						if ($parent !== 'game') {
+							$array = $array[0];
+						}
 					} else {
 						$keys = array_keys($array);
-						$this->simplifyArray($array[$keys[0]]);
+						$this->simplifyArray($array[$keys[0]], $keys[0]);
 					}
 				}
 			}
