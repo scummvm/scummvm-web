@@ -1196,6 +1196,21 @@
 					<description>: Theora Decoder</description>
 				</link>
 				<link>
+					<name>mpeg2</name>
+					<url>http://libmpeg2.sourceforge.net/</url>
+					<description>: mpeg2 Decoder</description>
+				</link>
+				<link>
+					<name>png</name>
+					<url>http://www.libpng.org/pub/png/libpng.html</url>
+					<description>: png image format decoder</description>
+				</link>
+				<link>
+					<name>jpeg</name>
+					<url>http://www.ijg.org</url>
+					<description> (or jpeg-turbo): jpeg image format decoder</description>
+				</link>
+				<link>
 					<name>zlib</name>
 					<url>http://zlib.net/</url>
 					<description>: Data Compression</description>
