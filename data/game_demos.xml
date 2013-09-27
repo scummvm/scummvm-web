@@ -326,6 +326,11 @@
 				<target>freddi3</target>
 			</demo>
 			<demo>
+				<name>Freddi Fish 3: The Case of the Stolen Conch Shell (Windows Hebrew Demo)</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi3-win-demo-hb.zip/download</url>
+				<target>freddi3</target>
+			</demo>
+			<demo>
 				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi4-win-demo-us.zip/download</url>
 				<target>freddi4</target>
@@ -461,6 +466,11 @@
 				<target>pajama2</target>
 			</demo>
 			<demo>
+				<name>Pajama Sam 2: Thunder and Lightning Aren't so Frightening (Windows Hebrew Demo)</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/pajama2-win-demo-hb.zip/download</url>
+				<target>pajama2</target>
+			</demo>
+			<demo>
 				<name>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/pajama3-win-demo-us.zip/download</url>
 				<target>pajama3</target>
@@ -551,6 +561,11 @@
 				<target>puttcircus</target>
 			</demo>
 			<demo>
+				<name>Putt-Putt Joins the Circus (Windows Hebrew Demo)</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/puttcircus-win-demo-hb.zip/download</url>
+				<target>puttcircus</target>
+			</demo>
+			<demo>
 				<name>Putt-Putt Joins the Parade (DOS demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/puttputt-dos-demo-us.zip/download</url>
 				<target>puttputt</target>
@@ -613,6 +628,11 @@
 			<demo>
 				<name>Putt-Putt Travels Through Time (Windows French Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/putttime-win-demo-fr.zip/download</url>
+				<target>putttime</target>
+			</demo>
+			<demo>
+				<name>Putt-Putt Travels Through Time (Windows Hebrew Demo)</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/putttime-win-demo-hb.zip/download</url>
 				<target>putttime</target>
 			</demo>
 			<demo>
