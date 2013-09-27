@@ -406,6 +406,11 @@
 				<target>catalog</target>
 			</demo>
 			<demo>
+				<name>Humongous Catalog demo (Windows US Preview) - Requires ScummVM 1.7.0git</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/catalog-win-preview-us.zip/download</url>
+				<target>catalog</target>
+			</demo>
+			<demo>
 				<name>Let's Explore the Airport with Buzzy (Macintosh Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/airport-mac-demo-us.zip/download</url>
 				<target>airport</target>
