@@ -14,8 +14,7 @@
  a present... Thus myself, James Woodcock and the ScummVM PR Team present
  "ScummVM: THE MOVIE"! :) </p>
 
-<iframe frameborder="0" height="640" width="480" 
-src="https://www.youtube.com/watch?v=iZpf15F3ink"></iframe>
+<iframe width="420" height="315" src="//www.youtube.com/embed/iZpf15F3ink" frameborder="0" allowfullscreen></iframe>
 
 <p>This visualization is powered by <a href="http://code.google.com/p/gource/">
 Gource</a>.If you want to play with this yourself or render a full length HD
