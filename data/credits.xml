@@ -227,6 +227,19 @@
 				</person>
 			</group>
 			<group>
+				<name>AVALANCHE</name>
+				<person>
+					<name>Peter Bozs&oacute;</name>
+					<alias>uruk</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Arnaud Boutonn&eacute;</name>
+					<alias>Strangerke</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>CGE</name>
 				<person>
 					<name>Arnaud Boutonn&eacute;</name>
@@ -511,6 +524,32 @@
 				<person>
 					<name>David Turner</name>
 					<alias>digitall</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Mortevielle</name>
+				<person>
+					<name>Arnaud Boutonn&eacute;</name>
+					<alias>Strangerke</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Paul Gilbert</name>
+					<alias>dreammaster</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Neverhood</name>
+				<person>
+					<name>Benjamin Haisch</name>
+					<alias>john_doe</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Filippos Karapetis</name>
+					<alias>[md5]</alias>
 					<description></description>
 				</person>
 			</group>
@@ -833,6 +872,14 @@
 					<description></description>
 				</person>
 			</group>
+			<group>
+				<name>ZVision</name>
+				<person>
+					<name>Adrian Astley</name>
+					<alias>RichieSams</alias>
+					<description></description>
+				</person>
+			</group>
 		</subsection>
 		<subsection>
 			<title>Backend Teams</title>
@@ -846,14 +893,6 @@
 				<person>
 					<name>Angus Lees</name>
 					<alias>Gus</alias>
-					<description></description>
-				</person>
-			</group>
-			<group>
-				<name>BADA</name>
-				<person>
-					<name>Chris Warren-Smith</name>
-					<alias></alias>
 					<description></description>
 				</person>
 			</group>
@@ -998,6 +1037,14 @@
 				<person>
 					<name>Lars Persson</name>
 					<alias>AnotherGuest</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Tizen / BADA</name>
+				<person>
+					<name>Chris Warren-Smith</name>
+					<alias></alias>
 					<description></description>
 				</person>
 			</group>
@@ -1377,7 +1424,7 @@
 			</group>
 		</subsection>
 		<subsection>
-			<title>Translations</title>
+			<title>GUI Translations</title>
 			<group>
 				<name></name>
 				<person>
@@ -1555,6 +1602,48 @@
 			</group>
 		</subsection>
 		<subsection>
+			<title>Game Translations</title>
+			<group>
+				<name>CGE</name>
+				<person>
+					<name>Dan Serban</name>
+					<alias>nutron</alias>
+					<description>Soltys English translation</description>
+				</person>
+				<person>
+					<name>V&iacute;ctor Gonz&aacute;lez</name>
+					<alias>IlDucci</alias>
+					<description>Soltys Spanish translation</description>
+				</person>
+				<person>
+					<name>Alejandro G&oacute;mez de la Mu&ntilde;oza</name>
+					<alias>TheFireRed</alias>
+					<description>Soltys Spanish translation</description>
+				</person>
+			</group>
+			<group>
+				<name>Drascula</name>
+				<person>
+					<name>Thierry Crozat</name>
+					<alias>criezy</alias>
+					<description>Improve French translation</description>
+				</person>
+			</group>
+			<group>
+				<name>Mortevielle</name>
+				<person>
+					<name>Hugo Labrande</name>
+					<alias></alias>
+					<description>Improve English translation</description>
+				</person>
+				<person>
+					<name>Thierry Crozat</name>
+					<alias>criezy</alias>
+					<description>Improve English translation</description>
+				</person>
+			</group>
+		</subsection>
+		<subsection>
 			<title>Websites (design)</title>
 			<group>
 				<name></name>
@@ -1638,6 +1727,11 @@
 					<name>Jeroen Janssen</name>
 					<alias>japj</alias>
 					<description>Numerous readability and bugfix patches</description>
+				</person>
+				<person>
+					<name>Keith Kaisershot</name>
+					<alias>blitter</alias>
+					<description>Several Pegasus Prime patches</description>
 				</person>
 				<person>
 					<name>Andreas Karlsson</name>
@@ -1999,6 +2093,11 @@
 					<name>James Woodcock</name>
 					<alias></alias>
 					<description>Soundtrack enhancements</description>
+				</person>
+				<person>
+					<name>Anton Yartsev</name>
+					<alias>Zidane</alias>
+					<description>For the original re-implementation of the ZVision engine</description>
 				</person>
 			</group>
 		<paragraph>Tony Warriner and everyone at Revolution Software Ltd. for sharing with us the source of some of their brilliant games, allowing us to release Beneath a Steel Sky as freeware... and generally being supportive above and beyond the call of duty.</paragraph>
