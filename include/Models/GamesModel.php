@@ -14,7 +14,6 @@ abstract class GamesModel {
 		$a = $parser->parseByFilename($fname);
 		$sections = array();
 		foreach ($a['downloads']['section'] as $key => $value) {
-			echo "Value: $value";
 			$sections[] = new DSection($value);
 		}
 		return $sections;
