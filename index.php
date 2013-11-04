@@ -22,6 +22,7 @@ $pages = array(
 	'demos' => 'DemosPage',
 	'documentation' => 'DocumentationPage',
 	'downloads' => 'DownloadsPage',
+	'games' => 'GamesPage',
 	'faq' => 'FAQPage',
 	'feeds' => 'FeedsPage',
 	'links' => 'LinksPage',

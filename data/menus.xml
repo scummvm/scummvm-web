@@ -20,6 +20,10 @@
 			<href>downloads/</href>
 		</link>
 		<link>
+			<name>Games</name>
+			<href>games/</href>
+		</link>
+		<link>
 			<name>ScummVM Blogs</name>
 			<href>http://planet.scummvm.org</href>
 		</link>
