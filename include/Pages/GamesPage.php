@@ -16,7 +16,7 @@ class GamesPage extends Controller {
 		$downloads = GamesModel::getAllDownloads();
 		$sections = GamesModel::getAllSections();
 
-		$this->addCSSFiles('downloads.css');
+		$this->addCSSFiles('games.css');
 		return $this->renderPage(
 			array(
 				'title' => 'Games',
