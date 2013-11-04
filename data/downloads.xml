@@ -712,16 +712,15 @@
 
 	<section>
 		<title>Extras, game downloads</title>
-		<baseurl>http://www.scummvm.org/</baseurl>
 		<anchor>extras</anchor>
-
 		<subsection>
 			<title>Game downloads</title>
 			<entries>
-				<file>
+				<link>
+					<name>Games page</name>
 					<url>games</url>
-					<name>Game downloads have been moved to the games page</name>
-				</file>
+					<description>: Freeware game downloads and game extras</description>
+				</link>
 			</entries>
 		</subsection>
 	</section>
