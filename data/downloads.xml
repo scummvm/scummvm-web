@@ -721,6 +721,11 @@
 					<url>games</url>
 					<description>: Freeware game downloads and game extras</description>
 				</link>
+				<link>
+					<name>Demos page</name>
+					<url>demos</url>
+					<description>: Game demos</description>
+				</link>
 			</entries>
 		</subsection>
 	</section>
