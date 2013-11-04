@@ -131,8 +131,8 @@
 -->
 				<file>
 					<category_icon>catpl-android.png</category_icon>
-					<url>https://market.android.com/details?id=org.scummvm.scummvm</url>
-					<name>Android Market</name>
+					<url>https://play.google.com/store/apps/details?id=org.scummvm.scummvm</url>
+					<name>Android package at Google Play Store</name>
 				</file>
 <!--
 				<file>
