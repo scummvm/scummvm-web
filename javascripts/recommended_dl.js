@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	var OS = "Win"; //Default
+	var OS = "Windows"; //Default
 	
 	var versions = {
 		// Magic keys:
