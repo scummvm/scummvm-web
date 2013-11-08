@@ -49,11 +49,11 @@ span.daily_provider {
 	-moz-box-shadow: 0 0 10px #222;
 	box-shadow: 0 0 10px #222;
 	text-decoration: none;
-	background: #A92A0C url(../images/downloadbg.png) repeat-x;
+	background: #C84430 url(../images/downloadbg.png) repeat-x;
 }
 
 #downloadButton:hover {
-	background: #CB7E6B url(../images/downloadbgbright.png) repeat-x;
+	background: #EFC6BE url(../images/downloadbgbright.png) repeat-x;
 }
 
 .downloadText {
