@@ -52,7 +52,7 @@
 
 		<!-- Recommended download - start -->
 		<script type="text/javascript">
-			var release = '{$release}';
+			{$recommendedDownloadsJS}
 		</script>
 		<script type="text/javascript" src="javascripts/jquery-1.3.2.min.js"></script>
 		<script type="text/javascript" src="javascripts/recommended_dl.js"></script>
