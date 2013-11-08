@@ -57,14 +57,9 @@
 		<script type="text/javascript" src="javascripts/jquery-1.3.2.min.js"></script>
 		<script type="text/javascript" src="javascripts/recommended_dl.js"></script>
 		
-		<div class="subhead">Recommended download for your system</div>
-		<div class="subhead-content">
-			<div id="downloadContainer">
-				<a id="downloadButton" href="http://prdownloads.sourceforge.net/scummvm/scummvm-{$release}-win32.exe?download">
-					 <img style="position: absolute; top: 8px; left: 14px;" src="images/scummvm.png" alt="Download ScummVM icon">
-					 <span class="downloadText">Download ScummVM</span>
-					 <span id="downloadDetails" style="font-size: 12px; color: white;">Version {$release} &nbsp;•&nbsp; Windows &nbsp;•&nbsp; 6.6&nbsp;MB</span>
-				</a>
+		<div class="subhead" id="recommendedDownloadHeader" style="display:none">Recommended download for your system</div>
+		<div class="subhead-content" style="display:none">
+			<div id="downloadContainer" style="display:none">
 			</div>
 		</div>
 			
