@@ -2,6 +2,7 @@
 RewriteEngine On
 
 # Set the base for the rewritten URLs
+# NOTE: When debugging locally, set this to the directory the site is in
 RewriteBase /
 
 ##
