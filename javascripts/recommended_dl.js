@@ -14,6 +14,7 @@ $(document).ready(function () {
 		$("#downloadContainer").hide();
 		$("#downloadContainer").parent(".subhead-content").hide();	// hide recommended download section
 		$("#recommendedDownloadHeader").hide();
+		return;
 	} else {
 		// User-agent matched - show the recommended download button and section
 		$("#downloadContainer").show();
