@@ -46,7 +46,6 @@
 					<url>scummvm-{$release}-1.x86_64.rpm?download</url>
 					<name>Fedora 8-17 x86 64bit package</name>
 					<extra_info>(9.7M RPM)</extra_info>
-					<user_agent>Fedora</user_agent>
 				</file>
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
@@ -59,7 +58,6 @@
 					<url>scummvm_{$release}-wheezy.1_amd64.deb?download</url>
 					<name>Debian 7.0 (wheezy) x86 64bit package</name>
 					<extra_info>(9.8M .deb)</extra_info>
-					<user_agent>Debian</user_agent>
 				</file>
 <!--
 				<file>
@@ -81,7 +79,6 @@
 					<url>scummvm_{$release}-raring.1_amd64.deb?download</url>
 					<name>Ubuntu 13.04 (raring) x86 64bit package</name>
 					<extra_info>(9.9M .deb)</extra_info>
-					<user_agent>Ubuntu</user_agent>
 				</file>
 
 				<file>
@@ -95,7 +92,6 @@
 					<url>scummvm-{$release}_slack-x86_64-1.txz?download</url>
 					<name>SlackWare x86 64bit package</name>
 					<extra_info>(9.4M .txz)</extra_info>
-					<user_agent>SlackWare</user_agent>
 				</file>
 
 
