@@ -79,6 +79,7 @@
 					<url>scummvm_{$release}-raring.1_amd64.deb?download</url>
 					<name>Ubuntu 13.04 (raring) x86 64bit package</name>
 					<extra_info>(9.9M .deb)</extra_info>
+					<user_agent>Ubuntu</user_agent>
 				</file>
 
 				<file>
