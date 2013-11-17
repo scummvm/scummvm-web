@@ -18,14 +18,16 @@ class CompatibilityPage extends Controller {
 		$this->_template = 'compatibility.tpl';
 		$this->_template_details = 'compatibility_details.tpl';
 		$this->_supportLevelDesc = array(
-			'unsupported' => 'Unsupported',
-			'playable' => 'Playable',
-			'completable' => 'Completable'
+			'untested' => 'Untested',
+			'broken' => 'Broken',
+			'good' => 'Good',
+			'excellent' => 'Excellent'
 		);
 		$this->_supportLevelClass = array(
-			'unsupported' => 'pct0',
-			'playable' => 'pct50',
-			'completable' => 'pct100'
+			'untested' => 'pctU',
+			'broken' => 'pct0',
+			'good' => 'pct90',
+			'excellent' => 'pct100'
 		);
 	}
 
