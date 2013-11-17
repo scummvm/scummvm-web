@@ -3074,6 +3074,30 @@
 			</image>
 		</game>
 		<game>
+			<name>Hopkins FBI</name>
+			<category>hopkins</category>
+			<image>
+				<file>other/hopkins/hopkins-1</file>
+				<caption>Hopkins FBI (PC/Linux)</caption>
+			</image>
+			<image>
+				<file>other/hopkins/hopkins-2</file>
+				<caption>Hopkins FBI (PC/Linux)</caption>
+			</image>
+			<image>
+				<file>other/hopkins/hopkins-3</file>
+				<caption>Hopkins FBI (PC/Linux)</caption>
+			</image>
+			<image>
+				<file>other/hopkins/hopkins-4</file>
+				<caption>Hopkins FBI (PC/Linux)</caption>
+			</image>
+			<image>
+				<file>other/hopkins/hopkins-5</file>
+				<caption>Hopkins FBI (PC/Linux)</caption>
+			</image>
+		</game>
+		<game>
 			<name>I Have no Mouth and I Must Scream</name>
 			<category>ihnm</category>
 			<image>
