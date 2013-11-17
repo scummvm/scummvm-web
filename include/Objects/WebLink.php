@@ -29,5 +29,10 @@ class WebLink extends BasicObject {
 	public function getDescription() {
 		return $this->_description;
 	}
+	
+	/* Get the user-agent. */
+	public function getUserAgent() {
+		return "";
+	}
 }
 ?>

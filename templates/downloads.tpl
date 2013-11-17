@@ -49,6 +49,23 @@
 			</div>
 			<div class="spacing"></div>
 		</div>
+
+		<!-- Recommended download - start -->
+		<script type="text/javascript">
+			{$recommendedDownloadsJS}
+		</script>
+		<script type="text/javascript" src="javascripts/jquery-1.3.2.min.js"></script>
+		<script type="text/javascript" src="javascripts/recommended_dl.js"></script>
+		
+		<div class="subhead" id="recommendedDownloadHeader" style="display:none">Recommended download for your system</div>
+		<div class="subhead-content" style="display:none">
+			<div id="downloadContainer" style="display:none">
+			</div>
+		</div>
+			
+		<br>
+		<!-- Recommended download - end -->
+
 		{/if}
 
 		{foreach from=$dsection->getSubSections() item=dsubsection}

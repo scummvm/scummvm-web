@@ -27,3 +27,45 @@ span.daily_provider {
 	font-size: 90;
 	padding-left: 3em;
 }
+
+#downloadContainer {
+	position: relative;
+	height: 100px;
+}
+
+#downloadButton {
+	behavior: url(../css/ie-css3.htc);
+	height: 53px;
+	float: left;
+	margin-bottom: 30px;
+	padding: 15px;
+	padding-left: 90px;
+	color: white;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	border: 1px solid white;
+	-webkit-box-shadow: 0 0 10px #222;
+	-moz-box-shadow: 0 0 10px #222;
+	box-shadow: 0 0 10px #222;
+	text-decoration: none;
+	background: #C84430 url(../images/downloadbg.png) repeat-x;
+}
+
+#downloadButton:hover {
+	background: #EFC6BE url(../images/downloadbgbright.png) repeat-x;
+}
+
+.downloadText {
+	font-size: 40px;
+	line-height: 32px;
+	letter-spacing: .03em;
+	padding-bottom: 6px;
+	display: block;
+	font-family: "trebuchet MS",Arial,"Sans-Serif";
+}
+
+#downloadDetails {
+	padding-left: 3px;
+	color: white;
+}

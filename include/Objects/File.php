@@ -9,13 +9,15 @@ class File extends BasicObject {
 	private $_name;
 	private $_type;
 	private $_extra_info;
-
+	private $_user_agent;
+	
 	public function __construct($data, $baseurl=null) {
 		$this->_category_icon = $data['category_icon'];
 		$this->_name = $data['name'];
 		$this->_extra_info = $data['extra_info'];
 		$this->_type = strtolower($data['type']);
-
+		$this->_user_agent = isset($data["user_agent"]) ? $data["user_agent"] : "";
+		
 		/* If it's not an array, we didn't get any attributes. */
 		if (!is_array($data['url'])) {
 			$this->_url = $data['url'];
@@ -73,6 +75,11 @@ class File extends BasicObject {
 	/* Get the extra information. */
 	public function getExtraInfo() {
 		return $this->_extra_info;
+	}
+	
+	/* Get the user-agent. */
+	public function getUserAgent() {
+		return $this->_user_agent;
 	}
 }
 ?>
