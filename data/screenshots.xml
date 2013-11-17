@@ -2762,6 +2762,42 @@
 		<title>Other games</title>
 		<category>other</category>
 		<game>
+			<name>3 Skulls of the Toltecs</name>
+			<category>toltecs</category>
+			<image>
+				<file>other/toltecs/toltecs-dos-en-1</file>
+				<caption>3 Skulls of the Toltecs (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/toltecs/toltecs-dos-en-2</file>
+				<caption>3 Skulls of the Toltecs (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/toltecs/toltecs-dos-en-3</file>
+				<caption>3 Skulls of the Toltecs (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/toltecs/toltecs-dos-en-4</file>
+				<caption>3 Skulls of the Toltecs (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/toltecs/toltecs-dos-en-5</file>
+				<caption>3 Skulls of the Toltecs (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/toltecs/toltecs-dos-en-6</file>
+				<caption>3 Skulls of the Toltecs (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/toltecs/toltecs-dos-de-1</file>
+				<caption>3 Skulls of the Toltecs (DOS/German)</caption>
+			</image>
+			<image>
+				<file>other/toltecs/toltecs-dos-de-2</file>
+				<caption>3 Skulls of the Toltecs (DOS/German)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Bud Tucker in Double Trouble</name>
 			<category>tucker</category>
 			<image>
