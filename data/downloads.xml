@@ -314,7 +314,7 @@
 					<name>IRIX (6.5.*, n32, mips4) package</name>
 					<extra_info>(9.0M .tar.gz)</extra_info>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-beos.png</category_icon>
 					<url>scummvm-{$release}-beos.tgz?download</url>
@@ -322,7 +322,7 @@
 					<extra_info>(5.4M .tgz)</extra_info>
 					<user_agent>BeOS</user_agent>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
 					<url>scummvm-{$release}-gcc4-haiku.tgz?download</url>
@@ -711,6 +711,14 @@
 					<url>scummvm-1.1.1-solaris8-sparc.pkg.bz2?download</url>
 					<name>1.1.1 Solaris 8 and up (Sparc) binary</name>
 					<extra_info>(5.6M .pkg.bz2)</extra_info>
+				</file>
+
+				<file>
+					<category_icon>catpl-beos.png</category_icon>
+					<url>scummvm-1.0.0-beos.tgz?download</url>
+					<name>1.0.0 BeOS package</name>
+					<extra_info>(5.4M .tgz)</extra_info>
+					<user_agent>BeOS</user_agent>
 				</file>
 			</entries>
 		</subsection>
