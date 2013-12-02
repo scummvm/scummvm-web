@@ -2127,6 +2127,14 @@
 				<caption>King's Quest V: Absence Makes the Heart Go Yonder (VGA/German)</caption>
 			</image>
 			<image>
+				<file>sci/kq/kq5-vga-pl-1</file>
+				<caption>King's Quest V: Absence Makes the Heart Go Yonder (VGA/Polish)</caption>
+			</image>
+			<image>
+				<file>sci/kq/kq5-vga-pl-2</file>
+				<caption>King's Quest V: Absence Makes the Heart Go Yonder (VGA/Polish)</caption>
+			</image>
+			<image>
 				<file>sci/kq/kq6-1</file>
 				<caption>King's Quest VI: Heir Today, Gone Tomorrow</caption>
 			</image>
