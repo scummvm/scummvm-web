@@ -3014,7 +3014,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Eye of the Beholder</name>
+			<name>Eye of the Beholder series</name>
 			<category>eob</category>
 			<image>
 				<file>other/eob/eob-1</file>
@@ -3052,10 +3052,6 @@
 				<file>other/eob/eob-9</file>
 				<caption>Eye of the Beholder (DOS/English)</caption>
 			</image>
-		</game>
-		<game>
-			<name>Eye of the Beholder II: The Legend of Darkmoon</name>
-			<category>eob2</category>
 			<image>
 				<file>other/eob2/eob2-1</file>
 				<caption>Eye of the Beholder II: The Legend of Darkmoon (DOS/English)</caption>
