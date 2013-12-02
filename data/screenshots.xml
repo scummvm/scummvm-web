@@ -3014,6 +3014,90 @@
 			</image>
 		</game>
 		<game>
+			<name>Eye of the Beholder</name>
+			<category>eob</category>
+			<image>
+				<file>other/eob/eob-1</file>
+				<caption>Eye of the Beholder (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/eob/eob-2</file>
+				<caption>Eye of the Beholder (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/eob/eob-3</file>
+				<caption>Eye of the Beholder (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/eob/eob-4</file>
+				<caption>Eye of the Beholder (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/eob/eob-5</file>
+				<caption>Eye of the Beholder (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/eob/eob-6</file>
+				<caption>Eye of the Beholder (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/eob/eob-7</file>
+				<caption>Eye of the Beholder (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/eob/eob-8</file>
+				<caption>Eye of the Beholder (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/eob/eob-9</file>
+				<caption>Eye of the Beholder (DOS/English)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Eye of the Beholder II: The Legend of Darkmoon</name>
+			<category>eob2</category>
+			<image>
+				<file>other/eob2/eob2-1</file>
+				<caption>Eye of the Beholder II: The Legend of Darkmoon (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/eob2/eob2-2</file>
+				<caption>Eye of the Beholder II: The Legend of Darkmoon (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/eob2/eob2-3</file>
+				<caption>Eye of the Beholder II: The Legend of Darkmoon (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/eob2/eob2-4</file>
+				<caption>Eye of the Beholder II: The Legend of Darkmoon (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/eob2/eob2-5</file>
+				<caption>Eye of the Beholder II: The Legend of Darkmoon (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/eob2/eob2-6</file>
+				<caption>Eye of the Beholder II: The Legend of Darkmoon (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/eob2/eob2-7</file>
+				<caption>Eye of the Beholder II: The Legend of Darkmoon (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/eob2/eob2-8</file>
+				<caption>Eye of the Beholder II: The Legend of Darkmoon (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/eob2/eob2-9</file>
+				<caption>Eye of the Beholder II: The Legend of Darkmoon (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/eob2/eob2-10</file>
+				<caption>Eye of the Beholder II: The Legend of Darkmoon (DOS/English)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Flight of the Amazon Queen</name>
 			<category>queen</category>
 			<image>
