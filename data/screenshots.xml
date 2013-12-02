@@ -3208,6 +3208,54 @@
 				<file>other/drascula/drascula-5</file>
 				<caption>Drascula: The Vampire Strikes Back</caption>
 			</image>
+			<image>
+				<file>other/drascula/drascula-fr-1</file>
+				<caption>Drascula: The Vampire Strikes Back (French)</caption>
+			</image>
+			<image>
+				<file>other/drascula/drascula-fr-2</file>
+				<caption>Drascula: The Vampire Strikes Back (French)</caption>
+			</image>
+			<image>
+				<file>other/drascula/drascula-fr-3</file>
+				<caption>Drascula: The Vampire Strikes Back (French)</caption>
+			</image>
+			<image>
+				<file>other/drascula/drascula-de-1</file>
+				<caption>Drascula: The Vampire Strikes Back (German)</caption>
+			</image>
+			<image>
+				<file>other/drascula/drascula-de-2</file>
+				<caption>Drascula: The Vampire Strikes Back (German)</caption>
+			</image>
+			<image>
+				<file>other/drascula/drascula-de-3</file>
+				<caption>Drascula: The Vampire Strikes Back (German)</caption>
+			</image>
+			<image>
+				<file>other/drascula/drascula-it-1</file>
+				<caption>Drascula: The Vampire Strikes Back (Italian)</caption>
+			</image>
+			<image>
+				<file>other/drascula/drascula-it-2</file>
+				<caption>Drascula: The Vampire Strikes Back (Italian)</caption>
+			</image>
+			<image>
+				<file>other/drascula/drascula-it-3</file>
+				<caption>Drascula: The Vampire Strikes Back (Italian)</caption>
+			</image>
+			<image>
+				<file>other/drascula/drascula-es-1</file>
+				<caption>Drascula: The Vampire Strikes Back (Spanish)</caption>
+			</image>
+			<image>
+				<file>other/drascula/drascula-es-2</file>
+				<caption>Drascula: The Vampire Strikes Back (Spanish)</caption>
+			</image>
+			<image>
+				<file>other/drascula/drascula-es-3</file>
+				<caption>Drascula: The Vampire Strikes Back (Spanish)</caption>
+			</image>
 		</game>
 		<game>
 			<name>Flight of the Amazon Queen</name>
