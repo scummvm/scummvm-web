@@ -936,6 +936,14 @@
 				<caption>Gobliiins</caption>
 			</image>
 			<image>
+				<file>gob/gob/gob1-pl-1</file>
+				<caption>Gobliiins (DOS/Polish)</caption>
+			</image>
+			<image>
+				<file>gob/gob/gob1-pl-2</file>
+				<caption>Gobliiins (DOS/Polish)</caption>
+			</image>
+			<image>
 				<file>gob/gob/scummvm_2_1_2</file>
 				<caption>Gobliins 2 (CD)</caption>
 			</image>
@@ -954,6 +962,14 @@
 			<image>
 				<file>gob/gob/gob2-5</file>
 				<caption>Gobliins 2 (CD)</caption>
+			</image>
+			<image>
+				<file>gob/gob/gob2-pl-1</file>
+				<caption>Gobliins 2 (CD/Polish)</caption>
+			</image>
+			<image>
+				<file>gob/gob/gob2-pl-2</file>
+				<caption>Gobliins 2 (CD/Polish)</caption>
 			</image>
 			<image>
 				<file>gob/gob/gob2-amiga-de-1</file>
@@ -986,6 +1002,18 @@
 			<image>
 				<file>gob/gob/gob3-5</file>
 				<caption>Goblins Quest 3 (DOS)</caption>
+			</image>
+			<image>
+				<file>gob/gob/gob3-pl-1</file>
+				<caption>Goblins Quest 3 (DOS CD/Polish)</caption>
+			</image>
+			<image>
+				<file>gob/gob/gob3-pl-2</file>
+				<caption>Goblins Quest 3 (DOS CD/Polish)</caption>
+			</image>
+			<image>
+				<file>gob/gob/gob3-pl-3</file>
+				<caption>Goblins Quest 3 (DOS CD/Polish)</caption>
 			</image>
 			<image>
 				<file>gob/gob/gob3-amiga-fr-1</file>
