@@ -3326,6 +3326,50 @@
 			</image>
 		</game>
 		<game>
+			<name>Dreamweb</name>
+			<category>dreamweb</category>
+			<image>
+				<file>other/dreamweb/dreamweb-cd-1</file>
+				<caption>Dreamweb (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/dreamweb/dreamweb-cd-2</file>
+				<caption>Dreamweb (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/dreamweb/dreamweb-cd-3</file>
+				<caption>Dreamweb (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/dreamweb/dreamweb-cd-4</file>
+				<caption>Dreamweb (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/dreamweb/dreamweb-cd-5</file>
+				<caption>Dreamweb (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/dreamweb/dreamweb-cd-6</file>
+				<caption>Dreamweb (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/dreamweb/dreamweb-cd-7</file>
+				<caption>Dreamweb (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/dreamweb/dreamweb-cd-8</file>
+				<caption>Dreamweb (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/dreamweb/dreamweb-cd-9</file>
+				<caption>Dreamweb (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/dreamweb/dreamweb-cd-10</file>
+				<caption>Dreamweb (DOS/English)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Flight of the Amazon Queen</name>
 			<category>queen</category>
 			<image>
