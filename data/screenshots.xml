@@ -3716,6 +3716,14 @@
 				<file>other/soltys/soltys-pl-2</file>
 				<caption>Soltys (DOS/Polish)</caption>
 			</image>
+			<image>
+				<file>other/soltys/soltys-es-1</file>
+				<caption>Soltys (DOS/Spanish)</caption>
+			</image>
+			<image>
+				<file>other/soltys/soltys-es-2</file>
+				<caption>Soltys (DOS/Spanish)</caption>
+			</image>
 		</game>
 		<game>
 			<name>The 7th Guest</name>
