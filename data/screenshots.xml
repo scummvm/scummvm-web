@@ -2298,6 +2298,14 @@
 				<file>sci/lsl/lsl6-de-1</file>
 				<caption>Leisure Suit Larry 6: Shape Up or Slip Out! (German)</caption>
 			</image>
+			<image>
+				<file>sci/lsl/lsl6-pl-1</file>
+				<caption>Leisure Suit Larry 6: Shape Up or Slip Out! (Polish)</caption>
+			</image>
+			<image>
+				<file>sci/lsl/lsl6-pl-2</file>
+				<caption>Leisure Suit Larry 6: Shape Up or Slip Out! (Polish)</caption>
+			</image>
 		</game>
 		<game>
 			<name>Pepper's Adventure in Time</name>
