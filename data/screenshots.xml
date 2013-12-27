@@ -1095,6 +1095,38 @@
 				<file>gob/littlered/littlered-gb-10</file>
 				<caption>Once Upon A Time: Little Red Riding Hood (DOS/English)</caption>
 			</image>
+			<image>
+				<file>gob/littlered/littlered-de-1</file>
+				<caption>Once Upon A Time: Little Red Riding Hood (DOS/German)</caption>
+			</image>
+			<image>
+				<file>gob/littlered/littlered-de-2</file>
+				<caption>Once Upon A Time: Little Red Riding Hood (DOS/German)</caption>
+			</image>
+			<image>
+				<file>gob/littlered/littlered-es-1</file>
+				<caption>Once Upon A Time: Little Red Riding Hood (DOS/Spanish)</caption>
+			</image>
+			<image>
+				<file>gob/littlered/littlered-es-2</file>
+				<caption>Once Upon A Time: Little Red Riding Hood (DOS/Spanish)</caption>
+			</image>
+			<image>
+				<file>gob/littlered/littlered-fr-1</file>
+				<caption>Once Upon A Time: Little Red Riding Hood (DOS/French)</caption>
+			</image>
+			<image>
+				<file>gob/littlered/littlered-fr-2</file>
+				<caption>Once Upon A Time: Little Red Riding Hood (DOS/French)</caption>
+			</image>
+			<image>
+				<file>gob/littlered/littlered-it-1</file>
+				<caption>Once Upon A Time: Little Red Riding Hood (DOS/Italian)</caption>
+			</image>
+			<image>
+				<file>gob/littlered/littlered-it-2</file>
+				<caption>Once Upon A Time: Little Red Riding Hood (DOS/Italian)</caption>
+			</image>
 		</game>
 		<game>
 			<name>Urban Runner</name>
