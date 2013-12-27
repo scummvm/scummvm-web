@@ -1053,6 +1053,50 @@
 			</image>
 		</game>
 		<game>
+			<name>Once Upon A Time: Little Red Riding Hood</name>
+			<category>urban</category>
+			<image>
+				<file>gob/littlered/littlered-gb-1</file>
+				<caption>Once Upon A Time: Little Red Riding Hood (DOS/English)</caption>
+			</image>
+			<image>
+				<file>gob/littlered/littlered-gb-2</file>
+				<caption>Once Upon A Time: Little Red Riding Hood (DOS/English)</caption>
+			</image>
+			<image>
+				<file>gob/littlered/littlered-gb-3</file>
+				<caption>Once Upon A Time: Little Red Riding Hood (DOS/English)</caption>
+			</image>
+			<image>
+				<file>gob/littlered/littlered-gb-4</file>
+				<caption>Once Upon A Time: Little Red Riding Hood (DOS/English)</caption>
+			</image>
+			<image>
+				<file>gob/littlered/littlered-gb-5</file>
+				<caption>Once Upon A Time: Little Red Riding Hood (DOS/English)</caption>
+			</image>
+			<image>
+				<file>gob/littlered/littlered-gb-6</file>
+				<caption>Once Upon A Time: Little Red Riding Hood (DOS/English)</caption>
+			</image>
+			<image>
+				<file>gob/littlered/littlered-gb-7</file>
+				<caption>Once Upon A Time: Little Red Riding Hood (DOS/English)</caption>
+			</image>
+			<image>
+				<file>gob/littlered/littlered-gb-8</file>
+				<caption>Once Upon A Time: Little Red Riding Hood (DOS/English)</caption>
+			</image>
+			<image>
+				<file>gob/littlered/littlered-gb-9</file>
+				<caption>Once Upon A Time: Little Red Riding Hood (DOS/English)</caption>
+			</image>
+			<image>
+				<file>gob/littlered/littlered-gb-10</file>
+				<caption>Once Upon A Time: Little Red Riding Hood (DOS/English)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Urban Runner</name>
 			<category>urban</category>
 			<image>
