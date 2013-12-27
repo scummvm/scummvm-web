@@ -1179,6 +1179,14 @@
 				<file>other/sword/sword2-de-3</file>
 				<caption>Broken Sword II: The Smoking Mirror (Windows German)</caption>
 			</image>
+			<image>
+				<file>other/sword/sword2-pl-1</file>
+				<caption>Broken Sword II: The Smoking Mirror (Windows Polish)</caption>
+			</image>
+			<image>
+				<file>other/sword/sword2-pl-2</file>
+				<caption>Broken Sword II: The Smoking Mirror (Windows Polish)</caption>
+			</image>
 		</game>
 		<game>
 			<name>Lure of the Temptress</name>
