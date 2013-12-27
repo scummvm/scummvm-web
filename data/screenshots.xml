@@ -1124,11 +1124,11 @@
 			<name>Beneath a Steel Sky</name>
 			<category>sky</category>
 			<image>
-				<file>other/sky/scummvm_2_5_0</file>
+				<file>revolution/sky/scummvm_2_5_0</file>
 				<caption>Beneath a Steel Sky</caption>
 			</image>
 			<image>
-				<file>other/sky/scummvm_2_5_1</file>
+				<file>revolution/sky/scummvm_2_5_1</file>
 				<caption>Beneath a Steel Sky</caption>
 			</image>
 		</game>
@@ -1136,23 +1136,23 @@
 			<name>Broken Sword: The Shadow of the Templars</name>
 			<category>sword</category>
 			<image>
-				<file>other/sword/scummvm_2_0_0</file>
+				<file>revolution/sword/scummvm_2_0_0</file>
 				<caption>Broken Sword: The Shadow of the Templars</caption>
 			</image>
 			<image>
-				<file>other/sword/scummvm_2_0_1</file>
+				<file>revolution/sword/scummvm_2_0_1</file>
 				<caption>Broken Sword: The Shadow of the Templars</caption>
 			</image>
 			<image>
-				<file>other/sword/sword1-de-1</file>
+				<file>revolution/sword/sword1-de-1</file>
 				<caption>Broken Sword: The Shadow of the Templars (Windows German)</caption>
 			</image>
 			<image>
-				<file>other/sword/sword1-de-2</file>
+				<file>revolution/sword/sword1-de-2</file>
 				<caption>Broken Sword: The Shadow of the Templars (Windows German)</caption>
 			</image>
 			<image>
-				<file>other/sword/sword1-de-3</file>
+				<file>revolution/sword/sword1-de-3</file>
 				<caption>Broken Sword: The Shadow of the Templars (Windows German)</caption>
 			</image>
 		</game>
@@ -1160,31 +1160,31 @@
 			<name>Broken Sword II: The Smoking Mirror</name>
 			<category>sword2</category>
 			<image>
-				<file>other/sword/scummvm_2_0_2</file>
+				<file>revolution/sword/scummvm_2_0_2</file>
 				<caption>Broken Sword II: The Smoking Mirror</caption>
 			</image>
 			<image>
-				<file>other/sword/scummvm_2_0_3</file>
+				<file>revolution/sword/scummvm_2_0_3</file>
 				<caption>Broken Sword II: The Smoking Mirror</caption>
 			</image>
 			<image>
-				<file>other/sword/sword2-de-1</file>
+				<file>revolution/sword/sword2-de-1</file>
 				<caption>Broken Sword II: The Smoking Mirror (Windows German)</caption>
 			</image>
 			<image>
-				<file>other/sword/sword2-de-2</file>
+				<file>revolution/sword/sword2-de-2</file>
 				<caption>Broken Sword II: The Smoking Mirror (Windows German)</caption>
 			</image>
 			<image>
-				<file>other/sword/sword2-de-3</file>
+				<file>revolution/sword/sword2-de-3</file>
 				<caption>Broken Sword II: The Smoking Mirror (Windows German)</caption>
 			</image>
 			<image>
-				<file>other/sword/sword2-pl-1</file>
+				<file>revolution/sword/sword2-pl-1</file>
 				<caption>Broken Sword II: The Smoking Mirror (Windows Polish)</caption>
 			</image>
 			<image>
-				<file>other/sword/sword2-pl-2</file>
+				<file>revolution/sword/sword2-pl-2</file>
 				<caption>Broken Sword II: The Smoking Mirror (Windows Polish)</caption>
 			</image>
 		</game>
@@ -1192,27 +1192,27 @@
 			<name>Lure of the Temptress</name>
 			<category>lure</category>
 			<image>
-				<file>other/lure/lure-1</file>
+				<file>revolution/lure/lure-1</file>
 				<caption>Lure of the Temptress (DOS VGA)</caption>
 			</image>
 			<image>
-				<file>other/lure/lure-2</file>
+				<file>revolution/lure/lure-2</file>
 				<caption>Lure of the Temptress (DOS VGA)</caption>
 			</image>
 			<image>
-				<file>other/lure/lure-3</file>
+				<file>revolution/lure/lure-3</file>
 				<caption>Lure of the Temptress (DOS VGA)</caption>
 			</image>
 			<image>
-				<file>other/lure/lure-4</file>
+				<file>revolution/lure/lure-4</file>
 				<caption>Lure of the Temptress (DOS VGA)</caption>
 			</image>
 			<image>
-				<file>other/lure/lure-5</file>
+				<file>revolution/lure/lure-5</file>
 				<caption>Lure of the Temptress (DOS VGA)</caption>
 			</image>
 			<image>
-				<file>other/lure/lure-6</file>
+				<file>revolution/lure/lure-6</file>
 				<caption>Lure of the Temptress (DOS VGA)</caption>
 			</image>
 		</game>
