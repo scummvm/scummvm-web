@@ -3670,6 +3670,54 @@
 			</image>
 		</game>
 		<game>
+			<name>Soltys</name>
+			<category>soltys</category>
+			<image>
+				<file>other/soltys/soltys-1</file>
+				<caption>Soltys (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/soltys/soltys-2</file>
+				<caption>Soltys (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/soltys/soltys-3</file>
+				<caption>Soltys (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/soltys/soltys-4</file>
+				<caption>Soltys (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/soltys/soltys-5</file>
+				<caption>Soltys (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/soltys/soltys-6</file>
+				<caption>Soltys (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/soltys/soltys-7</file>
+				<caption>Soltys (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/soltys/soltys-8</file>
+				<caption>Soltys (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/soltys/soltys-9</file>
+				<caption>Soltys (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/soltys/soltys-pl-1</file>
+				<caption>Soltys (DOS/Polish)</caption>
+			</image>
+			<image>
+				<file>other/soltys/soltys-pl-2</file>
+				<caption>Soltys (DOS/Polish)</caption>
+			</image>
+		</game>
+		<game>
 			<name>The 7th Guest</name>
 			<category>t7g</category>
 			<image>
