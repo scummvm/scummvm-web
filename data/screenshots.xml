@@ -2211,6 +2211,10 @@
 				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (Polish)</caption>
 			</image>
 			<image>
+				<file>sci/lsl/lsl2-1</file>
+				<caption>Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places)</caption>
+			</image>
+			<image>
 				<file>sci/lsl/lsl2-2</file>
 				<caption>Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places)</caption>
 			</image>
@@ -2219,8 +2223,12 @@
 				<caption>Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places)</caption>
 			</image>
 			<image>
-				<file>sci/lsl/lsl2-1</file>
-				<caption>Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places)</caption>
+				<file>sci/lsl/lsl2-pl-1</file>
+				<caption>Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places) (Polish)</caption>
+			</image>
+			<image>
+				<file>sci/lsl/lsl2-pl-2</file>
+				<caption>Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places) (Polish)</caption>
 			</image>
 			<image>
 				<file>sci/lsl/lsl3-1</file>
