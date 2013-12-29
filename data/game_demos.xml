@@ -1579,7 +1579,7 @@
 				<category>kyra</category>
 			</demo>
 			<demo>
-				<name>The Neverhood (DOS demo)</name>
+				<name>The Neverhood (DOS demo) - Requires ScummVM 1.6.0dev</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/neverhood/neverhood-win-demo-en.zip/download</url>
 				<target>neverhood</target>
 			</demo>
