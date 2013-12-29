@@ -1549,7 +1549,7 @@
 				<target>teenagent</target>
 			</demo>
 			<demo>
-				<name>The Journeyman Project: Pegasus Prime (Macintosh demo) - Requires ScummVM 1.6.0dev</name>
+				<name>The Journeyman Project: Pegasus Prime (Macintosh demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/pegasus/pegasus-mac-demo-en.zip/download</url>
 				<target>pegasus</target>
 				<category>jmp</category>
@@ -1579,7 +1579,7 @@
 				<category>kyra</category>
 			</demo>
 			<demo>
-				<name>The Neverhood (DOS demo) - Requires ScummVM 1.6.0dev</name>
+				<name>The Neverhood (DOS demo) - Requires ScummVM 1.7.0git</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/neverhood/neverhood-win-demo-en.zip/download</url>
 				<target>neverhood</target>
 			</demo>
