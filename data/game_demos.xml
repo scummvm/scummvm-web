@@ -1579,6 +1579,11 @@
 				<category>kyra</category>
 			</demo>
 			<demo>
+				<name>The Neverhood (DOS demo)</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/neverhood/neverhood-win-demo-en.zip/download</url>
+				<target>neverhood</target>
+			</demo>
+			<demo>
 				<name>Toonstruck (DOS German demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/toon/toon-dos-demo-de.zip/download</url>
 				<target>toon</target>
