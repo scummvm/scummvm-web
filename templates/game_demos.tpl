@@ -26,14 +26,14 @@
 			<thead>
 				<tr class="color4">
 					<th>Demo Name / Download Link</th>
-					<th>Game Target</th>
+					<th class="gameTarget">Game Target</th>
 				</tr>
 			</thead>
 			<tbody>
 			{foreach from=$group.demos item=demo}
 				<tr class="{cycle values="color2, color0"}">
 					<td><img src="images/cat-{$demo->getCategory()}.png"> <a href="{$demo->getURL()}">{$demo->getName()}</a></td>
-					<td>{$demo->getTarget()}</td>
+					<td class="gameTarget">{$demo->getTarget()}</td>
 				</tr>
 			{/foreach}
 			</tbody>
