@@ -57,10 +57,20 @@
 	background-color: rgb(153, 153, 153);
 }
 
+#gameDemos tr {
+	padding: 0px;
+}
+	
+#gameDemos th {
+	padding: 2px;
+}
+
 #gameDemos td {
 	padding: 0px 2px;
 }
 
 #gameDemos td img {
 	vertical-align: middle;
+	width: 22px;
+	height: 22px;
 }
