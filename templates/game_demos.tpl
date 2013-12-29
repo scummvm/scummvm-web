@@ -24,14 +24,14 @@
 		<table class="chart color4" id="gameDemos">
 			<caption>{$group.name}</caption>
 			<thead>
-				<tr valign="top" class="color4">
+				<tr class="color4">
 					<th>Demo Name / Download Link</th>
 					<th>Game Target</th>
 				</tr>
 			</thead>
 			<tbody>
 			{foreach from=$group.demos item=demo}
-				<tr valign="top" class="{cycle values="color2, color0"}">
+				<tr class="{cycle values="color2, color0"}">
 					<td><img src="images/cat-{$demo->getCategory()}.png"> <a href="{$demo->getURL()}">{$demo->getName()}</a></td>
 					<td>{$demo->getTarget()}</td>
 				</tr>

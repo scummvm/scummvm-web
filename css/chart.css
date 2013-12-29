@@ -56,3 +56,11 @@
 .chart .color4 {
 	background-color: rgb(153, 153, 153);
 }
+
+#gameDemos td {
+	padding: 0px 2px;
+}
+
+#gameDemos td img {
+	vertical-align: middle;
+}
