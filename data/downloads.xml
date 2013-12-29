@@ -132,12 +132,7 @@
 					<extra_info>(12.0M .zip)</extra_info>
 				</file>
 -->
-				<file>
-					<category_icon>catpl-android.png</category_icon>
-					<url>https://play.google.com/store/apps/details?id=org.scummvm.scummvm</url>
-					<name>Android package at Google Play Store</name>
-					<user_agent>Android</user_agent>
-				</file>
+
 <!--
 				<file>
 					<category_icon>catpl-android.png</category_icon>
@@ -535,6 +530,12 @@
 				older versions around, for your convenience.
 			</notes>
 			<entries>
+				<file>
+					<category_icon>catpl-android.png</category_icon>
+					<url>https://play.google.com/store/apps/details?id=org.scummvm.scummvm</url>
+					<name>1.5.0 Android package at Google Play Store</name>
+					<user_agent>Android</user_agent>
+				</file>
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
 					<url>scummvm_1.5.0-precise.1_armel.deb?download</url>
