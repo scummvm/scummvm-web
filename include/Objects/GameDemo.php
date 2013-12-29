@@ -7,12 +7,14 @@ class GameDemo extends BasicObject {
 	private $_name;
 	private $_url;
 	private $_target;
-
+	private $_category;
+	
 	/* GameDemo object constructor. */
 	public function __construct($data) {
 		$this->_name = $data['name'];
 		$this->_url = $data['url'];
 		$this->_target = $data['target'];
+		$this->_category = isset($data['category']) ? $data['category'] : $data['target'];
 	}
 
 	/* Get the name of the demo. */
@@ -28,6 +30,11 @@ class GameDemo extends BasicObject {
 	/* Get the target name for the demo. */
 	public function getTarget() {
 		return $this->_target;
+	}
+	
+	/* Get the category for the demo. */
+	public function getCategory() {
+		return $this->_category;
 	}
 }
 ?>

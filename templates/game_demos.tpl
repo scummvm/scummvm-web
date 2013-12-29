@@ -21,7 +21,7 @@
 	<div class="content">
 		{foreach from=$demos item=group}
 		<a name="{$group.href}"></a>
-		<table class="chart color4">
+		<table class="chart color4" id="gameDemos">
 			<caption>{$group.name}</caption>
 			<thead>
 				<tr valign="top" class="color4">
@@ -32,7 +32,7 @@
 			<tbody>
 			{foreach from=$group.demos item=demo}
 				<tr valign="top" class="{cycle values="color2, color0"}">
-					<td><a href="{$demo->getURL()}">{$demo->getName()}</a></td>
+					<td><img src="images/cat-{$demo->getCategory()}.png"> <a href="{$demo->getURL()}">{$demo->getName()}</a></td>
 					<td>{$demo->getTarget()}</td>
 				</tr>
 			{/foreach}

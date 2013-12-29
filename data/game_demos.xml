@@ -98,6 +98,7 @@
 				<name>Passport to Adventure (DOS EGA demos of Indiana Jones and the Last Crusade, The Secret of Monkey Island, Loom)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/pass-dos-en.zip/download</url>
 				<target>pass</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Sam &amp; Max Hit the Road (DOS demo - Interactive)</name>
@@ -184,16 +185,19 @@
 				<name>Backyard Baseball (Windows Preview)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/baseball-win-preview1-us.zip/download</url>
 				<target>baseball</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Backyard Baseball (Windows Alternative Preview)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/baseball-win-preview2-us.zip/download</url>
 				<target>baseball</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Backyard Baseball 2001 (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/baseball2001-win-demo-us.zip/download</url>
 				<target>baseball2001</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Backyard Football (Windows Demo)</name>
@@ -204,51 +208,61 @@
 				<name>Big Thinkers First Grade (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/thinker1-win-demo-us.zip/download</url>
 				<target>thinker1</target>
+				<category>thinkers</category>
 			</demo>
 			<demo>
 				<name>Big Thinkers Kindergarten (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/thinkerk-win-demo-us.zip/download</url>
 				<target>thinkerk</target>
+				<category>thinkers</category>
 			</demo>
 			<demo>
 				<name>Blue's ABC Time (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/BluesABCTime-win-demo1-us.zip/download</url>
 				<target>BluesABCTime</target>
+				<category>blues</category>
 			</demo>
 			<demo>
 				<name>Blue's ABC Time (Windows Alternative Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/BluesABCTime-win-demo2-us.zip/download</url>
 				<target>BluesABCTime</target>
+				<category>blues</category>
 			</demo>
 			<demo>
 				<name>Blue's ABC Time (Windows Preview)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/BluesABCTime-win-preview-us.zip/download</url>
 				<target>BluesABCTime</target>
+				<category>blues</category>
 			</demo>
 			<demo>
 				<name>Blue's Art Time Activities (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/arttime-win-demo-us.zip/download</url>
 				<target>freddicove</target>
+				<category>blues</category>
 			</demo>
 			<demo>
 				<name>Blue's Birthday Adventure (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/BluesBirthday-win-demo1-us.zip/download</url>
 				<target>BluesBirthday</target>
+				<category>blues</category>
 			</demo>
 			<demo>
 				<name>Blue's Birthday Adventure (Windows Alternative Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/BluesBirthday-win-demo2-us.zip/download</url>
 				<target>BluesBirthday</target>
+				<category>blues</category>
 			</demo>
 			<demo>
 				<name>Blue's Birthday Adventure (Windows Preview)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/BluesBirthday-win-preview-us.zip/download</url>
 				<target>BluesBirthday</target>
+				<category>blues</category>
 			</demo>
 			<demo>
 				<name>Blue's Reading Time Activities (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/readtime-win-demo-us.zip/download</url>
 				<target>freddicove</target>
+				<category>blues</category>
 			</demo>
 			<demo>
 				<name>Fatty Bear's Birthday Surprise (DOS demo)</name>
@@ -269,181 +283,217 @@
 				<name>Freddi Fish 1: The Case of the Missing Kelp Seeds (Macintosh Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi-mac-demo_us.zip/download</url>
 				<target>freddi</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi-win-demo-us.zip/download</url>
 				<target>freddi</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows Updated Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi-win-updated-demo-us.zip/download</url>
 				<target>freddi</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows Dutch Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi-win-demo-nl.zip/download</url>
 				<target>freddi</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows French Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi-win-demo-fr.zip/download</url>
 				<target>freddi</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows German demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi-win-demo-de.zip/download</url>
 				<target>freddi</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 2: The Case of the Haunted Schoolhouse (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi2-win-demo-us.zip/download</url>
 				<target>freddi2</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 2: The Case of the Haunted Schoolhouse (Windows Updated Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi2-win-updated-demo-us.zip/download</url>
 				<target>freddi2</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 2: The Case of the Haunted Schoolhouse (Windows Dutch Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi2-win-demo-nl.zip/download</url>
 				<target>freddi2</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 3: The Case of the Stolen Conch Shell (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi3-win-demo-us.zip/download</url>
 				<target>freddi3</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 3: The Case of the Stolen Conch Shell (Windows Dutch Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi3-win-demo-nl.zip/download</url>
 				<target>freddi3</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 3: The Case of the Stolen Conch Shell (Windows French Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi3-win-demo-fr.zip/download</url>
 				<target>freddi3</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 3: The Case of the Stolen Conch Shell (Windows Hebrew Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi3-win-demo-hb.zip/download</url>
 				<target>freddi3</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi4-win-demo-us.zip/download</url>
 				<target>freddi4</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows Updated Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi4-win-updated-demo-us.zip/download</url>
 				<target>freddi4</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows Dutch Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi4-win-demo1-nl.zip/download</url>
 				<target>freddi4</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows Dutch Alternative Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi4-win-demo2-nl.zip/download</url>
 				<target>freddi4</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows Dutch Alternative Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi4-win-demo3-nl.zip/download</url>
 				<target>freddi4</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows French Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi4-win-demo.fr.zip/download</url>
 				<target>freddi4</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows German Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi4-win-demo-de.zip/download</url>
 				<target>freddi4</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows Italian Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi4-win-demo-it.zip/download</url>
 				<target>freddi4</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows UK Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddi4-win-demo-uk.zip/download</url>
 				<target>freddi4</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 5: The Case of the Creature of Coral Cave (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddicove-win-demo-us.zip/download</url>
 				<target>freddicove</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 5: The Case of the Creature of Coral Cave (Windows Dutch Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/freddicove-win-demo-nl.zip/download</url>
 				<target>freddicove</target>
+				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Humongous Catalog demo (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/catalog-win-demo-en.zip/download</url>
 				<target>catalog</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Humongous Catalog demo (Windows French Preview)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/catalog-win-preview-fr.zip/download</url>
 				<target>catalog</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Humongous Catalog demo (Windows German Preview)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/catalog-win-preview-de.zip/download</url>
 				<target>catalog</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Humongous Catalog demo (Windows UK Preview)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/catalog-win-preview-uk.zip/download</url>
 				<target>catalog</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Humongous Catalog demo (Windows US Preview) - Requires ScummVM 1.7.0git</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/catalog-win-preview-us.zip/download</url>
 				<target>catalog</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Let's Explore the Airport with Buzzy (Macintosh Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/airport-mac-demo-us.zip/download</url>
 				<target>airport</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Let's Explore the Airport with Buzzy (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/airport-win-demo-us.zip/download</url>
 				<target>airport</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Let's Explore the Airport with Buzzy (Windows Updated Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/airport-win-updated-demo1-us.zip/download</url>
 				<target>airport</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Let's Explore the Airport with Buzzy (Windows Updated Alternative Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/airport-win-updated-demo2-us.zip/download</url>
 				<target>airport</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Let's Explore the Farm with Buzzy (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/farm-win-demo-us.zip/download</url>
 				<target>farm</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Let's Explore the Farm with Buzzy (Windows Updated Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/farm-win-updated-demo-us.zip/download</url>
 				<target>farm</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Let's Explore the Farm with Buzzy (Windows Dutch Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/farm-win-demo-nl.zip/download</url>
 				<target>farm</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Pajama Sam 1: No Need to Hide When It's Dark Outside (Windows Demo)</name>
@@ -469,121 +519,145 @@
 				<name>Pajama Sam 2: Thunder and Lightning Aren't so Frightening (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/pajama2-win-demo-us.zip/download</url>
 				<target>pajama2</target>
+				<category>pajama</category>
 			</demo>
 			<demo>
 				<name>Pajama Sam 2: Thunder and Lightning Aren't so Frightening (Windows Dutch Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/pajama2-win-demo-nl.zip/download</url>
 				<target>pajama2</target>
+				<category>pajama</category>
 			</demo>
 			<demo>
 				<name>Pajama Sam 2: Thunder and Lightning Aren't so Frightening (Windows Hebrew Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/pajama2-win-demo-hb.zip/download</url>
 				<target>pajama2</target>
+				<category>pajama</category>
 			</demo>
 			<demo>
 				<name>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/pajama3-win-demo-us.zip/download</url>
 				<target>pajama3</target>
+				<category>pajama</category>
 			</demo>
 			<demo>
 				<name>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows Dutch Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/pajama3-win-demo-nl.zip/download</url>
 				<target>pajama3</target>
+				<category>pajama</category>
 			</demo>
 			<demo>
 				<name>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows French Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/pajama3-win-demo-fr.zip/download</url>
 				<target>pajama3</target>
+				<category>pajama</category>
 			</demo>
 			<demo>
 				<name>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows German Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/pajama3-win-demo-de.zip/download</url>
 				<target>pajama3</target>
+				<category>pajama</category>
 			</demo>
 			<demo>
 				<name>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows Italian Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/pajama3-win-demo-it.zip/download</url>
 				<target>pajama3</target>
+				<category>pajama</category>
 			</demo>
 			<demo>
 				<name>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows UK Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/pajama3-win-demo-uk.zip/download</url>
 				<target>pajama3</target>
+				<category>pajama</category>
 			</demo>
 			<demo>
 				<name>Pajama Sam's Lost &amp; Found (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/lost-win-demo-us.zip/download</url>
 				<target>lost</target>
+				<category>pajama</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Enters the Race (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/puttrace-win-demo-us.zip/download</url>
 				<target>puttrace</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Enters the Race (Windows Preview)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/puttrace-win-preview-us.zip/download</url>
 				<target>puttrace</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Enters the Race (Windows Dutch Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/puttrace-win-demo-nl.zip/download</url>
 				<target>puttrace</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Enters the Race (Windows Updated Dutch Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/puttrace-win-updated-demo-nl.zip/download</url>
 				<target>puttrace</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Enters the Race (Windows French Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/puttrace-win-demo-fr.zip/download</url>
 				<target>puttrace</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Enters the Race (Windows German Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/puttrace-win-demo-de.zip/download</url>
 				<target>puttrace</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Enters the Race (Windows Italian Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/puttrace-win-demo-it.zip/download</url>
 				<target>puttrace</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Enters the Race (Windows UK Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/puttrace-win-demo-uk.zip/download</url>
 				<target>puttrace</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Goes to the Moon (DOS demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/puttmoon-dos-demo-us.zip/download</url>
 				<target>puttmoon</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Goes to the Moon (Macintosh demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/puttmoon-mac-demo-us.zip/download</url>
 				<target>puttmoon</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Goes to the Moon (Window demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/puttmoon-win-demo-us.zip/download</url>
 				<target>puttmoon</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Joins the Circus (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/puttcircus-win-demo-us.zip/download</url>
 				<target>puttcircus</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Joins the Circus (Windows French Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/puttcircus-win-demo-fr.zip/download</url>
 				<target>puttcircus</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Joins the Circus (Windows Hebrew Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/puttcircus-win-demo-hb.zip/download</url>
 				<target>puttcircus</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Joins the Parade (DOS demo)</name>
@@ -604,56 +678,67 @@
 				<name>Putt-Putt Saves the Zoo (Macintosh Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/puttzoo-mac-demo-us.zip/download</url>
 				<target>puttzoo</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Saves the Zoo (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/puttzoo-win-demo-us.zip/download</url>
 				<target>puttzoo</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Saves the Zoo (Windows Updated Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/puttzoo-win-updated-demo-us.zip/download</url>
 				<target>puttzoo</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Saves the Zoo (Windows Dutch Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/puttzoo-win-demo-nl.zip/download</url>
 				<target>puttzoo</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Saves the Zoo (Windows French Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/puttzoo-win-demo-fr.zip/download</url>
 				<target>puttzoo</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Saves the Zoo (Windows German Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/puttzoo-win-demo-de.zip/download</url>
 				<target>puttzoo</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Travels Through Time (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/putttime-win-demo-us.zip/download</url>
 				<target>putttime</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Travels Through Time (Windows Updated Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/putttime-win-updated-demo-us.zip/download</url>
 				<target>putttime</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Travels Through Time (Windows Dutch Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/putttime-win-demo-nl.zip/download</url>
 				<target>putttime</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Travels Through Time (Windows French Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/putttime-win-demo-fr.zip/download</url>
 				<target>putttime</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Travels Through Time (Windows German Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/putttime-win-demo-de.zip/download</url>
 				<target>putttime</target>
+				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>SPY Fox 1: Dry Cereal (Windows Demo)</name>
@@ -684,51 +769,61 @@
 				<name>SPY Fox 2: Some Assembly Required (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/spyfox2-win-demo-us.zip/download</url>
 				<target>spyfox2</target>
+				<category>spyfox</category>
 			</demo>
 			<demo>
 				<name>SPY Fox 2: Some Assembly Required (Windows French Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/spyfox2-win-demo-fr.zip/download</url>
 				<target>spyfox2</target>
+				<category>spyfox</category>
 			</demo>
 			<demo>
 				<name>SPY Fox 2: Some Assembly Required (Windows Preview)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/spyfox2-win-preview-us.zip/download</url>
 				<target>spyfox2</target>
+				<category>spyfox</category>
 			</demo>
 			<demo>
 				<name>SPY Fox 2: Some Assembly Required (Windows Dutch Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/spyfox2-win-demo-nl.zip/download</url>
 				<target>spyfox2</target>
+				<category>spyfox</category>
 			</demo>
 			<demo>
 				<name>SPY Fox 2: Some Assembly Required (Windows German Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/spyfox2-win-demo-de.zip/download</url>
 				<target>spyfox2</target>
+				<category>spyfox</category>
 			</demo>
 			<demo>
 				<name>SPY Fox 2: Some Assembly Required (Windows Italian Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/spyfox2-win-demo-it.zip/download</url>
 				<target>spyfox2</target>
+				<category>spyfox</category>
 			</demo>
 			<demo>
 				<name>SPY Fox 2: Some Assembly Required (Windows UK Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/spyfox2-win-demo-uk.zip/download</url>
 				<target>spyfox2</target>
+				<category>spyfox</category>
 			</demo>
 			<demo>
 				<name>SPY Fox 3: Operation Ozone (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/spyozon-win-demo-us.zip/download</url>
 				<target>spyozon</target>
+				<category>spyfox</category>
 			</demo>
 			<demo>
 				<name>SPY Fox 3: Operation Ozone (Windows French Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/spyozon-win-demo-fr.zip/download</url>
 				<target>spyozon</target>
+				<category>spyfox</category>
 			</demo>
 			<demo>
 				<name>SPY Fox 3: Operation Ozone (Windows Preview)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/spyozon-win-preview-us.zip/download</url>
 				<target>spyozon</target>
+				<category>spyfox</category>
 			</demo>
 		</demos>
 	</group>
@@ -740,41 +835,49 @@
 				<name>Elvira - Mistress of Darkness (Amiga demo - Non interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/agos/elvira1-amiga-ni-demo-en.zip/download</url>
 				<target>elvira1</target>
+				<category>elvira</category>
 			</demo>
 			<demo>
 				<name>Elvira - Mistress of Darkness (Atari ST demo - Non interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/agos/elvira1-atari-ni-demo-en.zip/download</url>
 				<target>elvira1</target>
+				<category>elvira</category>
 			</demo>
 			<demo>
 				<name>Elvira - Mistress of Darkness (DOS demo - Non interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/agos/elvira1-dos-ni-demo-en.zip/download</url>
 				<target>elvira1</target>
+				<category>elvira</category>
 			</demo>
 			<demo>
 				<name>Personal Nightmare (Atari ST demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/agos/pn-atari-ni-demo-en.zip/download</url>
 				<target>pn</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Simon the Sorcerer 1 (Amiga demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/agos/simon1-amiga-floppy-demo-en.zip/download</url>
 				<target>simon1</target>
+				<category>simon</category>
 			</demo>
 			<demo>
 				<name>Simon the Sorcerer 1 (DOS demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/agos/simon1-dos-floppy-demo-en.zip/download</url>
 				<target>simon1</target>
+				<category>simon</category>
 			</demo>
 			<demo>
 				<name>Simon the Sorcerer 1 (Acorn CD demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/agos/simon1-acorn-cd-demo-en.zip/download</url>
 				<target>simon1</target>
+				<category>simon</category>
 			</demo>
 			<demo>
 				<name>Simon the Sorcerer 1 (DOS CD demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/agos/simon1-dos-cd-demo-en.zip/download</url>
 				<target>simon1</target>
+				<category>simon</category>
 			</demo>
 			<demo>
 				<name>Simon the Sorcerer 2 (DOS CD demo)</name>
@@ -835,92 +938,107 @@
 			<demo>
 				<name>Gobliins 2 (Amiga demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/gob/gob2-amiga-demo1-en.zip/download</url>
-				<target>gob</target>
+				<target>gob2</target>
+				<category>gob</category>
 			</demo>
 			<demo>
 				<name>Gobliins 2 (Amiga Alternative demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/gob/gob2-amiga-demo2-en.zip/download</url>
-				<target>gob</target>
+				<target>gob2</target>
+				<category>gob</category>
 			</demo>
 			<demo>
 				<name>Gobliins 2 (DOS demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/gob/gob2-dos-demo-en.zip/download</url>
-				<target>gob</target>
+				<target>gob2</target>
+				<category>gob</category>
 			</demo>
 			<demo>
 				<name>Gobliins 2 (DOS demo - Non interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/gob/gob2-dos-ni-demo-en.zip/download</url>
-				<target>gob</target>
+				<target>gob2</target>
+				<category>gob</category>
 			</demo>
 			<demo>
 				<name>Goblins Quest 3 (DOS demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/gob/gob3-dos-demo-en.zip/download</url>
-				<target>gob</target>
+				<target>gob3</target>
+				<category>gob</category>
 			</demo>
 			<demo>
 				<name>Goblins Quest 3 (DOS demo - Non interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/gob/gob3-dos-ni-demo-en.zip/download</url>
-				<target>gob</target>
+				<target>gob3</target>
+				<category>gob</category>
 			</demo>
 			<demo>
 				<name>Goblins Quest 3 (DOS French demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/gob/gob3-dos-demo1-fr.zip/download</url>
-				<target>gob</target>
+				<target>gob3</target>
+				<category>gob</category>
 			</demo>
 			<demo>
 				<name>Goblins Quest 3 (DOS French Alternative demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/gob/gob3-dos-demo2-fr.zip/download</url>
-				<target>gob</target>
+				<target>gob3</target>
+				<category>gob</category>
 			</demo>
 			<demo>
 				<name>Inca II: Wiracocha (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/gob/inca2-dos-ni-demo-en.zip/download</url>
-				<target>gob</target>
+				<target>inca2</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Lost in Time (DOS demo - Non interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/gob/lostintime-dos-ni-demo-en.zip/download</url>
-				<target>gob</target>
+				<target>lit</target>
+				<category>lostintime</category>
 			</demo>
 			<demo>
 				<name>Playtoons (DOS demos of Playtoon 1 - Uncle Archibald, Playtoon 2 - Spirou, Playtoons 3 - Secret of the Castle)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/gob/archibald-dos-ni-demo1-en.zip/download</url>
 				<target>gob</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Playtoon 1 - Uncle Archibald (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/gob/archibald-dos-ni-demo2-en.zip/download</url>
-				<target>gob</target>
+				<target>playtoons1</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Playtoon 1 - Uncle Archibald (DOS Italian demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/gob/archibald-dos-ni-demo-it.zip/download</url>
-				<target>gob</target>
+				<target>playtoons1</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Playtoon 1 - Uncle Archibald (DOS Spanish demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/gob/archibald-dos-ni-demo-sp.zip/download</url>
-				<target>gob</target>
+				<target>playtoons1</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>The Bizarre Adventures of Woodruff and the Schnibble (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/gob/woodruff-dos-ni-demo-en.zip/download</url>
-				<target>gob</target>
+				<target>woodruff</target>
 			</demo>
 			<demo>
 				<name>The Last Dynasty (DOS demo - Non interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/gob/dynasty-win-ni-demo-en.zip/download</url>
 				<target>gob</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Urban Runner (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/gob/urban-win-ni-demo-en.zip/download</url>
-				<target>gob</target>
+				<target>urban</target>
 			</demo>
 			<demo>
 				<name>Ween: The Prophecy (DOS demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/gob/ween-dos-demo-en.zip/download</url>
-				<target>gob</target>
+				<target>ween</target>
 			</demo>
 		</demos>
 	</group>
@@ -947,11 +1065,13 @@
 				<name>Arthur's Birthday (Macintosh demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/mohawk/arthurbday-mac-demo-en.zip/download</url>
 				<target>arthurbday</target>
+				<category>arthur</category>
 			</demo>
 			<demo>
 				<name>Arthur's Birthday (Windows demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/mohawk/arthurbday-win-demo-en.zip/download</url>
 				<target>arthurbday</target>
+				<category>arthur</category>
 			</demo>
 			<demo>
 				<name>Arthur's Teacher Troubles (Macintosh demo)</name>
@@ -1002,21 +1122,25 @@
 				<name>Living Books Sampler v1 (Macintosh demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/mohawk/lbsampler-demo-mac-en-v1.zip/download</url>
 				<target>lbsampler</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Living Books Sampler v1 (Windows demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/mohawk/lbsampler-demo-win-en-v1.zip/download</url>
 				<target>lbsampler</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Living Books Sampler v2 (Macintosh demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/mohawk/lbsampler-demo-mac-en-v2.zip/download</url>
 				<target>lbsampler</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Living Books Sampler v2 (Windows demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/mohawk/lbsampler-demo-win-en-v2.zip/download</url>
 				<target>lbsampler</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Ruff's Bone (Macintosh demo)</name>
@@ -1053,31 +1177,37 @@
 				<name>AGI Demo Pack 1 (DOS demos of 3-D Helicopter Sim, Police Quest, Thexder, Space Quest 2, Mixed-up Mother Goose, Leisure Suit Larry)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/agi/agi-dos-pack1-demo-en.zip/download</url>
 				<target>agidemo</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>AGI Demo Pack 2 (DOS demos of 3-D Helicopter Sim, Space Quest 2, Thexder, King's Quest 3, Mixed- up Mother Goose, King's Quest 2, Police Quest, Leisure Suit Larry, Space Quest)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/agi/agi-dos-pack2-demo-en.zip/download</url>
 				<target>agidemo</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>AGI Demo Pack 3 (DOS demos of 3-D Helicopter Sim, Space Quest 2, Police Quest, King's Quest 3, Mixed-up Mother Goose, Leisure Suit Larry)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/agi/agi-dos-pack3-demo-en.zip/download</url>
 				<target>agidemo</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>AGI Demo Pack 4 (DOS demos of Gold Rush!, Manhunter: NewYork, Mixed-up Mother Goose, Police Quest, Space Quest 2, Leisure Suit Larry)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/agi/agi-dos-pack4-demo-en.zip/download</url>
 				<target>agidemo</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>AGI Demo Pack 5 (DOS demos of Space Quest, Donald Duck's Playground, King's Quest 3, Leisure Suit Larry)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/agi/agi-dos-pack5-demo-en.zip/download</url>
 				<target>agidemo</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Astro Chicken (DOS demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/astrochicken-dos-demo-en.zip/download</url>
 				<target>astrochicken</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Castle of Dr. Brain (DOS demo - Non-interactive)</name>
@@ -1088,21 +1218,25 @@
 				<name>Christmas Card 1988 (DOS demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/christmas1988-dos-en.zip/download</url>
 				<target>christmas1988</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Christmas Card 1990: The Seasoned Professional (EGA DOS demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/christmas1990-dos-ega-en.zip/download</url>
 				<target>christmas1990</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Christmas Card 1990: The Seasoned Professional (VGA DOS demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/christmas1990-dos-vga-en.zip/download</url>
 				<target>christmas1990</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Christmas Card 1992 (DOS demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/christmas1992-dos-en.zip/download</url>
 				<target>christmas1992</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Conquests of Camelot: King Arthur, Quest for the Grail (DOS demo - Non-interactive)</name>
@@ -1123,6 +1257,7 @@
 				<name>EcoQuest II: Lost Secret of the Rainforest (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/ecoquest2-dos-ni-demo-en.zip/download</url>
 				<target>ecoquest2</target>
+				<category>ecoquest</category>
 			</demo>
 			<demo>
 				<name>Freddy Pharkas: Frontier Pharmacist (DOS demo)</name>
@@ -1143,26 +1278,31 @@
 				<name>Fun Seeker's Guide (DOS demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/funseeker-dos-demo-en.zip/download</url>
 				<target>funseeker</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Hoyle Classic Card Games (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/hoyle4-dos-ni-demo-en.zip/download</url>
 				<target>hoyle4</target>
+				<category>hoyle</category>
 			</demo>
 			<demo>
 				<name>King's Quest I: Quest for the Crown, SCI Remake (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/kq1sci-dos-ni-demo-en.zip/download</url>
 				<target>kq1sci</target>
+				<category>kq-sci</category>
 			</demo>
 			<demo>
 				<name>King's Quest IV: The Perils of Rosella (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/agi/kq4-dos-ni-demo-en.zip/download</url>
 				<target>kq4</target>
+				<category>kq-sci</category>
 			</demo>
 			<demo>
 				<name>King's Quest IV: The Perils of Rosella, SCI Remake (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/kq4sci-dos-ni-demo-en.zip/download</url>
 				<target>kq4sci</target>
+				<category>kq-sci</category>
 			</demo>
 			<demo>
 				<name>Laura Bow: The Colonel's Bequest (DOS demo - Non-interactive)</name>
@@ -1173,66 +1313,79 @@
 				<name>Laura Bow 2: The Dagger of Amon Ra (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/laurabow2-dos-ni-demo-en.zip/download</url>
 				<target>laurabow2</target>
+				<category>laurabow</category>
 			</demo>
 			<demo>
 				<name>Leisure Suit Larry in the Land of the Lounge Lizards, SCI Remake (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/lsl1sci-dos-ni-demo-en.zip/download</url>
 				<target>lsl1sci</target>
+				<category>lsl-sci</category>
 			</demo>
 			<demo>
 				<name>Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places) (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/lsl2-dos-ni-demo-en.zip/download</url>
 				<target>lsl2</target>
+				<category>lsl-sci</category>
 			</demo>
 			<demo>
 				<name>Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/lsl3-dos-ni-demo-en.zip/download</url>
 				<target>lsl3</target>
+				<category>lsl-sci</category>
 			</demo>
 			<demo>
 				<name>Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/lsl5-dos-ni-demo-en.zip/download</url>
 				<target>lsl5</target>
+				<category>lsl-sci</category>
 			</demo>
 			<demo>
 				<name>Mixed-up Fairy Tales (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/fairytales-dos-ni-demo-en.zip/download</url>
 				<target>fairytales</target>
+				<category>mixedup</category>
 			</demo>
 			<demo>
 				<name>Mixed-Up Mother Goose (DOS demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/mothergoose-win-demo-en.zip/download</url>
 				<target>mothergoose</target>
+				<category>mixedup</category>
 			</demo>
 			<demo>
 				<name>Ms. Astro Chicken (DOS demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/msastrochicken-dos-demo-en.zip/download</url>
 				<target>msastrochicken</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Police Quest III: The Kindred (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/pq3-dos-ni-demo-en.zip/download</url>
 				<target>pq3</target>
+				<category>pq-sci</category>
 			</demo>
 			<demo>
 				<name>Police Quest IV: Open Season (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/pq4-dos-ni-demo-en.zip/download</url>
 				<target>pq4</target>
+				<category>pq-sci</category>
 			</demo>
 			<demo>
 				<name>Quest for Glory I: So You Want to Be a Hero (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/qfg1-dos-ni-demo-en.zip/download</url>
 				<target>qfg1</target>
+				<category>qfg-sci</category>
 			</demo>
 			<demo>
 				<name>Quest for Glory II: Trial by Fire (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/qfg2-dos-ni-demo-en.zip/download</url>
 				<target>qfg2</target>
+				<category>qfg-sci</category>
 			</demo>
 			<demo>
 				<name>Quest for Glory III: Wages of War (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/qfg3-dos-ni-demo-en.zip/download</url>
 				<target>qfg3</target>
+				<category>qfg-sci</category>
 			</demo>
 			<demo>
 				<name>Slater &amp; Charlie Go Camping (DOS demo)</name>
@@ -1243,16 +1396,19 @@
 				<name>Space Quest I: The Sarien Encounter, SCI Remake (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/sq1sci-dos-ni-demo-en.zip/download</url>
 				<target>sq1sci</target>
+				<category>sq-sci</category>
 			</demo>
 			<demo>
 				<name>Space Quest III: The Pirates of Pestulon (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/sq3-dos-ni-demo-en.zip/download</url>
 				<target>sq3</target>
+				<category>sq-sci</category>
 			</demo>
 			<demo>
 				<name>Xmas Card (DOS demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/agi/xmascard-dos-en.zip/download</url>
 				<target>xmascard</target>
+				<category>blank</category>
 			</demo>
 		</demos>
 	</group>
@@ -1269,26 +1425,31 @@
 				<name>Broken Sword 1: The Shadow of the Templars (Macintosh Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sword1/sword1-mac-demo-en.zip/download</url>
 				<target>sword1macdemo</target>
+				<category>sword</category>
 			</demo>
 			<demo>
 				<name>Broken Sword 1: The Shadow of the Templars (PlayStation Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sword1/sword1-psx-demo-en.zip/download</url>
 				<target>sword1psxdemo</target>
+				<category>sword</category>
 			</demo>
 			<demo>
 				<name>Broken Sword 1: The Shadow of the Templars (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sword1/sword1-win-demo-en.zip/download</url>
 				<target>sword1demo</target>
+				<category>sword</category>
 			</demo>
 			<demo>
 				<name>Broken Sword II: The Smoking Mirror (Windows Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sword2/sword2-win-demo-en.zip/download</url>
 				<target>sword2demo</target>
+				<category>sword2</category>
 			</demo>
 			<demo>
 				<name>Broken Sword II: The Smoking Mirror (PlayStation Demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sword2/sword2-psx-demo-en.zip/download</url>
 				<target>sword2psxdemo</target>
+				<category>sword2</category>
 			</demo>
 			<demo>
 				<name>Bud Tucker in Double Trouble (DOS Demo)</name>
@@ -1319,6 +1480,7 @@
 				<name>Discworld 2 (Windows demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/tinsel/dw2-win-demo-en.zip/download</url>
 				<target>dw2</target>
+				<category>dw</category>
 			</demo>
 			<demo>
 				<name>Flight of the Amazon Queen (Amiga demo)</name>
@@ -1369,6 +1531,7 @@
 				<name>Operation Stealth (Amiga demo - Non interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/cine/op-amiga-ni-demo-en.zip/download</url>
 				<target>os</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Return to Zork (DOS demo - Non interactive)</name>
@@ -1389,26 +1552,31 @@
 				<name>The Journeyman Project: Pegasus Prime (Macintosh demo) - Requires ScummVM 1.6.0dev</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/pegasus/pegasus-mac-demo-en.zip/download</url>
 				<target>pegasus</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>The Legend of Kyrandia (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/kyra/kyra1-dos-ni-demo-en.zip/download</url>
 				<target>kyra1</target>
+				<category>kyra</category>
 			</demo>
 			<demo>
 				<name>The Legend of Kyrandia: The Hand of Fate (DOS demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/kyra/kyra2-dos-cd-demo-en.zip/download</url>
 				<target>kyra2</target>
+				<category>kyra</category>
 			</demo>
 			<demo>
 				<name>The Legend of Kyrandia: The Hand of Fate (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/kyra/kyra2-dos-ni-demo1-en.zip/download</url>
 				<target>kyra2</target>
+				<category>kyra</category>
 			</demo>
 			<demo>
 				<name>The Legend of Kyrandia: The Hand of Fate (DOS Alternative demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/kyra/kyra2-dos-ni-demo2-en.zip/download</url>
 				<target>kyra2</target>
+				<category>kyra</category>
 			</demo>
 			<demo>
 				<name>Toonstruck (DOS German demo)</name>
