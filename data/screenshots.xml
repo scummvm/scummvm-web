@@ -1825,6 +1825,74 @@
 			</image>
 		</game>
 		<game>
+			<name>Conquests of the Longbow</name>
+			<category>longbow</category>
+			<image>
+				<file>sci/longbow/longbow-vga-1</file>
+				<caption>Conquests of the Longbow (VGA/English)</caption>
+			</image>
+			<image>
+				<file>sci/longbow/longbow-vga-2</file>
+				<caption>Conquests of the Longbow (VGA/English)</caption>
+			</image>
+			<image>
+				<file>sci/longbow/longbow-vga-3</file>
+				<caption>Conquests of the Longbow (VGA/English)</caption>
+			</image>
+			<image>
+				<file>sci/longbow/longbow-vga-4</file>
+				<caption>Conquests of the Longbow (VGA/English)</caption>
+			</image>
+			<image>
+				<file>sci/longbow/longbow-vga-5</file>
+				<caption>Conquests of the Longbow (VGA/English)</caption>
+			</image>
+			<image>
+				<file>sci/longbow/longbow-vga-6</file>
+				<caption>Conquests of the Longbow (VGA/English)</caption>
+			</image>
+			<image>
+				<file>sci/longbow/longbow-vga-de-1</file>
+				<caption>Conquests of the Longbow (VGA/German)</caption>
+			</image>
+			<image>
+				<file>sci/longbow/longbow-vga-de-2</file>
+				<caption>Conquests of the Longbow (VGA/German)</caption>
+			</image>
+			<image>
+				<file>sci/longbow/longbow-vga-de-3</file>
+				<caption>Conquests of the Longbow (VGA/German)</caption>
+			</image>
+			<image>
+				<file>sci/longbow/longbow-vga-de-4</file>
+				<caption>Conquests of the Longbow (VGA/German)</caption>
+			</image>
+			<image>
+				<file>sci/longbow/longbow-ega-1</file>
+				<caption>Conquests of the Longbow (EGA/English)</caption>
+			</image>
+			<image>
+				<file>sci/longbow/longbow-ega-2</file>
+				<caption>Conquests of the Longbow (EGA/English)</caption>
+			</image>
+			<image>
+				<file>sci/longbow/longbow-ega-3</file>
+				<caption>Conquests of the Longbow (EGA/English)</caption>
+			</image>
+			<image>
+				<file>sci/longbow/longbow-ega-4</file>
+				<caption>Conquests of the Longbow (EGA/English)</caption>
+			</image>
+			<image>
+				<file>sci/longbow/longbow-ega-5</file>
+				<caption>Conquests of the Longbow (EGA/English)</caption>
+			</image>
+			<image>
+				<file>sci/longbow/longbow-ega-6</file>
+				<caption>Conquests of the Longbow (EGA/English)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Dr. Brain series</name>
 			<category>castlebrain</category>
 			<image>
