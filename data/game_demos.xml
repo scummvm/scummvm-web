@@ -1552,7 +1552,7 @@
 				<name>The Journeyman Project: Pegasus Prime (Macintosh demo) - Requires ScummVM 1.6.0dev</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/pegasus/pegasus-mac-demo-en.zip/download</url>
 				<target>pegasus</target>
-				<category>blank</category>
+				<category>jmp</category>
 			</demo>
 			<demo>
 				<name>The Legend of Kyrandia (DOS demo - Non-interactive)</name>
