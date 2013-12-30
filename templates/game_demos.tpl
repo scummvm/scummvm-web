@@ -1,3 +1,6 @@
+<script type="text/javascript" src="javascripts/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="javascripts/game_demos.js"></script>
+
 <div class="box">
 	<div class="intro">
 		<div class="navigation">
@@ -21,7 +24,7 @@
 	<div class="content">
 		{foreach from=$demos item=group}
 		<a name="{$group.href}"></a>
-		<table class="chart color4" id="gameDemos">
+		<table class="chart color4 gameDemos">
 			<caption>{$group.name}</caption>
 			<thead>
 				<tr class="color4">
@@ -32,7 +35,10 @@
 			<tbody>
 			{foreach from=$group.demos item=demo}
 				<tr class="{cycle values="color2, color0"}">
-					<td><img src="images/cat-{$demo->getCategory()}.png"> <a href="{$demo->getURL()}">{$demo->getName()}</a></td>
+					<td>
+						<img src="images/cat-{$demo->getCategory()}.png" class="downloadImage">
+						<a href="{$demo->getURL()}">{$demo->getName()}</a>
+					</td>
 					<td class="gameTarget">{$demo->getTarget()}</td>
 				</tr>
 			{/foreach}

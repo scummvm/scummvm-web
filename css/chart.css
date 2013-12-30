@@ -57,24 +57,37 @@
 	background-color: rgb(153, 153, 153);
 }
 
-#gameDemos tr {
+.gameDemos tr {
 	padding: 0px;
 }
 	
-#gameDemos th {
+.gameDemos th {
 	padding: 2px;
 }
 
-#gameDemos td {
+.gameDemos td {
 	padding: 0px 2px;
 }
 
-#gameDemos td img {
+.gameDemos td img.downloadImage {
 	vertical-align: middle;
 	width: 22px;
 	height: 22px;
 }
 
-#gameDemos .gameTarget {
+.gameDemos td img.noSubcat {
+	vertical-align: middle;
+	width: 14px;
+	height: 14px;
+}
+
+.gameDemos td img.subcatToggle {
+	vertical-align: middle;
+	width: 14px;
+	height: 14px;
+	cursor: pointer;
+}
+
+.gameDemos .gameTarget {
 	width: 15%;
 }
