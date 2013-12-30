@@ -25,6 +25,8 @@ function attachSubcatListeners() {
 						resetDemosTable();
 					});
 				}
+			} else {
+				return false;
 			}
 		});
 	});
