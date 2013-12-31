@@ -4,16 +4,35 @@ $(document).ready(function () {
 	attachSubcatListeners();
 });
 
+function getRowGameDesc(row) {
+	var desc = row.children("td:nth-child(1)").text();
+	var leftBracketIndex = desc.indexOf("(");
+	if (leftBracketIndex == -1)
+		return desc;
+	
+	return desc.slice(0, leftBracketIndex - 1);
+}
+
+function getRowGameVariant(row) {
+	var desc = row.children("td:nth-child(1)").text();
+	var leftBracketIndex = desc.indexOf("(");
+	if (leftBracketIndex == -1)
+		return desc;
+	
+	var rightBracketIndex = desc.indexOf(")");
+	return desc.slice(leftBracketIndex + 1, rightBracketIndex);
+}
+
 function attachSubcatListeners() {
 	$(".gameDemos .subcatToggle").live("click", function() {
 		var clickedImage = $(this);
-		var clickedTarget = $(this).parent().parent().children("td:nth-child(2)").html();
+		var clickedDesc = getRowGameDesc(clickedImage.parent().parent());
 		var doOpen = (clickedImage.attr("src") == "images/subcat-open.png");
 		
 		$(this).parent().parent().nextAll().each(function() {
 			var curRow = $(this);
-			var curTarget  = curRow.children("td:nth-child(2)").html();
-			if (curTarget == clickedTarget) {
+			var curDesc  = getRowGameDesc(curRow);
+			if (curDesc == clickedDesc) {
 				if (doOpen) {
 					clickedImage.attr("src", "images/subcat-close.png");
 					curRow.fadeIn("fast", function() {
@@ -35,15 +54,15 @@ function attachSubcatListeners() {
 function hideDuplicates() {
 	$(".gameDemos tbody tr").each(function() {
 		var curRow = $(this);
-		var curTarget  = curRow.children("td:nth-child(2)").html();
-		var prevTarget = curRow.prev().children("td:nth-child(2)").html();
-		var nextTarget = curRow.next().children("td:nth-child(2)").html();
+		var curDesc  = getRowGameDesc(curRow);
+		var prevDesc = getRowGameDesc(curRow.prev());
+		var nextDesc = getRowGameDesc(curRow.next());
 		var buttonHTML = "";
 		
-		if (curTarget == prevTarget) {
+		if (curDesc == prevDesc) {
 			curRow.hide();
 			buttonHTML = "<img src='images/cat-blank.png' class='noSubcat'>";
-		} else if (curTarget != prevTarget && curTarget == nextTarget) {
+		} else if (curDesc != prevDesc && curDesc == nextDesc) {
 			buttonHTML = "<img src='images/subcat-open.png' class='subcatToggle'>";
 		} else {
 			buttonHTML = "<img src='images/cat-blank.png' class='noSubcat'>";
