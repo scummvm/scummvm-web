@@ -75,7 +75,8 @@ function hideDuplicates() {
 
 function resetDemosTable() {
 	$(".gameDemos").each(function() {
-		$(this).filter("tbody tr:visible:odd" ).removeClass("color2 color0").addClass("color2");
-		$(this).filter("tbody tr:visible:even").removeClass("color2 color0").addClass("color0");
+		var curRow = $(this);
+		curRow.filter("tbody tr:visible:odd" ).removeClass("color2 color0").addClass("color2");
+		curRow.filter("tbody tr:visible:even").removeClass("color2 color0").addClass("color0");
 	});
 }
