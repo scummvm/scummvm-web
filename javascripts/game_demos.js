@@ -68,7 +68,8 @@ function hideDuplicates() {
 			buttonHTML = "<img src='images/cat-blank.png' class='noSubcat'>";
 		}
 		
-		curRow.children("td:nth-child(1)").html(buttonHTML + curRow.children("td:nth-child(1)").html());
+		var curCell = curRow.children("td:nth-child(1)");
+		curCell.html(buttonHTML + curCell.html());
 	});
 }
 
