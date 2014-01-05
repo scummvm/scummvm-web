@@ -1534,6 +1534,11 @@
 				<category>blank</category>
 			</demo>
 			<demo>
+				<name>Return to Ringworld (DOS demo)</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/tsage/returntoringworld-dos-demo-en.zip/download</url>
+				<target>tsage</target>
+			</demo>
+			<demo>
 				<name>Return to Zork (DOS demo - Non interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/made/rtz-dos-ni-demo-en.zip/download</url>
 				<target>rtz</target>
