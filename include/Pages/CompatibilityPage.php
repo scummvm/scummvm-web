@@ -20,12 +20,14 @@ class CompatibilityPage extends Controller {
 		$this->_supportLevelDesc = array(
 			'untested' => 'Untested',
 			'broken' => 'Broken',
+			'bugged' => 'Bugged',
 			'good' => 'Good',
 			'excellent' => 'Excellent'
 		);
 		$this->_supportLevelClass = array(
 			'untested' => 'pctU',
 			'broken' => 'pct0',
+			'bugged' => 'pct50',
 			'good' => 'pct90',
 			'excellent' => 'pct100'
 		);

@@ -1211,7 +1211,7 @@
 			<game>
 				<name>Blue's Treasure Hunt</name>
 				<target>BluesTreasureHunt</target>
-				<support_level>good</support_level>
+				<support_level>bugged</support_level>
 				<notes>
 					Game is playable<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1315,7 +1315,7 @@
 			<game>
 				<name>Pajama Sam: Games to Play on Any Day</name>
 				<target>pjgames</target>
-				<support_level>good</support_level>
+				<support_level>bugged</support_level>
 				<notes>
 					All games, except Jumping Beans are playable<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Jumping Beans freezes, after introduction
 				</notes>
