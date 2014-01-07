@@ -494,7 +494,7 @@
       <answer>
 		<simpara>
 		To report a bug, please create a SourceForge account and follow the
-		<ulink url="http://sourceforge.net/tracker/?atid=418820&amp;group_id=37116&amp;func=browse">bugs</ulink>
+		<ulink url="http://sourceforge.net/p/scummvm/bugs/">bugs</ulink>
 		link from our homepage. Please make sure the bug is reproducible, and 
 		still exists in the latest daily build/current repository version. Also check the
 		<ulink url="http://www.scummvm.org/compatibility.php">compatibility listing</ulink> for that game to ensure

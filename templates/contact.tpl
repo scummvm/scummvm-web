@@ -3,7 +3,7 @@
 		<p>
 			<b>Please do not contact the team for questions about using ScummVM. Instead use the
 			<a href="http://forums.scummvm.org/">forums</a> or the
-			<a href="http://sourceforge.net/tracker/?group_id=37116&amp;atid=418820">bug reporting system</a>!</b>
+			<a href="http://sourceforge.net/p/scummvm/bugs/">bug reporting system</a>!</b>
 		</p>
 	</div>
 
@@ -32,24 +32,24 @@
 	{include file='subhead.tpl' subhead='Bug reports, feature requests, patches'}
 	<div class="subhead-content">
 		<p>
-			If you think you found a bug, take a look at our <a href="http://sourceforge.net/tracker/?group_id=37116&amp;atid=418820">bug tracker</a>.
+			If you think you found a bug, take a look at our <a href="http://sourceforge.net/p/scummvm/bugs/">bug tracker</a>.
 			Maybe a similar bug has already been filed, in which case you can add a comment to that bug report. If not, you can submit a new
 			bug report, but <b>please carefully read the instructions given on the submit form</b>. And of course, follow them :-)
 		</p>
 		<p>
-			Feature requests should go on our <a href="http://sourceforge.net/tracker/?group_id=37116&amp;atid=418823">feature request tracker</a>
+			Feature requests should go on our <a href="http://sourceforge.net/p/scummvm/feature-requests/">feature request tracker</a>
 			(again first check if something similar has already been requested).
 		</p>
 		<p>
 			Finally, if you have made a modification to the ScummVM source code and want to see it merged back into the ScummVM main line,
-			you can use our <a href="http://sourceforge.net/tracker/?group_id=37116&amp;atid=418822">patch tracker</a> for that.
+			you can use our <a href="http://sourceforge.net/p/scummvm/patches/">patch tracker</a> for that.
 		</p>
 	</div>
 
 	{include file='subhead.tpl' subhead='Mailing lists'}
 	<div class="subhead-content">
 		<p>
-			There are three ScummVM related  <a href="http://sourceforge.net/mail/?group_id=37116">mailing lists</a>.
+			There are three ScummVM related  <a href="http://sourceforge.net/p/scummvm/mailman/">mailing lists</a>.
 			Two of them are for automated content only. The one where you can send emails to yourself is scummvm-devel.
 		</p>
 	</div>
