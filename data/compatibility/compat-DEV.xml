@@ -1013,7 +1013,15 @@
 			</game>
 			<game>
 				<name>Ringworld: Revenge Of The Patriarch</name>
-				<target>ring</target>
+				<target>ringworld</target>
+				<support_level>good</support_level>
+				<notes>
+					No known issues, game is completable.
+				</notes>
+			</game>
+			<game>
+				<name>Return to Ringworld</name>
+				<target>ringworld2</target>
 				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.
@@ -1057,6 +1065,14 @@
 				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Macintosh versions are supported
+				</notes>
+			</game>
+			<game>
+				<name>The Neverhood</name>
+				<target>neverhood</target>
+				<support_level>good</support_level>
+				<notes>
+					No known issues, game is completable.
 				</notes>
 			</game>
 			<game>
