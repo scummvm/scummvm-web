@@ -61,6 +61,9 @@
 				<a href="http://www.dotemu.com/affiliate/32202">
 					<img src="images/dotemu_scummvm.png" width="88" height="32" alt="DotEmu.com games">
 				</a>
+				<a href="https://github.com/scummvm">
+					<img src="images/github-logo.png" alt="ScummVM on GitHub" width="88" height="32">
+ 				</a>
 				<br>
 				<a href="http://www.facebook.com/pages/ScummVM/7328341409">
 					<img src="images/facebook.png" width="88" height="32" alt="Join us on Facebook">
