@@ -3,6 +3,8 @@
 define('RELEASE', '1.6.0');
 define('RELEASE_TOOLS', '1.6.0');
 define('RELEASE_DEBIAN', '1.5.0');
+/* Version when the percentages on the compat page were removed */
+define('COMPAT_LAYOUT_CHANGE', '1.7.0');
 
 /* News items on the front page. */
 define('NEWS_ITEMS', 5);

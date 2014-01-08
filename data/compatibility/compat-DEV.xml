@@ -6,7 +6,7 @@
 			<game>
 				<name>Maniac Mansion</name>
 				<target>maniac</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Amiga, Apple II, Atari ST, Commodore 64, Macintosh, NES and PC versions supported by this target<h:br />- Apple II and Commodore 64 versions aren't completable<h:br />- Minor graphical glitches in NES version
 				</notes>
@@ -14,7 +14,7 @@
 			<game>
 				<name>Zak McKracken and the Alien Mindbenders</name>
 				<target>zak</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Amiga, Atari ST, Commodore 64, FM-TOWNS and PC versions supported by this target<h:br />- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM
 				</notes>
@@ -22,7 +22,7 @@
 			<game>
 				<name>Indiana Jones and the Last Crusade</name>
 				<target>indy3</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- Amiga, Atari ST, FM-TOWNS, Macintosh and PC versions supported by this target<h:br />- There is no support for the Macintosh interface<h:br />- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM
 				</notes>
@@ -30,7 +30,7 @@
 			<game>
 				<name>Loom</name>
 				<target>loom</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />
 							- Amiga, Atari ST, FM-TOWNS, Macintosh, PC and PC-Engine versions supported by this target<h:br />
@@ -43,7 +43,7 @@
 			<game>
 				<name>Passport to Adventure</name>
 				<target>pass</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.
 				</notes>
@@ -51,7 +51,7 @@
 			<game>
 				<name>The Secret of Monkey Island</name>
 				<target>monkey</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Amiga, Atari ST, FM-TOWNS, Macintosh, PC and SegaCD versions supported by this target<h:br />- The Roland update from LucasArts is required for MIDI support in the EGA version<h:br />- Dialogue choices in the SegaCD version can be selected with mousewheel or keyboard arrow keys
 				</notes>
@@ -59,7 +59,7 @@
 			<game>
 				<name>Monkey Island 2: LeChuck's Revenge</name>
 				<target>monkey2</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Amiga, FM-TOWNS, Macintosh and PC versions supported by this target<h:br />- Demo version often crashes due to missing resources, since it was never meant to be playable<h:br />- No support for playing back the recorded file of gameplay in demo version<h:br />- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM
 				</notes>
@@ -67,7 +67,7 @@
 			<game>
 				<name>Indiana Jones and the Fate of Atlantis</name>
 				<target>atlantis</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Amiga, FM-TOWNS, Macintosh and PC versions supported by this target<h:br />- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM
 				</notes>
@@ -75,7 +75,7 @@
 			<game>
 				<name>Day of the Tentacle</name>
 				<target>tentacle</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and PC versions supported by this target<h:br />- Maniac Mansion isn't playable on Ed's computer. To play the included copy, use 'Add Game' from the main ScummVM launcher and select the MANIAC directory inside the DOTT game directory
 				</notes>
@@ -83,7 +83,7 @@
 			<game>
 				<name>Sam &amp; Max Hit the Road</name>
 				<target>samnmax</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and PC versions supported by this target
 				</notes>
@@ -91,7 +91,7 @@
 			<game>
 				<name>Full Throttle</name>
 				<target>ft</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and PC versions supported by this target
 				</notes>
@@ -99,7 +99,7 @@
 			<game>
 				<name>The Dig</name>
 				<target>dig</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and PC versions supported by this target
 				</notes>
@@ -107,7 +107,7 @@
 			<game>
 				<name>The Curse of Monkey Island</name>
 				<target>comi</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.
 				</notes>
@@ -120,7 +120,7 @@
 			<game>
 				<name>Leather Goddesses of Phobos 2</name>
 				<target>lgop2</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable.<h:br />- The DOS floppy version is supported by this target<h:br />- Only soundblaster music is played. MIDI music playing/MT32 instrument mapping needs more work
 				</notes>
@@ -128,7 +128,7 @@
 			<game>
 				<name>The Manhole</name>
 				<target>manhole</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is playable.<h:br />- DOS floppy and CD versions are supported by this target
 				</notes>
@@ -136,7 +136,7 @@
 			<game>
 				<name>Return to Zork</name>
 				<target>rtz</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable.<h:br />- DOS floppy and CD versions are supported by this target<h:br />- The 3DO, Macintosh, PC-FX, PlayStation and SEGA Saturn versions are not supported<h:br />- Only soundblaster music is played. MIDI music playing/MT32 instrument mapping needs more work
 				</notes>
@@ -144,7 +144,7 @@
 			<game>
 				<name>Rodney's Funscreen</name>
 				<target>rodney</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is playable.<h:br />- The DOS floppy version is supported by this target
 				</notes>
@@ -157,7 +157,7 @@
 			<game>
 				<name>Elvira - Mistress of the Dark</name>
 				<target>elvira1</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Amiga and Atari ST and DOS versions are supported by this target<h:br />- Commodore 64 version doesn't use AGOS, so will never be supported.<h:br />- No music in the Atari ST version.
 				</notes>
@@ -165,7 +165,7 @@
 			<game>
 				<name>Elvira II - The Jaws of Cerberus</name>
 				<target>elvira2</target>
-				<percent>80</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is playable.<h:br />- Amiga and Atari ST and DOS versions are supported by this target<h:br />- Commodore 64 version doesn't use AGOS, so will never be supported.<h:br />- No music in the Atari ST version.<h:br />- No sound effects in the DOS version.
 				</notes>
@@ -173,7 +173,7 @@
 			<game>
 				<name>Personal Nightmare</name>
 				<target>pn</target>
-				<percent>50</percent>
+				<support_level>untested</support_level>
 				<notes>
 					Game is playable, but not confirmed as completable.<h:br />- Amiga, Atari ST and DOS versions are supported by this target<h:br />- Minor spacing glitches with charset.<h:br />- No day to night fading in Amiga and Atari ST versions.
 				</notes>
@@ -181,7 +181,7 @@
 			<game>
 				<name>Simon the Sorcerer 1</name>
 				<target>simon1</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Acorn, Amiga, DOS and Windows versions supported by this target<h:br />- No music in Acorn disk version
 				</notes>
@@ -189,7 +189,7 @@
 			<game>
 				<name>Simon the Sorcerer 2</name>
 				<target>simon2</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Amiga, DOS, Macintosh and Windows versions supported by this target<h:br />- Only the default language (English) in Amiga &amp; Macintosh versions is supported<h:br />- F10 key animation is different in Amiga &amp; Macintosh versions
 				</notes>
@@ -197,7 +197,7 @@
 			<game>
 				<name>Simon the Sorcerer's Puzzle Pack - D.I.M.P.</name>
 				<target>dimp</target>
-				<percent>70</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- Demon takes longer to die, compared to original
 				</notes>
@@ -205,7 +205,7 @@
 			<game>
 				<name>Simon the Sorcerer's Puzzle Pack - Jumble</name>
 				<target>jumble</target>
-				<percent>70</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- No support for displaying, entering, loading and saving high scores
 				</notes>
@@ -213,7 +213,7 @@
 			<game>
 				<name>Simon the Sorcerer's Puzzle Pack - NoPatience</name>
 				<target>puzzle</target>
-				<percent>70</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- No support for displaying, entering, loading and saving high scores
 				</notes>
@@ -221,7 +221,7 @@
 			<game>
 				<name>Simon the Sorcerer's Puzzle Pack - Swampy Adventures</name>
 				<target>swampy</target>
-				<percent>70</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- No support for displaying explanation, when clicking on items<h:br />- No support for displaying, entering, loading and saving high scores
 				</notes>
@@ -229,7 +229,7 @@
 			<game>
 				<name>The Feeble Files</name>
 				<target>feeble</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Amiga, Macintosh and Windows versions supported by this target
 				</notes>
@@ -237,7 +237,7 @@
 			<game>
 				<name>Waxworks</name>
 				<target>waxworks</target>
-				<percent>50</percent>
+				<support_level>untested</support_level>
 				<notes>
 					Game is playable, but requires further play testing.<h:br />- Amiga and DOS versions are supported by this target<h:br />- Amiga version has not been confirmed as completable.<h:br />- PC version doesn't load or save items states correctly, leading to various bugs
 				</notes>
@@ -250,7 +250,7 @@
 			<game>
 				<name>Bargon Attack</name>
 				<target>bargon</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- Amiga, Atari and DOS versions are supported by this target<h:br />- Issues with the mouse cursor visibility
 				</notes>
@@ -258,7 +258,7 @@
 			<game>
 				<name>Fascination</name>
 				<target>fascination</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues. Game is completable<h:br />- Amiga, Atari and DOS versions are supported by this target
 				</notes>
@@ -266,7 +266,7 @@
 			<game>
 				<name>Geisha</name>
 				<target>geisha</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues. Game is completable<h:br />- Amiga, Atari and DOS versions are supported by this target
 				</notes>
@@ -274,7 +274,7 @@
 			<game>
 				<name>Gobliiins</name>
 				<target>gob1</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues. Game is completable.<h:br />- Amiga, Atari, DOS and Macintosh versions are supported by this target<h:br />- Problem with one music piece in the Macintosh version
 				</notes>
@@ -282,7 +282,7 @@
 			<game>
 				<name>Gobliins 2</name>
 				<target>gob2</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- Amiga, Atari, DOS and Macintosh versions are supported by this target<h:br />- A few wrong instruments during music playback
 				</notes>
@@ -290,7 +290,7 @@
 			<game>
 				<name>Goblins 3</name>
 				<target>gob3</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- Amiga, Atari, DOS and Macintosh versions are supported by this target<h:br />- Issues with the mouse cursor visibility<h:br />- No support for original font and music files in Macintosh version<h:br />- The number of used jokers isn't saved correctly. You'll always have 5 to spend again after loading
 				</notes>
@@ -298,7 +298,7 @@
 			<game>
 				<name>Lost in Time</name>
 				<target>lostintime</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS floppy and CD versions are supported by this target<h:br />- Versions that split part one and two are untested<h:br />- Issues with the mouse cursor visibility
 				</notes>
@@ -306,7 +306,7 @@
 			<game>
 				<name>Once Upon A Time: Little Red Riding Hood</name>
 				<target>littlered</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- Amiga, Atari, DOS and Windows versions are supported by this target
 				</notes>
@@ -314,7 +314,7 @@
 			<game>
 				<name>Playtoons: Bambou le Sauveur de la Jungle</name>
 				<target>bambou</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- Windows version is supported by this target
 				</notes>
@@ -322,7 +322,7 @@
 			<game>
 				<name>The Bizarre Adventures of Woodruff and the Schnibble</name>
 				<target>woodruff</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- PC CD versions are supported by this target<h:br />- Issues with the mouse cursor visibility
 				</notes>
@@ -330,7 +330,7 @@
 			<game>
 				<name>Urban Runner</name>
 				<target>urban</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- Windows version is supported by this target
 				</notes>
@@ -338,7 +338,7 @@
 			<game>
 				<name>Ween: The Prophecy</name>
 				<target>ween</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- Amiga, Atari and DOS versions are supported by this target<h:br />- Issues with the mouse cursor visibility
 				</notes>
@@ -351,7 +351,7 @@
 			<game>
 				<name>Beneath a Steel Sky</name>
 				<target>sky</target>
-				<percent>98</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Floppy demos aren't supported<h:br />- Amiga versions aren't supported<h:br /><h:br />The following bugs are present in the original game and can't be fixed:<h:br />- The voice files for some sentences are missing.<h:br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;This is especially noticeable in the court- and Mrs. Piermont sequence.<h:br />- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders<h:br />- Special characters for french and italian subtitles are incorrect sometimes
 				</notes>
@@ -359,7 +359,7 @@
 			<game>
 				<name>Broken Sword: The Shadow of the Templars</name>
 				<target>sword1</target>
-				<percent>98</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- DOS, Macintosh, PlayStation and Windows versions are supported by this target
 				</notes>
@@ -367,7 +367,7 @@
 			<game>
 				<name>Broken Sword II: The Smoking Mirror</name>
 				<target>sword2</target>
-				<percent>98</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- PlayStation and Windows versions are supported by this target
 				</notes>
@@ -375,7 +375,7 @@
 			<game>
 				<name>Lure of the Temptress</name>
 				<target>lure</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS VGA and EGA versions are supported
 				</notes>
@@ -388,7 +388,7 @@
 			<game>
 				<name>The Black Cauldron</name>
 				<target>bc</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
 				</notes>
@@ -396,7 +396,7 @@
 			<game>
 				<name>Gold Rush!</name>
 				<target>goldrush</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
 				</notes>
@@ -404,7 +404,7 @@
 			<game>
 				<name>King's Quest I</name>
 				<target>kq1</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS, Macintosh, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
 				</notes>
@@ -412,7 +412,7 @@
 			<game>
 				<name>King's Quest II</name>
 				<target>kq2</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS, Mac, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
 				</notes>
@@ -420,7 +420,7 @@
 			<game>
 				<name>King's Quest III</name>
 				<target>kq3</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS, Macintosh, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
 				</notes>
@@ -428,7 +428,7 @@
 			<game>
 				<name>King's Quest IV</name>
 				<target>kq4</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
 				</notes>
@@ -436,7 +436,7 @@
 			<game>
 				<name>Leisure Suit Larry in the Land of the Lounge Lizards</name>
 				<target>lsl1</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS, Macintosh, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
 				</notes>
@@ -444,7 +444,7 @@
 			<game>
 				<name>Mixed-Up Mother Goose</name>
 				<target>mixedup</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS, Amiga, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
 				</notes>
@@ -452,7 +452,7 @@
 			<game>
 				<name>Manhunter 1: New York</name>
 				<target>mh1</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
 				</notes>
@@ -460,7 +460,7 @@
 			<game>
 				<name>Manhunter 2: San Francisco</name>
 				<target>mh2</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS, Amiga, Atari ST versions are supported by this target
 				</notes>
@@ -468,7 +468,7 @@
 			<game>
 				<name>Police Quest I: In Pursuit of the Death Angel</name>
 				<target>pq1</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS, Macintosh, Amiga, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
 				</notes>
@@ -476,7 +476,7 @@
 			<game>
 				<name>Space Quest I: The Sarien Encounter</name>
 				<target>sq1</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS, Macintosh, Amiga, Atari ST, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
 				</notes>
@@ -484,7 +484,7 @@
 			<game>
 				<name>Space Quest II: Vohaul's Revenge</name>
 				<target>sq2</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS, Macintosh, Amiga, Apple IIgs versions are supported by this target<h:br />- Apple IIgs version has no sound
 				</notes>
@@ -492,7 +492,7 @@
 			<game>
 				<name>Fanmade Games</name>
 				<target>agi-fanmade</target>
-				<percent>80</percent>
+				<support_level>good</support_level>
 				<notes>
 					Most games are completable<h:br />- AGIMOUSE, AGIPAL, AGI256 and AGI256-2 hacks are also supported by this target<h:br />- Occasional graphics glitches
 				</notes>
@@ -500,7 +500,7 @@
 			<game>
 				<name>Mickey's Space Adventure</name>
 				<target>mickey</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- Only DOS version is supported by this target
 				</notes>
@@ -508,7 +508,7 @@
 			<game>
 				<name>Troll's Tale</name>
 				<target>troll</target>
-				<percent>80</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- Only DOS booter version is supported by this target<h:br />- Game lacks sound
 				</notes>
@@ -516,7 +516,7 @@
 			<game>
 				<name>Winnie the Pooh in the Hundred Acre Wood</name>
 				<target>winnie</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- Only DOS version is supported by this target
 				</notes>
@@ -529,7 +529,7 @@
 			<game>
 				<name>Castle of Dr. Brain (EGA and VGA)</name>
 				<target>castlebrain</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS, Macintosh and Amiga versions are supported by this target<h:br />- Music in Macintosh and Amiga versions may have glitches<h:br />- No support for Macintosh hi-res fonts
 				</notes>
@@ -537,7 +537,7 @@
 			<game>
 				<name>Codename: ICEMAN</name>
 				<target>iceman</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
@@ -545,7 +545,7 @@
 			<game>
 				<name>Conquests of Camelot</name>
 				<target>camelot</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
@@ -553,7 +553,7 @@
 			<game>
 				<name>Conquests of the Longbow (EGA and VGA)</name>
 				<target>longbow</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
@@ -561,7 +561,7 @@
 			<game>
 				<name>EcoQuest: The Search for Cetus</name>
 				<target>ecoquest</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Windows versions are supported by this target
 				</notes>
@@ -569,7 +569,7 @@
 			<game>
 				<name>EcoQuest 2: Lost Secret of the Rainforest</name>
 				<target>ecoquest2</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS versions are supported by this target
 				</notes>
@@ -577,7 +577,7 @@
 			<game>
 				<name>Freddy Pharkas: Frontier Pharmacist</name>
 				<target>freddypharkas</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS versions are supported by this target
 				</notes>
@@ -585,7 +585,7 @@
 			<game>
 				<name>Hoyle's Book of Games 1</name>
 				<target>hoyle1</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
@@ -593,7 +593,7 @@
 			<game>
 				<name>Hoyle's Book of Games 2</name>
 				<target>hoyle2</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
@@ -601,7 +601,7 @@
 			<game>
 				<name>Hoyle's Book of Games 3 (EGA and VGA)</name>
 				<target>hoyle3</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
@@ -609,7 +609,7 @@
 			<game>
 				<name>Hoyle Classic Card Games</name>
 				<target>hoyle4</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS versions are supported by this target
 				</notes>
@@ -617,7 +617,7 @@
 			<game>
 				<name>Jones in the Fast Lane</name>
 				<target>jones</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Windows versions are supported by this target
 				</notes>
@@ -625,7 +625,7 @@
 			<game>
 				<name>King's Quest I (SCI remake)</name>
 				<target>kq1sci</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version is not working
 				</notes>
@@ -633,7 +633,7 @@
 			<game>
 				<name>King's Quest IV (SCI version)</name>
 				<target>kq4sci</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
@@ -641,7 +641,7 @@
 			<game>
 				<name>King's Quest V (EGA and VGA)</name>
 				<target>kq5</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS, Windows, Macintosh and Amiga versions are supported by this target<h:br />- Music in the Macintosh and Amiga versions may have glitches<h:br />- No support for Macintosh hi-res fonts
 				</notes>
@@ -649,7 +649,7 @@
 			<game>
 				<name>King's Quest VI (low and hi res)</name>
 				<target>kq6</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Windows versions are supported by this target
 				</notes>
@@ -657,7 +657,7 @@
 			<game>
 				<name>Laura Bow: The Colonel's Bequest</name>
 				<target>laurabow</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
@@ -665,7 +665,7 @@
 			<game>
 				<name>Laura Bow 2: The Dagger of Amon Ra</name>
 				<target>laurabow2</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS versions are supported by this target
 				</notes>
@@ -673,7 +673,7 @@
 			<game>
 				<name>Leisure Suit Larry 1 (SCI remake) (EGA and VGA)</name>
 				<target>lsl1sci</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS, Macintosh and Amiga versions are supported by this target<h:br />- Music in Macintosh and Amiga versions may have glitches<h:br />- No support for Macintosh hi-res fonts
 				</notes>
@@ -681,7 +681,7 @@
 			<game>
 				<name>Leisure Suit Larry 2</name>
 				<target>lsl2</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
@@ -689,7 +689,7 @@
 			<game>
 				<name>Leisure Suit Larry 3</name>
 				<target>lsl3</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
@@ -697,7 +697,7 @@
 			<game>
 				<name>Leisure Suit Larry 5 (EGA and VGA)</name>
 				<target>lsl5</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS, Macintosh and Amiga versions are supported by this target<h:br />- Music in Macintosh and Amiga versions may have glitches<h:br />- No support for Macintosh hi-res fonts
 				</notes>
@@ -705,7 +705,7 @@
 			<game>
 				<name>Leisure Suit Larry 6 (low res)</name>
 				<target>lsl6</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS versions are supported by this target
 				</notes>
@@ -713,7 +713,7 @@
 			<game>
 				<name>Mixed-up Fairy Tales</name>
 				<target>fairytales</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS versions are supported by this target
 				</notes>
@@ -721,7 +721,7 @@
 			<game>
 				<name>Mixed-up Mother Goose</name>
 				<target>mothergoose</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
@@ -729,7 +729,7 @@
 			<game>
 				<name>Pepper's Adventures in Time</name>
 				<target>pepper</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS versions are supported by this target
 				</notes>
@@ -737,7 +737,7 @@
 			<game>
 				<name>Police Quest 1 (SCI remake)</name>
 				<target>pq1sci</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS versions are supported by this target
 				</notes>
@@ -745,7 +745,7 @@
 			<game>
 				<name>Police Quest 2</name>
 				<target>pq2</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
@@ -753,7 +753,7 @@
 			<game>
 				<name>Police Quest 3 (EGA and VGA)</name>
 				<target>pq3</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
@@ -761,7 +761,7 @@
 			<game>
 				<name>Quest for Glory 1/Hero's Quest</name>
 				<target>qfg1</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
@@ -769,7 +769,7 @@
 			<game>
 				<name>Quest for Glory 1 VGA remake</name>
 				<target>qfg1vga</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS versions are supported by this target
 				</notes>
@@ -777,7 +777,7 @@
 			<game>
 				<name>Quest for Glory 2</name>
 				<target>qfg2</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
@@ -785,7 +785,7 @@
 			<game>
 				<name>Quest for Glory 3</name>
 				<target>qfg3</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS versions are supported by this target
 				</notes>
@@ -793,7 +793,7 @@
 			<game>
 				<name>Slater &amp; Charlie Go Camping</name>
 				<target>slater</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS versions are supported by this target
 				</notes>
@@ -801,7 +801,7 @@
 			<game>
 				<name>Space Quest I (SCI remake) (EGA and VGA)</name>
 				<target>sq1sci</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS, Macintosh and Amiga versions are supported by this target<h:br />- Music in Macintosh and Amiga versions may have glitches<h:br />- No support for Macintosh hi-res fonts
 				</notes>
@@ -809,7 +809,7 @@
 			<game>
 				<name>Space Quest III</name>
 				<target>sq3</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
 				</notes>
@@ -817,7 +817,7 @@
 			<game>
 				<name>Space Quest IV (EGA and VGA)</name>
 				<target>sq4</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS, Windows, Macintosh and Amiga versions are supported by this target<h:br />- Music in Macintosh and Amiga versions may have glitches<h:br />- No support for Macintosh hi-res fonts
 				</notes>
@@ -825,7 +825,7 @@
 			<game>
 				<name>Space Quest V</name>
 				<target>sq5</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS versions are supported by this target
 				</notes>
@@ -833,7 +833,7 @@
 			<game>
 				<name>The Island of Dr. Brain</name>
 				<target>islandbrain</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS versions are supported by this target
 				</notes>
@@ -846,7 +846,7 @@
 			<game>
 				<name>3 Skulls of the Toltecs</name>
 				<target>toltecs</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.
 				</notes>
@@ -854,7 +854,7 @@
 			<game>
 				<name>Blue Force</name>
 				<target>blueforce</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.
 				</notes>
@@ -862,7 +862,7 @@
 			<game>
 				<name>Bud Tucker in Double Trouble</name>
 				<target>tucker</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- No known issues
 				</notes>
@@ -870,7 +870,7 @@
 			<game>
 				<name>Cruise for a Corpse</name>
 				<target>cruise</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- Only DOS versions are supported by this target<h:br />- Only AdLib music and sound effects are supported
 				</notes>
@@ -878,7 +878,7 @@
 			<game>
 				<name>DreamWeb</name>
 				<target>dreamweb</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable. Only DOS versions are supported.
 				</notes>
@@ -886,7 +886,7 @@
 			<game>
 				<name>Discworld</name>
 				<target>dw</target>
-				<percent>98</percent>
+				<support_level>excellent</support_level>
 				<notes>
 				Game is completable<h:br />- DOS, Macintosh and PSX versions are supported by this target<h:br />- PSX version is missing music support
 				</notes>
@@ -894,7 +894,7 @@
 			<game>
 				<name>Discworld II - Missing presumed...!?</name>
 				<target>dw2</target>
-				<percent>98</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable.<h:br />- DOS and Windows versions are supported by this target
 				</notes>
@@ -902,7 +902,7 @@
 			<game>
 				<name>Dragon History</name>
 				<target>draci</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable.<h:br />- The code is brand new and hasn't been thoroughly tested yet
 				</notes>
@@ -910,7 +910,7 @@
 			<game>
 				<name>Drascula: The Vampire Strikes Back</name>
 				<target>drascula</target>
-				<percent>98</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.
 				</notes>
@@ -918,7 +918,7 @@
 			<game>
 				<name>Eye of the Beholder</name>
 				<target>eob</target>
-				<percent>80</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS versions are supported<h:br />- Amiga and PC-98 versions are not supported
 				</notes>
@@ -926,7 +926,7 @@
 			<game>
 				<name>Eye of the Beholder II: The Legend of Darkmoon</name>
 				<target>eob2</target>
-				<percent>80</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS versions are supported<h:br />- Amiga, FM-TOWNS and PC-98 versions are not supported
 				</notes>
@@ -934,7 +934,7 @@
 			<game>
 				<name>Flight of the Amazon Queen</name>
 				<target>queen</target>
-				<percent>98</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Amiga and DOS versions supported by this target.
 				</notes>
@@ -942,7 +942,7 @@
 			<game>
 				<name>Future Wars</name>
 				<target>fw</target>
-				<percent>80</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- Occasional graphical glitches<h:br />- Amiga, Atari and DOS versions are supported by this target
 				</notes>
@@ -950,7 +950,7 @@
 			<game>
 				<name>Hopkins FBI</name>
 				<target>hopkins</target>
-				<percent>85</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- Win95, BeOS, OS/2 and Linux versions are supported by this target
 				</notes>
@@ -958,7 +958,7 @@
 			<game>
 				<name>Hugo's House of Horrors</name>
 				<target>hugo1</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Windows versions are supported by this target<h:br />- Playback is not supported<h:br />- No support for one of the original fonts used during the intro of the DOS version
 				</notes>
@@ -966,7 +966,7 @@
 			<game>
 				<name>Hugo 2: Whodunit?</name>
 				<target>hugo2</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Windows versions are supported by this target<h:br />- Playback is not supported
 				</notes>
@@ -974,7 +974,7 @@
 			<game>
 				<name>Hugo 3: Jungle of Doom</name>
 				<target>hugo3</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Windows versions are supported by this target<h:br />- Playback is not supported
 				</notes>
@@ -982,7 +982,7 @@
 			<game>
 				<name>I Have No Mouth, and I Must Scream</name>
 				<target>ihnm</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable.<h:br />- Occasional minor glitches<h:br />- DOS and Macintosh versions are supported by this target
 				</notes>
@@ -990,7 +990,7 @@
 			<game>
 				<name>Inherit the Earth: Quest for the Orb</name>
 				<target>ite</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- DOS, Linux, Macintosh, Mac OS X and Windows versions are supported by this target<h:br />- Amiga versions aren't supported
 				</notes>
@@ -998,7 +998,7 @@
 			<game>
 				<name>Lands of Lore: The Throne of Chaos</name>
 				<target>lol</target>
-				<percent>80</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and PC-9821 versions are supported
 				</notes>
@@ -1006,7 +1006,7 @@
 			<game>
 				<name>Nippon Safes Inc.</name>
 				<target>nippon</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- Amiga and DOS versions are supported by this target<h:br />- Occasional minor graphical glitches
 				</notes>
@@ -1014,7 +1014,7 @@
 			<game>
 				<name>Ringworld: Revenge Of The Patriarch</name>
 				<target>ring</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.
 				</notes>
@@ -1022,7 +1022,7 @@
 			<game>
 				<name>Soltys</name>
 				<target>soltys</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.
 				</notes>
@@ -1030,7 +1030,7 @@
 			<game>
 				<name>The Journeyman Project: Pegasus Prime</name>
 				<target>pegasus</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- Macintosh versions are supported<h:br />- Occasional video graphical glitches
 				</notes>
@@ -1038,7 +1038,7 @@
 			<game>
 				<name>The Legend of Kyrandia</name>
 				<target>kyra1</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- Amiga, DOS, FM-TOWNS, Macintosh and PC-9821 versions are supported<h:br />- No music or sound effects in the Macintosh floppy versions<h:br />- Macintosh CD is using included DOS music and sound effects for now
 				</notes>
@@ -1046,7 +1046,7 @@
 			<game>
 				<name>The Legend of Kyrandia: Book Two: Hand of Fate</name>
 				<target>kyra2</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS, FM-TOWNS and PC-9821 versions are supported
 				</notes>
@@ -1054,7 +1054,7 @@
 			<game>
 				<name>The Legend of Kyrandia: Book Three: Malcolm's Revenge</name>
 				<target>kyra3</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Macintosh versions are supported
 				</notes>
@@ -1062,7 +1062,7 @@
 			<game>
 				<name>The 7th Guest</name>
 				<target>t7g</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable.<h:br />- The DOS, Windows and Macintosh versions are supported by this target<h:br />- The CD-i version doesn't use Groovie, so it will never be supported.
 				</notes>
@@ -1070,7 +1070,7 @@
 			<game>
 				<name>TeenAgent</name>
 				<target>teenagent</target>
-				<percent>80</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable.<h:br /><h:br />- Occasional graphical glitches
 				</notes>
@@ -1078,7 +1078,7 @@
 			<game>
 				<name>Toonstruck</name>
 				<target>toon</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.
 				</notes>
@@ -1086,7 +1086,7 @@
 			<game>
 				<name>Tony Tough and the Night of Roasted Moths</name>
 				<target>tony</target>
-				<percent>98</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable.
 				</notes>
@@ -1094,7 +1094,7 @@
 			<game>
 				<name>Touche: The Adventures of the Fifth Musketeer</name>
 				<target>touche</target>
-				<percent>75</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- Occasional graphical glitches
 				</notes>
@@ -1107,7 +1107,7 @@
 			<game>
 				<name>Backyard Baseball</name>
 				<target>baseball</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1115,7 +1115,7 @@
 			<game>
 				<name>Backyard Baseball 2001</name>
 				<target>baseball2001</target>
-				<percent>80</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable.<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- No support for multiplayer
 				</notes>
@@ -1123,7 +1123,7 @@
 			<game>
 				<name>Backyard Baseball 2003</name>
 				<target>baseball2003</target>
-				<percent>80</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1131,7 +1131,7 @@
 			<game>
 				<name>Backyard Football</name>
 				<target>football</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1139,7 +1139,7 @@
 			<game>
 				<name>Backyard Football 2002</name>
 				<target>football2002</target>
-				<percent>80</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is playable, with minor glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Minor graphical glitches<h:br />- No support for multiplayer<h:br />- No videos
 				</notes>
@@ -1147,7 +1147,7 @@
 			<game>
 				<name>Bear Stormin'</name>
 				<target>brstorm</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is playable
 				</notes>
@@ -1155,7 +1155,7 @@
 			<game>
 				<name>Big Thinkers First Grade</name>
 				<target>thinker1</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1163,7 +1163,7 @@
 			<game>
 				<name>Big Thinkers Kindergarten</name>
 				<target>thinkerk</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1171,7 +1171,7 @@
 			<game>
 				<name>Blue's 123 Time Activities</name>
 				<target>Blues123Time</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is playable<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1179,7 +1179,7 @@
 			<game>
 				<name>Blue's ABC Time Activities</name>
 				<target>BluesABCTime</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1187,7 +1187,7 @@
 			<game>
 				<name>Blue's Art Time Activities</name>
 				<target>arttime</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1195,7 +1195,7 @@
 			<game>
 				<name>Blue's Birthday Adventure</name>
 				<target>BluesBirthday</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable.<h:br />- Both Macintosh and Windows versions supported by this target<h:br />-Minor graphical glitches
 				</notes>
@@ -1203,7 +1203,7 @@
 			<game>
 				<name>Blue's Reading Time Activities</name>
 				<target>readtime</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1211,7 +1211,7 @@
 			<game>
 				<name>Blue's Treasure Hunt</name>
 				<target>BluesTreasureHunt</target>
-				<percent>50</percent>
+				<support_level>bugged</support_level>
 				<notes>
 					Game is playable<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1219,7 +1219,7 @@
 			<game>
 				<name>Fatty Bear's Birthday Surprise</name>
 				<target>fbear</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- 3DO, DOS, Macintosh and Windows versions supported by this target
 				</notes>
@@ -1227,7 +1227,7 @@
 			<game>
 				<name>Fatty Bear's Fun Pack</name>
 				<target>fbpack</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both 3DO and DOS versions supported by this target
 				</notes>
@@ -1235,7 +1235,7 @@
 			<game>
 				<name>Freddi Fish 1: The Case of the Missing Kelp Seeds</name>
 				<target>freddi</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1243,7 +1243,7 @@
 			<game>
 				<name>Freddi Fish 2: The Case of the Haunted Schoolhouse</name>
 				<target>freddi2</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1251,7 +1251,7 @@
 			<game>
 				<name>Freddi Fish 3: The Case of the Stolen Conch Shell</name>
 				<target>freddi3</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1259,7 +1259,7 @@
 			<game>
 				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch</name>
 				<target>freddi4</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1267,7 +1267,7 @@
 			<game>
 				<name>Freddi Fish 5: The Case of the Creature of Coral Cove</name>
 				<target>freddicove</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1275,7 +1275,7 @@
 			<game>
 				<name>Freddi Fish and Luther's Maze Madness</name>
 				<target>maze</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1283,7 +1283,7 @@
 			<game>
 				<name>Freddi Fish and Luther's Water Worries</name>
 				<target>water</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1291,7 +1291,7 @@
 			<game>
 				<name>Let's Explore the Airport with Buzzy</name>
 				<target>airport</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is playable<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1299,7 +1299,7 @@
 			<game>
 				<name>Let's Explore the Farm with Buzzy</name>
 				<target>farm</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is playable<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1307,7 +1307,7 @@
 			<game>
 				<name>Let's Explore the Jungle with Buzzy</name>
 				<target>jungle</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is playable<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1315,7 +1315,7 @@
 			<game>
 				<name>Pajama Sam: Games to Play on Any Day</name>
 				<target>pjgames</target>
-				<percent>70</percent>
+				<support_level>bugged</support_level>
 				<notes>
 					All games, except Jumping Beans are playable<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Jumping Beans freezes, after introduction
 				</notes>
@@ -1323,7 +1323,7 @@
 			<game>
 				<name>Pajama Sam 1: No Need to Hide When It's Dark Outside</name>
 				<target>pajama</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1331,7 +1331,7 @@
 			<game>
 				<name>Pajama Sam 2: Thunder and Lightning Aren't so Frightening</name>
 				<target>pajama2</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1339,7 +1339,7 @@
 			<game>
 				<name>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet</name>
 				<target>pajama3</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- PlayStation 1 version doesn't use SCUMM, so will never be supported.
 				</notes>
@@ -1347,7 +1347,7 @@
 			<game>
 				<name>Pajama Sam's Lost &amp; Found</name>
 				<target>lost</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1355,7 +1355,7 @@
 			<game>
 				<name>Pajama Sam's Sock Works</name>
 				<target>socks</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1363,7 +1363,7 @@
 			<game>
 				<name>Putt-Putt Enters the Race</name>
 				<target>puttrace</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable, with minor glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Minor graphical glitches
 				</notes>
@@ -1371,7 +1371,7 @@
 			<game>
 				<name>Putt-Putt Goes to the Moon</name>
 				<target>puttmoon</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- 3DO, DOS, Macintosh and Windows versions supported by this target
 				</notes>
@@ -1379,7 +1379,7 @@
 			<game>
 				<name>Putt-Putt Joins the Circus</name>
 				<target>puttcircus</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1387,7 +1387,7 @@
 			<game>
 				<name>Putt-Putt Joins the Parade</name>
 				<target>puttputt</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- 3DO, DOS, Macintosh and Windows versions supported by this target
 				</notes>
@@ -1395,7 +1395,7 @@
 			<game>
 				<name>Putt-Putt Saves the Zoo</name>
 				<target>puttzoo</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Minor graphical glitches when meeting Kenya in HE72 version
 				</notes>
@@ -1403,7 +1403,7 @@
 			<game>
 				<name>Putt-Putt Travels Through Time</name>
 				<target>putttime</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1411,7 +1411,7 @@
 			<game>
 				<name>Putt-Putt and Pep's Balloon-O-Rama</name>
 				<target>balloon</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1419,7 +1419,7 @@
 			<game>
 				<name>Putt-Putt and Pep's Dog on a Stick</name>
 				<target>dog</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1427,7 +1427,7 @@
 			<game>
 				<name>Putt-Putt &amp; Fatty Bear's Activity Pack</name>
 				<target>activity</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- DOS, Macintosh and Windows versions supported by this target
 				</notes>
@@ -1435,7 +1435,7 @@
 			<game>
 				<name>Putt-Putt's Fun Pack</name>
 				<target>funpack</target>
-				<percent>95</percent>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both 3DO and DOS versions supported by this target
 				</notes>
@@ -1443,7 +1443,7 @@
 			<game>
 				<name>SPY Fox 1: Dry Cereal</name>
 				<target>spyfox</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1451,7 +1451,7 @@
 			<game>
 				<name>SPY Fox 2: Some Assembly Required</name>
 				<target>spyfox2</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1459,7 +1459,7 @@
 			<game>
 				<name>SPY Fox 3: Operation Ozone</name>
 				<target>spyozon</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1467,7 +1467,7 @@
 			<game>
 				<name>SPY Fox in Cheese Chase</name>
 				<target>chase</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1475,7 +1475,7 @@
 			<game>
 				<name>SPY Fox in Hold the Mustard</name>
 				<target>mustard</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable, with minor glitches<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1488,7 +1488,7 @@
 			<game>
 				<name>Darby the Dragon</name>
 				<target>darby</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.
 				</notes>
@@ -1496,7 +1496,7 @@
 			<game>
 				<name>Gregory and the Hot Air Balloon</name>
 				<target>gregory</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.
 				</notes>
@@ -1504,7 +1504,7 @@
 			<game>
 				<name>Magic Tales: Liam Finds a Story</name>
 				<target>liam</target>
-				<percent>80</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.
 				</notes>
@@ -1512,7 +1512,7 @@
 			<game>
 				<name>The Princess and the Crab</name>
 				<target>princess</target>
-				<percent>80</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.
 				</notes>
@@ -1520,7 +1520,7 @@
 			<game>
 				<name>Sleeping Cub's Test of Courage</name>
 				<target>sleepingcub</target>
-				<percent>80</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.
 				</notes>
@@ -1533,7 +1533,7 @@
 			<game>
 				<name>Aesop's Fables: The Tortoise and the Hare</name>
 				<target>tortoise</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1541,7 +1541,7 @@
 			<game>
 				<name>Arthur's Birthday</name>
 				<target>arthurbday</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- The 2.0 version is not supported yet
 				</notes>
@@ -1549,7 +1549,7 @@
 			<game>
 				<name>Arthur's Teacher Trouble</name>
 				<target>arthur</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1557,7 +1557,7 @@
 			<game>
 				<name>Dr. Seuss's ABC</name>
 				<target>seussabc</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1565,7 +1565,7 @@
 			<game>
 				<name>Green Eggs and Ham</name>
 				<target>greeneggs</target>
-				<percent>80</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Minigames are not supported yet
 				</notes>
@@ -1573,7 +1573,7 @@
 			<game>
 				<name>Harry and the Haunted House</name>
 				<target>harryhh</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1581,7 +1581,7 @@
 			<game>
 				<name>Just Grandma and Me</name>
 				<target>grandma</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- The 2.0 version is not supported yet
 				</notes>
@@ -1589,7 +1589,7 @@
 			<game>
 				<name>Little Monster at School</name>
 				<target>lilmonster</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- The CD-i version is not supported
 				</notes>
@@ -1597,7 +1597,7 @@
 			<game>
 				<name>Ruff's Bone</name>
 				<target>ruff</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1605,7 +1605,7 @@
 			<game>
 				<name>Sheila Rae, the Brave</name>
 				<target>sheila</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1613,7 +1613,7 @@
 			<game>
 				<name>Stellaluna</name>
 				<target>stellaluna</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1621,7 +1621,7 @@
 			<game>
 				<name>The Berenstain Bears Get in a Fight</name>
 				<target>bearfight</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1629,7 +1629,7 @@
 			<game>
 				<name>The Berenstain Bears in the Dark</name>
 				<target>beardark</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
@@ -1637,7 +1637,7 @@
 			<game>
 				<name>The New Kid on the Block</name>
 				<target>newkid</target>
-				<percent>90</percent>
+				<support_level>good</support_level>
 				<notes>
 					No known issues, game is completable.<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>

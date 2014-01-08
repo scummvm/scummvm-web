@@ -8,29 +8,50 @@ require_once('Models/CompatibilityModel.php');
  */
 class CompatibilityPage extends Controller {
 	private $_template;
-	private $_template_details;
+	private $_template_details; 
+	private $_supportLevelDesc;
+	private $_supportLevelClass;
 
 	/* Constructor. */
 	public function __construct() {
 		parent::__construct();
 		$this->_template = 'compatibility.tpl';
 		$this->_template_details = 'compatibility_details.tpl';
+		$this->_supportLevelDesc = array(
+			'untested' => 'Untested',
+			'broken' => 'Broken',
+			'bugged' => 'Bugged',
+			'good' => 'Good',
+			'excellent' => 'Excellent'
+		);
+		$this->_supportLevelClass = array(
+			'untested' => 'pctU',
+			'broken' => 'pct0',
+			'bugged' => 'pct50',
+			'good' => 'pct90',
+			'excellent' => 'pct100'
+		);
 	}
 
 	/* Display the index page. */
 	public function index() {
 		$version = (!empty($_GET['v']) ? $_GET['v'] : 'DEV');
 		$target = $_GET['t'];
+		if ($version === 'DEV' || (CompatibilityModel::compareVersions($version, $COMPAT_LAYOUT_CHANGE) < 0)) {
+			$oldLayout = 'no';
+		} else {
+			$oldLayout = 'yes';
+		}
 
 		if (!empty($target)) {
-			return $this->getGame($target, $version);
+			return $this->getGame($target, $version, $oldLayout);
 		} else {
-			return $this->getAll($version);
+			return $this->getAll($version, $oldLayout);
 		}
 	}
 
 	/* We should show detailed information for a specific target. */
-	public function getGame($target, $version) {
+	public function getGame($target, $version, $oldLayout) {
 		$game = CompatibilityModel::getGameData($version, $target);
 
 		$this->addCSSFiles(array('chart.css', 'compatibility.css'));
@@ -40,13 +61,16 @@ class CompatibilityPage extends Controller {
 				'content_title' => "{$version} Compatibility",
 				'version' => $version,
 				'game' => $game,
+				'old_layout' => $oldLayout,
+				'support_level_desc' => $this->_supportLevelDesc,
+				'support_level_class' => $this->_supportLevelClass
 			),
 			$this->_template_details
 		);
 	}
 
 	/* We should show all the compatibility stats for a specific version. */
-	public function getAll($version) {
+	public function getAll($version, $oldLayout) {
 		/* Default to DEV */
 		$versions = CompatibilityModel::getAllVersions();
 		if (!in_array($version, $versions)) {
@@ -70,6 +94,9 @@ class CompatibilityPage extends Controller {
 				'compat_data' => $compat_data,
 				'last_updated' => $last_updated,
 				'versions' => $versions,
+				'old_layout' => $oldLayout,
+				'support_level_desc' => $this->_supportLevelDesc,
+				'support_level_class' => $this->_supportLevelClass
 			),
 			$this->_template
 		);
