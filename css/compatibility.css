@@ -75,3 +75,13 @@
 .pct100 {
 	background-color: #60ff60;
 }
+.colorKeyTable td {
+	text-align: center;
+}
+.gameShortName {
+	width: 15%;
+}
+.gameSupportLevel {
+	width: 15%;
+	text-align: center;
+}
