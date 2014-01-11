@@ -300,7 +300,7 @@
 				<target>lostintime</target>
 				<support_level>excellent</support_level>
 				<notes>
-					Game is completable<h:br />- DOS floppy and CD versions are supported by this target<h:br />- Versions that split part one and two are untested<h:br />- Issues with the mouse cursor visibility
+					Game is completable<h:br />- DOS floppy and CD versions are supported by this target<h:br />- Issues with the mouse cursor visibility
 				</notes>
 			</game>
 			<game>
