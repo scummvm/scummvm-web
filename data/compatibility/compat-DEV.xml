@@ -1022,9 +1022,9 @@
 			<game>
 				<name>Return to Ringworld</name>
 				<target>ringworld2</target>
-				<support_level>good</support_level>
+				<support_level>untested</support_level>
 				<notes>
-					No known issues, game is completable.
+					Game has been recently supported and requires further play testing.
 				</notes>
 			</game>
 			<game>
