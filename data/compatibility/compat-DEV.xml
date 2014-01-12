@@ -868,6 +868,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Chivalry is Not Dead</name>
+				<target>chivalry</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />Requires additional fonts.
+				</notes>
+			</game>
+			<game>
 				<name>Cruise for a Corpse</name>
 				<target>cruise</target>
 				<support_level>excellent</support_level>
