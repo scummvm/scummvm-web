@@ -266,14 +266,14 @@
 					<name>Caanoo package</name>
 					<extra_info>(9.9M .tar.bz2)</extra_info>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-openpandora.png</category_icon>
 					<url>scummvm-{$release}-openpandora.zip?download</url>
 					<name>OpenPandora package</name>
-					<extra_info>(10.1M .zip)</extra_info>
+					<extra_info>(10.7M .zip)</extra_info>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-dingux.png</category_icon>
 					<url>scummvm-{$release}-dingux.zip?download</url>
@@ -586,13 +586,6 @@
 					<url>scummvm-1.5.0-caanoo.tar.bz2?download</url>
 					<name>1.5.0 Caanoo package</name>
 					<extra_info>(9.9M .tar.bz2)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-openpandora.png</category_icon>
-					<url>scummvm-1.5.0-openpandora.zip?download</url>
-					<name>1.5.0 OpenPandora package</name>
-					<extra_info>(10.1M .zip)</extra_info>
 				</file>
 
 				<file>
