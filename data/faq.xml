@@ -575,7 +575,11 @@
 		try setting the <envar>SDL_AUDIODRIVER</envar> environment variable to "waveout"
 		and try again.
 		</simpara>
-	</answer>
+		<simpara>
+		Note using the "waveout" SDL audio driver causes an increased delay in sound,
+		especially under Windows Vista and later versions.
+		</simpara>
+		</answer>
 	</qandaentry>
 
 		
