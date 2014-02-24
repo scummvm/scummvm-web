@@ -1,18 +1,18 @@
-<NAME>Welcome to the GSoC Students</NAME>
+<NAME>Let's welcome the GSoC students</NAME>
 <DATE>Feb 25, 2014</DATE>
 <AUTHOR>Strangerke</AUTHOR>
-<body>
+<BODY>
 	<p>
 		<img src="http://scummvm.org/data/news/GSOC_14_banner.png" alt="GSoC 2014 Banner" align="middle">
 	</p>
 	<p>
-		For seven years in a row we are accepted as GSoC project.
+		For the seventh year in a row, we have been accepted as a Google Summer of Code project.
 	</p>
 	<p>
-		Maybe it is because both our project and the program have unusual letter case?
-		Go figure, but in any case we're happy to be accepted and welcome fellow
-		students to join our team and work on cool 2D Point and Click adventures
-		<a href="http://wiki.scummvm.org/index.php/GSoC_Ideas">our project ideas</a>, but you always can offer your own (no, no Digger support,
-		please. It's not an adventure)
+		Perhaps it is because both our project and the program have unusual letter casing? The world may never know, but we are thrilled to be accepted again and welcome fellow students to join our team and work on awesome 2D point-and-click adventures. If you are an eligible student for the GSoC and want to contribute to your favorite open-source project, take a look at
+		<a href="http://wiki.scummvm.org/index.php/GSoC_Ideas">our project ideas</a>, but you always can offer your own.
 	</p>
-</body>
+	<p>
+		But, please, no Digger support: it's not an adventure!
+	</p>
+</BODY>
