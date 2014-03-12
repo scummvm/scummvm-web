@@ -61,7 +61,7 @@
 				<target>monkey2</target>
 				<percent>95</percent>
 				<notes>
-					No known issues, game is completable.<h:br />- Amiga, FM-TOWNS, Macintosh and PC versions supported by this target<h:br />- Demo version often crashes due to missing resources, since it was never meant to be playable<h:br />- No support for playing back the recorded file of gameplay in demo version<h:br />- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM
+					No known issues, game is completable.<h:br />- Amiga, FM-TOWNS, Macintosh and PC versions supported by this target<h:br />- Demo version often crashes due to missing resources, since it was never meant to be playable<h:br />- No support for playing back the recorded file of gameplay in demo version<h:br />- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM<h:br />- Loading of original instrument samples for Amiga version not implemented, so music differs from original interpreter.
 				</notes>
 			</game>
 			<game>
@@ -69,7 +69,7 @@
 				<target>atlantis</target>
 				<percent>95</percent>
 				<notes>
-					No known issues, game is completable.<h:br />- Amiga, FM-TOWNS, Macintosh and PC versions supported by this target<h:br />- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM
+					No known issues, game is completable.<h:br />- Amiga, FM-TOWNS, Macintosh and PC versions supported by this target<h:br />- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM<h:br />- Loading of original instrument samples for Amiga version not implemented, so music differs from original interpreter.
 				</notes>
 			</game>
 			<game>
