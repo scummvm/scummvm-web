@@ -177,6 +177,13 @@
 				</file>
 
 				<file>
+					<category_icon>catpl-tizen.png</category_icon>
+					<url>scummvm-{$release}-tizen.tpk?download</url>
+					<name>Tizen package</name>
+					<extra_info>(11.5M .tpk)</extra_info>
+				</file>
+
+				<file>
 					<category_icon>catpl-maemo.png</category_icon>
 					<url>scummvm_{$release}-maemo_armel.deb?download</url>
 					<name>Maemo package (OS 2008 and Maemo5/Fremantle)</name>
@@ -271,7 +278,7 @@
 					<category_icon>catpl-openpandora.png</category_icon>
 					<url>scummvm-{$release}-openpandora.zip?download</url>
 					<name>OpenPandora package</name>
-					<extra_info>(10.7M .zip)</extra_info>
+					<extra_info>(11.3M .zip)</extra_info>
 				</file>
 
 				<file>
@@ -317,14 +324,14 @@
 					<extra_info>(5.4M .tgz)</extra_info>
 					<user_agent>BeOS</user_agent>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
-					<url>scummvm-{$release}-gcc4-haiku.tgz?download</url>
+					<url>scummvm-{$release}_haiku_gcc4.tgz?download</url>
 					<name>Haiku package</name>
-					<extra_info>(8.2M .tgz)</extra_info>
+					<extra_info>(32.5M .tgz)</extra_info>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
 					<url>scummvm-{$release}-amigaos4.lha?download</url>
@@ -352,7 +359,7 @@
 					<category_icon>catpl-os2.png</category_icon>
 					<url>scummvm-{$release}-os2.zip?download</url>
 					<name>OS/2 package</name>
-					<extra_info>(8.9M .zip)</extra_info>
+					<extra_info>(11.6M .zip)</extra_info>
 					<user_agent>OS/2</user_agent>
 				</file>
 
@@ -648,14 +655,6 @@
 					<extra_info>(8.5M .zip)</extra_info>
 				</file>
 				
-				<file>
-					<category_icon>catpl-haiku.png</category_icon>
-					<url>scummvm-1.4.0-gcc4-haiku.tgz?download</url>
-					<name>1.4.0 Haiku package</name>
-					<extra_info>(8.2M .tgz)</extra_info>
-					<user_agent>Haiku</user_agent>
-				</file>
-
 				<file>
 					<category_icon>catpl-linuxmoto.png</category_icon>
 					<url>scummvm-1.3.0-motoezx.pkg?download</url>
