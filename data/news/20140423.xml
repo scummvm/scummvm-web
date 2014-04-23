@@ -16,7 +16,7 @@
 		Additionally, ScummVM is acting as an umbrella organisation during GSoC for our sister project ResidualVM. They will be mentoring three students:
 	</p>
 	<ul>
-	<li>Stefano Musumeci (a.k.a. subr3v) will be working on refactoring and optimizng the <b><i>TinyGL software renderer</i></b>.</li>
+	<li>Stefano Musumeci (a.k.a. subr3v) will be working on refactoring and optimizing the <b><i>TinyGL software renderer</i></b>.</li>
 	<li>Joni Vähämäki (a.k.a. Akz) and Joseph Jezak (a.k.a. JoseJX) will both be working on improving the <b><i>Escape from Monkey Island</i></b> engine, tackling bugs and missing features from two different angles.</li>
 	</ul>
 	<p>
