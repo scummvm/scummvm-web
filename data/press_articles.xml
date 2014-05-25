@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <articles>
 	<article>
+		<url>http://www.youtube.com/watch?v=WE0Cf1JWsAg</url>
+		<name>Tim Schafer Plays "Full Throttle" Part 1 (Using ScummVM!)</name>
+		<posted>Double Fine Productions Youtube Channel, 16 May 2014 (Recorded in 2012)</posted>
+	</article>
+	<article>
+		<url>http://www.youtube.com/watch?v=qumYnE2wYhA</url>
+		<name>Tim Schafer Plays "Day of the Tentacle" Part 1 (Using ScummVM!)</name>
+		<posted>Double Fine Productions Youtube Channel, 9 May 2014 (Recorded in 2012)</posted>
+	</article>
+	<article>
 		<url>http://arstechnica.com/gaming/news/2012/01/maniac-tentacle-mindbenders-of-atlantis-how-scummvm-kept-adventure-gaming-alive.ars</url>
 		<name>Maniac Tentacle Mindbenders: How ScummVM's unpaid coders kept adventure gaming alive</name>
 		<posted>ars technica, January 2012</posted>
@@ -9,6 +19,16 @@
 		<url>http://www.guardian.co.uk/technology/gamesblog/2009/mar/22/games</url>
 		<name>Charles Cecil talks Broken Sword Directors Cut and why point and click adventures are back</name>
 		<posted>The Guardian (Games Blog), March 2009</posted>
+	</article>
+	<article>
+		<url>http://grumpygamer.com/6868065</url>
+		<name>The One Wish</name>
+		<posted>Ron Gilbert's Grumpy Gamer blog, 26th November 2007</posted>
+	</article>
+	<article>
+		<url>http://grumpygamer.com/4172170</url>
+		<name>SCUMMVMDSMI</name>
+		<posted>Ron Gilbert's Grumpy Gamer blog, 1st August 2005</posted>
 	</article>
 	<article>
 		<url>http://www.micromart.co.uk/features/article/default.aspx?id=21746</url>
