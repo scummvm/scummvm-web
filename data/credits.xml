@@ -227,7 +227,7 @@
 				</person>
 			</group>
 			<group>
-				<name>AVALANCHE</name>
+				<name>Avalanche</name>
 				<person>
 					<name>Peter Bozs&oacute;</name>
 					<alias>uruk</alias>
@@ -486,6 +486,24 @@
 				<person>
 					<name>Benjamin Haisch</name>
 					<alias>john_doe</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Filippos Karapetis</name>
+					<alias>[md5]</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>MADS</name>
+				<person>
+					<name>Arnaud Boutonn&eacute;</name>
+					<alias>Strangerke</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Paul Gilbert</name>
+					<alias>dreammaster</alias>
 					<description></description>
 				</person>
 				<person>
@@ -862,6 +880,19 @@
 					<name>Gregory Montoir</name>
 					<alias>cyx</alias>
 					<description>(retired)</description>
+				</person>
+			</group>
+			<group>
+				<name>Voyeur</name>
+				<person>
+					<name>Arnaud Boutonn&eacute;</name>
+					<alias>Strangerke</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Paul Gilbert</name>
+					<alias>dreammaster</alias>
+					<description></description>
 				</person>
 			</group>
 			<group>
