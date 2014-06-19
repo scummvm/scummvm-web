@@ -1070,6 +1070,11 @@
 					<alias>AnotherGuest</alias>
 					<description></description>
 				</person>
+				<person>
+					<name>Fedor Strizhniou</name>
+					<alias>zanac</alias>
+					<description></description>
+				</person>
 			</group>
 			<group>
 				<name>Tizen / BADA</name>
