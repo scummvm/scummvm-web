@@ -1131,6 +1131,14 @@
 					Game is completable<h:br />- Occasional graphical glitches
 				</notes>
 			</game>
+			<game>
+				<name>Voyeur</name>
+				<target>voyeur</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />- Only the DOS version is currently supported.
+				</notes>
+			</game>
 		</games>
 	</company>
 	<company>
