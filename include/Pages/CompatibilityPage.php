@@ -37,7 +37,7 @@ class CompatibilityPage extends Controller {
 	public function index() {
 		$version = (!empty($_GET['v']) ? $_GET['v'] : 'DEV');
 		$target = $_GET['t'];
-		if ($version === 'DEV' || (CompatibilityModel::compareVersions($version, $COMPAT_LAYOUT_CHANGE) < 0)) {
+		if ($version === 'DEV' || (CompatibilityModel::compareVersions($version, COMPAT_LAYOUT_CHANGE) >= 0)) {
 			$oldLayout = 'no';
 		} else {
 			$oldLayout = 'yes';
