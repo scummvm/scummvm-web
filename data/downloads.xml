@@ -550,12 +550,6 @@
 					<extra_info>(8.9M RPM)</extra_info>
 				</file>
 				<file>
-					<category_icon>catpl-fedora.png</category_icon>
-					<url>scummvm-1.6.0-1.x86_64.rpm?download</url>
-					<name>1.6.0 Fedora 8-17 x86 64bit package</name>
-					<extra_info>(9.7M RPM)</extra_info>
-				</file>
-				<file>
 					<category_icon>catpl-debian.png</category_icon>
 					<url>scummvm_1.6.0-wheezy.1_i386.deb?download</url>
 					<name>1.6.0 Debian 7.0 (wheezy) i386 package</name>
