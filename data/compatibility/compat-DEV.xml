@@ -1355,9 +1355,9 @@
 			<game>
 				<name>Pajama Sam: Games to Play on Any Day</name>
 				<target>pjgames</target>
-				<support_level>bugged</support_level>
+				<support_level>good</support_level>
 				<notes>
-					All games, except Jumping Beans are playable<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Jumping Beans freezes, after introduction
+					No known issues, all games are playable<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
 			<game>
