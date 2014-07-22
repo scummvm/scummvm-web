@@ -38,15 +38,17 @@
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
 					<url>scummvm-{$release}-1.i386.rpm?download</url>
-					<name>Fedora 8-17 i386 package</name>
+					<name>Fedora 8-20+ i386 package</name>
 					<extra_info>(8.9M RPM)</extra_info>
 				</file>
+-->
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
 					<url>scummvm-{$release}-1.x86_64.rpm?download</url>
-					<name>Fedora 8-17 x86 64bit package</name>
-					<extra_info>(9.7M RPM)</extra_info>
+					<name>Fedora 8-20+ x86 64bit package</name>
+					<extra_info>(11.2M RPM)</extra_info>
 				</file>
+<!--
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
 					<url>scummvm_{$release}-wheezy.1_i386.deb?download</url>
@@ -398,14 +400,12 @@
 					<name>ScummVM - Source .zip</name>
 					<extra_info>(28.0M)</extra_info>
 				</file>
-<!--
 				<file>
 					<category_icon>catpl-cpp.png</category_icon>
 					<url>scummvm-{$release}-1.src.rpm?download</url>
 					<name>ScummVM - Source RPM</name>
-					<extra_info>(18.8M)</extra_info>
+					<extra_info>(21.6M)</extra_info>
 				</file>
--->
 			</entries>
 		</subsection>
 
