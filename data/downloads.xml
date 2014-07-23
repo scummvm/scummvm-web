@@ -133,14 +133,19 @@
 					<name>Nintendo DS package</name>
 					<extra_info>(12.0M .zip)</extra_info>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-android.png</category_icon>
 					<url>scummvm-{$release}-android.zip?download</url>
 					<name>Android packages</name>
-					<extra_info>(15M .zip)</extra_info>
+					<extra_info>(10.5M .zip)</extra_info>
 				</file>
--->
+				<file>
+					<category_icon>catpl-android.png</category_icon>
+					<url>https://play.google.com/store/apps/details?id=org.scummvm.scummvm</url>
+					<name>Android package at Google Play Store</name>
+					<user_agent>Android</user_agent>
+				</file>
 				<file>
 					<category_icon>catpl-symbian.png</category_icon>
 					<url>scummvm-{$release}-s60v3.zip?download</url>
@@ -628,12 +633,6 @@
 				</file>
 
 				<file>
-					<category_icon>catpl-android.png</category_icon>
-					<url>https://play.google.com/store/apps/details?id=org.scummvm.scummvm</url>
-					<name>1.5.0 Android package at Google Play Store</name>
-					<user_agent>Android</user_agent>
-				</file>
-				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
 					<url>scummvm_1.5.0-precise.1_armel.deb?download</url>
 					<name>1.5.0 Ubuntu 12.04 (precise) ARM package</name>
@@ -709,12 +708,6 @@
 					<url>scummvm-1.4.1-psp.zip?download</url>
 					<name>1.4.1 PSP (PlayStation Portable) package</name>
 					<extra_info>(10.9M .zip)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-android.png</category_icon>
-					<url>scummvm-1.4.1-android.zip?download</url>
-					<name>1.4.1 Android packages</name>
-					<extra_info>(15M .zip)</extra_info>
 				</file>
 
 				<file>
