@@ -44,7 +44,7 @@
 -->
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
-					<url>scummvm-{$release}-1.x86_64.rpm?download</url>
+					<url>scummvm-{$release}-2.x86_64.rpm?download</url>
 					<name>Fedora 8-20+ x86 64bit package</name>
 					<extra_info>(11.2M RPM)</extra_info>
 				</file>
@@ -406,7 +406,7 @@
 				</file>
 				<file>
 					<category_icon>catpl-cpp.png</category_icon>
-					<url>scummvm-{$release}-1.src.rpm?download</url>
+					<url>scummvm-{$release}-2.src.rpm?download</url>
 					<name>ScummVM - Source RPM</name>
 					<extra_info>(21.6M)</extra_info>
 				</file>
