@@ -48,42 +48,42 @@
 					<name>Fedora 8-20+ x86 64bit package</name>
 					<extra_info>(11.2M RPM)</extra_info>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
 					<url>scummvm_{$release}-wheezy.1_i386.deb?download</url>
 					<name>Debian 7.0 (wheezy) i386 package</name>
-					<extra_info>(9.7M .deb)</extra_info>
+					<extra_info>(8.0M .deb)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
 					<url>scummvm_{$release}-wheezy.1_amd64.deb?download</url>
 					<name>Debian 7.0 (wheezy) x86 64bit package</name>
-					<extra_info>(9.8M .deb)</extra_info>
+					<extra_info>(8.0M .deb)</extra_info>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
 					<url>scummvm_{$release}-squeeze.1_powerpc.deb?download</url>
 					<name>Debian 6.0 (squeeze) PowerPC package</name>
 					<extra_info>(7.8M .deb)</extra_info>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_{$release}-raring.1_i386.deb?download</url>
-					<name>Ubuntu 13.04 (raring) i386 package</name>
-					<extra_info>(9.8M .deb)</extra_info>
+					<url>scummvm_{$release}-trusty.1_i386.deb?download</url>
+					<name>Ubuntu 14.04 (trusty) i386 package</name>
+					<extra_info>(8.0M .deb)</extra_info>
 				</file>
 
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_{$release}-raring.1_amd64.deb?download</url>
-					<name>Ubuntu 13.04 (raring) x86 64bit package</name>
-					<extra_info>(9.9M .deb)</extra_info>
+					<url>scummvm_{$release}-trusty.1_amd64.deb?download</url>
+					<name>Ubuntu 14.04 (trusty) x86 64bit package</name>
+					<extra_info>(8.2M .deb)</extra_info>
 					<user_agent>Ubuntu</user_agent>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-slackware.png</category_icon>
 					<url>scummvm-{$release}_slack-i486-1.tgz?download</url>
@@ -367,14 +367,13 @@
 					<extra_info>(11.6M .zip)</extra_info>
 					<user_agent>OS/2</user_agent>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-samsungtv.png</category_icon>
 					<url>scummvm-{$release}-samsungtv.zip?download</url>
 					<name>Samsung TV package (2009 series)</name>
-					<extra_info>(13.7M .zip)</extra_info>
+					<extra_info>(15.8M .zip)</extra_info>
 				</file>
--->
 			</entries>
 		</subsection>
 
@@ -549,39 +548,12 @@
 					<name>1.6.0 Fedora 8-17 i386 package</name>
 					<extra_info>(8.9M RPM)</extra_info>
 				</file>
-				<file>
-					<category_icon>catpl-debian.png</category_icon>
-					<url>scummvm_1.6.0-wheezy.1_i386.deb?download</url>
-					<name>1.6.0 Debian 7.0 (wheezy) i386 package</name>
-					<extra_info>(9.7M .deb)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-debian.png</category_icon>
-					<url>scummvm_1.6.0-wheezy.1_amd64.deb?download</url>
-					<name>1.6.0 Debian 7.0 (wheezy) x86 64bit package</name>
-					<extra_info>(9.8M .deb)</extra_info>
-				</file>
 
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
 					<url>scummvm_1.6.0-squeeze.1_powerpc.deb?download</url>
 					<name>1.6.0 Debian 6.0 (squeeze) PowerPC package</name>
 					<extra_info>(7.8M .deb)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_1.6.0-raring.1_i386.deb?download</url>
-					<name>1.6.0 Ubuntu 13.04 (raring) i386 package</name>
-					<extra_info>(9.8M .deb)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_1.6.0-raring.1_amd64.deb?download</url>
-					<name>1.6.0 Ubuntu 13.04 (raring) x86 64bit package</name>
-					<extra_info>(9.9M .deb)</extra_info>
-					<user_agent>Ubuntu</user_agent>
 				</file>
 
 				<file>
@@ -653,13 +625,6 @@
 					<name>1.6.0 OS/2 package</name>
 					<extra_info>(11.6M .zip)</extra_info>
 					<user_agent>OS/2</user_agent>
-				</file>
-
-				<file>
-					<category_icon>catpl-samsungtv.png</category_icon>
-					<url>scummvm-1.6.0-samsungtv.zip?download</url>
-					<name>1.6.0 Samsung TV package (2009 series)</name>
-					<extra_info>(13.7M .zip)</extra_info>
 				</file>
 
 				<file>
