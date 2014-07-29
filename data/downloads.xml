@@ -97,15 +97,15 @@
 					<extra_info>(9.4M .txz)</extra_info>
 				</file>
 
-
+-->
 				<file>
 					<category_icon>catpl-macos-universal.png</category_icon>
 					<url>scummvm-{$release}-macosx.dmg?download</url>
 					<name>Mac OS X Universal Disk Image</name>
-					<extra_info>(18.2M disk image)</extra_info>
+					<extra_info>(21.2M disk image)</extra_info>
 					<user_agent>Macintosh</user_agent>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-ps2.png</category_icon>
 					<url>scummvm-{$release}-ps2.zip?download</url>
@@ -572,14 +572,6 @@
 					<url>scummvm-1.6.0_slack-x86_64-1.txz?download</url>
 					<name>1.6.0 SlackWare x86 64bit package</name>
 					<extra_info>(9.4M .txz)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-macos-universal.png</category_icon>
-					<url>scummvm-1.6.0-macosx.dmg?download</url>
-					<name>1.6.0 Mac OS X Universal Disk Image</name>
-					<extra_info>(18.2M disk image)</extra_info>
-					<user_agent>Macintosh</user_agent>
 				</file>
 
 				<file>
