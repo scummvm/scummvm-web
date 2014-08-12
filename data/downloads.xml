@@ -166,14 +166,14 @@
 					<name>Windows CE ARM package</name>
 					<extra_info>(17.3M .zip)</extra_info>
 				</file>
+-->
 				<file>
 					<category_icon>catpl-iphone.png</category_icon>
 					<url>scummvm-{$release}-iphone.deb?download</url>
 					<name>iPhone package</name>
-					<extra_info>(10.7M .deb)</extra_info>
+					<extra_info>(11.6M .deb)</extra_info>
 					<user_agent>like Mac OS X</user_agent>
 				</file>
--->
 				<file>
 					<category_icon>catpl-webos.png</category_icon>
 					<url>scummvm-{$release}-webos.zip?download</url>
@@ -635,13 +635,6 @@
 					<url>scummvm-1.5.0-wince.zip?download</url>
 					<name>1.5.0 Windows CE ARM package</name>
 					<extra_info>(17.3M .zip)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-iphone.png</category_icon>
-					<url>scummvm-1.5.0-iphone.deb?download</url>
-					<name>1.5.0 iPhone package</name>
-					<extra_info>(10.7M .deb)</extra_info>
-					<user_agent>like Mac OS X</user_agent>
 				</file>
 
 				<file>
