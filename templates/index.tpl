@@ -55,11 +55,8 @@
 					<img src="images/scummvm_cb.png" width="88" height="32" alt="Combobreaker.com T-Shirts">
 				</a>
 				<br>
-				<a href="http://www.gog.com/en/frontpage/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
+				<a href="http://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
 					<img src="images/GOG_button_small.png" width="88" height="32" alt="GOG.com games">
-				</a>
-				<a href="http://www.dotemu.com/affiliate/32202">
-					<img src="images/dotemu_scummvm.png" width="88" height="32" alt="DotEmu.com games">
 				</a>
 				<a href="https://github.com/scummvm">
 					<img src="images/github-logo.png" alt="ScummVM on GitHub" width="88" height="32">
@@ -105,12 +102,9 @@
 			<a href="http://sourceforge.net/p/scummvm/donate/">
 				<img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" alt="Support This Project">
 			</a>
-			<a href="http://www.gog.com/en/frontpage/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
+			<a href="http://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
 				<img src="images/GOG_button_small.png" alt="Buy with GOG.com" width="88" height="32">
-			</a>
-			<a href="http://www.dotemu.com/affiliate/32202">
-				<img src="images/dotemu_scummvm.png" width="88" height="32" alt="DotEmu.com games">
-			</a>
+			</a> 
 			<a href="http://sourceforge.net/projects/scummvm">
 				<img src="http://sflogo.sourceforge.net/sflogo.php?group_id=37116&amp;type=13" width="120" height="30" alt="Get ScummVM at SourceForge.net. Fast, secure and Free Open Source software downloads">
 			</a>
