@@ -215,6 +215,25 @@
 		</subsection>
 
 		<subsection>
+			<title>Sfinx</title>
+			<anchor>sfinx</anchor>
+			<entries>
+				<file>
+					<category_icon>cat-blank.png</category_icon>
+					<url>sfinx-en-v0.3.zip?download</url>
+					<name>Sfinx, Freeware Version (English, v0.3)</name>
+					<extra_info>(16.1M)</extra_info>
+				</file>
+				<file>
+					<category_icon>cat-blank.png</category_icon>
+					<url>sfinx-pl-v1.0.zip?download</url>
+					<name>Sfinx, Freeware Version (Polish, v1.0)</name>
+					<extra_info>(16.5M)</extra_info>
+				</file>
+			</entries>
+		</subsection>
+
+		<subsection>
 			<title>Soltys</title>
 			<anchor>soltys</anchor>
 			<entries>
