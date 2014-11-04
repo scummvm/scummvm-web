@@ -920,6 +920,11 @@
 					<alias>somaen</alias>
 					<description></description>
 				</person>
+				<person>
+					<name>Tobia Tesan</name>
+					<alias>t0by</alias>
+					<description></description>
+				</person>
 			</group>
 			<group>
 				<name>ZVision</name>
@@ -2122,7 +2127,7 @@
 				<person>
 					<name>Yusuke Kamiyamane</name>
 					<alias></alias>
-					<description>For contributing some GUI icons </description>
+					<description>For contributing some GUI icons</description>
 				</person>
 				<person>
 					<name>Till Kresslein</name>
