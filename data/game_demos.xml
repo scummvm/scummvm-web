@@ -862,6 +862,12 @@
 				<category>simon</category>
 			</demo>
 			<demo>
+				<name>Simon the Sorcerer 1 (Amiga CD32 demo)</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/agos/simon1-amiga-cd32-demo-en.zip/download</url>
+				<target>simon1</target>
+				<category>simon</category>
+			</demo>
+			<demo>
 				<name>Simon the Sorcerer 1 (DOS demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/agos/simon1-dos-floppy-demo-en.zip/download</url>
 				<target>simon1</target>
