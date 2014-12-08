@@ -453,7 +453,7 @@
 				<category>blank</category>
 			</demo>
 			<demo>
-				<name>Humongous Catalog demo (Windows US Preview) - Requires ScummVM 1.7.0git</name>
+				<name>Humongous Catalog demo (Windows US Preview)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/he/catalog-win-preview-us.zip/download</url>
 				<target>catalog</target>
 				<category>blank</category>
@@ -1596,7 +1596,7 @@
 				<category>kyra</category>
 			</demo>
 			<demo>
-				<name>The Neverhood (DOS demo) - Requires ScummVM 1.7.0git</name>
+				<name>The Neverhood (DOS demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/neverhood/neverhood-win-demo-en.zip/download</url>
 				<target>neverhood</target>
 			</demo>
