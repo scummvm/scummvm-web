@@ -80,6 +80,11 @@
 				<target>loom</target>
 			</demo>
 			<demo>
+				<name>Maniac Mansion (Commodore 64 demo) - Requires ScummVM 1.8.0git</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/maniac-c64-demo-en.zip/download</url>
+				<target>maniac</target>
+			</demo>
+			<demo>
 				<name>Maniac Mansion (v1 DOS demo - Non interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/maniac-dos-v1-ni-demo-en.zip/download</url>
 				<target>maniac</target>
