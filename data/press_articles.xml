@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <articles>
 	<article>
+		<url>http://www.kotaku.co.uk/2014/11/06/crazy-journey-save-grim-fandango</url>
+		<name>The Crazy Journey to Save Grim Fandango</name>
+		<posted>Kotaku, 6 November 2014</posted>
+	</article>
+	<article>
+		<url>http://www.gamer.no/artikler/feature-historien-om-scummvm/163037?key=pFZ7tmY6</url>
+		<name>ScummVM har gitt nytt liv til mer enn 200 klassiske eventyrspill</name>
+		<language>Norwegian</language>
+		<posted>Gamer.no, 31 October 2014</posted>
+	</article>
+	<article>
 		<url>http://www.reddit.com/r/gamedev/comments/25q40t/lucasarts_scumm_amaa_from_david_fox_a_lead/chjrbuk</url>
 		<name>Lucasarts / SCUMM - AMAA from David Fox, a lead designer &amp; programmer on Zak McKracken, Indiana Jones &amp; the last crusade, Maniac Mansion</name>
 		<posted>Reddit r/gamedev AMAA, 17 May 2014</posted>
