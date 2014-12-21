@@ -1697,6 +1697,29 @@
 				</person>
 			</group>
 			<group>
+				<name>CGE2</name>
+				<person>
+					<name>Arnaud Boutonn&eacute;</name>
+					<alias>Strangerke</alias>
+					<description>Sfinx English translation</description>
+				</person>
+				<person>
+					<name>Thierry Crozat</name>
+					<alias>criezy</alias>
+					<description>Sfinx English translation</description>
+				</person>
+				<person>
+					<name>Peter Bozs&oacute;</name>
+					<alias>uruk</alias>
+					<description>Sfinx English translation editor</description>
+				</person>
+				<person>
+					<name>Ryan Clark</name>
+					<alias></alias>
+					<description>Sfinx English translation editor</description>
+				</person>
+			</group>
+			<group>
 				<name>Drascula</name>
 				<person>
 					<name>Thierry Crozat</name>
