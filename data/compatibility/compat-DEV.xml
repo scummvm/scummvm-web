@@ -1147,6 +1147,22 @@
 					Game is completable<h:br />- Only the DOS version is currently supported.
 				</notes>
 			</game>
+			<game>
+				<name>Zork: Grand Inquisitor</name>
+				<target>zgi</target>
+				<support_level>good</support_level>
+				<notes>
+					No known issues, game is completable.<h:br />- The hires MPEG2 videos of the DVD version aren't supported yet. The lowres videos are used instead
+				</notes>
+			</game>
+			<game>
+				<name>Zork Nemesis: The Forbidden Lands</name>
+				<target>znemesis</target>
+				<support_level>good</support_level>
+				<notes>
+					No known issues, game is completable.
+				</notes>
+			</game>
 		</games>
 	</company>
 	<company>
