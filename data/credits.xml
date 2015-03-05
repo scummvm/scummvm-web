@@ -1847,6 +1847,11 @@
 					<description>Initial port for SymbianOS</description>
 				</person>
 				<person>
+					<name>Stefan Kristiansson</name>
+					<alias>skristiansson</alias>
+					<description>Initial work on SDL2 support</description>
+				</person>
+				<person>
 					<name>Claudio Matsuoka</name>
 					<alias></alias>
 					<description>Daily Linux builds</description>
