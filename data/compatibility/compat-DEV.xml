@@ -1028,6 +1028,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Rex Nebular and the Cosmic Gender Bender</name>
+				<target>nebular</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />- Original floppy version must be installed using DosBox before game is playable.
+				</notes>
+			</game>
+			<game>
 				<name>Ringworld: Revenge Of The Patriarch</name>
 				<target>ringworld</target>
 				<support_level>good</support_level>
