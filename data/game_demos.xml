@@ -45,6 +45,11 @@
 				<target>atlantis</target>
 			</demo>
 			<demo>
+				<name>Indiana Jones and the Fate of Atlantis (DOS Yet another demo - Interactive)</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/atlantis-dos-demo3-en.zip/download</url>
+				<target>atlantis</target>
+			</demo>
+			<demo>
 				<name>Indiana Jones and the Fate of Atlantis (DOS demo - Non interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/scumm/atlantis-dos-ni-demo-en.zip/download</url>
 				<target>atlantis</target>
