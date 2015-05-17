@@ -375,9 +375,9 @@
 			<game>
 				<name>Lure of the Temptress</name>
 				<target>lure</target>
-				<support_level>excellent</support_level>
+				<support_level>good</support_level>
 				<notes>
-					Game is completable<h:br />- DOS VGA and EGA versions are supported
+					Game is completable<h:br />- DOS VGA and EGA versions are supported<h:br />- Sound support is incomplete and there is no Roland MT-32 support
 				</notes>
 			</game>
 		</games>
