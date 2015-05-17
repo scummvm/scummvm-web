@@ -1545,7 +1545,13 @@
 			</demo>
 			<demo>
 				<name>Operation Stealth (Amiga demo - Non interactive)</name>
-				<url>http://sourceforge.net/projects/scummvm/files/demos/cine/op-amiga-ni-demo-en.zip/download</url>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/cine/os-amiga-ni-demo-en.zip/download</url>
+				<target>os</target>
+				<category>blank</category>
+			</demo>
+			<demo>
+				<name>Operation Stealth (DOS demo - Non interactive) - Requires ScummVM 1.8.0git</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/cine/os-dos-ni-demo-en.zip/download</url>
 				<target>os</target>
 				<category>blank</category>
 			</demo>
