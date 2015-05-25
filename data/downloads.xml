@@ -105,14 +105,12 @@
 					<extra_info>(21.2M disk image)</extra_info>
 					<user_agent>Macintosh</user_agent>
 				</file>
-<!--
 				<file>
 					<category_icon>catpl-ps2.png</category_icon>
 					<url>scummvm-{$release}-ps2.zip?download</url>
 					<name>PlayStation2 package</name>
-					<extra_info>(11.9M .zip)</extra_info>
+					<extra_info>(18.8M .zip)</extra_info>
 				</file>
--->
 				<file>
 					<category_icon>catpl-ps3.png</category_icon>
 					<url>scummvm-{$release}-ps3.zip?download</url>
@@ -681,12 +679,6 @@
 					<url>scummvm_1.4.1-squeeze.1_powerpc.deb?download</url>
 					<name>1.4.1 Debian 6.0 (squeeze) PowerPC package</name>
 					<extra_info>(7.8M .deb)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-ps2.png</category_icon>
-					<url>scummvm-1.4.1-ps2.zip?download</url>
-					<name>1.4.1 PlayStation2 package</name>
-					<extra_info>(11.9M .zip)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-psp.png</category_icon>
