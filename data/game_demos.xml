@@ -1426,6 +1426,11 @@
 				<category>sq-sci</category>
 			</demo>
 			<demo>
+				<name>The Island of Dr. Brain (DOS demo - Non-interactive)</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/islandbrain-dos-ni-demo-en.zip/download</url>
+				<target>islandbrain</target>
+			</demo>
+			<demo>
 				<name>Xmas Card (DOS demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/agi/xmascard-dos-en.zip/download</url>
 				<target>xmascard</target>
