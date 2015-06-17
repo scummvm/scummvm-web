@@ -1557,6 +1557,21 @@
 				<target>fw</target>
 			</demo>
 			<demo>
+				<name>Hopkins FBI (Linux demo)</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/hopkins/hopkins-linux-en.zip/download</url>
+				<target>hopkins</target>
+			</demo>
+			<demo>
+				<name>Hopkins FBI (Windows 95 English demo)</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/hopkins/hopkins-win95-en.zip/download</url>
+				<target>hopkins</target>
+			</demo>
+			<demo>
+				<name>Hopkins FBI (Windows 95 Polish demo)</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/hopkins/hopkins-win95-pl.zip/download</url>
+				<target>hopkins</target>
+			</demo>
+			<demo>
 				<name>I Have No Mouth And I Must Scream (DOS demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/saga/ihnm-dos-demo-en.zip/download</url>
 				<target>ihnm</target>
