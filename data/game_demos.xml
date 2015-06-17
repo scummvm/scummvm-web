@@ -1255,6 +1255,11 @@
 				<category>blank</category>
 			</demo>
 			<demo>
+				<name>Codename: ICEMAN (DOS demo - Non-interactive)</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/iceman-dos-ni-demo-en.zip/download</url>
+				<target>iceman</target>
+			</demo>
+			<demo>
 				<name>Conquests of Camelot: King Arthur, Quest for the Grail (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/camelot-dos-ni-demo-en.zip/download</url>
 				<target>camelot</target>
