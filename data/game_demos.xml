@@ -1373,6 +1373,24 @@
 				<category>mixedup</category>
 			</demo>
 			<demo>
+				<name>Pepper's Adventures in Time (DOS demo)</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/pepper-dos-demo-en.zip/download</url>
+				<target>pepper</target>
+				<category>blank</category>
+			</demo>
+			<demo>
+				<name>Pepper's Adventures in Time (DOS demo - Non-interactive</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/pepper-dos-ni-demo-en.zip/download</url>
+				<target>pepper</target>
+				<category>blank</category>
+			</demo>
+			<demo>
+				<name>Pepper's Adventures in Time (Windows demo)</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/pepper-dos-win-demo-en.zip/download</url>
+				<target>pepper</target>
+				<category>blank</category>
+			</demo>
+			<demo>
 				<name>Ms. Astro Chicken (DOS demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/msastrochicken-dos-demo-en.zip/download</url>
 				<target>msastrochicken</target>
