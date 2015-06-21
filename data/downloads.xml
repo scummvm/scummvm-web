@@ -262,33 +262,33 @@
 					<name>Wii package</name>
 					<extra_info>(11.0M .zip)</extra_info>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-gp2x.png</category_icon>
 					<url>scummvm-{$release}-gp2x.tar.bz2?download</url>
 					<name>GP2X package</name>
-					<extra_info>(8.4M .tar.bz2)</extra_info>
+					<extra_info>(10.0M .tar.bz2)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-gp2xwiz.png</category_icon>
 					<url>scummvm-{$release}-gp2xwiz.tar.bz2?download</url>
 					<name>GP2X Wiz package</name>
-					<extra_info>(9.7M .tar.bz2)</extra_info>
+					<extra_info>(12.1M .tar.bz2)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-caanoo.png</category_icon>
 					<url>scummvm-{$release}-caanoo.tar.bz2?download</url>
 					<name>Caanoo package</name>
-					<extra_info>(9.9M .tar.bz2)</extra_info>
+					<extra_info>(12.1M .tar.bz2)</extra_info>
 				</file>
 
 				<file>
 					<category_icon>catpl-openpandora.png</category_icon>
 					<url>scummvm-{$release}-openpandora.zip?download</url>
 					<name>OpenPandora package</name>
-					<extra_info>(11.3M .zip)</extra_info>
+					<extra_info>(12.3M .zip)</extra_info>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-dingux.png</category_icon>
 					<url>scummvm-{$release}-dingux.zip?download</url>
@@ -587,13 +587,6 @@
 				</file>
 
 				<file>
-					<category_icon>catpl-openpandora.png</category_icon>
-					<url>scummvm-1.6.0-openpandora.zip?download</url>
-					<name>1.6.0 OpenPandora package</name>
-					<extra_info>(11.3M .zip)</extra_info>
-				</file>
-
-				<file>
 					<category_icon>catpl-dingux.png</category_icon>
 					<url>scummvm-1.6.0-dingux.zip?download</url>
 					<name>1.6.0 Dingux package</name>
@@ -646,25 +639,6 @@
 					<url>scummvm-1.5.0-wii.zip?download</url>
 					<name>1.5.0 Wii package</name>
 					<extra_info>(11.0M .zip)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-gp2x.png</category_icon>
-					<url>scummvm-1.5.0-gp2x.tar.bz2?download</url>
-					<name>1.5.0 GP2X package</name>
-					<extra_info>(8.4M .tar.bz2)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-gp2xwiz.png</category_icon>
-					<url>scummvm-1.5.0-gp2xwiz.tar.bz2?download</url>
-					<name>1.5.0 GP2X Wiz package</name>
-					<extra_info>(9.7M .tar.bz2)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-caanoo.png</category_icon>
-					<url>scummvm-1.5.0-caanoo.tar.bz2?download</url>
-					<name>1.5.0 Caanoo package</name>
-					<extra_info>(9.9M .tar.bz2)</extra_info>
 				</file>
 
 				<file>
