@@ -927,7 +927,7 @@
 				</person>
 			</group>
 			<group>
-				<name>ZVision</name>
+				<name>Z-Vision</name>
 				<person>
 					<name>Adrian Astley</name>
 					<alias>RichieSams</alias>
@@ -1591,8 +1591,8 @@
 				</person>
 				<person>
 					<name>Lothar Serra Mari</name>
-					<alias>Lothar93</alias>
-					<description>(retired)</description>
+					<alias>rootfather</alias>
+					<description></description>
 				</person>
 			</group>
 			<group>
@@ -2210,7 +2210,7 @@
 				<person>
 					<name>Anton Yartsev</name>
 					<alias>Zidane</alias>
-					<description>For the original re-implementation of the ZVision engine</description>
+					<description>For the original re-implementation of the Z-Vision engine</description>
 				</person>
 			</group>
 		<paragraph>Tony Warriner and everyone at Revolution Software Ltd. for sharing with us the source of some of their brilliant games, allowing us to release Beneath a Steel Sky as freeware... and generally being supportive above and beyond the call of duty.</paragraph>
