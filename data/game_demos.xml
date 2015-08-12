@@ -1447,6 +1447,7 @@
 				<name>The Island of Dr. Brain (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/islandbrain-dos-ni-demo-en.zip/download</url>
 				<target>islandbrain</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Xmas Card (DOS demo)</name>
