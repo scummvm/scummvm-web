@@ -22,7 +22,7 @@
  * smarty-discussion-subscribe@googlegroups.com 
  *
  * @link http://www.smarty.net/
- * @version 2.6.25
+ * @version 2.6.25-dev
  * @copyright Copyright: 2001-2005 New Digital Group, Inc.
  * @author Andrei Zmievski <andrei@php.net>
  * @access public
@@ -73,7 +73,7 @@ class Config_File {
      *
      * @param string $config_path (optional) path to the config files
      */
-    function Config_File($config_path = NULL)
+    public function __construct($config_path = NULL)
     {
         if (isset($config_path))
             $this->set_path($config_path);
