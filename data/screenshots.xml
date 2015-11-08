@@ -4089,6 +4089,70 @@
 				<caption>Darby the Dragon</caption>
 			</image>
 		</game>
+		<game>
+			<name>Magic Tales: Liam Finds a Story</name>
+			<category>liam</category>
+			<image>
+				<file>composer/liam/liam-win-1</file>
+				<caption>Magic Tales: Liam Finds a Story</caption>
+			</image>
+			<image>
+				<file>composer/liam/liam-win-2</file>
+				<caption>Magic Tales: Liam Finds a Story</caption>
+			</image>
+			<image>
+				<file>composer/liam/liam-win-3</file>
+				<caption>Magic Tales: Liam Finds a Story</caption>
+			</image>
+			<image>
+				<file>composer/liam/liam-win-4</file>
+				<caption>Magic Tales: Liam Finds a Story</caption>
+			</image>
+			<image>
+				<file>composer/liam/liam-win-5</file>
+				<caption>Magic Tales: Liam Finds a Story</caption>
+			</image>
+			<image>
+				<file>composer/liam/liam-win-6</file>
+				<caption>Magic Tales: Liam Finds a Story</caption>
+			</image>
+			<image>
+				<file>composer/liam/liam-win-7</file>
+				<caption>Magic Tales: Liam Finds a Story</caption>
+			</image>
+			<image>
+				<file>composer/liam/liam-win-8</file>
+				<caption>Magic Tales: Liam Finds a Story</caption>
+			</image>
+			<image>
+				<file>composer/liam/liam-win-9</file>
+				<caption>Magic Tales: Liam Finds a Story</caption>
+			</image>
+			<image>
+				<file>composer/liam/liam-win-10</file>
+				<caption>Magic Tales: Liam Finds a Story</caption>
+			</image>
+			<image>
+				<file>composer/liam/liam-win-11</file>
+				<caption>Magic Tales: Liam Finds a Story</caption>
+			</image>
+			<image>
+				<file>composer/liam/liam-win-12</file>
+				<caption>Magic Tales: Liam Finds a Story</caption>
+			</image>
+			<image>
+				<file>composer/liam/liam-win-13</file>
+				<caption>Magic Tales: Liam Finds a Story</caption>
+			</image>
+			<image>
+				<file>composer/liam/liam-win-14</file>
+				<caption>Magic Tales: Liam Finds a Story</caption>
+			</image>
+			<image>
+				<file>composer/liam/liam-win-15</file>
+				<caption>Magic Tales: Liam Finds a Story</caption>
+			</image>
+		</game>
 	</group>
 	<group>
 		<title>Living Books series</title>
