@@ -4198,6 +4198,34 @@
 			</image>
 		</game>
 		<game>
+			<name>The Berenstain Bears in the Dark</name>
+			<category>beardark</category>
+			<image>
+				<file>livingbooks/bearfight/beardark-win-0</file>
+				<caption>The Berenstain Bears in the Dark</caption>
+			</image>
+			<image>
+				<file>livingbooks/bearfight/beardark-win-1</file>
+				<caption>The Berenstain Bears in the Dark</caption>
+			</image>
+			<image>
+				<file>livingbooks/bearfight/beardark-win-2</file>
+				<caption>The Berenstain Bears in the Dark</caption>
+			</image>
+			<image>
+				<file>livingbooks/bearfight/beardark-win-3</file>
+				<caption>The Berenstain Bears in the Dark</caption>
+			</image>
+			<image>
+				<file>livingbooks/bearfight/beardark-win-4</file>
+				<caption>The Berenstain Bears in the Dark</caption>
+			</image>
+			<image>
+				<file>livingbooks/bearfight/beardark-win-5</file>
+				<caption>The Berenstain Bears in the Dark</caption>
+			</image>
+		</game>
+		<game>
 			<name>Dr Seuss's ABC</name>
 			<category>seussabc</category>
 			<image>
