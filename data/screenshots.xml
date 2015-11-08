@@ -4386,50 +4386,6 @@
 			</image>
 		</game>
 		<game>
-			<name>Ruff's Bone</name>
-			<category>ruff</category>
-			<image>
-				<file>livingbooks/ruff/ruff-win-1</file>
-				<caption>Ruff's Bone</caption>
-			</image>
-			<image>
-				<file>livingbooks/ruff/ruff-win-2</file>
-				<caption>Ruff's Bone</caption>
-			</image>
-			<image>
-				<file>livingbooks/ruff/ruff-win-3</file>
-				<caption>Ruff's Bone</caption>
-			</image>
-			<image>
-				<file>livingbooks/ruff/ruff-win-4</file>
-				<caption>Ruff's Bone</caption>
-			</image>
-			<image>
-				<file>livingbooks/ruff/ruff-win-5</file>
-				<caption>Ruff's Bone</caption>
-			</image>
-			<image>
-				<file>livingbooks/ruff/ruff-win-6</file>
-				<caption>Ruff's Bone</caption>
-			</image>
-			<image>
-				<file>livingbooks/ruff/ruff-win-7</file>
-				<caption>Ruff's Bone</caption>
-			</image>
-			<image>
-				<file>livingbooks/ruff/ruff-win-es-8</file>
-				<caption>Ruff's Bone (Spanish)</caption>
-			</image>
-			<image>
-				<file>livingbooks/ruff/ruff-win-es-9</file>
-				<caption>Ruff's Bone (Spanish)</caption>
-			</image>
-			<image>
-				<file>livingbooks/ruff/ruff-win-es-10</file>
-				<caption>Ruff's Bone (Spanish)</caption>
-			</image>
-		</game>
-		<game>
 			<name>The New Kid on the Block</name>
 			<category>newkid</category>
 			<image>
@@ -4474,6 +4430,50 @@
 			</image>
 		</game>
 		<game>
+			<name>Ruff's Bone</name>
+			<category>ruff</category>
+			<image>
+				<file>livingbooks/ruff/ruff-win-1</file>
+				<caption>Ruff's Bone</caption>
+			</image>
+			<image>
+				<file>livingbooks/ruff/ruff-win-2</file>
+				<caption>Ruff's Bone</caption>
+			</image>
+			<image>
+				<file>livingbooks/ruff/ruff-win-3</file>
+				<caption>Ruff's Bone</caption>
+			</image>
+			<image>
+				<file>livingbooks/ruff/ruff-win-4</file>
+				<caption>Ruff's Bone</caption>
+			</image>
+			<image>
+				<file>livingbooks/ruff/ruff-win-5</file>
+				<caption>Ruff's Bone</caption>
+			</image>
+			<image>
+				<file>livingbooks/ruff/ruff-win-6</file>
+				<caption>Ruff's Bone</caption>
+			</image>
+			<image>
+				<file>livingbooks/ruff/ruff-win-7</file>
+				<caption>Ruff's Bone</caption>
+			</image>
+			<image>
+				<file>livingbooks/ruff/ruff-win-es-8</file>
+				<caption>Ruff's Bone (Spanish)</caption>
+			</image>
+			<image>
+				<file>livingbooks/ruff/ruff-win-es-9</file>
+				<caption>Ruff's Bone (Spanish)</caption>
+			</image>
+			<image>
+				<file>livingbooks/ruff/ruff-win-es-10</file>
+				<caption>Ruff's Bone (Spanish)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Sheila Rae, the Brave</name>
 			<category>sheilarae</category>
 			<image>
@@ -4515,6 +4515,70 @@
 			<image>
 				<file>livingbooks/sheilarae/sheila-win-es-10</file>
 				<caption>Sheila Rae, the Brave (Spanish)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Stellaluna</name>
+			<category>stellaluna</category>
+			<image>
+				<file>livingbooks/stellaluna/stellaluna-win-0</file>
+				<caption>Stellaluna</caption>
+			</image>
+			<image>
+				<file>livingbooks/stellaluna/stellaluna-win-1</file>
+				<caption>Stellaluna</caption>
+			</image>
+			<image>
+				<file>livingbooks/stellaluna/stellaluna-win-2</file>
+				<caption>Stellaluna</caption>
+			</image>
+			<image>
+				<file>livingbooks/stellaluna/stellaluna-win-3</file>
+				<caption>Stellaluna</caption>
+			</image>
+			<image>
+				<file>livingbooks/stellaluna/stellaluna-win-4</file>
+				<caption>Stellaluna</caption>
+			</image>
+			<image>
+				<file>livingbooks/stellaluna/stellaluna-win-5</file>
+				<caption>Stellaluna</caption>
+			</image>
+			<image>
+				<file>livingbooks/stellaluna/stellaluna-win-6</file>
+				<caption>Stellaluna</caption>
+			</image>
+			<image>
+				<file>livingbooks/stellaluna/stellaluna-win-7</file>
+				<caption>Stellaluna</caption>
+			</image>
+			<image>
+				<file>livingbooks/stellaluna/stellaluna-win-8</file>
+				<caption>Stellaluna</caption>
+			</image>
+			<image>
+				<file>livingbooks/stellaluna/stellaluna-win-9</file>
+				<caption>Stellaluna</caption>
+			</image>
+			<image>
+				<file>livingbooks/stellaluna/stellaluna-win-10</file>
+				<caption>Stellaluna</caption>
+			</image>
+			<image>
+				<file>livingbooks/stellaluna/stellaluna-win-11</file>
+				<caption>Stellaluna</caption>
+			</image>
+			<image>
+				<file>livingbooks/stellaluna/stellaluna-win-12</file>
+				<caption>Stellaluna</caption>
+			</image>
+			<image>
+				<file>livingbooks/stellaluna/stellaluna-win-13</file>
+				<caption>Stellaluna</caption>
+			</image>
+			<image>
+				<file>livingbooks/stellaluna/stellaluna-win-14</file>
+				<caption>Stellaluna</caption>
 			</image>
 		</game>
 	</group>
