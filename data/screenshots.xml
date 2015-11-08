@@ -4765,6 +4765,26 @@
 			<name>Junior Sports series</name>
 			<category>sports</category>
 			<image>
+				<file>he/sports/baseball2003-0</file>
+				<caption>Backyard Baseball 2003</caption>
+			</image>
+			<image>
+				<file>he/sports/baseball2003-1</file>
+				<caption>Backyard Baseball 2003</caption>
+			</image>
+			<image>
+				<file>he/sports/baseball2003-2</file>
+				<caption>Backyard Baseball 2003</caption>
+			</image>
+			<image>
+				<file>he/sports/baseball2003-3</file>
+				<caption>Backyard Baseball 2003</caption>
+			</image>
+			<image>
+				<file>he/sports/baseball2003-4</file>
+				<caption>Backyard Baseball 2003</caption>
+			</image>
+			<image>
 				<file>he/sports/scummvm_1_5_0</file>
 				<caption>Backyard Football</caption>
 			</image>
