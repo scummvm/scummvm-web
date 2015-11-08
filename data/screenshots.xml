@@ -4153,6 +4153,66 @@
 				<caption>Magic Tales: Liam Finds a Story</caption>
 			</image>
 		</game>
+		<game>
+			<name>Magic Tales: Sleeping Cub's Test of Courage</name>
+			<category>sleepingcub</category>
+			<image>
+				<file>composer/sleepingcub/sleepingcub-win-1</file>
+				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
+			</image>
+			<image>
+				<file>composer/sleepingcub/sleepingcub-win-2</file>
+				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
+			</image>
+			<image>
+				<file>composer/sleepingcub/sleepingcub-win-3</file>
+				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
+			</image>
+			<image>
+				<file>composer/sleepingcub/sleepingcub-win-4</file>
+				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
+			</image>
+			<image>
+				<file>composer/sleepingcub/sleepingcub-win-5</file>
+				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
+			</image>
+			<image>
+				<file>composer/sleepingcub/sleepingcub-win-6</file>
+				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
+			</image>
+			<image>
+				<file>composer/sleepingcub/sleepingcub-win-7</file>
+				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
+			</image>
+			<image>
+				<file>composer/sleepingcub/sleepingcub-win-8</file>
+				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
+			</image>
+			<image>
+				<file>composer/sleepingcub/sleepingcub-win-9</file>
+				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
+			</image>
+			<image>
+				<file>composer/sleepingcub/sleepingcub-win-10</file>
+				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
+			</image>
+			<image>
+				<file>composer/sleepingcub/sleepingcub-win-11</file>
+				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
+			</image>
+			<image>
+				<file>composer/sleepingcub/sleepingcub-win-12</file>
+				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
+			</image>
+			<image>
+				<file>composer/sleepingcub/sleepingcub-win-13</file>
+				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
+			</image>
+			<image>
+				<file>composer/sleepingcub/sleepingcub-win-14</file>
+				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
+			</image>
+		</game>
 	</group>
 	<group>
 		<title>Living Books series</title>
