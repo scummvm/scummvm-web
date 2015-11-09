@@ -951,6 +951,18 @@
 				<file>gob/geisha/geisha-6</file>
 				<caption>Geisha (DOS/English)</caption>
 			</image>
+			<image>
+				<file>gob/geisha/geisha-amiga-1</file>
+				<caption>Geisha (Amiga/English)</caption>
+			</image>
+			<image>
+				<file>gob/geisha/geisha-amiga-2</file>
+				<caption>Geisha (Amiga/English)</caption>
+			</image>
+			<image>
+				<file>gob/geisha/geisha-amiga-3</file>
+				<caption>Geisha (Amiga/English)</caption>
+			</image>
 		</game>
 		<game>
 			<name>Gobliiins series</name>
