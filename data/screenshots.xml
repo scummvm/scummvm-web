@@ -4154,6 +4154,66 @@
 			</image>
 		</game>
 		<game>
+			<name>Magic Tales: The Princess and the Crab</name>
+			<category>princess</category>
+			<image>
+				<file>composer/princess/princess-win-1</file>
+				<caption>Magic Tales: The Princess and the Crab</caption>
+			</image>
+			<image>
+				<file>composer/princess/princess-win-2</file>
+				<caption>Magic Tales: The Princess and the Crab</caption>
+			</image>
+			<image>
+				<file>composer/princess/princess-win-3</file>
+				<caption>Magic Tales: The Princess and the Crab</caption>
+			</image>
+			<image>
+				<file>composer/princess/princess-win-4</file>
+				<caption>Magic Tales: The Princess and the Crab</caption>
+			</image>
+			<image>
+				<file>composer/princess/princess-win-5</file>
+				<caption>Magic Tales: The Princess and the Crab</caption>
+			</image>
+			<image>
+				<file>composer/princess/princess-win-6</file>
+				<caption>Magic Tales: The Princess and the Crab</caption>
+			</image>
+			<image>
+				<file>composer/princess/princess-win-7</file>
+				<caption>Magic Tales: The Princess and the Crab</caption>
+			</image>
+			<image>
+				<file>composer/princess/princess-win-8</file>
+				<caption>Magic Tales: The Princess and the Crab</caption>
+			</image>
+			<image>
+				<file>composer/princess/princess-win-9</file>
+				<caption>Magic Tales: The Princess and the Crab</caption>
+			</image>
+			<image>
+				<file>composer/princess/princess-win-10</file>
+				<caption>Magic Tales: The Princess and the Crab</caption>
+			</image>
+			<image>
+				<file>composer/princess/princess-win-11</file>
+				<caption>Magic Tales: The Princess and the Crab</caption>
+			</image>
+			<image>
+				<file>composer/princess/princess-win-12</file>
+				<caption>Magic Tales: The Princess and the Crab</caption>
+			</image>
+			<image>
+				<file>composer/princess/princess-win-13</file>
+				<caption>Magic Tales: The Princess and the Crab</caption>
+			</image>
+			<image>
+				<file>composer/princess/princess-win-14</file>
+				<caption>Magic Tales: The Princess and the Crab</caption>
+			</image>
+		</game>
+		<game>
 			<name>Magic Tales: Sleeping Cub's Test of Courage</name>
 			<category>sleepingcub</category>
 			<image>
