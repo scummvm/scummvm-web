@@ -1069,66 +1069,6 @@
 			</image>
 		</game>
 		<game>
-			<name>Magic Tales: Baba Yaga and the Magic Geese</name>
-			<category>babayaga</category>
-			<image>
-				<file>gob/babayaga/babayaga-win-1</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-2</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-3</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-4</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-5</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-6</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-7</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-8</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-9</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-10</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-11</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-12</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-13</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-14</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-		</game>
-		<game>
 			<name>Once Upon A Time: Little Red Riding Hood</name>
 			<category>littlered</category>
 			<image>
@@ -4127,6 +4067,66 @@
 			<image>
 				<file>composer/gregory/gregory-win-9</file>
 				<caption>Gregory and the Hot Air Balloon</caption>
+			</image>
+		</game>
+		<game>
+			<name>Magic Tales: Baba Yaga and the Magic Geese</name>
+			<category>babayaga</category>
+			<image>
+				<file>gob/babayaga/babayaga-win-1</file>
+				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
+			</image>
+			<image>
+				<file>gob/babayaga/babayaga-win-2</file>
+				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
+			</image>
+			<image>
+				<file>gob/babayaga/babayaga-win-3</file>
+				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
+			</image>
+			<image>
+				<file>gob/babayaga/babayaga-win-4</file>
+				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
+			</image>
+			<image>
+				<file>gob/babayaga/babayaga-win-5</file>
+				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
+			</image>
+			<image>
+				<file>gob/babayaga/babayaga-win-6</file>
+				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
+			</image>
+			<image>
+				<file>gob/babayaga/babayaga-win-7</file>
+				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
+			</image>
+			<image>
+				<file>gob/babayaga/babayaga-win-8</file>
+				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
+			</image>
+			<image>
+				<file>gob/babayaga/babayaga-win-9</file>
+				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
+			</image>
+			<image>
+				<file>gob/babayaga/babayaga-win-10</file>
+				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
+			</image>
+			<image>
+				<file>gob/babayaga/babayaga-win-11</file>
+				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
+			</image>
+			<image>
+				<file>gob/babayaga/babayaga-win-12</file>
+				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
+			</image>
+			<image>
+				<file>gob/babayaga/babayaga-win-13</file>
+				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
+			</image>
+			<image>
+				<file>gob/babayaga/babayaga-win-14</file>
+				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
 			</image>
 		</game>
 		<game>
