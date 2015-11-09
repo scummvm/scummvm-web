@@ -3393,6 +3393,34 @@
 				<caption>1&#189; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
 			</image>
 		</game>
+		<game>
+			<name>The White Chamber</name>
+			<category>whitechamber</category>
+			<image>
+				<file>wintermute/whitechamber/whitechamber-win-01</file>
+				<caption>The White Chamber (v1.7 - Definitive Edition/German)</caption>
+			</image>
+			<image>
+				<file>wintermute/whitechamber/whitechamber-win-02</file>
+				<caption>The White Chamber (v1.7 - Definitive Edition/German)</caption>
+			</image>
+			<image>
+				<file>wintermute/whitechamber/whitechamber-win-03</file>
+				<caption>The White Chamber (v1.7 - Definitive Edition/German)</caption>
+			</image>
+			<image>
+				<file>wintermute/whitechamber/whitechamber-win-04</file>
+				<caption>The White Chamber (v1.7 - Definitive Edition/German)</caption>
+			</image>
+			<image>
+				<file>wintermute/whitechamber/whitechamber-win-05</file>
+				<caption>The White Chamber (v1.7 - Definitive Edition/German)</caption>
+			</image>
+			<image>
+				<file>wintermute/whitechamber/whitechamber-win-06</file>
+				<caption>The White Chamber (v1.7 - Definitive Edition/German)</caption>
+			</image>
+		</game>
 	</group>
 	<group>
 		<title>Other games</title>
