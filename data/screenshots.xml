@@ -3279,6 +3279,78 @@
 		</game>
 	</group>
 	<group>
+		<title>Wintermute engine games</title>
+		<category>wintermute</category>
+		<game>
+			<name>1&frac12; Knights: In Search of the Ravishing Princess Herzelindes</name>
+			<category>ritter</category>
+			<image>
+				<file>wintermute/ritter/ritter-win-de-00</file>
+				<caption>1&frac12; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/ritter/ritter-win-de-01</file>
+				<caption>1&frac12; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/ritter/ritter-win-de-02</file>
+				<caption>1&frac12; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/ritter/ritter-win-de-03</file>
+				<caption>1&frac12; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/ritter/ritter-win-de-04</file>
+				<caption>1&frac12; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/ritter/ritter-win-de-05</file>
+				<caption>1&frac12; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/ritter/ritter-win-de-06</file>
+				<caption>1&frac12; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/ritter/ritter-win-de-07</file>
+				<caption>1&frac12; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/ritter/ritter-win-de-08</file>
+				<caption>1&frac12; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/ritter/ritter-win-de-09</file>
+				<caption>1&frac12; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/ritter/ritter-win-de-10</file>
+				<caption>1&frac12; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/ritter/ritter-win-de-11</file>
+				<caption>1&frac12; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/ritter/ritter-win-de-12</file>
+				<caption>1&frac12; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/ritter/ritter-win-de-13</file>
+				<caption>1&frac12; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/ritter/ritter-win-de-14</file>
+				<caption>1&frac12; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/ritter/ritter-win-de-15</file>
+				<caption>1&frac12; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
+			</image>
+		</game>
+	</group>
+	<group>
 		<title>Other games</title>
 		<category>other</category>
 		<game>
