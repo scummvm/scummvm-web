@@ -3282,6 +3282,50 @@
 		<title>Wintermute engine games</title>
 		<category>wintermute</category>
 		<game>
+			<name>Dirty Split</name>
+			<category>dirtysplit</category>
+			<image>
+				<file>wintermute/dirtysplit/dirtysplit-win-de-01</file>
+				<caption>Dirty Split (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/dirtysplit/dirtysplit-win-de-02</file>
+				<caption>Dirty Split (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/dirtysplit/dirtysplit-win-de-03</file>
+				<caption>Dirty Split (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/dirtysplit/dirtysplit-win-de-04</file>
+				<caption>Dirty Split (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/dirtysplit/dirtysplit-win-de-05</file>
+				<caption>Dirty Split (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/dirtysplit/dirtysplit-win-de-06</file>
+				<caption>Dirty Split (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/dirtysplit/dirtysplit-win-de-07</file>
+				<caption>Dirty Split (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/dirtysplit/dirtysplit-win-de-08</file>
+				<caption>Dirty Split (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/dirtysplit/dirtysplit-win-de-09</file>
+				<caption>Dirty Split (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/dirtysplit/dirtysplit-win-de-10</file>
+				<caption>Dirty Split (German)</caption>
+			</image>
+		</game>
+		<game>
 			<name>1&#189; Knights: In Search of the Ravishing Princess Herzelindes</name>
 			<category>ritter</category>
 			<image>
