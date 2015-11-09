@@ -925,6 +925,34 @@
 			</image>
 		</game>
 		<game>
+			<name>Geisha</name>
+			<category>geisha</category>
+			<image>
+				<file>gob/geisha/geisha-1</file>
+				<caption>Geisha (DOS/English)</caption>
+			</image>
+			<image>
+				<file>gob/geisha/geisha-2</file>
+				<caption>Geisha (DOS/English)</caption>
+			</image>
+			<image>
+				<file>gob/geisha/geisha-3</file>
+				<caption>Geisha (DOS/English)</caption>
+			</image>
+			<image>
+				<file>gob/geisha/geisha-4</file>
+				<caption>Geisha (DOS/English)</caption>
+			</image>
+			<image>
+				<file>gob/geisha/geisha-5</file>
+				<caption>Geisha (DOS/English)</caption>
+			</image>
+			<image>
+				<file>gob/geisha/geisha-6</file>
+				<caption>Geisha (DOS/English)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Gobliiins series</name>
 			<category>gob</category>
 			<image>
