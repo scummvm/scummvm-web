@@ -3326,6 +3326,58 @@
 			</image>
 		</game>
 		<game>
+			<name>Five magical amulets</name>
+			<category>5ma</category>
+			<image>
+				<file>wintermute/5ma/5ma-win-01</file>
+				<caption>Five magical amulets</caption>
+			</image>
+			<image>
+				<file>wintermute/5ma/5ma-win-02</file>
+				<caption>Five magical amulets</caption>
+			</image>
+			<image>
+				<file>wintermute/5ma/5ma-win-03</file>
+				<caption>Five magical amulets</caption>
+			</image>
+			<image>
+				<file>wintermute/5ma/5ma-win-04</file>
+				<caption>Five magical amulets</caption>
+			</image>
+			<image>
+				<file>wintermute/5ma/5ma-win-05</file>
+				<caption>Five magical amulets</caption>
+			</image>
+			<image>
+				<file>wintermute/5ma/5ma-win-06</file>
+				<caption>Five magical amulets</caption>
+			</image>
+			<image>
+				<file>wintermute/5ma/5ma-win-de-01</file>
+				<caption>Five magical amulets (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/5ma/5ma-win-de-01</file>
+				<caption>Five magical amulets (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/5ma/5ma-win-de-02</file>
+				<caption>Five magical amulets (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/5ma/5ma-win-de-03</file>
+				<caption>Five magical amulets (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/5ma/5ma-win-de-04</file>
+				<caption>Five magical amulets (German)</caption>
+			</image>
+			<image>
+				<file>wintermute/5ma/5ma-win-de-05</file>
+				<caption>Five magical amulets (German)</caption>
+			</image>
+		</game>
+		<game>
 			<name>1&#189; Knights: In Search of the Ravishing Princess Herzelindes</name>
 			<category>ritter</category>
 			<image>
