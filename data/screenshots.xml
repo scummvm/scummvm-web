@@ -4090,6 +4090,46 @@
 			</image>
 		</game>
 		<game>
+			<name>Gregory and the Hot Air Balloon</name>
+			<category>gregory</category>
+			<image>
+				<file>composer/gregory/gregory-win-1</file>
+				<caption>Gregory and the Hot Air Balloon</caption>
+			</image>
+			<image>
+				<file>composer/gregory/gregory-win-2</file>
+				<caption>Gregory and the Hot Air Balloon</caption>
+			</image>
+			<image>
+				<file>composer/gregory/gregory-win-3</file>
+				<caption>Gregory and the Hot Air Balloon</caption>
+			</image>
+			<image>
+				<file>composer/gregory/gregory-win-4</file>
+				<caption>Gregory and the Hot Air Balloon</caption>
+			</image>
+			<image>
+				<file>composer/gregory/gregory-win-5</file>
+				<caption>Gregory and the Hot Air Balloon</caption>
+			</image>
+			<image>
+				<file>composer/gregory/gregory-win-6</file>
+				<caption>Gregory and the Hot Air Balloon</caption>
+			</image>
+			<image>
+				<file>composer/gregory/gregory-win-7</file>
+				<caption>Gregory and the Hot Air Balloon</caption>
+			</image>
+			<image>
+				<file>composer/gregory/gregory-win-8</file>
+				<caption>Gregory and the Hot Air Balloon</caption>
+			</image>
+			<image>
+				<file>composer/gregory/gregory-win-9</file>
+				<caption>Gregory and the Hot Air Balloon</caption>
+			</image>
+		</game>
+		<game>
 			<name>Magic Tales: Liam Finds a Story</name>
 			<category>liam</category>
 			<image>
