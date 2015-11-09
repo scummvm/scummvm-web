@@ -4130,6 +4130,70 @@
 			</image>
 		</game>
 		<game>
+			<name>Magic Tales: Imo and the King</name>
+			<category>imoking</category>
+			<image>
+				<file>composer/imoking/imoking-win-1</file>
+				<caption>Magic Tales: Imo and the King</caption>
+			</image>
+			<image>
+				<file>composer/imoking/imoking-win-2</file>
+				<caption>Magic Tales: Imo and the King</caption>
+			</image>
+			<image>
+				<file>composer/imoking/imoking-win-3</file>
+				<caption>Magic Tales: Imo and the King</caption>
+			</image>
+			<image>
+				<file>composer/imoking/imoking-win-4</file>
+				<caption>Magic Tales: Imo and the King</caption>
+			</image>
+			<image>
+				<file>composer/imoking/imoking-win-5</file>
+				<caption>Magic Tales: Imo and the King</caption>
+			</image>
+			<image>
+				<file>composer/imoking/imoking-win-6</file>
+				<caption>Magic Tales: Imo and the King</caption>
+			</image>
+			<image>
+				<file>composer/imoking/imoking-win-7</file>
+				<caption>Magic Tales: Imo and the King</caption>
+			</image>
+			<image>
+				<file>composer/imoking/imoking-win-8</file>
+				<caption>Magic Tales: Imo and the King</caption>
+			</image>
+			<image>
+				<file>composer/imoking/imoking-win-9</file>
+				<caption>Magic Tales: Imo and the King</caption>
+			</image>
+			<image>
+				<file>composer/imoking/imoking-win-10</file>
+				<caption>Magic Tales: Imo and the King</caption>
+			</image>
+			<image>
+				<file>composer/imoking/imoking-win-11</file>
+				<caption>Magic Tales: Imo and the King</caption>
+			</image>
+			<image>
+				<file>composer/imoking/imoking-win-12</file>
+				<caption>Magic Tales: Imo and the King</caption>
+			</image>
+			<image>
+				<file>composer/imoking/imoking-win-13</file>
+				<caption>Magic Tales: Imo and the King</caption>
+			</image>
+			<image>
+				<file>composer/imoking/imoking-win-14</file>
+				<caption>Magic Tales: Imo and the King</caption>
+			</image>
+			<image>
+				<file>composer/imoking/imoking-win-15</file>
+				<caption>Magic Tales: Imo and the King</caption>
+			</image>
+		</game>
+		<game>
 			<name>Magic Tales: Liam Finds a Story</name>
 			<category>liam</category>
 			<image>
