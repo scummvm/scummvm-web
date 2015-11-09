@@ -3318,6 +3318,46 @@
 			</image>
 		</game>
 		<game>
+			<name>Blue Force</name>
+			<category>blueforce</category>
+			<image>
+				<file>other/blueforce/blueforce-1</file>
+				<caption>Blue Force (CD)</caption>
+			</image>
+			<image>
+				<file>other/blueforce/blueforce-2</file>
+				<caption>Blue Force (CD)</caption>
+			</image>
+			<image>
+				<file>other/blueforce/blueforce-3</file>
+				<caption>Blue Force (CD)</caption>
+			</image>
+			<image>
+				<file>other/blueforce/blueforce-4</file>
+				<caption>Blue Force (CD)</caption>
+			</image>
+			<image>
+				<file>other/blueforce/blueforce-5</file>
+				<caption>Blue Force (CD)</caption>
+			</image>
+			<image>
+				<file>other/blueforce/blueforce-6</file>
+				<caption>Blue Force (CD)</caption>
+			</image>
+			<image>
+				<file>other/blueforce/blueforce-7</file>
+				<caption>Blue Force (CD)</caption>
+			</image>
+			<image>
+				<file>other/blueforce/blueforce-8</file>
+				<caption>Blue Force (CD)</caption>
+			</image>
+			<image>
+				<file>other/blueforce/blueforce-9</file>
+				<caption>Blue Force (CD)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Bud Tucker in Double Trouble</name>
 			<category>tucker</category>
 			<image>
