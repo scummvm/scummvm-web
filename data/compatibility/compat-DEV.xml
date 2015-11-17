@@ -852,6 +852,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Beavis and Butt-head in Virtual Stupidity</name>
+				<target>bbvs</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />- Only Windows version is supported.
+				</notes>
+			</game>
+			<game>
 				<name>Blue Force</name>
 				<target>blueforce</target>
 				<support_level>good</support_level>
@@ -1097,6 +1105,22 @@
 				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Macintosh versions are supported
+				</notes>
+			</game>
+			<game>
+				<name>The Lost Files of Sherlock Holmes: The Case of the Serrated Scalpel</name>
+				<target>scalpel</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />- Only DOS verion is supported
+				</notes>
+			</game>
+			<game>
+				<name>The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo</name>
+				<target>rosetattoo</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable
 				</notes>
 			</game>
 			<game>
