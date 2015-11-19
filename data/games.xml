@@ -4,7 +4,7 @@
 		<title>
 			Game downloads for ScummVM <h:span style="color: rgb(170, 170, 170);">version {$release}</h:span>
 		</title>
-		<baseurl>/downloads/extras</baseurl>
+		<baseurl>/downloads/extras/</baseurl>
 		<subsection>
 			<title>Beneath a Steel Sky</title>
 			<anchor>sky</anchor>
@@ -263,7 +263,7 @@
 		<title>
 			Addons for ScummVM <h:span style="color: rgb(170, 170, 170);">version {$release}</h:span>
 		</title>
-		<baseurl>/downloads/extras</baseurl>
+		<baseurl>/downloads/extras/</baseurl>
 		<subsection>
 			<title>Broken Sword</title>
 			<anchor>sword1</anchor>
