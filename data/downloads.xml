@@ -4,7 +4,7 @@
 		<title>
 			Downloads for ScummVM <h:span style="color: rgb(170, 170, 170);">version {$release}</h:span>
 		</title>
-		<baseurl>/downloads/scummvm/{$release}</baseurl>
+		<baseurl>/downloads/scummvm/{$release}/</baseurl>
 		<subsection>
 			<title>{$release} Release binaries</title>
 			<anchor>stable</anchor>
@@ -536,7 +536,7 @@
 
 	<section>
 		<title>Older versions (unsupported)</title>
-		<baseurl>/downloads/scummvm</baseurl>
+		<baseurl>/downloads/scummvm/</baseurl>
 		<subsection>
 			<anchor>older</anchor>
 			<notes>
