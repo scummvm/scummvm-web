@@ -6,183 +6,183 @@
 		<demos>
 			<demo>
 				<name>Day of the Tentacle (DOS demo - Non interactive)</name>
-				<url>/downloads/demos/scumm/dott-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/scumm/dott-dos-ni-demo-en.zip</url>
 				<target>tentacle</target>
 			</demo>
 			<demo>
 				<name>Day of the Tentacle (DOS French demo - Non interactive)</name>
-				<url>/downloads/demos/scumm/dott-dos-ni-demo-fr.zip</url>
+				<url>/frs/demos/scumm/dott-dos-ni-demo-fr.zip</url>
 				<target>tentacle</target>
 			</demo>
 			<demo>
 				<name>Day of the Tentacle (DOS German demo - Non interactive)</name>
-				<url>/downloads/demos/scumm/dott-dos-ni-demo-de.zip</url>
+				<url>/frs/demos/scumm/dott-dos-ni-demo-de.zip</url>
 				<target>tentacle</target>
 			</demo>
 			<demo>
 				<name>Day of the Tentacle (Macintosh demo - Non interactive)</name>
-				<url>/downloads/demos/scumm/dott-mac-ni-demo-en.zip</url>
+				<url>/frs/demos/scumm/dott-mac-ni-demo-en.zip</url>
 				<target>tentacle</target>
 			</demo>
 			<demo>
 				<name>Full Throttle (DOS demo)</name>
-				<url>/downloads/demos/scumm/ft-dos-demo-en.zip</url>
+				<url>/frs/demos/scumm/ft-dos-demo-en.zip</url>
 				<target>ft</target>
 			</demo>
 			<demo>
 				<name>Full Throttle (Macintosh demo)</name>
-				<url>/downloads/demos/scumm/ft-mac-demo-en.zip</url>
+				<url>/frs/demos/scumm/ft-mac-demo-en.zip</url>
 				<target>ft</target>
 			</demo>
 			<demo>
 				<name>Indiana Jones and the Fate of Atlantis (DOS demo - Interactive)</name>
-				<url>/downloads/demos/scumm/atlantis-dos-demo1-en.zip</url>
+				<url>/frs/demos/scumm/atlantis-dos-demo1-en.zip</url>
 				<target>atlantis</target>
 			</demo>
 			<demo>
 				<name>Indiana Jones and the Fate of Atlantis (DOS Alternative demo - Interactive)</name>
-				<url>/downloads/demos/scumm/atlantis-dos-demo2-en.zip</url>
+				<url>/frs/demos/scumm/atlantis-dos-demo2-en.zip</url>
 				<target>atlantis</target>
 			</demo>
 			<demo>
 				<name>Indiana Jones and the Fate of Atlantis (DOS Yet another demo - Interactive)</name>
-				<url>/downloads/demos/scumm/atlantis-dos-demo3-en.zip</url>
+				<url>/frs/demos/scumm/atlantis-dos-demo3-en.zip</url>
 				<target>atlantis</target>
 			</demo>
 			<demo>
 				<name>Indiana Jones and the Fate of Atlantis (DOS demo - Non interactive)</name>
-				<url>/downloads/demos/scumm/atlantis-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/scumm/atlantis-dos-ni-demo-en.zip</url>
 				<target>atlantis</target>
 			</demo>
 			<demo>
 				<name>Indiana Jones and the Fate of Atlantis (FM Towns demo - Non interactive)</name>
-				<url>/downloads/demos/scumm/atlantis-fmtowns-ni-demo-jp.zip</url>
+				<url>/frs/demos/scumm/atlantis-fmtowns-ni-demo-jp.zip</url>
 				<target>atlantis</target>
 			</demo>
 			<demo>
 				<name>Indiana Jones and the Last Crusade (DOS EGA - Non interactive)</name>
-				<url>/downloads/demos/scumm/indy3-ega-ni-demo-en.zip</url>
+				<url>/frs/demos/scumm/indy3-ega-ni-demo-en.zip</url>
 				<target>indy3</target>
 			</demo>
 			<demo>
 				<name>Indiana Jones and the Last Crusade &amp; Loom (FM Towns demo - Non interactive)</name>
-				<url>/downloads/demos/scumm/zak-fmtowns-indyloom-ni-demo.zip</url>
+				<url>/frs/demos/scumm/zak-fmtowns-indyloom-ni-demo.zip</url>
 				<target>zak</target>
 			</demo>
 			<demo>
 				<name>Indiana Jones and the Last Crusade &amp; Zak McKracken (FM Towns demo - Non interactive)</name>
-				<url>/downloads/demos/scumm/zak-fmtowns-indyzak-ni-demo.zip</url>
+				<url>/frs/demos/scumm/zak-fmtowns-indyzak-ni-demo.zip</url>
 				<target>zak</target>
 			</demo>
 			<demo>
 				<name>Loom (DOS EGA - Short Non interactive)</name>
-				<url>/downloads/demos/scumm/loom-dos-short-demo-en.zip</url>
+				<url>/frs/demos/scumm/loom-dos-short-demo-en.zip</url>
 				<target>loom</target>
 			</demo>
 			<demo>
 				<name>Loom (DOS EGA - Long Non interactive)</name>
-				<url>/downloads/demos/scumm/loom-dos-long-demo-en.zip</url>
+				<url>/frs/demos/scumm/loom-dos-long-demo-en.zip</url>
 				<target>loom</target>
 			</demo>
 			<demo>
 				<name>Maniac Mansion (Commodore 64 demo) - Requires ScummVM 1.8.0git</name>
-				<url>/downloads/demos/scumm/maniac-c64-demo-en.zip</url>
+				<url>/frs/demos/scumm/maniac-c64-demo-en.zip</url>
 				<target>maniac</target>
 			</demo>
 			<demo>
 				<name>Maniac Mansion (v1 DOS demo - Non interactive)</name>
-				<url>/downloads/demos/scumm/maniac-dos-v1-ni-demo-en.zip</url>
+				<url>/frs/demos/scumm/maniac-dos-v1-ni-demo-en.zip</url>
 				<target>maniac</target>
 			</demo>
 			<demo>
 				<name>Maniac Mansion (v2 DOS demo - Non interactive)</name>
-				<url>/downloads/demos/scumm/maniac-dos-v2-ni-demo-en.zip</url>
+				<url>/frs/demos/scumm/maniac-dos-v2-ni-demo-en.zip</url>
 				<target>maniac</target>
 			</demo>
 			<demo>
 				<name>Monkey Island 2 (DOS demo - not supported by ScummVM)</name>
-				<url>/downloads/demos/scumm/monkey2-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/scumm/monkey2-dos-ni-demo-en.zip</url>
 				<target>monkey2</target>
 			</demo>
 			<demo>
 				<name>Passport to Adventure (DOS EGA demos of Indiana Jones and the Last Crusade, The Secret of Monkey Island, Loom)</name>
-				<url>/downloads/demos/scumm/pass-dos-en.zip</url>
+				<url>/frs/demos/scumm/pass-dos-en.zip</url>
 				<target>pass</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Sam &amp; Max Hit the Road (DOS demo - Interactive)</name>
-				<url>/downloads/demos/scumm/samnmax-dos-demo-en.zip</url>
+				<url>/frs/demos/scumm/samnmax-dos-demo-en.zip</url>
 				<target>samnmax</target>
 			</demo>
 			<demo>
 				<name>Sam &amp; Max Hit the Road (DOS demo - Non interactive)</name>
-				<url>/downloads/demos/scumm/samnmax-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/scumm/samnmax-dos-ni-demo-en.zip</url>
 				<target>samnmax</target>
 			</demo>
 			<demo>
 				<name>Sam &amp; Max Hit the Road (DOS German demo - Interactive)</name>
-				<url>/downloads/demos/scumm/samnmax-dos-demo-de.zip</url>
+				<url>/frs/demos/scumm/samnmax-dos-demo-de.zip</url>
 				<target>samnmax</target>
 			</demo>
 			<demo>
 				<name>Sam &amp; Max Hit the Road (DOS WIP demo - Interactive)</name>
-				<url>/downloads/demos/scumm/samnmax-dos-wip-demo-en.zip</url>
+				<url>/frs/demos/scumm/samnmax-dos-wip-demo-en.zip</url>
 				<target>samnmax</target>
 			</demo>
 			<demo>
 				<name>Sam &amp; Max Hit the Road (DOS CD demo - Interactive)</name>
-				<url>/downloads/demos/scumm/samnmax-dos-cd-demo-en.zip</url>
+				<url>/frs/demos/scumm/samnmax-dos-cd-demo-en.zip</url>
 				<target>samnmax</target>
 			</demo>
 			<demo>
 				<name>Sam &amp; Max Hit the Road (Macintosh demo - Interactive)</name>
-				<url>/downloads/demos/scumm/samnmax-mac-demo-en.zip</url>
+				<url>/frs/demos/scumm/samnmax-mac-demo-en.zip</url>
 				<target>samnmax</target>
 			</demo>
 			<demo>
 				<name>The Curse of Monkey Island (Windows small demo)</name>
-				<url>/downloads/demos/scumm/comi-win-small-demo-en.zip</url>
+				<url>/frs/demos/scumm/comi-win-small-demo-en.zip</url>
 				<target>comi</target>
 			</demo>
 			<demo>
 				<name>The Curse of Monkey Island (Windows large demo)</name>
-				<url>/downloads/demos/scumm/comi-win-large-demo-en.zip</url>
+				<url>/frs/demos/scumm/comi-win-large-demo-en.zip</url>
 				<target>comi</target>
 			</demo>
 			<demo>
 				<name>The Dig (Macintosh demo)</name>
-				<url>/downloads/demos/scumm/dig-mac-demo-en.zip</url>
+				<url>/frs/demos/scumm/dig-mac-demo-en.zip</url>
 				<target>dig</target>
 			</demo>
 			<demo>
 				<name>The Dig (DOS demo)</name>
-				<url>/downloads/demos/scumm/dig-dos-demo-en.zip</url>
+				<url>/frs/demos/scumm/dig-dos-demo-en.zip</url>
 				<target>dig</target>
 			</demo>
 			<demo>
 				<name>The Secret of Monkey Island (Amiga demo)</name>
-				<url>/downloads/demos/scumm/monkey1-amiga-demo-en.zip</url>
+				<url>/frs/demos/scumm/monkey1-amiga-demo-en.zip</url>
 				<target>monkey</target>
 			</demo>
 			<demo>
 				<name>The Secret of Monkey Island (DOS EGA demo)</name>
-				<url>/downloads/demos/scumm/monkey1-dos-ega-demo-en.zip</url>
+				<url>/frs/demos/scumm/monkey1-dos-ega-demo-en.zip</url>
 				<target>monkey</target>
 			</demo>
 			<demo>
 				<name>The Secret of Monkey Island (DOS EGA German demo)</name>
-				<url>/downloads/demos/scumm/monkey1-dos-ega-demo-de.zip</url>
+				<url>/frs/demos/scumm/monkey1-dos-ega-demo-de.zip</url>
 				<target>monkey</target>
 			</demo>
 			<demo>
 				<name>Zak McKracken and the Alien Mindbenders (Atari ST demo - Non interactive)</name>
-				<url>/downloads/demos/scumm/zak-atari-ni-demo.zip</url>
+				<url>/frs/demos/scumm/zak-atari-ni-demo.zip</url>
 				<target>zak</target>
 			</demo>
 			<demo>
 				<name>Zak McKracken &amp; Loom (FM Towns demo - Non interactive)</name>
-				<url>/downloads/demos/scumm/zak-fmtowns-zakloom-ni-demo.zip</url>
+				<url>/frs/demos/scumm/zak-fmtowns-zakloom-ni-demo.zip</url>
 				<target>zak</target>
 			</demo>
 		</demos>
@@ -193,645 +193,645 @@
 		<demos>
 			<demo>
 				<name>Backyard Baseball (Windows Preview)</name>
-				<url>/downloads/demos/scumm/he/baseball-win-preview1-us.zip</url>
+				<url>/frs/demos/scumm/he/baseball-win-preview1-us.zip</url>
 				<target>baseball</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Backyard Baseball (Windows Alternative Preview)</name>
-				<url>/downloads/demos/scumm/he/baseball-win-preview2-us.zip</url>
+				<url>/frs/demos/scumm/he/baseball-win-preview2-us.zip</url>
 				<target>baseball</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Backyard Baseball 2001 (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/baseball2001-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/baseball2001-win-demo-us.zip</url>
 				<target>baseball2001</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Backyard Football (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/football-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/football-win-demo-us.zip</url>
 				<target>football</target>
 			</demo>
 			<demo>
 				<name>Big Thinkers First Grade (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/thinker1-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/thinker1-win-demo-us.zip</url>
 				<target>thinker1</target>
 				<category>thinkers</category>
 			</demo>
 			<demo>
 				<name>Big Thinkers Kindergarten (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/thinkerk-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/thinkerk-win-demo-us.zip</url>
 				<target>thinkerk</target>
 				<category>thinkers</category>
 			</demo>
 			<demo>
 				<name>Blue's ABC Time (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/BluesABCTime-win-demo1-us.zip</url>
+				<url>/frs/demos/scumm/he/BluesABCTime-win-demo1-us.zip</url>
 				<target>BluesABCTime</target>
 				<category>blues</category>
 			</demo>
 			<demo>
 				<name>Blue's ABC Time (Windows Alternative Demo)</name>
-				<url>/downloads/demos/scumm/he/BluesABCTime-win-demo2-us.zip</url>
+				<url>/frs/demos/scumm/he/BluesABCTime-win-demo2-us.zip</url>
 				<target>BluesABCTime</target>
 				<category>blues</category>
 			</demo>
 			<demo>
 				<name>Blue's ABC Time (Windows Preview)</name>
-				<url>/downloads/demos/scumm/he/BluesABCTime-win-preview-us.zip</url>
+				<url>/frs/demos/scumm/he/BluesABCTime-win-preview-us.zip</url>
 				<target>BluesABCTime</target>
 				<category>blues</category>
 			</demo>
 			<demo>
 				<name>Blue's Art Time Activities (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/arttime-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/arttime-win-demo-us.zip</url>
 				<target>freddicove</target>
 				<category>blues</category>
 			</demo>
 			<demo>
 				<name>Blue's Birthday Adventure (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/BluesBirthday-win-demo1-us.zip</url>
+				<url>/frs/demos/scumm/he/BluesBirthday-win-demo1-us.zip</url>
 				<target>BluesBirthday</target>
 				<category>blues</category>
 			</demo>
 			<demo>
 				<name>Blue's Birthday Adventure (Windows Alternative Demo)</name>
-				<url>/downloads/demos/scumm/he/BluesBirthday-win-demo2-us.zip</url>
+				<url>/frs/demos/scumm/he/BluesBirthday-win-demo2-us.zip</url>
 				<target>BluesBirthday</target>
 				<category>blues</category>
 			</demo>
 			<demo>
 				<name>Blue's Birthday Adventure (Windows Preview)</name>
-				<url>/downloads/demos/scumm/he/BluesBirthday-win-preview-us.zip</url>
+				<url>/frs/demos/scumm/he/BluesBirthday-win-preview-us.zip</url>
 				<target>BluesBirthday</target>
 				<category>blues</category>
 			</demo>
 			<demo>
 				<name>Blue's Reading Time Activities (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/readtime-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/readtime-win-demo-us.zip</url>
 				<target>freddicove</target>
 				<category>blues</category>
 			</demo>
 			<demo>
 				<name>Fatty Bear's Birthday Surprise (DOS demo)</name>
-				<url>/downloads/demos/scumm/he/fbear-dos-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/fbear-dos-demo-us.zip</url>
 				<target>fbear</target>
 			</demo>
 			<demo>
 				<name>Fatty Bear's Birthday Surprise (Macintosh demo)</name>
-				<url>/downloads/demos/scumm/he/fbear-mac-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/fbear-mac-demo-us.zip</url>
 				<target>fbear</target>
 			</demo>
 			<demo>
 				<name>Fatty Bear's Birthday Surprise (Windows demo)</name>
-				<url>/downloads/demos/scumm/he/fbear-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/fbear-win-demo-us.zip</url>
 				<target>fbear</target>
 			</demo>
 			<demo>
 				<name>Freddi Fish 1: The Case of the Missing Kelp Seeds (Macintosh Demo)</name>
-				<url>/downloads/demos/scumm/he/freddi-mac-demo_us.zip</url>
+				<url>/frs/demos/scumm/he/freddi-mac-demo_us.zip</url>
 				<target>freddi</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/freddi-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/freddi-win-demo-us.zip</url>
 				<target>freddi</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows Updated Demo)</name>
-				<url>/downloads/demos/scumm/he/freddi-win-updated-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/freddi-win-updated-demo-us.zip</url>
 				<target>freddi</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows Dutch Demo)</name>
-				<url>/downloads/demos/scumm/he/freddi-win-demo-nl.zip</url>
+				<url>/frs/demos/scumm/he/freddi-win-demo-nl.zip</url>
 				<target>freddi</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows French Demo)</name>
-				<url>/downloads/demos/scumm/he/freddi-win-demo-fr.zip</url>
+				<url>/frs/demos/scumm/he/freddi-win-demo-fr.zip</url>
 				<target>freddi</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 1: The Case of the Missing Kelp Seeds (Windows German demo)</name>
-				<url>/downloads/demos/scumm/he/freddi-win-demo-de.zip</url>
+				<url>/frs/demos/scumm/he/freddi-win-demo-de.zip</url>
 				<target>freddi</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 2: The Case of the Haunted Schoolhouse (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/freddi2-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/freddi2-win-demo-us.zip</url>
 				<target>freddi2</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 2: The Case of the Haunted Schoolhouse (Windows Updated Demo)</name>
-				<url>/downloads/demos/scumm/he/freddi2-win-updated-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/freddi2-win-updated-demo-us.zip</url>
 				<target>freddi2</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 2: The Case of the Haunted Schoolhouse (Windows Dutch Demo)</name>
-				<url>/downloads/demos/scumm/he/freddi2-win-demo-nl.zip</url>
+				<url>/frs/demos/scumm/he/freddi2-win-demo-nl.zip</url>
 				<target>freddi2</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 3: The Case of the Stolen Conch Shell (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/freddi3-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/freddi3-win-demo-us.zip</url>
 				<target>freddi3</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 3: The Case of the Stolen Conch Shell (Windows Dutch Demo)</name>
-				<url>/downloads/demos/scumm/he/freddi3-win-demo-nl.zip</url>
+				<url>/frs/demos/scumm/he/freddi3-win-demo-nl.zip</url>
 				<target>freddi3</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 3: The Case of the Stolen Conch Shell (Windows French Demo)</name>
-				<url>/downloads/demos/scumm/he/freddi3-win-demo-fr.zip</url>
+				<url>/frs/demos/scumm/he/freddi3-win-demo-fr.zip</url>
 				<target>freddi3</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 3: The Case of the Stolen Conch Shell (Windows Hebrew Demo)</name>
-				<url>/downloads/demos/scumm/he/freddi3-win-demo-hb.zip</url>
+				<url>/frs/demos/scumm/he/freddi3-win-demo-hb.zip</url>
 				<target>freddi3</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/freddi4-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/freddi4-win-demo-us.zip</url>
 				<target>freddi4</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows Updated Demo)</name>
-				<url>/downloads/demos/scumm/he/freddi4-win-updated-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/freddi4-win-updated-demo-us.zip</url>
 				<target>freddi4</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows Dutch Demo)</name>
-				<url>/downloads/demos/scumm/he/freddi4-win-demo1-nl.zip</url>
+				<url>/frs/demos/scumm/he/freddi4-win-demo1-nl.zip</url>
 				<target>freddi4</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows Dutch Alternative Demo)</name>
-				<url>/downloads/demos/scumm/he/freddi4-win-demo2-nl.zip</url>
+				<url>/frs/demos/scumm/he/freddi4-win-demo2-nl.zip</url>
 				<target>freddi4</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows Dutch Alternative Demo)</name>
-				<url>/downloads/demos/scumm/he/freddi4-win-demo3-nl.zip</url>
+				<url>/frs/demos/scumm/he/freddi4-win-demo3-nl.zip</url>
 				<target>freddi4</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows French Demo)</name>
-				<url>/downloads/demos/scumm/he/freddi4-win-demo.fr.zip</url>
+				<url>/frs/demos/scumm/he/freddi4-win-demo.fr.zip</url>
 				<target>freddi4</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows German Demo)</name>
-				<url>/downloads/demos/scumm/he/freddi4-win-demo-de.zip</url>
+				<url>/frs/demos/scumm/he/freddi4-win-demo-de.zip</url>
 				<target>freddi4</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows Italian Demo)</name>
-				<url>/downloads/demos/scumm/he/freddi4-win-demo-it.zip</url>
+				<url>/frs/demos/scumm/he/freddi4-win-demo-it.zip</url>
 				<target>freddi4</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch (Windows UK Demo)</name>
-				<url>/downloads/demos/scumm/he/freddi4-win-demo-uk.zip</url>
+				<url>/frs/demos/scumm/he/freddi4-win-demo-uk.zip</url>
 				<target>freddi4</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 5: The Case of the Creature of Coral Cave (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/freddicove-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/freddicove-win-demo-us.zip</url>
 				<target>freddicove</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Freddi Fish 5: The Case of the Creature of Coral Cave (Windows Dutch Demo)</name>
-				<url>/downloads/demos/scumm/he/freddicove-win-demo-nl.zip</url>
+				<url>/frs/demos/scumm/he/freddicove-win-demo-nl.zip</url>
 				<target>freddicove</target>
 				<category>ffish</category>
 			</demo>
 			<demo>
 				<name>Humongous Catalog demo (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/catalog-win-demo-en.zip</url>
+				<url>/frs/demos/scumm/he/catalog-win-demo-en.zip</url>
 				<target>catalog</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Humongous Catalog demo (Windows French Preview)</name>
-				<url>/downloads/demos/scumm/he/catalog-win-preview-fr.zip</url>
+				<url>/frs/demos/scumm/he/catalog-win-preview-fr.zip</url>
 				<target>catalog</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Humongous Catalog demo (Windows German Preview)</name>
-				<url>/downloads/demos/scumm/he/catalog-win-preview-de.zip</url>
+				<url>/frs/demos/scumm/he/catalog-win-preview-de.zip</url>
 				<target>catalog</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Humongous Catalog demo (Windows UK Preview)</name>
-				<url>/downloads/demos/scumm/he/catalog-win-preview-uk.zip</url>
+				<url>/frs/demos/scumm/he/catalog-win-preview-uk.zip</url>
 				<target>catalog</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Humongous Catalog demo (Windows US Preview)</name>
-				<url>/downloads/demos/scumm/he/catalog-win-preview-us.zip</url>
+				<url>/frs/demos/scumm/he/catalog-win-preview-us.zip</url>
 				<target>catalog</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Let's Explore the Airport with Buzzy (Macintosh Demo)</name>
-				<url>/downloads/demos/scumm/he/airport-mac-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/airport-mac-demo-us.zip</url>
 				<target>airport</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Let's Explore the Airport with Buzzy (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/airport-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/airport-win-demo-us.zip</url>
 				<target>airport</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Let's Explore the Airport with Buzzy (Windows Updated Demo)</name>
-				<url>/downloads/demos/scumm/he/airport-win-updated-demo1-us.zip</url>
+				<url>/frs/demos/scumm/he/airport-win-updated-demo1-us.zip</url>
 				<target>airport</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Let's Explore the Airport with Buzzy (Windows Updated Alternative Demo)</name>
-				<url>/downloads/demos/scumm/he/airport-win-updated-demo2-us.zip</url>
+				<url>/frs/demos/scumm/he/airport-win-updated-demo2-us.zip</url>
 				<target>airport</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Let's Explore the Farm with Buzzy (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/farm-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/farm-win-demo-us.zip</url>
 				<target>farm</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Let's Explore the Farm with Buzzy (Windows Updated Demo)</name>
-				<url>/downloads/demos/scumm/he/farm-win-updated-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/farm-win-updated-demo-us.zip</url>
 				<target>farm</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Let's Explore the Farm with Buzzy (Windows Dutch Demo)</name>
-				<url>/downloads/demos/scumm/he/farm-win-demo-nl.zip</url>
+				<url>/frs/demos/scumm/he/farm-win-demo-nl.zip</url>
 				<target>farm</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Pajama Sam 1: No Need to Hide When It's Dark Outside (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/pajama-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/pajama-win-demo-us.zip</url>
 				<target>pajama</target>
 			</demo>
 			<demo>
 				<name>Pajama Sam 1: No Need to Hide When It's Dark Outside (Windows Updated Demo)</name>
-				<url>/downloads/demos/scumm/he/pajama-win-updated-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/pajama-win-updated-demo-us.zip</url>
 				<target>pajama</target>
 			</demo>
 			<demo>
 				<name>Pajama Sam 1: No Need to Hide When It's Dark Outside (Windows Dutch Demo)</name>
-				<url>/downloads/demos/scumm/he/pajama2-win-demo-nl.zip</url>
+				<url>/frs/demos/scumm/he/pajama2-win-demo-nl.zip</url>
 				<target>pajama</target>
 			</demo>
 			<demo>
 				<name>Pajama Sam 1: No Need to Hide When It's Dark Outside (Windows French Demo)</name>
-				<url>/downloads/demos/scumm/he/pajama-win-demo-fr.zip</url>
+				<url>/frs/demos/scumm/he/pajama-win-demo-fr.zip</url>
 				<target>pajama</target>
 			</demo>
 			<demo>
 				<name>Pajama Sam 2: Thunder and Lightning Aren't so Frightening (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/pajama2-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/pajama2-win-demo-us.zip</url>
 				<target>pajama2</target>
 				<category>pajama</category>
 			</demo>
 			<demo>
 				<name>Pajama Sam 2: Thunder and Lightning Aren't so Frightening (Windows Dutch Demo)</name>
-				<url>/downloads/demos/scumm/he/pajama2-win-demo-nl.zip</url>
+				<url>/frs/demos/scumm/he/pajama2-win-demo-nl.zip</url>
 				<target>pajama2</target>
 				<category>pajama</category>
 			</demo>
 			<demo>
 				<name>Pajama Sam 2: Thunder and Lightning Aren't so Frightening (Windows Hebrew Demo)</name>
-				<url>/downloads/demos/scumm/he/pajama2-win-demo-hb.zip</url>
+				<url>/frs/demos/scumm/he/pajama2-win-demo-hb.zip</url>
 				<target>pajama2</target>
 				<category>pajama</category>
 			</demo>
 			<demo>
 				<name>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/pajama3-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/pajama3-win-demo-us.zip</url>
 				<target>pajama3</target>
 				<category>pajama</category>
 			</demo>
 			<demo>
 				<name>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows Dutch Demo)</name>
-				<url>/downloads/demos/scumm/he/pajama3-win-demo-nl.zip</url>
+				<url>/frs/demos/scumm/he/pajama3-win-demo-nl.zip</url>
 				<target>pajama3</target>
 				<category>pajama</category>
 			</demo>
 			<demo>
 				<name>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows French Demo)</name>
-				<url>/downloads/demos/scumm/he/pajama3-win-demo-fr.zip</url>
+				<url>/frs/demos/scumm/he/pajama3-win-demo-fr.zip</url>
 				<target>pajama3</target>
 				<category>pajama</category>
 			</demo>
 			<demo>
 				<name>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows German Demo)</name>
-				<url>/downloads/demos/scumm/he/pajama3-win-demo-de.zip</url>
+				<url>/frs/demos/scumm/he/pajama3-win-demo-de.zip</url>
 				<target>pajama3</target>
 				<category>pajama</category>
 			</demo>
 			<demo>
 				<name>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows Italian Demo)</name>
-				<url>/downloads/demos/scumm/he/pajama3-win-demo-it.zip</url>
+				<url>/frs/demos/scumm/he/pajama3-win-demo-it.zip</url>
 				<target>pajama3</target>
 				<category>pajama</category>
 			</demo>
 			<demo>
 				<name>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet (Windows UK Demo)</name>
-				<url>/downloads/demos/scumm/he/pajama3-win-demo-uk.zip</url>
+				<url>/frs/demos/scumm/he/pajama3-win-demo-uk.zip</url>
 				<target>pajama3</target>
 				<category>pajama</category>
 			</demo>
 			<demo>
 				<name>Pajama Sam's Lost &amp; Found (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/lost-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/lost-win-demo-us.zip</url>
 				<target>lost</target>
 				<category>pajama</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Enters the Race (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/puttrace-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/puttrace-win-demo-us.zip</url>
 				<target>puttrace</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Enters the Race (Windows Preview)</name>
-				<url>/downloads/demos/scumm/he/puttrace-win-preview-us.zip</url>
+				<url>/frs/demos/scumm/he/puttrace-win-preview-us.zip</url>
 				<target>puttrace</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Enters the Race (Windows Dutch Demo)</name>
-				<url>/downloads/demos/scumm/he/puttrace-win-demo-nl.zip</url>
+				<url>/frs/demos/scumm/he/puttrace-win-demo-nl.zip</url>
 				<target>puttrace</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Enters the Race (Windows Updated Dutch Demo)</name>
-				<url>/downloads/demos/scumm/he/puttrace-win-updated-demo-nl.zip</url>
+				<url>/frs/demos/scumm/he/puttrace-win-updated-demo-nl.zip</url>
 				<target>puttrace</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Enters the Race (Windows French Demo)</name>
-				<url>/downloads/demos/scumm/he/puttrace-win-demo-fr.zip</url>
+				<url>/frs/demos/scumm/he/puttrace-win-demo-fr.zip</url>
 				<target>puttrace</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Enters the Race (Windows German Demo)</name>
-				<url>/downloads/demos/scumm/he/puttrace-win-demo-de.zip</url>
+				<url>/frs/demos/scumm/he/puttrace-win-demo-de.zip</url>
 				<target>puttrace</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Enters the Race (Windows Italian Demo)</name>
-				<url>/downloads/demos/scumm/he/puttrace-win-demo-it.zip</url>
+				<url>/frs/demos/scumm/he/puttrace-win-demo-it.zip</url>
 				<target>puttrace</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Enters the Race (Windows UK Demo)</name>
-				<url>/downloads/demos/scumm/he/puttrace-win-demo-uk.zip</url>
+				<url>/frs/demos/scumm/he/puttrace-win-demo-uk.zip</url>
 				<target>puttrace</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Goes to the Moon (DOS demo)</name>
-				<url>/downloads/demos/scumm/he/puttmoon-dos-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/puttmoon-dos-demo-us.zip</url>
 				<target>puttmoon</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Goes to the Moon (Macintosh demo)</name>
-				<url>/downloads/demos/scumm/he/puttmoon-mac-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/puttmoon-mac-demo-us.zip</url>
 				<target>puttmoon</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Goes to the Moon (Window demo)</name>
-				<url>/downloads/demos/scumm/he/puttmoon-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/puttmoon-win-demo-us.zip</url>
 				<target>puttmoon</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Joins the Circus (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/puttcircus-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/puttcircus-win-demo-us.zip</url>
 				<target>puttcircus</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Joins the Circus (Windows French Demo)</name>
-				<url>/downloads/demos/scumm/he/puttcircus-win-demo-fr.zip</url>
+				<url>/frs/demos/scumm/he/puttcircus-win-demo-fr.zip</url>
 				<target>puttcircus</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Joins the Circus (Windows Hebrew Demo)</name>
-				<url>/downloads/demos/scumm/he/puttcircus-win-demo-hb.zip</url>
+				<url>/frs/demos/scumm/he/puttcircus-win-demo-hb.zip</url>
 				<target>puttcircus</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Joins the Parade (DOS demo)</name>
-				<url>/downloads/demos/scumm/he/puttputt-dos-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/puttputt-dos-demo-us.zip</url>
 				<target>puttputt</target>
 			</demo>
 			<demo>
 				<name>Putt-Putt Joins the Parade (Macintosh demo)</name>
-				<url>/downloads/demos/scumm/he/puttputt-mac-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/puttputt-mac-demo-us.zip</url>
 				<target>puttputt</target>
 			</demo>
 			<demo>
 				<name>Putt-Putt Joins the Parade (Windows demo)</name>
-				<url>/downloads/demos/scumm/he/puttputt-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/puttputt-win-demo-us.zip</url>
 				<target>puttputt</target>
 			</demo>
 			<demo>
 				<name>Putt-Putt Saves the Zoo (Macintosh Demo)</name>
-				<url>/downloads/demos/scumm/he/puttzoo-mac-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/puttzoo-mac-demo-us.zip</url>
 				<target>puttzoo</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Saves the Zoo (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/puttzoo-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/puttzoo-win-demo-us.zip</url>
 				<target>puttzoo</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Saves the Zoo (Windows Updated Demo)</name>
-				<url>/downloads/demos/scumm/he/puttzoo-win-updated-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/puttzoo-win-updated-demo-us.zip</url>
 				<target>puttzoo</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Saves the Zoo (Windows Dutch Demo)</name>
-				<url>/downloads/demos/scumm/he/puttzoo-win-demo-nl.zip</url>
+				<url>/frs/demos/scumm/he/puttzoo-win-demo-nl.zip</url>
 				<target>puttzoo</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Saves the Zoo (Windows French Demo)</name>
-				<url>/downloads/demos/scumm/he/puttzoo-win-demo-fr.zip</url>
+				<url>/frs/demos/scumm/he/puttzoo-win-demo-fr.zip</url>
 				<target>puttzoo</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Saves the Zoo (Windows German Demo)</name>
-				<url>/downloads/demos/scumm/he/puttzoo-win-demo-de.zip</url>
+				<url>/frs/demos/scumm/he/puttzoo-win-demo-de.zip</url>
 				<target>puttzoo</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Travels Through Time (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/putttime-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/putttime-win-demo-us.zip</url>
 				<target>putttime</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Travels Through Time (Windows Updated Demo)</name>
-				<url>/downloads/demos/scumm/he/putttime-win-updated-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/putttime-win-updated-demo-us.zip</url>
 				<target>putttime</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Travels Through Time (Windows Dutch Demo)</name>
-				<url>/downloads/demos/scumm/he/putttime-win-demo-nl.zip</url>
+				<url>/frs/demos/scumm/he/putttime-win-demo-nl.zip</url>
 				<target>putttime</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Travels Through Time (Windows French Demo)</name>
-				<url>/downloads/demos/scumm/he/putttime-win-demo-fr.zip</url>
+				<url>/frs/demos/scumm/he/putttime-win-demo-fr.zip</url>
 				<target>putttime</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>Putt-Putt Travels Through Time (Windows German Demo)</name>
-				<url>/downloads/demos/scumm/he/putttime-win-demo-de.zip</url>
+				<url>/frs/demos/scumm/he/putttime-win-demo-de.zip</url>
 				<target>putttime</target>
 				<category>puttputt</category>
 			</demo>
 			<demo>
 				<name>SPY Fox 1: Dry Cereal (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/spyfox-win-demo1-us.zip</url>
+				<url>/frs/demos/scumm/he/spyfox-win-demo1-us.zip</url>
 				<target>spyfox</target>
 			</demo>
 			<demo>
 				<name>SPY Fox 1: Dry Cereal (Windows Alternative Demo)</name>
-				<url>/downloads/demos/scumm/he/spyfox-win-demo2-us.zip</url>
+				<url>/frs/demos/scumm/he/spyfox-win-demo2-us.zip</url>
 				<target>spyfox</target>
 			</demo>
 			<demo>
 				<name>SPY Fox 1: Dry Cereal (Windows Updated Demo)</name>
-				<url>/downloads/demos/scumm/he/spyfox-win-updated-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/spyfox-win-updated-demo-us.zip</url>
 				<target>spyfox</target>
 			</demo>
 			<demo>
 				<name>SPY Fox 1: Dry Cereal (Windows Dutch Demo)</name>
-				<url>/downloads/demos/scumm/he/spyfox-win-demo-nl.zip</url>
+				<url>/frs/demos/scumm/he/spyfox-win-demo-nl.zip</url>
 				<target>spyfox</target>
 			</demo>
 			<demo>
 				<name>SPY Fox 1: Dry Cereal (Windows French Demo)</name>
-				<url>/downloads/demos/scumm/he/spyfox-win-demo-fr.zip</url>
+				<url>/frs/demos/scumm/he/spyfox-win-demo-fr.zip</url>
 				<target>spyfox</target>
 			</demo>
 			<demo>
 				<name>SPY Fox 2: Some Assembly Required (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/spyfox2-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/spyfox2-win-demo-us.zip</url>
 				<target>spyfox2</target>
 				<category>spyfox</category>
 			</demo>
 			<demo>
 				<name>SPY Fox 2: Some Assembly Required (Windows French Demo)</name>
-				<url>/downloads/demos/scumm/he/spyfox2-win-demo-fr.zip</url>
+				<url>/frs/demos/scumm/he/spyfox2-win-demo-fr.zip</url>
 				<target>spyfox2</target>
 				<category>spyfox</category>
 			</demo>
 			<demo>
 				<name>SPY Fox 2: Some Assembly Required (Windows Preview)</name>
-				<url>/downloads/demos/scumm/he/spyfox2-win-preview-us.zip</url>
+				<url>/frs/demos/scumm/he/spyfox2-win-preview-us.zip</url>
 				<target>spyfox2</target>
 				<category>spyfox</category>
 			</demo>
 			<demo>
 				<name>SPY Fox 2: Some Assembly Required (Windows Dutch Demo)</name>
-				<url>/downloads/demos/scumm/he/spyfox2-win-demo-nl.zip</url>
+				<url>/frs/demos/scumm/he/spyfox2-win-demo-nl.zip</url>
 				<target>spyfox2</target>
 				<category>spyfox</category>
 			</demo>
 			<demo>
 				<name>SPY Fox 2: Some Assembly Required (Windows German Demo)</name>
-				<url>/downloads/demos/scumm/he/spyfox2-win-demo-de.zip</url>
+				<url>/frs/demos/scumm/he/spyfox2-win-demo-de.zip</url>
 				<target>spyfox2</target>
 				<category>spyfox</category>
 			</demo>
 			<demo>
 				<name>SPY Fox 2: Some Assembly Required (Windows Italian Demo)</name>
-				<url>/downloads/demos/scumm/he/spyfox2-win-demo-it.zip</url>
+				<url>/frs/demos/scumm/he/spyfox2-win-demo-it.zip</url>
 				<target>spyfox2</target>
 				<category>spyfox</category>
 			</demo>
 			<demo>
 				<name>SPY Fox 2: Some Assembly Required (Windows UK Demo)</name>
-				<url>/downloads/demos/scumm/he/spyfox2-win-demo-uk.zip</url>
+				<url>/frs/demos/scumm/he/spyfox2-win-demo-uk.zip</url>
 				<target>spyfox2</target>
 				<category>spyfox</category>
 			</demo>
 			<demo>
 				<name>SPY Fox 3: Operation Ozone (Windows Demo)</name>
-				<url>/downloads/demos/scumm/he/spyozon-win-demo-us.zip</url>
+				<url>/frs/demos/scumm/he/spyozon-win-demo-us.zip</url>
 				<target>spyozon</target>
 				<category>spyfox</category>
 			</demo>
 			<demo>
 				<name>SPY Fox 3: Operation Ozone (Windows French Demo)</name>
-				<url>/downloads/demos/scumm/he/spyozon-win-demo-fr.zip</url>
+				<url>/frs/demos/scumm/he/spyozon-win-demo-fr.zip</url>
 				<target>spyozon</target>
 				<category>spyfox</category>
 			</demo>
 			<demo>
 				<name>SPY Fox 3: Operation Ozone (Windows Preview)</name>
-				<url>/downloads/demos/scumm/he/spyozon-win-preview-us.zip</url>
+				<url>/frs/demos/scumm/he/spyozon-win-preview-us.zip</url>
 				<target>spyozon</target>
 				<category>spyfox</category>
 			</demo>
@@ -843,86 +843,86 @@
 		<demos>
 			<demo>
 				<name>Elvira - Mistress of Darkness (Amiga demo - Non interactive)</name>
-				<url>/downloads/demos/agos/elvira1-amiga-ni-demo-en.zip</url>
+				<url>/frs/demos/agos/elvira1-amiga-ni-demo-en.zip</url>
 				<target>elvira1</target>
 				<category>elvira</category>
 			</demo>
 			<demo>
 				<name>Elvira - Mistress of Darkness (Atari ST demo - Non interactive)</name>
-				<url>/downloads/demos/agos/elvira1-atari-ni-demo-en.zip</url>
+				<url>/frs/demos/agos/elvira1-atari-ni-demo-en.zip</url>
 				<target>elvira1</target>
 				<category>elvira</category>
 			</demo>
 			<demo>
 				<name>Elvira - Mistress of Darkness (DOS demo - Non interactive)</name>
-				<url>/downloads/demos/agos/elvira1-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/agos/elvira1-dos-ni-demo-en.zip</url>
 				<target>elvira1</target>
 				<category>elvira</category>
 			</demo>
 			<demo>
 				<name>Personal Nightmare (Atari ST demo - Non-interactive)</name>
-				<url>/downloads/demos/agos/pn-atari-ni-demo-en.zip</url>
+				<url>/frs/demos/agos/pn-atari-ni-demo-en.zip</url>
 				<target>pn</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Simon the Sorcerer 1 (Amiga demo)</name>
-				<url>/downloads/demos/agos/simon1-amiga-floppy-demo-en.zip</url>
+				<url>/frs/demos/agos/simon1-amiga-floppy-demo-en.zip</url>
 				<target>simon1</target>
 				<category>simon</category>
 			</demo>
 			<demo>
 				<name>Simon the Sorcerer 1 (Amiga CD32 demo)</name>
-				<url>/downloads/demos/agos/simon1-amiga-cd32-demo-en.zip</url>
+				<url>/frs/demos/agos/simon1-amiga-cd32-demo-en.zip</url>
 				<target>simon1</target>
 				<category>simon</category>
 			</demo>
 			<demo>
 				<name>Simon the Sorcerer 1 (DOS demo)</name>
-				<url>/downloads/demos/agos/simon1-dos-floppy-demo-en.zip</url>
+				<url>/frs/demos/agos/simon1-dos-floppy-demo-en.zip</url>
 				<target>simon1</target>
 				<category>simon</category>
 			</demo>
 			<demo>
 				<name>Simon the Sorcerer 1 (Acorn CD demo)</name>
-				<url>/downloads/demos/agos/simon1-acorn-cd-demo-en.zip</url>
+				<url>/frs/demos/agos/simon1-acorn-cd-demo-en.zip</url>
 				<target>simon1</target>
 				<category>simon</category>
 			</demo>
 			<demo>
 				<name>Simon the Sorcerer 1 (DOS CD demo)</name>
-				<url>/downloads/demos/agos/simon1-dos-cd-demo-en.zip</url>
+				<url>/frs/demos/agos/simon1-dos-cd-demo-en.zip</url>
 				<target>simon1</target>
 				<category>simon</category>
 			</demo>
 			<demo>
 				<name>Simon the Sorcerer 2 (DOS CD demo)</name>
-				<url>/downloads/demos/agos/simon2-dos-cd-demo-en.zip</url>
+				<url>/frs/demos/agos/simon2-dos-cd-demo-en.zip</url>
 				<target>simon2</target>
 			</demo>
 			<demo>
 				<name>Simon the Sorcerer 2 (DOS CD German demo)</name>
-				<url>/downloads/demos/agos/simon2-dos-cd-demo-de.zip</url>
+				<url>/frs/demos/agos/simon2-dos-cd-demo-de.zip</url>
 				<target>simon2</target>
 			</demo>
 			<demo>
 				<name>Simon the Sorcerer 2 (DOS CD German demo - Non interactive)</name>
-				<url>/downloads/demos/agos/simon2-dos-cd-ni-demo-de.zip</url>
+				<url>/frs/demos/agos/simon2-dos-cd-ni-demo-de.zip</url>
 				<target>simon2</target>
 			</demo>
 			<demo>
 				<name>The Feeble Files (DOS demo - Non interactive)</name>
-				<url>/downloads/demos/agos/feeble-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/agos/feeble-dos-ni-demo-en.zip</url>
 				<target>feeble</target>
 			</demo>
 			<demo>
 				<name>The Feeble Files (DOS German demo - Non interactive)</name>
-				<url>/downloads/demos/agos/feeble-dos-ni-demo-de.zip</url>
+				<url>/frs/demos/agos/feeble-dos-ni-demo-de.zip</url>
 				<target>feeble</target>
 			</demo>
 			<demo>
 				<name>Waxworks (DOS demo - Non interactive)</name>
-				<url>/downloads/demos/agos/waxworks-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/agos/waxworks-dos-ni-demo-en.zip</url>
 				<target>waxworks</target>
 			</demo>
 		</demos>
@@ -933,127 +933,127 @@
 		<demos>
 			<demo>
 				<name>Gobliiins (Amiga demo)</name>
-				<url>/downloads/demos/gob/gob1-amiga_demo_en.zip</url>
+				<url>/frs/demos/gob/gob1-amiga_demo_en.zip</url>
 				<target>gob</target>
 			</demo>
 			<demo>
 				<name>Gobliiins (DOS demo)</name>
-				<url>/downloads/demos/gob/gob1-dos-demo1-en.zip</url>
+				<url>/frs/demos/gob/gob1-dos-demo1-en.zip</url>
 				<target>gob</target>
 			</demo>
 			<demo>
 				<name>Gobliiins (DOS Alternative demo)</name>
-				<url>/downloads/demos/gob/gob1-dos-demo2-en.zip</url>
+				<url>/frs/demos/gob/gob1-dos-demo2-en.zip</url>
 				<target>gob</target>
 			</demo>
 			<demo>
 				<name>Gobliiins (DOS French demo)</name>
-				<url>/downloads/demos/gob/gob1-dos-demo-fr.zip</url>
+				<url>/frs/demos/gob/gob1-dos-demo-fr.zip</url>
 				<target>gob</target>
 			</demo>
 			<demo>
 				<name>Gobliins 2 (Amiga demo)</name>
-				<url>/downloads/demos/gob/gob2-amiga-demo1-en.zip</url>
+				<url>/frs/demos/gob/gob2-amiga-demo1-en.zip</url>
 				<target>gob2</target>
 				<category>gob</category>
 			</demo>
 			<demo>
 				<name>Gobliins 2 (Amiga Alternative demo)</name>
-				<url>/downloads/demos/gob/gob2-amiga-demo2-en.zip</url>
+				<url>/frs/demos/gob/gob2-amiga-demo2-en.zip</url>
 				<target>gob2</target>
 				<category>gob</category>
 			</demo>
 			<demo>
 				<name>Gobliins 2 (DOS demo)</name>
-				<url>/downloads/demos/gob/gob2-dos-demo-en.zip</url>
+				<url>/frs/demos/gob/gob2-dos-demo-en.zip</url>
 				<target>gob2</target>
 				<category>gob</category>
 			</demo>
 			<demo>
 				<name>Gobliins 2 (DOS demo - Non interactive)</name>
-				<url>/downloads/demos/gob/gob2-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/gob/gob2-dos-ni-demo-en.zip</url>
 				<target>gob2</target>
 				<category>gob</category>
 			</demo>
 			<demo>
 				<name>Goblins Quest 3 (DOS demo)</name>
-				<url>/downloads/demos/gob/gob3-dos-demo-en.zip</url>
+				<url>/frs/demos/gob/gob3-dos-demo-en.zip</url>
 				<target>gob3</target>
 				<category>gob</category>
 			</demo>
 			<demo>
 				<name>Goblins Quest 3 (DOS demo - Non interactive)</name>
-				<url>/downloads/demos/gob/gob3-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/gob/gob3-dos-ni-demo-en.zip</url>
 				<target>gob3</target>
 				<category>gob</category>
 			</demo>
 			<demo>
 				<name>Goblins Quest 3 (DOS French demo)</name>
-				<url>/downloads/demos/gob/gob3-dos-demo1-fr.zip</url>
+				<url>/frs/demos/gob/gob3-dos-demo1-fr.zip</url>
 				<target>gob3</target>
 				<category>gob</category>
 			</demo>
 			<demo>
 				<name>Goblins Quest 3 (DOS French Alternative demo)</name>
-				<url>/downloads/demos/gob/gob3-dos-demo2-fr.zip</url>
+				<url>/frs/demos/gob/gob3-dos-demo2-fr.zip</url>
 				<target>gob3</target>
 				<category>gob</category>
 			</demo>
 			<demo>
 				<name>Inca II: Wiracocha (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/gob/inca2-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/gob/inca2-dos-ni-demo-en.zip</url>
 				<target>inca2</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Lost in Time (DOS demo - Non interactive)</name>
-				<url>/downloads/demos/gob/lostintime-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/gob/lostintime-dos-ni-demo-en.zip</url>
 				<target>lit</target>
 				<category>lostintime</category>
 			</demo>
 			<demo>
 				<name>Playtoons (DOS demos of Playtoon 1 - Uncle Archibald, Playtoon 2 - Spirou, Playtoons 3 - Secret of the Castle)</name>
-				<url>/downloads/demos/gob/archibald-dos-ni-demo1-en.zip</url>
+				<url>/frs/demos/gob/archibald-dos-ni-demo1-en.zip</url>
 				<target>gob</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Playtoon 1 - Uncle Archibald (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/gob/archibald-dos-ni-demo2-en.zip</url>
+				<url>/frs/demos/gob/archibald-dos-ni-demo2-en.zip</url>
 				<target>playtoons1</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Playtoon 1 - Uncle Archibald (DOS Italian demo - Non-interactive)</name>
-				<url>/downloads/demos/gob/archibald-dos-ni-demo-it.zip</url>
+				<url>/frs/demos/gob/archibald-dos-ni-demo-it.zip</url>
 				<target>playtoons1</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Playtoon 1 - Uncle Archibald (DOS Spanish demo - Non-interactive)</name>
-				<url>/downloads/demos/gob/archibald-dos-ni-demo-sp.zip</url>
+				<url>/frs/demos/gob/archibald-dos-ni-demo-sp.zip</url>
 				<target>playtoons1</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>The Bizarre Adventures of Woodruff and the Schnibble (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/gob/woodruff-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/gob/woodruff-dos-ni-demo-en.zip</url>
 				<target>woodruff</target>
 			</demo>
 			<demo>
 				<name>The Last Dynasty (DOS demo - Non interactive)</name>
-				<url>/downloads/demos/gob/dynasty-win-ni-demo-en.zip</url>
+				<url>/frs/demos/gob/dynasty-win-ni-demo-en.zip</url>
 				<target>gob</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Urban Runner (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/gob/urban-win-ni-demo-en.zip</url>
+				<url>/frs/demos/gob/urban-win-ni-demo-en.zip</url>
 				<target>urban</target>
 			</demo>
 			<demo>
 				<name>Ween: The Prophecy (DOS demo)</name>
-				<url>/downloads/demos/gob/ween-dos-demo-en.zip</url>
+				<url>/frs/demos/gob/ween-dos-demo-en.zip</url>
 				<target>ween</target>
 			</demo>
 		</demos>
@@ -1064,123 +1064,123 @@
 		<demos>
 			<demo>
 				<name>Aesop's Fables: The Tortoise and the Hare (Macintosh demo)</name>
-				<url>/downloads/demos/mohawk/tortoise-demo-mac-en.zip</url>
+				<url>/frs/demos/mohawk/tortoise-demo-mac-en.zip</url>
 				<target>tortoise</target>
 			</demo>
 			<demo>
 				<name>Aesop's Fables: The Tortoise and the Hare (Windows demo)</name>
-				<url>/downloads/demos/mohawk/tortoise-win-demo-en.zip</url>
+				<url>/frs/demos/mohawk/tortoise-win-demo-en.zip</url>
 				<target>tortoise</target>
 			</demo>
 			<demo>
 				<name>Aesop's Fables: The Tortoise and the Hare (Windows demo alt)</name>
-				<url>/downloads/demos/mohawk/tortoise-win-demo2-en-v1.1.zip</url>
+				<url>/frs/demos/mohawk/tortoise-win-demo2-en-v1.1.zip</url>
 				<target>tortoise</target>
 			</demo>
 			<demo>
 				<name>Arthur's Birthday (Macintosh demo)</name>
-				<url>/downloads/demos/mohawk/arthurbday-mac-demo-en.zip</url>
+				<url>/frs/demos/mohawk/arthurbday-mac-demo-en.zip</url>
 				<target>arthurbday</target>
 				<category>arthur</category>
 			</demo>
 			<demo>
 				<name>Arthur's Birthday (Windows demo)</name>
-				<url>/downloads/demos/mohawk/arthurbday-win-demo-en.zip</url>
+				<url>/frs/demos/mohawk/arthurbday-win-demo-en.zip</url>
 				<target>arthurbday</target>
 				<category>arthur</category>
 			</demo>
 			<demo>
 				<name>Arthur's Teacher Troubles (Macintosh demo)</name>
-				<url>/downloads/demos/mohawk/arthur-mac-demo-en.zip</url>
+				<url>/frs/demos/mohawk/arthur-mac-demo-en.zip</url>
 				<target>arthur</target>
 			</demo>
 			<demo>
 				<name>Arthur's Teacher Troubles (Macintosh demo alt)</name>
-				<url>/downloads/demos/mohawk/arthur-mac-demo2-en.zip</url>
+				<url>/frs/demos/mohawk/arthur-mac-demo2-en.zip</url>
 				<target>arthur</target>
 			</demo>
 			<demo>
 				<name>Arthur's Teacher Troubles (Windows demo)</name>
-				<url>/downloads/demos/mohawk/arthur-win-demo-en.zip</url>
+				<url>/frs/demos/mohawk/arthur-win-demo-en.zip</url>
 				<target>arthur</target>
 			</demo>
 			<demo>
 				<name>Arthur's Teacher Troubles (Windows demo alt)</name>
-				<url>/downloads/demos/mohawk/arthur-win-demo-en-v1.1.zip</url>
+				<url>/frs/demos/mohawk/arthur-win-demo-en-v1.1.zip</url>
 				<target>arthur</target>
 			</demo>
 			<demo>
 				<name>Green Eggs and Ham (Windows demo)</name>
-				<url>/downloads/demos/mohawk/greeneggs-win-demo-en.zip</url>
+				<url>/frs/demos/mohawk/greeneggs-win-demo-en.zip</url>
 				<target>greeneggs</target>
 			</demo>
 			<demo>
 				<name>Just Grandma and Me (Macintosh demo)</name>
-				<url>/downloads/demos/mohawk/grandma-mac-demo-en.zip</url>
+				<url>/frs/demos/mohawk/grandma-mac-demo-en.zip</url>
 				<target>grandma</target>
 			</demo>
 			<demo>
 				<name>Just Grandma and Me (Macintosh demo alt)</name>
-				<url>/downloads/demos/mohawk/grandma-mac-demo2-en.zip</url>
+				<url>/frs/demos/mohawk/grandma-mac-demo2-en.zip</url>
 				<target>grandma</target>
 			</demo>
 			<demo>
 				<name>Just Grandma and Me (Windows demo)</name>
-				<url>/downloads/demos/mohawk/grandma-win-demo-en.zip</url>
+				<url>/frs/demos/mohawk/grandma-win-demo-en.zip</url>
 				<target>grandma</target>
 			</demo>
 			<demo>
 				<name>Just Grandma and Me (Windows demo alt)</name>
-				<url>/downloads/demos/mohawk/grandma-win-demo-en-v1.1.zip</url>
+				<url>/frs/demos/mohawk/grandma-win-demo-en-v1.1.zip</url>
 				<target>grandma</target>
 			</demo>
 			<demo>
 				<name>Living Books Sampler v1 (Macintosh demo)</name>
-				<url>/downloads/demos/mohawk/lbsampler-demo-mac-en-v1.zip</url>
+				<url>/frs/demos/mohawk/lbsampler-demo-mac-en-v1.zip</url>
 				<target>lbsampler</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Living Books Sampler v1 (Windows demo)</name>
-				<url>/downloads/demos/mohawk/lbsampler-demo-win-en-v1.zip</url>
+				<url>/frs/demos/mohawk/lbsampler-demo-win-en-v1.zip</url>
 				<target>lbsampler</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Living Books Sampler v2 (Macintosh demo)</name>
-				<url>/downloads/demos/mohawk/lbsampler-demo-mac-en-v2.zip</url>
+				<url>/frs/demos/mohawk/lbsampler-demo-mac-en-v2.zip</url>
 				<target>lbsampler</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Living Books Sampler v2 (Windows demo)</name>
-				<url>/downloads/demos/mohawk/lbsampler-demo-win-en-v2.zip</url>
+				<url>/frs/demos/mohawk/lbsampler-demo-win-en-v2.zip</url>
 				<target>lbsampler</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Ruff's Bone (Macintosh demo)</name>
-				<url>/downloads/demos/mohawk/ruff-mac-demo-en.zip</url>
+				<url>/frs/demos/mohawk/ruff-mac-demo-en.zip</url>
 				<target>ruff</target>
 			</demo>
 			<demo>
 				<name>Ruff's Bone (Windows demo)</name>
-				<url>/downloads/demos/mohawk/ruff-win-demo-en.zip</url>
+				<url>/frs/demos/mohawk/ruff-win-demo-en.zip</url>
 				<target>ruff</target>
 			</demo>
 			<demo>
 				<name>The New Kid on the Block (Macintosh demo)</name>
-				<url>/downloads/demos/mohawk/newkid-demo-mac-en.zip</url>
+				<url>/frs/demos/mohawk/newkid-demo-mac-en.zip</url>
 				<target>newkid</target>
 			</demo>
 			<demo>
 				<name>The New Kid on the Block (Windows demo)</name>
-				<url>/downloads/demos/mohawk/newkid-win-demo-en.zip</url>
+				<url>/frs/demos/mohawk/newkid-win-demo-en.zip</url>
 				<target>newkid</target>
 			</demo>
 			<demo>
 				<name>The New Kid on the Block (Windows demo alt)</name>
-				<url>/downloads/demos/mohawk/newkid-win-demo-en-v1.1.zip</url>
+				<url>/frs/demos/mohawk/newkid-win-demo-en-v1.1.zip</url>
 				<target>newkid</target>
 			</demo>
 		</demos>
@@ -1191,267 +1191,267 @@
 		<demos>
 			<demo>
 				<name>AGI Demo Pack 1 (DOS demos of 3-D Helicopter Sim, Police Quest, Thexder, Space Quest 2, Mixed-up Mother Goose, Leisure Suit Larry)</name>
-				<url>/downloads/demos/agi/agi-dos-pack1-demo-en.zip</url>
+				<url>/frs/demos/agi/agi-dos-pack1-demo-en.zip</url>
 				<target>agidemo</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>AGI Demo Pack 2 (DOS demos of 3-D Helicopter Sim, Space Quest 2, Thexder, King's Quest 3, Mixed- up Mother Goose, King's Quest 2, Police Quest, Leisure Suit Larry, Space Quest)</name>
-				<url>/downloads/demos/agi/agi-dos-pack2-demo-en.zip</url>
+				<url>/frs/demos/agi/agi-dos-pack2-demo-en.zip</url>
 				<target>agidemo</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>AGI Demo Pack 3 (DOS demos of 3-D Helicopter Sim, Space Quest 2, Police Quest, King's Quest 3, Mixed-up Mother Goose, Leisure Suit Larry)</name>
-				<url>/downloads/demos/agi/agi-dos-pack3-demo-en.zip</url>
+				<url>/frs/demos/agi/agi-dos-pack3-demo-en.zip</url>
 				<target>agidemo</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>AGI Demo Pack 4 (DOS demos of Gold Rush!, Manhunter: NewYork, Mixed-up Mother Goose, Police Quest, Space Quest 2, Leisure Suit Larry)</name>
-				<url>/downloads/demos/agi/agi-dos-pack4-demo-en.zip</url>
+				<url>/frs/demos/agi/agi-dos-pack4-demo-en.zip</url>
 				<target>agidemo</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>AGI Demo Pack 5 (DOS demos of Space Quest, Donald Duck's Playground, King's Quest 3, Leisure Suit Larry)</name>
-				<url>/downloads/demos/agi/agi-dos-pack5-demo-en.zip</url>
+				<url>/frs/demos/agi/agi-dos-pack5-demo-en.zip</url>
 				<target>agidemo</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Astro Chicken (DOS demo)</name>
-				<url>/downloads/demos/sci/astrochicken-dos-demo-en.zip</url>
+				<url>/frs/demos/sci/astrochicken-dos-demo-en.zip</url>
 				<target>astrochicken</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Castle of Dr. Brain (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/castlebrain-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/castlebrain-dos-ni-demo-en.zip</url>
 				<target>castlebrain</target>
 			</demo>
 			<demo>
 				<name>Christmas Card 1988 (DOS demo)</name>
-				<url>/downloads/demos/sci/christmas1988-dos-en.zip</url>
+				<url>/frs/demos/sci/christmas1988-dos-en.zip</url>
 				<target>christmas1988</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Christmas Card 1990: The Seasoned Professional (EGA DOS demo)</name>
-				<url>/downloads/demos/sci/christmas1990-dos-ega-en.zip</url>
+				<url>/frs/demos/sci/christmas1990-dos-ega-en.zip</url>
 				<target>christmas1990</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Christmas Card 1990: The Seasoned Professional (VGA DOS demo)</name>
-				<url>/downloads/demos/sci/christmas1990-dos-vga-en.zip</url>
+				<url>/frs/demos/sci/christmas1990-dos-vga-en.zip</url>
 				<target>christmas1990</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Christmas Card 1992 (DOS demo)</name>
-				<url>/downloads/demos/sci/christmas1992-dos-en.zip</url>
+				<url>/frs/demos/sci/christmas1992-dos-en.zip</url>
 				<target>christmas1992</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Codename: ICEMAN (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/iceman-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/iceman-dos-ni-demo-en.zip</url>
 				<target>iceman</target>
 			</demo>
 			<demo>
 				<name>Conquests of Camelot: King Arthur, Quest for the Grail (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/camelot-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/camelot-dos-ni-demo-en.zip</url>
 				<target>camelot</target>
 			</demo>
 			<demo>
 				<name>Conquests of the Longbow: The Adventures of Robin Hood (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/longbow-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/longbow-dos-ni-demo-en.zip</url>
 				<target>longbow</target>
 			</demo>
 			<demo>
 				<name>EcoQuest: The Search for Cetus (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/ecoquest-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/ecoquest-dos-ni-demo-en.zip</url>
 				<target>ecoquest</target>
 			</demo>
 			<demo>
 				<name>EcoQuest II: Lost Secret of the Rainforest (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/ecoquest2-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/ecoquest2-dos-ni-demo-en.zip</url>
 				<target>ecoquest2</target>
 				<category>ecoquest</category>
 			</demo>
 			<demo>
 				<name>Freddy Pharkas: Frontier Pharmacist (DOS demo)</name>
-				<url>/downloads/demos/sci/freddypharkas-dos-demo1-en.zip</url>
+				<url>/frs/demos/sci/freddypharkas-dos-demo1-en.zip</url>
 				<target>freddypharkas</target>
 			</demo>
 			<demo>
 				<name>Freddy Pharkas: Frontier Pharmacist (DOS Alternative demo)</name>
-				<url>/downloads/demos/sci/freddypharkas-dos-demo2-en.zip</url>
+				<url>/frs/demos/sci/freddypharkas-dos-demo2-en.zip</url>
 				<target>freddypharkas</target>
 			</demo>
 			<demo>
 				<name>Freddy Pharkas: Frontier Pharmacist (Windows CD demo)</name>
-				<url>/downloads/demos/sci/freddypharkas-win-cd-demo-en.zip</url>
+				<url>/frs/demos/sci/freddypharkas-win-cd-demo-en.zip</url>
 				<target>freddypharkas</target>
 			</demo>
 			<demo>
 				<name>Fun Seeker's Guide (DOS demo)</name>
-				<url>/downloads/demos/sci/funseeker-dos-demo-en.zip</url>
+				<url>/frs/demos/sci/funseeker-dos-demo-en.zip</url>
 				<target>funseeker</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Hoyle Classic Card Games (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/hoyle4-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/hoyle4-dos-ni-demo-en.zip</url>
 				<target>hoyle4</target>
 				<category>hoyle</category>
 			</demo>
 			<demo>
 				<name>King's Quest I: Quest for the Crown, SCI Remake (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/kq1sci-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/kq1sci-dos-ni-demo-en.zip</url>
 				<target>kq1sci</target>
 				<category>kq-sci</category>
 			</demo>
 			<demo>
 				<name>King's Quest IV: The Perils of Rosella (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/agi/kq4-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/agi/kq4-dos-ni-demo-en.zip</url>
 				<target>kq4</target>
 				<category>kq-sci</category>
 			</demo>
 			<demo>
 				<name>King's Quest IV: The Perils of Rosella, SCI Remake (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/kq4sci-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/kq4sci-dos-ni-demo-en.zip</url>
 				<target>kq4sci</target>
 				<category>kq-sci</category>
 			</demo>
 			<demo>
 				<name>Laura Bow: The Colonel's Bequest (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/laurabow-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/laurabow-dos-ni-demo-en.zip</url>
 				<target>laurabow</target>
 			</demo>
 			<demo>
 				<name>Laura Bow 2: The Dagger of Amon Ra (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/laurabow2-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/laurabow2-dos-ni-demo-en.zip</url>
 				<target>laurabow2</target>
 				<category>laurabow</category>
 			</demo>
 			<demo>
 				<name>Leisure Suit Larry in the Land of the Lounge Lizards, SCI Remake (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/lsl1sci-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/lsl1sci-dos-ni-demo-en.zip</url>
 				<target>lsl1sci</target>
 				<category>lsl-sci</category>
 			</demo>
 			<demo>
 				<name>Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places) (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/lsl2-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/lsl2-dos-ni-demo-en.zip</url>
 				<target>lsl2</target>
 				<category>lsl-sci</category>
 			</demo>
 			<demo>
 				<name>Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/lsl3-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/lsl3-dos-ni-demo-en.zip</url>
 				<target>lsl3</target>
 				<category>lsl-sci</category>
 			</demo>
 			<demo>
 				<name>Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/lsl5-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/lsl5-dos-ni-demo-en.zip</url>
 				<target>lsl5</target>
 				<category>lsl-sci</category>
 			</demo>
 			<demo>
 				<name>Mixed-up Fairy Tales (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/fairytales-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/fairytales-dos-ni-demo-en.zip</url>
 				<target>fairytales</target>
 				<category>mixedup</category>
 			</demo>
 			<demo>
 				<name>Mixed-Up Mother Goose (DOS demo)</name>
-				<url>/downloads/demos/sci/mothergoose-win-demo-en.zip</url>
+				<url>/frs/demos/sci/mothergoose-win-demo-en.zip</url>
 				<target>mothergoose</target>
 				<category>mixedup</category>
 			</demo>
 			<demo>
 				<name>Pepper's Adventures in Time (DOS demo)</name>
-				<url>/downloads/demos/sci/pepper-dos-demo-en.zip</url>
+				<url>/frs/demos/sci/pepper-dos-demo-en.zip</url>
 				<target>pepper</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Pepper's Adventures in Time (DOS demo - Non-interactive</name>
-				<url>/downloads/demos/sci/pepper-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/pepper-dos-ni-demo-en.zip</url>
 				<target>pepper</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Pepper's Adventures in Time (Windows demo)</name>
-				<url>/downloads/demos/sci/pepper-dos-win-demo-en.zip</url>
+				<url>/frs/demos/sci/pepper-dos-win-demo-en.zip</url>
 				<target>pepper</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Ms. Astro Chicken (DOS demo)</name>
-				<url>/downloads/demos/sci/msastrochicken-dos-demo-en.zip</url>
+				<url>/frs/demos/sci/msastrochicken-dos-demo-en.zip</url>
 				<target>msastrochicken</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Police Quest III: The Kindred (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/pq3-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/pq3-dos-ni-demo-en.zip</url>
 				<target>pq3</target>
 				<category>pq-sci</category>
 			</demo>
 			<demo>
 				<name>Police Quest IV: Open Season (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/pq4-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/pq4-dos-ni-demo-en.zip</url>
 				<target>pq4</target>
 				<category>pq-sci</category>
 			</demo>
 			<demo>
 				<name>Quest for Glory I: So You Want to Be a Hero (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/qfg1-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/qfg1-dos-ni-demo-en.zip</url>
 				<target>qfg1</target>
 				<category>qfg-sci</category>
 			</demo>
 			<demo>
 				<name>Quest for Glory II: Trial by Fire (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/qfg2-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/qfg2-dos-ni-demo-en.zip</url>
 				<target>qfg2</target>
 				<category>qfg-sci</category>
 			</demo>
 			<demo>
 				<name>Quest for Glory III: Wages of War (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/qfg3-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/qfg3-dos-ni-demo-en.zip</url>
 				<target>qfg3</target>
 				<category>qfg-sci</category>
 			</demo>
 			<demo>
 				<name>Slater &amp; Charlie Go Camping (DOS demo)</name>
-				<url>/downloads/demos/sci/slater-dos-demo.en.zip</url>
+				<url>/frs/demos/sci/slater-dos-demo.en.zip</url>
 				<target>slater</target>
 			</demo>
 			<demo>
 				<name>Space Quest I: The Sarien Encounter, SCI Remake (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/sq1sci-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/sq1sci-dos-ni-demo-en.zip</url>
 				<target>sq1sci</target>
 				<category>sq-sci</category>
 			</demo>
 			<demo>
 				<name>Space Quest III: The Pirates of Pestulon (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/sq3-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/sq3-dos-ni-demo-en.zip</url>
 				<target>sq3</target>
 				<category>sq-sci</category>
 			</demo>
 			<demo>
 				<name>The Island of Dr. Brain (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/sci/islandbrain-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/islandbrain-dos-ni-demo-en.zip</url>
 				<target>islandbrain</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Xmas Card (DOS demo)</name>
-				<url>/downloads/demos/agi/xmascard-dos-en.zip</url>
+				<url>/frs/demos/agi/xmascard-dos-en.zip</url>
 				<target>xmascard</target>
 				<category>blank</category>
 			</demo>
@@ -1463,206 +1463,206 @@
 		<demos>
 			<demo>
 				<name>Beneath a Steel Sky (DOS CD Demo)</name>
-				<url>/downloads/demos/sky/sky-dos-v0365-cd-demo-en.zip</url>
+				<url>/frs/demos/sky/sky-dos-v0365-cd-demo-en.zip</url>
 				<target>sky</target>
 			</demo>
 			<demo>
 				<name>Broken Sword 1: The Shadow of the Templars (Macintosh Demo)</name>
-				<url>/downloads/demos/sword1/sword1-mac-demo-en.zip</url>
+				<url>/frs/demos/sword1/sword1-mac-demo-en.zip</url>
 				<target>sword1macdemo</target>
 				<category>sword</category>
 			</demo>
 			<demo>
 				<name>Broken Sword 1: The Shadow of the Templars (PlayStation Demo)</name>
-				<url>/downloads/demos/sword1/sword1-psx-demo-en.zip</url>
+				<url>/frs/demos/sword1/sword1-psx-demo-en.zip</url>
 				<target>sword1psxdemo</target>
 				<category>sword</category>
 			</demo>
 			<demo>
 				<name>Broken Sword 1: The Shadow of the Templars (Windows Demo)</name>
-				<url>/downloads/demos/sword1/sword1-win-demo-en.zip</url>
+				<url>/frs/demos/sword1/sword1-win-demo-en.zip</url>
 				<target>sword1demo</target>
 				<category>sword</category>
 			</demo>
 			<demo>
 				<name>Broken Sword II: The Smoking Mirror (Windows Demo)</name>
-				<url>/downloads/demos/sword2/sword2-win-demo-en.zip</url>
+				<url>/frs/demos/sword2/sword2-win-demo-en.zip</url>
 				<target>sword2demo</target>
 				<category>sword2</category>
 			</demo>
 			<demo>
 				<name>Broken Sword II: The Smoking Mirror (PlayStation Demo)</name>
-				<url>/downloads/demos/sword2/sword2-psx-demo-en.zip</url>
+				<url>/frs/demos/sword2/sword2-psx-demo-en.zip</url>
 				<target>sword2psxdemo</target>
 				<category>sword2</category>
 			</demo>
 			<demo>
 				<name>Bud Tucker in Double Trouble (DOS Demo)</name>
-				<url>/downloads/demos/tucker/tucker-dos-demo.zip</url>
+				<url>/frs/demos/tucker/tucker-dos-demo.zip</url>
 				<target>tucker</target>
 			</demo>
 			<demo>
 				<name>Bud Tucker in Double Trouble (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/tucker/tucker-dos-ni-demo.zip</url>
+				<url>/frs/demos/tucker/tucker-dos-ni-demo.zip</url>
 				<target>tucker</target>
 			</demo>
 			<demo>
 				<name>Discworld 1 (DOS CD demo)</name>
-				<url>/downloads/demos/tinsel/dw-dos-cd-demo-en.zip</url>
+				<url>/frs/demos/tinsel/dw-dos-cd-demo-en.zip</url>
 				<target>dw</target>
 			</demo>
 			<demo>
 				<name>Discworld 1 (DOS Floppy demo)</name>
-				<url>/downloads/demos/tinsel/dw-dos-floppy-demo-en.zip</url>
+				<url>/frs/demos/tinsel/dw-dos-floppy-demo-en.zip</url>
 				<target>dw</target>
 			</demo>
 			<demo>
 				<name>Discworld 1 (PlayStation demo)</name>
-				<url>/downloads/demos/tinsel/dw-psx-demo-en.zip</url>
+				<url>/frs/demos/tinsel/dw-psx-demo-en.zip</url>
 				<target>dw</target>
 			</demo>
 			<demo>
 				<name>Discworld 2 (Windows demo)</name>
-				<url>/downloads/demos/tinsel/dw2-win-demo-en.zip</url>
+				<url>/frs/demos/tinsel/dw2-win-demo-en.zip</url>
 				<target>dw2</target>
 				<category>dw</category>
 			</demo>
 			<demo>
 				<name>Flight of the Amazon Queen (Amiga demo)</name>
-				<url>/downloads/demos/queen/queen-amiga-demo-en.zip</url>
+				<url>/frs/demos/queen/queen-amiga-demo-en.zip</url>
 				<target>queen</target>
 			</demo>
 			<demo>
 				<name>Flight of the Amazon Queen (Amiga interview demo)</name>
-				<url>/downloads/demos/queen/queen-amiga-interview-en.zip</url>
+				<url>/frs/demos/queen/queen-amiga-interview-en.zip</url>
 				<target>queen</target>
 			</demo>
 			<demo>
 				<name>Flight of the Amazon Queen (DOS demo)</name>
-				<url>/downloads/demos/queen/queen-dos-demo-en.zip</url>
+				<url>/frs/demos/queen/queen-dos-demo-en.zip</url>
 				<target>queen</target>
 			</demo>
 			<demo>
 				<name>Flight of the Amazon Queen (DOS PCGAMES demo)</name>
-				<url>/downloads/demos/queen/queen-dos-pcgames-demo-en.zip</url>
+				<url>/frs/demos/queen/queen-dos-pcgames-demo-en.zip</url>
 				<target>queen</target>
 			</demo>
 			<demo>
 				<name>Flight of the Amazon Queen (DOS interview demo)</name>
-				<url>/downloads/demos/queen/queen-dos-interview-en.zip</url>
+				<url>/frs/demos/queen/queen-dos-interview-en.zip</url>
 				<target>queen</target>
 			</demo>
 			<demo>
 				<name>Future Wars (Amiga demo - Non interactive)</name>
-				<url>/downloads/demos/cine/fw-amiga-ni-demo-en.zip</url>
+				<url>/frs/demos/cine/fw-amiga-ni-demo-en.zip</url>
 				<target>fw</target>
 			</demo>
 			<demo>
 				<name>Hopkins FBI (Linux demo)</name>
-				<url>/downloads/demos/hopkins/hopkins-linux-en.zip</url>
+				<url>/frs/demos/hopkins/hopkins-linux-en.zip</url>
 				<target>hopkins</target>
 			</demo>
 			<demo>
 				<name>Hopkins FBI (Windows 95 English demo)</name>
-				<url>/downloads/demos/hopkins/hopkins-win95-en.zip</url>
+				<url>/frs/demos/hopkins/hopkins-win95-en.zip</url>
 				<target>hopkins</target>
 			</demo>
 			<demo>
 				<name>Hopkins FBI (Windows 95 Polish demo)</name>
-				<url>/downloads/demos/hopkins/hopkins-win95-pl.zip</url>
+				<url>/frs/demos/hopkins/hopkins-win95-pl.zip</url>
 				<target>hopkins</target>
 			</demo>
 			<demo>
 				<name>I Have No Mouth And I Must Scream (DOS demo)</name>
-				<url>/downloads/demos/saga/ihnm-dos-demo-en.zip</url>
+				<url>/frs/demos/saga/ihnm-dos-demo-en.zip</url>
 				<target>ihnm</target>
 			</demo>
 			<demo>
 				<name>Lands of Lore: The Throne of Chaos (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/kyra/lol-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/kyra/lol-dos-ni-demo-en.zip</url>
 				<target>lol</target>
 			</demo>
 			<demo>
 				<name>Nippon Safes (Amiga demo)</name>
-				<url>/downloads/demos/parallaction/nippon-amiga-demo-en.zip</url>
+				<url>/frs/demos/parallaction/nippon-amiga-demo-en.zip</url>
 				<target>nippon</target>
 			</demo>
 			<demo>
 				<name>Operation Stealth (Amiga demo - Non interactive)</name>
-				<url>/downloads/demos/cine/os-amiga-ni-demo-en.zip</url>
+				<url>/frs/demos/cine/os-amiga-ni-demo-en.zip</url>
 				<target>os</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Operation Stealth (DOS demo - Non interactive) - Requires ScummVM 1.8.0git</name>
-				<url>/downloads/demos/cine/os-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/cine/os-dos-ni-demo-en.zip</url>
 				<target>os</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Return to Ringworld (DOS demo)</name>
-				<url>/downloads/demos/tsage/returntoringworld-dos-demo-en.zip</url>
+				<url>/frs/demos/tsage/returntoringworld-dos-demo-en.zip</url>
 				<target>tsage</target>
 				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Return to Zork (DOS demo - Non interactive)</name>
-				<url>/downloads/demos/made/rtz-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/made/rtz-dos-ni-demo-en.zip</url>
 				<target>rtz</target>
 			</demo>
 			<demo>
 				<name>Teen Agent (DOS Union demo)</name>
-				<url>/downloads/demos/teen/teen-dos-union-demo-en.zip</url>
+				<url>/frs/demos/teen/teen-dos-union-demo-en.zip</url>
 				<target>teenagent</target>
 			</demo>
 			<demo>
 				<name>Teen Agent (DOS WizTech demo)</name>
-				<url>/downloads/demos/teen/teen-dos-wiztech-demo-en.zip</url>
+				<url>/frs/demos/teen/teen-dos-wiztech-demo-en.zip</url>
 				<target>teenagent</target>
 			</demo>
 			<demo>
 				<name>The Journeyman Project: Pegasus Prime (Macintosh demo)</name>
-				<url>/downloads/demos/pegasus/pegasus-mac-demo-en.zip</url>
+				<url>/frs/demos/pegasus/pegasus-mac-demo-en.zip</url>
 				<target>pegasus</target>
 				<category>jmp</category>
 			</demo>
 			<demo>
 				<name>The Legend of Kyrandia (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/kyra/kyra1-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/kyra/kyra1-dos-ni-demo-en.zip</url>
 				<target>kyra1</target>
 				<category>kyra</category>
 			</demo>
 			<demo>
 				<name>The Legend of Kyrandia: The Hand of Fate (DOS demo)</name>
-				<url>/downloads/demos/kyra/kyra2-dos-cd-demo-en.zip</url>
+				<url>/frs/demos/kyra/kyra2-dos-cd-demo-en.zip</url>
 				<target>kyra2</target>
 				<category>kyra</category>
 			</demo>
 			<demo>
 				<name>The Legend of Kyrandia: The Hand of Fate (DOS demo - Non-interactive)</name>
-				<url>/downloads/demos/kyra/kyra2-dos-ni-demo1-en.zip</url>
+				<url>/frs/demos/kyra/kyra2-dos-ni-demo1-en.zip</url>
 				<target>kyra2</target>
 				<category>kyra</category>
 			</demo>
 			<demo>
 				<name>The Legend of Kyrandia: The Hand of Fate (DOS Alternative demo - Non-interactive)</name>
-				<url>/downloads/demos/kyra/kyra2-dos-ni-demo2-en.zip</url>
+				<url>/frs/demos/kyra/kyra2-dos-ni-demo2-en.zip</url>
 				<target>kyra2</target>
 				<category>kyra</category>
 			</demo>
 			<demo>
 				<name>The Neverhood (DOS demo)</name>
-				<url>/downloads/demos/neverhood/neverhood-win-demo-en.zip</url>
+				<url>/frs/demos/neverhood/neverhood-win-demo-en.zip</url>
 				<target>neverhood</target>
 			</demo>
 			<demo>
 				<name>Toonstruck (DOS German demo)</name>
-				<url>/downloads/demos/toon/toon-dos-demo-de.zip</url>
+				<url>/frs/demos/toon/toon-dos-demo-de.zip</url>
 				<target>toon</target>
 			</demo>
 			<demo>
 				<name>Touche: The Adventures of the Fifth Musketeer (DOS Demo)</name>
-				<url>/downloads/demos/touche/touche-dos-demo-en.zip</url>
+				<url>/frs/demos/touche/touche-dos-demo-en.zip</url>
 				<target>touche</target>
 			</demo>
 		</demos>
