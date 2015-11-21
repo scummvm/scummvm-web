@@ -23,8 +23,20 @@ class Controller {
 	public function __construct() {
 		/* Create a Smarty object. */
 		$this->_smarty = new Smarty();
+
+		/**
+		 * Multilanguage suppot
+		 */
+/*
+		if (empty($_SESSION['lang']) || !empty($_GET['lang'])) {
+		  $_SESSION['lang'] = empty($_GET['lang']) ? 'en' : $_GET['lang'];
+		}
+
+		$lang = 'de';
+		$this->_smarty->template_dir = array("templates_$lang", 'templates');
+		$this->_smarty->compile_id = $lang;
+*/
 		/* Configure smarty. */
-		$this->_smarty->template_dir = SMARTY_DIR_TEMPLATE;
 		$this->_smarty->compile_dir = SMARTY_DIR_COMPILE;
 		$this->_smarty->cache_dir = SMARTY_DIR_CACHE;
 		$this->_smarty->config_dir = SMARTY_DIR_CONFIG;
