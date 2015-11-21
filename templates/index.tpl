@@ -55,6 +55,10 @@
 					<img src="images/scummvm_cb.png" width="88" height="32" alt="Combobreaker.com T-Shirts">
 				</a>
 				<br>
+				<a href="http://www.easyname.at/">
+					<img src="images/easyname-logo-big.png" width="88" height="32" alt="easyname hosting">
+				</a>
+				<br>
 				<a href="http://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
 					<img src="images/GOG_button_small.png" width="88" height="32" alt="GOG.com games">
 				</a>
@@ -104,9 +108,9 @@
 			</a>
 			<a href="http://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
 				<img src="images/GOG_button_small.png" alt="Buy with GOG.com" width="88" height="32">
-			</a> 
-			<a href="http://sourceforge.net/projects/scummvm">
-				<img src="http://sflogo.sourceforge.net/sflogo.php?group_id=37116&amp;type=13" width="120" height="30" alt="Get ScummVM at SourceForge.net. Fast, secure and Free Open Source software downloads">
+			</a>
+			<a href="http://easyname.at">
+				<img src="images/easyname-logo-big.png" width="88" height="32" alt="easyname hosting">
 			</a>
 			<a href="http://validator.w3.org/check/referer">
 				<img src="http://www.w3.org/Icons/valid-html401" width="88" height="31" alt="Valid HTML 4.01!">
