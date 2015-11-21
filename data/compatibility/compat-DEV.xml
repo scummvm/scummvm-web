@@ -856,7 +856,7 @@
 				<target>bbvs</target>
 				<support_level>untested</support_level>
 				<notes>
-					Game is completable<h:br />- Only Windows version is supported.
+					Game is completable<h:br />- Only Windows version is supported.<h:br /><h:br />Game has been recently supported and requires further play testing.
 				</notes>
 			</game>
 			<game>
@@ -1040,7 +1040,7 @@
 				<target>nebular</target>
 				<support_level>untested</support_level>
 				<notes>
-					Game is completable<h:br />- Original floppy version must be installed using DosBox before game is playable.
+					Game is completable<h:br />- Original floppy version must be installed using DosBox before game is playable.<h:br /><h:br />Game has been recently supported and requires further play testing.
 				</notes>
 			</game>
 			<game>
@@ -1112,7 +1112,7 @@
 				<target>scalpel</target>
 				<support_level>untested</support_level>
 				<notes>
-					Game is completable<h:br />- Only DOS verion is supported
+					Game is completable<h:br />- Only DOS verion is supported<h:br /><h:br />Game has been recently supported and requires further play testing.
 				</notes>
 			</game>
 			<game>
@@ -1120,7 +1120,7 @@
 				<target>rosetattoo</target>
 				<support_level>untested</support_level>
 				<notes>
-					Game is completable
+					Game is completable<h:br /><h:br />Game has been recently supported and requires further play testing.
 				</notes>
 			</game>
 			<game>
