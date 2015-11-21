@@ -700,6 +700,14 @@
 				</person>
 			</group>
 			<group>
+				<name>Sherlock</name>
+				<person>
+					<name>Paul Gilbert</name>
+					<alias>dreammaster</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>Sky</name>
 				<person>
 					<name>Robert G&ouml;ffringmann</name>
@@ -1130,6 +1138,14 @@
 				<person>
 					<name>Andre Heider</name>
 					<alias>dhewg</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Raspberry Pi</name>
+				<person>
+					<name>Manuel Alfayate</name>
+					<alias>vanfanel</alias>
 					<description></description>
 				</person>
 			</group>
@@ -2226,5 +2242,6 @@
 		<paragraph>Janusz Wi&#347;niewski and Miroslaw Liminowicz from Laboratorium Komputerowe Avalon for providing full source code for So&#322;tys and Sfinx and letting us redistribute the games.</paragraph>
 		<paragraph>Jan Nedoma for providing the sources to the Wintermute-engine, and for his support while porting the engine to ScummVM.</paragraph>
 		<paragraph>Bob Bell, Michel Kripalani, Tommy Yune, from Presto Studios for providing the source code of The Journeyman Project: Pegasus Prime.</paragraph>
+		<paragraph>Electronic Arts IP Preservation Team, particularly Stefan Serbicki, and Vasyl Tsvirkunov of Electronic Arts for providing the source code of the two Lost Files of Sherlock Holmes games. Mr Ferguson and sirlemonhead for their tenacious efforts to recover the sources.</paragraph>
 	</section>
 </credits>
