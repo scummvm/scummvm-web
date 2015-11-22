@@ -27,7 +27,6 @@ class Controller {
 		/**
 		 * Multilanguage suppot
 		 */
-/*
 		if (empty($_SESSION['lang']) || !empty($_GET['lang'])) {
 		  $_SESSION['lang'] = empty($_GET['lang']) ? 'en' : $_GET['lang'];
 		}
@@ -35,7 +34,7 @@ class Controller {
 		$lang = 'de';
 		$this->_smarty->template_dir = array("templates_$lang", 'templates');
 		$this->_smarty->compile_id = $lang;
-*/
+
 		/* Configure smarty. */
 		$this->_smarty->compile_dir = SMARTY_DIR_COMPILE;
 		$this->_smarty->cache_dir = SMARTY_DIR_CACHE;
