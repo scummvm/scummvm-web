@@ -852,8 +852,8 @@
 				</notes>
 			</game>
 			<game>
-				<name>Amazons: Guardians of Eden</name>
-				<target>bbvs</target>
+				<name>Amazon: Guardians of Eden</name>
+				<target>access</target>
 				<support_level>untested</support_level>
 				<notes>
 					Game is completable<h:br />- the demo isn't supported.<h:br /><h:br />Game has been recently supported and requires further play testing.
