@@ -31,6 +31,8 @@ class Controller {
 		  $_SESSION['lang'] = empty($_GET['lang']) ? 'en' : $_GET['lang'];
 		}
 
+		global $lang;
+
 		$lang = 'de';
 		$this->_smarty->template_dir = array("templates_$lang", 'templates');
 		$this->_smarty->compile_id = $lang;

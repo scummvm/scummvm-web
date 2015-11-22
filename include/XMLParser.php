@@ -48,6 +48,24 @@ class XMLParser {
 	 * @throws ErrorException
 	 */
 	public function parseByFilename($filename) {
+		global $lang;
+
+		if ($lang != 'en') {
+			$fname = substr($filename, 0, strrpos($filename, '.'));
+			$fext  = strrchr($filename, '.' );
+
+			$localized = $fname . "." . $lang . $fext;
+
+			if (is_file($localized)) {
+				if (!is_readable($localized)) {
+					$file = "\n\nFilename: " . basename($localized) . "\n";
+					throw new ErrorException(self::FILE_NOT_FOUND . $file);
+				} else {
+					$filename = $localized;
+				}
+			}
+		}
+
 		$file = "\n\nFilename: " . basename($filename) . "\n";
 		/* If we can't read the file there is nothing we can do. */
 		if (!is_file($filename) || !is_readable($filename)) {
