@@ -852,6 +852,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Amazons: Guardians of Eden</name>
+				<target>bbvs</target>
+				<support_level>untested</support_level>
+				<notes>
+					Game is completable<h:br />- the demo isn't supported.<h:br /><h:br />Game has been recently supported and requires further play testing.
+				</notes>
+			</game>
+			<game>
 				<name>Beavis and Butt-head in Virtual Stupidity</name>
 				<target>bbvs</target>
 				<support_level>untested</support_level>
