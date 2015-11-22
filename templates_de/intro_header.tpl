@@ -42,9 +42,9 @@
 		<div class="rbcontent">
 			<div class="rbwrapper">
 				<p>
-					ScummVM ist ein Programm, welches Dir es erm&ouml;glicht, bestimmte klassische
+					ScummVM ist ein Programm, welches dir erm&ouml;glicht, bestimmte klassische
 					Grafik-Adventures (Point-and-Click-Adventures) auszuf&uuml;hren, vorausgesetzt,
-					Du bist im Besitz der passenden Spieldateien.
+					du bist im Besitz der passenden Spieldateien.
 					ScummVM ersetzt dabei die ausf&uuml;hrbaren Programmdateien,
 					die urspr&uuml;nglich mit dem Spiel mitgeliefert wurden. Dadurch k&ouml;nnen diese Spiele
 					auf Systemen gespielt werden, f&uuml;r welche sie nie entwickelt wurden!
@@ -65,18 +65,18 @@
 				</p>
 				<p>
 					Du findest eine komplette Liste mit allen Informationen dar&uuml;ber,
-					welche Spiele wie gut unterst&uuml;tzt werden auf der <a href="compatibility/"
+					welche Spiele wie gut unterst&uuml;tzt werden auf der <a href="compatibility/">
 					Kompatibilit&auml;tsseite</a>.
-					ScummVM wird laufend verbessert, es lohnt sich also, &ouml;fter vorbeizuschauen.
+					Da ScummVM laufend verbessert wird, lohnt es sich, h&auml;ufiger vorbeizuschauen.
 					Unter den Sytemen, auf welchen Du diese Spiele spielen kannst, sind Windows, Linux, Mac OS X,
-					Dreamcast, PocketPC, PalmOS, amigaOS, BeOS, OS/2, PSP, PS2, SymbianOS und viele mehr.
+					Dreamcast, PocketPC, PalmOS, AmigaOS, BeOS, OS/2, PSP, PS2, SymbianOS und viele mehr.
 				</p>
 				<p>
 					Offizielle Anlaufstellen f&uuml;r Kommentare und Vorschl&auml;ge sind das <a href="http://forums.scummvm.org">
 					(englischsprachige) Forum</a> und der <a href="irc://irc.freenode.net/scummvm"> (ebenfalls englischsprachige) IRC-Channel #scummvm </a>
 					im IRC-Netzwerk freenode.net. Die Kommunikation in Forum und IRC sollte ausschlie&szlig;lich auf Englisch erfolgen.
 					
-					Bitte lies unsere <a href="faq/">h&auml;ufig gestellten Fragen (FAQ)</a>, bevor Du einen Eintrag dort verfasst.
+					Bitte lies unsere <a href="faq/">h&auml;ufig gestellten Fragen (FAQ)</a>, bevor du einen Eintrag dort verfasst.
 				</p>
 			</div>
 		</div>
