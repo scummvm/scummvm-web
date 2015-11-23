@@ -30,13 +30,17 @@ abstract class NewsModel extends BasicModel {
 		if (!($files = scandir(DIR_NEWS))) {
 			throw new ErrorException(self::NO_FILES);
 		}
+		global $lang;
 		$news = array();
 		foreach ($files as $filename) {
 			if (substr($filename, -4) != '.xml') {
 				continue;
 			}
-			if (!($data = @file_get_contents(DIR_NEWS . "/{$filename}"))) {
-				continue;
+			if (!is_file(($fname = DIR_NEWS . "/$lang/" . basename($filename)))
+				|| !is_readable($fname) || !($data = @file_get_contents($fname))) {
+				if (!($data = @file_get_contents(DIR_NEWS . "/{$filename}"))) {
+					continue;
+				}
 			}
 			$news[] = new News($data, $filename, $processContent);
 		}
