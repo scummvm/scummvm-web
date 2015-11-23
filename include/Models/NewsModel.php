@@ -66,9 +66,14 @@ abstract class NewsModel extends BasicModel {
 		if (is_null($date) || !preg_match('/^\d{8}[a-z]?$/', $date)) {
 			throw new ErrorException(self::INVALID_DATE);
 		}
-		if (!is_file(($fname = DIR_NEWS . "/{$date}.xml"))
+		global $lang;
+		if (!is_file(($fname = DIR_NEWS . "$lang/{$date}.xml"))
 			|| !is_readable($fname) || !($data = @file_get_contents($fname))) {
-			throw new ErrorException(self::FILE_NOT_FOUND);
+
+			if (!is_file(($fname = DIR_NEWS . "/{$date}.xml"))
+				|| !is_readable($fname) || !($data = @file_get_contents($fname))) {
+				throw new ErrorException(self::FILE_NOT_FOUND);
+			}
 		}
 		return new News($data, $fname, $processContent);
 	}
@@ -86,8 +91,13 @@ abstract class NewsModel extends BasicModel {
 		$files = array_reverse($files);
 		$news = array();
 		foreach ($files as $filename) {
-			if (($data = @file_get_contents($filename))) {
-				$news[] = new News($data, $filename, $processContent);
+			if (!is_file(($fname = DIR_NEWS . "$lang/" . basename($file)))
+				|| !is_readable($fname) || !($data = @file_get_contents($fname))) {
+				if (($data = @file_get_contents($filename))) {
+					$news[] = new News($data, $filename, $processContent);
+				}
+			} else {
+				$news[] = new News($data, $fname, $processContent);
 			}
 		}
 		return $news;
