@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<menus>
+	<group>
+		<name>Hauptmen&uuml;</name>
+		<class>menu-main</class>
+		<link>
+			<name>Startseite</name>
+			<href>{$baseurl}</href>
+		</link>
+		<link>
+			<name>Bildschirmfotos</name>
+			<href>screenshots/</href>
+		</link>
+		<link>
+			<name>Forum</name>
+			<href>http://forums.scummvm.org/</href>
+		</link>
+		<link>
+			<name>Downloads</name>
+			<href>downloads/</href>
+		</link>
+		<link>
+			<name>Spiele</name>
+			<href>games/</href>
+		</link>
+		<link>
+			<name>ScummVM-Blogs</name>
+			<href>http://planet.scummvm.org</href>
+		</link>
+<!-- FIXME: Donate temporarily disabled, waiting for us to reestablish its functionality at SF.net
+		<link>
+			<name>Donate to ScummVM</name>
+			<href>http://sourceforge.net/donate/index.php?group_id=37116</href>
+		</link>
+-->
+	</group>
+	<group>
+		<name>Dokumentation</name>
+		<class>menu-docs</class>
+		<link>
+			<name>F.A.Q.</name>
+			<href>faq/</href>
+		</link>
+		<link>
+			<name>Dokumentation</name>
+			<href>documentation/</href>
+		</link>
+		<link>
+			<name>Kompatibilit&auml;t</name>
+			<href>compatibility/</href>
+		</link>
+		<link>
+			<name>Wiki</name>
+			<href>http://wiki.scummvm.org/</href>
+		</link>
+		<link>
+			<name>Mitwirkende</name>
+			<href>credits/</href>
+		</link>
+	</group>
+	<group>
+		<name>Entwicklung</name>
+		<class>menu-sf</class>
+		<link>
+			<name>Projektseite auf SF.net</name>
+			<href>http://sourceforge.net/projects/scummvm/</href>
+		</link>
+		<link>
+			<name>Bug Tracker</name>
+			<href>http://sourceforge.net/p/scummvm/bugs/</href>
+		</link>
+		<link>
+			<name>Feature Requests</name>
+			<href>http://sourceforge.net/p/scummvm/feature-requests/</href>
+		</link>
+		<link>
+			<name>Patch Tracker</name>
+			<href>http://sourceforge.net/p/scummvm/patches/</href>
+		</link>
+		<link>
+			<name>T&auml;glich erstellte Versionen</name>
+			<href>downloads/#daily</href>
+		</link>
+		<link>
+			<name>Quellcode-Verzeichnis</name>
+			<href>http://github.com/scummvm/scummvm</href>
+		</link>
+		<link>
+			<name>Buildbot</name>
+			<href>http://buildbot.scummvm.org/</href>
+		</link>
+	</group>
+	<group>
+		<name>Verschiedenes</name>
+		<class>menu-misc</class>
+		<link>
+			<name>Unterprojekte</name>
+			<href>subprojects/</href>
+		</link>
+		<link>
+			<name>Demos</name>
+			<href>demos/</href>
+		</link>
+		<link>
+			<name>Pressespiegel</name>
+			<href>press/</href>
+		</link>
+		<link>
+			<name>Kontakt</name>
+			<href>contact/</href>
+		</link>
+		<link>
+			<name>Links</name>
+			<href>links/</href>
+		</link>
+	</group>
+</menus>
