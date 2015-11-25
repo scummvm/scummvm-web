@@ -68,7 +68,7 @@
 					welche Spiele wie gut unterst&uuml;tzt werden auf der <a href="compatibility/">
 					Kompatibilit&auml;tsseite</a>.
 					Da ScummVM laufend verbessert wird, lohnt es sich, h&auml;ufiger vorbeizuschauen.
-					Unter den Sytemen, auf welchen Du diese Spiele spielen kannst, sind Windows, Linux, Mac OS X,
+					Unter den Systemen, auf welchen Du diese Spiele spielen kannst, sind Windows, Linux, Mac OS X,
 					Dreamcast, PocketPC, PalmOS, AmigaOS, BeOS, OS/2, PSP, PS2, SymbianOS und viele mehr.
 				</p>
 				<p>
