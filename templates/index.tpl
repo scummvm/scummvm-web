@@ -9,6 +9,7 @@
 		{* General CSS rules. *}
 		@import url("css/layout.css");
 		@import url("css/menu.css");
+		@import url("css/lang-menu.css");
 		{* Page specific, or other extra CSS rules. *}
 		{foreach from=$css_files item=filename}
 		@import url("css/{$filename}");
@@ -31,6 +32,7 @@
 			<img src="images/scummvm_logo.jpg" width="287" height="118" alt="ScummVM logo" class="float_left">
 		</a>
 
+		{include file='lang_menu.tpl'}
 		<span>
 			<img src="images/heroes{$heroes_num|rand:0}.png" alt="Game characters" width="483" height="89">
 			<img src="images/scummvm-caption.png" alt="Script creation utility for Maniac Mansion Virtual Machine" width="483" height="29">
