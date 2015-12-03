@@ -7,10 +7,11 @@
 	top: 79px;
 }
 
-#text-badge {
+code.text-badge {
 	background-color: #00007f;
 	color: white;
-	margin: 0 0;
+	font-family: Tahoma;
+	margin: 0 8px 0 8px;
 }
 
 #langmenu {
@@ -63,7 +64,7 @@
 	border-left: 1px solid #cecece;
 	border-right: 1px solid #cecece;
 	border-bottom: 1px solid #cecece;
-	padding: 10px 10px 10px 17px;
+	padding: 10px 10px 10px 0px;
 	display: none;
 	background: #f6f6f6;
 	z-index: 1000;
