@@ -27,6 +27,8 @@ class NewsPage extends Controller {
 
 	/* Display a specific news item, or all news items. */
 	public function getNews($date = null) {
+		global $Smarty;
+
 		if ($date == null) {
 			$news_items = NewsModel::getAllNews();
 			$date = 'archive';
@@ -43,7 +45,7 @@ class NewsPage extends Controller {
 		return $this->renderPage(
 			array(
 				'title' => 'Home',
-				'content_title' => 'Latest Developments',
+				'content_title' => $Smarty->_config[0]['vars']['newsTitle'],
 				'show_intro' => false,
 				'news_items' => $news_items,
 				'news_archive_link' => false,
@@ -55,6 +57,8 @@ class NewsPage extends Controller {
 
 	/* Display the main page with limited news items and intro text. */
 	public function getNewsIntro() {
+		global $Smarty;
+
 		$news_items = NewsModel::getLatestNews(NEWS_ITEMS);
 		$random_shot = ScreenshotsModel::getRandomScreenshot();
 
@@ -73,7 +77,7 @@ class NewsPage extends Controller {
 		return $this->renderPage(
 			array(
 				'title' => 'Home',
-				'content_title' => 'Latest Developments',
+				'content_title' => $Smarty->_config[0]['vars']['newsTitle'],
 				'show_intro' => true,
 				'news_items' => $news_items,
 				'news_archive_link' => true,
