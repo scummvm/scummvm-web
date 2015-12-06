@@ -4,7 +4,7 @@
 		<name>Главное меню</name>
 		<class>menu-main</class>
 		<link>
-			<name>В начало</name>
+			<name>На главную</name>
 			<href>{$baseurl}</href>
 		</link>
 		<link>
@@ -54,7 +54,7 @@
 			<href>http://wiki.scummvm.org/</href>
 		</link>
 		<link>
-			<name>Авторы</name>
+			<name>Об авторах</name>
 			<href>credits/</href>
 		</link>
 	</group>
