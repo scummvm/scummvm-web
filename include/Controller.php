@@ -33,7 +33,7 @@ class Controller {
 
 		global $lang;
 
-		$lang = 'de';
+		$lang = 'ru';
 		$this->_smarty->template_dir = array("templates_$lang", 'templates');
 		$this->_smarty->compile_id = $lang;
 

@@ -11,7 +11,7 @@
 		<div class="rbtop">
 			<div>
 				<p>
-					{include file='shadowed_text.tpl' text='Screenshots' shadowcolor='#fff' textcolor='#356a02'}
+					{include file='shadowed_text.tpl' text='Скриншоты' shadowcolor='#fff' textcolor='#356a02'}
 				</p>
 			</div>
 		</div>
