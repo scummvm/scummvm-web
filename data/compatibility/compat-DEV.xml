@@ -876,6 +876,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Broken Sword: The return of the Templars</name>
+				<target>sword25</target>
+				<support_level>untested</support_level>
+				<notes>
+					No known issues, game is completable.<h:br /><h:br />Game has been recently supported and requires further play testing.
+				</notes>
+			</game>
+			<game>
 				<name>Bud Tucker in Double Trouble</name>
 				<target>tucker</target>
 				<support_level>excellent</support_level>
