@@ -14,10 +14,12 @@ class PressSnowberryPage extends Controller {
 	/* Display the index page. */
 	public function index() {
 		$articles = ArticleModel::getAllArticles();
+		global $Smarty;
+
 		return $this->renderPage(
 			array(
-				'title' => 'GOBLIIINS + ScummVM = PERFECT COUPLE',
-				'content_title' => 'GOBLIIINS + ScummVM = PERFECT COUPLE',
+				'title' => $Smarty->_config[0]['vars']['pressSnowberryTitle'],
+				'content_title' => $Smarty->_config[0]['vars']['pressSnowberryContentTitle'],
 				'articles' => $articles,
 			),
 			$this->_template

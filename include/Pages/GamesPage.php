@@ -15,12 +15,13 @@ class GamesPage extends Controller {
 	public function index() {
 		$downloads = GamesModel::getAllDownloads();
 		$sections = GamesModel::getAllSections();
+		global $Smarty;
 
 		$this->addCSSFiles('games.css');
 		return $this->renderPage(
 			array(
-				'title' => 'Games',
-				'content_title' => 'Download freeware games',
+				'title' => $Smarty->_config[0]['vars']['gamesTitle'],
+				'content_title' => $Smarty->_config[0]['vars']['gamesContentTitle'],
 				'downloads' => $downloads,
 				'sections' => $sections,
 				'release_tools' => RELEASE_TOOLS,

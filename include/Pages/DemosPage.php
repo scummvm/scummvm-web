@@ -14,12 +14,13 @@ class DemosPage extends Controller {
 	/* Display the index page. */
 	public function index() {
 		$demos = GameDemosModel::getAllGroupsAndDemos();
+		global $Smarty;
 
 		$this->addCSSFiles('chart.css');
 		return $this->renderPage(
 			array(
-				'title' => 'Game Demos',
-				'content_title' => 'Game Demos',
+				'title' => $Smarty->_config[0]['vars']['demosTitle'],
+				'content_title' => $Smarty->_config[0]['vars']['demosContentTitle'],
 				'demos' => $demos,
 			),
 			$this->_template

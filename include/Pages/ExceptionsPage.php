@@ -12,10 +12,12 @@ class ExceptionsPage extends Controller {
 
 	/* Display the index page. */
 	public function index($exception) {
+		global $Smarty;
+
 		return $this->renderPage(
 			array(
-				'title' => 'Exception',
-				'content_title' => 'Error processing request',
+				'title' => $Smarty->_config[0]['vars']['exceptionsTitle'],
+				'content_title' => $Smarty->_config[0]['vars']['exceptionsContentTitle'],
 				'exception' => $exception,
 			),
 			'exception.tpl'
