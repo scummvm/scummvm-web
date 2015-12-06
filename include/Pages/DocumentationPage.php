@@ -14,12 +14,13 @@ class DocumentationPage extends Controller {
 	/* Display the index page. */
 	public function index() {
 		$document = $_GET['d'];
+		global $Smarty;
 
 		$documents = DocumentationModel::getAllDocuments();
 		return $this->renderPage(
 			array(
-				'title' => 'Documentation',
-				'content_title' => 'ScummVM Documentation',
+				'title' => $Smarty->_config[0]['vars']['documentationTitle'],
+				'content_title' => $Smarty->_config[0]['vars']['documentationContentTitle'],
 				'documents' => $documents,
 			),
 			$this->_template

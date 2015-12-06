@@ -14,10 +14,12 @@ class PressPage extends Controller {
 	/* Display the index page. */
 	public function index() {
 		$articles = ArticleModel::getAllArticles();
+		global $Smarty;
+
 		return $this->renderPage(
 			array(
-				'title' => 'Press Coverage',
-				'content_title' => 'Press Coverage',
+				'title' => $Smarty->_config[0]['vars']['pressTitle'],
+				'content_title' => $Smarty->_config[0]['vars']['pressContentTitle'],
 				'articles' => $articles,
 			),
 			$this->_template

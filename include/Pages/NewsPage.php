@@ -44,8 +44,8 @@ class NewsPage extends Controller {
 
 		return $this->renderPage(
 			array(
-				'title' => 'Home',
-				'content_title' => $Smarty->_config[0]['vars']['newsTitle'],
+				'title' => $Smarty->_config[0]['vars']['newsTitle'],
+				'content_title' => $Smarty->_config[0]['vars']['newsContentTitle'],
 				'show_intro' => false,
 				'news_items' => $news_items,
 				'news_archive_link' => false,
@@ -76,8 +76,8 @@ class NewsPage extends Controller {
 
 		return $this->renderPage(
 			array(
-				'title' => 'Home',
-				'content_title' => $Smarty->_config[0]['vars']['newsTitle'],
+				'title' => $Smarty->_config[0]['vars']['newsTitle'],
+				'content_title' => $Smarty->_config[0]['vars']['newsContentTitle'],
 				'show_intro' => true,
 				'news_items' => $news_items,
 				'news_archive_link' => true,

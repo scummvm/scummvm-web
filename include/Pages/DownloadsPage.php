@@ -13,12 +13,12 @@ class DownloadsPage extends Controller {
 
 	function getRecommendedDownloadsJS(&$downloads) {
 		$js = "var versions = {\n";
-		
+
 		foreach ($downloads as $dsection) {
 			foreach ($dsection->getSubSections() as $dsubsection) {
 				foreach ($dsubsection->getItems() as $curItem) {
 					$userAgent = $curItem->getUserAgent();
-					
+
 					if ($userAgent != "") {
 						$url = str_replace('{$release}', RELEASE, $curItem->getURL());
 						sscanf($url, "http://prdownloads.sourceforge.net/scummvm/scummvm-%s", $versionStr);
@@ -30,21 +30,22 @@ class DownloadsPage extends Controller {
 			}
 		}
 		$js .= "};\n";
-		
+
 		return $js;
 	}
-	
+
 	/* Display the index page. */
 	public function index() {
 		$downloads = DownloadsModel::getAllDownloads();
 		$sections = DownloadsModel::getAllSections();
 		$recommendedDownloadsJS = $this->getRecommendedDownloadsJS($downloads);
+		global $Smarty;
 
 		$this->addCSSFiles('downloads.css');
 		return $this->renderPage(
 			array(
-				'title' => 'Downloads',
-				'content_title' => 'Download ScummVM',
+				'title' => $Smarty->_config[0]['vars']['downloadsTitle'],
+				'content_title' => $Smarty->_config[0]['vars']['downloadsContentTitle'],
 				'downloads' => $downloads,
 				'sections' => $sections,
 				'release_tools' => RELEASE_TOOLS,

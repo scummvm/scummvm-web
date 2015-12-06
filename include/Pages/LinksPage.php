@@ -14,12 +14,13 @@ class LinksPage extends Controller {
 	/* Display the index page. */
 	public function index() {
 		$links = LinksModel::getAllGroupsAndLinks();
+		global $Smarty;
 
 		$this->addCSSFiles('links.css');
 		return $this->renderPage(
 			array(
-				'title' => 'Links',
-				'content_title' => 'Links',
+				'title' => $Smarty->_config[0]['vars']['linksTitle'],
+				'content_title' => $Smarty->_config[0]['vars']['linksContentTitle'],
 				'links' => $links,
 			),
 			$this->_template

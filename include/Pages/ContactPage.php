@@ -12,10 +12,12 @@ class ContactPage extends Controller {
 
 	/* Display the index page. */
 	public function index() {
+		global $Smarty;
+
 		return $this->renderPage(
 			array(
-				'title' => 'Contact',
-				'content_title' => 'Contact',
+				'title' => $Smarty->_config[0]['vars']['contactTitle'],
+				'content_title' => $Smarty->_config[0]['vars']['contactContentTitle'],
 			),
 			$this->_template
 		);
