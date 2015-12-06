@@ -43,10 +43,12 @@ class ScreenshotsPage extends Controller {
 		$screenshot = ScreenshotsModel::getAllScreenshots();
 		$random_shot = ScreenshotsModel::getRandomScreenshot();
 
+		global $Smarty;
+
 		return $this->renderPage(
 			array(
-				'title' => 'Screenshots',
-				'content_title' => 'Screenshots',
+				'title' => $Smarty->_config[0]['vars']['screenshotsTitle'],
+				'content_title' => $Smarty->_config[0]['vars']['screenshotsContentTitle'],
 				'screenshots' => $screenshot,
 				'random_shot' => $random_shot,
 			),
@@ -74,7 +76,7 @@ class ScreenshotsPage extends Controller {
 				'games' => array(ScreenshotsModel::getTargetScreenshots($game))
 			);
 		}
-		
+
 		return $this->renderPage(
 			array(
 				'title' => 'Screenshots',

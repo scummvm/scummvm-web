@@ -8,21 +8,22 @@ require_once('Models/CompatibilityModel.php');
  */
 class CompatibilityPage extends Controller {
 	private $_template;
-	private $_template_details; 
+	private $_template_details;
 	private $_supportLevelDesc;
 	private $_supportLevelClass;
 
 	/* Constructor. */
 	public function __construct() {
 		parent::__construct();
+		global $Smarty;
 		$this->_template = 'compatibility.tpl';
 		$this->_template_details = 'compatibility_details.tpl';
 		$this->_supportLevelDesc = array(
-			'untested' => 'Untested',
-			'broken' => 'Broken',
-			'bugged' => 'Bugged',
-			'good' => 'Good',
-			'excellent' => 'Excellent'
+			'untested' => $Smarty->_config[0]['vars']['compatibilityUntested'],
+			'broken' => $Smarty->_config[0]['vars']['compatibilityBroken'],
+			'bugged' => $Smarty->_config[0]['vars']['compatibilityBugged'],
+			'good' => $Smarty->_config[0]['vars']['compatibilityGood'],
+			'excellent' => $Smarty->_config[0]['vars']['compatibilityExcellent']
 		);
 		$this->_supportLevelClass = array(
 			'untested' => 'pctU',
@@ -53,12 +54,13 @@ class CompatibilityPage extends Controller {
 	/* We should show detailed information for a specific target. */
 	public function getGame($target, $version, $oldLayout) {
 		$game = CompatibilityModel::getGameData($version, $target);
+		global $Smarty;
 
 		$this->addCSSFiles(array('chart.css', 'compatibility.css'));
 		return $this->renderPage(
 			array(
-				'title' => "Compatibility - {$version}",
-				'content_title' => "{$version} Compatibility",
+				'title' => preg_replace('/{version}/', $version, $Smarty->_config[0]['vars']['compatibilityTitle']),
+				'content_title' => preg_replace('/{version}/', $version, $Smarty->_config[0]['vars']['compatibilityContentTitle']),
 				'version' => $version,
 				'game' => $game,
 				'old_layout' => $oldLayout,
@@ -85,11 +87,13 @@ class CompatibilityPage extends Controller {
 		$last_updated = date("F d, Y", @filemtime($filename));
 		$compat_data = CompatibilityModel::getAllData($version);
 
+		global $Smarty;
+
 		$this->addCSSFiles(array('chart.css', 'compatibility.css'));
 		return $this->renderPage(
 			array(
-				'title' => "Compatibility - {$version}",
-				'content_title' => "{$version} Compatibility",
+				'title' => preg_replace('/{version}/', $version, $Smarty->_config[0]['vars']['compatibilityTitle']),
+				'content_title' => preg_replace('/{version}/', $version, $Smarty->_config[0]['vars']['compatibilityContentTitle']),
 				'version' => $version,
 				'compat_data' => $compat_data,
 				'last_updated' => $last_updated,
