@@ -31,6 +31,7 @@ define('DIR_INCLUDE', 'include');
 define('DIR_DATA', 'data');
 define('DIR_IMAGES', 'images');
 define('DIR_NEWS', 'data/news');
+define('DIR_LANG', 'lang');
 define('DIR_COMPAT', 'data/compatibility');
 define('DIR_DOWNLOADS', 'downloads');
 define('DIR_SCREENSHOTS', 'data/screenshots');

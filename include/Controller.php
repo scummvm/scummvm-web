@@ -24,6 +24,10 @@ class Controller {
 		/* Create a Smarty object. */
 		$this->_smarty = new Smarty();
 
+		# Stick it globally so we could refer the translations
+		global $Smarty;
+		$Smarty = $this->_smarty;
+
 		/**
 		 * Multilanguage suppot
 		 */
@@ -36,6 +40,16 @@ class Controller {
 		$lang = 'ru';
 		$this->_smarty->template_dir = array("templates_$lang", 'templates');
 		$this->_smarty->compile_id = $lang;
+		$this->_smarty->config_dir = ".";
+
+		# First we read English, so al defaults are there
+		$this->_smarty->config_load(DIR_LANG . "/lang.ini");
+
+		# Now we try to read translations
+		if (is_file(($fname = DIR_LANG . "/lang.$lang.ini"))
+			&& is_readable($fname)) {
+			$this->_smarty->config_load($fname);
+		}
 
 		/* Configure smarty. */
 		$this->_smarty->compile_dir = SMARTY_DIR_COMPILE;
