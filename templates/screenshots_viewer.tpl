@@ -2,7 +2,7 @@
 {assign var='files' value=$screenshot->getFiles()}
 
 <div class="box">
-	<div class="head">Screenshot Gallery</div>
+	<div class="head">{#screenshotsViewerHeading#}</div>
 	<h3 class="subhead">{$screenshot->getName()} (#{$num+1} of {$files|@count})</h3>
 	<div class="viewer">
 		<div class="screenshot">
@@ -12,16 +12,16 @@
 		<div>
 			{if $num > 0}
 				<a href="screenshots/{$category}/{$screenshot->getCategory()}/{$num}/" class="float_left">
-					Previous
+					{#screenshotsViewerPrevious#}
 				</a>
 			{/if}
 			{if $num < ($files|@count) - 1}
 				<a href="screenshots/{$category}/{$screenshot->getCategory()}/{$num+2}/" class="float_right">
-					Next
+					{#screenshotsViewerNext#}
 				</a>
 			{/if}
 		</div>
 		<div class="spacing"></div>
 	</div>
-	<a href="screenshots/{$category}/{$screenshot->getCategory()}/">Back</a>
+	<a href="screenshots/{$category}/{$screenshot->getCategory()}/">{#screenshotsViewerBack#}</a>
 </div>
