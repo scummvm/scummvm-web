@@ -1,6 +1,6 @@
 <div class="box">
 	<div class="intro">
-		<p>Click the title of the section of the documentation you want to read.</p>
+		<p>{#documentationIntro#}</p>
 	</div>
 	<div class="content">
 		<!-- Ohloh badge with project metrics -->
