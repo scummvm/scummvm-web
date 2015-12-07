@@ -6,10 +6,10 @@
 
 {* List the available categories. *}
 <div class="box">
-	<div class="head">Screenshots</div>
+	<div class="head">{#screenshotsHeading#}</div>
 	<div class="intro">
 		<div class="navigation">
-			<h2>Navigation</h2>
+			<h2>{#screenshotsNavigation#}</h2>
 			<ul>
 			{foreach from=$screenshots item=arr}
 				<li><a href="screenshots/#{$arr.category}">{eval var=$arr.title}</a></li>
