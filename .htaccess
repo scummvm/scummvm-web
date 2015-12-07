@@ -5,6 +5,10 @@ RewriteEngine On
 # NOTE: When debugging locally, set this to the directory the site is in
 RewriteBase /
 
+# Fetch language and put it into Cookie
+RewriteCond     %{QUERY_STRING}                                             lang=(.*)?
+RewriteRule     .*                                                           -  [CO=lang:%1:.scummvm.org]
+
 ##
 # Images linked directly from the wiki need to work
 ##
@@ -33,7 +37,7 @@ RewriteRule	^(.+)\.php$														$1/? [NS,R=301]
 # Basic rewrite
 ##
 RewriteRule		^([a-z]+)/?$												?p=$1
- 
+
 ##
 # Compatibility
 ##
@@ -49,7 +53,7 @@ RewriteRule		^(documentation)(/([^/]+))?/? 								?p=$1&d=$3 [L]
 ##
 RewriteRule		^(feeds)/(atom|rss)/?										?p=$1&f=$2 [L]
 
-## 
+##
 # News
 ##
 RewriteRule		^(news)(/([0-9]{8}[a-z]?|archive))?/?$							?p=$1&d=$3 [L]

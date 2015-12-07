@@ -28,13 +28,6 @@ class Controller {
 		global $Smarty;
 		$Smarty = $this->_smarty;
 
-		/**
-		 * Multilanguage suppot
-		 */
-		if (empty($_SESSION['lang']) || !empty($_GET['lang'])) {
-		  $_SESSION['lang'] = empty($_GET['lang']) ? '' : $_GET['lang'];
-		}
-
 		global $lang;
 
 		$this->_smarty->template_dir = array("templates_$lang", 'templates');
@@ -85,12 +78,17 @@ class Controller {
 		if (!ExceptionHandler::skipMenus()) {
 			$menus = MenuModel::getAllMenus();
 		}
+
+		# Construct lang URL
+		$pageurl = preg_replace('/\?lang=[a-z]*$/', '', $_SERVER['REQUEST_URI']);
+
 		/* Set up the common variables before displaying. */
 		$vars = array(
 			'release' => RELEASE,
 			'baseurl' => URL_BASE,
 			'heroes_num' => HEROES_NUM,
 			'menus' => $menus,
+			'pageurl' => $pageurl,
 		);
 		$this->_smarty->assign($vars);
 	}
