@@ -1,4 +1,19 @@
 <?php
+
+global $lang;
+
+/**
+ * Multilanguage suppot
+ */
+if (empty($_SESSION['lang']) || !empty($_GET['lang'])) {
+  $_SESSION['lang'] = empty($_GET['lang']) ? '' : $_GET['lang'];
+}
+if (empty($_SESSION['lang']) || !empty($_COOKIE['lang'])) {
+  $_SESSION['lang'] = empty($_COOKIE['lang']) ? '' : $_COOKIE['lang'];
+}
+
+$lang = $_SESSION['lang'];
+
 /* Load the configuration. */
 require_once('include/config.inc.php');
 /* Set up the include path. */
