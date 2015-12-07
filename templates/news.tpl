@@ -15,7 +15,7 @@
 	</div>
 	<div class="content">
 		<div class="news-author">
-			Posted by {$news->getAuthor()}
+			{#newsPostedBy#} {$news->getAuthor()}
 		</div>
 		{if $news->getImage() != null}
   			{$news->getImage()}
@@ -33,6 +33,6 @@
 		<a href="feeds/atom/">Atom</a> |
 		<a href="feeds/rss/">RSS</a>
 	</span>
-	<a href="news/archive/" class="float_right">More News...</a>
+	<a href="news/archive/" class="float_right">{#newsMoreNews#}</a>
 </p>
 {/if}
