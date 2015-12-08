@@ -1,11 +1,10 @@
 <div class="box">
 	<div class="head">
-		Links
+		{#linksHeading#}
 	</div>
 	<div class="intro">
 		<img src="images/scummvm-link.png" width="88" height="31" alt="ScummVM">
-		<b>Link to us:</b>
-		If you want to link your site to us: please feel free to use this image.
+		{#linksIntro#}
 	</div>
 	<div class="content">
 		{foreach from=$links item=group}
