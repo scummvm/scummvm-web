@@ -1,7 +1,7 @@
 <div class="box">
-	<div class="head">ScummVM press coverage</div>
+	<div class="head">{#pressHeading#}</div>
 	<div class="content">
-		<small>(If you wish to contact us in regards to media articles, please e-mail press (@) scummvm.org)</small>
+		<small>{#pressIntro#}</small>
 		{foreach from=$articles item=article}
 		<p>
 			{if $article->getLanguage() != null}
