@@ -10,8 +10,8 @@
 				<span class="download-extras">
 					{if is_array($data)}
 						(
-							{if $item->getType() == 'daily'}build from repository, {/if} 
-							{$data.size}K {if $data.ext == 'exe'}Win32 {/if}{$data.ext} file, last update: {$data.date}
+							{if $item->getType() == 'daily'}{#listItemsBuildFromRepo#} {/if}
+							{$data.size}K {if $data.ext == 'exe'}Win32 {/if}{$data.ext} {#listItemsFile#} {$data.date}
 						)
 					{else}
 						{if $item->getType() != 'daily'}
