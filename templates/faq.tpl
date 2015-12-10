@@ -1,9 +1,9 @@
 <div class="box">
 	<div class="head">
-		FAQ
+		{#faqHeading#}
 	</div>
 	<div class="content">
-	<div class="news-author">last updated: {$modified}</div>
+	<div class="news-author">{#faqLastUpdated#} {$modified}</div>
 		<dl>
 			{foreach from=$contents item=section name='toc_loop'}
 				{assign var='toc_num' value=$smarty.foreach.toc_loop.iteration}

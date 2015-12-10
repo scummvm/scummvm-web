@@ -4,7 +4,7 @@
 <div class="box">
 	<div class="intro">
 		<div class="navigation">
-			<h2>Navigation</h2>
+			<h2>{#gamesDemosHeading#}</h2>
 			<ul>
 			{foreach from=$demos item=group}
 				<li><a href="demos/#{$group.href}">{$group.name}</a></li>
@@ -13,10 +13,10 @@
 		</div>
 		<div class="text">
 			<p>
-				This page lists links to demos of various games, please contact us if you have a copy of any demo not listed here.
+				{#gamesDemosContentP1#}
 			</p>
 			<p>
-				Beneath A Steel Sky demos aren't going to be supported for technical reasons.
+				{#gamesDemosContentP2#}
 			</p>
 		</div>
 		<div class="spacing">&nbsp;</div>
@@ -28,8 +28,8 @@
 			<caption>{$group.name}</caption>
 			<thead>
 				<tr class="color4">
-					<th>Demo Name / Download Link</th>
-					<th class="gameTarget">Game Target</th>
+					<th>{#gamesDemosH1#}</th>
+					<th class="gameTarget">{#gamesDemosH2#}</th>
 				</tr>
 			</thead>
 			<tbody>
