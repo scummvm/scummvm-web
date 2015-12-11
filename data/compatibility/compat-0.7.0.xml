@@ -115,7 +115,7 @@
                 <target>monkeyega</target>
                 <percent>95</percent>
 				<notes>
-					No known issues, game is completable.˚Game is completable
+					No known issues, game is completable.
 					<h:br />- Atari ST version requires pcjr or pcspk music driver
 					<h:br />- MIDI support requires the Roland update from LucasArts
 				</notes>
@@ -375,8 +375,8 @@
                 <target>sword1</target>
                 <percent>98</percent>
                 <notes>
-					Game is completable.
-					<h:br />- Czech support is untested. If you have a czech version, please contact us.
+					No known issues, game is completable.
+					<h:br />- Only the PC version has been tested. We don't have any other versions, so we can't make any promises about them.
 				</notes>
             </game>
 			<game>
@@ -384,7 +384,8 @@
                 <target>sword2</target>
                 <percent>98</percent>
                 <notes>
-					Game is completable.
+					No known issues, game is completable.
+					<h:br />- Only the PC version has been tested. We don't have any other versions, so we can't make any promises about them.
 				</notes>
             </game>
 		</games>
