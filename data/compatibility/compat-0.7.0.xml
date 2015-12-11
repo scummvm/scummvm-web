@@ -472,7 +472,7 @@
 				<target>fbear</target>
 				<percent>93</percent>
 				<notes>
-					Game should be completable, with several glitches<h:br />- 3DO, DOS, Macintosh and Windows versions supported by this target<h:br />- Piano sounds aren't the correct pitch in DOS version
+					Game should be completable, with several glitches<h:br />- 3DO, DOS and Windows versions supported by this target<h:br />- Piano sounds aren't the correct pitch in DOS version
 					<h:br />- Cursors aren't scaled correctly
 				</notes>
 			</game>

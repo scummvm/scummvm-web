@@ -78,7 +78,7 @@
 				</notes>
             </game>
             <game>
-		        <name>Monkey Island 2: LeChuck\'s revenge</name>
+		        <name>Monkey Island 2: LeChuck\'s Revenge</name>
                 <target>monkey2</target>
                 <percent>95</percent>
                 <notes>
@@ -88,7 +88,7 @@
 				</notes>
             </game>
             <game>
-		        <name>Indiana Jones 4 and the Fate of Atlantis</name>
+		        <name>Indiana Jones and the Fate of Atlantis</name>
                 <target>atlantis</target>
                 <percent>95</percent>
                 <notes>
@@ -98,7 +98,7 @@
 				</notes>
             </game>
             <game>
-		        <name>Day Of The Tentacle</name>
+		        <name>Day of the Tentacle</name>
                 <target>tentacle</target>
                 <percent>95</percent>
                 <notes>
@@ -108,7 +108,7 @@
 				</notes>
             </game>
             <game>
-		        <name>Sam &amp; Max</name>
+		        <name>Sam &amp; Max Hit the Road</name>
                 <target>samnmax</target>
                 <percent>95</percent>
                 <notes>
@@ -135,7 +135,7 @@
 				</notes>
             </game>
             <game>
-		        <name>Curse of Monkey Island</name>
+		        <name>The Curse of Monkey Island</name>
                 <target>comi</target>
                 <percent>90</percent>
                 <notes>
@@ -148,55 +148,23 @@
 		<name>Adventuresoft</name>
 		<games>
 			<game>
-		        <name>Simon The Sorcerer 1 Talkie</name>
-                <target>simon1talkie</target>
+		        <name>Simon The Sorcerer 1</name>
+                <target>simon1</target>
                 <percent>93</percent>
 				<notes>
 					No known issues, game is completable.
-					<h:br />- Both DOS and Windows versions supported by this target
+					<h:br />- Acorn (CD), DOS and Windows versions supported by this target
 				</notes>
             </game>
 			<game>
-		        <name>Simon The Sorcerer 1 Talkie (Acorn)</name>
-                <target>simon1acorn</target>
-                <percent>93</percent>
-				<notes>
-					No known issues, game is completable.
-				</notes>
-            </game>
-			<game>
-		        <name>Simon The Sorcerer 1 (DOS)</name>
-                <target>simon1dos</target>
-                <percent>93</percent>
-				<notes>
-					No known issues, game is completable.
-				</notes>
-            </game>
-			<game>
-		        <name>Simon The Sorcerer 1 (Demo)</name>
-                <target>simon1demo</target>
-                <percent>93</percent>
-				<notes>
-					No known issues, game is completable.
-				</notes>
-            </game>
-			<game>
-		        <name>Simon The Sorcerer 2 Talkie</name>
-                <target>simon2talkie</target>
+		        <name>Simon The Sorcerer 2</name>
+                <target>simon2</target>
                 <percent>95</percent>
 				<notes>
 					No known issues, game is completable.
 					<h:br />- Amiga, DOS, Macintosh and Windows versions supported by this target
 					<h:br />- Only the default language (English) in Amiga &amp; Mactinosh versions is supported
 					<h:br />- F10 key animation is different in Amiga &amp; Macintosh versions
-				</notes>
-            </game>
-			<game>
-		        <name>Simon The Sorcerer 2 (DOS)</name>
-                <target>simon2dos</target>
-                <percent>95</percent>
-				<notes>
-					No known problems - game is completable.
 				</notes>
             </game>
 		</games>
@@ -222,7 +190,7 @@
 				</notes>
             </game>
 			<game>
-		        <name>Broken Sword 1</name>
+		        <name>Broken Sword 1: The Shadow of the Templars</name>
                 <target>sword1</target>
                 <percent>98</percent>
                 <notes>
@@ -231,7 +199,7 @@
 				</notes>
             </game>
 			<game>
-		        <name>Broken Sword 2</name>
+		        <name>Broken Sword 2: The Smoking Mirror</name>
                 <target>sword2</target>
                 <percent>98</percent>
                 <notes>
@@ -251,7 +219,7 @@
                 <notes>
 					Game should be completable.
 					<h:br />- Some versions may require the queen.tbl resource file to be placed in the game directory. This is not required for the freeware releases
-					<h:br />- Amiga version isn't supported.
+					<h:br />- Amiga versions aren't supported.
 				</notes>
             </game>
 			<game>
@@ -260,19 +228,19 @@
                 <percent>90</percent>
                 <notes>
 					No known issues. Game is completable.
-					<h:br />- DOS, CD, Amiga, Atari and Macintosh versions are supported by this target
-					<h:br />- Macintosh version lacks music
+					<h:br />- Amiga, Atari, DOS and Macintosh versions are supported by this target
+		 			<h:br />- No music in the Macintosh version
 				</notes>
             </game>
 			<game>
-		        <name>Inherit the Earth</name>
+		        <name>Inherit the Earth: Quest for the Orb</name>
                 <target>ite</target>
                 <percent>87</percent>
                 <notes>
 					Game is completable.
-					<h:br />- DOS Floppy, DOS CD, Win32, old Macintosh, MacOS X and Linux versions are supported by this target
-					<h:br />- Amiga CD isn't supported
-					<h:br />- Occasional gfx glitches
+					<h:br />- DOS, Linux, Macintosh, MacOS X and Windows versions are supported by this target
+					<h:br />- Amiga versions aren't supported
+					<h:br />- Occasional graphical glitches
 				</notes>
             </game>
 		</games>
@@ -306,17 +274,17 @@
 				<target>soccer</target>
 				<percent>20</percent>
 				<notes>
-					Game is playable, with minor glitches
+					Game isn't playable
 					<h:br />- Both Macintosh and Windows versions supported by this target
-					<h:br />- PlayStation 1 version will never be supported.
-					<h:br />- Array out of bounds errors sometimes
+					<h:br />- PlayStation 1 version doesn't use SCUMM, so will never be supported.
+					<h:br />- Players on field are stuck in upper left corner and can't be controlled
 					<h:br />- Minor graphical glitches
 				</notes>
 			</game>
 			<game>
 				<name>Big Thinkers First Grade</name>
 				<target>thinker1</target>
-				<percent>75</percent>
+				<percent>85</percent>
 				<notes>
 					Game is playable, with minor glitches
 					<h:br />- Both Macintosh and Windows versions supported by this target
@@ -326,11 +294,10 @@
 			<game>
 				<name>Big Thinkers Kindergarten</name>
 				<target>thinkerk</target>
-				<percent>80</percent>
+				<percent>90</percent>
 				<notes>
-					Game is playable, with minor glitches
+					No known issues, game is completable.
 					<h:br />- Both Macintosh and Windows versions supported by this target
-					<h:br />- Minor graphical glitches
 				</notes>
 			</game>
 			<game>
@@ -347,7 +314,7 @@
 				<target>fbear</target>
 				<percent>93</percent>
 				<notes>
-					Game should be completable, with several glitches<h:br />- 3DO, DOS and Windows versions supported by this target<h:br />- Piano sounds aren't the correct pitch in DOS version
+					Game should be completable, with several glitches<h:br />- 3DO, DOS, Macintosh and Windows versions supported by this target<h:br />- Piano sounds aren't the correct pitch in DOS version
 					<h:br />- Cursors aren't scaled correctly
 				</notes>
 			</game>
@@ -364,18 +331,17 @@
 				<target>freddi</target>
 				<percent>90</percent>
 				<notes>
-					Game is completable, with minor glitches
+					No known issues, game is completable.
 					<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
 			<game>
 				<name>Freddi Fish 2: The Case of the Haunted Schoolhouse</name>
 				<target>freddi2</target>
-				<percent>70</percent>
+				<percent>85</percent>
 				<notes>
 					Game is completable, with minor glitches
 					<h:br />- Both Macintosh and Windows versions supported by this target
-					<h:br />- Animation isn't synced during songs
 					<h:br />- Minor graphical glitches
 				</notes>
 			</game>
@@ -384,7 +350,7 @@
 				<target>freddi3</target>
 				<percent>90</percent>
 				<notes>
-					No known issues, game is completable
+					No known issues, game is completable.
 					<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
@@ -393,14 +359,14 @@
 				<target>freddi4</target>
 				<percent>90</percent>
 				<notes>
-					No known issues, game is completable
+					No known issues, game is completable.
 					<h:br />- Both Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
 			<game>
 				<name>Freddi Fish and Luther's Maze Madness</name>
 				<target>maze</target>
-				<percent>85</percent>
+				<percent>90</percent>
 				<notes>
 					No known issues, game is completable
 					<h:br />- Both Macintosh and Windows versions supported by this target
@@ -409,11 +375,10 @@
 			<game>
 				<name>Freddi Fish and Luther's Water Worries</name>
 				<target>water</target>
-				<percent>85</percent>
+				<percent>90</percent>
 				<notes>
-					Game is completable, with minor glitches
+					No known issues, game is completable.
 					<h:br />- Both Macintosh and Windows versions supported by this target
-					<h:br />- Minor Graphical glitches
 				</notes>
 			</game>
 			<game>
@@ -422,6 +387,7 @@
 				<percent>85</percent>
 				<notes>
 					Game is playable
+					<h:br />- Both Macintosh and Windows versions supported by this target
 					<h:br />- Minor graphical glitches
 				</notes>
 			</game>
@@ -431,6 +397,7 @@
 				<percent>85</percent>
 				<notes>
 					Game is playable
+					<h:br />- Both Macintosh and Windows versions supported by this target
 					<h:br />- Minor graphical glitches
 				</notes>
 			</game>
@@ -440,6 +407,7 @@
 				<percent>85</percent>
 				<notes>
 					Game is playable
+					<h:br />- Both Macintosh and Windows versions supported by this target
 					<h:br />- Minor graphical glitches
 				</notes>
 			</game>
@@ -468,7 +436,8 @@
 				<percent>50</percent>
 				<notes>
 					Game is playable but not completable
-					<h:br />- PlayStation 1 version will never be supported.
+					<h:br />- Both Macintosh and Windows versions supported by this target
+		 			<h:br />- PlayStation 1 version doesn't use SCUMM, so will never be supported.
 					<h:br />- Sprites aren't displayed during Ski Ride
 					<h:br />- Minor graphical glitches
 				</notes>
@@ -486,7 +455,7 @@
 			<game>
 				<name>Pajama Sam's Sock Works</name>
 				<target>socks</target>
-				<percent>85</percent>
+				<percent>90</percent>
 				<notes>
 					No known issues, game is completable.
 					<h:br />- Both Macintosh and Windows versions supported by this target
@@ -499,7 +468,6 @@
 				<notes>
 					Game is completable, with minor glitches
 					<h:br />- Both Macintosh and Windows versions supported by this target
-					<h:br />- Animation isn't synced during song
 					<h:br />- Minor graphical glitches
 				</notes>
 			</game>
@@ -509,7 +477,7 @@
 				<percent>95</percent>
 				<notes>
 					No known issues, game is completable.
-					<h:br />- 3DO, DOS and Windows versions supported by this target
+					<h:br />- 3DO, DOS, Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
 			<game>
@@ -528,7 +496,7 @@
 				<percent>95</percent>
 				<notes>
 					No known issues, game is completable.
-					<h:br />- 3DO, DOS and Windows versions supported by this target
+					<h:br />- 3DO, DOS, Macintosh and Windows versions supported by this target
 				</notes>
 			</game>
 			<game>
@@ -554,17 +522,16 @@
 			<game>
 				<name>Putt-Putt and Pep's Balloon-O-Rama</name>
 				<target>balloon</target>
-				<percent>85</percent>
+				<percent>90</percent>
 				<notes>
-					Game is completable, with minor glitches
+					No known issues, game is completable.
 					<h:br />- Both Macintosh and Windows versions supported by this target
-					<h:br />- Minor Graphical glitches
 				</notes>
 			</game>
 			<game>
 				<name>Putt-Putt and Pep's Dog on a Stick</name>
 				<target>dog</target>
-				<percent>85</percent>
+				<percent>90</percent>
 				<notes>
 					No known issues, game is completable.
 					<h:br />- Both Macintosh and Windows versions supported by this target
@@ -608,13 +575,12 @@
 			<game>
 				<name>SPY Fox 3: Operation Ozone</name>
 				<target>spyozon</target>
-				<percent>60</percent>
+				<percent>70</percent>
 				<notes>
-					Game is completable, depending on path
+					Game is completable, with glitches
 					<h:br />- Both Macintosh and Windows versions supported by this target
-					<h:br />- Asserts when looking at pearls
 					<h:br />- Need to guess the correct colors of Poodles's fingernails
-					<h:br />- Palette glitches
+					<h:br />- Various palette glitches
 				</notes>
 			</game>
 			<game>
