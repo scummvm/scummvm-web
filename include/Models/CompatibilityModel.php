@@ -22,10 +22,12 @@ abstract class CompatibilityModel extends BasicModel {
 		$entries = array();
 		foreach ($a['compatibility']['company'] as $key => $value) {
 			$games = array();
-			foreach ($value['games']['game'] as $data) {
-				$games[] = new CompatGame($data);
+			if (is_array($value['games'])) {
+				foreach ($value['games']['game'] as $data) {
+					$games[] = new CompatGame($data);
+				}
+				$entries[$value['name']] = $games;
 			}
-			$entries[$value['name']] = $games;
 		}
 		return $entries;
 	}
