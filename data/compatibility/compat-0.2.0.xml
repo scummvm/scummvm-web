@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<compatibility xmlns:h="http://www.w3.org/TR/xhtml1/">
+	<company>
+		<name>LucasArts</name>
+		<games>
+            <game>
+		        <name>Indiana Jones and the Last Crusade (256)</name>
+                <target>indy3</target>
+                <percent>30</percent>
+                <notes>
+					Game will start, but is not completely playable.
+					<h:br />- Inventory scrolling not implemented, making it impossible to carry more than 4 objects at once
+					<h:br />- Missing/Incorrect SCUMM opcodes cause occasional crashes
+				</notes>
+            </game>
+            <game>
+		        <name>Zak McKracken and the Alien Mindbenders (256 - FmTowns)</name>
+                <target>zak256</target>
+                <percent>85</percent>
+                <notes>
+					Game is completable.
+					<h:br />- No music or sound effects
+				</notes>
+            </game>
+            <game>
+		        <name>The Secret of Monkey Island (EGA)</name>
+                <target>monkeyega</target>
+                <percent>5</percent>
+                <notes>Copy protection screen will show, but game crashes shortly afterwards.<h:br />Graphics decoders and SCUMM opcodes not implimented yet.</notes>
+            </game>
+            <game>
+		        <name>LOOM (256 color CD version)</name>
+                <target>loomcd</target>
+                <percent>90</percent>
+                <notes>
+					Game is completable.
+					<h:br />- CD music and voices are not always in perfect sync with cutscenes
+				</notes>
+            </game>
+            <game>
+		        <name>The Secret of Monkey Island (VGA Floppy)</name>
+                <target>monkeyvga</target>
+                <percent>40</percent>
+                <notes></notes>
+            </game>
+			<game>
+		        <name>The Secret of Monkey Island (VGA CD)</name>
+                <target>monkey</target>
+                <percent>90</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+            <game>
+		        <name>Monkey Island 2: LeChuck\'s revenge</name>
+                <target>monkey2</target>
+                <percent>90</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+            <game>
+		        <name>Indiana Jones 4 and the Fate of Atlantis</name>
+                <target>atlantis</target>
+                <percent>95</percent>
+                <notes>
+					Game is completable.
+					<h:br />- Music loud on some systems, run with -m30 to lower music volume.
+				</notes>
+            </game>
+            <game>
+		        <name>Indiana Jones 4 and the Fate of Atlantis (DEMO)</name>
+                <target>playfate</target>
+                <percent>95</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+            <game>
+		        <name>Day Of The Tentacle</name>
+                <target>tentacle</target>
+                <percent>95</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+            <game>
+		        <name>Day Of The Tentacle (DEMO)</name>
+                <target>dottdemo</target>
+                <percent>95</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+            <game>
+		        <name>Sam &amp; Max</name>
+                <target>samnmax</target>
+                <percent>90</percent>
+                <notes>
+					Game is completable.
+					<h:br />- Some subgames may not work
+				</notes>
+            </game>
+            <game>
+		        <name>Sam &amp; Max (DEMO)</name>
+                <target>samdemo</target>
+                <percent>95</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+            <game>
+		        <name>Full Thottle</name>
+                <target>ft</target>
+                <percent>40</percent>
+                <notes>
+					Game crashes at various points, due to missing SCUMM opcods. Not playable to the end
+					<h:br />- some palette glitches during movie playback
+					<h:br />- no in-game music, and some animations play incorrectly
+				</notes>
+            </game>
+            <game>
+		        <name>The DIG</name>
+                <target>dig</target>
+                <percent>40</percent>
+                <notes>
+					Game crashes at various points, due to missing SCUMM opcods. Not playable to the end
+					<h:br />- freezes occasionally due to actors not walking correctly
+					<h:br />- no in-game music, and some animations play incorrectly
+				</notes>
+            </game>
+            <game>
+		        <name>Curse of Monkey Island</name>
+                <target>comi</target>
+                <percent>5</percent>
+                <notes>Not implemented yet. ScummVM doesn't understand new-style MAXS block, among other things</notes>
+            </game>
+        </games>
+	</company>
+    <company>
+		<name>Adventuresoft</name>
+		<games>
+			<game>
+		        <name>Simon The Sorcerer</name>
+                <target>simon1win</target>
+                <percent>95</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+		</games>
+	</company>
+</compatibility>

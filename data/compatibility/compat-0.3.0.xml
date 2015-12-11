@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<compatibility xmlns:h="http://www.w3.org/TR/xhtml1/">
+	<company>
+		<name>LucasArts</name>
+		<games>
+            <game>
+		        <name>Indiana Jones and the Last Crusade (256)</name>
+                <target>indy3</target>
+                <percent>80</percent>
+                <notes>
+					Game is completable, but some major crashes may occur in the catacombs
+					<h:br />- Music and Sound effects are usually missing
+					<h:br />- Various minor graphical glitches
+					<h:br />- Indy may occasionally be able to walk outside of walkboxes (Eg, up walls)
+				</notes>
+            </game>
+            <game>
+		        <name>Zak McKracken and the Alien Mindbenders (256 - FmTowns)</name>
+                <target>zak256</target>
+                <percent>85</percent>
+                <notes>
+					Game is completable.
+					<h:br />- No sound effect looping
+				</notes>
+            </game>
+            <game>
+		        <name>The Secret of Monkey Island (EGA)</name>
+                <target>monkeyega</target>
+                <percent>5</percent>
+                <notes>Copy protection screen will show, but game crashes shortly afterwards.<h:br />Graphics decoders and SCUMM opcodes not implimented yet.</notes>
+            </game>
+            <game>
+		        <name>LOOM (256 color CD version)</name>
+                <target>loomcd</target>
+                <percent>90</percent>
+                <notes>
+					Game is completable.
+					<h:br />- Various minor graphical glitches
+				</notes>
+            </game>
+            <game>
+		        <name>The Secret of Monkey Island (VGA Floppy)</name>
+                <target>monkeyvga</target>
+                <percent>90</percent>
+                <notes>
+					Game is completable.
+					<h:br />- No sound effects
+					<h:br />- No music looping
+				</notes>
+            </game>
+			<game>
+		        <name>The Secret of Monkey Island (VGA CD)</name>
+                <target>monkey</target>
+                <percent>95</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+            <game>
+		        <name>Monkey Island 2: LeChuck\'s revenge</name>
+                <target>monkey2</target>
+                <percent>95</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+            <game>
+		        <name>Indiana Jones 4 and the Fate of Atlantis</name>
+                <target>atlantis</target>
+                <percent>95</percent>
+                <notes>
+					No known problems - should be playable to the end
+					<h:br />- Music loud on some systems, run with -m30 to lower music volume.
+				</notes>
+            </game>
+            <game>
+		        <name>Indiana Jones 4 and the Fate of Atlantis (DEMO)</name>
+                <target>playfate</target>
+                <percent>95</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+            <game>
+		        <name>Day Of The Tentacle</name>
+                <target>tentacle</target>
+                <percent>95</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+            <game>
+		        <name>Day Of The Tentacle (DEMO)</name>
+                <target>dottdemo</target>
+                <percent>95</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+            <game>
+		        <name>Sam &amp; Max</name>
+                <target>samnmax</target>
+                <percent>93</percent>
+                <notes>
+					No major problems - should be playable to the end
+					<h:br />- Highway subgame doesn't behave correctly
+				</notes>
+            </game>
+            <game>
+		        <name>Sam &amp; Max (DEMO)</name>
+                <target>samdemo</target>
+                <percent>95</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+            <game>
+		        <name>Full Thottle</name>
+                <target>ft</target>
+                <percent>75</percent>
+                <notes>
+					Game is completable to the end, but missing action sequences
+					<h:br />- Lack of INSANE subsystem prevents action sequences, which skips a substantial portion of the game
+					<h:br />- Derby scene is only properly controllable using the mouse
+				</notes>
+            </game>
+            <game>
+		        <name>The DIG</name>
+                <target>dig</target>
+                <percent>85</percent>
+                <notes>
+					Game is fully completable, with some minor sound issues
+				</notes>
+            </game>
+            <game>
+		        <name>Curse of Monkey Island</name>
+                <target>comi</target>
+                <percent>5</percent>
+                <notes>Not implemented yet. ScummVM doesn't understand new-style MAXS block, among other things</notes>
+            </game>
+        </games>
+	</company>
+    <company>
+		<name>Adventuresoft</name>
+		<games>
+			<game>
+		        <name>Simon The Sorcerer 1 Talkie (Win)</name>
+                <target>simon1win</target>
+                <percent>85</percent>
+                <notes>
+					Game is completable.
+					<h:br />- Various minor graphical glitches
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 1 Talkie (Dos)</name>
+                <target>simon1talkie</target>
+                <percent>85</percent>
+				<notes>
+					Game is completable.
+					<h:br />- Various minor graphical glitches
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 1 (Dos)</name>
+                <target>simon1dos</target>
+                <percent>75</percent>
+				<notes>
+					Game is completable.
+					<h:br />- Freezes briefly when Swampling leaves his house
+                    <h:br />- Freezes briefly when talking to demons in Sordid's Tower
+                    <h:br />- No sound effects
+					<h:br />- Various minor graphical glitches
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 1 (DEMO)</name>
+                <target>simon1demo</target>
+                <percent>75</percent>
+				<notes>
+					Game demo is completable but doesn't end
+					<h:br />- Freezes briefly when Swampling leaves his house
+                    <h:br />- No music
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 2 Talkie (Win)</name>
+                <target>simon2win</target>
+                <percent>80</percent>
+				<notes>
+					Game is completable.
+					<h:br />- Some music is missing or wrong
+					<h:br />- Various minor graphical glitches
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 2 Talkie (Dos)</name>
+                <target>simon2talkie</target>
+                <percent>80</percent>
+				<notes>
+					Game is completable.
+					<h:br />- No music
+					<h:br />- Various minor graphical glitches
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 2 (Dos)</name>
+                <target>simon2dos</target>
+                <percent>75</percent>
+				<notes>
+					Game is completable.
+					<h:br />- Freezes briefly during sequence shown when trying to escape from pirate ship
+                    <h:br />- No music
+					<h:br />- Various minor graphical glitches
+				</notes>
+            </game>
+		</games>
+	</company>
+</compatibility>

@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<compatibility xmlns:h="http://www.w3.org/TR/xhtml1/">
+	<company>
+		<name>LucasArts</name>
+		<games>
+			<game>
+		        <name>Maniac Mansion (C64)</name>
+                <target>maniacc64</target>
+                <percent>1</percent>
+                <notes>Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format</notes>
+            </game>
+            <game>
+		        <name>Zak McKracken and the Alien Mindbenders (C64)</name>
+                <target>zakc64</target>
+                <percent>1</percent>
+                <notes>Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version</notes>
+            </game>
+            <game>
+		        <name>Maniac Mansion</name>
+                <target>maniac</target>
+                <percent>10</percent>
+                <notes>
+					Enhanced version displays the initial character selection screen. Neither input nor text are implemented currently, so kids cannot be selected
+					<h:br />Internal functionality (walkboxes, text, input) are missing
+					<h:br />SCUMM v2 opcodes not completely implemented yet
+				</notes>
+            </game>
+            <game>
+		        <name>Zak McKracken and the Alien Mindbenders</name>
+                <target>zak</target>
+                <percent>10</percent>
+                <notes>
+					The introduction sequence runs, and the game can be started by escaping past it. However neither text nor input are implemented.
+					<h:br />Internal functionality (walkboxes, text, input) are missing
+					<h:br />SCUMM v2 opcodes not completely implemented yet
+				</notes>
+            </game>
+            <game>
+		        <name>Indiana Jones and the Last Crusade</name>
+                <target>indy3ega</target>
+                <percent>80</percent>
+                <notes>
+					Game is completable
+					<h:br />- No music or sound effects
+				</notes>
+            </game>
+            <game>
+		        <name>Indiana Jones and the Last Crusade (256)</name>
+                <target>indy3</target>
+                <percent>80</percent>
+                <notes>
+					Game is completable
+					<h:br />- No sound effects
+				</notes>
+            </game>
+            <game>
+		        <name>Zak McKracken and the Alien Mindbenders (256 - FmTowns)</name>
+                <target>zak256</target>
+                <percent>85</percent>
+                <notes>
+					Game is completable.
+					<h:br />- No sound effect looping
+				</notes>
+            </game>
+            <game>
+		        <name>Loom</name>
+                <target>loom</target>
+                <percent>80</percent>
+				<notes>
+					Game is completable
+					<h:br />- No music or sound effects
+				</notes>
+            </game>
+            <game>
+		        <name>The Secret of Monkey Island (EGA)</name>
+                <target>monkeyega</target>
+                <percent>80</percent>
+				<notes>
+					Game is completable
+					<h:br />- No sound effects
+				</notes>
+            </game>
+			<game>
+		        <name>Passport to Adventure (Indy3, Monkey and Loom demos)</name>
+                <target>pass</target>
+                <percent>50</percent>
+                <notes>
+					At least partly playable
+					<h:br />- No subtitles in indy3 demo
+					<h:br />- No sound effects
+				</notes>
+            </game>
+            <game>
+		        <name>Loom (256 color CD version)</name>
+                <target>loomcd</target>
+                <percent>90</percent>
+                <notes>
+					Game is completable.
+					<h:br />- Various minor graphical glitches
+				</notes>
+            </game>
+            <game>
+		        <name>The Secret of Monkey Island (VGA Floppy)</name>
+                <target>monkeyvga</target>
+                <percent>90</percent>
+                <notes>
+					Game is completable.
+					<h:br />- No sound effects
+				</notes>
+            </game>
+			<game>
+		        <name>The Secret of Monkey Island (VGA CD)</name>
+                <target>monkey</target>
+                <percent>95</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+            <game>
+		        <name>Monkey Island 2: LeChuck\'s revenge</name>
+                <target>monkey2</target>
+                <percent>95</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+            <game>
+		        <name>Indiana Jones 4 and the Fate of Atlantis</name>
+                <target>atlantis</target>
+                <percent>95</percent>
+                <notes>
+					No known problems - should be playable to the end
+					<h:br />- Both disk and cd versions are supported by this target
+					<h:br />- Music loud on some systems, run with -m30 to lower music volume.
+				</notes>
+            </game>
+            <game>
+		        <name>Indiana Jones 4 and the Fate of Atlantis (Demo)</name>
+                <target>playfate</target>
+                <percent>95</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+            <game>
+		        <name>Day Of The Tentacle</name>
+                <target>tentacle</target>
+                <percent>95</percent>
+                <notes>
+					No known problems - should be playable to the end
+					<h:br />- Both disk and cd versions are supported by this target
+		 		    <h:br />- Maniac Mansion isn't playable on eds computer
+				</notes>
+            </game>
+            <game>
+		        <name>Day Of The Tentacle (Demo)</name>
+                <target>dottdemo</target>
+                <percent>95</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+            <game>
+		        <name>Sam &amp; Max</name>
+                <target>samnmax</target>
+                <percent>93</percent>
+                <notes>
+					No major problems - should be playable to the end
+					<h:br />- Both disk and cd versions are supported by this target
+					<h:br />- Highway subgame doesn't behave correctly
+				</notes>
+            </game>
+            <game>
+		        <name>Sam &amp; Max (Demo)</name>
+                <target>samdemo</target>
+                <percent>95</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+            <game>
+		        <name>Full Thottle</name>
+                <target>ft</target>
+                <percent>75</percent>
+                <notes>
+					Game is completable to the end, but missing action sequences
+					<h:br />- Lack of INSANE subsystem prevents action sequences, which skips a substantial portion of the game
+					<h:br />- Derby scene is only properly controllable using the mouse
+				</notes>
+            </game>
+            <game>
+		        <name>The Dig</name>
+                <target>dig</target>
+                <percent>85</percent>
+                <notes>
+					Game is fully completable, with some minor sound issues
+				</notes>
+            </game>
+            <game>
+		        <name>Curse of Monkey Island</name>
+                <target>comi</target>
+                <percent>80</percent>
+                <notes>
+					Game is fully completable, although ship-to-ship is broken and several graphical glitches are present
+				</notes>
+            </game>
+        </games>
+	</company>
+    <company>
+		<name>Adventuresoft</name>
+		<games>
+			<game>
+		        <name>Simon The Sorcerer 1 Talkie (Win)</name>
+                <target>simon1win</target>
+                <percent>85</percent>
+                <notes>
+					Game is completable.
+					<h:br />- Minor graphical glitches when using ring
+                    <h:br />- Minor graphical glitch with Sordid statue after leaving room
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 1 Talkie (DOS)</name>
+                <target>simon1talkie</target>
+                <percent>85</percent>
+				<notes>
+					Game is completable.
+					<h:br />- Minor graphical glitches when using ring
+                    <h:br />- Minor graphical glitch with Sordid statue after leaving room
+                    <h:br />- No inventory scrolling arrows shown, can still move around inventory though
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 1 Talkie (Amiga CD32)</name>
+                <target>simon1cd32</target>
+                <percent>5</percent>
+				<notes>
+					Game works a bit but can't see anything
+					<h:br />- All graphics are decoded incorrectly
+					<h:br />- pkd compression format is unknown
+					<h:br />- No music, sound effects or speech
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 1 (DOS)</name>
+                <target>simon1dos</target>
+                <percent>80</percent>
+				<notes>
+					Game is completable.
+					<h:br />- Freezes briefly when Swampling leaves his house
+                    <h:br />- Freezes briefly when talking to demons in Sordid's Tower
+					<h:br />- Minor graphical glitches when using ring
+                    <h:br />- Minor graphical glitch with Sordid statue after leaving room
+                    <h:br />- No inventory scrolling arrows shown, can still move around inventory though
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 1 (Amiga)</name>
+                <target>simon1amiga</target>
+                <percent>1</percent>
+				<notes>
+					Not at all implemented yet
+					<h:br />- pkd compression format is unknown
+					<h:br />- Music format unknown
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 1 (Demo)</name>
+                <target>simon1demo</target>
+                <percent>80</percent>
+				<notes>
+					Game demo is completable but doesn't end
+					<h:br />- Freezes briefly when Swampling leaves his house
+                    <h:br />- No music
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 2 Talkie (Win)</name>
+                <target>simon2win</target>
+                <percent>80</percent>
+				<notes>
+					Game is completable.
+					<h:br />- Some music is missing or wrong
+					<h:br />- Minor graphical glitch when giving items to baby
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 2 Talkie (DOS)</name>
+                <target>simon2talkie</target>
+                <percent>80</percent>
+				<notes>
+					Game is completable.
+					<h:br />- No music
+					<h:br />- Minor graphical glitch when giving items to baby
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 2 Talkie (Amiga or Mac)</name>
+                <target>simon2mac</target>
+                <percent>80</percent>
+				<notes>
+					Game is completable.
+					<h:br />- Only default language in data files is supported
+                    <h:br />- F10 key animation is different
+                    <h:br />- Minor graphical glitch when giving items to baby
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 2 (DOS)</name>
+                <target>simon2dos</target>
+                <percent>80</percent>
+				<notes>
+					Game is completable.
+					<h:br />- Text in Copy Protection screen is only shown for short time
+                    <h:br />- No music
+                    <h:br />- Minor graphical glitch when giving items to baby
+				</notes>
+            </game>
+		</games>
+	</company>
+	<company>
+		<name>Revolution Software</name>
+		<games>
+			<game>
+		        <name>Beneath a Steel Sky</name>
+                <target>sky</target>
+                <percent>5</percent>
+                <notes>
+					Only the introduction works so far.
+				</notes>
+            </game>
+		</games>
+	</company>
+	<company>
+		<name>Humongous Entertainment</name>
+		<games>
+			<game>
+		        <name>Putt-Putt Joins The Parade (DOS Demo)</name>
+                <target>puttdemo</target>
+                <percent>70</percent>
+                <notes>
+					Should be playable to the end".
+					<h:br />- talkie data not synced/properly implemented
+				</notes>
+            </game>
+			<game>
+		        <name>utt-Putt Joins The Parade (DOS)</name>
+                <target>puttputt</target>
+                <percent>10</percent>
+                <notes>
+					Fails to start after looking for seemingly non existent object (1)
+					<h:br />- Adding a hack for objects &lt; 17 seems to hack around it, not in CVS though as would prefer a proper fix
+					<h:br />- talkie data not synced/properly implemented
+				</notes>
+            </game>
+			<game>
+		        <name>Putt-Putt Goes To The Moon (DOS Demo)</name>
+                <target>moondemo</target>
+                <percent>20</percent>
+                <notes>
+					Finishable if you don't trigger one or two fatal animations
+					<h:br />- cursor doesn't turn to arrow on the right hand side of the screen in the first room
+					<h:br />- talkie data not synced/properly implemented
+				</notes>
+            </game>
+			<game>
+		        <name>Putt-Putt Goes To The Moon (DOS)</name>
+                <target>puttmoon</target>
+                <percent>20</percent>
+                <notes>
+					Fails an AKOS related assertion shortly after starting
+					<h:br />- scummvm: scumm/akos.cpp:267: virtual byte AkosRenderer::drawLimb(const CostumeData&amp;, int): Assertion `(code &amp; 0xFFF) * 6 &lt; READ_BE_UINT32((byte *)akof - 4) - 8' failed.
+					<h:br />- talkie data not synced/properly implemented
+				</notes>
+            </game>
+			<game>
+		        <name>Putt-Putts Fun Pack</name>
+                <target>funpack</target>
+                <percent>20</percent>
+                <notes>
+					Starts but mini games seem to have various problems
+					<h:br />- Checkers: o6_actorOps: default case 218
+					<h:br />- Puzzle blocks/Pinball/Remember/Cheese King/Tic-Tac-Toe: Works but colour isn't set properly so game is black and white
+					<h:br />- talkie data not synced/properly implemented
+				</notes>
+            </game>
+			<game>
+		        <name>Fatty Bears Birthday Surprise (DOS Demo)</name>
+                <target>fbdemo</target>
+                <percent>20</percent>
+                <notes>
+					Fails assertion at the end of the intro
+					<h:br />- scumm/resource.cpp:1222: void Scumm::nukeResource(int, int): Assertion `idx &gt;= 0 &amp;&amp; idx &lt; res.num[type]' failed.
+					<h:br />- talkie data not synced/properly implemented
+				</notes>
+            </game>
+			<game>
+		        <name>Fatty Bears Birthday Surprise (DOS)</name>
+                <target>fbear</target>
+                <percent>20</percent>
+                <notes>
+					various errors that prevent the game from being finishable
+					<h:br />- talkie data not synced/properly implemented
+				</notes>
+            </game>
+			<game>
+		        <name>Fatty Bears Fun Pack</name>
+                <target>fbpack</target>
+                <percent>20</percent>
+                <notes>
+					Game starts but various minigames have different problems
+					<h:br />- Reversi/Go Fish/Lines and Boxes: o6_actorOps: default case 218
+					<h:br />- Coloring/Tangrams: Error(6:209:0x40D5): Invalid opcode 'db' (readFile)
+					<h:br />- talkie data not synced/properly implemented
+				</notes>
+            </game>
+		</games>
+	</company>
+</compatibility>
