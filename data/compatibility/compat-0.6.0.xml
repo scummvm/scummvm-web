@@ -48,7 +48,7 @@
 				</notes>
             </game>
 			<game>
-		        <name>Zak McKracken and the Alien Mindbenders (256 - FmTowns)</name>
+		        <name>Zak McKracken and the Alien Mindbenders (256 - FM-TOWNS)</name>
                 <target>zaktowns</target>
                 <percent>90</percent>
                 <notes>
@@ -78,7 +78,7 @@
 				</notes>
             </game>
 			<game>
-		        <name>Indiana Jones and the Last Crusade (256 - FmTowns)</name>
+		        <name>Indiana Jones and the Last Crusade (256 - FM-TOWNS)</name>
                 <target>indy3towns</target>
                 <percent>90</percent>
                 <notes>
@@ -101,7 +101,7 @@
 				</notes>
             </game>
 			<game>
-		        <name>Loom (256 - FmTowns)</name>
+		        <name>Loom (256 - FM-TOWNS)</name>
                 <target>loomtowns</target>
                 <percent>75</percent>
                 <notes>
