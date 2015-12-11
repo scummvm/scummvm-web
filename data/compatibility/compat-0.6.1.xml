@@ -28,7 +28,7 @@
             <game>
 		        <name>Zak McKracken and the Alien Mindbenders (original)</name>
                 <target>zak</target>
-                <percent>80</percent>
+                <percent>85</percent>
                 <notes>
 					Enhanced PC version is completable, with several minor glitches
 					<h:br />Classic version is completable, with several minor glitches
@@ -39,7 +39,7 @@
             <game>
 		        <name>Zak McKracken and the Alien Mindbenders (enhanced)</name>
                 <target>zak</target>
-                <percent>80</percent>
+                <percent>90</percent>
                 <notes>
 					Enhanced PC version is completable, with several minor glitches
 					<h:br />Classic version is completable, with several minor glitches
@@ -48,7 +48,7 @@
 				</notes>
             </game>
 			<game>
-		        <name>Zak McKracken and the Alien Mindbenders (256 - FmTowns)</name>
+		        <name>Zak McKracken and the Alien Mindbenders (256 - FM-TOWNS)</name>
                 <target>zaktowns</target>
                 <percent>90</percent>
                 <notes>
