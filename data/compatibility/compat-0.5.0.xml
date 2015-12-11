@@ -4,33 +4,63 @@
 		<name>LucasArts</name>
 		<games>
 			<game>
-		        <name>Maniac Mansion (C64)</name>
-                <target>maniacc64</target>
-                <percent>1</percent>
-                <notes>Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format</notes>
-            </game>
-            <game>
-		        <name>Zak McKracken and the Alien Mindbenders (C64)</name>
-                <target>zakc64</target>
-                <percent>1</percent>
-                <notes>Not at all implemented yet - ScummVM doesn't understand the non-blocked LFL format. Try Zak256 version</notes>
-            </game>
-            <game>
-		        <name>Maniac Mansion</name>
+		        <name>Maniac Mansion (original)</name>
                 <target>maniac</target>
-                <percent>50</percent>
+                <percent>20</percent>
                 <notes>
-                    Enhanced version runs, although in-game there are still many things wrong
-                    <h:br />- No music or sound effects
+					Enhanced PC version is completable, with several minor glitches
+					<h:br />Classic version still in progress, results may vary
+					<h:br />- Both Amiga (Use Amiga option) and PC versions are supported by this target
+					<h:br />- Classic PC version actor costumes are broken, resulting in random crashes
+					<h:br />- No music or sound effects with Amiga and Classic PC versions
+				</notes>
+            </game>
+			<game>
+		        <name>Maniac Mansion (enhanced)</name>
+                <target>maniac</target>
+                <percent>70</percent>
+                <notes>
+					Enhanced PC version is completable, with several minor glitches
+					<h:br />Classic version still in progress, results may vary
+					<h:br />- Both Amiga (Use Amiga option) and PC versions are supported by this target
+					<h:br />- Classic PC version actor costumes are broken, resulting in random crashes
+					<h:br />- No music or sound effects with Amiga and Classic PC versions
 				</notes>
             </game>
             <game>
-		        <name>Zak McKracken and the Alien Mindbenders</name>
+		        <name>Zak McKracken and the Alien Mindbenders (original)</name>
                 <target>zak</target>
-                <percent>50</percent>
+                <percent>20</percent>
                 <notes>
-                    Enhanced version runs, although in-game there are still many things wrong
-                    <h:br />- No music or sound effects
+					Enhanced PC version runs, with glitches. May be completable
+					<h:br />Classic version still in progress, results may vary
+					<h:br />- Both Amiga (Use Amiga option) and PC versions supported by this target
+					<h:br />- Classic PC version does not start, due to script problems
+					<h:br />- Classic PC version actor costumes are broken, resulting in random crashes
+					<h:br />- No music or sound effects with Amiga version
+				</notes>
+            </game>
+            <game>
+		        <name>Zak McKracken and the Alien Mindbenders (enhanced)</name>
+                <target>zak</target>
+                <percent>70</percent>
+                <notes>
+					Enhanced PC version runs, with glitches. May be completable
+					<h:br />Classic version still in progress, results may vary
+					<h:br />- Both Amiga (Use Amiga option) and PC versions supported by this target
+					<h:br />- Classic PC version does not start, due to script problems
+					<h:br />- Classic PC version actor costumes are broken, resulting in random crashes
+					<h:br />- No music or sound effects with Amiga version
+				</notes>
+            </game>
+			<game>
+		        <name>Zak McKracken and the Alien Mindbenders (256 - FmTowns)</name>
+                <target>zak256</target>
+                <percent>85</percent>
+                <notes>
+					Game is completable.
+					<h:br />- Sounds with partial loops, loop the whole sample instead of just that portion
+					<h:br />- Kanji version isn't supported
 				</notes>
             </game>
             <game>
@@ -39,7 +69,9 @@
                 <percent>80</percent>
                 <notes>
 					Game is completable
-					<h:br />- No music or sound effects
+					<h:br />- Both Amiga (Use Amiga option) and PC versions supported by this target
+					<h:br />- No music with Amiga version
+					<h:br />- No sound effect looping with Amiga version
 				</notes>
             </game>
             <game>
@@ -51,13 +83,14 @@
 					<h:br />- No sound effects
 				</notes>
             </game>
-            <game>
-		        <name>Zak McKracken and the Alien Mindbenders (256 - FmTowns)</name>
-                <target>zak256</target>
-                <percent>85</percent>
+			<game>
+		        <name>Indiana Jones and the Last Crusade (256 - FmTowns)</name>
+                <target>indy3towns</target>
+                <percent>80</percent>
                 <notes>
 					Game is completable.
-					<h:br />- No sound effect looping
+					<h:br />- Sounds with partial loops, loop the whole sample instead of just that portion
+					<h:br />- Kanji version isn't supported
 				</notes>
             </game>
             <game>
@@ -66,7 +99,9 @@
                 <percent>80</percent>
 				<notes>
 					Game is completable
-					<h:br />- No music or sound effects
+					<h:br />- Both Amiga (Use Amiga option) and PC versions supported by this target
+					<h:br />- No music with Amiga version
+					<h:br />- No sound effect looping with Amiga version
 				</notes>
             </game>
             <game>
@@ -103,7 +138,9 @@
                 <percent>90</percent>
                 <notes>
 					Game is completable.
+					<h:br />- Both Amiga (Use Amiga option) and PC versions supported by this target
 					<h:br />- No sound effects
+					<h:br />- No music with Amiga version
 				</notes>
             </game>
 			<game>
@@ -116,7 +153,12 @@
 		        <name>Monkey Island 2: LeChuck\'s revenge</name>
                 <target>monkey2</target>
                 <percent>95</percent>
-                <notes>No known problems - should be playable to the end</notes>
+                <notes>
+					No known problems - should be playable to the end
+					<h:br />- Both Amiga (Use Amiga option) and PC versions supported by this target
+					<h:br />- No sound effects with Amiga version
+					<h:br />- Various minor graphical glitches with Amiga version
+				</notes>
             </game>
             <game>
 		        <name>Indiana Jones 4 and the Fate of Atlantis</name>
@@ -124,8 +166,10 @@
                 <percent>95</percent>
                 <notes>
 					No known problems - should be playable to the end
-					<h:br />- Both disk and cd versions are supported by this target
+					<h:br />- Both Amiga (Use Amiga option) and PC versions supported by this target
+					<h:br />- Both disk and cd PC versions are supported by this target
 					<h:br />- Music loud on some systems, run with -m30 to lower music volume.
+					<h:br />- No sound effects with Amiga version
 				</notes>
             </game>
             <game>
@@ -172,6 +216,8 @@
                 <percent>60</percent>
                 <notes>
 					Game is completable to the end, but missing action sequences
+					<h:br />- Music is not continuous, and may pause, restart, and otherwise act oddly
+					<h:br />- SMUSH audio (movie cutscenes) is a lot quieter than in-game voice, which is abnormallyloud
 					<h:br />- Lack of INSANE subsystem prevents action sequences, which skips a substantial portion of the game
 					<h:br />- Derby scene is only properly controllable using the mouse
 				</notes>
@@ -200,7 +246,7 @@
 			<game>
 		        <name>Simon The Sorcerer 1 Talkie (Win)</name>
                 <target>simon1win</target>
-                <percent>85</percent>
+                <percent>95</percent>
                 <notes>
 					Game is completable.
 					<h:br />- Minor graphical glitches when using ring
@@ -210,50 +256,48 @@
 			<game>
 		        <name>Simon The Sorcerer 1 Talkie (DOS)</name>
                 <target>simon1talkie</target>
-                <percent>85</percent>
+                <percent>90</percent>
 				<notes>
 					Game is completable.
-					<h:br />- Minor graphical glitches when using ring
-                    <h:br />- Minor graphical glitch with Sordid statue after leaving room
                     <h:br />- No inventory scrolling arrows shown, can still move around inventory though
 				</notes>
             </game>
 			<game>
 		        <name>Simon The Sorcerer 1 Talkie (Amiga CD32)</name>
                 <target>simon1cd32</target>
-                <percent>5</percent>
+                <percent>8</percent>
 				<notes>
 					Game works a bit but can't see anything
 					<h:br />- All graphics are decoded incorrectly
 					<h:br />- pkd compression format is unknown
-					<h:br />- No music, sound effects or speech
+					<h:br />- No music
 				</notes>
             </game>
 			<game>
 		        <name>Simon The Sorcerer 1 (DOS)</name>
                 <target>simon1dos</target>
-                <percent>83</percent>
+                <percent>88</percent>
 				<notes>
 					Game is completable.
 					<h:br />- Freezes briefly when Swampling leaves his house
                     <h:br />- Freezes briefly when talking to demons in Sordid's Tower
-					<h:br />- Minor graphical glitches when using ring
-                    <h:br />- Minor graphical glitch with Sordid statue after leaving room
                     <h:br />- No inventory scrolling arrows shown, can still move around inventory though
 				</notes>
             </game>
 			<game>
 		        <name>Simon The Sorcerer 1 (Amiga)</name>
                 <target>simon1amiga</target>
-                <percent>1</percent>
+                <percent>5</percent>
 				<notes>
-					Not at all implemented yet
+					Game works a bit but can't see anything
+					<h:br />- All graphics are decoded incorrectly
+					<h:br />- No music
 				</notes>
             </game>
 			<game>
 		        <name>Simon The Sorcerer 1 (Demo)</name>
                 <target>simon1demo</target>
-                <percent>83</percent>
+                <percent>88</percent>
 				<notes>
 					Game demo is completable but doesn't end
 					<h:br />- Freezes briefly when Swampling leaves his house
@@ -262,42 +306,38 @@
 			<game>
 		        <name>Simon The Sorcerer 2 Talkie (Win)</name>
                 <target>simon2win</target>
-                <percent>85</percent>
+                <percent>95</percent>
 				<notes>
-					Game is completable.
-					<h:br />- Minor graphical glitch when giving items to baby
+					No known problems - game is completable.
 				</notes>
             </game>
 			<game>
 		        <name>Simon The Sorcerer 2 Talkie (DOS)</name>
                 <target>simon2talkie</target>
-                <percent>85</percent>
+                <percent>90</percent>
 				<notes>
 					Game is completable.
 					<h:br />- When subtiles are enabled, it freezes briefly when Pirate Captain is talking to Mate, when Simon tries to escape
-					<h:br />- Minor graphical glitch when giving items to baby
 				</notes>
             </game>
 			<game>
 		        <name>Simon The Sorcerer 2 Talkie (Amiga or Mac)</name>
                 <target>simon2mac</target>
-                <percent>85</percent>
+                <percent>90</percent>
 				<notes>
 					Game is completable.
 					<h:br />- Only default language in data files is supported
                     <h:br />- F10 key animation is different
-                    <h:br />- Minor graphical glitch when giving items to baby
 				</notes>
             </game>
 			<game>
 		        <name>Simon The Sorcerer 2 (DOS)</name>
                 <target>simon2dos</target>
-                <percent>83</percent>
+                <percent>88</percent>
 				<notes>
 					Game is completable.
 					<h:br />- Text in Copy Protection screen is only shown for short time
                     <h:br />- Freezes briefly when Pirate Captain is talking to Mate, when Simon tries to escape
-                    <h:br />- Minor graphical glitch when giving items to baby
 				</notes>
             </game>
 		</games>
@@ -308,9 +348,12 @@
 			<game>
 		        <name>Beneath a Steel Sky</name>
                 <target>sky</target>
-                <percent>5</percent>
+                <percent>90</percent>
                 <notes>
-					Only the introduction works so far.
+					Game is completable
+					<h:br />- Floppy demo isn't supported
+					<h:br />- Random crashes have been reported
+					<h:br />- Amiga versions aren't supported and probably never will be
 				</notes>
             </game>
 		</games>

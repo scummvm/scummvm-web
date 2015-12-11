@@ -329,7 +329,7 @@
                 <target>puttdemo</target>
                 <percent>70</percent>
                 <notes>
-					Should be playable to the end".
+					Should be playable to the end
 					<h:br />- talkie data not synced/properly implemented
 				</notes>
             </game>
