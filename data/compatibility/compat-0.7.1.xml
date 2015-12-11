@@ -171,7 +171,7 @@
 				</notes>
             </game>
             <game>
-		        <name>Monkey Island 2: LeChuck\'s revenge</name>
+		        <name>Monkey Island 2: LeChuck's revenge</name>
                 <target>monkey2</target>
                 <percent>95</percent>
                 <notes>
@@ -181,7 +181,7 @@
 				</notes>
             </game>
 			<game>
-		        <name>Monkey Island 2: LeChuck\'s revenge (DOS Demo)</name>
+		        <name>Monkey Island 2: LeChuck's revenge (DOS Demo)</name>
                 <target>mi2demo</target>
                 <percent>10</percent>
                 <notes>
