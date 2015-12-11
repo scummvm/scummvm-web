@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<compatibility xmlns:h="http://www.w3.org/TR/xhtml1/">
+	<company>
+		<name>LucasArts</name>
+		<games>
+			<game>
+		        <name>Maniac Mansion (original)</name>
+                <target>maniac</target>
+                <percent>90</percent>
+                <notes>
+					Enhanced PC version is completable
+					<h:br />Classic version is completable
+					<h:br />- Minor graphical glitches with actors in classic verison
+					<h:br />- Amiga, Atari ST, Mac and PC versions supported by this target
+				</notes>
+            </game>
+			<game>
+		        <name>Maniac Mansion (enhanced)</name>
+                <target>maniac</target>
+                <percent>95</percent>
+                <notes>
+					Enhanced PC version is completable
+					<h:br />Classic version is completable
+					<h:br />- Minor graphical glitches with actors in classic verison
+					<h:br />- Amiga, Atari ST, Mac and PC versions supported by this target
+				</notes>
+            </game>
+            <game>
+		        <name>Zak McKracken and the Alien Mindbenders (original)</name>
+                <target>zak</target>
+                <percent>80</percent>
+                <notes>
+					Enhanced PC version is completable, with several minor glitches
+					<h:br />Classic version is completable, with several minor glitches
+					<h:br />- Minor graphical glitches with actors in classic verison
+					<h:br />- Amiga, Atari ST and PC versions supported by this target
+				</notes>
+            </game>
+            <game>
+		        <name>Zak McKracken and the Alien Mindbenders (enhanced)</name>
+                <target>zak</target>
+                <percent>80</percent>
+                <notes>
+					Enhanced PC version is completable, with several minor glitches
+					<h:br />Classic version is completable, with several minor glitches
+					<h:br />- Minor graphical glitches with actors in classic verison
+					<h:br />- Amiga, Atari ST and PC versions supported by this target
+				</notes>
+            </game>
+			<game>
+		        <name>Zak McKracken and the Alien Mindbenders (256 - FmTowns)</name>
+                <target>zaktowns</target>
+                <percent>90</percent>
+                <notes>
+					Game is completable.
+					<h:br />- Kanji version isn't supported
+				</notes>
+            </game>
+            <game>
+		        <name>Indiana Jones and the Last Crusade</name>
+                <target>indy3ega</target>
+                <percent>90</percent>
+                <notes>
+					Game is completable
+					<h:br />- Amiga, Atari ST, Mac and PC versions supported by this target
+					<h:br />- Indiana may be able to walk in odd places, in some rooms
+					<h:br />- No inventory in Mac version
+					<h:br />- Atari ST and Mac versions require pcjr or pcspk music driver
+				</notes>
+            </game>
+            <game>
+		        <name>Indiana Jones and the Last Crusade (256)</name>
+                <target>indy3</target>
+                <percent>90</percent>
+                <notes>
+					Game is completable
+					<h:br />- Indiana may be able to walk in odd places, in some rooms
+				</notes>
+            </game>
+			<game>
+		        <name>Indiana Jones and the Last Crusade (256 - FmTowns)</name>
+                <target>indy3towns</target>
+                <percent>90</percent>
+                <notes>
+					Game is completable.
+					<h:br />- Indiana may be able to walk in odd places, in some rooms
+					<h:br />- Kanji version isn't supported
+				</notes>
+            </game>
+            <game>
+		        <name>Loom</name>
+                <target>loom</target>
+                <percent>95</percent>
+				<notes>
+					No known problems - should be playable to the end
+					<h:br />- Amiga, Atari ST, Mac and PC versions supported by this target
+					<h:br />- No music or sound effects with Mac version
+					<h:br />- Atari ST and Mac versions require pcjr or pcspk music driver
+					<h:br />- MIDI support requires the Roland update from LucasArts
+				</notes>
+            </game>
+			<game>
+		        <name>Loom (256 - FmTowns)</name>
+                <target>loomtowns</target>
+                <percent>75</percent>
+                <notes>
+					Game is completable
+					<h:br />- Fades are seemingly different to other versions in some cases
+					<h:br />- Text palette sometimes incorrect
+					<h:br />- Distaff occasionally pink...
+					<h:br />- Difficulty select is via boot param:
+
+					<h:ul>
+						<h:li>0 practice (default)</h:li>
+					    <h:li>1 standard</h:li>
+						<h:li>2 expert</h:li>
+					</h:ul>
+					<h:br />- Kanji version isn't supported
+				</notes>
+            </game>
+            <game>
+		        <name>The Secret of Monkey Island (EGA)</name>
+                <target>monkeyega</target>
+                <percent>95</percent>
+				<notes>
+					Game is completable
+					<h:br />- Atari ST version requires pcjr or pcspk music driver
+					<h:br />- MIDI support requires the Roland update from LucasArts
+				</notes>
+            </game>
+			<game>
+		        <name>Passport to Adventure (Indy3, Monkey and Loom demos)</name>
+                <target>pass</target>
+                <percent>95</percent>
+                <notes>
+					All three demos are completable.
+				</notes>
+            </game>
+            <game>
+		        <name>Loom (256 color CD version)</name>
+                <target>loomcd</target>
+                <percent>95</percent>
+                <notes>
+					No known problems - should be playable to the end
+				</notes>
+            </game>
+            <game>
+		        <name>The Secret of Monkey Island (VGA Floppy)</name>
+                <target>monkeyvga</target>
+                <percent>95</percent>
+                <notes>
+					Game is completable.
+					<h:br />- Both Amiga (Use Amiga option) and PC versions supported by this target
+					<h:br />- No music with Amiga version
+				</notes>
+            </game>
+			<game>
+		        <name>The Secret of Monkey Island (VGA CD)</name>
+                <target>monkey</target>
+                <percent>95</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+			<game>
+		        <name>The Secret of Monkey Island (Alternative VGA CD)</name>
+                <target>monkey1</target>
+                <percent>95</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+			<game>
+		        <name>The Secret of Monkey Island (Sega CD)</name>
+                <target>game</target>
+                <percent>85</percent>
+                <notes>
+					No known problems - should be playable to the end
+					<h:br />- No sound effects
+				</notes>
+            </game>
+            <game>
+		        <name>Monkey Island 2: LeChuck\'s revenge</name>
+                <target>monkey2</target>
+                <percent>95</percent>
+                <notes>
+					No known problems - should be playable to the end
+					<h:br />- Amiga, FM Towns, Mac and PC versions supported by this target
+					<h:br />- Various graphical glitches with Amiga version
+					<h:br />- Kanji version requires the FM Towns Font ROM
+				</notes>
+            </game>
+			<game>
+		        <name>Monkey Island 2: LeChuck\'s revenge (DOS Demo)</name>
+                <target>mi2demo</target>
+                <percent>10</percent>
+                <notes>
+					Often crashes due to missing resources, since it was never meant to be playable
+				    <h:br />- No support for playing back the recorded file of gameplay
+				</notes>
+            </game>
+            <game>
+		        <name>Indiana Jones 4 and the Fate of Atlantis</name>
+                <target>atlantis</target>
+                <percent>95</percent>
+                <notes>
+					No known problems - should be playable to the end
+					<h:br />- Amiga, FM Towns, Mac and PC versions supported by this target
+					<h:br />- Both disk and cd PC versions are supported by this target
+					<h:br />- Music loud on some systems, run with -m30 to lower music volume.
+					<h:br />- Various graphical glitches with Amiga version
+					<h:br />- Kanji version requires the FM Towns Font ROM
+				</notes>
+            </game>
+            <game>
+		        <name>Indiana Jones 4 and the Fate of Atlantis (Demo)</name>
+                <target>playfate</target>
+                <percent>95</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+            <game>
+		        <name>Day Of The Tentacle</name>
+                <target>tentacle</target>
+                <percent>95</percent>
+                <notes>
+					No known problems - should be playable to the end
+					<h:br />- Both disk and cd versions are supported by this target
+		 		    <h:br />- Maniac Mansion isn't playable on eds computer
+				</notes>
+            </game>
+            <game>
+		        <name>Day Of The Tentacle (Demo)</name>
+                <target>dottdemo</target>
+                <percent>95</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+            <game>
+		        <name>Sam &amp; Max</name>
+                <target>samnmax</target>
+                <percent>93</percent>
+                <notes>
+					No major problems - should be playable to the end
+					<h:br />- Both disk and cd versions are supported by this target
+					<h:br />- Highway subgame doesn't behave correctly
+				</notes>
+            </game>
+            <game>
+		        <name>Sam &amp; Max (Demo)</name>
+                <target>samdemo</target>
+                <percent>95</percent>
+                <notes>No known problems - should be playable to the end</notes>
+            </game>
+            <game>
+		        <name>Full Thottle</name>
+                <target>ft</target>
+                <percent>85</percent>
+                <notes>
+					Game is completable, with minor glitches
+					<h:br />- Both Mac and PC versions supported by this target
+				</notes>
+            </game>
+            <game>
+		        <name>The Dig</name>
+                <target>dig</target>
+                <percent>85</percent>
+                <notes>
+					Game is completable, with minor glitches
+					<h:br />- Both Mac and PC versions supported by this target
+				</notes>
+            </game>
+            <game>
+		        <name>Curse of Monkey Island</name>
+                <target>comi</target>
+                <percent>80</percent>
+                <notes>
+					Game is fully completable, although ship-to-ship is broken and several graphical glitches are present
+				</notes>
+            </game>
+        </games>
+	</company>
+    <company>
+		<name>Adventuresoft</name>
+		<games>
+			<game>
+		        <name>Simon The Sorcerer 1 Talkie (Win)</name>
+                <target>simon1win</target>
+                <percent>95</percent>
+                <notes>
+					No known problems - game is completable.
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 1 Talkie (DOS)</name>
+                <target>simon1talkie</target>
+                <percent>90</percent>
+				<notes>
+					Game is completable.
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 1 Talkie (Amiga CD32)</name>
+                <target>simon1cd32</target>
+                <percent>8</percent>
+				<notes>
+					Game is completable, with major graphics glitches
+					<h:br />- Character and background graphics are decoded incorrectly
+					<h:br />- No music
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 1 Talkie (Acorn)</name>
+                <target>simon1acorn</target>
+                <percent>93</percent>
+				<notes>
+					Game is completable.
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 1 (DOS)</name>
+                <target>simon1dos</target>
+                <percent>88</percent>
+				<notes>
+					Game is completable.
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 1 (Amiga)</name>
+                <target>simon1amiga</target>
+                <percent>5</percent>
+				<notes>
+					Game works a bit but can't see anything
+					<h:br />- Character and background graphics are decoded incorrectly
+					<h:br />- No music
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 1 (Demo)</name>
+                <target>simon1demo</target>
+                <percent>88</percent>
+				<notes>
+					Game demo is completable
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 2 Talkie (Win)</name>
+                <target>simon2win</target>
+                <percent>95</percent>
+				<notes>
+					No known problems - game is completable.
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 2 Talkie (DOS)</name>
+                <target>simon2talkie</target>
+                <percent>90</percent>
+				<notes>
+					No known problems - game is completable.
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 2 Talkie (Amiga or Mac)</name>
+                <target>simon2mac</target>
+                <percent>90</percent>
+				<notes>
+					Game is completable.
+					<h:br />- Only default language in data files is supported
+                    <h:br />- F10 key animation is different
+				</notes>
+            </game>
+			<game>
+		        <name>Simon The Sorcerer 2 (DOS)</name>
+                <target>simon2dos</target>
+                <percent>88</percent>
+				<notes>
+					No known problems - game is completable.
+				</notes>
+            </game>
+		</games>
+	</company>
+	<company>
+		<name>Revolution Software</name>
+		<games>
+			<game>
+		        <name>Beneath a Steel Sky</name>
+                <target>sky</target>
+                <percent>90</percent>
+                <notes>
+					Game is completable
+					<h:br />- Floppy demos are unsupported
+					<h:br />- Amiga versions aren't supported and probably never will be
+					<h:br />
+					<h:br />There are also bugs which were already present in the original game and which we can't fix:
+					<h:br />- The voice files for some sentences are missing.
+					<h:br />&nbsp;&nbsp;&nbsp;&nbsp;This is especially noticeable in the court- and Mrs. Piermont sequence.
+					<h:br />- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders
+					<h:br />- Special characters for french and italian subtitles are incorrect sometimes
+				</notes>
+            </game>
+			<game>
+		        <name>Broken Sword I</name>
+                <target>sword1</target>
+                <percent>80</percent>
+                <notes>
+					Game is completable.
+					<h:br />- Czech support is untested. If you have a czech version, please contact us.
+				</notes>
+            </game>
+			<game>
+		        <name>Broken Sword II</name>
+                <target>sword2</target>
+                <percent>85</percent>
+                <notes>
+					Game is completable.
+				</notes>
+            </game>
+		</games>
+	</company>
+	<company>
+		<name>Other</name>
+		<games>
+			<game>
+		        <name>Flight of the Amazon Queen</name>
+                <target>queen</target>
+                <percent>80</percent>
+                <notes>
+					Game should be completable.
+					<h:br />- Some versions may require the queen.tbl resource file to be placed in the game directory. This is not required for the freeware releases
+				</notes>
+            </game>
+		</games>
+	</company>
+	<company>
+		<name>Humongous Entertainment</name>
+		<games>
+			<game>
+		        <name>Putt-Putt Joins The Parade (DOS Demo)</name>
+                <target>puttdemo</target>
+                <percent>95</percent>
+                <notes>
+					No known issues, game is completable.
+				</notes>
+            </game>
+			<game>
+		        <name>Putt-Putt Joins The Parade (DOS)</name>
+                <target>puttputt</target>
+                <percent>80</percent>
+                <notes>
+					Game should be completable
+					<h:br />- Minor graphical glitches when cars come out of their garages on streets
+				</notes>
+            </game>
+			<game>
+		        <name>Putt-Putt Goes To The Moon (DOS Demo)</name>
+                <target>moondemo</target>
+                <percent>60</percent>
+                <notes>
+					Completable if you don't trigger one fatal animation
+					<h:br />- Creature behind garage door dissappears
+				</notes>
+            </game>
+			<game>
+		        <name>Putt-Putt Goes To The Moon (DOS)</name>
+                <target>puttmoon</target>
+                <percent>20</percent>
+                <notes>
+					Fails an AKOS related assertion shortly after starting
+					<h:br />- scummvm: scumm/akos.cpp:267: virtual byte AkosRenderer::drawLimb(const CostumeData&amp;, int): Assertion `(code &amp; 0xFFF) * 6 &lt; READ_BE_UINT32((byte *)akof - 4) - 8' failed.
+				</notes>
+            </game>
+			<game>
+		        <name>Putt-Putts Fun Pack</name>
+                <target>funpack</target>
+                <percent>70</percent>
+                <notes>
+					Starts but mini games seem to have various problems
+		 		    <h:br />- Cheese King: Triggers an assertion
+				</notes>
+            </game>
+			<game>
+		        <name>Fatty Bears Birthday Surprise (DOS Demo)</name>
+                <target>fbdemo</target>
+                <percent>95</percent>
+                <notes>
+					Should be playable to the end
+				</notes>
+            </game>
+			<game>
+		        <name>Fatty Bears Birthday Surprise (DOS)</name>
+                <target>fbear</target>
+                <percent>80</percent>
+                <notes>
+					Game should be completable, with several glitches
+					<h:br />- Decorations on birthday cake aren't remembered
+					<h:br />- Piano sounds aren't correct pitch and several sound effects are missing
+				</notes>
+            </game>
+			<game>
+		        <name>Fatty Bears Fun Pack</name>
+                <target>fbpack</target>
+                <percent>95</percent>
+                <notes>
+					No known issues, game is completable.
+				</notes>
+            </game>
+		</games>
+	</company>
+</compatibility>
