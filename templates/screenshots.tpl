@@ -36,7 +36,7 @@
 			<table>
 			{foreach from=$arr.games item=game}
 				<tr>
-					<td><img src="images/cat-{$game->getCategory()}.png" alt=""></td>
+					<td><img src="images/cat-{$game->getCategory()}.png" alt="" width="22" height="22"></td>
 					<td><a href="screenshots/{$arr.category}/{$game->getCategory()}/">{$game->getName()}</a>
 					<span class="green">({$game->getFiles()|@count} shots)</span></td>
 				</tr>
