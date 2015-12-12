@@ -1,16 +1,14 @@
 <div class="box">
 	<div class="intro">
 		<p>
-			This page lists the progress of ScummVM as it relates to individual game compatibility.
-			Please note this list applies to the English versions of games. We attempt to test many versions of games, however there are occasionally problems with other languages.
+			{#compatibilityIntro#}
 		</p>
 		<p>
-			Click on the game name to view the complete notes of a game.
+			{#compatibilityIntroExplanation#}
 		</p>
 		{if $version == 'DEV'}
 			<p>
-				This is the compatibility of the current development version, <b>not of a stable release</b>
-				(Please see one of the following for the Compatibility charts of the stable releases:
+				{#compatibilityDevContent#}
 				{foreach from=$versions item=ver name=versions_loop}
 					{if $smarty.foreach.versions_loop.last}
 						{assign var='last' value=')'}
@@ -19,29 +17,26 @@
 				{/foreach}
 			</p>
 			<p>
-				As this is the status of the development version, occasional temporary bugs
-				may be introduced with new changes, thus this list refects the 'best case' scenario.
-				It is highly recommended to use the latest stable release, where possible.
+				{#compatibilityDevDisclaimer#}
 			</p>
 		{else}
 			<p>
-				Also, this is the compatibility of the {$version} stable release, <b>not of current repository/daily builds</b>.
-				The status of these can be found on the <a href="compatibility/">Development Compatibility</a> chart.
+				{'/\x7bversion\x7d/'|preg_replace:$version:#compatibilityStableContent#}
 			</p>
 			<p>
-			You can also see the Compatibility chart for these releases:
+				{#compatibilityStableReleases#}
 			{foreach from=$versions item=ver}
 				<a href="compatibility/{$ver}/">{$ver}</a>
 			{/foreach}
 			</p>
 		{/if}
 		<p>
-			<small>Last Updated: {$last_updated}</small>
+			<small>{#compatiblityLastUpdated#} {$last_updated}</small>
 		</p>
 	</div>
 	<div class="content">
 		<table class="chart color4 colorKeyTable">
-			<caption>Color Key</caption>
+			<caption>{#compatibilityLegendTitle#}</caption>
 			<tbody>
 				<tr class="color2">
 					{if $old_layout == 'no'}
@@ -77,15 +72,15 @@
 
 		{foreach from=$compat_data key=company item=games name=compat_loop}
 			<table class="chart color4">
-				<caption>{$company} Game Compatibility Chart</caption>
+				<caption>{'/\x7bcompany\x7d/'|preg_replace:$company:#compatibilitySectionTitle#}</caption>
 				<thead>
 					<tr class="color4">
-						<th class="gameFullName">Game Full Name</th>
-						<th class="gameShortName">Game Short Name</th>
+						<th class="gameFullName">{#compatibilityDetailsChartCol1#}</th>
+						<th class="gameShortName">{#compatibilityDetailsChartCol2#}</th>
 						{if $old_layout == 'no'}
-							<th class="gameSupportLevel">Support Level</th>
+							<th class="gameSupportLevel">{#compatibilityDetailsChartCol3a#}</th>
 						{else}
-							<th class="gameSupportLevel">% Completed</th>
+							<th class="gameSupportLevel">{#compatibilityDetailsChartCol3b#}</th>
 						{/if}
 					</tr>
 				</thead>
