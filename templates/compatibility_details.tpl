@@ -11,20 +11,20 @@
 <div class="box">
 	<div class="intro">
 		<p>
-			Game compatibility details
+			{#compatibilityDetailsInto#}
 		</p>
 	</div>
 	<div class="content">
 		<table class="chart color4">
-			<caption>Game Compatibility Chart</caption>
+			<caption>{#compatibilityDetailsChartTitle#}</caption>
 			<thead>
 				<tr class="color4">
-					<th>Game Full Name</th>
-					<th>Game Short Name</th>
+					<th>{#compatibilityDetailsChartCol1#}</th>
+					<th>{#compatibilityDetailsChartCol2#}</th>
 					{if $old_layout == 'no'}
-						<th>Support Level</th>
+						<th>{#compatibilityDetailsChartCol3a#}</th>
 					{else}
-						<th>% Completed</th>
+						<th>{#compatibilityDetailsChartCol3b#}</th>
 					{/if}
 				</tr>
 			</thead>
@@ -42,7 +42,7 @@
 			</tbody>
 		</table>
 		<p class="bottom-link">
-			<a href="compatibility/{$version}/">&laquo; Back</a>
+			<a href="compatibility/{$version}/">{#compatibilityDetailsBack#}</a>
 		</p>
 	</div>
 </div>
