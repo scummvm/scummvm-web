@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="Content-Script-Type" content="text/javascript">
 	<meta http-equiv="Content-Style-Type" content="text/css">
 	<base href="{$baseurl}">
@@ -20,8 +20,8 @@
 		@import url("css/ie6.css");
 	</style>
 	<![endif]-->
-	<link rel="alternate" type="application/atom+xml" title="ScummVM Atom news feed" href="{$baseurl}feeds/atom/">
-	<link rel="alternate" type="application/rss+xml" title="ScummVM RSS news feed" href="{$baseurl}feeds/rss/">
+	<link rel="alternate" type="application/atom+xml" title="{#indexAtomFeed#}" href="{$baseurl}feeds/atom/">
+	<link rel="alternate" type="application/rss+xml" title="{#indexRSSFeed#}" href="{$baseurl}feeds/rss/">
 	<title>ScummVM :: {$title}</title>
 </head>
 <body>
@@ -29,12 +29,12 @@
 	{* Header. *}
 	<div id="header">
 		<a href="{$baseurl}">
-			<img src="images/scummvm_logo.jpg" width="287" height="118" alt="ScummVM logo" class="float_left">
+			<img src="images/scummvm_logo.jpg" width="287" height="118" alt="{#indexLogo#}" class="float_left">
 		</a>
 
 		{include file='lang_menu.tpl'}
 		<span>
-			<img src="images/heroes{$heroes_num|rand:0}.png" alt="Game characters" width="483" height="89">
+			<img src="images/heroes{$heroes_num|rand:0}.png" alt="{#indexCharacters#}" width="483" height="89">
 			<img src="images/scummvm-caption.png" alt="Script creation utility for Maniac Mansion Virtual Machine" width="483" height="29">
 		</span>
 	</div>
@@ -50,30 +50,30 @@
 			</div>
 			<div id="menu_banners">
 				<a href="http://sourceforge.net/p/scummvm/donate/">
-					<img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" alt="Support This Project">
+					<img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" alt="{#indexSupport#}">
 				</a>
 				<br>
 				<a href="http://combobreaker.com/">
-					<img src="images/scummvm_cb.png" width="88" height="32" alt="Combobreaker.com T-Shirts">
+					<img src="images/scummvm_cb.png" width="88" height="32" alt="{#indexCombobreaker#}">
 				</a>
 				<br>
 				<a href="http://www.easyname.at/">
-					<img src="images/easyname-logo-big.png" width="88" height="32" alt="easyname hosting">
+					<img src="images/easyname-logo-big.png" width="88" height="32" alt="{#indexEasyname#}">
 				</a>
 				<br>
 				<a href="http://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
-					<img src="images/GOG_button_small.png" width="88" height="32" alt="GOG.com games">
+					<img src="images/GOG_button_small.png" width="88" height="32" alt="{#indexGOG#}">
 				</a>
 				<a href="https://github.com/scummvm">
-					<img src="images/github-logo.png" alt="ScummVM on GitHub" width="88" height="32">
+					<img src="images/github-logo.png" alt="{#indexGithub#}" width="88" height="32">
  				</a>
 				<br>
 				<a href="http://www.facebook.com/pages/ScummVM/7328341409">
-					<img src="images/facebook.png" width="88" height="32" alt="Join us on Facebook">
+					<img src="images/facebook.png" width="88" height="32" alt="{#indexFacebook#}">
 				</a>
 				<br>
 				<a href="http://www.twitter.com/ScummVM">
-					<img src="images/twitter.png" width="88" height="32" alt="Follow us on Twitter">
+					<img src="images/twitter.png" width="88" height="32" alt="{#indexTwitter#}">
 				</a>
 			</div>
 		</div>
@@ -106,13 +106,13 @@
 		{strip}
 		<div id="footer">
 			<a href="http://sourceforge.net/p/scummvm/donate/">
-				<img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" alt="Support This Project">
+				<img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" alt="{#indexSupport#}">
 			</a>
 			<a href="http://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
-				<img src="images/GOG_button_small.png" alt="Buy with GOG.com" width="88" height="32">
+				<img src="images/GOG_button_small.png" alt="{#indexGOG#}" width="88" height="32">
 			</a>
 			<a href="http://easyname.at">
-				<img src="images/easyname-logo-big.png" width="88" height="32" alt="easyname hosting">
+				<img src="images/easyname-logo-big.png" width="88" height="32" alt="{#indexEasyname#}">
 			</a>
 			<a href="http://validator.w3.org/check/referer">
 				<img src="http://www.w3.org/Icons/valid-html401" width="88" height="31" alt="Valid HTML 4.01!">
@@ -128,7 +128,7 @@
 
 	<div id="legal">
 		<p>
-			LucasArts, Monkey Island, Maniac Mansion, Full Throttle, The Dig, LOOM, and probably lots of other things are registered trademarks of <a href="http://www.lucasarts.com/">LucasArts, Inc.</a>. All other trademarks and registered trademarks are owned by their respective companies. ScummVM is not affiliated in any way with LucasArts, Inc.
+			{#indexLegal#}
 		</p>
 	</div>
 
