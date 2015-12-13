@@ -11,7 +11,7 @@
 		<div class="rbtop">
 			<div>
 				<p>
-					{include file='shadowed_text.tpl' text='Screenshots' shadowcolor='#fff' textcolor='#356a02'}
+					{include file='shadowed_text.tpl' text='{#introHeaderScreenshots#}' shadowcolor='#fff' textcolor='#356a02'}
 				</p>
 			</div>
 		</div>
@@ -23,8 +23,8 @@
 		<div class="rbbot">
 			<div>
 				<p>
-					<a href="screenshots/" id="screenshots_prev">&laquo; previous</a>
-					<a href="screenshots/" id="screenshots_next">next &raquo;</a>
+					<a href="screenshots/" id="screenshots_prev">{#introHeaderPrevShot#}</a>
+					<a href="screenshots/" id="screenshots_next">{#introHeaderNextShot#}</a>
 				</p>
 			</div>
 		</div>
@@ -35,18 +35,14 @@
 		<div class="rbtop">
 			<div>
 				<p>
-					{include file='shadowed_text.tpl' text='What Is ScummVM?' shadowcolor='#fff' textcolor='#356a02'}
+					{include file='shadowed_text.tpl' text='{#introHeaderWhatIs#}' shadowcolor='#fff' textcolor='#356a02'}
 				</p>
 			</div>
 		</div>
 		<div class="rbcontent">
 			<div class="rbwrapper">
 				<p>
-					ScummVM is a program which allows you to run certain classic graphical
-					point-and-click adventure games, provided you already have their data files.
-					The clever part about this: ScummVM just replaces the executables shipped
-					with the games, allowing you to play them on systems for which they were
-					never designed!
+					{#introHeaderContentP1#}
 				</p>
 				<p>
 					ScummVM supports many adventure games, including LucasArts
@@ -62,6 +58,7 @@
 					Humongous Entertainment's children's SCUMM games
 					(including <i>Freddi Fish</i> and <i>Putt Putt</i> games)
 					and many more.
+				</p>
 				<p>
 					You can find a full list with details on which games are
 					supported and how well on the
