@@ -1,56 +1,25 @@
 <div class="box">
 	<div class="intro">
-		<p>
-			<b>Please do not contact the team for questions about using ScummVM. Instead use the
-			<a href="http://forums.scummvm.org/">forums</a> or the
-			<a href="http://sourceforge.net/p/scummvm/bugs/">bug reporting system</a>!</b>
-		</p>
+		{#contactIntro#}
 	</div>
 
-	{include file='subhead.tpl' subhead='IRC channel'}
+	{include file='subhead.tpl' subhead=#contactIRCHeader#}
 	<div class="subhead-content">
-		<p>
-			The #scummvm IRC channel on <a href="http://freenode.net/irc_servers.shtml">irc.freenode.net</a> is also a good
-			place to ask questions. Many ScummVM developers hang out there regularly, as well as many ScummVM users.
-		</p>
+		{#contactIRC#}
 	</div>
 
-	{include file='subhead.tpl' subhead='Forums'}
+	{include file='subhead.tpl' subhead=#contactForumsHeader#}
 	<div class="subhead-content">
-		<p>
-			We offer several <a href="http://forums.scummvm.org/">forums</a>.
-			Use the <a href="http://forums.scummvm.org/viewforum.php?f=2">Help and Support forum</a> if you encounter problems using ScummVM.
-			The <a href="http://forums.scummvm.org/viewforum.php?f=1">General discussion forum</a> is, as the name suggests,
-			meant for general discussion of any topics somehow related to ScummVM.
-			Also there are some platform-specific forums and <a href="http://forums.scummvm.org/viewforum.php?f=8">the Junkyard</a>.
-		</p>
-		<p>
-			<b>Don't forget to read <a href="http://forums.scummvm.org/viewtopic.php?t=17">Forum Rules</a> before your first post.</b>
-		</p>
+		{#contactForums#}
 	</div>
 
-	{include file='subhead.tpl' subhead='Bug reports, feature requests, patches'}
+	{include file='subhead.tpl' subhead=#contactTrackersHeader#}
 	<div class="subhead-content">
-		<p>
-			If you think you found a bug, take a look at our <a href="http://sourceforge.net/p/scummvm/bugs/">bug tracker</a>.
-			Maybe a similar bug has already been filed, in which case you can add a comment to that bug report. If not, you can submit a new
-			bug report, but <b>please carefully read the instructions given on the submit form</b>. And of course, follow them :-)
-		</p>
-		<p>
-			Feature requests should go on our <a href="http://sourceforge.net/p/scummvm/feature-requests/">feature request tracker</a>
-			(again first check if something similar has already been requested).
-		</p>
-		<p>
-			Finally, if you have made a modification to the ScummVM source code and want to see it merged back into the ScummVM main line,
-			you can use our <a href="http://sourceforge.net/p/scummvm/patches/">patch tracker</a> for that.
-		</p>
+		{#contactTrackers#}
 	</div>
 
-	{include file='subhead.tpl' subhead='Mailing lists'}
+	{include file='subhead.tpl' subhead=#contactListsHeader#}
 	<div class="subhead-content">
-		<p>
-			There are three ScummVM related  <a href="http://sourceforge.net/p/scummvm/mailman/">mailing lists</a>.
-			Two of them are for automated content only. The one where you can send emails to yourself is scummvm-devel.
-		</p>
+		{#contactLists#}
 	</div>
 </div>
