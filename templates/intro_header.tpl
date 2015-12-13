@@ -17,7 +17,7 @@
 		</div>
 		<div class="rbcontent">
 			<a href="screenshots/{$random_shot.category}/{$random_shot.screenshot->getCategory()}/{$rand_pos+1}" id="screenshots_random">
-				<img src="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}.jpg" width="128" height="96" title="Click to view Full Size" alt="Random screenshot">
+				<img src="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}.jpg" width="128" height="96" title={#intoHeaderFullsize#} alt="{#introHeaderRandom#}">
 			</a>
 		</div>
 		<div class="rbbot">
