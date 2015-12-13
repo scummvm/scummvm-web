@@ -98,11 +98,6 @@ class Controller {
 		/* Properly encode all ampersands as "&amp;". */
 		$string = preg_replace('/&(?!([a-z]+|(#\d+));)/i', '&amp;', $string);
 		/* Replace weird characters that appears in some of the data. */
-		$string = str_replace(
-			array(chr(160), chr(194)),
-			array('&nbsp;', ''),
-			$string
-		);
 		return $string;
 	}
 
