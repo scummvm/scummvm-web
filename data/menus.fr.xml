@@ -94,7 +94,7 @@
 		<name>Menu Divers</name>
 		<class>menu-misc</class>
 		<link>
-			<name>Sous-projects</name>
+			<name>Sous-projets</name>
 			<href>subprojects/</href>
 		</link>
 		<link>
