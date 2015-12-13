@@ -8,7 +8,7 @@
 		{if $smarty.foreach.downloads_loop.first}
 		<div class="intro">
 			<div class="navigation">
-				<h2>Navigation</h2>
+				<h2>{#gamesHeader#}</h2>
 				<ul>
 				{foreach from=$sections item=arr}
 					<li><a href="games/#{$arr.anchor}">{eval var=$arr.title}</a></li>
@@ -18,13 +18,10 @@
 			<div class="text">
 				<ul>
 					<li>
-						Below are the <a href="games/#games">Game downloads</a>. These currently
-						include five freeware games 'Beneath a Steel Sky', 'Flight of the Amazon Queen',
-						'Lure of the Temptress', 'Drascula: The Vampire Strikes Back' and 'Soltys.', 
+						{#gamesContentP1#}
 					</li>
 					<li>
-						Also, you can find cutscene packs recommended for use when playing any of the Broken 
-						Sword games or Feeble Files under ScummVM.
+						{#gamesContentP1#}
 					</li>
 				</ul>
 			</div>
