@@ -1361,19 +1361,7 @@
 				<category>lsl-sci</category>
 			</demo>
 			<demo>
-				<name>Leisure Suit Larry 7: Love for Sail! (DOS demo)</name>
-				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/lsl5-dos-demo-en.zip/download</url>
-				<target>lsl7</target>
-				<category>lsl-sci</category>
-			</demo>
-			<demo>
-				<name>Lighthouse: The Dark Being (DOS demo)</name>
-				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/lighthouse-win-demo-en.zip/download</url>
-				<target>lighthouse</target>
-				<category>blank</category>
-			</demo>
-			<demo>
-				<name>Lighthouse: The Dark Being (DOS demo - Non-interactive)</name>
+				<name>Lighthouse: The Dark Being (DOS demo - Non-interactive) - Requires ScummVM 1.8.0git</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/lighthouse-win-ni-demo-en.zip/download</url>
 				<target>lighthouse</target>
 				<category>blank</category>
@@ -1443,12 +1431,6 @@
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/qfg3-dos-ni-demo-en.zip/download</url>
 				<target>qfg3</target>
 				<category>qfg-sci</category>
-			</demo>
-			<demo>
-				<name>RAMA (DOS/Win demo - Non-interactive)</name>
-				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/rama-dos-win-ni-demo-en.zip/download</url>
-				<target>rama</target>
-				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Slater &amp; Charlie Go Camping (DOS demo)</name>
