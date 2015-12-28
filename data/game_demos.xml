@@ -1361,6 +1361,24 @@
 				<category>lsl-sci</category>
 			</demo>
 			<demo>
+				<name>Leisure Suit Larry 7: Love for Sail! (DOS demo)</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/lsl5-dos-demo-en.zip/download</url>
+				<target>lsl7</target>
+				<category>lsl-sci</category>
+			</demo>
+			<demo>
+				<name>Lighthouse: The Dark Being (DOS demo)</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/lighthouse-win-demo-en.zip/download</url>
+				<target>lighthouse</target>
+				<category>blank</category>
+			</demo>
+			<demo>
+				<name>Lighthouse: The Dark Being (DOS demo - Non-interactive)</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/lighthouse-win-ni-demo-en.zip/download</url>
+				<target>lighthouse</target>
+				<category>blank</category>
+			</demo>
+			<demo>
 				<name>Mixed-up Fairy Tales (DOS demo - Non-interactive)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/fairytales-dos-ni-demo-en.zip/download</url>
 				<target>fairytales</target>
@@ -1427,9 +1445,16 @@
 				<category>qfg-sci</category>
 			</demo>
 			<demo>
+				<name>RAMA (DOS/Win demo - Non-interactive)</name>
+				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/rama-dos-win-ni-demo-en.zip/download</url>
+				<target>rama</target>
+				<category>blank</category>
+			</demo>
+			<demo>
 				<name>Slater &amp; Charlie Go Camping (DOS demo)</name>
 				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/slater-dos-demo.en.zip/download</url>
 				<target>slater</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Space Quest I: The Sarien Encounter, SCI Remake (DOS demo - Non-interactive)</name>
