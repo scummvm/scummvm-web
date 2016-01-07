@@ -1011,10 +1011,15 @@
 				</person>
 			</group>
 			<group>
-				<name>iPhone</name>
+				<name>iPhone / iPad</name>
 				<person>
 					<name>Oystein Eftevaag</name>
 					<alias>vinterstum</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Vincent B&eacute;nony</name>
+					<alias>bSr43</alias>
 					<description></description>
 				</person>
 			</group>
