@@ -215,8 +215,12 @@
       <question>Do I need original CD or Floppy disks?</question>
       <answer>
 		<simpara>
-		Most definitely. ScummVM won't work without them. If you would like to
-		buy these games, we suggest you browse <ulink url="http://www.ebay.com">Ebay</ulink>.
+		It depends. These days number of companies such as <ulink url="http://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">GOG.com</ulink>
+		legally distribute DRM-free versions of old games, but not every game supported
+		by ScummVM is available there. In such cases you will most probably need the original media.
+		ScummVM won't work without them. If you would like to
+		buy these games, we suggest you refer to our <ulink url="http://wiki.scummvm.org/index.php/Where_to_get_the_games">Where to Get the Games</ulink>
+		Wiki page.
 		Do not ask the ScummVM team where you can download the full versions of
 		LucasArts games. These requests will be ignored.
 		</simpara>
@@ -314,7 +318,7 @@
       <question>Does ScummVM support filtered graphic modes?</question>
       <answer>
 		<simpara>
-		Yes, ScummVM supports several filtered graphic modes such as AdvMAME2x, also known as 
+		Yes, ScummVM supports several filtered graphic modes such as AdvMAME2x, also known as
 		<ulink url="http://scale2x.sourceforge.net/">Scale2x</ulink>.
 		See the
 		<ulink url="http://github.com/scummvm/scummvm/blob/master/README">README</ulink>
@@ -327,7 +331,7 @@
       <question>Can I run my game full screen?</question>
       <answer>
 		<simpara>
-		Yes. You can either start your game using the -f command line parameter, setting 
+		Yes. You can either start your game using the -f command line parameter, setting
 		the game to Full Screen in the ScummVM Options dialog, or by using the Alt+Enter key
 		combination in-game to switch between full screen and windowed modes.
 		</simpara>
@@ -406,13 +410,13 @@
       <question>ScummVM crashes, but the console window disappears too quickly to see the error message.</question>
       <answer>
 		<simpara>
-		On Windows, to make it visible, you should run ScummVM from the command line. To open a 
-		command prompt, open the Start Menu and select the 'Run' option. Under 
-		Windows NT/2000/XP, type 'cmd.exe' (no quotes) in the dialog box that 
-		shows up; under Windows 95/98/Me, type 'command.com' instead. If 
-		necessary, change to the proper drive first by typing 'D:' (where 'D' is 
-		the drive ScummVM is located). Change to ScummVM's directory by typing 
-		'cd \your\path\to\scummvm' (substituting the appropriate path) and then 
+		On Windows, to make it visible, you should run ScummVM from the command line. To open a
+		command prompt, open the Start Menu and select the 'Run' option. Under
+		Windows NT/2000/XP, type 'cmd.exe' (no quotes) in the dialog box that
+		shows up; under Windows 95/98/Me, type 'command.com' instead. If
+		necessary, change to the proper drive first by typing 'D:' (where 'D' is
+		the drive ScummVM is located). Change to ScummVM's directory by typing
+		'cd \your\path\to\scummvm' (substituting the appropriate path) and then
 		type 'scummvm'.
 		</simpara>
 		<simpara>
@@ -454,8 +458,8 @@
 		using the 'language' config file option.
 		</simpara>
 		<simpara>
-		Consult the 
-		<ulink url="http://github.com/scummvm/scummvm/blob/master/README">README</ulink> 
+		Consult the
+		<ulink url="http://github.com/scummvm/scummvm/blob/master/README">README</ulink>
 		or command line help for further information.
 		</simpara>
 	</answer>
@@ -470,8 +474,8 @@
 		</simpara>
 		<simpara>
 		For newer games ScummVM needs the main data file, usually called
-		"&lt;Game Title&gt; Data" (where &lt;Game Title&gt; is
-		name of your game, such as "The Dig" or "Sam &amp; Max").
+		"&lt;Game&nbsp;Title&gt;&nbsp;Data" (where &lt;Game&nbsp;Title&gt; is
+		name of your game, such as "The&nbsp;Dig" or "Sam&nbsp;&amp;&nbsp;Max").
 		Some CDs may appear to only contain an application (watch out, it has
 		almost the same name as the data file, except that it lacks the " Data"
 		at the end). In that case there is still a separate data file but it is
@@ -495,7 +499,7 @@
 		<simpara>
 		To report a bug, please create a SourceForge account and follow the
 		<ulink url="http://sourceforge.net/p/scummvm/bugs/">bugs</ulink>
-		link from our homepage. Please make sure the bug is reproducible, and 
+		link from our homepage. Please make sure the bug is reproducible, and
 		still exists in the latest daily build/current repository version. Also check the
 		<ulink url="http://www.scummvm.org/compatibility.php">compatibility listing</ulink> for that game to ensure
 		the issue is not already known. In your bugreport please provide the following
@@ -509,7 +513,7 @@
 		<listitem><simpara>Platform and Compiler (Win32, Linux, MacOS, ...)</simpara></listitem>
 		<listitem><simpara>Attach a save game if possible</simpara></listitem>
 		<listitem><simpara>If this bug only occurred recently, please note the last
-			version without the bug, and the first version including	 
+			version without the bug, and the first version including
 			the bug. That way we can fix it quicker by looking at the
 			changes made.</simpara></listitem>
 		</itemizedlist>
@@ -520,7 +524,7 @@
       <question>I downloaded the Broken Sword packs from your site but the game won't run.</question>
       <answer>
 		<simpara>
-		These are not full games but reencoded cutscene (video) packs. To run the games you 
+		These are not full games but reencoded cutscene (video) packs. To run the games you
 		still need the original disks. Originally cutscenes were encoded in a proprietary
 		format but Revolution Software kindly permitted us to reencode them into
 		DXA and distribute them freely on our site.
