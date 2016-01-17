@@ -35,7 +35,7 @@ class News extends BasicObject {
 		if (count($vars) == 6) {
 			$this->_title = $processContent ? $this->processText($vars[1]) : $vars[1];
 			/* Store the date as an unix timestamp*/
-			$this->_date = intval(strtotime($vars[2]));
+			$this->_date = date_timestamp_get(date_create_from_format("M d, Y", $vars[2]));
 			$this->_author = $vars[3];
 			$this->_image = $vars[4];
 			$this->_content = $processContent ? $this->processText($vars[5]) : $vars[5];
@@ -55,7 +55,7 @@ class News extends BasicObject {
 	function processText($text) {
 		return html_entity_decode($text, ENT_COMPAT, 'UTF-8');
 	}
-	
+
 	/* Get the title. */
 	public function getTitle() {
 		return $this->_title;
