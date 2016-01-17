@@ -9,7 +9,7 @@
 	<a name="{$news->getDate()|date_format:"%Y-%m-%d"}{if $news_filename|strlen == 9}{$news_filename|substr:'-1'}{/if}"></a>
 	<div class="head">
 		<a href="{$baseurl}news/{$news_date}/">
-			<span class="news-date">{$news->getDate()|date_f:"M j, Y"}</span>:
+			<span class="news-date">{$news->getDate()|date_localized:#dateformat#}</span>:
 			{$news->getTitle()}
 		</a>
 	</div>

@@ -43,6 +43,8 @@ class Controller {
 			$this->_smarty->config_load($fname);
 		}
 
+		setlocale(LC_TIME, $Smarty->_config[0]['vars']['locale']);
+
 		/* Configure smarty. */
 		$this->_smarty->compile_dir = SMARTY_DIR_COMPILE;
 		$this->_smarty->cache_dir = SMARTY_DIR_CACHE;
@@ -60,6 +62,7 @@ class Controller {
 
 		/* Give Smarty-template access to date(). */
 		$this->_smarty->register_modifier('date_f', array(&$this, 'date_f'));
+		$this->_smarty->register_modifier('date_localized', array(&$this, 'date_localized'));
 
 		/* Give Smarty-templates access to the ampersandEntity() function. */
 		$this->_smarty->register_modifier(
@@ -111,6 +114,11 @@ class Controller {
 	/** Formating of dates, registered as a modifier for Smarty templates. */
 	public function date_f($timestamp, $format) {
 		return date($format, $timestamp);
+	}
+
+	/** Formating of dateAs, registered as a modifier for Smarty templates. */
+	public function date_localized($timestamp, $format) {
+		return strftime($format, $timestamp);
 	}
 
 	/* Render the HTML using the template and any set variables and displays it. */
