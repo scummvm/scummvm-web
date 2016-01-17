@@ -1,0 +1,4 @@
+AuthType basic
+AuthName "cgi-bin restricted"
+AuthUserFile /etc/awstats/awstats.htpasswd
+Require valid-user 
