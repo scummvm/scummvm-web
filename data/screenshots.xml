@@ -4234,6 +4234,62 @@
 			</image>
 		</game>
 		<game>
+			<name>Sfinx</name>
+			<category>sfinx</category>
+			<image>
+				<file>other/sfinx/sfinx-01</file>
+				<caption>Sfinx (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/sfinx/sfinx-02</file>
+				<caption>Sfinx (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/sfinx/sfinx-03</file>
+				<caption>Sfinx (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/sfinx/sfinx-04</file>
+				<caption>Sfinx (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/sfinx/sfinx-05</file>
+				<caption>Sfinx (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/sfinx/sfinx-06</file>
+				<caption>Sfinx (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/sfinx/sfinx-07</file>
+				<caption>Sfinx (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/sfinx/sfinx-08</file>
+				<caption>Sfinx (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/sfinx/sfinx-09</file>
+				<caption>Sfinx (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/sfinx/sfinx-10</file>
+				<caption>Sfinx (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/sfinx/sfinx-11</file>
+				<caption>Sfinx (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/sfinx/sfinx-12</file>
+				<caption>Sfinx (DOS/English)</caption>
+			</image>
+			<image>
+				<file>other/sfinx/sfinx-13</file>
+				<caption>Sfinx (DOS/English)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Soltys</name>
 			<category>soltys</category>
 			<image>
