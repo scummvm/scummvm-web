@@ -7,17 +7,17 @@
 	<base href="{$baseurl}">
 	<style type="text/css">
 		{* General CSS rules. *}
-		@import url("/css/layout.css");
-		@import url("/css/menu.css");
-		@import url("/css/lang-menu.css");
+		@import url("{$baseurl}css/layout.css");
+		@import url("{$baseurl}css/menu.css");
+		@import url("{$baseurl}css/lang-menu.css");
 		{* Page specific, or other extra CSS rules. *}
 		{foreach from=$css_files item=filename}
-		@import url("/css/{$filename}");
+		@import url("{$baseurl}css/{$filename}");
 		{/foreach}
 	</style>
 	<!--[if IE 6]>
 	<style type="text/css">
-		@import url("css/ie6.css");
+		@import url("{$baseurl}css/ie6.css");
 	</style>
 	<![endif]-->
 	<link rel="alternate" type="application/atom+xml" title="{#indexAtomFeed#}" href="{$baseurl}feeds/atom/">
