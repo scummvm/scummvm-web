@@ -29,7 +29,16 @@ class Controller {
 		$Smarty = $this->_smarty;
 
 		global $lang;
-
+		
+		/* Configure smarty. */
+		$this->_smarty->compile_dir = SMARTY_DIR_COMPILE;
+		$this->_smarty->cache_dir = SMARTY_DIR_CACHE;
+		$this->_smarty->config_dir = SMARTY_DIR_CONFIG;
+		$this->_smarty->request_use_auto_globals = SMARTY_USE_GLOBALS;
+		$this->_smarty->caching = SMARTY_CACHING_ENABLE;
+		$this->_smarty->cache_lifetime = SMARTY_CACHING_LIFETIME;
+		$this->_smarty->compile_check = SMARTY_CACHING_COMPILE_CHECK;
+		$this->_smarty->force_recheck = SMARTY_CACHING_FORCE_RECHECK;
 		$this->_smarty->template_dir = array("templates_$lang", 'templates');
 		$this->_smarty->compile_id = $lang;
 		$this->_smarty->config_dir = ".";
@@ -45,15 +54,6 @@ class Controller {
 
 		setlocale(LC_TIME, $Smarty->_config[0]['vars']['locale']);
 
-		/* Configure smarty. */
-		$this->_smarty->compile_dir = SMARTY_DIR_COMPILE;
-		$this->_smarty->cache_dir = SMARTY_DIR_CACHE;
-		$this->_smarty->config_dir = SMARTY_DIR_CONFIG;
-		$this->_smarty->request_use_auto_globals = SMARTY_USE_GLOBALS;
-		$this->_smarty->caching = SMARTY_CACHING_ENABLE;
-		$this->_smarty->cache_lifetime = SMARTY_CACHING_LIFETIME;
-		$this->_smarty->compile_check = SMARTY_CACHING_COMPILE_CHECK;
-		$this->_smarty->force_recheck = SMARTY_CACHING_FORCE_RECHECK;
 		/**
 		 * Add a output-filter to make sure ampersands are properly encoded to
 		 * HTML-entities.
