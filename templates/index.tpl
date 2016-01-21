@@ -7,12 +7,12 @@
 	<base href="{$baseurl}">
 	<style type="text/css">
 		{* General CSS rules. *}
-		@import url("/css/layout.css");
-		@import url("/css/menu.css");
-		@import url("/css/lang-menu.css");
+		@import url("css/layout.css");
+		@import url("css/menu.css");
+		@import url("css/lang-menu.css");
 		{* Page specific, or other extra CSS rules. *}
 		{foreach from=$css_files item=filename}
-		@import url("/css/{$filename}");
+		@import url("css/{$filename}");
 		{/foreach}
 	</style>
 	<!--[if IE 6]>
