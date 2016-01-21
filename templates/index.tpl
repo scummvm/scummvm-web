@@ -57,7 +57,7 @@
 					<img src="images/scummvm_cb.png" width="88" height="32" alt="{#indexCombobreaker#}">
 				</a>
 				<br>
-				<a href="http://www.easyname.at/">
+				<a href="http://www.easyname.com/">
 					<img src="images/easyname-logo-big.png" width="88" height="32" alt="{#indexEasyname#}">
 				</a>
 				<br>
@@ -111,7 +111,7 @@
 			<a href="http://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
 				<img src="images/GOG_button_small.png" alt="{#indexGOG#}" width="88" height="32">
 			</a>
-			<a href="http://easyname.at">
+			<a href="http://easyname.com">
 				<img src="images/easyname-logo-big.png" width="88" height="32" alt="{#indexEasyname#}">
 			</a>
 			<a href="http://validator.w3.org/check/referer">
