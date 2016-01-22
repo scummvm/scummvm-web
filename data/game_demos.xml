@@ -1332,6 +1332,12 @@
 				<category>kq-sci</category>
 			</demo>
 			<demo>
+				<name>King's Quest VI: Heir Today, Gone Tomorrow (DOS CD demo - Non-interactive)</name>
+				<url>/frs/demos/sci/kq6-dos-ni-demo-en.zip</url>
+				<target>kq6</target>
+				<category>kq-sci</category>
+			</demo>
+			<demo>
 				<name>Laura Bow: The Colonel's Bequest (DOS demo - Non-interactive)</name>
 				<url>/frs/demos/sci/laurabow-dos-ni-demo-en.zip</url>
 				<target>laurabow</target>
