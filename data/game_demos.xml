@@ -1302,6 +1302,12 @@
 				<category>blank</category>
 			</demo>
 			<demo>
+				<name>Hoyle Official Book of Games: Volume 3 (DOS demo - Non-interactive)</name>
+				<url>/frs/demos/sci/hoyle3-dos-ni-demo-en.zip</url>
+				<target>hoyle3</target>
+				<category>hoyle</category>
+			</demo>
+			<demo>
 				<name>Hoyle Classic Card Games (DOS demo - Non-interactive)</name>
 				<url>/frs/demos/sci/hoyle4-dos-ni-demo-en.zip</url>
 				<target>hoyle4</target>
