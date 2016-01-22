@@ -1302,6 +1302,18 @@
 				<category>blank</category>
 			</demo>
 			<demo>
+				<name>Gabriel Knight: Sins of the Fathers (DOS CD demo)</name>
+				<url>/frs/demos/sci/gk1-dos-demo-en.zip</url>
+				<target>gk1</target>
+				<category>blank</category>
+			</demo>
+			<!--demo>
+				<name>Gabriel Knight 2: The Beast Within (Windows CD demo - Non-interactive)</name>
+				<url>/frs/demos/sci/gk2-win-ni-demo-en.zip</url>
+				<target>gk2</target>
+				<category>blank</category>
+			</demo-->
+			<demo>
 				<name>Hoyle Official Book of Games: Volume 3 (DOS demo - Non-interactive)</name>
 				<url>/frs/demos/sci/hoyle3-dos-ni-demo-en.zip</url>
 				<target>hoyle3</target>
@@ -1337,6 +1349,12 @@
 				<target>kq6</target>
 				<category>kq-sci</category>
 			</demo>
+			<!--demo>
+				<name>King's Quest VII: The Princeless Bride (DOS CD demo - Non-interactive)</name>
+				<url>/frs/demos/kq7-dos-win-ni-demo-en.zip</url>
+				<target>kq7</target>
+				<category>kq-sci</category>
+			</demo-->
 			<demo>
 				<name>Laura Bow: The Colonel's Bequest (DOS demo - Non-interactive)</name>
 				<url>/frs/demos/sci/laurabow-dos-ni-demo-en.zip</url>
@@ -1372,12 +1390,24 @@
 				<target>lsl5</target>
 				<category>lsl-sci</category>
 			</demo>
+			<!--demo>
+				<name>Leisure Suit Larry 7: Love for Sail! (DOS demo)</name>
+				<url>/frs/demos/sci/lsl7-dos-demo-en.zip</url>
+				<target>lsl7</target>
+				<category>lsl-sci</category>
+			</demo-->
 			<demo>
 				<name>Lighthouse: The Dark Being (Windows demo - Non-interactive) - Requires ScummVM 1.8.0git</name>
 				<url>/frs/demos/sci/lighthouse-win-ni-demo-en.zip</url>
 				<target>lighthouse</target>
 				<category>blank</category>
 			</demo>
+			<!--demo>
+				<name>Lighthouse: The Dark Being (Windows demo) - Requires ScummVM 1.8.0git</name>
+				<url>/frs/demos/sci/lighthouse-win-demo-en.zip</url>
+				<target>lighthouse</target>
+				<category>blank</category>
+			</demo-->
 			<demo>
 				<name>Mixed-up Fairy Tales (DOS demo - Non-interactive)</name>
 				<url>/frs/demos/sci/fairytales-dos-ni-demo-en.zip</url>
@@ -1408,6 +1438,12 @@
 				<target>pepper</target>
 				<category>blank</category>
 			</demo>
+			<!--demo>
+				<name>Phantasmagoria (DOS demo)</name>
+				<url>/frs/demos/sci/phantasmagoria-dos-win-demo-en.zip</url>
+				<target>phantasmagoria</target>
+				<category>blank</category>
+			</demo-->
 			<demo>
 				<name>Ms. Astro Chicken (DOS demo)</name>
 				<url>/frs/demos/sci/msastrochicken-dos-demo-en.zip</url>
@@ -1426,6 +1462,12 @@
 				<target>pq4</target>
 				<category>pq-sci</category>
 			</demo>
+			<!--demo>
+				<name>Police Quest: SWAT (Windows demo)</name>
+				<url>/frs/demos/sci/pqswat-win-demo-en.zip</url>
+				<target>pqswat</target>
+				<category>pq-sci</category>
+			</demo-->
 			<demo>
 				<name>Quest for Glory I: So You Want to Be a Hero (EGA DOS demo - Non-interactive)</name>
 				<url>/frs/demos/sci/qfg1-dos-ni-demo-en.zip</url>
@@ -1456,6 +1498,18 @@
 				<target>qfg4</target>
 				<category>qfg-sci</category>
 			</demo>
+			<!--demo>
+				<name>RAMA (DOS/Windows demo - Non-interactive)</name>
+				<url>/frs/demos/sci/rama-dos-win-ni-demo-en.zip</url>
+				<target>rama</target>
+				<category>blank</category>
+			</demo-->
+			<!--demo>
+				<name>Shivers (Windows demo - Non-interactive)</name>
+				<url>/frs/demos/sci/shivers-win-demo-en.zip</url>
+				<target>shivers</target>
+				<category>blank</category>
+			</demo-->
 			<demo>
 				<name>Slater &amp; Charlie Go Camping (DOS demo)</name>
 				<url>/frs/demos/sci/slater-dos-demo.en.zip</url>
@@ -1475,11 +1529,23 @@
 				<category>sq-sci</category>
 			</demo>
 			<demo>
+				<name>Space Quest VI: The Spinal Frontier (DOS demo)</name>
+				<url>/frs/demos/sci/sq6-dos-demo-en.zip</url>
+				<target>sq6</target>
+				<category>sq-sci</category>
+			</demo>
+			<demo>
 				<name>The Island of Dr. Brain (DOS demo - Non-interactive)</name>
 				<url>/frs/demos/sci/islandbrain-dos-ni-demo-en.zip</url>
 				<target>islandbrain</target>
 				<category>blank</category>
 			</demo>
+			<!--demo>
+				<name>Torin's Passage (DOS/Windows demo)</name>
+				<url>/frs/demos/sci/torin-dos-win-demo-en.zip</url>
+				<target>torin</target>
+				<category>blank</category>
+			</demo-->
 			<demo>
 				<name>Xmas Card (DOS demo)</name>
 				<url>/frs/demos/agi/xmascard-dos-en.zip</url>
