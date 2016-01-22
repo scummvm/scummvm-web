@@ -1367,8 +1367,8 @@
 				<category>lsl-sci</category>
 			</demo>
 			<demo>
-				<name>Lighthouse: The Dark Being (DOS demo - Non-interactive) - Requires ScummVM 1.8.0git</name>
-				<url>http://sourceforge.net/projects/scummvm/files/demos/sci/lighthouse-win-ni-demo-en.zip/download</url>
+				<name>Lighthouse: The Dark Being (Windows demo - Non-interactive) - Requires ScummVM 1.8.0git</name>
+				<url>/frs/demos/sci/lighthouse-win-ni-demo-en.zip</url>
 				<target>lighthouse</target>
 				<category>blank</category>
 			</demo>
