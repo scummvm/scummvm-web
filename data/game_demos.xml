@@ -1421,9 +1421,15 @@
 				<category>pq-sci</category>
 			</demo>
 			<demo>
-				<name>Quest for Glory I: So You Want to Be a Hero (DOS demo - Non-interactive)</name>
+				<name>Quest for Glory I: So You Want to Be a Hero (EGA DOS demo - Non-interactive)</name>
 				<url>/frs/demos/sci/qfg1-dos-ni-demo-en.zip</url>
 				<target>qfg1</target>
+				<category>qfg-sci</category>
+			</demo>
+			<demo>
+				<name>Quest for Glory I: So You Want to Be a Hero (VGA DOS demo - Non-interactive)</name>
+				<url>/frs/demos/sci/qfg1vga-dos-ni-demo-en.zip</url>
+				<target>qfg1vga</target>
 				<category>qfg-sci</category>
 			</demo>
 			<demo>
