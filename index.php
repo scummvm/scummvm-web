@@ -12,7 +12,7 @@ if (!empty($_COOKIE['lang']))
 if (!empty($_GET['lang']))
   $lang = $_GET['lang'];
 /* Make sure that the language is known, otherwise fall back to English */
-if (!in_array($lang, array("en", "de", "fr", "ru")))
+if (!preg_match("/^([a-z][a-z]|[a-z][a-z]_[a-z][a-z][a-z]?)$/", $lang))
 	$lang = "en";
 
 /* We have to clean the mess introduced by double cookie at the wrong level */
