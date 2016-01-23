@@ -1,10 +1,8 @@
 <?php
-session_start();
-
 /**
  * Multilingual support
  */
- 
+global $lang;
 /* Default to English */
 $lang = 'en';
 /* Check if the user has set a language preference before (cookies) */
@@ -16,8 +14,12 @@ if (!empty($_GET['lang']))
 /* Make sure that the language is known, otherwise fall back to English */
 if (!in_array($lang, array("en", "de", "fr", "ru")))
 	$lang = "en";
-/* Save the language preference in a cookie for a month */
-setcookie("lang", $lang, time() + 60 * 60 * 24 * 30);
+
+/* We have to clean the mess introduced by double cookie at the wrong level */
+if (empty($_COOKIE['clear_lang'])) {
+	setcookie("lang", 'deleted', 1); // Setting it a current domain level, as it stays one level up
+	setcookie("clear_lang", "deleted", 1456167472); // Hardcoded to 22-Feb-2016 when previous cookie expires
+}
 
 /* Load the configuration. */
 require_once('include/config.inc.php');
