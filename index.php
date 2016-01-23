@@ -1,19 +1,23 @@
 <?php
 session_start();
 
-global $lang;
-
 /**
- * Multilanguage suppot
+ * Multilingual support
  */
-if (empty($_SESSION['lang']) || !empty($_GET['lang'])) {
-  $_SESSION['lang'] = empty($_GET['lang']) ? '' : $_GET['lang'];
-}
-if (empty($_SESSION['lang']) || !empty($_COOKIE['lang'])) {
-  $_SESSION['lang'] = empty($_COOKIE['lang']) ? '' : $_COOKIE['lang'];
-}
-
-$lang = $_SESSION['lang'];
+ 
+/* Default to English */
+$lang = 'en';
+/* Check if the user has set a language preference before (cookies) */
+if (!empty($_COOKIE['lang']))
+  $lang = $_COOKIE['lang'];
+/* The GET language parameter should override any stored setting */
+if (!empty($_GET['lang']))
+  $lang = $_GET['lang'];
+/* Make sure that the language is known, otherwise fall back to English */
+if (!in_array($lang, array("en", "de", "fr", "ru")))
+	$lang = "en";
+/* Save the language preference in a cookie for a month */
+setcookie("lang", $lang, time() + 60 * 60 * 24 * 30);
 
 /* Load the configuration. */
 require_once('include/config.inc.php');
