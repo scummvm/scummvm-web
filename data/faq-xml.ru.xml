@@ -4,7 +4,7 @@
     <title>Введение</title>
     <entry>
       <href/>
-      <question>Почему проект называется ScummVM - что ниеменование означает?</question>
+      <question>Почему проект называется ScummVM &mdash; что означает это название?</question>
       <answer>
 		<simpara>
 		<quote>Scumm</quote> comes from the fact that it was originally designed to run SCUMM games, like
@@ -101,7 +101,7 @@
     </entry>
     <entry>
       <href>question.make-new-games</href>
-      <question>Могу ли я использовать ScummVM, чтобы делать новые игры?</question>
+      <question>Могу ли я использовать ScummVM, чтобы создавать новые игры?</question>
       <answer>
 		<simpara>
 		While it is theoretically possible to write a new game that uses ScummVM
@@ -124,11 +124,11 @@
       <question>Какие игры поддерживает ScummVM?</question>
       <answer>
 		<simpara>
-		We have a <ulink url="http://www.scummvm.org/compatibility.php">compatibility
-		list</ulink> on our website that contains an up to date list of which
-		games work, and how well they work. Apart from SCUMM games, we now
-		also support quite a few other adventure games. More games may
-		be added, but this is not a common occurrence &#8212; see below.
+		На нашем сайте вы можете найти <ulink url="http://www.scummvm.org/compatibility.php">список
+		сщвместимости</ulink>, который содержит актуальный список игр, которые работают, и насколько
+		хорошо они работают. Помимо игр на движке SCUMM мы поддержвиваем много других квестов
+		и адвенчур. Со временем могут быть добавлены новые игры, но это не случается
+		часто (смотрите следующий вопрос).
 		</simpara>
 	</answer>
     </entry>
@@ -137,30 +137,33 @@
       <question>Будет ли ScummVM поддерживать другие игры?</question>
       <answer>
 		<simpara>
-		That depends on several factors: First off, it has to fit within the
-		scope of ScummVM, i.e., it has to be a point and click adventure with 2D
-		graphics. Secondly, there must be a developer (or multiple) who is
-		interested in working on this and both willing and able to carry out the
-		required work.
+		Это зависит от нескольких факторов: во-первых, игра должна входить в
+		список интересов ScummVM, то есть, это должен быть квест или
+		адвенчура, управляемая мышкой и с двумерной графикой. Во-вторых,
+		должен быть разработчик (или несколько), заинтересованный в работе
+		над игрой и имеющий необходимую квалификацию.
 		</simpara>
 		<simpara>
-		You have to understand that all ScummVM developers are volunteers who
-		work on ScummVM in their spare time, solely for fun, and not for profit.
-		Yet reverse engineering a completely new game without source is a long
-		and difficult process. Even with source it can be very tedious and time
-		consuming.
+		Важно понимать, что все разработчики в команде ScummVM являются
+		добровольцами и работают над проектов в своё свободное время, исключительно
+		ради удовольствия, а не ради прибыли. Мало того,
+		обратный инжиниринг совершенно новой игры без доступа к оригинальным
+		исходным текстом является длительным и сложным процессом. Да, собственно,
+		и при наличии исходников процесс может быть утомительным и требовать
+		кучу времени.
 		</simpara>
 		<simpara>
-		So unless you work for a company interested in providing us with source
-		code for one of your classic titles, or want to do the work yourself,
-		please do not ask us to add support for a new game. We will simply
-		reject any such requests out of hand.
+		Так что, если вы не работаете на компанию, заинтересованную в передаче
+		исходных текстов вашей игры, или же не в обладаете квалификацией, необходимой
+		для того, чтобы сделать всю работу по разработке самостоятельно, пожалуйста, не
+		пишите нам запросы на добавление новых игр. Мы просто выбросим ваш
+		запрос в корзину.
 		</simpara>
 	</answer>
     </entry>
     <entry>
       <href/>
-      <question>Когда игра Maniac Mansion Deluxe будет поддерживаться?</question>
+      <question>Когда будет поддерживаться игра Maniac Mansion Deluxe?</question>
       <answer>
 		<simpara>
 		The short answer: never. The long answer:
@@ -178,7 +181,7 @@
     </entry>
     <entry>
       <href/>
-      <question>Будете ли вы поддеоживать игры Sierra SCI?</question>
+      <question>Будете ли вы поддерживать игры Sierra SCI?</question>
       <answer>
 		<simpara>
 		FreeSCI has now been merged into ScummVM, see <ulink url="http://www.scummvm.org/?shownews=20090215.xml">this news item</ulink>.
