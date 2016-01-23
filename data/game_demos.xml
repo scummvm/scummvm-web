@@ -1451,6 +1451,12 @@
 				<category>qfg-sci</category>
 			</demo>
 			<demo>
+				<name>Quest for Glory IV: Shadows of Darkness (DOS demo - Non-interactive)</name>
+				<url>/frs/demos/sci/qfg4-dos-ni-demo-en.zip</url>
+				<target>qfg4</target>
+				<category>qfg-sci</category>
+			</demo>
+			<demo>
 				<name>Slater &amp; Charlie Go Camping (DOS demo)</name>
 				<url>/frs/demos/sci/slater-dos-demo.en.zip</url>
 				<target>slater</target>
