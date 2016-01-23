@@ -1100,6 +1100,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>The Labyrinth of Time</name>
+				<target>lab</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />- DOS and Windows versions are supported<h:br />- The Amiga version is not supported yet
+				</notes>
+			</game>
+			<game>
 				<name>The Legend of Kyrandia</name>
 				<target>kyra1</target>
 				<support_level>good</support_level>
