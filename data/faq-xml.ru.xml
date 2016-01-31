@@ -235,7 +235,7 @@
       <question>Со всеми ли версиями игр работает ScummVM?</question>
       <answer>
 		<simpara>
-		See "<xref linkend="question.supported-games" endterm="question.supported-games.text"/>".
+		Смотрите "<xref linkend="question.supported-games" endterm="question.supported-games.text"/>".
 		</simpara>
 	</answer>
     </entry>
@@ -244,7 +244,7 @@
       <question>Могу ли я играть в xxx (подставьте название вашего любимого SCUMM-квеста) ?</question>
       <answer>
 		<simpara>
-		See "<xref linkend="question.supported-games" endterm="question.supported-games.text"/>".
+		Смотрите "<xref linkend="question.supported-games" endterm="question.supported-games.text"/>".
 		</simpara>
 	</answer>
     </entry>
@@ -260,7 +260,7 @@
     </entry>
     <entry>
       <href/>
-      <question>Работают ли со ScummVM созранения из оригинальных игр?</question>
+      <question>Работают ли со ScummVM сохранения из оригинальных игр?</question>
       <answer>
 		<simpara>
 		In general, no. We do not have any plans to load old savegames (with the exception of the
@@ -332,7 +332,7 @@
     </entry>
     <entry>
       <href/>
-      <question>Могу ли я грать во весь экран?</question>
+      <question>Могу ли я играть во весь экран?</question>
       <answer>
 		<simpara>
 		Yes. You can either start your game using the -f command line parameter, setting
@@ -389,7 +389,7 @@
       <question>Музыка не слышна.</question>
       <answer>
 		<simpara>
-		See "<xref linkend="question.no-sound" endterm="question.no-sound.text"/>".
+		Смотрите "<xref linkend="question.no-sound" endterm="question.no-sound.text"/>".
 		</simpara>
 	</answer>
     </entry>
@@ -501,25 +501,25 @@
       <question>Как сообщить об ошибке.</question>
       <answer>
 		<simpara>
-		To report a bug, please create a SourceForge account and follow the
-		<ulink url="http://sourceforge.net/p/scummvm/bugs/">bugs</ulink>
-		link from our homepage. Please make sure the bug is reproducible, and
-		still exists in the latest daily build/current repository version. Also check the
-		<ulink url="http://www.scummvm.org/compatibility.php">compatibility listing</ulink> for that game to ensure
-		the issue is not already known. In your bugreport please provide the following
-		information:
+		Чтобы сообщить об ошибке, пожалуйста, создайте учётную запись на SourceForge и перейдите по ссылке на
+		<ulink url="http://sourceforge.net/p/scummvm/bugs/">багтрекер</ulink>. Удостоверьтесь, что
+		ошибка воспроизводится и всё ещё присутствует в последней дневной сборке. Также
+		проверьте
+		<ulink url="http://www.scummvm.org/compatibility.php">страницу совместимости</ulink> для этой игры,
+		чтобы убедиться, что эта ошибка не является уже известной. В своём сообщении об ошибке,
+		пожалуйста, предоставьте следующую информацию:
 		</simpara>
 		<itemizedlist>
-		<listitem><simpara>ScummVM version (PLEASE test the latest daily build/current repository)</simpara></listitem>
-		<listitem><simpara>Bug details, including instructions on reproducing it</simpara></listitem>
-		<listitem><simpara>Language of game (English, German, ...)</simpara></listitem>
-		<listitem><simpara>Version of game (talkie, floppy, ...)</simpara></listitem>
-		<listitem><simpara>Platform and Compiler (Win32, Linux, MacOS, ...)</simpara></listitem>
-		<listitem><simpara>Attach a save game if possible</simpara></listitem>
-		<listitem><simpara>If this bug only occurred recently, please note the last
-			version without the bug, and the first version including
-			the bug. That way we can fix it quicker by looking at the
-			changes made.</simpara></listitem>
+		<listitem><simpara>Версию ScummVM (ПОЖАЛУЙСТА, проверьте с последней дневной сборкой)</simpara></listitem>
+		<listitem><simpara>Описание ошибки, включая шаги к её воспроизведению</simpara></listitem>
+		<listitem><simpara>Язык игры (английский, русский, ...)</simpara></listitem>
+		<listitem><simpara>Версию игры (с озвучкой, на флоппи-диске, ...)</simpara></listitem>
+		<listitem><simpara>Платформу и компилятор (Win32, Linux, MacOS, ...)</simpara></listitem>
+		<listitem><simpara>Если возможно, прикрепите сохранение игры</simpara></listitem>
+		<listitem><simpara>Если эта ошибка появилась только недавно, пожалуйста, укажите версию, в которой
+			ошибки не было, и первую версию, в которой она появилась. Тогда мы сможем сделать исправление
+			гораздо быстрее, посмотрев что же было изменено между этими двумя версиями.
+			</simpara></listitem>
 		</itemizedlist>
 	</answer>
     </entry>
