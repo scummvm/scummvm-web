@@ -7,17 +7,18 @@
       <question>Почему проект называется ScummVM &mdash; что означает это название?</question>
       <answer>
 		<simpara>
-		<quote>Scumm</quote> comes from the fact that it was originally designed to run SCUMM games, like
-		Monkey Island.
-		<quote>VM</quote> stands for Virtual Machine.
+		Часть названия "Scumm" происходит из исторического факта, что изначально проект начался с
+		поддержки игр компании LucasArts, построенных на движке SCUMM, к примеру, Monkey Island.
+		<quote>VM</quote> означает Виртуальную Машину (Virtual Machine).
 		</simpara>
 		<simpara>
-		Every now and then somebody will raise the subject of finding
-		a <quote>better</quote> name for ScummVM, one that fits better with its modern
-		scope (which extends well beyond SCUMM games). So
-		<ulink url="http://wiki.scummvm.org/index.php/ScummVM_Name">at this page</ulink>
-		we present you with some nice alternatives. Choose whichever suits you
-		best -- but we will stay ScummVM.
+		Вопрос о смене названия проекта на <quote>лучшее</quote> возникает с завидной регулярностью.
+		Часто такие предложения призывают выбрвть название, которое будет отражать тот факт, что на сегодня
+		мы поддерживаем гораздо больше движков чем просто SCUMM.
+		Поэтому
+		<ulink url="http://wiki.scummvm.org/index.php/ScummVM_Name">на этой странице</ulink>
+		мы собрали для вас несколько хороших альтернатив. Выберите себе то, которое нравится
+		больге всего, но мы продолжим называться <quote>ScummVM</quote>.
 		</simpara>
 	</answer>
     </entry>
@@ -198,18 +199,18 @@
       <question>Как мне установить игры, чтобы они работали со ScummVM?</question>
       <answer>
 		<simpara>
-		For most games you do not need to run the installer. Simply copy
-		<ulink url="http://wiki.scummvm.org/index.php/Datafiles">the files listed here</ulink>
-		from your floppy or CD to your hard drive, then start ScummVM. Click
-		on 'Add Game' and select the directory to which you copied the game
-		files.
+		Для большинства игр вам нет необходимости запускать программу установки. Просто скопируйте
+		с оригинальных дисков
+		<ulink url="http://wiki.scummvm.org/index.php/Datafiles">файлы, перечисленные на этой странице</ulink>,
+		затем запустите ScummVM. Нажмите на кнопку 'Добавить игру'
+		и выберите директорию, в которую вы скопировали файлы игры.
 		</simpara>
 		<simpara>
-		For some games the files are packed and not directly accessible
-		on the floppy or CD. In such a case you will need to run the original
-		game installer and then copy the files from where they have been
-		installed to the directory in which you want to install the
-		game to play with ScummVM.
+		Некоторые игры, однако, содержат запакованные файлы, которые недоступны
+		непосредственно с дисков. В этом случае вам всё же будет необходимо запустить
+		оригинальный установщик игры, а затем скопировать файлы из директории, куда
+		они установились, в директорию, которую вы хотите использовать для игры
+		под ScummVM.
 		</simpara>
 	</answer>
     </entry>
