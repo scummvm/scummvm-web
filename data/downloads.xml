@@ -185,14 +185,14 @@
 					<name>Tizen package</name>
 					<extra_info>(12.2M .tpk)</extra_info>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-maemo.png</category_icon>
 					<url>scummvm_{$release}-maemo_armel.deb</url>
 					<name>Maemo package (OS 2008 and Maemo5/Fremantle)</name>
-					<extra_info>(9.1M .deb)</extra_info>
+					<extra_info>(9.6M .deb)</extra_info>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-linuxmoto.png</category_icon>
 					<url>scummvm-{$release}-motoezx.pkg</url>
@@ -570,13 +570,6 @@
 					<url>1.6.0/scummvm-1.6.0_slack-x86_64-1.txz</url>
 					<name>1.6.0 SlackWare x86 64bit package</name>
 					<extra_info>(9.4M .txz)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-maemo.png</category_icon>
-					<url>1.6.0/scummvm_1.6.0-maemo_armel.deb</url>
-					<name>1.6.0 Maemo package (OS 2008 and Maemo5/Fremantle)</name>
-					<extra_info>(9.1M .deb)</extra_info>
 				</file>
 
 				<file>
