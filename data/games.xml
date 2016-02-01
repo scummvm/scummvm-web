@@ -2,7 +2,7 @@
 <downloads xmlns:h="http://www.w3.org/TR/html4/">
 	<section>
 		<title>
-			Game downloads for ScummVM <h:span style="color: rgb(170, 170, 170);">version {$release}</h:span>
+			{#gamesXMLTitle#} <h:span style="color: rgb(170, 170, 170);">{'/\x7brelease\x7d/'|preg_replace:$release:#downloadsXMLVersion#}</h:span>
 		</title>
 		<baseurl>/frs/extras/</baseurl>
 		<subsection>
@@ -261,7 +261,7 @@
 
 	<section>
 		<title>
-			Addons for ScummVM <h:span style="color: rgb(170, 170, 170);">version {$release}</h:span>
+			{#gamesXMLAddons#} <h:span style="color: rgb(170, 170, 170);">{'/\x7brelease\x7d/'|preg_replace:$release:#downloadsXMLVersion#}</h:span>
 		</title>
 		<baseurl>/frs/extras/</baseurl>
 		<subsection>
