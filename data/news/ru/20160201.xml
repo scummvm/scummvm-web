@@ -1,0 +1,59 @@
+<NAME>Начинается тестирование релиза ScummVM 1.8.0</NAME>
+<DATE>Feb 1, 2016</DATE>
+<AUTHOR>sev</AUTHOR>
+<BODY>
+
+<p>
+	После долгого перерыва, мы наконец начинаем приготовления для следующего релиза ScummVM &mdash; 1.8.0.
+</p>
+
+<p>
+	Последние полтора года мы работали напряжённо, и смогли добавить 10 (ten, zehn, dieci, dix, diez, десять) новых игр:
+</p>
+
+<ul>
+	<li><i>Rex Nebular and the Cosmic Gender Bender</i></li>
+	<li><i>Sfinx</i></li>
+	<li><i>Zork Nemesis: The Forbidden Lands</i></li>
+	<li><i>Zork: Grand Inquisitor</i></li>
+	<li><i>The Lost Files of Sherlock Holmes: The Case of the Serrated Scalpel</i></li>
+	<li><i>The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo</i></li>
+	<li><i>Beavis and Butthead in Virtual Stupidity</i></li>
+	<li><i>Amazon: Guardians of Eden</i></li>
+	<li><i>Broken Sword 2.5: The Return of the Templars</i></li>
+	<li><i>Labyrinth of Time</i></li>
+</ul>
+
+<p>
+	Также движок Sierra AGI был сильно переработан, и все игры, построенные на нём, стали работать
+	значительно лучше, а это означает, что могли появиться и новые баги.
+</p>
+
+<p>
+	Нам нужна ваша помощь в тестировании этих игр, включая игры на движке AGI.
+	Чтобы вам было удобно, мы создали список игр, требующих тестирования на
+	<a href="http://wiki.scummvm.org/index.php/Release_Testing/1.8.0">нашей Вики</a>.
+	Также там перечислены некоторые другие старые игры, которым нужно дополнительное тестирование.
+</p>
+
+<p>
+	Вам нужно скачать <a href="http://www.scummvm.org/downloads.php#daily">ежедневную сборку</a> ScummVM
+	и вы можете сразу же начинать тестирование! Если вы наткнётесь на новые баги, пожалуйста, напишите
+	о них на нашем
+	<a href="http://sourceforge.net/p/scummvm/bugs/">баг-трекере</a>. После того, как вы пройдёте
+	какую-либо игру до конца, напишите об этом <a href="http://forums.scummvm.org/viewtopic.php?t=14006">на форуме</a>,
+	мы пометим эту игру как проверенную на <a href="http://wiki.scummvm.org/index.php/Release_Testing/1.8.0">Вики</a>,
+	и другие пользователи смогут сосредоточиться на непройденных играх. Пожалуйста, следуйте нашему руководству
+	по тестированию, которое можно прочитать <a href="http://wiki.scummvm.org/index.php/Release_Testing">здесь</a>.
+</p>
+
+<p>
+	Также для некоторых игр нужны <a href="http://wiki.scummvm.org/index.php/Screenshots">скриншоты</a>,
+	пока играете, сделайте парочку.
+</p>
+
+<p>
+	Весёлого квестования (в тестовом режиме)!
+</p>
+
+</BODY>
