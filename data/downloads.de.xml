@@ -756,7 +756,7 @@
 				  <h:a href="http://buildbot.scummvm.org/builds.html">{#downloadsDailyLink1#}</h:a>. {#downloadsDailyLink2#} <h:a href="http://buildbot.scummvm.org/">buildbot</h:a> erstellt.
 				</h:p>
 				<h:p>
-				  Lies die <h:a href="https://github.com/scummvm/scummvm/commits">&Auml;nderungsmeldungn</h:a>, um die aktuelle Entwicklung von ScummVM zu verfolgen.
+				  Lesen Sie die <h:a href="https://github.com/scummvm/scummvm/commits">&Auml;nderungsmeldungn</h:a>, um die aktuelle Entwicklung von ScummVM zu verfolgen.
 				</h:p>
 				<h:p>{#downloadsDailyLink3#}</h:p>
 			</notes>
@@ -829,7 +829,7 @@
 					<category_icon>catpl-cpp.png</category_icon>
 					<url>http://github.com/scummvm/scummvm</url>
 					<name>Git Repository (Quellcode-Verzeichnis)</name>
-					<extra_info>(f&uuml;r den Fall, dass Du Dir den aktuellen Quellcode herunterladen willst, um ScummVM selbst zu kompilieren)</extra_info>
+					<extra_info>(f&uuml;r den Fall, dass Sie sich den aktuellen Quellcode herunterladen wollen, um ScummVM selbst zu kompilieren)</extra_info>
 				</file>
 			</entries>
 		</subsection>
