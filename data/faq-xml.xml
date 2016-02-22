@@ -88,7 +88,7 @@
 		</simpara>
 		<simpara>
 		ScummVM runs on a wide variety of platforms, including Win32 (Windows
-		95/98/ME/NT/2000/XP), Linux i386 and PPC, Mac OS X, many smart phones
+		95/98/ME/NT/2000/XP/7/8/10), Linux i386 and PPC, OS X, many smart phones
 		and game consoles and more. It is also part of various BSD ports
 		collections and included in Debian testing and unstable.
 		</simpara>
@@ -102,17 +102,25 @@
     <entry>
       <href>question.make-new-games</href>
       <question>Can I use ScummVM to make new games?</question>
-      <answer>
+      <answer>      
 		<simpara>
-		While it is theoretically possible to write a new game that uses ScummVM
-		it is not advisable. ScummVM has many hacks to support older games and
-		no tools geared towards creating content usable by ScummVM. Potential
-		game authors are encouraged to look at open source technologies such as
-		<ulink url="http://www.libsdl.org">SDL</ulink> for a cross platform
-		multimedia library (also used by ScummVM), and the
-		<ulink url="http://www.lua.org">Lua</ulink> and
-		<ulink url="http://www.python.org">Python</ulink> scripting languages
-		for game logic.
+		A few engines supported by ScummVM have publicly available authoring tools. Developing for any other
+		engine would require the author to develop their own tools, which is not a trivial task as a full
+		understanding or specification for the engine would be needed. The engines which are known to support
+		authoring tools and thus currently have a number of "fangames" also have detectors which will detect
+		and add entries for unknown games, though upon game completion contacting the ScummVM team will allow
+		a full detection entry to be added of the stable final version. You could for example use
+		the <ulink url="http://dead-code.org/">Wintermute</ulink> Development Kit.
+		</simpara>
+		<simpara>
+		It should be noted that other non-ScummVM supported systems for Point and Click game development exist,
+		and the authoring tools for these may be easier to use and more suited to your game.
+		<ulink url="http://en.wikipedia.org/wiki/Adventure_Game_Studio">Adventure Game Studio</ulink> is probably
+		the most popular and supported system with tools and a large developer community.
+		</simpara>
+		<simpara>
+		You will find more information on this topic and a more comprehensive list of authoring tools on
+		<ulink url="http://wiki.scummvm.org/index.php/HOWTO-Fangames">our wiki HOWTO-Fangames page</ulink>.
 		</simpara>
 	</answer>
     </entry>
@@ -163,16 +171,14 @@
       <question>When will Maniac Mansion Deluxe be supported?</question>
       <answer>
 		<simpara>
-		The short answer: never. The long answer:
+		The short answer: not anytime soon. The long answer:
 		This game is a fan-made replica of the original Maniac Mansion. It is not the same
 		game as Maniac Mansion Enhanced, which we do support. It features improved
 		music, sound, 256-colors graphics and reworked game interface. It was made using
 		the <ulink url="http://www.adventuregamestudio.co.uk/">Adventure Game Studio</ulink> which
-		is a free, albeit closed-source graphics adventures engine. There are Windows,
-		Linux and FreeBSD versions of the engine. Its author keeps his source code closed
-		due to reasons explained in the project <ulink url="http://www.bigbluecup.com/acfaq.htm">FAQ</ulink>
-		(see last two questions). That means that you need to download that program to
-		play the game.
+		is a free, and now open-source graphics adventures engine. There are Windows,
+		Linux and FreeBSD versions of the engine. This engine is not currently supported by ScummVM
+		and a lot of work would be required to support it.
 		</simpara>
 	</answer>
     </entry>
@@ -208,6 +214,9 @@
 		installed to the directory in which you want to install the
 		game to play with ScummVM.
 		</simpara>
+		<simpara>
+		For Macintosh games, see also "<xref linkend="question.mac-games" endterm="question.mac-games.text"/>".
+		</simpara>
 	</answer>
     </entry>
     <entry>
@@ -222,7 +231,8 @@
 		buy these games, we suggest you refer to our <ulink url="http://wiki.scummvm.org/index.php/Where_to_get_the_games">Where to Get the Games</ulink>
 		Wiki page.
 		Do not ask the ScummVM team where you can download the full versions of
-		LucasArts games. These requests will be ignored.
+		LucasArts games. These requests will be ignored or you will be directed to the aforementioned
+		<ulink url="http://wiki.scummvm.org/index.php/Where_to_get_the_games#LucasArts_Games">wiki page</ulink>.
 		</simpara>
 	</answer>
     </entry>
@@ -237,7 +247,7 @@
     </entry>
     <entry>
       <href/>
-      <question>Can I play through xxx (place your favorite SCUMM adventure here) ?</question>
+      <question>Can I play through xxx (place your favorite adventure game here) ?</question>
       <answer>
 		<simpara>
 		See "<xref linkend="question.supported-games" endterm="question.supported-games.text"/>".
@@ -249,8 +259,11 @@
       <question>Can I save/restore the game?</question>
       <answer>
 		<simpara>
-		Yes. Saving and restoring is already supported (ALT-1/9 to save, CTRL - 1/9 to restore, or
-		F5 to access the save/load menu).
+		Yes. Saving and restoring is supported. In most games you can use Ctrl-F5 to display the Global ScummVM Menu
+		and get access to saving and loading functionalities. Some engines may have different or additional ways to
+		save and restore games (for example in SCUMM games you can use Alt-1/9 to save, Ctrl-1/9 to restore, or
+		F5 to access the save/load menu). See the <ulink url="http://github.com/scummvm/scummvm/blob/master/README">README</ulink>
+		for more info.
 		</simpara>
 	</answer>
     </entry>
@@ -300,7 +313,7 @@
       <question>Does ScummVM support using MP3/Ogg/FLAC files instead of the original MIDI music?</question>
       <answer>
 		<simpara>
-		No. If all the game does is to play or loop a tune it would be possible, but many of the games do
+		In general, no. If all the game does is to play or loop a tune it would be possible, but many of the games do
 		fancy stuff like smooth transitions from one tune to another, or turn individual instruments on and
 		off, etc. There's simply no way ScummVM could take a piece of digital music and emulate that kind
 		of behavior.
@@ -310,6 +323,11 @@
 		unused bonus audio tracks on the CD) and Monkey Island 2 (which is sometimes distributed on
 		the same CD as the version of Monkey Island 1 that uses CD audio). Both of these games do far
 		too much fancy stuff to even consider an idea like this.
+		</simpara>
+		<simpara>
+		However for a few other games we do support using MP3/Ogg/FLAC files instead of the original MIDI music.
+		See the <ulink url="http://www.jameswoodcock.co.uk/content/scummvm-music-enhancement-project/">ScummVM Music Enhancement Project</ulink>
+		web page for a list of games that supports such a feature and get access to the recorded music files.
 		</simpara>
 	</answer>
     </entry>
@@ -322,7 +340,8 @@
 		<ulink url="http://scale2x.sourceforge.net/">Scale2x</ulink>.
 		See the
 		<ulink url="http://github.com/scummvm/scummvm/blob/master/README">README</ulink>
-		for more info.
+		for more info and <ulink url="http://wiki.scummvm.org/index.php/User_Manual/Appendix:_Graphic_filters">our wiki</ulink>
+		for a comparison of the available filters.
 		</simpara>
 	</answer>
     </entry>
@@ -412,7 +431,7 @@
 		<simpara>
 		On Windows, to make it visible, you should run ScummVM from the command line. To open a
 		command prompt, open the Start Menu and select the 'Run' option. Under
-		Windows NT/2000/XP, type 'cmd.exe' (no quotes) in the dialog box that
+		Windows NT/2000/XP/7/8/10, type 'cmd.exe' (no quotes) in the dialog box that
 		shows up; under Windows 95/98/Me, type 'command.com' instead. If
 		necessary, change to the proper drive first by typing 'D:' (where 'D' is
 		the drive ScummVM is located). Change to ScummVM's directory by typing
@@ -428,6 +447,13 @@
 		the line and add 'Contents/MacOS/scummvm' (without the quotes). The
 		line should look like this: '/Path/to/ScummVM.app/Contents/MacOS/scummvm'.
 		Then press return to start ScummVM.
+		</simpara>
+		<simpara>
+		You can also find messages in the ScummVM log file. The location of this file varies depending on your
+		operating system. On recent version of Windows it should be in '%appdata%\ScummVM\Logs\scummvm.log'. On OS X
+		the log file is '~/Library/Logs/scummvm.log'. On Linux and other POSIX systems we use the XDG Base Directory
+		Specification, so by default the file will be '~/.cache/scummvm/logs/scummvm.log' but its location may vary
+		depending on the value of the 'XDG_CACHE_HOME' environment variable.
 		</simpara>
 	</answer>
     </entry>
@@ -465,12 +491,12 @@
 	</answer>
     </entry>
     <entry>
-      <href/>
+      <href>question.mac-games</href>
       <question>How do I make my Macintosh version of a game work?</question>
       <answer>
 		<simpara>
 		First, if you use a ScummVM version prior to 0.7.0 we strongly recommend you
-		to upgrade to the latest version, as we improved support for mac games considerably starting with 0.7.0.
+		to upgrade to the latest version, as we improved support for Macintosh games considerably starting with 0.7.0.
 		</simpara>
 		<simpara>
 		For newer games ScummVM needs the main data file, usually called
@@ -483,7 +509,7 @@
 		</simpara>
 		<simpara>
 		There also exists a separate <ulink url="http://wiki.scummvm.org/index.php/HOWTO-Mac_Games">tutorial
-		</ulink> for setting up Mac versions
+		</ulink> for setting up Macintosh versions
 		</simpara>
 		<simpara>
 		The older games which have LFL files should only need the platform set
@@ -527,7 +553,9 @@
 		These are not full games but reencoded cutscene (video) packs. To run the games you
 		still need the original disks. Originally cutscenes were encoded in a proprietary
 		format but Revolution Software kindly permitted us to reencode them into
-		DXA and distribute them freely on our site.
+		DXA and distribute them freely on our site. Note, however, that recent ScummVM versions
+		support using the original cutscene files directly. Therefore, you don't have to use the
+		ones from our site anymore.
 		</simpara>
 	</answer>
     </entry>
