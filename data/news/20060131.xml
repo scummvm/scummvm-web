@@ -3,7 +3,7 @@
 <AUTHOR>sev</AUTHOR>
 <BODY>
 <p>Rejoice, ScummVM 0.8.1 "Codename: missing" has just been released.
-You can now experience the latest official flavour of ScummVM. The main reason 
+You can now experience the latest official flavour of ScummVM. The main reason
 for this release is fixing several bugs that slipped into 0.8.0, some of these
 fixes are:
 </p>
@@ -20,7 +20,7 @@ fixes are:
 
 <p>
 For a complete list of changes see the
-<a href="http://sourceforge.net/project/shownotes.php?release_id=388756">release notes</a>.
+<a href="http://scummvm.org/frs/scummvm/0.8.1/ReleaseNotes">release notes</a>.
 </p>
 
 <p>
