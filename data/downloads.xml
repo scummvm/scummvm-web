@@ -753,7 +753,7 @@
 					<h:b>{#downloadsDailyNote1#}</h:b> {#downloadsDailyNote2#}
     			</h:p>
 				<h:p>
-				  <h:a href="http://buildbot.scummvm.org/builds.html">{#downloadsDailyLink1#}</h:a>. {#downloadsDailyLink2#} <h:a href="http://buildbot.scummvm.org/">buildbot</h:a>.
+				  <h:a href="http://buildbot.scummvm.org/builds.html">{#downloadsDailyLink1#}</h:a>. {#downloadsDailyLink2#} <h:a href="http://buildbot.scummvm.org/">buildbot</h:a>{#downloadsDailyLink4#}.
 				</h:p>
 				<h:p>
 				  View the <h:a href="https://github.com/scummvm/scummvm/commits">ChangeLog</h:a> to see the latest updates of ScummVM.
