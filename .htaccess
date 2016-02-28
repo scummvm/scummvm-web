@@ -12,8 +12,18 @@ RewriteRule     .*                                                           -  
 ##
 # We moved screenshots, fixing the links
 ##
-RewriteRule		^screenshots/scummvm_([0-9]+).png$								data/screenshots/old/scummvm_$1.png [L]
-RewriteRule		^screenshots/scummvm_([0-9]+).jpg$								data/screenshots/old/scummvm_$1.jpg [L]
+RewriteRule		^screenshots/scummvm_([0-9]+).png$							data/screenshots/old/scummvm_$1.png [L]
+RewriteRule		^screenshots/scummvm_([0-9]+).jpg$							data/screenshots/old/scummvm_$1.jpg [L]
+RewriteRule		^screenshots/other/(sword/.*)$								data/screenshots/revolution/$1 [L]
+RewriteRule		^screenshots/other/(sky/.*)$								data/screenshots/revolution/$1 [L]
+RewriteRule		^screenshots/other/(lure/.*)$								data/screenshots/revolution/$1 [L]
+RewriteRule		^screenshots/other/(simon/.*)$								data/screenshots/agos/$1 [L]
+RewriteRule		^screenshots/other/(feeble/.*)$								data/screenshots/agos/$1 [L]
+RewriteRule		^screenshots/other/(kyra/.*)$								data/screenshots/westwood/$1 [L]
+RewriteRule		^screenshots/other/(gob/.*)$								data/screenshots/gob/$1 [L]
+RewriteRule		^screenshots/other/(bargon/.*)$								data/screenshots/gob/$1 [L]
+RewriteRule		^screenshots/scummvm_0_0_5.jpg$								data/screenshots/lec/maniac/scummvm_0_0_5.jpg [L]
+RewriteRule		^screenshots/scummvm_0_11_2.jpg$							data/screenshots/lec/comi/scummvm_0_11_2.jpg [L]
 
 ##
 # Images linked directly from the wiki need to work
