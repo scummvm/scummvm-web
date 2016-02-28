@@ -5,7 +5,7 @@
 <B>No!</B>, it's ScummVM 0.3.0b, our first official release since LucasArts decided to go after us!
 
 <BR><BR>
-<div align="center"><i>Small update, we've also added a few links to our Links page that you might want to check out. Expecially VOGONS, please 
+<div align="center"><i>Small update, we've also added a few links to our Links page that you might want to check out. Expecially VOGONS, please
 stop asking us if we're going to do things like add support for Beneath a Steel Sky :)</i></div>
 
 <BR><BR>
@@ -20,21 +20,21 @@ games (The VGA version of Indiana Jones and the Last Crusade, and support for Th
 such as a vastly improved in-game gui and a built-in launcher to make it even easier for you to add, configure, and run your classic
 LucasArts (and AdventureSoft) games. Experimental support for Full Throttle is here, as well as many bugfixes for the games
 introduced in our last version... such as the FmTowns 256 color version of Zak McKracken, and the VGA floppy version of Monkey 
-Island. 
+Island.
 <BR><BR>
-For a short summary of changes, check out the <a href="http://sourceforge.net/project/shownotes.php?release_id=126358">Release
+For a short summary of changes, check out the <a href="http://www.scummvm.org/frs/scummvm/0.3.0b/ReleaseNotes">Release
 Notes</a>, or even better... just head over and <a href="http://www.scummvm.org/downloads.php">download the dang thing</a>.
 
 <BR><BR>
 Hopefully we will be able to come at you with new releases more often from now on, hopefully at least monthly. Please enjoy this
 release as much as we've became frustrated making it, and remember - if you give all your money to LucreArts, maybe they'll let us
-live instead of abandoning us on... on.... Monkey Island! (Ugh, Bananas... I hate Bananas). 
+live instead of abandoning us on... on.... Monkey Island! (Ugh, Bananas... I hate Bananas).
 
 <BR><BR>
-For those interested in the boring news, here's both a summary and an update on our legal situation, for those users who are just 
+For those interested in the boring news, here's both a summary and an update on our legal situation, for those users who are just
 now discovering ScummVM.
 
-<HR> 
+<HR>
 <i>We've been at a deadlock with LucasArts for some time now.  LucasArts simply do not like our current license, the GPL (General
 Public License). While we do not think it necessary, we have agreed to change the license to something more LucasArts-'friendly'.
 However, LucasArts wish us to include distribution terms which are against section one of both the <a
@@ -52,7 +52,7 @@ properties have been licensed under the GPL in the past, such as the Quake title
 software</a>. LucasArts isn't releasing any of their own code under the GPL, and we really do not believe that they should require us
 to change our license - all we want them to do is leave us alone to create our emulator. Sanction us, if it makes them feel safer
 legally. But if they are going to require such a major step on our part of changing our license, they at least have to capitulate on
-the point of OSD/DFSG compliance. 
+the point of OSD/DFSG compliance.
 
 <BR><BR>
 We here at the ScummVM team would like to thank the people at LucasArts who are supporting us, and attempting to help us come to an
@@ -62,7 +62,6 @@ BOUGHT your classic bundle packs, just to play it with ScummVM.
 </i>
 
 <BR><BR>
-<div align="center"><B>These last few paragraphs have been brought to you by the "Please don't sue us for making a new release" 
+<div align="center"><B>These last few paragraphs have been brought to you by the "Please don't sue us for making a new release"
 department.</B></div>
 </BODY>
-
