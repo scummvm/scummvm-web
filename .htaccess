@@ -10,6 +10,11 @@ RewriteCond     %{QUERY_STRING}                                             lang
 RewriteRule     .*                                                           -  [CO=lang:%1:.scummvm.org]
 
 ##
+# We moved screenshots, fixing the links
+##
+RewriteRule		^screenshots/scummvm_18.png$								data/screenshots/old/scummvm_18.png [L]
+
+##
 # Images linked directly from the wiki need to work
 ##
 RewriteRule		^screenshots/(.+)\.(jpg|png)$								data/screenshots/$1.$2 [NS,L]
