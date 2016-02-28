@@ -12,7 +12,10 @@ RewriteRule     .*                                                           -  
 ##
 # We moved screenshots, fixing the links
 ##
-RewriteRule		^screenshots/scummvm_18.png$								data/screenshots/old/scummvm_18.png [L]
+RewriteRule		^screenshots/scummvm_(\d).png$								data/screenshots/old/scummvm_$1.png [L]
+RewriteRule		^screenshots/scummvm_(\d\d).png$							data/screenshots/old/scummvm_$1.png [L]
+RewriteRule		^screenshots/scummvm_(\d).jpg$							data/screenshots/old/scummvm_$1.jpg [L]
+RewriteRule		^screenshots/scummvm_(\d\d).jpg$							data/screenshots/old/scummvm_$1.jpg [L]
 
 ##
 # Images linked directly from the wiki need to work
