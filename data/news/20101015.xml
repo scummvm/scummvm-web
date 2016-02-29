@@ -13,10 +13,10 @@ and see what cool new features are included.</p>
 
 <p>As you have probably already realized, this release has support for SCI, and moreover,
 <a href="http://scummvm.org/compatibility/1.2.0/">the list of compatible</a> games goes beyond
-the original FreeSCI which was merged about 1.5 years ago. We support <i>Conquests of 
+the original FreeSCI which was merged about 1.5 years ago. We support <i>Conquests of
 Camelot/the Longbow</i>, <i>Castle/Island of Dr. Brain</i>, <i>Codename: ICEMAN</i>,
 <i>EcoQuest 1&amp;2</i>, <i>all four Hoyle games</i>, <i>Freddy Pharkas</i>, <i>Jones
-in the Fast Lane</i>, <i>King's Quest I-VI</i>, both <i>Laura Bow</i> games, 
+in the Fast Lane</i>, <i>King's Quest I-VI</i>, both <i>Laura Bow</i> games,
 <i>Larry</i> up to 6 (low-res 6 only), <i>Police Quest 1-3</i>, <i>Quest for Glory I-III</i>,
 <i>Space Quest up to V</i> and a few others.
 Incredible work by the FreeSCI team and our own SCI engine team!</p>
@@ -31,13 +31,13 @@ we have a number of new ports: Android, Dingux, Caanoo and OpenPandora. Unfortun
 to declare the PalmOS port officially dead.</p>
 
 <p>As usual there are tons of engine-specific bug fixes. Take a look at the
-<a href="https://sourceforge.net/projects/scummvm/files/scummvm/1.2.0/ReleaseNotes/view">release notes</a>
-if you want to know more. But wait! We would like to tell a little bit about 
-another long-awaited feature new in this release. After all these years we are finally 
-going international, and the ScummVM GUI can be translated into any language (well, 
-almost any). Right now we have Catalan, English, French, German, Italian, Russian, Spanish 
-and Ukrainian localizations. Besides this there are a lot of smaller improvements 
-like tooltips, radio buttons, improved usability and we support more games running 
+<a href="http://scummvm.org/frs/scummvm/1.2.0/ReleaseNotes">release notes</a>
+if you want to know more. But wait! We would like to tell a little bit about
+another long-awaited feature new in this release. After all these years we are finally
+going international, and the ScummVM GUI can be translated into any language (well,
+almost any). Right now we have Catalan, English, French, German, Italian, Russian, Spanish
+and Ukrainian localizations. Besides this there are a lot of smaller improvements
+like tooltips, radio buttons, improved usability and we support more games running
 from original media without the need to shuffle the game files.</p>
 
 <p>Enough talking! Now it is time to <a href="http://www.scummvm.org/downloads/">download</a> ScummVM
