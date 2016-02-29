@@ -75,7 +75,7 @@
 		</link>
 		<link>
 			<name>Patch Tracker</name>
-			<href>http://sourceforge.net/p/scummvm/patches/</href>
+			<href>https://github.com/scummvm/scummvm/pulls</href>
 		</link>
 		<link>
 			<name>T&auml;glich erstellte Versionen</name>

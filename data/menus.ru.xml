@@ -75,7 +75,7 @@
 		</link>
 		<link>
 			<name>Патчи</name>
-			<href>http://sourceforge.net/p/scummvm/patches/</href>
+			<href>https://github.com/scummvm/scummvm/pulls</href>
 		</link>
 		<link>
 			<name>Ежедневные сборки</name>
