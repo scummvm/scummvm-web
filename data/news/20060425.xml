@@ -8,7 +8,7 @@ In order to root out any remaining bugs, extensive testing is sorely needed.
 So, please dig upyour (legal!) copies of Kyrandia 1, download a SVN snapshot of
 ScummVM and the required Kyra data file from the <a
 href="http://www.scummvm.org/downloads.php#daily">Downloads</a> page, and post any bugs you find to our
-<a href="http://sourceforge.net/tracker/?group_id=37116&amp;atid=418820">Bug
+<a href="http://bugs.scummvm.org/">Bug
 tracker</a> :). Any other issues can be discussed in the <a
 href="http://forums.scummvm.org/viewtopic.php?p=8176">forum</a>. </p>
 <p>Currently both CD and floppy editions are supported in their own language.

@@ -12,7 +12,7 @@
 		And last but not least we do not support MIDI output, so make sure you use AdLib as "Music Driver".
 	</p>
 	<p>
-		Of course all bugs should be reported to <a href="http://sourceforge.net/tracker/?atid=418820&amp;group_id=37116&amp;func=browse">our bug tracker</a>.
+		Of course all bugs should be reported to <a href="http://bugs.scummvm.org/">our bug tracker</a>.
 		Make sure you got all required <a href="http://wiki.scummvm.org/index.php/Datafiles#Legend_of_Kyrandia.2C_The:_Hand_of_Fate">datafiles</a> before you report a bug though.
 		For further information, check out the <a href="http://www.scummvm.org/faq.php#question.report-bugs">bug submission guidelines</a>.
 	</p>

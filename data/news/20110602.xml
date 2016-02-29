@@ -12,7 +12,7 @@
 		A quick side note: Unlike other ScummVM supported adventure games, Lands of Lore is an RPG (Role Playing Game). We are supporting it as it uses the same engine (KYRA) as The Legend of Kyrandia series. Please do not ask us to support other RPGs!
 	</p>
 	<p>
-		Of course, all bugs should be reported to <a href="http://sourceforge.net/tracker/?atid=418820&amp;group_id=37116&amp;func=browse">our bug tracker</a>.
+		Of course, all bugs should be reported to <a href="http://bugs.scummvm.org/">our bug tracker</a>.
 		However, please make sure you have got all the required <a href="http://wiki.scummvm.org/index.php/Datafiles#Lands_of_Lore:_The_Throne_of_Chaos">datafiles</a> before you report a bug.
 		For further information, check out the <a href="http://www.scummvm.org/faq.php#question.report-bugs">bug submission guidelines</a>.
 	</p>
