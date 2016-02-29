@@ -502,7 +502,7 @@
       <answer>
 		<simpara>
 		Чтобы сообщить об ошибке, пожалуйста, создайте учётную запись на SourceForge и перейдите по ссылке на
-		<ulink url="http://sourceforge.net/p/scummvm/bugs/">багтрекер</ulink>. Удостоверьтесь, что
+		<ulink url="http://bugs.scummvm.org/">багтрекер</ulink>. Удостоверьтесь, что
 		ошибка воспроизводится и всё ещё присутствует в последней дневной сборке. Также
 		проверьте
 		<ulink url="http://www.scummvm.org/compatibility.php">страницу совместимости</ulink> для этой игры,

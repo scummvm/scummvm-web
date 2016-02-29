@@ -102,7 +102,7 @@
     <entry>
       <href>question.make-new-games</href>
       <question>Can I use ScummVM to make new games?</question>
-      <answer>      
+      <answer>
 		<simpara>
 		A few engines supported by ScummVM have publicly available authoring tools. Developing for any other
 		engine would require the author to develop their own tools, which is not a trivial task as a full
@@ -524,7 +524,7 @@
       <answer>
 		<simpara>
 		To report a bug, please create a SourceForge account and follow the
-		<ulink url="http://sourceforge.net/p/scummvm/bugs/">bugs</ulink>
+		<ulink url="http://bugs.scummvm.org/">bugs</ulink>
 		link from our homepage. Please make sure the bug is reproducible, and
 		still exists in the latest daily build/current repository version. Also check the
 		<ulink url="http://www.scummvm.org/compatibility.php">compatibility listing</ulink> for that game to ensure
