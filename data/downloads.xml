@@ -197,17 +197,17 @@
 				</file>
 				<file>
 					<category_icon>catpl-dc.png</category_icon>
-					<url>scummvm-{$release}-dreamcast-A-L-nero%2Bdemos.zip</url>
+					<url>scummvm-{$release}-dreamcast-A-L-nero+demos.zip</url>
 					<name>Dreamcast Nero Image &amp; Demos for engines named A-L</name>
 				</file>
 				<file>
 					<category_icon>catpl-dc.png</category_icon>
-					<url>scummvm-{$release}-dreamcast-M-S-nero%2Bdemos.zip</url>
+					<url>scummvm-{$release}-dreamcast-M-S-nero+demos.zip</url>
 					<name>Dreamcast Nero Image &amp; Demos for engines named M-S</name>
 				</file>
 				<file>
 					<category_icon>catpl-dc.png</category_icon>
-					<url>scummvm-{$release}-dreamcast-T-Z-nero%2Bdemos.zip</url>
+					<url>scummvm-{$release}-dreamcast-T-Z-nero+demos.zip</url>
 					<name>Dreamcast Nero Image &amp; Demos for engines named T-Z</name>
 				</file>
 <!--
@@ -421,7 +421,7 @@
 -->
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
-					<url type="tools">scummvm_tools-{$release_tools}-1_gcc2.hpkg</url>
+					<url type="tools">scummvm_tools-{$release_tools}-1-x86_gcc2.hpkg</url>
 					<name>Tools - Haiku package</name>
 				</file>
 
