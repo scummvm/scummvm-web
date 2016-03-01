@@ -478,12 +478,6 @@
 				</file>
 
 				<file>
-					<category_icon>catpl-debian.png</category_icon>
-					<url>1.6.0/scummvm_1.6.0-squeeze.1_powerpc.deb</url>
-					<name>1.6.0 Debian 6.0 (squeeze) PowerPC package</name>
-				</file>
-
-				<file>
 					<category_icon>catpl-slackware.png</category_icon>
 					<url>1.6.0/scummvm-1.6.0_slack-i486-1.tgz</url>
 					<name>1.6.0 SlackWare i486 package</name>
