@@ -11,7 +11,7 @@
 					{if is_array($data)}
 						(
 							{if $item->getType() == 'daily'}{#listItemsBuildFromRepo#} {/if}
-							{$data.size}K {if $data.ext == 'exe'}Win32 {/if}{$data.ext} {#listItemsFile#} {$data.date}
+							{$data.size} {if $data.ext == '.exe'}Win32 {/if}{$data.ext}{if $data.date != ""}{#listItemsDate#}{$data.date}{/if}
 						)
 					{else}
 						{if $item->getType() != 'daily'}

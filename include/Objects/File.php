@@ -44,8 +44,22 @@ class File extends BasicObject {
 
 			if (is_file($fname) && is_readable($fname)) {
 				$this->_extra_info = array();
-				$this->_extra_info['size'] = round((@filesize($fname) / 1024));
-				$this->_extra_info['ext'] = substr($url, (strrpos($url, '.')+1));
+				$sz = round((@filesize($fname) / 1024));
+
+				if ($sz < 1024) {
+					$sz = $sz . "K";
+				} else {
+					$sz /= 1024;
+
+					if ($sz < 1024) {
+						$sz = round($sz, 1) . "M";
+					} else {
+						$sz /= 1024;
+						$sz = round($sz, 2) . "G";
+					}
+				}
+				$this->_extra_info['size'] = $sz;
+				$this->_extra_info['ext'] = substr($url, (strrpos($url, '.')));
 			}
 		}
 		$this->_url = $url;
