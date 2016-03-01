@@ -5,6 +5,7 @@
 			{#downloadsXMLTitle#} <h:span style="color: rgb(170, 170, 170);">{'/\x7brelease\x7d/'|preg_replace:$release:#downloadsXMLVersion#}</h:span>
 		</title>
 		<baseurl>/frs/scummvm/{$release}/</baseurl>
+		<baseturl>/frs/scummvm-tools/{$release_tools}/</baseturl>
 		<subsection>
 			<title>{'/\x7brelease\x7d/'|preg_replace:$release:#downloadsBinaries#}</title>
 			<anchor>stable</anchor>
@@ -18,14 +19,12 @@
 					<category_icon>catpl-windows.png</category_icon>
 					<url>scummvm-{$release}-win32.exe</url>
 					<name><h:b>Windows Installer</h:b></name>
-					<extra_info>(7.2M Win32 .exe)</extra_info>
 					<user_agent>Windows</user_agent>
 				</file>
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
 					<url>scummvm-{$release}-win32.zip</url>
 					<name>Windows zipfile</name>
-					<extra_info>(10.4M .zip)</extra_info>
 				</file>
 <!--
 				<file>
@@ -417,117 +416,100 @@
 			<entries>
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
-					<url>scummvm-tools-{$release_tools}-win32.exe</url>
+					<url type="tools">scummvm-tools-{$release_tools}-win32.exe</url>
 					<name>Tools - Windows Installer</name>
-					<extra_info>(2.7M Win32 .exe)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
-					<url>scummvm-tools-{$release_tools}-win32.zip</url>
+					<url type="tools">scummvm-tools-{$release_tools}-win32.zip</url>
 					<name>Tools - Windows zipfile</name>
-					<extra_info>(4.6M Win32 .zip)</extra_info>
 				</file>
 <!--
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
-					<url>scummvm-tools-{$release_tools}-1_F11.i586.rpm</url>
+					<url type="tools">scummvm-tools-{$release_tools}-1_F11.i586.rpm</url>
 					<name>Tools - Fedora 11 and 12 i586 RPM</name>
-					<extra_info>(731k .rpm)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
-					<url>scummvm-tools-{$release_tools}-1_F11.x86_64.rpm</url>
+					<url type="tools">scummvm-tools-{$release_tools}-1_F11.x86_64.rpm</url>
 					<name>Tools - Fedora 11 and 12 x86 64bit RPM</name>
-					<extra_info>(782k .rpm)</extra_info>
 				</file>
 
 				<file>
 					<category_icon>catpl-macos-universal.png</category_icon>
-					<url>scummvm-tools-{$release_tools}-macosx.tar.bz2</url>
+					<url type="tools">scummvm-tools-{$release_tools}-macosx.tar.bz2</url>
 					<name>Tools - Mac OS X Universal binaries (10.3.9 and up)</name>
-					<extra_info>(4.0M .tar.bz2)</extra_info>
 				</file>
 
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
-					<url>scummvm-tools-{$release_tools}-solaris8-sparc.pkg.bz2</url>
+					<url type="tools">scummvm-tools-{$release_tools}-solaris8-sparc.pkg.bz2</url>
 					<name>Tools - Solaris 8 (Sparc)</name>
-					<extra_info>(602k .pkg.bz2)</extra_info>
 				</file>
 
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
-					<url>scummvm-tools-{$release_tools}-solaris10-x86.pkg.bz2</url>
+					<url type="tools">scummvm-tools-{$release_tools}-solaris10-x86.pkg.bz2</url>
 					<name>Tools - Solaris 10 (both IA32 and AMD64)</name>
-					<extra_info>(5.3M .pkg.bz2)</extra_info>
 				</file>
 
 				<file>
 					<category_icon>catpl-irix.png</category_icon>
-					<url>scummvm-tools-{$release_tools}-irix-mips3.tar.bz2</url>
+					<url type="tools">scummvm-tools-{$release_tools}-irix-mips3.tar.bz2</url>
 					<name>Tools - IRIX (6.5.*, n32, mips3) package</name>
-					<extra_info>(2.0M .tar.bz2)</extra_info>
 				</file>
 
 				<file>
 					<category_icon>catpl-irix.png</category_icon>
-					<url>scummvm-tools-{$release_tools}-irix-mips4.tar.bz2</url>
+					<url type="tools">scummvm-tools-{$release_tools}-irix-mips4.tar.bz2</url>
 					<name>Tools - IRIX (6.5.*, n32, mips4) package</name>
-					<extra_info>(2.3M .tar.bz2)</extra_info>
 				</file>
 
 				<file>
 					<category_icon>catpl-beos.png</category_icon>
-					<url>scummvm-tools-{$release_tools}-beos.tgz</url>
+					<url type="tools">scummvm-tools-{$release_tools}-beos.tgz</url>
 					<name>Tools - BeOS</name>
-					<extra_info>(1.4M .tgz)</extra_info>
 				</file>
 -->
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
-					<url>scummvm_tools-{$release_tools}-1_gcc2.hpkg</url>
+					<url type="tools">scummvm_tools-{$release_tools}-1_gcc2.hpkg</url>
 					<name>Tools - Haiku package</name>
-					<extra_info>(2.5M .hpkg)</extra_info>
 				</file>
 
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
-					<url>scummvm-tools-{$release_tools}-amigaos4.lha</url>
+					<url type="tools">scummvm-tools-{$release_tools}-amigaos4.lha</url>
 					<name>Tools - AmigaOS 4</name>
-					<extra_info>(6.3M .lha)</extra_info>
 				</file>
 
 				<file>
 					<category_icon>catpl-freemint.png</category_icon>
-					<url>scummvm-tools-{$release_tools}-atari.tar.bz2</url>
+					<url type="tools">scummvm-tools-{$release_tools}-atari.tar.bz2</url>
 					<name>Tools - Atari/FreeMiNT package (68020 and up)</name>
-					<extra_info>(1.6M .tar.bz2)</extra_info>
 				</file>
 
 				<file>
 					<category_icon>catpl-cpp.png</category_icon>
-					<url>scummvm-tools-{$release_tools}.tar.bz2</url>
+					<url type="tools">scummvm-tools-{$release_tools}.tar.bz2</url>
 					<name>Tools - Source .tar.bz2</name>
-					<extra_info>(954k .tar.bz2)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-cpp.png</category_icon>
-					<url>scummvm-tools-{$release_tools}.tar.gz</url>
+					<url type="tools">scummvm-tools-{$release_tools}.tar.gz</url>
 					<name>Tools - Source .tar.gz</name>
-					<extra_info>(1.0M .tar.gz)</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-cpp.png</category_icon>
-					<url>scummvm-tools-{$release_tools}.zip</url>
+					<url type="tools">scummvm-tools-{$release_tools}.zip</url>
 					<name>Tools - Source .zip</name>
-					<extra_info>(1.3M .zip)</extra_info>
 				</file>
 <!--
 				<file>
 					<category_icon>catpl-cpp.png</category_icon>
-					<url>scummvm-tools-{$release_tools}-1.src.rpm</url>
+					<url type="tools">scummvm-tools-{$release_tools}-1.src.rpm</url>
 					<name>Tools - Source RPM</name>
-					<extra_info>(1.3M .rpm)</extra_info>
 				</file>
 -->
 			</entries>
@@ -763,14 +745,14 @@
 			<entries>
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
-					<url local_file="true">scummvm-win32.exe</url>
+					<url extra_info="true" type="downloads">scummvm-win32.exe</url>
 					<name>Win32 ScummVM Daily Snapshot</name>
 					<type>daily</type>
 					<extra_info>Provided by ScummVM Team member Travis 'Kirben' Howell, updated several times daily</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
-					<url local_file="true">scummvm-tools-win32.exe</url>
+					<url extra_info="true" type="downloads">scummvm-tools-win32.exe</url>
 					<name>Win32 ScummVM Tools Daily Snapshot</name>
 					<type>daily</type>
 					<extra_info>Provided by ScummVM Team member Travis 'Kirben' Howell, updated several times daily</extra_info>
@@ -778,28 +760,28 @@
 <!--
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
-					<url local_file="true">scummvm_debian_i386.deb</url>
+					<url extra_info="true" type="downloads">scummvm_debian_i386.deb</url>
 					<name>Debian i386 ScummVM Daily Snapshot</name>
 					<type>daily</type>
 					<extra_info>Provided by ScummVM Team member Pawel 'aquadran' Kolodziejski</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
-					<url local_file="true">scummvm_debian_amd64.deb</url>
+					<url extra_info="true" type="downloads">scummvm_debian_amd64.deb</url>
 					<name>Debian x86_64 ScummVM Daily Snapshot</name>
 					<type>daily</type>
 					<extra_info>Provided by ScummVM Team member Pawel 'aquadran' Kolodziejski</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
-					<url local_file="true">scummvm_ubuntu_i386.deb</url>
+					<url extra_info="true" type="downloads">scummvm_ubuntu_i386.deb</url>
 					<name>Ubuntu i386 ScummVM Daily Snapshot</name>
 					<type>daily</type>
 					<extra_info>Provided by ScummVM Team member Pawel 'aquadran' Kolodziejski</extra_info>
 				</file>
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
-					<url local_file="true">scummvm_ubuntu_amd64.deb</url>
+					<url extra_info="true" type="downloads">scummvm_ubuntu_amd64.deb</url>
 					<name>Ubuntu x86_64 ScummVM Daily Snapshot</name>
 					<type>daily</type>
 					<extra_info>Provided by ScummVM Team member Pawel 'aquadran' Kolodziejski</extra_info>

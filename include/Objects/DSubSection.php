@@ -14,7 +14,7 @@ class DSubSection extends BasicObject {
 	private $_links;
 
 	/* DSubSection constructor. */
-	public function __construct($data, $baseurl) {
+	public function __construct($data, $baseurl, $baseturl) {
 		$this->_title = $data['title'];
 		$this->_anchor = $data['anchor'];
 		$this->_notes = $data['notes'];
@@ -27,7 +27,7 @@ class DSubSection extends BasicObject {
 			parent::toArray($item);
 			if ($type == 'file') {
 				foreach ($item as $file) {
-					$this->_items[] = new File($file, $baseurl);
+					$this->_items[] = new File($file, $baseurl, $baseturl);
 				}
 			} elseif ($type == 'link') {
 				foreach ($item as $link) {
@@ -56,7 +56,7 @@ class DSubSection extends BasicObject {
 	public function getFooter() {
 		return $this->_footer;
 	}
-	
+
 	/* Get the list of files. */
 	public function getFiles() {
 		return $this->_files;
@@ -66,7 +66,7 @@ class DSubSection extends BasicObject {
 	public function getLinks() {
 		return $this->_links;
 	}
-	
+
 	/* Get the list of items. */
 	public function getItems() {
 		return $this->_items;

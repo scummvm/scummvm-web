@@ -15,11 +15,12 @@ class DSection extends BasicObject{
 		$this->_title = $data['title'];
 		$this->_anchor = $data['anchor'];
 		$this->_baseurl = $data['baseurl'];
+		$this->_baseturl = $data['baseturl'];
 		$this->_subsections = array();
 
 		parent::toArray($data['subsection']);
 		foreach ($data['subsection'] as $key => $value) {
-			$this->_subsections[] = new DSubSection($value, $this->_baseurl);
+			$this->_subsections[] = new DSubSection($value, $this->_baseurl, $this->_baseturl);
 		}
 	}
 

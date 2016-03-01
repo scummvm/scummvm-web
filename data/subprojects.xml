@@ -16,7 +16,7 @@
 		<entries>
 			<file>
 				<category_icon>catpl-windows.png</category_icon>
-				<url local_file="true">scummex-win32.exe</url>
+				<url extra_info="true" type="downloads">scummex-win32.exe</url>
 				<name>Windows</name>
 				<type>daily</type>
 			</file>
@@ -39,37 +39,37 @@
 		<entries>
 			<file>
 				<category_icon>catpl-windows.png</category_icon>
-				<url local_file="true">residualwin32.exe</url>
+				<url extra_info="true" type="downloads">residualwin32.exe</url>
 				<name>Windows</name>
 				<type>svn</type>
 			</file>
 			<file>
 				<category_icon>catpl-macos.png</category_icon>
-				<url local_file="true">Residual-MacOSX-Intel.dmg</url>
+				<url extra_info="true" type="downloads">Residual-MacOSX-Intel.dmg</url>
 				<name>Mac OS X Intel</name>
 				<type>svn</type>
 			</file>
 			<file>
 				<category_icon>catpl-debian.png</category_icon>
-				<url local_file="true">residual_debian_i386.deb</url>
+				<url extra_info="true" type="downloads">residual_debian_i386.deb</url>
 				<name>Debian i386</name>
 				<type>svn</type>
 			</file>
 			<file>
 				<category_icon>catpl-debian.png</category_icon>
-				<url local_file="true">residual_debian_amd64.deb</url>
+				<url extra_info="true" type="downloads">residual_debian_amd64.deb</url>
 				<name>Debian x86_64</name>
 				<type>svn</type>
 			</file>
 			<file>
 				<category_icon>catpl-ubuntu.png</category_icon>
-				<url local_file="true">residual_ubuntu_i386.deb</url>
+				<url extra_info="true" type="downloads">residual_ubuntu_i386.deb</url>
 				<name>Ubuntu i386</name>
 				<type>svn</type>
 			</file>
 			<file>
 				<category_icon>catpl-ubuntu.png</category_icon>
-				<url local_file="true">residual_ubuntu_amd64.deb</url>
+				<url extra_info="true" type="downloads">residual_ubuntu_amd64.deb</url>
 				<name>Ubuntu x86_64</name>
 				<type>svn</type>
 			</file>
