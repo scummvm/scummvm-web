@@ -290,7 +290,6 @@
 -->
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
-					scummvm-1.7.0-1-x86_haiku_gcc4.hpkg
 					<url>scummvm-{$release}-1-x86_haiku_gcc4.hpkg</url>
 					<name>Haiku package</name>
 				</file>
