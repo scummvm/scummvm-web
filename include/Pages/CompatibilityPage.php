@@ -38,6 +38,13 @@ class CompatibilityPage extends Controller {
 	public function index() {
 		$version = (!empty($_GET['v']) ? $_GET['v'] : 'DEV');
 		$target = $_GET['t'];
+
+		/* Default to DEV */
+		$versions = CompatibilityModel::getAllVersions();
+		if (!in_array($version, $versions)) {
+			$version = 'DEV';
+		}
+
 		if ($version === 'DEV' || (CompatibilityModel::compareVersions($version, COMPAT_LAYOUT_CHANGE) >= 0)) {
 			$oldLayout = 'no';
 		} else {
@@ -47,7 +54,7 @@ class CompatibilityPage extends Controller {
 		if (!empty($target)) {
 			return $this->getGame($target, $version, $oldLayout);
 		} else {
-			return $this->getAll($version, $oldLayout);
+			return $this->getAll($version, $versions, $oldLayout);
 		}
 	}
 
@@ -72,12 +79,7 @@ class CompatibilityPage extends Controller {
 	}
 
 	/* We should show all the compatibility stats for a specific version. */
-	public function getAll($version, $oldLayout) {
-		/* Default to DEV */
-		$versions = CompatibilityModel::getAllVersions();
-		if (!in_array($version, $versions)) {
-			$version = 'DEV';
-		}
+	public function getAll($version, $versions, $oldLayout) {
 		/* Remove the current version from the versions array. */
 		if ($version != 'DEV') {
 			$key = array_search($version, $versions);
