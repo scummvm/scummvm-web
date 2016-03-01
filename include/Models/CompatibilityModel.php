@@ -17,6 +17,9 @@ abstract class CompatibilityModel extends BasicModel {
 			throw new ErrorException(self::NO_VERSION);
 		}
 		$fname = DIR_COMPAT . "/compat-{$version}.xml";
+		if (!file_exists($fname)) {
+			throw new ErrorException(self::NO_FILES);
+		}
 		$parser = new XMLParser();
 		$a = $parser->parseByFilename($fname);
 		$entries = array();
