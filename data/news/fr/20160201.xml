@@ -25,18 +25,18 @@
 </ul>
 
 <p>
-	Le moteur pour les jeux AGI a également été largement réécrit, et ainsi tous ces jeux devraient mieux marcher. Mais il n'est pas exclus que ces changements aient introduit de nouveaux bogues.
+	Le moteur pour les jeux AGI a également été largement réécrit, et ainsi tous ces jeux devraient mieux marcher. Mais il n'est pas exclu que ces changements aient introduit de nouveaux bogues.
 </p>
 
 <p>Nous avons donc besoin de votre aide pour tester ces jeux, y compris les jeux AGI.
 	Vous trouverez ce qui a besoin d'être testé sur 
 	<a href="http://wiki.scummvm.org/index.php/Release_Testing/1.8.0">notre wiki</a>.
-	En plus des jeux listés ci-dessus cela inclus quelque autres vieux classiques qui bénificierai d'être
-	de nouveau testé.
+	En plus des jeux listés ci-dessus cela inclut quelque autres vieux classiques qui bénéficieraient d'être
+	de nouveau testés.
 </p>
 
 <p>Vous avez besoin de télécharger une version de ScummVM
-	 <a href="http://www.scummvm.org/downloads.php#daily">récemment compilées</a> puis vous pouvez vous lancer
+	 <a href="http://www.scummvm.org/downloads.php#daily">récemment compilée</a> puis vous pouvez vous lancer
 	 dans les tests ! Si vous trouvez des bogues, veuillez les signaler dans notre
 	 <a href="http://bugs.scummvm.org/">base de bogues</a>. Après avoir fini un jeu, veuillez nous
 	 le signaler sur <a href="http://forums.scummvm.org/viewtopic.php?t=14006">le forum</a> pour que nous puissions
