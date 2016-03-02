@@ -60,6 +60,7 @@ class File extends BasicObject {
 				}
 				$this->_extra_info['size'] = $sz;
 				$this->_extra_info['ext'] = substr($url, (strrpos($url, '.')));
+				$this->_extra_info['msg'] = $data['extra_msg'];
 			}
 		}
 		$this->_url = $url;
