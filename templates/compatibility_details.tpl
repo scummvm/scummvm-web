@@ -42,7 +42,7 @@
 			</tbody>
 		</table>
 		<p class="bottom-link">
-			<a href="compatibility/{$version}/">{#compatibilityDetailsBack#}</a>
+			<a href="/compatibility/{$version}/">{#compatibilityDetailsBack#}</a>
 		</p>
 	</div>
 </div>

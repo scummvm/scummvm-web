@@ -13,7 +13,7 @@
 					{if $smarty.foreach.versions_loop.last}
 						{assign var='last' value=')'}
 					{/if}
-					<a href="compatibility/{$ver}/">{$ver}</a>{$last}
+					<a href="/compatibility/{$ver}/">{$ver}</a>{$last}
 				{/foreach}
 			</p>
 			<p>
@@ -26,7 +26,7 @@
 			<p>
 				{#compatibilityStableReleases#}
 			{foreach from=$versions item=ver}
-				<a href="compatibility/{$ver}/">{$ver}</a>
+				<a href="/compatibility/{$ver}/">{$ver}</a>
 			{/foreach}
 			</p>
 		{/if}
@@ -96,7 +96,7 @@
 						{assign var="support_level" value=$game->getSupportLevel()|cat:"%"}
 					{/if}
 					<tr class="color{cycle values='2,0'}">
-						<td class="gameFullName"><a href="compatibility/{$version}/{$game->getTarget()}/">{$game->getName()}</a></td>
+						<td class="gameFullName"><a href="/compatibility/{$version}/{$game->getTarget()}/">{$game->getName()}</a></td>
 						<td class="gameShortName">{$game->getTarget()}</td>
 						<td class="gameSupportLevel {$pct_class}">{$support_level}</td>
 					</tr>

@@ -11,17 +11,17 @@
 		</div>
 		<div>
 			{if $num > 0}
-				<a href="screenshots/{$category}/{$screenshot->getCategory()}/{$num}/" class="float_left">
+				<a href="/screenshots/{$category}/{$screenshot->getCategory()}/{$num}/" class="float_left">
 					{#screenshotsViewerPrevious#}
 				</a>
 			{/if}
 			{if $num < ($files|@count) - 1}
-				<a href="screenshots/{$category}/{$screenshot->getCategory()}/{$num+2}/" class="float_right">
+				<a href="/screenshots/{$category}/{$screenshot->getCategory()}/{$num+2}/" class="float_right">
 					{#screenshotsViewerNext#}
 				</a>
 			{/if}
 		</div>
 		<div class="spacing"></div>
 	</div>
-	<a href="screenshots/{$category}/{$screenshot->getCategory()}/">{#screenshotsViewerBack#}</a>
+	<a href="/screenshots/{$category}/{$screenshot->getCategory()}/">{#screenshotsViewerBack#}</a>
 </div>

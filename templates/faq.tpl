@@ -7,12 +7,12 @@
 		<dl>
 			{foreach from=$contents item=section name='toc_loop'}
 				{assign var='toc_num' value=$smarty.foreach.toc_loop.iteration}
-				<dt>{$toc_num}. <a href="faq/#{$toc_num}">{$section->getTitle()}</a></dt>
+				<dt>{$toc_num}. <a href="/faq/#{$toc_num}">{$section->getTitle()}</a></dt>
 				<dd>
 					<dl>
 					{foreach from=$section->getTOC() key=href item=name name='toc_section_loop'}
 						{assign var='toc_section_num' value=$smarty.foreach.toc_section_loop.iteration}
-						<dt>{$toc_num}.{$toc_section_num}. <a href="faq/#{$href}">{$name}</a></dt>
+						<dt>{$toc_num}.{$toc_section_num}. <a href="/faq/#{$href}">{$name}</a></dt>
 					{/foreach}
 					</dl>
 				</dd>
@@ -26,7 +26,7 @@
 				<dl>
 					{foreach from=$section->getTOC() key=href item=name name='question_loop'}
 						{assign var='question_num' value=$smarty.foreach.question_loop.iteration}
-						<dt>{$section_num}.{$question_num}. <a href="faq/#{$href}">{$name}</a></dt>
+						<dt>{$section_num}.{$question_num}. <a href="/faq/#{$href}">{$name}</a></dt>
 					{/foreach}
 				</dl>
 				{foreach from=$section->getEntries() item=entry name='entry_loop'}

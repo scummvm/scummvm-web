@@ -11,7 +11,7 @@
 				<h2>{#downloadsHeader#}</h2>
 				<ul>
 				{foreach from=$sections item=arr}
-					<li><a href="downloads/#{$arr.anchor}">{eval var=$arr.title}</a></li>
+					<li><a href="/downloads/#{$arr.anchor}">{eval var=$arr.title}</a></li>
 				{/foreach}
 				</ul>
 			</div>

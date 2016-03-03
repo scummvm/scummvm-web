@@ -7,7 +7,7 @@
 			<h2>{#gamesDemosHeading#}</h2>
 			<ul>
 			{foreach from=$demos item=group}
-				<li><a href="demos/#{$group.href}">{$group.name}</a></li>
+				<li><a href="/demos/#{$group.href}">{$group.name}</a></li>
 			{/foreach}
 			</ul>
 		</div>

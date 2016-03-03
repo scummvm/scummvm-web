@@ -30,9 +30,9 @@
 {if is_bool($news_archive_link) && $news_archive_link}
 <p class="bottom-link">
 	<span class="feeds float_left">
-		<a href="feeds/atom/">Atom</a> |
-		<a href="feeds/rss/">RSS</a>
+		<a href="/feeds/atom/">Atom</a> |
+		<a href="/feeds/rss/">RSS</a>
 	</span>
-	<a href="news/archive/" class="float_right">{#newsMoreNews#}</a>
+	<a href="/news/archive/" class="float_right">{#newsMoreNews#}</a>
 </p>
 {/if}
