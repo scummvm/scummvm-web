@@ -9,7 +9,7 @@
 		</link>
 		<link>
 			<name>Bildschirmfotos</name>
-			<href>screenshots/</href>
+			<href>/screenshots/</href>
 		</link>
 		<link>
 			<name>Forum</name>
@@ -17,11 +17,11 @@
 		</link>
 		<link>
 			<name>Downloads</name>
-			<href>downloads/</href>
+			<href>/downloads/</href>
 		</link>
 		<link>
 			<name>Spiele</name>
-			<href>games/</href>
+			<href>/games/</href>
 		</link>
 		<link>
 			<name>ScummVM-Blogs</name>
@@ -39,15 +39,15 @@
 		<class>menu-docs</class>
 		<link>
 			<name>F.A.Q.</name>
-			<href>faq/</href>
+			<href>/faq/</href>
 		</link>
 		<link>
 			<name>Dokumentation</name>
-			<href>documentation/</href>
+			<href>/documentation/</href>
 		</link>
 		<link>
 			<name>Kompatibilit&auml;t</name>
-			<href>compatibility/</href>
+			<href>/compatibility/</href>
 		</link>
 		<link>
 			<name>Wiki</name>
@@ -55,7 +55,7 @@
 		</link>
 		<link>
 			<name>Mitwirkende</name>
-			<href>credits/</href>
+			<href>/credits/</href>
 		</link>
 	</group>
 	<group>
@@ -79,7 +79,7 @@
 		</link>
 		<link>
 			<name>T&auml;glich erstellte Versionen</name>
-			<href>downloads/#daily</href>
+			<href>/downloads/#daily</href>
 		</link>
 		<link>
 			<name>Quellcode-Verzeichnis</name>
@@ -95,23 +95,23 @@
 		<class>menu-misc</class>
 		<link>
 			<name>Unterprojekte</name>
-			<href>subprojects/</href>
+			<href>/subprojects/</href>
 		</link>
 		<link>
 			<name>Demos</name>
-			<href>demos/</href>
+			<href>/demos/</href>
 		</link>
 		<link>
 			<name>Pressespiegel</name>
-			<href>press/</href>
+			<href>/press/</href>
 		</link>
 		<link>
 			<name>Kontakt</name>
-			<href>contact/</href>
+			<href>/contact/</href>
 		</link>
 		<link>
 			<name>Links</name>
-			<href>links/</href>
+			<href>/links/</href>
 		</link>
 	</group>
 </menus>

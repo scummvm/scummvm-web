@@ -9,7 +9,7 @@
 				<h3 class="subhead">{$g->getName()}</h3>
 				{foreach from=$g->getFiles() item=fdata name=game_loop}
 					<div class="screenshot">
-						<a href="screenshots/{$category}/{$g->getCategory()}/{$smarty.foreach.game_loop.iteration}/" rel="lightbox-{$g->getCategory()}" title="{$fdata.caption}">
+						<a href="/screenshots/{$category}/{$g->getCategory()}/{$smarty.foreach.game_loop.iteration}/" rel="lightbox-{$g->getCategory()}" title="{$fdata.caption}">
 							<img src="{$smarty.const.DIR_SCREENSHOTS}/{$fdata.filename}.jpg" alt="{$g->getName()} screenshot #{$smarty.foreach.cat_loop.iteration}" height="192" width="256">
 						</a>
 						<div class="caption">{$fdata.caption}</div>
@@ -19,7 +19,7 @@
 		{/foreach}
 		<div class="spacing"></div>
 	</div>
-	<a href="screenshots/{$category}/">{#screenshotsCategoryBack#}</a>
+	<a href="/screenshots/{$category}/">{#screenshotsCategoryBack#}</a>
 
 {else}
 
@@ -28,10 +28,10 @@
 		<div class="head">{#screenshotsCategoryHeading#}</div>
 		{foreach from=$screenshots.games item=g name=cat_loop}
 			<div>
-				<h3 class="subhead"><a href="screenshots/{$category}/{$g->getCategory()}/">{$g->getName()}</a></h3>
+				<h3 class="subhead"><a href="/screenshots/{$category}/{$g->getCategory()}/">{$g->getName()}</a></h3>
 				{foreach from=$g->getFiles() item=fdata name=game_loop}
 					<div class="screenshot">
-						<a href="screenshots/{$category}/{$g->getCategory()}/{$smarty.foreach.game_loop.iteration}/" rel="lightbox-{$g->getCategory()}" title="{$fdata.caption}">
+						<a href="/screenshots/{$category}/{$g->getCategory()}/{$smarty.foreach.game_loop.iteration}/" rel="lightbox-{$g->getCategory()}" title="{$fdata.caption}">
 							<img src="{$smarty.const.DIR_SCREENSHOTS}/{$fdata.filename}.jpg" alt="{$g->getName()} screenshot #{$smarty.foreach.cat_loop.iteration}" height="192" width="256">
 						</a>
 						<div class="caption">{$fdata.caption}</div>
@@ -41,5 +41,5 @@
 			<div class="spacing"></div>
 		{/foreach}
 	</div>
-	<a href="screenshots/">{#screenshotsCategoryBack#}</a>
+	<a href="/screenshots/">{#screenshotsCategoryBack#}</a>
 {/if}

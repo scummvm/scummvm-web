@@ -9,7 +9,7 @@
 		</link>
 		<link>
 			<name>Скриншоты</name>
-			<href>screenshots/</href>
+			<href>/screenshots/</href>
 		</link>
 		<link>
 			<name>Форумы</name>
@@ -17,11 +17,11 @@
 		</link>
 		<link>
 			<name>Загрузки</name>
-			<href>downloads/</href>
+			<href>/downloads/</href>
 		</link>
 		<link>
 			<name>Игры</name>
-			<href>games/</href>
+			<href>/games/</href>
 		</link>
 		<link>
 			<name>Блоги ScummVM</name>
@@ -39,15 +39,15 @@
 		<class>menu-docs</class>
 		<link>
 			<name>ЧаВо</name>
-			<href>faq/</href>
+			<href>/faq/</href>
 		</link>
 		<link>
 			<name>Документация</name>
-			<href>documentation/</href>
+			<href>/documentation/</href>
 		</link>
 		<link>
 			<name>Совместимость</name>
-			<href>compatibility/</href>
+			<href>/compatibility/</href>
 		</link>
 		<link>
 			<name>Вики</name>
@@ -55,7 +55,7 @@
 		</link>
 		<link>
 			<name>Об авторах</name>
-			<href>credits/</href>
+			<href>/credits/</href>
 		</link>
 	</group>
 	<group>
@@ -79,7 +79,7 @@
 		</link>
 		<link>
 			<name>Ежедневные сборки</name>
-			<href>downloads/#daily</href>
+			<href>/downloads/#daily</href>
 		</link>
 		<link>
 			<name>Исходники</name>
@@ -95,23 +95,23 @@
 		<class>menu-misc</class>
 		<link>
 			<name>Подпроекты</name>
-			<href>subprojects/</href>
+			<href>/subprojects/</href>
 		</link>
 		<link>
 			<name>Демки</name>
-			<href>demos/</href>
+			<href>/demos/</href>
 		</link>
 		<link>
 			<name>Пресса о нас</name>
-			<href>press/</href>
+			<href>/press/</href>
 		</link>
 		<link>
 			<name>Контакты</name>
-			<href>contact/</href>
+			<href>/contact/</href>
 		</link>
 		<link>
 			<name>Ссылки</name>
-			<href>links/</href>
+			<href>/links/</href>
 		</link>
 	</group>
 </menus>

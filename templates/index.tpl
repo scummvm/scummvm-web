@@ -30,13 +30,13 @@
 	{* Header. *}
 	<div id="header">
 		<a href="{$baseurl}">
-			<img src="images/scummvm_logo.jpg" width="287" height="118" alt="{#indexLogo#}" class="float_left">
+			<img src="/images/scummvm_logo.jpg" width="287" height="118" alt="{#indexLogo#}" class="float_left">
 		</a>
 
 		{include file='lang_menu.tpl'}
 		<span>
-			<img src="images/heroes{$heroes_num|rand:0}.png" alt="{#indexCharacters#}" width="483" height="89">
-			<img src="images/scummvm-caption.png" alt="Script creation utility for Maniac Mansion Virtual Machine" width="483" height="29">
+			<img src="/images/heroes{$heroes_num|rand:0}.png" alt="{#indexCharacters#}" width="483" height="89">
+			<img src="/images/scummvm-caption.png" alt="Script creation utility for Maniac Mansion Virtual Machine" width="483" height="29">
 		</span>
 	</div>
 
@@ -47,7 +47,7 @@
 				{include file='menu_group.tpl' menu=$menu}
 			{/foreach}
 			<div>
-				<img src="images/hangmonk.gif" alt="monkey" width="55" height="57" class="monkey float_right">
+				<img src="/images/hangmonk.gif" alt="monkey" width="55" height="57" class="monkey float_right">
 			</div>
 			<div id="menu_banners">
 				<a href="http://sourceforge.net/p/scummvm/donate/">
@@ -55,26 +55,26 @@
 				</a>
 				<br>
 				<a href="http://combobreaker.com/">
-					<img src="images/scummvm_cb.png" width="88" height="32" alt="{#indexCombobreaker#}">
+					<img src="/images/scummvm_cb.png" width="88" height="32" alt="{#indexCombobreaker#}">
 				</a>
 				<br>
 				<a href="http://www.easyname.com/">
-					<img src="images/easyname-logo-big.png" width="88" height="32" alt="{#indexEasyname#}">
+					<img src="/images/easyname-logo-big.png" width="88" height="32" alt="{#indexEasyname#}">
 				</a>
 				<br>
 				<a href="http://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
-					<img src="images/GOG_button_small.png" width="88" height="32" alt="{#indexGOG#}">
+					<img src="/images/GOG_button_small.png" width="88" height="32" alt="{#indexGOG#}">
 				</a>
 				<a href="https://github.com/scummvm">
-					<img src="images/github-logo.png" alt="{#indexGithub#}" width="88" height="32">
+					<img src="/images/github-logo.png" alt="{#indexGithub#}" width="88" height="32">
  				</a>
 				<br>
 				<a href="http://www.facebook.com/pages/ScummVM/7328341409">
-					<img src="images/facebook.png" width="88" height="32" alt="{#indexFacebook#}">
+					<img src="/images/facebook.png" width="88" height="32" alt="{#indexFacebook#}">
 				</a>
 				<br>
 				<a href="http://www.twitter.com/ScummVM">
-					<img src="images/twitter.png" width="88" height="32" alt="{#indexTwitter#}">
+					<img src="/images/twitter.png" width="88" height="32" alt="{#indexTwitter#}">
 				</a>
 			</div>
 		</div>
@@ -110,10 +110,10 @@
 				<img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" alt="{#indexSupport#}">
 			</a>
 			<a href="http://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
-				<img src="images/GOG_button_small.png" alt="{#indexGOG#}" width="88" height="32">
+				<img src="/images/GOG_button_small.png" alt="{#indexGOG#}" width="88" height="32">
 			</a>
 			<a href="http://easyname.com">
-				<img src="images/easyname-logo-big.png" width="88" height="32" alt="{#indexEasyname#}">
+				<img src="/images/easyname-logo-big.png" width="88" height="32" alt="{#indexEasyname#}">
 			</a>
 			<a href="http://validator.w3.org/check/referer">
 				<img src="http://www.w3.org/Icons/valid-html401" width="88" height="31" alt="Valid HTML 4.01!">
@@ -123,7 +123,7 @@
 			</a>
 		</div>
 		{/strip}
-		<img src="images/tentacle.png" alt="Tentacle" width="163" height="296" class="float_right tentacle">
+		<img src="/images/tentacle.png" alt="Tentacle" width="163" height="296" class="float_right tentacle">
 	</div>
 	<div class="float_clear_left"></div>
 
@@ -134,7 +134,7 @@
 	</div>
 
 {foreach from=$js_files item=script}
-	<script type="text/javascript" src="javascripts/{$script}"></script>
+	<script type="text/javascript" src="/javascripts/{$script}"></script>
 {/foreach}
 {* Google analytics javascript. *}
 	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>

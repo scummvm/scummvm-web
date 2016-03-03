@@ -16,15 +16,15 @@
 			</div>
 		</div>
 		<div class="rbcontent">
-			<a href="screenshots/{$random_shot.category}/{$random_shot.screenshot->getCategory()}/{$rand_pos+1}" id="screenshots_random">
+			<a href="/screenshots/{$random_shot.category}/{$random_shot.screenshot->getCategory()}/{$rand_pos+1}" id="screenshots_random">
 				<img src="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}.jpg" width="128" height="96" title={#intoHeaderFullsize#} alt="{#introHeaderRandom#}">
 			</a>
 		</div>
 		<div class="rbbot">
 			<div>
 				<p>
-					<a href="screenshots/" id="screenshots_prev">{#introHeaderPrevShot#}</a>
-					<a href="screenshots/" id="screenshots_next">{#introHeaderNextShot#}</a>
+					<a href="/screenshots/" id="screenshots_prev">{#introHeaderPrevShot#}</a>
+					<a href="/screenshots/" id="screenshots_next">{#introHeaderNextShot#}</a>
 				</p>
 			</div>
 		</div>
