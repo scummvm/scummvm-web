@@ -38,22 +38,23 @@
 					<url>scummvm-{$release}-1.i386.rpm</url>
 					<name>Fedora 8-20+ i386 package</name>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
 					<url>scummvm-{$release}-2.x86_64.rpm</url>
 					<name>Fedora 8-20+ x86 64bit package</name>
 				</file>
+-->
 
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
-					<url>scummvm_{$release}-wheezy.1_i386.deb</url>
-					<name>Debian 7.0 (wheezy) i386 package</name>
+					<url>scummvm_{$release}-jessie.1_i386.deb</url>
+					<name>Debian 8.0 (jessie) i386 package</name>
 				</file>
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
-					<url>scummvm_{$release}-wheezy.1_amd64.deb</url>
-					<name>Debian 7.0 (wheezy) x86 64bit package</name>
+					<url>scummvm_{$release}-jessie.1_amd64.deb</url>
+					<name>Debian 8.0 (jessie) x86 64bit package</name>
 				</file>
 <!--
 				<file>
@@ -74,6 +75,18 @@
 					<name>Ubuntu 14.04 (trusty) x86 64bit package</name>
 					<user_agent>Ubuntu</user_agent>
 				</file>
+				<file>
+					<category_icon>catpl-ubuntu.png</category_icon>
+					<url>scummvm_{$release}-wily.1_i386.deb</url>
+					<name>Ubuntu 15.10 (wily) i386 package</name>
+				</file>
+
+				<file>
+					<category_icon>catpl-ubuntu.png</category_icon>
+					<url>scummvm_{$release}-wily.1_amd64.deb</url>
+					<name>Ubuntu 15.10 (wily) x86 64bit package</name>
+					<user_agent>Ubuntu</user_agent>
+				</file>
 <!--
 				<file>
 					<category_icon>catpl-slackware.png</category_icon>
@@ -86,7 +99,6 @@
 					<name>SlackWare x86 64bit package</name>
 				</file>
 
--->
 				<file>
 					<category_icon>catpl-macos-universal.png</category_icon>
 					<url>scummvm-{$release}-macosx.dmg</url>
@@ -98,24 +110,24 @@
 					<url>scummvm-{$release}-ps2.zip</url>
 					<name>PlayStation2 package</name>
 				</file>
+-->
 				<file>
 					<category_icon>catpl-ps3.png</category_icon>
 					<url>scummvm-{$release}-ps3.zip</url>
 					<name>PlayStation3 package</name>
 				</file>
-<!--
 				<file>
 					<category_icon>catpl-psp.png</category_icon>
 					<url>scummvm-{$release}-psp.zip</url>
 					<name>PSP (PlayStation Portable) package</name>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-ds.png</category_icon>
 					<url>scummvm-{$release}-ds.zip</url>
 					<name>Nintendo DS package</name>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-android.png</category_icon>
 					<url>scummvm-{$release}-android.zip</url>
@@ -138,7 +150,7 @@
 					<url>scummvm-{$release}-uiq3.zip</url>
 					<name>Symbian UIQ 3 binary</name>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-wince.png</category_icon>
 					<url>scummvm-{$release}-wince.zip</url>
@@ -147,10 +159,16 @@
 -->
 				<file>
 					<category_icon>catpl-iphone.png</category_icon>
-					<url>scummvm-{$release}-iphone.deb</url>
-					<name>iPhone package</name>
+					<url>scummvm-{$release}-ios.deb</url>
+					<name>iOS package</name>
 					<user_agent>like Mac OS X</user_agent>
 				</file>
+				<file>
+					<category_icon>catpl-iphone.png</category_icon>
+					<url>scummvm-{$release}-ios7.deb</url>
+					<name>iOS 7 package</name>
+				</file>
+<!--
 				<file>
 					<category_icon>catpl-webos.png</category_icon>
 					<url>scummvm-{$release}-webos.zip</url>
@@ -162,7 +180,7 @@
 					<url>scummvm-{$release}-tizen.tpk</url>
 					<name>Tizen package</name>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-maemo.png</category_icon>
 					<url>scummvm_{$release}-maemo_armel.deb</url>
@@ -202,13 +220,13 @@
 				</file>
 				<file>
 					<category_icon>catpl-dc.png</category_icon>
-					<url>scummvm-{$release}-dreamcast-M-S-nero+demos.zip</url>
-					<name>Dreamcast Nero Image &amp; Demos for engines named M-S</name>
+					<url>scummvm-{$release}-dreamcast-M-Sc-nero+demos.zip</url>
+					<name>Dreamcast Nero Image &amp; Demos for engines named M-Sc</name>
 				</file>
 				<file>
 					<category_icon>catpl-dc.png</category_icon>
-					<url>scummvm-{$release}-dreamcast-T-Z-nero+demos.zip</url>
-					<name>Dreamcast Nero Image &amp; Demos for engines named T-Z</name>
+					<url>scummvm-{$release}-dreamcast-Sd-Z-nero+demos.zip</url>
+					<name>Dreamcast Nero Image &amp; Demos for engines named Sd-Z</name>
 				</file>
 <!--
 				<file>
@@ -227,7 +245,7 @@
 					<url>scummvm-{$release}-wii.zip</url>
 					<name>Wii package</name>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-gp2x.png</category_icon>
 					<url>scummvm-{$release}-gp2x.tar.bz2</url>
@@ -249,6 +267,12 @@
 					<url>scummvm-{$release}-openpandora.zip</url>
 					<name>OpenPandora package</name>
 				</file>
+-->
+				<file>
+					<category_icon>catpl-gcw0.png</category_icon>
+					<url>scummvm-{$release}-gcw0.opk</url>
+					<name>GCW-Zero package</name>
+				</file>
 <!--
 				<file>
 					<category_icon>catpl-dingux.png</category_icon>
@@ -265,10 +289,10 @@
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
 					<url>scummvm-{$release}-solaris10-x86.pkg.7z</url>
-					<name>iSolaris 10 x86, Solaris 11 x86, OpenIndiana binary</name>
+					<name>Solaris 10 x86, Solaris 11 x86, OpenIndiana binary</name>
 					<user_agent>SunOS</user_agent>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-irix.png</category_icon>
 					<url>scummvm-{$release}-irix-mips3.tar.gz</url>
@@ -280,20 +304,20 @@
 					<url>scummvm-{$release}-irix-mips4.tar.gz</url>
 					<name>IRIX (6.5.*, n32, mips4) package</name>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-beos.png</category_icon>
 					<url>scummvm-{$release}-beos.tgz</url>
 					<name>BeOS package</name>
 					<user_agent>BeOS</user_agent>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
 					<url>scummvm-{$release}-1-x86_haiku_gcc4.hpkg</url>
 					<name>Haiku package</name>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
 					<url>scummvm-{$release}-amigaos4.lha</url>
@@ -310,17 +334,27 @@
 -->
 				<file>
 					<category_icon>catpl-freemint.png</category_icon>
-					<url>scummvm-{$release}-atari.zip</url>
-					<name>Atari/FreeMiNT package (68020 and up)</name>
+					<url>scummvm-{$release}-atari-m68k.zip</url>
+					<name>Atari/FreeMiNT package (m68000 and up)</name>
 				</file>
-<!--
+				<file>
+					<category_icon>catpl-freemint.png</category_icon>
+					<url>scummvm-{$release}-atari-m68020-60.zip</url>
+					<name>Atari/FreeMiNT package (m68020 - m68060)</name>
+				</file>
+				<file>
+					<category_icon>catpl-freemint.png</category_icon>
+					<url>scummvm-{$release}-atari-m5475.zip</url>
+					<name>Atari/FreeMiNT package (Coldfire MCF5475 / Firebee)</name>
+				</file>
+
 				<file>
 					<category_icon>catpl-os2.png</category_icon>
 					<url>scummvm-{$release}-os2.zip</url>
 					<name>OS/2 package</name>
 					<user_agent>OS/2</user_agent>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-samsungtv.png</category_icon>
 					<url>scummvm-{$release}-samsungtv.zip</url>
@@ -333,6 +367,11 @@
 			<title>{'/\x7brelease\x7d/'|preg_replace:$release:#downloadsSourceCode#}</title>
 			<anchor>source</anchor>
 			<entries>
+				<file>
+					<category_icon>catpl-cpp.png</category_icon>
+					<url>scummvm-{$release}.tar.xz</url>
+					<name>ScummVM - Source .tar.xz</name>
+				</file>
 				<file>
 					<category_icon>catpl-cpp.png</category_icon>
 					<url>scummvm-{$release}.tar.bz2</url>
@@ -417,13 +456,13 @@
 					<url type="tools">scummvm-tools-{$release_tools}-beos.tgz</url>
 					<name>Tools - BeOS</name>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
 					<url type="tools">scummvm_tools-{$release_tools}-1-x86_gcc2.hpkg</url>
 					<name>Tools - Haiku package</name>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-amigaos4.lha</url>
@@ -433,9 +472,14 @@
 				<file>
 					<category_icon>catpl-freemint.png</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-atari.tar.bz2</url>
-					<name>Tools - Atari/FreeMiNT package (68020 and up)</name>
+					<name>Tools - Atari/FreeMiNT package (68000 and up)</name>
 				</file>
 
+				<file>
+					<category_icon>catpl-cpp.png</category_icon>
+					<url type="tools">scummvm-tools-{$release_tools}.tar.xz</url>
+					<name>Tools - Source .tar.xz</name>
+				</file>
 				<file>
 					<category_icon>catpl-cpp.png</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}.tar.bz2</url>
@@ -471,6 +515,73 @@
 				{#downloadsOldBinariesNote#}
 			</notes>
 			<entries>
+				<file>
+					<category_icon>catpl-fedora.png</category_icon>
+					<url>1.7.0/scummvm-1.7.0-2.x86_64.rpm</url>
+					<name>1.7.0 Fedora 8-20+ x86 64bit package</name>
+				</file>
+				<file>
+					<category_icon>catpl-macos-universal.png</category_icon>
+					<url>1.7.0/scummvm-1.7.0-macosx.dmg</url>
+					<name>1.7.0 Mac OS X Universal Disk Image</name>
+					<user_agent>Macintosh</user_agent>
+				</file>
+				<file>
+					<category_icon>catpl-ps2.png</category_icon>
+					<url>1.7.0/scummvm-1.7.0-ps2.zip</url>
+					<name>1.7.0 PlayStation2 package</name>
+				</file>
+				<file>
+					<category_icon>catpl-android.png</category_icon>
+					<url>1.7.0/scummvm-1.7.0-android.zip</url>
+					<name>1.7.0 Android packages</name>
+				</file>
+				<file>
+					<category_icon>catpl-webos.png</category_icon>
+					<url>1.7.0/scummvm-1.7.0-webos.zip</url>
+					<name>1.7.0 WebOS package</name>
+				</file>
+				<file>
+					<category_icon>catpl-tizen.png</category_icon>
+					<url>1.7.0/scummvm-1.7.0-tizen.tpk</url>
+					<name>1.7.0 Tizen package</name>
+				</file>
+				<file>
+					<category_icon>catpl-gp2x.png</category_icon>
+					<url>1.7.0/scummvm-1.7.0-gp2x.tar.bz2</url>
+					<name>1.7.0 GP2X package</name>
+				</file>
+				<file>
+					<category_icon>catpl-gp2xwiz.png</category_icon>
+					<url>1.7.0/scummvm-1.7.0-gp2xwiz.tar.bz2</url>
+					<name>1.7.0 GP2X Wiz package</name>
+				</file>
+				<file>
+					<category_icon>catpl-caanoo.png</category_icon>
+					<url>1.7.0/scummvm-{1.7.0-caanoo.tar.bz2</url>
+					<name>1.7.0 Caanoo package</name>
+				</file>
+				<file>
+					<category_icon>catpl-openpandora.png</category_icon>
+					<url>1.7.0/scummvm-1.7.0-openpandora.zip</url>
+					<name>1.7.0 OpenPandora package</name>
+				</file>
+				<file>
+					<category_icon>catpl-irix.png</category_icon>
+					<url>1.7.0/scummvm-1.7.0-irix-mips3.tar.gz</url>
+					<name>1.7.0 IRIX (6.5.*, n32, mips3) package</name>
+				</file>
+				<file>
+					<category_icon>catpl-irix.png</category_icon>
+					<url>1.7.0/scummvm-1.7.0-irix-mips4.tar.gz</url>
+					<name>1.7.0 IRIX (6.5.*, n32, mips4) package</name>
+				</file>
+				<file>
+					<category_icon>catpl-haiku.png</category_icon>
+					<url>1.7.0/scummvm-1.7.0-1-x86_haiku_gcc4.hpkg</url>
+					<name>1.7.0 Haiku package</name>
+				</file>
+
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
 					<url>1.6.0/scummvm-1.6.0-1.i386.rpm</url>
@@ -509,14 +620,8 @@
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
 					<url>1.6.0/scummvm-1.6.0-solaris10-x86.pkg.7z</url>
-					<name>1.6.0 iSolaris 10 x86, Solaris 11 x86, OpenIndiana binary</name>
+					<name>1.6.0 Solaris 10 x86, Solaris 11 x86, OpenIndiana binary</name>
 					<user_agent>SunOS</user_agent>
-				</file>
-				<file>
-					<category_icon>catpl-os2.png</category_icon>
-					<url>1.6.0/scummvm-1.6.0-os2.zip</url>
-					<name>1.6.0 OS/2 package</name>
-					<user_agent>OS/2</user_agent>
 				</file>
 
 				<file>
@@ -551,11 +656,6 @@
 					<category_icon>catpl-debian.png</category_icon>
 					<url>1.4.1/scummvm_1.4.1-squeeze.1_powerpc.deb</url>
 					<name>1.4.1 Debian 6.0 (squeeze) PowerPC package</name>
-				</file>
-				<file>
-					<category_icon>catpl-psp.png</category_icon>
-					<url>1.4.1/scummvm-1.4.1-psp.zip</url>
-					<name>1.4.1 PSP (PlayStation Portable) package</name>
 				</file>
 
 				<file>
