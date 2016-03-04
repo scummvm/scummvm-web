@@ -392,8 +392,8 @@
 					<category_icon>catpl-cpp.png</category_icon>
 					<url>scummvm-{$release}-2.src.rpm</url>
 					<name>ScummVM - Source RPM</name>
--->
 				</file>
+			-->
 			</entries>
 		</subsection>
 
