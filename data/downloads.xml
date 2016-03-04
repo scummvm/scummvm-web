@@ -387,10 +387,12 @@
 					<url>scummvm-{$release}.zip</url>
 					<name>ScummVM - Source .zip</name>
 				</file>
+<!--
 				<file>
 					<category_icon>catpl-cpp.png</category_icon>
 					<url>scummvm-{$release}-2.src.rpm</url>
 					<name>ScummVM - Source RPM</name>
+-->
 				</file>
 			</entries>
 		</subsection>
@@ -471,7 +473,7 @@
 
 				<file>
 					<category_icon>catpl-freemint.png</category_icon>
-					<url type="tools">scummvm-tools-{$release_tools}-atari.tar.bz2</url>
+					<url type="tools">scummvm-tools-{$release_tools}-atari.zip</url>
 					<name>Tools - Atari/FreeMiNT package (68000 and up)</name>
 				</file>
 
