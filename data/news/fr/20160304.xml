@@ -7,7 +7,7 @@
     Non, notre intention n'est pas de prendre de plus en plus de temps entre chaque
     nouvelle version de ScummVM ! De nombreux mois se sont écoulés depuis la précédente
     version... mais pendant tout ce temps nous avons beaucoup travaillé. Et le résultat
-    est là : une de nos plus grosse mise à jour de ScummVM jamais effectuée !
+    est là : une de nos plus grosses mises à jour de ScummVM jamais effectuées !
 </p>
 
 <p>ScummVM 1.8 supporte <em>dix</em> nouveaux jeux utilisant huit nouveaux moteurs :</p>
@@ -35,9 +35,9 @@
 <p>
 	Nous avons également remanié en profondeur le sous-système graphique du moteur AGI.
 	Cela a pour effet d'améliorer le support des vieux jeux Sierra. Même les dialogues
-	systèmes, palettes et polices de caractères d'origine sont maintenant utilisés
+	système, palettes et polices de caractères d'origine sont maintenant utilisés
 	pour les versions Apple IIgs, Atari ST et Amiga de ces jeux. De plus la vitesse de
-	jeux pour les versions Apple IIgs est maintenant correctemenet gérée. Et il est même
+	jeux pour les versions Apple IIgs est maintenant correctement gérée. Et il est même
 	possible de basculer sur le style d'une autre platforme.
 </p>
 
@@ -64,7 +64,7 @@
 
 <p>
 	Ne vous perdez pas dans le Labyrinthe, et dans le pire des cas appelez Mr Holmes !
-	(et nous promettons de rendre disponible des nouvelles versions un peu plus souvent !)
+	(et nous promettons de rendre disponibles de nouvelles versions un peu plus souvent !)
 </p>
 
 </BODY>
