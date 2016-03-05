@@ -59,7 +59,12 @@ class File extends BasicObject {
 					}
 				}
 				$this->_extra_info['size'] = $sz;
-				$this->_extra_info['ext'] = substr($url, (strrpos($url, '.')));
+				$ext = substr($url, (strrpos($url, '.')));
+
+				if ($ext == '.bz2' || $ext == '.gz' || $ext == '.xz' || $ext == '.7z')
+					$ext = substr($url, strrpos($url, '.', -(strlen($url) - strrpos($url, '.') + 1)));
+
+				$this->_extra_info['ext'] = $ext;
 				$this->_extra_info['msg'] = $data['extra_msg'];
 			}
 		}
