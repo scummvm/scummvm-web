@@ -100,7 +100,7 @@
 				</file>
 -->
 				<file>
-					<category_icon>catpl-macos-universal.png</category_icon>
+					<category_icon>catpl-macos.png</category_icon>
 					<url>scummvm-{$release}-macosx.dmg</url>
 					<name>Mac OS X Intel Disk Image</name>
 					<user_agent>Macintosh</user_agent>
