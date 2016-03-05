@@ -102,7 +102,7 @@
 				<file>
 					<category_icon>catpl-macos-universal.png</category_icon>
 					<url>scummvm-{$release}-macosx.dmg</url>
-					<name>Mac OS X Universal Disk Image</name>
+					<name>Mac OS X Intel Disk Image</name>
 					<user_agent>Macintosh</user_agent>
 				</file>
 <!--
@@ -522,6 +522,12 @@
 					<category_icon>catpl-fedora.png</category_icon>
 					<url>1.7.0/scummvm-1.7.0-2.x86_64.rpm</url>
 					<name>1.7.0 Fedora 8-20+ x86 64bit package</name>
+				</file>
+				<file>
+					<category_icon>catpl-macos-universal.png</category_icon>
+					<url>1.7.0/scummvm-1.7.0-macosx.dmg</url>
+					<name>1.7.0 Mac OS X Universal Disk Image</name>
+					<user_agent>Macintosh</user_agent>
 				</file>
 				<file>
 					<category_icon>catpl-ps2.png</category_icon>
