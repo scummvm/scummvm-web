@@ -1044,6 +1044,22 @@
 				</notes>
 			</game>
 			<game>
+				<name>Myst</name>
+				<target>myst</target>
+				<support_level>untested</support_level>
+				<notes>
+					Support for this game has been added recently and requires further play testing.<h:br />- Only the Windows version is supported
+				</notes>
+			</game>
+			<game>
+				<name>Myst: Masterpiece Edition</name>
+				<target>myst</target>
+				<support_level>untested</support_level>
+				<notes>
+					Support for this game has been added recently and requires further play testing.<h:br />- Only the Windows version is supported<h:br />- The hint system is not available
+				</notes>
+			</game>
+			<game>
 				<name>Nippon Safes Inc.</name>
 				<target>nippon</target>
 				<support_level>good</support_level>
