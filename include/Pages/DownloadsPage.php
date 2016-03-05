@@ -21,10 +21,21 @@ class DownloadsPage extends Controller {
 
 					if ($userAgent != "") {
 						$url = str_replace('{$release}', RELEASE, $curItem->getURL());
-						sscanf($url, "http://www.scummvm.org/frs/scummvm/scummvm-%s", $versionStr);
-						$version = substr($versionStr, 0, strpos($versionStr, "-"));
+						sscanf($url, "/frs/scummvm/%s", $versionStr);
+						$version = substr($versionStr, 0, strpos($versionStr, "/"));
 						$name = strip_tags($curItem->getName());
-						$js .= "\t\t\t'{$userAgent}':\t{ 'os':\t'{$name}', 'ver':\t'{$version}', 'desc':\t'{$curItem->getExtraInfo()}', 'url':\t'{$url}'},\n";
+						$data = $curItem->getExtraInfo();
+						if (is_array($data)) {
+							$extra_text = $data['size'] . " ";
+							if ($data['ext'] == '.exe')
+								$extra_text = $extra_path + 'Win32 ';
+
+							$extra_text .= $data['ext'] . " " . $data['msg'];
+						} else {
+							$extra_text = $data;
+						}
+
+						$js .= "\t\t\t'{$userAgent}':\t{ 'os':\t'{$name}', 'ver':\t'{$version}', 'desc':\t'{$extra_text}', 'url':\t'{$url}'},\n";
 					}
 				}
 			}
