@@ -280,7 +280,13 @@
 					<url>scummvm-{$release}-dingux.zip</url>
 					<name>Dingux package</name>
 				</file>
-
+-->
+				<file>
+					<category_icon>catpl-raspberry.png</category_icon>
+					<url>scummvm-{$release}-raspberrypi.tar.gz</url>
+					<name>Raspberry Pi package</name>
+				</file>
+<!--
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
 					<url>scummvm-{$release}-solaris10-sparc.pkg.7z</url>
