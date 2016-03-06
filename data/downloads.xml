@@ -894,6 +894,11 @@
 					<url>http://www.fluidsynth.org/</url>
 					<description>: Real-Time Software MIDI Synthesizer</description>
 				</link>
+				<link>
+					<name>FreeType</name>
+					<url>http://www.freetype.org/</url>
+					<description>: Font rendering</description>
+				</link>
 			</entries>
 		</subsection>
 	</section>
