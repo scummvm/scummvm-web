@@ -429,13 +429,13 @@
 					<url type="tools">scummvm-tools-{$release_tools}-1_F11.x86_64.rpm</url>
 					<name>Tools - Fedora 11 and 12 x86 64bit RPM</name>
 				</file>
-
+-->
 				<file>
-					<category_icon>catpl-macos-universal.png</category_icon>
-					<url type="tools">scummvm-tools-{$release_tools}-macosx.tar.bz2</url>
-					<name>Tools - Mac OS X Universal binaries (10.3.9 and up)</name>
+					<category_icon>catpl-macos.png</category_icon>
+					<url type="tools">scummvm-tools-{$release_tools}-macosx.dmg</url>
+					<name>Tools - Mac OS X Intel binaries (10.4 and up)</name>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-solaris8-sparc.pkg.bz2</url>
