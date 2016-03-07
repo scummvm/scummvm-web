@@ -59,29 +59,29 @@ RewriteRule	^(.+)\.php$														$1/? [NS,R=301]
 ##
 # Basic rewrite
 ##
-RewriteRule		^([a-z]+)/?$												?p=$1
+RewriteRule		^([a-z]+)/?$												?p=$1 [QSA]
 
 ##
 # Compatibility
 ##
-RewriteRule		^(compatibility)(/(DEV|[0-9\.rc]+)(/([^/]+))?)?/?$			?p=$1&v=$3&t=$5 [L]
+RewriteRule		^(compatibility)(/(DEV|[0-9\.rc]+)(/([^/]+))?)?/?$			?p=$1&v=$3&t=$5 [L,QSA]
 
 ##
 # Documentation
 ##
-RewriteRule		^(documentation)(/([^/]+))?/? 								?p=$1&d=$3 [L]
+RewriteRule		^(documentation)(/([^/]+))?/? 								?p=$1&d=$3 [L,QSA]
 
 ##
 # Feeds
 ##
-RewriteRule		^(feeds)/(atom|rss)/?										?p=$1&f=$2 [L]
+RewriteRule		^(feeds)/(atom|rss)/?										?p=$1&f=$2 [L,QSA]
 
 ##
 # News
 ##
-RewriteRule		^(news)(/([0-9]{8}[a-z]?|archive))?/?$							?p=$1&d=$3 [L]
+RewriteRule		^(news)(/([0-9]{8}[a-z]?|archive))?/?$							?p=$1&d=$3 [L,QSA]
 
 ##
 # Screenshots
 ##
-RewriteRule		^(screenshots)(/([a-z]+)(/([-_a-z0-9]+)(/([0-9]+))?)?)?/?		?p=$1&cat=$3&game=$5&num=$7 [L]
+RewriteRule		^(screenshots)(/([a-z]+)(/([-_a-z0-9]+)(/([0-9]+))?)?)?/?		?p=$1&cat=$3&game=$5&num=$7 [L,QSA]
