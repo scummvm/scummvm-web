@@ -85,7 +85,7 @@
 				<target>loom</target>
 			</demo>
 			<demo>
-				<name>Maniac Mansion (Commodore 64 demo) - Requires ScummVM 1.8.0git</name>
+				<name>Maniac Mansion (Commodore 64 demo)</name>
 				<url>/frs/demos/scumm/maniac-c64-demo-en.zip</url>
 				<target>maniac</target>
 			</demo>
