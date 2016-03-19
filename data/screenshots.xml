@@ -4232,6 +4232,26 @@
 				<file>other/ringworld/ringworld-cd-es-4</file>
 				<caption>Ringworld: Revenge of the Patriarch (Spanish)</caption>
 			</image>
+			<image>
+				<file>other/ringworld2/ringworld2-1</file>
+				<caption>Return to Ringworld</caption>
+			</image>
+			<image>
+				<file>other/ringworld2/ringworld2-2</file>
+				<caption>Return to Ringworld</caption>
+			</image>
+			<image>
+				<file>other/ringworld2/ringworld2-3</file>
+				<caption>Return to Ringworld</caption>
+			</image>
+			<image>
+				<file>other/ringworld2/ringworld2-4</file>
+				<caption>Return to Ringworld</caption>
+			</image>
+			<image>
+				<file>other/ringworld2/ringworld2-5</file>
+				<caption>Return to Ringworld</caption>
+			</image>
 		</game>
 		<game>
 			<name>Sfinx</name>
