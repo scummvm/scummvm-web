@@ -284,31 +284,13 @@
 			<name>Leather Goddesses of Phobos 2</name>
 			<category>lgop2</category>
 			<image>
-				<file>made/lgop-0</file>
+				<file>made/lgop-#n#</file>
+				<range from="0" to="4" format="%d" />
 				<caption>Leather Goddesses of Phobos 2</caption>
 			</image>
 			<image>
-				<file>made/lgop-1</file>
-				<caption>Leather Goddesses of Phobos 2</caption>
-			</image>
-			<image>
-				<file>made/lgop-2</file>
-				<caption>Leather Goddesses of Phobos 2</caption>
-			</image>
-			<image>
-				<file>made/lgop-3</file>
-				<caption>Leather Goddesses of Phobos 2</caption>
-			</image>
-			<image>
-				<file>made/lgop-4</file>
-				<caption>Leather Goddesses of Phobos 2</caption>
-			</image>
-			<image>
-				<file>made/lgop-de-0</file>
-				<caption>Leather Goddesses of Phobos 2 (German)</caption>
-			</image>
-			<image>
-				<file>made/lgop-de-1</file>
+				<file>made/lgop-de-#n#</file>
+				<range from="0" to="1" format="%d" />
 				<caption>Leather Goddesses of Phobos 2 (German)</caption>
 			</image>
 		</game>
@@ -316,27 +298,8 @@
 			<name>The Manhole</name>
 			<category>manhole</category>
 			<image>
-				<file>made/manhole-0</file>
-				<caption>The Manhole</caption>
-			</image>
-			<image>
-				<file>made/manhole-1</file>
-				<caption>The Manhole</caption>
-			</image>
-			<image>
-				<file>made/manhole-2</file>
-				<caption>The Manhole</caption>
-			</image>
-			<image>
-				<file>made/manhole-3</file>
-				<caption>The Manhole</caption>
-			</image>
-			<image>
-				<file>made/manhole-4</file>
-				<caption>The Manhole</caption>
-			</image>
-			<image>
-				<file>made/manhole-5</file>
+				<file>made/manhole-#n#</file>
+				<range from="0" to="5" format="%d" />
 				<caption>The Manhole</caption>
 			</image>
 		</game>
@@ -344,35 +307,13 @@
 			<name>Return to Zork</name>
 			<category>rtz</category>
 			<image>
-				<file>made/rtz-0</file>
+				<file>made/rtz-#n#</file>
+				<range from="0" to="5" format="%d" />
 				<caption>Return to Zork</caption>
 			</image>
 			<image>
-				<file>made/rtz-1</file>
-				<caption>Return to Zork</caption>
-			</image>
-			<image>
-				<file>made/rtz-2</file>
-				<caption>Return to Zork</caption>
-			</image>
-			<image>
-				<file>made/rtz-3</file>
-				<caption>Return to Zork</caption>
-			</image>
-			<image>
-				<file>made/rtz-4</file>
-				<caption>Return to Zork</caption>
-			</image>
-			<image>
-				<file>made/rtz-5</file>
-				<caption>Return to Zork</caption>
-			</image>
-			<image>
-				<file>made/rtz-de-0</file>
-				<caption>Return to Zork (German)</caption>
-			</image>
-			<image>
-				<file>made/rtz-de-1</file>
+				<file>made/rtz-de-#n#</file>
+				<range from="0" to="1" format="%d" />
 				<caption>Return to Zork (German)</caption>
 			</image>
 		</game>
@@ -380,27 +321,8 @@
 			<name>Rodney's Funscreen</name>
 			<category>rodney</category>
 			<image>
-				<file>made/rodney-0</file>
-				<caption>Rodney's Funscreen</caption>
-			</image>
-			<image>
-				<file>made/rodney-1</file>
-				<caption>Rodney's Funscreen</caption>
-			</image>
-			<image>
-				<file>made/rodney-2</file>
-				<caption>Rodney's Funscreen</caption>
-			</image>
-			<image>
-				<file>made/rodney-3</file>
-				<caption>Rodney's Funscreen</caption>
-			</image>
-			<image>
-				<file>made/rodney-4</file>
-				<caption>Rodney's Funscreen</caption>
-			</image>
-			<image>
-				<file>made/rodney-5</file>
+				<file>made/rodney-#n#</file>
+				<range from="0" to="5" format="%d" />
 				<caption>Rodney's Funscreen</caption>
 			</image>
 		</game>
@@ -412,27 +334,13 @@
 			<name>Simon the Sorcerer series</name>
 			<category>simon</category>
 			<image>
-				<file>agos/simon/scummvm_2_4_0</file>
+				<file>agos/simon/scummvm_2_4_#n#</file>
+				<range from="0" to="1" format="%d" />
 				<caption>Simon the Sorcerer</caption>
 			</image>
 			<image>
-				<file>agos/simon/scummvm_2_4_1</file>
-				<caption>Simon the Sorcerer</caption>
-			</image>
-			<image>
-				<file>agos/simon/simon1-2</file>
-				<caption>Simon the Sorcerer</caption>
-			</image>
-			<image>
-				<file>agos/simon/simon1-3</file>
-				<caption>Simon the Sorcerer</caption>
-			</image>
-			<image>
-				<file>agos/simon/simon1-4</file>
-				<caption>Simon the Sorcerer</caption>
-			</image>
-			<image>
-				<file>agos/simon/simon1-5</file>
+				<file>agos/simon/simon1-#n#</file>
+				<range from="2" to="5" format="%d" />
 				<caption>Simon the Sorcerer</caption>
 			</image>
 			<image>
@@ -440,19 +348,8 @@
 				<caption>Simon the Sorcerer 2</caption>
 			</image>
 			<image>
-				<file>agos/simon/simon2-1</file>
-				<caption>Simon the Sorcerer 2</caption>
-			</image>
-			<image>
-				<file>agos/simon/simon2-2</file>
-				<caption>Simon the Sorcerer 2</caption>
-			</image>
-			<image>
-				<file>agos/simon/simon2-3</file>
-				<caption>Simon the Sorcerer 2</caption>
-			</image>
-			<image>
-				<file>agos/simon/simon2-4</file>
+				<file>agos/simon/simon2-#n#</file>
+				<range from="1" to="4" format="%d" />
 				<caption>Simon the Sorcerer 2</caption>
 			</image>
 			<image>
@@ -460,35 +357,23 @@
 				<caption>Simon the Sorcerer 2 (DOS Hebrew)</caption>
 			</image>
 			<image>
-				<file>agos/simon/scummvm_2_4_4</file>
+				<file>agos/simon/scummvm_2_4_#n#</file>
+				<range from="4" to="5" format="%d" />
 				<caption>Simon the Sorcerer's Puzzle Pack - D.I.M.P.</caption>
 			</image>
 			<image>
-				<file>agos/simon/scummvm_2_4_5</file>
-				<caption>Simon the Sorcerer's Puzzle Pack - D.I.M.P.</caption>
-			</image>
-			<image>
-				<file>agos/simon/scummvm_2_4_6</file>
+				<file>agos/simon/scummvm_2_4_#n#</file>
+				<range from="6" to="7" format="%d" />
 				<caption>Simon the Sorcerer's Puzzle Pack - Jumble</caption>
 			</image>
 			<image>
-				<file>agos/simon/scummvm_2_4_7</file>
-				<caption>Simon the Sorcerer's Puzzle Pack - Jumble</caption>
-			</image>
-			<image>
-				<file>agos/simon/scummvm_2_4_8</file>
+				<file>agos/simon/scummvm_2_4_#n#</file>
+				<range from="8" to="9" format="%d" />
 				<caption>Simon the Sorcerer's Puzzle Pack - NoPatience</caption>
 			</image>
 			<image>
-				<file>agos/simon/scummvm_2_4_9</file>
-				<caption>Simon the Sorcerer's Puzzle Pack - NoPatience</caption>
-			</image>
-			<image>
-				<file>agos/simon/scummvm_2_4_10</file>
-				<caption>Simon the Sorcerer's Puzzle Pack - Swampy Adventures</caption>
-			</image>
-			<image>
-				<file>agos/simon/scummvm_2_4_11</file>
+				<file>agos/simon/scummvm_2_4_#n#</file>
+				<range from="10" to="11" format="%d" />
 				<caption>Simon the Sorcerer's Puzzle Pack - Swampy Adventures</caption>
 			</image>
 		</game>
@@ -496,43 +381,13 @@
 			<name>Elvira series</name>
 			<category>elvira</category>
 			<image>
-				<file>agos/elvira/elvira-1</file>
+				<file>agos/elvira/elvira-#n#</file>
+				<range from="1" to="5" format="%d" />
 				<caption>Elvira - Mistress of the Dark (DOS/English)</caption>
 			</image>
 			<image>
-				<file>agos/elvira/elvira-2</file>
-				<caption>Elvira - Mistress of the Dark (DOS/English)</caption>
-			</image>
-			<image>
-				<file>agos/elvira/elvira-3</file>
-				<caption>Elvira - Mistress of the Dark (DOS/English)</caption>
-			</image>
-			<image>
-				<file>agos/elvira/elvira-4</file>
-				<caption>Elvira - Mistress of the Dark (DOS/English)</caption>
-			</image>
-			<image>
-				<file>agos/elvira/elvira-5</file>
-				<caption>Elvira - Mistress of the Dark (DOS/English)</caption>
-			</image>
-			<image>
-				<file>agos/elvira/elvira2-amiga-1</file>
-				<caption>Elvira II - The Jaws of Cerberus (Amiga/English)</caption>
-			</image>
-			<image>
-				<file>agos/elvira/elvira2-amiga-2</file>
-				<caption>Elvira II - The Jaws of Cerberus (Amiga/English)</caption>
-			</image>
-			<image>
-				<file>agos/elvira/elvira2-amiga-3</file>
-				<caption>Elvira II - The Jaws of Cerberus (Amiga/English)</caption>
-			</image>
-			<image>
-				<file>agos/elvira/elvira2-amiga-4</file>
-				<caption>Elvira II - The Jaws of Cerberus (Amiga/English)</caption>
-			</image>
-			<image>
-				<file>agos/elvira/elvira2-amiga-5</file>
+				<file>agos/elvira/elvira2-amiga-#n#</file>
+				<range from="1" to="5" format="%d" />
 				<caption>Elvira II - The Jaws of Cerberus (Amiga/English)</caption>
 			</image>
 		</game>
@@ -540,39 +395,8 @@
 			<name>The Feeble Files</name>
 			<category>feeble</category>
 			<image>
-				<file>agos/feeble/feeble-0</file>
-				<caption>The Feeble Files (Windows)</caption>
-			</image>
-			<image>
-				<file>agos/feeble/feeble-1</file>
-				<caption>The Feeble Files (Windows)</caption>
-			</image>
-			<image>
-				<file>agos/feeble/feeble-2</file>
-				<caption>The Feeble Files (Windows)</caption>
-			</image>
-			<image>
-				<file>agos/feeble/feeble-3</file>
-				<caption>The Feeble Files (Windows)</caption>
-			</image>
-			<image>
-				<file>agos/feeble/feeble-4</file>
-				<caption>The Feeble Files (Windows)</caption>
-			</image>
-			<image>
-				<file>agos/feeble/feeble-5</file>
-				<caption>The Feeble Files (Windows)</caption>
-			</image>
-			<image>
-				<file>agos/feeble/feeble-6</file>
-				<caption>The Feeble Files (Windows)</caption>
-			</image>
-			<image>
-				<file>agos/feeble/feeble-7</file>
-				<caption>The Feeble Files (Windows)</caption>
-			</image>
-			<image>
-				<file>agos/feeble/feeble-8</file>
+				<file>agos/feeble/feeble-#n#</file>
+				<range from="0" to="8" format="%d" />
 				<caption>The Feeble Files (Windows)</caption>
 			</image>
 		</game>
@@ -580,19 +404,8 @@
 			<name>Waxworks</name>
 			<category>waxworks</category>
 			<image>
-				<file>agos/waxworks/waxworks-1</file>
-				<caption>Waxworks (DOS/English)</caption>
-			</image>
-			<image>
-				<file>agos/waxworks/waxworks-2</file>
-				<caption>Waxworks (DOS/English)</caption>
-			</image>
-			<image>
-				<file>agos/waxworks/waxworks-3</file>
-				<caption>Waxworks (DOS/English)</caption>
-			</image>
-			<image>
-				<file>agos/waxworks/waxworks-4</file>
+				<file>agos/waxworks/waxworks-#n#</file>
+				<range from="1" to="4" format="%d" />
 				<caption>Waxworks (DOS/English)</caption>
 			</image>
 			<image>
@@ -608,23 +421,13 @@
 			<name>Bargon Attack</name>
 			<category>bargon</category>
 			<image>
-				<file>gob/bargon/scummvm_2_11_0</file>
+				<file>gob/bargon/scummvm_2_11_#n#</file>
+				<range from="0" to="2" format="%d" />
 				<caption>Bargon Attack (DOS)</caption>
 			</image>
 			<image>
-				<file>gob/bargon/scummvm_2_11_1</file>
-				<caption>Bargon Attack (DOS)</caption>
-			</image>
-			<image>
-				<file>gob/bargon/scummvm_2_11_2</file>
-				<caption>Bargon Attack (DOS)</caption>
-			</image>
-			<image>
-				<file>gob/bargon/bargon-fr-1</file>
-				<caption>Bargon Attack (DOS/French)</caption>
-			</image>
-			<image>
-				<file>gob/bargon/bargon-fr-2</file>
+				<file>gob/bargon/bargon-fr-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Bargon Attack (DOS/French)</caption>
 			</image>
 		</game>
@@ -632,67 +435,33 @@
 			<name>The Bizarre Adventures of Woodruff and the Schnibble</name>
 			<category>woodruff</category>
 			<image>
-				<file>gob/woodruff/woodruff-0</file>
+				<file>gob/woodruff/woodruff-#n#</file>
+				<range from="0" to="4" format="%d" />
 				<caption>The Bizarre Adventures of Woodruff and the Schnibble</caption>
 			</image>
 			<image>
-				<file>gob/woodruff/woodruff-1</file>
-				<caption>The Bizarre Adventures of Woodruff and the Schnibble</caption>
-			</image>
-			<image>
-				<file>gob/woodruff/woodruff-2</file>
-				<caption>The Bizarre Adventures of Woodruff and the Schnibble</caption>
-			</image>
-			<image>
-				<file>gob/woodruff/woodruff-3</file>
-				<caption>The Bizarre Adventures of Woodruff and the Schnibble</caption>
-			</image>
-			<image>
-				<file>gob/woodruff/woodruff-4</file>
-				<caption>The Bizarre Adventures of Woodruff and the Schnibble</caption>
-			</image>
-			<image>
-				<file>gob/woodruff/woodruff-gb-1</file>
+				<file>gob/woodruff/woodruff-gb-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>The Bizarre Adventures of Woodruff and the Schnibble (English (GB))</caption>
 			</image>
 			<image>
-				<file>gob/woodruff/woodruff-gb-2</file>
-				<caption>The Bizarre Adventures of Woodruff and the Schnibble (English (GB))</caption>
-			</image>
-			<image>
-				<file>gob/woodruff/woodruff-gb-3</file>
-				<caption>The Bizarre Adventures of Woodruff and the Schnibble (English (GB))</caption>
-			</image>
-			<image>
-				<file>gob/woodruff/woodruff-fr-1</file>
+				<file>gob/woodruff/woodruff-fr-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>The Bizarre Adventures of Woodruff and the Schnibble (French)</caption>
 			</image>
 			<image>
-				<file>gob/woodruff/woodruff-fr-2</file>
-				<caption>The Bizarre Adventures of Woodruff and the Schnibble (French)</caption>
-			</image>
-			<image>
-				<file>gob/woodruff/woodruff-de-1</file>
+				<file>gob/woodruff/woodruff-de-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>The Bizarre Adventures of Woodruff and the Schnibble (German)</caption>
 			</image>
 			<image>
-				<file>gob/woodruff/woodruff-de-2</file>
-				<caption>The Bizarre Adventures of Woodruff and the Schnibble (German)</caption>
-			</image>
-			<image>
-				<file>gob/woodruff/woodruff-it-1</file>
+				<file>gob/woodruff/woodruff-it-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>The Bizarre Adventures of Woodruff and the Schnibble (Italian)</caption>
 			</image>
 			<image>
-				<file>gob/woodruff/woodruff-it-2</file>
-				<caption>The Bizarre Adventures of Woodruff and the Schnibble (Italian)</caption>
-			</image>
-			<image>
-				<file>gob/woodruff/woodruff-es-1</file>
-				<caption>The Bizarre Adventures of Woodruff and the Schnibble (Spanish)</caption>
-			</image>
-			<image>
-				<file>gob/woodruff/woodruff-es-2</file>
+				<file>gob/woodruff/woodruff-es-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>The Bizarre Adventures of Woodruff and the Schnibble (Spanish)</caption>
 			</image>
 		</game>
@@ -700,75 +469,38 @@
 			<name>Fascination</name>
 			<category>fascination</category>
 			<image>
-				<file>gob/fascination/fascination-1</file>
+				<file>gob/fascination/fascination-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Fascination (CD English)</caption>
 			</image>
 			<image>
-				<file>gob/fascination/fascination-2</file>
-				<caption>Fascination (CD English)</caption>
-			</image>
-			<image>
-				<file>gob/fascination/fascination-3</file>
-				<caption>Fascination (CD English)</caption>
-			</image>
-			<image>
-				<file>gob/fascination/fascination-4</file>
-				<caption>Fascination (CD English)</caption>
-			</image>
-			<image>
-				<file>gob/fascination/fascination-5</file>
-				<caption>Fascination (CD English)</caption>
-			</image>
-			<image>
-				<file>gob/fascination/fascination-6</file>
-				<caption>Fascination (CD English)</caption>
-			</image>
-			<image>
-				<file>gob/fascination/fascination-fr-1</file>
+				<file>gob/fascination/fascination-fr-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Fascination (CD/French)</caption>
 			</image>
 			<image>
-				<file>gob/fascination/fascination-fr-2</file>
-				<caption>Fascination (CD/French)</caption>
-			</image>
-			<image>
-				<file>gob/fascination/fascination-de-1</file>
+				<file>gob/fascination/fascination-de-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Fascination (CD/German)</caption>
 			</image>
 			<image>
-				<file>gob/fascination/fascination-de-2</file>
-				<caption>Fascination (CD/German)</caption>
-			</image>
-			<image>
-				<file>gob/fascination/fascination-it-1</file>
+				<file>gob/fascination/fascination-it-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Fascination (CD/Italian)</caption>
 			</image>
 			<image>
-				<file>gob/fascination/fascination-it-2</file>
-				<caption>Fascination (CD/Italian)</caption>
-			</image>
-			<image>
-				<file>gob/fascination/fascination-es-1</file>
+				<file>gob/fascination/fascination-es-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Fascination (CD/Spanish)</caption>
 			</image>
 			<image>
-				<file>gob/fascination/fascination-es-2</file>
-				<caption>Fascination (CD/Spanish)</caption>
-			</image>
-			<image>
-				<file>gob/fascination/fascination-amiga-de-1</file>
+				<file>gob/fascination/fascination-amiga-de-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Fascination (Amiga/German)</caption>
 			</image>
 			<image>
-				<file>gob/fascination/fascination-amiga-de-2</file>
-				<caption>Fascination (Amiga/German)</caption>
-			</image>
-			<image>
-				<file>gob/fascination/fascination-amiga-fr-1</file>
-				<caption>Fascination (Amiga/French)</caption>
-			</image>
-			<image>
-				<file>gob/fascination/fascination-amiga-fr-2</file>
+				<file>gob/fascination/fascination-amiga-fr-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Fascination (Amiga/French)</caption>
 			</image>
 		</game>
@@ -776,39 +508,13 @@
 			<name>Geisha</name>
 			<category>geisha</category>
 			<image>
-				<file>gob/geisha/geisha-1</file>
+				<file>gob/geisha/geisha-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Geisha (DOS/English)</caption>
 			</image>
 			<image>
-				<file>gob/geisha/geisha-2</file>
-				<caption>Geisha (DOS/English)</caption>
-			</image>
-			<image>
-				<file>gob/geisha/geisha-3</file>
-				<caption>Geisha (DOS/English)</caption>
-			</image>
-			<image>
-				<file>gob/geisha/geisha-4</file>
-				<caption>Geisha (DOS/English)</caption>
-			</image>
-			<image>
-				<file>gob/geisha/geisha-5</file>
-				<caption>Geisha (DOS/English)</caption>
-			</image>
-			<image>
-				<file>gob/geisha/geisha-6</file>
-				<caption>Geisha (DOS/English)</caption>
-			</image>
-			<image>
-				<file>gob/geisha/geisha-amiga-1</file>
-				<caption>Geisha (Amiga/English)</caption>
-			</image>
-			<image>
-				<file>gob/geisha/geisha-amiga-2</file>
-				<caption>Geisha (Amiga/English)</caption>
-			</image>
-			<image>
-				<file>gob/geisha/geisha-amiga-3</file>
+				<file>gob/geisha/geisha-amiga-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Geisha (Amiga/English)</caption>
 			</image>
 		</game>
@@ -816,115 +522,58 @@
 			<name>Gobliiins series</name>
 			<category>gob</category>
 			<image>
-				<file>gob/gob/scummvm_2_1_0</file>
+				<file>gob/gob/scummvm_2_1_#n#</file>
+				<range from="0" to="1" format="%d" />
 				<caption>Gobliiins</caption>
 			</image>
 			<image>
-				<file>gob/gob/scummvm_2_1_1</file>
+				<file>gob/gob/gob1-#n#</file>
+				<range from="2" to="5" format="%d" />
 				<caption>Gobliiins</caption>
 			</image>
 			<image>
-				<file>gob/gob/gob1-2</file>
-				<caption>Gobliiins</caption>
-			</image>
-			<image>
-				<file>gob/gob/gob1-3</file>
-				<caption>Gobliiins</caption>
-			</image>
-			<image>
-				<file>gob/gob/gob1-4</file>
-				<caption>Gobliiins</caption>
-			</image>
-			<image>
-				<file>gob/gob/gob1-5</file>
-				<caption>Gobliiins</caption>
-			</image>
-			<image>
-				<file>gob/gob/gob1-pl-1</file>
+				<file>gob/gob/gob1-pl-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Gobliiins (DOS/Polish)</caption>
 			</image>
 			<image>
-				<file>gob/gob/gob1-pl-2</file>
-				<caption>Gobliiins (DOS/Polish)</caption>
-			</image>
-			<image>
-				<file>gob/gob/scummvm_2_1_2</file>
+				<file>gob/gob/scummvm_2_1_#n#</file>
+				<range from="2" to="3" format="%d" />
 				<caption>Gobliins 2 (CD)</caption>
 			</image>
 			<image>
-				<file>gob/gob/scummvm_2_1_3</file>
+				<file>gob/gob/gob2-#n#</file>
+				<range from="3" to="5" format="%d" />
 				<caption>Gobliins 2 (CD)</caption>
 			</image>
 			<image>
-				<file>gob/gob/gob2-3</file>
-				<caption>Gobliins 2 (CD)</caption>
-			</image>
-			<image>
-				<file>gob/gob/gob2-4</file>
-				<caption>Gobliins 2 (CD)</caption>
-			</image>
-			<image>
-				<file>gob/gob/gob2-5</file>
-				<caption>Gobliins 2 (CD)</caption>
-			</image>
-			<image>
-				<file>gob/gob/gob2-pl-1</file>
+				<file>gob/gob/gob2-pl-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Gobliins 2 (CD/Polish)</caption>
 			</image>
 			<image>
-				<file>gob/gob/gob2-pl-2</file>
-				<caption>Gobliins 2 (CD/Polish)</caption>
-			</image>
-			<image>
-				<file>gob/gob/gob2-amiga-de-1</file>
+				<file>gob/gob/gob2-amiga-de-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Gobliins 2 (Amiga/German)</caption>
 			</image>
 			<image>
-				<file>gob/gob/gob2-amiga-de-2</file>
-				<caption>Gobliins 2 (Amiga/German)</caption>
-			</image>
-			<image>
-				<file>gob/gob/scummvm_2_1_5</file>
+				<file>gob/gob/scummvm_2_1_#n#</file>
+				<range from="5" to="7" format="%d" />
 				<caption>Goblins Quest 3 (DOS)</caption>
 			</image>
 			<image>
-				<file>gob/gob/scummvm_2_1_6</file>
+				<file>gob/gob/gob3-#n#</file>
+				<range from="3" to="5" format="%d" />
 				<caption>Goblins Quest 3 (DOS)</caption>
 			</image>
 			<image>
-				<file>gob/gob/scummvm_2_1_7</file>
-				<caption>Goblins Quest 3 (DOS)</caption>
-			</image>
-			<image>
-				<file>gob/gob/gob3-3</file>
-				<caption>Goblins Quest 3 (DOS)</caption>
-			</image>
-			<image>
-				<file>gob/gob/gob3-4</file>
-				<caption>Goblins Quest 3 (DOS)</caption>
-			</image>
-			<image>
-				<file>gob/gob/gob3-5</file>
-				<caption>Goblins Quest 3 (DOS)</caption>
-			</image>
-			<image>
-				<file>gob/gob/gob3-pl-1</file>
+				<file>gob/gob/gob3-pl-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Goblins Quest 3 (DOS CD/Polish)</caption>
 			</image>
 			<image>
-				<file>gob/gob/gob3-pl-2</file>
-				<caption>Goblins Quest 3 (DOS CD/Polish)</caption>
-			</image>
-			<image>
-				<file>gob/gob/gob3-pl-3</file>
-				<caption>Goblins Quest 3 (DOS CD/Polish)</caption>
-			</image>
-			<image>
-				<file>gob/gob/gob3-amiga-fr-1</file>
-				<caption>Goblins Quest 3 (Amiga/French)</caption>
-			</image>
-			<image>
-				<file>gob/gob/gob3-amiga-fr-2</file>
+				<file>gob/gob/gob3-amiga-fr-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Goblins Quest 3 (Amiga/French)</caption>
 			</image>
 		</game>
@@ -932,15 +581,8 @@
 			<name>Lost In Time</name>
 			<category>lostintime</category>
 			<image>
-				<file>gob/lostintime/lostintime-1</file>
-				<caption>Lost in Time (CD DOS)</caption>
-			</image>
-			<image>
-				<file>gob/lostintime/lostintime-2</file>
-				<caption>Lost in Time (CD DOS)</caption>
-			</image>
-			<image>
-				<file>gob/lostintime/lostintime-3</file>
+				<file>gob/lostintime/lostintime-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Lost in Time (CD DOS)</caption>
 			</image>
 			<image>
@@ -960,51 +602,13 @@
 			<name>Once Upon A Time: Little Red Riding Hood</name>
 			<category>littlered</category>
 			<image>
-				<file>gob/littlered/littlered-gb-1</file>
+				<file>gob/littlered/littlered-gb-#n#</file>
+				<range from="1" to="10" format="%d" />
 				<caption>Once Upon A Time: Little Red Riding Hood (DOS/English)</caption>
 			</image>
 			<image>
-				<file>gob/littlered/littlered-gb-2</file>
-				<caption>Once Upon A Time: Little Red Riding Hood (DOS/English)</caption>
-			</image>
-			<image>
-				<file>gob/littlered/littlered-gb-3</file>
-				<caption>Once Upon A Time: Little Red Riding Hood (DOS/English)</caption>
-			</image>
-			<image>
-				<file>gob/littlered/littlered-gb-4</file>
-				<caption>Once Upon A Time: Little Red Riding Hood (DOS/English)</caption>
-			</image>
-			<image>
-				<file>gob/littlered/littlered-gb-5</file>
-				<caption>Once Upon A Time: Little Red Riding Hood (DOS/English)</caption>
-			</image>
-			<image>
-				<file>gob/littlered/littlered-gb-6</file>
-				<caption>Once Upon A Time: Little Red Riding Hood (DOS/English)</caption>
-			</image>
-			<image>
-				<file>gob/littlered/littlered-gb-7</file>
-				<caption>Once Upon A Time: Little Red Riding Hood (DOS/English)</caption>
-			</image>
-			<image>
-				<file>gob/littlered/littlered-gb-8</file>
-				<caption>Once Upon A Time: Little Red Riding Hood (DOS/English)</caption>
-			</image>
-			<image>
-				<file>gob/littlered/littlered-gb-9</file>
-				<caption>Once Upon A Time: Little Red Riding Hood (DOS/English)</caption>
-			</image>
-			<image>
-				<file>gob/littlered/littlered-gb-10</file>
-				<caption>Once Upon A Time: Little Red Riding Hood (DOS/English)</caption>
-			</image>
-			<image>
-				<file>gob/littlered/littlered-de-1</file>
-				<caption>Once Upon A Time: Little Red Riding Hood (DOS/German)</caption>
-			</image>
-			<image>
-				<file>gob/littlered/littlered-de-2</file>
+				<file>gob/littlered/littlered-de-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Once Upon A Time: Little Red Riding Hood (DOS/German)</caption>
 			</image>
 			<image>
@@ -1012,19 +616,13 @@
 				<caption>Once Upon A Time: Little Red Riding Hood (DOS/Spanish)</caption>
 			</image>
 			<image>
-				<file>gob/littlered/littlered-fr-1</file>
+				<file>gob/littlered/littlered-fr-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Once Upon A Time: Little Red Riding Hood (DOS/French)</caption>
 			</image>
 			<image>
-				<file>gob/littlered/littlered-fr-2</file>
-				<caption>Once Upon A Time: Little Red Riding Hood (DOS/French)</caption>
-			</image>
-			<image>
-				<file>gob/littlered/littlered-it-1</file>
-				<caption>Once Upon A Time: Little Red Riding Hood (DOS/Italian)</caption>
-			</image>
-			<image>
-				<file>gob/littlered/littlered-it-2</file>
+				<file>gob/littlered/littlered-it-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Once Upon A Time: Little Red Riding Hood (DOS/Italian)</caption>
 			</image>
 		</game>
@@ -1032,27 +630,8 @@
 			<name>Urban Runner</name>
 			<category>urban</category>
 			<image>
-				<file>gob/urban/urban-1</file>
-				<caption>Urban Runner</caption>
-			</image>
-			<image>
-				<file>gob/urban/urban-2</file>
-				<caption>Urban Runner</caption>
-			</image>
-			<image>
-				<file>gob/urban/urban-3</file>
-				<caption>Urban Runner</caption>
-			</image>
-			<image>
-				<file>gob/urban/urban-4</file>
-				<caption>Urban Runner</caption>
-			</image>
-			<image>
-				<file>gob/urban/urban-5</file>
-				<caption>Urban Runner</caption>
-			</image>
-			<image>
-				<file>gob/urban/urban-6</file>
+				<file>gob/urban/urban-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Urban Runner</caption>
 			</image>
 		</game>
@@ -1060,35 +639,18 @@
 			<name>Ween: The Prophecy</name>
 			<category>ween</category>
 			<image>
-				<file>gob/ween/scummvm_2_9_0</file>
+				<file>gob/ween/scummvm_2_9_#n#</file>
+				<range from="0" to="3" format="%d" />
 				<caption>Ween: The Prophecy</caption>
 			</image>
 			<image>
-				<file>gob/ween/scummvm_2_9_1</file>
-				<caption>Ween: The Prophecy</caption>
-			</image>
-			<image>
-				<file>gob/ween/scummvm_2_9_2</file>
-				<caption>Ween: The Prophecy</caption>
-			</image>
-			<image>
-				<file>gob/ween/scummvm_2_9_3</file>
-				<caption>Ween: The Prophecy</caption>
-			</image>
-			<image>
-				<file>gob/ween/ween-amiga-fr-1</file>
+				<file>gob/ween/ween-amiga-fr-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Ween: The Prophecy (Amiga/French)</caption>
 			</image>
 			<image>
-				<file>gob/ween/ween-amiga-fr-2</file>
-				<caption>Ween: The Prophecy (Amiga/French)</caption>
-			</image>
-			<image>
-				<file>gob/ween/ween-amiga-it-1</file>
-				<caption>Ween: The Prophecy (Amiga/Italian)</caption>
-			</image>
-			<image>
-				<file>gob/ween/ween-amiga-it-2</file>
+				<file>gob/ween/ween-amiga-it-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Ween: The Prophecy (Amiga/Italian)</caption>
 			</image>
 		</game>
@@ -1100,11 +662,8 @@
 			<name>Beneath a Steel Sky</name>
 			<category>sky</category>
 			<image>
-				<file>revolution/sky/scummvm_2_5_0</file>
-				<caption>Beneath a Steel Sky</caption>
-			</image>
-			<image>
-				<file>revolution/sky/scummvm_2_5_1</file>
+				<file>revolution/sky/scummvm_2_5_#n#</file>
+				<range from="0" to="1" format="%d" />
 				<caption>Beneath a Steel Sky</caption>
 			</image>
 		</game>
@@ -1112,23 +671,13 @@
 			<name>Broken Sword: The Shadow of the Templars</name>
 			<category>sword</category>
 			<image>
-				<file>revolution/sword/scummvm_2_0_0</file>
+				<file>revolution/sword/scummvm_2_0_#n#</file>
+				<range from="0" to="1" format="%d" />
 				<caption>Broken Sword: The Shadow of the Templars</caption>
 			</image>
 			<image>
-				<file>revolution/sword/scummvm_2_0_1</file>
-				<caption>Broken Sword: The Shadow of the Templars</caption>
-			</image>
-			<image>
-				<file>revolution/sword/sword1-de-1</file>
-				<caption>Broken Sword: The Shadow of the Templars (Windows German)</caption>
-			</image>
-			<image>
-				<file>revolution/sword/sword1-de-2</file>
-				<caption>Broken Sword: The Shadow of the Templars (Windows German)</caption>
-			</image>
-			<image>
-				<file>revolution/sword/sword1-de-3</file>
+				<file>revolution/sword/sword1-de-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Broken Sword: The Shadow of the Templars (Windows German)</caption>
 			</image>
 		</game>
@@ -1136,31 +685,18 @@
 			<name>Broken Sword II: The Smoking Mirror</name>
 			<category>sword2</category>
 			<image>
-				<file>revolution/sword/scummvm_2_0_2</file>
+				<file>revolution/sword/scummvm_2_0_#n#</file>
+				<range from="2" to="3" format="%d" />
 				<caption>Broken Sword II: The Smoking Mirror</caption>
 			</image>
 			<image>
-				<file>revolution/sword/scummvm_2_0_3</file>
-				<caption>Broken Sword II: The Smoking Mirror</caption>
-			</image>
-			<image>
-				<file>revolution/sword/sword2-de-1</file>
+				<file>revolution/sword/sword2-de-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Broken Sword II: The Smoking Mirror (Windows German)</caption>
 			</image>
 			<image>
-				<file>revolution/sword/sword2-de-2</file>
-				<caption>Broken Sword II: The Smoking Mirror (Windows German)</caption>
-			</image>
-			<image>
-				<file>revolution/sword/sword2-de-3</file>
-				<caption>Broken Sword II: The Smoking Mirror (Windows German)</caption>
-			</image>
-			<image>
-				<file>revolution/sword/sword2-pl-1</file>
-				<caption>Broken Sword II: The Smoking Mirror (Windows Polish)</caption>
-			</image>
-			<image>
-				<file>revolution/sword/sword2-pl-2</file>
+				<file>revolution/sword/sword2-pl-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Broken Sword II: The Smoking Mirror (Windows Polish)</caption>
 			</image>
 		</game>
@@ -1177,27 +713,8 @@
 			<name>Lure of the Temptress</name>
 			<category>lure</category>
 			<image>
-				<file>revolution/lure/lure-1</file>
-				<caption>Lure of the Temptress (DOS VGA)</caption>
-			</image>
-			<image>
-				<file>revolution/lure/lure-2</file>
-				<caption>Lure of the Temptress (DOS VGA)</caption>
-			</image>
-			<image>
-				<file>revolution/lure/lure-3</file>
-				<caption>Lure of the Temptress (DOS VGA)</caption>
-			</image>
-			<image>
-				<file>revolution/lure/lure-4</file>
-				<caption>Lure of the Temptress (DOS VGA)</caption>
-			</image>
-			<image>
-				<file>revolution/lure/lure-5</file>
-				<caption>Lure of the Temptress (DOS VGA)</caption>
-			</image>
-			<image>
-				<file>revolution/lure/lure-6</file>
+				<file>revolution/lure/lure-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Lure of the Temptress (DOS VGA)</caption>
 			</image>
 		</game>
