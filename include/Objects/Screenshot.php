@@ -20,7 +20,7 @@ class Screenshot extends BasicObject {
 			foreach ($data['image'] as $value) {
 				if (isset($value['range'])) {
 					$attr = $value['range']['@attributes'];
-					if (!isset($attr['from']) || !isset($attr['to']) || !isset($attr['format'])) {
+					if (!isset($attr['from']) || !isset($attr['to']) || !isset($attr['format']) || !strstr($value['file'], '#n#')) {
 						throw new ErrorException('Invalid range format');
 					}
 					$pat = str_replace("#n#", $attr['format'], $value['file']);
