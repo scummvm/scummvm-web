@@ -1349,79 +1349,13 @@
 			<name>Eye of the Beholder series</name>
 			<category>eob</category>
 			<image>
-				<file>westwood/eob/eob-1</file>
+				<file>westwood/eob/eob-#n#</file>
+				<range from="1" to="9" format="%d" />
 				<caption>Eye of the Beholder (DOS/English)</caption>
 			</image>
 			<image>
-				<file>westwood/eob/eob-2</file>
-				<caption>Eye of the Beholder (DOS/English)</caption>
-			</image>
-			<image>
-				<file>westwood/eob/eob-3</file>
-				<caption>Eye of the Beholder (DOS/English)</caption>
-			</image>
-			<image>
-				<file>westwood/eob/eob-4</file>
-				<caption>Eye of the Beholder (DOS/English)</caption>
-			</image>
-			<image>
-				<file>westwood/eob/eob-5</file>
-				<caption>Eye of the Beholder (DOS/English)</caption>
-			</image>
-			<image>
-				<file>westwood/eob/eob-6</file>
-				<caption>Eye of the Beholder (DOS/English)</caption>
-			</image>
-			<image>
-				<file>westwood/eob/eob-7</file>
-				<caption>Eye of the Beholder (DOS/English)</caption>
-			</image>
-			<image>
-				<file>westwood/eob/eob-8</file>
-				<caption>Eye of the Beholder (DOS/English)</caption>
-			</image>
-			<image>
-				<file>westwood/eob/eob-9</file>
-				<caption>Eye of the Beholder (DOS/English)</caption>
-			</image>
-			<image>
-				<file>westwood/eob/eob2-1</file>
-				<caption>Eye of the Beholder II: The Legend of Darkmoon (DOS/English)</caption>
-			</image>
-			<image>
-				<file>westwood/eob/eob2-2</file>
-				<caption>Eye of the Beholder II: The Legend of Darkmoon (DOS/English)</caption>
-			</image>
-			<image>
-				<file>westwood/eob/eob2-3</file>
-				<caption>Eye of the Beholder II: The Legend of Darkmoon (DOS/English)</caption>
-			</image>
-			<image>
-				<file>westwood/eob/eob2-4</file>
-				<caption>Eye of the Beholder II: The Legend of Darkmoon (DOS/English)</caption>
-			</image>
-			<image>
-				<file>westwood/eob/eob2-5</file>
-				<caption>Eye of the Beholder II: The Legend of Darkmoon (DOS/English)</caption>
-			</image>
-			<image>
-				<file>westwood/eob/eob2-6</file>
-				<caption>Eye of the Beholder II: The Legend of Darkmoon (DOS/English)</caption>
-			</image>
-			<image>
-				<file>westwood/eob/eob2-7</file>
-				<caption>Eye of the Beholder II: The Legend of Darkmoon (DOS/English)</caption>
-			</image>
-			<image>
-				<file>westwood/eob/eob2-8</file>
-				<caption>Eye of the Beholder II: The Legend of Darkmoon (DOS/English)</caption>
-			</image>
-			<image>
-				<file>westwood/eob/eob2-9</file>
-				<caption>Eye of the Beholder II: The Legend of Darkmoon (DOS/English)</caption>
-			</image>
-			<image>
-				<file>westwood/eob/eob2-10</file>
+				<file>westwood/eob/eob2-#n#</file>
+				<range from="1" to="10" format="%d" />
 				<caption>Eye of the Beholder II: The Legend of Darkmoon (DOS/English)</caption>
 			</image>
 		</game>
@@ -1429,43 +1363,8 @@
 			<name>Lands of Lore: The Throne of Chaos</name>
 			<category>lol</category>
 			<image>
-				<file>westwood/lol/lol-1</file>
-				<caption>Lands of Lore: The Throne of Chaos (CD/DOS)</caption>
-			</image>
-			<image>
-				<file>westwood/lol/lol-2</file>
-				<caption>Lands of Lore: The Throne of Chaos (CD/DOS)</caption>
-			</image>
-			<image>
-				<file>westwood/lol/lol-3</file>
-				<caption>Lands of Lore: The Throne of Chaos (CD/DOS)</caption>
-			</image>
-			<image>
-				<file>westwood/lol/lol-4</file>
-				<caption>Lands of Lore: The Throne of Chaos (CD/DOS)</caption>
-			</image>
-			<image>
-				<file>westwood/lol/lol-5</file>
-				<caption>Lands of Lore: The Throne of Chaos (CD/DOS)</caption>
-			</image>
-			<image>
-				<file>westwood/lol/lol-6</file>
-				<caption>Lands of Lore: The Throne of Chaos (CD/DOS)</caption>
-			</image>
-			<image>
-				<file>westwood/lol/lol-7</file>
-				<caption>Lands of Lore: The Throne of Chaos (CD/DOS)</caption>
-			</image>
-			<image>
-				<file>westwood/lol/lol-8</file>
-				<caption>Lands of Lore: The Throne of Chaos (CD/DOS)</caption>
-			</image>
-			<image>
-				<file>westwood/lol/lol-9</file>
-				<caption>Lands of Lore: The Throne of Chaos (CD/DOS)</caption>
-			</image>
-			<image>
-				<file>westwood/lol/lol-10</file>
+				<file>westwood/lol/lol-#n#</file>
+				<range from="1" to="10" format="%d" />
 				<caption>Lands of Lore: The Throne of Chaos (CD/DOS)</caption>
 			</image>
 		</game>
@@ -1473,35 +1372,23 @@
 			<name>The Legend of Kyrandia series</name>
 			<category>kyra</category>
 			<image>
-				<file>westwood/kyra/kyra1-1</file>
+				<file>westwood/kyra/kyra1-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>The Legend of Kyrandia (DOS)</caption>
 			</image>
 			<image>
-				<file>westwood/kyra/kyra1-2</file>
-				<caption>The Legend of Kyrandia (DOS)</caption>
-			</image>
-			<image>
-				<file>westwood/kyra/kyra1-pc98-jp-1</file>
+				<file>westwood/kyra/kyra1-pc98-jp-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>The Legend of Kyrandia (PC-98 Japanese)</caption>
 			</image>
 			<image>
-				<file>westwood/kyra/kyra1-pc98-jp-2</file>
-				<caption>The Legend of Kyrandia (PC-98 Japanese)</caption>
-			</image>
-			<image>
-				<file>westwood/kyra/kyra1-amiga-1</file>
+				<file>westwood/kyra/kyra1-amiga-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>The Legend of Kyrandia (Amiga)</caption>
 			</image>
 			<image>
-				<file>westwood/kyra/kyra1-amiga-2</file>
-				<caption>The Legend of Kyrandia (Amiga)</caption>
-			</image>
-			<image>
-				<file>westwood/kyra/kyra2-1</file>
-				<caption>The Legend of Kyrandia: Book Two: Hand of Fate (DOS)</caption>
-			</image>
-			<image>
-				<file>westwood/kyra/kyra2-2</file>
+				<file>westwood/kyra/kyra2-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>The Legend of Kyrandia: Book Two: Hand of Fate (DOS)</caption>
 			</image>
 			<image>
@@ -1513,23 +1400,8 @@
 				<caption>The Legend of Kyrandia: Book Two: Hand of Fate (DOS French)</caption>
 			</image>
 			<image>
-				<file>westwood/kyra/kyra3-1</file>
-				<caption>The Legend of Kyrandia: Malcolm's Revenge (DOS)</caption>
-			</image>
-			<image>
-				<file>westwood/kyra/kyra3-2</file>
-				<caption>The Legend of Kyrandia: Malcolm's Revenge (DOS)</caption>
-			</image>
-			<image>
-				<file>westwood/kyra/kyra3-3</file>
-				<caption>The Legend of Kyrandia: Malcolm's Revenge (DOS)</caption>
-			</image>
-			<image>
-				<file>westwood/kyra/kyra3-4</file>
-				<caption>The Legend of Kyrandia: Malcolm's Revenge (DOS)</caption>
-			</image>
-			<image>
-				<file>westwood/kyra/kyra3-5</file>
+				<file>westwood/kyra/kyra3-#n#</file>
+				<range from="1" to="5" format="%d" />
 				<caption>The Legend of Kyrandia: Malcolm's Revenge (DOS)</caption>
 			</image>
 			<image>
@@ -1545,43 +1417,8 @@
 			<name>Dirty Split</name>
 			<category>dirtysplit</category>
 			<image>
-				<file>wintermute/dirtysplit/dirtysplit-win-de-01</file>
-				<caption>Dirty Split (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/dirtysplit/dirtysplit-win-de-02</file>
-				<caption>Dirty Split (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/dirtysplit/dirtysplit-win-de-03</file>
-				<caption>Dirty Split (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/dirtysplit/dirtysplit-win-de-04</file>
-				<caption>Dirty Split (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/dirtysplit/dirtysplit-win-de-05</file>
-				<caption>Dirty Split (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/dirtysplit/dirtysplit-win-de-06</file>
-				<caption>Dirty Split (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/dirtysplit/dirtysplit-win-de-07</file>
-				<caption>Dirty Split (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/dirtysplit/dirtysplit-win-de-08</file>
-				<caption>Dirty Split (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/dirtysplit/dirtysplit-win-de-09</file>
-				<caption>Dirty Split (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/dirtysplit/dirtysplit-win-de-10</file>
+				<file>wintermute/dirtysplit/dirtysplit-win-de-#n#</file>
+				<range from="1" to="10" format="%02d" />
 				<caption>Dirty Split (German)</caption>
 			</image>
 		</game>
@@ -1589,47 +1426,13 @@
 			<name>Five magical amulets</name>
 			<category>5ma</category>
 			<image>
-				<file>wintermute/5ma/5ma-win-01</file>
+				<file>wintermute/5ma/5ma-win-#n#</file>
+				<range from="1" to="6" format="%02d" />
 				<caption>Five magical amulets</caption>
 			</image>
 			<image>
-				<file>wintermute/5ma/5ma-win-02</file>
-				<caption>Five magical amulets</caption>
-			</image>
-			<image>
-				<file>wintermute/5ma/5ma-win-03</file>
-				<caption>Five magical amulets</caption>
-			</image>
-			<image>
-				<file>wintermute/5ma/5ma-win-04</file>
-				<caption>Five magical amulets</caption>
-			</image>
-			<image>
-				<file>wintermute/5ma/5ma-win-05</file>
-				<caption>Five magical amulets</caption>
-			</image>
-			<image>
-				<file>wintermute/5ma/5ma-win-06</file>
-				<caption>Five magical amulets</caption>
-			</image>
-			<image>
-				<file>wintermute/5ma/5ma-win-de-01</file>
-				<caption>Five magical amulets (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/5ma/5ma-win-de-02</file>
-				<caption>Five magical amulets (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/5ma/5ma-win-de-03</file>
-				<caption>Five magical amulets (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/5ma/5ma-win-de-04</file>
-				<caption>Five magical amulets (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/5ma/5ma-win-de-05</file>
+				<file>wintermute/5ma/5ma-win-de-#n#</file>
+				<range from="1" to="5" format="%02d" />
 				<caption>Five magical amulets (German)</caption>
 			</image>
 		</game>
@@ -1637,67 +1440,8 @@
 			<name>1&#189; Knights: In Search of the Ravishing Princess Herzelindes</name>
 			<category>ritter</category>
 			<image>
-				<file>wintermute/ritter/ritter-win-de-00</file>
-				<caption>1&#189; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/ritter/ritter-win-de-01</file>
-				<caption>1&#189; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/ritter/ritter-win-de-02</file>
-				<caption>1&#189; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/ritter/ritter-win-de-03</file>
-				<caption>1&#189; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/ritter/ritter-win-de-04</file>
-				<caption>1&#189; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/ritter/ritter-win-de-05</file>
-				<caption>1&#189; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/ritter/ritter-win-de-06</file>
-				<caption>1&#189; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/ritter/ritter-win-de-07</file>
-				<caption>1&#189; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/ritter/ritter-win-de-08</file>
-				<caption>1&#189; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/ritter/ritter-win-de-09</file>
-				<caption>1&#189; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/ritter/ritter-win-de-10</file>
-				<caption>1&#189; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/ritter/ritter-win-de-11</file>
-				<caption>1&#189; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/ritter/ritter-win-de-12</file>
-				<caption>1&#189; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/ritter/ritter-win-de-13</file>
-				<caption>1&#189; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/ritter/ritter-win-de-14</file>
-				<caption>1&#189; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
-			</image>
-			<image>
-				<file>wintermute/ritter/ritter-win-de-15</file>
+				<file>wintermute/ritter/ritter-win-de-#n#</file>
+				<range from="0" to="15" format="%02d" />
 				<caption>1&#189; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
 			</image>
 		</game>
@@ -1705,27 +1449,8 @@
 			<name>The White Chamber</name>
 			<category>twc</category>
 			<image>
-				<file>wintermute/twc/twc-win-01</file>
-				<caption>The White Chamber (v1.7 - Definitive Edition/German)</caption>
-			</image>
-			<image>
-				<file>wintermute/twc/twc-win-02</file>
-				<caption>The White Chamber (v1.7 - Definitive Edition/German)</caption>
-			</image>
-			<image>
-				<file>wintermute/twc/twc-win-03</file>
-				<caption>The White Chamber (v1.7 - Definitive Edition/German)</caption>
-			</image>
-			<image>
-				<file>wintermute/twc/twc-win-04</file>
-				<caption>The White Chamber (v1.7 - Definitive Edition/German)</caption>
-			</image>
-			<image>
-				<file>wintermute/twc/twc-win-05</file>
-				<caption>The White Chamber (v1.7 - Definitive Edition/German)</caption>
-			</image>
-			<image>
-				<file>wintermute/twc/twc-win-06</file>
+				<file>wintermute/twc/twc-win-#n#</file>
+				<range from="1" to="6" format="%02d" />
 				<caption>The White Chamber (v1.7 - Definitive Edition/German)</caption>
 			</image>
 		</game>
@@ -1737,35 +1462,13 @@
 			<name>3 Skulls of the Toltecs</name>
 			<category>toltecs</category>
 			<image>
-				<file>other/toltecs/toltecs-dos-en-1</file>
+				<file>other/toltecs/toltecs-dos-en-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>3 Skulls of the Toltecs (DOS/English)</caption>
 			</image>
 			<image>
-				<file>other/toltecs/toltecs-dos-en-2</file>
-				<caption>3 Skulls of the Toltecs (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/toltecs/toltecs-dos-en-3</file>
-				<caption>3 Skulls of the Toltecs (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/toltecs/toltecs-dos-en-4</file>
-				<caption>3 Skulls of the Toltecs (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/toltecs/toltecs-dos-en-5</file>
-				<caption>3 Skulls of the Toltecs (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/toltecs/toltecs-dos-en-6</file>
-				<caption>3 Skulls of the Toltecs (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/toltecs/toltecs-dos-de-1</file>
-				<caption>3 Skulls of the Toltecs (DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/toltecs/toltecs-dos-de-2</file>
+				<file>other/toltecs/toltecs-dos-de-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>3 Skulls of the Toltecs (DOS/German)</caption>
 			</image>
 		</game>
@@ -1773,71 +1476,8 @@
 			<name>Beavis and Butt-head in Virtual Stupidity</name>
 			<category>bbvs</category>
 			<image>
-				<file>other/bbvs/bbvs-01</file>
-				<caption>Beavis and Butt-head in Virtual Stupidity</caption>
-			</image>
-			<image>
-				<file>other/bbvs/bbvs-02</file>
-				<caption>Beavis and Butt-head in Virtual Stupidity</caption>
-			</image>
-			<image>
-				<file>other/bbvs/bbvs-03</file>
-				<caption>Beavis and Butt-head in Virtual Stupidity</caption>
-			</image>
-			<image>
-				<file>other/bbvs/bbvs-04</file>
-				<caption>Beavis and Butt-head in Virtual Stupidity</caption>
-			</image>
-			<image>
-				<file>other/bbvs/bbvs-05</file>
-				<caption>Beavis and Butt-head in Virtual Stupidity</caption>
-			</image>
-			<image>
-				<file>other/bbvs/bbvs-06</file>
-				<caption>Beavis and Butt-head in Virtual Stupidity</caption>
-			</image>
-			<image>
-				<file>other/bbvs/bbvs-07</file>
-				<caption>Beavis and Butt-head in Virtual Stupidity</caption>
-			</image>
-			<image>
-				<file>other/bbvs/bbvs-08</file>
-				<caption>Beavis and Butt-head in Virtual Stupidity</caption>
-			</image>
-			<image>
-				<file>other/bbvs/bbvs-09</file>
-				<caption>Beavis and Butt-head in Virtual Stupidity</caption>
-			</image>
-			<image>
-				<file>other/bbvs/bbvs-10</file>
-				<caption>Beavis and Butt-head in Virtual Stupidity</caption>
-			</image>
-			<image>
-				<file>other/bbvs/bbvs-11</file>
-				<caption>Beavis and Butt-head in Virtual Stupidity</caption>
-			</image>
-			<image>
-				<file>other/bbvs/bbvs-12</file>
-				<caption>Beavis and Butt-head in Virtual Stupidity</caption>
-			</image>
-			<image>
-				<file>other/bbvs/bbvs-13</file>
-				<caption>Beavis and Butt-head in Virtual Stupidity</caption>
-			</image>
-			<image>
-				<file>other/bbvs/bbvs-14</file>
-				<caption>Beavis and Butt-head in Virtual Stupidity</caption>
-			</image>
-			<image>
-				<file>other/bbvs/bbvs-15</file>
-				<caption>Beavis and Butt-head in Virtual Stupidity</caption>
-			</image>
-			<image>
-				<file>other/bbvs/bbvs-16</file>
-				<caption>Beavis and Butt-head in Virtual Stupidity</caption>
-			</image>
-			<image>
-				<file>other/bbvs/bbvs-17</file>
+				<file>other/bbvs/bbvs-#n#</file>
+				<range from="1" to="17" format="%02d" />
 				<caption>Beavis and Butt-head in Virtual Stupidity</caption>
 			</image>
 		</game>
@@ -1845,39 +1485,8 @@
 			<name>Blue Force</name>
 			<category>blueforce</category>
 			<image>
-				<file>other/blueforce/blueforce-cd-1</file>
-				<caption>Blue Force (CD)</caption>
-			</image>
-			<image>
-				<file>other/blueforce/blueforce-cd-2</file>
-				<caption>Blue Force (CD)</caption>
-			</image>
-			<image>
-				<file>other/blueforce/blueforce-cd-3</file>
-				<caption>Blue Force (CD)</caption>
-			</image>
-			<image>
-				<file>other/blueforce/blueforce-cd-4</file>
-				<caption>Blue Force (CD)</caption>
-			</image>
-			<image>
-				<file>other/blueforce/blueforce-cd-5</file>
-				<caption>Blue Force (CD)</caption>
-			</image>
-			<image>
-				<file>other/blueforce/blueforce-cd-6</file>
-				<caption>Blue Force (CD)</caption>
-			</image>
-			<image>
-				<file>other/blueforce/blueforce-cd-7</file>
-				<caption>Blue Force (CD)</caption>
-			</image>
-			<image>
-				<file>other/blueforce/blueforce-cd-8</file>
-				<caption>Blue Force (CD)</caption>
-			</image>
-			<image>
-				<file>other/blueforce/blueforce-cd-9</file>
+				<file>other/blueforce/blueforce-cd-#n#</file>
+				<range from="1" to="9" format="%d" />
 				<caption>Blue Force (CD)</caption>
 			</image>
 		</game>
@@ -1885,23 +1494,8 @@
 			<name>Bud Tucker in Double Trouble</name>
 			<category>tucker</category>
 			<image>
-				<file>other/tucker/tucker-0</file>
-				<caption>Bud Tucker in Double Trouble</caption>
-			</image>
-			<image>
-				<file>other/tucker/tucker-1</file>
-				<caption>Bud Tucker in Double Trouble</caption>
-			</image>
-			<image>
-				<file>other/tucker/tucker-2</file>
-				<caption>Bud Tucker in Double Trouble</caption>
-			</image>
-			<image>
-				<file>other/tucker/tucker-3</file>
-				<caption>Bud Tucker in Double Trouble</caption>
-			</image>
-			<image>
-				<file>other/tucker/tucker-4</file>
+				<file>other/tucker/tucker-#n#</file>
+				<range from="0" to="4" format="%d" />
 				<caption>Bud Tucker in Double Trouble</caption>
 			</image>
 			<image>
@@ -1913,43 +1507,23 @@
 			<name>Cruise for a Corpse</name>
 			<category>cruise</category>
 			<image>
-				<file>other/cruise/cruise-1</file>
+				<file>other/cruise/cruise-#n#</file>
+				<range from="1" to="4" format="%d" />
 				<caption>Cruise for a Corpse</caption>
 			</image>
 			<image>
-				<file>other/cruise/cruise-2</file>
-				<caption>Cruise for a Corpse</caption>
-			</image>
-			<image>
-				<file>other/cruise/cruise-3</file>
-				<caption>Cruise for a Corpse</caption>
-			</image>
-			<image>
-				<file>other/cruise/cruise-4</file>
-				<caption>Cruise for a Corpse</caption>
-			</image>
-			<image>
-				<file>other/cruise/cruise-fr-1</file>
+				<file>other/cruise/cruise-fr-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Cruise for a Corpse (French)</caption>
 			</image>
 			<image>
-				<file>other/cruise/cruise-fr-2</file>
-				<caption>Cruise for a Corpse (French)</caption>
-			</image>
-			<image>
-				<file>other/cruise/cruise-de-1</file>
+				<file>other/cruise/cruise-de-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Cruise for a Corpse (German)</caption>
 			</image>
 			<image>
-				<file>other/cruise/cruise-de-2</file>
-				<caption>Cruise for a Corpse (German)</caption>
-			</image>
-			<image>
-				<file>other/cruise/cruise-es-1</file>
-				<caption>Cruise for a Corpse (Spanish)</caption>
-			</image>
-			<image>
-				<file>other/cruise/cruise-es-2</file>
+				<file>other/cruise/cruise-es-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Cruise for a Corpse (Spanish)</caption>
 			</image>
 		</game>
@@ -1957,75 +1531,23 @@
 			<name>Discworld series</name>
 			<category>dw</category>
 			<image>
-				<file>tinsel/dw1-0</file>
+				<file>tinsel/dw1-#n#</file>
+				<range from="0" to="7" format="%d" />
 				<caption>Discworld</caption>
 			</image>
 			<image>
-				<file>tinsel/dw1-1</file>
-				<caption>Discworld</caption>
-			</image>
-			<image>
-				<file>tinsel/dw1-2</file>
-				<caption>Discworld</caption>
-			</image>
-			<image>
-				<file>tinsel/dw1-3</file>
-				<caption>Discworld</caption>
-			</image>
-			<image>
-				<file>tinsel/dw1-4</file>
-				<caption>Discworld</caption>
-			</image>
-			<image>
-				<file>tinsel/dw1-5</file>
-				<caption>Discworld</caption>
-			</image>
-			<image>
-				<file>tinsel/dw1-6</file>
-				<caption>Discworld</caption>
-			</image>
-			<image>
-				<file>tinsel/dw1-7</file>
-				<caption>Discworld</caption>
-			</image>
-			<image>
-				<file>tinsel/dw1-de-1</file>
+				<file>tinsel/dw1-de-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Discworld (German)</caption>
 			</image>
 			<image>
-				<file>tinsel/dw1-de-2</file>
-				<caption>Discworld (German)</caption>
-			</image>
-			<image>
-				<file>tinsel/dw1-psx-1</file>
+				<file>tinsel/dw1-psx-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Discworld (PlayStation) (Multilanguage/PAL)</caption>
 			</image>
 			<image>
-				<file>tinsel/dw1-psx-2</file>
-				<caption>Discworld (PlayStation) (Multilanguage/PAL)</caption>
-			</image>
-			<image>
-				<file>tinsel/dw2-1</file>
-				<caption>Discworld II: Missing Presumed...!?</caption>
-			</image>
-			<image>
-				<file>tinsel/dw2-2</file>
-				<caption>Discworld II: Missing Presumed...!?</caption>
-			</image>
-			<image>
-				<file>tinsel/dw2-3</file>
-				<caption>Discworld II: Missing Presumed...!?</caption>
-			</image>
-			<image>
-				<file>tinsel/dw2-4</file>
-				<caption>Discworld II: Missing Presumed...!?</caption>
-			</image>
-			<image>
-				<file>tinsel/dw2-5</file>
-				<caption>Discworld II: Missing Presumed...!?</caption>
-			</image>
-			<image>
-				<file>tinsel/dw2-6</file>
+				<file>tinsel/dw2-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Discworld II: Missing Presumed...!?</caption>
 			</image>
 		</game>
@@ -2033,43 +1555,23 @@
 			<name>Dragon History</name>
 			<category>draci</category>
 			<image>
-				<file>other/draci/draci-1</file>
+				<file>other/draci/draci-#n#</file>
+				<range from="1" to="4" format="%d" />
 				<caption>Dragon History</caption>
 			</image>
 			<image>
-				<file>other/draci/draci-2</file>
-				<caption>Dragon History</caption>
-			</image>
-			<image>
-				<file>other/draci/draci-3</file>
-				<caption>Dragon History</caption>
-			</image>
-			<image>
-				<file>other/draci/draci-4</file>
-				<caption>Dragon History</caption>
-			</image>
-			<image>
-				<file>other/draci/draci-cz-1</file>
+				<file>other/draci/draci-cz-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Dragon History (Czech)</caption>
 			</image>
 			<image>
-				<file>other/draci/draci-cz-2</file>
-				<caption>Dragon History (Czech)</caption>
-			</image>
-			<image>
-				<file>other/draci/draci-de-1</file>
+				<file>other/draci/draci-de-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Dragon History (German)</caption>
 			</image>
 			<image>
-				<file>other/draci/draci-de-2</file>
-				<caption>Dragon History (German)</caption>
-			</image>
-			<image>
-				<file>other/draci/draci-pl-1</file>
-				<caption>Dragon History (Polish)</caption>
-			</image>
-			<image>
-				<file>other/draci/draci-pl-2</file>
+				<file>other/draci/draci-pl-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Dragon History (Polish)</caption>
 			</image>
 		</game>
@@ -2077,71 +1579,28 @@
 			<name>Drascula: The Vampire Strikes Back</name>
 			<category>drascula</category>
 			<image>
-				<file>other/drascula/drascula-1</file>
+				<file>other/drascula/drascula-#n#</file>
+				<range from="1" to="5" format="%d" />
 				<caption>Drascula: The Vampire Strikes Back</caption>
 			</image>
 			<image>
-				<file>other/drascula/drascula-2</file>
-				<caption>Drascula: The Vampire Strikes Back</caption>
-			</image>
-			<image>
-				<file>other/drascula/drascula-3</file>
-				<caption>Drascula: The Vampire Strikes Back</caption>
-			</image>
-			<image>
-				<file>other/drascula/drascula-4</file>
-				<caption>Drascula: The Vampire Strikes Back</caption>
-			</image>
-			<image>
-				<file>other/drascula/drascula-5</file>
-				<caption>Drascula: The Vampire Strikes Back</caption>
-			</image>
-			<image>
-				<file>other/drascula/drascula-fr-1</file>
+				<file>other/drascula/drascula-fr-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Drascula: The Vampire Strikes Back (French)</caption>
 			</image>
 			<image>
-				<file>other/drascula/drascula-fr-2</file>
-				<caption>Drascula: The Vampire Strikes Back (French)</caption>
-			</image>
-			<image>
-				<file>other/drascula/drascula-fr-3</file>
-				<caption>Drascula: The Vampire Strikes Back (French)</caption>
-			</image>
-			<image>
-				<file>other/drascula/drascula-de-1</file>
+				<file>other/drascula/drascula-de-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Drascula: The Vampire Strikes Back (German)</caption>
 			</image>
 			<image>
-				<file>other/drascula/drascula-de-2</file>
-				<caption>Drascula: The Vampire Strikes Back (German)</caption>
-			</image>
-			<image>
-				<file>other/drascula/drascula-de-3</file>
-				<caption>Drascula: The Vampire Strikes Back (German)</caption>
-			</image>
-			<image>
-				<file>other/drascula/drascula-it-1</file>
+				<file>other/drascula/drascula-it-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Drascula: The Vampire Strikes Back (Italian)</caption>
 			</image>
 			<image>
-				<file>other/drascula/drascula-it-2</file>
-				<caption>Drascula: The Vampire Strikes Back (Italian)</caption>
-			</image>
-			<image>
-				<file>other/drascula/drascula-it-3</file>
-				<caption>Drascula: The Vampire Strikes Back (Italian)</caption>
-			</image>
-			<image>
-				<file>other/drascula/drascula-es-1</file>
-				<caption>Drascula: The Vampire Strikes Back (Spanish)</caption>
-			</image>
-			<image>
-				<file>other/drascula/drascula-es-2</file>
-				<caption>Drascula: The Vampire Strikes Back (Spanish)</caption>
-			</image>
-			<image>
-				<file>other/drascula/drascula-es-3</file>
+				<file>other/drascula/drascula-es-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Drascula: The Vampire Strikes Back (Spanish)</caption>
 			</image>
 		</game>
@@ -2149,67 +1608,18 @@
 			<name>Dreamweb</name>
 			<category>dreamweb</category>
 			<image>
-				<file>other/dreamweb/dreamweb-cd-1</file>
+				<file>other/dreamweb/dreamweb-cd-#n#</file>
+				<range from="1" to="10" format="%d" />
 				<caption>Dreamweb (DOS/English)</caption>
 			</image>
 			<image>
-				<file>other/dreamweb/dreamweb-cd-2</file>
-				<caption>Dreamweb (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/dreamweb/dreamweb-cd-3</file>
-				<caption>Dreamweb (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/dreamweb/dreamweb-cd-4</file>
-				<caption>Dreamweb (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/dreamweb/dreamweb-cd-5</file>
-				<caption>Dreamweb (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/dreamweb/dreamweb-cd-6</file>
-				<caption>Dreamweb (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/dreamweb/dreamweb-cd-7</file>
-				<caption>Dreamweb (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/dreamweb/dreamweb-cd-8</file>
-				<caption>Dreamweb (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/dreamweb/dreamweb-cd-9</file>
-				<caption>Dreamweb (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/dreamweb/dreamweb-cd-10</file>
-				<caption>Dreamweb (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/dreamweb/dreamweb-cd-fr-1</file>
+				<file>other/dreamweb/dreamweb-cd-fr-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Dreamweb (DOS/French)</caption>
 			</image>
 			<image>
-				<file>other/dreamweb/dreamweb-cd-fr-2</file>
-				<caption>Dreamweb (DOS/French)</caption>
-			</image>
-			<image>
-				<file>other/dreamweb/dreamweb-cd-fr-3</file>
-				<caption>Dreamweb (DOS/French)</caption>
-			</image>
-			<image>
-				<file>other/dreamweb/dreamweb-cd-es-1</file>
-				<caption>Dreamweb (DOS/Spanish)</caption>
-			</image>
-			<image>
-				<file>other/dreamweb/dreamweb-cd-es-2</file>
-				<caption>Dreamweb (DOS/Spanish)</caption>
-			</image>
-			<image>
-				<file>other/dreamweb/dreamweb-cd-es-3</file>
+				<file>other/dreamweb/dreamweb-cd-es-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Dreamweb (DOS/Spanish)</caption>
 			</image>
 		</game>
@@ -2225,31 +1635,18 @@
 				<caption>Flight of the Amazon Queen (DOS Hebrew)</caption>
 			</image>
 			<image>
-				<file>other/queen/queen-fr-1</file>
+				<file>other/queen/queen-fr-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Flight of the Amazon Queen (DOS/French)</caption>
 			</image>
 			<image>
-				<file>other/queen/queen-fr-2</file>
-				<caption>Flight of the Amazon Queen (DOS/French)</caption>
-			</image>
-			<image>
-				<file>other/queen/queen-de-1</file>
+				<file>other/queen/queen-de-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Flight of the Amazon Queen (DOS German)</caption>
 			</image>
 			<image>
-				<file>other/queen/queen-de-2</file>
-				<caption>Flight of the Amazon Queen (DOS German)</caption>
-			</image>
-			<image>
-				<file>other/queen/queen-amiga-1</file>
-				<caption>Flight of the Amazon Queen (Amiga)</caption>
-			</image>
-			<image>
-				<file>other/queen/queen-amiga-2</file>
-				<caption>Flight of the Amazon Queen (Amiga)</caption>
-			</image>
-			<image>
-				<file>other/queen/queen-amiga-3</file>
+				<file>other/queen/queen-amiga-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Flight of the Amazon Queen (Amiga)</caption>
 			</image>
 		</game>
@@ -2257,19 +1654,8 @@
 			<name>Future Wars: Time Travelers</name>
 			<category>fw</category>
 			<image>
-				<file>other/fw/scummvm_2_8_0</file>
-				<caption>Future Wars: Time Travellers</caption>
-			</image>
-			<image>
-				<file>other/fw/scummvm_2_8_1</file>
-				<caption>Future Wars: Time Travellers</caption>
-			</image>
-			<image>
-				<file>other/fw/scummvm_2_8_2</file>
-				<caption>Future Wars: Time Travellers</caption>
-			</image>
-			<image>
-				<file>other/fw/scummvm_2_8_3</file>
+				<file>other/fw/scummvm_2_8_#n#</file>
+				<range from="0" to="3" format="%d" />
 				<caption>Future Wars: Time Travellers</caption>
 			</image>
 		</game>
@@ -2277,23 +1663,8 @@
 			<name>Hopkins FBI</name>
 			<category>hopkins</category>
 			<image>
-				<file>other/hopkins/hopkins-1</file>
-				<caption>Hopkins FBI (PC/Linux)</caption>
-			</image>
-			<image>
-				<file>other/hopkins/hopkins-2</file>
-				<caption>Hopkins FBI (PC/Linux)</caption>
-			</image>
-			<image>
-				<file>other/hopkins/hopkins-3</file>
-				<caption>Hopkins FBI (PC/Linux)</caption>
-			</image>
-			<image>
-				<file>other/hopkins/hopkins-4</file>
-				<caption>Hopkins FBI (PC/Linux)</caption>
-			</image>
-			<image>
-				<file>other/hopkins/hopkins-5</file>
+				<file>other/hopkins/hopkins-#n#</file>
+				<range from="1" to="5" format="%d" />
 				<caption>Hopkins FBI (PC/Linux)</caption>
 			</image>
 		</game>
@@ -2301,27 +1672,8 @@
 			<name>I Have no Mouth and I Must Scream</name>
 			<category>ihnm</category>
 			<image>
-				<file>other/ihnm/ihnm-1</file>
-				<caption>I Have no Mouth and I Must Scream (DOS)</caption>
-			</image>
-			<image>
-				<file>other/ihnm/ihnm-2</file>
-				<caption>I Have no Mouth and I Must Scream (DOS)</caption>
-			</image>
-			<image>
-				<file>other/ihnm/ihnm-3</file>
-				<caption>I Have no Mouth and I Must Scream (DOS)</caption>
-			</image>
-			<image>
-				<file>other/ihnm/ihnm-4</file>
-				<caption>I Have no Mouth and I Must Scream (DOS)</caption>
-			</image>
-			<image>
-				<file>other/ihnm/ihnm-5</file>
-				<caption>I Have no Mouth and I Must Scream (DOS)</caption>
-			</image>
-			<image>
-				<file>other/ihnm/ihnm-6</file>
+				<file>other/ihnm/ihnm-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>I Have no Mouth and I Must Scream (DOS)</caption>
 			</image>
 		</game>
@@ -2341,59 +1693,8 @@
 			<name>The Journeyman Project: Pegasus Prime</name>
 			<category>jmp</category>
 			<image>
-				<file>other/jmp/pegasus-mac-01</file>
-				<caption>The Journeyman Project: Pegasus Prime (Mac)</caption>
-			</image>
-			<image>
-				<file>other/jmp/pegasus-mac-02</file>
-				<caption>The Journeyman Project: Pegasus Prime (Mac)</caption>
-			</image>
-			<image>
-				<file>other/jmp/pegasus-mac-03</file>
-				<caption>The Journeyman Project: Pegasus Prime (Mac)</caption>
-			</image>
-			<image>
-				<file>other/jmp/pegasus-mac-04</file>
-				<caption>The Journeyman Project: Pegasus Prime (Mac)</caption>
-			</image>
-			<image>
-				<file>other/jmp/pegasus-mac-05</file>
-				<caption>The Journeyman Project: Pegasus Prime (Mac)</caption>
-			</image>
-			<image>
-				<file>other/jmp/pegasus-mac-06</file>
-				<caption>The Journeyman Project: Pegasus Prime (Mac)</caption>
-			</image>
-			<image>
-				<file>other/jmp/pegasus-mac-07</file>
-				<caption>The Journeyman Project: Pegasus Prime (Mac)</caption>
-			</image>
-			<image>
-				<file>other/jmp/pegasus-mac-08</file>
-				<caption>The Journeyman Project: Pegasus Prime (Mac)</caption>
-			</image>
-			<image>
-				<file>other/jmp/pegasus-mac-09</file>
-				<caption>The Journeyman Project: Pegasus Prime (Mac)</caption>
-			</image>
-			<image>
-				<file>other/jmp/pegasus-mac-10</file>
-				<caption>The Journeyman Project: Pegasus Prime (Mac)</caption>
-			</image>
-			<image>
-				<file>other/jmp/pegasus-mac-11</file>
-				<caption>The Journeyman Project: Pegasus Prime (Mac)</caption>
-			</image>
-			<image>
-				<file>other/jmp/pegasus-mac-12</file>
-				<caption>The Journeyman Project: Pegasus Prime (Mac)</caption>
-			</image>
-			<image>
-				<file>other/jmp/pegasus-mac-13</file>
-				<caption>The Journeyman Project: Pegasus Prime (Mac)</caption>
-			</image>
-			<image>
-				<file>other/jmp/pegasus-mac-14</file>
+				<file>other/jmp/pegasus-mac-#n#</file>
+				<range from="1" to="14" format="%02d" />
 				<caption>The Journeyman Project: Pegasus Prime (Mac)</caption>
 			</image>
 		</game>
@@ -2401,35 +1702,18 @@
 			<name>Nippon Safes Inc.</name>
 			<category>nippon</category>
 			<image>
-				<file>other/nippon/nippon-0</file>
+				<file>other/nippon/nippon-#n#</file>
+				<range from="0" to="3" format="%d" />
 				<caption>Nippon Safes Inc. (DOS)</caption>
 			</image>
 			<image>
-				<file>other/nippon/nippon-1</file>
-				<caption>Nippon Safes Inc. (DOS)</caption>
-			</image>
-			<image>
-				<file>other/nippon/nippon-2</file>
-				<caption>Nippon Safes Inc. (DOS)</caption>
-			</image>
-			<image>
-				<file>other/nippon/nippon-3</file>
-				<caption>Nippon Safes Inc. (DOS)</caption>
-			</image>
-			<image>
-				<file>other/nippon/nippon-it-1</file>
+				<file>other/nippon/nippon-it-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Nippon Safes Inc. (DOS/Italian)</caption>
 			</image>
 			<image>
-				<file>other/nippon/nippon-it-2</file>
-				<caption>Nippon Safes Inc. (DOS/Italian)</caption>
-			</image>
-			<image>
-				<file>other/nippon/nippon-amiga-fr-1</file>
-				<caption>Nippon Safes Inc. (Amiga/French)</caption>
-			</image>
-			<image>
-				<file>other/nippon/nippon-amiga-fr-2</file>
+				<file>other/nippon/nippon-amiga-fr-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Nippon Safes Inc. (Amiga/French)</caption>
 			</image>
 			<image>
@@ -2441,79 +1725,18 @@
 			<name>Ringworld series</name>
 			<category>ringworld</category>
 			<image>
-				<file>other/ringworld/ringworld1-1</file>
+				<file>other/ringworld/ringworld1-#n#</file>
+				<range from="1" to="10" format="%d" />
 				<caption>Ringworld: Revenge of the Patriarch</caption>
 			</image>
 			<image>
-				<file>other/ringworld/ringworld1-2</file>
-				<caption>Ringworld: Revenge of the Patriarch</caption>
-			</image>
-			<image>
-				<file>other/ringworld/ringworld1-3</file>
-				<caption>Ringworld: Revenge of the Patriarch</caption>
-			</image>
-			<image>
-				<file>other/ringworld/ringworld1-4</file>
-				<caption>Ringworld: Revenge of the Patriarch</caption>
-			</image>
-			<image>
-				<file>other/ringworld/ringworld1-5</file>
-				<caption>Ringworld: Revenge of the Patriarch</caption>
-			</image>
-			<image>
-				<file>other/ringworld/ringworld1-6</file>
-				<caption>Ringworld: Revenge of the Patriarch</caption>
-			</image>
-			<image>
-				<file>other/ringworld/ringworld1-7</file>
-				<caption>Ringworld: Revenge of the Patriarch</caption>
-			</image>
-			<image>
-				<file>other/ringworld/ringworld1-8</file>
-				<caption>Ringworld: Revenge of the Patriarch</caption>
-			</image>
-			<image>
-				<file>other/ringworld/ringworld1-9</file>
-				<caption>Ringworld: Revenge of the Patriarch</caption>
-			</image>
-			<image>
-				<file>other/ringworld/ringworld1-10</file>
-				<caption>Ringworld: Revenge of the Patriarch</caption>
-			</image>
-			<image>
-				<file>other/ringworld/ringworld-cd-es-1</file>
+				<file>other/ringworld/ringworld-cd-es-#n#</file>
+				<range from="1" to="4" format="%d" />
 				<caption>Ringworld: Revenge of the Patriarch (Spanish)</caption>
 			</image>
 			<image>
-				<file>other/ringworld/ringworld-cd-es-2</file>
-				<caption>Ringworld: Revenge of the Patriarch (Spanish)</caption>
-			</image>
-			<image>
-				<file>other/ringworld/ringworld-cd-es-3</file>
-				<caption>Ringworld: Revenge of the Patriarch (Spanish)</caption>
-			</image>
-			<image>
-				<file>other/ringworld/ringworld-cd-es-4</file>
-				<caption>Ringworld: Revenge of the Patriarch (Spanish)</caption>
-			</image>
-			<image>
-				<file>other/ringworld2/ringworld2-1</file>
-				<caption>Return to Ringworld</caption>
-			</image>
-			<image>
-				<file>other/ringworld2/ringworld2-2</file>
-				<caption>Return to Ringworld</caption>
-			</image>
-			<image>
-				<file>other/ringworld2/ringworld2-3</file>
-				<caption>Return to Ringworld</caption>
-			</image>
-			<image>
-				<file>other/ringworld2/ringworld2-4</file>
-				<caption>Return to Ringworld</caption>
-			</image>
-			<image>
-				<file>other/ringworld2/ringworld2-5</file>
+				<file>other/ringworld2/ringworld2-#n#</file>
+				<range from="1" to="5" format="%d" />
 				<caption>Return to Ringworld</caption>
 			</image>
 		</game>
@@ -2521,123 +1744,13 @@
 			<name>Sherlock Holmes series</name>
 			<category>sherlock</category>
 			<image>
-				<file>other/sherlock/scalpel-de-01</file>
+				<file>other/sherlock/scalpel-de-#n#</file>
+				<range from="1" to="15" format="%02d" />
 				<caption>Sherlock Holmes: The Case of the Serrated Scalpel (DOS/German)</caption>
 			</image>
 			<image>
-				<file>other/sherlock/scalpel-de-02</file>
-				<caption>Sherlock Holmes: The Case of the Serrated Scalpel (DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/scalpel-de-03</file>
-				<caption>Sherlock Holmes: The Case of the Serrated Scalpel (DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/scalpel-de-04</file>
-				<caption>Sherlock Holmes: The Case of the Serrated Scalpel (DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/scalpel-de-05</file>
-				<caption>Sherlock Holmes: The Case of the Serrated Scalpel (DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/scalpel-de-06</file>
-				<caption>Sherlock Holmes: The Case of the Serrated Scalpel (DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/scalpel-de-07</file>
-				<caption>Sherlock Holmes: The Case of the Serrated Scalpel (DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/scalpel-de-08</file>
-				<caption>Sherlock Holmes: The Case of the Serrated Scalpel (DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/scalpel-de-09</file>
-				<caption>Sherlock Holmes: The Case of the Serrated Scalpel (DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/scalpel-de-10</file>
-				<caption>Sherlock Holmes: The Case of the Serrated Scalpel (DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/scalpel-de-11</file>
-				<caption>Sherlock Holmes: The Case of the Serrated Scalpel (DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/scalpel-de-12</file>
-				<caption>Sherlock Holmes: The Case of the Serrated Scalpel (DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/scalpel-de-13</file>
-				<caption>Sherlock Holmes: The Case of the Serrated Scalpel (DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/scalpel-de-14</file>
-				<caption>Sherlock Holmes: The Case of the Serrated Scalpel (DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/scalpel-de-15</file>
-				<caption>Sherlock Holmes: The Case of the Serrated Scalpel (DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/rosetattoo-de-01</file>
-				<caption>The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo (CD/DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/rosetattoo-de-02</file>
-				<caption>The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo (CD/DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/rosetattoo-de-03</file>
-				<caption>The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo (CD/DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/rosetattoo-de-04</file>
-				<caption>The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo (CD/DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/rosetattoo-de-05</file>
-				<caption>The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo (CD/DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/rosetattoo-de-06</file>
-				<caption>The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo (CD/DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/rosetattoo-de-07</file>
-				<caption>The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo (CD/DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/rosetattoo-de-08</file>
-				<caption>The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo (CD/DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/rosetattoo-de-09</file>
-				<caption>The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo (CD/DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/rosetattoo-de-10</file>
-				<caption>The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo (CD/DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/rosetattoo-de-11</file>
-				<caption>The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo (CD/DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/rosetattoo-de-12</file>
-				<caption>The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo (CD/DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/rosetattoo-de-13</file>
-				<caption>The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo (CD/DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/rosetattoo-de-14</file>
-				<caption>The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo (CD/DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/sherlock/rosetattoo-de-15</file>
+				<file>other/sherlock/rosetattoo-de-#n#</file>
+				<range from="1" to="15" format="%02d" />
 				<caption>The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo (CD/DOS/German)</caption>
 			</image>
 		</game>
@@ -2645,55 +1758,8 @@
 			<name>Sfinx</name>
 			<category>sfinx</category>
 			<image>
-				<file>other/sfinx/sfinx-01</file>
-				<caption>Sfinx (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/sfinx/sfinx-02</file>
-				<caption>Sfinx (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/sfinx/sfinx-03</file>
-				<caption>Sfinx (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/sfinx/sfinx-04</file>
-				<caption>Sfinx (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/sfinx/sfinx-05</file>
-				<caption>Sfinx (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/sfinx/sfinx-06</file>
-				<caption>Sfinx (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/sfinx/sfinx-07</file>
-				<caption>Sfinx (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/sfinx/sfinx-08</file>
-				<caption>Sfinx (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/sfinx/sfinx-09</file>
-				<caption>Sfinx (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/sfinx/sfinx-10</file>
-				<caption>Sfinx (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/sfinx/sfinx-11</file>
-				<caption>Sfinx (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/sfinx/sfinx-12</file>
-				<caption>Sfinx (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/sfinx/sfinx-13</file>
+				<file>other/sfinx/sfinx-#n#</file>
+				<range from="1" to="13" format="%02d" />
 				<caption>Sfinx (DOS/English)</caption>
 			</image>
 		</game>
@@ -2701,55 +1767,18 @@
 			<name>Soltys</name>
 			<category>soltys</category>
 			<image>
-				<file>other/soltys/soltys-1</file>
+				<file>other/soltys/soltys-#n#</file>
+				<range from="1" to="9" format="%d" />
 				<caption>Soltys (DOS/English)</caption>
 			</image>
 			<image>
-				<file>other/soltys/soltys-2</file>
-				<caption>Soltys (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/soltys/soltys-3</file>
-				<caption>Soltys (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/soltys/soltys-4</file>
-				<caption>Soltys (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/soltys/soltys-5</file>
-				<caption>Soltys (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/soltys/soltys-6</file>
-				<caption>Soltys (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/soltys/soltys-7</file>
-				<caption>Soltys (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/soltys/soltys-8</file>
-				<caption>Soltys (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/soltys/soltys-9</file>
-				<caption>Soltys (DOS/English)</caption>
-			</image>
-			<image>
-				<file>other/soltys/soltys-pl-1</file>
+				<file>other/soltys/soltys-pl-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Soltys (DOS/Polish)</caption>
 			</image>
 			<image>
-				<file>other/soltys/soltys-pl-2</file>
-				<caption>Soltys (DOS/Polish)</caption>
-			</image>
-			<image>
-				<file>other/soltys/soltys-es-1</file>
-				<caption>Soltys (DOS/Spanish)</caption>
-			</image>
-			<image>
-				<file>other/soltys/soltys-es-2</file>
+				<file>other/soltys/soltys-es-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Soltys (DOS/Spanish)</caption>
 			</image>
 		</game>
@@ -2757,35 +1786,8 @@
 			<name>The 7th Guest</name>
 			<category>t7g</category>
 			<image>
-				<file>groovie/t7g-0</file>
-				<caption>The 7th Guest</caption>
-			</image>
-			<image>
-				<file>groovie/t7g-1</file>
-				<caption>The 7th Guest</caption>
-			</image>
-			<image>
-				<file>groovie/t7g-2</file>
-				<caption>The 7th Guest</caption>
-			</image>
-			<image>
-				<file>groovie/t7g-3</file>
-				<caption>The 7th Guest</caption>
-			</image>
-			<image>
-				<file>groovie/t7g-4</file>
-				<caption>The 7th Guest</caption>
-			</image>
-			<image>
-				<file>groovie/t7g-5</file>
-				<caption>The 7th Guest</caption>
-			</image>
-			<image>
-				<file>groovie/t7g-6</file>
-				<caption>The 7th Guest</caption>
-			</image>
-			<image>
-				<file>groovie/t7g-7</file>
+				<file>groovie/t7g-#n#</file>
+				<range from="0" to="7" format="%d" />
 				<caption>The 7th Guest</caption>
 			</image>
 		</game>
@@ -2793,27 +1795,8 @@
 			<name>Teenagent</name>
 			<category>teenagent</category>
 			<image>
-				<file>other/teenagent/teenagent-0</file>
-				<caption>Teenagent</caption>
-			</image>
-			<image>
-				<file>other/teenagent/teenagent-1</file>
-				<caption>Teenagent</caption>
-			</image>
-			<image>
-				<file>other/teenagent/teenagent-2</file>
-				<caption>Teenagent</caption>
-			</image>
-			<image>
-				<file>other/teenagent/teenagent-3</file>
-				<caption>Teenagent</caption>
-			</image>
-			<image>
-				<file>other/teenagent/teenagent-4</file>
-				<caption>Teenagent</caption>
-			</image>
-			<image>
-				<file>other/teenagent/teenagent-5</file>
+				<file>other/teenagent/teenagent-#n#</file>
+				<range from="0" to="5" format="%d" />
 				<caption>Teenagent</caption>
 			</image>
 		</game>
@@ -2821,91 +1804,8 @@
 			<name>Tony Tough and the Night of Roasted Moths</name>
 			<category>tony</category>
 			<image>
-				<file>other/tony/tony-win-de-01</file>
-				<caption>Tony Tough and the Night of Roasted Moths (German)</caption>
-			</image>
-			<image>
-				<file>other/tony/tony-win-de-02</file>
-				<caption>Tony Tough and the Night of Roasted Moths (German)</caption>
-			</image>
-			<image>
-				<file>other/tony/tony-win-de-03</file>
-				<caption>Tony Tough and the Night of Roasted Moths (German)</caption>
-			</image>
-			<image>
-				<file>other/tony/tony-win-de-04</file>
-				<caption>Tony Tough and the Night of Roasted Moths (German)</caption>
-			</image>
-			<image>
-				<file>other/tony/tony-win-de-05</file>
-				<caption>Tony Tough and the Night of Roasted Moths (German)</caption>
-			</image>
-			<image>
-				<file>other/tony/tony-win-de-06</file>
-				<caption>Tony Tough and the Night of Roasted Moths (German)</caption>
-			</image>
-			<image>
-				<file>other/tony/tony-win-de-07</file>
-				<caption>Tony Tough and the Night of Roasted Moths (German)</caption>
-			</image>
-			<image>
-				<file>other/tony/tony-win-de-08</file>
-				<caption>Tony Tough and the Night of Roasted Moths (German)</caption>
-			</image>
-			<image>
-				<file>other/tony/tony-win-de-09</file>
-				<caption>Tony Tough and the Night of Roasted Moths (German)</caption>
-			</image>
-			<image>
-				<file>other/tony/tony-win-de-10</file>
-				<caption>Tony Tough and the Night of Roasted Moths (German)</caption>
-			</image>
-			<image>
-				<file>other/tony/tony-win-de-11</file>
-				<caption>Tony Tough and the Night of Roasted Moths (German)</caption>
-			</image>
-			<image>
-				<file>other/tony/tony-win-de-12</file>
-				<caption>Tony Tough and the Night of Roasted Moths (German)</caption>
-			</image>
-			<image>
-				<file>other/tony/tony-win-de-13</file>
-				<caption>Tony Tough and the Night of Roasted Moths (German)</caption>
-			</image>
-			<image>
-				<file>other/tony/tony-win-de-14</file>
-				<caption>Tony Tough and the Night of Roasted Moths (German)</caption>
-			</image>
-			<image>
-				<file>other/tony/tony-win-de-15</file>
-				<caption>Tony Tough and the Night of Roasted Moths (German)</caption>
-			</image>
-			<image>
-				<file>other/tony/tony-win-de-16</file>
-				<caption>Tony Tough and the Night of Roasted Moths (German)</caption>
-			</image>
-			<image>
-				<file>other/tony/tony-win-de-17</file>
-				<caption>Tony Tough and the Night of Roasted Moths (German)</caption>
-			</image>
-			<image>
-				<file>other/tony/tony-win-de-18</file>
-				<caption>Tony Tough and the Night of Roasted Moths (German)</caption>
-			</image>
-			<image>
-				<file>other/tony/tony-win-de-19</file>
-				<caption>Tony Tough and the Night of Roasted Moths (German)</caption>
-			</image>
-			<image>
-				<file>other/tony/tony-win-de-20</file>
-				<caption>Tony Tough and the Night of Roasted Moths (German)</caption>
-			</image>
-			<image>
-				<file>other/tony/tony-win-de-21</file>
-				<caption>Tony Tough and the Night of Roasted Moths (German)</caption>
-			</image>
-			<image>
-				<file>other/tony/tony-win-de-22</file>
+				<file>other/tony/tony-win-de-#n#</file>
+				<range from="1" to="22" format="%02d" />
 				<caption>Tony Tough and the Night of Roasted Moths (German)</caption>
 			</image>
 		</game>
@@ -2913,43 +1813,13 @@
 			<name>Toonstruck</name>
 			<category>toon</category>
 			<image>
-				<file>other/toon/toon-1</file>
+				<file>other/toon/toon-#n#</file>
+				<range from="1" to="7" format="%d" />
 				<caption>Toonstruck</caption>
 			</image>
 			<image>
-				<file>other/toon/toon-2</file>
-				<caption>Toonstruck</caption>
-			</image>
-			<image>
-				<file>other/toon/toon-3</file>
-				<caption>Toonstruck</caption>
-			</image>
-			<image>
-				<file>other/toon/toon-4</file>
-				<caption>Toonstruck</caption>
-			</image>
-			<image>
-				<file>other/toon/toon-5</file>
-				<caption>Toonstruck</caption>
-			</image>
-			<image>
-				<file>other/toon/toon-6</file>
-				<caption>Toonstruck</caption>
-			</image>
-			<image>
-				<file>other/toon/toon-7</file>
-				<caption>Toonstruck</caption>
-			</image>
-			<image>
-				<file>other/toon/toon-fr-1</file>
-				<caption>Toonstruck (French)</caption>
-			</image>
-			<image>
-				<file>other/toon/toon-fr-2</file>
-				<caption>Toonstruck (French)</caption>
-			</image>
-			<image>
-				<file>other/toon/toon-fr-3</file>
+				<file>other/toon/toon-fr-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Toonstruck (French)</caption>
 			</image>
 		</game>
@@ -2957,39 +1827,13 @@
 			<name>Touch&eacute;: The Adventures of the Fifth Musketeer</name>
 			<category>touche</category>
 			<image>
-				<file>other/touche/scummvm_2_10_0</file>
+				<file>other/touche/scummvm_2_10_#n#</file>
+				<range from="0" to="5" format="%d" />
 				<caption>Touch&eacute;: The Adventures of the Fifth Musketeer</caption>
 			</image>
 			<image>
-				<file>other/touche/scummvm_2_10_1</file>
-				<caption>Touch&eacute;: The Adventures of the Fifth Musketeer</caption>
-			</image>
-			<image>
-				<file>other/touche/scummvm_2_10_2</file>
-				<caption>Touch&eacute;: The Adventures of the Fifth Musketeer</caption>
-			</image>
-			<image>
-				<file>other/touche/scummvm_2_10_3</file>
-				<caption>Touch&eacute;: The Adventures of the Fifth Musketeer</caption>
-			</image>
-			<image>
-				<file>other/touche/scummvm_2_10_4</file>
-				<caption>Touch&eacute;: The Adventures of the Fifth Musketeer</caption>
-			</image>
-			<image>
-				<file>other/touche/scummvm_2_10_5</file>
-				<caption>Touch&eacute;: The Adventures of the Fifth Musketeer</caption>
-			</image>
-			<image>
-				<file>other/touche/touche-fr-1</file>
-				<caption>Touch&eacute;: The Adventures of the Fifth Musketeer (French)</caption>
-			</image>
-			<image>
-				<file>other/touche/touche-fr-2</file>
-				<caption>Touch&eacute;: The Adventures of the Fifth Musketeer (French)</caption>
-			</image>
-			<image>
-				<file>other/touche/touche-fr-3</file>
+				<file>other/touche/touche-fr-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Touch&eacute;: The Adventures of the Fifth Musketeer (French)</caption>
 			</image>
 		</game>
