@@ -8,43 +8,23 @@
 			<name>Maniac Mansion</name>
 			<category>maniac</category>
 			<image>
-				<file>lec/maniac/scummvm_0_0_0</file>
+				<file>lec/maniac/scummvm_0_0_#n#</file>
+				<range from="0" to="1" format="%d" />
 				<caption>Maniac Mansion (NES)</caption>
 			</image>
 			<image>
-				<file>lec/maniac/scummvm_0_0_1</file>
-				<caption>Maniac Mansion (NES)</caption>
-			</image>
-			<image>
-				<file>lec/maniac/scummvm_0_0_2</file>
+				<file>lec/maniac/scummvm_0_0_#n#</file>
+				<range from="2" to="3" format="%d" />
 				<caption>Maniac Mansion</caption>
 			</image>
 			<image>
-				<file>lec/maniac/scummvm_0_0_3</file>
-				<caption>Maniac Mansion</caption>
-			</image>
-			<image>
-				<file>lec/maniac/scummvm_0_0_4</file>
+				<file>lec/maniac/scummvm_0_0_#n#</file>
+				<range from="4" to="5" format="%d" />
 				<caption>Maniac Mansion (Enhanced)</caption>
 			</image>
 			<image>
-				<file>lec/maniac/scummvm_0_0_5</file>
-				<caption>Maniac Mansion (Enhanced)</caption>
-			</image>
-			<image>
-				<file>lec/maniac/maniac-amiga-0</file>
-				<caption>Maniac Mansion (Amiga)</caption>
-			</image>
-			<image>
-				<file>lec/maniac/maniac-amiga-1</file>
-				<caption>Maniac Mansion (Amiga)</caption>
-			</image>
-			<image>
-				<file>lec/maniac/maniac-amiga-2</file>
-				<caption>Maniac Mansion (Amiga)</caption>
-			</image>
-			<image>
-				<file>lec/maniac/maniac-amiga-3</file>
+				<file>lec/maniac/maniac-amiga-#n#</file>
+				<range from="0" to="3" format="%d" />
 				<caption>Maniac Mansion (Amiga)</caption>
 			</image>
 			<image>
@@ -68,27 +48,13 @@
 				<caption>Zak McKracken and the Alien Mindbenders (Amiga)</caption>
 			</image>
 			<image>
-				<file>lec/zak/scummvm_0_1_3</file>
+				<file>lec/zak/scummvm_0_1_#n#</file>
+				<range from="3" to="4" format="%d" />
 				<caption>Zak McKracken and the Alien Mindbenders (FM-TOWNS)</caption>
 			</image>
 			<image>
-				<file>lec/zak/scummvm_0_1_4</file>
-				<caption>Zak McKracken and the Alien Mindbenders (FM-TOWNS)</caption>
-			</image>
-			<image>
-				<file>lec/zak/zak-fm-2</file>
-				<caption>Zak McKracken and the Alien Mindbenders (FM-TOWNS)</caption>
-			</image>
-			<image>
-				<file>lec/zak/zak-fm-3</file>
-				<caption>Zak McKracken and the Alien Mindbenders (FM-TOWNS)</caption>
-			</image>
-			<image>
-				<file>lec/zak/zak-fm-4</file>
-				<caption>Zak McKracken and the Alien Mindbenders (FM-TOWNS)</caption>
-			</image>
-			<image>
-				<file>lec/zak/zak-fm-5</file>
+				<file>lec/zak/zak-fm-#n#</file>
+				<range from="2" to="5" format="%d" />
 				<caption>Zak McKracken and the Alien Mindbenders (FM-TOWNS)</caption>
 			</image>
 		</game>
@@ -96,11 +62,8 @@
 			<name>Indiana Jones and the Last Crusade</name>
 			<category>indy3</category>
 			<image>
-				<file>lec/indy3/scummvm_0_2_0</file>
-				<caption>Indiana Jones and the Last Crusade (EGA)</caption>
-			</image>
-			<image>
-				<file>lec/indy3/scummvm_0_2_1</file>
+				<file>lec/indy3/scummvm_0_2_#n#</file>
+				<range from="0" to="1" format="%d" />
 				<caption>Indiana Jones and the Last Crusade (EGA)</caption>
 			</image>
 			<image>
@@ -108,11 +71,8 @@
 				<caption>Indiana Jones and the Last Crusade (Amiga)</caption>
 			</image>
 			<image>
-				<file>lec/indy3/scummvm_0_2_3</file>
-				<caption>Indiana Jones and the Last Crusade (VGA)</caption>
-			</image>
-			<image>
-				<file>lec/indy3/scummvm_0_2_4</file>
+				<file>lec/indy3/scummvm_0_2_#n#</file>
+				<range from="3" to="4" format="%d" />
 				<caption>Indiana Jones and the Last Crusade (VGA)</caption>
 			</image>
 		</game>
@@ -132,27 +92,18 @@
 				<caption>Loom (Amiga)</caption>
 			</image>
 			<image>
-				<file>lec/loom/scummvm_0_6_3</file>
+				<file>lec/loom/scummvm_0_6_#n#</file>
+				<range from="3" to="4" format="%d" />
 				<caption>Loom (VGA)</caption>
 			</image>
 			<image>
-				<file>lec/loom/scummvm_0_6_4</file>
-				<caption>Loom (VGA)</caption>
-			</image>
-			<image>
-				<file>lec/loom/scummvm_0_6_5</file>
+				<file>lec/loom/scummvm_0_6_#n#</file>
+				<range from="5" to="6" format="%d" />
 				<caption>Loom (PC-Engine USA)</caption>
 			</image>
 			<image>
-				<file>lec/loom/scummvm_0_6_6</file>
-				<caption>Loom (PC-Engine USA)</caption>
-			</image>
-			<image>
-				<file>lec/loom/scummvm_0_6_7</file>
-				<caption>Loom (PC-Engine Japanese)</caption>
-			</image>
-			<image>
-				<file>lec/loom/scummvm_0_6_8</file>
+				<file>lec/loom/scummvm_0_6_#n#</file>
+				<range from="7" to="8" format="%d" />
 				<caption>Loom (PC-Engine Japanese)</caption>
 			</image>
 		</game>
@@ -168,11 +119,8 @@
 				<caption>The Secret of Monkey Island (CGA)</caption>
 			</image>
 			<image>
-				<file>lec/monkey/scummvm_0_4_2</file>
-				<caption>The Secret of Monkey Island (EGA)</caption>
-			</image>
-			<image>
-				<file>lec/monkey/scummvm_0_4_3</file>
+				<file>lec/monkey/scummvm_0_4_#n#</file>
+				<range from="2" to="3" format="%d" />
 				<caption>The Secret of Monkey Island (EGA)</caption>
 			</image>
 			<image>
@@ -192,15 +140,8 @@
 				<caption>The Secret of Monkey Island (DOS CD)</caption>
 			</image>
 			<image>
-				<file>lec/monkey/monkey-cd-1</file>
-				<caption>The Secret of Monkey Island (DOS CD)</caption>
-			</image>
-			<image>
-				<file>lec/monkey/monkey-cd-2</file>
-				<caption>The Secret of Monkey Island (DOS CD)</caption>
-			</image>
-			<image>
-				<file>lec/monkey/monkey-cd-3</file>
+				<file>lec/monkey/monkey-cd-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>The Secret of Monkey Island (DOS CD)</caption>
 			</image>
 			<image>
@@ -220,15 +161,8 @@
 				<caption>Monkey Island 2: LeChuck's Revenge</caption>
 			</image>
 			<image>
-				<file>lec/monkey2/monkey2-1</file>
-				<caption>Monkey Island 2: LeChuck's Revenge</caption>
-			</image>
-			<image>
-				<file>lec/monkey2/monkey2-2</file>
-				<caption>Monkey Island 2: LeChuck's Revenge</caption>
-			</image>
-			<image>
-				<file>lec/monkey2/monkey2-3</file>
+				<file>lec/monkey2/monkey2-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Monkey Island 2: LeChuck's Revenge</caption>
 			</image>
 			<image>
@@ -244,11 +178,8 @@
 			<name>Indiana Jones and the Fate of Atlantis</name>
 			<category>atlantis</category>
 			<image>
-				<file>lec/atlantis/scummvm_0_3_0</file>
-				<caption>Indiana Jones and the Fate of Atlantis</caption>
-			</image>
-			<image>
-				<file>lec/atlantis/scummvm_0_3_1</file>
+				<file>lec/atlantis/scummvm_0_3_#n#</file>
+				<range from="0" to="1" format="%d" />
 				<caption>Indiana Jones and the Fate of Atlantis</caption>
 			</image>
 			<image>
@@ -260,11 +191,8 @@
 			<name>Day of the Tentacle</name>
 			<category>tentacle</category>
 			<image>
-				<file>lec/tentacle/scummvm_0_8_0</file>
-				<caption>Day of the Tentacle</caption>
-			</image>
-			<image>
-				<file>lec/tentacle/scummvm_0_8_1</file>
+				<file>lec/tentacle/scummvm_0_8_#n#</file>
+				<range from="0" to="1" format="%d" />
 				<caption>Day of the Tentacle</caption>
 			</image>
 			<image>
@@ -272,15 +200,8 @@
 				<caption>Day of the Tentacle (French)</caption>
 			</image>
 			<image>
-				<file>lec/tentacle/tentacle-de-1</file>
-				<caption>Day of the Tentacle (German)</caption>
-			</image>
-			<image>
-				<file>lec/tentacle/tentacle-de-2</file>
-				<caption>Day of the Tentacle (German)</caption>
-			</image>
-			<image>
-				<file>lec/tentacle/tentacle-de-3</file>
+				<file>lec/tentacle/tentacle-de-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Day of the Tentacle (German)</caption>
 			</image>
 		</game>
@@ -288,27 +209,13 @@
 			<name>Sam &amp; Max Hit the Road </name>
 			<category>samnmax</category>
 			<image>
-				<file>lec/samnmax/scummvm_0_7_0</file>
+				<file>lec/samnmax/scummvm_0_7_#n#</file>
+				<range from="0" to="2" format="%d" />
 				<caption>Sam &amp; Max Hit the Road</caption>
 			</image>
 			<image>
-				<file>lec/samnmax/scummvm_0_7_1</file>
-				<caption>Sam &amp; Max Hit the Road</caption>
-			</image>
-			<image>
-				<file>lec/samnmax/scummvm_0_7_2</file>
-				<caption>Sam &amp; Max Hit the Road</caption>
-			</image>
-			<image>
-				<file>lec/samnmax/samnmax-3</file>
-				<caption>Sam &amp; Max Hit the Road</caption>
-			</image>
-			<image>
-				<file>lec/samnmax/samnmax-4</file>
-				<caption>Sam &amp; Max Hit the Road</caption>
-			</image>
-			<image>
-				<file>lec/samnmax/samnmax-5</file>
+				<file>lec/samnmax/samnmax-#n#</file>
+				<range from="3" to="5" format="%d" />
 				<caption>Sam &amp; Max Hit the Road</caption>
 			</image>
 		</game>
@@ -316,43 +223,18 @@
 			<name>Full Throttle</name>
 			<category>ft</category>
 			<image>
-				<file>lec/ft/scummvm_0_9_0</file>
+				<file>lec/ft/scummvm_0_9_#n#</file>
+				<range from="0" to="2" format="%d" />
 				<caption>Full Throttle</caption>
 			</image>
 			<image>
-				<file>lec/ft/scummvm_0_9_1</file>
+				<file>lec/ft/ft-#n#</file>
+				<range from="3" to="5" format="%d" />
 				<caption>Full Throttle</caption>
 			</image>
 			<image>
-				<file>lec/ft/scummvm_0_9_2</file>
-				<caption>Full Throttle</caption>
-			</image>
-			<image>
-				<file>lec/ft/ft-3</file>
-				<caption>Full Throttle</caption>
-			</image>
-			<image>
-				<file>lec/ft/ft-4</file>
-				<caption>Full Throttle</caption>
-			</image>
-			<image>
-				<file>lec/ft/ft-5</file>
-				<caption>Full Throttle</caption>
-			</image>
-			<image>
-				<file>lec/ft/ft-br-0</file>
-				<caption>Full Throttle (Brazilian-Portuguese)</caption>
-			</image>
-			<image>
-				<file>lec/ft/ft-br-1</file>
-				<caption>Full Throttle (Brazilian-Portuguese)</caption>
-			</image>
-			<image>
-				<file>lec/ft/ft-br-2</file>
-				<caption>Full Throttle (Brazilian-Portuguese)</caption>
-			</image>
-			<image>
-				<file>lec/ft/ft-br-3</file>
+				<file>lec/ft/ft-br-#n#</file>
+				<range from="0" to="3" format="%d" />
 				<caption>Full Throttle (Brazilian-Portuguese)</caption>
 			</image>
 		</game>
@@ -360,27 +242,13 @@
 			<name>The Dig</name>
 			<category>dig</category>
 			<image>
-				<file>lec/dig/scummvm_0_10_0</file>
+				<file>lec/dig/scummvm_0_10_#n#</file>
+				<range from="0" to="2" format="%d" />
 				<caption>The Dig</caption>
 			</image>
 			<image>
-				<file>lec/dig/scummvm_0_10_1</file>
-				<caption>The Dig</caption>
-			</image>
-			<image>
-				<file>lec/dig/scummvm_0_10_2</file>
-				<caption>The Dig</caption>
-			</image>
-			<image>
-				<file>lec/dig/dig-3</file>
-				<caption>The Dig</caption>
-			</image>
-			<image>
-				<file>lec/dig/dig-4</file>
-				<caption>The Dig</caption>
-			</image>
-			<image>
-				<file>lec/dig/dig-5</file>
+				<file>lec/dig/dig-#n#</file>
+				<range from="3" to="5" format="%d" />
 				<caption>The Dig</caption>
 			</image>
 		</game>
@@ -388,43 +256,23 @@
 			<name>The Curse of Monkey Island</name>
 			<category>comi</category>
 			<image>
-				<file>lec/comi/scummvm_0_11_0</file>
+				<file>lec/comi/scummvm_0_11_#n#</file>
+				<range from="0" to="2" format="%d" />
 				<caption>The Curse of Monkey Island</caption>
 			</image>
 			<image>
-				<file>lec/comi/scummvm_0_11_1</file>
+				<file>lec/comi/comi-#n#</file>
+				<range from="3" to="5" format="%d" />
 				<caption>The Curse of Monkey Island</caption>
 			</image>
 			<image>
-				<file>lec/comi/scummvm_0_11_2</file>
-				<caption>The Curse of Monkey Island</caption>
-			</image>
-			<image>
-				<file>lec/comi/comi-3</file>
-				<caption>The Curse of Monkey Island</caption>
-			</image>
-			<image>
-				<file>lec/comi/comi-4</file>
-				<caption>The Curse of Monkey Island</caption>
-			</image>
-			<image>
-				<file>lec/comi/comi-5</file>
-				<caption>The Curse of Monkey Island</caption>
-			</image>
-			<image>
-				<file>lec/comi/comi-zh-0</file>
+				<file>lec/comi/comi-zh-#n#</file>
+				<range from="0" to="1" format="%d" />
 				<caption>The Curse of Monkey Island (Chinese (Taiwan))</caption>
 			</image>
 			<image>
-				<file>lec/comi/comi-zh-1</file>
-				<caption>The Curse of Monkey Island (Chinese (Taiwan))</caption>
-			</image>
-			<image>
-				<file>lec/comi/comi-de-1</file>
-				<caption>The Curse of Monkey Island (German)</caption>
-			</image>
-			<image>
-				<file>lec/comi/comi-de-2</file>
+				<file>lec/comi/comi-de-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>The Curse of Monkey Island (German)</caption>
 			</image>
 		</game>
