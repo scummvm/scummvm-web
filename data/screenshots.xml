@@ -1320,63 +1320,8 @@
 			<name>Broken Sword 2.5: The Return of the Templars (fan-made)</name>
 			<category>sword25</category>
 			<image>
-				<file>revolution/sword25/sword25-de-01</file>
-				<caption>Broken Sword 2.5: The Return of the Templars (German)</caption>
-			</image>
-			<image>
-				<file>revolution/sword25/sword25-de-02</file>
-				<caption>Broken Sword 2.5: The Return of the Templars (German)</caption>
-			</image>
-			<image>
-				<file>revolution/sword25/sword25-de-03</file>
-				<caption>Broken Sword 2.5: The Return of the Templars (German)</caption>
-			</image>
-			<image>
-				<file>revolution/sword25/sword25-de-04</file>
-				<caption>Broken Sword 2.5: The Return of the Templars (German)</caption>
-			</image>
-			<image>
-				<file>revolution/sword25/sword25-de-05</file>
-				<caption>Broken Sword 2.5: The Return of the Templars (German)</caption>
-			</image>
-			<image>
-				<file>revolution/sword25/sword25-de-06</file>
-				<caption>Broken Sword 2.5: The Return of the Templars (German)</caption>
-			</image>
-			<image>
-				<file>revolution/sword25/sword25-de-07</file>
-				<caption>Broken Sword 2.5: The Return of the Templars (German)</caption>
-			</image>
-			<image>
-				<file>revolution/sword25/sword25-de-08</file>
-				<caption>Broken Sword 2.5: The Return of the Templars (German)</caption>
-			</image>
-			<image>
-				<file>revolution/sword25/sword25-de-09</file>
-				<caption>Broken Sword 2.5: The Return of the Templars (German)</caption>
-			</image>
-			<image>
-				<file>revolution/sword25/sword25-de-10</file>
-				<caption>Broken Sword 2.5: The Return of the Templars (German)</caption>
-			</image>
-			<image>
-				<file>revolution/sword25/sword25-de-11</file>
-				<caption>Broken Sword 2.5: The Return of the Templars (German)</caption>
-			</image>
-			<image>
-				<file>revolution/sword25/sword25-de-12</file>
-				<caption>Broken Sword 2.5: The Return of the Templars (German)</caption>
-			</image>
-			<image>
-				<file>revolution/sword25/sword25-de-13</file>
-				<caption>Broken Sword 2.5: The Return of the Templars (German)</caption>
-			</image>
-			<image>
-				<file>revolution/sword25/sword25-de-14</file>
-				<caption>Broken Sword 2.5: The Return of the Templars (German)</caption>
-			</image>
-			<image>
-				<file>revolution/sword25/sword25-de-15</file>
+				<file>revolution/sword25/sword25-de-#n#</file>
+				<range from="1" to="15" format="%02d" />
 				<caption>Broken Sword 2.5: The Return of the Templars (German)</caption>
 			</image>
 		</game>

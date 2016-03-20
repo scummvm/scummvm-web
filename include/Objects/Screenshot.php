@@ -14,12 +14,28 @@ class Screenshot extends BasicObject {
 		$this->_category = $data['category'];
 		$this->_files = array();
 		if (isset($data['image'])) {
-			#parent::toArray($data['image']);
+			if (!isset($data['image'][0]))
+				parent::toArray($data['image']);
+
 			foreach ($data['image'] as $value) {
-				$this->_files[] = array(
-					'filename' => $value['file'],
-					'caption' => $value['caption'],
-				);
+				if (isset($value['range'])) {
+					$attr = $value['range']['@attributes'];
+					if (!isset($attr['from']) || !isset($attr['to']) || !isset($attr['format'])) {
+						throw new ErrorException('Invalid range format');
+					}
+					$pat = str_replace("#n#", $attr['format'], $value['file']);
+					for ($num = $attr['from']; $num <= $attr['to']; $num++) {
+						$this->_files[] = array(
+							'filename' => sprintf($pat, $num),
+							'caption' => $value['caption'],
+						);
+					}
+				} else {
+					$this->_files[] = array(
+						'filename' => $value['file'],
+						'caption' => $value['caption'],
+					);
+				}
 			}
 		}
 	}
