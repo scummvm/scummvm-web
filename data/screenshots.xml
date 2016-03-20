@@ -726,23 +726,8 @@
 			<name>The Black Cauldron</name>
 			<category>bc</category>
 			<image>
-				<file>agi/bc/scummvm_3_1_0</file>
-				<caption>The Black Cauldron (2.00 1987-06-14/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/bc/scummvm_3_1_1</file>
-				<caption>The Black Cauldron (2.00 1987-06-14/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/bc/scummvm_3_1_2</file>
-				<caption>The Black Cauldron (2.00 1987-06-14/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/bc/scummvm_3_1_3</file>
-				<caption>The Black Cauldron (2.00 1987-06-14/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/bc/scummvm_3_1_4</file>
+				<file>agi/bc/scummvm_3_1_#n#</file>
+				<range from="0" to="4" format="%d" />
 				<caption>The Black Cauldron (2.00 1987-06-14/DOS/English)</caption>
 			</image>
 		</game>
@@ -750,27 +735,13 @@
 			<name>Gold Rush</name>
 			<category>gr</category>
 			<image>
-				<file>agi/goldrush/scummvm_3_2_0</file>
+				<file>agi/goldrush/scummvm_3_2_#n#</file>
+				<range from="0" to="3" format="%d" />
 				<caption>Gold Rush! (2.01 1988-12-22 3.5&quot;/DOS/English)</caption>
 			</image>
 			<image>
-				<file>agi/goldrush/scummvm_3_2_1</file>
-				<caption>Gold Rush! (2.01 1988-12-22 3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/goldrush/scummvm_3_2_2</file>
-				<caption>Gold Rush! (2.01 1988-12-22 3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/goldrush/scummvm_3_2_3</file>
-				<caption>Gold Rush! (2.01 1988-12-22 3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/goldrush/gr-amiga-0</file>
-				<caption>Gold Rush! (1.01 1989-01-13 aka 2.05 1989-03-09/Amiga/English)</caption>
-			</image>
-			<image>
-				<file>agi/goldrush/gr-amiga-1</file>
+				<file>agi/goldrush/gr-amiga-#n#</file>
+				<range from="0" to="1" format="%d" />
 				<caption>Gold Rush! (1.01 1989-01-13 aka 2.05 1989-03-09/Amiga/English)</caption>
 			</image>
 		</game>
@@ -778,75 +749,28 @@
 			<name>King's Quest series</name>
 			<category>kq</category>
 			<image>
-				<file>agi/kq/scummvm_3_3_0</file>
+				<file>agi/kq/scummvm_3_3_#n#</file>
+				<range from="0" to="3" format="%d" />
 				<caption>King's Quest I: Quest for the Crown (2.0F 1987-05-05 5.25&quot;/3.5&quot;/DOS/English)</caption>
 			</image>
 			<image>
-				<file>agi/kq/scummvm_3_3_1</file>
-				<caption>King's Quest I: Quest for the Crown (2.0F 1987-05-05 5.25&quot;/3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/kq/scummvm_3_3_2</file>
-				<caption>King's Quest I: Quest for the Crown (2.0F 1987-05-05 5.25&quot;/3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/kq/scummvm_3_3_3</file>
-				<caption>King's Quest I: Quest for the Crown (2.0F 1987-05-05 5.25&quot;/3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/kq/scummvm_3_3_4</file>
+				<file>agi/kq/scummvm_3_3_#n#</file>
+				<range from="4" to="5" format="%d" />
 				<caption>King's Quest II: Romancing the Stone (2.1 1987-04-10/DOS/English)</caption>
 			</image>
 			<image>
-				<file>agi/kq/scummvm_3_3_5</file>
-				<caption>King's Quest II: Romancing the Stone (2.1 1987-04-10/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/kq/scummvm_3_3_6</file>
+				<file>agi/kq/scummvm_3_3_#n#</file>
+				<range from="6" to="7" format="%d" />
 				<caption>King's Quest II: Romancing the Throne (2.2 1987-05-07 5.25&quot;/3.5&quot;/DOS/English)</caption>
 			</image>
 			<image>
-				<file>agi/kq/scummvm_3_3_7</file>
-				<caption>King's Quest II: Romancing the Throne (2.2 1987-05-07 5.25&quot;/3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/kq/scummvm_3_3_8</file>
+				<file>agi/kq/scummvm_3_3_#n#</file>
+				<range from="8" to="12" format="%d" />
 				<caption>King's Quest III: To Heir Is Human (2.14 1988-03-15 3.5&quot;/DOS/English)</caption>
 			</image>
 			<image>
-				<file>agi/kq/scummvm_3_3_9</file>
-				<caption>King's Quest III: To Heir Is Human (2.14 1988-03-15 3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/kq/scummvm_3_3_10</file>
-				<caption>King's Quest III: To Heir Is Human (2.14 1988-03-15 3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/kq/scummvm_3_3_11</file>
-				<caption>King's Quest III: To Heir Is Human (2.14 1988-03-15 3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/kq/scummvm_3_3_12</file>
-				<caption>King's Quest III: To Heir Is Human (2.14 1988-03-15 3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/kq/scummvm_3_3_13</file>
-				<caption>King's Quest IV: The Perils of Rosella (2.0 1988-07-27 3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/kq/scummvm_3_3_14</file>
-				<caption>King's Quest IV: The Perils of Rosella (2.0 1988-07-27 3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/kq/scummvm_3_3_15</file>
-				<caption>King's Quest IV: The Perils of Rosella (2.0 1988-07-27 3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/kq/scummvm_3_3_16</file>
-				<caption>King's Quest IV: The Perils of Rosella (2.0 1988-07-27 3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/kq/scummvm_3_3_17</file>
+				<file>agi/kq/scummvm_3_3_#n#</file>
+				<range from="13" to="17" format="%d" />
 				<caption>King's Quest IV: The Perils of Rosella (2.0 1988-07-27 3.5&quot;/DOS/English)</caption>
 			</image>
 		</game>
@@ -854,47 +778,18 @@
 			<name>Leisure Suit Larry</name>
 			<category>lsl</category>
 			<image>
-				<file>agi/lsl/lsl1-1</file>
+				<file>agi/lsl/lsl1-#n#</file>
+				<range from="1" to="4" format="%d" />
 				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (1.00 1987-06-01 5.25&quot;/3.5&quot;/DOS/English)</caption>
 			</image>
 			<image>
-				<file>agi/lsl/lsl1-2</file>
-				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (1.00 1987-06-01 5.25&quot;/3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/lsl/lsl1-3</file>
-				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (1.00 1987-06-01 5.25&quot;/3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/lsl/lsl1-4</file>
-				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (1.00 1987-06-01 5.25&quot;/3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/lsl/lsl1-amiga-1</file>
+				<file>agi/lsl/lsl1-amiga-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (1.05 1987-06-26/Amiga/English)</caption>
 			</image>
 			<image>
-				<file>agi/lsl/lsl1-amiga-2</file>
-				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (1.05 1987-06-26/Amiga/English)</caption>
-			</image>
-			<image>
-				<file>agi/lsl/lsl1-pl-1</file>
-				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (2.00 2001-12-11/DOS/Polish)</caption>
-			</image>
-			<image>
-				<file>agi/lsl/lsl1-pl-2</file>
-				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (2.00 2001-12-11/DOS/Polish)</caption>
-			</image>
-			<image>
-				<file>agi/lsl/lsl1-pl-3</file>
-				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (2.00 2001-12-11/DOS/Polish)</caption>
-			</image>
-			<image>
-				<file>agi/lsl/lsl1-pl-4</file>
-				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (2.00 2001-12-11/DOS/Polish)</caption>
-			</image>
-			<image>
-				<file>agi/lsl/lsl1-pl-5</file>
+				<file>agi/lsl/lsl1-pl-#n#</file>
+				<range from="1" to="5" format="%d" />
 				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (2.00 2001-12-11/DOS/Polish)</caption>
 			</image>
 		</game>
@@ -902,51 +797,13 @@
 			<name>Manhunter series</name>
 			<category>mh</category>
 			<image>
-				<file>agi/mh/scummvm_3_5_0</file>
+				<file>agi/mh/scummvm_3_5_#n#</file>
+				<range from="1" to="5" format="%d" />
 				<caption>Manhunter 1: New York (1.22 1988-08-31/DOS/English)</caption>
 			</image>
 			<image>
-				<file>agi/mh/scummvm_3_5_1</file>
-				<caption>Manhunter 1: New York (1.22 1988-08-31/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/mh/scummvm_3_5_2</file>
-				<caption>Manhunter 1: New York (1.22 1988-08-31/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/mh/scummvm_3_5_3</file>
-				<caption>Manhunter 1: New York (1.22 1988-08-31/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/mh/scummvm_3_5_4</file>
-				<caption>Manhunter 1: New York (1.22 1988-08-31/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/mh/scummvm_3_5_5</file>
-				<caption>Manhunter 1: New York (1.22 1988-08-31/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/mh/scummvm_3_5_6</file>
-				<caption>Manhunter 2: San Francisco (3.02 1989-07-26 3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/mh/scummvm_3_5_7</file>
-				<caption>Manhunter 2: San Francisco (3.02 1989-07-26 3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/mh/scummvm_3_5_8</file>
-				<caption>Manhunter 2: San Francisco (3.02 1989-07-26 3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/mh/scummvm_3_5_9</file>
-				<caption>Manhunter 2: San Francisco (3.02 1989-07-26 3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/mh/scummvm_3_5_10</file>
-				<caption>Manhunter 2: San Francisco (3.02 1989-07-26 3.5&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/mh/scummvm_3_5_11</file>
+				<file>agi/mh/scummvm_3_5_#n#</file>
+				<range from="6" to="11" format="%d" />
 				<caption>Manhunter 2: San Francisco (3.02 1989-07-26 3.5&quot;/DOS/English)</caption>
 			</image>
 		</game>
@@ -954,27 +811,8 @@
 			<name>Mixed-Up Mother Goose</name>
 			<category>mumg</category>
 			<image>
-				<file>agi/mixedup/scummvm_3_6_0</file>
-				<caption>Mixed-Up Mother Goose (1987-11-10/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/mixedup/scummvm_3_6_1</file>
-				<caption>Mixed-Up Mother Goose (1987-11-10/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/mixedup/scummvm_3_6_2</file>
-				<caption>Mixed-Up Mother Goose (1987-11-10/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/mixedup/scummvm_3_6_3</file>
-				<caption>Mixed-Up Mother Goose (1987-11-10/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/mixedup/scummvm_3_6_4</file>
-				<caption>Mixed-Up Mother Goose (1987-11-10/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/mixedup/scummvm_3_6_5</file>
+				<file>agi/mixedup/scummvm_3_6_#n#</file>
+				<range from="0" to="5" format="%d" />
 				<caption>Mixed-Up Mother Goose (1987-11-10/DOS/English)</caption>
 			</image>
 		</game>
@@ -982,35 +820,13 @@
 			<name>Police Quest</name>
 			<category>pq</category>
 			<image>
-				<file>agi/pq/scummvm_3_7_0</file>
+				<file>agi/pq/scummvm_3_7_#n#</file>
+				<range from="0" to="5" format="%d" />
 				<caption>Police Quest I: In Pursuit of the Death Angel (2.0G 1987-12-03/DOS/English)</caption>
 			</image>
 			<image>
-				<file>agi/pq/scummvm_3_7_1</file>
-				<caption>Police Quest I: In Pursuit of the Death Angel (2.0G 1987-12-03/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/pq/scummvm_3_7_2</file>
-				<caption>Police Quest I: In Pursuit of the Death Angel (2.0G 1987-12-03/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/pq/scummvm_3_7_3</file>
-				<caption>Police Quest I: In Pursuit of the Death Angel (2.0G 1987-12-03/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/pq/scummvm_3_7_4</file>
-				<caption>Police Quest I: In Pursuit of the Death Angel (2.0G 1987-12-03/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/pq/scummvm_3_7_5</file>
-				<caption>Police Quest I: In Pursuit of the Death Angel (2.0G 1987-12-03/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/pq/pq-amiga-0</file>
-				<caption>Police Quest I: In Pursuit of the Death Angel (2.0B 1989-02-22/Amiga/English)</caption>
-			</image>
-			<image>
-				<file>agi/pq/pq-amiga-1</file>
+				<file>agi/pq/pq-amiga-#n#</file>
+				<range from="0" to="1" format="%d" />
 				<caption>Police Quest I: In Pursuit of the Death Angel (2.0B 1989-02-22/Amiga/English)</caption>
 			</image>
 		</game>
@@ -1018,51 +834,13 @@
 			<name>Space Quest series</name>
 			<category>sq</category>
 			<image>
-				<file>agi/sq/scummvm_3_8_0</file>
+				<file>agi/sq/scummvm_3_8_#n#</file>
+				<range from="0" to="5" format="%d" />
 				<caption>Space Quest I: The Sarien Encounter (1.1A 1986-11-13/DOS/English)</caption>
 			</image>
 			<image>
-				<file>agi/sq/scummvm_3_8_1</file>
-				<caption>Space Quest I: The Sarien Encounter (1.1A 1986-11-13/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/sq/scummvm_3_8_2</file>
-				<caption>Space Quest I: The Sarien Encounter (1.1A 1986-11-13/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/sq/scummvm_3_8_3</file>
-				<caption>Space Quest I: The Sarien Encounter (1.1A 1986-11-13/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/sq/scummvm_3_8_4</file>
-				<caption>Space Quest I: The Sarien Encounter (1.1A 1986-11-13/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/sq/scummvm_3_8_5</file>
-				<caption>Space Quest I: The Sarien Encounter (1.1A 1986-11-13/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/sq/scummvm_3_8_6</file>
-				<caption>Space Quest II: Vohaul's Revenge (2.0A 1987-11-06 5.25&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/sq/scummvm_3_8_7</file>
-				<caption>Space Quest II: Vohaul's Revenge (2.0A 1987-11-06 5.25&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/sq/scummvm_3_8_8</file>
-				<caption>Space Quest II: Vohaul's Revenge (2.0A 1987-11-06 5.25&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/sq/scummvm_3_8_9</file>
-				<caption>Space Quest II: Vohaul's Revenge (2.0A 1987-11-06 5.25&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/sq/scummvm_3_8_10</file>
-				<caption>Space Quest II: Vohaul's Revenge (2.0A 1987-11-06 5.25&quot;/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/sq/scummvm_3_8_11</file>
+				<file>agi/sq/scummvm_3_8_#n#</file>
+				<range from="6" to="11" format="%d" />
 				<caption>Space Quest II: Vohaul's Revenge (2.0A 1987-11-06 5.25&quot;/DOS/English)</caption>
 			</image>
 		</game>
@@ -1070,83 +848,28 @@
 			<name>Fanmade games</name>
 			<category>fan</category>
 			<image>
-				<file>agi/fanmade/enclosure-0</file>
+				<file>agi/fanmade/enclosure-#n#</file>
+				<range from="0" to="3" format="%d" />
 				<caption>Enclosure 1 (v1.03)</caption>
 			</image>
 			<image>
-				<file>agi/fanmade/enclosure-1</file>
-				<caption>Enclosure 1 (v1.03)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/enclosure-2</file>
-				<caption>Enclosure 1 (v1.03)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/enclosure-3</file>
-				<caption>Enclosure 1 (v1.03)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/scummvm_3_9_0</file>
+				<file>agi/fanmade/scummvm_3_9_#n#</file>
+				<range from="0" to="2" format="%d" />
 				<caption>Serguei's Destiny 1 (v1.1 2003 Apr 10/DOS/English)</caption>
 			</image>
 			<image>
-				<file>agi/fanmade/scummvm_3_9_1</file>
-				<caption>Serguei's Destiny 1 (v1.1 2003 Apr 10/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/scummvm_3_9_2</file>
-				<caption>Serguei's Destiny 1 (v1.1 2003 Apr 10/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/scummvm_3_9_3</file>
+				<file>agi/fanmade/scummvm_3_9_#n#</file>
+				<range from="3" to="7" format="%d" />
 				<caption>Space Quest 0: Replicated (v1.04/DOS/English)</caption>
 			</image>
 			<image>
-				<file>agi/fanmade/scummvm_3_9_4</file>
-				<caption>Space Quest 0: Replicated (v1.04/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/scummvm_3_9_5</file>
-				<caption>Space Quest 0: Replicated (v1.04/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/scummvm_3_9_6</file>
-				<caption>Space Quest 0: Replicated (v1.04/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/scummvm_3_9_7</file>
-				<caption>Space Quest 0: Replicated (v1.04/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/scummvm_3_9_8</file>
+				<file>agi/fanmade/scummvm_3_9_#n#</file>
+				<range from="8" to="13" format="%d" />
 				<caption>Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)</caption>
 			</image>
 			<image>
-				<file>agi/fanmade/scummvm_3_9_9</file>
-				<caption>Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/scummvm_3_9_10</file>
-				<caption>Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/scummvm_3_9_11</file>
-				<caption>Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/scummvm_3_9_12</file>
-				<caption>Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/scummvm_3_9_13</file>
-				<caption>Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/scummvm_3_9_14</file>
-				<caption>Voodoo Girl - Queen of the Darned (v1.2 2002 Jan 1/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/scummvm_3_9_15</file>
+				<file>agi/fanmade/scummvm_3_9_#n#</file>
+				<range from="14" to="15" format="%d" />
 				<caption>Voodoo Girl - Queen of the Darned (v1.2 2002 Jan 1/DOS/English)</caption>
 			</image>
 		</game>
@@ -1154,19 +877,13 @@
 			<name>Mickey's Space Adventure</name>
 			<category>mickey</category>
 			<image>
-				<file>agi/preagi/mickey-1</file>
+				<file>agi/preagi/mickey-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Mickey's Space Adventure (DOS)</caption>
 			</image>
 			<image>
-				<file>agi/preagi/mickey-2</file>
-				<caption>Mickey's Space Adventure (DOS)</caption>
-			</image>
-			<image>
-				<file>agi/preagi/mickey-cga-1</file>
-				<caption>Mickey's Space Adventure (DOS CGA)</caption>
-			</image>
-			<image>
-				<file>agi/preagi/mickey-cga-2</file>
+				<file>agi/preagi/mickey-cga-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Mickey's Space Adventure (DOS CGA)</caption>
 			</image>
 		</game>
@@ -1174,15 +891,8 @@
 			<name>Troll's Tale</name>
 			<category>troll</category>
 			<image>
-				<file>agi/preagi/troll-1</file>
-				<caption>Troll's Tale (DOS)</caption>
-			</image>
-			<image>
-				<file>agi/preagi/troll-2</file>
-				<caption>Troll's Tale (DOS)</caption>
-			</image>
-			<image>
-				<file>agi/preagi/troll-3</file>
+				<file>agi/preagi/troll-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Troll's Tale (DOS)</caption>
 			</image>
 		</game>
@@ -1190,27 +900,8 @@
 			<name>Winnie the Pooh in the Hundred Acre Wood</name>
 			<category>winnie</category>
 			<image>
-				<file>agi/preagi/winnie-1</file>
-				<caption>Winnie the Pooh in the Hundred Acre Wood (DOS)</caption>
-			</image>
-			<image>
-				<file>agi/preagi/winnie-2</file>
-				<caption>Winnie the Pooh in the Hundred Acre Wood (DOS)</caption>
-			</image>
-			<image>
-				<file>agi/preagi/winnie-3</file>
-				<caption>Winnie the Pooh in the Hundred Acre Wood (DOS)</caption>
-			</image>
-			<image>
-				<file>agi/preagi/winnie-4</file>
-				<caption>Winnie the Pooh in the Hundred Acre Wood (DOS)</caption>
-			</image>
-			<image>
-				<file>agi/preagi/winnie-5</file>
-				<caption>Winnie the Pooh in the Hundred Acre Wood (DOS)</caption>
-			</image>
-			<image>
-				<file>agi/preagi/winnie-6</file>
+				<file>agi/preagi/winnie-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Winnie the Pooh in the Hundred Acre Wood (DOS)</caption>
 			</image>
 		</game>
@@ -1222,31 +913,8 @@
 			<name>Conquests of Camelot</name>
 			<category>camelot</category>
 			<image>
-				<file>sci/camelot/camelot-1</file>
-				<caption>Conquests of Camelot (DOS)</caption>
-			</image>
-			<image>
-				<file>sci/camelot/camelot-2</file>
-				<caption>Conquests of Camelot (DOS)</caption>
-			</image>
-			<image>
-				<file>sci/camelot/camelot-3</file>
-				<caption>Conquests of Camelot (DOS)</caption>
-			</image>
-			<image>
-				<file>sci/camelot/camelot-4</file>
-				<caption>Conquests of Camelot (DOS)</caption>
-			</image>
-			<image>
-				<file>sci/camelot/camelot-5</file>
-				<caption>Conquests of Camelot (DOS)</caption>
-			</image>
-			<image>
-				<file>sci/camelot/camelot-6</file>
-				<caption>Conquests of Camelot (DOS)</caption>
-			</image>
-			<image>
-				<file>sci/camelot/camelot-7</file>
+				<file>sci/camelot/camelot-#n#</file>
+				<range from="1" to="7" format="%d" />
 				<caption>Conquests of Camelot (DOS)</caption>
 			</image>
 		</game>
@@ -1254,67 +922,18 @@
 			<name>Conquests of the Longbow</name>
 			<category>longbow</category>
 			<image>
-				<file>sci/longbow/longbow-vga-1</file>
+				<file>sci/longbow/longbow-vga-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Conquests of the Longbow (VGA/English)</caption>
 			</image>
 			<image>
-				<file>sci/longbow/longbow-vga-2</file>
-				<caption>Conquests of the Longbow (VGA/English)</caption>
-			</image>
-			<image>
-				<file>sci/longbow/longbow-vga-3</file>
-				<caption>Conquests of the Longbow (VGA/English)</caption>
-			</image>
-			<image>
-				<file>sci/longbow/longbow-vga-4</file>
-				<caption>Conquests of the Longbow (VGA/English)</caption>
-			</image>
-			<image>
-				<file>sci/longbow/longbow-vga-5</file>
-				<caption>Conquests of the Longbow (VGA/English)</caption>
-			</image>
-			<image>
-				<file>sci/longbow/longbow-vga-6</file>
-				<caption>Conquests of the Longbow (VGA/English)</caption>
-			</image>
-			<image>
-				<file>sci/longbow/longbow-vga-de-1</file>
+				<file>sci/longbow/longbow-vga-de-#n#</file>
+				<range from="1" to="4" format="%d" />
 				<caption>Conquests of the Longbow (VGA/German)</caption>
 			</image>
 			<image>
-				<file>sci/longbow/longbow-vga-de-2</file>
-				<caption>Conquests of the Longbow (VGA/German)</caption>
-			</image>
-			<image>
-				<file>sci/longbow/longbow-vga-de-3</file>
-				<caption>Conquests of the Longbow (VGA/German)</caption>
-			</image>
-			<image>
-				<file>sci/longbow/longbow-vga-de-4</file>
-				<caption>Conquests of the Longbow (VGA/German)</caption>
-			</image>
-			<image>
-				<file>sci/longbow/longbow-ega-1</file>
-				<caption>Conquests of the Longbow (EGA/English)</caption>
-			</image>
-			<image>
-				<file>sci/longbow/longbow-ega-2</file>
-				<caption>Conquests of the Longbow (EGA/English)</caption>
-			</image>
-			<image>
-				<file>sci/longbow/longbow-ega-3</file>
-				<caption>Conquests of the Longbow (EGA/English)</caption>
-			</image>
-			<image>
-				<file>sci/longbow/longbow-ega-4</file>
-				<caption>Conquests of the Longbow (EGA/English)</caption>
-			</image>
-			<image>
-				<file>sci/longbow/longbow-ega-5</file>
-				<caption>Conquests of the Longbow (EGA/English)</caption>
-			</image>
-			<image>
-				<file>sci/longbow/longbow-ega-6</file>
+				<file>sci/longbow/longbow-ega-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Conquests of the Longbow (EGA/English)</caption>
 			</image>
 		</game>
@@ -1322,51 +941,23 @@
 			<name>Dr. Brain series</name>
 			<category>castlebrain</category>
 			<image>
-				<file>sci/drbrain/castlebrain-ega-1</file>
+				<file>sci/drbrain/castlebrain-ega-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>The Castle of Dr. Brain (EGA)</caption>
 			</image>
 			<image>
-				<file>sci/drbrain/castlebrain-ega-2</file>
-				<caption>The Castle of Dr. Brain (EGA)</caption>
-			</image>
-			<image>
-				<file>sci/drbrain/castlebrain-vga-1</file>
+				<file>sci/drbrain/castlebrain-vga-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>The Castle of Dr. Brain (VGA)</caption>
 			</image>
 			<image>
-				<file>sci/drbrain/castlebrain-vga-2</file>
-				<caption>The Castle of Dr. Brain (VGA)</caption>
-			</image>
-			<image>
-				<file>sci/drbrain/castlebrain-de-1</file>
+				<file>sci/drbrain/castlebrain-de-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>The Castle of Dr. Brain (VGA/German)</caption>
 			</image>
 			<image>
-				<file>sci/drbrain/castlebrain-de-2</file>
-				<caption>The Castle of Dr. Brain (VGA/German)</caption>
-			</image>
-			<image>
-				<file>sci/drbrain/islandbrain-1</file>
-				<caption>The Island of Dr. Brain</caption>
-			</image>
-			<image>
-				<file>sci/drbrain/islandbrain-2</file>
-				<caption>The Island of Dr. Brain</caption>
-			</image>
-			<image>
-				<file>sci/drbrain/islandbrain-3</file>
-				<caption>The Island of Dr. Brain</caption>
-			</image>
-			<image>
-				<file>sci/drbrain/islandbrain-4</file>
-				<caption>The Island of Dr. Brain</caption>
-			</image>
-			<image>
-				<file>sci/drbrain/islandbrain-5</file>
-				<caption>The Island of Dr. Brain</caption>
-			</image>
-			<image>
-				<file>sci/drbrain/islandbrain-6</file>
+				<file>sci/drbrain/islandbrain-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>The Island of Dr. Brain</caption>
 			</image>
 		</game>
@@ -1374,15 +965,8 @@
 			<name>Codename: ICEMAN</name>
 			<category>iceman</category>
 			<image>
-				<file>sci/iceman/iceman-1</file>
-				<caption>Codename: ICEMAN</caption>
-			</image>
-			<image>
-				<file>sci/iceman/iceman-2</file>
-				<caption>Codename: ICEMAN</caption>
-			</image>
-			<image>
-				<file>sci/iceman/iceman-3</file>
+				<file>sci/iceman/iceman-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Codename: ICEMAN</caption>
 			</image>
 		</game>
@@ -1390,50 +974,23 @@
 			<name>EcoQuest Series</name>
 			<category>ecoquest</category>
 			<image>
-				<file>sci/ecoquest/ecoquest-1</file>
+				<file>sci/ecoquest/ecoquest-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>EcoQuest: The Search for Cetus</caption>
 			</image>
 			<image>
-				<file>sci/ecoquest/ecoquest-2</file>
-				<caption>EcoQuest: The Search for Cetus</caption>
-			</image>
-			<image>
-				<file>sci/ecoquest/ecoquest-3</file>
-				<caption>EcoQuest: The Search for Cetus</caption>
-			</image>
-
-			<image>
-				<file>sci/ecoquest/ecoquest-fr-1</file>
+				<file>sci/ecoquest/ecoquest-fr-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>EcoQuest: The Search for Cetus (French)</caption>
 			</image>
 			<image>
-				<file>sci/ecoquest/ecoquest-fr-2</file>
-				<caption>EcoQuest: The Search for Cetus (French)</caption>
-			</image>
-
-			<image>
-				<file>sci/ecoquest/ecoquest-de-1</file>
+				<file>sci/ecoquest/ecoquest-de-#n#</file>
+				<range from="1" to="4" format="%d" />
 				<caption>EcoQuest: The Search for Cetus (German)</caption>
 			</image>
 			<image>
-				<file>sci/ecoquest/ecoquest-de-2</file>
-				<caption>EcoQuest: The Search for Cetus (German)</caption>
-			</image>
-			<image>
-				<file>sci/ecoquest/ecoquest-de-3</file>
-				<caption>EcoQuest: The Search for Cetus (German)</caption>
-			</image>
-			<image>
-				<file>sci/ecoquest/ecoquest-de-4</file>
-				<caption>EcoQuest: The Search for Cetus (German)</caption>
-			</image>
-
-			<image>
-				<file>sci/ecoquest/ecoquest2-1</file>
-				<caption>EcoQuest II: Lost Secret of the Rainforest</caption>
-			</image>
-			<image>
-				<file>sci/ecoquest/ecoquest2-2</file>
+				<file>sci/ecoquest/ecoquest2-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>EcoQuest II: Lost Secret of the Rainforest</caption>
 			</image>
 		</game>
@@ -1441,35 +998,18 @@
 			<name>Freddy Pharkas</name>
 			<category>freddypharkas</category>
 			<image>
-				<file>sci/freddypharkas/freddypharkas-1</file>
+				<file>sci/freddypharkas/freddypharkas-#n#</file>
+				<range from="1" to="4" format="%d" />
 				<caption>Freddy Pharkas: Frontier Pharmacist</caption>
 			</image>
 			<image>
-				<file>sci/freddypharkas/freddypharkas-2</file>
-				<caption>Freddy Pharkas: Frontier Pharmacist</caption>
-			</image>
-			<image>
-				<file>sci/freddypharkas/freddypharkas-3</file>
-				<caption>Freddy Pharkas: Frontier Pharmacist</caption>
-			</image>
-			<image>
-				<file>sci/freddypharkas/freddypharkas-4</file>
-				<caption>Freddy Pharkas: Frontier Pharmacist</caption>
-			</image>
-			<image>
-				<file>sci/freddypharkas/freddypharkas-de-1</file>
+				<file>sci/freddypharkas/freddypharkas-de-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Freddy Pharkas: Frontier Pharmacist (German)</caption>
 			</image>
 			<image>
-				<file>sci/freddypharkas/freddypharkas-de-2</file>
-				<caption>Freddy Pharkas: Frontier Pharmacist (German)</caption>
-			</image>
-			<image>
-				<file>sci/freddypharkas/freddypharkas-win-fr-1</file>
-				<caption>Freddy Pharkas: Frontier Pharmacist (Windows/French)</caption>
-			</image>
-			<image>
-				<file>sci/freddypharkas/freddypharkas-win-fr-2</file>
+				<file>sci/freddypharkas/freddypharkas-win-fr-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Freddy Pharkas: Frontier Pharmacist (Windows/French)</caption>
 			</image>
 		</game>
@@ -1477,119 +1017,33 @@
 			<name>Hoyle's Official Book of Games series</name>
 			<category>hoyle</category>
 			<image>
-				<file>sci/hoyle/hoyle1-1</file>
+				<file>sci/hoyle/hoyle1-#n#</file>
+				<range from="1" to="5" format="%d" />
 				<caption>Hoyle Official Book of Games: Volume 1</caption>
 			</image>
 			<image>
-				<file>sci/hoyle/hoyle1-2</file>
-				<caption>Hoyle Official Book of Games: Volume 1</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle1-3</file>
-				<caption>Hoyle Official Book of Games: Volume 1</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle1-4</file>
-				<caption>Hoyle Official Book of Games: Volume 1</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle1-5</file>
-				<caption>Hoyle Official Book of Games: Volume 1</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle2-1</file>
+				<file>sci/hoyle/hoyle2-#n#</file>
+				<range from="1" to="4" format="%d" />
 				<caption>Hoyle Official Book of Games: Volume 2</caption>
 			</image>
 			<image>
-				<file>sci/hoyle/hoyle2-2</file>
-				<caption>Hoyle Official Book of Games: Volume 2</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle2-3</file>
-				<caption>Hoyle Official Book of Games: Volume 2</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle2-4</file>
-				<caption>Hoyle Official Book of Games: Volume 2</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle2-amiga-1</file>
+				<file>sci/hoyle/hoyle2-amiga-#n#</file>
+				<range from="1" to="4" format="%d" />
 				<caption>Hoyle Official Book of Games: Volume 2 (Amiga)</caption>
 			</image>
 			<image>
-				<file>sci/hoyle/hoyle2-amiga-2</file>
-				<caption>Hoyle Official Book of Games: Volume 2 (Amiga)</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle2-amiga-3</file>
-				<caption>Hoyle Official Book of Games: Volume 2 (Amiga)</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle2-amiga-4</file>
-				<caption>Hoyle Official Book of Games: Volume 2 (Amiga)</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle3-ega-1</file>
+				<file>sci/hoyle/hoyle3-ega-#n#</file>
+				<range from="1" to="4" format="%d" />
 				<caption>Hoyle Official Book of Games: Volume 3 (EGA)</caption>
 			</image>
 			<image>
-				<file>sci/hoyle/hoyle3-ega-2</file>
-				<caption>Hoyle Official Book of Games: Volume 3 (EGA)</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle3-ega-3</file>
-				<caption>Hoyle Official Book of Games: Volume 3 (EGA)</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle3-ega-4</file>
-				<caption>Hoyle Official Book of Games: Volume 3 (EGA)</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle3-amiga-1</file>
+				<file>sci/hoyle/hoyle3-amiga-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Hoyle Official Book of Games: Volume 3 (Amiga)</caption>
 			</image>
 			<image>
-				<file>sci/hoyle/hoyle3-amiga-2</file>
-				<caption>Hoyle Official Book of Games: Volume 3 (Amiga)</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle3-amiga-3</file>
-				<caption>Hoyle Official Book of Games: Volume 3 (Amiga)</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle3-amiga-4</file>
-				<caption>Hoyle Official Book of Games: Volume 3 (Amiga)</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle3-amiga-5</file>
-				<caption>Hoyle Official Book of Games: Volume 3 (Amiga)</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle3-amiga-6</file>
-				<caption>Hoyle Official Book of Games: Volume 3 (Amiga)</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle4-1</file>
-				<caption>Hoyle Classic Card Games</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle4-2</file>
-				<caption>Hoyle Classic Card Games</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle4-3</file>
-				<caption>Hoyle Classic Card Games</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle4-4</file>
-				<caption>Hoyle Classic Card Games</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle4-5</file>
-				<caption>Hoyle Classic Card Games</caption>
-			</image>
-			<image>
-				<file>sci/hoyle/hoyle4-6</file>
+				<file>sci/hoyle/hoyle4-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Hoyle Classic Card Games</caption>
 			</image>
 		</game>
@@ -1597,19 +1051,13 @@
 			<name>Jones in the Fast Lane</name>
 			<category>jones</category>
 			<image>
-				<file>sci/jones/jones-ega-1</file>
+				<file>sci/jones/jones-ega-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Jones in the Fast Lane (EGA)</caption>
 			</image>
 			<image>
-				<file>sci/jones/jones-ega-2</file>
-				<caption>Jones in the Fast Lane (EGA)</caption>
-			</image>
-			<image>
-				<file>sci/jones/jones-vga-1</file>
-				<caption>Jones in the Fast Lane (VGA)</caption>
-			</image>
-			<image>
-				<file>sci/jones/jones-vga-2</file>
+				<file>sci/jones/jones-vga-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Jones in the Fast Lane (VGA)</caption>
 			</image>
 		</game>
@@ -1617,55 +1065,18 @@
 			<name>Laura Bow Series</name>
 			<category>laurabow</category>
 			<image>
-				<file>sci/laurabow/laurabow-1</file>
+				<file>sci/laurabow/laurabow-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Laura Bow: The Colonel's Bequest</caption>
 			</image>
 			<image>
-				<file>sci/laurabow/laurabow-2</file>
-				<caption>Laura Bow: The Colonel's Bequest</caption>
-			</image>
-			<image>
-				<file>sci/laurabow/laurabow-3</file>
-				<caption>Laura Bow: The Colonel's Bequest</caption>
-			</image>
-			<image>
-				<file>sci/laurabow/laurabow-4</file>
-				<caption>Laura Bow: The Colonel's Bequest</caption>
-			</image>
-			<image>
-				<file>sci/laurabow/laurabow-5</file>
-				<caption>Laura Bow: The Colonel's Bequest</caption>
-			</image>
-			<image>
-				<file>sci/laurabow/laurabow-6</file>
-				<caption>Laura Bow: The Colonel's Bequest</caption>
-			</image>
-			<image>
-				<file>sci/laurabow/laurabow2-1</file>
+				<file>sci/laurabow/laurabow2-#n#</file>
+				<range from="1" to="4" format="%d" />
 				<caption>Laura Bow 2: The Dagger of Amon Ra</caption>
 			</image>
 			<image>
-				<file>sci/laurabow/laurabow2-2</file>
-				<caption>Laura Bow 2: The Dagger of Amon Ra</caption>
-			</image>
-			<image>
-				<file>sci/laurabow/laurabow2-3</file>
-				<caption>Laura Bow 2: The Dagger of Amon Ra</caption>
-			</image>
-			<image>
-				<file>sci/laurabow/laurabow2-4</file>
-				<caption>Laura Bow 2: The Dagger of Amon Ra</caption>
-			</image>
-			<image>
-				<file>sci/laurabow/laurabow2-de-1</file>
-				<caption>Laura Bow 2: The Dagger of Amon Ra (German)</caption>
-			</image>
-			<image>
-				<file>sci/laurabow/laurabow2-de-2</file>
-				<caption>Laura Bow 2: The Dagger of Amon Ra (German)</caption>
-			</image>
-			<image>
-				<file>sci/laurabow/laurabow2-de-3</file>
+				<file>sci/laurabow/laurabow2-de-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Laura Bow 2: The Dagger of Amon Ra (German)</caption>
 			</image>
 		</game>
@@ -1673,131 +1084,43 @@
 			<name>King's Quest series</name>
 			<category>kq-sci</category>
 			<image>
-				<file>sci/kq/kq1sci-1</file>
+				<file>sci/kq/kq1sci-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>King's Quest: Quest for the Crown (VGA remake)</caption>
 			</image>
 			<image>
-				<file>sci/kq/kq1sci-2</file>
-				<caption>King's Quest: Quest for the Crown (VGA remake)</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq1sci-3</file>
-				<caption>King's Quest: Quest for the Crown (VGA remake)</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq1sci-4</file>
-				<caption>King's Quest: Quest for the Crown (VGA remake)</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq1sci-5</file>
-				<caption>King's Quest: Quest for the Crown (VGA remake)</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq1sci-6</file>
-				<caption>King's Quest: Quest for the Crown (VGA remake)</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq4sci-1</file>
+				<file>sci/kq/kq4sci-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>King's Quest IV: The Perils of Rosella (SCI)</caption>
 			</image>
 			<image>
-				<file>sci/kq/kq4sci-2</file>
-				<caption>King's Quest IV: The Perils of Rosella (SCI)</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq4sci-3</file>
-				<caption>King's Quest IV: The Perils of Rosella (SCI)</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq4sci-4</file>
-				<caption>King's Quest IV: The Perils of Rosella (SCI)</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq4sci-5</file>
-				<caption>King's Quest IV: The Perils of Rosella (SCI)</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq4sci-6</file>
-				<caption>King's Quest IV: The Perils of Rosella (SCI)</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq5-ega-1</file>
+				<file>sci/kq/kq5-ega-#n#</file>
+				<range from="1" to="4" format="%d" />
 				<caption>King's Quest V: Absence Makes the Heart Go Yonder (EGA)</caption>
 			</image>
 			<image>
-				<file>sci/kq/kq5-ega-2</file>
-				<caption>King's Quest V: Absence Makes the Heart Go Yonder (EGA)</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq5-ega-3</file>
-				<caption>King's Quest V: Absence Makes the Heart Go Yonder (EGA)</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq5-ega-4</file>
-				<caption>King's Quest V: Absence Makes the Heart Go Yonder (EGA)</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq5-vga-1</file>
+				<file>sci/kq/kq5-vga-#n#</file>
+				<range from="1" to="4" format="%d" />
 				<caption>King's Quest V: Absence Makes the Heart Go Yonder (VGA)</caption>
 			</image>
 			<image>
-				<file>sci/kq/kq5-vga-2</file>
-				<caption>King's Quest V: Absence Makes the Heart Go Yonder (VGA)</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq5-vga-3</file>
-				<caption>King's Quest V: Absence Makes the Heart Go Yonder (VGA)</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq5-vga-4</file>
-				<caption>King's Quest V: Absence Makes the Heart Go Yonder (VGA)</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq5-vga-de-1</file>
+				<file>sci/kq/kq5-vga-de-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>King's Quest V: Absence Makes the Heart Go Yonder (VGA/German)</caption>
 			</image>
 			<image>
-				<file>sci/kq/kq5-vga-de-2</file>
-				<caption>King's Quest V: Absence Makes the Heart Go Yonder (VGA/German)</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq5-vga-pl-1</file>
+				<file>sci/kq/kq5-vga-pl-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>King's Quest V: Absence Makes the Heart Go Yonder (VGA/Polish)</caption>
 			</image>
 			<image>
-				<file>sci/kq/kq5-vga-pl-2</file>
-				<caption>King's Quest V: Absence Makes the Heart Go Yonder (VGA/Polish)</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq6-1</file>
+				<file>sci/kq/kq6-#n#</file>
+				<range from="1" to="5" format="%d" />
 				<caption>King's Quest VI: Heir Today, Gone Tomorrow</caption>
 			</image>
 			<image>
-				<file>sci/kq/kq6-2</file>
-				<caption>King's Quest VI: Heir Today, Gone Tomorrow</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq6-3</file>
-				<caption>King's Quest VI: Heir Today, Gone Tomorrow</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq6-4</file>
-				<caption>King's Quest VI: Heir Today, Gone Tomorrow</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq6-5</file>
-				<caption>King's Quest VI: Heir Today, Gone Tomorrow</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq6-de-1</file>
-				<caption>King's Quest VI: Heir Today, Gone Tomorrow (German)</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq6-de-2</file>
-				<caption>King's Quest VI: Heir Today, Gone Tomorrow (German)</caption>
-			</image>
-			<image>
-				<file>sci/kq/kq6-de-3</file>
+				<file>sci/kq/kq6-de-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>King's Quest VI: Heir Today, Gone Tomorrow (German)</caption>
 			</image>
 		</game>
@@ -1805,39 +1128,18 @@
 			<name>Leisure Suit Larry series</name>
 			<category>lsl-sci</category>
 			<image>
-				<file>sci/lsl/lsl1sci-1</file>
+				<file>sci/lsl/lsl1sci-#n#</file>
+				<range from="1" to="5" format="%d" />
 				<caption>Leisure Suit Larry in the Land of the Lounge Lizards</caption>
 			</image>
 			<image>
-				<file>sci/lsl/lsl1sci-2</file>
-				<caption>Leisure Suit Larry in the Land of the Lounge Lizards</caption>
-			</image>
-			<image>
-				<file>sci/lsl/lsl1sci-3</file>
-				<caption>Leisure Suit Larry in the Land of the Lounge Lizards</caption>
-			</image>
-			<image>
-				<file>sci/lsl/lsl1sci-4</file>
-				<caption>Leisure Suit Larry in the Land of the Lounge Lizards</caption>
-			</image>
-			<image>
-				<file>sci/lsl/lsl1sci-5</file>
-				<caption>Leisure Suit Larry in the Land of the Lounge Lizards</caption>
-			</image>
-			<image>
-				<file>sci/lsl/lsl1sci-ega-1</file>
+				<file>sci/lsl/lsl1sci-ega-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (EGA)</caption>
 			</image>
 			<image>
-				<file>sci/lsl/lsl1sci-ega-2</file>
-				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (EGA)</caption>
-			</image>
-			<image>
-				<file>sci/lsl/lsl1sci-amiga-1</file>
-				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (Amiga)</caption>
-			</image>
-			<image>
-				<file>sci/lsl/lsl1sci-amiga-2</file>
+				<file>sci/lsl/lsl1sci-amiga-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (Amiga)</caption>
 			</image>
 			<image>
@@ -1845,55 +1147,28 @@
 				<caption>Leisure Suit Larry in the Land of the Lounge Lizards (Polish)</caption>
 			</image>
 			<image>
-				<file>sci/lsl/lsl2-1</file>
+				<file>sci/lsl/lsl2-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places)</caption>
 			</image>
 			<image>
-				<file>sci/lsl/lsl2-2</file>
-				<caption>Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places)</caption>
-			</image>
-			<image>
-				<file>sci/lsl/lsl2-3</file>
-				<caption>Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places)</caption>
-			</image>
-			<image>
-				<file>sci/lsl/lsl2-pl-1</file>
+				<file>sci/lsl/lsl2-pl-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places) (Polish)</caption>
 			</image>
 			<image>
-				<file>sci/lsl/lsl2-pl-2</file>
-				<caption>Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places) (Polish)</caption>
-			</image>
-			<image>
-				<file>sci/lsl/lsl3-1</file>
+				<file>sci/lsl/lsl3-#n#</file>
+				<range from="1" to="4" format="%d" />
 				<caption>Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals</caption>
 			</image>
 			<image>
-				<file>sci/lsl/lsl3-2</file>
-				<caption>Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals</caption>
-			</image>
-			<image>
-				<file>sci/lsl/lsl3-3</file>
-				<caption>Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals</caption>
-			</image>
-			<image>
-				<file>sci/lsl/lsl3-4</file>
-				<caption>Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals</caption>
-			</image>
-			<image>
-				<file>sci/lsl/lsl3-pl-1</file>
+				<file>sci/lsl/lsl3-pl-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals (Polish)</caption>
 			</image>
 			<image>
-				<file>sci/lsl/lsl3-pl-2</file>
-				<caption>Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals (Polish)</caption>
-			</image>
-			<image>
-				<file>sci/lsl/lsl5-amiga-1</file>
-				<caption>Leisure Suit Larry 5: Passionate Patti Does Some Undercover Work (Amiga)</caption>
-			</image>
-			<image>
-				<file>sci/lsl/lsl5-amiga-2</file>
+				<file>sci/lsl/lsl5-amiga-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Leisure Suit Larry 5: Passionate Patti Does Some Undercover Work (Amiga)</caption>
 			</image>
 			<image>
@@ -1901,19 +1176,8 @@
 				<caption>Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals (German)</caption>
 			</image>
 			<image>
-				<file>sci/lsl/lsl5-de-1</file>
-				<caption>Leisure Suit Larry 5: Passionate Patti Does Some Undercover Work (German)</caption>
-			</image>
-			<image>
-				<file>sci/lsl/lsl5-de-2</file>
-				<caption>Leisure Suit Larry 5: Passionate Patti Does Some Undercover Work (German)</caption>
-			</image>
-			<image>
-				<file>sci/lsl/lsl5-de-3</file>
-				<caption>Leisure Suit Larry 5: Passionate Patti Does Some Undercover Work (German)</caption>
-			</image>
-			<image>
-				<file>sci/lsl/lsl5-de-4</file>
+				<file>sci/lsl/lsl5-de-#n#</file>
+				<range from="1" to="4" format="%d" />
 				<caption>Leisure Suit Larry 5: Passionate Patti Does Some Undercover Work (German)</caption>
 			</image>
 			<image>
@@ -1933,11 +1197,8 @@
 				<caption>Leisure Suit Larry 6: Shape Up or Slip Out! (German)</caption>
 			</image>
 			<image>
-				<file>sci/lsl/lsl6-pl-1</file>
-				<caption>Leisure Suit Larry 6: Shape Up or Slip Out! (Polish)</caption>
-			</image>
-			<image>
-				<file>sci/lsl/lsl6-pl-2</file>
+				<file>sci/lsl/lsl6-pl-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Leisure Suit Larry 6: Shape Up or Slip Out! (Polish)</caption>
 			</image>
 		</game>
@@ -1945,31 +1206,8 @@
 			<name>Pepper's Adventure in Time</name>
 			<category>pepper</category>
 			<image>
-				<file>sci/pepper/pepper-1</file>
-				<caption>Pepper's Adventure in Time</caption>
-			</image>
-			<image>
-				<file>sci/pepper/pepper-2</file>
-				<caption>Pepper's Adventure in Time</caption>
-			</image>
-			<image>
-				<file>sci/pepper/pepper-3</file>
-				<caption>Pepper's Adventure in Time</caption>
-			</image>
-			<image>
-				<file>sci/pepper/pepper-4</file>
-				<caption>Pepper's Adventure in Time</caption>
-			</image>
-			<image>
-				<file>sci/pepper/pepper-5</file>
-				<caption>Pepper's Adventure in Time</caption>
-			</image>
-			<image>
-				<file>sci/pepper/pepper-6</file>
-				<caption>Pepper's Adventure in Time</caption>
-			</image>
-			<image>
-				<file>sci/pepper/pepper-7</file>
+				<file>sci/pepper/pepper-#n#</file>
+				<range from="1" to="7" format="%d" />
 				<caption>Pepper's Adventure in Time</caption>
 			</image>
 		</game>
@@ -1977,97 +1215,33 @@
 			<name>Police Quest series</name>
 			<category>pq-sci</category>
 			<image>
-				<file>sci/pq/pq1sci-1</file>
+				<file>sci/pq/pq1sci-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Police Quest: In Pursuit of the Death Angel (VGA remake)</caption>
 			</image>
 			<image>
-				<file>sci/pq/pq1sci-2</file>
-				<caption>Police Quest: In Pursuit of the Death Angel (VGA remake)</caption>
-			</image>
-			<image>
-				<file>sci/pq/pq1sci-3</file>
-				<caption>Police Quest: In Pursuit of the Death Angel (VGA remake)</caption>
-			</image>
-			<image>
-				<file>sci/pq/pq2-1</file>
+				<file>sci/pq/pq2-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Police Quest II: The Vengeance</caption>
 			</image>
 			<image>
-				<file>sci/pq/pq2-2</file>
-				<caption>Police Quest II: The Vengeance</caption>
-			</image>
-			<image>
-				<file>sci/pq/pq2-3</file>
-				<caption>Police Quest II: The Vengeance</caption>
-			</image>
-			<image>
-				<file>sci/pq/pq3-ega-1</file>
+				<file>sci/pq/pq3-ega-#n#</file>
+				<range from="1" to="4" format="%d" />
 				<caption>Police Quest III: The Kindred (EGA)</caption>
 			</image>
 			<image>
-				<file>sci/pq/pq3-ega-2</file>
-				<caption>Police Quest III: The Kindred (EGA)</caption>
-			</image>
-			<image>
-				<file>sci/pq/pq3-ega-3</file>
-				<caption>Police Quest III: The Kindred (EGA)</caption>
-			</image>
-			<image>
-				<file>sci/pq/pq3-ega-4</file>
-				<caption>Police Quest III: The Kindred (EGA)</caption>
-			</image>
-
-			<image>
-				<file>sci/pq/pq3-vga-1</file>
+				<file>sci/pq/pq3-vga-#n#</file>
+				<range from="1" to="8" format="%d" />
 				<caption>Police Quest III: The Kindred (VGA)</caption>
 			</image>
 			<image>
-				<file>sci/pq/pq3-vga-2</file>
-				<caption>Police Quest III: The Kindred (VGA)</caption>
-			</image>
-			<image>
-				<file>sci/pq/pq3-vga-3</file>
-				<caption>Police Quest III: The Kindred (VGA)</caption>
-			</image>
-			<image>
-				<file>sci/pq/pq3-vga-4</file>
-				<caption>Police Quest III: The Kindred (VGA)</caption>
-			</image>
-			<image>
-				<file>sci/pq/pq3-vga-5</file>
-				<caption>Police Quest III: The Kindred (VGA)</caption>
-			</image>
-			<image>
-				<file>sci/pq/pq3-vga-6</file>
-				<caption>Police Quest III: The Kindred (VGA)</caption>
-			</image>
-			<image>
-				<file>sci/pq/pq3-vga-7</file>
-				<caption>Police Quest III: The Kindred (VGA)</caption>
-			</image>
-			<image>
-				<file>sci/pq/pq3-vga-8</file>
-				<caption>Police Quest III: The Kindred (VGA)</caption>
-			</image>
-
-			<image>
-				<file>sci/pq/pq3-amiga-1</file>
+				<file>sci/pq/pq3-amiga-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Police Quest III: The Kindred (Amiga)</caption>
 			</image>
 			<image>
-				<file>sci/pq/pq3-amiga-2</file>
-				<caption>Police Quest III: The Kindred (Amiga)</caption>
-			</image>
-			<image>
-				<file>sci/pq/pq3-de-1</file>
-				<caption>Police Quest III: The Kindred (VGA/German)</caption>
-			</image>
-			<image>
-				<file>sci/pq/pq3-de-2</file>
-				<caption>Police Quest III: The Kindred (VGA/German)</caption>
-			</image>
-			<image>
-				<file>sci/pq/pq3-de-3</file>
+				<file>sci/pq/pq3-de-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Police Quest III: The Kindred (VGA/German)</caption>
 			</image>
 		</game>
@@ -2075,99 +1249,23 @@
 			<name>Quest For Glory series</name>
 			<category>qfg-sci</category>
 			<image>
-				<file>sci/qfg/qfg1-ega-1</file>
+				<file>sci/qfg/qfg1-ega-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Quest for Glory: So You Want to Be a Hero (EGA)</caption>
 			</image>
 			<image>
-				<file>sci/qfg/qfg1-ega-2</file>
-				<caption>Quest for Glory: So You Want to Be a Hero (EGA)</caption>
-			</image>
-			<image>
-				<file>sci/qfg/qfg1-ega-3</file>
-				<caption>Quest for Glory: So You Want to Be a Hero (EGA)</caption>
-			</image>
-			<image>
-				<file>sci/qfg/qfg1-ega-4</file>
-				<caption>Quest for Glory: So You Want to Be a Hero (EGA)</caption>
-			</image>
-			<image>
-				<file>sci/qfg/qfg1-ega-5</file>
-				<caption>Quest for Glory: So You Want to Be a Hero (EGA)</caption>
-			</image>
-			<image>
-				<file>sci/qfg/qfg1-ega-6</file>
-				<caption>Quest for Glory: So You Want to Be a Hero (EGA)</caption>
-			</image>
-			<image>
-				<file>sci/qfg/qfg1-vga-1</file>
+				<file>sci/qfg/qfg1-vga-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Quest for Glory: So You Want to Be a Hero (VGA)</caption>
 			</image>
 			<image>
-				<file>sci/qfg/qfg1-vga-2</file>
-				<caption>Quest for Glory: So You Want to Be a Hero (VGA)</caption>
-			</image>
-			<image>
-				<file>sci/qfg/qfg1-vga-3</file>
-				<caption>Quest for Glory: So You Want to Be a Hero (VGA)</caption>
-			</image>
-			<image>
-				<file>sci/qfg/qfg1-vga-4</file>
-				<caption>Quest for Glory: So You Want to Be a Hero (VGA)</caption>
-			</image>
-			<image>
-				<file>sci/qfg/qfg1-vga-5</file>
-				<caption>Quest for Glory: So You Want to Be a Hero (VGA)</caption>
-			</image>
-			<image>
-				<file>sci/qfg/qfg1-vga-6</file>
-				<caption>Quest for Glory: So You Want to Be a Hero (VGA)</caption>
-			</image>
-			<image>
-				<file>sci/qfg/qfg2-1</file>
+				<file>sci/qfg/qfg2-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Quest for Glory II: Trial by Fire</caption>
 			</image>
 			<image>
-				<file>sci/qfg/qfg2-2</file>
-				<caption>Quest for Glory II: Trial by Fire</caption>
-			</image>
-			<image>
-				<file>sci/qfg/qfg2-3</file>
-				<caption>Quest for Glory II: Trial by Fire</caption>
-			</image>
-			<image>
-				<file>sci/qfg/qfg2-4</file>
-				<caption>Quest for Glory II: Trial by Fire</caption>
-			</image>
-			<image>
-				<file>sci/qfg/qfg2-5</file>
-				<caption>Quest for Glory II: Trial by Fire</caption>
-			</image>
-			<image>
-				<file>sci/qfg/qfg2-6</file>
-				<caption>Quest for Glory II: Trial by Fire</caption>
-			</image>
-			<image>
-				<file>sci/qfg/qfg3-1</file>
-				<caption>Quest for Glory III: Wages of War</caption>
-			</image>
-			<image>
-				<file>sci/qfg/qfg3-2</file>
-				<caption>Quest for Glory III: Wages of War</caption>
-			</image>
-			<image>
-				<file>sci/qfg/qfg3-3</file>
-				<caption>Quest for Glory III: Wages of War</caption>
-			</image>
-			<image>
-				<file>sci/qfg/qfg3-4</file>
-				<caption>Quest for Glory III: Wages of War</caption>
-			</image>
-			<image>
-				<file>sci/qfg/qfg3-5</file>
-				<caption>Quest for Glory III: Wages of War</caption>
-			</image>
-			<image>
-				<file>sci/qfg/qfg3-6</file>
+				<file>sci/qfg/qfg3-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Quest for Glory III: Wages of War</caption>
 			</image>
 		</game>
@@ -2175,51 +1273,13 @@
 			<name>Roberta Williams' Mixed-Up Series</name>
 			<category>mixedup</category>
 			<image>
-				<file>sci/mixedup/mothergoose-1</file>
+				<file>sci/mixedup/mothergoose-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Roberta Williams' Mixed-Up Mother Goose (CD/DOS/Multilanguage)</caption>
 			</image>
 			<image>
-				<file>sci/mixedup/mothergoose-2</file>
-				<caption>Roberta Williams' Mixed-Up Mother Goose (CD/DOS/Multilanguage)</caption>
-			</image>
-			<image>
-				<file>sci/mixedup/mothergoose-3</file>
-				<caption>Roberta Williams' Mixed-Up Mother Goose (CD/DOS/Multilanguage)</caption>
-			</image>
-			<image>
-				<file>sci/mixedup/mothergoose-4</file>
-				<caption>Roberta Williams' Mixed-Up Mother Goose (CD/DOS/Multilanguage)</caption>
-			</image>
-			<image>
-				<file>sci/mixedup/mothergoose-5</file>
-				<caption>Roberta Williams' Mixed-Up Mother Goose (CD/DOS/Multilanguage)</caption>
-			</image>
-			<image>
-				<file>sci/mixedup/mothergoose-6</file>
-				<caption>Roberta Williams' Mixed-Up Mother Goose (CD/DOS/Multilanguage)</caption>
-			</image>
-			<image>
-				<file>sci/mixedup/fairytales-1</file>
-				<caption>Mixed-up Fairy Tales</caption>
-			</image>
-			<image>
-				<file>sci/mixedup/fairytales-2</file>
-				<caption>Mixed-up Fairy Tales</caption>
-			</image>
-			<image>
-				<file>sci/mixedup/fairytales-3</file>
-				<caption>Mixed-up Fairy Tales</caption>
-			</image>
-			<image>
-				<file>sci/mixedup/fairytales-4</file>
-				<caption>Mixed-up Fairy Tales</caption>
-			</image>
-			<image>
-				<file>sci/mixedup/fairytales-5</file>
-				<caption>Mixed-up Fairy Tales</caption>
-			</image>
-			<image>
-				<file>sci/mixedup/fairytales-6</file>
+				<file>sci/mixedup/fairytales-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Mixed-up Fairy Tales</caption>
 			</image>
 		</game>
@@ -2227,31 +1287,8 @@
 			<name>Slater &amp; Charlie Go Camping</name>
 			<category>slater</category>
 			<image>
-				<file>sci/slater/slater-1</file>
-				<caption>Slater &amp; Charlie Go Camping</caption>
-			</image>
-			<image>
-				<file>sci/slater/slater-2</file>
-				<caption>Slater &amp; Charlie Go Camping</caption>
-			</image>
-			<image>
-				<file>sci/slater/slater-3</file>
-				<caption>Slater &amp; Charlie Go Camping</caption>
-			</image>
-			<image>
-				<file>sci/slater/slater-4</file>
-				<caption>Slater &amp; Charlie Go Camping</caption>
-			</image>
-			<image>
-				<file>sci/slater/slater-5</file>
-				<caption>Slater &amp; Charlie Go Camping</caption>
-			</image>
-			<image>
-				<file>sci/slater/slater-6</file>
-				<caption>Slater &amp; Charlie Go Camping</caption>
-			</image>
-			<image>
-				<file>sci/slater/slater-7</file>
+				<file>sci/slater/slater-#n#</file>
+				<range from="1" to="7" format="%d" />
 				<caption>Slater &amp; Charlie Go Camping</caption>
 			</image>
 		</game>
@@ -2259,195 +1296,48 @@
 			<name>Space Quest series</name>
 			<category>sq-sci</category>
 			<image>
-				<file>sci/sq/sq1sci-ega-1</file>
+				<file>sci/sq/sq1sci-ega-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Space Quest: The Sarien Encounter (SCI/EGA)</caption>
 			</image>
 			<image>
-				<file>sci/sq/sq1sci-ega-2</file>
-				<caption>Space Quest: The Sarien Encounter (SCI/EGA)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq1sci-ega-3</file>
-				<caption>Space Quest: The Sarien Encounter (SCI/EGA)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq1sci-ega-4</file>
-				<caption>Space Quest: The Sarien Encounter (SCI/EGA)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq1sci-ega-5</file>
-				<caption>Space Quest: The Sarien Encounter (SCI/EGA)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq1sci-ega-6</file>
-				<caption>Space Quest: The Sarien Encounter (SCI/EGA)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq1sci-vga-1</file>
+				<file>sci/sq/sq1sci-vga-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Space Quest: The Sarien Encounter (SCI/VGA)</caption>
 			</image>
 			<image>
-				<file>sci/sq/sq1sci-vga-2</file>
-				<caption>Space Quest: The Sarien Encounter (SCI/VGA)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq1sci-vga-3</file>
-				<caption>Space Quest: The Sarien Encounter (SCI/VGA)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq1sci-vga-4</file>
-				<caption>Space Quest: The Sarien Encounter (SCI/VGA)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq1sci-vga-5</file>
-				<caption>Space Quest: The Sarien Encounter (SCI/VGA)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq1sci-vga-6</file>
-				<caption>Space Quest: The Sarien Encounter (SCI/VGA)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq3-1</file>
+				<file>sci/sq/sq3-#n#</file>
+				<range from="1" to="8" format="%d" />
 				<caption>Space Quest III: The Pirates of Pestulon</caption>
 			</image>
 			<image>
-				<file>sci/sq/sq3-2</file>
-				<caption>Space Quest III: The Pirates of Pestulon</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq3-3</file>
-				<caption>Space Quest III: The Pirates of Pestulon</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq3-4</file>
-				<caption>Space Quest III: The Pirates of Pestulon</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq3-5</file>
-				<caption>Space Quest III: The Pirates of Pestulon</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq3-6</file>
-				<caption>Space Quest III: The Pirates of Pestulon</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq3-7</file>
-				<caption>Space Quest III: The Pirates of Pestulon</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq3-8</file>
-				<caption>Space Quest III: The Pirates of Pestulon</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq3-de-1</file>
+				<file>sci/sq/sq3-de-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Space Quest III: The Pirates of Pestulon (DOS German)</caption>
 			</image>
 			<image>
-				<file>sci/sq/sq3-de-2</file>
-				<caption>Space Quest III: The Pirates of Pestulon (DOS German)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq4-ega-1</file>
+				<file>sci/sq/sq4-ega-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Space Quest IV: Roger Wilco and the Time Rippers (EGA)</caption>
 			</image>
 			<image>
-				<file>sci/sq/sq4-ega-2</file>
-				<caption>Space Quest IV: Roger Wilco and the Time Rippers (EGA)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq4-ega-3</file>
-				<caption>Space Quest IV: Roger Wilco and the Time Rippers (EGA)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq4-ega-4</file>
-				<caption>Space Quest IV: Roger Wilco and the Time Rippers (EGA)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq4-ega-5</file>
-				<caption>Space Quest IV: Roger Wilco and the Time Rippers (EGA)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq4-ega-6</file>
-				<caption>Space Quest IV: Roger Wilco and the Time Rippers (EGA)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq4-vga-1</file>
+				<file>sci/sq/sq4-vga-#n#</file>
+				<range from="1" to="7" format="%d" />
 				<caption>Space Quest IV: Roger Wilco and the Time Rippers (VGA)</caption>
 			</image>
 			<image>
-				<file>sci/sq/sq4-vga-2</file>
-				<caption>Space Quest IV: Roger Wilco and the Time Rippers (VGA)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq4-vga-3</file>
-				<caption>Space Quest IV: Roger Wilco and the Time Rippers (VGA)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq4-vga-4</file>
-				<caption>Space Quest IV: Roger Wilco and the Time Rippers (VGA)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq4-vga-5</file>
-				<caption>Space Quest IV: Roger Wilco and the Time Rippers (VGA)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq4-vga-6</file>
-				<caption>Space Quest IV: Roger Wilco and the Time Rippers (VGA)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq4-vga-7</file>
-				<caption>Space Quest IV: Roger Wilco and the Time Rippers (VGA)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq4-de-1</file>
+				<file>sci/sq/sq4-de-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Space Quest IV: Roger Wilco and the Time Rippers (DOS German)</caption>
 			</image>
 			<image>
-				<file>sci/sq/sq4-de-2</file>
-				<caption>Space Quest IV: Roger Wilco and the Time Rippers (DOS German)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq5-1</file>
+				<file>sci/sq/sq5-#n#</file>
+				<range from="1" to="7" format="%d" />
 				<caption>Space Quest V: The Next Mutation</caption>
 			</image>
 			<image>
-				<file>sci/sq/sq5-2</file>
-				<caption>Space Quest V: The Next Mutation</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq5-3</file>
-				<caption>Space Quest V: The Next Mutation</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq5-4</file>
-				<caption>Space Quest V: The Next Mutation</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq5-5</file>
-				<caption>Space Quest V: The Next Mutation</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq5-6</file>
-				<caption>Space Quest V: The Next Mutation</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq5-7</file>
-				<caption>Space Quest V: The Next Mutation</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq5-de-1</file>
-				<caption>Space Quest V: The Next Mutation (DOS German)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq5-de-2</file>
-				<caption>Space Quest V: The Next Mutation (DOS German)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq5-de-3</file>
-				<caption>Space Quest V: The Next Mutation (DOS German)</caption>
-			</image>
-			<image>
-				<file>sci/sq/sq5-de-4</file>
+				<file>sci/sq/sq5-de-#n#</file>
+				<range from="1" to="4" format="%d" />
 				<caption>Space Quest V: The Next Mutation (DOS German)</caption>
 			</image>
 		</game>
