@@ -1845,43 +1845,8 @@
 			<name>Darby the Dragon</name>
 			<category>darby</category>
 			<image>
-				<file>composer/darby/darby-win-1</file>
-				<caption>Darby the Dragon</caption>
-			</image>
-			<image>
-				<file>composer/darby/darby-win-2</file>
-				<caption>Darby the Dragon</caption>
-			</image>
-			<image>
-				<file>composer/darby/darby-win-3</file>
-				<caption>Darby the Dragon</caption>
-			</image>
-			<image>
-				<file>composer/darby/darby-win-4</file>
-				<caption>Darby the Dragon</caption>
-			</image>
-			<image>
-				<file>composer/darby/darby-win-5</file>
-				<caption>Darby the Dragon</caption>
-			</image>
-			<image>
-				<file>composer/darby/darby-win-6</file>
-				<caption>Darby the Dragon</caption>
-			</image>
-			<image>
-				<file>composer/darby/darby-win-7</file>
-				<caption>Darby the Dragon</caption>
-			</image>
-			<image>
-				<file>composer/darby/darby-win-8</file>
-				<caption>Darby the Dragon</caption>
-			</image>
-			<image>
-				<file>composer/darby/darby-win-9</file>
-				<caption>Darby the Dragon</caption>
-			</image>
-			<image>
-				<file>composer/darby/darby-win-10</file>
+				<file>composer/darby/darby-win-#n#</file>
+				<range from="1" to="10" format="%d" />
 				<caption>Darby the Dragon</caption>
 			</image>
 		</game>
@@ -1889,39 +1854,8 @@
 			<name>Gregory and the Hot Air Balloon</name>
 			<category>gregory</category>
 			<image>
-				<file>composer/gregory/gregory-win-1</file>
-				<caption>Gregory and the Hot Air Balloon</caption>
-			</image>
-			<image>
-				<file>composer/gregory/gregory-win-2</file>
-				<caption>Gregory and the Hot Air Balloon</caption>
-			</image>
-			<image>
-				<file>composer/gregory/gregory-win-3</file>
-				<caption>Gregory and the Hot Air Balloon</caption>
-			</image>
-			<image>
-				<file>composer/gregory/gregory-win-4</file>
-				<caption>Gregory and the Hot Air Balloon</caption>
-			</image>
-			<image>
-				<file>composer/gregory/gregory-win-5</file>
-				<caption>Gregory and the Hot Air Balloon</caption>
-			</image>
-			<image>
-				<file>composer/gregory/gregory-win-6</file>
-				<caption>Gregory and the Hot Air Balloon</caption>
-			</image>
-			<image>
-				<file>composer/gregory/gregory-win-7</file>
-				<caption>Gregory and the Hot Air Balloon</caption>
-			</image>
-			<image>
-				<file>composer/gregory/gregory-win-8</file>
-				<caption>Gregory and the Hot Air Balloon</caption>
-			</image>
-			<image>
-				<file>composer/gregory/gregory-win-9</file>
+				<file>composer/gregory/gregory-win-#n#</file>
+				<range from="1" to="9" format="%d" />
 				<caption>Gregory and the Hot Air Balloon</caption>
 			</image>
 		</game>
@@ -1929,59 +1863,8 @@
 			<name>Magic Tales: Baba Yaga and the Magic Geese</name>
 			<category>babayaga</category>
 			<image>
-				<file>gob/babayaga/babayaga-win-1</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-2</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-3</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-4</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-5</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-6</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-7</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-8</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-9</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-10</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-11</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-12</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-13</file>
-				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
-			</image>
-			<image>
-				<file>gob/babayaga/babayaga-win-14</file>
+				<file>gob/babayaga/babayaga-win-#n#</file>
+				<range from="1" to="14" format="%d" />
 				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
 			</image>
 		</game>
@@ -1989,63 +1872,8 @@
 			<name>Magic Tales: Imo and the King</name>
 			<category>imoking</category>
 			<image>
-				<file>composer/imoking/imoking-win-1</file>
-				<caption>Magic Tales: Imo and the King</caption>
-			</image>
-			<image>
-				<file>composer/imoking/imoking-win-2</file>
-				<caption>Magic Tales: Imo and the King</caption>
-			</image>
-			<image>
-				<file>composer/imoking/imoking-win-3</file>
-				<caption>Magic Tales: Imo and the King</caption>
-			</image>
-			<image>
-				<file>composer/imoking/imoking-win-4</file>
-				<caption>Magic Tales: Imo and the King</caption>
-			</image>
-			<image>
-				<file>composer/imoking/imoking-win-5</file>
-				<caption>Magic Tales: Imo and the King</caption>
-			</image>
-			<image>
-				<file>composer/imoking/imoking-win-6</file>
-				<caption>Magic Tales: Imo and the King</caption>
-			</image>
-			<image>
-				<file>composer/imoking/imoking-win-7</file>
-				<caption>Magic Tales: Imo and the King</caption>
-			</image>
-			<image>
-				<file>composer/imoking/imoking-win-8</file>
-				<caption>Magic Tales: Imo and the King</caption>
-			</image>
-			<image>
-				<file>composer/imoking/imoking-win-9</file>
-				<caption>Magic Tales: Imo and the King</caption>
-			</image>
-			<image>
-				<file>composer/imoking/imoking-win-10</file>
-				<caption>Magic Tales: Imo and the King</caption>
-			</image>
-			<image>
-				<file>composer/imoking/imoking-win-11</file>
-				<caption>Magic Tales: Imo and the King</caption>
-			</image>
-			<image>
-				<file>composer/imoking/imoking-win-12</file>
-				<caption>Magic Tales: Imo and the King</caption>
-			</image>
-			<image>
-				<file>composer/imoking/imoking-win-13</file>
-				<caption>Magic Tales: Imo and the King</caption>
-			</image>
-			<image>
-				<file>composer/imoking/imoking-win-14</file>
-				<caption>Magic Tales: Imo and the King</caption>
-			</image>
-			<image>
-				<file>composer/imoking/imoking-win-15</file>
+				<file>composer/imoking/imoking-win-#n#</file>
+				<range from="1" to="15" format="%d" />
 				<caption>Magic Tales: Imo and the King</caption>
 			</image>
 		</game>
@@ -2053,63 +1881,8 @@
 			<name>Magic Tales: Liam Finds a Story</name>
 			<category>liam</category>
 			<image>
-				<file>composer/liam/liam-win-1</file>
-				<caption>Magic Tales: Liam Finds a Story</caption>
-			</image>
-			<image>
-				<file>composer/liam/liam-win-2</file>
-				<caption>Magic Tales: Liam Finds a Story</caption>
-			</image>
-			<image>
-				<file>composer/liam/liam-win-3</file>
-				<caption>Magic Tales: Liam Finds a Story</caption>
-			</image>
-			<image>
-				<file>composer/liam/liam-win-4</file>
-				<caption>Magic Tales: Liam Finds a Story</caption>
-			</image>
-			<image>
-				<file>composer/liam/liam-win-5</file>
-				<caption>Magic Tales: Liam Finds a Story</caption>
-			</image>
-			<image>
-				<file>composer/liam/liam-win-6</file>
-				<caption>Magic Tales: Liam Finds a Story</caption>
-			</image>
-			<image>
-				<file>composer/liam/liam-win-7</file>
-				<caption>Magic Tales: Liam Finds a Story</caption>
-			</image>
-			<image>
-				<file>composer/liam/liam-win-8</file>
-				<caption>Magic Tales: Liam Finds a Story</caption>
-			</image>
-			<image>
-				<file>composer/liam/liam-win-9</file>
-				<caption>Magic Tales: Liam Finds a Story</caption>
-			</image>
-			<image>
-				<file>composer/liam/liam-win-10</file>
-				<caption>Magic Tales: Liam Finds a Story</caption>
-			</image>
-			<image>
-				<file>composer/liam/liam-win-11</file>
-				<caption>Magic Tales: Liam Finds a Story</caption>
-			</image>
-			<image>
-				<file>composer/liam/liam-win-12</file>
-				<caption>Magic Tales: Liam Finds a Story</caption>
-			</image>
-			<image>
-				<file>composer/liam/liam-win-13</file>
-				<caption>Magic Tales: Liam Finds a Story</caption>
-			</image>
-			<image>
-				<file>composer/liam/liam-win-14</file>
-				<caption>Magic Tales: Liam Finds a Story</caption>
-			</image>
-			<image>
-				<file>composer/liam/liam-win-15</file>
+				<file>composer/liam/liam-win-#n#</file>
+				<range from="1" to="15" format="%d" />
 				<caption>Magic Tales: Liam Finds a Story</caption>
 			</image>
 		</game>
@@ -2117,59 +1890,8 @@
 			<name>Magic Tales: The Little Samurai</name>
 			<category>littlesamurai</category>
 			<image>
-				<file>composer/littlesamurai/littlesamurai-win-1</file>
-				<caption>Magic Tales: The Little Samurai</caption>
-			</image>
-			<image>
-				<file>composer/littlesamurai/littlesamurai-win-2</file>
-				<caption>Magic Tales: The Little Samurai</caption>
-			</image>
-			<image>
-				<file>composer/littlesamurai/littlesamurai-win-3</file>
-				<caption>Magic Tales: The Little Samurai</caption>
-			</image>
-			<image>
-				<file>composer/littlesamurai/littlesamurai-win-4</file>
-				<caption>Magic Tales: The Little Samurai</caption>
-			</image>
-			<image>
-				<file>composer/littlesamurai/littlesamurai-win-5</file>
-				<caption>Magic Tales: The Little Samurai</caption>
-			</image>
-			<image>
-				<file>composer/littlesamurai/littlesamurai-win-6</file>
-				<caption>Magic Tales: The Little Samurai</caption>
-			</image>
-			<image>
-				<file>composer/littlesamurai/littlesamurai-win-7</file>
-				<caption>Magic Tales: The Little Samurai</caption>
-			</image>
-			<image>
-				<file>composer/littlesamurai/littlesamurai-win-8</file>
-				<caption>Magic Tales: The Little Samurai</caption>
-			</image>
-			<image>
-				<file>composer/littlesamurai/littlesamurai-win-9</file>
-				<caption>Magic Tales: The Little Samurai</caption>
-			</image>
-			<image>
-				<file>composer/littlesamurai/littlesamurai-win-10</file>
-				<caption>Magic Tales: The Little Samurai</caption>
-			</image>
-			<image>
-				<file>composer/littlesamurai/littlesamurai-win-11</file>
-				<caption>Magic Tales: The Little Samurai</caption>
-			</image>
-			<image>
-				<file>composer/littlesamurai/littlesamurai-win-12</file>
-				<caption>Magic Tales: The Little Samurai</caption>
-			</image>
-			<image>
-				<file>composer/littlesamurai/littlesamurai-win-13</file>
-				<caption>Magic Tales: The Little Samurai</caption>
-			</image>
-			<image>
-				<file>composer/littlesamurai/littlesamurai-win-14</file>
+				<file>composer/littlesamurai/littlesamurai-win-#n#</file>
+				<range from="1" to="14" format="%d" />
 				<caption>Magic Tales: The Little Samurai</caption>
 			</image>
 		</game>
@@ -2177,59 +1899,8 @@
 			<name>Magic Tales: The Princess and the Crab</name>
 			<category>princess</category>
 			<image>
-				<file>composer/princess/princess-win-1</file>
-				<caption>Magic Tales: The Princess and the Crab</caption>
-			</image>
-			<image>
-				<file>composer/princess/princess-win-2</file>
-				<caption>Magic Tales: The Princess and the Crab</caption>
-			</image>
-			<image>
-				<file>composer/princess/princess-win-3</file>
-				<caption>Magic Tales: The Princess and the Crab</caption>
-			</image>
-			<image>
-				<file>composer/princess/princess-win-4</file>
-				<caption>Magic Tales: The Princess and the Crab</caption>
-			</image>
-			<image>
-				<file>composer/princess/princess-win-5</file>
-				<caption>Magic Tales: The Princess and the Crab</caption>
-			</image>
-			<image>
-				<file>composer/princess/princess-win-6</file>
-				<caption>Magic Tales: The Princess and the Crab</caption>
-			</image>
-			<image>
-				<file>composer/princess/princess-win-7</file>
-				<caption>Magic Tales: The Princess and the Crab</caption>
-			</image>
-			<image>
-				<file>composer/princess/princess-win-8</file>
-				<caption>Magic Tales: The Princess and the Crab</caption>
-			</image>
-			<image>
-				<file>composer/princess/princess-win-9</file>
-				<caption>Magic Tales: The Princess and the Crab</caption>
-			</image>
-			<image>
-				<file>composer/princess/princess-win-10</file>
-				<caption>Magic Tales: The Princess and the Crab</caption>
-			</image>
-			<image>
-				<file>composer/princess/princess-win-11</file>
-				<caption>Magic Tales: The Princess and the Crab</caption>
-			</image>
-			<image>
-				<file>composer/princess/princess-win-12</file>
-				<caption>Magic Tales: The Princess and the Crab</caption>
-			</image>
-			<image>
-				<file>composer/princess/princess-win-13</file>
-				<caption>Magic Tales: The Princess and the Crab</caption>
-			</image>
-			<image>
-				<file>composer/princess/princess-win-14</file>
+				<file>composer/princess/princess-win-#n#</file>
+				<range from="1" to="14" format="%d" />
 				<caption>Magic Tales: The Princess and the Crab</caption>
 			</image>
 		</game>
@@ -2237,59 +1908,8 @@
 			<name>Magic Tales: Sleeping Cub's Test of Courage</name>
 			<category>sleepingcub</category>
 			<image>
-				<file>composer/sleepingcub/sleepingcub-win-1</file>
-				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
-			</image>
-			<image>
-				<file>composer/sleepingcub/sleepingcub-win-2</file>
-				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
-			</image>
-			<image>
-				<file>composer/sleepingcub/sleepingcub-win-3</file>
-				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
-			</image>
-			<image>
-				<file>composer/sleepingcub/sleepingcub-win-4</file>
-				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
-			</image>
-			<image>
-				<file>composer/sleepingcub/sleepingcub-win-5</file>
-				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
-			</image>
-			<image>
-				<file>composer/sleepingcub/sleepingcub-win-6</file>
-				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
-			</image>
-			<image>
-				<file>composer/sleepingcub/sleepingcub-win-7</file>
-				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
-			</image>
-			<image>
-				<file>composer/sleepingcub/sleepingcub-win-8</file>
-				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
-			</image>
-			<image>
-				<file>composer/sleepingcub/sleepingcub-win-9</file>
-				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
-			</image>
-			<image>
-				<file>composer/sleepingcub/sleepingcub-win-10</file>
-				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
-			</image>
-			<image>
-				<file>composer/sleepingcub/sleepingcub-win-11</file>
-				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
-			</image>
-			<image>
-				<file>composer/sleepingcub/sleepingcub-win-12</file>
-				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
-			</image>
-			<image>
-				<file>composer/sleepingcub/sleepingcub-win-13</file>
-				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
-			</image>
-			<image>
-				<file>composer/sleepingcub/sleepingcub-win-14</file>
+				<file>composer/sleepingcub/sleepingcub-win-#n#</file>
+				<range from="1" to="14" format="%d" />
 				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
 			</image>
 		</game>
@@ -2301,35 +1921,13 @@
 			<name>Aesop's Fables: The Tortoise and the Hare</name>
 			<category>tortoise</category>
 			<image>
-				<file>livingbooks/tortoise/tortoise-1</file>
+				<file>livingbooks/tortoise/tortoise-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Aesop's Fables: The Tortoise and the Hare</caption>
 			</image>
 			<image>
-				<file>livingbooks/tortoise/tortoise-2</file>
-				<caption>Aesop's Fables: The Tortoise and the Hare</caption>
-			</image>
-			<image>
-				<file>livingbooks/tortoise/tortoise-3</file>
-				<caption>Aesop's Fables: The Tortoise and the Hare</caption>
-			</image>
-			<image>
-				<file>livingbooks/tortoise/tortoise-4</file>
-				<caption>Aesop's Fables: The Tortoise and the Hare</caption>
-			</image>
-			<image>
-				<file>livingbooks/tortoise/tortoise-5</file>
-				<caption>Aesop's Fables: The Tortoise and the Hare</caption>
-			</image>
-			<image>
-				<file>livingbooks/tortoise/tortoise-6</file>
-				<caption>Aesop's Fables: The Tortoise and the Hare</caption>
-			</image>
-			<image>
-				<file>livingbooks/tortoise/tortoise-es-1</file>
-				<caption>Aesop's Fables: The Tortoise and the Hare (Spanish)</caption>
-			</image>
-			<image>
-				<file>livingbooks/tortoise/tortoise-es-2</file>
+				<file>livingbooks/tortoise/tortoise-es-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Aesop's Fables: The Tortoise and the Hare (Spanish)</caption>
 			</image>
 		</game>
@@ -2337,43 +1935,13 @@
 			<name>Arthur series</name>
 			<category>arthur</category>
 			<image>
-				<file>livingbooks/arthur/arthur-1</file>
+				<file>livingbooks/arthur/arthur-#n#</file>
+				<range from="1" to="7" format="%d" />
 				<caption>Arthur's Teacher Trouble</caption>
 			</image>
 			<image>
-				<file>livingbooks/arthur/arthur-2</file>
-				<caption>Arthur's Teacher Trouble</caption>
-			</image>
-			<image>
-				<file>livingbooks/arthur/arthur-3</file>
-				<caption>Arthur's Teacher Trouble</caption>
-			</image>
-			<image>
-				<file>livingbooks/arthur/arthur-4</file>
-				<caption>Arthur's Teacher Trouble</caption>
-			</image>
-			<image>
-				<file>livingbooks/arthur/arthur-5</file>
-				<caption>Arthur's Teacher Trouble</caption>
-			</image>
-			<image>
-				<file>livingbooks/arthur/arthur-6</file>
-				<caption>Arthur's Teacher Trouble</caption>
-			</image>
-			<image>
-				<file>livingbooks/arthur/arthur-7</file>
-				<caption>Arthur's Teacher Trouble</caption>
-			</image>
-			<image>
-				<file>livingbooks/arthur/arthur-es-1</file>
-				<caption>Arthur's Teacher Trouble (Spanish)</caption>
-			</image>
-			<image>
-				<file>livingbooks/arthur/arthur-es-2</file>
-				<caption>Arthur's Teacher Trouble (Spanish)</caption>
-			</image>
-			<image>
-				<file>livingbooks/arthur/arthur-es-3</file>
+				<file>livingbooks/arthur/arthur-es-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Arthur's Teacher Trouble (Spanish)</caption>
 			</image>
 		</game>
@@ -2381,23 +1949,13 @@
 			<name>The Berenstain Bears Get in a Fight</name>
 			<category>bearfight</category>
 			<image>
-				<file>livingbooks/bearfight/bearfight-win-1</file>
+				<file>livingbooks/bearfight/bearfight-win-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>The Berenstain Bears Get in a Fight</caption>
 			</image>
 			<image>
-				<file>livingbooks/bearfight/bearfight-win-2</file>
-				<caption>The Berenstain Bears Get in a Fight</caption>
-			</image>
-			<image>
-				<file>livingbooks/bearfight/bearfight-win-3</file>
-				<caption>The Berenstain Bears Get in a Fight</caption>
-			</image>
-			<image>
-				<file>livingbooks/bearfight/bearfight-win-es-1</file>
-				<caption>The Berenstain Bears Get in a Fight (Spanish)</caption>
-			</image>
-			<image>
-				<file>livingbooks/bearfight/bearfight-win-es-2</file>
+				<file>livingbooks/bearfight/bearfight-win-es-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>The Berenstain Bears Get in a Fight (Spanish)</caption>
 			</image>
 		</game>
@@ -2405,27 +1963,8 @@
 			<name>The Berenstain Bears in the Dark</name>
 			<category>beardark</category>
 			<image>
-				<file>livingbooks/beardark/beardark-win-0</file>
-				<caption>The Berenstain Bears in the Dark</caption>
-			</image>
-			<image>
-				<file>livingbooks/beardark/beardark-win-1</file>
-				<caption>The Berenstain Bears in the Dark</caption>
-			</image>
-			<image>
-				<file>livingbooks/beardark/beardark-win-2</file>
-				<caption>The Berenstain Bears in the Dark</caption>
-			</image>
-			<image>
-				<file>livingbooks/beardark/beardark-win-3</file>
-				<caption>The Berenstain Bears in the Dark</caption>
-			</image>
-			<image>
-				<file>livingbooks/beardark/beardark-win-4</file>
-				<caption>The Berenstain Bears in the Dark</caption>
-			</image>
-			<image>
-				<file>livingbooks/beardark/beardark-win-5</file>
+				<file>livingbooks/beardark/beardark-win-#n#</file>
+				<range from="0" to="5" format="%d" />
 				<caption>The Berenstain Bears in the Dark</caption>
 			</image>
 		</game>
@@ -2433,27 +1972,8 @@
 			<name>Dr Seuss's ABC</name>
 			<category>seussabc</category>
 			<image>
-				<file>livingbooks/seussabc/seussabc-win-1</file>
-				<caption>Dr Seuss's ABC</caption>
-			</image>
-			<image>
-				<file>livingbooks/seussabc/seussabc-win-2</file>
-				<caption>Dr Seuss's ABC</caption>
-			</image>
-			<image>
-				<file>livingbooks/seussabc/seussabc-win-3</file>
-				<caption>Dr Seuss's ABC</caption>
-			</image>
-			<image>
-				<file>livingbooks/seussabc/seussabc-win-4</file>
-				<caption>Dr Seuss's ABC</caption>
-			</image>
-			<image>
-				<file>livingbooks/seussabc/seussabc-win-5</file>
-				<caption>Dr Seuss's ABC</caption>
-			</image>
-			<image>
-				<file>livingbooks/seussabc/seussabc-win-6</file>
+				<file>livingbooks/seussabc/seussabc-win-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Dr Seuss's ABC</caption>
 			</image>
 		</game>
@@ -2461,35 +1981,8 @@
 			<name>Green Eggs and Ham</name>
 			<category>greeneggs</category>
 			<image>
-				<file>livingbooks/greeneggs/greeneggs-win-1</file>
-				<caption>Green Eggs and Ham</caption>
-			</image>
-			<image>
-				<file>livingbooks/greeneggs/greeneggs-win-2</file>
-				<caption>Green Eggs and Ham</caption>
-			</image>
-			<image>
-				<file>livingbooks/greeneggs/greeneggs-win-3</file>
-				<caption>Green Eggs and Ham</caption>
-			</image>
-			<image>
-				<file>livingbooks/greeneggs/greeneggs-win-4</file>
-				<caption>Green Eggs and Ham</caption>
-			</image>
-			<image>
-				<file>livingbooks/greeneggs/greeneggs-win-5</file>
-				<caption>Green Eggs and Ham</caption>
-			</image>
-			<image>
-				<file>livingbooks/greeneggs/greeneggs-win-6</file>
-				<caption>Green Eggs and Ham</caption>
-			</image>
-			<image>
-				<file>livingbooks/greeneggs/greeneggs-win-7</file>
-				<caption>Green Eggs and Ham</caption>
-			</image>
-			<image>
-				<file>livingbooks/greeneggs/greeneggs-win-8</file>
+				<file>livingbooks/greeneggs/greeneggs-win-#n#</file>
+				<range from="1" to="8" format="%d" />
 				<caption>Green Eggs and Ham</caption>
 			</image>
 		</game>
@@ -2497,27 +1990,13 @@
 			<name>Harry and the Haunted House</name>
 			<category>harryhh</category>
 			<image>
-				<file>livingbooks/harryhh/harryhh-1</file>
+				<file>livingbooks/harryhh/harryhh-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Harry and the Haunted House</caption>
 			</image>
 			<image>
-				<file>livingbooks/harryhh/harryhh-2</file>
-				<caption>Harry and the Haunted House</caption>
-			</image>
-			<image>
-				<file>livingbooks/harryhh/harryhh-3</file>
-				<caption>Harry and the Haunted House</caption>
-			</image>
-			<image>
-				<file>livingbooks/harryhh/harryhh-es-1</file>
-				<caption>Harry and the Haunted House (Spanish)</caption>
-			</image>
-			<image>
-				<file>livingbooks/harryhh/harryhh-es-2</file>
-				<caption>Harry and the Haunted House (Spanish)</caption>
-			</image>
-			<image>
-				<file>livingbooks/harryhh/harryhh-es-3</file>
+				<file>livingbooks/harryhh/harryhh-es-#n#</file>
+				<range from="1" to="3" format="%d" />
 				<caption>Harry and the Haunted House (Spanish)</caption>
 			</image>
 		</game>
@@ -2525,35 +2004,18 @@
 			<name>Just Grandma and Me</name>
 			<category>grandma</category>
 			<image>
-				<file>livingbooks/grandma/grandma-win-1</file>
+				<file>livingbooks/grandma/grandma-win-#n#</file>
+				<range from="1" to="4" format="%d" />
 				<caption>Just Grandma and Me</caption>
 			</image>
 			<image>
-				<file>livingbooks/grandma/grandma-win-2</file>
-				<caption>Just Grandma and Me</caption>
-			</image>
-			<image>
-				<file>livingbooks/grandma/grandma-win-3</file>
-				<caption>Just Grandma and Me</caption>
-			</image>
-			<image>
-				<file>livingbooks/grandma/grandma-win-4</file>
-				<caption>Just Grandma and Me</caption>
-			</image>
-			<image>
-				<file>livingbooks/grandma/grandma-win-jp-1</file>
+				<file>livingbooks/grandma/grandma-win-jp-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Just Grandma and Me (Japanese)</caption>
 			</image>
 			<image>
-				<file>livingbooks/grandma/grandma-win-jp-2</file>
-				<caption>Just Grandma and Me (Japanese)</caption>
-			</image>
-			<image>
-				<file>livingbooks/grandma/grandma-win-es-1</file>
-				<caption>Just Grandma and Me (Spanish)</caption>
-			</image>
-			<image>
-				<file>livingbooks/grandma/grandma-win-es-2</file>
+				<file>livingbooks/grandma/grandma-win-es-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Just Grandma and Me (Spanish)</caption>
 			</image>
 		</game>
@@ -2561,31 +2023,13 @@
 			<name>Little Monster at School</name>
 			<category>lilmonster</category>
 			<image>
-				<file>livingbooks/lilmonster/lilmonster-win-1</file>
+				<file>livingbooks/lilmonster/lilmonster-win-#n#</file>
+				<range from="1" to="5" format="%d" />
 				<caption>Little Monster at School</caption>
 			</image>
 			<image>
-				<file>livingbooks/lilmonster/lilmonster-win-2</file>
-				<caption>Little Monster at School</caption>
-			</image>
-			<image>
-				<file>livingbooks/lilmonster/lilmonster-win-3</file>
-				<caption>Little Monster at School</caption>
-			</image>
-			<image>
-				<file>livingbooks/lilmonster/lilmonster-win-4</file>
-				<caption>Little Monster at School</caption>
-			</image>
-			<image>
-				<file>livingbooks/lilmonster/lilmonster-win-5</file>
-				<caption>Little Monster at School</caption>
-			</image>
-			<image>
-				<file>livingbooks/lilmonster/lilmonster-win-es-1</file>
-				<caption>Little Monster at School (Spanish)</caption>
-			</image>
-			<image>
-				<file>livingbooks/lilmonster/lilmonster-win-es-2</file>
+				<file>livingbooks/lilmonster/lilmonster-win-es-#n#</file>
+				<range from="1" to="2" format="%d" />
 				<caption>Little Monster at School (Spanish)</caption>
 			</image>
 		</game>
@@ -2593,43 +2037,8 @@
 			<name>The New Kid on the Block</name>
 			<category>newkid</category>
 			<image>
-				<file>livingbooks/newkid/newkid-win-1</file>
-				<caption>The New Kid on the Block</caption>
-			</image>
-			<image>
-				<file>livingbooks/newkid/newkid-win-2</file>
-				<caption>The New Kid on the Block</caption>
-			</image>
-			<image>
-				<file>livingbooks/newkid/newkid-win-3</file>
-				<caption>The New Kid on the Block</caption>
-			</image>
-			<image>
-				<file>livingbooks/newkid/newkid-win-4</file>
-				<caption>The New Kid on the Block</caption>
-			</image>
-			<image>
-				<file>livingbooks/newkid/newkid-win-5</file>
-				<caption>The New Kid on the Block</caption>
-			</image>
-			<image>
-				<file>livingbooks/newkid/newkid-win-6</file>
-				<caption>The New Kid on the Block</caption>
-			</image>
-			<image>
-				<file>livingbooks/newkid/newkid-win-7</file>
-				<caption>The New Kid on the Block</caption>
-			</image>
-			<image>
-				<file>livingbooks/newkid/newkid-win-8</file>
-				<caption>The New Kid on the Block</caption>
-			</image>
-			<image>
-				<file>livingbooks/newkid/newkid-win-9</file>
-				<caption>The New Kid on the Block</caption>
-			</image>
-			<image>
-				<file>livingbooks/newkid/newkid-win-10</file>
+				<file>livingbooks/newkid/newkid-win-#n#</file>
+				<range from="1" to="10" format="%d" />
 				<caption>The New Kid on the Block</caption>
 			</image>
 		</game>
@@ -2637,43 +2046,13 @@
 			<name>Ruff's Bone</name>
 			<category>ruff</category>
 			<image>
-				<file>livingbooks/ruff/ruff-win-1</file>
+				<file>livingbooks/ruff/ruff-win-#n#</file>
+				<range from="1" to="7" format="%d" />
 				<caption>Ruff's Bone</caption>
 			</image>
 			<image>
-				<file>livingbooks/ruff/ruff-win-2</file>
-				<caption>Ruff's Bone</caption>
-			</image>
-			<image>
-				<file>livingbooks/ruff/ruff-win-3</file>
-				<caption>Ruff's Bone</caption>
-			</image>
-			<image>
-				<file>livingbooks/ruff/ruff-win-4</file>
-				<caption>Ruff's Bone</caption>
-			</image>
-			<image>
-				<file>livingbooks/ruff/ruff-win-5</file>
-				<caption>Ruff's Bone</caption>
-			</image>
-			<image>
-				<file>livingbooks/ruff/ruff-win-6</file>
-				<caption>Ruff's Bone</caption>
-			</image>
-			<image>
-				<file>livingbooks/ruff/ruff-win-7</file>
-				<caption>Ruff's Bone</caption>
-			</image>
-			<image>
-				<file>livingbooks/ruff/ruff-win-es-8</file>
-				<caption>Ruff's Bone (Spanish)</caption>
-			</image>
-			<image>
-				<file>livingbooks/ruff/ruff-win-es-9</file>
-				<caption>Ruff's Bone (Spanish)</caption>
-			</image>
-			<image>
-				<file>livingbooks/ruff/ruff-win-es-10</file>
+				<file>livingbooks/ruff/ruff-win-es-#n#</file>
+				<range from="8" to="10" format="%d" />
 				<caption>Ruff's Bone (Spanish)</caption>
 			</image>
 		</game>
@@ -2681,43 +2060,13 @@
 			<name>Sheila Rae, the Brave</name>
 			<category>sheilarae</category>
 			<image>
-				<file>livingbooks/sheilarae/sheila-win-1</file>
+				<file>livingbooks/sheilarae/sheila-win-#n#</file>
+				<range from="1" to="7" format="%d" />
 				<caption>Sheila Rae, the Brave</caption>
 			</image>
 			<image>
-				<file>livingbooks/sheilarae/sheila-win-2</file>
-				<caption>Sheila Rae, the Brave</caption>
-			</image>
-			<image>
-				<file>livingbooks/sheilarae/sheila-win-3</file>
-				<caption>Sheila Rae, the Brave</caption>
-			</image>
-			<image>
-				<file>livingbooks/sheilarae/sheila-win-4</file>
-				<caption>Sheila Rae, the Brave</caption>
-			</image>
-			<image>
-				<file>livingbooks/sheilarae/sheila-win-5</file>
-				<caption>Sheila Rae, the Brave</caption>
-			</image>
-			<image>
-				<file>livingbooks/sheilarae/sheila-win-6</file>
-				<caption>Sheila Rae, the Brave</caption>
-			</image>
-			<image>
-				<file>livingbooks/sheilarae/sheila-win-7</file>
-				<caption>Sheila Rae, the Brave</caption>
-			</image>
-			<image>
-				<file>livingbooks/sheilarae/sheila-win-es-8</file>
-				<caption>Sheila Rae, the Brave (Spanish)</caption>
-			</image>
-			<image>
-				<file>livingbooks/sheilarae/sheila-win-es-9</file>
-				<caption>Sheila Rae, the Brave (Spanish)</caption>
-			</image>
-			<image>
-				<file>livingbooks/sheilarae/sheila-win-es-10</file>
+				<file>livingbooks/sheilarae/sheila-win-es-#n#</file>
+				<range from="8" to="10" format="%d" />
 				<caption>Sheila Rae, the Brave (Spanish)</caption>
 			</image>
 		</game>
@@ -2725,63 +2074,8 @@
 			<name>Stellaluna</name>
 			<category>stellaluna</category>
 			<image>
-				<file>livingbooks/stellaluna/stellaluna-win-0</file>
-				<caption>Stellaluna</caption>
-			</image>
-			<image>
-				<file>livingbooks/stellaluna/stellaluna-win-1</file>
-				<caption>Stellaluna</caption>
-			</image>
-			<image>
-				<file>livingbooks/stellaluna/stellaluna-win-2</file>
-				<caption>Stellaluna</caption>
-			</image>
-			<image>
-				<file>livingbooks/stellaluna/stellaluna-win-3</file>
-				<caption>Stellaluna</caption>
-			</image>
-			<image>
-				<file>livingbooks/stellaluna/stellaluna-win-4</file>
-				<caption>Stellaluna</caption>
-			</image>
-			<image>
-				<file>livingbooks/stellaluna/stellaluna-win-5</file>
-				<caption>Stellaluna</caption>
-			</image>
-			<image>
-				<file>livingbooks/stellaluna/stellaluna-win-6</file>
-				<caption>Stellaluna</caption>
-			</image>
-			<image>
-				<file>livingbooks/stellaluna/stellaluna-win-7</file>
-				<caption>Stellaluna</caption>
-			</image>
-			<image>
-				<file>livingbooks/stellaluna/stellaluna-win-8</file>
-				<caption>Stellaluna</caption>
-			</image>
-			<image>
-				<file>livingbooks/stellaluna/stellaluna-win-9</file>
-				<caption>Stellaluna</caption>
-			</image>
-			<image>
-				<file>livingbooks/stellaluna/stellaluna-win-10</file>
-				<caption>Stellaluna</caption>
-			</image>
-			<image>
-				<file>livingbooks/stellaluna/stellaluna-win-11</file>
-				<caption>Stellaluna</caption>
-			</image>
-			<image>
-				<file>livingbooks/stellaluna/stellaluna-win-12</file>
-				<caption>Stellaluna</caption>
-			</image>
-			<image>
-				<file>livingbooks/stellaluna/stellaluna-win-13</file>
-				<caption>Stellaluna</caption>
-			</image>
-			<image>
-				<file>livingbooks/stellaluna/stellaluna-win-14</file>
+				<file>livingbooks/stellaluna/stellaluna-win-#n#</file>
+				<range from="0" to="14" format="%d" />
 				<caption>Stellaluna</caption>
 			</image>
 		</game>
@@ -2793,87 +2087,27 @@
 			<name>Big Thinkers series</name>
 			<category>thinkers</category>
 			<image>
-				<file>he/thinkers/scummvm_1_0_0</file>
+				<file>he/thinkers/scummvm_1_0_#n#</file>
+				<range from="0" to="3" format="%d" />
 				<caption>Big Thinkers Kindergarten</caption>
-			</image>
-			<image>
-				<file>he/thinkers/scummvm_1_0_1</file>
-				<caption>Big Thinkers Kindergarten</caption>
-			</image>
-			<image>
-				<file>he/thinkers/scummvm_1_0_2</file>
-				<caption>Big Thinkers First Grade</caption>
-			</image>
-			<image>
-				<file>he/thinkers/scummvm_1_0_3</file>
-				<caption>Big Thinkers First Grade</caption>
 			</image>
 		</game>
 		<game>
 			<name>Blue's Clues series</name>
 			<category>blues</category>
 			<image>
-				<file>he/blues/blues123time-1</file>
+				<file>he/blues/blues123time-#n#</file>
+				<range from="1" to="5" format="%d" />
 				<caption>Blue's 123 Time Activities</caption>
 			</image>
 			<image>
-				<file>he/blues/blues123time-2</file>
-				<caption>Blue's 123 Time Activities</caption>
-			</image>
-			<image>
-				<file>he/blues/blues123time-3</file>
-				<caption>Blue's 123 Time Activities</caption>
-			</image>
-			<image>
-				<file>he/blues/blues123time-4</file>
-				<caption>Blue's 123 Time Activities</caption>
-			</image>
-			<image>
-				<file>he/blues/blues123time-5</file>
-				<caption>Blue's 123 Time Activities</caption>
-			</image>
-			<image>
-				<file>he/blues/bluesabctime-1</file>
+				<file>he/blues/bluesabctime-#n#</file>
+				<range from="1" to="6" format="%d" />
 				<caption>Blue's ABC Time Activities</caption>
 			</image>
 			<image>
-				<file>he/blues/bluesabctime-2</file>
-				<caption>Blue's ABC Time Activities</caption>
-			</image>
-			<image>
-				<file>he/blues/bluesabctime-3</file>
-				<caption>Blue's ABC Time Activities</caption>
-			</image>
-			<image>
-				<file>he/blues/bluesabctime-4</file>
-				<caption>Blue's ABC Time Activities</caption>
-			</image>
-			<image>
-				<file>he/blues/bluesabctime-5</file>
-				<caption>Blue's ABC Time Activities</caption>
-			</image>
-			<image>
-				<file>he/blues/bluesabctime-6</file>
-				<caption>Blue's ABC Time Activities</caption>
-			</image>
-			<image>
-				<file>he/blues/arttime-1</file>
-				<caption>Blue's Art Time Activities</caption>
-			</image>
-			<image>
-				<file>he/blues/arttime-2</file>
-				<caption>Blue's Art Time Activities</caption>
-			</image>
-			<image>
-				<file>he/blues/arttime-3</file>
-				<caption>Blue's Art Time Activities</caption>
-			</image>
-			<image>
-				<file>he/blues/arttime-4</file>
-				<caption>Blue's Art Time Activities</caption>
-			</image>
-			<image>
-				<file>he/blues/arttime-5</file>
+				<file>he/blues/arttime-#n#</file>
+				<range from="1" to="5" format="%d" />
 				<caption>Blue's Art Time Activities</caption>
 			</image>
 		</game>
@@ -2881,35 +2115,18 @@
 			<name>Fatty Bear series</name>
 			<category>fbear</category>
 			<image>
-				<file>he/fbear/scummvm_1_4_0</file>
+				<file>he/fbear/scummvm_1_4_#n#</file>
+				<range from="0" to="1" format="%d" />
 				<caption>Fatty Bear's Birthday Surprise (Win32)</caption>
 			</image>
 			<image>
-				<file>he/fbear/scummvm_1_4_1</file>
-				<caption>Fatty Bear's Birthday Surprise (Win32)</caption>
-			</image>
-			<image>
-				<file>he/fbear/fbear-2</file>
+				<file>he/fbear/fbear-#n#</file>
+				<range from="2" to="5" format="%d" />
 				<caption>Fatty Bear's Birthday Surprise (DOS)</caption>
 			</image>
 			<image>
-				<file>he/fbear/fbear-3</file>
-				<caption>Fatty Bear's Birthday Surprise (DOS)</caption>
-			</image>
-			<image>
-				<file>he/fbear/fbear-4</file>
-				<caption>Fatty Bear's Birthday Surprise (DOS)</caption>
-			</image>
-			<image>
-				<file>he/fbear/fbear-5</file>
-				<caption>Fatty Bear's Birthday Surprise (DOS)</caption>
-			</image>
-			<image>
-				<file>he/fbear/scummvm_1_4_2</file>
-				<caption>Fatty Bear's Fun Pack</caption>
-			</image>
-			<image>
-				<file>he/fbear/scummvm_1_4_3</file>
+				<file>he/fbear/scummvm_1_4_#n#</file>
+				<range from="2" to="3" format="%d" />
 				<caption>Fatty Bear's Fun Pack</caption>
 			</image>
 		</game>
@@ -2917,175 +2134,71 @@
 			<name>Freddi Fish series</name>
 			<category>ffish</category>
 			<image>
-				<file>he/ffish/scummvm_1_6_0</file>
+				<file>he/ffish/scummvm_1_6_#n#</file>
+				<range from="0" to="1" format="%d" />
 				<caption>Freddi Fish 1: The Case of the Missing Kelp Seeds</caption>
 			</image>
 			<image>
-				<file>he/ffish/scummvm_1_6_1</file>
+				<file>he/ffish/freddi1-#n#</file>
+				<range from="2" to="5" format="%d" />
 				<caption>Freddi Fish 1: The Case of the Missing Kelp Seeds</caption>
 			</image>
 			<image>
-				<file>he/ffish/freddi1-2</file>
-				<caption>Freddi Fish 1: The Case of the Missing Kelp Seeds</caption>
-			</image>
-			<image>
-				<file>he/ffish/freddi1-3</file>
-				<caption>Freddi Fish 1: The Case of the Missing Kelp Seeds</caption>
-			</image>
-			<image>
-				<file>he/ffish/freddi1-4</file>
-				<caption>Freddi Fish 1: The Case of the Missing Kelp Seeds</caption>
-			</image>
-			<image>
-				<file>he/ffish/freddi1-5</file>
-				<caption>Freddi Fish 1: The Case of the Missing Kelp Seeds</caption>
-			</image>
-			<image>
-				<file>he/ffish/scummvm_1_6_2</file>
+				<file>he/ffish/scummvm_1_6_#n#</file>
+				<range from="2" to="3" format="%d" />
 				<caption>Freddi Fish 2: The Case of the Haunted Schoolhouse</caption>
 			</image>
 			<image>
-				<file>he/ffish/scummvm_1_6_3</file>
+				<file>he/ffish/freddi2-#n#</file>
+				<range from="2" to="5" format="%d" />
 				<caption>Freddi Fish 2: The Case of the Haunted Schoolhouse</caption>
 			</image>
 			<image>
-				<file>he/ffish/freddi2-2</file>
-				<caption>Freddi Fish 2: The Case of the Haunted Schoolhouse</caption>
-			</image>
-			<image>
-				<file>he/ffish/freddi2-3</file>
-				<caption>Freddi Fish 2: The Case of the Haunted Schoolhouse</caption>
-			</image>
-			<image>
-				<file>he/ffish/freddi2-4</file>
-				<caption>Freddi Fish 2: The Case of the Haunted Schoolhouse</caption>
-			</image>
-			<image>
-				<file>he/ffish/freddi2-5</file>
-				<caption>Freddi Fish 2: The Case of the Haunted Schoolhouse</caption>
-			</image>
-			<image>
-				<file>he/ffish/scummvm_1_6_4</file>
+				<file>he/ffish/scummvm_1_6_#n#</file>
+				<range from="4" to="5" format="%d" />
 				<caption>Freddi Fish 3: The Case of the Stolen Conch Shell</caption>
 			</image>
 			<image>
-				<file>he/ffish/scummvm_1_6_5</file>
+				<file>he/ffish/freddi3-#n#</file>
+				<range from="2" to="5" format="%d" />
 				<caption>Freddi Fish 3: The Case of the Stolen Conch Shell</caption>
 			</image>
 			<image>
-				<file>he/ffish/freddi3-2</file>
-				<caption>Freddi Fish 3: The Case of the Stolen Conch Shell</caption>
-			</image>
-			<image>
-				<file>he/ffish/freddi3-3</file>
-				<caption>Freddi Fish 3: The Case of the Stolen Conch Shell</caption>
-			</image>
-			<image>
-				<file>he/ffish/freddi3-4</file>
-				<caption>Freddi Fish 3: The Case of the Stolen Conch Shell</caption>
-			</image>
-			<image>
-				<file>he/ffish/freddi3-5</file>
-				<caption>Freddi Fish 3: The Case of the Stolen Conch Shell</caption>
-			</image>
-			<image>
-				<file>he/ffish/scummvm_1_6_6</file>
+				<file>he/ffish/scummvm_1_6_#n#</file>
+				<range from="6" to="7" format="%d" />
 				<caption>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch</caption>
 			</image>
 			<image>
-				<file>he/ffish/scummvm_1_6_7</file>
+				<file>he/ffish/freddi4-#n#</file>
+				<range from="2" to="5" format="%d" />
 				<caption>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch</caption>
 			</image>
 			<image>
-				<file>he/ffish/freddi4-2</file>
-				<caption>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch</caption>
-			</image>
-			<image>
-				<file>he/ffish/freddi4-3</file>
-				<caption>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch</caption>
-			</image>
-			<image>
-				<file>he/ffish/freddi4-4</file>
-				<caption>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch</caption>
-			</image>
-			<image>
-				<file>he/ffish/freddi4-5</file>
-				<caption>Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch</caption>
-			</image>
-			<image>
-				<file>he/ffish/scummvm_1_6_8</file>
+				<file>he/ffish/scummvm_1_6_#n#</file>
+				<range from="8" to="11" format="%d" />
 				<caption>Freddi Fish and Luther's Maze Madness</caption>
-			</image>
-			<image>
-				<file>he/ffish/scummvm_1_6_9</file>
-				<caption>Freddi Fish and Luther's Maze Madness</caption>
-			</image>
-			<image>
-				<file>he/ffish/scummvm_1_6_10</file>
-				<caption>Freddi Fish and Luther's Water Worries</caption>
-			</image>
-			<image>
-				<file>he/ffish/scummvm_1_6_11</file>
-				<caption>Freddi Fish and Luther's Water Worries</caption>
 			</image>
 		</game>
 		<game>
 			<name>Junior Field Trips series</name>
 			<category>field</category>
 			<image>
-				<file>he/field/scummvm_1_1_0</file>
+				<file>he/field/scummvm_1_1_#n#</file>
+				<range from="0" to="5" format="%d" />
 				<caption>Let's Explore the Airport with Buzzy</caption>
-			</image>
-			<image>
-				<file>he/field/scummvm_1_1_1</file>
-				<caption>Let's Explore the Airport with Buzzy</caption>
-			</image>
-			<image>
-				<file>he/field/scummvm_1_1_2</file>
-				<caption>Let's Explore the Farm with Buzzy</caption>
-			</image>
-			<image>
-				<file>he/field/scummvm_1_1_3</file>
-				<caption>Let's Explore the Farm with Buzzy</caption>
-			</image>
-			<image>
-				<file>he/field/scummvm_1_1_4</file>
-				<caption>Let's Explore the Jungle with Buzzy</caption>
-			</image>
-			<image>
-				<file>he/field/scummvm_1_1_5</file>
-				<caption>Let's Explore the Jungle with Buzzy</caption>
 			</image>
 		</game>
 		<game>
 			<name>Junior Sports series</name>
 			<category>sports</category>
 			<image>
-				<file>he/sports/baseball2003-0</file>
+				<file>he/sports/baseball2003-#n#</file>
+				<range from="0" to="4" format="%d" />
 				<caption>Backyard Baseball 2003</caption>
 			</image>
 			<image>
-				<file>he/sports/baseball2003-1</file>
-				<caption>Backyard Baseball 2003</caption>
-			</image>
-			<image>
-				<file>he/sports/baseball2003-2</file>
-				<caption>Backyard Baseball 2003</caption>
-			</image>
-			<image>
-				<file>he/sports/baseball2003-3</file>
-				<caption>Backyard Baseball 2003</caption>
-			</image>
-			<image>
-				<file>he/sports/baseball2003-4</file>
-				<caption>Backyard Baseball 2003</caption>
-			</image>
-			<image>
-				<file>he/sports/scummvm_1_5_0</file>
-				<caption>Backyard Football</caption>
-			</image>
-			<image>
-				<file>he/sports/scummvm_1_5_1</file>
+				<file>he/sports/scummvm_1_5_#n#</file>
+				<range from="0" to="1" format="%d" />
 				<caption>Backyard Football</caption>
 			</image>
 		</game>
@@ -3093,79 +2206,38 @@
 			<name>Pajama Sam series</name>
 			<category>pajama</category>
 			<image>
-				<file>he/pajama/scummvm_1_7_0</file>
+				<file>he/pajama/scummvm_1_7_#n#</file>
+				<range from="0" to="1" format="%d" />
 				<caption>Pajama Sam 1: No Need to Hide When It's Dark Outside</caption>
 			</image>
 			<image>
-				<file>he/pajama/scummvm_1_7_1</file>
+				<file>he/pajama/pajama1-#n#</file>
+				<range from="2" to="4" format="%d" />
 				<caption>Pajama Sam 1: No Need to Hide When It's Dark Outside</caption>
 			</image>
 			<image>
-				<file>he/pajama/pajama1-2</file>
-				<caption>Pajama Sam 1: No Need to Hide When It's Dark Outside</caption>
-			</image>
-			<image>
-				<file>he/pajama/pajama1-3</file>
-				<caption>Pajama Sam 1: No Need to Hide When It's Dark Outside</caption>
-			</image>
-			<image>
-				<file>he/pajama/pajama1-4</file>
-				<caption>Pajama Sam 1: No Need to Hide When It's Dark Outside</caption>
-			</image>
-			<image>
-				<file>he/pajama/scummvm_1_7_2</file>
+				<file>he/pajama/scummvm_1_7_#n#</file>
+				<range from="2" to="3" format="%d" />
 				<caption>Pajama Sam 2: Thunder and Lightning Aren't so Frightening</caption>
 			</image>
 			<image>
-				<file>he/pajama/scummvm_1_7_3</file>
+				<file>he/pajama/pajama2-#n#</file>
+				<range from="2" to="5" format="%d" />
 				<caption>Pajama Sam 2: Thunder and Lightning Aren't so Frightening</caption>
 			</image>
 			<image>
-				<file>he/pajama/pajama2-2</file>
-				<caption>Pajama Sam 2: Thunder and Lightning Aren't so Frightening</caption>
-			</image>
-			<image>
-				<file>he/pajama/pajama2-3</file>
-				<caption>Pajama Sam 2: Thunder and Lightning Aren't so Frightening</caption>
-			</image>
-			<image>
-				<file>he/pajama/pajama2-4</file>
-				<caption>Pajama Sam 2: Thunder and Lightning Aren't so Frightening</caption>
-			</image>
-			<image>
-				<file>he/pajama/pajama2-5</file>
-				<caption>Pajama Sam 2: Thunder and Lightning Aren't so Frightening</caption>
-			</image>
-			<image>
-				<file>he/pajama/scummvm_1_7_4</file>
+				<file>he/pajama/scummvm_1_7_#n#</file>
+				<range from="4" to="5" format="%d" />
 				<caption>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet</caption>
 			</image>
 			<image>
-				<file>he/pajama/scummvm_1_7_5</file>
+				<file>he/pajama/pajama3-#n#</file>
+				<range from="2" to="5" format="%d" />
 				<caption>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet</caption>
 			</image>
 			<image>
-				<file>he/pajama/pajama3-2</file>
-				<caption>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet</caption>
-			</image>
-			<image>
-				<file>he/pajama/pajama3-3</file>
-				<caption>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet</caption>
-			</image>
-			<image>
-				<file>he/pajama/pajama3-4</file>
-				<caption>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet</caption>
-			</image>
-			<image>
-				<file>he/pajama/pajama3-5</file>
-				<caption>Pajama Sam 3: You Are What You Eat From Your Head to Your Feet</caption>
-			</image>
-			<image>
-				<file>he/pajama/scummvm_1_7_6</file>
-				<caption>Pajama Sam's Sock Works</caption>
-			</image>
-			<image>
-				<file>he/pajama/scummvm_1_7_7</file>
+				<file>he/pajama/scummvm_1_7_#n#</file>
+				<range from="6" to="7" format="%d" />
 				<caption>Pajama Sam's Sock Works</caption>
 			</image>
 		</game>
@@ -3173,179 +2245,83 @@
 			<name>Putt-Putt series</name>
 			<category>puttputt</category>
 			<image>
-				<file>he/puttputt/scummvm_1_8_0</file>
+				<file>he/puttputt/scummvm_1_8_#n#</file>
+				<range from="0" to="1" format="%d" />
 				<caption>Putt-Putt Joins the Parade (DOS)</caption>
 			</image>
 			<image>
-				<file>he/puttputt/scummvm_1_8_1</file>
-				<caption>Putt-Putt Joins the Parade (Win32)</caption>
-			</image>
-			<image>
-				<file>he/puttputt/puttputt-2</file>
+				<file>he/puttputt/puttputt-#n#</file>
+				<range from="2" to="5" format="%d" />
 				<caption>Putt-Putt Joins the Parade (3DO)</caption>
 			</image>
 			<image>
-				<file>he/puttputt/puttputt-3</file>
-				<caption>Putt-Putt Joins the Parade (3DO)</caption>
-			</image>
-			<image>
-				<file>he/puttputt/puttputt-4</file>
-				<caption>Putt-Putt Joins the Parade (3DO)</caption>
-			</image>
-			<image>
-				<file>he/puttputt/puttputt-5</file>
-				<caption>Putt-Putt Joins the Parade (3DO)</caption>
-			</image>
-			<image>
-				<file>he/puttputt/scummvm_1_8_2</file>
+				<file>he/puttputt/scummvm_1_8_#n#</file>
+				<range from="2" to="3" format="%d" />
 				<caption>Putt-Putt Goes to the Moon (DOS)</caption>
 			</image>
 			<image>
-				<file>he/puttputt/scummvm_1_8_3</file>
-				<caption>Putt-Putt Goes to the Moon (Win32)</caption>
-			</image>
-			<image>
-				<file>he/puttputt/puttmoon-2</file>
+				<file>he/puttputt/puttmoon-#n#</file>
+				<range from="2" to="5" format="%d" />
 				<caption>Putt-Putt Goes to the Moon (3DO)</caption>
 			</image>
 			<image>
-				<file>he/puttputt/puttmoon-3</file>
-				<caption>Putt-Putt Goes to the Moon (3DO)</caption>
-			</image>
-			<image>
-				<file>he/puttputt/puttmoon-4</file>
-				<caption>Putt-Putt Goes to the Moon (3DO)</caption>
-			</image>
-			<image>
-				<file>he/puttputt/puttmoon-5</file>
-				<caption>Putt-Putt Goes to the Moon (3DO)</caption>
-			</image>
-			<image>
-				<file>he/puttputt/scummvm_1_8_4</file>
+				<file>he/puttputt/scummvm_1_8_#n#</file>
+				<range from="4" to="5" format="%d" />
 				<caption>Putt-Putt Enters the Race</caption>
 			</image>
 			<image>
-				<file>he/puttputt/scummvm_1_8_5</file>
+				<file>he/puttputt/puttrace-#n#</file>
+				<range from="2" to="5" format="%d" />
 				<caption>Putt-Putt Enters the Race</caption>
 			</image>
 			<image>
-				<file>he/puttputt/puttrace-2</file>
-				<caption>Putt-Putt Enters the Race</caption>
-			</image>
-			<image>
-				<file>he/puttputt/puttrace-3</file>
-				<caption>Putt-Putt Enters the Race</caption>
-			</image>
-			<image>
-				<file>he/puttputt/puttrace-4</file>
-				<caption>Putt-Putt Enters the Race</caption>
-			</image>
-			<image>
-				<file>he/puttputt/puttrace-5</file>
-				<caption>Putt-Putt Enters the Race</caption>
-			</image>
-			<image>
-				<file>he/puttputt/scummvm_1_8_6</file>
+				<file>he/puttputt/scummvm_1_8_#n#</file>
+				<range from="6" to="7" format="%d" />
 				<caption>Putt-Putt Joins the Circus</caption>
 			</image>
 			<image>
-				<file>he/puttputt/scummvm_1_8_7</file>
+				<file>he/puttputt/puttcircus-#n#</file>
+				<range from="2" to="5" format="%d" />
 				<caption>Putt-Putt Joins the Circus</caption>
 			</image>
 			<image>
-				<file>he/puttputt/puttcircus-2</file>
-				<caption>Putt-Putt Joins the Circus</caption>
-			</image>
-			<image>
-				<file>he/puttputt/puttcircus-3</file>
-				<caption>Putt-Putt Joins the Circus</caption>
-			</image>
-			<image>
-				<file>he/puttputt/puttcircus-4</file>
-				<caption>Putt-Putt Joins the Circus</caption>
-			</image>
-			<image>
-				<file>he/puttputt/puttcircus-5</file>
-				<caption>Putt-Putt Joins the Circus</caption>
-			</image>
-			<image>
-				<file>he/puttputt/scummvm_1_8_8</file>
+				<file>he/puttputt/scummvm_1_8_#n#</file>
+				<range from="8" to="9" format="%d" />
 				<caption>Putt-Putt Saves the Zoo</caption>
 			</image>
 			<image>
-				<file>he/puttputt/scummvm_1_8_9</file>
+				<file>he/puttputt/puttzoo-#n#</file>
+				<range from="2" to="5" format="%d" />
 				<caption>Putt-Putt Saves the Zoo</caption>
 			</image>
 			<image>
-				<file>he/puttputt/puttzoo-2</file>
-				<caption>Putt-Putt Saves the Zoo</caption>
-			</image>
-			<image>
-				<file>he/puttputt/puttzoo-3</file>
-				<caption>Putt-Putt Saves the Zoo</caption>
-			</image>
-			<image>
-				<file>he/puttputt/puttzoo-4</file>
-				<caption>Putt-Putt Saves the Zoo</caption>
-			</image>
-			<image>
-				<file>he/puttputt/puttzoo-5</file>
-				<caption>Putt-Putt Saves the Zoo</caption>
-			</image>
-			<image>
-				<file>he/puttputt/scummvm_1_8_10</file>
+				<file>he/puttputt/scummvm_1_8_#n#</file>
+				<range from="10" to="11" format="%d" />
 				<caption>Putt-Putt Travels Through Time</caption>
 			</image>
 			<image>
-				<file>he/puttputt/scummvm_1_8_11</file>
+				<file>he/puttputt/putttime-#n#</file>
+				<range from="2" to="5" format="%d" />
 				<caption>Putt-Putt Travels Through Time</caption>
 			</image>
 			<image>
-				<file>he/puttputt/putttime-2</file>
-				<caption>Putt-Putt Travels Through Time</caption>
-			</image>
-			<image>
-				<file>he/puttputt/putttime-3</file>
-				<caption>Putt-Putt Travels Through Time</caption>
-			</image>
-			<image>
-				<file>he/puttputt/putttime-4</file>
-				<caption>Putt-Putt Travels Through Time</caption>
-			</image>
-			<image>
-				<file>he/puttputt/putttime-5</file>
-				<caption>Putt-Putt Travels Through Time</caption>
-			</image>
-			<image>
-				<file>he/puttputt/scummvm_1_8_12</file>
+				<file>he/puttputt/scummvm_1_8_#n#</file>
+				<range from="12" to="13" format="%d" />
 				<caption>Putt-Putt and Pep's Balloon-O-Rama</caption>
 			</image>
 			<image>
-				<file>he/puttputt/scummvm_1_8_13</file>
-				<caption>Putt-Putt and Pep's Balloon-O-Rama</caption>
-			</image>
-			<image>
-				<file>he/puttputt/scummvm_1_8_14</file>
+				<file>he/puttputt/scummvm_1_8_#n#</file>
+				<range from="14" to="15" format="%d" />
 				<caption>Putt-Putt and Pep's Dog on a Stick</caption>
 			</image>
 			<image>
-				<file>he/puttputt/scummvm_1_8_15</file>
-				<caption>Putt-Putt and Pep's Dog on a Stick</caption>
-			</image>
-			<image>
-				<file>he/puttputt/scummvm_1_8_16</file>
+				<file>he/puttputt/scummvm_1_8_#n#</file>
+				<range from="16" to="17" format="%d" />
 				<caption>Putt-Putt's Fun Pack</caption>
 			</image>
 			<image>
-				<file>he/puttputt/scummvm_1_8_17</file>
-				<caption>Putt-Putt's Fun Pack</caption>
-			</image>
-			<image>
-				<file>he/puttputt/scummvm_1_8_18</file>
-				<caption>Putt-Putt &amp; Fatty Bear's Activity Pack</caption>
-			</image>
-			<image>
-				<file>he/puttputt/scummvm_1_8_19</file>
+				<file>he/puttputt/scummvm_1_8_#n#</file>
+				<range from="18" to="19" format="%d" />
 				<caption>Putt-Putt &amp; Fatty Bear's Activity Pack</caption>
 			</image>
 		</game>
@@ -3353,67 +2329,33 @@
 			<name>Spy Fox series</name>
 			<category>spyfox</category>
 			<image>
-				<file>he/spyfox/scummvm_1_3_0</file>
+				<file>he/spyfox/scummvm_1_3_#n#</file>
+				<range from="0" to="1" format="%d" />
 				<caption>Spy Fox 1: Dry Cereal</caption>
 			</image>
 			<image>
-				<file>he/spyfox/scummvm_1_3_1</file>
+				<file>he/spyfox/spyfox1-#n#</file>
+				<range from="2" to="5" format="%d" />
 				<caption>Spy Fox 1: Dry Cereal</caption>
 			</image>
 			<image>
-				<file>he/spyfox/spyfox1-2</file>
-				<caption>Spy Fox 1: Dry Cereal</caption>
-			</image>
-			<image>
-				<file>he/spyfox/spyfox1-3</file>
-				<caption>Spy Fox 1: Dry Cereal</caption>
-			</image>
-			<image>
-				<file>he/spyfox/spyfox1-4</file>
-				<caption>Spy Fox 1: Dry Cereal</caption>
-			</image>
-			<image>
-				<file>he/spyfox/spyfox1-5</file>
-				<caption>Spy Fox 1: Dry Cereal</caption>
-			</image>
-			<image>
-				<file>he/spyfox/scummvm_1_3_2</file>
+				<file>he/spyfox/scummvm_1_3_#n#</file>
+				<range from="2" to="3" format="%d" />
 				<caption>Spy Fox 2: Some Assembly Required</caption>
 			</image>
 			<image>
-				<file>he/spyfox/scummvm_1_3_3</file>
+				<file>he/spyfox/spyfox2-#n#</file>
+				<range from="2" to="5" format="%d" />
 				<caption>Spy Fox 2: Some Assembly Required</caption>
 			</image>
 			<image>
-				<file>he/spyfox/spyfox2-2</file>
-				<caption>Spy Fox 2: Some Assembly Required</caption>
-			</image>
-			<image>
-				<file>he/spyfox/spyfox2-3</file>
-				<caption>Spy Fox 2: Some Assembly Required</caption>
-			</image>
-			<image>
-				<file>he/spyfox/spyfox2-4</file>
-				<caption>Spy Fox 2: Some Assembly Required</caption>
-			</image>
-			<image>
-				<file>he/spyfox/spyfox2-5</file>
-				<caption>Spy Fox 2: Some Assembly Required</caption>
-			</image>
-			<image>
-				<file>he/spyfox/scummvm_1_3_4</file>
+				<file>he/spyfox/scummvm_1_3_#n#</file>
+				<range from="4" to="5" format="%d" />
 				<caption>Spy Fox in Cheese Chase</caption>
 			</image>
 			<image>
-				<file>he/spyfox/scummvm_1_3_5</file>
-				<caption>Spy Fox in Cheese Chase</caption>
-			</image>
-			<image>
-				<file>he/spyfox/scummvm_1_3_6</file>
-				<caption>Spy Fox in Hold the Mustard</caption>
-			</image>
-			<image>
-				<file>he/spyfox/scummvm_1_3_7</file>
+				<file>he/spyfox/scummvm_1_3_#n#</file>
+				<range from="6" to="7" format="%d" />
 				<caption>Spy Fox in Hold the Mustard</caption>
 			</image>
 		</game>
