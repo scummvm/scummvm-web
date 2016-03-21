@@ -1699,6 +1699,15 @@
 			</image>
 		</game>
 		<game>
+			<name>Mortville Manor</name>
+			<category>mortevielle</category>
+			<image>
+				<file>other/mortevielle/mortevielle-de-#n#</file>
+				<range from="1" to="12" format="%02d" />
+				<caption>Mortville Manor (DOS/German)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Nippon Safes Inc.</name>
 			<category>nippon</category>
 			<image>
