@@ -1731,6 +1731,15 @@
 			</image>
 		</game>
 		<game>
+			<name>Rex Nebular and the Cosmic Gender Bender</name>
+			<category>nebular</category>
+			<image>
+				<file>other/nebular/nebular-#n#</file>
+				<range from="1" to="17" format="%02d" />
+				<caption>Rex Nebular and the Cosmic Gender Bender</caption>
+			</image>
+		</game>
+		<game>
 			<name>Ringworld series</name>
 			<category>ringworld</category>
 			<image>
