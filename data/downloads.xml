@@ -311,20 +311,13 @@
 					<url>scummvm-{$release}-irix-mips4.tar.gz</url>
 					<name>IRIX (6.5.*, n32, mips4) package</name>
 				</file>
-<!--
-				<file>
-					<category_icon>catpl-beos.png</category_icon>
-					<url>scummvm-{$release}-beos.tgz</url>
-					<name>BeOS package</name>
-					<user_agent>BeOS</user_agent>
-				</file>
 
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
-					<url>scummvm-{$release}-1-x86_haiku_gcc4.hpkg</url>
+					<url>scummvm_x86-{$release}-1-x86_gcc2.hpkg</url>
 					<name>Haiku package</name>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
 					<url>scummvm-{$release}-amigaos4.lha</url>
@@ -465,13 +458,13 @@
 					<url type="tools">scummvm-tools-{$release_tools}-beos.tgz</url>
 					<name>Tools - BeOS</name>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
-					<url type="tools">scummvm_tools-{$release_tools}-1-x86_gcc2.hpkg</url>
+					<url type="tools">scummvm_tools_x86-{$release_tools}-1-x86_gcc2.hpkg</url>
 					<name>Tools - Haiku package</name>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-amigaos4.lha</url>
@@ -573,11 +566,6 @@
 					<category_icon>catpl-openpandora.png</category_icon>
 					<url>1.7.0/scummvm-1.7.0-openpandora.zip</url>
 					<name>1.7.0 OpenPandora package</name>
-				</file>
-				<file>
-					<category_icon>catpl-haiku.png</category_icon>
-					<url>1.7.0/scummvm-1.7.0-1-x86_haiku_gcc4.hpkg</url>
-					<name>1.7.0 Haiku package</name>
 				</file>
 
 				<file>
