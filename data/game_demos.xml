@@ -1574,6 +1574,11 @@
 				<target>queen</target>
 			</demo>
 			<demo>
+				<name>Flight of the Amazon Queen (DOS alternative demo)</name>
+				<url>/frs/demos/queen/queen-dos-demo-en-alt.zip</url>
+				<target>queen</target>
+			</demo>
+			<demo>
 				<name>Flight of the Amazon Queen (DOS PCGAMES demo)</name>
 				<url>/frs/demos/queen/queen-dos-pcgames-demo-en.zip</url>
 				<target>queen</target>
