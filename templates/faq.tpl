@@ -22,6 +22,7 @@
 		{foreach from=$contents item=section name='section_loop'}
 			{assign var='section_num' value=$smarty.foreach.section_loop.iteration}
 			<div class="section">
+				<a name="{$section_num}"></a>
 				<h3 class="title">{$section_num}. {$section->getTitle()}</h3>
 				<dl>
 					{foreach from=$section->getTOC() key=href item=name name='question_loop'}
