@@ -41,8 +41,8 @@
 		<script type="text/javascript">
 			{$recommendedDownloadsJS}
 		</script>
-		<script type="text/javascript" src="javascripts/jquery-1.3.2.min.js"></script>
-		<script type="text/javascript" src="javascripts/recommended_dl.js"></script>
+		<script type="text/javascript" src="/javascripts/jquery-1.3.2.min.js"></script>
+		<script type="text/javascript" src="/javascripts/recommended_dl.js"></script>
 
 		<div class="subhead" id="recommendedDownloadHeader" style="display:none">{#downloadsBadge#}</div>
 		<div class="subhead-content" style="display:none">

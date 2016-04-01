@@ -3,7 +3,7 @@
 		{#linksHeading#}
 	</div>
 	<div class="intro">
-		<img src="images/scummvm-link.png" width="88" height="31" alt="ScummVM">
+		<img src="/images/scummvm-link.png" width="88" height="31" alt="ScummVM">
 		{#linksIntro#}
 	</div>
 	<div class="content">

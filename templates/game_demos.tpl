@@ -1,5 +1,5 @@
-<script type="text/javascript" src="javascripts/jquery-1.3.2.min.js"></script>
-<script type="text/javascript" src="javascripts/game_demos.js"></script>
+<script type="text/javascript" src="/javascripts/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="/javascripts/game_demos.js"></script>
 
 <div class="box">
 	<div class="intro">
@@ -36,7 +36,7 @@
 			{foreach from=$group.demos item=demo}
 				<tr class="{cycle values="color2, color0"}">
 					<td>
-						<img src="images/cat-{$demo->getCategory()}.png" class="downloadImage">
+						<img src="/images/cat-{$demo->getCategory()}.png" class="downloadImage">
 						<a href="{$demo->getURL()}">{$demo->getName()}</a>
 					</td>
 					<td class="gameTarget">{$demo->getTarget()}</td>
