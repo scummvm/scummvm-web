@@ -3,7 +3,7 @@
 <AUTHOR>DJWillis</AUTHOR>
 <BODY>
 	<p>
-		<img src="data/news/20100428.jpg" alt="GSoC 2010 Logo" align="right">
+		<img src="/data/news/20100428.jpg" alt="GSoC 2010 Logo" align="right">
 		Google recently announced the list of students for this year's 
 		<a href="http://socghop.appspot.com">Summer of Code</a> program.<br><br>
 		For ScummVM, the accepted students and their respective projects
