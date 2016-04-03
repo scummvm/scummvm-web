@@ -7,7 +7,7 @@
       <question>Warum heißt das Programm ScummVM - was bedeutet dieser Name?</question>
       <answer>
 		<simpara>
-		<quote>Scumm</quote> kommt daher, dass es ursprünglich dafür erstellt wurde, 
+		<quote>Scumm</quote> kommt daher, dass es ursprünglich dafür erstellt wurde,
 		SCUMM-basierte Spiele wie Monkey Island auszuführen.
 		<quote>VM</quote> steht für "virtuelle Maschine".
 		</simpara>
@@ -15,7 +15,7 @@
 		Hin und wieder kommt es vor, dass jemand den Versuch startet,
 		einen <quote>besseren</quote> Namen für ScummVM zu finden, einen, der besser
 		zu dem heutigen Umfang von ScummVM, der sich weit über die SCUMM-Spiele hinaus
-		erstreckt, passt. 
+		erstreckt, passt.
 		<ulink url="http://wiki.scummvm.org/index.php/ScummVM_Name">Auf dieser Seite</ulink>
 		stellen wir Ihnen ein paar nette Alternativen vor. Wählen Sie aus, welche Ihnen
 		am besten gefällt -- wir werden bei ScummVM bleiben.
@@ -46,7 +46,7 @@
       <question>Ist ScummVM kostenlos?</question>
       <answer>
 		<simpara>
-		ScummVM wird unter der 
+		ScummVM wird unter der
 		<ulink url="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GPL (General Public
 		License)</ulink> veröffentlicht, es ist also mehr als nur kostenlos.
 		Der Quellcode von ScummVM ist frei verfügbar und Sie dürfen damit machen,
@@ -113,7 +113,7 @@
 		andere Engines zu entwickeln würde bedeuten, dass der Autor seine eigenen Werkzeuge
 		entwickeln müsste, was keine leichte Aufgabe darstellt, da dafür ein tiefergehendes
 		Verständnis oder eine Spezifikation für die Engine benötigt wird. Die Engines, die
-		dafür bekannt sind, Autorenwerkzeuge zu unterstützen und für die sog. "Fangames" 
+		dafür bekannt sind, Autorenwerkzeuge zu unterstützen und für die sog. "Fangames"
 		erstellt wurden, haben Erkennungsmechanismen, die unbekannte Spiele erkennen und passende Einträge für
 		diese hinzufügen. Dennoch sollten Sie nach der Fertigstellung des Spiels das
 		ScummVM-Team kontaktieren, um einen vollständigen Eintrag in die nächste stabile
@@ -343,7 +343,7 @@
 		(was manchmal zusammen mit Monkey Island 1, welches CD-Audio verwendet, auf einer
 		gemeinsamen CD vertrieben wird), auf. Beide Spiele verwenden jedoch viel zu ausgefallene
 		Tricks, um eine solche Idee überhaupt in Erwägung zu ziehen.
-		
+
 		</simpara>
 		<simpara>
 		Allerdings gibt es ein paar andere Spiele, für die wir die Verwendung von MP3/Ogg/FLAC-Dateien
@@ -511,7 +511,7 @@
 		der Konfigurationsdatei nutzen.
 		</simpara>
 		<simpara>
-		Lesen Sie die 
+		Lesen Sie die
 		<ulink url="http://github.com/scummvm/scummvm/blob/master/doc/de/Liesmich">Liesmich-Datei</ulink>
 		oder die Hilfe auf der Kommandozeile für weitere Informationen.
 		</simpara>
@@ -550,7 +550,7 @@
       <answer>
 		<simpara>
 		Um einen Fehler zu melden, erstellen Sie bitte zuerst ein Konto auf SourceForge und folgen Sie dem Link zu unserem
-		<ulink url="http://sourceforge.net/p/scummvm/bugs/">Bug Tracker</ulink>
+		<ulink url="http://bugs.scummvm.org/">Bug Tracker</ulink>
 		auf unserer Internetseite. Bitte stellen Sie sicher, dass der Fehler reproduzierbar ist
 		und auch noch in der aktuellsten Entwicklerversion vorhanden ist. Prüfen Sie bitte auch die
 		<ulink url="http://www.scummvm.org/compatibility.php">Kompatibilitätsliste</ulink>, um
