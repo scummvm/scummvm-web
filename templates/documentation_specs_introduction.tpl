@@ -8,7 +8,7 @@
 			<table border="0">
 				<tr>
 					<td class="nav-bullet">
-						<img src="../../images/bullet-section.gif" alt="*" width="10" height="7">
+						<img src="/images/bullet-section.gif" alt="*" width="10" height="7">
 					</td>
 					<td class="nav-item">
 						<a href="#changes">Changes</a>
@@ -16,7 +16,7 @@
 				</tr>
 				<tr>
 					<td class="nav-bullet">
-						<img src="../../images/bullet-section.gif" alt="*" width="10" height="7">
+						<img src="/images/bullet-section.gif" alt="*" width="10" height="7">
 					</td>
 					<td class="nav-item">
 						<a href="#whatis">What is SCUMM?</a>
@@ -24,7 +24,7 @@
 				</tr>
 				<tr>
 					<td class="nav-bullet">
-						<img src="../../images/bullet-section.gif" alt="*" width="10" height="7">
+						<img src="/images/bullet-section.gif" alt="*" width="10" height="7">
 					</td>
 					<td class="nav-item">
 						<a href='#versions'>What versions of SCUMM are there available?</a>
@@ -32,7 +32,7 @@
 				</tr>
 				<tr>
 					<td class="nav-bullet">
-						<img src="../../images/bullet-section.gif" alt="*" width="10" height="7">
+						<img src="/images/bullet-section.gif" alt="*" width="10" height="7">
 					</td>
 					<td class="nav-item">
 						<a href="#engines">Engines</a>
