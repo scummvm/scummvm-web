@@ -844,7 +844,7 @@
 				</link>
 				<link>
 					<name>FLAC</name>
-					<url>http://flac.sourceforge.net/</url>
+					<url>https://xiph.org/flac/</url>
 					<description>: Free Lossless Audio Codec</description>
 				</link>
 				<link>
