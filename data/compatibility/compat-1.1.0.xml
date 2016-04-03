@@ -315,7 +315,7 @@
 				<target>sky</target>
 				<percent>98</percent>
 				<notes>
-					No known issues, game is completable.<h:br />- Requires the <h:a href="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/sky.cpt">sky.cpt</h:a> resource file to be placed in the game directory<h:br />- Floppy demos aren't supported<h:br />- Amiga versions aren't supported<h:br /><h:br />The following bugs are present in the original game and can't be fixed:<h:br />- The voice files for some sentences are missing.<h:br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;This is especially noticeable in the court- and Mrs. Piermont sequence.<h:br />- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders<h:br />- Special characters for french and italian subtitles are incorrect sometimes
+					No known issues, game is completable.<h:br />- Requires the <h:a href="https://github.com/scummvm/scummvm/raw/master/dists/engine-data/sky.cpt">sky.cpt</h:a> resource file to be placed in the game directory<h:br />- Floppy demos aren't supported<h:br />- Amiga versions aren't supported<h:br /><h:br />The following bugs are present in the original game and can't be fixed:<h:br />- The voice files for some sentences are missing.<h:br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;This is especially noticeable in the court- and Mrs. Piermont sequence.<h:br />- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders<h:br />- Special characters for french and italian subtitles are incorrect sometimes
 				</notes>
 			</game>
 			<game>
@@ -533,7 +533,7 @@
 				<target>drascula</target>
 				<percent>98</percent>
 				<notes>
-					No known issues, game is completable.<h:br />- Requires the <h:a href="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/drascula.dat">drascula.dat</h:a> resource file to be placed in the game directory
+					No known issues, game is completable.<h:br />- Requires the <h:a href="https://github.com/scummvm/scummvm/raw/master/dists/engine-data/drascula.dat">drascula.dat</h:a> resource file to be placed in the game directory
 				</notes>
 			</game>
 			<game>
@@ -541,7 +541,7 @@
 				<target>queen</target>
 				<percent>98</percent>
 				<notes>
-					No known issues, game is completable.<h:br />- Some versions may require the <h:a href="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/dists/engine-data/queen.tbl">queen.tbl</h:a> resource file to be placed in the game directory. This is not required for the freeware releases.<h:br />- Amiga and DOS versions supported by this target.
+					No known issues, game is completable.<h:br />- Some versions may require the <h:a href="https://github.com/scummvm/scummvm/raw/master/dists/engine-data/queen.tbl">queen.tbl</h:a> resource file to be placed in the game directory. This is not required for the freeware releases.<h:br />- Amiga and DOS versions supported by this target.
 				</notes>
 			</game>
 			<game>
@@ -581,7 +581,7 @@
 				<target>kyra1</target>
 				<percent>90</percent>
 				<notes>
-					Game is completable<h:br />- Requires the <h:a href="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/tags/release-1-1-0/dists/engine-data/kyra.dat">kyra.dat</h:a> resource file to be placed in the game directory<h:br />- Amiga, DOS, FM-TOWNS, Macintosh and PC-9821 versions are supported<h:br />- Occasional graphics glitches<h:br />- No music or sound effects in the Macintosh floppy versions<h:br />- Macintosh CD is using included DOS music and sound effects<h:br />- PC-9821 version lacks support for sound effects
+					Game is completable<h:br />- Requires the <h:a href="https://github.com/scummvm/scummvm/raw/master/dists/engine-data/kyra.dat">kyra.dat</h:a> resource file to be placed in the game directory<h:br />- Amiga, DOS, FM-TOWNS, Macintosh and PC-9821 versions are supported<h:br />- Occasional graphics glitches<h:br />- No music or sound effects in the Macintosh floppy versions<h:br />- Macintosh CD is using included DOS music and sound effects<h:br />- PC-9821 version lacks support for sound effects
 				</notes>
 			</game>
 			<game>
@@ -589,7 +589,7 @@
 				<target>kyra2</target>
 				<percent>85</percent>
 				<notes>
-					Game is completable<h:br />- Requires the <h:a href="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/tags/release-1-1-0/dists/engine-data/kyra.dat">kyra.dat</h:a> resource file to be placed in the game directory<h:br />- DOS, FM-TOWNS and PC-9821 versions are supported
+					Game is completable<h:br />- Requires the <h:a href="https://github.com/scummvm/scummvm/raw/master/dists/engine-data/kyra.dat">kyra.dat</h:a> resource file to be placed in the game directory<h:br />- DOS, FM-TOWNS and PC-9821 versions are supported
 				</notes>
 			</game>
 			<game>
@@ -597,7 +597,7 @@
 				<target>kyra3</target>
 				<percent>80</percent>
 				<notes>
-					Game is completable<h:br />- Requires the <h:a href="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/tags/release-1-1-0/dists/engine-data/kyra.dat">kyra.dat</h:a> resource file to be placed in the game directory<h:br />- DOS and Macintosh versions are supported
+					Game is completable<h:br />- Requires the <h:a href="https://github.com/scummvm/scummvm/raw/master/dists/engine-data/kyra.dat">kyra.dat</h:a> resource file to be placed in the game directory<h:br />- DOS and Macintosh versions are supported
 				</notes>
 			</game>
 			<game>
@@ -613,7 +613,7 @@
 				<target>teenagent</target>
 				<percent>80</percent>
 				<notes>
-					Game is completable.<h:br />- Requires the <h:a href="http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/tags/release-1-1-0/dists/engine-data/teenagent.dat">teenagent.dat</h:a> resource file to be placed in the game directory<h:br /><h:br />- Occasional graphical glitches
+					Game is completable.<h:br />- Requires the <h:a href="https://github.com/scummvm/scummvm/raw/master/dists/engine-data/teenagent.dat">teenagent.dat</h:a> resource file to be placed in the game directory<h:br /><h:br />- Occasional graphical glitches
 				</notes>
 			</game>
 			<game>
