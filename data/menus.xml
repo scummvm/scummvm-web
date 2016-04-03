@@ -27,12 +27,6 @@
 			<name>ScummVM Blogs</name>
 			<href>http://planet.scummvm.org</href>
 		</link>
-<!-- FIXME: Donate temporarily disabled, waiting for us to reestablish its functionality at SF.net
-		<link>
-			<name>Donate to ScummVM</name>
-			<href>http://sourceforge.net/donate/index.php?group_id=37116</href>
-		</link>
--->
 	</group>
 	<group>
 		<name>Documentation</name>
