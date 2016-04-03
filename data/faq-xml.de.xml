@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <faq xmlns:h="http://www.w3.org/TR/html4/">
   <section>
     <title>Einleitung</title>
     <entry>
       <href/>
-      <question>Warum heißt das Programm ScummVM - was bedeutet dieser Name?</question>
+      <question>Warum heiÃŸt das Programm ScummVM - was bedeutet dieser Name?</question>
       <answer>
 		<simpara>
-		<quote>Scumm</quote> kommt daher, dass es ursprünglich dafür erstellt wurde,
-		SCUMM-basierte Spiele wie Monkey Island auszuführen.
-		<quote>VM</quote> steht für "virtuelle Maschine".
+		<quote>Scumm</quote> kommt daher, dass es ursprÃ¼nglich dafÃ¼r erstellt wurde,
+		SCUMM-basierte Spiele wie Monkey Island auszufÃ¼hren.
+		<quote>VM</quote> steht fÃ¼r "virtuelle Maschine".
 		</simpara>
 		<simpara>
 		Hin und wieder kommt es vor, dass jemand den Versuch startet,
-		einen <quote>besseren</quote> Namen für ScummVM zu finden, einen, der besser
-		zu dem heutigen Umfang von ScummVM, der sich weit über die SCUMM-Spiele hinaus
+		einen <quote>besseren</quote> Namen fÃ¼r ScummVM zu finden, einen, der besser
+		zu dem heutigen Umfang von ScummVM, der sich weit Ã¼ber die SCUMM-Spiele hinaus
 		erstreckt, passt.
 		<ulink url="http://wiki.scummvm.org/index.php/ScummVM_Name">Auf dieser Seite</ulink>
-		stellen wir Ihnen ein paar nette Alternativen vor. Wählen Sie aus, welche Ihnen
-		am besten gefällt -- wir werden bei ScummVM bleiben.
+		stellen wir Ihnen ein paar nette Alternativen vor. WÃ¤hlen Sie aus, welche Ihnen
+		am besten gefÃ¤llt -- wir werden bei ScummVM bleiben.
 		</simpara>
 	</answer>
     </entry>
@@ -27,14 +27,14 @@
       <question>Was ist SCUMM?</question>
       <answer>
 		<simpara>
-		SCUMM steht für "Script Creation Utility for Maniac Mansion". Es ist ein
-		Werkzeug, mit dem die berühmten Adventure-Spiele von LucasArts entwickelt wurden.
+		SCUMM steht fÃ¼r "Script Creation Utility for Maniac Mansion". Es ist ein
+		Werkzeug, mit dem die berÃ¼hmten Adventure-Spiele von LucasArts entwickelt wurden.
 		</simpara>
 		<simpara>
-		Es wurde ursprünglich im Jahre 1987 von Aric Wilmunder und Ron Gilbert für
-		das Spiel "Maniac Mansion" entworfen und später, in modifizierter Form,
-		für Zak McKracken and the Alien Mindbenders verwendet. Die Entwicklung des SCUMM-
-		Systems wurde für einige Zeit weitergeführt. Das System wurde auch in Loom,
+		Es wurde ursprÃ¼nglich im Jahre 1987 von Aric Wilmunder und Ron Gilbert fÃ¼r
+		das Spiel "Maniac Mansion" entworfen und spÃ¤ter, in modifizierter Form,
+		fÃ¼r Zak McKracken and the Alien Mindbenders verwendet. Die Entwicklung des SCUMM-
+		Systems wurde fÃ¼r einige Zeit weitergefÃ¼hrt. Das System wurde auch in Loom,
 		Indiana Jones and the Last Crusade, Indiana Jones and the Fate of Atlantis,
 		Monkey Island 1,2,3, Sam &amp; Max Hit the Road, Day of the Tentacle, The Dig
 		und Vollgas (Full Throttle) verwendet.
@@ -48,12 +48,12 @@
 		<simpara>
 		ScummVM wird unter der
 		<ulink url="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GPL (General Public
-		License)</ulink> veröffentlicht, es ist also mehr als nur kostenlos.
-		Der Quellcode von ScummVM ist frei verfügbar und Sie dürfen damit machen,
-		was Sie möchten. Wenn Sie das Programm modifizieren und weiterverteilen,
-		dann *müssen* Sie den Quellcode Ihrer Änderungen verfügbar machen.
-		Das ScummVM-Team würde sich freuen, wenn Sie dem Team Ihre Modifikationen
-		einsenden, sodass diese in den Haupt-Entwicklungszweig einfließen können.
+		License)</ulink> verÃ¶ffentlicht, es ist also mehr als nur kostenlos.
+		Der Quellcode von ScummVM ist frei verfÃ¼gbar und Sie dÃ¼rfen damit machen,
+		was Sie mÃ¶chten. Wenn Sie das Programm modifizieren und weiterverteilen,
+		dann *mÃ¼ssen* Sie den Quellcode Ihrer Ã„nderungen verfÃ¼gbar machen.
+		Das ScummVM-Team wÃ¼rde sich freuen, wenn Sie dem Team Ihre Modifikationen
+		einsenden, sodass diese in den Haupt-Entwicklungszweig einflieÃŸen kÃ¶nnen.
 		</simpara>
 	</answer>
     </entry>
@@ -62,9 +62,9 @@
       <question>Wo kann ich ScummVM finden?</question>
       <answer>
 		<simpara>
-		Sie finden es unter dem Menüpunkt "Downloads" auf unserer <ulink url="http://www.scummvm.org">Website</ulink>.
-		Dort können Sie die aktuelle stabile Version herunterladen, die schon etwas älter sein
-		könnte. Um die aktuellste Entwicklerversion zu erhalten, müssen Sie diese aus unserem
+		Sie finden es unter dem MenÃ¼punkt "Downloads" auf unserer <ulink url="http://www.scummvm.org">Website</ulink>.
+		Dort kÃ¶nnen Sie die aktuelle stabile Version herunterladen, die schon etwas Ã¤lter sein
+		kÃ¶nnte. Um die aktuellste Entwicklerversion zu erhalten, mÃ¼ssen Sie diese aus unserem
 		Quellcode-Verzeichnis selbst kompilieren oder die fertig gebauten Entwicklerversionen
 		("Daily Builds") nutzen. Beides finden Sie auf unserer Download-Seite.
 		</simpara>
@@ -72,33 +72,33 @@
     </entry>
     <entry>
       <href>question.compiling</href>
-      <question>Wie kompiliere ich den Quellcode für mein Betriebssystem?</question>
+      <question>Wie kompiliere ich den Quellcode fÃ¼r mein Betriebssystem?</question>
       <answer>
 		<simpara>
 		Das Quellcode-Paket beinhaltet eine Datei mit dem Namen
 		<ulink url="http://github.com/scummvm/scummvm/blob/master/doc/de/Liesmich">Liesmich</ulink>,
-		in welcher die Grundlagen erklärt werden. Ausführliche Informationen finden Sie
+		in welcher die Grundlagen erklÃ¤rt werden. AusfÃ¼hrliche Informationen finden Sie
 		<ulink url="http://wiki.scummvm.org/index.php/Compiling_ScummVM">in unserem Wiki</ulink>.
 		</simpara>
 	</answer>
     </entry>
     <entry>
       <href>question.supported-platforms</href>
-      <question>Auf welchen Plattformen läuft ScummVM?</question>
+      <question>Auf welchen Plattformen lÃ¤uft ScummVM?</question>
       <answer>
 		<simpara>
-		ScummVM sollte auf jeder Plattform kompiliert werden können, die von
-		<ulink url="http://www.libsdl.org">SDL</ulink> unterstützt wird. Dabei
+		ScummVM sollte auf jeder Plattform kompiliert werden kÃ¶nnen, die von
+		<ulink url="http://www.libsdl.org">SDL</ulink> unterstÃ¼tzt wird. Dabei
 		sollten nur geringe Anpassungen erforderlich sein.
 		</simpara>
 		<simpara>
-		ScummVM läuft auf einer Vielzahl von Plattformen, darunter Win32 (Windows
+		ScummVM lÃ¤uft auf einer Vielzahl von Plattformen, darunter Win32 (Windows
 		95/98/ME/NT/2000/XP/7/8/10), Linux i386 und PPC, Mac OS X, vielen Smartphones,
 		Spielekonsolen und mehr. Es ist auch Bestandteil verschiedener BSD-Varianten
 		sowie in den Debian-Zweigen "testing" und "unstable" enthalten.
 		</simpara>
 		<simpara>
-		Eine ausführliche Liste finden Sie auf der
+		Eine ausfÃ¼hrliche Liste finden Sie auf der
 		<ulink url="http://wiki.scummvm.org/index.php/Platforms">Plattform-Liste</ulink>
 		in unserem Wiki.
 		</simpara>
@@ -106,104 +106,104 @@
     </entry>
     <entry>
       <href>question.make-new-games</href>
-      <question>Kann ich ScummVM für die Entwicklung neuer Spiele verwenden?</question>
+      <question>Kann ich ScummVM fÃ¼r die Entwicklung neuer Spiele verwenden?</question>
       <answer>
 		<simpara>
-		Einige von ScummVM unterstützten Engines haben frei verfügbare Autoren-Werkzeuge. Für
-		andere Engines zu entwickeln würde bedeuten, dass der Autor seine eigenen Werkzeuge
-		entwickeln müsste, was keine leichte Aufgabe darstellt, da dafür ein tiefergehendes
-		Verständnis oder eine Spezifikation für die Engine benötigt wird. Die Engines, die
-		dafür bekannt sind, Autorenwerkzeuge zu unterstützen und für die sog. "Fangames"
-		erstellt wurden, haben Erkennungsmechanismen, die unbekannte Spiele erkennen und passende Einträge für
-		diese hinzufügen. Dennoch sollten Sie nach der Fertigstellung des Spiels das
-		ScummVM-Team kontaktieren, um einen vollständigen Eintrag in die nächste stabile
-		Version hinzufügen zu können. Sie können beispielsweise die
+		Einige von ScummVM unterstÃ¼tzten Engines haben frei verfÃ¼gbare Autoren-Werkzeuge. FÃ¼r
+		andere Engines zu entwickeln wÃ¼rde bedeuten, dass der Autor seine eigenen Werkzeuge
+		entwickeln mÃ¼sste, was keine leichte Aufgabe darstellt, da dafÃ¼r ein tiefergehendes
+		VerstÃ¤ndnis oder eine Spezifikation fÃ¼r die Engine benÃ¶tigt wird. Die Engines, die
+		dafÃ¼r bekannt sind, Autorenwerkzeuge zu unterstÃ¼tzen und fÃ¼r die sog. "Fangames"
+		erstellt wurden, haben Erkennungsmechanismen, die unbekannte Spiele erkennen und passende EintrÃ¤ge fÃ¼r
+		diese hinzufÃ¼gen. Dennoch sollten Sie nach der Fertigstellung des Spiels das
+		ScummVM-Team kontaktieren, um einen vollstÃ¤ndigen Eintrag in die nÃ¤chste stabile
+		Version hinzufÃ¼gen zu kÃ¶nnen. Sie kÃ¶nnen beispielsweise die
 		<ulink url="http://dead-code.org/">Wintermute</ulink>-Entwicklungsumgebung verwenden.
 		</simpara>
 		<simpara>
-		Sie sollten zur Kenntnis nehmen, dass Entwicklungsumgebungen für Adventure-Spiele
-		existieren, die nicht von ScummVM unterstützt werden. Möglicherweise sind diese
-		Entwicklungsumgebungen einfacher zu benutzten und entsprechen eher Ihren Bedürfnissen.
+		Sie sollten zur Kenntnis nehmen, dass Entwicklungsumgebungen fÃ¼r Adventure-Spiele
+		existieren, die nicht von ScummVM unterstÃ¼tzt werden. MÃ¶glicherweise sind diese
+		Entwicklungsumgebungen einfacher zu benutzten und entsprechen eher Ihren BedÃ¼rfnissen.
 		Das <ulink url="http://en.wikipedia.org/wiki/Adventure_Game_Studio">Adventure Game Studio</ulink>
-		ist das vielleicht populärste und am besten unterstützte System mit Werkzeugen und einer
-		großen Entwicklergemeinde.
+		ist das vielleicht populÃ¤rste und am besten unterstÃ¼tzte System mit Werkzeugen und einer
+		groÃŸen Entwicklergemeinde.
 		</simpara>
 		<simpara>
-		Weitere Informationen zu diesem Thema sowie eine ausführliche Liste von Autoren-Werkzeugen
-		finden Sie auf unserer <ulink url="http://wiki.scummvm.org/index.php/HOWTO-Fangames">Wiki-Seite über Fangames</ulink>.
+		Weitere Informationen zu diesem Thema sowie eine ausfÃ¼hrliche Liste von Autoren-Werkzeugen
+		finden Sie auf unserer <ulink url="http://wiki.scummvm.org/index.php/HOWTO-Fangames">Wiki-Seite Ã¼ber Fangames</ulink>.
 		</simpara>
 	</answer>
     </entry>
   </section>
   <section>
-    <title>Unterstützte Spiele</title>
+    <title>UnterstÃ¼tzte Spiele</title>
     <entry>
       <href>question.supported-games</href>
-      <question>Welche Spiele werden von ScummVM unterstützt?</question>
+      <question>Welche Spiele werden von ScummVM unterstÃ¼tzt?</question>
       <answer>
 		<simpara>
-		Wir haben eine <ulink url="http://www.scummvm.org/compatibility.php">Kompatibilitätsliste</ulink>
-		auf unserer Webseite zusammengestellt, die Informationen darüber enthält, welche Spiele
-		in welchem Grad unterstützt werden. Neben SCUMM-Spielen unterstützen
+		Wir haben eine <ulink url="http://www.scummvm.org/compatibility.php">KompatibilitÃ¤tsliste</ulink>
+		auf unserer Webseite zusammengestellt, die Informationen darÃ¼ber enthÃ¤lt, welche Spiele
+		in welchem Grad unterstÃ¼tzt werden. Neben SCUMM-Spielen unterstÃ¼tzen
 		wir auch ein paar andere Adventure-Spiele. Weitere Spiele werden vielleicht
-		noch hinzugefügt, dies kommt jedoch nicht besonders häufig vor &#8212; siehe unten.
+		noch hinzugefÃ¼gt, dies kommt jedoch nicht besonders hÃ¤ufig vor &#8212; siehe unten.
 		</simpara>
 	</answer>
     </entry>
     <entry>
       <href>question.add-new-games</href>
-      <question>Wird ScummVM auch andere Spiele unterstützten?</question>
+      <question>Wird ScummVM auch andere Spiele unterstÃ¼tzten?</question>
       <answer>
 		<simpara>
-		Dies hängt von mehreren Faktoren ab: Zuerst einmal muss es zum Projektumfang
+		Dies hÃ¤ngt von mehreren Faktoren ab: Zuerst einmal muss es zum Projektumfang
 		von ScummVM passen. Dies bedeutet, dass es sich um ein Point-and-Click-Adventure
 		mit 2D-Grafik handeln muss. Zweitens muss es einen (oder mehrere Entwickler) geben,
-		der daran interessiert ist, an diesem Spiel zu arbeiten und der auch die dafür
-		nötigen Fähigkeiten besitzt.
+		der daran interessiert ist, an diesem Spiel zu arbeiten und der auch die dafÃ¼r
+		nÃ¶tigen FÃ¤higkeiten besitzt.
 		</simpara>
 		<simpara>
-		Sie müssen verstehen, dass alle ScummVM-Entwickler Freiwillige sind,
-		die in ihrer Freizeit an ScummVM arbeiten, nur aus Spaß und unentgeltlich.
+		Sie mÃ¼ssen verstehen, dass alle ScummVM-Entwickler Freiwillige sind,
+		die in ihrer Freizeit an ScummVM arbeiten, nur aus SpaÃŸ und unentgeltlich.
 		Die Rekonstruktion (Reverse Engineering) eines komplett neuen Spiels,
 		dessen Quellcode uns nicht vorliegt, ist ein langer und schwieriger Prozess.
 		Selbst wenn wir den Quellcode des Spiels haben, kann dies sehr
-		mühsam und zeitaufwändig sein.
+		mÃ¼hsam und zeitaufwÃ¤ndig sein.
 		</simpara>
 		<simpara>
-		Sofern Sie also nicht für eine Firma arbeiten, die daran interessiert ist,
-		uns Quellcode für einen ihrer klassischen Titel zur Verfügung zu stellen,
-		oder die Arbeit selbst übernehmen möchten, fragen Sie uns bitte nicht danach,
-		ob wir die Unterstützung für ein neues Spiel hinzufügen. Wir werden solche
-		Anfragen kurzerhand zurückweisen.
+		Sofern Sie also nicht fÃ¼r eine Firma arbeiten, die daran interessiert ist,
+		uns Quellcode fÃ¼r einen ihrer klassischen Titel zur VerfÃ¼gung zu stellen,
+		oder die Arbeit selbst Ã¼bernehmen mÃ¶chten, fragen Sie uns bitte nicht danach,
+		ob wir die UnterstÃ¼tzung fÃ¼r ein neues Spiel hinzufÃ¼gen. Wir werden solche
+		Anfragen kurzerhand zurÃ¼ckweisen.
 		</simpara>
 	</answer>
     </entry>
     <entry>
       <href/>
-      <question>Wann wird Maniac Mansion Deluxe unterstützt?</question>
+      <question>Wann wird Maniac Mansion Deluxe unterstÃ¼tzt?</question>
       <answer>
 		<simpara>
 		Die kurze Antwort lautet: Nicht in absehbarer Zeit. Die lange Antwort:
 		Dieses Spiel ist eine von Fans erstellte Replik des originalen Maniac Mansion.
-		Es ist nicht das selbe Spiel wie Maniac Mansion Enhanced, welches von uns unterstützt
+		Es ist nicht das selbe Spiel wie Maniac Mansion Enhanced, welches von uns unterstÃ¼tzt
 		wird. Es wurde mit dem <ulink url="http://www.adventuregamestudio.co.uk/">
 		Adventure Game Studio</ulink> erstellt, welches eine freie und quelloffene
-		Engine für Grafik-Adventures ist. Es existieren Windows-, Linux- und FreeBSD-Versionen
-		dieser Engine. Sie wird derzeit nicht von ScummVM unterstützt und eine Unterstützung
-		würde viel Arbeit erfordern.
+		Engine fÃ¼r Grafik-Adventures ist. Es existieren Windows-, Linux- und FreeBSD-Versionen
+		dieser Engine. Sie wird derzeit nicht von ScummVM unterstÃ¼tzt und eine UnterstÃ¼tzung
+		wÃ¼rde viel Arbeit erfordern.
 		</simpara>
 	</answer>
     </entry>
     <entry>
       <href/>
-      <question>Werden Sie die Unterstützung für SCI-Spiele von Sierra hinzufügen?</question>
+      <question>Werden Sie die UnterstÃ¼tzung fÃ¼r SCI-Spiele von Sierra hinzufÃ¼gen?</question>
       <answer>
 		<simpara>
 		FreeSCI ist in ScummVM aufgegangen, wie Sie <ulink url="http://www.scummvm.org/?shownews=20090215.xml">diesem Nachrichtenbeitrag</ulink>
-		entnehmen können.
-		Dennoch werden viele SCI-Spiele noch nicht unterstützt,
+		entnehmen kÃ¶nnen.
+		Dennoch werden viele SCI-Spiele noch nicht unterstÃ¼tzt,
 		weshalb Sie einen Blick auf <ulink url="http://dosbox.sourceforge.net">DOSBox</ulink>
-		werfen sollten, wenn Sie alle SCI-Spiele (gerade neuere) spielen möchten.
+		werfen sollten, wenn Sie alle SCI-Spiele (gerade neuere) spielen mÃ¶chten.
 		</simpara>
 	</answer>
     </entry>
@@ -215,38 +215,38 @@
       <question>Wie installiere ich Spiele, um sie in ScummVM zu spielen?</question>
       <answer>
 		<simpara>
-		Für die meisten Spiele müssen Sie nicht das mitgelieferte Installationsprogramm
-		ausführen. Kopieren Sie einfach die <ulink url="http://wiki.scummvm.org/index.php/Datafiles"> hier genannten Dateien</ulink>
+		FÃ¼r die meisten Spiele mÃ¼ssen Sie nicht das mitgelieferte Installationsprogramm
+		ausfÃ¼hren. Kopieren Sie einfach die <ulink url="http://wiki.scummvm.org/index.php/Datafiles"> hier genannten Dateien</ulink>
 		von Ihrer Diskette oder CD auf Ihre Festplatte, und starten Sie ScummVM. Klicken Sie auf
-		"Spiel hinzufügen" und wählen Sie das Verzeichnis aus, in welches Sie die Spieldateien
+		"Spiel hinzufÃ¼gen" und wÃ¤hlen Sie das Verzeichnis aus, in welches Sie die Spieldateien
 		hineinkopiert haben.
 		</simpara>
 		<simpara>
 		Manche Spiele liegen in komprimierter Form auf der Diskette oder CD vor, sodass auf
-		diese nicht direkt zugegriffen werden kann. In diesem Fall müssen Sie das originale
-		Installationsprogramm ausführen und die Spieldateien dann aus dem Verzeichnis,
-		in welches das Spiel installiert wurde, in das gewünschte Zielverzeichnis für ScummVM
+		diese nicht direkt zugegriffen werden kann. In diesem Fall mÃ¼ssen Sie das originale
+		Installationsprogramm ausfÃ¼hren und die Spieldateien dann aus dem Verzeichnis,
+		in welches das Spiel installiert wurde, in das gewÃ¼nschte Zielverzeichnis fÃ¼r ScummVM
 		kopieren.
 		</simpara>
 		<simpara>
-		Für Macintosh-Spiele, siehe auch "<xref linkend="question.mac-games" endterm="question.mac-games.text"/>".
+		FÃ¼r Macintosh-Spiele, siehe auch "<xref linkend="question.mac-games" endterm="question.mac-games.text"/>".
 		</simpara>
 	</answer>
     </entry>
     <entry>
       <href/>
-      <question>Benötige ich die originale CD oder Disketten?</question>
+      <question>BenÃ¶tige ich die originale CD oder Disketten?</question>
       <answer>
 		<simpara>
 		Es kommt darauf an. Heutzutage gibt es Firmen wie <ulink url="http://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">GOG.com</ulink>,
 		die legal DRM-freie Versionen von alten Spielen vertreiben, jedoch ist nicht jedes
-		von ScummVM unterstützte Spiel dort verfügbar. In diesen Fällen ist es sehr wahrscheinlich,
-		dass Sie die originalen Datenträger benötigen.
-		ScummVM wird ohne sie nicht funktionieren. Wenn Sie diese Spiele kaufen möchten,
-		empfehlen wir die <ulink url="http://wiki.scummvm.org/index.php/Where_to_get_the_games">Übersicht über Bezugsquellen</ulink>
+		von ScummVM unterstÃ¼tzte Spiel dort verfÃ¼gbar. In diesen FÃ¤llen ist es sehr wahrscheinlich,
+		dass Sie die originalen DatentrÃ¤ger benÃ¶tigen.
+		ScummVM wird ohne sie nicht funktionieren. Wenn Sie diese Spiele kaufen mÃ¶chten,
+		empfehlen wir die <ulink url="http://wiki.scummvm.org/index.php/Where_to_get_the_games">Ãœbersicht Ã¼ber Bezugsquellen</ulink>
 		in unserem Wiki.
 		Fragen Sie das ScummVM-Team nicht danach, wo Sie Vollversionen von Spielen von
-		LucasArts herunterladen können. Diese Anfragen werden ignoriert, oder Sie werden auf
+		LucasArts herunterladen kÃ¶nnen. Diese Anfragen werden ignoriert, oder Sie werden auf
 		die schon genannte <ulink url="http://wiki.scummvm.org/index.php/Where_to_get_the_games#LucasArts_Games">Wiki-Seite</ulink> verwiesen.
 		</simpara>
 	</answer>
@@ -274,11 +274,11 @@
       <question>Kann ich das Spiel speichern/laden?</question>
       <answer>
 		<simpara>
-		Ja. Speichern und laden wird unterstützt. In den meisten Spielen können Sie
-		Strg+F5 drücken, um das globale ScummVM-Menü aufzurufen und dort auf die Speicher-
-		und Ladefunktion zuzugreifen. Manche Engines haben andere oder zusätzliche Wege,
-		Spiele zu speichern oder zu laden. (In SCUMM-Spielen können Sie beispielsweise
-		Alt+1/9 zum Speichern und Strg+1/9 zum Laden verwenden, oder mit F5 das Speicher-/Lade-Menü aufrufen.)
+		Ja. Speichern und laden wird unterstÃ¼tzt. In den meisten Spielen kÃ¶nnen Sie
+		Strg+F5 drÃ¼cken, um das globale ScummVM-MenÃ¼ aufzurufen und dort auf die Speicher-
+		und Ladefunktion zuzugreifen. Manche Engines haben andere oder zusÃ¤tzliche Wege,
+		Spiele zu speichern oder zu laden. (In SCUMM-Spielen kÃ¶nnen Sie beispielsweise
+		Alt+1/9 zum Speichern und Strg+1/9 zum Laden verwenden, oder mit F5 das Speicher-/Lade-MenÃ¼ aufrufen.)
 		In der <ulink url="http://github.com/scummvm/scummvm/blob/master/doc/de/Liesmich">Liesmich-Datei</ulink>
 		finden Sie weitere Informationen.
 		</simpara>
@@ -286,12 +286,12 @@
     </entry>
     <entry>
       <href/>
-      <question>Funktionieren Spielstände der originalen Spiele in ScummVM?</question>
+      <question>Funktionieren SpielstÃ¤nde der originalen Spiele in ScummVM?</question>
       <answer>
 		<simpara>
-		Im Allgemeinen nicht. Wir haben keine Pläne für eine Unterstützung von alten Spielständen
+		Im Allgemeinen nicht. Wir haben keine PlÃ¤ne fÃ¼r eine UnterstÃ¼tzung von alten SpielstÃ¤nden
 		(abgesehen von den Spielen der "Simon the Sorcerer"-Reihe). Neuere Versionen von ScummVM
-		sind teilweise nicht mehr kompatibel mit alten ScummVM-Spielständen. Da
+		sind teilweise nicht mehr kompatibel mit alten ScummVM-SpielstÃ¤nden. Da
 		ScummVM laufend weiterentwickelt wird, kann dies in Zukunft wieder passieren.
 		</simpara>
 	</answer>
@@ -301,13 +301,13 @@
     <title>Grafik und Ton</title>
     <entry>
       <href/>
-      <question>Unterstützt ScummVM CD-Audio?</question>
+      <question>UnterstÃ¼tzt ScummVM CD-Audio?</question>
       <answer>
 		<simpara>
-		Ja, ScummVM bietet volle Unterstützung für CD-Audio in Gobliins (CD), Indiana Jones
+		Ja, ScummVM bietet volle UnterstÃ¼tzung fÃ¼r CD-Audio in Gobliins (CD), Indiana Jones
 		and the Last Crusade (FM-TOWNS), Loom (CD &amp; FM-TOWNS), Monkey Island 1 (CD, FM-TOWNS &amp; SegaCD) und Zak McKracken (FM-TOWNS).
 		Belassen Sie einfach Ihre Spiel-CD im CD-ROM-Laufwerk, wenn Sie ScummVM starten.
-		Wenn Sie mehr als ein CD-Laufwerk besitzen, können Sie das Laufwerk über den
+		Wenn Sie mehr als ein CD-Laufwerk besitzen, kÃ¶nnen Sie das Laufwerk Ã¼ber den
 		Kommandozeilenparameter -c bestimmen. In der <ulink url="http://github.com/scummvm/scummvm/blob/master/doc/de/Liesmich">Liesmich-Datei</ulink>
 		finden Sie weitere Informationen.
 		</simpara>
@@ -315,12 +315,12 @@
     </entry>
     <entry>
       <href/>
-      <question>Unterstützt ScummVM die Verwendung von MP3/Ogg/FLAC-Dateien anstelle von CD-Audio?</question>
+      <question>UnterstÃ¼tzt ScummVM die Verwendung von MP3/Ogg/FLAC-Dateien anstelle von CD-Audio?</question>
       <answer>
 		<simpara>
-		Ja. Sie können LAME oder ein anderes Programm verwenden, um die Audiospuren Ihrer CD
-		in MP3-Dateien umzuwandeln. Seit Version 0.3.0 unterstützen wir auch Dateien im Ogg
-		Vorbis-Format; FLAC-Dateien werden seit Version 0.7.0 unterstützt.
+		Ja. Sie kÃ¶nnen LAME oder ein anderes Programm verwenden, um die Audiospuren Ihrer CD
+		in MP3-Dateien umzuwandeln. Seit Version 0.3.0 unterstÃ¼tzen wir auch Dateien im Ogg
+		Vorbis-Format; FLAC-Dateien werden seit Version 0.7.0 unterstÃ¼tzt.
 		In der <ulink url="http://github.com/scummvm/scummvm/blob/master/doc/de/Liesmich">Liesmich-Datei</ulink>
 		finden Sie weitere Informationen.
 		</simpara>
@@ -328,43 +328,43 @@
     </entry>
     <entry>
       <href/>
-      <question>Unterstützt ScummVM die Verwendung von MP3/Ogg/FLAC-Dateien anstelle der originalen MIDI-Musik?</question>
+      <question>UnterstÃ¼tzt ScummVM die Verwendung von MP3/Ogg/FLAC-Dateien anstelle der originalen MIDI-Musik?</question>
       <answer>
 		<simpara>
-		Im Allgemeinen nicht. Wenn sich das Spiel darauf beschränkt, ein bestimmtes Musikstück nur
-		abzuspielen oder immer wieder zu wiederholen, wäre dies möglich, aber viele Spiele
-		verwenden Dinge wie weiche Übergänge von einem Musikstück zu dem nächsten, schalten
-		einzelne Instrumente an und aus, etc. Es gibt einfach keine Möglichkeit, mit der ScummVM
-		ein digitales Musikstück nehmen und dieses Verhalten emulieren könnte.
+		Im Allgemeinen nicht. Wenn sich das Spiel darauf beschrÃ¤nkt, ein bestimmtes MusikstÃ¼ck nur
+		abzuspielen oder immer wieder zu wiederholen, wÃ¤re dies mÃ¶glich, aber viele Spiele
+		verwenden Dinge wie weiche ÃœbergÃ¤nge von einem MusikstÃ¼ck zu dem nÃ¤chsten, schalten
+		einzelne Instrumente an und aus, etc. Es gibt einfach keine MÃ¶glichkeit, mit der ScummVM
+		ein digitales MusikstÃ¼ck nehmen und dieses Verhalten emulieren kÃ¶nnte.
 		</simpara>
 		<simpara>
 		Diese Frage taucht in der Regel im Zusammenhang mit Sam &amp; Max Hit the Road
 		(was ein paar ungenutzte Audiospuren auf der CD besitzt) und Monkey Island 2
 		(was manchmal zusammen mit Monkey Island 1, welches CD-Audio verwendet, auf einer
 		gemeinsamen CD vertrieben wird), auf. Beide Spiele verwenden jedoch viel zu ausgefallene
-		Tricks, um eine solche Idee überhaupt in Erwägung zu ziehen.
+		Tricks, um eine solche Idee Ã¼berhaupt in ErwÃ¤gung zu ziehen.
 
 		</simpara>
 		<simpara>
-		Allerdings gibt es ein paar andere Spiele, für die wir die Verwendung von MP3/Ogg/FLAC-Dateien
-		anstelle der originalen MIDI-Musik unterstützen.
+		Allerdings gibt es ein paar andere Spiele, fÃ¼r die wir die Verwendung von MP3/Ogg/FLAC-Dateien
+		anstelle der originalen MIDI-Musik unterstÃ¼tzen.
 		Auf der Internetseite des <ulink url="http://www.jameswoodcock.co.uk/content/scummvm-music-enhancement-project/">ScummVM Music Enhancement Project</ulink>
-		finden Sie eine Liste von Spielen, die diese Funktion unterstützen. Dort haben
+		finden Sie eine Liste von Spielen, die diese Funktion unterstÃ¼tzen. Dort haben
 		Sie auch Zugriff auf die aufgezeichneten Musik-Dateien.
 		</simpara>
 	</answer>
     </entry>
     <entry>
       <href/>
-      <question>Unterstützt ScummVM Grafikmodi mit Filter?</question>
+      <question>UnterstÃ¼tzt ScummVM Grafikmodi mit Filter?</question>
       <answer>
 		<simpara>
-		Ja, ScummVM unterstützt mehrere Grafikmodi mit Filter, wie beispielsweise AdvMAME2x,
+		Ja, ScummVM unterstÃ¼tzt mehrere Grafikmodi mit Filter, wie beispielsweise AdvMAME2x,
 		auch bekannt als <ulink url="http://scale2x.sourceforge.net/">Scale2x</ulink>.
 		In unserer
 		<ulink url="http://github.com/scummvm/scummvm/blob/master/doc/de/Liesmich">Liesmich-Datei</ulink>
 		finden Sie weitere Informationen und in <ulink url="http://wiki.scummvm.org/index.php/User_Manual/Appendix:_Graphic_filters">unserem Wiki</ulink>
-		einen Vergleich der verfügbaren Filter.
+		einen Vergleich der verfÃ¼gbaren Filter.
 		</simpara>
 	</answer>
     </entry>
@@ -373,7 +373,7 @@
       <question>Kann ich mein Spiel in Vollbild spielen?</question>
       <answer>
 		<simpara>
-		Ja. Sie können das Spiel entweder mit dem Kommandozeilenparameter -f starten,
+		Ja. Sie kÃ¶nnen das Spiel entweder mit dem Kommandozeilenparameter -f starten,
 		den Vollbildmodus in den ScummVM-Optionen aktivieren oder die Tastenkombination
 		Alt+Enter verwenden, um zwischen Vollbild- und Fenstermodus zu wechseln.
 		</simpara>
@@ -384,14 +384,14 @@
     <title>Fehlersuche</title>
     <entry>
       <href/>
-      <question>Mein Spiel läuft nicht.</question>
+      <question>Mein Spiel lÃ¤uft nicht.</question>
       <answer>
 		<simpara>
-		Stellen Sie zunächst sicher, dass Ihr Spiel unterstützt wird.
+		Stellen Sie zunÃ¤chst sicher, dass Ihr Spiel unterstÃ¼tzt wird.
 		Eine entsprechende Liste finden Sie unter "<xref linkend="question.supported-games" endterm="question.supported-games.text"/>".
-		Wenn es sich um ein unterstütztes Spiel handelt und Sie die Anweisungen in der
+		Wenn es sich um ein unterstÃ¼tztes Spiel handelt und Sie die Anweisungen in der
 		<ulink url="http://github.com/scummvm/scummvm/blob/master/doc/de/Liesmich">Liesmich-Datei</ulink> genau befolgt haben, finden Sie unter "<xref linkend="question.report-bugs" endterm="question.report-bugs.text"/>"
-		Informationen darüber, wie Sie einen Fehler melden können.
+		Informationen darÃ¼ber, wie Sie einen Fehler melden kÃ¶nnen.
 		</simpara>
 	</answer>
     </entry>
@@ -401,29 +401,29 @@
       <answer>
 		<simpara>
 		Verwenden Sie nicht die Programme install.exe oder setup.exe, die mit dem Spiel
-		ausgeliefert wurden. Sie werden üblicherweise nicht das tun, was getan werden muss,
+		ausgeliefert wurden. Sie werden Ã¼blicherweise nicht das tun, was getan werden muss,
 		um das Spiel in ScummVM zu spielen, sondern lediglich die .exe-Datei des Spiels
-		kopieren und ein paar Verknüpfungen erstellen. ScummVM benötigt alle Spieldateien,
-		weshalb Sie diese manuell kopieren müssen. Weitere Informationen finden Sie in der
+		kopieren und ein paar VerknÃ¼pfungen erstellen. ScummVM benÃ¶tigt alle Spieldateien,
+		weshalb Sie diese manuell kopieren mÃ¼ssen. Weitere Informationen finden Sie in der
 		<ulink url="http://www.scummvm.org/documentation.php?view=datafiles">Dokumentation</ulink>.
 		</simpara>
 	</answer>
     </entry>
     <entry>
       <href>question.no-sound</href>
-      <question>Ich höre keine Tonausgabe.</question>
+      <question>Ich hÃ¶re keine Tonausgabe.</question>
       <answer>
 		<simpara>
-		Überprüfen Sie die <ulink url="http://www.scummvm.org/compatibility.php">Kompatibilitätsliste</ulink>,
-		um zu sehen, ob für Ihr Spiel derzeit Unterstützung für Tonausgabe besteht.
-		Sie können auch versuchen, mit dem Kommandozeilenparameter -s die Lautstärke
+		ÃœberprÃ¼fen Sie die <ulink url="http://www.scummvm.org/compatibility.php">KompatibilitÃ¤tsliste</ulink>,
+		um zu sehen, ob fÃ¼r Ihr Spiel derzeit UnterstÃ¼tzung fÃ¼r Tonausgabe besteht.
+		Sie kÃ¶nnen auch versuchen, mit dem Kommandozeilenparameter -s die LautstÃ¤rke
 		im Spiel festzulegen.
 		</simpara>
 	</answer>
     </entry>
     <entry>
       <href/>
-      <question>Ich höre keine Musik.</question>
+      <question>Ich hÃ¶re keine Musik.</question>
       <answer>
 		<simpara>
 		Siehe "<xref linkend="question.no-sound" endterm="question.no-sound.text"/>".
@@ -432,17 +432,17 @@
     </entry>
     <entry>
       <href/>
-      <question>Mein Spiel stürzt an einer bestimmten Stelle ab.</question>
+      <question>Mein Spiel stÃ¼rzt an einer bestimmten Stelle ab.</question>
       <answer>
 		<simpara>
-		Überprüfen Sie die <ulink url="http://www.scummvm.org/compatibility.php">Kompatibilitätsliste</ulink>, um zu sehen, ob Ihr Spiel bekannte Fehler aufweist.
-		Wenn Sie den Absturz mehr als einmal reproduzieren können, melden Sie dies bitte
+		ÃœberprÃ¼fen Sie die <ulink url="http://www.scummvm.org/compatibility.php">KompatibilitÃ¤tsliste</ulink>, um zu sehen, ob Ihr Spiel bekannte Fehler aufweist.
+		Wenn Sie den Absturz mehr als einmal reproduzieren kÃ¶nnen, melden Sie dies bitte
 		an unseren Bug Tracker,
 		siehe "<xref linkend="question.report-bugs" endterm="question.report-bugs.text"/>".
 		</simpara>
 		<simpara>
-		Wenn bei Ihnen zufällige Abstürze auftreten und Ihr Spiel Musik von CD abspielt,
-		sind Sie wahrscheinlich auf einen Fehler in Windows gestoßen. Versuchen Sie,
+		Wenn bei Ihnen zufÃ¤llige AbstÃ¼rze auftreten und Ihr Spiel Musik von CD abspielt,
+		sind Sie wahrscheinlich auf einen Fehler in Windows gestoÃŸen. Versuchen Sie,
 		die Spieldateien von der CD auf Ihre Festplatte zu kopieren und das Spiel von
 		dort aus zu starten.
 		</simpara>
@@ -450,27 +450,27 @@
     </entry>
     <entry>
       <href/>
-      <question>ScummVM stützt ab, aber das Konsolenfenster verschwindet so schnell, dass ich die Fehlermeldung nicht sehen kann.</question>
+      <question>ScummVM stÃ¼tzt ab, aber das Konsolenfenster verschwindet so schnell, dass ich die Fehlermeldung nicht sehen kann.</question>
       <answer>
 		<simpara>
-		Unter Windows können Sie ScummVM von der Kommandozeile aus starten, um es
-		sichtbar zu machen. Um eine Kommandozeile zu öffnen, öffnen Sie das Startmenü
-		und wählen Sie die Option "Ausführen". Unter Windows NT/2000/XP/7/8/10,
-		geben Sie "cmd.exe" (ohne Anführungszeichen) in das Dialogfenster ein, welches
+		Unter Windows kÃ¶nnen Sie ScummVM von der Kommandozeile aus starten, um es
+		sichtbar zu machen. Um eine Kommandozeile zu Ã¶ffnen, Ã¶ffnen Sie das StartmenÃ¼
+		und wÃ¤hlen Sie die Option "AusfÃ¼hren". Unter Windows NT/2000/XP/7/8/10,
+		geben Sie "cmd.exe" (ohne AnfÃ¼hrungszeichen) in das Dialogfenster ein, welches
 		erscheint; unter Windows 95/98/ME geben Sie stattdessen "command.com" ein.
-		Wenn nötig, wechseln Sie zuerst zu dem passenden Laufwerk, in dem Sie "D:" eingeben
-		(wobei "D" für das Laufwerk steht, auf welchem ScummVM gespeichert ist).
+		Wenn nÃ¶tig, wechseln Sie zuerst zu dem passenden Laufwerk, in dem Sie "D:" eingeben
+		(wobei "D" fÃ¼r das Laufwerk steht, auf welchem ScummVM gespeichert ist).
 		Wechseln Sie in das Verzeichnis von ScummVM, indem Sie "cd \ihr\pfad\zu\scummvm"
-		(ersetzen Sie dies durch den passenden Pfad) und anschließend "scummvm" eingeben.
+		(ersetzen Sie dies durch den passenden Pfad) und anschlieÃŸend "scummvm" eingeben.
 		</simpara>
 		<simpara>
 		In Mac OS X finden Sie die Fehlermeldungen, indem Sie Console.app
-		(im Ordner "Programme/Dienstprogramme") starten. Sie können ScummVM jedoch auch vom Terminal
+		(im Ordner "Programme/Dienstprogramme") starten. Sie kÃ¶nnen ScummVM jedoch auch vom Terminal
 		aus starten. Dazu starten Sie Terminal.app (ebenfalls im Ordner "Dienstprogramme"),
 		ziehen Sie die Anwendung ScummVM.app in das Terminal-Fenster, entfernen das Leerzeichen
-		am Ende der Zeile und fügen "Contents/MacOS/scummvm" (ohne Anführungszeichen) hinzu.
+		am Ende der Zeile und fÃ¼gen "Contents/MacOS/scummvm" (ohne AnfÃ¼hrungszeichen) hinzu.
 		Die Zeile sollte dann so aussehen: "/pfad/zu/ScummVM.app/Contents/MacOS/scummvm".
-		Drücken Sie die Eingabetaste, um ScummVM zu starten.
+		DrÃ¼cken Sie die Eingabetaste, um ScummVM zu starten.
 		</simpara>
 		<simpara>
 		Fehlermeldungen finden Sie auch in der Logdatei von ScummVM. Der Speicherort
@@ -478,8 +478,8 @@
 		Windows-Versionen sollte sie unter "%appdata%\ScummVM\Logs\scummvm.log" gespeichert
 		sein. Auf OS X wird die Logdatei unter "~/Library/Logs/scummvm.log" gespeichert.
 		Auf Linux und anderen POSIX-Systemen verwenden wir die XDG Base Directory-Spezifikation,
-		sodass die Datei standardmäßig unter "~/.cache/scummvm/logs/scummvm.log" gespeichert wird.
-		Der Speicherort kann jedoch abhängig vom Wert der Umgebungsvariable "XDG_CACHE_HOME"
+		sodass die Datei standardmÃ¤ÃŸig unter "~/.cache/scummvm/logs/scummvm.log" gespeichert wird.
+		Der Speicherort kann jedoch abhÃ¤ngig vom Wert der Umgebungsvariable "XDG_CACHE_HOME"
 		variieren.
 		</simpara>
 	</answer>
@@ -491,10 +491,10 @@
 		<simpara>
 		Dies ist ein bekannter Fehler, wenn die Spieldateien bestimmter Amiga-Versionen verwendet werden.
 		Normalerweise sollte ScummVM Ihr Spiel als Amiga-Spiel erkennen, aber manchmal
-		schlägt diese Erkennung aus verschiedenen Gründen fehl.
+		schlÃ¤gt diese Erkennung aus verschiedenen GrÃ¼nden fehl.
 		</simpara>
 		<simpara>
-		Um diesen Fehler zu beheben, wählen Sie "Amiga" als Plattform in den
+		Um diesen Fehler zu beheben, wÃ¤hlen Sie "Amiga" als Plattform in den
 		ScummVM-Spieloptionen oder verwenden Sie den Kommandozeilenparameter
 		"--platform=amiga", um den Amiga-spezifischen Code zu aktivieren.
 		</simpara>
@@ -506,14 +506,14 @@
       <answer>
 		<simpara>
 		Wahrscheinlich verwenden Sie ein Spiel wie Maniac Mansion oder Zak McKracken,
-		wenn Sie dieses Problem haben. Sie müssen die korrekte Sprache in den Spieleinstellungen
-		von ScummVm wählen, den Parameter "--language" verwenden oder die Option "language" in
+		wenn Sie dieses Problem haben. Sie mÃ¼ssen die korrekte Sprache in den Spieleinstellungen
+		von ScummVm wÃ¤hlen, den Parameter "--language" verwenden oder die Option "language" in
 		der Konfigurationsdatei nutzen.
 		</simpara>
 		<simpara>
 		Lesen Sie die
 		<ulink url="http://github.com/scummvm/scummvm/blob/master/doc/de/Liesmich">Liesmich-Datei</ulink>
-		oder die Hilfe auf der Kommandozeile für weitere Informationen.
+		oder die Hilfe auf der Kommandozeile fÃ¼r weitere Informationen.
 		</simpara>
 	</answer>
     </entry>
@@ -523,14 +523,14 @@
       <answer>
 		<simpara>
 		Zuerst sollten Sie auf eine aktuelle Version von ScummVM aktualisieren,
-		wenn Sie eine Version älter als 0.7.0 verwenden. Beginnend mit Version 0.7.0
-		haben wir die Unterstützung für Macintosh-Spiele erheblich verbessert.
+		wenn Sie eine Version Ã¤lter als 0.7.0 verwenden. Beginnend mit Version 0.7.0
+		haben wir die UnterstÃ¼tzung fÃ¼r Macintosh-Spiele erheblich verbessert.
 		</simpara>
 		<simpara>
-		Für neuere Spiele benötigt ScummVM die Haupt-Spieldatei, die normalerweise
+		FÃ¼r neuere Spiele benÃ¶tigt ScummVM die Haupt-Spieldatei, die normalerweise
 		"&lt;Spiel-Titel&gt;&nbsp;Data" (wobei &lt;Spiel-Titel&gt; der
 		Name Ihres Spiels ist, wie etwa "The&nbsp;Dig" oder "Sam&nbsp;&amp;&nbsp;Max").
-		Manche CDs haben scheinbar nur eine Anwendung (Achtung: Diese heißt fast so wie
+		Manche CDs haben scheinbar nur eine Anwendung (Achtung: Diese heiÃŸt fast so wie
 		die Daten-Datei, ihr fehlt jedoch das " Data" am Ende). Auch in diesem Fall
 		existiert eine separate Daten-Datei, die jedoch unsichtbar ist.
 		</simpara>
@@ -538,9 +538,9 @@
 		Wir haben eine separate <ulink url="http://wiki.scummvm.org/index.php/HOWTO-Mac_Games">Anleitung</ulink> zur Verwendung von Macintosh-Spielen.
 		</simpara>
 		<simpara>
-		Bei älteren Spielen, die Dateien mit der Endung LFL besitzen, genügt es,
-		wenn Sie die Plattform auf "macintosh" setzen. Unter "<xref linkend="question.messy-colors" endterm="question.messy-colors.text"/>" finden Sie Informationen darüber,
-		wie Sie die Spiele-Plattform einstellen können.
+		Bei Ã¤lteren Spielen, die Dateien mit der Endung LFL besitzen, genÃ¼gt es,
+		wenn Sie die Plattform auf "macintosh" setzen. Unter "<xref linkend="question.messy-colors" endterm="question.messy-colors.text"/>" finden Sie Informationen darÃ¼ber,
+		wie Sie die Spiele-Plattform einstellen kÃ¶nnen.
 		</simpara>
 	</answer>
     </entry>
@@ -552,35 +552,35 @@
 		Um einen Fehler zu melden, erstellen Sie bitte zuerst ein Konto auf SourceForge und folgen Sie dem Link zu unserem
 		<ulink url="http://bugs.scummvm.org/">Bug Tracker</ulink>
 		auf unserer Internetseite. Bitte stellen Sie sicher, dass der Fehler reproduzierbar ist
-		und auch noch in der aktuellsten Entwicklerversion vorhanden ist. Prüfen Sie bitte auch die
-		<ulink url="http://www.scummvm.org/compatibility.php">Kompatibilitätsliste</ulink>, um
+		und auch noch in der aktuellsten Entwicklerversion vorhanden ist. PrÃ¼fen Sie bitte auch die
+		<ulink url="http://www.scummvm.org/compatibility.php">KompatibilitÃ¤tsliste</ulink>, um
 		sicherzustellen, dass der Fehler nicht bereits bekannt ist. In Ihrer Fehlermeldung
 		sollten Sie folgende Informationen angeben:
 		</simpara>
 		<itemizedlist>
 		<listitem><simpara>ScummVM-Version (BITTE testen Sie die aktuelle Entwicklerversion)</simpara></listitem>
-		<listitem><simpara>Details zu dem Fehler, einschließlich Anweisungen, wie er reproduziert werden kann</simpara></listitem>
+		<listitem><simpara>Details zu dem Fehler, einschlieÃŸlich Anweisungen, wie er reproduziert werden kann</simpara></listitem>
 		<listitem><simpara>Sprache des Spiels (Englisch, Deutsch, ...)</simpara></listitem>
 		<listitem><simpara>Version des Spiels (Sprachausgabe, Diskette, ...)</simpara></listitem>
 		<listitem><simpara>Plattform und Compiler (Win32, Linux, MacOS, ...)</simpara></listitem>
-		<listitem><simpara>Fügen Sie wenn möglich eine Spielstand-Datei als Anhang hinzu</simpara></listitem>
-		<listitem><simpara>Wenn der Fehler erst kürzlich aufgetreten ist, nennen Sie uns bitte
-		die letzte fehlerfreie Version sowie die erste Version, die den Fehler enthält. Dadurch
-		können wir den Fehler schneller beheben, indem wir uns die vorgenommen Änderungen ansehen.</simpara></listitem>
+		<listitem><simpara>FÃ¼gen Sie wenn mÃ¶glich eine Spielstand-Datei als Anhang hinzu</simpara></listitem>
+		<listitem><simpara>Wenn der Fehler erst kÃ¼rzlich aufgetreten ist, nennen Sie uns bitte
+		die letzte fehlerfreie Version sowie die erste Version, die den Fehler enthÃ¤lt. Dadurch
+		kÃ¶nnen wir den Fehler schneller beheben, indem wir uns die vorgenommen Ã„nderungen ansehen.</simpara></listitem>
 		</itemizedlist>
 	</answer>
     </entry>
     <entry>
       <href/>
-      <question>Ich habe die Pakete zu Baphomets Fluch heruntergeladen, aber das Spiel läuft nicht.</question>
+      <question>Ich habe die Pakete zu Baphomets Fluch heruntergeladen, aber das Spiel lÃ¤uft nicht.</question>
       <answer>
 		<simpara>
-		Hierbei handelt es sich nicht um das vollständige Spiel, sondern um Pakete mit
-		umgewandelten Zwischensequenzen. Um die Spiele zu spielen, benötigen Sie immer noch die
-		originalen Datenträger. Die Zwischensequenzen wurden ursprünglich in einem proprietären
+		Hierbei handelt es sich nicht um das vollstÃ¤ndige Spiel, sondern um Pakete mit
+		umgewandelten Zwischensequenzen. Um die Spiele zu spielen, benÃ¶tigen Sie immer noch die
+		originalen DatentrÃ¤ger. Die Zwischensequenzen wurden ursprÃ¼nglich in einem proprietÃ¤ren
 		Format kodiert, Revolution Software hat uns jedoch freundlicherweise erlaubt, diese
 		in das DXA-Format umzuwandeln und auf unserer Seite kostenlos zu verteilen. Neuere
-		Versionen von ScummVM unterstützen die originalen Zwischensequenzen direkt. Daher müssen
+		Versionen von ScummVM unterstÃ¼tzen die originalen Zwischensequenzen direkt. Daher mÃ¼ssen
 		Sie die Zwischensequenzen von unserer Seite nicht mehr verwenden.
 		</simpara>
 	</answer>
@@ -590,7 +590,7 @@
       <question>Es gibt keine Grafikausgabe im Vorspann von Baphomets Fluch I.</question>
       <answer>
 		<simpara>
-		Seien Sie geduldig. Die ersten 12 Sekunden bestehen ausschließlich aus Sprachausgabe,
+		Seien Sie geduldig. Die ersten 12 Sekunden bestehen ausschlieÃŸlich aus Sprachausgabe,
 		bevor das Logo von Revolution erscheint.
 		</simpara>
 	</answer>
@@ -611,8 +611,8 @@
       <question>Ich bekomme die Meldung "Failed to save game state to file: xxx"</question>
       <answer>
 		<simpara>
-		Überprüfen Sie den Pfad für die Spielstände unter Optionen-&gt;Pfade-&gt;Spielstände.
-		Dieser sollte zu einem beschreibbaren Verzeichnis führen.
+		ÃœberprÃ¼fen Sie den Pfad fÃ¼r die SpielstÃ¤nde unter Optionen-&gt;Pfade-&gt;SpielstÃ¤nde.
+		Dieser sollte zu einem beschreibbaren Verzeichnis fÃ¼hren.
 		</simpara>
 	</answer>
     </entry>
@@ -621,20 +621,20 @@
       <question>ScummVM startet, aber ich bekomme nur ein durchsichtiges Fenster!</question>
       <answer>
 		<simpara>
-		Dieses Problem tritt in einigen Fällen unter Windows auf. Stellen Sie sicher, dass Sie
-		die aktuellsten Treiber für Ihre Grafikkarte installiert haben. Wenn dies nicht hilft,
+		Dieses Problem tritt in einigen FÃ¤llen unter Windows auf. Stellen Sie sicher, dass Sie
+		die aktuellsten Treiber fÃ¼r Ihre Grafikkarte installiert haben. Wenn dies nicht hilft,
 		setzen Sie die Umgebungsvariable <envar>SDL_VIDEODRIVER</envar> auf "windib" und
 		versuchen Sie es erneut.
 		</simpara>
 		<simpara>
-		Offenbar haben andere Anwendungen das gleiche Problem, denn die Veröffentlichungshinweise
-		für SDL 1.2.10 (17. Mai 2006) beinhaltet den folgenden Hinweis:
+		Offenbar haben andere Anwendungen das gleiche Problem, denn die VerÃ¶ffentlichungshinweise
+		fÃ¼r SDL 1.2.10 (17. Mai 2006) beinhaltet den folgenden Hinweis:
 		</simpara>
 		<blockquote>
 		<simpara>
-		Der "windib"-Videotreiber wird jetzt standardmäßig verwendet, um Probleme mit
+		Der "windib"-Videotreiber wird jetzt standardmÃ¤ÃŸig verwendet, um Probleme mit
 		manchen Laptops, der 64-Bit-Version von Windows und Windows Vista zu verhindern.
-		Der DirectX-Treiber ist weiterhin verfügbar und kann ausgewählt werden, indem die
+		Der DirectX-Treiber ist weiterhin verfÃ¼gbar und kann ausgewÃ¤hlt werden, indem die
 		Umgebungsvariable <envar>SDL_VIDEODRIVER</envar> auf "directx" gesetzt wird.
 		</simpara>
 		</blockquote>
@@ -642,17 +642,17 @@
     </entry>
     <entry>
       <href/>
-      <question>ScummVM läuft, aber der Ton stottert oder ist gestört!</question>
+      <question>ScummVM lÃ¤uft, aber der Ton stottert oder ist gestÃ¶rt!</question>
       <answer>
 		<simpara>
-		Dieses Problem tritt in einigen Fällen unter Windows auf. Stellen Sie sicher, dass Sie
-		die aktuellsten Treiber für Ihre Soundkarte installiert haben. Wenn dies nicht hilft,
+		Dieses Problem tritt in einigen FÃ¤llen unter Windows auf. Stellen Sie sicher, dass Sie
+		die aktuellsten Treiber fÃ¼r Ihre Soundkarte installiert haben. Wenn dies nicht hilft,
 		setzen Sie die Umgebungsvariable <envar>SDL_AUDIODRIVER</envar> auf "waveout" und
 		versuchen Sie es erneut.
 		</simpara>
 		<simpara>
-		Der "waveout"-Audiotreiber hat eine erhöhte Verzögerung in der Tonausgabe, vor allem
-		unter Windows Vista und in späteren Versionen.
+		Der "waveout"-Audiotreiber hat eine erhÃ¶hte VerzÃ¶gerung in der Tonausgabe, vor allem
+		unter Windows Vista und in spÃ¤teren Versionen.
 		</simpara>
 		</answer>
     </entry>
@@ -661,11 +661,11 @@
       <question>Wie setze ich eine Umgebungsvariable?</question>
       <answer>
 		<simpara>
-		Dies hängt davon ab, welches Betriebssystem und/oder welche Kommandozeile Sie verwenden.
-		Unter Windows können Sie eine Datei namens
+		Dies hÃ¤ngt davon ab, welches Betriebssystem und/oder welche Kommandozeile Sie verwenden.
+		Unter Windows kÃ¶nnen Sie eine Datei namens
 		<command moreinfo="none">scummvm.bat</command> im gleichen Ordner wie
-		<command moreinfo="none">scummvm.exe</command> erstellen. Öffnen Sie diese Datei
-		in Ihrem bevorzugten Text-Editor und fügen Sie folgende Zeilen hinzu:
+		<command moreinfo="none">scummvm.exe</command> erstellen. Ã–ffnen Sie diese Datei
+		in Ihrem bevorzugten Text-Editor und fÃ¼gen Sie folgende Zeilen hinzu:
 		</simpara>
 		<blockquote>
 		<programlisting format="linespecific">@echo off
@@ -674,12 +674,12 @@ set SDL_AUDIODRIVER=waveout
 scummvm.exe %1 %2 %3 %4 %5 %6 %7 %8 %9</programlisting>
 		</blockquote>
 		<simpara>
-		Jetzt können Sie ScummVM durch einen Doppelklick auf diese Batch-Datei starten,
-		anstatt die ScummVM-Programmdatei direkt auszuführen.
+		Jetzt kÃ¶nnen Sie ScummVM durch einen Doppelklick auf diese Batch-Datei starten,
+		anstatt die ScummVM-Programmdatei direkt auszufÃ¼hren.
 		</simpara>
 		<simpara>
-		In neueren Versionen von Windows ist es möglich, Umgebungsvariablen permanent und für
-		alle Anwendungen über die Systemsteuerung zu setzen.
+		In neueren Versionen von Windows ist es mÃ¶glich, Umgebungsvariablen permanent und fÃ¼r
+		alle Anwendungen Ã¼ber die Systemsteuerung zu setzen.
 		</simpara>
 	</answer>
     </entry>
@@ -688,11 +688,11 @@ scummvm.exe %1 %2 %3 %4 %5 %6 %7 %8 %9</programlisting>
       <question>ScummVM startet irgendwo in der Mitte meiner zwei Xinerama Monitore im Vollbildmodus. Hilfe!</question>
       <answer>
 		<simpara>
-		Das ist ein Problem von SDL. SDL hat die Unterstützung für Xinerama standardmäßig
+		Das ist ein Problem von SDL. SDL hat die UnterstÃ¼tzung fÃ¼r Xinerama standardmÃ¤ÃŸig
 		aktiviert. Setzen Sie die Umgebungsvariable <envar>SDL_VIDEO_FULLSCREEN_HEAD</envar>
 		auf "1", um ScummVM (und andere SDL-Anwendungn) im Vollbildmodus auf nur einem Monitor
 		zu starten. Wenn dies nicht funktioniert, stellen Sie sicher, dass Ihre SDL-Bibliothek
-		mit Unterstützung für Xinerama kompiliert wurde.
+		mit UnterstÃ¼tzung fÃ¼r Xinerama kompiliert wurde.
 		</simpara>
 	</answer>
     </entry>
@@ -701,18 +701,18 @@ scummvm.exe %1 %2 %3 %4 %5 %6 %7 %8 %9</programlisting>
     <title>Funktionen</title>
     <entry>
       <href/>
-      <question>Werden Sie Unterstützung für ZIP-Archive hinzufügen?</question>
+      <question>Werden Sie UnterstÃ¼tzung fÃ¼r ZIP-Archive hinzufÃ¼gen?</question>
       <answer>
 		<simpara>
-		Das werden wir nicht tun. Es gibt zwei Hauptgründe dafür. Erstens glauben wir, dass
-		dies die illegale Verbreitung der Spiele erleichtern würde. Zweitens unterstützen wir
-		bereits die Komprimierung von Ton &amp; Sprachausgabe in den meisten größeren Titeln.
-		Dafür verwenden wir speziell entwickelte Algorithmen wie MP3, Ogg und FLAC, sodass Sie
-		die Größe der Spieldateien bereits reduzieren können.
+		Das werden wir nicht tun. Es gibt zwei HauptgrÃ¼nde dafÃ¼r. Erstens glauben wir, dass
+		dies die illegale Verbreitung der Spiele erleichtern wÃ¼rde. Zweitens unterstÃ¼tzen wir
+		bereits die Komprimierung von Ton &amp; Sprachausgabe in den meisten grÃ¶ÃŸeren Titeln.
+		DafÃ¼r verwenden wir speziell entwickelte Algorithmen wie MP3, Ogg und FLAC, sodass Sie
+		die GrÃ¶ÃŸe der Spieldateien bereits reduzieren kÃ¶nnen.
 		</simpara>
 		<simpara>
-		Wir haben diese Frage bereits im Team diskutiert. Wir können nicht vollkommen ausschließen,
-		dass wir unsere Meinung eines Tages ändern werden, aber momentan haben wir nicht die Absicht,
+		Wir haben diese Frage bereits im Team diskutiert. Wir kÃ¶nnen nicht vollkommen ausschlieÃŸen,
+		dass wir unsere Meinung eines Tages Ã¤ndern werden, aber momentan haben wir nicht die Absicht,
 		dies zu tun. Bitte Fragen Sie uns nicht danach!
 		</simpara>
 	</answer>
