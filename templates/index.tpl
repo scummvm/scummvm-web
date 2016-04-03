@@ -115,11 +115,11 @@
 			<a href="http://easyname.com">
 				<img src="/images/easyname-logo-big.png" width="88" height="32" alt="{#indexEasyname#}">
 			</a>
-			<a href="http://validator.w3.org/check/referer">
-				<img src="http://www.w3.org/Icons/valid-html401" width="88" height="31" alt="Valid HTML 4.01!">
+			<a href="https://validator.w3.org/check/referer">
+				<img src="https://www.w3.org/Icons/valid-html401" width="88" height="31" alt="Valid HTML 4.01!">
 			</a>
-			<a href="http://jigsaw.w3.org/css-validator/check/referer">
-				<img src="http://jigsaw.w3.org/css-validator/images/vcss" width="88" height="31" alt="Valid CSS!">
+			<a href="https://jigsaw.w3.org/css-validator/check/referer">
+				<img src="https://jigsaw.w3.org/css-validator/images/vcss" width="88" height="31" alt="Valid CSS!">
 			</a>
 		</div>
 		{/strip}
@@ -137,7 +137,7 @@
 	<script type="text/javascript" src="/javascripts/{$script}"></script>
 {/foreach}
 {* Google analytics javascript. *}
-	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+	<script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		_uacct = "UA-1455743-1";
 		_udn = "scummvm.org";
