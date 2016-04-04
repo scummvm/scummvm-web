@@ -65,7 +65,7 @@
 					<img src="/images/easyname-logo-big.png" width="88" height="32" alt="{#indexEasyname#}">
 				</a>
 				<br>
-				<a href="http://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
+				<a href="https://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
 					<img src="/images/GOG_button_small.png" width="88" height="32" alt="{#indexGOG#}">
 				</a>
 				<a href="https://github.com/scummvm">
@@ -109,7 +109,7 @@
 
 		{strip}
 		<div id="footer">
-			<a href="http://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
+			<a href="https://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
 				<img src="/images/GOG_button_small.png" alt="{#indexGOG#}" width="88" height="32">
 			</a>
 			<a href="http://easyname.com">
