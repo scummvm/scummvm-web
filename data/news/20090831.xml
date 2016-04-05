@@ -3,7 +3,7 @@
 <AUTHOR>sev</AUTHOR>
 <BODY>
 <p>
-Did you hear about our plans for 1.0.0? This is going to be the best ScummVM release ever! And to make it even more remarkable, we have decided to put out a Release Candidate, which is <a href="/downloads.php">awaiting you here</a>.
+Did you hear about our plans for 1.0.0? This is going to be the best ScummVM release ever! And to make it even more remarkable, we have decided to put out a Release Candidate, which is <a href="/downloads/">awaiting you here</a>.
 </p>
 
 <p>
@@ -37,7 +37,7 @@ The full list of changes can be found in the <a href="https://github.com/scummvm
 </p>
 
 <p>
-'Nuff said, so <a href="/downloads.php">download ScummVM</a> and be one step closer to 1.0.0.
+'Nuff said, so <a href="/downloads/">download ScummVM</a> and be one step closer to 1.0.0.
 </p>
 
 </BODY>

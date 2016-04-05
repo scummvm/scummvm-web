@@ -3,11 +3,11 @@
 <AUTHOR>Vinterstum</AUTHOR>
 <BODY>
 <p>
-At long last, <a href="http://www.scummvm.org/downloads.php#CVS">ScummVM CVS</a> now has basic support
+At long last, <a href="/downloads/#CVS">ScummVM CVS</a> now has basic support
 for The Legend of Kyrandia by Westwood Studios. The game is fully completable, but lacks music,
 sound effects and a menu system (for now). Please refer to section 3.8 of the
 <a href="https://github.com/scummvm/scummvm/raw/feaa67ca166d4808dcc9d6393b3673ceca25d6cb/README">README</a> for more
-information, and to the <a href="http://www.scummvm.org/downloads.php#extras">Downloads</a> section for the
+information, and to the <a href="/downloads/#extras">Downloads</a> section for the
 necessary datafile. All bugs should be reported to our <a href="http://bugs.scummvm.org/">
 bug tracker</a>, please see section 4.10 of the <a href="http://scummvm.org/faq.php#question.report-bugs">FAQ</a> for
 instructions.
