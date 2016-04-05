@@ -131,7 +131,7 @@
 				<target>sky</target>
 				<percent>98</percent>
 				<notes>
-					No known issues, game is completable.<h:br />- Requires the <h:a href="SKY.CPT">SKY.CPT</h:a> resource file to be placed in the game directory<h:br />- Floppy demos aren't supported<h:br />- Amiga versions aren't supported<h:br /><h:br />The following bugs are present in the original game and can't be fixed:<h:br />- The voice files for some sentences are missing.<h:br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;This is especially noticeable in the court- and Mrs. Piermont sequence.<h:br />- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders<h:br />- Special characters for french and italian subtitles are incorrect sometimes
+					No known issues, game is completable.<h:br />- Requires the <h:a href="https://github.com/scummvm/scummvm/raw/master/dists/engine-data/sky.cpt">SKY.CPT</h:a> resource file to be placed in the game directory<h:br />- Floppy demos aren't supported<h:br />- Amiga versions aren't supported<h:br /><h:br />The following bugs are present in the original game and can't be fixed:<h:br />- The voice files for some sentences are missing.<h:br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;This is especially noticeable in the court- and Mrs. Piermont sequence.<h:br />- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders<h:br />- Special characters for french and italian subtitles are incorrect sometimes
 				</notes>
 			</game>
 			<game>

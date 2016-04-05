@@ -190,7 +190,7 @@
                 <percent>98</percent>
                 <notes>
 					Game is completable
-					<h:br />- Requires the <h:a href="SKY.CPT">SKY.CPT</h:a> resource file to be placed in the game directory
+					<h:br />- Requires the <h:a href="https://github.com/scummvm/scummvm/raw/master/dists/engine-data/sky.cpt">SKY.CPT</h:a> resource file to be placed in the game directory
 					<h:br />- Floppy demos are unsupported
 					<h:br />- Amiga versions aren't supported
 					<h:br />
