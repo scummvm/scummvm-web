@@ -17,7 +17,7 @@ Hold on, and take a look at the list:
   <li>Support for FLAC encoded music in <i>Broken Sword 1</i> for the purists among you</li>
   <li>Better support for non-English versions of games, including eastern languages</li>
   <li>Sound compression for SAGA games</li>
-  <li>Much much more. See <a href="http://scummvm.org/frs/scummvm/0.11.0/ReleaseNotes">the release notes</a> for the full list
+  <li>Much much more. See <a href="/frs/scummvm/0.11.0/ReleaseNotes">the release notes</a> for the full list
 </ul>
 
 <p>Unfortunately, PlayStation 2 and GP32 ports will not be released with this version,

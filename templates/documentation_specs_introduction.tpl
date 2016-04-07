@@ -121,7 +121,7 @@
 					This document attempts to document the SCUMM data file format. With
 					reasonably complete documentation, it becomes possible to do all sorts
 					of exiting things: like write a free, portable interpreter that will
-					play and SCUMM game on any platform (such as <a href="http://www.scummvm.org">ScummVM</a>,
+					play and SCUMM game on any platform (such as <a href="/">ScummVM</a>,
 					written by Ludvig Strigeus and the ScummVM team), or to create your own
 					SCUMM games from scratch.
 				</p>

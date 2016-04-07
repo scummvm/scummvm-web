@@ -5,7 +5,7 @@
 
 <p>Another 4 months passed, a lot of hard work done... and finally it is
 here: ScummVM 1.1.0 is available now on our
-<a href="http://www.scummvm.org/downloads/">downloads page</a>.</p>
+<a href="/downloads/"">downloads page</a>.</p>
 
 <p>There are some pretty exciting new features: We added support for
 16bit graphics, which allowed us to add support for a whole bunch of
@@ -19,7 +19,7 @@ And finally there is now <b>a port for the Nintendo 64</b> game console!
 </p>
 
 <p>Take a look at the
-<a href="http://scummvm.org/frs/scummvm/1.1.0/ReleaseNotes">release notes</a>
+<a href="/frs/scummvm/1.1.0/ReleaseNotes">release notes</a>
 if you want to know a bit more.</p>
 
 
@@ -38,7 +38,7 @@ should fix these issues. In fact, you can help us make 1.1.1 even better by
 you might encounter in 1.1.0.</p>
 
 <p>And now go and get it while it's still hot from our <a
-href="http://www.scummvm.org/downloads/">downloads page</a>, grab a
+href="/downloads/"">downloads page</a>, grab a
 build for your favorite device and have fun :).</p>
 
 </BODY>

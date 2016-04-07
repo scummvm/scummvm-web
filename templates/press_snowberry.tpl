@@ -30,7 +30,7 @@ ScummVM is a program which allows you to run certain classic graphical point-and
 </p>
 
 <p>
-More information is available here: <a href="http://www.scummvm.org/">http://www.scummvm.org/</a>
+More information is available here: <a href="/">http://www.scummvm.org/</a>
 </p>
 
 <h4>About Gobliiins 4</h4>

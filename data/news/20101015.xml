@@ -3,16 +3,16 @@
 <AUTHOR>sev</AUTHOR>
 <BODY>
 
-<p><a href="http://scummvm.org/news/20040401">CABAL</a> (Coalesced 'Adventures beyond Architecture' League)
+<p><a href="/news/20040401">CABAL</a> (Coalesced 'Adventures beyond Architecture' League)
 finally came alive, and now for real. Yes, truly, it took us just 6.5 years, and today we are eagerly announcing
 that a universal adventure game interpreter, playing SCUMM, AGI, and <b>SCI</b> games
 has been released.</p>
 
-<p>From now on, it is available on ScummVM's <a href="http://www.scummvm.org/downloads/">downloads page</a> (Look for version 1.2.0). You may jump straight there, or stay a bit longer
+<p>From now on, it is available on ScummVM's <a href="/downloads/"">downloads page</a> (Look for version 1.2.0). You may jump straight there, or stay a bit longer
 and see what cool new features are included.</p>
 
 <p>As you have probably already realized, this release has support for SCI, and moreover,
-<a href="http://scummvm.org/compatibility/1.2.0/">the list of compatible</a> games goes beyond
+<a href="/compatibility/1.2.0/">the list of compatible</a> games goes beyond
 the original FreeSCI which was merged about 1.5 years ago. We support <i>Conquests of
 Camelot/the Longbow</i>, <i>Castle/Island of Dr. Brain</i>, <i>Codename: ICEMAN</i>,
 <i>EcoQuest 1&amp;2</i>, <i>all four Hoyle games</i>, <i>Freddy Pharkas</i>, <i>Jones
@@ -31,7 +31,7 @@ we have a number of new ports: Android, Dingux, Caanoo and OpenPandora. Unfortun
 to declare the PalmOS port officially dead.</p>
 
 <p>As usual there are tons of engine-specific bug fixes. Take a look at the
-<a href="http://scummvm.org/frs/scummvm/1.2.0/ReleaseNotes">release notes</a>
+<a href="/frs/scummvm/1.2.0/ReleaseNotes">release notes</a>
 if you want to know more. But wait! We would like to tell a little bit about
 another long-awaited feature new in this release. After all these years we are finally
 going international, and the ScummVM GUI can be translated into any language (well,
@@ -40,7 +40,7 @@ and Ukrainian localizations. Besides this there are a lot of smaller improvement
 like tooltips, radio buttons, improved usability and we support more games running
 from original media without the need to shuffle the game files.</p>
 
-<p>Enough talking! Now it is time to <a href="http://www.scummvm.org/downloads/">download</a> ScummVM
+<p>Enough talking! Now it is time to <a href="/downloads/"">download</a> ScummVM
 and start playing!</p>
 
 </BODY>

@@ -25,7 +25,7 @@
 </ul>
 
 <p>
-  Oltre ai nuovi giochi, abbiamo aggiornato l'emulatore MT-32 incorporando l'ultima versione upstream di munt e 
+  Oltre ai nuovi giochi, abbiamo aggiornato l'emulatore MT-32 incorporando l'ultima versione upstream di munt e
   abilitato Miles Audio per quei giochi che originariamente lo supportavano.
   I giochi non hanno mai suonato così bene in ScummVM!
 </p>
@@ -52,10 +52,10 @@
 <p>
   Queste sono solo alcune delle novità salienti.
   Un elenco completo si trova nelle
-  <a href="http://scummvm.org/frs/scummvm/1.8.0/ReleaseNotes">release note</a>;
-  gli eseguibili si possono scaricare come sempre dalla pagina dei 
-  <a href="http://www.scummvm.org/downloads">download</a>.
-  Al momento di scrivere non tutti i mantainer dei singoli port hanno già caricato la versione 
+  <a href="/frs/scummvm/1.8.0/ReleaseNotes">release note</a>;
+  gli eseguibili si possono scaricare come sempre dalla pagina dei
+  <a href="/downloads/">download</a>.
+  Al momento di scrivere non tutti i mantainer dei singoli port hanno già caricato la versione
   aggiornata del package per la propria piattaforma; ti chiediamo di avere un po' di pazienza
   se ancora non trovi il download per il tuo sistema.
 </p>

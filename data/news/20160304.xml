@@ -52,9 +52,9 @@
 
 <p>
     This list is far from complete. The more comprehensive version of it can be found in
-    <a href="http://scummvm.org/frs/scummvm/1.8.0/ReleaseNotes">the release notes</a>
+    <a href="/frs/scummvm/1.8.0/ReleaseNotes">the release notes</a>
     and the binaries for your platforms are available from our
-    <a href="http://www.scummvm.org/downloads">downloads page</a>. The porters are
+    <a href="/downloads/">downloads page</a>. The porters are
 	still building their packages, so please be patient if you do not see the up to date
     download for your platform yet.
 </p>
