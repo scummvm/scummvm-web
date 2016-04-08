@@ -59,7 +59,7 @@
       <question>Where do I find ScummVM?</question>
       <answer>
 		<simpara>
-		You can find it on the download section on our <ulink url="http://www.scummvm.org">web site</ulink>.
+		You can find it on the download section on our <ulink url="/">web site</ulink>.
 		You can download the latest version, which could be a little old. For the most
 		recent cutting-edge in-development version, you have to compile it yourself from
 		the repository or use the precompiled 'daily builds' linked from our download page.
@@ -132,7 +132,7 @@
       <question>What games does ScummVM support?</question>
       <answer>
 		<simpara>
-		We have a <ulink url="http://www.scummvm.org/compatibility.php">compatibility
+		We have a <ulink url="/compatibility/">compatibility
 		list</ulink> on our website that contains an up to date list of which
 		games work, and how well they work. Apart from SCUMM games, we now
 		also support quite a few other adventure games. More games may
@@ -187,8 +187,8 @@
       <question>Will you add support for Sierra's SCI games?</question>
       <answer>
 		<simpara>
-		FreeSCI has now been merged into ScummVM, see <ulink url="http://www.scummvm.org/?shownews=20090215.xml">this news item</ulink>.
-		However, many SCI games are still not supported, so you may also want to check out <ulink url="http://dosbox.sourceforge.net">DOSBox</ulink>
+		FreeSCI has now been merged into ScummVM, see <ulink url="/news/20090215/">this news item</ulink>.
+		However, many SCI games are still not supported, so you may also want to check out <ulink url="http://www.dosbox.com">DOSBox</ulink>
 		if you want to play all SCI games, especially newer ones.
 		</simpara>
 	</answer>
@@ -383,7 +383,7 @@
 		not do what you need to run the game with ScummVM -- rather they just copy the game
 		.exe and install some shortcuts. ScummVM requires all game
 		data to run, so you will need to copy those manually. Look at the
-		<ulink url="http://www.scummvm.org/documentation.php?view=datafiles">Game Data Files</ulink> page for
+		<ulink url="http://wiki.scummvm.org/index.php/Datafiles">Game Data Files</ulink> page for
 		further details.
 		</simpara>
 	</answer>
@@ -393,7 +393,7 @@
       <question>I don't hear any sound.</question>
       <answer>
 		<simpara>
-		Check the <ulink url="http://www.scummvm.org/compatibility.php">compatibility list</ulink>
+		Check the <ulink url="/compatibility/">compatibility list</ulink>
 		to see if your game has sound support currently. You can
 		also try the -s command line parameter to set the in game SFX volume.
 		</simpara>
@@ -413,7 +413,7 @@
       <question>My game crashes at some point.</question>
       <answer>
 		<simpara>
-		Check the <ulink url="http://www.scummvm.org/compatibility.php">Compatibility List</ulink> to see if your game has any known issues. If you can
+		Check the <ulink url="/compatibility/">Compatibility List</ulink> to see if your game has any known issues. If you can
 		reproduce this crash more than once, please report it to our Bug Tracker.
 		See "<xref linkend="question.report-bugs" endterm="question.report-bugs.text"/>".
 		</simpara>
@@ -527,7 +527,7 @@
 		<ulink url="http://bugs.scummvm.org/">bugs</ulink>
 		link from our homepage. Please make sure the bug is reproducible, and
 		still exists in the latest daily build/current repository version. Also check the
-		<ulink url="http://www.scummvm.org/compatibility.php">compatibility listing</ulink> for that game to ensure
+		<ulink url="/compatibility/">compatibility listing</ulink> for that game to ensure
 		the issue is not already known. In your bugreport please provide the following
 		information:
 		</simpara>

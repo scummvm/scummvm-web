@@ -62,7 +62,7 @@
       <question>Wo kann ich ScummVM finden?</question>
       <answer>
 		<simpara>
-		Sie finden es unter dem Menüpunkt "Downloads" auf unserer <ulink url="http://www.scummvm.org">Website</ulink>.
+		Sie finden es unter dem Menüpunkt "Downloads" auf unserer <ulink url="/">Website</ulink>.
 		Dort können Sie die aktuelle stabile Version herunterladen, die schon etwas älter sein
 		könnte. Um die aktuellste Entwicklerversion zu erhalten, müssen Sie diese aus unserem
 		Quellcode-Verzeichnis selbst kompilieren oder die fertig gebauten Entwicklerversionen
@@ -142,7 +142,7 @@
       <question>Welche Spiele werden von ScummVM unterstützt?</question>
       <answer>
 		<simpara>
-		Wir haben eine <ulink url="http://www.scummvm.org/compatibility.php">Kompatibilitätsliste</ulink>
+		Wir haben eine <ulink url="/compatibility/">Kompatibilitätsliste</ulink>
 		auf unserer Webseite zusammengestellt, die Informationen darüber enthält, welche Spiele
 		in welchem Grad unterstützt werden. Neben SCUMM-Spielen unterstützen
 		wir auch ein paar andere Adventure-Spiele. Weitere Spiele werden vielleicht
@@ -199,10 +199,10 @@
       <question>Werden Sie die Unterstützung für SCI-Spiele von Sierra hinzufügen?</question>
       <answer>
 		<simpara>
-		FreeSCI ist in ScummVM aufgegangen, wie Sie <ulink url="http://www.scummvm.org/?shownews=20090215.xml">diesem Nachrichtenbeitrag</ulink>
+		FreeSCI ist in ScummVM aufgegangen, wie Sie <ulink url="/news/20090215/">diesem Nachrichtenbeitrag</ulink>
 		entnehmen können.
 		Dennoch werden viele SCI-Spiele noch nicht unterstützt,
-		weshalb Sie einen Blick auf <ulink url="http://dosbox.sourceforge.net">DOSBox</ulink>
+		weshalb Sie einen Blick auf <ulink url="http://www.dosbox.com">DOSBox</ulink>
 		werfen sollten, wenn Sie alle SCI-Spiele (gerade neuere) spielen möchten.
 		</simpara>
 	</answer>
@@ -405,7 +405,7 @@
 		um das Spiel in ScummVM zu spielen, sondern lediglich die .exe-Datei des Spiels
 		kopieren und ein paar Verknüpfungen erstellen. ScummVM benötigt alle Spieldateien,
 		weshalb Sie diese manuell kopieren müssen. Weitere Informationen finden Sie in der
-		<ulink url="http://www.scummvm.org/documentation.php?view=datafiles">Dokumentation</ulink>.
+		<ulink url="http://wiki.scummvm.org/index.php/Datafiles">Dokumentation</ulink>.
 		</simpara>
 	</answer>
     </entry>
@@ -414,7 +414,7 @@
       <question>Ich höre keine Tonausgabe.</question>
       <answer>
 		<simpara>
-		Überprüfen Sie die <ulink url="http://www.scummvm.org/compatibility.php">Kompatibilitätsliste</ulink>,
+		Überprüfen Sie die <ulink url="/compatibility/">Kompatibilitätsliste</ulink>,
 		um zu sehen, ob für Ihr Spiel derzeit Unterstützung für Tonausgabe besteht.
 		Sie können auch versuchen, mit dem Kommandozeilenparameter -s die Lautstärke
 		im Spiel festzulegen.
@@ -435,7 +435,7 @@
       <question>Mein Spiel stürzt an einer bestimmten Stelle ab.</question>
       <answer>
 		<simpara>
-		Überprüfen Sie die <ulink url="http://www.scummvm.org/compatibility.php">Kompatibilitätsliste</ulink>, um zu sehen, ob Ihr Spiel bekannte Fehler aufweist.
+		Überprüfen Sie die <ulink url="/compatibility/">Kompatibilitätsliste</ulink>, um zu sehen, ob Ihr Spiel bekannte Fehler aufweist.
 		Wenn Sie den Absturz mehr als einmal reproduzieren können, melden Sie dies bitte
 		an unseren Bug Tracker,
 		siehe "<xref linkend="question.report-bugs" endterm="question.report-bugs.text"/>".
@@ -553,7 +553,7 @@
 		<ulink url="http://bugs.scummvm.org/">Bug Tracker</ulink>
 		auf unserer Internetseite. Bitte stellen Sie sicher, dass der Fehler reproduzierbar ist
 		und auch noch in der aktuellsten Entwicklerversion vorhanden ist. Prüfen Sie bitte auch die
-		<ulink url="http://www.scummvm.org/compatibility.php">Kompatibilitätsliste</ulink>, um
+		<ulink url="/compatibility/">Kompatibilitätsliste</ulink>, um
 		sicherzustellen, dass der Fehler nicht bereits bekannt ist. In Ihrer Fehlermeldung
 		sollten Sie folgende Informationen angeben:
 		</simpara>
