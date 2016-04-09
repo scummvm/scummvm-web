@@ -3,7 +3,7 @@
 <AUTHOR>clone2727</AUTHOR>
 <BODY>
 
-<p>It's been only six years and a few months since CABAL was <a href="http://www.scummvm.org/news/20040401/">jokingly announced</a>, and now the first round of Sierra's SCI games is going to be supported in ScummVM!</p>
+<p>It's been only six years and a few months since CABAL was <a href="/news/20040401/">jokingly announced</a>, and now the first round of Sierra's SCI games is going to be supported in ScummVM!</p>
 
 <p>However, we need <i>your</i> help in testing the SCI games. That's right, you, the loyal ScummVM user. Go grab your DOS or Windows SCI game (that is on <a href="http://wiki.scummvm.org/index.php/SCI/Testing#Full_Games">this list</a>) and play through it with a ScummVM <a href="/downloads/#daily">daily build</a>. As you play through the game, try not to die too much, save often, and note down any bugs that you find so you can report them on the <a href="http://bugs.scummvm.org/">bug tracker</a>. Please do not report bugs on non-PC versions of SCI games; they are not supported yet.</p>
 
