@@ -83,15 +83,15 @@ function sidebar_start ($specs_mode = false)
 	</div></form>
 
 	<p>
-		<a href="http://sourceforge.net/"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=37116" width="88" height="31" alt="SourceForge"></a>
+		<a href="http://sourceforge.net/"><img src="<?=$file_root?>/images/sflogo.png" width="88" height="31" alt="SourceForge"></a>
 	</p>
 
 	<p>
-		<a href="http://validator.w3.org/check/referer"><img src="http://www.w3.org/Icons/valid-html401" width="88" height="31" alt="Valid HTML 4.01!"></a>
+		<a href="http://validator.w3.org/check/referer"><img src="<?=$file_root?>/images/valid-html401.png" width="88" height="31" alt="Valid HTML 4.01!"></a>
 	</p>
 
 	<p>
-		<a href="http://jigsaw.w3.org/css-validator/"><img src="http://jigsaw.w3.org/css-validator/images/vcss" width="88" height="31" alt="Valid CSS!" ></a>
+		<a href="http://jigsaw.w3.org/css-validator/"><img src="<?=$file_root?>/images/vcss.gif" width="88" height="31" alt="Valid CSS!" ></a>
 	</p>
 </td><td id="main">
 <?php
