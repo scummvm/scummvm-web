@@ -362,7 +362,7 @@ if ($details) {
 		{
 			if ($c % 2 == 0) { $color = "color2"; } else { $color = "color0"; }
 			echo html_frame_tr(
-						html_frame_td(html_ahref($name, $PHP_SELF."?details=".$array[0])).
+						html_frame_td(html_ahref($name, $_SERVER["PHP_SELF"]."?details=".$array[0])).
 						html_frame_td($array[0]).
 						html_frame_td($array[1]."%", 'align="center" class="pct'.($array[1] - ($array[1]%5)).'"'),
 						$color
@@ -387,7 +387,7 @@ if ($details) {
 echo html_frame_end("&nbsp;");
 
 if ($details)
-    echo html_p(),html_back_link(1,$PHP_SELF);
+    echo html_p(),html_back_link(1,$_SERVER["PHP_SELF"]);
 
 echo html_p();
 echo html_round_frame_end("&nbsp;");

@@ -248,8 +248,7 @@ function html_form_submit ($value = "")
 
 function html_form_js_button ($url = null)
 {
-	global $PHP_SELF;
-	if (!$url) { $url = $PHP_SELF; }
+	if (!$url) { $url = $_SERVER["PHP_SELF"]; }
 	$str = '<input type=button value=" &lt;&lt; Back " name="jsback" onClick="javascript:self.location=\''.$url.'\';">'."\n";
 	return $str;
 }

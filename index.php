@@ -17,7 +17,7 @@ require($file_root."/include/"."screenshots.php");
 html_header("ScummVM", '<script src="'.$file_root.'/screenshots.js" type="text/javascript"></script>');
 sidebar_start();
 
-$shownews = $_GET['shownews'];
+$shownews = empty($_GET['shownews']) ? 0 : 1;
 
 // display welcome table
 // don't show this if we are in news mode

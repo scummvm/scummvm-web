@@ -24,8 +24,8 @@ echo html_round_frame_start("Screenshots","");
 
 <?php
 
-$view = $_GET['view'];
-$offset = $_GET['offset'];
+$view = empty($_GET['view']) ? "" : $_GET['view'];
+$offset = empty($_GET['offset']) ? 0 : $_GET['offset'];
 
 // if in single view
 if ($view != "")
@@ -79,7 +79,7 @@ $where = 0;
 		// display image
 		echo html_frame_td(
 				   '<table cellpadding="0" cellspacing="0"><tr><td align="center">'.
-				   '<a href="'.$PHP_SELF."?view=".$c.'&amp;offset='.$offset.'">'.
+				   '<a href="'.$_SERVER["PHP_SELF"]."?view=".$c.'&amp;offset='.$offset.'">'.
 				   '<img src="'.screenshot_thumb_path($c).'" '.
 				   'width="'.$thumb_w.'" height="'.$thumb_h.'" alt="Screenshot '.$c.'"></a>'.
 				   '</td></tr><tr><td align="center">'.
@@ -114,7 +114,7 @@ $where = 0;
 	if ($offset)
 	{
 		$prev = $offset - 4;
-		$prevLink = html_ahref("&lt;&lt; Prev 4 Images",$PHP_SELF."?offset=".$prev,"style='color: white;'");
+		$prevLink = html_ahref("&lt;&lt; Prev 4 Images",$_SERVER["PHP_SELF"]."?offset=".$prev,"style='color: white;'");
 
 	}
 
@@ -122,7 +122,7 @@ $where = 0;
 	if (($offset + 4) < $screenshots_count)
 	{
 		$next = $where + 1;
-		$nextLink = html_ahref("Next 4 Images &gt;&gt;",$PHP_SELF."?offset=".$next,"style='color: white;'");
+		$nextLink = html_ahref("Next 4 Images &gt;&gt;",$_SERVER["PHP_SELF"]."?offset=".$next,"style='color: white;'");
 	}
 
 	echo html_frame_tr(

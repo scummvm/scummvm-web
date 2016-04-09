@@ -61,7 +61,7 @@ else
         list($file,$ext) = split("\.",$item,2);
         echo html_frame_tr(
                     html_frame_td(
-                                  html_ahref(display_xml($file_root."/docs/".$item,'NAME'),"$PHP_SELF?view=$file").html_br().
+                                  html_ahref(display_xml($file_root."/docs/".$item,'NAME'),$_SERVER["PHP_SELF"]."?view=$file").html_br().
                                   display_xml($file_root."/docs/".$item,'DESC').html_br(2)."\n"
                                  )
                           );
