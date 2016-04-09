@@ -1,17 +1,17 @@
-<?
+<?php
 
 /*
  * SideBar lib for ScummVM
  * by Jeremy Newman <jnewman@dracowulf.com>
  *
  */
-  
+
 function sidebar_start ($specs_mode = false)
 {
-  
+
     global $file_root;
 
-// It would be nice to use a plain simple <div> here, for maximum layout 
+// It would be nice to use a plain simple <div> here, for maximum layout
 // flexibility. Sadly, due to a bug in Internet Explorer 6, we can't do this
 // (at least not as long as we want the page to render correctly in IE 6).
 // So we resort to using a table with two columns and one row.
@@ -31,7 +31,7 @@ function sidebar_start ($specs_mode = false)
 		$g->add("V5 opcode list", $file_root."/docs/specs/"."scrp-v5.php");
 		$g->add("V6 opcode list", $file_root."/docs/specs/"."scrp-v6.php");
 		$g->add("Glossary", $file_root."/docs/specs/"."glossary.php");
-	
+
 		$g->done();
 	}
 
@@ -61,7 +61,7 @@ function sidebar_start ($specs_mode = false)
 	$g->add("Daily Snapshots", "/daily/");
 	$g->add("CVS Tree", "http://cvs.sourceforge.net/viewcvs.py/scummvm/scummvm/");
 
-	$g->done();      
+	$g->done();
 
 	$g = new htmlmenu("Misc. Menu");
 
@@ -72,7 +72,7 @@ function sidebar_start ($specs_mode = false)
 	$g->add("Links", $file_root."/links.php");
 
 	$g->done('<img src="'.$file_root.'/images/hangmonk.gif" alt="monkey">');
- 
+
 ?>
 
 	<form action="https://www.paypal.com/cgi-bin/webscr" method="post"><div>
@@ -80,15 +80,15 @@ function sidebar_start ($specs_mode = false)
 	<input type="hidden" name="business" value="paypal@enderboi.com">
 	<input type="hidden" name="item_name" value="ScummVM donation">
 	<input type="image" src="<?=$file_root?>/images/ppdonate.gif" name="submit" alt="Donate to ScummVM with PayPal!">
-	</div></form>	
-	
+	</div></form>
+
 	<p>
 		<a href="http://sourceforge.net/"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=37116" width="88" height="31" alt="SourceForge"></a>
 	</p>
 
 	<p>
 		<a href="http://validator.w3.org/check/referer"><img src="http://www.w3.org/Icons/valid-html401" width="88" height="31" alt="Valid HTML 4.01!"></a>
-	</p> 
+	</p>
 
 	<p>
 		<a href="http://jigsaw.w3.org/css-validator/"><img src="http://jigsaw.w3.org/css-validator/images/vcss" width="88" height="31" alt="Valid CSS!" ></a>

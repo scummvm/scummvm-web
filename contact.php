@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
  * Contact Page for ScummVM
@@ -34,7 +34,7 @@ echo html_round_frame_start("Contact","");
 		place to ask questions. Many ScummVM developers hang out there regularly, as well as many ScummVM users.
 	</p>
 	<br>
-	
+
 	<h2>Forums</h2>
 	<p>
 	We offer two <a href="http://sourceforge.net/forum/?group_id=37116">forums</a> hosted by SourceForge.net.
@@ -43,7 +43,7 @@ echo html_round_frame_start("Contact","");
 	meant for open discussion of any topics somehow related to ScummVM.
 	</p>
 	<br>
-	
+
 	<h2>Bug reports, feature requests, patches</h2>
 	<p>
 	If you think you found a bug, take a look at our <a href="http://sourceforge.net/tracker/?group_id=37116&auml;atid=418820">bug tracker</a>.
@@ -56,10 +56,10 @@ echo html_round_frame_start("Contact","");
 	</p>
 	<p>
 	Finally, if you have made a modification to the ScummVM source code and want to see it merged back into the ScummVM main line,
-	you can use our <a href="http://sourceforge.net/tracker/?group_id=37116&auml;atid=418822">patch tracker</a> for that. 
+	you can use our <a href="http://sourceforge.net/tracker/?group_id=37116&auml;atid=418822">patch tracker</a> for that.
 	</p>
 	<br>
-    
+
 	<h2>Mailing list</h2>
 	<p>
 	There are three ScummVM related  <a href="http://sourceforge.net/mail/?group_id=37116">mailing lists</a>.

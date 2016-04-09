@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
  * ScummVM Compatibility Page
@@ -313,7 +313,7 @@ $notes = array(
                    "<br>- F10 key animation is different in Amiga & Macintosh versions",
 "simon2dos"     => "No known issues, game is completable."
 );
-		
+
 // render the compatibility chart
 
 if ($details) {
@@ -324,12 +324,12 @@ if ($details) {
 			   html_frame_td("Game Short Name").
 			   html_frame_td("% Completed"),
 			   "color4"
-	
+
 			  );
 
 	$arrayt = array_merge($gamesLucas, $gamesHE, $gamesOther);
 	while (list($name,$array) = each($arrayt))
-	{	
+	{
 
 		if ($array[0] == $details) {
 			$color = "color0";
@@ -359,7 +359,7 @@ if ($details) {
 			  );
 		$c = 0;
 		while (list($name,$array) = each($games))
-		{	
+		{
 			if ($c % 2 == 0) { $color = "color2"; } else { $color = "color0"; }
 			echo html_frame_tr(
 						html_frame_td(html_ahref($name, $PHP_SELF."?details=".$array[0])).
@@ -368,9 +368,9 @@ if ($details) {
 						$color
 			);
 			$c++;
-		}		  
+		}
 	}
-	
+
 	displayGameList("LucasArts", $gamesLucas);
 
 	echo html_frame_end("&nbsp;");
@@ -385,7 +385,7 @@ if ($details) {
 }
 
 echo html_frame_end("&nbsp;");
-  
+
 if ($details)
     echo html_p(),html_back_link(1,$PHP_SELF);
 

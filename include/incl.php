@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
  * Main lib for ScummVM

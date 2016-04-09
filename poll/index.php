@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
  * Downloads Page for ScummVM
@@ -21,9 +21,9 @@ echo html_round_frame_start("Website Revamp contest poll","");
 
 ?>
 	<h1>Website Revamp contest poll -- closed, draven declared winner</h1>
-	
+
 	<p>The three finalists of the website revamp contest can be seen here. The contest was won by draven, you can see the final standings below</p>
-	
+
 	<center>
 	<table cellpadding="10" cellspacing="10">
 	<tr>
@@ -31,7 +31,7 @@ echo html_round_frame_start("Website Revamp contest poll","");
 	<td align="center"><a href="draven.jpg" target="_blank"><img src="draven-thumb.jpg" height="120" width="120" alt="draven"><br>draven</a></td>
 	<td align="center"><a href="jeanm.png" target="_blank"><img src="jeanm-thumb.png" height="120" width="120" alt="jeanm"><br>jeanm</a></td>
 	</tr>
-	
+
 <tr><td colspan="3" align="center">
 
 <table border="0" bgcolor="#EEEEEE" cellspacing="0" cellpadding="3">

@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
  * Credits Page for ScummVM

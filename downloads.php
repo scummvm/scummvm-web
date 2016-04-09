@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
  * Downloads Page for ScummVM
@@ -37,7 +37,7 @@ echo html_round_frame_start("Download ScummVM","");
 	under '<A HREF="#stable">Release Binaries</A>'. If you run Windows and are confused,
 	download the 'Windows Installer'</LI>
 
-		<LI>For UNSTABLE experimental versions of ScummVM (for people who know what they 
+		<LI>For UNSTABLE experimental versions of ScummVM (for people who know what they
 	are doing), please see the <a href="#CVS">CVS Builds</a> section, near the end of this page.</LI>
 
 		<LI>Also below are the <a href="#extras">Extras</a>. These currently include two
@@ -84,7 +84,7 @@ echo html_round_frame_start("Download ScummVM","");
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.7.1-palmos.zip?download">PalmOS binary</a> <small>(1.9M zipfile)</small></li>
 -->
 
-	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-WindowsMobile_ARM.zip?download">Windows Mobile 5 ARM package</a> for Pocket PC 2002, Pocket PC 2003, Pocket PC 2003 SE, 
+	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-WindowsMobile_ARM.zip?download">Windows Mobile 5 ARM package</a> for Pocket PC 2002, Pocket PC 2003, Pocket PC 2003 SE,
 Smartphone 2002, Smartphone 2003, and Windows Mobile 5 <small>(1.4M zipfile)</small></li>
 
 	  <li><a href="http://prdownloads.sourceforge.net/scummvm/scummvm-0.8.0-amigaos4.lha?download">AmigaOS 4 package</a> <small>(3.3M .lha)</small></li>
@@ -167,8 +167,8 @@ Smartphone 2002, Smartphone 2003, and Windows Mobile 5 <small>(1.4M zipfile)</sm
 	</ul>
 	<p>
 	<i>Having trouble downloading Flight of the Amazon Queen?</i>
-	Sourceforge has been experiencing some downloading problems with certain mirrors 
-lately. So, if you are having problems, try the following non-SourceForge mirror - kindly 
+	Sourceforge has been experiencing some downloading problems with certain mirrors
+lately. So, if you are having problems, try the following non-SourceForge mirror - kindly
 hosted by <a href="http://www.mthN.de">Snoke Media and Tech Hosting Network</a>!
 	</p>
 	<ul>
@@ -212,7 +212,7 @@ hosted by <a href="http://www.mthN.de">Snoke Media and Tech Hosting Network</a>!
 	<ul>
 	  <li><a href="http://www.libsdl.org/download-1.2.php">SDL 1.2.x</a></li>
 	</ul>
-		
+
 	<h3>Optional Libraries:</h3>
 	<ul>
 	  <li><a href="http://www.underbit.com/products/mad/">MAD</a>: MPEG Audio Decoder</li>

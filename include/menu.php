@@ -1,11 +1,11 @@
-<?
+<?php
 
 /*
  * Menu class for ScummVM
  * by Jeremy Newman <jnewman@dracowulf.com>
  *
  */
- 
+
 class htmlmenu {
 
     function htmlmenu($name)

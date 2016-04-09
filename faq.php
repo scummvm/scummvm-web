@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
  * FAQ Page

@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
  * config lib for ScummVM
@@ -9,7 +9,7 @@
 /*
  * global params
  */
-$debug = 1;   //turns debugging on/off
+$debug = 0;   //turns debugging on/off
 
 
 ?>

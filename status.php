@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
  * Contact Page for ScummVM

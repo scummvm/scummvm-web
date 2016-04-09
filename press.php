@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
  * Press Page
@@ -20,7 +20,7 @@ echo html_round_frame_start("Press Coverage","");
 
 ?>
 <h1>ScummVM press coverage</h1>
-<small>(If you wish to contact us in regards to media articles, please e-mail press 
+<small>(If you wish to contact us in regards to media articles, please e-mail press
 (@) scummvm.org)</small>
 	<p><a href="http://www.micromart.co.uk/content/features/default.asp?Category=Article&Type=&ID=1746">
 	  <b>Retro-Mart</b></a>, www.micromart.co.uk
@@ -56,9 +56,9 @@ echo html_round_frame_start("Press Coverage","");
 	<p><a href="http://www.totalamiga.org/issue16.html"
 	  ><b>ScummVM review</b></a>, Total Amiga Magazine 16, October 6, 2003
 	</p>
-	   
+
 	<p><a href="http://www.aventurepc.com/dossiers/scummvm1.html"
-	   ><b>Dossier ScummVM - première partie</b></a> (French), Aventure PC, October 1, 2003
+	   ><b>Dossier ScummVM - premiï¿½re partie</b></a> (French), Aventure PC, October 1, 2003
 	</p>
 
 	<p><a href="http://obligement.free.fr/articles/scummvm.php"
@@ -78,7 +78,7 @@ echo html_round_frame_start("Press Coverage","");
 	</p>
 
 	<p><a href="http://www.pcwelt.de/news/spiele/32970/"
-	   ><b>Gratis: Amüsanter Adventure-Klassiker zum Download</b></a> (German), PC WELT, August 4, 2003
+	   ><b>Gratis: Amï¿½santer Adventure-Klassiker zum Download</b></a> (German), PC WELT, August 4, 2003
 	</p>
 
 	<p><a href="http://games.slashdot.org/article.pl?sid=03/08/02/1235259"
@@ -112,13 +112,13 @@ echo html_round_frame_start("Press Coverage","");
 	<p><a href="http://slashdot.org/article.pl?sid=02/06/26/1312251"
 	   ><b>Lucas Confuses ScummVM With Abandonware</b></a>, Slashdot, June 26, 2002
 	</p>
-	
+
 	<p><a href="http://www.amigafuture.de/interactive/interview/scummvm.php"
-	  ><b>Interview mit Rüdiger Hanke</b></a> (German), Amiga Future #36, May 2002
+	  ><b>Interview mit Rï¿½diger Hanke</b></a> (German), Amiga Future #36, May 2002
 	</p>
 
 	<p><a href="http://www.pcdemano.com/sections.php?op=viewarticle&amp;artid=151"
-	   ><b>Revisión de PocketScumm Build 0.2.0</b></a> (Spanish), PC demano, March 2002
+	   ><b>Revisiï¿½n de PocketScumm Build 0.2.0</b></a> (Spanish), PC demano, March 2002
 	</p>
 
 	<p><a href="http://slashdot.org/article.pl?sid=01/11/03/1429247"

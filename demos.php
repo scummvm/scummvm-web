@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
  * Links to Demo downloads
@@ -35,11 +35,11 @@ $LEC_demos = array(
 		=> array('http://quick.mixnmojo.com/demos/mmdemo2.zip', 'maniac'),
 	'Zak McKracken and the Alien Mindbenders (Atari ST - Non interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/zakstdemo.zip', 'zak'),
-	'The Secret of Monkey Island (16 colour demo)'	
+	'The Secret of Monkey Island (16 colour demo)'
 		=> array('http://www.cowlark.com/scumm.dat/mi_demo2.zip', 'monkey'),
-	'The Secret of Monkey Island (Amiga demo)'	
+	'The Secret of Monkey Island (Amiga demo)'
 		=> array('http://quick.mixnmojo.com/demos/mi1amigademo.zip', 'monkey'),
-	'Indiana Jones and the Last Crusade (16 colour - Non interactive)'	
+	'Indiana Jones and the Last Crusade (16 colour - Non interactive)'
 		=> array('http://www.cowlark.com/scumm.dat/indy3ega-demo.zip', 'indy3'),
 	'Loom (16 colour - Non interactive)'
 		=> array('ftp://ftp.lucasarts.com/demos/pc/Loomdemo.zip', 'loom'),
@@ -162,7 +162,7 @@ echo html_frame_tr(
 		  );
 	$c = 0;
 	while (list($name,$array) = each($demos))
-	{	
+	{
 		if ($c % 2 == 0) { $color = "color2"; } else { $color = "color0"; }
 		echo html_frame_tr(
 			html_frame_td("<a href=\"$array[0]\">$name</a>").

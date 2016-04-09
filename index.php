@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
  * Index Page for ScummVM
@@ -121,11 +121,11 @@ $c = 0;
 while (list($key,$item) = each($news))
 {
 	$c++;
-	
+
 	// Load news item (it's in a pseudo XML format).
 	$file = $file_root."/news/".$item;
 	if (file_exists($file))
-	{ 
+	{
 		$fp = @fopen($file, "r");
 		$data = fread($fp, filesize($file));
 		@fclose($fp);
@@ -160,7 +160,7 @@ while (list($key,$item) = each($news))
 			$news_body = $out[1];
 		}
 	}
-	
+
 	// Display news item
 	echo html_frame_tr(
 			    html_frame_td(
@@ -175,8 +175,8 @@ while (list($key,$item) = each($news))
 								'</div>'
 			                 )
 	                  );
-	
-	
+
+
 	// Only show first five records, unless we are in "news" mode
 	if ($c == 4 && !$shownews)
 	{
