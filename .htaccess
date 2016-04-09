@@ -9,6 +9,8 @@ RewriteBase /
 RewriteCond     %{QUERY_STRING}                                             lang=(.*)?
 RewriteRule     .*                                                           -  [CO=lang:%1:.scummvm.org]
 
+RewriteRule		^old/.*														-	[L]
+
 ##
 # We moved screenshots, fixing the links
 ##
