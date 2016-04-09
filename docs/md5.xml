@@ -20,7 +20,7 @@ function addEntry($variant, $platform, $language, $md5, $target = "???", $source
 	<p>All the MD5 checksums listed below are computed for the canonic "first" file of each game.
 	This is usually a file like "00.lfl", "000.lfl", "*.000", "*.la0", "*.he0" etc.
 	</p>
-	
+
 	<p>If you have data files not listed here, or if the MD5 of your data files
 	differs from the values listed here, please drop us a note so we can update
 	the table. Email us at <em>scummvm-devel AT lists DOT sourceforge DOT net</em>.</p>
@@ -36,7 +36,7 @@ function addEntry($variant, $platform, $language, $md5, $target = "???", $source
 <hr />
 
 <div style="font-size: small; font-style: italic; ">
-Last updated: $Date$
+Last updated: Nov 7, 2005
 </div>
-		
+
 </BODY>
