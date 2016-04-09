@@ -25,7 +25,7 @@ if (isset($_GET['details'])) {
 ?>
 	<h1>Compatibility</h1>
 <?php
-if ($details)
+if (isset($details))
 {
 
 }
@@ -51,6 +51,7 @@ else
 	// Display the Color Key Table
 	echo html_frame_start("Color Key","50%",1,1,"color4");
 	$pcts = array(0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100);
+	$keyTD = "";
 	while (list($key,$num) = each($pcts))
 	{
 		$keyTD .= html_frame_td($num,'align=center class="pct'.$num.'"');
@@ -316,7 +317,7 @@ $notes = array(
 
 // render the compatibility chart
 
-if ($details) {
+if (isset($details)) {
 	// 'Details' mode -- information about a specific game
 	echo html_frame_start("Game Compatibility Chart","90%",2,1,"color4");
 	echo html_frame_tr(
@@ -386,7 +387,7 @@ if ($details) {
 
 echo html_frame_end("&nbsp;");
 
-if ($details)
+if (isset($details))
     echo html_p(),html_back_link(1,$_SERVER["PHP_SELF"]);
 
 echo html_p();
