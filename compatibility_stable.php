@@ -41,7 +41,7 @@ else
 	  snapshots/daily builds</B>. The status of these can be found on the <a
 	  href="compatibility.php">CVS Compatibility</A> chart.
 	  <br><br>
-	  <small>Last Updated: <?php echo date("F d, Y",getlastmod()); ?></small>
+	  <small>Last Updated: Oct 30, 2005</small>
 	</p>
 
 <?php

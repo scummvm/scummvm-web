@@ -44,7 +44,7 @@ else
 	  may be introduced with new changes, thus this list refects the 'best case' scenario.
 	  It is highly recommended to use the latest stable release, where possible.
 	  <br><br>
-	  <small>Last Updated: <?php echo date("F d, Y",getlastmod()); ?></small>
+	  <small>Last Updated: Nov 5, 2005</small>
 	</p>
 
 <?php
