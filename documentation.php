@@ -20,7 +20,7 @@ sidebar_start();
 echo html_round_frame_start("ScummVM Documentation","");
 echo html_frame_start("","100%",1,1);
 
-$view = $HTTP_GET_VARS['view'];
+$view = $_GET['view'];
 
 if ($view and file_exists($file_root."/docs/".$view.".xml"))
 {
@@ -52,7 +52,7 @@ else
     // get list of documentation items
     $docs = get_files($file_root."/docs","xml");
     sort($docs);
-    
+
     // loop and display docs
     $c = 0;
     while (list($key,$item) = each($docs))
@@ -75,16 +75,16 @@ else
 							  "This page is the current TODO list for ScummVM.".html_br(2)."\n"
 							 )
 					  );
-    
+
 	// Hard code link to doxygen for now...
 	echo html_frame_tr(
 				html_frame_td(
-							  html_ahref("Source code documentation",$file_root."/docs/doxygen/html/index.php").html_br().
+							  html_ahref("Source code documentation",$file_root."/").html_br().
 							  "Cross referenced source code documentation for ScummVM, generated using".
 							  html_ahref("Doxygen","http://www.doxygen.org").html_br(2)."\n"
 							 )
 					  );
-    
+
 	// Hard code link to specs for now...
 	echo html_frame_tr(
 				html_frame_td(
@@ -93,14 +93,14 @@ else
 							   for Versions Five and Six (and above)".html_br(2)."\n"
 							 )
 					  );
-    
+
     // outro
     echo html_frame_tr(
                 html_frame_td(
                               html_line().html_p("Click the title of the section of the documentation you want to read.")
                              )
-                      );    
-    
+                      );
+
 }
 
 echo html_frame_end();

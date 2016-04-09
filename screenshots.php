@@ -24,8 +24,8 @@ echo html_round_frame_start("Screenshots","");
 
 <?php
 
-$view = $HTTP_GET_VARS['view'];
-$offset = $HTTP_GET_VARS['offset'];
+$view = $_GET['view'];
+$offset = $_GET['offset'];
 
 // if in single view
 if ($view != "")
