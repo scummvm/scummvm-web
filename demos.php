@@ -26,7 +26,7 @@ echo html_round_frame_start("Game Demos","");
 	  Beneath A Steel Sky demos aren't going to be supported for technical reasons.<br><br>
 	</p>
 
-<?
+<?php
 
 $LEC_demos = array(
 	'Maniac Mansion (v1 DOS demo - Non interactive)'

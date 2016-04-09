@@ -8,7 +8,7 @@ require($file_root."/include/"."incl.php");
 html_header("The inComplete SCUMM Reference Guide", '<link href="specs.css" rel="stylesheet" type="text/css">');
 sidebar_start(true);
 
-// add 
+// add
 
 //display welcome table
 echo html_round_frame_start("The inComplete SCUMM Reference Guide","");
@@ -16,7 +16,7 @@ echo html_round_frame_start("The inComplete SCUMM Reference Guide","");
 ?>
         <p>
           <big><b>The inComplete SCUMM Reference Guide</b></big><br>
-          <? echo html_line(); ?>
+          <?php echo html_line(); ?>
         </p>
 
         <p>
@@ -37,7 +37,7 @@ echo html_round_frame_start("The inComplete SCUMM Reference Guide","");
 All material &copy; 2000-2002 David Given, unless where stated otherwise.
 </P>
 
-<?
+<?php
 echo html_round_frame_end("&nbsp;");
 
 // end of html

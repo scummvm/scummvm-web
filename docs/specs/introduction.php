@@ -1,4 +1,4 @@
-<?
+<?php
 
 $file_root = "../..";
 // load libs
@@ -15,7 +15,7 @@ echo html_round_frame_start("Introduction","");
 
         <p>
           <big><b>Introduction</b></big><br>
-          <? echo html_line(); ?>
+          <?php echo html_line(); ?>
         </p>
 
 <H2>Changes</h2>
@@ -93,11 +93,11 @@ or to create your own SCUMM games from scratch.
 
 <p>The information obtained here was almost all obtained by other people.  All
 I have done is to collate it into one place. Among the many who have been
-working on the SCUMM file format, Ludvig Strigeus, Jimmi Thøgerson and Peter
+working on the SCUMM file format, Ludvig Strigeus, Jimmi Thï¿½gerson and Peter
 Kelly have performed incredible tasks of reverse-engineering, and I am indebted
 to them.
 
-<P class=footnote>Jimmi Thøgerson and Peter Kelly have developed their own
+<P class=footnote>Jimmi Thï¿½gerson and Peter Kelly have developed their own
 SCUMM file browsing and analysis tool called <a href="http://scummrev.mixnmojo.com">SCUMM
 Revisited</a>. If you are at all interested in SCUMM files, this is an
 essential tool.
@@ -126,7 +126,7 @@ Fandango</EM>.
 
 <p>The full list of games and versions follows.
 
-<?
+<?php
 
 $games = array(
 		'Maniac Mansion (c64)'                                  => array('1'),
@@ -159,7 +159,7 @@ echo html_frame_tr(
                    html_frame_td("Version").
                    html_frame_td("Game", 'align="center"'),
                    "color4"
-  
+
                   );
 	$c = 0;
         while (list($name,$array) = each($games))
@@ -208,11 +208,10 @@ echo html_frame_end("&nbsp;");
 All material &copy; 2000-2002 David Given, unless where stated otherwise.
 </P>
 
-<?
+<?php
 echo html_round_frame_end("&nbsp;");
-          
+
 // end of html
 sidebar_end();
 html_footer();
 ?>
-

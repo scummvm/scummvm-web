@@ -20,7 +20,7 @@ function sidebar_start ($specs_mode = false)
 
 <table border=0 cellpadding=0 cellspacing=0><tr><td id=sideBar>
 
-<?
+<?php
 
 	if ($specs_mode) {
 		$g = new htmlmenu("Contents");
@@ -94,7 +94,7 @@ function sidebar_start ($specs_mode = false)
 		<a href="http://jigsaw.w3.org/css-validator/"><img src="http://jigsaw.w3.org/css-validator/images/vcss" width="88" height="31" alt="Valid CSS!" ></a>
 	</p>
 </td><td id="main">
-<?
+<?php
 }
 
 function sidebar_end ()
@@ -103,7 +103,7 @@ function sidebar_end ()
 
 </td></tr></table>
 
-<?
+<?php
 }
 
 ?>

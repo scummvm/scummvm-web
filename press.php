@@ -124,7 +124,7 @@ echo html_round_frame_start("Press Coverage","");
 	<p><a href="http://slashdot.org/article.pl?sid=01/11/03/1429247"
 	   ><b>Linux SCUMM Interpreter</b></a>, Slashdot, November 3, 2001
 	</p>
-<?
+<?php
 
 echo html_round_frame_end("&nbsp;");
 

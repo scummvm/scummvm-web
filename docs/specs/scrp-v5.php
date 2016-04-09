@@ -1,4 +1,4 @@
-<?
+<?php
 
 $file_root = "../..";
 // load libs
@@ -8,13 +8,13 @@ require($file_root."/include/"."incl.php");
 html_header("SCUMM Reference Guide :: V5 opcode list", '<link href="specs.css" rel="stylesheet" type="text/css">');
 sidebar_start(true);
 
-//display welcome table 
+//display welcome table
 echo html_round_frame_start("V5 opcode list","");
 ?>
 
         <p>
           <big><b>V5 opcode list</b></big><br>
-          <? echo html_line(); ?>
+          <?php echo html_line(); ?>
         </p>
 
 <p>The following conventions are used in the encoding descriptions.
@@ -930,11 +930,10 @@ bit is the parameter bit for <i>script</i>, as usual.
 All material &copy; 2000-2002 David Given, unless where stated otherwise.
 </p>
 
-<?
+<?php
 echo html_round_frame_end("&nbsp;");
 
 // end of html
 sidebar_end();
 html_footer();
 ?>
-

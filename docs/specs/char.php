@@ -1,4 +1,4 @@
-<?
+<?php
 
 $file_root = "../..";
 // load libs
@@ -14,7 +14,7 @@ echo html_round_frame_start("CHAR: Character Sets","");
 
         <p>
           <big><b>CHAR: Character Sets</b></big><br>
-          <? echo html_line(); ?>
+          <?php echo html_line(); ?>
         </p>
 
 
@@ -96,11 +96,10 @@ Words of data: 00001111 22223333
 All material &copy; 2000-2002 David Given, unless where stated otherwise.
 </P>
 
-<?
+<?php
 echo html_round_frame_end("&nbsp;");
 
 // end of html
 sidebar_end();
 html_footer();
 ?>
-

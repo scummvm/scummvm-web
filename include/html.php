@@ -5,7 +5,7 @@
  * by Jeremy Newman <jnewman@dracowulf.com>
  *
  */
- 
+
 $_trcolor = 0;
 
 // Set the current Indent Level
@@ -25,7 +25,7 @@ function html_ahref ($label, $url, $extra = "")
 {
 	$label = stripslashes($label);
 	if (!$label and $url)
-	{	
+	{
 		if (ereg("@",$url))
 		{
 			return do_indent(" <a href=\"mailto:$url\" $extra>$url</a> ");
@@ -117,13 +117,13 @@ function html_round_frame_start ($title = "", $extra = "")
 	global $file_root;
 
 	$str = "<div class='frame'>\n";
-	
+
 	if ($title) {
 		$str .= '<div class="frameTop"><div class="cornerLeft"><div class="cornerRight">';
 		$str .= '<span class="frameTitle">'.$title.'</span>';
 		$str .= '</div></div></div>'."\n";
 	}
-	
+
 	$str .= "<div class='frameBody' style='background-color: #ffffff'>\n";
 //	$str .= '<table width="100%" border="0" cellpadding='.$innerPad.' cellspacing=1 '.$extra.'><tr><td class="color2">'."\n";
 
@@ -219,12 +219,12 @@ function html_form_input_select ($name, $options, $selected = "")
 {
 	$str = '<select name="'.$name.'">'."\n";
 	while(list($key, $val) = each($options))
-	{	
+	{
 		if ($key == $selected)
 		{
 			$str .= '<option value="'.$key.'" selected>'.$val.'</option>'."\n";
 		} else {
-			$str .= '<option value="'.$key.'">'.$val.'</option>'."\n";		
+			$str .= '<option value="'.$key.'">'.$val.'</option>'."\n";
 		}
 	}
 	$str .= '</select>'."\n";
@@ -237,7 +237,7 @@ function html_form_input_checkbox ($name, $checked = null)
 		$str = '<input type="checkbox" name="'.$name.'" checked>'."\n";
 	else
 		$str = '<input type="checkbox" name="'.$name.'">'."\n";
-	return $str;	
+	return $str;
 }
 
 function html_form_submit ($value = "")
@@ -270,7 +270,7 @@ function html_urlify ($text)
 	{
 		$text = ereg_replace($urlreg, "<a href=\"\\1\"> \\2 </a>", $text);
 	}
-	
+
 	$emailreg = "([a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+\.[a-zA-Z0-9_-]+)";
 	if (ereg($emailreg,$text))
 	{
@@ -280,7 +280,7 @@ function html_urlify ($text)
 	return $text;
 }
 
-// simple httpd header redirect 
+// simple httpd header redirect
 function redirect ($url = ".")
 {
 	header("Location: ".$url);
@@ -308,7 +308,7 @@ function html_header ($title, $extra = "")
 	<img src="<?=$file_root?>/images/scummvm_logo.png"  width="407" height="111" alt="ScummVM" style="float: left">
 	<img src="<?=$file_root?>/images/scummvm_chars.png" width="193" height="111" alt="-" style="float: right">
 </div>
-<?
+<?php
 }
 
 function html_footer ()
@@ -326,7 +326,7 @@ ScummVM is not affiliated in any way with LucasArts, Inc.
 
 </body>
 </html>
-<?
+<?php
 
 }
 

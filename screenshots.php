@@ -22,7 +22,7 @@ echo html_round_frame_start("Screenshots","");
 ?>
 	<h1>Screenshots</h1>
 
-<?
+<?php
 
 $view = $HTTP_GET_VARS['view'];
 $offset = $HTTP_GET_VARS['offset'];

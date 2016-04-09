@@ -92,7 +92,7 @@ echo html_round_frame_start("Website Revamp contest poll","");
 </center>
 
 
-<?
+<?php
 
 echo html_round_frame_end("&nbsp;");
 

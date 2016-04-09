@@ -1,4 +1,4 @@
-<?
+<?php
 
 $file_root = "../..";
 // load libs
@@ -11,11 +11,11 @@ sidebar_start(true);
 //display welcome table
 echo html_round_frame_start("Glossary","");
 ?>
-  
+
         <p>
           <big><b>Glossary</b></big><br>
-          <? echo html_line(); ?>
-        </p>  
+          <?php echo html_line(); ?>
+        </p>
 
 <dl>
 <DT>
@@ -49,7 +49,7 @@ resource only refers to SCUMM data blocks.)
 <DT>named resource
 <DD>A resource that appears in the SCUMM file's index.  Named resources are
 identified by a tuple of (class, number). The numbers are small integers
-counting up from zero. 
+counting up from zero.
 Named resources are sometimes referred to as objects, but as
 these can be easily confused with SCUMM objects it is not recommended.
 
@@ -66,11 +66,10 @@ BEs (big endian).
 All material &copy; 2000-2002 David Given, unless where stated otherwise.
 </P>
 
-<?
+<?php
 echo html_round_frame_end("&nbsp;");
 
 // end of html
 sidebar_end();
 html_footer();
 ?>
-

@@ -66,7 +66,7 @@ echo html_round_frame_start("Contact","");
 	Two of them are for automated content only. The one where you can send emails to yourself is scummvm-devel.
 	</p>
 
-<?
+<?php
 
 echo html_round_frame_end("&nbsp;");
 

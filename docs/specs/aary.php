@@ -1,4 +1,4 @@
-<?
+<?php
 
 $file_root = "../..";
 // load libs
@@ -7,14 +7,14 @@ require($file_root."/include/"."incl.php");
 // start of html
 html_header("SCUMM Reference Guide :: AARY Arrays and Strings", '<link href="specs.css" rel="stylesheet" type="text/css">');
 sidebar_start(true);
-    
+
 //display welcome table
 echo html_round_frame_start("AARY: Arrays and Strings","");
 ?>
 
         <p>
           <big><b>AARY: Arrays and Strings</b></big><br>
-          <? echo html_line(); ?>
+          <?php echo html_line(); ?>
         </p>
 
 <H2>Introduction</H2>
@@ -83,11 +83,10 @@ special case, where one dimension has size 1.</p>
 All material &copy; 2000-2002 David Given, unless where stated otherwise.
 </P>
 
-<?
+<?php
 echo html_round_frame_end("&nbsp;");
 
 // end of html
 sidebar_end();
 html_footer();
 ?>
-

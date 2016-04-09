@@ -1,4 +1,4 @@
-<?
+<?php
 
 $file_root = "../..";
 // load libs
@@ -14,7 +14,7 @@ echo html_round_frame_start("SCRP: Scripts","");
 
         <p>
           <big><b>SCRP: Scripts</b></big><br>
-          <? echo html_line(); ?>
+          <?php echo html_line(); ?>
         </p>
 
 <H2>Introduction</H2>
@@ -90,7 +90,7 @@ depending on what is being pointed at.
 
 <table class=bitfield>
 <tr><th>15</th><th>14</th><th>13</th>	<th>12</th><th>&hellip;</th><th>0</th></tr>
-<tr><td>0</td><td>0</td><td>1</td> 
+<tr><td>0</td><td>0</td><td>1</td>
 			<td colspan=3><i>address</i></td></tr>
 <tr><td>0</td><td>0</td><td><i>I</i></td>
 			<td colspan=3><i>offset</i></td></tr>
@@ -175,7 +175,7 @@ the <tt>freezeScripts</tt> and <tt>freezeUnfreeze</tt> opcodes).
 instructions take a fixed number of parameters and return an optional value.
 The format is:
 
-<p><I>opcode</I> [<I>result</I>] [<I>parameter1</I>] [<I>parameter2</I>]... 
+<p><I>opcode</I> [<I>result</I>] [<I>parameter1</I>] [<I>parameter2</I>]...
 
 <p>The result is a word pointer as usual. The parameters are word LE
 or byte values depending on the opcode. The meaning of the parameters
@@ -230,11 +230,10 @@ and how it is to be initialised.
 All material &copy; 2000-2002 David Given, unless where stated otherwise.
 </P>
 
-<?
+<?php
 echo html_round_frame_end("&nbsp;");
 
 // end of html
 sidebar_end();
 html_footer();
 ?>
-

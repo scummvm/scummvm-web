@@ -21,9 +21,9 @@ echo html_round_frame_start("FAQ :: Frequently Asked Questions","");
 ?>
 <h1>
 	FAQ<br>
-	<span class="caption">last updated: <? echo date("F d, Y",getlastmod()); ?></span>
+	<span class="caption">last updated: <?php echo date("F d, Y",getlastmod()); ?></span>
 </h1>
-<?
+<?php
 include $file_root."/faq.inc";
 
 echo html_round_frame_end("&nbsp;");

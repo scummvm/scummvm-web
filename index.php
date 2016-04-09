@@ -103,7 +103,7 @@ echo html_round_frame_start("About ScummVM","");
 	  </td>
 	</tr>
 	</table>
-<?
+<?php
 echo html_round_frame_end("&nbsp;"),html_br();
 }
 // end of welcome table

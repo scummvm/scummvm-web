@@ -32,7 +32,7 @@ function addLinkEntry($name, $url, $desc) {
 
 ?>
 	<h1>Links</h1>
-	
+
 	<p>
 	  <img src="images/scummvm-link.png" width="88" height="31" alt="ScummVM" style="vertical-align: middle; text-align: left; margin: 5px;">
 	  <b>Link to us: </b>
@@ -50,7 +50,7 @@ function addLinkEntry($name, $url, $desc) {
 			addLinkEntry('GP32 port', 'http://www.distant-earth.co.uk/', 'Information about the GP32 port.');
 		?>
 	</div>
-	
+
 	<!-- -->
 
 	<h2>Unofficial ports</h2>
@@ -60,7 +60,7 @@ function addLinkEntry($name, $url, $desc) {
 
 	<div class="linklist">
 		<?php
-			addLinkEntry('Amiga Port', 'http://people.freenet.de/uweryssel/scumm_en.html', 
+			addLinkEntry('Amiga Port', 'http://people.freenet.de/uweryssel/scumm_en.html',
 				     'Homepage of the 68k/WarpOS port of ScummVM for the Amiga. Requires 020+ and AGA chipset or RTG Zorro card');
 			addLinkEntry('Amiga Archives', 'http://www.mountmonkey.com/eng_index.html',
 				'An archive of older Amiga ports of ScummVM');
@@ -152,11 +152,11 @@ function addLinkEntry($name, $url, $desc) {
 				graphics cards, so you can even play on a television set.');
 		?>
 	</div>
-	
+
 	<!-- -->
 
 	<h2>Other classic game engine open source projects</h2>
-	<p>The following are links to other classic game engine open source projects similar to ScummVM. 
+	<p>The following are links to other classic game engine open source projects similar to ScummVM.
       Know any other classic game projects that should be linked here?
       <a href="http://sourceforge.net/sendmessage.php?touser=339357">Let me know!</a>
     </p>
@@ -186,7 +186,7 @@ function addLinkEntry($name, $url, $desc) {
 				"Pentagram is a project aiming to create an Ultima 8 engine for use on modern operating systems.");
 		?>
 	</div>
-    
+
 	<!-- -->
 
 	<h2>Technical information about SCUMM</h2>
@@ -221,8 +221,8 @@ GUI frontends for ScummVM.
 			addLinkEntry("ScummAqua", "http://www.d.kth.se/~d00-ogo/ogosoft/scummaqua/", "For Mac OS X.");
 		?>
 	</div>
-		
-<?
+
+<?php
 
 echo html_round_frame_end("&nbsp;");
 

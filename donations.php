@@ -21,7 +21,7 @@ echo html_round_frame_start("ScummVM Donations","");
 
 ?>
 <h1>Donations</h1>
-<small>Donation status last updated: <? echo date("F d, Y",getlastmod());?></small><br>
+<small>Donation status last updated: <?php echo date("F d, Y",getlastmod());?></small><br>
 <p>ScummVM gladly accepts donations to help us with various expenses.
 In the interest of public disclosure, this page keeps a running tally of donations and
 expenses incurred by the project. For privacy and logistic reasons, individual contributors
@@ -49,7 +49,7 @@ org). All amounts are expressed in USD.
  </table>
  <BR>
  <U>Current Balance:</U> <B>$65.70</B>
- <?
+ <?php
 echo html_round_frame_end("&nbsp;");
 //end of donations display
 

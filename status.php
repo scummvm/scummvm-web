@@ -42,7 +42,7 @@ beginning with the most specific and important issues... I'd like to hear
 feedback on any of this, as well as any volunteers who want to help work
 on the 'rough spots'</p>
 
-<br><? echo html_headline("PORTS"); ?>
+<br><?php echo html_headline("PORTS"); ?>
 <p>Currently we have official in-cvs ports for:</p>
 <table cellspacing="3" cellpadding="3">
 	<tr><td align="right">SDL: </td><td>We might as well say 'Me'</td></tr>
@@ -67,7 +67,7 @@ a week or so, I'll assume you have abandoned that port.</p>
 <p>Of course, new ports are welcome, if you have ported ScummVM to some new
 exotic bit of hardware :)</p>
 
-<br><? echo html_headline("LEGAL"); ?>
+<br><?php echo html_headline("LEGAL"); ?>
 
 <p> We are still in negotiations with LucasArts over this, although both of
 us are hoping to reach some kind of closure very very soon. Obviously,
@@ -125,7 +125,7 @@ latest CVS versions and replay older games, to ensure there are no
 regression bugs.</p>
 
 
-<br><? echo html_headline("PROGRESS"); ?>
+<br><?php echo html_headline("PROGRESS"); ?>
 
 <p>Now on to the good news for progress in the last few weeks/months:</p>
 
@@ -153,7 +153,7 @@ people won't have to commit all our obscure command-line parameters to
 memory. The Launcher in particular is going to be a key point of our next
 release, along with hopefully support for at least The Dig.</p>
 
-<br><? echo html_headline("TO DO"); ?>
+<br><?php echo html_headline("TO DO"); ?>
 
 <p>So, what needs work?</p>
 
@@ -216,7 +216,7 @@ particular) access to the SMUSH display.</p>
    ScummVM
 </pre>
 
-<?
+<?php
 
 echo html_round_frame_end("&nbsp;");
 

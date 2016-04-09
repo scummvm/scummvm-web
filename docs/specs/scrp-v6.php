@@ -1,4 +1,4 @@
-<?
+<?php
 
 $file_root = "../..";
 // load libs
@@ -11,11 +11,11 @@ sidebar_start(true);
 //display welcome table
 echo html_round_frame_start("V6 opcode list","");
 ?>
-  
+
         <p>
           <big><b>V6 opcode list</b></big><br>
-          <? echo html_line(); ?>
-        </p>  
+          <?php echo html_line(); ?>
+        </p>
 
 <p>The following conventions are used in the encoding descriptions:
 
@@ -101,11 +101,11 @@ This instruction varies considerably according to the form.<br>
 
 <h4>Encoding</h4><dl compact=compact>
 <dt>
-load&nbsp;array:<dd>A4 CD  <i>arrayp</i><sup><font size=2>16</font></sup> 
+load&nbsp;array:<dd>A4 CD  <i>arrayp</i><sup><font size=2>16</font></sup>
 
-<dt>define&nbsp;array:<dd>A4 D0  <i>arrayp</i><sup><font size=2>16</font></sup>   <i>data</i>... 
+<dt>define&nbsp;array:<dd>A4 D0  <i>arrayp</i><sup><font size=2>16</font></sup>   <i>data</i>...
 
-<dt>set&nbsp;array:<dd>A4 D4  <i>arrayp</i><sup><font size=2>16</font></sup> 
+<dt>set&nbsp;array:<dd>A4 D4  <i>arrayp</i><sup><font size=2>16</font></sup>
 </dl>
 <h4>Stack</h4><dl compact=compact>
 <dt>
@@ -201,7 +201,7 @@ for a more general form.<br>
 Writes  <i>value</i>  to the array whose resource number is pointed
 to by  <i>arrayp</i>  at offset ( <i>index</i><sub><font size=2><i>x</i></font></sub> ,  <i>index</i><sub><font size=2><i>y</i></font></sub> ).
 The array can be a byte or word array; byte when writing to a byte
-array,  <i>value</i>  is truncated. Note that because  <i>arrayp</i> 
+array,  <i>value</i>  is truncated. Note that because  <i>arrayp</i>
 is encoded as a byte, it can only point to a word variable in the
 range 0000 to 00FF. Use <font color=purple>wordArrayIndexedWrite</font> for a more
 general form.<br>
@@ -321,7 +321,7 @@ for a more general form.<br>
 <h4>Stack</h4>( <i>delay</i>  : -)<br>
 <br>
 
-<h4>Operation</h4>Prevents the current thread from being rescheduled until  <i>delay</i> 
+<h4>Operation</h4>Prevents the current thread from being rescheduled until  <i>delay</i>
 ticks have passed. Deschedules immediately.<br>
 <br>
 
@@ -343,7 +343,7 @@ ticks have passed. Deschedules immediately.<br>
 <h4>Stack</h4>( <i>delay</i>  : -)<br>
 <br>
 
-<h4>Operation</h4>Prevents the current thread from being rescheduled until  <i>delay</i>× 60 
+<h4>Operation</h4>Prevents the current thread from being rescheduled until  <i>delay</i>ï¿½ 60
 ticks have passed ( <i>delay</i>  seconds). Deschedules immediately.<br>
 <br>
 
@@ -365,7 +365,7 @@ ticks have passed ( <i>delay</i>  seconds). Deschedules immediately.<br>
 <h4>Stack</h4>( <i>delay</i>  : -)<br>
 <br>
 
-<h4>Operation</h4>Prevents the current thread from being rescheduled until  <i>delay</i>× 3600 
+<h4>Operation</h4>Prevents the current thread from being rescheduled until  <i>delay</i>ï¿½ 3600
 ticks have passed ( <i>delay</i>  minutes). Deschedules immediately.<br>
 <br>
 
@@ -422,7 +422,7 @@ What are they?]<br>
 <br>
 A new two-dimensional array is allocated and the resource number is
 written to  <i>arrayp</i> . The new array will have a maximum X index
-of  <i>maxx</i>  and a maximum Y index of  <i>maxy</i>  (i.e.,  <i>maxy</i> 
+of  <i>maxx</i>  and a maximum Y index of  <i>maxy</i>  (i.e.,  <i>maxy</i>
 is one less than the size).<br>
 <br>
 When allocating an array, if  <i>type</i>  is C7 then the array will
@@ -504,7 +504,7 @@ cause the interpreter to crash.<br>
 <h4>Encoding</h4>A6<br>
 <br>
 
-<h4>Stack</h4>( <i>left</i> ,  <i>top</i> ,  <i>right</i> ,  <i>bottom</i> ,  <i>colour</i> 
+<h4>Stack</h4>( <i>left</i> ,  <i>top</i> ,  <i>right</i> ,  <i>bottom</i> ,  <i>colour</i>
 : -)<br>
 <br>
 
@@ -621,7 +621,7 @@ Tests the top two values on the stack to see if they are equal.<br>
 
 <dt> 0&lt;<i>bool</i>&lt;$80 :<dd>Freeze all threads that are not marked as unfreezable.
 
-<dt> <i>bool</i><font face=symbol>³</font> $80 :<dd>Freeze all threads, even those that are marked
+<dt> <i>bool</i><font face=symbol>ï¿½</font> $80 :<dd>Freeze all threads, even those that are marked
 as unfreezable.
 </dl>
 Freezing is a nestable operation; a thread which is frozen twice must
@@ -646,7 +646,7 @@ be thawed twice before it becomes runnable again.<br>
 <h4>Stack</h4> ( <i>value</i><sub><font size=2>1</font></sub>&nbsp; <i>value</i><sub><font size=2>2</font></sub>&nbsp; :&nbsp; <i>bool</i>) <br>
 <br>
 
-<h4> Operation</h4>If  <i>value</i><sub><font size=2>1</font></sub><font face=symbol>³</font> <i>value</i><sub><font size=2>2</font></sub> , set  <i>bool</i>  to 1, otherwise
+<h4> Operation</h4>If  <i>value</i><sub><font size=2>1</font></sub><font face=symbol>ï¿½</font> <i>value</i><sub><font size=2>2</font></sub> , set  <i>bool</i>  to 1, otherwise
 set it to 0<br>
 <br>
 Compares the top two values on the stack. Note the order.<br>
@@ -900,7 +900,7 @@ Compares the top two values on the stack. Note the order.<br>
 <h4>Stack</h4>( <i>arg</i><sub><font size=2>1</font></sub> ,&nbsp; <i>arg</i><sub><font size=2>2</font></sub> ,&nbsp; <i>arg</i><sub><font size=2>3</font></sub> ,&nbsp;...,&nbsp; <i>arg</i><sub><font size=2><i>n</i></font></sub> ,&nbsp; <i>n</i> ,&nbsp; <i>value</i> &nbsp;:&nbsp; <i>bool</i> )<br>
 <br>
 
-<h4> Operation</h4>If  <i>value</i>  is any of  <i>arg</i><sub><font size=2>1</font></sub> .. <i>arg</i><sub><font size=2><i>n</i></font></sub> ,  <i>bool</i> 
+<h4> Operation</h4>If  <i>value</i>  is any of  <i>arg</i><sub><font size=2>1</font></sub> .. <i>arg</i><sub><font size=2><i>n</i></font></sub> ,  <i>bool</i>
 := 1, otherwise  <i>bool</i>  := 0<br>
 <br>
 Tests to see if  <i>value</i>  is equal to any of the passed in arguments.
@@ -982,9 +982,9 @@ to the current program counter after the instruction has been decoded.<br>
 <h4>Stack</h4>( <i>bool</i> &nbsp;:&nbsp;-)<br>
 <br>
 
-<h4> Operation</h4>if  <i>bool</i>  <font face=symbol>¹</font> 0, pc := pc +  <i>offset</i> <br>
+<h4> Operation</h4>if  <i>bool</i>  <font face=symbol>ï¿½</font> 0, pc := pc +  <i>offset</i> <br>
 <br>
-Pops the top value off the stack. If non-zero, then  <i>offset</i> 
+Pops the top value off the stack. If non-zero, then  <i>offset</i>
 is added to the current program counter after the instruction has
 been decoded.<br>
 <br>
@@ -1055,7 +1055,7 @@ for <font color=purple>true</font>.<br>
 <h4>Stack</h4> ( <i>value</i><sub><font size=2>1</font></sub>&nbsp; <i>value</i><sub><font size=2>2</font></sub>&nbsp; :&nbsp; <i>bool</i>) <br>
 <br>
 
-<h4> Operation</h4>If  <i>value</i><sub><font size=2>1</font></sub><font face=symbol>£</font> <i>value</i><sub><font size=2>2</font></sub> , set  <i>bool</i>  to 1, otherwise
+<h4> Operation</h4>If  <i>value</i><sub><font size=2>1</font></sub><font face=symbol>ï¿½</font> <i>value</i><sub><font size=2>2</font></sub> , set  <i>bool</i>  to 1, otherwise
 set it to 0<br>
 <br>
 Compares the top two values on the stack. Note the order.<br>
@@ -1154,7 +1154,7 @@ Compares the top two values on the stack. Note the order.<br>
 <h4>Stack</h4> ( <i>in</i><sub><font size=2>1</font></sub>&nbsp; <i>in</i><sub><font size=2>2</font></sub>&nbsp; :&nbsp; <i>out</i>) <br>
 <br>
 
-<h4> Operation</h4> <i>out</i>:=<i>in</i><sub><font size=2>1</font></sub>× <i>in</i><sub><font size=2>2</font></sub> <br>
+<h4> Operation</h4> <i>out</i>:=<i>in</i><sub><font size=2>1</font></sub>ï¿½ <i>in</i><sub><font size=2>2</font></sub> <br>
 <br>
 Performs a multiplication operation on the stack. Note the order.<br>
 <br>
@@ -1177,7 +1177,7 @@ Performs a multiplication operation on the stack. Note the order.<br>
 <h4>Stack</h4>( <i>value</i><sub><font size=2>1</font></sub> ,  <i>value</i><sub><font size=2>2</font></sub>  :  <i>bool</i> )<br>
 <br>
 
-<h4> Operation</h4>If  <i>value</i><sub><font size=2>1</font></sub>   <font face=symbol>¹</font>   <i>value</i><sub><font size=2>2</font></sub> , set  <i>bool</i> 
+<h4> Operation</h4>If  <i>value</i><sub><font size=2>1</font></sub>   <font face=symbol>ï¿½</font>   <i>value</i><sub><font size=2>2</font></sub> , set  <i>bool</i>
 to 1, otherwise set it to 0<br>
 <br>
 Tests the top two values on the stack to see if they are not equal.<br>
@@ -1238,7 +1238,7 @@ shutting down.<br>
 <h4> Operation</h4>If  <i>index</i>  is in the range 0.. <i>n</i> ,  <i>value</i> &nbsp;:=&nbsp; <i>arg</i><sub><font size=2>[<i>index</i>]</font></sub> ;
 otherwise  <i>value</i> &nbsp;:=&nbsp; <i>default</i> .<br>
 <br>
-Returns the  <i>index</i> th argument on the stack. If  <i>index</i> 
+Returns the  <i>index</i> th argument on the stack. If  <i>index</i>
 is out of range,  <i>default</i>  is returned instead. If  <i>n</i>  is
 less than the number of entries on the stack, undefined behaviour
 will result, usually involving the interpreter shutting down.<br>
@@ -2008,11 +2008,10 @@ Tests the value on the stack to see if it compares to zero.
 All material &copy; 2000-2002 David Given, unless where stated otherwise.
 </p>
 
-<?
+<?php
 echo html_round_frame_end("&nbsp;");
 
 // end of html
 sidebar_end();
 html_footer();
 ?>
-

@@ -193,16 +193,16 @@ hosted by <a href="http://www.mthN.de">Snoke Media and Tech Hosting Network</a>!
 
 	<ul>
 <!--
-	  <li><a href="/downloads/scummvm-daily.tar.bz2">Source Code Daily Snapshot Bzipped</a> <small> (<? echo intval(filesize("downloads/scummvm-daily.tar.bz2")/1024) ?>K file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummvm-daily.tar.bz2")); ?>)</small></li>
-	  <li><a href="/downloads/scummvm-daily.tar.gz">Source Code Daily Snapshot Gzipped</a> <small> (<? echo intval(filesize("downloads/scummvm-daily.tar.gz")/1024) ?>K file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummvm-daily.tar.gz")); ?>)</small></li>
-	  <li><a href="/downloads/scummvm-daily.zip">Source Code Daily Snapshot Zipped</a> <small> (<? echo intval(filesize("downloads/scummvm-daily.zip")/1024) ?>K file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummvm-daily.zip")); ?>)</small></li>
+	  <li><a href="/downloads/scummvm-daily.tar.bz2">Source Code Daily Snapshot Bzipped</a> <small> (<?php echo intval(filesize("downloads/scummvm-daily.tar.bz2")/1024) ?>K file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/scummvm-daily.tar.bz2")); ?>)</small></li>
+	  <li><a href="/downloads/scummvm-daily.tar.gz">Source Code Daily Snapshot Gzipped</a> <small> (<?php echo intval(filesize("downloads/scummvm-daily.tar.gz")/1024) ?>K file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/scummvm-daily.tar.gz")); ?>)</small></li>
+	  <li><a href="/downloads/scummvm-daily.zip">Source Code Daily Snapshot Zipped</a> <small> (<?php echo intval(filesize("downloads/scummvm-daily.zip")/1024) ?>K file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/scummvm-daily.zip")); ?>)</small></li>
 -->
-	  <li><a href="/downloads/scummvmwin32.exe">Win32 Daily Snapshot</a> <small> (<? echo intval(filesize("downloads/scummvmwin32.exe")/1024) ?>K exe file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/scummvmwin32.exe")); ?>)</small></li>
+	  <li><a href="/downloads/scummvmwin32.exe">Win32 Daily Snapshot</a> <small> (<?php echo intval(filesize("downloads/scummvmwin32.exe")/1024) ?>K exe file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/scummvmwin32.exe")); ?>)</small></li>
 <!--
-	  <li><a href="/downloads/ScummVM-snapshot.dmg">Mac OS X Snapshot</a> <small> (<? echo intval(filesize("downloads/ScummVM-snapshot.dmg")/1024) ?>K dmg file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/ScummVM-snapshot.dmg")); ?>)</small></li>
+	  <li><a href="/downloads/ScummVM-snapshot.dmg">Mac OS X Snapshot</a> <small> (<?php echo intval(filesize("downloads/ScummVM-snapshot.dmg")/1024) ?>K dmg file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/ScummVM-snapshot.dmg")); ?>)</small></li>
 -->
 	  <li><a href="http://arisme.free.fr/PocketScumm/daily/">PocketPC Builds</a> <small> (infrequent snapshots of the PocketPC binaries)</small></li>
-	  <li><a href="/downloads/PocketPC2003.zip">Alternative PocketPC 2003 build</a> <small> (infrequently from CVS HEAD, <? echo intval(filesize("downloads/PocketPC2003.zip")/1024) ?>K zip file, last update: <? echo date("F j, Y, g:i a",filemtime("downloads/PocketPC2003.zip")); ?>)</small></li>
+	  <li><a href="/downloads/PocketPC2003.zip">Alternative PocketPC 2003 build</a> <small> (infrequently from CVS HEAD, <?php echo intval(filesize("downloads/PocketPC2003.zip")/1024) ?>K zip file, last update: <?php echo date("F j, Y, g:i a",filemtime("downloads/PocketPC2003.zip")); ?>)</small></li>
 <!--  <li><a href="http://paras.rasmatazz.bei.t-online.de/">Dreamcast Daily Builds</a></li> -->
 	  <li><a href="http://sourceforge.net/cvs/?group_id=37116">CVS Instructions</a> <small> (for if you wish to retrieve the latest code to compile yourself)</small></li>
 	</ul>
@@ -220,7 +220,7 @@ hosted by <a href="http://www.mthN.de">Snoke Media and Tech Hosting Network</a>!
 	  <li><a href="http://flac.sourceforge.net/">FLAC</a></li>
 	  <li><a href="http://libmpeg2.sourceforge.net/">libmpeg2</a>: a free MPEG-2 video stream decoder</li>
 	</ul>
-<?
+<?php
 
 echo html_round_frame_end("&nbsp;");
 

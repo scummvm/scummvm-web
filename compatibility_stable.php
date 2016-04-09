@@ -24,7 +24,7 @@ if (isset($_GET['details'])) {
 
 ?>
 	<h1>Compatibility</h1>
-<?
+<?php
 if ($details)
 {
 
@@ -41,10 +41,10 @@ else
 	  snapshots/daily builds</B>. The status of these can be found on the <a
 	  href="compatibility.php">CVS Compatibility</A> chart.
 	  <br><br>
-	  <small>Last Updated: <? echo date("F d, Y",getlastmod()); ?></small>
+	  <small>Last Updated: <?php echo date("F d, Y",getlastmod()); ?></small>
 	</p>
 
-<?
+<?php
 	// Display the Color Key Table
 	echo html_frame_start("Color Key","50%",1,1,"color4");
 	$pcts = array(0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100);
