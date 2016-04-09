@@ -53,7 +53,7 @@ if ($view != -1)
 			),
 	     html_frame_tr(
 				html_frame_td(
-			   		html_ahref("&nbsp; &lt;&lt; Back",$PHP_SELF."?offset=".$offset,"style='color: white;'"),
+			   		html_ahref("&nbsp; &lt;&lt; Back",$_SERVER["PHP_SELF"]."?offset=".$offset,"style='color: white;'"),
 					'align=left class="color4"'
 				)
 			),
