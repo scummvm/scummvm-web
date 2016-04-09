@@ -24,11 +24,13 @@ echo html_round_frame_start("Screenshots","");
 
 <?php
 
-$view = empty($_GET['view']) ? "" : $_GET['view'];
-$offset = empty($_GET['offset']) ? 0 : $_GET['offset'];
+$view = isset($_GET['view']) ? $_GET['view'] : -1;
+$offset = isset($_GET['offset']) ? $_GET['offset'] : -1;
+
+print "view: $view\noffset: $offset\n";
 
 // if in single view
-if ($view != "")
+if ($view != -1)
 {
 	if (!is_numeric($view))
 	{
