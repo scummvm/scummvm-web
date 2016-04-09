@@ -107,7 +107,7 @@ $where = 0;
 
 	echo "</tr>";
 
-	$nextLink = "&nbsp;";
+	$prevLink = "&nbsp;";
 	$nextLink = "&nbsp;";
 
 	// display prev link
