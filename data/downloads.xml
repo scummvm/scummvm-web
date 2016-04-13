@@ -809,7 +809,7 @@
 -->
 				<file>
 					<category_icon>catpl-cpp.png</category_icon>
-					<url>http://github.com/scummvm/scummvm</url>
+					<url>https://github.com/scummvm/scummvm</url>
 					<name>Git Repository</name>
 					<extra_info>(for if you wish to retrieve the latest code to compile yourself)</extra_info>
 				</file>

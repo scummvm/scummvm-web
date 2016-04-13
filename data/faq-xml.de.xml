@@ -76,7 +76,7 @@
       <answer>
 		<simpara>
 		Das Quellcode-Paket beinhaltet eine Datei mit dem Namen
-		<ulink url="http://github.com/scummvm/scummvm/blob/master/doc/de/Liesmich">Liesmich</ulink>,
+		<ulink url="https://github.com/scummvm/scummvm/blob/master/doc/de/Liesmich">Liesmich</ulink>,
 		in welcher die Grundlagen erklärt werden. Ausführliche Informationen finden Sie
 		<ulink url="http://wiki.scummvm.org/index.php/Compiling_ScummVM">in unserem Wiki</ulink>.
 		</simpara>
@@ -279,7 +279,7 @@
 		und Ladefunktion zuzugreifen. Manche Engines haben andere oder zusätzliche Wege,
 		Spiele zu speichern oder zu laden. (In SCUMM-Spielen können Sie beispielsweise
 		Alt+1/9 zum Speichern und Strg+1/9 zum Laden verwenden, oder mit F5 das Speicher-/Lade-Menü aufrufen.)
-		In der <ulink url="http://github.com/scummvm/scummvm/blob/master/doc/de/Liesmich">Liesmich-Datei</ulink>
+		In der <ulink url="https://github.com/scummvm/scummvm/blob/master/doc/de/Liesmich">Liesmich-Datei</ulink>
 		finden Sie weitere Informationen.
 		</simpara>
 	</answer>
@@ -308,7 +308,7 @@
 		and the Last Crusade (FM-TOWNS), Loom (CD &amp; FM-TOWNS), Monkey Island 1 (CD, FM-TOWNS &amp; SegaCD) und Zak McKracken (FM-TOWNS).
 		Belassen Sie einfach Ihre Spiel-CD im CD-ROM-Laufwerk, wenn Sie ScummVM starten.
 		Wenn Sie mehr als ein CD-Laufwerk besitzen, können Sie das Laufwerk über den
-		Kommandozeilenparameter -c bestimmen. In der <ulink url="http://github.com/scummvm/scummvm/blob/master/doc/de/Liesmich">Liesmich-Datei</ulink>
+		Kommandozeilenparameter -c bestimmen. In der <ulink url="https://github.com/scummvm/scummvm/blob/master/doc/de/Liesmich">Liesmich-Datei</ulink>
 		finden Sie weitere Informationen.
 		</simpara>
 	</answer>
@@ -321,7 +321,7 @@
 		Ja. Sie können LAME oder ein anderes Programm verwenden, um die Audiospuren Ihrer CD
 		in MP3-Dateien umzuwandeln. Seit Version 0.3.0 unterstützen wir auch Dateien im Ogg
 		Vorbis-Format; FLAC-Dateien werden seit Version 0.7.0 unterstützt.
-		In der <ulink url="http://github.com/scummvm/scummvm/blob/master/doc/de/Liesmich">Liesmich-Datei</ulink>
+		In der <ulink url="https://github.com/scummvm/scummvm/blob/master/doc/de/Liesmich">Liesmich-Datei</ulink>
 		finden Sie weitere Informationen.
 		</simpara>
 	</answer>
@@ -362,7 +362,7 @@
 		Ja, ScummVM unterstützt mehrere Grafikmodi mit Filter, wie beispielsweise AdvMAME2x,
 		auch bekannt als <ulink url="http://scale2x.sourceforge.net/">Scale2x</ulink>.
 		In unserer
-		<ulink url="http://github.com/scummvm/scummvm/blob/master/doc/de/Liesmich">Liesmich-Datei</ulink>
+		<ulink url="https://github.com/scummvm/scummvm/blob/master/doc/de/Liesmich">Liesmich-Datei</ulink>
 		finden Sie weitere Informationen und in <ulink url="http://wiki.scummvm.org/index.php/User_Manual/Appendix:_Graphic_filters">unserem Wiki</ulink>
 		einen Vergleich der verfügbaren Filter.
 		</simpara>
@@ -390,7 +390,7 @@
 		Stellen Sie zunächst sicher, dass Ihr Spiel unterstützt wird.
 		Eine entsprechende Liste finden Sie unter "<xref linkend="question.supported-games" endterm="question.supported-games.text"/>".
 		Wenn es sich um ein unterstütztes Spiel handelt und Sie die Anweisungen in der
-		<ulink url="http://github.com/scummvm/scummvm/blob/master/doc/de/Liesmich">Liesmich-Datei</ulink> genau befolgt haben, finden Sie unter "<xref linkend="question.report-bugs" endterm="question.report-bugs.text"/>"
+		<ulink url="https://github.com/scummvm/scummvm/blob/master/doc/de/Liesmich">Liesmich-Datei</ulink> genau befolgt haben, finden Sie unter "<xref linkend="question.report-bugs" endterm="question.report-bugs.text"/>"
 		Informationen darüber, wie Sie einen Fehler melden können.
 		</simpara>
 	</answer>
@@ -512,7 +512,7 @@
 		</simpara>
 		<simpara>
 		Lesen Sie die
-		<ulink url="http://github.com/scummvm/scummvm/blob/master/doc/de/Liesmich">Liesmich-Datei</ulink>
+		<ulink url="https://github.com/scummvm/scummvm/blob/master/doc/de/Liesmich">Liesmich-Datei</ulink>
 		oder die Hilfe auf der Kommandozeile für weitere Informationen.
 		</simpara>
 	</answer>
