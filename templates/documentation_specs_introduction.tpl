@@ -105,7 +105,7 @@
 					with their Z-machine; you can now get Z-machine interpreters for everything
 					from a Cray Supercomputer to a Game Boy, all of which will play Infocom's
 					games, encoded in the data files. See <a href="http://brasslantern.org">Brass
-					Lentern</a> for more information.
+					Lantern</a> for more information.
 				</p>
 				<p>
 					Aric Wilmunder and Ron Gilbert's original SCUMM has been expanded
