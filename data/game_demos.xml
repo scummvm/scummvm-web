@@ -1636,6 +1636,12 @@
 				<category>blank</category>
 			</demo>
 			<demo>
+				<name>Ringworld: Revenge of the Patriarch (DOS demo - Non interactive)</name>
+				<url>/frs/demos/tsage/ringworld-dos-ni-demo-en.zip</url>
+				<target>tsage</target>
+				<category>blank</category>
+			</demo>
+			<demo>
 				<name>Return to Ringworld (DOS demo)</name>
 				<url>/frs/demos/tsage/returntoringworld-dos-demo-en.zip</url>
 				<target>tsage</target>
