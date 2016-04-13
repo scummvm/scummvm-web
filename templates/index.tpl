@@ -72,11 +72,11 @@
 					<img src="/images/github-logo.png" alt="{#indexGithub#}" width="88" height="32">
  				</a>
 				<br>
-				<a href="http://www.facebook.com/pages/ScummVM/7328341409">
+				<a href="https://www.facebook.com/pages/ScummVM/7328341409">
 					<img src="/images/facebook.png" width="88" height="32" alt="{#indexFacebook#}">
 				</a>
 				<br>
-				<a href="http://www.twitter.com/ScummVM">
+				<a href="https://twitter.com/ScummVM">
 					<img src="/images/twitter.png" width="88" height="32" alt="{#indexTwitter#}">
 				</a>
 			</div>
