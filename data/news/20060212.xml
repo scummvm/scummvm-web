@@ -3,7 +3,7 @@
 <AUTHOR>sev, fingolfin</AUTHOR>
 <BODY>
 <p>
-Thanks to <a href="http://sourceforge.net">SourceForge.net</a>, we got
+Thanks to <a href="https://sourceforge.net">SourceForge.net</a>, we got
 the opportunity to move to a more powerful and advanced versioning system than CVS:
 We are now using <a href="http://subversion.tigris.org/">Subversion</a>,
 also known as SVN. In case you wonder, a versioning system is a tool for 

@@ -57,19 +57,19 @@
 		<class>menu-sf</class>
 		<link>
 			<name>Homepage su SF.net</name>
-			<href>http://sourceforge.net/projects/scummvm/</href>
+			<href>https://sourceforge.net/projects/scummvm/</href>
 		</link>
 		<link>
 			<name>Bug Tracker</name>
-			<href>http://sourceforge.net/p/scummvm/bugs/</href>
+			<href>https://sourceforge.net/p/scummvm/bugs/</href>
 		</link>
 		<link>
 			<name>Feature Request</name>
-			<href>http://sourceforge.net/p/scummvm/feature-requests/</href>
+			<href>https://sourceforge.net/p/scummvm/feature-requests/</href>
 		</link>
 		<link>
 			<name>Patch Tracker</name>
-			<href>http://sourceforge.net/p/scummvm/patches/</href>
+			<href>https://sourceforge.net/p/scummvm/patches/</href>
 		</link>
 		<link>
 			<name>Daily Snapshots</name>

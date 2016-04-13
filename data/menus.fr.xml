@@ -57,7 +57,7 @@
 		<class>menu-sf</class>
 		<link>
 			<name>Accueil Projet SF.net</name>
-			<href>http://sourceforge.net/projects/scummvm/</href>
+			<href>https://sourceforge.net/projects/scummvm/</href>
 		</link>
 		<link>
 			<name>Base de Bogue</name>
@@ -65,7 +65,7 @@
 		</link>
 		<link>
 			<name>Demandes de fonctionnalités</name>
-			<href>http://sourceforge.net/p/scummvm/feature-requests/</href>
+			<href>https://sourceforge.net/p/scummvm/feature-requests/</href>
 		</link>
 		<link>
 			<name>Base de Patches</name>

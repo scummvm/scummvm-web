@@ -57,7 +57,7 @@
 		<class>menu-sf</class>
 		<link>
 			<name>Projektseite auf SF.net</name>
-			<href>http://sourceforge.net/projects/scummvm/</href>
+			<href>https://sourceforge.net/projects/scummvm/</href>
 		</link>
 		<link>
 			<name>Bug Tracker</name>
@@ -65,7 +65,7 @@
 		</link>
 		<link>
 			<name>Feature Requests</name>
-			<href>http://sourceforge.net/p/scummvm/feature-requests/</href>
+			<href>https://sourceforge.net/p/scummvm/feature-requests/</href>
 		</link>
 		<link>
 			<name>Patch Tracker</name>
