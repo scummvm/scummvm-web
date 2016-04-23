@@ -9,7 +9,6 @@
 		{* General CSS rules. *}
 		@import url("{$baseurl}css/layout.css");
 		@import url("{$baseurl}css/menu.css");
-		@import url("{$baseurl}css/lang-menu.css");
 		{* Page specific, or other extra CSS rules. *}
 		{foreach from=$css_files item=filename}
 		@import url("{$baseurl}css/{$filename}");
@@ -37,7 +36,6 @@
 			<img src="/images/heroes{$heroes_num|rand:0}.png" alt="{#indexCharacters#}" width="483" height="89">
 			<img src="/images/scummvm-caption.png" alt="Script creation utility for Maniac Mansion Virtual Machine" width="483" height="29">
 		</span>
-		{include file='lang_menu.tpl'}
 	</div>
 
 	<div id="container">
