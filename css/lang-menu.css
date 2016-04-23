@@ -19,14 +19,6 @@ code.text-badge {
 	padding: 0 0px;
 }
 
-#langmenu a {
-	position: relative;
-	top: 4px;
-	color: #000000;
-	text-decoration: none;
-	font-size: 9pt;
-}
-
 #langmenu > li {
 	float: left;
 	height: 29px;
@@ -36,6 +28,7 @@ code.text-badge {
 	margin-bottom: 0pt;
 	position: relative;
 	background: url(../images/header-background.gif) repeat-x;
+	cursor: pointer;
 
 	border-left: 1px solid #cecece;
 	border-right: 1px solid #cecece;
@@ -45,15 +38,23 @@ code.text-badge {
 	-webkit-border-radius: 4px 4px 0 0;
 }
 
-#langmenu > li > a {
+#langmenu > li > span {
+	display: inline;
+	width: auto;
+	position: relative;
+	top: 4px;
+	color: #000000;
+	text-decoration: none;
+	font-size: 9pt;
 	text-shadow: 0 1px 2px #fff;
 	font-weight: 700;
-	/* padding: 0px 7px 0px 7px; */
-	/* display: block; */
-	color: #000000;
-
 	padding: 0px 20px 0px 10px;
 	background: url(../images/dropdown.png) no-repeat right center;
+}
+
+#langmenu > li > span > img {
+	display: inline;
+	vertical-align: middle;
 }
 
 #langmenu > li > ul {
@@ -70,9 +71,10 @@ code.text-badge {
 	display: none;
 	background: #f6f6f6;
 	z-index: 1000;
+	cursor: default;
 }
 
-#langmenu > li:hover > a {
+#langmenu > li:hover > span {
 	background: url(../images/dropdown-over.png) no-repeat right center;
 	color: rgb(168, 39, 9);
 }
@@ -94,6 +96,9 @@ code.text-badge {
 }
 
 #langmenu li ul li a {
+	position: relative;
+	color: #000000;
+	text-decoration: none;
 	font-size: 9pt;
 	font-weight: bold;
 	display: block;
