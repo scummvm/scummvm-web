@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <menus>
 	<group>
 		<name>Main Menu</name>
@@ -106,6 +106,30 @@
 		<link>
 			<name>Links</name>
 			<href>/links/</href>
+		</link>
+	</group>
+	<group>
+		<name>Languages</name>
+		<class>menu-langs</class>
+		<link>
+			<name>English</name>
+			<href>{$pageurl}?lang=en</href>
+		</link>
+		<link>
+			<name>Deutsch</name>
+			<href>{$pageurl}?lang=de</href>
+		</link>
+		<link>
+			<name>Français</name>
+			<href>{$pageurl}?lang=fr</href>
+		</link>
+		<link>
+			<name>Italiano</name>
+			<href>{$pageurl}?lang=it</href>
+		</link>
+		<link>
+			<name>Русский</name>
+			<href>{$pageurl}?lang=ru</href>
 		</link>
 	</group>
 </menus>

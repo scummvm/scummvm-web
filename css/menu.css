@@ -35,6 +35,10 @@ div.menugroup h1.menu-misc {
 	background: url('../images/menu-misc.gif');
 }
 
+div.menugroup h1.menu-langs {
+	background: url('../images/menu-sf.gif');
+}
+
 div.menugroup ul {
 	background: rgb(168, 39, 9);
 	color: rgb(255, 255, 255);
