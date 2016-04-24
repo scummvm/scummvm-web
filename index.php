@@ -3,13 +3,13 @@
  * Multilingual support
  */
 global $lang;
-
+global $available_languages;
 $available_languages = array(
-  'en' => true,
-  'de' => true,
-  'fr' => true,
-  'it' => true,
-  'ru' => true
+  'en' => 'English',
+  'de' => 'Deutsch',
+  'fr' => 'Français',
+  'it' => 'Italiano',
+  'ru' => 'Русский'
 );
 
 function get_preferred_languages() {

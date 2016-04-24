@@ -29,7 +29,8 @@ class Controller {
 		$Smarty = $this->_smarty;
 
 		global $lang;
-		
+		global $available_languages;
+
 		/* Configure smarty. */
 		$this->_smarty->compile_dir = SMARTY_DIR_COMPILE;
 		$this->_smarty->cache_dir = SMARTY_DIR_CACHE;
@@ -92,6 +93,7 @@ class Controller {
 			'heroes_num' => HEROES_NUM,
 			'menus' => $menus,
 			'pageurl' => $pageurl,
+			'available_languages' => $available_languages,
 		);
 		$this->_smarty->assign($vars);
 	}
