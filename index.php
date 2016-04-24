@@ -32,6 +32,8 @@ function get_preferred_languages() {
 
 if (!empty($_REQUEST['lang'])) {
   $lang = $_REQUEST['lang'];
+} elseif (!empty($_COOKIE['lang'])) {
+  $lang = $_COOKIE['lang'];
 } elseif (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
   foreach (get_preferred_languages() as $candidate) {
     $candidate_major = current(explode('-', $candidate, 1));
