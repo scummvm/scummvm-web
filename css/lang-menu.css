@@ -1,9 +1,8 @@
 #lang-wrapper {
-	margin: 0 auto;
+	margin-right: 10px;
 	float: right;
 	position: relative;
-	top: 79px;
-	margin-right: 10px;
+	top: 0px;
 }
 
 code.text-badge {
@@ -14,6 +13,7 @@ code.text-badge {
 }
 
 #langmenu {
+	margin: 0 auto;
 	font-size: 8pt;
 	list-style: none;
 	padding: 0 0px;
@@ -23,19 +23,17 @@ code.text-badge {
 	float: left;
 	height: 29px;
 	padding-right: 2px;
-	margin-right: 10px;
-	margin-top: 0pt;
-	margin-bottom: 0pt;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	position: relative;
 	background: url(../images/header-background.gif) repeat-x;
 	cursor: pointer;
-
 	border-left: 1px solid #cecece;
 	border-right: 1px solid #cecece;
-	border-top: 1px solid #cecece;
-	border-radius: 4px 4px 0 0;
-	-moz-border-radius: 4px 4px 0 0;
-	-webkit-border-radius: 4px 4px 0 0;
+	border-bottom: 1px solid #cecece;
+	border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	-webkit-border-radius: 0 0 4px 4px;
 }
 
 #langmenu > li > span {
@@ -91,8 +89,6 @@ code.text-badge {
 	width: 100%;
 	float: left;
 	list-style: none;
-	margin-bottom: 7px;
-	padding: 0 0 3px 0;
 }
 
 #langmenu li ul li a {
@@ -102,11 +98,11 @@ code.text-badge {
 	font-size: 9pt;
 	font-weight: bold;
 	display: block;
-	padding: 2px 0px 2px 0px;
+	padding: 5px 0px 5px 0px;
 }
 
 #langmenu li ul li a:hover {
 	color: #ffffff;
-	padding: 2px 0px 2px 0px;
+	padding: 5px 0px 5px 0px;
 	background: url(../images/par-head.png) repeat-x;
 }
