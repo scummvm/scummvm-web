@@ -1,8 +1,9 @@
 body {
-	font: normal 8pt/normal verdana, tahoma, arial, helvetica, sans-serif;
+	font: normal 9pt/normal verdana, tahoma, arial, helvetica, sans-serif;
 	background: rgb(239, 196, 24) url('../images/body-bg.png') repeat-x scroll 0 0;
-	margin-top: 0px;
+	margin: 0 auto;
 	min-width: 1031px;
+	max-width: 1500px;
 }
 
 #header {
@@ -31,6 +32,7 @@ body {
 }
 
 #menu {
+	font-size: 8pt;
 	right: -11px;
 	position: absolute;
 	top: 0px;
