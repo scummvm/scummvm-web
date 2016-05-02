@@ -1,0 +1,37 @@
+<NAME>It is Time to Test ScummVM 1.8.1 Release</NAME>
+<DATE>May 2, 2016</DATE>
+<AUTHOR>sev</AUTHOR>
+<BODY>
+
+<p>
+    Since the 1.8.0 release we've been very busy with fixing small and big bugs in the newly supported engines,
+    and now we are almost ready to present you the result in a form of the ScummVM 1.8.1.
+</p>
+
+<p>
+    Please, help us to test a few games, especially those which were not touched for a long time,
+    or those which have significant changes in their engine. We prepared a short list on
+    <a href="http://wiki.scummvm.org/index.php/Release_Testing/1.8.1">our wiki</a>.
+</p>
+
+<p>
+    Also from now on we encourage you to test any game which we support and report any bugs or
+    your success on the forum so we can keep track of current state of affairs in the ScummVM Land.
+</p>
+
+<p>
+    For testing the pre-release you need to download a <a href="/downloads/#daily">daily build</a>
+    of ScummVM. If you spot some glitches or bugs, please report them on our
+    <a href="http://bugs.scummvm.org/">bug tracker</a>. If everything went smoothly,
+    please report your success on <a href="http://forums.scummvm.org/viewtopic.php?t=14077">the forums</a>,
+    and we will instantly reflect it on the <a href="http://wiki.scummvm.org/index.php/Release_Testing/1.8.1">wiki</a>
+    (yes, you can be famous for your testing efforts!) You can find a guide on how to test a new release
+	<a href="http://wiki.scummvm.org/index.php/Release_Testing">here</a>.
+</p>
+
+<p>
+    A few games are still missing <a href="http://wiki.scummvm.org/index.php/Screenshots">screenshots</a>. Please
+    help up complete our gallery.
+</p>
+
+</BODY>
