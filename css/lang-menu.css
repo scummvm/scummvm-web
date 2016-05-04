@@ -1,8 +1,8 @@
 #lang-wrapper {
-	margin-right: 10px;
-	float: right;
-	position: relative;
-	top: 0px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
 }
 
 code.text-badge {
@@ -12,11 +12,14 @@ code.text-badge {
 	padding: 0 2px 0 2px;
 }
 
-#langmenu {
-	margin: 0 auto;
+#langmenu {	
 	font-size: 8pt;
 	list-style: none;
 	padding: 0 0px;
+	margin: 0 0 0 50%;
+	transform: translateX(-50%);
+	display: inline-block;
+	z-index: 10;
 }
 
 #langmenu > li {
