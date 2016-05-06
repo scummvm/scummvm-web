@@ -3,6 +3,7 @@
 	position: absolute;
 	left: 0;
 	top: 0;
+	z-index: 1000;
 }
 
 code.text-badge {
@@ -19,7 +20,6 @@ code.text-badge {
 	margin: 0 0 0 50%;
 	transform: translateX(-50%);
 	display: inline-block;
-	z-index: 10;
 }
 
 #langmenu > li {
