@@ -7,7 +7,7 @@ RewriteBase /
 
 # Fetch language and put it into Cookie
 RewriteCond     %{QUERY_STRING}                                             lang=(.*)?
-RewriteRule     .*                                                           -  [CO=lang:%1:.scummvm.org]
+RewriteRule     .*                                                           -  [CO=lang:%1:.scummvm.org:86400]
 
 RewriteRule		^old/.*														-	[L]
 
