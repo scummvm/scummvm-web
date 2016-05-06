@@ -60,15 +60,15 @@
 			<href>https://sourceforge.net/projects/scummvm/</href>
 		</link>
 		<link>
-			<name>Bug Tracker</name>
+			<name>Fehlerberichte</name>
 			<href>http://bugs.scummvm.org/</href>
 		</link>
 		<link>
-			<name>Feature Requests</name>
+			<name>Funktionswünsche</name>
 			<href>https://sourceforge.net/p/scummvm/feature-requests/</href>
 		</link>
 		<link>
-			<name>Patch Tracker</name>
+			<name>Code beitragen</name>
 			<href>https://github.com/scummvm/scummvm/pulls</href>
 		</link>
 		<link>
