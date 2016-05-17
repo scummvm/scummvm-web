@@ -998,6 +998,11 @@
 					<alias>Gus</alias>
 					<description></description>
 				</person>
+				<person>
+					<name>Lubomyr Lisen</name>
+					<alias></alias>
+					<description></description>
+				</person>
 			</group>
 			<group>
 				<name>Dreamcast</name>
@@ -1054,6 +1059,14 @@
 				<person>
 					<name>Tarek Soliman</name>
 					<alias>tsoliman</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Nintendo 3DS</name>
+				<person>
+					<name>Thomas Edvalson</name>
+					<alias>Cruel</alias>
 					<description></description>
 				</person>
 			</group>
