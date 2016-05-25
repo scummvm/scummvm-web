@@ -1,0 +1,58 @@
+<NAME>ScummVM 1.8.1 &quot;Where Is Your Android?&quot; maintenance release is out</NAME>
+	<DATE>May 25, 2016</DATE>
+	<AUTHOR>sev</AUTHOR>
+<BODY>
+
+<p>
+	It has been a couple of months since ScummVM 1.8.0, which means it’s time for
+	a new point release! ScummVM 1.8.1 is now available with fixes for important
+	bugs and support for even more platforms.
+</p>
+
+<p>
+	One of the most important &quot;features&quot; of this release is a major upgrade
+	to the Android port. This upgrade also adds support for the OUYA console.
+	We are currently working on bringing this new release straight to Google Play,
+	but for the impatient among you, feel free to go ahead and
+	<a href="/downloads">install the APKs manually</a>. The Android
+	port now comes in two flavours, our &quot;classic&quot; OpenGL-based one, and a new
+	variant based on SDL. The SDL port has better compatibility with some Android devices
+	and also works better with some engines. Please give it a try and tell us on
+	<a href="http://forums.scummvm.org/viewforum.php?f=17">our forums</a> or via
+	the <a href="http://bugs.scummvm.org/">bug tracker</a> about your experience.
+</p>
+
+<p>
+	We will also be adding Nintendo 3DS support! As of release time, the new binaries
+	have not yet been built by our new porter, but they should be available soon.
+	Keep your eyes peeled!
+</p>
+
+<p>
+	64-bit Mac binaries now include experimental automatic update checking using
+	<a href="https://sparkle-project.org/">Sparkle</a>. Auto-updating is selected as an
+	opt-in during your first start up, and by default checks weekly for new releases.
+	When version 1.9.0 is released, users of 1.8.1 will be presented with
+	a nice dialog for updating. If you'd like to see a similar feature for Windows or
+	other platforms, let us know! All the details on how the update process works can be
+	found <a href="https://sparkle-project.org/">here</a>.
+</p>
+
+<p>
+	No ScummVM release would be complete without game engine
+	updates! ScummVM 1.8.1 includes fixes for <i>Drascula</i>, <i>Legend of Kyrandia</i>,
+	<i>Labyrinth of Time</i>, localized versions of <i>I Have No Mouth</i>,
+	<i>Broken Sword 2.5</i> and improvements to the Windows, OS X and GCW0 ports.
+</p>
+
+<p>
+	The full list of changes included in this release can be found in
+	<a href="/frs/scummvm/1.8.1/ReleaseNotes">the release notes</a>
+	and the binaries are provided on our <a href="/downloads/">downloads page</a>.
+</p>
+
+<p>
+	Get ready, grab your beloved Android device, install ScummVM on it, and play!
+</p>
+
+</BODY>

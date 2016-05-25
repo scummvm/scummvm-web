@@ -1,6 +1,6 @@
 <?php
 /* Current version. */
-define('RELEASE', '1.8.0');
+define('RELEASE', '1.8.1');
 define('RELEASE_TOOLS', '1.8.0');
 define('RELEASE_DEBIAN', '1.8.0');
 /* Version when the percentages on the compat page were removed */
