@@ -313,14 +313,14 @@
 					<url>scummvm_x86-{$release}-1-x86_gcc2.hpkg</url>
 					<name>Haiku package</name>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
 					<url>scummvm-{$release}-amigaos4.lha</url>
 					<name>AmigaOS 4 package</name>
 					<user_agent>Amiga</user_agent>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-morphos.png</category_icon>
 					<url>scummvm-{$release}-morphos.lha</url>
@@ -564,12 +564,6 @@
 					<category_icon>catpl-haiku.png</category_icon>
 					<url>1.8.0/scummvm_x86-1.8.0-1-x86_gcc2.hpkg</url>
 					<name>1.8.0 Haiku package</name>
-				</file>
-				<file>
-					<category_icon>catpl-amiga.png</category_icon>
-					<url>1.8.0/scummvm-1.8.0-amigaos4.lha</url>
-					<name>1.8.0 AmigaOS 4 package</name>
-					<user_agent>Amiga</user_agent>
 				</file>
 				<file>
 					<category_icon>catpl-samsungtv.png</category_icon>
