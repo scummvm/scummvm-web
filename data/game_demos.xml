@@ -1698,6 +1698,11 @@
 				<target>neverhood</target>
 			</demo>
 			<demo>
+				<name>The Neverhood (DOS Alternative demo)</name>
+				<url>/frs/demos/neverhood/neverhood-win-demo2-en.zip</url>
+				<target>neverhood</target>
+			</demo>
+			<demo>
 				<name>Toonstruck (DOS German demo)</name>
 				<url>/frs/demos/toon/toon-dos-demo-de.zip</url>
 				<target>toon</target>
