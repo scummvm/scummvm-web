@@ -295,7 +295,7 @@
 					<name>Solaris 10 x86, Solaris 11 x86, OpenIndiana binary</name>
 					<user_agent>SunOS</user_agent>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-irix.png</category_icon>
 					<url>scummvm-{$release}-irix-mips3.tar.gz</url>
@@ -307,7 +307,7 @@
 					<url>scummvm-{$release}-irix-mips4.tar.gz</url>
 					<name>IRIX (6.5.*, n32, mips4) package</name>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
 					<url>scummvm_x86-{$release}-1-x86_gcc2.hpkg</url>
@@ -549,16 +549,6 @@
 					<category_icon>catpl-psp.png</category_icon>
 					<url>1.8.0/scummvm-1.8.0-psp.zip</url>
 					<name>1.8.0 PSP (PlayStation Portable) package</name>
-				</file>
-				<file>
-					<category_icon>catpl-irix.png</category_icon>
-					<url>1.8.0/scummvm-1.8.0-irix-mips3.tar.gz</url>
-					<name>1.8.0 IRIX (6.5.*, n32, mips3) package</name>
-				</file>
-				<file>
-					<category_icon>catpl-irix.png</category_icon>
-					<url>1.8.0/scummvm-1.8.0-irix-mips4.tar.gz</url>
-					<name>1.8.0 IRIX (6.5.*, n32, mips4) package</name>
 				</file>
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
