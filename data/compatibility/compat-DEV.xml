@@ -1212,6 +1212,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>U.F.O.s / Gnap: Der Schurke aus dem All</name>
+				<target>gnap</target>
+				<support_level>untested</support_level>
+				<notes>
+					Game is completable. More tests are required.
+				</notes>
+			</game>
+			<game>
 				<name>Voyeur</name>
 				<target>voyeur</target>
 				<support_level>good</support_level>
