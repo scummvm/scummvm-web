@@ -193,12 +193,14 @@
 					<name>Android package at Google Play Store</name>
 					<user_agent>Android</user_agent>
 				</file>
+-->
 				<file>
 					<category_icon>catpl-symbian.png</category_icon>
-					<url>scummvm-{$release}-s60v3.zip</url>
+					<url>scummvm-{$release}-SymbianS60v3_split.sisx</url>
 					<name>Symbian S60 version 3 binary</name>
 					<user_agent>SymbOS</user_agent>
 				</file>
+<!--
 				<file>
 					<category_icon>catpl-uiq.png</category_icon>
 					<url>scummvm-{$release}-uiq3.zip</url>
@@ -817,26 +819,6 @@
 					<name>Ubuntu x86_64 ScummVM Daily Snapshot</name>
 					<type>daily</type>
 					<extra_info>Provided by ScummVM Team member Pawel 'aquadran' Kolodziejski</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-macos.png</category_icon>
-					<url>http://worldsmainorganization.org/scummvm/</url>
-					<name>Mac OS X Snapshots</name>
-					<extra_info>(infrequently from the repository)</extra_info>
-				</file>
-				<file>
-					<category_icon>catpl-gp2x.png</category_icon>
-					<url>http://www.distant-earth.com/scummvm/</url>
-					<name>GP2X Builds</name>
-					<extra_info>(infrequent builds from the repository)</extra_info>
-				</file>
-
-				<file>
-					<category_icon>catpl-symbian.png</category_icon>
-					<url>http://anotherguest.se/cvsbuilds/</url>
-					<name>SymbianOS repository builds</name>
-					<type>daily</type>
-					<extra_info>Provided by ScummVM Team member Lars 'anotherguest' Persson</extra_info>
 				</file>
 -->
 				<file>
