@@ -11,6 +11,19 @@ RewriteRule     .*                                                           -  
 
 RewriteRule		^old/.*														-	[L]
 
+# Cloud service provider redirects
+# Dropbox
+RewriteRule		^c/db$			https://www.dropbox.com/1/oauth2/authorize?response_type=code&redirect_uri=https%3A%2F%2Fwww.scummvm.org%2Fc%2Fcode&client_id=dlm3nadaa4t3nsk
+RewriteRule		^c/dbs$			https://www.dropbox.com/1/oauth2/authorize?response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A12345%2F&client_id=dlm3nadaa4t3nsk
+
+# OneDrive
+RewriteRule		^c/od$			https://login.live.com/oauth20_authorize.srf?response_type=code&redirect_uri=https%3A%2F%2Fwww.scummvm.org%2Fc%2Fcode&client_id=c9582384-aa02-4054-bc40-56692270cb02&scope=onedrive.appfolder%20offline_access
+RewriteRule		^c/ods$			https://login.live.com/oauth20_authorize.srf?response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A12345%2F&client_id=c9582384-aa02-4054-bc40-56692270cb02&scope=onedrive.appfolder%20offline_access
+
+# Google Drive
+RewriteRule		^c/gd$			https://accounts.google.com/o/oauth2/auth?response_type=code&redirect_uri=https%3A%2F%2Fwww.scummvm.org%2Fc%2Fcode&client_id=372269489234-cc487pr03275ua50b6sr7tulq3d6dfbi.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive
+RewriteRule		^c/gds$			https://accounts.google.com/o/oauth2/auth?response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A12345&client_id=372269489234-cc487pr03275ua50b6sr7tulq3d6dfbi.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive
+
 ##
 # We moved screenshots, fixing the links
 ##
