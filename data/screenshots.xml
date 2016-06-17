@@ -1859,6 +1859,11 @@
 			<name>Zork Series by Activision</name>
 			<category>zgi</category>
 			<image>
+				<file>other/zvision/znemesis-de-#n#</file>
+				<range from="1" to="14" format="%02d" />
+				<caption>Zork Nemesis: The Forbidden Lands (DOS/German)</caption>
+			</image>
+			<image>
 				<file>other/zvision/zgi-win-de-#n#</file>
 				<range from="1" to="12" format="%02d" />
 				<caption>Zork: Grand Inquisitor (CD/Windows/German)</caption>
