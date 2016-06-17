@@ -312,13 +312,13 @@
 					<url>scummvm-{$release}-irix-mips4.tar.gz</url>
 					<name>IRIX (6.5.*, n32, mips4) package</name>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
 					<url>scummvm_x86-{$release}-1-x86_gcc2.hpkg</url>
 					<name>Haiku package</name>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
 					<url>scummvm-{$release}-amigaos4.lha</url>
@@ -518,12 +518,6 @@
 				{#downloadsOldBinariesNote#}
 			</notes>
 			<entries>
-				<file>
-					<category_icon>catpl-haiku.png</category_icon>
-					<url>1.8.0/scummvm_x86-1.8.0-1-x86_gcc2.hpkg</url>
-					<name>1.8.0 Haiku package</name>
-				</file>
-
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
 					<url>1.7.0/scummvm-1.7.0-2.x86_64.rpm</url>
