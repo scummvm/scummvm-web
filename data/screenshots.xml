@@ -1855,6 +1855,15 @@
 				<caption>Touch&eacute;: The Adventures of the Fifth Musketeer (French)</caption>
 			</image>
 		</game>
+		<game>
+			<name>Zork Series by Activision</name>
+			<category>zgi</category>
+			<image>
+				<file>other/zvision/zgi-win-de-#n#</file>
+				<range from="1" to="12" format="%02d" />
+				<caption>Zork: Grand Inquisitor (CD/Windows/German)</caption>
+			</image>
+		</game>
 	</group>
 	<group>
 		<title>Animation Magic series</title>
