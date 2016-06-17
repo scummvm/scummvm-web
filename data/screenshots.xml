@@ -1414,6 +1414,15 @@
 		<title>Wintermute engine games</title>
 		<category>wintermute</category>
 		<game>
+			<name>Chivalry is Not Dead</name>
+			<category>chivalry</category>
+			<image>
+				<file>wintermute/chivalry/chivalry-win-#n#</file>
+				<range from="1" to="9" format="%02d" />
+				<caption>Chivalry is Not Dead (Windows/English)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Dirty Split</name>
 			<category>dirtysplit</category>
 			<image>
