@@ -3,12 +3,12 @@
 	<head>
 		<title>ScummVM</title>
 		<meta charset="utf-8"/>
-		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="stylesheet" type="text/css" href="/css/cloud-style.css"/>
 	</head>
 	<body>
 		<div class="container">
 			<div class='header'>
-				<center><img src="logo.png"/></center>
+				<center><img src="/images/big-logo.png"/></center>
 			</div>
 			<div class="content">
 				<p>Now please enter this code in ScummVM:</p>
