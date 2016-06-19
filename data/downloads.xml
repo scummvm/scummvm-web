@@ -181,7 +181,7 @@
 				</file>
 
 				<file>
-					<category_icon>catpl-android.png</category_icon>
+					<category_icon>catpl-ouya.png</category_icon>
 					<url>scummvm-{$release}-android-ouya.apk</url>
 					<name>OUYA package</name>
 				</file>
