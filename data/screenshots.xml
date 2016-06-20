@@ -1679,11 +1679,16 @@
 		</game>
 		<game>
 			<name>I Have no Mouth and I Must Scream</name>
-			<category>ihnm</category>
+			<category>ihnm-alt</category>
 			<image>
 				<file>other/ihnm/ihnm-#n#</file>
 				<range from="1" to="6" format="%d" />
 				<caption>I Have no Mouth and I Must Scream (DOS)</caption>
+			</image>
+			<image>
+				<file>other/ihnm/ihnm-de-#n#</file>
+				<range from="1" to="6" format="%02d" />
+				<caption>I Have no Mouth and I Must Scream (fan-made/DOS/German)</caption>
 			</image>
 		</game>
 		<game>
