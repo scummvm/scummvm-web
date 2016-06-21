@@ -105,12 +105,12 @@
 					<user_agent>Macintosh</user_agent>
 				</file>
 				<file>
-					<category_icon>catpl-macos.png</category_icon>
+					<category_icon>catpl-macostiger.png</category_icon>
 					<url>scummvm-{$release}-macosx-i386.dmg</url>
 					<name>OS X 10.4+ 32 bits without Sparkle Disk Image</name>
 				</file>
 				<file>
-					<category_icon>catpl-macos.png</category_icon>
+					<category_icon>catpl-macosppc.png</category_icon>
 					<url>scummvm-{$release}-macosx-ppc.dmg</url>
 					<name>Mac OS X PPC after 10.4 (OS X 10.4+ PPC 32 bits)</name>
 				</file>
