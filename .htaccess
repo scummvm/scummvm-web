@@ -70,6 +70,11 @@ RewriteRule		^screenshots/(scummvm_2_6_1.jpg)$							data/screenshots/westwood/k
 RewriteRule		^screenshots/(.+)\.(jpg|png)$								data/screenshots/$1.$2 [NS,L]
 
 ##
+# Standard location for appcast
+##
+RewriteRule		^scummvm_appcast.xml								appcasts/macosx/release.xml [L]
+
+##
 # Forward old page requests to the new fancy URLs
 ##
 # Compatibility page, with args
