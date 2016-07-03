@@ -1740,6 +1740,15 @@
 			</image>
 		</game>
 		<game>
+			<name>Myst</name>
+			<category>myst</category>
+			<image>
+				<file>other/myst/myst-win-de-#n#</file>
+				<range from="1" to="21" format="%02d" />
+				<caption>Myst (Masterpiece Edition/Windows/German)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Nippon Safes Inc.</name>
 			<category>nippon</category>
 			<image>
