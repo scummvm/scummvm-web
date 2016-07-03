@@ -1696,6 +1696,15 @@
 			</image>
 		</game>
 		<game>
+			<name>Gnap</name>
+			<category>gnap</category>
+			<image>
+				<file>other/gnap/gnap-win-#n#</file>
+				<range from="1" to="13" format="%03d" />
+				<caption>Gnap (Windows/Eglish)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Hopkins FBI</name>
 			<category>hopkins</category>
 			<image>
