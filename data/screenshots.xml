@@ -627,6 +627,15 @@
 			</image>
 		</game>
 		<game>
+			<name>Playtoons Limited Edition - Bambou le sauveur de la jungle</name>
+			<category>bambou</category>
+			<image>
+				<file>gob/bambou/bambou-fr-#n#</file>
+				<range from="1" to="5" format="%d" />
+				<caption>Playtoons Limited Edition - Bambou le sauveur de la jungle (DOS/French)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Urban Runner</name>
 			<category>urban</category>
 			<image>
