@@ -1314,6 +1314,12 @@
 				<category>hoyle</category>
 			</demo>
 			<demo>
+				<name>ImagiNation Network (DOS demo - Non-interactive)</name>
+				<url>/frs/demos/sci/inn-dos-ni-demo-en.zip</url>
+				<target>inndemo</target>
+				<category>inn</category>
+			</demo>
+			<demo>
 				<name>King's Quest I: Quest for the Crown, SCI Remake (DOS demo - Non-interactive)</name>
 				<url>/frs/demos/sci/kq1sci-dos-ni-demo-en.zip</url>
 				<target>kq1sci</target>
