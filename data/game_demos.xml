@@ -1317,7 +1317,7 @@
 				<name>ImagiNation Network (DOS demo - Non-interactive)</name>
 				<url>/frs/demos/sci/inn-dos-ni-demo-en.zip</url>
 				<target>inndemo</target>
-				<category>inn</category>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>King's Quest I: Quest for the Crown, SCI Remake (DOS demo - Non-interactive)</name>
