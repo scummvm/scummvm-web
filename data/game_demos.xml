@@ -488,6 +488,12 @@
 				<category>blank</category>
 			</demo>
 			<demo>
+				<name>Let's Explore the Airport with Buzzy (Windows Dutch Demo)</name>
+				<url>/frs/demos/scumm/he/airport-win-demo-nl.zip</url>
+				<target>airport</target>
+				<category>blank</category>
+			</demo>
+			<demo>
 				<name>Let's Explore the Farm with Buzzy (Windows Demo)</name>
 				<url>/frs/demos/scumm/he/farm-win-demo-us.zip</url>
 				<target>farm</target>
