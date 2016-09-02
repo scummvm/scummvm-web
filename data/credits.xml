@@ -2224,7 +2224,7 @@
 					<description>For his work on the initial reversing of Monkey2</description>
 				</person>
 				<person>
-					<name>???</name>
+					<name>Dean Beeler</name>
 					<alias>Canadacow</alias>
 					<description>For the original MT-32 emulator</description>
 				</person>
@@ -2269,8 +2269,8 @@
 					<description>For design of modern ScummVM GUI</description>
 				</person>
 				<person>
-					<name>???</name>
-					<alias>Jezar</alias>
+					<name>Jezar Wakefield</name>
+					<alias></alias>
 					<description>For his freeverb filter implementation</description>
 				</person>
 				<person>
@@ -2279,8 +2279,8 @@
 					<description>Various info on his FM-TOWNS/Marty SCUMM ports</description>
 				</person>
 				<person>
-					<name>???</name>
-					<alias>lloyd</alias>
+					<name>Lloyd Rosen</name>
+					<alias></alias>
 					<description>For deep tech details about C64 Zak &amp; MM</description>
 				</person>
 				<person>
@@ -2294,8 +2294,8 @@
 					<description>For ScummRev, and much obscure code/documentation</description>
 				</person>
 				<person>
-					<name>???</name>
-					<alias>Tristan</alias>
+					<name>Tristan Matthews</name>
+					<alias></alias>
 					<description>For additional work on the original MT-32 emulator</description>
 				</person>
 				<person>
