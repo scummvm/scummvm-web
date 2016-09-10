@@ -788,9 +788,9 @@
 			<title>{#downloadsRequiredLibraries#}</title>
 			<entries>
 				<link>
-					<name>SDL 1.2.x</name>
-					<url>http://www.libsdl.org/download-1.2.php</url>
-					<description></description>
+					<name>SDL 2.0.x</name>
+					<url>http://www.libsdl.org/download-2.0.php</url>
+					<description> (or SDL 1.2.x)</description>
 				</link>
 			</entries>
 		</subsection>
@@ -851,6 +851,16 @@
 					<name>FreeType</name>
 					<url>http://www.freetype.org/</url>
 					<description>: Font rendering</description>
+				</link>
+				<link>
+					<name>SDL_net 2.0</name>
+					<url>https://www.libsdl.org/projects/SDL_net/</url>
+					<description>: Networking library</description>
+				</link>
+				<link>
+					<name>curl</name>
+					<url>https://curl.haxx.se/libcurl/</url>
+					<description>: URL transfer library</description>
 				</link>
 			</entries>
 		</subsection>
