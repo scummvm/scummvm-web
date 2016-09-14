@@ -234,6 +234,9 @@
 		<subsection>
 			<title>Broken Sword</title>
 			<anchor>sword1</anchor>
+			<notes>
+				{#sword1AddonsNote#}
+			</notes>
 			<entries>
 				<file>
 					<category_icon>cat-flac.png</category_icon>
@@ -325,6 +328,9 @@
 		<subsection>
 			<title>Broken Sword II</title>
 			<anchor>sword2</anchor>
+			<notes>
+				{#sword2AddonsNote#}
+			</notes>
 			<entries>
 				<file>
 					<category_icon>cat-flac.png</category_icon>
