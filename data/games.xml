@@ -224,6 +224,18 @@
 				</file>
 			</entries>
 		</subsection>
+
+		<subsection>
+			<title>Mystery House</title>
+			<anchor>mysthous</anchor>
+			<entries>
+				<file>
+					<category_icon>cat-mysthous.png</category_icon>
+					<url>Mystery House/MYSTHOUS.zip</url>
+					<name>Mystery House, public domain version (Apple II)</name>
+				</file>
+			</entries>
+		</subsection>
 	</section>
 
 	<section>
