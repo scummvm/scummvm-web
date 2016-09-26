@@ -31,27 +31,6 @@
 			</group>
 		</subsection>
 		<subsection>
-			<title>Core Team</title>
-			<group>
-				<name></name>
-				<person>
-					<name>Willem Jan Palenstijn</name>
-					<alias>wjp</alias>
-					<description></description>
-				</person>
-				<person>
-					<name>Eugene Sandulenko</name>
-					<alias>sev</alias>
-					<description></description>
-				</person>
-				<person>
-					<name>Johannes Schickel</name>
-					<alias>LordHoto</alias>
-					<description></description>
-				</person>
-			</group>
-		</subsection>
-		<subsection>
 			<title>Retired Project Leaders</title>
 			<group>
 				<name></name>
@@ -514,7 +493,7 @@
 				<person>
 					<name>Johannes Schickel</name>
 					<alias>LordHoto</alias>
-					<description></description>
+					<description>(retired)</description>
 				</person>
 			</group>
 			<group>
@@ -1242,7 +1221,7 @@
 				<person>
 					<name>Johannes Schickel</name>
 					<alias>LordHoto</alias>
-					<description></description>
+					<description>(retired)</description>
 				</person>
 			</group>
 			<group>
@@ -1260,7 +1239,7 @@
 				<person>
 					<name>Johannes Schickel</name>
 					<alias>LordHoto</alias>
-					<description></description>
+					<description>(retired)</description>
 				</person>
 			</group>
 			<group>
@@ -1592,7 +1571,7 @@
 				<person>
 					<name>Johannes Schickel</name>
 					<alias>LordHoto</alias>
-					<description></description>
+					<description>(retired)</description>
 				</person>
 			</group>
 		</subsection>
