@@ -1427,6 +1427,12 @@
 				<category>blank</category>
 			</demo>
 			<demo>
+				<name>Police Quest II: The Vengeance (DOS demo - Non-interactive)</name>
+				<url>/frs/demos/sci/pq2-dos-ni-demo-en.zip</url>
+				<target>pq2</target>
+				<category>pq-sci</category>
+			</demo>
+			<demo>
 				<name>Police Quest III: The Kindred (DOS demo - Non-interactive)</name>
 				<url>/frs/demos/sci/pq3-dos-ni-demo-en.zip</url>
 				<target>pq3</target>
