@@ -15,7 +15,6 @@
 				<h:br/>{'/\x7brelease_debian\x7d/'|preg_replace:$release_debian:#downloadsBinariesNote3#}<h:br/><h:br/>
 			</notes>
 			<entries>
-<!--
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
 					<url>scummvm-{$release}-win32.exe</url>
@@ -27,7 +26,7 @@
 					<url>scummvm-{$release}-win32.zip</url>
 					<name>Windows zipfile</name>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-win64.png</category_icon>
 					<url>scummvm-{$release}-win64.zip</url>
@@ -510,17 +509,6 @@
 				{#downloadsOldBinariesNote#}
 			</notes>
 			<entries>
-				<file>
-					<category_icon>catpl-windows.png</category_icon>
-					<url>1.8.1/scummvm-1.8.1-win32.exe</url>
-					<name><h:b>1.8.1 Windows Installer</h:b></name>
-					<user_agent>Windows</user_agent>
-				</file>
-				<file>
-					<category_icon>catpl-windows.png</category_icon>
-					<url>1.8.1/scummvm-1.8.1-win32.zip</url>
-					<name>1.8.1 Windows zipfile</name>
-				</file>
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
 					<url>1.8.1/scummvm_1.8.1-jessie.1_i386.deb</url>
