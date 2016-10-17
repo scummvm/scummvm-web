@@ -15,6 +15,7 @@
 				<h:br/>{'/\x7brelease_debian\x7d/'|preg_replace:$release_debian:#downloadsBinariesNote3#}<h:br/><h:br/>
 			</notes>
 			<entries>
+<!--
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
 					<url>scummvm-{$release}-win32.exe</url>
@@ -26,7 +27,7 @@
 					<url>scummvm-{$release}-win32.zip</url>
 					<name>Windows zipfile</name>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-win64.png</category_icon>
 					<url>scummvm-{$release}-win64.zip</url>
@@ -44,7 +45,7 @@
 					<url>scummvm-{$release}-2.x86_64.rpm</url>
 					<name>Fedora 8-20+ x86 64bit package</name>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
 					<url>scummvm_{$release}-jessie.1_i386.deb</url>
@@ -86,7 +87,7 @@
 					<name>Ubuntu 15.10 (wily) x86 64bit package</name>
 					<user_agent>Ubuntu</user_agent>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-slackware.png</category_icon>
 					<url>scummvm-{$release}_slack-i486-1.tgz</url>
@@ -104,6 +105,7 @@
 					<name>OS X 10.7+ 64 bits with Sparkle Disk Image</name>
 					<user_agent>Macintosh</user_agent>
 				</file>
+
 				<file>
 					<category_icon>catpl-macostiger.png</category_icon>
 					<url>scummvm-{$release}-macosx-i386.dmg</url>
@@ -140,25 +142,9 @@
 -->
 				<file>
 					<category_icon>catpl-android.png</category_icon>
-					<url>scummvm-{$release}-androidsdl-arm.apk</url>
-					<name>Android SDL ARM package (better compatibility)</name>
+					<url>scummvm-{$release}-android-all.apk</url>
+					<name>Android package for all platforms</name>
 				</file>
-				<file>
-					<category_icon>catpl-android.png</category_icon>
-					<url>scummvm-{$release}-androidsdl-armv7a.apk</url>
-					<name>Android SDL ARMv7a package (better compatibility)</name>
-				</file>
-				<file>
-					<category_icon>catpl-android.png</category_icon>
-					<url>scummvm-{$release}-androidsdl-mips.apk</url>
-					<name>Android SDL MIPS package (better compatibility)</name>
-				</file>
-				<file>
-					<category_icon>catpl-android.png</category_icon>
-					<url>scummvm-{$release}-androidsdl-x86.apk</url>
-					<name>Android SDL x86 package (better compatibility)</name>
-				</file>
-
 				<file>
 					<category_icon>catpl-android.png</category_icon>
 					<url>scummvm-{$release}-android-arm.apk</url>
@@ -168,6 +154,11 @@
 					<category_icon>catpl-android.png</category_icon>
 					<url>scummvm-{$release}-android-armv7a.apk</url>
 					<name>Android ARMv7a package</name>
+				</file>
+				<file>
+					<category_icon>catpl-android.png</category_icon>
+					<url>scummvm-{$release}-android-armv64v8a.apk</url>
+					<name>Android ARM64v8a package</name>
 				</file>
 				<file>
 					<category_icon>catpl-android.png</category_icon>
@@ -185,21 +176,21 @@
 					<url>scummvm-{$release}-android-ouya.apk</url>
 					<name>OUYA package</name>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-android.png</category_icon>
 					<url>https://play.google.com/store/apps/details?id=org.scummvm.scummvm</url>
 					<name>Android package at Google Play Store</name>
 					<user_agent>Android</user_agent>
 				</file>
--->
+<!--
 				<file>
 					<category_icon>catpl-symbian.png</category_icon>
 					<url>scummvm-{$release}-SymbianS60v3_split.sisx</url>
 					<name>Symbian S60 version 3 binary</name>
 					<user_agent>SymbOS</user_agent>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-uiq.png</category_icon>
 					<url>scummvm-{$release}-uiq3.zip</url>
@@ -300,7 +291,7 @@
 					<name>Solaris 10 x86, Solaris 11 x86, OpenIndiana binary</name>
 					<user_agent>SunOS</user_agent>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-irix.png</category_icon>
 					<url>scummvm-{$release}-irix-mips3.tar.gz</url>
@@ -312,7 +303,7 @@
 					<url>scummvm-{$release}-irix-mips4.tar.gz</url>
 					<name>IRIX (6.5.*, n32, mips4) package</name>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
 					<url>scummvm_x86-{$release}-1-x86_gcc2.hpkg</url>
@@ -354,13 +345,13 @@
 					<name>OS/2 package</name>
 					<user_agent>OS/2</user_agent>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-samsungtv.png</category_icon>
 					<url>scummvm-{$release}-samsungtv.zip</url>
 					<name>Samsung TV package (2009 series)</name>
 				</file>
-
+-->
 			</entries>
 		</subsection>
 
@@ -402,6 +393,7 @@
 			<title>{'/\x7brelease_tools\x7d/'|preg_replace:$release_tools:#downloadsTools#}</title>
 			<anchor>tools</anchor>
 			<entries>
+<!--
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-win32.exe</url>
@@ -412,7 +404,7 @@
 					<url type="tools">scummvm-tools-{$release_tools}-win32.zip</url>
 					<name>Tools - Windows zipfile</name>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-1_F11.i586.rpm</url>
@@ -518,6 +510,80 @@
 				{#downloadsOldBinariesNote#}
 			</notes>
 			<entries>
+				<file>
+					<category_icon>catpl-windows.png</category_icon>
+					<url>1.8.1/scummvm-1.8.1-win32.exe</url>
+					<name><h:b>1.8.1 Windows Installer</h:b></name>
+					<user_agent>Windows</user_agent>
+				</file>
+				<file>
+					<category_icon>catpl-windows.png</category_icon>
+					<url>1.8.1/scummvm-1.8.1-win32.zip</url>
+					<name>1.8.1 Windows zipfile</name>
+				</file>
+				<file>
+					<category_icon>catpl-debian.png</category_icon>
+					<url>1.8.1/scummvm_1.8.1-jessie.1_i386.deb</url>
+					<name>1.8.1 Debian 8 (jessie) i386 package</name>
+				</file>
+				<file>
+					<category_icon>catpl-debian.png</category_icon>
+					<url>1.8.1/scummvm_1.8.1-jessie.1_amd64.deb</url>
+					<name>1.8.1 Debian 8 (jessie) x86 64bit package</name>
+				</file>
+
+				<file>
+					<category_icon>catpl-debian.png</category_icon>
+					<url>1.8.1/scummvm_1.8.1-squeeze.1_powerpc.deb</url>
+					<name>1.8.1 Debian 6.0 (squeeze) PowerPC package</name>
+				</file>
+
+				<file>
+					<category_icon>catpl-ubuntu.png</category_icon>
+					<url>1.8.1/scummvm_1.8.1-xenial.1_i386.deb</url>
+					<name>1.8.1 Ubuntu 16.04 (xenial) i386 package</name>
+				</file>
+
+				<file>
+					<category_icon>catpl-ubuntu.png</category_icon>
+					<url>1.8.1/scummvm_1.8.1-xenial.1_amd64.deb</url>
+					<name>1.8.1 Ubuntu 16.04 (xenial) x86 64bit package</name>
+					<user_agent>Ubuntu</user_agent>
+				</file>
+				<file>
+					<category_icon>catpl-ubuntu.png</category_icon>
+					<url>1.8.1/scummvm_1.8.1-wily.1_i386.deb</url>
+					<name>1.8.1 Ubuntu 15.10 (wily) i386 package</name>
+				</file>
+
+				<file>
+					<category_icon>catpl-ubuntu.png</category_icon>
+					<url>1.8.1/scummvm_1.8.1-wily.1_amd64.deb</url>
+					<name>1.8.1 Ubuntu 15.10 (wily) x86 64bit package</name>
+					<user_agent>Ubuntu</user_agent>
+				</file>
+				<file>
+					<category_icon>catpl-symbian.png</category_icon>
+					<url>1.8.1/scummvm-1.8.1-SymbianS60v3_split.sisx</url>
+					<name>1.8.1 Symbian S60 version 3 binary</name>
+					<user_agent>SymbOS</user_agent>
+				</file>
+				<file>
+					<category_icon>catpl-irix.png</category_icon>
+					<url>1.8.1/scummvm-1.8.1-irix-mips3.tar.gz</url>
+					<name>1.8.1 IRIX (6.5.*, n32, mips3) package</name>
+				</file>
+
+				<file>
+					<category_icon>catpl-irix.png</category_icon>
+					<url>1.8.1/scummvm-1.8.1-irix-mips4.tar.gz</url>
+					<name>1.8.1 IRIX (6.5.*, n32, mips4) package</name>
+				</file>
+				<file>
+					<category_icon>catpl-samsungtv.png</category_icon>
+					<url>1.8.1/scummvm-1.8.1-samsungtv.zip</url>
+					<name>1.8.1 Samsung TV package (2009 series)</name>
+				</file>
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
 					<url>1.7.0/scummvm-1.7.0-2.x86_64.rpm</url>
