@@ -17,13 +17,13 @@
 			<entries>
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
-					<url>scummvm-{$release}a-win32.exe</url>
+					<url>scummvm-{$release}b-win32.exe</url>
 					<name><h:b>Windows Installer</h:b></name>
 					<user_agent>Windows</user_agent>
 				</file>
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
-					<url>scummvm-{$release}a-win32.zip</url>
+					<url>scummvm-{$release}b-win32.zip</url>
 					<name>Windows zipfile</name>
 				</file>
 <!--
