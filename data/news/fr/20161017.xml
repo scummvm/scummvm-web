@@ -5,12 +5,12 @@
 
 <p>
 	Après une période de tests de un mois, et grâce à votre aide, utilisateurs et testeurs,
-	nous somme maintenant prêt à lâcher dans la nature une nouvelle version de ScummVM.
+	nous sommes maintenant prêts à lâcher dans la nature une nouvelle version de ScummVM.
 </p>
 
 <p>
-	Comme toujours nous avons été occupé à ajouter le support pour plusieurs jeux
-	et amméliorer des jeux déjà supportés. Notamment, après plusieurs années de
+	Comme toujours nous avons été occupés à ajouter le support pour plusieurs jeux
+	et améliorer des jeux déjà supportés. Notamment, après plusieurs années de
 	gestation, nous somme fiers d'annoncer que <i>Myst</i> et <i>Myst : l'Apogée</i>
 	sont désormais supportés.
 </p>
@@ -29,26 +29,26 @@
 
 <p>
 	Pour cette nouvelle version nous utilisons SDL 2, une version plus récente de la
-	bibliothèque graphique SDL utilisé precedemment. Cela corrige un certain nombre de
+	bibliothèque graphique SDL utilisée précédemment. Cela corrige un certain nombre de
 	problèmes connus sur les systèmes récents, mais il n'est pas impossible que de
 	nouveaux problèmes aient été introduit. Si vous rencontrez des problèmes, veuillez
 	les signaler dans <a href="https://bugs.scummvm.org">notre base de bogues</a>.
 	Dans la version preecédente sous OS X nous avions introduit une vérification automatique
-	des mises à jours. Pour cette version la fonctionalité a été étendue à la version pour
+	des mises à jour. Pour cette version la fonctionalité a été étendue à la version pour
 	Windows, ce qui permettra de bénéficier d'une mise à jour automatique sous Windows pour
 	notre prochaine version de ScummVM. Il est utile cependant de rappeler que par défaut
 	cette fonctionalité est désactivée et qu'il vous sera proposé de l'activer et de choisir
 	la fréquence des vérifications (par défaut une fois par semaine) lors de votre première
-	utilisation de ScummVM. Des captures d'écrans de Sparkle (le système de
-	vérification de mises à jours que nous utilisons) sont disponible sur
+	utilisation de ScummVM. Des captures d'écran de Sparkle (le système de
+	vérification de mises à jour que nous utilisons) sont disponibles sur
 	<a href="https://winsparkle.org"> le site web de WinSparkle</a>.
 </p>
 
 <p>
-	Du côté des corrections et amméliorations, on peut noter l'ajout du rendu et des polices
+	Du côté des corrections et améliorations, on peut noter l'ajout du rendu et des polices
 	de caractères Hercules pour les jeux Sierra AGI, de nombreuses corrections de bogues pour
-	les jeux Sierra SCI, une expérience utilisateur amméliorée pour les jeux <i>Sherlock</i>
-	and le support de AmiUpdate pour la version Amiga de ScummVM.
+	les jeux Sierra SCI, une expérience utilisateur améliorée pour les jeux <i>Sherlock</i>
+	et le support de AmiUpdate pour la version Amiga de ScummVM.
 </p>
 
 <p>
