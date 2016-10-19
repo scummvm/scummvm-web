@@ -156,7 +156,7 @@
 				</file>
 				<file>
 					<category_icon>catpl-android.png</category_icon>
-					<url>scummvm-{$release}-android-armv64v8a.apk</url>
+					<url>scummvm-{$release}-android-arm64v8a.apk</url>
 					<name>Android ARM64v8a package</name>
 				</file>
 				<file>
