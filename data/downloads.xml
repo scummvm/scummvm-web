@@ -392,7 +392,6 @@
 			<title>{'/\x7brelease_tools\x7d/'|preg_replace:$release_tools:#downloadsTools#}</title>
 			<anchor>tools</anchor>
 			<entries>
-<!--
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-win32.exe</url>
@@ -403,7 +402,7 @@
 					<url type="tools">scummvm-tools-{$release_tools}-win32.zip</url>
 					<name>Tools - Windows zipfile</name>
 				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-1_F11.i586.rpm</url>
