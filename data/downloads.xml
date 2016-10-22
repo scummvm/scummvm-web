@@ -44,7 +44,7 @@
 					<url>scummvm-{$release}-1.x86_64.rpm</url>
 					<name>Fedora 20+ x86 64bit package</name>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
 					<url>scummvm_{$release}-jessie.1_i386.deb</url>
@@ -64,29 +64,30 @@
 
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
+					<url>scummvm_{$release}-yakkety.1_i386.deb</url>
+					<name>Ubuntu 16.10 (yakkety) i386 package</name>
+				</file>
+
+				<file>
+					<category_icon>catpl-ubuntu.png</category_icon>
+					<url>scummvm_{$release}-yakkety.1_amd64.deb</url>
+					<name>Ubuntu 16.10 (yakkety) x86 64bit package</name>
+					<user_agent>Ubuntu</user_agent>
+				</file>
+
+				<file>
+					<category_icon>catpl-ubuntu.png</category_icon>
 					<url>scummvm_{$release}-xenial.1_i386.deb</url>
-					<name>Ubuntu 16.04 (xenial) i386 package</name>
+					<name>Ubuntu 16.04 LTS (xenial) i386 package</name>
 				</file>
 
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
 					<url>scummvm_{$release}-xenial.1_amd64.deb</url>
-					<name>Ubuntu 16.04 (xenial) x86 64bit package</name>
+					<name>Ubuntu 16.04 LTS (xenial) x86 64bit package</name>
 					<user_agent>Ubuntu</user_agent>
 				</file>
-				<file>
-					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_{$release}-wily.1_i386.deb</url>
-					<name>Ubuntu 15.10 (wily) i386 package</name>
-				</file>
-
-				<file>
-					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_{$release}-wily.1_amd64.deb</url>
-					<name>Ubuntu 15.10 (wily) x86 64bit package</name>
-					<user_agent>Ubuntu</user_agent>
-				</file>
-
+<!--
 				<file>
 					<category_icon>catpl-slackware.png</category_icon>
 					<url>scummvm-{$release}_slack-i486-1.tgz</url>
@@ -344,13 +345,13 @@
 					<name>OS/2 package</name>
 					<user_agent>OS/2</user_agent>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-samsungtv.png</category_icon>
 					<url>scummvm-{$release}-samsungtv.zip</url>
 					<name>Samsung TV package (2009 series)</name>
 				</file>
--->
+
 			</entries>
 		</subsection>
 
