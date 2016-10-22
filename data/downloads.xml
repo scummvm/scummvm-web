@@ -572,11 +572,6 @@
 					<name>1.8.1 Samsung TV package (2009 series)</name>
 				</file>
 				<file>
-					<category_icon>catpl-fedora.png</category_icon>
-					<url>1.7.0/scummvm-1.7.0-2.x86_64.rpm</url>
-					<name>1.7.0 Fedora 8-20+ x86 64bit package</name>
-				</file>
-				<file>
 					<category_icon>catpl-macos-universal.png</category_icon>
 					<url>1.7.0/scummvm-1.7.0-macosx.dmg</url>
 					<name>1.7.0 Mac OS X Universal Disk Image</name>
