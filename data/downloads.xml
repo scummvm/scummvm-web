@@ -510,68 +510,23 @@
 			</notes>
 			<entries>
 				<file>
-					<category_icon>catpl-debian.png</category_icon>
-					<url>1.8.1/scummvm_1.8.1-jessie.1_i386.deb</url>
-					<name>1.8.1 Debian 8 (jessie) i386 package</name>
-				</file>
-				<file>
-					<category_icon>catpl-debian.png</category_icon>
-					<url>1.8.1/scummvm_1.8.1-jessie.1_amd64.deb</url>
-					<name>1.8.1 Debian 8 (jessie) x86 64bit package</name>
-				</file>
-
-				<file>
-					<category_icon>catpl-debian.png</category_icon>
-					<url>1.8.1/scummvm_1.8.1-squeeze.1_powerpc.deb</url>
-					<name>1.8.1 Debian 6.0 (squeeze) PowerPC package</name>
-				</file>
-
-				<file>
-					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>1.8.1/scummvm_1.8.1-xenial.1_i386.deb</url>
-					<name>1.8.1 Ubuntu 16.04 (xenial) i386 package</name>
-				</file>
-
-				<file>
-					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>1.8.1/scummvm_1.8.1-xenial.1_amd64.deb</url>
-					<name>1.8.1 Ubuntu 16.04 (xenial) x86 64bit package</name>
-					<user_agent>Ubuntu</user_agent>
-				</file>
-				<file>
-					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>1.8.1/scummvm_1.8.1-wily.1_i386.deb</url>
-					<name>1.8.1 Ubuntu 15.10 (wily) i386 package</name>
-				</file>
-
-				<file>
-					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>1.8.1/scummvm_1.8.1-wily.1_amd64.deb</url>
-					<name>1.8.1 Ubuntu 15.10 (wily) x86 64bit package</name>
-					<user_agent>Ubuntu</user_agent>
-				</file>
-				<file>
 					<category_icon>catpl-symbian.png</category_icon>
 					<url>1.8.1/scummvm-1.8.1-SymbianS60v3_split.sisx</url>
 					<name>1.8.1 Symbian S60 version 3 binary</name>
 					<user_agent>SymbOS</user_agent>
 				</file>
+
 				<file>
 					<category_icon>catpl-irix.png</category_icon>
 					<url>1.8.1/scummvm-1.8.1-irix-mips3.tar.gz</url>
 					<name>1.8.1 IRIX (6.5.*, n32, mips3) package</name>
 				</file>
-
 				<file>
 					<category_icon>catpl-irix.png</category_icon>
 					<url>1.8.1/scummvm-1.8.1-irix-mips4.tar.gz</url>
 					<name>1.8.1 IRIX (6.5.*, n32, mips4) package</name>
 				</file>
-				<file>
-					<category_icon>catpl-samsungtv.png</category_icon>
-					<url>1.8.1/scummvm-1.8.1-samsungtv.zip</url>
-					<name>1.8.1 Samsung TV package (2009 series)</name>
-				</file>
+
 				<file>
 					<category_icon>catpl-macos-universal.png</category_icon>
 					<url>1.7.0/scummvm-1.7.0-macosx.dmg</url>
