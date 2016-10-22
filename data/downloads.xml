@@ -42,7 +42,7 @@
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
 					<url>scummvm-{$release}-1.x86_64.rpm</url>
-					<name>Fedora 8-20+ x86 64bit package</name>
+					<name>Fedora 23+ x86 64bit package</name>
 				</file>
 <!--
 				<file>
