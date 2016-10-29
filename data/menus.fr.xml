@@ -56,10 +56,6 @@
 		<name>Dévelopement</name>
 		<class>menu-sf</class>
 		<link>
-			<name>Accueil Projet SF.net</name>
-			<href>https://sourceforge.net/projects/scummvm/</href>
-		</link>
-		<link>
 			<name>Base de Bogue</name>
 			<href>http://bugs.scummvm.org/</href>
 		</link>

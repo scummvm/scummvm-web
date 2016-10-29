@@ -56,10 +56,6 @@
 		<name>Entwicklung</name>
 		<class>menu-sf</class>
 		<link>
-			<name>Projektseite auf SF.net</name>
-			<href>https://sourceforge.net/projects/scummvm/</href>
-		</link>
-		<link>
 			<name>Fehlerberichte</name>
 			<href>http://bugs.scummvm.org/</href>
 		</link>

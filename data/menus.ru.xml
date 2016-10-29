@@ -56,10 +56,6 @@
 		<name>Pазработка</name>
 		<class>menu-sf</class>
 		<link>
-			<name>Страница проекта на SF.net</name>
-			<href>https://sourceforge.net/projects/scummvm/</href>
-		</link>
-		<link>
 			<name>Багтрекер</name>
 			<href>http://bugs.scummvm.org/</href>
 		</link>
