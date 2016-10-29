@@ -56,10 +56,6 @@
 		<name>Development</name>
 		<class>menu-sf</class>
 		<link>
-			<name>Homepage su SF.net</name>
-			<href>https://sourceforge.net/projects/scummvm/</href>
-		</link>
-		<link>
 			<name>Bug Tracker</name>
 			<href>https://sourceforge.net/p/scummvm/bugs/</href>
 		</link>
