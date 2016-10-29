@@ -3,71 +3,71 @@
 	<document>
 		<name>README {$release}</name>
 		<url>https://github.com/scummvm/scummvm/raw/v{$release}/README</url>
-		<description>The ScummVM README, for version {$release}</description>
+		<description>{'/\x7brelease\x7d/'|preg_replace:$release:#enReadMeDesc#}</description>
 	</document>
 	<document>
 		<name>P&#0345;e&#0269;ti m&#0283; {$release}</name>
 		<url>https://github.com/scummvm/scummvm/raw/v{$release}/doc/cz/PrectiMe</url>
-		<description>The ScummVM README in Czech, for version {$release}</description>
+		<description>{'/\x7brelease\x7d/'|preg_replace:$release:#czReadMeDesc#}</description>
 	</document>
 	<document>
 		<name>Lies mich {$release}</name>
 		<url>https://github.com/scummvm/scummvm/raw/v{$release}/doc/de/Liesmich</url>
-		<description>The ScummVM README in German, for version {$release}</description>
+		<description>{'/\x7brelease\x7d/'|preg_replace:$release:#deReadMeDesc#}</description>
 	</document>
 	<document>
 		<name>L&auml;s mig {$release}</name>
 		<url>https://github.com/scummvm/scummvm/raw/v{$release}/doc/se/LasMig</url>
-		<description>The ScummVM README in Swedish, for version {$release}</description>
+		<description>{'/\x7brelease\x7d/'|preg_replace:$release:#seReadMeDesc#}</description>
 	</document>
 	<document>
 		<name>Inicio R&aacute;pido {$release}</name>
 		<url>https://github.com/scummvm/scummvm/raw/v{$release}/doc/es/InicioRapido</url>
-		<description>The ScummVM Quick Start in Spanish, for version {$release}</description>
+		<description>{'/\x7brelease\x7d/'|preg_replace:$release:#esReadMeDesc#}</description>
 	</document>
 	<document>
 		<name>D&eacute;marrage Rapide {$release}</name>
 		<url>https://github.com/scummvm/scummvm/raw/v{$release}/doc/fr/DemarrageRapide</url>
-		<description>The ScummVM Quick Start in French, for version {$release}</description>
+		<description>{'/\x7brelease\x7d/'|preg_replace:$release:#frQuickStartDesc#}</description>
 	</document>
 	<document>
 		<name>Guida Rapida {$release}</name>
 		<url>https://github.com/scummvm/scummvm/raw/v{$release}/doc/it/GuidaRapida</url>
-		<description>The ScummVM Quick Start in Italian, for version {$release}</description>
+		<description>{'/\x7brelease\x7d/'|preg_replace:$release:#itQuickStartDesc#}</description>
 	</document>
 	<document>
 		<name>Hurtig Start {$release}</name>
 		<url>https://github.com/scummvm/scummvm/raw/v{$release}/doc/no-nb/HurtigStart</url>
-		<description>The ScummVM Quick Start in Norwegian Bokm&aring;l, for version {$release}</description>
+		<description>{'/\x7brelease\x7d/'|preg_replace:$release:#noNbQuickStartDesc#}</description>
 	</document>
 	<document>
 		<name>Hurtig Start {$release}</name>
 		<url>https://github.com/scummvm/scummvm/raw/v{$release}/doc/da/HurtigStart</url>
-		<description>The ScummVM Quick Start in Danish, for version {$release}</description>
+		<description>{'/\x7brelease\x7d/'|preg_replace:$release:#daQuickStartDesc#}</description>
 	</document>
 	<document>
-		<name>Documentation on Wiki</name>
+		<name>{#wikiDocumentationTitle#}</name>
 		<url>http://wiki.scummvm.org/index.php/Documentation</url>
-		<description>Assorted documentation on our Wiki, several important HOWTO's and the User Manual</description>
+		<description>{#wikiDocumentationDesc#}</description>
 	</document>
 	<document>
-		<name>Developer Central</name>
+		<name>{#developerCentralTitle#}</name>
 		<url>http://wiki.scummvm.org/index.php/Developer_Central</url>
-		<description>Guidelines on how to hack ScummVM. A must read for developers.</description>
+		<description>{#developerCentralDesc#}</description>
 	</document>
 	<document>
-		<name>Game data files</name>
+		<name>{#gameDataFilesTitle#}</name>
 		<url>http://wiki.scummvm.org/index.php/Datafiles</url>
-		<description>This page lists for many supported games which files exactly are needed by ScummVM in order to play that game.</description>
+		<description>{#gameDataFilesDesc#}</description>
 	</document>
 	<document>
-		<name>ScummVM current areas of focus</name>
+		<name>{#totoPageTitle#}</name>
 		<url>http://wiki.scummvm.org/index.php/TODO</url>
-		<description>This page is the current TODO list for ScummVM.</description>
+		<description>{#totoPageDesc#}</description>
 	</document>
 	<document>
-		<name>Source code documentation</name>
+		<name>{#doxygenPageTitle#}</name>
 		<url>http://doxygen.scummvm.org</url>
-		<description>Cross referenced source code documentation for ScummVM, generated using <h:a href="http://www.doxygen.org">Doxygen</h:a></description>
+		<description>{#doxygenPageDesc#}</description>
 	</document>
 </documentation>
