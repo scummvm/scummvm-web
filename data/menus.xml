@@ -68,6 +68,10 @@
 			<href>https://github.com/scummvm/scummvm/pulls</href>
 		</link>
 		<link>
+			<name>Translate ScummVM</name>
+			<href>https://translations.scummvm.org/</href
+		</link>
+		<link>
 			<name>Daily Snapshots</name>
 			<href>/downloads/#daily</href>
 		</link>
