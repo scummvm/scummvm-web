@@ -972,6 +972,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Full Pipe</name>
+				<target>fullpipe</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />- Only Windows version is supported by this target
+				</notes>
+			</game>
+			<game>
 				<name>Future Wars</name>
 				<target>fw</target>
 				<support_level>good</support_level>
