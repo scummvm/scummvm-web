@@ -383,6 +383,35 @@
 		</games>
 	</company>
 	<company>
+		<name>Sierra ADL</name>
+		<games>
+			<game>
+				<name>Hi-Res Adventure #0: Mission Asteroid</name>
+				<target>hires0</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />- Apple II version is supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Hi-Res Adventure #1: Mystery House</name>
+				<target>hires1</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />- Apple II version is supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Hi-Res Adventure #2: Wizard and the Princess</name>
+				<target>hires2</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />- Apple II version is supported by this target
+				</notes>
+			</game>
+		</games>
+	</company>
+	<company>
 		<name>Sierra AGI</name>
 		<games>
 			<game>
