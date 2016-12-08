@@ -1691,7 +1691,7 @@
 			<category>fullpipe</category>
 			<image>
 				<file>other/fullpipe/fullpipe-#n#</file>
-				<range from="1" to="15" format="%02d" />
+				<range from="1" to="14" format="%02d" />
 				<caption>Full Pipe</caption>
 			</image>
 			<image>
