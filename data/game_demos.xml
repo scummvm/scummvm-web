@@ -1320,6 +1320,12 @@
 				<category>hoyle</category>
 			</demo>
 			<demo>
+				<name>Hoyle Classic Games (Windows demo)</name>
+				<url>/frs/demos/sci/hoyle5-win-demo-en.zip</url>
+				<target>hoyle5</target>
+				<category>hoyle</category>
+			</demo>
+			<demo>
 				<name>ImagiNation Network (DOS demo - Non-interactive)</name>
 				<url>/frs/demos/sci/inn-dos-ni-demo-en.zip</url>
 				<target>inndemo</target>
