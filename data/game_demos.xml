@@ -1615,6 +1615,16 @@
 				<target>queen</target>
 			</demo>
 			<demo>
+				<name>Full Pipe (Russian demo)</name>
+				<url>/frs/demos/fullpipe/fullpipe-demo-ru.zip</url>
+				<target>fullpipe</target>
+			</demo>
+			<demo>
+				<name>Full Pipe (German demo)</name>
+				<url>/frs/demos/fullpipe/fullpipe-demo-de.zip</url>
+				<target>fullpipe</target>
+			</demo>
+			<demo>
 				<name>Future Wars (Amiga demo - Non interactive)</name>
 				<url>/frs/demos/cine/fw-amiga-ni-demo-en.zip</url>
 				<target>fw</target>
