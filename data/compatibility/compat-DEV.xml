@@ -997,7 +997,7 @@
 				<target>queen</target>
 				<support_level>excellent</support_level>
 				<notes>
-					No known issues, game is completable.<h:br />- Amiga and DOS versions supported by this target.
+					No known issues, game is completable.<h:br />- Amiga and DOS versions supported by this target
 				</notes>
 			</game>
 			<game>
@@ -1005,7 +1005,7 @@
 				<target>fullpipe</target>
 				<support_level>good</support_level>
 				<notes>
-					Game is completable<h:br />- Only Windows version is supported by this target
+					Game is completable<h:br />- Windows version, demos and Steam versions are supported by this target<h:br />- iOS and Android versions are not supported
 				</notes>
 			</game>
 			<game>
