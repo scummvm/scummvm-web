@@ -135,6 +135,27 @@
 				</person>
 			</group>
 			<group>
+				<name>Access</name>
+				<person>
+					<name>Arnaud Boutonn&eacute;</name>
+					<alias>Strangerke</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Paul Gilbert</name>
+					<alias>dreammaster</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>ADL</name>
+				<person>
+					<name>Walter van Niftrik</name>
+					<alias>waltervn</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>AGI</name>
 				<person>
 					<name>Stuart George</name>
@@ -211,19 +232,6 @@
 				</person>
 			</group>
 			<group>
-				<name>Access</name>
-				<person>
-					<name>Arnaud Boutonn&eacute;</name>
-					<alias>Strangerke</alias>
-					<description></description>
-				</person>
-				<person>
-					<name>Paul Gilbert</name>
-					<alias>dreammaster</alias>
-					<description></description>
-				</person>
-			</group>
-			<group>
 				<name>Avalanche</name>
 				<person>
 					<name>Peter Bozs&oacute;</name>
@@ -241,6 +249,19 @@
 				<person>
 					<name>Benjamin Haisch</name>
 					<alias>john_doe</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Blade Runner</name>
+				<person>
+					<name>Thomas Fach-Pedersen</name>
+					<alias>madmoose</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Peter Kohaut</name>
+					<alias>peterkohaut</alias>
 					<description></description>
 				</person>
 			</group>
@@ -384,6 +405,14 @@
 				</person>
 			</group>
 			<group>
+				<name>Fullpipe</name>
+				<person>
+					<name>Eugene Sandulenko</name>
+					<alias>sev</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>Gnap</name>
 				<person>
 					<name>Arnaud Boutonn&eacute;</name>
@@ -494,6 +523,29 @@
 					<name>Johannes Schickel</name>
 					<alias>LordHoto</alias>
 					<description>(retired)</description>
+				</person>
+			</group>
+			<group>
+				<name>Lab</name>
+				<person>
+					<name>Arnaud Boutonn&eacute;</name>
+					<alias>Strangerke</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Filippos Karapetis</name>
+					<alias>[md5]</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Willem Jan Palenstijn</name>
+					<alias>wjp</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Eugene Sandulenko</name>
+					<alias>sev</alias>
+					<description></description>
 				</person>
 			</group>
 			<group>
@@ -719,6 +771,11 @@
 				<person>
 					<name>Lars Skovlund</name>
 					<alias>lskovlun</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Colin Snover</name>
+					<alias></alias>
 					<description></description>
 				</person>
 			</group>
@@ -2303,7 +2360,7 @@
 			</group>
 		<paragraph>Tony Warriner and everyone at Revolution Software Ltd. for sharing with us the source of some of their brilliant games, allowing us to release Beneath a Steel Sky as freeware... and generally being supportive above and beyond the call of duty.</paragraph>
 		<paragraph>John Passfield and Steve Stamatiadis for sharing the source of their classic title, Flight of the Amazon Queen and also being incredibly supportive.</paragraph>
-		<paragraph>Joe Pearce from The Wyrmkeep Entertainment Co. for sharing the source of their famous title Inherit the Earth and always prompt replies to our questions.</paragraph>
+		<paragraph>Joe Pearce from The Wyrmkeep Entertainment Co. for sharing the source of their famous title Inherit the Earth, for sharing the source of The Labyrinth of Time and for always replying promptly to our questions.</paragraph>
 		<paragraph>Aric Wilmunder, Ron Gilbert, David Fox, Vince Lee, and all those at LucasFilm/LucasArts who made SCUMM the insane mess to reimplement that it is today. Feel free to drop us a line and tell us what you think, guys!</paragraph>
 		<paragraph>Alan Bridgman, Simon Woodroffe and everyone at Adventure Soft for sharing the source code of some of their games with us.</paragraph>
 		<paragraph>John Young, Colin Smythe and especially Terry Pratchett himself for sharing the source code of Discworld I &amp; II with us.</paragraph>
