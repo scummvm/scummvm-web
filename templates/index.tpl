@@ -23,7 +23,7 @@
 	<link rel="alternate" type="application/atom+xml" title="{#indexAtomFeed#}" href="{$baseurl}feeds/atom/">
 	<link rel="alternate" type="application/rss+xml" title="{#indexRSSFeed#}" href="{$baseurl}feeds/rss/">
 	<link rel="apple-touch-icon" href="/images/scummvm.png">
-	<title>ScummVM :: {$title}</title>
+	<title>PlumberVM :: {$title}</title>
 </head>
 <body>
 
