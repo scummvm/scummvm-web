@@ -2,7 +2,11 @@
 {assign var='news_date' value=$news->getDate()|date_format:"%Y%m%d"}
 {assign var='news_filename' value=$news->getFilename()|substr:'0':'-4'}
 {if !empty($date) && ($date == 'archive' || strlen($date) == 8)}
-	{assign var='news_date' value=$news_filename}
+	{if strlen($news_filename) == 9}
+		{assign var='news_date' value=$news_filename|substr:'0':'-1'}
+	{else}
+		{assign var='news_date' value=$news_filename}
+	{/if}
 {/if}
 
 <div class="box">
