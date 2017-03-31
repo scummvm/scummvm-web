@@ -21,7 +21,7 @@ abstract class NewsModel extends BasicModel {
 			}
 			$dates[] = substr($file, 0, -4);
 		}
-		sort($dates, SORT_NUMERIC);
+		sort($dates, SORT_STRING);
 		return $dates;
 	}
 
@@ -55,7 +55,7 @@ abstract class NewsModel extends BasicModel {
 			if (!($newslist = NewsModel::getListOfNewsDates())) {
 				throw new ErrorException(self::NO_FILES);
 			}
-			rsort($newslist, SORT_NUMERIC);
+			rsort($newslist, SORT_STRING);
 			$newslist = array_slice($newslist, 0, $num);
 			$news = array();
 			foreach ($newslist as $date) {
