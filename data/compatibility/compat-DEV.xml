@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <compatibility xmlns:h="http://www.w3.org/TR/xhtml1/">
 	<company>
+		<name>Kirin Entertainment, United Pixtures</name>
+		<games>
+			<game>
+				<name>Plumbers Don't Weat Tie</name>
+				<target>mario</target>
+				<support_level>excellent</support_level>
+				<notes>
+					No known issues, game is completable (and awsome). Only the PC version is currently supported by this target
+				</notes>
+			</game>
+		</games>
+	</company>
+	<company>
 		<name>LucasArts</name>
 		<games>
 			<game>
