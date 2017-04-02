@@ -30,12 +30,12 @@
 	{* Header. *}
 	<div id="header">
 		<a href="{$baseurl}">
-			<img src="/images/plumbervm_logo.jpg" width="287" height="118" alt="{#indexLogo#}" class="float_left">
+			<img src="/images/scummvm_logo.jpg" width="287" height="118" alt="{#indexLogo#}" class="float_left">
 		</a>
 
 		<span>
 			<img src="/images/heroes{$heroes_num|rand:0}.png" alt="{#indexCharacters#}" width="483" height="89">
-			<img src="/images/plumbervm-caption.png" alt="Script creation utility for Maniac Mansion Virtual Machine" width="483" height="29">
+			<img src="/images/scummvm-caption.png" alt="Script creation utility for Maniac Mansion Virtual Machine" width="483" height="29">
 		</span>
 		{include file='lang_menu.tpl'}
 	</div>
