@@ -612,6 +612,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Gabriel Knight: Sins of the Fathers</name>
+				<target>gk1</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />- DOS and Windows versions are supported by this target
+				</notes>
+			</game>
+			<game>
 				<name>Hoyle's Book of Games 1</name>
 				<target>hoyle1</target>
 				<support_level>excellent</support_level>
@@ -641,6 +649,22 @@
 				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Hoyle Classic Games/Bridge/Children's Collection/Solitaire</name>
+				<target>hoyle5</target>
+				<support_level>broken</support_level>
+				<notes>
+					- Windows versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Inside the Chest/Behind the Developers' Shield</name>
+				<target>chest</target>
+				<support_level>broken</support_level>
+				<notes>
+					- DOS and Windows versions are supported by this target
 				</notes>
 			</game>
 			<game>
@@ -679,6 +703,22 @@
 				<name>King's Quest VI (low and hi res)</name>
 				<target>kq6</target>
 				<support_level>excellent</support_level>
+				<notes>
+					Game is completable<h:br />- DOS and Windows versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>King's Quest VII</name>
+				<target>kq7</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />- DOS and Windows versions are supported by this target<h:br />- Only version 2.00b has been tested
+				</notes>
+			</game>
+			<game>
+				<name>King's Questions</name>
+				<target>kquestions</target>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Windows versions are supported by this target
 				</notes>
@@ -740,6 +780,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Leisure Suit Larry 6 (hi res)</name>
+				<target>lsl6hires</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />- DOS and Windows versions are supported by this target
+				</notes>
+			</game>
+			<game>
 				<name>Mixed-up Fairy Tales</name>
 				<target>fairytales</target>
 				<support_level>excellent</support_level>
@@ -756,11 +804,27 @@
 				</notes>
 			</game>
 			<game>
+				<name>Mixed-up Mother Goose Deluxe</name>
+				<target>mothergoosehires</target>
+				<support_level>bugged</support_level>
+				<notes>
+					Game is completable<h:br />- Windows versions are supported by this target<h:br />- Music is missing
+				</notes>
+			</game>
+			<game>
 				<name>Pepper's Adventures in Time</name>
 				<target>pepper</target>
 				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Phantasmagoria</name>
+				<target>phantasmagoria</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />- DOS and Windows versions are supported by this target
 				</notes>
 			</game>
 			<game>
@@ -785,6 +849,22 @@
 				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Amiga versions are supported by this target<h:br />- Music in the Amiga version may have glitches
+				</notes>
+			</game>
+			<game>
+				<name>Police Quest 4: Open Season</name>
+				<target>pq4</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />- DOS and Windows versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Police Quest: SWAT</name>
+				<target>pqswat</target>
+				<support_level>untested</support_level>
+				<notes>
+					- DOS and Windows versions are supported by this target
 				</notes>
 			</game>
 			<game>
@@ -817,6 +897,22 @@
 				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Quest for Glory 4</name>
+				<target>qfg4</target>
+				<support_level>untested</support_level>
+				<notes>
+					- DOS and Windows versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Shivers</name>
+				<target>shivers</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />- Windows versions are supported by this target
 				</notes>
 			</game>
 			<game>
@@ -860,11 +956,35 @@
 				</notes>
 			</game>
 			<game>
+				<name>Space Quest 6</name>
+				<target>sq6</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />- DOS and Windows versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>The Beast Within: A Gabriel Knight Mystery</name>
+				<target>gk2</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />- DOS and Windows versions are supported by this target<h:br />- Video files in the original (1.0) release are corrupt (bad A/V sync)
+				</notes>
+			</game>
+			<game>
 				<name>The Island of Dr. Brain</name>
 				<target>islandbrain</target>
 				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Torin's Passage</name>
+				<target>torin</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />- DOS and Windows versions are supported by this target
 				</notes>
 			</game>
 		</games>
