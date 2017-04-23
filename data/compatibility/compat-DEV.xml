@@ -1203,17 +1203,17 @@
 			<game>
 				<name>Myst</name>
 				<target>myst</target>
-				<support_level>untested</support_level>
+				<support_level>good</support_level>
 				<notes>
-					Support for this game has been added recently and requires further play testing.<h:br />- Only the Windows version is supported
+					Game is completable<h:br />- Only the Windows version is supported
 				</notes>
 			</game>
 			<game>
 				<name>Myst: Masterpiece Edition</name>
 				<target>myst</target>
-				<support_level>untested</support_level>
+				<support_level>good</support_level>
 				<notes>
-					Support for this game has been added recently and requires further play testing.<h:br />- Only the Windows version is supported<h:br />- The hint system is not available
+					Game is completable<h:br />- Only the Windows version is supported<h:br />- The hint system is not available
 				</notes>
 			</game>
 			<game>
