@@ -1,0 +1,16 @@
+<NAME>GSoC 2017 projects announced!</NAME>
+<DATE>May 5, 2017</DATE>
+<AUTHOR>Criezy</AUTHOR>
+<BODY>
+<p>
+     <img src="/data/news/GSoC2017Logo.png" alt="GSoC Logo" align="middle">
+</p>
+<p>Today Google announced the accepted projects for this year's Summer of Code. We are pleased to say that ScummVM will be mentoring two wizard students who will have one mission: casting the Super Sludge Nova spell. Effects include adding support for two new engines, and the cooldown period is 12 weeks:
+</p>
+<ul>
+<li>Joseph-Eugene Winzer (a.k.a. Joefish) will be working on adding support for the <b><i><a href="http://outpost.simplicity.de">Mission Supernova</a></i></b> game.</li>
+<li>Simei Yin will work on porting the <b><i><a href="https://opensludge.github.io">Sludge engine</a></i></b> to ScummVM.</li>
+</ul>
+<p>We extend a warm welcome to our students for what we hope will be a productive and interesting summer! You can follow their progress throughout the summer on the <a href=http://planet.scummvm.org>ScummVM Blogs</a>.
+</p>
+</BODY>
