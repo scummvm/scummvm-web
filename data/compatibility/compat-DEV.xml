@@ -1249,6 +1249,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Plumbers Don't Wear Ties</name>
+				<target>plumbers</target>
+				<support_level>untested</support_level>
+				<notes>
+					Game has been recently supported and requires further play testing.
+				</notes>
+			</game>
+			<game>
 				<name>Rex Nebular and the Cosmic Gender Bender</name>
 				<target>nebular</target>
 				<support_level>untested</support_level>
