@@ -1265,6 +1265,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Riven</name>
+				<target>riven</target>
+				<support_level>untested</support_level>
+				<notes>
+					Game is completable<h:br />- Only the Windows and Mac versions are supported
+				</notes>
+			</game>
+			<game>
 				<name>Return to Ringworld</name>
 				<target>ringworld2</target>
 				<support_level>untested</support_level>
