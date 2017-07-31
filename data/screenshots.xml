@@ -1832,6 +1832,15 @@
 			</image>
 		</game>
 		<game>
+			<name>Riven</name>
+			<category>riven</category>
+			<image>
+				<file>other/riven/riven-win-en-#n#</file>
+				<range from="1" to="12" format="%02d" />
+				<caption>Riven (DVD/Windows/English)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Sherlock Holmes series</name>
 			<category>sherlock</category>
 			<image>

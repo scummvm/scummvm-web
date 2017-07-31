@@ -1655,6 +1655,11 @@
 				<target>lol</target>
 			</demo>
 			<demo>
+				<name>Myst (Windows demo)</name>
+				<url>/frs/demos/mohawk/myst-win-demo-en.zip</url>
+				<target>myst</target>
+			</demo>
+			<demo>
 				<name>Nippon Safes (Amiga demo)</name>
 				<url>/frs/demos/parallaction/nippon-amiga-demo-en.zip</url>
 				<target>nippon</target>
@@ -1676,6 +1681,11 @@
 				<url>/frs/demos/tsage/ringworld-dos-ni-demo-en.zip</url>
 				<target>tsage</target>
 				<category>blank</category>
+			</demo>
+			<demo>
+				<name>Riven (Windows demo)</name>
+				<url>/frs/demos/mohawk/riven-win-demo-en.zip</url>
+				<target>riven</target>
 			</demo>
 			<demo>
 				<name>Return to Ringworld (DOS demo)</name>
