@@ -812,6 +812,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Leisure Suit Larry 7</name>
+				<target>lsl7</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />- DOS and Windows versions are supported by this target
+				</notes>
+			</game>
+			<game>
 				<name>Mixed-up Fairy Tales</name>
 				<target>fairytales</target>
 				<support_level>excellent</support_level>
@@ -830,9 +838,9 @@
 			<game>
 				<name>Mixed-up Mother Goose Deluxe</name>
 				<target>mothergoosehires</target>
-				<support_level>bugged</support_level>
+				<support_level>good</support_level>
 				<notes>
-					Game is completable<h:br />- Windows versions are supported by this target<h:br />- Music is missing
+					Game is completable<h:br />- Windows versions are supported by this target
 				</notes>
 			</game>
 			<game>
@@ -849,6 +857,14 @@
 				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- DOS and Windows versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>Phantasmagoria 2</name>
+				<target>phantasmagoria2</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />- Windows versions are supported by this target
 				</notes>
 			</game>
 			<game>
