@@ -926,6 +926,24 @@
 				</person>
 			</group>
 			<group>
+				<name>Titanic</name>
+				<person>
+					<name>David Fioramonti</name>
+					<alias>dafioram</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Paul Gilbert</name>
+					<alias>dreammaster</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Colin Snover</name>
+					<alias></alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>Toltecs</name>
 				<person>
 					<name>Benjamin Haisch</name>
