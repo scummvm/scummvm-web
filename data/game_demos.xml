@@ -1358,6 +1358,12 @@
 				<category>kq-sci</category>
 			</demo>
 			<demo>
+				<name>King's Quest VII: The Princeless Bride (DOS demo - Non-interactive)</name>
+				<url>/frs/demos/sci/kq7-dos-ni-demo-en.zip</url>
+				<target>kq7</target>
+				<category>kq-sci</category>
+			</demo>
+			<demo>
 				<name>Laura Bow: The Colonel's Bequest (DOS demo - Non-interactive)</name>
 				<url>/frs/demos/sci/laurabow-dos-ni-demo-en.zip</url>
 				<target>laurabow</target>
@@ -1393,7 +1399,19 @@
 				<category>lsl-sci</category>
 			</demo>
 			<demo>
-				<name>Lighthouse: The Dark Being (Windows demo - Non-interactive) - Requires ScummVM 1.8.0git</name>
+				<name>Leisure Suit Larry 7: Love For Sail! (DOS demo)</name>
+				<url>/frs/demos/sci/lsl7-dos-demo-en.zip</url>
+				<target>lsl7</target>
+				<category>lsl-sci</category>
+			</demo>
+			<demo>
+				<name>Lighthouse: The Dark Being (Windows demo)</name>
+				<url>/frs/demos/sci/lighthouse-win-demo-en.zip</url>
+				<target>lighthouse</target>
+				<category>blank</category>
+			</demo>
+			<demo>
+				<name>Lighthouse: The Dark Being (Windows demo - Non-interactive)</name>
 				<url>/frs/demos/sci/lighthouse-win-ni-demo-en.zip</url>
 				<target>lighthouse</target>
 				<category>blank</category>
@@ -1409,6 +1427,12 @@
 				<url>/frs/demos/sci/mothergoose-win-demo-en.zip</url>
 				<target>mothergoose</target>
 				<category>mixedup</category>
+			</demo>
+			<demo>
+				<name>Ms. Astro Chicken (DOS demo)</name>
+				<url>/frs/demos/sci/msastrochicken-dos-demo-en.zip</url>
+				<target>msastrochicken</target>
+				<category>blank</category>
 			</demo>
 			<demo>
 				<name>Pepper's Adventures in Time (DOS demo)</name>
@@ -1429,9 +1453,9 @@
 				<category>blank</category>
 			</demo>
 			<demo>
-				<name>Ms. Astro Chicken (DOS demo)</name>
-				<url>/frs/demos/sci/msastrochicken-dos-demo-en.zip</url>
-				<target>msastrochicken</target>
+				<name>Phantasmagoria (DOS demo)</name>
+				<url>/frs/demos/sci/phantasmagoria-dos-demo-en.zip</url>
+				<target>phantasmagoria</target>
 				<category>blank</category>
 			</demo>
 			<demo>
@@ -1483,6 +1507,24 @@
 				<category>qfg-sci</category>
 			</demo>
 			<demo>
+				<name>RAMA (DOS demo - Non-interactive)</name>
+				<url>/frs/demos/sci/rama-dos-win-ni-demo-en.zip</url>
+				<target>rama</target>
+				<category>blank</category>
+			</demo>
+			<demo>
+				<name>Shivers (Windows demo - Non-interactive)</name>
+				<url>/frs/demos/sci/shivers-win-demo-en.zip</url>
+				<target>shivers</target>
+				<category>blank</category>
+			</demo>
+			<demo>
+				<name>Shivers (Windows demo)</name>
+				<url>/frs/demos/sci/shivers-win-demo2-en.zip</url>
+				<target>shivers</target>
+				<category>blank</category>
+			</demo>
+			<demo>
 				<name>Slater &amp; Charlie Go Camping (DOS demo)</name>
 				<url>/frs/demos/sci/slater-dos-demo.en.zip</url>
 				<target>slater</target>
@@ -1501,9 +1543,27 @@
 				<category>sq-sci</category>
 			</demo>
 			<demo>
+				<name>Space Quest 6: The Spinal Frontier (DOS demo)</name>
+				<url>/frs/demos/sci/sq6-dos-demo-en.zip</url>
+				<target>sq6</target>
+				<category>sq-sci</category>
+			</demo>
+			<demo>
+				<name>The Beast Within: A Gabriel Knight Mystery (Windows demo - Non-interactive)</name>
+				<url>/frs/demos/sci/gk2-win-ni-demo-en.zip</url>
+				<target>gk2</target>
+				<category>blank</category>
+			</demo>
+			<demo>
 				<name>The Island of Dr. Brain (DOS demo - Non-interactive)</name>
 				<url>/frs/demos/sci/islandbrain-dos-ni-demo-en.zip</url>
 				<target>islandbrain</target>
+				<category>blank</category>
+			</demo>
+			<demo>
+				<name>Torin's Passage (Windows demo)</name>
+				<url>/frs/demos/sci/torin-dos-win-demo-en.zip</url>
+				<target>torin</target>
 				<category>blank</category>
 			</demo>
 			<demo>
