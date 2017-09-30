@@ -820,6 +820,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Lighthouse: The Dark Being</name>
+				<target>lighthouse</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
+				</notes>
+			</game>
+			<game>
 				<name>Mixed-up Fairy Tales</name>
 				<target>fairytales</target>
 				<support_level>excellent</support_level>
@@ -942,9 +950,17 @@
 			<game>
 				<name>Quest for Glory 4</name>
 				<target>qfg4</target>
-				<support_level>untested</support_level>
+				<support_level>broken</support_level>
 				<notes>
 					- DOS and Windows versions are supported by this target
+				</notes>
+			</game>
+			<game>
+				<name>RAMA</name>
+				<target>rama</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable<h:br />- DOS versions are supported by this target
 				</notes>
 			</game>
 			<game>
