@@ -688,7 +688,7 @@
 				<target>chest</target>
 				<support_level>broken</support_level>
 				<notes>
-					- DOS and Windows versions are supported by this target
+					- DOS versions are supported by this target
 				</notes>
 			</game>
 			<game>
@@ -736,7 +736,7 @@
 				<target>kq7</target>
 				<support_level>good</support_level>
 				<notes>
-					Game is completable<h:br />- DOS and Windows versions are supported by this target<h:br />- Only version 2.00b has been tested
+					Game is completable<h:br />- DOS and Windows versions are supported by this target
 				</notes>
 			</game>
 			<game>
@@ -814,9 +814,9 @@
 			<game>
 				<name>Leisure Suit Larry 7</name>
 				<target>lsl7</target>
-				<support_level>good</support_level>
+				<support_level>excellent</support_level>
 				<notes>
-					Game is completable<h:br />- DOS and Windows versions are supported by this target
+					Game is completable<h:br />- DOS versions are supported by this target
 				</notes>
 			</game>
 			<game>
@@ -870,7 +870,7 @@
 			<game>
 				<name>Phantasmagoria 2</name>
 				<target>phantasmagoria2</target>
-				<support_level>good</support_level>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- Windows versions are supported by this target
 				</notes>
@@ -904,7 +904,7 @@
 				<target>pq4</target>
 				<support_level>good</support_level>
 				<notes>
-					Game is completable<h:br />- DOS and Windows versions are supported by this target
+					Game is completable<h:br />- DOS versions are supported by this target
 				</notes>
 			</game>
 			<game>
@@ -912,7 +912,7 @@
 				<target>pqswat</target>
 				<support_level>untested</support_level>
 				<notes>
-					- DOS and Windows versions are supported by this target
+					- DOS versions are supported by this target
 				</notes>
 			</game>
 			<game>
@@ -966,7 +966,7 @@
 			<game>
 				<name>Shivers</name>
 				<target>shivers</target>
-				<support_level>good</support_level>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- Windows versions are supported by this target
 				</notes>
@@ -1016,15 +1016,15 @@
 				<target>sq6</target>
 				<support_level>good</support_level>
 				<notes>
-					Game is completable<h:br />- DOS and Windows versions are supported by this target
+					Game is completable<h:br />- DOS versions are supported by this target
 				</notes>
 			</game>
 			<game>
 				<name>The Beast Within: A Gabriel Knight Mystery</name>
 				<target>gk2</target>
-				<support_level>good</support_level>
+				<support_level>excellent</support_level>
 				<notes>
-					Game is completable<h:br />- DOS and Windows versions are supported by this target<h:br />- Video files in the original (1.0) release are corrupt (bad A/V sync)
+					Game is completable<h:br />- DOS versions are supported by this target<h:br />- Video files in the original (1.0) release are corrupt (bad A/V sync)
 				</notes>
 			</game>
 			<game>
@@ -1038,9 +1038,9 @@
 			<game>
 				<name>Torin's Passage</name>
 				<target>torin</target>
-				<support_level>good</support_level>
+				<support_level>excellent</support_level>
 				<notes>
-					Game is completable<h:br />- DOS and Windows versions are supported by this target
+					Game is completable<h:br />- Windows versions are supported by this target
 				</notes>
 			</game>
 		</games>
