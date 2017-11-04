@@ -1337,6 +1337,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Starship Titanic</name>
+				<target>titanic</target>
+				<support_level>good</support_level>
+				<notes>
+					No known major issues, German and English versions are completable.
+				</notes>
+			</game>
+			<game>
 				<name>The Journeyman Project: Pegasus Prime</name>
 				<target>pegasus</target>
 				<support_level>good</support_level>
