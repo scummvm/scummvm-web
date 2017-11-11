@@ -410,6 +410,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Hi-Res Adventure #3: Cranston Manor</name>
+				<target>hires3</target>
+				<support_level>untested</support_level>
+				<notes>
+					- Apple II version is supported by this target
+				</notes>
+			</game>
+			<game>
 				<name>Hi-Res Adventure #4: Ulysses and the Golden Fleece</name>
 				<target>hires4</target>
 				<support_level>untested</support_level>
@@ -420,17 +428,17 @@
 			<game>
 				<name>Hi-Res Adventure #5: Time Zone</name>
 				<target>hires5</target>
-				<support_level>untested</support_level>
+				<support_level>good</support_level>
 				<notes>
-					- Apple II version is supported by this target
+					Game is completable<h:br />- Apple II version is supported by this target
 				</notes>
 			</game>
 			<game>
 				<name>Hi-Res Adventure #6: The Dark Crystal</name>
 				<target>hires6</target>
-				<support_level>untested</support_level>
+				<support_level>good</support_level>
 				<notes>
-					- Apple II version is supported by this target
+					Game is completable<h:br />- Apple II version is supported by this target
 				</notes>
 			</game>
 		</games>
