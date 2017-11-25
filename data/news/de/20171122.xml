@@ -1,0 +1,40 @@
+<NAME>Die Testphase für ScummVM 2.0 hat begonnen!</NAME>
+<DATE>Nov 22, 2017</DATE>
+<AUTHOR>snover</AUTHOR>
+<BODY>
+
+<p>Endlich ist der Tag gekommen, an dem wir den aktuellen ScummVM-Veröffentlichungszyklus abschließen! ScummVM 2.0 ist eine der bislang größten Veröffentlichungen und fügt die Unterstützung für 23 neue Spiele hinzu:</p>
+
+<ul>
+	<li><i>Cranston Manor</i></li>
+	<li><i>Full Pipe</i></li>
+	<li><i>Gabriel Knight</i></li>
+	<li><i>Gabriel Knight 2</i></li>
+	<li><i>King's Quest VII</i></li>
+	<li><i>King's Questions</i></li>
+	<li><i>Leisure Suit Larry 6 (hi-res)</i></li>
+	<li><i>Leisure Suit Larry 7</i></li>
+	<li><i>Lighthouse</i></li>
+	<li><i>Mixed-Up Mother Goose Deluxe</i></li>
+	<li><i>Phantasmagoria</i></li>
+	<li><i>Phantasmagoria 2</i></li>
+	<li><i>Plumbers Don't Wear Ties</i></li>
+	<li><i>Police Quest 4</i></li>
+	<li><i>RAMA</i></li>
+	<li><i>Riven: The Sequel to Myst</i></li>
+	<li><i>Shivers</i></li>
+	<li><i>Space Quest 6</i></li>
+	<li><i>Starship Titanic</i></li>
+	<li><i>The Dark Crystal</i></li>
+	<li><i>Time Zone</i></li>
+	<li><i>Torin's Passage</i></li>
+	<li><i>Ulysses and the Golden Fleece</i></li>
+</ul>
+
+<p>Diese Veröffentlichung beinhaltet auch signifikante Verbesserungen und Fehlerkorrekturen für viele Engines. Jetzt ist also eine gute Gelegenheit, einen alten Klassiker (wieder) zu entdecken, selbst wenn er nicht auf dieser Liste steht!</p>
+
+<p>Laden Sie sich die aktuelle <a href="/downloads/#daily">Entwicklerversion</a> von ScummVM herunter und befolgen Sie unsere <a href="http://wiki.scummvm.org/index.php/Release_Testing">Test-Richtlinien</a>. <strong>Wenn Sie Windows benutzen</strong>, verwenden Sie bitte die <a href="http://scummvm.org/downloads/scummvm-win32.exe">Entwicklerversionen von Kirben</a> anstelle der Entwicklerversionen des Buildbots. Bitte melden Sie alle Fehler, die Sie finden können, in unserem <a href="https://bugs.scummvm.org/">Bug-Tracker</a>. Wenn Sie ein Spiel komplett durchgespielt haben, <a href="https://docs.google.com/forms/d/e/1FAIpQLSfiAycQmgaBEDsb0KNpZrNAaqBtilZe4SHWRDYcykeKqLHFvg/viewform">füllen Sie bitte unser Testergebnis-Formular aus</a>. Sie können den <a href="http://wiki.scummvm.org/index.php/Release_Testing/2.0.0">Test-Verlauf in unserem Wiki verfolgen</a>.</p>
+
+<p>Viel Spaß!</p>
+
+</BODY>
