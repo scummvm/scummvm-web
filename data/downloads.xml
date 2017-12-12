@@ -324,6 +324,7 @@
 					<url>scummvm-{$release}-morphos.lha</url>
 					<name>MorphOS package</name>
 				</file>
+-->
 				<file>
 					<category_icon>catpl-freemint.png</category_icon>
 					<url>scummvm-{$release}-atari-m68000.zip</url>
@@ -339,6 +340,7 @@
 					<url>scummvm-{$release}-atari-m5475.zip</url>
 					<name>Atari/FreeMiNT package (Coldfire MCF5475 / Firebee)</name>
 				</file>
+<!--
 				<file>
 					<category_icon>catpl-os2.png</category_icon>
 					<url>scummvm-{$release}-os2.zip</url>
@@ -461,13 +463,13 @@
 					<url type="tools">scummvm-tools-{$release_tools}-amigaos4.lha</url>
 					<name>Tools - AmigaOS 4</name>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-freemint.png</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-atari.zip</url>
 					<name>Tools - Atari/FreeMiNT package (68000 and up)</name>
 				</file>
--->
+
 				<file>
 					<category_icon>catpl-cpp.png</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}.tar.xz</url>
@@ -612,21 +614,6 @@
 					<url>scummvm-1.9.0-amigaos4.lha</url>
 					<name>1.9.0 AmigaOS 4 package</name>
 					<user_agent>Amiga</user_agent>
-				</file>
-				<file>
-					<category_icon>catpl-freemint.png</category_icon>
-					<url>scummvm-1.9.0-atari-m68000.zip</url>
-					<name>1.9.0 Atari/FreeMiNT package (m68000 and up)</name>
-				</file>
-				<file>
-					<category_icon>catpl-freemint.png</category_icon>
-					<url>scummvm-1.9.0-atari-m68020-60.zip</url>
-					<name>1.9.0 Atari/FreeMiNT package (m68020 - m68060)</name>
-				</file>
-				<file>
-					<category_icon>catpl-freemint.png</category_icon>
-					<url>scummvm-1.9.0-atari-m5475.zip</url>
-					<name>1.9.0 Atari/FreeMiNT package (Coldfire MCF5475 / Firebee)</name>
 				</file>
 				<file>
 					<category_icon>catpl-os2.png</category_icon>
