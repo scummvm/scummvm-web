@@ -31,7 +31,7 @@
 	<li><i>Ulysses and the Golden Fleece</i></li>
 </ul>
 
-<p>There’s more than just new engines, too! A lot of work has been done to improve the overall audio and video systems so that they run faster and work better. TODO some more words here. A more complete list of changes in this release can be found in the <a href="http://scummvm.org/frs/scummvm/2.0.0/ReleaseNotes">ScummVM 2.0 release notes</a>.</p>
+<p>There’s more than just new engines, too! Support for some of the already supported games has been improved. Also a lot of work has been done to improve the overall audio and video systems so that they run faster and work better. Some players will also enjoy improved joystick support and the various small enhancements suggested by users. A more complete list of changes in this release can be found in the <a href="http://scummvm.org/frs/scummvm/2.0.0/ReleaseNotes">ScummVM 2.0 release notes</a>.</p>
 
 <p>And now, a big round of thanks and congratulations to everyone who made this release happen.</p>
 
@@ -41,7 +41,7 @@
 
 <p>Our extremely fantastic translators, who have helped bring ScummVM 2.0 to the users of 24 different Earth languages: Alex Jakovleff, Alexandre Folle de Menezes, Arius, Ben Castricum, Carlos, edward, Einar Johan Trøan Sømåen, Erik Zubiria, Ettore Atalan, Eugene Sandulenko, Fernando Sarmento, Filippos Karapetis, George Kormendi, Gilles, hampusf, Ivan Lukyanov, JanShing, Jennifer McMurray, jepael, jeroen klop, John Doe, Jordi Vilalta Prat, Jose Roses, Joseph-Eugene Winzer, lorz, Lothar Serra Mari, Luis, Lyubomyr Lisen, Manuel, Martin Schoenmakers, Max von Werner, Michael D., Milo Casagrande, mézes gergely, pablobecerra, Paolo Bossi, Pavel Kungurtsev, Pere Orga, Peter Johansson, Petter Sjölund, poulsen93, Purple T, rafaelmessias, Rafał Będźkowski, Rafał Rzepecki, Rodrigo Vegas Sánchez-Ferrero, Rossano, Rouven Bauer, Santiago G. Sanz, Santiago Sanchez, selmiak, Sergio Carmona, Simon Sawatzki, stevenew, Thierry Crozat, Timo Mikkolainen, Timofonic, Tobia Tesan, TomasM, Vitor Santos, Víctor Martínez Pajares, Walter Agazzi, wreednumero2, and Zbyněk Schwarz.</p>
 
-<p>Our extremely good looking porters, for turning ScummVM into something you can actually run: Colin Snover, Keith Scroggins, Manuel Alfayate, Marcus Comstedt, Tarek Soliman, and Thierry Crozat.</p>
+<p>Our extremely good looking porters and packagers, for turning ScummVM into something you can actually run: Bastien Bouclet, Cameron Cawley, Colin Snover, Joost Peters, Keith Scroggins, Luc Schrijvers, Manuel Alfayate, Marcus Comstedt, Tarek Soliman, Thierry Crozat, and Willem Jan Palenstijn.</p>
 
 <p>Our exceptionally wonderful technology sponsors, <a href="https://www.easyname.com/">easyname</a>, who provide us with servers and bandwidth so we can actually manage and send these releases to you.</p>
 
