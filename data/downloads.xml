@@ -18,7 +18,7 @@
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
 					<url>scummvm-{$release}-win32.exe</url>
-					<name><h:b>Windows Installer</h:b></name>
+					<name>Windows Installer</name>
 					<user_agent>Windows</user_agent>
 				</file>
 <!--
@@ -306,13 +306,17 @@
 					<url>scummvm-{$release}-irix-mips4.tar.gz</url>
 					<name>IRIX (6.5.*, n32, mips4) package</name>
 				</file>
-<!--
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
 					<url>scummvm_x86-{$release}-1-x86_gcc2.hpkg</url>
-					<name>Haiku package</name>
+					<name>Haiku package 32 bits</name>
 				</file>
-
+				<file>
+					<category_icon>catpl-haiku.png</category_icon>
+					<url>scummvm-{$release}-1-x86_64.hpkg</url>
+					<name>Haiku package 64 bits</name>
+				</file>
+<!--
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
 					<url>scummvm-{$release}-amigaos4.lha</url>
@@ -325,6 +329,11 @@
 					<name>MorphOS package</name>
 				</file>
 -->
+				<file>
+					<category_icon>catpl-riscos.png</category_icon>
+					<url type="tools">scummvm-{$release}-riscos.zip</url>
+					<name>Tools - RISC OS</name>
+				</file>
 				<file>
 					<category_icon>catpl-freemint.png</category_icon>
 					<url>scummvm-{$release}-atari-m68000.zip</url>
@@ -452,18 +461,29 @@
 					<url type="tools">scummvm-tools-{$release_tools}-beos.tgz</url>
 					<name>Tools - BeOS</name>
 				</file>
+-->
 				<file>
 					<category_icon>catpl-haiku.png</category_icon>
 					<url type="tools">scummvm_tools_x86-{$release_tools}-1-x86_gcc2.hpkg</url>
-					<name>Tools - Haiku package</name>
+					<name>Tools - Haiku package 32 bits</name>
 				</file>
-
+				<file>
+					<category_icon>catpl-haiku.png</category_icon>
+					<url type="tools">scummvm_tools-{$release_tools}-1-x86_64.hpkg</url>
+					<name>Tools - Haiku package 64 bits</name>
+				</file>
+<!--
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-amigaos4.lha</url>
 					<name>Tools - AmigaOS 4</name>
 				</file>
 -->
+				<file>
+					<category_icon>catpl-riscos.png</category_icon>
+					<url type="tools">scummvm-tools-{$release_tools}-riscos.zip</url>
+					<name>Tools - RISC OS</name>
+				</file>
 				<file>
 					<category_icon>catpl-freemint.png</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-atari.zip</url>
@@ -603,11 +623,6 @@
 					<category_icon>catpl-raspberry.png</category_icon>
 					<url>scummvm-1.9.0-raspberrypi.tar.gz</url>
 					<name>1.9.0 Raspberry Pi package</name>
-				</file>
-				<file>
-					<category_icon>catpl-haiku.png</category_icon>
-					<url>scummvm_x86-1.9.0-1-x86_gcc2.hpkg</url>
-					<name>1.9.0 Haiku package</name>
 				</file>
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
