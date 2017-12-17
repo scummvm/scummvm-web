@@ -331,8 +331,8 @@
 -->
 				<file>
 					<category_icon>catpl-riscos.png</category_icon>
-					<url type="tools">scummvm-{$release}-riscos.zip</url>
-					<name>Tools - RISC OS</name>
+					<url>scummvm-{$release}-riscos.zip</url>
+					<name>RISC OS package</name>
 				</file>
 				<file>
 					<category_icon>catpl-freemint.png</category_icon>
