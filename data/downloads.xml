@@ -410,11 +410,13 @@
 					<url type="tools">scummvm-tools-{$release_tools}-win32.exe</url>
 					<name>Tools - Windows Installer</name>
 				</file>
+-->
 				<file>
 					<category_icon>catpl-windows.png</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-win32.zip</url>
 					<name>Tools - Windows zipfile</name>
 				</file>
+<!--
 				<file>
 					<category_icon>catpl-fedora.png</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-1_F11.i586.rpm</url>
@@ -532,73 +534,73 @@
 			<entries>
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
-					<url>scummvm_1.9.0-jessie.1_i386.deb</url>
+					<url>1.9.0/scummvm_1.9.0-jessie.1_i386.deb</url>
 					<name>1.9.0 Debian 8 (jessie) i386 package</name>
 				</file>
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
-					<url>scummvm_1.9.0-jessie.1_amd64.deb</url>
+					<url>1.9.0/scummvm_1.9.0-jessie.1_amd64.deb</url>
 					<name>1.9.0 Debian 8 (jessie) x86 64bit package</name>
 				</file>
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
-					<url>scummvm_1.9.0-squeeze.1_powerpc.deb</url>
+					<url>1.9.0/scummvm_1.9.0-squeeze.1_powerpc.deb</url>
 					<name>1.9.0 Debian 6.0 (squeeze) PowerPC package</name>
 				</file>
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_1.9.0-yakkety.1_i386.deb</url>
+					<url>1.9.0/scummvm_1.9.0-yakkety.1_i386.deb</url>
 					<name>1.9.0 Ubuntu 16.10 (yakkety) i386 package</name>
 				</file>
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_1.9.0-yakkety.1_amd64.deb</url>
+					<url>1.9.0/scummvm_1.9.0-yakkety.1_amd64.deb</url>
 					<name>1.9.0 Ubuntu 16.10 (yakkety) x86 64bit package</name>
 				</file>
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_1.9.0-xenial.1_i386.deb</url>
+					<url>1.9.0/scummvm_1.9.0-xenial.1_i386.deb</url>
 					<name>1.9.0 Ubuntu 16.04 LTS (xenial) i386 package</name>
 				</file>
 
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_1.9.0-xenial.1_amd64.deb</url>
+					<url>1.9.0/scummvm_1.9.0-xenial.1_amd64.deb</url>
 					<name>1.9.0 Ubuntu 16.04 LTS (xenial) x86 64bit package</name>
 				</file>
 				<file>
 					<category_icon>catpl-android.png</category_icon>
-					<url>scummvm-1.9.0-android-all.apk</url>
+					<url>1.9.0/scummvm-1.9.0-android-all.apk</url>
 					<name>1.9.0 Android package for all platforms</name>
 				</file>
 				<file>
 					<category_icon>catpl-android.png</category_icon>
-					<url>scummvm-1.9.0-android-arm.apk</url>
+					<url>1.9.0/scummvm-1.9.0-android-arm.apk</url>
 					<name>1.9.0 Android ARM package</name>
 				</file>
 				<file>
 					<category_icon>catpl-android.png</category_icon>
-					<url>scummvm-1.9.0-android-armv7a.apk</url>
+					<url>1.9.0/scummvm-1.9.0-android-armv7a.apk</url>
 					<name>1.9.0 Android ARMv7a package</name>
 				</file>
 				<file>
 					<category_icon>catpl-android.png</category_icon>
-					<url>scummvm-1.9.0-android-arm64v8a.apk</url>
+					<url>1.9.0/scummvm-1.9.0-android-arm64v8a.apk</url>
 					<name>1.9.0 Android ARM64v8a package</name>
 				</file>
 				<file>
 					<category_icon>catpl-android.png</category_icon>
-					<url>scummvm-1.9.0-android-mips.apk</url>
+					<url>1.9.0/scummvm-1.9.0-android-mips.apk</url>
 					<name>1.9.0 Android MIPS package</name>
 				</file>
 				<file>
 					<category_icon>catpl-android.png</category_icon>
-					<url>scummvm-1.9.0-android-x86.apk</url>
+					<url>1.9.0/scummvm-1.9.0-android-x86.apk</url>
 					<name>1.9.0 Android x86 package</name>
 				</file>
 				<file>
 					<category_icon>catpl-ouya.png</category_icon>
-					<url>scummvm-1.9.0-android-ouya.apk</url>
+					<url>1.9.0/scummvm-1.9.0-android-ouya.apk</url>
 					<name>1.9.0 OUYA package</name>
 				</file>
 				<file>
@@ -609,43 +611,37 @@
 				</file>
 				<file>
 					<category_icon>catpl-iphone.png</category_icon>
-					<url>scummvm-1.9.0-ios7.deb</url>
+					<url>1.9.0/scummvm-1.9.0-ios7.deb</url>
 					<name>1.9.0 iOS 7+ package</name>
 					<user_agent>like Mac OS X</user_agent>
 				</file>
 				<file>
 					<category_icon>catpl-gcw0.png</category_icon>
-					<url>scummvm-1.9.0-gcw0.opk</url>
+					<url>1.9.0/scummvm-1.9.0-gcw0.opk</url>
 					<name>1.9.0 GCW-Zero package</name>
 				</file>
 
 				<file>
 					<category_icon>catpl-raspberry.png</category_icon>
-					<url>scummvm-1.9.0-raspberrypi.tar.gz</url>
+					<url>1.9.0/scummvm-1.9.0-raspberrypi.tar.gz</url>
 					<name>1.9.0 Raspberry Pi package</name>
 				</file>
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
-					<url>scummvm-1.9.0-amigaos4.lha</url>
+					<url>1.9.0/scummvm-1.9.0-amigaos4.lha</url>
 					<name>1.9.0 AmigaOS 4 package</name>
 					<user_agent>Amiga</user_agent>
 				</file>
 				<file>
 					<category_icon>catpl-os2.png</category_icon>
-					<url>scummvm-1.9.0-os2.zip</url>
+					<url>1.9.0/scummvm-1.9.0-os2.zip</url>
 					<name>1.9.0 OS/2 package</name>
 					<user_agent>OS/2</user_agent>
 				</file>
 				<file>
 					<category_icon>catpl-samsungtv.png</category_icon>
-					<url>scummvm-1.9.0-samsungtv.zip</url>
+					<url>1.9.0/scummvm-1.9.0-samsungtv.zip</url>
 					<name>1.9.0 Samsung TV package (2009 series)</name>
-				</file>
-
-				<file>
-					<category_icon>catpl-windows.png</category_icon>
-					<url type="tools">scummvm-tools-1.9.0-win32.exe</url>
-					<name>1.9.0 Tools - Windows Installer</name>
 				</file>
 
 				<file>
