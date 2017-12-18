@@ -280,7 +280,7 @@
 				<file>
 					<category_icon>catpl-raspberry.png</category_icon>
 					<url>scummvm-{$release}-rpi.zip</url>
-					<name>Raspberry Pi package (for Pi 2&3)</name>
+					<name>Raspberry Pi package (for Pi 2 and 3)</name>
 				</file>
 <!--
 				<file>
