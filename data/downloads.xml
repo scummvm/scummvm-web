@@ -142,6 +142,11 @@
 					<url>scummvm-{$release}-vita.vpk</url>
 					<name>PlayStation Vita package</name>
 				</file>
+				<file>
+					<category_icon>catpl-android.png</category_icon>
+					<url>scummvm-{$release}-android-unsigned.apk</url>
+					<name>Android package (unsigned)</name>
+				</file>
 <!--
 				<file>
 					<category_icon>catpl-android.png</category_icon>
