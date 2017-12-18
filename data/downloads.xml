@@ -633,6 +633,12 @@
 					<user_agent>Amiga</user_agent>
 				</file>
 				<file>
+					<category_icon>catpl-psp.png</category_icon>
+					<url>1.9.0/scummvm-1.9.0-psp.zip</url>
+					<name>PSP (PlayStation Portable) package</name>
+				</file>
+				<file>
+				<file>
 					<category_icon>catpl-os2.png</category_icon>
 					<url>1.9.0/scummvm-1.9.0-os2.zip</url>
 					<name>1.9.0 OS/2 package</name>
