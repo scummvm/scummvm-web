@@ -276,12 +276,13 @@
 					<url>scummvm-{$release}-gcw0.opk</url>
 					<name>GCW-Zero package</name>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-raspberry.png</category_icon>
-					<url>scummvm-{$release}-raspberrypi.tar.gz</url>
-					<name>Raspberry Pi package</name>
+					<url>scummvm-{$release}-rpi.zip</url>
+					<name>Raspberry Pi package (for Pi 2&3)</name>
 				</file>
+<!--
 				<file>
 					<category_icon>catpl-solaris.png</category_icon>
 					<url>scummvm-{$release}-solaris10-sparc.pkg.7z</url>
@@ -614,12 +615,6 @@
 					<category_icon>catpl-gcw0.png</category_icon>
 					<url>1.9.0/scummvm-1.9.0-gcw0.opk</url>
 					<name>1.9.0 GCW-Zero package</name>
-				</file>
-
-				<file>
-					<category_icon>catpl-raspberry.png</category_icon>
-					<url>1.9.0/scummvm-1.9.0-raspberrypi.tar.gz</url>
-					<name>1.9.0 Raspberry Pi package</name>
 				</file>
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
