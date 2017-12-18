@@ -145,7 +145,7 @@
 				<file>
 					<category_icon>catpl-android.png</category_icon>
 					<url>scummvm-{$release}-android-unsigned.apk</url>
-					<name>Android package (unsigned)</name>
+					<name>Android ARMv7a package (unsigned)</name>
 				</file>
 <!--
 				<file>
@@ -157,11 +157,6 @@
 					<category_icon>catpl-android.png</category_icon>
 					<url>scummvm-{$release}-android-arm.apk</url>
 					<name>Android ARM package</name>
-				</file>
-				<file>
-					<category_icon>catpl-android.png</category_icon>
-					<url>scummvm-{$release}-android-armv7a.apk</url>
-					<name>Android ARMv7a package</name>
 				</file>
 				<file>
 					<category_icon>catpl-android.png</category_icon>
@@ -582,11 +577,6 @@
 					<category_icon>catpl-android.png</category_icon>
 					<url>1.9.0/scummvm-1.9.0-android-arm.apk</url>
 					<name>1.9.0 Android ARM package</name>
-				</file>
-				<file>
-					<category_icon>catpl-android.png</category_icon>
-					<url>1.9.0/scummvm-1.9.0-android-armv7a.apk</url>
-					<name>1.9.0 Android ARMv7a package</name>
 				</file>
 				<file>
 					<category_icon>catpl-android.png</category_icon>
