@@ -1,0 +1,83 @@
+/* https://css-tricks.com/dont-overthink-it-grids/ */
+
+[class*='col-'] {
+    float: left;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+[class*='col-'] {
+    padding-right: 20px;
+}
+
+[class*='col-']:last-of-type {
+    padding-right: 0;
+}
+
+.grid-pad {
+    padding: 20px 0 20px 20px;
+}
+
+.grid-pad>[class*='col-']:last-of-type {
+    padding-right: 20px;
+}
+
+.col-1-2 {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.col-1-1 {
+    width: 100%;  
+}
+
+.col-1-5 {
+    width: 20%;
+}
+
+.col-4-5 {
+    width: 80%;
+}
+
+@media (max-width: 640px) {
+    /* CSS Rules used when query matches */
+    
+    .col-1-2 {
+        background: rgb(212,120,11);
+    }
+
+    .col-4-5 {
+        width: 100%;
+    }    
+}
+
+@media (max-width: 767px) {
+	/* CSS Rules used when query matches */
+	.header-image {
+        display: none;
+    }  
+}
+
+.header-image { 
+    position: absolute;   
+    right: 0;
+}
+
+#lb-image, .lb-dataContainer, .lb-outerContainer { 
+    max-width: 100%; 
+    height: auto !important; 
+    width: auto !important; 
+}
