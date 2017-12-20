@@ -5,31 +5,7 @@
 {assign var='rand_file' value=$rand_files[$rand_pos]}
 
 {* Introduction header, included from index.tpl *}
-<div id="intro_header">
-	{* Screenshots. *}
-	<div class="sshots">
-		<div class="rbtop">
-			<div>
-				<p>
-					{include file='shadowed_text.tpl' text=#introHeaderScreenshots# shadowcolor='#fff' textcolor='#356a02'}
-				</p>
-			</div>
-		</div>
-		<div class="rbcontent">
-			<a href="/screenshots/{$random_shot.category}/{$random_shot.screenshot->getCategory()}/{$rand_pos+1}" id="screenshots_random">
-				<img src="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}.jpg" width="128" height="96" title="{#introHeaderFullsize#}" alt="{#introHeaderRandom#}">
-			</a>
-		</div>
-		<div class="rbbot">
-			<div>
-				<p>
-					<a href="/screenshots/" id="screenshots_prev">{#introHeaderPrevShot#}</a>
-					<a href="/screenshots/" id="screenshots_next">{#introHeaderNextShot#}</a>
-				</p>
-			</div>
-		</div>
-	</div>
-
+<div id="intro_header">	
 	{* Introduction text. *}
 	<div class="rbroundbox intro">
 		<div class="rbtop">
@@ -65,5 +41,29 @@
 			</div>
 		</div>
 		<div class="rbbot"><div><p>&nbsp;</p></div></div>
+	</div>
+
+	{* Screenshots. *}
+	<div class="sshots">
+		<div class="rbtop">
+			<div>
+				<p>
+					{include file='shadowed_text.tpl' text=#introHeaderScreenshots# shadowcolor='#fff' textcolor='#356a02'}
+				</p>
+			</div>
+		</div>
+		<div class="rbcontent">
+			<a href="/screenshots/{$random_shot.category}/{$random_shot.screenshot->getCategory()}/{$rand_pos+1}" id="screenshots_random">
+				<img src="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}.jpg" width="128" height="96" title="{#introHeaderFullsize#}" alt="{#introHeaderRandom#}">
+			</a>
+		</div>
+		<div class="rbbot">
+			<div>
+				<p>
+					<a href="/screenshots/" id="screenshots_prev">{#introHeaderPrevShot#}</a>
+					<a href="/screenshots/" id="screenshots_next">{#introHeaderNextShot#}</a>
+				</p>
+			</div>
+		</div>
 	</div>
 </div>

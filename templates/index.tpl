@@ -7,9 +7,10 @@
 	<base href="{$baseurl}">
 	<style type="text/css">
 		{* General CSS rules. *}
-		@import url("{$baseurl}css/layout.css");
+		@import url("{$baseurl}css/layout.css");		
 		@import url("{$baseurl}css/menu.css");
 		@import url("{$baseurl}css/lang-menu.css");
+		@import url("{$baseurl}css/grid.css");
 		{* Page specific, or other extra CSS rules. *}
 		{foreach from=$css_files item=filename}
 		@import url("{$baseurl}css/{$filename}");
@@ -25,24 +26,52 @@
 	<link rel="apple-touch-icon" href="/images/scummvm.png">
 	<title>ScummVM :: {$title}</title>
 </head>
-<body>
-
+<body>	
 	{* Header. *}
-	<div id="header">
-		<a href="{$baseurl}">
-			<img src="/images/scummvm_logo.jpg" width="287" height="118" alt="{#indexLogo#}" class="float_left">
-		</a>
-
-		<span>
-			<img src="/images/heroes{$heroes_num|rand:0}.png" alt="{#indexCharacters#}" width="483" height="89">
-			<img src="/images/scummvm-caption.png" alt="Script creation utility for Maniac Mansion Virtual Machine" width="483" height="29">
-		</span>
+	<div id="header" class="row">
+		<div class="col-1-2">
+			<a href="{$baseurl}">
+				<img src="/images/scummvm_logo.jpg" width="287" height="118" alt="{#indexLogo#}" class="float_left">
+			</a>
+		</div>
+		<div class="col-1-2">				
+				<img class="header-image" src="/images/heroes{$heroes_num|rand:0}.png" alt="{#indexCharacters#}">			
+				<img class="header-image" id="caption" src="/images/scummvm-caption.png" alt="Script creation utility for Maniac Mansion Virtual Machine">
+		</div>
 		{include file='lang_menu.tpl'}
 	</div>
 
-	<div id="container">
+	<div id="container" class="row">		
+		{* Content *}
+		<div id="content" class="col-4-5">
+			{* Introduction text and screenshot viewer. *}
+			{if isset($show_intro) && $show_intro}
+				{include file='intro_header.tpl'}
+			{/if}
+
+			{* The actual content. *}
+			<div class="rbroundbox">
+				<div class="rbtop">
+					<div>
+						<p>
+							{include file='shadowed_text.tpl' text=$content_title shadowcolor='#fff' textcolor='#821d06'}
+						</p>
+					</div>
+				</div>
+				<div class="rbcontent">
+					<div class="rbwrapper">
+						{$content}
+					</div>
+				</div>
+				<div class="rbbot"><div><p>&nbsp;</p></div></div>
+			</div>
+		</div>
+
 		{* Menu. *}
-		<div id="menu">
+		<input type="checkbox" autocomplete="off" id="nav-trigger" class="nav-trigger" />
+		<label for="nav-trigger"></label>
+
+		<div id="menu" class="slide-menu col-1-5">
 			{foreach from=$menus item=menu}
 				{include file='menu_group.tpl' menu=$menu}
 			{/foreach}
@@ -76,35 +105,13 @@
 					<img src="/images/twitter.png" width="88" height="32" alt="{#indexTwitter#}">
 				</a>
 			</div>
-		</div>
+			<img src="/images/tentacle.png" alt="Tentacle" class="float_right tentacle">
+		</div>		
+	</div>
 
-		{* Content *}
-		<div id="content">
-			{* Introduction text and screenshot viewer. *}
-			{if isset($show_intro) && $show_intro}
-				{include file='intro_header.tpl'}
-			{/if}
-
-			{* The actual content. *}
-			<div class="rbroundbox">
-				<div class="rbtop">
-					<div>
-						<p>
-							{include file='shadowed_text.tpl' text=$content_title shadowcolor='#fff' textcolor='#821d06'}
-						</p>
-					</div>
-				</div>
-				<div class="rbcontent">
-					<div class="rbwrapper">
-						{$content}
-					</div>
-				</div>
-				<div class="rbbot"><div><p>&nbsp;</p></div></div>
-			</div>
-		</div>
-
-		{strip}
-		<div id="footer">
+	{strip}
+	<div id="footer" class="row">
+		<div class="col-4-5"> 
 			<a href="https://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
 				<img src="/images/GOG_button_small.png" alt="{#indexGOG#}" width="88" height="32">
 			</a>
@@ -118,27 +125,27 @@
 				<img src="https://jigsaw.w3.org/css-validator/images/vcss" width="88" height="31" alt="Valid CSS!">
 			</a>
 		</div>
-		{/strip}
-		<img src="/images/tentacle.png" alt="Tentacle" width="163" height="296" class="float_right tentacle">
+
+		<div class="col-1-5">
+			
+		</div>
 	</div>
+	{/strip}
+		
+
 	<div class="float_clear_left"></div>
 
-	<div id="legal">
-		<p>
-			{#indexLegal#}
-		</p>
+	<div id="legal" class="row">
+		<div class="col-1-1">
+			<p>
+				{#indexLegal#}
+			</p>
+		</div>
 	</div>
 
 {foreach from=$js_files item=script}
 	<script type="text/javascript" src="/javascripts/{$script}"></script>
 {/foreach}
-{* Google analytics javascript. *}
-	<script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
-	<script type="text/javascript">
-		_uacct = "UA-1455743-1";
-		_udn = "scummvm.org";
-		urchinTracker();
-	</script>
-{* End Google analytics javascript. *}
+
 </body>
 </html>

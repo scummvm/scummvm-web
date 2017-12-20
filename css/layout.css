@@ -2,41 +2,50 @@ body {
 	font: normal 9pt/normal verdana, tahoma, arial, helvetica, sans-serif;
 	background: rgb(239, 196, 24) url('../images/body-bg.png') repeat-x scroll 0 0;
 	margin: 0 auto;
-	min-width: 1031px;
-	max-width: 1500px;
+	max-width: 960px;		
 }
 
 #header {
-	background: transparent url('../images/bg-upper.gif') repeat scroll 0 0;
+	/* background: transparent url('../images/bg-upper.gif') repeat scroll 0 0; */
 	height: 118px;
+	border-bottom: solid #f6e18d 29px;	
 	margin: 0 auto;
-	width: 90%;
+	/* width: 90%; */
 }
 
 #header span {
 	float: right;
-	width: 483px;
+	/* width: 483px; */
 }
 
 #header span img {
 	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
+#caption {
+	position: absolute;
+	bottom: -29px;
+	right: 0px;
+}
 #container {
 	background: rgb(251, 241, 206);
 	margin: 0;
 	margin: 0px auto;
 	min-height: 1080px;
 	position: relative;
-	width: 90%;
+	/* width: 90%; */
 }
-
+  
 #menu {
 	font-size: 8pt;
-	right: -11px;
-	position: absolute;
-	top: 0px;
-	width: 145px;
+	padding-right: 8px;
+	/* white-space: nowrap; */
+	/* right: -31px; */
+	/* position: absolute; */
+	/* top: 0px; */
+	/* width: 145px; */
 }
 
 #menu .monkey {
@@ -46,38 +55,47 @@ body {
 	top: -8px;
 }
 
-#menu_banners a {
+#menu_banners a,
+#menu_banners form {
 	float: left;
 	margin-bottom: 3px;
+	padding: 5px;
 }
 
 #content {
 	background: transparent url('../images/content-bg.jpg') no-repeat scroll top left;
-	margin-right: 145px;
-	padding: 0px 0px 54px 8px;
+	/* margin-right: 145px; */
+	/* padding: 0px 0px 54px 8px; */
+	padding-left: 8px;
 }
 
 #footer {
-	background: url('../images/content-left-bottom.gif') no-repeat scroll bottom left;
-	bottom: 0px;
-	height: 32px;
-	margin: 0px;
+	/* background: url('../images/content-left-bottom.gif') no-repeat scroll bottom left; */
+	background: rgb(251, 241, 206);
+	border-radius: 0 0 15px 15px;
+	border-bottom: solid rgb(251, 241, 206) 1px;
+	min-height: 52px;
 	padding: 10px;
-	position: absolute;
-	width: 85%;
+	/* bottom: 0px;
+	
+	margin: 0px;
+	 */
+	/* position: absolute; */
+	/* width: 85%; */
 	text-align: center;
 }
 
 #footer a {
 	float: left;
-	width: 16%;
+	/* width: 16%; */
+	margin: 8px;
 }
 
 #legal {
 	color: rgb(185, 151, 14);
 	margin: 25px auto 5px auto;
 	text-align: right;
-	width: 90%;
+	/* width: 90%; */
 }
 
 #legal a {
@@ -94,7 +112,6 @@ body {
 	bottom: -84px;
 	right: -28px;
 }
-
 
 .box {
 	background: rgb(231, 231, 231);
@@ -337,9 +354,27 @@ span.red {
 	height: 0px;
 }
 
-
 .bottom-link a {
 	/*color: #a82709;*/
 	font-weight: bold;
 	text-decoration: none;
+}
+
+@media (max-width: 640px) {
+	/* CSS Rules used when query matches */
+	.tentacle {
+        /* width: 0%; */
+        display: none;
+    }
+
+    #header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+    }
+
+    #container {
+        margin-top: 118px;
+	}
 }
