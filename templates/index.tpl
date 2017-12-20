@@ -30,12 +30,12 @@
 <body>	
 	{* Header. *}
 	<div id="header" class="row">
-		<div class="col-1-2">
+		<div class="col-1-2 header-left">
 			<a href="{$baseurl}">
 				<img src="/images/scummvm_logo.jpg" width="287" height="118" alt="{#indexLogo#}" class="float_left">
 			</a>
 		</div>
-		<div class="col-1-2">				
+		<div class="col-1-2 header-right">				
 				<img class="header-image" src="/images/heroes{$heroes_num|rand:0}.png" alt="{#indexCharacters#}">			
 				<img class="header-image" id="caption" src="/images/scummvm-caption.png" alt="Script creation utility for Maniac Mansion Virtual Machine">
 		</div>
