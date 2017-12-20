@@ -55,9 +55,16 @@
 @media (max-width: 640px) {
     /* CSS Rules used when query matches */
     
-    .col-1-2:first {
-        background: rgb(212,120,11);
+    .col-1-2 {
+        background: rgb(212,120,11);        
+    }
+
+    .header-left {
         width: 100%;
+    }
+
+    .header-right {
+        display: none;
     }
 
     .col-4-5 {
