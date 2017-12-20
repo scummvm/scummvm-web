@@ -317,13 +317,14 @@
 					<url>scummvm-{$release}-1-x86_64.hpkg</url>
 					<name>Haiku package 64 bits</name>
 				</file>
-<!--
+
 				<file>
 					<category_icon>catpl-amiga.png</category_icon>
 					<url>scummvm-{$release}-amigaos4.lha</url>
 					<name>AmigaOS 4 package</name>
 					<user_agent>Amiga</user_agent>
 				</file>
+<!--
 				<file>
 					<category_icon>catpl-morphos.png</category_icon>
 					<url>scummvm-{$release}-morphos.lha</url>
@@ -615,12 +616,6 @@
 					<category_icon>catpl-gcw0.png</category_icon>
 					<url>1.9.0/scummvm-1.9.0-gcw0.opk</url>
 					<name>1.9.0 GCW-Zero package</name>
-				</file>
-				<file>
-					<category_icon>catpl-amiga.png</category_icon>
-					<url>1.9.0/scummvm-1.9.0-amigaos4.lha</url>
-					<name>1.9.0 AmigaOS 4 package</name>
-					<user_agent>Amiga</user_agent>
 				</file>
 				<file>
 					<category_icon>catpl-psp.png</category_icon>
