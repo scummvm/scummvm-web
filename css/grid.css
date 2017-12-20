@@ -55,8 +55,9 @@
 @media (max-width: 640px) {
     /* CSS Rules used when query matches */
     
-    .col-1-2 {
+    .col-1-2:first {
         background: rgb(212,120,11);
+        width: 100%;
     }
 
     .col-4-5 {
