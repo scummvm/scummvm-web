@@ -75,7 +75,7 @@ div.sshots .rbcontent  {
 
 #screenshots_prev,
 #screenshots_next {
-	font-size: x-small;
+	font-size: 14px;
 }
 
 
@@ -90,4 +90,18 @@ div.sshots .rbcontent  {
 
 span.grey {
 	color: #666;
+}
+
+@media (max-width: 640px) {
+	/* CSS Rules used when query matches */
+
+    div.sshots {
+        position: relative;
+        width: 100%;
+        
+    }
+
+    #intro_header div.intro {
+        margin: 0px;
+    }
 }
