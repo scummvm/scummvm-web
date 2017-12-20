@@ -1,14 +1,18 @@
 div.menugroup {
-	background: transparent url('../images/menu-bottom.gif') scroll no-repeat bottom left;
+	/* background: transparent url('../images/menu-bottom.gif') scroll no-repeat bottom left; */
 	/*font-size: 9pt;*/
+	background: rgb(168, 39, 9);
 	margin-bottom: 8px;
 	overflow: hidden;
 	padding-bottom: 12px;
-	width: 145px;
+	border-radius: 15px;
+	border-bottom: solid rgb(251, 241, 206) 1px;
+	/* width: 145px; */
 }
 
 div.menugroup h1 {
-	background-repeat: no-repeat;
+	background-color: rgb(130,29,6);
+	/* background-repeat: no-repeat; */
 	color: rgb(221, 221, 0);
 	font-size: 7.5pt;
 	line-height: 3.3;
@@ -19,20 +23,28 @@ div.menugroup h1 {
 }
 
 div.menugroup h1.menu-main {
-	background: url('../images/menu-main.gif');
+	background-image: url('../images/menu-main.gif');
+	background-position: right;
+	background-repeat: no-repeat;
 }
 
 div.menugroup h1.menu-docs {
-	background: url('../images/menu-misc.gif');
+	background-image: url('../images/menu-misc.gif');
+	background-position: right;
+	background-repeat: no-repeat;
 }
 
 div.menugroup h1.menu-sf {
-	background: url('../images/menu-sf.gif');
-	padding: 0px 18px;
+	background-image: url('../images/menu-sf.gif');
+	background-position: right;
+	background-repeat: no-repeat;
+	/* padding: 0px 18px; */
 }
 
 div.menugroup h1.menu-misc {
-	background: url('../images/menu-misc.gif');
+	background-image: url('../images/menu-misc.gif');
+	background-position: right;
+	background-repeat: no-repeat;
 }
 
 div.menugroup ul {
@@ -61,4 +73,75 @@ div.menugroup a {
 
 div.menugroup a:hover {
 	color: rgb(255, 255, 0);
+}
+
+/* Responsive Menu */
+
+  /* Nav Trigger */
+  .nav-trigger {	
+	/* critical styles - hide the checkbox input */
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+	color: rgb(130,29,6);
+  }
+  
+  label[for="nav-trigger"] {
+	/* critical positioning styles */
+	display: none;
+	position: fixed;
+	right: 15px; top: 15px;
+	z-index: 2;	
+	
+	/* non-critical apperance styles */
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6' fill='rgb(130,29,6)'/><rect y='24' width='30' height='6' fill='rgb(130,29,6)'/><rect y='12' width='30' height='6' fill='rgb(130,29,6)'/></svg>");
+	background-size: contain;
+  }
+  
+  /* Make the Magic Happen */
+  .nav-trigger + label, .slide-menu {
+	transition: right 0.2s ease-in-out;
+  }
+  
+  .nav-trigger:checked + label {
+	right: 155px;
+  }
+
+  .nav-trigger:checked ~ .slide-menu {
+	right: 0px;
+	/* box-shadow: 0 0 5px 5px rgba(0,0,0,0.5); */
+  }    
+  
+  body {
+	  /* Without this, the body has excess horizontal scroll when the menu is open */
+	overflow-x: hidden;
+  }	
+
+  @media (max-width: 640px) {
+	/* CSS Rules used when query matches */
+
+	.slide-menu {
+		/* critical sizing and position styles */
+		width: 100%;
+		height: 100%;
+		min-width: 145px;
+		position: fixed;
+		top: 0;
+		right: -145px;
+		bottom: 0;	
+		z-index: 9999;		
+		background: rgb(251, 241, 206);	
+		padding-left: 8px;
+		padding-top: 8px;	
+		overflow-y: scroll;		
+	}		
+
+	label[for="nav-trigger"] {
+		display: block;
+		z-index: 99999;
+		background-color: rgb(212,120,11);
+		border: solid 1px rgb(212,120,11);
+	}
 }
