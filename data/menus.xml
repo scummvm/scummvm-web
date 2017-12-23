@@ -60,10 +60,6 @@
 			<href>http://bugs.scummvm.org/</href>
 		</link>
 		<link>
-			<name>Feature Requests</name>
-			<href>https://sourceforge.net/p/scummvm/feature-requests/</href>
-		</link>
-		<link>
 			<name>Patch Tracker</name>
 			<href>https://github.com/scummvm/scummvm/pulls</href>
 		</link>
