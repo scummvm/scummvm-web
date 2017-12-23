@@ -1,6 +1,11 @@
 # Enable mod_rewrite
 RewriteEngine On
 
+# Always redirect to HTTPS except when browsing in localhost
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} !=localhost
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 # Set the base for the rewritten URLs
 # NOTE: When debugging locally, set this to the directory the site is in
 RewriteBase /
