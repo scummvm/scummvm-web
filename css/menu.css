@@ -80,9 +80,10 @@ div.menugroup a:hover {
   /* Nav Trigger */
   .nav-trigger {	
 	/* critical styles - hide the checkbox input */
-	/* position: absolute; */
+	/* position: absolute;
 	clip: rect(0, 0, 0, 0);
-	color: rgb(130,29,6);
+	color: rgb(130,29,6); */
+	display: none;
   }
   
   label[for="nav-trigger"] {
