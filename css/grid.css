@@ -56,9 +56,13 @@
     /* CSS Rules used when query matches */
     
     .col-1-2 {
-        background: rgb(212,120,11);        
+        background: rgb(212, 120, 11);
     }
 
+    body {
+        background: rgb(212, 120, 11);
+    }
+    
     .header-left {
         width: 100%;
     }

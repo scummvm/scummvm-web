@@ -100,9 +100,24 @@ div.menugroup a:hover {
 	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6' fill='rgb(130,29,6)'/><rect y='24' width='30' height='6' fill='rgb(130,29,6)'/><rect y='12' width='30' height='6' fill='rgb(130,29,6)'/></svg>");
 	background-size: contain;
   }
+
+  .site-wrap {
+	/* Critical position and size styles */
+	min-height: 100%;
+	min-width: 100%;
+	
+	position: relative;
+	top: 0;
+	bottom: 100%;
+	right: 0;
+	z-index: 1;	
+  }
   
   /* Make the Magic Happen */
-  .nav-trigger + label, .slide-menu {
+  .nav-trigger + label, 
+  .slide-menu, 
+  .site-wrap,
+  #header {
 	transition: right 0.2s ease-in-out;
   }
   
@@ -110,8 +125,14 @@ div.menugroup a:hover {
 	right: 155px;
   }
 
-  .nav-trigger:checked ~ .slide-menu {
+  .nav-trigger:checked ~ .site-wrap > #container > .slide-menu {
 	right: 0px;
+	/* box-shadow: 0 0 5px 5px rgba(0,0,0,0.5); */
+  }   
+  
+  .nav-trigger:checked ~ .site-wrap, 
+  .nav-trigger:checked ~ .site-wrap > #header {	
+	right: 155px;
 	/* box-shadow: 0 0 5px 5px rgba(0,0,0,0.5); */
   }    
   
@@ -133,11 +154,19 @@ div.menugroup a:hover {
 		right: -145px;
 		bottom: 0;	
 		z-index: 9999;		
-		background: rgb(251, 241, 206);	
+		background: rgb(212, 120, 11);
 		padding-left: 8px;
 		padding-top: 8px;	
 		overflow-y: scroll;		
 	}		
+
+	.header-right {
+		display: none;
+	}
+
+	.header-left {
+		width: 100%;
+	}
 
 	label[for="nav-trigger"] {
 		display: block;
