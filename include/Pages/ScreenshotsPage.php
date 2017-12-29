@@ -17,16 +17,12 @@ class ScreenshotsPage extends Controller {
 	/* Display the index page. */
 	public function index() {
 		$category = $_GET['cat'];
-		$game = $_GET['game'];
-		$num = $_GET['num'];
-		$json = $_POST['json'];
+		$game = $_GET['game'];		
+		$json = $_POST['json'];		
 
 		if (!empty($json)) {
 			return $this->getAllJSON();
-		} else if (!empty($category)) {
-			if (!empty($game) && !empty($num)) {
-				return $this->getGame($category, $game, $num);
-			}
+		} else if (!empty($category)) {			
 			return $this->getCategory($category, $game);
 		}
 
@@ -89,28 +85,7 @@ class ScreenshotsPage extends Controller {
 			),
 			$this->_template_category
 		);
-	}
-
-	/* Display the screenshot viewer. */
-	public function getGame($category, $game, $num = 1) {
-		$this->addCSSFiles('screenshots.css');
-
-		$screenshot = ScreenshotsModel::getTargetScreenshots($game);
-
-		global $Smarty;
-
-		return $this->renderPage(
-			array(
-				'title' => $Smarty->_config[0]['vars']['screenshotsTitle'],
-				'content_title' => $Smarty->_config[0]['vars']['screenshotsContentTitle'],
-				'screenshot' => $screenshot,
-				'category' => $category,
-				'game' => $game,
-				'num' => $num - 1,
-			),
-			$this->_template_viewer
-		);
-	}
+	}	
 
 	/* Get a list with all screenshot filenames/captions as a JSON list. */
 	public function getAllJSON() {
