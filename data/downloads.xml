@@ -44,33 +44,33 @@
 					<url>scummvm-{$release}-1.x86_64.rpm</url>
 					<name>Fedora 24+ x86 64bit package</name>
 				</file>
-<!--
-				<file>
-					<category_icon>catpl-debian.png</category_icon>
-					<url>scummvm_{$release}-jessie.1_i386.deb</url>
-					<name>Debian 8 (jessie) i386 package</name>
-				</file>
-				<file>
-					<category_icon>catpl-debian.png</category_icon>
-					<url>scummvm_{$release}-jessie.1_amd64.deb</url>
-					<name>Debian 8 (jessie) x86 64bit package</name>
-				</file>
 
+				<file>
+					<category_icon>catpl-debian.png</category_icon>
+					<url>scummvm_{$release}-stretch.1_i386.deb</url>
+					<name>Debian 9 (stretch) i386 package</name>
+				</file>
+				<file>
+					<category_icon>catpl-debian.png</category_icon>
+					<url>scummvm_{$release}-stretch.1_amd64.deb</url>
+					<name>Debian 9 (stretch) x86 64bit package</name>
+				</file>
+<!--
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
 					<url>scummvm_{$release}-squeeze.1_powerpc.deb</url>
 					<name>Debian 6.0 (squeeze) PowerPC package</name>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_{$release}-yakkety.1_i386.deb</url>
-					<name>Ubuntu 16.10 (yakkety) i386 package</name>
+					<url>scummvm_{$release}-zesty.1_i386.deb</url>
+					<name>Ubuntu 17.04 (zesty) i386 package</name>
 				</file>
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>scummvm_{$release}-yakkety.1_amd64.deb</url>
-					<name>Ubuntu 16.10 (yakkety) x86 64bit package</name>
+					<url>scummvm_{$release}-zesty.1_amd64.deb</url>
+					<name>Ubuntu 17.04 (zesty) x86 64bit package</name>
 					<user_agent>Ubuntu</user_agent>
 				</file>
 
@@ -85,6 +85,7 @@
 					<name>Ubuntu 16.04 LTS (xenial) x86 64bit package</name>
 					<user_agent>Ubuntu</user_agent>
 				</file>
+<!--
 				<file>
 					<category_icon>catpl-slackware.png</category_icon>
 					<url>scummvm-{$release}_slack-i486-1.tgz</url>
@@ -363,13 +364,13 @@
 					<name>OS/2 package</name>
 					<user_agent>OS/2</user_agent>
 				</file>
-
+-->
 				<file>
 					<category_icon>catpl-samsungtv.png</category_icon>
 					<url>scummvm-{$release}-samsungtv.zip</url>
 					<name>Samsung TV package (2009 series)</name>
 				</file>
--->
+
 			</entries>
 		</subsection>
 
@@ -541,35 +542,9 @@
 			<entries>
 				<file>
 					<category_icon>catpl-debian.png</category_icon>
-					<url>1.9.0/scummvm_1.9.0-jessie.1_i386.deb</url>
-					<name>1.9.0 Debian 8 (jessie) i386 package</name>
-				</file>
-				<file>
-					<category_icon>catpl-debian.png</category_icon>
-					<url>1.9.0/scummvm_1.9.0-jessie.1_amd64.deb</url>
-					<name>1.9.0 Debian 8 (jessie) x86 64bit package</name>
-				</file>
-				<file>
-					<category_icon>catpl-debian.png</category_icon>
 					<url>1.9.0/scummvm_1.9.0-squeeze.1_powerpc.deb</url>
 					<name>1.9.0 Debian 6.0 (squeeze) PowerPC package</name>
 				</file>
-				<file>
-					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>1.9.0/scummvm_1.9.0-yakkety.1_i386.deb</url>
-					<name>1.9.0 Ubuntu 16.10 (yakkety) i386 package</name>
-				</file>
-				<file>
-					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>1.9.0/scummvm_1.9.0-yakkety.1_amd64.deb</url>
-					<name>1.9.0 Ubuntu 16.10 (yakkety) x86 64bit package</name>
-				</file>
-				<file>
-					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>1.9.0/scummvm_1.9.0-xenial.1_i386.deb</url>
-					<name>1.9.0 Ubuntu 16.04 LTS (xenial) i386 package</name>
-				</file>
-
 				<file>
 					<category_icon>catpl-ubuntu.png</category_icon>
 					<url>1.9.0/scummvm_1.9.0-xenial.1_amd64.deb</url>
@@ -632,11 +607,6 @@
 					<url>1.9.0/scummvm-1.9.0-os2.zip</url>
 					<name>1.9.0 OS/2 package</name>
 					<user_agent>OS/2</user_agent>
-				</file>
-				<file>
-					<category_icon>catpl-samsungtv.png</category_icon>
-					<url>1.9.0/scummvm-1.9.0-samsungtv.zip</url>
-					<name>1.9.0 Samsung TV package (2009 series)</name>
 				</file>
 
 				<file>
