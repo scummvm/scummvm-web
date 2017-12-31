@@ -6,27 +6,25 @@
 		<div class="head">{eval var=$dsection->getTitle()}</div>
 
 		{if $smarty.foreach.downloads_loop.first}
-		<div class="intro">
-			<div class="navigation">
-				<h2>{#gamesHeader#}</h2>
+		<div class="intro row">			
+			<div class="navigation col-1-2">
+				<h4>{#gamesHeader#}</h4>
 				<ul>
 				{foreach from=$sections item=arr}
 					<li><a href="/games/#{$arr.anchor}">{eval var=$arr.title}</a></li>
 				{/foreach}
 				</ul>
 			</div>
-			<div class="text">
+			<div class="text col-1-2">
 				<ul>
-					<li>
-						{#gamesContentP1#}
-					</li>
-					<li>
-						{#gamesContentP2#}
-					</li>
+					<li>{#gamesContentP1#}</li>
+					<li>{#gamesContentP2#}</li>
 				</ul>
-			</div>
-			<div class="spacing"></div>
+			</div>			
 		</div>
+		<div class="content">
+		{else}
+		<div class="content">
 		{/if}
 
 		{foreach from=$dsection->getSubSections() item=dsubsection}
@@ -48,5 +46,6 @@
 				{/if}
 			</div>
 		{/foreach}
+		</div>
 	</div>
 {/foreach}

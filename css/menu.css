@@ -1,177 +1,62 @@
-div.menugroup {
-	/* background: transparent url('../images/menu-bottom.gif') scroll no-repeat bottom left; */
-	/*font-size: 9pt;*/
-	background: rgb(168, 39, 9);
-	margin-bottom: 8px;
+/* Menu */
+
+nav dl {
+	white-space: nowrap;
 	overflow: hidden;
-	padding-bottom: 12px;
 	border-radius: 15px;
-	border-bottom: solid rgb(251, 241, 206) 1px;
-	/* width: 145px; */
-}
-
-div.menugroup h1 {
-	background-color: rgb(130,29,6);
-	/* background-repeat: no-repeat; */
-	color: rgb(221, 221, 0);
-	font-size: 7.5pt;
-	line-height: 3.3;
-	height: 34px;
-	margin: 0px;
-	padding: 0px 24px;
-	text-align: left;
-}
-
-div.menugroup h1.menu-main {
-	background-image: url('../images/menu-main.gif');
-	background-position: right;
-	background-repeat: no-repeat;
-}
-
-div.menugroup h1.menu-docs {
-	background-image: url('../images/menu-misc.gif');
-	background-position: right;
-	background-repeat: no-repeat;
-}
-
-div.menugroup h1.menu-sf {
-	background-image: url('../images/menu-sf.gif');
-	background-position: right;
-	background-repeat: no-repeat;
-	/* padding: 0px 18px; */
-}
-
-div.menugroup h1.menu-misc {
-	background-image: url('../images/menu-misc.gif');
-	background-position: right;
-	background-repeat: no-repeat;
-}
-
-div.menugroup ul {
 	background: rgb(168, 39, 9);
-	color: rgb(255, 255, 255);
-	list-style-image: url('../images/bullet.gif');
-	margin: 0px;
-	padding: 8px 8px 0px 30px;
+	padding-bottom: 10px;
+	box-shadow: 4px 4px 1px rgb(229, 186, 153)
 }
 
-div.menugroup ul li {
-	/*margin-top: 8px;
-	margin-bottom: 8px;*/
-	padding-bottom: 8px;
+nav dl:last-child {
+	margin-bottom: 0;
 }
 
-div.menugroup ul li a:first-letter,
-div.menugroup ul li:first-letter {
-	font-weight: bold;
-}
-
-div.menugroup a {
+nav a {
+	background: url('/images/bullet2.svg');
+	background-size: contain;
+	background-position: 0px 2px;
+	background-repeat: no-repeat;
+	line-height: 13.5px;
+	padding-left: 25px;
 	color: rgb(255, 255, 255);
 	text-decoration: none;
 }
 
-div.menugroup a:hover {
-	color: rgb(255, 255, 0);
+nav dd.no-bullet a {
+	background: 0;
+	padding-left: 0px;
 }
 
-/* Responsive Menu */
+nav dl dd::first-letter {
+	font-weight: 700;
+}
 
-  /* Nav Trigger */
-  .nav-trigger {	
-	/* critical styles - hide the checkbox input */
-	/* position: absolute;
-	clip: rect(0, 0, 0, 0);
-	color: rgb(130,29,6); */
-	display: none;
-  }
-  
-  label[for="nav-trigger"] {
-	/* critical positioning styles */
-	display: none;
-	position: fixed;
-	right: 15px; top: 15px;
-	z-index: 2;	
-	
-	/* non-critical apperance styles */
-	height: 30px;
-	width: 30px;
-	cursor: pointer;
-	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6' fill='rgb(130,29,6)'/><rect y='24' width='30' height='6' fill='rgb(130,29,6)'/><rect y='12' width='30' height='6' fill='rgb(130,29,6)'/></svg>");
-	background-size: contain;
-  }
+nav a:hover {
+	text-decoration: underline;
+	color: white;
+}
 
-  .site-wrap {
-	/* Critical position and size styles */
-	min-height: 100%;
-	min-width: 100%;
-	
-	position: relative;
-	top: 0;
-	bottom: 100%;
-	right: 0;
-	z-index: 1;	
-  }
-  
-  /* Make the Magic Happen */
-  .nav-trigger + label, 
-  .slide-menu, 
-  .site-wrap,
-  #header {
-	transition: right 0.2s ease-in-out;
-  }
-  
-  .nav-trigger:checked + label {
-	right: 155px;
-  }
+nav dl dt {
+	background-color: rgb(130, 29, 6);
+	color: rgb(221, 221, 0);
+	font-weight: 700;
+	border-radius: 15px 15px 0 0;
+	background-clip: padding-box;
+	height: 34px;
+	padding-left: 24px;
+	padding-right: 24px;
+	text-align: left;
+	line-height: 3.3;
+	font-size: 7.5pt;
+}
 
-  .nav-trigger:checked ~ .site-wrap > #container > .slide-menu {
-	right: 0px;
-	/* box-shadow: 0 0 5px 5px rgba(0,0,0,0.5); */
-  }   
-  
-  .nav-trigger:checked ~ .site-wrap, 
-  .nav-trigger:checked ~ .site-wrap > #header {	
-	right: 155px;
-	/* box-shadow: 0 0 5px 5px rgba(0,0,0,0.5); */
-  }    
-  
-  body {
-	  /* Without this, the body has excess horizontal scroll when the menu is open */
-	overflow-x: hidden;
-  }	
+nav dl dd {
+	margin: 0;
+	padding: 4px 8px 4px 19px;
+}
 
-  @media (max-width: 640px) {
-	/* CSS Rules used when query matches */
-
-	.slide-menu {
-		/* critical sizing and position styles */
-		width: 100%;
-		height: 100%;
-		min-width: 145px;
-		position: fixed;
-		top: 0;
-		right: -145px;
-		bottom: 0;	
-		z-index: 9999;		
-		background: rgb(212, 120, 11);
-		padding-left: 8px;
-		padding-top: 8px;	
-		overflow-y: scroll;		
-	}		
-
-	.header-right {
-		display: none;
-	}
-
-	.header-left {
-		width: 100%;
-	}
-
-	label[for="nav-trigger"] {
-		display: block;
-		z-index: 99999;
-		background-color: rgb(212,120,11);
-		border: solid 1px rgb(212,120,11);
-	}
+.monkey {
+	height: 280px;
 }

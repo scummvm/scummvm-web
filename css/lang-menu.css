@@ -1,111 +1,74 @@
-#lang-wrapper {
-	width: 100%;
-	position: absolute;
-	left: 0;
-	top: 0;
-	z-index: 1000;
+/* Language Menu - This file is currently unused*/
+
+.language-menu {
+    width: 88px;
+    height: 34px;
+    z-index: 99999;
+    background: linear-gradient(to bottom, rgb(235, 183, 24) 0%, rgb(241, 206, 96) 4%, rgb(246, 225, 158) 46%, rgb(251, 241, 212) 89%, rgb(252, 245, 223) 100%);
+    position: relative;
+    font-size: 8pt;
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.language-menu,
+.language-menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.language-menu span {
+    margin: 0 auto;
+}
+
+.language-menu img {
+    height: 16px;
+    width: 16px;
+    top: 4px;
+    position: relative;
+}
+
+.language-menu ul {
+    padding-left: 0;
+    background: #FBF1CE;
+}
+
+.language-menu li {
+    list-style: none;
+    display: none;
+    padding-left: 0;
+    z-index: 99999;
+    margin: 0 2px 0 2px;
+    font-size: 7pt;
+}
+
+.language-menu li:hover {
+    background-color: #A82709;
 }
 
 code.text-badge {
-	background-color: #00007f;
-	color: white;
-	margin: 0 8px 0 8px;
-	padding: 0 2px 0 2px;
+    background-color: #00007f;
+    color: #DDDD00;
+    font-weight: bold;
+    margin: 0 8px 0 0;
+    padding: 0 2px 0 2px;
 }
 
-#langmenu {	
-	font-size: 8pt;
-	list-style: none;
-	padding: 0 0px;
-	margin: 0 0 0 50%;
-	transform: translateX(-50%);
-	display: inline-block;
+.language-menu:hover li {
+    display: block;
 }
 
-#langmenu > li {
-	float: left;
-	height: 29px;
-	padding-right: 2px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	position: relative;
-	background: url(../images/header-background.gif) repeat-x;
-	cursor: pointer;
-	border-left: 1px solid #cecece;
-	border-right: 1px solid #cecece;
-	border-bottom: 1px solid #cecece;
-	border-radius: 0 0 4px 4px;
-	-moz-border-radius: 0 0 4px 4px;
-	-webkit-border-radius: 0 0 4px 4px;
+.language-menu li::first-letter {
+    font-weight: 700;
 }
 
-#langmenu > li > span {
-	display: inline;
-	width: auto;
-	position: relative;
-	top: 4px;
-	color: #000000;
-	text-decoration: none;
-	font-size: 9pt;
-	text-shadow: 0 1px 2px #fff;
-	font-weight: 700;
-	padding: 0px 20px 0px 10px;
-	background: url(../images/dropdown.png) no-repeat right center;
+.language-menu:hover {
+    border-bottom: 0;
 }
 
-#langmenu > li > span > img {
-	display: inline;
-	vertical-align: middle;
-}
-
-#langmenu > li > ul {
-	position: absolute;
-	top: 27px;
-	left: 0px;
-	border-radius: 0 0 4px 4px;
-	-moz-border-radius: 0 0 4px 4px;
-	-webkit-border-radius: 0 0 4px 4px;
-	border-left: 1px solid #505050;
-	border-right: 1px solid #505050;
-	border-bottom: 1px solid #505050;
-	padding: 10px 10px 10px 0px;
-	display: none;
-	background: #f6f6f6;
-	z-index: 1000;
-	cursor: default;
-}
-
-#langmenu > li:hover > span {
-	background: url(../images/dropdown-over.png) no-repeat right center;
-	color: rgb(168, 39, 9);
-}
-
-#langmenu > li:hover > ul {
-	display: block;
-}
-
-#langmenu li ul {
-	padding-right: 0px;
-}
-
-#langmenu li ul li {
-	width: 100%;
-	float: left;
-	list-style: none;
-}
-
-#langmenu li ul li a {
-	position: relative;
-	color: #000000;
-	text-decoration: none;
-	font-size: 9pt;
-	font-weight: bold;
-	display: block;
-	padding: 5px 0px 5px 0px;
-}
-
-#langmenu li ul li a:hover {
-	color: #ffffff;
-	padding: 5px 0px 5px 0px;
-	background: url(../images/par-head.png) repeat-x;
+.language-menu:hover ul {
+    border: solid black;
+    border-width: 0 1px 1px 1px;
 }

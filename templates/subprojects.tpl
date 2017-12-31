@@ -8,11 +8,13 @@
 		</p>
 	</div>
 
-	{foreach from=$subprojects item=project}
-	{include file='subhead.tpl' subhead=$project->getName()}
-	<div class="subhead-content">
-		{$project->getInfo()}
-		{include file='list_items.tpl' list=$project->getDownloads()}
+	<div class="content">
+		{foreach from=$subprojects item=project}
+		{include file='subhead.tpl' subhead=$project->getName()}
+		<div class="subhead-content">
+			{$project->getInfo()}
+			{include file='list_items.tpl' list=$project->getDownloads()}
+		</div>
+		{/foreach}
 	</div>
-	{/foreach}
 </div>

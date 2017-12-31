@@ -1,23 +1,18 @@
-.box .intro img {
-	margin: 5px;
-	text-align: left; 
-	vertical-align: middle;
-}
-
+/* Link List */
 .linklist {
-	color: rgb(0, 0, 0);
-	font: 10pt Arial, Helvetica, Sans-Serif;
-	margin-left: 3em;
+    color: #000;
+    font: 10pt Arial, Helvetica, Sans-Serif;
+    margin-left: 3em;
 }
 
 .linklist .linkentry {
-	margin-bottom: 1em;
+    margin-bottom: 1em;
 }
 
 .linklist .linkentry .linkhead {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 .linklist .linkentry .linkbody {
-	padding: 5px 5px 5px 3em;
+    padding: 5px 5px 5px 3em;
 }
