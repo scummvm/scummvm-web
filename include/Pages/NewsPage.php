@@ -38,9 +38,7 @@ class NewsPage extends Controller {
 			} else {
 				$news_items = array(NewsModel::getOneByDate($date));
 			}
-		}
-
-		$this->addCSSFiles('news.css');
+		}		
 
 		return $this->renderPage(
 			array(
@@ -61,18 +59,6 @@ class NewsPage extends Controller {
 
 		$news_items = NewsModel::getLatestNews(NEWS_ITEMS);
 		$random_shot = ScreenshotsModel::getRandomScreenshot();
-
-		$this->addCSSFiles(array(
-			'intro.css',
-			'news.css',
-			'../javascripts/slimbox/css/slimbox2.css',
-		));
-		$this->addJSFiles(array(
-			'jquery-1.3.2.min.js',
-			'slimbox/js/slimbox2.js',
-			'introduction.js',
-		));
-
 
 		return $this->renderPage(
 			array(
