@@ -2,24 +2,23 @@
 <script type="text/javascript" src="/javascripts/game_demos.js"></script>
 
 <div class="box">
-	<div class="intro">
-		<div class="navigation">
-			<h2>{#gamesDemosHeading#}</h2>
+	<div class="intro row">					
+		<div class="navigation col-1-2">
+			<h4>{#gamesDemosHeading#}</h4>
 			<ul>
 			{foreach from=$demos item=group}
 				<li><a href="/demos/#{$group.href}">{$group.name}</a></li>
 			{/foreach}
 			</ul>
 		</div>
-		<div class="text">
+		<div class="text col-1-2">
 			<p>
 				{#gamesDemosContentP1#}
 			</p>
 			<p>
 				{#gamesDemosContentP2#}
 			</p>
-		</div>
-		<div class="spacing">&nbsp;</div>
+		</div>			
 	</div>
 	<div class="content">
 		{foreach from=$demos item=group}

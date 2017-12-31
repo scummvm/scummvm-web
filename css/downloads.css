@@ -1,6 +1,14 @@
-ul.downloads li.file a {
-	color: rgb(0, 0, 0);
-	text-decoration: none;
+/* Downloads */
+
+ul.downloads li.file {
+	list-style-type: none;
+	padding: 3px;
+}
+
+ul.downloads img {
+	height: 29px;
+	vertical-align: middle;
+	width: 29px;
 }
 
 ul.downloads li.file a:hover,
@@ -16,7 +24,7 @@ ul.downloads span.download-extras {
 ul.downloads li.link {
 	margin-left: 1.5em;
 }
-	
+
 ul.downloads li.link a {
 	color: rgb(170, 51, 51);
 	text-decoration: underline;
@@ -34,7 +42,6 @@ span.daily_provider {
 }
 
 #downloadButton {
-	behavior: url(../css/ie-css3.htc);
 	min-height: 53px;
 	float: left;
 	margin-bottom: 30px;
@@ -49,11 +56,11 @@ span.daily_provider {
 	-moz-box-shadow: 0 0 10px #222;
 	box-shadow: 0 0 10px #222;
 	text-decoration: none;
-	background: #C84430 url(../images/downloadbg.png) repeat-x;
+	background: linear-gradient(to bottom, rgb(191, 117, 93) 0%, rgb(199, 68, 48) 98%, rgb(200, 68, 48) 100%);
 }
 
 #downloadButton:hover {
-	background: #EFC6BE url(../images/downloadbgbright.png) repeat-x;
+	background: linear-gradient(to bottom, rgb(239, 198, 190) 0%, rgb(223, 145, 132) 41%, rgb(207, 92, 74) 83%, rgb(200, 70, 50) 100%);
 }
 
 .downloadText {
@@ -62,10 +69,15 @@ span.daily_provider {
 	letter-spacing: .03em;
 	padding-bottom: 6px;
 	display: block;
-	font-family: "trebuchet MS",Arial,"Sans-Serif";
+	font-family: "trebuchet MS", Arial, "Sans-Serif";
 }
 
 #downloadDetails {
 	padding-left: 3px;
 	color: white;
+}
+
+ul.downloads {
+	margin: 0;
+	padding: 0;
 }

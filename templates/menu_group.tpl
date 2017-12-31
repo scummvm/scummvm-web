@@ -1,8 +1,6 @@
-<div class="menugroup">
-	<h1 class="{$menu->getClass()}">{$menu->getName()}</h1>
-	<ul>
+<dl>
+	<dt>{$menu->getName()}</dt>
 	{foreach from=$menu->getEntries() key=text item=url}
-		<li><a href="{eval var=$url}">{$text}</a></li>
-	{/foreach}
-	</ul>
-</div>
+		<dd><a href="{eval var=$url}">{$text}</a></dd>
+	{/foreach}	
+</dl>
