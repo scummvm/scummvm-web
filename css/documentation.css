@@ -1,0 +1,22 @@
+/* Documentation */
+
+.openhub {
+    float: left;
+    margin: 2px;
+    height: 198px;
+    margin-bottom: 12px;
+}
+
+.openhub iframe {
+    background: white;
+}
+
+.openhub.stats iframe {
+    height: 198px !important;
+    width: 324px !important;
+}
+
+.openhub.languages iframe {
+    height: 185.5px !important;
+    width: 334px !important;
+}
