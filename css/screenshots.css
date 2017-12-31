@@ -1,96 +1,26 @@
+/* Screenshots */
+
 .random-screenshot {
-	background: rgb(192, 192, 192) url('../images/random-screenshot.png') no-repeat scroll 0 0;
-	height: 192px;
-	margin-right: 2em;
-	padding: 37px 7px 21px 17px;
-	width: 256px;
-}
-
-.random-screenshot img {
-	height: 192px;
-	width: 256px;
-}
-
-.navigation {
-	padding: 4.5em 2em;
-}
-
-.subhead a {
-	text-decoration: none;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
 }
 
 .scr-content {
-	margin: 0px 8px 10px 0px;
-	background-repeat: no-repeat;
-	background-position: top right;
-	padding: 0 0 0 20px;
+	padding-left: 20px;
 }
-
-.scr-content-lec,
-.scr-content-agi {
-	background-image: url('../images/bg-lec-games.jpg');
-}
-
-.scr-content-he {
-	background-image: url('../images/bg-he-games.jpg');
-}
-
-.scr-content-other,
-.scr-content-agos,
-.scr-content-cok {
-	background-image: url('../images/bg-other-games.jpg');
-}
-
-.scr-content a {
-	color: rgb(0, 0, 0);
-	text-decoration: none;
-}
-
-.scr-content a:hover {
-	color: rgb(255, 0, 0);
-}
-
-.scr-content td:first-letter {
-	font-weight: bold;
-}
-
-.scr-content td {
-	height: 29px;
-	margin-bottom: 6px;
-	font-size: 10.5px;
-}
-
-.scr-content td img {
-	height: 29px;
-	vertical-align: middle;
-	width: 29px;
-}
-
 
 .screenshot {
-background: #ccc;
-	float: left;
-	margin: 10px;
+	display: inline-block;
+	margin-top: 10px;
 	padding: 10px;
-	text-align: center;
-	width: 256px;
-	height: 238px;
+	margin: 4px;
+	width: 215px;
+	height: auto;
+	background: #ccc;
 }
 
-.screenshot .caption {
-	text-align: center;
-}
-
-
-.viewer {
-background: #ccc;
-	margin: 0 auto;
-	padding: 10px;
-	width: 640px;
-}
-
-.viewer .screenshot {
-	margin: 0px;
-	padding: 0px;
-	width: 640px;
+.screenshot img {
+	width: 100%;
+	height: auto;
 }

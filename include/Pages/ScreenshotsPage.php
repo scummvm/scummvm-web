@@ -26,14 +26,11 @@ class ScreenshotsPage extends Controller {
 			return $this->getCategory($category, $game);
 		}
 
-		$this->addCSSFiles(array(
-			'screenshots.css',
-			'../javascripts/slimbox/css/slimbox2.css',
+		$this->addCSSFiles(array(			
+			'baguetteBox.min.css'
 		));
-		$this->addJSFiles(array(
-			'jquery-1.3.2.min.js',
-			'slimbox/js/slimbox2.js',
-			'screenshots.js',
+		$this->addJSFiles(array(			
+			'baguetteBox.min.js'			
 		));
 
 		$screenshot = ScreenshotsModel::getAllScreenshots();
@@ -54,14 +51,11 @@ class ScreenshotsPage extends Controller {
 
 	/* Display the selected category. */
 	public function getCategory($category, $game) {
-		$this->addCSSFiles(array(
-			'screenshots.css',
-			'../javascripts/slimbox/css/slimbox2.css',
+		$this->addCSSFiles(array(			
+			'baguetteBox.min.css'
 		));
-		$this->addJSFiles(array(
-			'jquery-1.3.2.min.js',
-			'slimbox/js/slimbox2.js',
-			'screenshots.js',
+		$this->addJSFiles(array(			
+			'baguetteBox.min.js'			
 		));
 
 		if (empty($game)) {

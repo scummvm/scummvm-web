@@ -7,27 +7,29 @@
 {* List the available categories. *}
 <div class="box">
 	<div class="head">{#screenshotsHeading#}</div>
-	<div class="intro">
-		<div class="navigation">
-			<h2>{#screenshotsNavigation#}</h2>
+	<div class="intro row">		
+		<div class="navigation col-1-2">
+			<h4>{#screenshotsNavigation#}</h4>
 			<ul>
 			{foreach from=$screenshots item=arr}
 				<li><a href="/screenshots/#{$arr.category}">{eval var=$arr.title}</a></li>
 			{/foreach}
 			</ul>
 		</div>
-
-		<div class="text">
-			<div class="random-screenshot float_right">
-				<a href="/screenshots/{$random_shot.category}/{$random_shot.screenshot->getCategory()}/{$rand_pos+1}/" title="{$rand_file.caption}" rel="lightbox">
-					<img src="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}.jpg" alt="{$rand_file.caption}">
-				</a>
-			</div>
-		</div>
-		<div class="spacing"></div>
+		<div class="text col-1-2">		
+			<div class="round-box">
+				<div class="round-box-header">Random Screenshot</div>
+				<div class="round-box-content gallery">
+					<a href="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}-full.png" title="{$rand_file.caption}">
+						<img class="random-screenshot" src="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}.jpg" alt="{$rand_file.caption}">
+					</a>
+				</div>
+			</div>								
+		</div>	
 	</div>
 
-	{foreach from=$screenshots item=arr}
+	<div class="content">
+		{foreach from=$screenshots item=arr}
 		<div class="subhead">
 			<a name="{$arr.category}"></a>
 			<a href="/screenshots/{$arr.category}/">{$arr.title}</a>
@@ -43,5 +45,14 @@
 			{/foreach}
 			</table>
 		</div>
-	{/foreach}
+		{/foreach}
+	</div>
 </div>
+
+{literal}
+<script>
+	window.addEventListener('load', function() {
+		baguetteBox.run('.gallery');
+	});
+</script>
+{/literal}
