@@ -6,10 +6,6 @@
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
     </form>
     
-    <a href="http://combobreaker.com/">
-        <img src="/images/scummvm_cb.png" width="88" height="32" alt="{#indexCombobreaker#}">
-    </a>
-    
     <a href="http://www.easyname.com/">
         <img src="/images/easyname-logo-big.png" width="88" height="32" alt="{#indexEasyname#}">
     </a>
