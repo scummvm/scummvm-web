@@ -22,8 +22,7 @@
 	</div>
 	<div class="content">
 		{foreach from=$demos item=group}
-		<a name="{$group.href}"></a>
-		<table class="chart color4 gameDemos">
+		<table class="chart color4 gameDemos" id="{$group.href}">
 			<caption>{$group.name}</caption>
 			<thead>
 				<tr class="color4">
