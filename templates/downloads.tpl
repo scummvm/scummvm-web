@@ -40,11 +40,10 @@
 	<div class="content">
 	{/if}
 
-	{foreach from=$dsection->getSubSections() item=dsubsection} {if $dsubsection->getAnchor() != ''}
-		<a name="{$dsubsection->getAnchor()}"></a>
-		{/if} {if $dsubsection->getTitle() != ''}
-		<div class="subhead">{eval var=$dsubsection->getTitle()}</div>
-		{/if}
+	{foreach from=$dsection->getSubSections() item=dsubsection}
+	{if $dsubsection->getTitle() != ''}
+		<div class="subhead" id="{if $dsubsection->getAnchor() != ''}{$dsubsection->getAnchor()}{/if}">{eval var=$dsubsection->getTitle()}</div>
+	{/if}
 
 		<div class="subhead-content">
 			{if $dsubsection->getNotes() != ''} {eval var=$dsubsection->getNotes()} {/if} {include file='list_items.tpl' list=$dsubsection->getItems()}
