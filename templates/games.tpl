@@ -6,7 +6,7 @@
 		<div class="head">{eval var=$dsection->getTitle()}</div>
 
 		{if $smarty.foreach.downloads_loop.first}
-		<div class="intro row">			
+		<div class="intro row">
 			<div class="navigation col-1-2">
 				<h4>{#gamesHeader#}</h4>
 				<ul>
@@ -20,7 +20,7 @@
 					<li>{#gamesContentP1#}</li>
 					<li>{#gamesContentP2#}</li>
 				</ul>
-			</div>			
+			</div>
 		</div>
 		<div class="content">
 		{else}

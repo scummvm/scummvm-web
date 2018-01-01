@@ -1,5 +1,3 @@
-/* Downloads */
-
 ul.downloads li.file {
 	list-style-type: none;
 	padding: 3px;
@@ -56,10 +54,12 @@ span.daily_provider {
 	-moz-box-shadow: 0 0 10px #222;
 	box-shadow: 0 0 10px #222;
 	text-decoration: none;
-	background: linear-gradient(to bottom, rgb(191, 117, 93) 0%, rgb(199, 68, 48) 98%, rgb(200, 68, 48) 100%);
+	background: rgb(200, 68, 48);
+	background: linear-gradient(to bottom, rgb(191, 117, 93) 0%, rgb(200, 68, 48) 100%);
 }
 
 #downloadButton:hover {
+	background: rgb(223, 145, 132);
 	background: linear-gradient(to bottom, rgb(239, 198, 190) 0%, rgb(223, 145, 132) 41%, rgb(207, 92, 74) 83%, rgb(200, 70, 50) 100%);
 }
 
@@ -69,7 +69,6 @@ span.daily_provider {
 	letter-spacing: .03em;
 	padding-bottom: 6px;
 	display: block;
-	font-family: "trebuchet MS", Arial, "Sans-Serif";
 }
 
 #downloadDetails {

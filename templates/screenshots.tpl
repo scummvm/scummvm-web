@@ -7,7 +7,7 @@
 {* List the available categories. *}
 <div class="box">
 	<div class="head">{#screenshotsHeading#}</div>
-	<div class="intro row">		
+	<div class="intro row">
 		<div class="navigation col-1-2">
 			<h4>{#screenshotsNavigation#}</h4>
 			<ul>
@@ -16,7 +16,7 @@
 			{/foreach}
 			</ul>
 		</div>
-		<div class="text col-1-2">		
+		<div class="text col-1-2">
 			<div class="round-box">
 				<div class="round-box-header">Random Screenshot</div>
 				<div class="round-box-content gallery">
@@ -24,8 +24,8 @@
 						<img class="random-screenshot" src="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}.jpg" alt="{$rand_file.caption}">
 					</a>
 				</div>
-			</div>								
-		</div>	
+			</div>
+		</div>
 	</div>
 
 	<div class="content">
@@ -51,7 +51,7 @@
 
 {literal}
 <script>
-	window.addEventListener('load', function() {
+	window.addEventListener('DOMContentLoaded', function() {
 		baguetteBox.run('.gallery');
 	});
 </script>

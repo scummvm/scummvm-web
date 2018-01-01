@@ -1,4 +1,4 @@
-{foreach from=$downloads item=dsection name=downloads_loop} 
+{foreach from=$downloads item=dsection name=downloads_loop}
 {if $dsection->getAnchor() != 'a'}
 <a name="{$dsection->getAnchor()}"></a>
 {/if}
@@ -6,7 +6,7 @@
 <div class="box">
 	<div class="head">{eval var=$dsection->getTitle()}</div>
 	{if $smarty.foreach.downloads_loop.first}
-	<div class="intro row">		
+	<div class="intro row">
 		<div class="navigation col-1-2">
 			<h4>{#downloadsHeader#}</h4>
 			<ul>
@@ -29,19 +29,21 @@
 
 	<div class="content">
 		<!-- Recommended download - start -->
-		<script type="text/javascript">{$recommendedDownloadsJS}</script>		
-		<script type="text/javascript" src="/javascripts/recommended_dl.js"></script>
-
-		<div class="subhead" id="recommendedDownloadHeader" style="display:none">{#downloadsBadge#}</div>
-		<div class="subhead-content" style="display:none">
-			<div id="downloadContainer" style="display:none"></div>
+		<div id="recommended-download" class="hidden">
+			<div class="subhead">{#downloadsBadge#}</div>
+			<div class="subhead-content">
+				<div id="downloadContainer"></div>
+			</div>
 		</div>
 		<br>
+
+		<script>{$recommendedDownloadsJS}</script>
+		<script src="/javascripts/recommended_dl.js"></script>
 		<!-- Recommended download - end -->
-	{else}	
+	{else}
 	<div class="content">
-	{/if} 
-	
+	{/if}
+
 	{foreach from=$dsection->getSubSections() item=dsubsection} {if $dsubsection->getAnchor() != ''}
 		<a name="{$dsubsection->getAnchor()}"></a>
 		{/if} {if $dsubsection->getTitle() != ''}
@@ -53,9 +55,8 @@
 			{if !is_null($dsubsection->getFooter())}
 			<p>{$dsubsection->getFooter()}</p>
 			{/if}
-		</div>	
-	{/foreach}	
-	</div>	
+		</div>
+	{/foreach}
+	</div>
 </div>
 {/foreach}
-

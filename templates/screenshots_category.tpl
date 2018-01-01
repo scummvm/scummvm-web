@@ -18,7 +18,7 @@
 					{/foreach}
 				{/if}
 			{/foreach}
-		</div>		
+		</div>
 	</div>
 	<a href="/screenshots/{$category}/">{#screenshotsCategoryBack#}</a>
 
@@ -39,7 +39,7 @@
 						<div class="caption">{$fdata.caption}</div>
 					</div>
 				{/foreach}
-			</div>		
+			</div>
 		{/foreach}
 		</div>
 	</div>
@@ -48,7 +48,7 @@
 
 {literal}
 <script>
-	window.addEventListener('load', function() {
+	document.addEventListener('DOMContentLoaded', function() {
 		baguetteBox.run('.gallery');
 	});
 </script>
