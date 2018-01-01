@@ -5,7 +5,7 @@
 {assign var='rand_file' value=$rand_files[$rand_pos]}
 
 {* Introduction header, included from index.tpl *}
-<div id="intro_header">	
+<div id="intro_header">
 	{* Introduction text. *}
 	<div class="round-box">
 		<div class="round-box-header">
@@ -23,7 +23,7 @@
 				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 			</form>
 			<p>{#introHeaderContentP5#}</p>
-		</div>		
+		</div>
 	</div>
 
 	{* Screenshots.
@@ -32,12 +32,12 @@
 			<div class="round-box-header">
 				{#introHeaderScreenshots#}
 			</div>
-			<div class="round-box-content">	
+			<div class="round-box-content">
 				<a href="/screenshots/{$random_shot.category}/{$random_shot.screenshot->getCategory()}/{$rand_pos+1}" id="screenshots_random">
 					<img src="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}.jpg" width="128" height="96" title="{#introHeaderFullsize#}" alt="{#introHeaderRandom#}">
 				</a>
 			</div>
-		</div>				
+		</div>
 	</div>
 	 *}
 </div>

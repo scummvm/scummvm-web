@@ -40,8 +40,8 @@
 					<img class="logo maniac hide-small" src="/images/maniac-half.png" alt="Maniac Mansion kids">
 					<a href="{$baseurl}"><img class="logo" src="/images/scummvm_logo.svg" alt="{#indexLogo#}"></a>
 				</div>
-				<div class="col-1-2 hide-medium right">
-					<span class="scummvm right">Script Creation Utility for Maniac Mansion Virtual Machine</span>
+				<div class="col-1-2 hide-medium float_right">
+					<span class="scummvm float_right">Script Creation Utility for Maniac Mansion Virtual Machine</span>
 				</div>
 			</div>
 		</header>

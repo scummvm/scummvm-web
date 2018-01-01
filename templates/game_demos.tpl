@@ -2,7 +2,7 @@
 <script type="text/javascript" src="/javascripts/game_demos.js"></script>
 
 <div class="box">
-	<div class="intro row">					
+	<div class="intro row">
 		<div class="navigation col-1-2">
 			<h4>{#gamesDemosHeading#}</h4>
 			<ul>
@@ -18,7 +18,7 @@
 			<p>
 				{#gamesDemosContentP2#}
 			</p>
-		</div>			
+		</div>
 	</div>
 	<div class="content">
 		{foreach from=$demos item=group}
