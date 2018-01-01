@@ -4,16 +4,12 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<base href="{$baseurl}">
-	<style>
-		{* General CSS rules. *}
-		@import url("{$baseurl}css/menu.css");
-		@import url("{$baseurl}css/layout.css");
-
-		{* Page specific, or other extra CSS rules. *}
-		{foreach from=$css_files item=filename}
-		@import url("{$baseurl}css/{$filename}");
-		{/foreach}
-	</style>
+	<link rel="stylesheet" href="{$baseurl}css/menu.css">
+	<link rel="stylesheet" href="{$baseurl}css/layout.css">
+	{* Page specific, or other extra CSS rules. *}
+	{foreach from=$css_files item=filename}
+	<link rel="stylesheet" href="{$baseurl}css/{$filename}">
+	{/foreach}
 	<link rel="alternate" type="application/atom+xml" title="{#indexAtomFeed#}" href="{$baseurl}feeds/atom/">
 	<link rel="alternate" type="application/rss+xml" title="{#indexRSSFeed#}" href="{$baseurl}feeds/rss/">
 	<link rel="apple-touch-icon" href="/images/scummvm.png">
@@ -98,7 +94,7 @@
 	</div>
 
 {foreach from=$js_files item=script}
-	<script type="text/javascript" src="/javascripts/{$script}"></script>
+	<script src="/javascripts/{$script}"></script>
 {/foreach}
 
 </body>
