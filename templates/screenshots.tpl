@@ -30,8 +30,7 @@
 
 	<div class="content">
 		{foreach from=$screenshots item=arr}
-		<div class="subhead">
-			<a name="{$arr.category}"></a>
+		<div class="subhead" id="{$arr.category}">
 			<a href="/screenshots/{$arr.category}/">{$arr.title}</a>
 		</div>
 		<div class="scr-content scr-content-{$arr.category}">

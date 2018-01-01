@@ -1,8 +1,5 @@
 {foreach from=$downloads item=dsection name=downloads_loop}
-	{if $dsection->getAnchor() != ''}
-		<a name="{$dsection->getAnchor()}"></a>
-	{/if}
-	<div class="box">
+	<div class="box" id="{if $dsection->getAnchor() != ''}{$dsection->getAnchor()}{/if}">
 		<div class="head">{eval var=$dsection->getTitle()}</div>
 
 		{if $smarty.foreach.downloads_loop.first}
@@ -28,11 +25,8 @@
 		{/if}
 
 		{foreach from=$dsection->getSubSections() item=dsubsection}
-			{if $dsubsection->getAnchor() != ''}
-				<a name="{$dsubsection->getAnchor()}"></a>
-			{/if}
 			{if $dsubsection->getTitle() != ''}
-				<div class="subhead">{eval var=$dsubsection->getTitle()}</div>
+				<div class="subhead" id="{if $dsubsection->getAnchor() != ''}{$dsubsection->getAnchor()}{/if}">{eval var=$dsubsection->getTitle()}</div>
 			{/if}
 
 			<div class="subhead-content">

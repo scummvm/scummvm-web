@@ -1,9 +1,5 @@
 {foreach from=$downloads item=dsection name=downloads_loop}
-{if $dsection->getAnchor() != 'a'}
-<a name="{$dsection->getAnchor()}"></a>
-{/if}
-
-<div class="box">
+<div class="box" id="{if $dsection->getAnchor() != 'a'}{$dsection->getAnchor()}{/if}">
 	<div class="head">{eval var=$dsection->getTitle()}</div>
 	{if $smarty.foreach.downloads_loop.first}
 	<div class="intro row">
