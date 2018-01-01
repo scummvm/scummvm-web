@@ -1,7 +1,7 @@
 nav dl {
 	white-space: nowrap;
 	overflow: hidden;
-	border-radius: 15px;
+	border-radius: 12px;
 	background: rgb(168, 39, 9);
 	padding-bottom: 10px;
 	box-shadow: 4px 4px 1px rgb(229, 186, 153)
@@ -39,7 +39,7 @@ nav dl dt {
 	background-color: rgb(130, 29, 6);
 	color: rgb(221, 221, 0);
 	font-weight: 700;
-	border-radius: 15px 15px 0 0;
+	border-radius: 12px 12px 0 0;
 	background-clip: padding-box;
 	height: 34px;
 	padding-left: 24px;
