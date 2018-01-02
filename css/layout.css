@@ -12,6 +12,10 @@ body {
 	margin: 8px;
 }
 
+.no-scroll {
+	overflow-y: hidden;
+}
+
 a {
 	color: rgb(170, 51, 51);
 }
@@ -191,7 +195,7 @@ header .row .top {
 
 label[for="nav-trigger"] {
 	display: none;
-	position: fixed;
+	position: absolute;
 	right: 15px;
 	top: 15px;
 	z-index: 2;
@@ -207,10 +211,6 @@ label[for="nav-trigger"] {
 header,
 nav {
 	transition: right 0.2s ease-in-out;
-}
-
-.nav-trigger:checked~.site-wrap {
-	right: 210px;
 }
 
 .nav-trigger:checked~.site-wrap nav {
@@ -310,7 +310,7 @@ nav {
 	border-left: 1px solid rgb(235, 177, 118);
 	border-right: 1px solid rgb(235, 177, 118);
 	border-bottom: 1px solid rgb(235, 177, 118);
-	border-radius: 0 0 12px 12px;
+	border-radius: 0 0 1px 15px;
 	margin: 0;
 	padding: 8px;
 	overflow: hidden;
@@ -374,7 +374,8 @@ nav {
 		width: 100%;
 	}
 	.logo {
-		max-width: 200px;
+		max-width: 150px;
+		width: 100%;
 		position: unset;
 	}
 	.topper {
@@ -382,7 +383,7 @@ nav {
 		background: 0;
 	}
 	.container {
-		border-radius: 12px;
+		border-radius: 15px;
 	}
 	body,
 	header,
@@ -390,12 +391,10 @@ nav {
 		background: #D16F0A;
 	}
 	header {
-		position: fixed;
-		top: 0;
-		right: 0;
 		width: 100%;
+		height: 50px;
 		z-index: 999;
-		box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+		box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
 	}
 	.col-1-5 {
 		width: 100%;
@@ -403,21 +402,16 @@ nav {
 	.col-4-5 {
 		width: 100%;
 	}
-	.site-wrap {
-		position: relative;
-		right: 0;
-		z-index: 1;
-		top: 60px;
-	}
 	nav {
-		max-width: 200px;
 		position: fixed;
-		top: 61px;
-		right: -200px;
+		width: 100%;
+		right: -100%;
 		bottom: 0;
-		z-index: 9999;
+		z-index: 90;
 		padding: 0;
-		overflow-y: scroll;
+		height: 100%;
+		overflow-y: auto;
+		background: #A82709;
 	}
 	nav,
 	nav a,
@@ -425,21 +419,38 @@ nav {
 		font-size: 1.2em;
 		line-height: 2em;
 	}
+	nav dl dt,
+	nav dl dd
+	{
+		height: 58px;
+		line-height: 58px;
+	}
 	nav dl,
 	nav dl dt {
 		border-radius: 0;
 		box-shadow: unset;
 		margin: 0;
+		padding-bottom: 1px;
 	}
 	nav dl dt {
 		padding-left: 19px;
+		cursor: pointer;
+		color: white;
 	}
 	nav dl dd {
 		padding-right: 0;
+		display: none;
 	}
 	nav a {
 		background: 0;
 		padding-left: 0;
+		display: block;
+		width: 100%;
+		height:100%;
+	}
+
+	nav a:hover {
+		text-decoration: none;
 	}
 	.header-right {
 		display: none;
@@ -449,6 +460,7 @@ nav {
 	}
 	label[for="nav-trigger"] {
 		display: block;
-		z-index: 99999;
+		z-index: 91;
+		overflow-y: unset;
 	}
 }
