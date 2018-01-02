@@ -9,14 +9,6 @@ for (var version in versions) {
 }
 
 if (OS != "") {
-	// User-agent string couldn't be matched - hide the recommended download button and section
-	document.querySelector("#downloadContainer").innerHTML =
-		"<a id=\"downloadButton\" href=\"\">" +
-		"<img style=\"position: absolute; top: 8px; left: 14px;\" src=\"images/scummvm.png\" alt=\"Download ScummVM icon\">" +
-		"<span class=\"downloadText\">Download ScummVM</span>" +
-		"<span id=\"downloadDetails\" style=\"font-size: 12px; color: white;\"></span>" +
-		"</a>";
-
 	var ver = versions[OS]['ver'];
 	var url = versions[OS]['url'];
 	var img = versions[OS]['img'];
