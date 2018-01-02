@@ -145,12 +145,6 @@
 				</file>
 				<file>
 					<category_icon>catpl-android.png</category_icon>
-					<url>scummvm-{$release}-android-unsigned.apk</url>
-					<name>Android ARMv7a package (unsigned)</name>
-				</file>
-<!--
-				<file>
-					<category_icon>catpl-android.png</category_icon>
 					<url>scummvm-{$release}-android-all.apk</url>
 					<name>Android package for all platforms</name>
 				</file>
@@ -161,20 +155,25 @@
 				</file>
 				<file>
 					<category_icon>catpl-android.png</category_icon>
-					<url>scummvm-{$release}-android-arm64v8a.apk</url>
-					<name>Android ARM64v8a package</name>
+					<url>scummvm-{$release}-android-arm-v7a.apk</url>
+					<name>Android ARMv7a package</name>
 				</file>
 				<file>
 					<category_icon>catpl-android.png</category_icon>
-					<url>scummvm-{$release}-android-mips.apk</url>
-					<name>Android MIPS package</name>
+					<url>scummvm-{$release}-android-arm64-v8a.apk</url>
+					<name>Android ARM64v8a package</name>
 				</file>
 				<file>
 					<category_icon>catpl-android.png</category_icon>
 					<url>scummvm-{$release}-android-x86.apk</url>
 					<name>Android x86 package</name>
 				</file>
-
+				<file>
+					<category_icon>catpl-android.png</category_icon>
+					<url>scummvm-{$release}-android-x86_64.apk</url>
+					<name>Android x86 package</name>
+				</file>
+<!--
 				<file>
 					<category_icon>catpl-ouya.png</category_icon>
 					<url>scummvm-{$release}-android-ouya.apk</url>
@@ -546,34 +545,9 @@
 					<name>1.9.0 Debian 6.0 (squeeze) PowerPC package</name>
 				</file>
 				<file>
-					<category_icon>catpl-ubuntu.png</category_icon>
-					<url>1.9.0/scummvm_1.9.0-xenial.1_amd64.deb</url>
-					<name>1.9.0 Ubuntu 16.04 LTS (xenial) x86 64bit package</name>
-				</file>
-				<file>
-					<category_icon>catpl-android.png</category_icon>
-					<url>1.9.0/scummvm-1.9.0-android-all.apk</url>
-					<name>1.9.0 Android package for all platforms</name>
-				</file>
-				<file>
-					<category_icon>catpl-android.png</category_icon>
-					<url>1.9.0/scummvm-1.9.0-android-arm.apk</url>
-					<name>1.9.0 Android ARM package</name>
-				</file>
-				<file>
-					<category_icon>catpl-android.png</category_icon>
-					<url>1.9.0/scummvm-1.9.0-android-arm64v8a.apk</url>
-					<name>1.9.0 Android ARM64v8a package</name>
-				</file>
-				<file>
 					<category_icon>catpl-android.png</category_icon>
 					<url>1.9.0/scummvm-1.9.0-android-mips.apk</url>
 					<name>1.9.0 Android MIPS package</name>
-				</file>
-				<file>
-					<category_icon>catpl-android.png</category_icon>
-					<url>1.9.0/scummvm-1.9.0-android-x86.apk</url>
-					<name>1.9.0 Android x86 package</name>
 				</file>
 				<file>
 					<category_icon>catpl-ouya.png</category_icon>
