@@ -36,15 +36,15 @@ span.daily_provider {
 
 #downloadContainer {
 	position: relative;
-	height: 100px;
+	width: 100%;
 }
 
 #downloadButton {
 	min-height: 53px;
 	float: left;
 	margin-bottom: 30px;
+	width: 100%;
 	padding: 15px;
-	padding-left: 90px;
 	color: white;
 	border-radius: 12px;
 	border: 1px solid white;
@@ -56,13 +56,18 @@ span.daily_provider {
 	background: linear-gradient(to bottom, rgb(191, 117, 93) 0%, rgb(200, 68, 48) 100%);
 }
 
+#downloadButton img {
+	display: inline-block;
+	float: left;
+}
+
 #downloadButton:hover {
 	background: rgb(223, 145, 132);
 	background: linear-gradient(to bottom, rgb(239, 198, 190) 0%, rgb(223, 145, 132) 41%, rgb(207, 92, 74) 83%, rgb(200, 70, 50) 100%);
 }
 
 .downloadText {
-	font-size: 40px;
+	font-size: 32px;
 	line-height: 32px;
 	letter-spacing: .03em;
 	padding-bottom: 6px;
