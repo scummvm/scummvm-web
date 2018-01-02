@@ -17,20 +17,21 @@ class ScreenshotsPage extends Controller {
 	/* Display the index page. */
 	public function index() {
 		$category = $_GET['cat'];
-		$game = $_GET['game'];		
-		$json = $_POST['json'];		
+		$game = $_GET['game'];
+		$json = $_POST['json'];
 
 		if (!empty($json)) {
 			return $this->getAllJSON();
-		} else if (!empty($category)) {			
+		} else if (!empty($category)) {
 			return $this->getCategory($category, $game);
 		}
 
-		$this->addCSSFiles(array(			
-			'baguetteBox.min.css'
+		$this->addCSSFiles(array(
+			'baguetteBox.min.css',
+			'screenshots.css'
 		));
-		$this->addJSFiles(array(			
-			'baguetteBox.min.js'			
+		$this->addJSFiles(array(
+			'baguetteBox.min.js'
 		));
 
 		$screenshot = ScreenshotsModel::getAllScreenshots();
@@ -51,11 +52,12 @@ class ScreenshotsPage extends Controller {
 
 	/* Display the selected category. */
 	public function getCategory($category, $game) {
-		$this->addCSSFiles(array(			
-			'baguetteBox.min.css'
+		$this->addCSSFiles(array(
+			'baguetteBox.min.css',
+			'screenshots.css'
 		));
-		$this->addJSFiles(array(			
-			'baguetteBox.min.js'			
+		$this->addJSFiles(array(
+			'baguetteBox.min.js'
 		));
 
 		if (empty($game)) {
@@ -79,7 +81,7 @@ class ScreenshotsPage extends Controller {
 			),
 			$this->_template_category
 		);
-	}	
+	}
 
 	/* Get a list with all screenshot filenames/captions as a JSON list. */
 	public function getAllJSON() {
