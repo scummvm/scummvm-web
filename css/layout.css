@@ -4,7 +4,7 @@
 
 body {
 	background: rgb(209, 111, 10);
-	background: linear-gradient(to bottom, rgb(209, 111, 10) 0%, rgb(231, 172, 21) 40%, rgb(239, 196, 24) 100%);
+	background: linear-gradient(to bottom, rgb(209, 111, 10) 0%, rgb(231, 172, 21) 400px, rgb(239, 196, 24) 100%);
 	background-repeat: repeat-x;
 	font-family: verdana, tahoma, arial, helvetica, sans-serif;
 	font-size: 12px;
