@@ -126,12 +126,12 @@
 					<url>scummvm-{$release}-ps3.zip</url>
 					<name>PlayStation3 package</name>
 				</file>
-<!--
 				<file>
 					<category_icon>catpl-psp.png</category_icon>
 					<url>scummvm-{$release}-psp.zip</url>
 					<name>PSP (PlayStation Portable) package</name>
 				</file>
+<!--
 				<file>
 					<category_icon>catpl-ds.png</category_icon>
 					<url>scummvm-{$release}-ds.zip</url>
