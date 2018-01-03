@@ -69,7 +69,7 @@ a:hover {
 .topper {
 	height: 29px;
 	background: rgb(246, 224, 138);
-	border-radius: 12px 12px 0 0;
+	border-radius: 8px 8px 0 0;
 	position: relative;
 }
 
@@ -226,7 +226,7 @@ nav {
 }
 
 .container {
-	border-radius: 0 0 12px 12px;
+	border-radius: 0 0 8px 8px;
 	background: rgb(251, 241, 206);
 }
 
@@ -298,7 +298,7 @@ nav {
 	border-right: 1px solid rgb(235, 177, 118);
 	border-top: 1px solid rgb(235, 177, 118);
 	height: 28px;
-	border-radius: 12px 12px 0 0;
+	border-radius: 8px 8px 0 0;
 	padding-left: 18px;
 	font: bold large/1.4 "Trebuchet MS", Verdana, Tahoma, Sans-Serif;
 	color: #821d06;
@@ -310,7 +310,7 @@ nav {
 	border-left: 1px solid rgb(235, 177, 118);
 	border-right: 1px solid rgb(235, 177, 118);
 	border-bottom: 1px solid rgb(235, 177, 118);
-	border-radius: 0 0 1px 15px;
+	border-radius: 0 0 8px 8px;
 	margin: 0;
 	padding: 8px;
 	overflow: hidden;
@@ -379,7 +379,7 @@ nav {
 		background: 0;
 	}
 	.container {
-		border-radius: 15px;
+		border-radius: 8px;
 	}
 	body,
 	header,
