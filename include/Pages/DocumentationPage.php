@@ -18,8 +18,6 @@ class DocumentationPage extends Controller {
 
 		$documents = DocumentationModel::getAllDocuments();
 
-		$this->addCSSFiles('documentation.css');
-
 		return $this->renderPage(
 			array(
 				'title' => $Smarty->_config[0]['vars']['documentationTitle'],
