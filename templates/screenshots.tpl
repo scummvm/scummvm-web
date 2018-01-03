@@ -21,7 +21,7 @@
 				<div class="round-box-header">Random Screenshot</div>
 				<div class="round-box-content gallery">
 					<a href="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}-full.png" title="{$rand_file.caption}">
-						<img class="random-screenshot" src="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}.jpg" alt="{$rand_file.caption}">
+						<img class="random-screenshot" src="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}-full.png" alt="{$rand_file.caption}">
 					</a>
 				</div>
 			</div>

@@ -101,6 +101,41 @@ footer a:hover {
 	filter: drop-shadow(5px 5px 2px rgb(229, 186, 153));
 }
 
+/* Random Screenshot */
+.random-screenshot {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	transform: translateZ(0);
+}
+
+.scr-content {
+	padding-left: 20px;
+}
+
+.screenshot {
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px;
+	margin: 4px;
+	width: 215px;
+	height: auto;
+	background: #ccc;
+}
+
+.screenshot img {
+	width: 100%;
+	height: auto;
+	image-rendering: crisp-edges;
+}
+
+.gallery {
+	text-align: center;
+}
+
+.gallery .subhead {
+	text-align: left;
+}
 
 /* Grid */
 
@@ -355,6 +390,10 @@ nav {
 	/* CSS Rules targeting most tablets in vertical orientation */
 	.hide-medium {
 		display: none;
+	}
+
+	.col-1-2 {
+		width: 100%;
 	}
 }
 
