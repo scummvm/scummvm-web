@@ -201,6 +201,10 @@ header .row .top {
 	position: relative;
 }
 
+.top img {
+	max-width: 60%;
+}
+
 .float_right {
 	float: right;
 }
@@ -391,9 +395,11 @@ nav {
 	.hide-medium {
 		display: none;
 	}
-
 	.col-1-2 {
 		width: 100%;
+	}
+	.scummvm {
+		font-size: 1.6vw;
 	}
 }
 
