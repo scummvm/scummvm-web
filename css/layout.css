@@ -105,17 +105,17 @@ footer a:hover {
 /* Grid */
 
 .site-wrap {
-	max-width: 960px;
+	max-width: 1440px;
 	position: relative;
 	margin: 0 auto;
 }
 
 .col-4-5 {
-	width: 80%;
+	width: calc(100% - 200px);
 }
 
 .col-1-5 {
-	width: 20%;
+	width: 195px;
 	position: relative;
 }
 
