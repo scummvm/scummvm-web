@@ -57,8 +57,9 @@ span.daily_provider {
 }
 
 #downloadButton img {
-	display: inline-block;
+	display: block;
 	float: left;
+	margin: 0 auto;
 }
 
 #downloadButton:hover {
@@ -82,4 +83,14 @@ span.daily_provider {
 ul.downloads {
 	margin: 0;
 	padding: 0;
+}
+
+@media (max-width: 640px) {
+	#downloadButton img {
+		float: none;
+	}
+
+	#downloadContainer {
+		text-align: center;
+	}
 }
