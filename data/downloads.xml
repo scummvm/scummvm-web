@@ -540,11 +540,6 @@
 			</notes>
 			<entries>
 				<file>
-					<category_icon>catpl-debian.png</category_icon>
-					<url>1.9.0/scummvm_1.9.0-squeeze.1_powerpc.deb</url>
-					<name>1.9.0 Debian 6.0 (squeeze) PowerPC package</name>
-				</file>
-				<file>
 					<category_icon>catpl-android.png</category_icon>
 					<url>1.9.0/scummvm-1.9.0-android-mips.apk</url>
 					<name>1.9.0 Android MIPS package</name>
