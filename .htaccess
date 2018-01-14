@@ -81,7 +81,7 @@ RewriteRule		^scummvm_appcast.xml								appcasts/macosx/release.xml [L]
 ##
 # Catch script kiddies
 ##
-RewriteRule		^wp-login													/
+RewriteRule		^wp-login													/ [R=301]
 
 ##
 # Forward old page requests to the new fancy URLs
