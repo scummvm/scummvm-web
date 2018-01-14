@@ -145,6 +145,12 @@
 				</file>
 				<file>
 					<category_icon>catpl-android.png</category_icon>
+					<url>https://play.google.com/store/apps/details?id=org.scummvm.scummvm</url>
+					<name>Android package at Google Play Store</name>
+					<user_agent>Android</user_agent>
+				</file>
+				<file>
+					<category_icon>catpl-android.png</category_icon>
 					<url>scummvm-{$release}-android-all.apk</url>
 					<name>Android package for all platforms</name>
 				</file>
@@ -548,12 +554,6 @@
 					<category_icon>catpl-ouya.png</category_icon>
 					<url>1.9.0/scummvm-1.9.0-android-ouya.apk</url>
 					<name>1.9.0 OUYA package</name>
-				</file>
-				<file>
-					<category_icon>catpl-android.png</category_icon>
-					<url>https://play.google.com/store/apps/details?id=org.scummvm.scummvm</url>
-					<name>1.9.0 Android package at Google Play Store</name>
-					<user_agent>Android</user_agent>
 				</file>
 				<file>
 					<category_icon>catpl-iphone.png</category_icon>
