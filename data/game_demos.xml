@@ -1070,7 +1070,7 @@
 		<demos>
 			<demo>
 				<name>Aesop's Fables: The Tortoise and the Hare (Macintosh demo)</name>
-				<url>/frs/demos/mohawk/tortoise-demo-mac-en.zip</url>
+				<url>/frs/demos/mohawk/tortoise-mac-demo-en.zip</url>
 				<target>tortoise</target>
 			</demo>
 			<demo>
@@ -1080,7 +1080,7 @@
 			</demo>
 			<demo>
 				<name>Aesop's Fables: The Tortoise and the Hare (Windows demo alt)</name>
-				<url>/frs/demos/mohawk/tortoise-win-demo2-en-v1.1.zip</url>
+				<url>/frs/demos/mohawk/tortoise-win-demo-en-v1.1.zip</url>
 				<target>tortoise</target>
 			</demo>
 			<demo>
@@ -1359,7 +1359,7 @@
 			</demo>
 			<demo>
 				<name>King's Quest VII: The Princeless Bride (DOS demo - Non-interactive)</name>
-				<url>/frs/demos/sci/kq7-dos-ni-demo-en.zip</url>
+				<url>/frs/demos/sci/kq7-dos-win-ni-demo-en.zip</url>
 				<target>kq7</target>
 				<category>kq-sci</category>
 			</demo>
@@ -1454,7 +1454,7 @@
 			</demo>
 			<demo>
 				<name>Phantasmagoria (DOS demo)</name>
-				<url>/frs/demos/sci/phantasmagoria-dos-win-demo-en.zip</url>
+				<url>/frs/demos/sci/phantasmagoria-dos-demo-en.zip</url>
 				<target>phantasmagoria</target>
 				<category>blank</category>
 			</demo>
