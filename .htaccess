@@ -79,6 +79,11 @@ RewriteRule		^screenshots/(.+)\.(jpg|png)$								data/screenshots/$1.$2 [NS,L]
 RewriteRule		^scummvm_appcast.xml								appcasts/macosx/release.xml [L]
 
 ##
+# Catch script kiddies
+##
+RewriteRule		^wp-login													/
+
+##
 # Forward old page requests to the new fancy URLs
 ##
 # Compatibility page, with args
