@@ -37,6 +37,8 @@ span.daily_provider {
 #downloadContainer {
 	position: relative;
 	width: 100%;
+	max-width: 600px;
+	min-height: 110px;
 }
 
 #downloadButton {
