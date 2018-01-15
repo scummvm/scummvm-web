@@ -275,6 +275,7 @@ nav label {
 }
 
 .container {
+	padding-top: 8px;
 	border-radius: 0 0 8px 8px;
 	background: rgb(251, 241, 206);
 }
