@@ -11,7 +11,7 @@
 		<div class="round-box-header">
 			{#introHeaderWhatIs#}
 		</div>
-		<div class="round-box-content row">
+		<div class="round-box-content text row">
 			<div class="col-2-3 col-md-1">
 				<p>{#introHeaderContentP1#}</p>
 				<p>{#introHeaderContentP2#}</p>

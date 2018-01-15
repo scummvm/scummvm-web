@@ -353,6 +353,10 @@ nav {
 	overflow: hidden;
 }
 
+.round-box-content.text {
+	padding-left: 16px;
+}
+
 .round-box-header ~ .round-box-content {
 	border-radius: 0 0 8px 8px;
 	border-top: 0;
