@@ -4,7 +4,7 @@ nav dl {
 	border-radius: 8px;
 	background: rgb(168, 39, 9);
 	padding-bottom: 10px;
-	box-shadow: 4px 4px 1px rgb(229, 186, 153)
+	box-shadow: 4px 4px 0 rgb(229, 186, 153)
 }
 
 nav dl:last-child {
