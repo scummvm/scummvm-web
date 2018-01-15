@@ -99,7 +99,7 @@
 -->
 				<file>
 					<category_icon>catpl-macos.png</category_icon>
-					<url>scummvm-{$release}-macosx.dmg</url>
+					<url>scummvm-{$release}.1-macosx.dmg</url>
 					<name>macOS 10.7+ 64 bits with Sparkle Disk Image</name>
 					<user_agent>Macintosh</user_agent>
 				</file>
