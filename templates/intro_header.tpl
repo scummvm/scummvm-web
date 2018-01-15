@@ -12,7 +12,7 @@
 			{#introHeaderWhatIs#}
 		</div>
 		<div class="round-box-content row">
-			<div class="col-1-2">
+			<div class="col-2-3 col-md-1">
 				<p>{#introHeaderContentP1#}</p>
 				<p>{#introHeaderContentP2#}</p>
 				<p>{#introHeaderContentP3#}</p>
@@ -25,10 +25,9 @@
 				</form>
 				<p>{#introHeaderContentP5#}</p>
 			</div>
-			<div class="col-1-2">
+			<div class="col-1-3 col-md-1">
 			<div class="round-box">
-				<div class="round-box-header">Random Screenshot</div>
-				<div class="round-box-content gallery">
+				<div class="round-box-content gallery bg-yellow">
 					<a href="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}-full.png" title="{$rand_file.caption}">
 						<img class="random-screenshot" src="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}-full.png" alt="{$rand_file.caption}">
 					</a>

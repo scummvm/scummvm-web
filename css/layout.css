@@ -346,13 +346,16 @@ nav {
 
 .round-box-content {
 	background: #fff;
-	border-left: 1px solid rgb(235, 177, 118);
-	border-right: 1px solid rgb(235, 177, 118);
-	border-bottom: 1px solid rgb(235, 177, 118);
-	border-radius: 0 0 8px 8px;
+	border: 1px solid rgb(235, 177, 118);
+	border-radius: 8px;
 	margin: 0;
 	padding: 8px;
 	overflow: hidden;
+}
+
+.round-box-header ~ .round-box-content {
+	border-radius: 0 0 8px 8px;
+	border-top: 0;
 }
 
 
@@ -401,12 +404,15 @@ nav {
 	.scummvm {
 		font-size: 1.6vw;
 	}
+	.col-md-2 {
+		width: 50%;
+	}
+	.col-md-1 {
+		width: 100%;
+	}
 }
 
 @media (max-width: 640px) {
-	.hide-small {
-		display: none;
-	}
 	.col-1-2 {
 		clear: left;
 		width: 100%;
@@ -443,4 +449,15 @@ nav {
 		z-index: 91;
 		overflow-y: unset;
 	}
+	.hide-small {
+		display: none;
+	}
+	.col-sm-1 {
+		width: 100%;
+	}
+}
+
+/* Color overrides */
+.bg-yellow {
+	background: rgb(251, 241, 206);
 }
