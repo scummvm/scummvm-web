@@ -143,14 +143,15 @@ footer a:hover {
 	max-width: 1440px;
 	position: relative;
 	margin: 0 auto;
+	padding: 0 40px;
 }
 
 .col-4-5 {
-	width: calc(100% - 200px);
+	width: calc(100% - 180px);
 }
 
 .col-1-5 {
-	width: 195px;
+	width: 175px;
 	position: relative;
 }
 
@@ -202,7 +203,7 @@ header .row .top {
 }
 
 .top img {
-	max-width: 60%;
+	max-width: 58%;
 }
 
 .float_right {
@@ -260,13 +261,6 @@ nav {
 .menu-trigger:checked~dd {
 	display: block;
 }
-
-nav label {
-	display: block;
-	width: 100%;
-	cursor: pointer;
-}
-
 
 /* Content boxes */
 
@@ -408,7 +402,7 @@ nav label {
 
 /* Responsive Behavior */
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
 	/* CSS Rules targeting most tablets in vertical orientation */
 	.hide-medium {
 		display: none;
@@ -417,7 +411,7 @@ nav label {
 		width: 100%;
 	}
 	.scummvm {
-		font-size: 1.6vw;
+		font-size: 1.4vw;
 	}
 	.col-md-2 {
 		width: 50%;
@@ -427,7 +421,7 @@ nav label {
 	}
 }
 
-@media (max-width: 640px) {
+@media (max-width: 641px) {
 	.col-1-2 {
 		clear: left;
 		width: 100%;
@@ -468,6 +462,11 @@ nav label {
 	}
 	.col-sm-1 {
 		width: 100%;
+	}
+	nav label {
+		display: block;
+		width: 100%;
+		cursor: pointer;
 	}
 }
 
