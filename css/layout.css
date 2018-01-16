@@ -422,6 +422,9 @@ nav {
 }
 
 @media (max-width: 641px) {
+	.site-wrap {
+		padding: 0;
+	}
 	.col-1-2 {
 		clear: left;
 		width: 100%;
