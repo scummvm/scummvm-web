@@ -1,0 +1,19 @@
+<NAME>Einige ziemlich wichtige Verbesserungen</NAME>
+<DATE>Mar 8, 2002</DATE>
+<AUTHOR>laxdragon</AUTHOR>
+<BODY>
+<p>
+<img src="/data/news/de/20020308.png" width="256" height="192" border="0" alt="Full Throttle" align="right">
+	BBrox, Endy und Yazoo haben diese Woche am Limit gearbeitet (Danke, Jungs!). Hier sind die Neuigkeiten bezüglich der Entwicklung von ScummVM:
+ <ul>
+		<li>Sam and Max ist nun durchspielbar!</li>
+		<li>Die <i>inSane</i>-Video-Engine funktioniert. Diese wird in The Dig und Vollgas verwendet.</li>
+		<li>Weitere Kommandozeilen-Optionen zur Steuerung. Siehe Liesmich.txt</li>
+		<li>Mit Vorarbeiten an The Curse of Monkey Island wurde begonnen.</li>
+		<li>Mutle hat die Mac-Portierung zum CVS-Baum hinzugefügt.</li>
+		<li>Viele, viele Fehler wurden beseitigt.</li>
+	</ul>
+<br/>
+<br/>
+</p>
+</BODY>
