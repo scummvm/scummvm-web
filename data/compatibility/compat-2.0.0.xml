@@ -910,9 +910,9 @@
 			<game>
 				<name>Police Quest 4: Open Season</name>
 				<target>pq4</target>
-				<support_level>good</support_level>
+				<support_level>broken</support_level>
 				<notes>
-					Game is completable<h:br />- DOS versions are supported by this target
+					- DOS versions are supported by this target
 				</notes>
 			</game>
 			<game>
