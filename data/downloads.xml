@@ -172,12 +172,12 @@
 				<file>
 					<category_icon>catpl-android.png</category_icon>
 					<url>scummvm-{$release}-android-x86.apk</url>
-					<name>Android x86 package</name>
+					<name>Android x86 32bit package</name>
 				</file>
 				<file>
 					<category_icon>catpl-android.png</category_icon>
 					<url>scummvm-{$release}-android-x86_64.apk</url>
-					<name>Android x86 package</name>
+					<name>Android x86 64bit package</name>
 				</file>
 <!--
 				<file>
