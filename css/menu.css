@@ -1,14 +1,30 @@
 nav {
 	width: 190px;
+	position: relative;
+	z-index: 0;
 }
 
 nav dl {
 	white-space: nowrap;
-	overflow: hidden;
 	border-radius: 8px;
 	background: rgb(168, 39, 9);
-	padding-bottom: 10px;
-	box-shadow: 4px 4px 0 rgb(229, 186, 153)
+	margin-bottom: 20px;
+	z-index: 20;
+}
+
+nav dl::after {
+	content: "";
+	display: block;
+	position: relative;
+	bottom: -6px;
+	left: 4px;
+	right: 10px;
+	width: 177px;
+	filter: blur(1px);
+	background-color: rgb(229, 186, 153);
+	height: 8px;
+	z-index: -1;
+	border-radius: 0 0 0 8px;
 }
 
 nav dl:last-child {
