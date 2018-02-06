@@ -8,8 +8,8 @@ nav dl {
 	white-space: nowrap;
 	border-radius: 8px;
 	background: rgb(168, 39, 9);
-	margin-bottom: 20px;
 	z-index: 20;
+	margin: 8px 0 16px;
 }
 
 nav dl::after {
@@ -21,7 +21,7 @@ nav dl::after {
 	right: 10px;
 	width: 177px;
 	filter: blur(1px);
-	background-color: rgb(229, 186, 153);
+	background-color: #EDBE17;
 	height: 8px;
 	z-index: -1;
 	border-radius: 0 0 0 8px;
@@ -67,6 +67,7 @@ nav dl dt {
 	text-align: left;
 	line-height: 34px;
 	font-size: 7.5pt;
+	margin-bottom: 4px;
 }
 
 nav dl dd {

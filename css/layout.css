@@ -100,7 +100,7 @@ footer a:hover {
 	max-width: 160px;
 	position: absolute;
 	bottom: -60px;
-	filter: drop-shadow(-3px 5px 1px rgb(229, 186, 153));
+	filter: drop-shadow(-3px 5px 1px #EDBE17);
 }
 
 /* Random Screenshot */
@@ -271,7 +271,6 @@ nav {
 }
 
 .container {
-	padding-top: 8px;
 	border-radius: 0 0 8px 8px;
 	background: rgb(251, 241, 206);
 }
@@ -334,7 +333,7 @@ nav {
 }
 
 .round-box {
-	padding: 8px;
+	margin: 8px;
 }
 
 .round-box-header {
