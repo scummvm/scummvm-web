@@ -175,9 +175,6 @@ footer a:hover {
 
 [class*='col-'] {
 	float: left;
-}
-
-[class*='col-'] {
 	padding-right: 8px;
 }
 
@@ -247,6 +244,10 @@ label[for="nav-trigger"] {
 	cursor: pointer;
 	background-image: url('/images/nav-trigger.svg');
 	background-size: contain;
+}
+
+.nav-trigger:checked~label[for="nav-trigger"] {
+	position: fixed;
 }
 
 .nav-trigger+label,
@@ -423,29 +424,42 @@ nav {
 }
 
 @media (max-width: 641px) {
+	body {
+		margin: 0;
+	}
+	footer {
+		padding: 0 8px;
+		background: rgb(251, 241, 206);
+	}
 	.site-wrap {
 		padding: 0;
+		margin: 0;
 	}
 	.col-1-2 {
 		clear: left;
 		width: 100%;
 	}
+	[class*='col-'] {
+		padding-right: 0;
+	}
 	.logo {
 		max-width: 150px;
 		width: 100%;
-		position: unset;
+		position: relative;
+		top: 8px;
 	}
 	.topper {
 		border-radius: 0;
 		background: 0;
 	}
 	.container {
-		border-radius: 8px;
+		border-radius: 0;
 	}
 	header {
 		width: 100%;
-		height: 50px;
+		height: 58px;
 		z-index: 999;
+		border-bottom: 1px rgb(169, 169, 169) solid;
 	}
 	.col-1-5 {
 		width: 100%;
