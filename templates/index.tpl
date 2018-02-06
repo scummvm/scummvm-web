@@ -92,6 +92,15 @@
 {foreach from=$js_files item=script}
 	<script src="/javascripts/{$script}"></script>
 {/foreach}
-
+{literal}
+	<script>
+		document.querySelector('.nav-trigger').addEventListener('change', function() {
+			if (this.checked)
+				document.body.classList.add('no-scroll');
+			else
+				document.body.classList.remove('no-scroll');
+		});
+	</script>
+{/literal}
 </body>
 </html>

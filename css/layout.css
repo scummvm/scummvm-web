@@ -236,7 +236,7 @@ header .row .top {
 label[for="nav-trigger"] {
 	display: none;
 	position: absolute;
-	right: 15px;
+	right: 8px;
 	top: 15px;
 	z-index: 2;
 	height: 30px;
@@ -447,6 +447,7 @@ nav {
 		width: 100%;
 		position: relative;
 		top: 8px;
+		margin-left: 8px;
 	}
 	.topper {
 		border-radius: 0;
