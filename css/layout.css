@@ -146,15 +146,15 @@ footer a:hover {
 	max-width: 1440px;
 	position: relative;
 	margin: 0 auto;
-	padding: 0 40px;
+	padding: 0 50px;
 }
 
 .col-4-5 {
-	width: calc(100% - 180px);
+	width: calc(100% - 135px);
 }
 
 .col-1-5 {
-	width: 175px;
+	width: 130px;
 	position: relative;
 }
 
