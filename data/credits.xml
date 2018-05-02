@@ -1038,6 +1038,24 @@
 				</person>
 			</group>
 			<group>
+				<name>Xeen</name>
+				<person>
+					<name>Paul Gilbert</name>
+					<alias>dreammaster</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>David Goldsmith</name>
+					<alias>WizardStan</alias>
+					<description>(analysis)</description>
+				</person>
+				<person>
+					<name>Matt Taylor</name>
+					<alias></alias>
+					<description>(analysis)</description>
+				</person>
+			</group>
+			<group>
 				<name>Z-Vision</name>
 				<person>
 					<name>Adrian Astley</name>
@@ -1614,6 +1632,14 @@
 				<person>
 					<name>Paul Smedley</name>
 					<alias>Creeping</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>RISC OS</name>
+				<person>
+					<name>Cameron Cawley</name>
+					<alias>ccawley2011</alias>
 					<description></description>
 				</person>
 			</group>
