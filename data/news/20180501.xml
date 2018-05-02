@@ -1,0 +1,35 @@
+<NAME>Inconceivable, the royal pyramid besieged!</NAME>
+<DATE>May 1, 2018</DATE>
+<AUTHOR>Dreammaster</AUTHOR>
+<BODY>
+<p>
+Battle to liberate the populace from the threat of the tyrant Lord Xeen, or
+his cruel master Alamar. Or dare to venture beyond the world of Xeen to
+the world of Havoc to test your mettle with a new challenge. We're pleased
+to announce support for the following games:
+<ul>
+  <li>Might and Magic IV - Clouds of Xeen</li>
+  <li>Might and Magic V - Darkside of Xeen</li>
+  <li>Might and Magic - World of Xeen</li>
+  <li>Might and Magic - World of Xeen 2 CD Talkie</li>
+  <li>Might and Magic - Swords of Xeen</li>
+</ul>
+
+At this time, only the English versions of these games are ready for testing. 
+So break out your copies, or buy them digitally on 
+<a href="https://www.gog.com/game/might_and_magic_6_limited_edition?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">GOG</a>,
+and grab the latest 
+<a href="http://scummvm.org/downloads/#daily">daily build</a> of ScummVM. You'll also need
+an extra required
+<a href="https://github.com/scummvm/scummvm/blob/master/dists/engine-data/xeen.ccs?raw=true">xeen.ccs</a>
+file, which should be put in the same folder you copy your game files to.
+</p>
+
+<p>
+Before you start testing any of the games, please be aware that given the large part combat plays in the game,
+any errors you encounter may be more difficult to replicate than in traditional adventure games. As such, it'll
+be a good idea to make a practice of regularly saving your game, just in case something goes wrong. If you do
+experience any crashes, or notice any functionality which seems incorrect, please let us know. Any problems
+found should be reported on our <a href="https://bugs.scummvm.org/">Issue Tracker</a>.
+</p>
+</BODY>
