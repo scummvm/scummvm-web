@@ -146,7 +146,7 @@
       <answer>
 		<simpara>
 		That depends on several factors: First off, it has to fit within the
-		scope of ScummVM, i.e., it has to be a point and click adventure with 2D
+		scope of ScummVM, i.e., it has to be a point and click adventure or rpg with 2D
 		graphics. Secondly, there must be a developer (or multiple) who is
 		interested in working on this and both willing and able to carry out the
 		required work.
@@ -187,9 +187,13 @@
       <question>Will you add support for Sierra's SCI games?</question>
       <answer>
 		<simpara>
-		FreeSCI has now been merged into ScummVM, see <ulink url="/news/20090215/">this news item</ulink>.
-		However, many SCI games are still not supported, so you may also want to check out <ulink url="http://www.dosbox.com">DOSBox</ulink>
-		if you want to play all SCI games, especially newer ones.
+		We said <ulink url="http://forums.scummvm.org/viewtopic.php?t=1979">never</ulink>.
+		We even made <ulink url="/news/20040401/">a joke</ulink> about it (and
+		<ulink url="/news/20040402/">also here</ulink> if you want to read the full story).
+		But <ulink url="/news/20090215/">it happened</ulink> nonetheless. FreeSCI has now
+		been merged into ScummVM, and thanks to the hard work from several developers most
+		SCI games are now supported. For the few that are not yet supported you can check
+		out <ulink url="http://www.dosbox.com">DOSBox</ulink>.
 		</simpara>
 	</answer>
     </entry>
