@@ -1892,6 +1892,15 @@
 			</image>
 		</game>
 		<game>
+			<name>Starship Titanic</name>
+			<category>titanic</category>
+			<image>
+				<file>other/titanic/titanic-win-en-#n#</file>
+				<range from="1" to="10" format="%02d" />
+				<caption>Starship Titanic (CD/Windows/English)</caption>
+			</image>
+		</game>		
+		<game>
 			<name>The 7th Guest</name>
 			<category>t7g</category>
 			<image>
