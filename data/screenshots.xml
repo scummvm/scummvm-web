@@ -1212,6 +1212,15 @@
 			</image>
 		</game>
 		<game>
+			<name>Lighthouse: The Dark Being</name>
+			<category>lighthouse</category>
+			<image>
+				<file>sci/lighthouse/lighthouse-de-#n#</file>
+				<range from="1" to="14" format="%d" />
+				<caption>Lighthouse: The Dark Being (1.0C/DOS/German)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Pepper's Adventure in Time</name>
 			<category>pepper</category>
 			<image>
