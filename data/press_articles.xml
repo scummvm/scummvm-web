@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <articles>
 	<article>
+		<url>https://blog.github.com/2018-06-25-preserving-and-playing-classic-point-and-click-adventure-games-with-scummvm</url>
+		<name>Preserving and playing classic point-and-click adventure games with ScummVM</name>
+		<posted>Github Blog, 25 June 2018</posted>
+	</article>
+	<article>
 		<url>https://www.youtube.com/watch?v=QihSN7VCrB0</url>
 		<name>ScummVM Retrospective - Lessons learnt, from games preserved.</name>
 		<posted>linux.conf.au Youtube Channel, 27 January 2017 (Recorded on January 16)</posted>
