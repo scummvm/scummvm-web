@@ -1288,6 +1288,15 @@
 			</image>
 		</game>
 		<game>
+			<name>Rama</name>
+			<category>rama</category>
+			<image>
+				<file>sci/rama-en-#n#</file>
+				<range from="1" to="13" format="%02d" />
+				<caption>Rama (CD/DOS/English)</caption>
+			</image>
+		</game>			
+		<game>
 			<name>Roberta Williams' Mixed-Up Series</name>
 			<category>mixedup</category>
 			<image>
@@ -1811,16 +1820,7 @@
 				<file>other/nippon/nippon-amiga-de-1</file>
 				<caption>Nippon Safes Inc. (Amiga/German)</caption>
 			</image>
-		</game>
-		<game>
-			<name>Rama</name>
-			<category>rama</category>
-			<image>
-				<file>other/sci/rama-en-#n#</file>
-				<range from="1" to="13" format="%02d" />
-				<caption>Rama (CD/DOS/English)</caption>
-			</image>
-		</game>		
+		</game>	
 		<game>
 			<name>Rex Nebular and the Cosmic Gender Bender</name>
 			<category>nebular</category>
