@@ -1291,7 +1291,7 @@
 			<name>Rama</name>
 			<category>rama</category>
 			<image>
-				<file>sci/rama-en-#n#</file>
+				<file>sci/rama/rama-en-#n#</file>
 				<range from="1" to="13" format="%02d" />
 				<caption>Rama (CD/DOS/English)</caption>
 			</image>
