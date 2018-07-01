@@ -16,7 +16,7 @@
 			{$news->getTitle()}
 		</a>
 	</div>
-	<div class="content">
+	<div class="news content">
 		<div class="news-author">
 			{#newsPostedBy#} {$news->getAuthor()}
 		</div>

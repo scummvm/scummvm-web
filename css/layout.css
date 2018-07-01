@@ -334,6 +334,10 @@ nav {
 	top: -8px;
 }
 
+.box .content.news img {
+    float: right;
+}
+
 .round-box {
 	margin: 8px;
 }
