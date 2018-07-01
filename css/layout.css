@@ -221,7 +221,7 @@ header .row .top {
 	display: block;
 }
 
-.banners img {
+.banners a img {
 	width: 88px;
 	height: 37px;
 }

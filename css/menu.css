@@ -75,8 +75,8 @@ nav dl dd {
 	line-height: 14px;
 }
 
-.monkey {
-	height: 280px;
+.monkey .banners{
+	height: 600px;
 }
 
 @media (max-width: 640px) {
