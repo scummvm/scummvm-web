@@ -540,6 +540,7 @@
 		<title>{#downloadsOldBinaries#}</title>
 		<baseurl>/frs/scummvm/</baseurl>
 		<subsection>
+			<title>{#downloadsOld#}</title>
 			<anchor>older</anchor>
 			<notes>
 				{#downloadsOldBinariesNote#}
