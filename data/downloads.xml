@@ -748,6 +748,7 @@
 	<section>
 		<title>{#downloadsDailyBuilds#}</title>
 		<subsection>
+			<title>{#downloadsDailyBuilds#}</title>
 			<anchor>daily</anchor>
 			<notes>
 				<h:p>
