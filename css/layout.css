@@ -335,7 +335,8 @@ nav {
 }
 
 .box .content.news img {
-    float: right;
+	float: right;
+	max-width: 100%;	
 }
 
 .round-box {
