@@ -5,57 +5,91 @@
 		<title>LucasArts games</title>
 		<category>lec</category>
 		<game>
-			<name>Maniac Mansion</name>
-			<category>maniac</category>
+			<name>The Curse of Monkey Island</name>
+			<category>comi</category>
 			<image>
-				<file>lec/maniac/scummvm_0_0_#n#</file>
+				<file>lec/comi/scummvm_0_11_#n#</file>
+				<range from="0" to="2" format="%d" />
+				<caption>The Curse of Monkey Island</caption>
+			</image>
+			<image>
+				<file>lec/comi/comi-#n#</file>
+				<range from="3" to="5" format="%d" />
+				<caption>The Curse of Monkey Island</caption>
+			</image>
+			<image>
+				<file>lec/comi/comi-zh-#n#</file>
 				<range from="0" to="1" format="%d" />
-				<caption>Maniac Mansion (NES)</caption>
+				<caption>The Curse of Monkey Island (Chinese (Taiwan))</caption>
 			</image>
 			<image>
-				<file>lec/maniac/scummvm_0_0_#n#</file>
-				<range from="2" to="3" format="%d" />
-				<caption>Maniac Mansion</caption>
-			</image>
-			<image>
-				<file>lec/maniac/scummvm_0_0_#n#</file>
-				<range from="4" to="5" format="%d" />
-				<caption>Maniac Mansion (Enhanced)</caption>
-			</image>
-			<image>
-				<file>lec/maniac/maniac-amiga-#n#</file>
-				<range from="0" to="3" format="%d" />
-				<caption>Maniac Mansion (Amiga)</caption>
-			</image>
-			<image>
-				<file>lec/maniac/scummvm_0_0_6</file>
-				<caption>Maniac Mansion (Amiga German)</caption>
+				<file>lec/comi/comi-de-#n#</file>
+				<range from="1" to="2" format="%d" />
+				<caption>The Curse of Monkey Island (German)</caption>
 			</image>
 		</game>
 		<game>
-			<name>Zak McKracken and the Alien Mindbenders</name>
-			<category>zak</category>
+			<name>Day of the Tentacle</name>
+			<category>tentacle</category>
 			<image>
-				<file>lec/zak/scummvm_0_1_0</file>
-				<caption>Zak McKracken and the Alien Mindbenders (C64 German)</caption>
+				<file>lec/tentacle/scummvm_0_8_#n#</file>
+				<range from="0" to="1" format="%d" />
+				<caption>Day of the Tentacle</caption>
 			</image>
 			<image>
-				<file>lec/zak/scummvm_0_1_1</file>
-				<caption>Zak McKracken and the Alien Mindbenders</caption>
+				<file>lec/tentacle/scummvm_0_8_2</file>
+				<caption>Day of the Tentacle (French)</caption>
 			</image>
 			<image>
-				<file>lec/zak/scummvm_0_1_2</file>
-				<caption>Zak McKracken and the Alien Mindbenders (Amiga)</caption>
+				<file>lec/tentacle/tentacle-de-#n#</file>
+				<range from="1" to="3" format="%d" />
+				<caption>Day of the Tentacle (German)</caption>
+			</image>
+		</game>			
+		<game>
+			<name>The Dig</name>
+			<category>dig</category>
+			<image>
+				<file>lec/dig/scummvm_0_10_#n#</file>
+				<range from="0" to="2" format="%d" />
+				<caption>The Dig</caption>
 			</image>
 			<image>
-				<file>lec/zak/scummvm_0_1_#n#</file>
-				<range from="3" to="4" format="%d" />
-				<caption>Zak McKracken and the Alien Mindbenders (FM-TOWNS)</caption>
+				<file>lec/dig/dig-#n#</file>
+				<range from="3" to="5" format="%d" />
+				<caption>The Dig</caption>
+			</image>
+		</game>
+		<game>
+			<name>Full Throttle</name>
+			<category>ft</category>
+			<image>
+				<file>lec/ft/scummvm_0_9_#n#</file>
+				<range from="0" to="2" format="%d" />
+				<caption>Full Throttle</caption>
 			</image>
 			<image>
-				<file>lec/zak/zak-fm-#n#</file>
-				<range from="2" to="5" format="%d" />
-				<caption>Zak McKracken and the Alien Mindbenders (FM-TOWNS)</caption>
+				<file>lec/ft/ft-#n#</file>
+				<range from="3" to="5" format="%d" />
+				<caption>Full Throttle</caption>
+			</image>
+			<image>
+				<file>lec/ft/ft-br-#n#</file>
+				<range from="0" to="3" format="%d" />
+				<caption>Full Throttle (Brazilian-Portuguese)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Indiana Jones and the Fate of Atlantis</name>
+			<category>atlantis</category>
+			<image>
+				<file>lec/atlantis/scummvm_0_3_#n#</file>
+				<range from="0" to="1" format="%d" />
+				<caption>Indiana Jones and the Fate of Atlantis</caption>
+			</image>
+			<image>
+				<file>lec/atlantis/scummvm_0_3_2</file>
+				<caption>Indiana Jones and the Fate of Atlantis (Amiga)</caption>
 			</image>
 		</game>
 		<game>
@@ -106,7 +140,70 @@
 				<range from="7" to="8" format="%d" />
 				<caption>Loom (PC-Engine Japanese)</caption>
 			</image>
+		</game>		
+		<game>
+			<name>Maniac Mansion</name>
+			<category>maniac</category>
+			<image>
+				<file>lec/maniac/scummvm_0_0_#n#</file>
+				<range from="0" to="1" format="%d" />
+				<caption>Maniac Mansion (NES)</caption>
+			</image>
+			<image>
+				<file>lec/maniac/scummvm_0_0_#n#</file>
+				<range from="2" to="3" format="%d" />
+				<caption>Maniac Mansion</caption>
+			</image>
+			<image>
+				<file>lec/maniac/scummvm_0_0_#n#</file>
+				<range from="4" to="5" format="%d" />
+				<caption>Maniac Mansion (Enhanced)</caption>
+			</image>
+			<image>
+				<file>lec/maniac/maniac-amiga-#n#</file>
+				<range from="0" to="3" format="%d" />
+				<caption>Maniac Mansion (Amiga)</caption>
+			</image>
+			<image>
+				<file>lec/maniac/scummvm_0_0_6</file>
+				<caption>Maniac Mansion (Amiga German)</caption>
+			</image>
 		</game>
+		<game>
+			<name>Monkey Island 2: Le Chuck's Revenge</name>
+			<category>monkey2</category>
+			<image>
+				<file>lec/monkey2/scummvm_0_5_0</file>
+				<caption>Monkey Island 2: LeChuck's Revenge</caption>
+			</image>
+			<image>
+				<file>lec/monkey2/monkey2-#n#</file>
+				<range from="1" to="3" format="%d" />
+				<caption>Monkey Island 2: LeChuck's Revenge</caption>
+			</image>
+			<image>
+				<file>lec/monkey2/scummvm_0_5_1</file>
+				<caption>Monkey Island 2: LeChuck's Revenge (German)</caption>
+			</image>
+			<image>
+				<file>lec/monkey2/scummvm_0_5_2</file>
+				<caption>Monkey Island 2: LeChuck's Revenge (Amiga)</caption>
+			</image>
+		</game>
+		<game>
+			<name>Sam &amp; Max Hit the Road </name>
+			<category>samnmax</category>
+			<image>
+				<file>lec/samnmax/scummvm_0_7_#n#</file>
+				<range from="0" to="2" format="%d" />
+				<caption>Sam &amp; Max Hit the Road</caption>
+			</image>
+			<image>
+				<file>lec/samnmax/samnmax-#n#</file>
+				<range from="3" to="5" format="%d" />
+				<caption>Sam &amp; Max Hit the Road</caption>
+			</image>
+		</game>			
 		<game>
 			<name>The Secret of Monkey Island</name>
 			<category>monkey</category>
@@ -152,130 +249,33 @@
 				<file>lec/monkey/scummvm_0_4_9</file>
 				<caption>The Secret of Monkey Island (SegaCD)</caption>
 			</image>
-		</game>
+		</game>	
 		<game>
-			<name>Monkey Island 2: Le Chuck's Revenge</name>
-			<category>monkey2</category>
+			<name>Zak McKracken and the Alien Mindbenders</name>
+			<category>zak</category>
 			<image>
-				<file>lec/monkey2/scummvm_0_5_0</file>
-				<caption>Monkey Island 2: LeChuck's Revenge</caption>
+				<file>lec/zak/scummvm_0_1_0</file>
+				<caption>Zak McKracken and the Alien Mindbenders (C64 German)</caption>
 			</image>
 			<image>
-				<file>lec/monkey2/monkey2-#n#</file>
-				<range from="1" to="3" format="%d" />
-				<caption>Monkey Island 2: LeChuck's Revenge</caption>
+				<file>lec/zak/scummvm_0_1_1</file>
+				<caption>Zak McKracken and the Alien Mindbenders</caption>
 			</image>
 			<image>
-				<file>lec/monkey2/scummvm_0_5_1</file>
-				<caption>Monkey Island 2: LeChuck's Revenge (German)</caption>
+				<file>lec/zak/scummvm_0_1_2</file>
+				<caption>Zak McKracken and the Alien Mindbenders (Amiga)</caption>
 			</image>
 			<image>
-				<file>lec/monkey2/scummvm_0_5_2</file>
-				<caption>Monkey Island 2: LeChuck's Revenge (Amiga)</caption>
-			</image>
-		</game>
-		<game>
-			<name>Indiana Jones and the Fate of Atlantis</name>
-			<category>atlantis</category>
-			<image>
-				<file>lec/atlantis/scummvm_0_3_#n#</file>
-				<range from="0" to="1" format="%d" />
-				<caption>Indiana Jones and the Fate of Atlantis</caption>
+				<file>lec/zak/scummvm_0_1_#n#</file>
+				<range from="3" to="4" format="%d" />
+				<caption>Zak McKracken and the Alien Mindbenders (FM-TOWNS)</caption>
 			</image>
 			<image>
-				<file>lec/atlantis/scummvm_0_3_2</file>
-				<caption>Indiana Jones and the Fate of Atlantis (Amiga)</caption>
+				<file>lec/zak/zak-fm-#n#</file>
+				<range from="2" to="5" format="%d" />
+				<caption>Zak McKracken and the Alien Mindbenders (FM-TOWNS)</caption>
 			</image>
-		</game>
-		<game>
-			<name>Day of the Tentacle</name>
-			<category>tentacle</category>
-			<image>
-				<file>lec/tentacle/scummvm_0_8_#n#</file>
-				<range from="0" to="1" format="%d" />
-				<caption>Day of the Tentacle</caption>
-			</image>
-			<image>
-				<file>lec/tentacle/scummvm_0_8_2</file>
-				<caption>Day of the Tentacle (French)</caption>
-			</image>
-			<image>
-				<file>lec/tentacle/tentacle-de-#n#</file>
-				<range from="1" to="3" format="%d" />
-				<caption>Day of the Tentacle (German)</caption>
-			</image>
-		</game>
-		<game>
-			<name>Sam &amp; Max Hit the Road </name>
-			<category>samnmax</category>
-			<image>
-				<file>lec/samnmax/scummvm_0_7_#n#</file>
-				<range from="0" to="2" format="%d" />
-				<caption>Sam &amp; Max Hit the Road</caption>
-			</image>
-			<image>
-				<file>lec/samnmax/samnmax-#n#</file>
-				<range from="3" to="5" format="%d" />
-				<caption>Sam &amp; Max Hit the Road</caption>
-			</image>
-		</game>
-		<game>
-			<name>Full Throttle</name>
-			<category>ft</category>
-			<image>
-				<file>lec/ft/scummvm_0_9_#n#</file>
-				<range from="0" to="2" format="%d" />
-				<caption>Full Throttle</caption>
-			</image>
-			<image>
-				<file>lec/ft/ft-#n#</file>
-				<range from="3" to="5" format="%d" />
-				<caption>Full Throttle</caption>
-			</image>
-			<image>
-				<file>lec/ft/ft-br-#n#</file>
-				<range from="0" to="3" format="%d" />
-				<caption>Full Throttle (Brazilian-Portuguese)</caption>
-			</image>
-		</game>
-		<game>
-			<name>The Dig</name>
-			<category>dig</category>
-			<image>
-				<file>lec/dig/scummvm_0_10_#n#</file>
-				<range from="0" to="2" format="%d" />
-				<caption>The Dig</caption>
-			</image>
-			<image>
-				<file>lec/dig/dig-#n#</file>
-				<range from="3" to="5" format="%d" />
-				<caption>The Dig</caption>
-			</image>
-		</game>
-		<game>
-			<name>The Curse of Monkey Island</name>
-			<category>comi</category>
-			<image>
-				<file>lec/comi/scummvm_0_11_#n#</file>
-				<range from="0" to="2" format="%d" />
-				<caption>The Curse of Monkey Island</caption>
-			</image>
-			<image>
-				<file>lec/comi/comi-#n#</file>
-				<range from="3" to="5" format="%d" />
-				<caption>The Curse of Monkey Island</caption>
-			</image>
-			<image>
-				<file>lec/comi/comi-zh-#n#</file>
-				<range from="0" to="1" format="%d" />
-				<caption>The Curse of Monkey Island (Chinese (Taiwan))</caption>
-			</image>
-			<image>
-				<file>lec/comi/comi-de-#n#</file>
-				<range from="1" to="2" format="%d" />
-				<caption>The Curse of Monkey Island (German)</caption>
-			</image>
-		</game>
+		</game>		
 	</group>
 	<group>
 		<title>Activision Adventure games</title>
@@ -331,6 +331,29 @@
 		<title>Adventuresoft/Horrorsoft games</title>
 		<category>agos</category>
 		<game>
+			<name>Elvira series</name>
+			<category>elvira</category>
+			<image>
+				<file>agos/elvira/elvira-#n#</file>
+				<range from="1" to="5" format="%d" />
+				<caption>Elvira - Mistress of the Dark (DOS/English)</caption>
+			</image>
+			<image>
+				<file>agos/elvira/elvira2-amiga-#n#</file>
+				<range from="1" to="5" format="%d" />
+				<caption>Elvira II - The Jaws of Cerberus (Amiga/English)</caption>
+			</image>
+		</game>
+		<game>
+			<name>The Feeble Files</name>
+			<category>feeble</category>
+			<image>
+				<file>agos/feeble/feeble-#n#</file>
+				<range from="0" to="8" format="%d" />
+				<caption>The Feeble Files (Windows)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Simon the Sorcerer series</name>
 			<category>simon</category>
 			<image>
@@ -376,30 +399,7 @@
 				<range from="10" to="11" format="%d" />
 				<caption>Simon the Sorcerer's Puzzle Pack - Swampy Adventures</caption>
 			</image>
-		</game>
-		<game>
-			<name>Elvira series</name>
-			<category>elvira</category>
-			<image>
-				<file>agos/elvira/elvira-#n#</file>
-				<range from="1" to="5" format="%d" />
-				<caption>Elvira - Mistress of the Dark (DOS/English)</caption>
-			</image>
-			<image>
-				<file>agos/elvira/elvira2-amiga-#n#</file>
-				<range from="1" to="5" format="%d" />
-				<caption>Elvira II - The Jaws of Cerberus (Amiga/English)</caption>
-			</image>
-		</game>
-		<game>
-			<name>The Feeble Files</name>
-			<category>feeble</category>
-			<image>
-				<file>agos/feeble/feeble-#n#</file>
-				<range from="0" to="8" format="%d" />
-				<caption>The Feeble Files (Windows)</caption>
-			</image>
-		</game>
+		</game>		
 		<game>
 			<name>Waxworks</name>
 			<category>waxworks</category>
@@ -741,6 +741,35 @@
 			</image>
 		</game>
 		<game>
+			<name>Fanmade games</name>
+			<category>fan</category>
+			<image>
+				<file>agi/fanmade/enclosure-#n#</file>
+				<range from="0" to="3" format="%d" />
+				<caption>Enclosure 1 (v1.03)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_#n#</file>
+				<range from="0" to="2" format="%d" />
+				<caption>Serguei's Destiny 1 (v1.1 2003 Apr 10/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_#n#</file>
+				<range from="3" to="7" format="%d" />
+				<caption>Space Quest 0: Replicated (v1.04/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_#n#</file>
+				<range from="8" to="13" format="%d" />
+				<caption>Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_#n#</file>
+				<range from="14" to="15" format="%d" />
+				<caption>Voodoo Girl - Queen of the Darned (v1.2 2002 Jan 1/DOS/English)</caption>
+			</image>
+		</game>		
+		<game>
 			<name>Gold Rush</name>
 			<category>gr</category>
 			<image>
@@ -817,6 +846,20 @@
 			</image>
 		</game>
 		<game>
+			<name>Mickey's Space Adventure</name>
+			<category>mickey</category>
+			<image>
+				<file>agi/preagi/mickey-#n#</file>
+				<range from="1" to="2" format="%d" />
+				<caption>Mickey's Space Adventure (DOS)</caption>
+			</image>
+			<image>
+				<file>agi/preagi/mickey-cga-#n#</file>
+				<range from="1" to="2" format="%d" />
+				<caption>Mickey's Space Adventure (DOS CGA)</caption>
+			</image>
+		</game>		
+		<game>
 			<name>Mixed-Up Mother Goose</name>
 			<category>mumg</category>
 			<image>
@@ -851,49 +894,6 @@
 				<file>agi/sq/scummvm_3_8_#n#</file>
 				<range from="6" to="11" format="%d" />
 				<caption>Space Quest II: Vohaul's Revenge (2.0A 1987-11-06 5.25&quot;/DOS/English)</caption>
-			</image>
-		</game>
-		<game>
-			<name>Fanmade games</name>
-			<category>fan</category>
-			<image>
-				<file>agi/fanmade/enclosure-#n#</file>
-				<range from="0" to="3" format="%d" />
-				<caption>Enclosure 1 (v1.03)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/scummvm_3_9_#n#</file>
-				<range from="0" to="2" format="%d" />
-				<caption>Serguei's Destiny 1 (v1.1 2003 Apr 10/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/scummvm_3_9_#n#</file>
-				<range from="3" to="7" format="%d" />
-				<caption>Space Quest 0: Replicated (v1.04/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/scummvm_3_9_#n#</file>
-				<range from="8" to="13" format="%d" />
-				<caption>Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/scummvm_3_9_#n#</file>
-				<range from="14" to="15" format="%d" />
-				<caption>Voodoo Girl - Queen of the Darned (v1.2 2002 Jan 1/DOS/English)</caption>
-			</image>
-		</game>
-		<game>
-			<name>Mickey's Space Adventure</name>
-			<category>mickey</category>
-			<image>
-				<file>agi/preagi/mickey-#n#</file>
-				<range from="1" to="2" format="%d" />
-				<caption>Mickey's Space Adventure (DOS)</caption>
-			</image>
-			<image>
-				<file>agi/preagi/mickey-cga-#n#</file>
-				<range from="1" to="2" format="%d" />
-				<caption>Mickey's Space Adventure (DOS CGA)</caption>
 			</image>
 		</game>
 		<game>
@@ -1071,25 +1071,6 @@
 			</image>
 		</game>
 		<game>
-			<name>Laura Bow Series</name>
-			<category>laurabow</category>
-			<image>
-				<file>sci/laurabow/laurabow-#n#</file>
-				<range from="1" to="6" format="%d" />
-				<caption>Laura Bow: The Colonel's Bequest</caption>
-			</image>
-			<image>
-				<file>sci/laurabow/laurabow2-#n#</file>
-				<range from="1" to="4" format="%d" />
-				<caption>Laura Bow 2: The Dagger of Amon Ra</caption>
-			</image>
-			<image>
-				<file>sci/laurabow/laurabow2-de-#n#</file>
-				<range from="1" to="3" format="%d" />
-				<caption>Laura Bow 2: The Dagger of Amon Ra (German)</caption>
-			</image>
-		</game>
-		<game>
 			<name>King's Quest series</name>
 			<category>kq-sci</category>
 			<image>
@@ -1133,6 +1114,25 @@
 				<caption>King's Quest VI: Heir Today, Gone Tomorrow (German)</caption>
 			</image>
 		</game>
+		<game>
+			<name>Laura Bow Series</name>
+			<category>laurabow</category>
+			<image>
+				<file>sci/laurabow/laurabow-#n#</file>
+				<range from="1" to="6" format="%d" />
+				<caption>Laura Bow: The Colonel's Bequest</caption>
+			</image>
+			<image>
+				<file>sci/laurabow/laurabow2-#n#</file>
+				<range from="1" to="4" format="%d" />
+				<caption>Laura Bow 2: The Dagger of Amon Ra</caption>
+			</image>
+			<image>
+				<file>sci/laurabow/laurabow2-de-#n#</file>
+				<range from="1" to="3" format="%d" />
+				<caption>Laura Bow 2: The Dagger of Amon Ra (German)</caption>
+			</image>
+		</game>		
 		<game>
 			<name>Leisure Suit Larry series</name>
 			<category>lsl-sci</category>
@@ -1441,6 +1441,15 @@
 		<title>Wintermute engine games</title>
 		<category>wintermute</category>
 		<game>
+			<name>1&#189; Knights: In Search of the Ravishing Princess Herzelindes</name>
+			<category>ritter</category>
+			<image>
+				<file>wintermute/ritter/ritter-win-de-#n#</file>
+				<range from="0" to="15" format="%02d" />
+				<caption>1&#189; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
+			</image>
+		</game>		
+		<game>
 			<name>Chivalry is Not Dead</name>
 			<category>chivalry</category>
 			<image>
@@ -1482,15 +1491,6 @@
 			</image>
 		</game>
 		<game>
-			<name>1&#189; Knights: In Search of the Ravishing Princess Herzelindes</name>
-			<category>ritter</category>
-			<image>
-				<file>wintermute/ritter/ritter-win-de-#n#</file>
-				<range from="0" to="15" format="%02d" />
-				<caption>1&#189; Ritter: Auf der Suche nach der hinrei&szlig;enden Herzelind (German)</caption>
-			</image>
-		</game>
-		<game>
 			<name>Rosemary</name>
 			<category>rosemary</category>
 			<image>
@@ -1526,6 +1526,15 @@
 				<caption>3 Skulls of the Toltecs (DOS/German)</caption>
 			</image>
 		</game>
+		<game>
+			<name>The 7th Guest</name>
+			<category>t7g</category>
+			<image>
+				<file>groovie/t7g-#n#</file>
+				<range from="0" to="7" format="%d" />
+				<caption>The 7th Guest</caption>
+			</image>
+		</game>		
 		<game>
 			<name>Beavis and Butt-head in Virtual Stupidity</name>
 			<category>bbvs</category>
@@ -1859,6 +1868,15 @@
 			</image>
 		</game>
 		<game>
+			<name>Sfinx</name>
+			<category>sfinx</category>
+			<image>
+				<file>other/sfinx/sfinx-#n#</file>
+				<range from="1" to="13" format="%02d" />
+				<caption>Sfinx (DOS/English)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Sherlock Holmes series</name>
 			<category>sherlock</category>
 			<image>
@@ -1871,16 +1889,7 @@
 				<range from="1" to="15" format="%02d" />
 				<caption>The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo (CD/DOS/German)</caption>
 			</image>
-		</game>
-		<game>
-			<name>Sfinx</name>
-			<category>sfinx</category>
-			<image>
-				<file>other/sfinx/sfinx-#n#</file>
-				<range from="1" to="13" format="%02d" />
-				<caption>Sfinx (DOS/English)</caption>
-			</image>
-		</game>
+		</game>		
 		<game>
 			<name>Soltys</name>
 			<category>soltys</category>
@@ -1907,15 +1916,6 @@
 				<file>other/titanic/titanic-win-en-#n#</file>
 				<range from="1" to="10" format="%02d" />
 				<caption>Starship Titanic (CD/Windows/English)</caption>
-			</image>
-		</game>		
-		<game>
-			<name>The 7th Guest</name>
-			<category>t7g</category>
-			<image>
-				<file>groovie/t7g-#n#</file>
-				<range from="0" to="7" format="%d" />
-				<caption>The 7th Guest</caption>
 			</image>
 		</game>
 		<game>
