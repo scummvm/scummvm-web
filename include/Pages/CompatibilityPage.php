@@ -29,7 +29,7 @@ class CompatibilityPage extends Controller {
 			'untested' => 'pctU',
 			'broken' => 'pct0',
 			'bugged' => 'pct50',
-			'good' => 'pct90',
+			'good' => 'pct75',
 			'excellent' => 'pct100'
 		);
 	}
