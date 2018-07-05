@@ -26,10 +26,6 @@ class ScreenshotsPage extends Controller {
 			return $this->getCategory($category, $game);
 		}
 
-		$this->addCSSFiles(array(
-			'baguetteBox.min.css',
-			'screenshots.css'
-		));
 		$this->addJSFiles(array(
 			'baguetteBox.min.js'
 		));
@@ -52,10 +48,6 @@ class ScreenshotsPage extends Controller {
 
 	/* Display the selected category. */
 	public function getCategory($category, $game) {
-		$this->addCSSFiles(array(
-			'baguetteBox.min.css',
-			'screenshots.css'
-		));
 		$this->addJSFiles(array(
 			'baguetteBox.min.js'
 		));

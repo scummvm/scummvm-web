@@ -51,8 +51,7 @@ class DownloadsPage extends Controller {
 		$sections = DownloadsModel::getAllSections();
 		$recommendedDownloadsJS = $this->getRecommendedDownloadsJS($downloads);
 		global $Smarty;
-
-		$this->addCSSFiles('downloads.css');
+		
 		return $this->renderPage(
 			array(
 				'title' => $Smarty->_config[0]['vars']['downloadsTitle'],

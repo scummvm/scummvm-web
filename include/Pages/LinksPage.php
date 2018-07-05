@@ -15,8 +15,7 @@ class LinksPage extends Controller {
 	public function index() {
 		$links = LinksModel::getAllGroupsAndLinks();
 		global $Smarty;
-
-		$this->addCSSFiles('links.css');
+		
 		return $this->renderPage(
 			array(
 				'title' => $Smarty->_config[0]['vars']['linksTitle'],

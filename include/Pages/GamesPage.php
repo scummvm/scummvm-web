@@ -17,7 +17,6 @@ class GamesPage extends Controller {
 		$sections = GamesModel::getAllSections();
 		global $Smarty;
 
-		$this->addCSSFiles('downloads.css');
 		return $this->renderPage(
 			array(
 				'title' => $Smarty->_config[0]['vars']['gamesTitle'],

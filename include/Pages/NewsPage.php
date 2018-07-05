@@ -60,9 +60,6 @@ class NewsPage extends Controller {
 		$news_items = NewsModel::getLatestNews(NEWS_ITEMS);
 		$random_shot = ScreenshotsModel::getRandomScreenshot();
 
-		$this->addCSSFiles(array(
-			'baguetteBox.min.css'
-		));
 		$this->addJSFiles(array(
 			'baguetteBox.min.js'
 		));
