@@ -9,3 +9,9 @@ $turbo: rgb(221, 221, 0) !default; //250, 230, 0
 $gray: rgb(153, 153, 153) !default; //128, 128, 128
 $alto: rgb(224, 224, 224) !default; //219, 219, 219
 $bamboo: rgb(209, 111, 10) !default;
+
+$breakpoints: (
+  'small': (min-width: 320px) and (max-width: 640px),
+  'medium': (min-width: 641px) and (max-width: 768px),
+  'large': (min-width: 769px)
+);

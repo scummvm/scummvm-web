@@ -1,10 +1,12 @@
+@import 'vendor/normalize'; // Reset CSS, always load first.
+
 @import 'abstracts/variables';
+@import 'abstracts/mixins';
 
 @import 'theme/scummvm';
 
-@import 'vendor/normalize';
+@import 'base/base';
 
-@import 'layout/layout';
 @import 'layout/menu';
 @import 'layout/footer';
 @import 'layout/header';

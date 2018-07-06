@@ -156,7 +156,7 @@ nav {
 
 /* Responsive Behavior */
 
-@media (max-width: 769px) {
+@include respond-to('medium') {
 	/* CSS Rules targeting most tablets in vertical orientation */
 	.hide-medium {
 		display: none;
@@ -175,7 +175,7 @@ nav {
 	}
 }
 
-@media (max-width: 641px) {
+@include respond-to('small') {
 	body {
 		margin: 0;
 	}
