@@ -6,6 +6,13 @@
 
 @import 'layout/layout';
 @import 'layout/menu';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/grid';
+
+@import 'components/box';
+@import 'components/roundbox';
+@import 'components/toc';
 
 @import 'pages/chart';
 @import 'pages/compatibility';

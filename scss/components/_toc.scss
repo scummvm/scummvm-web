@@ -1,0 +1,26 @@
+/* Navigation menus */
+
+.navigation {
+    padding: 0.5em 1.65em;
+    h4 {
+      border-bottom: 1px dotted rgb(168, 39, 9);
+      padding-bottom: 4px;
+    }
+    a {
+      color: rgb(64, 106, 4);
+      text-decoration: none;
+      padding: 5px;
+    }
+    ul {
+      padding-left: 2.0em;
+    }
+    li {
+      color: rgb(251, 241, 206);
+      list-style-type: '\27A3';
+      margin: 0.5em auto;
+    }
+  }
+  
+  .intro .text li {
+    margin: 0.5em auto;
+  }

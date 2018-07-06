@@ -33,75 +33,6 @@ a:hover {
 	display: block;
 }
 
-/* Header */
-
-.scummvm {
-	font-family: Trebuchet MS, sans-serif;
-	line-height: 19px;
-	font-size: 15px;
-	white-space: nowrap;
-	margin-right: 5px;
-	margin-top: 5px;
-	text-align: justify;
-	letter-spacing: 1.5px;
-}
-
-.header-image {
-	bottom: -2px;
-	position: absolute;
-	right: 0;
-}
-
-.logo {
-	max-width: 280px;
-	height: auto;
-	position: absolute;
-	bottom: 0;
-	filter: drop-shadow(1px 1px 2px #0c0c0c);
-}
-
-.maniac {
-	opacity: 0.2;
-	bottom: 30px;
-	left: 12px;
-	filter: grayscale(100%);
-}
-
-.topper {
-	height: 29px;
-	background: rgb(246, 224, 138);
-	border-radius: 8px 8px 0 0;
-	position: relative;
-}
-
-
-/* Footer */
-
-footer {
-	color: rgba(0, 0, 0, 0.5);
-	padding: 15px 0;
-	position: relative;
-}
-
-footer a {
-	color: rgba(0, 0, 0, 0.5);
-}
-
-footer a:hover {
-	color: rgba(0, 0, 0, 0.5);
-	text-decoration: none;
-}
-
-.tentacle {
-	height: auto;
-	width: 100%;
-	margin: 0 auto;
-	max-width: 160px;
-	position: absolute;
-	bottom: -60px;
-	filter: drop-shadow(-3px 5px 1px #EDBE17);
-}
-
 /* Random Screenshot */
 .random-screenshot {
 	display: block;
@@ -138,57 +69,6 @@ footer a:hover {
 	text-align: left;
 }
 
-/* Grid */
-
-.site-wrap {
-	max-width: 1440px;
-	position: relative;
-	margin: 0 auto;
-	padding: 0 50px;
-}
-
-.col-4-5 {
-	width: calc(100% - 135px);
-}
-
-.col-1-5 {
-	width: 130px;
-	position: relative;
-}
-
-.col-1-3 {
-	width: 33.33%;
-}
-
-.col-2-3 {
-	width: 66.66%;
-}
-
-.col-1-2 {
-	width: 50%;
-}
-
-.col-1-1 {
-	width: 100%;
-}
-
-[class*='col-'] {
-	float: left;
-	padding-right: 8px;
-}
-
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-*,
-*:after,
-*:before {
-	box-sizing: border-box;
-}
-
 .bottom-link {
 	padding-left: 15px;
 	padding-right: 15px;
@@ -223,7 +103,6 @@ header .row .top {
 	width: 88px;
 	height: 37px;
 }
-
 
 /* Responsive Menu */
 
@@ -274,137 +153,6 @@ nav {
 	border-radius: 0 0 8px 8px;
 	background: rgb(251, 241, 206);
 }
-
-.box {
-	margin: 8px;
-	border: 1px solid rgb(192, 192, 192);
-}
-
-.box .head {
-	background: rgb(170, 43, 14);
-	background: linear-gradient(to bottom, rgb(205, 129, 111) 0%, rgb(184, 80, 56) 23%, rgb(170, 43, 14) 45%, rgb(168, 39, 9) 100%);
-	min-height: 24px;
-	color: #fff;
-	font-weight: bold;
-	padding: 4px;
-	width: 100%;
-}
-
-.box .head a {
-	text-decoration: none;
-	color: #fff;
-}
-
-.box .head .news-date {
-	font-weight: normal;
-}
-
-.box .intro {
-	background: rgb(192, 192, 192);
-	padding: 4px 8px 4px 5px;
-}
-
-.box .subhead {
-	color: rgb(168, 39, 9);
-	font-weight: bold;
-	line-height: 300%;
-	padding-left: 5px;
-	margin: 0px 15px;
-	border-bottom: 2px dotted rgb(168, 39, 9);
-}
-
-.box .subhead-content {
-	margin: 0;
-	padding: 10px 20px;
-}
-
-.box .content {
-	background: rgb(231, 231, 231);
-	padding: 8px;
-}
-
-.box .content .news-author {
-	color: rgb(119, 119, 119);
-	font-style: italic;
-	margin: 0px 0px -8px 0px;
-	position: relative;
-	text-align: right;
-	top: -8px;
-}
-
-.box .content.news img {
-	float: right;
-	max-width: 100%;	
-}
-
-.round-box {
-	margin: 8px;
-}
-
-.round-box-header {
-	background: rgb(246, 225, 158);
-	background: linear-gradient(to bottom, rgb(235, 183, 24) 0%, rgb(241, 206, 96) 4%, rgb(246, 225, 158) 46%, rgb(251, 241, 212) 89%, rgb(252, 245, 223) 100%);
-	border-left: 1px solid rgb(235, 177, 118);
-	border-right: 1px solid rgb(235, 177, 118);
-	border-top: 1px solid rgb(235, 177, 118);
-	height: 28px;
-	border-radius: 8px 8px 0 0;
-	padding-left: 18px;
-	font: bold large/1.4 "Trebuchet MS", Verdana, Tahoma, Sans-Serif;
-	color: #821d06;
-	text-shadow: 3px 0 1px #fff;
-}
-
-.round-box-content {
-	background: #fff;
-	border: 1px solid rgb(235, 177, 118);
-	border-radius: 8px;
-	margin: 0;
-	padding: 8px;
-	overflow: hidden;
-}
-
-.round-box-content.text {
-	padding-left: 16px;
-}
-
-.round-box-header ~ .round-box-content {
-	border-radius: 0 0 8px 8px;
-	border-top: 0;
-}
-
-
-/* Navigation menus */
-
-.navigation {
-	padding: 0.5em 1.65em;
-}
-
-.navigation h4 {
-	border-bottom: 1px dotted rgb(168, 39, 9);
-	padding-bottom: 4px;
-}
-
-.navigation a {
-	color: rgb(64, 106, 4);
-	text-decoration: none;
-	padding: 5px;
-}
-
-.navigation ul {
-	padding-left: 2.0em;
-}
-
-.navigation li {
-	color: rgb(251, 241, 206);
-	list-style-type: '\27A3';
-	margin: 0.5em auto;
-}
-
-.intro .text li {
-	margin: 0.5em auto;
-}
-
 
 /* Responsive Behavior */
 
