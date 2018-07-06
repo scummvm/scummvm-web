@@ -1,0 +1,36 @@
+// Main elements
+$theme-background: 
+    $bamboo
+    linear-gradient(to bottom, rgb(209, 111, 10) 0%, rgb(231, 172, 21) 400px, rgb(239, 196, 24) 100%);    
+$theme-text: $black;
+$theme-fonts: (
+    'verdana', 
+    'tahoma', 
+    'arial', 
+    'helvetica', 
+    sans-serif
+);
+
+$theme-link: $kenyan-copper;
+$theme-light-link: $white;
+
+// Menu
+$theme-menu-title: $turbo;
+$theme-menu-title-background: $kenyan-copper;
+$theme-menu-background: $totem-pole;
+
+// Box containers
+$theme-container-title: $white;
+$theme-container-title-background: '';
+$theme-container-sub-title: $totem-pole;
+$theme-container-background: '';
+
+// Charts
+$theme-chart-header: $gray;
+$theme-chart-row: $white;
+$theme-chart-alt-row: $alto;
+
+// Misc elements
+$theme-table-of-contents: $japanese-laurel;
+$theme-subscript: $japanese-laurel;
+$theme-table-of-contents-bullet: $double-pearl-lustra;

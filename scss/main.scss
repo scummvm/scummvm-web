@@ -1,3 +1,7 @@
+@import 'abstracts/variables';
+
+@import 'theme/scummvm';
+
 @import 'vendor/normalize';
 
 @import 'layout/layout';
@@ -11,4 +15,6 @@
 @import 'pages/links';
 @import 'pages/screenshots';
 
-@import 'vendor/baguetteBox.min'
+@import 'vendor/baguetteBox.min';
+
+
