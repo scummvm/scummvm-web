@@ -84,14 +84,6 @@ header .row .top {
 	max-width: 58%;
 }
 
-.float_right {
-	float: right;
-}
-
-.float_left {
-	float: left;
-}
-
 .banners a,
 .banners form {
 	margin: 8px;
@@ -154,92 +146,6 @@ nav {
 	background: rgb(251, 241, 206);
 }
 
-/* Responsive Behavior */
-
-@include respond-to('medium') {
-	/* CSS Rules targeting most tablets in vertical orientation */
-	.hide-medium {
-		display: none;
-	}
-	.col-1-2 {
-		width: 100%;
-	}
-	.scummvm {
-		font-size: 1.4vw;
-	}
-	.col-md-2 {
-		width: 50%;
-	}
-	.col-md-1 {
-		width: 100%;
-	}
-}
-
-@include respond-to('small') {
-	body {
-		margin: 0;
-	}
-	footer {
-		padding: 0 8px;
-		background: rgb(251, 241, 206);
-	}
-	.site-wrap {
-		padding: 0;
-		margin: 0;
-	}
-	.col-1-2 {
-		clear: left;
-		width: 100%;
-	}
-	[class*='col-'] {
-		padding-right: 0;
-	}
-	.logo {
-		max-width: 150px;
-		width: 100%;
-		position: relative;
-		top: 8px;
-		margin-left: 8px;
-	}
-	.topper {
-		border-radius: 0;
-		background: 0;
-	}
-	.container {
-		border-radius: 0;
-	}
-	header {
-		width: 100%;
-		height: 58px;
-		z-index: 999;
-		border-bottom: 1px rgb(169, 169, 169) solid;
-	}
-	.col-1-5 {
-		width: 100%;
-	}
-	.col-4-5 {
-		width: 100%;
-	}
-	.header-left {
-		width: 100%;
-	}
-	label[for="nav-trigger"] {
-		display: block;
-		z-index: 91;
-		overflow-y: unset;
-	}
-	.hide-small {
-		display: none;
-	}
-	.col-sm-1 {
-		width: 100%;
-	}
-	nav label {
-		display: block;
-		width: 100%;
-		cursor: pointer;
-	}
-}
 
 /* Color overrides */
 .bg-yellow {
