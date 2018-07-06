@@ -1,16 +1,15 @@
-div.question {
-	font-weight: bold;
+div {
+  &.question {
+    font-weight: bold;
+  }
+  &.section {
+    margin: 20px 0;
+  }
+  &.answer {
+    margin: 20px 30px;
+  }
 }
-
-div.section {
-	margin: 20px 0;
-}
-
-div.answer {
-	margin: 20px 30px;
-}
-
 
 .envar {
-	font-family: monospace;
+  font-family: monospace;
 }

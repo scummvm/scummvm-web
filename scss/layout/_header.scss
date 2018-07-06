@@ -1,40 +1,40 @@
 /* Header */
 
 .scummvm {
-font-family: Trebuchet MS, sans-serif;
-line-height: 19px;
-font-size: 15px;
-white-space: nowrap;
-margin-right: 5px;
-margin-top: 5px;
-text-align: justify;
-letter-spacing: 1.5px;
+  font-family: Trebuchet MS, sans-serif;
+  line-height: 19px;
+  font-size: 15px;
+  white-space: nowrap;
+  margin-right: 5px;
+  margin-top: 5px;
+  text-align: justify;
+  letter-spacing: 1.5px;
 }
 
 .header-image {
-bottom: -2px;
-position: absolute;
-right: 0;
+  bottom: -2px;
+  position: absolute;
+  right: 0;
 }
 
 .logo {
-max-width: 280px;
-height: auto;
-position: absolute;
-bottom: 0;
-filter: drop-shadow(1px 1px 2px #0c0c0c);
+  max-width: 280px;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  filter: drop-shadow(1px 1px 2px #0c0c0c);
 }
 
 .maniac {
-opacity: 0.2;
-bottom: 30px;
-left: 12px;
-filter: grayscale(100%);
+  opacity: 0.2;
+  bottom: 30px;
+  left: 12px;
+  filter: grayscale(100%);
 }
 
 .topper {
-height: 29px;
-background: rgb(246, 224, 138);
-border-radius: 8px 8px 0 0;
-position: relative;
+  height: 29px;
+  background: rgb(246, 224, 138);
+  border-radius: 8px 8px 0 0;
+  position: relative; 
 }

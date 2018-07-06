@@ -2,33 +2,33 @@
     margin: 8px;
   }
   
-  .round-box-header {
-    background: rgb(246, 225, 158);
-    background: linear-gradient(to bottom, rgb(235, 183, 24) 0%, rgb(241, 206, 96) 4%, rgb(246, 225, 158) 46%, rgb(251, 241, 212) 89%, rgb(252, 245, 223) 100%);
-    border-left: 1px solid rgb(235, 177, 118);
-    border-right: 1px solid rgb(235, 177, 118);
-    border-top: 1px solid rgb(235, 177, 118);
-    height: 28px;
-    border-radius: 8px 8px 0 0;
-    padding-left: 18px;
-    font: bold large/1.4 "Trebuchet MS", Verdana, Tahoma, Sans-Serif;
-    color: #821d06;
-    text-shadow: 3px 0 1px #fff;
+.round-box-header {
+  background: rgb(246, 225, 158);
+  background: linear-gradient(to bottom, rgb(235, 183, 24) 0%, rgb(241, 206, 96) 4%, rgb(246, 225, 158) 46%, rgb(251, 241, 212) 89%, rgb(252, 245, 223) 100%);
+  border-left: 1px solid rgb(235, 177, 118);
+  border-right: 1px solid rgb(235, 177, 118);
+  border-top: 1px solid rgb(235, 177, 118);
+  height: 28px;
+  border-radius: 8px 8px 0 0;
+  padding-left: 18px;
+  font: bold large/1.4 "Trebuchet MS", Verdana, Tahoma, Sans-Serif;
+  color: #821d06;
+  text-shadow: 3px 0 1px #fff;
+}
+
+.round-box-content {
+  background: #fff;
+  border: 1px solid rgb(235, 177, 118);
+  border-radius: 8px;
+  margin: 0;
+  padding: 8px;
+  overflow: hidden;
+  &.text {
+    padding-left: 16px;
   }
-  
-  .round-box-content {
-    background: #fff;
-    border: 1px solid rgb(235, 177, 118);
-    border-radius: 8px;
-    margin: 0;
-    padding: 8px;
-    overflow: hidden;
-    &.text {
-      padding-left: 16px;
-    }
-  }
-  
-  .round-box-header ~ .round-box-content {
-    border-radius: 0 0 8px 8px;
-    border-top: 0;
-  }
+}
+
+.round-box-header ~ .round-box-content {
+  border-radius: 0 0 8px 8px;
+  border-top: 0;
+}
