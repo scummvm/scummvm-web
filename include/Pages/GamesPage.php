@@ -19,8 +19,8 @@ class GamesPage extends Controller {
 
 		return $this->renderPage(
 			array(
-				'title' => $Smarty->_config[0]['vars']['gamesTitle'],
-				'content_title' => $Smarty->_config[0]['vars']['gamesContentTitle'],
+				'title' => $Smarty->getConfigVars('gamesTitle'),
+				'content_title' => $Smarty->getConfigVars('gamesContentTitle'),
 				'downloads' => $downloads,
 				'sections' => $sections,
 				'release_tools' => RELEASE_TOOLS,

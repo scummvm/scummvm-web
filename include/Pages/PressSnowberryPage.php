@@ -18,8 +18,8 @@ class PressSnowberryPage extends Controller {
 
 		return $this->renderPage(
 			array(
-				'title' => $Smarty->_config[0]['vars']['pressSnowberryTitle'],
-				'content_title' => $Smarty->_config[0]['vars']['pressSnowberryContentTitle'],
+				'title' => $Smarty->getConfigVars('pressSnowberryTitle'),
+				'content_title' => $Smarty->getConfigVars('pressSnowberryContentTitle'),
 				'articles' => $articles,
 			),
 			$this->_template

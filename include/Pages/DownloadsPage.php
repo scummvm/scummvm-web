@@ -54,8 +54,8 @@ class DownloadsPage extends Controller {
 		
 		return $this->renderPage(
 			array(
-				'title' => $Smarty->_config[0]['vars']['downloadsTitle'],
-				'content_title' => $Smarty->_config[0]['vars']['downloadsContentTitle'],
+				'title' => $Smarty->getConfigVars('downloadsTitle'),
+				'content_title' => $Smarty->getConfigVars('downloadsContentTitle'),
 				'downloads' => $downloads,
 				'sections' => $sections,
 				'release_tools' => RELEASE_TOOLS,

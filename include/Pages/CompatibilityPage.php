@@ -19,11 +19,11 @@ class CompatibilityPage extends Controller {
 		$this->_template = 'compatibility.tpl';
 		$this->_template_details = 'compatibility_details.tpl';
 		$this->_supportLevelDesc = array(
-			'untested' => $Smarty->_config[0]['vars']['compatibilityUntested'],
-			'broken' => $Smarty->_config[0]['vars']['compatibilityBroken'],
-			'bugged' => $Smarty->_config[0]['vars']['compatibilityBugged'],
-			'good' => $Smarty->_config[0]['vars']['compatibilityGood'],
-			'excellent' => $Smarty->_config[0]['vars']['compatibilityExcellent']
+			'untested' => $Smarty->getConfigVars('compatibilityUntested'),
+			'broken' => $Smarty->getConfigVars('compatibilityBroken'),
+			'bugged' => $Smarty->getConfigVars('compatibilityBugged'),
+			'good' => $Smarty->getConfigVars('compatibilityGood'),
+			'excellent' => $Smarty->getConfigVars('compatibilityExcellent')
 		);
 		$this->_supportLevelClass = array(
 			'untested' => 'pctU',
@@ -65,8 +65,8 @@ class CompatibilityPage extends Controller {
 		
 		return $this->renderPage(
 			array(
-				'title' => preg_replace('/{version}/', $version, $Smarty->_config[0]['vars']['compatibilityTitle']),
-				'content_title' => preg_replace('/{version}/', $version, $Smarty->_config[0]['vars']['compatibilityContentTitle']),
+				'title' => preg_replace('/{version}/', $version, $Smarty->getConfigVars('compatibilityTitle')),
+				'content_title' => preg_replace('/{version}/', $version, $Smarty->getConfigVars('compatibilityContentTitle')),
 				'version' => $version,
 				'game' => $game,
 				'old_layout' => $oldLayout,
@@ -92,8 +92,8 @@ class CompatibilityPage extends Controller {
 		
 		return $this->renderPage(
 			array(
-				'title' => preg_replace('/{version}/', $version, $Smarty->_config[0]['vars']['compatibilityTitle']),
-				'content_title' => preg_replace('/{version}/', $version, $Smarty->_config[0]['vars']['compatibilityContentTitle']),
+				'title' => preg_replace('/{version}/', $version, $Smarty->getConfigVars('compatibilityTitle')),
+				'content_title' => preg_replace('/{version}/', $version, $Smarty->getConfigVars('compatibilityContentTitle')),
 				'version' => $version,
 				'compat_data' => $compat_data,
 				'last_updated' => $last_updated,

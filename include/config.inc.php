@@ -42,12 +42,11 @@ define('DIR_SCREENSHOTS', '/data/screenshots');
  * directories used under the web server root. 'SMARTY_DIR_COMPILE' and
  * 'SMARTY_DIR_CACHE' must be writable by the web server (chown).
  */
-define('SMARTY_DIR_BASE', 'include/smarty');
+define('SMARTY_DIR', 'vendor/smarty/smarty/libs/');
 define('SMARTY_DIR_TEMPLATE', 'templates');
-define('SMARTY_DIR_COMPILE', SMARTY_DIR_BASE . '/template_c');
-define('SMARTY_DIR_CACHE', SMARTY_DIR_BASE . '/cache');
-define('SMARTY_DIR_CONFIG', SMARTY_DIR_BASE . '/config');
-define('SMARTY_USE_GLOBALS', false);
+define('SMARTY_DIR_COMPILE', SMARTY_DIR . '/template_c');
+define('SMARTY_DIR_CACHE', SMARTY_DIR . '/cache');
+define('SMARTY_DIR_CONFIG', SMARTY_DIR . '/config');
 /**
  * Smarty caching options, makes it possible to cache the generated HTML to
  * speed things up. More information is available at [1].

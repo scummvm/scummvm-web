@@ -18,8 +18,8 @@ class SubprojectsPage extends Controller {
 
 		return $this->renderPage(
 			array(
-				'title' => $Smarty->_config[0]['vars']['subprojectsTitle'],
-				'content_title' => $Smarty->_config[0]['vars']['subprojectsContentTitle'],
+				'title' => $Smarty->getConfigVars('subprojectsTitle'),
+				'content_title' => $Smarty->getConfigVars('subprojectsContentTitle'),
 				'subprojects' => $subprojects,
 			),
 			$this->_template

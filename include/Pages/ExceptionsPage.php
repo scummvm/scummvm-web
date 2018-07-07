@@ -16,8 +16,8 @@ class ExceptionsPage extends Controller {
 
 		return $this->renderPage(
 			array(
-				'title' => $Smarty->_config[0]['vars']['exceptionsTitle'],
-				'content_title' => $Smarty->_config[0]['vars']['exceptionsContentTitle'],
+				'title' => $Smarty->getConfigVars('exceptionsTitle'),
+				'content_title' => $Smarty->getConfigVars('exceptionsContentTitle'),
 				'exception' => $exception,
 			),
 			'exception.tpl'

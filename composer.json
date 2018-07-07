@@ -1,9 +1,16 @@
 {
     "name": "scummvm/web",
-    "description": "ScummVM.org main site",
-    "type": "project",    
+    "description": "Scummvm.org main site",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Matan Bareket",
+            "email": "mataniko@gmail.com"
+        }
+    ],
     "require": {
-        "leafo/scssphp": "^0.7.6"
+        "leafo/scssphp": "^0.7.6",
+        "smarty/smarty": "^3.1"
     },
     "scripts": {
       "post-install-cmd": [

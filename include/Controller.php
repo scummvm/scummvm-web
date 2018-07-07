@@ -1,5 +1,5 @@
 <?php
-require_once(SMARTY_DIR_BASE . '/Smarty.class.php');
+require_once(SMARTY_DIR . '/Smarty.class.php');
 require_once('Models/MenuModel.php');
 /**
  * The Controller class will create an instance of the Smarty object configured
@@ -35,38 +35,38 @@ class Controller {
 		$this->_smarty->compile_dir = SMARTY_DIR_COMPILE;
 		$this->_smarty->cache_dir = SMARTY_DIR_CACHE;
 		$this->_smarty->config_dir = SMARTY_DIR_CONFIG;
-		$this->_smarty->request_use_auto_globals = SMARTY_USE_GLOBALS;
 		$this->_smarty->caching = SMARTY_CACHING_ENABLE;
 		$this->_smarty->cache_lifetime = SMARTY_CACHING_LIFETIME;
 		$this->_smarty->compile_check = SMARTY_CACHING_COMPILE_CHECK;
-		$this->_smarty->force_recheck = SMARTY_CACHING_FORCE_RECHECK;
+		$this->_smarty->force_compile = SMARTY_CACHING_FORCE_RECHECK;
 		$this->_smarty->template_dir = array("templates_$lang", 'templates');
 		$this->_smarty->compile_id = $lang;
 		$this->_smarty->config_dir = ".";
 
-		# First we read English, so al defaults are there
-		$this->_smarty->config_load(DIR_LANG . "/lang.ini");
+		# First we read English, so all defaults are there
+		$this->_smarty->configLoad(DIR_LANG . "/lang.ini");
 
 		# Now we try to read translations
 		if (is_file(($fname = DIR_LANG . "/lang.$lang.ini"))
 			&& is_readable($fname)) {
-			$this->_smarty->config_load($fname);
+			$this->_smarty->configLoad($fname);
 		}
-
-		setlocale(LC_TIME, $Smarty->_config[0]['vars']['locale']);
+    
+		setlocale(LC_TIME, $Smarty->getConfigVars('locale'));
 
 		/**
 		 * Add a output-filter to make sure ampersands are properly encoded to
 		 * HTML-entities.
 		 */
-		$this->_smarty->register_outputfilter(array(&$this, 'outputFilter'));
+		$this->_smarty->registerFilter('output', array($this, 'outputFilter'));
 
 		/* Give Smarty-template access to date(). */
-		$this->_smarty->register_modifier('date_f', array(&$this, 'date_f'));
-		$this->_smarty->register_modifier('date_localized', array(&$this, 'date_localized'));
+		$this->_smarty->registerPlugin('modifier', 'date_f', array(&$this, 'date_f'));
+		$this->_smarty->registerPlugin('modifier', 'date_localized', array(&$this, 'date_localized'));
 
 		/* Give Smarty-templates access to the ampersandEntity() function. */
-		$this->_smarty->register_modifier(
+		$this->_smarty->registerPlugin(
+      'modifier',
 			'escapeAmpersand',
 			array(&$this, 'ampersandEntity')
 		);
@@ -99,7 +99,7 @@ class Controller {
 	}
 
 	/** Smarty outputfilter, run just before displaying. */
-	public function outputFilter($string, &$smarty) {
+	public function outputFilter($string, $smarty) {
 		/* Properly encode all ampersands as "&amp;". */
 		$string = preg_replace('/&(?!([a-z]+|(#\d+));)/i', '&amp;', $string);
 		/* Replace weird characters that appears in some of the data. */
