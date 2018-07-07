@@ -1,0 +1,14 @@
+{
+    "name": "scummvm/web",
+    "description": "ScummVM.org main site",
+    "type": "project",    
+    "require": {
+        "leafo/scssphp": "^0.7.6"
+    },
+    "scripts": {
+      "post-install-cmd": [
+        "mkdir -p css",
+        "pscss -f compressed ./scss/main.scss > ./css/main.css"
+      ]
+    }
+}
