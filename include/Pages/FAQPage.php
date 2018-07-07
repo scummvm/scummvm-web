@@ -19,8 +19,8 @@ class FAQPage extends Controller {
 
 		return $this->renderPage(
 			array(
-				'title' => $Smarty->_config[0]['vars']['faqTitle'],
-				'content_title' => $Smarty->_config[0]['vars']['faqContentTitle'],
+				'title' => $Smarty->getConfigVars('faqTitle'),
+				'content_title' => $Smarty->getConfigVars('faqContentTitle'),
 				'contents' => $contents,
 				'modified' => $modified,
 			),

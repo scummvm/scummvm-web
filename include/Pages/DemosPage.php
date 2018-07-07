@@ -18,8 +18,8 @@ class DemosPage extends Controller {
 
 		return $this->renderPage(
 			array(
-				'title' => $Smarty->_config[0]['vars']['demosTitle'],
-				'content_title' => $Smarty->_config[0]['vars']['demosContentTitle'],
+				'title' => $Smarty->getConfigVars('demosTitle'),
+				'content_title' => $Smarty->getConfigVars('demosContentTitle'),
 				'demos' => $demos,
 			),
 			$this->_template

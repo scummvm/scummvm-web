@@ -18,8 +18,8 @@ class PressPage extends Controller {
 
 		return $this->renderPage(
 			array(
-				'title' => $Smarty->_config[0]['vars']['pressTitle'],
-				'content_title' => $Smarty->_config[0]['vars']['pressContentTitle'],
+				'title' => $Smarty->getConfigVars('pressTitle'),
+				'content_title' => $Smarty->getConfigVars('pressContentTitle'),
 				'articles' => $articles,
 			),
 			$this->_template

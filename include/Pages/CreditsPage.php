@@ -18,8 +18,8 @@ class CreditsPage extends Controller {
 		
 		return $this->renderPage(
 			array(
-				'title' => $Smarty->_config[0]['vars']['creditsTitle'],
-				'content_title' => $Smarty->_config[0]['vars']['creditsContentTitle'],
+				'title' => $Smarty->getConfigVars('creditsTitle'),
+				'content_title' => $Smarty->getConfigVars('creditsContentTitle'),
 				'credits' => $credits,
 			),
 			$this->_template

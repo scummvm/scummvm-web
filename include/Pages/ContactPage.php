@@ -16,8 +16,8 @@ class ContactPage extends Controller {
 
 		return $this->renderPage(
 			array(
-				'title' => $Smarty->_config[0]['vars']['contactTitle'],
-				'content_title' => $Smarty->_config[0]['vars']['contactContentTitle'],
+				'title' => $Smarty->getConfigVars('contactTitle'),
+				'content_title' => $Smarty->getConfigVars('contactContentTitle'),
 			),
 			$this->_template
 		);

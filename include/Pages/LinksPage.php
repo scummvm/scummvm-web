@@ -18,8 +18,8 @@ class LinksPage extends Controller {
 		
 		return $this->renderPage(
 			array(
-				'title' => $Smarty->_config[0]['vars']['linksTitle'],
-				'content_title' => $Smarty->_config[0]['vars']['linksContentTitle'],
+				'title' => $Smarty->getConfigVars('linksTitle'),
+				'content_title' => $Smarty->getConfigVars('linksContentTitle'),
 				'links' => $links,
 			),
 			$this->_template

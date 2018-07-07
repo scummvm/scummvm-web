@@ -37,8 +37,8 @@ class ScreenshotsPage extends Controller {
 
 		return $this->renderPage(
 			array(
-				'title' => $Smarty->_config[0]['vars']['screenshotsTitle'],
-				'content_title' => $Smarty->_config[0]['vars']['screenshotsContentTitle'],
+				'title' => $Smarty->getConfigVars('screenshotsTitle'),
+				'content_title' => $Smarty->getConfigVars('screenshotsContentTitle'),
 				'screenshots' => $screenshot,
 				'random_shot' => $random_shot,
 			),
@@ -65,8 +65,8 @@ class ScreenshotsPage extends Controller {
 
 		return $this->renderPage(
 			array(
-				'title' => $Smarty->_config[0]['vars']['screenshotsTitle'],
-				'content_title' => $Smarty->_config[0]['vars']['screenshotsContentTitle'],
+				'title' => $Smarty->getConfigVars('screenshotsTitle'),
+				'content_title' => $Smarty->getConfigVars('screenshotsContentTitle'),
 				'screenshots' => $screenshots,
 				'category' => $category,
 				'game' => $game,

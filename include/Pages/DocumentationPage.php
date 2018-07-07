@@ -20,8 +20,8 @@ class DocumentationPage extends Controller {
 
 		return $this->renderPage(
 			array(
-				'title' => $Smarty->_config[0]['vars']['documentationTitle'],
-				'content_title' => $Smarty->_config[0]['vars']['documentationContentTitle'],
+				'title' => $Smarty->getConfigVars('documentationTitle'),
+				'content_title' => $Smarty->getConfigVars('documentationContentTitle'),
 				'documents' => $documents,
 			),
 			$this->_template
