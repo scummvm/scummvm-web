@@ -1,0 +1,18 @@
+<NAME>Les projets pour le GSoC 2018 sont connus !</NAME>
+<DATE>April 23, 2018</DATE>
+<AUTHOR>Criezy</AUTHOR>
+<BODY>
+<p>
+     <img src="/data/news/GSoC2017Logo.png" alt="GSoC Logo" align="middle">
+</p>
+<p>Aujourd'hui, Google a annoncé les projets acceptés pour le Summer of Code de cette année. Nous sommes heureux et excités d'annoncer que ScummVM supervisera trois étudiants tandis que ResidualVM aura aussi un étudiant. Tous les quatre travailleront sur des moteurs de jeu :
+</p>
+<ul>
+<li>Andrii Prykhodko (alias whiterandrek) travaillera sur le moteur des jeux <b><i><a href="https://en.wikipedia.org/wiki/The_Pink_Panther:_Passport_to_Peril">La Panthère rose : Passeport pour le danger</a></i></b> et <b><i><a href="https://en.wikipedia.org/wiki/The_Pink_Panther:_Hokus_Pokus_Pink">La Panthère Rose 2 : Destination mystère</a></i></b> pour qu'ils puissent être joués avec ScummVM.</li>
+<li>Joseph-Eugene Winzer (alias Joefish) travaillera sur le support du jeu <b><i><a href="https://en.wikipedia.org/wiki/The_Immortal_(video_game)">The Immortal</a></i></b>, également dans ScummVM.</li>
+<li>Matthew Stewart (alias Drenn) travaillera sur le moteur de <b><i><a href="https://en.wikipedia.org/wiki/Star_Trek:_25th_Anniversary_(computer_game)">Star Trek: 25th Anniversary</a></i></b> et <b><i><a href="https://en.wikipedia.org/wiki/Star_Trek:_Judgment_Rites">Star Trek: Judgment Rites</a></i></b>. La priorité sera donnée au premier jeu pour la période du GSoC.</li>
+<li>Liu Zhaosong (alias Douglas_GSoC) travaillera à améliorer dans ResidualVM le moteur Stark, utilisé par le jeu vidéo <b><i><a href="https://en.wikipedia.org/wiki/The_Longest_Journey">The Longest Journey</a></i></b>.</li>
+</ul>
+<p>Veuillez accueillir avec nous nos quatre étudiants aventuriers pour ce que nous espérons être un été productif et intéressant ! Vous pouvez suivre leur progrès tout au long de l'été sur les <a href=http://planet.scummvm.org>Blogs ScummVM</a>.
+</p>
+</BODY>
