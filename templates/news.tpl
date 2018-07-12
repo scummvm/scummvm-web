@@ -20,9 +20,6 @@
 		<div class="news-author">
 			{#newsPostedBy#} {$news->getAuthor()}
 		</div>
-		{if $news->getImage() != null}
-  			{$news->getImage()}
-  		{/if}
 		{$news->getContent()}
 		<div class="spacing"></div>
 	</div>

@@ -18,27 +18,23 @@ class News extends BasicObject {
 	 * <NAME>Schwag</NAME>
 	 * <DATE>1st january, 1770</DATE>
 	 * <AUTHOR>Guybrush Threepwood</AUTHOR>
-	 * <IMG>path/to/treasure.jpg</IMG>
 	 * <BODY>All I got was this lousy t-shirt!</BODY>
 	 *
 	 *
-	 * FIXME: It currently fails at grabbing the image (see 20020214.xml)
 	 */
 	public function __construct($data, $filename, $processContent = false) {
 		$vars = array();
 		preg_match("/<NAME>(.*)<\/NAME>.*		# Grab the title
 					<DATE>(.*)<\/DATE>.*		# Grab the date
 					<AUTHOR>(.*)<\/AUTHOR>.*	# Grab the author
-					(?:<IMG>(.*)<\/IMG>.*)?		# image if set (only once)
 					<BODY>(.*)<\/BODY>			# Grab the body
 					/sUx", $data, $vars);
-		if (count($vars) == 6) {
+		if (count($vars) == 5) {
 			$this->_title = $processContent ? $this->processText($vars[1]) : $vars[1];
 			/* Store the date as an unix timestamp*/
 			$this->_date = date_timestamp_get(date_create_from_format("M d, Y", $vars[2]));
 			$this->_author = $vars[3];
-			$this->_image = $vars[4];
-			$this->_content = $processContent ? $this->processText($vars[5]) : $vars[5];
+			$this->_content = $processContent ? $this->processText($vars[4]) : $vars[4];
 		}
 		$this->_filename = basename($filename);
 	}
@@ -69,11 +65,6 @@ class News extends BasicObject {
 	/* Get the author. */
 	public function getAuthor() {
 		return $this->_author;
-	}
-
-	/* Get the optional image. */
-	public function getImage() {
-		return $this->_image;
 	}
 
 	/* Get the content. */
