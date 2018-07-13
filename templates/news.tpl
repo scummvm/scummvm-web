@@ -1,29 +1,20 @@
 {foreach from=$news_items item=news}
-{assign var='news_date' value=$news->getDate()|date_format:"%Y%m%d"}
-{assign var='news_filename' value=$news->getFilename()|substr:'0':'-4'}
-{if !empty($date) && ($date == 'archive' || strlen($date) == 8)}
-	{if strlen($news_filename) == 9}
-		{assign var='news_date' value=$news_filename|substr:'0':'-1'}
-	{else}
-		{assign var='news_date' value=$news_filename}
-	{/if}
-{/if}
-
-<div class="box">
-	<div class="head" id="{$news->getDate()|date_format:"%Y-%m-%d"}{if $news_filename|strlen == 9}{$news_filename|substr:'-1'}{/if}">
-		<a href="{$baseurl}news/{$news_date}/">
-			<span class="news-date">{$news->getDate()|date_localized:#dateformat#}</span>:
-			{$news->getTitle()}
-		</a>
-	</div>
-	<div class="news content">
-		<div class="news-author">
-			{#newsPostedBy#} {$news->getAuthor()}
-		</div>
-		{$news->getContent()}
-		<div class="spacing"></div>
-	</div>
-</div>
+  {$news_filename=$news->getFilename()|substr:'0':'-4'}
+  <div class="box">
+    <div class="head" id="{$news->getDate()|date_format:"%Y-%m-%d"}{if $news_filename|strlen == 9}{$news_filename|substr:'-1'}{/if}">
+      <a href="{$news->getLink()}/">
+        <span class="news-date">{$news->getDate()|date_localized:#dateformat#}</span>:
+        {$news->getTitle()}
+      </a>
+    </div>
+    <div class="news content">
+      <div class="news-author">
+        {#newsPostedBy#} {$news->getAuthor()}
+      </div>
+      {$news->getContent()}
+      <div class="spacing"></div>
+    </div>
+  </div>
 {/foreach}
 
 {* Only show the 'more news' link if we're on the main page *}

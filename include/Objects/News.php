@@ -75,6 +75,11 @@ class News extends BasicObject {
 	/* Get the filename. */
 	public function getFilename() {
 		return $this->_filename;
-	}
+  }
+
+  /* Get the News link. */
+  public function getLink() {
+    return URL_BASE . 'news/' . rtrim($this->_filename, "a..z.");
+  }
 }
 ?>

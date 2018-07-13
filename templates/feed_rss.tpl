@@ -16,7 +16,7 @@
 			<author>nospam@scummvm.org ({$n->getAuthor()})</author>
 			{/if}
 			<guid isPermaLink='true'>{$baseurl}news/archive/#{$n->getDate()|date_f:'Y-m-d'}{if $news_filename|strlen == 9}{$news_filename|substr:'-1'}{/if}</guid>
-			<link>{$baseurl}news/{$news_filename}/</link>
+			<link>{$news->getLink()}/</link>
 		</item>
 		{/foreach}
 	</channel>

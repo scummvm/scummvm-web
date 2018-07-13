@@ -21,7 +21,7 @@
 
 		<entry xml:lang="en">
 			<id>{$baseurl}news/archive/#{$n->getDate()|date_f:'Y-m-d'}{if $news_filename|strlen == 9}{$news_filename|substr:'-1'}{/if}</id>
-			<link rel="alternate" href="{$baseurl}news/{$news_filename}/" />
+			<link rel="alternate" href="{$news->getLink()}" />
 			<updated>{$updated|date_f:'Y-m-d\Th:i:s\Z'}</updated>
 			<published>{$updated|date_f:'Y-m-d\Th:i:s\Z'}</published>
 			<title type="html">{$n->getTitle()}</title>
