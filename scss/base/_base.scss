@@ -1,0 +1,153 @@
+/* General layout rules */
+html {
+	background: rgb(209, 111, 10);
+	background: linear-gradient(to bottom, rgb(209, 111, 10) 0%, rgb(231, 172, 21) 400px, rgb(239, 196, 24) 100%);
+	background-repeat: repeat-x;
+}
+
+body {
+	font-family: verdana, tahoma, arial, helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	margin: 8px 8px 24px 8px;
+}
+
+.no-scroll {
+	overflow-y: hidden;
+}
+
+a {
+	color: rgb(170, 51, 51);
+}
+
+a:hover {
+	color: rgb(255, 0, 0);
+	text-decoration: none;
+}
+
+.hidden {
+	display: none;
+}
+
+.visible {
+	display: block;
+}
+
+/* Random Screenshot */
+.random-screenshot {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	transform: translateZ(0);
+}
+
+.scr-content {
+	padding-left: 20px;
+}
+
+.screenshot {
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px;
+	margin: 4px;
+	width: 215px;
+	height: auto;
+	background: #ccc;
+}
+
+.screenshot img {
+	width: 100%;
+	height: auto;
+	image-rendering: crisp-edges;
+}
+
+.gallery {
+	text-align: center;
+}
+
+.gallery .subhead {
+	text-align: left;
+}
+
+.bottom-link {
+	padding-left: 15px;
+	padding-right: 15px;
+	font-weight: bold;
+}
+
+header .row .top {
+	height: 91px;
+	position: relative;
+}
+
+.top img {
+	max-width: 58%;
+}
+
+.banners a,
+.banners form {
+	margin: 8px;
+	float: left;
+	display: block;
+}
+
+.banners a img {
+	width: 88px;
+	height: 37px;
+}
+
+/* Responsive Menu */
+
+.menu-trigger,
+.nav-trigger {
+	display: none;
+}
+
+label[for="nav-trigger"] {
+	display: none;
+	position: absolute;
+	right: 8px;
+	top: 15px;
+	z-index: 2;
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+	background-image: url('/images/nav-trigger.svg');
+	background-size: contain;
+}
+
+.nav-trigger:checked~label[for="nav-trigger"] {
+	position: fixed;
+}
+
+.nav-trigger+label,
+.site-wrap,
+header,
+nav {
+	transition: right 0.2s ease-in-out;
+}
+
+.nav-trigger:checked~.site-wrap nav {
+	right: 0;
+}
+
+.menu-trigger:checked~dd {
+	display: block;
+}
+
+/* Content boxes */
+
+#donate-header {
+	margin: 5px;
+}
+
+.container {
+	border-radius: 0 0 8px 8px;
+	background: rgb(251, 241, 206);
+}
+
+
+/* Color overrides */
+.bg-yellow {
+	background: rgb(251, 241, 206);
+}

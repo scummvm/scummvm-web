@@ -29,7 +29,7 @@ class CompatibilityPage extends Controller {
 			'untested' => 'pctU',
 			'broken' => 'pct0',
 			'bugged' => 'pct50',
-			'good' => 'pct90',
+			'good' => 'pct75',
 			'excellent' => 'pct100'
 		);
 	}
@@ -62,8 +62,7 @@ class CompatibilityPage extends Controller {
 	public function getGame($target, $version, $oldLayout) {
 		$game = CompatibilityModel::getGameData($version, $target);
 		global $Smarty;
-
-		$this->addCSSFiles(array('chart.css', 'compatibility.css'));
+		
 		return $this->renderPage(
 			array(
 				'title' => preg_replace('/{version}/', $version, $Smarty->_config[0]['vars']['compatibilityTitle']),
@@ -90,8 +89,7 @@ class CompatibilityPage extends Controller {
 		$compat_data = CompatibilityModel::getAllData($version);
 
 		global $Smarty;
-
-		$this->addCSSFiles(array('chart.css', 'compatibility.css'));
+		
 		return $this->renderPage(
 			array(
 				'title' => preg_replace('/{version}/', $version, $Smarty->_config[0]['vars']['compatibilityTitle']),

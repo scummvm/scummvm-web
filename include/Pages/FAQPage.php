@@ -17,7 +17,6 @@ class FAQPage extends Controller {
 		$modified = FAQModel::getLastUpdated();
 		global $Smarty;
 
-		$this->addCSSFiles('faq.css');
 		return $this->renderPage(
 			array(
 				'title' => $Smarty->_config[0]['vars']['faqTitle'],

@@ -16,7 +16,6 @@ class DemosPage extends Controller {
 		$demos = GameDemosModel::getAllGroupsAndDemos();
 		global $Smarty;
 
-		$this->addCSSFiles('chart.css');
 		return $this->renderPage(
 			array(
 				'title' => $Smarty->_config[0]['vars']['demosTitle'],

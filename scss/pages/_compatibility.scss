@@ -1,0 +1,34 @@
+.bottom-link {
+	text-align: right;
+	a {
+		color: rgb(168, 39, 9);
+		font-weight: bold;
+		text-decoration: none;
+	}
+}
+
+.colorKeyTable {
+	td {
+		text-align: center;
+	}
+}
+
+.gameShortName {
+	width: 15%;
+}
+
+.gameSupportLevel {
+	width: 15%;
+	text-align: center;
+}
+
+/* Percentage Colors */
+.pctU {
+	background-color: #77ffff;
+}
+
+@for $i from 0 through 20 {
+  .pct#{$i*5} {
+	background-color: adjust-hue(hsl(0, 100%, 66-$i), $i*4.5);
+  } 
+}

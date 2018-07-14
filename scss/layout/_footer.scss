@@ -1,0 +1,24 @@
+/* Footer */
+
+footer {
+    color: rgba(0, 0, 0, 0.5);
+    padding: 15px 0;
+    position: relative;
+    a {
+      color: rgba(0, 0, 0, 0.5);
+      &:hover {
+        color: rgba(0, 0, 0, 0.5);
+        text-decoration: none;
+      }
+    }
+  }
+  
+  .tentacle {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 160px;
+    position: absolute;
+    bottom: -60px;
+    filter: drop-shadow((-3px) 5px 1px #EDBE17);
+  }

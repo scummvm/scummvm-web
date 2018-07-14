@@ -15,8 +15,7 @@ class CreditsPage extends Controller {
 	public function index() {
 		$credits = CreditsModel::getAllCredits();
 		global $Smarty;
-
-		$this->addCSSFiles('credits.css');
+		
 		return $this->renderPage(
 			array(
 				'title' => $Smarty->_config[0]['vars']['creditsTitle'],

@@ -1,0 +1,81 @@
+.chart {
+  border: 0;
+  border-spacing: 0;
+  margin: 0px auto 1em;
+  padding: 0;
+  width: 95%;
+  caption {
+    background: rgb(168, 39, 9) url('../images/table-head.png');
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 0 auto;
+  }
+  a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    &:hover {
+      color: rgb(255, 0, 0);
+    }
+  }
+  tr, th, td {
+    margin: 0;
+    padding: 2px;
+  }
+  th, td {
+    border: 1px solid rgb(192, 192, 192);
+  }
+  th {
+    font-weight: normal;
+    text-align: left;
+  }
+  td.details {
+    padding: 1em 3em;
+  }
+  .color0 {
+    background-color: rgb(224, 224, 224);
+  }
+  .color1 {
+    background-color: rgb(192, 192, 192);
+  }
+  .color2 {
+    background-color: rgb(255, 255, 255);
+  }
+  .color4 {
+    background-color: rgb(153, 153, 153);
+  }
+}
+
+/* query row colors */
+
+.gameDemos {
+  tr {
+    padding: 0;
+  }
+  th {
+    padding: 2px;
+  }
+  td {
+    padding: 0px 2px;
+    img {
+      &.downloadImage {
+        vertical-align: middle;
+        width: 22px;
+        height: 22px;
+      }
+      &.noSubcat {
+        vertical-align: middle;
+        width: 14px;
+        height: 14px;
+      }
+      &.subcatToggle {
+        vertical-align: middle;
+        width: 14px;
+        height: 14px;
+        cursor: pointer;
+      }
+    }
+  }
+  .gameTarget {
+    width: 15%;
+  }
+}

@@ -1,0 +1,17 @@
+$black: rgb(0, 0, 0) !default;
+$black-semi-transparent: rgba(0, 0, 0, 0.5) !default;
+$white: rgb(255, 255, 255) !default; 
+$totem-pole: rgb(168, 39, 9) !default; //153, 27, 7
+$kenyan-copper: rgb(130, 29, 6) !default; //124, 28, 5
+$japanese-laurel: rgb(64, 106, 4) !default; //10, 105, 6
+$double-pearl-lustra: rgb(251, 241, 206) !default; //252, 244, 208
+$turbo: rgb(221, 221, 0) !default; //250, 230, 0
+$gray: rgb(153, 153, 153) !default; //128, 128, 128
+$alto: rgb(224, 224, 224) !default; //219, 219, 219
+$bamboo: rgb(209, 111, 10) !default;
+
+$breakpoints: (
+  'small': (min-width: 320px) and (max-width: 640px),
+  'medium': (min-width: 641px) and (max-width: 768px),
+  'large': (min-width: 769px)
+);

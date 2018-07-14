@@ -1,0 +1,34 @@
+html {
+  background: rgb(212, 117, 11);
+  background: linear-gradient(to bottom, rgb(212, 117, 11) 0%, rgb(212, 117, 11) 36%, rgb(239, 196, 24) 100%);
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 10pt;
+  margin-bottom: 0;
+}
+
+.content {
+  padding: 8pt;
+  background: rgb(251, 241, 206);
+  font-family: Tahoma;
+  font-size: 16pt;
+  p {
+    margin: 0 0 6pt 0;
+  }
+}
+
+.code {
+  display: block;
+  background: #FFFFFF;
+  font-family: Consolas;
+  font-size: 24pt;
+  padding: 4pt;
+  margin: 6pt 0;
+}

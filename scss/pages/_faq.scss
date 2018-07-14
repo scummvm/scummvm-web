@@ -1,0 +1,15 @@
+div {
+  &.question {
+    font-weight: bold;
+  }
+  &.section {
+    margin: 20px 0;
+  }
+  &.answer {
+    margin: 20px 30px;
+  }
+}
+
+.envar {
+  font-family: monospace;
+}

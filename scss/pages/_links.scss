@@ -1,0 +1,13 @@
+.linklist {
+  color: #000;
+  margin-left: 3em;
+  .linkentry {
+    margin-bottom: 1em;
+    .linkhead {
+      font-weight: bold;
+    }
+    .linkbody {
+      padding: 5px 5px 5px 3em;
+    }
+  }
+}

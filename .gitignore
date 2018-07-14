@@ -1,3 +1,9 @@
 /include/smarty/template_c
 /templates_c
 .DS_Store
+/css
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+/vendor
