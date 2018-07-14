@@ -27,8 +27,8 @@
 	background-color: #77ffff;
 }
 
-@for $i from 0 through 4 {
-  .pct#{$i*25} {
-	background-color: adjust-hue(hsl(0, 100%, 66%), $i*30);
+@for $i from 0 through 20 {
+  .pct#{$i*5} {
+	background-color: adjust-hue(hsl(0, 100%, 66-$i), $i*4.5);
   } 
 }
