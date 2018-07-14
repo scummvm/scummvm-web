@@ -8,7 +8,7 @@ class GamesPage extends Controller {
 	/* Constructor. */
 	public function __construct() {
 		parent::__construct();
-		$this->_template = 'games.tpl';
+		$this->_template = 'pages/games.tpl';
 	}
 
 	/* Display the index page. */

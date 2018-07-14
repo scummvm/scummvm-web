@@ -8,7 +8,7 @@ class PressPage extends Controller {
 	/* Constructor. */
 	public function __construct() {
 		parent::__construct();
-		$this->_template = 'press.tpl';
+		$this->_template = 'pages/press.tpl';
 	}
 
 	/* Display the index page. */

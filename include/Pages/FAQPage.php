@@ -8,7 +8,7 @@ class FAQPage extends Controller {
 	/* Constructor. */
 	public function __construct() {
 		parent::__construct();
-		$this->_template = 'faq.tpl';
+		$this->_template = 'pages/faq.tpl';
 	}
 
 	/* Display the index page. */

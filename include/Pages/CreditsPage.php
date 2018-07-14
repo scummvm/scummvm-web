@@ -8,7 +8,7 @@ class CreditsPage extends Controller {
 	/* Constructor. */
 	public function __construct() {
 		parent::__construct();
-		$this->_template = 'credits.tpl';
+		$this->_template = 'pages/credits.tpl';
 	}
 
 	/* Display the index page. */

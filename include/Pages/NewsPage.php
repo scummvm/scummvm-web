@@ -9,7 +9,7 @@ class NewsPage extends Controller {
 	/* Constructor. */
 	public function __construct() {
 		parent::__construct();
-		$this->_template = 'news.tpl';
+		$this->_template = 'pages/news.tpl';
 	}
 
 	/* Display the index page. */

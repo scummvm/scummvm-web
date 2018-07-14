@@ -7,7 +7,7 @@ class ContactPage extends Controller {
 	/* Constructor. */
 	public function __construct() {
 		parent::__construct();
-		$this->_template = 'contact.tpl';
+		$this->_template = 'pages/contact.tpl';
 	}
 
 	/* Display the index page. */

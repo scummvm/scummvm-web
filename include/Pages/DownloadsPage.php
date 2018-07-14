@@ -8,7 +8,7 @@ class DownloadsPage extends Controller {
 	/* Constructor. */
 	public function __construct() {
 		parent::__construct();
-		$this->_template = 'downloads.tpl';
+		$this->_template = 'pages/downloads.tpl';
 	}
 
 	function getRecommendedDownloadsJS(&$downloads) {

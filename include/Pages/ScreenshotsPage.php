@@ -9,8 +9,8 @@ class ScreenshotsPage extends Controller {
 	/* Constructor. */
 	public function __construct() {
 		parent::__construct();
-		$this->_template = 'screenshots.tpl';
-		$this->_template_category = 'screenshots_category.tpl';
+		$this->_template = 'pages/screenshots.tpl';
+		$this->_template_category = 'pages/screenshots_category.tpl';
 		$this->_template_viewer = 'screenshots_viewer.tpl';
 	}
 
