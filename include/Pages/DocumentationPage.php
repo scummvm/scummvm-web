@@ -8,7 +8,7 @@ class DocumentationPage extends Controller {
 	/* Constructor. */
 	public function __construct() {
 		parent::__construct();
-		$this->_template = 'documentation.tpl';
+		$this->_template = 'pages/documentation.tpl';
 	}
 
 	/* Display the index page. */

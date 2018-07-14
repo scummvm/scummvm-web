@@ -8,7 +8,7 @@ class LinksPage extends Controller {
 	/* Constructor. */
 	public function __construct() {
 		parent::__construct();
-		$this->_template = 'links.tpl';
+		$this->_template = 'pages/links.tpl';
 	}
 
 	/* Display the index page. */

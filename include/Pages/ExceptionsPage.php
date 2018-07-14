@@ -7,7 +7,7 @@ class ExceptionsPage extends Controller {
 	/* Constructor. */
 	public function __construct() {
 		parent::__construct();
-		$this->_template = 'exceptions.tpl';
+		$this->_template = 'components/exception.tpl';
 	}
 
 	/* Display the index page. */
@@ -20,7 +20,7 @@ class ExceptionsPage extends Controller {
 				'content_title' => $Smarty->getConfigVars('exceptionsContentTitle'),
 				'exception' => $exception,
 			),
-			'exception.tpl'
+			$this->_template
 		);
 	}
 }

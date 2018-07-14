@@ -8,7 +8,7 @@ class DemosPage extends Controller {
 	/* Constructor. */
 	public function __construct() {
 		parent::__construct();
-		$this->_template = 'game_demos.tpl';
+		$this->_template = 'pages/game_demos.tpl';
 	}
 
 	/* Display the index page. */

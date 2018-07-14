@@ -9,8 +9,8 @@ class FeedsPage extends Controller {
 	/* Constructor. */
 	public function __construct() {
 		parent::__construct();
-		$this->_template_rss = 'feed_rss.tpl';
-		$this->_template_atom = 'feed_atom.tpl';
+		$this->_template_rss = 'pages/feed_rss.tpl';
+		$this->_template_atom = 'pages/feed_atom.tpl';
 	}
 
 	/* Display the index page. */

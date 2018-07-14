@@ -8,7 +8,7 @@ class SubprojectsPage extends Controller {
 	/* Constructor. */
 	public function __construct() {
 		parent::__construct();
-		$this->_template = 'subprojects.tpl';
+		$this->_template = 'pages/subprojects.tpl';
 	}
 
 	/* Display the index page. */

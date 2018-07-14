@@ -16,7 +16,7 @@ class CompatibilityPage extends Controller {
 	public function __construct() {
 		parent::__construct();
 		global $Smarty;
-		$this->_template = 'compatibility.tpl';
+		$this->_template = 'pages/compatibility.tpl';
 		$this->_template_details = 'compatibility_details.tpl';
 		$this->_supportLevelDesc = array(
 			'untested' => $Smarty->getConfigVars('compatibilityUntested'),
