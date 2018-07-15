@@ -10,8 +10,8 @@ echo '$ git status'
 git status
 
 # Run composer install
+export COMPOSER_HOME=/var/www/composer
 echo "$ Composer home:" $COMPOSER_HOME
-export COMPOSER_HOME=/var/www
 echo '$ composer install'
 composer install 2>&1
  
