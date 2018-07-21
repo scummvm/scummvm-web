@@ -4,7 +4,7 @@
 		{if $item instanceof File}
 			{assign var='data' value=$item->getExtraInfo()}
 			<li class="file">
-				<img src="/images/{$item->getCategoryIcon()}" alt="" class="category">
+				<span class="sprite-{$type}-{$item->getCategoryIcon()} sprite"></span>
 				<a href="{eval var=$item->getURL()}">{$item->getName()}</a>
 				{strip}
 				<span class="download-extras">

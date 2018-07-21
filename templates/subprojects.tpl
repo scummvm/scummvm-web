@@ -13,7 +13,7 @@
 		{include file='subhead.tpl' subhead=$project->getName()}
 		<div class="subhead-content">
 			{$project->getInfo()}
-			{include file='list_items.tpl' list=$project->getDownloads()}
+			{include file='list_items.tpl' list=$project->getDownloads() type='platforms'}
 		</div>
 		{/foreach}
 	</div>
