@@ -5,9 +5,9 @@ cd ..
 
 # Pull the updated website from github
 echo '$ git pull --rebase'
-#git pull --rebase
+git pull --rebase
 echo '$ git status'
-#git status
+git status
 
 # Generate image sprite
 glue images/icons/games/ --img=images/ --scss=scss/sprites/
