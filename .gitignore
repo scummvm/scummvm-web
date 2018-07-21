@@ -7,3 +7,6 @@
 *.sass.map
 *.scss.map
 /vendor
+/scss/sprites
+/images/platforms.png
+/images/games.png
