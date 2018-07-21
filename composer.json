@@ -7,7 +7,6 @@
     },
     "scripts": {
       "post-install-cmd": [
-        "mkdir -p css",
         "pscss -f compressed ./scss/main.scss > ./css/main.css",
         "pscss -f compressed ./scss/pages/_cloud-style.scss > ./css/cloud-style.css"
       ]
