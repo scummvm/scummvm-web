@@ -5,12 +5,21 @@ cd ..
 
 # Pull the updated website from github
 echo '$ git pull --rebase'
-git pull --rebase
+#git pull --rebase
 echo '$ git status'
-git status
+#git status
 
 # Generate image sprite
-glue images/icons/games/ --img=images/ --scss=scss/sprites/_games.scss
+glue images/icons/games/ --img=images/ --scss=scss/sprites/
+glue images/icons/platforms/ --img=images/ --scss=scss/sprites/
+mv scss/sprites/games.scss scss/sprites/_games.scss
+mv scss/sprites/platforms.scss scss/sprites/_platforms.scss
+
+# Create a css folder if it doesn't exist
+if [ ! -d "css" ]; then
+  echo "$ mkdir css"
+  mkdir css
+fi
 
 # Run composer install
 export COMPOSER_HOME=/var/www/composer
