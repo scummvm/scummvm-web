@@ -139,5 +139,10 @@ RewriteRule		^(screenshots)(/([a-z]+)(/([-_a-z0-9]+)(/([0-9]+))?)?)?/?		?p=$1&ca
 
 ##
 # Composer
-#
+##
 RewriteRule ^(vendor/|composer\.json|composer\.lock) - [F,L,NC]
+
+##
+# node
+##
+RewriteRule ^(node_modules/|package\.json|package-lock\.json) - [F,L,NC]
