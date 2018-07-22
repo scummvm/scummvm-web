@@ -91,6 +91,14 @@
 {foreach from=$js_files item=script}
 	<script src="/javascripts/{$script}"></script>
 {/foreach}
+{* Google analytics javascript. *}
+	<script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		_uacct = "UA-1455743-1";
+		_udn = "scummvm.org";
+		urchinTracker();
+	</script>
+{* End Google analytics javascript. *}
 {literal}
 	<script>
 		document.querySelector('.nav-trigger').addEventListener('change', function() {
