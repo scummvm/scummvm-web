@@ -27,3 +27,6 @@ echo "$ Composer home:" $COMPOSER_HOME
 echo '$ composer install'
 composer install 2>&1
  
+# Run npm install
+echo "$ npm install"
+npm install

@@ -1,0 +1,12 @@
+{
+  "name": "scummvm-web",
+  "description": "ScummVM.org main site",
+  "version": "1.0.0",
+  "dependencies": {
+    "autoprefixer": "^9.0.1",
+    "postcss-cli": "^6.0.0"
+  },
+  "scripts": {
+    "postinstall": "postcss ./css/*.css --use autoprefixer --no-map -r"
+  }
+}
