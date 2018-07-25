@@ -1730,7 +1730,7 @@
 		</game>
 		<game>
 			<name>I Have no Mouth and I Must Scream</name>
-			<category>ihnm-alt</category>
+			<category>ihnm</category>
 			<image>
 				<file>other/ihnm/ihnm-#n#</file>
 				<range from="1" to="6" format="%d" />
@@ -1932,7 +1932,7 @@
 		</game>
 	</group>
 	<group>
-		<title>Animation Magic (Series)</title>
+		<title>Animation Magic games</title>
 		<category>composer</category>
 		<game>
 			<name>Darby the Dragon</name>
