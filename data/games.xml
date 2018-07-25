@@ -10,12 +10,12 @@
 			<anchor>sky</anchor>
 			<entries>
 				<file>
-					<category_icon>cat-sky.png</category_icon>
+					<category_icon>sky</category_icon>
 					<url>Beneath a Steel Sky/bass-cd-1.2.zip</url>
 					<name>Beneath a Steel Sky, Freeware CD Version</name>
 				</file>
 				<file>
-					<category_icon>cat-sky.png</category_icon>
+					<category_icon>sky</category_icon>
 					<url>Beneath a Steel Sky/BASS-Floppy-1.3.zip</url>
 					<name>Beneath a Steel Sky, Freeware Floppy Version</name>
 				</file>
@@ -27,47 +27,47 @@
 			<anchor>dreamweb</anchor>
 			<entries>
 				<file>
-					<category_icon>cat-dreamweb.png</category_icon>
+					<category_icon>dreamweb</category_icon>
 					<url>Dreamweb/dreamweb-uk-1.1.zip</url>
 					<name>Dreamweb, Freeware Floppy DOS Version (English UK)</name>
 				</file>
 				<file>
-					<category_icon>cat-dreamweb.png</category_icon>
+					<category_icon>dreamweb</category_icon>
 					<url>Dreamweb/dreamweb-cd-uk-1.1.zip</url>
 					<name>Dreamweb, Freeware CD DOS Version (English UK)</name>
 				</file>
 				<file>
-					<category_icon>cat-dreamweb.png</category_icon>
+					<category_icon>dreamweb</category_icon>
 					<url>Dreamweb/dreamweb-cd-us-1.1.zip</url>
 					<name>Dreamweb, Freeware CD DOS Version (English US)</name>
 				</file>
 				<file>
-					<category_icon>cat-dreamweb.png</category_icon>
+					<category_icon>dreamweb</category_icon>
 					<url>Dreamweb/dreamweb-cd-fr-1.1.zip</url>
 					<name>Dreamweb, Freeware CD DOS Version (French)</name>
 				</file>
 				<file>
-					<category_icon>cat-dreamweb.png</category_icon>
+					<category_icon>dreamweb</category_icon>
 					<url>Dreamweb/dreamweb-cd-de-1.1.zip</url>
 					<name>Dreamweb, Freeware CD DOS Version (German)</name>
 				</file>
 				<file>
-					<category_icon>cat-dreamweb.png</category_icon>
+					<category_icon>dreamweb</category_icon>
 					<url>Dreamweb/dreamweb-cd-it-1.1.zip</url>
 					<name>Dreamweb, Freeware CD DOS Version (Italian)</name>
 				</file>
 				<file>
-					<category_icon>cat-dreamweb.png</category_icon>
+					<category_icon>dreamweb</category_icon>
 					<url>Dreamweb/dreamweb-cd-es-1.1.zip</url>
 					<name>Dreamweb, Freeware CD DOS Version (Spanish)</name>
 				</file>
 				<file>
-					<category_icon>cat-dreamweb.png</category_icon>
+					<category_icon>dreamweb</category_icon>
 					<url>Dreamweb/dreamweb-manuals-en-highres.zip</url>
 					<name>Dreamweb, Manuals (English High Resolution)</name>
 				</file>
 				<file>
-					<category_icon>cat-dreamweb.png</category_icon>
+					<category_icon>dreamweb</category_icon>
 					<url>Dreamweb/dreamweb-manuals-en-lores.zip</url>
 					<name>Dreamweb, Manuals (English Low Resolution)</name>
 				</file>
@@ -79,38 +79,38 @@
 			<anchor>queen</anchor>
 			<entries>
 				<file>
-					<category_icon>cat-mp3.png</category_icon>
+					<category_icon>mp3</category_icon>
 					<url>Flight of the Amazon Queen/FOTAQ_Talkie-1.1.zip</url>
 					<name>Flight of the Amazon Queen, Freeware CD Version (mp3 compressed sfx/speech)</name>
 				</file>
 				<file>
-					<category_icon>cat-queen.png</category_icon>
+					<category_icon>queen</category_icon>
 					<url>http://www.lysator.liu.se/~zino/scummvm/queen/</url>
 					<name>Flight of the Amazon Queen, Freeware CD Version (unmodified original)</name>
 					<extra_info>(87M) download this version if your ScummVM doesn't have mp3 support</extra_info>
 				</file>
 				<file>
-					<category_icon>cat-queen.png</category_icon>
+					<category_icon>queen</category_icon>
 					<url>Flight of the Amazon Queen/FOTAQ_Fr_Talkie_1.0.zip</url>
 					<name>Flight of the Amazon Queen, Freeware CD Version (<h:i>French</h:i> voices and subtitles, ogg compressed sfx/speech)</name>
 				</file>
 				<file>
-					<category_icon>cat-queen.png</category_icon>
+					<category_icon>queen</category_icon>
 					<url>Flight of the Amazon Queen/FOTAQ_Ger_talkie-1.0.zip</url>
 					<name>Flight of the Amazon Queen, Freeware CD Version (<h:i>German</h:i> voices and subtitles, ogg compressed sfx/speech)</name>
 				</file>
 				<file>
-					<category_icon>cat-queen.png</category_icon>
+					<category_icon>queen</category_icon>
 					<url>Flight of the Amazon Queen/FOTAQ_Heb_talkie.zip</url>
 					<name>Flight of the Amazon Queen, Freeware CD Version (<h:i>Hebrew</h:i> subtitles, English voices, ogg compressed sfx/speech)</name>
 				</file>
 				<file>
-					<category_icon>cat-queen.png</category_icon>
+					<category_icon>queen</category_icon>
 					<url>Flight of the Amazon Queen/FOTAQ_It_Talkie_1.0.zip</url>
 					<name>Flight of the Amazon Queen, Freeware CD Version (<h:i>Italian</h:i> subtitles, English voices, ogg compressed sfx/speech)</name>
 				</file>
 				<file>
-					<category_icon>cat-queen.png</category_icon>
+					<category_icon>queen</category_icon>
 					<url>Flight of the Amazon Queen/FOTAQ_Floppy.zip</url>
 					<name>Flight of the Amazon Queen, Freeware Floppy Version</name>
 				</file>
@@ -122,27 +122,27 @@
 			<anchor>lure</anchor>
 			<entries>
 				<file>
-					<category_icon>cat-lure.png</category_icon>
+					<category_icon>lure</category_icon>
 					<url>Lure of the Temptress/lure-1.1.zip</url>
 					<name>Lure of the Temptress, Freeware Version (English)</name>
 				</file>
 				<file>
-					<category_icon>cat-lure.png</category_icon>
+					<category_icon>lure</category_icon>
 					<url>Lure of the Temptress/lure-fr-1.1.zip</url>
 					<name>Lure of the Temptress, Freeware Version (French)</name>
 				</file>
 				<file>
-					<category_icon>cat-lure.png</category_icon>
+					<category_icon>lure</category_icon>
 					<url>Lure of the Temptress/lure-de-1.1.zip</url>
 					<name>Lure of the Temptress, Freeware Version (German)</name>
 				</file>
 				<file>
-					<category_icon>cat-lure.png</category_icon>
+					<category_icon>lure</category_icon>
 					<url>Lure of the Temptress/lure-it-1.1.zip</url>
 					<name>Lure of the Temptress, Freeware Version (Italian)</name>
 				</file>
 				<file>
-					<category_icon>cat-lure.png</category_icon>
+					<category_icon>lure</category_icon>
 					<url>Lure of the Temptress/lure-es-1.1.zip</url>
 					<name>Lure of the Temptress, Freeware Version (Spanish)</name>
 				</file>
@@ -154,32 +154,32 @@
 			<anchor>drascula</anchor>
 			<entries>
 				<file>
-					<category_icon>cat-drascula.png</category_icon>
+					<category_icon>drascula</category_icon>
 					<url>Drascula_ The Vampire Strikes Back/drascula-1.0.zip</url>
 					<name>Drascula: The Vampire Strikes Back, Freeware Version (English)</name>
 				</file>
 				<file>
-					<category_icon>cat-mp3.png</category_icon>
+					<category_icon>mp3</category_icon>
 					<url>Drascula_ The Vampire Strikes Back/drascula-audio-mp3-2.0.zip</url>
 					<name>Drascula: The Vampire Strikes Back, Freeware Version (Music AddOn, MP3 format)</name>
 				</file>
 				<file>
-					<category_icon>cat-flac.png</category_icon>
+					<category_icon>flac</category_icon>
 					<url>Drascula_ The Vampire Strikes Back/drascula-audio-flac-2.0.zip</url>
 					<name>Drascula: The Vampire Strikes Back, Freeware Version (Music AddOn, FLAC format)</name>
 				</file>
 				<file>
-					<category_icon>cat-ogg.png</category_icon>
+					<category_icon>ogg</category_icon>
 					<url>Drascula_ The Vampire Strikes Back/drascula-audio-2.0.zip</url>
 					<name>Drascula: The Vampire Strikes Back, Freeware Version (Music AddOn, OGG format)</name>
 				</file>
 				<file>
-					<category_icon>cat-drascula.png</category_icon>
+					<category_icon>drascula</category_icon>
 					<url>Drascula_ The Vampire Strikes Back/drascula-int-1.0.zip</url>
 					<name>Drascula: The Vampire Strikes Back, Freeware Version (Spanish, German, French and Italian AddOn)</name>
 				</file>
 				<file>
-					<category_icon>cat-drascula.png</category_icon>
+					<category_icon>drascula</category_icon>
 					<url>Drascula_ The Vampire Strikes Back/drascula-int-1.1.zip</url>
 					<name>Drascula: The Vampire Strikes Back, Freeware Version (Updated Spanish, German, French and Italian AddOn) - requires ScummVM 1.3.0 or more</name>
 				</file>
@@ -191,12 +191,12 @@
 			<anchor>sfinx</anchor>
 			<entries>
 				<file>
-					<category_icon>cat-sfinx.png</category_icon>
+					<category_icon>sfinx</category_icon>
 					<url>Sfinx/sfinx-en-v1.1.zip</url>
 					<name>Sfinx, Freeware Version (English, v1.1)</name>
 				</file>
 				<file>
-					<category_icon>cat-sfinx.png</category_icon>
+					<category_icon>sfinx</category_icon>
 					<url>Sfinx/sfinx-pl-v1.1.zip</url>
 					<name>Sfinx, Freeware Version (Polish, v1.1)</name>
 				</file>
@@ -208,17 +208,17 @@
 			<anchor>soltys</anchor>
 			<entries>
 				<file>
-					<category_icon>cat-soltys.png</category_icon>
+					<category_icon>soltys</category_icon>
 					<url>Soltys/soltys-en-v1.0.zip</url>
 					<name>Soltys, Freeware Version (English)</name>
 				</file>
 				<file>
-					<category_icon>cat-soltys.png</category_icon>
+					<category_icon>soltys</category_icon>
 					<url>Soltys/soltys-pl-v1.0.zip</url>
 					<name>Soltys, Freeware Version (Polish)</name>
 				</file>
 				<file>
-					<category_icon>cat-soltys.png</category_icon>
+					<category_icon>soltys</category_icon>
 					<url>Soltys/soltys-es-v1.0.zip</url>
 					<name>Soltys, Freeware Version (Spanish)</name>
 				</file>
@@ -230,7 +230,7 @@
 			<anchor>mysthous</anchor>
 			<entries>
 				<file>
-					<category_icon>cat-mysthous.png</category_icon>
+					<category_icon>mysthous</category_icon>
 					<url>Mystery House/MYSTHOUS.zip</url>
 					<name>Mystery House, public domain version (Apple II)</name>
 				</file>
@@ -251,85 +251,85 @@
 			</notes>
 			<entries>
 				<file>
-					<category_icon>cat-flac.png</category_icon>
+					<category_icon>flac</category_icon>
 					<url>Broken Sword I and II/Sword1_DXA_Cutscenes.zip</url>
 					<name>Broken Sword Cutscene Pack (English, DXA compression)</name>
 					<extra_msg>- Requires ScummVM 0.10.0</extra_msg>
 				</file>
 				<file>
-					<category_icon>cat-ogg.png</category_icon>
+					<category_icon>ogg</category_icon>
 					<url>http://downloads.scummbr.com/Sword1_Cutscenes_BRA_Complete.zip</url>
 					<name>Broken Sword Cutscene Pack (Brazilian)</name>
 					<extra_info>(38M) This is an offsite package with both Brazillian videos and audio</extra_info>
 				</file>
 				<file>
-					<category_icon>cat-sword.png</category_icon>
+					<category_icon>sword</category_icon>
 					<url>Broken Sword I and II/Sword1_Cutscenes_Subtitles-1.0.zip</url>
 					<name>Broken Sword Cutscene Pack (all languages, Subtitles AddOn)</name>
 					<extra_msg>Cutscene subtitles pack. All languages</extra_msg>
 				</file>
 				<file>
-					<category_icon>cat-sword.png</category_icon>
+					<category_icon>sword</category_icon>
 					<url>Broken Sword I and II/Sword1_Cutscenes_Subtitles-1.1.zip</url>
 					<name>Broken Sword Cutscene Pack (all languages, Updated Subtitles AddOn) - requires ScummVM 1.5.0 or more</name>
 					<extra_msg>Cutscene subtitles pack. All languages</extra_msg>
 				</file>
 				<file>
-					<category_icon>cat-flac.png</category_icon>
+					<category_icon>flac</category_icon>
 					<url>Broken Sword I and II/Sword1_Cutscenes_DXA_FRE_AddOn.zip</url>
 					<name>Broken Sword Cutscene Pack (French AddOn)</name>
 					<extra_msg>Overwrite files in English Pack with files from this archive</extra_msg>
 				</file>
 				<file>
-					<category_icon>cat-flac.png</category_icon>
+					<category_icon>flac</category_icon>
 					<url>Broken Sword I and II/Sword1_Cutscenes_DXA_GER_AddOn.zip</url>
 					<name>Broken Sword Cutscene Pack (German AddOn)</name>
 					<extra_msg>Overwrite files in English Pack with files from this archive</extra_msg>
 				</file>
 				<file>
-					<category_icon>cat-flac.png</category_icon>
+					<category_icon>flac</category_icon>
 					<url>Broken Sword I and II/Sword1_Cutscenes_DXA_ITA_AddOn.zip</url>
 					<name>Broken Sword Cutscene Pack (Italian AddOn)</name>
 					<extra_msg>Overwrite files in English Pack with files from this archive</extra_msg>
 				</file>
 				<file>
-					<category_icon>cat-flac.png</category_icon>
+					<category_icon>flac</category_icon>
 					<url>Broken Sword I and II/Sword1_Cutscenes_DXA_ESP_AddOn.zip</url>
 					<name>Broken Sword Cutscene Pack (Spanish AddOn)</name>
 					<extra_msg>Overwrite files in English Pack with files from this archive</extra_msg>
 				</file>
 				<file>
-					<category_icon>cat-flac.png</category_icon>
+					<category_icon>flac</category_icon>
 					<url>Broken Sword I and II/Sword1_Demo_Cutscenes.zip</url>
 					<name>Broken Sword Demo Cutscene Pack</name>
 					<extra_msg>- Requires ScummVM 0.10.0</extra_msg>
 				</file>
 				<file>
-					<category_icon>cat-ogg.png</category_icon>
+					<category_icon>ogg</category_icon>
 					<url>Broken Sword I and II/Sword1_OGG_Cutscenes.zip</url>
 					<name>Broken Sword Cutscene Pack (English OGG AddOn)</name>
 					<extra_msg>Alternative English audio pack, for ports without FLAC support</extra_msg>
 				</file>
 				<file>
-					<category_icon>cat-ogg.png</category_icon>
+					<category_icon>ogg</category_icon>
 					<url>Broken Sword I and II/Sword1_Cutscenes_FRE_AddOn.zip</url>
 					<name>Broken Sword Cutscene Pack (French OGG AddOn)</name>
 					<extra_msg>Alternative French audio pack, for ports without FLAC support</extra_msg>
 				</file>
 				<file>
-					<category_icon>cat-ogg.png</category_icon>
+					<category_icon>ogg</category_icon>
 					<url>Broken Sword I and II/Sword1_Cutscenes_GER_AddOn.zip</url>
 					<name>Broken Sword Cutscene Pack (German OGG AddOn)</name>
 					<extra_msg>Alternative German audio pack, for ports without FLAC support</extra_msg>
 				</file>
 				<file>
-					<category_icon>cat-ogg.png</category_icon>
+					<category_icon>ogg</category_icon>
 					<url>Broken Sword I and II/Sword1_Cutscenes_ITA_AddOn.zip</url>
 					<name>Broken Sword Cutscene Pack (Italian OGG AddOn)</name>
 					<extra_msg>Alternative Italian audio pack, for ports without FLAC support</extra_msg>
 				</file>
 				<file>
-					<category_icon>cat-ogg.png</category_icon>
+					<category_icon>ogg</category_icon>
 					<url>Broken Sword I and II/Sword1_Cutscenes_ESP_AddOn.zip</url>
 					<name>Broken Sword Cutscene Pack (Spanish OGG AddOn)</name>
 					<extra_msg>Alternative Spanish audio pack, for ports without FLAC support</extra_msg>
@@ -345,19 +345,19 @@
 			</notes>
 			<entries>
 				<file>
-					<category_icon>cat-flac.png</category_icon>
+					<category_icon>flac</category_icon>
 					<url>Broken Sword I and II/Sword2_DXA_Cutscenes.zip</url>
 					<name>Broken Sword II Cutscene Pack (all languages, DXA compression)</name>
 					<extra_msg>- Requires ScummVM 0.10.0</extra_msg>
 				</file>
 				<file>
-					<category_icon>cat-ogg.png</category_icon>
+					<category_icon>ogg</category_icon>
 					<url>Broken Sword I and II/Sword2_OGG_Cutscenes.zip</url>
 					<name>Broken Sword II Cutscene Pack (all languages, OGG AddOn)</name>
 					<extra_msg>Alternative audio pack, for ports without FLAC support</extra_msg>
 				</file>
 				<file>
-					<category_icon>cat-flac.png</category_icon>
+					<category_icon>flac</category_icon>
 					<url>Broken Sword I and II/Sword2_Demo_Cutscenes.zip</url>
 					<name>Broken Sword II Demo Cutscene Pack</name>
 					<extra_msg>- Requires ScummVM 0.10.0</extra_msg>
@@ -370,7 +370,7 @@
 			<anchor>elvira2</anchor>
 			<entries>
 				<file>
-					<category_icon>cat-flac.png</category_icon>
+					<category_icon>flac</category_icon>
 					<url>Elvira 2/elvira2_pc_sfx.zip</url>
 					<name>Elvira 2 - Digital samples for sound effects in the PC version</name>
 					<extra_msg>- Requires ScummVM 1.8.0</extra_msg>
@@ -383,7 +383,7 @@
 			<anchor>feeble</anchor>
 			<entries>
 				<file>
-					<category_icon>cat-flac.png</category_icon>
+					<category_icon>flac</category_icon>
 					<url>The Feeble Files/Feeble_OmniTV_Cutscenes.zip</url>
 					<name>The Feeble Files - Omni TV and epilogue cutscenes for the Amiga and Macintosh versions</name>
 					<extra_msg>- Requires ScummVM 0.10.0</extra_msg>

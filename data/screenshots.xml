@@ -5,7 +5,7 @@
 		<title>LucasArts games</title>
 		<category>lec</category>
 		<game>
-			<name>Maniac Mansion</name>
+			<name>Maniac Mansion (Series)</name>
 			<category>maniac</category>
 			<image>
 				<file>lec/maniac/scummvm_0_0_#n#</file>
@@ -30,6 +30,20 @@
 			<image>
 				<file>lec/maniac/scummvm_0_0_6</file>
 				<caption>Maniac Mansion (Amiga German)</caption>
+			</image>
+      <image>
+				<file>lec/tentacle/scummvm_0_8_#n#</file>
+				<range from="0" to="1" format="%d" />
+				<caption>Day of the Tentacle</caption>
+			</image>
+			<image>
+				<file>lec/tentacle/scummvm_0_8_2</file>
+				<caption>Day of the Tentacle (French)</caption>
+			</image>
+			<image>
+				<file>lec/tentacle/tentacle-de-#n#</file>
+				<range from="1" to="3" format="%d" />
+				<caption>Day of the Tentacle (German)</caption>
 			</image>
 		</game>
 		<game>
@@ -59,8 +73,8 @@
 			</image>
 		</game>
 		<game>
-			<name>Indiana Jones and the Last Crusade</name>
-			<category>indy3</category>
+			<name>Indiana Jones (Series)</name>
+			<category>indy</category>
 			<image>
 				<file>lec/indy3/scummvm_0_2_#n#</file>
 				<range from="0" to="1" format="%d" />
@@ -74,6 +88,15 @@
 				<file>lec/indy3/scummvm_0_2_#n#</file>
 				<range from="3" to="4" format="%d" />
 				<caption>Indiana Jones and the Last Crusade (VGA)</caption>
+			</image>
+      <image>
+				<file>lec/atlantis/scummvm_0_3_#n#</file>
+				<range from="0" to="1" format="%d" />
+				<caption>Indiana Jones and the Fate of Atlantis</caption>
+			</image>
+			<image>
+				<file>lec/atlantis/scummvm_0_3_2</file>
+				<caption>Indiana Jones and the Fate of Atlantis (Amiga)</caption>
 			</image>
 		</game>
 		<game>
@@ -108,7 +131,7 @@
 			</image>
 		</game>
 		<game>
-			<name>The Secret of Monkey Island</name>
+			<name>The Secret of Monkey Island (Series)</name>
 			<category>monkey</category>
 			<image>
 				<file>lec/monkey/scummvm_0_4_0</file>
@@ -152,11 +175,7 @@
 				<file>lec/monkey/scummvm_0_4_9</file>
 				<caption>The Secret of Monkey Island (SegaCD)</caption>
 			</image>
-		</game>
-		<game>
-			<name>Monkey Island 2: Le Chuck's Revenge</name>
-			<category>monkey2</category>
-			<image>
+      <image>
 				<file>lec/monkey2/scummvm_0_5_0</file>
 				<caption>Monkey Island 2: LeChuck's Revenge</caption>
 			</image>
@@ -173,36 +192,25 @@
 				<file>lec/monkey2/scummvm_0_5_2</file>
 				<caption>Monkey Island 2: LeChuck's Revenge (Amiga)</caption>
 			</image>
-		</game>
-		<game>
-			<name>Indiana Jones and the Fate of Atlantis</name>
-			<category>atlantis</category>
+      <image>
+				<file>lec/comi/scummvm_0_11_#n#</file>
+				<range from="0" to="2" format="%d" />
+				<caption>The Curse of Monkey Island</caption>
+			</image>
 			<image>
-				<file>lec/atlantis/scummvm_0_3_#n#</file>
+				<file>lec/comi/comi-#n#</file>
+				<range from="3" to="5" format="%d" />
+				<caption>The Curse of Monkey Island</caption>
+			</image>
+			<image>
+				<file>lec/comi/comi-zh-#n#</file>
 				<range from="0" to="1" format="%d" />
-				<caption>Indiana Jones and the Fate of Atlantis</caption>
+				<caption>The Curse of Monkey Island (Chinese (Taiwan))</caption>
 			</image>
 			<image>
-				<file>lec/atlantis/scummvm_0_3_2</file>
-				<caption>Indiana Jones and the Fate of Atlantis (Amiga)</caption>
-			</image>
-		</game>
-		<game>
-			<name>Day of the Tentacle</name>
-			<category>tentacle</category>
-			<image>
-				<file>lec/tentacle/scummvm_0_8_#n#</file>
-				<range from="0" to="1" format="%d" />
-				<caption>Day of the Tentacle</caption>
-			</image>
-			<image>
-				<file>lec/tentacle/scummvm_0_8_2</file>
-				<caption>Day of the Tentacle (French)</caption>
-			</image>
-			<image>
-				<file>lec/tentacle/tentacle-de-#n#</file>
-				<range from="1" to="3" format="%d" />
-				<caption>Day of the Tentacle (German)</caption>
+				<file>lec/comi/comi-de-#n#</file>
+				<range from="1" to="2" format="%d" />
+				<caption>The Curse of Monkey Island (German)</caption>
 			</image>
 		</game>
 		<game>
@@ -252,30 +260,6 @@
 				<caption>The Dig</caption>
 			</image>
 		</game>
-		<game>
-			<name>The Curse of Monkey Island</name>
-			<category>comi</category>
-			<image>
-				<file>lec/comi/scummvm_0_11_#n#</file>
-				<range from="0" to="2" format="%d" />
-				<caption>The Curse of Monkey Island</caption>
-			</image>
-			<image>
-				<file>lec/comi/comi-#n#</file>
-				<range from="3" to="5" format="%d" />
-				<caption>The Curse of Monkey Island</caption>
-			</image>
-			<image>
-				<file>lec/comi/comi-zh-#n#</file>
-				<range from="0" to="1" format="%d" />
-				<caption>The Curse of Monkey Island (Chinese (Taiwan))</caption>
-			</image>
-			<image>
-				<file>lec/comi/comi-de-#n#</file>
-				<range from="1" to="2" format="%d" />
-				<caption>The Curse of Monkey Island (German)</caption>
-			</image>
-		</game>
 	</group>
 	<group>
 		<title>Activision Adventure games</title>
@@ -304,8 +288,8 @@
 			</image>
 		</game>
 		<game>
-			<name>Return to Zork</name>
-			<category>rtz</category>
+			<name>Zork (Series)</name>
+			<category>zork</category>
 			<image>
 				<file>made/rtz-#n#</file>
 				<range from="0" to="5" format="%d" />
@@ -315,6 +299,16 @@
 				<file>made/rtz-de-#n#</file>
 				<range from="0" to="1" format="%d" />
 				<caption>Return to Zork (German)</caption>
+			</image>
+      <image>
+				<file>other/zvision/znemesis-de-#n#</file>
+				<range from="1" to="14" format="%02d" />
+				<caption>Zork Nemesis: The Forbidden Lands (DOS/German)</caption>
+			</image>
+			<image>
+				<file>other/zvision/zgi-win-de-#n#</file>
+				<range from="1" to="12" format="%02d" />
+				<caption>Zork: Grand Inquisitor (CD/Windows/German)</caption>
 			</image>
 		</game>
 		<game>
@@ -331,7 +325,7 @@
 		<title>Adventuresoft/Horrorsoft games</title>
 		<category>agos</category>
 		<game>
-			<name>Simon the Sorcerer series</name>
+			<name>Simon the Sorcerer (Series)</name>
 			<category>simon</category>
 			<image>
 				<file>agos/simon/scummvm_2_4_#n#</file>
@@ -378,7 +372,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Elvira series</name>
+			<name>Elvira (Series)</name>
 			<category>elvira</category>
 			<image>
 				<file>agos/elvira/elvira-#n#</file>
@@ -519,7 +513,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Gobliiins series</name>
+			<name>Gobliiins (Series)</name>
 			<category>gob</category>
 			<image>
 				<file>gob/gob/scummvm_2_1_#n#</file>
@@ -677,7 +671,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Broken Sword: The Shadow of the Templars</name>
+			<name>Broken Sword (Series)</name>
 			<category>sword</category>
 			<image>
 				<file>revolution/sword/scummvm_2_0_#n#</file>
@@ -689,11 +683,7 @@
 				<range from="1" to="3" format="%d" />
 				<caption>Broken Sword: The Shadow of the Templars (Windows German)</caption>
 			</image>
-		</game>
-		<game>
-			<name>Broken Sword II: The Smoking Mirror</name>
-			<category>sword2</category>
-			<image>
+      <image>
 				<file>revolution/sword/scummvm_2_0_#n#</file>
 				<range from="2" to="3" format="%d" />
 				<caption>Broken Sword II: The Smoking Mirror</caption>
@@ -708,16 +698,8 @@
 				<range from="1" to="2" format="%d" />
 				<caption>Broken Sword II: The Smoking Mirror (Windows Polish)</caption>
 			</image>
-		</game>
-		<game>
-			<name>Broken Sword 2.5: The Return of the Templars (fan-made)</name>
-			<category>sword25</category>
-			<image>
-				<file>revolution/sword25/sword25-de-#n#</file>
-				<range from="1" to="15" format="%02d" />
-				<caption>Broken Sword 2.5: The Return of the Templars (German)</caption>
-			</image>
-		</game>
+		</game>	
+	
 		<game>
 			<name>Lure of the Temptress</name>
 			<category>lure</category>
@@ -755,7 +737,7 @@
 			</image>
 		</game>
 		<game>
-			<name>King's Quest series</name>
+			<name>King's Quest (Series)</name>
 			<category>kq</category>
 			<image>
 				<file>agi/kq/scummvm_3_3_#n#</file>
@@ -784,7 +766,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Leisure Suit Larry</name>
+			<name>Leisure Suit Larry in the Land of the Lounge Lizards</name>
 			<category>lsl</category>
 			<image>
 				<file>agi/lsl/lsl1-#n#</file>
@@ -803,7 +785,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Manhunter series</name>
+			<name>Manhunter (Series)</name>
 			<category>mh</category>
 			<image>
 				<file>agi/mh/scummvm_3_5_#n#</file>
@@ -826,7 +808,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Police Quest</name>
+			<name>Police Quest: In Pursuit of the Death Angel</name>
 			<category>pq</category>
 			<image>
 				<file>agi/pq/scummvm_3_7_#n#</file>
@@ -840,7 +822,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Space Quest series</name>
+			<name>Space Quest (Series)</name>
 			<category>sq</category>
 			<image>
 				<file>agi/sq/scummvm_3_8_#n#</file>
@@ -854,37 +836,8 @@
 			</image>
 		</game>
 		<game>
-			<name>Fanmade games</name>
-			<category>fan</category>
-			<image>
-				<file>agi/fanmade/enclosure-#n#</file>
-				<range from="0" to="3" format="%d" />
-				<caption>Enclosure 1 (v1.03)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/scummvm_3_9_#n#</file>
-				<range from="0" to="2" format="%d" />
-				<caption>Serguei's Destiny 1 (v1.1 2003 Apr 10/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/scummvm_3_9_#n#</file>
-				<range from="3" to="7" format="%d" />
-				<caption>Space Quest 0: Replicated (v1.04/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/scummvm_3_9_#n#</file>
-				<range from="8" to="13" format="%d" />
-				<caption>Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)</caption>
-			</image>
-			<image>
-				<file>agi/fanmade/scummvm_3_9_#n#</file>
-				<range from="14" to="15" format="%d" />
-				<caption>Voodoo Girl - Queen of the Darned (v1.2 2002 Jan 1/DOS/English)</caption>
-			</image>
-		</game>
-		<game>
-			<name>Mickey's Space Adventure</name>
-			<category>mickey</category>
+			<name>Disney Games (Series)</name>
+			<category>disney</category>
 			<image>
 				<file>agi/preagi/mickey-#n#</file>
 				<range from="1" to="2" format="%d" />
@@ -895,6 +848,11 @@
 				<range from="1" to="2" format="%d" />
 				<caption>Mickey's Space Adventure (DOS CGA)</caption>
 			</image>
+      <image>
+				<file>agi/preagi/winnie-#n#</file>
+				<range from="1" to="6" format="%d" />
+				<caption>Winnie the Pooh in the Hundred Acre Wood (DOS)</caption>
+			</image>
 		</game>
 		<game>
 			<name>Troll's Tale</name>
@@ -904,33 +862,20 @@
 				<range from="1" to="3" format="%d" />
 				<caption>Troll's Tale (DOS)</caption>
 			</image>
-		</game>
-		<game>
-			<name>Winnie the Pooh in the Hundred Acre Wood</name>
-			<category>winnie</category>
-			<image>
-				<file>agi/preagi/winnie-#n#</file>
-				<range from="1" to="6" format="%d" />
-				<caption>Winnie the Pooh in the Hundred Acre Wood (DOS)</caption>
-			</image>
-		</game>
+		</game>		
 	</group>
 	<group>
 		<title>Sierra SCI games</title>
 		<category>sci</category>
 		<game>
-			<name>Conquests of Camelot</name>
-			<category>camelot</category>
+			<name>Conquests (Series)</name>
+			<category>conquests</category>
 			<image>
 				<file>sci/camelot/camelot-#n#</file>
 				<range from="1" to="7" format="%d" />
 				<caption>Conquests of Camelot (DOS)</caption>
 			</image>
-		</game>
-		<game>
-			<name>Conquests of the Longbow</name>
-			<category>longbow</category>
-			<image>
+      <image>
 				<file>sci/longbow/longbow-vga-#n#</file>
 				<range from="1" to="6" format="%d" />
 				<caption>Conquests of the Longbow (VGA/English)</caption>
@@ -945,9 +890,9 @@
 				<range from="1" to="6" format="%d" />
 				<caption>Conquests of the Longbow (EGA/English)</caption>
 			</image>
-		</game>
+		</game>	
 		<game>
-			<name>Dr. Brain series</name>
+			<name>Dr. Brain (Series)</name>
 			<category>castlebrain</category>
 			<image>
 				<file>sci/drbrain/castlebrain-ega-#n#</file>
@@ -980,7 +925,7 @@
 			</image>
 		</game>
 		<game>
-			<name>EcoQuest Series</name>
+			<name>EcoQuest (Series)</name>
 			<category>ecoquest</category>
 			<image>
 				<file>sci/ecoquest/ecoquest-#n#</file>
@@ -1023,7 +968,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Hoyle's Official Book of Games series</name>
+			<name>Hoyle's Official Book of Games (Series)</name>
 			<category>hoyle</category>
 			<image>
 				<file>sci/hoyle/hoyle1-#n#</file>
@@ -1071,7 +1016,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Laura Bow Series</name>
+			<name>Laura Bow (Series)</name>
 			<category>laurabow</category>
 			<image>
 				<file>sci/laurabow/laurabow-#n#</file>
@@ -1090,7 +1035,7 @@
 			</image>
 		</game>
 		<game>
-			<name>King's Quest series</name>
+			<name>King's Quest (Series)</name>
 			<category>kq-sci</category>
 			<image>
 				<file>sci/kq/kq1sci-#n#</file>
@@ -1134,7 +1079,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Leisure Suit Larry series</name>
+			<name>Leisure Suit Larry (Series)</name>
 			<category>lsl-sci</category>
 			<image>
 				<file>sci/lsl/lsl1sci-#n#</file>
@@ -1230,7 +1175,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Police Quest series</name>
+			<name>Police Quest (Series)</name>
 			<category>pq-sci</category>
 			<image>
 				<file>sci/pq/pq1sci-#n#</file>
@@ -1264,7 +1209,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Quest For Glory series</name>
+			<name>Quest For Glory (Series)</name>
 			<category>qfg-sci</category>
 			<image>
 				<file>sci/qfg/qfg1-ega-#n#</file>
@@ -1297,7 +1242,7 @@
 			</image>
 		</game>			
 		<game>
-			<name>Roberta Williams' Mixed-Up Series</name>
+			<name>Roberta Williams' Mixed-Up (Series)</name>
 			<category>mixedup</category>
 			<image>
 				<file>sci/mixedup/mothergoose-#n#</file>
@@ -1320,7 +1265,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Space Quest series</name>
+			<name>Space Quest (Series)</name>
 			<category>sq-sci</category>
 			<image>
 				<file>sci/sq/sq1sci-ega-#n#</file>
@@ -1373,7 +1318,7 @@
 		<title>Westwood games</title>
 		<category>westwood</category>
 		<game>
-			<name>Eye of the Beholder series</name>
+			<name>Eye of the Beholder (Series)</name>
 			<category>eob</category>
 			<image>
 				<file>westwood/eob/eob-#n#</file>
@@ -1396,7 +1341,7 @@
 			</image>
 		</game>
 		<game>
-			<name>The Legend of Kyrandia series</name>
+			<name>The Legend of Kyrandia (Series)</name>
 			<category>kyra</category>
 			<image>
 				<file>westwood/kyra/kyra1-#n#</file>
@@ -1512,6 +1457,44 @@
 	<group>
 		<title>Other games</title>
 		<category>other</category>
+    <game>
+			<name>Fanmade AGI games</name>
+			<category>fan</category>
+			<image>
+				<file>agi/fanmade/enclosure-#n#</file>
+				<range from="0" to="3" format="%d" />
+				<caption>Enclosure 1 (v1.03)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_#n#</file>
+				<range from="0" to="2" format="%d" />
+				<caption>Serguei's Destiny 1 (v1.1 2003 Apr 10/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_#n#</file>
+				<range from="3" to="7" format="%d" />
+				<caption>Space Quest 0: Replicated (v1.04/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_#n#</file>
+				<range from="8" to="13" format="%d" />
+				<caption>Space Quest X: The Lost Chapter (v10.0 Jul 18/DOS/English)</caption>
+			</image>
+			<image>
+				<file>agi/fanmade/scummvm_3_9_#n#</file>
+				<range from="14" to="15" format="%d" />
+				<caption>Voodoo Girl - Queen of the Darned (v1.2 2002 Jan 1/DOS/English)</caption>
+			</image>
+		</game>
+    <game>
+			<name>Broken Sword 2.5: The Return of the Templars (fan-made)</name>
+			<category>sword25</category>
+			<image>
+				<file>revolution/sword25/sword25-de-#n#</file>
+				<range from="1" to="15" format="%02d" />
+				<caption>Broken Sword 2.5: The Return of the Templars (German)</caption>
+			</image>
+		</game>
 		<game>
 			<name>3 Skulls of the Toltecs</name>
 			<category>toltecs</category>
@@ -1582,7 +1565,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Discworld series</name>
+			<name>Discworld (Series)</name>
 			<category>dw</category>
 			<image>
 				<file>tinsel/dw1-#n#</file>
@@ -1747,7 +1730,7 @@
 		</game>
 		<game>
 			<name>I Have no Mouth and I Must Scream</name>
-			<category>ihnm-alt</category>
+			<category>ihnm</category>
 			<image>
 				<file>other/ihnm/ihnm-#n#</file>
 				<range from="1" to="6" format="%d" />
@@ -1789,15 +1772,7 @@
 				<caption>Mortville Manor (DOS/German)</caption>
 			</image>
 		</game>
-		<game>
-			<name>Myst</name>
-			<category>myst</category>
-			<image>
-				<file>other/myst/myst-win-de-#n#</file>
-				<range from="1" to="21" format="%02d" />
-				<caption>Myst (Masterpiece Edition/Windows/German)</caption>
-			</image>
-		</game>
+		
 		<game>
 			<name>Nippon Safes Inc.</name>
 			<category>nippon</category>
@@ -1831,7 +1806,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Ringworld series</name>
+			<name>Ringworld (Series)</name>
 			<category>ringworld</category>
 			<image>
 				<file>other/ringworld/ringworld1-#n#</file>
@@ -1848,18 +1823,9 @@
 				<range from="1" to="5" format="%d" />
 				<caption>Return to Ringworld</caption>
 			</image>
-		</game>
+		</game>    
 		<game>
-			<name>Riven</name>
-			<category>riven</category>
-			<image>
-				<file>other/riven/riven-win-en-#n#</file>
-				<range from="1" to="12" format="%02d" />
-				<caption>Riven (DVD/Windows/English)</caption>
-			</image>
-		</game>
-		<game>
-			<name>Sherlock Holmes series</name>
+			<name>Sherlock Holmes (Series)</name>
 			<category>sherlock</category>
 			<image>
 				<file>other/sherlock/scalpel-de-#n#</file>
@@ -1964,23 +1930,9 @@
 				<caption>Touch&eacute;: The Adventures of the Fifth Musketeer (French)</caption>
 			</image>
 		</game>
-		<game>
-			<name>Zork Series by Activision</name>
-			<category>zgi</category>
-			<image>
-				<file>other/zvision/znemesis-de-#n#</file>
-				<range from="1" to="14" format="%02d" />
-				<caption>Zork Nemesis: The Forbidden Lands (DOS/German)</caption>
-			</image>
-			<image>
-				<file>other/zvision/zgi-win-de-#n#</file>
-				<range from="1" to="12" format="%02d" />
-				<caption>Zork: Grand Inquisitor (CD/Windows/German)</caption>
-			</image>
-		</game>
 	</group>
 	<group>
-		<title>Animation Magic series</title>
+		<title>Animation Magic games</title>
 		<category>composer</category>
 		<game>
 			<name>Darby the Dragon</name>
@@ -2001,66 +1953,60 @@
 			</image>
 		</game>
 		<game>
-			<name>Magic Tales: Baba Yaga and the Magic Geese</name>
-			<category>babayaga</category>
+			<name>Magic Tales (Series)</name>
+			<category>magictales</category>
 			<image>
 				<file>gob/babayaga/babayaga-win-#n#</file>
 				<range from="1" to="14" format="%d" />
 				<caption>Magic Tales: Baba Yaga and the Magic Geese (Windows/English)</caption>
 			</image>
-		</game>
-		<game>
-			<name>Magic Tales: Imo and the King</name>
-			<category>imoking</category>
-			<image>
+      <image>
 				<file>composer/imoking/imoking-win-#n#</file>
 				<range from="1" to="15" format="%d" />
 				<caption>Magic Tales: Imo and the King</caption>
 			</image>
-		</game>
-		<game>
-			<name>Magic Tales: Liam Finds a Story</name>
-			<category>liam</category>
-			<image>
+      	<image>
 				<file>composer/liam/liam-win-#n#</file>
 				<range from="1" to="15" format="%d" />
 				<caption>Magic Tales: Liam Finds a Story</caption>
 			</image>
-		</game>
-		<game>
-			<name>Magic Tales: The Little Samurai</name>
-			<category>littlesamurai</category>
-			<image>
+      	<image>
 				<file>composer/littlesamurai/littlesamurai-win-#n#</file>
 				<range from="1" to="14" format="%d" />
 				<caption>Magic Tales: The Little Samurai</caption>
 			</image>
-		</game>
-		<game>
-			<name>Magic Tales: The Princess and the Crab</name>
-			<category>princess</category>
-			<image>
+      <image>
 				<file>composer/princess/princess-win-#n#</file>
 				<range from="1" to="14" format="%d" />
 				<caption>Magic Tales: The Princess and the Crab</caption>
 			</image>
-		</game>
-		<game>
-			<name>Magic Tales: Sleeping Cub's Test of Courage</name>
-			<category>sleepingcub</category>
-			<image>
+      <image>
 				<file>composer/sleepingcub/sleepingcub-win-#n#</file>
 				<range from="1" to="14" format="%d" />
 				<caption>Magic Tales: Sleeping Cub's Test of Courage</caption>
 			</image>
 		</game>
-	</group>
+	</group>  
 	<group>
-		<title>Living Books series</title>
-		<category>livingbooks</category>
+		<title>Broderbund games</title>
+		<category>broderbund</category>
+    <game>
+			<name>Myst (Series)</name>
+			<category>myst</category>
+			<image>
+				<file>other/myst/myst-win-de-#n#</file>
+				<range from="1" to="21" format="%02d" />
+				<caption>Myst (Masterpiece Edition/Windows/German)</caption>
+			</image>
+			<image>
+				<file>other/riven/riven-win-en-#n#</file>
+				<range from="1" to="12" format="%02d" />
+				<caption>Riven (DVD/Windows/English)</caption>
+			</image>
+		</game>
 		<game>
-			<name>Aesop's Fables: The Tortoise and the Hare</name>
-			<category>tortoise</category>
+			<name>Living Books (Series)</name>
+			<category>livingbooks</category>
 			<image>
 				<file>livingbooks/tortoise/tortoise-#n#</file>
 				<range from="1" to="6" format="%d" />
@@ -2071,11 +2017,7 @@
 				<range from="1" to="2" format="%d" />
 				<caption>Aesop's Fables: The Tortoise and the Hare (Spanish)</caption>
 			</image>
-		</game>
-		<game>
-			<name>Arthur series</name>
-			<category>arthur</category>
-			<image>
+      <image>
 				<file>livingbooks/arthur/arthur-#n#</file>
 				<range from="1" to="7" format="%d" />
 				<caption>Arthur's Teacher Trouble</caption>
@@ -2085,11 +2027,7 @@
 				<range from="1" to="3" format="%d" />
 				<caption>Arthur's Teacher Trouble (Spanish)</caption>
 			</image>
-		</game>
-		<game>
-			<name>The Berenstain Bears Get in a Fight</name>
-			<category>bearfight</category>
-			<image>
+      <image>
 				<file>livingbooks/bearfight/bearfight-win-#n#</file>
 				<range from="1" to="3" format="%d" />
 				<caption>The Berenstain Bears Get in a Fight</caption>
@@ -2099,38 +2037,22 @@
 				<range from="1" to="2" format="%d" />
 				<caption>The Berenstain Bears Get in a Fight (Spanish)</caption>
 			</image>
-		</game>
-		<game>
-			<name>The Berenstain Bears in the Dark</name>
-			<category>beardark</category>
-			<image>
+      <image>
 				<file>livingbooks/beardark/beardark-win-#n#</file>
 				<range from="0" to="5" format="%d" />
 				<caption>The Berenstain Bears in the Dark</caption>
 			</image>
-		</game>
-		<game>
-			<name>Dr Seuss's ABC</name>
-			<category>seussabc</category>
-			<image>
+      <image>
 				<file>livingbooks/seussabc/seussabc-win-#n#</file>
 				<range from="1" to="6" format="%d" />
 				<caption>Dr Seuss's ABC</caption>
 			</image>
-		</game>
-		<game>
-			<name>Green Eggs and Ham</name>
-			<category>greeneggs</category>
-			<image>
+      <image>
 				<file>livingbooks/greeneggs/greeneggs-win-#n#</file>
 				<range from="1" to="8" format="%d" />
 				<caption>Green Eggs and Ham</caption>
 			</image>
-		</game>
-		<game>
-			<name>Harry and the Haunted House</name>
-			<category>harryhh</category>
-			<image>
+      <image>
 				<file>livingbooks/harryhh/harryhh-#n#</file>
 				<range from="1" to="3" format="%d" />
 				<caption>Harry and the Haunted House</caption>
@@ -2140,11 +2062,7 @@
 				<range from="1" to="3" format="%d" />
 				<caption>Harry and the Haunted House (Spanish)</caption>
 			</image>
-		</game>
-		<game>
-			<name>Just Grandma and Me</name>
-			<category>grandma</category>
-			<image>
+      <image>
 				<file>livingbooks/grandma/grandma-win-#n#</file>
 				<range from="1" to="4" format="%d" />
 				<caption>Just Grandma and Me</caption>
@@ -2159,11 +2077,7 @@
 				<range from="1" to="2" format="%d" />
 				<caption>Just Grandma and Me (Spanish)</caption>
 			</image>
-		</game>
-		<game>
-			<name>Little Monster at School</name>
-			<category>lilmonster</category>
-			<image>
+      <image>
 				<file>livingbooks/lilmonster/lilmonster-win-#n#</file>
 				<range from="1" to="5" format="%d" />
 				<caption>Little Monster at School</caption>
@@ -2173,20 +2087,12 @@
 				<range from="1" to="2" format="%d" />
 				<caption>Little Monster at School (Spanish)</caption>
 			</image>
-		</game>
-		<game>
-			<name>The New Kid on the Block</name>
-			<category>newkid</category>
-			<image>
+      <image>
 				<file>livingbooks/newkid/newkid-win-#n#</file>
 				<range from="1" to="10" format="%d" />
 				<caption>The New Kid on the Block</caption>
 			</image>
-		</game>
-		<game>
-			<name>Ruff's Bone</name>
-			<category>ruff</category>
-			<image>
+      <image>
 				<file>livingbooks/ruff/ruff-win-#n#</file>
 				<range from="1" to="7" format="%d" />
 				<caption>Ruff's Bone</caption>
@@ -2196,11 +2102,7 @@
 				<range from="8" to="10" format="%d" />
 				<caption>Ruff's Bone (Spanish)</caption>
 			</image>
-		</game>
-		<game>
-			<name>Sheila Rae, the Brave</name>
-			<category>sheilarae</category>
-			<image>
+      <image>
 				<file>livingbooks/sheilarae/sheila-win-#n#</file>
 				<range from="1" to="7" format="%d" />
 				<caption>Sheila Rae, the Brave</caption>
@@ -2210,11 +2112,7 @@
 				<range from="8" to="10" format="%d" />
 				<caption>Sheila Rae, the Brave (Spanish)</caption>
 			</image>
-		</game>
-		<game>
-			<name>Stellaluna</name>
-			<category>stellaluna</category>
-			<image>
+      <image>
 				<file>livingbooks/stellaluna/stellaluna-win-#n#</file>
 				<range from="0" to="14" format="%d" />
 				<caption>Stellaluna</caption>
@@ -2225,7 +2123,7 @@
 		<title>Humongous Entertainment games</title>
 		<category>he</category>
 		<game>
-			<name>Big Thinkers series</name>
+			<name>Big Thinkers (Series)</name>
 			<category>thinkers</category>
 			<image>
 				<file>he/thinkers/scummvm_1_0_#n#</file>
@@ -2234,7 +2132,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Blue's Clues series</name>
+			<name>Blue's Clues (Series)</name>
 			<category>blues</category>
 			<image>
 				<file>he/blues/blues123time-#n#</file>
@@ -2253,7 +2151,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Fatty Bear series</name>
+			<name>Fatty Bear (Series)</name>
 			<category>fbear</category>
 			<image>
 				<file>he/fbear/scummvm_1_4_#n#</file>
@@ -2272,7 +2170,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Freddi Fish series</name>
+			<name>Freddi Fish (Series)</name>
 			<category>ffish</category>
 			<image>
 				<file>he/ffish/scummvm_1_6_#n#</file>
@@ -2321,7 +2219,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Junior Field Trips series</name>
+			<name>Junior Field Trips (Series)</name>
 			<category>field</category>
 			<image>
 				<file>he/field/scummvm_1_1_#n#</file>
@@ -2330,7 +2228,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Junior Sports series</name>
+			<name>Junior Sports (Series)</name>
 			<category>sports</category>
 			<image>
 				<file>he/sports/baseball2003-#n#</file>
@@ -2344,7 +2242,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Pajama Sam series</name>
+			<name>Pajama Sam (Series)</name>
 			<category>pajama</category>
 			<image>
 				<file>he/pajama/scummvm_1_7_#n#</file>
@@ -2383,7 +2281,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Putt-Putt series</name>
+			<name>Putt-Putt (Series)</name>
 			<category>puttputt</category>
 			<image>
 				<file>he/puttputt/scummvm_1_8_#n#</file>
@@ -2467,7 +2365,7 @@
 			</image>
 		</game>
 		<game>
-			<name>Spy Fox series</name>
+			<name>Spy Fox (Series)</name>
 			<category>spyfox</category>
 			<image>
 				<file>he/spyfox/scummvm_1_3_#n#</file>

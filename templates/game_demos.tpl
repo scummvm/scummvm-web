@@ -33,8 +33,7 @@
 			<tbody>
 			{foreach from=$group.demos item=demo}
 				<tr class="{cycle values="color2, color0"}">
-					<td>
-						<img src="/images/cat-{$demo->getCategory()}.png" class="downloadImage" alt="">
+					<td>						
 						<a href="{$demo->getURL()}">{$demo->getName()}</a>
 					</td>
 					<td class="gameTarget">{$demo->getTarget()}</td>

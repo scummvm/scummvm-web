@@ -1,5 +1,5 @@
 nav {
-  width: 145px;
+  width: $nav-width;
   position: relative;
   z-index: 0;
   font-size: 0.9em;
@@ -15,7 +15,7 @@ nav {
       bottom: -3px;
       left: 4px;
       right: 10px;
-      width: 131px;
+      width: $nav-width - 14px;
       background-color: rgb(228, 186, 155);
       height: 6px;
       z-index: -1;
@@ -28,9 +28,9 @@ nav {
   a {
     background: url('/images/bullet2.svg');
     background-size: contain;
-    background-position: 4px 2px;
+    background-position: 1px 2px;
     background-repeat: no-repeat;
-    padding-left: 25px;
+    padding-left: 28px;
     color: rgb(255, 255, 255);
     text-decoration: none;
   }
