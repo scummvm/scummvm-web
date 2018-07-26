@@ -34,7 +34,7 @@
 					{eval var=$dsubsection->getNotes()}
 				{/if}
 
-				{include file='list_items.tpl' list=$dsubsection->getItems() type='games'}
+				{include file='components/list_items.tpl' list=$dsubsection->getItems() type='games'}
 				{if !is_null($dsubsection->getFooter())}
 					<p>{$dsubsection->getFooter()}</p>
 				{/if}

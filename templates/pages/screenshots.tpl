@@ -33,7 +33,7 @@
 			<a href="/screenshots/{$arr.category}/">{$arr.title}</a>
 		</div>
 		<div class="scr-content scr-content-{$arr.category}">
-      {include file='list_items.tpl' list=$arr.games type='games'}
+      {include file='components/list_items.tpl' list=$arr.games type='games'}
 		</div>
 		{/foreach}
 	</div>

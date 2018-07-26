@@ -10,10 +10,10 @@
 
 	<div class="content">
 		{foreach from=$subprojects item=project}
-		{include file='subhead.tpl' subhead=$project->getName()}
+		{include file='components/subhead.tpl' subhead=$project->getName()}
 		<div class="subhead-content">
 			{$project->getInfo()}
-			{include file='list_items.tpl' list=$project->getDownloads() type='platforms'}
+			{include file='components/list_items.tpl' list=$project->getDownloads() type='platforms'}
 		</div>
 		{/foreach}
 	</div>

@@ -43,7 +43,7 @@
                 <div class="content">
 					{* Introduction text and screenshot viewer. *}
 					{if isset($show_intro) && $show_intro}
-						{include file='intro_header.tpl'}
+						{include file='components/intro_header.tpl'}
 					{/if}
 
 					{* The actual content. *}
