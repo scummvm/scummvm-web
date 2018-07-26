@@ -53,7 +53,7 @@
 	{/if}
 
 		<div class="subhead-content">
-			{if $dsubsection->getNotes() != ''} {eval var=$dsubsection->getNotes()} {/if} {include file='list_items.tpl' list=$dsubsection->getItems() type='platforms'}
+			{if $dsubsection->getNotes() != ''} {eval var=$dsubsection->getNotes()} {/if} {include file='components/list_items.tpl' list=$dsubsection->getItems() type='platforms'}
 			{if !is_null($dsubsection->getFooter())}
 			<p>{$dsubsection->getFooter()}</p>
 			{/if}

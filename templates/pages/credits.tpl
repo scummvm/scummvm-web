@@ -7,7 +7,7 @@
 				<div class="subhead">{$subcsection->getTitle()}</div>
 				<div class="subhead-content">
 					{include
-						file='credits_entry.tpl'
+						file='components/credits_entry.tpl'
 						groups=$subcsection->getGroups()
 						paragraphs=$subcsection->getParagraphs()
 					}
@@ -15,12 +15,12 @@
 			{/foreach}
 			{* If the section itself has paragraphs, we must process them here. *}
 			{include
-				file='credits_entry.tpl'
+				file='components/credits_entry.tpl'
 				paragraphs=$csection->getParagraphs()
 			}
 		{else}
 			{include
-				file='credits_entry.tpl'
+				file='components/credits_entry.tpl'
 				groups=$csection->getGroups()
 				paragraphs=$csection->getParagraphs()
 			}

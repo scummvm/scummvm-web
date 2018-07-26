@@ -133,7 +133,7 @@ class Controller {
 			'content' => $content,
 		);
 		$this->_smarty->assign($vars);
-		return $this->_smarty->display('index.tpl');
+		return $this->_smarty->display('pages/index.tpl');
 	}
 
 	/* Render the HTML using the template and any set variables and returns it. */
