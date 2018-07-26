@@ -8,7 +8,7 @@ class PressSnowberryPage extends Controller {
 	/* Constructor. */
 	public function __construct() {
 		parent::__construct();
-		$this->_template = 'press_snowberry.tpl';
+		$this->_template = 'pages/press_snowberry.tpl';
 	}
 
 	/* Display the index page. */
