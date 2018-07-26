@@ -30,3 +30,11 @@ composer install 2>&1
 # Run npm install
 echo "$ npm install"
 npm install
+
+# Set up smarty 3
+if [ -d "vendor/smarty/smarty/libs" ] && [ ! -d "vendor/smarty/smarty/libs/template_c" ]; then
+  echo "$ mkdir vendor/smarty/smarty/libs/template_c"
+  mkdir vendor/smarty/smarty/libs/template_c
+  echo "$ chmod +w vendor/smarty/smarty/libs/template_c"
+  chmod +w vendor/smarty/smarty/libs/template_c
+fi
