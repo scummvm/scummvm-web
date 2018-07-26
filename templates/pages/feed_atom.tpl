@@ -18,10 +18,11 @@
 		{assign var='timezone_offset' value=$n->getDate()|date_f:'Z'}
 		{assign var='updated' value=$n->getDate()-$timezone_offset}
 		{assign var='news_filename' value=$n->getFilename()|substr:'0':'-4'}
+    {assign var='link' value=$n->getLink()}
 
 		<entry xml:lang="en">
 			<id>{$baseurl}news/archive/#{$n->getDate()|date_f:'Y-m-d'}{if $news_filename|strlen == 9}{$news_filename|substr:'-1'}{/if}</id>
-			<link rel="alternate" href="{$news->getLink()}" />
+			<link rel="alternate" href="{$link}" />
 			<updated>{$updated|date_f:'Y-m-d\Th:i:s\Z'}</updated>
 			<published>{$updated|date_f:'Y-m-d\Th:i:s\Z'}</published>
 			<title type="html">{$n->getTitle()}</title>
