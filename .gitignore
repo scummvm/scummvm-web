@@ -1,16 +1,22 @@
-/include/smarty/template_c
-/vendor
-/templates_c
+# Platform specific files
 .DS_Store
+
+# Node
+/node_modules
+
+# Composer
+/vendor
+
+# CSS / SCSS
 /css
 .sass-cache/
 *.css.map
 *.sass.map
 *.scss.map
-/vendor
 /scss/sprites
+
+# Generated images
 /images/platforms.png
 /images/games.png
 /images/platforms@2x.png
 /images/games@2x.png
-/node_modules
