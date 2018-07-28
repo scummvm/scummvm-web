@@ -8,10 +8,10 @@
 <div id="intro_header">
 	{* Introduction text. *}
 	<div class="round-box">
-		<div class="round-box-header">
+		<div class="header">
 			{#introHeaderWhatIs#}
 		</div>
-		<div class="round-box-content text row">
+		<div class="content text row">
 			<div class="col-2-3 col-md-1">
 				<p>{#introHeaderContentP1#}</p>
 				<p>{#introHeaderContentP2#}</p>
@@ -27,7 +27,7 @@
 			</div>
 			<div class="col-1-3 col-md-1">
 			<div class="round-box">
-				<div class="round-box-content gallery bg-yellow">
+				<div class="content gallery">
 					<a href="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}-full.png" title="{$rand_file.caption}">
 						<img class="random-screenshot" src="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}-full.png" alt="{$rand_file.caption}">
 					</a>
@@ -41,10 +41,10 @@
 	{* Screenshots.
 	<div class="sshots">
 		<div class="round-box">
-			<div class="round-box-header">
+			<div class="header">
 				{#introHeaderScreenshots#}
 			</div>
-			<div class="round-box-content">
+			<div class="content">
 				<a href="/screenshots/{$random_shot.category}/{$random_shot.screenshot->getCategory()}/{$rand_pos+1}" id="screenshots_random">
 					<img src="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}.jpg" width="128" height="96" title="{#introHeaderFullsize#}" alt="{#introHeaderRandom#}">
 				</a>

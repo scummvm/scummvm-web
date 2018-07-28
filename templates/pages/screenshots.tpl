@@ -9,7 +9,7 @@
 	<div class="head">{#screenshotsHeading#}</div>
 	<div class="intro row">
 		<div class="navigation col-1-2">
-			<h4>{#screenshotsNavigation#}</h4>
+			<h4 class="subhead">{#screenshotsNavigation#}</h4>
 			<ul>
 			{foreach from=$screenshots item=arr}
 				<li><a href="/screenshots/#{$arr.category}">{eval var=$arr.title}</a></li>
@@ -18,7 +18,7 @@
 		</div>
 		<div class="text col-1-2">
 			<div class="round-box">
-				<div class="round-box-content gallery bg-yellow">
+				<div class="content gallery">
 					<a href="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}-full.png" title="{$rand_file.caption}">
 						<img class="random-screenshot" src="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}-full.png" alt="{$rand_file.caption}">
 					</a>

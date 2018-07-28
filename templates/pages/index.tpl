@@ -48,10 +48,10 @@
 
 					{* The actual content. *}
 					<div class="round-box">
-						<div class="round-box-header">
+						<div class="header">
 							{$content_title}
 						</div>
-						<div class="round-box-content">
+						<div class="content">
 							{$content}
 						</div>
 

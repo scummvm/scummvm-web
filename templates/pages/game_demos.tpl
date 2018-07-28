@@ -4,7 +4,7 @@
 <div class="box">
 	<div class="intro row">
 		<div class="navigation col-1-2">
-			<h4>{#gamesDemosHeading#}</h4>
+			<h4 class="subhead">{#gamesDemosHeading#}</h4>
 			<ul>
 			{foreach from=$demos item=group}
 				<li><a href="/demos/#{$group.href}">{$group.name}</a></li>

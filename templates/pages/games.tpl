@@ -5,7 +5,7 @@
 		{if $smarty.foreach.downloads_loop.first}
 		<div class="intro row">
 			<div class="navigation col-1-2">
-				<h4>{#gamesHeader#}</h4>
+				<h4 class="subhead">{#gamesHeader#}</h4>
 				<ul>
 				{foreach from=$sections item=arr}
 					<li><a href="/games/#{$arr.anchor}">{eval var=$arr.title}</a></li>

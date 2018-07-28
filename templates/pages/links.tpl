@@ -8,7 +8,7 @@
 	</div>
 	<div class="content">
 		{foreach from=$links item=group}
-		{include file='components/subhead.tpl' subhead=$group.name}
+		<div class="subhead">{$group.name}</div>
 		<div class="subhead-content">
 			<p>{$group.description}</p>
 			<div class="linklist">
