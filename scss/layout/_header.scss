@@ -22,7 +22,7 @@
   height: auto;
   position: absolute;
   bottom: 0;
-  filter: drop-shadow(1px 1px 2px #0c0c0c);
+  filter: drop-shadow(1px 1px 2px $black);
 }
 
 .maniac {
@@ -34,7 +34,7 @@
 
 .topper {
   height: 29px;
-  background: rgb(246, 224, 138);
+  background: $theme-wrapper-topper ;
   border-radius: 8px 8px 0 0;
   position: relative; 
 }

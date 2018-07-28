@@ -5,7 +5,7 @@ nav {
   font-size: 0.9em;
   dl {
     border-radius: 8px;
-    background: rgb(168, 39, 9);
+    background: $theme-menu-background;
     z-index: 20;
     margin: 8px 0 16px;
     &::after {
@@ -16,7 +16,7 @@ nav {
       left: 4px;
       right: 10px;
       width: $nav-width - 14px;
-      background-color: rgb(228, 186, 155);
+      background-color: $theme-menu-shadow;
       height: 6px;
       z-index: -1;
       border-radius: 0 0 0 8px;
@@ -31,7 +31,7 @@ nav {
     background-position: 1px 2px;
     background-repeat: no-repeat;
     padding-left: 28px;
-    color: rgb(255, 255, 255);
+    color: $theme-menu-link;
     text-decoration: none;
   }
   dd.no-bullet a {
@@ -43,12 +43,12 @@ nav {
   }
   a:hover {
     text-decoration: underline;
-    color: white;
+    color: $theme-menu-link;
   }
   dl {
     dt {
-      background-color: rgb(130, 29, 6);
-      color: rgb(221, 221, 0);
+      background: $theme-menu-title-background;
+      color: $theme-menu-title;
       font-weight: 700;
       border-radius: 8px 8px 0 0;
       background-clip: padding-box;
@@ -82,7 +82,7 @@ nav {
     padding: 0;
     height: 100%;
     overflow-y: auto;
-    background: #A82709;
+    background: $theme-menu-background;
     line-height: 50px;
     font-size: 1.2em;
     a {
@@ -115,7 +115,7 @@ nav {
         padding-bottom: 1px;
         padding-left: 19px;
         cursor: pointer;
-        color: white;
+        color: $theme-menu-link;
       }
       dd {
         padding-right: 0;
@@ -138,10 +138,49 @@ nav {
   }
   nav dl {
     dd:hover {
-      background: rgb(130, 29, 6);
+      background: $theme-menu-title-background;
     }
     &::after {
       height: 0;
     }
   }
+}
+
+// Repsonsive menu checkbox
+.menu-trigger, .nav-trigger {
+  display: none;
+}
+
+label[for="nav-trigger"] {
+  display: none;
+  position: absolute;
+  right: 8px;
+  top: 15px;
+  z-index: 2;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background-image: url('/images/nav-trigger.svg');
+  background-size: contain;
+}
+
+.nav-trigger {
+  &:checked ~ label[for="nav-trigger"] {
+    position: fixed;
+  }
+  + label {
+    transition: right 0.2s ease-in-out;
+  }
+}
+
+.site-wrap, header, nav {
+  transition: right 0.2s ease-in-out;
+}
+
+.nav-trigger:checked ~ .site-wrap nav {
+  right: 0;
+}
+
+.menu-trigger:checked ~ dd {
+  display: block;
 }

@@ -1,36 +1,65 @@
+// Theme colors:
+//$theme-primary-color: rgb(168, 39, 9) !default;
+//$theme-secondary-color: rgb(130, 29, 6) !default;
+//$theme-subscript-color: rgb(64, 106, 4) !default;
+//$theme-primary-background: rgb(209, 111, 10) !default;
+
 // Main elements
-$theme-background: 
-    $bamboo
-    linear-gradient(to bottom, rgb(209, 111, 10) 0%, rgb(231, 172, 21) 400px, rgb(239, 196, 24) 100%);    
-$theme-text: $black;
+$theme-background: $bamboo linear-gradient(to bottom, rgb(209, 111, 10) 0%, rgb(231, 172, 21) 400px, rgb(239, 196, 24) 100%) !default;
+$theme-text: $black !default;
 $theme-fonts: (
     'verdana', 
     'tahoma', 
     'arial', 
     'helvetica', 
     sans-serif
-);
+) !default;
 
-$theme-link: $kenyan-copper;
-$theme-light-link: $white;
+$theme-link: $kenyan-copper !default;
+$theme-light-link: $white !default;
+
+$theme-wrapper-topper: $marzipan !default;
+$theme-wrapper-background: $double-pearl-lustra !default;
 
 // Menu
-$theme-menu-title: $turbo;
-$theme-menu-title-background: $kenyan-copper;
-$theme-menu-background: $totem-pole;
+$theme-menu-title: $turbo !default;
+$theme-menu-title-background: $kenyan-copper !default;
+$theme-menu-background: $totem-pole !default;
+$theme-menu-link: $white !default;
+$theme-menu-shadow: $cashmere !default;
 
 // Box containers
-$theme-container-title: $white;
-$theme-container-title-background: '';
-$theme-container-sub-title: $totem-pole;
-$theme-container-background: '';
+$theme-container-title: $white !default;
+$theme-container-title-background: $totem-pole linear-gradient(to bottom, mix($totem-pole, $white) 0%, $totem-pole 80%) !default;
+$theme-container-sub-title: $totem-pole !default;
+$theme-container-background: $alto !default;
+$theme-container-navigation-background: $silver !default;
+$theme-container-border: $silver !default;
+$theme-container-navigation-link: $japanese-laurel !default;
+$theme-container-navigation-bullet: $double-pearl-lustra !default;
+
+// Round box containers
+$theme-round-container-title-background: $marzipan linear-gradient(to bottom, darken($marzipan, 10%) 0%, $marzipan 50%, lighten($marzipan, 20%) 100%) !default;
+$theme-round-container-border: $cashmere !default;
+$theme-round-container-headless-background: $double-pearl-lustra !default;
+$theme-round-container-header: $kenyan-copper !default;
+$theme-round-container-background: $white !default;
+$theme-round-container-header-shadow: $white !default;
 
 // Charts
-$theme-chart-header: $gray;
-$theme-chart-row: $white;
-$theme-chart-alt-row: $alto;
+$theme-chart-head-background: $gray !default;
+$theme-chart-row-odd: $alto !default;
+$theme-chart-row-even: $white !default;
+$theme-chart-caption-background: $theme-container-title-background !default;
+$theme-chart-caption-header: $white !default;
+$theme-chart-link: $black !default;
+$theme-chart-border: $silver !default;
 
 // Misc elements
-$theme-table-of-contents: $japanese-laurel;
-$theme-subscript: $japanese-laurel;
-$theme-table-of-contents-bullet: $double-pearl-lustra;
+$theme-table-of-contents: $japanese-laurel !default;
+$theme-subscript: $japanese-laurel !default;
+$theme-table-of-contents-bullet: $double-pearl-lustra !default;
+
+// Download button
+$theme-download-background: $theme-link !default;
+$theme-download-text: $white !default;

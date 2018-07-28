@@ -1,7 +1,6 @@
 /* General layout rules */
 html {
-	background: rgb(209, 111, 10);
-	background: linear-gradient(to bottom, rgb(209, 111, 10) 0%, rgb(231, 172, 21) 400px, rgb(239, 196, 24) 100%);
+	background: $theme-background;	
 	background-repeat: repeat-x;
 }
 
@@ -16,12 +15,12 @@ body {
 	overflow-y: hidden;
 }
 
-a {
-	color: rgb(170, 51, 51);
+a {  
+  color: $theme-link;
 }
 
 a:hover {
-	color: rgb(255, 0, 0);
+	color: lighten($theme-link, 20%);
 	text-decoration: none;
 }
 
@@ -31,42 +30,6 @@ a:hover {
 
 .visible {
 	display: block;
-}
-
-/* Random Screenshot */
-.random-screenshot {
-	display: block;
-	margin: 0 auto;
-	width: 100%;
-	transform: translateZ(0);
-}
-
-.scr-content {
-	padding-left: 20px;
-}
-
-.screenshot {
-	display: inline-block;
-	margin-top: 10px;
-	padding: 10px;
-	margin: 4px;
-	width: 215px;
-	height: auto;
-	background: #ccc;
-}
-
-.screenshot img {
-	width: 100%;
-	height: auto;
-	image-rendering: crisp-edges;
-}
-
-.gallery {
-	text-align: center;
-}
-
-.gallery .subhead {
-	text-align: left;
 }
 
 .bottom-link {
@@ -96,64 +59,29 @@ header .row .top {
 	height: 37px;
 }
 
-/* Responsive Menu */
-
-.menu-trigger,
-.nav-trigger {
-	display: none;
-}
-
-label[for="nav-trigger"] {
-	display: none;
-	position: absolute;
-	right: 8px;
-	top: 15px;
-	z-index: 2;
-	height: 30px;
-	width: 30px;
-	cursor: pointer;
-	background-image: url('/images/nav-trigger.svg');
-	background-size: contain;
-}
-
-.nav-trigger:checked~label[for="nav-trigger"] {
-	position: fixed;
-}
-
-.nav-trigger+label,
-.site-wrap,
-header,
-nav {
-	transition: right 0.2s ease-in-out;
-}
-
-.nav-trigger:checked~.site-wrap nav {
-	right: 0;
-}
-
-.menu-trigger:checked~dd {
-	display: block;
-}
-
 /* Content boxes */
-
-#donate-header {
-	margin: 5px;
-}
 
 .container {
 	border-radius: 0 0 8px 8px;
-	background: rgb(251, 241, 206);
-}
-
-
-/* Color overrides */
-.bg-yellow {
-	background: rgb(251, 241, 206);
+	background: $theme-wrapper-background;
 }
 
 span.sprite {
   display: inline-block;
   vertical-align: middle;
   filter: drop-shadow(0 2px 2px $black-semi-transparent);
+}
+
+.subhead {
+	color: $theme-container-sub-title;
+	font-weight: bold;
+	line-height: 300%;
+	padding-left: 5px;
+	text-align: left;
+	margin: 0px 15px;
+	border-bottom: 2px dotted $theme-container-sub-title;
+}
+.subhead-content {
+	margin: 0;
+	padding: 10px 20px;
 }

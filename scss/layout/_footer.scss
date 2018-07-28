@@ -1,13 +1,13 @@
 /* Footer */
 
 footer {
-    color: rgba(0, 0, 0, 0.5);
+    color: $black-semi-transparent;
     padding: 15px 0;
     position: relative;
     a {
-      color: rgba(0, 0, 0, 0.5);
+      color: $black-semi-transparent;
       &:hover {
-        color: rgba(0, 0, 0, 0.5);
+        color: $black-semi-transparent;
         text-decoration: none;
       }
     }

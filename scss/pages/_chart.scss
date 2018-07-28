@@ -5,16 +5,16 @@
   padding: 0;
   width: 95%;
   caption {
-    background: rgb(168, 39, 9) url('../images/table-head.png');
-    color: rgb(255, 255, 255);
+    background: $theme-chart-caption-background;
+    color: $theme-chart-caption-header;
     font-weight: bold;
     margin: 0 auto;
   }
   a {
-    color: rgb(0, 0, 0);
+    color: $theme-chart-link;
     text-decoration: none;
     &:hover {
-      color: rgb(255, 0, 0);
+      color: lighten($theme-link, 20%);
     }
   }
   tr, th, td {
@@ -22,7 +22,7 @@
     padding: 2px;
   }
   th, td {
-    border: 1px solid rgb(192, 192, 192);
+    border: 1px solid $theme-chart-border;
   }
   th {
     font-weight: normal;
@@ -31,21 +31,18 @@
   td.details {
     padding: 1em 3em;
   }
-  .color0 {
-    background-color: rgb(224, 224, 224);
-  }
-  .color1 {
-    background-color: rgb(192, 192, 192);
-  }
-  .color2 {
-    background-color: rgb(255, 255, 255);
-  }
-  .color4 {
-    background-color: rgb(153, 153, 153);
+  tr {
+		&.color0 {
+			background-color: $theme-chart-row-odd;
+		}
+		&.color2 {
+			background-color: $theme-chart-row-even;
+		}
+  }	
+  thead {
+    background-color: $theme-chart-head-background;
   }
 }
-
-/* query row colors */
 
 .gameDemos {
   tr {

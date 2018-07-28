@@ -19,12 +19,16 @@
   img {
     width: 100%;
     height: auto;
+    image-rendering: pixelated;
   }
 }
 
 .gallery {
-  text-align: center;
-  .subhead {
-    text-align: left;
-  }
+	text-align: center;
+	
+	.caption {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+	}
 }

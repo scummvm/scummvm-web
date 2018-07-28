@@ -8,7 +8,10 @@ $double-pearl-lustra: rgb(251, 241, 206) !default; //252, 244, 208
 $turbo: rgb(221, 221, 0) !default; //250, 230, 0
 $gray: rgb(153, 153, 153) !default; //128, 128, 128
 $alto: rgb(224, 224, 224) !default; //219, 219, 219
+$silver: rgb(192, 192, 192) !default;
 $bamboo: rgb(209, 111, 10) !default;
+$cashmere: rgb(228, 186, 155) !default;
+$marzipan: rgb(246, 224, 138);
 
 $breakpoints: (
   'small': (min-width: 320px) and (max-width: 640px),
@@ -17,3 +20,4 @@ $breakpoints: (
 );
 
 $nav-width: 165px;
+//linear-gradient(to bottom, #cd816f 0%, #b85038 23%, #aa2b0e 45%, #a82709 100%)
