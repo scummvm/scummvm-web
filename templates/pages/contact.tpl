@@ -4,22 +4,22 @@
 	</div>
 
 	<div class="content">
-		{include file='components/subhead.tpl' subhead=#contactIRCHeader#}
+		<div class="subhead">{#contactIRCHeader#}</div>
 		<div class="subhead-content">
 			{#contactIRC#}
 		</div>
 
-		{include file='components/subhead.tpl' subhead=#contactForumsHeader#}
+		<div class="subhead">{#contactForumsHeader#}</div>
 		<div class="subhead-content">
 			{#contactForums#}
 		</div>
 
-		{include file='components/subhead.tpl' subhead=#contactTrackersHeader#}
+		<div class="subhead">{#contactTrackersHeader#}</div>
 		<div class="subhead-content">
 			{#contactTrackers#}
 		</div>
 
-		{include file='components/subhead.tpl' subhead=#contactListsHeader#}
+		<div class="subhead">{#contactListsHeader#}</div>
 		<div class="subhead-content">
 			{#contactLists#}
 		</div>
