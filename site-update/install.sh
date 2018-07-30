@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# echo empty line because the buffer starts with a tab for some reason
+echo ''
+echo 'Updating website - please wait until the page finishes loading'
+
 # Go to the root folder
 cd ..
 
