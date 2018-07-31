@@ -87,7 +87,10 @@
 	<script type="text/javascript">
 		_uacct = "UA-1455743-1";
 		_udn = "scummvm.org";
-		urchinTracker();
+
+		if (window.localStorage.getItem('COOKIE_CONSENT') == 'true') {
+			urchinTracker();
+		}		
 	</script>
 {* End Google analytics javascript. *}
 	<script>
@@ -98,5 +101,8 @@
 				document.body.classList.remove('no-scroll');
 		});
 	</script>
+
+
+{include file='components/cookie.tpl'}
 </body>
 </html>
