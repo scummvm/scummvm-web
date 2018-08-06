@@ -9,7 +9,7 @@ define('COMPAT_LAYOUT_CHANGE', '1.7.0');
 /* News items on the front page. */
 define('NEWS_ITEMS', 5);
 /* Number of heroes header files. */
-define('HEROES_NUM', 4);
+define('HEROES_NUM', 6);
 /* Time zone to use for news items etc. */
 date_default_timezone_set("UTC");
 
