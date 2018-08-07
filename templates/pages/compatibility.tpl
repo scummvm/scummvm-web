@@ -44,27 +44,9 @@
             <td class={$support_level_class.$level} align='center'>{$desc}</td>
           {/foreach}
         {else}
-          <td class="pct0">&nbsp;0</td>
-          <td class="pct5">&nbsp;5</td>
-          <td class="pct10">10</td>
-          <td class="pct15">15</td>
-          <td class="pct20">20</td>
-          <td class="pct25">25</td>
-          <td class="pct30">30</td>
-          <td class="pct35">35</td>
-          <td class="pct40">40</td>
-          <td class="pct45">45</td>
-          <td class="pct50">50</td>
-          <td class="pct55">55</td>
-          <td class="pct60">60</td>
-          <td class="pct65">65</td>
-          <td class="pct70">70</td>
-          <td class="pct75">75</td>
-          <td class="pct80">80</td>
-          <td class="pct85">85</td>
-          <td class="pct90">90</td>
-          <td class="pct95">95</td>
-          <td class="pct100">100</td>
+          {for $pct=0 to 20}
+            <td class="pct{$pct*5}">{$pct*5}</td>
+          {/for}
         {/if}
       </tr>
     </tbody>
