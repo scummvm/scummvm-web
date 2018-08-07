@@ -9,11 +9,13 @@ class CSection extends BasicObject {
 	private $_title;
 	private $_groups;
 	private $_subsections;
-	private $_paragraphs;
+  private $_paragraphs;
+  private $_anchor;
 
 	/* CSection object constructor. */
 	public function __construct($data) {
-		$this->_title = $data['title'];
+    $this->_title = $data['title'];
+    $this->_anchor = $data['anchor'];
 		$this->_groups = array();
 		$this->_subsections = array();
 		$this->_paragraphs = array();
@@ -52,6 +54,11 @@ if (is_string($value['person'])) {
 	/* Get the title. */
 	public function getTitle() {
 		return $this->_title;
+  }
+  
+  /* Get the anchor. */
+	public function getAnchor() {
+		return $this->_anchor;
 	}
 
 	/* Get the optional list of groups. */
