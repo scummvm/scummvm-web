@@ -1,20 +1,19 @@
 {foreach from=$news_items item=news}
-  {$news_filename=$news->getFilename()|substr:'0':'-4'}
-  <div class="box">
-    <div class="head" id="{$news->getDate()|date_format:"%Y-%m-%d"}{if $news_filename|strlen == 9}{$news_filename|substr:'-1'}{/if}">
-      <a href="{$news->getLink()}/">
-        <span class="news-date">{$news->getDate()|date_localized:#dateformat#}</span>:
-        {$news->getTitle()}
-      </a>
-    </div>
-    <div class="news content">
-      <div class="news-author">
+	{$news_filename = $news->getFilename()|substr:'0':'-4'}
+	{$id = "{$news->getDate()|date_format:"%Y-%m-%d"}{if $news_filename|strlen == 9}{$news_filename|substr:'-1'}{/if}"}	
+	{capture "head"}
+		<a href="{$news->getLink()}/">
+			<span class="news-date">{$news->getDate()|date_localized:#dateformat#}</span>:
+			{$news->getTitle()}
+		</a>
+	{/capture}
+	{capture "content"}
+		<div class="news-author">
         {#newsPostedBy#} {$news->getAuthor()}
-      </div>
-      {$news->getContent()}
-      <div class="spacing"></div>
     </div>
-  </div>
+    {$news->getContent()}
+	{/capture}
+	{include "components/box.tpl" id=$id head=$smarty.capture.head content=$smarty.capture.content} 
 {/foreach}
 
 {* Only show the 'more news' link if we're on the main page *}

@@ -47,16 +47,7 @@
 					{/if}
 
 					{* The actual content. *}
-					<div class="round-box">
-						<div class="header">
-							{$content_title}
-						</div>
-						<div class="content">
-							{$content}
-						</div>
-
-						{include file='components/banners.tpl'}
-					</div>
+					{include file='components/roundbox.tpl' header=$content_title content=$content}
 				</div>
 			</div>
 
@@ -99,7 +90,6 @@
 		urchinTracker();
 	</script>
 {* End Google analytics javascript. *}
-{literal}
 	<script>
 		document.querySelector('.nav-trigger').addEventListener('change', function() {
 			if (this.checked)
@@ -108,6 +98,5 @@
 				document.body.classList.remove('no-scroll');
 		});
 	</script>
-{/literal}
 </body>
 </html>

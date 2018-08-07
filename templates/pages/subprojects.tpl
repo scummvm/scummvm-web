@@ -1,20 +1,20 @@
-<div class="box">
-	<div class="intro">
-		<p>
-			{#subprojectsIntroP1#}
-		</p>
-		<p>
-			{#subprojectsIntroP2#}
-		</p>
-	</div>
+{capture "intro"}
+  <p>
+    {#subprojectsIntroP1#}
+  </p>
+  <p>
+    {#subprojectsIntroP2#}
+  </p>
+{/capture}
 
-	<div class="content">
-		{foreach from=$subprojects item=project}
-		<div class="subhead">{$project->getName()}</div>
-		<div class="subhead-content">
-			{$project->getInfo()}
-			{include file='components/list_items.tpl' list=$project->getDownloads() type='platforms'}
-		</div>
-		{/foreach}
-	</div>
-</div>
+{capture "content"}
+  {foreach from=$subprojects item=project}
+  <div class="subhead">{$project->getName()}</div>
+  <div class="subhead-content">
+    {$project->getInfo()}
+    {include file='components/list_items.tpl' list=$project->getDownloads() type='platforms'}
+  </div>
+  {/foreach}
+{/capture}
+
+{include file="components/box.tpl" head=$content_title intro=$smarty.capture.intro content=$smarty.capture.content}
