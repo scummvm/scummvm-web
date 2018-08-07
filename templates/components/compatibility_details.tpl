@@ -40,4 +40,4 @@
 	</p>	
 {/capture}
 
-{include "components/box.tpl" intro={#compatibilityDetailsInto#} content=$smarty.capture.content} 
+{include "components/box.tpl" head={#compatibilityDetailsInto#} content=$smarty.capture.content} 
