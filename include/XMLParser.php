@@ -29,7 +29,7 @@ class XMLParser {
 	 * @access public
 	 * @since 1.0
 	 */
-	public function XMLParser() {
+	public function __construct() {
 		$this->_tree = array();
 		$this->_data = null;
 		$this->_ptr = null;
