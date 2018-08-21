@@ -5,7 +5,7 @@
 			{assign var='data' value=$item->getExtraInfo()}
 			<li class="file">
 				<span class="sprite-{$type}-{$item->getCategoryIcon()} sprite"></span>
-				<a href="{eval var=$item->getURL()}">{$item->getName()}</a>
+				<a href="{eval var=$item->getURL()}">{eval var=$item->getName()}</a>
 				{strip}
 				<span class="download-extras">
 					{if is_array($data)}
@@ -22,9 +22,9 @@
 				{if $item->getType() == 'daily'}
 					<span class="daily_provider">
 						{if is_array($data)}
-							{$data.info}
+							{eval var=$data.info}
 						{else}
-							{$data}
+							{eval var=$data}
 						{/if}
 					</span>
 				{/if}
