@@ -1,15 +1,13 @@
 <div class="cookie-consent">
-   <div class="text">This website uses third-party cookies to collect traffic information. By continuing to use the site you are providing consent to do so.</div>
-   <div class="buttons"><a onclick="cookie_consent(false)">Decline</a><a class="accept" onclick="cookie_consent(true)">Got it!</a></div>   
+	<div class="middle">
+	 <span class="text">We use cookies to enhance content and analyze information on site performance and usage.</span>
+	 <span class="buttons"><a class="accept" onclick="cookie_consent(true)">Allow Cookies</a><a onclick="cookie_consent(false)">Refuse Cookies</a></span>
+	</div>
 </div>
 
 <script>
-	if (window.localStorage.getItem('COOKIE_CONSENT')) {
-			document.querySelector('.cookie-consent').hidden = true;
-		}
-
 	function cookie_consent(allowCookies) {
-		window.localStorage.setItem('COOKIE_CONSENT', allowCookies)
-		document.querySelector('.cookie-consent').hidden = true;
+		document.cookie = "cookie_consent=" + allowCookies + "; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+		document.querySelector('.cookie-consent').style.display = "none";
 	}
 </script>

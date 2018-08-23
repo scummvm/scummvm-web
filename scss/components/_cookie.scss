@@ -9,30 +9,15 @@
 	vertical-align: middle;
 	padding: 20px 20px;
 
-	.buttons {
-		float: right;
-		width: 10%;
-	}
-
-	.text {
-		min-width: 90%;
-		max-width: 100%;
-		float: left;		
-	}
-
-	@include respond-to(small) {
-		.buttons {
-			float: left;
-			width: 100%;
-			text-align: center;
-			margin-top: 5px;
-		}
+	.middle {
+		text-align: center;
+		width: 100%;		
 	}
 
 	a {
 		color: white;
 		font-size: 0.8em;
-		margin-right: 5px;
+		margin: 5px;
 		cursor: pointer;	
 		white-space: nowrap;
 
