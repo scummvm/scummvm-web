@@ -82,17 +82,7 @@
 {foreach from=$js_files item=script}
 	<script src="/javascripts/{$script}"></script>
 {/foreach}
-{* Google analytics javascript. *}
-	<script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
-	<script type="text/javascript">
-		_uacct = "UA-1455743-1";
-		_udn = "scummvm.org";
 
-		if (window.localStorage.getItem('COOKIE_CONSENT') == 'true') {
-			urchinTracker();
-		}		
-	</script>
-{* End Google analytics javascript. *}
 	<script>
 		document.querySelector('.nav-trigger').addEventListener('change', function() {
 			if (this.checked)
@@ -101,8 +91,19 @@
 				document.body.classList.remove('no-scroll');
 		});
 	</script>
-
-
-{include file='components/cookie.tpl'}
-</body>
+	{if $smarty.cookies.cookie_consent == "true"}
+		{* Google analytics javascript. *}
+			<script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				_uacct = "UA-1455743-1";
+				_udn = "scummvm.org";		
+				urchinTracker();				
+			</script>
+		{* End Google analytics javascript. *}
+	{else if $smarty.cookies.cookie_consent == "false"}
+		{* Do nothing *}
+	{else}
+		{include file='components/cookie.tpl'}	
+	{/if}
+	</body>
 </html>
