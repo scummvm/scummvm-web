@@ -38,15 +38,6 @@ a:hover {
 	font-weight: bold;
 }
 
-header .row .top {
-	height: 91px;
-	position: relative;
-}
-
-.top img {
-	max-width: 58%;
-}
-
 .banners a,
 .banners form {
 	margin: 8px;
@@ -57,6 +48,11 @@ header .row .top {
 .banners a img {
 	width: 88px;
 	height: 37px;
+}
+
+#intro_header {
+  font-size: 0.9em;
+  line-height: 1.2213em;
 }
 
 /* Content boxes */

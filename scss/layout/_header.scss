@@ -1,45 +1,55 @@
 /* Header */
 
-.scummvm {
-  font-family: Trebuchet MS, sans-serif;
-  line-height: 19px;
-  font-size: 15px;
-  white-space: nowrap;
-  margin-right: 5px;
-  margin-top: 5px;
-  text-align: justify;
-  letter-spacing: 1.5px;
-}
+header {
+	.row {
+		&.top  {
+			height: 91px;
+			position: relative;
 
-.header-image {
-  bottom: -2px;
-  position: absolute;
-  right: 0;
-}
+			img {
+				bottom: -2px;
+				position: absolute;		
+				right: 0;		
+				float: right;
+				max-width: 58%;
+				vertical-align: bottom;
+			}
+		}
 
-.logo {
-  max-width: 280px;
-  height: auto;
-  position: absolute;
-  bottom: 0;
-  filter: drop-shadow(1px 1px 2px $black);
-}
+		&.bottom {
+			height: 29px;			
+			background: $theme-wrapper-topper ;
+			border-radius: 8px 8px 0 0;
+			position: relative; 
 
-.maniac {
-  opacity: 0.2;
-  bottom: 30px;
-  left: 12px;
-  filter: grayscale(100%);
-}
+			.logo {
+				position: absolute;
+				bottom: -30px;
+				img {
+					position: absolute;
+					max-width: 280px;		
+					filter: drop-shadow(1px 1px 2px $black);
+					bottom: 30px;
 
-.topper {
-  height: 29px;
-  background: $theme-wrapper-topper ;
-  border-radius: 8px 8px 0 0;
-  position: relative; 
-}
+					&.maniac {
+						opacity: 0.2;					
+						left: 12px;
+						bottom: 60px;
+						filter: grayscale(100%);
+					}
+				}							
+			}
 
-#intro_header {
-  font-size: 0.9em;
-  line-height: 1.2213em;
+			.scummvm {
+				font-family: Trebuchet MS, sans-serif;
+				line-height: 19px;
+				font-size: 15px;
+				white-space: nowrap;
+				margin-right: 5px;
+				margin-top: 5px;				
+				text-align: justify;
+				letter-spacing: 1.5px;				
+			}
+		}
+	}
 }
