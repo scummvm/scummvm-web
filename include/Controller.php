@@ -120,6 +120,9 @@ class Controller {
 
 	/** Formating of dateAs, registered as a modifier for Smarty templates. */
 	public function date_localized($timestamp, $format) {
+		if (strtoupper(substr(PHP_OS, 0, 3)) == 'WIN') {
+			$format = preg_replace('#(?<!%)((?:%%)*)%e#', '\1%#d', $format);
+		}
 		return strftime($format, $timestamp);
 	}
 
