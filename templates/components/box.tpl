@@ -1,15 +1,15 @@
-<div class="box" {if $id}id="{$id}"{/if}>
+<{if $article}article{else}section{/if} class="box" {if $id}id="{$id}"{/if}>
 	{if $head}
-	<div class="head">
+	<header class="head">
 		{$head}
-	</div>
+	</header>
 	{/if}
 	{if $intro}
-	<div class="intro">		
+	<section class="intro">		
 		{$intro}
-	</div>
+	</section>
 	{/if}
-	<div class="content">
+	<section class="content">
 		{$content}
-	</div>
-</div>
+	</section>
+</{if $article}article{else}section{/if}>

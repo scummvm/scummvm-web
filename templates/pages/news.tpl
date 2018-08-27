@@ -13,7 +13,7 @@
     </div>
     {$news->getContent()}
 	{/capture}
-	{include "components/box.tpl" id=$id head=$smarty.capture.head content=$smarty.capture.content} 
+	{include "components/box.tpl" id=$id head=$smarty.capture.head content=$smarty.capture.content article="true"} 
 {/foreach}
 
 {* Only show the 'more news' link if we're on the main page *}

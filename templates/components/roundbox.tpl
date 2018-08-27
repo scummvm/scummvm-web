@@ -1,10 +1,10 @@
-<div class="round-box">
+<section class="round-box">
   {if $header}
-  <div class="header">
+  <header class="header">
     {$header}
-  </div>
+  </header>
   {/if}
-  <div class="content{if $class} {$class}{/if}">
+  <section class="content{if $class} {$class}{/if}">
     {$content}
-  </div>  
-</div>
+  </section>  
+</section>
