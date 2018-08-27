@@ -5,7 +5,7 @@
     </dt>
     {foreach from=$available_languages key=key item=item}
     <dd>
-        <a href="{$pageurl}?lang={$key}">{$item|escape}</a>
+        <span class="bullet"></span><a href="{$pageurl}?lang={$key}">{$item|escape}</a>
     </dd>
     {/foreach}
 </dl>

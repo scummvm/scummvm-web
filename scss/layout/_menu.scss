@@ -25,15 +25,17 @@ nav {
       margin-bottom: 0;
     }
   }
-  a {
+  .bullet {
     background: url('/images/bullet2.svg');
     background-size: contain;
     background-position: 1px 2px;
     background-repeat: no-repeat;
-    padding-left: 28px;
-    color: $theme-menu-link;
+    padding-left: 28px; 
+	}
+	a {
+		color: $theme-menu-link;
     text-decoration: none;
-  }
+	}
   dd.no-bullet a {
     background: 0;
     padding-left: 0;
