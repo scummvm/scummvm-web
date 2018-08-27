@@ -30,16 +30,16 @@ nav {
     background-size: contain;
     background-position: 1px 2px;
     background-repeat: no-repeat;
-    padding-left: 28px; 
+		padding-left: 28px;
+		
+		@include respond-to('small') {
+			display: none;
+		}
 	}
 	a {
 		color: $theme-menu-link;
     text-decoration: none;
 	}
-  dd.no-bullet a {
-    background: 0;
-    padding-left: 0;
-  }
   dl dd::first-letter {
     font-weight: 700;
   }
