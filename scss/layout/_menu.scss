@@ -153,6 +153,14 @@ nav {
   display: none;
 }
 
+nav label {
+	@include respond-to('small') {
+		display: block;
+		width: 100%;
+		cursor: pointer;
+	}
+}
+
 label[for="nav-trigger"] {
   display: none;
   position: absolute;
@@ -163,7 +171,13 @@ label[for="nav-trigger"] {
   width: 30px;
   cursor: pointer;
   background-image: url('/images/nav-trigger.svg');
-  background-size: contain;
+	background-size: contain;
+	
+	@include respond-to('small') {
+		display: block;
+		z-index: 91;
+		overflow-y: unset;
+	}
 }
 
 .nav-trigger {

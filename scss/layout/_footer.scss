@@ -10,7 +10,12 @@ footer {
         color: $black-semi-transparent;
         text-decoration: none;
       }
-    }
+		}
+		
+		@include respond-to('small') {
+			padding: 0 8px;
+			background: rgb(251, 241, 206);
+		}
   }
   
   .tentacle {

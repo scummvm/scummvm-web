@@ -9,6 +9,10 @@ body {
 	font-size: 14px;
 	line-height: 1.357em;
 	margin: 8px 8px 24px 8px;
+
+	@include respond-to('small') {
+		margin: 0;	
+	}
 }
 
 .no-scroll {
@@ -60,6 +64,10 @@ a:hover {
 .container {
 	border-radius: 0 0 8px 8px;
 	background: $theme-wrapper-background;
+
+	@include respond-to('small') {
+		border-radius: 0;
+	}
 }
 
 span.sprite {
@@ -80,4 +88,12 @@ span.sprite {
 .subhead-content {
 	margin: 0;
 	padding: 10px 20px;
+}
+
+.float_right {
+	float: right;
+}
+
+.float_left {
+	float: left;
 }

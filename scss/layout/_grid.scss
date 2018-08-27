@@ -5,6 +5,11 @@
 	position: relative;
 	margin: 0 auto;
 	padding: 0 50px;
+
+	@include respond-to('small') {
+		padding: 0;
+		margin: 0;
+	}
 }
 
 .col-4-5 {
@@ -47,5 +52,46 @@
 	box-sizing: border-box;
 	&:after, &:before {
 		box-sizing: border-box;
+	}
+}
+
+@include respond-to('small') {
+	.col-1-2 {
+		clear: left;
+		width: 100%;
+	}
+	[class*='col-'] {
+		padding-right: 0;
+	}
+	.col-1-5 {
+		width: 100%;
+	}
+	.col-4-5 {
+		width: 100%;
+	}
+	.hide-small {
+		display: none;
+	}
+	.col-sm-1 {
+		width: 100%;
+	}
+	.col-md-2 {
+		width: 50%;
+	}
+	.col-md-1 {
+		width: 100%;
+	}	
+}
+
+@include respond-to('medium') {
+	/* CSS Rules targeting most tablets in vertical orientation */
+	.hide-medium {
+		display: none;
+	}
+	.col-md-2 {
+		width: 50%;
+	}
+	.col-md-1 {
+		width: 100%;
 	}
 }
