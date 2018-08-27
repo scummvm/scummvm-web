@@ -4,7 +4,9 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<base href="{$baseurl}">
-	<link rel="stylesheet" href="{$baseurl}css/main.css">	
+	{* Cache bust CSS if making major changes *}
+	{$css = "2.0.0"}
+	<link rel="stylesheet" href="{$baseurl}css/main.css?v={$css}">	
 	{* Page specific, or other extra CSS rules. *}
 	{foreach from=$css_files item=filename}
 	<link rel="stylesheet" href="{$baseurl}css/{$filename}">
