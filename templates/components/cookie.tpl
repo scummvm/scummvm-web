@@ -1,7 +1,7 @@
 <div class="cookie-consent">
 	<div class="middle">
-	 <span class="text">We use cookies to enhance content and analyze information on site performance and usage.</span>
-	 <span class="buttons"><a class="accept" onclick="cookie_consent(true)">Allow Cookies</a><a onclick="cookie_consent(false)">Refuse Cookies</a></span>
+	 <span class="text">{#cookieText#}</span>
+	 <span class="buttons"><a class="accept" onclick="cookie_consent(true)">{#cookieAccept#}</a><a onclick="cookie_consent(false)">{#cookieDecline#}</a></span>
 	</div>
 </div>
 
