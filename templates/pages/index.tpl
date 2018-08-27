@@ -20,22 +20,20 @@
 
 	<div class="site-wrap">
 		{* Header. *}
-		<header>
-			<div class="row top hide-small">				
+		<header class="site-header">
+			<div class="logo">
+					<img class="background hide-small" src="/images/maniac-half.png" alt="Maniac Mansion kids">
+					<a href="{$baseurl}">
+						<img class="foreground" src="/images/scummvm_logo.png" alt="{#indexLogo#}">
+					</a>
+			</div>			
+			<div class="row top">
 				<div class="col-1-1">
-					<img src="/images/heroes{$heroes_num|rand:0}.png" alt="{#indexCharacters#}">
+					<img class="heroes hide-small" src="/images/heroes{$heroes_num|rand:0}.png" alt="{#indexCharacters#}">
 				</div>
 			</div>
-			<div class="row bottom">
-				<div class="col-1-2">
-					<div class="logo">
-						<img class="maniac hide-small" src="/images/maniac-half.png" alt="Maniac Mansion kids">
-						<a href="{$baseurl}">
-							<img class="logo" src="/images/scummvm_logo.png" alt="{#indexLogo#}">
-						</a>
-					</div>
-				</div>
-				<div class="col-1-2 hide-small float_right">
+			<div class="row bottom hide-small">			
+				<div class="col-1-1">
 					<span class="scummvm float_right">Script Creation Utility for Maniac Mansion Virtual Machine</span>
 				</div>
 			</div>
