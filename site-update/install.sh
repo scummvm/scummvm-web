@@ -14,7 +14,12 @@ echo '$ git status'
 git status
 
 # Generate image sprite
-echo 'Generating games and platforms sprites'
+echo 'Checking for glue'
+if ! [ -x "$(command -v glue)" ]; then
+  echo 'Installing glue'
+  pip install glue
+fi
+echo 'Glue found. Generating games and platforms sprites'
 glue images/icons/games/ --img=images/ --scss=scss/sprites/ --retina
 glue images/icons/platforms/ --img=images/ --scss=scss/sprites/ --retina
 mv scss/sprites/games.scss scss/sprites/_games.scss
@@ -32,7 +37,7 @@ export COMPOSER_HOME=/var/www/composer
 echo "Composer home:" $COMPOSER_HOME
 echo '$ composer install'
 composer install 2>&1
- 
+
 # Run npm install
 echo "$ npm install"
 npm install 2>&1

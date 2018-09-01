@@ -146,3 +146,8 @@ RewriteRule ^(vendor/|composer\.json|composer\.lock) - [F,L,NC]
 # node
 ##
 RewriteRule ^(node_modules/|package\.json|package-lock\.json) - [F,L,NC]
+
+##
+# dev files
+##
+RewriteRule ^(router-dev\.php) - [F,L,NC]
