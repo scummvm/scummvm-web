@@ -17,7 +17,7 @@ class QASection extends BasicObject {
 	 * @param int $section_number used in the TOC
 	 * @param array $xref reference to xref map
 	 */
-	public function QASection($data, $section_number, &$xref) {
+	public function __construct($data, $section_number, &$xref) {
 		$this->_title = $data['title'];
 		$this->_entries = array();
 		$this->_toc = array();
