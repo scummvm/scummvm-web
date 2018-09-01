@@ -17,9 +17,15 @@
         "pscss -f compressed ./scss/main.scss > ./css/main.css",
         "pscss -f compressed ./scss/pages/_cloud-style.scss > ./css/cloud-style.css"
       ],
-      "dev": [
-        "cd site-update;./install.sh;cd ..",
-        "php -S localhost:8000 dev-router.php"
+      "build": [
+        "cd site-update;./install.sh;cd .."
+      ],
+      "run": [
+        "php -S localhost:8000 dev-router.php & php dev-os.php"
+      ],
+      "develop": [
+        "@build",
+        "@run"
       ]
     }
 }

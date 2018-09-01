@@ -150,4 +150,4 @@ RewriteRule ^(node_modules/|package\.json|package-lock\.json) - [F,L,NC]
 ##
 # dev files
 ##
-RewriteRule ^(router-dev\.php) - [F,L,NC]
+RewriteRule ^(dev-router\.php|dev-os\.php) - [F,L,NC]
