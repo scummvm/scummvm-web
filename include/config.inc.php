@@ -15,11 +15,11 @@ date_default_timezone_set("UTC");
 
 /* Base URL to the website. */
 if ($_SERVER['SERVER_PORT'] == '80') {
-	$url = "http://{$_SERVER['SERVER_NAME']}" . dirname($_SERVER['PHP_SELF']);
+	$url = "http://{$_SERVER['SERVER_NAME']}";
 } else if ($_SERVER['SERVER_PORT'] == '443') {
-	$url = "https://{$_SERVER['SERVER_NAME']}" . dirname($_SERVER['PHP_SELF']);
+	$url = "https://{$_SERVER['SERVER_NAME']}";
 } else {
-	$url = "http://{$_SERVER['SERVER_NAME']}:{$_SERVER['SERVER_PORT']}" . dirname($_SERVER['PHP_SELF']);
+	$url = "http://{$_SERVER['SERVER_NAME']}:{$_SERVER['SERVER_PORT']}";
 }
 
 if (substr($url, -1) != '/') {
