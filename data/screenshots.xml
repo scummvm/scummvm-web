@@ -1418,6 +1418,15 @@
 			</image>
 		</game>
 		<game>
+			<name>Dead City</name>
+			<category>deadcity</category>
+			<image>
+				<file>wintermute/deadcity/deadcity-win-#n#</file>
+				<range from="1" to="11" format="%02d" />
+				<caption>Dead City (Windows/English)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Dirty Split</name>
 			<category>dirtysplit</category>
 			<image>
