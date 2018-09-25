@@ -1804,6 +1804,15 @@
 			</image>
 		</game>
 		<game>
+			<name>Plumbers Don't Wear Ties!</name>
+			<category>plumbers</category>
+			<image>
+				<file>other/plumbers/plumbers-win-#n#</file>
+				<range from="1" to="13" format="%02d" />
+				<caption>Plumbers Don't Wear Ties!</caption>
+			</image>
+		</game>
+		<game>
 			<name>Ringworld (Series)</name>
 			<category>ringworld</category>
 			<image>
