@@ -1327,6 +1327,15 @@
 				<caption>Space Quest 6: The Spinal Frontier (DOS German)</caption>
 			</image>
 		</game>
+		<game>
+			<name>Torin's Passage</name>
+			<category>torin</category>
+			<image>
+				<file>sci/torin/torin-de-#n#</file>
+				<range from="1" to="17" format="%02d" />
+				<caption>Torin's Passage (Windows German)</caption>
+			</image>
+		</game>
 	</group>
 	<group>
 		<title>Westwood games</title>
