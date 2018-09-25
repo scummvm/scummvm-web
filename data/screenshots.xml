@@ -1321,6 +1321,11 @@
 				<range from="1" to="4" format="%d" />
 				<caption>Space Quest V: The Next Mutation (DOS German)</caption>
 			</image>
+			<image>
+				<file>sci/sq/sq6-cd-de-#n#</file>
+				<range from="1" to="13" format="%02d" />
+				<caption>Space Quest 6: The Spinal Frontier (DOS German)</caption>
+			</image>
 		</game>
 	</group>
 	<group>
