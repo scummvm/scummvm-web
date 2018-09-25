@@ -1468,6 +1468,15 @@
 			</image>
 		</game>
 		<game>
+			<name>Helga Deep in Trouble</name>
+			<category>helga</category>
+			<image>
+				<file>wintermute/helga/helga-win-#n#</file>
+				<range from="1" to="15" format="%02d" />
+				<caption>Helga Deep in Trouble (Windows/English)</caption>
+			</image>
+		</game>
+		<game>
 			<name>1&#189; Knights: In Search of the Ravishing Princess Herzelindes</name>
 			<category>ritter</category>
 			<image>
