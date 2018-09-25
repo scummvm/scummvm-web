@@ -29,10 +29,8 @@
   <a href="/screenshots/">{#screenshotsCategoryBack#}</a>
 {/if}
 
-{
-	<script>
+<script>
 		document.addEventListener('DOMContentLoaded', function() {
 			baguetteBox.run('.gallery');
 		});
-	</script>
-}
+</script>
