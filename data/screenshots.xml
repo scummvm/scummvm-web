@@ -1436,6 +1436,15 @@
 			</image>
 		</game>
 		<game>
+			<name>Five Lethal Demons</name>
+			<category>5ld</category>
+			<image>
+				<file>wintermute/5ld/5ld-win-#n#</file>
+				<range from="1" to="3" format="%d" />
+				<caption>Five Lethal Demons (Windows/English)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Five magical amulets</name>
 			<category>5ma</category>
 			<image>
