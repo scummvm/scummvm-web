@@ -1206,6 +1206,16 @@
 				<range from="1" to="3" format="%d" />
 				<caption>Police Quest III: The Kindred (VGA/German)</caption>
 			</image>
+			<image>
+				<file>sci/pq/pq4-cd-#n#</file>
+				<range from="1" to="7" format="%02d" />
+				<caption>Police Quest IV: Open Season (CD/DOS)</caption>
+			</image>
+			<image>
+				<file>sci/pq/pq4-cd-de-#n#</file>
+				<range from="1" to="7" format="%02d" />
+				<caption>Police Quest IV: Open Season (CD/DOS/German)</caption>
+			</image>
 		</game>
 		<game>
 			<name>Quest For Glory (Series)</name>
