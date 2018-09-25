@@ -3,10 +3,10 @@
 <credits>
 	<section>
 		<title>ScummVM Team</title>
-    <anchor>scummvm_team</anchor>
+		<anchor>scummvm_team</anchor>
 		<subsection>
 			<title>Project Leader</title>
-      <anchor>project_leader</anchor>
+			<anchor>project_leader</anchor>
 			<group>
 				<name></name>
 				<person>
@@ -18,7 +18,7 @@
 		</subsection>
 		<subsection>
 			<title>PR Office</title>
-      <anchor>pr</anchor>
+			<anchor>pr</anchor>
 			<group>
 				<name></name>
 				<person>
@@ -35,7 +35,7 @@
 		</subsection>
 		<subsection>
 			<title>Retired Project Leaders</title>
-      <anchor>retired_leaders</anchor>
+			<anchor>retired_leaders</anchor>
 			<group>
 				<name></name>
 				<person>
@@ -62,7 +62,7 @@
 		</subsection>
 		<subsection>
 			<title>Engine Teams</title>
-      <anchor>engine_teams</anchor>
+			<anchor>engine_teams</anchor>
 			<group>
 				<name>SCUMM</name>
 				<person>
@@ -1086,7 +1086,7 @@
 		</subsection>
 		<subsection>
 			<title>Backend Teams</title>
-      <anchor>backend_teams</anchor>
+			<anchor>backend_teams</anchor>
 			<group>
 				<name>Android</name>
 				<person>
@@ -1323,7 +1323,7 @@
 		</subsection>
 		<subsection>
 			<title>Other subsystems</title>
-      <anchor>other_subsystems</anchor>
+			<anchor>other_subsystems</anchor>
 			<group>
 				<name>Infrastructure</name>
 				<person>
@@ -1401,7 +1401,7 @@
 		</subsection>
 		<subsection>
 			<title>Website (code)</title>
-      <anchor>web_code</anchor>
+			<anchor>web_code</anchor>
 			<group>
 				<name></name>
 				<person>
@@ -1413,7 +1413,7 @@
 		</subsection>
 		<subsection>
 			<title>Website (maintenance)</title>
-      <anchor>web_maint</anchor>
+			<anchor>web_maint</anchor>
 			<group>
 				<name></name>
 				<person>
@@ -1455,12 +1455,12 @@
 		</subsection>
 		<subsection>
 			<title>Website (content)</title>
-      <anchor>web_content</anchor>
+			<anchor>web_content</anchor>
 		<paragraph>All active team members</paragraph>
 		</subsection>
 		<subsection>
 			<title>Documentation</title>
-      <anchor>docs</anchor>
+			<anchor>docs</anchor>
 			<group>
 				<name></name>
 				<person>
@@ -1482,7 +1482,7 @@
 		</subsection>
 		<subsection>
 			<title>Retired Team Members</title>
-      <anchor>retired_members</anchor>
+			<anchor>retired_members</anchor>
 			<group>
 				<name></name>
 				<person>
@@ -1535,10 +1535,10 @@
 	</section>
 	<section>
 		<title>Other contributions</title>
-    <anchor>other_contrib</anchor>
+		<anchor>other_contrib</anchor>
 		<subsection>
 			<title>Packages</title>
-      <anchor>packages</anchor>
+			<anchor>packages</anchor>
 			<group>
 				<name>AmigaOS 4</name>
 				<person>
@@ -1710,7 +1710,7 @@
 		</subsection>
 		<subsection>
 			<title>GUI Translations</title>
-      <anchor>gui_translations</anchor>
+			<anchor>gui_translations</anchor>
 			<group>
 				<name></name>
 				<person>
@@ -1897,7 +1897,7 @@
 		</subsection>
 		<subsection>
 			<title>Game Translations</title>
-      <anchor>game_translations</anchor>
+			<anchor>game_translations</anchor>
 			<group>
 				<name>CGE</name>
 				<person>
@@ -1963,7 +1963,7 @@
 		</subsection>
 		<subsection>
 			<title>Websites (design)</title>
-      <anchor>web_design</anchor>
+			<anchor>web_design</anchor>
 			<group>
 				<name></name>
 				<person>
@@ -2000,7 +2000,7 @@
 		</subsection>
 		<subsection>
 			<title>Code contributions</title>
-      <anchor>code_contrib</anchor>
+			<anchor>code_contrib</anchor>
 			<group>
 				<name></name>
 				<person>
@@ -2137,7 +2137,7 @@
 		</subsection>
 		<subsection>
 			<title>FreeSCI Contributors</title>
-      <anchor>freesci_contrib</anchor>
+			<anchor>freesci_contrib</anchor>
 			<group>
 				<name></name>
 				<person>
@@ -2328,7 +2328,7 @@
 	</section>
 	<section>
 		<title>Special thanks to</title>
-    <anchor>special_thanks</anchor>
+		<anchor>special_thanks</anchor>
 			<group>
 				<name></name>
 				<person>
