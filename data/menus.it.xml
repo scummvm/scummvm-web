@@ -25,7 +25,7 @@
 		</link>
 		<link>
 			<name>ScummVM Blog</name>
-			<href>http://planet.scummvm.org</href>
+			<href>https://planet.scummvm.org</href>
 		</link>
 	</group>
 	<group>
@@ -77,7 +77,7 @@
 		</link>
 		<link>
 			<name>Buildbot</name>
-			<href>http://buildbot.scummvm.org/</href>
+			<href>https://buildbot.scummvm.org/</href>
 		</link>
 	</group>
 	<group>

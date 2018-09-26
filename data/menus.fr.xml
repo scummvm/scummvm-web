@@ -25,7 +25,7 @@
 		</link>
 		<link>
 			<name>Blogs sur ScummVM</name>
-			<href>http://planet.scummvm.org</href>
+			<href>https://planet.scummvm.org</href>
 		</link>
 	</group>
 	<group>
@@ -57,7 +57,7 @@
 		<class>menu-sf</class>
 		<link>
 			<name>Base de Bogue</name>
-			<href>http://bugs.scummvm.org/</href>
+			<href>https://bugs.scummvm.org/</href>
 		</link>
 		<link>
 			<name>Base de Patches</name>
@@ -77,7 +77,7 @@
 		</link>
 		<link>
 			<name>Buildbot</name>
-			<href>http://buildbot.scummvm.org/</href>
+			<href>https://buildbot.scummvm.org/</href>
 		</link>
 	</group>
 	<group>

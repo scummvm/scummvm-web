@@ -67,7 +67,7 @@
 	</document>
 	<document>
 		<name>{#doxygenPageTitle#}</name>
-		<url>http://doxygen.scummvm.org</url>
+		<url>https://doxygen.scummvm.org</url>
 		<description>{#doxygenPageDesc#}</description>
 	</document>
 </documentation>
