@@ -460,6 +460,15 @@
 			</image>
 		</game>
 		<game>
+			<name>Croustibat</name>
+			<category>crousti</category>
+			<image>
+				<file>gob/crousti/crousti-br-#n#</file>
+				<range from="1" to="6" format="%02d" />
+				<caption>Croustibat (DOS/Portuguese)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Fascination</name>
 			<category>fascination</category>
 			<image>
