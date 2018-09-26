@@ -1409,6 +1409,15 @@
 		<title>Wintermute engine games</title>
 		<category>wintermute</category>
 		<game>
+			<name>Bickadoodle</name>
+			<category>bickadoodle</category>
+			<image>
+				<file>wintermute/bickadoodle/bickadoodle-#n#</file>
+				<range from="1" to="9" format="%02d" />
+				<caption>Bickadoodle (v1.2 English)</caption>
+			</image>
+		</game>
+		<game>
 			<name>Chivalry is Not Dead</name>
 			<category>chivalry</category>
 			<image>
