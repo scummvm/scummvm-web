@@ -1877,7 +1877,7 @@
 			<category>plumbers</category>
 			<image>
 				<file>other/plumbers/plumbers-win-#n#</file>
-				<range from="1" to="13" format="%02d" />
+				<range from="1" to="8" format="%02d" />
 				<caption>Plumbers Don't Wear Ties!</caption>
 			</image>
 		</game>
