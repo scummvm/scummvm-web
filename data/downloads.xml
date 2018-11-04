@@ -848,6 +848,11 @@
 					<description>: Free Lossless Audio Codec</description>
 				</link>
 				<link>
+					<name>liba52</name>
+					<url>http://liba52.sourceforge.net</url>
+					<description>: ATSC A/52 stream decoder</description>
+				</link>
+				<link>
 					<name>FAAD2</name>
 					<url>http://www.audiocoding.com/faad2.html</url>
 					<description>: MPEG-4 and MPEG-2 AAC Decoder</description>
