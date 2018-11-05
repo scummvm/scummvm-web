@@ -1,106 +1,106 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <menus>
 	<group>
-		<name>Main Menu</name>
+		<name>{#menuHeaderMain#}</name>
 		<class>menu-main</class>
 		<link>
-			<name>Home</name>
+			<name>{#menuMainHome#}</name>
 			<href>{$baseurl}</href>
 		</link>
 		<link>
-			<name>Screenshots</name>
+			<name>{#menuMainScreenshots#}</name>
 			<href>/screenshots/</href>
 		</link>
 		<link>
-			<name>Forums</name>
+			<name>{#menuMainForums#}</name>
 			<href>https://forums.scummvm.org/</href>
 		</link>
 		<link>
-			<name>Downloads</name>
+			<name>{#menuMainDownloads#}</name>
 			<href>/downloads/</href>
 		</link>
 		<link>
-			<name>Games</name>
+			<name>{#menuMainGames#}</name>
 			<href>/games/</href>
 		</link>
 		<link>
-			<name>ScummVM Blogs</name>
+			<name>{#menuMainBlogs#}</name>
 			<href>https://planet.scummvm.org</href>
 		</link>
 	</group>
 	<group>
-		<name>Documentation</name>
+		<name>{#menuHeaderDocumentation#}</name>
 		<class>menu-docs</class>
 		<link>
-			<name>F.A.Q.</name>
+			<name>{#menuDocumentationFaq#}</name>
 			<href>/faq/</href>
 		</link>
 		<link>
-			<name>Documentation</name>
+			<name>{#menuDocumentationDocumentation#}</name>
 			<href>/documentation/</href>
 		</link>
 		<link>
-			<name>Compatibility</name>
+			<name>{#menuDocumentationCompatability#}</name>
 			<href>/compatibility/</href>
 		</link>
 		<link>
-			<name>Wiki</name>
+			<name>{#menuDocumentationWiki#}</name>
 			<href>https://wiki.scummvm.org/</href>
 		</link>
 		<link>
-			<name>Credits</name>
+			<name>{#menuDocumentationCredits#}</name>
 			<href>/credits/</href>
 		</link>
 	</group>
 	<group>
-		<name>Development</name>
+		<name>{#menuHeaderDevelopmentDevelopment#}</name>
 		<class>menu-sf</class>
 		<link>
-			<name>Bug Tracker</name>
+			<name>{#menuDevelopmentBugTracker#}</name>
 			<href>https://bugs.scummvm.org/</href>
 		</link>
 		<link>
-			<name>Patch Tracker</name>
+			<name>{#menuDevelopmentPatchTracker#}</name>
 			<href>https://github.com/scummvm/scummvm/pulls</href>
 		</link>
 		<link>
-			<name>Translate ScummVM</name>
+			<name>{#menuDevelopmentTranslations#}</name>
 			<href>https://translations.scummvm.org/projects/scummvm/scummvm/</href>
 		</link>
 		<link>
-			<name>Daily Snapshots</name>
+			<name>{#menuDevelopmentDailies#}</name>
 			<href>/downloads/#daily</href>
 		</link>
 		<link>
-			<name>Source Code Tree</name>
+			<name>{#menuDevelopmentSourceCode#}</name>
 			<href>https://github.com/scummvm/scummvm</href>
 		</link>
 		<link>
-			<name>Buildbot</name>
+			<name>{#menuDevelopmentBuildbot#}</name>
 			<href>https://buildbot.scummvm.org/</href>
 		</link>
 	</group>
 	<group>
-		<name>Misc. Menu</name>
+		<name>{#menuHeaderMisc#}</name>
 		<class>menu-misc</class>
 		<link>
-			<name>Subprojects</name>
+			<name>{#menuMiscSubprojects#}</name>
 			<href>/subprojects/</href>
 		</link>
 		<link>
-			<name>Demos</name>
+			<name>{#menuMiscDemos#}</name>
 			<href>/demos/</href>
 		</link>
 		<link>
-			<name>Press Coverage</name>
+			<name>{#menuMiscPress#}</name>
 			<href>/press/</href>
 		</link>
 		<link>
-			<name>Contact</name>
+			<name>{#menuMiscContact#}</name>
 			<href>/contact/</href>
 		</link>
 		<link>
-			<name>Links</name>
+			<name>{#menuMiscLinks#}</name>
 			<href>/links/</href>
 		</link>
 	</group>
