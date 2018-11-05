@@ -20,3 +20,7 @@
 /images/games.png
 /images/platforms@2x.png
 /images/games@2x.png
+
+# Generated lang ini
+/lang/*.ini
+/lang/po
