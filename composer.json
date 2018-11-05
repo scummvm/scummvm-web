@@ -5,17 +5,19 @@
     "authors": [
         {
             "name": "Matan Bareket",
-            "email": "mataniko@gmail.com"
+            "email": "mataniko@scummvm.org"
         }
     ],
     "require": {
         "leafo/scssphp": "^0.7.6",
-        "smarty/smarty": "^3.1"
+        "smarty/smarty": "^3.1",
+        "ezyang/htmlpurifier": "^4.10"
     },
     "scripts": {
       "post-install-cmd": [
         "pscss -f compressed ./scss/main.scss > ./css/main.css",
-        "pscss -f compressed ./scss/pages/_cloud-style.scss > ./css/cloud-style.css"
+        "pscss -f compressed ./scss/pages/_cloud-style.scss > ./css/cloud-style.css",
+        "php include/Translations.php"
       ],
       "build": [
         "cd site-update;./install.sh;cd .."

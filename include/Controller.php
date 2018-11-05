@@ -44,7 +44,7 @@ class Controller {
 		$this->_smarty->config_dir = ".";
 
 		# First we read English, so all defaults are there
-		$this->_smarty->configLoad(DIR_LANG . "/lang.ini");
+		$this->_smarty->configLoad(DIR_LANG . "/lang.en.ini");
 
 		# Now we try to read translations
 		if (is_file(($fname = DIR_LANG . "/lang.$lang.ini"))
