@@ -1,0 +1,6 @@
+{
+    "title": "ScummVM a migré vers un nouveau Bug Tracker",
+    "author": "sev",
+    "date": 1471354562,
+    "content": "<p>Grâce au travail de wjp, nous avons remplacé le Bug Tracker de SF.net par notre propre Tracker disponible à <a href=\"https://bugs.scummvm.org\">https://bugs.scummvm.org</a>. Ce nouveau service devrait être plus rapide et fiable que le vieux Tracker de SF.net.</p><p>Tout le contenu du vieux Bug Tracker, y compris les patches (bien que nous encourageons désormais l'utilisation de <a href=\"https://github.com/scummvm/scummvm/pulls\">Pull Request sur GitHub</a> pour soumettre des patches), a été migré vers le nouveau Bug Tracker.</p><p>Le nouveau Bug Tracker utilise les comptes GitHub (via OAuth2) pour se connecter. Cela devrait faciliter et rendre plus sûr la création de comptes. Nous avons transféré tous les comptes de SF.net, mais sans les adresses e-mail. Il vous faudra donc indiquer votre adresse e-mail dans les préférences du compte lors de votre première connexion, autrement nous serons dans l'incapacité de vous contacter en cas de question sur les bugs que vous aurez entrés.</p>"
+}

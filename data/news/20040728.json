@@ -1,0 +1,6 @@
+{
+    "title": "Oh No! Not Again!",
+    "author": "ender",
+    "date": 1091021760,
+    "content": "<p>Well, one of those \"Small Yet Important\" coding mistakes has cropped up in ScummVM 0.6.1. A copy-and-paste error in the 'Edit Game' screen may result in people not being able to save a game.</p><p>The mistake involves the new 'Paths' tab, which allows for easier editing of game paths. Unfortunately, the 'Extra Path' field on this screen is accidentally saved as directory to use for saved games, instead of correct field below it. This was noticed and fixed in the experimental CVS version, but the fix was mistakenly left out of the ScummVM 0.6.1 release.</p><p>If you encounter this glitch, the recommended work around is to set the Extra Path to the saved game directory. ScummVM 0.6.1b will be released soon to correct this issue.</p>"
+}

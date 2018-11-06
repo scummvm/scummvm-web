@@ -1,0 +1,6 @@
+{
+    "title": "ScummVM 0.2.0 released!",
+    "author": "ender",
+    "date": 1021383360,
+    "content": "After much waiting, ScummVM 0.2.0 has been released! So head over to the downloads page and grab it for your favorite platform. <BR><BR> Currently we have downloads for i386 Debian Woody, Windows, Dreamcast, MacOSX, Familiar/Intimate, and Windows CE. Over the next few days we will also be adding downloads for MorphOS, RPMs, and maybe a BeOS download. <BR><BR> Besides many major fixes, ScummVM now supports several new games, such as the FmTowns 256 color version of Zak McKracken, the CD version of Loom, and (strangely enough) Simon the Sorcerer! Several games supported in 0.1.0 are now completable in 0.2.0, such as Sam and Max. <BR><BR>ScummVM release 0.2.0 also includes several new platforms, better support for different CPU architectures and endians, many more commandline options and experimental (e.g., do not report bugs on it!) support for Full Throttle, The Dig, the VGA version of Indiana Jones and the Last Crusade and the VGA version of Monkey Island (floppy).! <BR><BR>So don't delay. Download it now, and if you really like it, click that little paypal button under the menu to donate money to help the ScummVM team buy tools and software to continue this project."
+}

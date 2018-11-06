@@ -1,0 +1,6 @@
+{
+    "title": "IDA Disassembler",
+    "author": "DreamMaster",
+    "date": 1522503360,
+    "content": "<p>A recent discussion about the most recent IDA Disassembler freeware 7.0 revealed that it no longer supports disassembling older DOS and Windows executables. This is obviously a problem for potential contributors, as well as potential GSoC students wanting to reverse engineer an old adventure game or RPG for their project. The obvious solution is to provide an earlier freeware version that still supports them.</p><p>Consulting with Hex-Rays, they're kindly consented for us to host one of the earlier IDA freeware versions, for those in the future who wish to use it. After reviewing the earlier versions, we've settled on <a href=\"https://www.scummvm.org/frs/extras/IDA/idafree50.exe\">IDA Freeware Version 5.0</a>. IDA 5.0 was the first version of IDA that added the convenient graph view, and this freeware version has both it as well as the ability to disassemble DOS executables. It's also not time limited like the demo versions, it's the most convenient for enthusiasts to try their hand at reverse engineering old games.</p><p>Considering how many of our game engines have been created by reverse engineering the original games, hopefully we will continue to see people interested in re-implementing games in the future.</p><p>The more the merrier :)</p>"
+}

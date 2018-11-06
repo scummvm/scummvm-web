@@ -1,0 +1,6 @@
+{
+    "title": "Mac OS X port of ScummVM 0.9.1 updated",
+    "author": "vinterstum",
+    "date": 1163511360,
+    "content": "<p>As some of you may have noticed, the Mac OS X version of ScummVM 0.9.1 had some issues when running on PowerPC machines, particularly when playing MP3 encoded sound. A new build (0.9.1a) is now up on the <a href=\"/downloads/\">downloads page</a>, for anyone affected (All versions beyond the Mac OS X version remain the same).</p>"
+}

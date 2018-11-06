@@ -1,0 +1,6 @@
+{
+    "title": "There be monkeys here!",
+    "author": "ender",
+    "date": 1084196160,
+    "content": "<p>This is just a quick update to let everybody know we're still alive. Work on ScummVM is progressing as per usual, and we intend to release ScummVM 0.6.1 shortly.</p><p>ScummVM 0.6.1 will contain several bugfixes for various games, as well as several sound and music enhancements for later SCUMM games (Full Throttle, The Dig, Curse of Monkey Island).</p><p>Also, followers of CVS may have noticed that support for Another World was recently added. This provoked quite a bit of argument within the ScummVM team as to whether this is considered an adventure and within ScummVMs goals.</p><p>After much debate, the engine author (cyx) decided that it would be more convenient to continue the project seperate from ScummVM. It has now been removed, and future information and development will occur as part of the <A HREF=\"http://membres.lycos.fr/cyxdown/raw/\">RAW</a> project. To prevent any doomsday predictions, I should also point out that he remains a member of the ScummVM team.</p>"
+}

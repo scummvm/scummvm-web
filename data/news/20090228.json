@@ -1,0 +1,6 @@
+{
+    "title": "ScummVM 0.13.0 \"More Guests\" enter(s) the house",
+    "author": "sev",
+    "date": 1235828160,
+    "content": "<p>As we turned to a 6 months release cycle, <a href=\"/downloads/\">here</a> is our newest and best ScummVM version for you!</p><p>A couple of new engines were added, and besides 2 Humongous Entertainment titles, we now support <i>The 7th Guest</i> and <i>Bud Tucker in Double Trouble</i>.</p><p>Among other notable things there is a completely new vector-based GUI, which is a merged work of our last year GSoC student Vicent Marti, as well as a General Main Menu which adds a common save/load interface to most of our engines, adding the much awaited Return to Launcher feature along the way. It was the work of another successful student, Chris Page.</p><p>A complete list of new games and features can be found in the <a href=\"/frs/scummvm/0.13.0/ReleaseNotes\">release notes</a>, and the latest ScummVM version itself (available for a large number of platforms as usual) is located at the <a href=\"/downloads/\">downloads page</a>.</p><p>Let's play!</p>"
+}

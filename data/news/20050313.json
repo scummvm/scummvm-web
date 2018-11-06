@@ -1,0 +1,6 @@
+{
+    "title": "Fate of the boot params",
+    "author": "fingolfin",
+    "date": 1110720960,
+    "content": "<p>We now have an extensive list of boot params for Fate of Atlantis on our <a href=\"http://www.scummvm.org/documentation.php?view=bootparam\">boot params page</a>. Many thanks to Laura Abbott who spent a lot of time to compose this list and then generously donated it to us. I am sure this will help us working on FOA issues in the future.</p><p>In other news, Robert Kelsen has volunteered to work as a SlackWare packager, and has started by providing a <a href=\"/frs/scummvm/0.7.0/scummvm-0.7.0-slack-i486-1.tgz\">SlackWare binary of 0.7.0</a>. Way to go, Rob!</p><p>So, apparently, some people actually read our news section... I am astonished ;-). Thanks to all of you out there who contribute to ScummVM by providing us with useful feedback, and the occasional praise -- both really help keeping up interest in working on ScummVM!</p>"
+}

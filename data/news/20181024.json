@@ -1,0 +1,6 @@
+{
+    "title": "Infrastructure updates",
+    "author": "Mataniko",
+    "date": 1540388160,
+    "content": "<p>Over the last few days the ScummVM team has been working hard on upgrading our infrastructure. During the process all of the supporting sites have been updated, cleaned up and secured with SSL support.</p><p>Due to how DNS propagation works it may take up to 48 hours until you can access the forums and wiki.</p><p>If you run into any problems with the Forums, Wiki, Translations, Bug Tracker, or any other website related issues please let us know. For minor issues feel free to post on <a href=\"https://forums.scummvm.org/viewtopic.php?f=1&t=14735\">this thread</a>. For major problems use the <a href=\"https://bugs.scummvm.org\">bug tracker</a> using the Web component to let us know.</p>"
+}

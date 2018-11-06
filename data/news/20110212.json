@@ -1,0 +1,6 @@
+{
+    "title": "Moved to Git",
+    "author": "wjp",
+    "date": 1297517760,
+    "content": "<p>After having hosted our source code in Subversion for five years (to the day), we have today moved to the <a href=\"http://git-scm.com/\">Git</a> <a href=\"http://en.wikipedia.org/wiki/Distributed_revision_control\">distributed version control system</a>, hosted on <a href=\"https://github.com/\">GitHub</a>.</p><p>The new repository page is at <a href=\"https://github.com/scummvm/scummvm\">https://github.com/scummvm/scummvm</a>.</p><p>For users nothing should have changed, but for developers it should now be much easier to contribute to ScummVM.</p>"
+}

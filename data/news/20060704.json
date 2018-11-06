@@ -1,0 +1,6 @@
+{
+    "title": "WinCE port for ScummVM 0.9.0 updated",
+    "author": "knakos",
+    "date": 1152020160,
+    "content": "<p>As many users of the Windows CE port have noticed, the 0.9.0 release has some sound and music related issues which usually ended with a crash. The obscure bugs were hunted down and corrected. We urge all PocketPC and Smartphone users to download the updated 0.9.0a build from our <a href=\"/downloads/\">downloads page</a> or our <a href=\"/frs/scummvm/0.9.0/\">SourceForge</a> files section. It may be a while until all mirrors pick up the file, so be patient.</p>"
+}

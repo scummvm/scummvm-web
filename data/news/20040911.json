@@ -1,0 +1,6 @@
+{
+    "title": "Lots of stuff going on",
+    "author": "ender",
+    "date": 1094909760,
+    "content": "<p>Well, this is just to let you know we are not dead. There has been some amazing work happening in the last few weeks - with ScummVMs support for the HE SCUMM games improving in rapid bursts thanks to the combined talent of cyx, Kirben and Sev. And of course, there has been more development than just this.</p><p>And now we would like to bring up the point that our side-projects Residual and ScummEX both need developers and contributors. We welcome patches from other programmers very much. With the help of ScummVM developers joostp and aquadran, salty-horse (a regular #scummvm'er) today submitted a patch for lipsync animations in Residual. Please see our 'subprojects' page and the 'Coding Guidelines' in our Documentation section. If you are interested in persuing a particular problem, please e-mail the \"-devel\" mailing list or pop on IRC if you need advice or help.</p>"
+}

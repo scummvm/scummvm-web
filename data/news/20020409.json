@@ -1,0 +1,6 @@
+{
+    "title": "Release update",
+    "author": "ender",
+    "date": 1018359360,
+    "content": "Thanks to several people, we have confirmed that DOTT, Sam and Max and LoomCD are all completable with no 'major' bugs in the current code. On the other hand, several serious bugs with MI2 and Indy4 have been found, so the 0.2.0 release may take slightly longer than expected. <BR><BR> To the coders out there, feel free to browse the bug list and take a shot at commiting fixes for them. At the moment there is only one person regually working on ScummVM, so things are slow."
+}

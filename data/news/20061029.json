@@ -1,0 +1,6 @@
+{
+    "title": "ScummVM 0.9.1 \"PalmOS revived\" released",
+    "author": "sev",
+    "date": 1162128960,
+    "content": "<p>We are pleased to announce the 0.9.1 ScummVM bugfix release.</p><p>There were lots of important bugfixes and small improvements. We are also glad that three additional platforms are now officially supported: Nintendo DS, GP2X and GP32. You can already download official DS and GP2X binaries, and the GP32 port will be available soon.</p><p>Some of the most significant bugfixes are:</p><ul> <li>Many fixes for Humongous Entertainment games and better support for international versions of the games</li> <li>Improved detection of the FM-TOWNS version of Indy3</li> <li>Several fixes for The Feeble Files and more non-English versions are supported now</li> <li>Some parts of the Kyrandia engine were rewritten so the game needs less CPU power now, and thus works better on lower-end devices</li> <li>The PSP, PS2 and WinCE ports were greatly improved</li> <li>The PalmOS port is again up-to-date and features separate build for Tapwave Zodiac</li> <li>The WinCE port supports 2002 devices again</li> </ul><p>For the complete list <a href=\"/frs/scummvm/0.9.0/ReleaseNotes\">read the release notes</a>.</p><p>As usual, the builds are located on our <a href=\"/downloads/\">downloads page</a>."
+}

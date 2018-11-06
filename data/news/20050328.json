@@ -1,0 +1,6 @@
+{
+    "title": "ScummVM 0.7.1 released",
+    "author": "fingolfin",
+    "date": 1112016960,
+    "content": "<p>We are pleased to announce the release of ScummVM 0.7.1. This update concentrates on fixing bugs from 0.7.0, especially in the Windows Mobile port (PocketPC / Smartphone). For more information check out the <a href=\"/frs/scummvm/0.7.1/ReleaseNotes\">release notes</a>.</p><p>As usual, you can download it from our <a href=\"/downloads/\">downloads page</a>.</p><p>On an unrelated side note, we received even more <a href=\"http://wiki.scummvm.org/index.php/Boot_Params\">boot params</a> from you, our dear users, in the past two weeks. Many thanks to those who contributed!</p>"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "ScummVM's Worst Kept Secret",
+    "author": "dreammaster",
+    "date": 1247232960,
+    "content": "<p>There'll be few of you that don't know that the <a href=\"/downloads/#daily\">daily build</a> of ScummVM has supported the first two Discworld games for some time now. Despite the stability of the engine, we held off announcing official support, since we were hoping to be able to simultaneously announce the freewaring of the game titles.</p><p>Since it seems unlikely the two games will be freewared in time for the next major release, it's been decided to go ahead and officially announce support for the games. The PC versions of the first two games are fully supported, and the PSX version of the Discworld 1 game is completable (but without music currently).</p><p>Those of you who haven't already played them can do so with the <a href=\"/downloads/#daily\">daily build</a> of ScummVM, <a href=\"/faq/#question.report-bugs\">report</a> all encountered bugs to our <a href=\"http://bugs.scummvm.org/\">bug tracker</a> and <a href=\"http://wiki.scummvm.org/index.php/Screenshots\">submit some nice screenshots</a>.</p>"
+}

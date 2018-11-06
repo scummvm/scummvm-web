@@ -1,0 +1,6 @@
+{
+    "title": "Code Freeze",
+    "author": "ender",
+    "date": 1016631360,
+    "content": "ScummVM is currently in a code freeze. This means the CVS will not be updated with any new bugfixes, as we are doing a major reorganisation of the engine. We hope that by rewriting many portions of ScummVM into proper C++, we can fix a large number of bugs inherant in the engine, as well as make the code easier to work with, for ourselves and developers wishing to join the project in the future. Note this means bug reports and patches currently in the system will not be looked at until after the freeze ends. We plan to freeze for a week, although it may take longer."
+}
