@@ -1,6 +1,6 @@
 {
-    "title": "GSoC 2011 &mdash; Results",
-    "author": "Strangerke",
-    "date": 1320586560,
-    "content": "<p><img src=\"/data/news/20110318.jpg\" alt=\"GSoC 2011 Logo\" align=\"right\"> This year, two students were accepted for ScummVM:</p><ul> <li>Jussi Pitkanen (Tiqpit)</li> <li><a href=\"http://enginmanap.blogspot.com/\">Engin Manap</a> (Enginmanap).</li> </ul><p>Tiqpit worked on improving the AGI Engine. Sadly, he decided to quit before the end of his tasks, but his code was of such good quality that it is now merged into master, so ScummVM benefits from his work.</p><p>Enginmanap worked on objectifying the CruisE engine. He did a great job, and his work is currently being polished before a final merge into master.</p><p>We were also represented at the mentor summit by sev and Strangerke.</p><p>We are really grateful to Google for all of their support, and are already working on GSoC 2012 tasks.</p>"
+    "title": "GSoC 2011 — Results",
+    "content": "<p><img src=\"/data/news/20110318.jpg\" alt=\"GSoC 2011 Logo\" align=\"right\" /> This year, two students were accepted for ScummVM:</p><ul><li>Jussi Pitkanen (Tiqpit)</li><li><a href=\"http://enginmanap.blogspot.com/\">Engin Manap</a> (Enginmanap).</li></ul><p>Tiqpit worked on improving the AGI Engine. Sadly, he decided to quit before the end of his tasks, but his code was of such good quality that it is now merged into master, so ScummVM benefits from his work.</p><p>Enginmanap worked on objectifying the CruisE engine. He did a great job, and his work is currently being polished before a final merge into master.</p><p>We were also represented at the mentor summit by sev and Strangerke.</p><p>We are really grateful to Google for all of their support, and are already working on GSoC 2012 tasks.</p>",
+    "date": "1320586560",
+    "author": "Strangerke"
 }

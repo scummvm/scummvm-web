@@ -1,6 +1,6 @@
 {
     "title": "Now you can see subtitles in Broken Sword 1 cutscenes",
-    "author": "sev",
-    "date": 1242567360,
-    "content": "<p>Since ScummVM 0.10.0 there has been unannounced support for subtitles in the <i>Broken Sword 1</i> cutscenes.</p><p>Now we finally managed to provide a package with subtitles for the following languages: English, Brazilian, German, Spanish, French, Italian and Russian. Also, subtitles for the English demo are provided.</p><p>You can grab the package from the <a href=\"/downloads/#extras\">downloads</a> page.</p><p>At the moment we still lack Czech subtitles, thus if you're willing to help us with providing them, please contact sev.</p>"
+    "content": "<p>Since ScummVM 0.10.0 there has been unannounced support for subtitles in the <i>Broken Sword 1</i> cutscenes.</p><p>Now we finally managed to provide a package with subtitles for the following languages: English, Brazilian, German, Spanish, French, Italian and Russian. Also, subtitles for the English demo are provided.</p><p>You can grab the package from the <a href=\"/downloads/#extras\">downloads</a> page.</p><p>At the moment we still lack Czech subtitles, thus if you're willing to help us with providing them, please contact sev.</p>",
+    "date": "1242567360",
+    "author": "sev"
 }

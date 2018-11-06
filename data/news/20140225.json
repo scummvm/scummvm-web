@@ -1,6 +1,6 @@
 {
     "title": "Let's welcome the GSoC students",
-    "author": "Strangerke",
-    "date": 1393335360,
-    "content": "<p><img src=\"/data/news/GSOC-14_banner.png\" alt=\"GSoC 2014 Banner\" align=\"middle\"></p><p>For the seventh year in a row, we have been accepted as a Google Summer of Code project.</p><p>Perhaps it is because both our project and the program have unusual letter casing? The world may never know, but we are thrilled to be accepted again and welcome fellow students to join our team and work on awesome 2D point-and-click adventures. If you are an eligible student for the GSoC and want to contribute to your favorite open-source project, take a look at <a href=\"http://wiki.scummvm.org/index.php/GSoC_Ideas\">our project ideas</a>, but you always can offer your own.</p><p>But, please, no Digger support: it's not an adventure!</p>"
+    "content": "<p><img src=\"/data/news/GSOC-14_banner.png\" alt=\"GSoC 2014 Banner\" align=\"middle\" /></p><p>For the seventh year in a row, we have been accepted as a Google Summer of Code project.</p><p>Perhaps it is because both our project and the program have unusual letter casing? The world may never know, but we are thrilled to be accepted again and welcome fellow students to join our team and work on awesome 2D point-and-click adventures. If you are an eligible student for the GSoC and want to contribute to your favorite open-source project, take a look at <a href=\"http://wiki.scummvm.org/index.php/GSoC_Ideas\">our project ideas</a>, but you always can offer your own.</p><p>But, please, no Digger support: it's not an adventure!</p>",
+    "date": "1393335360",
+    "author": "Strangerke"
 }

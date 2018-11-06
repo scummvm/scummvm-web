@@ -1,6 +1,6 @@
 {
     "title": "Second life for Sarien?",
-    "author": "aquadran",
-    "date": 1148477760,
-    "content": "<p>Hi folks!</p><p>As you may have noticed, we are now including the AGI engine in our development source tree aka SVN. This engine allows you to play early versions of games such as Larry 1, Space Quest 1&amp;2, King's Quest 1-4, Police Quest 1, and numerous fanmade games. It is based on the <a href=\"http://sarien.sourceforge.net\">Sarien</a> code, with its authors expressed permission.</p><p>We would also like to clarify that we don't have any plans to add support for SCI games in the foreseeable future. Furthermore, AGI is an in-development engine, so it will not be included in the upcoming 0.9.0 release.</p><p>PS. This is not part of the <font color=\"#e8e7e7\">CABAL</font> project :-)</p>"
+    "content": "<p>Hi folks!</p><p>As you may have noticed, we are now including the AGI engine in our development source tree aka SVN. This engine allows you to play early versions of games such as Larry 1, Space Quest 1&2, King's Quest 1-4, Police Quest 1, and numerous fanmade games. It is based on the <a href=\"http://sarien.sourceforge.net\">Sarien</a> code, with its authors expressed permission.</p><p>We would also like to clarify that we don't have any plans to add support for SCI games in the foreseeable future. Furthermore, AGI is an in-development engine, so it will not be included in the upcoming 0.9.0 release.</p><p>PS. This is not part of the <font color=\"#e8e7e7\">CABAL</font> project :-)</p>",
+    "date": "1148477760",
+    "author": "aquadran"
 }

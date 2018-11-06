@@ -1,6 +1,6 @@
 {
     "title": "ScummVM project has moved to new Issue Tracker",
-    "author": "sev",
-    "date": 1471354560,
-    "content": "<p>Thanks to the hard work of wjp, we have moved away from SF.net to our own tracker at <a href=\"https://bugs.scummvm.org\">https://bugs.scummvm.org</a>. This new service should be faster and more reliable than the old SF.net bug tracker.</p><p>All information has been migrated from the old bug tracker, including patches (though these days we encourage people to submit patches using a <a href=\"https://github.com/scummvm/scummvm/pulls\">GitHub Pull Request</a> instead).</p><p>For authentication, the new bug tracker uses GitHub accounts via OAuth2, which should make signing up safer and easier. We transferred all accounts from SF.net, but did not set up any e-mail addresses. Thus, after you log in for the first time, please make sure you specify your e-mail address in the preferences, otherwise we will not be able to get in contact with you.</p>"
+    "content": "<p>Thanks to the hard work of wjp, we have moved away from SF.net to our own tracker at <a href=\"https://bugs.scummvm.org\">https://bugs.scummvm.org</a>. This new service should be faster and more reliable than the old SF.net bug tracker.</p><p>All information has been migrated from the old bug tracker, including patches (though these days we encourage people to submit patches using a <a href=\"https://github.com/scummvm/scummvm/pulls\">GitHub Pull Request</a> instead).</p><p>For authentication, the new bug tracker uses GitHub accounts via OAuth2, which should make signing up safer and easier. We transferred all accounts from SF.net, but did not set up any e-mail addresses. Thus, after you log in for the first time, please make sure you specify your e-mail address in the preferences, otherwise we will not be able to get in contact with you.</p>",
+    "date": "1471354560",
+    "author": "sev"
 }

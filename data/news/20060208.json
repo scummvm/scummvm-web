@@ -1,6 +1,6 @@
 {
     "title": "ScummVM 0.8.2 \"Broken Broken Sword 2\" released",
-    "author": "sev",
-    "date": 1139405760,
-    "content": "<p>Due to a bug discovered in 0.8.1, which rendered Broken Sword 2 unplayable, we're forced to release ScummVM 0.8.2 \"Broken Broken Sword 2\". Also, we used this opportunity to fix the WinCE builds, as well as the MacOS X bundle.</p><p>As usual, you can get builds for all supported platforms on our <a href=\"/downloads/\">downloads page</a></p>"
+    "content": "<p>Due to a bug discovered in 0.8.1, which rendered Broken Sword 2 unplayable, we're forced to release ScummVM 0.8.2 \"Broken Broken Sword 2\". Also, we used this opportunity to fix the WinCE builds, as well as the MacOS X bundle.</p><p>As usual, you can get builds for all supported platforms on our <a href=\"/downloads/\">downloads page</a></p>",
+    "date": "1139405760",
+    "author": "sev"
 }

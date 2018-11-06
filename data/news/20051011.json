@@ -1,6 +1,6 @@
 {
     "title": "A great call of testers.",
-    "author": "sev",
-    "date": 1129037760,
-    "content": "<p>Hello, fellow users. Now it's time to help the ScummVM team bring out a new release of err... ScummVM. Ta-da!</p><p>We have a large amount of changes, new features and bugfixes. Almost every aspect of the program was touched, tuned, altered. So we once again need to ask for testers of every game we support.</p><p>We'd like to mention two completely new titles we support now. They are Inherit the Earth and Gobliiins (first one in the series). Please, pay attention to those too.</p><p>Instructions on how to do the testing are located at our <a href=\"http://wiki.scummvm.org/index.php/Release_Testing\">Wiki page</a>. Please, stick to those and report on our mailing list, on #scummvm or in our forums.</p>"
+    "content": "<p>Hello, fellow users. Now it's time to help the ScummVM team bring out a new release of err... ScummVM. Ta-da!</p><p>We have a large amount of changes, new features and bugfixes. Almost every aspect of the program was touched, tuned, altered. So we once again need to ask for testers of every game we support.</p><p>We'd like to mention two completely new titles we support now. They are Inherit the Earth and Gobliiins (first one in the series). Please, pay attention to those too.</p><p>Instructions on how to do the testing are located at our <a href=\"http://wiki.scummvm.org/index.php/Release_Testing\">Wiki page</a>. Please, stick to those and report on our mailing list, on #scummvm or in our forums.</p>",
+    "date": "1129037760",
+    "author": "sev"
 }

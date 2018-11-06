@@ -1,6 +1,6 @@
 {
     "title": "Dreamcast Port of ScummVM",
-    "author": "laxdragon",
-    "date": 1012743360,
-    "content": "<a href=\"https://sourceforge.net/sendmessage.php?touser=446790\">Marcus Comstedt</a> has recently committed the SEGA Dreamcast port of ScummVM to CVS. <a href=\"http://www.doc.ic.ac.uk/~mbt99/dcdev/\">Mark Thomas' Dreamcast Development</a> website has more info on, and binary images of this outstanding port. More information on Dreamcast emulation can be found at <a href=\"http://www.dcemulation.com/\">DC Emulation</a>."
+    "content": "<a href=\"https://sourceforge.net/sendmessage.php?touser=446790\">Marcus Comstedt</a> has recently committed the SEGA Dreamcast port of ScummVM to CVS. <a href=\"http://www.doc.ic.ac.uk/~mbt99/dcdev/\">Mark Thomas' Dreamcast Development</a> website has more info on, and binary images of this outstanding port. More information on Dreamcast emulation can be found at <a href=\"http://www.dcemulation.com/\">DC Emulation</a>.",
+    "date": "1012743360",
+    "author": "laxdragon"
 }
