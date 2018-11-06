@@ -17,7 +17,7 @@
       "post-install-cmd": [
         "pscss -f compressed ./scss/main.scss > ./css/main.css",
         "pscss -f compressed ./scss/pages/_cloud-style.scss > ./css/cloud-style.css",
-        "php include/Translations.php"
+        "php include/I18N.php"
       ],
       "build": [
         "cd site-update;./install.sh;cd .."
