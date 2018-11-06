@@ -23,7 +23,7 @@ class News extends BasicObject {
 	 *
 	 */
 	public function __construct($data, $filename, $processContent = false) {	
-		$this->_title = $processContent ? $this->processText($data->name) : $data->name;
+		$this->_title = $processContent ? $this->processText($data->title) : $data->title;
 		/* Store the date as an unix timestamp*/
 		$this->_date = $data->date;
 		$this->_author = $data->author;

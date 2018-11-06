@@ -11,43 +11,40 @@ abstract class NewsModel extends BasicModel {
 
 	/* Get a list of all the available news dates. */
 	static public function getListOfNewsDates() {
-		if (!($jsonString = file_get_contents(DIR_NEWS . '/news.en.json'))) {
+		if (!($files = scandir(DIR_NEWS))) {
 			throw new ErrorException(self::NO_FILES);
 		}
 		$dates = array();
-		$json = json_decode($jsonString);
-		foreach ($json as $key => $value) {
-			$dates[] = substr($key, 0, -4);
+		foreach ($files as $file) {
+			if (substr($file, -5) != '.json') {
+				continue;
+			}
+			$dates[] = substr($file, 0, -5);
 		}
 		sort($dates, SORT_STRING);
 		return $dates;
 	}
 
 	/* Get all news items ordered by date, descending. */
-	static public function getAllNews($processContent = false, $returnAsJsonObject = false) {
-		if (!($jsonString = file_get_contents(DIR_NEWS . '/news.en.json'))) {
+	static public function getAllNews($processContent = false) {
+		if (!($files = scandir(DIR_NEWS))) {
 			throw new ErrorException(self::NO_FILES);
 		}
 		global $lang;
 		$news = array();
-		$json = json_decode($jsonString);
-
-		if ($lang != "en") {
-			$langJson = json_decode(file_get_contents( DIR_NEWS . "/news.$lang.json"));
-		}
-
-		foreach ($json as $key => $value) {			
-			if ($langJson->$key) {
-				$value = $langJson->$key;
+		foreach ($files as $filename) {
+			if (substr($filename, -5) != '.json') {
+				continue;
 			}
-
-			$news[] = new News($value, $key, $processContent);
+			if (!is_file(($fname = DIR_NEWS . "/$lang/" . basename($filename)))
+				|| !is_readable($fname) || !($data = @file_get_contents($fname))) {
+				if (!($data = @file_get_contents(DIR_NEWS . "/{$filename}"))) {
+					continue;
+				}
+			}
+			$news[] = new News(json_decode($data), $filename, $processContent);
 		}
-
-		if ($returnAsJsonObject)
-			return $json;
-
-		return $news;
+		return array_reverse($news);
 	}
 
 	/* Get the latest number of news items, or if no number is specified get all news items. */
@@ -55,37 +52,59 @@ abstract class NewsModel extends BasicModel {
 		if ($num == -1) {
 			return NewsModel::getAllNews($processContent);
 		} else {
-			if (!($newslist = NewsModel::getAllNews())) {
+			if (!($newslist = NewsModel::getListOfNewsDates())) {
 				throw new ErrorException(self::NO_FILES);
 			}
-			return array_slice($newslist, 0, $num);
+			rsort($newslist, SORT_STRING);
+			$newslist = array_slice($newslist, 0, $num);
+			$news = array();
+			foreach ($newslist as $date) {
+				$news[] = NewsModel::getOneByDate($date, $processContent);
+			}
+			return $news;
 		}
 	}
 
 	/* Get the news item that was posted on a specific date. */
 	static public function getOneByDate($date, $processContent = false) {
-		$key = "{$date}.xml";
-		$news = NewsModel::getAllNews($processContent, true);
-		return new News($news->$key, $key, $processContent);
+		if (is_null($date) || !preg_match('/^\d{8}[a-z]?$/', $date)) {
+			throw new ErrorException(self::INVALID_DATE);
+		}
+		global $lang;
+		if (!is_file(($fname = DIR_NEWS . "/$lang/{$date}.json"))
+			|| !is_readable($fname) || !($data = @file_get_contents($fname))) {
+			if (!is_file(($fname = DIR_NEWS . "/{$date}.json"))
+				|| !is_readable($fname) || !($data = @file_get_contents($fname))) {
+				throw new ErrorException(self::FILE_NOT_FOUND);
+			}
+		}
+		return new News(json_decode($data), $fname, $processContent);
 	}
 
 	/* Get the news item that was posted on a specific date. */
 	static public function getAllByDate($date, $processContent = false) {
-		$key = "{$date}.xml";
-		$news = NewsModel::getAllNews($processContent, true);
-
-		$newsForDate = array();
-		$newsForDate[] = new News($news->$key, $key, $processContent);
-
-		$char = 'a';
-
-		$newKey = substr_replace($key, $char, strlen($key-4), 0);
-		while ($news->$newKey) {
-			$newsForDate[] = new News($news->$newKey, $newKey, $processContent);
-			$newKey = substr_replace($key, ++$char, strlen($key-4), 0);
+		if ($date == null || !is_numeric($date) || strlen($date) != 8) {
+			throw new ErrorException(self::INVALID_DATE);
 		}
-
-		return array_reverse($newsForDate);
+		$files = glob(DIR_NEWS . "/{$date}*.json");
+		if (!is_array($files) || count($files) == 0) {
+			throw new ErrorException(self::FILE_NOT_FOUND);
+		}
+		natsort($files);
+		global $lang;
+		$files = array_reverse($files);
+		$news = array();
+		foreach ($files as $filename) {
+			if (!is_file(($fname = DIR_NEWS . "/$lang/" . basename($filename)))
+				|| !is_readable($fname) || !($data = @file_get_contents($fname))) {
+				if (($data = @file_get_contents($filename))) {
+					$news[] = new News(json_decode($data), $filename, $processContent);
+				}
+			} else {
+				$news[] = new News(json_decode($data), $fname, $processContent);
+			}
+		}
+		return $news;
 	}
 }
 ?>
