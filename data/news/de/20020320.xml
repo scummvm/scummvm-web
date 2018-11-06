@@ -1,8 +1,0 @@
-<NAME>Code-Sperre</NAME>
-<DATE>Mar 20, 2002</DATE>
-<AUTHOR>ender</AUTHOR>
-<BODY>
-	ScummVM hat momentan eine Code-Sperre. Das bedeutet, dass keine neuen Fehlerbeseitigungen zum CVS hinzugefügt werden, da wir eine größere Reorganisation der Engine vornehmen.
-	Wir hoffen, dadurch dass wir viele Teile von ScummVM in ordentlichem C++ neuschreiben, wir sowohl  eine große Anzahl an Fehlern beseitigen können, die sich in der Engine befinden, als auch der Code leichter zu bearbeiten sein wird für uns wie auch die Entwickler, die sich dem Projekt in Zukunft anschließen wollen.
-	Bitte beachten Sie, dass dies bedeutet, dass Fehlerberichte und Patches momentan im System nicht angesehen werden, bis die Sperre beendet ist. Wir haben eine Woche eingeplant, jedoch könnte es länger dauern.
-</BODY>
