@@ -305,7 +305,7 @@
         "author": "wjp",
         "content": "<p> <img src=\"/data/news/GSOC-14_banner.png\" alt=\"GSoC 2014 Banner\" align=\"middle\"> </p> <p> The accepted Google Summer of Code proposals have been announced yesterday, and we are pleased to say that ScummVM will be mentoring two students, for projects with a Polish theme. </p> <ul> <li>Peter Bozsσ (a.k.a. uruk), who you may remember from last year, will work on an engine (and translation to English) of the Polish game <b><i>Sfinx</i></b>.</li> <li>Lukasz Watka (a.k.a. lukaslw) will work on an engine (and translation to English) of the Polish game <b><i>The Prince and the Coward</i></b>.</li> </ul> <p> Additionally, ScummVM is acting as an umbrella organisation during GSoC for our sister project ResidualVM. They will be mentoring three students: </p> <ul> <li>Stefano Musumeci (a.k.a. subr3v) will be working on refactoring and optimizing the <b><i>TinyGL software renderer</i></b>.</li> <li>Joni Vδhδmδki (a.k.a. Akz) and Joseph Jezak (a.k.a. JoseJX) will both be working on improving the <b><i>Escape from Monkey Island</i></b> engine, tackling bugs and missing features from two different angles.</li> </ul> <p> We expect it will be a productive and interesting summer! </p>"
     },
-    "20140401b.xml": {
+    "20140401a.xml": {
         "name": "Edward Snowden joins ScummVM",
         "date": 1396326486,
         "author": "Digitall",
@@ -491,7 +491,7 @@
         "author": "Strangerke",
         "content": "<p> <img src=\"/data/news/GSOC_12_logo.png\" alt=\"GSoC 2012 Logo\" align=\"middle\"> </p> <p>Almost six weeks ago, we announced you that ScummVM has been accepted by Google for its Google Summer of Code 2012. Since then, we received many good applications and we asked a lot of efforts to the students to clarify and enhance theirs. We'd like to thank them all for all these efforts!</p> <p>Yesterday, Google announced the list of accepted students and tasks per project and it's with great joy that we announce you that this year, 4 students will be working on ScummVM tasks:</p> <ul> <li><i>Jakimushka</i> will work on a new testing framework based on an event recorder/player</li> <li><i>Singron</i> will turn scalers into plugins and will add some new ones</li> <li><i>Somaen</i> will integrate the Wintermute Lite engine and will add some currently missing functionalities</li> <li><i>Upthorn</i> will work on a new save anywhere feature, per engine, particularly useful for mobile devices</li> </ul> <p>We'd like to welcome them warmly and to wish them the best! And of course, last but not least, we'd like to thank Google for giving us the possibility, once more, to work with talented students during summer time.</p>"
     },
-    "20120401b.xml": {
+    "20120401a.xml": {
         "name": "ScummVM .NET",
         "date": 1333254486,
         "author": "<del>ST</del> clone2727",

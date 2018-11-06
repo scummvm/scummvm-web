@@ -22,20 +22,12 @@ class News extends BasicObject {
 	 *
 	 *
 	 */
-	public function __construct($data, $filename, $processContent = false) {
-		$vars = array();
-		preg_match("/<NAME>(.*)<\/NAME>.*		# Grab the title
-					<DATE>(.*)<\/DATE>.*		# Grab the date
-					<AUTHOR>(.*)<\/AUTHOR>.*	# Grab the author
-					<BODY>(.*)<\/BODY>			# Grab the body
-					/sUx", $data, $vars);
-		if (count($vars) == 5) {
-			$this->_title = $processContent ? $this->processText($vars[1]) : $vars[1];
-			/* Store the date as an unix timestamp*/
-			$this->_date = date_timestamp_get(date_create_from_format("M d, Y", $vars[2]));
-			$this->_author = $vars[3];
-			$this->_content = $processContent ? $this->processText($vars[4]) : $vars[4];
-		}
+	public function __construct($data, $filename, $processContent = false) {	
+		$this->_title = $processContent ? $this->processText($data->name) : $data->name;
+		/* Store the date as an unix timestamp*/
+		$this->_date = $data->date;
+		$this->_author = $data->author;
+		$this->_content = $processContent ? $this->processText($data->content) : $data->content;
 		$this->_filename = basename($filename);
 	}
 
