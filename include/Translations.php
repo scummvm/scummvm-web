@@ -29,24 +29,16 @@ class Translations {
     $news = $this->getAllNews($lang);
     $newsJson = new stdClass();
     foreach ($news as $key => $value) {
-      $objKey = $value->getFilename();
-      
-      if ($lang == 'en') {
-        $newsJson->$objKey = array(
-          "name" => $value->getTitle(),
-          "date" => $value->getDate(),
-          "author" => $value->getAuthor(),
-          "content" => preg_replace('/( {2,})/', ' ', preg_replace('/(\\r)|(\\n)|(\\t)/', ' ', trim($value->getContent())))        
-        );
-      } else {
-        $newsJson->$objKey = array(
-          "name" => $value->getTitle(),          
-          "content" => preg_replace('/( {2,})/', ' ', preg_replace('/(\\r)|(\\n)|(\\t)/', ' ', trim($value->getContent())))        
-        );
-      }                  
+      $objKey = $value->getFilename();           
+      $newsJson->$objKey = array(
+        "name" => $value->getTitle(),
+        "date" => $value->getDate(),
+        "author" => $value->getAuthor(),
+        "content" => preg_replace('/( {2,})/', ' ', preg_replace('/(\\r)|(\\n)|(\\t)/', ' ', trim($value->getContent())))        
+      );      
     }
 
-    file_put_contents('data/news/json/news.'  . $lang . '.json', json_encode($newsJson, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES |  JSON_UNESCAPED_UNICODE));
+    file_put_contents('data/news/news.'  . $lang . '.json', json_encode($newsJson, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES |  JSON_UNESCAPED_UNICODE));
   }
 
   private function getAllNews($lang) {

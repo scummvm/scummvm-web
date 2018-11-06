@@ -36,11 +36,9 @@ abstract class NewsModel extends BasicModel {
 			$langJson = json_decode(file_get_contents( DIR_NEWS . "/news.$lang.json"));
 		}
 
-		foreach ($json as $key => $value) {
-			$data = $value;
+		foreach ($json as $key => $value) {			
 			if ($langJson->$key) {
-				$value->name = $langJson->$key->name;
-				$value->content = $langJson->$key->content;
+				$value = $langJson->$key;
 			}
 
 			$news[] = new News($value, $key, $processContent);
