@@ -902,6 +902,11 @@
 					<url>https://curl.haxx.se/libcurl/</url>
 					<description>: URL transfer library</description>
 				</link>
+				<link>
+					<name>liba52</name>
+					<url>http://liba52.sourceforge.net/</url>
+					<description>: A free ATSC A/52 stream decoder</description>
+				</link>
 			</entries>
 		</subsection>
 	</section>
