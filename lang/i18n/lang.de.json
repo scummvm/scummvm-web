@@ -6,7 +6,7 @@
     "compatibilityBugged": "Fehlerhaft",
     "compatibilityGood": "Gut",
     "compatibilityExcellent": "Hervorragend",
-    "compatibilityTitle": "Kompatibilitätsliste - {version}",
+    "compatibilityTitle": "Kompatibilität - {version}",
     "compatibilityContentTitle": "Kompatibilitätliste für {version}",
     "compatibilityDetailsInto": "Details zur Kompatibilität",
     "compatibilityDetailsChartTitle": "Kompatibilitätsliste",
