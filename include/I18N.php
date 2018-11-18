@@ -63,7 +63,7 @@ class I18N {
 				);
 			}
 
-			file_put_contents(DIR_NEWS . "/i18n/news.{$lang}.json", json_encode($newsJson, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES |  JSON_UNESCAPED_UNICODE));
+			file_put_contents(DIR_NEWS . "/i18n/news.{$lang}.json", json_encode($newsJson, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES |  JSON_UNESCAPED_UNICODE) . "\n");
     }
 
   }
