@@ -24,3 +24,6 @@
 # Generated lang ini
 /lang/*.ini
 /lang/po
+
+# Webhook files
+/site-update/webhook.log

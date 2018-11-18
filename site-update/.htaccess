@@ -1,4 +1,8 @@
+RewriteEngine On
+RewriteRule ^([^/.]+)/?$ $1.php [L]
+
 AuthType basic
 AuthName "cgi-bin restricted"
 AuthUserFile /etc/awstats/awstats.htpasswd
-Require valid-user 
+Require expr %{REQUEST_URI} =~ m#^/site-update/webhook/?#
+Require valid-user
