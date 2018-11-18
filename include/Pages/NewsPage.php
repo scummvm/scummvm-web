@@ -14,32 +14,28 @@ class NewsPage extends Controller {
 
 	/* Display the index page. */
 	public function index() {
-		$date = isset($_GET['d']) ? $_GET['d'] : null;
+		$filename = isset($_GET['d']) ? $_GET['d'] : null;
 
-		if ($date != null) {
-			if (strtolower($date) == 'archive' || $date == '') {
-				$date = null;
+		if ($filename != null) {
+			if (strtolower($filename) == 'archive' || $filename == '') {
+				$filename = null;
 			}
-			return $this->getNews($date);
+			return $this->getNews($filename);
 		}
 		return $this->getNewsIntro();
 	}
 
 	/* Display a specific news item, or all news items. */
-	public function getNews($date = null) {
+	public function getNews($filename = null) {
 		global $Smarty;
 
-		if ($date == null) {
+		if ($filename == null) {
 			$news_items = NewsModel::getAllNews();
-			$date = 'archive';
+			$filename = 'archive';
 		} else {
-			if (strlen($date) == 8) {
-				$news_items = NewsModel::getAllByDate($date);
-			} else {
-				$news_items = array(NewsModel::getOneByDate($date));
-			}
+			$news_items = array(NewsModel::getOneByFilename($filename));
 		}
-    
+
 		return $this->renderPage(
 			array(
 				'title' => $Smarty->getConfigVars('newsTitle'),
@@ -47,7 +43,6 @@ class NewsPage extends Controller {
 				'show_intro' => false,
 				'news_items' => $news_items,
 				'news_archive_link' => false,
-				'date' => $date,
 			),
 			$this->_template
 		);

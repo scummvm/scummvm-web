@@ -12,19 +12,20 @@ class News extends BasicObject {
 	private $_filename;
 
 	/**
-	 * News object constructor that extracts the data from the pseudo-XML scheme
+	 * News object constructor that extracts the data from the JSON scheme
 	 * used. The format looks like this:
 	 *
-	 * <NAME>Schwag</NAME>
-	 * <DATE>1st january, 1770</DATE>
-	 * <AUTHOR>Guybrush Threepwood</AUTHOR>
-	 * <BODY>All I got was this lousy t-shirt!</BODY>
+   * {
+   *    "title": "Article Title",
+   *    "content": "Your article content goes here",
+   *    "date": "UNIX timestamp",
+   *    "author": "Name"
+   * }
 	 *
 	 *
 	 */
-	public function __construct($data, $filename, $processContent = false) {	
+	public function __construct($data, $filename, $processContent = false) {
 		$this->_title = $processContent ? $this->processText($data->title) : $data->title;
-		/* Store the date as an unix timestamp*/
 		$this->_date = $data->date;
 		$this->_author = $data->author;
 		$this->_content = $processContent ? $this->processText($data->content) : $data->content;
@@ -71,7 +72,7 @@ class News extends BasicObject {
 
   /* Get the News link. */
   public function getLink() {
-    return URL_BASE . 'news/' . rtrim($this->_filename, "a..z.");
+    return URL_BASE . 'news/' . substr( $this->_filename, 0, -5);
   }
 }
 ?>

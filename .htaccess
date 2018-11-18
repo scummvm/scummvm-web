@@ -130,7 +130,7 @@ RewriteRule		^(feeds)/(atom|rss)/?										?p=$1&f=$2 [L,QSA]
 ##
 # News
 ##
-RewriteRule		^(news)(/([0-9]{8}[a-z]?|archive))?/?$							?p=$1&d=$3 [L,QSA]
+RewriteRule		^(news)(/([0-9]{8,12}[a-z]?|archive))?/?$							?p=$1&d=$3 [L,QSA]
 
 ##
 # Screenshots
