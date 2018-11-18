@@ -1,0 +1,6 @@
+{
+    "title": "More infrastructure updates",
+    "content": "<p>A few weeks ago, we started improving our website, including (but not limited to) dusting off our forums and our wiki. There's also some stuff going on 'behind the scenes' like improving the way we handle translations for this website.</p><p>Over the next couple of days, we are going to roll out a new mirroring system for the downloads we provide in order to allow us to distribute the necessary bandwidth across several servers.</p><p>We are almost done with setting up the new system and basically just have to 'flip the switch'. However, it is possible that you might run into issues like broken download links or messages complaining about missing files during the transition period.</p><p>We are working hard to keep service interruptions as minimal as possible. Many thanks for your understanding!</p>",
+    "date": "1542557654",
+    "author": "lotharsm"
+}
