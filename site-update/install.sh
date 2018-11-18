@@ -39,6 +39,12 @@ echo "Composer home:" $COMPOSER_HOME
 echo '$ composer install'
 composer install 2>&1
 
+# Update i18n
+echo 'Update base news translation file'
+git add data/news/i18n/news.en.json
+git commit -m "I18N: Update base news translation file"
+git push
+
 # Run npm install
 echo "$ npm install"
 npm install 2>&1
