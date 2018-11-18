@@ -56,8 +56,9 @@ switch (strtolower($_SERVER['HTTP_X_GITHUB_EVENT'])) {
       echo 'pong';
       break;
     case 'push':
-      exec('sh install.sh > webhook.log &');
       echo 'Site update is running, details area available in webhook.log';
+      sleep(2);
+      exec('sh install.sh > webhook.log &');
       break;
     default:
       header('HTTP/1.0 404 Not Found');
