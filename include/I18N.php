@@ -42,13 +42,13 @@ class I18N {
 			$i18n = json_decode(file_get_contents(DIR_NEWS . "/i18n/news.{$lang}.json"));
 
 			foreach ($i18n as $key => $value) {
-				$originalJson = json_decode(file_get_contents(DIR_NEWS . "/{$key}"));
+				$originalJson = json_decode(file_get_contents(DIR_NEWS . "/{$key}.json"));
 				$value->date = $this->_purifier->purify( $originalJson->date );
         $value->author = $this->_purifier->purify( $originalJson->author );
         $value->title = $this->_purifier->purify( $value->title );
         $value->content = $this->_purifier->purify( $value->content );
 
-        file_put_contents(DIR_NEWS . "/{$lang}/{$key}", json_encode($value, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES |  JSON_UNESCAPED_UNICODE));
+        file_put_contents(DIR_NEWS . "/{$lang}/{$key}.json", json_encode($value, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES |  JSON_UNESCAPED_UNICODE));
 			}
     }
     else {
@@ -85,7 +85,8 @@ class I18N {
       if (!($data = @file_get_contents($dir . "/{$filename}"))) {
         continue;
       }
-			$news->$filename = json_decode($data);
+      $key = rtrim($filename, ".json");
+			$news->$key = json_decode($data);
 		}
 		return $news;
 	}
