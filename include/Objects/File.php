@@ -64,6 +64,14 @@ class File extends BasicObject {
 				if ($ext == '.bz2' || $ext == '.gz' || $ext == '.xz' || $ext == '.7z')
 					$ext = substr($url, strrpos($url, '.', -(strlen($url) - strrpos($url, '.') + 1)));
 
+        if (is_file($fname . '.sha256') && is_readable($fname . '.sha256')) {
+          $this->_extra_info['sha256'] = file_get_contents($fname . '.sha256');
+        } else {
+          $hash = hash_file('sha256', $fname);
+          $this->_extra_info['sha256'] = $hash;
+          file_put_contents($fname . '.sha256', $hash);
+        }
+
 				$this->_extra_info['ext'] = $ext;
 				$this->_extra_info['msg'] = $data['extra_msg'];
 			}

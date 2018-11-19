@@ -1,7 +1,7 @@
 {if is_array($list) && $list|@count > 0}
-	<ul class="downloads">  
-  {foreach from=$list item=item}  
-    {if $item instanceof File}        
+	<ul class="downloads">
+  {foreach from=$list item=item}
+    {if $item instanceof File}
 			{assign var='data' value=$item->getExtraInfo()}
 			<li class="file">
 				<span class="sprite-{$type}-{$item->getCategoryIcon()} sprite"></span>
@@ -11,7 +11,8 @@
 					{if is_array($data)}
 						(
 							{if $item->getType() == 'daily'}{#listItemsBuildFromRepo#} {/if}
-							{$data.size} {if $data.ext == '.exe'}Win32 {/if}{$data.ext}{if $data.date != ""}{#listItemsDate#} {$data.date}{/if}
+              {$data.size} {if $data.ext == '.exe'}Win32 {/if}{$data.ext}{if $data.date != ""}{#listItemsDate#} {$data.date}{/if}
+              {if $data.sha256 != ""} sha256: <a href="{eval var=$item->getURL()}.sha256">{$data.sha256}</a>{/if}
 						)  {if $data.msg != ""}{$data.msg}{/if}
 					{else}
 						{if $item->getType() != 'daily'}
