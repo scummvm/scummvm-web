@@ -64,7 +64,9 @@ class File extends BasicObject {
 				if ($ext == '.bz2' || $ext == '.gz' || $ext == '.xz' || $ext == '.7z')
 					$ext = substr($url, strrpos($url, '.', -(strlen($url) - strrpos($url, '.') + 1)));
 
-        if (is_file($fname . '.sha256') && is_readable($fname . '.sha256')) {
+        if ( (is_file($fname . '.sha256') && is_readable($fname . '.sha256'))
+             && (@filemtime($fname . '.sha256') > @filemtime($fname)) )
+        {
           $this->_extra_info['sha256'] = file_get_contents($fname . '.sha256');
         } else {
           $hash = hash_file('sha256', $fname);
@@ -90,7 +92,7 @@ class File extends BasicObject {
 				}
 			}
 		}
-	}
+  }
 
 	/* Get the category icon. */
 	public function getCategoryIcon() {
