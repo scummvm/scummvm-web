@@ -8,7 +8,7 @@ ul.downloads {
     font-size: x-small;
   }
   li.link {
-    margin-left: 1.5em;  
+    margin-left: 1.5em;
   }
 }
 
@@ -39,12 +39,12 @@ span.daily_provider {
 		border: 1px solid $theme-download-text;
 		box-shadow: 0 0 10px $black;
 		text-decoration: none;
-		background: $theme-download-background linear-gradient(to bottom, lighten($theme-download-background, 40%) 0%, $theme-download-background 100%);;;  
+		background: $theme-download-background linear-gradient(to bottom, lighten($theme-download-background, 40%) 0%, $theme-download-background 100%);;;
 		img {
 			display: block;
 			float: left;
 			margin: 0 auto;
-	
+
 			@include respond-to('small') {
 				float: none;
 			}
@@ -52,7 +52,7 @@ span.daily_provider {
 		&:hover {
 			background: lighten($theme-download-background, 40%) linear-gradient(to bottom, lighten($theme-download-background, 50%) 0%, lighten($theme-download-background, 40%) 35%, $theme-download-background 100%);
 		}
-		
+
 		.downloadText {
 			font-size: 2em;
 			line-height: 1.3em;
@@ -65,4 +65,9 @@ span.daily_provider {
 ul.downloads {
   margin: 0;
   padding: 0;
+}
+
+.sha256-toggle {
+	text-decoration: underline;
+	cursor: pointer;
 }
