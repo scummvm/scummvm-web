@@ -13,18 +13,18 @@
 		<name>ScummVM team</name>
 		<uri>http://www.scummvm.org/</uri>
 	</author>
-	<updated>{$updated|date_f:'Y-m-d\Th:i:s\Z'}</updated>
+	<updated>{$updated|date_f:'Y-m-d\TH:i:s\Z'}</updated>
 	{foreach from=$news item=n}
 		{assign var='timezone_offset' value=$n->getDate()|date_f:'Z'}
 		{assign var='updated' value=$n->getDate()-$timezone_offset}
-		{assign var='news_filename' value=$n->getFilename()|substr:'0':'-4'}
+		{assign var='news_filename' value=$n->getFilename()|substr:'0':'-5'}
     {assign var='link' value=$n->getLink()}
 
 		<entry xml:lang="en">
-			<id>{$baseurl}news/archive/#{$n->getDate()|date_f:'Y-m-d'}{if $news_filename|strlen == 9}{$news_filename|substr:'-1'}{/if}</id>
+			<id>{$baseurl}news/archive/#{$news_filename}</id>
 			<link rel="alternate" href="{$link}" />
-			<updated>{$updated|date_f:'Y-m-d\Th:i:s\Z'}</updated>
-			<published>{$updated|date_f:'Y-m-d\Th:i:s\Z'}</published>
+			<updated>{$updated|date_f:'Y-m-d\TH:i:s\Z'}</updated>
+			<published>{$updated|date_f:'Y-m-d\TH:i:s\Z'}</published>
 			<title type="html">{$n->getTitle()}</title>
 			<content type="html" xml:base="http://www.scummvm.org"><![CDATA[{$n->getContent()}]]></content>
 			{if $n->getAuthor() != ''}
