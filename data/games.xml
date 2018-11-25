@@ -22,6 +22,18 @@
 			</entries>
 		</subsection>
 
+		<subsection
+			<title>Broken Sword 2.5</title>
+			<anchor>sword25</anchor>
+			<entries>
+				<file>
+					<category_icon>sword</category_icon>
+					<url>Broken Sword 2.5/sword25-v1.0.zip</url>
+					<name>Broken Sword 2.5, Freeware Version</name>
+				</file>
+			</entries>
+		</subsection>
+
 		<subsection>
 			<title>Dreamweb</title>
 			<anchor>dreamweb</anchor>
