@@ -11,7 +11,7 @@
 					{if is_array($data)}
 						(
 							{if $item->getType() == 'daily'}{#listItemsBuildFromRepo#} {/if}
-              {$data.size} {if $data.ext == '.exe'}Win32 {/if}{$data.ext}{if $data.date != ""}{#listItemsDate#} {$data.date}{/if}
+              {$data.size} {if $data.ext == '.exe'}Win32 {/if}{$data.ext}{if $data.date != ""}{#listItemsDate#} {$data.date} <a href="{eval var=$item->getURL()}.mirrorlist">mirrorlist</a>{/if}
               {if $data.sha256 != ""} <span class="sha256-toggle" onclick="this.nextSibling.classList.toggle('hidden')">sha256</span><span class="sha256-text hidden"> <a href="{eval var=$item->getURL()}.sha256">{$data.sha256}</a></span>{/if}
 						)  {if $data.msg != ""}{$data.msg}{/if}
 					{else}
