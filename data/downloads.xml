@@ -840,7 +840,7 @@
 				<link>
 					<name>Ogg Vorbis</name>
 					<url>http://www.xiph.org/vorbis/</url>
-					<description></description>
+					<description>: A free codec for lossy audio compression</description>
 				</link>
 				<link>
 					<name>FLAC</name>
