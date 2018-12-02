@@ -811,7 +811,7 @@
 					<category_icon>cpp</category_icon>
 					<url>https://github.com/scummvm/scummvm</url>
 					<name>Git Repository</name>
-					<extra_info>(for if you wish to retrieve the latest code to compile yourself)</extra_info>
+					<extra_info>&nbsp;(for if you wish to retrieve the latest code to compile yourself)</extra_info>
 				</file>
 			</entries>
 		</subsection>
@@ -825,7 +825,7 @@
 				<link>
 					<name>SDL 2.0.x</name>
 					<url>http://www.libsdl.org/download-2.0.php</url>
-					<description> (or SDL 1.2.x)</description>
+					<description>&nbsp;(or SDL 1.2.x)</description>
 				</link>
 			</entries>
 		</subsection>
@@ -875,7 +875,7 @@
 				<link>
 					<name>jpeg</name>
 					<url>http://www.ijg.org</url>
-					<description> (or jpeg-turbo): jpeg image format decoder</description>
+					<description>&nbsp;(or jpeg-turbo): jpeg image format decoder</description>
 				</link>
 				<link>
 					<name>zlib</name>
