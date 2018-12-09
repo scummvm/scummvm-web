@@ -382,6 +382,19 @@
 				</person>
 			</group>
 			<group>
+				<name>DM</name>
+				<person>
+					<name>Arnaud Boutonn&eacute;</name>
+					<alias>Strangerke</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Bendeg&uacute;z Nagy</name>
+					<alias>WinterGrascph</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>DreamWeb</name>
 				<person>
 					<name>Torbj&ouml;rn Andersson</name>
@@ -415,6 +428,39 @@
 					<name>Eugene Sandulenko</name>
 					<alias>sev</alias>
 					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>ScummGlk</name>
+				<person>
+					<name>Paul Gilbert</name>
+					<alias>dreammaster</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Tor Andersson</name>
+					<alias></alias>
+					<description>GarGlk library</description>
+				</person>
+				<person>
+					<name>Stefan Jokisch</name>
+					<alias></alias>
+					<description>Frotz interpreter</description>
+				</person>
+				<person>
+					<name>Andrew Plotkin</name>
+					<alias></alias>
+					<description>Glulxe interpreter</description>
+				</person>
+				<person>
+					<name>Alan Cox</name>
+					<alias></alias>
+					<description>ScottFree interpreter</description>
+				</person>
+				<person>
+					<name>Michael J. Roberts</name>
+					<alias></alias>
+					<description>TADS interpreter</description>
 				</person>
 			</group>
 			<group>
@@ -499,6 +545,19 @@
 				<person>
 					<name>Eugene Sandulenko</name>
 					<alias>sev</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Illusions</name>
+				<person>
+					<name>Benjamin Haisch</name>
+					<alias>john_doe</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Eric Fry</name>
+					<alias>yuv422</alias>
 					<description></description>
 				</person>
 			</group>
@@ -662,6 +721,19 @@
 				</person>
 			</group>
 			<group>
+				<name>MutationOfJB</name>
+				<person>
+					<name>&Lcaron;ubom&iacute;r Rem&aacute;k</name>
+					<alias>LubomirR</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Miroslav Rem&aacute;k</name>
+					<alias>MiroslavR</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>Neverhood</name>
 				<person>
 					<name>Benjamin Haisch</name>
@@ -688,6 +760,24 @@
 					<name>Matthew Hoops</name>
 					<alias>clone2727</alias>
 					<description>(retired)</description>
+				</person>
+			</group>
+			<group>
+				<name>Prince</name>
+				<person>
+					<name>Eugene Sandulenko</name>
+					<alias>sev</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>&#321;ukasz W&#261;tka</name>
+					<alias>lukaslw</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Kamil Zbr&oacute;g</name>
+					<alias></alias>
+					<description></description>
 				</person>
 			</group>
 			<group>
