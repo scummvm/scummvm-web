@@ -244,6 +244,7 @@
         "title": "Weitere Wartungsarbeiten an unserer Infrastruktur"
     },
     "20181210": {
-        "title": "Wartungsarbeiten an unserer Infrastruktur... wieder einmal!"
+        "title": "Wartungsarbeiten an unserer Infrastruktur... wieder einmal!",
+        "content": "<p>Während der letzten Tage haben wir alle unsere Downloads auf eine neue Mirror-Infrastruktur migriert. Bislang wurden alle Downloads durch unseren Hauptserver in Österreich ausgeliefert.</p><p>Jetzt werden unsere Downloads durch <a href=\"http://mirrorbrain\">MirrorBrain</a>, ein Download-Verteilsystem ausgeliefert, welches es uns erlaubt, unser eigenes Verteil-Netzwerk aufzubauen. MirrorBrain wird bereits von <a href=\"http://mirrorbrain.org/users/\">vielen Open-Source-Projekten eingesetzt.</a>.</p><p>MirrorBrain versucht basierend auf Ihrem Standort den besten Mirror-Server auszuwählen, sodass Sie die bestmögliche Downloadgeschwindigkeit erhalten.</p><p>Während wir bereits ein paar Mirrors in Europa haben, suchen wir aktuell Menschen, die etwas Bandbreite und Speicherplatz in den USA und in anderen teilen der Welt spenden möchten. Wenn Sie einen Mirror des ScummVM-Archivs bereitstellen möchten, kontaktieren Sie uns bitte per E-Mail an <a href=\"mailto:serra@scummvm.org\">serra@scummvm.org</a>.</p><p>Wenn Sie auf Probleme mit unserem neuen Download-Systen stoßen, geben Sie uns doch bitte eine kurze Rückmeldung <a href=\"https://forums.scummvm.org/viewtopic.php?f=1&amp;t=14761#p86624\">in unseren Foren</a>.</p>"
     }
 }
