@@ -69,6 +69,7 @@
     "downloadsContentP3": "For UNSTABLE experimental versions of ScummVM (for people who know what they are doing), please see the <a href=\"/downloads/#daily\">Daily Builds</a> section, near the end of this page. ",
     "downloadsContentP4": "Also there is a separate <a href=\"/games/\">Game downloads page</a>. These currently include the nine freeware games 'Beneath a Steel Sky', 'Broken Sword 2.5', 'Dreamweb', 'Flight of the Amazon Queen', 'Lure of the Temptress', 'Drascula: The Vampire Strikes Back', 'Soltys', 'Sfinx' and 'Mystery House', along with cutscene packs recommended for use when playing some versions of the Broken Sword games or Feeble Files under ScummVM. ",
     "downloadsBadge": "Recommended download for your system",
+    "downloadEngineData": "Additional Game Engine Data",
     "downloadsXMLTitle": "Downloads for ScummVM",
     "downloadsXMLVersion": "version {release}",
     "downloadsBinaries": "{release} Release binaries",

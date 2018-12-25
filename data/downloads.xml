@@ -499,6 +499,31 @@
 				</link>
 			</entries>
 		</subsection>
+		<subsection>
+			<title>{#downloadEngineData#}</title>
+			<entries>
+				<link>
+					<name>kyra.dat</name>
+					<url>https://github.com/scummvm/scummvm/raw/master/dists/engine-data/kyra.dat</url>
+					<description>: Kyrandia and Lands of Lore</description>
+				</link>
+				<link>
+					<name>lure.dat</name>
+					<url>https://github.com/scummvm/scummvm/raw/master/dists/engine-data/lure.dat</url>
+					<description>: Lure of the Temptress</description>
+				</link>
+				<link>
+					<name>queen.tbl</name>
+					<url>https://github.com/scummvm/scummvm/raw/master/dists/engine-data/queen.tbl</url>
+					<description>: Flight of the Amazon Queen</description>
+				</link>
+				<link>
+					<name>sky.cpt</name>
+					<url>https://github.com/scummvm/scummvm/raw/master/dists/engine-data/sky.cpt</url>
+					<description>: Beneath a Steel Sky</description>
+				</link>
+			</entries>
+		</subsection>
 	</section>
 
 	<section>
