@@ -21,24 +21,6 @@
 					<name>Windows Installer</name>
 					<user_agent>Windows</user_agent>
 				</file>
-<!--
-				<file>
-					<category_icon>windows</category_icon>
-					<url>scummvm-{$release}.2-win32.zip</url>
-					<name>Windows zipfile</name>
-				</file>
-				<file>
-					<category_icon>win64</category_icon>
-					<url>scummvm-{$release}-win64.zip</url>
-					<name>Windows 64bit zipfile</name>
-				</file>
-
-				<file>
-					<category_icon>fedora</category_icon>
-					<url>scummvm-{$release}-1.i386.rpm</url>
-					<name>Fedora 8-20+ i386 package</name>
-				</file>
--->
 				<file>
 					<category_icon>fedora</category_icon>
 					<url>scummvm-{$release}-1.x86_64.rpm</url>
@@ -55,13 +37,6 @@
 					<url>scummvm_{$release}-stretch.1_amd64.deb</url>
 					<name>Debian 9 (stretch) x86 64bit package</name>
 				</file>
-<!--
-				<file>
-					<category_icon>debian</category_icon>
-					<url>scummvm_{$release}-squeeze.1_powerpc.deb</url>
-					<name>Debian 6.0 (squeeze) PowerPC package</name>
-				</file>
--->
 				<file>
 					<category_icon>ubuntu</category_icon>
 					<url>scummvm_{$release}-zesty.1_i386.deb</url>
@@ -85,25 +60,12 @@
 					<name>Ubuntu 16.04 LTS (xenial) x86 64bit package</name>
 					<user_agent>Ubuntu</user_agent>
 				</file>
-<!--
-				<file>
-					<category_icon>slackware</category_icon>
-					<url>scummvm-{$release}_slack-i486-1.tgz</url>
-					<name>SlackWare i486 package</name>
-				</file>
-				<file>
-					<category_icon>slackware</category_icon>
-					<url>scummvm-{$release}_slack-x86_64-1.txz</url>
-					<name>SlackWare x86 64bit package</name>
-				</file>
--->
 				<file>
 					<category_icon>macos</category_icon>
 					<url>scummvm-{$release}.1-macosx.dmg</url>
 					<name>macOS 10.7+ 64 bits with Sparkle Disk Image</name>
 					<user_agent>Macintosh</user_agent>
 				</file>
-
 				<file>
 					<category_icon>macostiger</category_icon>
 					<url>scummvm-{$release}-macosx-i386.dmg</url>
@@ -114,13 +76,6 @@
 					<url>scummvm-{$release}-macosx-ppc.dmg</url>
 					<name>Mac OS X 10.4+ PPC 32 bits (without Sparkle) Disk Image</name>
 				</file>
-<!--
-				<file>
-					<category_icon>ps2</category_icon>
-					<url>scummvm-{$release}-ps2.zip</url>
-					<name>PlayStation2 package</name>
-				</file>
--->
 				<file>
 					<category_icon>ps3</category_icon>
 					<url>scummvm-{$release}-ps3.zip</url>
@@ -131,13 +86,6 @@
 					<url>scummvm-{$release}-psp.zip</url>
 					<name>PSP (PlayStation Portable) package</name>
 				</file>
-<!--
-				<file>
-					<category_icon>ds</category_icon>
-					<url>scummvm-{$release}-ds.zip</url>
-					<name>Nintendo DS package</name>
-				</file>
--->
 				<file>
 					<category_icon>psp2</category_icon>
 					<url>scummvm-{$release}-vita.vpk</url>
@@ -179,61 +127,11 @@
 					<url>scummvm-{$release}-android-x86_64.apk</url>
 					<name>Android x86 64bit package</name>
 				</file>
-<!--
-				<file>
-					<category_icon>ouya</category_icon>
-					<url>scummvm-{$release}-android-ouya.apk</url>
-					<name>OUYA package</name>
-				</file>
-
-				<file>
-					<category_icon>android</category_icon>
-					<url>https://play.google.com/store/apps/details?id=org.scummvm.scummvm</url>
-					<name>Android package at Google Play Store</name>
-					<user_agent>Android</user_agent>
-				</file>
-				<file>
-					<category_icon>symbian</category_icon>
-					<url>scummvm-{$release}-SymbianS60v3_split.sisx</url>
-					<name>Symbian S60 version 3 binary</name>
-					<user_agent>SymbOS</user_agent>
-				</file>
-
-				<file>
-					<category_icon>uiq</category_icon>
-					<url>scummvm-{$release}-uiq3.zip</url>
-					<name>Symbian UIQ 3 binary</name>
-				</file>
-
-				<file>
-					<category_icon>wince</category_icon>
-					<url>scummvm-{$release}-wince.zip</url>
-					<name>Windows CE ARM package</name>
-				</file>
-				<file>
-					<category_icon>iphone</category_icon>
-					<url>scummvm-{$release}-ios7.deb</url>
-					<name>iOS 7+ package</name>
-					<user_agent>like Mac OS X</user_agent>
-				</file>
-				<file>
-					<category_icon>webos</category_icon>
-					<url>scummvm-{$release}-webos.zip</url>
-					<name>WebOS package</name>
-				</file>
-
-				<file>
-					<category_icon>tizen</category_icon>
-					<url>scummvm-{$release}-tizen.tpk</url>
-					<name>Tizen package</name>
-				</file>
--->
 				<file>
 					<category_icon>maemo</category_icon>
 					<url>scummvm_{$release}-maemo_armel.deb</url>
 					<name>Maemo package (OS 2008 and Maemo5/Fremantle)</name>
 				</file>
-
 				<file>
 					<category_icon>dc</category_icon>
 					<url>scummvm-{$release}-dreamcast-plainfiles.tar.bz2</url>
@@ -264,55 +162,16 @@
 					<url>scummvm-{$release}-openpandora.zip</url>
 					<name>OpenPandora package</name>
 				</file>
-<!--
-				<file>
-					<category_icon>n64</category_icon>
-					<url>scummvm-{$release}-n64.zip</url>
-					<name>Nintendo 64 package</name>
-				</file>
-
-				<file>
-					<category_icon>gc</category_icon>
-					<url>scummvm-{$release}-gamecube.zip</url>
-					<name>Nintendo GameCube package</name>
-				</file>
-				<file>
-					<category_icon>wii</category_icon>
-					<url>scummvm-{$release}-wii.zip</url>
-					<name>Wii package</name>
-				</file>
-
-				<file>
-					<category_icon>gcw0</category_icon>
-					<url>scummvm-{$release}-gcw0.opk</url>
-					<name>GCW-Zero package</name>
-				</file>
--->
 				<file>
 					<category_icon>raspberry</category_icon>
 					<url>scummvm-{$release}-rpi.zip</url>
 					<name>Raspberry Pi package (for Pi 2 and 3)</name>
 				</file>
-<!--
-				<file>
-					<category_icon>solaris</category_icon>
-					<url>scummvm-{$release}-solaris10-sparc.pkg.7z</url>
-					<name>Solaris 10 sparc, Solaris 11 sparc binary</name>
-				</file>
-
-				<file>
-					<category_icon>solaris</category_icon>
-					<url>scummvm-{$release}-solaris10-x86.pkg.7z</url>
-					<name>Solaris 10 x86, Solaris 11 x86, OpenIndiana binary</name>
-					<user_agent>SunOS</user_agent>
-				</file>
--->
 				<file>
 					<category_icon>irix</category_icon>
 					<url>scummvm-{$release}-irix-mips3.tar.gz</url>
 					<name>IRIX (6.5.*, n32, mips3) package</name>
 				</file>
-
 				<file>
 					<category_icon>irix</category_icon>
 					<url>scummvm-{$release}-irix-mips4.tar.gz</url>
@@ -328,20 +187,12 @@
 					<url>scummvm-{$release}-1-x86_64.hpkg</url>
 					<name>Haiku package 64 bits</name>
 				</file>
-
 				<file>
 					<category_icon>amiga</category_icon>
 					<url>scummvm-{$release}-amigaos4.lha</url>
 					<name>AmigaOS 4 package</name>
 					<user_agent>Amiga</user_agent>
 				</file>
-<!--
-				<file>
-					<category_icon>morphos</category_icon>
-					<url>scummvm-{$release}-morphos.lha</url>
-					<name>MorphOS package</name>
-				</file>
--->
 				<file>
 					<category_icon>riscos</category_icon>
 					<url>scummvm-{$release}-riscos.zip</url>
@@ -362,20 +213,11 @@
 					<url>scummvm-{$release}-atari-m5475.zip</url>
 					<name>Atari/FreeMiNT package (Coldfire MCF5475 / Firebee)</name>
 				</file>
-<!--
-				<file>
-					<category_icon>os2</category_icon>
-					<url>scummvm-{$release}-os2.zip</url>
-					<name>OS/2 package</name>
-					<user_agent>OS/2</user_agent>
-				</file>
--->
 				<file>
 					<category_icon>samsungtv</category_icon>
 					<url>scummvm-{$release}-samsungtv.zip</url>
 					<name>Samsung TV package (2009 series)</name>
 				</file>
-
 			</entries>
 		</subsection>
 
@@ -403,13 +245,6 @@
 					<url>scummvm-{$release}.zip</url>
 					<name>ScummVM - Source .zip</name>
 				</file>
-<!--
-				<file>
-					<category_icon>cpp</category_icon>
-					<url>scummvm-{$release}-2.src.rpm</url>
-					<name>ScummVM - Source RPM</name>
-				</file>
-			-->
 			</entries>
 		</subsection>
 
@@ -417,66 +252,16 @@
 			<title>{'/\x7brelease_tools\x7d/'|preg_replace:$release_tools:#downloadsTools#}</title>
 			<anchor>tools</anchor>
 			<entries>
-<!--
-				<file>
-					<category_icon>windows</category_icon>
-					<url type="tools">scummvm-tools-{$release_tools}-win32.exe</url>
-					<name>Tools - Windows Installer</name>
-				</file>
--->
 				<file>
 					<category_icon>windows</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-win32.zip</url>
 					<name>Tools - Windows zipfile</name>
 				</file>
-<!--
-				<file>
-					<category_icon>fedora</category_icon>
-					<url type="tools">scummvm-tools-{$release_tools}-1_F11.i586.rpm</url>
-					<name>Tools - Fedora 11 and 12 i586 RPM</name>
-				</file>
-				<file>
-					<category_icon>fedora</category_icon>
-					<url type="tools">scummvm-tools-{$release_tools}-1_F11.x86_64.rpm</url>
-					<name>Tools - Fedora 11 and 12 x86 64bit RPM</name>
-				</file>
--->
 				<file>
 					<category_icon>macos</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-macosx.dmg</url>
 					<name>Tools - Mac OS X Intel binaries (10.5 and up)</name>
 				</file>
-<!--
-				<file>
-					<category_icon>solaris</category_icon>
-					<url type="tools">scummvm-tools-{$release_tools}-solaris8-sparc.pkg.bz2</url>
-					<name>Tools - Solaris 8 (Sparc)</name>
-				</file>
-
-				<file>
-					<category_icon>solaris</category_icon>
-					<url type="tools">scummvm-tools-{$release_tools}-solaris10-x86.pkg.bz2</url>
-					<name>Tools - Solaris 10 (both IA32 and AMD64)</name>
-				</file>
-
-				<file>
-					<category_icon>irix</category_icon>
-					<url type="tools">scummvm-tools-{$release_tools}-irix-mips3.tar.bz2</url>
-					<name>Tools - IRIX (6.5.*, n32, mips3) package</name>
-				</file>
-
-				<file>
-					<category_icon>irix</category_icon>
-					<url type="tools">scummvm-tools-{$release_tools}-irix-mips4.tar.bz2</url>
-					<name>Tools - IRIX (6.5.*, n32, mips4) package</name>
-				</file>
-
-				<file>
-					<category_icon>beos</category_icon>
-					<url type="tools">scummvm-tools-{$release_tools}-beos.tgz</url>
-					<name>Tools - BeOS</name>
-				</file>
--->
 				<file>
 					<category_icon>haiku</category_icon>
 					<url type="tools">scummvm_tools_x86-{$release_tools}-1-x86_gcc2.hpkg</url>
@@ -487,13 +272,6 @@
 					<url type="tools">scummvm_tools-{$release_tools}-1-x86_64.hpkg</url>
 					<name>Tools - Haiku package 64 bits</name>
 				</file>
-<!--
-				<file>
-					<category_icon>amiga</category_icon>
-					<url type="tools">scummvm-tools-{$release_tools}-amigaos4.lha</url>
-					<name>Tools - AmigaOS 4</name>
-				</file>
--->
 				<file>
 					<category_icon>riscos</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-riscos.zip</url>
@@ -504,7 +282,6 @@
 					<url type="tools">scummvm-tools-{$release_tools}-atari.zip</url>
 					<name>Tools - Atari/FreeMiNT package (68000 and up)</name>
 				</file>
-
 				<file>
 					<category_icon>cpp</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}.tar.xz</url>
@@ -525,13 +302,6 @@
 					<url type="tools">scummvm-tools-{$release_tools}.zip</url>
 					<name>Tools - Source .zip</name>
 				</file>
-<!--
-				<file>
-					<category_icon>cpp</category_icon>
-					<url type="tools">scummvm-tools-{$release_tools}-1.src.rpm</url>
-					<name>Tools - Source RPM</name>
-				</file>
--->
 			</entries>
 		</subsection>
 	</section>
@@ -573,7 +343,6 @@
 					<name>1.9.0 OS/2 package</name>
 					<user_agent>OS/2</user_agent>
 				</file>
-
 				<file>
 					<category_icon>symbian</category_icon>
 					<url>1.8.1/scummvm-1.8.1-SymbianS60v3_split.sisx</url>
@@ -610,7 +379,6 @@
 					<url>1.7.0/scummvm-1.7.0-caanoo.tar.bz2</url>
 					<name>1.7.0 Caanoo package</name>
 				</file>
-
 				<file>
 					<category_icon>slackware</category_icon>
 					<url>1.6.0/scummvm-1.6.0_slack-i486-1.tgz</url>
@@ -621,38 +389,32 @@
 					<url>1.6.0/scummvm-1.6.0_slack-x86_64-1.txz</url>
 					<name>1.6.0 SlackWare x86 64bit package</name>
 				</file>
-
 				<file>
 					<category_icon>n64</category_icon>
 					<url>1.6.0/scummvm-1.6.0-n64.zip</url>
 					<name>1.6.0 Nintendo 64 package</name>
 				</file>
-
 				<file>
 					<category_icon>dingux</category_icon>
 					<url>1.6.0/scummvm-1.6.0-dingux.zip</url>
 					<name>1.6.0 Dingux package</name>
 				</file>
-
 				<file>
 					<category_icon>solaris</category_icon>
 					<url>1.6.0/scummvm-1.6.0-solaris10-sparc.pkg.7z</url>
 					<name>1.6.0 Solaris 10 sparc, Solaris 11 sparc binary</name>
 				</file>
-
 				<file>
 					<category_icon>solaris</category_icon>
 					<url>1.6.0/scummvm-1.6.0-solaris10-x86.pkg.7z</url>
 					<name>1.6.0 Solaris 10 x86, Solaris 11 x86, OpenIndiana binary</name>
 					<user_agent>SunOS</user_agent>
 				</file>
-
 				<file>
 					<category_icon>wince</category_icon>
 					<url>1.5.0/scummvm-1.5.0-wince.zip</url>
 					<name>1.5.0 Windows CE ARM package</name>
 				</file>
-
 				<file>
 					<category_icon>gc</category_icon>
 					<url>1.5.0/scummvm-1.5.0-gamecube.zip</url>
@@ -663,7 +425,6 @@
 					<url>1.5.0/scummvm-1.5.0-wii.zip</url>
 					<name>1.5.0 Wii package</name>
 				</file>
-
 				<file>
 					<category_icon>morphos</category_icon>
 					<url>1.5.0/scummvm-1.5.0-morphos.lha</url>
@@ -675,7 +436,6 @@
 					<url>1.4.1/scummvm_1.4.1-squeeze.1_powerpc.deb</url>
 					<name>1.4.1 Debian 6.0 (squeeze) PowerPC package</name>
 				</file>
-
 				<file>
 					<category_icon>solaris</category_icon>
 					<url>1.4.1/scummvm-1.4.1-solaris10-x86.pkg.bz2</url>
@@ -686,7 +446,6 @@
 					<url>1.3.0/scummvm-1.3.0-motoezx.pkg</url>
 					<name>1.3.0 Motorola A1200, ROKR E6, A1600 package</name>
 				</file>
-
 				<file>
 					<category_icon>linuxmoto</category_icon>
 					<url>1.3.0/scummvm-1.3.0-motomagx.mgx</url>
@@ -702,19 +461,16 @@
 					<url>1.3.0/scummvm-1.3.0-motomagx.mpkg</url>
 					<name>1.3.0 Motorola Z6, V8 package</name>
 				</file>
-
 				<file>
 					<category_icon>ds</category_icon>
 					<url>1.2.1/scummvm-1.2.1-ds.zip</url>
 					<name>1.2.1 Nintendo DS package</name>
 				</file>
-
 				<file>
 					<category_icon>solaris</category_icon>
 					<url>1.1.1/scummvm-1.1.1-solaris8-sparc.pkg.bz2</url>
 					<name>1.1.1 Solaris 8 and up (Sparc) binary</name>
 				</file>
-
 				<file>
 					<category_icon>beos</category_icon>
 					<url>1.0.0/scummvm-1.0.0-beos.tgz</url>
@@ -777,36 +533,6 @@
 					<type>daily</type>
 					<extra_info>Provided by ScummVM Team member Travis 'Kirben' Howell, updated several times daily</extra_info>
 				</file>
-<!--
-				<file>
-					<category_icon>debian</category_icon>
-					<url extra_info="true" type="downloads">scummvm_debian_i386.deb</url>
-					<name>Debian i386 ScummVM Daily Snapshot</name>
-					<type>daily</type>
-					<extra_info>Provided by ScummVM Team member Pawel 'aquadran' Kolodziejski</extra_info>
-				</file>
-				<file>
-					<category_icon>debian</category_icon>
-					<url extra_info="true" type="downloads">scummvm_debian_amd64.deb</url>
-					<name>Debian x86_64 ScummVM Daily Snapshot</name>
-					<type>daily</type>
-					<extra_info>Provided by ScummVM Team member Pawel 'aquadran' Kolodziejski</extra_info>
-				</file>
-				<file>
-					<category_icon>ubuntu</category_icon>
-					<url extra_info="true" type="downloads">scummvm_ubuntu_i386.deb</url>
-					<name>Ubuntu i386 ScummVM Daily Snapshot</name>
-					<type>daily</type>
-					<extra_info>Provided by ScummVM Team member Pawel 'aquadran' Kolodziejski</extra_info>
-				</file>
-				<file>
-					<category_icon>ubuntu</category_icon>
-					<url extra_info="true" type="downloads">scummvm_ubuntu_amd64.deb</url>
-					<name>Ubuntu x86_64 ScummVM Daily Snapshot</name>
-					<type>daily</type>
-					<extra_info>Provided by ScummVM Team member Pawel 'aquadran' Kolodziejski</extra_info>
-				</file>
--->
 				<file>
 					<category_icon>cpp</category_icon>
 					<url>https://github.com/scummvm/scummvm</url>
