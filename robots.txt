@@ -1,3 +1,6 @@
 User-agent: *
 Disallow: /frs
 Disallow: /downloads
+
+User-agent: SemrushBot
+Disallow: /
