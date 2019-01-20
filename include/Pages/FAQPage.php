@@ -6,7 +6,7 @@ use ScummVM\Models\FAQModel;
 
 class FAQPage extends Controller
 {
-    private $_template;
+    protected $_template;
 
     /* Constructor. */
     public function __construct()

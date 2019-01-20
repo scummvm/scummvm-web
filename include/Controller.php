@@ -12,7 +12,7 @@ use ScummVM\Models\MenuModel;
 class Controller
 {
     private $_smarty;
-    private $_template;
+    protected $_template;
     private $_title;
     private $_css_files;
     private $_js_files;

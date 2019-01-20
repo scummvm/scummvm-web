@@ -3,6 +3,7 @@ namespace ScummVM\Models;
 
 use ScummVM\Objects\Project;
 use ScummVM\Objects\File;
+use ScummVM\Objects\BasicObject;
 use ScummVM\XMLParser;
 
 /**

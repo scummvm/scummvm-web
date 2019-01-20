@@ -7,7 +7,7 @@ use ScummVM\Models\ScreenshotsModel;
 
 class NewsPage extends Controller
 {
-    private $_template;
+    protected $_template;
 
     /* Constructor. */
     public function __construct()

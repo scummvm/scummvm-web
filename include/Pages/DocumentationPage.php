@@ -6,7 +6,7 @@ use ScummVM\Models\DocumentationModel;
 
 class DocumentationPage extends Controller
 {
-    private $_template;
+    protected $_template;
 
     /* Constructor. */
     public function __construct()

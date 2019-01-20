@@ -15,6 +15,7 @@ use ScummVM\XMLParser;
 abstract class FAQModel extends BasicModel
 {
     const ERROR_READING_FILE = 'Could not load the frequently asked questions.';
+    const FILE_NOT_FOUND = 'The requested FAQ file doesn\'t exist.';
 
     /* Get the full path and filename for the F.A.Q. XML-file. */
     public static function getFilename()

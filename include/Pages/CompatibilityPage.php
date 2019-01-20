@@ -2,7 +2,7 @@
 namespace ScummVM\Pages;
 
 use ScummVM\Controller;
-use ScummVM\Models\CompatabilityModel;
+use ScummVM\Models\CompatibilityModel;
 
 /**
  * The Compatibility page gets all the data from the CompatibilityModel and
@@ -11,7 +11,7 @@ use ScummVM\Models\CompatabilityModel;
  */
 class CompatibilityPage extends Controller
 {
-    private $_template;
+    protected $_template;
     private $_template_details;
     private $_supportLevelDesc;
     private $_supportLevelClass;

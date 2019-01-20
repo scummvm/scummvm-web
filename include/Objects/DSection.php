@@ -9,6 +9,7 @@ class DSection extends BasicObject
     private $_title;
     private $_anchor;
     private $_baseurl;
+    private $_baseturl;
     private $_subsections;
 
     /* DSection object constructor. */

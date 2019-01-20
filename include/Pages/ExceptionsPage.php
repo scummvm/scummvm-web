@@ -3,7 +3,7 @@ namespace ScummVM\Pages;
 
 class ExceptionsPage extends \ScummVM\Controller
 {
-    private $_template;
+    protected $_template;
 
     /* Constructor. */
     public function __construct()

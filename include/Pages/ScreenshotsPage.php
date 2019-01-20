@@ -2,11 +2,11 @@
 namespace ScummVM\Pages;
 
 use ScummVM\Controller;
-use ScummVM\Models\ScreenshotModel;
+use ScummVM\Models\ScreenshotsModel;
 
 class ScreenshotsPage extends Controller
 {
-    private $_template;
+    protected $_template;
     private $_template_category;
 
     /* Constructor. */
@@ -15,7 +15,6 @@ class ScreenshotsPage extends Controller
         parent::__construct();
         $this->_template = 'pages/screenshots.tpl';
         $this->_template_category = 'pages/screenshots_category.tpl';
-        $this->_template_viewer = 'screenshots_viewer.tpl';
     }
 
     /* Display the index page. */
@@ -35,7 +34,7 @@ class ScreenshotsPage extends Controller
             'baguetteBox.min.js'
         ));
 
-        $screenshot = ScreenshotsModel::getAllScreenshots();
+        $screenshot  = ScreenshotsModel::getAllScreenshots();
         $random_shot = ScreenshotsModel::getRandomScreenshot();
 
         global $Smarty;
