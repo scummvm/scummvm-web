@@ -5,7 +5,7 @@ use ScummVM\Controller;
 
 class ContactPage extends Controller
 {
-    private $_template;
+    protected $_template;
 
     /* Constructor. */
     public function __construct()

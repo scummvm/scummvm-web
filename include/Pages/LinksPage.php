@@ -6,7 +6,7 @@ use ScummVM\Models\LinksModel;
 
 class LinksPage extends Controller
 {
-    private $_template;
+    protected $_template;
 
     /* Constructor. */
     public function __construct()

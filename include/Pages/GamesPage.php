@@ -6,7 +6,7 @@ use ScummVM\Models\GamesModel;
 
 class GamesPage extends Controller
 {
-    private $_template;
+    protected $_template;
 
     /* Constructor. */
     public function __construct()

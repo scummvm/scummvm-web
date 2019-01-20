@@ -6,7 +6,7 @@ use ScummVM\Models\ArticleModel;
 
 class PressPage extends Controller
 {
-    private $_template;
+    protected $_template;
 
     /* Constructor. */
     public function __construct()

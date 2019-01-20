@@ -12,6 +12,7 @@ class DSubSection extends BasicObject
     private $_footer;
     private $_files;
     private $_links;
+    private $_items;
 
     /* DSubSection constructor. */
     public function __construct($data, $baseurl, $baseturl)

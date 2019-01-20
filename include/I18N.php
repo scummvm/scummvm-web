@@ -1,7 +1,6 @@
 <?php
 namespace ScummVM;
 
-use HTMLPurifier;
 use ScummVM\Objects\News;
 use ScummVM\Models\NewsModel;
 
@@ -9,11 +8,14 @@ define('DIR_NEWS', 'data/news');
 
 class I18N
 {
+    private $_purifier;
+
+    const NO_FILES = 'No I18N Files Found';
 
     public function __construct()
     {
-        $config = HTMLPurifier_Config::createDefault();
-        $this->_purifier = new HTMLPurifier($config);
+        $config = \HTMLPurifier_Config::createDefault();
+        $this->_purifier = new \HTMLPurifier($config);
 
         $langs = ['en', 'it', 'fr', 'ru', 'de'];
         foreach ($langs as $key => $value) {
@@ -57,7 +59,7 @@ class I18N
         } else {
           // Update the base english i18n file
             echo("Converting individual JSON files to I18N base file\n");
-            $newsJson = new stdClass();
+            $newsJson = new \stdClass();
             $news = $this->getAllNews($lang);
             foreach ($news as $key => $value) {
                 $newsJson->$key = array(
@@ -81,7 +83,7 @@ class I18N
         if (!($files = scandir($dir))) {
             throw new \ErrorException(self::NO_FILES);
         }
-        $news = new stdClass();
+        $news = new \stdClass();
         foreach ($files as $filename) {
             if (substr($filename, -5) != '.json') {
                 continue;
