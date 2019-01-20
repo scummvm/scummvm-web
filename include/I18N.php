@@ -1,10 +1,10 @@
 <?php
 namespace ScummVM;
 
-require_once('vendor/ezyang/htmlpurifier/library/HTMLPurifier.auto.php');
-set_include_path('include');
-require_once('Objects/News.php');
-require_once('Models/NewsModel.php');
+use HTMLPurifier;
+use ScummVM\Objects\News;
+use ScummVM\Models\NewsModel;
+
 define('DIR_NEWS', 'data/news');
 
 class I18N

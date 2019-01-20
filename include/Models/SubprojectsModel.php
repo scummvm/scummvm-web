@@ -1,9 +1,10 @@
 <?php
 namespace ScummVM\Models;
 
-require_once('Models/BasicModel.php');
-require_once('Objects/File.php');
-require_once('Objects/Project.php');
+use ScummVM\Objects\Project;
+use ScummVM\Objects\File;
+use ScummVM\XMLParser;
+
 /**
  * The SubprojectsModel will generate Project objects.
  */

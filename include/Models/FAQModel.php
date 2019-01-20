@@ -1,10 +1,11 @@
 <?php
 namespace ScummVM\Models;
 
-require_once('Models/BasicModel.php');
-require_once('Objects/QAEntry.php');
-require_once('Objects/QASection.php');
-require_once('XMLParser.php');
+use ScummVM\Objects\Article;
+use ScummVM\Objects\QAEntry;
+use ScummVM\Objects\QASection;
+use ScummVM\XMLParser;
+
 /**
  * The FAQModel class reads the docbook formated XML-file 'faq.xml' and does
  * some changes to make it easier to parse. Returns an array with

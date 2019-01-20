@@ -1,8 +1,8 @@
 <?php
 namespace ScummVM\Pages;
 
-require_once('Controller.php');
-require_once('Models/FAQModel.php');
+use ScummVM\Controller;
+use ScummVM\Models\FAQModel;
 
 class FAQPage extends Controller
 {

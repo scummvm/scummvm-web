@@ -1,8 +1,9 @@
 <?php
 namespace ScummVM\Models;
 
-require_once('Models/BasicModel.php');
-require_once('Objects/Article.php');
+use ScummVM\Objects\Article;
+use ScummVM\XMLParser;
+
 /**
  * The ArticleModel class will generate Article objects.
  */

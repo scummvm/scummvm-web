@@ -1,8 +1,6 @@
 <?php
 namespace ScummVM\Objects;
 
-require_once('Objects/BasicObject.php');
-require_once('Objects/QAEntry.php');
 /**
  * The QASection class represents a section with questions and answers on the
  * website F.A.Q. page.

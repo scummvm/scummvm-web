@@ -1,7 +1,6 @@
 <?php
 namespace ScummVM\Objects;
 
-require_once('Objects/BasicObject.php');
 /**
  * The QAEntry class represents a question-answer pair on the website
  * F.A.Q. page.

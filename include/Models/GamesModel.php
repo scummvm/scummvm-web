@@ -1,9 +1,9 @@
 <?php
 namespace ScummVM\Models;
 
-require_once('Models/BasicModel.php');
-require_once('Objects/DSection.php');
-require_once('XMLParser.php');
+use ScummVM\Objects\DSection;
+use ScummVM\XMLParser;
+
 /**
  * The GamesModel will produce DSection objects.
  */

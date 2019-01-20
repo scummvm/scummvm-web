@@ -1,7 +1,6 @@
 <?php
 namespace ScummVM\Objects;
 
-require_once('Objects/BasicObject.php');
 /**
  * The WebLink class represents a link item on the website.
  */

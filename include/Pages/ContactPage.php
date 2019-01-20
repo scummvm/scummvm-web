@@ -1,7 +1,7 @@
 <?php
 namespace ScummVM\Pages;
 
-require_once('Controller.php');
+use ScummVM\Controller;
 
 class ContactPage extends Controller
 {

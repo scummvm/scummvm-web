@@ -1,8 +1,8 @@
 <?php
 namespace ScummVM\Pages;
 
-require_once('Controller.php');
-require_once('Models/LinksModel.php');
+use ScummVM\Controller;
+use ScummVM\Models\LinksModel;
 
 class LinksPage extends Controller
 {

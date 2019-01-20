@@ -1,9 +1,9 @@
 <?php
 namespace ScummVM\Models;
 
-require_once('Models/BasicModel.php');
-require_once('Objects/CompatGame.php');
-require_once('XMLParser.php');
+use ScummVM\Objects\CompatGame;
+use ScummVM\XMLParser;
+
 /**
  * The CompatibilityModel class will generate CompatGame objects.
  */

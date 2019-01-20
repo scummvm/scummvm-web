@@ -1,9 +1,9 @@
 <?php
 namespace ScummVM\Models;
 
-require_once('Models/BasicModel.php');
-require_once('Objects/WebLink.php');
-require_once('XMLParser.php');
+use ScummVM\Objects\WebLink;
+use ScummVM\XMLParser;
+
 /**
  * The LinksModel class will generate WebLink objects.
  * LinkGroup-objects representing a group of external links on the website.

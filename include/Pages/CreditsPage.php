@@ -1,8 +1,8 @@
 <?php
 namespace ScummVM\Pages;
 
-require_once('Controller.php');
-require_once('Models/CreditsModel.php');
+use ScummVM\Controller;
+use ScummVM\Models\CreditsModel;
 
 class CreditsPage extends Controller
 {

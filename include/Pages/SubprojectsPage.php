@@ -1,8 +1,8 @@
 <?php
 namespace ScummVM\Pages;
 
-require_once('Controller.php');
-require_once('Models/SubprojectsModel.php');
+use ScummVM\Controller;
+use ScummVM\Models\SubprojectsModel;
 
 class SubprojectsPage extends Controller
 {

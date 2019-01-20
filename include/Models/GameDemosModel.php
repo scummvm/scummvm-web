@@ -1,9 +1,9 @@
 <?php
 namespace ScummVM\Models;
 
-require_once('Models/BasicModel.php');
-require_once('Objects/GameDemo.php');
-require_once('XMLParser.php');
+use ScummVM\Objects\GameDemo;
+use ScummVM\XMLParser;
+
 /**
  * The GameDemosModel class will generate GameDemo objects.
  */
