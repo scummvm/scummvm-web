@@ -1,4 +1,6 @@
 <?php
+namespace ScummVM\Web\Objects;
+
 require_once('Objects/BasicObject.php');
 /**
  * The CompatGame class represents a game on the compatibility charts on the

@@ -1,4 +1,6 @@
 <?php
+namespace ScummVM\Web\Models;
+
 require_once('Models/BasicModel.php');
 require_once('Objects/File.php');
 require_once('Objects/Project.php');

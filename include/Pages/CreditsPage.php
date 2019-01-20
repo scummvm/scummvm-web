@@ -1,4 +1,6 @@
 <?php
+namespace ScummVM\Web\Pages;
+
 require_once('Controller.php');
 require_once('Models/CreditsModel.php');
 
@@ -18,7 +20,7 @@ class CreditsPage extends Controller
     {
         $credits = CreditsModel::getAllCredits();
         global $Smarty;
-        
+
         return $this->renderPage(
             array(
                 'title' => $Smarty->getConfigVars('creditsTitle'),

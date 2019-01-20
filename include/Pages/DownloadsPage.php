@@ -1,4 +1,6 @@
 <?php
+namespace ScummVM\Web\Pages;
+
 require_once('Controller.php');
 require_once('Models/DownloadsModel.php');
 
@@ -56,7 +58,7 @@ class DownloadsPage extends Controller
         $sections = DownloadsModel::getAllSections();
         $recommendedDownloadsJS = $this->getRecommendedDownloadsJS($downloads);
         global $Smarty;
-        
+
         return $this->renderPage(
             array(
                 'title' => $Smarty->getConfigVars('downloadsTitle'),

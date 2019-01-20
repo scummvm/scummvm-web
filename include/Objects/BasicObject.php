@@ -1,4 +1,6 @@
 <?php
+namespace ScummVM\Web\Objects;
+
 /**
  * The BasicObject class is inherited by all other objects and houses all common
  * functions.

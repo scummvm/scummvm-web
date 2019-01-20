@@ -1,4 +1,6 @@
 <?php
+namespace ScummVM\Web\Objects;
+
 require_once('Objects/BasicObject.php');
 /**
  * The GameDemo class represents a game demo item on the website.
@@ -9,7 +11,7 @@ class GameDemo extends BasicObject
     private $_url;
     private $_target;
     private $_category;
-    
+
     /* GameDemo object constructor. */
     public function __construct($data)
     {
@@ -36,7 +38,7 @@ class GameDemo extends BasicObject
     {
         return $this->_target;
     }
-    
+
     /* Get the category for the demo. */
     public function getCategory()
     {

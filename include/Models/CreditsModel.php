@@ -1,4 +1,6 @@
 <?php
+namespace ScummVM\Web\Models;
+
 require_once('Models/BasicModel.php');
 require_once('Objects/CSection.php');
 require_once('XMLParser.php');

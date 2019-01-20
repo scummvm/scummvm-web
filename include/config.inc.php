@@ -1,4 +1,6 @@
 <?php
+namespace ScummVM\Web;
+
 /* Current version. */
 define('RELEASE', '2.0.0');
 define('RELEASE_TOOLS', '2.0.0');

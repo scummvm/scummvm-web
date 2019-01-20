@@ -1,4 +1,6 @@
 <?php
+namespace ScummVM\Web\Objects;
+
 require_once('Objects/BasicObject.php');
 /**
  * The WebLink class represents a link item on the website.
@@ -34,7 +36,7 @@ class WebLink extends BasicObject
     {
         return $this->_description;
     }
-    
+
     /* Get the user-agent. */
     public function getUserAgent()
     {

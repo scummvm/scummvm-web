@@ -1,4 +1,6 @@
 <?php
+namespace ScummVM\Web;
+
 /**
  * An XML parser that will build a multidimensional array (aka a tree) from the
  * given XML data, either by filename or by data. The parser is namespace aware,
