@@ -1,9 +1,10 @@
 <?php
-namespace ScummVM\Web\Models;
+namespace ScummVM\Models;
 
-require_once('XMLParser.php');
-require_once('Models/BasicModel.php');
-require_once('Objects/MenuItem.php');
+use ScummVM\XMLParser;
+use ScummVM\Models\BasicModel;
+use ScummVM\Objects\MenuItem;
+
 /**
  * The MenuModel class will generates MenuItme objects.
  */

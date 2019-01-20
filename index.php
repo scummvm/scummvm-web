@@ -1,5 +1,7 @@
 <?php
-namespace ScummVM\Web;
+namespace ScummVM;
+
+require_once __DIR__ . '/vendor/autoload.php';
 
 /**
  * Multilingual support
@@ -69,8 +71,7 @@ if (!is_writeable(SMARTY_DIR_COMPILE)) {
 }
 
 /* Exception handling. */
-require_once('ExceptionHandler.php');
-set_exception_handler(array('ExceptionHandler', 'handleException'));
+set_exception_handler(array('ScummVM\ExceptionHandler', 'handleException'));
 
 /* Page mapping. */
 $pages = array(
@@ -84,7 +85,7 @@ $pages = array(
     'faq' => 'FAQPage',
     'feeds' => 'FeedsPage',
     'links' => 'LinksPage',
-    'news' => 'NewsPage',
+    'news' => 'ScummVM\Pages\NewsPage',
     'press' => 'PressPage',
     'presssnowberry' => 'PressSnowberryPage',
     'screenshots' => 'ScreenshotsPage',
@@ -97,6 +98,5 @@ if (!array_key_exists(($page = isset($_GET['p']) ? $_GET['p'] : null), $pages)) 
 }
 
 /* Switch to the requested page */
-require_once("Pages/{$pages[$page]}.php");
 $p = new $pages[$page]();
 return $p->index();

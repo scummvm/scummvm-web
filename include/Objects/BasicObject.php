@@ -1,5 +1,5 @@
 <?php
-namespace ScummVM\Web\Objects;
+namespace ScummVM\Objects;
 
 /**
  * The BasicObject class is inherited by all other objects and houses all common

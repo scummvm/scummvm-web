@@ -1,9 +1,10 @@
 <?php
-namespace ScummVM\Web\Models;
+namespace ScummVM\Models;
 
-require_once('Models/BasicModel.php');
-require_once('Objects/Screenshot.php');
-require_once('XMLParser.php');
+use ScummVM\Objects\Screenshot;
+use ScummVM\Objects\BasicObject;
+use ScummVM\XMLParser;
+
 /**
  * The ScreenshotsModel will generate Screenshot objects.
  */

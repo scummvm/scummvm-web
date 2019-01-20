@@ -1,5 +1,5 @@
 <?php
-namespace ScummVM\Web;
+namespace ScummVM;
 
 /** Handle uncaught exceptions. */
 abstract class ExceptionHandler
@@ -29,12 +29,11 @@ abstract class ExceptionHandler
     }
 
     /* Handle exceptions. */
-    public static function handleException(Exception $e)
+    public static function handleException($e)
     {
         self::$_exception = $e;
 
-        require_once('Pages/ExceptionsPage.php');
-        $ep = new ExceptionsPage();
+        $ep = new \ScummVM\Pages\ExceptionsPage();
         return $ep->index($e);
     }
 }
