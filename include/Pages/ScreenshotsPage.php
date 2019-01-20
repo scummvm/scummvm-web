@@ -6,15 +6,15 @@ use ScummVM\Models\ScreenshotsModel;
 
 class ScreenshotsPage extends Controller
 {
-    protected $_template;
-    private $_template_category;
+
+    private $template_category;
 
     /* Constructor. */
     public function __construct()
     {
         parent::__construct();
-        $this->_template = 'pages/screenshots.tpl';
-        $this->_template_category = 'pages/screenshots_category.tpl';
+        $this->template = 'pages/screenshots.tpl';
+        $this->template_category = 'pages/screenshots_category.tpl';
     }
 
     /* Display the index page. */
@@ -46,7 +46,7 @@ class ScreenshotsPage extends Controller
                 'screenshots' => $screenshot,
                 'random_shot' => $random_shot,
             ),
-            $this->_template
+            $this->template
         );
     }
 
@@ -76,7 +76,7 @@ class ScreenshotsPage extends Controller
                 'category' => $category,
                 'game' => $game,
             ),
-            $this->_template_category
+            $this->template_category
         );
     }
 

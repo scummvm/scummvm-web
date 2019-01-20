@@ -6,34 +6,34 @@ namespace ScummVM\Objects;
  */
 class DSubSection extends BasicObject
 {
-    private $_title;
-    private $_anchor;
-    private $_notes;
-    private $_footer;
-    private $_files;
-    private $_links;
-    private $_items;
+    private $title;
+    private $anchor;
+    private $notes;
+    private $footer;
+    private $files;
+    private $links;
+    private $items;
 
     /* DSubSection constructor. */
     public function __construct($data, $baseurl, $baseturl)
     {
-        $this->_title = $data['title'];
-        $this->_anchor = $data['anchor'];
-        $this->_notes = $data['notes'];
-        $this->_footer = $data['footer'];
-        $this->_files = array();
-        $this->_links = array();
-        $this->_items = array();
+        $this->title = $data['title'];
+        $this->anchor = $data['anchor'];
+        $this->notes = $data['notes'];
+        $this->footer = $data['footer'];
+        $this->files = array();
+        $this->links = array();
+        $this->items = array();
 
         foreach ($data['entries'] as $type => $item) {
             parent::toArray($item);
             if ($type == 'file') {
                 foreach ($item as $file) {
-                    $this->_items[] = new File($file, $baseurl, $baseturl);
+                    $this->items[] = new File($file, $baseurl, $baseturl);
                 }
             } elseif ($type == 'link') {
                 foreach ($item as $link) {
-                    $this->_items[] = new WebLink($link);
+                    $this->items[] = new WebLink($link);
                 }
             }
         }
@@ -42,42 +42,42 @@ class DSubSection extends BasicObject
     /* Get the title. */
     public function getTitle()
     {
-        return $this->_title;
+        return $this->title;
     }
 
     /* Get the anchor name. */
     public function getAnchor()
     {
-        return $this->_anchor;
+        return $this->anchor;
     }
 
     /* Get the optional notes. */
     public function getNotes()
     {
-        return $this->_notes;
+        return $this->notes;
     }
 
     /* Get the optional footer. */
     public function getFooter()
     {
-        return $this->_footer;
+        return $this->footer;
     }
 
     /* Get the list of files. */
     public function getFiles()
     {
-        return $this->_files;
+        return $this->files;
     }
 
     /* Get the list of links. */
     public function getLinks()
     {
-        return $this->_links;
+        return $this->links;
     }
 
     /* Get the list of items. */
     public function getItems()
     {
-        return $this->_items;
+        return $this->items;
     }
 }

@@ -6,48 +6,48 @@ namespace ScummVM\Objects;
  */
 class DSection extends BasicObject
 {
-    private $_title;
-    private $_anchor;
-    private $_baseurl;
-    private $_baseturl;
-    private $_subsections;
+    private $title;
+    private $anchor;
+    private $baseurl;
+    private $baseturl;
+    private $subsections;
 
     /* DSection object constructor. */
     public function __construct($data)
     {
-        $this->_title = $data['title'];
-        $this->_anchor = $data['anchor'];
-        $this->_baseurl = $data['baseurl'];
-        $this->_baseturl = $data['baseturl'];
-        $this->_subsections = array();
+        $this->title = $data['title'];
+        $this->anchor = $data['anchor'];
+        $this->baseurl = $data['baseurl'];
+        $this->baseturl = $data['baseturl'];
+        $this->subsections = array();
 
         parent::toArray($data['subsection']);
         foreach ($data['subsection'] as $key => $value) {
-            $this->_subsections[] = new DSubSection($value, $this->_baseurl, $this->_baseturl);
+            $this->subsections[] = new DSubSection($value, $this->baseurl, $this->baseturl);
         }
     }
 
     /* Get the title. */
     public function getTitle()
     {
-        return $this->_title;
+        return $this->title;
     }
 
     /* Get the anchor name. */
     public function getAnchor()
     {
-        return $this->_anchor;
+        return $this->anchor;
     }
 
     /* Get the base URL. */
     public function getBaseURL()
     {
-        return $this->_baseurl;
+        return $this->baseurl;
     }
 
     /* Get the list of optional subsections. */
     public function getSubSections()
     {
-        return $this->_subsections;
+        return $this->subsections;
     }
 }

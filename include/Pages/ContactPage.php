@@ -5,13 +5,13 @@ use ScummVM\Controller;
 
 class ContactPage extends Controller
 {
-    protected $_template;
+
 
     /* Constructor. */
     public function __construct()
     {
         parent::__construct();
-        $this->_template = 'pages/contact.tpl';
+        $this->template = 'pages/contact.tpl';
     }
 
     /* Display the index page. */
@@ -24,7 +24,7 @@ class ContactPage extends Controller
                 'title' => $Smarty->getConfigVars('contactTitle'),
                 'content_title' => $Smarty->getConfigVars('contactContentTitle'),
             ),
-            $this->_template
+            $this->template
         );
     }
 }

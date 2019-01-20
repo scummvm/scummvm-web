@@ -8,14 +8,14 @@ define('DIR_NEWS', 'data/news');
 
 class I18N
 {
-    private $_purifier;
+    private $purifier;
 
     const NO_FILES = 'No I18N Files Found';
 
     public function __construct()
     {
         $config = \HTMLPurifier_Config::createDefault();
-        $this->_purifier = new \HTMLPurifier($config);
+        $this->purifier = new \HTMLPurifier($config);
 
         $langs = ['en', 'it', 'fr', 'ru', 'de'];
         foreach ($langs as $key => $value) {
@@ -33,7 +33,7 @@ class I18N
 
         $output = "";
         foreach ($json as $key => $value) {
-            $output .= $key . " = " . $this->_purifier->purify($value). "\n";
+            $output .= $key . " = " . $this->purifier->purify($value). "\n";
         }
 
         file_put_contents("lang/{$lang}.ini", $output);
@@ -49,12 +49,15 @@ class I18N
 
             foreach ($i18n as $key => $value) {
                 $originalJson = json_decode(file_get_contents(DIR_NEWS . "/{$key}.json"));
-                $value->date = $this->_purifier->purify($originalJson->date);
-                $value->author = $this->_purifier->purify($originalJson->author);
-                $value->title = $this->_purifier->purify($value->title);
-                $value->content = $this->_purifier->purify($value->content);
+                $value->date = $this->purifier->purify($originalJson->date);
+                $value->author = $this->purifier->purify($originalJson->author);
+                $value->title = $this->purifier->purify($value->title);
+                $value->content = $this->purifier->purify($value->content);
 
-                file_put_contents(DIR_NEWS . "/{$lang}/{$key}.json", json_encode($value, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES |  JSON_UNESCAPED_UNICODE));
+                file_put_contents(
+                    DIR_NEWS . "/{$lang}/{$key}.json",
+                    json_encode($value, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES |  JSON_UNESCAPED_UNICODE)
+                );
             }
         } else {
           // Update the base english i18n file
@@ -63,12 +66,15 @@ class I18N
             $news = $this->getAllNews($lang);
             foreach ($news as $key => $value) {
                 $newsJson->$key = array(
-                    "title" => $this->_purifier->purify($value->title),
-                    "content" => $this->_purifier->purify($value->content)
+                    "title" => $this->purifier->purify($value->title),
+                    "content" => $this->purifier->purify($value->content)
                 );
             }
 
-            file_put_contents(DIR_NEWS . "/i18n/news.{$lang}.json", json_encode($newsJson, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES |  JSON_UNESCAPED_UNICODE) . "\n");
+            file_put_contents(
+                DIR_NEWS . "/i18n/news.{$lang}.json",
+                json_encode($newsJson, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES |  JSON_UNESCAPED_UNICODE) . "\n"
+            );
         }
     }
 

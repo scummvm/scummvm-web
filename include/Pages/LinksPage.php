@@ -6,13 +6,13 @@ use ScummVM\Models\LinksModel;
 
 class LinksPage extends Controller
 {
-    protected $_template;
+
 
     /* Constructor. */
     public function __construct()
     {
         parent::__construct();
-        $this->_template = 'pages/links.tpl';
+        $this->template = 'pages/links.tpl';
     }
 
     /* Display the index page. */
@@ -27,7 +27,7 @@ class LinksPage extends Controller
                 'content_title' => $Smarty->getConfigVars('linksContentTitle'),
                 'links' => $links,
             ),
-            $this->_template
+            $this->template
         );
     }
 }

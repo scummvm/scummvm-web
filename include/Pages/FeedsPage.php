@@ -6,15 +6,15 @@ use ScummVM\Models\NewsModel;
 
 class FeedsPage extends Controller
 {
-    private $_template_rss;
-    private $_template_atom;
+    private $template_rss;
+    private $template_atom;
 
     /* Constructor. */
     public function __construct()
     {
         parent::__construct();
-        $this->_template_rss = 'pages/feed_rss.tpl';
-        $this->_template_atom = 'pages/feed_atom.tpl';
+        $this->template_rss = 'pages/feed_rss.tpl';
+        $this->template_atom = 'pages/feed_atom.tpl';
     }
 
     /* Display the index page. */
@@ -22,9 +22,9 @@ class FeedsPage extends Controller
     {
         $feed = $_GET['f'];
         if ($feed == 'atom') {
-            $template = $this->_template_atom;
+            $template = $this->template_atom;
         } else {
-            $template = $this->_template_rss;
+            $template = $this->template_rss;
         }
 
         $news_items = NewsModel::getLatestNews(NEWS_ITEMS, true);

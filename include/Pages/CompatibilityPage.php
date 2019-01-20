@@ -11,26 +11,26 @@ use ScummVM\Models\CompatibilityModel;
  */
 class CompatibilityPage extends Controller
 {
-    protected $_template;
-    private $_template_details;
-    private $_supportLevelDesc;
-    private $_supportLevelClass;
+
+    private $template_details;
+    private $supportLevelDesc;
+    private $supportLevelClass;
 
     /* Constructor. */
     public function __construct()
     {
         parent::__construct();
         global $Smarty;
-        $this->_template = 'pages/compatibility.tpl';
-        $this->_template_details = 'components/compatibility_details.tpl';
-        $this->_supportLevelDesc = array(
+        $this->template = 'pages/compatibility.tpl';
+        $this->template_details = 'components/compatibility_details.tpl';
+        $this->supportLevelDesc = array(
             'untested' => $Smarty->getConfigVars('compatibilityUntested'),
             'broken' => $Smarty->getConfigVars('compatibilityBroken'),
             'bugged' => $Smarty->getConfigVars('compatibilityBugged'),
             'good' => $Smarty->getConfigVars('compatibilityGood'),
             'excellent' => $Smarty->getConfigVars('compatibilityExcellent')
         );
-        $this->_supportLevelClass = array(
+        $this->supportLevelClass = array(
             'untested' => 'pctU',
             'broken' => 'pct0',
             'bugged' => 'pct50',
@@ -73,14 +73,18 @@ class CompatibilityPage extends Controller
         return $this->renderPage(
             array(
                 'title' => preg_replace('/{version}/', $version, $Smarty->getConfigVars('compatibilityTitle')),
-                'content_title' => preg_replace('/{version}/', $version, $Smarty->getConfigVars('compatibilityContentTitle')),
+                'content_title' => preg_replace(
+                    '/{version}/',
+                    $version,
+                    $Smarty->getConfigVars('compatibilityContentTitle')
+                ),
                 'version' => $version,
                 'game' => $game,
                 'old_layout' => $oldLayout,
-                'support_level_desc' => $this->_supportLevelDesc,
-                'support_level_class' => $this->_supportLevelClass
+                'support_level_desc' => $this->supportLevelDesc,
+                'support_level_class' => $this->supportLevelClass
             ),
-            $this->_template_details
+            $this->template_details
         );
     }
 
@@ -101,16 +105,20 @@ class CompatibilityPage extends Controller
         return $this->renderPage(
             array(
                 'title' => preg_replace('/{version}/', $version, $Smarty->getConfigVars('compatibilityTitle')),
-                'content_title' => preg_replace('/{version}/', $version, $Smarty->getConfigVars('compatibilityContentTitle')),
+                'content_title' => preg_replace(
+                    '/{version}/',
+                    $version,
+                    $Smarty->getConfigVars('compatibilityContentTitle')
+                ),
                 'version' => $version,
                 'compat_data' => $compat_data,
                 'last_updated' => $last_updated,
                 'versions' => $versions,
                 'old_layout' => $oldLayout,
-                'support_level_desc' => $this->_supportLevelDesc,
-                'support_level_class' => $this->_supportLevelClass
+                'support_level_desc' => $this->supportLevelDesc,
+                'support_level_class' => $this->supportLevelClass
             ),
-            $this->_template
+            $this->template
         );
     }
 }

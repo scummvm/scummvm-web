@@ -6,13 +6,13 @@ use ScummVM\Models\GameDemosModel;
 
 class DemosPage extends Controller
 {
-    protected $_template;
+
 
     /* Constructor. */
     public function __construct()
     {
         parent::__construct();
-        $this->_template = 'pages/game_demos.tpl';
+        $this->template = 'pages/game_demos.tpl';
     }
 
     /* Display the index page. */
@@ -27,7 +27,7 @@ class DemosPage extends Controller
                 'content_title' => $Smarty->getConfigVars('demosContentTitle'),
                 'demos' => $demos,
             ),
-            $this->_template
+            $this->template
         );
     }
 }

@@ -7,24 +7,24 @@ namespace ScummVM\Objects;
  */
 class CSection extends BasicObject
 {
-    private $_title;
-    private $_groups;
-    private $_subsections;
-    private $_paragraphs;
-    private $_anchor;
+    private $title;
+    private $groups;
+    private $subsections;
+    private $paragraphs;
+    private $anchor;
 
     /* CSection object constructor. */
     public function __construct($data)
     {
-        $this->_title = $data['title'];
-        $this->_anchor = $data['anchor'];
-        $this->_groups = array();
-        $this->_subsections = array();
-        $this->_paragraphs = array();
+        $this->title = $data['title'];
+        $this->anchor = $data['anchor'];
+        $this->groups = array();
+        $this->subsections = array();
+        $this->paragraphs = array();
 
         if (isset($data['subsection'])) {
             foreach ($data['subsection'] as $value) {
-                $this->_subsections[] = new CSection($value);
+                $this->subsections[] = new CSection($value);
             }
         }
         if (isset($data['group'])) {
@@ -40,7 +40,7 @@ class CSection extends BasicObject
                     $persons[] = new Person($args);
                 }
                 if (count($persons) > 0) {
-                    $this->_groups[] = array(
+                    $this->groups[] = array(
                         'name' => $value['name'],
                         'persons' => $persons,
                     );
@@ -49,37 +49,37 @@ class CSection extends BasicObject
         }
         if (isset($data['paragraph'])) {
             parent::toArray($data['paragraph']);
-            $this->_paragraphs = $data['paragraph'];
+            $this->paragraphs = $data['paragraph'];
         }
     }
 
     /* Get the title. */
     public function getTitle()
     {
-        return $this->_title;
+        return $this->title;
     }
 
   /* Get the anchor. */
     public function getAnchor()
     {
-        return $this->_anchor;
+        return $this->anchor;
     }
 
     /* Get the optional list of groups. */
     public function getGroups()
     {
-        return $this->_groups;
+        return $this->groups;
     }
 
     /* Get the optional list of subsections. */
     public function getSubSections()
     {
-        return $this->_subsections;
+        return $this->subsections;
     }
 
     /* Get the optional list of paragraphs. */
     public function getParagraphs()
     {
-        return $this->_paragraphs;
+        return $this->paragraphs;
     }
 }

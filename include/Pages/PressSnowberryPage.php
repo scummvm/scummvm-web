@@ -6,13 +6,13 @@ use ScummVM\Models\ArticleModel;
 
 class PressSnowberryPage extends Controller
 {
-    protected $_template;
+
 
     /* Constructor. */
     public function __construct()
     {
         parent::__construct();
-        $this->_template = 'pages/press_snowberry.tpl';
+        $this->template = 'pages/press_snowberry.tpl';
     }
 
     /* Display the index page. */
@@ -27,7 +27,7 @@ class PressSnowberryPage extends Controller
                 'content_title' => $Smarty->getConfigVars('pressSnowberryContentTitle'),
                 'articles' => $articles,
             ),
-            $this->_template
+            $this->template
         );
     }
 }
