@@ -6,16 +6,16 @@ namespace ScummVM\Objects;
  */
 class Screenshot extends BasicObject
 {
-    private $_name;
-    private $_category;
-    private $_files;
+
+    private $category;
+    private $files;
 
     /* The Screenshot object constructor. */
     public function __construct($data)
     {
-        $this->_name = $data['name'];
-        $this->_category = $data['category'];
-        $this->_files = array();
+        $this->name = $data['name'];
+        $this->category = $data['category'];
+        $this->files = array();
         if (isset($data['image'])) {
             if (!isset($data['image'][0])) {
                 parent::toArray($data['image']);
@@ -24,18 +24,21 @@ class Screenshot extends BasicObject
             foreach ($data['image'] as $value) {
                 if (isset($value['range'])) {
                     $attr = $value['range']['@attributes'];
-                    if (!isset($attr['from']) || !isset($attr['to']) || !isset($attr['format']) || !strstr($value['file'], '#n#')) {
+                    if (!isset($attr['from'])
+                        || !isset($attr['to'])
+                        || !isset($attr['format'])
+                        || !strstr($value['file'], '#n#')) {
                         throw new \ErrorException('Invalid range format for ' . $value['file']);
                     }
                     $pat = str_replace("#n#", $attr['format'], $value['file']);
                     for ($num = $attr['from']; $num <= $attr['to']; $num++) {
-                        $this->_files[] = array(
+                        $this->files[] = array(
                             'filename' => sprintf($pat, $num),
                             'caption' => $value['caption'],
                         );
                     }
                 } else {
-                    $this->_files[] = array(
+                    $this->files[] = array(
                         'filename' => $value['file'],
                         'caption' => $value['caption'],
                     );
@@ -47,18 +50,18 @@ class Screenshot extends BasicObject
     /* Get the name. */
     public function getName()
     {
-        return $this->_name;
+        return $this->name;
     }
 
     /* Get the category this screenshot belongs too. */
     public function getCategory()
     {
-        return $this->_category;
+        return $this->category;
     }
 
     /* Get the list of files, with the base filename as key and the caption as value. */
     public function getFiles()
     {
-        return $this->_files;
+        return $this->files;
     }
 }

@@ -6,13 +6,13 @@ use ScummVM\Models\DocumentationModel;
 
 class DocumentationPage extends Controller
 {
-    protected $_template;
+
 
     /* Constructor. */
     public function __construct()
     {
         parent::__construct();
-        $this->_template = 'pages/documentation.tpl';
+        $this->template = 'pages/documentation.tpl';
     }
 
     /* Display the index page. */
@@ -29,7 +29,7 @@ class DocumentationPage extends Controller
                 'content_title' => $Smarty->getConfigVars('documentationContentTitle'),
                 'documents' => $documents,
             ),
-            $this->_template
+            $this->template
         );
     }
 }

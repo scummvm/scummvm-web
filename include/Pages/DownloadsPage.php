@@ -6,19 +6,18 @@ use ScummVM\Models\DownloadsModel;
 
 class DownloadsPage extends Controller
 {
-    protected $_template;
+
 
     /* Constructor. */
     public function __construct()
     {
         parent::__construct();
-        $this->_template = 'pages/downloads.tpl';
+        $this->template = 'pages/downloads.tpl';
     }
 
-    function getRecommendedDownloadsJS(&$downloads)
+    private function getRecommendedDownloadsJS(&$downloads)
     {
-        $js = "var versions = {\n";
-
+        $versions = new \stdClass();
         foreach ($downloads as $dsection) {
             foreach ($dsection->getSubSections() as $dsubsection) {
                 foreach ($dsubsection->getItems() as $curItem) {
@@ -41,14 +40,18 @@ class DownloadsPage extends Controller
                             $extra_text = $data;
                         }
 
-                        $js .= "\t\t\t'{$userAgent}':\t{ 'os':\t'{$name}', 'ver':\t'{$version}', 'desc':\t'{$extra_text}', 'url':\t'{$url}'},\n";
+                        $versions->$userAgent = array(
+                            'os' => $name,
+                            'ver' => $version,
+                            'desc' => $extra_text,
+                            'url' => $url,
+                        );
                     }
                 }
             }
         }
-        $js .= "};\n";
 
-        return $js;
+        return 'var versions = ' . JSON_ENCODE($versions);
     }
 
     /* Display the index page. */
@@ -69,7 +72,7 @@ class DownloadsPage extends Controller
                 'release_debian' => RELEASE_DEBIAN,
                 'recommendedDownloadsJS' => $recommendedDownloadsJS
             ),
-            $this->_template
+            $this->template
         );
     }
 }

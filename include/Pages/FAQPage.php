@@ -6,13 +6,13 @@ use ScummVM\Models\FAQModel;
 
 class FAQPage extends Controller
 {
-    protected $_template;
+
 
     /* Constructor. */
     public function __construct()
     {
         parent::__construct();
-        $this->_template = 'pages/faq.tpl';
+        $this->template = 'pages/faq.tpl';
     }
 
     /* Display the index page. */
@@ -29,7 +29,7 @@ class FAQPage extends Controller
                 'contents' => $contents,
                 'modified' => $modified,
             ),
-            $this->_template
+            $this->template
         );
     }
 }

@@ -12,7 +12,7 @@ class CreditsPage extends Controller
     public function __construct()
     {
         parent::__construct();
-        $this->_template = 'pages/credits.tpl';
+        $this->template = 'pages/credits.tpl';
     }
 
     /* Display the index page. */
@@ -27,7 +27,7 @@ class CreditsPage extends Controller
                 'content_title' => $Smarty->getConfigVars('creditsContentTitle'),
                 'credits' => $credits,
             ),
-            $this->_template
+            $this->template
         );
     }
 }

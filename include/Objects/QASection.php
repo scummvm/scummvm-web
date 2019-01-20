@@ -7,9 +7,9 @@ namespace ScummVM\Objects;
  */
 class QASection extends BasicObject
 {
-    private $_title;
-    private $_entries;
-    private $_toc;
+    private $title;
+    private $entries;
+    private $toc;
 
     /**
      * QASection object constructor.
@@ -20,33 +20,33 @@ class QASection extends BasicObject
      */
     public function __construct($data, $section_number, &$xref)
     {
-        $this->_title = $data['title'];
-        $this->_entries = array();
-        $this->_toc = array();
+        $this->title = $data['title'];
+        $this->entries = array();
+        $this->toc = array();
         parent::toArray($data['entry']);
         $count = 1;
         foreach ($data['entry'] as $key => $value) {
             $qa = new QAEntry($value, $section_number, $count++, $xref);
-            $this->_entries[] = $qa;
-            $this->_toc[$qa->getHref()] = $qa->getQuestion();
+            $this->entries[] = $qa;
+            $this->toc[$qa->getHref()] = $qa->getQuestion();
         }
     }
 
     /* Get the title of this section. */
     public function getTitle()
     {
-        return $this->_title;
+        return $this->title;
     }
 
     /* Get a list with all question-answer entries for this section. */
     public function getEntries()
     {
-        return $this->_entries;
+        return $this->entries;
     }
 
     /* Get the table of contents for this section. */
     public function getTOC()
     {
-        return $this->_toc;
+        return $this->toc;
     }
 }

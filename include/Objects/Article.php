@@ -7,41 +7,40 @@ namespace ScummVM\Objects;
  */
 class Article extends BasicObject
 {
-    private $_name;
-    private $_url;
-    private $_language;
-    private $_posted;
+    private $url;
+    private $language;
+    private $posted;
 
     /* Article object constructor. */
     public function __construct($data)
     {
-        $this->_name = $data['name'];
-        $this->_url = $data['url'];
-        $this->_language = $data['language'];
-        $this->_posted = $data['posted'];
+        $this->name = $data['name'];
+        $this->url = $data['url'];
+        $this->language = $data['language'];
+        $this->posted = $data['posted'];
     }
 
     /* Get the name. */
     public function getName()
     {
-        return $this->_name;
+        return $this->name;
     }
 
     /* Get the URL. */
     public function getURL()
     {
-        return $this->_url;
+        return $this->url;
     }
 
     /* Get the language. */
     public function getLanguage()
     {
-        return $this->_language;
+        return $this->language;
     }
 
     /* Get the date it was posted. */
     public function getPosted()
     {
-        return $this->_posted;
+        return $this->posted;
     }
 }

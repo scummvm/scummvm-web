@@ -6,13 +6,13 @@ use ScummVM\Models\GamesModel;
 
 class GamesPage extends Controller
 {
-    protected $_template;
+
 
     /* Constructor. */
     public function __construct()
     {
         parent::__construct();
-        $this->_template = 'pages/games.tpl';
+        $this->template = 'pages/games.tpl';
     }
 
     /* Display the index page. */
@@ -31,7 +31,7 @@ class GamesPage extends Controller
                 'release_tools' => RELEASE_TOOLS,
                 'release_debian' => RELEASE_DEBIAN,
             ),
-            $this->_template
+            $this->template
         );
     }
 }

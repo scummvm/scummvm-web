@@ -6,20 +6,20 @@ namespace ScummVM\Objects;
  */
 class File extends BasicObject
 {
-    private $_category_icon;
-    private $_url;
-    private $_name;
-    private $_type;
-    private $_extra_info;
-    private $_user_agent;
+    private $category_icon;
+    private $url;
+
+    private $type;
+    private $extra_info;
+    private $user_agent;
 
     public function __construct($data, $baseurl = null, $baseturl = null)
     {
-        $this->_category_icon = $data['category_icon'];
-        $this->_name = $data['name'];
-        $this->_extra_info = $data['extra_info'];
-        $this->_type = strtolower($data['type']);
-        $this->_user_agent = isset($data["user_agent"]) ? $data["user_agent"] : "";
+        $this->category_icon = $data['category_icon'];
+        $this->name = $data['name'];
+        $this->extra_info = $data['extra_info'];
+        $this->type = strtolower($data['type']);
+        $this->user_agent = isset($data["user_agent"]) ? $data["user_agent"] : "";
 
         $fname = "";
 
@@ -46,7 +46,7 @@ class File extends BasicObject
             $fname = str_replace('{$release_tools}', RELEASE_TOOLS, $fname);
 
             if (is_file($fname) && is_readable($fname)) {
-                $this->_extra_info = array();
+                $this->extra_info = array();
                 $sz = round((@filesize($fname) / 1024));
 
                 if ($sz < 1024) {
@@ -61,7 +61,7 @@ class File extends BasicObject
                         $sz = round($sz, 2) . "G";
                     }
                 }
-                $this->_extra_info['size'] = $sz;
+                $this->extra_info['size'] = $sz;
                 $ext = substr($url, (strrpos($url, '.')));
 
                 if ($ext == '.bz2' || $ext == '.gz' || $ext == '.xz' || $ext == '.7z') {
@@ -70,28 +70,28 @@ class File extends BasicObject
 
                 if ((is_file($fname . '.sha256') && is_readable($fname . '.sha256'))
                 && (@filemtime($fname . '.sha256') > @filemtime($fname)) ) {
-                    $this->_extra_info['sha256'] = file_get_contents($fname . '.sha256');
+                    $this->extra_info['sha256'] = file_get_contents($fname . '.sha256');
                 } else {
                     $hash = hash_file('sha256', $fname);
-                    $this->_extra_info['sha256'] = $hash;
+                    $this->extra_info['sha256'] = $hash;
                     file_put_contents($fname . '.sha256', $hash);
                 }
 
-                $this->_extra_info['ext'] = $ext;
-                $this->_extra_info['msg'] = $data['extra_msg'];
+                $this->extra_info['ext'] = $ext;
+                $this->extra_info['msg'] = $data['extra_msg'];
             }
         }
         $this->_url = $url;
 
         /**
          * Get the filesize/last modified information and put it in
-         * $this->_extra_info.
+         * $this->extra_info.
          */
         if ($attributes['extra_info'] == 'true') {
             if (is_file($fname) && is_readable($fname)) {
-                $this->_extra_info['date'] = date('F j, Y, g:i a', @filemtime($fname));
+                $this->extra_info['date'] = date('F j, Y, g:i a', @filemtime($fname));
                 if (!is_null($data['extra_info'])) {
-                    $this->_extra_info['info'] = $data['extra_info'];
+                    $this->extra_info['info'] = $data['extra_info'];
                 }
             }
         }
@@ -100,7 +100,7 @@ class File extends BasicObject
     /* Get the category icon. */
     public function getCategoryIcon()
     {
-        return $this->_category_icon;
+        return $this->category_icon;
     }
 
     /* Get the URL. */
@@ -112,24 +112,24 @@ class File extends BasicObject
     /* Get the name. */
     public function getName()
     {
-        return $this->_name;
+        return $this->name;
     }
 
     /* Get the type. */
     public function getType()
     {
-        return $this->_type;
+        return $this->type;
     }
 
     /* Get the extra information. */
     public function getExtraInfo()
     {
-        return $this->_extra_info;
+        return $this->extra_info;
     }
 
     /* Get the user-agent. */
     public function getUserAgent()
     {
-        return $this->_user_agent;
+        return $this->user_agent;
     }
 }

@@ -7,10 +7,10 @@ namespace ScummVM\Objects;
  */
 class QAEntry extends BasicObject
 {
-    private $_hrefs;
-    private $_question;
-    private $_answer;
-    private $_xref;
+    private $hrefs;
+    private $question;
+    private $answer;
+    private $xref;
 
     /**
      * QAEntry object constructor.
@@ -22,42 +22,42 @@ class QAEntry extends BasicObject
      */
     public function __construct($data, $section_number, $entry_number, &$xref)
     {
-        $this->_hrefs = array();
+        $this->hrefs = array();
         if (! empty($data['href'])) {
-            array_push($this->_hrefs, $data['href']);
+            array_push($this->hrefs, $data['href']);
             $xref[$data['href']] = $data['question'];
         }
-        array_push($this->_hrefs, "{$section_number}_{$entry_number}");
+        array_push($this->hrefs, "{$section_number}_{$entry_number}");
 
-        $this->_question = $data['question'];
-        $this->_answer = $data['answer'];
+        $this->question = $data['question'];
+        $this->answer = $data['answer'];
         /* Save a reference to the xref table for later use. */
-        $this->_xref = &$xref;
+        $this->xref = &$xref;
     }
 
     /* Get the primary anchor name for this entry. */
     public function getHref()
     {
-        return $this->_hrefs[0];
+        return $this->hrefs[0];
     }
 
     /* Get all anchor names for this entry. */
     public function getHrefs()
     {
-        return $this->_hrefs;
+        return $this->hrefs;
     }
 
     /* Get the question for this entry. */
     public function getQuestion()
     {
-        return $this->_question;
+        return $this->question;
     }
 
     /* Get the answer for this entry. */
     public function getAnswer()
     {
-        $answer = &$this->_answer;
-        $xref = &$this->_xref;
+        $answer = &$this->answer;
+        $xref = &$this->xref;
         /* If we find a xref we need to make the final conversion to HTML. */
         if (strpos($answer, '<a xref') !== false) {
             /**
@@ -68,13 +68,13 @@ class QAEntry extends BasicObject
             if (!isset($xref['pattern']) || !isset($xref['replace'])) {
                 $pattern = array();
                 $replace = array();
-                foreach ($this->_xref as $anchor => $text) {
+                foreach ($this->xref as $anchor => $text) {
                     $xref['pattern'][] = "/<a xref=\"{$anchor}\"><\/a>/";
                     $xref['replace'][] = "<a href=\"faq/#{$anchor}\">{$text}</a>";
                 }
             }
             $answer = preg_replace($xref['pattern'], $xref['replace'], $answer);
         }
-        return $this->_answer;
+        return $this->answer;
     }
 }

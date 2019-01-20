@@ -7,13 +7,13 @@ use ScummVM\Models\ScreenshotsModel;
 
 class NewsPage extends Controller
 {
-    protected $_template;
+
 
     /* Constructor. */
     public function __construct()
     {
         parent::__construct();
-        $this->_template = 'pages/news.tpl';
+        $this->template = 'pages/news.tpl';
     }
 
     /* Display the index page. */
@@ -50,7 +50,7 @@ class NewsPage extends Controller
                 'news_items' => $news_items,
                 'news_archive_link' => false,
             ),
-            $this->_template
+            $this->template
         );
     }
 
@@ -75,7 +75,7 @@ class NewsPage extends Controller
                 'news_archive_link' => true,
                 'random_shot' => $random_shot,
             ),
-            $this->_template
+            $this->template
         );
     }
 }

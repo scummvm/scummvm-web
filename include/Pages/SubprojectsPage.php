@@ -6,13 +6,13 @@ use ScummVM\Models\SubprojectsModel;
 
 class SubprojectsPage extends Controller
 {
-    protected $_template;
+
 
     /* Constructor. */
     public function __construct()
     {
         parent::__construct();
-        $this->_template = 'pages/subprojects.tpl';
+        $this->template = 'pages/subprojects.tpl';
     }
 
     /* Display the index page. */
@@ -27,7 +27,7 @@ class SubprojectsPage extends Controller
                 'content_title' => $Smarty->getConfigVars('subprojectsContentTitle'),
                 'subprojects' => $subprojects,
             ),
-            $this->_template
+            $this->template
         );
     }
 }

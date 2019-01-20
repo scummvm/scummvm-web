@@ -22,9 +22,9 @@ class XMLParser
     const NS_XHTML = 'http://www.w3.org/TR/xhtml1/';
 
     private static $empty_elements = array('br', 'hr', 'img');
-    private $_tree;
-    private $_data;
-    private $_ptr;
+    private $tree;
+    private $data;
+    private $ptr;
 
     /**
      * Constructor.
@@ -34,9 +34,9 @@ class XMLParser
      */
     public function __construct()
     {
-        $this->_tree = array();
-        $this->_data = null;
-        $this->_ptr = null;
+        $this->tree = array();
+        $this->data = null;
+        $this->ptr = null;
     }
 
     /**
@@ -125,7 +125,8 @@ class XMLParser
         /* Parse the data and free the parser resource. */
         if (!xml_parse($parser, $xml, true)) {
             $error = "\n\nError code: " . xml_get_error_code($parser) . "\n";
-            $error .= "Line: " . xml_get_current_line_number($parser) . ", character: " . xml_get_current_column_number($parser) . "\n";
+            $error .= "Line: " . xml_get_current_line_number($parser)
+                    . ", character: " . xml_get_current_column_number($parser) . "\n";
             $error .= "Error message: " . xml_error_string(xml_get_error_code($parser)) . "\n";
             xml_parser_free($parser);
             throw new \ErrorException(self::PARSER_ERROR . $error);
@@ -135,7 +136,7 @@ class XMLParser
          * The root element will contain an array with an empty key, so we can
          * skip that one right now.
          */
-        $tree = $this->_tree[''];
+        $tree = $this->tree[''];
         $this->simplifyArray($tree);
         return $tree;
     }
@@ -183,14 +184,14 @@ class XMLParser
             }
 
             /* Get the key for the last node in the tree. */
-            end($this->_tree);
-            $key = key($this->_tree);
+            end($this->tree);
+            $key = key($this->tree);
 
             /* Store the position so we can add the data later. */
-            $this->_ptr = &$this->_tree[$key][$name];
+            $this->ptr = &$this->tree[$key][$name];
             /* Store a reference the attributes. */
             if ($element != null) {
-                $this->_ptr['@attributes'] = &$element;
+                $this->ptr['@attributes'] = &$element;
             } else {
                 /**
                  * For one reason or another that escapes me, we must do this,
@@ -198,13 +199,13 @@ class XMLParser
                  * in endElement() by overwriting the empty elements created
                  * here.
                  */
-                $this->_ptr[] = &$element;
+                $this->ptr[] = &$element;
             }
             /**
              * Store the reference directly in the tree until this node (and
              * it's children) are done. Will get removed in endElement().
              */
-            $this->_tree[$name] = &$element;
+            $this->tree[$name] = &$element;
         }
     }
 
@@ -218,7 +219,7 @@ class XMLParser
      */
     private function getElement($parser, $data)
     {
-        $this->_data .= $data;
+        $this->data .= $data;
     }
 
     /**
@@ -246,20 +247,20 @@ class XMLParser
             }
         /* Otherwise we can just add the data. */
         } else {
-            $data = trim($this->_data);
+            $data = trim($this->data);
             if (!empty($data)) {
                 /* If we got an empty element in the array, overwrite it. */
-                $pos = count($this->_ptr);
-                if (is_null($this->_ptr[($pos-1)])) {
+                $pos = count($this->ptr);
+                if (is_null($this->ptr[($pos-1)])) {
                     $pos--;
                 }
-                $this->_ptr[$pos] = $data;
+                $this->ptr[$pos] = $data;
             }
 
             /* Reset the internal data holder. */
-            $this->_data = null;
+            $this->data = null;
             /* Remove the reference. */
-            $pop = array_pop($this->_tree);
+            $pop = array_pop($this->tree);
         }
     }
 

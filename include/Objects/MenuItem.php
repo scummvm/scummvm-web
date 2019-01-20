@@ -6,36 +6,36 @@ namespace ScummVM\Objects;
  */
 class MenuItem extends BasicObject
 {
-    private $_name;
-    private $_class;
-    private $_entries;
+
+    private $class;
+    private $entries;
 
     /* Menu object constructor. */
     public function __construct($data)
     {
-        $this->_name = $data['name'];
-        $this->_class = $data['class'];
-        $this->_entries = array();
+        $this->name = $data['name'];
+        $this->class = $data['class'];
+        $this->entries = array();
         foreach ($data['link'] as $key => $value) {
-            $this->_entries[$value['name']] = $value['href'];
+            $this->entries[$value['name']] = $value['href'];
         }
     }
 
     /* Get the name. */
     public function getName()
     {
-        return $this->_name;
+        return $this->name;
     }
 
     /* Get the CSS class. */
     public function getClass()
     {
-        return $this->_class;
+        return $this->class;
     }
 
     /* Get the list of links, with the name as key and URL as value. */
     public function getEntries()
     {
-        return $this->_entries;
+        return $this->entries;
     }
 }

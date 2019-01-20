@@ -6,9 +6,9 @@ namespace ScummVM\Objects;
  */
 class Project extends BasicObject
 {
-    private $_name;
-    private $_info;
-    private $_downloads;
+
+    private $info;
+    private $downloads;
 
     /* Project object constructor. */
     public function __construct($data)

@@ -6,12 +6,11 @@ namespace ScummVM\Objects;
  */
 class News extends BasicObject
 {
-    private $_title;
-    private $_date;
-    private $_author;
-    private $_image;
-    private $_content;
-    private $_filename;
+    private $title;
+    private $date;
+    private $author;
+    private $content;
+    private $filename;
 
     /**
      * News object constructor that extracts the data from the JSON scheme
@@ -28,11 +27,11 @@ class News extends BasicObject
      */
     public function __construct($data, $filename, $processContent = false)
     {
-        $this->_title = $processContent ? $this->processText($data->title) : $data->title;
-        $this->_date = $data->date;
-        $this->_author = $data->author;
-        $this->_content = $processContent ? $this->processText($data->content) : $data->content;
-        $this->_filename = basename($filename);
+        $this->title = $processContent ? $this->processText($data->title) : $data->title;
+        $this->date = $data->date;
+        $this->author = $data->author;
+        $this->content = $processContent ? $this->processText($data->content) : $data->content;
+        $this->filename = basename($filename);
     }
 
     /**
@@ -44,7 +43,7 @@ class News extends BasicObject
      * http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references
      * for a list of valid entities for both XML and HTML
      */
-    function processText($text)
+    public function processText($text)
     {
         return html_entity_decode($text, ENT_COMPAT, 'UTF-8');
     }
@@ -52,36 +51,36 @@ class News extends BasicObject
     /* Get the title. */
     public function getTitle()
     {
-        return $this->_title;
+        return $this->title;
     }
 
     /* Get the date. */
     public function getDate()
     {
-        return $this->_date;
+        return $this->date;
     }
 
     /* Get the author. */
     public function getAuthor()
     {
-        return $this->_author;
+        return $this->author;
     }
 
     /* Get the content. */
     public function getContent()
     {
-        return $this->_content;
+        return $this->content;
     }
 
     /* Get the filename. */
     public function getFilename()
     {
-        return $this->_filename;
+        return $this->filename;
     }
 
   /* Get the News link. */
     public function getLink()
     {
-        return URL_BASE . 'news/' . substr($this->_filename, 0, -5);
+        return URL_BASE . 'news/' . substr($this->filename, 0, -5);
     }
 }
