@@ -1,7 +1,6 @@
 <?php
 namespace ScummVM\Objects;
 
-require_once('Objects/BasicObject.php');
 /**
  * The File object represents a file on the website.
  */

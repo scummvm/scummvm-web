@@ -2,7 +2,6 @@
 namespace ScummVM\Models;
 
 use ScummVM\XMLParser;
-use ScummVM\Models\BasicModel;
 use ScummVM\Objects\MenuItem;
 
 /**

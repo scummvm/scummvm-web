@@ -1,8 +1,9 @@
 <?php
 namespace ScummVM\Pages;
 
-require_once('Controller.php');
-require_once('Models/CompatibilityModel.php');
+use ScummVM\Controller;
+use ScummVM\Models\CompatabilityModel;
+
 /**
  * The Compatibility page gets all the data from the CompatibilityModel and
  * either displays the full list of games, or specific details about one

@@ -1,8 +1,8 @@
 <?php
 namespace ScummVM\Pages;
 
-require_once('Controller.php');
-require_once('Models/ScreenshotsModel.php');
+use ScummVM\Controller;
+use ScummVM\Models\ScreenshotModel;
 
 class ScreenshotsPage extends Controller
 {

@@ -1,8 +1,8 @@
 <?php
 namespace ScummVM\Pages;
 
-require_once('Controller.php');
-require_once('Models/NewsModel.php');
+use ScummVM\Controller;
+use ScummVM\Models\NewsModel;
 
 class FeedsPage extends Controller
 {

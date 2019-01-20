@@ -1,7 +1,6 @@
 <?php
 namespace ScummVM\Objects;
 
-require_once('Objects/BasicObject.php');
 /**
  * The menu class represents a sidebar menu group on the website.
  */

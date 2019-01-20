@@ -75,21 +75,21 @@ set_exception_handler(array('ScummVM\ExceptionHandler', 'handleException'));
 
 /* Page mapping. */
 $pages = array(
-    'compatibility' => 'CompatibilityPage',
-    'contact' => 'ContactPage',
-    'credits' => 'CreditsPage',
-    'demos' => 'DemosPage',
-    'documentation' => 'DocumentationPage',
-    'downloads' => 'DownloadsPage',
-    'games' => 'GamesPage',
-    'faq' => 'FAQPage',
-    'feeds' => 'FeedsPage',
-    'links' => 'LinksPage',
+    'compatibility' => 'ScummVM\Pages\CompatibilityPage',
+    'contact' => 'ScummVM\Pages\ContactPage',
+    'credits' => 'ScummVM\Pages\CreditsPage',
+    'demos' => 'ScummVM\Pages\DemosPage',
+    'documentation' => 'ScummVM\Pages\DocumentationPage',
+    'downloads' => 'ScummVM\Pages\DownloadsPage',
+    'games' => 'ScummVM\Pages\GamesPage',
+    'faq' => 'ScummVM\Pages\FAQPage',
+    'feeds' => 'ScummVM\Pages\FeedsPage',
+    'links' => 'ScummVM\Pages\LinksPage',
     'news' => 'ScummVM\Pages\NewsPage',
-    'press' => 'PressPage',
-    'presssnowberry' => 'PressSnowberryPage',
-    'screenshots' => 'ScreenshotsPage',
-    'subprojects' => 'SubprojectsPage',
+    'press' => 'ScummVM\Pages\PressPage',
+    'presssnowberry' => 'ScummVM\Pages\PressSnowberryPage',
+    'screenshots' => 'ScummVM\Pages\ScreenshotsPage',
+    'subprojects' => 'ScummVM\Pages\SubprojectsPage',
 );
 
 /* Default to the news page. */

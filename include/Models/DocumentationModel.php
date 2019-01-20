@@ -1,8 +1,9 @@
 <?php
 namespace ScummVM\Models;
 
-require_once('Models/BasicModel.php');
-require_once('Objects/Document.php');
+use ScummVM\Objects\Document;
+use ScummVM\XMLParser;
+
 /**
  * The DocumentationModel class will generate Document objects.
  */

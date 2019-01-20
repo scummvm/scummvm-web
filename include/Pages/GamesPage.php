@@ -1,8 +1,8 @@
 <?php
 namespace ScummVM\Pages;
 
-require_once('Controller.php');
-require_once('Models/GamesModel.php');
+use ScummVM\Controller;
+use ScummVM\Models\GamesModel;
 
 class GamesPage extends Controller
 {

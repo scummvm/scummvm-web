@@ -1,8 +1,8 @@
 <?php
 namespace ScummVM\Pages;
 
-require_once('Controller.php');
-require_once('Models/ArticleModel.php');
+use ScummVM\Controller;
+use ScummVM\Models\ArticleModel;
 
 class PressPage extends Controller
 {

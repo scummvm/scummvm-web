@@ -1,9 +1,9 @@
 <?php
 namespace ScummVM\Models;
 
-require_once('Models/BasicModel.php');
-require_once('Objects/CSection.php');
-require_once('XMLParser.php');
+use ScummVM\Objects\CSection;
+use ScummVM\XMLParser;
+
 /**
  * The CreditsModel will generate CSection objects.
  */

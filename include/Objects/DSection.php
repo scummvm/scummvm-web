@@ -1,8 +1,6 @@
 <?php
 namespace ScummVM\Objects;
 
-require_once('Objects/BasicObject.php');
-require_once('Objects/DSubSection.php');
 /**
  * The DSection object represents a section on the downloads page.
  */

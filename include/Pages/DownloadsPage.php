@@ -1,8 +1,8 @@
 <?php
 namespace ScummVM\Pages;
 
-require_once('Controller.php');
-require_once('Models/DownloadsModel.php');
+use ScummVM\Controller;
+use ScummVM\Models\DownloadsModel;
 
 class DownloadsPage extends Controller
 {

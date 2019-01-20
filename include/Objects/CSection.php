@@ -1,8 +1,6 @@
 <?php
 namespace ScummVM\Objects;
 
-require_once('Objects/BasicObject.php');
-require_once('Objects/Person.php');
 /**
  * The Section class represens a section (or a subsection) on the credits page
  * on the website.
