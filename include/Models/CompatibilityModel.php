@@ -18,11 +18,11 @@ abstract class CompatibilityModel extends BasicModel
     public static function getAllData($version)
     {
         if (!is_string($version)) {
-            throw new ErrorException(self::NO_VERSION);
+            throw new \ErrorException(self::NO_VERSION);
         }
         $fname = DIR_COMPAT . "/compat-{$version}.xml";
         if (!file_exists($fname)) {
-            throw new ErrorException(self::NO_FILES);
+            throw new \ErrorException(self::NO_FILES);
         }
         $parser = new XMLParser();
         $a = $parser->parseByFilename($fname);
@@ -73,7 +73,7 @@ abstract class CompatibilityModel extends BasicModel
     public static function getAllVersions()
     {
         if (!($files = scandir(DIR_COMPAT))) {
-            throw new ErrorException(self::NO_FILES);
+            throw new \ErrorException(self::NO_FILES);
         }
         $dates = array();
         foreach ($files as $file) {
@@ -94,10 +94,10 @@ abstract class CompatibilityModel extends BasicModel
     public static function getGameData($version, $target)
     {
         if (!is_string($version) || !is_string($target)) {
-            throw new ErrorException(self::NO_VERSION_TARGET);
+            throw new \ErrorException(self::NO_VERSION_TARGET);
         }
         if (!($all_games = self::getAllData($version))) {
-            throw new ErrorException(self::NOT_FOUND);
+            throw new \ErrorException(self::NOT_FOUND);
         }
         $g = null;
         foreach ($all_games as $company => $games) {
@@ -112,7 +112,7 @@ abstract class CompatibilityModel extends BasicModel
             }
         }
         if (is_null($g)) {
-            throw new ErrorException(self::NOT_FOUND);
+            throw new \ErrorException(self::NOT_FOUND);
         }
 
         return $g;

@@ -46,7 +46,7 @@ abstract class ScreenshotsModel extends BasicModel
                 return $shots;
             }
         }
-        throw new ErrorException(self::INVALID_CATEGORY);
+        throw new \ErrorException(self::INVALID_CATEGORY);
     }
 
     /* Get screenshots for a specific target. */
@@ -60,7 +60,7 @@ abstract class ScreenshotsModel extends BasicModel
                 }
             }
         }
-        throw new ErrorException(self::INVALID_TARGET);
+        throw new \ErrorException(self::INVALID_TARGET);
     }
 
     /* Get a random screenshot (an object and not a filename) .*/

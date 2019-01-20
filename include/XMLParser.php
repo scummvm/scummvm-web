@@ -49,7 +49,7 @@ class XMLParser
      * @return bool|array
      * @access public
      * @since 1.0
-     * @throws ErrorException
+     * @throws \ErrorException
      */
     public function parseByFilename($filename)
     {
@@ -64,7 +64,7 @@ class XMLParser
             if (is_file($localized)) {
                 if (!is_readable($localized)) {
                     $file = "\n\nFilename: " . basename($localized) . "\n";
-                    throw new ErrorException(self::FILE_NOT_FOUND . $file);
+                    throw new \ErrorException(self::FILE_NOT_FOUND . $file);
                 } else {
                     $filename = $localized;
                 }
@@ -74,19 +74,19 @@ class XMLParser
         $file = "\n\nFilename: " . basename($filename) . "\n";
         /* If we can't read the file there is nothing we can do. */
         if (!is_file($filename) || !is_readable($filename)) {
-            throw new ErrorException(self::FILE_NOT_FOUND . $file);
+            throw new \ErrorException(self::FILE_NOT_FOUND . $file);
         }
         /* Read the file contents. */
         if (!($xml = @file_get_contents($filename))) {
-            throw new ErrorException(self::FILE_NOT_READABLE . $file);
+            throw new \ErrorException(self::FILE_NOT_READABLE . $file);
         }
 
         /* Parse the XML. */
         try {
             return $this->parseByData($xml);
-        } catch (ErrorException $e) {
+        } catch (\ErrorException $e) {
             $msg = "{$e->getMessage()}{$file}";
-            throw new ErrorException($msg);
+            throw new \ErrorException($msg);
         }
     }
 
@@ -100,12 +100,12 @@ class XMLParser
      * @return bool|array
      * @access public
      * @since 1.0
-     * @throws ErrorException
+     * @throws \ErrorException
      */
     public function parseByData($xml)
     {
         if (!is_string($xml) || strlen($xml) == 0) {
-            throw new ErrorException(self::DATA_NOT_XML);
+            throw new \ErrorException(self::DATA_NOT_XML);
         }
         /* Create a parser and set the options */
         $parser = xml_parser_create_ns();
@@ -128,7 +128,7 @@ class XMLParser
             $error .= "Line: " . xml_get_current_line_number($parser) . ", character: " . xml_get_current_column_number($parser) . "\n";
             $error .= "Error message: " . xml_error_string(xml_get_error_code($parser)) . "\n";
             xml_parser_free($parser);
-            throw new ErrorException(self::PARSER_ERROR . $error);
+            throw new \ErrorException(self::PARSER_ERROR . $error);
         }
         xml_parser_free($parser);
         /**

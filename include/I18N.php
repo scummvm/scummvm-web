@@ -79,7 +79,7 @@ class I18N
         }
 
         if (!($files = scandir($dir))) {
-            throw new ErrorException(self::NO_FILES);
+            throw new \ErrorException(self::NO_FILES);
         }
         $news = new stdClass();
         foreach ($files as $filename) {
