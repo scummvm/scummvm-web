@@ -1,4 +1,4 @@
 <?php
-abstract class BasicModel {
+abstract class BasicModel
+{
 }
-?>

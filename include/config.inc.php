@@ -15,15 +15,15 @@ date_default_timezone_set("UTC");
 
 /* Base URL to the website. */
 if ($_SERVER['SERVER_PORT'] == '80') {
-	$url = "http://{$_SERVER['SERVER_NAME']}";
-} else if ($_SERVER['SERVER_PORT'] == '443') {
-	$url = "https://{$_SERVER['SERVER_NAME']}";
+    $url = "http://{$_SERVER['SERVER_NAME']}";
+} elseif ($_SERVER['SERVER_PORT'] == '443') {
+    $url = "https://{$_SERVER['SERVER_NAME']}";
 } else {
-	$url = "http://{$_SERVER['SERVER_NAME']}:{$_SERVER['SERVER_PORT']}";
+    $url = "http://{$_SERVER['SERVER_NAME']}:{$_SERVER['SERVER_PORT']}";
 }
 
 if (substr($url, -1) != '/') {
-	$url .= '/';
+    $url .= '/';
 }
 define('URL_BASE', $url);
 unset($url);
@@ -57,4 +57,3 @@ define('SMARTY_CACHING_ENABLE', 0);
 define('SMARTY_CACHING_LIFETIME', (60 * 60));
 define('SMARTY_CACHING_COMPILE_CHECK', true); # used when developing
 define('SMARTY_CACHING_FORCE_RECHECK', true); # used when developing
-?>
