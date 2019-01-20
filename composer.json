@@ -33,5 +33,10 @@
     "require-dev": {
         "phpstan/phpstan": "^0.11.1",
         "squizlabs/php_codesniffer": "^3.4"
+    },
+    "autoload": {
+      "psr-4": {
+        "ScummVM\\": [ "include/", "index.php"]
+      }
     }
 }

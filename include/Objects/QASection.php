@@ -1,5 +1,5 @@
 <?php
-namespace ScummVM\Web\Objects;
+namespace ScummVM\Objects;
 
 require_once('Objects/BasicObject.php');
 require_once('Objects/QAEntry.php');

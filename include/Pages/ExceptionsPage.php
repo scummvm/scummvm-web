@@ -1,9 +1,7 @@
 <?php
-namespace ScummVM\Web\Pages;
+namespace ScummVM\Pages;
 
-require_once('Controller.php');
-
-class ExceptionsPage extends Controller
+class ExceptionsPage extends \ScummVM\Controller
 {
     private $_template;
 

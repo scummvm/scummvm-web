@@ -1,8 +1,9 @@
 <?php
-namespace ScummVM\Web;
+namespace ScummVM;
 
-require_once(SMARTY_DIR . '/Smarty.class.php');
-require_once('Models/MenuModel.php');
+use Smarty;
+use ScummVM\Models\MenuModel;
+
 /**
  * The Controller class will create an instance of the Smarty object configured
  * as specified in config.inc. Should be subclassed by all webpages so they can

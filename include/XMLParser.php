@@ -1,5 +1,5 @@
 <?php
-namespace ScummVM\Web;
+namespace ScummVM;
 
 /**
  * An XML parser that will build a multidimensional array (aka a tree) from the

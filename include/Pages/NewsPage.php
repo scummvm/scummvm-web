@@ -1,9 +1,9 @@
 <?php
-namespace ScummVM\Web\Pages;
+namespace ScummVM\Pages;
 
-require_once('Controller.php');
-require_once('Models/NewsModel.php');
-require_once('Models/ScreenshotsModel.php');
+use ScummVM\Controller;
+use ScummVM\Models\NewsModel;
+use ScummVM\Models\ScreenshotsModel;
 
 class NewsPage extends Controller
 {

@@ -1,5 +1,5 @@
 <?php
-namespace ScummVM\Web\Models;
+namespace ScummVM\Models;
 
 abstract class BasicModel
 {

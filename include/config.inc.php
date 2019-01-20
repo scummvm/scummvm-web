@@ -1,5 +1,5 @@
 <?php
-namespace ScummVM\Web;
+namespace ScummVM;
 
 /* Current version. */
 define('RELEASE', '2.0.0');

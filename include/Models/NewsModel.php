@@ -1,8 +1,8 @@
 <?php
-namespace ScummVM\Web\Models;
+namespace ScummVM\Models;
 
-require_once('Models/BasicModel.php');
-require_once('Objects/News.php');
+use ScummVM\Objects\News;
+
 /**
  * The NewsModel class will generate News objects
  */

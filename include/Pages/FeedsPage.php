@@ -1,5 +1,5 @@
 <?php
-namespace ScummVM\Web\Pages;
+namespace ScummVM\Pages;
 
 require_once('Controller.php');
 require_once('Models/NewsModel.php');
