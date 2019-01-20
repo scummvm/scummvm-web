@@ -1,4 +1,6 @@
 <?php
+namespace ScummVM\Web\Objects;
+
 require_once('Objects/BasicObject.php');
 /**
  * The Screenshot object represents all screenshots for one game.

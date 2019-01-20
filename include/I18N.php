@@ -1,4 +1,5 @@
 <?php
+namespace ScummVM\Web;
 
 require_once('vendor/ezyang/htmlpurifier/library/HTMLPurifier.auto.php');
 set_include_path('include');

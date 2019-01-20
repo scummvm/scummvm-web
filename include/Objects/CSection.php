@@ -1,4 +1,6 @@
 <?php
+namespace ScummVM\Web\Objects;
+
 require_once('Objects/BasicObject.php');
 require_once('Objects/Person.php');
 /**
@@ -58,7 +60,7 @@ class CSection extends BasicObject
     {
         return $this->_title;
     }
-  
+
   /* Get the anchor. */
     public function getAnchor()
     {

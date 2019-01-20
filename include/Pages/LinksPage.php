@@ -1,4 +1,6 @@
 <?php
+namespace ScummVM\Web\Pages;
+
 require_once('Controller.php');
 require_once('Models/LinksModel.php');
 
@@ -18,7 +20,7 @@ class LinksPage extends Controller
     {
         $links = LinksModel::getAllGroupsAndLinks();
         global $Smarty;
-        
+
         return $this->renderPage(
             array(
                 'title' => $Smarty->getConfigVars('linksTitle'),

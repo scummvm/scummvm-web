@@ -1,4 +1,6 @@
 <?php
+namespace ScummVM\Web\Models;
+
 require_once('Models/BasicModel.php');
 require_once('Objects/CompatGame.php');
 require_once('XMLParser.php');

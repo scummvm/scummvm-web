@@ -1,4 +1,6 @@
 <?php
+namespace ScummVM\Web\Objects;
+
 require_once('Objects/BasicObject.php');
 /**
  * The Project class represents a subproject on the website.

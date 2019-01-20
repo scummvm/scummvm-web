@@ -1,4 +1,6 @@
 <?php
+namespace ScummVM\Web\Pages;
+
 require_once('Controller.php');
 require_once('Models/CompatibilityModel.php');
 /**
@@ -66,7 +68,7 @@ class CompatibilityPage extends Controller
     {
         $game = CompatibilityModel::getGameData($version, $target);
         global $Smarty;
-        
+
         return $this->renderPage(
             array(
                 'title' => preg_replace('/{version}/', $version, $Smarty->getConfigVars('compatibilityTitle')),
@@ -94,7 +96,7 @@ class CompatibilityPage extends Controller
         $compat_data = CompatibilityModel::getAllData($version);
 
         global $Smarty;
-        
+
         return $this->renderPage(
             array(
                 'title' => preg_replace('/{version}/', $version, $Smarty->getConfigVars('compatibilityTitle')),

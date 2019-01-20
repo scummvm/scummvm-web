@@ -1,4 +1,6 @@
 <?php
+namespace ScummVM\Web\Objects;
+
 require_once('Objects/BasicObject.php');
 require_once('Objects/File.php');
 require_once('Objects/WebLink.php');

@@ -1,4 +1,6 @@
 <?php
+namespace ScummVM\Web\Pages;
+
 require_once('Controller.php');
 require_once('Models/FAQModel.php');
 

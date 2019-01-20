@@ -1,4 +1,6 @@
 <?php
+namespace ScummVM\Web;
+
 require_once(SMARTY_DIR . '/Smarty.class.php');
 require_once('Models/MenuModel.php');
 /**
@@ -53,7 +55,7 @@ class Controller
             && is_readable($fname)) {
             $this->_smarty->configLoad($fname);
         }
-    
+
         setlocale(LC_TIME, $Smarty->getConfigVars('locale'));
 
         /**

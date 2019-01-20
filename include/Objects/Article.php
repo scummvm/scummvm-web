@@ -1,4 +1,6 @@
 <?php
+namespace ScummVM\Web\Objects;
+
 require_once('Objects/BasicObject.php');
 /**
  * The article class represents a link on the website to an article covering
