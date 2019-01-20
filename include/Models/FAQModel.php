@@ -27,7 +27,7 @@ abstract class FAQModel extends BasicModel
             if (is_file($localized)) {
                 if (!is_readable($localized)) {
                     $file = "\n\nFilename: " . basename($localized) . "\n";
-                    throw new ErrorException(self::FILE_NOT_FOUND . $file);
+                    throw new \ErrorException(self::FILE_NOT_FOUND . $file);
                 } else {
                     return $localized;
                 }
@@ -47,7 +47,7 @@ abstract class FAQModel extends BasicModel
     public static function getFAQ()
     {
         if (!($data = @file_get_contents(self::getFilename()))) {
-            throw new ErrorException(self::ERROR_READING_FILE);
+            throw new \ErrorException(self::ERROR_READING_FILE);
         }
         /**
          * Let's replace some of the docbook tags and wrap some HTML-entities

@@ -16,7 +16,7 @@ abstract class NewsModel extends BasicModel
     public static function getListOfNewsFilenames()
     {
         if (!($files = scandir(DIR_NEWS))) {
-            throw new ErrorException(self::NO_FILES);
+            throw new \ErrorException(self::NO_FILES);
         }
         $filenames = array();
         foreach ($files as $file) {
@@ -33,7 +33,7 @@ abstract class NewsModel extends BasicModel
     public static function getAllNews($processContent = false)
     {
         if (!($files = scandir(DIR_NEWS))) {
-            throw new ErrorException(self::NO_FILES);
+            throw new \ErrorException(self::NO_FILES);
         }
         global $lang;
         $news = array();
@@ -59,7 +59,7 @@ abstract class NewsModel extends BasicModel
             return NewsModel::getAllNews($processContent);
         } else {
             if (!($newslist = NewsModel::getListOfNewsFilenames())) {
-                throw new ErrorException(self::NO_FILES);
+                throw new \ErrorException(self::NO_FILES);
             }
             rsort($newslist, SORT_STRING);
             $newslist = array_slice($newslist, 0, $num);
@@ -75,14 +75,14 @@ abstract class NewsModel extends BasicModel
     public static function getOneByFilename($filename, $processContent = false)
     {
         if (is_null($filename) || !preg_match('/^\d{8,12}[a-z]?$/', $filename)) {
-            throw new ErrorException(self::INVALID_DATE);
+            throw new \ErrorException(self::INVALID_DATE);
         }
         global $lang;
         if (!is_file(($fname = DIR_NEWS . "/$lang/{$filename}.json"))
             || !is_readable($fname) || !($data = @file_get_contents($fname))) {
             if (!is_file(($fname = DIR_NEWS . "/{$filename}.json"))
                 || !is_readable($fname) || !($data = @file_get_contents($fname))) {
-                throw new ErrorException(self::FILE_NOT_FOUND);
+                throw new \ErrorException(self::FILE_NOT_FOUND);
             }
         }
         return new News(json_decode($data), $fname, $processContent);
