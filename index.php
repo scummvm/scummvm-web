@@ -60,9 +60,12 @@ if (empty($_COOKIE['clear_lang'])) {
 }
 
 /* Load the configuration. */
-require_once('include/config.inc.php');
-/* Set up the include path. */
-set_include_path(get_include_path() . PATH_SEPARATOR . DIR_INCLUDE);
+new Config();
+
+/* Time zone to use for news items etc. */
+date_default_timezone_set("UTC");
+
+// set_include_path(get_include_path() . PATH_SEPARATOR . DIR_INCLUDE);
 error_reporting(E_ALL ^ E_NOTICE);  // disable notices
 
 if (!is_writeable(SMARTY_DIR_COMPILE)) {
