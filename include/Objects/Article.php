@@ -14,16 +14,10 @@ class Article extends BasicObject
     /* Article object constructor. */
     public function __construct($data)
     {
-        $this->name = $data['name'];
+        parent::__construct($data);
         $this->url = $data['url'];
         $this->language = $data['language'];
         $this->posted = $data['posted'];
-    }
-
-    /* Get the name. */
-    public function getName()
-    {
-        return $this->name;
     }
 
     /* Get the URL. */

@@ -7,33 +7,18 @@ namespace ScummVM\Objects;
  */
 class Person extends BasicObject
 {
-
     private $alias;
-    private $description;
 
     /* Person object constructor. */
-    public function __construct($args)
+    public function __construct($data)
     {
-        $this->name = $args['name'];
-        $this->alias = $args['alias'];
-        $this->description = $args['description'];
-    }
-
-    /* Get the name. */
-    public function getName()
-    {
-        return $this->name;
+        parent::__construct($data);
+        $this->alias = $data['alias'];
     }
 
     /* Get the alias. */
     public function getAlias()
     {
         return $this->alias;
-    }
-
-    /* Get the description. */
-    public function getDescription()
-    {
-        return $this->description;
     }
 }

@@ -14,7 +14,7 @@ class CompatGame extends BasicObject
     /* Project object constructor. */
     public function __construct($data)
     {
-        $this->name = $data['name'];
+        parent::__construct($data);
         $this->target = $data['target'];
         // In old compat pages we used 'percent' instead of 'support_level'.
         // we still want to support those thus we check whether the old tag
@@ -25,12 +25,6 @@ class CompatGame extends BasicObject
             $this->supportLevel = $data['support_level'];
         }
         $this->notes = $data['notes'];
-    }
-
-    /* Get the name. */
-    public function getName()
-    {
-        return $this->name;
     }
 
     /* Get the target name. */
