@@ -5,19 +5,15 @@ namespace ScummVM\Objects;
  * The Section class represens a section (or a subsection) on the credits page
  * on the website.
  */
-class CSection extends BasicObject
+class CSection extends Section
 {
-    private $title;
     private $groups;
-    private $subsections;
     private $paragraphs;
-    private $anchor;
 
     /* CSection object constructor. */
     public function __construct($data)
     {
-        $this->title = $data['title'];
-        $this->anchor = $data['anchor'];
+        parent::__construct($data);
         $this->groups = array();
         $this->subsections = array();
         $this->paragraphs = array();
@@ -51,18 +47,6 @@ class CSection extends BasicObject
             parent::toArray($data['paragraph']);
             $this->paragraphs = $data['paragraph'];
         }
-    }
-
-    /* Get the title. */
-    public function getTitle()
-    {
-        return $this->title;
-    }
-
-  /* Get the anchor. */
-    public function getAnchor()
-    {
-        return $this->anchor;
     }
 
     /* Get the optional list of groups. */

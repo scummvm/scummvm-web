@@ -4,19 +4,15 @@ namespace ScummVM\Objects;
 /**
  * The DSection object represents a section on the downloads page.
  */
-class DSection extends BasicObject
+class DSection extends Section
 {
-    private $title;
-    private $anchor;
     private $baseurl;
     private $baseturl;
-    private $subsections;
 
     /* DSection object constructor. */
     public function __construct($data)
     {
-        $this->title = $data['title'];
-        $this->anchor = $data['anchor'];
+        parent::__construct($data);
         $this->baseurl = $data['baseurl'];
         $this->baseturl = $data['baseturl'];
         $this->subsections = array();
@@ -27,17 +23,6 @@ class DSection extends BasicObject
         }
     }
 
-    /* Get the title. */
-    public function getTitle()
-    {
-        return $this->title;
-    }
-
-    /* Get the anchor name. */
-    public function getAnchor()
-    {
-        return $this->anchor;
-    }
 
     /* Get the base URL. */
     public function getBaseURL()

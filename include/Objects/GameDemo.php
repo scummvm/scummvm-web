@@ -14,16 +14,10 @@ class GameDemo extends BasicObject
     /* GameDemo object constructor. */
     public function __construct($data)
     {
-        $this->name = $data['name'];
+        parent::__construct($data);
         $this->url = $data['url'];
         $this->target = $data['target'];
         $this->category = isset($data['category']) ? $data['category'] : $data['target'];
-    }
-
-    /* Get the name of the demo. */
-    public function getName()
-    {
-        return $this->name;
     }
 
     /* Get the download URL for the demo. */

@@ -15,8 +15,8 @@ class File extends BasicObject
 
     public function __construct($data, $baseurl = null, $baseturl = null)
     {
+        parent::__construct($data);
         $this->category_icon = $data['category_icon'];
-        $this->name = $data['name'];
         $this->extra_info = $data['extra_info'];
         $this->type = strtolower($data['type']);
         $this->user_agent = isset($data["user_agent"]) ? $data["user_agent"] : "";
@@ -107,12 +107,6 @@ class File extends BasicObject
     public function getURL()
     {
         return $this->_url;
-    }
-
-    /* Get the name. */
-    public function getName()
-    {
-        return $this->name;
     }
 
     /* Get the type. */

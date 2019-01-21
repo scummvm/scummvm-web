@@ -8,6 +8,25 @@ namespace ScummVM\Objects;
 abstract class BasicObject
 {
     protected $name;
+    protected $description;
+
+    public function __construct($data)
+    {
+        $this->description = $data['description'];
+        $this->name = $data['name'];
+    }
+
+     /* Get the name. */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    public function getDescription()
+    {
+        return $this->description;
+    }
+
     /**
      * If the input array doesn't contain the numerical key 0, wrap it inside
      * an array. This functions operates on the data directly.

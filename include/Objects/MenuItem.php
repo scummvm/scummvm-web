@@ -13,18 +13,12 @@ class MenuItem extends BasicObject
     /* Menu object constructor. */
     public function __construct($data)
     {
-        $this->name = $data['name'];
+        parent::__construct($data);
         $this->class = $data['class'];
         $this->entries = array();
         foreach ($data['link'] as $key => $value) {
             $this->entries[$value['name']] = $value['href'];
         }
-    }
-
-    /* Get the name. */
-    public function getName()
-    {
-        return $this->name;
     }
 
     /* Get the CSS class. */
