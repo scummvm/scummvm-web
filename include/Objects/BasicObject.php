@@ -31,7 +31,7 @@ abstract class BasicObject
      * If the input array doesn't contain the numerical key 0, wrap it inside
      * an array. This functions operates on the data directly.
      *
-     * @param mixed &$data the input
+     * @param mixed $data the input
      */
     public static function toArray(&$data)
     {

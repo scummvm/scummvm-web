@@ -96,7 +96,6 @@ class XMLParser
      * and link the values to the parent directly instead.
      *
      * @param string $xml the XML to parse
-     * @param bool $destroy_single_arrays whether to keep nested single arrays or not
      * @return bool|array
      * @access public
      * @since 1.0
