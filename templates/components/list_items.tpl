@@ -1,7 +1,7 @@
 {if is_array($list) && $list|@count > 0}
 	<ul class="downloads">
   {foreach from=$list item=item}
-    {if $item instanceof File}
+    {if $item instanceof ScummVM\Objects\File}
 			{assign var='data' value=$item->getExtraInfo()}
 			<li class="file">
 				<span class="sprite-{$type}-{$item->getCategoryIcon()} sprite"></span>
@@ -32,11 +32,11 @@
 				{/if}
 				{/strip}
 			</li>
-		{elseif $item instanceof WebLink}
+		{elseif $item instanceof ScummVM\Objects\WebLink}
 			<li class="link">
 				<a href="{$item->getURL()}">{$item->getName()}</a>{$item->getDescription()}
       </li>
-    {elseif $item instanceof Screenshot}
+    {elseif $item instanceof ScummVM\Objects\Screenshot}
       <li class="file">
         <span class="sprite-games-{$item->getCategory()} sprite"></span>
 				<a href="/screenshots/{$arr.category}/{$item->getCategory()}/">{$item->getName()}</a>
