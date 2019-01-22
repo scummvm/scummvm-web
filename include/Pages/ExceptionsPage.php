@@ -3,9 +3,6 @@ namespace ScummVM\Pages;
 
 class ExceptionsPage extends \ScummVM\Controller
 {
-
-
-    /* Constructor. */
     public function __construct()
     {
         parent::__construct();
@@ -15,15 +12,12 @@ class ExceptionsPage extends \ScummVM\Controller
     /* Display the index page. */
     public function index($exception)
     {
-        global $Smarty;
-
         return $this->renderPage(
             array(
-                'title' => $Smarty->getConfigVars('exceptionsTitle'),
-                'content_title' => $Smarty->getConfigVars('exceptionsContentTitle'),
+                'title' => $this->getConfigVars('exceptionsTitle'),
+                'content_title' => $this->getConfigVars('exceptionsContentTitle'),
                 'exception' => $exception,
-            ),
-            $this->template
+            )
         );
     }
 }

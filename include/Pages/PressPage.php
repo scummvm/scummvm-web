@@ -19,15 +19,12 @@ class PressPage extends Controller
     public function index()
     {
         $articles = ArticleModel::getAllArticles();
-        global $Smarty;
-
         return $this->renderPage(
             array(
-                'title' => $Smarty->getConfigVars('pressTitle'),
-                'content_title' => $Smarty->getConfigVars('pressContentTitle'),
+                'title' => $this->getConfigVars('pressTitle'),
+                'content_title' => $this->getConfigVars('pressContentTitle'),
                 'articles' => $articles,
-            ),
-            $this->template
+            )
         );
     }
 }

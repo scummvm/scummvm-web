@@ -19,15 +19,12 @@ class LinksPage extends Controller
     public function index()
     {
         $links = LinksModel::getAllGroupsAndLinks();
-        global $Smarty;
-
         return $this->renderPage(
             array(
-                'title' => $Smarty->getConfigVars('linksTitle'),
-                'content_title' => $Smarty->getConfigVars('linksContentTitle'),
+                'title' => $this->getConfigVars('linksTitle'),
+                'content_title' => $this->getConfigVars('linksContentTitle'),
                 'links' => $links,
-            ),
-            $this->template
+            )
         );
     }
 }

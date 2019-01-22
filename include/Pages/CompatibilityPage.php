@@ -11,8 +11,6 @@ use ScummVM\Models\CompatibilityModel;
  */
 class CompatibilityPage extends Controller
 {
-
-    private $template_details;
     private $supportLevelDesc;
     private $supportLevelClass;
 
@@ -20,15 +18,13 @@ class CompatibilityPage extends Controller
     public function __construct()
     {
         parent::__construct();
-        global $Smarty;
-        $this->template = 'pages/compatibility.tpl';
-        $this->template_details = 'components/compatibility_details.tpl';
+
         $this->supportLevelDesc = array(
-            'untested' => $Smarty->getConfigVars('compatibilityUntested'),
-            'broken' => $Smarty->getConfigVars('compatibilityBroken'),
-            'bugged' => $Smarty->getConfigVars('compatibilityBugged'),
-            'good' => $Smarty->getConfigVars('compatibilityGood'),
-            'excellent' => $Smarty->getConfigVars('compatibilityExcellent')
+            'untested' => $this->getConfigVars('compatibilityUntested'),
+            'broken' => $this->getConfigVars('compatibilityBroken'),
+            'bugged' => $this->getConfigVars('compatibilityBugged'),
+            'good' => $this->getConfigVars('compatibilityGood'),
+            'excellent' => $this->getConfigVars('compatibilityExcellent')
         );
         $this->supportLevelClass = array(
             'untested' => 'pctU',
@@ -68,23 +64,22 @@ class CompatibilityPage extends Controller
     public function getGame($target, $version, $oldLayout)
     {
         $game = CompatibilityModel::getGameData($version, $target);
-        global $Smarty;
+        $this->template = 'components/compatibility_details.tpl';
 
         return $this->renderPage(
             array(
-                'title' => preg_replace('/{version}/', $version, $Smarty->getConfigVars('compatibilityTitle')),
+                'title' => preg_replace('/{version}/', $version, $this->getConfigVars('compatibilityTitle')),
                 'content_title' => preg_replace(
                     '/{version}/',
                     $version,
-                    $Smarty->getConfigVars('compatibilityContentTitle')
+                    $this->getConfigVars('compatibilityContentTitle')
                 ),
                 'version' => $version,
                 'game' => $game,
                 'old_layout' => $oldLayout,
                 'support_level_desc' => $this->supportLevelDesc,
                 'support_level_class' => $this->supportLevelClass
-            ),
-            $this->template_details
+            )
         );
     }
 
@@ -100,15 +95,15 @@ class CompatibilityPage extends Controller
         $last_updated = date("F d, Y", @filemtime($filename));
         $compat_data = CompatibilityModel::getAllData($version);
 
-        global $Smarty;
+        $this->template = 'pages/compatibility.tpl';
 
         return $this->renderPage(
             array(
-                'title' => preg_replace('/{version}/', $version, $Smarty->getConfigVars('compatibilityTitle')),
+                'title' => preg_replace('/{version}/', $version, $this->getConfigVars('compatibilityTitle')),
                 'content_title' => preg_replace(
                     '/{version}/',
                     $version,
-                    $Smarty->getConfigVars('compatibilityContentTitle')
+                    $this->getConfigVars('compatibilityContentTitle')
                 ),
                 'version' => $version,
                 'compat_data' => $compat_data,
@@ -117,8 +112,7 @@ class CompatibilityPage extends Controller
                 'old_layout' => $oldLayout,
                 'support_level_desc' => $this->supportLevelDesc,
                 'support_level_class' => $this->supportLevelClass
-            ),
-            $this->template
+            )
         );
     }
 }

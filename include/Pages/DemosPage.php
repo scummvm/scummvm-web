@@ -19,15 +19,12 @@ class DemosPage extends Controller
     public function index()
     {
         $demos = GameDemosModel::getAllGroupsAndDemos();
-        global $Smarty;
-
         return $this->renderPage(
             array(
-                'title' => $Smarty->getConfigVars('demosTitle'),
-                'content_title' => $Smarty->getConfigVars('demosContentTitle'),
+                'title' => $this->getConfigVars('demosTitle'),
+                'content_title' => $this->getConfigVars('demosContentTitle'),
                 'demos' => $demos,
-            ),
-            $this->template
+            )
         );
     }
 }
