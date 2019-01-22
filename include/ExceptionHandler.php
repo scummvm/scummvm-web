@@ -13,7 +13,7 @@ abstract class ExceptionHandler
         $e = self::$exception;
 
         if (!is_null($e)) {
-            if (basename($e->getFile() == 'MenuModel.php')) {
+            if (basename($e->getFile()) == 'MenuModel.php') {
                 $skip_menus = true;
             } else {
                 foreach ($e->getTrace() as $t) {
