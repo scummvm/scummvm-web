@@ -21,10 +21,6 @@ class CreditsSection extends BasicSection
             parent::toArray($data['group']);
             foreach ($data['group'] as $value) {
                 $persons = array();
-                if (is_string($value['person'])) {
-                    var_dump($value);
-                    die();
-                }
                 parent::toArray($value['person']);
                 foreach ($value['person'] as $args) {
                     $persons[] = new Person($args);
