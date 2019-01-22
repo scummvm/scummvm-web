@@ -15,7 +15,7 @@ class DSubSection extends BasicObject
     private $items;
 
     /* DSubSection constructor. */
-    public function __construct($data, $baseurl, $baseturl)
+    public function __construct($data)
     {
         $this->title = $data['title'];
         $this->anchor = $data['anchor'];
@@ -29,7 +29,7 @@ class DSubSection extends BasicObject
             parent::toArray($item);
             if ($type == 'file') {
                 foreach ($item as $file) {
-                    $this->items[] = new File($file, $baseurl, $baseturl);
+                    $this->items[] = new File($file);
                 }
             } elseif ($type == 'link') {
                 foreach ($item as $link) {

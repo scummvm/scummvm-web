@@ -4,8 +4,6 @@
 		<title>
 			{#downloadsXMLTitle#} <h:span style="color: rgb(170, 170, 170);">{'/\x7brelease\x7d/'|preg_replace:$release:#downloadsXMLVersion#}</h:span>
 		</title>
-		<baseurl>/frs/scummvm/{$release}/</baseurl>
-		<baseturl>/frs/scummvm-tools/{$release_tools}/</baseturl>
 		<subsection>
 			<title>{'/\x7brelease\x7d/'|preg_replace:$release:#downloadsBinaries#}</title>
 			<anchor>stable</anchor>

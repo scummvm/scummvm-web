@@ -6,20 +6,16 @@ namespace ScummVM\Objects;
  */
 class DownloadsSection extends BasicSection
 {
-    private $baseurl;
-    private $baseturl;
 
     /* DownloadsSection object constructor. */
     public function __construct($data)
     {
         parent::__construct($data);
-        $this->baseurl = $data['baseurl'];
-        $this->baseturl = $data['baseturl'];
         $this->subsections = array();
 
         parent::toArray($data['subsection']);
         foreach ($data['subsection'] as $key => $value) {
-            $this->subsections[] = new DSubSection($value, $this->baseurl, $this->baseturl);
+            $this->subsections[] = new DSubSection($value);
         }
     }
 

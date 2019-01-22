@@ -40,6 +40,10 @@ class Config
         define('DIR_DOWNLOADS', '/downloads');
         define('DIR_SCREENSHOTS', '/data/screenshots');
 
+        /* Downloads */
+        define('DOWNLOADS_URL', '/frs/scummvm/{$release}/');
+        define('DOWNLOADS_TOOLS_URL', '/frs/scummvm-tools/{$release}/');
+
         /**
          * Smarty configuration. The Smarty team does not recommend putting any of the
          * directories used under the web server root. 'SMARTY_DIR_COMPILE' and
