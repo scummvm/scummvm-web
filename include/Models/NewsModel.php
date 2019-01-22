@@ -47,7 +47,7 @@ abstract class NewsModel extends BasicModel
                     continue;
                 }
             }
-            $news[] = new News(json_decode($data), $filename, $processContent);
+            $news[] = new News(json_decode($data, true), $filename, $processContent);
         }
         return array_reverse($news);
     }
@@ -85,6 +85,6 @@ abstract class NewsModel extends BasicModel
                 throw new \ErrorException(self::FILE_NOT_FOUND);
             }
         }
-        return new News(json_decode($data), $fname, $processContent);
+        return new News(json_decode($data, true), $fname, $processContent);
     }
 }
