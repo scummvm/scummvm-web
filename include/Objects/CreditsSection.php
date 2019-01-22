@@ -15,14 +15,8 @@ class CreditsSection extends BasicSection
     {
         parent::__construct($data);
         $this->groups = array();
-        $this->subsections = array();
         $this->paragraphs = array();
 
-        if (isset($data['subsection'])) {
-            foreach ($data['subsection'] as $value) {
-                $this->subsections[] = new CreditsSection($value);
-            }
-        }
         if (isset($data['group'])) {
             parent::toArray($data['group']);
             foreach ($data['group'] as $value) {
@@ -53,12 +47,6 @@ class CreditsSection extends BasicSection
     public function getGroups()
     {
         return $this->groups;
-    }
-
-    /* Get the optional list of subsections. */
-    public function getSubSections()
-    {
-        return $this->subsections;
     }
 
     /* Get the optional list of paragraphs. */

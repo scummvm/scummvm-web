@@ -10,11 +10,20 @@ abstract class BasicSection extends BasicObject
     protected $title;
     protected $anchor;
     protected $subsections;
+    private $className;
 
     public function __construct($data)
     {
         $this->title = $data['title'];
         $this->anchor = $data['anchor'];
+        $this->className = static::class;
+        if (isset($data['subsection'])) {
+            parent::toArray($data['subsection']);
+            $this->subsections = array();
+            foreach ($data['subsection'] as $value) {
+                $this->subsections[] = new $this->className($value);
+            }
+        }
     }
 
     /* Get the title. */
