@@ -64,13 +64,6 @@ class Controller
         $this->smarty->registerPlugin('modifier', 'date_f', array(&$this, 'dateFormatSmartyModifier'));
         $this->smarty->registerPlugin('modifier', 'date_localized', array(&$this, 'dateLocalizedSmartyModifier'));
 
-        /* Give Smarty-templates access to the ampersandEntity() function. */
-        $this->smarty->registerPlugin(
-            'modifier',
-            'escapeAmpersand',
-            array(&$this, 'ampersandEntity')
-        );
-
         $this->css_files = array();
         $this->js_files = array();
 
@@ -103,14 +96,6 @@ class Controller
         return $string;
     }
 
-    /** Escape ampersands to the HTML-entitiy '&amp;'. */
-    public static function ampersandEntity($string)
-    {
-        //return preg_replace('/&(?!amp|nbsp|lt|gt|quot;)/', '&amp;', $string);
-        //return preg_replace('/&(?![a-z];|#[0-9];)/', '&amp;', $string);
-        return $string;
-    }
-
     /** Formating of dates, registered as a modifier for Smarty templates. */
     public function dateFormatSmartyModifier($timestamp, $format)
     {
@@ -129,8 +114,6 @@ class Controller
     /* Render the HTML using the template and any set variables and displays it. */
     public function display($content)
     {
-        if (!is_string($content) || strlen($content) == 0) {
-        }
         $vars = array(
             'css_files' => $this->css_files,
             'js_files' => $this->js_files,
@@ -143,8 +126,6 @@ class Controller
     /* Render the HTML using the template and any set variables and returns it. */
     public function fetch($template, $vars = null)
     {
-        if (!is_file(SMARTY_DIR_TEMPLATE . "/{$template}")) {
-        }
         if (!is_null($vars)) {
             $this->smarty->assign($vars);
         }
@@ -154,8 +135,6 @@ class Controller
     /* Set up the variables used by the template and render the page. */
     public function renderPage($vars, $template)
     {
-        if (!is_string($template)) {
-        }
         return $this->display($this->fetch($template, $vars));
     }
 
