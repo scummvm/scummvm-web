@@ -2,14 +2,14 @@
 namespace ScummVM\Models;
 
 use ScummVM\Objects\Article;
-use ScummVM\Objects\QAEntry;
-use ScummVM\Objects\QASection;
+use ScummVM\Objects\FaqEntry;
+use ScummVM\Objects\FaqSection;
 use ScummVM\XMLParser;
 
 /**
  * The FAQModel class reads the docbook formated XML-file 'faq.xml' and does
  * some changes to make it easier to parse. Returns an array with
- * QASection-objects representing the different sections on the F.A.Q.-page on
+ * FaqSection-objects representing the different sections on the F.A.Q.-page on
  * the website.
  */
 abstract class FAQModel extends BasicModel
@@ -97,7 +97,7 @@ abstract class FAQModel extends BasicModel
         $xref = array();
         $count = 1;
         foreach ($a['faq']['section'] as $data) {
-            $sections[] = new QASection($data, $count++, $xref);
+            $sections[] = new FaqSection($data, $count++, $xref);
         }
         return $sections;
     }

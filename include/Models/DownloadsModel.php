@@ -1,11 +1,11 @@
 <?php
 namespace ScummVM\Models;
 
-use ScummVM\Objects\DSection;
+use ScummVM\Objects\DownloadsSection;
 use ScummVM\XMLParser;
 
 /**
- * The DownloadsModel will produce DSection objects.
+ * The DownloadsModel will produce DownloadsSection objects.
  */
 abstract class DownloadsModel
 {
@@ -18,7 +18,7 @@ abstract class DownloadsModel
         $a = $parser->parseByFilename($fname);
         $sections = array();
         foreach ($a['downloads']['section'] as $key => $value) {
-            $sections[] = new DSection($value);
+            $sections[] = new DownloadsSection($value);
         }
         return $sections;
     }

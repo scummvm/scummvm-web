@@ -2,10 +2,10 @@
 namespace ScummVM\Objects;
 
 /**
- * The QAEntry class represents a question-answer pair on the website
+ * The FaqEntry class represents a question-answer pair on the website
  * F.A.Q. page.
  */
-class QAEntry extends BasicObject
+class FaqEntry extends BasicObject
 {
     private $hrefs;
     private $question;
@@ -13,7 +13,7 @@ class QAEntry extends BasicObject
     private $xref;
 
     /**
-     * QAEntry object constructor.
+     * FaqEntry object constructor.
      *
      * @param array $data list containing all qaentry data
      * @param int $section_number the section this entry belongs too

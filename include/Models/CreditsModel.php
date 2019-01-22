@@ -1,11 +1,11 @@
 <?php
 namespace ScummVM\Models;
 
-use ScummVM\Objects\CSection;
+use ScummVM\Objects\CreditsSection;
 use ScummVM\XMLParser;
 
 /**
- * The CreditsModel will generate CSection objects.
+ * The CreditsModel will generate CreditsSection objects.
  */
 abstract class CreditsModel extends BasicModel
 {
@@ -17,7 +17,7 @@ abstract class CreditsModel extends BasicModel
         $a = $parser->parseByFilename($fname);
         $sections = array();
         foreach ($a['credits']['section'] as $key => $value) {
-            $sections[] = new CSection($value);
+            $sections[] = new CreditsSection($value);
         }
         return $sections;
     }
