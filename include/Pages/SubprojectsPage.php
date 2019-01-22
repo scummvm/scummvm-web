@@ -19,15 +19,12 @@ class SubprojectsPage extends Controller
     public function index()
     {
         $subprojects = SubprojectsModel::getAllSubprojects();
-        global $Smarty;
-
         return $this->renderPage(
             array(
-                'title' => $Smarty->getConfigVars('subprojectsTitle'),
-                'content_title' => $Smarty->getConfigVars('subprojectsContentTitle'),
+                'title' => $this->getConfigVars('subprojectsTitle'),
+                'content_title' => $this->getConfigVars('subprojectsContentTitle'),
                 'subprojects' => $subprojects,
-            ),
-            $this->template
+            )
         );
     }
 }

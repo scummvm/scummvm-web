@@ -13,8 +13,6 @@ class ScreenshotsPage extends Controller
     public function __construct()
     {
         parent::__construct();
-        $this->template = 'pages/screenshots.tpl';
-        $this->template_category = 'pages/screenshots_category.tpl';
     }
 
     /* Display the index page. */
@@ -37,16 +35,15 @@ class ScreenshotsPage extends Controller
         $screenshot  = ScreenshotsModel::getAllScreenshots();
         $random_shot = ScreenshotsModel::getRandomScreenshot();
 
-        global $Smarty;
+        $this->template = 'pages/screenshots.tpl';
 
         return $this->renderPage(
             array(
-                'title' => $Smarty->getConfigVars('screenshotsTitle'),
-                'content_title' => $Smarty->getConfigVars('screenshotsContentTitle'),
+                'title' => $this->getConfigVars('screenshotsTitle'),
+                'content_title' => $this->getConfigVars('screenshotsContentTitle'),
                 'screenshots' => $screenshot,
                 'random_shot' => $random_shot,
-            ),
-            $this->template
+            )
         );
     }
 
@@ -66,17 +63,16 @@ class ScreenshotsPage extends Controller
             );
         }
 
-        global $Smarty;
+        $this->template = 'pages/screenshots_category.tpl';
 
         return $this->renderPage(
             array(
-                'title' => $Smarty->getConfigVars('screenshotsTitle'),
-                'content_title' => $Smarty->getConfigVars('screenshotsContentTitle'),
+                'title' => $this->getConfigVars('screenshotsTitle'),
+                'content_title' => $this->getConfigVars('screenshotsContentTitle'),
                 'screenshots' => $screenshots,
                 'category' => $category,
                 'game' => $game,
-            ),
-            $this->template_category
+            )
         );
     }
 

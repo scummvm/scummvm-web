@@ -33,8 +33,6 @@ class NewsPage extends Controller
     /* Display a specific news item, or all news items. */
     public function getNews($filename = null)
     {
-        global $Smarty;
-
         if ($filename == null) {
             $news_items = NewsModel::getAllNews();
             $filename = 'archive';
@@ -44,21 +42,18 @@ class NewsPage extends Controller
 
         return $this->renderPage(
             array(
-                'title' => $Smarty->getConfigVars('newsTitle'),
-                'content_title' => $Smarty->getConfigVars('newsContentTitle'),
+                'title' => $this->getConfigVars('newsTitle'),
+                'content_title' => $this->getConfigVars('newsContentTitle'),
                 'show_intro' => false,
                 'news_items' => $news_items,
                 'news_archive_link' => false,
-            ),
-            $this->template
+            )
         );
     }
 
     /* Display the main page with limited news items and intro text. */
     public function getNewsIntro()
     {
-        global $Smarty;
-
         $news_items = NewsModel::getLatestNews(NEWS_ITEMS);
         $random_shot = ScreenshotsModel::getRandomScreenshot();
 
@@ -68,14 +63,13 @@ class NewsPage extends Controller
 
         return $this->renderPage(
             array(
-                'title' => $Smarty->getConfigVars('newsTitle'),
-                'content_title' => $Smarty->getConfigVars('newsContentTitle'),
+                'title' => $this->getConfigVars('newsTitle'),
+                'content_title' => $this->getConfigVars('newsContentTitle'),
                 'show_intro' => true,
                 'news_items' => $news_items,
                 'news_archive_link' => true,
                 'random_shot' => $random_shot,
-            ),
-            $this->template
+            )
         );
     }
 }

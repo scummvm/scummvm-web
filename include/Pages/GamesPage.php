@@ -20,18 +20,15 @@ class GamesPage extends Controller
     {
         $downloads = GamesModel::getAllDownloads();
         $sections = GamesModel::getAllSections();
-        global $Smarty;
-
         return $this->renderPage(
             array(
-                'title' => $Smarty->getConfigVars('gamesTitle'),
-                'content_title' => $Smarty->getConfigVars('gamesContentTitle'),
+                'title' => $this->getConfigVars('gamesTitle'),
+                'content_title' => $this->getConfigVars('gamesContentTitle'),
                 'downloads' => $downloads,
                 'sections' => $sections,
                 'release_tools' => RELEASE_TOOLS,
                 'release_debian' => RELEASE_DEBIAN,
-            ),
-            $this->template
+            )
         );
     }
 }

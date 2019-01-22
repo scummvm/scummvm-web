@@ -17,14 +17,11 @@ class ContactPage extends Controller
     /* Display the index page. */
     public function index()
     {
-        global $Smarty;
-
         return $this->renderPage(
             array(
-                'title' => $Smarty->getConfigVars('contactTitle'),
-                'content_title' => $Smarty->getConfigVars('contactContentTitle'),
-            ),
-            $this->template
+                'title' => $this->getConfigVars('contactTitle'),
+                'content_title' => $this->getConfigVars('contactContentTitle'),
+            )
         );
     }
 }

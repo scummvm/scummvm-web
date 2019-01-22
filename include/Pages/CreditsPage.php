@@ -6,8 +6,6 @@ use ScummVM\Models\CreditsModel;
 
 class CreditsPage extends Controller
 {
-    private $template;
-
     /* Constructor. */
     public function __construct()
     {
@@ -19,15 +17,12 @@ class CreditsPage extends Controller
     public function index()
     {
         $credits = CreditsModel::getAllCredits();
-        global $Smarty;
-
         return $this->renderPage(
             array(
-                'title' => $Smarty->getConfigVars('creditsTitle'),
-                'content_title' => $Smarty->getConfigVars('creditsContentTitle'),
+                'title' => $this->getConfigVars('creditsTitle'),
+                'content_title' => $this->getConfigVars('creditsContentTitle'),
                 'credits' => $credits,
-            ),
-            $this->template
+            )
         );
     }
 }

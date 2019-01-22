@@ -60,19 +60,16 @@ class DownloadsPage extends Controller
         $downloads = DownloadsModel::getAllDownloads();
         $sections = DownloadsModel::getAllSections();
         $recommendedDownloadsJS = $this->getRecommendedDownloadsJS($downloads);
-        global $Smarty;
-
         return $this->renderPage(
             array(
-                'title' => $Smarty->getConfigVars('downloadsTitle'),
-                'content_title' => $Smarty->getConfigVars('downloadsContentTitle'),
+                'title' => $this->getConfigVars('downloadsTitle'),
+                'content_title' => $this->getConfigVars('downloadsContentTitle'),
                 'downloads' => $downloads,
                 'sections' => $sections,
                 'release_tools' => RELEASE_TOOLS,
                 'release_debian' => RELEASE_DEBIAN,
                 'recommendedDownloadsJS' => $recommendedDownloadsJS
-            ),
-            $this->template
+            )
         );
     }
 }

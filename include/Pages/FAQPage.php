@@ -20,16 +20,13 @@ class FAQPage extends Controller
     {
         $contents = FAQModel::getFAQ();
         $modified = FAQModel::getLastUpdated();
-        global $Smarty;
-
         return $this->renderPage(
             array(
-                'title' => $Smarty->getConfigVars('faqTitle'),
-                'content_title' => $Smarty->getConfigVars('faqContentTitle'),
+                'title' => $this->getConfigVars('faqTitle'),
+                'content_title' => $this->getConfigVars('faqContentTitle'),
                 'contents' => $contents,
                 'modified' => $modified,
-            ),
-            $this->template
+            )
         );
     }
 }

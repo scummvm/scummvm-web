@@ -19,15 +19,12 @@ class PressSnowberryPage extends Controller
     public function index()
     {
         $articles = ArticleModel::getAllArticles();
-        global $Smarty;
-
         return $this->renderPage(
             array(
-                'title' => $Smarty->getConfigVars('pressSnowberryTitle'),
-                'content_title' => $Smarty->getConfigVars('pressSnowberryContentTitle'),
+                'title' => $this->getConfigVars('pressSnowberryTitle'),
+                'content_title' => $this->getConfigVars('pressSnowberryContentTitle'),
                 'articles' => $articles,
-            ),
-            $this->template
+            )
         );
     }
 }
