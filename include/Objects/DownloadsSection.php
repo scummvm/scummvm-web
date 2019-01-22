@@ -2,14 +2,14 @@
 namespace ScummVM\Objects;
 
 /**
- * The DSection object represents a section on the downloads page.
+ * The DownloadsSection object represents a section on the downloads page.
  */
-class DSection extends Section
+class DownloadsSection extends BasicSection
 {
     private $baseurl;
     private $baseturl;
 
-    /* DSection object constructor. */
+    /* DownloadsSection object constructor. */
     public function __construct($data)
     {
         parent::__construct($data);

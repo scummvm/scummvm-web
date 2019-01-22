@@ -2,15 +2,15 @@
 namespace ScummVM\Objects;
 
 /**
- * The Section class represens a section (or a subsection) on the credits page
+ * The BasicSection class represens a section (or a subsection) on the credits page
  * on the website.
  */
-class CSection extends Section
+class CreditsSection extends BasicSection
 {
     private $groups;
     private $paragraphs;
 
-    /* CSection object constructor. */
+    /* CreditsSection object constructor. */
     public function __construct($data)
     {
         parent::__construct($data);
@@ -20,7 +20,7 @@ class CSection extends Section
 
         if (isset($data['subsection'])) {
             foreach ($data['subsection'] as $value) {
-                $this->subsections[] = new CSection($value);
+                $this->subsections[] = new CreditsSection($value);
             }
         }
         if (isset($data['group'])) {
