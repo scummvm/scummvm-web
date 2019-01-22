@@ -1,7 +1,7 @@
 <?php
 namespace ScummVM\Models;
 
-use ScummVM\Objects\Project;
+use ScummVM\Objects\Subproject;
 use ScummVM\Objects\File;
 use ScummVM\Objects\BasicObject;
 use ScummVM\XMLParser;
@@ -29,7 +29,7 @@ abstract class SubprojectsModel extends BasicModel
                     }
                 }
             }
-            $entries[] = new Project(array(
+            $entries[] = new Subproject(array(
                 'name' => $value['name'],
                 'info' => $value['info'],
                 'downloads' => $downloads,
