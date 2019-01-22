@@ -17,9 +17,9 @@ abstract class BasicSection extends BasicObject
         $this->title = $data['title'];
         $this->anchor = $data['anchor'];
         $this->className = static::class;
+        $this->subsections = array();
         if (isset($data['subsection'])) {
             parent::toArray($data['subsection']);
-            $this->subsections = array();
             foreach ($data['subsection'] as $value) {
                 $this->subsections[] = new $this->className($value);
             }
