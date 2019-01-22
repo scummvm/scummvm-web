@@ -53,27 +53,24 @@
 
       <div class="subhead-content">
         {if $dsubsection->getNotes() != ''} {eval var=$dsubsection->getNotes()} {/if} {include file='components/list_items.tpl' list=$dsubsection->getItems() type='platforms'}
-        {if !is_null($dsubsection->getFooter())}
-        <p>{$dsubsection->getFooter()}</p>
-        {/if}
       </div>
     {/foreach}
   {/capture}
 
   {if $smarty.foreach.downloads_loop.first}
-    {include 
-      file="components/box.tpl" 
-      head={eval var=$dsection->getTitle()} 
-      intro=$smarty.capture.intro 
+    {include
+      file="components/box.tpl"
+      head={eval var=$dsection->getTitle()}
+      intro=$smarty.capture.intro
       id=$dsection->getAnchor()
       content=$smarty.capture.content
-    }  
+    }
   {else}
-    {include 
-      file="components/box.tpl" 
-      head={eval var=$dsection->getTitle()}       
+    {include
+      file="components/box.tpl"
+      head={eval var=$dsection->getTitle()}
       content=$smarty.capture.content
       id=$dsection->getAnchor()
-    }  
+    }
   {/if}
 {/foreach}
