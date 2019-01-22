@@ -16,9 +16,6 @@ class DownloadsSection extends BasicSection
     {
         parent::__construct($data);
         $this->notes = $data['notes'];
-        $this->footer = $data['footer'];
-        $this->files = array();
-        $this->links = array();
         $this->items = array();
 
         if (isset($data['entries'])) {
@@ -41,24 +38,6 @@ class DownloadsSection extends BasicSection
     public function getNotes()
     {
         return $this->notes;
-    }
-
-    /* Get the optional footer. */
-    public function getFooter()
-    {
-        return $this->footer;
-    }
-
-    /* Get the list of files. */
-    public function getFiles()
-    {
-        return $this->files;
-    }
-
-    /* Get the list of links. */
-    public function getLinks()
-    {
-        return $this->links;
     }
 
     /* Get the list of items. */

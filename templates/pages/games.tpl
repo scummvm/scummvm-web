@@ -31,25 +31,22 @@
 				{/if}
 
 				{include file='components/list_items.tpl' list=$dsubsection->getItems() type='games'}
-				{if !is_null($dsubsection->getFooter())}
-					<p>{$dsubsection->getFooter()}</p>
-				{/if}
 			</div>
 		{/foreach}
   {/capture}
-	
-  {if $smarty.foreach.downloads_loop.first}			
-    {include 
-      file="components/box.tpl" 
-      head={eval var=$dsection->getTitle()} 
-      intro=$smarty.capture.intro 
+
+  {if $smarty.foreach.downloads_loop.first}
+    {include
+      file="components/box.tpl"
+      head={eval var=$dsection->getTitle()}
+      intro=$smarty.capture.intro
       id=$dsection->getAnchor()
       content=$smarty.capture.content
     }
   {else}
-    {include 
-      file="components/box.tpl" 
-      head={eval var=$dsection->getTitle()}      
+    {include
+      file="components/box.tpl"
+      head={eval var=$dsection->getTitle()}
       id=$dsection->getAnchor()
       content=$smarty.capture.content
     }
