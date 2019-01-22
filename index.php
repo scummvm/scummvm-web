@@ -59,8 +59,8 @@ if (empty($_COOKIE['clear_lang'])) {
     setcookie("clear_lang", "deleted", 1456167472); // Hardcoded to 22-Feb-2016 when previous cookie expires
 }
 
-/* Load the configuration. */
-new Config();
+/* Load the global constants. */
+new Constants();
 
 /* Time zone to use for news items etc. */
 date_default_timezone_set("UTC");

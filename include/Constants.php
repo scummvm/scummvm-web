@@ -1,7 +1,7 @@
 <?php
 namespace ScummVM;
 
-class Config
+class Constants
 {
     public function __construct()
     {
