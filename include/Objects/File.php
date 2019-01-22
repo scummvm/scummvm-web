@@ -8,7 +8,6 @@ class File extends BasicObject
 {
     private $category_icon;
     private $url;
-
     private $type;
     private $extra_info;
     private $user_agent;
