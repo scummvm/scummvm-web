@@ -53,7 +53,6 @@ class Constants
         define('SMARTY_DIR_TEMPLATE', 'templates');
         define('SMARTY_DIR_COMPILE', SMARTY_DIR . '/template_c');
         define('SMARTY_DIR_CACHE', SMARTY_DIR . '/cache');
-        define('SMARTY_DIR_CONFIG', SMARTY_DIR . '/config');
 
         /**
          * Smarty caching options, makes it possible to cache the generated HTML to
