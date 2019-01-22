@@ -53,16 +53,5 @@ class Constants
         define('SMARTY_DIR_TEMPLATE', 'templates');
         define('SMARTY_DIR_COMPILE', SMARTY_DIR . '/template_c');
         define('SMARTY_DIR_CACHE', SMARTY_DIR . '/cache');
-
-        /**
-         * Smarty caching options, makes it possible to cache the generated HTML to
-         * speed things up. More information is available at [1].
-         *
-         * [1] http://www.smarty.net/manual/en/caching.php
-         */
-        define('SMARTY_CACHING_ENABLE', 0);
-        define('SMARTY_CACHING_LIFETIME', (60 * 60));
-        define('SMARTY_CACHING_COMPILE_CHECK', true); # used when developing
-        define('SMARTY_CACHING_FORCE_RECHECK', true); # used when developing
     }
 }
