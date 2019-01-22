@@ -1,6 +1,7 @@
 parameters:
-	level: 0
+	level: 5
 	paths:
 		- include/
 	excludes_analyse:
 		- include/I18N.php
+	bootstrap: bootstrap.php
