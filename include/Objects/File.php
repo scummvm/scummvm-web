@@ -80,7 +80,7 @@ class File extends BasicObject
                 $this->extra_info['msg'] = $data['extra_msg'];
             }
         }
-        $this->_url = $url;
+        $this->url = $url;
 
         /**
          * Get the filesize/last modified information and put it in
@@ -105,7 +105,7 @@ class File extends BasicObject
     /* Get the URL. */
     public function getURL()
     {
-        return $this->_url;
+        return $this->url;
     }
 
     /* Get the type. */

@@ -27,6 +27,7 @@ class News extends BasicObject
      */
     public function __construct($data, $filename, $processContent = false)
     {
+        parent::__construct($data);
         $this->title = $processContent ? $this->processText($data->title) : $data->title;
         $this->date = $data->date;
         $this->author = $data->author;

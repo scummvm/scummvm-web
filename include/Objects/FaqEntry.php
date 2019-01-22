@@ -22,6 +22,7 @@ class FaqEntry extends BasicObject
      */
     public function __construct($data, $section_number, $entry_number, &$xref)
     {
+        parent::__construct($data);
         $this->hrefs = array();
         if (! empty($data['href'])) {
             array_push($this->hrefs, $data['href']);

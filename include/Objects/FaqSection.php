@@ -5,9 +5,8 @@ namespace ScummVM\Objects;
  * The FaqSection class represents a section with questions and answers on the
  * website F.A.Q. page.
  */
-class FaqSection extends BasicObject
+class FaqSection extends BasicSection
 {
-    private $title;
     private $entries;
     private $toc;
 
@@ -20,6 +19,7 @@ class FaqSection extends BasicObject
      */
     public function __construct($data, $section_number, &$xref)
     {
+        parent::__construct($data);
         $this->title = $data['title'];
         $this->entries = array();
         $this->toc = array();
@@ -30,12 +30,6 @@ class FaqSection extends BasicObject
             $this->entries[] = $qa;
             $this->toc[$qa->getHref()] = $qa->getQuestion();
         }
-    }
-
-    /* Get the title of this section. */
-    public function getTitle()
-    {
-        return $this->title;
     }
 
     /* Get a list with all question-answer entries for this section. */

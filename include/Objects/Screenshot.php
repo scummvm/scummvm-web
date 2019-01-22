@@ -6,14 +6,13 @@ namespace ScummVM\Objects;
  */
 class Screenshot extends BasicObject
 {
-
     private $category;
     private $files;
 
     /* The Screenshot object constructor. */
     public function __construct($data)
     {
-        $this->name = $data['name'];
+        parent::__construct($data);
         $this->category = $data['category'];
         $this->files = array();
         if (isset($data['image'])) {
@@ -45,12 +44,6 @@ class Screenshot extends BasicObject
                 }
             }
         }
-    }
-
-    /* Get the name. */
-    public function getName()
-    {
-        return $this->name;
     }
 
     /* Get the category this screenshot belongs too. */

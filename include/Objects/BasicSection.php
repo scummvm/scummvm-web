@@ -14,6 +14,7 @@ abstract class BasicSection extends BasicObject
 
     public function __construct($data)
     {
+        parent::__construct($data);
         $this->title = $data['title'];
         $this->anchor = $data['anchor'];
         $this->className = static::class;
