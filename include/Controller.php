@@ -11,6 +11,7 @@ use ScummVM\Models\MenuModel;
  */
 class Controller
 {
+    protected $template;
     private $smarty;
     private $css_files;
     private $js_files;
@@ -23,10 +24,6 @@ class Controller
     {
         /* Create a Smarty object. */
         $this->smarty = new Smarty();
-
-        # Stick it globally so we could refer the translations
-        global $Smarty;
-        $Smarty = $this->smarty;
 
         global $lang;
         global $available_languages;
@@ -52,7 +49,7 @@ class Controller
             $this->smarty->configLoad($fname);
         }
 
-        setlocale(LC_TIME, $Smarty->getConfigVars('locale'));
+        setlocale(LC_TIME, $this->getConfigVars('locale'));
 
         /**
          * Add a output-filter to make sure ampersands are properly encoded to
@@ -133,9 +130,9 @@ class Controller
     }
 
     /* Set up the variables used by the template and render the page. */
-    public function renderPage($vars, $template)
+    public function renderPage($vars)
     {
-        return $this->display($this->fetch($template, $vars));
+        return $this->display($this->fetch($this->template, $vars));
     }
 
     /* Assign extra CSS files needed by the different pages/templates. */
@@ -162,5 +159,10 @@ class Controller
         } elseif (is_string($extra_js) && strlen($extra_js) > 0) {
             $this->js_files[] = $extra_js;
         }
+    }
+
+    protected function getConfigVars($title)
+    {
+        return $this->smarty->getConfigVars($title);
     }
 }
