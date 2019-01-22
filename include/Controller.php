@@ -29,16 +29,14 @@ class Controller
         global $available_languages;
 
         /* Configure smarty. */
-        $this->smarty->compile_dir = SMARTY_DIR_COMPILE;
-        $this->smarty->cache_dir = SMARTY_DIR_CACHE;
-        $this->smarty->config_dir = SMARTY_DIR_CONFIG;
+        $this->smarty->setCompileDir(SMARTY_DIR_COMPILE);
+        $this->smarty->setCacheDir(SMARTY_DIR_CACHE);
+        $this->smarty->setTemplateDir(array("templates_$lang", 'templates'));
         $this->smarty->caching = SMARTY_CACHING_ENABLE;
         $this->smarty->cache_lifetime = SMARTY_CACHING_LIFETIME;
         $this->smarty->compile_check = SMARTY_CACHING_COMPILE_CHECK;
         $this->smarty->force_compile = SMARTY_CACHING_FORCE_RECHECK;
-        $this->smarty->template_dir = array("templates_$lang", 'templates');
         $this->smarty->compile_id = $lang;
-        $this->smarty->config_dir = ".";
 
         # First we read English, so all defaults are there
         $this->smarty->configLoad(DIR_LANG . "/lang.en.ini");
@@ -64,6 +62,7 @@ class Controller
         $this->css_files = array();
         $this->js_files = array();
 
+        $menus = array();
         /* The menus have caused an exception, need to skip them. */
         if (!ExceptionHandler::skipMenus()) {
             $menus = MenuModel::getAllMenus();
