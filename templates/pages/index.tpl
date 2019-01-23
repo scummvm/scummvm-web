@@ -16,25 +16,23 @@
 	<link rel="alternate" type="application/rss+xml" title="{#indexRSSFeed#}" href="{$baseurl}feeds/rss/">
 	<link rel="apple-touch-icon" href="/images/scummvm.png">
 	<title>ScummVM :: {$title}</title>
-	<!-- {if $smarty.cookies.cookie_consent == "true"} -->
-		<!-- Matomo -->
-		<script type="text/javascript">
-		var _paq = _paq || [];
-		/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-		_paq.push(["setCookieDomain", "*.scummvm.org"]);
-		_paq.push(['trackPageView']);
-		_paq.push(['enableLinkTracking']);
-		(function() {
-			var u="https://analytics.scummvm.org/";
-			_paq.push(['setTrackerUrl', u+'piwik.php']);
-			_paq.push(['setSiteId', '1']);
-			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-		})();
-		</script>
-		<noscript><p><img src="https://analytics.scummvm.org/piwik.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
-		<!-- End Matomo Code -->
-	<!-- {/if} -->
+	<!-- Matomo -->
+	<script type="text/javascript">
+	var _paq = _paq || [];
+	/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+	_paq.push(["setCookieDomain", "*.scummvm.org"]);
+	_paq.push(['trackPageView']);
+	_paq.push(['enableLinkTracking']);
+	(function() {
+		var u="https://analytics.scummvm.org/";
+		_paq.push(['setTrackerUrl', u+'piwik.php']);
+		_paq.push(['setSiteId', '1']);
+		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+	})();
+	</script>
+	<noscript><p><img src="https://analytics.scummvm.org/piwik.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Matomo Code -->
 </head>
 <body>
 	<input type="checkbox" autocomplete="off" id="nav-trigger" class="nav-trigger" />
@@ -115,19 +113,14 @@
 				document.body.classList.remove('no-scroll');
 		});
 	</script>
-	<!-- {if $smarty.cookies.cookie_consent == "true"} -->
-		{* Google analytics javascript. *}
-			<script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
-			<script type="text/javascript">
-				_uacct = "UA-1455743-1";
-				_udn = "scummvm.org";
-				urchinTracker();
-			</script>
-		{* End Google analytics javascript. *}
-	<!-- {else if $smarty.cookies.cookie_consent == "false"}
-		{* Do nothing *}
-	{else}
-		{include file='components/cookie.tpl'}
-	{/if} -->
+{* Google analytics javascript. *}
+	<script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		_uacct = "UA-1455743-1";
+		_udn = "scummvm.org";
+		urchinTracker();
+	</script>
+{* End Google analytics javascript. *}
+
 	</body>
 </html>
