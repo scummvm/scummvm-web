@@ -7,7 +7,7 @@
 	<base href="{$baseurl}">
 	{* Cache bust CSS if making major changes *}
 	{$css = "2.0.0"}
-	<link rel="stylesheet" href="{$baseurl}css/main.css?v={$css}">	
+	<link rel="stylesheet" href="{$baseurl}css/main.css?v={$css}">
 	{* Page specific, or other extra CSS rules. *}
 	{foreach from=$css_files item=filename}
 	<link rel="stylesheet" href="{$baseurl}css/{$filename}">
@@ -16,7 +16,7 @@
 	<link rel="alternate" type="application/rss+xml" title="{#indexRSSFeed#}" href="{$baseurl}feeds/rss/">
 	<link rel="apple-touch-icon" href="/images/scummvm.png">
 	<title>ScummVM :: {$title}</title>
-	{if $smarty.cookies.cookie_consent == "true"}
+	<!-- {if $smarty.cookies.cookie_consent == "true"} -->
 		<!-- Matomo -->
 		<script type="text/javascript">
 		var _paq = _paq || [];
@@ -34,7 +34,7 @@
 		</script>
 		<noscript><p><img src="https://analytics.scummvm.org/piwik.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
 		<!-- End Matomo Code -->
-	{/if}
+	<!-- {/if} -->
 </head>
 <body>
 	<input type="checkbox" autocomplete="off" id="nav-trigger" class="nav-trigger" />
@@ -48,13 +48,13 @@
 					<a href="{$baseurl}">
 						<img class="foreground" src="/images/scummvm_logo.png" alt="{#indexLogo#}">
 					</a>
-			</div>			
+			</div>
 			<div class="row top">
 				<div class="col-1-1">
 					<img class="heroes hide-small" src="/images/heroes{$heroes_num|rand:0}.png" alt="{#indexCharacters#}">
 				</div>
 			</div>
-			<div class="row bottom hide-small">			
+			<div class="row bottom hide-small">
 				<div class="col-1-1">
 					<span class="scummvm float_right">Script Creation Utility for Maniac Mansion Virtual Machine</span>
 				</div>
@@ -115,19 +115,19 @@
 				document.body.classList.remove('no-scroll');
 		});
 	</script>
-	{if $smarty.cookies.cookie_consent == "true"}
+	<!-- {if $smarty.cookies.cookie_consent == "true"} -->
 		{* Google analytics javascript. *}
 			<script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
 			<script type="text/javascript">
 				_uacct = "UA-1455743-1";
-				_udn = "scummvm.org";		
-				urchinTracker();				
+				_udn = "scummvm.org";
+				urchinTracker();
 			</script>
 		{* End Google analytics javascript. *}
-	{else if $smarty.cookies.cookie_consent == "false"}
+	<!-- {else if $smarty.cookies.cookie_consent == "false"}
 		{* Do nothing *}
 	{else}
-		{include file='components/cookie.tpl'}	
-	{/if}
+		{include file='components/cookie.tpl'}
+	{/if} -->
 	</body>
 </html>
