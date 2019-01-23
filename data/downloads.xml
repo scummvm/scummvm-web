@@ -536,10 +536,10 @@
 
 	<section>
 		<title>{#downloadsOldBinaries#}</title>
-		<baseurl>/frs/scummvm/</baseurl>
 		<subsection>
 			<title>{#downloadsOld#}</title>
 			<anchor>older</anchor>
+			<baseurl>/frs/scummvm/</baseurl>
 			<notes>
 				{#downloadsOldBinariesNote#}
 			</notes>

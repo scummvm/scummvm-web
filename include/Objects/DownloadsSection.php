@@ -11,6 +11,7 @@ class DownloadsSection extends BasicSection
     private $files;
     private $links;
     private $items;
+    private $baseUrl;
 
     public function __construct($data)
     {
@@ -18,12 +19,16 @@ class DownloadsSection extends BasicSection
         $this->notes = $data['notes'];
         $this->items = array();
 
+        if (isset($data['baseurl'])) {
+            $this->baseUrl = $data['baseurl'];
+        }
+
         if (isset($data['entries'])) {
             foreach ($data['entries'] as $type => $item) {
                 parent::toArray($item);
                 if ($type == 'file') {
                     foreach ($item as $file) {
-                        $this->items[] = new File($file);
+                        $this->items[] = new File($file, $this->baseUrl);
                     }
                 } elseif ($type == 'link') {
                     foreach ($item as $link) {

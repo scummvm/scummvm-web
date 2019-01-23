@@ -12,7 +12,7 @@ class File extends BasicObject
     private $extra_info;
     private $user_agent;
 
-    public function __construct($data)
+    public function __construct($data, $baseUrl = null)
     {
         parent::__construct($data);
         $this->category_icon = $data['category_icon'];
@@ -32,10 +32,14 @@ class File extends BasicObject
         }
 
         if (!preg_match('/^((https?)|(ftp)):\/\//', $url)) {
-            if ($attributes['type'] == 'downloads') {
+            if ($baseUrl !== null) {
+                $url = $baseUrl . $url;
+            } elseif ($attributes['type'] == 'downloads') {
                 $url = DIR_DOWNLOADS . "/{$url}";
             } elseif ($attributes['type'] == 'tools') {
                 $url = DOWNLOADS_TOOLS_URL . $url;
+            } elseif ($attributes['type'] == 'extras') {
+                $url = DOWNLOADS_EXTRAS_URL . $url;
             } else {
                 $url = DOWNLOADS_URL . $url;
             }

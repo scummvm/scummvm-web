@@ -43,6 +43,7 @@ class Constants
         /* Downloads */
         define('DOWNLOADS_URL', '/frs/scummvm/{$release}/');
         define('DOWNLOADS_TOOLS_URL', '/frs/scummvm-tools/{$release}/');
+        define('DOWNLOADS_EXTRAS_URL', '/frs/extras/');
 
         /**
          * Smarty configuration. The Smarty team does not recommend putting any of the
