@@ -6,7 +6,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
 use ScummVM\Objects\News;
 use ScummVM\Models\NewsModel;
 
-// define('DIR_NEWS', 'data/news');
+define('DIR_NEWS', 'data/news');
 
 class I18N
 {
