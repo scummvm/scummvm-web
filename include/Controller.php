@@ -31,7 +31,6 @@ class Controller
         /* Configure smarty. */
         $this->smarty->setCompileDir(SMARTY_DIR_COMPILE);
         $this->smarty->setCacheDir(SMARTY_DIR_CACHE);
-        $this->smarty->setCaching(Smarty::CACHING_OFF);
         $this->smarty->setTemplateDir(array("templates_$lang", 'templates'));
         $this->smarty->compile_id = $lang;
 
