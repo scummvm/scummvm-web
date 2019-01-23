@@ -3,8 +3,8 @@
   "description": "ScummVM.org main site",
   "version": "1.0.0",
   "dependencies": {
-    "autoprefixer": "^9.0.1",
-    "postcss-cli": "^6.0.0"
+    "autoprefixer": "^9.4.6",
+    "postcss-cli": "^6.1.1"
   },
   "scripts": {
     "postinstall": "postcss ./css/*.css --use autoprefixer --no-map -r"
