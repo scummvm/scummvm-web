@@ -19,12 +19,12 @@
 					<name>Windows Installer</name>
 					<user_agent>Windows</user_agent>
 				</file>
-<!--
 				<file>
 					<category_icon>windows</category_icon>
-					<url>scummvm-{$release}.2-win32.zip</url>
+					<url>scummvm-{$release}-win32.zip</url>
 					<name>Windows zipfile</name>
 				</file>
+<!--
 				<file>
 					<category_icon>win64</category_icon>
 					<url>scummvm-{$release}-win64.zip</url>
