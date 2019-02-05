@@ -1,0 +1,111 @@
+body {
+  background-color: #e0e0e0;
+  background-image: url(../images/scummvm_logo.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-top: 40px;
+  font-family: verdana, tahoma, arial, helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.357em;
+  margin: 8px 8px 24px 8px;
+  color: #333333;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+input, textarea {
+  font: bold 1.2em "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #333333;
+}
+
+h1, h2, h3 {
+  background: #a82709 linear-gradient(to bottom, #d49384 0%, #a82709 80%);
+  padding-left: 2em;
+  margin: 0;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+h1 {
+  letter-spacing: -1px;
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 2.75em;
+  > a {
+    color: #ffffff;
+  }
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 2em;
+}
+
+p, ul, ol {
+  margin-bottom: 1.6em;
+}
+
+p {}
+
+blockquote {
+  font-style: italic;
+}
+
+ul, ol {}
+
+a {
+  color: #821d06;
+  &:hover {
+    text-decoration: none;
+    color: #CC0000;
+  }
+}
+
+small {}
+
+hr {
+  /* display: none; */
+}
+
+img {
+  border: none;
+  &.left {
+    float: left;
+    margin: 0 15px 0 0;
+  }
+  &.right {
+    float: left;
+    margin: 0 0 0 15px;
+  }
+}
+
+/* Footer */
+
+#footer {
+  clear: both;
+  padding: 30px 0;
+  border-top: 10px solid #DDDDDD;
+  background: #EFEFEF;
+  p {
+    margin: 0;
+    padding: 10px 0 0 0;
+    text-align: center;
+    line-height: normal;
+  }
+}
+
+/* vim: set ft=css: */

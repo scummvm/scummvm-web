@@ -17,6 +17,7 @@
       "post-install-cmd": [
         "pscss -f compressed ./scss/main.scss > ./css/main.css",
         "pscss -f compressed ./scss/pages/_cloud-style.scss > ./css/cloud-style.css",
+        "pscss -f compressed ./scss/pages/_mirrorbrain.scss > ./css/mirrorbrain.css",
         "php include/I18N.php"
       ],
       "build": [
