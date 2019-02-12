@@ -174,5 +174,6 @@
     "menuMiscPress": "Rassegna Stampa",
     "menuMiscContact": "Contattaci",
     "menuMiscLinks": "Link",
-    "wikiDocumentationTitle": "Documentazione su Wiki"
+    "wikiDocumentationTitle": "Documentazione su Wiki",
+    "enReadMeDesc": "Il file LEGGIMI di ScummVM, per la versione {release}"
 }
