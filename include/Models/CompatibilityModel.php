@@ -85,7 +85,7 @@ abstract class CompatibilityModel extends BasicModel
                 $dates[] = substr($file, (strpos($file, '-') + 1), -4);
             }
         }
-        usort($dates, "CompatibilityModel::compareVersions");
+        usort($dates, '\ScummVM\Models\CompatibilityModel::compareVersions');
         $dates = array_reverse($dates);
         return $dates;
     }
