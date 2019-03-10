@@ -5,13 +5,13 @@
 //$theme-primary-background: rgb(209, 111, 10) !default;
 
 // Main elements
-$theme-background: $bamboo linear-gradient(to bottom, rgb(209, 111, 10) 0%, rgb(231, 172, 21) 400px, rgb(239, 196, 24) 100%) !default;
+$theme-background: $tango !default;
 $theme-text: $black !default;
 $theme-fonts: (
-    'verdana', 
-    'tahoma', 
-    'arial', 
-    'helvetica', 
+    'verdana',
+    'tahoma',
+    'arial',
+    'helvetica',
     sans-serif
 ) !default;
 

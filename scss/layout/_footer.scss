@@ -11,13 +11,13 @@ footer {
         text-decoration: none;
       }
 		}
-		
+
 		@include respond-to('small') {
 			padding: 0 8px;
 			background: rgb(251, 241, 206);
 		}
   }
-  
+
   .tentacle {
     height: auto;
     width: 100%;
@@ -25,5 +25,5 @@ footer {
     max-width: 160px;
     position: absolute;
     bottom: -60px;
-    filter: drop-shadow((-3px) 5px 1px #EDBE17);
+    filter: drop-shadow((-3px) 5px 1px $tango);
   }
