@@ -30,7 +30,7 @@ $theme-menu-shadow: $cashmere !default;
 
 // Box containers
 $theme-container-title: $white !default;
-$theme-container-title-background: $totem-pole linear-gradient(to bottom, mix($totem-pole, $white) 0%, $totem-pole 80%) !default;
+$theme-container-title-background: $totem-pole !default;
 $theme-container-sub-title: $totem-pole !default;
 $theme-container-background: $alto !default;
 $theme-container-navigation-background: $silver !default;
@@ -39,12 +39,12 @@ $theme-container-navigation-link: $japanese-laurel !default;
 $theme-container-navigation-bullet: $double-pearl-lustra !default;
 
 // Round box containers
-$theme-round-container-title-background: $marzipan linear-gradient(to bottom, darken($marzipan, 10%) 0%, $marzipan 50%, lighten($marzipan, 20%) 100%) !default;
+$theme-round-container-title-background: $marzipan !default;
 $theme-round-container-border: $cashmere !default;
 $theme-round-container-headless-background: $double-pearl-lustra !default;
 $theme-round-container-header: $kenyan-copper !default;
 $theme-round-container-background: $white !default;
-$theme-round-container-header-shadow: $white !default;
+$theme-round-container-header-shadow: rgba(0,0,0,0) !default;
 
 // Charts
 $theme-chart-head-background: $gray !default;
