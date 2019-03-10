@@ -4,7 +4,29 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="referrer" content="no-referrer">
-	<base href="{$baseurl}">
+  <base href="{$baseurl}">
+  <link rel="alternate" type="application/atom+xml" title="{#indexAtomFeed#}" href="{$baseurl}feeds/atom/">
+	<link rel="alternate" type="application/rss+xml" title="{#indexRSSFeed#}" href="{$baseurl}feeds/rss/">
+	<title>ScummVM :: {$title}</title>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=Lby3xyRQB7">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=Lby3xyRQB7">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=Lby3xyRQB7">
+  <link rel="manifest" href="/site.webmanifest?v=Lby3xyRQB7">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg?v=Lby3xyRQB7" color="#4acb46">
+  <link rel="shortcut icon" href="/favicon.ico?v=Lby3xyRQB7">
+  <meta name="apple-mobile-web-app-title" content="ScummVM">
+  <meta name="application-name" content="ScummVM">
+  <meta name="msapplication-TileColor" content="#d77337">
+  <meta name="theme-color" content="#d77337">
+  <!-- OpenGraph -->
+  <meta property="og:image:width" content="1242">
+  <meta property="og:image:height" content="650">
+  <meta property="og:title" content="ScummVM">
+  <meta property="og:description" content="ScummVM is a collection of game engines for playing classic graphical RPGs and point-and-click adventure games on modern hardware.">
+  <meta property="og:url" content="https://www.scummvm.org">
+  <meta property="og:image" content="https://www.scummvm.org/images/og-image.jpg">
+
 	{* Cache bust CSS if making major changes *}
 	{$css = "2.0.0"}
 	<link rel="stylesheet" href="{$baseurl}css/main.css?v={$css}">
@@ -12,10 +34,7 @@
 	{foreach from=$css_files item=filename}
 	<link rel="stylesheet" href="{$baseurl}css/{$filename}">
 	{/foreach}
-	<link rel="alternate" type="application/atom+xml" title="{#indexAtomFeed#}" href="{$baseurl}feeds/atom/">
-	<link rel="alternate" type="application/rss+xml" title="{#indexRSSFeed#}" href="{$baseurl}feeds/rss/">
-	<link rel="apple-touch-icon" href="/images/scummvm.png">
-	<title>ScummVM :: {$title}</title>
+
 	{if $smarty.cookies.cookie_consent == "true"}
 		<!-- Matomo -->
 		<script type="text/javascript">

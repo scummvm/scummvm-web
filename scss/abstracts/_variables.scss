@@ -1,6 +1,6 @@
 $black: rgb(0, 0, 0) !default;
 $black-semi-transparent: rgba(0, 0, 0, 0.5) !default;
-$white: rgb(255, 255, 255) !default; 
+$white: rgb(255, 255, 255) !default;
 $totem-pole: rgb(168, 39, 9) !default; //153, 27, 7
 $kenyan-copper: rgb(130, 29, 6) !default; //124, 28, 5
 $japanese-laurel: rgb(64, 106, 4) !default; //10, 105, 6
@@ -11,7 +11,8 @@ $alto: rgb(224, 224, 224) !default; //219, 219, 219
 $silver: rgb(192, 192, 192) !default;
 $bamboo: rgb(209, 111, 10) !default;
 $cashmere: rgb(228, 186, 155) !default;
-$marzipan: rgb(246, 224, 138);
+$marzipan: rgb(246, 224, 138) !default;
+$tango: rgb(215, 115, 55) !default;
 
 $breakpoints: (
   'small': (min-width: 320px) and (max-width: 640px),
