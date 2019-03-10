@@ -1,6 +1,6 @@
 .round-box {
   margin: 8px;
-  > .header {   
+  > .header {
 		background: $theme-round-container-title-background;
     border-left: 1px solid $theme-round-container-border;
     border-right: 1px solid $theme-round-container-border;
@@ -30,5 +30,5 @@
   > .header ~ .content {
     border-radius: 0 0 8px 8px;
     border-top: 0;
-  }  
+  }
 }
