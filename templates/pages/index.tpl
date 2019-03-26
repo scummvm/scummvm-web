@@ -9,16 +9,16 @@
 	<link rel="alternate" type="application/rss+xml" title="{#indexRSSFeed#}" href="{$baseurl}feeds/rss/">
 	<title>ScummVM :: {$title}</title>
   <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=Lby3xyRQB7">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=Lby3xyRQB7">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=Lby3xyRQB7">
-  <link rel="manifest" href="/site.webmanifest?v=Lby3xyRQB7">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg?v=Lby3xyRQB7" color="#4acb46">
-  <link rel="shortcut icon" href="/favicon.ico?v=Lby3xyRQB7">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=oLBEjaJ9ag">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=oLBEjaJ9ag">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=oLBEjaJ9ag">
+  <link rel="manifest" href="/site.webmanifest?v=oLBEjaJ9ag">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg?v=oLBEjaJ9ag" color="#046c00">
+  <link rel="shortcut icon" href="/favicon.ico?v=oLBEjaJ9ag">
   <meta name="apple-mobile-web-app-title" content="ScummVM">
   <meta name="application-name" content="ScummVM">
-  <meta name="msapplication-TileColor" content="#d77337">
-  <meta name="theme-color" content="#d77337">
+  <meta name="msapplication-TileColor" content="#cc6600">
+  <meta name="theme-color" content="#cc6600">
   <!-- OpenGraph -->
   <meta property="og:image:width" content="1242">
   <meta property="og:image:height" content="650">
