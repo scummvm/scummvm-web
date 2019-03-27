@@ -20,8 +20,8 @@
   <meta name="msapplication-TileColor" content="#cc6600">
   <meta name="theme-color" content="#cc6600">
   <!-- OpenGraph -->
-  <meta property="og:image:width" content="1242">
-  <meta property="og:image:height" content="650">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:title" content="ScummVM">
   <meta property="og:description" content="ScummVM is a collection of game engines for playing classic graphical RPGs and point-and-click adventure games on modern hardware.">
   <meta property="og:url" content="https://www.scummvm.org">
