@@ -75,7 +75,7 @@
     "downloadsBinaries": "{release} Release binaries",
     "downloadsBinariesNote1": "For a list of changes since the previous version,",
     "downloadsBinariesNote2": "read the release notes",
-    "downloadsBinariesNote3": "{release_debian} is also apt-get'able from Debian unstable (sid).",
+    "downloadsBinariesNote3": "ScummVM {release} is also available in the software repositories of many GNU/Linux distributions.",
     "downloadsSourceCode": "{release} Source Code",
     "downloadsTools": "{release_tools} Tools",
     "downloadsOldBinaries": "Older versions (unsupported)",
