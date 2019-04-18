@@ -260,6 +260,11 @@
 			<group>
 				<name>Blade Runner</name>
 				<person>
+					<name>Thanasis Antoniou</name>
+					<alias>Praetorian</alias>
+					<description></description>
+				</person>
+				<person>
 					<name>Thomas Fach-Pedersen</name>
 					<alias>madmoose</alias>
 					<description></description>
@@ -270,8 +275,8 @@
 					<description></description>
 				</person>
 				<person>
-					<name>Thanasis Antoniou</name>
-					<alias>Praetorian</alias>
+					<name>Eugene Sandulenko</name>
+					<alias>sev</alias>
 					<description></description>
 				</person>
 			</group>
