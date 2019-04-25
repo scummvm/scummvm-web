@@ -33,10 +33,10 @@ class Constants
         define('URL_BASE', $url);
 
         /* Paths. */
-        define('DIR_DATA', 'data');
-        define('DIR_NEWS', 'data/news');
-        define('DIR_LANG', 'lang');
-        define('DIR_COMPAT', 'data/compatibility');
+        define('DIR_DATA',  __DIR__ . '/../data');
+        define('DIR_NEWS', __DIR__ . '/../data/news');
+        define('DIR_LANG', __DIR__ . '/../lang');
+        define('DIR_COMPAT', __DIR__ . '/../data/compatibility');
         define('DIR_DOWNLOADS', '/downloads');
         define('DIR_SCREENSHOTS', '/data/screenshots');
 
@@ -50,8 +50,8 @@ class Constants
          * directories used under the web server root. 'SMARTY_DIR_COMPILE' and
          * 'SMARTY_DIR_CACHE' must be writable by the web server (chown).
          */
-        define('SMARTY_DIR', 'vendor/smarty/smarty/libs/');
-        define('SMARTY_DIR_TEMPLATE', 'templates');
+        define('SMARTY_DIR', __DIR__ . '/../vendor/smarty/smarty/libs/');
+        define('SMARTY_DIR_TEMPLATE', __DIR__ . '/../templates');
         define('SMARTY_DIR_COMPILE', SMARTY_DIR . '/template_c');
         define('SMARTY_DIR_CACHE', SMARTY_DIR . '/cache');
     }

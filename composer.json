@@ -16,31 +16,31 @@
     },
     "scripts": {
       "post-install-cmd": [
-        "pscss -f compressed ./scss/main.scss > ./css/main.css",
-        "pscss -f compressed ./scss/pages/_cloud-style.scss > ./css/cloud-style.css",
-        "pscss -f compressed ./scss/pages/_mirrorbrain.scss > ./css/mirrorbrain.css",
+        "pscss -f compressed ./scss/main.scss > ./public_html/css/main.css",
+        "pscss -f compressed ./scss/pages/_cloud-style.scss > ./public_html/css/cloud-style.css",
+        "pscss -f compressed ./scss/pages/_mirrorbrain.scss > ./public_html/css/mirrorbrain.css",
         "php include/I18N.php"
       ],
       "build-common": [
-        "glue images/icons/games/ --img=images/ --scss=scss/sprites/ --retina",
-        "glue images/icons/platforms/ --img=images/ --scss=scss/sprites/ --retina",
+        "glue public_html/images/icons/games/ --img=images/ --scss=scss/sprites/ --retina",
+        "glue public_html/images/icons/platforms/ --img=images/ --scss=scss/sprites/ --retina",
         "mv scss/sprites/games.scss scss/sprites/_games.scss",
         "mv scss/sprites/platforms.scss scss/sprites/_platforms.scss",
         "composer install --no-dev",
         "npm install --production"
       ],
       "build-win":[
-        "if NOT EXIST css mkdir css",
+        "if NOT EXIST public_html\\css mkdir public_html\\css",
         "@build-common",
         "if NOT EXIST vendor\\smarty\\smarty\\libs\\template_c mkdir vendor\\smarty\\smarty\\libs\\template_c"
       ],
       "build": [
-        "mkdir -p css",
+        "mkdir public_html/css -p",
         "@build-common",
         "mkdir -p vendor/smarty/smarty/libs/template_c"
       ],
       "run": [
-        "php -S localhost:8000"
+        "php -S localhost:8000 -t ./public_html"
       ],
       "develop": [
         "@build",
@@ -53,7 +53,7 @@
     },
     "autoload": {
       "psr-4": {
-        "ScummVM\\": [ "include/", "index.php"]
+        "ScummVM\\": [ "include/", "public_html/index.php"]
       }
     }
 }

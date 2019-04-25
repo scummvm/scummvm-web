@@ -31,7 +31,7 @@ class Controller
         /* Configure smarty. */
         $this->smarty->setCompileDir(SMARTY_DIR_COMPILE);
         $this->smarty->setCacheDir(SMARTY_DIR_CACHE);
-        $this->smarty->setTemplateDir(array("templates_$lang", 'templates'));
+        $this->smarty->setTemplateDir(SMARTY_DIR_TEMPLATE);
         $this->smarty->compile_id = $lang;
 
         # First we read English, so all defaults are there
