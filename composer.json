@@ -35,9 +35,9 @@
         "if NOT EXIST vendor\\smarty\\smarty\\libs\\template_c mkdir vendor\\smarty\\smarty\\libs\\template_c"
       ],
       "build": [
-        "mkdir css -p",
+        "mkdir -p css",
         "@build-common",
-        "mkdir vendor/smarty/smarty/libs/template_c -p"
+        "mkdir -p vendor/smarty/smarty/libs/template_c"
       ],
       "run": [
         "php -S localhost:8000"
