@@ -33,11 +33,12 @@ class Constants
         define('URL_BASE', $url);
 
         /* Paths. */
-        define('DIR_DATA',  __DIR__ . '/../data');
-        define('DIR_NEWS', __DIR__ . '/../data/news');
-        define('DIR_LANG', __DIR__ . '/../lang');
-        define('DIR_COMPAT', __DIR__ . '/../data/compatibility');
-        define('DIR_DOWNLOADS', '/downloads');
+        define('DIR_BASE',        __DIR__  . '/..');
+        define('DIR_DATA',        DIR_BASE . '/data');
+        define('DIR_NEWS',        DIR_DATA . '/news');
+        define('DIR_LANG',        DIR_BASE . '/lang');
+        define('DIR_COMPAT',      DIR_DATA . '/compatibility');
+        define('DIR_DOWNLOADS',   '/downloads');
         define('DIR_SCREENSHOTS', '/data/screenshots');
 
         /* Downloads */
@@ -50,9 +51,9 @@ class Constants
          * directories used under the web server root. 'SMARTY_DIR_COMPILE' and
          * 'SMARTY_DIR_CACHE' must be writable by the web server (chown).
          */
-        define('SMARTY_DIR', __DIR__ . '/../vendor/smarty/smarty/libs/');
-        define('SMARTY_DIR_TEMPLATE', __DIR__ . '/../templates');
-        define('SMARTY_DIR_COMPILE', SMARTY_DIR . '/template_c');
-        define('SMARTY_DIR_CACHE', SMARTY_DIR . '/cache');
+        define('SMARTY_DIR',            DIR_BASE            . '/vendor/smarty/smarty/libs/');
+        define('SMARTY_DIR_TEMPLATE',   DIR_BASE            . '/templates');
+        define('SMARTY_DIR_COMPILE',    SMARTY_DIR_TEMPLATE . '/compiled');
+        define('SMARTY_DIR_CACHE',      SMARTY_DIR          . 'cache');
     }
 }

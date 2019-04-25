@@ -7,6 +7,9 @@
 # Composer
 /vendor
 
+# Smarty
+/templates/compiled
+
 # CSS / SCSS
 /public_html/css
 .sass-cache/

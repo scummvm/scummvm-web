@@ -32,12 +32,12 @@
       "build-win":[
         "if NOT EXIST public_html\\css mkdir public_html\\css",
         "@build-common",
-        "if NOT EXIST vendor\\smarty\\smarty\\libs\\template_c mkdir vendor\\smarty\\smarty\\libs\\template_c"
+        "if NOT EXIST templates\\compiled mkdir templates\\compiled"
       ],
       "build": [
         "mkdir public_html/css -p",
         "@build-common",
-        "mkdir -p vendor/smarty/smarty/libs/template_c"
+        "mkdir templates/compiled -p"
       ],
       "run": [
         "php -S localhost:8000 -t ./public_html"
