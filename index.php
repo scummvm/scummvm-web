@@ -35,8 +35,9 @@ function get_preferred_languages()
     return array();
 }
 
-if (!empty($_REQUEST['lang'])) {
-    $lang = $_REQUEST['lang'];
+if (!empty($_GET['lang'])) {
+    $lang = $_GET['lang'];
+    setcookie("lang", $lang, time()+86400, "/");
 } elseif (!empty($_COOKIE['lang'])) {
     $lang = $_COOKIE['lang'];
 } elseif (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
@@ -51,12 +52,6 @@ if (!empty($_REQUEST['lang'])) {
 
 if (!array_key_exists($lang, $available_languages)) {
     $lang = 'en';
-}
-
-/* We have to clean the mess introduced by double cookie at the wrong level */
-if (empty($_COOKIE['clear_lang'])) {
-    setcookie("lang", 'deleted', 1); // Setting it a current domain level, as it stays one level up
-    setcookie("clear_lang", "deleted", 1456167472); // Hardcoded to 22-Feb-2016 when previous cookie expires
 }
 
 /* Load the global constants. */
@@ -78,28 +73,47 @@ set_exception_handler(array('ScummVM\ExceptionHandler', 'handleException'));
 
 /* Page mapping. */
 $pages = array(
-    'compatibility' => 'ScummVM\Pages\CompatibilityPage',
-    'contact' => 'ScummVM\Pages\ContactPage',
-    'credits' => 'ScummVM\Pages\CreditsPage',
-    'demos' => 'ScummVM\Pages\DemosPage',
-    'documentation' => 'ScummVM\Pages\DocumentationPage',
-    'downloads' => 'ScummVM\Pages\DownloadsPage',
-    'games' => 'ScummVM\Pages\GamesPage',
-    'faq' => 'ScummVM\Pages\FAQPage',
-    'feeds' => 'ScummVM\Pages\FeedsPage',
-    'links' => 'ScummVM\Pages\LinksPage',
-    'news' => 'ScummVM\Pages\NewsPage',
-    'press' => 'ScummVM\Pages\PressPage',
-    'presssnowberry' => 'ScummVM\Pages\PressSnowberryPage',
-    'screenshots' => 'ScummVM\Pages\ScreenshotsPage',
-    'subprojects' => 'ScummVM\Pages\SubprojectsPage',
+    '/compatibility'                         => '\ScummVM\Pages\CompatibilityPage',
+    '/compatibility/[cId:version]'           => '\ScummVM\Pages\CompatibilityPage',
+    '/compatibility/[cId:version]/[a:game]'  => '\ScummVM\Pages\CompatibilityPage',
+    '/contact'                               => '\ScummVM\Pages\ContactPage',
+    '/credits'                               => '\ScummVM\Pages\CreditsPage',
+    '/demos'                                 => '\ScummVM\Pages\DemosPage',
+    '/documentation'                         => '\ScummVM\Pages\DocumentationPage',
+    '/downloads'                             => '\ScummVM\Pages\DownloadsPage',
+    '/games'                                 => '\ScummVM\Pages\GamesPage',
+    '/faq'                                   => '\ScummVM\Pages\FAQPage',
+    '/feeds'                                 => '\ScummVM\Pages\FeedsPage',
+    '/feeds/[a:type]'                        => '\ScummVM\Pages\FeedsPage',
+    '/links'                                 => '\ScummVM\Pages\LinksPage',
+    '/'                                      => '\ScummVM\Pages\NewsPage',
+    '/news'                                  => '\ScummVM\Pages\NewsPage',
+    '/news/[a:date]'                         => '\ScummVM\Pages\NewsPage',
+    '/press'                                 => '\ScummVM\Pages\PressPage',
+    '/presssnowberry'                        => '\ScummVM\Pages\PressSnowberryPage', // HACK
+    '/screenshots'                           => '\ScummVM\Pages\ScreenshotsPage',
+    '/screenshots/[a:category]'              => '\ScummVM\Pages\ScreenshotsPage',
+    '/screenshots/[a:category]/[a:game]'     => '\ScummVM\Pages\ScreenshotsPage',
+    '/subprojects'                           => '\ScummVM\Pages\SubprojectsPage',
 );
 
-/* Default to the news page. */
-if (!array_key_exists(($page = isset($_GET['p']) ? $_GET['p'] : null), $pages)) {
-    $page = 'news';
+$router = new \AltoRouter();
+
+// Custom match for Compatability ID.
+$router->addMatchTypes(array('cId' => '(DEV)|[0-9\.]++'));
+
+foreach ($pages as $key => $value) {
+    $router->map('GET', $key, $value);
+    $router->map('GET', $key . '/', $value);
 }
 
-/* Switch to the requested page */
-$p = new $pages[$page]();
-return $p->index();
+$match = $router->match();
+if ($match) {
+    $page = new $match['target']();
+    return $page->index($match['params']);
+} else {
+  $page = new \ScummVM\Pages\NewsPage();
+  return $page->index(array());
+}
+
+

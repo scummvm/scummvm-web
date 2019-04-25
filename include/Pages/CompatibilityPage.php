@@ -36,10 +36,10 @@ class CompatibilityPage extends Controller
     }
 
     /* Display the index page. */
-    public function index()
+    public function index($args)
     {
-        $version = (!empty($_GET['v']) ? $_GET['v'] : 'DEV');
-        $target = $_GET['t'];
+        $version = $args['version'];
+        $target = $args['game'];
 
         /* Default to DEV */
         $versions = CompatibilityModel::getAllVersions();

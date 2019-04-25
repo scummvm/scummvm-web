@@ -18,9 +18,9 @@ class FeedsPage extends Controller
     }
 
     /* Display the index page. */
-    public function index()
+    public function index($args)
     {
-        $feed = $_GET['f'];
+        $feed = $args['type'];
         if ($feed == 'atom') {
             $template = $this->template_atom;
         } else {

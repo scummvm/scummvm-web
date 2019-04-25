@@ -16,21 +16,18 @@ class ScreenshotsPage extends Controller
     }
 
     /* Display the index page. */
-    public function index()
+    public function index($args)
     {
-        $category = $_GET['cat'];
-        $game = $_GET['game'];
-        $json = $_POST['json'];
-
-        if (!empty($json)) {
-            return $this->getAllJSON();
-        } elseif (!empty($category)) {
-            return $this->getCategory($category, $game);
-        }
+        $category = $args['category'];
+        $game = $args['game'];
 
         $this->addJSFiles(array(
-            'baguetteBox.min.js'
-        ));
+          'baguetteBox.min.js'
+      ));
+
+        if (!empty($category)) {
+            return $this->getCategory($category, $game);
+        }
 
         $screenshot  = ScreenshotsModel::getAllScreenshots();
         $random_shot = ScreenshotsModel::getRandomScreenshot();
@@ -50,10 +47,6 @@ class ScreenshotsPage extends Controller
     /* Display the selected category. */
     public function getCategory($category, $game)
     {
-        $this->addJSFiles(array(
-            'baguetteBox.min.js'
-        ));
-
         if (empty($game)) {
             $screenshots = ScreenshotsModel::getCategoryScreenshots($category);
         } else {
@@ -74,21 +67,5 @@ class ScreenshotsPage extends Controller
                 'game' => $game,
             )
         );
-    }
-
-    /* Get a list with all screenshot filenames/captions as a JSON list. */
-    public function getAllJSON()
-    {
-        $sshots = array();
-        foreach (ScreenshotsModel::getAllScreenshots() as $category) {
-            foreach ($category['games'] as $screenshot) {
-                foreach ($screenshot->getFiles() as $files) {
-                    $files['filename'] = DIR_SCREENSHOTS . "/{$files['filename']}-full.png";
-                    $sshots[] = array_values($files);
-                }
-            }
-        }
-        print json_encode($sshots);
-        return true;
     }
 }

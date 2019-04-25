@@ -18,7 +18,6 @@ class DocumentationPage extends Controller
     /* Display the index page. */
     public function index()
     {
-        $document = $_GET['d'];
         $documents = DocumentationModel::getAllDocuments();
 
         return $this->renderPage(

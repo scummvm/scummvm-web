@@ -11,7 +11,8 @@
     "require": {
         "leafo/scssphp": "^0.7.6",
         "smarty/smarty": "^3.1",
-        "ezyang/htmlpurifier": "^4.10"
+        "ezyang/htmlpurifier": "^4.10",
+        "altorouter/altorouter": "^1.2"
     },
     "scripts": {
       "post-install-cmd": [
@@ -20,11 +21,26 @@
         "pscss -f compressed ./scss/pages/_mirrorbrain.scss > ./css/mirrorbrain.css",
         "php include/I18N.php"
       ],
+      "build-common": [
+        "glue images/icons/games/ --img=images/ --scss=scss/sprites/ --retina",
+        "glue images/icons/platforms/ --img=images/ --scss=scss/sprites/ --retina",
+        "mv scss/sprites/games.scss scss/sprites/_games.scss",
+        "mv scss/sprites/platforms.scss scss/sprites/_platforms.scss",
+        "composer install --no-dev",
+        "npm install --production"
+      ],
+      "build-win":[
+        "if NOT EXIST css mkdir css",
+        "@build-common",
+        "if NOT EXIST vendor\\smarty\\smarty\\libs\\template_c mkdir vendor\\smarty\\smarty\\libs\\template_c"
+      ],
       "build": [
-        "cd site-update;./install.sh;cd .."
+        "mkdir css -p",
+        "@build-common",
+        "mkdir vendor/smarty/smarty/libs/template_c -p"
       ],
       "run": [
-        "php -S localhost:8000 dev-router.php & php dev-os.php"
+        "php -S localhost:8000"
       ],
       "develop": [
         "@build",

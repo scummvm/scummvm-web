@@ -17,9 +17,9 @@ class NewsPage extends Controller
     }
 
     /* Display the index page. */
-    public function index()
+    public function index($args)
     {
-        $filename = isset($_GET['d']) ? $_GET['d'] : null;
+        $filename = $args['date'];
 
         if ($filename != null) {
             if (strtolower($filename) == 'archive' || $filename == '') {
