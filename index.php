@@ -102,6 +102,11 @@ $router = new \AltoRouter();
 // Custom match for Compatability ID.
 $router->addMatchTypes(array('cId' => '(DEV)|[0-9\.]++'));
 
+// Redirect for unknowgame
+$router->map('GET', '/unknowngame?[*:query]', function( $query ) {
+    require __DIR__ . '/unknowngame.php';
+});
+
 foreach ($pages as $key => $value) {
     $router->map('GET', $key, $value);
     $router->map('GET', $key . '/', $value);
@@ -109,8 +114,12 @@ foreach ($pages as $key => $value) {
 
 $match = $router->match();
 if ($match) {
+  if( is_array($match) && is_callable( $match['target'] ) ) {
+    call_user_func_array( $match['target'], $match['params'] );
+  } else {
     $page = new $match['target']();
     return $page->index($match['params']);
+  }
 } else {
   $page = new \ScummVM\Pages\NewsPage();
   return $page->index(array());
