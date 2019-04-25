@@ -1,5 +1,5 @@
-<script type="text/javascript" src="/javascripts/jquery-1.3.2.min.js"></script>
-<script type="text/javascript" src="/javascripts/game_demos.js"></script>
+<script type="text/javascript" src="/js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="/js/game_demos.js"></script>
 
 {capture "intro"}
   <div class="row">
@@ -35,7 +35,7 @@
     <tbody>
     {foreach from=$group.demos item=demo}
       <tr class="{cycle values="color2, color0"}">
-        <td>						
+        <td>
           <a href="{$demo->getURL()}">{$demo->getName()}</a>
         </td>
         <td class="gameTarget">{$demo->getTarget()}</td>

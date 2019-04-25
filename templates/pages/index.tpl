@@ -123,7 +123,7 @@
 	</div>
 
 {foreach from=$js_files item=script}
-	<script src="/javascripts/{$script}"></script>
+	<script src="/js/{$script}"></script>
 {/foreach}
 
 	<script>
