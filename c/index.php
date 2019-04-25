@@ -8,7 +8,7 @@
     <body>
         <div class="container">
             <div class='header'>
-                <center><img src="/images/big-logo.png"/></center>
+                <center><img src="/images/scummvm_logo.png"/></center>
             </div>
             <div class="content">
                 <p>Now please enter this code in ScummVM:</p>
