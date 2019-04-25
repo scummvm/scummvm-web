@@ -36,7 +36,7 @@
 		</div>
 		<br>
 		<script>{$recommendedDownloadsJS}</script>
-		<script src="/javascripts/recommended_dl.js"></script>
+		<script src="/js/recommended_dl.js"></script>
 {/capture}
 
 {foreach from=$downloads item=dsection name=downloads_loop}
