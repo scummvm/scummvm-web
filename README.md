@@ -17,6 +17,7 @@ Before installing please make sure you have the following installed:
 * [Python & pip](https://www.python.org/) (2.7.9+/3.4+)
 * [Node.js & npm](https://nodejs.org/)
 * [Git](https://git-scm.com/)
+* [Glue](https://glue.readthedocs.io/en/latest/installation.html)
 
 ### Installing
 
