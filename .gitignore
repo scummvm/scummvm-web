@@ -8,7 +8,7 @@
 /vendor
 
 # CSS / SCSS
-/css
+/public_html/css
 .sass-cache/
 *.css.map
 *.sass.map
@@ -16,10 +16,10 @@
 /scss/sprites
 
 # Generated images
-/images/platforms.png
-/images/games.png
-/images/platforms@2x.png
-/images/games@2x.png
+/public_html/images/platforms.png
+/public_html/images/games.png
+/public_html/images/platforms@2x.png
+/public_html/images/games@2x.png
 
 # Generated lang ini
 /lang/*.ini

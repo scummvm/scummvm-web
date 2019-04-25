@@ -7,6 +7,6 @@
     "postcss-cli": "^6.1.1"
   },
   "scripts": {
-    "postinstall": "postcss ./css/*.css --use autoprefixer --no-map -r"
+    "postinstall": "postcss ./public_html/css/*.css --use autoprefixer --no-map -r"
   }
 }
