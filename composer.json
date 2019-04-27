@@ -1,63 +1,65 @@
 {
-    "name": "scummvm/web",
-    "description": "Scummvm.org main site",
-    "type": "project",
-    "authors": [
-        {
-            "name": "Matan Bareket",
-            "email": "mataniko@scummvm.org"
-        }
-    ],
-    "require": {
-        "leafo/scssphp": "^0.7.6",
-        "smarty/smarty": "^3.1",
-        "ezyang/htmlpurifier": "^4.10",
-        "altorouter/altorouter": "^1.2"
-    },
-    "scripts": {
-      "post-install-cmd": [
-        "pscss -f compressed ./scss/main.scss > ./public_html/css/main.css",
-        "pscss -f compressed ./scss/pages/_cloud-style.scss > ./public_html/css/cloud-style.css",
-        "pscss -f compressed ./scss/pages/_mirrorbrain.scss > ./public_html/css/mirrorbrain.css",
-        "php include/I18N.php"
-      ],
-      "build-common": [
-        "glue data/icons/games/ --img=public_html/images/ --scss=scss/sprites/ --retina",
-        "glue data/icons/platforms/ --img=public_html/images/ --scss=scss/sprites/ --retina",
-        "mv scss/sprites/games.scss scss/sprites/_games.scss",
-        "mv scss/sprites/platforms.scss scss/sprites/_platforms.scss",
-        "composer install --no-dev",
-        "npm install --production"
-      ],
-      "build-win":[
-        "if NOT EXIST public_html\\css mkdir public_html\\css",
-        "@build-common",
-        "if NOT EXIST templates\\compiled mkdir templates\\compiled"
-      ],
-      "build": [
-        "mkdir public_html/css -p",
-        "@build-common",
-        "mkdir templates/compiled -p"
-      ],
-      "run": [
-        "php -S localhost:8000 -t ./public_html"
-      ],
-      "develop": [
-        "@build",
-        "@run"
-      ],
-      "develop-win": [
-        "@build-win",
-        "@run"
-      ]
-    },
-    "require-dev": {
-        "phpstan/phpstan": "^0.11.1",
-        "squizlabs/php_codesniffer": "^3.4"
-    },
-    "autoload": {
-      "psr-4": {
-        "ScummVM\\": [ "include/", "public_html/index.php"]
+  "name": "scummvm/web",
+  "description": "Scummvm.org main site",
+  "type": "project",
+  "authors": [
+      {
+          "name": "Matan Bareket",
+          "email": "mataniko@scummvm.org"
       }
+  ],
+  "require": {
+      "leafo/scssphp": "^0.7.6",
+      "smarty/smarty": "^3.1",
+      "ezyang/htmlpurifier": "^4.10",
+      "altorouter/altorouter": "^1.2"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "pscss -f compressed ./scss/main.scss > ./public_html/css/main.css",
+      "pscss -f compressed ./scss/pages/_cloud-style.scss > ./public_html/css/cloud-style.css",
+      "pscss -f compressed ./scss/pages/_mirrorbrain.scss > ./public_html/css/mirrorbrain.css",
+      "php include/I18N.php"
+    ],
+    "build-common": [
+      "glue data/icons/games/ --img=images/ --scss=scss/sprites/ --retina",
+      "glue data/icons/platforms/ --img=images/ --scss=scss/sprites/ --retina",
+      "mv scss/sprites/games.scss scss/sprites/_games.scss",
+      "mv scss/sprites/platforms.scss scss/sprites/_platforms.scss",
+      "mv images/*.png public_html/images",
+      "rm -rf images",
+      "composer install --no-dev",
+      "npm install --production"
+    ],
+    "build-win":[
+      "if NOT EXIST public_html\\css mkdir public_html\\css",
+      "@build-common",
+      "if NOT EXIST templates\\compiled mkdir templates\\compiled"
+    ],
+    "build": [
+      "mkdir public_html/css -p",
+      "@build-common",
+      "mkdir templates/compiled -p"
+    ],
+    "run": [
+      "php -S localhost:8000 -t ./public_html"
+    ],
+    "develop": [
+      "@build",
+      "@run"
+    ],
+    "develop-win": [
+      "@build-win",
+      "@run"
+    ]
+  },
+  "require-dev": {
+      "phpstan/phpstan": "^0.11.1",
+      "squizlabs/php_codesniffer": "^3.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "ScummVM\\": [ "include/", "public_html/index.php"]
     }
+  }
 }
