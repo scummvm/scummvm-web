@@ -30,14 +30,14 @@ git clone https://github.com/scummvm/scummvm-web.git
 Then run
 
 ```
-composer develop
+composer develop[-win]
 ```
 
 This will run the build scripts and start a web server on port 8000.
 
-Additionally you can either build or run independently using:
+Additionally you can either build and run independently using:
 ```
-composer build
+composer build[-win]
 composer run
 ```
 respectively.

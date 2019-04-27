@@ -45,6 +45,10 @@
       "develop": [
         "@build",
         "@run"
+      ],
+      "develop-win": [
+        "@build-win",
+        "@run"
       ]
     },
     "require-dev": {
