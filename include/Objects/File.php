@@ -40,6 +40,8 @@ class File extends BasicObject
                 $url = DOWNLOADS_TOOLS_URL . $url;
             } elseif ($attributes['type'] == 'extras') {
                 $url = DOWNLOADS_EXTRAS_URL . $url;
+            } elseif ($attributes['type'] == 'daily')
+                $url = DOWNLOADS_DAILY_URL . $url;
             } else {
                 $url = DOWNLOADS_URL . $url;
             }
