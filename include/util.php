@@ -5,7 +5,7 @@
  * by Jeremy Newman <jnewman@dracowulf.com>
  *
  */
- 
+
 // format date
 function make_date ($time)
 {
@@ -46,11 +46,11 @@ function display_xml ($file, $mode = null)
     if (!$mode)
         return null;
     if (file_exists($file))
-    { 
+    {
       $fp = @fopen($file, "r");
       $data = fread($fp, filesize($file));
       @fclose($fp);
-      if (eregi("<" . $mode . ">(.*)</" . $mode . ">", $data, $out))
+      if (preg_match("/<" . $mode . ">(.*)</" . $mode . ">/i", $data, $out))
       {
 	  return $out[1];
       }
@@ -58,7 +58,7 @@ function display_xml ($file, $mode = null)
     else
     {
       return null;
-    }	
+    }
 }
 
 // get a list of files in a directory
@@ -71,16 +71,16 @@ function get_files ($dir, $filter = null)
     {
     	if ($filter)
 	{
-	    if(!eregi("(.+)\\.".$filter, $entry))
+	    if(!preg_match("/(.+)\\.".$filter ."/i", $entry))
 	        continue;
 	}
     	array_push($files, $entry);
     }
     closedir($d);
-    
+
     //sort dir
     sort($files);
-    
+
     return $files;
 }
 

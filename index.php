@@ -131,31 +131,32 @@ while (list($key,$item) = each($news))
 		@fclose($fp);
 
 		$news_date = "";
-		if (eregi("<DATE>(.*)</DATE>", $data, $out))
+		if (preg_match('/<DATE>(.*)<\/DATE>/i', $data, $out))
 		{
 			$news_date = $out[1];
 		}
 
+    //preg_match()
 		$news_author = "";
-		if (eregi("<AUTHOR>(.*)</AUTHOR>", $data, $out))
+		if (preg_match('/<AUTHOR>(.*)<\/AUTHOR>/i', $data, $out))
 		{
 			$news_author = "Posted by ".$out[1];
-		}
+    }
 
 		$news_title = "";
-		if (eregi("<NAME>(.*)</NAME>", $data, $out))
+		if (preg_match('/<NAME>(.*)<\/NAME>/i', $data, $out))
 		{
 			$news_title = $out[1];
 		}
 
 		$news_img = "";
-		if (eregi("<IMG>(.*)</IMG>", $data, $out))
+		if (preg_match('/<IMG>(.*)<\/IMG>/i', $data, $out))
 		{
 			$news_img = $out[1];
 		}
 
 		$news_body = "";
-		if (eregi("<BODY>(.*)</BODY>", $data, $out))
+		if (preg_match('/<BODY>(.*)<\/BODY>/is', $data, $out))
 		{
 			$news_body = $out[1];
 		}
