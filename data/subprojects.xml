@@ -16,7 +16,7 @@
 		<entries>
 			<file>
 				<category_icon>windows</category_icon>
-				<url extra_info="true" type="downloads">scummex-win32.exe</url>
+				<url extra_info="true" type="extras">ScummEx/scummex-win32.exe</url>
 				<name>Windows</name>
 				<type>daily</type>
 			</file>

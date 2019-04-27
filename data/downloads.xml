@@ -788,45 +788,39 @@
 			<entries>
 				<file>
 					<category_icon>windows</category_icon>
-					<url extra_info="true" type="downloads">scummvm-win32.exe</url>
+					<url extra_info="true" type="daily">scummvm-win32.exe</url>
 					<name>Win32 ScummVM Daily Snapshot</name>
-					<type>daily</type>
 					<extra_info>Provided by ScummVM Team member Travis 'Kirben' Howell, updated several times daily</extra_info>
 				</file>
 				<file>
 					<category_icon>windows</category_icon>
-					<url extra_info="true" type="downloads">scummvm-tools-win32.exe</url>
+					<url extra_info="true" type="daily">scummvm-tools-win32.exe</url>
 					<name>Win32 ScummVM Tools Daily Snapshot</name>
-					<type>daily</type>
 					<extra_info>Provided by ScummVM Team member Travis 'Kirben' Howell, updated several times daily</extra_info>
 				</file>
 <!--
 				<file>
 					<category_icon>debian</category_icon>
-					<url extra_info="true" type="downloads">scummvm_debian_i386.deb</url>
+					<url extra_info="true" type="daily">scummvm_debian_i386.deb</url>
 					<name>Debian i386 ScummVM Daily Snapshot</name>
-					<type>daily</type>
 					<extra_info>Provided by ScummVM Team member Pawel 'aquadran' Kolodziejski</extra_info>
 				</file>
 				<file>
 					<category_icon>debian</category_icon>
-					<url extra_info="true" type="downloads">scummvm_debian_amd64.deb</url>
+					<url extra_info="true" type="daily">scummvm_debian_amd64.deb</url>
 					<name>Debian x86_64 ScummVM Daily Snapshot</name>
-					<type>daily</type>
 					<extra_info>Provided by ScummVM Team member Pawel 'aquadran' Kolodziejski</extra_info>
 				</file>
 				<file>
 					<category_icon>ubuntu</category_icon>
-					<url extra_info="true" type="downloads">scummvm_ubuntu_i386.deb</url>
+					<url extra_info="true" type="daily">scummvm_ubuntu_i386.deb</url>
 					<name>Ubuntu i386 ScummVM Daily Snapshot</name>
-					<type>daily</type>
 					<extra_info>Provided by ScummVM Team member Pawel 'aquadran' Kolodziejski</extra_info>
 				</file>
 				<file>
 					<category_icon>ubuntu</category_icon>
 					<url extra_info="true" type="downloads">scummvm_ubuntu_amd64.deb</url>
 					<name>Ubuntu x86_64 ScummVM Daily Snapshot</name>
-					<type>daily</type>
 					<extra_info>Provided by ScummVM Team member Pawel 'aquadran' Kolodziejski</extra_info>
 				</file>
 -->
