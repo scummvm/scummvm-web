@@ -22,8 +22,8 @@
       "php include/I18N.php"
     ],
     "build-common": [
-      "glue data/icons/games/ --img=images/ --scss=scss/sprites/ --retina",
-      "glue data/icons/platforms/ --img=images/ --scss=scss/sprites/ --retina",
+      "glue public_html/images/icons/games/ --img=images/ --scss=scss/sprites/ --retina",
+      "glue public_html/images/icons/platforms/ --img=images/ --scss=scss/sprites/ --retina",
       "mv scss/sprites/games.scss scss/sprites/_games.scss",
       "mv scss/sprites/platforms.scss scss/sprites/_platforms.scss",
       "mv images/*.png public_html/images",
