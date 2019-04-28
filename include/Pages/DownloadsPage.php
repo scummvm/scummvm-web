@@ -67,7 +67,7 @@ class DownloadsPage extends Controller
                 'downloads' => $downloads,
                 'sections' => $sections,
                 'release_tools' => RELEASE_TOOLS,
-                'release_debian' => RELEASE_DEBIAN,
+                'release' => RELEASE,
                 'recommendedDownloadsJS' => $recommendedDownloadsJS
             )
         );
