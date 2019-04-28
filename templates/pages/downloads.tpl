@@ -52,7 +52,7 @@
     {/if}
 
       <div class="subhead-content">
-        {if $dsubsection->getNotes() != ''} {eval var=$dsubsection->getNotes()} {/if} {include file='components/list_items.tpl' list=$dsubsection->getItems() type='platforms'}
+        {if $dsubsection->getNotes() != ''} {'/\x7brelease\x7d/'|preg_replace:$release:{eval var=$dsubsection->getNotes()}} {/if} {include file='components/list_items.tpl' list=$dsubsection->getItems() type='platforms'}
       </div>
     {/foreach}
   {/capture}
