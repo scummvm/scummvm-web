@@ -30,3 +30,7 @@
 
 # Webhook files
 /site-update/webhook.log
+
+# Others
+public_html/frs
+public_html/appcasts
