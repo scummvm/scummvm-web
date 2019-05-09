@@ -12,7 +12,8 @@
       "leafo/scssphp": "^0.7.6",
       "smarty/smarty": "^3.1",
       "ezyang/htmlpurifier": "^4.10",
-      "altorouter/altorouter": "^1.2"
+      "altorouter/altorouter": "^1.2",
+    "piwik/device-detector": "^3.11"
   },
   "scripts": {
     "post-install-cmd": [
@@ -51,6 +52,9 @@
     "develop-win": [
       "@build-win",
       "@run"
+    ],
+    "lint": [
+      "phpcbf ./include"
     ]
   },
   "require-dev": {
