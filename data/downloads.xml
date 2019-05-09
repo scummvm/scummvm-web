@@ -41,6 +41,7 @@
 					<category_icon>fedora</category_icon>
 					<url>scummvm-{$release}-1.x86_64.rpm</url>
 					<name>Fedora 24+ x86 64bit package</name>
+          <user_agent>Fedora</user_agent>
 				</file>
 
 				<file>
@@ -52,6 +53,7 @@
 					<category_icon>debian</category_icon>
 					<url>scummvm_{$release}-stretch.1_amd64.deb</url>
 					<name>Debian 9 (stretch) x86 64bit package</name>
+          <user_agent>Debian</user_agent>
 				</file>
 <!--
 				<file>
@@ -140,6 +142,7 @@
 					<category_icon>psp2</category_icon>
 					<url>scummvm-{$release}-vita.vpk</url>
 					<name>PlayStation Vita package</name>
+          <user_agent>PlayStation Portable</user_agent>
 				</file>
 				<file>
 					<category_icon>android</category_icon>
@@ -212,7 +215,7 @@
 					<category_icon>iphone</category_icon>
 					<url>scummvm-{$release}-ios7.deb</url>
 					<name>iOS 7+ package</name>
-					<user_agent>like Mac OS X</user_agent>
+					<user_agent>iOS</user_agent>
 				</file>
 				<file>
 					<category_icon>webos</category_icon>
@@ -558,7 +561,7 @@
 					<category_icon>iphone</category_icon>
 					<url>1.9.0/scummvm-1.9.0-ios7.deb</url>
 					<name>1.9.0 iOS 7+ package</name>
-					<user_agent>like Mac OS X</user_agent>
+					<user_agent>iOS</user_agent>
 				</file>
 				<file>
 					<category_icon>gcw0</category_icon>

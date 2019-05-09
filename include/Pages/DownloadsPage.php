@@ -28,12 +28,14 @@ class DownloadsPage extends Controller
 
         foreach ($downloads as $dsection) {
             foreach ($dsection->getSubSections() as $dsubsection) {
-                $version = array_filter(
-                    $dsubsection->getItems(), function ($item) use ($os) {
-                        if ($item->getUserAgent() != "") {
-                            return preg_match("/({$item->getUserAgent()})/i", $os['name']);
+                $version = array_values(
+                    array_filter(
+                        $dsubsection->getItems(), function ($item) use ($os) {
+                            if ($item->getUserAgent() != "") {
+                                return preg_match("/({$item->getUserAgent()})/i", $os['name']);
+                            }
                         }
-                    }
+                    )
                 );
 
                 if ($version) {
