@@ -62,7 +62,7 @@ class I18N
                 );
             }
         } else {
-          // Update the base english i18n file
+            // Update the base english i18n file
             echo("Converting individual JSON files to I18N base file\n");
             $newsJson = new \stdClass();
             $news = $this->getAllNews($lang);

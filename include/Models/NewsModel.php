@@ -42,7 +42,8 @@ abstract class NewsModel extends BasicModel
                 continue;
             }
             if (!is_file(($fname = DIR_NEWS . "/$lang/" . basename($filename)))
-                || !is_readable($fname) || !($data = @file_get_contents($fname))) {
+                || !is_readable($fname) || !($data = @file_get_contents($fname))
+            ) {
                 if (!($data = @file_get_contents(DIR_NEWS . "/{$filename}"))) {
                     continue;
                 }
@@ -79,9 +80,11 @@ abstract class NewsModel extends BasicModel
         }
         global $lang;
         if (!is_file(($fname = DIR_NEWS . "/$lang/{$filename}.json"))
-            || !is_readable($fname) || !($data = @file_get_contents($fname))) {
+            || !is_readable($fname) || !($data = @file_get_contents($fname))
+        ) {
             if (!is_file(($fname = DIR_NEWS . "/{$filename}.json"))
-                || !is_readable($fname) || !($data = @file_get_contents($fname))) {
+                || !is_readable($fname) || !($data = @file_get_contents($fname))
+            ) {
                 throw new \ErrorException(self::FILE_NOT_FOUND);
             }
         }

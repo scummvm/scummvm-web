@@ -74,7 +74,8 @@ class File extends BasicObject
                 }
 
                 if ((is_file($fname . '.sha256') && is_readable($fname . '.sha256'))
-                && (@filemtime($fname . '.sha256') > @filemtime($fname)) ) {
+                    && (@filemtime($fname . '.sha256') > @filemtime($fname)) 
+                ) {
                     $this->extra_info['sha256'] = file_get_contents($fname . '.sha256');
                 } else {
                     $hash = hash_file('sha256', $fname);

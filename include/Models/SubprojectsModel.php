@@ -29,11 +29,13 @@ abstract class SubprojectsModel extends BasicModel
                     }
                 }
             }
-            $entries[] = new Subproject(array(
+            $entries[] = new Subproject(
+                array(
                 'name' => $value['name'],
                 'info' => $value['info'],
                 'downloads' => $downloads,
-            ));
+                )
+            );
         }
         return $entries;
     }

@@ -34,12 +34,13 @@ class Controller
         $this->smarty->setTemplateDir(SMARTY_DIR_TEMPLATE);
         $this->smarty->compile_id = $lang;
 
-        # First we read English, so all defaults are there
+        // First we read English, so all defaults are there
         $this->smarty->configLoad(DIR_LANG . "/lang.en.ini");
 
-        # Now we try to read translations
+        // Now we try to read translations
         if (is_file(($fname = DIR_LANG . "/lang.$lang.ini"))
-            && is_readable($fname)) {
+            && is_readable($fname)
+        ) {
             $this->smarty->configLoad($fname);
         }
 
@@ -64,7 +65,7 @@ class Controller
             $menus = MenuModel::getAllMenus();
         }
 
-        # Construct lang URL
+        // Construct lang URL
         $pageurl = preg_replace('/\?lang=[a-z]*$/', '', $_SERVER['REQUEST_URI']);
 
         /* Set up the common variables before displaying. */
@@ -79,7 +80,9 @@ class Controller
         $this->smarty->assign($vars);
     }
 
-    /** Smarty outputfilter, run just before displaying. */
+    /**
+     * Smarty outputfilter, run just before displaying. 
+     */
     public function outputFilter($string, $smarty)
     {
         /* Properly encode all ampersands as "&amp;". */
@@ -88,13 +91,17 @@ class Controller
         return $string;
     }
 
-    /** Formating of dates, registered as a modifier for Smarty templates. */
+    /**
+     * Formating of dates, registered as a modifier for Smarty templates. 
+     */
     public function dateFormatSmartyModifier($timestamp, $format)
     {
         return date($format, $timestamp);
     }
 
-    /** Formating of dateAs, registered as a modifier for Smarty templates. */
+    /**
+     * Formating of dateAs, registered as a modifier for Smarty templates. 
+     */
     public function dateLocalizedSmartyModifier($timestamp, $format)
     {
         if (strtoupper(substr(PHP_OS, 0, 3)) == 'WIN') {

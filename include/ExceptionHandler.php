@@ -1,7 +1,9 @@
 <?php
 namespace ScummVM;
 
-/** Handle uncaught exceptions. */
+/**
+ * Handle uncaught exceptions. 
+ */
 abstract class ExceptionHandler
 {
     private static $exception;

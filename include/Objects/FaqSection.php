@@ -13,9 +13,9 @@ class FaqSection extends BasicSection
     /**
      * FaqSection object constructor.
      *
-     * @param array $data list containing all qasection data
-     * @param int $section_number used in the TOC
-     * @param array $xref reference to xref map
+     * @param array $data           list containing all qasection data
+     * @param int   $section_number used in the TOC
+     * @param array $xref           reference to xref map
      */
     public function __construct($data, $section_number, &$xref)
     {

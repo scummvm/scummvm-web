@@ -15,10 +15,10 @@ class FaqEntry extends BasicObject
     /**
      * FaqEntry object constructor.
      *
-     * @param array $data list containing all qaentry data
-     * @param int $section_number the section this entry belongs too
-     * @param int $entry_number part of the href value incase it's not set
-     * @param array $xref reference to xref map
+     * @param array $data           list containing all qaentry data
+     * @param int   $section_number the section this entry belongs too
+     * @param int   $entry_number   part of the href value incase it's not set
+     * @param array $xref           reference to xref map
      */
     public function __construct($data, $section_number, $entry_number, &$xref)
     {

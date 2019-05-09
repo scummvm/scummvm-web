@@ -7,8 +7,8 @@ namespace ScummVM;
  * and will add anything found in a namespace as data to the current open
  * element.
  *
- * @access public
- * @author Fredrik Wendel
+ * @access  public
+ * @author  Fredrik Wendel
  * @version 1.0
  */
 class XMLParser
@@ -30,7 +30,7 @@ class XMLParser
      * Constructor.
      *
      * @access public
-     * @since 1.0
+     * @since  1.0
      */
     public function __construct()
     {
@@ -45,10 +45,10 @@ class XMLParser
      * clear the tree and remove nested single arrays and link the values to the
      * parent directly instead.
      *
-     * @param string $filename full path the XML file to parse
+     * @param  string $filename full path the XML file to parse
      * @return bool|array
      * @access public
-     * @since 1.0
+     * @since  1.0
      * @throws \ErrorException
      */
     public function parseByFilename($filename)
@@ -95,10 +95,10 @@ class XMLParser
      * Optionally it will also clear the tree and remove nested single arrays
      * and link the values to the parent directly instead.
      *
-     * @param string $xml the XML to parse
+     * @param  string $xml the XML to parse
      * @return bool|array
      * @access public
-     * @since 1.0
+     * @since  1.0
      * @throws \ErrorException
      */
     public function parseByData($xml)
@@ -143,11 +143,11 @@ class XMLParser
     /**
      * Handles new tags opening in the XML-document.
      *
-     * @param resource $parser XML parser resource
-     * @param string $name name of the tag
-     * @param array $attrs list of all attributes for the tag (if any)
+     * @param  resource $parser XML parser resource
+     * @param  string   $name   name of the tag
+     * @param  array    $attrs  list of all attributes for the tag (if any)
      * @access private
-     * @since 1.0
+     * @since  1.0
      */
     private function startElement($parser, $name, $attrs)
     {
@@ -170,7 +170,7 @@ class XMLParser
                 $data .= ">";
                 $this->getElement($parser, $data);
             }
-        /* If not we can just rock on. */
+            /* If not we can just rock on. */
         } else {
             if (!is_array($attrs) || (is_array($attrs) && count($attrs) == 0)) {
                 $element = null;
@@ -211,10 +211,10 @@ class XMLParser
     /**
      * Handles data between tags in the XML-document.
      *
-     * @param resource $parser XML parser resource
-     * @param mixed $data data found between tags
+     * @param  resource $parser XML parser resource
+     * @param  mixed    $data   data found between tags
      * @access private
-     * @since 1.0
+     * @since  1.0
      */
     private function getElement($parser, $data)
     {
@@ -224,10 +224,10 @@ class XMLParser
     /**
      * Handles tags closing in the XML-document.
      *
-     * @param resource $parser XML parser resource
-     * @param string $name name of the tag
+     * @param  resource $parser XML parser resource
+     * @param  string   $name   name of the tag
      * @access private
-     * @since 1.0
+     * @since  1.0
      */
     private function endElement($parser, $name)
     {
@@ -244,7 +244,7 @@ class XMLParser
                     $this->getElement($parser, "</{$name}>");
                 }
             }
-        /* Otherwise we can just add the data. */
+            /* Otherwise we can just add the data. */
         } else {
             $data = trim($this->data);
             if (!empty($data)) {
@@ -268,11 +268,11 @@ class XMLParser
      * array with just one element in it, the middle array will be removed.
      * It won't touch 'attributes' keys though.
      *
-     * @param array $array reference to the array tree
-     * @param string $parent name of the parent
-     * @param boolean $all_singles remove named single arrays or just 0 ones
+     * @param  array   $array       reference to the array tree
+     * @param  string  $parent      name of the parent
+     * @param  boolean $all_singles remove named single arrays or just 0 ones
      * @access private
-     * @since 1.0
+     * @since  1.0
      */
     private function simplifyArray(&$array, $parent = '', $all_singles = false)
     {

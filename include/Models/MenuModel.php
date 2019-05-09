@@ -17,11 +17,13 @@ abstract class MenuModel extends BasicModel
         $a = $parser->parseByFilename($fname);
         $entries = array();
         foreach ($a['menus']['group'] as $key => $value) {
-            $entries[] = new MenuItem(array(
+            $entries[] = new MenuItem(
+                array(
                 'name' => $value['name'],
                 'class' => $value['class'],
                 'link' => $value['link'],
-            ));
+                )
+            );
         }
         return $entries;
     }

@@ -39,7 +39,7 @@ abstract class BasicSection extends BasicObject
         return $this->anchor;
     }
 
-   /* Get the optional list of subsections. */
+    /* Get the optional list of subsections. */
     public function getSubSections()
     {
         return $this->subsections;

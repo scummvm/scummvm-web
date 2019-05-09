@@ -26,7 +26,8 @@ class Screenshot extends BasicObject
                     if (!isset($attr['from'])
                         || !isset($attr['to'])
                         || !isset($attr['format'])
-                        || !strstr($value['file'], '#n#')) {
+                        || !strstr($value['file'], '#n#')
+                    ) {
                         throw new \ErrorException('Invalid range format for ' . $value['file']);
                     }
                     $pat = str_replace("#n#", $attr['format'], $value['file']);

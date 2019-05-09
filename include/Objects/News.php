@@ -16,14 +16,12 @@ class News extends BasicObject
      * News object constructor that extracts the data from the JSON scheme
      * used. The format looks like this:
      *
-   * {
-   *    "title": "Article Title",
-   *    "content": "Your article content goes here",
-   *    "date": "UNIX timestamp",
-   *    "author": "Name"
-   * }
-     *
-     *
+     * {
+     *    "title": "Article Title",
+     *    "content": "Your article content goes here",
+     *    "date": "UNIX timestamp",
+     *    "author": "Name"
+     * }
      */
     public function __construct($data, $filename, $processContent = false)
     {
@@ -79,7 +77,7 @@ class News extends BasicObject
         return $this->filename;
     }
 
-  /* Get the News link. */
+    /* Get the News link. */
     public function getLink()
     {
         return URL_BASE . 'news/' . substr($this->filename, 0, -5);

@@ -21,9 +21,11 @@ class ScreenshotsPage extends Controller
         $category = $args['category'];
         $game = $args['game'];
 
-        $this->addJSFiles(array(
-          'baguetteBox.min.js'
-      ));
+        $this->addJSFiles(
+            array(
+            'baguetteBox.min.js'
+            )
+        );
 
         if (!empty($category)) {
             return $this->getCategory($category, $game);
