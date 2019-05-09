@@ -3,16 +3,16 @@
   "description": "Scummvm.org main site",
   "type": "project",
   "authors": [
-      {
-          "name": "Matan Bareket",
-          "email": "mataniko@scummvm.org"
-      }
+    {
+      "name": "Matan Bareket",
+      "email": "mataniko@scummvm.org"
+    }
   ],
   "require": {
-      "leafo/scssphp": "^0.7.6",
-      "smarty/smarty": "^3.1",
-      "ezyang/htmlpurifier": "^4.10",
-      "altorouter/altorouter": "^1.2",
+    "leafo/scssphp": "^0.7.6",
+    "smarty/smarty": "^3.1",
+    "ezyang/htmlpurifier": "^4.10",
+    "altorouter/altorouter": "^1.2",
     "piwik/device-detector": "^3.11"
   },
   "scripts": {
@@ -32,7 +32,7 @@
       "composer install --no-dev",
       "npm install --production"
     ],
-    "build-win":[
+    "build-win": [
       "if NOT EXIST public_html\\css mkdir public_html\\css",
       "@build-common",
       "if NOT EXIST templates\\compiled mkdir templates\\compiled"
@@ -58,12 +58,15 @@
     ]
   },
   "require-dev": {
-      "phpstan/phpstan": "^0.11.1",
-      "squizlabs/php_codesniffer": "^3.4"
+    "phpstan/phpstan": "^0.11.1",
+    "squizlabs/php_codesniffer": "^3.4"
   },
   "autoload": {
     "psr-4": {
-      "ScummVM\\": [ "include/", "public_html/index.php"]
+      "ScummVM\\": [
+        "include/",
+        "public_html/index.php"
+      ]
     }
   }
 }

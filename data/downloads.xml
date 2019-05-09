@@ -41,7 +41,7 @@
 					<category_icon>fedora</category_icon>
 					<url>scummvm-{$release}-1.x86_64.rpm</url>
 					<name>Fedora 24+ x86 64bit package</name>
-          <user_agent>Fedora</user_agent>
+					<user_agent>Fedora</user_agent>
 				</file>
 
 				<file>
@@ -53,7 +53,7 @@
 					<category_icon>debian</category_icon>
 					<url>scummvm_{$release}-stretch.1_amd64.deb</url>
 					<name>Debian 9 (stretch) x86 64bit package</name>
-          <user_agent>Debian</user_agent>
+					<user_agent>Debian</user_agent>
 				</file>
 <!--
 				<file>
@@ -142,7 +142,7 @@
 					<category_icon>psp2</category_icon>
 					<url>scummvm-{$release}-vita.vpk</url>
 					<name>PlayStation Vita package</name>
-          <user_agent>PlayStation Portable</user_agent>
+					<user_agent>PlayStation Portable</user_agent>
 				</file>
 				<file>
 					<category_icon>android</category_icon>
@@ -779,12 +779,12 @@
 			<notes>
 				<h:p>
 					<h:b>{#downloadsDailyNote1#}</h:b> {#downloadsDailyNote2#}
-    			</h:p>
+					</h:p>
 				<h:p>
-				  {#downloadsDailyLink1#} {#downloadsDailyLink2#}
+					{#downloadsDailyLink1#} {#downloadsDailyLink2#}
 				</h:p>
 				<h:p>
-				  View the <h:a href="https://github.com/scummvm/scummvm/commits">ChangeLog</h:a> to see the latest updates of ScummVM.
+					View the <h:a href="https://github.com/scummvm/scummvm/commits">ChangeLog</h:a> to see the latest updates of ScummVM.
 				</h:p>
 				<h:p>{#downloadsDailyLink3#}</h:p>
 			</notes>
