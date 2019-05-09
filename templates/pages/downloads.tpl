@@ -22,7 +22,6 @@
 {/capture}
 
 {capture "recommendedDownload"}
-{$recommendedDownload}
 		<div id="recommended-download" class="{($recommendedDownload) ? 'visible':'hidden'}">
 			<div class="subhead">{#downloadsBadge#}</div>
 			<div class="subhead-content">
@@ -30,7 +29,7 @@
 					<a id="downloadButton" href={$recommendedDownload.url}>
 						<img src="images/scummvm.png" alt="Download ScummVM icon">
 						<div class="downloadText">Download ScummVM</div>
-						<div id="downloadDetails">Version {$recommendedDownload.ver} &nbsp;&#8226;&nbsp; {$recommendedDownload.platform} &nbsp;&#8226;&nbsp; {$recommendedDownload.desc}</div>
+						<div id="downloadDetails">Version {$recommendedDownload.ver} • {$recommendedDownload.platform} • {$recommendedDownload.desc}</div>
 					</a>
 				</div>
 			</div>
