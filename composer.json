@@ -38,9 +38,9 @@
       "if NOT EXIST templates\\compiled mkdir templates\\compiled"
     ],
     "build": [
-      "mkdir public_html/css -p",
+      "mkdir -p public_html/css",
       "@build-common",
-      "mkdir templates/compiled -p"
+      "mkdir -p templates/compiled"
     ],
     "run": [
       "php -S localhost:8000 -t ./public_html"
