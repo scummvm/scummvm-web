@@ -908,6 +908,11 @@
 					<description>: Real-Time Software MIDI Synthesizer</description>
 				</link>
 				<link>
+					<name>Timidity</name>
+					<url>http://libtimidity.sourceforge.net/</url>
+					<description>: MIDI to WAVE converter library</description>
+				</link>
+				<link>
 					<name>FreeType</name>
 					<url>http://www.freetype.org/</url>
 					<description>: Font rendering</description>
