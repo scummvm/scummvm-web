@@ -1,4 +1,9 @@
 {capture "content"}
+  <div class="subhead">{#contactDiscordHeader#}</div>
+  <div class="subhead-content">
+    {#contactDiscord#}
+  </div>
+
   <div class="subhead">{#contactIRCHeader#}</div>
   <div class="subhead-content">
     {#contactIRC#}

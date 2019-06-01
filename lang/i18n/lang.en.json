@@ -27,6 +27,8 @@
     "contactTitle": "Contact",
     "contactContentTitle": "Contact",
     "contactIntro": "<p><b>Please do not contact the team for questions about using ScummVM. Instead use the <a href=\"http://forums.scummvm.org/\">forums</a> or the <a href=\"http://bugs.scummvm.org/\">bug reporting system</a>!</b></p>",
+    "contactDiscordHeader": "Discord",
+    "contactDiscord": "<p>Join us on Discord! No matter if you just want to hang around with the ScummVM community or if you want to discuss the latest development, our <a href=\"https://discord.gg/5D8yTtF\">Discord Server</a> is the place to go.",
     "contactIRCHeader": "IRC channel",
     "contactIRC": "<p>The #scummvm IRC channel on <a href=\"http://freenode.net/irc_servers.shtml\">irc.freenode.net</a> is also a good place to ask questions. Many ScummVM developers hang out there regularly, as well as many ScummVM users. You will need a password to join the channel, which is set to \"scummvm\". This is to prevent general spambots.</p>",
     "contactForumsHeader": "Forums",
