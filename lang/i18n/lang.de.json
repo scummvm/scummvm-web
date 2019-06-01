@@ -74,7 +74,7 @@
     "downloadsBinaries": "Programmdateien für {release}",
     "downloadsBinariesNote1": "Für eine Liste mit Änderungen seit der vorherigen Version,",
     "downloadsBinariesNote2": "beachten Sie bitte die Veröffentlichungshinweise",
-    "downloadsBinariesNote3": "{release_debian} kann mit 'apt-get' in Debian unstable (sid) installiert werden.",
+    "downloadsBinariesNote3": "{release} ist auch in den Software-Repositories vieler GNU/Linux-Distributionen enthalten.",
     "downloadsSourceCode": "Quellcode für {release}",
     "downloadsTools": "Tools für {release_tools}",
     "downloadsOldBinaries": "Ältere Versionen (nicht mehr unterstützt)",
@@ -200,5 +200,6 @@
     "menuMiscContact": "Kontakt",
     "menuMiscLinks": "Links",
     "feedAtomTitle": "ScummVM-Nachrichten",
-    "feedAtomDescription": "ScummVM ist ein plattformunabhängiger Interpreter für verschiedene Spiele-Engines bekannter Point-and-Click-Adventures. ScummVM unterstützt alle SCUMM-basierten Adventures von LucasArts, Simon the Sorcerer 1&amp;2 von AdventureSoft, Beneath a Stell Sky und Broken Sword I &amp; II von Revolution sowie viele weitere mehr."
+    "feedAtomDescription": "ScummVM ist ein plattformunabhängiger Interpreter für verschiedene Spiele-Engines bekannter Point-and-Click-Adventures. ScummVM unterstützt alle SCUMM-basierten Adventures von LucasArts, Simon the Sorcerer 1&amp;2 von AdventureSoft, Beneath a Stell Sky und Broken Sword I &amp; II von Revolution sowie viele weitere mehr.",
+    "downloadEngineData": "Zusätzliche Spiele-Daten"
 }
