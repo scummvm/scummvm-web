@@ -28,7 +28,7 @@
     "contactContentTitle": "Kontakt",
     "contactIntro": "<p><b>Bitte kontaktieren Sie das Team nicht wegen Fragen zur Verwendung von ScummVM. Stattdessen sollten Sie das englischsprachige <a href=\"http://forums.scummvm.org/\">Forum</a> oder <a href=\"http://bugs.scummvm.org/\">den Bug Tracker (System zum Einsenden von Fehlermeldungen)</a> verwenden!</b></p>",
     "contactIRCHeader": "IRC-Channel",
-    "contactIRC": "<p>Der IRC-Channel #scummvm auf <a href=\"http://freenode.net/irc_servers.shtml\">irc.freenode.net</a> ist ebenfalls ein guter Ort, um Fragen zu stellen. Viele ScummVM-Entwickler und ScummVM-Anwender sind dort regelmäßig anwesend. Sie benötigen ein Passwort, um dem Kanal beizutreten. Das Passwort lautet \"scummvm\". Dies soll allgemeine Spambots verhindern.</p>",
+    "contactIRC": "<p>Der IRC-Channel #scummvm auf <a href=\"http://freenode.net/l\">irc.freenode.net</a> ist ebenfalls ein guter Ort, um Fragen zu stellen. Viele ScummVM-Entwickler und ScummVM-Anwender sind dort regelmäßig anwesend.",
     "contactForumsHeader": "Foren",
     "contactForums": "<p>Wir bieten verschiedene englischsprachige <a href=\"http://forums.scummvm.org/\">Foren</a> an. Verwenden Sie das <a href=\"http://forums.scummmv.org/viewforum.php?f=2\">Hilfe-Forum</a>, wenn Probleme während der Verwendung von ScummVM auftreten. Das <a href=\"http://forums.scummmvm.org/viewforum.php?f=1\">allgemeine Diskussionsforum</a> ist, wie der Name schon sagt, für allgemeine Diskussionen im Zusammenhang mit ScummVM vorgesehen. Zusätzlich gibt es noch einige plattformspezifische Foren und <a href=\"http://forums.scummvm.org/viewforum.php?f=8\">den Schrottplatz</a>. </p><p><b>Vergessen Sie bitte nicht, die <a href=\"http://forums.scummvm.org/viewtopic.php?t=17\">Forenregeln</a> zu lesen, bevor Sie einen Eintrag verfassen.</b></p>",
     "contactTrackersHeader": "Fehlermeldungen, Anfragen, Korrekturen",
@@ -201,5 +201,7 @@
     "menuMiscLinks": "Links",
     "feedAtomTitle": "ScummVM-Nachrichten",
     "feedAtomDescription": "ScummVM ist ein plattformunabhängiger Interpreter für verschiedene Spiele-Engines bekannter Point-and-Click-Adventures. ScummVM unterstützt alle SCUMM-basierten Adventures von LucasArts, Simon the Sorcerer 1&amp;2 von AdventureSoft, Beneath a Stell Sky und Broken Sword I &amp; II von Revolution sowie viele weitere mehr.",
-    "downloadEngineData": "Zusätzliche Spiele-Daten"
+    "downloadEngineData": "Zusätzliche Spiele-Daten",
+    "contactDiscordHeader": "Discord",
+    "contactDiscord": "<p>Triff uns auf Discord! Ganz gleich, ob Du dich einfach zwanglos mit der ScummVM-Gemeinschaft unterhalten oder auch die aktuelle Entwicklung von ScummVM diskutieren möchtest - unser <a href=\"https://discord.gg/5D8yTtF\">Discord-Server</a> ist der richtige Ort dazu."
 }
