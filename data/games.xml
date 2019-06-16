@@ -402,5 +402,17 @@
 			</entries>
 		</subsection>
 
+		<subsection>
+			<title>Blade Runner</title>
+			<anchor>bladerunner</anchor>
+			<entries>
+				<file>
+					<category_icon>flac</category_icon>
+					<url type="extras">Blade Runner/Blade_Runner_Subtitles-v2.zip</url>
+					<name>Blade Runner Subtitles (English, Subtitles AddOn)</name>
+				</file>
+			</entries>
+		</subsection>
+
 	</section>
 </downloads>
