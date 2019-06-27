@@ -93,7 +93,7 @@ $pages = array(
     '/presssnowberry'                        => '\ScummVM\Pages\PressSnowberryPage', // HACK
     '/screenshots'                           => '\ScummVM\Pages\ScreenshotsPage',
     '/screenshots/[a:category]'              => '\ScummVM\Pages\ScreenshotsPage',
-    '/screenshots/[a:category]/[a:game]'     => '\ScummVM\Pages\ScreenshotsPage',
+    '/screenshots/[a:category]/[:game]'      => '\ScummVM\Pages\ScreenshotsPage',
     '/subprojects'                           => '\ScummVM\Pages\SubprojectsPage',
 );
 
