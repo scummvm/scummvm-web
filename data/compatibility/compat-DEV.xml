@@ -684,9 +684,18 @@
 				</notes>
 			</game>
 			<game>
-				<name>Hoyle Classic Games/Bridge/Children's Collection/Solitaire</name>
+				<name>Hoyle Classic Games/Bridge/Children's Collection</name>
 				<target>hoyle5</target>
-				<support_level>broken</support_level>
+				<support_level>good</support_level>
+				<notes>
+					- Windows versions are supported by this target
+					- The poker game of the Hoyle Classic Games collection is not yet supported
+				</notes>
+			</game>
+			<game>
+				<name>Hoyle Solitaire</name>
+				<target>hoyle5solitaire</target>
+				<support_level>good</support_level>
 				<notes>
 					- Windows versions are supported by this target
 				</notes>
@@ -958,7 +967,7 @@
 			<game>
 				<name>Quest for Glory 4</name>
 				<target>qfg4</target>
-				<support_level>broken</support_level>
+				<support_level>good</support_level>
 				<notes>
 					- DOS and Windows versions are supported by this target
 				</notes>
