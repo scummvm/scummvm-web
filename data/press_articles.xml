@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <articles>
 	<article>
+		<url>https://www.vice.com/en_us/article/xwnmjq/dedicated-fans-spent-8-years-making-the-1997-blade-runner-game-run-on-a-modern-pc</url>
+		<name>Dedicated Fans Spent 8 Years Making the 1997 &apos;Blade Runner&apos; Game Run on a Modern PC</name>
+		<posted>VICE, 17 June 2019</posted>
+	</article>
+	<article>
 		<url>https://blog.github.com/2018-06-25-preserving-and-playing-classic-point-and-click-adventure-games-with-scummvm</url>
 		<name>Preserving and playing classic point-and-click adventure games with ScummVM</name>
 		<posted>Github Blog, 25 June 2018</posted>
