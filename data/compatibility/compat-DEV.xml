@@ -1090,6 +1090,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Blade Runner</name>
+				<target>bladerunner</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable.
+				</notes>
+			</game>
+			<game>
 				<name>Blue Force</name>
 				<target>blueforce</target>
 				<support_level>good</support_level>
