@@ -1417,7 +1417,7 @@
 			<name>Blade Runner</name>
 			<category>blade</category>
 			<image>
-				<file>westwood/bladerunner/bladerunner-#n#</file>
+				<file>westwood/bladerunner/bladerunner-win-en-#n#</file>
 				<range from="1" to="8" format="%02d" />
 				<caption>Blade Runner (Windows/English)</caption>
 			</image>
