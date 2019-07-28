@@ -1413,6 +1413,15 @@
 				<caption>The Legend of Kyrandia: Malcolm's Revenge (DOS German)</caption>
 			</image>
 		</game>
+		<game>
+			<name>Blade Runner</name>
+			<category>blade</category>
+			<image>
+				<file>westwood/bladerunner/bladerunner-#n#</file>
+				<range from="1" to="8" format="%02d" />
+				<caption>Blade Runner (Windows/English)</caption>
+			</image>
+		</game>
 	</group>
 	<group>
 		<title>Wintermute engine games</title>
