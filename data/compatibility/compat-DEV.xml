@@ -1273,7 +1273,39 @@
 					Game is completable<h:br />- DOS and PC-9821 versions are supported
 				</notes>
 			</game>
-			<game>
+      <game>
+        <name>Might and Magic IV: Clouds of Xeen</name>
+        <target>cloudsofxeen</target>
+        <support_level>good</support_level>
+        <notes>
+          Game is completable<h:br />- DOS English version is supported
+        </notes>
+      </game>
+      <game>
+        <name>Might and Magic V: Dark Side of Xeen</name>
+        <target>darksideofxeen</target>
+        <support_level>good</support_level>
+        <notes>
+          Game is completable<h:br />- DOS English version is supported
+        </notes>
+      </game>
+      <game>
+        <name>Might and Magic: World of Xeen</name>
+        <target>worldofxeen</target>
+        <support_level>good</support_level>
+        <notes>
+          Game is completable<h:br />- Both DOS English text and talkie versions are supported
+        </notes>
+      </game>
+      <game>
+        <name>Might and Magic: Swords of Xeen</name>
+        <target>swordsofxeen</target>
+        <support_level>good</support_level>
+        <notes>
+          Game is completable<h:br />- DOS version is supported
+        </notes>
+      </game>
+      <game>
 				<name>Mortville Manor</name>
 				<target>mortevielle</target>
 				<support_level>untested</support_level>
