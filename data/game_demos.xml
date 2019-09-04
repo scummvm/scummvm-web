@@ -1705,6 +1705,26 @@
 				<target>hopkins</target>
 			</demo>
 			<demo>
+				<name>Hyperspace Delivery Boy! (Linux demo)</name>
+				<url>/frs/demos/hdb/hdb-demo-linux.zip</url>
+				<target>hdb</target>
+			</demo>
+			<demo>
+				<name>Hyperspace Delivery Boy! (Windows demo)</name>
+				<url>/frs/demos/hdb/hdb-demo-win.zip</url>
+				<target>hdb</target>
+			</demo>
+			<demo>
+				<name>Hyperspace Delivery Boy! (PocketPC demo)</name>
+				<url>/frs/demos/hdb/hdb-demo-ppc.zip</url>
+				<target>hdb</target>
+			</demo>
+			<demo>
+				<name>Hyperspace Delivery Boy! (Handango PocketPC demo)</name>
+				<url>/frs/demos/hdb/hdb-demo-ppc-alt.zip</url>
+				<target>hdb</target>
+			</demo>
+			<demo>
 				<name>I Have No Mouth And I Must Scream (DOS demo)</name>
 				<url>/frs/demos/saga/ihnm-dos-demo-en.zip</url>
 				<target>ihnm</target>

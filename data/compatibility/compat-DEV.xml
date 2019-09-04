@@ -1250,6 +1250,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Hyperspace Delivery Boy!</name>
+				<target>hdb</target>
+				<support_level>untested</support_level>
+				<notes>
+					Game is completable<h:br />- Linux, Windows and PocketPC versions are supported by this target
+				</notes>
+			</game>
+			<game>
 				<name>I Have No Mouth, and I Must Scream</name>
 				<target>ihnm</target>
 				<support_level>good</support_level>
