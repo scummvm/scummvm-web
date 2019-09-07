@@ -2076,7 +2076,7 @@
 			</image>
 			<image>
 				<file>other/myst/myst-win-fr-#n#</file>
-				<range from="1" to="4" format="%02d" />
+				<range from="1" to="4" format="%d" />
 				<caption>Myst (Masterpiece Edition/Windows/French)</caption>
 			</image>
 			<image>
