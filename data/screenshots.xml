@@ -1413,15 +1413,6 @@
 				<caption>The Legend of Kyrandia: Malcolm's Revenge (DOS German)</caption>
 			</image>
 		</game>
-		<game>
-			<name>Blade Runner</name>
-			<category>blade</category>
-			<image>
-				<file>westwood/bladerunner/bladerunner-win-en-#n#</file>
-				<range from="1" to="8" format="%02d" />
-				<caption>Blade Runner (Windows/English)</caption>
-			</image>
-		</game>
 	</group>
 	<group>
 		<title>Wintermute engine games</title>
@@ -2082,6 +2073,11 @@
 				<file>other/myst/myst-win-de-#n#</file>
 				<range from="1" to="21" format="%02d" />
 				<caption>Myst (Masterpiece Edition/Windows/German)</caption>
+			</image>
+			<image>
+				<file>other/myst/myst-win-fr-#n#</file>
+				<range from="1" to="4" format="%02d" />
+				<caption>Myst (Masterpiece Edition/Windows/French)</caption>
 			</image>
 			<image>
 				<file>other/riven/riven-win-en-#n#</file>
