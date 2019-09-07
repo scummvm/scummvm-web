@@ -2031,6 +2031,15 @@
 				<caption>Touch&eacute;: The Adventures of the Fifth Musketeer (French)</caption>
 			</image>
 		</game>
+		<game>
+			<name>Versailles 1685</name>
+			<category>versailles</category>
+			<image>
+				<file>other/versailles/versailles-#n#</file>
+				<range from="1" to="5" format="%02d" />
+				<caption>Versailles 1685</caption>
+			</image>
+		</game>
 	</group>
 	<group>
 		<title>Animation Magic games</title>
