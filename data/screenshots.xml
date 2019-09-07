@@ -703,6 +703,11 @@
 				<caption>Broken Sword: The Shadow of the Templars (PlayStation German)</caption>
 			</image>
 			<image>
+				<file>revolution/sword/sword1psx-fr-#n#</file>
+				<range from="1" to="3" format="%d" />
+				<caption>Broken Sword: The Shadow of the Templars (PlayStation French)</caption>
+			</image>
+			<image>
 				<file>revolution/sword/scummvm_2_0_#n#</file>
 				<range from="2" to="3" format="%d" />
 				<caption>Broken Sword II: The Smoking Mirror</caption>
