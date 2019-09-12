@@ -1354,6 +1354,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>The Prince and the Coward</name>
+				<target>prince</target>
+				<support_level>untested</support_level>
+				<notes>
+					Game is completable<h:br />- Polish, German and Russian versions are supported by this target.
+				</notes>
+			</game>
+			<game>
 				<name>Rex Nebular and the Cosmic Gender Bender</name>
 				<target>nebular</target>
 				<support_level>untested</support_level>
