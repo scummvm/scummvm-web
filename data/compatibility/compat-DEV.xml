@@ -1314,6 +1314,22 @@
         </notes>
       </game>
       <game>
+        <name>Mission Supernova Teil 1: Das Schicksal des Horst Hummel</name>
+        <target>msn1</target>
+        <support_level>good</support_level>
+        <notes>
+          Game is completable
+        </notes>
+      </game>
+      <game>
+        <name>Mission Supernova Teil 2: Der Doppelgänger</name>
+        <target>msn2</target>
+        <support_level>good</support_level>
+        <notes>
+          Game is completable
+        </notes>
+      </game>
+      <game>
 				<name>Mortville Manor</name>
 				<target>mortevielle</target>
 				<support_level>untested</support_level>
