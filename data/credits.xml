@@ -312,6 +312,14 @@
 				</person>
 			</group>
 			<group>
+				<name>Chewy</name>
+				<person>
+					<name>Filippos Karapetis</name>
+					<alias>[md5]</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>Cine</name>
 				<person>
 					<name>Vincent Hamm</name>
@@ -369,6 +377,42 @@
 				</person>
 			</group>
 			<group>
+				<name>Director</name>
+				<person>
+					<name>Eugene Sandulenko</name>
+					<alias>sev</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Dmitry Iskrich</name>
+					<alias></alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Steven Hoefel</name>
+					<alias></alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Tobia Tesan</name>
+					<alias></alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>DM</name>
+				<person>
+					<name>Arnaud Boutonn&eacute;</name>
+					<alias>Strangerke</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Bendeg&uacute;z Nagy</name>
+					<alias>WinterGrascph</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>Draci</name>
 				<person>
 					<name>Denis Kasak</name>
@@ -396,19 +440,6 @@
 				<person>
 					<name>Thierry Crozat</name>
 					<alias>criezy</alias>
-					<description></description>
-				</person>
-			</group>
-			<group>
-				<name>DM</name>
-				<person>
-					<name>Arnaud Boutonn&eacute;</name>
-					<alias>Strangerke</alias>
-					<description></description>
-				</person>
-				<person>
-					<name>Bendeg&uacute;z Nagy</name>
-					<alias>WinterGrascph</alias>
 					<description></description>
 				</person>
 			</group>
@@ -536,6 +567,19 @@
 				</person>
 			</group>
 			<group>
+				<name>HDB</name>
+				<person>
+					<name>Eugene Sandulenko</name>
+					<alias>sev</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Nipun Garg</name>
+					<alias>nipung</alias>
+					<description>GSoC student</description>
+				</person>
+			</group>
+			<group>
 				<name>Hopkins</name>
 				<person>
 					<name>Arnaud Boutonn&eacute;</name>
@@ -649,11 +693,27 @@
 				</person>
 			</group>
 			<group>
+				<name>Lilliput</name>
+				<person>
+					<name>Arnaud Boutonn&eacute;</name>
+					<alias>Strangerke</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>Lure</name>
 				<person>
 					<name>Paul Gilbert</name>
 					<alias>dreammaster</alias>
 					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>MacVenture</name>
+				<person>
+					<name>Borja Lorente</name>
+					<alias>blorente</alias>
+					<description>GSoC student</description>
 				</person>
 			</group>
 			<group>
@@ -778,6 +838,27 @@
 					<name>Matthew Hoops</name>
 					<alias>clone2727</alias>
 					<description>(retired)</description>
+				</person>
+			</group>
+			<group>
+				<name>Pink</name>
+				<person>
+					<name>Andrei Prykhodko</name>
+					<alias>whiterandrek</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Eugene Sandulenko</name>
+					<alias>sev</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>Plumbers</name>
+				<person>
+					<name>Retro-Junk;</name>
+					<alias>bambarbee</alias>
+					<description></description>
 				</person>
 			</group>
 			<group>
@@ -988,7 +1069,7 @@
 				</person>
 			</group>
 			<group>
-				<name>Sword25</name>
+				<name>Sword2.5</name>
 				<person>
 					<name>Torbj&ouml;rn Andersson</name>
 					<alias>eriktorbjorn</alias>
@@ -1162,6 +1243,14 @@
 				<person>
 					<name>Paul Gilbert</name>
 					<alias>dreammaster</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
+				<name>WAGE</name>
+				<person>
+					<name>Eugene Sandulenko</name>
+					<alias>sev</alias>
 					<description></description>
 				</person>
 			</group>
