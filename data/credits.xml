@@ -934,6 +934,24 @@
 				</person>
 			</group>
 			<group>
+				<name>Supernova</name>
+				<person>
+					<name>Joseph-Eugene Winzer</name>
+					<alias>Joefish</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Jarom&iacute;r Wysoglad</name>
+					<alias>Vyzygold</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Thierry Crozat</name>
+					<alias>criezy</alias>
+					<description></description>
+				</person>
+			</group>
+			<group>
 				<name>Sword1</name>
 				<person>
 					<name>Fabio Battaglia</name>
@@ -1252,6 +1270,11 @@
 				<person>
 					<name>Vincent B&eacute;nony</name>
 					<alias>bSr43</alias>
+					<description></description>
+				</person>
+				<person>
+					<name>Thierry Crozat</name>
+					<alias>criezy</alias>
 					<description></description>
 				</person>
 			</group>
@@ -1744,7 +1767,7 @@
 				</person>
 			</group>
 			<group>
-				<name>Mac OS X</name>
+				<name>macOS</name>
 				<person>
 					<name>Max Horn</name>
 					<alias>Fingolfin</alias>
@@ -2094,6 +2117,19 @@
 					<name>Thierry Crozat</name>
 					<alias>criezy</alias>
 					<description>Improve English translation</description>
+				</person>
+			</group>
+			<group>
+				<name>Supernova</name>
+				<person>
+					<name>Joseph-Eugene Winzer</name>
+					<alias>Joefish</alias>
+					<description>English translation</description>
+				</person>
+				<person>
+					<name>Thierry Crozat</name>
+					<alias>criezy</alias>
+					<description>English translation</description>
 				</person>
 			</group>
 		</subsection>
@@ -2578,5 +2614,7 @@
 		<paragraph>Bob Bell, Michel Kripalani, Tommy Yune, from Presto Studios for providing the source code of The Journeyman Project: Pegasus Prime.</paragraph>
 		<paragraph>Electronic Arts IP Preservation Team, particularly Stefan Serbicki, and Vasyl Tsvirkunov of Electronic Arts for providing the source code of the two Lost Files of Sherlock Holmes games. James M. Ferguson and Barry Duncan for their tenacious efforts to recover the sources.</paragraph>
 		<paragraph>The mindFactory team for writing Broken Sword 2.5, a splendid fan-made sequel, and for sharing the source code with us.</paragraph>
+		<paragraph>John Romero for sharing the source code of Hyperspace Delivery Boy! with us.</paragraph>
+		<paragraph>Steffen Dingel for sharing the source code of the Mission Supernova game with us.</paragraph>
 	</section>
 </credits>
