@@ -1448,6 +1448,7 @@
 			</image>
 			<image>
 				<file>westwood/bladerunner/bladerunner-win-fr-#n#</file>
+				<range from="1" to="25" format="%02d" />
 				<caption>Blade Runner (Windows/French)</caption>
 			</image>
 		</game>
