@@ -1451,6 +1451,11 @@
 				<range from="1" to="25" format="%02d" />
 				<caption>Blade Runner (Windows/French)</caption>
 			</image>
+			<image>
+				<file>westwood/bladerunner/bladerunner-final-win-en-#n#</file>
+				<range from="1" to="6" format="%02d" />
+				<caption>Blade Runner with restored content (Windows/English)</caption>
+			</image>
 		</game>
 	</group>
 	<group>
