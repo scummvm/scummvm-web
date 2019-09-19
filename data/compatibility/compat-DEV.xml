@@ -1178,6 +1178,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Duckman: The Graphic Adventures of a Private Dick</name>
+				<target>duckman</target>
+				<support_level>untested</support_level>
+				<notes>
+					Game is completable<h:br />- English, German and Demo versions are supported by this target
+				</notes>
+			</game>
+			<game>
 				<name>Eye of the Beholder</name>
 				<target>eob</target>
 				<support_level>good</support_level>
