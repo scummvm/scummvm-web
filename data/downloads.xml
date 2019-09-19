@@ -347,6 +347,7 @@
 					<category_icon>riscos</category_icon>
 					<url>scummvm-{$release}-riscos.zip</url>
 					<name>RISC OS package</name>
+					<user_agent>RISC OS</user_agent>
 				</file>
 				<file>
 					<category_icon>freemint</category_icon>
