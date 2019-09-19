@@ -1446,7 +1446,11 @@
 				<range from="1" to="8" format="%02d" />
 				<caption>Blade Runner (Windows/English)</caption>
 			</image>
-		</game>		
+			<image>
+				<file>westwood/bladerunner/bladerunner-win-fr-#n#</file>
+				<caption>Blade Runner (Windows/French)</caption>
+			</image>
+		</game>
 	</group>
 	<group>
 		<title>Wintermute engine games</title>
