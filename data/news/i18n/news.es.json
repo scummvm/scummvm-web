@@ -1,6 +1,6 @@
 {
     "20011122": {
-        "title": "",
+        "title": "Bienvenido a ScummVM",
         "content": ""
     },
     "20020113": {
@@ -1260,11 +1260,11 @@
         "content": ""
     },
     "20190917": {
-        "title": "",
-        "content": ""
+        "title": "Estamos comenzando las pruebas de ScummVM 2.1.0",
+        "content": "<p>El momento al final ha llegado y comienza el ciclo de producción de ScummVM 2.1.0.</p><p>Esta edición va a ser grande y todos estos nuevos juegos requieren pruebas:</p><ul><li><i>Blade Runner.</i></li>   <li><i>Hoyle Bridge.</i></li>   <li><i>Hoyle Children's Collection.</i></li>   <li><i>Hoyle Classic Games.</i></li>   <li><i>Hoyle Solitaire.</i></li>   <li><i>Hyperspace Delivery Boy!</i></li>   <li><i>Might and Magic IV - Clouds of Xeen.</i></li>   <li><i>Might and Magic V - Darkside of Xeen.</i></li>   <li><i>Might and Magic - World of Xeen.</i></li>   <li><i>Might and Magic - World of Xeen 2 CD Talkie.</i></li>   <li><i>Might and Magic - Swords of Xeen.</i></li>   <li><i>Mission Supernova Part 1.</i></li>   <li><i>Mission Supernova Part 2.</i></li>   <li><i>Quest for Glory: Shadows of Darkness.</i></li>   <li><i>The Prince and the Coward.</i></li>   <li><i>Versailles 1685.</i></li></ul><p>Con esta edición finalmente incluiremos el soporte en la nube para almacenar las partidas y los datos de juego. Por el momento solo funciona en escritorio y pueden encontrar una descripción de sus características en <a href=\"https://wiki.scummvm.org/index.php?title=User_Manual/Using_Cloud_and_LAN_features\">nuestro Manual de Usuario</a>.</p><p>La lista completa de juegos que requieren ser probados en esta edición se puede encontrar en <a href=\"https://wiki.scummvm.org/index.php?title=Release_Testing/2.1.0\">nuestra Wiki</a>.</p><p>Utiliza por favor una <a href=\"https://buildbot.scummvm.org/builds.html\">compilación diaria estable</a> de ScummVM para las pruebas. En caso de que encuentres cualquier fallo puedes reportarlo en nuestro <a href=\"https://bugs.scummvm.org/\">gestor de problemas</a>. Además, puedes registrar tu progreso <a href=\"https://forums.scummvm.org/viewtopic.php?f=1&amp;t=14945\">en el hilo del foro</a> para que podamos cruzar los juegos probados con nuestra wiki. Asegurate de seguir nuestra guía de pruebas, la cual puedes encontrar <a href=\"https://wiki.scummvm.org/index.php?title=Release_Testing\">aquí</a>.</p><p>Sería genial si puedes ayudarnos con las traducciones del interfaz gráfico de ScummVM. La descripción de los pasos a seguir está en <a href=\"https://wiki.scummvm.org/index.php?title=HOWTO-Translate_ScummVM_GUI\">la Wiki</a>.</p>"
     },
     "20190919": {
-        "title": "",
-        "content": ""
+        "title": "Otro juego para probar: <i>Duckman</i>",
+        "content": "<p><i>Duckman: The Graphic Adventures of a Private Dick</i> es un oscuro juego Point and Click basado en el programa de televisión del mismo nombre. Controlarás al sabio detective Duckman mientras intenta recuperar su identidad después de haber sido expulsado sin escrúpulos de su propio programa de televisión. Por desgracia, el lanzamiento del juego para Windows en 1997 coincidió con la cancelación del programa de televisión, lo que limitó la distribución del juego.</p><p>Después de mucho tiempo en desarrollo, el equipo de ScummVM se complace en anunciar soporte para el juego.</p><p> Asegúrate de conseguir <a href=\"https://buildbot.scummvm.org/builds.html\">una compilación reciente</a> y dale una oportunidad. Por favor, informanos de cualquier error que encuentres en <a href=\"https://bugs.scummvm.org/\">nuestro gestor de fallos</a>.</p><p>Tanto la demo como las versiones en inglés y alemán son compatibles. Sólo necesitas el directorio DATA/ del juego original para jugar.</p>"
     }
 }
