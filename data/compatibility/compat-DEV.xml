@@ -173,7 +173,7 @@
 			<game>
 				<name>Personal Nightmare</name>
 				<target>pn</target>
-				<support_level>untested</support_level>
+				<support_level>good</support_level>
 				<notes>
 					Game is playable, but not confirmed as completable.<h:br />- Amiga, Atari ST and DOS versions are supported by this target<h:br />- Minor spacing glitches with charset.<h:br />- No day to night fading in Amiga and Atari ST versions.
 				</notes>
@@ -237,7 +237,7 @@
 			<game>
 				<name>Waxworks</name>
 				<target>waxworks</target>
-				<support_level>untested</support_level>
+				<support_level>good</support_level>
 				<notes>
 					Game is playable, but requires further play testing.<h:br />- Amiga and DOS versions are supported by this target<h:br />- Amiga version has not been confirmed as completable.<h:br />- PC version doesn't load or save items states correctly, leading to various bugs
 				</notes>
@@ -927,7 +927,7 @@
 			<game>
 				<name>Police Quest: SWAT</name>
 				<target>pqswat</target>
-				<support_level>untested</support_level>
+				<support_level>good</support_level>
 				<notes>
 					- DOS versions are supported by this target
 				</notes>
@@ -1076,7 +1076,7 @@
 			<game>
 				<name>Amazon: Guardians of Eden</name>
 				<target>access</target>
-				<support_level>untested</support_level>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- the demo isn't supported.<h:br /><h:br />Game has been recently supported and requires further play testing.
 				</notes>
@@ -1084,7 +1084,7 @@
 			<game>
 				<name>Beavis and Butt-head in Virtual Stupidity</name>
 				<target>bbvs</target>
-				<support_level>untested</support_level>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- Only Windows version is supported.<h:br /><h:br />Game has been recently supported and requires further play testing.
 				</notes>
@@ -1108,7 +1108,7 @@
 			<game>
 				<name>Broken Sword 2.5: The Return of the Templars</name>
 				<target>sword25</target>
-				<support_level>untested</support_level>
+				<support_level>excellent</support_level>
 				<notes>
 					No known issues, game is completable.<h:br /><h:br />Game has been recently supported and requires further play testing.
 				</notes>
@@ -1180,7 +1180,7 @@
 			<game>
 				<name>Duckman: The Graphic Adventures of a Private Dick</name>
 				<target>duckman</target>
-				<support_level>untested</support_level>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- English, German and Demo versions are supported by this target
 				</notes>
@@ -1260,7 +1260,7 @@
 			<game>
 				<name>Hyperspace Delivery Boy!</name>
 				<target>hdb</target>
-				<support_level>untested</support_level>
+				<support_level>excellent</support_level>
 				<notes>
 					Game is completable<h:br />- Linux, Windows and PocketPC versions are supported by this target
 				</notes>
@@ -1340,7 +1340,7 @@
       <game>
 				<name>Mortville Manor</name>
 				<target>mortevielle</target>
-				<support_level>untested</support_level>
+				<support_level>good</support_level>
 				<notes>
 					Game has been recently supported and requires further play testing.<h:br />- DOS versions are supported by this target<h:br />- No speech synthesis
 				</notes>
@@ -1372,7 +1372,7 @@
 			<game>
 				<name>Plumbers Don't Wear Ties</name>
 				<target>plumbers</target>
-				<support_level>untested</support_level>
+				<support_level>good</support_level>
 				<notes>
 					Game has been recently supported and requires further play testing.
 				</notes>
@@ -1388,7 +1388,7 @@
 			<game>
 				<name>Rex Nebular and the Cosmic Gender Bender</name>
 				<target>nebular</target>
-				<support_level>untested</support_level>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- Original floppy version must be installed using DosBox before game is playable.<h:br /><h:br />Game has been recently supported and requires further play testing.
 				</notes>
@@ -1412,7 +1412,7 @@
 			<game>
 				<name>Return to Ringworld</name>
 				<target>ringworld2</target>
-				<support_level>untested</support_level>
+				<support_level>good</support_level>
 				<notes>
 					Game has been recently supported and requires further play testing.
 				</notes>
@@ -1420,7 +1420,7 @@
 			<game>
 				<name>Sfinx</name>
 				<target>sfinx</target>
-				<support_level>untested</support_level>
+				<support_level>good</support_level>
 				<notes>
 					Game has been recently supported and requires further play testing.
 				</notes>
@@ -1484,7 +1484,7 @@
 			<game>
 				<name>The Lost Files of Sherlock Holmes: The Case of the Serrated Scalpel</name>
 				<target>scalpel</target>
-				<support_level>untested</support_level>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br />- Only DOS verion is supported<h:br /><h:br />Game has been recently supported and requires further play testing.
 				</notes>
@@ -1492,7 +1492,7 @@
 			<game>
 				<name>The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo</name>
 				<target>rosetattoo</target>
-				<support_level>untested</support_level>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable<h:br /><h:br />Game has been recently supported and requires further play testing.
 				</notes>
@@ -1548,7 +1548,7 @@
 			<game>
 				<name>U.F.O.s / Gnap: Der Schurke aus dem All</name>
 				<target>gnap</target>
-				<support_level>untested</support_level>
+				<support_level>good</support_level>
 				<notes>
 					Game is completable. More tests are required.
 				</notes>
