@@ -1615,6 +1615,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>Backyard Basketball</name>
+				<target>basketball</target>
+				<support_level>broken</support_level>
+				<notes>
+					Able to be run, but large portions of gameplay are missing.
+				</notes>
+			</game>
+			<game>
 				<name>Backyard Football</name>
 				<target>football</target>
 				<support_level>good</support_level>
@@ -1628,6 +1636,30 @@
 				<support_level>good</support_level>
 				<notes>
 					Game is playable, with minor glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Minor graphical glitches<h:br />- No support for multiplayer<h:br />- No videos
+				</notes>
+			</game>
+			<game>
+				<name>Backyard Soccer</name>
+				<target>soccer</target>
+				<support_level>broken</support_level>
+				<notes>
+					Able to be run, but large portions of gameplay are missing.
+				</notes>
+			</game>
+			<game>
+				<name>Backyard Soccer MLS Edition</name>
+				<target>soccer2001</target>
+				<support_level>broken</support_level>
+				<notes>
+					Able to be run, but large portions of gameplay are missing.
+				</notes>
+			</game>
+			<game>
+				<name>Backyard Soccer 2004</name>
+				<target>soccer2004</target>
+				<support_level>broken</support_level>
+				<notes>
+					Able to be run, but large portions of gameplay are missing.
 				</notes>
 			</game>
 			<game>
