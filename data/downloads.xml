@@ -9,7 +9,7 @@
 			<anchor>stable</anchor>
 			<notes>
 				{#downloadsBinariesNote1#}
-				<h:a href="/frs/scummvm/{$release}/ReleaseNotes">{#downloadsBinariesNote2#}</h:a>.
+				<h:a href="/frs/scummvm/{$release}/ReleaseNotes.html">{#downloadsBinariesNote2#}</h:a>.
 				<h:br/>{'/\x7brelease_debian\x7d/'|preg_replace:$release_debian:#downloadsBinariesNote3#}<h:br/><h:br/>
 			</notes>
 			<entries>
@@ -24,19 +24,24 @@
 					<url>scummvm-{$release}-win32.zip</url>
 					<name>Windows zipfile</name>
 				</file>
-<!--
 				<file>
 					<category_icon>win64</category_icon>
-					<url>scummvm-{$release}-win64.zip</url>
+					<url>scummvm-{$release}-win32-x86_64.exe</url>
+					<name>Windows 64bit Installer</name>
+				</file>
+				<file>
+					<category_icon>win64</category_icon>
+					<url>scummvm-{$release}-win32-x86_64.zip</url>
 					<name>Windows 64bit zipfile</name>
 				</file>
 
+<!--
 				<file>
 					<category_icon>fedora</category_icon>
 					<url>scummvm-{$release}-1.i386.rpm</url>
 					<name>Fedora 8-20+ i386 package</name>
 				</file>
--->
+
 				<file>
 					<category_icon>fedora</category_icon>
 					<url>scummvm-{$release}-1.x86_64.rpm</url>
@@ -55,13 +60,12 @@
 					<name>Debian 9 (stretch) x86 64bit package</name>
 					<user_agent>Debian</user_agent>
 				</file>
-<!--
 				<file>
 					<category_icon>debian</category_icon>
 					<url>scummvm_{$release}-squeeze.1_powerpc.deb</url>
 					<name>Debian 6.0 (squeeze) PowerPC package</name>
 				</file>
--->
+
 				<file>
 					<category_icon>ubuntu</category_icon>
 					<url>scummvm_{$release}-zesty.1_i386.deb</url>
@@ -85,7 +89,7 @@
 					<name>Ubuntu 16.04 LTS (xenial) x86 64bit package</name>
 					<user_agent>Ubuntu</user_agent>
 				</file>
-<!--
+
 				<file>
 					<category_icon>slackware</category_icon>
 					<url>scummvm-{$release}_slack-i486-1.tgz</url>
@@ -99,7 +103,7 @@
 -->
 				<file>
 					<category_icon>macos</category_icon>
-					<url>scummvm-{$release}.1-macosx.dmg</url>
+					<url>scummvm-{$release}-macosx.dmg</url>
 					<name>macOS 10.7+ 64 bits with Sparkle Disk Image</name>
 					<user_agent>Mac</user_agent>
 				</file>
@@ -152,12 +156,7 @@
 				</file>
 				<file>
 					<category_icon>android</category_icon>
-					<url>scummvm-{$release}-android-all.apk</url>
-					<name>Android package for all platforms</name>
-				</file>
-				<file>
-					<category_icon>android</category_icon>
-					<url>scummvm-{$release}-android-arm.apk</url>
+					<url>scummvm-{$release}-android-armeabi.apk</url>
 					<name>Android ARM package</name>
 				</file>
 				<file>
@@ -187,12 +186,6 @@
 					<name>OUYA package</name>
 				</file>
 
-				<file>
-					<category_icon>android</category_icon>
-					<url>https://play.google.com/store/apps/details?id=org.scummvm.scummvm</url>
-					<name>Android package at Google Play Store</name>
-					<user_agent>Android</user_agent>
-				</file>
 				<file>
 					<category_icon>symbian</category_icon>
 					<url>scummvm-{$release}-SymbianS60v3_split.sisx</url>
@@ -242,30 +235,23 @@
 				</file>
 				<file>
 					<category_icon>dc</category_icon>
-					<url>scummvm-{$release}-dreamcast-A-G-nero+demos.zip</url>
-					<name>Dreamcast Nero Image &amp; Demos for engines named A-G</name>
-				</file>
-				<file>
-					<category_icon>dc</category_icon>
-					<url>scummvm-{$release}-dreamcast-H-N-nero+demos.zip</url>
+					<url>scummvm-{$release}-dreamcast-nero+demos.zip</url>
 					<name>Dreamcast Nero Image &amp; Demos for engines named H-N</name>
 				</file>
+
 				<file>
-					<category_icon>dc</category_icon>
-					<url>scummvm-{$release}-dreamcast-O-S-nero+demos.zip</url>
-					<name>Dreamcast Nero Image &amp; Demos for engines named O-S</name>
+					<category_icon>switch</category_icon>
+					<url>scummvm-{$release}-switch.zip</url>
+					<name>Nintendo Switch package</name>
 				</file>
-				<file>
-					<category_icon>dc</category_icon>
-					<url>scummvm-{$release}-dreamcast-T-Z-nero+demos.zip</url>
-					<name>Dreamcast Nero Image &amp; Demos for engines named T-Z</name>
-				</file>
+
+<!--
 				<file>
 					<category_icon>openpandora</category_icon>
 					<url>scummvm-{$release}-openpandora.zip</url>
 					<name>OpenPandora package</name>
 				</file>
-<!--
+
 				<file>
 					<category_icon>n64</category_icon>
 					<url>scummvm-{$release}-n64.zip</url>
@@ -282,19 +268,19 @@
 					<url>scummvm-{$release}-wii.zip</url>
 					<name>Wii package</name>
 				</file>
-
+-->
 				<file>
 					<category_icon>gcw0</category_icon>
 					<url>scummvm-{$release}-gcw0.opk</url>
 					<name>GCW-Zero package</name>
 				</file>
--->
+<!--
 				<file>
 					<category_icon>raspberry</category_icon>
 					<url>scummvm-{$release}-rpi.zip</url>
 					<name>Raspberry Pi package (for Pi 2 and 3)</name>
 				</file>
-<!--
+
 				<file>
 					<category_icon>solaris</category_icon>
 					<url>scummvm-{$release}-solaris10-sparc.pkg.7z</url>
@@ -307,7 +293,7 @@
 					<name>Solaris 10 x86, Solaris 11 x86, OpenIndiana binary</name>
 					<user_agent>SunOS</user_agent>
 				</file>
--->
+
 				<file>
 					<category_icon>irix</category_icon>
 					<url>scummvm-{$release}-irix-mips3.tar.gz</url>
@@ -319,6 +305,7 @@
 					<url>scummvm-{$release}-irix-mips4.tar.gz</url>
 					<name>IRIX (6.5.*, n32, mips4) package</name>
 				</file>
+-->
 				<file>
 					<category_icon>haiku</category_icon>
 					<url>scummvm_x86-{$release}-1-x86_gcc2.hpkg</url>
@@ -371,13 +358,13 @@
 					<name>OS/2 package</name>
 					<user_agent>OS/2</user_agent>
 				</file>
--->
+
 				<file>
 					<category_icon>samsungtv</category_icon>
 					<url>scummvm-{$release}-samsungtv.zip</url>
 					<name>Samsung TV package (2009 series)</name>
 				</file>
-
+-->
 			</entries>
 		</subsection>
 
@@ -425,13 +412,13 @@
 					<url type="tools">scummvm-tools-{$release_tools}-win32.exe</url>
 					<name>Tools - Windows Installer</name>
 				</file>
--->
+
 				<file>
 					<category_icon>windows</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-win32.zip</url>
 					<name>Tools - Windows zipfile</name>
 				</file>
-<!--
+
 				<file>
 					<category_icon>fedora</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-1_F11.i586.rpm</url>
@@ -481,21 +468,21 @@
 -->
 				<file>
 					<category_icon>haiku</category_icon>
-					<url type="tools">scummvm_tools_x86-{$release_tools}-1-x86_gcc2.hpkg</url>
+					<url type="tools">scummvm_tools_x86-{$release_tools}-2-x86_gcc2.hpkg</url>
 					<name>Tools - Haiku package 32 bits</name>
 				</file>
 				<file>
 					<category_icon>haiku</category_icon>
-					<url type="tools">scummvm_tools-{$release_tools}-1-x86_64.hpkg</url>
+					<url type="tools">scummvm_tools-{$release_tools}-2-x86_64.hpkg</url>
 					<name>Tools - Haiku package 64 bits</name>
 				</file>
-<!--
+
 				<file>
 					<category_icon>amiga</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-amigaos4.lha</url>
 					<name>Tools - AmigaOS 4</name>
 				</file>
--->
+
 				<file>
 					<category_icon>riscos</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-riscos.zip</url>
@@ -503,8 +490,18 @@
 				</file>
 				<file>
 					<category_icon>freemint</category_icon>
-					<url type="tools">scummvm-tools-{$release_tools}-atari.zip</url>
+					<url type="tools">scummvm-tools-{$release_tools}-atari-m68000.zip</url>
 					<name>Tools - Atari/FreeMiNT package (68000 and up)</name>
+				</file>
+				<file>
+					<category_icon>freemint</category_icon>
+					<url type="tools">scummvm-tools-{$release_tools}-atarim68020-60.zip</url>
+					<name>Tools - Atari/FreeMiNT package (m68020 - m68060)</name>
+				</file>
+				<file>
+					<category_icon>freemint</category_icon>
+					<url type="tools">scummvm-tools-{$release_tools}-atari-m5475.zip</url>
+					<name>Tools - Atari/FreeMiNT package (Coldfire MCF5475 / Firebee)</name>
 				</file>
 
 				<file>
@@ -549,6 +546,74 @@
 			</notes>
 			<entries>
 				<file>
+					<category_icon>fedora</category_icon>
+					<url>2.0.0/scummvm-2.0.0-1.x86_64.rpm</url>
+					<name>2.0.0 Fedora 24+ x86 64bit package</name>
+					<user_agent>Fedora</user_agent>
+				</file>
+
+				<file>
+					<category_icon>debian</category_icon>
+					<url>2.0.0/scummvm_2.0.0-stretch.1_i386.deb</url>
+					<name>2.0.0 Debian 9 (stretch) i386 package</name>
+				</file>
+				<file>
+					<category_icon>debian</category_icon>
+					<url>2.0.0/scummvm_2.0.0-stretch.1_amd64.deb</url>
+					<name>2.0.0 Debian 9 (stretch) x86 64bit package</name>
+					<user_agent>Debian</user_agent>
+				</file>
+				<file>
+					<category_icon>ubuntu</category_icon>
+					<url>2.0.0/scummvm_2.0.0-zesty.1_i386.deb</url>
+					<name>2.0.0 Ubuntu 17.04 (zesty) i386 package</name>
+				</file>
+				<file>
+					<category_icon>ubuntu</category_icon>
+					<url>2.0.0/scummvm_2.0.0-zesty.1_amd64.deb</url>
+					<name>2.0.0 Ubuntu 17.04 (zesty) x86 64bit package</name>
+					<user_agent>Ubuntu</user_agent>
+				</file>
+
+				<file>
+					<category_icon>ubuntu</category_icon>
+					<url>2.0.0/scummvm_2.0.0-xenial.1_i386.deb</url>
+					<name>2.0.0 Ubuntu 16.04 LTS (xenial) i386 package</name>
+				</file>
+				<file>
+					<category_icon>ubuntu</category_icon>
+					<url>2.0.0/scummvm_2.0.0-xenial.1_amd64.deb</url>
+					<name>2.0.0 Ubuntu 16.04 LTS (xenial) x86 64bit package</name>
+					<user_agent>Ubuntu</user_agent>
+				</file>
+				<file>
+					<category_icon>openpandora</category_icon>
+					<url>2.0.0/scummvm-2.0.0-openpandora.zip</url>
+					<name>2.0.0 OpenPandora package</name>
+				</file>
+				<file>
+					<category_icon>raspberry</category_icon>
+					<url>2.0.0/scummvm-2.0.0-rpi.zip</url>
+					<name>2.0.0 Raspberry Pi package (for Pi 2 and 3)</name>
+				</file>
+				<file>
+					<category_icon>irix</category_icon>
+					<url>2.0.0/scummvm-2.0.0-irix-mips3.tar.gz</url>
+					<name>2.0.0 IRIX (6.5.*, n32, mips3) package</name>
+				</file>
+
+				<file>
+					<category_icon>irix</category_icon>
+					<url>2.0.0/scummvm-2.0.0-irix-mips4.tar.gz</url>
+					<name>2.0.0 IRIX (6.5.*, n32, mips4) package</name>
+				</file>
+				<file>
+					<category_icon>samsungtv</category_icon>
+					<url>2.0.0/scummvm-2.0.0-samsungtv.zip</url>
+					<name>2.0.0 Samsung TV package (2009 series)</name>
+				</file>
+
+				<file>
 					<category_icon>android</category_icon>
 					<url>1.9.0/scummvm-1.9.0-android-mips.apk</url>
 					<name>1.9.0 Android MIPS package</name>
@@ -563,11 +628,6 @@
 					<url>1.9.0/scummvm-1.9.0-ios7.deb</url>
 					<name>1.9.0 iOS 7+ package</name>
 					<user_agent>iOS</user_agent>
-				</file>
-				<file>
-					<category_icon>gcw0</category_icon>
-					<url>1.9.0/scummvm-1.9.0-gcw0.opk</url>
-					<name>1.9.0 GCW-Zero package</name>
 				</file>
 				<file>
 					<category_icon>os2</category_icon>
