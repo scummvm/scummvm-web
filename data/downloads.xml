@@ -25,12 +25,12 @@
 					<name>Windows zipfile</name>
 				</file>
 				<file>
-					<category_icon>win64</category_icon>
+					<category_icon>windows</category_icon>
 					<url>scummvm-{$release}-win32-x86_64.exe</url>
 					<name>Windows 64bit Installer</name>
 				</file>
 				<file>
-					<category_icon>win64</category_icon>
+					<category_icon>windows</category_icon>
 					<url>scummvm-{$release}-win32-x86_64.zip</url>
 					<name>Windows 64bit zipfile</name>
 				</file>
