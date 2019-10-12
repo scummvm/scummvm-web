@@ -26,11 +26,6 @@
 				</file>
 				<file>
 					<category_icon>windows</category_icon>
-					<url>scummvm-{$release}-win32-win9x.exe</url>
-					<name>Windows 9X Installer</name>
-				</file>
-				<file>
-					<category_icon>windows</category_icon>
 					<url>scummvm-{$release}-win32-x86_64.exe</url>
 					<name>Windows 64bit Installer</name>
 				</file>
