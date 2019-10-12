@@ -641,12 +641,6 @@
 					<name>1.9.0 OUYA package</name>
 				</file>
 				<file>
-					<category_icon>iphone</category_icon>
-					<url>1.9.0/scummvm-1.9.0-ios7.deb</url>
-					<name>1.9.0 iOS 7+ package</name>
-					<user_agent>iOS</user_agent>
-				</file>
-				<file>
 					<category_icon>os2</category_icon>
 					<url>1.9.0/scummvm-1.9.0-os2.zip</url>
 					<name>1.9.0 OS/2 package</name>
