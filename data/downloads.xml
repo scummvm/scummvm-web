@@ -35,7 +35,7 @@
 					<name>Windows 64bit zipfile</name>
 				</file>
 				<file>
-					<category_icon>windows</category_icon>
+					<category_icon>wince</category_icon>
 					<url>scummvm-{$release}-win32-win9x.exe</url>
 					<name>Windows 95/98/ME installer</name>
 				</file>
