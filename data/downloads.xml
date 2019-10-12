@@ -37,7 +37,7 @@
 				<file>
 					<category_icon>wince</category_icon>
 					<url>scummvm-{$release}-win32-win9x.exe</url>
-					<name>Windows 95/98/ME installer</name>
+					<name>Windows 95/98/ME Installer</name>
 				</file>
 <!--
 				<file>
