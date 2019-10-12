@@ -34,7 +34,11 @@
 					<url>scummvm-{$release}-win32-x86_64.zip</url>
 					<name>Windows 64bit zipfile</name>
 				</file>
-
+				<file>
+					<category_icon>windows</category_icon>
+					<url>scummvm-{$release}-win32-win9x.exe</url>
+					<name>Windows 95/98/ME installer</name>
+				</file>
 <!--
 				<file>
 					<category_icon>fedora</category_icon>
