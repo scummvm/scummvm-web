@@ -416,13 +416,18 @@
 					<url type="tools">scummvm-tools-{$release_tools}-win32.exe</url>
 					<name>Tools - Windows Installer</name>
 				</file>
-
+-->
 				<file>
 					<category_icon>windows</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-win32.zip</url>
-					<name>Tools - Windows zipfile</name>
+					<name>Tools - Windows 32bit zipfile</name>
 				</file>
-
+				<file>
+					<category_icon>windows</category_icon>
+					<url type="tools">scummvm-tools-{$release_tools}-win32-x86_64.zip</url>
+					<name>Tools - Windows 64bit zipfile</name>
+				</file>
+<!--
 				<file>
 					<category_icon>fedora</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-1_F11.i586.rpm</url>
