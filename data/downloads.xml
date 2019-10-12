@@ -101,13 +101,13 @@
 					<name>SlackWare x86 64bit package</name>
 				</file>
 -->
-				<file>
+<!--				<file>
 					<category_icon>macos</category_icon>
 					<url>scummvm-{$release}-macosx.dmg</url>
 					<name>macOS 10.7+ 64 bits with Sparkle Disk Image</name>
 					<user_agent>Mac</user_agent>
 				</file>
-
+-->
 				<file>
 					<category_icon>macostiger</category_icon>
 					<url>scummvm-{$release}-macosx-i386.dmg</url>
