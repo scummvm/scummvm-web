@@ -208,12 +208,20 @@
 					<url>scummvm-{$release}-wince.zip</url>
 					<name>Windows CE ARM package</name>
 				</file>
+-->
 				<file>
 					<category_icon>iphone</category_icon>
-					<url>scummvm-{$release}-ios7.deb</url>
-					<name>iOS 7+ package</name>
+					<url>scummvm-{$release}-ios.deb</url>
+					<name>iOS package .deb</name>
 					<user_agent>iOS</user_agent>
 				</file>
+				<file>
+					<category_icon>iphone</category_icon>
+					<url>scummvm-{$release}-ios.ipa</url>
+					<name>iOS package .ipa</name>
+					<user_agent>iOS</user_agent>
+				</file>
+<!--
 				<file>
 					<category_icon>webos</category_icon>
 					<url>scummvm-{$release}-webos.zip</url>
