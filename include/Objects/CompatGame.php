@@ -10,6 +10,7 @@ class CompatGame extends BasicObject
     private $target;
     private $supportLevel;
     private $notes;
+    private $datafiles;
 
     /* Project object constructor. */
     public function __construct($data)
@@ -25,6 +26,10 @@ class CompatGame extends BasicObject
             $this->supportLevel = $data['support_level'];
         }
         $this->notes = $data['notes'];
+
+        if (array_key_exists('datafiles', $data)) {
+            $this->datafiles = $data['datafiles'];
+        }
     }
 
     /* Get the target name. */
@@ -43,5 +48,11 @@ class CompatGame extends BasicObject
     public function getNotes()
     {
         return $this->notes;
+    }
+
+    /* Get the datafiles uri. */
+    public function getDatafiles()
+    {
+        return $this->datafiles;
     }
 }

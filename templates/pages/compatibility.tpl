@@ -64,6 +64,7 @@
           {else}
             <th class="gameSupportLevel">{#compatibilityDetailsChartCol3b#}</th>
           {/if}
+          <th class="datafiles">{#compatabilityDetailsChartCol4#}</th>
         </tr>
       </thead>
       <tbody>
@@ -80,6 +81,12 @@
         <tr class="color{cycle values='2,0'}">
           <td class="gameFullName"><a href="/compatibility/{$version}/{$game->getTarget()}/">{$game->getName()}</a></td>
           <td class="gameShortName">{$game->getTarget()}</td>
+          <td class="datafiles">
+          {if $game->getDatafiles()}
+            <a href="https://wiki.scummvm.org/index.php?title=Datafiles#{$game->getDatafiles()}">Datafiles</a></td>
+          {else}
+            ---
+          {/if}
           <td class="gameSupportLevel {$pct_class}">{$support_level}</td>
         </tr>
       {/foreach}
