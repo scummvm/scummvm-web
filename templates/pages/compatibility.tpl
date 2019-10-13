@@ -59,12 +59,12 @@
         <tr class="color4">
           <th class="gameFullName">{#compatibilityDetailsChartCol1#}</th>
           <th class="gameShortName">{#compatibilityDetailsChartCol2#}</th>
+          <th class="datafiles">{#compatabilityDetailsChartCol4#}</th>
           {if $old_layout == 'no'}
             <th class="gameSupportLevel">{#compatibilityDetailsChartCol3a#}</th>
           {else}
             <th class="gameSupportLevel">{#compatibilityDetailsChartCol3b#}</th>
           {/if}
-          <th class="datafiles">{#compatabilityDetailsChartCol4#}</th>
         </tr>
       </thead>
       <tbody>
@@ -83,7 +83,7 @@
           <td class="gameShortName">{$game->getTarget()}</td>
           <td class="datafiles">
           {if $game->getDatafiles()}
-            <a href="https://wiki.scummvm.org/index.php?title=Datafiles#{$game->getDatafiles()}">Datafiles</a></td>
+            <a href="https://wiki.scummvm.org/index.php?title=Datafiles#{$game->getDatafiles()}">{#compatabilityDetailsDetails#}</a></td>
           {else}
             ---
           {/if}

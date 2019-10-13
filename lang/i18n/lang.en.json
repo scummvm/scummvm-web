@@ -14,6 +14,8 @@
     "compatibilityDetailsChartCol2": "Game Short Name",
     "compatibilityDetailsChartCol3a": "Support Level",
     "compatibilityDetailsChartCol3b": "% Completed",
+    "compatabilityDetailsChartCol4": "Datafiles",
+    "compatabilityDetailsDetails": "Details",
     "compatibilityDetailsBack": "« Back",
     "compatibilityIntro": "This page lists the progress of ScummVM as it relates to individual game compatibility. Please note this list applies to the English versions of games. We attempt to test many versions of games, however there are occasionally problems with other languages. ",
     "compatibilityIntroExplanation": "Click on the game name to view the complete notes of a game.",
