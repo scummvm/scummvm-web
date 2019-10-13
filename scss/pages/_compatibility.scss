@@ -4,11 +4,9 @@
 	}
 }
 
-.gameShortName {
-	width: 15%;
-}
-
-.gameSupportLevel {
+.gameSupportLevel,
+.gameShortName,
+.gameDatafiles {
 	width: 15%;
 	text-align: center;
 }
@@ -21,5 +19,5 @@
 @for $i from 0 through 20 {
   .pct#{$i*5} {
 	background-color: adjust-hue(hsl(0, 100%, 66-$i), $i*4.5);
-  } 
+  }
 }
