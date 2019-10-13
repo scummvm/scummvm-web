@@ -26,7 +26,7 @@
   }
   th {
     font-weight: normal;
-    text-align: left;
+    text-align: center;
   }
   td.details {
     padding: 1em 3em;
@@ -38,7 +38,7 @@
 		&.color2 {
 			background-color: $theme-chart-row-even;
 		}
-  }	
+  }
   thead {
     background-color: $theme-chart-head-background;
   }
