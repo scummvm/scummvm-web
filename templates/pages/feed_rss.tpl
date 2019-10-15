@@ -9,8 +9,8 @@
 		{foreach from=$news item=n}
 		{assign var='news_filename' value=$n->getFilename()|substr:'0':'-4'}
 		<item>
-			<title>{$n->getTitle()}</title>
-			<description><![CDATA[{$n->getContent()}]]></description>
+			<title>{htmlspecialchars($n->getTitle())}</title>
+			<description>{htmlspecialchars($n->getContent())}></description>
 			<pubDate>{$n->getDate()|date_f:'r'}</pubDate>
 			{if $n->getAuthor() != ''}
 			<author>nospam@scummvm.org ({$n->getAuthor()})</author>
