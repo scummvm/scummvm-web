@@ -25,8 +25,8 @@
 			<link rel="alternate" href="{$link}" />
 			<updated>{$updated|date_f:'Y-m-d\TH:i:s\Z'}</updated>
 			<published>{$updated|date_f:'Y-m-d\TH:i:s\Z'}</published>
-			<title type="html">{$n->getTitle()}</title>
-			<content type="html" xml:base="http://www.scummvm.org"><![CDATA[{$n->getContent()}]]></content>
+			<title type="html">{htmlspecialchars($n->getTitle())}</title>
+			<content type="html" xml:base="http://www.scummvm.org">{htmlspecialchars($n->getContent())}</content>
 			{if $n->getAuthor() != ''}
 			<author><name>{$n->getAuthor()}</name></author>
 			{/if}
