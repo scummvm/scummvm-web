@@ -1808,6 +1808,15 @@
 				</notes>
 			</game>
 			<game>
+				<name>Backyard Basketball</name>
+				<target>basketball</target>
+				<support_level>broken</support_level>
+				<datafiles>Backyard_Basketball</datafiles>
+				<notes>
+					Game is not playable.
+				</notes>
+			</game>
+			<game>
 				<name>Backyard Football</name>
 				<target>football</target>
 				<support_level>good</support_level>
@@ -1823,6 +1832,33 @@
 				<datafiles>Backyard_Football</datafiles>
 				<notes>
 					Game is playable, with minor glitches<h:br />- Both Macintosh and Windows versions supported by this target<h:br />- Minor graphical glitches<h:br />- No support for multiplayer<h:br />- No videos
+				</notes>
+			</game>
+			<game>
+				<name>Backyard Soccer</name>
+				<target>soccer</target>
+				<support_level>broken</support_level>
+				<datafiles>Backyard_Soccer</datafiles>
+				<notes>
+					Game is not playable.
+				</notes>
+			</game>
+			<game>
+				<name>Backyard Soccer MLS Edition</name>
+				<target>SoccerMLS</target>
+				<support_level>broken</support_level>
+				<datafiles>Backyard_Soccer</datafiles>
+				<notes>
+					Game is not playable.
+				</notes>
+			</game>
+			<game>
+				<name>Backyard Soccer 2004</name>
+				<target>Soccer2004</target>
+				<support_level>broken</support_level>
+				<datafiles>Backyard_Soccer</datafiles>
+				<notes>
+					Game is not playable.
 				</notes>
 			</game>
 			<game>
