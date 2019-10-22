@@ -5,6 +5,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 use ScummVM\Objects\News;
 use ScummVM\Models\NewsModel;
+use Spatie\YamlFrontMatter\YamlFrontMatter;
 
 define('DIR_NEWS', 'data/news');
 
@@ -50,32 +51,28 @@ class I18N
             $i18n = json_decode(file_get_contents(DIR_NEWS . "/i18n/news.{$lang}.json"));
 
             foreach ($i18n as $key => $value) {
-                $originalJson = json_decode(file_get_contents(DIR_NEWS . "/{$key}.json"));
-                $value->date = $this->purifier->purify($originalJson->date);
-                $value->author = $this->purifier->purify($originalJson->author);
-                $value->title = $this->purifier->purify($value->title);
-                $value->content = $this->purifier->purify($value->content);
+                $object = YamlFrontMatter::parse(file_get_contents(DIR_NEWS . "/{$key}.yaml"));
+                $title = $this->purifier->purify(str_replace('"', '\"', $value->title));
+                $date = $this->purifier->purify($object->date);
+                $author = $this->purifier->purify($object->author);
+                $content = $this->purifier->purify(trim($value->content));
+
+                $yaml = "---\ntitle: \"$title\"\ndate: $date\nauthor: $author\n---\n\n$content\n";
 
                 file_put_contents(
-                    DIR_NEWS . "/{$lang}/{$key}.json",
-                    json_encode($value, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES |  JSON_UNESCAPED_UNICODE)
+                    DIR_NEWS . "/{$lang}/{$key}.yaml",
+                    $yaml
                 );
             }
         } else {
             // Update the base english i18n file
             echo("Converting individual JSON files to I18N base file\n");
-            $newsJson = new \stdClass();
+            $newsJson = array();
             $news = $this->getAllNews($lang);
-            foreach ($news as $key => $value) {
-                $newsJson->$key = array(
-                    "title" => $this->purifier->purify($value->title),
-                    "content" => $this->purifier->purify($value->content)
-                );
-            }
 
             file_put_contents(
                 DIR_NEWS . "/i18n/news.{$lang}.json",
-                json_encode($newsJson, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES |  JSON_UNESCAPED_UNICODE) . "\n"
+                json_encode($news, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES |  JSON_UNESCAPED_UNICODE) . "\n"
             );
         }
     }
@@ -91,16 +88,17 @@ class I18N
         if (!($files = scandir($dir))) {
             throw new \ErrorException(self::NO_FILES);
         }
-        $news = new \stdClass();
+        $news = array();
         foreach ($files as $filename) {
-            if (substr($filename, -5) != '.json') {
+            if (substr($filename, -5) != '.yaml') {
                 continue;
             }
             if (!($data = @file_get_contents($dir . "/{$filename}"))) {
                 continue;
             }
-            $key = rtrim($filename, ".json");
-            $news->$key = json_decode($data);
+            $key = rtrim($filename, ".yaml");
+            $object = YamlFrontMatter::parse($data);
+            $news[$key] = array('title' => $object->title, 'content' => trim($object->body()));
         }
         return $news;
     }

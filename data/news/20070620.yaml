@@ -1,0 +1,26 @@
+
+---
+title: "ScummVM 0.X.0: \"Tic-tac-toe edition\""
+author: fingolfin
+date: 1182346560
+---
+
+Finally, here it is! Our long awaited, best-ever new release, ScummVM 0.X.0 (or 0.10.0, for those roman numeral challenged amongst you), code named "Tic-tac-toe edition", has arrived today. [Now available](/downloads/) in stores, err, on download servers worldwide!
+
+"What's new? What's in it? Can I open it up yet?" - Hah, I can already see you shifting impatiently on your seats. But before you run, let me shed some light on the details of this latest installment of the successful ScummVM series:
+
+*   Several new engines and thus new games supported:
+    *   Sierra AGI engine: Space Quest I & II, King's Quest I-III and many more, including a vast number of fan-made games,
+    *   Cinematique evo 1 engine: Future Wars,
+    *   GOB engine: Bargon Attack, Gobliins 2, Goblins 3, Ween: The Prophecy,
+    *   AGOS engine: Simon the Sorcerer's Puzzle Pack,
+    *   Parallaction engine: Nippon Safes Inc.,
+    *   Touche: The Adventures of the Fifth Musketeer engine.
+*   DXA movies (higher quality than MPEG2) can be compressed better now and can be used for the Broken Sword cutscenes.
+*   Added 'Mass Add' feature to the Launcher, which allows you to scan for all games in all subdirectories of a given directory (to use it, press shift then click on "Add Game").
+*   Many nice improvements to our ports.
+*   And as usual a gazillion small fixes, tweaks and improvements.
+
+So, what are you waiting for? [Go and grab your *free* copy](/downloads/) of the **best-ever ScummVM** while it's still hot!
+
+P.S.: The SourceForge.net download mirrors are a bit slow when it comes to syncing, hence it can happen that your download fails or is corrupt after the first try. Don't give up, just try to download from another mirror!

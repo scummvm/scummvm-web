@@ -1,0 +1,12 @@
+
+---
+title: "ScummVM 1.3.0 \"Runner\" released!"
+author: sev
+date: 1306589760
+---
+
+It has been longer than usual since the last release. Nevertheless the team is happy to announce the release of ScummVM 1.3.0.
+
+The release is truly feature-rich: in particular we are introducing support for a new platform, WebOS, and adding a set of new games: *Urban Runner*, *Playtoons*, *Toonstruck*, *Hugo* series, *Living Books*, *Backyard Baseball*. We have also continued to work hard on the SCI engine, so Amiga and some Macintosh versions of the games are supported now too. Many of our ports received improvements, and a number of bugs have been fixed in practically every engine. Thus your gameplay should be smoother and more enjoyable.
+
+As usual, the release can be found on our [downloads page](/downloads/) and [full release notes](/frs/scummvm/1.3.0/ReleaseNotes) are also available.

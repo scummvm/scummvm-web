@@ -1,0 +1,35 @@
+
+---
+title: "We’re starting ScummVM 2.1.0 testing"
+author: sev
+date: 1568674948
+---
+
+The time has finally come to start the release cycle for ScummVM 2.1.0.
+
+The release is going to be big, and these new games require testing:
+
+*   *Blade Runner.*
+*   *Hoyle Bridge.*
+*   *Hoyle Children's Collection.*
+*   *Hoyle Classic Games.*
+*   *Hoyle Solitaire.*
+*   *Hyperspace Delivery Boy!*
+*   *Might and Magic IV - Clouds of Xeen.*
+*   *Might and Magic V - Darkside of Xeen.*
+*   *Might and Magic - World of Xeen.*
+*   *Might and Magic - World of Xeen 2 CD Talkie.*
+*   *Might and Magic - Swords of Xeen.*
+*   *Mission Supernova Part 1.*
+*   *Mission Supernova Part 2.*
+*   *Quest for Glory: Shadows of Darkness.*
+*   *The Prince and the Coward.*
+*   *Versailles 1685.*
+
+Also, with this release, we are finally enabling cloud support for save games and game data. So far, it works only on desktops, you may find a description of this feature in [our User Manual](https://wiki.scummvm.org/index.php?title=User_Manual/Using_Cloud_and_LAN_features).
+
+The complete list of the games that require testing for this release can be found on [our Wiki](https://wiki.scummvm.org/index.php?title=Release_Testing/2.1.0).
+
+Please use a [stable daily build](https://buildbot.scummvm.org/builds.html) of ScummVM for testing. In case you encounter any bugs, there is a place for them to be reported at our [issue tracker](https://bugs.scummvm.org/). Additionally, please track your progress [on the forum thread](https://forums.scummvm.org/viewtopic.php?f=1&t=14945) so we can cross the tested game titles out on the wiki. Make sure to follow our guidelines for release testing which can be found [here](https://wiki.scummvm.org/index.php?title=Release_Testing).
+
+It would be great if you could help with updating the ScummVM GUI translations. The description of the steps you need to follow is on [the Wiki](https://wiki.scummvm.org/index.php?title=HOWTO-Translate_ScummVM_GUI).

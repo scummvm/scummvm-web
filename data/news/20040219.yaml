@@ -1,0 +1,23 @@
+
+---
+title: "0.6.0-PRE testing"
+author: ender
+date: 1077197760
+---
+
+We have recently branched ScummVM 0.6.0, and are now entering the final testing phase. As such, we would be most happy if people could test the latest daily builds (or CVS build from tag 'branch-0-6-0' and report their results.
+
+We have already conducted preliminary testing of several games, but the following still have not been tested and should take priority:
+
+*   V1 Maniac Mansion
+*   V2 Maniac Mansion
+*   V1 Zak McKracken
+*   V2 Zak McKracken
+*   EGA Indiana Jones 3
+*   VGA Indiana Jones 3
+*   EGA Monkey Island 1
+*   Monkey Island 2
+*   The Dig
+*   Curse of Monkey Island (Monkey 3)
+
+Please report bugs in our bug tracker and successful completions of games on our General Forum. Thanks in advance for helping to shape up the next release of ScummVM!

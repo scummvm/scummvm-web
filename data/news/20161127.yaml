@@ -1,0 +1,14 @@
+
+---
+title: "The ScummVM project has a new Translations site"
+author: criezy
+date: 1480253760
+---
+
+![Translation status](https://translations.scummvm.org/widgets/scummvm/-/287x66-white.png)
+
+Until now, translating the ScummVM software was not straightforward. Contributors had to get the translations template file to their computer, update the translation using a dedicated application, and then propose the updated translation to the ScummVM team using a [Pull Request](https://help.github.com/articles/creating-a-pull-request/) or [our bug tracker](https://bugs.scummvm.org/). The ScummVM team itself also had some manual tasks to perform, such as updating the translation templates from the source code when needed or rebuilding the binary translation file after receiving a translator's contribution.
+
+All this belongs to the past. Now, thanks to our new [translations website](https://translations.scummvm.org/), powered by [Weblate](https://weblate.org/), updating the translations is easier and more comfortable than ever before. Translation templates are updated automatically when needed, and so is the binary translation data file. Translators now just have to translate. That's it. The website also helps translators by performing automated quality checks and suggesting (machine) translations.
+
+Finally, the new site also adds a community aspect to translations, enabling users to vote for suggested translations and even make their own suggestions. Anybody can view the translations, but you will need to log in to make suggestions, comment, and vote. You can log in using your GitHub or Facebook account, or by creating an account on the website. You will still need to contact us if you want to contribute further (for example to start a new translation or help on an existing one), as we will need to grant you access to the Translators group. Unlike regular users, translators can accept or reject suggestions and modify translations directly. Contact us by visiting the #scummvm IRC channel on irc.freenode.net or by sending an email to [translation@scummvm.org](mailto:translation@scummvm.org) if you are interested in becoming an official translator. Otherwise, head over to [https://translations.scummvm.org/](https://translations.scummvm.org/) now, and help us make ScummVM accessible to everyone.

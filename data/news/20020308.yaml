@@ -1,0 +1,15 @@
+
+---
+title: "Some Fairly Major Updates"
+author: laxdragon
+date: 1015594560
+---
+
+![Full Throttle](/data/news/20020308.png) BBrox, Endy and Yazoo have been in major crunch mode this week (Kudos guys!). Here is what's new in the development of ScummVM:
+
+*   Sam and Max is now completable!
+*   *inSane* video engine working. Used in Dig and Full Throttle
+*   More command line options for control. See the readme.txt
+*   Preliminary work has begun on Curse of Monkey Island
+*   Mutle has committed the Mac port to the CVS tree
+*   Many many bugs have been fixed.

@@ -27,8 +27,9 @@
 			text-align: right;
 			top: -8px;
 		}
-		&.news img {
-			float: right;
+		img {
+      float: right;
+      margin: 0 10px 10px 10px;
 			max-width: 100%;
 		}
 	}

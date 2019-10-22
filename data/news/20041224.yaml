@@ -1,0 +1,19 @@
+
+---
+title: "Ho! Ho! Ho! Merry Christmas and a Happy New ScummVM 0.7.0!"
+author: fingolfin
+date: 1103895360
+---
+
+We are proud to announce the release of ScummVM 0.7.0, right in time for Christmas Eve!
+
+While not quite as ground breaking as some of our previous major releases, this version sports some notable improvements and additions, amongst them:
+
+*   Added preliminary support for 26 Humongous Entertainment titles
+*   Added support for FLAC (lossless) encoded audio files
+*   Added native support for Macintosh versions of some SCUMM games -- this means the 'rescumm' tool is now mostly obsolete, and you can now play those games directly from the original CD
+*   Added smooth horizontal scrolling for The Dig, Full Throttle and COMI (matching the original engine)
+*   Added support for compressed speech and music in Broken Sword 1 and 2
+*   And as usual, we fixed lots and lots of bugs
+
+A link to the release notes and a more detailed list of changes can be found over on the [downloads page](/downloads/), along with the download links. Updating to this latest and greatest version is strongly recommended to all our users.

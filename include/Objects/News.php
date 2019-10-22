@@ -1,10 +1,12 @@
 <?php
 namespace ScummVM\Objects;
+use Spatie\YamlFrontMatter\YamlFrontMatter;
+use Erusev\Parsedown;
 
 /**
  * The news class represents a news item on the website.
  */
-class News extends BasicObject
+class News
 {
     private $title;
     private $date;
@@ -25,11 +27,13 @@ class News extends BasicObject
      */
     public function __construct($data, $filename, $processContent = false)
     {
-        parent::__construct($data);
-        $this->title = $processContent ? $this->processText($data['title']) : $data['title'];
-        $this->date = $data['date'];
-        $this->author = $data['author'];
-        $this->content = $processContent ? $this->processText($data['content']) : $data['content'];
+        $object = YamlFrontMatter::parse($data);
+        $Parsedown = new \Parsedown();
+
+        $this->title = $processContent ? $this->processText($Parsedown->line($object->title)) : $Parsedown->line($object->title);
+        $this->date = $object->date;
+        $this->author = $object->author;
+        $this->content = $processContent ? $this->processText($Parsedown->text($object->body())) : $Parsedown->text($object->body());
         $this->filename = basename($filename);
     }
 

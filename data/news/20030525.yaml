@@ -1,0 +1,16 @@
+
+---
+title: "Rise, son of Cygna! It is the dawn of ScummVM 0.4.1"
+author: fingolfin
+date: 1053869760
+---
+
+ScummVM 0.4.1, a stability-focused point release, is now available for download. Changes since 0.4.0 include:
+
+*   Several crashes/bugs have been fixed in Curse of Monkey Island.
+*   Several iMUSE and music-related bugs have been fixed.
+*   AdvMame3X is new, giving a 3x scaled and AdvMame-smoothed game.
+*   Fixed airport doors in Zak McKracken
+*   Fixed crash in SDL backend
+
+The source code, as well as binaries for Linux, Windows, Mac OS X, Solaris and PalmOS are already available at our [download page](/downloads/). As always, other binaries (for PocketPC, MorphOS, Dreamcast and others) will follow shortly.

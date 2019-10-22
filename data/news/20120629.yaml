@@ -1,0 +1,22 @@
+
+---
+title: "New release testing period: ScummVM 1.5.0"
+author: Strangerke
+date: 1341063360
+---
+
+Once again, it's time to start a new testing season to prepare the release of ScummVM v1.5.0. As usual, we have announced several new supported games:
+
+*   *Backyard Baseball 2003*
+*   *Blue Force*
+*   *Darby the Dragon*
+*   *Dreamweb*
+*   *Geisha*
+*   *Gregory and the Hot Air Balloon*
+*   *Magic Tales: Liam Finds a Story*
+*   *Once Upon A Time: Little Red Riding Hood*
+*   *Sleeping Cub's Test of Courage*
+*   *Soltys*
+*   *The Princess and the Crab*
+
+So, go grab your favorite games, and play through them using a [daily build](/downloads/#daily). Soltys is also available as a freeware on our [download page](/downloads/#extras). If you find any bugs, report them on the [bug tracker](http://bugs.scummvm.org/). Once you've completed a game, please report it on [the forums](http://forums.scummvm.org/viewtopic.php?p=73072) so it can be added to the [release testing wiki page](http://wiki.scummvm.org/index.php/Release_Testing/1.5.0). When reporting, make sure you provide the version, language, and platform of the game you're testing. Any other questions? Go see the [Release Testing guidelines](http://wiki.scummvm.org/index.php/Release_Testing).

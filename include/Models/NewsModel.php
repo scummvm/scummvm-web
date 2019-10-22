@@ -20,7 +20,7 @@ abstract class NewsModel extends BasicModel
         }
         $filenames = array();
         foreach ($files as $file) {
-            if (substr($file, -5) != '.json') {
+            if (substr($file, -5) != '.yaml') {
                 continue;
             }
             $filenames[] = substr($file, 0, -5);
@@ -38,7 +38,7 @@ abstract class NewsModel extends BasicModel
         global $lang;
         $news = array();
         foreach ($files as $filename) {
-            if (substr($filename, -5) != '.json') {
+            if (substr($filename, -5) != '.yaml') {
                 continue;
             }
             if (!is_file(($fname = DIR_NEWS . "/$lang/" . basename($filename)))
@@ -48,7 +48,7 @@ abstract class NewsModel extends BasicModel
                     continue;
                 }
             }
-            $news[] = new News(json_decode($data, true), $filename, $processContent);
+            $news[] = new News($data, $filename, $processContent);
         }
         return array_reverse($news);
     }
@@ -79,15 +79,17 @@ abstract class NewsModel extends BasicModel
             throw new \ErrorException(self::INVALID_DATE);
         }
         global $lang;
-        if (!is_file(($fname = DIR_NEWS . "/$lang/{$filename}.json"))
+
+        if (!is_file(($fname = DIR_NEWS . "/$lang/{$filename}.yaml"))
             || !is_readable($fname) || !($data = @file_get_contents($fname))
         ) {
-            if (!is_file(($fname = DIR_NEWS . "/{$filename}.json"))
+            if (!is_file(($fname = DIR_NEWS . "/{$filename}.yaml"))
                 || !is_readable($fname) || !($data = @file_get_contents($fname))
             ) {
                 throw new \ErrorException(self::FILE_NOT_FOUND);
             }
         }
-        return new News(json_decode($data, true), $fname, $processContent);
+
+        return new News($data, $fname, $processContent);
     }
 }

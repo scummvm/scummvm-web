@@ -1,0 +1,21 @@
+
+---
+title: "Further testing required for your favorite adventure game interpreter"
+author: LordHoto
+date: 1253453760
+---
+
+As all of you have probably heard, we are still in the testing phase for the 1.0.0 release. So far we have gotten many testings results, because of you, our fellow users. Thanks again to all the people who have already done testing for the next release. Sadly, we are missing some tests for certain games though. Here is the list of games for which we really need some testing results:
+
+*   The Manhole
+*   Rodney's Funscreen
+*   Elvira II - The Jaws of Cerberus
+*   Bargon Attack
+*   Goblins 3
+*   Bud Tucker in Double Trouble
+*   I Have No Mouth, and I Must Scream
+*   Nippon Safes Inc.
+
+If you own one of these games please grab a [daily build](/downloads/#daily) of ScummVM and play through it. Submit any bugs you discover along the way to the [bug tracker](http://bugs.scummvm.org/). When you complete a game, report it on the [forums](http://forums.scummvm.org/viewtopic.php?t=7599) so we can add it to our [release testing wiki page](http://wiki.scummvm.org/index.php/Release_Testing/1.0.0). Be sure to provide the version, language, and platform of the game you're testing (in addition to the name of course) as well as what platform you are testing on. You can find more details on testing [over here](http://wiki.scummvm.org/index.php/Release_Testing).
+
+As you can see on our [release testing wiki page](http://wiki.scummvm.org/index.php/Release_Testing/1.0.0), almost all testing results are from our desktop ports. If you have ScummVM running on console or handheld ports we also ask you to test your games (not necessarily only the ones mentioned above) there as well, and report your results in the above mentioned way.

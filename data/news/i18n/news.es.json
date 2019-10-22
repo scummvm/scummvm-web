@@ -691,14 +691,6 @@
         "title": "",
         "content": ""
     },
-    "20090710a": {
-        "title": "",
-        "content": ""
-    },
-    "20090710b": {
-        "title": "",
-        "content": ""
-    },
     "20090724": {
         "title": "",
         "content": ""
@@ -875,10 +867,6 @@
         "title": "",
         "content": ""
     },
-    "20120401b": {
-        "title": "",
-        "content": ""
-    },
     "20120424": {
         "title": "",
         "content": ""
@@ -955,14 +943,6 @@
         "title": "",
         "content": ""
     },
-    "20130531a": {
-        "title": "",
-        "content": ""
-    },
-    "20130531b": {
-        "title": "",
-        "content": ""
-    },
     "20131011": {
         "title": "",
         "content": ""
@@ -996,10 +976,6 @@
         "content": ""
     },
     "20140401": {
-        "title": "",
-        "content": ""
-    },
-    "20140401b": {
         "title": "",
         "content": ""
     },
@@ -1131,10 +1107,6 @@
         "title": "",
         "content": ""
     },
-    "20170401a": {
-        "title": "",
-        "content": ""
-    },
     "20170428": {
         "title": "",
         "content": ""
@@ -1256,19 +1228,47 @@
         "content": ""
     },
     "20190913": {
-        "title": "Reclutando para <i>Mission Supernova</i>",
+        "title": "Reclutando para *Mission Supernova*",
         "content": ""
     },
     "20190917": {
         "title": "Estamos comenzando las pruebas de ScummVM 2.1.0",
-        "content": "<p>El momento al final ha llegado y comienza el ciclo de producción de ScummVM 2.1.0.</p><p>Esta edición va a ser grande y todos estos nuevos juegos requieren pruebas:</p><ul><li><i>Blade Runner.</i></li>   <li><i>Hoyle Bridge.</i></li>   <li><i>Hoyle Children's Collection.</i></li>   <li><i>Hoyle Classic Games.</i></li>   <li><i>Hoyle Solitaire.</i></li>   <li><i>Hyperspace Delivery Boy!</i></li>   <li><i>Might and Magic IV - Clouds of Xeen.</i></li>   <li><i>Might and Magic V - Darkside of Xeen.</i></li>   <li><i>Might and Magic - World of Xeen.</i></li>   <li><i>Might and Magic - World of Xeen 2 CD Talkie.</i></li>   <li><i>Might and Magic - Swords of Xeen.</i></li>   <li><i>Mission Supernova Part 1.</i></li>   <li><i>Mission Supernova Part 2.</i></li>   <li><i>Quest for Glory: Shadows of Darkness.</i></li>   <li><i>The Prince and the Coward.</i></li>   <li><i>Versailles 1685.</i></li></ul><p>Con esta edición finalmente incluiremos el soporte en la nube para almacenar las partidas y los datos de juego. Por el momento solo funciona en escritorio y pueden encontrar una descripción de sus características en <a href=\"https://wiki.scummvm.org/index.php?title=User_Manual/Using_Cloud_and_LAN_features\">nuestro Manual de Usuario</a>.</p><p>La lista completa de juegos que requieren ser probados en esta edición se puede encontrar en <a href=\"https://wiki.scummvm.org/index.php?title=Release_Testing/2.1.0\">nuestra Wiki</a>.</p><p>Utiliza por favor una <a href=\"https://buildbot.scummvm.org/builds.html\">compilación diaria estable</a> de ScummVM para las pruebas. En caso de que encuentres cualquier fallo puedes reportarlo en nuestro <a href=\"https://bugs.scummvm.org/\">gestor de problemas</a>. Además, puedes registrar tu progreso <a href=\"https://forums.scummvm.org/viewtopic.php?f=1&amp;t=14945\">en el hilo del foro</a> para que podamos cruzar los juegos probados con nuestra wiki. Asegurate de seguir nuestra guía de pruebas, la cual puedes encontrar <a href=\"https://wiki.scummvm.org/index.php?title=Release_Testing\">aquí</a>.</p><p>Sería genial si puedes ayudarnos con las traducciones del interfaz gráfico de ScummVM. La descripción de los pasos a seguir está en <a href=\"https://wiki.scummvm.org/index.php?title=HOWTO-Translate_ScummVM_GUI\">la Wiki</a>.</p>"
+        "content": "El momento al final ha llegado y comienza el ciclo de producción de ScummVM 2.1.0.\n\nEsta edición va a ser grande y todos estos nuevos juegos requieren pruebas:\n\n*   *Blade Runner.*\n*   *Hoyle Bridge.*\n*   *Hoyle Children's Collection.*\n*   *Hoyle Classic Games.*\n*   *Hoyle Solitaire.*\n*   *Hyperspace Delivery Boy!*\n*   *Might and Magic IV - Clouds of Xeen.*\n*   *Might and Magic V - Darkside of Xeen.*\n*   *Might and Magic - World of Xeen.*\n*   *Might and Magic - World of Xeen 2 CD Talkie.*\n*   *Might and Magic - Swords of Xeen.*\n*   *Mission Supernova Part 1.*\n*   *Mission Supernova Part 2.*\n*   *Quest for Glory: Shadows of Darkness.*\n*   *The Prince and the Coward.*\n*   *Versailles 1685.*\n\nCon esta edición finalmente incluiremos el soporte en la nube para almacenar las partidas y los datos de juego. Por el momento solo funciona en escritorio y pueden encontrar una descripción de sus características en [nuestro Manual de Usuario](https://wiki.scummvm.org/index.php?title=User_Manual/Using_Cloud_and_LAN_features).\n\nLa lista completa de juegos que requieren ser probados en esta edición se puede encontrar en [nuestra Wiki](https://wiki.scummvm.org/index.php?title=Release_Testing/2.1.0).\n\nUtiliza por favor una [compilación diaria estable](https://buildbot.scummvm.org/builds.html) de ScummVM para las pruebas. En caso de que encuentres cualquier fallo puedes reportarlo en nuestro [gestor de problemas](https://bugs.scummvm.org/). Además, puedes registrar tu progreso [en el hilo del foro](https://forums.scummvm.org/viewtopic.php?f=1&t=14945) para que podamos cruzar los juegos probados con nuestra wiki. Asegurate de seguir nuestra guía de pruebas, la cual puedes encontrar [aquí](https://wiki.scummvm.org/index.php?title=Release_Testing).\n\nSería genial si puedes ayudarnos con las traducciones del interfaz gráfico de ScummVM. La descripción de los pasos a seguir está en [la Wiki](https://wiki.scummvm.org/index.php?title=HOWTO-Translate_ScummVM_GUI)."
     },
     "20190919": {
-        "title": "Otro juego para probar: <i>Duckman</i>",
-        "content": "<p><i>Duckman: The Graphic Adventures of a Private Dick</i> es un oscuro juego Point and Click basado en el programa de televisión del mismo nombre. Controlarás al sabio detective Duckman mientras intenta recuperar su identidad después de haber sido expulsado sin escrúpulos de su propio programa de televisión. Por desgracia, el lanzamiento del juego para Windows en 1997 coincidió con la cancelación del programa de televisión, lo que limitó la distribución del juego.</p><p>Después de mucho tiempo en desarrollo, el equipo de ScummVM se complace en anunciar soporte para el juego.</p><p> Asegúrate de conseguir <a href=\"https://buildbot.scummvm.org/builds.html\">una compilación reciente</a> y dale una oportunidad. Por favor, informanos de cualquier error que encuentres en <a href=\"https://bugs.scummvm.org/\">nuestro gestor de fallos</a>.</p><p>Tanto la demo como las versiones en inglés y alemán son compatibles. Sólo necesitas el directorio DATA/ del juego original para jugar.</p>"
+        "title": "Otro juego para probar: *Duckman*",
+        "content": "*Duckman: The Graphic Adventures of a Private Dick* es un oscuro juego Point and Click basado en el programa de televisión del mismo nombre. Controlarás al sabio detective Duckman mientras intenta recuperar su identidad después de haber sido expulsado sin escrúpulos de su propio programa de televisión. Por desgracia, el lanzamiento del juego para Windows en 1997 coincidió con la cancelación del programa de televisión, lo que limitó la distribución del juego.\n\nDespués de mucho tiempo en desarrollo, el equipo de ScummVM se complace en anunciar soporte para el juego.\n\nAsegúrate de conseguir [una compilación reciente](https://buildbot.scummvm.org/builds.html) y dale una oportunidad. Por favor, informanos de cualquier error que encuentres en [nuestro gestor de fallos](https://bugs.scummvm.org/).\n\nTanto la demo como las versiones en inglés y alemán son compatibles. Sólo necesitas el directorio DATA/ del juego original para jugar."
     },
     "20191013": {
         "title": "ScummVM 2.1.0 \"Electric Sheep\" en producción.",
-        "content": "<p>\"La venta de animales era un negocio beneficioso y de prestigio ya que la mayoría de los animales reales habían desaparecido tras la guerra terráquea; no obstante había muchos eléctricos...\" Oh, ejem, no sabía que estabas ahí.</p><p>El equipo de ScummVM está encantado de anunciar el lanzamiento de ScummVM versión 2.1.0. Este lanzamiento es la culminación de cerca de dos años de duro trabajo, incluyendo 16 nuevos juegos de 8 motores distintos, soporte para Nintendo Switch y se han arreglado cerca de 500 errores. Todo esto se ha conseguido con el arduo trabajo de 147 contribuidores mediante 8,493 commits.</p> Los nuevos juegos soportados son:<ul><li><i>Blade Runner</i></li><li><i>Duckman: The Graphic Adventures of a Private Dick</i></li><li><i>Hoyle Bridge</i></li><li><i>Hoyle Children's Collection</i></li><li><i>Hoyle Classic Games</i></li><li><i>Hoyle Solitaire</i></li><li><i>Hyperspace Delivery Boy!</i></li><li><i>Might and Magic IV - Clouds of Xeen</i></li><li><i>Might and Magic V - Darkside of Xeen</i></li><li><i>Might and Magic - World of Xeen</i></li><li><i>Might and Magic - Swords of Xeen</i></li><li><i>Mission Supernova Part 1</i></li><li><i>Mission Supernova Part 2</i></li><li><i>Quest for Glory: Shadows of Darkness</i></li><li><i>The Prince and the Coward</i></li><li><i>Versailles 1685</i></li></ul><p>Además, hemos mejorado considerablemente las versiones para Android e iOS. También te encontrarás con un nuevo lavado de cara del interfaz gráfico de usuario, mejor emulación de sonido Roland MT-32, un nuevo modo de estiramiento \"pixel-perfect\", conversión de texto a voz para macOS y Linux, y por último pero no menos importante, soporte para sincronizar partidas y datos de juego con servicios de almacenamiento en la nube (puedes ver la lista actualizada de plataformas en <a href=\"https://wiki.scummvm.org/index.php?title=User_Manual/Using_Cloud_and_LAN_features\">nuestro manual de  usuario</a>).</p><p>Como de costumbre, hemos mejorado muchos de los motores existentes: hemos incluido soporte para las versiones de <i>Myst 25 Aniversario</i>, hemos corregido más de 100 errores de scripts SCI que plagaban los juegos de Sierra durante décadas, hemos incluido soporte para las versiones de Amiga y FM-TOWNS de <i>Eye of the Beholder</i>, mejorado la calidad de audio de los juegos de Humongous Entertainment e incluido sincronización de labios para las aventuras más modernas de LucasArts y hemos desintegrado toneladas de errores de <i>Starship Titanic</i> y <i>Bud Tucker</i>. La lista no acaba aquí y puedes ver el registro completo de cambios <a href=\"https://www.scummvm.org/frs/scummvm/2.1.0/ReleaseNotes.html\">aquí</a>.</p><p>No más lagrimas en la lluvia y <a href=\"/downloads/\">consigue ya</a> esta eléctrica versión. Los usuarios de Windows y macOS pueden actualizar automáticamente al iniciar ScummVM.</p>"
+        "content": "\"La venta de animales era un negocio beneficioso y de prestigio ya que la mayoría de los animales reales habían desaparecido tras la guerra terráquea; no obstante había muchos eléctricos...\" Oh, ejem, no sabía que estabas ahí.\n\nEl equipo de ScummVM está encantado de anunciar el lanzamiento de ScummVM versión 2.1.0. Este lanzamiento es la culminación de cerca de dos años de duro trabajo, incluyendo 16 nuevos juegos de 8 motores distintos, soporte para Nintendo Switch y se han arreglado cerca de 500 errores. Todo esto se ha conseguido con el arduo trabajo de 147 contribuidores mediante 8,493 commits.\n\nLos nuevos juegos soportados son:\n\n*   *Blade Runner*\n*   *Duckman: The Graphic Adventures of a Private Dick*\n*   *Hoyle Bridge*\n*   *Hoyle Children's Collection*\n*   *Hoyle Classic Games*\n*   *Hoyle Solitaire*\n*   *Hyperspace Delivery Boy!*\n*   *Might and Magic IV - Clouds of Xeen*\n*   *Might and Magic V - Darkside of Xeen*\n*   *Might and Magic - World of Xeen*\n*   *Might and Magic - Swords of Xeen*\n*   *Mission Supernova Part 1*\n*   *Mission Supernova Part 2*\n*   *Quest for Glory: Shadows of Darkness*\n*   *The Prince and the Coward*\n*   *Versailles 1685*\n\nAdemás, hemos mejorado considerablemente las versiones para Android e iOS. También te encontrarás con un nuevo lavado de cara del interfaz gráfico de usuario, mejor emulación de sonido Roland MT-32, un nuevo modo de estiramiento \"pixel-perfect\", conversión de texto a voz para macOS y Linux, y por último pero no menos importante, soporte para sincronizar partidas y datos de juego con servicios de almacenamiento en la nube (puedes ver la lista actualizada de plataformas en [nuestro manual de usuario](https://wiki.scummvm.org/index.php?title=User_Manual/Using_Cloud_and_LAN_features)).\n\nComo de costumbre, hemos mejorado muchos de los motores existentes: hemos incluido soporte para las versiones de *Myst 25 Aniversario*, hemos corregido más de 100 errores de scripts SCI que plagaban los juegos de Sierra durante décadas, hemos incluido soporte para las versiones de Amiga y FM-TOWNS de *Eye of the Beholder*, mejorado la calidad de audio de los juegos de Humongous Entertainment e incluido sincronización de labios para las aventuras más modernas de LucasArts y hemos desintegrado toneladas de errores de *Starship Titanic* y *Bud Tucker*. La lista no acaba aquí y puedes ver el registro completo de cambios [aquí](https://www.scummvm.org/frs/scummvm/2.1.0/ReleaseNotes.html).\n\nNo más lagrimas en la lluvia y [consigue ya](/downloads/) esta eléctrica versión. Los usuarios de Windows y macOS pueden actualizar automáticamente al iniciar ScummVM."
+    },
+    "20090710a": {
+        "title": "",
+        "content": ""
+    },
+    "20090710b": {
+        "title": "",
+        "content": ""
+    },
+    "20120401b": {
+        "title": "",
+        "content": ""
+    },
+    "20130531a": {
+        "title": "",
+        "content": ""
+    },
+    "20130531b": {
+        "title": "",
+        "content": ""
+    },
+    "20140401b": {
+        "title": "",
+        "content": ""
+    },
+    "20170401a": {
+        "title": "",
+        "content": ""
     }
 }

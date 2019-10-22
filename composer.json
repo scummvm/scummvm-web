@@ -13,7 +13,9 @@
     "smarty/smarty": "^3.1",
     "ezyang/htmlpurifier": "^4.10",
     "altorouter/altorouter": "^1.2",
-    "piwik/device-detector": "^3.11"
+    "piwik/device-detector": "^3.11",
+    "spatie/yaml-front-matter": "^2.0",
+    "erusev/parsedown": "^1.7"
   },
   "scripts": {
     "post-install-cmd": [
@@ -41,7 +43,8 @@
       "@build-common",
       "mkdir -p templates/compiled"
     ],
-    "run": [
+    "start": [
+      "Composer\\Config::disableProcessTimeout",
       "php -S localhost:8000 -t ./public_html"
     ],
     "develop": [

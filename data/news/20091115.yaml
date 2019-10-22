@@ -1,0 +1,16 @@
+
+---
+title: "ScummVM 1.0.0 \"Shiny Logo\" is finally out"
+author: sev
+date: 1258292160
+---
+
+It was just 3.5 months ago when we started to prepare for this release, and now finally the day has come.
+
+Ladies and gentlemen, please greet the one and only ScummVM 1.0.0 "Shiny Logo!" The long awaited, the most anticipated, the best... whatever.
+
+We worked very hard on stability in this release, and in addition to all that goodness available since our 1.0.0rc1, we added a new set of ports for Motorola Linux-based phones (those on MotoEZX and MotoMAGX platforms) and fixed just a few hundred bugs.
+
+The release is available from the [usual place](/downloads/), and the full list of changes can be found [right here](https://github.com/scummvm/scummvm/raw/v1.0.0/NEWS) in the NEWS file.
+
+Now jump to the [downloads page](/downloads/), grab a build for your favorite device and spread the word that ScummVM is 1.0.0!

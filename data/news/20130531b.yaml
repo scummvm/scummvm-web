@@ -1,0 +1,25 @@
+
+---
+title: "Release of ScummVM 1.6.0 \"+4 to engines\""
+author: sev
+date: 1370007360
+---
+
+After 11 long months we are thrilled to announce the release of ScummVM 1.6.0.
+
+It's not very often (if ever) that we add 4 new engines in a single release, but yes, these have been busy months for the team indeed.
+
+Let's just list the new games 1.6.0 contains for you:
+
+*   *3 Skulls of the Toltecs*
+*   *Eye of the Beholder*
+*   *Eye of the Beholder II: The Legend of Darkmoon*
+*   *Hopkins FBI*
+*   *Tony Tough and the Night of Roasted Moths*
+*   *The Journeyman Project: Pegasus Prime*
+
+Other significant features include support for the Macintosh version of *Discworld 1* and the music in the Macintosh versions of LucasArts adventures, an update to the latest Roland MT-32 emulation code, a new cool grid chooser for your savegames, an extended FluidSynth configuration dialog, and major bugfixes to bike fights in *Full Throttle*. We have also added Belarusian, Finnish and Galician translations to our GUI.
+
+Of course, there is much more; you can find the full list in [our release notes](/frs/scummvm/1.6.0/ReleaseNotes) and the release itself on our [downloads page](/downloads/).
+
+Enjoy!

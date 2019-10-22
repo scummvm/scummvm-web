@@ -1,0 +1,20 @@
+
+---
+title: "ScummVM 1.8.1 \"Where Is Your Android?\" maintenance release is out"
+author: sev
+date: 1464183360
+---
+
+It has been a couple of months since ScummVM 1.8.0, which means it’s time for a new point release! ScummVM 1.8.1 is now available with fixes for important bugs and support for even more platforms.
+
+One of the most important "features" of this release is a major upgrade to the Android port. This upgrade also adds support for the OUYA console. We are currently working on bringing this new release straight to Google Play, but for the impatient among you, feel free to go ahead and [install the APKs manually](/downloads). The Android port now comes in two flavours, our "classic" OpenGL-based one, and a new variant based on SDL. The SDL port has better compatibility with some Android devices and also works better with some engines. Please give it a try and tell us on [our forums](http://forums.scummvm.org/viewforum.php?f=17) or via the [bug tracker](http://bugs.scummvm.org/) about your experience.
+
+We will also be adding Nintendo 3DS support! As of release time, the new binaries have not yet been built by our new porter, but they should be available soon. Keep your eyes peeled!
+
+64-bit Mac binaries now include experimental automatic update checking using [Sparkle](https://sparkle-project.org/). Auto-updating is selected as an opt-in during your first start up, and by default checks weekly for new releases. When version 1.9.0 is released, users of 1.8.1 will be presented with a nice dialog for updating. If you'd like to see a similar feature for Windows or other platforms, let us know! All the details on how the update process works can be found [here](https://sparkle-project.org/).
+
+No ScummVM release would be complete without game engine updates! ScummVM 1.8.1 includes fixes for *Drascula*, *Legend of Kyrandia*, *Labyrinth of Time*, localized versions of *I Have No Mouth*, *Broken Sword 2.5* and improvements to the Windows, OS X and GCW0 ports.
+
+The full list of changes included in this release can be found in [the release notes](/frs/scummvm/1.8.1/ReleaseNotes) and the binaries are provided on our [downloads page](/downloads/).
+
+Get ready, grab your beloved Android device, install ScummVM on it, and play!

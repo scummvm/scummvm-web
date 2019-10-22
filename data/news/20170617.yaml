@@ -1,0 +1,14 @@
+
+---
+title: "Hi-Res Adventures"
+author: waltervn
+date: 1497706560
+---
+
+Last year, we added support for three of Sierra's Hi-Res Adventure games: *Mystery House* (#1), *Mission: Asteroid* (#0) and *Wizard and the Princess* (#2). We're proud to announce that three more Apple II games are now playable in ScummVM and ready for testing: *Ulysses and the Golden Fleece* (#4), *Time Zone* (#5) and *The Dark Crystal* (#6).
+
+For *Ulysses and the Golden Fleece*, we currently support the Load 'N' Go budget release. For *Time Zone* and *The Dark Crystal* we support the disk images that can be found on some of the [Sierra collection CDs](http://wiki.scummvm.org/index.php/SCI/Game_Collections). The [Datafiles wiki page](http://wiki.scummvm.org/index.php/Datafiles) has been updated with the required filenames for the disk images.
+
+If you own one of those classics, grab the latest [daily build](/downloads/#daily) and try it out! If you encounter an issue, please post a bug report following our [testing guidelines](http://wiki.scummvm.org/index.php/Release_Testing). And while you're at it, please take some [screenshots!](http://wiki.scummvm.org/index.php/Screenshots)
+
+You may be wondering what happened to *Hi-Res Adventure #3: Cranston Manor*. Unfortunately, we still have not been able to locate a copy of this game after looking for it for over a year. If you own it, we'd love to [hear from you](/contact/)!

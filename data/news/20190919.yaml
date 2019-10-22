@@ -1,0 +1,14 @@
+
+---
+title: "Another game to test: *Duckman*"
+author: yuv422
+date: 1568920759
+---
+
+*Duckman: The Graphic Adventures of a Private Dick* is an obscure point and click game based on the TV show of the same name. You control the wise cracking detective Duckman as he attempts to regain his identity after being unceremoniously dumped from his own TV show. The game's release for Windows in 1997 unfortunately coincided with the TV show being cancelled, which limited the distribution of the game.
+
+After a long time in development, the ScummVM team is happy to announce support for the game.
+
+Make sure to grab [a recent build](https://buildbot.scummvm.org/builds.html) and give it a try. Please report any bugs that you find to [our issue tracker](https://bugs.scummvm.org/).
+
+The English, German and Demo versions are supported. You just need the DATA/ directory from the original game to play.

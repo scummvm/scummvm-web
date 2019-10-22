@@ -1,6 +1,0 @@
-{
-    "title": "Prepare your Switch for new adventures!",
-    "content": "<p>It's always exciting to see the wide variety of devices that are able to run your favourite adventure games thanks to ScummVM. Today, we are proud to announce that the number of devices has grown again by the immediate availability of ScummVM for the Nintendo Switch!</p><p>Thanks to Cpasjuste and rsn8887, you are now able to use ScummVM on the go.</p><p>In order to run ScummVM on your Switch, you need a modded console that's able to run homebrew software. Don't worry - there's plenty of documentation about enabling homebrew on the Nintendo Switch available online.</p><p>This new port already has it's own page in <a href=\"https://wiki.scummvm.org/index.php?title=Nintendo_Switch\">our wiki</a>. You should definitely have a look on the wiki page since it contains lots of useful information on how to use ScummVM on the Switch.</p><p>If you have any further questions regarding this port, feel free to visit our <a href=\"https://forums.scummvm.org/viewforum.php?f=24\">forums</a>.</p><p>Our <a href=\"https://buildbot.scummvm.org/builds.html\">buildbot</a> is already providing development versions for the Nintendo Switch. Go grab them while they're hot!</p>",
-    "date": "1560002499",
-    "author": "lotharsm"
-}

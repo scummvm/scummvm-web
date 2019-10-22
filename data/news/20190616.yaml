@@ -1,0 +1,18 @@
+
+---
+title: "Blade Runners Needed!"
+author: peterkohaut
+date: 1560679776
+---
+
+Our ScummVM team is looking for Blade Runners who will help find, chase, and retire bugs which escaped from the off-world data colonies. These bugs are not dangerous and they won't stop you from discovering more secrets and choosing your fate. Your spinner, gun, ESPER machine and Voight - Kampff machine will be at your disposal.
+
+We are announcing that Blade Runner is ready for testing. The following languages are supported - English (both CD and DVD releases), German, Italian, French, Spanish, and the unofficial Russian version by Fargus Multimedia.
+
+Find your copy of Blade Runner, [grab the latest development build of ScummVM](https://buildbot.scummvm.org/builds.html) (NOT the latest stable build) and [copy the necessary files](https://wiki.scummvm.org/index.php?title=Datafiles#Blade_Runner).
+
+Now you can play the game with subtitles! Just download [the subtitles zip file](https://www.scummvm.org/games/#bladerunner) extract the subtitles.mix and place it among the rest of the Blade Runner files. So far we have only English and French subtitles, however, if you want to help us transcribe other languages from audio, please [contact peterkohaut & praetorian](https://www.scummvm.org/contact/).
+
+Note that when you add your game directory in ScummVM you'll be presented with two choices for the game. The first option is for the original game and will simply be named "Blade Runner"; we're mainly interested for your feedback for this version of the game, since it is considered feature complete. The other option is for importing the game with restored content and is named "Blade Runner with restored content"; this version is still work-in-progress and not yet complete. If you're testing this version please specify it explicitly in your [feedback and bug reports](https://bugs.scummvm.org/).
+
+If your version of the game is not supported, please [create a feedback report with MD5](https://wiki.scummvm.org/index.php/Reporting_unknown_MD5_checksums) so that we can add support for it.

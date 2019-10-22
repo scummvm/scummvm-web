@@ -1,0 +1,12 @@
+
+---
+title: "The End of the Beginning"
+author: clone2727
+date: 1247232960
+---
+
+It's time for everyone's favorite semiannual event! ScummVM Release Testing Season (TM)! However, this season we will be testing for **1.0.0**! That's right, **1.0.0**!
+
+For this release, we have added support for a bunch of new games: *Cruise for a Corpse*, *Discworld*, *Discworld 2 - Missing Presumed ...!?*, *Leather Goddesses of Phobos 2*, *The Manhole*, *Return to Zork*, and *Rodney's Funscreen*.
+
+As usual, go grab a [daily build](/downloads/#daily) of ScummVM, play through the games and submit any bugs you see along the way to the [bug tracker](http://bugs.scummvm.org/). When you complete a game, report it on the [forums](http://forums.scummvm.org/viewtopic.php?t=7599) so we can add it to our [release testing wiki page](http://wiki.scummvm.org/index.php/Release_Testing/1.0.0). Be sure to provide the version, language, and platform of the game you're testing (in addition to the name of course). You can find more details on testing [over here](http://wiki.scummvm.org/index.php/Release_Testing).

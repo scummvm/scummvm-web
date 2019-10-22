@@ -1,0 +1,20 @@
+
+---
+title: "What have you done this time, you meddling milquetoast?!?"
+author: ender
+date: 1090935360
+---
+
+ScummVM 0.6.1 is out, and can now be grabbed from our download page!  
+Among the usual changes, ScummVM should now run natively on 64-bit machines -- something we actually forgot to mention in the NEWS file.
+
+And you know what they say: "To save the world, you have to push a few old ladies down the stairs." So we made a mother-load of fixes in this release. Some of the wonderful things you will no LONGER see in ScummVM include:
+
+*   Glitches using an Ogg Vorbis talkie file in some games
+*   Crashes on 64-bit machines
+*   Crashes when saving to an invalid directory in Broken Sword 1
+*   Lots of sound glitches in Curse of Monkey Island, Full Throttle and The Dig
+*   Crashes in some international versions of Simon the Sorcerer
+*   ... and lots of other annoying bugs!
+
+So don't delay, download today. Downloads are not yet available for all supported ports, such as non-ARM PocketPCs and the HandheldPC binaries. These should become available within the next week.
