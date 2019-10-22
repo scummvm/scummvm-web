@@ -84,6 +84,6 @@ class News
     /* Get the News link. */
     public function getLink()
     {
-        return URL_BASE . 'news/' . substr($this->filename, 0, -5);
+        return URL_BASE . 'news/' . substr($this->filename, 0, -9);
     }
 }

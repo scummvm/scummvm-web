@@ -49,11 +49,11 @@
     ],
     "develop": [
       "@build",
-      "@run"
+      "@start"
     ],
     "develop-win": [
       "@build-win",
-      "@run"
+      "@start"
     ],
     "lint": [
       "phpcbf ./include"

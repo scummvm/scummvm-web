@@ -51,7 +51,7 @@ class I18N
             $i18n = json_decode(file_get_contents(DIR_NEWS . "/i18n/news.{$lang}.json"));
 
             foreach ($i18n as $key => $value) {
-                $object = YamlFrontMatter::parse(file_get_contents(DIR_NEWS . "/{$key}.yaml"));
+                $object = YamlFrontMatter::parse(file_get_contents(DIR_NEWS . "/{$key}.markdown"));
                 $title = $this->purifier->purify(str_replace('"', '\"', $value->title));
                 $date = $this->purifier->purify($object->date);
                 $author = $this->purifier->purify($object->author);
@@ -60,7 +60,7 @@ class I18N
                 $yaml = "---\ntitle: \"$title\"\ndate: $date\nauthor: $author\n---\n\n$content\n";
 
                 file_put_contents(
-                    DIR_NEWS . "/{$lang}/{$key}.yaml",
+                    DIR_NEWS . "/{$lang}/{$key}.markdown",
                     $yaml
                 );
             }
@@ -90,13 +90,13 @@ class I18N
         }
         $news = array();
         foreach ($files as $filename) {
-            if (substr($filename, -5) != '.yaml') {
+            if (substr($filename, -9) != '.markdown') {
                 continue;
             }
             if (!($data = @file_get_contents($dir . "/{$filename}"))) {
                 continue;
             }
-            $key = rtrim($filename, ".yaml");
+            $key = rtrim($filename, ".markdown");
             $object = YamlFrontMatter::parse($data);
             $news[$key] = array('title' => $object->title, 'content' => trim($object->body()));
         }
