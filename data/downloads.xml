@@ -212,14 +212,19 @@
 				<file>
 					<category_icon>iphone</category_icon>
 					<url>scummvm-{$release}-ios.deb</url>
-					<name>iOS package .deb</name>
+					<name>iOS 8+ package .deb</name>
 					<user_agent>iOS</user_agent>
 				</file>
 				<file>
 					<category_icon>iphone</category_icon>
 					<url>scummvm-{$release}-ios.ipa</url>
-					<name>iOS package .ipa</name>
+					<name>iOS 8+ package .ipa</name>
 					<user_agent>iOS</user_agent>
+				</file>
+				<file>
+					<category_icon>iphone</category_icon>
+					<url>scummvm-{$release}-ios3.ipa</url>
+					<name>iOS 3+ package .deb</name>
 				</file>
 <!--
 				<file>
