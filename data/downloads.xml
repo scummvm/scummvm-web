@@ -223,7 +223,7 @@
 				</file>
 				<file>
 					<category_icon>iphone</category_icon>
-					<url>scummvm-{$release}-ios3.ipa</url>
+					<url>scummvm-{$release}-ios3.deb</url>
 					<name>iOS 3+ package .deb</name>
 				</file>
 <!--
