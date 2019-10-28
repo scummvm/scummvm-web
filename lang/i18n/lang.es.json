@@ -142,7 +142,7 @@
     "introHeaderWhatIs": "¿Qué es ScummVM?",
     "introHeaderContentP1": "ScummVM es un programa que te permite ejecutar ciertas aventuras gráficas clásicas, siempre y cuando ya tengas sus archivos de datos. Lo interesante de esto es que ScummVM simplemente reemplaza los ejecutables que vienen con los juegos, permitiéndote jugarlos en sistemas para los que nunca fueron diseñados. ",
     "introHeaderContentP2": "ScummVM soporta muchas aventura gráficas, incluyendo los juegos de LucasArts SCUMM (como <i>Monkey Island</i> 1-3, <i>Day of the Tentacle</i>, <i>Sam &amp; Max</i>, ...), muchos de los juegos AGI y SCI de Sierra (como <i>King's Quest</i> 1-7, <i>Space Quest</i> 1-6, etc.).), <i>Discworld</i> 1 y 2, <i>Simon the Sorcerer</i> 1 y 2, <i>Beneath a Steel Sky</i>, <i>Lure of the Temptress</i>, <i>Broken Sword</i> 1 y 2, <i>Flight of the Amazon Queen</i>, <i>Gobliiins</i> 1-3, <i>The Legend of Kyrandia</i> 1-3, muchos de los juegos infantiles de SCUMM de Humongous Entertainment (incluyendo <i>Freddi Fish</i> y <i>Putt Putt</i> juegos) y muchos más. ",
-    "introHeaderContentP3": "En la página de <a href=\"/compatibility/\">compatibilidad</a> encontrarás una lista detallada con los juegos compatibles y su calidad. ScummVM está mejorando continuamente, así que revisala con frecuencia. Entre los sistemas en los que se pueden jugar estos juegos están Windows, Linux, Mac OS X, Dreamcast, PocketPC, PalmOS, AmigaOS, BeOS, OS/2, PSP, PS2, SymbianOS y muchos más... ",
+    "introHeaderContentP3": "En la página de <a href=\"/compatibility/\">compatibilidad</a> encontrarás una lista detallada con los juegos compatibles y su calidad. ScummVM está mejorando continuamente, así que revisala con frecuencia. Entre los sistemas en los que se pueden jugar estos juegos están Windows, Linux, macOS, iOS, Android, PS Vita, switch, Dreamcast, AmigaOS, Atari/FreeMiNT, RISC OS, Haiku, PSP, PS3, Maemo, GCW Zero y muchos más... ",
     "introHeaderContentP4": "Nuestro foro <a href=\"https://discord.gg/5D8yTtF\"> Servidor Discord</a>, y nuestro canal IRC <a href=\"irc://irc.freenode.net/scummvm?key=scummvm\"> #scummvm en irc.freenode.net</a>, están abiertos para recibir comentarios y sugerencias. Por favor, lee nuestras <a href=\"/faq/\">PUF</a>  antes de escribir. ",
     "introHeaderContentP5": "Puedes apoyar el proyecto expresando tu entusiasmo en forma de donación vía PayPal aunque valoramos más las contribuciones en código. ",
     "linksTitle": "Enlaces",
@@ -203,5 +203,7 @@
     "menuMiscDemos": "Demos",
     "menuMiscPress": "Cobertura en prensa",
     "menuMiscContact": "Contacto",
-    "menuMiscLinks": "Enlaces"
+    "menuMiscLinks": "Enlaces",
+    "compatabilityDetailsChartCol4": "Archivos de datos",
+    "compatabilityDetailsDetails": "Detalles"
 }
