@@ -200,5 +200,8 @@
     "cookieAccept": "Accetta i cookies",
     "cookieDecline": "Rifiuta i cookies",
     "downloadEngineData": "Files aggiuntivi per motori di gioco",
-    "contactDiscordHeader": "Discord"
+    "contactDiscordHeader": "Discord",
+    "contactDiscord": "<p>Unitevi a noi su Discord! Non importa se volete solo frequentare la comunità di ScummVM o se volete discutere gli ultimi sviluppi, il nostro <a href=\"https://discord.gg/5D8yTtF\">Server Discord</a> è il posto dove andare. Nota: questo server è solo in inglese.",
+    "compatabilityDetailsChartCol4": "File di gioco",
+    "compatabilityDetailsDetails": "Dettagli"
 }
