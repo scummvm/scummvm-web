@@ -100,7 +100,7 @@ $pages = array(
 $router = new \AltoRouter();
 
 // Custom match for Compatability ID.
-$router->addMatchTypes(array('cId' => '(DEV)|[0-9\.]++'));
+$router->addMatchTypes(array('cId' => "dev|[\d\.]+([rc\d]+)?"));
 
 foreach ($pages as $key => $value) {
     $router->map('GET', $key, $value);
