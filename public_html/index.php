@@ -13,7 +13,8 @@ $available_languages = array(
   'de' => 'Deutsch',
   'fr' => 'Français',
   'it' => 'Italiano',
-  'ru' => 'Русский'
+  'ru' => 'Русский',
+  'el' => 'Greek'
 );
 
 function get_preferred_languages()

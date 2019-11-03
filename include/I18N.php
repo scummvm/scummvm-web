@@ -20,7 +20,7 @@ class I18N
         $config = \HTMLPurifier_Config::createDefault();
         $this->purifier = new \HTMLPurifier($config);
 
-        $langs = ['en', 'it', 'fr', 'ru', 'de'];
+        $langs = ['en', 'it', 'fr', 'ru', 'de', 'el'];
         foreach ($langs as $key => $value) {
             $this->convertLanguageJsonToSmartyIni('lang.' . $value);
             $this->updateNewsI18n($value);
@@ -36,6 +36,7 @@ class I18N
 
         $output = "";
         foreach ($json as $key => $value) {
+          if ($value)
             $output .= $key . " = " . $this->purifier->purify($value). "\n";
         }
 
@@ -47,15 +48,26 @@ class I18N
 
         // For non-english, create/overwrite JSON files from our i18n file
         if ($lang != 'en') {
+            if (!file_exists(DIR_NEWS . "/i18n/news.{$lang}.json")) return;
             echo("Converting " . DIR_NEWS . "/i18n/news.{$lang}.json to individual JSON files\n");
             $i18n = json_decode(file_get_contents(DIR_NEWS . "/i18n/news.{$lang}.json"));
 
             foreach ($i18n as $key => $value) {
                 $object = YamlFrontMatter::parse(file_get_contents(DIR_NEWS . "/{$key}.markdown"));
-                $title = $this->purifier->purify(str_replace('"', '\"', $value->title));
+
                 $date = $this->purifier->purify($object->date);
                 $author = $this->purifier->purify($object->author);
-                $content = $this->purifier->purify(trim($value->content));
+                if (array_key_exists('content', $value)) {
+                  $title = $this->purifier->purify(str_replace('"', '\"', $value->title));
+                } else {
+                  $title = $this->purifier->purify(str_replace('"', '\"', $object->title));
+                }
+                if (array_key_exists('content', $value)) {
+                  $content = $this->purifier->purify(trim($value->content));
+                } else {
+                  $content = $this->purifier->purify(trim($object->content));
+                }
+
 
                 $yaml = "---\ntitle: \"$title\"\ndate: $date\nauthor: $author\n---\n\n$content\n";
 
