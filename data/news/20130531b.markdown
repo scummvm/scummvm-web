@@ -1,4 +1,3 @@
-
 ---
 title: "Release of ScummVM 1.6.0 \"+4 to engines\""
 author: sev

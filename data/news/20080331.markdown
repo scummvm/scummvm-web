@@ -1,4 +1,3 @@
-
 ---
 title: "ScummVM in GSoC. Don't miss your last train"
 author: sev (blatantly borrowed from Fingolfin)

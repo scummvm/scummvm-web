@@ -1,4 +1,3 @@
-
 ---
 title: "Fate of the boot params"
 author: fingolfin

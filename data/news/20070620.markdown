@@ -1,4 +1,3 @@
-
 ---
 title: "ScummVM 0.X.0: \"Tic-tac-toe edition\""
 author: fingolfin

@@ -1,4 +1,3 @@
-
 ---
 title: "WinCE port for ScummVM 0.9.0 updated"
 author: knakos

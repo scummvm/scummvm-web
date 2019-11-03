@@ -1,4 +1,3 @@
-
 ---
 title: "Boot params, anybody got some boot params?"
 author: fingolfin

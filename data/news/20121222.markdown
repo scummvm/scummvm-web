@@ -1,4 +1,3 @@
-
 ---
 title: "ResidualVM Reaches 0.1.0"
 author: Strangerke
