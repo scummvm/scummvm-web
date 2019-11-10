@@ -1,5 +1,5 @@
 {
-  "locale": "ru\\_RU.UTF-8",
+  "locale": "ru_RU.UTF-8",
   "dateformat": "%e %b %Y",
   "compatibilityUntested": "Не тестировано",
   "compatibilityBroken": "Сломано",
@@ -55,9 +55,9 @@
   "downloadsBinaries": "{release} Release binaries",
   "downloadsBinariesNote1": "For a list of changes since the previous version,",
   "downloadsBinariesNote2": "read the release notes",
-  "downloadsBinariesNote3": "{release\\_debian} is also apt-get'able from Debian unstable (sid).",
+  "downloadsBinariesNote3": "{release_debian} is also apt-get'able from Debian unstable (sid).",
   "downloadsSourceCode": "{release} Source Code",
-  "downloadsTools": "{release\\_tools} Tools",
+  "downloadsTools": "{release_tools} Tools",
   "downloadsOldBinaries": "Older versions (unsupported)",
   "downloadsOld": "Older versions",
   "downloadsOldBinariesNote": "In a few cases, we do not (yet) have new binaries of ScummVM and/or the ScummVM tools for some platforms. In these cases, we still have older versions around, for your convenience.",

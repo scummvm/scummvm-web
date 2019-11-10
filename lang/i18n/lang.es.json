@@ -79,7 +79,7 @@
   "downloadsBinariesNote2": "leer las notas de edición",
   "downloadsBinariesNote3": "ScummVM {release} está también disponible en los repositorios de software de muchas distribuciones GNU/Linux.",
   "downloadsSourceCode": "Código Fuente de {release}",
-  "downloadsTools": "Herramientas de {release\\_tools}",
+  "downloadsTools": "Herramientas de {release_tools}",
   "downloadsOldBinaries": "Versiones antiguas (sin soporte)",
   "downloadsOld": "Versiones antiguas",
   "downloadsOldBinariesNote": "En algunos casos ya no tenemos nuevos binarios de ScummVM y/o de sus herramientas para algunas plataformas. Es esos casos todavía mantenemos versiones antiguas como alternativa.",

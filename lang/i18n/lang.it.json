@@ -1,5 +1,5 @@
 {
-  "locale": "it\\_IT.UTF8",
+  "locale": "it_IT.UTF8",
   "dateformat": "%e %B %Y",
   "compatibilityUntested": "Non testato",
   "compatibilityBroken": "Non funzionante",
@@ -57,7 +57,7 @@
   "downloadsBinariesNote2": "lista dei cambiamenti rispetto alle versioni precedenti",
   "downloadsBinariesNote3": "ScummVM {release} è disponibile nei repository di molte distribuzioni GNU/Linux.",
   "downloadsSourceCode": "Codice sorgente {release}",
-  "downloadsTools": "Tool {release\\_tools}",
+  "downloadsTools": "Tool {release_tools}",
   "downloadsOldBinaries": "Versioni passate (non supportate)",
   "downloadsOld": "Versioni passate",
   "downloadsOldBinariesNote": "Nel caso di alcune piattaforme, non sono (per ora) disponibili nuovi eseguibili di ScummVM e/o dei tool. Per tali piattaforme, abbiamo ancora le vecchie versioni.",

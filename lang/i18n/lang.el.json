@@ -1,5 +1,5 @@
 {
-  "locale": "el\\_GR.UTF-8",
+  "locale": "el_GR.UTF-8",
   "dateformat": "%e %b, %Y",
   "compatibilityUntested": "Αδοκίμαστο",
   "compatibilityBroken": "Δεν λειτουργεί",
@@ -81,7 +81,7 @@
   "downloadsBinariesNote2": "διαβάστε τις σημειώσεις κυκλοφορίας (release notes)",
   "downloadsBinariesNote3": "Το ScummVM {release} είναι επίσης διαθέσιμο στα αποθετήρια λογισμικού (software repositories) πολλών διανομών GNU/Linux.",
   "downloadsSourceCode": "Πηγαίος Κώδικας της {release}",
-  "downloadsTools": "Εργαλεία της {release\\_tools}",
+  "downloadsTools": "Εργαλεία της {release_tools}",
   "downloadsOldBinaries": "Παλιότερες εκδόσεις (μη υποστηριζόμενες)",
   "downloadsOld": "Παλιότερες εκδόσεις",
   "downloadsOldBinariesNote": "Σε μερικές περιπτώσεις, δεν έχουμε (ακόμα) νέα ενημερωμένα πακέτα του ScummVM ή/και των εργαλείων του ScummVM για κάποιες πλατφόρμες. Για αυτές τις περιπτώσεις, παρέχουμε ακόμα τις παλιότερες εκδόσεις, για τη διευκόλυνσή σας.",

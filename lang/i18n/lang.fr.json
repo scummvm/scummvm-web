@@ -1,5 +1,5 @@
 {
-  "locale": "fr\\_FR.UTF-8",
+  "locale": "fr_FR.UTF-8",
   "dateformat": "%e %b %Y",
   "compatibilityUntested": "Non testé",
   "compatibilityBroken": "Cassé",
@@ -75,7 +75,7 @@
   "downloadsBinariesNote2": "veuillez consulter les release notes",
   "downloadsBinariesNote3": "La version {release} est également disponible dans les dépôts logiciels de nombreuses distributions GNU/Linux.",
   "downloadsSourceCode": "Code source pour la version {release}",
-  "downloadsTools": "Outils en version {release\\_tools}",
+  "downloadsTools": "Outils en version {release_tools}",
   "downloadsOldBinaries": "Versions plus anciennes (non supportées)",
   "downloadsOld": "Versions plus anciennes",
   "downloadsOldBinariesNote": "Nous n'avons pas (encore) d'exécutables pour la dernière version de ScummVM et/ou des Outils pour toutes les plateformes. Vous trouverez ci-dessous des versions plus anciennes pour ces plateformes.",

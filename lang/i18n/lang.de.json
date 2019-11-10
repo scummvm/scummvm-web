@@ -1,5 +1,5 @@
 {
-  "locale": "de\\_DE.UTF-8",
+  "locale": "de_DE.UTF-8",
   "dateformat": "%e. %B %Y",
   "compatibilityUntested": "Nicht getestet",
   "compatibilityBroken": "Kaputt",
@@ -76,7 +76,7 @@
   "downloadsBinariesNote2": "beachten Sie bitte die Veröffentlichungshinweise",
   "downloadsBinariesNote3": "{release} ist auch in den Software-Repositories vieler GNU/Linux-Distributionen enthalten.",
   "downloadsSourceCode": "Quellcode für {release}",
-  "downloadsTools": "Tools für {release\\_tools}",
+  "downloadsTools": "Tools für {release_tools}",
   "downloadsOldBinaries": "Ältere Versionen (nicht mehr unterstützt)",
   "downloadsOld": "Ältere Versionen",
   "downloadsOldBinariesNote": "In einigen Fällen haben wir (noch) keine neuen Programmdateien von ScummVM oder die ScummVM-Tools für einige Plattformen erstellt. Für diesen Fall stellen wir ältere Versionen von ScummVM hier zur Verfügung.",
