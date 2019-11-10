@@ -2,7 +2,7 @@
 <documentation xmlns:h="http://www.w3.org/TR/html4/">
 	<document>
 		<name>README {$release}</name>
-		<url>https://github.com/scummvm/scummvm/raw/v{$release}/README</url>
+		<url>https://github.com/scummvm/scummvm/raw/v{$release}/README.md</url>
 		<description>{'/\x7brelease\x7d/'|preg_replace:$release:#enReadMeDesc#}</description>
 	</document>
 	<document>
@@ -12,7 +12,7 @@
 	</document>
 	<document>
 		<name>Lies mich {$release}</name>
-		<url>https://github.com/scummvm/scummvm/raw/v{$release}/doc/de/Liesmich</url>
+		<url>https://github.com/scummvm/scummvm/raw/v{$release}/doc/de/LIESMICH</url>
 		<description>{'/\x7brelease\x7d/'|preg_replace:$release:#deReadMeDesc#}</description>
 	</document>
 	<document>
