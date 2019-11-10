@@ -27,7 +27,7 @@
 
 			<div class="subhead-content">
 				{if $dsubsection->getNotes() != ''}
-					{eval var=$dsubsection->getNotes()}
+					<p>{eval var=$dsubsection->getNotes()}</p>
 				{/if}
 
 				{include file='components/list_items.tpl' list=$dsubsection->getItems() type='games'}

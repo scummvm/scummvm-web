@@ -6,6 +6,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
 use ScummVM\Objects\News;
 use ScummVM\Models\NewsModel;
 use Spatie\YamlFrontMatter\YamlFrontMatter;
+use Erusev\Parsedown;
 
 define('DIR_NEWS', 'data/news');
 
@@ -29,6 +30,8 @@ class I18N
 
     private function convertLanguageJsonToSmartyIni($lang)
     {
+        $Parsedown = new \Parsedown();
+        $Parsedown->setBreaksEnabled(true);
         $filename = "lang/i18n/{$lang}.json";
         echo("Converting {$filename} from JSON to INI\n");
         $jsonString = file_get_contents($filename);
@@ -37,7 +40,7 @@ class I18N
         $output = "";
         foreach ($json as $key => $value) {
           if ($value)
-            $output .= $key . " = " . $this->purifier->purify($value). "\n";
+            $output .= $key . ' = """' . $this->purifier->purify($Parsedown->line($value)) . '"""' . "\n";
         }
 
         file_put_contents("lang/{$lang}.ini", $output);

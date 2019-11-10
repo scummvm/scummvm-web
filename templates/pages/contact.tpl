@@ -1,27 +1,27 @@
 {capture "content"}
   <div class="subhead">{#contactDiscordHeader#}</div>
   <div class="subhead-content">
-    {#contactDiscord#}
+    <p>{#contactDiscord#}</p>
   </div>
 
   <div class="subhead">{#contactIRCHeader#}</div>
   <div class="subhead-content">
-    {#contactIRC#}
+    <p>{#contactIRC#}</p>
   </div>
 
   <div class="subhead">{#contactForumsHeader#}</div>
   <div class="subhead-content">
-    {#contactForums#}
+    <p>{#contactForums#}</p>
   </div>
 
   <div class="subhead">{#contactTrackersHeader#}</div>
   <div class="subhead-content">
-    {#contactTrackers#}
+    <p>{#contactTrackers#}</p>
   </div>
 
   <div class="subhead">{#contactListsHeader#}</div>
   <div class="subhead-content">
-    {#contactLists#}
+    <p>{#contactLists#}</p>
   </div>
 {/capture}
 {include file="components/box.tpl" head=$content_title intro=#contactIntro# content=$smarty.capture.content}
