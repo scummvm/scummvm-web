@@ -310,7 +310,7 @@
 					<name>Solaris 10 x86, Solaris 11 x86, OpenIndiana binary</name>
 					<user_agent>SunOS</user_agent>
 				</file>
-
+-->
 				<file>
 					<category_icon>irix</category_icon>
 					<url>scummvm-{$release}-irix-mips3.tar.gz</url>
@@ -322,7 +322,7 @@
 					<url>scummvm-{$release}-irix-mips4.tar.gz</url>
 					<name>IRIX (6.5.*, n32, mips4) package</name>
 				</file>
--->
+
 				<file>
 					<category_icon>haiku</category_icon>
 					<url>scummvm_x86-{$release}-1-x86_gcc2.hpkg</url>
@@ -617,17 +617,6 @@
 					<category_icon>raspberry</category_icon>
 					<url>2.0.0/scummvm-2.0.0-rpi.zip</url>
 					<name>2.0.0 Raspberry Pi package (for Pi 2 and 3)</name>
-				</file>
-				<file>
-					<category_icon>irix</category_icon>
-					<url>2.0.0/scummvm-2.0.0-irix-mips3.tar.gz</url>
-					<name>2.0.0 IRIX (6.5.*, n32, mips3) package</name>
-				</file>
-
-				<file>
-					<category_icon>irix</category_icon>
-					<url>2.0.0/scummvm-2.0.0-irix-mips4.tar.gz</url>
-					<name>2.0.0 IRIX (6.5.*, n32, mips4) package</name>
 				</file>
 				<file>
 					<category_icon>samsungtv</category_icon>
