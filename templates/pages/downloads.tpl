@@ -1,24 +1,22 @@
 {capture "intro"}
 <div class="row">
-		<div class="navigation col-1-2">
-    <h4 class="subhead">Navigation</h4>
-			<ul>
-				{foreach from=$sections item=arr}
-				<li>
-					<a href="/downloads/#{$arr.anchor}">{eval var=$arr.title}</a>
-				</li>
-				{/foreach}
-			</ul>
-		</div>
-		<div class="text col-1-2">
-			<p>{'/\x7brelease\x7d/'|preg_replace:$release:#downloadsContentP1#}</p>
-			<ul>
-				<li>{'/\x7brelease\x7d/'|preg_replace:$release:#downloadsContentP2#}</li>
-				<li>{#downloadsContentP3#}</li>
-				<li>{#downloadsContentP4#}</li>
-			</ul>
-		</div>
+	<div class="navigation col-1-2">
+		<h4 class="subhead">{#downloadsHeader#}</h4>
+		<ul>
+			{foreach from=$sections item=arr}
+			<li><a href="/downloads/#{$arr.anchor}">{eval var=$arr.title}</a></li>
+			{/foreach}
+		</ul>
 	</div>
+	<div class="text col-1-2">
+		<p>{'/\x7brelease\x7d/'|preg_replace:$release:#downloadsContentP1#}</p>
+		<ul>
+			<li>{'/\x7brelease\x7d/'|preg_replace:$release:#downloadsContentP2#}</li>
+			<li>{#downloadsContentP3#}</li>
+			<li>{#downloadsContentP4#}</li>
+		</ul>
+	</div>
+</div>
 {/capture}
 
 {foreach from=$downloads item=dsection name=downloads_loop}
