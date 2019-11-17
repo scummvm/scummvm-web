@@ -108,7 +108,7 @@ foreach ($pages as $key => $value) {
     $router->map('GET', $key . '/', $value);
 }
 
-$match = $router->match();
+$match = $router->match(strtolower($_SERVER['REQUEST_URI']));
 if ($match) {
     $page = new $match['target']();
     return $page->index($match['params']);
