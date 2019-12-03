@@ -52,48 +52,55 @@
 					<name>Fedora 24+ x86 64bit package</name>
 					<user_agent>Fedora</user_agent>
 				</file>
-
+-->
 				<file>
 					<category_icon>debian</category_icon>
-					<url>scummvm_{$release}-stretch.1_i386.deb</url>
-					<name>Debian 9 (stretch) i386 package</name>
+					<url>scummvm_{$release}-1_debian10_amd64.deb</url>
+					<name>Debian 10 (buster) x86 64bit package</name>
+					<user_agent>Debian</user_agent>
 				</file>
 				<file>
 					<category_icon>debian</category_icon>
-					<url>scummvm_{$release}-stretch.1_amd64.deb</url>
+					<url>scummvm_{$release}-1_debian10_i386.deb</url>
+					<name>Debian 10 (buster) i386 package</name>
+				</file>
+
+				<file>
+					<category_icon>debian</category_icon>
+					<url>scummvm_{$release}-1_debian9_amd64.deb</url>
 					<name>Debian 9 (stretch) x86 64bit package</name>
 					<user_agent>Debian</user_agent>
 				</file>
 				<file>
 					<category_icon>debian</category_icon>
-					<url>scummvm_{$release}-squeeze.1_powerpc.deb</url>
-					<name>Debian 6.0 (squeeze) PowerPC package</name>
+					<url>scummvm_{$release}-1_debian9_i386.deb</url>
+					<name>Debian 9 (stretch) i386 package</name>
 				</file>
 
 				<file>
 					<category_icon>ubuntu</category_icon>
-					<url>scummvm_{$release}-zesty.1_i386.deb</url>
-					<name>Ubuntu 17.04 (zesty) i386 package</name>
-				</file>
-				<file>
-					<category_icon>ubuntu</category_icon>
-					<url>scummvm_{$release}-zesty.1_amd64.deb</url>
-					<name>Ubuntu 17.04 (zesty) x86 64bit package</name>
+					<url>scummvm_{$release}-1_ubuntu19.10_amd64.deb</url>
+					<name>Ubuntu 19.10 (eoan) x86 64bit package</name>
 					<user_agent>Ubuntu</user_agent>
 				</file>
+				<file>
+					<category_icon>ubuntu</category_icon>
+					<url>scummvm_{$release}-1_ubuntu19.10_i386.deb</url>
+					<name>Ubuntu 19.10 (eoan) i386 package</name>
+				</file>
 
 				<file>
 					<category_icon>ubuntu</category_icon>
-					<url>scummvm_{$release}-xenial.1_i386.deb</url>
-					<name>Ubuntu 16.04 LTS (xenial) i386 package</name>
-				</file>
-				<file>
-					<category_icon>ubuntu</category_icon>
-					<url>scummvm_{$release}-xenial.1_amd64.deb</url>
-					<name>Ubuntu 16.04 LTS (xenial) x86 64bit package</name>
+					<url>scummvm_{$release}_ubuntu18.04-lts_amd64.deb</url>
+					<name>Ubuntu 18.04 LTS (bionic) x86 64bit package</name>
 					<user_agent>Ubuntu</user_agent>
 				</file>
-
+				<file>
+					<category_icon>ubuntu</category_icon>
+					<url>scummvm_{$release}-1_ubuntu18.04-lts_i386.deb</url>
+					<name>Ubuntu 18.04 LTS (bionic) i386 package</name>
+				</file>
+<!--
 				<file>
 					<category_icon>slackware</category_icon>
 					<url>scummvm-{$release}_slack-i486-1.tgz</url>
@@ -574,40 +581,6 @@
 					<user_agent>Fedora</user_agent>
 				</file>
 
-				<file>
-					<category_icon>debian</category_icon>
-					<url>2.0.0/scummvm_2.0.0-stretch.1_i386.deb</url>
-					<name>2.0.0 Debian 9 (stretch) i386 package</name>
-				</file>
-				<file>
-					<category_icon>debian</category_icon>
-					<url>2.0.0/scummvm_2.0.0-stretch.1_amd64.deb</url>
-					<name>2.0.0 Debian 9 (stretch) x86 64bit package</name>
-					<user_agent>Debian</user_agent>
-				</file>
-				<file>
-					<category_icon>ubuntu</category_icon>
-					<url>2.0.0/scummvm_2.0.0-zesty.1_i386.deb</url>
-					<name>2.0.0 Ubuntu 17.04 (zesty) i386 package</name>
-				</file>
-				<file>
-					<category_icon>ubuntu</category_icon>
-					<url>2.0.0/scummvm_2.0.0-zesty.1_amd64.deb</url>
-					<name>2.0.0 Ubuntu 17.04 (zesty) x86 64bit package</name>
-					<user_agent>Ubuntu</user_agent>
-				</file>
-
-				<file>
-					<category_icon>ubuntu</category_icon>
-					<url>2.0.0/scummvm_2.0.0-xenial.1_i386.deb</url>
-					<name>2.0.0 Ubuntu 16.04 LTS (xenial) i386 package</name>
-				</file>
-				<file>
-					<category_icon>ubuntu</category_icon>
-					<url>2.0.0/scummvm_2.0.0-xenial.1_amd64.deb</url>
-					<name>2.0.0 Ubuntu 16.04 LTS (xenial) x86 64bit package</name>
-					<user_agent>Ubuntu</user_agent>
-				</file>
 				<file>
 					<category_icon>openpandora</category_icon>
 					<url>2.0.0/scummvm-2.0.0-openpandora.zip</url>
