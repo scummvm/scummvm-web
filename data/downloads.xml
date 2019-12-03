@@ -79,14 +79,14 @@
 
 				<file>
 					<category_icon>ubuntu</category_icon>
-					<url>scummvm_{$release}-1_ubuntu19.10_amd64.deb</url>
-					<name>Ubuntu 19.10 (eoan) x86 64bit package</name>
+					<url>scummvm_{$release}-1_ubuntu19.04_amd64.deb</url>
+					<name>Ubuntu 19.04 (disco) x86 64bit package</name>
 					<user_agent>Ubuntu</user_agent>
 				</file>
 				<file>
 					<category_icon>ubuntu</category_icon>
-					<url>scummvm_{$release}-1_ubuntu19.10_i386.deb</url>
-					<name>Ubuntu 19.10 (eoan) i386 package</name>
+					<url>scummvm_{$release}-1_ubuntu19.04_i386.deb</url>
+					<name>Ubuntu 19.04 (disco) i386 package</name>
 				</file>
 
 				<file>
