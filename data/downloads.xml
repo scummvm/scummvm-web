@@ -79,9 +79,20 @@
 
 				<file>
 					<category_icon>ubuntu</category_icon>
+					<url>scummvm_{$release}-1_ubuntu19.10_amd64.deb</url>
+					<name>Ubuntu 19.10 (eoan) x86 64bit package</name>
+					<user_agent>Ubuntu</user_agent>
+				</file>
+				<file>
+					<category_icon>ubuntu</category_icon>
+					<url>scummvm_{$release}-1_ubuntu19.10_i386.deb</url>
+					<name>Ubuntu 19.10 (eoan) i386 package</name>
+				</file>
+
+				<file>
+					<category_icon>ubuntu</category_icon>
 					<url>scummvm_{$release}-1_ubuntu19.04_amd64.deb</url>
 					<name>Ubuntu 19.04 (disco) x86 64bit package</name>
-					<user_agent>Ubuntu</user_agent>
 				</file>
 				<file>
 					<category_icon>ubuntu</category_icon>
@@ -93,7 +104,6 @@
 					<category_icon>ubuntu</category_icon>
 					<url>scummvm_{$release}_ubuntu18.04-lts_amd64.deb</url>
 					<name>Ubuntu 18.04 LTS (bionic) x86 64bit package</name>
-					<user_agent>Ubuntu</user_agent>
 				</file>
 				<file>
 					<category_icon>ubuntu</category_icon>
@@ -382,13 +392,12 @@
 					<name>OS/2 package</name>
 					<user_agent>OS/2</user_agent>
 				</file>
-
+-->
 				<file>
 					<category_icon>samsungtv</category_icon>
 					<url>scummvm-{$release}-samsungtv.zip</url>
 					<name>Samsung TV package (2009 series)</name>
 				</file>
--->
 			</entries>
 		</subsection>
 
@@ -590,11 +599,6 @@
 					<category_icon>raspberry</category_icon>
 					<url>2.0.0/scummvm-2.0.0-rpi.zip</url>
 					<name>2.0.0 Raspberry Pi package (for Pi 2 and 3)</name>
-				</file>
-				<file>
-					<category_icon>samsungtv</category_icon>
-					<url>2.0.0/scummvm-2.0.0-samsungtv.zip</url>
-					<name>2.0.0 Samsung TV package (2009 series)</name>
 				</file>
 
 				<file>
