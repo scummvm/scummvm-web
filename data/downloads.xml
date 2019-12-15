@@ -832,6 +832,7 @@
 				<h:p>{#downloadsDailyLink3#}</h:p>
 			</notes>
 			<entries>
+<!--
 				<file>
 					<category_icon>windows</category_icon>
 					<url extra_info="true" type="daily">scummvm-win32.exe</url>
@@ -844,7 +845,6 @@
 					<name>Win32 ScummVM Tools Daily Snapshot</name>
 					<extra_info>Provided by ScummVM Team member Travis 'Kirben' Howell, updated several times daily</extra_info>
 				</file>
-<!--
 				<file>
 					<category_icon>debian</category_icon>
 					<url extra_info="true" type="daily">scummvm_debian_i386.deb</url>
