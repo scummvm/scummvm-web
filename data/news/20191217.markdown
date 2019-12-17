@@ -1,0 +1,15 @@
+---
+title: "Westwood’s *Blade Runner* (1997) is finally available for purchase as a digital copy"
+author: sev
+date: 1576607888
+---
+
+We are thrilled to announce that the *Blade Runner* point and click adventure game, developed by Westwood Studios and originally released in 1997, is [now available again for purchase](http://gog.com/game/blade_runner?pp=22d200f8670dbdb3e253a90eee5098477c95c23d), thanks to the efforts of GOG.com. This new digitally distributed version includes the officially dubbed versions of the game (English, French, Italian, Spanish and German).
+
+Of course, it runs on top of ScummVM, which means it contains various bug fixes and quality of life improvements (like mouse-scrolling in KIA and fan made subtitles support) over the original 1997 version of the game.
+
+You will find subtitles for the English and French versions of the game on the Games section of the ScummVM website.
+
+We still have plans to complete the restored content version for the game, which is built from content and code segments that are already in the game’s resources but left unused or untriggered.
+
+PS. If you use the link above we will get a commission from your purchase.
