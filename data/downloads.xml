@@ -840,7 +840,7 @@
 				</file>
 				<file>
 					<category_icon>windows</category_icon>
-					<url extra_info="true" type="daily">scummvm-tools-snapshot-win32.7z</url>
+					<url extra_info="true" type="daily">scummvm-tools-snapshot-win32.zip</url>
 					<name>ScummVM Tools Snapshot for Windows</name>
 					<extra_info>Provided by ScummVM Team member Lothar Serra Mari, updated several times daily</extra_info>
 				</file>
