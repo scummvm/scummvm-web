@@ -6,8 +6,8 @@
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
     </form>
 
-    <a href="http://www.easyname.com/">
-        <img src="/images/easyname-logo-big.png" width="88" height="32" alt="{#indexEasyname#}">
+    <a href="https://www.manitu.de/">
+        <img src="/images/manitu_hostedby.png" width="88" height="44" alt="{#indexHostedby#}">
     </a>
 
     <a href="https://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
