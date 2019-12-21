@@ -7,7 +7,7 @@
     </form>
 
     <a href="https://www.manitu.de/">
-        <img src="/images/manitu_hostedby.png" width="88" height="44" alt="{#indexHostedby#}">
+        <img src="/images/manitu_hostedby.png" style="width: 88px; height: auto;" alt="{#indexHostedby#}">
     </a>
 
     <a href="https://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
