@@ -6,7 +6,7 @@
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
     </form>
 
-    <a href="https://www.manitu.de/">
+    <a href="https://www.manitu.de/" target="_blank">
         <img src="/images/manitu_hostedby.png" style="width: 88px; height: auto;" alt="{#indexHostedby#}">
     </a>
 
