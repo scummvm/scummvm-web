@@ -50,9 +50,9 @@ class I18N
     {
 
         // For non-english, create/overwrite JSON files from our i18n file
-        if ($lang != 'en') {
+        if ($lang !== 'en') {
             if (!file_exists(DIR_NEWS . "/i18n/news.{$lang}.json")) return;
-            echo("Converting " . DIR_NEWS . "/i18n/news.{$lang}.json to individual JSON files\n");
+            echo("Converting " . DIR_NEWS . "/i18n/news.{$lang}.json to individual Markdown files\n");
             $i18n = json_decode(file_get_contents(DIR_NEWS . "/i18n/news.{$lang}.json"));
 
             foreach ($i18n as $key => $value) {
@@ -71,6 +71,12 @@ class I18N
                   $content = $this->purifier->purify(trim($object->content));
                 }
 
+                if ($lang === 'fr') {
+                    $content = preg_replace_callback("/(?<=\(http)(.*?)(?=\))/u",
+                    function($matches) {                        
+                        return preg_replace("/\x{202f}/u", "", $matches[1]);
+                    }, $content);                    
+                }
 
                 $yaml = "---\ntitle: \"$title\"\ndate: $date\nauthor: $author\n---\n\n$content\n";
 
@@ -81,7 +87,7 @@ class I18N
             }
         } else {
             // Update the base english i18n file
-            echo("Converting individual JSON files to I18N base file\n");
+            echo("Converting English Markdown files to the I18N base file\n");
             $newsJson = array();
             $news = $this->getAllNews($lang);
 
