@@ -59,7 +59,7 @@ abstract class DownloadsModel
     }
 
     /* Get the recommended download */
-    public function getRecommendedDownload()
+    public static function getRecommendedDownload()
     {
         if (!isset($_SERVER['HTTP_USER_AGENT'])) {
             return false;
