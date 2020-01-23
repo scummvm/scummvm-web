@@ -4,28 +4,29 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "23f0c96f79020b14929e1fc8ea5eb4eb",
+    "content-hash": "4523386343e66e910174c22bec49e0df",
     "packages": [
         {
             "name": "altorouter/altorouter",
-            "version": "v1.2.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dannyvankooten/AltoRouter.git",
-                "reference": "39c50092470128c12284d332bb57f306bb5b58e4"
+                "reference": "127f6e96998708a31ef32252985bea82e3b03888"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dannyvankooten/AltoRouter/zipball/39c50092470128c12284d332bb57f306bb5b58e4",
-                "reference": "39c50092470128c12284d332bb57f306bb5b58e4",
+                "url": "https://api.github.com/repos/dannyvankooten/AltoRouter/zipball/127f6e96998708a31ef32252985bea82e3b03888",
+                "reference": "127f6e96998708a31ef32252985bea82e3b03888",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=5.6.0"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "dev-master",
-                "phpunit/phpunit": "4.5.*"
+                "phpunit/phpunit": "5.7.*",
+                "squizlabs/php_codesniffer": "3.4.2"
             },
             "type": "library",
             "autoload": {
@@ -59,7 +60,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2015-11-30T00:47:43+00:00"
+            "time": "2019-11-23T11:01:41+00:00"
         },
         {
             "name": "erusev/parsedown",
