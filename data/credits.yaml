@@ -330,6 +330,10 @@ credits:
           alias: ""
           description: ""
         -
+          name: "Scott Percival"
+          alias: "moralrecordings"
+          description: ""
+        -
           name: "Steven Hoefel"
           alias: ""
           description: ""
@@ -1218,7 +1222,7 @@ credits:
         -
           name: "Ismail Khatib"
           alias: "CeRiAl"
-          description: ""
+          description: "(retired)"
         -
           name: "Kostas Nakos"
           alias: "Jubanka"
