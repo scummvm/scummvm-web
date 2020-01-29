@@ -32,5 +32,4 @@
 /site-update/webhook.log
 
 # Others
-public_html/frs
-public_html/appcasts
+public_html/frs 
