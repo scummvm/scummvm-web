@@ -77,7 +77,8 @@ abstract class DownloadsModel
                     array_filter(
                         $dsubsection->getItems(), function ($item) use ($os) {
                             if ($item->getUserAgent() != "") {
-                                return preg_match("/({$item->getUserAgent()})/i", $os['name']);
+                                $ua = preg_quote($item->getUserAgent(), '/');
+                                return preg_match("/({$ua})/i", $os['name']);
                             }
                         }
                     )
