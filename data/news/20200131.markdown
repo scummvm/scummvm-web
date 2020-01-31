@@ -1,7 +1,7 @@
 ---
 title: "Release of ScummVM 2.1.1 &quot;:More Sheep:&quot;"
 author: sev
-date: 1580515198
+date: 1580493728
 ---
 
 After a short break, the ScummVM Team is pleased to announce a bugfix release for the 2.1 series - ScummVM 2.1.1, codenamed “:More Sheep:”.
