@@ -194,5 +194,9 @@
     "20190904": {
         "content": "L'équipe de ScummVM est ravie d'annoncer le support de l'une des créations de John Romero, le jeu *Hyperspace Delivery Boy!* Toutes les versions connues (Linux, Windows et PocketPC) sont supportées. Si jamais vous ne possédez pas de copie, la démo est disponible dans notre [rubrique Démos](/demos/).\n\nAlors, récupérez votre copie du jeu et aidez-nous à le tester en utilisant la [dernière version de développement](https://buildbot.scummvm.org/builds.html) de ScummVM. Si votre version du jeu n'est pas reconnue ou si vous trouvez des bugs, veuillez les signaler sur notre [base de bugs](https://bugs.scummvm.org). Et comme toujours, amusez-vous bien !",
         "title": "Votre colis est en cours de livraison !"
+    },
+    "20200131": {
+        "title": "Sortie de ScummVM 2.1.1 &quot;:More Sheep:&quot;",
+        "content": "Après une courte pause, l'équipe ScummVM est heureuse d'annoncer la publication d'une mise à jour de mainenance pour la version 2.1 - ScummVM 2.1.1, nom de code \":More Sheep :\".\n\nCette version contient un nombre important de corrections et d'améliorations mineures. Les plus notables sont : un meilleur support multilingue de l'interface graphique, des améliorations de l'audio FM TOWNS/PC-98, des optimisations des sauvegardes faites dans le cloud, une vingtaine de corrections de scripts SCI, des améliorations pour Blade Runner et des corrections pour 7 autres moteurs. Il s'agit également de la première version supportant officiellement la Nintendo 3DS. De plus, nous avons ajouté le support du cloud pour la version Nintendo Switch.\n\nPour une liste plus complète des changements, veuillez consulter les [notes de mise à jour](https://www.scummvm.org/frs/scummvm/2.1.1/ReleaseNotes.html).\n\nComme toujours, l'ensemble des exécutables pré-compilés se trouve sur notre [page de téléchargements](/downloads/).\n\nProfitez-en et amusez-vous bien !"
     }
 }
