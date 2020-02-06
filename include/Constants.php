@@ -44,7 +44,7 @@ class Constants
         /* Downloads */
         define('DOWNLOADS_URL', '/frs/scummvm/{$release}/');
         define('DOWNLOADS_DAILY_URL', '/frs/daily/');
-        define('DOWNLOADS_TOOLS_URL', '/frs/scummvm-tools/{$release}/');
+        define('DOWNLOADS_TOOLS_URL', '/frs/scummvm-tools/{$release_tools}/');
         define('DOWNLOADS_EXTRAS_URL', '/frs/extras/');
 
         /**
