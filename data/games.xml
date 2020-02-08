@@ -408,8 +408,8 @@
 			<entries>
 				<file>
 					<category_icon>blade</category_icon>
-					<url type="extras">Blade Runner/Blade_Runner_Subtitles-v5.zip</url>
-					<name>Blade Runner Subtitles (English, French, Subtitles AddOn)</name>
+					<url type="extras">Blade Runner/Blade_Runner_Subtitles-v6.zip</url>
+					<name>Blade Runner Subtitles (English, French, Spanish Subtitles AddOn)</name>
 					<extra_msg>- Requires ScummVM 2.1.0</extra_msg>
 				</file>
 			</entries>
