@@ -54,7 +54,7 @@
 					<user_agent>Fedora</user_agent>
 				</file>
 -->
-<!--				<file>
+				<file>
 					<category_icon>debian</category_icon>
 					<url>scummvm_{$release}-1_debian10_amd64.deb</url>
 					<name>Debian 10 (buster) x86 64bit package</name>
@@ -111,7 +111,7 @@
 					<url>scummvm_{$release}-1_ubuntu18.04-lts_i386.deb</url>
 					<name>Ubuntu 18.04 LTS (bionic) i386 package</name>
 				</file>
-
+<!--
 				<file>
 					<category_icon>slackware</category_icon>
 					<url>scummvm-{$release}_slack-i486-1.tgz</url>
@@ -595,64 +595,6 @@
 					<category_icon>wince</category_icon>
 					<url>2.1.0/scummvm-2.1.0-win32-win9x.exe</url>
 					<name>2.1.0 Windows 95/98/ME Installer</name>
-				</file>
-
-				<file>
-					<category_icon>debian</category_icon>
-					<url>2.1.0/scummvm_2.1.0-1_debian10_amd64.deb</url>
-					<name>2.1.0 Debian 10 (buster) x86 64bit package</name>
-					<user_agent>Debian</user_agent>
-				</file>
-				<file>
-					<category_icon>debian</category_icon>
-					<url>2.1.0/scummvm_2.1.0-1_debian10_i386.deb</url>
-					<name>2.1.0 Debian 10 (buster) i386 package</name>
-				</file>
-
-				<file>
-					<category_icon>debian</category_icon>
-					<url>2.1.0/scummvm_2.1.0-1_debian9_amd64.deb</url>
-					<name>2.1.0 Debian 9 (stretch) x86 64bit package</name>
-					<user_agent>Debian</user_agent>
-				</file>
-				<file>
-					<category_icon>debian</category_icon>
-					<url>2.1.0/scummvm_2.1.0-1_debian9_i386.deb</url>
-					<name>2.1.0 Debian 9 (stretch) i386 package</name>
-				</file>
-
-				<file>
-					<category_icon>ubuntu</category_icon>
-					<url>2.1.0/scummvm_2.1.0-1_ubuntu19.10_amd64.deb</url>
-					<name>2.1.0 Ubuntu 19.10 (eoan) x86 64bit package</name>
-					<user_agent>Ubuntu</user_agent>
-				</file>
-				<file>
-					<category_icon>ubuntu</category_icon>
-					<url>2.1.0/scummvm_2.1.0-1_ubuntu19.10_i386.deb</url>
-					<name>2.1.0 Ubuntu 19.10 (eoan) i386 package</name>
-				</file>
-
-				<file>
-					<category_icon>ubuntu</category_icon>
-					<url>2.1.0/scummvm_2.1.0-1_ubuntu19.04_amd64.deb</url>
-					<name>2.1.0 Ubuntu 19.04 (disco) x86 64bit package</name>
-				</file>
-				<file>
-					<category_icon>ubuntu</category_icon>
-					<url>2.1.0/scummvm_2.1.0-1_ubuntu19.04_i386.deb</url>
-					<name>2.1.0 Ubuntu 19.04 (disco) i386 package</name>
-				</file>
-
-				<file>
-					<category_icon>ubuntu</category_icon>
-					<url>2.1.0/scummvm_2.1.0-1_ubuntu18.04-lts_amd64.deb</url>
-					<name>2.1.0 Ubuntu 18.04 LTS (bionic) x86 64bit package</name>
-				</file>
-				<file>
-					<category_icon>ubuntu</category_icon>
-					<url>2.1.0/scummvm_2.1.0-1_ubuntu18.04-lts_i386.deb</url>
-					<name>2.1.0 Ubuntu 18.04 LTS (bionic) i386 package</name>
 				</file>
 
 				<file>
