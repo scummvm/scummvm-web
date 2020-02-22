@@ -13,6 +13,7 @@ $available_languages = array(
   'de' => 'Deutsch',
   'fr' => 'Français',
   'it' => 'Italiano',
+  'es' => 'Español',
   'ru' => 'Русский',
   'el' => 'Ελληνικά'
 );
