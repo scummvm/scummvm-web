@@ -55,6 +55,13 @@
 				</file>
 -->
 				<file>
+					<category_icon>snap</category_icon>
+					<url>https://snapcraft.io/scummvm</url>
+					<name>Snap package at the snapcraft.io store</name>
+					<user_agent>Ubuntu</user_agent>
+				</file>
+
+				<file>
 					<category_icon>debian</category_icon>
 					<url>scummvm_{$release}-1_debian10_amd64.deb</url>
 					<name>Debian 10 (buster) x86 64bit package</name>
