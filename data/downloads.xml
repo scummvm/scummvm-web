@@ -57,7 +57,7 @@
 				<file>
 					<category_icon>snap</category_icon>
 					<url>https://snapcraft.io/scummvm</url>
-					<name>Snap package at the snapcraft.io store</name>
+					<name>Universal Snap package for Linux via the snapcraft.io store</name>
 				</file>
 
 				<file>
