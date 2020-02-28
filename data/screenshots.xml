@@ -1453,7 +1453,7 @@
 			</image>
 			<image>
 				<file>westwood/bladerunner/bladerunner-win-es-#n#</file>
-				<range from="1" to="25" format="%02d" />
+				<range from="1" to="13" format="%02d" />
 				<caption>Blade Runner (Windows/Spanish)</caption>
 			</image>
 			<image>
