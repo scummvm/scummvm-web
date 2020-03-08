@@ -1038,6 +1038,93 @@ credits:
           alias: "cyx"
           description: "(retired)"
       -
+        name: "Ultima"
+        person:
+        -
+          name: "Paul Gilbert"
+          alias: "dreammaster"
+          description: ""
+        -
+          name: "Matthew Duggan"
+          alias: "stauff"
+          description: ""
+        -
+          name: "Daniel c. Wurl"
+          alias: "dwuerl"
+          description: "(Nuvie)"
+        -
+          name: "Eric Fry"
+          alias: "yuv422"
+          description: "(Nuvie)"
+        -
+          name: "Jeremy Newman"
+          alias: "laxdragon"
+          description: "(Nuvie)"
+        -
+          name: "Jonathan E. Wright"
+          alias: "nelno"
+          description: "(Nuvie)"
+        -
+          name: "Joseph Applegate"
+          alias: "sb-x"
+          description: "(Nuvie)"
+        -
+          name: "Malignant Manor"
+          alias: "malignantmanor"
+          description: "(Nuvie)"
+        -
+          name: "Markus Niemisto"
+          alias: "niemisto"
+          description: "(Nuvie)"
+        -
+          name: "Michael Fink"
+          alias: "vividos"
+          description: "(Nuvie)"
+        -
+          name: "Pieter Luteijn"
+          alias: "luteijn"
+          description: "(Nuvie)"
+        -
+          name: "Sam Matthews"
+          alias: "samuelmatthews"
+          description: "(Nuvie)"
+        -
+          name: "Travis Howell"
+          alias: "kirben"
+          description: "(Nuvie)"
+        -
+          name: "Willem Jan Palenstijn"
+          alias: "wjp"
+          description: "(Nuvie)"
+        -
+          name: "Brian Tietz"
+          alias: "btietz"
+          description: "(Pentagram)"
+        -
+          name: "Dominik Reichardt"
+          alias: "Dominus Dragon"
+          description: "(Pentagram)"
+        -
+          name: "Matthew Jimenez"
+          alias: "mjimenez"
+          description: "(Pentagram)"
+        -
+          name: "Max Horn"
+          alias: "Fingolfin"
+          description: "(Pentagram)"
+        -
+          name: "Patrick Burke"
+          alias: "takhisis"
+          description: "(Pentagram)"
+        -
+          name: "Ryan Nunn"
+          alias: "Colourless Dragon"
+          description: "(Pentagram)"
+        -
+          name: "Willem Jan Palenstijn"
+          alias: "wjp"
+          description: "(Pentagram)"
+      -
         name: "Voyeur"
         person:
         -
