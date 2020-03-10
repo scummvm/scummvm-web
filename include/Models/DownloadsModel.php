@@ -102,6 +102,19 @@ abstract class DownloadsModel
                         $extra_text = $data;
                     }
 
+                    /*
+                    Get the version information for our store releases for
+                    Android and the Snap store. Since we can't rely on the
+                    file names here, we set them via Constants.php
+                    */
+                    if ($os['name'] === 'Android') {
+                        $version = RELEASE_ANDROID_STORE;
+                    }
+
+                    if ($os['name'] === 'Ubuntu') {
+                        $version = RELEASE_SNAP_STORE;
+		            }
+
                     return array(
                     'os' => $name,
                     'ver' => $version,
