@@ -58,6 +58,7 @@
 					<category_icon>snap</category_icon>
 					<url>https://snapcraft.io/scummvm</url>
 					<name>Universal Snap package for Linux via the Snap Store</name>
+					<user_agent>Ubuntu</user_agent>
 				</file>
 
 				<file>
@@ -88,7 +89,6 @@
 					<category_icon>ubuntu</category_icon>
 					<url>scummvm_{$release}-1_ubuntu19.10_amd64.deb</url>
 					<name>Ubuntu 19.10 (eoan) x86 64bit package</name>
-					<user_agent>Ubuntu</user_agent>
 				</file>
 				<file>
 					<category_icon>ubuntu</category_icon>
