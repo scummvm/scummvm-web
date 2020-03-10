@@ -113,7 +113,7 @@ abstract class DownloadsModel
 
                     if ($os['name'] === 'Ubuntu') {
                         $version = RELEASE_SNAP_STORE;
-		            }
+                    }
 
                     return array(
                     'os' => $name,
