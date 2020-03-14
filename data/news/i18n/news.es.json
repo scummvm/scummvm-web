@@ -9,55 +9,55 @@
     },
     "20020121": {
         "title": "Nuevo diseño de la página web",
-        "content": ""
+        "content": "Gracias a Jeremy Newman (laxdragon) por diseñar y mantener nuestra nueva página web. No dudéis en darle un toque si tenéis comentarios o sugerencias sobre la misma."
     },
     "20020203": {
-        "title": "",
-        "content": ""
+        "title": "Conversión de ScummVM para Dreamcast",
+        "content": "[Marcus Comstedt](https://sourceforge.net/sendmessage.php?touser=446790) ha incorporado recientemente el port de ScummVM para SEGA Dreamcast al CVS. La página web «[Mark Thomas' Dreamcast Development](http://www.doc.ic.ac.uk/~mbt99/dcdev/)» tiene más información y los binarios de esta impresionante adaptación. Hay más detalles sobre la emulación en Dreamcast en [DC Emulation](http://www.dcemulation.com/)."
     },
     "20020214": {
-        "title": "",
-        "content": ""
+        "title": "Más ocupados que un mono con un sarpullido",
+        "content": "![Zak256](/data/news/20020214.png) El equipo de ScummVM está ocupado trabajando para hacer que más de vuestros juegos favoritos de LucasArts funcionen. Echad un vistazo a esta capturilla para ir calentando motores. Habrá más capturas de pantalla e información a medida que vayan surgiendo."
     },
     "20020220": {
-        "title": "",
-        "content": ""
+        "title": "Compilaciones diarias para Windows ya disponibles",
+        "content": "Travis Howell está generando compilaciones diarias de ScummVM para Windows que ya están disponibles para su descarga. También hay un enlace para una versión de ScummVM para Windows que utiliza SDL. Esta versión no necesita la dll de Cygwin.  \nTambién hemos habilitado una página de compatibilidad para responder a la pregunta más habitual: «¿Qué juegos funcionan?» Iremos actualizando esta página a medida que avance el desarrollo."
     },
     "20020308": {
-        "title": "",
-        "content": ""
+        "title": "Actualizaciones de cierta importancia",
+        "content": "![Full Throttle](/data/news/20020308.png) BBrox, Endy y Yazoo han pasado la semana trabajando a todo trapo (¡Gracias, chicos!). Estas son las novedades en el desarrollo de ScummVM:\n\n*   ¡Sam and Max ya puede jugarse de principio a fin!\n*   El motor de vídeos *inSane* funciona. Se usa en The Dig y Full Throttle\n*   Más opciones por línea de comandos para más control. Mirad el archivo readme.txt\n*   Han comenzado las tareas preliminares para Curse of Monkey Island\n*   Mutle ha enviado la conversión para Mac al árbol CVS\n*   Corrección de muchos, muchos fallos."
     },
     "20020320": {
-        "title": "",
-        "content": ""
+        "title": "Código paralizado",
+        "content": "ScummVM acaba de paralizar su código. Esto significa que no se actualizará el CVS con nuevas correcciones, ya que estamos haciendo una gran reestructuración del motor. Esperamos que, al reescribir muchas partes de ScummVM al lenguaje C++, podamos arreglar un gran número de fallos inherentes en el motor y hacer que el código sea más fácil de manipular, tanto para nosotros como para cualquier desarrollador que desee unirse al proyecto en el futuro. Esto significa que los informes de fallos y parches que se encuentren actualmente en el sistema serán ignorados hasta que termine la paralización. Nuestra idea es hacerlo durante una semana, pero podría llevar más tiempo."
     },
     "20020404": {
-        "title": "",
-        "content": ""
+        "title": "Código desparalizado",
+        "content": "Tras unas pocas semanas, el código de ScummVM ha sido desparalizado oficialmente y se reanuda el trabajo de compatibilidad con juegos. Como aperitivo, se han arreglado varios fallos en Zak256 y el juego es mucho más jugable... ¡aunque aún le falta!"
     },
     "20020406": {
-        "title": "",
-        "content": ""
+        "title": "Loom y la versión 0.2.0",
+        "content": "Después de cierto esfuerzo, la versión de Loom en CD con voces y 256 colores ya es jugable de principio a fin! Con esto hemos empezado a prepararnos para publicar la versión 0.2.0. ¡Os pedimos a vosotros, nuestros jugadores, que nos ayudéis probando las últimas compilaciones diarias y del CVS y que juguéis a vuestros juegos favoritos!  \nTenemos que asegurarnos de que los siguientes juegos sean jugables de principio a fin sin fallos importantes (por ejemplo: cierres, cuelgues, etc. Los fallos menores, como la sincronía del sonido, no cuentan):\n\n*   Loom CD\n*   Monkey Island 1 (CD)\n*   Monkey Island 2\n*   Indy 4: Fate of atlantis\n*   Sam and Max\n*   Day of the Tentacle\n\nMuchas gracias, ¡y esperamos que todo vaya bien para que podamos publicar por fin una versión nueva! Además, a petición popular, ¡la versión 0.2.0 incluirá una nueva función de autoguardado para que no perdáis más horas de vuestro esfuerzo porque no os hayáis acordado de guardar la partida y os hayáis cruzado con un bug!"
     },
     "20020409": {
-        "title": "",
-        "content": ""
+        "title": "Actualización sobre el lanzamiento",
+        "content": "Gracias a varias personas hemos confirmado que DOTT, Sam and Max y LoomCD pueden jugarse de principio a fin sin fallos «graves» con el código actual. Por otro lado, se han encontrado varios fallos de importancia en MI2 e Indy4, así que el lanzamiento de la versión 0.2.0 podría llevar más tiempo del esperado.  \n  \nLos programadores que nos lean pueden leer la lista de fallos y probar suerte con los arreglos. Ahora mismo solo hay una persona trabajando de forma regular en ScummVM, así que el progreso va despacio."
     },
     "20020414": {
-        "title": "",
-        "content": ""
+        "title": "Actualización de estado",
+        "content": "El lanzamiento de la versión 0.2.0 ha sido pospuesto por un tiempo mientras el motor de ScummVM vuelve a ser reorganizado. Sin embargo, como apunte interesante, ¡la versión 0.2.0 también dará soporte a un juego que no utiliza SCUMM! Simon The Sorcerer. Así que compartid y disfrutad la última versión del CVS, amigos.  \n  \nAlgunos también os habréis fijado en que ha aparecido un botón de PayPal en la parte inferior de la barra de navegación. Si habéis disfrutado de ScummVM, por favor, donad algo para que podamos comprar software que nos ayude en el desarrollo. ¡Gracias!"
     },
     "20020501": {
-        "title": "",
-        "content": ""
+        "title": "Actualización sobre el lanzamiento: toma dos",
+        "content": "Sí, seguimos vivos. Por desgracia, no estamos para nada listos para estrenar la versión 0.2.0, varias personas han visto un gran número de fallos graves que estamos resolviendo. ¡Seguid con nosotros, tarde o temprano los resolveremos!  \n  \nAh, y por cierto... Si alguien conoce el paradero de Sean Clark o de cualquier otra persona que hiciera los scripts de Sam and Max, por favor, secuestradlos y obligadles a explicar por qué hay un molesto fallo de carreras de scripting en el vórtice del misterio, que nos ha tenido despiertos las últimas 48 horas.  \n  \nGracias y disfrutad de ScummVM :)"
     },
     "20020511": {
-        "title": "",
-        "content": ""
+        "title": "Las últimas noticias.",
+        "content": "El equipo de ScummVM todavía está trabajando duro para corregir los fallos que quedan y poder publicar nuestro próximo hito (la versión 0.2.0). Mientras tanto, aquí tenéis algunas noticias sobre el proyecto.  \n  \nAlgo especialmente interesante es que Zak McKracken 256 (la versión para fmTowns con gráficos mejorados) tendrá soporte oficial en la versión 0.2.0 y puede ser jugado de principio a fin con solo dos fallos de importancia en el CVS actual.  \n  \nAdemás, ahora mismo tenemos a alguien trabajando en una conversión para GBA. Esta ha sido una petición popular y, con suerte, estará lista a tiempo para la versión 0.3.0. Podéis ver las pruebas de su existencia en esta [captura de pantalla de su desarrollo](http://www.bbrox.org/scummadv_by_ph0x_0427c.jpg). La conversión está demasiado verde como para entrar al CVS, así que aguantad :)  \n  \nEn otras noticias sobre conversiones, LyonHrt ha compilado una vieja versión del CVS de ScummVM para Dreamcast, mantenida por nuestro compañero Marcus Comstedt. La podéis encontrar más abajo. Tened en cuenta que son compilaciones antiguas y sin soporte oficial del equipo de ScummVM. Cualquier comentario sobre esta conversión debe ir al foro de Dreamcast en ConsoleVision."
     },
     "20020514": {
-        "title": "",
-        "content": ""
+        "title": "¡ScummVM 0.2.0 publicado!",
+        "content": "Tras una larga espera, ¡ScummVM 0.2.0 ha sido lanzado! Pasaos por la página de descargas y coged la versión para vuestra plataforma favorita.  \n  \nActualmente tenemos descargas para i386 Debian Woody, Windows, Dreamcast, MacOSX, Familiar/Intimate y Windows CE. En los próximos días incluiremos descargas para MorphOS, RPMs y a lo mejor para BeOS.  \n  \nAdemás de corregir varios fallos importantes, ScummVM es ahora compatible con varios juegos nuevos, como la versión a 256 colores de Zak McKracken, la versión en CD de Loom, ¡y (curiosamente) Simon the Sorcerer! Varios juegos que eran solo compatibles en la versión 0.1.0 ahora son jugables de principio a fin en la versión 0.2.0, como Sam and Max.  \n  \nEl lanzamiento de ScummVM 0.2.0 también incluye a varias plataformas nuevas, un mejor soporte para diversas arquitecturas de CPU y endians, muchas más opciones para la línea de comando, ¡y soporte experimental (es decir, ¡no informéis de fallo!) para Full Throttle, The Dig, la versión VGA de Indiana Jones and the Last Crusade y la versión VGA de Monkey Island (en disquetes)!  \n  \nAsí que no esperéis más. Descargadlo ahora y si os gusta mucho, haced clic en el botoncito de PayPal que hay bajo el menú para donar dinero y ayudar al equipo de ScummVM para poder comprar herramientas y software con el que continuar este proyecto."
     },
     "20020527": {
         "title": "",
