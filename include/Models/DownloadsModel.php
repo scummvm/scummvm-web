@@ -113,7 +113,7 @@ abstract class DownloadsModel
 
                     if ($os['name'] === 'Ubuntu') {
                         $version = RELEASE_SNAP_STORE;
-                        $extra_text = 'snap install scummvm';
+                        $extra_text = '(snap install scummvm)';
                     }
 
                     return array(
