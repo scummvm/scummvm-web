@@ -15,7 +15,7 @@
 		</link>
 		<link>
 			<name>Ogg Vorbis</name>
-			<url>http://www.xiph.org/ogg/vorbis/</url>
+			<url>https://xiph.org/vorbis/</url>
 			<description>Ogg Vorbis is a fully open, non-proprietary, patent-and-royalty-free, general-purpose compressed audio format. ScummVM optionally supports playback of CD tracks and other audio data encoded using Ogg Vorbis.</description>
 		</link>
 		<link>
