@@ -14,7 +14,7 @@ abstract class GameDemosModel extends BasicModel
         $fname = DIR_DATA . '/game_demos.yaml';
         $gameDemos = \yaml_parse_file($fname);
         $entries = array();
-        foreach ($gameDemos['game_demos']['group'] as $key => $value) {
+        foreach (array_values($gameDemos['game_demos']['group']) as $value) {
             $demos = array();
             foreach ($value['demos'] as $data) {
                 $demos[] = new GameDemo($data);
