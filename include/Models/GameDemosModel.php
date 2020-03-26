@@ -12,10 +12,9 @@ abstract class GameDemosModel extends BasicModel
     public static function getAllGroupsAndDemos()
     {
         $fname = DIR_DATA . '/game_demos.yaml';
-        $a = \yaml_parse_file($fname);
+        $gameDemos = \yaml_parse_file($fname);
         $entries = array();
-        $entries = array();
-        foreach ($a['game_demos']['group'] as $key => $value) {
+        foreach ($gameDemos['game_demos']['group'] as $key => $value) {
             $demos = array();
             foreach ($value['demos'] as $data) {
                 $demos[] = new GameDemo($data);
