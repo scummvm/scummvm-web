@@ -1,34 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <external_links xmlns:h="http://www.w3.org/TR/html4/">
 	<group>
-		<name>Official ports</name>
-		<description>Some additional links for ports that have been merged into our repository</description>
-		<link>
-			<name>GP32 port</name>
-			<url>http://blogs.distant-earth.com/wp/?cat=3</url>
-			<description>Information about the GP32 port.</description>
-		</link>
-		<link>
-			<name>DS port</name>
-			<url>http://scummvm.drunkencoders.com/</url>
-			<description>Information about the Nintendo DS port.</description>
-		</link>
-	</group>
-	<group>
-		<name>Unofficial ports</name>
-		<description>There are a few unofficial ports of ScummVM floating around. Usually we prefer to merge any ports into our official repository, but for the following this has not (yet) happened for various reasons. Note that the ScummVM team does not endorse any of these ports. We did not test them, and we do not guarantee that they work properly. <h:span class="red">Use at your own risk!</h:span></description>
-		<link>
-			<name>Nokia 770 port</name>
-			<url>http://770.fs-security.com/scummvm/</url>
-			<description>A port to Nokia 770.</description>
-		</link>
-		<link>
-			<name>Old RISC OS port</name>
-			<url>http://www.acornemus.freeserve.co.uk/scumm/scu_info.htm</url>
-			<description>Another (older) port to RISC OS. It's extremly dated (based on ScummVM 0.1.0).</description>
-		</link>
-	</group>
-	<group>
 		<name>Libraries &amp; Technologies</name>
 		<description>The following lists some libraries and technologies ScummVM makes use of (depending on which system your run it and which configuration is chosen).</description>
 		<link>
