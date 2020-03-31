@@ -632,12 +632,6 @@
 				</file>
 
 				<file>
-					<category_icon>macosppc</category_icon>
-					<url>2.1.0/scummvm-2.1.0-macosx-ppc.dmg</url>
-					<name>2.1.0 Mac OS X 10.4+ PPC 32 bits (without Sparkle) Disk Image</name>
-				</file>
-
-				<file>
 					<category_icon>irix</category_icon>
 					<url>2.1.0/scummvm-2.1.0-irix-mips3.tar.gz</url>
 					<name>2.1.0 IRIX (6.5.*, n32, mips3) package</name>
