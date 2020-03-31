@@ -623,6 +623,9 @@
 			<baseurl>/frs/scummvm/</baseurl>
 			<notes>
 				{#downloadsOldBinariesNote#}
+				{#downloadsOldBinariesFrsNote1#}
+				<h:a href="/frs/scummvm/">{#downloadsOldBinariesFrsNote2#}</h:a>
+				{#downloadsOldBinariesFrsNote3#}
 			</notes>
 			<entries>
 				<file>
