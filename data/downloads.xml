@@ -28,6 +28,12 @@
 					<url>scummvm-2.1.2-macosx-ppc.dmg</url>
 					<name>Mac OS X 10.4+ PPC 32 bits (without Sparkle) Disk Image</name>
 				</file>
+				<file>
+					<category_icon>snap</category_icon>
+					<url>https://snapcraft.io/scummvm</url>
+					<name>Snap package at the Snap Store</name>
+					<user_agent>Ubuntu</user_agent>
+				</file>
 			</entries>
 		</subsection>
 		<subsection>
@@ -82,12 +88,6 @@
 					<user_agent>Fedora</user_agent>
 				</file>
 -->
-				<file>
-					<category_icon>snap</category_icon>
-					<url>https://snapcraft.io/scummvm</url>
-					<name>Snap package at the Snap Store</name>
-					<user_agent>Ubuntu</user_agent>
-				</file>
 
 				<file>
 					<category_icon>debian</category_icon>
