@@ -116,16 +116,6 @@ abstract class DownloadsModel
                         $extra_text = '(snap install scummvm)';
                     }
 
-                    /*
-                    HACK: Hard-code the version for Mac and Win32 due to the 2.1.2
-                          interim release. Setting it to the Snap Store version since
-                          that's always up to date. REMOVE with the next major release!
-                    */
-
-                    if ($os['name'] === 'windows' || 'Mac') {
-                        $version = RELEASE_SNAP_STORE;
-                    }
-
                     return array(
                     'os' => $name,
                     'ver' => $version,
