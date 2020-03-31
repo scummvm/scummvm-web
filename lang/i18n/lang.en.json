@@ -77,6 +77,7 @@
   "downloadsXMLTitle": "Downloads for ScummVM",
   "downloadsXMLVersion": "version {release}",
   "downloadsBinaries": "{release} Release binaries",
+  "downloadsBinariesNote212Maintenance": "This is a maintenance release for Windows and macOS only.",
   "downloadsBinariesNote1": "For a list of changes since the previous version,",
   "downloadsBinariesNote2": "read the release notes",
   "downloadsBinariesNote3": "ScummVM {release} is also available in the software repositories of many GNU/Linux distributions.",
