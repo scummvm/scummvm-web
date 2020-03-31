@@ -15,7 +15,7 @@
 			<entries>
 				<file>
 					<category_icon>windows</category_icon>
-					<url>scummvm-2.1.2-win32.exe</url>
+					<url>2.1.2/scummvm-2.1.2-win32.exe</url>
 					<name>Windows Installer (32 and 64 bit)</name>
 					<user_agent>Windows</user_agent>
 				</file>
@@ -131,7 +131,7 @@
 -->
 				<file>
 					<category_icon>macos</category_icon>
-					<url>scummvm-{$release}-macosx.dmg</url>
+					<url>2.1.2/scummvm-2.1.2-macosx.dmg</url>
 					<name>macOS 10.7+ 64 bits with Sparkle Disk Image</name>
 					<user_agent>Mac</user_agent>
 				</file>
