@@ -205,5 +205,9 @@
     "downloadEngineData": "Fichier de données supplémentaires pour moteurs de jeu",
     "contactDiscord": "Rejoignez-nous sur Discord ! Peu importe si vous voulez juste traîner avec la communauté ScummVM ou si vous voulez discuter des derniers développements, notre [Serveur Discord](https://discord.gg/5D8yTtF) est l'endroit à visiter. Attention : seul l'anglais doit être utilisé sur ce serveur.",
     "compatabilityDetailsChartCol4": "Fichiers du jeu",
-    "compatabilityDetailsDetails": "Détails"
+    "compatabilityDetailsDetails": "Détails",
+    "downloadsOldBinariesFrsNote3": " pour trouver toutes les versions antérieures.",
+    "downloadsOldBinariesFrsNote2": "naviguer sur notre serveur",
+    "downloadsOldBinariesFrsNote1": "Vous pouvez également ",
+    "downloadsBinariesNote212Maintenance": "Il s'agit d'une version de maintenance pour Windows et macOS uniquement."
 }
