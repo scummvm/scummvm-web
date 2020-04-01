@@ -205,5 +205,9 @@
     "menuMiscContact": "Contacto",
     "menuMiscLinks": "Enlaces",
     "compatabilityDetailsChartCol4": "Archivos de datos",
-    "compatabilityDetailsDetails": "Detalles"
+    "compatabilityDetailsDetails": "Detalles",
+    "downloadsOldBinariesFrsNote3": " si buscas las versiones antiguas.",
+    "downloadsOldBinariesFrsNote2": "explorar nuestro servidor",
+    "downloadsOldBinariesFrsNote1": "Puedes ",
+    "downloadsBinariesNote212Maintenance": "Esta es una versión de mantenimiento exclusiva para Windows y macOS."
 }
