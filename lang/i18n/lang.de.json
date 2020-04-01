@@ -205,5 +205,9 @@
     "contactDiscordHeader": "Discord",
     "contactDiscord": "Triff uns auf Discord! Ganz gleich, ob Du dich einfach zwanglos mit der ScummVM-Gemeinschaft unterhalten oder auch die aktuelle Entwicklung von ScummVM diskutieren möchtest - unser [Discord-Server](https://discord.gg/5D8yTtF) ist der richtige Ort dazu.",
     "compatabilityDetailsChartCol4": "Spiel-Dateien",
-    "compatabilityDetailsDetails": "Details"
+    "compatabilityDetailsDetails": "Details",
+    "downloadsOldBinariesFrsNote3": " um alle bisher veröffentlichten Versionen zu finden.",
+    "downloadsOldBinariesFrsNote2": "unseren Server besuchen,",
+    "downloadsOldBinariesFrsNote1": "Zusätzlich kannst Du ",
+    "downloadsBinariesNote212Maintenance": "Dieses Wartungs-Release wird ausschließlich für Windows und macOS bereitgestellt."
 }
