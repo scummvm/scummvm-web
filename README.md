@@ -14,8 +14,8 @@ The ScummVM website relies on several tools to install properly.
 Before installing please make sure you have the following installed:
 
 * [PHP](https://www.php.net/manual/en/install.php)
-  - After installing, run `pecl install yaml` to install the PHP YAML extension
-  - The version of PHP included with macOS doesn't include PECL, so you'll need to install a different version of PHP [through Homebrew](https://formulae.brew.sh/formula/php) or another method
+  * After installing, run `pecl install yaml` to install the PHP YAML extension
+  * The version of PHP included with macOS doesn't include PECL, so you'll need to install a different version of PHP [through Homebrew](https://formulae.brew.sh/formula/php) or another method
 * [Composer](https://getcomposer.org/)
 * [Python & pip](https://www.python.org/) (2.7.9+/3.4+)
 * [Node.js & npm](https://nodejs.org/)
