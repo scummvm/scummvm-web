@@ -14,9 +14,9 @@ abstract class ArticleModel extends BasicModel
     {
         $fname = DIR_DATA . '/press_articles.xml';
         $parser = new XMLParser();
-        $a = $parser->parseByFilename($fname);
+        $parsedData = $parser->parseByFilename($fname);
         $entries = array();
-        foreach ($a['articles']['article'] as $key => $value) {
+        foreach (array_values($parsedData['articles']['article']) as $value) {
             $entries[] = new Article(
                 array(
                 'name' => $value['name'],

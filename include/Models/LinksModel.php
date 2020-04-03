@@ -15,9 +15,9 @@ abstract class LinksModel extends BasicModel
     {
         $fname = DIR_DATA . '/links.xml';
         $parser = new XMLParser();
-        $a = $parser->parseByFilename($fname);
+        $parsedData = $parser->parseByFilename($fname);
         $entries = array();
-        foreach ($a['external_links']['group'] as $key => $value) {
+        foreach (array_values($parsedData['external_links']['group']) as $value) {
             /* Get all links. */
             $links = array();
             foreach ($value['link'] as $data) {

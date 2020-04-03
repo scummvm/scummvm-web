@@ -14,9 +14,9 @@ abstract class DocumentationModel extends BasicModel
     {
         $fname = DIR_DATA . '/documentation.xml';
         $parser = new XMLParser();
-        $a = $parser->parseByFilename($fname);
+        $parsedData = $parser->parseByFilename($fname);
         $entries = array();
-        foreach ($a['documentation']['document'] as $key => $value) {
+        foreach (array_values($parsedData['documentation']['document']) as $value) {
             $entries[] = new Document($value);
         }
         return $entries;

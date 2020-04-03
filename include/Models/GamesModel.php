@@ -15,9 +15,9 @@ abstract class GamesModel
         $fname = DIR_DATA . '/games.xml';
         /* Now parse the data. */
         $parser = new XMLParser();
-        $a = $parser->parseByFilename($fname);
+        $parsedData = $parser->parseByFilename($fname);
         $sections = array();
-        foreach ($a['downloads']['section'] as $key => $value) {
+        foreach (array_values($parsedData['downloads']['section']) as $value) {
             $sections[] = new DownloadsSection($value);
         }
         return $sections;

@@ -14,9 +14,9 @@ abstract class MenuModel extends BasicModel
     {
         $fname = DIR_DATA . '/menus.xml';
         $parser = new XMLParser();
-        $a = $parser->parseByFilename($fname);
+        $parsedData = $parser->parseByFilename($fname);
         $entries = array();
-        foreach ($a['menus']['group'] as $key => $value) {
+        foreach (array_values($parsedData['menus']['group']) as $value) {
             $entries[] = new MenuItem(
                 array(
                 'name' => $value['name'],
