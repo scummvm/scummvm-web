@@ -18,10 +18,10 @@ abstract class ScreenshotsModel extends BasicModel
     {
         $fname = DIR_DATA . '/screenshots.xml';
         $parser = new XMLParser();
-        $a = $parser->parseByFilename($fname);
+        $parsedData = $parser->parseByFilename($fname);
         $entries = array();
-        BasicObject::toArray($a['screenshots']['group']);
-        foreach ($a['screenshots']['group'] as $value) {
+        BasicObject::toArray($parsedData['screenshots']['group']);
+        foreach (array_values($parsedData['screenshots']['group']) as $value) {
             BasicObject::toArray($value['game']);
             $games = array();
             foreach ($value['game'] as $data) {

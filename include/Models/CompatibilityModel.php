@@ -25,9 +25,9 @@ abstract class CompatibilityModel extends BasicModel
             throw new \ErrorException(self::NO_FILES);
         }
         $parser = new XMLParser();
-        $a = $parser->parseByFilename($fname);
+        $parsedData = $parser->parseByFilename($fname);
         $entries = array();
-        foreach ($a['compatibility']['company'] as $key => $value) {
+        foreach (array_values($parsedData['compatibility']['company']) as $value) {
             $games = array();
             if (is_array($value['games'])) {
                 foreach ($value['games']['game'] as $data) {

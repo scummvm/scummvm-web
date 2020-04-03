@@ -16,10 +16,10 @@ abstract class SubprojectsModel extends BasicModel
     {
         $fname = DIR_DATA . '/subprojects.xml';
         $parser = new XMLParser();
-        $a = $parser->parseByFilename($fname);
+        $parsedData = $parser->parseByFilename($fname);
         $entries = array();
-        BasicObject::toArray($a['subprojects']['project']);
-        foreach ($a['subprojects']['project'] as $key => $value) {
+        BasicObject::toArray($parsedData['subprojects']['project']);
+        foreach ($parsedData['subprojects']['project'] as $key => $value) {
             $downloads = array();
             foreach ($value['entries'] as $type => $data) {
                 if ($type == 'file') {

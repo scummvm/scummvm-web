@@ -12,8 +12,8 @@ abstract class CreditsModel extends BasicModel
     public static function getAllCredits()
     {
         $fname = DIR_DATA . '/credits.yaml';
-        $credits = \yaml_parse_file($fname);
-        foreach ($credits['credits']['section'] as $key => $value) {
+        $parsedData = \yaml_parse_file($fname);
+        foreach (array_values($parsedData['credits']['section']) as $value) {
             $sections[] = new CreditsSection($value);
         }
         return $sections;

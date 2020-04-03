@@ -88,7 +88,7 @@ abstract class FAQModel extends BasicModel
 
         /* Now parse the data. */
         $parser = new XMLParser();
-        $a = $parser->parseByData($data);
+        $parsedData = $parser->parseByData($data);
         $sections = array();
         /**
          * Build a map of the defined hrefs so we can give the xrefs the correct
@@ -96,7 +96,7 @@ abstract class FAQModel extends BasicModel
          */
         $xref = array();
         $count = 1;
-        foreach ($a['faq']['section'] as $data) {
+        foreach (array_values($parsedData['faq']['section']) as $data) {
             $sections[] = new FaqSection($data, $count++, $xref);
         }
         return $sections;
