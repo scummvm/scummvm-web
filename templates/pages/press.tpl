@@ -6,9 +6,9 @@
   {foreach from=$articles item=article}
   <p>
     {if $article->getLanguage() != null}
-      <a href="{$article->getURL()}"><b>{$article->getName()}</b></a> ({$article->getLanguage()}), {$article->getPosted()}
+      <a href="{$article->getURL()}"><b>{$article->getName()}</b></a> ({$article->getLanguage()}), {$article->getSource()}, {$article->getDate()}
     {else}
-      <a href="{$article->getURL()}"><b>{$article->getName()}</b></a>, {$article->getPosted()}
+      <a href="{$article->getURL()}"><b>{$article->getName()}</b></a>, {$article->getSource()}, {$article->getDate()}
     {/if}
   </p>
   {/foreach}
