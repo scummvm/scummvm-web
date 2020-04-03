@@ -16,7 +16,7 @@ class MenuItem extends BasicObject
         parent::__construct($data);
         $this->class = $data['class'];
         $this->entries = array();
-        foreach ($data['link'] as $key => $value) {
+        foreach (array_values($data['links']) as $value) {
             $this->entries[$value['name']] = $value['href'];
         }
     }
