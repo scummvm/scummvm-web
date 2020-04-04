@@ -236,7 +236,7 @@ companies:
             - name: "DOS"
           unsupported:
             - name: "Commodore 64"
-              notes: "Doesn't use AGOS, so will never be supported"
+              notes: "Doesn't use AGOS"
 
       - name: "Elvira II - The Jaws of Cerberus"
         target: "elvira2"
@@ -251,7 +251,7 @@ companies:
               notes: "No sound effects"
           unsupported:
             - name: "Commodore 64"
-              notes: "Doesn't use AGOS, so will never be supported"
+              notes: "Doesn't use AGOS"
 
       - name: "Personal Nightmare"
         target: "pn"
@@ -1712,7 +1712,7 @@ companies:
             - name: "Windows"
           unsupported:
             - name: "CD-i"
-              notes: "Doesn't use Groovie, so it will never be supported."
+              notes: "Doesn't use Groovie"
 
       - name: "TeenAgent"
         target: "teenagent"
@@ -2036,7 +2036,7 @@ companies:
             - name: "Windows"
           unsupported:
             - name: "PlayStation"
-              notes: "Doesn't use SCUMM, so will never be supported."
+              notes: "Doesn't use SCUMM"
 
       - name: "Pajama Sam's Lost & Found"
         target: "lost"
