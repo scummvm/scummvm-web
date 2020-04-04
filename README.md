@@ -63,3 +63,7 @@ submission guidelines.
 * **BUILD:** Files related to building and developing the site.
 * **WEB:** Catch-all for things that don't fit any of the above, or a mix of
 multiple components in a single commit.
+
+### Code Style
+
+YAML files should adhere to the [Flathub YAML Style Guide](https://github.com/flathub/flathub/wiki/YAML-Style-Guide).
