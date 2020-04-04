@@ -18,6 +18,16 @@
 					<user_agent>Windows</user_agent>
 				</file>
 				<file>
+					<category_icon>windows</category_icon>
+					<url>scummvm-2.1.2-win32-x86_64.zip</url>
+					<name>Windows zipfile (64 bit)</name>
+				</file>
+				<file>
+					<category_icon>windows</category_icon>
+					<url>scummvm-2.1.2-win32.zip</url>
+					<name>Windows zipfile (32 bit)</name>
+				</file>
+				<file>
 					<category_icon>macos</category_icon>
 					<url>scummvm-2.1.2-macosx.dmg</url>
 					<name>macOS 10.7+ 64 bits with Sparkle Disk Image</name>
@@ -57,7 +67,7 @@
 					<name>Windows Installer (32 and 64 bit)</name>
 					<user_agent>Windows</user_agent>
 				</file>
--->
+
 				<file>
 					<category_icon>windows</category_icon>
 					<url>scummvm-{$release}a-win32-x86_64.zip</url>
@@ -68,7 +78,7 @@
 					<url>scummvm-{$release}a-win32.zip</url>
 					<name>Windows zipfile (32 bit)</name>
 				</file>
-<!--
+
 				<file>
 					<category_icon>windows</category_icon>
 					<url>scummvm-{$release}-win32-x86_64.exe</url>
