@@ -1,0 +1,2392 @@
+companies:
+  - name: "LucasArts"
+    games:
+      - name: "Maniac Mansion"
+        target: "maniac"
+        company: "LucasArts"
+        engine: "SCUMM"
+        since: "0.5.0"
+        datafiles: "Maniac_Mansion_.28Original_or_Enhanced.29"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "Apple II"
+            - name: "Atari ST"
+            - name: "Commodore 64"
+            - name: "Macintosh"
+            - name: "NES"
+              notes: "Minor graphical glitches"
+            - name: "PC"
+
+      - name: "Zak McKracken and the Alien Mindbenders"
+        target: "zak"
+        company: "LucasArts"
+        engine: "SCUMM"
+        support_level: "good"
+        datafiles: "Zak_McKracken_and_the_Alien_Mindbenders"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "Atari ST"
+            - name: "Commodore 64"
+            - name: "FM-TOWNS"
+              notes: "No music or sound effects; kanji version requires the FM-TOWNS Font ROM"
+            - name: "PC"
+
+      - name: "Indiana Jones and the Last Crusade"
+        target: "indy3"
+        company: "LucasArts"
+        engine: "SCUMM"
+        support_level: "good"
+        datafiles: "Indiana_Jones_and_the_Last_Crusade"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "Atari ST"
+            - name: "FM-TOWNS"
+              notes: "Kanji version requires the FM-TOWNS Font ROM"
+            - name: "Macintosh"
+              notes: "No support for the Macintosh interface"
+            - name: "PC"
+
+      - name: "Loom"
+        target: "loom"
+        company: "LucasArts"
+        engine: "SCUMM"
+        support_level: "excellent"
+        datafiles: "Loom"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "Atari ST"
+            - name: "FM-TOWNS"
+              notes: "Kanji version requires the FM-TOWNS Font ROM"
+            - name: "Macintosh"
+              notes: "No support for the Macintosh interface"
+            - name: "DOS Floppy"
+            - name: "DOS CD"
+            - name: "PC-Engine"
+              notes: "Kanji version requires the system card ROM"
+        notes: "The Roland update from LucasArts is required for MIDI support in the EGA version"
+
+      - name: "Passport to Adventure"
+        target: "pass"
+        company: "LucasArts"
+        engine: "SCUMM"
+        support_level: "excellent"
+        datafiles: "Passport_to_Adventure"
+
+      - name: "The Secret of Monkey Island"
+        target: "monkey"
+        company: "LucasArts"
+        engine: "SCUMM"
+        support_level: "excellent"
+        datafiles: "Secret_of_Monkey_Island.2C_The"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "Atari ST"
+            - name: "Macintosh"
+            - name: "DOS EGA"
+            - name: "DOS VGA Floppy"
+            - name: "DOS VGA CD"
+            - name: "SegaCD"
+              notes: "Dialogue choices in the SegaCD version can be selected with mousewheel or keyboard arrow keys"
+        notes: "The Roland update from LucasArts is required for MIDI support in the EGA version"
+
+      - name: "Monkey Island 2: LeChuck's Revenge"
+        target: "monkey2"
+        company: "LucasArts"
+        engine: "SCUMM"
+        support_level: "excellent"
+        datafiles: "Monkey_Island_2:_LeChuck.27s_Revenge"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "FM-TOWNS"
+              notes: "Kanji version requires the FM-TOWNS Font ROM"
+            - name: "Macintosh"
+            - name: "DOS"
+        notes: "Demo version often crashes due to missing resources, since it was never meant to be playable<br />- No support for playing back the recorded file of gameplay in demo version"
+
+      - name: "Indiana Jones and the Fate of Atlantis"
+        target: "atlantis"
+        company: "LucasArts"
+        engine: "SCUMM"
+        support_level: "excellent"
+        datafiles: "Indiana_Jones_and_the_Fate_of_Atlantis"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "FM-TOWNS"
+              notes: "Kanji version requires the FM-TOWNS Font ROM"
+            - name: "Macintosh"
+            - name: "DOS"
+
+      - name: "Day of the Tentacle"
+        target: "tentacle"
+        company: "LucasArts"
+        engine: "SCUMM"
+        support_level: "excellent"
+        datafiles: "Day_of_the_Tentacle"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "DOS CD"
+            - name: "DOS Floppy"
+
+        notes: "Maniac Mansion isn't playable on Ed's computer. To play the included copy, use 'Add Game' from the main ScummVM launcher and select the MANIAC directory inside the DOTT game directory"
+
+      - name: "Sam & Max Hit the Road"
+        target: "samnmax"
+        company: "LucasArts"
+        engine: "SCUMM"
+        support_level: "excellent"
+        datafiles: "Sam_.26_Max_Hit_the_Road"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "PC"
+
+      - name: "Full Throttle"
+        target: "ft"
+        company: "LucasArts"
+        engine: "SCUMM"
+        support_level: "good"
+        datafiles: "Full_Throttle"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "PC"
+
+      - name: "The Dig"
+        target: "dig"
+        company: "LucasArts"
+        engine: "SCUMM"
+        support_level: "good"
+        datafiles: "Dig.2C_The"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "PC"
+
+      - name: "The Curse of Monkey Island"
+        target: "comi"
+        company: "LucasArts"
+        engine: "SCUMM"
+        support_level: "good"
+        datafiles: "Curse_of_Monkey_Island.2C_The"
+
+  - name: "Activision Adventure"
+    games:
+      - name: "Leather Goddesses of Phobos 2"
+        target: "lgop2"
+        support_level: "good"
+        datafiles: "Leather_Goddesses_of_Phobos_2"
+        platforms:
+          supported:
+            - name: "DOS"
+        notes: "Floppy version is supported by this target<br />- Only soundblaster music is played. MIDI music playing/MT32 instrument mapping needs more work"
+
+      - name: "The Manhole"
+        target: "manhole"
+        support_level: "good"
+        datafiles: "Manhole.2C_The"
+        platforms:
+          supported:
+            - name: "DOS"
+              notes: "Floppy and CD versions are supported"
+
+      - name: "Return to Zork"
+        target: "rtz"
+        support_level: "good"
+        datafiles: "Return_to_Zork"
+        platforms:
+          supported:
+            - name: "DOS"
+              notes: "Floppy and CD versions are supported"
+          unsupported:
+            - name: "3DO"
+            - name: "Macintosh"
+            - name: "PC-FX"
+            - name: "PlayStation"
+            - name: "SEGA Saturn"
+        notes: "Only soundblaster music is played. MIDI music playing/MT32 instrument mapping needs more work"
+
+      - name: "Rodney's Funscreen"
+        target: "rodney"
+        support_level: "good"
+        datafiles: "Rodney.27s_Funscreen"
+        platforms:
+          supported:
+            - name: "DOS"
+        notes: "Floppy version is supported by this target"
+
+  - name: "Adventuresoft/Horrorsoft"
+    games:
+      - name: "Elvira - Mistress of the Dark"
+        target: "elvira1"
+        support_level: "good"
+        datafiles: "Elvira:_Mistress_of_the_Dark"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "Atari ST"
+              notes: "No music"
+            - name: "DOS"
+          unsupported:
+            - name: "Commodore 64"
+              notes: "Doesn't use AGOS, so will never be supported"
+
+      - name: "Elvira II - The Jaws of Cerberus"
+        target: "elvira2"
+        support_level: "good"
+        datafiles: "Elvira_II:_The_Jaws_of_Cerberus"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "Atari ST"
+              notes: "No music"
+            - name: "DOS"
+              notes: "No sound effects"
+          unsupported:
+            - name: "Commodore 64"
+              notes: "Doesn't use AGOS, so will never be supported"
+
+      - name: "Personal Nightmare"
+        target: "pn"
+        support_level: "good"
+        datafiles: "Personal_Nightmare"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "No day to night fading"
+            - name: "Atari ST"
+              notes: "No day to night fading"
+            - name: "DOS"
+        notes: "Minor spacing glitches with charset."
+
+      - name: "Simon the Sorcerer 1"
+        target: "simon1"
+        support_level: "excellent"
+        datafiles: "Simon_the_Sorcerer"
+        platforms:
+          supported:
+            - name: "Acorn"
+              notes: "No music in disk version"
+            - name: "Amiga"
+            - name: "DOS"
+            - name: "Windows"
+
+      - name: "Simon the Sorcerer 2"
+        target: "simon2"
+        support_level: "excellent"
+        datafiles: "Simon_the_Sorcerer_II:_The_Lion.2C_the_Wizard_and_the_Wardrobe"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "Only the default language (English); F10 key animation is different"
+            - name: "DOS"
+            - name: "Macintosh"
+              notes: "Only the default language (English); F10 key animation is different"
+            - name: "Windows"
+
+      - name: "Simon the Sorcerer's Puzzle Pack - D.I.M.P."
+        target: "dimp"
+        support_level: "good"
+        datafiles: "Simon_the_Sorcerer.27s_Puzzle_Pack"
+        notes: "Demon takes longer to die, compared to original."
+
+      - name: "Simon the Sorcerer's Puzzle Pack - Jumble"
+        target: "jumble"
+        support_level: "good"
+        datafiles: "Simon_the_Sorcerer.27s_Puzzle_Pack"
+        notes: "No support for displaying, entering, loading and saving high scores."
+
+      - name: "Simon the Sorcerer's Puzzle Pack - NoPatience"
+        target: "puzzle"
+        support_level: "good"
+        datafiles: "Simon_the_Sorcerer.27s_Puzzle_Pack"
+        notes: "No support for displaying, entering, loading and saving high scores"
+
+      - name: "Simon the Sorcerer's Puzzle Pack - Swampy Adventures"
+        target: "swampy"
+        support_level: "good"
+        datafiles: "Simon_the_Sorcerer.27s_Puzzle_Pack"
+        notes: "No support for displaying explanation, when clicking on items<br />- No support for displaying, entering, loading and saving high scores"
+
+      - name: "The Feeble Files"
+        target: "feeble"
+        support_level: "excellent"
+        datafiles: "Feeble_Files.2C_The"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Waxworks"
+        target: "waxworks"
+        support_level: "good"
+        datafiles: "Waxworks"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "Not confirmed as completable"
+            - name: "DOS"
+          unsupported:
+            - name: "PC"
+              notes: "Doesn't load or save items states correctly, leading to various bugs"
+
+  - name: "Coktel Vision"
+    games:
+      - name: "Bargon Attack"
+        target: "bargon"
+        support_level: "excellent"
+        datafiles: "Bargon_Attack"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "Atari"
+            - name: "DOS"
+        notes: "Issues with the mouse cursor visibility"
+
+      - name: "Fascination"
+        target: "fascination"
+        support_level: "excellent"
+        datafiles: "Fascination"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "Atari"
+            - name: "DOS"
+
+      - name: "Geisha"
+        target: "geisha"
+        support_level: "good"
+        datafiles: "Geisha"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "Atari"
+            - name: "DOS"
+
+      - name: "Gobliiins"
+        target: "gob1"
+        support_level: "excellent"
+        datafiles: "Gobliiins"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "Atari"
+            - name: "DOS"
+            - name: "Macintosh"
+              notes: "Problem with one music piece"
+
+      - name: "Gobliins 2"
+        target: "gob2"
+        support_level: "excellent"
+        datafiles: "Gobliins_2"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "Atari"
+            - name: "DOS"
+            - name: "Macintosh"
+        notes: "A few wrong instruments during music playback"
+
+      - name: "Goblins 3"
+        target: "gob3"
+        support_level: "excellent"
+        datafiles: "Goblins_3"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "Atari"
+            - name: "DOS"
+            - name: "Macintosh"
+        notes: "Issues with the mouse cursor visibility<br />- No support for original font and music files in Macintosh version<br />- The number of used jokers isn't saved correctly. You'll always have 5 to spend again after loading"
+
+      - name: "Lost in Time"
+        target: "lostintime"
+        support_level: "excellent"
+        datafiles: "Lost_in_Time"
+        platforms:
+          supported:
+            - name: "DOS"
+        notes: "Floppy and CD versions are supported by this target<br />- Issues with the mouse cursor visibility"
+
+      - name: "Once Upon A Time: Little Red Riding Hood"
+        target: "littlered"
+        support_level: "good"
+        datafiles: "Once_Upon_A_Time:_Little_Red_Riding_Hood"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "Atari"
+            - name: "DOS"
+            - name: "Windows"
+
+      - name: "Playtoons: Bambou le Sauveur de la Jungle"
+        target: "bambou"
+        support_level: "excellent"
+        datafiles: "Playtoons:_Bambou_le_Sauveur_de_la_Jungle"
+        platforms:
+          supported:
+            - name: "Windows"
+
+      - name: "The Bizarre Adventures of Woodruff and the Schnibble"
+        target: "woodruff"
+        support_level: "excellent"
+        datafiles: "Bizarre_Adventures_of_Woodruff_and_the_Schnibble.2C_The"
+        platforms:
+          supported:
+            - name: "PC"
+        notes: "CD versions are supported by this target<br />- Issues with the mouse cursor visibility"
+
+      - name: "Urban Runner"
+        target: "urban"
+        support_level: "excellent"
+        datafiles: "Urban_Runner"
+        platforms:
+          supported:
+            - name: "Windows"
+
+      - name: "Ween: The Prophecy"
+        target: "ween"
+        support_level: "excellent"
+        datafiles: "Ween:_The_Prophecy"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "Atari"
+            - name: "DOS"
+        notes: "Issues with the mouse cursor visibility"
+
+  - name: "Revolution Software"
+    games:
+      - name: "Beneath a Steel Sky"
+        target: "sky"
+        support_level: "excellent"
+        datafiles: "Beneath_a_Steel_Sky"
+        platforms:
+          unsupported:
+            - name: "Amiga"
+        notes: "Floppy demos aren't supported<br />- The following bugs are present in the original game and can't be fixed:<br />- The voice files for some sentences are missing.<br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;This is especially noticeable in the court- and Mrs. Piermont sequence.<br />- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders<br />- Special characters for french and italian subtitles are incorrect sometimes"
+
+      - name: "Broken Sword: The Shadow of the Templars"
+        target: "sword1"
+        support_level: "excellent"
+        datafiles: "Broken_Sword:_The_Shadow_of_the_Templars"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Macintosh"
+            - name: "PlayStation"
+            - name: "Windows"
+
+      - name: "Broken Sword II: The Smoking Mirror"
+        target: "sword2"
+        support_level: "excellent"
+        datafiles: "Broken_Sword_II:_The_Smoking_Mirror"
+        platforms:
+          supported:
+            - name: "PlayStation"
+            - name: "Windows"
+
+      - name: "Lure of the Temptress"
+        target: "lure"
+        support_level: "good"
+        datafiles: "Lure_of_the_Temptress"
+        platforms:
+          supported:
+            - name: "DOS"
+        notes: "VGA and EGA versions are supported<br />- Sound support is incomplete and there is no Roland MT-32 support"
+
+  - name: "Sierra ADL"
+    games:
+      - name: "Hi-Res Adventure #0: Mission Asteroid"
+        target: "hires0"
+        support_level: "good"
+        datafiles: "Hi-Res_Adventure_.230:_Mission_Asteroid"
+        platforms:
+          supported:
+            - name: "Apple II"
+
+      - name: "Hi-Res Adventure #1: Mystery House"
+        target: "hires1"
+        support_level: "good"
+        datafiles: "Hi-Res_Adventure_.231:_Mystery_House"
+        platforms:
+          supported:
+            - name: "Apple II"
+
+      - name: "Hi-Res Adventure #2: Wizard and the Princess"
+        target: "hires2"
+        support_level: "good"
+        datafiles: "Hi-Res_Adventure_.232:_Wizard_and_the_Princess"
+        platforms:
+          supported:
+            - name: "Apple II"
+
+      - name: "Hi-Res Adventure #3: Cranston Manor"
+        target: "hires3"
+        support_level: "good"
+        datafiles: "Hi-Res_Adventure_.233:_Cranston_Manor"
+        platforms:
+          supported:
+            - name: "Apple II"
+
+      - name: "Hi-Res Adventure #4: Ulysses and the Golden Fleece"
+        target: "hires4"
+        support_level: "good"
+        datafiles: "Hi-Res_Adventure_.234:_Ulysses_and_the_Golden_Fleece"
+        platforms:
+          supported:
+            - name: "Apple II"
+
+      - name: "Hi-Res Adventure #5: Time Zone"
+        target: "hires5"
+        support_level: "good"
+        datafiles: "Hi-Res_Adventure_.235:_Time_Zone"
+        platforms:
+          supported:
+            - name: "Apple II"
+
+      - name: "Hi-Res Adventure #6: The Dark Crystal"
+        target: "hires6"
+        support_level: "good"
+        datafiles: "Hi-Res_Adventure_.236:_The_Dark_Crystal"
+        platforms:
+          supported:
+            - name: "Apple II"
+
+  - name: "Sierra AGI"
+    games:
+      - name: "The Black Cauldron"
+        target: "bc"
+        support_level: "good"
+        datafiles: "AGI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Amiga"
+            - name: "Atari ST"
+            - name: "Apple IIgs"
+
+      - name: "Gold Rush!"
+        target: "goldrush"
+        support_level: "good"
+        datafiles: "AGI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Amiga"
+            - name: "Atari ST"
+            - name: "Apple IIgs"
+
+      - name: "King's Quest I"
+        target: "kq1"
+        support_level: "good"
+        datafiles: "AGI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Macintosh"
+            - name: "Amiga"
+            - name: "Atari ST"
+            - name: "Apple IIgs"
+
+      - name: "King's Quest II"
+        target: "kq2"
+        support_level: "good"
+        datafiles: "AGI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Macintosh"
+            - name: "Amiga"
+            - name: "Atari ST"
+            - name: "Apple IIgs"
+
+      - name: "King's Quest III"
+        target: "kq3"
+        support_level: "good"
+        datafiles: "AGI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Macintosh"
+            - name: "Amiga"
+            - name: "Atari ST"
+            - name: "Apple IIgs"
+
+      - name: "King's Quest IV"
+        target: "kq4"
+        support_level: "good"
+        datafiles: "AGI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Apple IIgs"
+
+      - name: "Leisure Suit Larry in the Land of the Lounge Lizards"
+        target: "lsl1"
+        support_level: "good"
+        datafiles: "AGI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Macintosh"
+            - name: "Amiga"
+            - name: "Atari ST"
+            - name: "Apple IIgs"
+
+      - name: "Mixed-Up Mother Goose"
+        target: "mixedup"
+        support_level: "good"
+        datafiles: "AGI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Amiga"
+            - name: "Apple IIgs"
+
+      - name: "Manhunter 1: New York"
+        target: "mh1"
+        support_level: "good"
+        datafiles: "AGI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Amiga"
+            - name: "Atari ST"
+            - name: "Apple IIgs"
+
+      - name: "Manhunter 2: San Francisco"
+        target: "mh2"
+        support_level: "good"
+        datafiles: "AGI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Amiga"
+            - name: "Atari ST"
+
+      - name: "Police Quest I: In Pursuit of the Death Angel"
+        target: "pq1"
+        support_level: "good"
+        datafiles: "AGI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Macintosh"
+            - name: "Amiga"
+            - name: "Apple IIgs"
+              platforms:
+                supported:
+                  - name: "DOS"
+                  - name: "Macintosh"
+                  - name: "Amiga"
+                  - name: "Apple IIgs"
+
+      - name: "Space Quest I: The Sarien Encounter"
+        target: "sq1"
+        support_level: "good"
+        datafiles: "AGI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Macintosh"
+            - name: "Amiga"
+            - name: "Atari ST"
+            - name: "Apple IIgs"
+
+      - name: "Space Quest II: Vohaul's Revenge"
+        target: "sq2"
+        support_level: "good"
+        datafiles: "AGI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Macintosh"
+            - name: "Amiga"
+            - name: "Apple IIgs"
+
+      - name: "Fanmade Games"
+        target: "agi-fanmade"
+        support_level: "good"
+        datafiles: "AGI"
+        notes: "Most games are completable<br />- AGIMOUSE, AGIPAL, AGI256 and AGI256-2 hacks are also supported by this target<br />- Occasional graphics glitches"
+
+      - name: "Mickey's Space Adventure"
+        target: "mickey"
+        support_level: "good"
+        datafiles: "AGI"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Troll's Tale"
+        target: "troll"
+        support_level: "good"
+        datafiles: "AGI"
+        platforms:
+          supported:
+            - name: "DOS"
+        notes: "Game lacks sound"
+
+      - name: "Winnie the Pooh in the Hundred Acre Wood"
+        target: "winnie"
+        support_level: "good"
+        datafiles: "AGI"
+        platforms:
+          supported:
+            - name: "DOS"
+
+  - name: "Sierra SCI"
+    games:
+      - name: "Castle of Dr. Brain (EGA and VGA)"
+        target: "castlebrain"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "Music may have glitches"
+            - name: "DOS"
+            - name: "Macintosh"
+              notes: "Music may have glitches; no support for hi-res fonts"
+            - name: "Windows"
+
+      - name: "Codename: ICEMAN"
+        target: "iceman"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "Music may have glitches"
+            - name: "DOS"
+
+      - name: "Conquests of Camelot"
+        target: "camelot"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "Music may have glitches"
+            - name: "DOS"
+
+      - name: "Conquests of the Longbow (EGA and VGA)"
+        target: "longbow"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "Music may have glitches"
+            - name: "DOS"
+
+      - name: "EcoQuest: The Search for Cetus"
+        target: "ecoquest"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Windows"
+
+      - name: "EcoQuest 2: Lost Secret of the Rainforest"
+        target: "ecoquest2"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Freddy Pharkas: Frontier Pharmacist"
+        target: "freddypharkas"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Gabriel Knight: Sins of the Fathers"
+        target: "gk1"
+        support_level: "good"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Windows"
+
+      - name: "Hoyle's Book of Games 1"
+        target: "hoyle1"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "Music may have glitches"
+            - name: "DOS"
+
+      - name: "Hoyle's Book of Games 2"
+        target: "hoyle2"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "Music may have glitches"
+            - name: "DOS"
+
+      - name: "Hoyle's Book of Games 3 (EGA and VGA)"
+        target: "hoyle3"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "Music may have glitches"
+            - name: "DOS"
+
+      - name: "Hoyle Classic Card Games"
+        target: "hoyle4"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Hoyle Classic Games/Bridge/Children's Collection"
+        target: "hoyle5"
+        support_level: "good"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Windows"
+        notes: "The poker game of the Hoyle Classic Games collection is not yet supported"
+
+      - name: "Hoyle Solitaire"
+        target: "hoyle5solitaire"
+        support_level: "good"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Windows"
+
+      - name: "Inside the Chest/Behind the Developers' Shield"
+        target: "chest"
+        support_level: "broken"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Jones in the Fast Lane"
+        target: "jones"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Windows"
+
+      - name: "King's Quest I (SCI remake)"
+        target: "kq1sci"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "Music is not working"
+            - name: "DOS"
+
+      - name: "King's Quest IV (SCI version)"
+        target: "kq4sci"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "Music may have glitches"
+            - name: "DOS"
+
+      - name: "King's Quest V (EGA and VGA)"
+        target: "kq5"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "Music may have glitches"
+            - name: "DOS"
+            - name: "Macintosh"
+              notes: "Music may have glitches; no support for hi-res fonts"
+            - name: "Windows"
+
+      - name: "King's Quest VI (low and hi res)"
+        target: "kq6"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Windows"
+
+      - name: "King's Quest VII"
+        target: "kq7"
+        support_level: "good"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Windows"
+
+      - name: "King's Questions"
+        target: "kquestions"
+        support_level: "good"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Windows"
+
+      - name: "Laura Bow: The Colonel's Bequest"
+        target: "laurabow"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "Music may have glitches"
+            - name: "DOS"
+
+      - name: "Laura Bow 2: The Dagger of Amon Ra"
+        target: "laurabow2"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Leisure Suit Larry 1 (SCI remake) (EGA and VGA)"
+        target: "lsl1sci"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "Music may have glitches"
+            - name: "DOS"
+            - name: "Macintosh"
+              notes: "Music may have glitches; no support for hi-res fonts"
+
+      - name: "Leisure Suit Larry 2"
+        target: "lsl2"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "Music may have glitches"
+            - name: "DOS"
+
+      - name: "Leisure Suit Larry 3"
+        target: "lsl3"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "Music may have glitches"
+            - name: "DOS"
+
+      - name: "Leisure Suit Larry 5 (EGA and VGA)"
+        target: "lsl5"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "Music may have glitches"
+            - name: "DOS"
+            - name: "Macintosh"
+              notes: "Music may have glitches; no support for hi-res fonts"
+
+      - name: "Leisure Suit Larry 6 (low res)"
+        target: "lsl6"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Leisure Suit Larry 6 (hi res)"
+        target: "lsl6hires"
+        support_level: "good"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Windows"
+
+      - name: "Leisure Suit Larry 7"
+        target: "lsl7"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Lighthouse: The Dark Being"
+        target: "lighthouse"
+        support_level: "good"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Mixed-up Fairy Tales"
+        target: "fairytales"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Mixed-up Mother Goose"
+        target: "mothergoose"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "Music may have glitches"
+            - name: "DOS"
+
+      - name: "Mixed-up Mother Goose Deluxe"
+        target: "mothergoosehires"
+        support_level: "good"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Windows"
+
+      - name: "Pepper's Adventures in Time"
+        target: "pepper"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Phantasmagoria"
+        target: "phantasmagoria"
+        support_level: "good"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Windows"
+
+      - name: "Phantasmagoria 2"
+        target: "phantasmagoria2"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Windows"
+
+      - name: "Police Quest 1 (SCI remake)"
+        target: "pq1sci"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Police Quest 2"
+        target: "pq2"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "Music may have glitches"
+            - name: "DOS"
+
+      - name: "Police Quest 3 (EGA and VGA)"
+        target: "pq3"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "Music may have glitches"
+            - name: "DOS"
+
+      - name: "Police Quest 4: Open Season"
+        target: "pq4"
+        support_level: "good"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Police Quest: SWAT"
+        target: "pqswat"
+        support_level: "good"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Quest for Glory 1/Hero's Quest"
+        target: "qfg1"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "Music may have glitches"
+            - name: "DOS"
+
+      - name: "Quest for Glory 1 VGA remake"
+        target: "qfg1vga"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Quest for Glory 2"
+        target: "qfg2"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Amiga"
+              notes: "Music may have glitches"
+            - name: "DOS"
+
+      - name: "Quest for Glory 3"
+        target: "qfg3"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Quest for Glory 4"
+        target: "qfg4"
+        support_level: "good"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Windows"
+
+      - name: "RAMA"
+        target: "rama"
+        support_level: "good"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Shivers"
+        target: "shivers"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Windows"
+
+      - name: "Slater & Charlie Go Camping"
+        target: "slater"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Space Quest I (SCI remake) (EGA and VGA)"
+        target: "sq1sci"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Macintosh"
+              notes: "Music may have glitches; no support for hi-res fonts"
+            - name: "Amiga"
+              notes: "Music may have glitches"
+
+      - name: "Space Quest III"
+        target: "sq3"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Amiga"
+              notes: "Music may have glitches"
+
+      - name: "Space Quest IV (EGA and VGA)"
+        target: "sq4"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Windows"
+            - name: "Macintosh"
+              notes: "Music may have glitches; no support for hi-res fonts"
+            - name: "Amiga"
+              notes: "Music may have glitches"
+
+      - name: "Space Quest V"
+        target: "sq5"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Space Quest 6"
+        target: "sq6"
+        support_level: "good"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "The Beast Within: A Gabriel Knight Mystery"
+        target: "gk2"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+        notes: "Video files in the original (1.0) release are corrupt (bad A/V sync)"
+
+      - name: "The Island of Dr. Brain"
+        target: "islandbrain"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Torin's Passage"
+        target: "torin"
+        support_level: "excellent"
+        datafiles: "SCI"
+        platforms:
+          supported:
+            - name: "Windows"
+
+  - name: "Other"
+    games:
+      - name: "3 Skulls of the Toltecs"
+        target: "toltecs"
+        support_level: "good"
+        datafiles: "3_Skulls_of_the_Toltecs"
+
+      - name: "Amazon: Guardians of Eden"
+        target: "access"
+        support_level: "good"
+        datafiles: "Amazon:_Guardians_of_Eden"
+        notes: "Demo isn't supported."
+
+      - name: "Beavis and Butt-head in Virtual Stupidity"
+        target: "bbvs"
+        support_level: "good"
+        datafiles: "Beavis_and_Butt-Head_in_Virtual_Stupidity"
+        platforms:
+          supported:
+            - name: "Windows"
+
+      - name: "Blade Runner"
+        target: "bladerunner"
+        support_level: "good"
+        datafiles: "Blade_Runner"
+
+      - name: "Blue Force"
+        target: "blueforce"
+        support_level: "good"
+        datafiles: "Blue_Force"
+
+      - name: "Broken Sword 2.5: The Return of the Templars"
+        target: "sword25"
+        support_level: "excellent"
+        datafiles: ""
+
+      - name: "Bud Tucker in Double Trouble"
+        target: "tucker"
+        support_level: "excellent"
+        datafiles: "Bud_Tucker_in_Double_Trouble"
+
+      - name: "Chivalry is Not Dead"
+        target: "chivalry"
+        support_level: "good"
+        datafiles: "Chivalry_is_Not_Dead"
+        notes: "Requires additional fonts."
+
+      - name: "Cruise for a Corpse"
+        target: "cruise"
+        support_level: "excellent"
+        datafiles: "Cruise_for_a_Corpse"
+        platforms:
+          supported:
+            - name: "DOS"
+        notes: "Only AdLib music and sound effects are supported"
+
+      - name: "DreamWeb"
+        target: "dreamweb"
+        support_level: "excellent"
+        datafiles: "Dreamweb"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Discworld"
+        target: "dw"
+        support_level: "excellent"
+        datafiles: "Discworld"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Macintosh"
+            - name: "PSX"
+              notes: "Missing music support"
+
+      - name: "Discworld II - Missing presumed...!?"
+        target: "dw2"
+        support_level: "excellent"
+        datafiles: "Discworld_2:_Missing_Presumed_....21.3F"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Windows"
+
+      - name: "Dragon History"
+        target: "draci"
+        support_level: "good"
+        datafiles: "Dragon_History"
+
+      - name: "Drascula: The Vampire Strikes Back"
+        target: "drascula"
+        support_level: "excellent"
+        datafiles: "Drascula:_The_Vampire_Strikes_Back"
+
+      - name: "Duckman: The Graphic Adventures of a Private Dick"
+        target: "duckman"
+        support_level: "good"
+        notes: "English, German and Demo versions are supported by this target"
+
+      - name: "Eye of the Beholder"
+        target: "eob"
+        support_level: "good"
+        datafiles: "Eye_of_the_Beholder"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "DOS"
+            - name: "PC-98"
+
+      - name: "Eye of the Beholder II: The Legend of Darkmoon"
+        target: "eob2"
+        support_level: "good"
+        datafiles: "Eye_of_the_Beholder_II:_The_Legend_of_Darkmoon"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "DOS"
+            - name: "FM-TOWNS"
+          unsupported:
+            - name: "PC-98"
+
+      - name: "Flight of the Amazon Queen"
+        target: "queen"
+        support_level: "excellent"
+        datafiles: "Flight_of_the_Amazon_Queen"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "DOS"
+
+      - name: "Full Pipe"
+        target: "fullpipe"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "Windows"
+              notes: "Demos and Steam versions are supported by this target"
+          unsupported:
+            - name: "iOS"
+            - name: "Android"
+
+      - name: "Future Wars"
+        target: "fw"
+        support_level: "good"
+        datafiles: "Future_Wars"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "Atari"
+            - name: "DOS"
+        notes: "Occasional graphical glitches"
+
+      - name: "Hopkins FBI"
+        target: "hopkins"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "Win95"
+            - name: "BeOS"
+            - name: "OS/2"
+            - name: "Linux"
+
+      - name: "Hugo's House of Horrors"
+        target: "hugo1"
+        support_level: "good"
+        datafiles: "Hugo.27s_House_of_Horrors"
+        platforms:
+          supported:
+            - name: "DOS"
+              notes: "No support for one of the original fonts used during the intro of the DOS version"
+            - name: "Windows"
+        notes: "Playback is not supported"
+
+      - name: "Hugo 2: Whodunit?"
+        target: "hugo2"
+        support_level: "good"
+        datafiles: "Hugo_2:_Whodunit.3F"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Windows"
+        notes: "Playback is not supported"
+
+      - name: "Hugo 3: Jungle of Doom"
+        target: "hugo3"
+        support_level: "good"
+        datafiles: "Hugo_3:_Jungle_of_Doom"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Windows"
+        notes: "Playback is not supported"
+
+      - name: "Hyperspace Delivery Boy!"
+        target: "hdb"
+        support_level: "excellent"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "Linux"
+            - name: "Windows"
+            - name: "PocketPC"
+
+      - name: "I Have No Mouth, and I Must Scream"
+        target: "ihnm"
+        support_level: "good"
+        datafiles: "I_Have_No_Mouth.2C_and_I_Must_Scream"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Macintosh"
+        notes: "Occasional minor glitches"
+
+      - name: "Inherit the Earth: Quest for the Orb"
+        target: "ite"
+        support_level: "excellent"
+        datafiles: "Inherit_the_Earth:_Quest_for_the_Orb"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Linux"
+            - name: "Macintosh"
+            - name: "Mac OS X"
+            - name: "Windows"
+          unsupported:
+            - name: "Amiga"
+
+      - name: "Lands of Lore: The Throne of Chaos"
+        target: "lol"
+        support_level: "good"
+        datafiles: "Lands_of_Lore:_The_Throne_of_Chaos"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "FM-TOWNS"
+            - name: "PC-98"
+
+      - name: "Might and Magic IV: Clouds of Xeen"
+        target: "cloudsofxeen"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "DOS"
+        notes: "English version is supported"
+
+      - name: "Might and Magic V: Dark Side of Xeen"
+        target: "darksideofxeen"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "DOS"
+        notes: "English version is supported"
+
+      - name: "Might and Magic: World of Xeen"
+        target: "worldofxeen"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "DOS"
+        notes: "English text and talkie versions are supported"
+
+      - name: "Might and Magic: Swords of Xeen"
+        target: "swordsofxeen"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Mission Supernova Teil 1: Das Schicksal des Horst Hummel"
+        target: "msn1"
+        support_level: "good"
+        datafiles: "Mission_Supernova_Part_1"
+
+      - name: "Mission Supernova Teil 2: Der Doppelg&auml;nger"
+        target: "msn2"
+        support_level: "good"
+        datafiles: "Mission_Supernova_Part_2"
+
+      - name: "Mortville Manor"
+        target: "mortevielle"
+        support_level: "good"
+        datafiles: "Mortville_Manor"
+        platforms:
+          supported:
+            - name: "DOS"
+        notes: "No speech synthesis"
+
+      - name: "Myst"
+        target: "myst"
+        support_level: "excellent"
+        datafiles: "Myst"
+        platforms:
+          supported:
+            - name: "Windows"
+
+      - name: "Myst: Masterpiece Edition"
+        target: "myst"
+        support_level: "good"
+        datafiles: "Myst"
+        platforms:
+          supported:
+            - name: "Windows"
+        notes: "The hint system is not available"
+
+      - name: "Nippon Safes Inc."
+        target: "nippon"
+        support_level: "good"
+        datafiles: "Nippon_Safes_Inc."
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "DOS"
+        notes: "Occasional minor graphical glitches"
+
+      - name: "Plumbers Don't Wear Ties"
+        target: "plumbers"
+        support_level: "good"
+        datafiles: ""
+        notes: "Game has been recently supported and requires further play testing."
+
+      - name: "The Prince and the Coward"
+        target: "prince"
+        support_level: "untested"
+        notes: "Polish, German and Russian versions are supported by this target."
+
+      - name: "Rex Nebular and the Cosmic Gender Bender"
+        target: "nebular"
+        support_level: "good"
+        datafiles: "Rex_Nebular_and_the_Cosmic_Gender_Bender"
+        notes: "Original floppy version must be installed using DosBox before game is playable."
+
+      - name: "Ringworld: Revenge Of The Patriarch"
+        target: "ringworld"
+        support_level: "good"
+        datafiles: "Ringworld:_Revenge_of_the_Patriarch"
+
+      - name: "Riven"
+        target: "riven"
+        support_level: "good"
+        datafiles: "Riven:_The_Sequel_to_Myst"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Return to Ringworld"
+        target: "ringworld2"
+        support_level: "good"
+        datafiles: ""
+
+      - name: "Sfinx"
+        target: "sfinx"
+        support_level: "good"
+        datafiles: ""
+
+      - name: "Soltys"
+        target: "soltys"
+        support_level: "good"
+        datafiles: "Soltys"
+
+      - name: "Starship Titanic"
+        target: "titanic"
+        support_level: "good"
+        datafiles: "Starship_Titanic"
+        notes: "German and English versions are completable."
+
+      - name: "The Journeyman Project: Pegasus Prime"
+        target: "pegasus"
+        support_level: "good"
+        datafiles: "Journeyman_Project:_Pegasus_Prime.2C_The"
+        platforms:
+          supported:
+            - name: "Macintosh"
+        notes: "Occasional video graphical glitches"
+
+      - name: "The Labyrinth of Time"
+        target: "lab"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Macintosh"
+          unsupported:
+            - name: "Amiga"
+
+      - name: "The Legend of Kyrandia"
+        target: "kyra1"
+        support_level: "good"
+        datafiles: "Legend_of_Kyrandia.2C_The"
+        platforms:
+          supported:
+            - name: "Amiga"
+            - name: "DOS"
+            - name: "FM-TOWNS"
+            - name: "Macintosh"
+              notes: "No music or sound effects in the Macintosh floppy versions<br />- Macintosh CD is using included DOS music and sound effects for now"
+            - name: "PC-9821"
+
+      - name: "The Legend of Kyrandia: Book Two: Hand of Fate"
+        target: "kyra2"
+        support_level: "good"
+        datafiles: "Legend_of_Kyrandia.2C_The:_Hand_of_Fate"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "FM-TOWNS"
+            - name: "PC-9821"
+
+      - name: "The Legend of Kyrandia: Book Three: Malcolm's Revenge"
+        target: "kyra3"
+        support_level: "good"
+        datafiles: "Legend_of_Kyrandia.2C_The:_Malcolm.27s_Revenge"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Macintosh"
+
+      - name: "The Lost Files of Sherlock Holmes: The Case of the Serrated Scalpel"
+        target: "scalpel"
+        support_level: "good"
+        datafiles: "The_Lost_Files_of_Sherlock_Holmes"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo"
+        target: "rosetattoo"
+        support_level: "good"
+        datafiles: "The_Lost_Files_of_Sherlock_Holmes"
+
+      - name: "The Neverhood"
+        target: "neverhood"
+        support_level: "good"
+        datafiles: ""
+
+      - name: "The 7th Guest"
+        target: "t7g"
+        support_level: "excellent"
+        datafiles: "7th_Guest.2C_The"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Macintosh"
+            - name: "Windows"
+          unsupported:
+            - name: "CD-i"
+              notes: "Doesn't use Groovie, so it will never be supported."
+
+      - name: "TeenAgent"
+        target: "teenagent"
+        support_level: "good"
+        datafiles: "TeenAgent"
+        notes: "Occasional graphical glitches"
+
+      - name: "Toonstruck"
+        target: "toon"
+        support_level: "excellent"
+        datafiles: "Toonstruck"
+
+      - name: "Tony Tough and the Night of Roasted Moths"
+        target: "tony"
+        support_level: "excellent"
+        datafiles: ""
+
+      - name: "Touché: The Adventures of the Fifth Musketeer"
+        target: "touche"
+        support_level: "good"
+        datafiles: "Touch.C3.A9:_The_Adventures_of_the_Fifth_Musketeer"
+        notes: "Occasional graphical glitches"
+
+      - name: "U.F.O.s / Gnap: Der Schurke aus dem All"
+        target: "gnap"
+        support_level: "good"
+        datafiles: "U.F.O.s_.2F_Gnap"
+        notes: "Game is completable. More tests are required."
+
+      - name: "Versailles 1685"
+        target: "versailles"
+        support_level: "good"
+        datafiles: "Versailles_1685"
+
+      - name: "Voyeur"
+        target: "voyeur"
+        support_level: "good"
+        datafiles: "Voyeur"
+        platforms:
+          supported:
+            - name: "DOS"
+
+      - name: "Zork: Grand Inquisitor"
+        target: "zgi"
+        support_level: "good"
+        datafiles: "Zork:_Grand_Inquisitor"
+
+      - name: "Zork Nemesis: The Forbidden Lands"
+        target: "znemesis"
+        support_level: "good"
+        datafiles: "Zork_Nemesis:_The_Forbidden_Lands"
+
+  - name: "Humongous Entertainment"
+    games:
+      - name: "Backyard Baseball"
+        target: "baseball"
+        support_level: "good"
+        datafiles: "Backyard_Baseball"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Backyard Baseball 2001"
+        target: "baseball2001"
+        support_level: "good"
+        datafiles: "Backyard_Baseball"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+        notes: "No support for multiplayer"
+
+      - name: "Backyard Baseball 2003"
+        target: "baseball2003"
+        support_level: "good"
+        datafiles: "Backyard_Baseball"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Backyard Football"
+        target: "football"
+        support_level: "good"
+        datafiles: "Backyard_Football"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Backyard Football 2002"
+        target: "football2002"
+        support_level: "good"
+        datafiles: "Backyard_Football"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+        notes: "No support for multiplayer<br />- No videos"
+
+      - name: "Bear Stormin'"
+        target: "brstorm"
+        support_level: "excellent"
+        datafiles: "Bear_Stormin.27"
+
+      - name: "Big Thinkers First Grade"
+        target: "thinker1"
+        support_level: "good"
+        datafiles: "Big_Thinkers_First_Grade"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Big Thinkers Kindergarten"
+        target: "thinkerk"
+        support_level: "good"
+        datafiles: "Big_Thinkers_Kindergarten"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Blue's 123 Time Activities"
+        target: "Blues123Time"
+        support_level: "good"
+        datafiles: "Blue.27s_123_Time_Activities"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Blue's ABC Time Activities"
+        target: "BluesABCTime"
+        support_level: "good"
+        datafiles: "Blue.27s_ABC_Time_Activities"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Blue's Art Time Activities"
+        target: "arttime"
+        support_level: "good"
+        datafiles: "Blue.27s_Art_Time_Activities"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Blue's Birthday Adventure"
+        target: "BluesBirthday"
+        support_level: "good"
+        datafiles: "Blue.27s_Birthday_Adventure"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+        notes: "Minor graphical glitches"
+
+      - name: "Blue's Reading Time Activities"
+        target: "readtime"
+        support_level: "good"
+        datafiles: "Blue.27s_Reading_Time_Activities"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Blue's Treasure Hunt"
+        target: "BluesTreasureHunt"
+        support_level: "bugged"
+        datafiles: "Blue.27s_Treasure_Hunt"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Fatty Bear's Birthday Surprise"
+        target: "fbear"
+        support_level: "excellent"
+        datafiles: "Fatty_Bear.27s_Birthday_Surprise"
+        platforms:
+          supported:
+            - name: "3DO"
+            - name: "DOS"
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Fatty Bear's Fun Pack"
+        target: "fbpack"
+        support_level: "excellent"
+        datafiles: "Fatty_Bear.27s_Fun_Pack"
+        platforms:
+          supported:
+            - name: "3DO"
+            - name: "DOS"
+
+      - name: "Freddi Fish 1: The Case of the Missing Kelp Seeds"
+        target: "freddi"
+        support_level: "good"
+        datafiles: "Freddi_Fish_1:_The_Case_of_the_Missing_Kelp_Seeds"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Freddi Fish 2: The Case of the Haunted Schoolhouse"
+        target: "freddi2"
+        support_level: "good"
+        datafiles: "Freddi_Fish_2:_The_Case_of_the_Haunted_Schoolhouse"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Freddi Fish 3: The Case of the Stolen Conch Shell"
+        target: "freddi3"
+        support_level: "good"
+        datafiles: "Freddi_Fish_3:_The_Case_of_the_Stolen_Conch_Shell"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch"
+        target: "freddi4"
+        support_level: "good"
+        datafiles: "Freddi_Fish_4:_The_Case_of_the_Hogfish_Rustlers_of_Briny_Gulch"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Freddi Fish 5: The Case of the Creature of Coral Cove"
+        target: "freddicove"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Freddi Fish and Luther's Maze Madness"
+        target: "maze"
+        support_level: "good"
+        datafiles: "Freddi_Fish_and_Luther.27s_Maze_Madness"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Freddi Fish and Luther's Water Worries"
+        target: "water"
+        support_level: "good"
+        datafiles: "Freddi_Fish_and_Luther.27s_Water_Worries"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Let's Explore the Airport with Buzzy"
+        target: "airport"
+        support_level: "good"
+        datafiles: "Let.27s_Explore_the_Airport_with_Buzzy"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Let's Explore the Farm with Buzzy"
+        target: "farm"
+        support_level: "good"
+        datafiles: "Let.27s_Explore_the_Farm_with_Buzzy"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Let's Explore the Jungle with Buzzy"
+        target: "jungle"
+        support_level: "good"
+        datafiles: "Let.27s_Explore_the_Jungle_with_Buzzy"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Pajama Sam: Games to Play on Any Day"
+        target: "pjgames"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Pajama Sam 1: No Need to Hide When It's Dark Outside"
+        target: "pajama"
+        support_level: "good"
+        datafiles: "Pajama_Sam_1:_No_Need_to_Hide_When_It.27s_Dark_Outside"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Pajama Sam 2: Thunder and Lightning Aren't so Frightening"
+        target: "pajama2"
+        support_level: "good"
+        datafiles: "Pajama_Sam_2:_Thunder_and_Lightning_Aren.27t_so_Frightening"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Pajama Sam 3: You Are What You Eat From Your Head to Your Feet"
+        target: "pajama3"
+        support_level: "good"
+        datafiles: "Pajama_Sam_3:_You_Are_What_You_Eat_From_Your_Head_to_Your_Feet"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+          unsupported:
+            - name: "PlayStation"
+              notes: "Doesn't use SCUMM, so will never be supported."
+
+      - name: "Pajama Sam's Lost & Found"
+        target: "lost"
+        support_level: "good"
+        datafiles: "Pajama_Sam.27s_Lost_.26_Found"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Pajama Sam's Sock Works"
+        target: "socks"
+        support_level: "good"
+        datafiles: "Pajama_Sam.27s_Sock_Works"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Putt-Putt Enters the Race"
+        target: "puttrace"
+        support_level: "good"
+        datafiles: "Putt-Putt_Enters_the_Race"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Putt-Putt Goes to the Moon"
+        target: "puttmoon"
+        support_level: "excellent"
+        datafiles: "Putt-Putt_Goes_to_the_Moon"
+        platforms:
+          supported:
+            - name: "3DO"
+            - name: "DOS"
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Putt-Putt Joins the Circus"
+        target: "puttcircus"
+        support_level: "good"
+        datafiles: "Putt-Putt_Joins_the_Circus"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Putt-Putt Joins the Parade"
+        target: "puttputt"
+        support_level: "excellent"
+        datafiles: "Putt-Putt_Joins_the_Parade"
+        platforms:
+          supported:
+            - name: "3DO"
+            - name: "DOS"
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Putt-Putt Saves the Zoo"
+        target: "puttzoo"
+        support_level: "good"
+        datafiles: "Putt-Putt_Saves_the_Zoo"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+        notes: "Minor graphical glitches when meeting Kenya in HE72 version"
+
+      - name: "Putt-Putt Travels Through Time"
+        target: "putttime"
+        support_level: "good"
+        datafiles: "Putt-Putt_Travels_Through_Time"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Putt-Putt and Pep's Balloon-O-Rama"
+        target: "balloon"
+        support_level: "good"
+        datafiles: "Putt-Putt_and_Pep.27s_Balloon-O-Rama"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Putt-Putt and Pep's Dog on a Stick"
+        target: "dog"
+        support_level: "good"
+        datafiles: "Putt-Putt_and_Pep.27s_Dog_on_a_Stick"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Putt-Putt & Fatty Bear's Activity Pack"
+        target: "activity"
+        support_level: "excellent"
+        datafiles: "Putt-Putt_.26_Fatty_Bear.27s_Activity_Pack"
+        platforms:
+          supported:
+            - name: "DOS"
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Putt-Putt's Fun Pack"
+        target: "funpack"
+        support_level: "excellent"
+        datafiles: "Putt-Putt.27s_Fun_Pack"
+        platforms:
+          supported:
+            - name: "3DO"
+            - name: "DOS"
+
+      - name: "SPY Fox 1: Dry Cereal"
+        target: "spyfox"
+        support_level: "good"
+        datafiles: "SPY_Fox_1:_Dry_Cereal"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "SPY Fox 2: Some Assembly Required"
+        target: "spyfox2"
+        support_level: "good"
+        datafiles: "SPY_Fox_2:_Some_Assembly_Required"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "SPY Fox 3: Operation Ozone"
+        target: "spyozon"
+        support_level: "good"
+        datafiles: "SPY_Fox_3:_Operation_Ozone"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "SPY Fox in Cheese Chase"
+        target: "chase"
+        support_level: "good"
+        datafiles: "SPY_Fox_in_Cheese_Chase"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "SPY Fox in Hold the Mustard"
+        target: "mustard"
+        support_level: "good"
+        datafiles: "SPY_Fox_in_Hold_the_Mustard"
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+  - name: "Animation Magic"
+    games:
+      - name: "Darby the Dragon"
+        target: "darby"
+        support_level: "good"
+        datafiles: ""
+
+      - name: "Gregory and the Hot Air Balloon"
+        target: "gregory"
+        support_level: "good"
+        datafiles: ""
+
+      - name: "Magic Tales: Liam Finds a Story"
+        target: "liam"
+        support_level: "good"
+        datafiles: ""
+
+      - name: "The Princess and the Crab"
+        target: "princess"
+        support_level: "good"
+        datafiles: ""
+
+      - name: "Sleeping Cub's Test of Courage"
+        target: "sleepingcub"
+        support_level: "good"
+        datafiles: ""
+
+  - name: "Living Books"
+    games:
+      - name: "Aesop's Fables: The Tortoise and the Hare"
+        target: "tortoise"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Arthur's Birthday"
+        target: "arthurbday"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "PC"
+        notes: "The 2.0 version is not supported yet"
+
+      - name: "Arthur's Teacher Trouble"
+        target: "arthur"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Dr. Seuss's ABC"
+        target: "seussabc"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Green Eggs and Ham"
+        target: "greeneggs"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+        notes: "Minigames are not supported yet"
+
+      - name: "Harry and the Haunted House"
+        target: "harryhh"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Just Grandma and Me"
+        target: "grandma"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+        notes: "The 2.0 version is not supported yet"
+
+      - name: "Little Monster at School"
+        target: "lilmonster"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+          unsupported:
+            - name: "CD-i"
+
+      - name: "Ruff's Bone"
+        target: "ruff"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Sheila Rae, the Brave"
+        target: "sheila"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "Stellaluna"
+        target: "stellaluna"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "The Berenstain Bears Get in a Fight"
+        target: "bearfight"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "The Berenstain Bears in the Dark"
+        target: "beardark"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
+
+      - name: "The New Kid on the Block"
+        target: "newkid"
+        support_level: "good"
+        datafiles: ""
+        platforms:
+          supported:
+            - name: "Macintosh"
+            - name: "Windows"
