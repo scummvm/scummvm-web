@@ -2,7 +2,6 @@
 namespace ScummVM\Models;
 
 use ScummVM\Objects\WebLink;
-use ScummVM\XMLParser;
 
 /**
  * The LinksModel class will generate WebLink objects.
@@ -13,14 +12,13 @@ abstract class LinksModel extends BasicModel
     /* Get all the groups and the respectively demos. */
     public static function getAllGroupsAndLinks()
     {
-        $fname = DIR_DATA . '/links.xml';
-        $parser = new XMLParser();
-        $parsedData = $parser->parseByFilename($fname);
+        $fname = DIR_DATA . '/links.yaml';
+        $parsedData = \yaml_parse_file($fname);
         $entries = array();
-        foreach (array_values($parsedData['external_links']['group']) as $value) {
+        foreach (array_values($parsedData['groups']) as $value) {
             /* Get all links. */
             $links = array();
-            foreach ($value['link'] as $data) {
+            foreach ($value['links'] as $data) {
                 $links[] = new WebLink($data);
             }
             $entries[] = array(
