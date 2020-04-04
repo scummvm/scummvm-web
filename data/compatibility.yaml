@@ -264,7 +264,6 @@ companies:
             - name: "Atari ST"
               notes: "No day to night fading"
             - name: "DOS"
-        notes: "Minor spacing glitches with charset."
 
       - name: "Simon the Sorcerer 1"
         target: "simon1"
@@ -349,7 +348,6 @@ companies:
             - name: "Amiga"
             - name: "Atari"
             - name: "DOS"
-        notes: "Issues with the mouse cursor visibility"
 
       - name: "Fascination"
         target: "fascination"
@@ -381,7 +379,6 @@ companies:
             - name: "Atari"
             - name: "DOS"
             - name: "Macintosh"
-              notes: "Problem with one music piece"
 
       - name: "Gobliins 2"
         target: "gob2"
@@ -393,7 +390,6 @@ companies:
             - name: "Atari"
             - name: "DOS"
             - name: "Macintosh"
-        notes: "A few wrong instruments during music playback"
 
       - name: "Goblins 3"
         target: "gob3"
@@ -405,7 +401,7 @@ companies:
             - name: "Atari"
             - name: "DOS"
             - name: "Macintosh"
-        notes: "Issues with the mouse cursor visibility<br />- No support for original font and music files in Macintosh version<br />- The number of used jokers isn't saved correctly. You'll always have 5 to spend again after loading"
+        notes: "No support for original font and music files in Macintosh version<br />- The number of used jokers isn't saved correctly. You'll always have 5 to spend again after loading"
 
       - name: "Lost in Time"
         target: "lostintime"
@@ -414,7 +410,7 @@ companies:
         platforms:
           supported:
             - name: "DOS"
-        notes: "Floppy and CD versions are supported by this target<br />- Issues with the mouse cursor visibility"
+        notes: "Floppy and CD versions are supported by this target"
 
       - name: "Once Upon A Time: Little Red Riding Hood"
         target: "littlered"
@@ -442,7 +438,7 @@ companies:
         platforms:
           supported:
             - name: "PC"
-        notes: "CD versions are supported by this target<br />- Issues with the mouse cursor visibility"
+        notes: "CD versions are supported by this target"
 
       - name: "Urban Runner"
         target: "urban"
@@ -461,7 +457,6 @@ companies:
             - name: "Amiga"
             - name: "Atari"
             - name: "DOS"
-        notes: "Issues with the mouse cursor visibility"
 
   - name: "Revolution Software"
     games:
@@ -717,7 +712,7 @@ companies:
         target: "agi-fanmade"
         support_level: "good"
         datafiles: "AGI"
-        notes: "Most games are completable<br />- AGIMOUSE, AGIPAL, AGI256 and AGI256-2 hacks are also supported by this target<br />- Occasional graphics glitches"
+        notes: "Most games are completable<br />- AGIMOUSE, AGIPAL, AGI256 and AGI256-2 hacks are also supported by this target"
 
       - name: "Mickey's Space Adventure"
         target: "mickey"
@@ -753,10 +748,9 @@ companies:
         platforms:
           supported:
             - name: "Amiga"
-              notes: "Music may have glitches"
             - name: "DOS"
             - name: "Macintosh"
-              notes: "Music may have glitches; no support for hi-res fonts"
+              notes: "No support for hi-res fonts"
             - name: "Windows"
 
       - name: "Codename: ICEMAN"
@@ -766,7 +760,6 @@ companies:
         platforms:
           supported:
             - name: "Amiga"
-              notes: "Music may have glitches"
             - name: "DOS"
 
       - name: "Conquests of Camelot"
@@ -776,7 +769,6 @@ companies:
         platforms:
           supported:
             - name: "Amiga"
-              notes: "Music may have glitches"
             - name: "DOS"
 
       - name: "Conquests of the Longbow (EGA and VGA)"
@@ -786,7 +778,6 @@ companies:
         platforms:
           supported:
             - name: "Amiga"
-              notes: "Music may have glitches"
             - name: "DOS"
 
       - name: "EcoQuest: The Search for Cetus"
@@ -830,7 +821,6 @@ companies:
         platforms:
           supported:
             - name: "Amiga"
-              notes: "Music may have glitches"
             - name: "DOS"
 
       - name: "Hoyle's Book of Games 2"
@@ -840,7 +830,6 @@ companies:
         platforms:
           supported:
             - name: "Amiga"
-              notes: "Music may have glitches"
             - name: "DOS"
 
       - name: "Hoyle's Book of Games 3 (EGA and VGA)"
@@ -850,7 +839,6 @@ companies:
         platforms:
           supported:
             - name: "Amiga"
-              notes: "Music may have glitches"
             - name: "DOS"
 
       - name: "Hoyle Classic Card Games"
@@ -902,7 +890,6 @@ companies:
         platforms:
           supported:
             - name: "Amiga"
-              notes: "Music is not working"
             - name: "DOS"
 
       - name: "King's Quest IV (SCI version)"
@@ -912,7 +899,6 @@ companies:
         platforms:
           supported:
             - name: "Amiga"
-              notes: "Music may have glitches"
             - name: "DOS"
 
       - name: "King's Quest V (EGA and VGA)"
@@ -922,10 +908,9 @@ companies:
         platforms:
           supported:
             - name: "Amiga"
-              notes: "Music may have glitches"
             - name: "DOS"
             - name: "Macintosh"
-              notes: "Music may have glitches; no support for hi-res fonts"
+              notes: "No support for hi-res fonts"
             - name: "Windows"
 
       - name: "King's Quest VI (low and hi res)"
@@ -962,7 +947,6 @@ companies:
         platforms:
           supported:
             - name: "Amiga"
-              notes: "Music may have glitches"
             - name: "DOS"
 
       - name: "Laura Bow 2: The Dagger of Amon Ra"
@@ -980,10 +964,9 @@ companies:
         platforms:
           supported:
             - name: "Amiga"
-              notes: "Music may have glitches"
             - name: "DOS"
             - name: "Macintosh"
-              notes: "Music may have glitches; no support for hi-res fonts"
+              notes: "No support for hi-res fonts"
 
       - name: "Leisure Suit Larry 2"
         target: "lsl2"
@@ -992,7 +975,6 @@ companies:
         platforms:
           supported:
             - name: "Amiga"
-              notes: "Music may have glitches"
             - name: "DOS"
 
       - name: "Leisure Suit Larry 3"
@@ -1002,7 +984,6 @@ companies:
         platforms:
           supported:
             - name: "Amiga"
-              notes: "Music may have glitches"
             - name: "DOS"
 
       - name: "Leisure Suit Larry 5 (EGA and VGA)"
@@ -1012,10 +993,9 @@ companies:
         platforms:
           supported:
             - name: "Amiga"
-              notes: "Music may have glitches"
             - name: "DOS"
             - name: "Macintosh"
-              notes: "Music may have glitches; no support for hi-res fonts"
+              notes: "No support for hi-res fonts"
 
       - name: "Leisure Suit Larry 6 (low res)"
         target: "lsl6"
@@ -1065,7 +1045,6 @@ companies:
         platforms:
           supported:
             - name: "Amiga"
-              notes: "Music may have glitches"
             - name: "DOS"
 
       - name: "Mixed-up Mother Goose Deluxe"
@@ -1116,7 +1095,6 @@ companies:
         platforms:
           supported:
             - name: "Amiga"
-              notes: "Music may have glitches"
             - name: "DOS"
 
       - name: "Police Quest 3 (EGA and VGA)"
@@ -1126,7 +1104,6 @@ companies:
         platforms:
           supported:
             - name: "Amiga"
-              notes: "Music may have glitches"
             - name: "DOS"
 
       - name: "Police Quest 4: Open Season"
@@ -1152,7 +1129,6 @@ companies:
         platforms:
           supported:
             - name: "Amiga"
-              notes: "Music may have glitches"
             - name: "DOS"
 
       - name: "Quest for Glory 1 VGA remake"
@@ -1170,7 +1146,6 @@ companies:
         platforms:
           supported:
             - name: "Amiga"
-              notes: "Music may have glitches"
             - name: "DOS"
 
       - name: "Quest for Glory 3"
@@ -1222,9 +1197,8 @@ companies:
           supported:
             - name: "DOS"
             - name: "Macintosh"
-              notes: "Music may have glitches; no support for hi-res fonts"
+              notes: "No support for hi-res fonts"
             - name: "Amiga"
-              notes: "Music may have glitches"
 
       - name: "Space Quest III"
         target: "sq3"
@@ -1234,7 +1208,6 @@ companies:
           supported:
             - name: "DOS"
             - name: "Amiga"
-              notes: "Music may have glitches"
 
       - name: "Space Quest IV (EGA and VGA)"
         target: "sq4"
@@ -1245,9 +1218,8 @@ companies:
             - name: "DOS"
             - name: "Windows"
             - name: "Macintosh"
-              notes: "Music may have glitches; no support for hi-res fonts"
+              notes: "No support for hi-res fonts"
             - name: "Amiga"
-              notes: "Music may have glitches"
 
       - name: "Space Quest V"
         target: "sq5"
@@ -1503,7 +1475,6 @@ companies:
           supported:
             - name: "DOS"
             - name: "Macintosh"
-        notes: "Occasional minor glitches"
 
       - name: "Inherit the Earth: Quest for the Orb"
         target: "ite"
@@ -1608,13 +1579,11 @@ companies:
           supported:
             - name: "Amiga"
             - name: "DOS"
-        notes: "Occasional minor graphical glitches"
 
       - name: "Plumbers Don't Wear Ties"
         target: "plumbers"
         support_level: "good"
         datafiles: ""
-        notes: "Game has been recently supported and requires further play testing."
 
       - name: "The Prince and the Coward"
         target: "prince"
@@ -1765,13 +1734,11 @@ companies:
         target: "touche"
         support_level: "good"
         datafiles: "Touch.C3.A9:_The_Adventures_of_the_Fifth_Musketeer"
-        notes: "Occasional graphical glitches"
 
       - name: "U.F.O.s / Gnap: Der Schurke aus dem All"
         target: "gnap"
         support_level: "good"
         datafiles: "U.F.O.s_.2F_Gnap"
-        notes: "Game is completable. More tests are required."
 
       - name: "Versailles 1685"
         target: "versailles"
@@ -1903,7 +1870,6 @@ companies:
           supported:
             - name: "Macintosh"
             - name: "Windows"
-        notes: "Minor graphical glitches"
 
       - name: "Blue's Reading Time Activities"
         target: "readtime"
@@ -2138,7 +2104,6 @@ companies:
           supported:
             - name: "Macintosh"
             - name: "Windows"
-        notes: "Minor graphical glitches when meeting Kenya in HE72 version"
 
       - name: "Putt-Putt Travels Through Time"
         target: "putttime"
