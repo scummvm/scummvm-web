@@ -1,7 +1,6 @@
 <?php
 namespace ScummVM\Models;
 
-use ScummVM\XMLParser;
 use ScummVM\Objects\MenuItem;
 
 /**
@@ -12,16 +11,15 @@ abstract class MenuModel extends BasicModel
     /* Get all menu entries. */
     public static function getAllMenus()
     {
-        $fname = DIR_DATA . '/menus.xml';
-        $parser = new XMLParser();
-        $parsedData = $parser->parseByFilename($fname);
+        $fname = DIR_DATA . '/menus.yaml';
+        $parsedData = \yaml_parse_file($fname);
         $entries = array();
-        foreach (array_values($parsedData['menus']['group']) as $value) {
+        foreach (array_values($parsedData['groups']) as $value) {
             $entries[] = new MenuItem(
                 array(
                 'name' => $value['name'],
                 'class' => $value['class'],
-                'link' => $value['link'],
+                'links' => $value['links'],
                 )
             );
         }
