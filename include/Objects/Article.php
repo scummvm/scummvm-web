@@ -9,7 +9,8 @@ class Article extends BasicObject
 {
     private $url;
     private $language;
-    private $posted;
+    private $source;
+    private $date;
 
     /* Article object constructor. */
     public function __construct($data)
@@ -17,7 +18,8 @@ class Article extends BasicObject
         parent::__construct($data);
         $this->url = $data['url'];
         $this->language = $data['language'];
-        $this->posted = $data['posted'];
+        $this->source = $data['source'];
+        $this->date = $data['date'];
     }
 
     /* Get the URL. */
@@ -32,9 +34,15 @@ class Article extends BasicObject
         return $this->language;
     }
 
-    /* Get the date it was posted. */
-    public function getPosted()
+    /* Get the source that published it. */
+    public function getSource()
     {
-        return $this->posted;
+        return $this->source;
+    }
+
+    /* Get the date it was posted. */
+    public function getDate()
+    {
+        return $this->date;
     }
 }
