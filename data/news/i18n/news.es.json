@@ -125,30 +125,30 @@
     },
     "20030106": {
         "title": "Pingüinos, pingüinos... por todas partes...",
-        "content": ""
+        "content": "Hola a todos.  \n  \nMe interesa (a Ender) saber si irá algún usuario de ScummVM a la Linux.conf.au '03 de Perth... Si vas a estar allí, coméntalo en el foro. Si nos juntamos unos pocos, podríamos tomarnos una pizza o algo cuando acabe, o a lo mejor montar una quedadilla improvisada de fans de los juegos clásicos (si otro quiere organizarla, esas cosas se me dan fatal :)  \n  \nHasta luego."
     },
     "20030114": {
-        "title": "",
-        "content": ""
+        "title": "¡Hoy has aprendido una valiosa lección, y ese es el mejor premio de todos! (¡Jur, jur, jur!)",
+        "content": "Si eres usuario de Linux, Happy Penguin ha organizado una [ronda de encuestas](http://happypenguin.org/forums/viewforum.php?f=17) para decidir cuáles son los mejores juegos de un montón de categorías. Pasaos para votar a vuestros emuladores favoritos, cuál os parece el proyecto más prometedor, etcétera... Con suerte, algunos de esos votos podrían ser para nosotros :)"
     },
     "20030128": {
-        "title": "",
-        "content": ""
+        "title": "El pueblo ha hablado :)",
+        "content": "En el Linux Game Tome (http://happypenguin.org), ScummVM ha sido votado como el [mejor emulador](http://happypenguin.org/forums/viewtopic.php?t=549). Gracias a todos los que nos habéis votado.  \n  \nCambiando de tercio, la compatibilidad de Curse of Monkey Island se está estabilizando. Aunque aún hay ciertos defectillos gráficos, solo nos quedan dos fallos graves en la jugabilidad y unos cuántos otros «inconvenientes» y comportamientos incorrectos. Esperamos poder anunciar que Curse of Monkey Island es jugable de principio a fin muy pronto.  \n  \nMuchos nos han preguntado qué haremos a partir de ahora. Esta es una guía rápida (¡y muy sujeta a cambios!) de nuestros próximos objetivos:\n\n*   Febrero de 2003: Curse of Monkey Island jugable de principio a fin\n*   Feb-Mar 2003: Testeo de regresiones y correcciones de fallos en otros juegos compatibles\n*   Feb-Mar 2003: Finalización de la característica del lanzador (ventanas de opciones con pestañas, etc)\n*   Primeros de marzo de 03: Bloqueo del CVS, testeo de regresiones, lanzamiento de 0.4.0\n*   A partir de marzo: Soporte de juegos V1/V2 (Maniac Mansion, Zak en sus versiones ajenas a FmTowns, Loom para EGA, etc.)\n\n  \n  \nComo siempre, estas son unas pautas muy generales que dependen de los avances y el tiempo libre de nuestros desarrolladores. Si quieres ayudar y sabes utilizar CVS y un compilador... ¡arréglanos fallos o testea las regresiones! Estamos muy interesados en encontrar a personas que puedan testear el CVS con los juegos ajenos a ComI, para que busquen fallos críticos que no estuvieran presentes en la versión 0.3.0b y también probar varias versiones del CVS y localizar, como mínimo, el día en el que empezó a ocurrir ese fallo. Esto nos ayudará a determinar más fácilmente los cambios que han podido dar problemas sin pasarnos semanas buscando a ciegas.  \n  \nCabe decir que si encuentras un fallo crítico que SÍ esté presente en la versión 0.3.0b, puedes mirar a ver si hay un informe de fallos. ¡Si no hay uno, mándalo, por favor!"
     },
     "20030308": {
-        "title": "",
-        "content": ""
+        "title": "Conversión para PlayStation 2",
+        "content": "Últimamente el trabajo ha ido despacio, pero con el añadido del proyecto superchachisecreto número seis, el desarrollo ha vuelto a coger ritmo, con mucha limpieza de código y unas correcciones bastante importantes. Podéis esperar una nueva versión dentro de un tiempo.  \n  \nEn otras noticias, ha vuelto a haber un repute en el interés por tener una conversión a PlayStation 3. Yo (Ender) estoy bastante dispuesto a hacerla si la gente dona, como mínimo,  75 dólares estadounidenses (mirad el botoncito que hay bajo el menú) para comprar un chip. No debería llevarme mucho y uno de vosotros, nuestros fieles usuarios, ya se ha ofrecido a instalarlo si nos hacemos con uno. Si hay el suficiente interés (que, evidentemente, dependerá de las donaciones :), comenzaremos con una conversión oficial inmediatamente."
     },
     "20030318": {
-        "title": "",
-        "content": ""
+        "title": "DEP yot, 1983-2003",
+        "content": "El pasado viernes 14 de marzo, nuestro compañero, desarrollador de ScummVM y amigo, Felix Jakschitsch (conocido por muchos por su apodo *yot*), se suicidó con solo 19 años.\n\nEstamos completamente conmocionados por la noticia y no comprendemos qué le pudo llevar a hacer eso. Este es un mundo muy triste si que un hombre tan alegre, inteligente y servicial no encuentra otra salida que la de quitarse la vida. Lamentamos perder a nuestro apreciado amigo. Él hizo un trabajo importante para ScummVM, que incluye buena parte del soporte para Zak256. Todos sentimos profundamente su pérdida y ofrecemos nuestro pésame a su familia y amigos, con los que compartimos su dolor.\n\nSi queréis dejar un mensaje a sus allegados, hay un [libro de visitas disponible](http://www.cbg2003.de/). También hay aquí un artículo de periódico con más detalles (utilizad Babelfish si no habláis alemán).\n\nFelix, te echamos de menos y no te olvidaremos nunca."
     },
     "20030424": {
-        "title": "",
-        "content": ""
+        "title": "Las cosiñas actuales.",
+        "content": "Últimamente hemos recibido varios emails preguntando si hay avances en ScummVM. Queremos tranquilizar a aquellos que -no- siguen el CVS que sí, hay muchos progresos.\n\nEn estos momentos nos estamos preparando para el lanzamiento de la versión 0.4.0, que debería tener lugar dentro de unas pocas semanas. Me gustaría pedir a aquellos que les gusta vivir al límite que prueben las compilaciones del CVS o las diarias y que nos avisen si hay algún problema que deberíamos conocer. En la sección de Documentación, a mano izquierda, encontraréis la «Lista de tareas para ScummVM 0.4.0». Aquellos juegos que hayan sido probados y no tengan problemas estarán mencionados allí, por favor, probad aquellos juegos que no estén marcados como probados y contadnos vuestros resultados en el foro **(actualización: nos referimos al foro General)**. No olvides incluir la fecha en la que te has bajado la compilación con la que te hayas pasado el juego.\n\nAhora mismo estamos concentrados en los primeros juegos EGA (Maniac Mansion, Zak McKracken, LoomEGA, Indy3EGA), aunque la compatibilidad con Beneath a Steel Sky avanza a un ritmo lento, pero seguro. Además, alguien ha donado recientemente un chip para PlayStation 2 al equipo, así que podéis esperar una conversión nativa para PS2 para cuando Ender tenga el chip instalado (ScummVM ya funciona bien bajo Linux para PlayStation 2).\n\nUn recordatorio para todos aquellos interesados en nuestros últimos avances: podéis suscribiros a la lista de correo cvs-logs. Haced clic en «Inicio del proyecto», a mano izquierda, y buscad la página de Listas. Esta lista recibirá un email cada vez que haya cambios en el código fuente, así que os advertimos que puede ser un tanto técnica y generar mucho tráfico. Como alternativa, también podéis jugar simplemente a las compilaciones CVS o a las diarias y ver si encontráis algo nuevo :)"
     },
     "20030512": {
-        "title": "",
+        "title": "SUCIO PERIODISTA AMARILLO ANUNCIA SCUMMVM 0.4.0",
         "content": ""
     },
     "20030525": {
