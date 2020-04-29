@@ -10,6 +10,6 @@ It is not yet perfect, though, and we need your help, fellow adventurers! ScummV
 
 You need to download the prince_translation.dat file from [here](https://github.com/scummvm/scummvm/blob/master/dists/engine-data/prince_translation.dat?raw=true) and put it into the ALL/ directory of your game. Then re-detect the game, and make sure it shows ‘w/translation’ in the game description. Only Polish or German game versions can be translated this way, the Russian version requires more effort.
 
-If you encounter any continuity issues, awkward phrases, or typos, feel free to either mention it in the [forum post] (https://forums.scummvm.org/viewtopic.php?f=1&t=15125) or submit your improvements directly to [the translation server](https://translations.scummvm.org/projects/prince/prince/en/). Use the search capabilities to locate the phrases you would like to improve. Screenshots of the problem or savegames are also welcome if you don’t want to bother with the translation server.
+If you encounter any continuity issues, awkward phrases, or typos, feel free to either mention it in the [forum post](https://forums.scummvm.org/viewtopic.php?f=1&t=15125) or submit your improvements directly to [the translation server](https://translations.scummvm.org/projects/prince/prince/en/). Use the search capabilities to locate the phrases you would like to improve. Screenshots of the problem or savegames are also welcome if you don’t want to bother with the translation server.
 
 Good luck with your adventures, while most of you still stay at home!
