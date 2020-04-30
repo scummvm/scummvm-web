@@ -1037,7 +1037,7 @@
 					<description>: Font rendering</description>
 				</link>
 				<link>
-					<name>FriBiDi</nane>
+					<name>FriBiDi</name>
 					<url>https://github.com/fribidi/fribidi</url>
 					<description>: Bidirectional text support</description>
 				</link>
