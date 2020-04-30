@@ -1037,6 +1037,11 @@
 					<description>: Font rendering</description>
 				</link>
 				<link>
+					<name>FriBiDi</nane>
+					<url>https://github.com/fribidi/fribidi</url>
+					<description>: Bidirectional text support</description>
+				</link>
+				<link>
 					<name>SDL_net 2.0</name>
 					<url>https://www.libsdl.org/projects/SDL_net/</url>
 					<description>: Networking library</description>
