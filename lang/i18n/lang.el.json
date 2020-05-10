@@ -142,7 +142,7 @@
     "introHeaderPrevShot": "« προηγούμενο",
     "introHeaderNextShot": "επόμενο »",
     "introHeaderWhatIs": "Τι είναι το ScummVM;",
-    "introHeaderContentP1": "Το ScummVM είναι ένα πρόγραμμα που σας επιτρέπει να παίξετε κάποια κλασσικά point-and-click παιχνίδια περιπέτειας (adventure games), υπό την προϋπόθεση ότι έχετε ήδη στην κατοχή σας τα αρχεία δεδομένων τους. Το ενδιαφέρον σε αυτή την υπόθεση είναι το εξής: το ScummVM απλά αντικαθιστά τα εκτελέσιμα που συνόδευαν τα παιχνίδια, επιτρέποντάς σας να τα παίξετε σε συστήματα για τα οποία δεν είχαν σχεδιαστεί ποτέ!",
+    "introHeaderContentP1": "Το ScummVM είναι ένα πρόγραμμα που σας επιτρέπει να παίξετε κάποια κλασσικά point-and-click παιχνίδια περιπέτειας και ρόλων (adventure και role-playing games), υπό την προϋπόθεση ότι έχετε ήδη στην κατοχή σας τα αρχεία δεδομένων τους. Το ενδιαφέρον σε αυτή την υπόθεση είναι το εξής: το ScummVM απλά αντικαθιστά τα εκτελέσιμα που συνόδευαν τα παιχνίδια, επιτρέποντάς σας να τα παίξετε σε συστήματα για τα οποία δεν είχαν σχεδιαστεί ποτέ!",
     "introHeaderContentP2": "Το ScummVM υποστηρίζει μια μεγάλη βιβλιοθήκη από παιχνίδια περιπέτειας (adventure games) με περισσότερους από 250 τίτλους συνολικά. Υποστηρίζει πολλούς από τους κλασσικούς τίτλους που έχουν εκδώσει θρυλικά στούντιο όπως οι  *LucasArts*, *Sierra On-Line*, *Revolution Software*, *Cyan, Inc.* και *Westwood Studios*.  Μαζί με καινοτόμους για την εποχή τους τίτλους, όπως ήταν οι σειρές *Monkey Island*, *Broken Sword*, *Myst*, *Blade Runner* και αμέτρητα άλλα παιχνίδια, θα βρείτε και μερικούς σχετικά άγνωστους τίτλους περιπέτειας και πραγματικά κρυμμένα διαμαντάκια για να εξερευνήσετε.",
     "introHeaderContentP3": "Μπορείτε να βρείτε μια πλήρη λίστα με λεπτομέρειες σχετικά με το ποια παιχνίδια υποστηρίζονται και σε ποιο βαθμό στη [σελίδα συμβατότητας](/compatibility/). Το ScummVM βελτιώνεται διαρκώς, οπότε καλό είναι να ελέγχετε συχνά τη λίστα. Ανάμεσα στα συστήματα στα οποία μπορείτε να παίξετε αυτά τα παιχνίδια είναι τα Windows, Linux, macOS, iOS, Android, PS Vita, Switch, Dreamcast, AmigaOS, Atari/FreeMiNT, RISC OS, Haiku, PSP, PS3, Maemo, GCW Zero και πολλά άλλα...",
     "introHeaderContentP4": "Το forum μας, [ο Εξυπηρετητής Discord](https://discord.gg/5D8yTtF) και το κανάλι IRC, [#scummvm στο irc.freenode.net](irc://irc.freenode.net/scummvm?key=scummvm), είναι ανοιχτά σε σχόλια και προτάσεις. Παρακαλούμε διαβάστε τις [Συχνές Ερωτήσεις (FAQ)](/faq/) πριν δημοσιεύσετε το μήνυμά σας.",
@@ -205,5 +205,9 @@
     "menuMiscDemos": "Demos",
     "menuMiscPress": "Άρθρα στον Τύπο",
     "menuMiscContact": "Επικοινωνία",
-    "menuMiscLinks": "Σύνδεσμοι"
+    "menuMiscLinks": "Σύνδεσμοι",
+    "downloadsOldBinariesFrsNote1": "Μπορείτε επίσης ",
+    "downloadsBinariesNote212Maintenance": "Αυτή είναι μια έκδοση με μικρο-διορθώσεις μόνο για Windows και macOS.",
+    "downloadsOldBinariesFrsNote3": " για να βρείτε όλες τις περασμένες εκδόσεις.",
+    "downloadsOldBinariesFrsNote2": "να περιηγηθείτε στον ιστότοπό μας"
 }
