@@ -4,7 +4,7 @@ author: lotharsm
 date: 1589475206
 ---
 
-![GSoC Logo](/data/news/GSoD2020Logo.png)
+![GSoD Logo](/data/news/GSoD2020Logo.png)
 
 Get your season (of docs) pass ready! We are excited to announce that ScummVM has been accepted as a participant of [Google Season of Docs 2020](https://developers.google.com/season-of-docs). One of the most important parts of every open source project is its documentation. Good documentation is vital for making the project accessible to both end users and new developers wanting to have a deeper look into the project's internals so they can start contributing on their own.
 
