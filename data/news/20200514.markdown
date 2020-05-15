@@ -10,7 +10,7 @@ Get your season (of docs) pass ready! We are excited to announce that ScummVM ha
 
 Season of Docs, a recent initiative by Google to connect technical writers with open source projects. The program offers a great way to gain practical project experience, as well as explore the world of free software and the great communities that evolve around them. 
 
-For ScummVM this is a wonderful opportunity to improve our documentation. You can check out our [ideas page](https://wiki.scummvm.org/index.php?title=Season_of_Docs/GSoD_Ideas) or if you want to bring up your own ideas - get in touch with us on our [Discord server](https://discord.gg/BrAxEQ).
+For ScummVM this is a wonderful opportunity to improve our documentation. You can check out our [ideas page](https://wiki.scummvm.org/index.php?title=Season_of_Docs/GSoD_Ideas) or if you want to bring up your own ideas - get in touch with us on our [Discord server](https://discord.gg/5D8yTtF).
 
 We've had a lot of successful student projects as part of Google's Summer of Code in previous years - we’re looking forward to carrying that success into Google's Season of Docs and inspire you to work with us and add your very own success.
 
