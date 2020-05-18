@@ -125,6 +125,11 @@
 					<url type="extras">Flight of the Amazon Queen/FOTAQ_Floppy.zip</url>
 					<name>Flight of the Amazon Queen, Freeware Floppy Version</name>
 				</file>
+				<file>
+					<category_icon>queen</category_icon>
+					<url type="extras">Flight of the Amazon Queen/FOTAQ_Fr_Floppy.zip</url>
+					<name>Flight of the Amazon Queen, Freeware Floppy Version (<h:i>French</h:i>)</name>
+				</file>
 			</entries>
 		</subsection>
 
