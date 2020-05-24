@@ -310,5 +310,20 @@
     "20200331": {
         "content": "Das ScummVM-Team freut sich, die Verfügbarkeit eines neuen Bugfix-Releases des Versionszweigs 2.1 anzukündigen - ScummVM 2.1.2, Codename: \"Fixing Powerful Windows\". Du wirst feststellen, dass unsere [Download-Seite](/downloads/) nicht gerade umfangreich ist. Keine Sorge, wir haben die (unglaublich gute) Portabilität von ScummVM nicht eingeschränkt.\n\nScummVM 2.1.2 ist ein Wartungs-Release für Windows und Mac OS X. Darin enthalten sind einige [Fehlerkorrekturen](https://www.scummvm.org/frs/scummvm/2.1.2/ReleaseNotes.html) für diese Plattformen. Da alle anderen Systeme nicht betroffen sind, musst Du dir über das scheinbar ausbleibende Update keine Gedanken machen.\n\nWährend Du auf unsere Download-Seite unterwegs warst, hast Du vielleicht einen neuen Eintrag entdeckt, besonders, wenn Du mit einem PC mit Ubuntu unterwegs bist: ScummVM ist jetzt offiziell auch im [Snap Store](https://snapcraft.io/scummvm) verfügbar! Dank der laufenden Unterstützung von Alan &quot;popey&quot; Pope und Alan Griffiths ist das Snap Store-Release von ScummVM auf Augenhöhe mit unseren übrigen Linux-Versionen. Im Vergleich zum traditionellen Weg, Software unter Linux zu verteilen, haben wir dank des Snap Stores wesentlich mehr Freiheiten, wenn es um die Veröffentlichung neuer Versionen geht. Sobald wir eine neue Version freigeben, wirst du die neue Version von ScummVM als automatisches Update erhalten.\n\nDas ScummVM-Snap wird in zwei Versionen veröffentlicht. Der &quot;stable&quot-Channel enthält unsere aktuelle Version, was ihn zu einer ausgezeichneten Wahl für die meisten Benutzer macht. Für den Fall, dass Du die absolut neusten Funktionen unserer aktuellen Entwicklerversionen entdecken möchstest, solltest Du dem &quot;edge&quot;-Channel folgen und täglich eine aktualisierte Version erhalten! Wir haben auch schon bereits ein paar nette Erweiterungen für die Snap-Packages in der Hinterhand - aber hierzu später mehr.\n\nWir wünschen Dir viel Spaß!",
         "title": "ScummVM 2.1.2 \"Fixing Powerful Windows\" ist da!"
+    },
+    "20020915": {
+        "title": "Hip-Hip Mur-ray!"
+    },
+    "20020812": {
+        "title": "Gesucht: Ein Stück Seife"
+    },
+    "20020701": {
+        "title": "Wir haben mehr Leben als LeChuck!"
+    },
+    "20020514": {
+        "title": "ScummVM 0.2.0 veröffentlicht!"
+    },
+    "20020511": {
+        "title": "Die neuesten Nachrichten."
     }
 }
