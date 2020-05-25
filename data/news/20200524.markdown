@@ -1,0 +1,9 @@
+---
+title: "You have been a thorn in my side for far too long, Avatar"
+author: dreammaster
+date: 1590366069
+---
+
+It seems that work on cleanup and improvements to the Ultima VIII integration was further along than I had anticipated. It's now been confirmed that Ultima VIII is completeable under ScummVM as well, so it joins Ultima IV and Ultima VI for official testing.
+
+So break out your copies of Ultima VIII as well and give it a try! You will need a [daily development build](https://buildbot.scummvm.org/builds.html). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/).
