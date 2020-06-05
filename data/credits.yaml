@@ -711,6 +711,17 @@ credits:
           alias: "clone2727"
           description: "(retired)"
       -
+        name: "Petka"
+        person:
+        -
+          name: "Andrei Prykhodko"
+          alias: "whiterandrek"
+          description: ""
+        -
+          name: "Eugene Sandulenko"
+          alias: "sev"
+          description: ""
+      -
         name: "Pink"
         person:
         -
