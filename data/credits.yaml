@@ -1049,6 +1049,10 @@ credits:
           alias: "stauff"
           description: ""
         -
+          name: "Matthew Jimenez"
+          alias: "OMGPizzaGuy"
+          description: ""
+        -
           name: "Daniel c. W&uuml;rl"
           alias: "dwuerl"
           description: "(Nuvie)"
@@ -1103,10 +1107,6 @@ credits:
         -
           name: "Dominik Reichardt"
           alias: "Dominus Dragon"
-          description: "(Pentagram)"
-        -
-          name: "Matthew Jimenez"
-          alias: "mjimenez"
           description: "(Pentagram)"
         -
           name: "Max Horn"
