@@ -46,7 +46,13 @@
 				<file>
 					<category_icon>snap</category_icon>
 					<url>https://snapcraft.io/scummvm</url>
-					<name>Snap package at the Snap Store</name>
+					<name>Snap package hosted at snapcraft.io</name>
+					<user_agent>Ubuntu</user_agent>
+				</file>
+				<file>
+					<category_icon>flatpak</category_icon>
+					<url>https://flathub.org/apps/details/org.scummvm.ScummVM</url>
+					<name>Flatpak package hosted at flathub.org</name>
 					<user_agent>Ubuntu</user_agent>
 				</file>
 			</entries>
