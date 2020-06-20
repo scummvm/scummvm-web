@@ -873,18 +873,18 @@
 
 				<file>
 					<category_icon>symbian</category_icon>
-					<url>scummvm-0.9.1-s60-v1.sis</url>
-					<name>0.9.1/0.9.1 Symbian S60 version 1 binary</name>
+					<url>0.9.1/scummvm-0.9.1-s60-v1.sis</url>
+					<name>0.9.1 Symbian S60 version 1 binary</name>
 				</file>
 				<file>
 					<category_icon>symbian</category_icon>
-					<url>scummvm-0.9.1-s60-v2.sis</url>
-					<name>0.9.1/0.9.1 Symbian S60 version 2 binary</name>
+					<url>0.9.1/scummvm-0.9.1-s60-v2.sis</url>
+					<name>0.9.1 Symbian S60 version 2 binary</name>
 				</file>
 				<file>
 					<category_icon>symbian</category_icon>
-					<url>scummvm-0.9.1-s80.sis</url>
-					<name>0.9.1/0.9.1 Symbian S80 binary</name>
+					<url>0.9.1/scummvm-0.9.1-s80.sis</url>
+					<name>0.9.1 Symbian S80 binary</name>
 				</file>
 				<file>
 					<category_icon>symbian</category_icon>
