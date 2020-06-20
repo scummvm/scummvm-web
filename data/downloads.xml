@@ -847,6 +847,12 @@
 					<name>1.0.0 BeOS package</name>
 					<user_agent>BeOS</user_agent>
 				</file>
+
+				<file>
+					<category_icon>macos9</category_icon>
+					<url>0.2.0/scummvm-0.2.0-macos9.sit</url>
+					<name>0.2.0 Mac OS 9 package</name>
+				</file>
 			</entries>
 		</subsection>
 	</section>
