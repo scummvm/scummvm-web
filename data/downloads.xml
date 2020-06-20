@@ -836,6 +836,12 @@
 				</file>
 
 				<file>
+					<category_icon>symbian</category_icon>
+					<url>1.2.1/scummvm-1.2.1-uiq3.sis</url>
+					<name>1.2.1 Symbian UIQ 3 binary</name>
+				</file>
+
+				<file>
 					<category_icon>solaris</category_icon>
 					<url>1.1.1/scummvm-1.1.1-solaris8-sparc.pkg.bz2</url>
 					<name>1.1.1 Solaris 8 and up (Sparc) binary</name>
@@ -867,6 +873,16 @@
 
 				<file>
 					<category_icon>symbian</category_icon>
+					<url>scummvm-0.9.1-s60-v1.sis</url>
+					<name>0.9.1/0.9.1 Symbian S60 version 1 binary</name>
+				</file>
+				<file>
+					<category_icon>symbian</category_icon>
+					<url>scummvm-0.9.1-s60-v2.sis</url>
+					<name>0.9.1/0.9.1 Symbian S60 version 2 binary</name>
+				</file>
+				<file>
+					<category_icon>symbian</category_icon>
 					<url>scummvm-0.9.1-s80.sis</url>
 					<name>0.9.1/0.9.1 Symbian S80 binary</name>
 				</file>
@@ -876,7 +892,7 @@
 					<name>0.9.1 Symbian S90 binary</name>
 				</file>
 				<file>
-					<category_icon>uiq</category_icon>
+					<category_icon>symbian</category_icon>
 					<url>0.9.1/scummvm-0.9.1-uiq2.sis</url>
 					<name>0.9.1 Symbian UIQ 2 binary</name>
 				</file>
