@@ -849,6 +849,71 @@
 				</file>
 
 				<file>
+					<category_icon>palmos</category_icon>
+					<url>0.11.1/scummvm-0.11.1-palmos-os5.zip</url>
+					<name>0.11.1 PalmOS 5 binary</name>
+				</file>
+				<file>
+					<category_icon>palmos</category_icon>
+					<url>0.11.1/ascummvm-0.11.1-palmos-zodiac.zip</url>
+					<name>0.11.1 PalmOS Tapwave Zodiac binary</name>
+				</file>
+
+				<file>
+					<category_icon>opie</category_icon>
+					<url>0.11.1/scummvm-0.11.1-opie_arm.ipk</url>
+					<name>0.11.1 Opie SDL package <h:b>Only</h:b> for iPAQ h1910/h1915 and MyPal 716</name>
+				</file>
+
+				<file>
+					<category_icon>symbian</category_icon>
+					<url>scummvm-0.9.1-s80.sis</url>
+					<name>0.9.1/0.9.1 Symbian S80 binary</name>
+				</file>
+				<file>
+					<category_icon>symbian</category_icon>
+					<url>0.9.1/scummvm-0.9.1-s90.sis</url>
+					<name>0.9.1 Symbian S90 binary</name>
+				</file>
+				<file>
+					<category_icon>uiq</category_icon>
+					<url>0.9.1/scummvm-0.9.1-uiq2.sis</url>
+					<name>0.9.1 Symbian UIQ 2 binary</name>
+				</file>
+
+				<file>
+					<category_icon>mandriva</category_icon>
+					<url>0.8.0/scummvm-0.8.0-1mdk.i586.rpm</url>
+					<name>0.8.0 Mandriva 2006 package</name>
+				</file>
+
+				<file>
+					<category_icon>wince</category_icon>
+					<url>0.7.1/scummvm-0.7.1-PocketPC_MIPS.zip</url>
+					<name>0.7.1 PocketPC MIPS binary</name>
+				</file>
+				<file>
+					<category_icon>wince</category_icon>
+					<url>0.7.1/scummvm-0.7.1-PocketPC_SH3.zip</url>
+					<name>0.7.1 PocketPC SH3 binary</name>
+				</file>
+				<file>
+					<category_icon>wince</category_icon>
+					<url>0.7.1/scummvm-0.7.1-HandheldPC_ARM.zip</url>
+					<name>0.7.1 HandheldPC ARM binary</name>
+				</file>
+				<file>
+					<category_icon>wince</category_icon>
+					<url>0.7.1/scummvm-0.7.1-HandheldPC_MIPS.zip</url>
+					<name>0.7.1 HandheldPC MIPS binary</name>
+				</file>
+				<file>
+					<category_icon>wince</category_icon>
+					<url>0.7.1/scummvm-0.7.1-HandheldPC_SH3.zip</url>
+					<name>0.7.1 HandheldPC SH3 binary</name>
+				</file>
+
+				<file>
 					<category_icon>macos9</category_icon>
 					<url>0.2.0/scummvm-0.2.0-macos9.sit</url>
 					<name>0.2.0 Mac OS 9 package</name>
