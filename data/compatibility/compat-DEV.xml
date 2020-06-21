@@ -385,7 +385,44 @@
 			</game>
 		</games>
 	</company>
-	<company>
+  <company>
+    <name>Origin Systems</name>
+    <games>
+      <game>
+        <name>Ultima IV: Quest of the Avatar</name>
+        <target>ultima4</target>
+        <support_level>good</support_level>
+        <notes>
+          Game is completable<h:br />
+          - DOS English version is supported, FM-Towns may also be, but we'll need
+          someone with a copy to provide us a detection entry and test it out.<h:br />
+          - Provides an optional VGA enhanced mode
+        </notes>
+      </game>
+      <game>
+        <name>Ultima VI: The False Prophet</name>
+        <target>ultima6</target>
+        <support_level>good</support_level>
+        <notes>
+          Game is completable<h:br />
+          - DOS English verson is supported. German translation patch is
+          also partially supported, with some interface elements not translated.<h:br />
+          - Provides an optional enhanced mode that has a full screen map
+          and container widgets.
+        </notes>
+      </game>
+      <game>
+        <name>Ultima VIII: Pagan</name>
+        <target>ultima8</target>
+        <support_level>good</support_level>
+        <notes>
+          Game is completable<h:br />
+          - DOS English, French, German, and Spanish versions are supported
+        </notes>
+      </game>
+    </games>
+  </company>
+  <company>
 		<name>Revolution Software</name>
 		<games>
 			<game>
