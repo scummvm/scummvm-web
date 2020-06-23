@@ -18,5 +18,5 @@ It's finally time to announce the official testing period for the Glk engine in 
 * Scott Adams
 * ZCode (all ZCode games except the Infocom graphical version 6 games)
 
-Other sub-engines, such as Comprehend, TADS and Quill, are likely to be included in the future. So those of you that are fans of the literary classics, dust off your favourite classics, and prepare to play them again  You will need a [daily development build](https://buildbot.scummvm.org/builds.html). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/).
+Other sub-engines, such as Comprehend, TADS and Quill, are likely to be included in the future. So those of you that are fans of the literary classics, dust off your favourite classics, and prepare to play them again. You will need a [daily development build](https://buildbot.scummvm.org/builds.html). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/).
  
