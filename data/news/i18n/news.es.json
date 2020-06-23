@@ -1306,5 +1306,9 @@
     "20200524": {
         "title": "Has sido una carga para mí durante demasiado tiempo, Avatar",
         "content": "Parece que el trabajo de limpieza y mejoras para la integración de Ultima VIII ha avanzado más de lo previsto. Está confirmado que Ultima VIII también se puede completar bajo ScummVM, así que se une a las pruebas oficiales junto a Ultima IV y Ultima VI.\n\n¡Así que saca tu copia de Ultima VIII y pruébala! Necesitarás la [compilación diaria](https://buildbot.scummvm.org/builds.html). Como siempre, por favor, envía los informes de errores a nuestro [gestor de fallos](https://bugs.scummvm.org/)."
+    },
+    "20200622": {
+        "content": "Por fin ha llegado la hora de anunciar la etapa de pruebas oficiales del motor Glk de ScummVM para ejecutar ficciones interactivas (también conocidas como aventuras de texto). Este es un conglomerado de submotores para ejecutar juegos que utilizan los diversos sistemas de programación que se publicaron a lo largo de los años. En este momento, los siguientes submotores pasan oficialmente al modo de pruebas:\n* ADRIFT (excepto la versión 5)\n* AdvSys\n* AGT\n* Alan 2 y 3\n* Archetype (recién reimplementado para Glk a partir del código fuente original en Pascal)\n* Hugo\n* JACL\n* Level 9\n* Magnetic Scrolls\n* Quest\n* Scott Adams\n* ZCode (todos los juegos en ZCode salvo los de la versión gráfica de Infocom 6)\n\nOtros submotores, como Comprehend, TADS y Quill serán incluidos en el futuro. Para los que sois fans de los clásicos literarios, desempolvad vuestros juegos favoritos y preparaos para rejugarlos. Necesitaréis una [compilación de desarrollo diaria](https://buildbot.scummvm.org/builds.html). Como siempre, enviad vuestros informes de fallos a nuestro [gestor de fallos](https://bugs.scummvm.org/).",
+        "title": "Estás en un laberinto de corredores enrevesados y similares"
     }
 }
