@@ -529,6 +529,21 @@ credits:
           alias: "yuv422"
           description: ""
       -
+        name: "Kingdom"
+        person:
+        -
+          name: "Arnaud Boutonn&eacute;"
+          alias: "Strangerke"
+          description: ""
+        -
+          name: "Thomas Fach-Pedersen"
+          alias: "madmoose"
+          description: ""
+        -
+          name: "Hein-Pieter van Braam-Stewart"
+          alias: "TMM"
+          description: ""
+      -
         name: "Kyra"
         person:
         -
