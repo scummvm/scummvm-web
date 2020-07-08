@@ -1,4 +1,3 @@
-<script type="text/javascript" src="/js/jquery-1.3.2.min.js"></script>
 <script type="text/javascript" src="/js/game_demos.js"></script>
 
 {capture "intro"}
@@ -6,7 +5,7 @@
 		<div class="navigation col-1-2">
 			<h4 class="subhead">{#gamesDemosHeading#}</h4>
 			<ul>
-			{foreach from=$demos item=group}
+			{foreach $demos $group}
 				<li><a href="/demos/#{$group.href}">{$group.name}</a></li>
 			{/foreach}
 			</ul>
@@ -23,7 +22,7 @@
 {/capture}
 
 {capture "content"}
-  {foreach from=$demos item=group}
+  {foreach $demos as $group}
   <table class="chart color4 gameDemos" id="{$group.href}">
     <caption>{$group.name}</caption>
     <thead>
@@ -33,8 +32,15 @@
       </tr>
     </thead>
     <tbody>
-    {foreach from=$group.demos item=demo}
-      <tr class="{cycle values="color2, color0"}">
+    {foreach $group.demos as $i => $demo}
+      {if $demo@first}
+        {$collapse = ''}
+      {elseif $group.demos[$i]->getTarget() == $group.demos[$i-1]->getTarget()}
+        {$collapse = 'collapse'}
+      {else}
+        {$collapse = ''}
+      {/if}
+      <tr class="{if $collapse}{$collapse}{else}{cycle values="color2, color0"}{/if}">
         <td>
           <a href="{$demo->getURL()}">{$demo->getName()}</a>
         </td>

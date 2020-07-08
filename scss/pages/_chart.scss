@@ -47,6 +47,12 @@
 .gameDemos {
   tr {
     padding: 0;
+    transition: opacity 0.2s ease-in-out, visibility 0.2s;
+
+    &.collapse {
+      opacity: 0;
+      visibility: collapse;
+    }
   }
   th {
     padding: 2px;
@@ -74,5 +80,44 @@
   }
   .gameTarget {
     width: 15%;
+  }
+
+  i.expand {
+    margin: 5px;
+    position: relative;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    float: right;
+
+    &:before,
+    &:after{
+        content: "";
+        position: absolute;
+        background-color: $tentacle-green;
+        transition: transform 0.25s ease-out;
+    }
+
+    &:before{
+      top: 0;
+      left: 50%;
+      width: 4px;
+      height: 100%;
+      margin-left: -2px;
+    }
+
+    /* horizontal line */
+    &:after{
+      top: 50%;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      margin-top: -2px;
+    }
+
+    &.close {
+      &:before{ transform: rotate(90deg); }
+      &:after{ transform: rotate(180deg); }
+    }
   }
 }
