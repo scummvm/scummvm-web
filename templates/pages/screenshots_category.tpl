@@ -1,21 +1,25 @@
 {* List all screenshots for an entry or category. *}
-{capture "content"}  
+{capture "content"}
   {foreach from=$screenshots.games item=g name=cat_loop}
     {if $game and $game != $g->getCategory()}
       {continue}
     {/if}
     <div class="gallery">
-      <h3 class="subhead"><a href="/screenshots/{$category}/{$g->getCategory()}/">{$g->getName()}</a></h3>
-      {foreach from=$g->getFiles() item=fdata name=game_loop}
-        <div class="screenshot">
-          <a href="{$smarty.const.DIR_SCREENSHOTS}/{$fdata.filename}-full.png" title="{$fdata.caption}">
-            <img src="{$smarty.const.DIR_SCREENSHOTS}/{$fdata.filename}.jpg" alt="{$g->getName()} screenshot #{$smarty.foreach.cat_loop.iteration}">
-          </a>
-          <div class="caption">{$fdata.caption}</div>
-        </div>
-      {/foreach}
+      <div class="row">
+        <h3 class="subhead"><a href="/screenshots/{$category}/{$g->getCategory()}/">{$g->getName()}</a></h3>
+        {foreach from=$g->getFiles() item=fdata name=game_loop}
+          <div class="col-1-4">
+            <div class="card">
+              <a href="{$smarty.const.DIR_SCREENSHOTS}/{$fdata.filename}-full.png" title="{$fdata.caption}">
+                <img class="pixelated" src="{$smarty.const.DIR_SCREENSHOTS}/{$fdata.filename}.jpg" alt="{$g->getName()} screenshot #{$smarty.foreach.cat_loop.iteration}">
+              </a>
+              <div class="caption">{$fdata.caption}</div>
+            </div>
+          </div>
+        {/foreach}
+      </div>
     </div>
-    {if $game and $game == $g->getCategory()}      
+    {if $game and $game == $g->getCategory()}
       {break}
     {/if}
   {/foreach}

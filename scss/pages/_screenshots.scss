@@ -8,24 +8,9 @@
   padding-left: 20px;
 }
 
-.screenshot {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 10px;
-  margin: 4px;
-  width: 215px;
-  height: auto;
-  background: #ccc;
-  img {
-    width: 100%;
-    height: auto;
-    image-rendering: pixelated;
-  }
-}
-
 .gallery {
 	text-align: center;
-	
+
 	.caption {
     text-overflow: ellipsis;
     overflow: hidden;

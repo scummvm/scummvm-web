@@ -1,0 +1,18 @@
+article {
+  .news-date {
+    font-weight: normal;
+  }
+  .news-author {
+    color: $gray;
+    font-style: italic;
+    margin: 0px 0px -8px 0px;
+    position: relative;
+    text-align: right;
+    top: -8px;
+  }
+  img {
+    float: right;
+    margin: 0 10px 10px 10px;
+    max-width: 100%;
+  }
+}
