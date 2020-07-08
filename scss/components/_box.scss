@@ -12,26 +12,10 @@
 			text-decoration: none;
 			color: $theme-container-title;
 		}
-		.news-date {
-			font-weight: normal;
-		}
 	}
 	> .content {
 		background: $theme-container-background;
 		padding: 8px;
-		.news-author {
-			color: $gray;
-			font-style: italic;
-			margin: 0px 0px -8px 0px;
-			position: relative;
-			text-align: right;
-			top: -8px;
-		}
-		img {
-      float: right;
-      margin: 0 10px 10px 10px;
-			max-width: 100%;
-		}
 	}
 	.intro {
 		background: $theme-container-navigation-background;

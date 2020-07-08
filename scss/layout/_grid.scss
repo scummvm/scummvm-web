@@ -25,6 +25,10 @@
 	width: 33.33%;
 }
 
+.col-1-4 {
+  width: 25%;
+}
+
 .col-2-3 {
 	width: 66.66%;
 }
@@ -39,7 +43,11 @@
 
 [class*='col-'] {
 	float: left;
-	padding-right: 8px;
+  padding-right: 12px;
+
+  &:last-child {
+		margin-right:0%;
+	}
 }
 
 .row:after {
@@ -80,7 +88,7 @@
 	}
 	.col-md-1 {
 		width: 100%;
-	}	
+	}
 }
 
 @include respond-to('medium') {
