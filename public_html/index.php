@@ -98,6 +98,7 @@ $pages = array(
     '/screenshots/[a:category]'              => '\ScummVM\Pages\ScreenshotsPage',
     '/screenshots/[a:category]/[:game]'      => '\ScummVM\Pages\ScreenshotsPage',
     '/subprojects'                           => '\ScummVM\Pages\SubprojectsPage',
+    '/sponsors'                              => '\ScummVM\Pages\SponsorsPage',
 );
 
 $router = new \AltoRouter();

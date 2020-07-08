@@ -49,6 +49,8 @@ groups:
   - name: "{#menuHeaderMisc#}"
     class: "menu-misc"
     links:
+      - name: "Sponsors"
+        href: "/sponsors/"
       - name: "{#menuMiscSubprojects#}"
         href: "/subprojects/"
       - name: "{#menuMiscDemos#}"
