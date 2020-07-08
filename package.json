@@ -6,7 +6,11 @@
     "autoprefixer": "^9.5.1",
     "postcss-cli": "^6.1.2"
   },
+  "devDependencies": {
+    "sass": "1.26.10"
+  },
   "scripts": {
-    "postinstall": "postcss ./public_html/css/*.css --use autoprefixer --no-map -r"
+    "postinstall": "postcss ./public_html/css/*.css --use autoprefixer --no-map -r",
+    "sass": "sass --watch ./scss:./public_html/css"
   }
 }
