@@ -5,14 +5,14 @@
   justify-content: center;
   margin-bottom: 20px;
   padding: 10px;
-  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.2s;
   height: auto;
   width: 100%;
-  background: #ccc;
+  background: #fff;
 
   &:hover{
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
   }
   .image {
     align-self: flex-end;
