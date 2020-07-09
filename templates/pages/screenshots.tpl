@@ -1,6 +1,6 @@
 {capture "intro"}
   <div class="row">
-    <div class="navigation col-1-2">
+    <div class="navigation col-1-2 col-md-1">
       <h4 class="subhead">{#screenshotsNavigation#}</h4>
       <ul>
       {foreach from=$screenshots item=arr}
@@ -8,13 +8,13 @@
       {/foreach}
       </ul>
     </div>
-    <div class="text col-1-2">
+    <div class="text col-1-2 col-md-1">
       {include file='components/random_screenshot.tpl'}
     </div>
   </div>
 {/capture}
 
-{capture "content"}  
+{capture "content"}
   {foreach from=$screenshots item=arr}
     <div class="subhead" id="{$arr.category}">
       <a href="/screenshots/{$arr.category}/">{$arr.title}</a>

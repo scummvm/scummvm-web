@@ -3,7 +3,7 @@
 
 {capture "intro"}
   <div class="row">
-		<div class="navigation col-1-2">
+		<div class="navigation col-1-2 col-md-1">
 			<h4 class="subhead">{#gamesDemosHeading#}</h4>
 			<ul>
 			{foreach from=$demos item=group}
@@ -11,7 +11,7 @@
 			{/foreach}
 			</ul>
 		</div>
-		<div class="text col-1-2">
+		<div class="text col-1-2 col-md-1">
 			<p>
 				{#gamesDemosContentP1#}
 			</p>

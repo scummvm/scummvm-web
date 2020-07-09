@@ -82,7 +82,7 @@
 
 		{* Content *}
 		<div class="container row">
-			<div class="col-4-5">
+			<div class="col-4-5 col-sm-1">
                 <div class="content">
 					{* Introduction text and screenshot viewer. *}
 					{if isset($show_intro) && $show_intro}
@@ -95,12 +95,12 @@
 			</div>
 
 			{* Menu. *}
-			<div class="col-1-5">
+			<div class="col-1-5 col-sm-1">
         {include file='layout/menu.tpl'}
 			</div>
 		</div>
 		<footer class="row">
-			<div class="col-4-5">
+			<div class="col-4-5 col-sm-1">
 				{#indexLegal#}
 			</div>
 			<div class="col-1-5 hide-small">

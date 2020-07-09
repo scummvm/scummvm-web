@@ -1,6 +1,6 @@
 {capture "intro"}
   <div class="row">
-    <div class="navigation col-1-2">
+    <div class="navigation col-1-2 col-md-1">
       <h4 class="subhead">{#gamesHeader#}</h4>
       <ul>
       {foreach from=$sections item=arr}
@@ -8,7 +8,7 @@
       {/foreach}
       </ul>
     </div>
-    <div class="text col-1-2">
+    <div class="text col-1-2 col-md-1">
       <ul>
         <li>{#gamesContentP1#}</li>
         <li>{#gamesContentP2#}</li>

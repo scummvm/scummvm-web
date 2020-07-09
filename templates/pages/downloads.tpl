@@ -1,6 +1,6 @@
 {capture "intro"}
 <div class="row">
-	<div class="navigation col-1-2">
+	<div class="navigation col-1-2 col-md-1">
 		<h4 class="subhead">{#downloadsHeader#}</h4>
 		<ul>
 			{foreach from=$sections item=arr}
@@ -8,7 +8,7 @@
 			{/foreach}
 		</ul>
 	</div>
-	<div class="text col-1-2">
+	<div class="text col-1-2 col-md-1">
 		<p>{'/\x7brelease\x7d/'|preg_replace:$release:#downloadsContentP1#}</p>
 		<ul>
 			<li>{'/\x7brelease\x7d/'|preg_replace:$release:#downloadsContentP2#}</li>

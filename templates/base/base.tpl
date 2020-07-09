@@ -19,11 +19,11 @@
     {block name=header}{/block}
 
 		<div class="container row">
-			<div class="col-4-5">
+			<div class="col-4-5 col-sm-1">
         {block name=content}{/block}
 			</div>
 
-			<div class="col-1-5">
+			<div class="col-1-5 col-sm-1">
         {block name=menu}{/block}
 			</div>
 		</div>

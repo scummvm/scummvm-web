@@ -6,7 +6,7 @@
   <div class="gallery">
     <div class="row">
       {foreach from=$sponsors item=sponsor}
-      <div class="col-1-3">
+      <div class="col-1-3 col-md-1">
         <div class="sponsor card">
           <div class="image">
             <a href="{$sponsor->getLink()}" title="{$sponsor->getName()}">
