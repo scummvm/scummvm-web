@@ -12,12 +12,12 @@ function toggleCollapsibleRow(event) {
       next.classList.toggle("collapse");
       next = next.nextElementSibling;
     }
-    resetDemosTable();
+    recolorParentTable(clickedRow);
 }
 
 function initalizeTable() {
   var rows = document.querySelectorAll('.gameDemos tr');
-  for (let i = 0; i < rows.length-1; i++) {
+  for (var i = 0; i < rows.length-1; i++) {
     if (!rows[i].nextElementSibling) {
       continue;
     }
@@ -31,10 +31,10 @@ function initalizeTable() {
   }
 }
 
-function resetDemosTable() {
-  var rows = document.querySelectorAll('.gameDemos tr:not(.collapse)');
+function recolorParentTable(sourceRow) {
+  var rows = sourceRow.parentElement.querySelectorAll('tr:not(.collapse)');
 
-  for (let i = 0; i < rows.length; i++) {
+  for (var i = 0; i < rows.length; i++) {
     const row = rows[i];
     row.classList.remove("color2", "color0");
     i % 2 ? row.classList.add('color0') : row.classList.add('color2');
