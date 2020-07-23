@@ -8,24 +8,24 @@
         "content": "Várias novas mudanças neste novo lançamento. Full Throttle agora está funcionando melhor e começamos um trabalho preliminar em The Dig. \\[[Baixar Agora](/downloads/)\\]"
     },
     "20020121": {
-        "title": "",
-        "content": ""
+        "title": "Novo Visual do Site",
+        "content": "Agradecemos a Jeremy Newman (laxdragon) por projetar e oferecer suporte em nosso novo site. Fique a vontade para martelá-lo com comentários e sugestões no site."
     },
     "20020203": {
-        "title": "",
-        "content": ""
+        "title": "Versão do ScummVM para Dreamcast",
+        "content": "[Marcus Comstedt](https://sourceforge.net/sendmessage.php?touser=446790) recentemente se comprometeu a criar uma versão do SEGA Dreamcast do ScummVM para CVS. O site [Mark Thomas' Dreamcast Development](http://www.doc.ic.ac.uk/~mbt99/dcdev/) tem mais informações e imagens binárias dessa versão excepcional. Mais informações sobre a emulação do Dreamcast podem ser encontradas em [DC Emulation](http://www.dcemulation.com/)."
     },
     "20020214": {
-        "title": "",
-        "content": ""
+        "title": "Mais ocupado que um macaco com uma erupção cutânea",
+        "content": "![Zak256](/data/news/20020214.png) A equipe ScummVM está ocupada se esforçando para fazer mais alguns dos seus jogos clássicos favoritos da LucasArts funcionar. Dê uma olhada nesta pequena tela para abrir seu apetite. Mais capturas de tela e informações fluirão dessa maneira à medida que forem acontecendo."
     },
     "20020220": {
-        "title": "",
-        "content": ""
+        "title": "Instantâneos diários do Windows agora estão disponíveis",
+        "content": "Travis Howell está disponibilizando instantâneos diários do ScummVM para Windows para baixar. Parabéns para Travis. Além disso, há um link para uma versão do Windows SDL do ScummVM. Esta versão não requer a dll Cygwin.  \nTambém colocamos uma Página de compatibilidade online para ajudar a responder à pergunta mais comum: \"Quais jogos funcionam?\". Manteremos esta página atualizada à medida que o desenvolvimento avança."
     },
     "20020308": {
-        "title": "",
-        "content": ""
+        "title": "Algumas Atualizações Bastante Importantes",
+        "content": "![Full Throttle](/data/news/20020308.png) BBrox, Endy e Yazoo estiveram no modo de crise esta semana (Parabéns pessoal!). Aqui está o que há de novo no desenvolvimento do ScummVM:\n\n*   Sam e Max agora estão jogáveis até o fim!\n*   Engine de vídeo *inSane* funcionando. Utilizado em Dig e Full Throttle\n*   Mais opções de linha de comando para controle. Leia o readme.txt\n*   Trabalhos preliminares começaram em Curse of Monkey Island\n*   Mutle incluiu a versão para Mac na árvore de CVS\n*   Muitos erros foram corrigidos."
     },
     "20020320": {
         "title": "",
@@ -1208,44 +1208,44 @@
         "content": ""
     },
     "20181210": {
-        "title": "",
-        "content": ""
+        "title": "Atualizações de infraestrutura... de novo!",
+        "content": "Nos últimos dias, transferimos nossos downloads para uma nova infraestrutura de mirrors (links alternativos de download). Anteriormente, cada download era entregue pelo nosso servidor principal, localizado na Áustria.\n\nAgora, nossos downloads são entregues através do [MirrorBrain](http://mirrorbrain.org), um sistema de redirecionamento de downloads que nos permite construir nossa própria rede de distribuição de conteúdo. O MirrorBrain já é usado por [muitos projetos de código aberto](http://mirrorbrain.org/users/).\n\nO MirrorBrain tenta sempre selecionar o melhor mirror com base na sua localização, para obter as melhores velocidades de download possíveis.\n\nEmbora já tenhamos alguns mirrors localizados na Europa, atualmente estamos procurando pessoas dispostas a doar parte da largura de banda e armazenamento localizados nos EUA e em outras partes do mundo. Se você deseja hospedar um mirror do repositório ScummVM, entre em contato conosco por e-mail em [serra@scummvm.org](mailto: serra@scummvm.org).\n\nSe você encontrar algum problema com nosso novo sistema de download, deixe um comentário [em nossos forums](https://forums.scummvm.org/viewtopic.php?f=1&t=14761#p86624)."
     },
     "20190306": {
-        "title": "",
-        "content": ""
+        "title": "Preparem-se - o GSoC 2019 está chegando!",
+        "content": "![Logotipo do GSoC](/data/news/GSoC2017Logo.png)\n\nHá alguns dias, o Google anunciou as organizações que foram aceitas para o Google Summer of Code 2019. Temos o prazer de anunciar que o ScummVM é uma delas, juntamente com o projeto irmão ResidualVM. O Summer of Code é um evento anual organizado pelo Google para incentivar os alunos a contribuir para projetos de código aberto. As organizações de código aberto fornecem mentores e projetos para trabalhar, enquanto o Google dá algum dinheiro aos estudantes participantes. Você pode encontrar mais informações no [site oficial](https://summerofcode.withgoogle.com). Também temos algumas informações sobre isso em [nosso wiki](http://wiki.scummvm.org/index.php/Summer_of_Code) e, em particular, [regras do projeto](http://wiki.scummvm.org/index.php/Summer_of_Code/Project_Rules) que os candidatos precisarão seguir.\n\nVocê está pronto para uma grande aventura? Deseja contribuir para um dos maiores projetos de preservação de jogos conhecidos pela humanidade? Então ScummVM e ResidualVM estão esperando por você! Dê uma olhada em [nossa página de idéias](http://wiki.scummvm.org/index.php/Summer_of_Code/GSoC_Ideas_2019). Claro, você também é muito bem-vindo para trazer sua própria idéia! Os alunos têm até 9 de abril para se inscrever e enviar propostas para o projeto em que desejam trabalhar. As propostas aceitas serão anunciadas em 6 de maio e haverá algumas semanas para a ligação da comunidade antes do início do período de programação em 27 de maio.\n\nDe qualquer forma, não hesite em conversar conosco no IRC! #scummvm e #residualvm na rede Freenode são o lugar para você!"
     },
     "20190413": {
-        "title": "",
-        "content": ""
+        "title": "ScummVM: Modern Theme Remastered",
+        "content": "![ScummVM Modern Theme Remastered](/data/news/20190413.png) O tempo voa tão rápido! Fazem 10 anos desde que introduzimos o \"Tema Moderno\" no ScummVM.\n\nDepois de todos esses anos, certamente já estava na hora de uma atualização.\n\nNas últimas semanas, mataniko, membro da equipe do ScummVM, atualizou cuidadosamente o tema do ScummVM. O novo tema segue os princípios de design moderno, preservando nossa própria filosofia de design.\n\nA partir de agora, as versões futuras do ScummVM [(incluindo as compilações noturnas atuais!)](https://buildbot.scummvm.org/builds.html) incluirão o novo tema por padrão.\n\nJá está sentindo falta do tema antigo? Não se preocupe! O antigo tema \"ScummVM Modern\" pode ser selecionado nas opções do ScummVM a qualquer momento.\n\nO que você acha do novo tema? [Conte para nós em nossos fóruns!](https://forums.scummvm.org/viewtopic.php?f=1&t=14850&p=87219) Como sempre, seus comentários são muito bem vindos."
     },
     "20190513": {
-        "title": "",
-        "content": ""
+        "title": "Mais um verão (com o Google), quatro novos projetos!",
+        "content": "![Logotipo do GSoC](/data/news/GSoC2017Logo.png)\n\nNa semana passada, o Google anunciou os projetos aceitos para o Summer of Code deste ano. Estamos satisfeitos e empolgados em dizer que o ScummVM estará orientando quatro estudantes este ano. Todos os quatro trabalharão nas engines de jogo:\n\n* Andrii Prykhodko (também conhecido como whiterandrek) está de volta e estará trabalhando para adicionar suporte aos jogos ***[Red Comrades 1: Save the Galaxy](https://www.mobygames.com/game/red-comrades-save-the-galaxy-reloaded)*** e ***[Red Comrades 2: For the Great Justice](https://www.mobygames.com/game/red-comrades-2)*** ao ScummVM.\n* Nipun Garg estará trabalhando para adicionar suporte ao jogo ***[Hyperspace Delivery Boy!](https://www.mobygames.com/game/hyperspace-delivery-boy)*** ao ScummVM.\n* Jaromír Wysoglad (também conhecido como Jarda) estará trabalhando na segunda parte do jogo ***[Mission Supernova](http://www.mobygames.com/game/dos/mission-supernova/)***.\n* Antonio Román Cerezo (também conhecido como Kyranet) estará trabalhando na implementação de redes no ScummVM para o jogo ***[Moonbase Commander](http://www.mobygames.com/game/moonbase-commander)***.\n\nSejam bem-vindos nossos quatro estudantes aventureiros, esperamos que seja um verão produtivo e interessante! E como sempre, você pode acompanhar o progresso deles durante o verão nos [Blogs do ScummVM](http://planet.scummvm.org)."
     },
     "20190603": {
-        "title": "",
-        "content": ""
+        "title": "Junte-se à nós no Discord!",
+        "content": "Ficamos sempre empolgados em explorar novas maneiras de aproximar nossa comunidade. Hoje, temos o orgulho de anunciar nosso próximo passo nesta jornada - agora estamos presentes no [Discord!](https://discord.gg/5D8yTtF)\n\nNão importa se você deseja apenas ficar com a comunidade ScummVM ou discutir o desenvolvimento mais recente, este é o (novo!) lugar para ir!\n\nVejo você no Discord!\n\nObserve que, apesar da introdução do novo servidor Discord, nossos fóruns e canal de IRC na rede Freenode ainda estão disponíveis e não temos absolutamente nenhum plano para desativá-los no futuro."
     },
     "20190608": {
-        "title": "",
-        "content": ""
+        "title": "Prepare o seu Switch para novas aventuras!",
+        "content": "É sempre emocionante ver a grande variedade de dispositivos capazes de executar seus jogos de aventura favoritos, graças ao ScummVM. Hoje, temos o orgulho de anunciar que o número de dispositivos aumentou novamente com a disponibilidade imediata do ScummVM para o Nintendo Switch!\n\nGraças à Cpasjuste e à rsn8887, agora você pode usar o ScummVM em qualquer lugar.\n\nPara executar o ScummVM no seu Switch, você precisa de um console modificado capaz de executar software homebrew. Não se preocupe - há muita documentação sobre como habilitar o homebrew no Nintendo Switch disponível online.\n\nEsta nova versão já tem sua própria página em [nosso wiki](https://wiki.scummvm.org/index.php?title=Nintendo_Switch). Você definitivamente precisa dar uma olhada na página wiki, pois ela contém muitas informações úteis sobre como usar o ScummVM no Switch.\n\nSe você tiver mais perguntas sobre esta versão, não hesite em visitar nossos [fóruns](https://forums.scummvm.org/viewforum.php?f=24).\n\nNosso [bot de compilação](https://buildbot.scummvm.org/builds.html) já está fornecendo versões de desenvolvimento para o Nintendo Switch. Pegue-os enquanto estão quentes!"
     },
     "20190616": {
-        "title": "",
-        "content": ""
+        "title": "Precisa-se de Blade Runners!",
+        "content": "Nossa equipe do ScummVM está procurando Blade Runners que ajudem a encontrar, perseguir e remover erros que escaparam das colônias de dados fora do mundo. Esses erros não são perigosos e não o impedirão de descobrir mais segredos e escolher o seu destino. Seu spinner, pistola, máquina ESPER e máquina Voight-Kampff estarão à sua disposição.\n\nAnunciamos que Blade Runner está pronto para testes. Os seguintes idiomas são suportados - inglês (versões em CD e DVD), alemão, italiano, francês, espanhol e a versão não oficial em russo da Fargus Multimedia.\n\nPegue sua cópia do Blade Runner, [obtenha a compilação mais recente do ScummVM](https://buildbot.scummvm.org/builds.html) (NÃO a última versão estável) e [copie os arquivos necessários](https://wiki.scummvm.org/index.php?title=Datafiles#Blade_Runner).\n\nAgora você pode jogar o jogo com legendas! Basta baixar [o arquivo zip das legendas](https://www.scummvm.org/games/#bladerunner) extrair o subtitles.mix e colocá-lo entre os demais arquivos do Blade Runner. No momento, possuímos apenas legendas em inglês e francês; no entanto, se você quiser nos ajudar a transcrever outros idiomas do áudio, entre em contato com peterkohaut & praetorian (https://www.scummvm.org/contact/).\n\nObserve que quando você adiciona o diretório do jogo no ScummVM, você recebe duas opções para o jogo. A primeira opção é para o jogo original e será simplesmente chamada de \"Blade Runner\"; Estamos interessados no seu feedback principalmente para esta versão do jogo, pois ela é considerada completa. A outra opção é importar o jogo com conteúdo restaurado e chama-se \"Blade Runner com conteúdo restaurado\"; esta versão ainda está em andamento e por enquanto não está completa. Se você estiver testando esta versão, especifique-a explicitamente em seus [relatórios de feedback e erros](https://bugs.scummvm.org/).\n\nSe a sua versão do jogo não for suportada, [crie um relatório de feedback com o MD5](https://wiki.scummvm.org/index.php/Reporting_unknown_MD5_checksums) para que possamos adicionar suporte a ela."
     },
     "20190630": {
-        "title": "",
-        "content": ""
+        "title": "Quest for Glory, com um pouco de Hoyle Games!",
+        "content": "Você chega em uma caverna escura, na terra misteriosa de Mordavia... Prepare seu herói e enfrente seu velho inimigo, o insidioso Ad Avis! Se você se sentir sobrecarregado por essa missão, sempre poderá relaxar com um jogo da coleção Hoyle!\n\nA equipe ScummVM tem orgulho de anunciar suporte para os seguintes jogos, prontos para testes públicos:\n\n*   Quest for Glory: Shadows of Darkness (também conhecido como QFG4)\n*   Hoyle Classic Games\n*   Hoyle Bridge\n*   Hoyle Children's Collection\n*   Hoyle Solitaire\n\nAs versões em CD e em disquete do QFG4 são suportadas. Observe que o jogo de pôquer dos Hoyle Classic Games ainda não é suportado.\n\nPortanto, pegue suas cópias ou compre QFG4 digitalmente no [GOG](https://www.gog.com/game/quest_for_glory) e obtenha a [última compilação de desenvolvimento](https://buildbot.scummvm.org/builds.html) do ScummVM para sua plataforma preferida. Quaisquer problemas encontrados devem ser relatados em nosso [Rastreador de Problemas](https://bugs.scummvm.org/)."
     },
     "20190728": {
-        "title": "",
-        "content": ""
+        "title": "Volte no tempo e visite Versalhes na corte de Luís XIV",
+        "content": "O ano é 1685. O local é Versalhes. Alguém ameaçou queimar o castelo e Alexandre Bontemps, o Premier auxiliar do rei Luís XIV, está pedindo sua ajuda. Você tem até o final do dia para investigar e salvar o castelo.\n\nA equipe ScummVM se orgulha de anunciar o suporte ao jogo Versaille 1685 da Cryo e precisa de sua ajuda para testar o jogo. Pegue sua cópia do Versailles 1685 (as versões DOS, Windows e Macintosh são suportadas), faça o download da [última compilação de desenvolvimento](https://buildbot.scummvm.org/builds.html) do ScummVM e comece a explorar o castelo e seus arredores. Enquanto você faz isso, relate quaisquer erros encontrados em nosso [rastreador de problemas] (https://bugs.scummvm.org) e faça [capturas de tela] (https://wiki.scummvm.org/index.php?title=Screenshots) de lugares interessantes."
     },
     "20190904": {
-        "title": "",
-        "content": ""
+        "title": "Traga todas as suas entregas!",
+        "content": "A equipe ScummVM está entusiasmada em anunciar o suporte para uma das criações de John Romero, o jogo *Hyperspace Delivery Boy!* Todas as versões conhecidas são suportadas, incluindo Linux, Windows e PocketPC. Se você não possui uma cópia, pode obter a demonstração em nossa [seção de demonstrações](/demos/)\n\nEntão pegue sua cópia do jogo e ajude-nos a testá-lo usando a [última compilação de desenvolvimento](https://buildbot.scummvm.org/builds.html) do ScummVM. Se a sua versão do jogo não for reconhecida ou se encontrar algum erro, informe-os no nosso [rastreador de problemas](https://bugs.scummvm.org). E como sempre, divirta-se!"
     },
     "20190912": {
         "title": "*The Prince and the Coward* passa a ser suportado",
