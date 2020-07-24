@@ -1168,44 +1168,44 @@
         "content": ""
     },
     "20180214": {
-        "title": "",
-        "content": ""
+        "title": "Mais um ano, mais um Summer of Code",
+        "content": "![Logotipo do GSoC](/data/news/GSoC2017Logo.png)\n\nHá dois dias atrás, o Google anunciou as organizações que foram aceitas para o Summer of Code deste ano, e temos o prazer de anunciar que o ScummVM é uma delas, juntamente com nosso projeto irmão ResidualVM. O Summer of Code é um evento anual organizado pelo Google para incentivar os alunos a contribuir para projetos de código aberto. As organizações de código aberto fornecem mentores e projetos para trabalhar, enquanto o Google dá algum dinheiro aos estudantes participantes. Você pode encontrar mais informações no [site oficial](https://summerofcode.withgoogle.com). Também temos algumas informações sobre o assunto em [nosso wiki](http://wiki.scummvm.org/index.php/Summer_of_Code) e, em particular, [regras do projeto](http://wiki.scummvm.org/index.php/Summer_of_Code/Project_Rules) que os candidatos precisarão seguir.\n\nVocê é um estudante motivado? Você está disponível entre 14 de maio e 6 de agosto? Deseja ser um colaborador de um dos maiores projetos de preservação de jogos? Então ScummVM e ResidualVM estão esperando por você! Dê uma olhada em [nossa página idéias](http://wiki.scummvm.org/index.php/Summer_of_Code/GSoC_Ideas_2018) ou traga sua própria ideia! Os estudantes têm até 27 de março para se inscrever e enviar propostas para o projeto em que desejam trabalhar. As propostas aceitas serão anunciadas em 23 de abril e haverá algumas semanas para o vínculo da comunidade antes do início do período de 12 semanas em 14 de maio.\n\nDe qualquer forma, não hesite em conversar conosco no IRC! Um lugar: Freenode. Dois canais: #scummvm e #residualvm"
     },
     "20180331": {
-        "title": "",
-        "content": ""
+        "title": "IDA Disassembler",
+        "content": "Uma discussão recente sobre o freeware IDA Disassembler 7.0 mais recente revelou que ele não suporta mais a descompilação de executáveis antigos do DOS e Windows. Obviamente, isso é um problema para possíveis colaboradores, bem como para os possíveis estudantes do GSoC que desejam fazer engenharia reversa em um antigo jogo de aventura ou RPG para seu projeto. A solução óbvia é fornecer uma versão gratuita do freeware que ainda os suporte.\n\nAo consultar a Hex-Rays, eles consentiram em hospedar gentilmente uma das versões anteriores freeware do IDA, para aqueles que desejam usá-lo no futuro. Depois de revisar as versões anteriores, decidimos utilizar o [IDA Freeware Versão 5.0](https://www.scummvm.org/frs/extras/IDA/idafree50.exe). O IDA 5.0 foi a primeira versão do IDA que adicionou uma conveniente visualização gráfica, e esta versão de freeware possui a capacidade de descompilar os executáveis do DOS. Também não possui limite de tempo como nas versões de demonstração, é o mais conveniente para os entusiastas tentarem engenharia reversa em jogos antigos.\n\nConsiderando quantas engines de jogos foram criadas por engenharia reversa dos jogos originais, esperamos continuar vendo pessoas interessadas em reimplementar jogos no futuro.\n\nQuanto mais melhor :)"
     },
     "20180423": {
-        "title": "",
-        "content": ""
+        "title": "Projetos do GSoC 2018 anunciados!",
+        "content": "![Logotipo do GSoC](/data/news/GSoC2017Logo.png)\n\nHoje o Google anunciou os projetos aceitos para o Summer of Code deste ano. Temos o prazer e a satisfação de dizer que o ScummVM orientará três estudantes, enquanto o ResidualVM também terá um aluno. Todos os quatro trabalharão nas engines de jogo:\n\n*   Andrii Prykhodko (conhecido como whiterandrek) estará trabalhando em adicionar suporte ao jogos ***[Pink Panther: Passport to Peril](https://en.wikipedia.org/wiki/The_Pink_Panther:_Passport_to_Peril)*** e ***[Pink Panther: Hokus Pokus Pink](https://en.wikipedia.org/wiki/The_Pink_Panther:_Hokus_Pokus_Pink)*** no ScummVM.\n*   Joseph-Eugene Winzer (conhecido como Joefish) estará trabalhando em adicionar suporte aos jogo ***[The Immortal](https://en.wikipedia.org/wiki/The_Immortal_(video_game))*** no ScummVM.\n*   Matthew Stewart estará trabalhando na engine utilizada por ***[Star Trek: 25th Anniversary](https://en.wikipedia.org/wiki/Star_Trek:_25th_Anniversary_(computer_game))*** e ***[Star Trek: Judgment Rites](https://en.wikipedia.org/wiki/Star_Trek:_Judgment_Rites)***. O foco para o período do GSoC será o primeiro jogo.\n*   Liu Zhaosong (conhecido como Douglas\\_GSoC) estará trabalhando em melhorar a engine Stark, utilizada pelo jogo ***[The Longest Journey](https://en.wikipedia.org/wiki/The_Longest_Journey)*** no ResidualVM.\n\nSejam bem-vindos nossos quatro estudantes aventureiros, esperamos que seja um verão produtivo e interessante! E você pode acompanhar o progresso deles durante o verão nos [Blogs do ScummVM](http://planet.scummvm.org)."
     },
     "20180501": {
-        "title": "",
-        "content": ""
+        "title": "Inconcebível, a pirâmide real sitiada!",
+        "content": "Lute para libertar a população da ameaça do tirano Lord Xeen, ou seu cruel mestre Alamar. Ou ouse se aventurar além do mundo de Xeen para o mundo de Havoc para testar sua coragem com um novo desafio. Temos o prazer de anunciar o suporte para os seguintes jogos:\n\n*   Might and Magic IV - Clouds of Xeen\n*   Might and Magic V - Darkside of Xeen\n*   Might and Magic - World of Xeen\n*   Might and Magic - World of Xeen Versão Falada em 2 CDs\n*   Might and Magic - Swords of Xeen\n\nNo momento, apenas as versões em inglês desses jogos estão prontas para teste. Portanto, pegue suas cópias ou compre-as digitalmente no [GOG](https://www.gog.com/game/might_and_magic_6_limited_edition?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) e obtenha a [compilação diária mais recente](http://scummvm.org/downloads/#daily) do ScummVM. Você também precisará do arquivo [xeen.ccs](https://github.com/scummvm/scummvm/blob/master/dists/engine-data/xeen.ccs?raw=true), que deve ser colocado na mesma pasta para a qual você copiou os arquivos do jogo.\n\nAntes de começar a testar qualquer um dos jogos, lembre-se de que, dada a forma como o combate acontece no jogo, qualquer erro encontrado pode ser mais difícil de replicar do que nos jogos de aventura tradicionais. Como tal, será uma boa idéia praticar o salvamento regular do seu jogo, caso algo dê errado. Se ocorrer alguma falha ou detectar alguma funcionalidade que pareça incorreta, informe-nos. Quaisquer problemas encontrados devem ser relatados em nosso [Rastreador de Problemas](https://bugs.scummvm.org/)."
     },
     "20180612": {
-        "title": "",
-        "content": ""
+        "title": "ScummVM e Cyan, Inc. estão trabalhando juntos!",
+        "content": "Hoje, temos algumas notícias incríveis para compartilhar. Como você já deve ter ouvido, a Cyan, Inc. - os criadores de Myst e Riven - estão [relançando toda a série Myst para comemorar o 25º aniversário do jogo Myst original](https://myst.com). E ambos ScummVM e ResidualVM participam desta celebração de uma maneira especial!\n\n**Myst — Masterpiece Edition** e **Riven — The Sequel to Myst** contam com o poder do ScummVM, enquanto **Myst III - Exile** utiliza ResidualVM.\n\nA fim de alcançar a melhor experiência de jogo possível e tornar sua jornada ainda mais agradável, Cyan e ScummVM estão estabelecendo uma nova parceria, com ambas as equipes trabalhando juntas o mais próximo possível no futuro!\n\nTalvez o final ainda não tenha sido escrito - mais novidades surgirão em breve!"
     },
     "20180629": {
-        "title": "",
-        "content": ""
+        "title": "O final ainda não foi escrito!",
+        "content": "Estamos muito felizes em anunciar que nossos amigos da Cyan, Inc. [lançaram hoje sua coleção de 25 anos da série Myst](https://www.gog.com/news/release_myst_iii_exile_myst_iv_revelation?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) como download digital no GOG.com.\n\n**[Myst — Masterpiece Edition](https://www.gog.com/game/myst_masterpiece_edition?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)** e **[Riven — The Sequel to Myst](https://www.gog.com/game/riven_the_sequel_to_myst?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)** contam com o poder de ScummVM, enquanto **[Myst III — Exile](https://www.gog.com/game/myst_3_exile?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)** utilizam ResidualVM.\n\nNas últimas duas semanas, as equipes Cyan e ScummVM fizeram grandes progressos para melhorar a compatibilidade de jogos. Devido a testes intensos, já conseguimos corrigir a maioria dos problemas presentes no ScummVM e ResidualVM. No entanto, devido à natureza do desenvolvimento do software, ainda é possível que tenhamos perdido algo, por isso precisamos da sua ajuda agora.\n\nEmbora possamos corrigir problemas nas versões GOG.com dos jogos em uma data posterior com uma atualização simples, isso não será possível para a próxima edição de colecionador em DVDs, por isso precisamos garantir que possamos corrigir todos os erros antes da fabricação dos DVDs.\n\nPortanto, pegue uma cópia do GOG.com ou, se você era um patrocinador da campanha do Kickstarter, resgate seu código. Visite a Ilha de Myst, passeie pelos 233 anos, tenha uma ótima estadia em Releeshahn e relate qualquer problema que possa encontrar ao nosso [Rastreador de Erros] (http://bugs.scummvm.org/).\n\nE por favor... traga-me as páginas azuis!"
     },
     "20180701": {
-        "title": "",
-        "content": ""
+        "title": "Nosso site recebeu uma atualização!",
+        "content": "Não estamos apenas trabalhando constantemente para melhorar a compatibilidade do ScummVM ou implementar novos jogos, mas às vezes também para melhorar a aparência geral do projeto.\n\nNos últimos meses, um fã de longo prazo do ScummVM e novo membro da equipe Mataniko trabalhou duro para melhorar o design do site, o que nos serve bem pois já faz mais de uma década. Estamos orgulhosos de dizer que o site ScummVM agora é totalmente responsivo e parecerá absolutamente bonito em seu PC e em seus dispositivos móveis.\n\nSe você tiver algum problema com o site atualizado ou a sensação de que algo está faltando, conte-nos agora em nosso [Rastreador de Problemas](https://github.com/scummvm/scummvm-web/issues)."
     },
     "20181023": {
-        "title": "",
-        "content": ""
+        "title": "Manutenção de Fóruns e Wiki",
+        "content": "Nas próximas horas, os fóruns do ScummVM e o Wiki ficarão em manutenção enquanto fazemos trabalho de infraestrutura nos dois sites.\n\nEstamos trabalhando duro para trazer os dois de volta o mais rápido possível, obrigado!"
     },
     "20181024": {
-        "title": "",
-        "content": ""
+        "title": "Atualizações de infraestrutura",
+        "content": "Nos últimos dias, a equipe ScummVM tem trabalhado duro para atualizar nossa infraestrutura. Durante o processo, todos os sites de suporte foram atualizados, limpos e protegidos com suporte à SSL.\n\nDevido à forma como a propagação do DNS funciona, pode levar até 48 horas até que você possa acessar os fóruns e o wiki.\n\nSe você tiver algum problema com os Fóruns, Wiki, Traduções, Rastreador de erros ou qualquer outro problema relacionado ao site, informe-nos. Para questões menores, sinta-se à vontade para publicar [neste tópico](https://forums.scummvm.org/viewtopic.php?f=1&t=14735). Para grandes problemas, utilize o [rastreador de erros](https://bugs.scummvm.org) usando o componente Web para nos informar."
     },
     "20181118": {
-        "title": "",
-        "content": ""
+        "title": "Mais atualizações de infraestrutura",
+        "content": "Há algumas semanas, começamos a melhorar nosso site, incluindo (mas não se limitando a) tirar o pó de nossos fóruns e de nosso wiki. Há também algumas coisas acontecendo nos bastidores, como melhorar a maneira como lidamos com traduções para este site.\n\nNos próximos dias, lançaremos um novo sistema de espelhamento para os downloads que fornecemos, a fim de permitir a distribuição da largura de banda necessária em vários servidores.\n\nEstamos quase terminando a configuração do novo sistema e, basicamente, apenas precisamos 'ligar o interruptor'. No entanto, é possível que você tenha problemas como links de download quebrados ou mensagens que reclamam de arquivos ausentes durante o período de transição.\n\nEstamos trabalhando duro para manter as interrupções de serviço o mínimo possível. Muito obrigado pela sua compreensão!"
     },
     "20181210": {
         "title": "Atualizações de infraestrutura... de novo!",
