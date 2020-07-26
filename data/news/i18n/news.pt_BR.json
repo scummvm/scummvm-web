@@ -28,24 +28,24 @@
         "content": "![Full Throttle](/data/news/20020308.png) BBrox, Endy e Yazoo estiveram no modo de crise esta semana (Parabéns pessoal!). Aqui está o que há de novo no desenvolvimento do ScummVM:\n\n*   Sam e Max agora estão jogáveis até o fim!\n*   Engine de vídeo *inSane* funcionando. Utilizado em Dig e Full Throttle\n*   Mais opções de linha de comando para controle. Leia o readme.txt\n*   Trabalhos preliminares começaram em Curse of Monkey Island\n*   Mutle incluiu a versão para Mac na árvore de CVS\n*   Muitos erros foram corrigidos."
     },
     "20020320": {
-        "title": "",
-        "content": ""
+        "title": "Código Congelado",
+        "content": "O ScummVM está atualmente em um congelamento de código. Isso significa que o CVS não será atualizado com novas correções, pois estamos fazendo uma grande reorganização na engine. Esperamos que, ao reescrever muitas partes do ScummVM em C++ adequadamente, possamos corrigir um grande número de erros da prória engine, além de facilitar o trabalho do código, para nós e desenvolvedores que desejarem ingressar no projeto no futuro. Observe que isso significa que os relatórios de erros e as correções atualmente no sistema não serão analisados até que o congelamento termine. Planejamos congelar por uma semana, embora isso possa levar mais tempo."
     },
     "20020404": {
-        "title": "",
-        "content": ""
+        "title": "Código descongelado",
+        "content": "Após algumas semanas, o código ScummVM foi oficialmente descongelado e o trabalho de suporte aos jogos continua. Como prova disso, vários erros com o Zak256 foram corrigidos, e o jogo agora é muito mais jogável... embora ainda falte muito a ser feito!"
     },
     "20020406": {
-        "title": "",
-        "content": ""
+        "title": "Loom e 0.2.0",
+        "content": "Depois de algum trabalho, a versão CD do Loom de 256 cores está completa! Com isso, estamos começando a nos preparar para o lançamento do 0.2.0. Para nos ajudar com isso, pedimos a você - nossos jogadores - que baixe a mais recente compilação diária e instantâneos CVS e jogue seus jogos favoritos!\nPrecisamos garantir que os seguintes jogos sejam concluídos sem grandes erros de jogabilidade (por exemplo, falhas, congelamentos etc. - problemas menores, como a sincronização de som, não contam):\n\n*   Loom CD\n*   Monkey Island 1 (CD)\n*   Monkey Island 2\n*   Indy 4: Fate of atlantis\n*   Sam and Max\n*   Day of the Tentacle\n\nMuito obrigado e esperamos que tudo funcione bem, para que possamos finalmente lançar uma nova versão! Além disso, pela demanda popular, o 0.2.0 incluirá um novo recurso de 'salvamento automático' para garantir que você nunca perca horas de árduo progresso, porque esqueceu de salvar e de repente encontrou um erro!"
     },
     "20020409": {
-        "title": "",
-        "content": ""
+        "title": "Versão de atualização",
+        "content": "Graças a várias pessoas, confirmamos que DOTT, o Sam and Max e o LoomCD são todos jogáveis do começo ao fim sem 'grandes' erros no código atual. Por outro lado, foram encontrados vários erros graves com o MI2 e o Indy4, portanto a versão 0.2.0 pode demorar um pouco mais do que o esperado.\n  \nPara os programadores por aí, fique à vontade para navegar na lista de erros e tentar realizar correções para eles. No momento, há apenas uma pessoa trabalhando regularmente no ScummVM, com isso as coisas estão devagar."
     },
     "20020414": {
-        "title": "",
-        "content": ""
+        "title": "Atualização da situação",
+        "content": "A versão 0.2.0 foi adiada por um tempo, pois a engine ScummVM está novamente passando por alguma reorganização. No entanto, vale ressaltar que a versão 0.2.0 também incluirá suporte para um jogo que não seja da SCUMM! Simon The Sorcerer. Então compartilhe e aproveite as últimas novidades do CVS.\n  \nAlguns de vocês também devem ter notado um botão do PayPal na parte inferior da barra de navegação. Se você gostou do ScummVM, doe algum dinheiro para nos ajudar a comprar software para ajudar no desenvolvimento. Obrigado!"
     },
     "20020501": {
         "title": "",
@@ -1028,44 +1028,44 @@
         "content": ""
     },
     "20140918": {
-        "title": "",
-        "content": ""
+        "title": "Procura-se testadores de Sfinx",
+        "content": "Recentemente, adicionamos suporte para um novo jogo, [Sfinx](http://wiki.scummvm.org/index.php/Sfinx), no ScummVM, e agora podemos anunciar com orgulho que está pronto para ser testado. Graças aos [desenvolvedores originais](http://wiki.scummvm.org/index.php/LK_Avalon), este jogo agora é freeware e pode ser baixado em [nosso site](/games/#sfinx). Além da versão original em polonês, também estamos propondo uma versão em inglês! Esta versão não é final, por isso estamos procurando pessoas que falem inglês e/ou polonês e que não tenham medo de detectar erros de ortografia e gramática nos textos do jogo (somente em inglês), enquanto também procuramos por diferentes erros, falhas e outras coisas ruins.\n\nResumindo: precisamos de testadores!\n\nPegue uma cópia da [compilação diária](/downloads/#daily) e os [arquivos de dados](/games/#sfinx) do jogo, e faça isso!\n\nVocê pode relatar erros em [nosso rastreador de erros](http://bugs.scummvm.org/) seguindo nossas [diretrizes de envio de erros](/faq/#question.report-bugs). Se você tiver tempo para isso, [capturas de tela](http://wiki.scummvm.org/index.php/Screenshots) também serão muito bem-vindas!"
     },
     "20150111": {
-        "title": "",
-        "content": ""
+        "title": "Em caso de aventura Zork, quebre o vidro!",
+        "content": "O ScummVM leva você a uma aventura no mundo de Zork, com suporte para dois novos jogos! Em Zork Nemesis: The Forbidden Lands, sua tarefa é embarcar em uma jornada para resolver o mistério de um espírito chamado Nemesis e dos quatro alquimistas que ele matou. Em sua segunda jornada para Zork, em Zork: Grand Inquisitor, você deve encontrar três objetos lendários que restaurarão toda a magia do reino e provocarão a queda do Grand Inquisidor Yannick, cujo objetivo é \"evitar a magia, evitar o surgimento da magia, evitar tudo e em seguida evitar a existência do evitável\".\n\nA equipe ScummVM tem o orgulho em anunciar que [*Zork Nemesis: The Forbidden Lands*](http://www.mobygames.com/game/windows/zork-nemesis-the-forbidden-lands) e [*Zork: Grand Inquisitor*](http://www.mobygames.com/game/windows/zork-grand-inquisitor) agora pode ser jogados no ScummVM usando as mais recentes [compilações diárias](/downloads/#daily) e prontos para testes. Como sempre, todos os erros devem ser relatados ao [rastreador de erros](http://bugs.scummvm.org/) seguindo nossas [diretrizes de envio de erros](/faq/#question.report-bugs). Enquanto você joga os dois jogos, também gostaríamos que você pudesse fazer algumas [capturas de tela](http://wiki.scummvm.org/index.php/Screenshots) para nós.\n\nEntão, pegue seus discos de jogo e ajude a testar! Se você ainda não possui os jogos, eles podem ser comprados on-line no GOG.com:\n\n*   [*Zork Nemesis: The Forbidden Lands* - página de compra do GOG.com](http://www.gog.com/game/zork_nemesis_the_forbidden_lands?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)\n*   [*Zork: Grand Inquisitor* - página de compra do GOG.com](http://www.gog.com/game/zork_grand_inquisitor?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)"
     },
     "20150330": {
-        "title": "",
-        "content": ""
+        "title": "Prepare-se para a Troca de Gênero",
+        "content": "Rex Nebular, o presente de Deus para a galáxia, foi preso em um planeta onde ele estava tentando localizar para recuperar um vaso valioso. Para escapar, ele terá que usar o infame Trocador de Gênero para entrar em contato com seu lado feminino e localizar com sucesso o vaso e uma maneira de escapar do planeta.\n\nA Equipe ScummVM tem orgulho de anunciar o suporte à [*Rex Nebular and the Cosmic Gender Bender*] (http://en.wikipedia.org/wiki/Rex_Nebular_and_the_Cosmic_Gender_Bender), o primeiro jogo do MADS escrito por Microprose. Agora ele pode ser jogado no ScummVM utiliando as mais recentes [compilações diárias](/downloads/#daily) e pronto para testes. Como sempre, todos os erros devem ser relatados ao [nosso rastreador de erros](http://bugs.scummvm.org/) seguindo nossas [diretrizes de envio de erros](/faq/#question.report-bugs). Enquanto você joga o jogo, também gostaríamos que você pudesse tirar algumas [capturas de tela](http://wiki.scummvm.org/index.php/Screenshots) para nós.\n\nPortanto, tire o pó da sua cópia e experimente. Se você ainda não possui o jogo, ele pode ser comprado on-line em [GOG.com](http://www.gog.com/game/rex_nebular_and_the_cosmic_gender_bender?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)."
     },
     "20150913": {
-        "title": "",
-        "content": ""
+        "title": "Elementar, meu caro Watson",
+        "content": "Sherlock Holmes, o maior detetive de todos os tempos, tem um par de casos intrigantes para resolver. Em primeiro lugar, um assassinato horrível fora de um teatro. A polícia não tem idéia de quem foi. Poderia ser o trabalho do notório assassino, Jack, o Estripador? Então, no segundo caso, seu irmão Mycroft quase morreu em uma explosão. Nesse caso, você interpretará inicialmente Watson, que tenta tirar Sherlock de seu desespero, e depois como Sherlock, enquanto ele tenta entender por que Mycroft foi atacado e por que ele o chamou pouco antes da explosão.\n\nA Equipe ScummVM tem o orgulho de anunciar o suporte para os dois jogos do [*The Lost Files of Sherlock Holmes*](https://en.wikipedia.org/wiki/The_Lost_Files_of_Sherlock_Holmes).. The Case of the Serrated Scalpel, e The Rose Tattoo. Muito obrigado à Electronic Arts, por nos permitir acessar os códigos fonte originais. Os dois jogos agora podem ser jogados no ScummVM utilizando as mais recentes [compilações diárias](/downloads/#daily) e prontos para teste. Para Serrated Scalpel, atualmente apenas a versão para PC é suportada. A versão 3DO é mais jogável, mas ainda precisa de mais trabalho. Como sempre, todos os erros devem ser relatados ao [nosso rastreador de erros](http://bugs.scummvm.org/) seguindo nossas [diretrizes de envio de erros](/faq/#question.report-bugs). Enquanto você joga, também gostaríamos que você pudesse tirar algumas [capturas de tela](http://wiki.scummvm.org/index.php/Screenshots) para nós.\n\nEntão, jogue e veja se você está disposto a assumir o lugar de Sherlock Holmes. O jogo é à pé. Ou neste caso, à jogo :)"
     },
     "20151111": {
-        "title": "",
-        "content": ""
+        "title": "Eu sou o grande Cornholio! Eu preciso de Titicaca pra minha bunda!",
+        "content": "Vinte anos após seu lançamento original, estamos muito orgulhosos em anunciar hoje o suporte à *Beavis and Butthead in Virtual Stupidity* da MTV. Aceite o desafio desses anti-heróis dos anos 90 e ajude-os a encontrar o caminho em uma aventura cheia de quebra-cabeças e minijogos.\n\nPortanto, obtenha a versão mais recente da [compilação diária do ScummVM](/downloads/#daily) e sua versão do jogo e experimente o BBVS! Por favor, publique quaisquer erros e versões não reconhecidas que você puder encontrar em nosso [rastreador de erros](http://bugs.scummvm.org/), seguindo as [diretrizes de envio de erros](/faq/#question.report-bugs).\n\nComo de costume, se você encontrar locais interessantes, estamos interessados em suas [capturas de tela](http://wiki.scummvm.org/index.php/Screenshots)."
     },
     "20151122": {
-        "title": "",
-        "content": ""
+        "title": "Acesse um mundo de Amazonas",
+        "content": "O ano é 1957. Você é Jason Roberts. Você está preparando uma expedição para ajudar seu irmão desaparecido na terra das Amazonas e, eventualmente, procurar um tesouro perdido.\n\nA equipe ScummVM tem o orgulho de anunciar que [Amazon: Guardians of Eden](http://www.mobygames.com/game/dos/amazon-guardians-of-eden) agora pode ser jogado no ScummVM utilizando as mais recentes [compilações diárias](/downloads/#daily) e está pronto para testes.\n\nPor favor, reporte todos os erros e versões desconhecidas que você encontrar em nosso [rastreador de erros](http://bugs.scummvm.org/), seguindo nossas [diretrizes de envio de erros](/faq/#question.report-bugs). Quaisquer [capturas de tela](http://wiki.scummvm.org/index.php/Screenshots) de seu jogo são bem-vindas.\n\nVocê não tem este jogo, mas ainda quer nos ajudar? Existe sim uma maneira! Faltam capturas de tela para mais de uma dúzia de jogos! Dê uma olhada na [lista de capturas de tela ausentes](http://wiki.scummvm.org/index.php/Screenshots#List_of_screenshots_we_need), pegue seus originais e imortalize suas cenas favoritas!"
     },
     "20151206": {
-        "title": "",
-        "content": ""
+        "title": "Outro Broken Sword por Fãs para Fãs",
+        "content": "Os Templários estão de volta neste jogo feito por fãs da série Broken Sword! George volta para descobrir a origem de uma carta misteriosa que recebeu sobre a morte de Nico e descobrir o paradeiro dos Templários modernos mais uma vez...\n\nA equipe ScummVM tem o orgulho de anunciar que o jogo Broken Sword 2.5: The Return of the Templars agora pode ser jogado no ScummVM utilizando as [compilações diárias mais recentes](/downloads/#daily) e está pronto para testes.\n\nPor favor, reporte todos os erros e versões desconhecidas que você encontra em nosso [rastreador de erros](http://bugs.scummvm.org/), seguindo nossas [diretrizes de envio de erros](/faq/#question.report-bugs). Quaisquer [capturas de tela](http://wiki.scummvm.org/index.php/Screenshots) de seu jogo são bem-vindas como sempre.\n\nMuito obrigado à maravilhosa [equipe mindFactory](http://brokensword25.com/team/mitglieder.htm) que criou esta ótima sequência e compartilhou o código fonte original conosco! O jogo pode ser encontrado gratuitamente [aqui](http://brokensword25.com/)."
     },
     "20160119": {
-        "title": "",
-        "content": ""
+        "title": "Nova casa para o nosso site principal",
+        "content": "Nós temos utilizado o SourceForge.net há muitos anos. Foi a primeira casa do nosso projeto e nos serviu muito bem. No entanto, tivemos que seguir em frente e estávamos procurando um novo lar. No ano passado, Florian Schicker, CEO da [easyname GmbH](http://easyname.com), nos abordou com a emocionante proposta de doar um servidor e hospedá-lo em seu Data Center. E o que o torna tão especial é que eles estão fazendo isso \"porque são grandes fãs dos bons e velhos jogos ao estilo scumm\"! Vá, dê uma olhada na [página da equipe da empresa nesse sentimento chocante de fantasia](http://www.easyname.com/en/company/team)! Uma proposta realmente generosa e completamente inesperada.\n\nAssim, estamos nos movendo. Primeiro, mudamos o site principal e os downloads, e você provavelmente já percebeu o aumento de velocidade graças ao novo serviço. Também nos despedimos dos anúncios durante os downloads, pois eles foram fornecidos pelo SourceForge.net. Os únicos anúncios que serão associados a este projeto a partir de agora são os que queremos fazer sozinhos (e que, obviamente, inclui easyname.com, veja seu belo logotipo no painel direito). Eventualmente, moveremos mais serviços para o novo servidor e, talvez, até o estenderemos com algo novo.\n\nEntão, junte-se a nós na alegria de um novo lar!"
     },
     "20160123": {
-        "title": "",
-        "content": ""
+        "title": "O labirinto deve ser destruído!",
+        "content": "Enquanto está a bordo do metrô, seu vagão é sugado para uma dimensão alternativa, um labirinto que abrange o espaço-tempo contínuo. Seu criador, Daedalus, é forçado a supervisionar sua construção pelo malvado rei Minos, que quer usá-lo para invadir e conquistar todos os tempos e lugares. Daedalus pede que o jogador encontre uma maneira de destruir o labirinto antes que Minos possa completar sua conquista.\n\nA equipe do ScummVM tem o orgulho de anunciar que o *Labyrinth of Time* agora pode ser jogado no ScummVM usando as [compilações diárias mais recentes](/downloads/#daily) e está pronto para testes.\n\nPor favor, reporte todos os erros e versões desconhecidas que você encontrar em nosso [rastreador de erros](http://bugs.scummvm.org/), seguindo nossas [diretrizes de envio de erros](/faq/#question.report-bugs). Quaisquer [capturas de tela](http://wiki.scummvm.org/index.php/Screenshots) de seu jogo são bem-vindas como sempre.\n\nMuito obrigado a [The Wyrmkeep Entertainment Co.](http://www.wyrmkeep.com/) por compartilhar o código fonte original do jogo conosco!"
     },
     "20160201": {
-        "title": "",
-        "content": ""
+        "title": "Iniciando testes com o ScummVM 1.8.0",
+        "content": "Após um longo intervalo, finalmente começamos os preparativos para o próximo lançamento, o ScummVM 1.8.0.\n\nO último ano e meio foi muito movimentado e adicionamos 10 (dez, zehn, dieci, dix, diez, десять) novos jogos:\n\n*   *Rex Nebular and the Cosmic Gender Bender*\n*   *Sfinx*\n*   *Zork Nemesis: The Forbidden Lands*\n*   *Zork: Grand Inquisitor*\n*   *The Lost Files of Sherlock Holmes: The Case of the Serrated Scalpel*\n*   *The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo*\n*   *Beavis and Butthead in Virtual Stupidity*\n*   *Amazon: Guardians of Eden*\n*   *Broken Sword 2.5: The Return of the Templars*\n*   *Labyrinth of Time*\n\nAlém disso, tivemos uma grande reescrita do código da engine AGI; portanto, todos os jogos AGI devem funcionar melhor, mas também podem ter erros novos e inesperados.\n\nDesta forma, precisamos da sua ajuda para testar esses jogos, incluindo os baseados em AGI. Para sua conveniência, reunimos o que requer testes em [nosso wiki](http://wiki.scummvm.org/index.php/Release_Testing/1.8.0). Existem também alguns outros clássicos antigos nessa lista que poderiam ser usados novamente.\n\nVocê precisa obter uma [compilação diária](/downloads/#daily) do ScummVM e pode começar a ajudar imediatamente! Se encontrar algum erro, por favor relate-o em nosso [rastreador de erros](http://bugs.scummvm.org/). Após concluir um dos jogos, informe-nos nos [fóruns](http://forums.scummvm.org/viewtopic.php?t=14006) para que possamos marcar seu progresso no [wiki](http://wiki.scummvm.org/index.php/Release_Testing/1.8.0) e outros jogadores podem se concentrar em jogos não testados. Certifique-se de seguir nossas diretrizes para testes de versão, que podem ser encontradas [aqui](http://wiki.scummvm.org/index.php/Release_Testing).\n\nAlguns desses jogos também exigem [capturas de tela](http://wiki.scummvm.org/index.php/Screenshots), que você pode tirar ao longo do jogo.\n\nBoas aventuras (em modo de teste)!"
     },
     "20160301": {
         "title": "Bem-vindo ao novo Summer of Code",
@@ -1304,7 +1304,7 @@
         "content": "Parece que o trabalho de limpeza e melhorias na integração do Ultima VIII foi além do que eu havia previsto. Agora está confirmado que Ultima VIII pode ser jogado do começo ao fim no ScummVM também, sendo assim ele se junta ao Ultima IV e Ultima VI para testes oficiais.\n\nEntão pegue sua cópia do Ultima VIII também e experimente! Você precisará de uma [compilação de desenvolvimento diária](https://buildbot.scummvm.org/builds.html). Como sempre, envie os relatos de erros para o nosso [rastreador de problemas](https://bugs.scummvm.org/)."
     },
     "20200622": {
-        "title": "Você está em um labirinto de pequenas passagens sinuosas, todas similares",
+        "title": "Você está em um labirinto de pequenas passagens curvadas, todas similares",
         "content": "Finalmente chegou a hora de anunciar o período oficial de testes para a engine Glk no ScummVM, para jogar jogos de ficção interativa (também conhecidos como aventuras em texto). Este é um conjunto de sub-engines para jogar jogos que utilizam os vários sistemas de autoria lançados ao longo dos anos. No momento, as seguintes sub-engines estão entrando no modo de teste oficial:\nADRIFT (exceto para a versão 5)\nAdvSys\nAGT\nAlan 2 e 3\nArchetype (recentemente reimplementado para Glk a partir da fonte original em Pascal)\nHugo\nJACL\nLevel 9\nMagnetic Scrolls\nQuest\nScott Adams\nZCode (todos os jogos ZCode, exceto os jogos gráficos da versão 6 da Infocom)\n\nOutras sub-engines, como Comprehend, TADS e Quill, provavelmente serão incluídas no futuro. Portanto, aqueles que são fãs dos clássicos da literatura, espanem seus clássicos favoritos e se preparem para poder jogá-los novamente. Você precisará de uma [compilação diária de desenvolvimento](https://buildbot.scummvm.org/builds.html). Como sempre, envie os relatórios de erros ao nosso [rastreador de problemas](https://bugs.scummvm.org/)."
     }
 }
