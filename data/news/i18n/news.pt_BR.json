@@ -968,24 +968,24 @@
         "content": ""
     },
     "20131105": {
-        "title": "",
-        "content": ""
+        "title": "Wintermute está chegando, prepare-se para os testes",
+        "content": "A engine Wintermute está em funcionamento no ScummVM há pouco mais de um ano e foi ficando cada vez mais madura, a ponto de acharmos que está chegando quase pronta para o lançamento.\n\nComo a quantidade de jogos envolvidos é bastante grande, adoraríamos obter ajuda com uma rodada de testes antes de verificar se a engine está pronta para o próximo lançamento. Assim, selecionamos semi-arbitrariamente um conjunto de jogos Wintermute que se beneficiariam de alguns testes e esperamos que alguns de nossos maravilhosos usuários estejam dispostos a dar uma volta.\n\nSe você estiver interessado, acesse o nosso [tópico de testes do WME](http://forums.scummvm.org/viewtopic.php?t=13062)."
     },
     "20131202": {
-        "title": "",
-        "content": ""
+        "title": "Ação de Graças com um Anel.",
+        "content": "\"Eles disseram que isso nunca seria feito. Eles estavam errados.\" Após um pequeno intervalo no início do ano, o trabalho finalmente terminou em nosso próximo jogo da engine TsAGE, Return to Ringworld. O único trabalho restante ainda em andamento é um jogo de cartas disponível nos consoles do jogo e não tem relação com a história principal.\n\nEsta é uma sequência direta do jogo original do Ringworld. Depois de salvar a raça dos marionetistas do extermínio e descobrir uma poderosa tecnologia antiga no primeiro jogo, Quinn, Buscador de Vingança e Miranda Rees são procuradas como fugitivos pelas três espécies principais, então eles planejam ir para Ringworld para se esconder. Mas acontece que o navio deles sofreu problemas. E consertá-los e chegar ao Ringworld será apenas o começo de seus problemas.\n\nA equipe do ScummVM tem o orgulho em anunciar que [Return to Ringworld](http://www.mobygames.com/game/dos/return-to-ringworld) agora pode ser jogado no ScummVM utilizando as mais recentes [compilações diária](/downloads/#daily) e pronto para testes. Como sempre, todos os erros devem ser relatados ao [nosso rastreador de erros](http://bugs.scummvm.org/) seguindo nossas [diretrizes de envio de erros](/faq/#question.report-bugs). Enquanto você joga, também gostaríamos que você pudesse tirar algumas [capturas de tela](http://wiki.scummvm.org/index.php/Screenshots) para nós."
     },
     "20131227": {
-        "title": "",
-        "content": ""
+        "title": "The Neverhood chega ao ScummVM!",
+        "content": "O Neverhood precisa de você! Klaymen, nosso herói, acorda no prédio em um mundo estranhamente vazio de Neverhood. Cabe a você explorar e descobrir o que aconteceu com o mundo maluco de barro de Neverhood.\n\nA equipe do ScummVM tem o orgulho de anunciar que [The Neverhood](http://www.mobygames.com/game/windows/neverhood) agora pode ser jogado no ScummVM utilizando as mais recentes [compilações diárias](/downloads/#daily) e pronto para testes. Como sempre, todos os erros devem ser relatados ao [nosso rastreador de erros](http://bugs.scummvm.org/) seguindo nossas [diretrizes de envio de erros](/faq/#question.report-bugs). Enquanto você joga, também gostaríamos que você pudesse tirar algumas [capturas de tela](http://wiki.scummvm.org/index.php/Screenshots) para nós."
     },
     "20140112": {
-        "title": "",
-        "content": ""
+        "title": "Chivalry NÃO está Morto!",
+        "content": "O Senhor Horrível enviou você em uma missão para matar a Rainha de Tudo, desempenhando o papel do horrivelmente desfigurado Phlegmwad, você terá a chance de escolher como (não?) cumprir essa missão de proporções épicas.\n\nCom a grande ajuda do desenvolvedor de jogos Deirdra Kiai e do desenvolvedor de Wintermute Jan Nedoma, a equipe ScummVM tem o prazer de anunciar o suporte para o nosso primeiro jogo de Wintermute: [*Chivalry is Not Dead*](http://www.deirdrakiai.com/my-games/). Portanto, faça o download de uma cópia do jogo e comece a jogar na [mais recente compilação diária](/downloads/#daily) do ScummVM e ajude-nos a testar este jogo aberto.\n\nQuantos finais você consegue encontrar?\n\nComo sempre, todos os erros devem ser relatados ao [nosso rastreador de erros](http://bugs.scummvm.org/milestone/Wintermute/). Você pode encontrar uma lista de arquivos de dados na [página de arquivos de dados](http://wiki.scummvm.org/index.php/Datafiles#Chivalry_is_Not_Dead) em nosso wiki. Destaca-se a necessidade de uma cópia da fonte arial.ttf (ou uma substituição semelhante, por exemplo, FreeSans do [GNU FreeFont](http://www.gnu.org/software/freefont/).) Para obter mais informações, consulte as [diretrizes de envio de erros](/faq/#question.report-bugs)."
     },
     "20140118": {
-        "title": "",
-        "content": ""
+        "title": "Bem-vindo à Mansão Mortville",
+        "content": "Você é Jerome Lange, um detetive particular do clone de Bogart que recebeu um convite de um velho amigo para se juntar a ele na Mansão Mortville para ajudar em uma situação desesperadora. Com um nome como Mortville, você pode supor que algo está seriamente errado e, sim, você está certo. Sua velha amiga Julia já partiu para Deadsville.\n\nEntão ... Quem fez isso?\n\nCom base nas fontes fornecidas por DotEmu e pelos fundadores e desenvolvedores de Lankhor, a Equipe ScummVM tem o prazer de anunciar o suporte ao Jogo do Ano da França em 1987: [*Mortville Manor*](http://www.mobygames.com/game/dos/mortville-manor). Somente as versões do DOS são suportadas e o ScummVM está trazendo para você a primeira tradução do inglês para o DOS. Portanto, pegue seu disco e copie os arquivos e comece a jogar usando a [mais recente compilação diária](/downloads/#daily) do ScummVM e ajude-nos a testá-lo.\n\nComo sempre, todos os erros devem ser reportados ao [nosso rastreador de erros](http://bugs.scummvm.org/milestone/Mortville%20Manor/) seguindo nossas [diretrizes de envio de erros](/faq/#question.report-bugs) . Enquanto você joga, também gostaríamos que você pudesse tirar algumas [capturas de tela](http://wiki.scummvm.org/index.php/Screenshots) para nós."
     },
     "20140225": {
         "title": "Vamos receber os estudantes do GSoC",
