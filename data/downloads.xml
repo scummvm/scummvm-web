@@ -224,12 +224,14 @@
 					<name>PlayStation Vita package</name>
 					<user_agent>PlayStation Portable</user_agent>
 				</file>
+<!--
 				<file>
 					<category_icon>android</category_icon>
 					<url>https://play.google.com/store/apps/details?id=org.scummvm.scummvm</url>
 					<name>Android package at Google Play Store</name>
 					<user_agent>Android</user_agent>
 				</file>
+-->
 				<file>
 					<category_icon>android</category_icon>
 					<url>scummvm-{$release}-android-armeabi.apk</url>
@@ -663,6 +665,13 @@
 					<category_icon>irix</category_icon>
 					<url>2.1.0/scummvm-2.1.0-irix-mips4.tar.gz</url>
 					<name>2.1.0 IRIX (6.5.*, n32, mips4) package</name>
+				</file>
+
+				<file>
+					<category_icon>android</category_icon>
+					<url>https://play.google.com/store/apps/details?id=org.scummvm.scummvm</url>
+					<name>2.0.0 Android package at Google Play Store</name>
+					<user_agent>Android</user_agent>
 				</file>
 
 				<file>
