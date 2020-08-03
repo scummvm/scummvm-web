@@ -66,7 +66,7 @@ class Controller
         }
 
         // Construct lang URL
-        $pageurl = preg_replace('/\?lang=[a-z]*$/', '', $_SERVER['REQUEST_URI']);
+        $pageurl = preg_replace('/\?lang=[a-zA-Z_]*$/', '', $_SERVER['REQUEST_URI']);
 
         /* Set up the common variables before displaying. */
         $vars = array(
