@@ -21,7 +21,7 @@ class I18N
         $config = \HTMLPurifier_Config::createDefault();
         $this->purifier = new \HTMLPurifier($config);
 
-        $langs = ['en', 'it', 'fr', 'ru', 'de', 'es', 'el'];
+        $langs = ['en', 'it', 'fr', 'ru', 'de', 'es', 'pt_BR', 'el'];
         foreach ($langs as $key => $value) {
             $this->convertLanguageJsonToSmartyIni('lang.' . $value);
             $this->updateNewsI18n($value);
