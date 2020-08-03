@@ -14,7 +14,7 @@ $available_languages = array(
   'fr' => 'Français',
   'it' => 'Italiano',
   'es' => 'Español',
-  'pt_BR' => 'Portuguêsdo Brasil',
+  'pt_BR' => 'Português do Brasil',
   'ru' => 'Русский',
   'el' => 'Ελληνικά'
 );
