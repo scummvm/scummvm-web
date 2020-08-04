@@ -154,7 +154,7 @@
     "listItemsBuildFromRepo": "compilações do repositório,",
     "listItemsDate": ", última atualização:",
     "newsTitle": "Início",
-    "newsContentTitle": "Últimos Desenvolvimentos",
+    "newsContentTitle": "Publicações Mais Recentes",
     "newsPostedBy": "Publicado por",
     "newsMoreNews": "Mais Notícias...",
     "pressTitle": "Cobertura da Imprensa",
@@ -200,7 +200,7 @@
     "menuDevelopmentDailies": "Instantâneos Diários",
     "menuDevelopmentSourceCode": "Árvore do Código Fonte",
     "menuDevelopmentBuildbot": "Bot de Compilação",
-    "menuHeaderMisc": "Menu de Diversos",
+    "menuHeaderMisc": "Diversos",
     "menuMiscSubprojects": "Subprojetos",
     "menuMiscDemos": "Demonstrações",
     "menuMiscPress": "Cobertura da Imprensa",
@@ -209,5 +209,9 @@
     "downloadsOldBinariesFrsNote3": " para encontrar todas os lançamentos anteriores.",
     "downloadsOldBinariesFrsNote2": "navegar em nosso servidor",
     "downloadsOldBinariesFrsNote1": "Você pode também ",
-    "downloadsBinariesNote212Maintenance": "Este é um lançamento de manutenção para Windows e macOS somente."
+    "downloadsBinariesNote212Maintenance": "Este é um lançamento de manutenção para Windows e macOS somente.",
+    "sponsorsIntro": "As seguintes empresas tiveram a gentileza de prestar assistência ao projeto ScummVM",
+    "sponsorsHeading": "Patrocinadores do ScummVM",
+    "sponsorsContentTitle": "Patrocinadores",
+    "sponsorsTitle": "Patrocinadores"
 }
