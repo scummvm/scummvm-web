@@ -209,5 +209,9 @@
     "downloadsOldBinariesFrsNote3": " um alle bisher veröffentlichten Versionen zu finden.",
     "downloadsOldBinariesFrsNote2": "unseren Server besuchen,",
     "downloadsOldBinariesFrsNote1": "Zusätzlich kannst Du ",
-    "downloadsBinariesNote212Maintenance": "Dieses Wartungs-Release wird ausschließlich für Windows und macOS bereitgestellt."
+    "downloadsBinariesNote212Maintenance": "Dieses Wartungs-Release wird ausschließlich für Windows und macOS bereitgestellt.",
+    "sponsorsIntro": "Das ScummVM-Projekt wird durch folgende Unternehmen großzügig unterstützt",
+    "sponsorsHeading": "Unterstützer von ScummVM",
+    "sponsorsContentTitle": "Sponsoren",
+    "sponsorsTitle": "Sponsoren"
 }
