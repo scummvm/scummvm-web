@@ -209,5 +209,9 @@
     "downloadsOldBinariesFrsNote3": " si buscas las versiones antiguas.",
     "downloadsOldBinariesFrsNote2": "explorar nuestro servidor",
     "downloadsOldBinariesFrsNote1": "Puedes ",
-    "downloadsBinariesNote212Maintenance": "Esta es una versión de mantenimiento exclusiva para Windows y macOS."
+    "downloadsBinariesNote212Maintenance": "Esta es una versión de mantenimiento exclusiva para Windows y macOS.",
+    "sponsorsIntro": "Estas empresas han tenido la gentileza de prestar ayuda al proyecto ScummVM",
+    "sponsorsHeading": "Patrocinadores de ScummVM",
+    "sponsorsContentTitle": "Patrocinadores",
+    "sponsorsTitle": "Patrocinadores"
 }
