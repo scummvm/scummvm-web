@@ -49,7 +49,7 @@ groups:
   - name: "{#menuHeaderMisc#}"
     class: "menu-misc"
     links:
-      - name: "Sponsors"
+      - name: "{#menuMiscSponsors#}"
         href: "/sponsors/"
       - name: "{#menuMiscSubprojects#}"
         href: "/subprojects/"
