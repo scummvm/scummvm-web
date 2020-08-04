@@ -55,27 +55,27 @@ class I18N
             echo("Converting " . DIR_NEWS . "/i18n/news.{$lang}.json to individual Markdown files\n");
             $i18n = json_decode(file_get_contents(DIR_NEWS . "/i18n/news.{$lang}.json"));
 
-            foreach ($i18n as $key => $value) {
-                $object = YamlFrontMatter::parse(file_get_contents(DIR_NEWS . "/{$key}.markdown"));
+            foreach ($i18n as $key => $translatedArticle) {
+                $englishArticle = YamlFrontMatter::parse(file_get_contents(DIR_NEWS . "/{$key}.markdown"));
 
-                $date = $this->purifier->purify($object->date);
-                $author = $this->purifier->purify($object->author);
-                if (array_key_exists('content', $value)) {
-                  $title = $this->purifier->purify(str_replace('"', '\"', $value->title));
+                $date = $this->purifier->purify($englishArticle->date);
+                $author = $this->purifier->purify($englishArticle->author);
+                if (array_key_exists('title', $translatedArticle) && $translatedArticle->title) {
+                  $title = $this->purifier->purify(str_replace('"', '\"', $translatedArticle->title));
                 } else {
-                  $title = $this->purifier->purify(str_replace('"', '\"', $object->title));
+                  $title = $this->purifier->purify(str_replace('"', '\"', $englishArticle->title));
                 }
-                if (array_key_exists('content', $value)) {
-                  $content = $this->purifier->purify(trim($value->content));
+                if (array_key_exists('content', $translatedArticle) && $translatedArticle->content) {
+                  $content = $this->purifier->purify(trim($translatedArticle->content));
                 } else {
-                  $content = $this->purifier->purify(trim($object->content));
+                  $content = $this->purifier->purify(trim($englishArticle->body()));
                 }
 
                 if ($lang === 'fr') {
                     $content = preg_replace_callback("/(?<=\(http)(.*?)(?=\))/u",
-                    function($matches) {                        
+                    function($matches) {
                         return preg_replace("/\x{202f}/u", "", $matches[1]);
-                    }, $content);                    
+                    }, $content);
                 }
 
                 $yaml = "---\ntitle: \"$title\"\ndate: $date\nauthor: $author\n---\n\n$content\n";
@@ -118,8 +118,8 @@ class I18N
                 continue;
             }
             $key = rtrim($filename, ".markdown");
-            $object = YamlFrontMatter::parse($data);
-            $news[$key] = array('title' => $object->title, 'content' => trim($object->body()));
+            $article = YamlFrontMatter::parse($data);
+            $news[$key] = array('title' => $article->title, 'content' => trim($article->body()));
         }
         return $news;
     }
