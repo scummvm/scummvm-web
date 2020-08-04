@@ -1,6 +1,6 @@
 .card {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
@@ -15,9 +15,13 @@
     box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
   }
   .image {
-    align-self: flex-end;
+    display: flex;
+    flex: 1;
+    align-items: center;
     & img {
       max-width: 100%;
+      height: auto;
+      max-height: 250px;
       &.pixelated {
         image-rendering: pixelated;
       }
@@ -25,7 +29,9 @@
   }
 
   .caption {
-    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    height: 10%;
   }
 
   &.sponsor {
