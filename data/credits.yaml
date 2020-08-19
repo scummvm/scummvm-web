@@ -376,6 +376,21 @@ credits:
           alias: "spalek"
           description: ""
       -
+        name: "Dragons"
+        person:
+        -
+          name: "Eric Fry"
+          alias: "yuv422"
+          description: ""
+        -
+          name: "Benjamin Haisch"
+          alias: "john_doe"
+          description: "Actor pathfinding"
+        -
+          name: "&Aacute;ngel Eduardo Garc&iacute;a Hern&aacute;ndez"
+          alias: "arcnor"
+          description: "Help with reverse engineering"
+      -
         name: "Drascula"
         person:
         -
