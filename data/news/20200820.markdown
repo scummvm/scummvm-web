@@ -1,0 +1,17 @@
+---
+title: "Blazing Dragons Set ScummVM Aflame"
+author: Yuv422
+date: 1597927194
+---
+
+After many months of development Blazing Dragons is now ready for public testing.
+
+Join young dragon Flicker as he attempts to win the hand of Princess Flame and save Camelhot along the way.
+
+This is a rather odd Point and Click game as it was only released on Consoles.
+ScummVM's new Dragons engine allows you to run the Playstation version of this somewhat forgotten title. Throw away that PS1 controller and enjoy the game with a mouse/keyboard interface. We've also taken out all the annoying loading screens.
+
+Only the US and GB Playstation 1 versions are supported at the moment.
+
+You will need a [daily development build](https://buildbot.scummvm.org/builds.html). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/).
+
