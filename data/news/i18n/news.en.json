@@ -1310,5 +1310,9 @@
     "20200817": {
         "title": "Welcome to our new Technical Writers!",
         "content": "![GSoD Logo](/data/news/GSoD2020Logo.png)\n\nThe ScummVM team is excited to welcome CadiH and b-gent, our talented technical writers and participants of Google’s Season of Docs.\n\nCadiH will be working with us to launch a new documentation portal, which will include a revamped user manual and centralize our diaspora of information from the Wiki, Readme, and various other docs within our repository. \n\nb-gent brings his expertise and experience to help us modernize our Doxygen documentation. The Doxygen portal has long been neglected, this will benefit our developers and community as a whole.\n\nThe work will officially begin on September 14 and will last 3 months. You can follow the progress of our two writers on the [ScummVM Blogs](https://planet.scummvm.org) and in the scummvm-gdoc channel on [our Discord server](https://discord.gg/5D8yTtF). In the meantime join us in welcoming them to our community."
+    },
+    "20200820": {
+        "title": "Blazing Dragons Set ScummVM Aflame",
+        "content": "After many months of development Blazing Dragons is now ready for public testing.\n\nJoin young dragon Flicker as he attempts to win the hand of Princess Flame and save Camelhot along the way.\n\nThis is a rather odd Point and Click game as it was only released on Consoles.\nScummVM's new Dragons engine allows you to run the Playstation version of this somewhat forgotten title. Throw away that PS1 controller and enjoy the game with a mouse/keyboard interface. We've also taken out all the annoying loading screens.\n\nOnly the US and GB Playstation 1 versions are supported at the moment.\n\nYou will need a [daily development build](https://buildbot.scummvm.org/builds.html). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/)."
     }
 }
