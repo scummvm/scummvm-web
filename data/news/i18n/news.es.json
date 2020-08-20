@@ -177,7 +177,7 @@
     },
     "20031212": {
         "title": "ScummVM ha muerto, leed este mensaje, por favor.",
-        "content": ""
+        "content": "Aunque sabemos que se acerca el fin del año, nos entristece anunciar que el proyecto ScummVM va a cerrar por motivos personales por parte de la mayoría de los desarrolladores. Algunos de los visitantes de nuestro foro, como timofonic, llevaban un tiempo sospechándolo, y, por desgracia, einheitlix me ha suplicado que diga la verdad.\n\nHa sido un gran viaje y teníamos cosas maravillosas en camino, como un juego nuevo que pretendíamos liberar en formato freeware para nuestra próxima versión y el anuncio de que la finalización del soporte para Full Throttle, algo muy solicitado, estaba por llegar, aunque probablemente lo haría en la versión 0.7.0 y no en la 0.6.0... pero todo esto ya es irrelevante.\n\nPretendía retrasar el anuncio hasta que pasaran las fiestas, pero como no es más que un bulo para ver cuántas personas leen de verdad nuestra página de noticias prestando atención, he decidido publicarlo ahora.\n\n***Resumiendo en caso de que algunos se hayan saltado el último párrafo: NO estamos muertos. Estamos vivitos y coleando, ¡y a principios del año que viene os traeremos cosas muy chulas!***\n\n(el enlace no tan bien escondido... ¡Echad un ojo a lo que traerá la [próxima versión!](https://github.com/scummvm/scummvm/raw/84247d9797ecee43205a5f64c1d5f555e8c69f3d/NEWS))"
     },
     "20031225": {
         "title": "",
@@ -1314,5 +1314,9 @@
     "20200817": {
         "content": "![GSoD Logo](/data/news/GSoD2020Logo.png)\n\nAl equipo de ScummVM le complace dar la bienvenida a CadiH y a b-gent, nuestros prodigiosos escritores técnicos y participantes del Season of Docs de Google.\n\nCadiH trabajará con nosotros en la creación de un nuevo portal de documentación que incluirá una nueva versión del manual para usuarios y centralizará nuestra diáspora de información entre la wiki, el Léeme, y otros documentos de nuestro repositorio.\n\nb-gent ofrecerá su experiencia para ayudarnos a modernizar nuestra documentación en Doxygen. El portal Doxygen lleva mucho tiempo abandonado y esto beneficiará tanto a nuestros desarrolladores como a la comunidad en su conjunto.\n\nLos trabajaros comenzarán oficialmente el 14 de septiembre y tendrán una duración de tres meses. Podéis seguir los avances de nuestros dos escritores en los [blogs de ScummVM](https://planet.scummvm.org) y en el canal scummvm-gdoc de [nuestro servidor de Discord](https://discord.gg/5D8yTtF). Mientras tanto, uníos en nuestra bienvenida a la comunidad.",
         "title": "¡Demos la bienvenida a nuestros nuevos escritores técnicos!"
+    },
+    "20200820": {
+        "content": "Tras muchos meses de desarrollo, Blazing Dragons ya está listo para las pruebas públicas.\n\nUníos a Flicker, un joven dragón que pretende pedirle matrimonio a la princesa Flame y salvar a Camelhot por el camino.\n\nEste es un juego point-and-click un tanto extraño, ya que se publicó solo en consolas.\nEl nuevo motor Dragons de ScummVM os permitirá ejecutar la versión para PlayStation de este título un tanto olvidado. Mandad a paseo ese mando de PS1 y disfrutad del juego con una interfaz de teclado y ratón. También hemos quitado esas molestas pantallas de carga.\n\nActualmente las únicas versiones compatibles son la estadounidense y la británica para PlayStation 1.\n\nNecesitaréis una [compilación diaria de desarrollo](https://buildbot.scummvm.org/builds.html). Como siempre, os pedimos que enviéis vuestros informes de fallos a nuestro [gestor de fallos](https://bugs.scummvm.org/).",
+        "title": "Los Blazing Dragons dejan a ScummVM calentito"
     }
 }
