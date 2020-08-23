@@ -1525,24 +1525,24 @@
 					Game is completable<h:br />- DOS version is supported
 				</notes>
 			</game>
-      <game>
-        <name>Mission Supernova Teil 1: Das Schicksal des Horst Hummel</name>
-        <target>msn1</target>
-        <support_level>good</support_level>
-        <notes>
-          Game is completable
-        </notes>
-        <datafiles>Mission_Supernova_Part_1</datafiles>
-      </game>
-      <game>
-        <name>Mission Supernova Teil 2: Der Doppelg&auml;nger</name>
-        <target>msn2</target>
-        <support_level>good</support_level>
-        <notes>
-          Game is completable
-        </notes>
-        <datafiles>Mission_Supernova_Part_2</datafiles>
-      </game>
+			<game>
+				<name>Mission Supernova Teil 1: Das Schicksal des Horst Hummel</name>
+				<target>msn1</target>
+				<support_level>good</support_level>
+				<notes>
+				Game is completable
+				</notes>
+				<datafiles>Mission_Supernova_Part_1</datafiles>
+			</game>
+			<game>
+				<name>Mission Supernova Teil 2: Der Doppelg&auml;nger</name>
+				<target>msn2</target>
+				<support_level>good</support_level>
+				<notes>
+				Game is completable
+				</notes>
+				<datafiles>Mission_Supernova_Part_2</datafiles>
+			</game>
 			<game>
 				<name>Mortville Manor</name>
 				<target>mortevielle</target>
