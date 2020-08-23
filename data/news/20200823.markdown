@@ -4,8 +4,8 @@ author: sev
 date: 1598194019
 ---
 
-In 2008 Google Summer of Code we had Kari Salminen aka Buddha^ working on adding Operation Stealth game support. While it was an overall success, still certain important game features were missing. Now, 12 years later, Kari got time for completing his work.
+In 2008 Google Summer of Code we had Kari Salminen aka Buddha^ working on adding <i>Operation Stealth</i> game support. While it was an overall success, still certain important game features were missing. Now, 12 years later, Kari got time for completing his work.
 
-Thus, we are proudly announcing support for the Operation Stealth game also known as James Bond 007: The Stealth Affair in the US release.
+Thus, we are proudly announcing support for the <i>Operation Stealth</i> game also known as <i>James Bond 007: The Stealth Affair</i> in the US release.
 
-Grab your copy of the game, fetch the [daily build](https://buildbot.scummvm.org/builds.html) of ScummVM and give it a go. If you encounter any oddities or bugs, please submit to our [bug tracker](https://bugs.scummvm.org/)).
+Grab your copy of the game, fetch the [daily build](https://buildbot.scummvm.org/builds.html) of ScummVM and give it a go. If you encounter any oddities or bugs, please submit to our [bug tracker](https://bugs.scummvm.org/).
