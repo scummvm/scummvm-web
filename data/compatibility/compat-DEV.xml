@@ -1266,6 +1266,15 @@
 				</notes>
 			</game>
 			<game>
+				<name>Blazing Dragons</name>
+				<target>dragons</target>
+				<support_level>good</support_level>
+				<datafiles>Blazing_Dragons</datafiles>
+				<notes>
+					Game is completable<h:br />- PSX US, GB, DE and FR versions are supported by this target.
+				</notes>
+			</game>
+			<game>
 				<name>Blue Force</name>
 				<target>blueforce</target>
 				<support_level>good</support_level>
