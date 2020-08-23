@@ -1314,5 +1314,9 @@
     "20200820": {
         "title": "Blazing Dragons Set ScummVM Aflame",
         "content": "After many months of development Blazing Dragons is now ready for public testing.\n\nJoin young dragon Flicker as he attempts to win the hand of Princess Flame and save Camelhot along the way.\n\nThis is a rather odd Point and Click game as it was only released on Consoles.\nScummVM's new Dragons engine allows you to run the Playstation version of this somewhat forgotten title. Throw away that PS1 controller and enjoy the game with a mouse/keyboard interface. We've also taken out all the annoying loading screens.\n\nOnly the US and GB Playstation 1 versions are supported at the moment.\n\nYou will need a [daily development build](https://buildbot.scummvm.org/builds.html). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/)."
+    },
+    "20200823": {
+        "title": "A Stealthy ScummVM Operation",
+        "content": "In 2008 Google Summer of Code we had Kari Salminen aka Buddha^ working on adding Operation Stealth game support. While it was an overall success, still certain important game features were missing. Now, 12 years later, Kari got time for completing his work.\n\nThus, we are proudly announcing support for the Operation Stealth game also known as James Bond 007: The Stealth Affair in the US release.\n\nGrab your copy of the game, fetch the [daily build](https://buildbot.scummvm.org/builds.html) of ScummVM and give it a go. If you encounter any oddities or bugs, please submit to our [bug tracker](https://bugs.scummvm.org/))."
     }
 }
