@@ -1580,6 +1580,15 @@
 				</notes>
 			</game>
 			<game>
+				<name>Operation Stealth</name>
+				<target>os</target>
+				<support_level>good</support_level>
+				<datafiles>Operation_Stealth</datafiles>
+				<notes>
+					Game is completable<h:br />- Amiga, Atari and DOS versions are supported by this target.
+				</notes>
+			</game>
+			<game>
 				<name>Plumbers Don't Wear Ties</name>
 				<target>plumbers</target>
 				<support_level>good</support_level>
