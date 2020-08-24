@@ -1017,6 +1017,12 @@ groups:
   - name: "Miscellaneous Demos"
     href: "other"
     demos:
+      - name: "Beavis and Butt-head in Virtual Stupidity (Windows Demo)"
+        url: "/frs/demos/bbvs/bbvs-demo.zip"
+        target: "bbvs"
+      - name: "Beavis and Butt-head in Virtual Stupidity (Windows Loogie Demo)"
+        url: "/frs/demos/bbvs/bbvs-demo-loogie.zip"
+        target: "bbvs"
       - name: "Beneath a Steel Sky (DOS CD Demo)"
         url: "/frs/demos/sky/sky-dos-v0365-cd-demo-en.zip"
         target: "sky"
