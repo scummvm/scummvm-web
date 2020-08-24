@@ -496,7 +496,7 @@
         "title": "Visibilidade na Mídia"
     },
     "20200823": {
-        "content": "Em 2008, o Google Summer of Code contou com Kari Salminen, também conhecido como Buddha^ trabalhando para adicionar o suporte ao jogo <i>Operação Stealth</i>. Embora tenha sido um grande sucesso, ainda faltavam alguns recursos importantes no jogo. Agora, 12 anos depois, Kari encontrou tempo para concluir seu trabalho.\n\nPortanto, estamos orgulhosamente anunciando o suporte ao jogo <i>Operation Stealth</i>, também conhecido como <i>James Bond 007: The Stealth Affair</i> em seu lançamento nos EUA.\n\nPegue sua cópia do jogo, baixe a [compilação diária](https://buildbot.scummvm.org/builds.html) do ScummVM e experimente. Se você encontrar alguma anomalia ou bug, envie para nosso [rastreador de erros](https://bugs.scummvm.org/).",
+        "content": "Em 2008, o Google Summer of Code contou com Kari Salminen, também conhecido como Buddha^ trabalhando para adicionar o suporte ao jogo <i>Operation Stealth</i>. Embora tenha sido um grande sucesso, ainda faltavam alguns recursos importantes no jogo. Agora, 12 anos depois, Kari encontrou tempo para concluir seu trabalho.\n\nPortanto, estamos orgulhosamente anunciando o suporte ao jogo <i>Operation Stealth</i>, também conhecido como <i>James Bond 007: The Stealth Affair</i> em seu lançamento nos EUA.\n\nPegue sua cópia do jogo, baixe a [compilação diária](https://buildbot.scummvm.org/builds.html) do ScummVM e experimente. Se você encontrar alguma anomalia ou bug, envie para nosso [rastreador de erros](https://bugs.scummvm.org/).",
         "title": "Uma Operação ScummVM Secreta"
     }
 }
