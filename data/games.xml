@@ -134,6 +134,18 @@
 		</subsection>
 
 		<subsection>
+			<title>The Griffon Legend</title>
+			<anchor>griffon</anchor>
+			<entries>
+				<file>
+					<category_icon>griffon</category_icon>
+					<url type="extras">Griffon Legend/griffon-1.0.zip</url>
+					<name>The Griffon Legend, Freeware Version</name>
+				</file>
+			</entries>
+		</subsection>
+
+		<subsection>
 			<title>Lure of the Temptress</title>
 			<anchor>lure</anchor>
 			<entries>
