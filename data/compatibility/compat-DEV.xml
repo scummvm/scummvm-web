@@ -1418,6 +1418,14 @@
 				</notes>
 			</game>
 			<game>
+				<name>The Griffon Legend</name>
+				<target>griffon</target>
+				<support_level>good</support_level>
+				<notes>
+					Game is completable
+				</notes>
+			</game>
+			<game>
 				<name>Hopkins FBI</name>
 				<target>hopkins</target>
 				<support_level>good</support_level>
