@@ -493,6 +493,13 @@ credits:
           alias: "sev"
           description: ""
       -
+        name: "Griffon"
+        person:
+        -
+          name: "Eugene Sandulenko"
+          alias: "sev"
+          description: ""
+      -
         name: "Groovie"
         person:
         -
