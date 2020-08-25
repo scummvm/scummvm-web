@@ -1318,5 +1318,9 @@
     "20200823": {
         "title": "A Stealthy ScummVM Operation",
         "content": "In 2008 Google Summer of Code we had Kari Salminen aka Buddha^ working on adding <i>Operation Stealth</i> game support. While it was an overall success, still certain important game features were missing. Now, 12 years later, Kari got time for completing his work.\n\nThus, we are proudly announcing support for the <i>Operation Stealth</i> game also known as <i>James Bond 007: The Stealth Affair</i> in the US release.\n\nGrab your copy of the game, fetch the [daily build](https://buildbot.scummvm.org/builds.html) of ScummVM and give it a go. If you encounter any oddities or bugs, please submit to our [bug tracker](https://bugs.scummvm.org/)."
+    },
+    "20200825": {
+        "title": "Are you ready for the Legend?",
+        "content": "ScummVM Team is proud to announce support for a small freeware RPG game named <i>The Griffon Legend</i>. It was [originally](http://syn9.thehideoutgames.com/index_backup.php) written in the FreeBASIC programming language by Daniel \"Syn9\" Kennedy and later ported by  Dmitry Smagin to the GCW0 console, which we base this port on.\n\nThe original story says:\n\n<pre>500 years after the Griffon-Dragon war, the Dragons have\nreturned to reclaim their empire. Cities are falling,\neveryone is dieing, and the lone Griffon Knight Fayne is\ncaught up in the middle of it all.</pre>\n\nSince the game is freeware, you may grab a copy directly from our game [downloads page](https://www.scummvm.org/games/) or from the [original site](http://syn9.thehideoutgames.com/index_backup.php?table=griffonlegend). You will need the latest [development build](https://buildbot.scummvm.org/builds.html) to play it. Of course, if you encounter any bugs, please submit them to [our bug tracker](https://bugs.scummvm.org/)."
     }
 }
