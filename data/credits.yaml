@@ -1849,6 +1849,10 @@ credits:
           name: "Steffen Nyeland"
           alias: ""
           description: ""
+        -
+          name: "???"
+          alias: "scootergrisen"
+          description: ""
       -
         name: "Dutch"
         person:
@@ -1863,12 +1867,20 @@ credits:
           name: "Toni Saarela"
           alias: "catnose"
           description: ""
+        -
+          name: "Timo Mikkolainen"
+          alias: "timpii"
+          description: ""
       -
         name: "French"
         person:
         -
           name: "Thierry Crozat"
           alias: "criezy"
+          description: ""
+        -
+          name: "???"
+          alias: "Purple T"
           description: ""
       -
         name: "Galician"
@@ -1889,6 +1901,13 @@ credits:
           alias: "lotharsm"
           description: ""
       -
+        name: "Greek"
+        person:
+        -
+          name: "Thanasis Antoniou"
+          alias: "Praetorian"
+          description: ""
+      -
         name: "Hungarian"
         person:
         -
@@ -1905,6 +1924,14 @@ credits:
         -
           name: "Matteo Angelino"
           alias: "Maff"
+          description: ""
+        -
+          name: "Paolo Bossi"
+          alias: ""
+          description: ""
+        -
+          name: "Walter Agazzi"
+          alias: "tag2015"
           description: ""
       -
         name: "Norwegian (Bokm&aring;l)"
@@ -1934,6 +1961,17 @@ credits:
           name: "ScummBR Team"
           alias: ""
           description: ""
+        -
+          name: "Marcel Souza Lemes"
+          alias: "marcosoutsider"
+          description: ""
+      -
+        name: "Portuguese"
+        person:
+        -
+          name: "Daniel"
+          alias: "SupSuper"
+          description: ""
       -
         name: "Russian"
         person:
@@ -1952,12 +1990,24 @@ credits:
           name: "Jordi Vilalta Prat"
           alias: "jvprat"
           description: ""
+        -
+          name: "???"
+          alias: "IlDucci"
+          description: ""
+        -
+          name: "Rodrigo Vegas S&aacute;nchez-Ferrero"
+          alias: ""
+          description: ""
       -
         name: "Swedish"
         person:
         -
           name: "Hampus Flink"
           alias: ""
+          description: ""
+        -
+          name: "Adrian Fr&uuml;hwirth"
+          alias: "bonki"
           description: ""
       -
         name: "Ukrainian"
