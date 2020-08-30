@@ -1188,3 +1188,6 @@ groups:
       - name: "Touché: The Adventures of the Fifth Musketeer (DOS Demo)"
         url: "/frs/demos/touche/touche-dos-demo-en.zip"
         target: "touche"
+      - name: "Voyeur (DOS Demo)"
+        url: "/frs/demos/voyeur/voyeur-dos-demo-en.zip"
+        target: "voyeur"
