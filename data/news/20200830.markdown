@@ -1,0 +1,28 @@
+---
+title: "Please help us with testing upcoming ScummVM 2.2.0 release"
+author: sev, criezy, md5
+date: 1598793846
+---
+
+Hello world, it is time for us to release the next version of ScummVM. Thus, we really need your help with testing the stable builds before the upcoming release, so we ensure better quality.
+
+Please, pay your special attention to the following new titles:
+
+* <i>Blazing Dragons</i>
+* <i>Eye of the Beholder - Sega CD version</i>
+* <i>Griffon Legend</i>
+* <i>Interactive Fiction games</i>
+* <i>Operation Stealth</i>
+* <i>Police Quest: SWAT</i>
+* <i>Prince and the Coward, English translation</i>
+* <i>Ultima IV - Quest of the Avatar</i>
+* <i>Ultima VI - The False Prophet</i>
+* <i>Ultima VIII - Pagan</i>
+
+We would also like you to play through another Sierra game: <i>Police Quest: SWAT</i>. Train to be a member of the SWAT team, and embark into dangerous missions to save civilian lives. This has been recently promoted for testing, so its call for testing has been included in the announcement for the upcoming release.
+
+These games need to be tested with [stable builds](https://buildbot.scummvm.org/builds.html), not development ones. And report any bugs or oddities on [our issue tracker](https://bugs.scummvm.org/).
+
+We also need your help to update the ScummVM translations for this release. You can see the status of the translations, and work on them on our [translations website](https://translations.scummvm.org/projects/scummvm/scummvm/). To log-in to the web site, you can either use your GitHub or Facebook account if you have one or create an account specific for this web site. Regular contributors can save changes to the translations but new contributors will only be able to make suggestions and vote on the suggestions. However we are looking for new regular contributors for some languages, so if you do not currently have full access and would like to get it, please [contact us](https://www.scummvm.org/contact/). Also, a few of our past contributors may have lost their full access a few months ago when we updated our permission settings. If you are one of them please contact us to see your full access restored.
+
+Good luck with your playtesting, and let’s release version 2.2.0 at the end of September!
