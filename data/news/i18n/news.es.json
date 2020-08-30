@@ -180,39 +180,39 @@
         "content": "Aunque sabemos que se acerca el fin del año, nos entristece anunciar que el proyecto ScummVM va a cerrar por motivos personales por parte de la mayoría de los desarrolladores. Algunos de los visitantes de nuestro foro, como timofonic, llevaban un tiempo sospechándolo, y, por desgracia, einheitlix me ha suplicado que diga la verdad.\n\nHa sido un gran viaje y teníamos cosas maravillosas en camino, como un juego nuevo que pretendíamos liberar en formato freeware para nuestra próxima versión y el anuncio de que la finalización del soporte para Full Throttle, algo muy solicitado, estaba por llegar, aunque probablemente lo haría en la versión 0.7.0 y no en la 0.6.0... pero todo esto ya es irrelevante.\n\nPretendía retrasar el anuncio hasta que pasaran las fiestas, pero como no es más que un bulo para ver cuántas personas leen de verdad nuestra página de noticias prestando atención, he decidido publicarlo ahora.\n\n***Resumiendo en caso de que algunos se hayan saltado el último párrafo: NO estamos muertos. Estamos vivitos y coleando, ¡y a principios del año que viene os traeremos cosas muy chulas!***\n\n(el enlace no tan bien escondido... ¡Echad un ojo a lo que traerá la [próxima versión!](https://github.com/scummvm/scummvm/raw/84247d9797ecee43205a5f64c1d5f555e8c69f3d/NEWS))"
     },
     "20031225": {
-        "title": "",
-        "content": ""
+        "title": "Es la segunda nariz roja más grande...",
+        "content": "¡Desde el centro de mando de ScummVM, bueno, de parte de todos los que seguimos despiertos, deseamos que tengáis (o hayáis tenido) unas felices fiestas!\n\nComo intento impreciso de empezar nuestro propósito de año nuevo (publicar noticias con mayor frecuencia) un poco antes de lo que toca, aquí tenéis una publicación casi inútil. Si alguien descubre algún artículo en prensa sobre ScummVM (o trabaja para ella), por favor, que nos contacte a press \\[at\\] scummvm.org para que podamos incluirlo en nuestra página de prensa.\n\nLas fechas de lanzamiento de la versión 0.6.0 se han retrasado un poco debido a varios problemas (como la recodificación de las escenas cinemáticas de Broken Sword) y el desarrollo profundo de ciertas características (como el subsistema INSANE de Full Throttle).\n\nPara intentar reducir la duración de la fase de testeo prelanzamiento, quisiera pedir a todo el que utilice compilaciones diarias o del CVS que informe de cualquier error que encuentre de forma generalizada. Esto incluiría (a pesar de lo que solemos decir) a nuestros juegos «nuevos»: Full Throttle, Flight of the Amazon Queen, Broken Sword 1 y 2.\n\nYa que pedimos testeadores antes de paralizar el desarrollo de cara a lanzar la nueva versión, os pedimos que comprobéis que estáis probando la última versión disponible del CVS antes de informar de cualquier fallo."
     },
     "20040117": {
-        "title": "",
-        "content": ""
+        "title": "Insertar tema",
+        "content": "Bueno, ¿qué ha pasado en el mundo de ScummVM últimamente?  \nNos estamos preparando para el lanzamiento de la versión 0.6.0; que representa un hito importante en la historia de ScummVM. A partir de la versión 0.6.0 de ScummVM, este debería dar soporte finalmente a (al menos las versiones para PC) todas las aventuras de LucasArts en SCUMM!  \n  \nNo obstante, necesitamos ayuda. Para nuestra próxima versión también daremos soporte a Broken Sword 1 y 2, de Revolution, que van a necesitar unas versiones recodificadas explícitamente de las escenas cinemáticas; y también liberaremos otra aventura gráfica clásica como freeware.  \nEso sí, todavía no estamos seguros de si SourceForge podrá alojar estos archivos o querrá hacerlo. Así que si resulta que alguien que esté leyendo esta publicación tiene, por ejemplo, un archivo grande y con mucho ancho de banda (en http o ftp) y que, a ser posible, no exija registros molestos (a lo Fileplanet) y esté dispuesto a ayudar... que, por favor, contacte con Ender (@ scummvm.org) para ayudar.  \n  \nSeguiremos informando sobre nuestro próximo lanzamiento a medida que se desarrollen novedades."
     },
     "20040118": {
-        "title": "",
-        "content": ""
+        "title": "Clarificación sobre las descargas",
+        "content": "Parece que algunos creen que la publicación de ayer implica que Broken Sword 1 y 2 serán publicados de forma freeware. Solo queremos clarificar que este no es el caso. Publicaremos los paquetes de escenas cinemáticas para su uso con los datos de juego ORIGINALES en ScummVM, y con suerte haremos freeware un juego muy distinto y ajeno a Revolution."
     },
     "20040130": {
-        "title": "",
-        "content": ""
+        "title": "Añadir agua y servir",
+        "content": "Esta es una noticia rápida para que todos sepáis que ScummVM 0.6.0 sigue progresando. Por desgracia, la reciente caída de los servidores y otros problemas con SourceForge.net han retrasado los ramales y las pruebas finales de esta versión, ¡pero aún esperamos poder publicarla en cuanto podamos!  \n  \nCambiando de asunto y siguiendo con la actual oleada de problemas informáticos, todas las direcciones de e-mail relacionadas con scummvm.org no funcionan en estos momentos. Esperamos poder arreglarlas en los próximos días sin perder ningún mensaje. No obstante, si queréis hablar de algo importante con nosotros, sugerimos encarecidamente que hablemos en tiempo real a través de nuestro canal de IRC (#scummvm, en irc.freenode.net)."
     },
     "20040219": {
-        "title": "",
-        "content": ""
+        "title": "Testeo de la versión 0.6.0-PRE",
+        "content": "Recientemente hemos cerrado los ramales de ScummVM 0.6.0 y ahora entramos en la fase de testeo final. Por lo tanto, nos alegraría que la gente pudiera probar las últimas compilaciones diarias (o las compilaciones del CVS de la etiqueta 'branch-0-6-0') e informaran de sus resultados.\n\nYa hemos realizado un testeo preliminar de varios juegos, pero los siguientes no han sido probados y deberían tener prioridad:\n\n*   Maniac Mansion V1\n*   Maniac Mansion V2\n*   Zak McKracken V1\n*   Zak McKracken V2\n*   Indiana Jones 3 EGA\n*   Indiana Jones 3 VGA\n*   Monkey Island 1 EGA\n*   Monkey Island 2\n*   The Dig\n*   Curse of Monkey Island (Monkey 3)\n\nPor favor, informad de cualquier fallo en nuestro gestor de fallos y de las partidas que hayan llegado al final de sus juegos en nuestro foro General. ¡Gracias por adelantado por ayudarnos a pulir la próxima versión de ScummVM!"
     },
     "20040309": {
-        "title": "",
-        "content": ""
+        "title": "¿Qué se roba fácilmente pero no es un yoyó?",
+        "content": "¿Qué? ¿Prometimos publicar noticias con más frecuencia? ¡Mentira cochina! ¡Demostradlo...! ¿En el historial, decís? Buah... Esto... ¡Nos hackearon!\n\nEstamos cerca de lanzar la versión final de ScummVM 0.6.0, y solo queda arreglar unos cuántos fallos de última hora. También estamos esperando a que nos contesten un email [dos](http://www.mobygames.com/developer/sheet/view/developerId,1859/)[personas](http://www.mobygames.com/developer/sheet/view/developerId,1858/) que se están corriendo una juerga mundial diciendo que es «trabajo». Se dice que han sido vistas en San Francisco, corriendo en pelota picada y gritando «¡Estoy trabajando, estoy trabajando!» Si las veis, id con sumo cuidado, ya que podrían estar de vacaciones y ser peligrosas.\n\nEn un tema relacionado, pero más serio, ya que la pareja mencionada está incomunicada por motivos razonables, tal vez publiquemos ScummVM 0.6.0 sin el prometido juego freeware, que será publicado más adelante.\n\nA continuación os dejamos la cita robada vilmente. No lleva mensajes subliminales. De verdad.\n\n> Bueno, **co**ntestando a la pregunta, para entrar en el **m**undillo del videojuego sim**p**lemente tenéis que colaros en la fiesta de Sony en el E3, da**r** vuelt**a**s y **d**ecir «¡el multijugador online es el futuro!», y si nadie os ha contratado antes de las 11 de la noche, acostaos con la **p**rimera persona a la que oigái**s** hablando en japonés o francés, **y** ya está. ¡A mí me funcionó!\n\n\\- Tim S**ch**afer, leíd**o** e**n** [DoubleFine](http://www.doublefine.com/news.htm) como respuest**a** al email de **u**n fan con un par de **t**ornillo**s** de menos.\n\nPor último, Ender, vuestro humilde (y vago) redactor de noticia y segundo líder del proyecto, querría anunciar a cualquier empleado de Sony que lea este mensaje que cree que el multijugador online sí es el futuro. Ni siquiera vamos a mencionar lo de Sam and Max 2. (¡Búuu!)\n\n¡Pasaos por aquí para ver más publicaciones disparatadas y de relleno en el futuro!"
     },
     "20040315": {
-        "title": "",
-        "content": ""
+        "title": "¡No es una cabeza, es una maldita y fea bomba de relojería!",
+        "content": "¡La versión 0.6.0 de ScummVM saldrá en las próximas 48 juras junto con nuestra sorpresa superespecial, pero no tan secreta!\n\n¡No perdáis de vista esta página!"
     },
     "20040316": {
-        "title": "",
-        "content": ""
+        "title": "La gran cero-seis-cero",
+        "content": "**En otras noticias, ScummVM aparecerá en el programa Call for Help de TechTV el 19 de marzo, como el archivo gratuito del día.**\n\nAl proyecto de ScummVM le complace anunciar el lanzamiento inmediato de ScummVM 0.6.0. ScummVM es un intérprete de aventuras gráficas diseñado para dar a los usuarios la oportunidad de jugar a muchas aventuras gráficas clásicas en diversos sistemas informáticos (Linux, Windows 2000/XP, \\*BSD, Mac OS X, PocketPC/Handheld PC, Palm, Dreamcast y muchos más).\n\nLa versión 0.6.0 trae un nuevo hito en la historia de ScummVM, el de dar soporte a todas las aventuras de LucasArts/LucasFilm con el motor SCUMM. También nos enorgullece anunciar que, junto a ScummVM 0.6.0, liberamos la aventura clásica «Flight of the Amazon Queen» (originalmente disponible para Amiga y DOS) en formato freeware. El equipo de ScummVM desea agradecer a los autores, Steve Stamatiadis y John Passfield, que suministraran al equipo el código fuente de este clásico y nos permita publicarlo.\n\nBien, ¿qué novedades hay?\n\nScummVM 0.6.0 incluye, como de costumbre, muchos fallos corregidos en todos los motores compatibles. También hay correcciones de importancia y mejoras en el departamento sonoro y musical, más un menú de opciones y gestión de juegos muy mejorado y dos modos gráficos nuevos (HQ2x y HQ3x). Y lo más importante, también hemos añadido la compatibilidad con los siguientes juegos:\n\n*   Las versiones V1 clásicas de los juegos de LucasArts en SCUMM Maniac Mansion y Zak McKracken, y el juego de LucasArts en SCUMM Full Throttle.\n*   Broken Sword 1 y Broken Sword 2. Muchísimas gracias a Revolution por darnos el código fuente de estos juegos.\n*   Soporte para Flight of the Amazon Queen. Gracias a Steve y a John por darnos el código fuente del juego y permitir su publicación como freeware.\n\nScummVM 0.6.0, los dos juegos freeware (Flight of the Amazon Queen y Beneath a Steel Sky) y las escenas cinemáticas recodificadas necesarias para jugar a Broken Sword 1 y a Broken Sword 2 pueden descargarse desde la [página de descargas](/downloads/)."
     },
     "20040318": {
-        "title": "",
+        "title": "TechTV",
         "content": ""
     },
     "20040401": {
