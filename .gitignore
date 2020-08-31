@@ -25,11 +25,10 @@
 /public_html/images/games@2x.png
 
 # Generated lang ini
-/lang/*.ini
-/lang/po
+/data/localization/*/*.ini
 
 # Webhook files
 /site-update/webhook.log
 
 # Others
-public_html/frs 
+public_html/frs
