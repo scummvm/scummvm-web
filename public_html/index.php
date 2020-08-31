@@ -3,39 +3,18 @@ namespace ScummVM;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
+use ScummVM\Constants;
+
+new Constants();
+
 /**
  * Multilingual support
  */
-global $lang;
-global $available_languages;
-$available_languages = array(
-  'en' => 'English',
-  'de' => 'Deutsch',
-  'fr' => 'Français',
-  'it' => 'Italiano',
-  'es' => 'Español',
-  'pt_BR' => 'Português do Brasil',
-  'ru' => 'Русский',
-  'el' => 'Ελληνικά'
-);
-
-function get_preferred_languages()
-{
-    $lang_parse = array();
-    preg_match_all('/([a-z]{1,8}(-[a-z]{1,8})?)\s*(;\s*q\s*=\s*(1|0\.[0-9]+))?/i', $_SERVER['HTTP_ACCEPT_LANGUAGE'], $lang_parse);
-
-    if (count($lang_parse[1])) {
-        $langs = array_combine($lang_parse[1], $lang_parse[4]);
-        foreach ($langs as $candidate => $quality) {
-            if ($quality === '') {
-                $langs[$candidate] = 1;
-            }
-        }
-        arsort($langs, SORT_NUMERIC);
-        return array_keys($langs);
-    }
-
-    return array();
+global $lang, $available_languages;
+$languages = array_slice(scandir(DIR_LANG),2);
+$available_languages = [];
+foreach ($languages as $lang) {
+  $available_languages[$lang] = \locale_get_display_language($lang, $lang);
 }
 
 if (!empty($_GET['lang'])) {
@@ -44,21 +23,12 @@ if (!empty($_GET['lang'])) {
 } elseif (!empty($_COOKIE['lang'])) {
     $lang = $_COOKIE['lang'];
 } elseif (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
-    foreach (get_preferred_languages() as $candidate) {
-        $candidate_major = current(explode('-', $candidate, 1));
-        if (isset($available_languages[$candidate_major])) {
-            $lang = $candidate_major;
-            break;
-        }
-    }
+    $lang = locale_accept_from_http($_SERVER['HTTP_ACCEPT_LANGUAGE']);
 }
 
 if (!array_key_exists($lang, $available_languages)) {
-    $lang = 'en';
+    $lang = DEFAULT_LOCALE;
 }
-
-/* Load the global constants. */
-new Constants();
 
 /* Time zone to use for news items etc. */
 date_default_timezone_set("UTC");

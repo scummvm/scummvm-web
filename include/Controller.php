@@ -35,16 +35,14 @@ class Controller
         $this->smarty->compile_id = $lang;
 
         // First we read English, so all defaults are there
-        $this->smarty->configLoad(DIR_LANG . "/lang.en.ini");
+        $this->smarty->configLoad(join(DIRECTORY_SEPARATOR, [DIR_LANG, DEFAULT_LOCALE, "strings.ini"]));
 
         // Now we try to read translations
-        if (is_file(($fname = DIR_LANG . "/lang.$lang.ini"))
+        if (is_file(($fname = join(DIRECTORY_SEPARATOR, [DIR_LANG, $lang, "strings.ini"])))
             && is_readable($fname)
         ) {
             $this->smarty->configLoad($fname);
         }
-
-        setlocale(LC_TIME, $this->getConfigVars('locale'));
 
         /**
          * Add a output-filter to make sure ampersands are properly encoded to
@@ -53,7 +51,6 @@ class Controller
         $this->smarty->registerFilter('output', array($this, 'outputFilter'));
 
         /* Give Smarty-template access to date(). */
-        $this->smarty->registerPlugin('modifier', 'date_f', array(&$this, 'dateFormatSmartyModifier'));
         $this->smarty->registerPlugin('modifier', 'date_localized', array(&$this, 'dateLocalizedSmartyModifier'));
 
         $this->css_files = array();
@@ -81,7 +78,7 @@ class Controller
     }
 
     /**
-     * Smarty outputfilter, run just before displaying. 
+     * Smarty outputfilter, run just before displaying.
      */
     public function outputFilter($string, $smarty)
     {
@@ -92,22 +89,17 @@ class Controller
     }
 
     /**
-     * Formating of dates, registered as a modifier for Smarty templates. 
+     * Formating of dateAs, registered as a modifier for Smarty templates.
      */
-    public function dateFormatSmartyModifier($timestamp, $format)
+    public function dateLocalizedSmartyModifier($timestamp)
     {
-        return date($format, $timestamp);
-    }
-
-    /**
-     * Formating of dateAs, registered as a modifier for Smarty templates. 
-     */
-    public function dateLocalizedSmartyModifier($timestamp, $format)
-    {
-        if (strtoupper(substr(PHP_OS, 0, 3)) == 'WIN') {
-            $format = preg_replace('#(?<!%)((?:%%)*)%e#', '\1%#d', $format);
+        global $lang;
+        $formatter = new \IntlDateFormatter($lang, \IntlDateFormatter::MEDIUM, \IntlDateFormatter::NONE);
+        if ($formatter === null) {
+            throw new InvalidConfigException(intl_get_error_message());
         }
-        return strftime($format, $timestamp);
+
+        return $formatter->format($timestamp);
     }
 
     /* Render the HTML using the template and any set variables and displays it. */

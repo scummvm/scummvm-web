@@ -34,14 +34,17 @@ class Constants
         }
         define('URL_BASE', $url);
 
-        /* Paths. */
+        /* Paths */
         define('DIR_BASE',        __DIR__  . '/..');
         define('DIR_DATA',        DIR_BASE . '/data');
         define('DIR_NEWS',        DIR_DATA . '/news');
-        define('DIR_LANG',        DIR_BASE . '/lang');
+        define('DIR_LANG',        DIR_DATA . '/localization');
         define('DIR_COMPAT',      DIR_DATA . '/compatibility');
         define('DIR_DOWNLOADS',   '/downloads');
         define('DIR_SCREENSHOTS', '/data/screenshots');
+
+        /* Locale */
+        define('DEFAULT_LOCALE', 'en_US');
 
         /* Downloads */
         define('DOWNLOADS_URL', '/frs/scummvm/{$release}/');
