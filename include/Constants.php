@@ -22,13 +22,17 @@ class Constants
         define('HEROES_NUM', 6);
 
         /* Base URL to the website. */
-        if ($_SERVER['SERVER_PORT'] == '80') {
-            $url = "http://{$_SERVER['SERVER_NAME']}";
-        } elseif ($_SERVER['SERVER_PORT'] == '443') {
-            $url = "https://{$_SERVER['SERVER_NAME']}";
-        } else {
-            $url = "http://{$_SERVER['SERVER_NAME']}:{$_SERVER['SERVER_PORT']}";
+        $url = "";
+        if (array_key_exists('SERVER_PORT', $_SERVER)) {
+            if ($_SERVER['SERVER_PORT'] == '80') {
+                $url = "http://{$_SERVER['SERVER_NAME']}";
+            } elseif ($_SERVER['SERVER_PORT'] == '443') {
+                $url = "https://{$_SERVER['SERVER_NAME']}";
+            } else {
+                $url = "http://{$_SERVER['SERVER_NAME']}:{$_SERVER['SERVER_PORT']}";
+            }
         }
+
         if (substr($url, -1) != '/') {
             $url .= '/';
         }
@@ -62,4 +66,8 @@ class Constants
         define('SMARTY_DIR_COMPILE',    SMARTY_DIR_TEMPLATE . '/compiled');
         define('SMARTY_DIR_CACHE',      SMARTY_DIR          . 'cache');
     }
+}
+
+if (!defined('RELEASE')) {
+    new Constants();
 }

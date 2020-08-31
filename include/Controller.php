@@ -94,11 +94,7 @@ class Controller
     public function dateLocalizedSmartyModifier($timestamp)
     {
         global $lang;
-        $formatter = new \IntlDateFormatter($lang, \IntlDateFormatter::MEDIUM, \IntlDateFormatter::NONE);
-        if ($formatter === null) {
-            throw new InvalidConfigException(intl_get_error_message());
-        }
-
+        $formatter = datefmt_create($lang, \IntlDateFormatter::MEDIUM, \IntlDateFormatter::NONE);
         return $formatter->format($timestamp);
     }
 

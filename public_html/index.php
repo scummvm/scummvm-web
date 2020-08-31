@@ -2,10 +2,7 @@
 namespace ScummVM;
 
 require_once __DIR__ . '/../vendor/autoload.php';
-
-use ScummVM\Constants;
-
-new Constants();
+require_once __DIR__ . '/../include/Constants.php';
 
 /**
  * Multilingual support
