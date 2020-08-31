@@ -1,9 +1,9 @@
 {foreach from=$news_items item=news}
 	{$news_filename = $news->getFilename()|substr:'0':'-4'}
-	{$id = "{$news->getDate()|date_format:"%Y-%m-%d"}{if $news_filename|strlen == 9}{$news_filename|substr:'-1'}{/if}"}	
+	{$id = "{$news->getDate()|date_format:"%Y-%m-%d"}{if $news_filename|strlen == 9}{$news_filename|substr:'-1'}{/if}"}
 	{capture "head"}
 		<a href="{$news->getLink()}/">
-			<span class="news-date">{$news->getDate()|date_localized:#dateformat#}</span>:
+			<span class="news-date">{$news->getDate()|date_localized}</span>:
 			{$news->getTitle()}
 		</a>
 	{/capture}
@@ -13,7 +13,7 @@
     </div>
     {$news->getContent()}
 	{/capture}
-	{include "components/box.tpl" id=$id head=$smarty.capture.head content=$smarty.capture.content article="true"} 
+	{include "components/box.tpl" id=$id head=$smarty.capture.head content=$smarty.capture.content article="true"}
 {/foreach}
 
 {* Only show the 'more news' link if we're on the main page *}
