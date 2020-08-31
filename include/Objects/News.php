@@ -15,15 +15,7 @@ class News
     private $filename;
 
     /**
-     * News object constructor that extracts the data from the JSON scheme
-     * used. The format looks like this:
-     *
-     * {
-     *    "title": "Article Title",
-     *    "content": "Your article content goes here",
-     *    "date": "UNIX timestamp",
-     *    "author": "Name"
-     * }
+     * News object constructor that extracts the data from the YAML frontmatter.
      */
     public function __construct($data, $filename, $processContent = false)
     {

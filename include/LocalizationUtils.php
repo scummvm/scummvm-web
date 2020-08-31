@@ -2,16 +2,14 @@
 namespace ScummVM;
 
 require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/../include/Constants.php';
 
-use ScummVM\Constants;
 use ScummVM\Objects\News;
 use ScummVM\Models\NewsModel;
 use Spatie\YamlFrontMatter\YamlFrontMatter;
 use Erusev\Parsedown;
 
-new Constants();
-
-class I18N
+class LocalizationUtils
 {
     private $purifier;
 
@@ -130,4 +128,4 @@ class I18N
     }
 }
 
-new I18N();
+new LocalizationUtils();

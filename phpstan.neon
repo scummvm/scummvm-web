@@ -3,5 +3,4 @@ parameters:
 	paths:
 		- include/
 	excludes_analyse:
-		- include/I18N.php
-	bootstrap: bootstrap.php
+		- include/LocalizationUtils.php

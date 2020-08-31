@@ -13,6 +13,7 @@ abstract class CreditsModel extends BasicModel
     {
         $fname = DIR_DATA . '/credits.yaml';
         $parsedData = \yaml_parse_file($fname);
+        $sections = [];
         foreach (array_values($parsedData['credits']['section']) as $value) {
             $sections[] = new CreditsSection($value);
         }
