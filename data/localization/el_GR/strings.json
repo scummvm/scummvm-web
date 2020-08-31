@@ -1,6 +1,4 @@
 {
-    "locale": "el_GR.UTF-8",
-    "dateformat": "%e %b, %Y",
     "compatibilityUntested": "Αδοκίμαστο",
     "compatibilityBroken": "Δεν λειτουργεί",
     "compatibilityBugged": "Με προβλήματα",

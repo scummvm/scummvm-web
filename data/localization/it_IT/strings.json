@@ -1,6 +1,4 @@
 {
-    "locale": "it_IT.UTF8",
-    "dateformat": "%e %B %Y",
     "compatibilityUntested": "Non testato",
     "compatibilityBroken": "Non funzionante",
     "compatibilityBugged": "Parziale",

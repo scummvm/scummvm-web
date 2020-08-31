@@ -1,6 +1,4 @@
 {
-  "locale": "ru_RU.UTF-8",
-  "dateformat": "%e %b %Y",
   "compatibilityUntested": "Не тестировано",
   "compatibilityBroken": "Сломано",
   "compatibilityBugged": "С багами",
