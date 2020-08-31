@@ -1,7 +1,6 @@
 <?php
 namespace ScummVM\Models;
 
-use ScummVM\Objects\Article;
 use ScummVM\Objects\FaqEntry;
 use ScummVM\Objects\FaqSection;
 use ScummVM\XMLParser;
