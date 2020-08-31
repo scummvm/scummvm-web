@@ -15,7 +15,7 @@ abstract class NewsModel extends BasicModel
     /* Get a list of all the available news files. */
     public static function getListOfNewsFilenames()
     {
-        if (!($files = scandir(DIR_NEWS))) {
+        if (!($files = scandir(join(DIRECTORY_SEPARATOR, [DIR_NEWS, DEFAULT_LOCALE])))) {
             throw new \ErrorException(self::NO_FILES);
         }
         $filenames = array();
@@ -32,7 +32,7 @@ abstract class NewsModel extends BasicModel
     /* Get all news items ordered by date, descending. */
     public static function getAllNews($processContent = false)
     {
-        if (!($files = scandir(DIR_NEWS))) {
+        if (!($files = scandir(join(DIRECTORY_SEPARATOR, [DIR_NEWS, DEFAULT_LOCALE])))) {
             throw new \ErrorException(self::NO_FILES);
         }
         global $lang;
@@ -41,10 +41,10 @@ abstract class NewsModel extends BasicModel
             if (substr($filename, -9) != '.markdown') {
                 continue;
             }
-            if (!is_file(($fname = DIR_NEWS . "/$lang/" . basename($filename)))
+            if (!is_file(($fname = join(DIRECTORY_SEPARATOR, [DIR_NEWS,$lang,basename($filename)])))
                 || !is_readable($fname) || !($data = @file_get_contents($fname))
             ) {
-                if (!($data = @file_get_contents(DIR_NEWS . "/{$filename}"))) {
+                if (!($data = @file_get_contents(join(DIRECTORY_SEPARATOR, [DIR_NEWS, DEFAULT_LOCALE, $filename])))) {
                     continue;
                 }
             }
@@ -80,10 +80,10 @@ abstract class NewsModel extends BasicModel
         }
         global $lang;
 
-        if (!is_file(($fname = DIR_NEWS . "/$lang/{$filename}.markdown"))
+        if (!is_file(($fname = join(DIRECTORY_SEPARATOR, [DIR_NEWS, $lang, "{$filename}.markdown"])))
             || !is_readable($fname) || !($data = @file_get_contents($fname))
         ) {
-            if (!is_file(($fname = DIR_NEWS . "/{$filename}.markdown"))
+            if (!is_file(($fname = join(DIRECTORY_SEPARATOR, [DIR_NEWS, DEFAULT_LOCALE, "/{$filename}.markdown"])))
                 || !is_readable($fname) || !($data = @file_get_contents($fname))
             ) {
                 throw new \ErrorException(self::FILE_NOT_FOUND);
