@@ -14,7 +14,12 @@ global $lang, $available_languages;
 $languages = array_slice(scandir(DIR_LANG),2);
 $available_languages = [];
 foreach ($languages as $lang) {
-  $available_languages[$lang] = \locale_get_display_language($lang, $lang);
+  if (\in_array($lang, ['pt_PT', 'pt_BR'])) {
+    $available_languages[$lang] = \locale_get_display_name($lang, $lang);
+  } else {
+    $available_languages[$lang] = \locale_get_display_language($lang, $lang);
+  }
+
 }
 
 if (!empty($_GET['lang'])) {
