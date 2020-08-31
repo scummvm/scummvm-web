@@ -3,27 +3,28 @@ namespace ScummVM;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
+use ScummVM\Constants;
 use ScummVM\Objects\News;
 use ScummVM\Models\NewsModel;
 use Spatie\YamlFrontMatter\YamlFrontMatter;
 use Erusev\Parsedown;
 
-define('DIR_NEWS', 'data/news');
+new Constants();
 
 class I18N
 {
     private $purifier;
 
-    const NO_FILES = 'No I18N Files Found';
+    const NO_FILES = 'No Localization Files Found';
 
     public function __construct()
     {
         $config = \HTMLPurifier_Config::createDefault();
         $this->purifier = new \HTMLPurifier($config);
 
-        $langs = ['en', 'it', 'fr', 'ru', 'de', 'es', 'pt_BR', 'el'];
+        $langs = array_slice(scandir(DIR_LANG), 2);
         foreach ($langs as $key => $value) {
-            $this->convertLanguageJsonToSmartyIni('lang.' . $value);
+            $this->convertLanguageJsonToSmartyIni($value);
             $this->updateNewsI18n($value);
         }
     }
@@ -32,50 +33,54 @@ class I18N
     {
         $Parsedown = new \Parsedown();
         $Parsedown->setBreaksEnabled(true);
-        $filename = "lang/i18n/{$lang}.json";
+        $filename = JOIN(DIRECTORY_SEPARATOR, [DIR_LANG, $lang, "strings.json"]);
         echo("Converting {$filename} from JSON to INI\n");
         $jsonString = file_get_contents($filename);
         $json = json_decode($jsonString);
 
         $output = "";
         foreach ($json as $key => $value) {
-          if ($value)
-            $output .= $key . ' = """' . $this->purifier->purify($Parsedown->line($value)) . '"""' . "\n";
+            if ($value) {
+                $output .= $key . ' = """' . $this->purifier->purify($Parsedown->line($value)) . '"""' . "\n";
+            }
         }
 
-        file_put_contents("lang/{$lang}.ini", $output);
+        file_put_contents(join(DIRECTORY_SEPARATOR, [DIR_LANG,$lang,"strings.ini"]), $output);
     }
 
     private function updateNewsI18n($lang)
     {
-
+        $newsFile = join(DIRECTORY_SEPARATOR, [DIR_LANG,$lang,"news.json"]);
         // For non-english, create/overwrite JSON files from our i18n file
         if ($lang !== 'en') {
-            if (!file_exists(DIR_NEWS . "/i18n/news.{$lang}.json")) return;
-            echo("Converting " . DIR_NEWS . "/i18n/news.{$lang}.json to individual Markdown files\n");
-            $i18n = json_decode(file_get_contents(DIR_NEWS . "/i18n/news.{$lang}.json"));
+            if (!file_exists($newsFile)) { return;
+            }
+            echo("Converting " . $newsFile . " to individual Markdown files\n");
+            $i18n = json_decode(file_get_contents($newsFile));
 
             foreach ($i18n as $key => $translatedArticle) {
-                $englishArticle = YamlFrontMatter::parse(file_get_contents(DIR_NEWS . "/{$key}.markdown"));
+                $englishArticle = YamlFrontMatter::parse(file_get_contents(join(DIRECTORY_SEPARATOR, [DIR_NEWS, DEFAULT_LOCALE,"/{$key}.markdown"])));
 
                 $date = $this->purifier->purify($englishArticle->date);
                 $author = $this->purifier->purify($englishArticle->author);
                 if (array_key_exists('title', $translatedArticle) && $translatedArticle->title) {
-                  $title = $this->purifier->purify(str_replace('"', '\"', $translatedArticle->title));
+                    $title = $this->purifier->purify(str_replace('"', '\"', $translatedArticle->title));
                 } else {
-                  $title = $this->purifier->purify(str_replace('"', '\"', $englishArticle->title));
+                    $title = $this->purifier->purify(str_replace('"', '\"', $englishArticle->title));
                 }
                 if (array_key_exists('content', $translatedArticle) && $translatedArticle->content) {
-                  $content = $this->purifier->purify(trim($translatedArticle->content));
+                    $content = $this->purifier->purify(trim($translatedArticle->content));
                 } else {
-                  $content = $this->purifier->purify(trim($englishArticle->body()));
+                    $content = $this->purifier->purify(trim($englishArticle->body()));
                 }
 
                 if ($lang === 'fr') {
-                    $content = preg_replace_callback("/(?<=\(http)(.*?)(?=\))/u",
-                    function($matches) {
-                        return preg_replace("/\x{202f}/u", "", $matches[1]);
-                    }, $content);
+                    $content = preg_replace_callback(
+                        "/(?<=\(http)(.*?)(?=\))/u",
+                        function ($matches) {
+                            return preg_replace("/\x{202f}/u", "", $matches[1]);
+                        }, $content
+                    );
                 }
 
                 $yaml = "---\ntitle: \"$title\"\ndate: $date\nauthor: $author\n---\n\n$content\n";
@@ -92,7 +97,7 @@ class I18N
             $news = $this->getAllNews($lang);
 
             file_put_contents(
-                DIR_NEWS . "/i18n/news.{$lang}.json",
+                $newsFile,
                 json_encode($news, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES |  JSON_UNESCAPED_UNICODE) . "\n"
             );
         }
