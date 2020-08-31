@@ -9,19 +9,22 @@
     }
   ],
   "require": {
-    "leafo/scssphp": "^0.7.6",
+    "php": ">=7.0.0",
+    "ext-yaml": "*",
+    "ext-intl": "*",
     "smarty/smarty": "^3.1",
     "ezyang/htmlpurifier": "^4.10",
     "altorouter/altorouter": "^2.0",
     "piwik/device-detector": "^3.11",
     "spatie/yaml-front-matter": "^2.0",
-    "erusev/parsedown": "^1.7"
+    "erusev/parsedown": "^1.7",
+    "scssphp/scssphp": "^1.2"
   },
   "scripts": {
     "post-install-cmd": [
       "pscss -f compressed ./scss/main.scss > ./public_html/css/main.css",
       "pscss -f compressed ./scss/pages/_mirrorbrain.scss > ./public_html/css/mirrorbrain.css",
-      "php include/I18N.php"
+      "php include/LocalizationUtils.php"
     ],
     "build-common": [
       "glue public_html/images/icons/games/ --img=images/ --scss=scss/sprites/ --retina",
