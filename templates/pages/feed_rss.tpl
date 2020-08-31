@@ -11,11 +11,11 @@
 		<item>
 			<title>{htmlspecialchars($n->getTitle())}</title>
 			<description>{htmlspecialchars($n->getContent())}></description>
-			<pubDate>{$n->getDate()|date_f:'r'}</pubDate>
+			<pubDate>{$n->getDate()|date_format:'r'}</pubDate>
 			{if $n->getAuthor() != ''}
 			<author>nospam@scummvm.org ({$n->getAuthor()})</author>
 			{/if}
-			<guid isPermaLink='true'>{$baseurl}news/archive/#{$n->getDate()|date_f:'Y-m-d'}{if $news_filename|strlen == 9}{$news_filename|substr:'-1'}{/if}</guid>
+			<guid isPermaLink='true'>{$baseurl}news/archive/#{$n->getDate()|date_format:'Y-m-d'}{if $news_filename|strlen == 9}{$news_filename|substr:'-1'}{/if}</guid>
 			<link>{$n->getLink()}/</link>
 		</item>
 		{/foreach}
