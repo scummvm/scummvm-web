@@ -1,5 +1,6 @@
 .round-box {
   margin: 8px;
+  direction: $direction;
   > .header {
 		background: $theme-round-container-title-background;
     border-left: 1px solid $theme-round-container-border;
@@ -7,7 +8,7 @@
     border-top: 1px solid $theme-round-container-border;
     height: 28px;
     border-radius: 8px 8px 0 0;
-		padding-left: 18px;
+    padding-#{$start-direction}: 18px;
 		// TODO: Extract font
     font: bold large/1.4 "Trebuchet MS", Verdana, Tahoma, Sans-Serif;
     color: $theme-round-container-header;
@@ -25,7 +26,11 @@
 		}
 		&:first-child {
 			background: $theme-round-container-headless-background;
-		}
+    }
+
+    [class*="col-"] {
+      float: $start-direction;
+    }
 	}
   > .header ~ .content {
     border-radius: 0 0 8px 8px;

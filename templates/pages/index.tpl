@@ -29,7 +29,7 @@
 
 	{* Cache bust CSS if making major changes *}
 	{$css = "2.0.0"}
-	<link rel="stylesheet" href="{$baseurl}css/main.css?v={$css}">
+	<link rel="stylesheet" href="{$baseurl}css/main_{($rtl) ? 'rtl' : 'ltr'}.css?v={$css}">
 	{* Page specific, or other extra CSS rules. *}
 	{foreach from=$css_files item=filename}
 	<link rel="stylesheet" href="{$baseurl}css/{$filename}">

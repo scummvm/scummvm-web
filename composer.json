@@ -22,7 +22,8 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "pscss -f compressed ./scss/main.scss > ./public_html/css/main.css",
+      "pscss -f compressed ./scss/main_ltr.scss > ./public_html/css/main_ltr.css",
+      "pscss -f compressed ./scss/main_rtl.scss > ./public_html/css/main_rtl.css",
       "pscss -f compressed ./scss/pages/_mirrorbrain.scss > ./public_html/css/mirrorbrain.css",
       "php include/LocalizationUtils.php"
     ],
