@@ -3,6 +3,7 @@ nav {
   position: relative;
   z-index: 0;
   font-size: 0.9em;
+  direction: $direction;
   dl {
     border-radius: 8px;
     background: $theme-menu-background;
@@ -30,7 +31,7 @@ nav {
     background-size: contain;
     background-position: 1px 2px;
     background-repeat: no-repeat;
-		padding-left: 28px;
+		padding-#{$start-direction}: 28px;
 
 		@include respond-to('small') {
 			display: none;
@@ -55,15 +56,17 @@ nav {
       border-radius: 8px 8px 0 0;
       background-clip: padding-box;
       height: 34px;
-      padding-left: 24px;
-      padding-right: 24px;
-      text-align: left;
+      padding-#{$start-direction}: 24px;
+      padding-#{$end-direction}: 24px;
+      text-align: $start-direction;
       line-height: 34px;
       margin-bottom: 4px;
     }
     dd {
       margin: 0;
-      padding: 4px 12px 6px 30px;
+      padding: 4px 0 6px;
+      padding-#{$end-direction}: 12px;
+      padding-#{$start-direction}: 30px;
       text-indent: -25px;
       line-height: 14px;
     }

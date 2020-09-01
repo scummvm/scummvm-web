@@ -1,6 +1,6 @@
 /* General layout rules */
 html {
-	background: $theme-background;	
+	background: $theme-background;
 	background-repeat: repeat-x;
 }
 
@@ -11,7 +11,7 @@ body {
 	margin: 8px 8px 24px 8px;
 
 	@include respond-to('small') {
-		margin: 0;	
+		margin: 0;
 	}
 }
 
@@ -19,7 +19,7 @@ body {
 	overflow-y: hidden;
 }
 
-a {  
+a {
   color: $theme-link;
 }
 
@@ -59,6 +59,10 @@ a:hover {
   line-height: 1.2213em;
 }
 
+#donate-header {
+  float: $end-direction;
+}
+
 /* Content boxes */
 
 .container {
@@ -80,8 +84,8 @@ span.sprite {
 	color: $theme-container-sub-title;
 	font-weight: bold;
 	line-height: 300%;
-	padding-left: 5px;
-	text-align: left;
+	padding-#{$start-direction}: 5px;
+	text-align: $start-direction;
 	margin: 0px 15px;
 	border-bottom: 2px dotted $theme-container-sub-title;
 }

@@ -65,6 +65,9 @@ class Controller
         // Construct lang URL
         $pageurl = preg_replace('/\?lang=[a-zA-Z_]*$/', '', $_SERVER['REQUEST_URI']);
 
+        /* Check RTL */
+        $rtl = $this->isRtl($available_languages[$lang]);
+
         /* Set up the common variables before displaying. */
         $vars = array(
             'release' => RELEASE,
@@ -73,8 +76,18 @@ class Controller
             'menus' => $menus,
             'pageurl' => $pageurl,
             'available_languages' => $available_languages,
+            'rtl' => $rtl,
         );
         $this->smarty->assign($vars);
+    }
+
+    /**
+     * Checks whether a locale string is RTL or LTR
+     */
+    private function isRtl($localeName)
+    {
+        $rtl_chars_pattern = '/[\x{0590}-\x{05ff}\x{0600}-\x{06ff}]/u';
+        return preg_match($rtl_chars_pattern, $localeName);
     }
 
     /**

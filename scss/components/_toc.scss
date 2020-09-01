@@ -12,11 +12,11 @@
     }
     li {
       color: $theme-container-navigation-bullet;
-      list-style-type: '\27A3';
+      list-style-type: $arrow;
       margin: 0.5em auto;
     }
   }
-  
+
   .intro .text li {
     margin: 0.5em auto;
   }
