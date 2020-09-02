@@ -50,7 +50,7 @@ class LocalizationUtils
     {
         $newsFile = join(DIRECTORY_SEPARATOR, [DIR_LANG,$lang,"news.json"]);
         // For non-english, create/overwrite JSON files from our i18n file
-        if ($lang !== 'en') {
+        if ($lang !== DEFAULT_LOCALE) {
             if (!file_exists($newsFile)) { return;
             }
             echo("Converting " . $newsFile . " to individual Markdown files\n");
@@ -72,7 +72,8 @@ class LocalizationUtils
                     $content = $this->purifier->purify(trim($englishArticle->body()));
                 }
 
-                if ($lang === 'fr') {
+                // Special handling of french colon character
+                if ($lang === 'fr_FR') {
                     $content = preg_replace_callback(
                         "/(?<=\(http)(.*?)(?=\))/u",
                         function ($matches) {
@@ -103,11 +104,7 @@ class LocalizationUtils
 
     private function getAllNews($lang)
     {
-        if ($lang != 'en') {
-            $dir = DIR_NEWS . "/{$lang}";
-        } else {
-            $dir = DIR_NEWS;
-        }
+        $dir = join(DIRECTORY_SEPARATOR, [DIR_NEWS, $lang]);
 
         if (!($files = scandir($dir))) {
             throw new \ErrorException(self::NO_FILES);
