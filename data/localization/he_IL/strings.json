@@ -78,7 +78,7 @@
     "downloadsBinariesNote1": "לרשימת השינויים מאז הגרסה הקודמת,",
     "downloadsBinariesNote2": "קרא את הערות השחרור",
     "downloadsBinariesNote3": "ScummVM {release} זמין גם במאגרי התוכנה של הפצות רבות של GNU / Linux.",
-    "downloadsSourceCode": "קוד {מקור}",
+    "downloadsSourceCode": "קוד {release}",
     "downloadsTools": "{release_tools} כלים",
     "downloadsOldBinaries": "גרסאות ישנות יותר (לא נתמכות)",
     "downloadsOld": "גרסאות ישנות",
@@ -203,5 +203,14 @@
     "menuMiscDemos": "הדגמות",
     "menuMiscPress": "סיקור עיתונות",
     "menuMiscContact": "איש קשר",
-    "menuMiscLinks": "קישורים"
+    "menuMiscLinks": "קישורים",
+    "menuMiscSponsors": "ספונסרים",
+    "sponsorsIntro": "החברות הבאות תרמו בחסד את עזרתם לScummVM",
+    "sponsorsHeading": "ספונסרים של ScummVM",
+    "sponsorsContentTitle": "ספונסרים",
+    "sponsorsTitle": "ספונסרים",
+    "downloadsOldBinariesFrsNote3": " בשביל למצוא את כל הגרסאות הישנות.",
+    "downloadsOldBinariesFrsNote2": "לדפדף בשרת שלנו",
+    "downloadsOldBinariesFrsNote1": "הינך יכול גם ",
+    "downloadsBinariesNote212Maintenance": "גרסה זו הינה גרסת תחזוקה לחלונות ומק בלבד."
 }
