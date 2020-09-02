@@ -432,5 +432,18 @@
 			</entries>
 		</subsection>
 
+		<subsection>
+			<title>The Prince and the Coward</title>
+			<anchor>prince</anchor>
+			<entries>
+				<file>
+					<category_icon>prince</category_icon>
+					<url type="extras">The Prince and the Coward/prince_translation.dat</url>
+					<name>The Prince and the Coward - Translations data file to play with English text</name>
+					<extra_msg>- Requires ScummVM 2.2.0</extra_msg>
+				</file>
+			</entries>
+		</subsection>
+
 	</section>
 </downloads>
