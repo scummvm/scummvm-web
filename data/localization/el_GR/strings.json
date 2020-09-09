@@ -69,7 +69,7 @@
     "downloadsContentP1": "Αν έχετε κάποιο από τα υποστηριζόμενα συστήματα, μπορείτε να κατεβάσετε απευθείας την κατάλληλη διανομή. Αν έχετε άλλο σύστημα, κατεβάστε τον πηγαίο κώδικα και διαβάστε τη σελίδα [Μεταγλώττισης (Compiling) του ScummVM](http://wiki.scummvm.org/index.php/Compiling_ScummVM) στο Βίκι μας για οδηγίες σχετικά με το πώς να μεταγλωττίσετε (build) το ScummVM. Αν έχετε μεταφέρει (port) επιτυχώς το ScummVM σε κάποια πλατφόρμα που δεν είναι στη λίστα, παρακαλούμε να μας ενημερώσετε, αναφέροντας ποιο Λειτουργικό Σύστημα, κλπ. χρησιμοποιήσατε.",
     "downloadsContentP2": "Η τελευταία ΣΤΑΘΕΡΗ κυκλοφορία του ScummVM είναι η {release}, και μπορεί να μεταφορτωθεί παρακάτω στην κατηγορία '[Πακέτα Κυκλοφορίας (Release Binaries)](/downloads/#stable)'. Αν χρησιμοποιείτε Windows και έχετε μπερδευτεί, απλά κατεβάστε τον 'Windows Installer' (Πρόγραμμα εγκατάστασης της έκδοσης του ScummVM για Windows).",
     "downloadsContentP3": "Για ΑΣΤΑΘΕΙΣ πειραματικές εκδόσεις του ScummVM (για όσους ξέρουν τι κάνουν), παρακαλούμε δείτε την ενότητα [Ημερήσιες Εκδόσεις (Daily Builds)](/downloads/#daily), κοντά στο τέλος αυτής της σελίδας.",
-    "downloadsContentP4": "Επίσης υπάρχει μια ξεχωριστή [σελίδα λήψεων για Παιχνίδια](/games/). Εκεί θα βρείτε για την ώρα εννέα δωρεάν (freeware) παιχνίδια: 'Beneath a Steel Sky', 'Broken Sword 2.5', 'Dreamweb', 'Flight of the Amazon Queen', 'Lure of the Temptress', 'Drascula: The Vampire Strikes Back', 'Soltys', 'Sfinx' και 'Mystery House', μαζί με τα πακέτα των βίντεο σκηνών (cutscene packs) που συνιστώνται για χρήση όταν παίζετε κάποιες εκδόσεις των παιχνιδιών Broken Sword games ή των Feeble Files μέσω του ScummVM, καθώς και υπότιτλους για το Blade Runner.",
+    "downloadsContentP4": "Επίσης υπάρχει μια ξεχωριστή [σελίδα λήψεων για Παιχνίδια](/games/). Εκεί θα βρείτε για την ώρα δέκα δωρεάν (freeware) παιχνίδια: 'Beneath a Steel Sky', 'Broken Sword 2.5', 'Dreamweb', 'Flight of the Amazon Queen', 'Lure of the Temptress', 'Drascula: The Vampire Strikes Back', 'Soltys', 'Sfinx', 'The Griffon Legend' και 'Mystery House', μαζί με τα πακέτα των βίντεο σκηνών (cutscene packs) που συνιστώνται για χρήση όταν παίζετε κάποιες εκδόσεις των παιχνιδιών Broken Sword ή των Feeble Files μέσω του ScummVM, καθώς και υπότιτλους για το Blade Runner.",
     "downloadsBadge": "Συνιστώμενη λήψη για το σύστημά σας",
     "downloadEngineData": "Πρόσθετα Δεδομένα Μηχανών Παιχνιδιών",
     "downloadsXMLTitle": "Λήψεις για το ScummVM",
@@ -111,7 +111,7 @@
     "gamesTitle": "Παιχνίδια",
     "gamesContentTitle": "Λήψη δωρεάν (freeware) παιχνιδιών",
     "gamesHeader": "Πλοήγηση",
-    "gamesContentP1": "Παρακάτω βρίσκονται οι διαθέσιμες [λήψεις Παιχνιδιών](/games/#games). Αυτές για την ώρα περιλαμβάνουν εννέα δωρεάν (freeware) παιχνίδια, τα 'Beneath a Steel Sky', 'Broken Sword 2.5', 'Dreamweb', 'Flight of the Amazon Queen', 'Lure of the Temptress', 'Drascula: The Vampire Strikes Back', 'Soltys', 'Sfinx' και το 'Mystery House'.",
+    "gamesContentP1": "Παρακάτω βρίσκονται οι διαθέσιμες [λήψεις Παιχνιδιών](/games/#games). Αυτές για την ώρα περιλαμβάνουν δέκα δωρεάν (freeware) παιχνίδια, τα 'Beneath a Steel Sky', 'Broken Sword 2.5', 'Dreamweb', 'Flight of the Amazon Queen', 'Lure of the Temptress', 'Drascula: The Vampire Strikes Back', 'Soltys', 'Sfinx', 'The Griffon Legend' και το 'Mystery House'.",
     "gamesContentP2": "Επιπρόσθετα, μπορείτε να βρείτε πακέτα σκηνών βίντεο που συνιστώνται για χρήση όταν παίζεται κάποιο από τα παιχνίδια Broken Sword ή Feeble Files μέσω του ScummVM καθώς και υπότιτλους για το Blade Runner.",
     "gamesXMLTitle": "Λήψεις παιχνιδιών για το ScummVM",
     "gamesXMLAddons": "Πρόσθετα για το ScummVM",
@@ -207,5 +207,10 @@
     "downloadsOldBinariesFrsNote1": "Μπορείτε επίσης ",
     "downloadsBinariesNote212Maintenance": "Αυτή είναι μια έκδοση με μικρο-διορθώσεις μόνο για Windows και macOS.",
     "downloadsOldBinariesFrsNote3": " για να βρείτε όλες τις περασμένες εκδόσεις.",
-    "downloadsOldBinariesFrsNote2": "να περιηγηθείτε στον ιστότοπό μας"
+    "downloadsOldBinariesFrsNote2": "να περιηγηθείτε στον ιστότοπό μας",
+    "menuMiscSponsors": "Χορηγοί",
+    "sponsorsIntro": "Οι ακόλουθες εταιρείες παρέχουν ευγενώς την βοήθειά τους στο έργο του ScummVM",
+    "sponsorsHeading": "Χορηγοί του ScummVM",
+    "sponsorsContentTitle": "Χορηγοί",
+    "sponsorsTitle": "Χορηγοί"
 }
