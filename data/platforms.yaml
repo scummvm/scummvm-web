@@ -1,0 +1,90 @@
+-
+    id: 3do
+    name: 3DO
+-
+    id: acorn
+    name: Acorn
+-
+    id: amiga
+    name: 'Amiga OS'
+-
+    id: android
+    name: Android
+-
+    id: apple2
+    name: 'Apple II'
+-
+    id: apple2gs
+    name: 'Apple IIgs'
+-
+    id: atari8bit
+    name: 'Atari 8 Bit'
+-
+    id: atarist
+    name: 'Atari ST'
+-
+    id: beos
+    name: BeOS
+-
+    id: c64
+    name: 'Commodore 64'
+-
+    id: dos
+    name: DOS
+-
+    id: fmtowns
+    name: 'FM Towns'
+-
+    id: ios
+    name: iOS
+-
+    id: linux
+    name: Linux
+-
+    id: mac
+    name: Macintosh
+-
+    id: macos
+    name: macOS
+-
+    id: nes
+    name: 'Nintendo Entertainment System'
+-
+    id: os2
+    name: OS/2
+-
+    id: pce
+    name: 'PC Engine'
+-
+    id: pc98
+    name: PC-98
+-
+    id: pcfx
+    name: PC-FX
+-
+    id: cdi
+    name: 'Philips CD-i'
+-
+    id: psx
+    name: Playstation
+-
+    id: pocketpc
+    name: 'Pocket PC'
+-
+    id: saturn
+    name: Saturn
+-
+    id: segacd
+    name: 'Sega CD'
+-
+    id: steam
+    name: Steam
+-
+    id: coco3
+    name: 'Tandy Color Computer 3'
+-
+    id: wii
+    name: Wii
+-
+    id: win
+    name: Windows

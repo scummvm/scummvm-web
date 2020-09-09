@@ -1,0 +1,604 @@
+-
+    id: 1c
+    name: '1C Company'
+    alt_name: ""
+-
+    id: 21stcentury
+    name: '21st Century Entertainment'
+    alt_name: ""
+-
+    id: 3f
+    name: '3f interactivo'
+    alt_name: ""
+-
+    id: 4x
+    name: '4X Technologies'
+    alt_name: ""
+-
+    id: access
+    name: 'Access Software'
+    alt_name: ""
+-
+    id: accolade
+    name: Accolade
+    alt_name: ""
+-
+    id: activision
+    name: Activision
+    alt_name: ""
+-
+    id: adventurecompany
+    name: 'The Adventure Company'
+    alt_name: ""
+-
+    id: adventureinternational
+    name: 'Adventure International'
+    alt_name: ""
+-
+    id: adventuresoft
+    name: 'Adventure Soft'
+    alt_name: ""
+-
+    id: aetheric
+    name: 'Aetheric Games'
+    alt_name: ""
+-
+    id: aftermath
+    name: 'Aftermath Media'
+    alt_name: ""
+-
+    id: akella
+    name: Akella
+    alt_name: ""
+-
+    id: alawar
+    name: 'Alawar Entertainment'
+    alt_name: ""
+-
+    id: alcachofa
+    name: 'Alcachofa Soft'
+    alt_name: ""
+-
+    id: amber
+    name: 'Amber Company'
+    alt_name: ""
+-
+    id: animationmagic
+    name: 'Animation Magic'
+    alt_name: ""
+-
+    id: aquin
+    name: 'Aquin Design'
+    alt_name: ""
+-
+    id: arberth
+    name: 'Arberth Studios'
+    alt_name: ""
+-
+    id: artech
+    name: 'Artech Digital Entertainment'
+    alt_name: ""
+-
+    id: arxel
+    name: 'Arxel Tribe'
+    alt_name: ""
+-
+    id: atari
+    name: Atari
+    alt_name: ""
+-
+    id: atlantis
+    name: 'Atlantis Interactive Entertainment'
+    alt_name: ""
+-
+    id: bandai
+    name: Bandai
+    alt_name: ""
+-
+    id: bigfish
+    name: 'Big Fish Games'
+    alt_name: ""
+-
+    id: bigorc
+    name: 'Big Orc Software'
+    alt_name: ""
+-
+    id: blekinge
+    name: 'Blekinge Institute of Technology'
+    alt_name: ""
+-
+    id: bluebyte
+    name: 'Blue Byte Software'
+    alt_name: ""
+-
+    id: broderbund
+    name: Brøderbund
+    alt_name: ""
+-
+    id: buka
+    name: 'Buka Entertainment'
+    alt_name: ""
+-
+    id: burnedout
+    name: 'Burned Out Adventurers!'
+    alt_name: ""
+-
+    id: burst
+    name: Burst
+    alt_name: ""
+-
+    id: byteriders
+    name: Byteriders
+    alt_name: ""
+-
+    id: canal
+    name: 'Canal Multimedia'
+    alt_name: ""
+-
+    id: capstone
+    name: 'Capstone Software'
+    alt_name: ""
+-
+    id: catware
+    name: Catware
+    alt_name: ""
+-
+    id: cbe
+    name: 'CBE Software'
+    alt_name: ""
+-
+    id: channel8
+    name: 'Channel 8 Software'
+    alt_name: ""
+-
+    id: clipper
+    name: 'Clipper Software'
+    alt_name: ""
+-
+    id: coktel
+    name: 'Coktel Vision'
+    alt_name: ""
+-
+    id: colossal
+    name: '(Colossal) Pictures'' New Media'
+    alt_name: ""
+-
+    id: coredesign
+    name: 'Core Design'
+    alt_name: ""
+-
+    id: creativedream
+    name: 'CreativeDream Studio'
+    alt_name: ""
+-
+    id: creativereality
+    name: 'Creative Reality'
+    alt_name: ""
+-
+    id: cryo
+    name: 'Cryo Interactive'
+    alt_name: ""
+-
+    id: cuc
+    name: 'CUC Software International'
+    alt_name: ""
+-
+    id: cyan
+    name: 'Cyan Worlds'
+    alt_name: Cyan
+-
+    id: cyberdreams
+    name: Cyberdreams
+    alt_name: ""
+-
+    id: daedalic
+    name: 'Daedalic Entertainment'
+    alt_name: ""
+-
+    id: darkling
+    name: 'Darkling Room'
+    alt_name: ""
+-
+    id: deadcode
+    name: 'Dead:Code Software'
+    alt_name: ""
+-
+    id: delphine
+    name: 'Delphine Software'
+    alt_name: ""
+-
+    id: destiny
+    name: 'Destiny Software'
+    alt_name: ""
+-
+    id: digitaldreams
+    name: 'Digital Dreams Multimedia'
+    alt_name: ""
+-
+    id: digitalequipment
+    name: 'Digital Equipment Corporation'
+    alt_name: ""
+-
+    id: digitalfantasia
+    name: 'Digital Fantasia'
+    alt_name: ""
+-
+    id: digitalvillage
+    name: 'The Digital Village'
+    alt_name: ""
+-
+    id: disney
+    name: Disney
+    alt_name: ""
+-
+    id: divide
+    name: 'Divide By Zero'
+    alt_name: ""
+-
+    id: domark
+    name: Domark
+    alt_name: ""
+-
+    id: dosowisko
+    name: Dosowisko.net
+    alt_name: ""
+-
+    id: dreamagination
+    name: Dreamagination
+    alt_name: ""
+-
+    id: dreamcatchereurope
+    name: 'DreamCatcher Europe'
+    alt_name: ""
+-
+    id: dreamcatcherinteractive
+    name: 'DreamCatcher Interactive'
+    alt_name: ""
+-
+    id: dreamersguild
+    name: 'The Dreamers Guild'
+    alt_name: ""
+-
+    id: dreamforge
+    name: 'DreamForge Intertainment'
+    alt_name: ""
+-
+    id: dreamworks
+    name: 'DreamWorks Interactive'
+    alt_name: ""
+-
+    id: dro
+    name: 'Dro Soft'
+    alt_name: ""
+-
+    id: dynabyte
+    name: Dynabyte
+    alt_name: ""
+-
+    id: dynamix
+    name: Dynamix
+    alt_name: ""
+-
+    id: ea
+    name: 'Electronic Arts'
+    alt_name: ""
+-
+    id: eie
+    name: 'Empire Interactive Entertainment'
+    alt_name: ""
+-
+    id: eloi
+    name: 'ELOI Productions'
+    alt_name: ""
+-
+    id: encore
+    name: 'Encore Software'
+    alt_name: ""
+-
+    id: erbe
+    name: 'Erbe Software'
+    alt_name: ""
+-
+    id: ere
+    name: 'ERE Informatique'
+    alt_name: ""
+-
+    id: esp
+    name: 'Entertainment Software Partners'
+    alt_name: ""
+-
+    id: evryware
+    name: Evryware
+    alt_name: ""
+-
+    id: fan
+    name: 'Fan game'
+    alt_name: ""
+-
+    id: fatfunky
+    name: 'Fat Funky'
+    alt_name: ""
+-
+    id: firstlight
+    name: Firstlight
+    alt_name: ""
+-
+    id: flashpoint
+    name: 'Flashpoint Productions'
+    alt_name: ""
+-
+    id: forgottenkey
+    name: 'Forgotten Key'
+    alt_name: ""
+-
+    id: ftl
+    name: 'FTL Games'
+    alt_name: ""
+-
+    id: funhouse
+    name: 'Funhouse Design'
+    alt_name: ""
+-
+    id: gotgame
+    name: 'Got Game Entertainment'
+    alt_name: ""
+-
+    id: graydesign
+    name: 'Gray Design Associates'
+    alt_name: ""
+-
+    id: gt
+    name: 'GT Interactive'
+    alt_name: ""
+-
+    id: he
+    name: 'Humongous Entertainment'
+    alt_name: ""
+-
+    id: hungry
+    name: 'Hungry Software'
+    alt_name: ""
+-
+    id: infocom
+    name: Infocom
+    alt_name: ""
+-
+    id: interplay
+    name: 'Interplay Productions'
+    alt_name: ""
+-
+    id: kemco
+    name: Kemco
+    alt_name: ""
+-
+    id: krumbukt
+    name: Krumbukt
+    alt_name: ""
+-
+    id: lankhor
+    name: Lankhor
+    alt_name: ""
+-
+    id: lkavalon
+    name: 'L.K. Avalon'
+    alt_name: ""
+-
+    id: local
+    name: 'Local Studio'
+    alt_name: ""
+-
+    id: lucasarts
+    name: LucasArts
+    alt_name: ""
+-
+    id: macromedia
+    name: Macromedia
+    alt_name: ""
+-
+    id: maxis
+    name: Maxis
+    alt_name: ""
+-
+    id: mdna
+    name: 'MDNA Games'
+    alt_name: ""
+-
+    id: merit
+    name: 'Merit Studios'
+    alt_name: ""
+-
+    id: merscom
+    name: Merscom
+    alt_name: ""
+-
+    id: metropolice
+    name: 'Metropolis Software House'
+    alt_name: ""
+-
+    id: microprose
+    name: MicroProse
+    alt_name: ""
+-
+    id: microsoft
+    name: Microsoft
+    alt_name: ""
+-
+    id: mindscape
+    name: Mindscape
+    alt_name: ""
+-
+    id: mpe
+    name: 'MP Entertainment'
+    alt_name: ""
+-
+    id: mythos
+    name: 'Mythos Software'
+    alt_name: ""
+-
+    id: nayma
+    name: 'Nayma Software'
+    alt_name: ""
+-
+    id: nemoria
+    name: 'Nemoria Entertainment'
+    alt_name: ""
+-
+    id: neverhood
+    name: 'The Neverhood'
+    alt_name: ' Inc.'
+-
+    id: nintendo
+    name: Nintendo
+    alt_name: ""
+-
+    id: nobilis
+    name: Nobilis
+    alt_name: ""
+-
+    id: nosense
+    name: NoSense
+    alt_name: ""
+-
+    id: nwc
+    name: 'New World Computing'
+    alt_name: ""
+-
+    id: origin
+    name: 'Origin Systems'
+    alt_name: ""
+-
+    id: pavo
+    name: 'Pavo Entertainment'
+    alt_name: ""
+-
+    id: pendulo
+    name: 'Péndulo Studios'
+    alt_name: ""
+-
+    id: perfect
+    name: 'Perfect Entertainment'
+    alt_name: ""
+-
+    id: piranha
+    name: 'Piranha Interactive Publishing'
+    alt_name: ""
+-
+    id: playmates
+    name: 'Playmates Interactive Entertainment'
+    alt_name: ""
+-
+    id: presto
+    name: 'Presto Studios'
+    alt_name: ""
+-
+    id: psygnosis
+    name: Psygnosis
+    alt_name: ""
+-
+    id: rainbird
+    name: 'Rainbird Software'
+    alt_name: ""
+-
+    id: rebellion
+    name: Rebellion
+    alt_name: ""
+-
+    id: revistronic
+    name: Revistronic
+    alt_name: ""
+-
+    id: revolution
+    name: Revolution
+    alt_name: ""
+-
+    id: riki
+    name: 'Riki Computer Games'
+    alt_name: ""
+-
+    id: rootfix
+    name: 'RootFix Entertainment'
+    alt_name: ""
+-
+    id: sacis
+    name: Sacis
+    alt_name: ""
+-
+    id: sanctuary
+    name: 'Sanctuary Woods'
+    alt_name: ""
+-
+    id: sandcastle
+    name: Sandcastle
+    alt_name: ""
+-
+    id: sega
+    name: Sega
+    alt_name: ""
+-
+    id: sierra
+    name: Sierra
+    alt_name: 'Sierra On-Line'
+-
+    id: skif
+    name: S.K.I.F.
+    alt_name: ""
+-
+    id: softgold
+    name: Softgold
+    alt_name: ""
+-
+    id: sony
+    name: Sony
+    alt_name: ""
+-
+    id: terra
+    name: 'Terra Nova Development'
+    alt_name: ""
+-
+    id: thorsoft
+    name: 'Thorsoft of Letchworth'
+    alt_name: ""
+-
+    id: tomahawk
+    name: Tomahawk
+    alt_name: ""
+-
+    id: tommo
+    name: Tommo
+    alt_name: ""
+-
+    id: traktor
+    name: 'Traktor Games'
+    alt_name: ""
+-
+    id: triolobyte
+    name: Trilobyte
+    alt_name: ""
+-
+    id: tsunami
+    name: 'Tsunami Games'
+    alt_name: ""
+-
+    id: ubisoft
+    name: Ubisoft
+    alt_name: ""
+-
+    id: viacom
+    name: Viacom
+    alt_name: ""
+-
+    id: viperante
+    name: Viperante
+    alt_name: ""
+-
+    id: virgin
+    name: 'Virgin Interactive'
+    alt_name: ""
+-
+    id: westwood
+    name: 'Westwood Studios'
+    alt_name: ""
+-
+    id: zojoi
+    name: Zojoi
+    alt_name: ""
