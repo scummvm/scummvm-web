@@ -23,7 +23,7 @@ class LocalizationUtils
         $langs = array_slice(scandir(DIR_LANG), 2);
         foreach ($langs as $key => $value) {
             $this->convertLanguageJsonToSmartyIni($value);
-            $this->updateNewsI18n($value);
+            $this->updateNewsL10n($value);
         }
     }
 
@@ -46,27 +46,27 @@ class LocalizationUtils
         file_put_contents(join(DIRECTORY_SEPARATOR, [DIR_LANG,$lang,"strings.ini"]), $output);
     }
 
-    private function updateNewsI18n($lang)
+    private function updateNewsL10n($lang)
     {
         $newsFile = join(DIRECTORY_SEPARATOR, [DIR_LANG,$lang,"news.json"]);
-        // For non-english, create/overwrite JSON files from our i18n file
+        // For non-english, create/overwrite JSON files from our l10n file
         if ($lang !== DEFAULT_LOCALE) {
             if (!file_exists($newsFile)) { return;
             }
             echo("Converting " . $newsFile . " to individual Markdown files\n");
-            $i18n = json_decode(file_get_contents($newsFile));
+            $l10n = json_decode(file_get_contents($newsFile));
 
-            foreach ($i18n as $key => $translatedArticle) {
+            foreach ($l10n as $key => $translatedArticle) {
                 $englishArticle = YamlFrontMatter::parse(file_get_contents(join(DIRECTORY_SEPARATOR, [DIR_NEWS, DEFAULT_LOCALE,"/{$key}.markdown"])));
 
                 $date = $this->purifier->purify($englishArticle->date);
                 $author = $this->purifier->purify($englishArticle->author);
-                if (array_key_exists('title', $translatedArticle) && $translatedArticle->title) {
+                if (property_exists($translatedArticle, 'title') && $translatedArticle->title) {
                     $title = $this->purifier->purify(str_replace('"', '\"', $translatedArticle->title));
                 } else {
                     $title = $this->purifier->purify(str_replace('"', '\"', $englishArticle->title));
                 }
-                if (array_key_exists('content', $translatedArticle) && $translatedArticle->content) {
+                if (property_exists($translatedArticle, 'content') && $translatedArticle->content) {
                     $content = $this->purifier->purify(trim($translatedArticle->content));
                 } else {
                     $content = $this->purifier->purify(trim($englishArticle->body()));
@@ -90,8 +90,8 @@ class LocalizationUtils
                 );
             }
         } else {
-            // Update the base english i18n file
-            echo("Converting English Markdown files to the I18N base file\n");
+            // Update the base english l10n file
+            echo("Converting English Markdown files to the l10n base file\n");
             $newsJson = array();
             $news = $this->getAllNews($lang);
 
