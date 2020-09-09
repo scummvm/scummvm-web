@@ -5,9 +5,9 @@ use ScummVM\Objects\DownloadsSection;
 use ScummVM\XMLParser;
 
 /**
- * The GamesModel will produce DownloadsSection objects.
+ * The GameDownloadsModel will produce DownloadsSection objects.
  */
-abstract class GamesModel
+abstract class GameDownloadsModel
 {
     /* Get all download entries. */
     public static function getAllDownloads()
