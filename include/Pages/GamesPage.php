@@ -2,7 +2,7 @@
 namespace ScummVM\Pages;
 
 use ScummVM\Controller;
-use ScummVM\Models\GamesModel;
+use ScummVM\Models\GameDownloadsModel;
 
 class GamesPage extends Controller
 {
@@ -18,8 +18,8 @@ class GamesPage extends Controller
     /* Display the index page. */
     public function index()
     {
-        $downloads = GamesModel::getAllDownloads();
-        $sections = GamesModel::getAllSections();
+        $downloads = GameDownloadsModel::getAllDownloads();
+        $sections = GameDownloadsModel::getAllSections();
         return $this->renderPage(
             array(
                 'title' => $this->getConfigVars('gamesTitle'),
