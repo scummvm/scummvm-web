@@ -1,0 +1,375 @@
+-
+    id: access
+    name: Access
+    alt_name: ""
+    enabled: true
+-
+    id: adl
+    name: ADL
+    alt_name: 'Adventure Development Language'
+    enabled: true
+-
+    id: agi
+    name: AGI
+    alt_name: 'Adventure Game Interpreter'
+    enabled: true
+-
+    id: agos
+    name: AGOS
+    alt_name: ""
+    enabled: true
+-
+    id: avalanche
+    name: Avalanche
+    alt_name: ""
+    enabled: false
+-
+    id: bbvs
+    name: 'Beavis and Butt-Head in Virtual Stupidity'
+    alt_name: ""
+    enabled: true
+-
+    id: bladerunner
+    name: 'Blade Runner'
+    alt_name: ""
+    enabled: true
+-
+    id: cge
+    name: CGE
+    alt_name: 'Common Game Engine'
+    enabled: true
+-
+    id: cge2
+    name: CGE2
+    alt_name: 'Common Game Engine 2'
+    enabled: true
+-
+    id: chewy
+    name: 'Chewy: Esc from F5'
+    alt_name: ""
+    enabled: false
+-
+    id: cine
+    name: Cinématique
+    alt_name: ""
+    enabled: true
+-
+    id: composer
+    name: 'Magic Composer'
+    alt_name: ""
+    enabled: true
+-
+    id: cruise
+    name: CruisE
+    alt_name: ""
+    enabled: true
+-
+    id: cryo
+    name: Cryo
+    alt_name: ""
+    enabled: false
+-
+    id: cryomni3d
+    name: Cryomni3D
+    alt_name: ""
+    enabled: true
+-
+    id: director
+    name: 'Macromedia Director'
+    alt_name: ""
+    enabled: false
+-
+    id: dm
+    name: 'Dungeon Maser'
+    alt_name: ""
+    enabled: false
+-
+    id: draci
+    name: Draci
+    alt_name: 'Dračí Historie'
+    enabled: true
+-
+    id: dragons
+    name: 'Blazing Dragons'
+    alt_name: ""
+    enabled: false
+-
+    id: drascula
+    name: Drascula
+    alt_name: ""
+    enabled: true
+-
+    id: dreamweb
+    name: DreamWeb
+    alt_name: ""
+    enabled: true
+-
+    id: fullpipe
+    name: 'Full Pipe'
+    alt_name: ""
+    enabled: true
+-
+    id: glk
+    name: Glk
+    alt_name: ""
+    enabled: false
+-
+    id: gnap
+    name: Gnap
+    alt_name: ""
+    enabled: true
+-
+    id: gob
+    name: Gob
+    alt_name: ""
+    enabled: true
+-
+    id: griffon
+    name: 'The Griffon Legend'
+    alt_name: ""
+    enabled: false
+-
+    id: groovie
+    name: Groovie
+    alt_name: ""
+    enabled: true
+-
+    id: hdb
+    name: 'Hyperspace Delivery Boy!'
+    alt_name: ""
+    enabled: true
+-
+    id: hopkins
+    name: 'Hopkins FBI'
+    alt_name: ""
+    enabled: true
+-
+    id: hugo
+    name: Hugo
+    alt_name: ""
+    enabled: true
+-
+    id: illusions
+    name: Illusions
+    alt_name: ""
+    enabled: true
+-
+    id: kyra
+    name: Kyra
+    alt_name: ""
+    enabled: true
+-
+    id: lab
+    name: 'The Labyrinth of Time'
+    alt_name: ""
+    enabled: true
+-
+    id: lastexpress
+    name: 'The Last Express'
+    alt_name: ""
+    enabled: false
+-
+    id: lilliput
+    name: Lilliput
+    alt_name: ""
+    enabled: false
+-
+    id: lure
+    name: 'Lure of the Temptress'
+    alt_name: ""
+    enabled: true
+-
+    id: macventure
+    name: MacVenture
+    alt_name: ""
+    enabled: false
+-
+    id: made
+    name: MADE
+    alt_name: 'Multimedia Applications Development Environment'
+    enabled: true
+-
+    id: mads
+    name: MADS
+    alt_name: 'MicroProse Adventure Development System'
+    enabled: true
+-
+    id: mohawk
+    name: Mohawk
+    alt_name: ""
+    enabled: true
+-
+    id: mortevielle
+    name: Mortevielle
+    alt_name: ""
+    enabled: true
+-
+    id: mutationofjb
+    name: 'Mutation of JB'
+    alt_name: ""
+    enabled: true
+-
+    id: neverhood
+    name: 'The Neverhood'
+    alt_name: ""
+    enabled: true
+-
+    id: parallaction
+    name: Parallaction
+    alt_name: ""
+    enabled: true
+-
+    id: pegasus
+    name: 'The Journeyman Project: Pegasus Prime'
+    alt_name: ""
+    enabled: true
+-
+    id: pink
+    name: 'Pink Panther'
+    alt_name: ""
+    enabled: true
+-
+    id: plumbers
+    name: 'Plumbers Don''t Wear Ties!'
+    alt_name: ""
+    enabled: true
+-
+    id: prince
+    name: 'The Prince and the Coward'
+    alt_name: ""
+    enabled: true
+-
+    id: queen
+    name: 'Flight of the Amazon Queen'
+    alt_name: ""
+    enabled: true
+-
+    id: saga
+    name: SAGA
+    alt_name: 'Scripts for Animated Graphic Adventures'
+    enabled: true
+-
+    id: sci
+    name: SCI
+    alt_name: 'Sierra Creative Interpreter'
+    enabled: true
+-
+    id: scumm
+    name: SCUMM
+    alt_name: 'Script Creation Utility for Maniac Mansion'
+    enabled: true
+-
+    id: sherlock
+    name: Sherlock
+    alt_name: ""
+    enabled: true
+-
+    id: sky
+    name: Sky
+    alt_name: 'Beneath a Steel Sky'
+    enabled: true
+-
+    id: sludge
+    name: SLUDGE
+    alt_name: ""
+    enabled: false
+-
+    id: startrek
+    name: 'Star Trek'
+    alt_name: ""
+    enabled: false
+-
+    id: supernova
+    name: Supernova
+    alt_name: ""
+    enabled: true
+-
+    id: sword1
+    name: Sword1
+    alt_name: 'Broken Sword: The Shadow of the Templars'
+    enabled: true
+-
+    id: sword2
+    name: Sword2
+    alt_name: 'Broken Sword: The Smoking Mirror'
+    enabled: true
+-
+    id: sword25
+    name: Sword25
+    alt_name: 'Broken Sword 2.5'
+    enabled: true
+-
+    id: teenagent
+    name: TeenAgent
+    alt_name: ""
+    enabled: true
+-
+    id: tinsel
+    name: Tinsel
+    alt_name: ""
+    enabled: true
+-
+    id: titanic
+    name: 'Starship Titanic'
+    alt_name: ""
+    enabled: true
+-
+    id: toltecs
+    name: '3 Skulls of the Toltecs'
+    alt_name: ""
+    enabled: true
+-
+    id: tony
+    name: 'Tony Tough and the Night of Roasted Moths'
+    alt_name: ""
+    enabled: true
+-
+    id: toon
+    name: Toonstruck
+    alt_name: ""
+    enabled: true
+-
+    id: touche
+    name: 'Touché: The Adventures of the Fifth Musketeer'
+    alt_name: ""
+    enabled: true
+-
+    id: tsage
+    name: TsAGE
+    alt_name: 'Tsunami Adventure Game Engine'
+    enabled: true
+-
+    id: tucker
+    name: Tucker
+    alt_name: ""
+    enabled: true
+-
+    id: ultima
+    name: Ultima
+    alt_name: ""
+    enabled: false
+-
+    id: voyeur
+    name: Voyeur
+    alt_name: ""
+    enabled: true
+-
+    id: wage
+    name: WAGE
+    alt_name: 'World Builder'
+    enabled: false
+-
+    id: wintermute
+    name: 'Wintermute Engine'
+    alt_name: ""
+    enabled: true
+-
+    id: xeen
+    name: Xeen
+    alt_name: ""
+    enabled: true
+-
+    id: zvision
+    name: ZVision
+    alt_name: ""
+    enabled: true
