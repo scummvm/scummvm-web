@@ -4,7 +4,7 @@ namespace ScummVM\Objects;
 /**
  * The Version object represents a ScummVM release version
  */
-class Company extends DataObject
+class Version extends DataObject
 {
     private $date;
 

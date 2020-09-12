@@ -14,7 +14,7 @@ abstract class DataObject
         if (array_key_exists('id', $data)) {
             $this->id = $data['id'];
         } elseif (array_key_exists('support', $data)) { // Compatibility
-            $this->id = join("_",[$data['game_id'],$data['version']]);
+            $this->id = $data['game_id'];
         }
     }
 
@@ -24,21 +24,21 @@ abstract class DataObject
         return $this->id;
     }
 
-    public function getDescription()
+    public function __toString()
     {
-        return $this->description;
+        return strval($this->id);
     }
 
     /**
-     * If the input array doesn't contain the numerical key 0, wrap it inside
-     * an array. This functions operates on the data directly.
-     *
-     * @param mixed $data the input
+     * Helper method to safely retrieve an object
+     * from an array.
      */
-    public static function toArray(&$data)
+    protected function assignFromArray($key, $array)
     {
-        if (!is_array($data) || !array_key_exists(0, $data)) {
-            $data = array($data);
+        if (array_key_exists($key, $array)) {
+            return $array[$key];
+        } else {
+            return $key;
         }
     }
 }

@@ -14,6 +14,7 @@ class Constants
 
         /* Version when the percentages on the compat page were removed */
         define('COMPAT_LAYOUT_CHANGE', '1.7.0');
+        define('COMPAT_NEW_MODEL', '2.0.0');
 
         /* News items on the front page. */
         define('NEWS_ITEMS', 5);

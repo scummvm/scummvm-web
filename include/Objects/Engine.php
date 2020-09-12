@@ -32,9 +32,9 @@ class Engine extends DataObject
     }
 
      /* Get the engine enabled status. */
-     public function getEnabled()
-     {
-         return $this->enabled;
-     }
+    public function getEnabled()
+    {
+        return $this->enabled;
+    }
 
 }
