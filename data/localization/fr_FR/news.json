@@ -274,5 +274,9 @@
     "20190630": {
         "title": "Quest for Glory, avec un peu de Hoyle Games !",
         "content": "Vous arrivez dans une grotte sombre, dans le pays mystérieux de Mordavie... Equipez votre héros et affrontez votre vieil ennemi, l'insidieux Ad Avis ! Si vous vous sentez dépassé par cette quête, vous pouvez toujours vous détendre avec un jeu de la collection Hoyle !\n\nL'équipe de ScummVM est fière d'annoncer le support des jeux suivants, qui sont prêts pour la phase de test public :\n\n*   Quest for Glory: Shadows of Darkness (alias QFG4)\n*   Hoyle Classic Games\n*   Hoyle Bridge\n*   Hoyle Children's Collection\n*   Hoyle Solitaire\n\nLes versions CD et disquette de QFG4 sont toutes deux prises en charge. Notez que le jeu de poker de Hoyle Classic Games n'est pas encore pris en charge.\n\nAlors, sortez vos copies, ou achetez QFG4 en version numérique sur [GOG](https://www.gog.com/game/quest_for_glory), et prenez la [dernière version de développement](https://buildbot.scummvm.org/builds.html) de ScummVM pour votre plateforme préférée. Tout problème rencontré peut être signalé sur notre [outil de suivi des bogues](https://bugs.scummvm.org/)."
+    },
+    "20200906": {
+        "title": "Icônes de jeu demandées",
+        "content": "![Discord rich presence](/data/news/20200906.png)\n\nLa prochaine version de ScummVM supportera la fonction rich presence de [Discord](https://discord.gg/5D8yTtF), afin que vous puissiez montrer à tous vos amis que vous jouez à ScummVM <i>et</i> le jeu précis auquel vous jouez. Mais pour faire en sorte que cela fonctionne, nous avons besoin d'icônes pour chaque jeu.\n\nSi vous avez toujours voulu contribuer à ScummVM sans avoir trouvé l'endroit où appliquer vos compétences en matière d'art et de design, c'est l'occasion ou jamais ! Venez découvrir le nouveau [dépôt Game Icons sur GitHub](https://github.com/scummvm/scummvm-icons/) pour avoir plus de détails sur la manière de nous aider."
     }
 }
