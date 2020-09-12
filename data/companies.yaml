@@ -380,7 +380,7 @@
     alt_name: ""
 -
     id: lkavalon
-    name: 'L.K. Avalon'
+    name: 'L.K. Avalon'
     alt_name: ""
 -
     id: local
@@ -411,7 +411,7 @@
     name: Merscom
     alt_name: ""
 -
-    id: metropolice
+    id: metropolis
     name: 'Metropolis Software House'
     alt_name: ""
 -
@@ -444,8 +444,8 @@
     alt_name: ""
 -
     id: neverhood
-    name: 'The Neverhood'
-    alt_name: ' Inc.'
+    name: 'The Neverhood, Inc.'
+    alt_name: ""
 -
     id: nintendo
     name: Nintendo
@@ -601,4 +601,100 @@
 -
     id: zojoi
     name: Zojoi
+    alt_name: ""
+-
+    id: icom
+    name: 'ICOM Simulations'
+    alt_name: ""
+-
+    id: infogrames
+    name: Infogrames
+    alt_name: ""
+-
+    id: ibi
+    name: 'Interactive Binary Illusions'
+    alt_name: ""
+-
+    id: interplay
+    name: Interplay
+    alt_name: ""
+-
+    id: invention
+    name: Invention
+    alt_name: ""
+-
+    id: tlc
+    name: 'The Learning Company'
+    alt_name: ""
+-
+    id: level9
+    name: 'Level 9 Computing'
+    alt_name: ""
+-
+    id: mit
+    name: 'Massachusetts Institute of Technology'
+    alt_name: ""
+-
+    id: millennium
+    name: 'Millennium Interactive Ltd.'
+    alt_name: ""
+-
+    id: monkeystone
+    name: 'Monkeystone Games'
+    alt_name: ""
+-
+    id: newgen
+    name: 'New Generation Software'
+    alt_name: ""
+-
+    id: philips
+    name: 'Philips Interactive Media'
+    alt_name: ""
+-
+    id: smokingcar
+    name: 'Smoking Car Productions'
+    alt_name: ""
+-
+    id: unitedpixtures
+    name: 'United Pixtures'
+    alt_name: ""
+-
+    id: hueforest
+    name: 'Hue Forest Entertainment'
+    alt_name: ""
+-
+    id: trendmasters
+    name: Trendmasters
+    alt_name: ""
+-
+    id: artbox
+    name: 'Art in the Box'
+    alt_name: ""
+-
+    id: mpslabs
+    name: 'MPS Labs'
+    alt_name: ""
+-
+    id: livingbooks
+    name: 'Living Books'
+    alt_name: ""
+-
+    id: kyilkhor
+    name: 'Kyilkhor Creation'
+    alt_name: ""
+-
+    id: wanderlust
+    name: 'Wanderlust Interactive'
+    alt_name: ""
+-
+    id: tsdinge
+    name: 'Thomas & Steffen Dinge'
+    alt_name: ""
+-
+    id: crystaldynamics
+    name: 'Crystal Dynamics'
+    alt_name: ""
+-
+    id: squinky
+    name: Squinky
     alt_name: ""

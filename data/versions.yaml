@@ -1,129 +1,129 @@
 -
-    version: 0.1.0
+    id: 0.1.0
     date: 1/13/2002
 -
-    version: 0.2.0
+    id: 0.2.0
     date: 5/14/2002
 -
-    version: 0.3.0
+    id: 0.3.0
     date: 12/1/2002
 -
-    version: 0.4.0
+    id: 0.4.0
     date: 5/11/2003
 -
-    version: 0.4.1
+    id: 0.4.1
     date: 5/25/2003
 -
-    version: 0.5.0
+    id: 0.5.0
     date: 8/1/2003
 -
-    version: 0.5.1
+    id: 0.5.1
     date: 8/6/2003
 -
-    version: 0.6.0
+    id: 0.6.0
     date: 3/15/2004
 -
-    version: 0.6.1
+    id: 0.6.1
     date: 7/25/2004
 -
-    version: 0.7.0
+    id: 0.7.0
     date: 12/23/2004
 -
-    version: 0.7.1
+    id: 0.7.1
     date: 3/27/2005
 -
-    version: 0.8.0
+    id: 0.8.0
     date: 10/28/2005
 -
-    version: 0.8.1
+    id: 0.8.1
     date: 1/28/2006
 -
-    version: 0.8.2
+    id: 0.8.2
     date: 2/5/2006
 -
-    version: 0.9.0
+    id: 0.9.0
     date: 6/21/2006
 -
-    version: 0.9.1
+    id: 0.9.1
     date: 10/23/2006
 -
-    version: 0.10.0
+    id: 0.10.0
     date: 6/16/2007
 -
-    version: 0.11.0
+    id: 0.11.0
     date: 1/15/2008
 -
-    version: 0.11.1
+    id: 0.11.1
     date: 2/23/2008
 -
-    version: 0.12.0
+    id: 0.12.0
     date: 9/7/2008
 -
-    version: 0.13.0
+    id: 0.13.0
     date: 2/21/2009
 -
-    version: 0.13.1
+    id: 0.13.1
     date: 4/22/2009
 -
-    version: 1.0.0rc1
+    id: 1.0.0rc1
     date: 8/21/2009
 -
-    version: 1.0.0
+    id: 1.0.0
     date: 11/7/2009
 -
-    version: 1.1.0
+    id: 1.1.0
     date: 4/3/2010
 -
-    version: 1.1.1
+    id: 1.1.1
     date: 4/29/2010
 -
-    version: 1.2.0
+    id: 1.2.0
     date: 10/8/2010
 -
-    version: 1.2.1
+    id: 1.2.1
     date: 12/11/2010
 -
-    version: 1.3.0
+    id: 1.3.0
     date: 5/24/2011
 -
-    version: 1.3.1
+    id: 1.3.1
     date: 7/12/2011
 -
-    version: 1.4.0
+    id: 1.4.0
     date: 11/11/2011
 -
-    version: 1.4.1
+    id: 1.4.1
     date: 1/31/2012
 -
-    version: 1.5.0
+    id: 1.5.0
     date: 7/27/2012
 -
-    version: 1.6.0
+    id: 1.6.0
     date: 5/31/2013
 -
-    version: 1.7.0
+    id: 1.7.0
     date: 7/23/2014
 -
-    version: 1.8.0
+    id: 1.8.0
     date: 2/26/2016
 -
-    version: 1.8.1
+    id: 1.8.1
     date: 5/26/2016
 -
-    version: 1.9.0
+    id: 1.9.0
     date: 10/10/2016
 -
-    version: 2.0.0
+    id: 2.0.0
     date: 12/8/2017
 -
-    version: 2.1.0
+    id: 2.1.0
     date: 10/4/2019
 -
-    version: 2.1.1
+    id: 2.1.1
     date: 1/17/2020
 -
-    version: 2.1.2
+    id: 2.1.2
     date: 3/30/2020
 -
-    version: DEV
-    date: 9/8/2020
+    id: DEV
+    date: 1/1/2040

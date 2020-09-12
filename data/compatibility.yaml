@@ -15,25 +15,17 @@
 -
     game_id: indy3
     support: good
-    notes: '"- There is no support for the Macintosh interface'
--
-    game_id: '- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM"'
-    support: 2.0.0
-    notes: 'amiga,atarist,dos,fmtowns'
-    version: ""
+    notes: '- There is no support for the Macintosh interface - FM-TOWNS Kanji version requires the FM-TOWNS Font ROM'
+    version: 2.0.0
+    stable_platforms: 'amiga,atarist,dos,fmtowns'
+    unstable_platforms: ""
 -
     game_id: loom
     support: excellent
-    notes: '"- The Roland update from LucasArts is required for MIDI support in the EGA version'
--
-    game_id: '- There is no support for the Macintosh interface'
--
-    game_id: '- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM'
--
-    game_id: '- PC-Engine Kanji version requires the system card ROM"'
-    support: 2.0.0
-    notes: 'amiga,atarist,dos,fmtowns,pce'
-    version: ""
+    notes: '- The Roland update from LucasArts is required for MIDI support in the EGA version - There is no support for the Macintosh interface - FM-TOWNS Kanji version requires the FM-TOWNS Font ROM - PC-Engine Kanji version requires the system card ROM'
+    version: 2.0.0
+    stable_platforms: 'amiga,atarist,dos,fmtowns,pce'
+    unstable_platforms: ""
 -
     game_id: pass
     support: excellent
@@ -44,34 +36,24 @@
 -
     game_id: monkey
     support: excellent
-    notes: '"- The Roland update from LucasArts is required for MIDI support in the EGA version'
--
-    game_id: '- Dialogue choices in the SegaCD version can be selected with mousewheel or keyboard arrow keys"'
-    support: 2.0.0
-    notes: 'amiga,atarist,dos,dos,fmtowns,mac,segacd'
-    version: ""
+    notes: '- The Roland update from LucasArts is required for MIDI support in the EGA version - Dialogue choices in the SegaCD version can be selected with mousewheel or keyboard arrow keys'
+    version: 2.0.0
+    stable_platforms: 'amiga,atarist,dos,dos,fmtowns,mac,segacd'
+    unstable_platforms: ""
 -
     game_id: monkey2
     support: excellent
-    notes: '"- Demo version often crashes due to missing resources, since it was never meant to be playable'
--
-    game_id: '- No support for playing back the recorded file of gameplay in demo version'
--
-    game_id: '- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM'
--
-    game_id: '- Loading of original instrument samples for Amiga version not implemented, so music differs from original interpreter.\"'
-    support: 2.0.0
-    notes: 'amiga,dos,fmtowns,mac'
-    version: ""
+    notes: '- Demo version often crashes due to missing resources, since it was never meant to be playable - No support for playing back the recorded file of gameplay in demo version - FM-TOWNS Kanji version requires the FM-TOWNS Font ROM - Loading of original instrument samples for Amiga version not implemented, so music differs from original interpreter.\'
+    version: 2.0.0
+    stable_platforms: 'amiga,dos,fmtowns,mac'
+    unstable_platforms: ""
 -
     game_id: atlantis
     support: excellent
-    notes: '"- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM'
--
-    game_id: '- Loading of original instrument samples for Amiga version not implemented, so music differs from original interpreter."'
-    support: 2.0.0
-    notes: 'amiga,dos,fmtowns,mac'
-    version: ""
+    notes: '- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM - Loading of original instrument samples for Amiga version not implemented, so music differs from original interpreter.'
+    version: 2.0.0
+    stable_platforms: 'amiga,dos,fmtowns,mac'
+    unstable_platforms: ""
 -
     game_id: tentacle
     support: excellent
@@ -138,32 +120,24 @@
 -
     game_id: elvira1
     support: good
-    notes: '"- Commodore 64 version doesn''t use AGOS, so will never be supported.'
--
-    game_id: '- No music in the Atari ST version."'
-    support: 2.0.0
-    notes: 'amiga,atarist,dos'
-    version: c64
+    notes: '- Commodore 64 version doesn''t use AGOS, so will never be supported. - No music in the Atari ST version.'
+    version: 2.0.0
+    stable_platforms: 'amiga,atarist,dos'
+    unstable_platforms: c64
 -
     game_id: elvira2
     support: good
-    notes: '"- Commodore 64 version doesn''t use AGOS, so will never be supported.'
--
-    game_id: '- No music in the Atari ST version.'
--
-    game_id: '- No sound effects in the DOS version."'
-    support: 2.0.0
-    notes: 'amiga,atarist,dos'
-    version: c64
+    notes: '- Commodore 64 version doesn''t use AGOS, so will never be supported. - No music in the Atari ST version. - No sound effects in the DOS version.'
+    version: 2.0.0
+    stable_platforms: 'amiga,atarist,dos'
+    unstable_platforms: c64
 -
     game_id: pn
     support: untested
-    notes: '"- Minor spacing glitches with charset.'
--
-    game_id: '- No day to night fading in Amiga and Atari ST versions."'
-    support: 2.0.0
-    notes: 'amiga,atarist,dos'
-    version: ""
+    notes: '- Minor spacing glitches with charset. - No day to night fading in Amiga and Atari ST versions.'
+    version: 2.0.0
+    stable_platforms: 'amiga,atarist,dos'
+    unstable_platforms: ""
 -
     game_id: simon1
     support: excellent
@@ -174,12 +148,10 @@
 -
     game_id: simon2
     support: excellent
-    notes: '"- Only the default language (English) in Amiga & Macintosh versions is supported'
--
-    game_id: '- F10 key animation is different in Amiga & Macintosh versions"'
-    support: 2.0.0
-    notes: 'amiga,dos,win'
-    version: ""
+    notes: '- Only the default language (English) in Amiga & Macintosh versions is supported - F10 key animation is different in Amiga & Macintosh versions'
+    version: 2.0.0
+    stable_platforms: 'amiga,dos,win'
+    unstable_platforms: ""
 -
     game_id: dimp
     support: good
@@ -204,12 +176,10 @@
 -
     game_id: swampy
     support: good
-    notes: '"- No support for displaying explanation, when clicking on items'
--
-    game_id: '- No support for displaying, entering, loading and saving high scores"'
-    support: 2.0.0
-    notes: win
-    version: ""
+    notes: '- No support for displaying explanation, when clicking on items - No support for displaying, entering, loading and saving high scores'
+    version: 2.0.0
+    stable_platforms: win
+    unstable_platforms: ""
 -
     game_id: feeble
     support: excellent
@@ -220,12 +190,10 @@
 -
     game_id: waxworks
     support: untested
-    notes: '"- Amiga version has not been confirmed as completable.'
--
-    game_id: '- DOS version doesn''t load or save items states correctly, leading to various bugs"'
-    support: 2.0.0
-    notes: 'amiga,dos'
-    version: ""
+    notes: '- Amiga version has not been confirmed as completable. - DOS version doesn''t load or save items states correctly, leading to various bugs'
+    version: 2.0.0
+    stable_platforms: 'amiga,dos'
+    unstable_platforms: ""
 -
     game_id: bargon
     support: excellent
@@ -264,16 +232,12 @@
 -
     game_id: gob3
     support: excellent
-    notes: '"- Issues with the mouse cursor visibility'
+    notes: '- Issues with the mouse cursor visibility - No support for original font and music files in Macintosh version - The number of used jokers isn''t saved correctly. You''ll always have 5 to spend again after loading'
+    version: 2.0.0
+    stable_platforms: 'amiga,dos,mac,win'
+    unstable_platforms: ""
 -
-    game_id: '- No support for original font and music files in Macintosh version'
--
-    game_id: '- The number of used jokers isn''t saved correctly. You''ll always have 5 to spend again after loading"'
-    support: 2.0.0
-    notes: 'amiga,dos,mac,win'
-    version: ""
--
-    game_id: lostintime
+    game_id: lit
     support: excellent
     notes: '- Issues with the mouse cursor visibility'
     version: 2.0.0
@@ -317,20 +281,10 @@
 -
     game_id: sky
     support: excellent
-    notes: '"- Floppy demos aren''t supported'
--
-    game_id: '- The following bugs are present in the original game and can''t be fixed:'
--
-    game_id: '- The voice files for some sentences are missing.'
--
-    game_id: '- This is especially noticeable in the court- and Mrs. Piermont sequence.'
--
-    game_id: '- The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders'
--
-    game_id: '- Special characters for french and italian subtitles are incorrect sometimes"'
-    support: 2.0.0
-    notes: dos
-    version: amiga
+    notes: '- Floppy demos aren''t supported - The following bugs are present in the original game and can''t be fixed:   - The voice files for some sentences are missing.     - This is especially noticeable in the court- and Mrs. Piermont sequence.   - The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders   - Special characters for french and italian subtitles are incorrect sometimes'
+    version: 2.0.0
+    stable_platforms: dos
+    unstable_platforms: amiga
 -
     game_id: sword1
     support: excellent
@@ -495,14 +449,10 @@
 -
     game_id: agi-fanmade
     support: good
-    notes: '"- Many fan games are untested and may have issues.'
--
-    game_id: '- AGIMOUSE, AGIPAL, AGI256 and AGI256-2 hacks are also supported by this target'
--
-    game_id: '- Occasional graphics glitches"'
-    support: 2.0.0
-    notes: 'coco3,dos'
-    version: ""
+    notes: '- Many fan games are untested and may have issues. - AGIMOUSE, AGIPAL, AGI256 and AGI256-2 hacks are also supported by this target - Occasional graphics glitches'
+    version: 2.0.0
+    stable_platforms: 'coco3,dos'
+    unstable_platforms: ""
 -
     game_id: mickey
     support: good
@@ -527,12 +477,10 @@
 -
     game_id: castlebrain
     support: excellent
-    notes: '"- Music in Macintosh and Amiga versions may have glitches'
--
-    game_id: '- No support for Macintosh hi-res fonts"'
-    support: 2.0.0
-    notes: 'amiga,dos,mac,pc98'
-    version: ""
+    notes: '- Music in Macintosh and Amiga versions may have glitches - No support for Macintosh hi-res fonts'
+    version: 2.0.0
+    stable_platforms: 'amiga,dos,mac,pc98'
+    unstable_platforms: ""
 -
     game_id: iceman
     support: excellent
@@ -648,12 +596,10 @@
 -
     game_id: kq5
     support: excellent
-    notes: '"- Music in the Macintosh and Amiga versions may have glitches'
--
-    game_id: '- No support for Macintosh hi-res fonts"'
-    support: 2.0.0
-    notes: 'amiga,dos,fmtowns,mac,pc98,win'
-    version: ""
+    notes: '- Music in the Macintosh and Amiga versions may have glitches - No support for Macintosh hi-res fonts'
+    version: 2.0.0
+    stable_platforms: 'amiga,dos,fmtowns,mac,pc98,win'
+    unstable_platforms: ""
 -
     game_id: kq6
     support: excellent
@@ -692,12 +638,10 @@
 -
     game_id: lsl1sci
     support: excellent
-    notes: '"- Music in the Macintosh and Amiga versions may have glitches'
--
-    game_id: '- No support for Macintosh hi-res fonts"'
-    support: 2.0.0
-    notes: 'amiga,dos,mac'
-    version: ""
+    notes: '- Music in the Macintosh and Amiga versions may have glitches - No support for Macintosh hi-res fonts'
+    version: 2.0.0
+    stable_platforms: 'amiga,dos,mac'
+    unstable_platforms: ""
 -
     game_id: lsl2
     support: excellent
@@ -715,12 +659,10 @@
 -
     game_id: lsl5
     support: excellent
-    notes: '"- Music in the Macintosh and Amiga versions may have glitches'
--
-    game_id: '- No support for Macintosh hi-res fonts"'
-    support: 2.0.0
-    notes: 'amiga,dos,mac'
-    version: ""
+    notes: '- Music in the Macintosh and Amiga versions may have glitches - No support for Macintosh hi-res fonts'
+    version: 2.0.0
+    stable_platforms: 'amiga,dos,mac'
+    unstable_platforms: ""
 -
     game_id: lsl6
     support: excellent
@@ -885,12 +827,10 @@
 -
     game_id: sq1sci
     support: excellent
-    notes: '"- Music in Macintosh and Amiga versions may have glitches'
--
-    game_id: '- No support for Macintosh hi-res fonts"'
-    support: 2.0.0
-    notes: 'amiga,dos,mac'
-    version: ""
+    notes: '- Music in Macintosh and Amiga versions may have glitches - No support for Macintosh hi-res fonts'
+    version: 2.0.0
+    stable_platforms: 'amiga,dos,mac'
+    unstable_platforms: ""
 -
     game_id: sq3
     support: excellent
@@ -901,12 +841,10 @@
 -
     game_id: sq4
     support: excellent
-    notes: '"- Music in Macintosh and Amiga versions may have glitches'
--
-    game_id: '- No support for Macintosh hi-res fonts"'
-    support: 2.0.0
-    notes: 'amiga,dos,mac,pc98,win'
-    version: ""
+    notes: '- Music in Macintosh and Amiga versions may have glitches - No support for Macintosh hi-res fonts'
+    version: 2.0.0
+    stable_platforms: 'amiga,dos,mac,pc98,win'
+    unstable_platforms: ""
 -
     game_id: sq5
     support: excellent
@@ -1078,12 +1016,10 @@
 -
     game_id: hugo1
     support: good
-    notes: '"- Playback is not supported'
--
-    game_id: '- No support for one of the original fonts used during the intro of the DOS version"'
-    support: 2.0.0
-    notes: 'dos,win'
-    version: ""
+    notes: '- Playback is not supported - No support for one of the original fonts used during the intro of the DOS version'
+    version: 2.0.0
+    stable_platforms: 'dos,win'
+    unstable_platforms: ""
 -
     game_id: hugo2
     support: good
@@ -1220,12 +1156,10 @@
 -
     game_id: kyra1
     support: good
-    notes: '"- No music or sound effects in the Macintosh floppy versions'
--
-    game_id: '- Macintosh CD is using included DOS music and sound effects for now"'
-    support: 2.0.0
-    notes: 'amiga,dos,fmtowns,mac,pc98'
-    version: ""
+    notes: '- No music or sound effects in the Macintosh floppy versions - Macintosh CD is using included DOS music and sound effects for now'
+    version: 2.0.0
+    stable_platforms: 'amiga,dos,fmtowns,mac,pc98'
+    unstable_platforms: ""
 -
     game_id: kyra2
     support: good
@@ -1355,14 +1289,10 @@
 -
     game_id: football2002
     support: good
-    notes: '"- Minor graphical glitches'
--
-    game_id: '- No support for multiplayer'
--
-    game_id: '- No videos"'
-    support: 2.0.0
-    notes: 'mac,win'
-    version: ""
+    notes: '- Minor graphical glitches - No support for multiplayer - No videos'
+    version: 2.0.0
+    stable_platforms: 'mac,win'
+    unstable_platforms: ""
 -
     game_id: brstorm
     support: excellent
@@ -1385,14 +1315,14 @@
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: Blues123Time
+    game_id: blues123time
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: BluesABCTime
+    game_id: bluesabctime
     support: good
     notes: ""
     version: 2.0.0
@@ -1406,7 +1336,7 @@
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: BluesBirthday
+    game_id: bluesbirthday
     support: good
     notes: '- Minor graphical glitches'
     version: 2.0.0
@@ -1420,7 +1350,7 @@
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: BluesTreasureHunt
+    game_id: bluestreasurehunt
     support: bugged
     notes: ""
     version: 2.0.0
@@ -1793,14 +1723,10 @@
 -
     game_id: monkey2
     support: excellent
-    notes: '"- Demo version often crashes due to missing resources, since it was never meant to be playable'
--
-    game_id: '- No support for playing back the recorded file of gameplay in demo version'
--
-    game_id: '- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM"'
-    support: 2.1.0
-    notes: 'amiga,dos,fmtowns,mac'
-    version: ""
+    notes: '- Demo version often crashes due to missing resources, since it was never meant to be playable - No support for playing back the recorded file of gameplay in demo version - FM-TOWNS Kanji version requires the FM-TOWNS Font ROM'
+    version: 2.1.0
+    stable_platforms: 'amiga,dos,fmtowns,mac'
+    unstable_platforms: ""
 -
     game_id: atlantis
     support: excellent
@@ -1811,23 +1737,17 @@
 -
     game_id: pn
     support: good
-    notes: '"- Minor spacing glitches with charset.'
--
-    game_id: '- No day to night fading in Amiga and Atari ST versions.'
--
-    game_id: '- Game has not been confirmed completable "'
-    support: 2.1.0
-    notes: 'amiga,atarist,dos'
-    version: ""
+    notes: '- Minor spacing glitches with charset. - No day to night fading in Amiga and Atari ST versions. - Game has not been confirmed completable '
+    version: 2.1.0
+    stable_platforms: 'amiga,atarist,dos'
+    unstable_platforms: ""
 -
     game_id: waxworks
     support: good
-    notes: '"- Amiga version has not been confirmed as completable.'
--
-    game_id: '- DOS version doesn''t load or save items states correctly, leading to various bugs"'
-    support: 2.1.0
-    notes: 'amiga,dos'
-    version: ""
+    notes: '- Amiga version has not been confirmed as completable. - DOS version doesn''t load or save items states correctly, leading to various bugs'
+    version: 2.1.0
+    stable_platforms: 'amiga,dos'
+    unstable_platforms: ""
 -
     game_id: hoyle5
     support: good
@@ -2041,21 +1961,17 @@
 -
     game_id: ultima4
     support: good
-    notes: '"- FM-Towns may be working, but we''ll need someone with a copy to provide us a detection entry and test it out.'
--
-    game_id: '- Provides an optional VGA enhanced mode"'
-    support: DEV
-    notes: dos
-    version: ""
+    notes: '- FM-Towns may be working, but we''ll need someone with a copy to provide us a detection entry and test it out. - Provides an optional VGA enhanced mode'
+    version: DEV
+    stable_platforms: dos
+    unstable_platforms: ""
 -
     game_id: ultima6
     support: good
-    notes: '"- German translation patch is also partially supported, with some interface elements not translated.'
--
-    game_id: '- Provides an optional enhanced mode that has a full screen map and container widgets."'
-    support: DEV
-    notes: dos
-    version: pc98
+    notes: '- German translation patch is also partially supported, with some interface elements not translated. - Provides an optional enhanced mode that has a full screen map and container widgets.'
+    version: DEV
+    stable_platforms: dos
+    unstable_platforms: pc98
 -
     game_id: ultima8
     support: good
