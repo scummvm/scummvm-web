@@ -18,7 +18,8 @@
     "piwik/device-detector": "^3.11",
     "spatie/yaml-front-matter": "^2.0",
     "erusev/parsedown": "^1.7",
-    "scssphp/scssphp": "^1.2"
+    "scssphp/scssphp": "^1.2",
+    "composer/semver": "^3.2"
   },
   "scripts": {
     "post-install-cmd": [
@@ -49,7 +50,7 @@
     ],
     "start": [
       "Composer\\Config::disableProcessTimeout",
-      "php -S localhost:8000 -t ./public_html"
+      "php -S localhost:8000 -t ./public_html ./public_html/index.php"
     ],
     "develop": [
       "@build",

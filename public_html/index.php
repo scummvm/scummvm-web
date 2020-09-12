@@ -1,6 +1,16 @@
 <?php
 namespace ScummVM;
 
+/**
+ * Development only - when using PHP built in web server
+ */
+if (isset($_SERVER['SERVER_SOFTWARE']) &&
+\preg_match("/PHP [\d\.]+ Development Server/",$_SERVER['SERVER_SOFTWARE'])) {
+  if (\preg_match('/\.(?:png|jpg|jpeg|gif|css)/', $_SERVER["REQUEST_URI"])) {
+    return false;
+  }
+}
+
 require_once __DIR__ . '/../vendor/autoload.php';
 require_once __DIR__ . '/../include/Constants.php';
 
