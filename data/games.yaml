@@ -273,11 +273,11 @@
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Elvira_II:_The_Jaws_of_Cerberus'
 -
     id: simon2
-    name: 'Simon the Sorcerer II: The Lion'
-    engine_id: ' the Wizard and the Wardrobe'
-    company_id: agos
-    moby_id: adventuresoft
-    datafiles: '1851'
+    name: 'Simon the Sorcerer II: The Lion, the Wizard and the Wardrobe'
+    engine_id: agos
+    company_id: adventuresoft
+    moby_id: '1851'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Simon_the_Sorcerer_II:_The_Lion.2C_the_Wizard_and_the_Wardrobe'
 -
     id: feeble
     name: 'The Feeble Files'
@@ -380,7 +380,7 @@
     id: chewy
     name: 'Chewy: Esc from F5'
     engine_id: chewy
-    company_id: ""
+    company_id: newgen
     moby_id: '2339'
     datafiles: ""
 -
@@ -485,7 +485,7 @@
     id: amber
     name: 'AMBER: Journeys Beyond'
     engine_id: director
-    company_id: ""
+    company_id: hueforest
     moby_id: '2430'
     datafiles: ""
 -
@@ -506,7 +506,7 @@
     id: jman
     name: 'The Journeyman Project'
     engine_id: director
-    company_id: ""
+    company_id: presto
     moby_id: '22007'
     datafiles: ""
 -
@@ -534,77 +534,77 @@
     id: id4p1
     name: 'iD4 Mission Disk 1 - Alien Supreme Commander'
     engine_id: director
-    company_id: ""
+    company_id: trendmasters
     moby_id: ""
     datafiles: ""
 -
     id: id4p10
     name: 'iD4 Mission Disk 10 - Alien Bomber'
     engine_id: director
-    company_id: ""
+    company_id: trendmasters
     moby_id: ""
     datafiles: ""
 -
     id: id4p11
     name: 'iD4 Mission Disk 11 - Area 51'
     engine_id: director
-    company_id: ""
+    company_id: trendmasters
     moby_id: ""
     datafiles: ""
 -
     id: id4p2
     name: 'iD4 Mission Disk 2 - Alien Science Officer'
     engine_id: director
-    company_id: ""
+    company_id: trendmasters
     moby_id: ""
     datafiles: ""
 -
     id: id4p3
     name: 'iD4 Mission Disk 3 - Warrior Alien'
     engine_id: director
-    company_id: ""
+    company_id: trendmasters
     moby_id: ""
     datafiles: ""
 -
     id: id4p4
     name: 'iD4 Mission Disk 4 - Alien Navigator'
     engine_id: director
-    company_id: ""
+    company_id: trendmasters
     moby_id: ""
     datafiles: ""
 -
     id: id4p5
     name: 'iD4 Mission Disk 5 - Captain Steve Hiller'
     engine_id: director
-    company_id: ""
+    company_id: trendmasters
     moby_id: ""
     datafiles: ""
 -
     id: id4p6
     name: 'iD4 Mission Disk 6 - Dave''s Computer'
     engine_id: director
-    company_id: ""
+    company_id: trendmasters
     moby_id: ""
     datafiles: ""
 -
     id: id4p7
     name: 'iD4 Mission Disk 7 - President Whitmore'
     engine_id: director
-    company_id: ""
+    company_id: trendmasters
     moby_id: ""
     datafiles: ""
 -
     id: id4p8
     name: 'iD4 Mission Disk 8 - Alien Attack Fighter'
     engine_id: director
-    company_id: ""
+    company_id: trendmasters
     moby_id: ""
     datafiles: ""
 -
     id: id4p9
     name: 'iD4 Mission Disk 9 - FA-18 Fighter Jet'
     engine_id: director
-    company_id: ""
+    company_id: trendmasters
     moby_id: ""
     datafiles: ""
 -
@@ -658,9 +658,9 @@
     datafiles: ""
 -
     id: theapartment
-    name: 'The Apartment'
-    engine_id: ' Interactive demo'
-    company_id: director
+    name: 'The Apartment, Interactive demo'
+    engine_id: director
+    company_id: ""
     moby_id: ""
     datafiles: ""
 -
@@ -695,7 +695,7 @@
     id: dragons
     name: 'Blazing Dragons'
     engine_id: dragons
-    company_id: ""
+    company_id: crystaldynamics
     moby_id: '8513'
     datafiles: ""
 -
@@ -1024,7 +1024,7 @@
     id: hdb
     name: 'Hyperspace Delivery Boy!'
     engine_id: hdb
-    company_id: ""
+    company_id: monkeystone
     moby_id: ""
     datafiles: ""
 -
@@ -1122,49 +1122,49 @@
     id: lastexpress
     name: 'The Last Express'
     engine_id: lastexpress
-    company_id: ""
+    company_id: smokingcar
     moby_id: '1172'
     datafiles: ""
 -
     id: rome
     name: 'Rome: Pathway to Power'
     engine_id: lilliput
-    company_id: ""
+    company_id: firstlight
     moby_id: '2232'
     datafiles: ""
 -
     id: robin
     name: 'The Adventures of Robin Hood'
     engine_id: lilliput
-    company_id: ""
+    company_id: millennium
     moby_id: '2918'
     datafiles: ""
 -
     id: lure
     name: 'Lure of the Temptress'
     engine_id: lure
-    company_id: ""
+    company_id: revolution
     moby_id: '1134'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Lure_of_the_Temptress'
 -
     id: deja_vu
     name: 'Deja Vu: A Nightmare Comes True!!'
     engine_id: macventure
-    company_id: ""
+    company_id: icom
     moby_id: '1069'
     datafiles: ""
 -
     id: shadowgate
     name: Shadowgate
     engine_id: macventure
-    company_id: ""
+    company_id: icom
     moby_id: '1070'
     datafiles: ""
 -
     id: deja_vu2
     name: 'Déjà Vu II: Lost in Las Vegas'
     engine_id: macventure
-    company_id: ""
+    company_id: icom
     moby_id: '7743'
     datafiles: ""
 -
@@ -1185,35 +1185,35 @@
     id: manhole
     name: 'The Manhole'
     engine_id: made
-    company_id: ""
+    company_id: cyan
     moby_id: '9222'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Manhole.2C_The'
 -
     id: rodney
     name: 'Rodney''s Funscreen'
     engine_id: made
-    company_id: ""
+    company_id: artbox
     moby_id: ""
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Rodney.27s_Funscreen'
 -
     id: nebular
     name: 'Rex Nebular and the Cosmic Gender Bender'
     engine_id: mads
-    company_id: mps
+    company_id: microprose
     moby_id: '539'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Rex_Nebular_and_the_Cosmic_Gender_Bender'
 -
     id: phantom
     name: 'Return of the Phantom'
     engine_id: mads
-    company_id: ""
+    company_id: microprose
     moby_id: '2011'
     datafiles: ""
 -
     id: dragonsphere
     name: Dragonsphere
     engine_id: mads
-    company_id: ""
+    company_id: microprose
     moby_id: '2257'
     datafiles: ""
 -
@@ -1239,114 +1239,114 @@
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Riven:_The_Sequel_to_Myst'
 -
     id: sheila
-    name: 'Sheila Rae'
-    engine_id: ' the Brave'
-    company_id: mohawk
-    moby_id: ""
-    datafiles: '17900'
+    name: 'Sheila Rae, the Brave'
+    engine_id: mohawk
+    company_id: livingbooks
+    moby_id: '17900'
+    datafiles: ""
 -
     id: rugrats
     name: 'Rugrats Adventure Game'
     engine_id: mohawk
-    company_id: ""
+    company_id: broderbund
     moby_id: '31611'
     datafiles: ""
 -
     id: tortoise
     name: 'Aesop''s Fables: The Tortoise and the Hare'
     engine_id: mohawk
-    company_id: ""
+    company_id: livingbooks
     moby_id: ""
     datafiles: ""
 -
     id: arthurbday
     name: 'Arthur''s Birthday'
     engine_id: mohawk
-    company_id: ""
+    company_id: livingbooks
     moby_id: ""
     datafiles: ""
 -
     id: arthurcomp
     name: 'Arthur''s Computer Adventure'
     engine_id: mohawk
-    company_id: ""
+    company_id: livingbooks
     moby_id: ""
     datafiles: ""
 -
     id: arthurrace
     name: 'Arthur''s Reading Race'
     engine_id: mohawk
-    company_id: ""
+    company_id: livingbooks
     moby_id: ""
     datafiles: ""
 -
     id: arthur
     name: 'Arthur''s Teacher Trouble'
     engine_id: mohawk
-    company_id: ""
+    company_id: livingbooks
     moby_id: ""
     datafiles: ""
 -
     id: carmentq
     name: 'Carmen Sandiego''s ThinkQuick Challenge'
     engine_id: mohawk
-    company_id: ""
+    company_id: tlc
     moby_id: ""
     datafiles: ""
 -
     id: carmentqc
     name: 'Carmen Sandiego''s ThinkQuick Challenge Custom Question Creator'
     engine_id: mohawk
-    company_id: ""
+    company_id: tlc
     moby_id: ""
     datafiles: ""
 -
     id: seussabc
-    name: 'Dr Seuss''s ABC'
+    name: 'Dr. Seuss''s ABC'
     engine_id: mohawk
-    company_id: ""
+    company_id: livingbooks
     moby_id: ""
     datafiles: ""
 -
     id: greeneggs
     name: 'Green Eggs and Ham'
     engine_id: mohawk
-    company_id: ""
+    company_id: livingbooks
     moby_id: ""
     datafiles: ""
 -
     id: harryhh
     name: 'Harry and the Haunted House'
     engine_id: mohawk
-    company_id: ""
+    company_id: livingbooks
     moby_id: ""
     datafiles: ""
 -
     id: grandma
     name: 'Just Grandma and Me'
     engine_id: mohawk
-    company_id: ""
+    company_id: livingbooks
     moby_id: ""
     datafiles: ""
 -
     id: lilmonster
     name: 'Little Monster at School'
     engine_id: mohawk
-    company_id: ""
+    company_id: livingbooks
     moby_id: ""
     datafiles: ""
 -
     id: lbsampler
     name: 'Living Books Sampler'
     engine_id: mohawk
-    company_id: ""
+    company_id: livingbooks
     moby_id: ""
     datafiles: ""
 -
     id: maggiesfa
     name: 'Maggie''s Farmyard Adventure'
     engine_id: mohawk
-    company_id: ""
+    company_id: livingbooks
     moby_id: ""
     datafiles: ""
 -
@@ -1360,7 +1360,7 @@
     id: rugratsps
     name: 'Rugrats Print Shop'
     engine_id: mohawk
-    company_id: ""
+    company_id: livingbooks
     moby_id: ""
     datafiles: ""
 -
@@ -1374,21 +1374,21 @@
     id: bearfight
     name: 'The Berenstain Bears Get in a Fight'
     engine_id: mohawk
-    company_id: ""
+    company_id: livingbooks
     moby_id: ""
     datafiles: ""
 -
     id: beardark
     name: 'The Berenstain Bears In The Dark'
     engine_id: mohawk
-    company_id: ""
+    company_id: livingbooks
     moby_id: ""
     datafiles: ""
 -
     id: catinthehat
     name: 'The Cat in the Hat'
     engine_id: mohawk
-    company_id: ""
+    company_id: livingbooks
     moby_id: ""
     datafiles: ""
 -
@@ -1402,28 +1402,28 @@
     id: newkid
     name: 'The New Kid on the Block'
     engine_id: mohawk
-    company_id: ""
+    company_id: livingbooks
     moby_id: ""
     datafiles: ""
 -
     id: cstime
     name: 'Where in Time is Carmen Sandiego?'
     engine_id: mohawk
-    company_id: ""
+    company_id: broderbund
     moby_id: ""
     datafiles: ""
 -
     id: mortevielle
     name: 'Mortville Manor'
     engine_id: mortevielle
-    company_id: ""
+    company_id: kyilkhor
     moby_id: '2504'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Mortville_Manor'
 -
     id: mutationofjb
     name: 'Mutation of J.B.'
     engine_id: mutationofjb
-    company_id: ""
+    company_id: invention
     moby_id: '34036'
     datafiles: ""
 -
@@ -1437,119 +1437,119 @@
     id: bra
     name: 'The Big Red Adventure'
     engine_id: parallaction
-    company_id: ""
+    company_id: dynabyte
     moby_id: '3206'
     datafiles: ""
 -
     id: nippon
-    name: 'Nippon Safes'
-    engine_id: ' Inc.'
-    company_id: parallaction
-    moby_id: ""
-    datafiles: '13613'
+    name: 'Nippon Safes, Inc.'
+    engine_id: parallaction
+    company_id: dynabyte
+    moby_id: '13613'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Nippon_Safes_Inc.'
 -
     id: pegasus
     name: 'The Journeyman Project: Pegasus Prime'
     engine_id: pegasus
-    company_id: ""
+    company_id: presto
     moby_id: '23526'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Journeyman_Project:_Pegasus_Prime.2C_The'
 -
     id: peril
     name: 'The Pink Panther: Passport to Peril'
     engine_id: pink
-    company_id: ""
+    company_id: wanderlust
     moby_id: '7995'
     datafiles: ""
 -
     id: pokus
     name: 'The Pink Panther: Hokus Pokus Pink'
     engine_id: pink
-    company_id: ""
+    company_id: wanderlust
     moby_id: '41450'
     datafiles: ""
 -
     id: plumbers
     name: 'Plumbers Don''t Wear Ties'
     engine_id: plumbers
-    company_id: ""
+    company_id: unitedpixtures
     moby_id: '25730'
     datafiles: ""
 -
     id: prince
     name: 'The Prince and the Coward'
     engine_id: prince
-    company_id: ""
+    company_id: metropolis
     moby_id: '30716'
     datafiles: ""
 -
     id: queen
     name: 'Flight of the Amazon Queen'
     engine_id: queen
-    company_id: ""
+    company_id: ibi
     moby_id: '352'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Flight_of_the_Amazon_Queen'
 -
     id: ihnm
     name: 'I Have No Mouth and I Must Scream'
     engine_id: saga
-    company_id: ""
+    company_id: dreamersguild
     moby_id: '617'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#I_Have_No_Mouth.2C_and_I_Must_Scream'
 -
     id: dino
     name: Dinotopia
     engine_id: saga
-    company_id: ""
+    company_id: dreamersguild
     moby_id: '3269'
     datafiles: ""
 -
     id: ite
     name: 'Inherit the Earth: Quest for the Orb'
     engine_id: saga
-    company_id: ""
+    company_id: dreamersguild
     moby_id: '4008'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Inherit_the_Earth:_Quest_for_the_Orb'
 -
     id: fta2
     name: 'Faery Tale Adventure II: Halls of the Dead'
     engine_id: saga
-    company_id: ""
+    company_id: dreamersguild
     moby_id: ""
     datafiles: ""
 -
     id: gk1demo
     name: 'Gabriel Knight: Sins of the Fathers'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '116'
     datafiles: ""
 -
     id: gk1
     name: 'Gabriel Knight: Sins of the Fathers'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '116'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
     id: gk2
     name: 'The Beast Within: A Gabriel Knight Mystery'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '118'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
     id: qfg4demo
     name: 'Quest for Glory IV: Shadows of Darkness'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '119'
     datafiles: ""
 -
     id: qfg4
     name: 'Quest for Glory IV: Shadows of Darkness'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '119'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
@@ -1568,16 +1568,16 @@
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
     id: kq6
-    name: 'King''s Quest VI: Heir Today'
-    engine_id: ' Gone Tomorrow'
-    company_id: sci
-    moby_id: sierra
-    datafiles: '131'
+    name: 'King''s Quest VI: Heir Today, Gone Tomorrow'
+    engine_id: sci
+    company_id: sierra
+    moby_id: '131'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
     id: kq7
     name: 'King''s Quest VII: The Princeless Bride'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '135'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
@@ -1605,7 +1605,7 @@
     id: sq6
     name: 'Space Quest 6: Roger Wilco in the Spinal Frontier'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '145'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
@@ -1626,21 +1626,21 @@
     id: pq4demo
     name: 'Police Quest IV: Open Season'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '149'
     datafiles: ""
 -
     id: pq4
     name: 'Police Quest IV: Open Season'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '149'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
     id: pqswat
     name: 'Police Quest: SWAT'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '150'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
@@ -1668,7 +1668,7 @@
     id: lighthouse
     name: 'Lighthouse: The Dark Being'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '266'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
@@ -1682,21 +1682,21 @@
     id: lsl7
     name: 'Leisure Suit Larry 7: Love for Sail!'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '381'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
     id: lsl6
     name: 'Leisure Suit Larry 6: Shape Up or Slip Out!'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '407'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
     id: lsl6hires
     name: 'Leisure Suit Larry 6: Shape Up or Slip Out!'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '407'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
@@ -1766,7 +1766,7 @@
     id: shivers
     name: Shivers
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '663'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
@@ -1787,28 +1787,28 @@
     id: phantasmagoria2
     name: 'Phantasmagoria 2: A Puzzle of Flesh'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '1216'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
     id: torin
     name: 'Torin''s Passage'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '1228'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
     id: hoyle5solitaire
     name: 'Hoyle Solitaire'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '1232'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
     id: rama
     name: RAMA
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '1255'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
@@ -1836,7 +1836,7 @@
     id: phantasmagoria
     name: Phantasmagoria
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '1585'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
@@ -1871,14 +1871,14 @@
     id: mothergoosehires
     name: 'Mixed-Up Mother Goose Deluxe'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '3327'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
     id: pepper
     name: 'Pepper''s Adventures in Time'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '6312'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
@@ -1906,7 +1906,7 @@
     id: cnick-kq
     name: 'Crazy Nick''s Software Picks: King Graham''s Board Game Challenge'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '20400'
     datafiles: ""
 -
@@ -1927,14 +1927,14 @@
     id: slater
     name: 'Slater & Charlie Go Camping'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '22337'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
     id: hoyle5
     name: 'Hoyle Classic Games'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '28770'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
 -
@@ -1948,28 +1948,28 @@
     id: cnick-lsl
     name: 'Crazy Nick''s Software Picks: Leisure Suit Larry''s Casino'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '92556'
     datafiles: ""
 -
     id: cnick-laurabow
     name: 'Crazy Nick''s Software Picks: Parlor Games with Laura Bow'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '95473'
     datafiles: ""
 -
     id: cnick-longbow
     name: 'Crazy Nick''s Software Picks: Robin Hood''s Games of Skill and Chance'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '95474'
     datafiles: ""
 -
     id: cnick-sq
     name: 'Crazy Nick''s Software Picks: Roger Wilco''s Spaced Out Game Pack'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: '95475'
     datafiles: ""
 -
@@ -2004,14 +2004,14 @@
     id: sci-fanmade
     name: 'Fanmade SCI Game'
     engine_id: sci
-    company_id: ""
+    company_id: fan
     moby_id: ""
     datafiles: ""
 -
     id: funseeker
     name: 'Fun Seeker''s Guide'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: ""
     datafiles: ""
 -
@@ -2032,7 +2032,7 @@
     id: inndemo
     name: 'ImagiNation Network (INN) Demo'
     engine_id: sci
-    company_id: ""
+    company_id: sierra
     moby_id: ""
     datafiles: ""
 -
@@ -2331,7 +2331,7 @@
     datafiles: ""
 -
     id: spyozon
-    name: 'Spy Fox: '
+    name: 'Spy Fox: "Operation Ozone"'
     engine_id: scumm
     company_id: he
     moby_id: '18734'
@@ -2352,7 +2352,7 @@
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Fatty_Bear.27s_Fun_Pack'
 -
     id: spyfox2
-    name: 'Spy Fox 2: '
+    name: 'Spy Fox 2: "Some Assembly Required"'
     engine_id: scumm
     company_id: he
     moby_id: '20987'
@@ -2401,7 +2401,7 @@
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Let.27s_Explore_the_Airport_with_Buzzy'
 -
     id: spyfox
-    name: 'Spy Fox in '
+    name: 'Spy Fox in "Dry Cereal"'
     engine_id: scumm
     company_id: he
     moby_id: '21014'
@@ -2599,16 +2599,16 @@
     id: outoforder
     name: 'Out Of Order'
     engine_id: sludge
-    company_id: ""
+    company_id: hungry
     moby_id: '13762'
     datafiles: ""
 -
     id: cubert
-    name: 'Cubert Badbone'
-    engine_id: ' P.I.'
-    company_id: sludge
-    moby_id: ""
-    datafiles: '24279'
+    name: 'Cubert Badbone, P.I.'
+    engine_id: sludge
+    company_id: ""
+    moby_id: '24279'
+    datafiles: ""
 -
     id: frasse
     name: 'Frasse and the Peas of Kejick'
@@ -2690,14 +2690,14 @@
     id: msn1
     name: 'Mission Supernova 1'
     engine_id: supernova
-    company_id: ""
+    company_id: tsdinge
     moby_id: '4582'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Mission_Supernova_Part_1'
 -
     id: msn2
     name: 'Mission Supernova 2'
     engine_id: supernova
-    company_id: ""
+    company_id: tsdinge
     moby_id: '4582'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Mission_Supernova_Part_2'
 -
@@ -2788,7 +2788,7 @@
     id: teenagent
     name: 'Teen Agent'
     engine_id: teenagent
-    company_id: metropolice
+    company_id: metropolis
     moby_id: '6423'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#TeenAgent'
 -
@@ -2870,9 +2870,9 @@
     datafiles: ""
 -
     id: sherlock-logo
-    name: 'The Lost Files of Sherlock Holmes (Logo)'
+    name: 'The Lost Files of Sherlock Holmes'
     engine_id: tsage
-    company_id: ""
+    company_id: mythos
     moby_id: ""
     datafiles: ""
 -
@@ -2942,7 +2942,7 @@
     id: voyeur
     name: Voyeur
     engine_id: voyeur
-    company_id: ""
+    company_id: philips
     moby_id: '1661'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Voyeur'
 -
@@ -3094,18 +3094,18 @@
     datafiles: ""
 -
     id: mentalrepairs
-    name: 'Mental Repairs'
-    engine_id: ' Inc.'
-    company_id: wintermute
-    moby_id: ""
-    datafiles: '46212'
+    name: 'Mental Repairs, Inc.'
+    engine_id: wintermute
+    company_id: ""
+    moby_id: '46212'
+    datafiles: ""
 -
     id: hamlet
-    name: 'Hamlet or the last game without MMORPG features'
-    engine_id: ' shaders and product placement'
-    company_id: wintermute
-    moby_id: ""
-    datafiles: '46506'
+    name: 'Hamlet or the last game without MMORPG features, shaders and product placement'
+    engine_id: wintermute
+    company_id: ""
+    moby_id: '46506'
+    datafiles: ""
 -
     id: carolreed6
     name: 'Carol Reed 6 - Black Circle'
@@ -3904,3 +3904,10 @@
     company_id: activision
     moby_id: '1951'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Zork:_Grand_Inquisitor'
+-
+    id: ultima4
+    name: 'Ultima IV: Quest of the Avatar'
+    engine_id: ultima
+    company_id: origin
+    moby_id: ""
+    datafiles: ""
