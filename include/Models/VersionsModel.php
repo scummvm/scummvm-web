@@ -1,7 +1,7 @@
 <?php
 namespace ScummVM\Models;
 
-use ScummVM\Objects\CreditsSection;
+use ScummVM\Objects\Version;
 
 /**
  * The VersionsModel is used to cross reference versions across the website
@@ -13,11 +13,13 @@ abstract class VersionsModel extends BasicModel
     {
         $fname = DIR_DATA . '/versions.yaml';
         $versions = \yaml_parse_file($fname);
+
         $data = [];
         foreach ($versions as $version) {
             $obj = new Version($version);
             $data[$obj->getId()] = $obj;
         }
-        return $data;
+
+        return array_reverse($data, true);
     }
 }

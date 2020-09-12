@@ -13,14 +13,14 @@ class Game extends DataObject
     private $datafiles;
 
     /* Article object constructor. */
-    public function __construct($data)
+    public function __construct($data, $engines, $companies)
     {
         parent::__construct($data);
         $this->name = $data['name'];
-        $this->engine = $data['engine_id'];
-        $this->company = $data['company_id'];
         $this->moby_id = $data['moby_id'];
         $this->datafiles = $data['datafiles'];
+        $this->company = $this->assignFromArray($data['company_id'], $companies);
+        $this->engine = $this->assignFromArray($data['engine_id'], $engines);
     }
 
     /* Get the game name. */
@@ -36,21 +36,21 @@ class Game extends DataObject
     }
 
      /* Get the company who made the game */
-     public function getCompany()
-     {
-         return $this->company;
-     }
+    public function getCompany()
+    {
+        return $this->company;
+    }
 
      /* Get the mobygames id. */
-     public function getMobyId()
-     {
-         return $this->moby_id;
-     }
+    public function getMobyId()
+    {
+        return $this->moby_id;
+    }
 
      /* Get the link to the game datafiles. */
-     public function getDatafiles()
-     {
-         return $this->datafiles;
-     }
+    public function getDatafiles()
+    {
+        return $this->datafiles;
+    }
 
 }

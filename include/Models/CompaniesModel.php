@@ -6,7 +6,7 @@ use ScummVM\Objects\Company;
 /**
  * The CompanysModel is used to cross reference companyies across the website
  */
-abstract class CompanysModel extends BasicModel
+abstract class CompaniesModel extends BasicModel
 {
     /* Get all Companies from YAML */
     public static function getAllCompanies()
