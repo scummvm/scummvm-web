@@ -1,7 +1,8 @@
 {if $old_layout == 'no'}
 	{assign var="x" value=$game->getSupportLevel()}
 	{assign var="pct_class" value=$support_level_class.$x}
-	{assign var="support_level" value=$support_level_desc.$x}
+	{assign var="support_level" value=$support_level_header.$x}
+	{assign var="support_description" value=$support_level_description.$x}
 {else}
 	{math equation="x - (x % 5)" x=$game->getSupportLevel() assign='pct_class'}
 	{assign var="pct_class" value="pct"|cat:$pct_class}
@@ -30,14 +31,14 @@
 			</tr>
 			<tr class="color2">
 				<td colspan="3" class="details">
-					{$game->getNotes()}
+					{$game->getNotes()|regex_replace:"/%.+%/":$support_description}
 				</td>
 			</tr>
 		</tbody>
 	</table>
 	<p class="bottom-link">
 		<a href="/compatibility/{$version}/">{#compatibilityDetailsBack#}</a>
-	</p>	
+	</p>
 {/capture}
 
-{include "components/box.tpl" head={#compatibilityDetailsInto#} content=$smarty.capture.content} 
+{include "components/box.tpl" head={#compatibilityDetailsInto#} content=$smarty.capture.content}

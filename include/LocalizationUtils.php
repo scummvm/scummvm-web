@@ -97,7 +97,7 @@ class LocalizationUtils
 
             file_put_contents(
                 $newsFile,
-                \str_replace('\r\n','\n', json_encode($news, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES |  JSON_UNESCAPED_UNICODE) . "\n")
+                \str_replace('\r\n', '\n', json_encode($news, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES |  JSON_UNESCAPED_UNICODE) . "\n")
             );
         }
     }
