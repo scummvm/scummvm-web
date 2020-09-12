@@ -1,8 +1,11 @@
 <?php
 namespace ScummVM\Models;
 
-use ScummVM\Objects\CompatGame;
-use ScummVM\XMLParser;
+use ScummVM\Objects\Compatibility;
+use ScummVM\Objects\LegacyCompatGame;
+use ScummVM\Models\GameModel;
+use ScummVM\Models\PlatformsModel;
+use Composer\Semver\Comparator;
 
 /**
  * The CompatibilityModel class will generate CompatGame objects.
@@ -17,77 +20,28 @@ abstract class CompatibilityModel extends BasicModel
     /* Get all the groups and the respectively demos for the specified ScummVM version. */
     public static function getAllData($version)
     {
-        if (!is_string($version)) {
-            throw new \ErrorException(self::NO_VERSION);
-        }
-        $fname = DIR_COMPAT . "/compat-{$version}.xml";
-        if (!file_exists($fname)) {
-            throw new \ErrorException(self::NO_FILES);
-        }
-        $parser = new XMLParser();
-        $parsedData = $parser->parseByFilename($fname);
-        $entries = array();
-        foreach (array_values($parsedData['compatibility']['company']) as $value) {
-            $games = array();
-            if (is_array($value['games'])) {
-                foreach ($value['games']['game'] as $data) {
-                    $games[] = new CompatGame($data);
+        $fname = DIR_DATA . "/compatibility.yaml";
+        $compatibilityEntries = \yaml_parse_file($fname);
+        $games = GameModel::getAllGames();
+        $platforms = PlatformsModel::getAllPlatforms();
+        $compareVersion = $version === 'DEV' ? '9.9.9' : $version;
+        $data = [];
+        foreach ($compatibilityEntries as $compat) {
+            $obj = new Compatibility($compat, $games, $platforms);
+            $objVersion = $obj->getVersion();
+            if (Comparator::lessThanOrEqualTo($objVersion, $compareVersion)) {
+                if (array_key_exists($obj->getId(), $data)) {
+                    $existingVersion = $data[$obj->getId()]->getVersion();
+                    if (Comparator::greaterThan($objVersion, $existingVersion)) {
+                        $data[$obj->getId()] = $obj;
+                    }
+                } else {
+                    $data[$obj->getId()] = $obj;
                 }
-                $entries[$value['name']] = $games;
-            }
-        }
-        return $entries;
-    }
-
-    /**
-     * Compares two version strings and returns an integer less than, equal
-     * to, or greater than zero if the first argument is considered to be
-     * respectively less than, equal to, or greater than the second.
-     */
-    public static function compareVersions($version1, $version2)
-    {
-        /* Get the length of the numeric part of the version strings. */
-        $lenNumber1 = strspn($version1, ".0123456789");
-        $lenNumber2 = strspn($version2, ".0123456789");
-        if (($lenNumber1 == $lenNumber2) && (substr($version1, 0, $lenNumber1) == substr($version2, 0, $lenNumber2))) {
-            /* Same version number. Handle special cases. */
-            $extraVersion1 = substr($version1, $lenNumber1);
-            $extraVersion2 = substr($version2, $lenNumber2);
-
-            /* Release candidates go before the final release. */
-            $rc1 = substr($extraVersion1, 0, 2);
-            $rc2 = substr($extraVersion2, 0, 2);
-            if (($rc1 == "rc") && ($rc2 != "rc")) {
-                return -1;
-            }
-            if (($rc2 == "rc") && ($rc1 != "rc")) {
-                return 1;
             }
 
-            /* Break the tie with the standard comparison. */
         }
-        return strnatcmp($version1, $version2);
-    }
-
-    /* Get version numbers for all available compatibility charts, excluding the DEV charts. */
-    public static function getAllVersions()
-    {
-        if (!($files = scandir(DIR_COMPAT))) {
-            throw new \ErrorException(self::NO_FILES);
-        }
-        $dates = array();
-        foreach ($files as $file) {
-            if (substr($file, -4) != '.xml') {
-                continue;
-            }
-            /* Always exclude the DEV-chart. */
-            if (strpos($file, 'DEV') === false) {
-                $dates[] = substr($file, (strpos($file, '-') + 1), -4);
-            }
-        }
-        usort($dates, '\ScummVM\Models\CompatibilityModel::compareVersions');
-        $dates = array_reverse($dates);
-        return $dates;
+        return $data;
     }
 
     /* Get a specific CompatGame-object for the requested version. */
@@ -99,22 +53,11 @@ abstract class CompatibilityModel extends BasicModel
         if (!($all_games = self::getAllData($version))) {
             throw new \ErrorException(self::NOT_FOUND);
         }
-        $g = null;
-        foreach ($all_games as $company => $games) {
-            foreach ($games as $game) {
-                if ($game->getTarget() == $target) {
-                    $g = $game;
-                    break;
-                }
-            }
-            if ($g != null) {
-                break;
-            }
-        }
-        if (is_null($g)) {
+
+        if (!array_key_exists($target, $all_games)) {
             throw new \ErrorException(self::NOT_FOUND);
         }
 
-        return $g;
+        return $all_games[$target];
     }
 }

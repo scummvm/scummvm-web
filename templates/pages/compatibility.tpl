@@ -9,10 +9,7 @@
     <p>
       {#compatibilityDevContent#}
       {foreach from=$versions item=ver name=versions_loop}
-        {if $smarty.foreach.versions_loop.last}
-          {assign var='last' value=')'}
-        {/if}
-        <a href="/compatibility/{$ver}/">{$ver}</a>{$last}
+        <a href="/compatibility/{$ver}/">{$ver}</a>
       {/foreach}
     </p>
     <p>
@@ -30,7 +27,7 @@
     </p>
   {/if}
   <p>
-    <small>{#compatiblityLastUpdated#} {$last_updated}</small>
+    <small>{#compatiblityLastUpdated#} {$last_updated|date_localized}</small>
   </p>
 {/capture}
 
@@ -40,7 +37,7 @@
     <tbody>
       <tr class="color2">
         {if $old_layout == 'no'}
-          {foreach from=$support_level_desc key=level item=desc}
+          {foreach from=$support_level_header key=level item=desc}
             <td class={$support_level_class.$level} align='center'>{$desc}</td>
           {/foreach}
         {else}
@@ -72,7 +69,7 @@
         {if $old_layout == 'no'}
           {assign var="x" value=$game->getSupportLevel()}
           {assign var="pct_class" value=$support_level_class.$x}
-          {assign var="support_level" value=$support_level_desc.$x}
+          {assign var="support_level" value=$support_level_header.$x}
         {else}
           {math equation="x - (x % 5)" x=$game->getSupportLevel() assign='pct_class'}
           {assign var="pct_class" value="pct"|cat:$pct_class}

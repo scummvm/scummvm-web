@@ -2,10 +2,10 @@
 namespace ScummVM\Objects;
 
 /**
- * The CompatGame class represents a game on the compatibility charts on the
+ * The LegacyCompatGame class represents a game on the compatibility charts on the
  * website.
  */
-class CompatGame extends BasicObject
+class LegacyCompatGame extends BasicObject
 {
     private $target;
     private $supportLevel;
