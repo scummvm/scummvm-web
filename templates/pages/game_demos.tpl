@@ -35,7 +35,7 @@
     {foreach $group.demos as $i => $demo}
       {if $demo@first}
         {$collapse = ''}
-      {elseif $group.demos[$i]->getTarget() == $group.demos[$i-1]->getTarget()}
+      {elseif $group.demos[$i]->getId() == $group.demos[$i-1]->getId()}
         {$collapse = 'collapse'}
       {else}
         {$collapse = ''}
@@ -44,7 +44,7 @@
         <td>
           <a href="{$demo->getURL()}">{$demo->getName()}</a>
         </td>
-        <td class="gameTarget">{$demo->getTarget()}</td>
+        <td class="gameTarget">{$demo->getId()}</td>
       </tr>
     {/foreach}
     </tbody>

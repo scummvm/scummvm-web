@@ -88,3 +88,6 @@
 -
     id: win
     name: Windows
+-
+    id: amigacd32
+    name: 'Amiga CD32'
