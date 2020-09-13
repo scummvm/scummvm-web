@@ -916,6 +916,13 @@
     moby_id: ""
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Once_Upon_A_Time:_Little_Red_Riding_Hood'
 -
+    id: playtoonsdemo
+    name: 'Playtoon 1 - Uncle Archibald, Playtoon 2 - Spirou, Playtoons 3 - Secret of the Castle'
+    engine_id: gob
+    company_id: coktel
+    moby_id: ""
+    datafiles: ""
+-
     id: playtoons1
     name: 'Playtoons 1 - Uncle Archibald'
     engine_id: gob
