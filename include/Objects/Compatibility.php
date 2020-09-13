@@ -21,14 +21,14 @@ class Compatibility extends DataObject
     public function __construct($data, $games, $platforms)
     {
         parent::__construct($data);
-        $this->supportLevel = $data['support'];
-        $this->notes = $data['notes'];
-        $this->version = $data['version'];
+        $this->supportLevel = $this->assignFromArray('support', $data, true);
+        $this->notes = $this->assignFromArray('notes', $data);
+        $this->version = $this->assignFromArray('version', $data, true);
         $this->stablePlatforms =
-            $this->processPlatforms($data['stable_platforms'], $platforms);
+            $this->processPlatforms($this->assignFromArray('stable_platforms', $data, true), $platforms);
         $this->unstablePlatforms =
-        $this->processPlatforms($data['unstable_platforms'], $platforms);
-        $this->game = $this->assignFromArray($data['game_id'], $games);
+        $this->processPlatforms($this->assignFromArray('unstable_platforms', $data), $platforms);
+        $this->game = $this->assignFromArray($data['id'], $games, true);
     }
 
     private function processPlatforms($values, $platforms)
@@ -40,12 +40,6 @@ class Compatibility extends DataObject
             }
         }
         return $retVal;
-    }
-
-    /* Get the target name. */
-    public function getTarget()
-    {
-        return $this->target;
     }
 
     /* Get the support level. */

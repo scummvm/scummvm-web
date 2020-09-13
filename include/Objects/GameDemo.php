@@ -8,7 +8,6 @@ class GameDemo extends DataObject
 {
 
     private $url;
-    private $name;
     private $category;
     private $platform;
     private $game;
@@ -17,10 +16,15 @@ class GameDemo extends DataObject
     public function __construct($data, $games, $platforms)
     {
         parent::__construct($data);
-        $this->url = $data['url'];
-        $this->platform = $this->assignFromArray($data['platform'], $platforms);
-        $this->game = $this->assignFromArray($data['id'], $games);
-        $this->category = isset($data['category']) ? $data['category'] : "";
+        $this->url = $this->assignFromArray('url', $data, true);
+        $this->platform = $this->assignFromArray($data['platform'], $platforms, true);
+        $this->game = $this->assignFromArray($data['id'], $games, true);
+        $this->category = $this->assignFromArray('category', $data);
+    }
+
+    public function __toString()
+    {
+        return $this->getName();
     }
 
     /* Get the download URL for the demo. */

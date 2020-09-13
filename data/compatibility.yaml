@@ -1,2028 +1,2028 @@
 -
-    game_id: maniac
+    id: maniac
     support: good
     notes: '- Minor graphical glitches in NES version'
     version: 2.0.0
     stable_platforms: 'amiga,apple2,atarist,c64,dos,nes'
     unstable_platforms: ""
 -
-    game_id: zak
+    id: zak
     support: good
     notes: '- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM'
     version: 2.0.0
     stable_platforms: 'amiga,atarist,c64,dos,fmtowns'
     unstable_platforms: ""
 -
-    game_id: indy3
+    id: indy3
     support: good
     notes: '- There is no support for the Macintosh interface - FM-TOWNS Kanji version requires the FM-TOWNS Font ROM'
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos,fmtowns'
     unstable_platforms: ""
 -
-    game_id: loom
+    id: loom
     support: excellent
     notes: '- The Roland update from LucasArts is required for MIDI support in the EGA version - There is no support for the Macintosh interface - FM-TOWNS Kanji version requires the FM-TOWNS Font ROM - PC-Engine Kanji version requires the system card ROM'
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos,fmtowns,pce'
     unstable_platforms: ""
 -
-    game_id: pass
+    id: pass
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: monkey
+    id: monkey
     support: excellent
     notes: '- The Roland update from LucasArts is required for MIDI support in the EGA version - Dialogue choices in the SegaCD version can be selected with mousewheel or keyboard arrow keys'
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos,dos,fmtowns,mac,segacd'
     unstable_platforms: ""
 -
-    game_id: monkey2
+    id: monkey2
     support: excellent
     notes: '- Demo version often crashes due to missing resources, since it was never meant to be playable - No support for playing back the recorded file of gameplay in demo version - FM-TOWNS Kanji version requires the FM-TOWNS Font ROM - Loading of original instrument samples for Amiga version not implemented, so music differs from original interpreter.\'
     version: 2.0.0
     stable_platforms: 'amiga,dos,fmtowns,mac'
     unstable_platforms: ""
 -
-    game_id: atlantis
+    id: atlantis
     support: excellent
     notes: '- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM - Loading of original instrument samples for Amiga version not implemented, so music differs from original interpreter.'
     version: 2.0.0
     stable_platforms: 'amiga,dos,fmtowns,mac'
     unstable_platforms: ""
 -
-    game_id: tentacle
+    id: tentacle
     support: excellent
     notes: '- Maniac Mansion isn''t playable on Ed''s computer. To play the included copy, use ''Add Game'' from the main ScummVM launcher and select the MANIAC directory inside the DOTT game directory'
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: samnmax
+    id: samnmax
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: ft
+    id: ft
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: dig
+    id: dig
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'dos,steam'
     unstable_platforms: ""
 -
-    game_id: comi
+    id: comi
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: lgop2
+    id: lgop2
     support: good
     notes: '- Only soundblaster music is played. MIDI music playing/MT32 instrument mapping needs more work'
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: manhole
+    id: manhole
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: rtz
+    id: rtz
     support: good
     notes: '- Only soundblaster music is played. MIDI music playing/MT32 instrument mapping needs more work'
     version: 2.0.0
     stable_platforms: 'dos,fmtowns,pc98'
     unstable_platforms: '3do,mac,pcfx,psx,saturn'
 -
-    game_id: rodney
+    id: rodney
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: elvira1
+    id: elvira1
     support: good
     notes: '- Commodore 64 version doesn''t use AGOS, so will never be supported. - No music in the Atari ST version.'
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: c64
 -
-    game_id: elvira2
+    id: elvira2
     support: good
     notes: '- Commodore 64 version doesn''t use AGOS, so will never be supported. - No music in the Atari ST version. - No sound effects in the DOS version.'
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: c64
 -
-    game_id: pn
+    id: pn
     support: untested
     notes: '- Minor spacing glitches with charset. - No day to night fading in Amiga and Atari ST versions.'
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: ""
 -
-    game_id: simon1
+    id: simon1
     support: excellent
     notes: '- No music in Acorn disk version'
     version: 2.0.0
     stable_platforms: 'acorn,amiga,dos,win'
     unstable_platforms: ""
 -
-    game_id: simon2
+    id: simon2
     support: excellent
     notes: '- Only the default language (English) in Amiga & Macintosh versions is supported - F10 key animation is different in Amiga & Macintosh versions'
     version: 2.0.0
     stable_platforms: 'amiga,dos,win'
     unstable_platforms: ""
 -
-    game_id: dimp
+    id: dimp
     support: good
     notes: '- Demon takes longer to die, compared to original'
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: jumble
+    id: jumble
     support: good
     notes: '- No support for displaying, entering, loading and saving high scores'
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: puzzle
+    id: puzzle
     support: good
     notes: '- No support for displaying, entering, loading and saving high scores'
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: swampy
+    id: swampy
     support: good
     notes: '- No support for displaying explanation, when clicking on items - No support for displaying, entering, loading and saving high scores'
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: feeble
+    id: feeble
     support: excellent
     notes: '- DOS version is demo only'
     version: 2.0.0
     stable_platforms: 'amiga,dos,mac,win'
     unstable_platforms: ""
 -
-    game_id: waxworks
+    id: waxworks
     support: untested
     notes: '- Amiga version has not been confirmed as completable. - DOS version doesn''t load or save items states correctly, leading to various bugs'
     version: 2.0.0
     stable_platforms: 'amiga,dos'
     unstable_platforms: ""
 -
-    game_id: bargon
+    id: bargon
     support: excellent
     notes: '- Issues with the mouse cursor visibility'
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: ""
 -
-    game_id: fascination
+    id: fascination
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: ""
 -
-    game_id: geisha
+    id: geisha
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: ""
 -
-    game_id: gob1
+    id: gob1
     support: excellent
     notes: '- Problem with one music piece in the Macintosh version'
     version: 2.0.0
     stable_platforms: 'amiga,cdi,dos,mac,win'
     unstable_platforms: ""
 -
-    game_id: gob2
+    id: gob2
     support: excellent
     notes: '- A few wrong instruments during music playback'
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos,mac,win'
     unstable_platforms: ""
 -
-    game_id: gob3
+    id: gob3
     support: excellent
     notes: '- Issues with the mouse cursor visibility - No support for original font and music files in Macintosh version - The number of used jokers isn''t saved correctly. You''ll always have 5 to spend again after loading'
     version: 2.0.0
     stable_platforms: 'amiga,dos,mac,win'
     unstable_platforms: ""
 -
-    game_id: lit
+    id: lit
     support: excellent
     notes: '- Issues with the mouse cursor visibility'
     version: 2.0.0
     stable_platforms: 'dos,win'
     unstable_platforms: ""
 -
-    game_id: littlered
+    id: littlered
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'amiga,dos,win'
     unstable_platforms: ""
 -
-    game_id: bambou
+    id: bambou
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: woodruff
+    id: woodruff
     support: excellent
     notes: '- Issues with the mouse cursor visibility'
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: urban
+    id: urban
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: ween
+    id: ween
     support: excellent
     notes: '- Issues with the mouse cursor visibility'
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: ""
 -
-    game_id: sky
+    id: sky
     support: excellent
     notes: '- Floppy demos aren''t supported - The following bugs are present in the original game and can''t be fixed:   - The voice files for some sentences are missing.     - This is especially noticeable in the court- and Mrs. Piermont sequence.   - The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders   - Special characters for french and italian subtitles are incorrect sometimes'
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: amiga
 -
-    game_id: sword1
+    id: sword1
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: 'dos,psx,win'
     unstable_platforms: ""
 -
-    game_id: sword2
+    id: sword2
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: 'psx,win'
     unstable_platforms: ""
 -
-    game_id: lure
+    id: lure
     support: good
     notes: '- Sound support is incomplete and there is no Roland MT-32 support'
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: hires0
+    id: hires0
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: apple2
     unstable_platforms: ""
 -
-    game_id: hires1
+    id: hires1
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: apple2
     unstable_platforms: ""
 -
-    game_id: hires2
+    id: hires2
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: apple2
     unstable_platforms: ""
 -
-    game_id: hires3
+    id: hires3
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: apple2
     unstable_platforms: ""
 -
-    game_id: hires4
+    id: hires4
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: apple2
     unstable_platforms: ""
 -
-    game_id: hires5
+    id: hires5
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: apple2
     unstable_platforms: ""
 -
-    game_id: hires6
+    id: hires6
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: apple2
     unstable_platforms: ""
 -
-    game_id: bc
+    id: bc
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'amiga,apple2gs,coco3,dos'
     unstable_platforms: ""
 -
-    game_id: goldrush
+    id: goldrush
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'amiga,apple2gs,atarist,coco3,dos,mac'
     unstable_platforms: ""
 -
-    game_id: kq1
+    id: kq1
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'amiga,apple2gs,atarist,coco3,dos,mac'
     unstable_platforms: ""
 -
-    game_id: kq2
+    id: kq2
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'amiga,apple2gs,coco3,dos,mac'
     unstable_platforms: ""
 -
-    game_id: kq3
+    id: kq3
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'amiga,apple2gs,atarist,coco3,dos,mac'
     unstable_platforms: ""
 -
-    game_id: kq4
+    id: kq4
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'apple2gs,coco3,dos'
     unstable_platforms: ""
 -
-    game_id: lsl1
+    id: lsl1
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'amiga,apple2gs,atarist,coco3,dos,mac'
     unstable_platforms: ""
 -
-    game_id: mixedup
+    id: mixedup
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'apple2gs,coco3,dos'
     unstable_platforms: ""
 -
-    game_id: mh1
+    id: mh1
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'amiga,apple2gs,atarist,coco3,dos'
     unstable_platforms: ""
 -
-    game_id: mh2
+    id: mh2
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'amiga,atarist,coco3,dos'
     unstable_platforms: ""
 -
-    game_id: pq1
+    id: pq1
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'amiga,apple2gs,coco3,dos,mac'
     unstable_platforms: ""
 -
-    game_id: sq1
+    id: sq1
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'amiga,apple2gs,atarist,coco3,dos,mac'
     unstable_platforms: ""
 -
-    game_id: sq2
+    id: sq2
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'amiga,apple2gs,atarist,coco3,dos,mac'
     unstable_platforms: ""
 -
-    game_id: agi-fanmade
+    id: agi-fanmade
     support: good
     notes: '- Many fan games are untested and may have issues. - AGIMOUSE, AGIPAL, AGI256 and AGI256-2 hacks are also supported by this target - Occasional graphics glitches'
     version: 2.0.0
     stable_platforms: 'coco3,dos'
     unstable_platforms: ""
 -
-    game_id: mickey
+    id: mickey
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: troll
+    id: troll
     support: good
     notes: '- Game lacks sound'
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: winnie
+    id: winnie
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'amiga,apple2,c64,dos'
     unstable_platforms: ""
 -
-    game_id: castlebrain
+    id: castlebrain
     support: excellent
     notes: '- Music in Macintosh and Amiga versions may have glitches - No support for Macintosh hi-res fonts'
     version: 2.0.0
     stable_platforms: 'amiga,dos,mac,pc98'
     unstable_platforms: ""
 -
-    game_id: iceman
+    id: iceman
     support: excellent
     notes: '- Music in the Amiga version may have glitches'
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: ""
 -
-    game_id: camelot
+    id: camelot
     support: excellent
     notes: '- Music in the Amiga version may have glitches'
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: ""
 -
-    game_id: longbow
+    id: longbow
     support: excellent
     notes: '- Music in the Amiga version may have glitches'
     version: 2.0.0
     stable_platforms: 'amiga,dos'
     unstable_platforms: ""
 -
-    game_id: ecoquest
+    id: ecoquest
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: 'dos,win'
     unstable_platforms: ""
 -
-    game_id: ecoquest2
+    id: ecoquest2
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: freddypharkas
+    id: freddypharkas
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: 'dos,mac,win'
     unstable_platforms: ""
 -
-    game_id: gk1
+    id: gk1
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'dos,win'
     unstable_platforms: mac
 -
-    game_id: hoyle1
+    id: hoyle1
     support: excellent
     notes: '- Music in the Amiga version may have glitches'
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: ""
 -
-    game_id: hoyle2
+    id: hoyle2
     support: excellent
     notes: '- Music in the Amiga version may have glitches'
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos,mac'
     unstable_platforms: ""
 -
-    game_id: hoyle3
+    id: hoyle3
     support: excellent
     notes: '- Music in the Amiga version may have glitches'
     version: 2.0.0
     stable_platforms: 'amiga,dos'
     unstable_platforms: ""
 -
-    game_id: hoyle4
+    id: hoyle4
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: 'dos,mac'
     unstable_platforms: ""
 -
-    game_id: hoyle5
+    id: hoyle5
     support: broken
     notes: ""
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: mac
 -
-    game_id: chest
+    id: chest
     support: broken
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: jones
+    id: jones
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: 'dos,win'
     unstable_platforms: ""
 -
-    game_id: kq1sci
+    id: kq1sci
     support: excellent
     notes: '- Music in the Amiga version may have glitches'
     version: 2.0.0
     stable_platforms: 'amiga,dos'
     unstable_platforms: ""
 -
-    game_id: kq4sci
+    id: kq4sci
     support: excellent
     notes: '- Music in the Amiga version may have glitches'
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: ""
 -
-    game_id: kq5
+    id: kq5
     support: excellent
     notes: '- Music in the Macintosh and Amiga versions may have glitches - No support for Macintosh hi-res fonts'
     version: 2.0.0
     stable_platforms: 'amiga,dos,fmtowns,mac,pc98,win'
     unstable_platforms: ""
 -
-    game_id: kq6
+    id: kq6
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: 'dos,mac,win'
     unstable_platforms: ""
 -
-    game_id: kq7
+    id: kq7
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'dos,win'
     unstable_platforms: mac
 -
-    game_id: kquestions
+    id: kquestions
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: laurabow
+    id: laurabow
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: ""
 -
-    game_id: laurabow2
+    id: laurabow2
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: lsl1sci
+    id: lsl1sci
     support: excellent
     notes: '- Music in the Macintosh and Amiga versions may have glitches - No support for Macintosh hi-res fonts'
     version: 2.0.0
     stable_platforms: 'amiga,dos,mac'
     unstable_platforms: ""
 -
-    game_id: lsl2
+    id: lsl2
     support: excellent
     notes: '- Music in the Amiga versions may have glitches'
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: ""
 -
-    game_id: lsl3
+    id: lsl3
     support: excellent
     notes: '- Music in the Amiga versions may have glitches'
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: ""
 -
-    game_id: lsl5
+    id: lsl5
     support: excellent
     notes: '- Music in the Macintosh and Amiga versions may have glitches - No support for Macintosh hi-res fonts'
     version: 2.0.0
     stable_platforms: 'amiga,dos,mac'
     unstable_platforms: ""
 -
-    game_id: lsl6
+    id: lsl6
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: mac
 -
-    game_id: lsl6hires
+    id: lsl6hires
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'dos,win'
     unstable_platforms: mac
 -
-    game_id: lsl7
+    id: lsl7
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: mac
 -
-    game_id: lighthouse
+    id: lighthouse
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: mac
 -
-    game_id: fairytales
+    id: fairytales
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: mothergoose
+    id: mothergoose
     support: excellent
     notes: '- Music in the Amiga versions may have glitches'
     version: 2.0.0
     stable_platforms: 'amiga,dos'
     unstable_platforms: ""
 -
-    game_id: mothergoosehires
+    id: mothergoosehires
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: mac
 -
-    game_id: pepper
+    id: pepper
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: phantasmagoria
+    id: phantasmagoria
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'dos,win'
     unstable_platforms: mac
 -
-    game_id: phantasmagoria2
+    id: phantasmagoria2
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: pq1sci
+    id: pq1sci
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: pq2
+    id: pq2
     support: excellent
     notes: '- Music in the Amiga versions may have glitches'
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos,pc98'
     unstable_platforms: ""
 -
-    game_id: pq3
+    id: pq3
     support: excellent
     notes: '- Music in the Amiga versions may have glitches'
     version: 2.0.0
     stable_platforms: 'amiga,dos'
     unstable_platforms: ""
 -
-    game_id: pq4
+    id: pq4
     support: broken
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: mac
 -
-    game_id: pqswat
+    id: pqswat
     support: untested
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: mac
 -
-    game_id: qfg1
+    id: qfg1
     support: excellent
     notes: '- Music in the Amiga versions may have glitches'
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos,pc98'
     unstable_platforms: ""
 -
-    game_id: qfg1vga
+    id: qfg1vga
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: 'dos,mac'
     unstable_platforms: ""
 -
-    game_id: qfg2
+    id: qfg2
     support: excellent
     notes: '- Music in the Amiga versions may have glitches'
     version: 2.0.0
     stable_platforms: 'amiga,dos'
     unstable_platforms: ""
 -
-    game_id: qfg3
+    id: qfg3
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: qfg4
+    id: qfg4
     support: broken
     notes: ""
     version: 2.0.0
     stable_platforms: 'dos,win'
     unstable_platforms: ""
 -
-    game_id: rama
+    id: rama
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: mac
 -
-    game_id: shivers
+    id: shivers
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: mac
 -
-    game_id: slater
+    id: slater
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: 'dos,mac'
     unstable_platforms: ""
 -
-    game_id: sq1sci
+    id: sq1sci
     support: excellent
     notes: '- Music in Macintosh and Amiga versions may have glitches - No support for Macintosh hi-res fonts'
     version: 2.0.0
     stable_platforms: 'amiga,dos,mac'
     unstable_platforms: ""
 -
-    game_id: sq3
+    id: sq3
     support: excellent
     notes: '- Music in the Amiga version may have glitches'
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: mac
 -
-    game_id: sq4
+    id: sq4
     support: excellent
     notes: '- Music in Macintosh and Amiga versions may have glitches - No support for Macintosh hi-res fonts'
     version: 2.0.0
     stable_platforms: 'amiga,dos,mac,pc98,win'
     unstable_platforms: ""
 -
-    game_id: sq5
+    id: sq5
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: sq6
+    id: sq6
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'dos,win'
     unstable_platforms: mac
 -
-    game_id: gk2
+    id: gk2
     support: excellent
     notes: '- Video files in the original (1.0) release are corrupt (bad A/V sync)'
     version: 2.0.0
     stable_platforms: 'dos,win'
     unstable_platforms: mac
 -
-    game_id: islandbrain
+    id: islandbrain
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: torin
+    id: torin
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: mac
 -
-    game_id: toltecs
+    id: toltecs
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: amazon
+    id: amazon
     support: untested
     notes: '- Demo version is not supported'
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: dos
 -
-    game_id: bbvs
+    id: bbvs
     support: untested
     notes: ""
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: blueforce
+    id: blueforce
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: sword25
+    id: sword25
     support: untested
     notes: ""
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: tucker
+    id: tucker
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: chivalry
+    id: chivalry
     support: good
     notes: '- Requires additional fonts.'
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: cruise
+    id: cruise
     support: excellent
     notes: '- Only AdLib music and sound effects are supported'
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: ""
 -
-    game_id: dreamweb
+    id: dreamweb
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: dw
+    id: dw
     support: excellent
     notes: '- PSX version is missing music support'
     version: 2.0.0
     stable_platforms: 'dos,mac,psx'
     unstable_platforms: ""
 -
-    game_id: dw2
+    id: dw2
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: draci
+    id: draci
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: drascula
+    id: drascula
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: eob
+    id: eob
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: 'amiga,pc98'
 -
-    game_id: eob2
+    id: eob2
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: 'amiga,fmtowns,pc98'
 -
-    game_id: queen
+    id: queen
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: 'amiga,dos'
     unstable_platforms: ""
 -
-    game_id: fullpipe
+    id: fullpipe
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'steam,win'
     unstable_platforms: 'android,ios'
 -
-    game_id: fw
+    id: fw
     support: good
     notes: '- Occasional graphical glitches'
     version: 2.0.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: ""
 -
-    game_id: hopkins
+    id: hopkins
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'beos,linux,os2,win'
     unstable_platforms: ""
 -
-    game_id: hugo1
+    id: hugo1
     support: good
     notes: '- Playback is not supported - No support for one of the original fonts used during the intro of the DOS version'
     version: 2.0.0
     stable_platforms: 'dos,win'
     unstable_platforms: ""
 -
-    game_id: hugo2
+    id: hugo2
     support: good
     notes: '- Playback is not supported'
     version: 2.0.0
     stable_platforms: 'dos,win'
     unstable_platforms: ""
 -
-    game_id: hugo3
+    id: hugo3
     support: good
     notes: '- Playback is not supported'
     version: 2.0.0
     stable_platforms: 'dos,win'
     unstable_platforms: ""
 -
-    game_id: ihnm
+    id: ihnm
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'dos,mac'
     unstable_platforms: ""
 -
-    game_id: ite
+    id: ite
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: 'dos,linux,mac,macos,pc98,win'
     unstable_platforms: amiga
 -
-    game_id: lol
+    id: lol
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'dos,pc98'
     unstable_platforms: ""
 -
-    game_id: mortevielle
+    id: mortevielle
     support: untested
     notes: '- No speech synthesis'
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: myst
+    id: myst
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: mystme
+    id: mystme
     support: good
     notes: '- The hint system is not available'
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: nippon
+    id: nippon
     support: good
     notes: '- Occasional graphical glitches'
     version: 2.0.0
     stable_platforms: 'amiga,dos'
     unstable_platforms: ""
 -
-    game_id: plumbers
+    id: plumbers
     support: untested
     notes: ""
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: nebular
+    id: nebular
     support: untested
     notes: '- Original floppy version must be installed using DosBox before game is playable.'
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: ringworld
+    id: ringworld
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: riven
+    id: riven
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: ringworld2
+    id: ringworld2
     support: untested
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: sfinx
+    id: sfinx
     support: untested
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: soltys
+    id: soltys
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: titanic
+    id: titanic
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: pegasus
+    id: pegasus
     support: good
     notes: '- Occasional video graphical glitches'
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: lab
+    id: lab
     support: good
     notes: '- The Amiga version is not supported yet'
     version: 2.0.0
     stable_platforms: 'dos,win'
     unstable_platforms: amiga
 -
-    game_id: kyra1
+    id: kyra1
     support: good
     notes: '- No music or sound effects in the Macintosh floppy versions - Macintosh CD is using included DOS music and sound effects for now'
     version: 2.0.0
     stable_platforms: 'amiga,dos,fmtowns,mac,pc98'
     unstable_platforms: ""
 -
-    game_id: kyra2
+    id: kyra2
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'dos,fmtowns,pc98'
     unstable_platforms: ""
 -
-    game_id: kyra3
+    id: kyra3
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'dos,mac'
     unstable_platforms: ""
 -
-    game_id: scalpel
+    id: scalpel
     support: untested
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: '3do,dos'
 -
-    game_id: rosetattoo
+    id: rosetattoo
     support: untested
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: neverhood
+    id: neverhood
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: t7g
+    id: t7g
     support: excellent
     notes: '- The CD-i version doesn''t use Groovie, so it will never be supported.'
     version: 2.0.0
     stable_platforms: 'dos,ios,mac'
     unstable_platforms: cdi
 -
-    game_id: teenagent
+    id: teenagent
     support: good
     notes: '- Occasional graphical glitches'
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: toon
+    id: toon
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: tony
+    id: tony
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: touche
+    id: touche
     support: good
     notes: '- Occasional graphical glitches'
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: gnap
+    id: gnap
     support: untested
     notes: ""
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: voyeur
+    id: voyeur
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: zgi
+    id: zgi
     support: good
     notes: '- The hires MPEG2 videos of the DVD version aren''t supported yet. The lowres videos are used instead'
     version: 2.0.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: znemesis
+    id: znemesis
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'dos,win'
     unstable_platforms: ""
 -
-    game_id: baseball
+    id: baseball
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: baseball2001
+    id: baseball2001
     support: good
     notes: '- No support for multiplayer'
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: baseball2003
+    id: baseball2003
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: football
+    id: football
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: football2002
+    id: football2002
     support: good
     notes: '- Minor graphical glitches - No support for multiplayer - No videos'
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: brstorm
+    id: brstorm
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: thinker1
+    id: thinker1
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: thinkerk
+    id: thinkerk
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: blues123time
+    id: blues123time
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: bluesabctime
+    id: bluesabctime
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: arttime
+    id: arttime
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: bluesbirthday
+    id: bluesbirthday
     support: good
     notes: '- Minor graphical glitches'
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: readtime
+    id: readtime
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: bluestreasurehunt
+    id: bluestreasurehunt
     support: bugged
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: fbear
+    id: fbear
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: '3do,dos,mac,win'
     unstable_platforms: ""
 -
-    game_id: fbpack
+    id: fbpack
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: '3do,dos'
     unstable_platforms: ""
 -
-    game_id: freddi
+    id: freddi
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: freddi2
+    id: freddi2
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: freddi3
+    id: freddi3
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: freddi4
+    id: freddi4
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: freddicove
+    id: freddicove
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: maze
+    id: maze
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: water
+    id: water
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: airport
+    id: airport
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: farm
+    id: farm
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: jungle
+    id: jungle
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: pjgames
+    id: pjgames
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: pajama
+    id: pajama
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: pajama2
+    id: pajama2
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: pajama3
+    id: pajama3
     support: good
     notes: '- PlayStation 1 version doesn''t use SCUMM, so will never be supported.'
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: psx
 -
-    game_id: lost
+    id: lost
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: socks
+    id: socks
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: puttrace
+    id: puttrace
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: puttmoon
+    id: puttmoon
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: '3do,mac,win'
     unstable_platforms: ""
 -
-    game_id: puttcircus
+    id: puttcircus
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: puttputt
+    id: puttputt
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: '3do,dos,mac'
     unstable_platforms: ""
 -
-    game_id: puttzoo
+    id: puttzoo
     support: good
     notes: '- Minor graphical glitches when meeting Kenya in HE72 version'
     version: 2.0.0
     stable_platforms: 'ios,mac,win'
     unstable_platforms: ""
 -
-    game_id: putttime
+    id: putttime
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: balloon
+    id: balloon
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: dog
+    id: dog
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: activity
+    id: activity
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: 'dos,mac,win'
     unstable_platforms: ""
 -
-    game_id: funpack
+    id: funpack
     support: excellent
     notes: ""
     version: 2.0.0
     stable_platforms: '3do,dos'
     unstable_platforms: ""
 -
-    game_id: spyfox
+    id: spyfox
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'ios,mac,win'
     unstable_platforms: ""
 -
-    game_id: spyfox2
+    id: spyfox2
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: spyozon
+    id: spyozon
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: chase
+    id: chase
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: mustard
+    id: mustard
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: darby
+    id: darby
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: gregory
+    id: gregory
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: liam
+    id: liam
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: princess
+    id: princess
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: sleepingcub
+    id: sleepingcub
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: tortoise
+    id: tortoise
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: arthurbday
+    id: arthurbday
     support: good
     notes: '- The 2.0 version is not supported yet'
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: 'mac,win'
 -
-    game_id: arthur
+    id: arthur
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: seussabc
+    id: seussabc
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: greeneggs
+    id: greeneggs
     support: good
     notes: '- Minigames are not supported yet'
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: harryhh
+    id: harryhh
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: grandma
+    id: grandma
     support: good
     notes: '- The 2.0 version is not supported yet'
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: 'mac,win'
 -
-    game_id: lilmonster
+    id: lilmonster
     support: good
     notes: '- The CD-i version is not supported'
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: ruff
+    id: ruff
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: sheila
+    id: sheila
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: stellaluna
+    id: stellaluna
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: bearfight
+    id: bearfight
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: beardark
+    id: beardark
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: newkid
+    id: newkid
     support: good
     notes: ""
     version: 2.0.0
     stable_platforms: 'mac,win'
     unstable_platforms: ""
 -
-    game_id: monkey2
+    id: monkey2
     support: excellent
     notes: '- Demo version often crashes due to missing resources, since it was never meant to be playable - No support for playing back the recorded file of gameplay in demo version - FM-TOWNS Kanji version requires the FM-TOWNS Font ROM'
     version: 2.1.0
     stable_platforms: 'amiga,dos,fmtowns,mac'
     unstable_platforms: ""
 -
-    game_id: atlantis
+    id: atlantis
     support: excellent
     notes: '- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM'
     version: 2.1.0
     stable_platforms: 'amiga,dos,fmtowns,mac'
     unstable_platforms: ""
 -
-    game_id: pn
+    id: pn
     support: good
     notes: '- Minor spacing glitches with charset. - No day to night fading in Amiga and Atari ST versions. - Game has not been confirmed completable '
     version: 2.1.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: ""
 -
-    game_id: waxworks
+    id: waxworks
     support: good
     notes: '- Amiga version has not been confirmed as completable. - DOS version doesn''t load or save items states correctly, leading to various bugs'
     version: 2.1.0
     stable_platforms: 'amiga,dos'
     unstable_platforms: ""
 -
-    game_id: hoyle5
+    id: hoyle5
     support: good
     notes: '- The poker game of the Hoyle Classic Games collection is not yet supported'
     version: 2.1.0
     stable_platforms: win
     unstable_platforms: mac
 -
-    game_id: hoyle5solitaire
+    id: hoyle5solitaire
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: pq4
+    id: pq4
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: dos
     unstable_platforms: mac
 -
-    game_id: pqswat
+    id: pqswat
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: dos
     unstable_platforms: mac
 -
-    game_id: qfg4
+    id: qfg4
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: 'dos,win'
     unstable_platforms: ""
 -
-    game_id: amazon
+    id: amazon
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: dos
     unstable_platforms: dos
 -
-    game_id: bbvs
+    id: bbvs
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: bladerunner
+    id: bladerunner
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: sword25
+    id: sword25
     support: excellent
     notes: ""
     version: 2.1.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: duckman
+    id: duckman
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: eob
+    id: eob
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: 'amiga,dos'
     unstable_platforms: 'pc98,segacd'
 -
-    game_id: eob2
+    id: eob2
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: 'amiga,dos,fmtowns'
     unstable_platforms: pc98
 -
-    game_id: hdb
+    id: hdb
     support: excellent
     notes: ""
     version: 2.1.0
     stable_platforms: 'linux,pocketpc,win'
     unstable_platforms: ""
 -
-    game_id: cloudsofxeen
+    id: cloudsofxeen
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: dos
     unstable_platforms: dos
 -
-    game_id: darksideofxeen
+    id: darksideofxeen
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: dos
     unstable_platforms: dos
 -
-    game_id: worldofxeen
+    id: worldofxeen
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: dos
     unstable_platforms: dos
 -
-    game_id: swordsofxeen
+    id: swordsofxeen
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: msn1
+    id: msn1
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: msn2
+    id: msn2
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: mortevielle
+    id: mortevielle
     support: good
     notes: '- No speech synthesis'
     version: 2.1.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: plumbers
+    id: plumbers
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: prince
+    id: prince
     support: untested
     notes: ""
     version: 2.1.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: nebular
+    id: nebular
     support: good
     notes: '- Original floppy version must be installed using DosBox before game is playable.'
     version: 2.1.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: ringworld2
+    id: ringworld2
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: sfinx
+    id: sfinx
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: scalpel
+    id: scalpel
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: dos
     unstable_platforms: '3do,dos'
 -
-    game_id: rosetattoo
+    id: rosetattoo
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: gnap
+    id: gnap
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: versailles
+    id: versailles
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: 'dos,mac,win'
     unstable_platforms: ""
 -
-    game_id: zgi
+    id: zgi
     support: good
     notes: ""
     version: 2.1.0
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: ultima4
+    id: ultima4
     support: good
     notes: '- FM-Towns may be working, but we''ll need someone with a copy to provide us a detection entry and test it out. - Provides an optional VGA enhanced mode'
     version: DEV
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: ultima6
+    id: ultima6
     support: good
     notes: '- German translation patch is also partially supported, with some interface elements not translated. - Provides an optional enhanced mode that has a full screen map and container widgets.'
     version: DEV
     stable_platforms: dos
     unstable_platforms: pc98
 -
-    game_id: ultima8
+    id: ultima8
     support: good
     notes: ""
     version: DEV
     stable_platforms: dos
     unstable_platforms: dos
 -
-    game_id: dragons
+    id: dragons
     support: good
     notes: ""
     version: DEV
     stable_platforms: psx
     unstable_platforms: ""
 -
-    game_id: eob
+    id: eob
     support: good
     notes: ""
     version: DEV
     stable_platforms: 'amiga,dos,pc98,segacd'
     unstable_platforms: ""
 -
-    game_id: griffon
+    id: griffon
     support: good
     notes: ""
     version: DEV
     stable_platforms: win
     unstable_platforms: ""
 -
-    game_id: lol
+    id: lol
     support: good
     notes: ""
     version: DEV
     stable_platforms: 'dos,fmtowns,pc98'
     unstable_platforms: ""
 -
-    game_id: mortevielle
+    id: mortevielle
     support: good
     notes: ""
     version: DEV
     stable_platforms: dos
     unstable_platforms: ""
 -
-    game_id: os
+    id: os
     support: good
     notes: ""
     version: DEV
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: ""
 -
-    game_id: maniac
+    id: maniac
     support: good
     notes: ""
     version: DEV

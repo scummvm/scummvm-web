@@ -16,6 +16,11 @@ abstract class BasicObject
         $this->name = $data['name'];
     }
 
+    public function __toString()
+    {
+        return $this->getName();
+    }
+
      /* Get the name. */
     public function getName()
     {

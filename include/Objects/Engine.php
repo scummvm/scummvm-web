@@ -14,9 +14,9 @@ class Engine extends DataObject
     public function __construct($data)
     {
         parent::__construct($data);
-        $this->name = $data['name'];
-        $this->alt_name = $data['alt_name'];
-        $this->enabled = $data['enabled'];
+        $this->name = $this->assignFromArray('name', $data, true);
+        $this->alt_name = $this->assignFromArray('alt_name', $data);
+        $this->enabled = $this->assignFromArray('enabled', $data);
     }
 
     /* Get the engine name. */

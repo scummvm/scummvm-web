@@ -16,11 +16,16 @@ class Game extends DataObject
     public function __construct($data, $engines, $companies)
     {
         parent::__construct($data);
-        $this->name = $data['name'];
-        $this->moby_id = $data['moby_id'];
-        $this->datafiles = $data['datafiles'];
+        $this->name = $this->assignFromArray('name', $data, true);
+        $this->moby_id = $this->assignFromArray('moby_id', $data);
+        $this->datafiles = $this->assignFromArray('datafiles', $data);
         $this->company = $this->assignFromArray($data['company_id'], $companies);
-        $this->engine = $this->assignFromArray($data['engine_id'], $engines);
+        $this->engine = $this->assignFromArray($data['engine_id'], $engines, true);
+    }
+
+    public function __toString()
+    {
+        return $this->getName();
     }
 
     /* Get the game name. */
