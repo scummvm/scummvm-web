@@ -2562,7 +2562,7 @@
     datafiles: ""
 -
     id: pass
-    name: 'Passport to Adventure'
+    name: 'Passport to Adventure (Indiana Jones and the Last Crusade, The Secret of Monkey Island, Loom)'
     engine_id: scumm
     company_id: lucasarts
     moby_id: ""
@@ -3341,7 +3341,7 @@
     id: chivalry
     name: 'Chivalry is Not Dead'
     engine_id: wintermute
-    company_id: ""
+    company_id: squinky
     moby_id: ""
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Chivalry_is_Not_Dead'
 -
@@ -3369,7 +3369,7 @@
     id: dreaming
     name: 'Des Reves Elastiques Avec Mille Insectes Nommes Georges'
     engine_id: wintermute
-    company_id: ""
+    company_id: squinky
     moby_id: ""
     datafiles: ""
 -
@@ -3628,7 +3628,7 @@
     id: pigeons
     name: 'Pigeons in the Park'
     engine_id: wintermute
-    company_id: ""
+    company_id: squinky
     moby_id: ""
     datafiles: ""
 -

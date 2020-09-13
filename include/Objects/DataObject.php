@@ -8,13 +8,16 @@ namespace ScummVM\Objects;
 abstract class DataObject
 {
     protected $id;
+    const NO_ID = 'Data object %s is missing an ID field';
+    const BAD_KEY = 'Field %s is required and cannot be empty for %s';
+    const NO_KEY = "Key is required and can not be blank";
 
     public function __construct($data)
     {
-        if (array_key_exists('id', $data)) {
-            $this->id = $data['id'];
-        } elseif (array_key_exists('support', $data)) { // Compatibility
-            $this->id = $data['game_id'];
+        try {
+            $this->id = $this->assignFromArray('id', $data);
+        } catch (\ErrorException $ex) {
+            throw new \ErrorException(\sprintf(self::NO_ID,\get_class($this)));
         }
     }
 
@@ -26,19 +29,24 @@ abstract class DataObject
 
     public function __toString()
     {
-        return strval($this->id);
+        return $this->id;
     }
 
     /**
      * Helper method to safely retrieve an object
      * from an array.
      */
-    protected function assignFromArray($key, $array)
+    protected function assignFromArray($key, $array, $required = false)
     {
-        if (array_key_exists($key, $array)) {
-            return $array[$key];
-        } else {
-            return $key;
+        if ($required) {
+            if ($key === '') {
+                throw new \ErrorException(\sprintf(self::NO_KEY, $key, \get_class($this)));
+            }
+
+            if (!isset($array[$key]) || $array[$key] === '') {
+                throw new \ErrorException(\sprintf(self::BAD_KEY, $key, \get_class($this)));
+            }
         }
+        return $array[$key];
     }
 }

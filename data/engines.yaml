@@ -373,3 +373,8 @@
     name: ZVision
     alt_name: ""
     enabled: true
+-
+    id: testbed
+    name: Testbed
+    alt_name: ""
+    enabled: false

@@ -57,18 +57,13 @@ abstract class GameDemosModel extends BasicModel
             'demos' => []
         ];
         foreach ($groups as $key => $group) {
-            \usort($groups[$key]['demos'], "\ScummVM\Models\GameDemosModel::demoSorter");
+            \sort($groups[$key]['demos'], SORT_STRING);
             if (count($groups[$key]['demos']) <= 15) {
                 $groups['other']['demos'] = \array_merge($groups['other']['demos'], $groups[$key]['demos']);
                 unset($groups[$key]);
             }
         }
-        // \usort($groups['other']['demos'], "\ScummVM\Models\GameDemosModel::demoSorter");
+        \sort($groups['other']['demos'], SORT_STRING);
         return $groups;
-    }
-
-    private static function demoSorter($demo1, $demo2)
-    {
-        return strnatcmp($demo1->getName(), $demo2->getName());
     }
 }

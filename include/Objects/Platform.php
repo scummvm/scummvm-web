@@ -12,7 +12,7 @@ class Platform extends DataObject
     public function __construct($data)
     {
         parent::__construct($data);
-        $this->name = $data['name'];
+        $this->name = $this->assignFromArray('name', $data, true);
     }
 
     /* Get the platform name. */

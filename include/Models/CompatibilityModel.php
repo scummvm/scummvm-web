@@ -60,4 +60,43 @@ abstract class CompatibilityModel extends BasicModel
 
         return $all_games[$target];
     }
+
+    public static function getAllDataGroups($version) {
+        $data = self::getAllData($version);
+        $compat_data = [];
+        foreach ($data as $compat) {
+            $engine = $compat->getGame()->getEngine();
+            $company = $compat->getGame()->getCompany();
+
+            if ($engine->getEnabled()) {
+                $engineName = $engine->getName();
+                if (is_string($company)) {
+                    $companyName = "Unknown";
+                } else {
+                    $companyName = $company->getName();
+                }
+                if (!array_key_exists($companyName, $compat_data)) {
+                    $compat_data[$companyName] = [];
+                }
+
+                $compat_data[$companyName][] = $compat->toLegacyCompatGame();
+
+            }
+        }
+        $compat_data['Other'] = [];
+        foreach ($compat_data as $key => $company) {
+            \sort($compat_data[$key], SORT_STRING);
+            if (count($compat_data[$key]) < 3) {
+                $compat_data['Other'] = \array_merge($compat_data['Other'], $company);
+                unset($compat_data[$key]);
+            }
+        }
+        \sort($compat_data['Other'], SORT_STRING);
+        return $compat_data;
+    }
+
+    private static function compatibilitySorter($compat1, $compat2)
+    {
+        return strnatcmp($compat1->getName(), $compat2->getName());
+    }
 }
