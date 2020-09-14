@@ -1375,7 +1375,7 @@
 			<game>
 				<name>Eye of the Beholder</name>
 				<target>eob</target>
-				<support_level>good</support_level>
+				<support_level>excellent</support_level>
 				<datafiles>Eye_of_the_Beholder</datafiles>
 				<notes>
 					Game is completable<h:br />- DOS, Amiga, PC-98 and Sega-CD versions are supported
@@ -1384,7 +1384,7 @@
 			<game>
 				<name>Eye of the Beholder II: The Legend of Darkmoon</name>
 				<target>eob2</target>
-				<support_level>good</support_level>
+				<support_level>excellent</support_level>
 				<datafiles>Eye_of_the_Beholder_II:_The_Legend_of_Darkmoon</datafiles>
 				<notes>
 					Game is completable<h:br />- DOS, Amiga and FM-TOWNS versions are supported<h:br />- PC-98 versions are not supported
@@ -1491,7 +1491,7 @@
 			<game>
 				<name>Lands of Lore: The Throne of Chaos</name>
 				<target>lol</target>
-				<support_level>good</support_level>
+				<support_level>excellent</support_level>
 				<datafiles>Lands_of_Lore:_The_Throne_of_Chaos</datafiles>
 				<notes>
 					Game is completable<h:br />- DOS, FM-TOWNS and PC-98 versions are supported
@@ -1697,7 +1697,7 @@
 			<game>
 				<name>The Legend of Kyrandia</name>
 				<target>kyra1</target>
-				<support_level>good</support_level>
+				<support_level>excellent</support_level>
 				<datafiles>Legend_of_Kyrandia.2C_The</datafiles>
 				<notes>
 					Game is completable<h:br />- Amiga, DOS, FM-TOWNS, Macintosh and PC-9821 versions are supported<h:br />- No music or sound effects in the Macintosh floppy versions<h:br />- Macintosh CD is using included DOS music and sound effects for now
@@ -1706,7 +1706,7 @@
 			<game>
 				<name>The Legend of Kyrandia: Book Two: Hand of Fate</name>
 				<target>kyra2</target>
-				<support_level>good</support_level>
+				<support_level>excellent</support_level>
 				<datafiles>Legend_of_Kyrandia.2C_The:_Hand_of_Fate</datafiles>
 				<notes>
 					Game is completable<h:br />- DOS, FM-TOWNS and PC-9821 versions are supported
@@ -1715,7 +1715,7 @@
 			<game>
 				<name>The Legend of Kyrandia: Book Three: Malcolm's Revenge</name>
 				<target>kyra3</target>
-				<support_level>good</support_level>
+				<support_level>excellent</support_level>
 				<datafiles>Legend_of_Kyrandia.2C_The:_Malcolm.27s_Revenge</datafiles>
 				<notes>
 					Game is completable<h:br />- DOS and Macintosh versions are supported
