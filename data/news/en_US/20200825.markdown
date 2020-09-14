@@ -8,9 +8,9 @@ ScummVM Team is proud to announce support for a small freeware RPG game named <i
 
 The original story says:
 
-<pre>500 years after the Griffon-Dragon war, the Dragons have
+>500 years after the Griffon-Dragon war, the Dragons have
 returned to reclaim their empire. Cities are falling,
 everyone is dieing, and the lone Griffon Knight Fayne is
-caught up in the middle of it all.</pre>
+caught up in the middle of it all.
 
 Since the game is freeware, you may grab a copy directly from our game [downloads page](https://www.scummvm.org/games/) or from the [original site](http://syn9.thehideoutgames.com/index_backup.php?table=griffonlegend). You will need the latest [development build](https://buildbot.scummvm.org/builds.html) to play it. Of course, if you encounter any bugs, please submit them to [our bug tracker](https://bugs.scummvm.org/).
