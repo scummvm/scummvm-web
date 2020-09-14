@@ -1,93 +1,96 @@
--
-    id: 3do
-    name: 3DO
--
-    id: acorn
-    name: Acorn
--
-    id: amiga
-    name: 'Amiga OS'
--
-    id: android
-    name: Android
--
-    id: apple2
-    name: 'Apple II'
--
-    id: apple2gs
-    name: 'Apple IIgs'
--
-    id: atari8bit
-    name: 'Atari 8 Bit'
--
-    id: atarist
-    name: 'Atari ST'
--
-    id: beos
-    name: BeOS
--
-    id: c64
-    name: 'Commodore 64'
--
-    id: dos
-    name: DOS
--
-    id: fmtowns
-    name: 'FM Towns'
--
-    id: ios
-    name: iOS
--
-    id: linux
-    name: Linux
--
-    id: mac
-    name: Macintosh
--
-    id: macos
-    name: macOS
--
-    id: nes
-    name: 'Nintendo Entertainment System'
--
-    id: os2
-    name: OS/2
--
-    id: pce
-    name: 'PC Engine'
--
-    id: pc98
-    name: PC-98
--
-    id: pcfx
-    name: PC-FX
--
-    id: cdi
-    name: 'Philips CD-i'
--
-    id: psx
-    name: Playstation
--
-    id: pocketpc
-    name: 'Pocket PC'
--
-    id: saturn
-    name: Saturn
--
-    id: segacd
-    name: 'Sega CD'
--
-    id: steam
-    name: Steam
--
-    id: coco3
-    name: 'Tandy Color Computer 3'
--
-    id: wii
-    name: Wii
--
-    id: win
-    name: Windows
--
-    id: amigacd32
-    name: 'Amiga CD32'
+# This is a generated file, please do not edit manually
+---
+- id: 3do
+  name: 3DO
+  enum: kPlatform3DO
+- id: acorn
+  name: Acorn
+  enum: ""
+- id: amiga
+  name: Amiga OS
+  enum: kPlatformAmiga
+- id: android
+  name: Android
+  enum: ""
+- id: apple2
+  name: Apple II
+  enum: ""
+- id: apple2gs
+  name: Apple IIgs
+  enum: kPlatformApple2GS
+- id: atari8bit
+  name: Atari 8 Bit
+  enum: ""
+- id: atarist
+  name: Atari ST
+  enum: kPlatformAtariST
+- id: beos
+  name: BeOS
+  enum: ""
+- id: c64
+  name: Commodore 64
+  enum: kPlatformC64
+- id: dos
+  name: DOS
+  enum: kPlatformDOS
+- id: fmtowns
+  name: FM Towns
+  enum: kPlatformFMTowns
+- id: ios
+  name: iOS
+  enum: kPlatformIOS
+- id: linux
+  name: Linux
+  enum: ""
+- id: mac
+  name: Macintosh
+  enum: kPlatformMacintosh
+- id: macos
+  name: macOS
+  enum: ""
+- id: nes
+  name: Nintendo Entertainment System
+  enum: kPlatformNES
+- id: os2
+  name: OS/2
+  enum: ""
+- id: pce
+  name: PC Engine
+  enum: kPlatformPCEngine
+- id: pc98
+  name: PC-98
+  enum: ""
+- id: pcfx
+  name: PC-FX
+  enum: ""
+- id: cdi
+  name: Philips CD-i
+  enum: ""
+- id: psx
+  name: Playstation
+  enum: ""
+- id: pocketpc
+  name: Pocket PC
+  enum: ""
+- id: saturn
+  name: Saturn
+  enum: ""
+- id: segacd
+  name: Sega CD
+  enum: kPlatformSegaCD
+- id: steam
+  name: Steam
+  enum: ""
+- id: coco3
+  name: Tandy Color Computer 3
+  enum: ""
+- id: wii
+  name: Wii
+  enum: ""
+- id: win
+  name: Windows
+  enum: kPlatformWindows
+- id: amigacd32
+  name: Amiga CD32
+  enum: ""
+...
