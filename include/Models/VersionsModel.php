@@ -20,7 +20,11 @@ abstract class VersionsModel extends BasicModel
             $data[$obj->getId()] = $obj;
         }
 
-        $data['DEV'] = new Version(["id" => 'DEV', "date" => "1/1/2099"]);
+        \uasort($data, "version_compare");
+
+        if (!array_key_exists('DEV', $data)) {
+            $data['DEV'] = new Version(["id" => 'DEV', "date" => "1/1/2099"]);
+        }
         return array_reverse($data, true);
     }
 }
