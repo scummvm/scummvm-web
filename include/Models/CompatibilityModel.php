@@ -80,7 +80,7 @@ abstract class CompatibilityModel extends BasicModel
                     $compat_data[$companyName] = [];
                 }
 
-                $compat_data[$companyName][] = $compat->toLegacyCompatGame();
+                $compat_data[$companyName][] = $compat->toLegacyCompatGame(false);
 
             }
         }
