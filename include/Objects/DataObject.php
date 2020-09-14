@@ -17,7 +17,7 @@ abstract class DataObject
         try {
             $this->id = $this->assignFromArray('id', $data);
         } catch (\ErrorException $ex) {
-            throw new \ErrorException(\sprintf(self::NO_ID,\get_class($this)));
+            throw new \ErrorException(\sprintf(self::NO_ID, \get_class($this)));
         }
     }
 
