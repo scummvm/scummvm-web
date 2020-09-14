@@ -61,7 +61,8 @@ abstract class CompatibilityModel extends BasicModel
         return $all_games[$target];
     }
 
-    public static function getAllDataGroups($version) {
+    public static function getAllDataGroups($version)
+    {
         $data = self::getAllData($version);
         $compat_data = [];
         foreach ($data as $compat) {
