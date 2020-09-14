@@ -17,10 +17,16 @@ class Compatibility extends DataObject
     private $stablePlatforms;
     private $unstablePlatforms;
 
+    private $purifier;
+    private $parsedown;
+
     /* Project object constructor. */
     public function __construct($data, $games, $platforms)
     {
         parent::__construct($data);
+        $config = \HTMLPurifier_Config::createDefault();
+        $this->parsedown = new \Parsedown();
+        $this->purifier = new \HTMLPurifier($config);
         $this->supportLevel = $this->assignFromArray('support', $data, true);
         $this->notes = $this->assignFromArray('notes', $data);
         $this->version = $this->assignFromArray('version', $data, true);
@@ -69,8 +75,7 @@ class Compatibility extends DataObject
             $notes .= str_replace("- ", "\n- ", $this->notes) . "\n";
         }
 
-        $parsedown = new \Parsedown();
-        return $parsedown->text($notes);
+        return $this->purifier->purify($this->parsedown->text($notes));
     }
 
     /* Get the datafiles uri. */
