@@ -59,7 +59,7 @@ class Compatibility extends DataObject
     }
 
     /* Get the notes. */
-    public function getNotes()
+    public function getNotes($sanitize = true)
     {
         $notes = "**Support Level:**\n\n";
         $notes .= "%$this->supportLevel%\n\n";
@@ -79,7 +79,11 @@ class Compatibility extends DataObject
             $notes .= str_replace("- ", "\n- ", $this->notes) . "\n";
         }
 
-        return self::$purifier->purify(self::$parsedown->text($notes));
+        $notes = self::$parsedown->text($notes);
+        if ($sanitize) {
+            $notes = self::$purifier->purify($notes);
+        }
+        return $notes;
     }
 
     /* Get the datafiles uri. */
@@ -101,14 +105,14 @@ class Compatibility extends DataObject
         return $this->version;
     }
 
-    public function toLegacyCompatGame()
+    public function toLegacyCompatGame($sanitize = true)
     {
         return new LegacyCompatGame(
             [
             'target' => $this->game->getId(),
             'datafiles' => $this->game->getDatafiles(),
             'support_level' => $this->getSupportLevel(),
-            'notes' => $this->getNotes(),
+            'notes' => $this->getNotes($sanitize),
             'name' => $this->game->getName(),
             'description' => ''
             ]
