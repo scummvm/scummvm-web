@@ -998,14 +998,14 @@
 - id: t7g
   name: The 7th Guest
   engine_id: groovie
-  company_id: triolobyte
+  company_id: trilobyte
   moby_id: "283"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#7th_Guest.2C_The
   series: ""
 - id: 11h
   name: 'The 11th Hour: The Sequel to The 7th Guest'
   engine_id: groovie
-  company_id: triolobyte
+  company_id: trilobyte
   moby_id: "567"
   datafiles: ""
   series: ""
@@ -1019,14 +1019,14 @@
 - id: clandestiny
   name: Clandestiny
   engine_id: groovie
-  company_id: triolobyte
+  company_id: trilobyte
   moby_id: "2154"
   datafiles: ""
   series: ""
 - id: unclehenry
   name: Uncle Henry's Playhouse
   engine_id: groovie
-  company_id: triolobyte
+  company_id: trilobyte
   moby_id: ""
   datafiles: ""
   series: ""
@@ -2694,7 +2694,7 @@
 - id: stjr
   name: 'Star Trek: Judgment Rites'
   engine_id: startrek
-  company_id: Mandy Christmas Adventure
+  company_id: interplay
   moby_id: "3492"
   datafiles: ""
   series: ""
@@ -3880,28 +3880,28 @@
   company_id: nwc
   moby_id: ""
   datafiles: ""
-  series: mom
+  series: mm
 - id: darksideofxeen
   name: 'Might and Magic V: Dark Side of Xeen'
   engine_id: xeen
   company_id: nwc
   moby_id: ""
   datafiles: ""
-  series: mom
+  series: mm
 - id: swordsofxeen
   name: 'Might and Magic: Swords of Xeen'
   engine_id: xeen
   company_id: nwc
   moby_id: ""
   datafiles: ""
-  series: mom
+  series: mm
 - id: worldofxeen
   name: 'Might and Magic: World of Xeen'
   engine_id: xeen
   company_id: nwc
   moby_id: ""
   datafiles: ""
-  series: mom
+  series: mm
 - id: znemesis
   name: 'Zork Nemesis: The Forbidden Lands'
   engine_id: zvision
