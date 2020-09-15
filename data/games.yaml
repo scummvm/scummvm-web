@@ -13,56 +13,56 @@
   company_id: access
   moby_id: "3287"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Amazon:_Guardians_of_Eden
-  series: ""
+  series: hires
 - id: hires2
   name: 'Hi-Res Adventure #2: The Wizard and the Princess'
   engine_id: adl
   company_id: sierra
   moby_id: "1761"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Hi-Res_Adventure_.232:_Wizard_and_the_Princess
-  series: ""
+  series: hires
 - id: hires1
   name: 'Hi-Res Adventure #1: Mystery House'
   engine_id: adl
   company_id: sierra
   moby_id: "9312"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Hi-Res_Adventure_.231:_Mystery_House
-  series: ""
+  series: hires
 - id: hires4
   name: 'Hi-Res Adventure #4: Ulysses and the Golden Fleece'
   engine_id: adl
   company_id: sierra
   moby_id: "10343"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Hi-Res_Adventure_.234:_Ulysses_and_the_Golden_Fleece
-  series: ""
+  series: hires
 - id: hires3
   name: 'Hi-Res Adventure #3: Cranston Manor'
   engine_id: adl
   company_id: sierra
   moby_id: "15281"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Hi-Res_Adventure_.233:_Cranston_Manor
-  series: ""
+  series: hires
 - id: hires0
   name: 'Hi-Res Adventure #0: Mission Asteroid'
   engine_id: adl
   company_id: sierra
   moby_id: "15282"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Hi-Res_Adventure_.230:_Mission_Asteroid
-  series: ""
+  series: hires
 - id: hires5
   name: 'Hi-Res Adventure #5: Time Zone'
   engine_id: adl
   company_id: sierra
   moby_id: "15283"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Hi-Res_Adventure_.235:_Time_Zone
-  series: ""
+  series: hires
 - id: hires6
   name: 'Hi-Res Adventure #6: The Dark Crystal'
   engine_id: adl
   company_id: sierra
   moby_id: "16877"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Hi-Res_Adventure_.236:_The_Dark_Crystal
-  series: ""
+  series: hires
 - id: mh1
   name: 'Manhunter: New York'
   engine_id: agi
@@ -99,7 +99,7 @@
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#AGI
   series: kq
 - id: sq2
-  name: 'Space Quest II: Vohaul''s Revenge'
+  name: 'Space Quest II: Chapter II - Vohaul''s Revenge'
   engine_id: agi
   company_id: sierra
   moby_id: "128"
@@ -113,7 +113,7 @@
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#AGI
   series: kq
 - id: pq1
-  name: 'Police Quest I: In Pursuit of the Death Angel'
+  name: 'Police Quest: In Pursuit of the Death Angel'
   engine_id: agi
   company_id: sierra
   moby_id: "146"
@@ -193,11 +193,11 @@
   name: 'King''s Quest III: To Heir Is Human'
   engine_id: agi
   company_id: sierra
-  moby_id: "23393"
+  moby_id: "126"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#AGI
   series: kq
 - id: sqx
-  name: 'Space Quest X: The Lost Chapter'
+  name: 'Space Quest: The Lost Chapter'
   engine_id: agi
   company_id: fan
   moby_id: "54958"
@@ -214,49 +214,49 @@
   name: AGI Demo
   engine_id: agi
   company_id: sierra
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: xmascard
   name: Xmas Card
   engine_id: agi
   company_id: sierra
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: caitlyn
   name: Caitlyn's Destiny
   engine_id: agi
   company_id: fan
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: agi-fanmade
   name: Fanmade AGI game
   engine_id: agi
   company_id: fan
-  moby_id: ""
+  moby_id: "-1"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#AGI
   series: ""
 - id: serguei1
-  name: Serguei's Destiny 1
+  name: Serguei's Destiny
   engine_id: agi
   company_id: fan
-  moby_id: sergueis-destiny
+  moby_id: "6007"
   datafiles: ""
   series: ""
 - id: serguei2
   name: Serguei's Destiny 2
   engine_id: agi
   company_id: fan
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: agi
   name: Sierra AGI game
   engine_id: agi
   company_id: sierra
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: simon1
@@ -298,42 +298,42 @@
   name: Waxworks
   engine_id: agos
   company_id: adventuresoft
-  moby_id: "29415"
+  moby_id: "1269"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Waxworks
   series: ""
 - id: dimp
-  name: 'Simon the Sorcerer''s Puzzle Pack: Demon in my Pocket'
+  name: Simon the Sorcerer's Puzzle Pack
   engine_id: agos
   company_id: adventuresoft
-  moby_id: simon-the-sorcerers-puzzle-pack
+  moby_id: "4427"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Simon_the_Sorcerer.27s_Puzzle_Pack
   series: simon
 - id: jumble
-  name: 'Simon the Sorcerer''s Puzzle Pack: Jumble'
+  name: Simon the Sorcerer's Puzzle Pack
   engine_id: agos
   company_id: adventuresoft
-  moby_id: simon-the-sorcerers-puzzle-pack
+  moby_id: "4427"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Simon_the_Sorcerer.27s_Puzzle_Pack
   series: simon
 - id: puzzle
-  name: 'Simon the Sorcerer''s Puzzle Pack: NoPatience'
+  name: Simon the Sorcerer's Puzzle Pack
   engine_id: agos
   company_id: adventuresoft
-  moby_id: simon-the-sorcerers-puzzle-pack
+  moby_id: "4427"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Simon_the_Sorcerer.27s_Puzzle_Pack
   series: simon
 - id: pn
-  name: Personal Nightmare
+  name: '...A Personal Nightmare'
   engine_id: agos
   company_id: adventuresoft
-  moby_id: ""
+  moby_id: "7457"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Personal_Nightmare
   series: ""
 - id: swampy
-  name: 'Simon the Sorcerer''s Puzzle Pack: Swampy Adventures'
+  name: Simon the Sorcerer's Puzzle Pack
   engine_id: agos
   company_id: adventuresoft
-  moby_id: simon-the-sorcerers-puzzle-pack
+  moby_id: "4427"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Simon_the_Sorcerer.27s_Puzzle_Pack
   series: simon
 - id: avalanche
@@ -344,7 +344,7 @@
   datafiles: ""
   series: ""
 - id: bbvs
-  name: Beavis and Butt-head in Virtual Stupidity
+  name: MTV's Beavis and Butt-Head in Virtual Stupidity
   engine_id: bbvs
   company_id: viacom
   moby_id: "2470"
@@ -361,7 +361,7 @@
   name: Blade Runner with restored content
   engine_id: bladerunner
   company_id: westwood
-  moby_id: ""
+  moby_id: "32411"
   datafiles: ""
   series: ""
 - id: soltys
@@ -393,10 +393,10 @@
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Future_Wars
   series: ""
 - id: os
-  name: Operation Stealth
+  name: '007: James Bond - The Stealth Affair'
   engine_id: cine
   company_id: delphine
-  moby_id: 007-james-bond-the-stealth-affair
+  moby_id: "2236"
   datafiles: ""
   series: ""
 - id: darby
@@ -459,7 +459,7 @@
   name: Magic Tales
   engine_id: composer
   company_id: animationmagic
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: magictales
 - id: cruise
@@ -529,168 +529,168 @@
   name: Ernie
   engine_id: director
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
-  series: ""
+  series: id4
 - id: id4p1
   name: iD4 Mission Disk 1 - Alien Supreme Commander
   engine_id: director
   company_id: trendmasters
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
-  series: ""
+  series: id4
 - id: id4p10
   name: iD4 Mission Disk 10 - Alien Bomber
   engine_id: director
   company_id: trendmasters
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
-  series: ""
+  series: id4
 - id: id4p11
   name: iD4 Mission Disk 11 - Area 51
   engine_id: director
   company_id: trendmasters
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
-  series: ""
+  series: id4
 - id: id4p2
-  name: iD4 Mission Disk 2 - Alien Science Officer
+  name: 'ID4 Mission Disk 2: Alien Science Officer'
   engine_id: director
   company_id: trendmasters
-  moby_id: ""
+  moby_id: "32260"
   datafiles: ""
-  series: ""
+  series: id4
 - id: id4p3
   name: iD4 Mission Disk 3 - Warrior Alien
   engine_id: director
   company_id: trendmasters
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
-  series: ""
+  series: id4
 - id: id4p4
   name: iD4 Mission Disk 4 - Alien Navigator
   engine_id: director
   company_id: trendmasters
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
-  series: ""
+  series: id4
 - id: id4p5
   name: iD4 Mission Disk 5 - Captain Steve Hiller
   engine_id: director
   company_id: trendmasters
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
-  series: ""
+  series: id4
 - id: id4p6
-  name: iD4 Mission Disk 6 - Dave's Computer
+  name: 'ID4 Mission Disk 6: Technical Expert David Levinson'
   engine_id: director
   company_id: trendmasters
-  moby_id: ""
+  moby_id: "32398"
   datafiles: ""
-  series: ""
+  series: id4
 - id: id4p7
   name: iD4 Mission Disk 7 - President Whitmore
   engine_id: director
   company_id: trendmasters
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
-  series: ""
+  series: id4
 - id: id4p8
   name: iD4 Mission Disk 8 - Alien Attack Fighter
   engine_id: director
   company_id: trendmasters
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
-  series: ""
+  series: id4
 - id: id4p9
   name: iD4 Mission Disk 9 - FA-18 Fighter Jet
   engine_id: director
   company_id: trendmasters
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
-  series: ""
+  series: id4
 - id: jewels
   name: Jewels of the Oracle
   engine_id: director
   company_id: eloi
-  moby_id: jewels-of-the-oracle
+  moby_id: "5042"
   datafiles: ""
   series: ""
 - id: directortest-all
   name: Macromedia Director All Movies Test Target
   engine_id: director
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: director
   name: Macromedia Director Game
   engine_id: director
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: directortest
   name: Macromedia Director Test Target
   engine_id: director
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: majestic
-  name: 'Majestic Part I: Alien Encounter'
+  name: 'Majestic Part 1: Alien Encounter'
   engine_id: director
   company_id: piranha
-  moby_id: majestic-part-1-alien-encounter
+  moby_id: "57856"
   datafiles: ""
   series: ""
 - id: mediaband
   name: Meet Mediaband
   engine_id: director
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: spyclub
   name: Spy Club
   engine_id: director
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: theapartment
   name: The Apartment, Interactive demo
   engine_id: director
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: vvdinosaur
-  name: 'Victor Vector & Yondo: The Last Dinosaur Egg'
+  name: 'The Awesome Adventures of Victor Vector & Yondo: The Last Dinosaur Egg'
   engine_id: director
   company_id: sanctuary
-  moby_id: awesome-adventures-of-victor-vector-yondo-the-last-dinosaur-egg
+  moby_id: "21266"
   datafiles: ""
   series: ""
 - id: vvvampire
-  name: 'Victor Vector & Yondo: The Vampire''s Coffin'
+  name: 'The Awesome Adventures of Victor Vector & Yondo: The Vampire''s Coffin'
   engine_id: director
   company_id: sanctuary
-  moby_id: awesome-adventures-of-victor-vector-yondo-the-vampires-coffin
+  moby_id: "21262"
   datafiles: ""
   series: ""
 - id: dm
   name: Dungeon Master
   engine_id: dm
   company_id: ftl
-  moby_id: dungeon-master
+  moby_id: "834"
   datafiles: ""
   series: ""
 - id: draci
-  name: Dračí Historie
+  name: Dragon History
   engine_id: draci
   company_id: nosense
-  moby_id: dragon-history
+  moby_id: "44689"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Dragon_History
   series: ""
 - id: dragons
@@ -704,7 +704,7 @@
   name: 'Dráscula: The Vampire Strikes Back'
   engine_id: drascula
   company_id: alcachofa
-  moby_id: drscula-the-vampire-strikes-back
+  moby_id: "14108"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Drascula:_The_Vampire_Strikes_Back
   series: ""
 - id: dreamweb
@@ -722,10 +722,10 @@
   datafiles: ""
   series: ""
 - id: gnap
-  name: Gnap
+  name: U.F.O.s
   engine_id: gnap
   company_id: artech
-  moby_id: ufos
+  moby_id: "4556"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#U.F.O.s_.2F_Gnap
   series: ""
 - id: gob1
@@ -736,7 +736,7 @@
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Gobliiins
   series: gob
 - id: gob1cd
-  name: Gobliiins CD
+  name: Gobliiins
   engine_id: gob
   company_id: coktel
   moby_id: "1154"
@@ -750,7 +750,7 @@
   datafiles: ""
   series: ""
 - id: gob2cd
-  name: Gobliins 2 CD
+  name: 'Gobliins 2: The Prince Buffoon'
   engine_id: gob
   company_id: coktel
   moby_id: "2625"
@@ -771,7 +771,7 @@
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Goblins_3
   series: gob
 - id: gob3cd
-  name: Goblins Quest 3 CD
+  name: Goblins Quest 3
   engine_id: gob
   company_id: coktel
   moby_id: "2870"
@@ -858,63 +858,63 @@
   name: A.J.'s World of Discovery
   engine_id: gob
   company_id: coktel
-  moby_id: ajs-world-of-discovery
+  moby_id: "32409"
   datafiles: ""
   series: ""
 - id: adi2
   name: ADI 2
   engine_id: gob
   company_id: coktel
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: adi4
   name: ADI 4
   engine_id: gob
   company_id: coktel
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: adibou1
   name: Adibou 1
   engine_id: gob
   company_id: coktel
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: adibou2
   name: Adibou 2
   engine_id: gob
   company_id: coktel
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: inca2
-  name: 'Inca II: Wiracocha'
+  name: 'Inca II: Nations of Immortality'
   engine_id: gob
   company_id: coktel
-  moby_id: ""
+  moby_id: "4553"
   datafiles: ""
   series: ""
 - id: abracadabra
   name: 'Once Upon A Time: Abracadabra'
   engine_id: gob
   company_id: coktel
-  moby_id: ""
+  moby_id: "31462"
   datafiles: ""
   series: ""
 - id: babayaga
   name: 'Once Upon A Time: Baba Yaga'
   engine_id: gob
   company_id: coktel
-  moby_id: ""
+  moby_id: "27621"
   datafiles: ""
   series: ""
 - id: littlered
   name: 'Once Upon A Time: Little Red Riding Hood'
   engine_id: gob
   company_id: coktel
-  moby_id: ""
+  moby_id: "31658"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Once_Upon_A_Time:_Little_Red_Riding_Hood
   series: ""
 - id: playtoonsdemo
@@ -922,77 +922,77 @@
     the Castle
   engine_id: gob
   company_id: coktel
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: playtoons1
   name: Playtoons 1 - Uncle Archibald
   engine_id: gob
   company_id: coktel
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: playtoons2
   name: Playtoons 2 - The Case of the Counterfeit Collaborator
   engine_id: gob
   company_id: coktel
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: playtoons3
   name: Playtoons 3 - The Secret of the Castle
   engine_id: gob
   company_id: coktel
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: playtoons4
   name: Playtoons 4 - The Mandarine Prince
   engine_id: gob
   company_id: coktel
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: playtoons5
   name: Playtoons 5 - The Stone of Wakan
   engine_id: gob
   company_id: coktel
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: playtnck1
   name: Playtoons Construction Kit 1 - Monsters
   engine_id: gob
   company_id: coktel
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: playtnck2
   name: Playtoons Construction Kit 2 - Knights
   engine_id: gob
   company_id: coktel
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: playtnck3
   name: Playtoons Construction Kit 3 - Far West
   engine_id: gob
   company_id: coktel
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: bambou
   name: Playtoons Limited Edition - Bambou le sauveur de la jungle
   engine_id: gob
   company_id: coktel
-  moby_id: ""
+  moby_id: "-1"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Playtoons:_Bambou_le_Sauveur_de_la_Jungle
   series: ""
 - id: griffon
   name: The Griffon Legend
   engine_id: griffon
   company_id: fan
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: t7g
@@ -1027,14 +1027,14 @@
   name: Uncle Henry's Playhouse
   engine_id: groovie
   company_id: trilobyte
-  moby_id: ""
+  moby_id: "4531"
   datafiles: ""
   series: ""
 - id: hdb
   name: Hyperspace Delivery Boy!
   engine_id: hdb
   company_id: monkeystone
-  moby_id: ""
+  moby_id: "8754"
   datafiles: ""
   series: ""
 - id: hopkins
@@ -1050,23 +1050,23 @@
   company_id: graydesign
   moby_id: "1023"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Hugo.27s_House_of_Horrors
-  series: ""
+  series: hugo
 - id: hugo2
   name: 'Hugo II: Whodunit?'
   engine_id: hugo
   company_id: graydesign
   moby_id: "1158"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Hugo_2:_Whodunit.3F
-  series: ""
+  series: hugo
 - id: hugo3
   name: 'Hugo III: Jungle of Doom'
   engine_id: hugo
   company_id: graydesign
   moby_id: "4962"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Hugo_3:_Jungle_of_Doom
-  series: ""
+  series: hugo
 - id: bbdou
-  name: Beavis and Butt-Head in Virtual Stupidity
+  name: MTV's Beavis and Butt-Head in Virtual Stupidity
   engine_id: illusions
   company_id: viacom
   moby_id: "2470"
@@ -1104,28 +1104,28 @@
   name: Eye of the Beholder
   engine_id: kyra
   company_id: westwood
-  moby_id: ""
+  moby_id: "835"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Eye_of_the_Beholder
   series: eob
 - id: eob2
   name: 'Eye of the Beholder II: The Legend of Darkmoon'
   engine_id: kyra
   company_id: westwood
-  moby_id: ""
+  moby_id: "307"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Eye_of_the_Beholder_II:_The_Legend_of_Darkmoon
   series: eob
 - id: lol
   name: 'Lands of Lore: The Throne of Chaos'
   engine_id: kyra
   company_id: westwood
-  moby_id: ""
+  moby_id: "846"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Lands_of_Lore:_The_Throne_of_Chaos
   series: ""
 - id: lab
-  name: Labyrinth of Time
+  name: The Labyrinth of Time
   engine_id: lab
   company_id: terra
-  moby_id: ""
+  moby_id: "2441"
   datafiles: ""
   series: ""
 - id: lastexpress
@@ -1203,7 +1203,7 @@
   name: Rodney's Funscreen
   engine_id: made
   company_id: artbox
-  moby_id: ""
+  moby_id: "39698"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Rodney.27s_Funscreen
   series: ""
 - id: nebular
@@ -1238,7 +1238,7 @@
   name: 'Myst: Masterpiece Edition'
   engine_id: mohawk
   company_id: cyan
-  moby_id: "1223"
+  moby_id: "1253"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Myst
   series: myst
 - id: riven
@@ -1266,161 +1266,161 @@
   name: 'Aesop''s Fables: The Tortoise and the Hare'
   engine_id: mohawk
   company_id: livingbooks
-  moby_id: ""
+  moby_id: "44804"
   datafiles: ""
   series: livingbooks
 - id: arthurbday
   name: Arthur's Birthday
   engine_id: mohawk
   company_id: livingbooks
-  moby_id: ""
+  moby_id: "63198"
   datafiles: ""
   series: livingbooks
 - id: arthurcomp
   name: Arthur's Computer Adventure
   engine_id: mohawk
   company_id: livingbooks
-  moby_id: ""
+  moby_id: "79724"
   datafiles: ""
   series: livingbooks
 - id: arthurrace
   name: Arthur's Reading Race
   engine_id: mohawk
   company_id: livingbooks
-  moby_id: ""
+  moby_id: "44963"
   datafiles: ""
   series: livingbooks
 - id: arthur
-  name: Arthur's Teacher Trouble
+  name: Marc Brown's Arthur's Teacher Trouble
   engine_id: mohawk
   company_id: livingbooks
-  moby_id: ""
+  moby_id: "69084"
   datafiles: ""
   series: livingbooks
 - id: carmentq
   name: Carmen Sandiego's ThinkQuick Challenge
   engine_id: mohawk
   company_id: tlc
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: carmentqc
   name: Carmen Sandiego's ThinkQuick Challenge Custom Question Creator
   engine_id: mohawk
   company_id: tlc
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: seussabc
   name: Dr. Seuss's ABC
   engine_id: mohawk
   company_id: livingbooks
-  moby_id: ""
+  moby_id: "71855"
   datafiles: ""
   series: livingbooks
 - id: greeneggs
   name: Green Eggs and Ham
   engine_id: mohawk
   company_id: livingbooks
-  moby_id: ""
+  moby_id: "71853"
   datafiles: ""
   series: livingbooks
 - id: harryhh
   name: Harry and the Haunted House
   engine_id: mohawk
   company_id: livingbooks
-  moby_id: ""
+  moby_id: "4723"
   datafiles: ""
   series: livingbooks
 - id: grandma
   name: Just Grandma and Me
   engine_id: mohawk
   company_id: livingbooks
-  moby_id: ""
+  moby_id: "17688"
   datafiles: ""
   series: livingbooks
 - id: lilmonster
   name: Little Monster at School
   engine_id: mohawk
   company_id: livingbooks
-  moby_id: ""
+  moby_id: "17715"
   datafiles: ""
   series: livingbooks
 - id: lbsampler
   name: Living Books Sampler
   engine_id: mohawk
   company_id: livingbooks
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: livingbooks
 - id: maggiesfa
   name: Maggie's Farmyard Adventure
   engine_id: mohawk
   company_id: livingbooks
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: livingbooks
 - id: ruff
   name: Ruff's Bone
   engine_id: mohawk
   company_id: colossal
-  moby_id: ruffs-bone
+  moby_id: "71458"
   datafiles: ""
   series: ""
 - id: rugratsps
   name: Rugrats Print Shop
   engine_id: mohawk
   company_id: livingbooks
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: livingbooks
 - id: stellaluna
   name: Stellaluna
   engine_id: mohawk
   company_id: broderbund
-  moby_id: stellaluna
+  moby_id: "71459"
   datafiles: ""
-  series: ""
+  series: livingbooks
 - id: bearfight
   name: The Berenstain Bears Get in a Fight
   engine_id: mohawk
   company_id: livingbooks
-  moby_id: ""
+  moby_id: "71844"
   datafiles: ""
   series: livingbooks
 - id: beardark
   name: The Berenstain Bears In The Dark
   engine_id: mohawk
   company_id: livingbooks
-  moby_id: ""
+  moby_id: "79722"
   datafiles: ""
   series: livingbooks
 - id: catinthehat
   name: The Cat in the Hat
   engine_id: mohawk
   company_id: livingbooks
-  moby_id: ""
+  moby_id: "15265"
   datafiles: ""
   series: livingbooks
 - id: makingofmyst
   name: The Making of Myst
   engine_id: mohawk
   company_id: cyan
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: myst
 - id: newkid
   name: The New Kid on the Block
   engine_id: mohawk
   company_id: livingbooks
-  moby_id: ""
+  moby_id: "62289"
   datafiles: ""
   series: livingbooks
 - id: cstime
   name: Where in Time is Carmen Sandiego?
   engine_id: mohawk
   company_id: broderbund
-  moby_id: ""
+  moby_id: "6564"
   datafiles: ""
   series: ""
 - id: mortevielle
@@ -1501,7 +1501,7 @@
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Flight_of_the_Amazon_Queen
   series: ""
 - id: ihnm
-  name: I Have No Mouth and I Must Scream
+  name: 'Harlan Ellison: I Have No Mouth, and I Must Scream'
   engine_id: saga
   company_id: dreamersguild
   moby_id: "617"
@@ -1522,10 +1522,10 @@
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Inherit_the_Earth:_Quest_for_the_Orb
   series: ""
 - id: fta2
-  name: 'Faery Tale Adventure II: Halls of the Dead'
+  name: 'Halls of the Dead: Faery Tale Adventure II'
   engine_id: saga
   company_id: dreamersguild
-  moby_id: ""
+  moby_id: "3414"
   datafiles: ""
   series: ""
 - id: gk1demo
@@ -1735,7 +1735,7 @@
   name: Leisure Suit Larry in the Land of the Lounge Lizards
   engine_id: sci
   company_id: sierra
-  moby_id: "413"
+  moby_id: "379"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#SCI
   series: lsl
 - id: iceman
@@ -1749,14 +1749,14 @@
   name: 'Laura Bow 2: The Dagger of Amon Ra'
   engine_id: sci
   company_id: sierra
-  moby_id: "461"
+  moby_id: "462"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#SCI
   series: laura
 - id: laurabow
   name: 'Laura Bow: The Colonel''s Bequest'
   engine_id: sci
   company_id: sierra
-  moby_id: "462"
+  moby_id: "461"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#SCI
   series: laura
 - id: ecoquest
@@ -1847,7 +1847,7 @@
   name: Phantasmagoria
   engine_id: sci
   company_id: sierra
-  moby_id: "1585"
+  moby_id: "1164"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#SCI
   series: ""
 - id: freddypharkas
@@ -1868,7 +1868,7 @@
   name: 'Police Quest: In Pursuit of the Death Angel'
   engine_id: sci
   company_id: sierra
-  moby_id: "2031"
+  moby_id: "146"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#SCI
   series: pq
 - id: hoyle3
@@ -1924,14 +1924,14 @@
   name: Mixed-Up Mother Goose
   engine_id: sci
   company_id: sierra
-  moby_id: "22295"
+  moby_id: "758"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#SCI
   series: mixedup
 - id: mothergoose256
   name: Mixed-Up Mother Goose
   engine_id: sci
   company_id: sierra
-  moby_id: "22295"
+  moby_id: "758"
   datafiles: deluxe?
   series: mixedup
 - id: slater
@@ -1987,98 +1987,98 @@
   name: Astro Chicken
   engine_id: sci
   company_id: sierra
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: christmas1988
   name: Christmas Card 1988
   engine_id: sci
   company_id: sierra
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: christmas1990
   name: 'Christmas Card 1990: The Seasoned Professional'
   engine_id: sci
   company_id: sierra
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: christmas1992
   name: Christmas Card 1992
   engine_id: sci
   company_id: sierra
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: sci-fanmade
   name: Fanmade SCI Game
   engine_id: sci
   company_id: fan
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: funseeker
   name: Fun Seeker's Guide
   engine_id: sci
   company_id: sierra
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: hoyle5bridge
   name: Hoyle Bridge
   engine_id: sci
   company_id: sierra
-  moby_id: hoyle-bridge
+  moby_id: "17466"
   datafiles: ""
   series: hoyle
 - id: hoyle5children
   name: Hoyle Children's Collection
   engine_id: sci
   company_id: sierra
-  moby_id: hoyle-childrens-collection
+  moby_id: "19773"
   datafiles: ""
   series: hoyle
 - id: inndemo
   name: ImagiNation Network (INN) Demo
   engine_id: sci
   company_id: sierra
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: chest
   name: Inside the Chest
   engine_id: sci
   company_id: sierra
-  moby_id: ""
+  moby_id: "-1"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#SCI
   series: ""
 - id: kquestions
   name: King's Questions
   engine_id: sci
   company_id: sierra
-  moby_id: ""
+  moby_id: "-1"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#SCI
   series: kq
 - id: msastrochicken
   name: Ms. Astro Chicken
   engine_id: sci
   company_id: sierra
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: sci
   name: Sierra SCI Game
   engine_id: sci
   company_id: sierra
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: catdate
   name: The Dating Pool
   engine_id: sci
   company_id: fan
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: loom
@@ -2355,7 +2355,7 @@
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Pajama_Sam.27s_Lost_.26_Found
   series: pajama
 - id: fbpack
-  name: Fatty Bear's Fun Pack
+  name: Fatty Bear's FunPack
   engine_id: scumm
   company_id: he
   moby_id: "20950"
@@ -2376,7 +2376,7 @@
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Freddi_Fish_and_Luther.27s_Water_Worries
   series: freddi
 - id: socks
-  name: Pajama Sam's Sock Works
+  name: Pajama Sam's SockWorks
   engine_id: scumm
   company_id: he
   moby_id: "20989"
@@ -2418,7 +2418,7 @@
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#SPY_Fox_1:_Dry_Cereal
   series: spyfox
 - id: farm
-  name: Let's Explore the Farm with Buzzy
+  name: 'Let''s Explore: The Farm - With Buzzy'
   engine_id: scumm
   company_id: he
   moby_id: "21015"
@@ -2453,7 +2453,7 @@
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Backyard_Baseball
   series: juniorsports
 - id: activity
-  name: Putt-Putt & Fatty Bear's Activity Pack
+  name: Putt-Putt and Fatty Bear's Activity Pack
   engine_id: scumm
   company_id: he
   moby_id: "21083"
@@ -2523,7 +2523,7 @@
   datafiles: ""
   series: juniorsports
 - id: samsfunshop
-  name: Pajama Sam's One-Stop Fun Shop
+  name: Pajama Sam's One Stop Fun Shop
   engine_id: scumm
   company_id: he
   moby_id: "71931"
@@ -2533,35 +2533,36 @@
   name: 'Big Thinkers!: 1st Grade'
   engine_id: scumm
   company_id: he
-  moby_id: "73005"
+  moby_id: "80258"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Big_Thinkers_First_Grade
   series: bigthinkers
 - id: thinkerk
   name: 'Big Thinkers!: Kindergarten'
   engine_id: scumm
   company_id: he
-  moby_id: "80258"
+  moby_id: "73005"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Big_Thinkers_Kindergarten
   series: bigthinkers
 - id: catalog
   name: Humongous Interactive Catalog
   engine_id: scumm
   company_id: he
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: indyloom
   name: Indiana Jones and the Last Crusade & Loom
   engine_id: scumm
   company_id: lucasarts
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: indyzak
-  name: Indiana Jones and the Last Crusade & Zak McKracken
+  name: 'Games, Games, Games: Maniac Mansion + Zak McKracken + Indiana Jones and the
+    last Crusade'
   engine_id: scumm
   company_id: lucasarts
-  moby_id: ""
+  moby_id: "37327"
   datafiles: ""
   series: ""
 - id: pass
@@ -2569,21 +2570,21 @@
     Island, Loom)
   engine_id: scumm
   company_id: lucasarts
-  moby_id: ""
+  moby_id: "-1"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Passport_to_Adventure
   series: ""
 - id: zakloom
   name: Zak McKracken & Loom
   engine_id: scumm
   company_id: lucasarts
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: brstorm
   name: Bear Stormin'
   engine_id: scumm
   company_id: he
-  moby_id: ""
+  moby_id: "-1"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Bear_Stormin.27
   series: ""
 - id: scalpel
@@ -2646,42 +2647,42 @@
   name: Mandy Christmas Adventure
   engine_id: sludge
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: robinsrescue
   name: Robin's Rescue
   engine_id: sludge
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: sludge
   name: Sludge Game
   engine_id: sludge
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: verbcoin
   name: Verb Coin
   engine_id: sludge
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: welcome
   name: Welcome Example
   engine_id: sludge
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: interview
   name: The Interview
   engine_id: sludge
   company_id: ""
-  moby_id: ""
+  moby_id: "71160"
   datafiles: ""
   series: ""
 - id: st25
@@ -2807,7 +2808,7 @@
   name: 'Testbed: The Backend Testing Framework'
   engine_id: testbed
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: dw
@@ -2884,7 +2885,7 @@
   name: The Lost Files of Sherlock Holmes
   engine_id: tsage
   company_id: mythos
-  moby_id: ""
+  moby_id: "3441"
   datafiles: ""
   series: ""
 - id: tucker
@@ -2895,14 +2896,14 @@
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Bud_Tucker_in_Double_Trouble
   series: ""
 - id: ultima6
-  name: Ultima VI - The False Prophet
+  name: 'Ultima VI: The False Prophet'
   engine_id: ultima
   company_id: origin
   moby_id: "104"
   datafiles: ""
   series: ultima
 - id: ultima6_enh
-  name: Ultima VI - The False Prophet - Enhanced
+  name: 'Ultima VI: The False Prophet'
   engine_id: ultima
   company_id: origin
   moby_id: "104"
@@ -2930,14 +2931,14 @@
   datafiles: ""
   series: ultima
 - id: martiandreams
-  name: 'Worlds of Ultima: Martian Dreams'
+  name: 'Ultima: Worlds of Adventure 2 - Martian Dreams'
   engine_id: ultima
   company_id: origin
   moby_id: "1625"
   datafiles: ""
   series: ultima
 - id: martiandreams_enh
-  name: 'Worlds of Ultima: Martian Dreams - Enhanced'
+  name: 'Ultima: Worlds of Adventure 2 - Martian Dreams'
   engine_id: ultima
   company_id: origin
   moby_id: "1625"
@@ -2968,49 +2969,49 @@
   name: A Mess O' Trouble
   engine_id: wage
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: afm
   name: Another Fine Mess
   engine_id: wage
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: cantitoe
   name: Camp Cantitoe
   engine_id: wage
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: drakmythcastle
   name: Drakmyth Castle
   engine_id: wage
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: raysmaze
   name: Ray's Maze
   engine_id: wage
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: twisted
   name: Twisted!
   engine_id: wage
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: wage
   name: WAGE
   engine_id: wage
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: 5ma
@@ -3040,7 +3041,7 @@
   company_id: ""
   moby_id: "31651"
   datafiles: ""
-  series: ""
+  series: carol
 - id: ghostsheet
   name: Ghost in the Sheet
   engine_id: wintermute
@@ -3049,7 +3050,7 @@
   datafiles: ""
   series: ""
 - id: artofmurder1
-  name: 'Art of Murder 1: FBI Confidential'
+  name: 'Art of Murder: FBI Confidential'
   engine_id: wintermute
   company_id: ""
   moby_id: "34282"
@@ -3075,7 +3076,7 @@
   company_id: ""
   moby_id: "37764"
   datafiles: ""
-  series: ""
+  series: carol
 - id: mirage
   name: Mirage
   engine_id: wintermute
@@ -3124,7 +3125,7 @@
   company_id: ""
   moby_id: "48356"
   datafiles: ""
-  series: ""
+  series: carol
 - id: findinghope
   name: Finding Hope
   engine_id: wintermute
@@ -3138,7 +3139,7 @@
   company_id: ""
   moby_id: "49831"
   datafiles: ""
-  series: ""
+  series: carol
 - id: pizzamorgana
   name: 'Pizza Morgana: Episode 1 - Monsters and Manipulations in the Magical Forest'
   engine_id: wintermute
@@ -3161,7 +3162,7 @@
   datafiles: ""
   series: ""
 - id: sotv1
-  name: 'Shadows on the Vatican - Act I: Greed'
+  name: 'Shadows on the Vatican - Act 1: Greed'
   engine_id: wintermute
   company_id: ""
   moby_id: "55855"
@@ -3208,21 +3209,21 @@
   company_id: ""
   moby_id: "68289"
   datafiles: ""
-  series: ""
+  series: carol
 - id: carolreed9
   name: Carol Reed 9 - Cold Case Summer
   engine_id: wintermute
   company_id: ""
   moby_id: "68291"
   datafiles: ""
-  series: ""
+  series: carol
 - id: carolreed10
   name: Carol Reed 10 - Bosch's Damnation
   engine_id: wintermute
   company_id: ""
   moby_id: "68293"
   datafiles: ""
-  series: ""
+  series: carol
 - id: juliastars
   name: 'J.U.L.I.A.: Among the Stars'
   engine_id: wintermute
@@ -3250,7 +3251,7 @@
   company_id: ""
   moby_id: "81267"
   datafiles: ""
-  series: ""
+  series: carol
 - id: sotv2
   name: 'Shadows on the Vatican - Act II: Wrath'
   engine_id: wintermute
@@ -3271,21 +3272,21 @@
   company_id: ""
   moby_id: "114389"
   datafiles: ""
-  series: ""
+  series: carol
 - id: carolreed12
   name: Carol Reed 12 - Profound Red
   engine_id: wintermute
   company_id: ""
   moby_id: "115321"
   datafiles: ""
-  series: ""
+  series: carol
 - id: carolreed14
   name: Carol Reed 14 - The Fall Of April
   engine_id: wintermute
   company_id: ""
   moby_id: "122064"
   datafiles: ""
-  series: ""
+  series: carol
 - id: alimardan2
   name: Alimardan Meets Merlin
   engine_id: wintermute
@@ -3304,602 +3305,602 @@
   name: Actual Destination
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: apeiron
   name: Apeiron
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: barrowhilldp
-  name: Barrow Hill - The Dark Path
+  name: 'Barrow Hill: The Dark Path'
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "114586"
   datafiles: ""
   series: ""
 - id: basisoctavus
   name: Basis Octavus
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: bickadoodle
   name: Bickadoodle
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: bookofgron
   name: Book of Gron Part One
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: chivalry
   name: Chivalry is Not Dead
   engine_id: wintermute
   company_id: squinky
-  moby_id: ""
+  moby_id: "-1"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#Chivalry_is_Not_Dead
   series: ""
 - id: colorsoncanvas
   name: Colors on Canvas
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: conspiracao
   name: Conspiracao Dumont
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: deadcity
-  name: Dead City
+  name: The Dead City
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "17224"
   datafiles: ""
   series: ""
 - id: dreaming
   name: Des Reves Elastiques Avec Mille Insectes Nommes Georges
   engine_id: wintermute
   company_id: squinky
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: devilincapital
   name: Devil In The Capital
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "92245"
   datafiles: ""
   series: ""
 - id: dfafadventure
   name: DFAF Adventure
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: drbohus
   name: Dr. Bohus
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: drdoylemotch
   name: Dr. Doyle - Mystery Of The Cloche Hat
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: dreamcat
   name: Dreamcat
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: dreamscape
   name: Dreamscape
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "59268"
   datafiles: ""
   series: ""
 - id: escapemansion
   name: Escape from the Mansion
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: everydaygray
   name: Everyday Grey
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: tib
   name: Fairy Tales About Toshechka and Boshechka
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: forgottensound1
   name: Forgotten Sound 1 - Revelation
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: forgottensound2
   name: Forgotten Sound 2 - Destiny
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: four
   name: Four
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: framed
   name: Framed
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "6285"
   datafiles: ""
   series: ""
 - id: helga
   name: Helga Deep In Trouble
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: hor
   name: Hor
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: juliauntold
-  name: 'J.U.L.I.A.: Untold'
+  name: J.U.L.I.A. Untold
   engine_id: wintermute
   company_id: cbe
-  moby_id: ""
+  moby_id: "69257"
   datafiles: ""
-  series: ""
+  series: julia
 - id: jamesperis
   name: 'James Peris: No License Nor Control'
   engine_id: wintermute
   company_id: pavo
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: knossos
   name: K'NOSSOS
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: kulivocko
   name: Kulivocko
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: lifein3minutes
   name: Life In 3 Minutes
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: looky
   name: Looky
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: lovmamuta
   name: Lov Mamuta
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: machumayu
   name: Machu Mayu
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: msos
   name: Monday Starts on Saturday
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: tehran1933
   name: Murder In Tehran's Alleys 1933
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "122584"
   datafiles: ""
   series: ""
 - id: tehran2016
   name: Murder In Tehran's Alleys 2016
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "122585"
   datafiles: ""
   series: ""
 - id: mythguff
   name: 'Myth: A Guff''s Tale'
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: nighttrain
   name: Night Train
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: reptilesquest
   name: On the Tracks of Dinosaurs
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: one
   name: One
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "9526"
   datafiles: ""
   series: ""
 - id: onehelluvaday
   name: One Helluva Day
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: openquest
   name: Open Quest
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: paintaria
   name: Paintaria
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: palladion
   name: Palladion
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: papasdaughters1
   name: Papa's Daughters
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: papasdaughters2
   name: Papa's Daughters Go to the Sea
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: pigeons
   name: Pigeons in the Park
   engine_id: wintermute
   company_id: squinky
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: polechudes
   name: Pole Chudes
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: projectjoe
   name: Project Joe
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: lonelyrobot
   name: Project Lonely Robot
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: projectdoom
   name: 'Project: Doom'
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: rebeccacarlson1
   name: Rebecca Carlson Mystery 01 - Silent Footsteps
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: reversion1
   name: 'Reversion: The Escape'
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
-  series: ""
+  series: reversion
 - id: reversion2
   name: 'Reversion: The Meeting'
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
-  series: ""
+  series: reversion
 - id: reversion3
   name: 'Reversion: The Return'
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
-  series: ""
+  series: reversion
 - id: rhiannon
   name: 'Rhiannon: Curse of the four Branches'
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "36964"
   datafiles: ""
   series: ""
 - id: satanandsons
   name: Satan and Sons
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: securanote
   name: Securanote
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: shaban
   name: Shaban
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: sofiasdebt
   name: Sofia's Debt
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: spaceinvaders
   name: Space Invaders
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "623"
   datafiles: ""
   series: ""
 - id: spacemadness
   name: Space Madness
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "52053"
   datafiles: ""
   series: ""
 - id: tanya2
   name: Tanya Grotter and the Disappearing Floor
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: tanya1
   name: Tanya Grotter and the Magical Double Bass
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: theancientmark1
   name: The Ancient Mark - Episode 1
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: thebox
   name: The Box
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: erinmyers
   name: The Death of Erin Myers
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: driller
   name: The Driller Incident
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: goldencalf
   name: The Golden Calf
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: thelastcrownmh
   name: The Last Crown - Midnight Horror
   engine_id: wintermute
   company_id: darkling
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: thelostcrowngha
   name: The Lost Crown - A Ghost-Hunting Adventure
   engine_id: wintermute
   company_id: darkling
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: shinestar
   name: The Shine of a Star
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: tradestory
   name: The Trader of Stories
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: vsevolod
   name: Vsevolod
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: war
   name: War
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "99586"
   datafiles: ""
   series: ""
 - id: wtetris
   name: Wilma Tetris
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: wmedemo3d
   name: Wintermute 3D Characters Technology Demo
   engine_id: wintermute
   company_id: deadcode
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: wintermute
   name: Wintermute engine game
   engine_id: wintermute
   company_id: deadcode
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: wmedemo
   name: Wintermute Engine Technology Demo
   engine_id: wintermute
   company_id: deadcode
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: zbang
   name: Zbang! The Game
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: zilm
   name: 'Zilm: A Game of Reflex'
   engine_id: wintermute
   company_id: ""
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: ""
 - id: cloudsofxeen
-  name: 'Might and Magic IV: Clouds of Xeen'
+  name: 'Might and Magic: Clouds of Xeen'
   engine_id: xeen
   company_id: nwc
-  moby_id: ""
+  moby_id: "3423"
   datafiles: ""
   series: mm
 - id: darksideofxeen
-  name: 'Might and Magic V: Dark Side of Xeen'
+  name: 'Might and Magic: Darkside of Xeen'
   engine_id: xeen
   company_id: nwc
-  moby_id: ""
-  datafiles: ""
+  moby_id: "3424"
+  datafiles: 'Might and Magic: Darkside of Xeen'
   series: mm
 - id: swordsofxeen
   name: 'Might and Magic: Swords of Xeen'
   engine_id: xeen
   company_id: nwc
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series: mm
 - id: worldofxeen
   name: 'Might and Magic: World of Xeen'
   engine_id: xeen
   company_id: nwc
-  moby_id: ""
+  moby_id: "4321"
   datafiles: ""
   series: mm
 - id: znemesis
@@ -3920,7 +3921,7 @@
   name: 'Ultima IV: Quest of the Avatar'
   engine_id: ultima
   company_id: origin
-  moby_id: ""
+  moby_id: "884"
   datafiles: ""
   series: ultima
 ...

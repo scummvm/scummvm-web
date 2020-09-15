@@ -4,7 +4,7 @@ namespace ScummVM\Models;
 use ScummVM\Objects\Company;
 
 /**
- * The CompanysModel is used to cross reference companyies across the website
+ * The CompaniesModel is used to cross reference companies across the website
  */
 abstract class CompaniesModel extends BasicModel
 {

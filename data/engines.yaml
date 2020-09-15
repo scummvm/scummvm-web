@@ -69,7 +69,7 @@
   alt_name: ""
   enabled: "FALSE"
 - id: draci
-  name: Draci
+  name: Dračí Historie
   alt_name: Dračí Historie
   enabled: "TRUE"
 - id: dragons

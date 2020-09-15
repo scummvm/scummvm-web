@@ -3,7 +3,7 @@
 - id: dw
   name: Discworld
 - id: indy
-  name: Indian Jones
+  name: Indiana Jones
 - id: maniac
   name: Maniac Mansion
 - id: kq
@@ -82,4 +82,14 @@
   name: Might and Magic
 - id: ultima
   name: Ultima
+- id: carol
+  name: Carol Reed
+- id: reversion
+  name: Reversion
+- id: hugo
+  name: Hugo House of Horrors
+- id: hires
+  name: Hi-Res Adventure
+- id: id4
+  name: Independence Day
 ...

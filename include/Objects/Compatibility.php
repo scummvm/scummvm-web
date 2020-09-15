@@ -5,7 +5,7 @@ use Erusev\Parsedown;
 use ScummVM\Objects\LegacyCompatGame;
 
 /**
- * The Compatibilith object represents a game on the compatibility charts on the
+ * The Compatibility object represents a game on the compatibility charts on the
  * website.
  */
 class Compatibility extends DataObject
@@ -13,7 +13,7 @@ class Compatibility extends DataObject
     private $game;
     private $supportLevel;
     private $notes;
-    private $version;
+    private $sinceVersion;
     private $stablePlatforms;
     private $unstablePlatforms;
 
@@ -33,7 +33,7 @@ class Compatibility extends DataObject
         }
         $this->supportLevel = $this->assignFromArray('support', $data, true);
         $this->notes = $this->assignFromArray('notes', $data);
-        $this->version = $this->assignFromArray('version', $data, true);
+        $this->sinceVersion = $this->assignFromArray('since_version', $data, true);
         $this->stablePlatforms =
             $this->processPlatforms($this->assignFromArray('stable_platforms', $data, true), $platforms);
         $this->unstablePlatforms =
@@ -99,10 +99,10 @@ class Compatibility extends DataObject
 
     public function getVersion()
     {
-        if ($this->version === 'DEV') {
+        if ($this->sinceVersion === 'DEV') {
             return '9.9.9';
         }
-        return $this->version;
+        return $this->sinceVersion;
     }
 
     public function toLegacyCompatGame($sanitize = true)
