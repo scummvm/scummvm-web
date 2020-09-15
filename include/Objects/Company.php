@@ -2,8 +2,8 @@
 namespace ScummVM\Objects;
 
 /**
- * The Company object represents a companies that created games supported
- * by ScummVM.
+ * The Company object represents companies with games
+ * known to ScummVM.
  */
 class Company extends DataObject
 {

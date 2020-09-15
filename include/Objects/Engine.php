@@ -2,7 +2,7 @@
 namespace ScummVM\Objects;
 
 /**
- * The Engine object represents a game engine supported by ScummVM
+ * The Engine object represents a game engine known to ScummVM
  */
 class Engine extends DataObject
 {

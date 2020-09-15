@@ -7,9 +7,15 @@ require_once __DIR__ . '/../include/Constants.php';
 use League\Csv\Reader;
 use League\Csv\Statement;
 
+/**
+ * DataUtils
+ * This class pulls down the latest data from the ScummVM Data spreadsheet
+ * and converts it to YAML files used to power the site.
+ */
 class DataUtils
 {
     const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQamumX0p-DYQa5Umi3RxX-pHM6RZhAj1qvUP0jTmaqutN9FwzyriRSXlO9rq6kR60pGIuPvCDzZL3s/pub?output=tsv';
+    // filename => sheet id
     const SHEET_IDS = [
         'platforms' => '1061029686',
         'compatibility' => '854570757',
@@ -21,6 +27,12 @@ class DataUtils
         'series' => '1095671818'
     ];
 
+
+    /**
+     * Gets the TSV representation from sheets and converts it to YAML on file
+     *
+     * @return void
+     */
     public function getAllData()
     {
         foreach (self::SHEET_IDS as $name => $gid) {

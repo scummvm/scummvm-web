@@ -2,7 +2,8 @@
 namespace ScummVM;
 
 /**
- * Development only - when using PHP built in web server
+ * Development only
+ * Don't re-route static file requests to index.php
  */
 if (isset($_SERVER['SERVER_SOFTWARE']) &&
 \preg_match("/PHP [\d\.]+ Development Server/",$_SERVER['SERVER_SOFTWARE'])) {
