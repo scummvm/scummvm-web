@@ -5,8 +5,6 @@ use ScummVM\Controller;
 
 class ContactPage extends Controller
 {
-
-
     /* Constructor. */
     public function __construct()
     {

@@ -9,20 +9,27 @@ use Composer\Semver\Comparator;
 /**
  * The CompatibilityModel class will generate CompatGame objects.
  */
-abstract class CompatibilityModel extends BasicModel
+class CompatibilityModel extends BasicModel
 {
     const NO_VERSION = 'No version specified.';
     const NO_VERSION_TARGET = 'No version and/or target specified.';
     const NOT_FOUND = 'Did not find any games for the specified version.';
     const NO_FILES = 'No compatibility files found.';
+    private $gameModel;
+    private $platformsModel;
+
+    public function __construct() {
+        $this->gameModel = new GameModel();
+        $this->platformsModel = new PlatformsModel();
+    }
 
     /* Get all the groups and the respectively demos for the specified ScummVM version. */
-    public static function getAllData($version)
+    public function getAllData($version)
     {
         $fname = DIR_DATA . "/compatibility.yaml";
         $compatibilityEntries = \yaml_parse_file($fname);
-        $games = GameModel::getAllGames();
-        $platforms = PlatformsModel::getAllPlatforms();
+        $games = $this->gameModel->getAllGames();
+        $platforms = $this->platformsModel->getAllPlatforms();
         $compareVersion = $version === 'DEV' ? '9.9.9' : $version;
         $data = [];
         foreach ($compatibilityEntries as $compat) {
@@ -44,7 +51,7 @@ abstract class CompatibilityModel extends BasicModel
     }
 
     /* Get a specific CompatGame-object for the requested version. */
-    public static function getGameData($version, $target)
+    public function getGameData($version, $target)
     {
         if (!is_string($version) || !is_string($target)) {
             throw new \ErrorException(self::NO_VERSION_TARGET);
@@ -60,7 +67,7 @@ abstract class CompatibilityModel extends BasicModel
         return $all_games[$target];
     }
 
-    public static function getAllDataGroups($version)
+    public function getAllDataGroups($version)
     {
         $data = self::getAllData($version);
         $compat_data = [];
@@ -98,7 +105,7 @@ abstract class CompatibilityModel extends BasicModel
         return $compat_data;
     }
 
-    private static function compatibilitySorter($compat1, $compat2)
+    private function compatibilitySorter($compat1, $compat2)
     {
         return strnatcmp($compat1->getName(), $compat2->getName());
     }

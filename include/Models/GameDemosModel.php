@@ -8,24 +8,31 @@ use ScummVM\Models\PlatformsModel;
 /**
  * The GameDemosModel class will generate GameDemo objects.
  */
-abstract class GameDemosModel extends BasicModel
+class GameDemosModel extends BasicModel
 {
+    private $gameModel;
+    private $platformsModel;
+
+    public function __construct() {
+        $this->gameModel = new GameModel();
+        $this->platformsModel = new PlatformsModel();
+    }
     /* Get all the groups and their respective demos. */
-    public static function getAllGroupsAndDemos()
+    public function getAllGroupsAndDemos()
     {
         $fname = DIR_DATA . '/game_demos.yaml';
         $demos = \yaml_parse_file($fname);
-        $games = GameModel::getAllGames();
-        $platforms = PlatformsModel::getAllPlatforms();
+        $games = $this->gameModel->getAllGames();
+        $platforms = $this->platformsModel->getAllPlatforms();
         $data = [];
         foreach ($demos as $demo) {
             $obj = new GameDemo($demo, $games, $platforms);
             $data[] = $obj;
         }
-        return GameDemosModel::createGroups($data);
+        return $this->createGroups($data);
     }
 
-    private static function createGroups($demos)
+    private function createGroups($demos)
     {
         $groups = [];
         foreach ($demos as $demo) {

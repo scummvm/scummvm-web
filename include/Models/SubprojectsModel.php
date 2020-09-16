@@ -9,21 +9,19 @@ use ScummVM\XMLParser;
 /**
  * The SubprojectsModel will generate Project objects.
  */
-abstract class SubprojectsModel extends BasicModel
+class SubprojectsModel extends BasicModel
 {
     /* Get all the groups and the respectively demos. */
-    public static function getAllSubprojects()
+    public function getAllSubprojects()
     {
         $fname = DIR_DATA . '/subprojects.xml';
         $parser = new XMLParser();
         $parsedData = $parser->parseByFilename($fname);
         $entries = array();
-        BasicObject::toArray($parsedData['subprojects']['project']);
-        foreach ($parsedData['subprojects']['project'] as $key => $value) {
+        foreach (array($parsedData['subprojects']['project'])as $key => $value) {
             $downloads = array();
-            foreach ($value['entries'] as $type => $data) {
+            foreach (array($value['entries']) as $type => $data) {
                 if ($type == 'file') {
-                    BasicObject::toArray($data);
                     foreach ($data as $file) {
                         $downloads[] = new File($file);
                     }

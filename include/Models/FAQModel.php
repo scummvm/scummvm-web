@@ -11,13 +11,13 @@ use ScummVM\XMLParser;
  * FaqSection-objects representing the different sections on the F.A.Q.-page on
  * the website.
  */
-abstract class FAQModel extends BasicModel
+class FAQModel extends BasicModel
 {
     const ERROR_READING_FILE = 'Could not load the frequently asked questions.';
     const FILE_NOT_FOUND = 'The requested FAQ file doesn\'t exist.';
 
     /* Get the full path and filename for the F.A.Q. XML-file. */
-    public static function getFilename()
+    public function getFilename()
     {
         global $lang;
 
@@ -38,13 +38,13 @@ abstract class FAQModel extends BasicModel
     }
 
     /* Get last modification time. */
-    public static function getLastUpdated()
+    public function getLastUpdated()
     {
         return date('F d, Y', @filemtime(self::getFilename()));
     }
 
     /* Get all question and answers. */
-    public static function getFAQ()
+    public function getFAQ()
     {
         if (!($data = @file_get_contents(self::getFilename()))) {
             throw new \ErrorException(self::ERROR_READING_FILE);

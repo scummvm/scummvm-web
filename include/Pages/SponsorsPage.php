@@ -6,19 +6,20 @@ use ScummVM\Models\SponsorModel;
 
 class SponsorsPage extends Controller
 {
-
+    private $sponsorsModel;
 
     /* Constructor. */
     public function __construct()
     {
         parent::__construct();
         $this->template = 'pages/sponsors.tpl';
+        $this->sponsorsModel = new SponsorModel();
     }
 
     /* Display the index page. */
     public function index()
     {
-        $sponsors = SponsorModel::getAllSponsors();
+        $sponsors = $this->sponsorsModel->getAllSponsors();
         return $this->renderPage(
             array(
                 'title' => $this->getConfigVars('sponsorsTitle'),

@@ -6,13 +6,14 @@ use ScummVM\Models\ScreenshotsModel;
 
 class ScreenshotsPage extends Controller
 {
-
+    private $screenshotsModel;
     private $template_category;
 
     /* Constructor. */
     public function __construct()
     {
         parent::__construct();
+        $this->screenshotsModel = new ScreenshotsModel();
     }
 
     /* Display the index page. */
@@ -31,8 +32,8 @@ class ScreenshotsPage extends Controller
             return $this->getCategory($category, $game);
         }
 
-        $screenshot  = ScreenshotsModel::getGroupedScreenshots();
-        $random_shot = ScreenshotsModel::getRandomScreenshot();
+        $screenshot  = $this->screenshotsModel->getGroupedScreenshots();
+        $random_shot = $this->screenshotsModel->getRandomScreenshot();
 
         $this->template = 'pages/screenshots.tpl';
 
@@ -50,11 +51,11 @@ class ScreenshotsPage extends Controller
     public function getCategory($category, $game)
     {
         if (empty($game)) {
-            $screenshots = ScreenshotsModel::getCategoryScreenshots($category);
+            $screenshots = $this->screenshotsModel->getCategoryScreenshots($category);
         } else {
             $screenshots = array(
                 'category' => $category,
-                'games' => array(ScreenshotsModel::getTargetScreenshots($game))
+                'games' => array($this->screenshotsModel->getTargetScreenshots($game))
             );
         }
 

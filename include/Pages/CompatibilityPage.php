@@ -15,6 +15,8 @@ class CompatibilityPage extends Controller
     private $supportLevel;
     private $supportLevelDescriptions;
     private $supportLevelClass;
+    private $versionsModel;
+    private $compatibilityModel;
 
     /* Constructor. */
     public function __construct()
@@ -44,6 +46,9 @@ class CompatibilityPage extends Controller
             'good' => 'pct75',
             'excellent' => 'pct100'
         );
+
+        $this->versionsModel = new VersionsModel();
+        $this->compatibilityModel = new CompatibilityModel();
     }
 
     /* Display the index page. */
@@ -52,7 +57,7 @@ class CompatibilityPage extends Controller
         $version = $args['version'];
         $target = $args['game'];
 
-        $versions = VersionsModel::getAllVersions();
+        $versions = $this->versionsModel->getAllVersions();
         unset($versions['DEV']);
 
         /* Default to DEV */
@@ -70,7 +75,7 @@ class CompatibilityPage extends Controller
     /* We should show detailed information for a specific target. */
     public function getGame($target, $version)
     {
-        $game = CompatibilityModel::getGameData($version, $target);
+        $game = $this->compatibilityModel->getGameData($version, $target);
 
         $this->template = 'components/compatibility_details.tpl';
 
@@ -96,7 +101,7 @@ class CompatibilityPage extends Controller
     {
 
         $filename = DIR_DATA . "/compatibility.yaml";
-        $compat_data = CompatibilityModel::getAllDataGroups($version);
+        $compat_data = $this->compatibilityModel->getAllDataGroups($version);
 
         $last_updated = filemtime($filename);
         $this->template = 'pages/compatibility.tpl';

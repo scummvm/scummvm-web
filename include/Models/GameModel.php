@@ -9,14 +9,24 @@ use ScummVM\Models\SeriesModel;
 /**
  * The GamesModel is used to cross reference Games across the website
  */
-abstract class GameModel extends BasicModel
+class GameModel extends BasicModel
 {
+    private $companiesModel;
+    private $enginesModel;
+    private $seriesModel;
+
+    public function __construct() {
+        $this->companiesModel = new CompaniesModel();
+        $this->enginesModel = new EnginesModel();
+        $this->seriesModel = new SeriesModel();
+    }
+
     /* Get all Games from YAML */
-    public static function getAllGames()
+    public function getAllGames()
     {
-        $companies = CompaniesModel::getAllCompanies();
-        $engines = EnginesModel::getAllEngines();
-        $series = SeriesModel::getAllSeries();
+        $companies = $this->companiesModel->getAllCompanies();
+        $engines = $this->enginesModel->getAllEngines();
+        $series = $this->seriesModel->getAllSeries();
         $fname = DIR_DATA . '/games.yaml';
         $games = \yaml_parse_file($fname);
         $data = [];

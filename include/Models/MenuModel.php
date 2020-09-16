@@ -6,10 +6,10 @@ use ScummVM\Objects\MenuItem;
 /**
  * The MenuModel class will generates MenuItme objects.
  */
-abstract class MenuModel extends BasicModel
+class MenuModel extends BasicModel
 {
     /* Get all menu entries. */
-    public static function getAllMenus()
+    public function getAllMenus()
     {
         $fname = DIR_DATA . '/menus.yaml';
         $parsedData = \yaml_parse_file($fname);

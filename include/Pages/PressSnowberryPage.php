@@ -6,19 +6,20 @@ use ScummVM\Models\ArticleModel;
 
 class PressSnowberryPage extends Controller
 {
-
+    private $articleModel;
 
     /* Constructor. */
     public function __construct()
     {
         parent::__construct();
         $this->template = 'pages/press_snowberry.tpl';
+        $this->articleModel = new ArticleModel();
     }
 
     /* Display the index page. */
     public function index()
     {
-        $articles = ArticleModel::getAllArticles();
+        $articles = $this->articleModel->getAllArticles();
         return $this->renderPage(
             array(
                 'title' => $this->getConfigVars('pressSnowberryTitle'),

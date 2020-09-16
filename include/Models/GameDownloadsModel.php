@@ -7,10 +7,10 @@ use ScummVM\XMLParser;
 /**
  * The GameDownloadsModel will produce DownloadsSection objects.
  */
-abstract class GameDownloadsModel
+class GameDownloadsModel
 {
     /* Get all download entries. */
-    public static function getAllDownloads()
+    public function getAllDownloads()
     {
         $fname = DIR_DATA . '/games.xml';
         /* Now parse the data. */
@@ -24,7 +24,7 @@ abstract class GameDownloadsModel
     }
 
     /* Get all sections and their anchors. */
-    public static function getAllSections()
+    public function getAllSections()
     {
         /* Get the list with all downloads/sections. */
         $downloads = self::getAllDownloads();

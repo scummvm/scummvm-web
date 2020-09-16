@@ -6,14 +6,14 @@ use ScummVM\Objects\News;
 /**
  * The NewsModel class will generate News objects
  */
-abstract class NewsModel extends BasicModel
+class NewsModel extends BasicModel
 {
     const NO_FILES = 'No news files found.';
     const INVALID_DATE = 'Invalid date, use yyyyMMdd. or yyyyMMddHHmm';
     const FILE_NOT_FOUND = 'The requested news file doesn\'t exist.';
 
     /* Get a list of all the available news files. */
-    public static function getListOfNewsFilenames()
+    public function getListOfNewsFilenames()
     {
         if (!($files = scandir(join(DIRECTORY_SEPARATOR, [DIR_NEWS, DEFAULT_LOCALE])))) {
             throw new \ErrorException(self::NO_FILES);
@@ -30,7 +30,7 @@ abstract class NewsModel extends BasicModel
     }
 
     /* Get all news items ordered by date, descending. */
-    public static function getAllNews($processContent = false)
+    public function getAllNews($processContent = false)
     {
         if (!($files = scandir(join(DIRECTORY_SEPARATOR, [DIR_NEWS, DEFAULT_LOCALE])))) {
             throw new \ErrorException(self::NO_FILES);
@@ -54,26 +54,26 @@ abstract class NewsModel extends BasicModel
     }
 
     /* Get the latest number of news items, or if no number is specified get all news items. */
-    public static function getLatestNews($num = -1, $processContent = false)
+    public function getLatestNews($num = -1, $processContent = false)
     {
         if ($num == -1) {
-            return NewsModel::getAllNews($processContent);
+            return $this->getAllNews($processContent);
         } else {
-            if (!($newslist = NewsModel::getListOfNewsFilenames())) {
+            if (!($newslist = $this->getListOfNewsFilenames())) {
                 throw new \ErrorException(self::NO_FILES);
             }
             rsort($newslist, SORT_STRING);
             $newslist = array_slice($newslist, 0, $num);
             $news = array();
             foreach ($newslist as $filename) {
-                $news[] = NewsModel::getOneByFilename($filename, $processContent);
+                $news[] = $this->getOneByFilename($filename, $processContent);
             }
             return $news;
         }
     }
 
     /* Get the news item that was posted on a specific date. */
-    public static function getOneByFilename($filename, $processContent = false)
+    public function getOneByFilename($filename, $processContent = false)
     {
         if (is_null($filename) || !preg_match('/^\d{8,12}[a-z]?$/', $filename)) {
             throw new \ErrorException(self::INVALID_DATE);

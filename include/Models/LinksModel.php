@@ -7,10 +7,10 @@ use ScummVM\Objects\WebLink;
  * The LinksModel class will generate WebLink objects.
  * LinkGroup-objects representing a group of external links on the website.
  */
-abstract class LinksModel extends BasicModel
+class LinksModel extends BasicModel
 {
     /* Get all the groups and the respectively demos. */
-    public static function getAllGroupsAndLinks()
+    public function getAllGroupsAndLinks()
     {
         $fname = DIR_DATA . '/links.yaml';
         $parsedData = \yaml_parse_file($fname);

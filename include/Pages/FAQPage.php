@@ -6,20 +6,20 @@ use ScummVM\Models\FAQModel;
 
 class FAQPage extends Controller
 {
-
-
+    private $faqModel;
     /* Constructor. */
     public function __construct()
     {
         parent::__construct();
         $this->template = 'pages/faq.tpl';
+        $this->faqModel = new FAQModel();
     }
 
     /* Display the index page. */
     public function index()
     {
-        $contents = FAQModel::getFAQ();
-        $modified = FAQModel::getLastUpdated();
+        $contents = $this->faqModel->getFAQ();
+        $modified = $this->faqModel->getLastUpdated();
         return $this->renderPage(
             array(
                 'title' => $this->getConfigVars('faqTitle'),

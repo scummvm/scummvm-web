@@ -7,13 +7,16 @@ use ScummVM\Models\ScreenshotsModel;
 
 class NewsPage extends Controller
 {
-
+    private $newsModel;
+    private $screenshotModels;
 
     /* Constructor. */
     public function __construct()
     {
         parent::__construct();
         $this->template = 'pages/news.tpl';
+        $this->newsModel = new NewsModel();
+        $this->screenshotModels = new ScreenshotsModel();
     }
 
     /* Display the index page. */
@@ -34,10 +37,10 @@ class NewsPage extends Controller
     public function getNews($filename = null)
     {
         if ($filename == null) {
-            $news_items = NewsModel::getAllNews();
+            $news_items = $this->newsModel->getAllNews();
             $filename = 'archive';
         } else {
-            $news_items = array(NewsModel::getOneByFilename($filename));
+            $news_items = array($this->newsModel->getOneByFilename($filename));
         }
 
         return $this->renderPage(
@@ -54,8 +57,8 @@ class NewsPage extends Controller
     /* Display the main page with limited news items and intro text. */
     public function getNewsIntro()
     {
-        $news_items = NewsModel::getLatestNews(NEWS_ITEMS);
-        $random_shot = ScreenshotsModel::getRandomScreenshot();
+        $news_items = $this->newsModel->getLatestNews(NEWS_ITEMS);
+        $random_shot = $this->screenshotModels->getRandomScreenshot();
 
         $this->addJSFiles(
             array(
