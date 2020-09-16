@@ -6,10 +6,10 @@ use ScummVM\Objects\Sponsor;
 /**
  * The SponsorModel class will generate Sponsor objects.
  */
-abstract class SponsorModel extends BasicModel
+class SponsorModel extends BasicModel
 {
     /* Get all Sponsors. */
-    public static function getAllSponsors()
+    public function getAllSponsors()
     {
         $fname = DIR_DATA . '/sponsors.yaml';
         $parsedData = \yaml_parse_file($fname);

@@ -6,10 +6,10 @@ use ScummVM\Objects\Article;
 /**
  * The ArticleModel class will generate Article objects.
  */
-abstract class ArticleModel extends BasicModel
+class ArticleModel extends BasicModel
 {
     /* Get all articles. */
-    public static function getAllArticles()
+    public function getAllArticles()
     {
         $fname = DIR_DATA . '/press_articles.yaml';
         $parsedData = \yaml_parse_file($fname);

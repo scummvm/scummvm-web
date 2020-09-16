@@ -6,19 +6,21 @@ use ScummVM\Models\DownloadsModel;
 
 class DownloadsPage extends Controller
 {
+    private $downloadsModel;
     /* Constructor. */
     public function __construct()
     {
         parent::__construct();
         $this->template = 'pages/downloads.tpl';
+        $this->downloadsModel = new DownloadsModel();
     }
 
     /* Display the index page. */
     public function index()
     {
-        $downloads = DownloadsModel::getAllDownloads();
-        $sections = DownloadsModel::getAllSections();
-        $recommendedDownload = DownloadsModel::getRecommendedDownload();
+        $downloads = $this->downloadsModel->getAllDownloads();
+        $sections = $this->downloadsModel->getAllSections();
+        $recommendedDownload = $this->downloadsModel->getRecommendedDownload();
         return $this->renderPage(
             array(
                 'title' => $this->getConfigVars('downloadsTitle'),

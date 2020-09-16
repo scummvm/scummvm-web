@@ -6,10 +6,10 @@ use ScummVM\Objects\Version;
 /**
  * The VersionsModel is used to cross reference versions across the website
  */
-abstract class VersionsModel extends BasicModel
+class VersionsModel extends BasicModel
 {
     /* Get all versions from YAML */
-    public static function getAllVersions()
+    public function getAllVersions()
     {
         $fname = DIR_DATA . '/versions.yaml';
         $versions = \yaml_parse_file($fname);

@@ -6,10 +6,10 @@ use ScummVM\Objects\Engine;
 /**
  * The EnginesModel is used to cross reference Engines across the website
  */
-abstract class EnginesModel extends BasicModel
+class EnginesModel extends BasicModel
 {
     /* Get all Engines from YAML */
-    public static function getAllEngines()
+    public function getAllEngines()
     {
         $fname = DIR_DATA . '/engines.yaml';
         $engines = \yaml_parse_file($fname);

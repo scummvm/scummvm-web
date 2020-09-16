@@ -9,18 +9,26 @@ use ScummVM\Models\PlatformsModel;
 /**
  * The ScreenshotsModel will generate Screenshot objects.
  */
-abstract class ScreenshotsModel extends BasicModel
+class ScreenshotsModel extends BasicModel
 {
     const INVALID_TARGET = 'Invalid target specified.';
     const INVALID_CATEGORY = 'Invalid category specified.';
 
+    private $platformsModel;
+    private $gameModel;
+
+    public function __construct() {
+        $this->platformsModel = new PlatformsModel();
+        $this->gameModel = new GameModel();
+    }
+
     /* Get all screenshots. */
-    public static function getAllScreenshots()
+    public function getAllScreenshots()
     {
         $fname = DIR_DATA . '/screenshots.yaml';
         $screenshots = \yaml_parse_file($fname);
-        $platforms = PlatformsModel::getAllPlatforms();
-        $games = GameModel::getAllGames();
+        $platforms = $this->platformsModel->getAllPlatforms();
+        $games = $this->gameModel->getAllGames();
         $data = [];
         foreach ($screenshots as $screenshot) {
             $obj = new Screenshot($screenshot, $games, $platforms);
@@ -35,9 +43,9 @@ abstract class ScreenshotsModel extends BasicModel
         return $data;
     }
 
-    public static function getGroupedScreenshots()
+    public function getGroupedScreenshots()
     {
-        $screenshots = self::getAllScreenshots();
+        $screenshots = $this->getAllScreenshots();
         $entries = [];
 
         // create top level company categories
@@ -87,21 +95,21 @@ abstract class ScreenshotsModel extends BasicModel
     }
 
     /* Get all screenshots in one category. */
-    public static function getCategoryScreenshots($category)
+    public function getCategoryScreenshots($category)
     {
-        $sshots = self::getGroupedScreenshots();
+        $sshots = $this->getGroupedScreenshots();
         foreach ($sshots as $shots) {
             if ($shots['category'] == $category) {
                 return $shots;
             }
         }
-        throw new \ErrorException(self::INVALID_CATEGORY);
+        throw new \ErrorException($this->INVALID_CATEGORY);
     }
 
     /* Get screenshots for a specific target. */
-    public static function getTargetScreenshots($target)
+    public function getTargetScreenshots($target)
     {
-        $sshots = self::getGroupedScreenshots();
+        $sshots = $this->getGroupedScreenshots();
         foreach ($sshots as $shots) {
             foreach ($shots['games'] as $starget) {
                 if ($starget->getCategory() == $target) {
@@ -109,13 +117,13 @@ abstract class ScreenshotsModel extends BasicModel
                 }
             }
         }
-        throw new \ErrorException(self::INVALID_TARGET);
+        throw new \ErrorException($this->INVALID_TARGET);
     }
 
     /* Get a random screenshot (an object and not a filename) .*/
-    public static function getRandomScreenshot()
+    public function getRandomScreenshot()
     {
-        $sshots = ScreenshotsModel::getAllScreenshots();
+        $sshots = $this->getAllScreenshots();
         $item = $sshots[array_rand($sshots)];
 
         $screenshot = [

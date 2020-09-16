@@ -15,6 +15,7 @@ class Controller
     private $smarty;
     private $css_files;
     private $js_files;
+    private $menuModel;
 
     /**
      * Constructor that will create a Smarty object and configure it according
@@ -56,10 +57,11 @@ class Controller
         $this->css_files = array();
         $this->js_files = array();
 
+        $this->menuModel = new MenuModel();
         $menus = array();
         /* The menus have caused an exception, need to skip them. */
         if (!ExceptionHandler::skipMenus()) {
-            $menus = MenuModel::getAllMenus();
+            $menus = $this->menuModel->getAllMenus();
         }
 
         // Construct lang URL

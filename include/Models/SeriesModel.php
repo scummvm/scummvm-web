@@ -7,7 +7,7 @@ use ScummVM\Objects\Series;
  * The SeriesModel is used to group games into series
  * mainly for the screenshots page
  */
-abstract class SeriesModel extends BasicModel
+class SeriesModel extends BasicModel
 {
     /* Get all Platforms from YAML */
     public static function getAllSeries()

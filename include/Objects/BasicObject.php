@@ -38,7 +38,7 @@ abstract class BasicObject
      *
      * @param mixed $data the input
      */
-    public static function toArray(&$data)
+    public function toArray(&$data)
     {
         if (!is_array($data) || !array_key_exists(0, $data)) {
             $data = array($data);

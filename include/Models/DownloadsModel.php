@@ -8,10 +8,10 @@ use DeviceDetector\Parser\OperatingSystem AS OsParser;
 /**
  * The DownloadsModel will produce DownloadsSection objects.
  */
-abstract class DownloadsModel
+class DownloadsModel
 {
     /* Get all download entries. */
-    public static function getAllDownloads()
+    public function getAllDownloads()
     {
         $fname = DIR_DATA . '/downloads.xml';
         /* Now parse the data. */
@@ -25,7 +25,7 @@ abstract class DownloadsModel
     }
 
     /* Get all sections and their anchors. */
-    public static function getAllSections()
+    public function getAllSections()
     {
         /* Get the list with all downloads/sections. */
         $downloads = self::getAllDownloads();
@@ -59,7 +59,7 @@ abstract class DownloadsModel
     }
 
     /* Get the recommended download */
-    public static function getRecommendedDownload()
+    public function getRecommendedDownload()
     {
         if (!isset($_SERVER['HTTP_USER_AGENT'])) {
             return false;

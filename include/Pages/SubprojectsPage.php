@@ -6,19 +6,19 @@ use ScummVM\Models\SubprojectsModel;
 
 class SubprojectsPage extends Controller
 {
-
-
+    private $subprojectsModel;
     /* Constructor. */
     public function __construct()
     {
         parent::__construct();
         $this->template = 'pages/subprojects.tpl';
+        $this->subprojectsModel = new SubprojectsModel();
     }
 
     /* Display the index page. */
     public function index()
     {
-        $subprojects = SubprojectsModel::getAllSubprojects();
+        $subprojects = $this->subprojectsModel->getAllSubprojects();
         return $this->renderPage(
             array(
                 'title' => $this->getConfigVars('subprojectsTitle'),

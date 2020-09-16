@@ -6,10 +6,10 @@ use ScummVM\Objects\Company;
 /**
  * The CompaniesModel is used to cross reference companies across the website
  */
-abstract class CompaniesModel extends BasicModel
+class CompaniesModel extends BasicModel
 {
     /* Get all Companies from YAML */
-    public static function getAllCompanies()
+    public function getAllCompanies()
     {
         $fname = DIR_DATA . '/companies.yaml';
         $companies = \yaml_parse_file($fname);
