@@ -49,6 +49,7 @@
         {foreach from=$support_level_header key=level item=desc}
           <td class={$support_level_class.$level} align='center'>{$desc}</td>
         {/foreach}
+          <td class='updated' align='center'>Updated</td>
       </tr>
     </tbody>
   </table>
@@ -78,7 +79,7 @@
           {else}
             ---
           {/if}
-          <td class="gameSupportLevel {$pct_class}">{$support_level}</td>
+          <td class="gameSupportLevel {($game->getVersion() == $version) ? ' updated' : $pct_class}">{$support_level}</td>
         </tr>
       {/foreach}
       </tbody>
