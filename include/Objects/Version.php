@@ -6,13 +6,13 @@ namespace ScummVM\Objects;
  */
 class Version extends DataObject
 {
-    private $date;
+    private $releaseDate;
 
     /* Article object constructor. */
     public function __construct($data)
     {
         parent::__construct($data);
-        $this->date = $this->assignFromArray('date', $data);
+        $this->date = $this->assignFromArray('release_date', $releaseDate);
     }
 
     /* Get the version release name. */
