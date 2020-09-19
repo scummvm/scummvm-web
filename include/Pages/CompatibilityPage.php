@@ -3,10 +3,7 @@ namespace ScummVM\Pages;
 
 use ScummVM\Controller;
 use ScummVM\Models\CompatibilityModel;
-use ScummVM\Models\LegacyCompatibilityModel;
 use ScummVM\Models\VersionsModel;
-use ScummVM\Objects\LegacyCompatGame;
-use Composer\Semver\Comparator;
 
 /**
  * The Compatibility page gets all the data from the CompatibilityModel and
@@ -63,24 +60,6 @@ class CompatibilityPage extends Controller
             $version = 'DEV';
         }
 
-        // Remove versions with no compat file that don't use the new model
-        $legacyModelVersions = LegacyCompatibilityModel::getAllVersions();
-        foreach($versions as $key => $ver) {
-            if (Comparator::greaterThanOrEqualTo($ver, COMPAT_NEW_MODEL)) {
-                continue;
-            }
-
-            if (!array_key_exists($key, $legacyModelVersions)) {
-                unset($versions[$key]);
-            }
-        }
-
-        if ($version === 'DEV' || (Comparator::greaterThanOrEqualTo($version, COMPAT_LAYOUT_CHANGE))) {
-            $oldLayout = 'no';
-        } else {
-            $oldLayout = 'yes';
-        }
-
         if (!empty($target)) {
             return $this->getGame($target, $version, $oldLayout);
         } else {
@@ -89,14 +68,9 @@ class CompatibilityPage extends Controller
     }
 
     /* We should show detailed information for a specific target. */
-    public function getGame($target, $version, $oldLayout)
+    public function getGame($target, $version)
     {
-        $compareVersion = $version === 'DEV' ? '9.9.9' : $version;
-        if (Comparator::lessThan($compareVersion, COMPAT_NEW_MODEL)) {
-            $game = LegacyCompatibilityModel::getGameData($version, $target);
-        } else {
-            $game = CompatibilityModel::getGameData($version, $target);
-        }
+        $game = CompatibilityModel::getGameData($version, $target);
 
         $this->template = 'components/compatibility_details.tpl';
 
@@ -109,8 +83,7 @@ class CompatibilityPage extends Controller
                     $this->getConfigVars('compatibilityContentTitle')
                 ),
                 'version' => $version,
-                'game' => $game->toLegacyCompatGame(),
-                'old_layout' => $oldLayout,
+                'game' => $game,
                 'support_level_header' => $this->supportLevel,
                 'support_level_description' => $this->supportLevelDescriptions,
                 'support_level_class' => $this->supportLevelClass
@@ -119,22 +92,11 @@ class CompatibilityPage extends Controller
     }
 
     /* We should show all the compatibility stats for a specific version. */
-    public function getAll($version, $versions, $oldLayout)
+    public function getAll($version, $versions)
     {
-        /* Remove the current version from the versions array. */
-        if ($version !== 'DEV') {
-            $key = array_search($version, $versions);
-            unset($versions[$key]);
-        }
 
-        $compareVersion = $version === 'DEV' ? '9.9.9' : $version;
-        if (Comparator::lessThan($compareVersion, COMPAT_NEW_MODEL)) {
-            $filename = DIR_COMPAT . "/compat-{$version}.xml";
-            $compat_data = LegacyCompatibilityModel::getAllData($version);
-        } else {
-            $filename = DIR_DATA . "/compatibility.yaml";
-            $compat_data = CompatibilityModel::getAllDataGroups($version);
-        }
+        $filename = DIR_DATA . "/compatibility.yaml";
+        $compat_data = CompatibilityModel::getAllDataGroups($version);
 
         $last_updated = filemtime($filename);
         $this->template = 'pages/compatibility.tpl';
@@ -151,7 +113,6 @@ class CompatibilityPage extends Controller
                 'compat_data' => $compat_data,
                 'last_updated' => $last_updated,
                 'versions' => $versions,
-                'old_layout' => $oldLayout,
                 'support_level_header' => $this->supportLevel,
                 'support_level_description' => $this->supportLevelDescriptions,
                 'support_level_class' => $this->supportLevelClass
