@@ -2,7 +2,6 @@
 namespace ScummVM\Objects;
 
 use Erusev\Parsedown;
-use ScummVM\Objects\LegacyCompatGame;
 
 /**
  * The Compatibility object represents a game on the compatibility charts on the
@@ -103,19 +102,5 @@ class Compatibility extends DataObject
             return '9.9.9';
         }
         return $this->sinceVersion;
-    }
-
-    public function toLegacyCompatGame($sanitize = true)
-    {
-        return new LegacyCompatGame(
-            [
-            'target' => $this->game->getId(),
-            'datafiles' => $this->game->getDatafiles(),
-            'support_level' => $this->getSupportLevel(),
-            'notes' => $this->getNotes($sanitize),
-            'name' => $this->game->getName(),
-            'description' => ''
-            ]
-        );
     }
 }

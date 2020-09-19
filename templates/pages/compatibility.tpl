@@ -8,9 +8,11 @@
   {if $version == 'DEV'}
     <p>
       {#compatibilityDevContent#}
-      {foreach from=$versions item=ver name=versions_loop}
-        <a href="/compatibility/{$ver}/">{$ver}</a>
-      {/foreach}
+      <select name="versions" class="version-select">
+        {foreach from=$versions item=ver}
+          <option {($version==$ver) ? 'selected' : ''} value="/compatibility/{$ver}/">{$ver}</option>
+        {/foreach}
+      </select>)
     </p>
     <p>
       {#compatibilityDevDisclaimer#}
@@ -21,14 +23,22 @@
     </p>
     <p>
       {#compatibilityStableReleases#}
-    {foreach from=$versions item=ver}
-      <a href="/compatibility/{$ver}/">{$ver}</a>
-    {/foreach}
+      <select name="versions" class="version-select">
+        {foreach from=$versions item=ver}
+          <option {($version==$ver) ? 'selected' : ''} value="/compatibility/{$ver}/">{$ver}</option>
+        {/foreach}
+      </select>
     </p>
   {/if}
   <p>
     <small>{#compatiblityLastUpdated#} {$last_updated|date_localized}</small>
   </p>
+
+  <script>
+    document.querySelector('.version-select').addEventListener('change', (select) => {
+      location.href = select.target.value;
+    });
+  </script>
 {/capture}
 
 {capture "content"}
@@ -36,15 +46,9 @@
     <caption>{#compatibilityLegendTitle#}</caption>
     <tbody>
       <tr class="color2">
-        {if $old_layout == 'no'}
-          {foreach from=$support_level_header key=level item=desc}
-            <td class={$support_level_class.$level} align='center'>{$desc}</td>
-          {/foreach}
-        {else}
-          {for $pct=0 to 20}
-            <td class="pct{$pct*5}">{$pct*5}</td>
-          {/for}
-        {/if}
+        {foreach from=$support_level_header key=level item=desc}
+          <td class={$support_level_class.$level} align='center'>{$desc}</td>
+        {/foreach}
       </tr>
     </tbody>
   </table>
@@ -56,28 +60,18 @@
         <tr class="color4">
           <th class="gameFullName">{#compatibilityDetailsChartCol1#}</th>
           <th class="gameShortName">{#compatibilityDetailsChartCol2#}</th>
-          <th class="gameDatafiles">{#compatabilityDetailsChartCol4#}</th>
-          {if $old_layout == 'no'}
-            <th class="gameSupportLevel">{#compatibilityDetailsChartCol3a#}</th>
-          {else}
-            <th class="gameSupportLevel">{#compatibilityDetailsChartCol3b#}</th>
-          {/if}
+          <th class="gameDatafiles">{#compatibilityDetailsChartCol3#}</th>
+          <th class="gameSupportLevel">{#compatibilityDetailsChartCol4#}</th>
         </tr>
       </thead>
       <tbody>
       {foreach from=$games item=game}
-        {if $old_layout == 'no'}
-          {assign var="x" value=$game->getSupportLevel()}
-          {assign var="pct_class" value=$support_level_class.$x}
-          {assign var="support_level" value=$support_level_header.$x}
-        {else}
-          {math equation="x - (x % 5)" x=$game->getSupportLevel() assign='pct_class'}
-          {assign var="pct_class" value="pct"|cat:$pct_class}
-          {assign var="support_level" value=$game->getSupportLevel()|cat:"%"}
-        {/if}
+        {assign var="x" value=$game->getSupportLevel()}
+        {assign var="pct_class" value=$support_level_class.$x}
+        {assign var="support_level" value=$support_level_header.$x}
         <tr class="color{cycle values='2,0'}">
-          <td class="gameFullName"><a href="/compatibility/{$version}/{$game->getTarget()}/">{$game->getName()}</a></td>
-          <td class="gameShortName">{$game->getTarget()}</td>
+          <td class="gameFullName"><a href="/compatibility/{$version}/{$game->getGame()->getId()}/">{$game->getGame()->getName()}</a></td>
+          <td class="gameShortName">{$game->getGame()->getId()}</td>
           <td class="gameDatafiles">
           {if $game->getDatafiles()}
             <a href="https://wiki.scummvm.org/index.php?title=Datafiles#{$game->getDatafiles()}">{#compatabilityDetailsDetails#}</a></td>

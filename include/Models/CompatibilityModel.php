@@ -2,7 +2,6 @@
 namespace ScummVM\Models;
 
 use ScummVM\Objects\Compatibility;
-use ScummVM\Objects\LegacyCompatGame;
 use ScummVM\Models\GameModel;
 use ScummVM\Models\PlatformsModel;
 use Composer\Semver\Comparator;
@@ -79,9 +78,7 @@ abstract class CompatibilityModel extends BasicModel
                 if (!array_key_exists($companyName, $compat_data)) {
                     $compat_data[$companyName] = [];
                 }
-
-                $compat_data[$companyName][] = $compat->toLegacyCompatGame(false);
-
+                $compat_data[$companyName][] = $compat;
             }
         }
         $compat_data['Other'] = [];
@@ -92,7 +89,12 @@ abstract class CompatibilityModel extends BasicModel
                 unset($compat_data[$key]);
             }
         }
-        \sort($compat_data['Other'], SORT_STRING);
+        if ($compat_data['Other']) {
+            \sort($compat_data['Other'], SORT_STRING);
+        } else {
+            unset($compat_data['Other']);
+        }
+
         return $compat_data;
     }
 
