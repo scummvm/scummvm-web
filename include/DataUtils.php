@@ -24,7 +24,8 @@ class DataUtils
         'companies' => '226191984',
         'versions' => '1225902887',
         'game_demos' => '713475305',
-        'series' => '1095671818'
+        'series' => '1095671818',
+        'screenshots' => '1985243204'
     ];
 
 

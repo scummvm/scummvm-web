@@ -1,65 +1,96 @@
 # This is a generated file, please do not edit manually
 ---
-- id: 3do
-  name: 3DO
-- id: acorn
-  name: Acorn
-- id: amiga
-  name: AmigaOS
-- id: android
-  name: Android
-- id: apple2
-  name: Apple II
-- id: apple2gs
-  name: Apple IIgs
-- id: atari8bit
-  name: Atari 8 Bit
-- id: atarist
-  name: Atari ST
-- id: beos
-  name: BeOS
-- id: c64
-  name: Commodore 64
-- id: dos
-  name: DOS
-- id: fmtowns
-  name: FM Towns
-- id: ios
-  name: iOS
-- id: linux
-  name: Linux
-- id: mac
-  name: Macintosh
-- id: macos
-  name: macOS
-- id: nes
-  name: Nintendo Entertainment System
-- id: os2
-  name: OS/2
-- id: pce
-  name: PC Engine
-- id: pc98
-  name: PC-98
-- id: pcfx
-  name: PC-FX
-- id: cdi
-  name: Philips CD-i
-- id: psx
-  name: Playstation
-- id: pocketpc
-  name: Pocket PC
-- id: saturn
-  name: Saturn
-- id: segacd
-  name: Sega CD
-- id: steam
-  name: Steam
-- id: coco3
-  name: Tandy Color Computer 3
-- id: wii
-  name: Wii
-- id: win
-  name: Windows
-- id: amigacd32
-  name: Amiga CD32
+- name: 3DO
+  id: 3do
+  moby_id: "35"
+- name: Acorn 32-bit
+  id: acorn
+  moby_id: "117"
+- name: Amiga
+  id: amiga
+  moby_id: "19"
+- name: Android
+  id: android
+  moby_id: "91"
+- name: Apple II
+  id: apple2
+  moby_id: "31"
+- name: Apple IIgs
+  id: apple2gs
+  moby_id: "51"
+- name: Acorn 32-bit
+  id: atari8bit
+  moby_id: "117"
+- name: Atari ST
+  id: atarist
+  moby_id: "24"
+- name: BeOS
+  id: beos
+  moby_id: "165"
+- name: Commodore 64
+  id: c64
+  moby_id: "27"
+- name: DOS
+  id: dos
+  moby_id: "2"
+- name: FM Towns
+  id: fmtowns
+  moby_id: "102"
+- name: iOS
+  id: ios
+  moby_id: "86"
+- name: Linux
+  id: linux
+  moby_id: "1"
+- name: Macintosh
+  id: mac
+  moby_id: "74"
+- name: macOS
+  id: macos
+  moby_id: "74"
+- name: NES
+  id: nes
+  moby_id: "22"
+- name: OS/2
+  id: os2
+  moby_id: "146"
+- name: PC Engine
+  id: pce
+  moby_id: "40"
+- name: PC-98
+  id: pc98
+  moby_id: "95"
+- name: PC-FX
+  id: pcfx
+  moby_id: "59"
+- name: Philips CD-i
+  id: cdi
+  moby_id: "73"
+- name: Playstation
+  id: psx
+  moby_id: "6"
+- name: Pocket PC
+  id: pocketpc
+  moby_id: "66"
+- name: Sega Saturn
+  id: saturn
+  moby_id: "23"
+- name: Sega CD
+  id: segacd
+  moby_id: "20"
+- name: Steam
+  id: steam
+  moby_id: "3"
+- name: Tandy Color Computer 3
+  id: coco3
+  moby_id: "62"
+- name: Wii
+  id: wii
+  moby_id: "82"
+- name: Windows
+  id: win
+  moby_id: "3"
+- name: Amiga CD32
+  id: amigacd32
+  moby_id: "56"
 ...
