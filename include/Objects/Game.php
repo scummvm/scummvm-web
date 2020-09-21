@@ -11,9 +11,10 @@ class Game extends DataObject
     private $company;
     private $moby_id;
     private $datafiles;
+    private $series;
 
     /* Article object constructor. */
-    public function __construct($data, $engines, $companies)
+    public function __construct($data, $engines, $companies, $series)
     {
         parent::__construct($data);
         $this->name = $this->assignFromArray('name', $data, true);
@@ -21,6 +22,8 @@ class Game extends DataObject
         $this->datafiles = $this->assignFromArray('datafiles', $data);
         $this->company = $this->assignFromArray($data['company_id'], $companies);
         $this->engine = $this->assignFromArray($data['engine_id'], $engines, true);
+        $this->series = $this->assignFromArray($data['series_id'], $series);
+
     }
 
     public function __toString()
@@ -56,6 +59,12 @@ class Game extends DataObject
     public function getDatafiles()
     {
         return $this->datafiles;
+    }
+
+    /* Get the game series object. */
+    public function getSeries()
+    {
+        return $this->series;
     }
 
 }
