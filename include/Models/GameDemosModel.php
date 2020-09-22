@@ -29,9 +29,6 @@ abstract class GameDemosModel extends BasicModel
     {
         $groups = [];
         foreach ($demos as $demo) {
-            if (is_string($demo->getGame())) {
-                var_dump($demo);
-            }
             $company = $demo->getGame()->getCompany();
             if (is_string($company)) {
                 $companyName = "Unknown";
