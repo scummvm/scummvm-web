@@ -81,6 +81,8 @@ abstract class ScreenshotsModel extends BasicModel
             unset($entries['other']);
         }
 
+        \ksort($entries);
+
         return $entries;
     }
 
