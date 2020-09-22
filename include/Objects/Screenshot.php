@@ -90,7 +90,7 @@ class Screenshot extends DataObject
             $extras[] = $this->platform->getName();
         }
         if ($this->language) {
-            $extras[] = $this->language;
+            $extras[] = \locale_get_display_language($this->language, "en");
         }
 
         if (count($extras) > 0) {
