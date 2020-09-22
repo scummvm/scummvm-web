@@ -43,6 +43,7 @@ class Constants
         define('DIR_COMPAT',      DIR_DATA . '/compatibility');
         define('DIR_DOWNLOADS',   '/downloads');
         define('DIR_SCREENSHOTS', '/data/screenshots');
+        define('DIR_SCREENSHOTS_PHP', 'public_html' . DIR_SCREENSHOTS . "/");
 
         /* Locale */
         define('DEFAULT_LOCALE', 'en_US');
