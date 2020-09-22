@@ -4,8 +4,8 @@
 {assign var='rand_file' value=$rand_files[$rand_pos]}
 
 {capture "content"}
-<a href="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}-full.png" title="{$rand_file.caption}">
-  <img class="random-screenshot" src="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}-full.png" alt="{$rand_file.caption}">
+<a href="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}_full.png" title="{$rand_file.caption}">
+  <img class="random-screenshot" src="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}_full.png" alt="{$rand_file.caption}">
 </a>
 {/capture}
 {include file='components/roundbox.tpl' class="gallery" content=$smarty.capture.content}

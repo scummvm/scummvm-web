@@ -31,7 +31,7 @@ class ScreenshotsPage extends Controller
             return $this->getCategory($category, $game);
         }
 
-        $screenshot  = ScreenshotsModel::getAllScreenshots();
+        $screenshot  = ScreenshotsModel::getGroupedScreenshots();
         $random_shot = ScreenshotsModel::getRandomScreenshot();
 
         $this->template = 'pages/screenshots.tpl';

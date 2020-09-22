@@ -11,7 +11,7 @@
           <div class="col-1-4 col-md-1">
             <div class="card">
               <div class="image">
-                <a href="{$smarty.const.DIR_SCREENSHOTS}/{$fdata.filename}-full.png" title="{$fdata.caption}">
+                <a href="{$smarty.const.DIR_SCREENSHOTS}/{$fdata.filename}_full.png" title="{$fdata.caption}">
                   <img class="pixelated" src="{$smarty.const.DIR_SCREENSHOTS}/{$fdata.filename}.jpg" alt="{$g->getName()} screenshot #{$smarty.foreach.cat_loop.iteration}">
                 </a>
               </div>
