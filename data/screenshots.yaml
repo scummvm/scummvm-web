@@ -234,7 +234,7 @@
   variant: ""
   platform_id: win
   language: en
-  filemask: coktel/babayaga/babayaga_win_en_1_*
+  filemask: animationmagic/babayaga/babayaga_win_en_1_*
 - id: bambou
   variant: ""
   platform_id: dos
@@ -1770,8 +1770,8 @@
   platform_id: dos
   language: en
   filemask: perfect/dw2/dw2_dos_en_1_*
-- id: bladerunner-final
-  variant: ""
+- id: bladerunner
+  variant: Restored Content
   platform_id: win
   language: en
   filemask: westwood/bladerunner-final/bladerunner-final_win_en_1_*

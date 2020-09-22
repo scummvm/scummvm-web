@@ -426,7 +426,7 @@
   company_id: animationmagic
   moby_id: "99115"
   datafiles: ""
-  series_id: ""
+  series_id: magictales
 - id: babayaga
   name: 'Magic Tales: Baba Yaga and the Magic Geese'
   engine_id: composer
@@ -917,7 +917,7 @@
   moby_id: "31462"
   datafiles: ""
   series_id: ""
-- id: babayaga
+- id: babayagaonce
   name: 'Once Upon A Time: Baba Yaga'
   engine_id: gob
   company_id: coktel
@@ -1380,7 +1380,7 @@
   company_id: colossal
   moby_id: "71458"
   datafiles: ""
-  series_id: ""
+  series_id: livingbooks
 - id: rugratsps
   name: Rugrats Print Shop
   engine_id: mohawk
@@ -1765,28 +1765,28 @@
   company_id: sierra
   moby_id: "462"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#SCI
-  series_id: laura
+  series_id: laurabow
 - id: laurabow
   name: 'Laura Bow: The Colonel''s Bequest'
   engine_id: sci
   company_id: sierra
   moby_id: "461"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#SCI
-  series_id: laura
+  series_id: laurabow
 - id: ecoquest
   name: 'EcoQuest: The Search for Cetus'
   engine_id: sci
   company_id: sierra
   moby_id: "584"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#SCI
-  series_id: eco
+  series_id: ecoquest
 - id: ecoquest2
   name: 'EcoQuest II: Lost Secret of the Rainforest'
   engine_id: sci
   company_id: sierra
   moby_id: "619"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#SCI
-  series_id: eco
+  series_id: ecoquest
 - id: shivers
   name: Shivers
   engine_id: sci
@@ -1842,7 +1842,7 @@
   company_id: sierra
   moby_id: "1408"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#SCI
-  series_id: conquest
+  series_id: conquests
 - id: castlebrain
   name: Castle of Dr. Brain
   engine_id: sci
@@ -1877,7 +1877,7 @@
   company_id: sierra
   moby_id: "1967"
   datafiles: https://wiki.scummvm.org/index.php?title=Datafiles#SCI
-  series_id: conquest
+  series_id: conquests
 - id: pq1sci
   name: 'Police Quest: In Pursuit of the Death Angel'
   engine_id: sci
