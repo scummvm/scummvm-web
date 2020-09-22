@@ -100,4 +100,8 @@ class Screenshot extends DataObject
 
         return $name;
     }
+
+    public function __toString() {
+        return $this->getCaption();
+    }
 }
