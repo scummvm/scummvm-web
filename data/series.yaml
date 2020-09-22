@@ -32,11 +32,11 @@
   name: Disney AGI
 - id: brain
   name: Dr. Brain
-- id: conquest
+- id: conquests
   name: Conquests
-- id: laura
+- id: laurabow
   name: Laura Bow
-- id: eco
+- id: ecoquest
   name: EcoQuest
 - id: hoyle
   name: Hoyle's Official Book of Games
