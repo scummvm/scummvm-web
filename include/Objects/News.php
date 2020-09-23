@@ -1,5 +1,6 @@
 <?php
 namespace ScummVM\Objects;
+
 use Spatie\YamlFrontMatter\YamlFrontMatter;
 use Erusev\Parsedown;
 

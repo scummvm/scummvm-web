@@ -66,9 +66,9 @@ class CompatibilityPage extends Controller
         }
 
         if (!empty($target)) {
-            return $this->getGame($target, $version, $oldLayout);
+            return $this->getGame($target, $version);
         } else {
-            return $this->getAll($version, $versions, $oldLayout);
+            return $this->getAll($version, $versions);
         }
     }
 

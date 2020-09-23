@@ -23,6 +23,5 @@ class ArticleModel extends BasicModel
         }
 
         return $data;
-
     }
 }

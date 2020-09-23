@@ -20,7 +20,7 @@ class SubprojectsModel extends BasicModel
             $parser = new XMLParser();
             $parsedData = $parser->parseByFilename($fname);
             $entries = array();
-            foreach (array($parsedData['subprojects']['project'])as $key => $value) {
+            foreach (array($parsedData['subprojects']['project']) as $key => $value) {
                 $downloads = array();
                 foreach (array($value['entries']) as $type => $data) {
                     if ($type == 'file') {

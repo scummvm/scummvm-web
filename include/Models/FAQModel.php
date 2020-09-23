@@ -48,7 +48,7 @@ class FAQModel extends BasicModel
     {
         $filename = $this->getFilename();
         global $lang;
-        if (\str_contains($filename, $lang)) {
+        if (\strpos($filename, $lang)) {
             $key = $lang;
         } else {
             $key = DEFAULT_LOCALE;
