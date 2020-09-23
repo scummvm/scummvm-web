@@ -11,20 +11,18 @@ class ArticleModel extends BasicModel
     /* Get all articles. */
     public function getAllArticles()
     {
-        $fname = DIR_DATA . '/press_articles.yaml';
-        $parsedData = \yaml_parse_file($fname);
-        $entries = array();
-        foreach (array_values($parsedData['articles']) as $value) {
-            $entries[] = new Article(
-                array(
-                'name' => $value['name'],
-                'url' => $value['url'],
-                'language' => $value['language'],
-                'source' => $value['source'],
-                'date' => $value['date'],
-                )
-            );
+        $data = $this->getFromCache();
+        if (is_null($data)) {
+            $fname = DIR_DATA . '/press_articles.yaml';
+            $articles = \yaml_parse_file($fname);
+            $data = [];
+            foreach (array_values($articles['articles']) as $value) {
+                $data[] = new Article($value);
+            }
+            $this->saveToCache($data);
         }
-        return $entries;
+
+        return $data;
+
     }
 }

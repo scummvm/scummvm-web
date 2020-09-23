@@ -8,18 +8,22 @@ use DeviceDetector\Parser\OperatingSystem AS OsParser;
 /**
  * The DownloadsModel will produce DownloadsSection objects.
  */
-class DownloadsModel
+class DownloadsModel extends BasicModel
 {
     /* Get all download entries. */
     public function getAllDownloads()
     {
-        $fname = DIR_DATA . '/downloads.xml';
-        /* Now parse the data. */
-        $parser = new XMLParser();
-        $parsedData = $parser->parseByFilename($fname);
-        $sections = array();
-        foreach (array_values($parsedData['downloads']['section']) as $value) {
-            $sections[] = new DownloadsSection($value);
+        $sections = $this->getFromCache();
+        if (is_null($sections)) {
+            $fname = DIR_DATA . '/downloads.xml';
+            /* Now parse the data. */
+            $parser = new XMLParser();
+            $parsedData = $parser->parseByFilename($fname);
+            $sections = array();
+            foreach (array_values($parsedData['downloads']['section']) as $value) {
+                $sections[] = new DownloadsSection($value);
+            }
+            $this->saveToCache($sections);
         }
         return $sections;
     }
@@ -28,7 +32,7 @@ class DownloadsModel
     public function getAllSections()
     {
         /* Get the list with all downloads/sections. */
-        $downloads = self::getAllDownloads();
+        $downloads = $this->getAllDownloads();
         $sections = array();
         foreach ($downloads as $dsection) {
             if ($dsection->getAnchor() != '' && $dsection->getTitle() != '') {
@@ -65,7 +69,7 @@ class DownloadsModel
             return false;
         }
 
-        $downloads = self::getAllDownloads();
+        $downloads = $this->getAllDownloads();
 
         $osParser = new OsParser();
         $osParser->setUserAgent($_SERVER['HTTP_USER_AGENT']);

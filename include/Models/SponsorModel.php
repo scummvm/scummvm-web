@@ -11,12 +11,16 @@ class SponsorModel extends BasicModel
     /* Get all Sponsors. */
     public function getAllSponsors()
     {
-        $fname = DIR_DATA . '/sponsors.yaml';
-        $parsedData = \yaml_parse_file($fname);
-        $entries = array();
-        foreach (array_values($parsedData['sponsors']) as $value) {
-            $entries[] = new Sponsor($value);
+        $sponsors = $this->getFromCache();
+        if (is_null($sponsors)) {
+            $fname = DIR_DATA . '/sponsors.yaml';
+            $data = \yaml_parse_file($fname);
+            $sponsors = array();
+            foreach (array_values($data['sponsors']) as $value) {
+                $sponsors[] = new Sponsor($value);
+            }
+            $this->saveToCache($sponsors);
         }
-        return $entries;
+        return $sponsors;
     }
 }

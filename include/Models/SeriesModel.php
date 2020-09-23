@@ -10,14 +10,18 @@ use ScummVM\Objects\Series;
 class SeriesModel extends BasicModel
 {
     /* Get all Platforms from YAML */
-    public static function getAllSeries()
+    public function getAllSeries()
     {
-        $fname = DIR_DATA . '/series.yaml';
-        $series = \yaml_parse_file($fname);
-        $data = [];
-        foreach ($series as $seriesItem) {
-            $obj = new Series($seriesItem);
-            $data[$obj->getId()] = $obj;
+        $data = $this->getFromCache();
+        if (is_null($data)) {
+            $fname = DIR_DATA . '/series.yaml';
+            $series = \yaml_parse_file($fname);
+            $data = [];
+            foreach ($series as $seriesItem) {
+                $obj = new Series($seriesItem);
+                $data[$obj->getId()] = $obj;
+            }
+            $this->saveToCache($data);
         }
         return $data;
     }

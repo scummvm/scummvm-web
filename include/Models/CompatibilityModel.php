@@ -18,7 +18,8 @@ class CompatibilityModel extends BasicModel
     private $gameModel;
     private $platformsModel;
 
-    public function __construct() {
+    public function __construct()
+    {
         $this->gameModel = new GameModel();
         $this->platformsModel = new PlatformsModel();
     }
@@ -26,26 +27,29 @@ class CompatibilityModel extends BasicModel
     /* Get all the groups and the respectively demos for the specified ScummVM version. */
     public function getAllData($version)
     {
-        $fname = DIR_DATA . "/compatibility.yaml";
-        $compatibilityEntries = \yaml_parse_file($fname);
-        $games = $this->gameModel->getAllGames();
-        $platforms = $this->platformsModel->getAllPlatforms();
-        $compareVersion = $version === 'DEV' ? '9.9.9' : $version;
-        $data = [];
-        foreach ($compatibilityEntries as $compat) {
-            $obj = new Compatibility($compat, $games, $platforms);
-            $objVersion = $obj->getVersion();
-            if (Comparator::lessThanOrEqualTo($objVersion, $compareVersion)) {
-                if (array_key_exists($obj->getId(), $data)) {
-                    $existingVersion = $data[$obj->getId()]->getVersion();
-                    if (Comparator::greaterThan($objVersion, $existingVersion)) {
+        $data = $this->getFromCache($version);
+        if (is_null($data)) {
+            $fname = DIR_DATA . "/compatibility.yaml";
+            $compatibilityEntries = \yaml_parse_file($fname);
+            $games = $this->gameModel->getAllGames();
+            $platforms = $this->platformsModel->getAllPlatforms();
+            $compareVersion = $version === 'DEV' ? '9.9.9' : $version;
+            $data = [];
+            foreach ($compatibilityEntries as $compat) {
+                $obj = new Compatibility($compat, $games, $platforms);
+                $objVersion = $obj->getVersion();
+                if (Comparator::lessThanOrEqualTo($objVersion, $compareVersion)) {
+                    if (array_key_exists($obj->getId(), $data)) {
+                        $existingVersion = $data[$obj->getId()]->getVersion();
+                        if (Comparator::greaterThan($objVersion, $existingVersion)) {
+                            $data[$obj->getId()] = $obj;
+                        }
+                    } else {
                         $data[$obj->getId()] = $obj;
                     }
-                } else {
-                    $data[$obj->getId()] = $obj;
                 }
             }
-
+            $this->saveToCache($data, $version);
         }
         return $data;
     }
@@ -56,7 +60,7 @@ class CompatibilityModel extends BasicModel
         if (!is_string($version) || !is_string($target)) {
             throw new \ErrorException(self::NO_VERSION_TARGET);
         }
-        if (!($all_games = self::getAllData($version))) {
+        if (!($all_games = $this->getAllData($version))) {
             throw new \ErrorException(self::NOT_FOUND);
         }
 

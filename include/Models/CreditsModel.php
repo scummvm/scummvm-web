@@ -11,12 +11,16 @@ class CreditsModel extends BasicModel
     /* Get all credit sections and their contents. */
     public function getAllCredits()
     {
-        $fname = DIR_DATA . '/credits.yaml';
-        $parsedData = \yaml_parse_file($fname);
-        $sections = [];
-        foreach (array_values($parsedData['credits']['section']) as $value) {
-            $sections[] = new CreditsSection($value);
+        $data = $this->getFromCache();
+        if (is_null($data)) {
+            $fname = DIR_DATA . '/credits.yaml';
+            $credits = \yaml_parse_file($fname);
+            $data = [];
+            foreach (array_values($credits['credits']['section']) as $value) {
+                $data[] = new CreditsSection($value);
+            }
+            $this->saveToCache($data);
         }
-        return $sections;
+        return $data;
     }
 }

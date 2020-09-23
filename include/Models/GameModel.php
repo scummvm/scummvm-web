@@ -15,7 +15,8 @@ class GameModel extends BasicModel
     private $enginesModel;
     private $seriesModel;
 
-    public function __construct() {
+    public function __construct()
+    {
         $this->companiesModel = new CompaniesModel();
         $this->enginesModel = new EnginesModel();
         $this->seriesModel = new SeriesModel();
@@ -24,15 +25,19 @@ class GameModel extends BasicModel
     /* Get all Games from YAML */
     public function getAllGames()
     {
-        $companies = $this->companiesModel->getAllCompanies();
-        $engines = $this->enginesModel->getAllEngines();
-        $series = $this->seriesModel->getAllSeries();
-        $fname = DIR_DATA . '/games.yaml';
-        $games = \yaml_parse_file($fname);
-        $data = [];
-        foreach ($games as $game) {
-            $obj = new Game($game, $engines, $companies, $series);
-            $data[$obj->getId()] = $obj;
+        $data = $this->getFromCache();
+        if (is_null($data)) {
+            $companies = $this->companiesModel->getAllCompanies();
+            $engines = $this->enginesModel->getAllEngines();
+            $series = $this->seriesModel->getAllSeries();
+            $fname = DIR_DATA . '/games.yaml';
+            $games = \yaml_parse_file($fname);
+            $data = [];
+            foreach ($games as $game) {
+                $obj = new Game($game, $engines, $companies, $series);
+                $data[$obj->getId()] = $obj;
+            }
+            $this->saveToCache($data);
         }
         return $data;
     }

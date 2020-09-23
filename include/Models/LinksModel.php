@@ -12,20 +12,24 @@ class LinksModel extends BasicModel
     /* Get all the groups and the respectively demos. */
     public function getAllGroupsAndLinks()
     {
-        $fname = DIR_DATA . '/links.yaml';
-        $parsedData = \yaml_parse_file($fname);
-        $entries = array();
-        foreach (array_values($parsedData['groups']) as $value) {
-            /* Get all links. */
-            $links = array();
-            foreach ($value['links'] as $data) {
-                $links[] = new WebLink($data);
+        $entries = $this->getFromCache();
+        if (is_null($entries)) {
+            $fname = DIR_DATA . '/links.yaml';
+            $parsedData = \yaml_parse_file($fname);
+            $entries = array();
+            foreach (array_values($parsedData['groups']) as $value) {
+                /* Get all links. */
+                $links = array();
+                foreach ($value['links'] as $data) {
+                    $links[] = new WebLink($data);
+                }
+                $entries[] = array(
+                    'name' => $value['name'],
+                    'description' => $value['description'],
+                    'links' => $links,
+                );
             }
-            $entries[] = array(
-                'name' => $value['name'],
-                'description' => $value['description'],
-                'links' => $links,
-            );
+            $this->saveToCache($entries);
         }
         return $entries;
     }
