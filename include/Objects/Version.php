@@ -12,12 +12,12 @@ class Version extends DataObject
     public function __construct($data)
     {
         parent::__construct($data);
-        $this->date = $this->assignFromArray('release_date', $releaseDate);
+        $this->releaseDate = $this->assignFromArray('release_date', $data);
     }
 
     /* Get the version release name. */
     public function getDate()
     {
-        return $this->date;
+        return $this->releaseDate;
     }
 }

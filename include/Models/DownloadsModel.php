@@ -3,7 +3,7 @@ namespace ScummVM\Models;
 
 use ScummVM\Objects\DownloadsSection;
 use ScummVM\XMLParser;
-use DeviceDetector\Parser\OperatingSystem AS OsParser;
+use DeviceDetector\Parser\OperatingSystem as OsParser;
 
 /**
  * The DownloadsModel will produce DownloadsSection objects.
@@ -79,7 +79,8 @@ class DownloadsModel extends BasicModel
             foreach ($dsection->getSubSections() as $dsubsection) {
                 $version = array_values(
                     array_filter(
-                        $dsubsection->getItems(), function ($item) use ($os) {
+                        $dsubsection->getItems(),
+                        function ($item) use ($os) {
                             if ($item->getUserAgent() != "") {
                                 $ua = preg_quote($item->getUserAgent(), '/');
                                 return preg_match("/({$ua})/i", $os['name']);

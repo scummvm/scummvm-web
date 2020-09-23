@@ -40,7 +40,7 @@ abstract class DataObject
     {
         if ($required) {
             if ($key === '') {
-                throw new \ErrorException(\sprintf(self::NO_KEY, $key, \get_class($this)));
+                throw new \ErrorException(self::NO_KEY);
             }
 
             if (!isset($array[$key]) || $array[$key] === '') {

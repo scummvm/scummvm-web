@@ -27,7 +27,7 @@ class GameDownloadsModel extends BasicModel
     public function getAllSections()
     {
         $sections = $this->getFromCache();
-        if (is_null($data)) {
+        if (is_null($sections)) {
             /* Get the list with all downloads/sections. */
             $downloads = $this->getAllDownloads();
             $sections = array();

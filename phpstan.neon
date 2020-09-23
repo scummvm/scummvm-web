@@ -1,6 +1,13 @@
 parameters:
 	level: 5
+	bootstrapFiles:
+		- include/Constants.php
 	paths:
+		- public_html/index.php
 		- include/
 	excludes_analyse:
 		- include/LocalizationUtils.php
+		- include/DataUtils.php
+		- include/Constants.php
+
+

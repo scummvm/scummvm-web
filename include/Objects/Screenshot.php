@@ -42,7 +42,8 @@ class Screenshot extends DataObject
         return $this->files;
     }
 
-    public function addFiles($files) {
+    public function addFiles($files)
+    {
         $this->files = array_merge($this->files, $files);
     }
 
@@ -101,7 +102,8 @@ class Screenshot extends DataObject
         return $name;
     }
 
-    public function __toString() {
+    public function __toString()
+    {
         return $this->getCaption();
     }
 }

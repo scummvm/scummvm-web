@@ -23,7 +23,6 @@ class Game extends DataObject
         $this->company = $this->assignFromArray($data['company_id'], $companies);
         $this->engine = $this->assignFromArray($data['engine_id'], $engines, true);
         $this->series = $this->assignFromArray($data['series_id'], $series);
-
     }
 
     public function __toString()
@@ -66,5 +65,4 @@ class Game extends DataObject
     {
         return $this->series;
     }
-
 }

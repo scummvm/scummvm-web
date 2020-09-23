@@ -38,7 +38,6 @@ class ScreenshotsModel extends BasicModel
             } else {
                 $data[$obj->getCategory()] = $obj;
             }
-
         }
 
         return $data;
@@ -104,7 +103,7 @@ class ScreenshotsModel extends BasicModel
                 return $shots;
             }
         }
-        throw new \ErrorException($this->INVALID_CATEGORY);
+        throw new \ErrorException(self::INVALID_CATEGORY);
     }
 
     /* Get screenshots for a specific target. */
@@ -118,7 +117,7 @@ class ScreenshotsModel extends BasicModel
                 }
             }
         }
-        throw new \ErrorException($this->INVALID_TARGET);
+        throw new \ErrorException(self::INVALID_TARGET);
     }
 
     /* Get a random screenshot (an object and not a filename) .*/

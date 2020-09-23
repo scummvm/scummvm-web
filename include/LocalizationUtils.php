@@ -51,7 +51,8 @@ class LocalizationUtils
         $newsFile = join(DIRECTORY_SEPARATOR, [DIR_LANG,$lang,"news.json"]);
         // For non-english, create/overwrite JSON files from our l10n file
         if ($lang !== DEFAULT_LOCALE) {
-            if (!file_exists($newsFile)) { return;
+            if (!file_exists($newsFile)) {
+                return;
             }
             echo("Converting " . $newsFile . " to individual Markdown files\n");
             $l10n = json_decode(file_get_contents($newsFile));
@@ -78,7 +79,8 @@ class LocalizationUtils
                         "/(?<=\(http)(.*?)(?=\))/u",
                         function ($matches) {
                             return preg_replace("/\x{202f}/u", "", $matches[1]);
-                        }, $content
+                        },
+                        $content
                     );
                 }
 
