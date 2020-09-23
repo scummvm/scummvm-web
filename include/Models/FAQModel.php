@@ -21,7 +21,7 @@ class FAQModel extends BasicModel
     {
         global $lang;
 
-        if ($lang != 'en') {
+        if ($lang !== DEFAULT_LOCALE) {
             $localized = DIR_DATA . "/faq-xml." . $lang . ".xml";
 
             if (is_file($localized)) {
@@ -46,57 +46,68 @@ class FAQModel extends BasicModel
     /* Get all question and answers. */
     public function getFAQ()
     {
-        if (!($data = @file_get_contents(self::getFilename()))) {
-            throw new \ErrorException(self::ERROR_READING_FILE);
+        $filename = $this->getFilename();
+        global $lang;
+        if (\str_contains($filename, $lang)) {
+            $key = $lang;
+        } else {
+            $key = DEFAULT_LOCALE;
         }
-        /**
-         * Let's replace some of the docbook tags and wrap some HTML-entities
-         * inside CDATA containers.
-         */
-        $pattern = array(
-            '/<ulink\s+url="(.+)">(.+)<\/ulink>/isU',
-            '/<itemizedlist>(.+)<\/itemizedlist>/isU',
-            '/<listitem><simpara>(.+)<\/simpara><\/listitem>/isU',
-            '/<simpara>(.+)<\/simpara>/isU',
-            '/<emphasis>(.+)<\/emphasis>/isU',
-            '/<envar>(.+)<\/envar>/isU',
-            '/<command(?:\s+[^>]+)?>(.+)<\/command>/isU',
-            '/<blockquote>(.+)<\/blockquote>/isU',
-            '/<programlisting(?:\s+[^>]+)?>(.+)<\/programlisting>/isU',
-            '/<quote>(.+)<\/quote>/isU',
-            '/<xref linkend="(.+)"\s+endterm=".+"\/>/isU',
-            '/(&(?:lt|gt|quot);)/is',
-        );
-        $replace = array(
-            '<h:a href="\\1">\\2</h:a>',
-            '<h:ul>\\1</h:ul>',
-            '<h:li>\\1</h:li>',
-            '<h:p>\\1</h:p>',
-            '<h:span class="italic">\\1</h:span>', // emphasis
-            '<h:span class="envar">\\1</h:span>',
-            '<h:span class="bold">\\1</h:span>', // command
-            '<h:blockquote>\\1</h:blockquote>',
-            '<h:pre>\\1</h:pre>', // programlisting
-            '&#8220;<h:span class="quote">\\1</h:span>&#8221;',
-            '<h:a xref="\\1"/>',
-            '<![CDATA[\\1]]>',
-        );
-        $data = preg_replace($pattern, $replace, $data);
-        /* Remove this weird character as it displays as À in Firefox. */
-        $data = str_replace(chr(194), '', $data);
+        $sections = $this->getFromCache($key);
+        if (is_null($sections)) {
+            if (!($data = @file_get_contents($filename))) {
+                throw new \ErrorException(self::ERROR_READING_FILE);
+            }
+            /**
+             * Let's replace some of the docbook tags and wrap some HTML-entities
+             * inside CDATA containers.
+             */
+            $pattern = array(
+                '/<ulink\s+url="(.+)">(.+)<\/ulink>/isU',
+                '/<itemizedlist>(.+)<\/itemizedlist>/isU',
+                '/<listitem><simpara>(.+)<\/simpara><\/listitem>/isU',
+                '/<simpara>(.+)<\/simpara>/isU',
+                '/<emphasis>(.+)<\/emphasis>/isU',
+                '/<envar>(.+)<\/envar>/isU',
+                '/<command(?:\s+[^>]+)?>(.+)<\/command>/isU',
+                '/<blockquote>(.+)<\/blockquote>/isU',
+                '/<programlisting(?:\s+[^>]+)?>(.+)<\/programlisting>/isU',
+                '/<quote>(.+)<\/quote>/isU',
+                '/<xref linkend="(.+)"\s+endterm=".+"\/>/isU',
+                '/(&(?:lt|gt|quot);)/is',
+            );
+            $replace = array(
+                '<h:a href="\\1">\\2</h:a>',
+                '<h:ul>\\1</h:ul>',
+                '<h:li>\\1</h:li>',
+                '<h:p>\\1</h:p>',
+                '<h:span class="italic">\\1</h:span>', // emphasis
+                '<h:span class="envar">\\1</h:span>',
+                '<h:span class="bold">\\1</h:span>', // command
+                '<h:blockquote>\\1</h:blockquote>',
+                '<h:pre>\\1</h:pre>', // programlisting
+                '&#8220;<h:span class="quote">\\1</h:span>&#8221;',
+                '<h:a xref="\\1"/>',
+                '<![CDATA[\\1]]>',
+            );
+            $data = preg_replace($pattern, $replace, $data);
+            /* Remove this weird character as it displays as À in Firefox. */
+            $data = str_replace(chr(194), '', $data);
 
-        /* Now parse the data. */
-        $parser = new XMLParser();
-        $parsedData = $parser->parseByData($data);
-        $sections = array();
-        /**
-         * Build a map of the defined hrefs so we can give the xrefs the correct
-         * text.
-         */
-        $xref = array();
-        $count = 1;
-        foreach (array_values($parsedData['faq']['section']) as $data) {
-            $sections[] = new FaqSection($data, $count++, $xref);
+            /* Now parse the data. */
+            $parser = new XMLParser();
+            $parsedData = $parser->parseByData($data);
+            $sections = array();
+            /**
+             * Build a map of the defined hrefs so we can give the xrefs the correct
+             * text.
+             */
+            $xref = array();
+            $count = 1;
+            foreach (array_values($parsedData['faq']['section']) as $data) {
+                $sections[] = new FaqSection($data, $count++, $xref);
+            }
+            $this->saveToCache($sections, $key);
         }
         return $sections;
     }

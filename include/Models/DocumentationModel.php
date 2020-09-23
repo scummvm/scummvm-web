@@ -12,13 +12,17 @@ class DocumentationModel extends BasicModel
     /* Get all the documents. */
     public function getAllDocuments()
     {
-        $fname = DIR_DATA . '/documentation.xml';
-        $parser = new XMLParser();
-        $parsedData = $parser->parseByFilename($fname);
-        $entries = array();
-        foreach (array_values($parsedData['documentation']['document']) as $value) {
-            $entries[] = new Document($value);
+        $data = $this->getFromCache();
+        if (is_null($data)) {
+            $fname = DIR_DATA . '/documentation.xml';
+            $parser = new XMLParser();
+            $documentation = $parser->parseByFilename($fname);
+            $data = [];
+            foreach (array_values($documentation['documentation']['document']) as $value) {
+                $data[] = new Document($value);
+            }
+            $this->saveToCache($data);
         }
-        return $entries;
+        return $data;
     }
 }

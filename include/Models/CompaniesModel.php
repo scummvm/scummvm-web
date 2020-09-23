@@ -11,12 +11,16 @@ class CompaniesModel extends BasicModel
     /* Get all Companies from YAML */
     public function getAllCompanies()
     {
-        $fname = DIR_DATA . '/companies.yaml';
-        $companies = \yaml_parse_file($fname);
-        $data = [];
-        foreach ($companies as $company) {
-            $obj = new Company($company);
-            $data[$obj->getId()] = $obj;
+        $data = $this->getFromCache();
+        if (is_null($data)) {
+            $fname = DIR_DATA . '/companies.yaml';
+            $companies = \yaml_parse_file($fname);
+            $data = [];
+            foreach ($companies as $company) {
+                $obj = new Company($company);
+                $data[$obj->getId()] = $obj;
+            }
+            $this->saveToCache($data);
         }
         return $data;
     }

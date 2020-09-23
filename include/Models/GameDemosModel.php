@@ -13,23 +13,29 @@ class GameDemosModel extends BasicModel
     private $gameModel;
     private $platformsModel;
 
-    public function __construct() {
+    public function __construct()
+    {
         $this->gameModel = new GameModel();
         $this->platformsModel = new PlatformsModel();
     }
     /* Get all the groups and their respective demos. */
     public function getAllGroupsAndDemos()
     {
-        $fname = DIR_DATA . '/game_demos.yaml';
-        $demos = \yaml_parse_file($fname);
-        $games = $this->gameModel->getAllGames();
-        $platforms = $this->platformsModel->getAllPlatforms();
-        $data = [];
-        foreach ($demos as $demo) {
-            $obj = new GameDemo($demo, $games, $platforms);
-            $data[] = $obj;
+        $groupedData = $this->getFromCache();
+        if (is_null($groupedData)) {
+            $fname = DIR_DATA . '/game_demos.yaml';
+            $demos = \yaml_parse_file($fname);
+            $games = $this->gameModel->getAllGames();
+            $platforms = $this->platformsModel->getAllPlatforms();
+            $data = [];
+            foreach ($demos as $demo) {
+                $obj = new GameDemo($demo, $games, $platforms);
+                $data[] = $obj;
+            }
+            $groupedData =  $this->createGroups($data);
+            $this->saveToCache($groupedData);
         }
-        return $this->createGroups($data);
+        return $groupedData;
     }
 
     private function createGroups($demos)

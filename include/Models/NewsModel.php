@@ -13,7 +13,7 @@ class NewsModel extends BasicModel
     const FILE_NOT_FOUND = 'The requested news file doesn\'t exist.';
 
     /* Get a list of all the available news files. */
-    public function getListOfNewsFilenames()
+    private function getListOfNewsFilenames()
     {
         if (!($files = scandir(join(DIRECTORY_SEPARATOR, [DIR_NEWS, DEFAULT_LOCALE])))) {
             throw new \ErrorException(self::NO_FILES);
@@ -32,25 +32,30 @@ class NewsModel extends BasicModel
     /* Get all news items ordered by date, descending. */
     public function getAllNews($processContent = false)
     {
-        if (!($files = scandir(join(DIRECTORY_SEPARATOR, [DIR_NEWS, DEFAULT_LOCALE])))) {
-            throw new \ErrorException(self::NO_FILES);
-        }
-        global $lang;
-        $news = array();
-        foreach ($files as $filename) {
-            if (substr($filename, -9) != '.markdown') {
-                continue;
+        $news = $this->getFromCache();
+        if (is_null($news)) {
+            if (!($files = scandir(join(DIRECTORY_SEPARATOR, [DIR_NEWS, DEFAULT_LOCALE])))) {
+                throw new \ErrorException(self::NO_FILES);
             }
-            if (!is_file(($fname = join(DIRECTORY_SEPARATOR, [DIR_NEWS,$lang,basename($filename)])))
-                || !is_readable($fname) || !($data = @file_get_contents($fname))
-            ) {
-                if (!($data = @file_get_contents(join(DIRECTORY_SEPARATOR, [DIR_NEWS, DEFAULT_LOCALE, $filename])))) {
+            global $lang;
+            $news = array();
+            foreach ($files as $filename) {
+                if (substr($filename, -9) != '.markdown') {
                     continue;
                 }
+                if (!is_file(($fname = join(DIRECTORY_SEPARATOR, [DIR_NEWS,$lang,basename($filename)])))
+                    || !is_readable($fname) || !($data = @file_get_contents($fname))
+                ) {
+                    if (!($data = @file_get_contents(join(DIRECTORY_SEPARATOR, [DIR_NEWS, DEFAULT_LOCALE, $filename])))) {
+                        continue;
+                    }
+                }
+                $news[] = new News($data, $filename, $processContent);
             }
-            $news[] = new News($data, $filename, $processContent);
+            $news = array_reverse($news);
+            $this->saveToCache($news);
         }
-        return array_reverse($news);
+        return $news;
     }
 
     /* Get the latest number of news items, or if no number is specified get all news items. */

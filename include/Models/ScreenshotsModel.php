@@ -17,7 +17,8 @@ class ScreenshotsModel extends BasicModel
     private $platformsModel;
     private $gameModel;
 
-    public function __construct() {
+    public function __construct()
+    {
         $this->platformsModel = new PlatformsModel();
         $this->gameModel = new GameModel();
     }

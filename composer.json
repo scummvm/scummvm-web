@@ -19,7 +19,8 @@
     "spatie/yaml-front-matter": "^2.0",
     "erusev/parsedown": "^1.7",
     "scssphp/scssphp": "^1.2",
-    "composer/semver": "^3.2"
+    "composer/semver": "^3.2",
+    "phpfastcache/phpfastcache": "^8.0"
   },
   "scripts": {
     "post-install-cmd": [
