@@ -37,7 +37,8 @@
       "mv images/*.png public_html/images",
       "rm -rf images",
       "composer install --no-dev",
-      "npm install --production"
+      "npm install --production",
+      "redis-cli -n 8 flushdb"
     ],
     "build-win": [
       "if NOT EXIST public_html\\css mkdir public_html\\css",
