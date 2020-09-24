@@ -2,7 +2,6 @@
 namespace ScummVM\Models;
 
 use ScummVM\Objects\Document;
-use ScummVM\XMLParser;
 
 /**
  * The DocumentationModel class will generate Document objects.
@@ -14,11 +13,10 @@ class DocumentationModel extends BasicModel
     {
         $data = $this->getFromCache();
         if (is_null($data)) {
-            $fname = DIR_DATA . '/documentation.xml';
-            $parser = new XMLParser();
-            $documentation = $parser->parseByFilename($fname);
+            $fname = DIR_DATA . '/documentation.yaml';
+            $documentation = \yaml_parse_file($fname);
             $data = [];
-            foreach (array_values($documentation['documentation']['document']) as $value) {
+            foreach ($documentation as $value) {
                 $data[] = new Document($value);
             }
             $this->saveToCache($data);
