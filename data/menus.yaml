@@ -1,63 +1,58 @@
-# The menu system for page navigation
-groups:
-  - name: "{#menuHeaderMain#}"
-    class: "menu-main"
-    links:
-      - name: "{#menuMainHome#}"
-        href: "{$baseurl}"
-      - name: "{#menuMainScreenshots#}"
-        href: "/screenshots/"
-      - name: "{#menuMainForums#}"
-        href: "https://forums.scummvm.org/"
-      - name: "{#menuMainDownloads#}"
-        href: "/downloads/"
-      - name: "{#menuMainGames#}"
-        href: "/games/"
-      - name: "{#menuMainBlogs#}"
-        href: "https://planet.scummvm.org"
-
-  - name: "{#menuHeaderDocumentation#}"
-    class: "menu-docs"
-    links:
-      - name: "{#menuDocumentationFaq#}"
-        href: "/faq/"
-      - name: "{#menuDocumentationDocumentation#}"
-        href: "/documentation/"
-      - name: "{#menuDocumentationCompatability#}"
-        href: "/compatibility/"
-      - name: "{#menuDocumentationWiki#}"
-        href: "https://wiki.scummvm.org/"
-      - name: "{#menuDocumentationCredits#}"
-        href: "/credits/"
-
-  - name: "{#menuHeaderDevelopmentDevelopment#}"
-    class: "menu-sf"
-    links:
-      - name: "{#menuDevelopmentBugTracker#}"
-        href: "https://bugs.scummvm.org/"
-      - name: "{#menuDevelopmentPatchTracker#}"
-        href: "https://github.com/scummvm/scummvm/pulls"
-      - name: "{#menuDevelopmentTranslations#}"
-        href: "https://translations.scummvm.org/projects/scummvm/scummvm/"
-      - name: "{#menuDevelopmentDailies#}"
-        href: "/downloads/#daily"
-      - name: "{#menuDevelopmentSourceCode#}"
-        href: "https://github.com/scummvm/scummvm"
-      - name: "{#menuDevelopmentBuildbot#}"
-        href: "https://buildbot.scummvm.org/"
-
-  - name: "{#menuHeaderMisc#}"
-    class: "menu-misc"
-    links:
-      - name: "{#menuMiscSponsors#}"
-        href: "/sponsors/"
-      - name: "{#menuMiscSubprojects#}"
-        href: "/subprojects/"
-      - name: "{#menuMiscDemos#}"
-        href: "/demos/"
-      - name: "{#menuMiscPress#}"
-        href: "/press/"
-      - name: "{#menuMiscContact#}"
-        href: "/contact/"
-      - name: "{#menuMiscLinks#}"
-        href: "/links/"
+- name: '{#menuHeaderMain#}'
+  class: menu-main
+  links:
+    - name: '{#menuMainHome#}'
+      href: '{$baseurl}'
+    - name: '{#menuMainScreenshots#}'
+      href: /screenshots/
+    - name: '{#menuMainForums#}'
+      href: 'https://forums.scummvm.org/'
+    - name: '{#menuMainDownloads#}'
+      href: /downloads/
+    - name: '{#menuMainGames#}'
+      href: /games/
+    - name: '{#menuMainBlogs#}'
+      href: 'https://planet.scummvm.org'
+- name: '{#menuHeaderDocumentation#}'
+  class: menu-docs
+  links:
+    - name: '{#menuDocumentationFaq#}'
+      href: /faq/
+    - name: '{#menuDocumentationDocumentation#}'
+      href: /documentation/
+    - name: '{#menuDocumentationCompatability#}'
+      href: /compatibility/
+    - name: '{#menuDocumentationWiki#}'
+      href: 'https://wiki.scummvm.org/'
+    - name: '{#menuDocumentationCredits#}'
+      href: /credits/
+- name: '{#menuHeaderDevelopmentDevelopment#}'
+  class: menu-sf
+  links:
+    - name: '{#menuDevelopmentBugTracker#}'
+      href: 'https://bugs.scummvm.org/'
+    - name: '{#menuDevelopmentPatchTracker#}'
+      href: 'https://github.com/scummvm/scummvm/pulls'
+    - name: '{#menuDevelopmentTranslations#}'
+      href: 'https://translations.scummvm.org/projects/scummvm/scummvm/'
+    - name: '{#menuDevelopmentDailies#}'
+      href: '/downloads/#daily'
+    - name: '{#menuDevelopmentSourceCode#}'
+      href: 'https://github.com/scummvm/scummvm'
+    - name: '{#menuDevelopmentBuildbot#}'
+      href: 'https://buildbot.scummvm.org/'
+- name: '{#menuHeaderMisc#}'
+  class: menu-misc
+  links:
+    - name: '{#menuMiscSponsors#}'
+      href: /sponsors/
+    - name: '{#menuMiscSubprojects#}'
+      href: /subprojects/
+    - name: '{#menuMiscDemos#}'
+      href: /demos/
+    - name: '{#menuMiscPress#}'
+      href: /press/
+    - name: '{#menuMiscContact#}'
+      href: /contact/
+    - name: '{#menuMiscLinks#}'
+      href: /links/

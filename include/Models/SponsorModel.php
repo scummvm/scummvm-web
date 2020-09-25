@@ -16,7 +16,7 @@ class SponsorModel extends BasicModel
             $fname = DIR_DATA . '/sponsors.yaml';
             $data = \yaml_parse_file($fname);
             $sponsors = array();
-            foreach (array_values($data['sponsors']) as $value) {
+            foreach ($data as $value) {
                 $sponsors[] = new Sponsor($value);
             }
             $this->saveToCache($sponsors);

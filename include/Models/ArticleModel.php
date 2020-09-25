@@ -16,7 +16,7 @@ class ArticleModel extends BasicModel
             $fname = DIR_DATA . '/press_articles.yaml';
             $articles = \yaml_parse_file($fname);
             $data = [];
-            foreach (array_values($articles['articles']) as $value) {
+            foreach ($articles as $value) {
                 $data[] = new Article($value);
             }
             $this->saveToCache($data);
