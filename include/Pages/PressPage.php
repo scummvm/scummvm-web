@@ -2,11 +2,10 @@
 namespace ScummVM\Pages;
 
 use ScummVM\Controller;
-use ScummVM\Models\ArticleModel;
+use ScummVM\Models\SimpleModel;
 
 class PressPage extends Controller
 {
-
     private $articleModel;
 
     /* Constructor. */
@@ -14,13 +13,13 @@ class PressPage extends Controller
     {
         parent::__construct();
         $this->template = 'pages/press.tpl';
-        $this->articleModel = new ArticleModel();
+        $this->articleModel = new SimpleModel("Article", "press_articles.yaml");
     }
 
     /* Display the index page. */
     public function index()
     {
-        $articles = $this->articleModel->getAllArticles();
+        $articles = $this->articleModel->getAllData(false);
         return $this->renderPage(
             array(
                 'title' => $this->getConfigVars('pressTitle'),

@@ -2,7 +2,7 @@
 namespace ScummVM;
 
 use Smarty;
-use ScummVM\Models\MenuModel;
+use ScummVM\Models\SimpleModel;
 
 /**
  * The Controller class will create an instance of the Smarty object configured
@@ -57,11 +57,11 @@ class Controller
         $this->css_files = array();
         $this->js_files = array();
 
-        $this->menuModel = new MenuModel();
-        $menus = array();
+        $this->menuModel = new SimpleModel("MenuItem", "menus.yaml");
+        $menus = [];
         /* The menus have caused an exception, need to skip them. */
         if (!ExceptionHandler::skipMenus()) {
-            $menus = $this->menuModel->getAllMenus();
+            $menus = $this->menuModel->getAllData();
         }
 
         // Construct lang URL

@@ -4,7 +4,7 @@ namespace ScummVM\Models;
 use ScummVM\Objects\Screenshot;
 use ScummVM\Objects\BasicObject;
 use ScummVM\Models\GameModel;
-use ScummVM\Models\PlatformsModel;
+use ScummVM\Models\SimpleModel;
 
 /**
  * The ScreenshotsModel will generate Screenshot objects.
@@ -19,7 +19,7 @@ class ScreenshotsModel extends BasicModel
 
     public function __construct()
     {
-        $this->platformsModel = new PlatformsModel();
+        $this->platformsModel = new SimpleModel("Platform", "platforms.yaml");
         $this->gameModel = new GameModel();
     }
 
@@ -28,7 +28,7 @@ class ScreenshotsModel extends BasicModel
     {
         $fname = DIR_DATA . '/screenshots.yaml';
         $screenshots = \yaml_parse_file($fname);
-        $platforms = $this->platformsModel->getAllPlatforms();
+        $platforms = $this->platformsModel->getAllData();
         $games = $this->gameModel->getAllGames();
         $data = [];
         foreach ($screenshots as $screenshot) {
