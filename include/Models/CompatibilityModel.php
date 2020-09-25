@@ -3,7 +3,7 @@ namespace ScummVM\Models;
 
 use ScummVM\Objects\Compatibility;
 use ScummVM\Models\GameModel;
-use ScummVM\Models\PlatformsModel;
+use ScummVM\Models\SimpleModel;
 use Composer\Semver\Comparator;
 
 /**
@@ -21,7 +21,7 @@ class CompatibilityModel extends BasicModel
     public function __construct()
     {
         $this->gameModel = new GameModel();
-        $this->platformsModel = new PlatformsModel();
+        $this->platformsModel = new SimpleModel("Platform", "platforms.yaml");
     }
 
     /* Get all the groups and the respectively demos for the specified ScummVM version. */
@@ -32,7 +32,7 @@ class CompatibilityModel extends BasicModel
             $fname = DIR_DATA . "/compatibility.yaml";
             $compatibilityEntries = \yaml_parse_file($fname);
             $games = $this->gameModel->getAllGames();
-            $platforms = $this->platformsModel->getAllPlatforms();
+            $platforms = $this->platformsModel->getAllData();
             $compareVersion = $version === 'DEV' ? '9.9.9' : $version;
             $data = [];
             foreach ($compatibilityEntries as $compat) {

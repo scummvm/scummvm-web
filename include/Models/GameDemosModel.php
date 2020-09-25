@@ -16,7 +16,7 @@ class GameDemosModel extends BasicModel
     public function __construct()
     {
         $this->gameModel = new GameModel();
-        $this->platformsModel = new PlatformsModel();
+        $this->platformsModel = new SimpleModel("Platform", "platforms.yaml");
     }
     /* Get all the groups and their respective demos. */
     public function getAllGroupsAndDemos()
@@ -26,7 +26,7 @@ class GameDemosModel extends BasicModel
             $fname = DIR_DATA . '/game_demos.yaml';
             $demos = \yaml_parse_file($fname);
             $games = $this->gameModel->getAllGames();
-            $platforms = $this->platformsModel->getAllPlatforms();
+            $platforms = $this->platformsModel->getAllData();
             $data = [];
             foreach ($demos as $demo) {
                 $obj = new GameDemo($demo, $games, $platforms);

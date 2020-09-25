@@ -16,20 +16,10 @@ class Compatibility extends DataObject
     private $stablePlatforms;
     private $unstablePlatforms;
 
-    private static $purifier;
-    private static $parsedown;
-
     /* Project object constructor. */
     public function __construct($data, $games, $platforms)
     {
         parent::__construct($data);
-        $config = \HTMLPurifier_Config::createDefault();
-        if (!self::$purifier) {
-            self::$purifier = new \HTMLPurifier($config);
-        }
-        if (!self::$parsedown) {
-            self::$parsedown = new \Parsedown();
-        }
         $this->supportLevel = $this->assignFromArray('support', $data, true);
         $this->notes = $this->assignFromArray('notes', $data);
         $this->sinceVersion = $this->assignFromArray('since_version', $data, true);
@@ -58,7 +48,7 @@ class Compatibility extends DataObject
     }
 
     /* Get the notes. */
-    public function getNotes($sanitize = true)
+    public function getNotes()
     {
         $notes = "**Support Level:**\n\n";
         $notes .= "%$this->supportLevel%\n\n";
@@ -78,10 +68,11 @@ class Compatibility extends DataObject
             $notes .= str_replace("- ", "\n- ", $this->notes) . "\n";
         }
 
-        $notes = self::$parsedown->text($notes);
-        if ($sanitize) {
-            $notes = self::$purifier->purify($notes);
-        }
+        $config = \HTMLPurifier_Config::createDefault();
+        $purifier = new \HTMLPurifier($config);
+        $parsedown = new \Parsedown();
+        $notes = $parsedown->text($notes);
+        $notes = $purifier->purify($notes);
         return $notes;
     }
 

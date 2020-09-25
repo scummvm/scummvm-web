@@ -2,7 +2,7 @@
 namespace ScummVM\Pages;
 
 use ScummVM\Controller;
-use ScummVM\Models\SponsorModel;
+use ScummVM\Models\SimpleModel;
 
 class SponsorsPage extends Controller
 {
@@ -13,13 +13,13 @@ class SponsorsPage extends Controller
     {
         parent::__construct();
         $this->template = 'pages/sponsors.tpl';
-        $this->sponsorsModel = new SponsorModel();
+        $this->sponsorsModel = new SimpleModel("Sponsor", "sponsors.yaml");
     }
 
     /* Display the index page. */
     public function index()
     {
-        $sponsors = $this->sponsorsModel->getAllSponsors();
+        $sponsors = $this->sponsorsModel->getAllData(false);
         return $this->renderPage(
             array(
                 'title' => $this->getConfigVars('sponsorsTitle'),

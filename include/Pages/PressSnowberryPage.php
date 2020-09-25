@@ -2,7 +2,7 @@
 namespace ScummVM\Pages;
 
 use ScummVM\Controller;
-use ScummVM\Models\ArticleModel;
+use ScummVM\Models\SimpleModel;
 
 class PressSnowberryPage extends Controller
 {
@@ -13,13 +13,13 @@ class PressSnowberryPage extends Controller
     {
         parent::__construct();
         $this->template = 'pages/press_snowberry.tpl';
-        $this->articleModel = new ArticleModel();
+        $this->articleModel = new SimpleModel("Article", "press_articles.yaml");
     }
 
     /* Display the index page. */
     public function index()
     {
-        $articles = $this->articleModel->getAllArticles();
+        $articles = $this->articleModel->getAllData(false);
         return $this->renderPage(
             array(
                 'title' => $this->getConfigVars('pressSnowberryTitle'),

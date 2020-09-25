@@ -2,7 +2,7 @@
 namespace ScummVM\Pages;
 
 use ScummVM\Controller;
-use ScummVM\Models\DocumentationModel;
+use ScummVM\Models\SimpleModel;
 
 class DocumentationPage extends Controller
 {
@@ -13,13 +13,13 @@ class DocumentationPage extends Controller
     {
         parent::__construct();
         $this->template = 'pages/documentation.tpl';
-        $this->documentationModel = new DocumentationModel();
+        $this->documentationModel = new SimpleModel("Document", "documentation.yaml");
     }
 
     /* Display the index page. */
     public function index()
     {
-        $documents = $this->documentationModel->getAllDocuments();
+        $documents = $this->documentationModel->getAllData(false);
 
         return $this->renderPage(
             array(

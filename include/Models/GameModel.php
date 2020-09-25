@@ -2,9 +2,7 @@
 namespace ScummVM\Models;
 
 use ScummVM\Objects\Game;
-use ScummVM\Models\CompaniesModel;
-use ScummVM\Models\EnginesModel;
-use ScummVM\Models\SeriesModel;
+use ScummVM\Models\SimpleModel;
 
 /**
  * The GamesModel is used to cross reference Games across the website
@@ -17,9 +15,9 @@ class GameModel extends BasicModel
 
     public function __construct()
     {
-        $this->companiesModel = new CompaniesModel();
-        $this->enginesModel = new EnginesModel();
-        $this->seriesModel = new SeriesModel();
+        $this->companiesModel = new SimpleModel("Company", "companies.yaml");
+        $this->enginesModel = new SimpleModel("Engine", "engines.yaml");
+        $this->seriesModel = new SimpleModel("Series", "series.yaml");
     }
 
     /* Get all Games from YAML */
@@ -27,9 +25,9 @@ class GameModel extends BasicModel
     {
         $data = $this->getFromCache();
         if (is_null($data)) {
-            $companies = $this->companiesModel->getAllCompanies();
-            $engines = $this->enginesModel->getAllEngines();
-            $series = $this->seriesModel->getAllSeries();
+            $companies = $this->companiesModel->getAllData();
+            $engines = $this->enginesModel->getAllData();
+            $series = $this->seriesModel->getAllData();
             $fname = DIR_DATA . '/games.yaml';
             $games = \yaml_parse_file($fname);
             $data = [];
