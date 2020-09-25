@@ -24,10 +24,9 @@ if (!empty($_GET['lang'])) {
     $cookie_options = array (
       'expires' => time()+86400,
       'path' => '/',
-      'domain' => '.scummvm.org', // leading dot for compatibility or use subdomain
-      'secure' => true,     // or false
-      'httponly' => true,    // or false
-      'samesite' => 'None' // None || Lax  || Strict
+      'domain' => 'www.scummvm.org',
+      'secure' => true,
+      'samesite' => 'None'
       );
     setcookie("lang", $lang, $cookie_options);
 } elseif (!empty($_COOKIE['lang'])) {
