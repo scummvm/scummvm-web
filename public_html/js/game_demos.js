@@ -1,5 +1,5 @@
 window.addEventListener('load', function () {
-	initalizeTable();
+	initializeTable();
 });
 
 function toggleCollapsibleRow(event) {
@@ -15,7 +15,7 @@ function toggleCollapsibleRow(event) {
     recolorParentTable(clickedRow);
 }
 
-function initalizeTable() {
+function initializeTable() {
   var rows = document.querySelectorAll('.gameDemos tr');
   for (var i = 0; i < rows.length-1; i++) {
     if (!rows[i].nextElementSibling) {
