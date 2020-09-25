@@ -16,18 +16,18 @@ class LinksModel extends BasicModel
         if (is_null($entries)) {
             $fname = DIR_DATA . '/links.yaml';
             $parsedData = \yaml_parse_file($fname);
-            $entries = array();
-            foreach (array_values($parsedData['groups']) as $value) {
+            $entries = [];
+            foreach ($parsedData as $value) {
                 /* Get all links. */
-                $links = array();
+                $links = [];
                 foreach ($value['links'] as $data) {
                     $links[] = new WebLink($data);
                 }
-                $entries[] = array(
+                $entries[] = [
                     'name' => $value['name'],
                     'description' => $value['description'],
                     'links' => $links,
-                );
+                ];
             }
             $this->saveToCache($entries);
         }

@@ -1,20 +1,16 @@
-sponsors:
-  - name: "Fastly"
-    link: "https://www.fastly.com"
-    image: "images/sponsors/fastly.png"
-    description: CDN Provider
-
-  - name: "Manitu"
-    link: "https://www.manitu.de"
-    image: "images/sponsors/manitu.png"
-    description: Server & Hosting
-
-  - name: "Hex Rays"
-    link: "https://www.hex-rays.com"
-    image: "images/sponsors/hex-rays.png"
-    description: Developer Tools
-
-  - name: "Jetbrains"
-    link: "https://www.jetbrains.com"
-    image: "images/sponsors/jetbrains.png"
-    description: Developer Tools
+- name: Fastly
+  link: 'https://www.fastly.com'
+  image: images/sponsors/fastly.png
+  description: CDN Provider
+- name: Manitu
+  link: 'https://www.manitu.de'
+  image: images/sponsors/manitu.png
+  description: Server & Hosting
+- name: Hex Rays
+  link: 'https://www.hex-rays.com'
+  image: images/sponsors/hex-rays.png
+  description: Developer Tools
+- name: Jetbrains
+  link: 'https://www.jetbrains.com'
+  image: images/sponsors/jetbrains.png
+  description: Developer Tools
