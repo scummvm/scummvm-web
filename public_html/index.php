@@ -21,7 +21,15 @@ foreach ($languages as $lang) {
 
 if (!empty($_GET['lang'])) {
     $lang = $_GET['lang'];
-    setcookie("lang", $lang, time()+86400, "/");
+    $cookie_options = array (
+      'expires' => time()+86400,
+      'path' => '/',
+      'domain' => '.scummvm.org', // leading dot for compatibility or use subdomain
+      'secure' => true,     // or false
+      'httponly' => true,    // or false
+      'samesite' => 'None' // None || Lax  || Strict
+      );
+    setcookie("lang", $lang, $cookie_options);
 } elseif (!empty($_COOKIE['lang'])) {
     $lang = $_COOKIE['lang'];
 } elseif (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
