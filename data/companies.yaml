@@ -681,4 +681,10 @@
 - id: sebastianronsse
   name: Sebastian Ronsse
   alt_name: ""
+- id: glk
+  name: Interactive Fiction
+  alt_name: ""
+- id: unknown
+  name: Unknown Company
+  alt_name: ""
 ...
