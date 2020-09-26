@@ -81,7 +81,7 @@ class CompatibilityModel extends BasicModel
 
             if ($engine->getEnabled()) {
                 $engineName = $engine->getName();
-                if (is_string($company)) {
+                if (is_string($company) || \is_null($company)) {
                     $companyName = "Unknown";
                 } else {
                     $companyName = $company->getName();
