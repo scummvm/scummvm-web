@@ -507,14 +507,14 @@
 - id: gundam0079
   name: 'Gundam 0079: The War for Earth'
   engine_id: director
-  company_id: ""
+  company_id: unknown
   moby_id: "11612"
   datafiles: ""
   series_id: ""
 - id: melements
   name: Masters of the Elements
   engine_id: director
-  company_id: ""
+  company_id: unknown
   moby_id: "16836"
   datafiles: ""
   series_id: ""
@@ -528,21 +528,21 @@
 - id: warlock
   name: Spaceship Warlock
   engine_id: director
-  company_id: ""
+  company_id: unknown
   moby_id: "22016"
   datafiles: ""
   series_id: ""
 - id: chopsuey
   name: Chop Suey
   engine_id: director
-  company_id: ""
+  company_id: unknown
   moby_id: "45110"
   datafiles: ""
   series_id: ""
 - id: ernie
   name: Ernie
   engine_id: director
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: id4
@@ -633,21 +633,21 @@
 - id: directortest-all
   name: Macromedia Director All Movies Test Target
   engine_id: director
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: director
   name: Macromedia Director Game
   engine_id: director
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: directortest
   name: Macromedia Director Test Target
   engine_id: director
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
@@ -661,21 +661,21 @@
 - id: mediaband
   name: Meet Mediaband
   engine_id: director
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: spyclub
   name: Spy Club
   engine_id: director
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: theapartment
   name: The Apartment, Interactive demo
   engine_id: director
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
@@ -2632,70 +2632,70 @@
 - id: cubert
   name: Cubert Badbone, P.I.
   engine_id: sludge
-  company_id: ""
+  company_id: unknown
   moby_id: "24279"
   datafiles: ""
   series_id: ""
 - id: frasse
   name: Frasse and the Peas of Kejick
   engine_id: sludge
-  company_id: ""
+  company_id: unknown
   moby_id: "33462"
   datafiles: ""
   series_id: ""
 - id: tgttpoacs
   name: The Game That Takes Place on a Cruise Ship
   engine_id: sludge
-  company_id: ""
+  company_id: unknown
   moby_id: "33841"
   datafiles: ""
   series_id: ""
 - id: life
   name: Life Flashes By
   engine_id: sludge
-  company_id: ""
+  company_id: unknown
   moby_id: "50387"
   datafiles: ""
   series_id: ""
 - id: mandy
   name: Mandy Christmas Adventure
   engine_id: sludge
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: robinsrescue
   name: Robin's Rescue
   engine_id: sludge
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: sludge
   name: Sludge Game
   engine_id: sludge
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: verbcoin
   name: Verb Coin
   engine_id: sludge
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: welcome
   name: Welcome Example
   engine_id: sludge
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: interview
   name: The Interview
   engine_id: sludge
-  company_id: ""
+  company_id: unknown
   moby_id: "71160"
   datafiles: ""
   series_id: ""
@@ -2821,7 +2821,7 @@
 - id: testbed
   name: 'Testbed: The Backend Testing Framework'
   engine_id: testbed
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
@@ -2975,385 +2975,385 @@
 - id: scepters
   name: Enchanted Scepters
   engine_id: wage
-  company_id: ""
+  company_id: unknown
   moby_id: "29350"
   datafiles: ""
   series_id: ""
 - id: amot
   name: A Mess O' Trouble
   engine_id: wage
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: afm
   name: Another Fine Mess
   engine_id: wage
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: cantitoe
   name: Camp Cantitoe
   engine_id: wage
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: drakmythcastle
   name: Drakmyth Castle
   engine_id: wage
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: raysmaze
   name: Ray's Maze
   engine_id: wage
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: twisted
   name: Twisted!
   engine_id: wage
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: wage
   name: WAGE
   engine_id: wage
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: 5ma
   name: Five Magical Amulets
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "17091"
   datafiles: ""
   series_id: ""
 - id: twc
   name: The White Chamber
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "17172"
   datafiles: ""
   series_id: ""
 - id: bthreshold
   name: Beyond the Threshold
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "29023"
   datafiles: ""
   series_id: ""
 - id: carolreed4
   name: Carol Reed 4 - East Side Story
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "31651"
   datafiles: ""
   series_id: carol
 - id: ghostsheet
   name: Ghost in the Sheet
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "31661"
   datafiles: ""
   series_id: ""
 - id: artofmurder1
   name: 'Art of Murder: FBI Confidential'
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "34282"
   datafiles: ""
   series_id: ""
 - id: dirtysplit
   name: Dirty Split
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "34858"
   datafiles: ""
   series_id: ""
 - id: lotl
   name: Limbo of the Lost
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "36820"
   datafiles: ""
   series_id: ""
 - id: carolreed5
   name: Carol Reed 5 - The Colour of Murder
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "37764"
   datafiles: ""
   series_id: carol
 - id: mirage
   name: Mirage
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "40599"
   datafiles: ""
   series_id: ""
 - id: rosemary
   name: Rosemary
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "44653"
   datafiles: ""
   series_id: ""
 - id: ritter
   name: '1½ Ritter: Auf der Suche nach der hinreißenden Herzelinde'
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "44924"
   datafiles: ""
   series_id: ""
 - id: darkfallls
   name: 'Dark Fall: Lost Souls'
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "45771"
   datafiles: ""
   series_id: ""
 - id: mentalrepairs
   name: Mental Repairs, Inc.
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "46212"
   datafiles: ""
   series_id: ""
 - id: hamlet
   name: Hamlet or the last game without MMORPG features, shaders and product placement
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "46506"
   datafiles: ""
   series_id: ""
 - id: carolreed6
   name: Carol Reed 6 - Black Circle
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "48356"
   datafiles: ""
   series_id: carol
 - id: findinghope
   name: Finding Hope
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "48605"
   datafiles: ""
   series_id: ""
 - id: carolreed7
   name: Carol Reed 7 - Blue Madonna
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "49831"
   datafiles: ""
   series_id: carol
 - id: pizzamorgana
   name: 'Pizza Morgana: Episode 1 - Monsters and Manipulations in the Magical Forest'
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "51420"
   datafiles: ""
   series_id: ""
 - id: alphapolaris
   name: Alpha Polaris
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "53007"
   datafiles: ""
   series_id: ""
 - id: thekite
   name: The Kite
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "54832"
   datafiles: ""
   series_id: ""
 - id: sotv1
   name: 'Shadows on the Vatican - Act 1: Greed'
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "55855"
   datafiles: ""
   series_id: ""
 - id: julia
   name: J.U.L.I.A.
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "55922"
   datafiles: ""
   series_id: ""
 - id: alimardan1
   name: Alimardan's Mischiefs
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "56095"
   datafiles: ""
   series_id: ""
 - id: corrosion
   name: 'Corrosion: Cold Winter Waiting'
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "56405"
   datafiles: ""
   series_id: ""
 - id: facenoir
   name: Face Noir
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "61359"
   datafiles: ""
   series_id: ""
 - id: agustin
   name: Boredom of Agustin Cordes
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "61767"
   datafiles: ""
   series_id: ""
 - id: carolreed8
   name: Carol Reed 8 - Amber's Blood
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "68289"
   datafiles: ""
   series_id: carol
 - id: carolreed9
   name: Carol Reed 9 - Cold Case Summer
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "68291"
   datafiles: ""
   series_id: carol
 - id: carolreed10
   name: Carol Reed 10 - Bosch's Damnation
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "68293"
   datafiles: ""
   series_id: carol
 - id: juliastars
   name: 'J.U.L.I.A.: Among the Stars'
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "68940"
   datafiles: ""
   series_id: ""
 - id: oknytt
   name: Oknytt
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "70002"
   datafiles: ""
   series_id: ""
 - id: 5ld
   name: Five Lethal Demons
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "71571"
   datafiles: ""
   series_id: ""
 - id: carolreed11
   name: Carol Reed 11 - Shades Of Black
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "81267"
   datafiles: ""
   series_id: carol
 - id: sotv2
   name: 'Shadows on the Vatican - Act II: Wrath'
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "83648"
   datafiles: ""
   series_id: ""
 - id: foxtail
   name: FoxTail
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "104425"
   datafiles: ""
   series_id: ""
 - id: carolreed13
   name: Carol Reed 13 - The Birdwatcher
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "114389"
   datafiles: ""
   series_id: carol
 - id: carolreed12
   name: Carol Reed 12 - Profound Red
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "115321"
   datafiles: ""
   series_id: carol
 - id: carolreed14
   name: Carol Reed 14 - The Fall Of April
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "122064"
   datafiles: ""
   series_id: carol
 - id: alimardan2
   name: Alimardan Meets Merlin
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "122586"
   datafiles: ""
   series_id: ""
 - id: qajarycat
   name: Qajary Cat
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "122595"
   datafiles: ""
   series_id: ""
 - id: actualdest
   name: Actual Destination
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: apeiron
   name: Apeiron
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: barrowhilldp
   name: 'Barrow Hill: The Dark Path'
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "114586"
   datafiles: ""
   series_id: ""
 - id: basisoctavus
   name: Basis Octavus
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: bickadoodle
   name: Bickadoodle
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: bookofgron
   name: Book of Gron Part One
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
@@ -3367,21 +3367,21 @@
 - id: colorsoncanvas
   name: Colors on Canvas
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: conspiracao
   name: Conspiracao Dumont
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: deadcity
   name: The Dead City
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "17224"
   datafiles: ""
   series_id: ""
@@ -3395,105 +3395,105 @@
 - id: devilincapital
   name: Devil In The Capital
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "92245"
   datafiles: ""
   series_id: ""
 - id: dfafadventure
   name: DFAF Adventure
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: drbohus
   name: Dr. Bohus
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: drdoylemotch
   name: Dr. Doyle - Mystery Of The Cloche Hat
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: dreamcat
   name: Dreamcat
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: dreamscape
   name: Dreamscape
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "59268"
   datafiles: ""
   series_id: ""
 - id: escapemansion
   name: Escape from the Mansion
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: everydaygray
   name: Everyday Grey
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: tib
   name: Fairy Tales About Toshechka and Boshechka
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: forgottensound1
   name: Forgotten Sound 1 - Revelation
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: forgottensound2
   name: Forgotten Sound 2 - Destiny
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: four
   name: Four
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: framed
   name: Framed
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "6285"
   datafiles: ""
   series_id: ""
 - id: helga
   name: Helga Deep In Trouble
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: hor
   name: Hor
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
@@ -3514,133 +3514,133 @@
 - id: knossos
   name: K'NOSSOS
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: kulivocko
   name: Kulivocko
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: lifein3minutes
   name: Life In 3 Minutes
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: looky
   name: Looky
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: lovmamuta
   name: Lov Mamuta
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: machumayu
   name: Machu Mayu
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: msos
   name: Monday Starts on Saturday
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: tehran1933
   name: Murder In Tehran's Alleys 1933
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "122584"
   datafiles: ""
   series_id: ""
 - id: tehran2016
   name: Murder In Tehran's Alleys 2016
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "122585"
   datafiles: ""
   series_id: ""
 - id: mythguff
   name: 'Myth: A Guff''s Tale'
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: nighttrain
   name: Night Train
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: reptilesquest
   name: On the Tracks of Dinosaurs
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: one
   name: One
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "9526"
   datafiles: ""
   series_id: ""
 - id: onehelluvaday
   name: One Helluva Day
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: openquest
   name: Open Quest
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: paintaria
   name: Paintaria
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: palladion
   name: Palladion
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: papasdaughters1
   name: Papa's Daughters
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: papasdaughters2
   name: Papa's Daughters Go to the Sea
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
@@ -3654,154 +3654,154 @@
 - id: polechudes
   name: Pole Chudes
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: projectjoe
   name: Project Joe
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: lonelyrobot
   name: Project Lonely Robot
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: projectdoom
   name: 'Project: Doom'
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: rebeccacarlson1
   name: Rebecca Carlson Mystery 01 - Silent Footsteps
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: reversion1
   name: 'Reversion: The Escape'
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: reversion
 - id: reversion2
   name: 'Reversion: The Meeting'
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: reversion
 - id: reversion3
   name: 'Reversion: The Return'
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: reversion
 - id: rhiannon
   name: 'Rhiannon: Curse of the four Branches'
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "36964"
   datafiles: ""
   series_id: ""
 - id: satanandsons
   name: Satan and Sons
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: securanote
   name: Securanote
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: shaban
   name: Shaban
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: sofiasdebt
   name: Sofia's Debt
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: spaceinvaders
   name: Space Invaders
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "623"
   datafiles: ""
   series_id: ""
 - id: spacemadness
   name: Space Madness
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "52053"
   datafiles: ""
   series_id: ""
 - id: tanya2
   name: Tanya Grotter and the Disappearing Floor
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: tanya1
   name: Tanya Grotter and the Magical Double Bass
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: theancientmark1
   name: The Ancient Mark - Episode 1
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: thebox
   name: The Box
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: erinmyers
   name: The Death of Erin Myers
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: driller
   name: The Driller Incident
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: goldencalf
   name: The Golden Calf
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
@@ -3822,35 +3822,35 @@
 - id: shinestar
   name: The Shine of a Star
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: tradestory
   name: The Trader of Stories
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: vsevolod
   name: Vsevolod
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: war
   name: War
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "99586"
   datafiles: ""
   series_id: ""
 - id: wtetris
   name: Wilma Tetris
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
@@ -3878,14 +3878,14 @@
 - id: zbang
   name: Zbang! The Game
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: zilm
   name: 'Zilm: A Game of Reflex'
   engine_id: wintermute
-  company_id: ""
+  company_id: unknown
   moby_id: "-1"
   datafiles: ""
   series_id: ""
@@ -3938,4 +3938,88 @@
   moby_id: "884"
   datafiles: ""
   series_id: ultima
+- id: adrift
+  name: ADRIFT Interactive Fiction games
+  engine_id: glk
+  company_id: glk
+  moby_id: ""
+  datafiles: ""
+  series_id: ""
+- id: advsys
+  name: AdvSYs Interactive Fiction games
+  engine_id: glk
+  company_id: glk
+  moby_id: ""
+  datafiles: ""
+  series_id: ""
+- id: agt
+  name: AGT Interactive Fiction games
+  engine_id: glk
+  company_id: glk
+  moby_id: ""
+  datafiles: ""
+  series_id: ""
+- id: alan
+  name: Alan 2 & 3 Interactive Fiction games
+  engine_id: glk
+  company_id: glk
+  moby_id: ""
+  datafiles: ""
+  series_id: ""
+- id: archetype
+  name: Archetype Interactive Fiction games
+  engine_id: glk
+  company_id: glk
+  moby_id: ""
+  datafiles: ""
+  series_id: ""
+- id: hugo
+  name: Hugo Interactive Fiction games
+  engine_id: glk
+  company_id: glk
+  moby_id: ""
+  datafiles: ""
+  series_id: ""
+- id: jacl
+  name: JACL Interactive Fiction games
+  engine_id: glk
+  company_id: glk
+  moby_id: ""
+  datafiles: ""
+  series_id: ""
+- id: level9
+  name: Level 9 Interactive Fiction games
+  engine_id: glk
+  company_id: glk
+  moby_id: ""
+  datafiles: ""
+  series_id: ""
+- id: magnetic
+  name: Magnetic Scrolls Interactive Fiction games
+  engine_id: glk
+  company_id: glk
+  moby_id: ""
+  datafiles: ""
+  series_id: ""
+- id: quest
+  name: Quest Interactive Fiction games
+  engine_id: glk
+  company_id: glk
+  moby_id: ""
+  datafiles: ""
+  series_id: ""
+- id: scottadams
+  name: Scott Adams Interactive Fiction games
+  engine_id: glk
+  company_id: glk
+  moby_id: ""
+  datafiles: ""
+  series_id: ""
+- id: zcode
+  name: ZCode (Infocom and Inform) Interactive Fiction games
+  engine_id: glk
+  company_id: glk
+  moby_id: ""
+  datafiles: ""
+  series_id: ""
 ...
