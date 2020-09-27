@@ -822,7 +822,7 @@
 			<game>
 				<name>Inside the Chest/Behind the Developers' Shield</name>
 				<target>chest</target>
-				<support_level>broken</support_level>
+				<support_level>good</support_level>
 				<datafiles>SCI</datafiles>
 				<notes>
 					- DOS versions are supported by this target
