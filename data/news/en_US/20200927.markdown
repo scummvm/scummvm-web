@@ -25,7 +25,7 @@ Other notable changes are: a fully rewritten MorphOS port; a new subsystem for a
 
 We now support additional different game versions, and have noticeable improvements to Illusions, Kyra, Lab, Queen, Titanic, Xeen and ZVision engines. There is also improved support for Maniac Mansion, NES and Apple //gs versions. As usual, we continue fixing original SCI script bugs in over 30 games and added Roland D-110 soundtrack support to these games.
 
-Of course, you can find the comprehensive Release Notes [here] (https://www.scummvm.org/frs/scummvm/2.2.0/ReleaseNotes.html).
+Of course, you can find the comprehensive Release Notes [here](https://www.scummvm.org/frs/scummvm/2.2.0/ReleaseNotes.html).
 
 Grab your copy from [our downloads page](https://www.scummvm.org/downloads), or, on Windows or macOS, let the automatic updater fetch it for you.
 
