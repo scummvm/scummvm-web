@@ -77,13 +77,14 @@
 					<name>Snap package hosted at the snapcraft.io store</name>
 					<user_agent>Ubuntu</user_agent>
 				</file>
+<!--
 				<file>
 					<category_icon>flatpak</category_icon>
 					<url>https://flathub.org/apps/details/org.scummvm.ScummVM</url>
 					<name>Flatpak package hosted at the flathub.org repository</name>
 					<user_agent>Ubuntu</user_agent>
 				</file>
-
+-->
 				<file>
 					<category_icon>debian</category_icon>
 					<url>scummvm_{$release}-1_debian10_amd64.deb</url>
