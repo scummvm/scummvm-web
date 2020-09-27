@@ -369,13 +369,13 @@
 					<name>AmigaOS 4 package</name>
 					<user_agent>Amiga</user_agent>
 				</file>
-<!--
+
 				<file>
 					<category_icon>morphos</category_icon>
 					<url>scummvm-{$release}-morphos.lha</url>
 					<name>MorphOS package</name>
 				</file>
--->
+
 				<file>
 					<category_icon>riscos</category_icon>
 					<url>scummvm-{$release}-riscos.zip</url>
@@ -532,24 +532,30 @@
 				<file>
 					<category_icon>haiku</category_icon>
 					<url type="tools">scummvm_tools_x86-{$release_tools}-1-x86_gcc2.hpkg</url>
-					<name>Tools - Haiku package 32 bits</name>
+					<name>Tools - Haiku package 32 bits package</name>
 				</file>
 				<file>
 					<category_icon>haiku</category_icon>
 					<url type="tools">scummvm_tools-{$release_tools}-1-x86_64.hpkg</url>
-					<name>Tools - Haiku package 64 bits</name>
+					<name>Tools - Haiku package 64 bits package</name>
 				</file>
 
 				<file>
 					<category_icon>amiga</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-amigaos4.lha</url>
-					<name>Tools - AmigaOS 4</name>
+					<name>Tools - AmigaOS 4 package</name>
+				</file>
+
+				<file>
+					<category_icon>morphos</category_icon>
+					<<url type="tools">scummvm-tools-{$release_tools}-morphos.lha</url>
+					<name>Tools - MorphOS package</name>
 				</file>
 
 				<file>
 					<category_icon>riscos</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}-riscos.zip</url>
-					<name>Tools - RISC OS</name>
+					<name>Tools - RISC OS package</name>
 				</file>
 				<file>
 					<category_icon>freemint</category_icon>
@@ -771,12 +777,6 @@
 					<name>1.5.0 Nintendo GameCube package</name>
 				</file>
 
-				<file>
-					<category_icon>morphos</category_icon>
-					<url>1.5.0/scummvm-1.5.0-morphos.lha</url>
-					<name>1.5.0 MorphOS package</name>
-					<user_agent>MorphOS</user_agent>
-				</file>
 				<file>
 					<category_icon>debian</category_icon>
 					<url>1.4.1/scummvm_1.4.1-squeeze.1_powerpc.deb</url>
