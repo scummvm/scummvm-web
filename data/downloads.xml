@@ -145,7 +145,7 @@
 				<file>
 					<category_icon>macos</category_icon>
 					<url>scummvm-{$release}-macosx.dmg</url>
-					<name>macOS 10.7+ 64 bits with Sparkle Disk Image</name>
+					<name>macOS 10.9+ 64 bits with Sparkle Disk Image</name>
 					<user_agent>Mac</user_agent>
 				</file>
 				<file>
