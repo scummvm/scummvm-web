@@ -5,59 +5,6 @@
 			{#downloadsXMLTitle#} <h:span style="color: rgb(170, 170, 170);">{'/\x7brelease\x7d/'|preg_replace:$release:#downloadsXMLVersion#}</h:span>
 		</title>
 		<subsection>
-			<title>{'/\x7brelease\x7d/'|preg_replace:"2.1.2":#downloadsBinaries#}</title>
-			<baseurl>/frs/scummvm/2.1.2/</baseurl>
-			<notes>
-				{#downloadsBinariesNote212Maintenance#}
-			</notes>
-			<entries>
-				<file>
-					<category_icon>windows</category_icon>
-					<url>scummvm-2.1.2-win32.exe</url>
-					<name>Windows Installer (32 and 64 bit)</name>
-					<user_agent>Windows</user_agent>
-				</file>
-				<file>
-					<category_icon>windows</category_icon>
-					<url>scummvm-2.1.2-win32-x86_64.zip</url>
-					<name>Windows zipfile (64 bit)</name>
-				</file>
-				<file>
-					<category_icon>windows</category_icon>
-					<url>scummvm-2.1.2-win32.zip</url>
-					<name>Windows zipfile (32 bit)</name>
-				</file>
-				<file>
-					<category_icon>macos</category_icon>
-					<url>scummvm-2.1.2-macosx.dmg</url>
-					<name>macOS 10.7+ 64 bits with Sparkle Disk Image</name>
-					<user_agent>Mac</user_agent>
-				</file>
-				<file>
-					<category_icon>macostiger</category_icon>
-					<url>scummvm-2.1.2-macosx-i386.dmg</url>
-					<name>Mac OS X 10.6+ intel 32 bits (without Sparkle) Disk Image</name>
-				</file>
-				<file>
-					<category_icon>macosppc</category_icon>
-					<url>scummvm-2.1.2-macosx-ppc.dmg</url>
-					<name>Mac OS X 10.4+ PPC 32 bits (without Sparkle) Disk Image</name>
-				</file>
-				<file>
-					<category_icon>snap</category_icon>
-					<url>https://snapcraft.io/scummvm</url>
-					<name>Snap package hosted at the snapcraft.io store</name>
-					<user_agent>Ubuntu</user_agent>
-				</file>
-				<file>
-					<category_icon>flatpak</category_icon>
-					<url>https://flathub.org/apps/details/org.scummvm.ScummVM</url>
-					<name>Flatpak package hosted at the flathub.org repository</name>
-					<user_agent>Ubuntu</user_agent>
-				</file>
-			</entries>
-		</subsection>
-		<subsection>
 			<title>{'/\x7brelease\x7d/'|preg_replace:$release:#downloadsBinaries#}</title>
 			<anchor>stable</anchor>
 			<notes>
@@ -66,36 +13,51 @@
 				<h:br/>{'/\x7brelease_debian\x7d/'|preg_replace:$release_debian:#downloadsBinariesNote3#}<h:br/><h:br/>
 			</notes>
 			<entries>
-<!-->
 				<file>
 					<category_icon>windows</category_icon>
-					<url>scummvm-2.1.2-win32.exe</url>
+					<url>scummvm-{$release}-win32.exe</url>
 					<name>Windows Installer (32 and 64 bit)</name>
 					<user_agent>Windows</user_agent>
 				</file>
 
 				<file>
 					<category_icon>windows</category_icon>
-					<url>scummvm-{$release}a-win32-x86_64.zip</url>
+					<url>scummvm-{$release}-win32-x86_64.zip</url>
 					<name>Windows zipfile (64 bit)</name>
 				</file>
 				<file>
 					<category_icon>windows</category_icon>
-					<url>scummvm-{$release}a-win32.zip</url>
+					<url>scummvm-{$release}-win32.zip</url>
 					<name>Windows zipfile (32 bit)</name>
 				</file>
-
+<!--
 				<file>
 					<category_icon>windows</category_icon>
 					<url>scummvm-{$release}-win32-x86_64.exe</url>
 					<name>Windows 64bit Installer</name>
 				</file>
+-->
 				<file>
-					<category_icon>wince</category_icon>
-					<url>scummvm-{$release}-win32-win9x.exe</url>
-					<name>Windows 95/98/ME Installer</name>
+					<category_icon>winxp</category_icon>
+					<url>scummvm-{$release}-winxp-win32.exe</url>
+					<name>Windows XP Installer</name>
 				</file>
-
+				<file>
+					<category_icon>winxp</category_icon>
+					<url>scummvm-{$release}-winxp-win32.zip</url>
+					<name>Windows XP zipfile (32 bit)</name>
+				</file>
+				<file>
+					<category_icon>winxp</category_icon>
+					<url>scummvm-{$release}-winxp-win32-x86_64.zip</url>
+					<name>Windows XP zipfile (64 bit)</name>
+				</file>
+				<file>
+					<category_icon>win95</category_icon>
+					<url>scummvm-{$release}-win9x-win32.exe</url>
+					<name>Windows 95+ Installer</name>
+				</file>
+<!--
 				<file>
 					<category_icon>fedora</category_icon>
 					<url>scummvm-{$release}-1.i386.rpm</url>
@@ -109,6 +71,18 @@
 					<user_agent>Fedora</user_agent>
 				</file>
 -->
+				<file>
+					<category_icon>snap</category_icon>
+					<url>https://snapcraft.io/scummvm</url>
+					<name>Snap package hosted at the snapcraft.io store</name>
+					<user_agent>Ubuntu</user_agent>
+				</file>
+				<file>
+					<category_icon>flatpak</category_icon>
+					<url>https://flathub.org/apps/details/org.scummvm.ScummVM</url>
+					<name>Flatpak package hosted at the flathub.org repository</name>
+					<user_agent>Ubuntu</user_agent>
+				</file>
 
 				<file>
 					<category_icon>debian</category_icon>
@@ -136,8 +110,13 @@
 
 				<file>
 					<category_icon>ubuntu</category_icon>
+					<url>scummvm_{$release}-1_ubuntu18.04-lts_amd64.deb</url>
+					<name>Ubuntu 20.04 LTS (focal) x86 64bit package</name>
+				</file>
+				<file>
+					<category_icon>ubuntu</category_icon>
 					<url>scummvm_{$release}-1_ubuntu19.10_amd64.deb</url>
-					<name>Ubuntu 19.10 (eoan) x86 64bit package</name>
+					<name>Ubuntu 19.10 (eoam) x86 64bit package</name>
 				</file>
 				<file>
 					<category_icon>ubuntu</category_icon>
@@ -145,22 +124,6 @@
 					<name>Ubuntu 19.10 (eoan) i386 package</name>
 				</file>
 
-				<file>
-					<category_icon>ubuntu</category_icon>
-					<url>scummvm_{$release}-1_ubuntu19.04_amd64.deb</url>
-					<name>Ubuntu 19.04 (disco) x86 64bit package</name>
-				</file>
-				<file>
-					<category_icon>ubuntu</category_icon>
-					<url>scummvm_{$release}-1_ubuntu19.04_i386.deb</url>
-					<name>Ubuntu 19.04 (disco) i386 package</name>
-				</file>
-
-				<file>
-					<category_icon>ubuntu</category_icon>
-					<url>scummvm_{$release}-1_ubuntu18.04-lts_amd64.deb</url>
-					<name>Ubuntu 18.04 LTS (bionic) x86 64bit package</name>
-				</file>
 				<file>
 					<category_icon>ubuntu</category_icon>
 					<url>scummvm_{$release}-1_ubuntu18.04-lts_i386.deb</url>
@@ -177,10 +140,10 @@
 					<url>scummvm-{$release}_slack-x86_64-1.txz</url>
 					<name>SlackWare x86 64bit package</name>
 				</file>
-
+-->
 				<file>
 					<category_icon>macos</category_icon>
-					<url>scummvm-2.1.2-macosx.dmg</url>
+					<url>scummvm-{$release}-macosx.dmg</url>
 					<name>macOS 10.7+ 64 bits with Sparkle Disk Image</name>
 					<user_agent>Mac</user_agent>
 				</file>
@@ -194,7 +157,7 @@
 					<url>scummvm-2.1.2-macosx-ppc.dmg</url>
 					<name>Mac OS X 10.4+ PPC 32 bits (without Sparkle) Disk Image</name>
 				</file>
-
+<!--
 				<file>
 					<category_icon>ps2</category_icon>
 					<url>scummvm-{$release}-ps2.zip</url>
@@ -232,11 +195,6 @@
 					<user_agent>Android</user_agent>
 				</file>
 -->
-				<file>
-					<category_icon>android</category_icon>
-					<url>scummvm-{$release}-android-armeabi.apk</url>
-					<name>Android ARM package</name>
-				</file>
 				<file>
 					<category_icon>android</category_icon>
 					<url>scummvm-{$release}-android-arm-v7a.apk</url>
@@ -300,25 +258,14 @@
 					<url>scummvm-{$release}-ios3.deb</url>
 					<name>iOS 3+ package .deb</name>
 				</file>
-<!--
-				<file>
-					<category_icon>webos</category_icon>
-					<url>scummvm-{$release}-webos.zip</url>
-					<name>WebOS package</name>
-				</file>
 
-				<file>
-					<category_icon>tizen</category_icon>
-					<url>scummvm-{$release}-tizen.tpk</url>
-					<name>Tizen package</name>
-				</file>
--->
+<!--
 				<file>
 					<category_icon>maemo</category_icon>
 					<url>scummvm_{$release}-maemo_armel.deb</url>
 					<name>Maemo package (OS 2008 and Maemo5/Fremantle)</name>
 				</file>
-
+-->
 				<file>
 					<category_icon>dc</category_icon>
 					<url>scummvm-{$release}-dreamcast-plainfiles.tar.bz2</url>
@@ -360,12 +307,13 @@
 					<url>scummvm-{$release}-gamecube.zip</url>
 					<name>Nintendo GameCube package</name>
 				</file>
+-->
 				<file>
 					<category_icon>wii</category_icon>
 					<url>scummvm-{$release}-wii.zip</url>
 					<name>Wii package</name>
 				</file>
--->
+
 				<file>
 					<category_icon>gcw0</category_icon>
 					<url>scummvm-{$release}-gcw0.opk</url>
@@ -405,12 +353,12 @@
 -->
 				<file>
 					<category_icon>haiku</category_icon>
-					<url>scummvm_x86-{$release}-1-x86_gcc2.hpkg</url>
+					<url>scummvm_x86-{$release}-3-x86_gcc2.hpkg</url>
 					<name>Haiku package 32bits</name>
 				</file>
 				<file>
 					<category_icon>haiku</category_icon>
-					<url>scummvm-{$release}-1-x86_64.hpkg</url>
+					<url>scummvm-{$release}-3-x86_64.hpkg</url>
 					<name>Haiku package 64bits</name>
 				</file>
 
@@ -433,6 +381,14 @@
 					<name>RISC OS package</name>
 					<user_agent>RISC OS</user_agent>
 				</file>
+
+				<file>
+					<category_icon>riscos</category_icon>
+					<url>scummvm-{$release}-riscos-vfp.zip</url>
+					<name>RISC OS VFP package</name>
+					<user_agent>RISC OS</user_agent>
+				</file>
+
 				<file>
 					<category_icon>freemint</category_icon>
 					<url>scummvm-{$release}-atari-m68000.zip</url>
@@ -468,6 +424,11 @@
 			<title>{'/\x7brelease\x7d/'|preg_replace:$release:#downloadsSourceCode#}</title>
 			<anchor>source</anchor>
 			<entries>
+				<file>
+					<category_icon>cpp</category_icon>
+					<url>scummvm-{$release}.tar.lz</url>
+					<name>ScummVM - Source .tar.lz</name>
+				</file>
 				<file>
 					<category_icon>cpp</category_icon>
 					<url>scummvm-{$release}.tar.xz</url>
@@ -569,12 +530,12 @@
 -->
 				<file>
 					<category_icon>haiku</category_icon>
-					<url type="tools">scummvm_tools_x86-{$release_tools}-2-x86_gcc2.hpkg</url>
+					<url type="tools">scummvm_tools_x86-{$release_tools}-1-x86_gcc2.hpkg</url>
 					<name>Tools - Haiku package 32 bits</name>
 				</file>
 				<file>
 					<category_icon>haiku</category_icon>
-					<url type="tools">scummvm_tools-{$release_tools}-2-x86_64.hpkg</url>
+					<url type="tools">scummvm_tools-{$release_tools}-1-x86_64.hpkg</url>
 					<name>Tools - Haiku package 64 bits</name>
 				</file>
 
@@ -605,6 +566,11 @@
 					<name>Tools - Atari/FreeMiNT package (Coldfire MCF5475 / Firebee)</name>
 				</file>
 
+				<file>
+					<category_icon>cpp</category_icon>
+					<url type="tools">scummvm-tools-{$release_tools}.tar.lz</url>
+					<name>Tools - Source .tar.lz</name>
+				</file>
 				<file>
 					<category_icon>cpp</category_icon>
 					<url type="tools">scummvm-tools-{$release_tools}.tar.xz</url>
@@ -644,11 +610,21 @@
 			<baseurl>/frs/scummvm/</baseurl>
 			<notes>
 				{#downloadsOldBinariesNote#}
-				{#downloadsOldBinariesFrsNote1#}
+	{#downloadsOldBinariesFrsNote1#}
 				<h:a href="/frs/scummvm/">{#downloadsOldBinariesFrsNote2#}</h:a>
 				{#downloadsOldBinariesFrsNote3#}
 			</notes>
 			<entries>
+				<file>
+					<category_icon>maemo</category_icon>
+					<url>2.1.1/scummvm_2.1.1-maemo_armel.deb</url>
+					<name>2.1.1 Maemo package (OS 2008 and Maemo5/Fremantle)</name>
+				</file>
+				<file>
+					<category_icon>windows</category_icon>
+					<url>2.1.0/scummvm-2.1.0-win32-x86_64.exe</url>
+					<name>2.1.0 Windows 64bit Installer</name>
+				</file>
 				<file>
 					<category_icon>win95</category_icon>
 					<url>2.1.0/scummvm-2.1.0-win32-win9x.exe</url>
@@ -792,11 +768,6 @@
 					<category_icon>gc</category_icon>
 					<url>1.5.0/scummvm-1.5.0-gamecube.zip</url>
 					<name>1.5.0 Nintendo GameCube package</name>
-				</file>
-				<file>
-					<category_icon>wii</category_icon>
-					<url>1.5.0/scummvm-1.5.0-wii.zip</url>
-					<name>1.5.0 Wii package</name>
 				</file>
 
 				<file>

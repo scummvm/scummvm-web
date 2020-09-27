@@ -6,10 +6,10 @@ class Constants
     public function __construct()
     {
         /* Current version. */
-        define('RELEASE', '2.1.1');
-        define('RELEASE_TOOLS', '2.1.0');
-        define('RELEASE_DEBIAN', '2.1.1');
-        define('RELEASE_SNAP_STORE', '2.1.2');
+        define('RELEASE', '2.2.0');
+        define('RELEASE_TOOLS', '2.2.0');
+        define('RELEASE_DEBIAN', '2.2.0');
+        define('RELEASE_SNAP_STORE', '2.2.0');
         define('RELEASE_ANDROID_STORE', '2.0.0');
 
         /* Version when the percentages on the compat page were removed */
