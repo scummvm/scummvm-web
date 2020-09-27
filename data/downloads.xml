@@ -548,7 +548,7 @@
 
 				<file>
 					<category_icon>morphos</category_icon>
-					<<url type="tools">scummvm-tools-{$release_tools}-morphos.lha</url>
+					<url type="tools">scummvm-tools-{$release_tools}-morphos.lha</url>
 					<name>Tools - MorphOS package</name>
 				</file>
 
