@@ -1454,6 +1454,10 @@ credits:
           name: "Andre Heider"
           alias: "dhewg"
           description: ""
+        -
+          name: "Alexander Reim"
+          alias: "AReim1982"
+          description: ""
       -
         name: "Raspberry Pi"
         person:
@@ -2083,6 +2087,10 @@ credits:
           name: "Thierry Crozat"
           alias: "criezy"
           description: "English translation"
+        -
+          name: "Walter Agazzi"
+          alias: ""
+          description: "Italian translation"
     -
       title: "Websites (design)"
       anchor: "web_design"
