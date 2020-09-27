@@ -3474,4 +3474,10 @@
   since_version: 2.2.0
   stable_platforms: dos
   unstable_platforms: ""
+- id: chest
+  support: good
+  notes: '- DOS versions are supported by this target'
+  since_version: 2.2.0
+  stable_platforms: dos
+  unstable_platforms: ""
 ...
