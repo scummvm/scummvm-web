@@ -23,12 +23,12 @@ class Screenshot extends DataObject
         $this->filename = $this->assignFromArray('filemask', $data, true);
         $this->game = $this->assignFromArray($data['id'], $games);
         $this->files = [];
-        foreach (glob(DIR_SCREENSHOTS_PHP . $this->filename) as $file) {
+        foreach (glob(DIR_SCREENSHOTS . $this->filename) as $file) {
             if (\strpos($file, "_full.") > 0) {
                 continue;
             }
             // Remove the folder and extension
-            $name = str_replace(DIR_SCREENSHOTS_PHP, "", $file);
+            $name = str_replace(DIR_SCREENSHOTS, "", $file);
             $name = \substr($name, 0, \strlen($name) - 4);
             $this->files[] = [
                 'filename' => $name,
