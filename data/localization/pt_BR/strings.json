@@ -211,5 +211,10 @@
     "sponsorsHeading": "Patrocinadores do ScummVM",
     "sponsorsContentTitle": "Patrocinadores",
     "sponsorsTitle": "Patrocinadores",
-    "menuMiscSponsors": "Patrocinadores"
+    "menuMiscSponsors": "Patrocinadores",
+    "compatibilityExcellentDescription": "O jogo não possui problemas conhecidos.",
+    "compatibilityGoodDescription": "O jogo pode ter pequenos problemas que não afetam a experiência. Os jogos podem ser jogados até ao fim.",
+    "compatibilityBuggedDescription": "O jogo funciona, mas pode travar ou apresentar grandes falhas de gráficos/áudio. Pode não ser jogável até o final.",
+    "compatibilityBrokenDescription": "O jogo pode não iniciar ou apresentar problemas graves que o tornam impossível de jogar.",
+    "compatibilityUntestedDescription": "O jogo requer testes e pode não ser totalmente jogável"
 }
