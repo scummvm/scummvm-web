@@ -4,9 +4,11 @@ namespace ScummVM;
 /**
  * Development only
  * Don't re-route static file requests to index.php
+ * And change directory context to public_html
  */
 if (isset($_SERVER['SERVER_SOFTWARE']) &&
 \preg_match("/PHP [\d\.]+ Development Server/",$_SERVER['SERVER_SOFTWARE'])) {
+  chdir('public_html');
   if (\preg_match('/\.(?:png|jpg|jpeg|gif|css|js)/', $_SERVER["REQUEST_URI"])) {
     return false;
   }
@@ -22,7 +24,7 @@ global $lang, $available_languages;
 $languages = array_slice(scandir(DIR_LANG),2);
 $available_languages = [];
 foreach ($languages as $l) {
-    if ($lang === DEFAULT_LOCALE) {
+    if ($l === DEFAULT_LOCALE) {
       continue;
     }
 
