@@ -55,7 +55,7 @@ class XMLParser
     {
         global $lang;
 
-        if ($lang != 'en') {
+        if ($lang != DEFAULT_LOCALE) {
             $fname = substr($filename, 0, strrpos($filename, '.'));
             $fext  = strrchr($filename, '.');
 

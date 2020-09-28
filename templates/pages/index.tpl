@@ -4,29 +4,32 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="referrer" content="no-referrer">
-  <base href="{$baseurl}">
-  <link rel="alternate" type="application/atom+xml" title="{#indexAtomFeed#}" href="{$baseurl}feeds/atom/">
+  	<base href="{$baseurl}">
+  	<link rel="alternate" type="application/atom+xml" title="{#indexAtomFeed#}" href="{$baseurl}feeds/atom/">
 	<link rel="alternate" type="application/rss+xml" title="{#indexRSSFeed#}" href="{$baseurl}feeds/rss/">
 	<title>ScummVM :: {$title}</title>
-  <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=oLBEjaJ9ag">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=oLBEjaJ9ag">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=oLBEjaJ9ag">
-  <link rel="manifest" href="/site.webmanifest?v=oLBEjaJ9ag">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg?v=oLBEjaJ9ag" color="#046c00">
-  <link rel="shortcut icon" href="/favicon.ico?v=oLBEjaJ9ag">
-  <meta name="apple-mobile-web-app-title" content="ScummVM">
-  <meta name="application-name" content="ScummVM">
-  <meta name="msapplication-TileColor" content="#cc6600">
-  <meta name="theme-color" content="#cc6600">
-  <!-- OpenGraph -->
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:title" content="ScummVM">
-  <meta property="og:description" content="ScummVM is a collection of game engines for playing classic graphical RPGs and point-and-click adventure games on modern hardware.">
-  <meta property="og:url" content="https://www.scummvm.org">
-  <meta property="og:image" content="https://www.scummvm.org/images/og-image.jpg">
-
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=oLBEjaJ9ag">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=oLBEjaJ9ag">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=oLBEjaJ9ag">
+	<link rel="manifest" href="/site.webmanifest?v=oLBEjaJ9ag">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg?v=oLBEjaJ9ag" color="#046c00">
+	<link rel="shortcut icon" href="/favicon.ico?v=oLBEjaJ9ag">
+	<meta name="apple-mobile-web-app-title" content="ScummVM">
+	<meta name="application-name" content="ScummVM">
+	<meta name="msapplication-TileColor" content="#cc6600">
+	<meta name="theme-color" content="#cc6600">
+	<!-- OpenGraph -->
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<meta property="og:title" content="ScummVM">
+	<meta property="og:description" content="ScummVM is a collection of game engines for playing classic graphical RPGs and point-and-click adventure games on modern hardware.">
+	<meta property="og:url" content="https://www.scummvm.org">
+	<meta property="og:image" content="https://www.scummvm.org/images/og-image.jpg">
+	<!-- Translations -->
+	{foreach from=$available_languages key=key item=item}
+    <link rel="alternate" hreflang="{$key}" href="{$baseurl}{$key}{$pageurl}">
+    {/foreach}
 	{* Cache bust CSS if making major changes *}
 	{$css = "2.0.0"}
 	<link rel="stylesheet" href="{$baseurl}css/main_{($rtl) ? 'rtl' : 'ltr'}.css?v={$css}">
