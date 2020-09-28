@@ -7,7 +7,7 @@ use Phpfastcache\Drivers\Redis\Config;
 abstract class BasicModel
 {
     protected static $cache;
-    private array $data;
+    private $data;
 
     public function __construct()
     {
