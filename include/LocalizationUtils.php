@@ -74,7 +74,7 @@ class LocalizationUtils
                 }
 
                 // Special handling of french colon character
-                if ($lang === 'fr_FR') {
+                if ($lang === 'fr') {
                     $content = preg_replace_callback(
                         "/(?<=\(http)(.*?)(?=\))/u",
                         function ($matches) {

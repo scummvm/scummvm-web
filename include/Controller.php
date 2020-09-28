@@ -65,8 +65,8 @@ class Controller
         }
 
         // Construct lang URL
-        $pageurl = preg_replace('/\?lang=[a-zA-Z_]*$/', '', $_SERVER['REQUEST_URI']);
-
+        $langs = join("|", array_keys($available_languages));
+        $pageurl = preg_replace("/\/($langs)/i", '', $_SERVER['REQUEST_URI']);
         /* Check RTL */
         $rtl = $this->isRtl($available_languages[$lang]);
 
@@ -78,6 +78,7 @@ class Controller
             'menus' => $menus,
             'pageurl' => $pageurl,
             'available_languages' => $available_languages,
+            'lang' => $lang === DEFAULT_LOCALE ? '' : $lang,
             'rtl' => $rtl,
         );
         $this->smarty->assign($vars);

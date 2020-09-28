@@ -45,7 +45,7 @@ class Constants
         define('DIR_SCREENSHOTS', 'data/screenshots/');
 
         /* Locale */
-        define('DEFAULT_LOCALE', 'en_US');
+        define('DEFAULT_LOCALE', 'en');
 
         /* Downloads */
         define('DOWNLOADS_URL', '/frs/scummvm/{$release}/');
