@@ -12,6 +12,7 @@
     "php": ">=7.0.0",
     "ext-yaml": "*",
     "ext-intl": "*",
+    "ext-redis": "*",
     "smarty/smarty": "^3.1",
     "ezyang/htmlpurifier": "^4.10",
     "altorouter/altorouter": "^2.0",
@@ -20,7 +21,8 @@
     "erusev/parsedown": "^1.7",
     "scssphp/scssphp": "^1.2",
     "composer/semver": "^3.2",
-    "phpfastcache/phpfastcache": "^8.0"
+    "phpfastcache/phpfastcache": "^8.0",
+    "league/csv": "^9.6"
   },
   "scripts": {
     "post-install-cmd": [
@@ -37,8 +39,7 @@
       "mv images/*.png public_html/images",
       "rm -rf images",
       "composer install --no-dev",
-      "npm install --production",
-      "redis-cli -n 8 flushdb"
+      "npm install --production"
     ],
     "build-win": [
       "if NOT EXIST public_html\\css mkdir public_html\\css",
@@ -65,14 +66,17 @@
     "lint": [
       "phpcbf --standard=psr2 ./include"
     ],
+    "flush-cache": [
+      "redis-cli -n 8 flushdb"
+    ],
     "update-data": [
-      "php include/DataUtils.php"
+      "php include/DataUtils.php",
+      "@flush-cache"
     ]
   },
   "require-dev": {
     "phpstan/phpstan": "^0.12.43",
-    "squizlabs/php_codesniffer": "^3.4",
-    "league/csv": "^9.6"
+    "squizlabs/php_codesniffer": "^3.4"
   },
   "autoload": {
     "psr-4": {
