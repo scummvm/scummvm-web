@@ -211,5 +211,10 @@
     "sponsorsIntro": "Les entreprises suivantes ont gracieusement apporté leur aide au projet ScummVM",
     "sponsorsHeading": "Les sponsors de ScummVM",
     "sponsorsContentTitle": "Sponsors",
-    "sponsorsTitle": "Sponsors"
+    "sponsorsTitle": "Sponsors",
+    "compatibilityExcellentDescription": "Le jeu n'a pas de problème connu.",
+    "compatibilityGoodDescription": "Le jeu présente des problèmes mineurs qui n'impactent pas l'expérience. Les jeux peuvent être joués dans leur totalité.",
+    "compatibilityBuggedDescription": "Le jeu démarre, mais peut planter ou présenter des problèmes graphiques ou audio importants. Il est possible qu'il ne puisse pas être joué dans sa totalité.",
+    "compatibilityBrokenDescription": "Le jeu peut ne pas démarrer ou avoir des problèmes sérieux qui le rendent injouable.",
+    "compatibilityUntestedDescription": "Le jeu est encore en phase de test et peut ne pas être entièrement jouable"
 }
