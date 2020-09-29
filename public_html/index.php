@@ -35,7 +35,7 @@ if (!empty($_GET['lang'])) {
 } elseif (!empty($_COOKIE['lang'])) {
   $lang = $_COOKIE['lang'];
   unset($_COOKIE['lang']);
-  setcookie("lang", null, -1);
+  setcookie("lang", "", -1);
   header("Location: " . "/$lang" . $_SERVER['REQUEST_URI']);
 }
 
