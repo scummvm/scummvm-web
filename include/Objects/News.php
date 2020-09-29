@@ -26,7 +26,8 @@ class News
         $this->title = $processContent ? $this->processText($Parsedown->line($object->title)) : $Parsedown->line($object->title);
         $this->date = $object->date;
         $this->author = $object->author;
-        $this->content = $processContent ? $this->processText($Parsedown->text($object->body())) : $Parsedown->text($object->body());
+        $body = $this->localizeLinks($object->body());
+        $this->content = $processContent ? $this->processText($Parsedown->text($body)) : $Parsedown->text($body);
         $this->filename = basename($filename);
     }
 
@@ -42,6 +43,30 @@ class News
     public function processText($text)
     {
         return html_entity_decode($text, ENT_COMPAT, 'UTF-8');
+    }
+
+    private function localizeLinks($body) {
+        global $lang;
+        if ($lang == DEFAULT_LOCALE || !$lang) {
+            return $body;
+        }
+        $regex = "/\[.+\]\((.+)\)/i";
+        $matches = [];
+        if (\preg_match_all($regex, $body, $matches)) {
+            foreach ($matches[1] as $url) {
+                // Don't replace FRS links or static files
+                if (\strpos($url, "/frs") || file_exists("./$url")) {
+                    continue;
+                } elseif (\preg_match("/^\//", $url)) { // Relative path (/screenshots/)
+                    $body = str_replace($url,"/$lang" . $url, $body);
+                } elseif (\strpos($url, "www.scummvm.org")) { // Absolute url (www.scummvm.org/*)
+                    $newUrl = preg_replace("/\.org(\/|$)?/i", ".org/$lang/", $url);
+                    $body = str_replace($url, $newUrl, $body);
+                }
+            }
+        }
+
+        return $body;
     }
 
     /* Get the title. */
