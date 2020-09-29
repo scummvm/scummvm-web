@@ -105,7 +105,8 @@ class Controller
         return $string;
     }
 
-    public function langModifier($path) {
+    public function langModifier($path)
+    {
         global $lang;
         if ($lang == DEFAULT_LOCALE || !$lang) {
             return $path;

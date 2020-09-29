@@ -45,7 +45,8 @@ class News
         return html_entity_decode($text, ENT_COMPAT, 'UTF-8');
     }
 
-    private function localizeLinks($body) {
+    private function localizeLinks($body)
+    {
         global $lang;
         if ($lang == DEFAULT_LOCALE || !$lang) {
             return $body;
@@ -58,7 +59,7 @@ class News
                 if (\strpos($url, "/frs") || file_exists("./$url")) {
                     continue;
                 } elseif (\preg_match("/^\//", $url)) { // Relative path (/screenshots/)
-                    $body = str_replace($url,"/$lang" . $url, $body);
+                    $body = str_replace($url, "/$lang" . $url, $body);
                 } elseif (\strpos($url, "www.scummvm.org")) { // Absolute url (www.scummvm.org/*)
                     $newUrl = preg_replace("/\.org(\/|$)?/i", ".org/$lang/", $url);
                     $body = str_replace($url, $newUrl, $body);
