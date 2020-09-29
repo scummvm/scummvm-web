@@ -5,13 +5,13 @@
 
 {capture "content"}
 <a href="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}_full.png" title="{$rand_file.caption}">
-  <img class="random-screenshot" src="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}_full.png" alt="{$rand_file.caption}">
+    <img class="random-screenshot" src="{$smarty.const.DIR_SCREENSHOTS}/{$rand_file.filename}_full.png" alt="{$rand_file.caption}">
 </a>
 {/capture}
 {include file='components/roundbox.tpl' class="gallery" content=$smarty.capture.content}
 
 <script>
-	window.addEventListener('DOMContentLoaded', function() {
-		baguetteBox.run('.gallery');
-	});
+    window.addEventListener('DOMContentLoaded', function() {
+        baguetteBox.run('.gallery');
+    });
 </script>
