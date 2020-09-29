@@ -27,6 +27,18 @@ foreach ($languages as $l) {
     $available_languages[$l] = \locale_get_display_name($l, $l);
 }
 
+// Backwards compatibility for lang query param & cookie
+if (!empty($_GET['lang'])) {
+  $lang = $_GET['lang'];
+  $uri = str_replace("?lang=$lang", "", $_SERVER['REQUEST_URI']);
+  header("Location: " . "/$lang" . $uri);
+} elseif (!empty($_COOKIE['lang'])) {
+  $lang = $_COOKIE['lang'];
+  unset($_COOKIE['lang']);
+  setcookie("lang", null, -1);
+  header("Location: " . "/$lang" . $_SERVER['REQUEST_URI']);
+}
+
 $langs = join("|", array_keys($available_languages));
 $langMatches = [];
 
