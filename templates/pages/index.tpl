@@ -4,9 +4,9 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="referrer" content="no-referrer">
-  	<base href="{$baseurl}">
-  	<link rel="alternate" type="application/atom+xml" title="{#indexAtomFeed#}" href="{$baseurl}feeds/atom/">
-	<link rel="alternate" type="application/rss+xml" title="{#indexRSSFeed#}" href="{$baseurl}feeds/rss/">
+  	<base href="{$baseurl|lang}">
+  	<link rel="alternate" type="application/atom+xml" title="{#indexAtomFeed#}" href="{$baseurl|lang}/feeds/atom/">
+	<link rel="alternate" type="application/rss+xml" title="{#indexRSSFeed#}" href="{$baseurl|lang}/feeds/rss/">
 	<title>ScummVM :: {$title}</title>
 	<!-- Favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=oLBEjaJ9ag">
@@ -24,18 +24,20 @@
 	<meta property="og:image:height" content="630">
 	<meta property="og:title" content="ScummVM">
 	<meta property="og:description" content="ScummVM is a collection of game engines for playing classic graphical RPGs and point-and-click adventure games on modern hardware.">
-	<meta property="og:url" content="https://www.scummvm.org">
+	<meta property="og:url" content="{'https://www.scummvm.org'|lang}">
 	<meta property="og:image" content="https://www.scummvm.org/images/og-image.jpg">
 	<!-- Translations -->
 	{foreach from=$available_languages key=key item=item}
-    <link rel="alternate" hreflang="{$key}" href="{$baseurl}{$key}{$pageurl}">
+	{if $lang != $key}
+    	<link rel="alternate" hreflang="{$key}" href="{$baseurl}{$key}{$pageurl}">
+	{/if}
     {/foreach}
 	{* Cache bust CSS if making major changes *}
 	{$css = "2.0.0"}
-	<link rel="stylesheet" href="{$baseurl}css/main_{($rtl) ? 'rtl' : 'ltr'}.css?v={$css}">
+	<link rel="stylesheet" href="/css/main_{($rtl) ? 'rtl' : 'ltr'}.css?v={$css}">
 	{* Page specific, or other extra CSS rules. *}
 	{foreach from=$css_files item=filename}
-	<link rel="stylesheet" href="{$baseurl}css/{$filename}">
+	<link rel="stylesheet" href="/css/{$filename}">
 	{/foreach}
 
 	{if $smarty.cookies.cookie_consent == "true"}
@@ -67,7 +69,7 @@
 		<header class="site-header">
 			<div class="logo">
 					<img class="background hide-small" src="/images/maniac-half.png" alt="Maniac Mansion kids">
-					<a href="{$baseurl}">
+					<a href="{$baseurl|lang}">
 						<img class="foreground" src="/images/scummvm_logo.png" alt="{#indexLogo#}">
 					</a>
 			</div>

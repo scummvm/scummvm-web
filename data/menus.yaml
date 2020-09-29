@@ -2,7 +2,7 @@
   class: menu-main
   links:
     - name: '{#menuMainHome#}'
-      href: '{$baseurl}'
+      href: '{$baseurl|lang}'
     - name: '{#menuMainScreenshots#}'
       href: /screenshots/
     - name: '{#menuMainForums#}'

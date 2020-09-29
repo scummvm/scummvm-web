@@ -3,10 +3,10 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<base href="{$baseurl}">
-	<link rel="stylesheet" href="{$baseurl}css/main.css">
-	<link rel="alternate" type="application/atom+xml" title="{#indexAtomFeed#}" href="{$baseurl}feeds/atom/">
-	<link rel="alternate" type="application/rss+xml" title="{#indexRSSFeed#}" href="{$baseurl}feeds/rss/">
+	<base href="{$baseurl|lang}">
+	<link rel="stylesheet" href="/css/main.css">
+	<link rel="alternate" type="application/atom+xml" title="{#indexAtomFeed#}" href="{$baseurl|lang}feeds/atom/">
+	<link rel="alternate" type="application/rss+xml" title="{#indexRSSFeed#}" href="{$baseurl|lang}feeds/rss/">
 	<link rel="apple-touch-icon" href="/images/scummvm.png">
 	<title>ScummVM :: {block name=title}{/block}</title>
 </head>

@@ -4,7 +4,7 @@
 		<h4 class="subhead">{#downloadsHeader#}</h4>
 		<ul>
 			{foreach from=$sections item=arr}
-			<li><a href="/downloads/#{$arr.anchor}">{eval var=$arr.title}</a></li>
+			<li><a href="{'/downloads'/|lang}#{$arr.anchor}">{eval var=$arr.title}</a></li>
 			{/foreach}
 		</ul>
 	</div>

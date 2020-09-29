@@ -6,7 +6,7 @@
     {/if}
     <div class="gallery">
       <div class="row">
-        <h3 class="subhead"><a href="/screenshots/{$category}/{$g->getCategory()}/">{$g->getName()}</a></h3>
+        <h3 class="subhead"><a href="{'/screenshots/'|lang}{$category}/{$g->getCategory()}/">{$g->getName()}</a></h3>
         {foreach from=$g->getFiles() item=fdata name=game_loop}
           <div class="col-1-4 col-md-1">
             <div class="card">
@@ -30,9 +30,9 @@
 {include file="components/box.tpl" head=#screenshotsCategoryHeading# content=$smarty.capture.content}
 
 {if $game}
-  <a href="/screenshots/{$category}/">{#screenshotsCategoryBack#}</a>
+  <a href="{'/screenshots/'|lang}{$category}/">{#screenshotsCategoryBack#}</a>
 {else}
-  <a href="/screenshots/">{#screenshotsCategoryBack#}</a>
+  <a href="{'/screenshots/'|lang}">{#screenshotsCategoryBack#}</a>
 {/if}
 
 <script>

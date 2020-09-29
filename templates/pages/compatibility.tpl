@@ -10,7 +10,7 @@
       {#compatibilityDevContent#}
       <select name="versions" class="version-select">
         {foreach from=$versions item=ver}
-          <option {($version==$ver) ? 'selected' : ''} value="/compatibility/{$ver}/">{$ver}</option>
+          <option {($version==$ver) ? 'selected' : ''} value="{'/compatibility/'|lang}{$ver}/">{$ver}</option>
         {/foreach}
       </select>)
     </p>
@@ -71,7 +71,7 @@
         {assign var="pct_class" value=$support_level_class.$x}
         {assign var="support_level" value=$support_level_header.$x}
         <tr class="color{cycle values='2,0'}">
-          <td class="gameFullName"><a href="/compatibility/{$version}/{$game->getGame()->getId()}/">{$game->getGame()->getName()}</a></td>
+          <td class="gameFullName"><a href="{'/compatibility/'|lang}{$version}/{$game->getGame()->getId()}/">{$game->getGame()->getName()}</a></td>
           <td class="gameShortName">{$game->getGame()->getId()}</td>
           <td class="gameDatafiles">
           {if $game->getDatafiles()}

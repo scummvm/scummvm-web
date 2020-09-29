@@ -27,7 +27,7 @@
 		</tbody>
 	</table>
 	<p class="bottom-link">
-		<a href="/compatibility/{$version}/">{#compatibilityDetailsBack#}</a>
+		<a href="{'/compatibility/'|lang}{$version}/">{#compatibilityDetailsBack#}</a>
 	</p>
 {/capture}
 

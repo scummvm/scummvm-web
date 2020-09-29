@@ -4,7 +4,7 @@
       <h4 class="subhead">{#screenshotsNavigation#}</h4>
       <ul>
       {foreach from=$screenshots item=arr}
-        <li><a href="/screenshots/#{$arr.category}">{eval var=$arr.title}</a></li>
+        <li><a href="{'/screenshots/'|lang}#{$arr.category}">{eval var=$arr.title}</a></li>
       {/foreach}
       </ul>
     </div>
@@ -17,7 +17,7 @@
 {capture "content"}
   {foreach from=$screenshots item=arr}
     <div class="subhead" id="{$arr.category}">
-      <a href="/screenshots/{$arr.category}/">{$arr.title}</a>
+      <a href="{'/screenshots/'|lang}{$arr.category}/">{$arr.title}</a>
     </div>
     <div class="scr-content scr-content-{$arr.category}">
       {include file='components/list_items.tpl' list=$arr.games type='games'}
