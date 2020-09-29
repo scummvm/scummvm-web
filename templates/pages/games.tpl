@@ -4,7 +4,7 @@
       <h4 class="subhead">{#gamesHeader#}</h4>
       <ul>
       {foreach from=$sections item=arr}
-        <li><a href="{'/games/|lang}'#{$arr.anchor}">{eval var=$arr.title}</a></li>
+        <li><a href="{'/games/'|lang}#{$arr.anchor}">{eval var=$arr.title}</a></li>
       {/foreach}
       </ul>
     </div>
