@@ -3,18 +3,18 @@
   <div class="navigation col-1-1">
     <h4 class="subhead">{#screenshotsNavigation#}</h4>
     <ul>
-      {foreach from=$credits item=csection}      
+      {foreach from=$credits item=csection}
         {if $csection->getSubsections()|@count > 0}
           {foreach from=$csection->getSubsections() item=subcsection}
-          <li><a href="/credits/#{$subcsection->getAnchor()}">{$subcsection->getTitle()}</a></li>
-          {/foreach}   
+          <li><a href="{'/credits/'|lang}#{$subcsection->getAnchor()}">{$subcsection->getTitle()}</a></li>
+          {/foreach}
         {else}
-          <li><a href="/credits/#{$csection->getAnchor()}">{$csection->getTitle()}</a></li>
-        {/if}   
-      {/foreach}    
+          <li><a href="{'/credits/'|lang}#{$csection->getAnchor()}">{$csection->getTitle()}</a></li>
+        {/if}
+      {/foreach}
     </ul>
-  </div>  
-</div>  
+  </div>
+</div>
 {/capture}
 
 {foreach from=$credits item=csection name=credits}
@@ -49,5 +49,5 @@
   {else}
     {include file="components/box.tpl" head=$csection->getTitle() id=$csection->getAnchor() content=$smarty.capture.content}
   {/if}
-  
+
 {/foreach}

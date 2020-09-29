@@ -6,7 +6,7 @@
 			<h4 class="subhead">{#gamesDemosHeading#}</h4>
 			<ul>
 			{foreach $demos $group}
-				<li><a href="/demos/#{$group.href}">{$group.name}</a></li>
+				<li><a href="{'/demos/'|lang}#{$group.href}">{$group.name}</a></li>
 			{/foreach}
 			</ul>
 		</div>

@@ -4,6 +4,6 @@
 		<label for="{$menu->getClass()}">{eval var=$menu->getName()}</label>
 	</dt>
 	{foreach from=$menu->getEntries() key=text item=url}
-		<dd><span class="bullet"></span><a href="{eval var=$url|regex_replace:"/^\//":"$lang/"}">{eval var=$text}</a></dd>
+		<dd><span class="bullet"></span><a href="{eval var=$url|lang}">{eval var=$text}</a></dd>
 	{/foreach}
 </dl>

@@ -39,7 +39,7 @@
     {elseif $item instanceof ScummVM\Objects\Screenshot}
       <li class="file">
         <span class="sprite-games-{$item->getCategory()} sprite"></span>
-				<a href="/screenshots/{$arr.category}/{$item->getCategory()}/">{$item->getName()}</a>
+				<a href="{'/screenshots/'|lang}{$arr.category}/{$item->getCategory()}/">{$item->getName()}</a>
         <span class="green">({$item->getFiles()|@count} shots)</span>
       </li>
     {/if}
