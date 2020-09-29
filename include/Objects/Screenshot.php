@@ -24,7 +24,7 @@ class Screenshot extends DataObject
         $this->game = $this->assignFromArray($data['id'], $games);
         $this->files = [];
         foreach (glob("./" . DIR_SCREENSHOTS . "/" . $this->filename) as $file) {
-            if (\strpos($file, "_full.") > 0) {
+            if (\strpos($file, "_full.") !== false) {
                 continue;
             }
             // Remove the base folder and extension

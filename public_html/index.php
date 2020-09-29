@@ -30,13 +30,16 @@ foreach ($languages as $l) {
 // Backwards compatibility for lang query param & cookie
 if (!empty($_GET['lang'])) {
   $lang = $_GET['lang'];
+  setcookie("lang", $lang, time()+3600);
   $uri = str_replace("?lang=$lang", "", $_SERVER['REQUEST_URI']);
   header("Location: " . "/$lang" . $uri);
 } elseif (!empty($_COOKIE['lang'])) {
   $lang = $_COOKIE['lang'];
   unset($_COOKIE['lang']);
   setcookie("lang", "", -1);
-  header("Location: " . "/$lang" . $_SERVER['REQUEST_URI']);
+  if (\strpos($_SERVER['REQUEST_URI'], "/$lang/") === false) {
+    header("Location: " . "/$lang" . $_SERVER['REQUEST_URI']);
+  }
 }
 
 $langs = join("|", array_keys($available_languages));

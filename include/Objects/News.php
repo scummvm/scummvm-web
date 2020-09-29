@@ -56,11 +56,11 @@ class News
         if (\preg_match_all($regex, $body, $matches)) {
             foreach ($matches[1] as $url) {
                 // Don't replace FRS links or static files
-                if (\strpos($url, "/frs") || file_exists("./$url")) {
+                if (\strpos($url, "/frs") !== false || file_exists("./$url")) {
                     continue;
                 } elseif (\preg_match("/^\//", $url)) { // Relative path (/screenshots/)
                     $body = str_replace($url, "/$lang" . $url, $body);
-                } elseif (\strpos($url, "www.scummvm.org")) { // Absolute url (www.scummvm.org/*)
+                } elseif (\strpos($url, "www.scummvm.org") !== false) { // Absolute url (www.scummvm.org/*)
                     $newUrl = preg_replace("/\.org(\/|$)?/i", ".org/$lang/", $url);
                     $body = str_replace($url, $newUrl, $body);
                 }
