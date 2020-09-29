@@ -155,7 +155,7 @@
 				</file>
 				<file>
 					<category_icon>macosppc</category_icon>
-					<url>scummvm-2.1.2-macosx-ppc.dmg</url>
+					<url>scummvm-{$release}-macosx-ppc.dmg</url>
 					<name>Mac OS X 10.4+ PPC 32 bits (without Sparkle) Disk Image</name>
 				</file>
 <!--
