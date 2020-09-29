@@ -114,7 +114,7 @@ class Controller
         // Absolute path (https://www.scummvm.org/*)
         $host = $_SERVER['HTTP_HOST'];
         if (\preg_match("/$host/i", $path)) {
-            return preg_replace("/$host(\/|$)?/i", "$host/$lang", $path);
+            return preg_replace("/$host(\/|$)?/i", "$host/$lang/", $path);
         }
 
         // Relative path (/screenshots/)

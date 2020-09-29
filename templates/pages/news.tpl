@@ -2,7 +2,7 @@
 	{$news_filename = $news->getFilename()|substr:'0':'-4'}
 	{$id = "{$news->getDate()|date_format:"%Y-%m-%d"}{if $news_filename|strlen == 9}{$news_filename|substr:'-1'}{/if}"}
 	{capture "head"}
-		<a href="{$news->getLink()}/">
+		<a href="{$news->getLink()|lang}/">
 			<span class="news-date">{$news->getDate()|date_localized}</span>:
 			{$news->getTitle()}
 		</a>
