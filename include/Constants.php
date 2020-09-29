@@ -42,7 +42,7 @@ class Constants
         define('DIR_LANG', DIR_DATA . '/localization');
         define('DIR_COMPAT', DIR_DATA . '/compatibility');
         define('DIR_DOWNLOADS', '/downloads');
-        define('DIR_SCREENSHOTS', 'data/screenshots/');
+        define('DIR_SCREENSHOTS', '/data/screenshots');
 
         /* Locale */
         define('DEFAULT_LOCALE', 'en');
