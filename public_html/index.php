@@ -24,16 +24,13 @@ global $lang, $available_languages;
 $languages = array_slice(scandir(DIR_LANG),2);
 $available_languages = [];
 foreach ($languages as $l) {
-    if ($l === DEFAULT_LOCALE) {
-      continue;
-    }
-
     $available_languages[$l] = \locale_get_display_name($l, $l);
 }
 
 $langs = join("|", array_keys($available_languages));
 $langMatches = [];
-if (\preg_match("/^\/($langs)\//i", $_SERVER['REQUEST_URI'], $langMatches)) {
+
+if (\preg_match("/^\/($langs)(\/|$)/i", $_SERVER['REQUEST_URI'], $langMatches)) {
     $lang = $langMatches[1];
 }
 
