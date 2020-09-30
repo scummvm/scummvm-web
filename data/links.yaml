@@ -7,12 +7,12 @@
       description: >-
         SDL (Simple DirectMedia Layer) is a cross-platform multimedia library,
         and used by the primary backend of ScummVM.
-      url: 'http://www.libsdl.org/'
+      url: 'https://www.libsdl.org/'
     - name: MAD
       description: >-
         MAD is a high-quality MPEG (MP3) audio decoder. ScummVM optionally
         supports playback of CD tracks and other audio data encoded using MP3.
-      url: 'http://www.underbit.com/products/mad/'
+      url: 'https://www.underbit.com/products/mad/'
     - name: Ogg Vorbis
       description: >-
         Ogg Vorbis is a fully open, non-proprietary, patent-and-royalty-free,
@@ -25,14 +25,14 @@
         is similar to MP3, but lossless, meaning that audio is compressed in
         FLAC without any loss in quality. ScummVM optionally supports playback
         of CD tracks and other audio data encoded using FLAC.
-      url: 'http://flac.sourceforge.net/'
+      url: 'https://xiph.org/flac/'
     - name: Scale2x/3x/4x
       description: >-
         Scale2x is a real-time graphics effect able to increase the size of
         small bitmaps guessing the missing pixels without blurring the images.
         ScummVM optionally supports enlarging the game graphics using this
         scaler.
-      url: 'http://scale2x.sourceforge.net/'
+      url: 'http://www.scale2x.it/'
     - name: hq2x/3x/4x
       description: >-
         The hq2x/3x/4x filters form a family of fast, high-quality magnification
@@ -51,7 +51,7 @@
         need help running older classic games on their modern computers and
         operating systems. If you want to play a game that ScummVM doesn't
         support, this is the place to ask for help!
-      url: 'http://vogons.zetafleet.com/'
+      url: 'https://www.vogons.org/'
     - name: 'MixNMojo :: The Purple LucasArts Fan Site'
       description: >-
         MixNmojo is one of the longest running, and definitely largest,
@@ -59,14 +59,14 @@
         news... or even just a place to hang... with hosted and partnered sites
         catering for everything, the International House of Mojo should be your
         very first stop.
-      url: 'http://www.mixnmojo.com/'
+      url: 'https://mixnmojo.com/'
     - name: 'DoubleFine :: Where taking over the word is a news scripts job'
       description: >-
         DoubleFine is the company of the lovable Tim Schafer, the genius behind
         some of the best of the worst gags and games in LucasArts history. Go
         buy Psychonauts, their new game. Because if you don't, the rats will get
         you and eat your family, computer and house. And poop everywhere.
-      url: 'http://www.doublefine.com/news.htm'
+      url: 'https://www.doublefine.com/'
     - name: Revolution Software
       description: >-
         Revolution Software are the people behind such wonderful titles as
@@ -74,12 +74,12 @@
         have provided us with the source code to some of these games so that we
         can add support for them, and allowed us to release BASS as freeware.
         Thanks guys!
-      url: 'http://www.revolution.co.uk/'
+      url: 'https://revolution.co.uk/'
     - name: Grumpy Gamer
       description: >-
         The personal blog of Ron Gilbert, the man behind many great LucasArts
         adventures, like Maniac Mansion and Monkey Island.
-      url: 'http://grumpygamer.com/'
+      url: 'https://grumpygamer.com/'
 - name: Other classic game engine open source projects
   description: >-
     The following are links to other classic game engine open source projects
@@ -112,7 +112,7 @@
         ResidualVM is a cross-platform interpreter which allows you to play
         LucasArts' LUA-based 3D adventures <i>Grim Fandango</i> and <i>Escape
         from Monkey Island</i>.
-      url: 'http://residualvm.org/'
+      url: 'https://residualvm.org/'
     - name: DOSBox
       description: >-
         DOSBox does not really quite fit in here since it emulates a classic
@@ -120,7 +120,7 @@
         can be used to run many classic DOS games (at least if you are using a
         sufficiently powerful desktop computer), we mention it here anyway. Plus
         it's a cool project, too :).
-      url: 'http://www.dosbox.com/'
+      url: 'https://www.dosbox.com/'
 - name: Technical information about SCUMM and other engines
   description: >-
     SCUMM is a complex system that grew over many years. Understanding it can be
