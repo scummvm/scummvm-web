@@ -28,18 +28,44 @@ foreach ($languages as $l) {
 }
 
 // Backwards compatibility for lang query param & cookie
+// TODO: Remove this eventually
+$oldLangs = [
+  "en_US" => "en",
+  "el_GR" => "el",
+  "es_ES" => "es",
+  "fr_FR" => "fr",
+  "he_IL" => "he",
+  "it_IT" => "it",
+  "pl_PL" => "pl",
+  "pt_BR" => "pt-BR",
+  "pt_PT" => "pt-PT",
+  "ru_RU" => "ru"
+];
 if (!empty($_GET['lang'])) {
   $lang = $_GET['lang'];
-  setcookie("lang", $lang, time()+3600);
-  $uri = str_replace("?lang=$lang", "", $_SERVER['REQUEST_URI']);
-  header("Location: " . "/$lang" . $uri);
+  $uri = \preg_replace("/[?&]lang=$lang/i", "", $_SERVER['REQUEST_URI']);
+  if (array_key_exists($lang, $available_languages)) {
+    header("Location: " . "/$lang" . $uri);
+  } elseif (array_key_exists($lang, $oldLangs)) {
+    header("Location: /" . $oldLangs[$lang] . $uri);
+  }
 } elseif (!empty($_COOKIE['lang'])) {
   $lang = $_COOKIE['lang'];
-  unset($_COOKIE['lang']);
-  setcookie("lang", "", -1);
+  $cookie_options = [
+    'expires' => time()-86400,
+    'path' => '/',
+    'domain' => $_SERVER['HTTP_HOST'],
+    'secure' => true,
+    'samesite' => 'None'
+  ];
   if (\strpos($_SERVER['REQUEST_URI'], "/$lang/") === false) {
-    header("Location: " . "/$lang" . $_SERVER['REQUEST_URI']);
+    if (array_key_exists($lang, $available_languages)) {
+      header("Location: " . "/$lang" . $_SERVER['REQUEST_URI']);
+    } elseif (array_key_exists($lang, $oldLangs)) {
+      header("Location: /" . $oldLangs[$lang] . $_SERVER['REQUEST_URI']);
+    }
   }
+  setcookie("lang", "", $cookie_options);
 }
 
 $langs = join("|", array_keys($available_languages));
@@ -65,7 +91,7 @@ if (!is_writeable(SMARTY_DIR_COMPILE)) {
 }
 
 /* Exception handling. */
-// set_exception_handler(array('ScummVM\ExceptionHandler', 'handleException'));
+set_exception_handler(array('ScummVM\ExceptionHandler', 'handleException'));
 
 /* Page mapping. */
 $pages = array(
