@@ -82,7 +82,7 @@
     "downloadsOldBinaries": "Versões antigas (sem suporte)",
     "downloadsOld": "Versões mais antigas",
     "downloadsOldBinariesNote": "Em alguns casos, não temos (ainda) novos binários do ScummVM e/ou das ferramentas ScummVM para algumas plataformas. Nesses casos, ainda possuímos versões antigas disponíveis para sua conveniência.",
-    "downloadsExtra": "Extras, downloads de jogos",
+    "downloadsExtra": "Extras, download de jogos, subprojetos",
     "downloadsGames": "Downloads de jogos",
     "downloadsDailyBuilds": "Compilações Diárias",
     "downloadsDailyNote1": "ATENÇÃO:",
@@ -211,5 +211,6 @@
     "compatibilityGoodDescription": "O jogo pode ter pequenos problemas que não afetam a experiência. Os jogos podem ser jogados até ao fim.",
     "compatibilityBuggedDescription": "O jogo funciona, mas pode travar ou apresentar grandes falhas de gráficos/áudio. Pode não ser jogável até o final.",
     "compatibilityBrokenDescription": "O jogo pode não iniciar ou apresentar problemas graves que o tornam impossível de jogar.",
-    "compatibilityUntestedDescription": "O jogo requer testes e pode não ser totalmente jogável"
+    "compatibilityUntestedDescription": "O jogo requer testes e pode não ser totalmente jogável",
+    "downloadsSubprojects": "Subprojetos"
 }
