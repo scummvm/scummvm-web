@@ -1168,36 +1168,36 @@
         "content": ""
     },
     "20180701": {
-        "title": "",
-        "content": ""
+        "title": "¡Nuestra web ha sido actualizada!",
+        "content": "No solo trabajamos continuamente para mejorar la compatibilidad de ScummVM o para implementar juegos nuevos, a veces también trabajamos para mejorar la apariencia del proyecto.\n\nEn los últimos meses, Mataniko, un viejo fan de ScummVM y nuevo miembro del equipo, lo ha dado todo para mejorar el diseño de nuestra página web, que ha dado un buen servicio desde hace más de una década. Nos enorgullece anunciar que la web de ScummVM ahora es completamente reactiva y que es preciosa tanto en vuestros PC como en vuestros dispositivos móviles.\n\nSi tenéis algún problema con la web actual o tenéis la sensación de que falta algo, por favor, avisadnos a través de nuestro [gestor de fallos](https://github.com/scummvm/scummvm-web/issues)."
     },
     "20181023": {
-        "title": "",
-        "content": ""
+        "title": "Mantenimiento en los foros y la wiki",
+        "content": "En las próximas horas vamos a cerrar tanto los foros como la wiki de ScummVM para hacer tareas de mantenimiento en la infraestructura de ambas páginas.\n\nEstamos esforzándonos para que vuelvan a estar activas lo antes posible, ¡gracias!"
     },
     "20181024": {
-        "title": "",
-        "content": ""
+        "title": "Cambios en la infraestructura",
+        "content": "A lo largo de estos últimos días, el equipo de ScummVM se ha puesto las pilas para actualizar nuestra estructura. En este proceso, se han actualizado, limpiado y protegido con SSL todas las páginas relacionadas.\n\nDebido al funcionamiento de la propagación de DNS, pueden pasar hasta 48 horas para que podáis acceder a los foros y a la wiki.\n\nSi tenéis cualquier problema con los foros, la wiki, las traducciones, el gestor de fallos o cualquier otro elemento relacionado con las webs, avisadnos, por favor. Para problemas menores, podéis comentarlos [en este hilo](https://forums.scummvm.org/viewtopic.php?f=1&t=14735). Para problemas más graves, utilizad el [gestor de fallos](https://bugs.scummvm.org) indicando el componente Web para que estemos al tanto."
     },
     "20181118": {
-        "title": "",
-        "content": ""
+        "title": "Más cambios en la infraestructura",
+        "content": "Hace unas semanas empezamos a mejorar nuestra página web, lo que incluye (pero no se limita a) desempolvar nuestros foros y nuestra wiki. También estamos haciendo algunos cambios «en las tripas», como las mejoras de nuestra gestión de traducciones para esta web.\n\nEn los últimos días vamos a lanzar un nuevo sistema de «mirrors» para nuestras descargas con el que podremos distribuir el ancho de banda necesario a varios servidores.\n\nCasi hemos terminado de configurar este sistema nuevo y, básicamente, solo tenemos que «darle al interruptor». No obstante, es posible que os topéis con problemas, como enlaces de descarga rotos o mensajes de aviso de archivos desaparecidos, durante el periodo de transición.\n\nEstamos trabajando duro para que las interrupciones en el servicio sean las menos posibles. ¡Muchas gracias por vuestra comprensión!"
     },
     "20181210": {
-        "title": "",
-        "content": ""
+        "title": "Cambios en la infraestructura... ¡otra vez!",
+        "content": "En los últimos días hemos trasladado nuestras descargas a una nueva infraestructura de «mirrors». Antes, todas y cada una de nuestras descargas se enviaban desde nuestro servidor principal, situado en Austria.\n\nAhora nuestras descargas se transmiten mediante [MirrorBrain](http://mirrorbrain.org), un sistema de redirección de descargas que nos permite construir una red de distribución de contenidos propia. MirrorBrain es utilizado por [muchos proyectos de código abierto](http://mirrorbrain.org/users/).\n\nMirrorBrain siempre intentará seleccionar el mejor emplazamiento según vuestra ubicación para que podáis tener la mejor velocidad de descarga posible.\n\nAunque ya tenemos unos cuántos «mirrors» en Europa, estamos buscando a gente dispuesta a donar ancho de banda y almacenamiento en Estados Unidos y en otras partes del mundo. Si quieres albergar el repositorio de ScummVM, por favor, contáctanos por email a [serra@scummvm.org](mailto:serra@scummvm.org).\n\nSi tenéis cualquier problema con nuestro nuevo sistema de descargas, podéis dejar un comentario [en nuestros foros](https://forums.scummvm.org/viewtopic.php?f=1&t=14761#p86624)."
     },
     "20190306": {
-        "title": "",
-        "content": ""
+        "title": "¡Preparaos, que viene el GSoC 2019!",
+        "content": "![GSoC Logo](/data/news/GSoC2017Logo.png)\n\nHace unos días, Google anunció las organizaciones que han sido aceptadas para el Google Summer of Code 2019. Nos encanta poder anunciar que ScummVM es una de ellas, junto con nuestro proyecto hermano, ResidualVM. El Summer of Code es un evento anual que organiza Google para fomentar que los alumnos contribuyan en proyectos de código abierto. Las organizaciones de código abierto ofrecen una tutela y proyectos en los que trabajar, mientras que Google da un dinero a los alumnos participantes. Podéis ver más información en la [web oficial](https://summerofcode.withgoogle.com). También tenemos información en [nuestra wiki](http://wiki.scummvm.org/index.php/Summer_of_Code), y, en concreto, [las reglas para proyectos](http://wiki.scummvm.org/index.php/Summer_of_Code/Project_Rules) que deben cumplir los solicitantes.\n\n¿Estáis listos para vivir una gran aventura? ¿Queréis colaborar en uno de los mayores proyectos de preservación de videojuegos de la humanidad? Entonces, ¡ScummVM y ResidualVM os están esperando! Echad un vistazo a [nuestra página de ideas](http://wiki.scummvm.org/index.php/Summer_of_Code/GSoC_Ideas_2019). Por supuesto, ¡estamos abiertos a cualquier idea nueva! Los alumnos tienen hasta el 9 de abril para redactar y enviar propuestas para el proyecto en el que quieran trabajar. Las solicitudes aceptadas se anunciarán el 6 de mayo, y habrá algunas semanas para integrarse con la comunidad antes del periodo de programación, que empezará el 27 de mayo.\n\nEn cualquier caso, ¡no dudéis en chatear con nosotros a través de IRC! ¡Nos podéis encontrar en #scummvm y #residualvm, dentro de la red Freenode!"
     },
     "20190413": {
         "title": "El tema moderno de ScummVM ha sido remasterizado",
         "content": "![Tema moderno remasterizado de ScummVM](/data/news/20190413.png)¡Cómo pasa el tiempo! Ya han pasado diez años desde que implementamos el «tema moderno» en ScummVM.\n\nDespués de tanto tiempo, ya tocaba una actualización.\n\nEn las últimas semanas, mataniko, miembro del equipo de ScummVM, se ha ocupado de actualizar cuidadosamente la apariencia de ScummVM. El tema nuevo sigue los principios de diseño modernos, pero manteniendo nuestra propia filosofía.\n\nA partir de ahora, las versiones futuras de ScummVM [(¡incluyendo a nuestras compilaciones nocturnas!)](https://buildbot.scummvm.org/builds.html) incluirán el tema nuevo por defecto.\n\n¿Ya echáis de menos el antiguo? ¡Tranquilos! ¡El antiguo tema «ScummVM moderno» está disponible en las opciones de ScummVM en cualquier momento.\n\n¿Qué os parece el tema nuevo? [¡Dadnos vuestra opinión en los foros!](https://forums.scummvm.org/viewtopic.php?f=1&t=14850&p=87219) Como siempre, agradecemos enormemente vuestros comentarios."
     },
     "20190513": {
-        "title": "",
-        "content": ""
+        "title": "¡Otro verano (con Google), cuatro proyectos nuevos!",
+        "content": "![GSoC Logo](/data/news/GSoC2017Logo.png)\n\nLa semana pasada, Google anunció los proyectos que aceptó en el Summer of Code de este año. Nos complace y emociona deciros que ScummVM tutelará a cuatro estudiantes en este año. Los cuatro trabajarán en motores de juegos:\n\n*   Andrii Prykhodko (alias whiterandrek) ha vuelto y se encargará de dar soporte a los juegos ***[Red Comrades 1: Save the Galaxy](https://www.mobygames.com/game/red-comrades-save-the-galaxy-reloaded)*** y ***[Red Comrades 2: For the Great Justice](https://www.mobygames.com/game/red-comrades-2)*** en ScummVM.\n*   Nipun Garg se ocupará de escribir el soporte para ***[Hyperspace Delivery Boy!](https://www.mobygames.com/game/hyperspace-delivery-boy)*** en ScummVM.\n*   Jaromír Wysoglad (alias Jarda) trabajará en la segunda parte del juego ***[Mission Supernova](http://www.mobygames.com/game/dos/mission-supernova/)***.\n*   Antonio Román Cerezo (alias Kyranet) se encargará de implementar las funciones de red en ScummVM para el juego ***[Moonbase Commander](http://www.mobygames.com/game/moonbase-commander)***.\n\n¡Dad la bienvenida a nuestros cuatro alumnos aventureros en lo que esperemos que sea un verano productivo e interesante! Como siempre, podéis seguir sus progresos este verano en los [blogs de ScummVM](http://planet.scummvm.org)."
     },
     "20190603": {
         "title": "¡Seguidnos en Discord!",
