@@ -116,7 +116,7 @@ $pages = array(
     'screenshots'                           => '\ScummVM\Pages\ScreenshotsPage',
     'screenshots/[a:category]'              => '\ScummVM\Pages\ScreenshotsPage',
     'screenshots/[a:category]/[:game]'      => '\ScummVM\Pages\ScreenshotsPage',
-    'subprojects'                           => '\ScummVM\Pages\SubprojectsPage',
+    'subprojects'                           => '\ScummVM\Pages\DownloadsPage', // TODO: Remove
     'sponsors'                              => '\ScummVM\Pages\SponsorsPage',
 );
 

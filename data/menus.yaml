@@ -46,8 +46,6 @@
   links:
     - name: '{#menuMiscSponsors#}'
       href: /sponsors/
-    - name: '{#menuMiscSubprojects#}'
-      href: /subprojects/
     - name: '{#menuMiscDemos#}'
       href: /demos/
     - name: '{#menuMiscPress#}'

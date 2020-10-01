@@ -955,6 +955,20 @@
 				</link>
 			</entries>
 		</subsection>
+		<subsection>
+			<title>{#downloadsSubprojects#}</title>
+			<entries>
+				<link>
+					<name>ScummEx</name>
+					<url>/frs/extras/ScummEx/scummex-win32.exe</url>
+					<description>: ScummEx is a multi-platform SCUMM resource browser, viewer and extractor using the wxWindows toolkit.
+						<h:p>
+							Development on this project is currently stalled. The code-base needs quite some cleanup, and viewers for many resource types still need adding to the code. Patches and volunteers are very welcome...
+						</h:p>
+					</description>
+				</link>
+			</entries>
+		</subsection>
 	</section>
 
 	<section>
