@@ -43,6 +43,7 @@ class Constants
         define('DIR_COMPAT', DIR_DATA . '/compatibility');
         define('DIR_DOWNLOADS', '/downloads');
         define('DIR_SCREENSHOTS', '/data/screenshots');
+        define('DIR_FRS', '/.0/frs');
 
         /* Locale */
         define('DEFAULT_LOCALE', 'en');

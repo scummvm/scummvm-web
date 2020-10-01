@@ -49,6 +49,7 @@ class File extends BasicObject
             $fname = "." . $url;
             $fname = str_replace('{$release}', RELEASE, $fname);
             $fname = str_replace('{$release_tools}', RELEASE_TOOLS, $fname);
+            $fname = str_replace('./frs', DIR_FRS, $fname);
 
             if (is_file($fname) && is_readable($fname)) {
                 $this->extra_info = array();
