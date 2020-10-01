@@ -80,7 +80,7 @@
     "downloadsOldBinaries": "Versiones antiguas (sin soporte)",
     "downloadsOld": "Versiones antiguas",
     "downloadsOldBinariesNote": "En algunos casos hemos dejado de tener (por el momento) nuevos binarios de ScummVM o de sus herramientas para algunas plataformas. En dichos casos seguimos manteniendo las versiones antiguas como alternativa.",
-    "downloadsExtra": "Extras/descargas para juegos",
+    "downloadsExtra": "Extras, descargas para juegos, subproyectos",
     "downloadsGames": "Descargas de juegos",
     "downloadsDailyBuilds": "Compilaciones diarias",
     "downloadsDailyNote1": "ATENCIÓN:",
@@ -206,5 +206,11 @@
     "sponsorsHeading": "Patrocinadores de ScummVM",
     "sponsorsContentTitle": "Patrocinadores",
     "sponsorsTitle": "Patrocinadores",
-    "menuMiscSponsors": "Patrocinadores"
+    "menuMiscSponsors": "Patrocinadores",
+    "downloadsSubprojects": "Subproyectos",
+    "compatibilityExcellentDescription": "El juego no presenta problemas conocidos.",
+    "compatibilityGoodDescription": "El juego podría tener problemas menores que no afectan a la experiencia. Se puede jugar hasta el final.",
+    "compatibilityBuggedDescription": "El juego funciona, pero podría colgarse o tener defectos gráficos o sonoros de importancia. Es posible que no se pueda llegar hasta el final.",
+    "compatibilityUntestedDescription": "Este juego necesita ser probado y tal vez no se pueda llegar al final.",
+    "compatibilityBrokenDescription": "Este juego podría no arrancar o tener problemas de gravedad que lo hagan injugable."
 }
