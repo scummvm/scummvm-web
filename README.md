@@ -21,6 +21,7 @@ Before installing please make sure you have the following installed:
 * [Node.js & npm](https://nodejs.org/)
 * [Git](https://git-scm.com/)
 * [Glue](https://glue.readthedocs.io/en/latest/installation.html)
+* [Redis](https://redis.io/) (Optional)
 
 ### Installing
 
@@ -53,7 +54,9 @@ run site-install on the server.
 ## Updating data
 
 Most data is now managed upstream in a spreadsheet. To re-generate the data files
-run `composer update-data`
+run `composer update-data` note that this will run automatically on site update
+but is encouraged for you to do manually to keep track on who's updating the
+data.
 
 ## Contributing
 
