@@ -9,6 +9,7 @@ namespace ScummVM;
 if (isset($_SERVER['SERVER_SOFTWARE']) &&
 \preg_match("/PHP [\d\.]+ Development Server/",$_SERVER['SERVER_SOFTWARE'])) {
   chdir('public_html');
+  define('DEV_SERVER', true);
   if (\preg_match('/\.(?:png|jpg|jpeg|gif|css|js)/', $_SERVER["REQUEST_URI"])) {
     return false;
   }

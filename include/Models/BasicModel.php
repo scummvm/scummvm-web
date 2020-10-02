@@ -3,17 +3,23 @@ namespace ScummVM\Models;
 
 use Phpfastcache\Helper\Psr16Adapter;
 use Phpfastcache\Drivers\Redis\Config;
+use Phpfastcache\Exceptions\PhpfastcacheDriverConnectException;
 
 abstract class BasicModel
 {
     protected static $cache;
-    private $data;
 
     public function __construct()
     {
         if (is_null(self::$cache)) {
-            $config = new Config(['database' => 8]);
-            self::$cache = new Psr16Adapter('redis', $config);
+            try {
+                $database = $_SERVER['HTTP_HOST'] === 'www.scummvm.org' ? 8 : 7;
+                $config = new Config(['database' => $database]);
+                self::$cache = new Psr16Adapter('redis', $config);
+            } catch (PhpfastcacheDriverConnectException $ex) {
+                // Fallback to files based cache
+                self::$cache = new Psr16Adapter('files');
+            }
         }
     }
 
