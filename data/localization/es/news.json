@@ -213,7 +213,7 @@
     },
     "20040318": {
         "title": "TechTV",
-        "content": ""
+        "content": "Algunos nos han pedido que demos más información sobre el segmento de TechTV donde hablaron de ScummVM. Bueno, podéis leer el artículo que iba a complementar al segmento en la [web de TechTV](http://www.techtv.com/callforhelp/freefile/story/0,24330,3640615,00.html).\n\nScummVM será presentado como «Free File of the Day (el archivo gratuito del día)» en el programa «Call for Help (petición de ayuda)» a las 21:00 GMT +1 del viernes 19 de marzo y 15:00 GMT +1 del lunes 22 de marzo.\n\n¿No sabéis cómo se puede ver TechTV? Me dicen que los que estéis en Norteamérica podéis sintonizar el canal 354 de DirecTV, el 191 de Dish Network, o el canal de cable siguiendo las instrucciones en [tv.yahoo](http://tv.yahoo.com/grid?)\n\nO si da la casualidad de que tenéis una antena de banda C y estáis en las inmediaciones del GE Americom Satcom C4 en las fechas de la emisión del programa, lo tenéis en el transpondedor 12, a 135 grados oeste, 40 grados norte.\n\nLos afortunados australianos que estén suscritos a Foxtel Digital también podrán ver el programa. Yo tendré que buscar a alguien que tenga FTD para poder verlo."
     },
     "20040401": {
         "title": "",
@@ -1160,12 +1160,12 @@
         "content": ""
     },
     "20180612": {
-        "title": "",
-        "content": ""
+        "title": "¡ScummVM y Cyan, Inc. están trabajando juntos!",
+        "content": "Hoy tenemos una noticia fantástica para vosotros. Como tal vez sepáis, Cyan, Inc. (los creadores de Myst y Riven) van a [relanzar toda la saga Myst con motivo de la celebración del 25.º aniversaio del primer Myst](https://myst.com). ¡Y ScummVM y ResidualVM participarán en esta celebración de una forma especial!\n\n**Myst — Masterpiece Edition** y **Riven — The Sequel to Myst** funcionarán bajo ScummVM y **Myst III — Exile** funcionará bajo ResidualVM.\n\nPara dar la mejor experiencia posible y hacer que vuestra travesía por las Eras sea más agradable, ¡Cyan y ScummVM han cerrado una colaboración en la que ambos equipos trabajarán codo con codo de cara al futuro!\n\nEs posible que el final aún no esté escrito: ¡tendremos más noticias pronto!"
     },
     "20180629": {
-        "title": "",
-        "content": ""
+        "title": "¡El final aún no está escrito!",
+        "content": "Nos alegra muchísimo anunciar que nuestros amigos de Cyan, Inc. [han lanzado la 25th Anniversary Collection de la saga Myst hoy](https://www.gog.com/news/release_myst_iii_exile_myst_iv_revelation?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) en GOG.com como descarga digital.\n\n**[Myst — Masterpiece Edition](https://www.gog.com/game/myst_masterpiece_edition?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)** y **[Riven — The Sequel to Myst](https://www.gog.com/game/riven_the_sequel_to_myst?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)** funcionan con ScummVM, mientras que **[Myst III — Exile](https://www.gog.com/game/myst_3_exile?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)** funciona con ResidualVM.\n\nEn las últimas semanas, los equipos de Cyan y de ScummVM han dado grandes pasos para mejorar la compatibilidad de estos juegos. Gracias a un testeo inteso, hemos conseguido corregir la mayoría de problemas que había presentes en ScummVM y ResidualVM. No obstante, debido a la naturaleza del desarrollo de software, todavía cabe la posibilidad de que hayamos pasado algo por alto, así que ahora necesitamos vuestra ayuda.\n\nAunque podemos arreglar fallos en las versiones de estos juegos publicadas en GOG.com a posteriori con una sencilla actualización, esto no es posible en la futura Collector's Edition que saldrá en DVD, así que tenemos que garantizar que hemos resuelto cualquier error pendiente antes de empezar a fabricar los DVD.\n\nAsí que, por favor, conseguid vuestra copia de GOG.com, o si contribuisteis en la campaña de Kickstarter, canjead vuestro código. Visitad la isla de Myst, explorad la era 233, disfrutad de vuestra estancia en Releeshahn e informad de cualquier fallo que veáis en nuestro [gestor de fallos](http://bugs.scummvm.org/).\n\n¡Y por favor... traedme las páginas azules!"
     },
     "20180701": {
         "title": "¡Nuestra web ha sido actualizada!",
