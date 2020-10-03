@@ -15,9 +15,10 @@ Before installing please make sure you have the following installed:
 
 * [PHP](https://www.php.net/manual/en/install.php)
   * PHP YAML extension. Install via `pecl install yaml` or `sudo apt install php-yaml`
+  * PHP Redis extension. Install via `pecl install redis` or `sudo apt install php-redis`
   * The version of PHP included with macOS doesn't include PECL, so you'll need to install a different version of PHP [through Homebrew](https://formulae.brew.sh/formula/php) or another method
 * [Composer](https://getcomposer.org/)
-* [Python & pip](https://www.python.org/) (2.7.9+/3.4+)
+* [Python & pip](https:˙//www.python.org/) (2.7.9+/3.4+)
 * [Node.js & npm](https://nodejs.org/)
 * [Git](https://git-scm.com/)
 * [Glue](https://glue.readthedocs.io/en/latest/installation.html)
@@ -31,15 +32,19 @@ Clone this repo
 git clone https://github.com/scummvm/scummvm-web.git
 ```
 
-Then run
+Then install the required PHP dependencies with:
+
+```
+composer install
+```
+
+To run the build scripts and start a web server on port 8000, run:
 
 ```
 composer develop[-win]
 ```
 
-This will run the build scripts and start a web server on port 8000.
-
-Additionally you can either build and run independently using:
+Instead of the above command, you can either build and run independently using:
 ```
 composer build[-win]
 composer run
@@ -48,8 +53,8 @@ respectively.
 
 ## Deployment
 
-To deploy changes to the site, simply push the updates to origin/master and
-run site-install on the server.
+To deploy changes to the official ScummVM website, simply push the updates to `origin/master` and
+run `site-install` on the server.
 
 ## Updating data
 
