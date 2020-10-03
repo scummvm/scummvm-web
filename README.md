@@ -47,7 +47,7 @@ composer develop[-win]
 Instead of the above command, you can either build and run independently using:
 ```
 composer build[-win]
-composer run
+composer start
 ```
 respectively.
 
