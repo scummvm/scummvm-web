@@ -54,7 +54,7 @@ respectively.
 ## Deployment
 
 To deploy changes to the official ScummVM website, simply push the updates to `origin/master` and
-run `site-install` on the server.
+run `site-update` via the website admin page.
 
 ## Updating data
 
