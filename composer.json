@@ -12,7 +12,6 @@
     "php": ">=7.0.0",
     "ext-yaml": "*",
     "ext-intl": "*",
-    "ext-redis": "*",
     "smarty/smarty": "^3.1",
     "ezyang/htmlpurifier": "^4.10",
     "altorouter/altorouter": "^2.0",
@@ -24,13 +23,14 @@
     "phpfastcache/phpfastcache": "^8.0",
     "league/csv": "^9.6"
   },
+  "require-dev": {
+    "phpstan/phpstan": "^0.12.43",
+    "squizlabs/php_codesniffer": "^3.4"
+  },
+  "suggest": {
+    "ext-redis": "Needed for redis cache driver"
+  },
   "scripts": {
-    "post-install-cmd": [
-      "pscss -f compressed ./scss/main_ltr.scss > ./public_html/css/main_ltr.css",
-      "pscss -f compressed ./scss/main_rtl.scss > ./public_html/css/main_rtl.css",
-      "pscss -f compressed ./scss/pages/_mirrorbrain.scss > ./public_html/css/mirrorbrain.css",
-      "php include/LocalizationUtils.php"
-    ],
     "build-common": [
       "glue public_html/images/icons/games/ --img=images/ --scss=scss/sprites/ --retina",
       "glue public_html/images/icons/platforms/ --img=images/ --scss=scss/sprites/ --retina",
@@ -39,6 +39,8 @@
       "mv images/*.png public_html/images",
       "rm -rf images",
       "composer install --no-dev",
+      "@scss",
+      "@localize",
       "npm install --production"
     ],
     "build-win": [
@@ -72,11 +74,15 @@
     "update-data": [
       "php include/DataUtils.php",
       "@flush-cache"
+    ],
+    "scss": [
+      "pscss -f compressed ./scss/main_ltr.scss > ./public_html/css/main_ltr.css",
+      "pscss -f compressed ./scss/main_rtl.scss > ./public_html/css/main_rtl.css",
+      "pscss -f compressed ./scss/pages/_mirrorbrain.scss > ./public_html/css/mirrorbrain.css"
+    ],
+    "localize": [
+      "php include/LocalizationUtils.php"
     ]
-  },
-  "require-dev": {
-    "phpstan/phpstan": "^0.12.43",
-    "squizlabs/php_codesniffer": "^3.4"
   },
   "autoload": {
     "psr-4": {
