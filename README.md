@@ -18,7 +18,7 @@ Before installing please make sure you have the following installed:
   * PHP Redis extension. Install via `pecl install redis` or `sudo apt install php-redis`
   * The version of PHP included with macOS doesn't include PECL, so you'll need to install a different version of PHP [through Homebrew](https://formulae.brew.sh/formula/php) or another method
 * [Composer](https://getcomposer.org/)
-* [Python & pip](https:˙//www.python.org/) (2.7.9+/3.4+)
+* [Python & pip](https://www.python.org/) (2.7.9+/3.4+)
 * [Node.js & npm](https://nodejs.org/)
 * [Git](https://git-scm.com/)
 * [Glue](https://glue.readthedocs.io/en/latest/installation.html)
