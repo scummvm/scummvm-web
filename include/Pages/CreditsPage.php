@@ -2,7 +2,7 @@
 namespace ScummVM\Pages;
 
 use ScummVM\Controller;
-use ScummVM\Models\CreditsModel;
+use ScummVM\Models\SimpleModel;
 
 class CreditsPage extends Controller
 {
@@ -13,19 +13,19 @@ class CreditsPage extends Controller
     {
         parent::__construct();
         $this->template = 'pages/credits.tpl';
-        $this->creditsModel = new CreditsModel();
+        $this->creditsModel = new SimpleModel("CreditsSection", "credits.yaml");
     }
 
     /* Display the index page. */
     public function index()
     {
-        $credits = $this->creditsModel->getAllCredits();
+        $credits = $this->creditsModel->getAllData();
         return $this->renderPage(
-            array(
+            [
                 'title' => $this->getConfigVars('creditsTitle'),
                 'content_title' => $this->getConfigVars('creditsContentTitle'),
                 'credits' => $credits,
-            )
+            ]
         );
     }
 }

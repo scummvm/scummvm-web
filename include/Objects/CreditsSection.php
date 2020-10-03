@@ -14,14 +14,12 @@ class CreditsSection extends BasicSection
     public function __construct($data)
     {
         parent::__construct($data);
-        $this->groups = array();
-        $this->paragraphs = array();
+        $this->groups = [];
+        $this->paragraphs = [];
 
         if (isset($data['group'])) {
-            parent::toArray($data['group']);
             foreach ($data['group'] as $value) {
-                $persons = array();
-                parent::toArray($value['person']);
+                $persons = [];
                 foreach ($value['person'] as $args) {
                     $persons[] = new Person($args);
                 }
@@ -34,7 +32,6 @@ class CreditsSection extends BasicSection
             }
         }
         if (isset($data['paragraph'])) {
-            parent::toArray($data['paragraph']);
             $this->paragraphs = $data['paragraph'];
         }
     }
