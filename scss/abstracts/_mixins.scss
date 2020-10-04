@@ -6,11 +6,7 @@
   $raw-query: map-get($breakpoints, $breakpoint);
 
   @if $raw-query {
-    $query: if(
-      type-of($raw-query) == 'string',
-      unquote($raw-query),
-      inspect($raw-query)
-    );
+    $query: if(type-of($raw-query) == "string", unquote($raw-query), inspect($raw-query));
 
     @media #{$query} {
       @content;
@@ -20,7 +16,6 @@
          + 'Please make sure it is defined in `$breakpoints` map.';
   }
 }
-
 
 ///
 /// Viewport sized typography with minimum and maximum values
@@ -34,30 +29,66 @@
 /// @param {Number}   $fallback    - Fallback for viewport-
 ///                                  based units (optional)
 ///
-/// @example scss - 5vw font size (with 50px fallback), 
+/// @example scss - 5vw font size (with 50px fallback),
 ///                 minumum of 35px and maximum of 150px
 ///  @include responsive-font(5vw, 35px, 150px, 50px);
 ///
 @mixin responsive-font($responsive, $min, $max: false, $fallback: false) {
   $responsive-unitless: $responsive / ($responsive - $responsive + 1);
-  $dimension: if(unit($responsive) == 'vh', 'height', 'width');
+  $dimension: if(unit($responsive) == "vh", "height", "width");
   $min-breakpoint: $min / $responsive-unitless * 100;
-  
+
   @media (max-#{$dimension}: #{$min-breakpoint}) {
     font-size: $min;
   }
-  
+
   @if $max {
     $max-breakpoint: $max / $responsive-unitless * 100;
-    
+
     @media (min-#{$dimension}: #{$max-breakpoint}) {
       font-size: $max;
     }
   }
-  
+
   @if $fallback {
     font-size: $fallback;
   }
-  
+
   font-size: $responsive;
+}
+
+/*
+ * Implementation of themes
+ */
+@mixin themify($themes) {
+  @each $theme, $map in $themes {
+    .theme-#{$theme} & {
+      $theme-map: () !global;
+      @each $key, $submap in $map {
+        @if map-has-key($map: map-get($themes, $theme), $key: "#{$key}") {
+          $value: map-get(map-get($themes, $theme), "#{$key}");
+          $theme-map: map-merge(
+            $theme-map,
+            (
+              $key: $value,
+            )
+          ) !global;
+        } @else {
+          $value: map-get(map-get($themes, "default"), "#{$key}");
+          $theme-map: map-merge(
+            $theme-map,
+            (
+              $key: $value,
+            )
+          ) !global;
+        }
+      }
+      @content;
+      $theme-map: null !global;
+    }
+  }
+}
+
+@function themed($key) {
+  @return map-get($theme-map, $key);
 }
