@@ -22,12 +22,15 @@ fieldset {
   border: none;
 }
 
-input, textarea {
+input,
+textarea {
   font: bold 1.2em "Trebuchet MS", Arial, Helvetica, sans-serif;
   color: #333333;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   background: #a82709 linear-gradient(to bottom, #d49384 0%, #a82709 80%);
   padding-left: 2em;
   margin: 0;
@@ -55,27 +58,33 @@ h3 {
   margin-top: 2em;
 }
 
-p, ul, ol {
+p,
+ul,
+ol {
   margin-bottom: 1.6em;
 }
 
-p {}
+p {
+}
 
 blockquote {
   font-style: italic;
 }
 
-ul, ol {}
+ul,
+ol {
+}
 
 a {
   color: #821d06;
   &:hover {
     text-decoration: none;
-    color: #CC0000;
+    color: #cc0000;
   }
 }
 
-small {}
+small {
+}
 
 hr {
   /* display: none; */
@@ -98,8 +107,8 @@ img {
 #footer {
   clear: both;
   padding: 30px 0;
-  border-top: 10px solid #DDDDDD;
-  background: #EFEFEF;
+  border-top: 10px solid #dddddd;
+  background: #efefef;
   p {
     margin: 0;
     padding: 10px 0 0 0;

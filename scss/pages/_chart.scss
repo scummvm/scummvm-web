@@ -17,11 +17,14 @@
       color: lighten($theme-link, 20%);
     }
   }
-  tr, th, td {
+  tr,
+  th,
+  td {
     margin: 0;
     padding: 2px;
   }
-  th, td {
+  th,
+  td {
     border: 1px solid $theme-chart-border;
   }
   th {
@@ -32,11 +35,11 @@
     padding: 1em 3em;
   }
   tr {
-		&.color0 {
-			background-color: $theme-chart-row-odd;
-		}
-		&.color2 {
-			background-color: $theme-chart-row-even;
+    &.color0 {
+      background-color: $theme-chart-row-odd;
+    }
+    &.color2 {
+      background-color: $theme-chart-row-even;
     }
   }
   thead {
@@ -91,14 +94,14 @@
     float: $end-direction;
 
     &:before,
-    &:after{
-        content: "";
-        position: absolute;
-        background-color: $tentacle-green;
-        transition: transform 0.25s ease-out;
+    &:after {
+      content: "";
+      position: absolute;
+      background-color: $tentacle-green;
+      transition: transform 0.25s ease-out;
     }
 
-    &:before{
+    &:before {
       top: 0;
       left: 50%;
       width: 4px;
@@ -107,7 +110,7 @@
     }
 
     /* horizontal line */
-    &:after{
+    &:after {
       top: 50%;
       left: 0;
       width: 100%;
@@ -116,8 +119,12 @@
     }
 
     &.close {
-      &:before{ transform: rotate(90deg); }
-      &:after{ transform: rotate(180deg); }
+      &:before {
+        transform: rotate(90deg);
+      }
+      &:after {
+        transform: rotate(180deg);
+      }
     }
   }
 }

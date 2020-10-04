@@ -1,29 +1,29 @@
 /* Footer */
 
 footer {
+  color: $black-semi-transparent;
+  padding: 15px 0;
+  position: relative;
+  a {
     color: $black-semi-transparent;
-    padding: 15px 0;
-    position: relative;
-    a {
+    &:hover {
       color: $black-semi-transparent;
-      &:hover {
-        color: $black-semi-transparent;
-        text-decoration: none;
-      }
-		}
-
-		@include respond-to('small') {
-			padding: 0 8px;
-			background: rgb(251, 241, 206);
-		}
+      text-decoration: none;
+    }
   }
 
-  .tentacle {
-    height: auto;
-    width: 100%;
-    margin: 0 auto;
-    max-width: 160px;
-    position: absolute;
-    bottom: -60px;
-    filter: drop-shadow((-3px) 5px 1px $tenn);
+  @include respond-to("small") {
+    padding: 0 8px;
+    background: rgb(251, 241, 206);
   }
+}
+
+.tentacle {
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 160px;
+  position: absolute;
+  bottom: -60px;
+  filter: drop-shadow((-3px) 5px 1px $tenn);
+}

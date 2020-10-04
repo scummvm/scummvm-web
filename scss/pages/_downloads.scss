@@ -1,30 +1,30 @@
 ul.downloads {
-  li.file {
-    list-style-type: none;
-    padding: 3px;
-  }
-  span.download-extras {
-    color: $theme-subscript;
-    font-size: x-small;
-  }
-  li.link {
-    margin-left: 1.5em;
-  }
+	li.file {
+		list-style-type: none;
+		padding: 3px;
+	}
+	span.download-extras {
+		color: $theme-subscript;
+		font-size: x-small;
+	}
+	li.link {
+		margin-left: 1.5em;
+	}
 }
 
 span.daily_provider {
-  display: block;
-  font-size: 90%;
-  padding-left: 3em;
+	display: block;
+	font-size: 90%;
+	padding-left: 3em;
 }
 
 #downloadContainer {
-  position: relative;
-  width: 100%;
-  max-width: 600px;
-  min-height: 110px;
+	position: relative;
+	width: 100%;
+	max-width: 600px;
+	min-height: 110px;
 
-  @include respond-to('small') {
+	@include respond-to("small") {
 		text-align: center;
 	}
 
@@ -38,18 +38,25 @@ span.daily_provider {
 		border: 1px solid $theme-download-text;
 		box-shadow: 0 0 10px $black;
 		text-decoration: none;
-		background: $theme-download-background linear-gradient(to bottom, lighten($theme-download-background, 40%) 0%, $theme-download-background 100%);;;
+		background: $theme-download-background
+			linear-gradient(to bottom, lighten($theme-download-background, 40%) 0%, $theme-download-background 100%);
 		img {
 			display: block;
 			float: left;
 			margin: 0 auto;
 
-			@include respond-to('small') {
+			@include respond-to("small") {
 				float: none;
 			}
 		}
 		&:hover {
-			background: lighten($theme-download-background, 40%) linear-gradient(to bottom, lighten($theme-download-background, 50%) 0%, lighten($theme-download-background, 40%) 35%, $theme-download-background 100%);
+			background: lighten($theme-download-background, 40%)
+				linear-gradient(
+					to bottom,
+					lighten($theme-download-background, 50%) 0%,
+					lighten($theme-download-background, 40%) 35%,
+					$theme-download-background 100%
+				);
 		}
 
 		.downloadText {
@@ -62,8 +69,8 @@ span.daily_provider {
 }
 
 ul.downloads {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .sha256-toggle {

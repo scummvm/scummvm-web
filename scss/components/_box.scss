@@ -1,14 +1,14 @@
 .box {
 	margin: 8px;
-  border: 1px solid $theme-container-border;
-  direction: $direction;
+	border: 1px solid $theme-container-border;
+	direction: $direction;
 	> .head {
 		background: $theme-container-title-background;
 		min-height: 24px;
 		color: $theme-container-title;
 		font-weight: bold;
 		padding: 4px;
-    width: 100%;
+		width: 100%;
 		a {
 			text-decoration: none;
 			color: $theme-container-title;
@@ -20,10 +20,10 @@
 	}
 	.intro {
 		background: $theme-container-navigation-background;
-    padding: 4px 8px 4px 5px;
+		padding: 4px 8px 4px 5px;
 
-    [class*="col-"] {
-      float: $start-direction;
-    }
+		[class*="col-"] {
+			float: $start-direction;
+		}
 	}
 }
