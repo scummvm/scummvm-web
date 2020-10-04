@@ -75,7 +75,7 @@
             <td class="gameShortName">{$game->getGame()->getId()}</td>
             <td class="gameDatafiles">
                 {if $game->getDatafiles()}
-                <a href="https://wiki.scummvm.org/index.php?title=Datafiles#{$game->getDatafiles()}">{#compatabilityDetailsDetails#}</a></td>
+                <a href="{$game->getDatafiles()}">{#compatabilityDetailsDetails#}</a></td>
             {else}
             ---
             {/if}
