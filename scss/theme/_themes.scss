@@ -1,0 +1,82 @@
+$themes: (
+    default: (
+        // Main elements
+        background: $tenn,
+        text: $black,
+        fonts: ("verdana", "tahoma", "arial", "helvetica", sans-serif),
+        link: $kenyan-copper,
+        light-link: $white,
+        wrapper-topper: $marzipan,
+        wrapper-background: $double-pearl-lustra,
+        // Menu
+        menu-title: $turbo,
+        menu-title-background: $kenyan-copper,
+        menu-background: $totem-pole,
+        menu-link: $white,
+        menu-shadow: $cashmere,
+        // Box containers
+        container-title: $white,
+        container-title-background: $totem-pole,
+        container-sub-title: $totem-pole,
+        container-background: $alto,
+        container-navigation-background: $silver,
+        container-border: $silver,
+        container-navigation-link: $japanese-laurel,
+        container-navigation-bullet: $double-pearl-lustra,
+        // Round box containers
+        round-container-title-background: $marzipan,
+        round-container-border: $cashmere,
+        round-container-headless-background: $double-pearl-lustra,
+        round-container-header: $kenyan-copper,
+        round-container-background: $white,
+        round-container-header-shadow: rgba(0, 0, 0, 0),
+        // Charts
+        chart-head-background: $gray,
+        chart-row-odd: $alto,
+        chart-row-even: $white,
+        chart-caption-background: container-title-background,
+        chart-caption-header: $white,
+        chart-link: $black,
+        chart-border: $silver,
+        // Misc elements
+        table-of-contents: $japanese-laurel,
+        subscript: $japanese-laurel,
+        table-of-contents-bullet: $double-pearl-lustra,
+        // Download button
+        download-background: link,
+        download-text: $white,
+    ),
+    residual: (
+        menu-title-background: #43a25c,
+        menu-background: #398b4c,
+        wrapper-topper: #b5d7bd,
+        round-container-title-background: #b5d7bd
+            linear-gradient(
+                to top,
+                lighten(desaturate(#b5d7bd, 36.5), 17.25) 0%,
+                lighten(desaturate(#b5d7bd, 36.5), 12.35) 35%,
+                #b5d7bd 100%
+            ),
+        container-title-background: #45a63d
+            linear-gradient(
+                to bottom,
+                lighten(desaturate(#45a63d, 41.38), 27.25) 0%,
+                lighten(desaturate(#45a63d, 36.5), 12.35) 35%,
+                #45a63d 100%
+            ),
+        background: #6699cc,
+        download-background: #398b4c,
+        round-container-border: #43a25c,
+    ),
+    old: (
+        menu-background: #6f43a4,
+        menu-title-background: linear-gradient(to bottom, rgb(115, 15, 107) 0%, rgb(163, 26, 156) 71%),
+        background: #6699cc,
+        container-title-background: menu-title-background,
+        download-background: #6f43a4,
+        round-container-title-background: #6f43a4,
+        round-container-header: $turbo,
+        round-container-header-shadow: unset,
+        wrapper-topper: menu-title-background,
+    ),
+);
