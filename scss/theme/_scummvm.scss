@@ -7,13 +7,7 @@
 // Main elements
 $theme-background: $tenn !default;
 $theme-text: $black !default;
-$theme-fonts: (
-    'verdana',
-    'tahoma',
-    'arial',
-    'helvetica',
-    sans-serif
-) !default;
+$theme-fonts: ("verdana", "tahoma", "arial", "helvetica", sans-serif) !default;
 
 $theme-link: $kenyan-copper !default;
 $theme-light-link: $white !default;
@@ -44,7 +38,7 @@ $theme-round-container-border: $cashmere !default;
 $theme-round-container-headless-background: $double-pearl-lustra !default;
 $theme-round-container-header: $kenyan-copper !default;
 $theme-round-container-background: $white !default;
-$theme-round-container-header-shadow: rgba(0,0,0,0) !default;
+$theme-round-container-header-shadow: rgba(0, 0, 0, 0) !default;
 
 // Charts
 $theme-chart-head-background: $gray !default;

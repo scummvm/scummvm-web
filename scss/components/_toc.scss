@@ -1,22 +1,22 @@
 /* Navigation menus */
 
 .navigation {
-    padding: 0.5em 1.65em;
-    a {
-      color: $theme-container-navigation-link;
-      text-decoration: none;
-      padding: 5px;
-    }
-    ul {
-      padding-left: 2.0em;
-    }
-    li {
-      color: $theme-container-navigation-bullet;
-      list-style-type: $arrow;
-      margin: 0.5em auto;
-    }
+  padding: 0.5em 1.65em;
+  a {
+    color: $theme-container-navigation-link;
+    text-decoration: none;
+    padding: 5px;
   }
-
-  .intro .text li {
+  ul {
+    padding-left: 2em;
+  }
+  li {
+    color: $theme-container-navigation-bullet;
+    list-style-type: $arrow;
     margin: 0.5em auto;
   }
+}
+
+.intro .text li {
+  margin: 0.5em auto;
+}

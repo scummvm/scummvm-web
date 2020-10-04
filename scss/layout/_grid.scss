@@ -6,7 +6,7 @@
 	margin: 0 auto;
 	padding: 0 50px;
 
-	@include respond-to('small') {
+	@include respond-to("small") {
 		padding: 0;
 		margin: 0;
 	}
@@ -26,7 +26,7 @@
 }
 
 .col-1-4 {
-  width: 25%;
+	width: 25%;
 }
 
 .col-2-3 {
@@ -41,12 +41,12 @@
 	width: 100%;
 }
 
-[class*='col-'] {
+[class*="col-"] {
 	float: left;
-  padding-right: 12px;
+	padding-right: 12px;
 
-  &:last-child {
-		margin-right:0%;
+	&:last-child {
+		margin-right: 0%;
 	}
 }
 
@@ -58,16 +58,17 @@
 
 * {
 	box-sizing: border-box;
-	&:after, &:before {
+	&:after,
+	&:before {
 		box-sizing: border-box;
 	}
 }
 
-@include respond-to('small') {
+@include respond-to("small") {
 	.col-1-2 {
 		clear: left;
 	}
-	[class*='col-'] {
+	[class*="col-"] {
 		padding-right: 0;
 	}
 	.hide-small {
@@ -78,14 +79,14 @@
 	}
 }
 
-@include respond-to('medium') {
+@include respond-to("medium") {
 	/* CSS Rules targeting most tablets in vertical orientation */
 	.hide-medium {
 		display: none;
-  }
-  .col-md-3 {
-    width: 33%;
-  }
+	}
+	.col-md-3 {
+		width: 33%;
+	}
 	.col-md-2 {
 		width: 50%;
 	}

@@ -10,7 +10,7 @@ body {
 	line-height: 1.357em;
 	margin: 8px 8px 24px 8px;
 
-	@include respond-to('small') {
+	@include respond-to("small") {
 		margin: 0;
 	}
 }
@@ -20,7 +20,7 @@ body {
 }
 
 a {
-  color: $theme-link;
+	color: $theme-link;
 }
 
 a:hover {
@@ -55,12 +55,12 @@ a:hover {
 }
 
 #intro_header {
-  font-size: 0.9em;
-  line-height: 1.2213em;
+	font-size: 0.9em;
+	line-height: 1.2213em;
 }
 
 #donate-header {
-  float: $end-direction;
+	float: $end-direction;
 }
 
 /* Content boxes */
@@ -69,15 +69,15 @@ a:hover {
 	border-radius: 0 0 8px 8px;
 	background: $theme-wrapper-background;
 
-	@include respond-to('small') {
+	@include respond-to("small") {
 		border-radius: 0;
 	}
 }
 
 span.sprite {
-  display: inline-block;
-  vertical-align: middle;
-  filter: drop-shadow(0 2px 2px $black-semi-transparent);
+	display: inline-block;
+	vertical-align: middle;
+	filter: drop-shadow(0 2px 2px $black-semi-transparent);
 }
 
 .subhead {

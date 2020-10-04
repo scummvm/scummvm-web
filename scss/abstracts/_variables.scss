@@ -17,9 +17,23 @@ $tenn: rgb(204, 102, 0) !default;
 $tentacle-green: rgb(0, 204, 51) !default;
 
 $breakpoints: (
-  'small': (min-width: 320px) and (max-width: 640px),
-  'medium': (min-width: 641px) and (max-width: 768px),
-  'large': (min-width: 769px)
+  "small": (
+    min-width: 320px,
+  )
+  and
+  (
+    max-width: 640px,
+  ),
+  "medium": (
+    min-width: 641px,
+  )
+  and
+  (
+    max-width: 768px,
+  ),
+  "large": (
+    min-width: 769px,
+  ),
 );
 
 $nav-width: 165px;
