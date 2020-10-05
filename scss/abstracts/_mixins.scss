@@ -59,29 +59,20 @@
 
 /*
  * Implementation of themes
+ * Based on https://medium.com/@dmitriy.borodiy/easy-color-theming-with-scss-bc38fd5734d1
  */
 @mixin themify($themes) {
   @each $theme, $map in $themes {
     .theme-#{$theme} & {
       $theme-map: () !global;
       @each $key, $submap in $map {
-        @if map-has-key($map: map-get($themes, $theme), $key: "#{$key}") {
-          $value: map-get(map-get($themes, $theme), "#{$key}");
-          $theme-map: map-merge(
-            $theme-map,
-            (
-              $key: $value,
-            )
-          ) !global;
-        } @else {
-          $value: map-get(map-get($themes, "default"), "#{$key}");
-          $theme-map: map-merge(
-            $theme-map,
-            (
-              $key: $value,
-            )
-          ) !global;
-        }
+        $value: map-get(map-get($themes, $theme), "#{$key}");
+        $theme-map: map-merge(
+          $theme-map,
+          (
+            $key: $value,
+          )
+        ) !global;
       }
       @content;
       $theme-map: null !global;
@@ -90,5 +81,9 @@
 }
 
 @function themed($key) {
-  @return map-get($theme-map, $key);
+  $value: map-get($theme-map, $key);
+  @if (not $value) {
+    @return map-get(map-get($themes, "scumm"), $key);
+  }
+  @return $value;
 }

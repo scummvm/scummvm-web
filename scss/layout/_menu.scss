@@ -6,7 +6,9 @@ nav {
   direction: $direction;
   dl {
     border-radius: 8px;
-    background: $theme-menu-background;
+    @include themify($themes) {
+      background: themed("menu-background");
+    }
     z-index: 20;
     margin: 8px 0 16px;
     &::after {
@@ -17,7 +19,9 @@ nav {
       left: 4px;
       right: 10px;
       width: $nav-width - 14px;
-      background-color: $theme-menu-shadow;
+      @include themify($themes) {
+        background-color: themed("menu-shadow");
+      }
       height: 6px;
       z-index: -1;
       border-radius: 0 0 0 8px;
@@ -38,7 +42,9 @@ nav {
     }
   }
   a {
-    color: $theme-menu-link;
+    @include themify($themes) {
+      color: themed("menu-link");
+    }
     text-decoration: none;
   }
   dl dd::first-letter {
@@ -46,12 +52,16 @@ nav {
   }
   a:hover {
     text-decoration: underline;
-    color: $theme-menu-link;
+    @include themify($themes) {
+      color: themed("menu-link");
+    }
   }
   dl {
     dt {
-      background: $theme-menu-title-background;
-      color: $theme-menu-title;
+      @include themify($themes) {
+        background: themed("menu-title-background");
+        color: themed("menu-title");
+      }
       font-weight: 700;
       border-radius: 8px 8px 0 0;
       background-clip: padding-box;
@@ -93,7 +103,9 @@ nav {
     padding: 0;
     height: 100%;
     overflow-y: auto;
-    background: $theme-menu-background;
+    @include themify($themes) {
+      background: themed("menu-background");
+    }
     line-height: 50px;
     font-size: 1.2em;
     a {
@@ -126,7 +138,9 @@ nav {
         padding-bottom: 1px;
         padding-left: 19px;
         cursor: pointer;
-        color: $theme-menu-link;
+        @include themify($themes) {
+          color: themed("menu-link");
+        }
       }
       dd {
         padding-right: 0;
@@ -149,7 +163,9 @@ nav {
   }
   nav dl {
     dd:hover {
-      background: $theme-menu-title-background;
+      @include themify($themes) {
+        background: themed("menu-title-background");
+      }
     }
     &::after {
       height: 0;

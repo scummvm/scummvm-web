@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{$lang}">
+<html lang="{$lang}" class="theme-scumm">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">

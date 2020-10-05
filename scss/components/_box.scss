@@ -1,25 +1,35 @@
 .box {
 	margin: 8px;
-	border: 1px solid $theme-container-border;
+	@include themify($themes) {
+		border: 1px solid themed("container-border");
+	}
 	direction: $direction;
 	> .head {
-		background: $theme-container-title-background;
+		@include themify($themes) {
+			background: themed("container-title-background");
+			color: themed("container-title");
+		}
 		min-height: 24px;
-		color: $theme-container-title;
 		font-weight: bold;
 		padding: 4px;
 		width: 100%;
 		a {
 			text-decoration: none;
-			color: $theme-container-title;
+			@include themify($themes) {
+				color: themed("container-title");
+			}
 		}
 	}
 	> .content {
-		background: $theme-container-background;
+		@include themify($themes) {
+			background: themed("container-background");
+		}
 		padding: 8px;
 	}
 	.intro {
-		background: $theme-container-navigation-background;
+		@include themify($themes) {
+			background: themed("container-navigation-background");
+		}
 		padding: 4px 8px 4px 5px;
 
 		[class*="col-"] {
