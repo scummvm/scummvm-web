@@ -39,6 +39,7 @@
         location.href = select.target.value;
     });
 </script>
+<script src='/js/tablesort.min.js'></script>
 {/capture}
 
 {capture "content"}
@@ -54,37 +55,43 @@
     </tbody>
 </table>
 
-{foreach from=$compat_data key=company item=games name=compat_loop}
-<table class="chart color4">
-    <caption>{'/\x7bcompany\x7d/'|preg_replace:$company:#compatibilitySectionTitle#}</caption>
+<table class="chart color4" id="compatibilityTable">
+    <caption>{#compatibilitySectionTitle#}</caption>
     <thead>
         <tr class="color4">
-            <th class="gameFullName">{#compatibilityDetailsChartCol1#}</th>
+            <th class="gameFullName" data-sort-default>{#compatibilityDetailsChartCol1#}</th>
             <th class="gameShortName">{#compatibilityDetailsChartCol2#}</th>
+            <th class="gameCompany">{#compatibilityDetailsChartColCompany#}</th>
             <th class="gameDatafiles">{#compatibilityDetailsChartCol3#}</th>
             <th class="gameSupportLevel">{#compatibilityDetailsChartCol4#}</th>
         </tr>
     </thead>
     <tbody>
-        {foreach from=$games item=game}
-        {assign var="x" value=$game->getSupportLevel()}
-        {assign var="pct_class" value=$support_level_class.$x}
-        {assign var="support_level" value=$support_level_header.$x}
-        <tr class="color{cycle values='2,0'}">
-            <td class="gameFullName"><a href="{'/compatibility/'|lang}{$version}/{$game->getGame()->getId()}/">{$game->getGame()->getName()}</a></td>
-            <td class="gameShortName">{$game->getGame()->getId()}</td>
-            <td class="gameDatafiles">
-                {if $game->getDatafiles()}
-                <a href="{$game->getDatafiles()}">{#compatabilityDetailsDetails#}</a></td>
-            {else}
-            ---
-            {/if}
-            <td class="gameSupportLevel {($game->getVersion() == $version) ? ' updated' : $pct_class}">{$support_level}</td>
-        </tr>
+        {foreach from=$compat_data key=company item=games name=compat_loop}
+            {foreach from=$games item=game}
+            {assign var="x" value=$game->getSupportLevel()}
+            {assign var="pct_class" value=$support_level_class.$x}
+            {assign var="support_level" value=$support_level_header.$x}
+            <tr class="color2">
+                <td class="gameFullName"><a href="{'/compatibility/'|lang}{$version}/{$game->getGame()->getId()}/">{$game->getGame()->getName()}</a></td>
+                <td class="gameShortName">{$game->getGame()->getId()}</td>
+                <td class="gameCompany">{$game->getGame()->getCompany()->getName()}</td>
+                <td class="gameDatafiles">
+                    {if $game->getDatafiles()}
+                    <a href="{$game->getDatafiles()}">{#compatabilityDetailsDetails#}</a></td>
+                {else}
+                ---
+                {/if}
+                <td class="gameSupportLevel {($game->getVersion() == $version) ? ' updated' : $pct_class}">{$support_level}</td>
+            </tr>
+            {/foreach}
         {/foreach}
     </tbody>
 </table>
-{/foreach}
+<script>
+  // From tablesort.min.js
+  new Tablesort(document.getElementById('compatibilityTable'));
+</script>
 {/capture}
 
 {include file="components/box.tpl" head=$content_title intro=$smarty.capture.intro content=$smarty.capture.content}
