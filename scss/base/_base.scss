@@ -1,10 +1,9 @@
 /* General layout rules */
-html {
-	background: $theme-background;
-	background-repeat: repeat-x;
-}
-
 body {
+	@include themify($themes) {
+		background: themed("background");
+	}
+	background-repeat: repeat-x;
 	font-family: verdana, tahoma, arial, helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 1.357em;
@@ -20,11 +19,15 @@ body {
 }
 
 a {
-	color: $theme-link;
+	@include themify($themes) {
+		color: themed("link");
+	}
 }
 
 a:hover {
-	color: lighten($theme-link, 20%);
+	@include themify($themes) {
+		color: lighten(themed("link"), 20%);
+	}
 	text-decoration: none;
 }
 
@@ -67,7 +70,9 @@ a:hover {
 
 .container {
 	border-radius: 0 0 8px 8px;
-	background: $theme-wrapper-background;
+	@include themify($themes) {
+		background: themed("wrapper-background");
+	}
 
 	@include respond-to("small") {
 		border-radius: 0;
@@ -81,13 +86,15 @@ span.sprite {
 }
 
 .subhead {
-	color: $theme-container-sub-title;
+	@include themify($themes) {
+		color: themed("container-sub-title");
+		border-bottom: 2px dotted themed("container-sub-title");
+	}
 	font-weight: bold;
 	line-height: 300%;
 	padding-#{$start-direction}: 5px;
 	text-align: $start-direction;
 	margin: 0px 15px;
-	border-bottom: 2px dotted $theme-container-sub-title;
 }
 .subhead-content {
 	margin: 0;

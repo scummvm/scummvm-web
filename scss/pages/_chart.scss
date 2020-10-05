@@ -5,16 +5,22 @@
   padding: 0;
   width: 95%;
   caption {
-    background: $theme-chart-caption-background;
-    color: $theme-chart-caption-header;
+    @include themify($themes) {
+      background: themed("chart-caption-background");
+      color: themed("chart-caption-header");
+    }
     font-weight: bold;
     margin: 0 auto;
   }
   a {
-    color: $theme-chart-link;
+    @include themify($themes) {
+      color: themed("chart-link");
+    }
     text-decoration: none;
     &:hover {
-      color: lighten($theme-link, 20%);
+      @include themify($themes) {
+        color: lighten(themed("link"), 20%);
+      }
     }
   }
   tr,
@@ -25,7 +31,9 @@
   }
   th,
   td {
-    border: 1px solid $theme-chart-border;
+    @include themify($themes) {
+      border: 1px solid themed("chart-border");
+    }
   }
   th {
     font-weight: normal;
@@ -36,14 +44,20 @@
   }
   tr {
     &.color0 {
-      background-color: $theme-chart-row-odd;
+      @include themify($themes) {
+        background-color: themed("chart-row-odd");
+      }
     }
     &.color2 {
-      background-color: $theme-chart-row-even;
+      @include themify($themes) {
+        background-color: themed("chart-row-even");
+      }
     }
   }
   thead {
-    background-color: $theme-chart-head-background;
+    @include themify($themes) {
+      background-color: themed("chart-head-background");
+    }
   }
 }
 

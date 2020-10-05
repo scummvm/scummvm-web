@@ -15,7 +15,9 @@
 
 	.bottom {
 		height: 29px;
-		background: $theme-wrapper-topper;
+		@include themify($themes) {
+			background: themed("wrapper-topper");
+		}
 		border-radius: 8px 8px 0 0;
 		z-index: 100;
 	}

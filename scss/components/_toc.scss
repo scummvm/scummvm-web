@@ -3,7 +3,9 @@
 .navigation {
   padding: 0.5em 1.65em;
   a {
-    color: $theme-container-navigation-link;
+    @include themify($themes) {
+      color: themed("container-navigation-link");
+    }
     text-decoration: none;
     padding: 5px;
   }
@@ -11,7 +13,9 @@
     padding-left: 2em;
   }
   li {
-    color: $theme-container-navigation-bullet;
+    @include themify($themes) {
+      color: themed("container-navigation-bullet");
+    }
     list-style-type: $arrow;
     margin: 0.5em auto;
   }

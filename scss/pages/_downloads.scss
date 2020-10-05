@@ -4,7 +4,9 @@ ul.downloads {
 		padding: 3px;
 	}
 	span.download-extras {
-		color: $theme-subscript;
+		@include themify($themes) {
+			color: themed("subscript");
+		}
 		font-size: x-small;
 	}
 	li.link {
@@ -33,13 +35,18 @@ span.daily_provider {
 		float: left;
 		width: 100%;
 		padding: 15px;
-		color: $theme-download-text;
+		@include themify($themes) {
+			color: themed("download-text");
+			border: 1px solid themed("download-text");
+		}
 		border-radius: 8px;
-		border: 1px solid $theme-download-text;
 		box-shadow: 0 0 10px $black;
 		text-decoration: none;
-		background: $theme-download-background
-			linear-gradient(to bottom, lighten($theme-download-background, 40%) 0%, $theme-download-background 100%);
+		@include themify($themes) {
+			$download-background: themed("download-background");
+			background: $download-background
+				linear-gradient(to bottom, lighten($download-background, 40%) 0%, $download-background 100%);
+		}
 		img {
 			display: block;
 			float: left;
@@ -50,13 +57,16 @@ span.daily_provider {
 			}
 		}
 		&:hover {
-			background: lighten($theme-download-background, 40%)
-				linear-gradient(
-					to bottom,
-					lighten($theme-download-background, 50%) 0%,
-					lighten($theme-download-background, 40%) 35%,
-					$theme-download-background 100%
-				);
+			@include themify($themes) {
+				$download-background: themed("download-background");
+				background: lighten($download-background, 40%)
+					linear-gradient(
+						to bottom,
+						lighten($download-background, 50%) 0%,
+						lighten($download-background, 40%) 35%,
+						$download-background 100%
+					);
+			}
 		}
 
 		.downloadText {

@@ -1,5 +1,5 @@
 $themes: (
-    default: (
+    scumm: (
         // Main elements
         background: $tenn,
         text: $black,
@@ -34,7 +34,7 @@ $themes: (
         chart-head-background: $gray,
         chart-row-odd: $alto,
         chart-row-even: $white,
-        chart-caption-background: container-title-background,
+        chart-caption-background: $totem-pole,
         chart-caption-header: $white,
         chart-link: $black,
         chart-border: $silver,
@@ -43,7 +43,7 @@ $themes: (
         subscript: $japanese-laurel,
         table-of-contents-bullet: $double-pearl-lustra,
         // Download button
-        download-background: link,
+        download-background: $kenyan-copper,
         download-text: $white,
     ),
     residual: (
@@ -68,15 +68,15 @@ $themes: (
         download-background: #398b4c,
         round-container-border: #43a25c,
     ),
-    old: (
+    retro: (
         menu-background: #6f43a4,
         menu-title-background: linear-gradient(to bottom, rgb(115, 15, 107) 0%, rgb(163, 26, 156) 71%),
         background: #6699cc,
-        container-title-background: menu-title-background,
+        container-title-background: linear-gradient(to bottom, rgb(115, 15, 107) 0%, rgb(163, 26, 156) 71%),
         download-background: #6f43a4,
         round-container-title-background: #6f43a4,
         round-container-header: $turbo,
         round-container-header-shadow: unset,
-        wrapper-topper: menu-title-background,
+        wrapper-topper: linear-gradient(to bottom, rgb(115, 15, 107) 0%, rgb(163, 26, 156) 71%),
     ),
 );
