@@ -15,7 +15,6 @@ Before installing please make sure you have the following installed:
 
 * [PHP](https://www.php.net/manual/en/install.php)
   * PHP YAML extension. Install via `pecl install yaml` or `sudo apt install php-yaml`
-  * PHP Redis extension. Install via `pecl install redis` or `sudo apt install php-redis`
   * The version of PHP included with macOS doesn't include PECL, so you'll need to install a different version of PHP [through Homebrew](https://formulae.brew.sh/formula/php) or another method
 * [Composer](https://getcomposer.org/)
 * [Python & pip](https://www.python.org/) (2.7.9+/3.4+)
