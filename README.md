@@ -31,25 +31,29 @@ Clone this repo
 git clone https://github.com/scummvm/scummvm-web.git
 ```
 
-Then run
+Then install the required PHP dependencies with:
+
+```
+composer install
+```
+
+To run the build scripts and start a web server on port 8000, run:
 
 ```
 composer develop[-win]
 ```
 
-This will run the build scripts and start a web server on port 8000.
-
-Additionally you can either build and run independently using:
+Instead of the above command, you can either build and run independently using:
 ```
 composer build[-win]
-composer run
+composer start
 ```
 respectively.
 
 ## Deployment
 
-To deploy changes to the site, simply push the updates to origin/master and
-run site-install on the server.
+To deploy changes to the official ScummVM website, simply go to the website admin page and click the "ScummVM.org 
+manual site update" link.
 
 ## Updating data
 
