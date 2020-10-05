@@ -3401,7 +3401,7 @@
   notes: ""
   since_version: 2.2.0
   stable_platforms: dos
-  unstable_platforms: dos
+  unstable_platforms: ""
 - id: adrift
   support: good
   notes: '- Version 5 is not yet supported'
