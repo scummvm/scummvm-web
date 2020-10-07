@@ -4,6 +4,7 @@
     {/foreach}
 
     {include file='components/lang_menu.tpl'}
+    {include file='components/theme_menu.tpl'}
 </nav>
 
 <div class="menu-bottom hide-small">

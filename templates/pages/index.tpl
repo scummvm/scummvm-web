@@ -137,6 +137,23 @@
             else
                 document.body.classList.remove('no-scroll');
         });
+
+        for (var link of document.querySelectorAll('nav a.theme-link')) {
+            link.addEventListener('click', function(evt) {
+                evt.preventDefault();
+                if (!evt.target.href.indexOf('#')) return;
+                var theme = evt.target.href.split('#')[1];
+                document.querySelector('html').className = 'theme-' + theme;
+                localStorage.setItem('theme', theme);
+            })
+        }
+
+        window.addEventListener('DOMContentLoaded', function() {
+            var theme = localStorage.getItem('theme');
+            if (theme) {
+                document.querySelector('html').className = 'theme-' + theme;
+            }
+        })
     </script>
     {if $smarty.cookies.cookie_consent == "true"}
     {* Google analytics javascript. *}
