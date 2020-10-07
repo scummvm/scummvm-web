@@ -54,6 +54,13 @@ class Constants
         define('DOWNLOADS_TOOLS_URL', '/frs/scummvm-tools/{$release_tools}/');
         define('DOWNLOADS_EXTRAS_URL', '/frs/extras/');
 
+        /* Themes */
+        define('THEMES', [
+            'scumm' => 'SCUMM',
+            'residual' => 'Residual',
+            'retro' => 'Retro'
+        ]);
+
         /**
          * Smarty configuration. The Smarty team does not recommend putting any of the
          * directories used under the web server root. 'SMARTY_DIR_COMPILE' and
