@@ -32,6 +32,9 @@
 
 	.scummvm {
 		font-family: Trebuchet MS, sans-serif;
+		@include themify($themes) {
+			color: themed("header-text");
+		}
 		line-height: 19px;
 		@include responsive-font(1.4vw, 10px, 15px, 15px);
 		white-space: nowrap;

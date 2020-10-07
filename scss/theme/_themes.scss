@@ -8,6 +8,8 @@ $themes: (
         light-link: $white,
         wrapper-topper: $marzipan,
         wrapper-background: $double-pearl-lustra,
+        // Header
+        header-text: $black,
         // Menu
         menu-title: $turbo,
         menu-title-background: $kenyan-copper,
@@ -70,6 +72,7 @@ $themes: (
     ),
     retro: (
         menu-background: #6f43a4,
+        header-text: $white,
         menu-title-background: linear-gradient(to bottom, rgb(115, 15, 107) 0%, rgb(163, 26, 156) 71%),
         background: #6699cc,
         container-title-background: linear-gradient(to bottom, rgb(115, 15, 107) 0%, rgb(163, 26, 156) 71%),
