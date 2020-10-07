@@ -78,6 +78,7 @@ class Controller
             'heroes_num' => HEROES_NUM,
             'menus' => $menus,
             'pageurl' => $pageurl,
+            'themes' => THEMES,
             'available_languages' => $available_languages,
             'lang' => $lang,
             'rtl' => $rtl,
