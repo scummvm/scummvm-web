@@ -1,5 +1,5 @@
 {capture "content"}
-    {foreach from=$documents item=document}
+    {foreach from=$data item=document}
         <p>
             <a href="{eval var=$document->getURL()}">{eval var=$document->getName()}</a><br>
             {eval var=$document->getDescription()}

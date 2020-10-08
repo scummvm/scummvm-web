@@ -5,7 +5,7 @@
 {capture "content"}
 <div class="gallery">
     <div class="row">
-        {foreach from=$sponsors item=sponsor}
+        {foreach from=$data item=sponsor}
         <div class="col-1-3 col-md-1">
             <div class="sponsor card">
                 <div class="image">

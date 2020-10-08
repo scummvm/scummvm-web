@@ -3,7 +3,7 @@
 {/capture}
 
 {capture "content"}
-{foreach from=$articles item=article}
+{foreach from=$data item=article}
 <p>
     {if $article->getLanguage() != null}
     <a href="{$article->getURL()}"><b>{$article->getName()}</b></a> ({$article->getLanguage()}), {$article->getSource()}, {$article->getDate()}

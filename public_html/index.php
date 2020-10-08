@@ -99,10 +99,10 @@ $pages = array(
     'compatibility'                         => '\ScummVM\Pages\CompatibilityPage',
     'compatibility/[cId:version]'           => '\ScummVM\Pages\CompatibilityPage',
     'compatibility/[cId:version]/[a:game]'  => '\ScummVM\Pages\CompatibilityPage',
-    'contact'                               => '\ScummVM\Pages\ContactPage',
-    'credits'                               => '\ScummVM\Pages\CreditsPage',
+    'contact'                               => '\ScummVM\Pages\SimplePage',
+    'credits'                               => '\ScummVM\Pages\SimplePage',
     'demos'                                 => '\ScummVM\Pages\DemosPage',
-    'documentation'                         => '\ScummVM\Pages\DocumentationPage',
+    'documentation'                         => '\ScummVM\Pages\SimplePage',
     'downloads'                             => '\ScummVM\Pages\DownloadsPage',
     'games'                                 => '\ScummVM\Pages\GamesPage',
     'faq'                                   => '\ScummVM\Pages\FAQPage',
@@ -112,13 +112,13 @@ $pages = array(
     ''                                      => '\ScummVM\Pages\NewsPage',
     'news'                                  => '\ScummVM\Pages\NewsPage',
     'news/[a:date]'                         => '\ScummVM\Pages\NewsPage',
-    'press'                                 => '\ScummVM\Pages\PressPage',
+    'press'                                 => '\ScummVM\Pages\SimplePage',
     'presssnowberry'                        => '\ScummVM\Pages\PressSnowberryPage', // HACK
     'screenshots'                           => '\ScummVM\Pages\ScreenshotsPage',
     'screenshots/[a:category]'              => '\ScummVM\Pages\ScreenshotsPage',
     'screenshots/[a:category]/[:game]'      => '\ScummVM\Pages\ScreenshotsPage',
     'subprojects'                           => '\ScummVM\Pages\DownloadsPage', // TODO: Remove
-    'sponsors'                              => '\ScummVM\Pages\SponsorsPage',
+    'sponsors'                              => '\ScummVM\Pages\SimplePage',
 );
 
 $router = new \AltoRouter();
@@ -130,14 +130,17 @@ $router->addMatchTypes([
 ]);
 
 foreach ($pages as $key => $value) {
-    $router->map('GET', "/[lang:lang]?/$key", $value);
-    $router->map('GET', "/[lang:lang]?/$key/", $value);
+    $router->map('GET', "/[lang:lang]?/{$key}/?", $value, $key);
 }
 
 $match = $router->match(strtolower($_SERVER['REQUEST_URI']));
 
 if ($match) {
-    $page = new $match['target']();
+    if ($match['target'] === '\ScummVM\Pages\SimplePage') {
+      $page = new $match['target']($match['name']);
+    } else {
+      $page = new $match['target']();
+    }
     return $page->index($match['params']);
 } else {
   $page = new \ScummVM\Pages\NewsPage();

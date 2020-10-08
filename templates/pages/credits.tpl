@@ -3,7 +3,7 @@
         <div class="navigation col-1-1">
             <h4 class="subhead">{#screenshotsNavigation#}</h4>
             <ul>
-                {foreach from=$credits item=csection}
+                {foreach from=$data item=csection}
                     {if $csection->getSubsections()|@count > 0}
                         {foreach from=$csection->getSubsections() item=subcsection}
                             <li><a href="{'/credits/'|lang}#{$subcsection->getAnchor()}">{$subcsection->getTitle()}</a></li>
@@ -17,7 +17,7 @@
     </div>
 {/capture}
 
-{foreach from=$credits item=csection name=credits}
+{foreach from=$data item=csection name=credits}
 {capture "content"}
 {if $csection->getSubsections()|@count > 0}
 {foreach from=$csection->getSubsections() item=subcsection}
