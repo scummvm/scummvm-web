@@ -1,6 +1,8 @@
 <?php
 namespace ScummVM;
 
+use ScummVM\Pages\SimplePage;
+
 /**
  * Handle uncaught exceptions.
  */
@@ -35,7 +37,7 @@ abstract class ExceptionHandler
     {
         self::$exception = $e;
 
-        $ep = new \ScummVM\Pages\ExceptionsPage();
+        $ep = new SimplePage('exception');
         return $ep->index($e);
     }
 }
