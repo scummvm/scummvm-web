@@ -8,6 +8,7 @@ class SimplePage extends Controller
 {
     const FILE_NOT_FOUND = 'The filename %s could not be found';
     const PAGE_MODELS = [
+        //key => [$model, $datafile]
         'sponsors' => ['Sponsor', 'sponsors.yaml'],
         'press' => ['Article', 'press_articles.yaml'],
         'credits' => ['CreditsSection', 'credits.yaml'],
@@ -29,12 +30,12 @@ class SimplePage extends Controller
         }
         if (array_key_exists($key, self::PAGE_MODELS)) {
             [$model, $data] = self::PAGE_MODELS[$key];
-            $this->model = new SimpleModel($model, $data);;
+            $this->model = new SimpleModel($model, $data);
         }
     }
 
     /* Display the index page. */
-    public function index()
+    public function index($data = null)
     {
         if ($this->model) {
             $data = $this->model->getAllData();
