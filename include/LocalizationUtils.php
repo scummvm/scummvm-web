@@ -20,7 +20,7 @@ class LocalizationUtils
         $config = \HTMLPurifier_Config::createDefault();
         $this->purifier = new \HTMLPurifier($config);
 
-        $langs = array_slice(scandir(DIR_LANG), 2);
+        $langs = array_slice(scandir(DIR_DATA), 2);
         foreach ($langs as $key => $value) {
             $this->convertLanguageJsonToSmartyIni($value);
             $this->updateNewsL10n($value);
@@ -31,7 +31,7 @@ class LocalizationUtils
     {
         $Parsedown = new \Parsedown();
         $Parsedown->setBreaksEnabled(true);
-        $filename = JOIN(DIRECTORY_SEPARATOR, [DIR_LANG, $lang, "strings.json"]);
+        $filename = JOIN(DIRECTORY_SEPARATOR, [DIR_DATA, $lang, "strings.json"]);
         echo("Converting {$filename} from JSON to INI\n");
         $jsonString = file_get_contents($filename);
         $json = json_decode($jsonString);
@@ -43,12 +43,12 @@ class LocalizationUtils
             }
         }
 
-        file_put_contents(join(DIRECTORY_SEPARATOR, [DIR_LANG,$lang,"strings.ini"]), $output);
+        file_put_contents(join(DIRECTORY_SEPARATOR, [DIR_DATA, $lang, "strings.ini"]), $output);
     }
 
     private function updateNewsL10n($lang)
     {
-        $newsFile = join(DIRECTORY_SEPARATOR, [DIR_LANG,$lang,"news.json"]);
+        $newsFile = join(DIRECTORY_SEPARATOR, [DIR_DATA, $lang, "news.json"]);
         // For non-english, create/overwrite JSON files from our l10n file
         if ($lang !== DEFAULT_LOCALE) {
             if (!file_exists($newsFile)) {

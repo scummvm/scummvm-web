@@ -40,7 +40,6 @@ class Constants
         define('DIR_DATA', DIR_BASE . '/data');
         define('DIR_NEWS', DIR_DATA . '/news');
         define('DIR_ARTICLE', DIR_DATA . '/article');
-        define('DIR_LANG', DIR_DATA . '/localization');
         define('DIR_COMPAT', DIR_DATA . '/compatibility');
         define('DIR_DOWNLOADS', '/downloads');
         define('DIR_SCREENSHOTS', '/data/screenshots');
