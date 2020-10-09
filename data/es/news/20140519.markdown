@@ -1,0 +1,15 @@
+---
+title: "Dreamweb Freeware Release Updated"
+date: 1400506560
+author: sev
+---
+
+After more than two years since the original freeware release, the ScummVM Team is announcing an update for the *Dreamweb* packages.
+
+Thanks to the work of Simon Sawatzki we have the game manuals as well as the *Diary of a (Mad?) Man* available in text and HTML format for the majority of our releases, so you can use your preferred text-to-speech program to read them as your bedtime story.
+
+All releases now include these documents and are marked as version 1.1. Of course, the previously available high resolution scans will stay on the download page as well.
+
+Additionally we have taken the opportunity to release the Italian version of the game.
+
+All packages can be downloaded from our [Games page](/games/#dreamweb).

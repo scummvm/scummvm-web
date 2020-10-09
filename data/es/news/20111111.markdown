@@ -1,0 +1,15 @@
+---
+title: "ScummVM 1.4.0 \"10th Anniversary\" Released!"
+date: 1321018560
+author: sev
+---
+
+It has been over 10 years. We are here thanks to the work of 131 developers. 49,124 commits were made just to the ScummVM tree and those turned into a massive 1,085,714 lines of code (excluding comments) and of course over 7.6 million downloads from the main site alone. I would say those were a great ten years.
+
+The outcome is ScummVM 1.4.0 which we are releasing today, 11/11/11 11:11:11.11.
+
+More games are supported: *Lands of Lore: The Throne of Chaos*(based on the same engine as Kyrandia), the kids' game *Blue's Birthday Adventure*, and the science fiction game *Ringworld: Revenge of the Patriarch*. On top of that, practically all supported Sierra SCI games now have their Amiga versions working. Our musically inclined users will notice PC speaker support in *Monkey Island 2: LeChuck's Revenge* and *Indiana Jones and the Fate of Atlantis*, CMS support in *Loom*, *The Secret of Monkey Island* and *Indiana Jones and the Last Crusade*, fixed MIDI in the DOS versions of the Elvira series, and even sound in *Winnie the Pooh in the Hundred Acre Wood*!
+
+As always, there are many more new features; you can find the full list in [our release notes](/frs/scummvm/1.4.0/ReleaseNotes) and the release itself on our [downloads page](/downloads/).
+
+Enjoy!

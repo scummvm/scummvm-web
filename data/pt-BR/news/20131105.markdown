@@ -1,0 +1,11 @@
+---
+title: "Wintermute está chegando, prepare-se para os testes"
+date: 1383658560
+author: somaen
+---
+
+A engine Wintermute está em funcionamento no ScummVM há pouco mais de um ano e foi ficando cada vez mais madura, a ponto de acharmos que está chegando quase pronta para o lançamento.
+
+Como a quantidade de jogos envolvidos é bastante grande, adoraríamos obter ajuda com uma rodada de testes antes de verificar se a engine está pronta para o próximo lançamento. Assim, selecionamos semi-arbitrariamente um conjunto de jogos Wintermute que se beneficiariam de alguns testes e esperamos que alguns de nossos maravilhosos usuários estejam dispostos a dar uma volta.
+
+Se você estiver interessado, acesse o nosso [tópico de testes do WME](http://forums.scummvm.org/viewtopic.php?t=13062).

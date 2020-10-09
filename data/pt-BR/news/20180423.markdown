@@ -1,0 +1,16 @@
+---
+title: "Projetos do GSoC 2018 anunciados!"
+date: 1524490560
+author: Criezy
+---
+
+![Logotipo do GSoC](/data/news/GSoC2017Logo.png)
+
+Hoje o Google anunciou os projetos aceitos para o Summer of Code deste ano. Temos o prazer e a satisfação de dizer que o ScummVM orientará três estudantes, enquanto o ResidualVM também terá um aluno. Todos os quatro trabalharão nas engines de jogo:
+
+*   Andrii Prykhodko (conhecido como whiterandrek) estará trabalhando em adicionar suporte ao jogos ***[Pink Panther: Passport to Peril](https://en.wikipedia.org/wiki/The_Pink_Panther:_Passport_to_Peril)*** e ***[Pink Panther: Hokus Pokus Pink](https://en.wikipedia.org/wiki/The_Pink_Panther:_Hokus_Pokus_Pink)*** no ScummVM.
+*   Joseph-Eugene Winzer (conhecido como Joefish) estará trabalhando em adicionar suporte aos jogo ***[The Immortal](https://en.wikipedia.org/wiki/The_Immortal_(video_game))*** no ScummVM.
+*   Matthew Stewart estará trabalhando na engine utilizada por ***[Star Trek: 25th Anniversary](https://en.wikipedia.org/wiki/Star_Trek:_25th_Anniversary_(computer_game))*** e ***[Star Trek: Judgment Rites](https://en.wikipedia.org/wiki/Star_Trek:_Judgment_Rites)***. O foco para o período do GSoC será o primeiro jogo.
+*   Liu Zhaosong (conhecido como Douglas\_GSoC) estará trabalhando em melhorar a engine Stark, utilizada pelo jogo ***[The Longest Journey](https://en.wikipedia.org/wiki/The_Longest_Journey)*** no ResidualVM.
+
+Sejam bem-vindos nossos quatro estudantes aventureiros, esperamos que seja um verão produtivo e interessante! E você pode acompanhar o progresso deles durante o verão nos [Blogs do ScummVM](http://planet.scummvm.org).

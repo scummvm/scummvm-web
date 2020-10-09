@@ -1,0 +1,17 @@
+---
+title: "O tempo é apenas uma palavra. Uma bem curta."
+date: 1123162560
+author: ender
+---
+
+Devido a um vórtice local de espaço/tempo que no futuro estará localizado perto da Terra, o significado de 'regularmente' pode estar mudando. Fique ligado para mais atualizações.
+
+E agora, as notícias atuais:
+
+Estamos felizes em informar que Ron Gilbert, co-criador de Maniac Mansion e SCUMM, fez uma boa referência ao ScummVM em seu site ([Grumpy Gamer](http://grumpygamer.com/). Pelo menos foi isso que ouvimos de [Slashdot](http://games.slashdot.org/games/05/08/03/1641224.shtml?tid=207&amp;tid=202&amp;tid=203), que parece ter deixado seu site de joelhos :)
+
+Observe, entretanto, que a versão do Nintendo DS mencionada ainda não é uma versão oficial ou com nosso suporte. Portanto, não entre em contato conosco sobre isso, porque não podemos ajudar :)
+
+O conteúdo da última publicação de Rons foi citado [nesta publicação do blogspot](http://humaninbox.blogspot.com/2005/08/ron-gilbert-supports-illegitimate.html). Para constar, demos a Ron a aprovação em nosso readme.txt desde Quarta-feira, 17 de abril, 17:31:05 de 2002 (UTC).
+
+Também pedimos que testadores relatem problemas com ['Inherit the Earth'](http://www.wyrmkeep.com/ite/) (detalhes e informações de compra entrando no link!). Use o rastreador de bugs e defina o jogo correto em Grupo. Teste apenas com a versão **mais recente** do CVS. Obrigado!

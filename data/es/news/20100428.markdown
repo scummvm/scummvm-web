@@ -1,0 +1,17 @@
+---
+title: "All hail new students!"
+date: 1272461760
+author: DJWillis
+---
+
+![GSoC 2010 Logo](/data/news/20100428.jpg) Google recently announced the list of students for this year's [Summer of Code](http://socghop.appspot.com) program.  
+  
+For ScummVM, the accepted students and their respective projects can be found at our [landing page](http://socghop.appspot.com/org/home/google/gsoc2010/scummvm) of the GSoC 2010 site.
+
+The ScummVM team and especially the mentors welcome our 4 students this year:  
+  
+[Neeraj](http://sud03r.wordpress.com/), [Tony](http://tonypuccinelli.blogspot.com/), [Michael](http://blog.birdiesoft.dk/) and [Alejandro](http://vgvgf.com.ar/gsoc/) who will be tackling a [range of interesting projects](http://wiki.scummvm.org/index.php/Summer_of_Code/GSoC2010).  
+Congratulations, the best of luck and enjoy coding this summer :-)
+
+We would also like to take the time to thank everyone who applied for ScummVM GSoC places this year but was unsuccessful.  
+We hope we can welcome many of you into our community.

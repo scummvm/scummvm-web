@@ -1,0 +1,13 @@
+---
+title: "Tem macacos aqui!"
+date: 1084196160
+author: ender
+---
+
+Esta é apenas uma atualização rápida para que todos saibam que ainda estamos vivos. O trabalho no ScummVM está progredindo normalmente, e pretendemos lançar o ScummVM 0.6.1 em breve.
+
+ScummVM 0.6.1 irá conter várias correções de bugs para vários jogos, bem como vários aprimoramentos de som e música para jogos SCUMM posteriores (Full Throttle, The Dig, Curse of Monkey Island).
+
+Além disso, os seguidores do CVS podem ter notado que o suporte para Another World foi adicionado recentemente. Isso provocou um pouco de discussão dentro da equipe ScummVM sobre se isso é considerado uma aventura e dentro dos objetivos do ScummVM.
+
+Depois de muito debate, o autor da engine (cyx) decidiu que seria mais conveniente continuar o projeto separadamente do ScummVM. Agora foi removido, e futuras informações e desenvolvimento ocorrerão como parte do projeto [RAW](http://membres.lycos.fr/cyxdown/raw/). Para evitar qualquer previsão do juízo final, devo também salientar que ele continua a ser um membro da equipe ScummVM.

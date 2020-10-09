@@ -1,0 +1,15 @@
+---
+title: "It's Time for ScummVM 1.2.0 Release Testing"
+date: 1284298560
+author: clone2727
+---
+
+Following up on the SCI game testing, a testing session for the next ScummVM release has arrived! It's time to point and click at several other ScummVM games that need testing before we can publish a new version.
+
+This testing season we have two new games up for testing: *Fascination* and *Maniac Mansion* (C64 version).
+
+Contrary to previous testing seasons, not all games will be tested. The number of games supported has grown significantly and testing all the games is too much. So for this testing season, and testing seasons onward, we've decided to only put games up for testing that have had significant changes to their codebase since the last release. As usual, the list of games to be tested is on the [wiki](http://wiki.scummvm.org/index.php/Release_Testing/1.2.0). The page also lists games that are not required to be tested, but feel free to test them too if you don't have any of the other games that require testing.
+
+Note that the SCI games are not on the testing page. The SCI testing went well and they do not need to be tested again.
+
+So what are you waiting for? Go test some ScummVM games using a [daily build](/downloads/#daily) and report any bugs you find to the [bug tracker](http://bugs.scummvm.org/). After completing a playthrough of a game, please report it on [the forums](http://forums.scummvm.org/viewtopic.php?t=9320) so it can be added to the [release testing wiki page](http://wiki.scummvm.org/index.php/Release_Testing/1.2.0). Make sure you provide the version, language, and platform of your game when reporting a completion. Consult the [testing guidelines](http://wiki.scummvm.org/index.php/Release_Testing) should you have any other questions.

@@ -1,0 +1,15 @@
+---
+title: "*The Prince and the Coward* recibe una traducción al inglés"
+date: 1588200000
+author: sev
+---
+
+Tras seis meses de trabajo y los esfuerzos de siete colaboradores, por fin nos complace anunciaros que hemos terminado la primera versión de la traducción al inglés de *The Prince and the Coward*, o *Książę i Tchórz*. Se han procesado, revisado y traducido 2.762 líneas de diálogo con 19.735 palabras.
+
+La traducción aún no es perfecta, ¡y necesitamos de vuestra ayuda, camaradas aventureros! Las versiones 2.1.x de ScummVM servirán, sin embargo, hay un problema al mostrar las descripciones de los objetos del inventario. Por este motivo recomendamos utilizar [la compilación diaria](https://buildbot.scummvm.org/builds.html).
+
+Deberéis descargar el archivo prince_translation.dat que se encuentra [aquí](https://github.com/scummvm/scummvm/blob/master/dists/engine-data/prince_translation.dat?raw=true) y copiarlo en el directorio ALL/ del juego. Después, volved a detectar el juego y aseguraos de que la descripción indique «w/translation». Este sistema solo puede traducir las versiones en polaco o alemán, la versión rusa requiere algo más de esfuerzo.
+
+Si encontráis problemas de continuidad, frases mal formadas o erratas, podéis mencionarlas en el [hilo del foro](https://forums.scummvm.org/viewtopic.php?f=1&amp;t=15125) o enviar vuestras mejoras directamente al [servidor de traducción](https://translations.scummvm.org/projects/prince/prince/en/). Utilizad el buscador para encontrar las frases que os gustaría mejorar. Si no queréis complicaros la vida con el servidor de traducción, también aceptamos capturas de pantalla con el problema.
+
+¡Buena suerte con vuestras aventuras, mientras la mayoría seguís quedándoos en casa!

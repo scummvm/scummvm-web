@@ -1,0 +1,30 @@
+---
+title: "Iniciando testes com o ScummVM 1.8.0"
+date: 1454333760
+author: sev
+---
+
+Após um longo intervalo, finalmente começamos os preparativos para o próximo lançamento, o ScummVM 1.8.0.
+
+O último ano e meio foi muito movimentado e adicionamos 10 (dez, zehn, dieci, dix, diez, десять) novos jogos:
+
+*   *Rex Nebular and the Cosmic Gender Bender*
+*   *Sfinx*
+*   *Zork Nemesis: The Forbidden Lands*
+*   *Zork: Grand Inquisitor*
+*   *The Lost Files of Sherlock Holmes: The Case of the Serrated Scalpel*
+*   *The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo*
+*   *Beavis and Butthead in Virtual Stupidity*
+*   *Amazon: Guardians of Eden*
+*   *Broken Sword 2.5: The Return of the Templars*
+*   *Labyrinth of Time*
+
+Além disso, tivemos uma grande reescrita do código da engine AGI; portanto, todos os jogos AGI devem funcionar melhor, mas também podem ter bugs novos e inesperados.
+
+Desta forma, precisamos da sua ajuda para testar esses jogos, incluindo os baseados em AGI. Para sua conveniência, reunimos o que requer testes em [nosso wiki](http://wiki.scummvm.org/index.php/Release_Testing/1.8.0). Existem também alguns outros clássicos antigos nessa lista que poderiam ser usados novamente.
+
+Você precisa obter uma [compilação diária](/downloads/#daily) do ScummVM e pode começar a ajudar imediatamente! Se encontrar algum bug, por favor relate-o em nosso [rastreador de bugs](http://bugs.scummvm.org/). Após concluir um dos jogos, informe-nos nos [fóruns](http://forums.scummvm.org/viewtopic.php?t=14006) para que possamos marcar seu progresso no [wiki](http://wiki.scummvm.org/index.php/Release_Testing/1.8.0) e outros jogadores podem se concentrar em jogos não testados. Certifique-se de seguir nossas diretrizes para testes de versão, que podem ser encontradas [aqui](http://wiki.scummvm.org/index.php/Release_Testing).
+
+Alguns desses jogos também exigem [capturas de tela](http://wiki.scummvm.org/index.php/Screenshots), que você pode tirar ao longo do jogo.
+
+Boas aventuras (em modo de teste)!

@@ -1,0 +1,15 @@
+---
+title: "Es la segunda nariz roja más grande..."
+date: 1072359360
+author: ender
+---
+
+¡Desde el centro de mando de ScummVM, bueno, de parte de todos los que seguimos despiertos, deseamos que tengáis (o hayáis tenido) unas felices fiestas!
+
+Como intento impreciso de empezar nuestro propósito de año nuevo (publicar noticias con mayor frecuencia) un poco antes de lo que toca, aquí tenéis una publicación casi inútil. Si alguien descubre algún artículo en prensa sobre ScummVM (o trabaja para ella), por favor, que nos contacte a press \[at\] scummvm.org para que podamos incluirlo en nuestra página de prensa.
+
+Las fechas de lanzamiento de la versión 0.6.0 se han retrasado un poco debido a varios problemas (como la recodificación de las escenas cinemáticas de Broken Sword) y el desarrollo profundo de ciertas características (como el subsistema INSANE de Full Throttle).
+
+Para intentar reducir la duración de la fase de testeo prelanzamiento, quisiera pedir a todo el que utilice compilaciones diarias o del CVS que informe de cualquier error que encuentre de forma generalizada. Esto incluiría (a pesar de lo que solemos decir) a nuestros juegos «nuevos»: Full Throttle, Flight of the Amazon Queen, Broken Sword 1 y 2.
+
+Ya que pedimos testeadores antes de paralizar el desarrollo de cara a lanzar la nueva versión, os pedimos que comprobéis que estáis probando la última versión disponible del CVS antes de informar de cualquier fallo.

@@ -1,0 +1,20 @@
+---
+title: "ScummVM 0.8.0 released."
+date: 1130679360
+author: sev
+---
+
+We are pleased to announce a long-awaited ScummVM 0.8.0 release. We, the ScummVM Team, have prepared a big pack of new features for you. Most outstanding amongst these are:
+
+*   New improved launcher and in-game GUI
+*   Support for [Inherit the Earth](http://www.wyrmkeep.com/ite/) and Gobliiins
+*   Playstation Portable, Playstation 2 and EPOC/SymbianOS ports
+*   CGA and Hercules rendering modes for some games
+*   Preliminary support for NES and C64 LucasArts games
+*   Much improved support for Humongous Entertainment children games (Freddi Fish, Pajama Sam, Putt-Putt, Spy Fox, Fatty Bear, Backyard Sports and Buzzy)
+
+You may find a more detailed list of changes as well as files to download at our [downloads page](/downloads/). We encourage you to update to this latest and best ScummVM version as soon as possible.
+
+Along with this release, we are also pleased to announce the launch of our [new forums](http://forums.scummvm.org/). Located at the easy to remember address of [http://forums.scummvm.org/](http://forums.scummvm.org/), the new forums feature individual sub-forums for Ports, and many new functions for both the users and moderators alike.
+
+Please note that the SourceForge.net forums will be closed and archived within the next 48 hours. These archives will be available from the bottom of the forums' Main Index page.

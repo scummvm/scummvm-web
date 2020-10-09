@@ -1,0 +1,9 @@
+---
+title: "¡Traed todos vuestros paquetes!"
+date: 1567632153
+author: sev
+---
+
+Al equipo de ScummVM le complace anunciar el soporte para una de las creaciones de John Romero, el juego *Hyperspace Delivery Boy!*. Damos soporte a todas las versiones conocidas, que incluyen a la de Linux, Windows y PocketPC. Si no tienes una copia, puedes descargar la demo desde nuestra [sección de demos](/demos/).
+
+Así que haceos con vuestra copia del juego y ayudadnos a probarlo usando la [última compilación de desarrollo](https://buildbot.scummvm.org/builds.html) de ScummVM. Si vuestra versión del juego no es reconocida o si encontráis fallos, por favor, informad de todo en nuestro [gestor de problemas](https://bugs.scummvm.org). ¡Y, como siempre, pasadlo bien!

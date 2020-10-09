@@ -1,0 +1,15 @@
+---
+title: "Bem-vindo ao maior Summer of Code de todos os tempos"
+date: 1488807360
+author: Strangerke
+---
+
+![Logotipo do GSoC](/data/news/GSoC2017Logo.png)
+
+Este ano, o Google anunciou o maior Summer of Code de todos os tempos, com 201 organizações aceitas. Temos o prazer de anunciar que estamos participando novamente deste ano, juntamente com o projeto irmão ResidualVM.
+
+Você é um aluno motivado? Deseja participar do maior Google Summer of Code de todos os tempos? Deseja ser conhecido como colaborador de um dos maiores projetos de preservação de jogos?
+
+Então ScummVM e ResidualVM estão esperando por você! Dê uma olhada em [nossa página idéias](http://wiki.scummvm.org/index.php/Summer_of_Code/GSoC_Ideas_2017) ou traga sua própria ideia!
+
+De qualquer forma, não hesite em conversar conosco no IRC! Um lugar: Freenode. Dois canais: #scummvm e #residualvm

@@ -1,0 +1,15 @@
+---
+title: "ScummVM 2.1.2 \"Fixing Powerful Windows\" ist da!"
+date: 1585682388
+author: lotharsm
+---
+
+Das ScummVM-Team freut sich, die Verfügbarkeit eines neuen Bugfix-Releases des Versionszweigs 2.1 anzukündigen - ScummVM 2.1.2, Codename: "Fixing Powerful Windows". Du wirst feststellen, dass unsere [Download-Seite](/downloads/) nicht gerade umfangreich ist. Keine Sorge, wir haben die (unglaublich gute) Portabilität von ScummVM nicht eingeschränkt.
+
+ScummVM 2.1.2 ist ein Wartungs-Release für Windows und Mac OS X. Darin enthalten sind einige [Fehlerkorrekturen](https://www.scummvm.org/frs/scummvm/2.1.2/ReleaseNotes.html) für diese Plattformen. Da alle anderen Systeme nicht betroffen sind, musst Du dir über das scheinbar ausbleibende Update keine Gedanken machen.
+
+Während Du auf unsere Download-Seite unterwegs warst, hast Du vielleicht einen neuen Eintrag entdeckt, besonders, wenn Du mit einem PC mit Ubuntu unterwegs bist: ScummVM ist jetzt offiziell auch im [Snap Store](https://snapcraft.io/scummvm) verfügbar! Dank der laufenden Unterstützung von Alan "popey" Pope und Alan Griffiths ist das Snap Store-Release von ScummVM auf Augenhöhe mit unseren übrigen Linux-Versionen. Im Vergleich zum traditionellen Weg, Software unter Linux zu verteilen, haben wir dank des Snap Stores wesentlich mehr Freiheiten, wenn es um die Veröffentlichung neuer Versionen geht. Sobald wir eine neue Version freigeben, wirst du die neue Version von ScummVM als automatisches Update erhalten.
+
+Das ScummVM-Snap wird in zwei Versionen veröffentlicht. Der "stable&amp;quot-Channel enthält unsere aktuelle Version, was ihn zu einer ausgezeichneten Wahl für die meisten Benutzer macht. Für den Fall, dass Du die absolut neusten Funktionen unserer aktuellen Entwicklerversionen entdecken möchstest, solltest Du dem "edge"-Channel folgen und täglich eine aktualisierte Version erhalten! Wir haben auch schon bereits ein paar nette Erweiterungen für die Snap-Packages in der Hinterhand - aber hierzu später mehr.
+
+Wir wünschen Dir viel Spaß!

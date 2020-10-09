@@ -1,0 +1,13 @@
+---
+title: "Las últimas noticias."
+date: 1021124160
+author: ender
+---
+
+El equipo de ScummVM todavía está trabajando duro para corregir los fallos que quedan y poder publicar nuestro próximo hito (la versión 0.2.0). Mientras tanto, aquí tenéis algunas noticias sobre el proyecto.  
+  
+Algo especialmente interesante es que Zak McKracken 256 (la versión para fmTowns con gráficos mejorados) tendrá soporte oficial en la versión 0.2.0 y puede ser jugado de principio a fin con solo dos fallos de importancia en el CVS actual.  
+  
+Además, ahora mismo tenemos a alguien trabajando en una conversión para GBA. Esta ha sido una petición popular y, con suerte, estará lista a tiempo para la versión 0.3.0. Podéis ver las pruebas de su existencia en esta [captura de pantalla de su desarrollo](http://www.bbrox.org/scummadv_by_ph0x_0427c.jpg). La conversión está demasiado verde como para entrar al CVS, así que aguantad :)  
+  
+En otras noticias sobre conversiones, LyonHrt ha compilado una vieja versión del CVS de ScummVM para Dreamcast, mantenida por nuestro compañero Marcus Comstedt. La podéis encontrar más abajo. Tened en cuenta que son compilaciones antiguas y sin soporte oficial del equipo de ScummVM. Cualquier comentario sobre esta conversión debe ir al foro de Dreamcast en ConsoleVision.

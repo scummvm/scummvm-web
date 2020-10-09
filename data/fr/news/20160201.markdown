@@ -1,0 +1,30 @@
+---
+title: "Début des tests pour ScummVM 1.8.0"
+date: 1454333760
+author: sev
+---
+
+Après une longue pause, nous commençons enfin les préparations pour la sortie d'une nouvelle version, ScummVM 1.8.0.
+
+Nous n'avons pas chômé pendant la dernière année et demi, et nous avons ajouté 10 (ten, zehn, dieci, dix, diez, десять) nouveaux jeux:
+
+*   *Rex Nebular and the Cosmic Gender Bender*
+*   *Sfinx*
+*   *Zork Nemesis : Les Territoires interdits*
+*   *Zork: Grand Inquisitor*
+*   *Les Dossiers secrets de Sherlock Holmes: The Case of the Serrated Scalpel*
+*   *Les Dossiers secrets de Sherlock Holmes: L'Affaire de la rose tatouée*
+*   *Beavis and Butthead in Virtual Stupidity*
+*   *Amazon: Guardians of Eden*
+*   *Les Chevaliers de Baphomet 2.5 : Le Retour des Chevaliers du Temple*
+*   *Labyrinth of Time*
+
+Le moteur pour les jeux AGI a également été largement réécrit, et ainsi tous ces jeux devraient mieux marcher. Mais il n'est pas exclu que ces changements aient introduit de nouveaux bogues.
+
+Nous avons donc besoin de votre aide pour tester ces jeux, y compris les jeux AGI. Vous trouverez ce qui a besoin d'être testé sur [notre wiki](http://wiki.scummvm.org/index.php/Release_Testing/1.8.0). En plus des jeux listés ci-dessus cela inclut quelque autres vieux classiques qui bénéficieraient d'être de nouveau testés.
+
+Vous avez besoin de télécharger une version de ScummVM [récemment compilée](/downloads/#daily) puis vous pouvez vous lancer dans les tests ! Si vous trouvez des bogues, veuillez les signaler dans notre [base de bogues](http://bugs.scummvm.org/). Après avoir fini un jeu, veuillez nous le signaler sur [le forum](http://forums.scummvm.org/viewtopic.php?t=14006) pour que nous puissions mettre à jour [le wiki](http://wiki.scummvm.org/index.php/Release_Testing/1.8.0) et que les autres joueurs puissent se concentrer sur les jeux non encore testés. Assurez-vous également de suivre les consignes de tests que vous trouverez en anglais [ici](http://wiki.scummvm.org/index.php/Release_Testing).
+
+Nous avons également besoin de [captures d'écran](http://wiki.scummvm.org/index.php/Screenshots) pour certains de ces jeux, donc penser à capturer en jouant !
+
+Nous vous souhaitons de joyeuses aventures (en mode test) !

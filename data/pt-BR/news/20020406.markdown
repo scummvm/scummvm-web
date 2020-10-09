@@ -1,0 +1,17 @@
+---
+title: "Loom e 0.2.0"
+date: 1018100160
+author: ender
+---
+
+Depois de algum trabalho, a versão CD do Loom de 256 cores está completa! Com isso, estamos começando a nos preparar para o lançamento do 0.2.0. Para nos ajudar com isso, pedimos a você - nossos jogadores - que baixe a mais recente compilação diária e compilações CVS e jogue seus jogos favoritos!
+Precisamos garantir que os seguintes jogos sejam concluídos sem grandes bugs de jogabilidade (por exemplo, falhas, congelamentos etc. - problemas menores, como a sincronização de som, não contam):
+
+*   Loom CD
+*   Monkey Island 1 (CD)
+*   Monkey Island 2
+*   Indy 4: Fate of atlantis
+*   Sam and Max
+*   Day of the Tentacle
+
+Muito obrigado e esperamos que tudo funcione bem, para que possamos finalmente lançar uma nova versão! Além disso, pela demanda popular, o 0.2.0 incluirá um novo recurso de 'salvamento automático' para garantir que você nunca perca horas de árduo progresso, porque esqueceu de salvar e de repente encontrou um bug!

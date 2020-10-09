@@ -1,0 +1,11 @@
+---
+title: "Elementar, meu caro Watson"
+date: 1442151360
+author: Paul Gilbert
+---
+
+Sherlock Holmes, o maior detetive de todos os tempos, tem um par de casos intrigantes para resolver. Em primeiro lugar, um assassinato horrível fora de um teatro. A polícia não tem idéia de quem foi. Poderia ser o trabalho do notório assassino, Jack, o Estripador? Então, no segundo caso, seu irmão Mycroft quase morreu em uma explosão. Nesse caso, você interpretará inicialmente Watson, que tenta tirar Sherlock de seu desespero, e depois como Sherlock, enquanto ele tenta entender por que Mycroft foi atacado e por que ele o chamou pouco antes da explosão.
+
+A Equipe ScummVM tem o orgulho de anunciar o suporte para os dois jogos do [*The Lost Files of Sherlock Holmes*](https://en.wikipedia.org/wiki/The_Lost_Files_of_Sherlock_Holmes).. The Case of the Serrated Scalpel, e The Rose Tattoo. Muito obrigado à Electronic Arts, por nos permitir acessar os códigos fonte originais. Os dois jogos agora podem ser jogados no ScummVM utilizando as mais recentes [compilações diárias](/downloads/#daily) e prontos para teste. Para Serrated Scalpel, atualmente apenas a versão para PC é suportada. A versão 3DO é mais jogável, mas ainda precisa de mais trabalho. Como sempre, todos os bugs devem ser relatados ao [nosso rastreador de bugs](http://bugs.scummvm.org/) seguindo nossas [diretrizes de envio de bugs](/faq/#question.report-bugs). Enquanto você joga, também gostaríamos que você pudesse tirar algumas [capturas de tela](http://wiki.scummvm.org/index.php/Screenshots) para nós.
+
+Então, jogue e veja se você está disposto a assumir o lugar de Sherlock Holmes. O jogo é à pé. Ou neste caso, à jogo :)

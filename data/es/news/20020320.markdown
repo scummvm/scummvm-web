@@ -1,0 +1,7 @@
+---
+title: "Código paralizado"
+date: 1016631360
+author: ender
+---
+
+ScummVM acaba de paralizar su código. Esto significa que no se actualizará el CVS con nuevas correcciones, ya que estamos haciendo una gran reestructuración del motor. Esperamos que, al reescribir muchas partes de ScummVM al lenguaje C++, podamos arreglar un gran número de fallos inherentes en el motor y hacer que el código sea más fácil de manipular, tanto para nosotros como para cualquier desarrollador que desee unirse al proyecto en el futuro. Esto significa que los informes de fallos y parches que se encuentren actualmente en el sistema serán ignorados hasta que termine la paralización. Nuestra idea es hacerlo durante una semana, pero podría llevar más tiempo.

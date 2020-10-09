@@ -1,0 +1,14 @@
+---
+title: "Algumas Atualizações Bastante Importantes"
+date: 1015594560
+author: laxdragon
+---
+
+![Full Throttle](/data/news/20020308.png) BBrox, Endy e Yazoo estiveram no modo de crise esta semana (Parabéns pessoal!). Aqui está o que há de novo no desenvolvimento do ScummVM:
+
+*   Sam and Max agora são completáveis!
+*   Engine de vídeo *inSane* funcionando. Utilizado em Dig e Full Throttle
+*   Mais opções de linha de comando para controle. Leia o readme.txt
+*   Trabalhos preliminares começaram em Curse of Monkey Island
+*   Mutle incluiu a versão para Mac na árvore de CVS
+*   Muitos bugs foram corrigidos.

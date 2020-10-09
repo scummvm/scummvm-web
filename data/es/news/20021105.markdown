@@ -1,0 +1,30 @@
+---
+title: "Designios ineSCUMMtrables..."
+date: 1036503360
+author: ender
+---
+
+Bueno, parece que hemos perdido el contacto con LucasArts, ya que hace semanas que no sabemos de ellos. Así que asumiendo que no nos manden un email de repente en contra de esto, vamos a preparar el lanzamiento de la versión 0.3.0.  
+  
+Lo primero de todo, ScummVM 0.3.0 será compatible con:  
+
+*   Zak McKracken (versión a 256 colores para FmTowns)
+*   Monkey Island (versión VGA en disquetes y versión en CD mejorada)
+*   Monkey Island II
+*   Loom (Versión talkie en CD)
+*   Indiana Jones and the Fate of Atlantis
+*   Day of the Tentacle
+*   Sam and Max Hit the Road
+*   The Dig
+*   Simon The Sorcerer 1
+
+  
+La próxima versión importante, 0.4.0, será compatible con:  
+
+*   Simon The Sorcerer 2
+*   Full Throttle
+*   Indiana Jones and Last Crusade (versión a 256 colores)
+
+  
+  
+¿Y qué podéis hacer para ayudarnos? Bueno, ahora mismo necesitamos gente que pruebe todos los juegos compatibles y nos avise de si hay fallos de importancia que los conviertan en injugables. Para saber más, leed la [información de la versión 0.3.0 de ScummVM](http://www.scummvm.org/documentation.php?view=release).

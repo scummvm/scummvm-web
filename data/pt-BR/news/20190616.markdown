@@ -1,0 +1,17 @@
+---
+title: "Precisa-se de Blade Runners!"
+date: 1560679776
+author: peterkohaut
+---
+
+Nossa equipe do ScummVM está procurando Blade Runners que ajudem a encontrar, perseguir e remover bugs que escaparam das colônias de dados fora do mundo. Esses bugs não são perigosos e não o impedirão de descobrir mais segredos e escolher o seu destino. Seu spinner, pistola, máquina ESPER e máquina Voight-Kampff estarão à sua disposição.
+
+Anunciamos que Blade Runner está pronto para testes. Os seguintes idiomas são suportados - inglês (versões em CD e DVD), alemão, italiano, francês, espanhol e a versão não oficial em russo da Fargus Multimedia.
+
+Pegue sua cópia do Blade Runner, [obtenha a compilação mais recente do ScummVM](https://buildbot.scummvm.org/builds.html) (NÃO a última versão estável) e [copie os arquivos necessários](https://wiki.scummvm.org/index.php?title=Datafiles#Blade_Runner).
+
+Agora você pode jogar o jogo com legendas! Basta baixar [o arquivo zip das legendas](https://www.scummvm.org/games/#bladerunner) extrair o subtitles.mix e colocá-lo entre os demais arquivos do Blade Runner. No momento, possuímos apenas legendas em inglês e francês; no entanto, se você quiser nos ajudar a transcrever outros idiomas do áudio, entre em contato com peterkohaut &amp; praetorian (https://www.scummvm.org/contact/).
+
+Observe que quando você adiciona o diretório do jogo no ScummVM, você recebe duas opções para o jogo. A primeira opção é para o jogo original e será simplesmente chamada de "Blade Runner"; Estamos interessados no seu feedback principalmente para esta versão do jogo, pois ela é considerada completa. A outra opção é importar o jogo com conteúdo restaurado e chama-se "Blade Runner com conteúdo restaurado"; esta versão ainda está em andamento e por enquanto não está completa. Se você estiver testando esta versão, especifique-a explicitamente em seus [relatórios de feedback e bugs](https://bugs.scummvm.org/).
+
+Se a sua versão do jogo não for suportada, [crie um relatório de feedback com o MD5](https://wiki.scummvm.org/index.php/Reporting_unknown_MD5_checksums) para que possamos adicionar suporte a ela.

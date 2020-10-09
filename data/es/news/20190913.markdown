@@ -1,0 +1,13 @@
+---
+title: "Reclutando para *Mission Supernova*"
+date: 1568409000
+author: criezy
+---
+
+¡Te necesitamos! Únete a la tripulación de Supernova en un viaje inolvidable para presenciar la muerte de una estrella.
+
+¿Alguna vez has soñado con ser astronauta? ¿Ser abandonado solo en una nave espacial rota? ¿Morir asfixiado? ¿Ser electrocutado? ¿Que te disparen? ¿Perderse en una pirámide? ¿Ser atrapado robando la cabeza de un dinosaurio y ser enviado a prisión? Y si eso no es suficiente, puedes incluso desactivar el modo mejorado en ScummVM y experimentar la frustración de hacer clic y señalar tu camino a través de un juego de ordenador de hace veinticinco años.
+
+Estamos orgullosos de anunciar que *Mission Supernova Teil 1: Das Schicksal des Horst Hummel* y *Mission Supernova Teil 2: Der Doppelgänger* son ahora ambos soportados por ScummVM. Además, también hemos traducido ambos juegos al inglés y puedes decidir si quieres jugar en alemán o en inglés. Los juegos se pueden descargar gratuitamente [en el sitio web del desarrollador](http://outpost.simplicity.de/), así que no hay razón para no jugarlos.
+
+Por favor, ayúdanos a probar los juegos e informarnos de cualquier error o problema de traducción que encuentres en [nuestro gestor de problemas] (https://bugs.scummvm.org/). Necesitarás [una versión reciente de ScummVM](https://buildbot.scummvm.org/builds.html) y [el archivo supernova.dat](https://github.com/scummvm/scummvm/blob/master/dists/engine-data/supernova.dat) (si no está incluido en el paquete ScummVM para tu plataforma). También puedes ver información básica sobre los controles del juego [en nuestra wiki](https://wiki.scummvm.org/index.php?title=Mission_Supernova#Controls) o acceder al manual del juego usando la tecla F2.

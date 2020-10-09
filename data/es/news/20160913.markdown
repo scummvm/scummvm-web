@@ -1,0 +1,21 @@
+---
+title: "ScummVM Release 1.9.0 Testing Has Begun"
+date: 1473773760
+author: sev
+---
+
+Time flies quickly, and now it is time to start the release cycle for ScummVM 1.9.0.
+
+Two new game engines became production quality, and we would like to ask you to test the following games:
+
+*   *Myst*
+*   *Myst: Masterpiece Edition*
+*   *U.F.O.s*
+
+Also, our SCI engine team has been busy improving the ScummVM experience with Sierra games, particularly with fixing the original script bugs. Thus, we would like to ask you to test several of those games as well.
+
+The complete list of the games that require testing for this release can be found on [our wiki](http://wiki.scummvm.org/index.php/Release_Testing/1.9.0).
+
+Please use a [daily build](/downloads/#daily) of ScummVM for testing. In case you encounter any bugs, there is a place for them to be reported at our [bug tracker](https://bugs.scummvm.org/). Please, also track your progress on [the forum thread](http://forums.scummvm.org/viewtopic.php?t=14161) and we can cross it out on the [wiki](http://wiki.scummvm.org/index.php/Release_Testing/1.9.0). Please make sure to follow our guidelines for release testing which can be found [here](http://wiki.scummvm.org/index.php/Release_Testing).
+
+Also we're still lacking some [screenshots](http://wiki.scummvm.org/index.php/Screenshots), so please don't forget to snap some during your gameplay.

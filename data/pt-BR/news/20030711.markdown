@@ -1,0 +1,18 @@
+---
+title: "ScummVM 0.5.0-Pre"
+date: 1057930560
+author: ender
+---
+
+O ScummVM acabou de entrar em um congelamento e teste de CVS para se preparar para um eventual lançamento estável 0.5.0 (esperançosamente no final de julho). Mas precisamos da sua ajuda!
+
+Por favor, clique naquela pequena opção 'Documentação' ali, e veja a [lista de verificação de versão 0.5.0](http://www.scummvm.org/documentation.php?view=release). Se houver algum jogo listado como precisando de teste e você sentir vontade de jogá-lo com a versão de desenvolvimento mais recente do ScummVM, faça-o e informe-nos os resultados. Mais informações na página da lista de verificação.
+
+Além de muitas correções que estarão no próximo 0.5.0, especialmente na área de música, vem o suporte para três novos jogos:
+
+*   Maniac Mansion aprimorado
+*   Zak McKracken aprimorado
+*   **Beneath a Steel Sky**, graças ao apoio da Revolution
+
+Em outras notícias, o CVS Anonymous está (e tem estado por algum tempo) atrasado em relação à árvore de desenvolvimento oficial. Se você quiser o CVS mais recente (para teste, por exemplo), use a 'Compilação de Código-fonte' na página de download do CVS anônimo. E claro,
+**Tenha cuidado**

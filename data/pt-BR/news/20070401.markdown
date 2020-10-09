@@ -1,0 +1,19 @@
+---
+title: "LeChuck disse RTS e nós trouxemos RTS para ele (e você)!"
+date: 1175434560
+author: clone2727, LordHoto
+---
+
+Você acha que RTS (jogo de estratégia em tempo real) e ScummVM não combinam? Claro que sim! Como você sabe, há algum tempo apoiamos The Legend of Kyrandia. Agora, depois de algum trabalho, temos partes do Dune 2 funcionando com extensões para nosso código Kyrandia. No entanto, existem apenas algumas coisas funcionando corretamente. Pelo menos a sequência de introdução funciona perfeitamente agora (verifique as imagens).
+
+Além disso, o mentat está basicamente funcionando, embora falte algumas sequências de animação. Por último, mas não menos importante, o único suporte no jogo que temos até agora é o carregamento de mapas, mas há algumas outras coisas que você não pode ver nas imagens agora. Portanto, fique atento e aguarde o primeiro RTS suportado pelo ScummVM!
+
+Como o código ainda é um trabalho em andamento, ele ainda não foi confirmado. Mas, espere por ele nos próximos dias, quando LordHoto realizar um pouco mais de trabalho.
+
+[Captura de tela 1](/data/news/20070401_1.png)
+
+[Captura de tela 2](/data/news/20070401_2.png)
+
+[Captura de tela 3](/data/news/20070401_3.png)
+
+**Ok, então todos nós sabemos que isso é uma piada de primeiro de abril. Mas, na verdade, Dune 2 compartilha vários dos recursos dos jogos Kyrandia. Além disso, partes das imagens vistas aqui foram extraídas usando uma ferramenta Kyrandia (como diz LordHoto). Isso ainda não significa que o suporte será adicionado.**

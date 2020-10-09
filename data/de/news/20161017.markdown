@@ -1,0 +1,19 @@
+---
+title: "ScummVM 1.9.0 \"Myst-ery U.F.O.s\" ist da"
+date: 1476711360
+author: sev
+---
+
+Unsere einmonatige Testphase ist vorüber. Dank der Hilfe von Ihnen, unseren treuen Benutzern und Testern, sind wir jetzt dazu bereit, unsere nächste Version zu veröffentlichen.
+
+Wie immer waren wir sehr damit beschäftigt, neue Spiele hinzuzufügen und bereits vorhandene zu verbessern. Jetzt, nach vielen Jahren der Entwicklung, sind wir stolz darauf, die Unterstützung für *Myst* und *Myst: Masterpiece Edition* ankündigen zu können.
+
+Außerdem unterstützen wir jetzt *U.F.O.s (Gnap: Der Schurke aus dem All)* und die frühen "Sierra Hi-Res"-Adventures, namentlich *Hi-Res Adventure #0: Mission Asteroid*, *Hi-Res Adventure #1: Mystey House* und *Hi-Res Adventure #2: The Wizard and the Princess*. Damit werden insgesamt sechs neue Spiele unterstützt.
+
+Mit dieser Version wechseln wir zu SDL 2. Bitte [melden Sie alle Fehler,](https://bugs.scummvm.org) die sie finden können. Das letzte Mal haben wir Sparkle-basierte Updates für Mac eingeführt, und dieses Mal versuchen wir, diese auch für Windows einzuführen. Hoffentlich werden Sie die automatischen Updates in Aktion sehen, wenn wir unsere nächste Version veröffentlichen. Wir möchten noch einmal betonen, dass die automatischen Updates nur nach Ihrer ausdrücklichen Zustimmung beim ersten Programmstart aktiviert werden. Einmal aktiviert, wird ScummVM standardmäßig einmal pro Woche nach einer neuen Veröffentlichung suchen. Bildschirmfotos des automatischen Update-Vorgangs finden Sie auf der [Website von WinSparkle](https://winsparkle.org).
+
+Zu den nennenswerten Fehlerbehebungen und Verbesserungen zählen die Hercules- Darstellung und -Schriftarten für AGI-Spiele, viele Fehlerbehebungen für SCI-Spiele, verbesserte Spielerfahrung in *Sherlock* und die Unterstützung für AmiUpdate in der Amiga-Portierung.
+
+Die vollständige Liste aller Änderungen finden Sie in den [Veröffentlichungshinweisen](/frs/scummvm/1.9.0/ReleaseNotes); die Programmdateien können Sie auf unserer [Downloads-Seite](/downloads/) herunterladen.
+
+Warten Sie nicht länger, und spielen Sie *Myst* oder *U.F.O.s* jetzt gleich!

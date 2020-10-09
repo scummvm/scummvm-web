@@ -1,0 +1,14 @@
+---
+title: "Parâmetros de inicialização, alguém tem alguns parâmetros de inicialização?"
+date: 1110375360
+author: fingolfin
+---
+
+Acho que é hora de dar sinal de vida usual, regular e mensal, *"Sim, estamos vivos. Não, ainda não vamos nos fundir com o FreeSCI. Claro, se você puder doar sua Ferrari para mim, posso reconsiderar."*
+Como de costume, muitas coisas pequenas e grandes aconteceram, podemos publicar algumas informações em um futuro não muito distante. Enquanto isso, gostaria de destacar um pequeno, mas interessante detalhe, que talvez seja do interesse/útil para alguns de vocês...:
+
+Há algum tempo atrás, adicionamos uma [lista de parâmetros de inicialização](http://www.scummvm.org/documentation.php?view=bootparam) à nossa seção de documentação. Talvez você já tenha notado, se não, dê uma olhada.
+
+Caso você não saiba o que é um parâmetro de inicialização (que vergonha!), eu tentei explicá-lo [nesta página](http://www.scummvm.org/documentation.php?view=bootparam), então, dê uma olhada de qualquer maneira ;-). Se você acha que a explicação não é clara o suficiente, escreva para mim e me diga como melhorá-la.
+
+E se você realmente quer se sentir legal, você pode até contribuir um pouco aqui e nos ajudar preenchendo algumas das lacunas em nossas tabelas de parâmetro de inicialização. Mais uma vez, consulte [a página de parâmetros de inicialização](http://www.scummvm.org/documentation.php?view=bootparam) para obter mais informações.

@@ -1,0 +1,9 @@
+---
+title: "Apenas adicione água"
+date: 1075469760
+author: ender
+---
+
+Apenas uma publicação rápida de notícias para que todos saibam que ScummVM 0.6.0 ainda está em andamento. Infelizmente, o tempo de inatividade recente e outros problemas com SourceForge.net atrasaram a ramificação e o teste final desta versão, mas ainda esperamos lançá-lo o mais rápido possível!
+  
+Por outro lado, continuando a atual onda de problemas de computador, todos os endereços de e-mail do scummvm.org estão corrompidos. Esperamos corrigir isso nos próximos dias e nenhuma mensagem deve ser perdida. Se, no entanto, você deseja discutir algo importante conosco, sugerimos que fale conosco em tempo real em nosso canal de IRC (#scummvm, em irc.freenode.net).

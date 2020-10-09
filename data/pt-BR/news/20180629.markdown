@@ -1,0 +1,17 @@
+---
+title: "O final ainda não foi escrito!"
+date: 1530279360
+author: lotharsm
+---
+
+Estamos muito felizes em anunciar que nossos amigos da Cyan, Inc. [lançaram hoje sua coleção de 25 anos da série Myst](https://www.gog.com/news/release_myst_iii_exile_myst_iv_revelation?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) como download digital no GOG.com.
+
+**[Myst — Masterpiece Edition](https://www.gog.com/game/myst_masterpiece_edition?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)** e **[Riven — The Sequel to Myst](https://www.gog.com/game/riven_the_sequel_to_myst?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)** contam com o poder de ScummVM, enquanto **[Myst III — Exile](https://www.gog.com/game/myst_3_exile?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)** utilizam ResidualVM.
+
+Nas últimas duas semanas, as equipes Cyan e ScummVM fizeram grandes progressos para melhorar a compatibilidade de jogos. Devido a testes intensos, já conseguimos corrigir a maioria dos problemas presentes no ScummVM e ResidualVM. No entanto, devido à natureza do desenvolvimento do software, ainda é possível que tenhamos perdido algo, por isso precisamos da sua ajuda agora.
+
+Embora possamos corrigir problemas nas versões GOG.com dos jogos em uma data posterior com uma atualização simples, isso não será possível para a próxima edição de colecionador em DVDs, por isso precisamos garantir que possamos corrigir todos os bugs antes da fabricação dos DVDs.
+
+Portanto, pegue uma cópia do GOG.com ou, se você era um patrocinador da campanha do Kickstarter, resgate seu código. Visite a Ilha de Myst, passeie pelos 233 anos, tenha uma ótima estadia em Releeshahn e relate qualquer problema que possa encontrar ao nosso [Rastreador de Bugs](http://bugs.scummvm.org/).
+
+E por favor... traga-me as páginas azuis!

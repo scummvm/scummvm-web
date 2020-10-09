@@ -1,0 +1,13 @@
+---
+title: "Uma nova vida para Sarien?"
+date: 1148477760
+author: aquadran
+---
+
+Oi pessoal!
+
+Como vocês devem ter notado, agora estamos incluindo a engine AGI em nossa árvore de código fonte de desenvolvimento, também conhecida como SVN. Esta engine permite que você jogue as primeiras versões de jogos como Larry 1, Space Quest 1 e 2, King's Quest 1-4, Police Quest 1 e vários jogos criados por fãs. É baseada no código [Sarien](http://sarien.sourceforge.net), com permissão expressa de seus autores.
+
+Também gostaríamos de esclarecer que não temos planos de adicionar suporte para jogos SCI em um futuro próximo. Além disso, AGI é uma engine em desenvolvimento, portanto, não será incluído na próxima versão 0.9.0.
+
+PS. Isso não faz parte do projeto CABAL :-)

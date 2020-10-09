@@ -1,0 +1,17 @@
+---
+title: "ScummVM: Modern Theme Remastered"
+date: 1554619256
+author: lotharsm
+---
+
+![ScummVM Modern Theme Remastered](/data/news/20190413.png)Wie die Zeit vergeht... es ist beinahe 10 Jahre her, seit wir das "Modern Theme" in ScummVM eingeführt haben.
+
+Nach all den Jahren ist es Zeit für ein Update.
+
+Im Verlauf der letzten Wochen hat unser Teammitglied mataniko das Design von ScummVM überarbeitet. Das neue Theme folgt modernen Design-Prinzipien und bewahrt gleicheitig unsere eigene Design-Philosophie.
+
+Ab sofort werden alle zukünftigen Versionen von ScummVM [(einschließlich aktueller Entwicklerversionen!)](https://buildbot.scummvm.org/builds.html) das neue Theme standardmäßig enthalten.
+
+Du vermisst das alte Theme jetzt schon? Keine Sorge! Das alte "ScummVM Modern"-Theme kann jederzeit in den ScummVM-Optionen ausgewählt werden.
+
+Was denkst Du über das neue Theme? [Lass' es uns in unseren Foren wissen!](https://forums.scummvm.org/viewtopic.php?f=1&amp;t=14850&amp;p=87219) Wie immer ist Dein Feedback jederzeit willkommen.

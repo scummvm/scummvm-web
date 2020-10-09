@@ -1,0 +1,30 @@
+---
+title: "ScummVM Release 1.8.0: inizia la fase di test"
+date: 1454333760
+author: sev
+---
+
+È passato un bel po' di tempo, ma stiamo finalmente iniziando a preparci per la nostra prossima release, la 1.8.0.
+
+Gli ultimi diciotto mesi sono stati belli pieni, e abbiamo aggiunto 10 (ten, zehn, dieci, dix, diez, десять) nuovi giochi:
+
+*   *Rex Nebular and the Cosmic Gender Bender*
+*   *Sfinx*
+*   *Zork Nemesis: The Forbidden Lands*
+*   *Zork: Grand Inquisitor*
+*   *The Lost Files of Sherlock Holmes: The Case of the Serrated Scalpel*
+*   *The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo*
+*   *Beavis and Butthead in Virtual Stupidity*
+*   *Amazon: Guardians of Eden*
+*   *Broken Sword 2.5: The Return of the Templars*
+*   *Labyrinth of Time*
+
+Abbiamo anche riscritto buona parte del motore AGI, dunque i giochi AGI dovrebbero funzionare meglio; potrebbero presentare anche nuovi bug.
+
+Ci serve il tuo aiuto nel testare i giochi nuovi e i giochi AGI. Abbiamo raccolto un elenco delle cose che vanno testate sulla nostra [wiki](http://wiki.scummvm.org/index.php/Release_Testing/1.8.0). Ci sono anche un paio di vecchi classici a cui una ripassata non farebbe male.
+
+Se vuoi darci una mano, per prima cosa, procurati una [daily build](/downloads/#daily) di ScummVM. Se trovi dei bug, ti preghiamo di farcelo sapere sul nostro [bug tracker](http://bugs.scummvm.org/). Quando riesci a finire un gioco, faccelo sapere sul nostro [forum](http://forums.scummvm.org/viewtopic.php?t=14006) così possiamo segnarlo sulla [wiki](http://wiki.scummvm.org/index.php/Release_Testing/1.8.0) e gli altri volontari possono concentrarsi sui giochi non testati. Ti preghiamo di seguire le nostre linee guida per il testing, che trovi [qui](http://wiki.scummvm.org/index.php/Release_Testing).
+
+Alcuni dei giochi nella lista avrebbero bisogno anche di qualche [screenshot](http://wiki.scummvm.org/index.php/Screenshots), che potresti fare man mano che giochi.
+
+In bocca al lupo (in tutti i sensi) con le tue avventure!

@@ -1,0 +1,11 @@
+---
+title: "Release your inner Voyeur."
+date: 1402148160
+author: DreamMaster
+---
+
+Or, the "Better late than never" announcement. It was pointed out to me today that although we merged Voyeur into the master branch some months ago, we never actually called for an official testing period. So this announcement seeks to remedy that.
+
+Take on the role of a private investigator. A powerful CEO with aspirations for the presidency has invited his family to his home for the weekend. There are suspicions of corruption, and you've been hired to find out his secrets, and determine just what he's hiding.
+
+The ScummVM Team is proud to announce that [Voyeur](http://www.mobygames.com/game/dos/voyeur) is now playable in ScummVM using the latest [daily builds](/downloads/#daily), and ready for testing. As usual, all bugs should be reported to [our bug tracker](http://bugs.scummvm.org/) following our [bug submission guidelines](/faq/#question.report-bugs). While you play through the game, we would also love it if you could take some [screenshots](http://wiki.scummvm.org/index.php/Screenshots) for us.

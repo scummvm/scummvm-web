@@ -1,0 +1,17 @@
+---
+title: "O GSoC 2020 está a caminho!"
+date: 1582414580
+author: sev
+---
+
+![Logotipo do GSoC](/data/news/GSoC2017Logo.png)
+
+É a 14ª vez em que o ScummVM é aceito como uma organização para o Google Summer of Code, e estamos indo com o
+nosso projeto irmão ResidualVM. O Summer of Code é um evento anual organizado pelo Google para incentivar os alunos a contribuir para projetos de código aberto. As organizações de código aberto fornecem mentores e projetos para trabalhar, enquanto o Google dá algum dinheiro aos estudantes participantes. Você pode encontrar mais informações no [site oficial](https://summerofcode.withgoogle.com). Também temos algumas informações sobre isso em [nosso wiki](http://wiki.scummvm.org/index.php/Summer_of_Code) e, em particular, [regras do projeto](http://wiki.scummvm.org/index.php/Summer_of_Code/Project_Rules) que os candidatos precisarão seguir.
+
+Se você se sente aventureiro e gostaria de contribuir para um dos maiores projetos de preservação de jogos, estamos
+esperando ansiosamentepor você! Dê uma olhada na [nossa página de idéias](http://wiki.scummvm.org/index.php/Summer_of_Code/GSoC_Ideas_2020). Obviamente, você também pode trazer sua própria idéia (embora deva ser relacionada aos nossos projetos)! O prazo para as propostas dos estudantes é 31 de março e, em 27 de abril, os alunos aceitos serão anunciados.
+
+Você pode se juntar ao [nosso servidor Discord](https://discord.gg/5D8yTtF) e fazer qualquer pergunta no canal #scummvm-gsoc.
+
+Ansiosos por suas inscrições!

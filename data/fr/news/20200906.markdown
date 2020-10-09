@@ -1,0 +1,11 @@
+---
+title: "Icônes de jeu demandées"
+date: 1599417773
+author: SupSuper
+---
+
+![Discord rich presence](/data/news/20200906.png)
+
+La prochaine version de ScummVM supportera la fonction rich presence de [Discord](https://discord.gg/5D8yTtF), afin que vous puissiez montrer à tous vos amis que vous jouez à ScummVM <i>et</i> le jeu précis auquel vous jouez. Mais pour faire en sorte que cela fonctionne, nous avons besoin d'icônes pour chaque jeu.
+
+Si vous avez toujours voulu contribuer à ScummVM sans avoir trouvé l'endroit où appliquer vos compétences en matière d'art et de design, c'est l'occasion ou jamais ! Venez découvrir le nouveau [dépôt Game Icons sur GitHub](https://github.com/scummvm/scummvm-icons/) pour avoir plus de détails sur la manière de nous aider.

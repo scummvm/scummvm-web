@@ -1,0 +1,26 @@
+---
+title: "FaSCInierend"
+date: 1493386560
+author: snover
+---
+
+Erkunden Sie ein verfluchtes Museum, jagen Sie einen Serienkiller, wischen Sie den Fußboden, verfallen Sie dem Wahnsinn, finden Sie Ihre wahre Liebe, finden Sie Ihre "wahre Liebe", reisen Sie zu vergangenen Ländern, klären Sie die Voodoo-Morde auf, entdecken Sie eine verlorene Oper — oder tun Sie alles! Der erste Schwung von 32-bit DOS/Windows Sierra-Adventures kann nun in der aktuellen [Entwicklerversion](/downloads/#daily) von ScummVM getestet werden:
+
+*   [Gabriel Knight](http://wiki.scummvm.org/index.php/Gabriel_Knight)
+*   [Gabriel Knight 2](http://wiki.scummvm.org/index.php/The_Beast_Within)
+*   [King's Quest VII](http://wiki.scummvm.org/index.php/King%27s_Quest_VII)
+*   [King's Questions](http://wiki.scummvm.org/index.php/King%27s_Questions)
+*   [Leisure Suit Larry 6 (hi-res)](http://wiki.scummvm.org/index.php/Leisure_Suit_Larry_6)
+*   [Phantasmagoria](http://wiki.scummvm.org/index.php/Phantasmagoria)
+*   [Police Quest 4](http://wiki.scummvm.org/index.php/Police_Quest_IV)
+*   [Shivers](http://wiki.scummvm.org/index.php/Shivers)
+*   [Space Quest 6](http://wiki.scummvm.org/index.php/Space_Quest_6)
+*   [Torin's Passage](http://wiki.scummvm.org/index.php/Torin%27s_Passage)
+
+Die [Spieldateien-Seite](http://wiki.scummvm.org/index.php/Datafiles#All_SCI32_.28SCI2.2F3.29_games) wurde um Informationen bezüglich der Installation dieser Spiele ergänzt. Wenn Sie diese Spiele nicht besitzen, besuchen Sie [unsere Seite mit Bezugsquellen](http://wiki.scummvm.org/index.php/Where_to_get_the_games#Sierra_Games), um sie zu kaufen!
+
+Bevor Sie mit Ihrem Testlauf beginnen, lesen Sie bitte die Anweisungen auf der [SCI-Testseite](http://wiki.scummvm.org/index.php/SCI/Testing) und fertigen bitte [Bildschirmfotos](http://wiki.scummvm.org/index.php/Screenshots) während des Spiels an.
+
+(Wenn Sie schon immer einige der früheren SCI-Spiele spielen wollten, ist jetzt eine gute Gelegenheit dazu, da die Änderungen an der SCI-Engine auch 16-bit SCI-Spiele betreffen!)
+
+Viel Spaß!

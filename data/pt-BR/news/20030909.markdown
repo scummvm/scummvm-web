@@ -1,0 +1,13 @@
+---
+title: "Me sinto sujo"
+date: 1063114560
+author: ender
+---
+
+Bem-vindo a mais um lembrete quase regular de que, sim, seu projeto favorito está longe de estar morto. Então, o que está acontecendo no mundo do ScummVM?
+
+ScummVM 0.6.0, embora não deva ser lançado por alguns meses, pelo menos, vai deixá-lo chocado. Ou, no mínimo, deixá-lo roxo de espanto. Entre as mudanças estruturais massivas usuais, correções de bugs em abundância, e talvez até uma nova plataforma ou duas... recentemente (quase) terminamos o suporte para as versões V1 originais do Maniac Mansion e Zak McKracken. Isso deixa o sempre difícil Full Throttle como o único jogo da LucasArts que não suportamos em sua forma convencional.
+
+Além disso, graças mais uma vez ao gracioso apoio da Revolution, a próxima versão de ScummVM incluirá suporte para mais um de seus maravilhosos jogos inovadores - Broken Sword 2!
+
+Ambos já estão presentes, de alguma forma, em nosso CVS de desenvolvimento e compilações diárias - no entanto, lembre-se de que são experimentais e ainda estão sendo intensamente trabalhados. Por favor, NÃO registre bugs nem importune ninguém a respeito deles. E talvez, apenas talvez, possamos ter mais algumas surpresas guardadas antes que o próximo grande lançamento chegue a um servidor do SourceForge perto de você!

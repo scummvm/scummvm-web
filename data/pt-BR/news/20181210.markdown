@@ -1,0 +1,15 @@
+---
+title: "Atualizações de infraestrutura... de novo!"
+date: 1544472137
+author: lotharsm
+---
+
+Nos últimos dias, transferimos nossos downloads para uma nova infraestrutura de mirrors (links alternativos de download). Anteriormente, cada download era entregue pelo nosso servidor principal, localizado na Áustria.
+
+Agora, nossos downloads são entregues através do [MirrorBrain](http://mirrorbrain.org), um sistema de redirecionamento de downloads que nos permite construir nossa própria rede de distribuição de conteúdo. O MirrorBrain já é usado por [muitos projetos de código aberto](http://mirrorbrain.org/users/).
+
+O MirrorBrain tenta sempre selecionar o melhor mirror com base na sua localização, para obter as melhores velocidades de download possíveis.
+
+Embora já tenhamos alguns mirrors localizados na Europa, atualmente estamos procurando pessoas dispostas a doar parte da largura de banda e armazenamento localizados nos EUA e em outras partes do mundo. Se você deseja hospedar um mirror do repositório ScummVM, entre em contato conosco por e-mail em [serra@scummvm.org](mailto: serra@scummvm.org).
+
+Se você encontrar algum problema com nosso novo sistema de download, deixe um comentário [em nossos forums](https://forums.scummvm.org/viewtopic.php?f=1&amp;t=14761#p86624).

@@ -1,0 +1,15 @@
+---
+title: "*The Prince and the Coward* à présent supporté"
+date: 1568323655
+author: sev
+---
+
+Il y a longtemps, en 2013, Kamil Zbróg et Łukasz Wątka, un étudiant au GSoC, travaillaient sur le support du jeu *The Prince and the Coward* ou *Książę i Tchórz*, comme on l'appelait initialement en polonais.
+
+Le moteur du jeu est cependant resté en sommeil, car nous essayions de travailler sur la traduction anglaise. Malheureusement, nous n'avons fait que ¼ du travail et nous avons besoin de votre aide.
+
+Néanmoins, nous aimerions annoncer un support de ce jeu. Toutes les versions publiées sont supportées, y compris l'original polonais, la version allemande et la traduction russe. Prenez votre exemplaire du jeu et essayez-le. Vous aurez besoin d'une [version de développement quotidienne](https://buildbot.scummvm.org/builds.html) pour cela. Comme toujours, merci de nous soumettre les rapports de bogue dans notre [outil de suivi des problèmes](https://bugs.scummvm.org/).
+
+De plus, si vous connaissez le polonais, l'allemand ou le russe, vous êtes les bienvenus pour nous aider pour la traduction. Les instructions sont fournies [ici](https://wiki.scummvm.org/index.php?title=Prince#Translation).
+
+Powodzenia !

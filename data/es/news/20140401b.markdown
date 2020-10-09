@@ -1,0 +1,19 @@
+---
+title: "Edward Snowden joins ScummVM"
+date: 1396359360
+author: Digitall
+---
+
+**Happy April Fools' Day! Unfortunately, we haven't really got a new developer... though pull requests are welcome!**
+
+We do not normally announce new developers here, but we have an unusual and talented developer recently join the team, Edward Snowden.
+
+When we first got the e-mail from a dot-ru address which we will not be disclosing, we were skeptical.
+
+However upon verifying his PGP key, we are convinced that this is not some kind of April Fools joke and are happy to welcome a talented software developer with enthusiasm to the team.
+
+He is apparently a big fan of point and click adventures, especially *Beneath a Steel Sky,*, *Dreamweb*, *Woodruff and the Schnibble of Azimuth*, and *I Have No Mouth, and I Must Scream*. His collection allowed him to pass a long stopover at an airport last year and he decided then, once he had sorted some personal issues to get around to contributing some code to ScummVM.
+
+As an avid fan of Larry Niven, he will be initially working on the TSaGE support for *Return to Ringworld* along with Strangerke, and will be using the nickname "crazyeddie"
+
+Please can we ask the other developers and users not to bother him about any issues outside of ScummVM and not to send any irrelevant e-mails to his ScummVM address at "crazyeddie@scummvm.org" Thanks!

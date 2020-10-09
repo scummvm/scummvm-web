@@ -1,0 +1,17 @@
+---
+title: "Breite deine Switch auf neue Abenteuer vor!"
+date: 1560002499
+author: lotharsm
+---
+
+Es ist immer spannend, die große Bandbreite an Geräten, auf denen Du dank ScummVM deine bevorzugten Adventure-Spiele spielen kannst. Heute können wir stolz verkünden, dass die Zahl dieser Geräte erneut angestiegen ist: ScummVM ist ab sofort für die Nintendo Switch verfügbar!
+
+Dank der Arbeit von Cpasjuste und rsn8887 kannst Du ScummVM nun auch unterwegs nutzen.
+
+Um ScummVM auf deiner Switch zu nutzen, benötigst Du eine modifizierte Konsole, die Homebrew-Software unterstützt. Keine Sorge - Anleitungen hierzu sind im Netz reichlich verfügbar.
+
+Diese neue Portierung besitzt bereits eine eigene Seite in unserem [Wiki](https://wiki.scummvm.org/index.php?title=Nintendo_Switch). Du solltest auf jeden Fall einen Blick ins Wiki werfen, da dort viele hilfreiche Informationen zur Nutzung von ScummVM auf der Switch enthalten sind.
+
+Wenn Du weitere Fragen hast, besuche doch einmal unser [Forum](https://forums.scummvm.org/viewforum.php?f=24).
+
+Unser [buildbot](https://buildbot.scummvm.org/builds.html) stellt bereits Entwicklerversionen für die Nintendo Switch bereit. Greif zu, solange sie noch warm sind!

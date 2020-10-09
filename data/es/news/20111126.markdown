@@ -1,0 +1,13 @@
+---
+title: "Where is Leon?"
+date: 1322314560
+author: Strangerke
+---
+
+Chief finally found a husband for his "beautiful" daughter, but before the end of the ceremony, Leon escaped. So now... where is Leon?
+
+The ScummVM Team is proud to announce that [Soltys](http://www.mobygames.com/game/dos/sotys) is playable for the first time in English and Polish using ScummVM! Special thanks to L.K. Avalon and Mr Wiśniewski for providing the sources and to nutron for spending so much time on the translation!
+
+You'll need a daily build to get started, then grab the game on our [downloads page](/downloads/#extras) and test it! As usual, all bugs should be reported to [our bug tracker](http://bugs.scummvm.org/) following our [bug submission guidelines](/faq/#question.report-bugs). While you play through the game, we would love it if you could take some [screenshots](http://wiki.scummvm.org/index.php/Screenshots) for us.
+
+If you would like to contribute further, you could invest some of your free time in translating Soltys and Dragon History, which should be easy to translate to most European-based languages. If you are interested, please contact [translation AT scummvm DOT org](mailto:translation%20AT%20scummvm%20DOT%20org).

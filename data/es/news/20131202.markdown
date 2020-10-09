@@ -1,0 +1,11 @@
+---
+title: "Thanksgiving with a Ring."
+date: 1385991360
+author: DreamMaster
+---
+
+"They said it would it would never be done. They were wrong." After a slight hiatus at the start of the year, work has finally finished on our next TsAGE game, Return to Ringworld. The only remaining work still in progress is a card game available on the in-game consoles, and is completely unrelated to the main story.
+
+This is a direct sequel to the original Ringworld game.. after saving the puppeteer race from extermination and uncovering some powerful ancient technology on the first game, Quinn, Seeker of Vengeance and Miranda Rees find themselves searched for as fugitives by all three major species, so they plan to go to Ringworld to hide. But it turns that their ship has suffered problems. And fixing them and getting to Ringworld will only be the start of their problems..
+
+The ScummVM Team is proud to announce that [Return to Ringworld](http://www.mobygames.com/game/dos/return-to-ringworld) is now playable in ScummVM using the latest [daily builds](/downloads/#daily), and ready for testing. As usual, all bugs should be reported to [our bug tracker](http://bugs.scummvm.org/) following our [bug submission guidelines](/faq/#question.report-bugs). While you play through the game, we would also love it if you could take some [screenshots](http://wiki.scummvm.org/index.php/Screenshots) for us.

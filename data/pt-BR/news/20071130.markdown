@@ -1,0 +1,13 @@
+---
+title: "ScummVM adiciona outro jogo freeware à sua lista"
+date: 1196429760
+author: DreamMaster
+---
+
+ScummVM agora adiciona outro título freeware à sua lista de jogos: [*Lure of the Temptress*](http://wiki.scummvm.org/index.php/Lure_of_the_Temptress), que foi o primeiro jogo a usar a engine Virtual Theatre da Revolution Software. Os jogadores precisam ajudar Diermot a escapar da prisão, desvendar os mistérios que cercam a ocupação Skorl da cidade e, eventualmente, derrotar a feiticeira malvada que os controla.
+
+Obtenha a [compilação diária](/downloads/#daily) mais recente do ScummVM e o [arquivo de dados de suporte](https://github.com/scummvm/scummvm/raw/master/dists/engine-data/lure.dat) necessário. Como o jogo é freeware, você pode baixá-lo gratuitamente em qualquer um dos idiomas disponíveis:[Inglês](/frs/extras/Lure%20of%20the%20Temptress/lure-1.0.zip), [Francês](/frs/extras/Lure%20of%20the%20Temptress/lure-fr-1.0.zip), [Alemão](/frs/extras/Lure%20of%20the%20Temptress/lure-de-1.0.zip), [Italiano](/frs/extras/Lure%20of%20the%20Temptress/lure-it-1.0.zip), e [Espanhol](/frs/extras/Lure%20of%20the%20Temptress/lure-es-1.0.zip). Você também pode obter várias versões do jogo diretamente no [site do Revolution](http://www.revolution.co.uk/_display.php?id=10).
+
+Por favor, relate quaisquer bugs que você possa encontrar em nosso [rastreador de bugs](http://bugs.scummvm.org/), seguindo as [diretrizes de envio de bugs](/faq/#question.report-bugs). Capturas de tela também são necessárias, que podem ser enviadas usando as [diretrizes](http://wiki.scummvm.org/index.php/Screenshots) apropriadas para o envio da captura de tela.
+
+Também estamos procurando alguém que possa ter conhecimento de uma versão holandesa do jogo e possa nos fornecer uma cópia.

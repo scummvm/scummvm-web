@@ -1,0 +1,15 @@
+---
+title: "'Tis the season..."
+date: 1166535360
+author: drmccoy
+---
+
+...for newly supported games, it would seem: [*Gobliins 2*](http://wiki.scummvm.org/index.php/Gobliins_2) joins *Touché* and *Future Wars* as recent bug-hunting targets. So be vewy, vewy quiet, gwab your copy of Gobliins 2 and find those wascally bugs!
+
+Equipment: A [daily build](/downloads/#daily) of ScummVM  
+Instructions: The [bug submission guidelines](/faq/#question.report-bugs)  
+Important location: [Our bug tracker](http://bugs.scummvm.org/), report the bugs (and unrecognized versions) there
+
+For bonus points, submit a few screenshots.
+
+Have fun and happy hunting!

@@ -1,0 +1,13 @@
+---
+title: "Il labirinto deve essere distrutto!"
+date: 1453556160
+author: md5
+---
+
+Sei sulla metro quando il tuo vagone viene risucchiato in una dimensione parallela: un labirinto attraverso il continuum spaziotemporale. Il suo creatore, Dedalo, è costretto a costruirlo dal malvagio Re Minosse, che lo vuole per poter conquistare ogni luogo e tempo. Dedalo chiede il tuo aiuto per distruggere il labirinto prima che Minosse riesca nel suo intento.
+
+Il team di ScummVM è lieto di annunciare che *Labyrinth of Time* è giocabile in ScummVM usando le [ultime daily build](/downloads/#daily) ed è pronto per essere testato.
+
+Per favore, segnala eventuali bug e versioni non riconosciute sul nostro [bug tracker](http://bugs.scummvm.org/), seguendo le nostre [linee guida](/faq/#question.report-bugs). Come al solito, gli [screenshot](http://wiki.scummvm.org/index.php/Screenshots) sono benvenuti.
+
+Un grosso "grazie" a [Wyrmkeep Entertainment Co.](http://www.wyrmkeep.com/) per aver condiviso con noi il codice sorgente originale!

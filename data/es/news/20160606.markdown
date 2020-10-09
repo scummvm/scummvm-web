@@ -1,0 +1,11 @@
+---
+title: "Help Gnap to Repair His U.F.O.!"
+date: 1465220160
+author: Strangerke
+---
+
+While traveling through space in his spaceship, Gnap ran out of gas and crashed in the middle of a redneck farm. He's now lost on planet Earth and needs your help to fix his U.F.O. so he can continue his journey!
+
+The ScummVM Team is proud to announce that *U.F.O.s* aka *GNAP: Der Schurke aus dem All* is now playable in ScummVM using the [latest daily builds](/downloads/#daily), and is ready for testing.
+
+Please report any bugs as well as unknown versions you find in our [bug tracker](http://bugs.scummvm.org/), following our [bug submission guidelines](/faq/#question.report-bugs). As usual, we'll also love to see the [screenshots](http://wiki.scummvm.org/index.php/Screenshots) of your playthrough!

@@ -1,0 +1,17 @@
+---
+title: "Blade Runner gesucht!"
+date: 1560679776
+author: peterkohaut
+---
+
+Das ScummVM-Team ist auf der Suche nach Blade Runnern, die uns dabei helfen, alle Fehler zu finden, zu jagen und zu beseitigen, die aus den Daten-Kolonien der Außenwelt entkommen sind. Die Fehler sind nicht gefährlich und sie werden dich nicht davon abhalten, weitere Geheimnisse zu entdecken und dein Schicksal selbst in die Hand zu nehmen. Dein Spinner, deine Waffe, deine ESPER- und deine Voight - Kampff-Maschine stehen zu deiner Verfügung.
+
+Wir geben bekannt, dass Blade Runner ab sofort getestet werden kann. Die folgenden Sprachen werden unterstützt - Englisch (CD- und DVD-Version), Deutsch, Italienisch, Spanisch sowie die inoffizielle russische Version von Fargus Multimedia.
+
+Suche Deine Kopie von Blade Runner, [besorge dir eine aktuelle Entwicklerversion von ScummVM](https://buildbot.scummvm.org/builds.html) (NICHT die letzte stabile Version) und [kopiere die benötigten Dateien auf deine Festplatte](https://wiki.scummvm.org/index.php?title=Datafiles#Blade_Runner).
+
+Jetzt kannst Du das Spiel mit Untertiteln spielen! Dazu benötigst Du lediglich [das Zip-Archiv mit den Untertiteln](https://www.scummvm.org/games/#bladerunner) und entpackst anschließend die Datei subtitles.mix in das gleiche Verzeichnis wie deine Spieldateien. Aktuell stehen lediglich Untertitel auf englisch und französisch zur Verfügung. Wenn Du dabei helfen willst, Untertitel in deiner Sprache zu erstellen, [Kontaktiere bitte peterkohaut &amp; praetorian](https://www.scummvm.org/contact/).
+
+Wenn Du das Spiel in ScummVM hinzufügst, werden dir zwei Optionen angezeigt. Die erste Option ist für das Originalspiel und wird lediglich "Blad Runner" heißen. Wir benötigen Hauptsächlich Feedback zu dieser Spielversion, da wir sie als vollständig betrachten. Die andere Option bezieht sich auf das Spiel mit wiederhergestelltem Inhalt und wird als "Blade Runner with restored content" bezeichnet. An dieser Version wird aktuell noch gearbeitet, sie ist noch nicht fertig. Wenn Du daran interessiert bist, diese Version zu testen, erwähne dies bitte, wenn Du unter [Fehler melden möchtest](https://bugs.scummvm.org/).
+
+Wenn deine Version des Spiels nicht unterstützt wird, teile uns bitte die [MD5-Summen der Dateien](https://wiki.scummvm.org/index.php/Reporting_unknown_MD5_checksums) mit, damit wir die Unterstützung für diese Version hinzufügen können.

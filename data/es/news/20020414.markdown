@@ -1,0 +1,9 @@
+---
+title: "Actualización de estado"
+date: 1018791360
+author: ender
+---
+
+El lanzamiento de la versión 0.2.0 ha sido pospuesto por un tiempo mientras el motor de ScummVM vuelve a ser reorganizado. Sin embargo, como apunte interesante, ¡la versión 0.2.0 también dará soporte a un juego que no utiliza SCUMM! Simon The Sorcerer. Así que compartid y disfrutad la última versión del CVS, amigos.  
+  
+Algunos también os habréis fijado en que ha aparecido un botón de PayPal en la parte inferior de la barra de navegación. Si habéis disfrutado de ScummVM, por favor, donad algo para que podamos comprar software que nos ayude en el desarrollo. ¡Gracias!

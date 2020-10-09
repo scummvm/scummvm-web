@@ -1,0 +1,17 @@
+---
+title: "Preparem-se - Summer'20 está chegando"
+date: 1588621852
+author: lotharsm
+---
+
+![Logotipo do GSoC](/data/news/GSoC2017Logo.png)
+
+Hoje, o Google anunciou os projetos aceitos para o [Google Summer of Code](https://summerofcode.withgoogle.com/) deste ano, um evento anual com o objetivo de incentivar os alunos a participar de projetos de código aberto. Para muitos estudantes, é a primeira vez que trabalha em um ambiente colaborativo. Temos o prazer de anunciar que a equipe ScummVM apoiará e orientará quatro colegas aventureiros durante sua jornada.
+
+Dylan Servilla e Nathanael Gentry trabalharão em nossa engine *Director*. Enquanto o objetivo de Dylan é ajudar com coisas relacionadas ao Lingo, como operações, Nathanael começará a trabalhar nas rotinas de renderização. Ambos eventualmente acabarão nos levando a oferecer compatibilidade pelo menos com os jogos [*Spaceship Warlock*](https://www.mobygames.com/game/spaceship-warlock) e [*The Journeyman Project*](https://www.mobygames.com/game/journeyman-project).
+
+Queremos que o ScummVM seja facilmente acessível a tantas pessoas quanto possível. Obviamente, isso inclui a localização para ajudar a remover as barreiras de idioma. Este ano, Aryan Rawlani ajudará a melhorar o suporte a idiomas escritos da direita para a esquerda ('Right-to-Left' ou 'RTL'), além de adicionar suporte Unicode adequado à interface gráfica do usuário do ScummVM. Imagine o ScummVM estar disponível em todos os idiomas possíveis um dia e você poderá entender a importância do trabalho de Aryan. Além disso, Aryan também trabalhará na mecânica que usamos para detectar seus jogos, a fim de melhorar a confiabilidade e o desempenho, o que inclui retrabalhos profundos sobre como o sistema de plugins funciona.
+
+Durante o GSoC, o ScummVM também atua como uma organização abrangente para seu projeto irmão [ResidualVM](https://www.residualvm.org). Gunnar Birke trabalhará na implementação do suporte da engine Wintermute 3D no ResidualVM. O Wintermute 3D é a versão 3D - você adivinhou - da engine Wintermute suportado pelo ScummVM, que só pode jogar jogos em 2D devido ao âmbito do projeto. A adição de suporte para Wintermute 3D ao ResidualVM permitirá que você execute jogos como [*Alpha Polaris*](https://www.mobygames.com/game/windows/alpha-polaris).
+
+Preparem-se - o verão 2020 está chegando. Prepare-se para apoiar nossos alunos em sua gloriosa aventura. Quando o relógio começar, siga o progresso deles no [ScummVM Planet](https://planet.scummvm.org/).

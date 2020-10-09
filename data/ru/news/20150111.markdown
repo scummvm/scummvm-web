@@ -1,0 +1,14 @@
+---
+title: "Если окажетесь в Зорке, разбейте стекло!"
+date: 1420983360
+author: md5
+---
+
+ScummVM перенесёт вас в мир приключений Зорк, благодаря поддержке двух новых игр! В *Zork Nemesis: The Forbidden Lands* ваша зачача будет начать путешествие с целью разрешить загадку загадочного привидения, называемого Немезис, а также четверых алхимиков, которых оно убило. В вашем втором путешествии в мир Зорк, в игре *Zork: Grand Inquisitor*, вы должны будете найти три легендарных предмета, которые восстановят всё волшебство в этом мире и приведут к падению Великого Инквизитора Янника, чья цель заключается в "устранении волшебства, устранении проявлений волшебства, устранении вообще всего, а затем и в устранении устраняющего."
+
+ScummVM Team с гордостью объявляет, что обе игры [*Zork Nemesis: The Forbidden Lands*](http://www.mobygames.com/game/windows/zork-nemesis-the-forbidden-lands) и [*Zork: Grand Inquisitor*](http://www.mobygames.com/game/windows/zork-grand-inquisitor) теперь поддерживаются ScummVM в последних [ежедневных сборках](/downloads/#daily), и готовы к тестированию. Как обычно, все найденные баги и проблемы нужно зарегистрировать [в нашем багтрекере](http://bugs.scummvm.org/), следуя нашим [правилам сообщения об ошибках](/faq/#question.report-bugs). Во время вашей игры было бы замечательно, если бы вы также сделали несколько [скриншотов](http://wiki.scummvm.org/index.php/Screenshots).
+
+Итак, возьмите ваши диски с играми и помогите с тестированием! Если у вас ещё нет этих игр, их можно приобрести на GOG.com:
+
+*   [*Zork Nemesis: The Forbidden Lands* — страница покупки на GOG.com](http://www.gog.com/game/zork_nemesis_the_forbidden_lands?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)
+*   [*Zork: Grand Inquisitor* — страница покупки на GOG.com](http://www.gog.com/game/zork_grand_inquisitor?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)

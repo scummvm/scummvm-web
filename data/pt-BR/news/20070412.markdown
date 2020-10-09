@@ -1,0 +1,9 @@
+---
+title: "Bolsas de estudo do Google Summer of Code concluídas"
+date: 1176384960
+author: Jubanka
+---
+
+[Google](http://www.google.com) anunciou as alocações finais de alunos para os projetos participantes do programa [Summer of Code](http://code.google.com/soc) este ano. Até agora, tem sido um tremendo sucesso, com mais de 6200 inscrições sendo enviadas e mais de 900 alunos sendo aceitos.
+
+ScummVM recebeu 37 inscrições e finalmente foi premiado com 7 vagas para alunos que trabalharão em [uma variedade de tarefas](http://code.google.com/soc/scummvm/about.html), sob supervisão próxima e implacável de \_sev, Fingolfin, LordHoto e Jubanka. Então Kari, David, Timothy, Sean, Andreas, Serhiy e Zbigniew, sejam bem-vindos a bordo! A competição foi acirrada, tivemos que abandonar várias candidaturas boas, então, para vocês que não conseguiram, não se desesperem. Se você ainda acredita que a tarefa proposta foi legal, ela deveria ser feita, mas não chegou a etapa final, e se você se sentir bem, pode coordenar conosco e prosseguir de qualquer maneira. ScummVM sempre aceita contribuições de código! Afinal, esse é o objetivo do SoC: envolver as pessoas no código aberto :-)

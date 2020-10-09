@@ -1,0 +1,13 @@
+---
+title: "Coisas do momento."
+date: 1051191360
+author: ender
+---
+
+Recentemente, recebemos vários e-mails perguntando se há algum trabalho em andamento no ScummVM. Gostaríamos de tranquilizar as pessoas que -não- seguem o CVS que sim, muito trabalho está acontecendo.
+
+No momento, estamos nos preparando para o lançamento da versão 0.4.0, que deve acontecer em algumas semanas. Gostaria de pedir às pessoas que desejam viver perigosamente que experimentem o CVS e as Compilações Diárias e nos informem sobre quaisquer problemas dos quais devemos estar cientes. Na seção 'Documentação' à esquerda, você verá uma 'Lista de verificação do ScummVM 0.4.0'. Os jogos que foram testados sem problemas são marcados lá - teste os jogos que não foram marcados como testados e nos informe seus resultados no Fórum **(Atualização: Nos referimos ao Fórum geral)**. Lembre-se de incluir a data em que você baixou a compilação com a qual concluiu o jogo.
+
+No momento estamos nos concentrando em jogos EGA mais antigos (Maniac Mansion, Zak McKracken, LoomEGA, Indy3EGA), embora o suporte de Beneath a Steel Sky esteja progredindo em um ritmo lento, mas constante. Alguém também doou recentemente um modchip do Playstation 2 para a equipe, então espere uma versão para PS2 nativa assim que Ender o tiver instalado (ScummVM já funciona bem no Playstation2 Linux).
+
+Um lembrete para aqueles que estão interessados em nosso progresso mais recente, você sempre pode se inscrever na lista de discussão cvs-logs. Clique no link 'Página inicial do projeto' à esquerda e navegue até a página 'Listas'. Esta lista receberá um e-mail sempre que houver uma nova alteração no código-fonte, portanto, esteja ciente que pode ser bastante técnico e de alto tráfego. Como alternativa, você pode apenas jogar com as compilações CVS ou as Diárias e descobrir por conta própria o que há de novo :)

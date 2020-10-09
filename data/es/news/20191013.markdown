@@ -1,0 +1,34 @@
+---
+title: "ScummVM 2.1.0 \"Electric Sheep\" en producción."
+date: 1570828627
+author: sev
+---
+
+"La venta de animales era un negocio beneficioso y de prestigio ya que la mayoría de los animales reales habían desaparecido tras la guerra terráquea; no obstante había muchos eléctricos..." Oh, ejem, no sabía que estabas ahí.
+
+El equipo de ScummVM está encantado de anunciar el lanzamiento de ScummVM versión 2.1.0. Este lanzamiento es la culminación de cerca de dos años de duro trabajo, incluyendo 16 nuevos juegos de 8 motores distintos, soporte para Nintendo Switch y se han arreglado cerca de 500 errores. Todo esto se ha conseguido con el arduo trabajo de 147 contribuidores mediante 8,493 commits.
+
+Los nuevos juegos soportados son:
+
+*   *Blade Runner*
+*   *Duckman: The Graphic Adventures of a Private Dick*
+*   *Hoyle Bridge*
+*   *Hoyle Children's Collection*
+*   *Hoyle Classic Games*
+*   *Hoyle Solitaire*
+*   *Hyperspace Delivery Boy!*
+*   *Might and Magic IV - Clouds of Xeen*
+*   *Might and Magic V - Darkside of Xeen*
+*   *Might and Magic - World of Xeen*
+*   *Might and Magic - Swords of Xeen*
+*   *Mission Supernova Part 1*
+*   *Mission Supernova Part 2*
+*   *Quest for Glory: Shadows of Darkness*
+*   *The Prince and the Coward*
+*   *Versailles 1685*
+
+Además, hemos mejorado considerablemente las versiones para Android e iOS. También te encontrarás con un nuevo lavado de cara del interfaz gráfico de usuario, mejor emulación de sonido Roland MT-32, un nuevo modo de estiramiento "pixel-perfect", conversión de texto a voz para macOS y Linux, y por último pero no menos importante, soporte para sincronizar partidas y datos de juego con servicios de almacenamiento en la nube (puedes ver la lista actualizada de plataformas en [nuestro manual de usuario](https://wiki.scummvm.org/index.php?title=User_Manual/Using_Cloud_and_LAN_features)).
+
+Como de costumbre, hemos mejorado muchos de los motores existentes: hemos incluido soporte para las versiones de *Myst 25 Aniversario*, hemos corregido más de 100 errores de scripts SCI que plagaban los juegos de Sierra durante décadas, hemos incluido soporte para las versiones de Amiga y FM-TOWNS de *Eye of the Beholder*, mejorado la calidad de audio de los juegos de Humongous Entertainment e incluido sincronización de labios para las aventuras más modernas de LucasArts y hemos desintegrado toneladas de errores de *Starship Titanic* y *Bud Tucker*. La lista no acaba aquí y puedes ver el registro completo de cambios [aquí](https://www.scummvm.org/frs/scummvm/2.1.0/ReleaseNotes.html).
+
+Deja las lagrimas en la lluvia y [consigue ya](/downloads/) esta eléctrica versión. Los usuarios de Windows y macOS pueden actualizar automáticamente al iniciar ScummVM.

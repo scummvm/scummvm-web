@@ -1,0 +1,13 @@
+---
+title: "Você é digno de ser o Avatar?"
+date: 1590087600
+author: dreammaster
+---
+
+Há muitos anos atrás, uma companhia chamada Origin Systems desenvolveu a tão amada série Ultima de jogos de RPG. Graças ao trabalho árduo anterior de outras pessoas que criaram reimplementações independentes destes jogos, o ScummVM tem o prazer de anunciar que dois dos jogos da série estão prontos para teste.
+
+O primeiro desses jogos é Ultima IV: Quest of the Avatar, baseado no trabalho anterior realizado pelo projeto xu4. Você pode detectar sua cópia em Inglês do Ultima IV sendo tanto a versão original ou a aprimorada. O modo aprimorado utiliza gráficos em VGA desenvolvidos pelo projeto xu4. Com a inclusão no ScummVM, o jogo também recebe várias melhorias, tais como vários slots de jogo e combinações de teclas configuráveis. Inclusive acrescenta uma pequena área secreta que somente os exploradores mais dedicados conseguirão encontrar.
+
+O segundo jogo é Ultima VI, baseado no projeto Nuvie. Devido à algumas falhas de comunicação, Nuvie pode se tornar um projeto separado, mas dado o trabalho realizado integrando o Nuvie dentro do ScummVM, nós esperamos obter o suporte oficial no ScummVM também. Assim como o Ultima IV, o Ultima VI suporta o modo de jogo original, bem como um modo aprimorado que permite o mapa em tela cheia no Nuvie, containers de itens como em Ultima VII, entre outros recursos. Observe que o modo aprimorado tem como padrão dobrar a resolução, então por enquanto, a introdução é exibida apenas na metade da tela.
+
+Então pegue suas cópias dos jogos e experimente! Você precisará de uma [compilação diária de desenvolvimento](https://buildbot.scummvm.org/builds.html). Como sempre, envie os relatórios de bugs para o nosso [rastreador de problemas](https://bugs.scummvm.org/).

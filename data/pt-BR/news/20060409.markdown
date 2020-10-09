@@ -1,0 +1,15 @@
+---
+title: "Liderança do projeto, resultado do Community Choice Awards 2006 do SourceForge.net"
+date: 1144589760
+author: fingolfin
+---
+
+Hoje estamos muito felizes em anunciar que Eugene "sev" Sandulenko foi promovido ao posto de líder do projeto, o que significa que agora temos um trio no volante do ScummVM.
+
+Eugene contribuiu de maneiras importantes para o ScummVM, indo além do que poderia ser razoavelmente esperado de um membro regular da equipe. Ele trabalhou em várias novas engines no ScummVM, o novo código da interface, gerenciou vários de nossos lançamentos, desempenhou um papel central em nossa recente mudança para o Subversion, motiva outras pessoas a fazerem trabalhos úteis e muitas outras coisas.
+
+Parabéns, Eugene, e esperamos ver muito mais de seu excelente trabalho no futuro. :-)
+
+  
+
+Em outras notícias, os resultados finais do [Community Choice Awards 2006](https://sourceforge.net/awards/cca/) do [SourceForge.net](https://sourceforge.net) agora são públicos e o ScummVM alcançou um honroso segundo lugar na categoria de jogos, derrotado apenas pelo Xbox Media Center (algumas pessoas estão debatendo o quão próximo à um jogo isso é, mas o próprio ScummVM também não é um jogo, então não vamos reclamar :-). Obrigado novamente a todos que votaram em nós.

@@ -1,0 +1,20 @@
+---
+title: "ScummVM 0.5.0, Beneath a Steel Sky, y una tecla Bloq Mayús ROTA"
+date: 1059831360
+author: ender
+---
+
+Acaba de salir la versión 0.5.0 de ScummVM, el intérprete de juegos de aventura clásicos. Esta es nuestra versión más examinada hasta la fecha, ¡gracias a todos los que acudisteis a nuestra llamada!
+
+¿Qué novedades hay? Bueno, además de las habituales mejoras y correcciones de fallos, hay:
+
+*   Revisión extensa del subsistema de música, ahora hay más juegos con soporte para música
+*   Compatibilidad con las versiones Enhanced (V2) de Maniac Mansion y Zak McKracken
+*   Compatibilidad con Beneath a Steel Sky, ¡gracias a Revolution Software por darnos el código fuente original en ensamblador!
+*   Se ha añadido la opción para corregir la relación de aspecto a petición popular
+
+Podéis encontrar un enlace con las notas de la versión y una lista más completa de cambios en la [página de descargas](/downloads/), junto con las descargas en sí... ¡y nuestra sorpresa especial (el secreto peor guardado del mundo :)
+
+Como detalle muy ESPECIAL, ¡el maravilloso equipo de [Revolution Software Ltd.](http://www.revgames.com) ha decidido permitirnos que Beneath a Steel Sky sea \*freeware\*! Podéis descargar o bien la versión en CD (70M, incluye voces) o la versión en disquetes, más reducida (8M), junto con ScummVM 0.5.0 en nuestra [página de descargas](/downloads/).
+
+¡Que os aproveche! Ah, y hay un botoncillo para donativos a la izquierda. Tenemos que comprarle a nuestro programador de la conversión de Dreamcast una copia de Simon the Sorcerer :)

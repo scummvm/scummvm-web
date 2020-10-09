@@ -1,0 +1,29 @@
+---
+title: "JORNALISTA DE TABLOIDE SENSACIONALISTA ANUNCIA O SCUMMVM 0.4.0"
+date: 1052746560
+author: fingolfin
+---
+
+Cinco meses após nosso último lançamento, 0.3.0b, e mais de 2500 commits/adições ao CVS depois, a equipe ScummVM orgulhosamente apresenta ScummVM 0.4.0.
+
+A seguir está uma visão geral do que há de novo na 0.4.0:
+
+*   Suporte para Curse of Monkey Island (comi) (experimental)
+*   Adicionado suporte para as versões EGA de Loom, Monkey Island e Indy3
+*   Melhor suporte para músicas no Indy3 e nas versões em disquete de Monkey Island
+*   Muitas melhorias e correções de Simon the Sorcerer 1 e 2
+*   Muitos códigos pré-alfa de Beneath a Steel Sky. Não espere que ele faça nada (na verdade, ele está desabilitado na versão 0.4.0, mas você pode obtê-lo compilando o ScummVM você mesmo).
+*   Suporte ainda mais pré-alfa para versões aprimoradas de jogos V2 SCUMM (Maniac Mansion e Zak)
+*   Suporte preliminar para os primeiros títulos da Humongous Entertainment (muito experimental)
+*   Novo console de depuração e várias melhorias na Interface/Inicializador
+*   Novo código de Salvar/Carregar (mais fácil de expandir enquanto mantém a compatibilidade)
+*   A versão para Dreamcast agora funciona com novos jogos adicionados para 0.3.0b
+*   Nova versão oficial para PalmOS
+*   Várias pequenas e não tão pequenas correções de jogos SCUMM
+*   Grande vazamento de memória corrigido para The Dig / COMI
+*   Código SMUSH otimizado, pulo de quadros adicionado para máquinas mais lentas
+*   Limpeza de código
+
+O código-fonte, bem como os binários para Linux, Windows, Mac OS X, PocketPC, Solaris e PalmOS já estão disponíveis em nossa [página de download](/downloads/). Outros binários para MorphOS, Dreamcast entre outros surgirão em breve.
+
+*Esperamos que você aproveite o melhor ScummVM de todos os tempos!*

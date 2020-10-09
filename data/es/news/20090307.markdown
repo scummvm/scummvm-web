@@ -1,0 +1,13 @@
+---
+title: "You are standing in a open field, west of a white house, with a boarded front door."
+date: 1236432960
+author: md5
+---
+
+As you open the mailbox behind the white house, a wizard tells you that you're the lucky sweepstakes winner, who can now play several great game titles by Activision under ScummVM!
+
+We welcome the addition of the MADE engine by Activision. Four shiny new games are now supported: The infamous Return to Zork, Leather Goddesses of Phobos 2, The Manhole and Rodney's Funscreen
+
+All you need to have is a copy of one of the aforementioned Activision games, and a new [daily build](/downloads/#daily) of ScummVM.
+
+If you find any bugs, you're welcome to report them to our [bug tracker](http://bugs.scummvm.org/). Screenshots are also needed, which you can submit following our [Screenshot submission guidelines](http://wiki.scummvm.org/index.php/Screenshots).

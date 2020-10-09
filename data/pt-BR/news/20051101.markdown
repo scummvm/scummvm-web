@@ -1,0 +1,9 @@
+---
+title: "Freeware do BASS atualizado"
+date: 1130852160
+author: joostp
+---
+
+Junto com a versão 0.8.0, que requer o arquivo SKY.CPT adicional para rodar Beneath a Steel Sky, atualizamos o arquivo da versão em CD do freeware para incluir este arquivo e, enquanto estávamos lá, atualizamos os dados arquivos para a última versão lançada conhecida do BASS, que deve corrigir alguns problemas de texto que aparecem ao jogar o jogo em outros idiomas.
+
+Você pode baixá-lo na [página de downloads](/downloads/) (se os servidores do SourceForge funcionarem) ou baixar o arquivo SKY.CPT separadamente [aqui](https://github.com/scummvm/scummvm/raw/master/dists/engine-data/sky.cpt).

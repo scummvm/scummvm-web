@@ -1,0 +1,9 @@
+---
+title: "Preso em um navio de cruzeiro de luxo.. No espaço!"
+date: 1499002560
+author: Dreammaster
+---
+
+Explore um navio de cruzeiro de luxo quebrado, tente convencer o Deskbot a fazer uma atualização e, eventualmente, localize e conserte o computador de bordo do navio, Titania. Ou você nunca vai chegar em casa. Temos o prazer de anunciar o período de testes do jogo dos anos 90 [Starship Titanic](http://www.mobygames.com/game/starship-titanic). No momento, apenas a versão em inglês está pronta para testes. Portanto, pegue sua cópia e baixe a mais recente [compilação diária](/downloads/#daily) do ScummVM. Você também precisará de um arquivo [titanic.dat](https://github.com/scummvm/scummvm/blob/master/dists/engine-data/titanic.dat?raw=true) necessário, que deve ser colocado na mesma pasta para a qual você copiou os arquivos do jogo.
+
+Antes de iniciar o teste, lembre-se de que existe um tipo específico de vídeo AVI codificado pela Indeo para o qual ainda não descobrimos como decodificar informações de transparência. Em algumas áreas, como a cabine do SGT e o close de Titania, entre outras, você verá objetos com áreas negras irregulares ao seu redor. Por favor, ignore o problema por enquanto. Mas todos os outros problemas gráficos ou de jogabilidade devem ser relatados no nosso [Rastreador de Problemas](https://bugs.scummvm.org/).

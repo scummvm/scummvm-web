@@ -1,0 +1,34 @@
+---
+title: "Estamos iniciando o teste do ScummVM 2.1.0"
+date: 1568674948
+author: sev
+---
+
+Finalmente chegou a hora de iniciar o ciclo de lançamento do ScummVM 2.1.0.
+
+O lançamento será grande e esses novos jogos exigem testes:
+
+*   *Blade Runner.*
+*   *Hoyle Bridge.*
+*   *Hoyle Children's Collection.*
+*   *Hoyle Classic Games.*
+*   *Hoyle Solitaire.*
+*   *Hyperspace Delivery Boy!*
+*   *Might and Magic IV - Clouds of Xeen.*
+*   *Might and Magic V - Darkside of Xeen.*
+*   *Might and Magic - World of Xeen.*
+*   *Might and Magic - World of Xeen 2 CD Talkie.*
+*   *Might and Magic - Swords of Xeen.*
+*   *Mission Supernova Part 1.*
+*   *Mission Supernova Part 2.*
+*   *Quest for Glory: Shadows of Darkness.*
+*   *The Prince and the Coward.*
+*   *Versailles 1685.*
+
+Além disso, com esta versão, finalmente estamos ativando o suporte à nuvem para salvar jogos e dados de jogos. Por enquanto, funciona apenas em desktops; você pode encontrar uma descrição desse recurso em [nosso Manual do usuário](https://wiki.scummvm.org/index.php?title=User_Manual/Using_Cloud_and_LAN_features).
+
+A lista completa dos jogos que requerem teste para esta versão pode ser encontrada em [nosso Wiki](https://wiki.scummvm.org/index.php?title=Release_Testing/2.1.0).
+
+Por favor, utilize uma [compilação diária estável](https://buildbot.scummvm.org/builds.html) do ScummVM para teste. Caso você encontre algum erro, existe um local para que eles sejam relatados em nosso [rastreador de problemas](https://bugs.scummvm.org/). Além disso, acompanhe seu progresso [no tópico do fórum](https://forums.scummvm.org/viewtopic.php?f=1&amp;t=14945) para que possamos cruzar os títulos de jogos testados no wiki. Certifique-se de seguir nossas diretrizes para testes de versão, que podem ser encontradas [aqui](https://wiki.scummvm.org/index.php?title=Release_Testing).
+
+Seria ótimo se você pudesse ajudar com a atualização das traduções da interface gráfica do usuário do ScummVM. A descrição das etapas que você precisa seguir está [no Wiki](https://wiki.scummvm.org/index.php?title=HOWTO-Translate_ScummVM_GUI).

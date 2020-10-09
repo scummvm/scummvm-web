@@ -1,0 +1,34 @@
+---
+title: "Die Tests für ScummVM 2.1.0 haben begonnen"
+date: 1568674948
+author: sev
+---
+
+Es ist an der Zeit, die Veröffentlichung von ScummVM 2.1.0 vorzubereiten.
+
+Dieses Release wird sehr umfangreich und folgende Spiele müssen noch getestet werden:
+
+*   *Blade Runner.*
+*   *Hoyle Bridge.*
+*   *Hoyle Children's Collection.*
+*   *Hoyle Classic Games.*
+*   *Hoyle Solitaire.*
+*   *Hyperspace Delivery Boy!*
+*   *Might and Magic IV - Clouds of Xeen.*
+*   *Might and Magic V - Darkside of Xeen.*
+*   *Might and Magic - World of Xeen.*
+*   *Might and Magic - World of Xeen 2 CD Talkie.*
+*   *Might and Magic - Swords of Xeen.*
+*   *Mission Supernova Part 1.*
+*   *Mission Supernova Part 2.*
+*   *Quest for Glory: Shadows of Darkness.*
+*   *The Prince and the Coward.*
+*   *Versailles 1685.*
+
+In ScummVM 2.1.0 werden wir endlich die Unterstützung für Cloud-Spielstände und den Austausch von Spieldateien über die Cloud freigeben. Aktuell funktioniert dies nur auf Desktop-Systemen. Du findest eine Beschreibung dieses Features in [unserem Benutzerhandbuch](https://wiki.scummvm.org/index.php?title=User_Manual/Using_Cloud_and_LAN_features).
+
+Die vollständige Liste aller Spiele, für die wir noch Testergebnisse benötigen, findest Du in [unserem Wiki](https://wiki.scummvm.org/index.php?title=Release_Testing/2.1.0).
+
+Bitte verwende eine [aktuelle "stable"-Version](https://buildbot.scummvm.org/builds.html) von ScummVM, wenn Du den aktuellen Entwicklungsstand testen möchtest. Solltest Du auf Fehler stoßen, melde diese bitte in unserem [Bug-Tracker](https://bugs.scummvm.org/). Zusätzlich bitten wir dich, deinen Fortschritt in unserem [Forum](https://forums.scummvm.org/viewtopic.php?f=1&amp;t=14945) festzuhalten, sodass wir unser Wiki entsprechend anpassen können. Bitte befolge unsere Test-Richtlinien, die Du [hier](https://wiki.scummvm.org/index.php?title=Release_Testing) findest.
+
+Wir würden uns sehr freuen, wenn Du uns dabei unterstützen würdest, die Übersetzung der ScummVM-Benutzeroberfläche zu aktualisieren. Eine Beschreibung aller nötigen Schritte findest Du in [unserem Wiki](https://wiki.scummvm.org/index.php?title=HOWTO-Translate_ScummVM_GUI).

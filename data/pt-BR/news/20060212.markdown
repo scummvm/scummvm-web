@@ -1,0 +1,21 @@
+---
+title: "Mudamos para o Subversion"
+date: 1139751360
+author: sev, fingolfin
+---
+
+Graças ao [SourceForge.net](https://sourceforge.net), tivemos a oportunidade de mudar para um sistema de controle de versão mais poderoso e avançado que o CVS: Agora estamos usando o [Subversion](http://subversion.tigris.org/), também conhecido como SVN. Caso você esteja se perguntando, um sistema de versionamento é uma ferramenta para desenvolvimento de software colaborativo. Como você provavelmente sabe, a equipe ScummVM consiste em mais de 30 desenvolvedores principais ativos, e muitos mais estão em nossa lista de contribuidores anteriores e atuais. Trabalhar em um projeto dessa escala simplesmente não seria possível sem a ajuda de tal sistema.
+
+Desde o início, Ludvig Strigeus enviou sua versão inicial do ScummVM para o CVS, o sistema de versionamento que usávamos até recentemente. Vincent Hamm juntou-se a ele logo em seguida. Desde então, muita coisa mudou, muitas coisas aconteceram. Temos mais de 20.000 revisões do ScummVM e seus vários componentes em nosso repositório CVS.
+
+Agora mudamos para um novo sistema, Subversion. Comparado ao CVS, ele adiciona muitos novos recursos úteis, que nos permitem trabalhar com mais eficiência no ScummVM, algo que temos certeza que todos os nossos usuários irão apreciar. Entre outras coisas, não haverá mais defasagem entre a versão anônima e a versão do desenvolvedor do código-fonte -- você obtém tudo o que fazemos instantaneamente!
+
+Se você usou um CVS checkout até agora, descarte-o, instale um [cliente Subversion](http://subversion.tigris.org/project_packages.html) e faça o checkout
+
+ https://svn.sourceforge.net/svnroot/scummvm/scummvm/trunk/ 
+
+Se você estiver usando o cliente subversion de linha de comando, isso significa que você simplesmente precisa digitar o seguinte comando:
+
+ svn co https://svn.sourceforge.net/svnroot/scummvm/scummvm/trunk/ scummvm 
+
+Você notará que a árvore do código fonte do ScummVM já mudou significativamente e ainda mais está por vir. Fique ligado!

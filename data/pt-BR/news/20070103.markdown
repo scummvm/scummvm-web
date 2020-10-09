@@ -1,0 +1,15 @@
+---
+title: "Poderemos aceitar doações novamente. Anúncio de arrecadação de fundos"
+date: 1167831360
+author: sev
+---
+
+Há algum tempo atrás, o PayPal se aproximou de nós e nos disse que não podíamos mais usar seu sistema para aceitar doações. Foi um precedente, que foi até destacado no Slashdot. Mas, como você pode imaginar, isso pode colocar muitos projetos em uma situação muito desagradável.
+
+Felizmente, graças ao pessoal do [SourceForge](https://sourceforge.net), agora esse problema foi resolvido. Eles conseguiram ajudar a negociar uma exceção com o PayPal, permitindo-nos continuar a aceitar doações do PayPal por meio do SourceForge.
+
+Isso tudo significa que agora podemos aceitar doações novamente por meio do [sistema de doação SourceForge](https://sourceforge.net/donate/index.php?group_id=37116) que usa o PayPal.
+
+Também gostaríamos de usar esta oportunidade para anunciar uma arrecadação de fundos. Como você deve saber, estamos usando amplamente o Interactive Disassembler da [DataRescue](http://www.datarescue.com/idabase/index.htm). Até agora, a maioria de nós tem usado a versão freeware, mas ela tem muitas limitações sérias (o que obviamente a torna gratuita). Conduzimos negociações com a DataRescue e recebemos um desconto muito generoso. Nós realmente gostaríamos de comprar 5 licenças do IDA Pro para vários desenvolvedores de equipes importantes que serão capazes de usá-lo em toda a extensão. Então, se você realmente gostaria de ver o projeto se firmando e o suporte para ainda mais jogos adicionados, considere doar alguns dólares ou euros.
+
+Nossa meta é de US $ 950 e, embora essa meta não seja pequena, levando em consideração mais de 2,5 milhões de downloads, mais de 15.000 visitantes da web por dia e quase 5.400 usuários registrados do fórum, consideramos que é bem alcançável. Por favor, utilize o [sistema de doação SourceForge](https://sourceforge.net/donate/index.php?group_id=37116) para fazer suas doações.

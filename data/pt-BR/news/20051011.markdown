@@ -1,0 +1,13 @@
+---
+title: "Uma grande chamada por testadores."
+date: 1129037760
+author: sev
+---
+
+Olá, colegas usuários. Agora é hora de ajudar a equipe ScummVM a lançar uma nova versão do err... ScummVM. Ta-da!
+
+Temos uma grande quantidade de mudanças, novos recursos e correções de bugs. Quase todos os aspectos do programa foram tocados, ajustados, alterados. Então, mais uma vez, precisamos de testadores para todos os jogos que oferecemos.
+
+Gostaríamos de mencionar dois títulos completamente novos que suportamos agora. Eles são Inherit the Earth e Gobliiins (o primeiro da série). Por favor, foque sua atenção a eles também.
+
+As instruções sobre como fazer o teste estão localizadas em nossa [página do Wiki](http://wiki.scummvm.org/index.php/Release_Testing). Por favor, concentre-se neles e relate para nós em nossa lista de e-mail, #scummvm ou em nossos fóruns.

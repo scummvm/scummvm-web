@@ -1,0 +1,17 @@
+---
+title: "¡Id preparando esos docs!"
+date: 1589475206
+author: lotharsm
+---
+
+![Logotipo del GSoD](/data/news/GSoD2020Logo.png)
+
+¡Id preparando vuestra documentación! Nos encanta anunciar que ScummVM ha sido aceptado como participante del [Google Season of Docs 2020](https://developers.google.com/season-of-docs). Uno de los elementos más fundamentales de todo proyecto de código abierto es su documentación. Una buena documentación es vital para que el proyecto sea accesible tanto para usuarios finales como para desarrolladores nuevos que quieran mirar en profundidad las tripas del proyecto de cara a contribuir.
+
+Season of Docs es una iniciativa reciente de Google para conectar a escritores técnicos con proyectos de código abierto. El programa ofrece una excelente forma de ganar experiencia práctica en proyectos y explorar el mundo del software libre y las grandes comunidades que evolucionan a su alrededor. 
+
+Para ScummVM, esta es una oportunidad maravillosa para mejorar nuestra documentación. Podéis echar un vistazo a nuestra [página de ideas](https://wiki.scummvm.org/index.php?title=Season_of_Docs/GSoD_Ideas) o, si lo queréis, presentar las vuestras: poneos en contacto con nosotros en nuestro [servidor de Discord](https://discord.gg/6TBm9hJ).
+
+En los últimos años hemos tenido muchos proyectos de éxito por parte de alumnos en el Google's Summer of Code y estamos deseosos de llevar ese éxito al Google's Season of Docs, inspirándoos a trabajar con nosotros en pro de vuestro éxito.
+
+El plazo para las propuestas termina el 9 de julio. Acordaos de leer la cronología, guías y el listado de preguntas frecuentes del programa en [la web de Season of Docs](https://developers.google.com/season-of-docs) para más información.

@@ -1,0 +1,14 @@
+---
+title: "Quelques mises à jour relativement importantes"
+date: 1015594560
+author: laxdragon
+---
+
+![Full Throttle](/data/news/20020308.png) BBrox, Endy et Yazoo n'ont pas compté leurs heures, cette semaine (bravo les gars !). Voici les nouveautés côté développement de ScummVM :
+
+*   Sam &amp; Max peut désormais être fini !
+*   Le moteur vidéo *inSane* fonctionne (utilisé dans Dig et Full Throttle)
+*   De nouvelles options de lignes de commandes : cf. lisezmoi.txt
+*   Le travail préliminaire a commencé pour Curse of Monkey Island
+*   Mutle a publié le portage Mac dans l'arborescence CVS
+*   D'innombrables bugs ont été résolus.

@@ -1,0 +1,33 @@
+---
+title: "Será real? É um pássaro? É um avião...?"
+date: 1039268160
+author: ender
+---
+
+**Não!**, é o ScummVM 0.3.0b, nosso primeiro lançamento oficial desde que a LucasArts decidiu nos procurar!
+  
+
+*Pequena atualização, também adicionamos alguns links para nossa página de Links que você pode querer conferir. Especialmente VOGONS, pare de nos perguntar se vamos fazer coisas como adicionar suporte para Beneath a Steel Sky :)*
+
+  
+  
+Isso mesmo, já se passaram vários meses desde que a LucasArts nos emitiu pela primeira vez um aviso DMCA (e sabiamente decidiu após o "efeito digg" e reação de fãs, nossos usuários, negociar um acordo :), estivemos esperando por um acordo com a LucasArts antes de lançar uma nova versão tão esperada. A espera acabou. Não, ainda não chegamos a um acordo, apenas nos cansamos de esperar para lançar esta joia.
+  
+Houve centenas, senão milhares, de correções de bugs desde nosso último lançamento 0.2.0... sem mencionar o suporte para pelo menos três novos jogos (A versão VGA de Indiana Jones and the Last Crusade, e suporte para The Dig e Simon o Sorcerer 2)... e novos recursos, como uma interface do jogo amplamente aprimorada e um inicializador integrado para tornar ainda mais fácil para você adicionar, configurar e executar seus jogos clássicos da LucasArts (e AdventureSoft). Suporte experimental para Full Throttle já está disponível, bem como muitas correções de bugs para os jogos introduzidos em nossa última versão... como a versão FmTowns de 256 cores de Zak McKracken, e a versão VGA em disquete de Monkey Island.
+  
+Para um breve resumo das mudanças, verifique as [Notas de Lançamento](/frs/scummvm/0.3.0b/ReleaseNotes), ou ainda melhor... basta ir até lá e [baixar a maldita coisa](/downloads/).
+  
+Esperançosamente, poderemos chegar até você com novos lançamentos com mais frequência a partir de agora, pelo menos uma vez por mês. Por favor, aproveite este lançamento tanto quanto nossas frustrações, e lembre-se - se você der todo o seu dinheiro para a LucreArts, talvez eles nos deixem viver em vez de nos abandonar em... em... Monkey Island! (Eca, Bananas ... Eu odeio Bananas).
+  
+Para os interessados nas notícias enfadonhas, aqui está um resumo e uma atualização sobre a nossa situação legal, para os usuários que agora estão descobrindo o ScummVM.
+
+* * *
+
+*Já faz algum tempo que estamos em um impasse com a LucasArts. LucasArts simplesmente não gosta de nossa licença atual, a GPL (General Public License). Embora não achemos necessário, concordamos em alterar a licença para algo mais 'amigável'-para-LucasArts. No entanto, a LucasArts deseja que incluamos termos de distribuição que vão contra a seção um de [Diretrizes de Software Livre Debian (DFSG)](http://www.debian.org/social_contract#guidelines) e a [Definição de código aberto](http://www.opensource.org/docs/definition.html). Não podemos concordar com isso, nem com a condição que desejam exigir (sem distribuição comercial)... porque está em conflito com o DFSG e OSD, que exigimos, e é algo que legalmente não podemos ter certeza de cumprir - várias distribuições Linux e BSD já incluem pacotes ScummVM, e não podemos ter certeza de perceberão de que houve uma mudança de licença. Ah, e QUEREMOS que as distribuições possam incluir nosso software :)
+  
+Até o momento, a LucasArts não pôde nos apresentar nenhuma reclamação firme em relação ao ScummVM, além de algumas afirmações vagas de que se eles não aplicassem essas condições a nós, ela efetivamente abriria mão de seus direitos sobre sua própria propriedade intelectual. Não acreditamos nisso, certamente não houve nenhum caso documentado de GPL que levou a tal desafio no passado, e propriedades muito mais importantes foram licenciadas sob a GPL no passado, como os títulos Quake da [Id Software ](http://www.idsoftware.com/). LucasArts não está lançando nenhum de seus próprios códigos sob a GPL, e realmente não acreditamos que eles devam exigir que alteremos nossa licença - tudo o que queremos que eles façam é nos deixar em paz para criar nosso emulador. Sancione-nos, se isso os fizer sentir legalmente mais seguros. Mas se eles vão exigir um passo tão importante da nossa parte na mudança de nossa licença, eles pelo menos têm que capitular no ponto de conformidade OSD/DFSG.
+  
+Nós aqui na equipe ScummVM gostaríamos de agradecer às pessoas da LucasArts que estão nos apoiando e tentando nos ajudar a chegar a um acordo. Mas gente, nós somos seus fãs. Tudo o que estamos fazendo é atualizar a engine de jogos, na forma de um emulador... porque vocês não o fizeram - embora já o solicitemos há anos. Nós ainda ganhamos mais dinheiro para você, já que vários de nós compramos seus pacotes clássicos, apenas para jogá-los com o ScummVM.*
+  
+
+**Estes últimos parágrafos foram apresentados a você pelo departamento "Por favor, não nos processe por fazer um novo lançamento".**

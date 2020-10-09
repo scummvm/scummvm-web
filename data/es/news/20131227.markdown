@@ -1,0 +1,9 @@
+---
+title: "The Neverhood comes to ScummVM!"
+date: 1388151360
+author: md5
+---
+
+The Neverhood needs you! Klaymen, our hero, wakes up in a building in the strangely empty world of Neverhood. It's up to you to explore and find out what happened to Neverhood's wacky clay world.
+
+The ScummVM Team is proud to announce that [The Neverhood](http://www.mobygames.com/game/windows/neverhood) is now playable in ScummVM using the latest [daily builds](/downloads/#daily), and ready for testing. As usual, all bugs should be reported to [our bug tracker](http://bugs.scummvm.org/) following our [bug submission guidelines](/faq/#question.report-bugs). While you play through the game, we would also love it if you could take some [screenshots](http://wiki.scummvm.org/index.php/Screenshots) for us.

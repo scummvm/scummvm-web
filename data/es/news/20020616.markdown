@@ -1,0 +1,19 @@
+---
+title: "Bis del informe sobre avances"
+date: 1024234560
+author: ender
+---
+
+Hay poco de lo que informar, pero tranquilos, no nos hemos muerto. La mayor parte del equipo de ScummVM está muy ocupado ahora mismo con sus estudios y trabajo, ¡pero esperamos que pase lo peor muy pronto y podamos ponernos a cerrar errores y publicar una versión nueva! Este es un primer borrador de lo que consideramos nuestros hitos para ScummVM:
+
+*   0.2.5: Soporte prácticamente perfecto de todos los juegos compatibles
+*   0.3.0: The Dig y MI1 para VGA en disquete compatibles
+*   0.4.0: Indiana Jones and The Last Crusade compatible, más correcciones de fallos
+*   0.5.0: Full Throttle compatible, soporte básico para CMI y Maniac Mansion
+*   0.6.0: Más trabajos en CMI, MM y correcciones de fallos
+*   0.7.0: Maniac Mansion superable de principio a fin, Zak McCracken y Loom16 jugables
+*   0.8.0: Zak McCracken y Loom16 superables de principio a fin
+*   0.9.0: Correcciones de errores y CMI superable de principio a fin
+*   1.0.0: El fin del principio
+
+Evidentemente, es una escaleta muy verde y está sujeta a cambios en caso de que hagamos algún avance en algún juego, pero nos sirve para dar una idea básica de nuestros objetivos. El soporte para CMI será lo más difícil, ya que es radicalmente distinto a las versiones de SCUMMVM con las que hemos tratado hasta la fecha. ¡Felices aventuras!

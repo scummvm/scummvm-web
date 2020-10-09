@@ -1,0 +1,11 @@
+---
+title: "Nova casa para o nosso site principal"
+date: 1453210560
+author: sev
+---
+
+Nós temos utilizado o SourceForge.net há muitos anos. Foi a primeira casa do nosso projeto e nos serviu muito bem. No entanto, tivemos que seguir em frente e estávamos procurando um novo lar. No ano passado, Florian Schicker, CEO da [easyname GmbH](http://easyname.com), nos abordou com a emocionante proposta de doar um servidor e hospedá-lo em seu Data Center. E o que o torna tão especial é que eles estão fazendo isso "porque são grandes fãs dos bons e velhos jogos ao estilo scumm"! Vá, dê uma olhada na [página da equipe da empresa nesse sentimento chocante de fantasia](http://www.easyname.com/en/company/team)! Uma proposta realmente generosa e completamente inesperada.
+
+Assim, estamos nos movendo. Primeiro, mudamos o site principal e os downloads, e você provavelmente já percebeu o aumento de velocidade graças ao novo serviço. Também nos despedimos dos anúncios durante os downloads, pois eles foram fornecidos pelo SourceForge.net. Os únicos anúncios que serão associados a este projeto a partir de agora são os que queremos fazer sozinhos (e que, obviamente, inclui easyname.com, veja seu belo logotipo no painel direito). Eventualmente, moveremos mais serviços para o novo servidor e, talvez, até o estenderemos com algo novo.
+
+Então, junte-se a nós na alegria de um novo lar!

@@ -1,0 +1,11 @@
+---
+title: "ResidualVM Reaches 0.1.0"
+date: 1356183360
+author: Strangerke
+---
+
+Grim Fandango was created on the peak of LucasArts games popularity. The ever-inspirational Tim Schafer in a fury of artistry packed together the best atmosphere he could create and the game was born. For a while there was great and steady efforts on creating an engine which would run this masterpiece on the modern hardware. The project is called [ResidualVM](http://residualvm.org).
+
+After more than 9 years of hard work, our "sister" project, [ResidualVM](http://residualvm.org) has reached a stable state and is now announcing their first stable release.
+
+We survived the apocalypse! Let's celebrate that: grab your original of Grim Fandango and visit their site!

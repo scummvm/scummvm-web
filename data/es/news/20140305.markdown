@@ -1,0 +1,13 @@
+---
+title: "Summertime and the codin' is easy"
+date: 1394026560
+author: Strangerke &amp; DJWillis
+---
+
+![GSoC 2014 Banner](/data/news/GSOC-14_banner.png)
+
+We are very excited to announce that we are going to be doing things a little differently this year. In addition to our own participation in Google Summer of Code, ScummVM will also be acting as an umbrella organization for our sister project, [ResidualVM](http://www.residualvm.org/).
+
+Both projects will be working hand in hand with students and mentors over the coming months. The first obvious sign of this collaboration can be found in our [merged GSoC ideas page](http://wiki.scummvm.org/index.php/GSoC_Ideas).
+
+So if you're interested in being a GSoC student this year, please take a look at the ideas page and come and talk to us. We love to welcome potential students on IRC and the ScummVM and ResidualVM mailing lists are also splendid places to start! We have a lot of exciting things to suit a range of skillsets and we also warmly welcome task proposals other than those on the list if you feel so inspired!

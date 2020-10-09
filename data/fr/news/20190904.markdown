@@ -1,0 +1,9 @@
+---
+title: "Votre colis est en cours de livraison !"
+date: 1567632153
+author: sev
+---
+
+L'équipe de ScummVM est ravie d'annoncer le support de l'une des créations de John Romero, le jeu *Hyperspace Delivery Boy!* Toutes les versions connues (Linux, Windows et PocketPC) sont supportées. Si jamais vous ne possédez pas de copie, la démo est disponible dans notre [rubrique Démos](/demos/).
+
+Alors, récupérez votre copie du jeu et aidez-nous à le tester en utilisant la [dernière version de développement](https://buildbot.scummvm.org/builds.html) de ScummVM. Si votre version du jeu n'est pas reconnue ou si vous trouvez des bugs, veuillez les signaler sur notre [base de bugs](https://bugs.scummvm.org). Et comme toujours, amusez-vous bien !

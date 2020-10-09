@@ -1,0 +1,19 @@
+---
+title: "Testando, Testando 1, 2,3"
+date: 1402925760
+author: clone2727
+---
+
+A próxima versão 1.7.0 do ScummVM está quase aqui! Desta vez, temos um total de cinco jogos recém-suportados:
+
+*   *Chivalry Is Not Dead*
+*   *Mortville Manor*
+*   *Return to Ringworld*
+*   *The Neverhood*
+*   *Voyeur*
+
+Mas antes que possamos lançar a melhor e mais recente versão do ScummVM, precisamos de ajuda para testar todos esses novos jogos. Além dos novos jogos mencionados para esta versão, as versões de disquete em DOS de *Indiana Jones and The Last Crusade* e *Loom* exigem testes em execução com nosso emulador AdLib. Você sempre pode verificar quais jogos ainda precisam ser testados em [nosso wiki](http://wiki.scummvm.org/index.php/Release_Testing/1.7.0). Existem também alguns outros clássicos antigos nessa lista que poderiam ser usados novamente.
+
+Uma [compilação diária](/downloads/#daily) é tudo o que é necessário para começar. Se encontrar algum bug, por favor relate-o no [rastreador de bugs](http://bugs.scummvm.org/). Após concluir um dos jogos, informe-nos nos [fóruns](http://forums.scummvm.org/viewtopic.php?t=13639) para que possamos publicar os resultados na [página wiki](http://wiki.scummvm.org/index.php/Release_Testing/1.7.0). Certifique-se de seguir nossas diretrizes para testes de versão, que podem ser encontradas [no wiki](http://wiki.scummvm.org/index.php/Release_Testing) também.
+
+E enquanto você joga esses jogos recém-suportados, envie algumas [capturas de tela](http://wiki.scummvm.org/index.php/Screenshots)!

@@ -1,0 +1,18 @@
+---
+title: "ScummVM 0.5.1 publicada"
+date: 1060349760
+author: ender
+---
+
+Hoy se ha publicado la versión 0.5.1 de ScummVM que corrige varios problemas descubiertos desde la versión 0.5.0.
+
+Estos son los cambios incluidos:
+
+*   Se ha reescrito por completo el código del sistema de partidas guardadas de Beneath a Steel Sky, eliminando varias situaciones en las que ScummVM 0.5.0 produciría partidas guardadas inutilizables o «congeladas».
+*   Se han corregido varios errores adicionales en Beneath a Steel Sky
+*   Se han arreglado algunos defectos gráficos de actores en Curse of Monkey Island
+*   Se han resuelto algunos problemas al ejecutar ScummVM a pantalla completa en MacOS X
+*   La conversión a MorphOS ha recibido varias correcciones importantes
+*   La conversión para Dreamcast ahora es compatible con Simon the Sorcerer 1 y 2
+
+Recomendamos a todos los usuarios que actualicen el emulador a esta versión. Tened en cuenta que aunque las partidas guardadas de BASS hechas con la versión 0.5.0 son compatibles con esta versión, recomendamos volver a empezar la partida utilizando el sistema de guardado de la versión 0.5.1 si seguís teniendo problemas.

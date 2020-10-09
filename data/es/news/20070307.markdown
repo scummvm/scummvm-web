@@ -1,0 +1,13 @@
+---
+title: "They disintegrated the earth!"
+date: 1173274560
+author: drmccoy
+---
+
+[*Bargon Attack*](http://wiki.scummvm.org/index.php/Bargon_Attack), which like *Ween: The Prophecy* shares most of the code with *Gobliins 2*, is now completable and supported. Hence, we ask you to catch up with the Bargonians and hunt for bugs along the way.
+
+The procedure is the same as the last few times: take your copy of Bargon Attack and a [daily build](/downloads/#daily) of ScummVM. Be sure you read the [bug submission guidelines](/faq/#question.report-bugs) and enter any bugs into [our bug tracker](http://bugs.scummvm.org/).
+
+Some screenshots would be nice, too.
+
+Oh, and check out Ender's speech at LCA2007 [here](http://mirror.linux.org.au/pub/linux.conf.au/2007/video/tuesday/tuesday_1650_gaming.ogg).

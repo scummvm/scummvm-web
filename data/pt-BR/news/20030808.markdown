@@ -1,0 +1,18 @@
+---
+title: "ScummVM 0.5.1 foi lançado"
+date: 1060349760
+author: ender
+---
+
+O ScummVM versão 0.5.1 foi lançado hoje, corrigindo vários problemas descobertos desde o ScummVM 0.5.0.
+
+As seguintes alterações estão inclusas nesta versão:
+
+*   Código para salvar o jogo em Beneath a Steel Sky completamente reescrito, eliminando várias situações onde ScummVM 0.5.0 produziria jogos salvos 'congelados' inutilizáveis
+*   Vários outros bugs do Beneath a Steel Sky foram corrigidos
+*   Alguns problemas gráficos dos atores de Curse of Monkey Island foram corrigidos
+*   Alguns problemas ao executar ScummVM em tela cheia no MacOS X foram resolvidos
+*   A versão para MorphOS passou por várias correções de bugs críticos
+*   A versão para Dreamcast agora suporta Simon the Sorcerer 1 e 2
+
+Recomendamos a todos os usuários a atualização para esta versão. Observe que, embora os salvamentos em BASS de 0.5.0 sejam compatíveis com esta versão, recomendamos reiniciar seu jogo usando o sistema de salvamento do 0.5.1 se você continuar a ter problemas.

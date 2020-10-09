@@ -1,0 +1,15 @@
+---
+title: "Une lumière au bout du tuyau"
+date: 1480599360
+author: sev
+---
+
+Le Dude... le Tuyau... le Dark-Burrow-Dweller... et vous.
+
+Après plusieurs années de développement, l'équipe de ScummVM a le plaisir de vous annoncer que *The Full Pipe* (titre original : Полная Труба), un jeu obscure, insolite et captivant, est maintenant supporté. Attrapez votre CD (les versions Android et iOS ne sont pas supportées), une [compilation quotidienne](/downloads/#daily) de ScummVM, et aidez nous à tester les aventures de Dude dans un monde plein de curiosités.
+
+En dehors des menus le jeu ne contient pas de texte. Si vous ne le possédez pas encore vous pouvez donc acheter la version en allemand éditée par [Daedalic Entertainment](http://www.daedalic.de/de/Game/Full_Pipe). Le jeu n'est pas disponible en français ou en anglais.
+
+Avant de commencer vos tests, nous vous demandons de lire nos [directives de tests](http://wiki.scummvm.org/index.php/Release_Testing). Nous avons également besoin de [captures d'écran](http://wiki.scummvm.org/index.php/Screenshots), alors n'hésitez pas à nous soumettre les vôtres.
+
+Allez-y ! Dude vient de tomber dans le tuyau.

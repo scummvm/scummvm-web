@@ -1,0 +1,20 @@
+---
+title: "Anunciando CABAL"
+date: 1080826560
+author: fingolfin
+---
+
+1º de abril, A INTERNET: O [FreeSCI](http://freesci.org/), [Sarien](http://sarien.sourceforge.net/) e [ScummVM](http://www.scummvm.org/) se juntam hoje para anunciar a formação de CABAL (Coalesced 'Adventures beyond Architecture' League ou Liga unida de 'Aventuras além da arquitetura' em português), um intérprete universal de jogos de aventura. Este novo projeto irá unir as forças e capacidades dos projetos envolvidos, criando o que os membros do projeto acreditam que será uma revolução para os fãs de jogos de aventura em todo o mundo.
+
+Quando questionado sobre a relevância do CABAL para o mercado mundial de jogos de aventura, o líder do projeto ScummVM Max Horn comentou que "\[com\] o mercado de títulos de aventura diminuindo, acreditamos que a formação de um projeto com o objetivo explícito de executar cada jogo de aventura já lançado irá infundi-lo com uma nova vida." O mantenedor do FreeSCI, Lars Skovlund, acrescentou que "isso certamente causará uma revolução no mundo dos jogos. Fãs de jogos de aventura ao redor do mundo, alegrem-se!".
+
+Além de apoiar os jogos SCUMM da LucasArts (incluindo títulos famosos como "Monkey Island", "Indiana Jones" e "Sam and Max"), as linhas SCI e AGI da Sierra ("King's Quest", "Leisure Suit Larry", "Space Quest "...), e outros jogos já suportados pelas engines predecessoras, a equipe recém-unida planeja continuar a adicionar mais títulos à sua já impressionante lista.
+
+Alguns dos novos módulos interessantes incluem:
+
+*   Um módulo Infocom (baseado no [interpretador de máquina Frotz Z](http://www.cs.csubak.edu/~dgriffi/proj/frotz/)), para que agora você possa jogar suas aventuras de texto favoritas onde quer que vá!
+*   [Exult](http://exult.sourceforge.net) está sendo incorporado como um plugin, permitindo que fãs do Ultima 7 ao redor do mundo joguem seu jogo favorito nas várias plataformas já suportadas pelas engines de componentes CABAL - incluindo Palm/PDAs PocketPC e Dreamcast.
+*   A Revolution software ofereceu o código-fonte para Broken Sword 3, que será adicionado aos títulos suportados pelo próximo projeto CABAL3D - juntamente com Grim Fandango e, possivelmente, Ultima IX (negociações estão em andamento).
+*   O suporte para os jogos Final Fantasy IV a VI de SNES (numeração japonesa, ou seja, FF2/FF3 de acordo com os lançamentos nos EUA) está planejado para o outono. Embora estes não sejam estritamente jogos de aventura, a história e os enredos desta série são mais imaginativos do que qualquer título de 'aventura de ação' publicado nos últimos anos.
+
+Ofertas de várias empresas, incluindo Microsoft e Amiga International, para comprar a equipe foram generosas, mas firmemente recusadas pelos líderes do projeto em conjunto. "Sabemos que poderíamos ganhar muito dinheiro com isso, mas somos idealistas e neste momento temos o objetivo de reformar o mercado de aventura mundial. Uma vez que isso for alcançado, podemos reconsiderar sobre como ganhar algum dinheiro com isso."

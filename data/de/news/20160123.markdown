@@ -1,0 +1,13 @@
+---
+title: "Das Labyrinth muss zerstört werden!"
+date: 1453556160
+author: md5
+---
+
+Während Sie gerade mit der U-Bahn unterwegs sind, wird Ihr Waggon in eine alternative Dimension hineingezogen, in ein Labyrinth, welches sich über das Raum-Zeit-Kontinuum erstreckt. Daedalus, der Erbauer des Labyrinths, wird von dem bösen König Minos dazu gezwungen, den Bau zu überwachen. König Minos will das Labyrinth benutzen, um damit in alle Zeitalter und Orte einzudringen und diese zu erobern. Daedalus bittet den Spieler darum, einen Weg zu finden, das Labyrinth zu zerstören, bevor Minos seinen Plan ausführen kann.
+
+Das ScummVM-Team ist stolz darauf, ankündigen zu können, dass *Labyrinth of Time* ab sofort in der aktuellen [Entwicklerversion](/downloads/#daily) spielbar ist und getestet werden kann.
+
+Sollten Sie auf Fehler oder noch unbekannte Spielversionen stoßen, bitten wir Sie, einen entsprechenden [Fehlerbericht](http://bugs.scummvm.org/) einzureichen. Bitte orientieren Sie sich dabei an unseren [Richtlinien für Fehlerberichte](/faq/#question.report-bugs). Alle [Bildschirmfotos](http://wiki.scummvm.org/index.php/Screenshots), die Sie während Ihres Spiels anfertigen, sind wie üblich willkommen.
+
+Vielen Dank an [The Wyrmkeep Entertainment Co.](http://www.wyrmkeep.com/) für das Bereitstellen des originalen Quellcodes des Spiels!

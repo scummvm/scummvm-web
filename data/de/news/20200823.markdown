@@ -1,0 +1,11 @@
+---
+title: "Eine geheime ScummVM-Operation"
+date: 1598194019
+author: sev
+---
+
+Während des Google Scummer of Code 2008 hat Kari Salminen aka Buddha^ an der Unterstützung für das Spiel <i>Operation Stealth</i> gearbeitet. Obwohl das Projekt durchaus erfolgreich war, blieben einige Bestandteile noch unvollendet. Jetzt, 12 Jahre später, hat Kari sich die Zeit genommen, seine Arbeit zu vervollständigen.
+
+Hiermit verkünden wir stolz die Unterstützung für <i>Operation Stealth</i>, welches in den USA unter dem Namen <i>James Bond 007: The Stealth Affair</i> veröffentlicht wurde.
+
+Neben dem Spiel benötigst du eine aktuelle [Entwicklerversion](https://buildbot.scummvm.org/builds.html) von ScummVM. Solltest du auf Fehler oder andere Merkwürdigkeiten stoßen, melde diese bitte in unserem [Bug-Tracker](https://bugs.scummvm.org/).

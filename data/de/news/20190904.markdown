@@ -1,0 +1,9 @@
+---
+title: "Fertig machen zur Zustellung!"
+date: 1567632153
+author: sev
+---
+
+Das ScummVM-Team ist sehr erfreut, die Unterstützung für eine Spiele-Schöpfung von John Romero ankündigen zu können - das Spiel *Hyperspace Delivery Boy!* Alle bekannten Versionen werden unterstützt, einschließlich der Versionen für Linux, Windows und PocketPC. Wenn Du das Spiel noch nicht besitzt, findest Du eine Demo-Version auf [unserer Website](/demos/).
+
+Mit deiner Kopie des Spiels und der [aktuellen Entwicklerversion](https://buildbot.scummvm.org/builds.html) von ScummVM kannst Du uns dabei helfen, das Spiel genau zu testen. Wenn deine Version des Spiels nicht erkannt wird oder Du auf Fehler stößt, melde dies bitte in unserem [Bug-Tracker](https://bugs.scummvm.org). Wie immer wünschen wir dir viel Spaß!

@@ -1,0 +1,14 @@
+---
+title: "GSoC 2017-Projekte bekannt gegeben!"
+date: 1493991360
+author: Criezy
+---
+
+![GSoC Logo](/data/news/GSoC2017Logo.png)
+
+Heute hat Google die Projekte bekannt gegeben, die für den diesjährigen "Summer of Code" akzeptiert wurden. Wir freuen uns sehr, dass ScummVM zwei Zauberschüler betreuen wird, die eine gemeinsame Mission haben: Accio Super Sludge Nova! Der Zauber bewirkt die Unterstützung für zwei neue Engines und ist 12 Wochen wirksam:
+
+*   Joseph-Eugene Winzer (a.k.a. Joefish) wird an der Unterstützung für ***[Mission Supernova](http://outpost.simplicity.de)*** arbeiten.
+*   Simei Yin wird an einer Portierung der ***[Sludge-Engine](https://opensludge.github.io)*** zu ScummVM arbeiten.
+
+Wir heißen unsere Schüler sehr herzlich willkommen und hoffen, dass es ein produktiver und interessanter Sommer wird! Sie können ihren Fortschritt den ganzen Sommer über in den [ScummVM-Blogs](http://planet.scummvm.org) verfolgen.

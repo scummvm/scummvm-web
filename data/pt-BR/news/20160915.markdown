@@ -1,0 +1,17 @@
+---
+title: "História de Aventura em Mystery House"
+date: 1473946560
+author: waltervn
+---
+
+"Você está no jardim da frente de uma casa Vitoriana grande e abandonada."
+
+Agora você pode experimentar a história do jogo de aventura e jogar *Hi-Res Adventure# 1: Mystery House* da Sierra no ScummVM. Você se atreve a voltar para 1980 e subir as escadas até a varanda? Pegue sua cópia do jogo e uma [compilação diária](/downloads/#daily) e participe de nossos testes voltando no tempo.
+
+Temos o orgulho de anunciar que agora também temos suporte para vários outros jogos usando o mesmo sistema ADL - que apresentam tecnologias avançadas, como gráficos coloridos! Talvez você prefira salvar o planeta (*Hi-Res Adventure# 0: Mission Asteroid*), ou salvar a princesa (*Hi-Res Adventure #2: The Wizard and the Princess*)?
+
+Estamos trabalhando no restante dos jogos *Hi-Res Adventure*, mas, enquanto isso, estamos lançando suporte às versões Apple II desses três jogos para teste e estamos ansiosos para ver qualquer relatório de bug referente a problemas que você possa encontrar. Gostaríamos de incluí-las em nossa próxima versão, portanto, leia nossas [diretrizes de teste](http://wiki.scummvm.org/index.php/Release_Testing) e não esqueça de fazer algumas [capturas de tela](http://wiki.scummvm.org/index.php/Screenshots).
+
+*Mystery House* foi lançado em domínio público pela Sierra On-Line em 1987, para comemorar seu 7º aniversário. Você pode [fazer o download](https://www.scummvm.org/games/#mysthous) gratuitamente. Para mais detalhes sobre os outros jogos e onde você pode comprar uma cópia, dê uma olhada em [nossas páginas wiki](http://wiki.scummvm.org/index.php/ADL).
+
+Se você tiver disquetes originais para qualquer um dos jogos *Hi-Res Adventure* (para qualquer plataforma), queremos ouvir você. Se você possui uma versão Apple II em particular do *Hi-Res Adventure #3: Cranston Manor*, entre em contato. Muitos desses jogos são raros, e não podemos adicionar suporte à todos os lançamentos diferentes sem a sua ajuda!

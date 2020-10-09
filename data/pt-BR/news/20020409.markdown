@@ -1,0 +1,9 @@
+---
+title: "Versão de atualização"
+date: 1018359360
+author: ender
+---
+
+Graças a várias pessoas, confirmamos que DOTT, o Sam and Max e o LoomCD são completáveis sem 'grandes' bugs no código atual. Por outro lado, foram encontrados vários bugs graves com o MI2 e o Indy4, portanto a versão 0.2.0 pode demorar um pouco mais do que o esperado.
+  
+Para os programadores por aí, fique à vontade para navegar na lista de bugs e tentar realizar correções para eles. No momento, há apenas uma pessoa trabalhando regularmente no ScummVM, com isso as coisas estão devagar.

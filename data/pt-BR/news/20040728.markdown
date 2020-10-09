@@ -1,0 +1,11 @@
+---
+title: "Oh Não! De Novo Não!"
+date: 1091021760
+author: ender
+---
+
+Bem, um daqueles erros de código "Pequeno, mas importante" surgiu no ScummVM 0.6.1. Um erro de copiar e colar na tela 'Editar jogo' pode fazer com que as pessoas não consigam salvar um jogo.
+
+O erro envolve a nova aba 'Caminhos', que permite uma edição mais fácil dos caminhos do jogo. Infelizmente, o campo 'Extra' nesta tela é acidentalmente salvo como um diretório a ser usado para jogos salvos, em vez do campo correto abaixo dele. Isso foi descoberto e corrigido na versão experimental do CVS, mas a correção foi deixada de fora por engano na versão 0.6.1 do ScummVM.
+
+Se você encontrar essa falha, a solução recomendada é definir o Caminho Extra para o diretório do jogo salvo. O ScummVM 0.6.1b será lançado em breve para corrigir esse problema.
