@@ -100,10 +100,9 @@ class CompatibilityPage extends Controller
     public function getAll($version, $versions)
     {
 
-        $filename = DIR_DATA . "/compatibility.yaml";
         $compat_data = $this->compatibilityModel->getAllDataGroups($version);
 
-        $last_updated = filemtime($filename);
+        $last_updated = $this->compatibilityModel->getLastUpdated();
         $this->template = 'pages/compatibility.tpl';
 
         return $this->renderPage(

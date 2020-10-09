@@ -25,7 +25,7 @@ class FAQModel extends BasicModel
     /* Get last modification time. */
     public function getLastUpdated()
     {
-        return date('F d, Y', @filemtime(self::getFilename()));
+        return date('F d, Y', @filemtime($this->getFilename()));
     }
 
     /* Get all question and answers. */

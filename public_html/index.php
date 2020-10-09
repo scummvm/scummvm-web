@@ -22,7 +22,7 @@ require_once __DIR__ . '/../include/Constants.php';
  * Multilingual support
  */
 global $lang, $available_languages;
-$languages = array_slice(scandir(DIR_LANG),2);
+$languages = array_slice(scandir(DIR_DATA),2);
 $available_languages = [];
 foreach ($languages as $l) {
     $available_languages[$l] = \locale_get_display_name($l, $l);

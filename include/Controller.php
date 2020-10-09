@@ -36,10 +36,10 @@ class Controller
         $this->smarty->compile_id = $lang;
 
         // First we read English, so all defaults are there
-        $this->smarty->configLoad(join(DIRECTORY_SEPARATOR, [DIR_LANG, DEFAULT_LOCALE, "strings.ini"]));
+        $this->smarty->configLoad(join(DIRECTORY_SEPARATOR, [DIR_DATA, DEFAULT_LOCALE, "strings.ini"]));
 
         // Now we try to read translations
-        if (is_file(($fname = join(DIRECTORY_SEPARATOR, [DIR_LANG, $lang, "strings.ini"])))
+        if (is_file(($fname = join(DIRECTORY_SEPARATOR, [DIR_DATA, $lang, "strings.ini"])))
             && is_readable($fname)
         ) {
             $this->smarty->configLoad($fname);
