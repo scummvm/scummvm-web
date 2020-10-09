@@ -28,7 +28,7 @@ class GameModel extends BasicModel
             $companies = $this->companiesModel->getAllData();
             $engines = $this->enginesModel->getAllData();
             $series = $this->seriesModel->getAllData();
-            $fname = DIR_DATA . '/games.yaml';
+            $fname = $this->getLocalizedFile('games.yaml');
             $games = \yaml_parse_file($fname);
             $data = [];
             foreach ($games as $game) {

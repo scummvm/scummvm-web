@@ -12,7 +12,7 @@ class GameDownloadsModel extends BasicModel
     /* Get all download entries. */
     public function getAllDownloads()
     {
-        $fname = DIR_DATA . '/games.xml';
+        $fname = $this->getLocalizedFile('games.xml');
         /* Now parse the data. */
         $parser = new XMLParser();
         $parsedData = $parser->parseByFilename($fname);

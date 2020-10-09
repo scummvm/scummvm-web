@@ -13,7 +13,7 @@ class VersionsModel extends BasicModel
     {
         $data = $this->getFromCache();
         if (is_null($data)) {
-            $fname = DIR_DATA . '/versions.yaml';
+            $fname = $this->getLocalizedFile('versions.yaml');
             $versions = \yaml_parse_file($fname);
 
             $data = [];

@@ -16,10 +16,7 @@ class SimpleModel extends BasicModel
     public function __construct($type, $filename)
     {
         parent::__construct();
-        $this->filename = DIR_DATA . "/$filename";
-        if (!is_file($this->filename) || !is_readable($this->filename)) {
-            throw new \ErrorException(\sprintf(self::FILE_NOT_FOUND, $this->filename));
-        }
+        $this->filename = $this->getLocalizedFile($filename);
         $this->type = "ScummVM\Objects\\$type";
     }
 
