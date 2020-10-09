@@ -24,12 +24,16 @@ class CompatibilityModel extends BasicModel
         $this->platformsModel = new SimpleModel("Platform", "platforms.yaml");
     }
 
+    public function getLastUpdated() {
+        return filemtime($this->getLocalizedFile("compatibility.yaml"));
+    }
+
     /* Get all the groups and the respectively demos for the specified ScummVM version. */
     public function getAllData($version)
     {
         $data = $this->getFromCache($version);
         if (is_null($data)) {
-            $fname = DIR_DATA . "/compatibility.yaml";
+            $fname = $this->getLocalizedFile("compatibility.yaml");
             $compatibilityEntries = \yaml_parse_file($fname);
             $games = $this->gameModel->getAllGames();
             $platforms = $this->platformsModel->getAllData();

@@ -7,6 +7,8 @@ use Phpfastcache\Exceptions\PhpfastcacheDriverException;
 
 abstract class BasicModel
 {
+    const FILE_NOT_FOUND = 'The filename %s could not be found';
+
     protected static $cache;
 
     public function __construct()
@@ -20,6 +22,22 @@ abstract class BasicModel
                 // Fallback to files based cache
                 self::$cache = new Psr16Adapter('files');
             }
+        }
+    }
+
+    protected function getLocalizedFile($filename) {
+        global $lang;
+        if (!$lang) {
+            $lang = DEFAULT_LOCALE;
+        }
+        $localizedFilename = DIR_DATA . "/$lang/$filename";
+        $defaultFilename = DIR_DATA . "/" . DEFAULT_LOCALE . "/$filename";
+        if (is_file($localizedFilename) && is_readable($localizedFilename)) {
+            return $localizedFilename;
+        } elseif (is_file($defaultFilename) && is_readable($defaultFilename)) {
+            return $defaultFilename;
+        } else {
+            throw new \ErrorException(\sprintf(self::FILE_NOT_FOUND, $filename));
         }
     }
 

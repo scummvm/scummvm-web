@@ -15,7 +15,7 @@ class DownloadsModel extends BasicModel
     {
         $sections = $this->getFromCache();
         if (is_null($sections)) {
-            $fname = DIR_DATA . '/downloads.xml';
+            $fname = $this->getLocalizedFile('downloads.xml');
             /* Now parse the data. */
             $parser = new XMLParser();
             $parsedData = $parser->parseByFilename($fname);

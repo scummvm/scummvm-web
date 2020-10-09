@@ -26,7 +26,7 @@ class ScreenshotsModel extends BasicModel
     /* Get all screenshots. */
     public function getAllScreenshots()
     {
-        $fname = DIR_DATA . '/screenshots.yaml';
+        $fname = $this->getLocalizedFile('screenshots.yaml');
         $screenshots = \yaml_parse_file($fname);
         $platforms = $this->platformsModel->getAllData();
         $games = $this->gameModel->getAllGames();

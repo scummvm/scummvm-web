@@ -23,7 +23,7 @@ class GameDemosModel extends BasicModel
     {
         $groupedData = $this->getFromCache();
         if (is_null($groupedData)) {
-            $fname = DIR_DATA . '/game_demos.yaml';
+            $fname = $this->getLocalizedFile('game_demos.yaml');
             $demos = \yaml_parse_file($fname);
             $games = $this->gameModel->getAllGames();
             $platforms = $this->platformsModel->getAllData();

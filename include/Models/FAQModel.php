@@ -19,22 +19,7 @@ class FAQModel extends BasicModel
     /* Get the full path and filename for the F.A.Q. XML-file. */
     public function getFilename()
     {
-        global $lang;
-
-        if ($lang !== DEFAULT_LOCALE) {
-            $localized = DIR_DATA . "/faq-xml." . $lang . ".xml";
-
-            if (is_file($localized)) {
-                if (!is_readable($localized)) {
-                    $file = "\n\nFilename: " . basename($localized) . "\n";
-                    throw new \ErrorException(self::FILE_NOT_FOUND . $file);
-                } else {
-                    return $localized;
-                }
-            }
-        }
-
-        return DIR_DATA . '/faq-xml.xml';
+        return $this->getLocalizedFile('faq.xml');
     }
 
     /* Get last modification time. */
