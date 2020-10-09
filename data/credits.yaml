@@ -498,6 +498,41 @@
         alias: "sev"
         description: ""
     -
+      name: "Grim"
+      person:
+      -
+        name: "James Brown"
+        alias: "ender"
+        description: "Grim (retired)"
+      -
+        name: "Giulio Camuffo"
+        alias: "giucam"
+        description: "Grim (retired)"
+      -
+        name: "Dries Harnie"
+        alias: "Botje"
+        description: "EMI"
+      -
+        name: "Pawe&#322; Ko&#322;odziejski"
+        alias: "aquadran"
+        description: "Grim"
+      -
+        name: "Christian Krause"
+        alias: "chkr"
+        description: "EMI (retired)"
+      -
+        name: "Einar Johan T. S&oslash;m&aring;en"
+        alias: "somaen"
+        description: "Grim, EMI"
+      -
+        name: "Joel Teichroeb "
+        alias: "klusark"
+        description: "EMI"
+      -
+        name: "Joni V&auml;h&auml;m&auml;ki"
+        alias: "Akz"
+        description: "EMI (retired)"
+    -
       name: "Groovie"
       person:
       -
@@ -548,6 +583,21 @@
       -
         name: "Eugene Sandulenko"
         alias: "sev"
+        description: ""
+    -
+      name: "ICB"
+      person:
+      -
+        name: "Pawe&#322; Ko&#322;odziejski"
+        alias: "aquadran"
+        description: ""
+      -
+        name: "Joost Peters"
+        alias: "joostp"
+        description: ""
+      -
+        name: "Einar Johan T. S&oslash;m&aring;en"
+        alias: "somaen"
         description: ""
     -
       name: "Illusions"
@@ -733,6 +783,13 @@
         alias: "MiroslavR"
         description: ""
     -
+      name: "Myst 3"
+      person:
+      -
+        name: "Bastien Bouclet"
+        alias: "bgK"
+        description: ""
+    -
       name: "Neverhood"
       person:
       -
@@ -911,6 +968,21 @@
       -
         name: "Joost Peters"
         alias: "joostp"
+        description: ""
+    -
+      name: "Stark"
+      person:
+      -
+        name: "Bastien Bouclet"
+        alias: "bgK"
+        description: ""
+      -
+        name: "Einar Johan T. S&oslash;m&aring;en"
+        alias: "somaen"
+        description: ""
+      -
+        name: "Liu Zhaosong"
+        alias: "Douglas"
         description: ""
     -
       name: "Supernova"
@@ -1203,6 +1275,10 @@
     -
       name: "Wintermute"
       person:
+      -
+        name: "Gunnar Birke"
+        alias: "Fury"
+        description: "Wintermute 3D"
       -
         name: "Einar Johan T. S&oslash;m&aring;en"
         alias: "somaen"
@@ -2152,6 +2228,10 @@
         alias: "hennymcc"
         description: "Sound support for C64 version of MM/Zak, Loom PCE support"
       -
+        name: "Dries Harnie"
+        alias: "Botje"
+        description: "Android port for ResidualVM"
+      -
         name: "Janne Huttunen"
         alias: ""
         description: "V3 actor mask support, Dig/FT SMUSH audio"
@@ -2227,6 +2307,10 @@
         name: "Andr&eacute; Souza"
         alias: "luke_br"
         description: "SDL-based OpenGL renderer"
+      -
+        name: "Joel Teichroeb "
+        alias: "klusark"
+        description: "Android port for ResidualVM"
       -
         name: "Tom Frost"
         alias: "TomFrost"
@@ -2385,6 +2469,247 @@
     paragraph:
     - "Special thanks to Prof. Dr. Gary Nutt for allowing the FreeSCI VM extension as a course project in his Advanced OS course."
     - "Special thanks to Bob Heitman and Corey Cole for their support of FreeSCI."
+  -
+    title: "Grim Contributors"
+    anchor: "grim_contrib"
+    group:
+    -
+      name: ""
+      person:
+      -
+        name: "Thomas Allen"
+        alias: "olldray"
+        description: "Various engine code fixes and improvements"
+      -
+        name: "Torbj&ouml;rn Andersson"
+        alias: "eriktorbjorn"
+        description: "Various code fixes"
+      -
+        name: "Ori Avtalion"
+        alias: "salty-horse"
+        description: "Lipsync, LAF support, various code fixes"
+      -
+        name: "Robert Biro"
+        alias: "DarthJDG"
+        description: "Antialiasing support"
+      -
+        name: "Bastien Bouclet"
+        alias: "bgK"
+        description: "Various fixes to engine"
+      -
+        name: "David Cardwell"
+        alias: "d356"
+        description: "Few fixes to EMI"
+      -
+        name: "Marcus Comstedt"
+        alias: "marcus_c"
+        description: "Initial Dreamcast port"
+      -
+        name: "Andrea Corna"
+        alias: "Yak Bizzarro"
+        description: "Patcher module, various engine improvements"
+      -
+        name: "Jonathan Gray"
+        alias: "khalek"
+        description: "Various code fixes"
+      -
+        name: "Tobias Gunkel"
+        alias: "tobigun"
+        description: "Initial Android port, few engines fixes"
+      -
+        name: "Azamat H. Hackimov"
+        alias: "winterheart"
+        description: "Configure fix"
+      -
+        name: "Vincent Hamm"
+        alias: "yazoo"
+        description: "Various engine code fixes and improvements"
+      -
+        name: "Sven Hesse"
+        alias: "DrMcCoy"
+        description: "Various compilation fixes"
+      -
+        name: "Matthew Hoops"
+        alias: "clone2727"
+        description: "Smush codec48, Grim and EMI engine improvements"
+      -
+        name: "Erich Hoover"
+        alias: "Compholio"
+        description: "x86-64 fixes, various code fixes and improvements"
+      -
+        name: "Max Horn"
+        alias: "fingolfin"
+        description: "Few code fixes"
+      -
+        name: "Travis Howell"
+        alias: "Kirben"
+        description: "Various code fixes, Windows port"
+      -
+        name: "Joseph Jezak"
+        alias: "JoseJX"
+        description: "A lot of engine improvements and fixes"
+      -
+        name: "Guillem Jover"
+        alias: "guillemj"
+        description: "Few code improvements"
+      -
+        name: "Filippos Karapetis"
+        alias: "bluegr"
+        description: "Compilation fixes"
+      -
+        name: "Ingo van Lil"
+        alias: "inguin"
+        description: "Various fixes and improvements for EMI"
+      -
+        name: "Vincent Pelletier"
+        alias: "vpelletier"
+        description: "Various engine and TinyGL improvements"
+      -
+        name: "Joost Peters"
+        alias: "joostp"
+        description: "Various code fixes"
+      -
+        name: "George Macon"
+        alias: "gmacon"
+        description: "Few fixes"
+      -
+        name: "Josh Matthews"
+        alias: "jdm"
+        description: "Few fixes to engine"
+      -
+        name: "Matthieu Milan"
+        alias: "usineur"
+        description: "Various engine improvements"
+      -
+        name: "Gregory Montoir"
+        alias: "cyx"
+        description: "Few fixes to engine"
+      -
+        name: "Stefano Musumeci"
+        alias: "subr3v"
+        description: "TinyGL backend and engine driver improvements"
+      -
+        name: "Christian Neumair"
+        alias: "mannythegnome"
+        description: "Various optimisation patches"
+      -
+        name: "Daniel Schepler"
+        alias: ""
+        description: "Initial grim engine contributor, LUA support"
+      -
+        name: "Dmitry Smirnov"
+        alias: "onlyjob"
+        description: "Minor spelling corrections"
+      -
+        name: "Yaron Tausky"
+        alias: "yaront"
+        description: "Fixes to subtitles"
+      -
+        name: "Julien Templier"
+        alias: "Littleboy"
+        description: "create_project tool"
+      -
+        name: "Pino Toscano"
+        alias: "pinotree"
+        description: "Debian GNU/Linux package files"
+      -
+        name: "Lionel Ulmer"
+        alias: "bbrox"
+        description: "OpenGL optimisations"
+      -
+        name: "???"
+        alias: "cmayer0087"
+        description: "Various engine code fixes"
+      -
+        name: "???"
+        alias: "JenniBee"
+        description: "Compilation fixes"
+      -
+        name: "???"
+        alias: "karjonas"
+        description: "Various engine code fixes"
+      -
+        name: "???"
+        alias: "mparnaudeau"
+        description: "Various grim engine code fixes"
+      -
+        name: "???"
+        alias: "PoulpiFr"
+        description: "Few fixes to Android port"
+      -
+        name: "???"
+        alias: "sietschie"
+        description: "Few fixes to engine"
+  -
+    title: "Myst 3"
+    anchor: "myst3_contrib"
+    group:
+    -
+      name: ""
+      person:
+      -
+        name: "David Fioramonti"
+        alias: "dafioram"
+        description: "Autosave support and few fixes"
+      -
+        name: "Matthew Hoops"
+        alias: "clone2727"
+        description: "Various engine improvements and code fixes"
+      -
+        name: "Stefano Musumeci"
+        alias: "subr3v"
+        description: "TinyGL engine support"
+  -
+    title: "Stark"
+    anchor: "stark_contrib"
+    group:
+    -
+      name: ""
+      person:
+      -
+        name: "Bartosz Dudziak"
+        alias: "Snejp"
+        description: "Various engine improvements and code fixes"
+      -
+        name: "Matthew Hoops"
+        alias: "clone2727"
+        description: "ADPCM decoder"
+      -
+        name: "Pawe&#322; Ko&#322;odziejski"
+        alias: "aquadran"
+        description: "Various engine code fixes"
+      -
+        name: "Awad Mackie"
+        alias: "firesock"
+        description: "Few fixes to engine"
+      -
+        name: "Marius Ioan Orban"
+        alias: "mj0331"
+        description: "Code fix"
+      -
+        name: "Vincent Pelletier"
+        alias: "vpelletier"
+        description: "Raw sound support"
+      -
+        name: "Jordi Vilalta Prat"
+        alias: "jvprat"
+        description: "Initial engine contributor"
+      -
+        name: "Scott Thomas"
+        alias: "ST"
+        description: "Initial engine author"
+      -
+        name: "Will Thomson"
+        alias: "wlthomson"
+        description: "Few fixes to engine"
+      -
+        name: "???"
+        alias: "Faalagorn"
+        description: "Few code improvements"
+      -
+        name: "???"
+        alias: "orangeforest11"
+        description: "Few engine improvements"
   paragraph:
   - "And to all the contributors, users, and beta testers we've missed. Thanks!"
 -
@@ -2487,3 +2812,7 @@
   - "Electronic Arts IP Preservation Team, particularly Stefan Serbicki, and Vasyl Tsvirkunov of Electronic Arts for providing the source code of the two Lost Files of Sherlock Holmes games. James M. Ferguson and Barry Duncan for their tenacious efforts to recover the sources."
   - "John Romero for sharing the source code of Hyperspace Delivery Boy! with us."
   - "Steffen Dingel for sharing the source code of the Mission Supernova game with us."
+  - "The LUA developers, for creating a nice compact script interpreter."
+  - "Tim Schafer, for obvious reasons, and everybody else who helped make Grim Fandango a brilliant game; and the EMI team for giving it their best try."
+  - "Bret Mogilefsky, for managing to create a SPUTM-style 3D LUA engine, and avoiding the horrible hack it could have been."
+  - "Benjamin Haisch, for emimeshviewer, which our EMI code borrows heavily from."
