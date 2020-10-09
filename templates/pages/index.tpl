@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{$lang}" class="theme-scumm">
+<html lang="{$lang}" class="theme-{$smarty.const.DEFAULT_THEME}">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
