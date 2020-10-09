@@ -25,7 +25,8 @@ abstract class BasicModel
         }
     }
 
-    protected function getLocalizedFile($filename) {
+    protected function getLocalizedFile($filename)
+    {
         global $lang;
         if (!$lang) {
             $lang = DEFAULT_LOCALE;

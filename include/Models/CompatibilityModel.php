@@ -24,7 +24,8 @@ class CompatibilityModel extends BasicModel
         $this->platformsModel = new SimpleModel("Platform", "platforms.yaml");
     }
 
-    public function getLastUpdated() {
+    public function getLastUpdated()
+    {
         return filemtime($this->getLocalizedFile("compatibility.yaml"));
     }
 

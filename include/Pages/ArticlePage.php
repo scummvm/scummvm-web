@@ -7,42 +7,59 @@ use Erusev\Parsedown;
 
 class ArticlePage extends Controller
 {
-    private $purifier;
+    const FILE_NOT_FOUND = 'The filename %s could not be found';
+    const ARTICLE_NAME_MISSING = 'An article name is missing';
 
     /* Constructor. */
     public function __construct()
     {
         parent::__construct();
         $this->template = 'pages/article.tpl';
-        $config = \HTMLPurifier_Config::createDefault();
-        $this->purifier = new \HTMLPurifier($config);
+    }
+
+    private function getArticle($filename)
+    {
+        global $lang;
+        if (!$lang) {
+            $lang = DEFAULT_LOCALE;
+        }
+        $localizedFilename = join('/', [DIR_DATA, $lang, 'articles', $filename]);
+        $defaultFilename = join('/', [DIR_DATA, DEFAULT_LOCALE, 'articles', $filename]);
+        if (is_file($localizedFilename) && is_readable($localizedFilename)) {
+            $fname = $localizedFilename;
+        } elseif (is_file($defaultFilename) && is_readable($defaultFilename)) {
+            $fname = $defaultFilename;
+        } else {
+            throw new \ErrorException(\sprintf(self::FILE_NOT_FOUND, $filename));
+        }
+
+        return YamlFrontMatter::parse(file_get_contents($fname));
     }
 
     /* Display the index page. */
     public function index($params)
     {
-        $articleFile = DIR_ARTICLE . "/" . $params['article'] . ".markdown";
-        if (!is_file($articleFile) || !is_readable($articleFile)) {
-            $page = new \ScummVM\Pages\NewsPage();
-            return $page->index(array());
+        if (!$params['article']) {
+            throw new \ErrorException(self::ARTICLE_NAME_MISSING);
         }
+        $filename = $params['article'] . '.markdown';
 
-        $article = YamlFrontMatter::parse(file_get_contents($articleFile));
+        $article = $this->getArticle($filename);
+
+        $purifier = new \HTMLPurifier(\HTMLPurifier_Config::createDefault());
         $Parsedown = new \Parsedown();
         $Parsedown->setBreaksEnabled(true);
 
-        $date = $this->purifier->purify($article->date);
-        $title = $this->purifier->purify($article->title);
-        $author = $this->purifier->purify($article->author);
-        $content = $this->purifier->purify($Parsedown->text($article->body()));
+        $date = $purifier->purify($article->date);
+        $title = $purifier->purify($article->title);
+        $author = $purifier->purify($article->author);
+        $content = $purifier->purify($Parsedown->text($article->body()));
 
-        return $this->renderPage(
-            array(
+        return $this->renderPage([
                 'content_title' => $title,
                 'date' => $date,
                 'author' => $author,
                 'content' => $content,
-            )
-        );
+            ]);
     }
 }
