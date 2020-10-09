@@ -62,8 +62,7 @@ $themes: (
         container-title-background: #45a63d
             linear-gradient(
                 to bottom,
-                lighten(desaturate(#45a63d, 41.38), 27.25) 0%,
-                lighten(desaturate(#45a63d, 36.5), 12.35) 35%,
+                lighten(desaturate(#45a63d, 20), 27.25) 0%,
                 #45a63d 100%
             ),
         background: #6699cc,
