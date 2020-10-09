@@ -15,7 +15,7 @@ class NewsModel extends BasicModel
     /* Get a list of all the available news files. */
     private function getListOfNewsFilenames()
     {
-        if (!($files = scandir(join(DIRECTORY_SEPARATOR, [DIR_NEWS, DEFAULT_LOCALE])))) {
+        if (!($files = scandir(join(DIRECTORY_SEPARATOR, [DIR_DATA, DEFAULT_LOCALE, 'news'])))) {
             throw new \ErrorException(self::NO_FILES);
         }
         $filenames = array();
@@ -34,19 +34,19 @@ class NewsModel extends BasicModel
     {
         $news = $this->getFromCache();
         if (is_null($news)) {
-            if (!($files = scandir(join(DIRECTORY_SEPARATOR, [DIR_NEWS, DEFAULT_LOCALE])))) {
+            if (!($files = scandir(join(DIRECTORY_SEPARATOR, [DIR_DATA, DEFAULT_LOCALE, 'news'])))) {
                 throw new \ErrorException(self::NO_FILES);
             }
             global $lang;
-            $news = array();
+            $news = [];
             foreach ($files as $filename) {
                 if (substr($filename, -9) != '.markdown') {
                     continue;
                 }
-                if (!is_file(($fname = join(DIRECTORY_SEPARATOR, [DIR_NEWS,$lang,basename($filename)])))
+                if (!is_file(($fname = join(DIRECTORY_SEPARATOR, [DIR_DATA, $lang, 'news', basename($filename)])))
                     || !is_readable($fname) || !($data = @file_get_contents($fname))
                 ) {
-                    if (!($data = @file_get_contents(join(DIRECTORY_SEPARATOR, [DIR_NEWS, DEFAULT_LOCALE, $filename])))) {
+                    if (!($data = @file_get_contents(join(DIRECTORY_SEPARATOR, [DIR_DATA, DEFAULT_LOCALE, 'news', $filename])))) {
                         continue;
                     }
                 }
@@ -69,7 +69,7 @@ class NewsModel extends BasicModel
             }
             rsort($newslist, SORT_STRING);
             $newslist = array_slice($newslist, 0, $num);
-            $news = array();
+            $news = [];
             foreach ($newslist as $filename) {
                 $news[] = $this->getOneByFilename($filename, $processContent);
             }
@@ -83,17 +83,8 @@ class NewsModel extends BasicModel
         if (is_null($filename) || !preg_match('/^\d{8,12}[a-z]?$/', $filename)) {
             throw new \ErrorException(self::INVALID_DATE);
         }
-        global $lang;
-
-        if (!is_file(($fname = join(DIRECTORY_SEPARATOR, [DIR_NEWS, $lang, "{$filename}.markdown"])))
-            || !is_readable($fname) || !($data = @file_get_contents($fname))
-        ) {
-            if (!is_file(($fname = join(DIRECTORY_SEPARATOR, [DIR_NEWS, DEFAULT_LOCALE, "/{$filename}.markdown"])))
-                || !is_readable($fname) || !($data = @file_get_contents($fname))
-            ) {
-                throw new \ErrorException(self::FILE_NOT_FOUND);
-            }
-        }
+        $fname = $this->getLocalizedFile("news/$filename.markdown");
+        $data = @file_get_contents($fname);
 
         return new News($data, $fname, $processContent);
     }

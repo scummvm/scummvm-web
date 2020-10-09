@@ -58,7 +58,7 @@ class LocalizationUtils
             $l10n = json_decode(file_get_contents($newsFile));
 
             foreach ($l10n as $key => $translatedArticle) {
-                $englishArticle = YamlFrontMatter::parse(file_get_contents(join(DIRECTORY_SEPARATOR, [DIR_NEWS, DEFAULT_LOCALE,"/{$key}.markdown"])));
+                $englishArticle = YamlFrontMatter::parse(file_get_contents(join(DIRECTORY_SEPARATOR, [DIR_DATA, DEFAULT_LOCALE, 'news', "/{$key}.markdown"])));
 
                 $date = $this->purifier->purify($englishArticle->date);
                 $author = $this->purifier->purify($englishArticle->author);
@@ -87,7 +87,7 @@ class LocalizationUtils
                 $yaml = "---\ntitle: \"$title\"\ndate: $date\nauthor: $author\n---\n\n$content\n";
 
                 file_put_contents(
-                    DIR_NEWS . "/{$lang}/{$key}.markdown",
+                    DIR_DATA . "/{$lang}/news/{$key}.markdown",
                     $yaml
                 );
             }
@@ -106,7 +106,7 @@ class LocalizationUtils
 
     private function getAllNews($lang)
     {
-        $dir = join(DIRECTORY_SEPARATOR, [DIR_NEWS, $lang]);
+        $dir = join(DIRECTORY_SEPARATOR, [DIR_DATA, $lang, 'news']);
 
         if (!($files = scandir($dir))) {
             throw new \ErrorException(self::NO_FILES);

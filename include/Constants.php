@@ -38,9 +38,6 @@ class Constants
         /* Paths */
         define('DIR_BASE', __DIR__  . '/..');
         define('DIR_DATA', DIR_BASE . '/data');
-        define('DIR_NEWS', DIR_DATA . '/news');
-        define('DIR_ARTICLE', DIR_DATA . '/article');
-        define('DIR_COMPAT', DIR_DATA . '/compatibility');
         define('DIR_DOWNLOADS', '/downloads');
         define('DIR_SCREENSHOTS', '/data/screenshots');
         define('DIR_FRS', '/.0/frs');
