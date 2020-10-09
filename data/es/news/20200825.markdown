@@ -1,0 +1,16 @@
+---
+title: "¿Estáis listos para la leyenda?"
+date: 1598362143
+author: sev
+---
+
+El equipo de ScummVM se enorgullece de anunciar el soporte para un pequeño RPG freeware llamado <i>The Griffon Legend</i>. [Originalmente](http://syn9.thehideoutgames.com/index_backup.php) fue escrito con el lenguaje de programación FreeBASIC por Daniel "Syn9" Kennedy y después fue convertido a la consola GCW0 por Dmitry Smagin, versión en la que nos basamos.
+
+La historia original relata lo siguiente:
+
+&gt;500 años después de la guerra entre grifos y dragones,
+los dragones han vuelto para recuperar su imperio.
+Las ciudades caen, la gente muere, y Fayne,
+un solitario caballero grifo, se ve en medio de todo.
+
+Ya que el juego es freeware, podéis conseguir una copia directamente desde nuestra [página de descargas](https://www.scummvm.org/games/) o desde la [web original](http://syn9.thehideoutgames.com/index_backup.php?table=griffonlegend). Necesitaréis la última [compilación de desarrollo](https://buildbot.scummvm.org/builds.html) para poder jugarlo. Por supuesto, si encontráis fallos, informad de ellos en nuestro [gestor de fallos](https://bugs.scummvm.org/).

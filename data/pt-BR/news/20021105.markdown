@@ -1,0 +1,30 @@
+---
+title: "É um trabalho eSCUMMugante, mas alguém..."
+date: 1036503360
+author: ender
+---
+
+Bem, parece que perdemos contato com a LucasArts, já que não temos notícias deles há várias semanas. Então, supondo que eles não nos enviem um e-mail repentinamente e nos vetem, estamos nos preparando para o lançamento 0.3.0.
+  
+Inicialmente, ScummVM 0.3.0 incluirá suporte para:
+
+*   Zak McKracken (Versão FmTowns de 256 Cores)
+*   Monkey Island (VGA em Disquete e a melhorada em CD)
+*   Monkey Island II
+*   Loom (versão Falada em CD Talkie)
+*   Indiana Jones and the Fate of Atlantis
+*   Day of the Tentacle
+*   Sam and Max Hit the Road
+*   The Dig
+*   Simon The Sorcerer 1
+
+  
+A próxima versão principal, 0.4.0, incluirá suporte para:
+
+*   Simon The Sorcerer 2
+*   Full Throttle
+*   Indiana Jones and Last Crusade (versão em 256 cores)
+
+  
+  
+O que você pode fazer para ajudar? Bem, atualmente exigimos que as pessoas testem todos os jogos suportados e nos informem se há algum bug importante que os classifique como incompletos. Para obter detalhes sobre como fazer isso, consulte [Informação de Lançamento do ScummVM 0.3.0](http://www.scummvm.org/documentation.php?view=release).

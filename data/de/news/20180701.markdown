@@ -1,0 +1,11 @@
+---
+title: "Unsere Website hat ein Update bekommen!"
+date: 1530452160
+author: lotharsm
+---
+
+Wir arbeiten nicht nur permanent daran, ScummVMs Kompatibilität zu erhöhen oder neue Spiele zu implementieren, sondern manchmal auch daran, das gesamte Erscheinungsbild unseres Projektes zu verbessern.
+
+Während der letzten Monate hat der langjährige ScummVM-Fan Mataniko, der heute dem Entwicklerteam beigetreten ist, an der Verbesserung des Website-Designs, welches uns seit über einem Jahrzehnt treue Dienste leistet, gearbeitet. Wir sind stolz darauf, sagen zu können, dass die ScummVM-Website jetzt völlig responsive ist und sowohl auf Ihrem PC als auch Ihrem Smartphone absolut großartig aussieht.
+
+Sollten Sie Probleme mit der aktualisierten Website haben oder noch etwas vermissen, lassen Sie uns das bitte über unseren [Issue Tracker](https://github.com/scummvm/scummvm-web/issues) wissen.

@@ -1,0 +1,11 @@
+---
+title: "Conforme predito pela Profecia"
+date: 1171114560
+author: drmccoy
+---
+
+Como alguns de vocês já devem estar cientes, as engines de *Gobliins 2* e [*Ween: The Prophecy*](http://wiki.scummvm.org/index.php/The_Prophecy) compartilham muitos códigos. As diferenças agora foram resolvidas e, portanto, adicionamos à lista de nossos jogos suportados. Como sempre, gostaríamos que vocês, nossos usuários, relatassem quaisquer bugs ainda existentes.
+
+Você conhece o procedimento: pegue sua cópia de *Ween: The Prophecy* e uma [compilação diária](/downloads/#daily) do ScummVM, leia as [diretrizes de envio de bugs](/faq/#question.report-bugs), encontre os bugs e coloque-os no REVUSS ([nosso rastreador de bugs](http://bugs.scummvm.org/)).
+
+...e assim os bugs serão eliminados...

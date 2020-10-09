@@ -1,0 +1,13 @@
+---
+title: "Fancy a good Coktel with Doralice?"
+date: 1283002560
+author: strangerke
+---
+
+You're Doralice, the cutest airline captain of the Paris-Miami flight. During your last trip, a dying passenger asked you to deliver top secret vials. Will you succeed in your mission, avoiding deadly traps and solving every mystery?
+
+Currently, the PC versions of [Fascination](http://www.mobygames.com/game/fascination) are missing an AdLib player, but everything else is there. Please note that the CD version requires some manipulations and the ScummVM tools to extract the [required files](http://wiki.scummvm.org/index.php/Datafiles#Fascination).
+
+Get the latest [daily build of ScummVM](/downloads/#daily) and your version of the game and give Fascination a try! Please post any bugs and unrecognized versions you can find to our [bug tracker](http://bugs.scummvm.org/), following the [bug submission guidelines](/faq/#question.report-bugs).
+
+And if you find interesting sights, be sure to submit your [screenshots](http://wiki.scummvm.org/index.php/Screenshots).

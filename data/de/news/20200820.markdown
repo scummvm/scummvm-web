@@ -1,0 +1,16 @@
+---
+title: "Blazing Dragons steckt ScummVM in Brand"
+date: 1597927194
+author: Yuv422
+---
+
+Nach vielen Monaten Entwicklungszeit ist die Entwicklung an Blazing Dragons nun soweit fortgeschritten, dass das Spiel getestet werden kann.
+
+Begleite den jungen Drachen Flicker bei seinem Versuch, die Hand von Prinzessin Flame zu gewinnen und nebenbei noch Camelhot zu retten.
+
+Blazing Dragon ist ein ziemlich ungewöhnliches Point-and-Click-Adventure, da es nur für Konsolen veröffentlicht wurde.
+ScummVMs neue Dragons-Engine ermöglicht dir, die Playstation-Version dieses irgendwie in Vergessenheit geratenen Titels zu spielen. Wirf deinen PS1-Controller an die Wand und genieße das Spiel mit Maus und Tastatur. Wir haben auch die nervigen Ladezeiten entfernt.
+
+Aktuell werden ausschließlich die US- und UK-Version des Spiels unterstützt.
+
+Du benötigst eine aktuelle [Entwicklerversion](https://buildbot.scummvm.org/builds.html) von ScummVM. Wie immer möchten wir dich darum bitten, gefundene Fehler in unserem [Bugtracker](https://bugs.scummvm.org/) zu melden.

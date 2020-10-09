@@ -1,0 +1,11 @@
+---
+title: "A Mão do Destino está se movendo..."
+date: 1207056960
+author: LordHoto
+---
+
+...e o dedo aponta para você! Ou para ser mais preciso, para Zanthia, a mais jovem dos místicos kyrandianos. Mas já que é com ela com quem você joga na mais nova aventura suportada de ScummVM [*The Legend of Kyrandia: Book Two: Hand of Fate*](http://wiki.scummvm.org/index.php/The_Legend_of_Kyrandia:_Book_Two:_Hand_of_Fate) não é uma grande diferença. Então pegue sua cópia de * The Legend of Kyrandia: Book Two: Hand of Fate* e uma [compilação diária](/downloads/#daily) do ScummVM para ajudá-la a salvar Kyrandia.
+
+Como ainda não terminamos o suporte a todos os recursos, ainda faltam alguns: Atualmente, oferecemos suporte apenas para a versão DOS em CD-ROM. Outra coisa que falta é o suporte para a interface do jogo, portanto, salvar só é possível por meio de teclas de atalho. Verifique a seção de teclas de atalho de nosso [LEIA-ME](http://scummvm.svn.sourceforge.net/viewvc/scummvm/scummvm/trunk/README?view=markup) para saber como fazer isso. E por último, mas não menos importante, não oferecemos suporte a saída MIDI, portanto, certifique-se de usar AdLib como "Music Driver" (driver de música).
+
+Claro que todos os bugs devem ser relatados ao [nosso rastreador de bugs](http://bugs.scummvm.org/). No entanto, certifique-se de ter obtido todos os [arquivos de dados](http://wiki.scummvm.org/index.php/Datafiles#Legend_of_Kyrandia.2C_The:_Hand_of_Fate) antes de relatar um bug. Para obter mais informações, verifique as [diretrizes de envio de bugs](/faq/#question.report-bugs).

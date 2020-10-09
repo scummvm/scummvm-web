@@ -1,0 +1,24 @@
+---
+title: "No está muerto, Murray, solo está maldito."
+date: 1033738560
+author: ender
+---
+
+¡Aquí tenéis nuestra noticia semianual!  
+  
+El asunto jurídico sigue en el aire mientras esperamos una respuesta de LucasArts a nuestro último email.  
+  
+En cuanto a avances, quienes estén siguiendo las compilaciones diarias habrán visto la nueva interfaz ingame que hemos implementado. Sigue estando bajo desarrollo, así que podéis esperar que pasen cosas raras.  
+Algunos de nuestros encantadores desarrolladores están trabajando en mejorar la compatibilidad con The Dig y Full Throttle, ya que parece que podríamos tener uno de los dos jugable de principio a fin para cuando se haya resuelto el asunto jurídico y podamos publicar una nueva versión.  
+  
+Mientras tanto, el árbol CVS y las compilaciones diarias se encuentran en un estado un tanto experimental.  
+  
+Cambiando de tema, buscamos mercenarios para secuestrar a dos personas y torturarlas para que nos revelen las dos «partes problemáticas» que tiene ScummVM actualmente.  
+  
+Necesitamos al principal responsable de extender el sistema iMUSE en Sam and Max Hit The Road. Prácticamente todos los fallos que quedan en ScummVM relacionados con el soporte de ese juego tienen que ver con el sistema iMUSE, así que si alguien puede «procurar» a alguna persona o información sobre este subsistema, por favor, que contacte con [Ender](mailto:scummvm@enderboi.com) para organizar una entrega discreta del... paquete.  
+Segundo, necesitamos a [Vince Lee](http://www.mobygames.com/developer/sheet/view/developerId,1526/) para interrogarlo sobre el motor de escenas INSANE utilizado en juegos como Full Throttle. Nuestra falta de información respecto a este sistema ha dejado los avances de este juego en un punto muerto. Si podéis encontrar a esta persona o cualquier información relacionada con INSANE, seréis recompensados debidamente. Se respetará el anonimato en caso de que el «facilitador» lo solicite.  
+Como alternativa, podemos llegar a un acuerdo si alguien está dispuesto a irrumpir en la sede central de LucasArts y convencer a sus ocupantes de que ofrezcan el código o información sobre ambos casos. Nuestros intentos de infiltrarnos en el edificio han fracasado por culpa de un ente misterioso llamado «directiva».  
+  
+Ahora, en serio, si alguien tiene cualquier información sobre estos quebraderos de cabeza, que por favor se ponga en contacto con [Ender](mailto:scummvm@enderboi.com). Si has trabajado para LucasArts y deseas ayudar de forma anónima, respetaremos esa decisión. Yo no tendría mucho miedo a prestar ayuda, ya que nuestras negociaciones han demostrado que están bastante dispuestos a dejarnos existir, lo único que no quieren («por el momento») es compartir cualquier información o código fuente.  
+  
+Gracias por jugar y recordad: ¡«Nunca pagues más de veinte duros por un videojuego»!

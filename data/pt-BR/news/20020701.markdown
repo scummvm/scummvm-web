@@ -1,0 +1,11 @@
+---
+title: "Nós temos mais vidas do que LeChuck!"
+date: 1025530560
+author: ender
+---
+
+Bem pessoal, continuamos vivos até agora. No momento, estamos conversando com a LucasArts para ver se podemos negociar um acordo. Para ser honesto, embora esperemos que seja possível, temos dúvidas de que o acordo que a LucasArts pode oferecer possa nos dar as liberdades de que precisamos para desenvolver. Um dos maiores temores da maioria das empresas é a GPL (General Public License). Algumas empresas acham que isso dá aos usuários muita latitude no uso de seu software. Infelizmente, se a LEC pensa da mesma forma, podemos ter que rejeitar sua oferta. É quase impossível relicenciar software GPL, pois isso significaria obter permissão de qualquer pessoa que já tenha escrito até mesmo uma linha de código incluída no ScummVM.
+  
+Até agora, a maior parte de nossa comunicação tem sido extra-oficial e bastante vaga, mas tenha certeza de que não desaparecemos e daremos a você as últimas notícias assim que elas acontecerem!
+  
+Além disso, agradecemos às pessoas que estão doando. Atualmente, estamos com pouco mais de $100, que devem ser gastos em ambas as versões de jogos para teste e também economizando até nossa meta de $300 para comprar uma cópia do IDA Pro, indiscutivelmente o melhor descompilador do planeta. Continue doando :)

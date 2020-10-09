@@ -1,0 +1,23 @@
+---
+title: "ScummVM 1.7.0 \"The Neverrelease\" já está disponível!"
+date: 1405949760
+author: sev
+---
+
+Um ano se passou e o ScummVM 1.7.0 está aqui.
+
+Com este lançamento, adicionamos suporte para 5 jogos completamente novos. São eles:
+
+*   *The Neverhood*
+*   *Mortville Manor*
+*   *Voyeur*
+*   *Return to Ringworld*
+*   *Chivalry is Not Dead*
+
+Além disso, atualizamos o emulador MT-32, adicionamos um back-end OpenGL, aprimoramos muitos aspectos da interface gráfica do usuário, aprimoramos a engine AGOS, tornamos os vídeos do *Urban Runner* menos exigentes por CPU, corrigindo toneladas de bugs em dezenas de jogos de SCI , som aprimorado em *Loom* e *Indiana Jones and the Last Crusade* e portabilidade de plataforma aprimorada para as engines Tony e Tinsel.
+
+Mas isto não é tudo. Adicionamos suporte experimental para o console OUYA (não foi possível adicionar o suporte GCW-Zero simplesmente porque sev *ainda* está aguardando seu console do [Kickstarter](https://www.kickstarter.com/projects/gcw/gcw-zero-open-source-gaming-handheld/posts) chegar), fez grandes melhorias na versão para PS2 e fundiu as versões do Bada e do Tizen.
+
+A lista completa com todas as alterações mencionadas pode ser encontrada em [nossas notas de versão](/frs/scummvm/1.7.0/ReleaseNotes) e a versão pode ser obtida normalmente na nossa [página de downloads](/downloads/).
+
+Everybody Way Oh!

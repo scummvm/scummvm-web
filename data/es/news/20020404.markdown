@@ -1,0 +1,7 @@
+---
+title: "Código desparalizado"
+date: 1017927360
+author: ender
+---
+
+Tras unas pocas semanas, el código de ScummVM ha sido desparalizado oficialmente y se reanuda el trabajo de compatibilidad con juegos. Como aperitivo, se han arreglado varios fallos en Zak256 y el juego es mucho más jugable... ¡aunque aún le falta!

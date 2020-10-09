@@ -1,0 +1,13 @@
+---
+title: "Insertar tema"
+date: 1074346560
+author: ender
+---
+
+Bueno, ¿qué ha pasado en el mundo de ScummVM últimamente?  
+Nos estamos preparando para el lanzamiento de la versión 0.6.0; que representa un hito importante en la historia de ScummVM. A partir de la versión 0.6.0 de ScummVM, este debería dar soporte finalmente a (al menos las versiones para PC) todas las aventuras de LucasArts en SCUMM!  
+  
+No obstante, necesitamos ayuda. Para nuestra próxima versión también daremos soporte a Broken Sword 1 y 2, de Revolution, que van a necesitar unas versiones recodificadas explícitamente de las escenas cinemáticas; y también liberaremos otra aventura gráfica clásica como freeware.  
+Eso sí, todavía no estamos seguros de si SourceForge podrá alojar estos archivos o querrá hacerlo. Así que si resulta que alguien que esté leyendo esta publicación tiene, por ejemplo, un archivo grande y con mucho ancho de banda (en http o ftp) y que, a ser posible, no exija registros molestos (a lo Fileplanet) y esté dispuesto a ayudar... que, por favor, contacte con Ender (@ scummvm.org) para ayudar.  
+  
+Seguiremos informando sobre nuestro próximo lanzamiento a medida que se desarrollen novedades.

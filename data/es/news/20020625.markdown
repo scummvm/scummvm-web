@@ -1,0 +1,12 @@
+---
+title: "¡Ay, la legalidad...!"
+date: 1025012160
+author: ender
+---
+
+**Actualización: El texto de la carta y la respuesta del equipo pueden encontrarse [en los archivos de la lista scummvm-devel](https://sourceforge.net/mailarchive/forum.php?thread_id=837277&amp;forum_id=7223)**  
+Hoy se ha cumplido un hito para el proyecto ScummVM, ya que por fin hemos recibido el esperado email del departamento jurídico de LucasArts en relación al proyecto.  
+  
+Afortunadamente, parece que todavía no tienen una queja válida. Su petición de eliminar la página web se basa en la suposición de que estamos distribuyendo el motor de LucasArts a través de la web. Por supuesto, ScummVM es una obra completamente original, basada en ingeniería inversa y descifrado original, a partes iguales, realizados por muchas personas de la comunidad, así que esta petición no nos afecta.  
+  
+Por el momento, ¡estamos a salvo y continuaremos trabajando para traeros los maravillosos clásicos de la casa LucasArts a vuestros sistemas durante, con suerte, mucho tiempo!

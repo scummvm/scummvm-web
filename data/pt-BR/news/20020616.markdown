@@ -1,0 +1,19 @@
+---
+title: "Relatório sobre o progresso"
+date: 1024234560
+author: ender
+---
+
+Não há muito o que relatar, mas não se preocupe, estamos longe de ficar inativos. A maior parte da equipe do ScummVM está muito ocupada com a escola e o trabalho da vida real no momento, mas esperamos que o pior passe muito em breve e possamos começar a analisar mais alguns bugs e lançar uma nova versão! Aqui está um rascunho do que estamos considerando como marcos do ScummVM:
+
+*   0.2.5: Todos os jogos suportados quase sem bugs
+*   0.3.0: The Dig e MI1 versão VGA em disquete suportada
+*   0.4.0: Indiana Jones and The Last Crusade suportados, mais correções de bugs
+*   0.5.0: Suporte ao Full Throttle, suporte básico CMI e Maniac Mansion
+*   0.6.0: Mais trabalho em CMI, MM e outras correções de bugs
+*   0.7.0: Maniac Mansion completável, Zak McCracken e Loom16 jogáveis
+*   0.8.0: Zak McCracken e Loom16 completáveis
+*   0.9.0: Correções de bugs e CMI completável
+*   1.0.0: O fim do começo
+
+Obviamente este é um esboço aproximado e está sujeito a alterações se repentinamente fizermos avanço em algum jogo. Mas isso é apenas para dar às pessoas uma ideia básica de para onde estamos indo. O suporte CMI será o mais difícil, pois é bastante diferente em comparação com as versões do SCUMM com as quais temos lidado até este ponto. Boas aventuras!

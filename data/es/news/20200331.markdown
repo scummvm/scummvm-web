@@ -1,0 +1,15 @@
+---
+title: "¡ScummVM 2.1.2 «Fixing Powerful Windows» ya está aquí!"
+date: 1585682388
+author: lotharsm
+---
+
+Al equipo de ScummVM le complace anunciar una nueva versión con correcciones de fallos para la serie 2.1: ScummVM 2.1.2, con el nombre en clave «Fixing Powerful Windows». Podéis observar que, en este momento, nuestra [página de descargas](/downloads/) no es que sea muy extensa. Tranquilos, no vamos a tocar la (increíble) portabilidad de ScummVM.
+
+ScummVM 2.1.2 es una versión de mantenimiento pensada para Windows y Mac OS X, que ofrece [correcciones de fallos](https://www.scummvm.org/frs/scummvm/2.1.2/ReleaseNotes.html) para estas plataformas. Ya que el resto de plataformas no se ven afectadas, no es necesario preocuparse porque os falte una actualización por el momento.
+
+Al explorar la página de descargas os habréis fijado en una nueva sección, sobre todo si navegáis desde un PC con Ubuntu: ¡ScummVM ya está disponible en la [Snap Store](https://snapcraft.io/scummvm)! Gracias al continuo esfuerzo de Alan «popey» Pope y Alan Griffiths, la versión de ScummVM para la Snap Store ya está al día respecto a nuestras otras versiones para Linux. Si la comparamos con la forma tradicional de distribuir software en Linux, la Snap Store nos da mucha más libertad de cara a lanzar versiones nuevas. En cuanto publiquemos una versión nueva de ScummVM, os llegará en forma de actualización automática.
+
+El Snap de ScummVM viene en dos formatos: el canal «estable» contiene nuestras versiones oficiales, convirtiéndolo en una buena opción para la mayoría de los usuarios. Si queréis explorar las últimísimas características de nuestras versiones en desarrollo más actuales, ¡solo tenéis que seguir el canal «edge» para recibir una compilación actualizada todos los días! También hemos pensado en otros añadidos para el paquete Snap, pero ya los trataremos más adelante.
+
+¡Pasadlo bien!

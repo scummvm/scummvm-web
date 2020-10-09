@@ -1,0 +1,9 @@
+---
+title: "ScummVM 0.8.2 \"Broken Broken Sword 2\" foi lançado"
+date: 1139405760
+author: sev
+---
+
+Devido a um bug descoberto no 0.8.1, que tornava Broken Sword 2 impossível de jogar, fomos forçados a lançar o ScummVM 0.8.2 "Broken Broken Sword 2". Além disso, aproveitamos essa oportunidade para consertar as compilações do WinCE, bem como o pacote do MacOS X.
+
+Como de costume, você pode obter compilações para todas as plataformas suportadas em nossa [página de downloads](/downloads/)

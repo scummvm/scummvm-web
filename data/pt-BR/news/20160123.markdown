@@ -1,0 +1,13 @@
+---
+title: "O labirinto deve ser destruído!"
+date: 1453556160
+author: md5
+---
+
+Enquanto está a bordo do metrô, seu vagão é sugado para uma dimensão alternativa, um labirinto que abrange o espaço-tempo contínuo. Seu criador, Daedalus, é forçado a supervisionar sua construção pelo malvado rei Minos, que quer usá-lo para invadir e conquistar todos os tempos e lugares. Daedalus pede que o jogador encontre uma maneira de destruir o labirinto antes que Minos possa completar sua conquista.
+
+A equipe do ScummVM tem o orgulho de anunciar que o *Labyrinth of Time* agora pode ser jogado no ScummVM usando as [compilações diárias mais recentes](/downloads/#daily) e está pronto para testes.
+
+Por favor, reporte todos os bugs e versões desconhecidas que você encontrar em nosso [rastreador de bugs](http://bugs.scummvm.org/), seguindo nossas [diretrizes de envio de bugs](/faq/#question.report-bugs). Quaisquer [capturas de tela](http://wiki.scummvm.org/index.php/Screenshots) de seu jogo são bem-vindas como sempre.
+
+Muito obrigado a [The Wyrmkeep Entertainment Co.](http://www.wyrmkeep.com/) por compartilhar o código fonte original do jogo conosco!

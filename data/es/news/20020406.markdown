@@ -1,0 +1,17 @@
+---
+title: "Loom y la versión 0.2.0"
+date: 1018100160
+author: ender
+---
+
+Después de cierto esfuerzo, la versión de Loom en CD con voces y 256 colores ya es jugable de principio a fin! Con esto hemos empezado a prepararnos para publicar la versión 0.2.0. ¡Os pedimos a vosotros, nuestros jugadores, que nos ayudéis probando las últimas compilaciones diarias y del CVS y que juguéis a vuestros juegos favoritos!  
+Tenemos que asegurarnos de que los siguientes juegos sean jugables de principio a fin sin fallos importantes (por ejemplo: cierres, cuelgues, etc. Los fallos menores, como la sincronía del sonido, no cuentan):
+
+*   Loom CD
+*   Monkey Island 1 (CD)
+*   Monkey Island 2
+*   Indy 4: Fate of atlantis
+*   Sam and Max
+*   Day of the Tentacle
+
+Muchas gracias, ¡y esperamos que todo vaya bien para que podamos publicar por fin una versión nueva! Además, a petición popular, ¡la versión 0.2.0 incluirá una nueva función de autoguardado para que no perdáis más horas de vuestro esfuerzo porque no os hayáis acordado de guardar la partida y os hayáis cruzado con un bug!

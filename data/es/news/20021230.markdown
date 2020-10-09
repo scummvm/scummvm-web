@@ -1,0 +1,15 @@
+---
+title: "¡Y feliz año nuevo!"
+date: 1041255360
+author: ender
+---
+
+... a todos excepto a Casa Addams, a muchos usuarios de los foros de Clie Source (que deben tener un cerebro tan grande como sus PDAs) y al otro idiota que está distribuyendo ScummVM junto con copias piratas de LucasArts por UseNet. Esto es más bien una súplica pública, aunque no esperamos que nos hagan caso gente tan imbécil como para hacer semejante estupidez.  
+  
+Siento que este mensaje sea tan duro, gente, pero no os dais cuenta de que al relacionar y juntar a ScummVM **con** copias piratas («Abandonware» o de cualquier otro tipo) de juegos de LucasArts les estáis dando más excusas todavía para que emprendan acciones legales contra nosotros (y llevar a una posible ruina económica a los desarrolladores de este programa :)... Chrilith me decepciona especialmente, ya que él ha garantizado de forma casi tajante que, a menos que seamos muy indulgentes, no integremos una conversión oficial de ScummVM para Palm en el CVS.  
+  
+Si agradecéis lo que hemos hecho, no abuséis de ello. De lo contrario haréis daño a la reputación y a la posible situación legal de ScummVM y sus desarrolladores. He visto algunos comentarios MUY ridículos en los foros de Clie Source sobre que LucasArts ha dejado de vender estos juegos. A excepción de ciertas versiones (más específicamente, Zak256 y LoomCD), es una estupidez. La mayoría de los juegos de LucasArts pueden conseguirse en lotes a través de Amazon o mediante la tienda LucasArts (si vives en Estados Unidos). Qué diablos, yo vi un montón de aventuras clásicas de LucasArts expuestas en un Electronic Boutique mientras hacía mis compras por navidad.
+
+* * *
+
+En otras noticias, ¡el soporte para Curse of Monkey Island va viento en popa! Si os gustan las emociones fuertes, podéis probar nuestras últimas compilaciones diarias (pero, por supuesto, no mandéis informes de fallos relacionados con la compatibilidad de CMI).

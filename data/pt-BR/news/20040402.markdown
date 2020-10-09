@@ -1,0 +1,15 @@
+---
+title: "Não existe Cabal algum"
+date: 1080912960
+author: fingolfin
+---
+
+A equipe CABAL divide-se devido a divergências fundamentais sobre design
+
+Após o anúncio inovador de ontem, estamos tristes em anunciar a separação imediata da equipe CABAL. Nos últimos dias, houve um debate acalorado sobre várias questões importantes de design, e a tensão atual na equipe atingiu um nível insuportável.
+
+"É realmente lamentável", Max Horn, desenvolvedor sênior do ScummVM e Exult, foi citado como tendo dito, "mas as ideias do \[ex-mantenedor do FreeSCI\] Christoph \[Reichenbach\] de alinhar as chaves com o lado esquerdo das declarações de funções ao anexá-los ao final da linha para os loops 'while' e 'for' não faziam nenhum sentido."
+Este último respondeu apontando que "usar qualquer coisa, exceto tabulações para recuo está causando problemas."
+
+Claudio Matsuoka, do projeto Sarien, destacou sua decepção e notou que não via muito sentido em tentar cooperar com pessoas totalmente incapazes de chegar a acordos sobre questões tão triviais. "Quer dizer, ainda não resolvemos toda a disputa EMACS vs. vi, e eles já estão se atacando de novo."
+James Brown, outro desenvolvedor sênior do projeto ScummVM, tristemente anunciou que riu dele horas antes da decisão de dividir ser tomada. "Eles apenas disseram que ali não era meu lugar, já que prefiro o nano como editor..." admitiu.

@@ -1,0 +1,16 @@
+---
+title: "Los Blazing Dragons dejan a ScummVM calentito"
+date: 1597927194
+author: Yuv422
+---
+
+Tras muchos meses de desarrollo, Blazing Dragons ya está listo para las pruebas públicas.
+
+Uníos a Flicker, un joven dragón que pretende pedirle matrimonio a la princesa Flame y salvar a Camelhot por el camino.
+
+Este es un juego point-and-click un tanto extraño, ya que se publicó solo en consolas.
+El nuevo motor Dragons de ScummVM os permitirá ejecutar la versión para PlayStation de este título un tanto olvidado. Mandad a paseo ese mando de PS1 y disfrutad del juego con una interfaz de teclado y ratón. También hemos quitado esas molestas pantallas de carga.
+
+Actualmente las únicas versiones compatibles son la estadounidense y la británica para PlayStation 1.
+
+Necesitaréis una [compilación diaria de desarrollo](https://buildbot.scummvm.org/builds.html). Como siempre, os pedimos que enviéis vuestros informes de fallos a nuestro [gestor de fallos](https://bugs.scummvm.org/).

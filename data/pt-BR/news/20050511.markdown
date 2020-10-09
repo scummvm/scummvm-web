@@ -1,0 +1,28 @@
+---
+title: "Novidades, muitas e muitas delas..."
+date: 1115818560
+author: fingolfin
+---
+
+Por um lado, precisamos publicar notícias mais regularmente. Por outro lado, acumulamos muitas novidades:
+
+**Novas Versões**
+
+*   Versões chamam muito nossa atenção -- isso temos em comum com os bons e velhos piratas de Monkey Island. Claro que no nosso caso não é do tipo molhado (com navios e outras coisas), mas sim versões do ScummVM para diferentes arquiteturas. Nesse aspecto, temos algumas coisas muito boas chegando para o próximo lançamento do ScummVM, incluindo uma versão oficial de PlayStation 2, bem como uma versão para AmigaOS agora sendo oficial também. E com alguma sorte, talvez até mesmo uma versão para EPOC/Symbian frequentemente solicitada será finalmente uma parte regular do ScummVM (dê uma olhada no [rastreador de correções](https://sourceforge.net/tracker/index.php?func=detail&amp;aid=1188433&amp;group_id=37116&amp;atid=418822) se você estiver curioso).
+
+**Novos jogos**
+
+*   Adicionamos uma nova engine de jogo, desta vez para a série Gobliiins da Coktel. Por enquanto, somente Gobliiins 1 pode ser completado. O trabalho em outras partes (Gobliins 2, Goblins 3 e "The Bizarre Adventures of Woodruff and the Schnibble") ainda não começou, mas pelo menos Gobliins 2 parece ser semelhante à parte 1, então esperamos alcançar isso em um futuro próximo também. Quanto às outras partes, veremos...
+*   Graças ao trabalho árduo de algumas pessoas dedicadas, finalmente oferecemos suporte a (não)famosa versão NES de Maniac Mansion. Uau, esse deve ser o último jogo SCUMM da LucasArts que ainda não estava com suporte... ;-)
+*   O suporte para os jogos infantis da Humongous Entertainment está progredindo bem, os seguintes títulos podem ser concluídos com a versão de desenvolvimento atual do ScummVM:
+    *   Freddi Fish 1 - 4
+    *   Pajama Sam 1 &amp; 2
+    *   Putt-Putt (vários títulos)
+    *   Spy Fox 1 &amp; 2
+    *   Vários títulos de arcade
+
+**Novas miniaturas**
+
+*   Não, não fiz cirurgia plástica (embora outro par de polegares pareça tentador...). Em vez disso, adicionamos suporte para miniaturas em jogos salvos SCUMM. Coisas muito legais, clique [aqui para ver uma captura de tela](/data/news/20050511.png).
+
+Nada mal, segundo nossa opinião. E, na verdade, temos mais coisas realmente legais em andamento, fique ligado.

@@ -1,0 +1,23 @@
+---
+title: "ScummVM 0.9.0 \"The OmniBrain loves you\" foi lançado"
+date: 1151242560
+author: sev
+---
+
+Já se passaram quase 8 meses desde que começamos a trabalhar na ramificação do código 0.9.x e hoje temos o prazer de anunciar o lançamento do ScummVM 0.9.0 "The OmniBrain loves you".
+
+Muitas coisas estão esperando por você, uma das mais notáveis é a nova e aprimorada interface. Também adicionamos suporte para 2 jogos completamente novos — The Legend of Kyrandia e The Feeble Files.
+
+Outras mudanças importantes incluem:
+
+*   Código de detecção retrabalhado para jogos SCUMM. Agora todas as traduções de fãs funcionarão fora da caixa
+*   Adicionados controles de configuração de legendas à caixa de opções
+*   Nova versão oficial para Atari/MiNT
+*   Versão WinCE melhorada
+*   Várias correções de bugs nas engines SCUMM, SAGA, Simon, Broken Sword 2 e BASS
+
+Para obter a lista completa [leia as notas de lançamento](/frs/scummvm/0.9.0/ReleaseNotes).
+
+Infelizmente, nem todas as versões foram compiladas ainda e você pode ter alguns problemas com downloads, já que nem todos os mirrors do SourceForge pegaram os arquivos. Então, por favor, experimente mirrors diferentes e seja paciente.
+
+Não espere mais, vá buscar uma versão para sua plataforma em nossa [página de downloads](/downloads/).

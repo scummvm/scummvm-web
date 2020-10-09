@@ -1,0 +1,19 @@
+---
+title: "¡Quest for Glory y unos pocos juegos de Hoyle!"
+date: 1561901196
+author: bluegr
+---
+
+Llegas a una cueva oscura en las misteriosas tierras de Mordavia... ¡Prepara a tu héroe para enfrentarte a tu viejo rival, el pérfido Ad Avis! Si esta misión te abruma, ¡siempre puedes relajarte con uno de los juego sde la colección de Hoyle!
+
+El equipo de ScummVM se enorgullece de anunciar el soporte para los siguientes juegos, que están listos para ser probados por el público:
+
+*   Quest for Glory: Shadows of Darkness (también conocido como QFG4)
+*   Hoyle Classic Games
+*   Hoyle Bridge
+*   Hoyle Children's Collection
+*   Hoyle Solitaire
+
+Las versiones en CD y disquetes de QFG4 son compatibles. Ten en cuenta que el juego de póker de Hoyle Classic Games aún no es compatible.
+
+Así que sacad vuestras copias o comprad QFG4 en su versión digital de [GOG](https://www.gog.com/game/quest_for_glory) y haceos con la [última compilación de desarrollo](https://buildbot.scummvm.org/builds.html) de ScummVM para vuestra plataforma preferida. Podéis informar de cualquier problema en nuestro [gestor de problemas](https://bugs.scummvm.org/).

@@ -1,0 +1,19 @@
+---
+title: "It's time to crack those pesky Nippon Safes"
+date: 1179668160
+author: peres
+---
+
+[*Nippon Safes, Inc.*](http://wiki.scummvm.org/index.php/Nippon_Safes%2C_Inc.), the first exciting instalment of the Parallaction engine, is now supported in current SVN builds (which can be found under "SVN Builds" on the [downloads page](/downloads/)) and open for testing and bug reporting via the [ScummVM bug tracker.](http://bugs.scummvm.org/)
+
+Are you smarter than an experienced safe cracker?  
+Are you sexier than an explosive lap dancing bombshell?  
+Are you dumber than a punch-drunk Italian former boxer?  
+
+No matter how you answer, you are bound to end up in jail in the first 5 minutes. Don't worry, though. You might be paroled or somebody might help you and provide the bail, but not for free\*.
+
+Help Dough, Donna and Dino in paying their - real or imaginary - debt, but be warned: accepting a job from a hideous misfit in a trench may lead to unexpected results.
+
+Don't miss the playable demo you can find [here](http://quick.mixnmojo.com/demos/nippon_demo_ami.zip), and don't forget to submit some sexy [screenshots](http://wiki.scummvm.org/index.php/Screenshots).
+
+*\*You might think you owe something even if you were parolled, but that's restricted to the slight case you **really** are a punch-drunk boxer.*

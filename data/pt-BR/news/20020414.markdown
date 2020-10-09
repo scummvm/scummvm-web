@@ -1,0 +1,9 @@
+---
+title: "Atualização sobre o lançamento"
+date: 1018791360
+author: ender
+---
+
+A versão 0.2.0 foi adiada por um tempo, pois a engine ScummVM está passando novamente por alguma reorganização. No entanto, vale ressaltar que a versão 0.2.0 também incluirá suporte para um jogo que não seja da SCUMM! Simon The Sorcerer. Então compartilhe e aproveite as últimas novidades do CVS.
+  
+Alguns de vocês também devem ter notado um botão do PayPal na parte inferior da barra de navegação. Se você gostou do ScummVM, doe algum dinheiro para nos ajudar a comprar software para ajudar no desenvolvimento. Obrigado!

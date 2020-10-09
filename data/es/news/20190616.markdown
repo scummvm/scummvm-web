@@ -1,0 +1,17 @@
+---
+title: "¡Se buscan Blade Runners!"
+date: 1560679776
+author: peterkohaut
+---
+
+Nuestro equipo de ScummVM busca a Blade Runners dispuestos a dar caza y retirar fallos que han escapado de las colonias del Mundo Exterior. Estos fallos no son peligrosos y no os impedirán descubrir más secretos y decidir cuál será vuestro destino. Tendréis a vuestra disposición una patrullera, un arma de servicio, una máquina ESPER y una máquina Voigt-Kampff.
+
+Anunciamos que Blade Runner está listo para ser testeado. Son compatibles las versiones en los siguientes idiomas: inglés (tanto las versiones en CD como en DVD), alemán, italiano, francés, español y la versión rusa no oficial de Fargus Multimedia.
+
+Hazte con tu copia de Blade Runner, [con la última compilación de desarrollo de ScummVM](https://buildbot.scummvm.org/builds.html) (NO la última compilación estable) y [copia los archivos necesarios](https://wiki.scummvm.org/index.php?title=Datafiles#Blade_Runner).
+
+¡Ahora se puede jugar con subtítulos! Solo tienes que descargar [el archivo .ZIP de subtítulos](https://www.scummvm.org/games/#bladerunner), extraer el archivo subtitles.mix y ponerlo junto con el resto de archivos de Blade Runner. Por el momento solo tenemos subtítulos en inglés y francés, no obstante, si quieres ayudarnos a transcribir el resto de idiomas a partir de los archivos de audio, por favor, [contacta con peterkohaut y praetorian](https://www.scummvm.org/contact/).
+
+Ten en cuenta que cuando agregues el directorio del juego en ScummVM, se te presentarán dos opciones: la primera es para jugar al juego original y se llamará simplemente «Blade Runner»; esta es la versión de la que nos interesa recibir información, ya que se considera la más completa. La otra opción a importar contiene contenidos restaurados y se llama «Blade Runner with restored content»; esta versión todavía está en desarrollo y está inacabada. Si vas a probar esta versión, por favor, indícala cuando vayas a [informar de fallos y comentar](https://bugs.scummvm.org/).
+
+Si tu versión del juego no es compatible, por favor, [redacta un informe de comentarios con los MD5 de tus archivos](https://wiki.scummvm.org/index.php/Reporting_unknown_MD5_checksums) para que podamos darle soporte.

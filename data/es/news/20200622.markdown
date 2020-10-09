@@ -1,0 +1,21 @@
+---
+title: "Estás en un laberinto de corredores enrevesados y similares"
+date: 1592827200
+author: DreamMaster
+---
+
+Por fin ha llegado la hora de anunciar la etapa de pruebas oficiales del motor Glk de ScummVM para ejecutar ficciones interactivas (también conocidas como aventuras de texto). Este es un conglomerado de submotores para ejecutar juegos que utilizan los diversos sistemas de programación que se publicaron a lo largo de los años. En este momento, los siguientes submotores pasan oficialmente al modo de pruebas:
+* ADRIFT (excepto la versión 5)
+* AdvSys
+* AGT
+* Alan 2 y 3
+* Archetype (recién reimplementado para Glk a partir del código fuente original en Pascal)
+* Hugo
+* JACL
+* Level 9
+* Magnetic Scrolls
+* Quest
+* Scott Adams
+* ZCode (todos los juegos en ZCode salvo los de la versión gráfica de Infocom 6)
+
+Otros submotores, como Comprehend, TADS y Quill serán incluidos en el futuro. Para los que sois fans de los clásicos literarios, desempolvad vuestros juegos favoritos y preparaos para rejugarlos. Necesitaréis una [compilación de desarrollo diaria](https://buildbot.scummvm.org/builds.html). Como siempre, enviad vuestros informes de fallos a nuestro [gestor de fallos](https://bugs.scummvm.org/).

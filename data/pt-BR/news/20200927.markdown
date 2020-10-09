@@ -1,0 +1,34 @@
+---
+title: "ScummVM \"Fantasia Interativa\" 2.2.0 Vê a Luz do Dia"
+date: 1601216320
+author: sev
+---
+
+Uma nova versão do ScummVM está pronta. Esta é a mais sensacional porque estamos abraçando jogos de aventura datados a partir de 1976! Isso mesmo, o infame _Colossal Cave Adventure_, o primeiro jogo de Ficção Interativa, agora é suportado pelo ScummVM.
+
+Além deste (e cerca de outros 1594 jogos de FI), agora adicionamos mais 3 engines de jogo e estendemos outras 4, adicionando assim os seguintes jogos à lista de suporte:
+
+* _Blazing Dragons_
+* _Eye of the Beholder - versão para Sega CD_
+* _Griffon Legend_
+* _Jogos da Interactive Fiction_
+* _Operation Stealth_
+* _Police Quest: SWAT_
+* _Prince and the Coward, tradução em Inglês_
+* _Ultima IV - Quest of the Avatar_
+* _Ultima VI - The False Prophet_
+* _Ultima VIII - Pagan_
+
+Como você pode ver, continuamos nossa exploração pelo mundo dos RPGs.
+
+Outras mudanças notáveis são: uma versão para MorphOS totalmente reescrita; um novo subsistema para salvamento automático, presente em quase todas as engines que oferecemos; Suporte de exibição da direita para a esquerda em nossa interface; código de emulação MT-32 atualizado e Rich Presence do Discord.
+
+Agora oferecemos suporte a diferentes versões de jogo adicionais e temos melhorias perceptíveis nas engines Illusions, Kyra, Lab, Queen, Titanic, Xeen e ZVision. Também há suporte aprimorado em Maniac Mansion para as versões de NES e Apple //gs. Como de costume, continuamos corrigindo bugs de script de SCI original em mais de 30 jogos e adicionamos suporte de trilha sonora de Roland D-110 a esses jogos.
+
+Claro, você pode encontrar as notas de versão mais abrangentes [aqui](https://www.scummvm.org/frs/scummvm/2.2.0/ReleaseNotes.html).
+
+Obtenha sua cópia em [nossa página de downloads](https://www.scummvm.org/downloads) ou, no Windows ou macOS, deixe o atualizador automático buscá-la para você.
+
+Além disso, lançaremos uma nova versão do Android no Canal Beta e precisaremos da sua ajuda com os testes. Seria ótimo receber seus comentários no [sub-fórum da Versão para Android](https://forums.scummvm.org/viewforum.php?f=17).
+
+É hora de mergulhar em uma boa ficção interativa ou fritar alguns monstros em Ultima com um fogo ardente, se você for um dragão, é claro.

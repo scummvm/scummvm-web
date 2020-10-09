@@ -1,0 +1,13 @@
+---
+title: "Más cambios en la infraestructura"
+date: 1542557654
+author: lotharsm
+---
+
+Hace unas semanas empezamos a mejorar nuestra página web, lo que incluye (pero no se limita a) desempolvar nuestros foros y nuestra wiki. También estamos haciendo algunos cambios «en las tripas», como las mejoras de nuestra gestión de traducciones para esta web.
+
+En los últimos días vamos a lanzar un nuevo sistema de «mirrors» para nuestras descargas con el que podremos distribuir el ancho de banda necesario a varios servidores.
+
+Casi hemos terminado de configurar este sistema nuevo y, básicamente, solo tenemos que «darle al interruptor». No obstante, es posible que os topéis con problemas, como enlaces de descarga rotos o mensajes de aviso de archivos desaparecidos, durante el periodo de transición.
+
+Estamos trabajando duro para que las interrupciones en el servicio sean las menos posibles. ¡Muchas gracias por vuestra comprensión!

@@ -1,0 +1,11 @@
+---
+title: "Testando, testando. Grande Temporada de TestesTM do ScummVM 0.11.0"
+date: 1196948160
+author: sev, clone2727
+---
+
+Chegou a hora de anunciar nossa próxima Grande Temporada de TestesTM. Isso significa que em breve vocês, nossos colegas usuários, verão a nova e brilhante versão do ScummVM.
+
+Nós ampliamos a quantidade de nossos jogos suportados em 8 jogos novos (ou antigos :)). A lista inclui: *I Have No Mouth and I Must Scream*, *Lure of the Tenttress*, *Elvira - Mistress of the Dark*, *Elvira II - The Jaws of Cerberus*, *Waxworks* (versão Amiga apenas), e os primeiros jogos preAGI da Sierra *Mickey's Space Adventure*, *Troll's Tale* e *Winnie the Pooh in the Hundred Acre Wood*.
+
+Há instruções detalhadas sobre como realizar o teste de uma forma produtiva. Você os encontrará em nossa [página do Wiki](http://wiki.scummvm.org/index.php/Release_Testing). Por favor, foque neles e relate-nos em nossa lista de e-mail, em #scummvm ou em [nossos fóruns](http://forums.scummvm.org/viewtopic.php?p=29716). A lista atual de jogos testados pode ser encontrada [aqui](http://wiki.scummvm.org/index.php/Release_Testing/0.11.0).

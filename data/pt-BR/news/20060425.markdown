@@ -1,0 +1,11 @@
+---
+title: "Chamada para testes: The Legend of Kyrandia"
+date: 1145972160
+author: vinterstum
+---
+
+Temos o orgulho de anunciar que o suporte do ScummVM para The Legend of Kyrandia agora está completo!
+
+Isso significa que agora precisamos de vocês, nossos usuários, para nos dar uma mãozinha. Para erradicar quaisquer bugs restantes, testes extensivos são extremamente necessários. Portanto, desenterre suas cópias (legalizadas!) do Kyrandia 1, baixe uma compilação SVN do ScummVM e o arquivo de dados Kyra necessário na página [Downloads](/downloads/#daily) e publique todos os bugs que encontrar em nosso [Rastreador de bugs](http://bugs.scummvm.org/) :). Quaisquer outras questões podem ser discutidas no [fórum](http://forums.scummvm.org/viewtopic.php?p=8176).
+
+Atualmente, as edições de CD e disquete são suportadas em seus próprios idiomas. Versões em inglês, francês, alemão e espanhol são totalmente suportadas, mas qualquer outra versão para PC (e esperançosamente para Mac) deve funcionar bem (embora com algum texto em inglês e alguns gráficos de interface ausentes). Se você tiver uma versão sem suporte, adoraríamos ouvir de você! Note que as versões do Amiga infelizmente não são suportadas neste momento.

@@ -1,0 +1,7 @@
+---
+title: "Código Congelado"
+date: 1016631360
+author: ender
+---
+
+O ScummVM está atualmente em um congelamento de código. Isso significa que o CVS não será atualizado com novas correções, pois estamos fazendo uma grande reorganização na engine. Esperamos que, ao reescrever muitas partes do ScummVM em C++ adequadamente, possamos corrigir um grande número de bugs da prória engine, além de facilitar o trabalho do código, para nós e desenvolvedores que desejarem ingressar no projeto no futuro. Observe que isso significa que os relatórios de bugs e correções atualmente no sistema não serão analisados até que o congelamento termine. Planejamos congelar por uma semana, embora isso possa levar mais tempo.

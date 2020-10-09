@@ -1,0 +1,28 @@
+---
+title: "Por favor, ayudadnos a testear la próxima versión de ScummVM, la 2.2.0"
+date: 1598793846
+author: sev, criezy, md5
+---
+
+Hola mundo, nos ha llegado la hora de publicar la próxima versión de ScummVM. Por lo tanto, necesitamos toda vuestra ayuda para probar las compilaciones estables antes de lanzar, así podremos garantizar la mejor calidad posible.
+
+Os pedimos que prestéis especial atención a los siguientes juegos nuevos:
+
+* <i>Blazing Dragons</i>
+* <i>Eye of the Beholder - versión para Sega CD</i>
+* <i>Griffon Legend</i>
+* <i>Los juegos de Interactive Fiction</i>
+* <i>Operation Stealth</i>
+* <i>Police Quest: SWAT</i>
+* <i>Traducción al inglés de The Prince and the Coward</i>
+* <i>Ultima IV - Quest of the Avatar</i>
+* <i>Ultima VI - The False Prophet</i>
+* <i>Ultima VIII - Pagan</i>
+
+También nos gustaría que juguéis a otro título de Sierra: <i>Police Quest: SWAT</i>. Entrenaos para formar parte del equipo de SWAT y embarcaos en misiones peligrosas para salvar vidas civiles. Este juego ha sido ascendido recientemente a la categoría de testeo, así que su llamada para el mismo ha sido incluida en el anuncio de la próxima versión.
+
+Estos juegos deben ser testeados con [compilaciones estables](https://buildbot.scummvm.org/builds.html), no de desarrollo. Informad de cualquier fallo o cosa rara en [nuestro gestor de fallos](https://bugs.scummvm.org/).
+
+También necesitamos de vuestra ayuda para actualizar las traducciones de ScummVM de cara a esta versión. Podéis ver el estado de las traducciones y participar en ellas en nuestra [web de traducciones](https://translations.scummvm.org/projects/scummvm/scummvm/). Para iniciar sesión en la página podéis usar vuestras cuentas de GitHub, de Facebook, o crear una específica para esta web. Los colaboradores habituales pueden guardar los cambios en las traducciones, pero los nuevos solo podrán hacer sugerencias y votarlas. No obstante, buscamos a nuevos colaboradores habituales para ciertos idiomas, así que si no tienes acceso completo y desearías tenerlo, por favor, [contáctanos](https://www.scummvm.org/contact/). Por otro lado, algunos de nuestros antiguos colaboradores han podido perder el acceso completo hará unos meses, cuando actualizamos la configuración de permisos, así que si eres uno de ellos, contáctanos para que te restauremos tu acceso completo.
+
+¡Suerte con el testeo, a ver si podemos publicar la versión 2.2.0 a finales de septiembre!

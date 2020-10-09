@@ -1,0 +1,28 @@
+---
+title: "News, lots and lots of them..."
+date: 1115818560
+author: fingolfin
+---
+
+On the downside, we really need to post news more regularly. On the upside, we have accumulated a lot to tell you about:
+
+**New Ports**
+
+*   Ports are important for us -- that much we have in common with the good ol' pirates from Monkey Island. Of course in our case it's not the wet kind (with ships and stuff), but rather ports of ScummVM to different architectures. On that front, we have some pretty nice things coming up for the next ScummVM release, including an official PlayStation 2 port, as well as the AmigaOS port now being official, too. And with some luck maybe even the often requested EPOC/Symbian port will finally be a regular part of ScummVM (take a look at the relevant [patch tracker item](https://sourceforge.net/tracker/index.php?func=detail&amp;aid=1188433&amp;group_id=37116&amp;atid=418822) if you are curious).
+
+**New games**
+
+*   We added a new game engine, this time for Coktel's Gobliiins series. So far, Gobliiins 1 is completable. Work on the other parts (Gobliins 2, Goblins 3, and "The Bizarre Adventures of Woodruff and the Schnibble") has not yet begun, but at least Gobliins 2 seems to be similar to part 1, so we hope to have that in the foreseeable future, too. Regarding the other parts, we'll see...
+*   Thanks to the hard work of some dedicated people we also finally support the (in)famous NES version of Maniac Mansion. Wow, that should be about the last LucasArts SCUMM game we were not supporting ... ;-)
+*   Support for Humongous Entertainment's kids games is progressing well, the following titles can be completed with the current development version of ScummVM:
+    *   Freddi Fish 1 - 4
+    *   Pajama Sam 1 &amp; 2
+    *   Putt-Putt (several titles)
+    *   Spy Fox 1 &amp; 2
+    *   Several arcade titles
+
+**New thumbs**
+
+*   No, I didn't undergo plastic surgery (although another pair of thumbs sounds tempting...). Rather, we added support for thumbnails in SCUMM savegames. Pretty cool stuff, click [here for a screenshot](/data/news/20050511.png).
+
+Not too shabby, we think. And we actually have more really cool stuff in the works, stay tuned.

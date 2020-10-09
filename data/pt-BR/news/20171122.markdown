@@ -1,0 +1,37 @@
+---
+title: "O Teste de Lançamento do ScummVM 2.0 foi Iniciado"
+date: 1511357760
+author: snover
+---
+
+Finalmente chegou o dia de encerrar o atual ciclo de lançamento do ScummVM! O ScummVM 2.0 é um dos nossos maiores lançamentos até hoje e adiciona suporte à 23 jogos:
+
+*   *Cranston Manor*
+*   *Full Pipe*
+*   *Gabriel Knight*
+*   *Gabriel Knight 2*
+*   *King's Quest VII*
+*   *King's Questions*
+*   *Leisure Suit Larry 6 (alta resolução)*
+*   *Leisure Suit Larry 7*
+*   *Lighthouse*
+*   *Mixed-Up Mother Goose Deluxe*
+*   *Phantasmagoria*
+*   *Phantasmagoria 2*
+*   *Plumbers Don't Wear Ties*
+*   *Police Quest 4*
+*   *RAMA*
+*   *Riven: The Sequel to Myst*
+*   *Shivers*
+*   *Space Quest 6*
+*   *Starship Titanic*
+*   *The Dark Crystal*
+*   *Time Zone*
+*   *Torin's Passage*
+*   *Ulysses and the Golden Fleece*
+
+Esta versão também inclui novos aprimoramentos significativos e correções de bugs em muitas engines. Portanto, vá em frente e jogue um clássico antigo que você está perdendo, mesmo que não esteja nesta lista!
+
+Pegue uma [compilação diária](/downloads/#daily) do ScummVM para teste e siga nossas [diretrizes para teste de lançamento](http://wiki.scummvm.org/index.php/Release_Testing). **Usuários do Windows**, use uma [compilação diária do Kirben](http://scummvm.org/downloads/scummvm-win32.exe) em vez de uma compilação diária do bot de compilação. Relate todos os bugs que encontrar ao nosso [rastreador de bugs](https://bugs.scummvm.org/) e, depois de terminar o jogo, [preencha nosso formulário de resultados de testes](https://docs.google.com/forms/d/e/1FAIpQLSfiAycQmgaBEDsb0KNpZrNAaqBtilZe4SHWRDYcykeKqLHFvg/viewform). Você pode [acompanhar o progresso dos testes no wiki](http://wiki.scummvm.org/index.php/Release_Testing/2.0.0) enquanto acontecem.
+
+Bom jogo!

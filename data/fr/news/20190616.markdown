@@ -1,0 +1,17 @@
+---
+title: "On a besoin de Blade Runners !"
+date: 1560679776
+author: peterkohaut
+---
+
+Notre équipe ScummVM recherche des Blade Runners qui aideront à trouver, poursuivre et retirer les nuisibles qui se sont échappés des colonies spatiales numériques. Ces nuisibles ne sont pas dangereux et ils ne vous empêcheront pas de découvrir d'autres secrets et de choisir votre destin. Votre spinner, votre arme, votre dispositif ESPER et votre appareil Voight - Kampff seront à votre disposition.
+
+Nous vous annonçons que Blade Runner est prêt à être testé. Les langues suivantes sont prises en charge : anglais (versions CD et DVD), allemand, italien, français, espagnol ainsi que la version russe non officielle de Fargus Multimedia.
+
+Retrouvez votre copie de Blade Runner, [récupérez la dernière version de développement de ScummVM](https://buildbot.scummvm.org/builds.html) (et PAS la dernière version stable) et [copiez les fichiers nécessaires](https://wiki.scummvm.org/index.php?title=Datafiles#Blade_Runner).
+
+Vous pouvez maintenant jouer au jeu avec des sous-titres ! Il suffit de télécharger [le fichier zip des sous-titres](https://www.scummvm.org/games/#bladerunner), d'extraire le fichier subtitles.mix et de le placer parmi les autres fichiers de Blade Runner. Jusqu'à présent, nous n'avons que des sous-titres en anglais et en français, mais si vous souhaitez nous aider à transcrire d'autres langues à partir de l'audio, merci de contacter [peterkohaut et praetorian](https://www.scummvm.org/contact/).
+
+Notez que lorsque vous ajoutez votre répertoire de jeu dans ScummVM, deux choix s'offrent à vous pour le jeu. La première option est pour le jeu original et sera simplement nommée "Blade Runner" ; nous sommes principalement intéressés par vos commentaires sur cette version du jeu, puisqu'elle est considérée comme complète. L'autre option est pour l'importation du jeu avec un contenu restauré et s'appelle "Blade Runner avec contenu restauré" ; cette version est encore en cours de réalisation et n'est pas encore complète. Si vous testez cette version, merci de le préciser explicitement dans vos [commentaires et rapports de bogue] (https://bugs.scummvm.org/).
+
+Si votre version du jeu n'est pas prise en charge, merci de créer et de nous envoyer un [rapport de retour avec MD5](https://wiki.scummvm.org/index.php/Reporting_unknown_MD5_checksums) afin que nous puissions ajouter sa prise en charge.

@@ -1,0 +1,16 @@
+---
+title: "The students are known for GSoC 2016!"
+date: 1461591360
+author: criezy
+---
+
+![GSoC 2016 Banner](/data/news/GSoC2016Logo.png)
+
+On Friday Google announced the accepted projects for this year's Summer of Code. We are pleased to say that ScummVM will be mentoring four lucky students who will have to spend their summer in a dark room in front of their screen. We expect this will be an interesting Journey, passing through shadowy gates to visit scary dungeons under dark clouds. All while the mentors will be hunting three-headed monkeys on a tropical island, enjoying the sun, the beach and the grog.
+
+*   Borja Lorente Escobar (a.k.a. blorente) will be working on porting the ***MacVenture engine*** to ScummVM.
+*   Bendegúz Nagy (a.k.a. WinterGrascph) will work on adding support for ***Dungeon Master***
+*   Dmitriy Iskrich (a.k.a. Iskrich) will be working on a ***Macromedia Director*** engine, with focus on ***The Journeyman Project***
+*   Ткачёв Александр (a.k.a. Tkachov) will be adding **cloud storage integration** to ScummVM to allow sharing saves and game data between devices.
+
+Welcome to our students for what we hope will be a productive and interesting summer! You can follow their progress throughout the summer on the [ScummVM Blogs](http://planet.scummvm.org).

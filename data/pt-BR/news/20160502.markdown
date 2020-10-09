@@ -1,0 +1,15 @@
+---
+title: "É Hora de Testar o ScummVM 1.8.1"
+date: 1462196160
+author: sev
+---
+
+Desde a versão 1.8.0, estivemos muito ocupados com a correção de pequenos e grandes bugs nas novas engines suportadas, e agora estamos quase prontos para apresentar o resultado em forma do ScummVM 1.8.1.
+
+Por favor, ajude-nos a testar alguns jogos, especialmente aqueles que não foram tocados há um muito tempo ou aqueles que apresentam alterações significativas em sua engine. Preparamos uma pequena lista em [nosso wiki](http://wiki.scummvm.org/index.php/Release_Testing/1.8.1).
+
+Também a partir de agora, incentivamos você a testar qualquer jogo com suporte e relatar bugs ou seu sucesso no fórum, para que possamos acompanhar o estado atual das coisas na Ilha do ScummVM.
+
+Para testar o pré-lançamento, você precisa fazer o download de uma [compilação diária](/downloads/#daily) do ScummVM. Se você encontrar algumas falhas ou bugs, informe-os no nosso [rastreador de bugs](http://bugs.scummvm.org/). Se tudo correu bem, relate o seu sucesso nos [fóruns](http://forums.scummvm.org/viewtopic.php?t=14077), e nós o refletiremos instantaneamente no [wiki](http://wiki.scummvm.org/index.php/Release_Testing/1.8.1) (sim, você pode ser famoso por seus esforços de teste!) Você pode encontrar um guia sobre como testar uma nova versão [aqui](http://wiki.scummvm.org/index.php/Release_Testing).
+
+Ainda faltam alguns jogos [capturas de tela](http://wiki.scummvm.org/index.php/Screenshots). Ajude por favor a completar nossa galeria.

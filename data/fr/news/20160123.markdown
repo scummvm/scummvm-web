@@ -1,0 +1,13 @@
+---
+title: "Le Labyrinthe doit être détruit !"
+date: 1453556160
+author: md5
+---
+
+Alors que vous prenez le métro votre wagon est aspiré dans une autre dimension, un labyrinthe qui traverse le continuum espace-temps. Son créateur, Dédale, est forcé de superviser sa construction par le malfaisant roi Minos, qui veut l'utiliser pour envahir et conquérir toutes les époques et tous les mondes. Dédale supplie le jouer de trouver un moyen de détruire le labyrinthe avant que Minos ne puisse achever sa conquête.
+
+L'équipe de ScummVM est fière d'annoncer que le jeu *Labyrinth of Time* est désormais jouable dans ScummVM en utilisant la dernière [compilation quotidienne](/downloads/#daily) et est prêt à être testé.
+
+Veuillez signaler les bogues ainsi que les versions non reconnues dans notre [base de bogues](http://bugs.scummvm.org/) en suivant [nos directives de soumission de bogue](/faq/#question.report-bugs). Et comme d'habitude vos [captures d'écran](http://wiki.scummvm.org/index.php/Screenshots) sont les bienvenues.
+
+Un grand merci à [The Wyrmkeep Entertainment Co.](http://www.wyrmkeep.com/) pour avoir partagé avec nous le code source original du jeu !

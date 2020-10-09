@@ -1,0 +1,11 @@
+---
+title: "Nem tudo é perfeito"
+date: 1059917760
+author: ender
+---
+
+Embora o ScummVM 0.5.0 seja nossa versão mais testada até agora, alguns problemas sempre escapam pelas rachaduras. Entre alguns outros problemas menores, chegou ao nosso conhecimento que Beneath a Steel Sky pode ocasionalmente produzir jogos salvos corrompidos. Embora este seja um problema de atraso e muito raro na maioria dos sistemas, um pequeno grupo de pessoas pode perceber que isso acontece com bastante frequência.
+
+Uma pequena versão 0.5.1 do ScummVM está planejada em um futuro próximo para corrigir isso, e vários outros problemas menores que chamaram nossa atenção. Além disso, o manual para Beneath a Steel Sky e uma digitalização das histórias em quadrinhos estarão disponíveis para download no final da semana.
+
+Obrigado pelo apoio e ajuda de todos para tornar nosso projeto ainda melhor!

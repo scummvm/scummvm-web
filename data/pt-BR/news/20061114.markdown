@@ -1,0 +1,7 @@
+---
+title: "Versão Mac OS X do ScummVM 0.9.1 atualizada"
+date: 1163511360
+author: vinterstum
+---
+
+Como alguns de vocês devem ter notado, a versão Mac OS X do ScummVM 0.9.1 apresentava alguns problemas ao ser executada em máquinas PowerPC, principalmente ao reproduzir som codificado em MP3. Uma nova compilação (0.9.1a) está agora disponível na [página de downloads](/downloads/), para qualquer pessoa afetada (todas as versões além da versão Mac OS X permanecem as mesmas).

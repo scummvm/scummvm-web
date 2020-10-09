@@ -1,0 +1,13 @@
+---
+title: "\"Welcome to my... house\""
+date: 1229434560
+author: spookypeanut
+---
+
+Henry Stauf cordially invites you to come and sample the delights of his house in the newest game to be supported by ScummVM, *The 7th Guest*. A delightful evening is guaranteed to be had by you and the other guests.
+
+You will need a copy of the game (DOS and Windows versions only, for now), and a newly-downloaded [daily build](/downloads/#daily) of ScummVM. And, of course, your wits about you.
+
+Please report any unwanted annoyances (i.e. bugs) to the [ScummVM bug tracker](http://bugs.scummvm.org/). If you find any particularly beautiful sights while you're there, be sure to submit them as [screenshots](http://wiki.scummvm.org/index.php/Screenshots).
+
+*P.S.* There are some slight complications involved in copying the game to the hard drive, due to there being audio tracks on both CDs. The information on how to get round this is on the [7th Guest wiki page](http://wiki.scummvm.org/index.php/The_7th_Guest), as well as a few known issues, so be sure to read it fully.

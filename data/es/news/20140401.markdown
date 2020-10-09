@@ -1,0 +1,31 @@
+---
+title: "A Landmark Achievement"
+date: 1396359360
+author: <s>Strangerke</s> clone2727
+---
+
+**Happy April Fools' Day! Much thanks to LordHoto for the *mock* achievement dialog code and for the Hand of Fate and Zak McKracken quotes. Thanks to ST, DrMcCoy, and Strangerke for all their input.**
+
+Due to high demand, ScummVM is extremely proud and thrilled to announce the introduction of achievements to various games. Games really have no replay value without achievements, so we hope that our loyal users will enjoy finally being able to play them again the way they've always meant to be played. They're finally ready for the 21st century!
+
+The ScummVM team managed to put together a huge list of achievements that we wanted to see in various games, including some not-yet-supported ones. From there, we just plugged in our simple dialog and achievement tracking code, and were able to add it to all engines easily. Soon integration with the forums will be complete and you will be able to share all your achievements there.
+
+LordHoto was really excited to work on this feature saying, "This is the coolest feature I've added to The Legend of Kyrandia." "First Steam's achievements came to Linux and now this? Linux gamers should be thrilled for all the achievements they can now earn!" added DrMcCoy.
+
+We've gathered up some screenshots of some of our favorite ones:
+
+[*Full Throttle* Screenshot](/data/news/20140401_1.png)
+
+[*The Legend of Kyrandia: The Hand of Fate* Screenshot](/data/news/20140401_2.png)
+
+[*The Curse of Monkey Island* Screenshot](/data/news/20140401_3.png)
+
+[*Geisha* Screenshot](/data/news/20140401_4.png)
+
+[*Gabriel Knight: Sins of the Fathers* Screenshot 1](/data/news/20140401_5.png)
+
+[*Gabriel Knight: Sins of the Fathers* Screenshot 2](/data/news/20140401_6.png)
+
+[*Gabriel Knight: Sins of the Fathers* Screenshot 3](/data/news/20140401_7.png)
+
+[*Zak McKracken and the Alien Mindbenders* Screenshot](/data/news/20140401_8.png)

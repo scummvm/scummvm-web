@@ -1,0 +1,9 @@
+---
+title: "Añadir agua y servir"
+date: 1075469760
+author: ender
+---
+
+Esta es una noticia rápida para que todos sepáis que ScummVM 0.6.0 sigue progresando. Por desgracia, la reciente caída de los servidores y otros problemas con SourceForge.net han retrasado los ramales y las pruebas finales de esta versión, ¡pero aún esperamos poder publicarla en cuanto podamos!  
+  
+Cambiando de asunto y siguiendo con la actual oleada de problemas informáticos, todas las direcciones de e-mail relacionadas con scummvm.org no funcionan en estos momentos. Esperamos poder arreglarlas en los próximos días sin perder ningún mensaje. No obstante, si queréis hablar de algo importante con nosotros, sugerimos encarecidamente que hablemos en tiempo real a través de nuestro canal de IRC (#scummvm, en irc.freenode.net).

@@ -1,0 +1,30 @@
+---
+title: "Начинается тестирование релиза ScummVM 1.8.0"
+date: 1454333760
+author: sev
+---
+
+После долгого перерыва, мы наконец начинаем приготовления для следующего релиза ScummVM — 1.8.0.
+
+Последние полтора года мы работали напряжённо, и смогли добавить 10 (ten, zehn, dieci, dix, diez, десять) новых игр:
+
+*   *Rex Nebular and the Cosmic Gender Bender*
+*   *Sfinx*
+*   *Zork Nemesis: The Forbidden Lands*
+*   *Zork: Grand Inquisitor*
+*   *The Lost Files of Sherlock Holmes: The Case of the Serrated Scalpel*
+*   *The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo*
+*   *Beavis and Butthead in Virtual Stupidity*
+*   *Amazon: Guardians of Eden*
+*   *Broken Sword 2.5: The Return of the Templars*
+*   *Labyrinth of Time*
+
+Также движок Sierra AGI был сильно переработан, и все игры, построенные на нём, стали работать значительно лучше, а это означает, что могли появиться и новые баги.
+
+Нам нужна ваша помощь в тестировании этих игр, включая игры на движке AGI. Чтобы вам было удобно, мы создали список игр, требующих тестирования на [нашей Вики](http://wiki.scummvm.org/index.php/Release_Testing/1.8.0). Также там перечислены некоторые другие старые игры, которым нужно дополнительное тестирование.
+
+Вам нужно скачать [ежедневную сборку](/downloads/#daily) ScummVM и вы можете сразу же начинать тестирование! Если вы наткнётесь на новые баги, пожалуйста, напишите о них на нашем [баг-трекере](http://bugs.scummvm.org/). После того, как вы пройдёте какую-либо игру до конца, напишите об этом [на форуме](http://forums.scummvm.org/viewtopic.php?t=14006), мы пометим эту игру как проверенную на [Вики](http://wiki.scummvm.org/index.php/Release_Testing/1.8.0), и другие пользователи смогут сосредоточиться на непройденных играх. Пожалуйста, следуйте нашему руководству по тестированию, которое можно прочитать [здесь](http://wiki.scummvm.org/index.php/Release_Testing).
+
+Также для некоторых игр нужны [скриншоты](http://wiki.scummvm.org/index.php/Screenshots), пока играете, сделайте парочку.
+
+Весёлого квестования (в тестовом режиме)!

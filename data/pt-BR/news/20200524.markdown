@@ -1,0 +1,9 @@
+---
+title: "Você tem sido um transtorno para mim há muito tempo, Avatar"
+date: 1590366069
+author: dreammaster
+---
+
+Parece que o trabalho de limpeza e melhorias na integração do Ultima VIII foi além do que eu havia previsto. Agora está confirmado que Ultima VIII pode ser jogado do começo ao fim no ScummVM também, sendo assim ele se junta ao Ultima IV e Ultima VI para testes oficiais.
+
+Então pegue sua cópia do Ultima VIII também e experimente! Você precisará de uma [compilação de desenvolvimento diária](https://buildbot.scummvm.org/builds.html). Como sempre, envie os relatos de bugs para o nosso [rastreador de problemas](https://bugs.scummvm.org/).

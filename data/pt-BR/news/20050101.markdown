@@ -1,0 +1,24 @@
+---
+title: "Binários do 0.7.0 adicionais e alguns números grandes"
+date: 1104586560
+author: fingolfin
+---
+
+Em primeiro lugar: mais uma vez um Feliz Ano Novo a todos!
+
+Queríamos apenas informar que, desde o lançamento do ScummVM 0.7.0 há uma semana, mais alguns binários chegaram à sua [página de download](/downloads/). Agora oferecemos binários para os seguintes sistemas:
+
+*   Windows
+*   Mac OS X
+*   Linux: Fedora Core
+*   Solaris 8
+*   PalmOS
+*   PocketPC (WinCE)
+*   Dreamcast
+*   BeOS
+
+...e com um pouco de sorte, o pacote Debian estará pronto em breve.
+
+Isso já é muito bom, mas um pouco mais não dói. Por exemplo, seria bom ter pacotes para Mandrake, Slackware, Solaris x86 ou sua torradeira favorita. Portanto, se você estiver interessado em se juntar a nós como packager, [entre em contato](http://www.scummvm.org/contact.php).
+
+E agora algo completamente diferente: dando uma olhada em nossa [página de estatísticas do projeto](https://sourceforge.net/project/stats/index.php?report=last_30&amp;group_id=37116), você pode notar que agora temos mais de 10.000.000 de visualizações de página (acumuladas ao longo do tempo de vida total do ScummVM como um projeto SourceForge.net), e serviram mais de 1,1 milhão de downloads desde a nossa concepção. Nada mal, nós achamos :-)

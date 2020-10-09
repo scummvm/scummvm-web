@@ -1,0 +1,11 @@
+---
+title: "Nosso site recebeu uma atualização!"
+date: 1530452160
+author: lotharsm
+---
+
+Não estamos apenas trabalhando constantemente para melhorar a compatibilidade do ScummVM ou implementar novos jogos, mas às vezes também para melhorar a aparência geral do projeto.
+
+Nos últimos meses, um fã de longo prazo do ScummVM e novo membro da equipe Mataniko trabalhou duro para melhorar o design do site, o que nos serve bem pois já faz mais de uma década. Estamos orgulhosos de dizer que o site ScummVM agora é totalmente responsivo e parecerá absolutamente bonito em seu PC e em seus dispositivos móveis.
+
+Se você tiver algum problema com o site atualizado ou a sensação de que algo está faltando, conte-nos agora em nosso [Rastreador de Problemas](https://github.com/scummvm/scummvm-web/issues).

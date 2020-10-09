@@ -1,0 +1,19 @@
+---
+title: "ScummVM 1.4.1 \"Subwoofer Release\" Is Available!"
+date: 1327671360
+author: sev
+---
+
+The ScummVM Team is pleased to announce ScummVM 1.4.1, a maintenance only release that fixes several bugs in 1.4.0.
+
+The most notable changes in this release are:
+
+*   Support for the *Beneath a Steel Sky*[Enhanced Soundtrack](http://www.jameswoodcock.co.uk/?p=7695) by James Woodcock
+*   Slight graphical improvement for the PlayStation version of *Broken Sword 2*
+*   Several bugfixes for *Lands of Lore*
+*   More logical sound settings for SCI games
+*   A fixed crash in the VGA version of *Quest for Glory 1*
+
+The full list of changes can be found in the [release notes](/frs/scummvm/1.4.1/ReleaseNotes) and the release binaries for many platforms are located on our [downloads page](/downloads/).
+
+Enjoy!

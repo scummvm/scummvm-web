@@ -1,0 +1,16 @@
+---
+title: "Bist du bereit für die Legende?"
+date: 1598362143
+author: sev
+---
+
+Das ScummVM-Team freut sich, die Unterstützung für ein kleines Freeware-RPG namens <i>The Griffon Legend</i> bekannt zu geben.  [Ursprünglich](http://syn9.thehideoutgames.com/index_backup.php) wurde das Spiel von Daniel "Syn9" Kennedy in der Programmiersprache FreeBASIC entwickelt und später von Dmitry Smagin auf die GCW0-Konsole portiert. Auf diesem Port baisert auch unsere Engine.
+
+Die Legende besagt:
+
+<pre>500 Jahre nach dem Griffon-Drachen-Krieg, sind die Drachen
+zurückgekehrt um ihr Reich zurück zu erobern. Städte fallen,
+es gibt nur wenige Überlebende und der einsame Griffon-Ritter Fayne
+ist zwischen allen Fronten gefangen.</pre>
+
+Da das Spiel als Freeware freigegeben ist, kannst du es direkt von unserer [Website](https://www.scummvm.org/games/) oder von der [ursprünglichen Website der Entwickler](http://syn9.thehideoutgames.com/index_backup.php?table=griffonlegend) herunterladen. Du wirst außerdem eine aktuelle [Entwicklerversion](https://buildbot.scummvm.org/builds.html) von ScummVM benötigen, um das Spiel zu spielen. Wie immer möchten wir dich darum bitten, gefundene Fehler in unserem [our Bug-Tracker](https://bugs.scummvm.org/) zu melden.

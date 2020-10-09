@@ -1,0 +1,28 @@
+---
+title: "Por favor, ajude-nos a testar a próxima versão do ScummVM 2.2.0"
+date: 1598793846
+author: sev, criezy, md5
+---
+
+Olá mundo, chegou a hora de lançarmos a próxima versão do ScummVM. Portanto, precisamos muito de sua ajuda para testar as compilações estáveis antes do próximo lançamento, para que possamos garantir uma melhor qualidade.
+
+Por favor, foque sua atenção aos seguintes novos títulos:
+
+* <i>Blazing Dragons</i>
+* <i>Eye of the Beholder - versão do Sega CD</i>
+* <i>Griffon Legend</i>
+* <i>Interactive Fiction games</i>
+* <i>Operation Stealth</i>
+* <i>Police Quest: SWAT</i>
+* <i>Prince and the Coward, tradução em Inglês</i>
+* <i>Ultima IV - Quest of the Avatar</i>
+* <i>Ultima VI - The False Prophet</i>
+* <i>Ultima VIII - Pagan</i>
+
+Também gostaríamos que você jogasse outro jogo da Sierra: <i>Police Quest: SWAT</i>. Treine para ser um membro da equipe SWAT e embarque em missões perigosas para salvar vidas de civis. Este foi recentemente promovido para testes, então sua chamada para teste foi incluída no anúncio do próximo lançamento.
+
+Esses jogos precisam ser testados com [compilações estáveis](https://buildbot.scummvm.org/builds.html), não com as de desenvolvimento. E relatar quaisquer bugs ou eventos estranhos em [nosso rastreador de problemas](https://bugs.scummvm.org/).
+
+Também precisamos de sua ajuda para atualizar as traduções do ScummVM para este lançamento. Você pode ver o status das traduções e trabalhar com elas em nosso [site de traduções](https://translations.scummvm.org/projects/scummvm/scummvm/). Para fazer login no site, você pode usar sua conta do GitHub ou do Facebook, se tiver uma, ou criar uma conta específica para este site. Colaboradores regulares podem salvar as alterações nas traduções, mas os novos colaboradores só poderão fazer sugestões e votar nas sugestões. No entanto, estamos procurando novos colaboradores regulares para alguns idiomas, então se você não tem acesso total e gostaria de obtê-lo, [entre em contato](https://www.scummvm.org/contact/). Além disso, alguns de nossos contribuidores anteriores podem ter perdido o acesso total há alguns meses, quando atualizamos nossas configurações de permissão. Se você for um deles, entre em contato conosco para ter seu acesso completo restaurado.
+
+Boa sorte com os testes, vamos lançar a versão 2.2.0 no final de setembro!

@@ -1,0 +1,13 @@
+---
+title: "\"This arrow is ..quite annoying...\""
+date: 1307021760
+author: LordHoto
+---
+
+These are amongst the last words of Timothy, one of your friends; But when the Dark Army is on the march, there is no time for mourning the dead. Time is essential in the race against the evil sorceress Scotia, so you had better continue your journey to save the realm of Gladstone.
+
+The ScummVM Team is pleased to announce support for [Lands of Lore: The Throne of Chaos](http://www.mobygames.com/game/lands-of-lore-the-throne-of-chaos). So grab your copy of the DOS Floppy, DOS CD or even the PC-98 version and start playing Lands of Lore in the [latest daily build](/downloads/#daily) of ScummVM and help us with the testing, while enjoying this great game. A quick side note: Unlike other ScummVM supported adventure games, Lands of Lore is an RPG (Role Playing Game). We are supporting it as it uses the same engine (KYRA) as The Legend of Kyrandia series. Please do not ask us to support other RPGs!
+
+Of course, all bugs should be reported to [our bug tracker](http://bugs.scummvm.org/). However, please make sure you have got all the required [datafiles](http://wiki.scummvm.org/index.php/Datafiles#Lands_of_Lore:_The_Throne_of_Chaos) before you report a bug. For further information, check out the [bug submission guidelines](/faq/#question.report-bugs).
+
+Happy dungeon crawling!

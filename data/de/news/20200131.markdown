@@ -1,0 +1,15 @@
+---
+title: "Freigabe von ScummVM 2.1.1\":More Sheep:\""
+date: 1580493728
+author: sev
+---
+
+Nach einer kurzen Pause freut sich das ScummVM-Team, ein Wartungs-Release für den Versionszweig 2.1 anzukündigen - ScummVM 2.1.1, Codename ":More Sheep:".
+
+Diese Veröffentlichung beinhaltet zahlreiche Fehlerkorrekturen und kleinere Verbesserungen. Nennenswert sind: Verbesserte Sprach-Unterstützung in der Benutzeroberfläche, Verbesserungen in der Audiowiedergabe für FM TOWNS/PC-98, Optimierung der Cloud-Spielstände, einige Dutzend SCI-Skript-Korrekturen, Verbesserungen für Blade Runner und Korrekturen an weiteren 7 Engines. Zusätzlich ist diese Veröffentlichung die erste mit offizieller Unterstützung für den Nintendo 3DS. Zusätzlich haben wir auch der Nintendo Switch eine Cloud-Unterstützung spendiert.
+
+Eine Umfangreiche Liste aller Änderungen findest Du in den [Release Notes](https://www.scummvm.org/frs/scummvm/2.1.1/ReleaseNotes.html).
+
+Wie üblich findest Du die Programmdateien auf unserer [Download-Seite](/downloads/).
+
+Wir wünschen dir viel Spaß!

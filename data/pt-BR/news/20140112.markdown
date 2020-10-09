@@ -1,0 +1,13 @@
+---
+title: "Chivalry NÃO está Morto!"
+date: 1389533760
+author: somaen
+---
+
+O Senhor Horrível enviou você em uma missão para matar a Rainha de Tudo, desempenhando o papel do horrivelmente desfigurado Phlegmwad, você terá a chance de escolher como (não?) cumprir essa missão de proporções épicas.
+
+Com a grande ajuda do desenvolvedor de jogos Deirdra Kiai e do desenvolvedor de Wintermute Jan Nedoma, a equipe ScummVM tem o prazer de anunciar o suporte para o nosso primeiro jogo de Wintermute: [*Chivalry is Not Dead*](http://www.deirdrakiai.com/my-games/). Portanto, faça o download de uma cópia do jogo e comece a jogar na [mais recente compilação diária](/downloads/#daily) do ScummVM e ajude-nos a testar este jogo aberto.
+
+Quantos finais você consegue encontrar?
+
+Como sempre, todos os bugs devem ser relatados ao [nosso rastreador de bugs](http://bugs.scummvm.org/milestone/Wintermute/). Você pode encontrar uma lista de arquivos de dados na [página de arquivos de dados](http://wiki.scummvm.org/index.php/Datafiles#Chivalry_is_Not_Dead) em nosso wiki. Destaca-se a necessidade de uma cópia da fonte arial.ttf (ou uma substituição semelhante, por exemplo, FreeSans do [GNU FreeFont](http://www.gnu.org/software/freefont/).) Para obter mais informações, consulte as [diretrizes de envio de bugs](/faq/#question.report-bugs).

@@ -1,0 +1,23 @@
+---
+title: "El pueblo ha hablado :)"
+date: 1043760960
+author: ender
+---
+
+En el Linux Game Tome (http://happypenguin.org), ScummVM ha sido votado como el [mejor emulador](http://happypenguin.org/forums/viewtopic.php?t=549). Gracias a todos los que nos habéis votado.  
+  
+Cambiando de tercio, la compatibilidad de Curse of Monkey Island se está estabilizando. Aunque aún hay ciertos defectillos gráficos, solo nos quedan dos fallos graves en la jugabilidad y unos cuántos otros «inconvenientes» y comportamientos incorrectos. Esperamos poder anunciar que Curse of Monkey Island es jugable de principio a fin muy pronto.  
+  
+Muchos nos han preguntado qué haremos a partir de ahora. Esta es una guía rápida (¡y muy sujeta a cambios!) de nuestros próximos objetivos:
+
+*   Febrero de 2003: Curse of Monkey Island jugable de principio a fin
+*   Feb-Mar 2003: Testeo de regresiones y correcciones de fallos en otros juegos compatibles
+*   Feb-Mar 2003: Finalización de la característica del lanzador (ventanas de opciones con pestañas, etc)
+*   Primeros de marzo de 03: Bloqueo del CVS, testeo de regresiones, lanzamiento de 0.4.0
+*   A partir de marzo: Soporte de juegos V1/V2 (Maniac Mansion, Zak en sus versiones ajenas a FmTowns, Loom para EGA, etc.)
+
+  
+  
+Como siempre, estas son unas pautas muy generales que dependen de los avances y el tiempo libre de nuestros desarrolladores. Si quieres ayudar y sabes utilizar CVS y un compilador... ¡arréglanos fallos o testea las regresiones! Estamos muy interesados en encontrar a personas que puedan testear el CVS con los juegos ajenos a ComI, para que busquen fallos críticos que no estuvieran presentes en la versión 0.3.0b y también probar varias versiones del CVS y localizar, como mínimo, el día en el que empezó a ocurrir ese fallo. Esto nos ayudará a determinar más fácilmente los cambios que han podido dar problemas sin pasarnos semanas buscando a ciegas.  
+  
+Cabe decir que si encuentras un fallo crítico que SÍ esté presente en la versión 0.3.0b, puedes mirar a ver si hay un informe de fallos. ¡Si no hay uno, mándalo, por favor!

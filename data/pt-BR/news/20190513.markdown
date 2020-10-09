@@ -1,0 +1,16 @@
+---
+title: "Mais um verão (com o Google), quatro novos projetos!"
+date: 1557789836
+author: Criezy
+---
+
+![Logotipo do GSoC](/data/news/GSoC2017Logo.png)
+
+Na semana passada, o Google anunciou os projetos aceitos para o Summer of Code deste ano. Estamos satisfeitos e empolgados em dizer que o ScummVM estará orientando quatro estudantes este ano. Todos os quatro trabalharão nas engines de jogo:
+
+* Andrii Prykhodko (também conhecido como whiterandrek) está de volta e estará trabalhando para adicionar suporte aos jogos ***[Red Comrades 1: Save the Galaxy](https://www.mobygames.com/game/red-comrades-save-the-galaxy-reloaded)*** e ***[Red Comrades 2: For the Great Justice](https://www.mobygames.com/game/red-comrades-2)*** ao ScummVM.
+* Nipun Garg estará trabalhando para adicionar suporte ao jogo ***[Hyperspace Delivery Boy!](https://www.mobygames.com/game/hyperspace-delivery-boy)*** ao ScummVM.
+* Jaromír Wysoglad (também conhecido como Jarda) estará trabalhando na segunda parte do jogo ***[Mission Supernova](http://www.mobygames.com/game/dos/mission-supernova/)***.
+* Antonio Román Cerezo (também conhecido como Kyranet) estará trabalhando na implementação de redes no ScummVM para o jogo ***[Moonbase Commander](http://www.mobygames.com/game/moonbase-commander)***.
+
+Sejam bem-vindos nossos quatro estudantes aventureiros, esperamos que seja um verão produtivo e interessante! E como sempre, você pode acompanhar o progresso deles durante o verão nos [Blogs do ScummVM](http://planet.scummvm.org).

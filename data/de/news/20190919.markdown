@@ -1,0 +1,13 @@
+---
+title: "Ein weiteres Spiel zu testen: *Duckman*"
+date: 1568920759
+author: yuv422
+---
+
+*Duckman: The Graphic Adventures of a Private Dick* ist ein obskures Point-and-Click-Spiel, welches auf der gleichnamigen TV-Serie basiert. Du steuerst den weisen Detektiv Duckman, der nach dem Rausschmiss aus seiner eigenen Fernsehserie in einer Identitätskrise steckt. Unglücklicherweise fiel die Veröffentlichung des Spiels im Jahre 1997 mit der Absetzung der Fernsehserie zusammen, weshalb das Spiel keine große Verbreitung fand.
+
+Nach langer Entwicklung freut sich das Team von ScummVM, die Unterstützung für dieses Spiel ankündigen zu können.
+
+Lade dir eine aktuelle [Entwicklerversion](https://buildbot.scummvm.org/builds.html) herunter und probiere das Spiel einmal aus. Bitte melde alle Fehler, die Du finden kannst, an unseren [Bug-Tracker](https://bugs.scummvm.org/).
+
+Neben der englischen Version werden auch die deutschsprachige sowie eine Demo-Version unterstützt. Du benötigst lediglich das Verzeichnis DATA/ des Original-Spiels, um das Spiel in ScummVM zu spielen.

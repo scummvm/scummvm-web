@@ -1,0 +1,20 @@
+---
+title: "Que dia é hoje? 5 de outubro!.. Er, 12!"
+date: 1192196160
+author: Ender
+---
+
+Bem, de alguma forma esquecemos este ano, mas o projeto ScummVM tecnicamente completou seis anos no dia 5 de outubro (com base em nossa data de fundação no SourceForge. Mas não se preocupe! Devido à demanda popular, remarcamos nosso aniversário para 15 de janeiro, para coincidir com o lançamento do ScummVM 0.1.0!
+
+Ao longo dos anos, ScummVM cresceu de um projeto que ludde começou para executar Monkey Island ('para ver se ele poderia'), para uma série de interpretadores capazes de jogar uma ampla gama de jogos em um grande número de sistemas operacionais, plataformas e dispositivos. Gostaríamos de agradecer a todos aqueles que nos ajudaram a crescer ao longo dos anos incluindo nossos desenvolvedores, colaboradores e usuários. Algumas empresas e grupos merecem menção especial (mas todos vocês são ótimos, então não se sintam excluídos...):
+
+*   **[SourceForge](http://www.sourceforge.net/)** - Por nos hospedar ao longo dos anos e nos dar a chance de ficarmos em segundo lugar no Community Choice Awards de 2006 (categoria de jogos) e VENCER (Melhor projeto para jogadores) este ano
+*   **[Revolution Software](http://www.revolution.co.uk)** - Tony Warriner e Charles Cecil por seu suporte contínuo - e fornecimento de código, auxiliando nossos esforços em Beneath a Steel Sky/Broken Sword e disponibilizar gratuitamente alguns desses jogos!
+*   **[John Passfield/Steve Stamatiadis](http://www.passfieldgames.com/)** - Por fornecer o código-fonte do Flight of the Amazon Queen, apoiando nossos esforços e também nos permitindo relançar este maravilhoso jogo como freeware!
+*   **[Wyrmkeep Entertainment](http://www.wyrmkeep.com/)** - E Joe Pearce, por sua grande ajuda no fornecimento de código-fonte, adicionando Inherit the Earth e suporte SAGA inicial
+*   **[Adventure Soft](http://www.adventuresoft.com/)** - Alan Bridgman e Simon Woodroffe, ex-AdventureSoft - Por compartilhar o código fonte do AGOS de Feeble Files, e seu suporte com Simon/AGOS
+*   **[Sold Out Software](http://www.mastertronic.com/)** - E agora Mastertronic, por não ter medo de usar ScummVM em seu relançamento comercial mais barato de Broken Sword 1/2
+*   **[Google](http://code.google.com/)**, por nos permitir participar do [Summer of Code](http://code.google.com/soc/) este ano (e a todos os alunos que participaram)
+*   [David Fox](http://www.electriceggplant.com/), [Ron Gilbert](http://www.grumpygamer.com/), [Aaron Giles](http://www.aarongiles.com/), Michael Land, Vince Lee, [Jim Leiterman](http://leiterman.com/lfilm.html), [Tim Schafer](http://www.doublefine.com/), Aric Wilmunder e todos os outros envolvidos na criação de títulos clássicos da LucasFilm/LucasArts que inspiraram este projeto!
+
+Fique ligado para ver a **VERDADEIRA** festa, no início do próximo ano...

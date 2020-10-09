@@ -1,0 +1,15 @@
+---
+title: "ScummVM 0.2.0 foi lançado!"
+date: 1021383360
+author: ender
+---
+
+Depois de muita espera, o ScummVM 0.2.0 foi lançado! Então vá para a página de downloads e pegue-o para sua plataforma favorita.
+  
+Atualmente, temos downloads para i386 Debian Woody, Windows, Dreamcast, MacOSX, Familiar/Intimate e Windows CE. Nos próximos dias, também adicionaremos downloads para MorphOS, RPMs e talvez um download do BeOS.
+  
+Além de muitas correções importantes, ScummVM agora oferece suporte a vários novos jogos, como a versão FmTowns de 256 cores de Zak McKracken, a versão em CD de Loom e (estranhamente) Simon the Sorcerer! Vários jogos suportados no 0.1.0 agora podem ser completados no 0.2.0, como Sam and Max.
+  
+ScummVM versão 0.2.0 também inclui várias novas plataformas, melhor suporte para diferentes arquiteturas de CPU e endians, muito mais opções de linha de comando e suporte experimental (ainda em desenvolvimento, não relatar bugs sobre eles!) para Full Throttle, The Dig, a versão VGA de Indiana Jones and the Last Crusade e a versão VGA de Monkey Island (disquete).!
+  
+Portanto, não espere mais. Baixe agora e, se você realmente gostar, clique naquele pequeno botão do paypal abaixo do menu para doar dinheiro e ajudar a equipe do ScummVM a comprar ferramentas e software para continuar este projeto.

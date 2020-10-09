@@ -1,0 +1,7 @@
+---
+title: "Versão WinCE do ScummVM 0.9.0 atualizada"
+date: 1152020160
+author: knakos
+---
+
+Como muitos usuários da versão de Windows CE puderam perceber, a versão 0.9.0 tem alguns problemas relacionados a som e música que geralmente terminam com um travamento. Os bugs obscuros foram caçados e corrigidos. Pedimos a todos os usuários de PocketPC e Smartphone que baixem a compilação 0.9.0a atualizada de nossa [página de downloads](/downloads/) ou nossa seção de arquivos [SourceForge](/frs/scummvm/0.9.0/). Pode demorar um pouco até que todos os mirrors detectem o arquivo, então seja paciente.

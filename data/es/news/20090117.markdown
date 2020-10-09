@@ -1,0 +1,9 @@
+---
+title: "Testing, testing"
+date: 1232199360
+author: sev
+---
+
+It is time to announce start of our pre-release testing. Next version of ScummVM is bringing you several new supported games as usual.
+
+The games which were added are: *Blue's 123 Time Activities*, *Blue's ABC Time Activities*, *Bud Tucker in Double Trouble* and *The 7th Guest*. The procedure haven't changed, same as usual you need [daily build](/downloads/#daily) of ScummVM, run through the games and submit any bugs you see along the way to the [bug tracker](http://bugs.scummvm.org/). Once you complete the game, report on the [forum post](http://forums.scummvm.org/viewtopic.php?t=6773) so the [wiki page](http://wiki.scummvm.org/index.php/Release_Testing/0.13.0) could be updated accordingly. We will need the version of the game, language, and platform.

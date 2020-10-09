@@ -1,0 +1,23 @@
+---
+title: "A voz do povo :)"
+date: 1043760960
+author: ender
+---
+
+No Linux Game Tome (http://happypenguin.org), ScummVM foi eleito como o [Melhor Emulador](http://happypenguin.org/forums/viewtopic.php?t=549). Obrigado a todos que votaram em nós.
+  
+Em outras notícias, o suporte de Curse of Monkey Island está se estabilizando. Embora ainda haja uma série de pequenas falhas gráficas, atualmente estão restritos a dois bugs críticos de jogabilidade conhecidos e uma série de outras 'inconveniências' e casos de comportamento incorreto. Esperamos poder anunciar Curse of Monkey Island como completável em breve.
+  
+Muitas pessoas têm perguntado o que vamos fazer em seguida. Aqui está um guia breve (muito sujeito a alterações!) para nossos próximos objetivos:
+
+*   Fevereiro de 2003: Curse of Monkey Island completável
+*   Fev - março de 2003: Teste de regressão / correções de bugs para outros jogos suportados
+*   Fev - março de 2003: Conclusão da funcionalidade do Inicializador (caixas de diálogo de opções com guias, etc)
+*   Início de março de 2003: Congelamento de CVS, teste de regressão, lançamento da versão 0.4.0
+*   De março em diante: suporte a jogos V1/V2 (Maniac Mansion, Zak sem ser do FmTowns, Loom EGA, etc.)
+
+  
+  
+Como de costume, este é apenas um esboço aproximado, dependendo do progresso e do tempo livre para nossos desenvolvedores. Se você quer ajudar e sabe como usar o CVS e um compilador... conserte bugs ou realize teste de regressão! Estamos em busca de pessoas para testar o CVS com outros jogos além do ComI e procurar bugs críticos que não estavam presentes no 0.3.0b, então tentar testar versões diferentes do CVS e pelo menos identificar o dia em que o bug começou a ocorrer. Isso nos permite determinar mais facilmente quais mudanças causaram problemas, sem passar semanas deduzindo cegamente.
+  
+Desnecessário dizer que, se você encontrar um bug crítico que também esteja presente no 0.3.0b, verifique se há um relatório de bug. Se não houver um presente, envie um!

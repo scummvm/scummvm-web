@@ -1,0 +1,13 @@
+---
+title: "Jo, jo, jo, la botella de..."
+date: 1041687360
+author: ender
+---
+
+Para empezar queremos comentar que los problemas con el foro Clie Source han sido solucionados y que la conversión para Palm de Clie se fusionará con el CVS en cuanto chrilith actualice su conversión para que funcione en la arquitectura OSystem de la versión 0.3.0.  
+  
+Un apunte sobre el soporte para CMI (COMI/Monkey3). En solo unas pocas semanas se han hecho grandes avances en este juego, pero los trabajos irán más despacio a partir de la semana que viene, ya que hay varios desarrolladores ocupados. Ahora mismo, salvo por ciertos fallos que hacen que la escena del cañón sea un tanto difícil de jugar e inestable, es posible llegar hasta la Parte II del juego.  
+  
+Los principales problemas que nos quedan incluyen un fallo en la asignación de flObject (provoca cuelgues en ciertas conversaciones), problemas de cierre de scripts (provocan varios cuelgues catastróficos en la escena del cañón y en varios puzles de la Parte II) y los problemas con la escena del cañón al principio.  
+  
+Como siempre, recordad que este trabajo sigue siendo experimental y no enviéis informes de fallos al respecto. ¡Los parches siguen siendo bienvenidos! :)

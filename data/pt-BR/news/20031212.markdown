@@ -1,0 +1,15 @@
+---
+title: "ScummVM está Morto, por favor, leia esta publicação."
+date: 1071236160
+author: ender
+---
+
+Embora saibamos que o final do ano está se aproximando, nos entristece anunciar que o projeto ScummVM está sendo encerrado por motivos pessoais em nome da maioria dos desenvolvedores. Os visitantes do nosso fórum, como o timofonic, suspeitam que pode ser o caso há algum tempo e, infelizmente, fui obrigado por einheitlix a dizer a verdade.
+
+Tem sido uma grande jornada e tínhamos coisas realmente maravilhosas reservadas para você, como um novo jogo que planejávamos tornar freeware para nosso próximo lançamento e o anúncio de que a frequentemente solicitada conclusão do suporte para Full Throttle estava a caminho - embora provavelmente estivesse em 0.7.0 e não em 0.6.0... mas isso agora é irrelevante.
+
+Eu estava planejando segurar essa notícia até depois das festividades, mas como é apenas uma brincadeira ver quantas pessoas realmente lêem nossa página de notícias e prestam atenção, decidi anunciá-lo agora.
+
+***Em resumo, no caso de as pessoas terem passado rapidamente pelo último parágrafo: NÃO estamos realmente mortos. Estamos muito vivos e animados e traremos muitas coisas legais para você no início do próximo ano!***
+
+(link não tão escondido... veja o que está reservado para a [próxima versão!](https://github.com/scummvm/scummvm/raw/84247d9797ecee43205a5f64c1d5f555e8c69f3d/NEWS))

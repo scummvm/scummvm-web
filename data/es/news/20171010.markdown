@@ -1,0 +1,19 @@
+---
+title: "Three new games about aliens"
+date: 1507642560
+author: snover
+---
+
+Go to an alien world, go to an alien world on an alien spaceship, or gehe zu einem fremden Raumschiff (go to an alien spaceship)! There are three alien worlds to choose from in our newest batch of adventures, now ready for testing in the latest [daily build](/downloads/#daily) of ScummVM:
+
+*   [Lighthouse](http://wiki.scummvm.org/index.php/Lighthouse)
+*   [RAMA](http://wiki.scummvm.org/index.php/RAMA)
+*   [Starship Titanic German](http://wiki.scummvm.org/index.php/Starship_Titanic)
+
+The [Datafiles page](http://wiki.scummvm.org/index.php/Datafiles#All_SCI32_.28SCI2.2F3.29_games) has been updated with instructions on how to install these games. If you don’t own one, go to our [where to get the games](http://wiki.scummvm.org/index.php/Where_to_get_the_games) page to buy them!
+
+Before you start your test run, for Lighthouse and RAMA, please read the instructions on our [SCI testing page](http://wiki.scummvm.org/index.php/SCI/Testing), and take some [screenshots](http://wiki.scummvm.org/index.php/Screenshots) along the way. For Starship Titanic German, you’ll need an extra required [titanic.dat](https://raw.githubusercontent.com/scummvm/scummvm/master/dists/engine-data/titanic.dat) file, which should be put in the same folder you copy your game files to.
+
+Please keep in mind for Starship Titanic German that we're not all German speakers, so bug reports will need to be in English. Also, if any bugs you find involve text that's entered in the conversation tab to one of the bots, it will make things easier if you can replicate the problem using words that don't include letters outside of the English alphabet.
+
+Have fun!

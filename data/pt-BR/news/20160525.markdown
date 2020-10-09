@@ -1,0 +1,19 @@
+---
+title: "ScummVM 1.8.1 versão de pequenas correções \"Where Is Your Android?\""
+date: 1464183360
+author: sev
+---
+
+Já se passaram alguns meses desde o ScummVM 1.8.0, o que significa que é hora de lançar um novo ponto! O ScummVM 1.8.1 agora está disponível com correções para bugs importantes e suporte para ainda mais plataformas.
+
+Um dos "recursos" mais importantes desta versão é uma grande atualização para a versão de Android. Essa atualização também adiciona suporte ao console OUYA. No momento, estamos trabalhando para trazer esta nova versão diretamente para o Google Play, mas para os impacientes entre vocês, fique à vontade para prosseguir e [instalar os APKs manualmente](/downloads). A versão de Android agora vem em dois sabores, o nosso "clássico" baseado em OpenGL e uma nova variante baseada em SDL. A versão em SDL tem melhor compatibilidade com alguns dispositivos Android e também funciona melhor com algumas engines. Por favor, experimente e conte-nos em [nossos fóruns](http://forums.scummvm.org/viewforum.php?f=17) ou através do [rastreador de bugs](http://bugs.scummvm.org/) sobre sua experiência.
+
+Também vamos adicionar o suporte ao Nintendo 3DS! Até o momento do lançamento, os novos binários ainda não foram compilados por nosso novo conversor, mas devem estar disponíveis em breve. Mantenha seus olhos abertos!
+
+Os binários de Mac de 64 bits agora incluem a verificação experimental automática de atualizações usando [Sparkle](https://sparkle-project.org/). A atualização automática é selecionada com aceitação durante sua primeira inicialização e, por padrão, verifica semanalmente se há novas versões. Quando a versão 1.9.0 for lançada, os usuários da 1.8.1 receberão uma bela caixa de diálogo para atualização. Se você deseja ver um recurso semelhante para Windows ou outras plataformas, informe-nos! Todos os detalhes sobre como o processo de atualização funciona podem ser encontrados [aqui](https://sparkle-project.org/).
+
+Nenhuma versão do ScummVM seria completa sem atualizações de engines de jogo! O ScummVM 1.8.1 inclui correções para *Drascula*, *Legend of Kyrandia*, *Labyrinth of Time*, versões localizadas de *I Have No Mouth*, *Broken Sword 2.5* e melhorias nas versões para Windows, OS X e GCW0.
+
+A lista completa de alterações incluídas nesta versão pode ser encontrada em [notas da versão](/frs/scummvm/1.8.1/ReleaseNotes) e os binários são fornecidos em nossa [página de downloads](/downloads/).
+
+Prepare-se, pegue o seu amado dispositivo Android, instale o ScummVM nele e jogue!

@@ -1,0 +1,13 @@
+---
+title: "Explore a biblioteca Myst"
+date: 1459085760
+author: bgK
+---
+
+Você tropeça em um livro manuscrito antigo. Ele descreve um mundo insular chamado Myst. Quando você toca em uma das últimas páginas, é transportado para a ilha. Ao explorar Myst, você aprende sobre seus habitantes, Atrus, Catherine e seus filhos Sirrus e Achenar. Você descobre rapidamente que cada filho está preso em um livro. Você vai resolver os quebra-cabeças das eras de Myst e libertá-los?
+
+A equipe do ScummVM tem o orgulho de anunciar que *Myst* e *Myst: Masterpiece Edition* agora podem ser jogados no ScummVM usando as [mais recentes compilações diárias](/downloads/#daily) e estão prontos para teste.
+
+Relatórios de bugs e versões desconhecidas são apreciados. Eles devem ir ao nosso [rastreador de bugs](http://bugs.scummvm.org/) e devem seguir nossas [diretrizes de envio de bugs](/faq/#question.report-bugs). Você pode ajudar a preencher nossa [galeria de capturas de tela](http://wiki.scummvm.org/index.php/Screenshots) com capturas de sua experiência no jogo.
+
+Além do jogo principal, o vídeo de bastidores e a [versão de demonstração](/frs/demos/mohawk/myst-win-demo-en.zip) são suportados.

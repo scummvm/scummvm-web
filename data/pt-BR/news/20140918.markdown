@@ -1,0 +1,13 @@
+---
+title: "Procura-se testadores de Sfinx"
+date: 1411047360
+author: uruk
+---
+
+Recentemente, adicionamos suporte para um novo jogo, [Sfinx](http://wiki.scummvm.org/index.php/Sfinx), no ScummVM, e agora podemos anunciar com orgulho que está pronto para ser testado. Graças aos [desenvolvedores originais](http://wiki.scummvm.org/index.php/LK_Avalon), este jogo agora é freeware e pode ser baixado em [nosso site](/games/#sfinx). Além da versão original em polonês, também estamos propondo uma versão em inglês! Esta versão não é final, por isso estamos procurando pessoas que falem inglês e/ou polonês e que não tenham medo de detectar erros de ortografia e gramática nos textos do jogo (somente em inglês), enquanto também procuramos por diferentes bugs, falhas e outras coisas ruins.
+
+Resumindo: precisamos de testadores!
+
+Pegue uma cópia da [compilação diária](/downloads/#daily) e os [arquivos de dados](/games/#sfinx) do jogo, e faça isso!
+
+Você pode relatar bugs em [nosso rastreador de bugs](http://bugs.scummvm.org/) seguindo nossas [diretrizes de envio de bugs](/faq/#question.report-bugs). Se você tiver tempo para isso, [capturas de tela](http://wiki.scummvm.org/index.php/Screenshots) também serão muito bem-vindas!

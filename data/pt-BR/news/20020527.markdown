@@ -1,0 +1,15 @@
+---
+title: "Informações sobre o progresso"
+date: 1022506560
+author: ender
+---
+
+As compilações diárias do Windows não contêm nenhum vírus, alguns antivírus como o [AntiVir](http://www.free-av.com) estão relatando erroneamente um recente trojan do emulador do xbox (TR/XBoxEmu.2) em todos os arquivos de extração automática criados por [SFX Maker](http://www.sfxmaker.cjb.net/)  
+  
+O trabalho no ScummVM tem ocorrido muito devagar ultimamente, pois o time de desenvolvimento principal está bastante ocupado com outros assuntos.
+  
+Estamos cientes de alguns problemas no Zak256 e alguns problemas muito sérios no Simon que foram encontrados no 0.2.0, e planejamos fazer um lançamento provisório (0.2.1) assim que eles forem corrigidos. Obviamente, estamos procurando mais desenvolvedores dispostos a ajudar, já que atualmente há apenas uma pessoa trabalhando no interpretador do jogo (embora vários estejam trabalhando em partes mais especializadas da engine).
+  
+Também estamos cientes de uma versão para GP32 em andamento e pedimos a qualquer pessoa que conheça o desenvolvedor que entre em contato com [Ender](mailto:scummvm@enderboi.com). Além do fato de estarmos bastante interessados em seu trabalho, e desejamos convidá-lo para se juntar à equipe... estamos bem incomodados por ele ter lançado binários e parece não haver nenhuma maneira de contatá-lo sobre o código-fonte de sua versão (como é exigido pela licença GPL que o ScummVM usa)!
+  
+Até a próxima atualização... **Eu não consigo levantar isso! Não mesmo! Leia meus lábios... Eu... Não consigo... Levantar... Isso!**

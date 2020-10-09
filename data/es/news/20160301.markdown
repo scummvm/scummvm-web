@@ -1,0 +1,17 @@
+---
+title: "Welcome to the new Summer of Code"
+date: 1456839360
+author: Strangerke
+---
+
+![GSoC 2016 Logo](/data/news/GSoC2016Logo.png)
+
+Yesterday, Google announced the list of accepted mentoring organizations and we have the great pleasure to be one of those.
+
+In previous years, we have primarily focused on adventure games. However, after discussing with our sister project ResidualVM, we are happy to announce that, this year, we will also be accepting RPG tasks.
+
+ScummVM and ResidualVM are now waiting for motivated students, willing to work during this summer on reviving adventure and role-playing games.
+
+Be part of it! Make History and join our best GSoC so far! Take a look at [our ideas page](http://wiki.scummvm.org/index.php/Summer_of_Code/GSoC_Ideas_2016) or bring your own idea, then contact us: we are waiting for you on IRC impatiently!
+
+One place: Freenode. Two channels: #scummvm and #residualvm

@@ -1,0 +1,9 @@
+---
+title: "Remontez le temps et visitez Versailles à la court de Louis XIV"
+date: 1564311800
+author: criezy
+---
+
+L'année: 1685. Le lieu : Versailles. Quelqu'un a menacé de brûler le château et Alexandre Bontemps, premier valet du roi Louis XIV, vous demande votre aide. Vous avez jusqu'à la fin de la journée pour enquêter et sauver le château.
+
+L'équipe de ScummVM est fière d'annoncer le support du jeu de Cryo "Versailles 1685 : Complot à la cour du Roi Soleil" et a besoin de votre aide pour tester le jeu. Prenez votre copie de Versailles (les versions DOS, Windows et Macintosh sont supportées), téléchargez la [dernière version de développement](https://buildbot.scummvm.org/builds.html) de ScummVM, et commencez à explorer le château et ses environs. Ce faisant, merci de nous signaler tout bogue que vous pourriez trouver sur notre [outil de suivi des problèmes](https://bugs.scummvm.org) et faites des [captures d'écran](https://wiki.scummvm.org/index.php?title=Screenshots) de lieux intéressants.

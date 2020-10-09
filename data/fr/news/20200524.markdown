@@ -1,0 +1,9 @@
+---
+title: "Tu as été une épine dans mon pied pendant bien trop longtemps, Avatar"
+date: 1590366069
+author: dreammaster
+---
+
+Il semblerait que le travail de nettoyage et d'amélioration pour l'intégration d'Ultima VIII ait été plus avancé que ce que j'avais prévu. Il est maintenant confirmé qu'Ultima VIII peut également être terminé sous ScummVM, ce qui fait qu'il rejoint Ultima IV et Ultima VI pour la phase de tests officielle.
+
+Alors sortez vos copies d'Ultima VIII et testez-le ! Vous aurez besoin d'une [version de développement quotidienne](https://buildbot.scummvm.org/builds.html). Comme toujours, nous vous invitons à nous signaler les bogues sur notre [outil de suivi des problèmes](https://bugs.scummvm.org/).

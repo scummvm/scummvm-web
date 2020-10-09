@@ -1,0 +1,11 @@
+---
+title: "ScummVM project has moved to new Issue Tracker"
+date: 1471354560
+author: sev
+---
+
+Thanks to the hard work of wjp, we have moved away from SF.net to our own tracker at [https://bugs.scummvm.org](https://bugs.scummvm.org). This new service should be faster and more reliable than the old SF.net bug tracker.
+
+All information has been migrated from the old bug tracker, including patches (though these days we encourage people to submit patches using a [GitHub Pull Request](https://github.com/scummvm/scummvm/pulls) instead).
+
+For authentication, the new bug tracker uses GitHub accounts via OAuth2, which should make signing up safer and easier. We transferred all accounts from SF.net, but did not set up any e-mail addresses. Thus, after you log in for the first time, please make sure you specify your e-mail address in the preferences, otherwise we will not be able to get in contact with you.

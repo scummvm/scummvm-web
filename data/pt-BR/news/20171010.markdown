@@ -1,0 +1,19 @@
+---
+title: "Três novos jogos sobre alienígenas"
+date: 1507642560
+author: snover
+---
+
+Vá para um mundo alienígena, vá para um mundo alienígena em uma nave espacial alienígena ou gehe zu einem fremden Raumschiff (vá para uma nave alienígena)! Existem três mundos alienígenas para escolher em nosso mais novo lote de aventuras, agora pronto para testes na mais recente [compilação diária](/downloads/#daily) do ScummVM:
+
+*   [Lighthouse](http://wiki.scummvm.org/index.php/Lighthouse)
+*   [RAMA](http://wiki.scummvm.org/index.php/RAMA)
+*   [Starship Titanic German](http://wiki.scummvm.org/index.php/Starship_Titanic)
+
+A [página de arquivos de dados](http://wiki.scummvm.org/index.php/Datafiles#All_SCI32_.28SCI2.2F3.29_games) foi atualizada com instruções sobre como instalar esses jogos. Se você não possui um, acesse nossa página [onde comprar os jogos](http://wiki.scummvm.org/index.php/Where_to_get_the_games) para comprá-los!
+
+Antes de iniciar seu teste, para Lighthouse e RAMA, leia as instruções em nossa [página de testes SCI](http://wiki.scummvm.org/index.php/SCI/Testing) e faça algumas [capturas de tela](http://wiki.scummvm.org/index.php/Screenshots) ao longo do caminho. Para o Starship Titanic German, você precisará de um arquivo [titanic.dat](https://raw.githubusercontent.com/scummvm/scummvm/master/dists/engine-data/titanic.dat) necessário, que deve ser colocado na mesma pasta para a qual você copiou os arquivos do jogo.
+
+Lembre-se de que, para Starship Titanic German, não somos todos falantes de alemão; portanto, os relatórios de bugs precisam estar em inglês. Além disso, se algum bug encontrado envolver texto inserido na guia de conversação em um dos bots, será mais fácil se você puder replicar o problema usando palavras que não incluem letras fora do alfabeto em inglês.
+
+Diverta-se!

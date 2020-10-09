@@ -1,0 +1,11 @@
+---
+title: "Oh! But, Grandmother, what a terrible big mouth you have!"
+date: 1339853760
+author: DrMcCoy
+---
+
+All the better to eat you with!
+
+We are proud to announce that yet another Coktel Vision game is supported now. [Once Upon A Time: Little Red Riding Hood](http://wiki.scummvm.org/index.php/Once_Upon_A_Time:_Little_Red_Riding_Hood) is an interactive story following the well-known fairy tale and lets you play as either the titular Little Red Riding Hood or as the wolf.
+
+So if you want to rescue and/or eat Grandmother, get the latest [daily build of ScummVM](/downloads/#daily) and your copy of *Once Upon A Time: Little Red Riding Hood*; and report all bugs you find to [our bug tracker](http://bugs.scummvm.org/). As always, we would like you to make screenshots along the way as well, and submit them to [our patch tracker](https://sourceforge.net/tracker/?func=add&amp;group_id=37116&amp;atid=418822). See the [bug submission guidelines](/faq/#question.report-bugs) and [screenshot guidelines](http://wiki.scummvm.org/index.php/Screenshots) for more help on these topics.

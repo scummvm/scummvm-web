@@ -1,0 +1,24 @@
+---
+title: "ScummVM 1.6.0 is Near"
+date: 1366551360
+author: sev, Strangerke
+---
+
+Greetings, fellow adventure gamers! We have finally come to the point when ScummVM 1.6.0 testing starts.
+
+This release adds support for a number of new games that need to be tested:
+
+*   *3 Skulls of the Toltecs*
+*   *Eye of the Beholder*
+*   *Eye of the Beholder II: The Legend of Darkmoon*
+*   *Hopkins FBI*
+*   *Tony Tough and the Night of Roasted Moths*
+*   *The Journeyman Project: Pegasus Prime*
+
+In addition, if you have Macintosh version of *Discworld*, please give it a try as well.
+
+A [daily build](/downloads/#daily) should be used for testing these, and if something goes unexpectedly wrong, please report it to our [bug tracker](http://bugs.scummvm.org/). The completed games need to be reported on [our forums](http://forums.scummvm.org/viewtopic.php?t=12392) and we will update our [release testing page](http://wiki.scummvm.org/index.php/Release_Testing/1.6.0). For a usable test report, we need you to provide the version, language, and platform of the game you're testing. And, of course, please stick to the [testing guidelines](http://wiki.scummvm.org/index.php/Release_Testing).
+
+This release also has another interesting aspect. Depending on how intensively games are tested, we will add support for one more game: *Hopkins FBI*. For support to happen, we need test results on several platforms using several variants of the game, which includes the BeOS, OS/2, Linux and Windows versions.
+
+In conclusion, if you want *Hopkins FBI* in ScummVM 1.6.0, grab your originals and contribute to this new testing period! We are also in need of screenshots too! Please submit them to [our patch tracker](https://sourceforge.net/tracker/?group_id=37116&amp;atid=418822).

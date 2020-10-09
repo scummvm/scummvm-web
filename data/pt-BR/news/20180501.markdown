@@ -1,0 +1,17 @@
+---
+title: "Inconcebível, a pirâmide real sitiada!"
+date: 1525181760
+author: Dreammaster
+---
+
+Lute para libertar a população da ameaça do tirano Lord Xeen, ou seu cruel mestre Alamar. Ou ouse se aventurar além do mundo de Xeen para o mundo de Havoc para testar sua coragem com um novo desafio. Temos o prazer de anunciar o suporte para os seguintes jogos:
+
+*   Might and Magic IV - Clouds of Xeen
+*   Might and Magic V - Darkside of Xeen
+*   Might and Magic - World of Xeen
+*   Might and Magic - World of Xeen Versão Falada em 2 CDs
+*   Might and Magic - Swords of Xeen
+
+No momento, apenas as versões em inglês desses jogos estão prontas para teste. Portanto, pegue suas cópias ou compre-as digitalmente no [GOG](https://www.gog.com/game/might_and_magic_6_limited_edition?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) e obtenha a [compilação diária mais recente](http://scummvm.org/downloads/#daily) do ScummVM. Você também precisará do arquivo [xeen.ccs](https://github.com/scummvm/scummvm/blob/master/dists/engine-data/xeen.ccs?raw=true), que deve ser colocado na mesma pasta para a qual você copiou os arquivos do jogo.
+
+Antes de começar a testar qualquer um dos jogos, lembre-se de que, dada a forma como o combate acontece no jogo, qualquer erro encontrado pode ser mais difícil de replicar do que nos jogos de aventura tradicionais. Como tal, será uma boa idéia praticar o salvamento regular do seu jogo, caso algo dê errado. Se ocorrer alguma falha ou detectar alguma funcionalidade que pareça incorreta, informe-nos. Quaisquer problemas encontrados devem ser relatados em nosso [Rastreador de Problemas](https://bugs.scummvm.org/).

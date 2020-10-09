@@ -1,0 +1,23 @@
+---
+title: "Atualização sobre o concurso de reformulação do site; Planos de lançamento do 0.7.0; manual do usuário"
+date: 1102253760
+author: fingolfin
+---
+
+Ei pessoal,
+  
+vocês provavelmente estão se perguntando O que aconteceu com aquele concurso de design de site? Foi concluído há mais de um mês e ainda não há vencedor!. Bem, boa pergunta :-)
+
+Em primeiro lugar, gostaria de dizer que alguns dos designs enviados são realmente fantásticos, e gostaria de agradecer a todas as pessoas que enviaram seus trabalhos. Desculpe por deixar vocês esperar tanto tempo pelo resultado.
+
+Agora, para determinar o vencedor, realizamos uma votação interna com a equipe. Isso levou algum tempo até que todos os membros da equipe pudessem enviar seus formulários preenchidos. No entanto, esse processo não produziu um vencedor claro. Então, alguns de nós queria fazer uma votação entre vocês, queridos usuários, para escolher o vencedor entre os três finalistas. Por várias razões, isso simplesmente não aconteceu... até agora!
+
+Vá para a nossa [página da votação](http://www.scummvm.org/poll/index.php) para ver os finalistas e poder fazer uma votação sobre eles! Vamos deixar essa votação por cerca de 14 dias, quando finalmente decidiremos o vencedor.
+
+Por outro lado, agora começamos a trabalhar na próxima versão principal do ScummVM. 0.7.0 está (de forma bastante agressiva) agendada para o Natal de 2004! Esperamos poder entregar-lhe um bom presente de natal desta forma. Mas para que isso funcione, precisamos da sua ajuda: precisamos de pessoas que testem ativamente o CVS mais recente para que possamos resolver e corrigir todos os problemas restantes com ele, para garantir uma versão de alta qualidade.
+
+Se você quiser ajudar, verifique a [página de status do lançamento](http://www.scummvm.org/documentation.php?view=release) para uma lista de jogos que precisam ser testados.
+
+Isso é tudo por hoje, espero que da próxima vez possamos anunciar algo mais substancial (como um novo lançamento ou um novo site). Até então: feliz teste de jogo para todos vocês!
+
+P.S.: Talvez você também esteja se perguntando Puxa, esses caras chegarão a 1.0? Na verdade, agora estamos trabalhando para atingir esse objetivo. Há basicamente uma única peça importante faltando para isso: um bom manual do usuário. Se você é um escritor de manuais habilidoso, tem algum tempo livre e quer ajudar, mande-nos um e-mail na lista de discussão scummvm-devel.

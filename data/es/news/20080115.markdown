@@ -1,0 +1,24 @@
+---
+title: "ScummVM 0.11.0 \"Your Palindrome\" released"
+date: 1200404160
+author: sev
+---
+
+ScummVM. Do you hear it? Do you smell a new version? It's now here. And as usual and regularly, it is packed with tons of new features. Hold on, and take a look at the list:
+
+*   Support for the *FREEWARE* adventure *Lure of the Temptress* (available for download [here](/downloads/))
+*   Seven other new supported games: *I Have no Mouth, and I Must Scream*, *Elvira 1 and 2*, *Waxworks* (Amiga version only) and 3 Sierra pre-AGI games for children
+*   Two newly available ports: *iPhone* and *Maemo*
+*   Support for the Mac version of *The Legend of Kyrandia* and the Amiga version of *Nippon Safes*
+*   Better support for Sierra AGI games
+*   Improved support for modern 64-bit systems
+*   Support for FLAC encoded music in *Broken Sword 1* for the purists among you
+*   Better support for non-English versions of games, including eastern languages
+*   Sound compression for SAGA games
+*   Much much more. See [the release notes](/frs/scummvm/0.11.0/ReleaseNotes) for the full list
+
+Unfortunately, PlayStation 2 and GP32 ports will not be released with this version, since we don't have any maintainers for these ports currently.
+
+Enough reading, go and grab it at [our downloads page](/downloads/)!
+
+PS. `0110b = 6`

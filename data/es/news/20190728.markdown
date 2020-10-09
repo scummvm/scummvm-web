@@ -1,0 +1,9 @@
+---
+title: "Viaja al pasado para visitar Versalles en la época de la corte de Luis XIV"
+date: 1564311800
+author: criezy
+---
+
+Año 1685. Versalles. Alguien ha amenazado con quemar el castillo y Alexandre Bontemps, el primer ayuda de cámara del rey Luis XIV, solicita tu asistencia. Tienes hasta que acabe el día para investigar y salvar al castillo.
+
+El equipo de ScummVM se enorgullece de anunciar el soporte para el juego Versailles 1685 (Versalles: Complot en la Corte del Rey Sol) de Cryo y necesita de vuestra ayuda para probar el juego. Haceos con vuestra copia de Versailles 1685 (el soporte es para las versiones para DOS, Windows y Macintosh), descargad la [última compilación de desarrollo](https://buildbot.scummvm.org/builds.html) de ScummVM y comenzad a explorar el castillo y sus alrededores. Mientras tanto, os pedimos que informéis de cualquier fallo que encontréis en nuestro [gestor de problemas](https://bugs.scummvm.org) y que hagáis [capturas de pantalla](https://wiki.scummvm.org/index.php?title=Screenshots) de los sitios más interesantes.
