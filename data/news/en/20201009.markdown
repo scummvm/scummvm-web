@@ -1,0 +1,19 @@
+---
+title: 'A merger'
+author: sev, aquadran
+date: 1601216320
+---
+
+*“Sorry for the wait Mr. Flores, I’m ready to take you now”*– Grim Fandango.
+
+Today is a special day, special in a number of ways. First of all, we hit a milestone with  19 years of ScummVM. Our first-ever public release, ScummVM version 0.0.1, happened on October 8th, 2001. And second, something else finally happened, something which has been in the talks for a long time: The ScummVM project is officially merging with the ResidualVM project.
+
+For a long time ScummVM limited itself to 2D point-and-click adventure games, and so ResidualVM was born as a sister project to support 3D games. But from now on, there will be no more confusion about which project a game belongs to. ScummVM now embraces adventure games and RPGs, whether they are 2D or 3D, point-and-click or not. It is a natural step for both projects which have been developed alongside each other and cross-pollinating each other with ideas, patches and design decisions. Moreover, several developers belonged to both projects.
+
+With this merger, ScummVM adds several games to our supported list: _Grim Fandango_, _Escape from Monkey Island_, _Myst III - Exile_, _The Longest Journey_ and an unfinished engine for _In Cold Blood_, as well as Wintermute 3D engine.
+
+We’re excited to embrace most of the ResidualVM team and will continue development together.
+
+Of course, there are still more things to do and, in the coming weeks, you will see more project resources merging like forums, wikis, etc.
+
+Stay tuned and go 3D!
