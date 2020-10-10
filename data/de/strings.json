@@ -23,7 +23,7 @@
     "compatibilitySectionTitle": "Kompatibilitätsliste für Spiele von {company}",
     "contactTitle": "Kontakt",
     "contactContentTitle": "Kontakt",
-    "contactIntro": "**Bitte kontaktieren Sie das Team nicht wegen Fragen zur Verwendung von ScummVM. Stattdessen sollten Sie das englischsprachige [Forum](http://forums.scummvm.org/) oder [den Bug Tracker (System zum Einsenden von Fehlermeldungen)](http://bugs.scummvm.org/) verwenden!**",
+    "contactIntro": "Du kannst uns über folgende Wege erreichen:",
     "contactIRCHeader": "IRC-Channel",
     "contactIRC": "Der IRC-Channel #scummvm auf [irc.freenode.net](http://freenode.net/l) ist ebenfalls ein guter Ort, um Fragen zu stellen. Viele ScummVM-Entwickler und ScummVM-Anwender sind dort regelmäßig anwesend.",
     "contactForumsHeader": "Foren",
@@ -206,5 +206,11 @@
     "sponsorsHeading": "Unterstützer von ScummVM",
     "sponsorsContentTitle": "Sponsoren",
     "sponsorsTitle": "Sponsoren",
-    "menuMiscSponsors": "Sponsoren"
+    "menuMiscSponsors": "Sponsoren",
+    "downloadsSubprojects": "Unterprojekte",
+    "compatibilityExcellentDescription": "Das Spiel besitzt keine bekannten Fehler oder Probleme.",
+    "compatibilityGoodDescription": "Das Spiel zeigt einige kleinere Fehler, welche die Spielerfahrung nicht beeinträchtigen. Das Spiel kann vollständig durchgespielt werden.",
+    "compatibilityBuggedDescription": "Das Spiel startet, aber stürzt möglicherweise ab oder zeigt schwere Grafik- und Audio-Fehler. Es ist möglicherweise nicht bis zum Ende spielbar.",
+    "compatibilityBrokenDescription": "Das Spiel startet möglicherweise nicht oder hat schwere Fehler, welche es unspielbar machen.",
+    "compatibilityUntestedDescription": "Das Spiel muss noch ausführlich getestet werden und ist möglicherweise nicht vollständig spielbar"
 }
