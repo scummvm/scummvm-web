@@ -1,9 +1,0 @@
----
-title: "Estado do SCUMM"
-date: 1034861760
-author: ender
----
-
-Uma mensagem foi publicada recentemente na lista de desenvolvimento do scummvm detalhando a situação atual do ScummVM, incluindo coisas como detalhes sobre para onde estamos indo para nosso próximo lançamento e uma atualização sobre a situação legal.
-  
-Aqui está um link para o [Estado do e-mail do SCUMM](http://www.scummvm.org/status.php)

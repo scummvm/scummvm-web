@@ -1,9 +1,0 @@
----
-title: "Has sido una carga para mí durante demasiado tiempo, Avatar"
-date: 1590366069
-author: dreammaster
----
-
-Parece que el trabajo de limpieza y mejoras para la integración de Ultima VIII ha avanzado más de lo previsto. Está confirmado que Ultima VIII también se puede completar bajo ScummVM, así que se une a las pruebas oficiales junto a Ultima IV y Ultima VI.
-
-¡Así que saca tu copia de Ultima VIII y pruébala! Necesitarás la [compilación diaria](https://buildbot.scummvm.org/builds.html). Como siempre, por favor, envía los informes de errores a nuestro [gestor de fallos](https://bugs.scummvm.org/).

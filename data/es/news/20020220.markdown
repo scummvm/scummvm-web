@@ -1,8 +1,0 @@
----
-title: "Compilaciones diarias para Windows ya disponibles"
-date: 1014212160
-author: laxdragon
----
-
-Travis Howell está generando compilaciones diarias de ScummVM para Windows que ya están disponibles para su descarga. También hay un enlace para una versión de ScummVM para Windows que utiliza SDL. Esta versión no necesita la dll de Cygwin.  
-También hemos habilitado una página de compatibilidad para responder a la pregunta más habitual: «¿Qué juegos funcionan?» Iremos actualizando esta página a medida que avance el desarrollo.

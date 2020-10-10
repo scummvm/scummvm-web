@@ -1,7 +1,0 @@
----
-title: "Rilasciato ScummVM 0.1.0"
-date: 1010928960
-author: laxdragon
----
-
-Molti cambiamenti in questa nuova versione. Full Throttle adesso funziona meglio e il lavoro preliminare su The Dig è cominciato. \[[Scarica](/downloads/)\]

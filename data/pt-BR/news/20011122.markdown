@@ -1,7 +1,0 @@
----
-title: "Bem-vindo ao ScummVM"
-date: 1006436160
-author: laxdragon
----
-
-Bem-vindo ao ScummVM! ScummVM é um interpretador de SCUMM (Script Creation Utility For Maniac Mansion) para Linux e Windows.

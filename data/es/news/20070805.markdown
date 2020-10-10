@@ -1,9 +1,0 @@
----
-title: "ScummVM DS port 0.10.0a released"
-date: 1186320960
-author: agent-q
----
-
-The newest version of the Nintendo DS port of ScummVM is now available. This release brings ScummVM DS port in line with the other ports of ScummVM. Games new to the DS version this time round include the later entries in the *Goblins* series, *Future Wars*, and Sierra AGI games. There are also plenty of speed improvements which should make your ScummVM DS port experience a lot smoother.
-
-Download it from the [main ScummVM download page](/downloads/) as usual.

@@ -1,7 +1,0 @@
----
-title: "PlayStation 2 Release Candidate added"
-date: 1131543360
-author: lavosspawn
----
-
-The first binary release of the PlayStation 2 Port has now been posted to our forums in [this thread](http://forums.scummvm.org/viewtopic.php?t=206). It was not added to the download pages as it still needs some testing. If you've got a PlayStation 2 with a modchip, grab it and tell us about your results.

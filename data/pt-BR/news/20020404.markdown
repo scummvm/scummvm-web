@@ -1,7 +1,0 @@
----
-title: "Código descongelado"
-date: 1017927360
-author: ender
----
-
-Após algumas semanas, o código ScummVM foi oficialmente descongelado e o trabalho de suporte aos jogos continua. Como prova disso, vários bugs com o Zak256 foram corrigidos, e o jogo agora é muito mais jogável... embora ainda falte muito a ser feito!

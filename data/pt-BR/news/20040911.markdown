@@ -1,9 +1,0 @@
----
-title: "Muitas coisas acontecendo"
-date: 1094909760
-author: ender
----
-
-Bem, isso é apenas para que você saiba que não estamos mortos. Tem acontecido um trabalho incrível nas últimas semanas - com o suporte do ScummVMs para os jogos HE SCUMM melhorando rapidamente graças ao talento combinado de cyx, Kirben e Sev. E, claro, houve mais desenvolvimento do que apenas isso.
-
-E agora gostaríamos de ressaltar que nossos projetos paralelos Residual e ScummEX precisam de desenvolvedores e colaboradores. Nós apreciamos muito correções de outros programadores. Com a ajuda dos desenvolvedores do ScummVM joostp e aquadran, salty-horse (um #scummvm'er normal) enviou hoje uma correção para animações de sincronização labial no Residual. Consulte nossa página de 'subprojetos' e as 'Diretrizes de codificação' em nossa seção de documentação. Se você estiver interessado em perseguir um problema específico, envie um e-mail para a lista de discussão "-devel" ou acesse o IRC se precisar de conselho ou ajuda.

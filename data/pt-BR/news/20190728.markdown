@@ -1,9 +1,0 @@
----
-title: "Volte no tempo e visite Versalhes na corte de Luís XIV"
-date: 1564311800
-author: criezy
----
-
-O ano é 1685. O local é Versalhes. Alguém ameaçou queimar o castelo e Alexandre Bontemps, o Premier auxiliar do rei Luís XIV, está pedindo sua ajuda. Você tem até o final do dia para investigar e salvar o castelo.
-
-A equipe ScummVM se orgulha de anunciar o suporte ao jogo Versaille 1685 da Cryo e precisa de sua ajuda para testar o jogo. Pegue sua cópia do Versailles 1685 (as versões DOS, Windows e Macintosh são suportadas), faça o download da [última compilação de desenvolvimento](https://buildbot.scummvm.org/builds.html) do ScummVM e comece a explorar o castelo e seus arredores. Enquanto você faz isso, relate quaisquer bugs encontrados em nosso [rastreador de problemas](https://bugs.scummvm.org) e faça [capturas de tela](https://wiki.scummvm.org/index.php?title=Screenshots) de lugares interessantes.
