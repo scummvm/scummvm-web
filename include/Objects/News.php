@@ -55,8 +55,8 @@ class News
         $matches = [];
         if (\preg_match_all($regex, $body, $matches)) {
             foreach ($matches[1] as $url) {
-                // Don't replace FRS links or static files
-                if (\strpos($url, "/frs") !== false || file_exists("./$url")) {
+                // Don't replace FRS links, static files or images
+                if (\strpos($url, "/frs") !== false || file_exists("./$url") || \strpos($url, ".png") !== false) {
                     continue;
                 } elseif (\preg_match("/^\//", $url)) { // Relative path (/screenshots/)
                     $body = str_replace($url, "/$lang" . $url, $body);

@@ -25,7 +25,7 @@
     },
     "20020308": {
         "title": "Einige ziemlich wichtige Verbesserungen",
-        "content": "![Full Throttle](/data/news/20020308.png) BBrox, Endy und Yazoo haben diese Woche am Limit gearbeitet (Danke, Jungs!). Hier sind die Neuigkeiten bezüglich der Entwicklung von ScummVM:\n\n*   Sam and Max ist nun durchspielbar!\n*   Die *inSane*\\-Video-Engine funktioniert. Diese wird in The Dig und Vollgas verwendet.\n*   Weitere Kommandozeilen-Optionen zur Steuerung. Siehe Liesmich.txt\n*   Mit Vorarbeiten an The Curse of Monkey Island wurde begonnen.\n*   Mutle hat die Mac-Portierung zum CVS-Baum hinzugefügt.\n*   Viele, viele Fehler wurden beseitigt."
+        "content": "![Full Throttle](/data/news/de/20020308.png) BBrox, Endy und Yazoo haben diese Woche am Limit gearbeitet (Danke, Jungs!). Hier sind die Neuigkeiten bezüglich der Entwicklung von ScummVM:\n\n*   Sam and Max ist nun durchspielbar!\n*   Die *inSane*\\-Video-Engine funktioniert. Diese wird in The Dig und Vollgas verwendet.\n*   Weitere Kommandozeilen-Optionen zur Steuerung. Siehe Liesmich.txt\n*   Mit Vorarbeiten an The Curse of Monkey Island wurde begonnen.\n*   Mutle hat die Mac-Portierung zum CVS-Baum hinzugefügt.\n*   Viele, viele Fehler wurden beseitigt."
     },
     "20020320": {
         "title": "Code-Sperre",
