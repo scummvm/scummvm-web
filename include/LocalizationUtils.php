@@ -86,15 +86,19 @@ class LocalizationUtils
 
                 $yaml = "---\ntitle: \"$title\"\ndate: $date\nauthor: $author\n---\n\n$content\n";
 
+                $newsDir = DIR_DATA . "/{$lang}/news";
+                if (!file_exists($newsDir)) {
+                    mkdir($newsDir);
+                }
+
                 file_put_contents(
-                    DIR_DATA . "/{$lang}/news/{$key}.markdown",
+                    "$newsDir/{$key}.markdown",
                     $yaml
                 );
             }
         } else {
             // Update the base english l10n file
             echo("Converting English Markdown files to the l10n base file\n");
-            $newsJson = array();
             $news = $this->getAllNews($lang);
 
             file_put_contents(
