@@ -3,7 +3,7 @@
     <div class="subhead-content">
         <div id="downloadContainer">
             <a id="downloadButton" href={$recommendedDownload.url}>
-                <img src="images/scummvm.png" alt="Download ScummVM icon">
+                <img src="/images/scummvm.png" alt="Download ScummVM icon">
                 <div class="downloadText">Download ScummVM</div>
                 <div id="downloadDetails">Version {$recommendedDownload.ver} • {$recommendedDownload.os} • {$recommendedDownload.desc}</div>
             </a>
