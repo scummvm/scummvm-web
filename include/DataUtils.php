@@ -50,7 +50,7 @@ class DataUtils
             $data = \json_decode($json, true);
             $yaml = \yaml_emit($data, YAML_UTF8_ENCODING, YAML_LN_BREAK);
             $yaml = "# This is a generated file, please do not edit manually\n" . $yaml;
-            $outFile = DIR_DATA . "/$name.yaml";
+            $outFile = DIR_DATA . "/" . DEFAULT_LOCALE . "/$name.yaml";
             echo("Writing $name data to $outFile\n");
             \file_put_contents($outFile, $yaml);
         }
