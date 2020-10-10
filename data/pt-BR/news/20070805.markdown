@@ -1,9 +1,0 @@
----
-title: "Versão 0.10.0a do ScummVM para DS foi lançada"
-date: 1186320960
-author: agent-q
----
-
-A versão mais recente para Nintendo DS do ScummVM já está disponível. Esta versão do DS deixa o ScummVM no mesmo nível de outras versões do ScummVM. Jogos novos para a versão DS desta vez incluem os últimos lançamentos das séries *Goblins*, *Future Wars* e jogos Sierra AGI. Existem também muitas melhorias de velocidade que devem tornar a experiência de sua versão ScummVM DS muito mais suave.
-
-Baixe-o da [página principal de download do ScummVM](/downloads/) como de costume.

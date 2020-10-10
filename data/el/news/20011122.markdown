@@ -1,7 +1,0 @@
----
-title: "Καλώς ήρθατε στο ScummVM"
-date: 1006436160
-author: laxdragon
----
-
-Καλώς ήρθατε στο ScummVM! Το ScummVM είναι ένας διερμηνευτής της μηχανής SCUMM (Script Creation Utility για το Maniac Mansion) για Linux και Windows.

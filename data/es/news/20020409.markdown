@@ -1,9 +1,0 @@
----
-title: "Actualización sobre el lanzamiento"
-date: 1018359360
-author: ender
----
-
-Gracias a varias personas hemos confirmado que DOTT, Sam and Max y LoomCD pueden jugarse de principio a fin sin fallos «graves» con el código actual. Por otro lado, se han encontrado varios fallos de importancia en MI2 e Indy4, así que el lanzamiento de la versión 0.2.0 podría llevar más tiempo del esperado.  
-  
-Los programadores que nos lean pueden leer la lista de fallos y probar suerte con los arreglos. Ahora mismo solo hay una persona trabajando de forma regular en ScummVM, así que el progreso va despacio.

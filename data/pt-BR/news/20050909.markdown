@@ -1,9 +1,0 @@
----
-title: "Capturas de tela não são mais necessárias."
-date: 1126272960
-author: sev
----
-
-O último bastião do acampamento de capturas de tela caiu. Acabamos de receber fotos do Zak v1 e isso significa que tudo está pronto. Muito obrigado a vocês, nossos colegas usuários, que participaram desta saga. Há muitos de vocês para mencionar, mas você sabe quem você é.
-
-Também precisamos testar outro par de jogos recém-suportados. Seriam a versão de NES do Maniac Mansion e Zak McKracken de Commodore 64. Veja as seções 3.8 e 3.9 em nosso README para saber como executá-los. Precisamos saber se esses jogos podem ser completados ou não.

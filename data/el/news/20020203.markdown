@@ -1,7 +1,0 @@
----
-title: "Μεταφορά του ScummVM στο Dreamcast"
-date: 1012743360
-author: laxdragon
----
-
-Ο [Marcus Comstedt](https://sourceforge.net/sendmessage.php?touser=446790) πρόσφατα υπέβαλλε τη μεταφορά του ScummVM στο SEGA Dreamcast στο CVS σύστημα μας. Ο ιστότοπος του [Mark Thomas σχετικά με την Ανάπτυξη για το Dreamcast](http://www.doc.ic.ac.uk/~mbt99/dcdev/) έχει περισσότερες πληροφορίες και εικόνες για αυτήν την εξαιρετική δουλειά μεταφοράς (port). Πρόσθετες πληροφορίες για την προσομοίωση του Dreamcast μπορούν να βρεθούν στον ιστότοπο [Προσομοίωσης DC](http://www.dcemulation.com/).

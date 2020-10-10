@@ -1,7 +1,0 @@
----
-title: "Versão Release Candidate do PlayStation 2 adicionada"
-date: 1131543360
-author: lavosspawn
----
-
-O primeiro lançamento binário da versão para PlayStation 2 foi publicada em nossos fóruns [neste tópico](http://forums.scummvm.org/viewtopic.php?t=206). Não foi adicionado às páginas de download porque ainda precisa de alguns testes. Se você tem um PlayStation 2 com um modchip, pegue-o e conte-nos sobre seus resultados.

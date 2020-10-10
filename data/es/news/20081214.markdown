@@ -1,9 +1,0 @@
----
-title: "Do not fall into Double Trouble!"
-date: 1229261760
-author: sev
----
-
-You're a pizza delivery boy and you're in trouble. Now it is your goal to stop Dick Tate, before the whole world is filled with his evil clones!
-
-Now you can follow this funny story with ScummVM. We recently added support for *Bud Tucker in Double Trouble* and as usual you're encouraged to playtest it with a [daily build](/downloads/#daily), [report](/faq/#question.report-bugs) all encountered bugs to our [bug tracker](http://bugs.scummvm.org/) and [submit some nice screenshots](http://wiki.scummvm.org/index.php/Screenshots).

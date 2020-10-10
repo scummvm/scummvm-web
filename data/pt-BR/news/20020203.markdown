@@ -1,7 +1,0 @@
----
-title: "Versão do ScummVM para Dreamcast"
-date: 1012743360
-author: laxdragon
----
-
-[Marcus Comstedt](https://sourceforge.net/sendmessage.php?touser=446790) recentemente se comprometeu a criar uma versão do SEGA Dreamcast do ScummVM para CVS. O site [Mark Thomas' Dreamcast Development](http://www.doc.ic.ac.uk/~mbt99/dcdev/) tem mais informações e imagens binárias dessa versão excepcional. Mais informações sobre a emulação do Dreamcast podem ser encontradas em [DC Emulation](http://www.dcemulation.com/).

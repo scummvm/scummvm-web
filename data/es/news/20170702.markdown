@@ -1,9 +1,0 @@
----
-title: "Trapped on a luxury cruise ship.. In Space!"
-date: 1499002560
-author: Dreammaster
----
-
-Explore a broken-down luxury cruise liner, try to convince the Deskbot to give you an upgrade, and eventually track down and fix the ship's governing computer, Titania. Or you're never going to get home. We're pleased to announce the testing period for the late '90s game [Starship Titanic](http://www.mobygames.com/game/starship-titanic). At this time, only the English version is ready for testing. So break out your copy, and grab the latest [daily build](/downloads/#daily) of ScummVM. You'll also need an extra required [titanic.dat](https://github.com/scummvm/scummvm/blob/master/dists/engine-data/titanic.dat?raw=true) file, which should be put in the same folder you copy your game files to.
-
-Before you start your test run, please be aware there is one specific kind of Indeo encoded AVI video we haven't yet figured out how to decode transparency information for. In a few areas, such as the SGT Stateroom and Titania's closeup, amongst others, you'll see objects with jagged black areas around them. Please just ignore the problem for now. But all other graphics or gameplay issues should be reported on our [Issue Tracker](https://bugs.scummvm.org/).

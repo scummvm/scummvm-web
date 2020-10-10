@@ -1,9 +1,0 @@
----
-title: "Hello new students!"
-date: 1240320960
-author: Jubanka
----
-
-Google has announced the list of students for this year's [Summer of Code](http://socghop.appspot.com). For ScummVM, the accepted students and their respective projects can be found in our [landing page](http://socghop.appspot.com/org/home/google/gsoc2009/scummvm) of the GSoC '09 site.
-
-The ScummVM team and especially the mentors welcome our students this year: Denis, Michal, Norbert, Joakim and Jody. Welcome guys, good luck and enjoy coding this summer :-)
