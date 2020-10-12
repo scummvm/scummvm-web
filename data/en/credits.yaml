@@ -4,15 +4,23 @@
   anchor: "scummvm_team"
   subsection:
   -
-    title: "Project Leader"
+    title: "Project Leaders"
     anchor: "project_leader"
     group:
     -
       name: ""
       person:
       -
+        name: "Pawe&#322; Ko&#322;odziejski"
+        alias: "aquadran"
+        description: ""
+      -
         name: "Eugene Sandulenko"
         alias: "sev"
+        description: ""
+      -
+        name: "Einar Johan T. S&oslash;m&aring;en"
+        alias: "somaen"
         description: ""
   -
     title: "PR Office"
