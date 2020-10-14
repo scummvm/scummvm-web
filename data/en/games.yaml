@@ -4022,4 +4022,39 @@
   moby_id: ""
   datafiles: ""
   series_id: ""
+- id: grim
+  name: Grim Fandango
+  engine_id: grim
+  company_id: lucasarts
+  moby_id: "201"
+  datafiles: ""
+  series_id: ""
+- id: monkey4
+  name: Escape From Monkey Island
+  engine_id: grim
+  company_id: lucasarts
+  moby_id: "2606"
+  datafiles: ""
+  series_id: ""
+- id: icb
+  name: In Cold Blood
+  engine_id: icb
+  company_id: revolution
+  moby_id: "3373"
+  datafiles: ""
+  series_id: ""
+- id: myst3
+  name: Myst III Exile
+  engine_id: myst3
+  company_id: presto
+  moby_id: "3520"
+  datafiles: ""
+  series_id: ""
+- id: tlj
+  name: The Longest Journey
+  engine_id: stark
+  company_id: funcom
+  moby_id: "1439"
+  datafiles: ""
+  series_id: ""
 ...
