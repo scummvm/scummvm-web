@@ -57,7 +57,7 @@ class Constants
             'residual' => 'Residual',
             'retro' => 'Retro'
         ]);
-        define('DEFAULT_THEME', 'residual');
+        define('DEFAULT_THEME', 'scumm');
 
         /**
          * Smarty configuration. The Smarty team does not recommend putting any of the
