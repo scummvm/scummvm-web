@@ -3901,7 +3901,7 @@
   engine_id: xeen
   company_id: nwc
   moby_id: "3424"
-  datafiles: 'Might and Magic: Darkside of Xeen'
+  datafiles: ""
   series_id: mm
 - id: swordsofxeen
   name: 'Might and Magic: Swords of Xeen'
@@ -3942,84 +3942,84 @@
   name: ADRIFT Interactive Fiction games
   engine_id: glk
   company_id: glk
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: advsys
   name: AdvSYs Interactive Fiction games
   engine_id: glk
   company_id: glk
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: agt
   name: AGT Interactive Fiction games
   engine_id: glk
   company_id: glk
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: alan
   name: Alan 2 & 3 Interactive Fiction games
   engine_id: glk
   company_id: glk
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: archetype
   name: Archetype Interactive Fiction games
   engine_id: glk
   company_id: glk
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: hugo
   name: Hugo Interactive Fiction games
   engine_id: glk
   company_id: glk
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: jacl
   name: JACL Interactive Fiction games
   engine_id: glk
   company_id: glk
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: level9
   name: Level 9 Interactive Fiction games
   engine_id: glk
   company_id: glk
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: magnetic
   name: Magnetic Scrolls Interactive Fiction games
   engine_id: glk
   company_id: glk
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: quest
   name: Quest Interactive Fiction games
   engine_id: glk
   company_id: glk
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: scottadams
   name: Scott Adams Interactive Fiction games
   engine_id: glk
   company_id: glk
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: zcode
   name: ZCode (Infocom and Inform) Interactive Fiction games
   engine_id: glk
   company_id: glk
-  moby_id: ""
+  moby_id: "-1"
   datafiles: ""
   series_id: ""
 - id: grim

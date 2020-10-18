@@ -93,4 +93,7 @@
 - name: Amiga CD32
   id: amigacd32
   moby_id: "56"
+- name: Playstation 2
+  id: ps2
+  moby_id: "7"
 ...
