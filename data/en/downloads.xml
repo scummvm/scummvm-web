@@ -220,14 +220,14 @@
 					<url>scummvm-{$release}-android-ouya.apk</url>
 					<name>OUYA package</name>
 				</file>
-
+-->
 				<file>
 					<category_icon>symbian</category_icon>
-					<url>scummvm-{$release}-SymbianS60v3_split.sisx</url>
-					<name>Symbian S60 version 3 binary</name>
+					<url>scummvm-2.2.0.1-SymbianS60.zip</url>
+					<name>Symbian S60 split binary</name>
 					<user_agent>SymbOS</user_agent>
 				</file>
-
+<!--
 				<file>
 					<category_icon>uiq</category_icon>
 					<url>scummvm-{$release}-uiq3.zip</url>
@@ -673,12 +673,6 @@
 					<user_agent>OS/2</user_agent>
 				</file>
 
-				<file>
-					<category_icon>symbian</category_icon>
-					<url>1.8.1/scummvm-1.8.1-SymbianS60v3_split.sisx</url>
-					<name>1.8.1 Symbian S60 version 3 binary</name>
-					<user_agent>SymbOS</user_agent>
-				</file>
 				<file>
 					<category_icon>ps2</category_icon>
 					<url>1.7.0/scummvm-1.7.0-ps2.zip</url>
