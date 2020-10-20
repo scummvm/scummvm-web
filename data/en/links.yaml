@@ -129,9 +129,9 @@
   links:
     - name: SCUMM Hacking forum
       description: Information and discussion on resource formats used in LucasArts games.
-      url: 'http://www.lucasforums.com/forumdisplay.php?f=363'
+      url: 'https://forums.mixnmojo.com/forum/318-scumm/'
     - name: AGI Development Site
       description: >-
         Large amounts of information surrounding Sierra's AGI system and home of
         the NAGI AGI interpreter.
-      url: 'http://www.agidev.com'
+      url: 'http://agiwiki.sierrahelp.com/'
