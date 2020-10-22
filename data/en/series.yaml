@@ -1,95 +1,139 @@
 # This is a generated file, please do not edit manually
----
-- id: dw
-  name: Discworld
-- id: indy
-  name: Indiana Jones
-- id: maniac
-  name: Maniac Mansion
-- id: kq
-  name: King's Quest
-- id: lsl
-  name: Leisure Suit Larry
-- id: sq
-  name: Space Quest
-- id: qfg
-  name: Quest for Glory
-- id: pq
-  name: Police Quest
-- id: mi
-  name: The Secret of Monkey Island
-- id: zork
-  name: Zork
-- id: simon
-  name: Simon the Sorcerer
-- id: gob
-  name: Gobliiins
-- id: sword
-  name: Broken Sword
-- id: manhunt
-  name: Manhunter
-- id: disney
-  name: Disney AGI
-- id: brain
-  name: Dr. Brain
-- id: conquests
-  name: Conquests
-- id: laurabow
-  name: Laura Bow
-- id: ecoquest
-  name: EcoQuest
-- id: hoyle
-  name: Hoyle's Official Book of Games
-- id: mixedup
-  name: Roberta Williams' Mixed-Up
-- id: eob
-  name: Eye of the Beholder
-- id: kyra
-  name: The Legend of Kyrandia
-- id: ringworld
-  name: Ringworld
-- id: sherlock
-  name: Sherlock Holmes
-- id: myst
-  name: Myst
-- id: bigthinkers
-  name: Big Thinkers
-- id: fbear
-  name: Fatty Bear
-- id: freddi
-  name: Freddi Fish
-- id: juniorfield
-  name: Junior Field Trips
-- id: pajama
-  name: Pajama Sam
-- id: puttputt
-  name: Putt-Putt
-- id: spyfox
-  name: Spy Fox
-- id: juniorsports
-  name: Junior Sports
-- id: blue
-  name: Blue's Clues
-- id: livingbooks
-  name: Living Books
-- id: magictales
-  name: Magic Tales
-- id: agifan
-  name: AGI Fan
-- id: elvira
-  name: Elvira
-- id: mm
-  name: Might and Magic
-- id: ultima
-  name: Ultima
-- id: carol
-  name: Carol Reed
-- id: reversion
-  name: Reversion
-- id: hugo
-  name: Hugo House of Horrors
-- id: hires
-  name: Hi-Res Adventure
-- id: id4
-  name: Independence Day
-...
+-
+    id: dw
+    name: Discworld
+-
+    id: indy
+    name: 'Indiana Jones'
+-
+    id: maniac
+    name: 'Maniac Mansion'
+-
+    id: kq
+    name: 'King''s Quest'
+-
+    id: lsl
+    name: 'Leisure Suit Larry'
+-
+    id: sq
+    name: 'Space Quest'
+-
+    id: qfg
+    name: 'Quest for Glory'
+-
+    id: pq
+    name: 'Police Quest'
+-
+    id: mi
+    name: 'The Secret of Monkey Island'
+-
+    id: zork
+    name: Zork
+-
+    id: simon
+    name: 'Simon the Sorcerer'
+-
+    id: gob
+    name: Gobliiins
+-
+    id: sword
+    name: 'Broken Sword'
+-
+    id: manhunt
+    name: Manhunter
+-
+    id: disney
+    name: 'Disney AGI'
+-
+    id: brain
+    name: 'Dr. Brain'
+-
+    id: conquests
+    name: Conquests
+-
+    id: laurabow
+    name: 'Laura Bow'
+-
+    id: ecoquest
+    name: EcoQuest
+-
+    id: hoyle
+    name: 'Hoyle''s Official Book of Games'
+-
+    id: mixedup
+    name: 'Roberta Williams'' Mixed-Up'
+-
+    id: eob
+    name: 'Eye of the Beholder'
+-
+    id: kyra
+    name: 'The Legend of Kyrandia'
+-
+    id: ringworld
+    name: Ringworld
+-
+    id: sherlock
+    name: 'Sherlock Holmes'
+-
+    id: myst
+    name: Myst
+-
+    id: bigthinkers
+    name: 'Big Thinkers'
+-
+    id: fbear
+    name: 'Fatty Bear'
+-
+    id: freddi
+    name: 'Freddi Fish'
+-
+    id: juniorfield
+    name: 'Junior Field Trips'
+-
+    id: pajama
+    name: 'Pajama Sam'
+-
+    id: puttputt
+    name: Putt-Putt
+-
+    id: spyfox
+    name: 'Spy Fox'
+-
+    id: juniorsports
+    name: 'Junior Sports'
+-
+    id: blue
+    name: 'Blue''s Clues'
+-
+    id: livingbooks
+    name: 'Living Books'
+-
+    id: magictales
+    name: 'Magic Tales'
+-
+    id: agifan
+    name: 'AGI Fan'
+-
+    id: elvira
+    name: Elvira
+-
+    id: mm
+    name: 'Might and Magic'
+-
+    id: ultima
+    name: Ultima
+-
+    id: carol
+    name: 'Carol Reed'
+-
+    id: reversion
+    name: Reversion
+-
+    id: hugo
+    name: 'Hugo House of Horrors'
+-
+    id: hires
+    name: 'Hi-Res Adventure'
+-
+    id: id4
+    name: 'Independence Day'
