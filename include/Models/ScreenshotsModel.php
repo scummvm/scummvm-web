@@ -2,9 +2,9 @@
 namespace ScummVM\Models;
 
 use ScummVM\Objects\Screenshot;
-use ScummVM\Objects\BasicObject;
 use ScummVM\Models\GameModel;
 use ScummVM\Models\SimpleModel;
+use Symfony\Component\Yaml\Yaml;
 
 /**
  * The ScreenshotsModel will generate Screenshot objects.
@@ -27,7 +27,7 @@ class ScreenshotsModel extends BasicModel
     public function getAllScreenshots()
     {
         $fname = $this->getLocalizedFile('screenshots.yaml');
-        $screenshots = \yaml_parse_file($fname);
+        $screenshots = Yaml::parseFile($fname);
         $platforms = $this->platformsModel->getAllData();
         $games = $this->gameModel->getAllGames();
         $data = [];

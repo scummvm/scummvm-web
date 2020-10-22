@@ -10,7 +10,6 @@
   ],
   "require": {
     "php": ">=7.0.0",
-    "ext-yaml": "*",
     "ext-intl": "*",
     "smarty/smarty": "^3.1",
     "ezyang/htmlpurifier": "^4.10",
@@ -21,7 +20,9 @@
     "scssphp/scssphp": "^1.2",
     "composer/semver": "^3.2",
     "phpfastcache/phpfastcache": "^8.0",
-    "league/csv": "^9.6"
+    "league/csv": "^9.6",
+    "symfony/yaml": "^5.1",
+    "predis/predis": "^1.1"
   },
   "require-dev": {
     "phpstan/phpstan": "^0.12.43",

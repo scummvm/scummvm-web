@@ -2,7 +2,8 @@
 namespace ScummVM\Models;
 
 use Phpfastcache\Helper\Psr16Adapter;
-use Phpfastcache\Drivers\Redis\Config;
+use Phpfastcache\Drivers\Predis\Config as PredisConfig;
+use Phpfastcache\Drivers\Redis\Config as RedisConfig;
 use Phpfastcache\Exceptions\PhpfastcacheDriverException;
 
 abstract class BasicModel
@@ -15,9 +16,12 @@ abstract class BasicModel
     {
         if (is_null(self::$cache)) {
             try {
+                $driver = extension_loaded('redis') ? 'redis' : 'predis';
                 $database = $_SERVER['HTTP_HOST'] === 'www.scummvm.org' ? 8 : 7;
-                $config = new Config(['database' => $database]);
-                self::$cache = new Psr16Adapter('redis', $config);
+                $config = extension_loaded('redis')
+                    ? new RedisConfig(['database' => $database])
+                    : new PredisConfig(['database' => $database]);
+                self::$cache = new Psr16Adapter($driver, $config);
             } catch (PhpfastcacheDriverException $ex) {
                 // Fallback to files based cache
                 self::$cache = new Psr16Adapter('files');

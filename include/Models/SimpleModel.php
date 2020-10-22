@@ -1,6 +1,8 @@
 <?php
 namespace ScummVM\Models;
 
+use Symfony\Component\Yaml\Yaml;
+
 /**
  * The SimpleModel is used automatically create simple models
  * that do not require any special handling
@@ -24,7 +26,7 @@ class SimpleModel extends BasicModel
     {
         $objects = $this->getFromCache();
         if (is_null($objects)) {
-            $data = @\yaml_parse_file($this->filename);
+            $data = @Yaml::parseFile($this->filename);
             if (!$data || !\is_array($data)) {
                 throw new \ErrorException(\sprintf(self::YAML_PARSE_FAILED, $this->filename));
             }

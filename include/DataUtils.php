@@ -6,6 +6,7 @@ require_once __DIR__ . '/../include/Constants.php';
 
 use League\Csv\Reader;
 use League\Csv\Statement;
+use Symfony\Component\Yaml\Yaml;
 
 /**
  * DataUtils
@@ -48,7 +49,7 @@ class DataUtils
             // and cannot be converted directly to yaml
             $json = \json_encode($records);
             $data = \json_decode($json, true);
-            $yaml = \yaml_emit($data, YAML_UTF8_ENCODING, YAML_LN_BREAK);
+            $yaml = Yaml::dump($data);
             $yaml = "# This is a generated file, please do not edit manually\n" . $yaml;
             $outFile = DIR_DATA . "/" . DEFAULT_LOCALE . "/$name.yaml";
             echo("Writing $name data to $outFile\n");

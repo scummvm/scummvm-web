@@ -3,6 +3,7 @@ namespace ScummVM\Models;
 
 use ScummVM\Objects\Game;
 use ScummVM\Models\SimpleModel;
+use Symfony\Component\Yaml\Yaml;
 
 /**
  * The GamesModel is used to cross reference Games across the website
@@ -29,7 +30,7 @@ class GameModel extends BasicModel
             $engines = $this->enginesModel->getAllData();
             $series = $this->seriesModel->getAllData();
             $fname = $this->getLocalizedFile('games.yaml');
-            $games = \yaml_parse_file($fname);
+            $games = Yaml::parseFile($fname);
             $data = [];
             foreach ($games as $game) {
                 $obj = new Game($game, $engines, $companies, $series);

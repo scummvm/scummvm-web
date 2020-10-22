@@ -2,6 +2,7 @@
 namespace ScummVM\Models;
 
 use ScummVM\Objects\WebLink;
+use Symfony\Component\Yaml\Yaml;
 
 /**
  * The LinksModel class will generate WebLink objects.
@@ -15,7 +16,7 @@ class LinksModel extends BasicModel
         $entries = $this->getFromCache();
         if (is_null($entries)) {
             $fname = $this->getLocalizedFile('links.yaml');
-            $parsedData = \yaml_parse_file($fname);
+            $parsedData = Yaml::parseFile($fname);
             $entries = [];
             foreach ($parsedData as $value) {
                 /* Get all links. */

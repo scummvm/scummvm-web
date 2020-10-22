@@ -5,6 +5,7 @@ use ScummVM\Objects\Compatibility;
 use ScummVM\Models\GameModel;
 use ScummVM\Models\SimpleModel;
 use Composer\Semver\Comparator;
+use Symfony\Component\Yaml\Yaml;
 
 /**
  * The CompatibilityModel class will generate CompatGame objects.
@@ -35,7 +36,7 @@ class CompatibilityModel extends BasicModel
         $data = $this->getFromCache($version);
         if (is_null($data)) {
             $fname = $this->getLocalizedFile("compatibility.yaml");
-            $compatibilityEntries = \yaml_parse_file($fname);
+            $compatibilityEntries = Yaml::parseFile($fname);
             $games = $this->gameModel->getAllGames();
             $platforms = $this->platformsModel->getAllData();
             $compareVersion = $version === 'DEV' ? '9.9.9' : $version;

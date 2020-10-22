@@ -2,6 +2,7 @@
 namespace ScummVM\Models;
 
 use ScummVM\Objects\Version;
+use Symfony\Component\Yaml\Yaml;
 
 /**
  * The VersionsModel is used to cross reference versions across the website
@@ -14,7 +15,7 @@ class VersionsModel extends BasicModel
         $data = $this->getFromCache();
         if (is_null($data)) {
             $fname = $this->getLocalizedFile('versions.yaml');
-            $versions = \yaml_parse_file($fname);
+            $versions = Yaml::parseFile($fname);
 
             $data = [];
             foreach ($versions as $version) {

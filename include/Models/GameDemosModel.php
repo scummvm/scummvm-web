@@ -3,7 +3,7 @@ namespace ScummVM\Models;
 
 use ScummVM\Objects\GameDemo;
 use ScummVM\Models\GameModel;
-use ScummVM\Models\PlatformsModel;
+use Symfony\Component\Yaml\Yaml;
 
 /**
  * The GameDemosModel class will generate GameDemo objects.
@@ -24,7 +24,7 @@ class GameDemosModel extends BasicModel
         $groupedData = $this->getFromCache();
         if (is_null($groupedData)) {
             $fname = $this->getLocalizedFile('game_demos.yaml');
-            $demos = \yaml_parse_file($fname);
+            $demos = Yaml::parseFile($fname);
             $games = $this->gameModel->getAllGames();
             $platforms = $this->platformsModel->getAllData();
             $data = [];
