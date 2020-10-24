@@ -109,7 +109,7 @@
 
 				<file>
 					<category_icon>ubuntu</category_icon>
-					<url>scummvm_{$release}-1_ubuntu18.04-lts_amd64.deb</url>
+					<url>scummvm_{$release}-1_ubuntu20.04-lts_amd64.deb</url>
 					<name>Ubuntu 20.04 LTS (focal) x86 64bit package</name>
 				</file>
 				<file>
