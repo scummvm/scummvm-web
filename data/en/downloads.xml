@@ -197,22 +197,22 @@
 				<file>
 					<category_icon>android</category_icon>
 					<url>scummvm-2.2.1-android-arm-v7a-251020-1355.apk</url>
-					<name>2.2.1 Android ARMv7a package</name>
+					<name>Android ARMv7a package</name>
 				</file>
 				<file>
 					<category_icon>android</category_icon>
 					<url>scummvm-2.2.1-android-arm64-v8a-251020-1355.apk</url>
-					<name>2.2.1 Android ARM64v8a package</name>
+					<name>Android ARM64v8a package</name>
 				</file>
 				<file>
 					<category_icon>android</category_icon>
 					<url>scummvm-2.2.1-android-x86-251020-1355.apk</url>
-					<name>2.2.1 Android x86 32bit package</name>
+					<name>Android x86 32bit package</name>
 				</file>
 				<file>
 					<category_icon>android</category_icon>
 					<url>scummvm-2.2.1-android-x86_64-251020-1355.apk</url>
-					<name>2.2.1 Android x86 64bit package</name>
+					<name>Android x86 64bit package</name>
 				</file>
 <!--
 				<file>
