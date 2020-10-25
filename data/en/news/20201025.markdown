@@ -16,7 +16,7 @@ With this release we have resolved a few long standing issues such as:
 
 Other significant improvements have been made to the interface of the application, such as the ability to choose whether the GUI will feature filtered graphics (bilinear scaling) or not (nearest neighbor scaling), several fixes for the virtual keyboard behavior to make it more responsive and closer emulate the behavior of a physical keyboard, and support for virtual mouse control using the analogue joystick from your controller.
 
-By upgrading to the new 2.2.1 version you will be able to enjoy support for all the game engines that have been introduced on ScummVM since 2.2.0, such as Blade Runner, Ultima IV, Quest for Glory IV, as well as all the bug fixes and improvements made to the existing ones.
+By upgrading to the new 2.2.1 version you will be able to enjoy support for all the game engines that have been introduced on ScummVM since 2.0.0, such as Blade Runner, Ultima IV, Quest for Glory IV, as well as all the bug fixes and improvements made to the existing ones.
 
 Of course we continue to monitor our community’s feedback and welcome any suggestions for improvement. As always, please report any bugs you encounter on the ScummVM [bug tracker site](https://bugs.scummvm.org).
 
