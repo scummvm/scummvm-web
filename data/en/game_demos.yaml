@@ -240,6 +240,21 @@
     category: CD
     url: /frs/demos/scumm/dig-dos-demo-en.zip
 -
+    id: director
+    platform: mac
+    category: 'The Apartment D3'
+    url: /frs/demos/director/theapartment2.zip
+-
+    id: director
+    platform: mac
+    category: 'The Apartment D2'
+    url: /frs/demos/director/theapartment3.zip
+-
+    id: director
+    platform: mac
+    category: 'The Apartment D4'
+    url: /frs/demos/director/theapartment4.zip
+-
     id: dw
     platform: dos
     category: Floppy
@@ -284,6 +299,31 @@
     platform: dos
     category: Non-Interactive
     url: /frs/demos/agos/elvira1-dos-ni-demo-en.zip
+-
+    id: monkey4
+    platform: win
+    category: ''
+    url: /frs/demos/grim/emi-win-demo-en.zip
+-
+    id: monkey4
+    platform: win
+    category: German
+    url: /frs/demos/grim/emi-win-demo-de.zip
+-
+    id: monkey4
+    platform: win
+    category: Spanish
+    url: /frs/demos/grim/emi-win-demo-sp.zip
+-
+    id: monkey4
+    platform: win
+    category: French
+    url: /frs/demos/grim/monkey4demo-fre.zip
+-
+    id: monkey4
+    platform: mac
+    category: ''
+    url: /frs/demos/grim/efmi_large_demo.sea
 -
     id: fairytales
     platform: dos
@@ -610,6 +650,36 @@
     category: ''
     url: /frs/demos/mohawk/greeneggs-win-demo-en.zip
 -
+    id: grim
+    platform: win
+    category: Small
+    url: /frs/demos/grim/grim-win-demo1-en.zip
+-
+    id: grim
+    platform: win
+    category: Large
+    url: /frs/demos/grim/grim-win-demo2-en.zip
+-
+    id: grim
+    platform: win
+    category: French
+    url: /frs/demos/grim/grim-win-demo-fr.zip
+-
+    id: grim
+    platform: win
+    category: German
+    url: /frs/demos/grim/grim-win-demo-de.zip
+-
+    id: grim
+    platform: win
+    category: Italian
+    url: /frs/demos/grim/grim-win-demo-it.zip
+-
+    id: grim
+    platform: win
+    category: Spanish
+    url: /frs/demos/grim/grim-win-demo-sp.zip
+-
     id: hdb
     platform: linux
     category: ''
@@ -655,6 +725,16 @@
     category: Non-Interactive
     url: /frs/demos/sci/hoyle4-dos-ni-demo-en.zip
 -
+    id: icb
+    platform: win
+    category: ''
+    url: /frs/demos/icb/icb-eng-demo.zip
+-
+    id: icb
+    platform: win
+    category: 'English US'
+    url: /frs/demos/icb/icb-win-demo-us.zip
+-
     id: iceman
     platform: dos
     category: Non-Interactive
@@ -684,6 +764,11 @@
     platform: dos
     category: Non-Interactive
     url: /frs/demos/sci/islandbrain-dos-ni-demo-en.zip
+-
+    id: jewels
+    platform: win
+    category: ''
+    url: /frs/demos/director/jewels-demo.zip
 -
     id: kq1sci
     platform: dos
@@ -1530,6 +1615,36 @@
     category: ''
     url: /frs/demos/scumm/he/thinkerk-win-demo-us.zip
 -
+    id: tlj
+    platform: win
+    category: ''
+    url: /frs/demos/stark/tlj-demo-en.zip
+-
+    id: tlj
+    platform: win
+    category: French
+    url: /frs/demos/stark/tlj-demo-fr.zip
+-
+    id: tlj
+    platform: win
+    category: Norwegian
+    url: /frs/demos/stark/tlj-demo-nor-new.zip
+-
+    id: tlj
+    platform: win
+    category: Swedish
+    url: /frs/demos/stark/tlj-demo-swe.zip
+-
+    id: tlj
+    platform: win
+    category: New
+    url: /frs/demos/stark/tlj-demo-en-new.zip
+-
+    id: tlj
+    platform: win
+    category: Early
+    url: /frs/demos/stark/tlj-demo-en-early.zip
+-
     id: toon
     platform: dos
     category: ''
@@ -1589,6 +1704,11 @@
     platform: dos
     category: ''
     url: /frs/demos/voyeur/voyeur-dos-demo-en.zip
+-
+    id: warlock
+    platform: win
+    category: ''
+    url: /frs/demos/director/warlock-win-demo.zip
 -
     id: waxworks
     platform: dos
