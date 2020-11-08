@@ -54,6 +54,7 @@ class Controller
         /* Give Smarty-template access to date(). */
         $this->smarty->registerPlugin('modifier', 'date_localized', array(&$this, 'dateLocalizedSmartyModifier'));
         $this->smarty->registerPlugin('modifier', 'lang', array(&$this, 'langModifier'));
+        $this->smarty->registerPlugin('modifier', 'download', array(&$this, 'downloadsSmartyModifier'));
 
         $this->css_files = array();
         $this->js_files = array();
@@ -136,6 +137,22 @@ class Controller
         global $lang;
         $formatter = datefmt_create($lang, \IntlDateFormatter::MEDIUM, \IntlDateFormatter::NONE);
         return $formatter->format($timestamp);
+    }
+
+    /**
+     * Formating of download URLs, registered as a modifier for Smarty templates.
+     */
+    public function downloadsSmartyModifier($path)
+    {
+        if (\strpos($path, "http") === 0) {
+          return $path;
+        } elseif (\strpos($path, "/frs") === 0) {
+          return DOWNLOADS_BASE . $path;
+        } elseif (\strpos($path, "frs") === 0) {
+          return DOWLOADS_BASE . "/$path";
+        }
+
+        return $path;
     }
 
     /* Render the HTML using the template and any set variables and displays it. */

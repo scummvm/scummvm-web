@@ -5,7 +5,7 @@
                 {assign var='data' value=$item->getExtraInfo()}
                 <li class="file">
                     <span class="sprite-{$type}-{$item->getCategoryIcon()} sprite"></span>
-                    <a href="{eval var=$item->getURL()}">{eval var=$item->getName()}</a>
+                    <a href="{eval var=$item->getURL()|download}">{eval var=$item->getName()}</a>
                     {strip}
                         <span class="download-extras">
                             {if is_array($data)}
@@ -13,7 +13,7 @@
                                 {if $item->getType() == 'daily'}{#listItemsBuildFromRepo#} {/if}
                                 {$data.size} {if $data.ext == '.exe'}Win32 {/if}{$data.ext}{if $data.date != ""}{#listItemsDate#} {$data.date} {/if}
                                 &nbsp;
-                                {if $data.sha256 != ""} <span class="sha256-toggle" onclick="this.nextSibling.classList.toggle('hidden')"> sha256</span><span class="sha256-text hidden"> <a href="{eval var=$item->getURL()}.sha256">{$data.sha256}</a></span>{/if}
+                                {if $data.sha256 != ""} <span class="sha256-toggle" onclick="this.nextSibling.classList.toggle('hidden')"> sha256</span><span class="sha256-text hidden"> <a href="{eval var=$item->getURL()|download}.sha256">{$data.sha256}</a></span>{/if}
                                 ) {if $data.msg != ""}{$data.msg}{/if}
                             {else}
                                 {if $item->getType() != 'daily'}

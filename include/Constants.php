@@ -46,6 +46,7 @@ class Constants
         define('DEFAULT_LOCALE', 'en');
 
         /* Downloads */
+        define('DOWNLOADS_BASE', 'https://downloads.scummvm.org');
         define('DOWNLOADS_URL', '/frs/scummvm/{$release}/');
         define('DOWNLOADS_DAILY_URL', '/frs/daily/');
         define('DOWNLOADS_TOOLS_URL', '/frs/scummvm-tools/{$release_tools}/');

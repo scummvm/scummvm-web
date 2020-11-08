@@ -42,7 +42,7 @@
         {/if}
         <tr class="{if $collapse}{$collapse}{else}{cycle values="color2, color0"}{/if}">
             <td>
-                <a href="{$demo->getURL()}">{$demo->getName()}</a>
+                <a href="{$demo->getURL()|download}">{$demo->getName()}</a>
             </td>
             <td class="gameTarget">{$demo->getId()}</td>
         </tr>
