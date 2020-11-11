@@ -186,14 +186,12 @@
 					<name>PlayStation Vita package</name>
 					<user_agent>PlayStation Portable</user_agent>
 				</file>
-<!--
 				<file>
 					<category_icon>android</category_icon>
 					<url>https://play.google.com/store/apps/details?id=org.scummvm.scummvm</url>
-					<name>Android package at Google Play Store</name>
+					<name>Android app on Google Play Store</name>
 					<user_agent>Android</user_agent>
 				</file>
--->
 				<file>
 					<category_icon>android</category_icon>
 					<url>scummvm-2.2.1-android-arm-v7a-251020-1355.apk</url>
@@ -632,8 +630,8 @@
 
 				<file>
 					<category_icon>android</category_icon>
-					<url>https://play.google.com/store/apps/details?id=org.scummvm.scummvm</url>
-					<name>2.0.0 Android package at Google Play Store</name>
+					<url>2.0.0/scummvm-2.0.0-android-all.apk</url>
+					<name>2.0.0 Android package (all architectures)</name>
 					<user_agent>Android</user_agent>
 				</file>
 
