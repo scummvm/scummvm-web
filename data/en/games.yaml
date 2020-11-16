@@ -4597,7 +4597,7 @@
     engine_id: grim
     company_id: lucasarts
     moby_id: '201'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Grim_Fandango'
     series_id: ''
 -
     id: monkey4
@@ -4605,7 +4605,7 @@
     engine_id: grim
     company_id: lucasarts
     moby_id: '2606'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Escape_From_Monkey_Island'
     series_id: ''
 -
     id: icb
@@ -4621,7 +4621,7 @@
     engine_id: myst3
     company_id: presto
     moby_id: '3520'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Myst_III:_Exile'
     series_id: ''
 -
     id: tlj
