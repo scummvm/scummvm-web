@@ -3775,13 +3775,13 @@
 -
     id: grim
     support: good
-    notes: ''
+    notes: '- Remastered version is not supported'
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
 -
     id: monkey4
-    support: good
+    support: bugged
     notes: ''
     since_version: DEV
     stable_platforms: win
@@ -3800,3 +3800,10 @@
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
+-
+    id: icb
+    support: broken
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: psx
