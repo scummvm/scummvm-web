@@ -3792,7 +3792,7 @@
     notes: ''
     since_version: DEV
     stable_platforms: win
-    unstable_platforms: ''
+    unstable_platforms: 'ps2,xbox'
 -
     id: tlj
     support: good

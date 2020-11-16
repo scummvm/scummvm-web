@@ -127,3 +127,7 @@
     name: 'Playstation 2'
     id: ps2
     moby_id: '7'
+-
+    name: Xbox
+    id: xbox
+    moby_id: '99'
