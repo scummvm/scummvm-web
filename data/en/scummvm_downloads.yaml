@@ -896,7 +896,7 @@
     subcategory: old
     category_icon: maemo
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/2.1.1/scummvm_2.1.1-maemo_armel.deb'
+    url: /frs/scummvm/2.1.1/scummvm_2.1.1-maemo_armel.deb
     name: '2.1.1 Maemo package (OS 2008 and Maemo5/Fremantle)'
     description: ''
 -
@@ -905,7 +905,7 @@
     subcategory: old
     category_icon: windows
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/2.1.0/scummvm-2.1.0-win32-x86_64.exe'
+    url: /frs/scummvm/2.1.0/scummvm-2.1.0-win32-x86_64.exe
     name: '2.1.0 Windows 64bit Installer'
     description: ''
 -
@@ -914,7 +914,7 @@
     subcategory: old
     category_icon: android
     user_agent: Android
-    url: '/frs/scummvm-tools/{$release_tools}/2.0.0/scummvm-2.0.0-android-all.apk'
+    url: /frs/scummvm/2.0.0/scummvm-2.0.0-android-all.apk
     name: '2.0.0 Android package (all architectures)'
     description: ''
 -
@@ -923,7 +923,7 @@
     subcategory: old
     category_icon: fedora
     user_agent: Fedora
-    url: '/frs/scummvm-tools/{$release_tools}/2.0.0/scummvm-2.0.0-1.x86_64.rpm'
+    url: /frs/scummvm/2.0.0/scummvm-2.0.0-1.x86_64.rpm
     name: '2.0.0 Fedora 24+ x86 64bit package'
     description: ''
 -
@@ -932,7 +932,7 @@
     subcategory: old
     category_icon: raspberry
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/2.0.0/scummvm-2.0.0-rpi.zip'
+    url: /frs/scummvm/2.0.0/scummvm-2.0.0-rpi.zip
     name: '2.0.0 Raspberry Pi package (for Pi 2 and 3)'
     description: ''
 -
@@ -941,7 +941,7 @@
     subcategory: old
     category_icon: android
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.9.0/scummvm-1.9.0-android-mips.apk'
+    url: /frs/scummvm/1.9.0/scummvm-1.9.0-android-mips.apk
     name: '1.9.0 Android MIPS package'
     description: ''
 -
@@ -950,7 +950,7 @@
     subcategory: old
     category_icon: ouya
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.9.0/scummvm-1.9.0-android-ouya.apk'
+    url: /frs/scummvm/1.9.0/scummvm-1.9.0-android-ouya.apk
     name: '1.9.0 OUYA package'
     description: ''
 -
@@ -959,7 +959,7 @@
     subcategory: old
     category_icon: os2
     user_agent: OS/2
-    url: '/frs/scummvm-tools/{$release_tools}/1.9.0/scummvm-1.9.0-os2.zip'
+    url: /frs/scummvm/1.9.0/scummvm-1.9.0-os2.zip
     name: '1.9.0 OS/2 package'
     description: ''
 -
@@ -968,7 +968,7 @@
     subcategory: old
     category_icon: ps2
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.7.0/scummvm-1.7.0-ps2.zip'
+    url: /frs/scummvm/1.7.0/scummvm-1.7.0-ps2.zip
     name: '1.7.0 PlayStation2 package'
     description: ''
 -
@@ -977,7 +977,7 @@
     subcategory: old
     category_icon: webos
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.7.0/scummvm-1.7.0-webos.zip'
+    url: /frs/scummvm/1.7.0/scummvm-1.7.0-webos.zip
     name: '1.7.0 WebOS package'
     description: ''
 -
@@ -986,7 +986,7 @@
     subcategory: old
     category_icon: tizen
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.7.0/scummvm-1.7.0-tizen.tpk'
+    url: /frs/scummvm/1.7.0/scummvm-1.7.0-tizen.tpk
     name: '1.7.0 Tizen package'
     description: ''
 -
@@ -995,7 +995,7 @@
     subcategory: old
     category_icon: gp2x
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.7.0/scummvm-1.7.0-gp2x.tar.bz2'
+    url: /frs/scummvm/1.7.0/scummvm-1.7.0-gp2x.tar.bz2
     name: '1.7.0 GP2X package'
     description: ''
 -
@@ -1004,7 +1004,7 @@
     subcategory: old
     category_icon: gp2xwiz
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.7.0/scummvm-1.7.0-gp2xwiz.tar.bz2'
+    url: /frs/scummvm/1.7.0/scummvm-1.7.0-gp2xwiz.tar.bz2
     name: '1.7.0 GP2X Wiz package'
     description: ''
 -
@@ -1013,7 +1013,7 @@
     subcategory: old
     category_icon: caanoo
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.7.0/scummvm-1.7.0-caanoo.tar.bz2'
+    url: /frs/scummvm/1.7.0/scummvm-1.7.0-caanoo.tar.bz2
     name: '1.7.0 Caanoo package'
     description: ''
 -
@@ -1022,7 +1022,7 @@
     subcategory: old
     category_icon: slackware
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.6.0/scummvm-1.6.0_slack-i486-1.tgz'
+    url: /frs/scummvm/1.6.0/scummvm-1.6.0_slack-i486-1.tgz
     name: '1.6.0 SlackWare i486 package'
     description: ''
 -
@@ -1031,7 +1031,7 @@
     subcategory: old
     category_icon: slackware
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.6.0/scummvm-1.6.0_slack-x86_64-1.txz'
+    url: /frs/scummvm/1.6.0/scummvm-1.6.0_slack-x86_64-1.txz
     name: '1.6.0 SlackWare x86 64bit package'
     description: ''
 -
@@ -1040,7 +1040,7 @@
     subcategory: old
     category_icon: n64
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.6.0/scummvm-1.6.0-n64.zip'
+    url: /frs/scummvm/1.6.0/scummvm-1.6.0-n64.zip
     name: '1.6.0 Nintendo 64 package'
     description: ''
 -
@@ -1049,7 +1049,7 @@
     subcategory: old
     category_icon: dingux
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.6.0/scummvm-1.6.0-dingux.zip'
+    url: /frs/scummvm/1.6.0/scummvm-1.6.0-dingux.zip
     name: '1.6.0 Dingux package'
     description: ''
 -
@@ -1058,7 +1058,7 @@
     subcategory: old
     category_icon: solaris
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.6.0/scummvm-1.6.0-solaris10-sparc.pkg.7z'
+    url: /frs/scummvm/1.6.0/scummvm-1.6.0-solaris10-sparc.pkg.7z
     name: '1.6.0 Solaris 10 sparc, Solaris 11 sparc binary'
     description: ''
 -
@@ -1067,7 +1067,7 @@
     subcategory: old
     category_icon: solaris
     user_agent: SunOS
-    url: '/frs/scummvm-tools/{$release_tools}/1.6.0/scummvm-1.6.0-solaris10-x86.pkg.7z'
+    url: /frs/scummvm/1.6.0/scummvm-1.6.0-solaris10-x86.pkg.7z
     name: '1.6.0 Solaris 10 x86, Solaris 11 x86, OpenIndiana binary'
     description: ''
 -
@@ -1076,7 +1076,7 @@
     subcategory: old
     category_icon: wince
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.5.0/scummvm-1.5.0-wince.zip'
+    url: /frs/scummvm/1.5.0/scummvm-1.5.0-wince.zip
     name: '1.5.0 Windows CE ARM package'
     description: ''
 -
@@ -1085,7 +1085,7 @@
     subcategory: old
     category_icon: gc
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.5.0/scummvm-1.5.0-gamecube.zip'
+    url: /frs/scummvm/1.5.0/scummvm-1.5.0-gamecube.zip
     name: '1.5.0 Nintendo GameCube package'
     description: ''
 -
@@ -1094,7 +1094,7 @@
     subcategory: old
     category_icon: debian
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.4.1/scummvm_1.4.1-squeeze.1_powerpc.deb'
+    url: /frs/scummvm/1.4.1/scummvm_1.4.1-squeeze.1_powerpc.deb
     name: '1.4.1 Debian 6.0 (squeeze) PowerPC package'
     description: ''
 -
@@ -1103,7 +1103,7 @@
     subcategory: old
     category_icon: solaris
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.4.1/scummvm-1.4.1-solaris10-x86.pkg.bz2'
+    url: /frs/scummvm/1.4.1/scummvm-1.4.1-solaris10-x86.pkg.bz2
     name: '1.4.1 Solaris 10 (both IA32 and AMD64) binary'
     description: ''
 -
@@ -1112,7 +1112,7 @@
     subcategory: old
     category_icon: linuxmoto
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.3.0/scummvm-1.3.0-motoezx.pkg'
+    url: /frs/scummvm/1.3.0/scummvm-1.3.0-motoezx.pkg
     name: '1.3.0 Motorola A1200, ROKR E6, A1600 package'
     description: ''
 -
@@ -1121,7 +1121,7 @@
     subcategory: old
     category_icon: linuxmoto
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.3.0/scummvm-1.3.0-motomagx.mgx'
+    url: /frs/scummvm/1.3.0/scummvm-1.3.0-motomagx.mgx
     name: '1.3.0 Motorola E8, EM30, ZN5, U9 package'
     description: ''
 -
@@ -1130,7 +1130,7 @@
     subcategory: old
     category_icon: linuxmoto
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.3.0/scummvm-1.3.0-motomagx.pep'
+    url: /frs/scummvm/1.3.0/scummvm-1.3.0-motomagx.pep
     name: '1.3.0 Motorola Z6, V8 package'
     description: ''
 -
@@ -1139,7 +1139,7 @@
     subcategory: old
     category_icon: linuxmoto
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.3.0/scummvm-1.3.0-motomagx.mpkg'
+    url: /frs/scummvm/1.3.0/scummvm-1.3.0-motomagx.mpkg
     name: '1.3.0 Motorola Z6, V8 package'
     description: ''
 -
@@ -1148,7 +1148,7 @@
     subcategory: old
     category_icon: ds
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.2.1/scummvm-1.2.1-ds.zip'
+    url: /frs/scummvm/1.2.1/scummvm-1.2.1-ds.zip
     name: '1.2.1 Nintendo DS package'
     description: ''
 -
@@ -1157,7 +1157,7 @@
     subcategory: old
     category_icon: symbian
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.2.1/scummvm-1.2.1-uiq3.sis'
+    url: /frs/scummvm/1.2.1/scummvm-1.2.1-uiq3.sis
     name: '1.2.1 Symbian UIQ 3 binary'
     description: ''
 -
@@ -1166,7 +1166,7 @@
     subcategory: old
     category_icon: solaris
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/1.1.1/scummvm-1.1.1-solaris8-sparc.pkg.bz2'
+    url: /frs/scummvm/1.1.1/scummvm-1.1.1-solaris8-sparc.pkg.bz2
     name: '1.1.1 Solaris 8 and up (Sparc) binary'
     description: ''
 -
@@ -1175,7 +1175,7 @@
     subcategory: old
     category_icon: beos
     user_agent: BeOS
-    url: '/frs/scummvm-tools/{$release_tools}/1.0.0/scummvm-1.0.0-beos.tgz'
+    url: /frs/scummvm/1.0.0/scummvm-1.0.0-beos.tgz
     name: '1.0.0 BeOS package'
     description: ''
 -
@@ -1184,7 +1184,7 @@
     subcategory: old
     category_icon: palmos
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/0.11.1/scummvm-0.11.1-palmos-os5.zip'
+    url: /frs/scummvm/0.11.1/scummvm-0.11.1-palmos-os5.zip
     name: '0.11.1 PalmOS 5 binary'
     description: ''
 -
@@ -1193,7 +1193,7 @@
     subcategory: old
     category_icon: palmos
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/0.11.1/scummvm-0.11.1-palmos-zodiac.zip'
+    url: /frs/scummvm/0.11.1/scummvm-0.11.1-palmos-zodiac.zip
     name: '0.11.1 PalmOS Tapwave Zodiac binary'
     description: ''
 -
@@ -1202,7 +1202,7 @@
     subcategory: old
     category_icon: opie
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/0.11.1/scummvm-0.11.1-opie_arm.ipk'
+    url: /frs/scummvm/0.11.1/scummvm-0.11.1-opie_arm.ipk
     name: '0.11.1 Opie SDL package Only for iPAQ h1910/h1915 and MyPal 716'
     description: ''
 -
@@ -1211,7 +1211,7 @@
     subcategory: old
     category_icon: symbian
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/0.9.1/scummvm-0.9.1-s60-v1.sis'
+    url: /frs/scummvm/0.9.1/scummvm-0.9.1-s60-v1.sis
     name: '0.9.1 Symbian S60 version 1 binary'
     description: ''
 -
@@ -1220,7 +1220,7 @@
     subcategory: old
     category_icon: symbian
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/0.9.1/scummvm-0.9.1-s60-v2.sis'
+    url: /frs/scummvm/0.9.1/scummvm-0.9.1-s60-v2.sis
     name: '0.9.1 Symbian S60 version 2 binary'
     description: ''
 -
@@ -1229,7 +1229,7 @@
     subcategory: old
     category_icon: symbian
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/0.9.1/scummvm-0.9.1-s80.sis'
+    url: /frs/scummvm/0.9.1/scummvm-0.9.1-s80.sis
     name: '0.9.1 Symbian S80 binary'
     description: ''
 -
@@ -1238,7 +1238,7 @@
     subcategory: old
     category_icon: symbian
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/0.9.1/scummvm-0.9.1-s90.sis'
+    url: /frs/scummvm/0.9.1/scummvm-0.9.1-s90.sis
     name: '0.9.1 Symbian S90 binary'
     description: ''
 -
@@ -1247,7 +1247,7 @@
     subcategory: old
     category_icon: symbian
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/0.9.1/scummvm-0.9.1-uiq2.sis'
+    url: /frs/scummvm/0.9.1/scummvm-0.9.1-uiq2.sis
     name: '0.9.1 Symbian UIQ 2 binary'
     description: ''
 -
@@ -1256,7 +1256,7 @@
     subcategory: old
     category_icon: mandriva
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/0.8.0/scummvm-0.8.0-1mdk.i586.rpm'
+    url: /frs/scummvm/0.8.0/scummvm-0.8.0-1mdk.i586.rpm
     name: '0.8.0 Mandriva 2006 package'
     description: ''
 -
@@ -1265,7 +1265,7 @@
     subcategory: old
     category_icon: wince
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/0.7.1/scummvm-0.7.1-PocketPC_MIPS.zip'
+    url: /frs/scummvm/0.7.1/scummvm-0.7.1-PocketPC_MIPS.zip
     name: '0.7.1 PocketPC MIPS binary'
     description: ''
 -
@@ -1274,7 +1274,7 @@
     subcategory: old
     category_icon: wince
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/0.7.1/scummvm-0.7.1-PocketPC_SH3.zip'
+    url: /frs/scummvm/0.7.1/scummvm-0.7.1-PocketPC_SH3.zip
     name: '0.7.1 PocketPC SH3 binary'
     description: ''
 -
@@ -1283,7 +1283,7 @@
     subcategory: old
     category_icon: wince
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/0.7.1/scummvm-0.7.1-HandheldPC_ARM.zip'
+    url: /frs/scummvm/0.7.1/scummvm-0.7.1-HandheldPC_ARM.zip
     name: '0.7.1 HandheldPC ARM binary'
     description: ''
 -
@@ -1292,7 +1292,7 @@
     subcategory: old
     category_icon: wince
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/0.7.1/scummvm-0.7.1-HandheldPC_MIPS.zip'
+    url: /frs/scummvm/0.7.1/scummvm-0.7.1-HandheldPC_MIPS.zip
     name: '0.7.1 HandheldPC MIPS binary'
     description: ''
 -
@@ -1301,7 +1301,7 @@
     subcategory: old
     category_icon: wince
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/0.7.1/scummvm-0.7.1-HandheldPC_SH3.zip'
+    url: /frs/scummvm/0.7.1/scummvm-0.7.1-HandheldPC_SH3.zip
     name: '0.7.1 HandheldPC SH3 binary'
     description: ''
 -
@@ -1310,7 +1310,7 @@
     subcategory: old
     category_icon: macos9
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/0.2.0/scummvm-0.2.0-macos9.sit'
+    url: /frs/scummvm/0.2.0/scummvm-0.2.0-macos9.sit
     name: '0.2.0 Mac OS 9 package'
     description: ''
 -
