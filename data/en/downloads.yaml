@@ -1,0 +1,1594 @@
+# This is a generated file, please do not edit manually
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: windows
+    user_agent: Windows
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-win32.exe'
+    name: 'Windows Installer (32 and 64 bit)'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: windows
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-win32-x86_64.zip'
+    name: 'Windows zipfile (64 bit)'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: windows
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-win32.zip'
+    name: 'Windows zipfile (32 bit)'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: winxp
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-winxp-win32.exe'
+    name: 'Windows XP Installer'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: winxp
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-winxp-win32.zip'
+    name: 'Windows XP zipfile (32 bit)'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: winxp
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-winxp-win32-x86_64.zip'
+    name: 'Windows XP zipfile (64 bit)'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: win95
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-win9x-win32.exe'
+    name: 'Windows 95+ Installer'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: snap
+    user_agent: Ubuntu
+    url: 'https://snapcraft.io/scummvm'
+    name: 'Snap package hosted at the snapcraft.io store'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: flatpak
+    user_agent: Ubuntu
+    url: 'https://flathub.org/apps/details/org.scummvm.ScummVM'
+    name: 'Flatpak package hosted at the flathub.org repository'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: debian
+    user_agent: Debian
+    url: '/frs/scummvm/{$release}/scummvm_{$release}-1_debian10_amd64.deb'
+    name: 'Debian 10 (buster) x86 64bit package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: debian
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm_{$release}-1_debian10_i386.deb'
+    name: 'Debian 10 (buster) i386 package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: debian
+    user_agent: Debian
+    url: '/frs/scummvm/{$release}/scummvm_{$release}-1_debian9_amd64.deb'
+    name: 'Debian 9 (stretch) x86 64bit package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: debian
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm_{$release}-1_debian9_i386.deb'
+    name: 'Debian 9 (stretch) i386 package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: ubuntu
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm_{$release}-1_ubuntu20.04-lts_amd64.deb'
+    name: 'Ubuntu 20.04 LTS (focal) x86 64bit package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: ubuntu
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm_{$release}-1_ubuntu19.10_amd64.deb'
+    name: 'Ubuntu 19.10 (eoam) x86 64bit package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: ubuntu
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm_{$release}-1_ubuntu19.10_i386.deb'
+    name: 'Ubuntu 19.10 (eoan) i386 package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: ubuntu
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm_{$release}-1_ubuntu18.04-lts_i386.deb'
+    name: 'Ubuntu 18.04 LTS (bionic) i386 package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: macos
+    user_agent: Mac
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-macosx.dmg'
+    name: 'macOS 10.9+ 64 bits with Sparkle Disk Image'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: macostiger
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-macosx-i386.dmg'
+    name: 'Mac OS X 10.6+ intel 32 bits (without Sparkle) Disk Image'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: macosppc
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-macosx-ppc.dmg'
+    name: 'Mac OS X 10.4+ PPC 32 bits (without Sparkle) Disk Image'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: ps3
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-ps3.zip'
+    name: 'PlayStation3 package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: psp
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-psp.zip'
+    name: 'PSP (PlayStation Portable) package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: psp2
+    user_agent: 'PlayStation Portable'
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-vita.vpk'
+    name: 'PlayStation Vita package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: android
+    user_agent: Android
+    url: 'https://play.google.com/store/apps/details?id=org.scummvm.scummvm'
+    name: 'Android app on Google Play Store'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: android
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-2.2.1-android-arm-v7a-251020-1355.apk'
+    name: 'Android ARMv7a package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: android
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-2.2.1-android-arm64-v8a-251020-1355.apk'
+    name: 'Android ARM64v8a package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: android
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-2.2.1-android-x86-251020-1355.apk'
+    name: 'Android x86 32bit package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: android
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-2.2.1-android-x86_64-251020-1355.apk'
+    name: 'Android x86 64bit package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: symbian
+    user_agent: SymbOS
+    url: '/frs/scummvm/{$release}/scummvm-2.2.0.1-SymbianS60.zip'
+    name: 'Symbian S60 split binary'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: iphone
+    user_agent: iOS
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-ios.deb'
+    name: 'iOS 8+ package .deb'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: iphone
+    user_agent: iOS
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-ios.ipa'
+    name: 'iOS 8+ package .ipa'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: iphone
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-ios3.deb'
+    name: 'iOS 3+ package .deb'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: dc
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-dreamcast-plainfiles.tar.bz2'
+    name: 'Dreamcast plain files'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: dc
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-dreamcast-nero+demos.zip'
+    name: 'Dreamcast Nero Image & Demos'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: 3ds
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-3ds.zip'
+    name: 'Nintendo 3DS package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: switch
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-switch.zip'
+    name: 'Nintendo Switch package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: openpandora
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-openpandora.zip'
+    name: 'OpenPandora package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: wii
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-wii.zip'
+    name: 'Wii package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: gcw0
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-gcw0.opk'
+    name: 'GCW-Zero package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: irix
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-irix-mips3.tar.gz'
+    name: 'IRIX (6.5.*, n32, mips3) package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: irix
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-irix-mips4.tar.gz'
+    name: 'IRIX (6.5.*, n32, mips4) package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: haiku
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm_x86-{$release}-3-x86_gcc2.hpkg'
+    name: 'Haiku package 32bits'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: haiku
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-3-x86_64.hpkg'
+    name: 'Haiku package 64bits'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: amiga
+    user_agent: Amiga
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-amigaos4.lha'
+    name: 'AmigaOS 4 package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: morphos
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-morphos.lha'
+    name: 'MorphOS package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: riscos
+    user_agent: 'RISC OS'
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-riscos.zip'
+    name: 'RISC OS package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: riscos
+    user_agent: 'RISC OS'
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-riscos-vfp.zip'
+    name: 'RISC OS VFP package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: freemint
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-atari-m68000.zip'
+    name: 'Atari/FreeMiNT package (m68000 and up)'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: freemint
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-atari-m68020-60.zip'
+    name: 'Atari/FreeMiNT package (m68020 - m68060)'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: freemint
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-atari-m5475.zip'
+    name: 'Atari/FreeMiNT package (Coldfire MCF5475 / Firebee)'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: samsungtv
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-samsungtv.zip'
+    name: 'Samsung TV package (2009 series)'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: release
+    category_icon: windows
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-win32-x86_64.exe'
+    name: 'Windows 64bit Installer'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: release
+    category_icon: fedora
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-1.i386.rpm'
+    name: 'Fedora 8-20+ i386 package'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: release
+    category_icon: fedora
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-1.x86_64.rpm'
+    name: 'Fedora 24+ x86 64bit package'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: release
+    category_icon: slackware
+    user_agent: Fedora
+    url: '/frs/scummvm/{$release}/scummvm-{$release}_slack-i486-1.tgz'
+    name: 'SlackWare i486 package'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: release
+    category_icon: slackware
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}_slack-x86_64-1.txz'
+    name: 'SlackWare x86 64bit package'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: release
+    category_icon: ps2
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-ps2.zip'
+    name: 'PlayStation2 package'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: release
+    category_icon: ds
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-ds.zip'
+    name: 'Nintendo DS package'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: release
+    category_icon: ouya
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-android-ouya.apk'
+    name: 'OUYA package'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: release
+    category_icon: uiq
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-uiq3.zip'
+    name: 'Symbian UIQ 3 binary'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: release
+    category_icon: wince
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-wince.zip'
+    name: 'Windows CE ARM package'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: release
+    category_icon: maemo
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm_{$release}-maemo_armel.deb'
+    name: 'Maemo package (OS 2008 and Maemo5/Fremantle)'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: release
+    category_icon: n64
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-n64.zip'
+    name: 'Nintendo 64 package'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: release
+    category_icon: gc
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-gamecube.zip'
+    name: 'Nintendo GameCube package'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: release
+    category_icon: os2
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-os2.zip'
+    name: 'OS/2 package'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: release
+    category_icon: raspberry
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-rpi.zip'
+    name: 'Raspberry Pi package (for Pi 2 and 3'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: release
+    category_icon: solaris
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-solaris10-sparc.pkg.7z'
+    name: 'Solaris 10 sparc, Solaris 11 sparc binary'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: release
+    category_icon: solaris
+    user_agent: SunOS
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-solaris10-x86.pkg.7z'
+    name: 'Solaris 10 x86, Solaris 11 x86, OpenIndiana binary'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: source
+    category_icon: cpp
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}.tar.lz'
+    name: 'ScummVM - Source .tar.lz'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: source
+    category_icon: cpp
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}.tar.xz'
+    name: 'ScummVM - Source .tar.xz'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: source
+    category_icon: cpp
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}.tar.bz2'
+    name: 'ScummVM - Source .tar.bz2'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: source
+    category_icon: cpp
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}.tar.gz'
+    name: 'ScummVM - Source .tar.gz'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: source
+    category_icon: cpp
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm-{$release}.zip'
+    name: 'ScummVM - Source .zip'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: source
+    category_icon: cpp
+    user_agent: OS/2
+    url: '/frs/scummvm/{$release}/scummvm-{$release}-2.src.rpm'
+    name: 'ScummVM - Source RPM'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: tools
+    category_icon: windows
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}-win32.zip'
+    name: 'Tools - Windows 32bit zipfile'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: tools
+    category_icon: windows
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}-win32-x86_64.zip'
+    name: 'Tools - Windows 64bit zipfile'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: tools
+    category_icon: macos
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}-macosx.dmg'
+    name: 'Tools - Mac OS X Intel binaries (10.6 and up)'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: tools
+    category_icon: haiku
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm_tools_x86-{$release_tools}-1-x86_gcc2.hpkg'
+    name: 'Tools - Haiku package 32 bits package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: tools
+    category_icon: haiku
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm_tools-{$release_tools}-1-x86_64.hpkg'
+    name: 'Tools - Haiku package 64 bits package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: tools
+    category_icon: amiga
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}-amigaos4.lha'
+    name: 'Tools - AmigaOS 4 package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: tools
+    category_icon: morphos
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}-morphos.lha'
+    name: 'Tools - MorphOS package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: tools
+    category_icon: riscos
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}-riscos.zip'
+    name: 'Tools - RISC OS package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: tools
+    category_icon: freemint
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}-atari-m68000.zip'
+    name: 'Tools - Atari/FreeMiNT package (68000 and up)'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: tools
+    category_icon: freemint
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}-atarim68020-60.zip'
+    name: 'Tools - Atari/FreeMiNT package (m68020 - m68060)'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: tools
+    category_icon: freemint
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}-atari-m5475.zip'
+    name: 'Tools - Atari/FreeMiNT package (Coldfire MCF5475 / Firebee)'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: tools
+    category_icon: windows
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}-win32.exe'
+    name: 'Tools - Windows Installer'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: tools
+    category_icon: fedora
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}-1_F11.i586.rpm'
+    name: 'Tools - Fedora 11 and 12 i586 RPM'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: tools
+    category_icon: fedora
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}-1_F11.x86_64.rpm'
+    name: 'Tools - Fedora 11 and 12 x86 64bit RPM'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: tools
+    category_icon: solaris
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}-solaris8-sparc.pkg.bz2'
+    name: 'Tools - Solaris 8 (Sparc)'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: tools
+    category_icon: solaris
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}-solaris10-x86.pkg.bz2'
+    name: 'Tools - Solaris 10 (both IA32 and AMD64)'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: tools
+    category_icon: irix
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}-irix-mips3.tar.bz2'
+    name: 'Tools - IRIX (6.5.*, n32, mips3) package'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: tools
+    category_icon: irix
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}-irix-mips4.tar.bz2'
+    name: 'Tools - IRIX (6.5.*, n32, mips4) package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: tools
+    category_icon: cpp
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}.tar.lz'
+    name: 'Tools - Source .tar.lz'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: tools
+    category_icon: cpp
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}.tar.xz'
+    name: 'Tools - Source .tar.xz'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: tools
+    category_icon: cpp
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}.tar.bz2'
+    name: 'Tools - Source .tar.bz2'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: tools
+    category_icon: cpp
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}.tar.gz'
+    name: 'Tools - Source .tar.gz'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: tools
+    category_icon: cpp
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}.zip'
+    name: 'Tools - Source .zip'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: tools
+    category_icon: beos
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}-beos.tgz'
+    name: 'Tools - BeOS'
+    description: ''
+-
+    enabled: false
+    category: current
+    subcategory: tools
+    category_icon: cpp
+    user_agent: ''
+    url: '/frs/scummvm/scummvm-tools-{$release_tools}-1.src.rpm'
+    name: 'Tools - Source RPM'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: maemo
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/2.1.1/scummvm_2.1.1-maemo_armel.deb'
+    name: '2.1.1 Maemo package (OS 2008 and Maemo5/Fremantle)'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: windows
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/2.1.0/scummvm-2.1.0-win32-x86_64.exe'
+    name: '2.1.0 Windows 64bit Installer'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: android
+    user_agent: Android
+    url: '/frs/scummvm-tools/{$release_tools}/2.0.0/scummvm-2.0.0-android-all.apk'
+    name: '2.0.0 Android package (all architectures)'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: fedora
+    user_agent: Fedora
+    url: '/frs/scummvm-tools/{$release_tools}/2.0.0/scummvm-2.0.0-1.x86_64.rpm'
+    name: '2.0.0 Fedora 24+ x86 64bit package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: raspberry
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/2.0.0/scummvm-2.0.0-rpi.zip'
+    name: '2.0.0 Raspberry Pi package (for Pi 2 and 3)'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: android
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.9.0/scummvm-1.9.0-android-mips.apk'
+    name: '1.9.0 Android MIPS package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: ouya
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.9.0/scummvm-1.9.0-android-ouya.apk'
+    name: '1.9.0 OUYA package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: os2
+    user_agent: OS/2
+    url: '/frs/scummvm-tools/{$release_tools}/1.9.0/scummvm-1.9.0-os2.zip'
+    name: '1.9.0 OS/2 package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: ps2
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.7.0/scummvm-1.7.0-ps2.zip'
+    name: '1.7.0 PlayStation2 package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: webos
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.7.0/scummvm-1.7.0-webos.zip'
+    name: '1.7.0 WebOS package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: tizen
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.7.0/scummvm-1.7.0-tizen.tpk'
+    name: '1.7.0 Tizen package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: gp2x
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.7.0/scummvm-1.7.0-gp2x.tar.bz2'
+    name: '1.7.0 GP2X package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: gp2xwiz
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.7.0/scummvm-1.7.0-gp2xwiz.tar.bz2'
+    name: '1.7.0 GP2X Wiz package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: caanoo
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.7.0/scummvm-1.7.0-caanoo.tar.bz2'
+    name: '1.7.0 Caanoo package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: slackware
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.6.0/scummvm-1.6.0_slack-i486-1.tgz'
+    name: '1.6.0 SlackWare i486 package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: slackware
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.6.0/scummvm-1.6.0_slack-x86_64-1.txz'
+    name: '1.6.0 SlackWare x86 64bit package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: n64
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.6.0/scummvm-1.6.0-n64.zip'
+    name: '1.6.0 Nintendo 64 package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: dingux
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.6.0/scummvm-1.6.0-dingux.zip'
+    name: '1.6.0 Dingux package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: solaris
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.6.0/scummvm-1.6.0-solaris10-sparc.pkg.7z'
+    name: '1.6.0 Solaris 10 sparc, Solaris 11 sparc binary'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: solaris
+    user_agent: SunOS
+    url: '/frs/scummvm-tools/{$release_tools}/1.6.0/scummvm-1.6.0-solaris10-x86.pkg.7z'
+    name: '1.6.0 Solaris 10 x86, Solaris 11 x86, OpenIndiana binary'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: wince
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.5.0/scummvm-1.5.0-wince.zip'
+    name: '1.5.0 Windows CE ARM package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: gc
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.5.0/scummvm-1.5.0-gamecube.zip'
+    name: '1.5.0 Nintendo GameCube package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: debian
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.4.1/scummvm_1.4.1-squeeze.1_powerpc.deb'
+    name: '1.4.1 Debian 6.0 (squeeze) PowerPC package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: solaris
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.4.1/scummvm-1.4.1-solaris10-x86.pkg.bz2'
+    name: '1.4.1 Solaris 10 (both IA32 and AMD64) binary'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: linuxmoto
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.3.0/scummvm-1.3.0-motoezx.pkg'
+    name: '1.3.0 Motorola A1200, ROKR E6, A1600 package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: linuxmoto
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.3.0/scummvm-1.3.0-motomagx.mgx'
+    name: '1.3.0 Motorola E8, EM30, ZN5, U9 package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: linuxmoto
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.3.0/scummvm-1.3.0-motomagx.pep'
+    name: '1.3.0 Motorola Z6, V8 package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: linuxmoto
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.3.0/scummvm-1.3.0-motomagx.mpkg'
+    name: '1.3.0 Motorola Z6, V8 package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: ds
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.2.1/scummvm-1.2.1-ds.zip'
+    name: '1.2.1 Nintendo DS package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: symbian
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.2.1/scummvm-1.2.1-uiq3.sis'
+    name: '1.2.1 Symbian UIQ 3 binary'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: solaris
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/1.1.1/scummvm-1.1.1-solaris8-sparc.pkg.bz2'
+    name: '1.1.1 Solaris 8 and up (Sparc) binary'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: beos
+    user_agent: BeOS
+    url: '/frs/scummvm-tools/{$release_tools}/1.0.0/scummvm-1.0.0-beos.tgz'
+    name: '1.0.0 BeOS package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: palmos
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/0.11.1/scummvm-0.11.1-palmos-os5.zip'
+    name: '0.11.1 PalmOS 5 binary'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: palmos
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/0.11.1/scummvm-0.11.1-palmos-zodiac.zip'
+    name: '0.11.1 PalmOS Tapwave Zodiac binary'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: opie
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/0.11.1/scummvm-0.11.1-opie_arm.ipk'
+    name: '0.11.1 Opie SDL package Only for iPAQ h1910/h1915 and MyPal 716'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: symbian
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/0.9.1/scummvm-0.9.1-s60-v1.sis'
+    name: '0.9.1 Symbian S60 version 1 binary'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: symbian
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/0.9.1/scummvm-0.9.1-s60-v2.sis'
+    name: '0.9.1 Symbian S60 version 2 binary'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: symbian
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/0.9.1/scummvm-0.9.1-s80.sis'
+    name: '0.9.1 Symbian S80 binary'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: symbian
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/0.9.1/scummvm-0.9.1-s90.sis'
+    name: '0.9.1 Symbian S90 binary'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: symbian
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/0.9.1/scummvm-0.9.1-uiq2.sis'
+    name: '0.9.1 Symbian UIQ 2 binary'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: mandriva
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/0.8.0/scummvm-0.8.0-1mdk.i586.rpm'
+    name: '0.8.0 Mandriva 2006 package'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: wince
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/0.7.1/scummvm-0.7.1-PocketPC_MIPS.zip'
+    name: '0.7.1 PocketPC MIPS binary'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: wince
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/0.7.1/scummvm-0.7.1-PocketPC_SH3.zip'
+    name: '0.7.1 PocketPC SH3 binary'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: wince
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/0.7.1/scummvm-0.7.1-HandheldPC_ARM.zip'
+    name: '0.7.1 HandheldPC ARM binary'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: wince
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/0.7.1/scummvm-0.7.1-HandheldPC_MIPS.zip'
+    name: '0.7.1 HandheldPC MIPS binary'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: wince
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/0.7.1/scummvm-0.7.1-HandheldPC_SH3.zip'
+    name: '0.7.1 HandheldPC SH3 binary'
+    description: ''
+-
+    enabled: true
+    category: legacy
+    subcategory: old
+    category_icon: macos9
+    user_agent: ''
+    url: '/frs/scummvm-tools/{$release_tools}/0.2.0/scummvm-0.2.0-macos9.sit'
+    name: '0.2.0 Mac OS 9 package'
+    description: ''
+-
+    enabled: true
+    category: extras
+    subcategory: games
+    category_icon: ''
+    user_agent: ''
+    url: /games
+    name: 'Games page'
+    description: 'Freeware game downloads and game extras'
+-
+    enabled: true
+    category: extras
+    subcategory: games
+    category_icon: ''
+    user_agent: ''
+    url: /demos
+    name: 'Demos page'
+    description: 'Game demos'
+-
+    enabled: true
+    category: extras
+    subcategory: engine
+    category_icon: ''
+    user_agent: ''
+    url: 'https://github.com/scummvm/scummvm/raw/master/dists/engine-data/kyra.dat'
+    name: kyra.dat
+    description: 'Kyrandia and Lands of Lore'
+-
+    enabled: true
+    category: extras
+    subcategory: engine
+    category_icon: ''
+    user_agent: ''
+    url: 'https://github.com/scummvm/scummvm/raw/master/dists/engine-data/lure.dat'
+    name: lure.dat
+    description: 'Lure of the Temptress'
+-
+    enabled: true
+    category: extras
+    subcategory: engine
+    category_icon: ''
+    user_agent: ''
+    url: 'https://github.com/scummvm/scummvm/raw/master/dists/engine-data/queen.tbl'
+    name: queen.tbl
+    description: 'Flight of the Amazon Queen'
+-
+    enabled: true
+    category: extras
+    subcategory: engine
+    category_icon: ''
+    user_agent: ''
+    url: 'https://github.com/scummvm/scummvm/raw/master/dists/engine-data/sky.cpt'
+    name: sky.cpt
+    description: 'Beneath a Steel Sky'
+-
+    enabled: true
+    category: extras
+    subcategory: subprojects
+    category_icon: ''
+    user_agent: ''
+    url: /frs/extras/ScummEx/scummex-win32.exe
+    name: ScummEx
+    description: 'ScummEx is a multi-platform SCUMM resource browser, viewer and extractor  using the wxWindows toolkit. <p>Development on this project is currently stalled. The code-base needs  quite some cleanup, and viewers for many resource types still need adding  to the code. Patches and volunteers are very welcome...</p>'
+-
+    enabled: true
+    category: daily
+    subcategory: daily_downloads
+    category_icon: windows
+    user_agent: ''
+    url: /frs/daily/scummvm-snapshot-win32.exe
+    name: 'ScummVM Snapshot for Windows'
+    description: 'Provided by ScummVM Team member Lothar Serra Mari, updated several times  daily'
+-
+    enabled: true
+    category: daily
+    subcategory: daily_downloads
+    category_icon: windows
+    user_agent: ''
+    url: /frs/daily/scummvm-tools-snapshot-win32.zip
+    name: 'ScummVM Tools Snapshot for Windows'
+    description: 'Provided by ScummVM Team member Lothar Serra Mari, updated several times  daily'
+-
+    enabled: false
+    category: daily
+    subcategory: daily_downloads
+    category_icon: debian
+    user_agent: ''
+    url: /frs/daily/scummvm_debian_i386.deb
+    name: 'Debian i386 ScummVM Daily Snapshot'
+    description: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
+-
+    enabled: false
+    category: daily
+    subcategory: daily_downloads
+    category_icon: debian
+    user_agent: ''
+    url: /frs/daily/scummvm_debian_amd64.deb
+    name: 'Debian x86_64 ScummVM Daily Snapshot'
+    description: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
+-
+    enabled: false
+    category: daily
+    subcategory: daily_downloads
+    category_icon: ubuntu
+    user_agent: ''
+    url: /frs/daily/scummvm_ubuntu_i386.deb
+    name: 'Ubuntu i386 ScummVM Daily Snapshot'
+    description: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
+-
+    enabled: false
+    category: daily
+    subcategory: daily_downloads
+    category_icon: ubuntu
+    user_agent: ''
+    url: /frs/daily/scummvm_ubuntu_amd64.deb
+    name: 'Ubuntu x86_64 ScummVM Daily Snapshot'
+    description: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
+-
+    enabled: true
+    category: daily
+    subcategory: daily_downloads
+    category_icon: cpp
+    user_agent: ''
+    url: 'https://github.com/scummvm/scummvm'
+    name: 'Git Repository'
+    description: '(for if you wish to retrieve the latest code to compile yourself)'
+-
+    enabled: true
+    category: libs
+    subcategory: required
+    category_icon: ''
+    user_agent: ''
+    url: 'http://www.libsdl.org/download-2.0.php'
+    name: 'SDL 2.0.x'
+    description: '(or SDL 1.2.x)'
+-
+    enabled: true
+    category: libs
+    subcategory: optional
+    category_icon: ''
+    user_agent: ''
+    url: 'http://www.underbit.com/products/mad/'
+    name: MAD
+    description: 'MPEG Audio Decoder'
+-
+    enabled: true
+    category: libs
+    subcategory: optional
+    category_icon: ''
+    user_agent: ''
+    url: 'http://www.xiph.org/vorbis/'
+    name: 'Ogg Vorbis'
+    description: 'A free codec for lossy audio compression'
+-
+    enabled: true
+    category: libs
+    subcategory: optional
+    category_icon: ''
+    user_agent: ''
+    url: 'https://xiph.org/flac/'
+    name: FLAC
+    description: 'Free Lossless Audio Codec'
+-
+    enabled: true
+    category: libs
+    subcategory: optional
+    category_icon: ''
+    user_agent: ''
+    url: 'http://liba52.sourceforge.net'
+    name: liba52
+    description: 'ATSC A/52 stream decoder'
+-
+    enabled: true
+    category: libs
+    subcategory: optional
+    category_icon: ''
+    user_agent: ''
+    url: 'http://www.audiocoding.com/faad2.html'
+    name: FAAD2
+    description: 'MPEG-4 and MPEG-2 AAC Decoder'
+-
+    enabled: true
+    category: libs
+    subcategory: optional
+    category_icon: ''
+    user_agent: ''
+    url: 'http://theora.org/'
+    name: Theora
+    description: 'Theora Decoder'
+-
+    enabled: true
+    category: libs
+    subcategory: optional
+    category_icon: ''
+    user_agent: ''
+    url: 'http://libmpeg2.sourceforge.net/'
+    name: mpeg2
+    description: 'mpeg2 Decoder'
+-
+    enabled: true
+    category: libs
+    subcategory: optional
+    category_icon: ''
+    user_agent: ''
+    url: 'http://www.libpng.org/pub/png/libpng.html'
+    name: png
+    description: 'png image format decoder'
+-
+    enabled: true
+    category: libs
+    subcategory: optional
+    category_icon: ''
+    user_agent: ''
+    url: 'http://www.ijg.org'
+    name: jpeg
+    description: '(or jpeg-turbo) jpeg image format decoder'
+-
+    enabled: true
+    category: libs
+    subcategory: optional
+    category_icon: ''
+    user_agent: ''
+    url: 'http://zlib.net/'
+    name: zlib
+    description: 'Data Compression'
+-
+    enabled: true
+    category: libs
+    subcategory: optional
+    category_icon: ''
+    user_agent: ''
+    url: 'http://www.fluidsynth.org/'
+    name: FluidSynth
+    description: 'Real-Time Software MIDI Synthesizer'
+-
+    enabled: true
+    category: libs
+    subcategory: optional
+    category_icon: ''
+    user_agent: ''
+    url: 'http://libtimidity.sourceforge.net/'
+    name: Timidity
+    description: 'MIDI to WAVE converter library'
+-
+    enabled: true
+    category: libs
+    subcategory: optional
+    category_icon: ''
+    user_agent: ''
+    url: 'http://www.freetype.org/'
+    name: FreeType
+    description: 'Font rendering'
+-
+    enabled: true
+    category: libs
+    subcategory: optional
+    category_icon: ''
+    user_agent: ''
+    url: 'https://github.com/fribidi/fribidi'
+    name: FriBiDi
+    description: 'Bidirectional text support'
+-
+    enabled: true
+    category: libs
+    subcategory: optional
+    category_icon: ''
+    user_agent: ''
+    url: 'https://www.libsdl.org/projects/SDL_net/'
+    name: 'SDL_net 2.0'
+    description: 'Networking library'
+-
+    enabled: true
+    category: libs
+    subcategory: optional
+    category_icon: ''
+    user_agent: ''
+    url: 'https://curl.haxx.se/libcurl/'
+    name: curl
+    description: 'URL transfer library'
