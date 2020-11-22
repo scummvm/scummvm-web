@@ -55,6 +55,7 @@ class Controller
         $this->smarty->registerPlugin('modifier', 'date_localized', array(&$this, 'dateLocalizedSmartyModifier'));
         $this->smarty->registerPlugin('modifier', 'lang', array(&$this, 'langModifier'));
         $this->smarty->registerPlugin('modifier', 'download', array(&$this, 'downloadsSmartyModifier'));
+        $this->smarty->registerPlugin('modifier', 'release', array(&$this, 'releaseSmartyModifier'));
 
         $this->css_files = array();
         $this->js_files = array();
@@ -145,14 +146,24 @@ class Controller
     public function downloadsSmartyModifier($path)
     {
         if (\strpos($path, "http") === 0) {
-          return $path;
+            return $path;
         } elseif (\strpos($path, "/frs") === 0) {
-          return DOWNLOADS_BASE . $path;
+            return DOWNLOADS_BASE . $path;
         } elseif (\strpos($path, "frs") === 0) {
-          return DOWLOADS_BASE . "/$path";
+            return DOWNLOADS_BASE . "/$path";
         }
 
         return $path;
+    }
+
+    /**
+     * Formating of version, registered as a modifier for Smarty templates.
+     */
+    public function releaseSmartyModifier($string)
+    {
+        $string = preg_replace("/\{release\}/", RELEASE, $string);
+        $string = preg_replace("/\{release_tools\}/", RELEASE_TOOLS, $string);
+        return $string;
     }
 
     /* Render the HTML using the template and any set variables and displays it. */
