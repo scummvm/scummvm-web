@@ -20,15 +20,11 @@ class GamesPage extends Controller
     public function index()
     {
         $downloads = $this->gameDownloadsModel->getAllDownloads();
-        $sections = $this->gameDownloadsModel->getAllSections();
         return $this->renderPage(
             array(
                 'title' => $this->getConfigVars('gamesTitle'),
                 'content_title' => $this->getConfigVars('gamesContentTitle'),
                 'downloads' => $downloads,
-                'sections' => $sections,
-                'release_tools' => RELEASE_TOOLS,
-                'release_debian' => RELEASE_DEBIAN,
             )
         );
     }
