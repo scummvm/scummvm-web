@@ -26,7 +26,9 @@ class DataUtils
         'versions' => '1225902887',
         'game_demos' => '713475305',
         'series' => '1095671818',
-        'screenshots' => '1985243204'
+        'screenshots' => '1985243204',
+        'downloads' => '373699606',
+        'game_resources' => '1287892109',
     ];
 
 
@@ -49,6 +51,19 @@ class DataUtils
             // and cannot be converted directly to yaml
             $json = \json_encode($records);
             $data = \json_decode($json, true);
+
+            // Convert TRUE/FALSE strings to Booleans
+            foreach ($data as $objKey => $obj) {
+                foreach ($obj as $key => $val) {
+                    if ($val === 'TRUE') {
+                        $data[$objKey][$key] = true;
+                    } elseif ($val === 'FALSE') {
+                        $data[$objKey][$key] = false;
+                    }
+                }
+            }
+
+            // Convert to YAML
             $yaml = Yaml::dump($data);
             $yaml = "# This is a generated file, please do not edit manually\n" . $yaml;
             $outFile = DIR_DATA . "/" . DEFAULT_LOCALE . "/$name.yaml";
