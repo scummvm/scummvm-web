@@ -19,16 +19,12 @@ class DownloadsPage extends Controller
     public function index()
     {
         $downloads = $this->downloadsModel->getAllDownloads();
-        $sections = $this->downloadsModel->getAllSections();
         $recommendedDownload = $this->downloadsModel->getRecommendedDownload();
         return $this->renderPage(
             array(
                 'title' => $this->getConfigVars('downloadsTitle'),
                 'content_title' => $this->getConfigVars('downloadsContentTitle'),
                 'downloads' => $downloads,
-                'sections' => $sections,
-                'release_tools' => RELEASE_TOOLS,
-                'release' => RELEASE,
                 'recommendedDownload' => $recommendedDownload
             )
         );
