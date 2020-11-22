@@ -16,7 +16,7 @@ class DownloadsModel extends BasicModel
     {
         $sections = $this->getFromCache();
         if (is_null($sections)) {
-            $fname = $this->getLocalizedFile('downloads.yaml');
+            $fname = $this->getLocalizedFile('scummvm_downloads.yaml');
             $parsedData = @Yaml::parseFile($fname);
             // error check yaml
 
