@@ -1,0 +1,22 @@
+---
+title: 'Big adventures ahead - Little Big Adventures'
+author: mgerhardy
+date: 1606086938
+---
+
+Once upon a time in the past - around the year 1994 - a software company called Adeline Software International released a game titled “Little Big Adventure” or “Relentless: Twinsen's Adventure”. This game, a classic pseudo-3D action adventure game with an epic story set on a fantastic planet, has now entered the testing stage in ScummVM. Please, note that a few features of the original game are not implemented yet. However, we also added a few features which are new for the game.
+
+Features not available yet and known issues:
+
+* The holomap is not yet available
+* Changing the rendering details is not supported yet
+* The credits sequence has a few rendering bugs
+
+New features:
+
+* An option to disable wall collision damage
+* Improved UI navigation
+
+This was all made possible by the people behind the [https://github.com/xesf/twin-e](TwinEngine) project and the LBA community.
+
+Please test the game with the latest [https://buildbot.scummvm.org/builds.html](development build) and report any issues you find on our [https://bugs.scummvm.org/](bug tracker).
