@@ -13,7 +13,7 @@
                                 {if $item->getType() == 'daily'}{#listItemsBuildFromRepo#} {/if}
                                 {$data.size} {if $data.ext == '.exe'}Win32 {/if}{$data.ext}{if $data.date != ""}{#listItemsDate#} {$data.date} {/if}
                                 &nbsp;
-                                {if $data.sha256 != ""} <span class="sha256-toggle" onclick="this.nextSibling.classList.toggle('hidden')"> sha256</span><span class="sha256-text hidden"> <a href="{eval var=$item->getURL()|download}.sha256">{$data.sha256}</a></span>{/if}
+                                {if $data.sha256 != ""} <span class="sha256-toggle" onclick="this.nextSibling.classList.toggle('hidden')"> sha256</span><span class="sha256-text hidden"> <a href="{{eval var=$item->getURL()}|download}.sha256">{$data.sha256}</a></span>{/if}
                                 ) {if $data.msg != ""}{$data.msg}{/if}
                             {else}
                                 {if $item->getType() != 'daily'}
@@ -34,7 +34,7 @@
                 </li>
             {elseif $item instanceof ScummVM\Objects\WebLink}
                 <li class="link">
-                    <a href="{$item->getURL()}">{$item->getName()}</a>{$item->getDescription()}
+                    <a href="{$item->getURL()}">{$item->getName()}</a>: {$item->getDescription()}
                 </li>
             {elseif $item instanceof ScummVM\Objects\Screenshot}
                 <li class="file">
