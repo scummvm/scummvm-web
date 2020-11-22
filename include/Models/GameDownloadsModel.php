@@ -2,62 +2,68 @@
 namespace ScummVM\Models;
 
 use ScummVM\Objects\DownloadsSection;
-use ScummVM\XMLParser;
+use Symfony\Component\Yaml\Yaml;
+use ScummVM\Models\GameModel;
 
 /**
  * The GameDownloadsModel will produce DownloadsSection objects.
  */
 class GameDownloadsModel extends BasicModel
 {
+    private $gameModel;
+
+    public function __construct()
+    {
+        $this->gameModel = new GameModel();
+    }
     /* Get all download entries. */
     public function getAllDownloads()
     {
-        $fname = $this->getLocalizedFile('games.xml');
-        /* Now parse the data. */
-        $parser = new XMLParser();
-        $parsedData = $parser->parseByFilename($fname);
-        $sections = array();
-        foreach (array_values($parsedData['downloads']['section']) as $value) {
-            $sections[] = new DownloadsSection($value);
-        }
-        return $sections;
-    }
-
-    /* Get all sections and their anchors. */
-    public function getAllSections()
-    {
         $sections = $this->getFromCache();
         if (is_null($sections)) {
-            /* Get the list with all downloads/sections. */
-            $downloads = $this->getAllDownloads();
-            $sections = array();
-            foreach ($downloads as $dsection) {
-                if ($dsection->getAnchor() != '' && $dsection->getTitle() != '') {
-                    $sections[] = array(
-                        'title' => $dsection->getTitle(),
-                        'anchor' => $dsection->getAnchor(),
-                    );
+            $fname = $this->getLocalizedFile('game_resources.yaml');
+            $parsedData = @Yaml::parseFile($fname);
+            // error check yaml
+
+            $sections = [];
+            $sectionsData = $this->getSectionData();
+            $games = $this->gameModel->getAllGames();
+            foreach ($parsedData as $data) {
+                // Create Sections
+                $category = $data['category'];
+                if (!isset($sections[$category])) {
+                    $sections[$category] = new DownloadsSection([
+                        'anchor' => $category,
+                        'title' => $sectionsData[$category]['title'],
+                        'notes' => $sectionsData[$category]['notes']
+                    ]);
                 }
-                foreach ($dsection->getSubSections() as $dsubsection) {
-                    $title = $dsubsection->getTitle();
-                    /**
-                     * If there is no title for this subsection, use the section
-                     * title instead.
-                     */
-                    if (empty($title)) {
-                        $title = $dsection->getTitle();
-                    }
-                    $anchor = $dsubsection->getAnchor();
-                    if (!empty($anchor)) {
-                        $sections[] = array(
-                            'title' => $title,
-                            'anchor' => $anchor,
-                        );
-                    }
+
+                // Create Subsections
+                $gameId = $data['game_id'];
+                if (!isset($sections[$category]->getSubSections()[$gameId])) {
+                    $sections[$category]->addSubsection(new DownloadsSection([
+                        'anchor' => $gameId,
+                        'title' => $games[$gameId]->getName(),
+                        'notes' => $sectionsData[$gameId]['notes']
+                    ]));
                 }
+
+                // Add Download to subsection
+                $data['name'] = $games[$gameId]->getName() . " - " . $data['name'];
+                $sections[$category]->getSubsections()[$gameId]->addItem($data);
             }
             $this->saveToCache($sections);
         }
         return $sections;
+    }
+
+    private function getSectionData() {
+        return [
+            "games"=>["title"=>"{#gamesXMLTitle#} {#downloadsXMLVersion#}"],
+            "addons"=>["title"=>"{#gamesXMLAddons#} {#downloadsXMLVersion#}"],
+            "sword1"=>["notes"=>"{#sword1AddonsNote#}"],
+            "sword2"=>["notes"=>"{#sword2AddonsNote#}"],
+          ];
     }
 }
