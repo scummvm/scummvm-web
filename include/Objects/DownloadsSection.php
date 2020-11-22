@@ -7,35 +7,29 @@ namespace ScummVM\Objects;
 class DownloadsSection extends BasicSection
 {
     private $notes;
-    private $footer;
-    private $files;
-    private $links;
     private $items;
-    private $baseUrl;
+    private $id;
 
+    /**
+     * __construct
+     *
+     * @param  mixed $data [id, notes, anchor, title]
+     * @return void
+     */
     public function __construct($data)
     {
         parent::__construct($data);
         $this->notes = $data['notes'];
-        $this->items = array();
+        $this->items = [];
 
-        if (isset($data['baseurl'])) {
-            $this->baseUrl = $data['baseurl'];
-        }
+    }
 
-        if (isset($data['entries'])) {
-            foreach ($data['entries'] as $type => $item) {
-                parent::toArray($item);
-                if ($type == 'file') {
-                    foreach ($item as $file) {
-                        $this->items[] = new File($file, $this->baseUrl);
-                    }
-                } elseif ($type == 'link') {
-                    foreach ($item as $link) {
-                        $this->items[] = new WebLink($link);
-                    }
-                }
-            }
+    public function addItem($item)
+    {
+        if ($item['category_icon']) {
+            $this->items[] = new File($item, '');
+        } else {
+            $this->items[] = new WebLink($item);
         }
     }
 
@@ -49,5 +43,15 @@ class DownloadsSection extends BasicSection
     public function getItems()
     {
         return $this->items;
+    }
+
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    public function addSubsection($section)
+    {
+        $this->subsections[$section->getAnchor()] = $section;
     }
 }

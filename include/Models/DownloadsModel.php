@@ -1,8 +1,9 @@
 <?php
+
 namespace ScummVM\Models;
 
 use ScummVM\Objects\DownloadsSection;
-use ScummVM\XMLParser;
+use Symfony\Component\Yaml\Yaml;
 use DeviceDetector\Parser\OperatingSystem as OsParser;
 
 /**
@@ -15,51 +16,63 @@ class DownloadsModel extends BasicModel
     {
         $sections = $this->getFromCache();
         if (is_null($sections)) {
-            $fname = $this->getLocalizedFile('downloads.xml');
-            /* Now parse the data. */
-            $parser = new XMLParser();
-            $parsedData = $parser->parseByFilename($fname);
-            $sections = array();
-            foreach (array_values($parsedData['downloads']['section']) as $value) {
-                $sections[] = new DownloadsSection($value);
+            $fname = $this->getLocalizedFile('downloads.yaml');
+            $parsedData = @Yaml::parseFile($fname);
+            // error check yaml
+
+            $sections = [];
+            $sectionsData = $this->getSectionData();
+            foreach ($parsedData as $data) {
+                if (!$data['enabled'] === TRUE) {
+                    continue;
+                }
+
+                // Create Sections
+                $category = $data['category'];
+                if (!isset($sections[$category])) {
+                    $sections[$category] = new DownloadsSection([
+                        'anchor' => $category,
+                        'title' => $sectionsData[$category]['title'],
+                        'notes' => $sectionsData[$category]['notes']
+                    ]);
+                }
+
+                // Create Subsections
+                $subCategory = $data['subcategory'];
+                if (!isset($sections[$category]->getSubSections()[$subCategory])) {
+                    $sections[$category]->addSubsection(new DownloadsSection([
+                        'anchor' => $subCategory,
+                        'title' => $sectionsData[$subCategory]['title'],
+                        'notes' => $sectionsData[$subCategory]['notes']
+                    ]));
+                }
+
+                // Add Download to subsection
+                $sections[$category]->getSubsections()[$subCategory]->addItem($data);
             }
             $this->saveToCache($sections);
         }
         return $sections;
     }
 
-    /* Get all sections and their anchors. */
-    public function getAllSections()
-    {
-        /* Get the list with all downloads/sections. */
-        $downloads = $this->getAllDownloads();
-        $sections = array();
-        foreach ($downloads as $dsection) {
-            if ($dsection->getAnchor() != '' && $dsection->getTitle() != '') {
-                $sections[] = array(
-                    'title' => $dsection->getTitle(),
-                    'anchor' => $dsection->getAnchor(),
-                );
-            }
-            foreach ($dsection->getSubSections() as $dsubsection) {
-                $title = $dsubsection->getTitle();
-                /**
-                 * If there is no title for this subsection, use the section
-                 * title instead.
-                 */
-                if (empty($title)) {
-                    $title = $dsection->getTitle();
-                }
-                $anchor = $dsubsection->getAnchor();
-                if (!empty($anchor)) {
-                    $sections[] = array(
-                        'title' => $title,
-                        'anchor' => $anchor,
-                    );
-                }
-            }
-        }
-        return $sections;
+    private function getSectionData() {
+        return [
+            "current"=>["title"=>"{#downloadsXMLTitle#} {#downloadsXMLVersion#}"],
+            "release"=>["title"=>"{#downloadsBinaries#}","notes"=>"{#downloadsBinariesNote1#} <a href='https://downloads.scummvm.org/frs/scummvm/{ldelim}release{rdelim}/ReleaseNotes.html'>{#downloadsBinariesNote2#}</a>.<p>{#downloadsBinariesNote3#}</p>"],
+            "source"=>["title"=>"{#downloadsSourceCode#}"],
+            "tools"=>["title"=>"{#downloadsTools#}"],
+            "legacy"=>["title"=>"{#downloadsOldBinaries#}"],
+            "old"=>["title"=>"{#downloadsOld#}","notes"=>"{#downloadsOldBinariesNote#} {#downloadsOldBinariesFrsNote1#} <a href='https://downloads.scummvm.org/frs/scummvm/'>{#downloadsOldBinariesFrsNote2#}</a> {#downloadsOldBinariesFrsNote3#}"],
+            "extras"=>["title"=>"{#downloadsExtra#}"],
+            "games"=>["title"=>"{#downloadsGames#}"],
+            "engine"=>["title"=>"{#downloadEngineData#}"],
+            "subprojects"=>["title"=>"{#downloadsSubprojects#}"],
+            "daily"=>["title"=>"{#downloadsDailyBuilds#}"],
+            "daily_downloads"=>["title"=>"{#downloadsDailyBuilds#}","notes"=>"<strong>{#downloadsDailyNote1#}</strong> {#downloadsDailyNote2#}<p>{#downloadsDailyLink1#}{#downloadsDailyLink2#}</p><p>View the ChangeLog to see the latest updates of ScummVM.</p><p>{#downloadsDailyLink3#}</p>"],
+            "libs"=>["title"=>"{#downloadsLibraries#}"],
+            "required"=>["title"=>"{#downloadsRequiredLibraries#}"],
+            "optional"=>["title"=>"{#downloadsOptionalLibraries#}"]
+          ];
     }
 
     /* Get the recommended download */
@@ -75,11 +88,11 @@ class DownloadsModel extends BasicModel
         $osParser->setUserAgent($_SERVER['HTTP_USER_AGENT']);
         $os = $osParser->parse();
 
-        foreach ($downloads as $dsection) {
-            foreach ($dsection->getSubSections() as $dsubsection) {
+        foreach ($downloads as $section) {
+            foreach ($section->getSubSections() as $subsection) {
                 $version = array_values(
                     array_filter(
-                        $dsubsection->getItems(),
+                        $subsection->getItems(),
                         function ($item) use ($os) {
                             if ($item->getUserAgent() != "") {
                                 $ua = preg_quote($item->getUserAgent(), '/');
@@ -121,12 +134,12 @@ class DownloadsModel extends BasicModel
                         $extra_text = '(snap install scummvm)';
                     }
 
-                    return array(
-                    'os' => $name,
-                    'ver' => $version,
-                    'desc' => $extra_text,
-                    'url' => $url,
-                    );
+                    return [
+                        'os' => $name,
+                        'ver' => $version,
+                        'desc' => $extra_text,
+                        'url' => $url,
+                    ];
                 }
             }
         }
