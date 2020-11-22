@@ -161,8 +161,8 @@ class Controller
      */
     public function releaseSmartyModifier($string)
     {
-        $string = preg_replace("/\{\$?release\}/", RELEASE, $string);
-        $string = preg_replace("/\{\$?release_tools\}/", RELEASE_TOOLS, $string);
+        $string = preg_replace("/\{[$]?release\}/", RELEASE, $string);
+        $string = preg_replace("/\{[$]?release_tools\}/", RELEASE_TOOLS, $string);
         return $string;
     }
 
