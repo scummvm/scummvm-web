@@ -21,7 +21,7 @@ class GameDownloadsModel extends BasicModel
     {
         $sections = $this->getFromCache();
         if (is_null($sections)) {
-            $fname = $this->getLocalizedFile('game_resources.yaml');
+            $fname = $this->getLocalizedFile('game_downloads.yaml');
             $parsedData = @Yaml::parseFile($fname);
             // error check yaml
 
