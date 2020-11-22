@@ -752,7 +752,7 @@
     subcategory: tools
     category_icon: freemint
     user_agent: ''
-    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}-atarim68020-60.zip'
+    url: '/frs/scummvm-tools/{$release_tools}/scummvm-tools-{$release_tools}-atari-m68020-60.zip '
     name: 'Tools - Atari/FreeMiNT package (m68020 - m68060)'
     description: ''
 -
