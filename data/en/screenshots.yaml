@@ -2309,3 +2309,9 @@
     platform_id: dos
     language: en
     filemask: 'sierra/mh1/mh1_dos_en_2_*'
+-
+    id: lba
+    variant: ''
+    platform_id: dos
+    language: en
+    filemask: ''
