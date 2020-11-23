@@ -17,6 +17,6 @@ New features:
 * An option to disable wall collision damage
 * Improved UI navigation
 
-This was all made possible by the people behind the [https://github.com/xesf/twin-e](TwinEngine) project and the LBA community.
+This was all made possible by the people behind the [TwinEngine](https://github.com/xesf/twin-e) project and the LBA community.
 
-Please test the game with the latest [https://buildbot.scummvm.org/builds.html](development build) and report any issues you find on our [https://bugs.scummvm.org/](bug tracker).
+Please test the game with the latest [development build](https://buildbot.scummvm.org/builds.html) and report any issues you find on our [bug tracker](https://bugs.scummvm.org/).
