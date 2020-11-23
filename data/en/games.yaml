@@ -4631,3 +4631,19 @@
     moby_id: '1439'
     datafiles: ''
     series_id: ''
+-
+    id: lba
+    name: 'Little Big Adventure'
+    engine_id: twine
+    company_id: adeline
+    moby_id: '1765'
+    datafiles: ''
+    series_id: lba
+-
+    id: lba2
+    name: 'Little Big Adventure'
+    engine_id: twine
+    company_id: adeline
+    moby_id: '748'
+    datafiles: ''
+    series_id: lba

@@ -1,85 +1,37 @@
 # This is a generated file, please do not edit manually
 -
-    id: dw
-    name: Discworld
+    id: agifan
+    name: 'AGI Fan'
 -
-    id: indy
-    name: 'Indiana Jones'
+    id: bigthinkers
+    name: 'Big Thinkers'
 -
-    id: maniac
-    name: 'Maniac Mansion'
--
-    id: kq
-    name: 'King''s Quest'
--
-    id: lsl
-    name: 'Leisure Suit Larry'
--
-    id: sq
-    name: 'Space Quest'
--
-    id: qfg
-    name: 'Quest for Glory'
--
-    id: pq
-    name: 'Police Quest'
--
-    id: mi
-    name: 'The Secret of Monkey Island'
--
-    id: zork
-    name: Zork
--
-    id: simon
-    name: 'Simon the Sorcerer'
--
-    id: gob
-    name: Gobliiins
--
-    id: sword
-    name: 'Broken Sword'
--
-    id: manhunt
-    name: Manhunter
--
-    id: disney
-    name: 'Disney AGI'
+    id: blue
+    name: 'Blue''s Clues'
 -
     id: brain
     name: 'Dr. Brain'
 -
+    id: carol
+    name: 'Carol Reed'
+-
     id: conquests
     name: Conquests
 -
-    id: laurabow
-    name: 'Laura Bow'
+    id: disney
+    name: 'Disney AGI'
+-
+    id: dw
+    name: Discworld
 -
     id: ecoquest
     name: EcoQuest
 -
-    id: hoyle
-    name: 'Hoyle''s Official Book of Games'
--
-    id: mixedup
-    name: 'Roberta Williams'' Mixed-Up'
+    id: elvira
+    name: Elvira
 -
     id: eob
     name: 'Eye of the Beholder'
--
-    id: kyra
-    name: 'The Legend of Kyrandia'
--
-    id: ringworld
-    name: Ringworld
--
-    id: sherlock
-    name: 'Sherlock Holmes'
--
-    id: myst
-    name: Myst
--
-    id: bigthinkers
-    name: 'Big Thinkers'
 -
     id: fbear
     name: 'Fatty Bear'
@@ -87,53 +39,104 @@
     id: freddi
     name: 'Freddi Fish'
 -
-    id: juniorfield
-    name: 'Junior Field Trips'
--
-    id: pajama
-    name: 'Pajama Sam'
--
-    id: puttputt
-    name: Putt-Putt
--
-    id: spyfox
-    name: 'Spy Fox'
--
-    id: juniorsports
-    name: 'Junior Sports'
--
-    id: blue
-    name: 'Blue''s Clues'
--
-    id: livingbooks
-    name: 'Living Books'
--
-    id: magictales
-    name: 'Magic Tales'
--
-    id: agifan
-    name: 'AGI Fan'
--
-    id: elvira
-    name: Elvira
--
-    id: mm
-    name: 'Might and Magic'
--
-    id: ultima
-    name: Ultima
--
-    id: carol
-    name: 'Carol Reed'
--
-    id: reversion
-    name: Reversion
--
-    id: hugo
-    name: 'Hugo House of Horrors'
+    id: gob
+    name: Gobliiins
 -
     id: hires
     name: 'Hi-Res Adventure'
 -
+    id: hoyle
+    name: 'Hoyle''s Official Book of Games'
+-
+    id: hugo
+    name: 'Hugo House of Horrors'
+-
     id: id4
     name: 'Independence Day'
+-
+    id: indy
+    name: 'Indiana Jones'
+-
+    id: juniorfield
+    name: 'Junior Field Trips'
+-
+    id: juniorsports
+    name: 'Junior Sports'
+-
+    id: kq
+    name: 'King''s Quest'
+-
+    id: kyra
+    name: 'The Legend of Kyrandia'
+-
+    id: laurabow
+    name: 'Laura Bow'
+-
+    id: lba
+    name: 'Little Big Adventure'
+-
+    id: livingbooks
+    name: 'Living Books'
+-
+    id: lsl
+    name: 'Leisure Suit Larry'
+-
+    id: magictales
+    name: 'Magic Tales'
+-
+    id: manhunt
+    name: Manhunter
+-
+    id: maniac
+    name: 'Maniac Mansion'
+-
+    id: mi
+    name: 'The Secret of Monkey Island'
+-
+    id: mixedup
+    name: 'Roberta Williams'' Mixed-Up'
+-
+    id: mm
+    name: 'Might and Magic'
+-
+    id: myst
+    name: Myst
+-
+    id: pajama
+    name: 'Pajama Sam'
+-
+    id: pq
+    name: 'Police Quest'
+-
+    id: puttputt
+    name: Putt-Putt
+-
+    id: qfg
+    name: 'Quest for Glory'
+-
+    id: reversion
+    name: Reversion
+-
+    id: ringworld
+    name: Ringworld
+-
+    id: sherlock
+    name: 'Sherlock Holmes'
+-
+    id: simon
+    name: 'Simon the Sorcerer'
+-
+    id: spyfox
+    name: 'Spy Fox'
+-
+    id: sq
+    name: 'Space Quest'
+-
+    id: sword
+    name: 'Broken Sword'
+-
+    id: ultima
+    name: Ultima
+-
+    id: zork
+    name: Zork
