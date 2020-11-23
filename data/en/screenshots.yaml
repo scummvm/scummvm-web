@@ -2314,4 +2314,4 @@
     variant: ''
     platform_id: dos
     language: en
-    filemask: ''
+    filemask: 'adeline/lba/lba_dos_en_1_*'
