@@ -368,7 +368,7 @@
     id: twine
     name: TwinEngine
     alt_name: ''
-    enabled: 'TRUE'
+    enabled: true
 -
     id: ultima
     name: Ultima
