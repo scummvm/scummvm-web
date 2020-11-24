@@ -4633,17 +4633,17 @@
     series_id: ''
 -
     id: lba
-    name: 'Little Big Adventure'
+    name: 'Little Big Adventure (Relentless: Twinsen''s Adventure)'
     engine_id: twine
     company_id: adeline
-    moby_id: '1765'
+    moby_id: '748'
     datafiles: ''
     series_id: lba
 -
     id: lba2
-    name: 'Little Big Adventure'
+    name: 'Little Big Adventure 2: Twinsen''s Odyssey'
     engine_id: twine
     company_id: adeline
-    moby_id: '748'
+    moby_id: '1765'
     datafiles: ''
     series_id: lba
