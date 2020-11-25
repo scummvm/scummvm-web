@@ -1140,6 +1140,12 @@
     language: en
     filemask: 'cyan/manhole/manhole_dos_en_1_*'
 -
+    id: manhole
+    variant: ''
+    platform_id: dos
+    language: ja
+    filemask: 'cyan/manhole/manhole_dos_ja_1_*'
+-
     id: rodney
     variant: ''
     platform_id: dos
