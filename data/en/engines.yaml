@@ -240,6 +240,11 @@
     alt_name: ''
     enabled: true
 -
+    id: petka
+    name: 'Red Comrades'
+    alt_name: ''
+    enabled: true
+-
     id: pink
     name: 'Pink Panther'
     alt_name: ''

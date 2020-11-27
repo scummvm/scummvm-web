@@ -1095,6 +1095,11 @@
     category: ''
     url: /frs/demos/sci/pepper-dos-win-demo-en.zip
 -
+    id: petka1
+    platform: win
+    category: Russian
+    url: /frs/demos/petka/petka1-ru-demo.zip
+-
     id: phantasmagoria
     platform: dos
     category: ''

@@ -4637,7 +4637,7 @@
     engine_id: twine
     company_id: adeline
     moby_id: '748'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Little_Big_Adventure'
     series_id: lba
 -
     id: lba2
@@ -4646,4 +4646,20 @@
     company_id: adeline
     moby_id: '1765'
     datafiles: ''
-    series_id: lba
+    series_id: petka
+-
+    id: petka1
+    name: 'Red Comrades 1: Save the Galaxy'
+    engine_id: petka
+    company_id: skif
+    moby_id: '1854'
+    datafiles: ''
+    series_id: ''
+-
+    id: petka2
+    name: 'Red Comrades 2: For the Great Justice'
+    engine_id: petka
+    company_id: skif
+    moby_id: '10705'
+    datafiles: ''
+    series_id: ''

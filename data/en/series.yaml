@@ -105,6 +105,9 @@
     id: pajama
     name: 'Pajama Sam'
 -
+    id: petka
+    name: 'Red Comrades'
+-
     id: pq
     name: 'Police Quest'
 -
