@@ -68,6 +68,7 @@ $themes: (
         background: #6699cc,
         download-background: #398b4c,
         round-container-border: #43a25c,
+        chart-caption-background: #398b4c,
     ),
     retro: (
         menu-background: #6f43a4,
@@ -80,5 +81,6 @@ $themes: (
         round-container-header: $turbo,
         round-container-header-shadow: unset,
         wrapper-topper: linear-gradient(to bottom, rgb(115, 15, 107) 0%, rgb(163, 26, 156) 71%),
+        chart-caption-background: #6f43a4,
     ),
 );

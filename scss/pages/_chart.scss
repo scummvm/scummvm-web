@@ -1,3 +1,21 @@
+.chart-wrapper {
+
+  span {
+    border: 0;
+    border-spacing: 0;
+    padding: 5px;
+    width: 95%;
+    display: block;
+    @include themify($themes) {
+      background: themed("chart-caption-background");
+      color: themed("chart-caption-header");
+    }
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
 .chart {
   border: 0;
   border-spacing: 0;
@@ -11,6 +29,7 @@
     }
     font-weight: bold;
     margin: 0 auto;
+    padding: 5px;
   }
   a {
     @include themify($themes) {
@@ -31,6 +50,7 @@
   }
   th,
   td {
+    padding: 5px;
     @include themify($themes) {
       border: 1px solid themed("chart-border");
     }
@@ -64,18 +84,19 @@
 .gameDemos {
   tr {
     padding: 0;
-    transition: opacity 0.2s ease-in-out, visibility 0.2s;
 
     &.collapse {
-      opacity: 0;
-      visibility: collapse;
+      display: none;
+    }
+    &.sub td a {
+      margin-left: 1em;
     }
   }
   th {
-    padding: 2px;
+    padding: 5px;
   }
   td {
-    padding: 0px 2px;
+    padding: 5px;
     img {
       &.downloadImage {
         vertical-align: middle;

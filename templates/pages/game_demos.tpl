@@ -23,32 +23,33 @@
 
 {capture "content"}
 {foreach $demos as $group}
-<table class="chart color4 gameDemos" id="{$group.href}">
-    <caption>{$group.name}</caption>
-    <thead>
-        <tr class="color4">
-            <th>{#gamesDemosH1#}</th>
-            <th class="gameTarget">{#gamesDemosH2#}</th>
-        </tr>
-    </thead>
-    <tbody>
-        {foreach $group.demos as $i => $demo}
-        {if $demo@first}
-        {$collapse = ''}
-        {elseif $group.demos[$i]->getId() == $group.demos[$i-1]->getId()}
-        {$collapse = 'collapse'}
-        {else}
-        {$collapse = ''}
-        {/if}
-        <tr class="{if $collapse}{$collapse}{else}{cycle values="color2, color0"}{/if}">
-            <td>
-                <a href="{$demo->getURL()|download}">{$demo->getName()}</a>
-            </td>
-            <td class="gameTarget">{$demo->getId()}</td>
-        </tr>
-        {/foreach}
-    </tbody>
-</table>
+<div class="chart-wrapper"><span>{$group.name}</span>
+    <table class="chart color4 gameDemos" id="{$group.href}">
+        <thead>
+            <tr class="color4">
+                <th>{#gamesDemosH1#}</th>
+                <th class="gameTarget">{#gamesDemosH2#}</th>
+            </tr>
+        </thead>
+        <tbody>
+            {foreach $group.demos as $i => $demo}
+            {if $demo@first}
+            {$collapse = ''}
+            {elseif $group.demos[$i]->getId() == $group.demos[$i-1]->getId()}
+            {$collapse = 'collapse'}
+            {else}
+            {$collapse = ''}
+            {/if}
+            <tr class="{if $collapse}{$collapse} sub{else}{cycle values="color2, color0"}{/if}">
+                <td>
+                    <a href="{$demo->getURL()|download}">{$demo->getName()}</a>
+                </td>
+                <td class="gameTarget">{$demo->getId()}</td>
+            </tr>
+            {/foreach}
+        </tbody>
+    </table>
+</div>
 {/foreach}
 {/capture}
 
