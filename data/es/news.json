@@ -244,48 +244,48 @@
         "content": "Bueno, solo queríamos deciros que no estamos muertos. En las últimas pasadas ha habido unos progresos increíbles, el soporte de ScummVM para los juegos HE SCUMM avanza rápidamente gracias al talento conjunto de cyx, Kirben y Sev. Y, por supuesto, se han desarrollado muchas más cosas.\n\nAhora nos gustaría indicar que nuestros proyectos secundarios, Residual y ScummVM, están faltos de desarrolladores y colaboradores. Aceptamos parches de otros programadores. Con la ayuda de los desarrolladores de ScummVM joostp y aquadran, salty-horse (un parroquiano de #scummvm) ha enviado hoy un parche para corregir las animaciones de bocas en Residual. Por favor, echad un vistazo a nuestra página de Subproyectos y las «Coding Guidelines» en nuestra sección de Documentación. Si estáis interesados en resolver un problema concreto, mandad un email a la lista de correo -devel o pasaos por el IRC si necesitáis ayuda."
     },
     "20040930": {
-        "title": "",
-        "content": ""
+        "title": "Y se dijo: ¡Hágase el concurso!",
+        "content": "Saludos, humildes espectadores de la web. Os hemos congregado aquí hoy para celebrar un concurso de proporciones épicas.\n\nBueno, no exactamente.\n\nEstamos celebrando un concurso para rediseñar la página web de ScummVM. Si tienes talento y quieres contribuir en ScummVM, esta es tu oportunidad.\n  \n**Reglas**\n\n*   Los diseños deben presentarse en formato de Photoshop (.PSD) o de GIMP (.XCF). Deben estar hechos con capas, teniendo en cuenta que el grueso del diseño pueda convertirse de forma viable a formato HTML con un uso mínimo de elementos gráficos.\n*   El diseño acabado debe estar optimizado para una resolución de 1024x768, pero la página debe estar diseñada para ser renderizable a resoluciones inferiores y en navegadores de solo texto.\n*   El objetivo principal debería ser un sistema de navegación sencillo, llamativo y lo menos recargado posible.\n*   A las páginas que incluyan una plantilla HTML finalizada se les dará una mayor importancia si cumplen las reglas adicionales que vienen a continuación. De lo contrario, solo serán valoradas por su diseño.\n    *   Las páginas completas deberían enviarse como una plantilla HTML monopágina. Todos los gráficos originales deberían incluirse (en capas si es posible) en formato .PSD de Photoshop o .XCF de GIMP.\n    *   Las páginas deben tener código HTML/CSS legible, rápidas de cargar y lo más ligeras posibles.\n    *   Las páginas deben seguir la certificación W3C HTML4.01 y no tener ninguna dependencia respecto a navegadores.\n\nEl plazo de presentación acabará el 21 de octubre y la votación pública tendrá lugar cuando el equipo haya seleccionado a los candidatos finales. Habrá algún tipo de premio para el ganador, que se anunciará más adelante. Enviad vuestras propuestas a contest@scummvm.org en un archivo .zip, .tar.gz or .tar.bz2."
     },
     "20041011": {
-        "title": "",
-        "content": ""
+        "title": "¡Recordatorio del concurso!",
+        "content": "¡Saludos, aventureros!\n\n¡Este es solo un recordatorio de que el plazo de presentación del concurso para rediseñar la página web acaba dentro de diez días! Acabamos de recibir la primera propuesta, así que si no habéis empezado, se os acaba el tiempo.\n\nLos premios se anunciarán en cuanto alguien me devuelva los mensajes, ya que las noticias en ciertas webs sugieren que no se ha olvidado :)"
     },
     "20041019": {
-        "title": "",
-        "content": ""
+        "title": "El plazo del concurso se acabará pronto",
+        "content": "¡El que quiera participar en el concurso para rediseñar la página web ya está tardando en mandar sus propuestas, porque solo quedan dos días!\n\nHasta la fecha tenemos solo cinco propuestas. No está mal, pero yo esperaba que nos hubieran llegado otras cinco. Así que si tienes una propuesta, ¡MÁNDALA!\n\nEnviad todas las propuestas para el concurso a [contest@scummvm.org](mailto:contest@scummvm.org). Hay más información sobre el concurso un par de noticias atrás."
     },
     "20041022": {
-        "title": "",
-        "content": ""
+        "title": "¡Ha terminado el plazo del concurso!",
+        "content": "Bueno, dejamos un rato más para los que íbais tarde... pero hemos cerrado las propuestas para el concurso del rediseño de ScummVM. El jurado examinará las páginas en los próximos días y a menos que haya un ganador muy claro, VOSOTROS, nuestros queridos usuarios, lo votaréis de entre los finalistas :)\n\nDaremos más información próximamente. El ganador se llevará Cachivaches Aleatorios(tm), y el primer premio será un merchadising de Sam and Max (probablemente) firmado por el creador de Sam and Max, Steve Purcell. ¡Daremos más información próximamente!"
     },
     "20041028": {
-        "title": "",
-        "content": ""
+        "title": "Sección de preguntas frecuentes actualizada",
+        "content": "Han pasado varios meses desde que actualizamos nuestra sección de [preguntas frecuentes](/faq/). En ese tiempo han ocurrido muchas cosas, así que hemos añadido un buen repertorio de respuestas. ¿A qué estáis esperando? ¡Leed la sección de [preguntas frecuentes](/faq/)!"
     },
     "20041205": {
-        "title": "",
-        "content": ""
+        "title": "Estado del concurso del rediseño de la web; planes de lanzamiento de la versión 0.7.0; manual de usuario",
+        "content": "Ey, colegas,\n  \nOs estaréis preguntando todos, ¿qué fue del concurso del rediseño de la web? ¡Terminó hace más de un mes y aún no hay ganador! Buena pregunta... :-)\n\nPara empezar, quiero decir que algunos de los diseños que nos habéis enviado son espectaculares y me gustaría dar las gracias a todos los que han enviado sus materiales. Siento haberos hecho esperar los resultados.\n\nBueno, para decidir el ganador montamos una encuesta interna para el equipo. Esta encuesta ha llevado un tiempo, hasta que todos los miembros pudieron enviar sus formularios cumplimentados. Pero ese proceso no llevó a un ganador definitivo. Así que algunos de nosotros queríamos presentar una encuesta a vosotros, nuestros queridos usuarios, para elegir al ganador de entre los tres finalistas. Por diversas razones no pudimos llevarla a cabo... ¡hasta ahora!\n\n¡Id a la [página de la encuesta](http://www.scummvm.org/poll/index.php) para ver a los finalistas y votarlos! Daremos 14 días a la encuesta y después decidiremos el ganador definitivo.\n\nCambiando de asunto, hemos empezado a trabajar en la próxima versión importante de ScummVM. ¡La versión 0.7.0 saldrá (con un plazo bastante agresivo) para las navidades de 2004! Esperamos poder daros un buen regalito navideño. Pero para conseguirlo necesitamos vuestra ayuda: necesitamos a personas que se pongan a probar de forma activa la última CVS para poder limar y arreglar todas las asperezas que quedan y así poder garantizar una versión con una calidad alta.\n\nSi queréis ayudar, echad un vistazo a la [página del estado de lanzamiento](http://www.scummvm.org/documentation.php?view=release) para ver una lista con los juegos que necesitan testeo.\n\nY eso es todo por hoy, con suerte, la próxima vez podremos anunciar algo con más chicha (como una nueva versión o una nueva página web). Hasta entonces, ¡disfrutad del testeo!\n\nP.S.: Tal vez también os hayáis preguntado, ¿estos llegarán algún día a la 1.0? De hecho, estamos trabajando para llegar a ese objetivo. Hay un elemento fundamental que falta: un buen manual de usuario. Si tienes conocimientos de redacción de manuales, tiempo libre y quieres ayudar, mándamos un email a la lista de correo de scummvm-devel."
     },
     "20041206": {
-        "title": "",
-        "content": ""
+        "title": "La encuesta sobre la web está cerrada temporalmente",
+        "content": "Como tantas personas han intentado reventar los resultados de la encuesta, queda cerrada temporalmente mientras hacemos un código más a prueba de trampas. Os avisaremos cuando la encuesta vuelva a estar disponible."
     },
     "20041217": {
-        "title": "",
-        "content": ""
+        "title": "La encuesta sobre la web vuelve a estar operativa",
+        "content": "Nos complace reabrir nuestra [encuesta sobre la página web](http://www.scummvm.org/poll/). Hemos encontrado un buen servicio de encuentas, pero lamentablemente contiene anuncios. Os pedimos paciencia con ella.\n\nP.D. Si ya habéis votado en la encuesta anterior, tendréis que volver a hacerlo en la nueva."
     },
     "20041223": {
-        "title": "",
-        "content": ""
+        "title": "La encuesta del concurso de la web ha cerrado: ¡tenemos ganador!",
+        "content": "Ya han pasado casi dos meses desde que arrancamos nuestro concurso para rediseñar la página web y sé que algunos de vosotros han estado esperando los resultados con mucho entusiasmo. Como el equipo no pudo decidirse por un ganador, dejamos que vosotros, nuestros queridos usuarios, opinarais sobre el resultado de esta batalla monumental. Y, finalmente, ¡nos encanta anunciar que después de 1.400 votos, tenemos a un ganador! Y es... ¡[draven](http://www.scummvm.org/poll/draven.jpg), con una mayoría del 55% de los votos! ¡Enhorabuena, draven!\n\n¿Qué pasará ahora? Resolveremos la parte del (de los) premio(s) para el ganador en los próximos días y nos pondremos a trabajar en implementar el diseño nuevo. Estamos planteándonos hacer varios retoques (por ejemplo, algunas personas han sugerido que utilizáramos el logo de la propuesta de jeanm; y también nos guardamos otras ideas en la manga). Nos llevará un tiempo, en parte porque es época de fiestas para muchos de nosotros, así que me temo que tendréis que tener paciencia.\n\nTodo lo bueno se hace de rogar :-)."
     },
     "20041224": {
-        "title": "",
-        "content": ""
+        "title": "¡Jo, jo, jo! ¡Feliz Navidad y próspero ScummVM 0.7.0!",
+        "content": "¡Nos enorgullece anunciar el lanzamiento de ScummVM 0.7.0, justo a tiempo para Nochebuena!\n\nAunque no es una versión tan revolucionaria como las anteriores, esta contiene una serie de mejoras y añadidos de importancia, entre los que se encuentran:\n\n*   Añadido soporte preliminar para 26 juegos de Humongous Entertainment\n*   Añadido soporte para archivos de audio codificados en formato FLAC (sin pérdida)\n*   Añadido soporte nativo para las versiones para Macintosh de ciertos juegos de SCUMM; esto quiere decir que la herramienta «rescumm» ha quedado prácticamente obsoleta y que ahora se pueden jugar a dichos juegos directamente desde el CD original\n*   Añadido un desplazamiento horizontal suavizado para The Dig, Full Throttle y COMI (idéntico al motor original)\n*   Añadido soporte para música y voces comprimidas en Broken Sword 1 y 2\n*   Y, como de costumbre, hemos resuelto montones de fallos\n\nPodéis encontrar un enlace a las notas de lanzamiento y una lista de cambios más completa en la [página de descargas](/downloads/), junto con los enlaces de descarga. Recomendamos encarecidamente a todos nuestros usuarios actualizar a la ultimísima versión."
     },
     "20050101": {
-        "title": "",
-        "content": ""
+        "title": "Más binarios de la 0.7.0 y unas pedazo de cifras",
+        "content": "Antes de nada: ¡de nuevo, feliz año nuevo a todos vosotros!\n\nSolo queríamos informaros que desde el lanzamiento de ScummVM 0.7.0, hace ya una semana, han llegado más binarios a la [página de descargas](/downloads/). Ahora ofrecemos binarios para los siguientes sistemas:\n\n*   Windows\n*   Mac OS X\n*   Linux: Fedora Core\n*   Solaris 8\n*   PalmOS\n*   PocketPC (WinCE)\n*   Dreamcast\n*   BeOS\n\n... y, con suerte, el paquete para Debian estará listo en breve.\n\nTodo eso ya está bastante bien, pero nunca faltan más. Por ejemplo, nos gustaría tener paquetes para Mandrake, Slackware, Solaris x86 o para vuestra tostadora favorita. Si estáis interesados en uniros al proyecto en calidad de empaquetadores, [contactadnos](http://www.scummvm.org/contact.php).\n\nY ahora pasamos a algo completamente distinto: si observáis nuestra [página de estadísticas del proyecto](https://sourceforge.net/project/stats/index.php?report=last_30&group_id=37116), puede que os deis cuenta de que hemos conseguido más de 10.000.000 visualizaciones de la página web (acumuladas durante toda la vida de ScummVM como proyecto de SourceForge.net) y que se han enviado más de 1.100.000 descargas desde nuestro nacimiento. No está nada mal, en nuestra opinión. :-)"
     },
     "20050309": {
         "title": "",
