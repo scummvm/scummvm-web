@@ -33,37 +33,26 @@
   },
   "scripts": {
     "build-common": [
-      "glue public_html/images/icons/games/ --img=images/ --scss=scss/sprites/ --retina",
-      "glue public_html/images/icons/platforms/ --img=images/ --scss=scss/sprites/ --retina",
-      "mv scss/sprites/games.scss scss/sprites/_games.scss",
-      "mv scss/sprites/platforms.scss scss/sprites/_platforms.scss",
-      "mv images/*.png public_html/images",
-      "rm -rf images",
-      "composer install --no-dev",
+      "@icons",
       "@scss",
-      "@localize",
-      "npm install --production"
-    ],
-    "build-win": [
-      "if NOT EXIST public_html\\css mkdir public_html\\css",
-      "@build-common",
-      "if NOT EXIST templates\\compiled mkdir templates\\compiled"
+      "@localize"
     ],
     "build": [
-      "mkdir -p public_html/css",
+      "composer install --no-dev",
       "@build-common",
-      "mkdir -p templates/compiled"
+      "npm install --production"
+    ],
+    "build-dev": [
+      "composer install",
+      "@build-common",
+      "npm install"
     ],
     "start": [
       "Composer\\Config::disableProcessTimeout",
       "php -S localhost:8000 -t ./public_html ./public_html/index.php"
     ],
     "develop": [
-      "@build",
-      "@start"
-    ],
-    "develop-win": [
-      "@build-win",
+      "@build-dev",
       "@start"
     ],
     "lint": [
@@ -79,6 +68,12 @@
     ],
     "localize": [
       "php include/LocalizationUtils.php"
+    ],
+    "icons": [
+      "glue public_html/images/icons/games/ --img=public_html/images/ --scss=scss/sprites/ --retina",
+      "glue public_html/images/icons/platforms/ --img=public_html/images/ --scss=scss/sprites/ --retina",
+      "mv scss/sprites/games.scss scss/sprites/_games.scss",
+      "mv scss/sprites/platforms.scss scss/sprites/_platforms.scss"
     ]
   },
   "autoload": {

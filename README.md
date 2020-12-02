@@ -23,32 +23,19 @@ Before installing please make sure you have the following installed:
 * [Glue](https://glue.readthedocs.io/en/latest/installation.html)
 * [Redis](https://redis.io/) (Optional)
 
-### Installing
+### Installing & Developing
 
 Clone this repo
 
-```
-git clone https://github.com/scummvm/scummvm-web.git
-```
+    git clone https://github.com/scummvm/scummvm-web.git
 
-Then install the required PHP dependencies with:
+To run the a development version of the site and start a local web server on port 8000, run:
 
-```
-composer install
-```
+    composer develop
 
-To run the build scripts and start a web server on port 8000, run:
+To build for production simply run:
 
-```
-composer develop[-win]
-```
-
-Instead of the above command, you can either build and run independently using:
-```
-composer build[-win]
-composer start
-```
-respectively.
+    composer build
 
 ## Deployment
 
