@@ -72,6 +72,7 @@
     "icons": [
       "glue public_html/images/icons/games/ --img=public_html/images/ --scss=scss/sprites/ --retina",
       "glue public_html/images/icons/platforms/ --img=public_html/images/ --scss=scss/sprites/ --retina",
+      "sed -i'' -e 's#../../public_html#../../#g' ./scss/sprites/*",
       "mv scss/sprites/games.scss scss/sprites/_games.scss",
       "mv scss/sprites/platforms.scss scss/sprites/_platforms.scss"
     ]
