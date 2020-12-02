@@ -26,6 +26,11 @@ abstract class BasicModel
                 // Fallback to files based cache
                 self::$cache = new Psr16Adapter('files');
             }
+
+            if (\file_exists(DIR_BASE . '/.clear-cache')) {
+                self::$cache->clear();
+                unlink(DIR_BASE . '/.clear-cache');
+            }
         }
     }
 
@@ -58,6 +63,10 @@ abstract class BasicModel
 
     protected function getFromCache($key = '')
     {
+        if (\file_exists(DIR_BASE . '/.no-cache')) {
+            return null;
+        }
+
         if ($key) {
             $key = "_$key";
         }

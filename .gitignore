@@ -35,3 +35,7 @@
 
 # Others
 public_html/frs
+
+# Clear cache instruction
+.clear-cache
+.no-cache

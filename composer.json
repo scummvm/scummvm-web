@@ -69,12 +69,8 @@
     "lint": [
       "phpcbf --standard=psr2 ./include"
     ],
-    "flush-cache": [
-      "redis-cli -n 8 flushdb"
-    ],
     "update-data": [
-      "php include/DataUtils.php",
-      "@flush-cache"
+      "php include/DataUtils.php"
     ],
     "scss": [
       "pscss -f compressed ./scss/main_ltr.scss > ./public_html/css/main_ltr.css",

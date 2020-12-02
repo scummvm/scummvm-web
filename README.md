@@ -52,7 +52,7 @@ respectively.
 
 ## Deployment
 
-To deploy changes to the official ScummVM website, simply go to the website admin page and click the "ScummVM.org 
+To deploy changes to the official ScummVM website, simply go to the website admin page and click the "ScummVM.org
 manual site update" link.
 
 ## Updating data
@@ -61,6 +61,11 @@ Most data is now managed upstream in a spreadsheet. To re-generate the data file
 run `composer update-data` note that this will run automatically on site update
 but is encouraged for you to do manually to keep track on who's updating the
 data.
+
+## Disabling cache
+
+During development, you can disable data caching by creating a file called
+`.no-cache` in the root folder.
 
 ## Contributing
 
