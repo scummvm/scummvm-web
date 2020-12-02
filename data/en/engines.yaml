@@ -93,7 +93,7 @@
     id: dragons
     name: 'Blazing Dragons'
     alt_name: ''
-    enabled: false
+    enabled: true
 -
     id: drascula
     name: Drascula
@@ -128,7 +128,7 @@
     id: griffon
     name: 'The Griffon Legend'
     alt_name: ''
-    enabled: false
+    enabled: true
 -
     id: grim
     name: GrimE
@@ -378,7 +378,7 @@
     id: ultima
     name: Ultima
     alt_name: ''
-    enabled: false
+    enabled: true
 -
     id: voyeur
     name: Voyeur
