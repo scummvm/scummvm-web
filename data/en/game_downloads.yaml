@@ -129,16 +129,16 @@
     category: games
     game_id: queen
     category_icon: queen
-    url: '/frs/extras/http://www.lysator.liu.se/~zino/scummvm/queen/'
+    url: '/frs/extras/Flight of the Amazon Queen/FOTAQ_Talkie-original.zip'
     name: 'Freeware CD Version (unmodified original)'
-    notes: ''
+    notes: '(87M) download this version if your ScummVM doesn''t have mp3 support'
 -
     category: games
     game_id: queen
     category_icon: queen
     url: '/frs/extras/Flight of the Amazon Queen/FOTAQ_Fr_Talkie_1.0.zip'
     name: 'Freeware CD Version (French voices and subtitles, ogg compressed sfx/speech)'
-    notes: '(87M) download this version if your ScummVM doesn''t have mp3 support'
+    notes: ''
 -
     category: games
     game_id: queen
@@ -264,28 +264,28 @@
     category_icon: bladerunner
     url: '/frs/extras/Blade Runner/Blade_Runner_Subtitles-v6.zip'
     name: 'Subtitles (English, French, Spanish Subtitles AddOn)'
-    notes: ''
+    notes: '- Requires ScummVM 2.1.0'
 -
     category: addons
     game_id: sword1
     category_icon: flac
     url: '/frs/extras/Broken Sword I and II/Sword1_DXA_Cutscenes.zip'
     name: 'Cutscene Pack (English, DXA compression)'
-    notes: '- Requires ScummVM 2.1.0'
+    notes: '- Requires ScummVM 0.10.0'
 -
     category: addons
     game_id: sword1
     category_icon: ogg
-    url: '/frs/extras/http://downloads.scummbr.com/Sword1_Cutscenes_BRA_Complete.zip'
+    url: 'https://downloads.scummbr.com/Sword1_Cutscenes_BRA_Complete.zip'
     name: 'Cutscene Pack (Brazilian)'
-    notes: '- Requires ScummVM 0.10.0'
+    notes: '(38M) This is an offsite package with both Brazillian videos and audio'
 -
     category: addons
     game_id: sword1
     category_icon: sword
     url: '/frs/extras/Broken Sword I and II/Sword1_Cutscenes_Subtitles-1.0.zip'
     name: 'Cutscene Pack (all languages, Subtitles AddOn)'
-    notes: '(38M) This is an offsite package with both Brazillian videos and audio'
+    notes: 'Cutscene subtitles pack. All languages'
 -
     category: addons
     game_id: sword1
@@ -299,7 +299,7 @@
     category_icon: flac
     url: '/frs/extras/Broken Sword I and II/Sword1_Cutscenes_DXA_FRE_AddOn.zip'
     name: 'Cutscene Pack (French AddOn)'
-    notes: 'Cutscene subtitles pack. All languages'
+    notes: 'Overwrite files in English Pack with files from this archive'
 -
     category: addons
     game_id: sword1
@@ -327,84 +327,84 @@
     category_icon: flac
     url: '/frs/extras/Broken Sword I and II/Sword1_Demo_Cutscenes.zip'
     name: 'Demo Cutscene Pack'
-    notes: 'Overwrite files in English Pack with files from this archive'
+    notes: '- Requires ScummVM 0.10.0'
 -
     category: addons
     game_id: sword1
     category_icon: ogg
     url: '/frs/extras/Broken Sword I and II/Sword1_OGG_Cutscenes.zip'
     name: 'Cutscene Pack (English OGG AddOn)'
-    notes: '- Requires ScummVM 0.10.0'
+    notes: 'Alternative English audio pack, for ports without FLAC support'
 -
     category: addons
     game_id: sword1
     category_icon: ogg
     url: '/frs/extras/Broken Sword I and II/Sword1_Cutscenes_FRE_AddOn.zip'
     name: 'Cutscene Pack (French OGG AddOn)'
-    notes: 'Alternative English audio pack, for ports without FLAC support'
+    notes: 'Alternative French audio pack, for ports without FLAC support'
 -
     category: addons
     game_id: sword1
     category_icon: ogg
     url: '/frs/extras/Broken Sword I and II/Sword1_Cutscenes_GER_AddOn.zip'
     name: 'Cutscene Pack (German OGG AddOn)'
-    notes: 'Alternative French audio pack, for ports without FLAC support'
+    notes: 'Alternative German audio pack, for ports without FLAC support'
 -
     category: addons
     game_id: sword1
     category_icon: ogg
     url: '/frs/extras/Broken Sword I and II/Sword1_Cutscenes_ITA_AddOn.zip'
     name: 'Cutscene Pack (Italian OGG AddOn)'
-    notes: 'Alternative German audio pack, for ports without FLAC support'
+    notes: 'Alternative Italian audio pack, for ports without FLAC support'
 -
     category: addons
     game_id: sword1
     category_icon: ogg
     url: '/frs/extras/Broken Sword I and II/Sword1_Cutscenes_ESP_AddOn.zip'
     name: 'Cutscene Pack (Spanish OGG AddOn)'
-    notes: 'Alternative Italian audio pack, for ports without FLAC support'
+    notes: 'Alternative Spanish audio pack, for ports without FLAC support'
 -
     category: addons
     game_id: sword2
     category_icon: flac
     url: '/frs/extras/Broken Sword I and II/Sword2_DXA_Cutscenes.zip'
     name: 'Cutscene Pack (all languages, DXA compression)'
-    notes: 'Alternative Spanish audio pack, for ports without FLAC support'
+    notes: '- Requires ScummVM 0.10.0'
 -
     category: addons
     game_id: sword2
     category_icon: ogg
     url: '/frs/extras/Broken Sword I and II/Sword2_OGG_Cutscenes.zip'
     name: 'Cutscene Pack (all languages, OGG AddOn)'
-    notes: '- Requires ScummVM 0.10.0'
+    notes: 'Alternative audio pack, for ports without FLAC support'
 -
     category: addons
     game_id: sword2
     category_icon: flac
     url: '/frs/extras/Broken Sword I and II/Sword2_Demo_Cutscenes.zip'
     name: 'Demo Cutscene Pack'
-    notes: 'Alternative audio pack, for ports without FLAC support'
+    notes: '- Requires ScummVM 0.10.0'
 -
     category: addons
     game_id: elvira2
     category_icon: flac
     url: '/frs/extras/Elvira 2/elvira2_pc_sfx.zip'
     name: 'Digital samples for sound effects in the PC version'
-    notes: '- Requires ScummVM 0.10.0'
+    notes: '- Requires ScummVM 1.8.0'
 -
     category: addons
     game_id: feeble
     category_icon: flac
     url: '/frs/extras/The Feeble Files/Feeble_OmniTV_Cutscenes.zip'
     name: 'Omni TV and epilogue cutscenes for the Amiga and Macintosh versions'
-    notes: '- Requires ScummVM 1.8.0'
+    notes: '- Requires ScummVM 0.10.0'
 -
     category: addons
     game_id: queen
     category_icon: mp3
     url: '/frs/extras/Flight of the Amazon Queen/FOTAQ_Talkie-1.1.zip'
     name: 'Freeware CD Version (mp3 compressed sfx/speech)'
-    notes: '- Requires ScummVM 0.10.0'
+    notes: ''
 -
     category: addons
     game_id: prince

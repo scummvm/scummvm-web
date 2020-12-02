@@ -481,7 +481,7 @@
     category: current
     subcategory: release
     category_icon: fedora
-    user_agent: ''
+    user_agent: Fedora
     url: '/frs/scummvm/{$release}/scummvm-{$release}-1.x86_64.rpm'
     name: 'Fedora 24+ x86 64bit package'
     description: ''
@@ -490,7 +490,7 @@
     category: current
     subcategory: release
     category_icon: slackware
-    user_agent: Fedora
+    user_agent: ''
     url: '/frs/scummvm/{$release}/scummvm-{$release}_slack-i486-1.tgz'
     name: 'SlackWare i486 package'
     description: ''
@@ -580,7 +580,7 @@
     category: current
     subcategory: release
     category_icon: os2
-    user_agent: ''
+    user_agent: OS/2
     url: '/frs/scummvm/{$release}/scummvm-{$release}-os2.zip'
     name: 'OS/2 package'
     description: ''
@@ -661,7 +661,7 @@
     category: current
     subcategory: source
     category_icon: cpp
-    user_agent: OS/2
+    user_agent: ''
     url: '/frs/scummvm/{$release}/scummvm-{$release}-2.src.rpm'
     name: 'ScummVM - Source RPM'
     description: ''

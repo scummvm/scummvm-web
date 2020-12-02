@@ -14,7 +14,7 @@
     company_id: access
     moby_id: '3287'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Amazon:_Guardians_of_Eden'
-    series_id: hires
+    series_id: ''
 -
     id: hires2
     name: 'Hi-Res Adventure #2: The Wizard and the Princess'
@@ -238,7 +238,7 @@
     company_id: fan
     moby_id: '69895'
     datafiles: ''
-    series_id: ''
+    series_id: agifan
 -
     id: agidemo
     name: 'AGI Demo'
@@ -414,7 +414,7 @@
     company_id: viacom
     moby_id: '2470'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Beavis_and_Butt-Head_in_Virtual_Stupidity'
-    series_id: ''
+    series_id: beavisbutthead
 -
     id: bladerunner
     name: 'Blade Runner'
@@ -486,7 +486,7 @@
     company_id: animationmagic
     moby_id: '99115'
     datafiles: ''
-    series_id: magictales
+    series_id: ''
 -
     id: babayaga
     name: 'Magic Tales: Baba Yaga and the Magic Geese'
@@ -579,7 +579,7 @@
     id: gundam0079
     name: 'Gundam 0079: The War for Earth'
     engine_id: director
-    company_id: unknown
+    company_id: presto
     moby_id: '11612'
     datafiles: ''
     series_id: ''
@@ -603,7 +603,7 @@
     id: warlock
     name: 'Spaceship Warlock'
     engine_id: director
-    company_id: unknown
+    company_id: reactorinc
     moby_id: '22016'
     datafiles: ''
     series_id: ''
@@ -611,7 +611,7 @@
     id: chopsuey
     name: 'Chop Suey'
     engine_id: director
-    company_id: unknown
+    company_id: magnetinteractive
     moby_id: '45110'
     datafiles: ''
     series_id: ''
@@ -622,7 +622,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
-    series_id: id4
+    series_id: ''
 -
     id: id4p1
     name: 'iD4 Mission Disk 1 - Alien Supreme Commander'
@@ -861,7 +861,7 @@
     engine_id: gob
     company_id: coktel
     moby_id: '1154'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Gobliiins'
     series_id: gob
 -
     id: dynasty
@@ -877,7 +877,7 @@
     engine_id: gob
     company_id: coktel
     moby_id: '2625'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Gobliins_1'
     series_id: gob
 -
     id: gob2
@@ -901,7 +901,7 @@
     engine_id: gob
     company_id: coktel
     moby_id: '2870'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Goblins_4'
     series_id: gob
 -
     id: woodruff
@@ -1070,7 +1070,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: ''
-    series_id: ''
+    series_id: playtoons
 -
     id: playtoons1
     name: 'Playtoons 1 - Uncle Archibald'
@@ -1078,7 +1078,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: ''
-    series_id: ''
+    series_id: playtoons
 -
     id: playtoons2
     name: 'Playtoons 2 - The Case of the Counterfeit Collaborator'
@@ -1086,7 +1086,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: ''
-    series_id: ''
+    series_id: playtoons
 -
     id: playtoons3
     name: 'Playtoons 3 - The Secret of the Castle'
@@ -1094,7 +1094,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: ''
-    series_id: ''
+    series_id: playtoons
 -
     id: playtoons4
     name: 'Playtoons 4 - The Mandarine Prince'
@@ -1102,7 +1102,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: ''
-    series_id: ''
+    series_id: playtoons
 -
     id: playtoons5
     name: 'Playtoons 5 - The Stone of Wakan'
@@ -1110,7 +1110,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: ''
-    series_id: ''
+    series_id: playtoons
 -
     id: playtnck1
     name: 'Playtoons Construction Kit 1 - Monsters'
@@ -1118,7 +1118,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: ''
-    series_id: ''
+    series_id: playtoons
 -
     id: playtnck2
     name: 'Playtoons Construction Kit 2 - Knights'
@@ -1126,7 +1126,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: ''
-    series_id: ''
+    series_id: playtoons
 -
     id: playtnck3
     name: 'Playtoons Construction Kit 3 - Far West'
@@ -1134,7 +1134,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: ''
-    series_id: ''
+    series_id: playtoons
 -
     id: bambou
     name: 'Playtoons Limited Edition - Bambou le sauveur de la jungle'
@@ -1142,7 +1142,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Playtoons:_Bambou_le_Sauveur_de_la_Jungle'
-    series_id: ''
+    series_id: playtoons
 -
     id: griffon
     name: 'The Griffon Legend'
@@ -1158,7 +1158,7 @@
     company_id: trilobyte
     moby_id: '283'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#7th_Guest.2C_The'
-    series_id: ''
+    series_id: t7g
 -
     id: 11h
     name: 'The 11th Hour: The Sequel to The 7th Guest'
@@ -1166,7 +1166,7 @@
     company_id: trilobyte
     moby_id: '567'
     datafiles: ''
-    series_id: ''
+    series_id: t7g
 -
     id: tlc
     name: 'Tender Loving Care'
@@ -1190,7 +1190,7 @@
     company_id: trilobyte
     moby_id: '4531'
     datafiles: ''
-    series_id: ''
+    series_id: t7g
 -
     id: hdb
     name: 'Hyperspace Delivery Boy!'
@@ -1238,7 +1238,7 @@
     company_id: viacom
     moby_id: '2470'
     datafiles: ''
-    series_id: ''
+    series_id: beavisbutthead
 -
     id: duckman
     name: 'Duckman: The Graphic Adventures of a Private Dick'
@@ -1342,7 +1342,7 @@
     company_id: icom
     moby_id: '1069'
     datafiles: ''
-    series_id: ''
+    series_id: deja_vu
 -
     id: shadowgate
     name: Shadowgate
@@ -1358,7 +1358,7 @@
     company_id: icom
     moby_id: '7743'
     datafiles: ''
-    series_id: ''
+    series_id: deja_vu
 -
     id: lgop2
     name: 'Leather Goddesses of Phobos! 2: Gas Pump Girls Meet the Pulsating Inconvenience from Planet X'
@@ -1502,7 +1502,7 @@
     company_id: tlc
     moby_id: '-1'
     datafiles: ''
-    series_id: ''
+    series_id: carmen
 -
     id: carmentqc
     name: 'Carmen Sandiego''s ThinkQuick Challenge Custom Question Creator'
@@ -1510,7 +1510,7 @@
     company_id: tlc
     moby_id: '-1'
     datafiles: ''
-    series_id: ''
+    series_id: carmen
 -
     id: seussabc
     name: 'Dr. Seuss''s ABC'
@@ -1638,12 +1638,12 @@
     company_id: broderbund
     moby_id: '6564'
     datafiles: ''
-    series_id: ''
+    series_id: carmen
 -
     id: mortevielle
     name: 'Mortville Manor'
     engine_id: mortevielle
-    company_id: kyilkhor
+    company_id: lankhor
     moby_id: '2504'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Mortville_Manor'
     series_id: ''
@@ -1766,7 +1766,7 @@
     company_id: sierra
     moby_id: '116'
     datafiles: ''
-    series_id: ''
+    series_id: gk
 -
     id: gk1
     name: 'Gabriel Knight: Sins of the Fathers'
@@ -1774,7 +1774,7 @@
     company_id: sierra
     moby_id: '116'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
-    series_id: ''
+    series_id: gk
 -
     id: gk2
     name: 'The Beast Within: A Gabriel Knight Mystery'
@@ -1782,7 +1782,7 @@
     company_id: sierra
     moby_id: '118'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
-    series_id: ''
+    series_id: gk
 -
     id: qfg4demo
     name: 'Quest for Glory IV: Shadows of Darkness'
@@ -2206,7 +2206,7 @@
     company_id: sierra
     moby_id: '20400'
     datafiles: ''
-    series_id: ''
+    series_id: kq
 -
     id: mothergoose
     name: 'Mixed-Up Mother Goose'
@@ -2262,7 +2262,7 @@
     company_id: sierra
     moby_id: '95473'
     datafiles: ''
-    series_id: ''
+    series_id: laurabow
 -
     id: cnick-longbow
     name: 'Crazy Nick''s Software Picks: Robin Hood''s Games of Skill and Chance'
@@ -2270,7 +2270,7 @@
     company_id: sierra
     moby_id: '95474'
     datafiles: ''
-    series_id: ''
+    series_id: conquests
 -
     id: cnick-sq
     name: 'Crazy Nick''s Software Picks: Roger Wilco''s Spaced Out Game Pack'
@@ -2286,7 +2286,7 @@
     company_id: sierra
     moby_id: '-1'
     datafiles: ''
-    series_id: ''
+    series_id: sq
 -
     id: christmas1988
     name: 'Christmas Card 1988'
@@ -2358,7 +2358,7 @@
     company_id: sierra
     moby_id: '-1'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
-    series_id: ''
+    series_id: kq
 -
     id: kquestions
     name: 'King''s Questions'
@@ -2374,7 +2374,7 @@
     company_id: sierra
     moby_id: '-1'
     datafiles: ''
-    series_id: ''
+    series_id: sq
 -
     id: sci
     name: 'Sierra SCI Game'
@@ -2966,7 +2966,7 @@
     company_id: he
     moby_id: '-1'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Bear_Stormin.27'
-    series_id: ''
+    series_id: fbear
 -
     id: scalpel
     name: 'The Lost Files of Sherlock Holmes: The Case of the Serrated Scalpel'
@@ -3086,7 +3086,7 @@
     company_id: interplay
     moby_id: '952'
     datafiles: ''
-    series_id: ''
+    series_id: startrek
 -
     id: stjr
     name: 'Star Trek: Judgment Rites'
@@ -3094,7 +3094,7 @@
     company_id: interplay
     moby_id: '3492'
     datafiles: ''
-    series_id: ''
+    series_id: startrek
 -
     id: msn1
     name: 'Mission Supernova 1'
@@ -3102,7 +3102,7 @@
     company_id: tsdinge
     moby_id: '4582'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Mission_Supernova_Part_1'
-    series_id: ''
+    series_id: supernova
 -
     id: msn2
     name: 'Mission Supernova 2'
@@ -3110,7 +3110,7 @@
     company_id: tsdinge
     moby_id: '4582'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Mission_Supernova_Part_2'
-    series_id: ''
+    series_id: supernova
 -
     id: sword1
     name: 'Broken Sword: The Shadow of the Templars'
@@ -3203,7 +3203,7 @@
     id: sword25
     name: 'Broken Sword 2.5: The Return of the Templars'
     engine_id: sword25
-    company_id: revolution
+    company_id: fan
     moby_id: '36679'
     datafiles: ''
     series_id: ''
@@ -3310,7 +3310,7 @@
     company_id: mythos
     moby_id: '3441'
     datafiles: ''
-    series_id: ''
+    series_id: sherlock
 -
     id: tucker
     name: 'Bud Tucker in Double Trouble'
@@ -3638,7 +3638,7 @@
     company_id: unknown
     moby_id: '55922'
     datafiles: ''
-    series_id: ''
+    series_id: julia
 -
     id: alimardan1
     name: 'Alimardan''s Mischiefs'
@@ -3702,7 +3702,7 @@
     company_id: unknown
     moby_id: '68940'
     datafiles: ''
-    series_id: ''
+    series_id: julia
 -
     id: oknytt
     name: Oknytt
@@ -4606,7 +4606,7 @@
     company_id: lucasarts
     moby_id: '2606'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Escape_From_Monkey_Island'
-    series_id: ''
+    series_id: mi
 -
     id: icb
     name: 'In Cold Blood'
@@ -4622,7 +4622,7 @@
     company_id: presto
     moby_id: '3520'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Myst_III:_Exile'
-    series_id: ''
+    series_id: myst
 -
     id: tlj
     name: 'The Longest Journey'
@@ -4646,7 +4646,7 @@
     company_id: adeline
     moby_id: '1765'
     datafiles: ''
-    series_id: petka
+    series_id: lba
 -
     id: petka1
     name: 'Red Comrades 1: Save the Galaxy'
@@ -4654,7 +4654,7 @@
     company_id: skif
     moby_id: '1854'
     datafiles: ''
-    series_id: ''
+    series_id: petka
 -
     id: petka2
     name: 'Red Comrades 2: For the Great Justice'
@@ -4662,4 +4662,4 @@
     company_id: skif
     moby_id: '10705'
     datafiles: ''
-    series_id: ''
+    series_id: petka

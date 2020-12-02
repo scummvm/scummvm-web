@@ -143,3 +143,30 @@
 -
     id: zork
     name: Zork
+-
+    id: playtoons
+    name: Playtoons
+-
+    id: gk
+    name: 'Gabriel Knight'
+-
+    id: startrek
+    name: 'Star Trek'
+-
+    id: supernova
+    name: 'Mission Supernova'
+-
+    id: julia
+    name: J.U.L.I.A.
+-
+    id: beavisbutthead
+    name: 'Beavis and Butt-Head'
+-
+    id: t7g
+    name: 'The 7th Guest'
+-
+    id: deja_vu
+    name: 'Deja Vu'
+-
+    id: carmen
+    name: 'Carmen Sandiego'

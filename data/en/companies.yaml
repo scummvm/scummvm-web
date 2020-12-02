@@ -927,3 +927,11 @@
     id: unknown
     name: 'Unknown Company'
     alt_name: ''
+-
+    id: reactorinc
+    name: 'Reactor Inc.'
+    alt_name: ''
+-
+    id: magnetinteractive
+    name: 'Magnet Interactive Studios, Inc.'
+    alt_name: ''
