@@ -4,13 +4,11 @@
   "version": "1.0.0",
   "dependencies": {
     "autoprefixer": "^9.8.6",
-    "postcss-cli": "^6.1.3"
-  },
-  "devDependencies": {
+    "postcss-cli": "^6.1.3",
     "sass": "1.26.10"
   },
   "scripts": {
-    "postinstall": "postcss ./public_html/css/*.css --use autoprefixer --no-map -r",
-    "sass": "sass --watch ./scss:./public_html/css"
+    "scss:watch": "sass --watch ./scss:./public_html/css",
+    "build": "node build.js"
   }
 }

@@ -17,7 +17,6 @@
     "piwik/device-detector": "^3.11",
     "spatie/yaml-front-matter": "^2.0",
     "erusev/parsedown": "^1.7",
-    "scssphp/scssphp": "^1.2",
     "composer/semver": "^3.2",
     "phpfastcache/phpfastcache": "^8.0",
     "league/csv": "^9.6",
@@ -34,7 +33,6 @@
   "scripts": {
     "build-common": [
       "@icons",
-      "@scss",
       "@localize"
     ],
     "build": [
@@ -60,11 +58,6 @@
     ],
     "update-data": [
       "php include/DataUtils.php"
-    ],
-    "scss": [
-      "pscss -f compressed ./scss/main_ltr.scss > ./public_html/css/main_ltr.css",
-      "pscss -f compressed ./scss/main_rtl.scss > ./public_html/css/main_rtl.css",
-      "pscss -f compressed ./scss/pages/_mirrorbrain.scss > ./public_html/css/mirrorbrain.css"
     ],
     "localize": [
       "php include/LocalizationUtils.php"
