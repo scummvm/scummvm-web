@@ -3835,3 +3835,10 @@
     since_version: DEV
     stable_platforms: 'win,3do'
     unstable_platforms: ''
+-
+    id: lure
+    support: good
+    notes: '- MT-32 is supported. - AdLib support is incomplete.'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''

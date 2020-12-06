@@ -131,3 +131,7 @@
     name: Xbox
     id: xbox
     moby_id: '13'
+-
+    name: Dreamcast
+    id: dc
+    moby_id: ''
