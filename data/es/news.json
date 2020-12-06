@@ -288,20 +288,20 @@
         "content": "Antes de nada: ¡de nuevo, feliz año nuevo a todos vosotros!\n\nSolo queríamos informaros que desde el lanzamiento de ScummVM 0.7.0, hace ya una semana, han llegado más binarios a la [página de descargas](/downloads/). Ahora ofrecemos binarios para los siguientes sistemas:\n\n*   Windows\n*   Mac OS X\n*   Linux: Fedora Core\n*   Solaris 8\n*   PalmOS\n*   PocketPC (WinCE)\n*   Dreamcast\n*   BeOS\n\n... y, con suerte, el paquete para Debian estará listo en breve.\n\nTodo eso ya está bastante bien, pero nunca faltan más. Por ejemplo, nos gustaría tener paquetes para Mandrake, Slackware, Solaris x86 o para vuestra tostadora favorita. Si estáis interesados en uniros al proyecto en calidad de empaquetadores, [contactadnos](http://www.scummvm.org/contact.php).\n\nY ahora pasamos a algo completamente distinto: si observáis nuestra [página de estadísticas del proyecto](https://sourceforge.net/project/stats/index.php?report=last_30&group_id=37116), puede que os deis cuenta de que hemos conseguido más de 10.000.000 visualizaciones de la página web (acumuladas durante toda la vida de ScummVM como proyecto de SourceForge.net) y que se han enviado más de 1.100.000 descargas desde nuestro nacimiento. No está nada mal, en nuestra opinión. :-)"
     },
     "20050309": {
-        "title": "",
-        "content": ""
+        "title": "Parámetros de arranque, ¿quién tiene parámetros de arranque?",
+        "content": "Supongo que ya toca nuestra señal de vida mensual de siempre: *«Sí, seguimos vivos. No, no vamos a fusionarnos con FreeSCI. Sí, si me regaláis un Ferrari, puede que me lo piense mejor.»*  \nComo siempre han pasado todo tipo de cosas, grandes y pequeñas, y puede que publiquemos información en un futuro no muy lejano. Mientras tanto, me gustaría destacar un detallito pequeño pero interesante que os interesará a algunos...:\n\nHace un tiempo incluimos una [lista de parámetros de arranque](http://www.scummvm.org/documentation.php?view=bootparam) en nuestra sección de documentación. Es posible que ya la hayáis visto, si no es así, echadla un vistazo.\n\nSi no sabéis lo que es un parámetro de arranque (¡Qué vergüenza!), he intentado explicarlo en [esa misma página](http://www.scummvm.org/documentation.php?view=bootparam), así que echadla un vistazo igualmente ;-) Si creéis que la explicación no es lo bastante clara, mandadme un mensaje diciendo cómo mejorarla.\n\nY si queréis sentiros como unos señores, podéis contribuir un poco ayudándonos a redactar lo que nos falta en las tablas de los parámetros de acceso. De nuevo, pasaos por la [página de parámetros de arranque](http://www.scummvm.org/documentation.php?view=bootparam) para más información."
     },
     "20050313": {
-        "title": "",
-        "content": ""
+        "title": "En busca de los parámetros de arranque",
+        "content": "Ya tenemos una lista extensa de los parámetros de arranque de Fate of Atlantis en nuestra [página de parámetros de arranque](http://www.scummvm.org/documentation.php?view=bootparam). Muchas gracias a Laura Abbott, que dedicó su tiempo a redactar la lista para donárnosla. Seguro que nos ayudará a resolver problemas con FOA en el futuro.\n\nCambiando de tercio, Robert Kelsen se ha presentado voluntario para trabajar en las compilaciones para SlackWare y ya ha empezado presentando [un binario de la versión 0.7.0 para SlackWare](/frs/scummvm/0.7.0/scummvm-0.7.0-slack-i486-1.tgz). ¡Así se hace, Rob!\n\nEso es que, aparentemente, hay gente que lee nuestra sección de noticias... Estoy asombrado ;-). Gracias a todos los que ayudáis a ScummVM con comentarios útiles y la alabanza ocasional; ¡ambas nos ayudan a mantener el interés en trabajar en ScummVM!"
     },
     "20050328": {
-        "title": "",
-        "content": ""
+        "title": "ScummVM 0.7.1 publicada",
+        "content": "Nos complace anunciar el lanzamiento de ScummVM 0.7.1. Esta actualización está centrada en corregir fallos de la versión 0.7.0, sobre todo en la conversión para Windows Mobile (PocketPC/Smartphones). Para más información, leed las [notas de lanzamiento](/frs/scummvm/0.7.1/ReleaseNotes).\n\nComo siempre, podéis descargarla en nuestra [página de descargas](/downloads/).\n\nEn otro orden de cosas, en las últimas dos semanas hemos recibido más [parámetros de arranque](http://wiki.scummvm.org/index.php/Boot_Params) gracias a vosotros, nuestros queridos usuarios. ¡Muchas gracias a los que habéis colaborado!"
     },
     "20050330": {
-        "title": "",
-        "content": ""
+        "title": "Se acerca algo nuevo...",
+        "content": "Aunque no formará parte del programa oficial de ScummVM, algunos de nuestros miembros han estado trabajando en una sorpresita para la Pascua. Por desgracia, vamos con retraso.\n\nEsperad algo muy apetecible pronto (sobre todo para los que tenéis Linux y Mac)..."
     },
     "20050401": {
         "title": "",
