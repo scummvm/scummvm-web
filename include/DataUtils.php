@@ -7,6 +7,8 @@ require_once __DIR__ . '/../include/Constants.php';
 use League\Csv\Reader;
 use League\Csv\Statement;
 use Symfony\Component\Yaml\Yaml;
+use GuzzleHttp\Client;
+use GuzzleHttp\Promise;
 
 /**
  * DataUtils
@@ -32,6 +34,7 @@ class DataUtils
     ];
 
 
+
     /**
      * Gets the TSV representation from sheets and converts it to YAML on file
      *
@@ -39,8 +42,17 @@ class DataUtils
      */
     public function getAllData()
     {
+        $client = new Client();
+        $promises = [];
         foreach (self::SHEET_IDS as $name => $gid) {
-            $tsv = \file_get_contents(self::SHEET_URL . "&gid=" . $gid);
+            $url = self::SHEET_URL . "&gid=" . $gid;
+            $promises[$name] = $client->getAsync($url);
+        }
+
+        $responses = Promise\Utils::unwrap($promises);
+
+        foreach ($responses as $name => $response) {
+            $tsv = $response->getBody();
             $reader = Reader::createFromString($tsv);
             $reader->setDelimiter("\t");
             $reader->setHeaderOffset(0);
