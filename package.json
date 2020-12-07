@@ -8,7 +8,7 @@
     "sass": "1.26.10"
   },
   "scripts": {
-    "scss:watch": "sass --watch ./scss:./public_html/css",
-    "build": "node build.js"
+    "postinstall": "node build.js",
+    "scss:watch": "sass --watch ./scss:./public_html/css"
   }
 }
