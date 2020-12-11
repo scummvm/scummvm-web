@@ -12,4 +12,4 @@ We fixed the digital iMUSE system (better *COMI* experience), *King's Quest 4* b
 
 As a special bonus we are glad to announce the return of the **BeOS** port and the deeply missed **Playstation 2** port.
 
-For a more comprehensive list of improvements you are welcome to visit [the release notes](/frs/scummvm/0.11.1/ReleaseNotes), but for those demanding to play, the latest and greatest version of ScummVM waits for you right on [our downloads page](/downloads/)!
+For a more comprehensive list of improvements you are welcome to visit [the release notes](https://downloads.scummvm.org/frs/scummvm/0.11.1/ReleaseNotes), but for those demanding to play, the latest and greatest version of ScummVM waits for you right on [our downloads page](/downloads/)!

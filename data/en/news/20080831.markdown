@@ -10,6 +10,6 @@ This new version of ScummVM adds support for 5 completely new games. The games t
 
 The number of supported platforms grew as well. The **PS2** port has been revived, and the **GameCube** and **Wii** are now supported too. Take your Wiimote and make your beloved adventure game protagonist run around the screen :).
 
-No need to go any further into details here, those who want to know the gory details can always refer to [the release notes](/frs/scummvm/0.12.0/ReleaseNotes), and all of you are invited to go to [our downloads page](/downloads/).
+No need to go any further into details here, those who want to know the gory details can always refer to [the release notes](https://downloads.scummvm.org/frs/scummvm/0.12.0/ReleaseNotes), and all of you are invited to go to [our downloads page](/downloads/).
 
 P.S. *Soon, pretty soon, look out for more news from us.*

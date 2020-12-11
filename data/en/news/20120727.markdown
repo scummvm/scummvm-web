@@ -21,6 +21,6 @@ Version 1.5.0 adds support for *Once Upon A Time: Little Red Riding Hood* and th
 *   *Soltys*
 *   *The Princess and the Crab*
 
-As always, there are many more new features; you can find the full list in [our release notes](/frs/scummvm/1.5.0/ReleaseNotes) and the release itself on our [downloads page](/downloads/).
+As always, there are many more new features; you can find the full list in [our release notes](https://downloads.scummvm.org/frs/scummvm/1.5.0/ReleaseNotes) and the release itself on our [downloads page](/downloads/).
 
 Enjoy and hopefully you won't find the big bad wolf who is sure to give you a byte!

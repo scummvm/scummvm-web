@@ -19,6 +19,6 @@ Let's just list the new games 1.6.0 contains for you:
 
 Other significant features include support for the Macintosh version of *Discworld 1* and the music in the Macintosh versions of LucasArts adventures, an update to the latest Roland MT-32 emulation code, a new cool grid chooser for your savegames, an extended FluidSynth configuration dialog, and major bugfixes to bike fights in *Full Throttle*. We have also added Belarusian, Finnish and Galician translations to our GUI.
 
-Of course, there is much more; you can find the full list in [our release notes](/frs/scummvm/1.6.0/ReleaseNotes) and the release itself on our [downloads page](/downloads/).
+Of course, there is much more; you can find the full list in [our release notes](https://downloads.scummvm.org/frs/scummvm/1.6.0/ReleaseNotes) and the release itself on our [downloads page](/downloads/).
 
 Enjoy!

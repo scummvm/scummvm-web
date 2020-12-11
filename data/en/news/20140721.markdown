@@ -18,6 +18,6 @@ Also, we have updated the MT-32 emulator, added an OpenGL backend, improved many
 
 But this is not all. We have added experimental support for the OUYA console (we couldn't add GCW-Zero support simply because sev *still* awaits his console from [Kickstarter](https://www.kickstarter.com/projects/gcw/gcw-zero-open-source-gaming-handheld/posts)), made major improvements to the PS2 port and merged the Bada with Tizen ports.
 
-The full list with all changes mentioned can be found in [our release notes](/frs/scummvm/1.7.0/ReleaseNotes) and the release can be obtained as usual from our [downloads page](/downloads/).
+The full list with all changes mentioned can be found in [our release notes](https://downloads.scummvm.org/frs/scummvm/1.7.0/ReleaseNotes) and the release can be obtained as usual from our [downloads page](/downloads/).
 
 Everybody Way Oh!

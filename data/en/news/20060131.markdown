@@ -13,7 +13,7 @@ Rejoice, ScummVM 0.8.1 "Codename: missing" has just been released. You can now e
 *   Implemented more precise MD5-based game detection for Simon the Sorcerer
 *   First non-beta PS2 port release
 
-For a complete list of changes see the [release notes](/frs/scummvm/0.8.1/ReleaseNotes).
+For a complete list of changes see the [release notes](https://downloads.scummvm.org/frs/scummvm/0.8.1/ReleaseNotes).
 
 You can grab a build for your system on our [downloads page](/downloads/)
 

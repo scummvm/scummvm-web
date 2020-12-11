@@ -14,6 +14,6 @@ With this release we are switching to SDL 2, so please, [report any bugs](https:
 
 Notable bugfixes and enhancements include Hercules rendering and font for the AGI games, numerous bugfixes to SCI games, enhanced *Sherlock* games experience, and AmiUpdate on the Amiga port.
 
-The full list of changes included in this release can be found in [the release notes](/frs/scummvm/1.9.0/ReleaseNotes) and the binaries are provided on our [downloads page](/downloads/).
+The full list of changes included in this release can be found in [the release notes](https://downloads.scummvm.org/frs/scummvm/1.9.0/ReleaseNotes) and the binaries are provided on our [downloads page](/downloads/).
 
 Wait no more, and start playing *Myst* or *U.F.O.s* right now!

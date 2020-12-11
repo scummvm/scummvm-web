@@ -15,7 +15,7 @@ That's right, since the many many months since LucasArts first issued us with a 
   
 There have been hundreds, if not thousands, of bugfixes since our last 0.2.0 release... not to mention support for at least three new games (The VGA version of Indiana Jones and the Last Crusade, and support for The Dig and Simon the Sorcerer 2)... and new features such as a vastly improved in-game gui and a built-in launcher to make it even easier for you to add, configure, and run your classic LucasArts (and AdventureSoft) games. Experimental support for Full Throttle is here, as well as many bugfixes for the games introduced in our last version... such as the FmTowns 256 color version of Zak McKracken, and the VGA floppy version of Monkey Island.  
   
-For a short summary of changes, check out the [Release Notes](/frs/scummvm/0.3.0b/ReleaseNotes), or even better... just head over and [download the dang thing](/downloads/).  
+For a short summary of changes, check out the [Release Notes](https://downloads.scummvm.org/frs/scummvm/0.3.0b/ReleaseNotes), or even better... just head over and [download the dang thing](/downloads/).  
   
 Hopefully we will be able to come at you with new releases more often from now on, hopefully at least monthly. Please enjoy this release as much as we've became frustrated making it, and remember - if you give all your money to LucreArts, maybe they'll let us live instead of abandoning us on... on.... Monkey Island! (Ugh, Bananas... I hate Bananas).  
   

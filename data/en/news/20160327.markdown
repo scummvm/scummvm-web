@@ -10,4 +10,4 @@ The ScummVM Team is proud to announce that *Myst* and *Myst: Masterpiece Edition
 
 Reports of bugs and unknown versions are appreciated. They should go to our [bug tracker](http://bugs.scummvm.org/), and must follow our [bug submission guidelines](/faq/#question.report-bugs). You can help us fill our [screenshot gallery](http://wiki.scummvm.org/index.php/Screenshots) with captures from your playthrough.
 
-In addition to the main game, the making-of video and the [demo version](/frs/demos/mohawk/myst-win-demo-en.zip) are supported.
+In addition to the main game, the making-of video and the [demo version](https://downloads.scummvm.org/frs/demos/mohawk/myst-win-demo-en.zip) are supported.

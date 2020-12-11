@@ -14,6 +14,6 @@ We will also be adding Nintendo 3DS support! As of release time, the new binarie
 
 No ScummVM release would be complete without game engine updates! ScummVM 1.8.1 includes fixes for *Drascula*, *Legend of Kyrandia*, *Labyrinth of Time*, localized versions of *I Have No Mouth*, *Broken Sword 2.5* and improvements to the Windows, OS X and GCW0 ports.
 
-The full list of changes included in this release can be found in [the release notes](/frs/scummvm/1.8.1/ReleaseNotes) and the binaries are provided on our [downloads page](/downloads/).
+The full list of changes included in this release can be found in [the release notes](https://downloads.scummvm.org/frs/scummvm/1.8.1/ReleaseNotes) and the binaries are provided on our [downloads page](/downloads/).
 
 Get ready, grab your beloved Android device, install ScummVM on it, and play!

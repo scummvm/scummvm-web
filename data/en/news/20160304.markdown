@@ -27,6 +27,6 @@ New ports include GCW-Zero (yes, sev finally got one from the Kickstarter) and R
 
 Also, along the way we have moved to a new server and added translation capabilities to our main website. If you'd like to help with translation, [here](http://wiki.scummvm.org/index.php/HOWTO-Translate_ScummVM_Web_Site) is the link with the guide.
 
-This list is far from complete. The more comprehensive version of it can be found in [the release notes](/frs/scummvm/1.8.0/ReleaseNotes) and the binaries for your platforms are available from our [downloads page](/downloads/). The porters are still building their packages, so please be patient if you do not see the up to date download for your platform yet.
+This list is far from complete. The more comprehensive version of it can be found in [the release notes](https://downloads.scummvm.org/frs/scummvm/1.8.0/ReleaseNotes) and the binaries for your platforms are available from our [downloads page](/downloads/). The porters are still building their packages, so please be patient if you do not see the up to date download for your platform yet.
 
 Don't get lost in the Labyrinth, and in the worst case call Mr. Holmes! (And we promise to release more often!)

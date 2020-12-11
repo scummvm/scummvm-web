@@ -16,7 +16,7 @@ Other important changes include:
 *   Much improved WinCE port
 *   Numerous bugfixes in the SCUMM, SAGA, Simon, Broken Sword 2 and BASS engines
 
-For the complete list [read the release notes](/frs/scummvm/0.9.0/ReleaseNotes).
+For the complete list [read the release notes](https://downloads.scummvm.org/frs/scummvm/0.9.0/ReleaseNotes).
 
 Unfortunately not all ports are built yet and also you may experience some problems with downloads as not all SourceForge mirrors picked up the files. So, please, try different mirrors and be patient.
 

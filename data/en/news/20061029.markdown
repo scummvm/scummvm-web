@@ -18,6 +18,6 @@ Some of the most significant bugfixes are:
 *   The PalmOS port is again up-to-date and features separate build for Tapwave Zodiac
 *   The WinCE port supports 2002 devices again
 
-For the complete list [read the release notes](/frs/scummvm/0.9.0/ReleaseNotes).
+For the complete list [read the release notes](https://downloads.scummvm.org/frs/scummvm/0.9.0/ReleaseNotes).
 
 As usual, the builds are located on our [downloads page](/downloads/).

@@ -14,6 +14,6 @@ The most notable changes in this release are:
 *   More logical sound settings for SCI games
 *   A fixed crash in the VGA version of *Quest for Glory 1*
 
-The full list of changes can be found in the [release notes](/frs/scummvm/1.4.1/ReleaseNotes) and the release binaries for many platforms are located on our [downloads page](/downloads/).
+The full list of changes can be found in the [release notes](https://downloads.scummvm.org/frs/scummvm/1.4.1/ReleaseNotes) and the release binaries for many platforms are located on our [downloads page](/downloads/).
 
 Enjoy!

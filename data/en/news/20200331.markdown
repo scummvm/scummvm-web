@@ -6,7 +6,7 @@ date: 1585682388
 
 The ScummVM Team is pleased to announce a new bugfix release for the 2.1 series - ScummVM 2.1.2, codenamed “Fixing Powerful Windows”. You will notice that this time, our [downloads page](/downloads/) is not exactly extensive. Don't worry, we are not touching ScummVM's (quite incredible) portability here.
 
-ScummVM 2.1.2 is a maintenance release intended for Windows and Mac OS X, providing some [bug fixes](https://www.scummvm.org/frs/scummvm/2.1.2/ReleaseNotes.html) for those platforms. Since all other platforms are not affected, you don't need to worry about a seemingly missing update for now.
+ScummVM 2.1.2 is a maintenance release intended for Windows and Mac OS X, providing some [bug fixes](https://downloads.scummvm.org/frs/scummvm/2.1.2/ReleaseNotes.html) for those platforms. Since all other platforms are not affected, you don't need to worry about a seemingly missing update for now.
 
 While browsing the downloads page, you probably noticed a new entry there, especially when browsing our website using a PC running Ubuntu: ScummVM is now officially available at the [Snap Store](https://snapcraft.io/scummvm)! Thanks to the ongoing support from Alan &quot;popey&quot; Pope and Alan Griffiths, the Snap Store release of ScummVM is now on-par with our other Linux releases. Compared to the traditonal way of distribution software on Linux, we have a lot more freedom in terms of new releases using the Snap Store. The moment we release a new version of ScummVM, you will receive it as an automated update.
 

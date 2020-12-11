@@ -15,7 +15,7 @@ ScummVM. Do you hear it? Do you smell a new version? It's now here. And as usual
 *   Support for FLAC encoded music in *Broken Sword 1* for the purists among you
 *   Better support for non-English versions of games, including eastern languages
 *   Sound compression for SAGA games
-*   Much much more. See [the release notes](/frs/scummvm/0.11.0/ReleaseNotes) for the full list
+*   Much much more. See [the release notes](https://downloads.scummvm.org/frs/scummvm/0.11.0/ReleaseNotes) for the full list
 
 Unfortunately, PlayStation 2 and GP32 ports will not be released with this version, since we don't have any maintainers for these ports currently.
 

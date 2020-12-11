@@ -8,4 +8,4 @@ The last ScummVM release in this year just has been released. This is a maintena
 
 Particularly we added Hungarian and Brazilian translations of the GUI, and made bugfixes to the Cruise, Groovie and Lure engines.
 
-It is available from our [downloads](/downloads/) page and full release notes could be found [here](/frs/scummvm/1.2.1/ReleaseNotes).
+It is available from our [downloads](/downloads/) page and full release notes could be found [here](https://downloads.scummvm.org/frs/scummvm/1.2.1/ReleaseNotes).
