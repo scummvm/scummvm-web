@@ -207,5 +207,6 @@
     "downloadsOldBinariesFrsNote2": "לדפדף בשרת שלנו",
     "downloadsOldBinariesFrsNote1": "הינך יכול גם ",
     "downloadsBinariesNote212Maintenance": "גרסה זו הינה גרסת תחזוקה לחלונות ומק בלבד.",
-    "compatibilityUntestedDescription": "המשחק דורש בדיקה ויתכן שהוא עדין לא עובד נכון"
+    "compatibilityUntestedDescription": "המשחק דורש בדיקה ויתכן שהוא עדין לא עובד נכון",
+    "compatibilityBrokenDescription": "המשחק יכול לא לעבוד, או שיש יותר מדי בעיות בשביל לשחק בו."
 }
