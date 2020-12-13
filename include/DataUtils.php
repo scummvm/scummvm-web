@@ -2,6 +2,7 @@
 namespace ScummVM;
 
 require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/../generated-conf/config.php';
 require_once __DIR__ . '/../include/Constants.php';
 
 use League\Csv\Reader;
@@ -9,6 +10,7 @@ use League\Csv\Statement;
 use Symfony\Component\Yaml\Yaml;
 use GuzzleHttp\Client;
 use GuzzleHttp\Promise;
+use Propel\Runtime\Map\TableMap;
 
 /**
  * DataUtils
@@ -33,7 +35,19 @@ class DataUtils
         'game_downloads' => '1287892109',
     ];
 
-
+    const OBJECT_NAMES = [
+        'platforms' => 'Platform', //
+        'engines' => 'Engine', //
+        'companies' => 'Company', //
+        'versions' => 'Version', //
+        'series' => 'Series', //
+        'games' => 'Game', //
+        'compatibility' => 'Compatibility', //
+        // 'game_demos' => '713475305',
+        // 'screenshots' => '1985243204',
+        // 'scummvm_downloads' => '373699606',
+        // 'game_downloads' => '1287892109',
+    ];
 
     /**
      * Gets the TSV representation from sheets and converts it to YAML on file
@@ -84,7 +98,31 @@ class DataUtils
             \file_put_contents('.clear-cache', '');
         }
     }
+
+    public function convertData() {
+        foreach (self::OBJECT_NAMES as $name => $object) {
+            $file = DIR_DATA . "/" . DEFAULT_LOCALE . "/$name.yaml";
+            $data = Yaml::parseFile($file);
+            foreach($data as $item) {
+                try {
+                    foreach ($item as $key => $val) {
+                        if ($val === '') {
+                            unset($item[$key]);
+                        }
+                    }
+                    $class = "ScummVM\\OrmObjects\\$object";
+                    $dbItem = new $class();
+                    $dbItem->fromArray($item, TableMap::TYPE_FIELDNAME);
+                    $dbItem->save();
+                } catch (\Exception $ex) {
+                    echo json_encode($item) . "\n";
+                    echo $ex->getMessage() . "\n";
+                }
+            }
+        }
+    }
 }
 
 $dataUtils = new DataUtils();
 $dataUtils->getAllData();
+$dataUtils->convertData();
