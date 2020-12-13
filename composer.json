@@ -9,7 +9,7 @@
     }
   ],
   "require": {
-    "php": ">=7.0.0",
+    "php": ">=7.3.0",
     "ext-intl": "*",
     "smarty/smarty": "^3.1",
     "ezyang/htmlpurifier": "^4.10",
@@ -22,7 +22,8 @@
     "league/csv": "^9.6",
     "symfony/yaml": "^5.1",
     "predis/predis": "^1.1",
-    "guzzlehttp/guzzle": "^7.2"
+    "guzzlehttp/guzzle": "^7.2",
+    "propel/propel": "~2.0@dev"
   },
   "require-dev": {
     "phpstan/phpstan": "^0.12.43",
@@ -60,6 +61,13 @@
     "update-data": [
       "php include/DataUtils.php"
     ],
+    "database": [
+      "rm scummvm.db",
+      "propel sql:build",
+      "propel model:build",
+      "propel config:convert",
+      "propel sql:insert"
+    ],
     "localize": [
       "php include/LocalizationUtils.php"
     ],
@@ -77,6 +85,7 @@
         "include/",
         "public_html/index.php"
       ]
-    }
+    },
+    "classmap": ["generated-classes/"]
   }
 }

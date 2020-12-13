@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="scummvm" defaultIdMethod="native" namespace="ScummVM\OrmObjects">
+  <table name="game" phpName="Game">
+    <column name="id" type="varchar" required="true" primaryKey="true"/>
+    <column name="name" type="varchar" size="255" required="true" primaryString="true" />
+    <column name="datafiles" type="varchar" size="255"/>
+    <column name="engine_id" type="varchar" size="24" required="true"/>
+    <column name="company_id" type="varchar" size="24" required="true"/>
+    <column name="moby_id" type="integer"/>
+    <column name="series_id" type="varchar"/>
+    <foreign-key foreignTable="engine">
+      <reference local="engine_id" foreign="id"/>
+    </foreign-key>
+    <foreign-key foreignTable="company">
+      <reference local="company_id" foreign="id"/>
+    </foreign-key>
+    <foreign-key foreignTable="series">
+      <reference local="series_id" foreign="id"/>
+    </foreign-key>
+  </table>
+  <table name="engine" phpName="Engine">
+    <column name="id" type="varchar" required="true" primaryKey="true"/>
+    <column name="name" type="varchar" size="128" required="true"/>
+    <column name="alt_name" type="varchar" size="128"/>
+    <column name="enabled" type="boolean"/>
+  </table>
+  <table name="company" phpName="Company">
+    <column name="id" type="varchar" required="true" primaryKey="true"/>
+    <column name="name" type="varchar" size="128" required="true"/>
+    <column name="alt_name" type="varchar" size="128"/>
+  </table>
+  <table name="series" phpName="Series">
+    <column name="id" type="varchar" required="true" primaryKey="true"/>
+    <column name="name" type="varchar" size="128" required="true"/>
+  </table>
+  <table name="compatibility" phpName="Compatibility">
+    <column name="id" type="varchar" required="true" primaryKey="true"/>
+    <column name="support" type="varchar" size="24" required="true" />
+    <column name="since_version" type="varchar" size="24" required="true" primaryKey="true"/>
+    <column name="stable_platforms" type="varchar" size="255"/>
+    <column name="unstable_platforms" type="varchar" size="255"/>
+    <foreign-key foreignTable="game">
+      <reference local="id" foreign="id"/>
+    </foreign-key>
+    <foreign-key foreignTable="version">
+      <reference local="since_version" foreign="id"/>
+    </foreign-key>
+  </table>
+  <table name="platform" phpName="Platform">
+    <column name="id" type="varchar" required="true" primaryKey="true"/>
+    <column name="name" type="varchar" size="128" required="true"/>
+    <column name="moby_id" type="integer"/>
+  </table>
+  <table name="version" phpName="Version">
+    <column name="id" type="varchar" required="true" primaryKey="true"/>
+    <column name="release_date" type="date"/>
+  </table>
+</database>
