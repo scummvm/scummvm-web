@@ -1,0 +1,21 @@
+
+
+propel:
+  database:
+      connections:
+          scummvm:
+              adapter: sqlite
+              dsn: sqlite:scummvm.db
+              user: admin
+              password: admin
+              settings:
+                charset: utf8
+  runtime:
+      defaultConnection: scummvm
+      connections:
+          - scummvm
+  generator:
+      defaultConnection: scummvm
+      connections:
+          - scummvm
+
