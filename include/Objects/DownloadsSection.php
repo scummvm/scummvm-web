@@ -1,6 +1,9 @@
 <?php
 namespace ScummVM\Objects;
 
+use Propel\Runtime\Map\TableMap;
+use ScummVM\OrmObjects\Downloads;
+
 /**
  * The DownloadsSection object represents a section on the downloads page.
  */
@@ -24,12 +27,12 @@ class DownloadsSection extends BasicSection
 
     }
 
-    public function addItem($item)
+    public function addItem(Downloads $item)
     {
-        if ($item['category_icon']) {
-            $this->items[] = new File($item, '');
+        if ($item->getCategoryIcon()) {
+            $this->items[] = new File($item->toArray(TableMap::TYPE_FIELDNAME), '');
         } else {
-            $this->items[] = new WebLink($item);
+            $this->items[] = new WebLink($item->toArray(TableMap::TYPE_FIELDNAME));
         }
     }
 
