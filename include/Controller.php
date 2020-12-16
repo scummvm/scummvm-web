@@ -2,7 +2,7 @@
 namespace ScummVM;
 
 use Smarty;
-use ScummVM\Models\SimpleModel;
+use ScummVM\Models\SimpleYamlModel;
 
 /**
  * The Controller class will create an instance of the Smarty object configured
@@ -60,7 +60,7 @@ class Controller
         $this->css_files = array();
         $this->js_files = array();
 
-        $this->menuModel = new SimpleModel("MenuItem", "menus.yaml");
+        $this->menuModel = new SimpleYamlModel("MenuItem", "menus.yaml");
         $menus = [];
         /* The menus have caused an exception, need to skip them. */
         if (!ExceptionHandler::skipMenus()) {

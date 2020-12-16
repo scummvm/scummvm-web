@@ -4,18 +4,13 @@ namespace ScummVM\Models;
 use ScummVM\Objects\DownloadsSection;
 use Symfony\Component\Yaml\Yaml;
 use ScummVM\Models\GameModel;
+use ScummVM\OrmObjects\GameQuery;
 
 /**
  * The GameDownloadsModel will produce DownloadsSection objects.
  */
 class GameDownloadsModel extends BasicModel
 {
-    private $gameModel;
-
-    public function __construct()
-    {
-        $this->gameModel = new GameModel();
-    }
     /* Get all download entries. */
     public function getAllDownloads()
     {
@@ -23,11 +18,9 @@ class GameDownloadsModel extends BasicModel
         if (is_null($sections)) {
             $fname = $this->getLocalizedFile('game_downloads.yaml');
             $parsedData = @Yaml::parseFile($fname);
-            // error check yaml
-
             $sections = [];
             $sectionsData = $this->getSectionData();
-            $games = $this->gameModel->getAllGames();
+            $gameQuery = GameQuery::create();
             foreach ($parsedData as $data) {
                 // Create Sections
                 $category = $data['category'];
@@ -41,16 +34,17 @@ class GameDownloadsModel extends BasicModel
 
                 // Create Subsections
                 $gameId = $data['game_id'];
+                $gameName = $gameQuery->findPk($gameId)->getName();
                 if (!isset($sections[$category]->getSubSections()[$gameId])) {
                     $sections[$category]->addSubsection(new DownloadsSection([
                         'anchor' => $gameId,
-                        'title' => $games[$gameId]->getName(),
+                        'title' => $gameName,
                         'notes' => $sectionsData[$gameId]['notes']
                     ]));
                 }
 
                 // Add Download to subsection
-                $data['name'] = $games[$gameId]->getName() . " - " . $data['name'];
+                $data['name'] = $gameName . " - " . $data['name'];
                 $sections[$category]->getSubsections()[$gameId]->addItem($data);
             }
             $this->saveToCache($sections);
@@ -58,7 +52,8 @@ class GameDownloadsModel extends BasicModel
         return $sections;
     }
 
-    private function getSectionData() {
+    private function getSectionData()
+    {
         return [
             "games"=>["title"=>"{#gamesXMLTitle#} {#downloadsXMLVersion#}"],
             "addons"=>["title"=>"{#gamesXMLAddons#} {#downloadsXMLVersion#}"],
