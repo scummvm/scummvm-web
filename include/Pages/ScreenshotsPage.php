@@ -7,7 +7,6 @@ use ScummVM\Models\ScreenshotsModel;
 class ScreenshotsPage extends Controller
 {
     private $screenshotsModel;
-    private $template_category;
 
     /* Constructor. */
     public function __construct()

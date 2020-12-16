@@ -1,10 +1,7 @@
 <?php
 namespace ScummVM\Models;
 
-use ScummVM\Objects\Screenshot;
-use ScummVM\Models\GameModel;
-use ScummVM\Models\SimpleModel;
-use Symfony\Component\Yaml\Yaml;
+use ScummVM\OrmObjects\ScreenshotQuery;
 
 /**
  * The ScreenshotsModel will generate Screenshot objects.
@@ -14,32 +11,19 @@ class ScreenshotsModel extends BasicModel
     const INVALID_TARGET = 'Invalid target specified.';
     const INVALID_CATEGORY = 'Invalid category specified.';
 
-    private $platformsModel;
-    private $gameModel;
-
-    public function __construct()
-    {
-        $this->platformsModel = new SimpleModel("Platform", "platforms.yaml");
-        $this->gameModel = new GameModel();
-    }
-
     /* Get all screenshots. */
     public function getAllScreenshots()
     {
-        $fname = $this->getLocalizedFile('screenshots.yaml');
-        $screenshots = Yaml::parseFile($fname);
-        $platforms = $this->platformsModel->getAllData();
-        $games = $this->gameModel->getAllGames();
+        $screenshots = ScreenshotQuery::create()->find();
         $data = [];
         foreach ($screenshots as $screenshot) {
-            $obj = new Screenshot($screenshot, $games, $platforms);
-            if (array_key_exists($obj->getCategory(), $data)) {
-                $data[$obj->getCategory()]->addFiles($obj->getFiles());
+            $category = $screenshot->getCategory();
+            if (isset($data[$category])) {
+                $data[$screenshot->getCategory()]->addFiles($screenshot->getFiles());
             } else {
-                $data[$obj->getCategory()] = $obj;
+                $data[$screenshot->getCategory()] = $screenshot;
             }
         }
-
         return $data;
     }
 
@@ -49,24 +33,24 @@ class ScreenshotsModel extends BasicModel
         $entries = [];
 
         // create top level company categories
-        foreach ($screenshots as $value) {
-            $game = $value->getGame();
+        foreach ($screenshots as $screenshot) {
+            $game = $screenshot->getGame();
             $company = $game->getCompany();
             $companyId = $company ? $company->getId() : 'other';
             $companyName = $company ? $company->getName() : 'Other';
 
-            if (!array_key_exists($companyId, $entries)) {
+            if (!isset($entries[$companyId])) {
                 $entries[$companyId] = [
                     'title' => $companyName . " Games",
                     'category' => $companyId,
                     'games' => [],
                 ];
             }
-            $entries[$companyId]['games'][] = $value;
+            $entries[$companyId]['games'][] = $screenshot;
         }
 
         // Create Other top level category and sort everything
-        if (!array_key_exists('other', $entries)) {
+        if (!isset($entries['other'])) {
             $entries['other'] = [
                 'title' => 'Other Games',
                 'category' => 'other',
@@ -97,10 +81,10 @@ class ScreenshotsModel extends BasicModel
     /* Get all screenshots in one category. */
     public function getCategoryScreenshots($category)
     {
-        $sshots = $this->getGroupedScreenshots();
-        foreach ($sshots as $shots) {
-            if ($shots['category'] == $category) {
-                return $shots;
+        $screenshots = $this->getGroupedScreenshots();
+        foreach ($screenshots as $screenshot) {
+            if ($screenshot['category'] == $category) {
+                return $screenshot;
             }
         }
         throw new \ErrorException(self::INVALID_CATEGORY);
