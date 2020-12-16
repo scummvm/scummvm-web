@@ -36,17 +36,17 @@ class DataUtils
     ];
 
     const OBJECT_NAMES = [
-        'platforms' => 'Platform', //
-        'engines' => 'Engine', //
-        'companies' => 'Company', //
-        'versions' => 'Version', //
-        'series' => 'Series', //
-        'games' => 'Game', //
-        'compatibility' => 'Compatibility', //
-        // 'game_demos' => '713475305',
-        // 'screenshots' => '1985243204',
-        // 'scummvm_downloads' => '373699606',
-        // 'game_downloads' => '1287892109',
+        'platforms' => 'Platform',
+        'engines' => 'Engine',
+        'companies' => 'Company',
+        'versions' => 'Version',
+        'series' => 'Series',
+        'games' => 'Game',
+        'compatibility' => 'Compatibility',
+        'game_demos' => 'Demo',
+        'screenshots' => 'Screenshot',
+        'scummvm_downloads' => 'Downloads',
+        'game_downloads' => 'GameDownloads',
     ];
 
     /**
@@ -99,11 +99,12 @@ class DataUtils
         }
     }
 
-    public function convertData() {
+    public function convertData()
+    {
         foreach (self::OBJECT_NAMES as $name => $object) {
             $file = DIR_DATA . "/" . DEFAULT_LOCALE . "/$name.yaml";
             $data = Yaml::parseFile($file);
-            foreach($data as $item) {
+            foreach ($data as $item) {
                 try {
                     foreach ($item as $key => $val) {
                         if ($val === '') {
@@ -112,6 +113,12 @@ class DataUtils
                     }
                     $class = "ScummVM\\OrmObjects\\$object";
                     $dbItem = new $class();
+                    if ($object === 'Version') {
+                        $ver = explode(".", $item['id']);
+                        $item['major'] = $ver[0];
+                        $item['minor'] = $ver[1];
+                        $item['patch'] = $ver[2];
+                    }
                     $dbItem->fromArray($item, TableMap::TYPE_FIELDNAME);
                     $dbItem->save();
                 } catch (\Exception $ex) {

@@ -52,7 +52,57 @@
     <column name="moby_id" type="integer"/>
   </table>
   <table name="version" phpName="Version">
-    <column name="id" type="varchar" required="true" primaryKey="true"/>
+    <column name="id" type="varchar" size="24" required="true" primaryKey="true"/>
+    <column name="major" type="SMALLINT" required="true"/>
+    <column name="minor" type="SMALLINT" required="true"/>
+    <column name="patch" type="SMALLINT" required="true"/>
     <column name="release_date" type="date"/>
+  </table>
+  <table name="screenshot" phpName="Screenshot">
+    <!-- id	variant	platform_id	language	filemask -->
+    <column name="id" type="varchar" required="true"/>
+    <column name="variant" type="varchar" size="255" />
+    <column name="platform_id" type="varchar" size="24" required="true"/>
+    <column name="language" type="varchar" size="8" required="true"/>
+    <column name="filemask" type="varchar" size="255" required="true"/>
+    <foreign-key foreignTable="game">
+      <reference local="id" foreign="id"/>
+    </foreign-key>
+    <foreign-key foreignTable="platform">
+      <reference local="platform_id" foreign="id"/>
+    </foreign-key>
+  </table>
+  <table name="demo" phpName="Demo">
+    <column name="id" type="varchar" required="true"/>
+    <column name="platform_id" type="varchar" size="24" required="true"/>
+    <column name="category" type="varchar" size="255"/>
+    <column name="url" type="varchar" size="255"/>
+    <foreign-key foreignTable="game">
+      <reference local="id" foreign="id"/>
+    </foreign-key>
+    <foreign-key foreignTable="platform">
+      <reference local="platform_id" foreign="id"/>
+    </foreign-key>
+  </table>
+  <table name="scummvm_downloads" phpName="Downloads">
+    <column name="name" type="varchar" size="255" required="true"/>
+    <column name="description" type="varchar" size="255"/>
+    <column name="subcategory" type="varchar" size="24" required="true"/>
+    <column name="category" type="varchar" size="24" required="true"/>
+    <column name="category_icon" type="varchar" size="24"/>
+    <column name="enabled" type="boolean" />
+    <column name="user_agent" type="varchar" size="255"/>
+    <column name="url" type="varchar" size="255" required="true"/>
+  </table>
+  <table name="game_downloads" phpName="GameDownloads">
+    <column name="category" type="varchar" size="24" required="true"/>
+    <column name="game_id" type="varchar" size="24" required="true"/>
+    <column name="category_icon" type="varchar" size="24" required="true"/>
+    <column name="name" type="varchar" size="255" required="true"/>
+    <column name="notes" type="varchar" size="255"/>
+    <column name="url" type="varchar" size="255" required="true"/>
+    <foreign-key foreignTable="game">
+      <reference local="game_id" foreign="id"/>
+    </foreign-key>
   </table>
 </database>
