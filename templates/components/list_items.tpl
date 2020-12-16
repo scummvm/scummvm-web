@@ -36,7 +36,7 @@
                 <li class="link">
                     <a href="{$item->getURL()}">{$item->getName()}</a>: {$item->getDescription()}
                 </li>
-            {elseif $item instanceof ScummVM\Objects\Screenshot}
+            {elseif $item instanceof ScummVM\OrmObjects\Screenshot}
                 <li class="file">
                     <span class="sprite-games-{$item->getCategory()} sprite"></span>
                     <a href="{'/screenshots/'|lang}{$arr.category}/{$item->getCategory()}/">{$item->getName()}</a>
