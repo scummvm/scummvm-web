@@ -2,7 +2,7 @@
 namespace ScummVM\Pages;
 
 use ScummVM\Controller;
-use ScummVM\Models\SimpleModel;
+use ScummVM\Models\SimpleYamlModel;
 
 class SimplePage extends Controller
 {
@@ -30,7 +30,7 @@ class SimplePage extends Controller
         }
         if (array_key_exists($key, self::PAGE_MODELS)) {
             [$model, $data] = self::PAGE_MODELS[$key];
-            $this->model = new SimpleModel($model, $data);
+            $this->model = new SimpleYamlModel($model, $data);
         }
     }
 

@@ -1,8 +1,8 @@
 <?php
 namespace ScummVM\Models;
 
-use ScummVM\Objects\Version;
-use Symfony\Component\Yaml\Yaml;
+use ScummVM\OrmObjects\Version;
+use ScummVM\OrmObjects\VersionQuery;
 
 /**
  * The VersionsModel is used to cross reference versions across the website
@@ -14,21 +14,13 @@ class VersionsModel extends BasicModel
     {
         $data = $this->getFromCache();
         if (is_null($data)) {
-            $fname = $this->getLocalizedFile('versions.yaml');
-            $versions = Yaml::parseFile($fname);
-
-            $data = [];
-            foreach ($versions as $version) {
-                $obj = new Version($version);
-                $data[$obj->getId()] = $obj;
+            $dev = VersionQuery::create()->findPk('DEV');
+            if (!$dev) {
+                $dev = new Version();
+                $dev->fromArray(["Id" => 'DEV', 'Major' => 9, 'Minor' => 9, 'Patch' => 9]);
+                $dev->save();
             }
-
-            \uasort($data, "version_compare");
-
-            if (!array_key_exists('DEV', $data)) {
-                $data['DEV'] = new Version(["id" => 'DEV', "date" => "1/1/2099"]);
-            }
-            $data = array_reverse($data, true);
+            $data = VersionQuery::create()->orderByReleaseDate()->find();
             $this->saveToCache($data);
         }
         return $data;
