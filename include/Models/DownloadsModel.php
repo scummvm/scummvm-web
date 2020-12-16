@@ -3,8 +3,8 @@
 namespace ScummVM\Models;
 
 use ScummVM\Objects\DownloadsSection;
-use Symfony\Component\Yaml\Yaml;
 use DeviceDetector\Parser\OperatingSystem as OsParser;
+use ScummVM\OrmObjects\DownloadsQuery;
 
 /**
  * The DownloadsModel will produce DownloadsSection objects.
@@ -16,19 +16,13 @@ class DownloadsModel extends BasicModel
     {
         $sections = $this->getFromCache();
         if (is_null($sections)) {
-            $fname = $this->getLocalizedFile('scummvm_downloads.yaml');
-            $parsedData = @Yaml::parseFile($fname);
-            // error check yaml
-
+            $parsedData = DownloadsQuery::create()
+                ->findByEnabled(true);
             $sections = [];
             $sectionsData = $this->getSectionData();
             foreach ($parsedData as $data) {
-                if (!$data['enabled'] === TRUE) {
-                    continue;
-                }
-
                 // Create Sections
-                $category = $data['category'];
+                $category = $data->getCategory();
                 if (!isset($sections[$category])) {
                     $sections[$category] = new DownloadsSection([
                         'anchor' => $category,
@@ -38,7 +32,7 @@ class DownloadsModel extends BasicModel
                 }
 
                 // Create Subsections
-                $subCategory = $data['subcategory'];
+                $subCategory = $data->getSubcategory();
                 if (!isset($sections[$category]->getSubSections()[$subCategory])) {
                     $sections[$category]->addSubsection(new DownloadsSection([
                         'anchor' => $subCategory,
@@ -82,68 +76,52 @@ class DownloadsModel extends BasicModel
             return false;
         }
 
-        $downloads = $this->getAllDownloads();
-
         $osParser = new OsParser();
         $osParser->setUserAgent($_SERVER['HTTP_USER_AGENT']);
         $os = $osParser->parse();
 
-        foreach ($downloads as $section) {
-            foreach ($section->getSubSections() as $subsection) {
-                $version = array_values(
-                    array_filter(
-                        $subsection->getItems(),
-                        function ($item) use ($os) {
-                            if ($item->getUserAgent() != "") {
-                                $ua = preg_quote($item->getUserAgent(), '/');
-                                return preg_match("/({$ua})/i", $os['name']);
-                            }
-                        }
-                    )
-                );
+        $downloads = DownloadsQuery::create()
+            ->setIgnoreCase(true)
+            ->findByUserAgent($os['name']);
 
-                if ($version) {
-                    $curItem = $version[0];
-                    $url = str_replace('{$release}', RELEASE, $curItem->getURL());
-                    sscanf($url, "/frs/scummvm/%s", $versionStr);
-                    $version = substr($versionStr, 0, strpos($versionStr, "/"));
-                    $name = strip_tags($curItem->getName());
-                    $data = $curItem->getExtraInfo();
-                    if (is_array($data)) {
-                        $extra_text = $data['size'] . " ";
-                        if ($data['ext'] == '.exe') {
-                            $extra_text = $extra_text . 'Win32 ';
-                        }
-
-                        $extra_text .= $data['ext'] . " " . $data['msg'];
-                    } else {
-                        $extra_text = $data;
-                    }
-
-                    /*
-                    Get the version information for our store releases for
-                    Android and the Snap store. Since we can't rely on the
-                    file names here, we set them via Constants.php
-                    */
-                    if ($os['name'] === 'Android') {
-                        $version = RELEASE_ANDROID_STORE;
-                    }
-
-                    if ($os['name'] === 'Ubuntu') {
-                        $version = RELEASE_SNAP_STORE;
-                        $extra_text = '(snap install scummvm)';
-                    }
-
-                    return [
-                        'os' => $name,
-                        'ver' => $version,
-                        'desc' => $extra_text,
-                        'url' => $url,
-                    ];
+        foreach ($downloads as $download) {
+            $url = str_replace('{$release}', RELEASE, $download->getURL());
+            sscanf($url, "/frs/scummvm/%s", $versionStr);
+            $version = substr($versionStr, 0, strpos($versionStr, "/"));
+            $name = strip_tags($download->getName());
+            $data = ""; //$download->getExtraInfo();
+            if (is_array($data)) {
+                $extra_text = $data['size'] . " ";
+                if ($data['ext'] == '.exe') {
+                    $extra_text = $extra_text . 'Win32 ';
                 }
-            }
-        }
 
+                $extra_text .= $data['ext'] . " " . $data['msg'];
+            } else {
+                $extra_text = $data;
+            }
+
+            /*
+            Get the version information for our store releases for
+            Android and the Snap store. Since we can't rely on the
+            file names here, we set them via Constants.php
+            */
+            if ($os['name'] === 'Android') {
+                $version = RELEASE_ANDROID_STORE;
+            }
+
+            if ($os['name'] === 'Ubuntu') {
+                $version = RELEASE_SNAP_STORE;
+                $extra_text = '(snap install scummvm)';
+            }
+
+            return [
+                'os' => $name,
+                'ver' => $version,
+                'desc' => $extra_text,
+                'url' => $url,
+            ];
+        }
         return false;
     }
 }
