@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database name="scummvm" defaultIdMethod="native" namespace="ScummVM\OrmObjects">
+  <behavior name="auto_add_pk">
+    <parameter name="name" value="auto_id" />
+  </behavior>
   <table name="game" phpName="Game">
     <column name="id" type="varchar" required="true" primaryKey="true"/>
     <column name="name" type="varchar" size="255" required="true" primaryString="true" />
@@ -8,13 +11,13 @@
     <column name="company_id" type="varchar" size="24" required="true"/>
     <column name="moby_id" type="integer"/>
     <column name="series_id" type="varchar"/>
-    <foreign-key foreignTable="engine">
+    <foreign-key foreignTable="engine" onDelete="CASCADE">
       <reference local="engine_id" foreign="id"/>
     </foreign-key>
-    <foreign-key foreignTable="company">
+    <foreign-key foreignTable="company" onDelete="CASCADE">
       <reference local="company_id" foreign="id"/>
     </foreign-key>
-    <foreign-key foreignTable="series">
+    <foreign-key foreignTable="series" onDelete="CASCADE">
       <reference local="series_id" foreign="id"/>
     </foreign-key>
   </table>
@@ -39,10 +42,10 @@
     <column name="since_version" type="varchar" size="24" required="true" primaryKey="true"/>
     <column name="stable_platforms" type="varchar" size="255"/>
     <column name="unstable_platforms" type="varchar" size="255"/>
-    <foreign-key foreignTable="game">
+    <foreign-key foreignTable="game" onDelete="CASCADE">
       <reference local="id" foreign="id"/>
     </foreign-key>
-    <foreign-key foreignTable="version">
+    <foreign-key foreignTable="version" onDelete="CASCADE">
       <reference local="since_version" foreign="id"/>
     </foreign-key>
   </table>
@@ -64,11 +67,11 @@
     <column name="variant" type="varchar" size="255" />
     <column name="platform_id" type="varchar" size="24" required="true"/>
     <column name="language" type="varchar" size="8" required="true"/>
-    <column name="filemask" type="varchar" size="255" required="true" primaryKey="true"/>
-    <foreign-key foreignTable="game">
+    <column name="filemask" type="varchar" size="255" required="true"/>
+    <foreign-key foreignTable="game" onDelete="CASCADE">
       <reference local="id" foreign="id"/>
     </foreign-key>
-    <foreign-key foreignTable="platform">
+    <foreign-key foreignTable="platform" onDelete="CASCADE">
       <reference local="platform_id" foreign="id"/>
     </foreign-key>
   </table>
@@ -77,10 +80,10 @@
     <column name="platform_id" type="varchar" size="24" required="true"/>
     <column name="category" type="varchar" size="255"/>
     <column name="url" type="varchar" size="255"/>
-    <foreign-key foreignTable="game">
+    <foreign-key foreignTable="game" onDelete="CASCADE">
       <reference local="id" foreign="id"/>
     </foreign-key>
-    <foreign-key foreignTable="platform">
+    <foreign-key foreignTable="platform" onDelete="CASCADE">
       <reference local="platform_id" foreign="id"/>
     </foreign-key>
   </table>
@@ -101,7 +104,7 @@
     <column name="name" type="varchar" size="255" required="true"/>
     <column name="notes" type="varchar" size="255"/>
     <column name="url" type="varchar" size="255" required="true"/>
-    <foreign-key foreignTable="game">
+    <foreign-key foreignTable="game" onDelete="CASCADE">
       <reference local="game_id" foreign="id"/>
     </foreign-key>
   </table>
