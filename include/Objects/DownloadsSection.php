@@ -2,7 +2,6 @@
 namespace ScummVM\Objects;
 
 use Propel\Runtime\Map\TableMap;
-use ScummVM\OrmObjects\Downloads;
 
 /**
  * The DownloadsSection object represents a section on the downloads page.
@@ -24,10 +23,9 @@ class DownloadsSection extends BasicSection
         parent::__construct($data);
         $this->notes = $data['notes'];
         $this->items = [];
-
     }
 
-    public function addItem(Downloads $item)
+    public function addItem($item)
     {
         if ($item->getCategoryIcon()) {
             $this->items[] = new File($item->toArray(TableMap::TYPE_FIELDNAME), '');
