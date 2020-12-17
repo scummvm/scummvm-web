@@ -2,9 +2,7 @@
 namespace ScummVM\Models;
 
 use ScummVM\Objects\DownloadsSection;
-use Symfony\Component\Yaml\Yaml;
-use ScummVM\Models\GameModel;
-use ScummVM\OrmObjects\GameQuery;
+use ScummVM\OrmObjects\GameDownloadsQuery;
 
 /**
  * The GameDownloadsModel will produce DownloadsSection objects.
@@ -16,25 +14,31 @@ class GameDownloadsModel extends BasicModel
     {
         $sections = $this->getFromCache();
         if (is_null($sections)) {
-            $fname = $this->getLocalizedFile('game_downloads.yaml');
-            $parsedData = @Yaml::parseFile($fname);
             $sections = [];
             $sectionsData = $this->getSectionData();
-            $gameQuery = GameQuery::create();
-            foreach ($parsedData as $data) {
-                // Create Sections
-                $category = $data['category'];
-                if (!isset($sections[$category])) {
-                    $sections[$category] = new DownloadsSection([
+            $categories = GameDownloadsQuery::create()
+                ->select('category')
+                ->distinct()
+                ->find();
+
+            foreach ($categories as $category) {
+                $sections[$category] = new DownloadsSection([
                         'anchor' => $category,
                         'title' => $sectionsData[$category]['title'],
                         'notes' => $sectionsData[$category]['notes']
                     ]);
-                }
+            }
+
+            $gameDownloads = GameDownloadsQuery::create()
+                ->joinWithGame()
+                ->find();
+            foreach ($gameDownloads as $gameDownload) {
+                // Create Sections
+                $category = $gameDownload->getCategory();
+                $gameId = $gameDownload->getGameId();
+                $gameName = $gameDownload->getGame()->getName();
 
                 // Create Subsections
-                $gameId = $data['game_id'];
-                $gameName = $gameQuery->findPk($gameId)->getName();
                 if (!isset($sections[$category]->getSubSections()[$gameId])) {
                     $sections[$category]->addSubsection(new DownloadsSection([
                         'anchor' => $gameId,
@@ -44,8 +48,8 @@ class GameDownloadsModel extends BasicModel
                 }
 
                 // Add Download to subsection
-                $data['name'] = $gameName . " - " . $data['name'];
-                $sections[$category]->getSubsections()[$gameId]->addItem($data);
+                $gameDownload->setName($gameName . " - " . $gameDownload->getName());
+                $sections[$category]->getSubsections()[$gameId]->addItem($gameDownload);
             }
             $this->saveToCache($sections);
         }
