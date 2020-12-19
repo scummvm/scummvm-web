@@ -67,14 +67,14 @@
     </thead>
     <tbody>
         {foreach from=$games item=game}
-        {assign var="x" value=$game->getSupportLevel()}
+        {assign var="x" value=$game->getSupport()}
         {assign var="pct_class" value=$support_level_class.$x}
         {assign var="support_level" value=$support_level_header.$x}
         <tr class="color{cycle values='2,0'}">
             <td class="gameFullName"><a href="{'/compatibility/'|lang}{$version}/{$game->getGame()->getId()}/">{$game->getGame()->getName()}</a></td>
             <td class="gameShortName">{$game->getGame()->getId()}</td>
             <td class="gameDatafiles">
-                {if $game->getDatafiles()}
+            {if $game->getDatafiles()}
                 <a href="{$game->getDatafiles()}">{#compatabilityDetailsDetails#}</a></td>
             {else}
             ---

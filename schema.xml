@@ -40,6 +40,7 @@
     <column name="id" type="varchar" required="true" primaryKey="true"/>
     <column name="support" type="varchar" size="24" required="true" />
     <column name="since_version" type="varchar" size="24" required="true" primaryKey="true"/>
+    <column name="notes" type="varchar"/>
     <column name="stable_platforms" type="varchar" size="255"/>
     <column name="unstable_platforms" type="varchar" size="255"/>
     <foreign-key foreignTable="game" onDelete="CASCADE">

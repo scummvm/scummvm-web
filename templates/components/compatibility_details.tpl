@@ -1,4 +1,4 @@
-{assign var="x" value=$game->getSupportLevel()}
+{assign var="x" value=$game->getSupport()}
 {assign var="pct_class" value=$support_level_class.$x}
 {assign var="support_level" value=$support_level_header.$x}
 {assign var="support_description" value=$support_level_description.$x}
