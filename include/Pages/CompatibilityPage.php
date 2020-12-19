@@ -3,7 +3,7 @@ namespace ScummVM\Pages;
 
 use ScummVM\Controller;
 use ScummVM\Models\CompatibilityModel;
-use ScummVM\Models\VersionsModel;
+use ScummVM\OrmObjects\VersionQuery;
 
 /**
  * The Compatibility page gets all the data from the CompatibilityModel and
@@ -15,7 +15,6 @@ class CompatibilityPage extends Controller
     private $supportLevel;
     private $supportLevelDescriptions;
     private $supportLevelClass;
-    private $versionsModel;
     private $compatibilityModel;
 
     /* Constructor. */
@@ -47,7 +46,6 @@ class CompatibilityPage extends Controller
             'excellent' => 'pct100'
         );
 
-        $this->versionsModel = new VersionsModel();
         $this->compatibilityModel = new CompatibilityModel();
     }
 
@@ -57,12 +55,16 @@ class CompatibilityPage extends Controller
         $version = $args['version'];
         $target = $args['game'];
 
-        $versions = $this->versionsModel->getAllVersions();
-        unset($versions['DEV']);
+        $versions = VersionQuery::create()
+            ->orderByMajor()
+            ->orderByMinor()
+            ->orderByPatch()
+            ->select('id')
+            ->find()->toArray();
 
         /* Default to DEV */
-        if (!in_array($version, $versions)) {
-            $version = 'DEV';
+        if (!in_array($version, $versions) || $version === 'DEV') {
+            $version = '99.99.99';
         }
 
         if (!empty($target)) {
@@ -105,8 +107,9 @@ class CompatibilityPage extends Controller
         $last_updated = $this->compatibilityModel->getLastUpdated();
         $this->template = 'pages/compatibility.tpl';
 
+        $version = $version == '99.99.99' ? 'DEV' : $version;
         return $this->renderPage(
-            array(
+            [
                 'title' => preg_replace('/{version}/', $version, $this->getConfigVars('compatibilityTitle')),
                 'content_title' => preg_replace(
                     '/{version}/',
@@ -120,7 +123,7 @@ class CompatibilityPage extends Controller
                 'support_level_header' => $this->supportLevel,
                 'support_level_description' => $this->supportLevelDescriptions,
                 'support_level_class' => $this->supportLevelClass
-            )
+            ]
         );
     }
 }
