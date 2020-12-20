@@ -14,10 +14,9 @@
     "smarty/smarty": "^3.1",
     "ezyang/htmlpurifier": "^4.10",
     "altorouter/altorouter": "^2.0",
-    "piwik/device-detector": "^3.11",
+    "matomo/device-detector": "^3.11",
     "spatie/yaml-front-matter": "^2.0",
     "erusev/parsedown": "^1.7",
-    "composer/semver": "^3.2",
     "phpfastcache/phpfastcache": "^8.0",
     "league/csv": "^9.6",
     "symfony/yaml": "^5.1",
@@ -62,11 +61,13 @@
       "php include/DataUtils.php"
     ],
     "database": [
-      "rm scummvm.db",
+      "sed -i'' -e \"s#{{BASE_DIR}}#$(pwd)#g\" propel.yaml",
       "propel sql:build",
       "propel model:build",
       "propel config:convert",
-      "propel sql:insert"
+      "propel sql:insert",
+      "composer dumpautoload",
+      "sed -i'' -e \"s#$(pwd)#{{BASE_DIR}}#g\" propel.yaml"
     ],
     "localize": [
       "php include/LocalizationUtils.php"
@@ -85,7 +86,6 @@
         "include/",
         "public_html/index.php"
       ]
-    },
-    "classmap": ["generated-classes/"]
+    }
   }
 }

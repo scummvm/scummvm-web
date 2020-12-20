@@ -37,8 +37,8 @@ public_html/frs
 .no-cache
 
 # Propel
-generated-classes/ScummVM/OrmObjects/*
-!generated-classes/ScummVM/OrmObjects/Screenshot.php
-generated-conf
-generated-sql
-scummvm.db
+/orm
+/data/scummvm-web.db
+/include/OrmObjects/Base
+/include/OrmObjects/Map
+/propel.yaml-e

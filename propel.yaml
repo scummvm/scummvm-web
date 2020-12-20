@@ -1,11 +1,9 @@
-
-
 propel:
   database:
       connections:
           scummvm:
               adapter: sqlite
-              dsn: sqlite:scummvm.db
+              dsn: sqlite:{{BASE_DIR}}/data/scummvm-web.db
               user: admin
               password: admin
               settings:
@@ -16,6 +14,10 @@ propel:
           - scummvm
   generator:
       defaultConnection: scummvm
+      namespaceAutoPackage: false
       connections:
           - scummvm
-
+  paths:
+    phpConfDir: ./orm/
+    sqlDir: ./orm/
+    phpDir: ./include/OrmObjects/
