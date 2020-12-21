@@ -57,7 +57,7 @@
       "@start"
     ],
     "lint": [
-      "phpcbf --standard=psr2 ./include"
+      "phpcbf --standard=psr2 --ignore=./include/OrmObjects/Base,./include/OrmObjects/Map ./include"
     ],
     "update-data": [
       "php include/DataUtils.php"
