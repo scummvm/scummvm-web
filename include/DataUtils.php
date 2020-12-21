@@ -2,7 +2,7 @@
 namespace ScummVM;
 
 require_once __DIR__ . '/../vendor/autoload.php';
-require_once __DIR__ . '/../generated-conf/config.php';
+require_once __DIR__ . '/../orm/config.php';
 require_once __DIR__ . '/../include/Constants.php';
 
 use League\Csv\Reader;
@@ -45,8 +45,8 @@ class DataUtils
         'compatibility' => 'Compatibility',
         'game_demos' => 'Demo',
         'screenshots' => 'Screenshot',
-        'scummvm_downloads' => 'Downloads',
-        'game_downloads' => 'GameDownloads',
+        'scummvm_downloads' => 'Download',
+        'game_downloads' => 'GameDownload',
     ];
 
     /**
@@ -54,7 +54,7 @@ class DataUtils
      *
      * @return void
      */
-    public function getAllData()
+    public static function updateData()
     {
         $client = new Client();
         $promises = [];
@@ -97,13 +97,20 @@ class DataUtils
             \file_put_contents($outFile, $yaml);
             \file_put_contents('.clear-cache', '');
         }
+
+        DataUtils::convertYamlToOrm();
     }
 
-    public function convertData()
+    private static function convertYamlToOrm()
     {
         foreach (self::OBJECT_NAMES as $name => $object) {
+            $query = "ScummVM\\OrmObjects\\{$object}Query";
+            if ($query::create()->count() > 0) {
+                continue;
+            }
             $file = DIR_DATA . "/" . DEFAULT_LOCALE . "/$name.yaml";
             $data = Yaml::parseFile($file);
+            echo "Writing $object data to database\n";
             foreach ($data as $item) {
                 try {
                     foreach ($item as $key => $val) {
@@ -113,11 +120,9 @@ class DataUtils
                     }
                     $class = "ScummVM\\OrmObjects\\$object";
                     $dbItem = new $class();
-                    if ($object === 'Version') {
-                        $ver = explode(".", $item['id']);
-                        $item['major'] = $ver[0];
-                        $item['minor'] = $ver[1];
-                        $item['patch'] = $ver[2];
+                    // TODO: Rename platform to platform_id
+                    if ($object === 'Demo') {
+                        $item['platform_id'] = $item['platform'];
                     }
                     $dbItem->fromArray($item, TableMap::TYPE_FIELDNAME);
                     $dbItem->save();
@@ -130,6 +135,4 @@ class DataUtils
     }
 }
 
-$dataUtils = new DataUtils();
-$dataUtils->getAllData();
-$dataUtils->convertData();
+DataUtils::updateData();

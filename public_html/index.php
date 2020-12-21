@@ -16,7 +16,7 @@ if (isset($_SERVER['SERVER_SOFTWARE']) &&
 }
 
 require_once __DIR__ . '/../vendor/autoload.php';
-require_once __DIR__ . '/../generated-conf/config.php';
+require_once __DIR__ . '/../orm/config.php';
 require_once __DIR__ . '/../include/Constants.php';
 
 /**
