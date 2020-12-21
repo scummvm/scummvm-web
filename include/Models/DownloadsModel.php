@@ -4,7 +4,7 @@ namespace ScummVM\Models;
 
 use ScummVM\Objects\DownloadsSection;
 use DeviceDetector\Parser\OperatingSystem as OsParser;
-use ScummVM\OrmObjects\DownloadsQuery;
+use ScummVM\OrmObjects\DownloadQuery;
 
 /**
  * The DownloadsModel will produce DownloadsSection objects.
@@ -16,7 +16,7 @@ class DownloadsModel extends BasicModel
     {
         $sections = $this->getFromCache();
         if (is_null($sections)) {
-            $parsedData = DownloadsQuery::create()
+            $parsedData = DownloadQuery::create()
                 ->findByEnabled(true);
             $sections = [];
             $sectionsData = $this->getSectionData();
@@ -49,7 +49,8 @@ class DownloadsModel extends BasicModel
         return $sections;
     }
 
-    private function getSectionData() {
+    private function getSectionData()
+    {
         return [
             "current"=>["title"=>"{#downloadsXMLTitle#} {#downloadsXMLVersion#}"],
             "release"=>["title"=>"{#downloadsBinaries#}","notes"=>"{#downloadsBinariesNote1#} <a href='https://downloads.scummvm.org/frs/scummvm/{ldelim}release{rdelim}/ReleaseNotes.html'>{#downloadsBinariesNote2#}</a>.<p>{#downloadsBinariesNote3#}</p>"],
@@ -80,7 +81,7 @@ class DownloadsModel extends BasicModel
         $osParser->setUserAgent($_SERVER['HTTP_USER_AGENT']);
         $os = $osParser->parse();
 
-        $downloads = DownloadsQuery::create()
+        $downloads = DownloadQuery::create()
             ->setIgnoreCase(true)
             ->findByUserAgent($os['name']);
 

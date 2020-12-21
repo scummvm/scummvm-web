@@ -2,10 +2,10 @@
 
 namespace ScummVM\OrmObjects;
 
-use ScummVM\OrmObjects\Base\GameDownloads as BaseGameDownloads;
+use ScummVM\OrmObjects\Base\GameDownloadQuery as BaseGameDownloadQuery;
 
 /**
- * Skeleton subclass for representing a row from the 'game_downloads' table.
+ * Skeleton subclass for performing query and update operations on the 'game_downloads' table.
  *
  *
  *
@@ -13,7 +13,7 @@ use ScummVM\OrmObjects\Base\GameDownloads as BaseGameDownloads;
  * application requirements.  This class will only be generated as
  * long as it does not already exist in the output directory.
  */
-class GameDownloads extends BaseGameDownloads
+class GameDownloadQuery extends BaseGameDownloadQuery
 {
 
 }
