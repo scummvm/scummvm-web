@@ -2,7 +2,7 @@
 
 namespace ScummVM\OrmObjects;
 
-use ScummVM\OrmObjects\Base\DownloadsQuery as BaseDownloadsQuery;
+use ScummVM\OrmObjects\Base\DownloadQuery as BaseDownloadQuery;
 
 /**
  * Skeleton subclass for performing query and update operations on the 'scummvm_downloads' table.
@@ -13,7 +13,7 @@ use ScummVM\OrmObjects\Base\DownloadsQuery as BaseDownloadsQuery;
  * application requirements.  This class will only be generated as
  * long as it does not already exist in the output directory.
  */
-class DownloadsQuery extends BaseDownloadsQuery
+class DownloadQuery extends BaseDownloadQuery
 {
 
 }

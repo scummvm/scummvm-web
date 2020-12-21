@@ -2,7 +2,7 @@
 namespace ScummVM\Models;
 
 use ScummVM\Objects\DownloadsSection;
-use ScummVM\OrmObjects\GameDownloadsQuery;
+use ScummVM\OrmObjects\GameDownloadQuery;
 
 /**
  * The GameDownloadsModel will produce DownloadsSection objects.
@@ -16,7 +16,7 @@ class GameDownloadsModel extends BasicModel
         if (is_null($sections)) {
             $sections = [];
             $sectionsData = $this->getSectionData();
-            $categories = GameDownloadsQuery::create()
+            $categories = GameDownloadQuery::create()
                 ->select('category')
                 ->distinct()
                 ->find();
@@ -29,8 +29,8 @@ class GameDownloadsModel extends BasicModel
                     ]);
             }
 
-            $gameDownloads = GameDownloadsQuery::create()
-                ->joinWithGame()
+            $gameDownloads = GameDownloadQuery::create()
+                ->joinGame()
                 ->find();
             foreach ($gameDownloads as $gameDownload) {
                 // Create Sections

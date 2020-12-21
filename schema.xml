@@ -60,7 +60,7 @@
     <column name="major" type="SMALLINT" required="true"/>
     <column name="minor" type="SMALLINT" required="true"/>
     <column name="patch" type="SMALLINT" required="true"/>
-    <column name="release_date" type="date"/>
+    <column name="release_date" type="date" required="true"/>
   </table>
   <table name="screenshot" phpName="Screenshot">
     <!-- id	variant	platform_id	language	filemask -->
@@ -88,7 +88,7 @@
       <reference local="platform_id" foreign="id"/>
     </foreign-key>
   </table>
-  <table name="scummvm_downloads" phpName="Downloads">
+  <table name="scummvm_downloads" phpName="Download">
     <column name="name" type="varchar" size="255" required="true"/>
     <column name="description" type="varchar" size="255"/>
     <column name="subcategory" type="varchar" size="24" required="true"/>
@@ -98,7 +98,7 @@
     <column name="user_agent" type="varchar" size="255"/>
     <column name="url" type="varchar" size="255" required="true"/>
   </table>
-  <table name="game_downloads" phpName="GameDownloads">
+  <table name="game_downloads" phpName="GameDownload">
     <column name="category" type="varchar" size="24" required="true"/>
     <column name="game_id" type="varchar" size="24" required="true"/>
     <column name="category_icon" type="varchar" size="24" required="true"/>
