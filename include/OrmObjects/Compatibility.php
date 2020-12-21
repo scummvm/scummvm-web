@@ -44,7 +44,7 @@ class Compatibility extends BaseCompatibility
 
         if ($this->notes) {
             $notes .= "**Additional Notes:**\n";
-            $notes .= str_replace("- ", "\n- ",  parent::getNotes()) . "\n";
+            $notes .= str_replace("- ", "\n- ", parent::getNotes()) . "\n";
         }
 
         $config = \HTMLPurifier_Config::createDefault();
@@ -55,7 +55,8 @@ class Compatibility extends BaseCompatibility
         return $notes;
     }
 
-    public function getDataFiles() {
+    public function getDataFiles()
+    {
         return $this->getGame()->getDataFiles();
     }
 }
