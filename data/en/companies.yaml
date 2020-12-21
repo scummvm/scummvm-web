@@ -648,10 +648,6 @@
     name: 'Interlink Planning'
     alt_name: ''
 -
-    id: interplay
-    name: Interplay
-    alt_name: ''
--
     id: invention
     name: Invention
     alt_name: ''
@@ -740,10 +736,6 @@
     name: 'Monkeystone Games'
     alt_name: ''
 -
-    id: mpe
-    name: 'MP Entertainment'
-    alt_name: ''
--
     id: nacht
     name: 'Nacht und Nebel'
     alt_name: ''
@@ -818,10 +810,6 @@
 -
     id: skaldic
     name: 'Skaldic Games'
-    alt_name: ''
--
-    id: skif
-    name: S.K.I.F.
     alt_name: ''
 -
     id: smokingcar
