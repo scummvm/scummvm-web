@@ -1,0 +1,13 @@
+---
+title: "You cannot Comprehend It"
+author: DreamMaster
+date: 1608506691
+---
+It's time to announce testing for a further two Glk subengines. The first is the Glulx interpreter, for which there are many free games available at [the IF-Archive](https://www.ifarchive.org/indexes/if-archiveXgamesXglulx.html).
+
+The second is the Comprehend engine games developed by Polarware. Here's where things get a bit more complicated. At the moment, only the first three Comprehend games are reading for testing - Transylvania, Crimson Crown, and OO-Topos. These three are also freely available at [the IF-Archive](https://www.ifarchive.org/indexes/if-archive/games/pc/penguin/). There is also, however, a re-release of Transylvania also available for free from the Graphics Magician website which isn't yet supported.
+
+As for the other Comprehend games, Talisman will likely be supported in the future, but it requires significant further work. The other remaining games like Transylvania III use a completely different engine, so will remain out of scope for the foreseeable future.
+
+So if any of you are interested, try downloading the relevant games and give them a try. You will need a [daily development build](https://buildbot.scummvm.org/builds.html). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/).
+ 
