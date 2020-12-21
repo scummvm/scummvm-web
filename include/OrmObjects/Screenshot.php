@@ -41,7 +41,6 @@ class Screenshot extends BaseScreenshot
         } else {
             $this->files = $files;
         }
-
     }
 
     public function getCategory()

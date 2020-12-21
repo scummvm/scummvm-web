@@ -89,7 +89,6 @@ class File extends BasicObject
             }
         }
         $this->url = $url;
-
         /**
          * Get the filesize/last modified information and put it in
          * $this->extra_info.
