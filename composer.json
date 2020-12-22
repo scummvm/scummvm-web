@@ -63,13 +63,11 @@
       "php include/DataUtils.php"
     ],
     "database": [
-      "sed -i'' -e \"s#{{BASE_DIR}}#$(pwd)#g\" propel.yaml",
       "propel sql:build",
       "propel model:build",
       "propel config:convert",
       "propel sql:insert",
-      "composer dumpautoload",
-      "sed -i'' -e \"s#$(pwd)#{{BASE_DIR}}#g\" propel.yaml"
+      "composer dumpautoload"
     ],
     "localize": [
       "php include/LocalizationUtils.php"
