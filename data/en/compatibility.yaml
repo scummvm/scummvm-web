@@ -3828,3 +3828,31 @@
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: ''
+-
+    id: transylvania
+    support: good
+    notes: '- Only the DOS original release is supported. The re-release is not. - Animations during scene rendering are not supported'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: crimsoncrown
+    support: good
+    notes: '- Only the DOS version is supported - Animations during scene rendering are not supported'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: ootopos
+    support: good
+    notes: '- Only the DOS version is supported - Animations during scene rendering are not supported'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: glulx
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''

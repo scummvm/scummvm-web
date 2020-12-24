@@ -4663,3 +4663,35 @@
     moby_id: '10705'
     datafiles: ''
     series_id: petka
+-
+    id: transylvania
+    name: Transylvania
+    engine_id: glk
+    company_id: polarware
+    moby_id: '91'
+    datafiles: ''
+    series_id: ''
+-
+    id: crimsoncrown
+    name: 'The Crimson Crown'
+    engine_id: glk
+    company_id: polarware
+    moby_id: '86'
+    datafiles: ''
+    series_id: ''
+-
+    id: ootopos
+    name: OO-Topos
+    engine_id: glk
+    company_id: polarware
+    moby_id: '148433'
+    datafiles: ''
+    series_id: ''
+-
+    id: glulx
+    name: 'Glulx Interactive Fiction games'
+    engine_id: glk
+    company_id: glk
+    moby_id: '-1'
+    datafiles: ''
+    series_id: ''

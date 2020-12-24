@@ -1373,7 +1373,7 @@
     subcategory: subprojects
     category_icon: ''
     user_agent: ''
-    url: /frs/extras/ScummEx/scummex-win32.exe
+    url: 'https://downloads.scummvm.org/frs/extras/ScummEx/scummex-win32.exe'
     name: ScummEx
     description: 'ScummEx is a multi-platform SCUMM resource browser, viewer and extractor  using the wxWindows toolkit. <p>Development on this project is currently stalled. The code-base needs  quite some cleanup, and viewers for many resource types still need adding  to the code. Patches and volunteers are very welcome...</p>'
 -
