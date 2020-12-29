@@ -31,18 +31,18 @@ class ScreenshotsPage extends Controller
             return $this->getCategory($category, $game);
         }
 
-        $screenshot  = $this->screenshotsModel->getGroupedScreenshots();
+        $screenshot  = $this->screenshotsModel->getAllCategories();
         $random_shot = $this->screenshotsModel->getRandomScreenshot();
 
         $this->template = 'pages/screenshots.tpl';
 
         return $this->renderPage(
-            array(
+            [
                 'title' => $this->getConfigVars('screenshotsTitle'),
                 'content_title' => $this->getConfigVars('screenshotsContentTitle'),
                 'screenshots' => $screenshot,
                 'random_shot' => $random_shot,
-            )
+            ]
         );
     }
 
@@ -50,24 +50,23 @@ class ScreenshotsPage extends Controller
     public function getCategory($category, $game)
     {
         if (empty($game)) {
-            $screenshots = $this->screenshotsModel->getCategoryScreenshots($category);
+            $screenshots = $this->screenshotsModel->getScreenshotsByCompanyId($category);
         } else {
-            $screenshots = array(
+            $screenshots = [
                 'category' => $category,
-                'games' => array($this->screenshotsModel->getTargetScreenshots($game))
-            );
+                'games' => $this->screenshotsModel->getScreenshotsBySubcategory($game)
+            ];
         }
-
         $this->template = 'pages/screenshots_category.tpl';
 
         return $this->renderPage(
-            array(
+            [
                 'title' => $this->getConfigVars('screenshotsTitle'),
                 'content_title' => $this->getConfigVars('screenshotsContentTitle'),
                 'screenshots' => $screenshots,
                 'category' => $category,
                 'game' => $game,
-            )
+            ]
         );
     }
 }

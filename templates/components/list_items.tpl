@@ -1,6 +1,6 @@
 {if is_array($list) && $list|@count > 0}
     <ul class="downloads">
-        {foreach from=$list item=item}
+        {foreach from=$list item=item key=key}
             {if $item instanceof ScummVM\Objects\File}
                 {assign var='data' value=$item->getExtraInfo()}
                 <li class="file">
@@ -36,11 +36,10 @@
                 <li class="link">
                     <a href="{$item->getURL()}">{$item->getName()}</a>: {$item->getDescription()}
                 </li>
-            {elseif $item instanceof ScummVM\OrmObjects\Screenshot}
+            {elseif $type === 'screenshot_categories'}
                 <li class="file">
-                    <span class="sprite-games-{$item->getCategory()} sprite"></span>
-                    <a href="{'/screenshots/'|lang}{$arr.category}/{$item->getCategory()}/">{$item->getName()}</a>
-                    <span class="green">({$item->getFiles()|@count} shots)</span>
+                    <span class="sprite-games-{$key} sprite"></span>
+                    <a href="{'/screenshots/'|lang}{$screenshot.category}/{$key}/">{$item}</a>
                 </li>
             {/if}
         {/foreach}
