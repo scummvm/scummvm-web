@@ -2,6 +2,7 @@
 namespace ScummVM\Models;
 
 use ScummVM\OrmObjects\ScreenshotQuery;
+use Propel\Runtime\Collection\ObjectCollection;
 
 /**
  * The ScreenshotsModel will generate Screenshot objects.
@@ -10,111 +11,122 @@ class ScreenshotsModel extends BasicModel
 {
     const INVALID_TARGET = 'Invalid target specified.';
     const INVALID_CATEGORY = 'Invalid category specified.';
+    const SUBCATEGORY_COLUMN = '(case when game.series_id is null then screenshot.id else game.series_id end)';
+    const CATEGORY_COLUMN = '(case when count > 1 then game.company_id else \'other\' end)';
 
-    /* Get all screenshots. */
-    public function getAllScreenshots()
+    public function getAllCategories()
     {
-        $screenshots = ScreenshotQuery::create()->find();
+        $categories = ScreenshotQuery::create()->findCategories();
         $data = [];
-        foreach ($screenshots as $screenshot) {
-            $category = $screenshot->getCategory();
-            if (isset($data[$category])) {
-                $data[$screenshot->getCategory()]->addFiles($screenshot->getFiles());
-            } else {
-                $data[$screenshot->getCategory()] = $screenshot;
+        foreach ($categories as $category) {
+            extract($category);
+            if (!isset($data[$category_key])) {
+                $data[$category_key] = [
+                    'title' =>  "$category_name Games",
+                    'category' => $category_key,
+                    'games' => [],
+                ];
             }
+            $data[$category_key]['games'][$subcategory_key] = $subcategory_name;
         }
         return $data;
     }
 
-    public function getGroupedScreenshots()
+    /* Get all screenshots in one category. */
+    public function getScreenshotsByCompanyId($companyId)
     {
-        $screenshots = $this->getAllScreenshots();
-        $entries = [];
+        $data = $this->getFromCache($companyId);
+        if (!$data) {
+            $screenshots = ScreenshotQuery::create()
+            ->useGameQuery()
+                ->filterByCompanyId($companyId)
+            ->endUse()
+            ->withColumn(self::SUBCATEGORY_COLUMN, 'subcategory')
+            ->find();
 
-        // create top level company categories
-        foreach ($screenshots as $screenshot) {
-            $game = $screenshot->getGame();
-            $company = $game->getCompany();
-            $companyId = $company ? $company->getId() : 'other';
-            $companyName = $company ? $company->getName() : 'Other';
-
-            if (!isset($entries[$companyId])) {
-                $entries[$companyId] = [
-                    'title' => $companyName . " Games",
-                    'category' => $companyId,
-                    'games' => [],
-                ];
+            if ($screenshots->count() === 0) {
+                throw new \ErrorException(self::INVALID_CATEGORY);
             }
-            $entries[$companyId]['games'][] = $screenshot;
-        }
 
-        // Create Other top level category and sort everything
-        if (!isset($entries['other'])) {
-            $entries['other'] = [
-                'title' => 'Other Games',
-                'category' => 'other',
-                'games' => []
+            $data = [
+                'title' => $screenshots[0]->getGame()->getCompany()->getName() . ' Games',
+                'category' => $companyId,
+                'games' => $this->combineSubcategories($screenshots)
             ];
         }
-
-        foreach ($entries as $key => $category) {
-            if (count($entries[$key]['games']) < 2) {
-                $entries['other']['games'] = \array_merge($entries['other']['games'], $entries[$key]['games']);
-                unset($entries[$key]);
-            } else {
-                \sort($entries[$key]['games'], SORT_STRING);
-            }
-        }
-
-        if ($entries['other']['games']) {
-            \sort($entries['other']['games'], SORT_STRING);
-        } else {
-            unset($entries['other']);
-        }
-
-        \ksort($entries);
-
-        return $entries;
-    }
-
-    /* Get all screenshots in one category. */
-    public function getCategoryScreenshots($category)
-    {
-        $screenshots = $this->getGroupedScreenshots();
-        foreach ($screenshots as $screenshot) {
-            if ($screenshot['category'] == $category) {
-                return $screenshot;
-            }
-        }
-        throw new \ErrorException(self::INVALID_CATEGORY);
+        return $data;
     }
 
     /* Get screenshots for a specific target. */
-    public function getTargetScreenshots($target)
+    public function getScreenshotsBySubcategory($target)
     {
-        $sshots = $this->getGroupedScreenshots();
-        foreach ($sshots as $shots) {
-            foreach ($shots['games'] as $starget) {
-                if ($starget->getCategory() == $target) {
-                    return $starget;
-                }
+        $data = $this->getFromCache($target);
+        if (!$data) {
+            $screenshots = ScreenshotQuery::create()
+                ->joinGame()
+                ->withColumn(self::SUBCATEGORY_COLUMN, 'subcategory')
+                ->where('subcategory = ?', $target, \PDO::PARAM_STR)
+                ->find();
+
+            $combinedScreenshot = $this->combineScreenshots($screenshots);
+            if (!$combinedScreenshot) {
+                throw new \ErrorException(self::INVALID_TARGET);
+            }
+
+            $data = [$combinedScreenshot];
+        }
+        return $data;
+    }
+
+    /**
+     * Combines multiple screenshots into a single screenshot
+     *
+     * @param  ObjectCollection $screenshots
+     * @return Screenshot|bool
+     */
+    private function combineScreenshots(iterable $screenshots)
+    {
+        $count = $screenshots->count();
+        if ($count === 0) {
+            return false;
+        } elseif ($count === 1) {
+            $screenshots[0]->getFiles();
+        } else {
+            $shot = $screenshots[0];
+            $shot->getFiles();
+            for ($i=1; $i < $count; $i++) {
+                $shot->addFiles($screenshots[$i]->getFiles());
+            }
+            return $shot;
+        }
+    }
+
+    /**
+     * combineSubcategories
+     *
+     * @param  ObjectCollection $screenshots
+     * @return Screenshot[]
+     */
+    private function combineSubcategories(iterable $screenshots)
+    {
+        $combined = [];
+
+        foreach ($screenshots as $screenshot) {
+            $subcategory = $screenshot->getSubcategory();
+            if (isset($combined[$subcategory])) {
+                $combined[$subcategory]->addFiles($screenshot->getFiles());
+            } else {
+                $screenshot->getFiles();
+                $combined[$subcategory] = $screenshot;
             }
         }
-        throw new \ErrorException(self::INVALID_TARGET);
+        \sort($combined, SORT_STRING);
+        return $combined;
     }
 
     /* Get a random screenshot (an object and not a filename) .*/
     public function getRandomScreenshot()
     {
-        $sshots = $this->getAllScreenshots();
-        $item = $sshots[array_rand($sshots)];
-
-        $screenshot = [
-            'category' => $item->getCategory(),
-            'screenshot' => $item
-        ];
-        unset($sshots);
-        return $screenshot;
+        return ScreenshotQuery::create()->findRandom();
     }
 }

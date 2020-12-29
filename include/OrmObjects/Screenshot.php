@@ -15,6 +15,8 @@ use ScummVM\OrmObjects\Base\Screenshot as BaseScreenshot;
  */
 class Screenshot extends BaseScreenshot
 {
+    private $files;
+
     public function getFiles()
     {
         if (!$this->files) {

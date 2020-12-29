@@ -1,9 +1,6 @@
 {* List all screenshots for an entry or category. *}
 {capture "content"}
     {foreach from=$screenshots.games item=g name=cat_loop}
-        {if $game and $game != $g->getCategory()}
-            {continue}
-        {/if}
         <div class="gallery">
             <div class="row">
                 <h3 class="subhead"><a href="{'/screenshots/'|lang}{$category}/{$g->getCategory()}/">{$g->getName()}</a></h3>
@@ -21,9 +18,6 @@
                 {/foreach}
             </div>
         </div>
-        {if $game and $game == $g->getCategory()}
-            {break}
-        {/if}
     {/foreach}
 {/capture}
 
