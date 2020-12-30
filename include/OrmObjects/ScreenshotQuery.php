@@ -67,7 +67,8 @@ class ScreenshotQuery extends BaseScreenshotQuery
                 (CASE
                         WHEN game.series_id IS NULL THEN game.name
                         ELSE series.name || ' (Series)'
-                    END) AS subcategory_name
+                    END) AS subcategory_name,
+                SUM(num_shots) as count
                 FROM screenshot
                 JOIN game ON game.id = screenshot.id
                 JOIN company ON game.company_id = company.id
