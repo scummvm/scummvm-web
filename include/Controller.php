@@ -69,7 +69,7 @@ class Controller
 
         // Construct lang URL
         $langs = join("|", array_keys($available_languages));
-        $pageurl = preg_replace("/\/($langs)\/?/i", '/', $_SERVER['REQUEST_URI']);
+        $pageurl = preg_replace("/\/\b($langs)\b\/?/i", '/', $_SERVER['REQUEST_URI']);
         /* Check RTL */
         $rtl = $this->isRtl($available_languages[$lang]);
 
