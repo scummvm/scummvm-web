@@ -39,7 +39,8 @@
             {elseif $type === 'screenshot_categories'}
                 <li class="file">
                     <span class="sprite-games-{$key} sprite"></span>
-                    <a href="{'/screenshots/'|lang}{$screenshot.category}/{$key}/">{$item}</a>
+                    <a href="{'/screenshots/'|lang}{$screenshot.category}/{$key}/">{$item.name}</a>
+                    <span class="download-extras">({$item.count} shots)</span>
                 </li>
             {/if}
         {/foreach}

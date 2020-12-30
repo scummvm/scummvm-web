@@ -27,7 +27,10 @@ class ScreenshotsModel extends BasicModel
                     'games' => [],
                 ];
             }
-            $data[$category_key]['games'][$subcategory_key] = $subcategory_name;
+            $data[$category_key]['games'][$subcategory_key] = [
+                'name' => $subcategory_name,
+                'count' => $count
+            ];
         }
         return $data;
     }

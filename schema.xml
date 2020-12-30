@@ -69,6 +69,7 @@
     <column name="platform_id" type="varchar" size="24" required="true"/>
     <column name="language" type="varchar" size="8" required="true"/>
     <column name="filemask" type="varchar" size="255" required="true"/>
+    <column name="num_shots" type="SMALLINT" required="true"/>
     <foreign-key foreignTable="game" onDelete="CASCADE">
       <reference local="id" foreign="id"/>
     </foreign-key>
