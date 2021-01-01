@@ -11,23 +11,25 @@ use Erusev\Parsedown;
 
 class LocalizationUtils
 {
-    private $purifier;
+    private static $purifier;
 
     const NO_FILES = 'No Localization Files Found';
 
-    public function __construct()
+    public static function localize()
     {
         $config = \HTMLPurifier_Config::createDefault();
-        $this->purifier = new \HTMLPurifier($config);
+        self::$purifier = new \HTMLPurifier($config);
 
         $langs = array_slice(scandir(DIR_DATA), 2);
-        foreach ($langs as $key => $value) {
-            $this->convertLanguageJsonToSmartyIni($value);
-            $this->updateNewsL10n($value);
+        foreach ($langs as $value) {
+            if (\is_dir(DIR_DATA . "/$value")) {
+                self::convertLanguageJsonToSmartyIni($value);
+                self::updateNewsL10n($value);
+            }
         }
     }
 
-    private function convertLanguageJsonToSmartyIni($lang)
+    private static function convertLanguageJsonToSmartyIni($lang)
     {
         $Parsedown = new \Parsedown();
         $Parsedown->setBreaksEnabled(true);
@@ -39,14 +41,14 @@ class LocalizationUtils
         $output = "";
         foreach ($json as $key => $value) {
             if ($value) {
-                $output .= $key . ' = """' . $this->purifier->purify($Parsedown->line($value)) . '"""' . "\n";
+                $output .= $key . ' = """' . self::$purifier->purify($Parsedown->line($value)) . '"""' . "\n";
             }
         }
 
         file_put_contents(join(DIRECTORY_SEPARATOR, [DIR_DATA, $lang, "strings.ini"]), $output);
     }
 
-    private function updateNewsL10n($lang)
+    private static function updateNewsL10n($lang)
     {
         $newsFile = join(DIRECTORY_SEPARATOR, [DIR_DATA, $lang, "news.json"]);
         // For non-english, create/overwrite JSON files from our l10n file
@@ -60,17 +62,17 @@ class LocalizationUtils
             foreach ($l10n as $key => $translatedArticle) {
                 $englishArticle = YamlFrontMatter::parse(file_get_contents(join(DIRECTORY_SEPARATOR, [DIR_DATA, DEFAULT_LOCALE, 'news', "/{$key}.markdown"])));
 
-                $date = $this->purifier->purify($englishArticle->date);
-                $author = $this->purifier->purify($englishArticle->author);
+                $date = self::$purifier->purify($englishArticle->date);
+                $author = self::$purifier->purify($englishArticle->author);
                 if (property_exists($translatedArticle, 'title') && $translatedArticle->title) {
-                    $title = $this->purifier->purify(str_replace('"', '\"', $translatedArticle->title));
+                    $title = self::$purifier->purify(str_replace('"', '\"', $translatedArticle->title));
                 } else {
-                    $title = $this->purifier->purify(str_replace('"', '\"', $englishArticle->title));
+                    $title = self::$purifier->purify(str_replace('"', '\"', $englishArticle->title));
                 }
                 if (property_exists($translatedArticle, 'content') && $translatedArticle->content) {
-                    $content = $this->purifier->purify(trim($translatedArticle->content));
+                    $content = self::$purifier->purify(trim($translatedArticle->content));
                 } else {
-                    $content = $this->purifier->purify(trim($englishArticle->body()));
+                    $content = self::$purifier->purify(trim($englishArticle->body()));
                 }
 
                 // Special handling of french colon character
@@ -99,7 +101,7 @@ class LocalizationUtils
         } else {
             // Update the base english l10n file
             echo("Converting English Markdown files to the l10n base file\n");
-            $news = $this->getAllNews($lang);
+            $news = self::getAllNews($lang);
 
             file_put_contents(
                 $newsFile,
@@ -108,7 +110,7 @@ class LocalizationUtils
         }
     }
 
-    private function getAllNews($lang)
+    private static function getAllNews($lang)
     {
         $dir = join(DIRECTORY_SEPARATOR, [DIR_DATA, $lang, 'news']);
 
@@ -131,4 +133,4 @@ class LocalizationUtils
     }
 }
 
-new LocalizationUtils();
+LocalizationUtils::localize();
