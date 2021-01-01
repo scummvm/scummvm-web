@@ -103,10 +103,10 @@ $pages = array(
     'contact'                               => '\ScummVM\Pages\SimplePage',
     'credits'                               => '\ScummVM\Pages\SimplePage',
     'demos'                                 => '\ScummVM\Pages\DemosPage',
-    'documentation'                         => '\ScummVM\Pages\SimplePage',
+    'documentation'                         => 'https://docs.scummvm.org/',
     'downloads'                             => '\ScummVM\Pages\DownloadsPage',
     'games'                                 => '\ScummVM\Pages\GamesPage',
-    'faq'                                   => '\ScummVM\Pages\FAQPage',
+    'faq'                                   => 'https://docs.scummvm.org/en/latest/help/faq.html',
     'feeds'                                 => '\ScummVM\Pages\FeedsPage',
     'feeds/[a:type]'                        => '\ScummVM\Pages\FeedsPage',
     'links'                                 => '\ScummVM\Pages\LinksPage',
@@ -139,6 +139,8 @@ $match = $router->match(strtolower($_SERVER['REQUEST_URI']));
 if ($match) {
     if ($match['target'] === '\ScummVM\Pages\SimplePage') {
       $page = new $match['target']($match['name']);
+    } elseif (strpos($match['target'],"http") === 0) {
+      header("Location: {$match['target']}");
     } else {
       $page = new $match['target']();
     }
