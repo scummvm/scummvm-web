@@ -12,7 +12,6 @@ class SimplePage extends Controller
         'sponsors' => ['Sponsor', 'sponsors.yaml'],
         'press' => ['Article', 'press_articles.yaml'],
         'credits' => ['CreditsSection', 'credits.yaml'],
-        'documentation' => ['Document', 'documentation.yaml'],
     ];
 
     private $model;

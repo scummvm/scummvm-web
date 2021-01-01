@@ -17,9 +17,9 @@
   class: menu-docs
   links:
     - name: '{#menuDocumentationFaq#}'
-      href: /faq/
+      href: 'https://docs.scummvm.org/en/latest/help/faq.html'
     - name: '{#menuDocumentationDocumentation#}'
-      href: /documentation/
+      href: 'https://docs.scummvm.org'
     - name: '{#menuDocumentationCompatability#}'
       href: /compatibility/
     - name: '{#menuDocumentationWiki#}'
