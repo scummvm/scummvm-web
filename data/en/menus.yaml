@@ -24,11 +24,11 @@
       href: /compatibility/
     - name: '{#menuDocumentationWiki#}'
       href: 'https://wiki.scummvm.org/'
-    - name: '{#menuDocumentationCredits#}'
-      href: /credits/
 - name: '{#menuHeaderDevelopmentDevelopment#}'
   class: menu-sf
   links:
+    - name: '{#menuDevelopmentDeveloperCentral#}'
+      href: 'https://wiki.scummvm.org/index.php?title=Developer_Central'
     - name: '{#menuDevelopmentBugTracker#}'
       href: 'https://bugs.scummvm.org/'
     - name: '{#menuDevelopmentPatchTracker#}'
@@ -41,6 +41,8 @@
       href: 'https://github.com/scummvm/scummvm'
     - name: '{#menuDevelopmentBuildbot#}'
       href: 'https://buildbot.scummvm.org/'
+    - name: '{#menuDevelopmentDoxygen#}'
+      href: 'https://doxygen.scummvm.org/'
 - name: '{#menuHeaderMisc#}'
   class: menu-misc
   links:
@@ -54,3 +56,5 @@
       href: /contact/
     - name: '{#menuMiscLinks#}'
       href: /links/
+    - name: '{#menuMiscCredits#}'
+      href: /credits/
