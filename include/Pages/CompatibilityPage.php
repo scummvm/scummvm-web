@@ -63,8 +63,8 @@ class CompatibilityPage extends Controller
             ->find()->toArray();
 
         /* Default to DEV */
-        if (!in_array($version, $versions) || $version === 'DEV') {
-            $version = '99.99.99';
+        if (!in_array($version, $versions)) {
+            $version = 'DEV';
         }
 
         if (!empty($target)) {
@@ -107,7 +107,6 @@ class CompatibilityPage extends Controller
         $last_updated = $this->compatibilityModel->getLastUpdated();
         $this->template = 'pages/compatibility.tpl';
 
-        $version = $version == '99.99.99' ? 'DEV' : $version;
         return $this->renderPage(
             [
                 'title' => preg_replace('/{version}/', $version, $this->getConfigVars('compatibilityTitle')),

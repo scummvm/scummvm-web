@@ -2,7 +2,8 @@
 namespace ScummVM\Models;
 
 use Propel\Runtime\ActiveQuery\Criteria;
-use ScummVM\OrmObjects\Base\CompatibilityQuery;
+use ScummVM\OrmObjects\CompatibilityQuery;
+use ScummVM\OrmObjects\VersionQuery;
 
 /**
  * The CompatibilityModel class will generate CompatGame objects.
@@ -23,6 +24,8 @@ class CompatibilityModel extends BasicModel
     {
         $data = $this->getFromCache($version);
         if (\is_null($data)) {
+            $releaseDate = VersionQuery::create()
+                ->findPk($version)->getReleaseDate();
             if ($version === 'DEV') {
                 $version = "99.99.99";
             }
@@ -38,9 +41,7 @@ class CompatibilityModel extends BasicModel
                     ->endUse()
                 ->endUse()
                 ->useVersionQuery()
-                    ->filterByMajor($version[0], Criteria::LESS_EQUAL)
-                    ->filterByMinor($version[1], Criteria::LESS_EQUAL)
-                    ->filterByPatch($version[2], Criteria::LESS_EQUAL)
+                    ->filterByReleaseDate($releaseDate, Criteria::LESS_EQUAL)
                 ->endUse()
                 ->find();
             $this->saveToCache($data, $version);
@@ -54,6 +55,8 @@ class CompatibilityModel extends BasicModel
         if (!is_string($version) || !is_string($target)) {
             throw new \ErrorException(self::NO_VERSION_TARGET);
         }
+        $releaseDate = VersionQuery::create()
+                ->findPk($version)->getReleaseDate();
         if ($version === 'DEV') {
             $version = "99.99.99";
         }
@@ -63,9 +66,7 @@ class CompatibilityModel extends BasicModel
                 ->withColumn("max(release_date)")
                 ->filterById($target)
                 ->useVersionQuery()
-                    ->filterByMajor($version[0], Criteria::LESS_EQUAL)
-                    ->filterByMinor($version[1], Criteria::LESS_EQUAL)
-                    ->filterByPatch($version[2], Criteria::LESS_EQUAL)
+                    ->filterByReleaseDate($releaseDate, Criteria::LESS_EQUAL)
                 ->endUse()
             ->findOne();
 
