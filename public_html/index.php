@@ -26,6 +26,9 @@ global $lang, $available_languages;
 $languages = array_slice(scandir(DIR_DATA),2);
 $available_languages = [];
 foreach ($languages as $l) {
+    if (!\is_dir(DIR_DATA . "/$l")) {
+      continue;
+    }
     $available_languages[$l] = \locale_get_display_name($l, $l);
 }
 
