@@ -56,9 +56,9 @@ class CompatibilityPage extends Controller
         $target = $args['game'];
 
         $versions = VersionQuery::create()
-            ->orderByMajor()
-            ->orderByMinor()
-            ->orderByPatch()
+            ->orderByMajor('desc')
+            ->orderByMinor('desc')
+            ->orderByPatch('desc')
             ->select('id')
             ->find()->toArray();
 
