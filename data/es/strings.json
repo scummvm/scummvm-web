@@ -174,5 +174,6 @@
     "compatibilityUntestedDescription": "Este juego necesita ser probado y tal vez no se pueda llegar al final.",
     "compatibilityBrokenDescription": "Este juego podría no arrancar o tener problemas de gravedad que lo hagan injugable.",
     "menuDevelopmentDeveloperCentral": "Centro para desarrolladores",
-    "menuDevelopmentDoxygen": "Referencia de la API"
+    "menuDevelopmentDoxygen": "Referencia de la API",
+    "compatibilityGameDisclaimer": "Nota: ScummVM no incluye ningún juego. Para poder ejecutar uno de los juegos que aparecen listados en esta página, necesitarás tener tu propia copia del juego y añadirla a ScummVM. Algunos juegos están disponibles de forma gratuita en nuestra [página de descargas de juegos](/games/). Para el resto de juegos, ve a la página [Where to get the games (dónde conseguir los juegos, en inglés)](https://wiki.scummvm.org/index.php?title=Where_to_get_the_games) de nuestra wiki. Para más información sobre cómo añadir juegos a ScummVM, lee [la documentación](https://docs.scummvm.org/en/latest/use_scummvm/add_play_games.html)."
 }
