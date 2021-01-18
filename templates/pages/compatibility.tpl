@@ -31,6 +31,9 @@
         </p>
     {/if}
     <p>
+        {#compatibilityGameDisclaimer#}
+    </p>
+    <p>
         <small>{#compatiblityLastUpdated#} {$last_updated|date_localized}</small>
     </p>
 

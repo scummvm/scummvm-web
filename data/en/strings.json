@@ -25,6 +25,7 @@
   "compatibilityDevDisclaimer": "As this is the status of the development version, occasional temporary bugs may be introduced with new changes, thus this list refects the 'best case' scenario. It is highly recommended to use the latest stable release, where possible.",
   "compatibilityStableContent": "Also, this is the compatibility of the {version} stable release, **not of current repository/daily builds**. The status of these can be found on the [Development Compatibility](/compatibility/) chart.",
   "compatibilityStableReleases": "You can also see the Compatibility chart for these releases:",
+  "compatibilityGameDisclaimer": "Note: ScummVM does not include any games. To play one of the game listed on this page you will need to have your own copy of the game and add it to ScummVM. Some games are available for free on our [Game downloads page](/games/). For other games see the [Where to get the games](https://wiki.scummvm.org/index.php?title=Where_to_get_the_games) page on our wiki. For information on how to add games to ScummVM see [the documentation](https://docs.scummvm.org/en/latest/use_scummvm/add_play_games.html).",
   "compatiblityLastUpdated": "Last Updated:",
   "compatibilityLegendTitle": "Color Key",
   "compatibilitySectionTitle": "{company} Game Compatibility Chart",
