@@ -60,7 +60,7 @@
     <column name="major" type="SMALLINT" required="true"/>
     <column name="minor" type="SMALLINT" required="true"/>
     <column name="patch" type="SMALLINT" required="true"/>
-    <column name="release_date" type="date" required="true"/>
+    <column name="release_date" type="timestamp" required="true"/>
   </table>
   <table name="screenshot" phpName="Screenshot">
     <!-- id	variant	platform_id	language	filemask -->
