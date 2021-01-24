@@ -157,7 +157,7 @@
         description: "(retired)"
       -
         name: "Filippos Karapetis"
-        alias: "[md5]"
+        alias: "bluegr"
         description: ""
       -
         name: "Martin Kiewitz"
@@ -274,7 +274,7 @@
       person:
       -
         name: "Filippos Karapetis"
-        alias: "[md5]"
+        alias: "bluegr"
         description: ""
     -
       name: "Cine"
@@ -401,7 +401,7 @@
       person:
       -
         name: "Filippos Karapetis"
-        alias: "[md5]"
+        alias: "bluegr"
         description: ""
       -
         name: "Pawe&#322; Ko&#322;odziejski"
@@ -424,7 +424,7 @@
         description: ""
       -
         name: "Filippos Karapetis"
-        alias: "[md5]"
+        alias: "bluegr"
         description: ""
       -
         name: "Vladimir Menshakov"
@@ -533,7 +533,7 @@
         alias: "somaen"
         description: "Grim, EMI"
       -
-        name: "Joel Teichroeb "
+        name: "Joel Teichroeb"
         alias: "klusark"
         description: "EMI"
       -
@@ -554,6 +554,13 @@
       -
         name: "Jordi Vilalta Prat"
         alias: "jvprat"
+        description: ""
+    -
+      name: "Hades' Challenge"
+      person:
+      -
+        name: "Vladimir Serbinenko/Google"
+        alias: "phcoder"
         description: ""
     -
       name: "HDB"
@@ -665,7 +672,7 @@
         description: ""
       -
         name: "Filippos Karapetis"
-        alias: "[md5]"
+        alias: "bluegr"
         description: ""
       -
         name: "Willem Jan Palenstijn"
@@ -720,7 +727,7 @@
         description: ""
       -
         name: "Filippos Karapetis"
-        alias: "[md5]"
+        alias: "bluegr"
         description: ""
     -
       name: "MADS"
@@ -735,7 +742,7 @@
         description: ""
       -
         name: "Filippos Karapetis"
-        alias: "[md5]"
+        alias: "bluegr"
         description: ""
     -
       name: "Mohawk"
@@ -750,7 +757,7 @@
         description: "(retired)"
       -
         name: "Filippos Karapetis"
-        alias: "[md5]"
+        alias: "bluegr"
         description: ""
       -
         name: "Alyssa Milburn"
@@ -806,7 +813,7 @@
         description: ""
       -
         name: "Filippos Karapetis"
-        alias: "[md5]"
+        alias: "bluegr"
         description: ""
     -
       name: "Parallaction"
@@ -894,7 +901,7 @@
         description: "Original engine reimplementation author (retired)"
       -
         name: "Filippos Karapetis"
-        alias: "[md5]"
+        alias: "bluegr"
         description: ""
       -
         name: "Andrew Kurushin"
@@ -925,7 +932,7 @@
         description: "(retired)"
       -
         name: "Filippos Karapetis"
-        alias: "[md5]"
+        alias: "bluegr"
         description: ""
       -
         name: "Martin Kiewitz"
@@ -1054,7 +1061,7 @@
         description: "(retired)"
       -
         name: "Filippos Karapetis"
-        alias: "[md5]"
+        alias: "bluegr"
         description: ""
       -
         name: "Eugene Sandulenko"
@@ -1096,7 +1103,7 @@
         description: "(retired)"
       -
         name: "Filippos Karapetis"
-        alias: "[md5]"
+        alias: "bluegr"
         description: ""
       -
         name: "Joost Peters"
@@ -1126,7 +1133,7 @@
         description: ""
       -
         name: "Filippos Karapetis"
-        alias: "[md5]"
+        alias: "bluegr"
         description: ""
     -
       name: "Tony"
@@ -1175,6 +1182,49 @@
         name: "Gregory Montoir"
         alias: "cyx"
         description: "(retired)"
+    -
+      name: "TwinE"
+      person:
+      -
+        name: "Alexandre Fontoura"
+        alias: "xesf"
+        description: "(retired)"
+      -
+        name: "Vincent Hamm"
+        alias: "yaz0r"
+        description: "(retired)"
+      -
+        name: "Felipe Sanches"
+        alias: "jucablues"
+        description: "(retired)"
+      -
+        name: "Nikita Tereshin"
+        alias: "rumkex"
+        description: "(retired)"
+      -
+        name: "Patrik Dahlstr&ouml;m"
+        alias: "risca"
+        description: "(retired)"
+      -
+        name: "Arthur Blot"
+        alias: "arthur.blot78"
+        description: "(retired)"
+      -
+        name: "Kyuubu"
+        alias: "wett"
+        description: "(retired)"
+      -
+        name: "To&euml;l Hartmann"
+        alias: "toel__"
+        description: "(retired)"
+      -
+        name: "Seb&aacute;stien Viannay"
+        alias: ""
+        description: "(retired)"
+      -
+        name: "Martin Gerhardy"
+        alias: "mgerhardy"
+        description: ""
     -
       name: "Ultima"
       person:
@@ -1319,7 +1369,7 @@
         description: ""
       -
         name: "Filippos Karapetis"
-        alias: "[md5]"
+        alias: "bluegr"
         description: ""
       -
         name: "Anton Yarcev"
@@ -1993,6 +2043,10 @@
         name: "Thanasis Antoniou"
         alias: "Praetorian"
         description: ""
+      -
+        name: "Filippos Karapetis"
+        alias: "bluegr"
+        description: ""
     -
       name: "Hungarian"
       person:
@@ -2316,7 +2370,7 @@
         alias: "luke_br"
         description: "SDL-based OpenGL renderer"
       -
-        name: "Joel Teichroeb "
+        name: "Joel Teichroeb"
         alias: "klusark"
         description: "Android port for ResidualVM"
       -
@@ -2478,11 +2532,11 @@
     - "Special thanks to Prof. Dr. Gary Nutt for allowing the FreeSCI VM extension as a course project in his Advanced OS course."
     - "Special thanks to Bob Heitman and Corey Cole for their support of FreeSCI."
   -
-    title: "Grim Contributors"
-    anchor: "grim_contrib"
+    title: "ResidualVM Contributors"
+    anchor: "residualvm_contrib"
     group:
     -
-      name: ""
+      name: "Grim"
       person:
       -
         name: "Thomas Allen"
@@ -2648,12 +2702,8 @@
         name: "???"
         alias: "sietschie"
         description: "Few fixes to engine"
-  -
-    title: "Myst 3"
-    anchor: "myst3_contrib"
-    group:
     -
-      name: ""
+      name: "Myst 3"
       person:
       -
         name: "David Fioramonti"
@@ -2667,12 +2717,8 @@
         name: "Stefano Musumeci"
         alias: "subr3v"
         description: "TinyGL engine support"
-  -
-    title: "Stark"
-    anchor: "stark_contrib"
-    group:
     -
-      name: ""
+      name: "Stark"
       person:
       -
         name: "Bartosz Dudziak"
