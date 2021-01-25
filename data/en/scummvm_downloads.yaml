@@ -459,24 +459,6 @@
     name: 'Samsung TV package (2009 series)'
     description: ''
 -
-    enabled: true
-    category: current
-    subcategory: release
-    category_icon: raspberrypi
-    user_agent: ''
-    url: '/frs/scummvm/{$release}/scummvm-{$release}-raspberrypi-armhf.AppImage'
-    name: 'Raspberry Pi 3/4/400 with Raspberry Pi OS 32 bits (armhf) (AppImage)'
-    description: ''
--
-    enabled: true
-    category: current
-    subcategory: release
-    category_icon: raspberrypi
-    user_agent: ''
-    url: '/frs/scummvm/{$release}/scummvm-{$release}-raspberrypi-aarch64.AppImage'
-    name: 'Raspberry Pi 3/4/400 with Raspberry Pi OS 64 bits (aarch64) (AppImage)'
-    description: ''
--
     enabled: false
     category: current
     subcategory: release

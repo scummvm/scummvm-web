@@ -3856,3 +3856,10 @@
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: ''
+-
+    id: elvira1
+    support: good
+    notes: '- Commodore 64 version doesn''t use AGOS, so will never be supported. - No music in the Atari ST version. - No text descriptions in the Atari ST version.'
+    since_version: DEV
+    stable_platforms: 'amiga,atarist,dos,pc98'
+    unstable_platforms: c64
