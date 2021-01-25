@@ -95,10 +95,12 @@ class DataUtils
             $outFile = DIR_DATA . "/" . DEFAULT_LOCALE . "/$name.yaml";
             echo("Writing $name data to $outFile\n");
             \file_put_contents($outFile, $yaml);
-            \file_put_contents('.clear-cache', '');
         }
 
         DataUtils::convertYamlToOrm();
+
+        // Clear the cache at the end of all data operations
+        \file_put_contents('.clear-cache', '');
     }
 
     private static function convertYamlToOrm()
