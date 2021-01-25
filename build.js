@@ -22,3 +22,4 @@ async function renderScss(filename) {
 
 renderScss('main_rtl');
 renderScss('main_ltr');
+renderScss('platforms');
