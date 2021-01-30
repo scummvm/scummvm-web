@@ -174,5 +174,6 @@
     "compatibilityBrokenDescription": "Το παιχνίδι μπορεί να μην ξεκινάει ή να έχει σοβαρά θέματα που καθιστούν αδύνατο να το παίξετε.",
     "compatibilityUntestedDescription": "Το παιχνίδι απαιτεί πρόσθετες δοκιμές και ενδέχεται να μην παίζεται πλήρως",
     "menuDevelopmentDeveloperCentral": "Κεντρική σελίδα Προγραμματιστών",
-    "menuDevelopmentDoxygen": "Τεκμηρίωση API"
+    "menuDevelopmentDoxygen": "Τεκμηρίωση API",
+    "compatibilityGameDisclaimer": "Σημείωση: Το ScummVM δεν περιλαμβάνει παιχνίδια. Για να παίξετε κάποιο από τα παιχνίδια που απαριθμούνται σε αυτή τη σελίδα, θα χρειαστεί να έχετε το παιχνίδι στην κατοχή σας και να το προσθέσετε στο ScummVM. Κάποια παιχνίδια είναι διαθέσιμα δωρεάν από τη σελίδα [Λήψεων Παιχνιδιών](/games/). Για άλλα παιχνίδια, ρίξτε μια ματιά στη σελίδα του βίκι μας, [Από πού να πάρω τα παιχνίδια / Where to get the games](https://wiki.scummvm.org/index.php?title=Where_to_get_the_games). Για πληροφορίες σχετικά με το πώς να προσθέσετε παιχνίδια στο ScummVM, διαβάστε [τις σχετικές οδηγίες](https://docs.scummvm.org/en/latest/use_scummvm/add_play_games.html)."
 }
