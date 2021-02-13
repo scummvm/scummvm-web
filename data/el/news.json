@@ -463,5 +463,53 @@
     "20180423": {
         "title": "Τα πρότζεκτ για το Καλοκαίρι Προγραμματισμού GSoC 2018 ανακοινώθηκαν!",
         "content": "![GSoC Logo](/data/news/GSoC2017Logo.png)\n\nΣήμερα η Google ανακοίνωσε τα projects που έγιναν δεκτά για το φετινό Καλοκαίρι Προγραμματισμού (Google Summer of Code (GSoC)). Είμαστε στην ευχάριστη και ενθουσιώδη θέση να πούμε πως το ScummVM θα αναλάβει την καθοδήγηση (mentoring) για τρεις (3) φοιτητές ενώ το ResidualVM θα έχει επίσης έναν (1). Και οι τέσσερις τους θα εργαστούν πάνω σε μηχανές παιχνιδιών:\n\n*   Ο Andrii Prykhodko (γνωστός και ως whiterandrek) θα δουλέψει στην προσθήκη υποστήριξης για τα παιχνίδια ***[Pink Panther: Passport to Peril](https://en.wikipedia.org/wiki/The_Pink_Panther:_Passport_to_Peril)*** και ***[Pink Panther: Hokus Pokus Pink](https://en.wikipedia.org/wiki/The_Pink_Panther:_Hokus_Pokus_Pink)*** στο ScummVM.\n*   Ο Joseph-Eugene Winzer (γνωστός και ως Joefish) θα εργαστεί στην προσθήκη υποστήριξης για το παιχνίδι ***[The Immortal](https://en.wikipedia.org/wiki/The_Immortal_(video_game))*** στο ScummVM.\n*   Ο Matthew Stewart θα δουλέψει στη μηχανή που χρησιμοποιείται από το ***[Star Trek: 25th Anniversary](https://en.wikipedia.org/wiki/Star_Trek:_25th_Anniversary_(computer_game))*** και ***[Star Trek: Judgment Rites](https://en.wikipedia.org/wiki/Star_Trek:_Judgment_Rites)***. Κατά την περίοδο του GSoC θα εστιάσει στο πρώτο παιχνίδι.\n*   Ο Liu Zhaosong (γνωστός και ως Douglas\\_GSoC) θα εργαστεί πάνω στη βελτίωση της μηχανής Stark, που χρησιμοποιείται στο παιχνίδι ***[The Longest Journey](https://en.wikipedia.org/wiki/The_Longest_Journey)***, στη ResidualVM.\n\nΠαρακαλούμε να υποδεχτείτε μαζί μας τους τέσσερις νέους παράτολμους φοιτητές μας και ελπίζουμε να έχουμε ένα δημιουργικό και ενδιαφέρον καλοκαίρι μαζί για το ScummVM! Και μπορείτε να ακολουθείτε την πρόοδό τους κατά τη διάρκεια του καλοκαιριού στα [Μπλογκ του ScummVM (ScummVM Blogs)](http://planet.scummvm.org)."
+    },
+    "20061219": {
+        "title": "Ήρθε ο καιρός..."
+    },
+    "20060513": {
+        "title": "Νέο παρουσιαστικό (theme) για το forum!"
+    },
+    "20051113": {
+        "title": "Νέος σχεδιασμός του ιστοτόπου"
+    },
+    "20051101": {
+        "title": "Ενημέρωση του δωρεάν BASS"
+    },
+    "20051030": {
+        "title": "Κυκλοφορία του ScummVM 0.8.0."
+    },
+    "20050328": {
+        "title": "Κυκλοφορία του ScummVM 0.7.1"
+    },
+    "20091222": {
+        "title": "Ληστεία στη MEGA-BANK!"
+    },
+    "20090117": {
+        "title": "Δοκιμή, δοκιμή"
+    },
+    "20080526": {
+        "title": "Repetita iuvant"
+    },
+    "20050830": {
+        "title": "Χρειαζόμαστε Στιγμιότυπα."
+    },
+    "20170617": {
+        "title": "Hi-Res Adventures"
+    },
+    "20121017": {
+        "title": "Περισσότερο FOTAQ!"
+    },
+    "20121002": {
+        "title": "Γαλλική Amazon Queen"
+    },
+    "20120401b": {
+        "title": "ScummVM .NET"
+    },
+    "20120401": {
+        "title": "Cedric-οποιώντας το ScummVM"
+    },
+    "20110328": {
+        "title": "Στειλ' τους αδιάβαστους, Danno"
     }
 }
