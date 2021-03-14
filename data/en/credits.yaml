@@ -207,6 +207,169 @@
         alias: "ludde"
         description: "(retired)"
     -
+      name: "AGS"
+      person:
+      -
+        name: "Paul Gilbert"
+        alias: "dreammaster"
+        description: ""
+      -
+        name: "Thierry Crozat"
+        alias: "criezy"
+        description: ""
+      -
+        name: "Chris Jones"
+        alias: "Pumaman"
+        description: "Creator"
+      -
+        name: "Alan Van Drake"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Benjamin Penney"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Benoit Pierre"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Bernhard Rosenkraenzer"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Cristian Morales Vega"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Edward Rudd"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Erico Vieira Porto"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Ferdinand Thiessen"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Francesco Ariis"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Gilad Shaham"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Ivan Mogilko"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Janet Gilbert"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Jochen Schleu"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Joe Lee"
+        alias: ""
+        description: "AGS"
+      -
+        name: "John Steele Scott"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Martin Sedlak"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Matthew Gambrell"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Michael Rittenhouse"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Morgan Willcock"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Nick Sonneveld"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Ori Avtalion"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Paul Wilkinson"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Per Olav Flaten"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Piotr Wieczorek"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Ryan O'Connor"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Scott Baker"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Shane Stevens"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Shawn R. Walker"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Stefano Collavini"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Steve McCrea"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Steven Poulton"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Sunit Das"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Tobias Hansen"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Tom Vandepoele"
+        alias: ""
+        description: "AGS"
+      -
+        name: "Tzach Shabtay"
+        alias: ""
+        description: "AGS"
+      -
+        name: "???"
+        alias: "rofl0r"
+        description: "AGS"
+      -
+        name: "Berian Williams"
+        alias: "AGA"
+        description: "AgsCreditz"
+    -
       name: "Avalanche"
       person:
       -
