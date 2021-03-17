@@ -1,0 +1,16 @@
+---
+title: "_Nippon Safes Inc._ is Declared Freeware"
+author: sev
+date: 1616001068
+---
+Exciting news! Thanks to the tremendous effort of Damiano Gerli and the generosity of original game authors, Marco Caprelli, Paolo Costabel, Massimo Magnasciutti and producer Bruno Boz, we are happy to announce the freeware release of the game  _Nippon Safes Inc._.
+
+This is a small but fun game created in 1992 by the small Italian studio DYNABYTE divisione EUCLIDEA s.r.l. You can read about the game and the history of Dynabyte in more detail on Damiano’s Blog, the Genesis Temple. (https://genesistemple.com/the-big-italian-adventure-the-history-of-dynabyte-software).
+
+Both DOS and Amiga versions have been declared freeware, with permission to modify the files, which makes it possible to disable the manual protection. Nevertheless, we are distributing scanned copies of the manual as well. You can grab your copies from our [games page](/games).
+
+The game itself has been supported since ScummVM 0.10.0, which was released in 2007.
+
+Have fun and enjoy another great freeware point-and-click adventure!
+
+PS. If you happen to own boxes of _The Big Red Adventure_ and _Tequila & Boom Boom_ titles from the same developer and have ability to provide high-res scans of those, please contact sev.
