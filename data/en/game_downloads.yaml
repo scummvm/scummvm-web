@@ -225,6 +225,41 @@
     notes: ''
 -
     category: games
+    game_id: nippon
+    category_icon: nippon
+    url: '/frs/extras/Nippon Safes/nippon-1.0.zip'
+    name: 'Freeware DOS Version (English/French/German/Italian)'
+    notes: ''
+-
+    category: games
+    game_id: nippon
+    category_icon: nippon
+    url: '/frs/extras/Nippon Safes/nippon-amiga-1.0.zip'
+    name: 'Freeware Amiga Version (English/French/German)'
+    notes: ''
+-
+    category: games
+    game_id: nippon
+    category_icon: nippon
+    url: '/frs/extras/Nippon Safes/nippon-amiga-disks-1.0.zip'
+    name: 'Disk Images of Freeware Amiga Version (English/French/German)'
+    notes: ''
+-
+    category: games
+    game_id: nippon
+    category_icon: nippon
+    url: '/frs/extras/Nippon Safes/nippon-amiga-it-1.0.zip'
+    name: 'Freeware Amiga Version (Italian)'
+    notes: ''
+-
+    category: games
+    game_id: nippon
+    category_icon: nippon
+    url: '/frs/extras/Nippon Safes/nippon-manual-addons-1.0.zip'
+    name: 'Manuals (English/French/German/Italian), Box, Stickers, Disk labels'
+    notes: ''
+-
+    category: games
     game_id: sfinx
     category_icon: sfinx
     url: /frs/extras/Sfinx/sfinx-en-v1.1.zip
