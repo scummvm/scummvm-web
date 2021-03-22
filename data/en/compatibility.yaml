@@ -3863,3 +3863,10 @@
     since_version: DEV
     stable_platforms: 'amiga,atarist,dos,pc98'
     unstable_platforms: c64
+-
+    id: private-eye
+    support: good
+    notes: '- Only English version is supported'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: mac

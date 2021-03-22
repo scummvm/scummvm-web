@@ -120,6 +120,10 @@
     name: Brøderbund
     alt_name: ''
 -
+    id: brooklyn
+    name: 'Brooklyn Multimedia'
+    alt_name: ''
+-
     id: buka
     name: 'Buka Entertainment'
     alt_name: ''

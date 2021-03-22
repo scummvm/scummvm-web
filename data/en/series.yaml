@@ -170,3 +170,6 @@
 -
     id: carmen
     name: 'Carmen Sandiego'
+-
+    id: journeyman
+    name: 'Journeyman Project'

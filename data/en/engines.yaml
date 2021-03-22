@@ -35,6 +35,11 @@
     alt_name: ''
     enabled: true
 -
+    id: buried
+    name: 'The Journeyman Project 2: Buried in Time'
+    alt_name: ''
+    enabled: false
+-
     id: cge
     name: CGE
     alt_name: 'Common Game Engine'
@@ -257,6 +262,11 @@
 -
     id: prince
     name: 'The Prince and the Coward'
+    alt_name: ''
+    enabled: true
+-
+    id: private
+    name: 'Private Eye'
     alt_name: ''
     enabled: true
 -

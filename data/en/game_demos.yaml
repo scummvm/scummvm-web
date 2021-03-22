@@ -1140,6 +1140,11 @@
     category: Non-Interactive
     url: /frs/demos/sci/pq4-dos-ni-demo-en.zip
 -
+    id: private-eye
+    platform: win
+    category: ''
+    url: /frs/demos/private/private-eye-demo-en.zip
+-
     id: puttcircus
     platform: win
     category: ''

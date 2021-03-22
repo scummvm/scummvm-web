@@ -1686,7 +1686,7 @@
     company_id: presto
     moby_id: '23526'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Journeyman_Project:_Pegasus_Prime.2C_The'
-    series_id: ''
+    series_id: journeyman
 -
     id: peril
     name: 'The Pink Panther: Passport to Peril'
@@ -4695,3 +4695,19 @@
     moby_id: '-1'
     datafiles: ''
     series_id: ''
+-
+    id: private-eye
+    name: 'Private Eye'
+    engine_id: private
+    company_id: brooklyn
+    moby_id: '7117'
+    datafiles: ''
+    series_id: ''
+-
+    id: buried
+    name: 'The Journeyman Project 2: Buried in Time'
+    engine_id: buried
+    company_id: presto
+    moby_id: '2149'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Private_Eye'
+    series_id: journeyman
