@@ -1,0 +1,15 @@
+---
+title: "Unravel a murder mystery in Los Angeles in the 1940s"
+author: gu3
+date: 1616426431
+---
+
+We are happy to announce that _Private Eye_ by Brooklyn Multimedia is now ready for public testing.
+
+Play Phillip Marlowe, a hard-boiled private eye, as he attempts to solve a murder mystery in Los Angeles in the 1940s.
+
+Released in 1996, this game is a rare gem with cel animation technique and professional voice acting. Based on Raymond Chandler's work, the game plays like an interactive movie where you can choose which version of the story to play: one is faithful to the book while the other has an alternate ending.
+
+Only the US release for Windows is supported at the moment.
+
+You will need a [daily development build](https://buildbot.scummvm.org/builds.html). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/).
