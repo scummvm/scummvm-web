@@ -22,7 +22,7 @@ class NewsPage extends Controller
     /* Display the index page. */
     public function index($args)
     {
-        $filename = $args['date'];
+        $filename = $args['date'] ?? null;
 
         if ($filename != null) {
             if (strtolower($filename) == 'archive' || $filename == '') {

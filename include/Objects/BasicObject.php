@@ -12,8 +12,8 @@ abstract class BasicObject
 
     public function __construct($data)
     {
-        $this->description = $data['description'];
-        $this->name = $data['name'];
+        $this->description = $data['description'] ?? null;
+        $this->name = $data['name'] ?? null;
     }
 
     public function __toString()

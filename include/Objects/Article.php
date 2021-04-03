@@ -16,10 +16,10 @@ class Article extends BasicObject
     public function __construct($data)
     {
         parent::__construct($data);
-        $this->url = $data['url'];
-        $this->language = $data['language'];
-        $this->source = $data['source'];
-        $this->date = $data['date'];
+        $this->url = $data['url'] ?? null;
+        $this->language = $data['language'] ?? null;
+        $this->source = $data['source'] ?? null;
+        $this->date = $data['date'] ?? null;
     }
 
     /* Get the URL. */

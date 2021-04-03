@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="/css/{$filename}">
     {/foreach}
 
-    {if $smarty.cookies.cookie_consent == "true"}
+    {if isset($smarty.cookies.cookie_consent) && $smarty.cookies.cookie_consent == "true"}
     <!-- Matomo -->
     <script type="text/javascript">
         var _paq = _paq || [];
@@ -155,7 +155,7 @@
             }
         })
     </script>
-    {if $smarty.cookies.cookie_consent == "true"}
+    {if isset($smarty.cookies.cookie_consent) && $smarty.cookies.cookie_consent == "true"}
     {* Google analytics javascript. *}
     <script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -164,7 +164,7 @@
         urchinTracker();
     </script>
     {* End Google analytics javascript. *}
-    {else if $smarty.cookies.cookie_consent == "false"}
+    {else if isset($smarty.cookies.cookie_consent) && $smarty.cookies.cookie_consent == "false"}
     {* Do nothing *}
     {else}
     {include file='components/cookie.tpl'}

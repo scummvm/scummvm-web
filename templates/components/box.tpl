@@ -1,10 +1,10 @@
-<{if $article}article{else}section{/if} class="box" {if $id}id="{$id}" {/if}>
-    {if $head}
+<{if isset($article)}article{else}section{/if} class="box" {if isset($id)}id="{$id}" {/if}>
+    {if isset($head)}
         <header class="head">
             {$head}
         </header>
     {/if}
-    {if $intro}
+    {if isset($intro)}
         <section class="intro">
             {$intro}
         </section>
@@ -12,4 +12,4 @@
     <section class="content">
         {$content}
     </section>
-</{if $article}article{else}section{/if}>
+</{if isset($article)}article{else}section{/if}>

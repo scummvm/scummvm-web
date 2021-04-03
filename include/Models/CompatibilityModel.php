@@ -29,6 +29,7 @@ class CompatibilityModel extends BasicModel
             if ($version === 'DEV') {
                 $version = "99.99.99";
             }
+            $cachekey = $version;
             $version = \explode('.', $version);
             $data = CompatibilityQuery::create()
                 ->withColumn("max(release_date)")
@@ -44,7 +45,7 @@ class CompatibilityModel extends BasicModel
                     ->filterByReleaseDate($releaseDate, Criteria::LESS_EQUAL)
                 ->endUse()
                 ->find();
-            $this->saveToCache($data, $version);
+            $this->saveToCache($data, $cachekey);
         }
         return $data;
     }

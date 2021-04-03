@@ -16,8 +16,8 @@ class File extends BasicObject
     {
         parent::__construct($data);
         $this->category_icon = $data['category_icon'];
-        $this->extra_info = $data['extra_info'];
-        $this->type = strtolower($data['type']);
+        $this->extra_info = $data['extra_info'] ?? null;
+        $this->type = strtolower($data['type'] ?? '');
         $this->user_agent = isset($data["user_agent"]) ? $data["user_agent"] : "";
 
         $fname = "";
@@ -93,7 +93,8 @@ class File extends BasicObject
          * Get the filesize/last modified information and put it in
          * $this->extra_info.
          */
-        if ($attributes['extra_info'] == 'true') {
+        if (isset($attributes['extra_info'])
+            && $attributes['extra_info'] == 'true') {
             if (is_file($fname) && is_readable($fname)) {
                 $this->extra_info['date'] = date('F j, Y, g:i a', @filemtime($fname));
                 if (!is_null($data['extra_info'])) {

@@ -18,8 +18,8 @@ class ScreenshotsPage extends Controller
     /* Display the index page. */
     public function index($args)
     {
-        $category = $args['category'];
-        $game = $args['game'];
+        $category = $args['category'] ?? null;
+        $game = $args['game'] ?? null;
 
         $this->addJSFiles(
             array(
@@ -27,7 +27,7 @@ class ScreenshotsPage extends Controller
             )
         );
 
-        if (!empty($category)) {
+        if ($category) {
             return $this->getCategory($category, $game);
         }
 

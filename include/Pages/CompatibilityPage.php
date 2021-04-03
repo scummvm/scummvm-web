@@ -52,8 +52,8 @@ class CompatibilityPage extends Controller
     /* Display the index page. */
     public function index($args)
     {
-        $version = $args['version'];
-        $target = $args['game'];
+        $version = $args['version'] ?? null;
+        $target = $args['game'] ?? null;
 
         $versions = VersionQuery::create()
             ->orderByMajor('desc')

@@ -25,7 +25,7 @@ class GameDownloadsModel extends BasicModel
                 $sections[$category] = new DownloadsSection([
                         'anchor' => $category,
                         'title' => $sectionsData[$category]['title'],
-                        'notes' => $sectionsData[$category]['notes']
+                        'notes' => $sectionsData[$category]['notes'] ?? null
                     ]);
             }
 
@@ -43,7 +43,7 @@ class GameDownloadsModel extends BasicModel
                     $sections[$category]->addSubsection(new DownloadsSection([
                         'anchor' => $gameId,
                         'title' => $gameName,
-                        'notes' => $sectionsData[$gameId]['notes']
+                        'notes' => $sectionsData[$gameId]['notes'] ?? null
                     ]));
                 }
 
