@@ -63,7 +63,7 @@
     "downloadsDailyBuilds": "Compilaciones diarias",
     "downloadsDailyNote1": "ATENCIÓN:",
     "downloadsDailyNote2": "Las siguientes compilaciones son versiones en desarrollo poco maduras que han salido directamente de nuestro repositorio de fuentes. Esto significa que no se realizaron las pruebas adecuadas (posiblemente ninguna prueba en absoluto), por lo que cualquier cosa puede romperse. Por ejemplo, podrían corromper el archivo de configuración, bloquearse con frecuencia o incluso no iniciarse. ¡Utilízalas bajo tu propia responsabilidad!",
-    "downloadsDailyLink1": "[Descargas de la compilación oficial diaria](https://buildbot.scummvm.org/builds.html).",
+    "downloadsDailyLink1": "[Descargas de la compilación oficial diaria](https://buildbot.scummvm.org/#/snapshots).",
     "downloadsDailyLink2": "Generadas por nuestro [buildbot](https://buildbot.scummvm.org/).",
     "downloadsDailyLink3": "Instantáneas adicionales:",
     "downloadsLibraries": "Bibliotecas",
