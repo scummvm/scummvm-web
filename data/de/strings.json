@@ -60,7 +60,7 @@
     "downloadsDailyBuilds": "Entwicklerversionen (täglich erstellt)",
     "downloadsDailyNote1": "WARNUNG:",
     "downloadsDailyNote2": "Die folgenden Programmdateien entsprechen dem jeweils aktuellen Stand der Entwicklung. Sie werden direkt aus unserem Quellcode-Verzeichnis erstellt. Das bedeutet, dass diese Versionen nicht ordentlich getestet wurden (im Regelfall überhaupt nicht), weshalb einige Dinge in diesen Versionen kaputt sein können. Beispielsweise können sie Ihre Konfigurationsdatei zerstören, häufig abstürzen oder gar nicht erst starten. Verwendung auf eigene Gefahr!",
-    "downloadsDailyLink1": "[Laden Sie sich hier die offiziellen täglich erstellten Versionen herunter](https://buildbot.scummvm.org/builds.html).",
+    "downloadsDailyLink1": "[Laden Sie sich hier die offiziellen täglich erstellten Versionen herunter](https://buildbot.scummvm.org/#/snapshots).",
     "downloadsDailyLink2": "Sie werden von unserem [Buildbot](https://buildbot.scummvm.org/) erstellt.",
     "downloadsDailyLink3": "Zusätzliche Abbilder (Snapshots):",
     "downloadsLibraries": "Bibliotheken",
