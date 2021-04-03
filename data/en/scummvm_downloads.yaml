@@ -1352,42 +1352,6 @@
 -
     enabled: true
     category: extras
-    subcategory: engine
-    category_icon: ''
-    user_agent: ''
-    url: 'https://github.com/scummvm/scummvm/raw/master/dists/engine-data/kyra.dat'
-    name: kyra.dat
-    description: 'Kyrandia and Lands of Lore'
--
-    enabled: true
-    category: extras
-    subcategory: engine
-    category_icon: ''
-    user_agent: ''
-    url: 'https://github.com/scummvm/scummvm/raw/master/dists/engine-data/lure.dat'
-    name: lure.dat
-    description: 'Lure of the Temptress'
--
-    enabled: true
-    category: extras
-    subcategory: engine
-    category_icon: ''
-    user_agent: ''
-    url: 'https://github.com/scummvm/scummvm/raw/master/dists/engine-data/queen.tbl'
-    name: queen.tbl
-    description: 'Flight of the Amazon Queen'
--
-    enabled: true
-    category: extras
-    subcategory: engine
-    category_icon: ''
-    user_agent: ''
-    url: 'https://github.com/scummvm/scummvm/raw/master/dists/engine-data/sky.cpt'
-    name: sky.cpt
-    description: 'Beneath a Steel Sky'
--
-    enabled: true
-    category: extras
     subcategory: subprojects
     category_icon: ''
     user_agent: ''
