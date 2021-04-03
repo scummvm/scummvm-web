@@ -60,7 +60,7 @@
     "downloadsDailyBuilds": "Daily Build",
     "downloadsDailyNote1": "ATTENZIONE:",
     "downloadsDailyNote2": "Le build seguenti sono versioni di sviluppo compilate direttamente dal nostro repository sorgente. Ciò vuol dire che non sono state testate e che possono avere numerosi malfunzionamenti. Potrebbero corrompere la tua configurazione, piantarsi o non partire nemmeno. Usale a tuo rischio!",
-    "downloadsDailyLink1": "[Scarica le daily build ufficiali](https://buildbot.scummvm.org/builds.html).",
+    "downloadsDailyLink1": "[Scarica le daily build ufficiali](https://buildbot.scummvm.org/#/snapshots).",
     "downloadsDailyLink2": "Le daily build sono generate dal nostro sistema [buildbot](https://buildbot.scummvm.org/).",
     "downloadsDailyLink3": "Snapshot aggiuntivi :",
     "downloadsLibraries": "Librerie",
