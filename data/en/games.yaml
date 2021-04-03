@@ -2070,7 +2070,7 @@
     company_id: sierra
     moby_id: '1216'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
-    series_id: ''
+    series_id: phantasmagoria
 -
     id: torin
     name: 'Torin''s Passage'
@@ -2126,7 +2126,7 @@
     company_id: sierra
     moby_id: '1164'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
-    series_id: ''
+    series_id: phantasmagoria
 -
     id: freddypharkas
     name: 'Freddy Pharkas: Frontier Pharmacist'

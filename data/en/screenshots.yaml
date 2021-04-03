@@ -1944,12 +1944,6 @@
     language: en
     filemask: 'sierra/fairytales/fairytales_dos_en_1_*'
 -
-    id: mothergoosehires
-    variant: CD
-    platform_id: dos
-    language: en
-    filemask: 'sierra/mothergoosehires/mothergoosehires_dos_en_1_*'
--
     id: pepper
     variant: ''
     platform_id: dos
@@ -2315,3 +2309,195 @@
     platform_id: dos
     language: en
     filemask: 'adeline/lba/lba_dos_en_1_*'
+-
+    id: comi
+    variant: ''
+    platform_id: win
+    language: fr
+    filemask: 'lucasarts/comi/comi_win_fr_1_*'
+-
+    id: gk1
+    variant: CD
+    platform_id: win
+    language: fr
+    filemask: 'sierra/gk1/gk1_win_fr_1_*'
+-
+    id: gk2
+    variant: ''
+    platform_id: win
+    language: en
+    filemask: 'sierra/gk2/gk2_win_en_1_*'
+-
+    id: hdb
+    variant: ''
+    platform_id: win
+    language: en
+    filemask: 'monkeystone/hdb/hdb_win_en_1_*'
+-
+    id: hoyle5solitaire
+    variant: ''
+    platform_id: win
+    language: en
+    filemask: 'sierra/hoyle5solitaire/hoyle5solitaire_win_en_1_*'
+-
+    id: hoyle5
+    variant: ''
+    platform_id: win
+    language: en
+    filemask: 'sierra/hoyle5/hoyle5_win_en_1_*'
+-
+    id: kq7
+    variant: ''
+    platform_id: win
+    language: en
+    filemask: 'sierra/kq7/kq7_win_en_1_*'
+-
+    id: kq7
+    variant: ''
+    platform_id: win
+    language: fr
+    filemask: 'sierra/kq7/kq7_win_fr_1_*'
+-
+    id: kyra1
+    variant: ''
+    platform_id: fmtowns
+    language: jp
+    filemask: 'westwood/kyra1/kyra1_fmtowns_jp_1_*'
+-
+    id: kyra2
+    variant: ''
+    platform_id: fmtowns
+    language: jp
+    filemask: 'westwood/kyra2/kyra2_fmtowns_jp_1_*'
+-
+    id: lab
+    variant: ''
+    platform_id: dos
+    language: en
+    filemask: 'terra/lab/lab_dos_en_1_*'
+-
+    id: lol
+    variant: ''
+    platform_id: fmtowns
+    language: jp
+    filemask: 'westwood/lol/lol_fmtowns_jp_1_*'
+-
+    id: lsl6hires
+    variant: ''
+    platform_id: dos
+    language: de
+    filemask: 'sierra/lsl6hires/lsl6hires_dos_de_1_*'
+-
+    id: lsl6hires
+    variant: ''
+    platform_id: dos
+    language: fr
+    filemask: 'sierra/lsl6hires/lsl6hires_dos_fr_1_*'
+-
+    id: lsl7
+    variant: ''
+    platform_id: dos
+    language: en
+    filemask: 'sierra/lsl7/lsl7_dos_en_1_*'
+-
+    id: mothergoosehires
+    variant: ''
+    platform_id: win
+    language: en
+    filemask: 'sierra/mothergoosehires/mothergoosehires_win_en_1_*'
+-
+    id: mothergoose256
+    variant: ''
+    platform_id: dos
+    language: en
+    filemask: 'sierra/mothergoose256/mothergoose256_dos_en_1_*'
+-
+    id: mothergoosehires
+    variant: ''
+    platform_id: win
+    language: es
+    filemask: 'sierra/mothergoosehires/mothergoosehires_win_es_1_*'
+-
+    id: mothergoosehires
+    variant: ''
+    platform_id: win
+    language: de
+    filemask: 'sierra/mothergoosehires/mothergoosehires_win_de_1_*'
+-
+    id: mothergoosehires
+    variant: ''
+    platform_id: win
+    language: fr
+    filemask: 'sierra/mothergoosehires/mothergoosehires_win_fr_1_*'
+-
+    id: neverhood
+    variant: ''
+    platform_id: win
+    language: en
+    filemask: 'neverhood/neverhood/neverhood_win_en_1_*'
+-
+    id: phantasmagoria
+    variant: ''
+    platform_id: dos
+    language: fr
+    filemask: 'sierra/phantasmagoria/phantasmagoria_dos_fr_1_*'
+-
+    id: phantasmagoria2
+    variant: ''
+    platform_id: win
+    language: fr
+    filemask: 'sierra/phantasmagoria2/phantasmagoria2_win_fr_1_*'
+-
+    id: pq4
+    variant: CD
+    platform_id: dos
+    language: fr
+    filemask: 'sierra/pq4/pq4_dos_fr_1_*'
+-
+    id: rama
+    variant: ''
+    platform_id: dos
+    language: fr
+    filemask: 'sierra/rama/rama_dos_fr_1_*'
+-
+    id: rosetattoo
+    variant: ''
+    platform_id: dos
+    language: fr
+    filemask: 'mythos/rosetattoo/rosetattoo_dos_fr_1_*'
+-
+    id: shivers
+    variant: ''
+    platform_id: win
+    language: fr
+    filemask: 'sierra/shivers/shivers_win_fr_1_*'
+-
+    id: sq6
+    variant: ''
+    platform_id: dos
+    language: fr
+    filemask: 'sierra/sq6/sq6_dos_fr_1_*'
+-
+    id: sword2
+    variant: ''
+    platform_id: psx
+    language: en
+    filemask: 'revolution/sword2/sword2_psx_en_1_*'
+-
+    id: torin
+    variant: ''
+    platform_id: win
+    language: fr
+    filemask: 'sierra/torin/torin_win_fr_1_*'
+-
+    id: versailles
+    variant: ''
+    platform_id: dos
+    language: it
+    filemask: 'cryo/versailles/versailles_dos_it_1_*'
+-
+    id: versailles
+    variant: ''
+    platform_id: win
+    language: fr
+    filemask: 'cryo/versailles/versailles_win_fr_1_*'

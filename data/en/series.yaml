@@ -173,3 +173,6 @@
 -
     id: journeyman
     name: 'Journeyman Project'
+-
+    id: phantasmagoria
+    name: Phantasmagoria
