@@ -2304,12 +2304,6 @@
     language: en
     filemask: 'sierra/ddp/ddp_dos_en_2_*'
 -
-    id: lsl1
-    variant: ''
-    platform_id: dos
-    language: en
-    filemask: 'sierra/lsl1/lsl1_dos_en_2_*'
--
     id: mh1
     variant: ''
     platform_id: dos
