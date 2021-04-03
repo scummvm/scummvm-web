@@ -94,6 +94,7 @@ class ScreenshotsModel extends BasicModel
             return false;
         } elseif ($count === 1) {
             $screenshots[0]->getFiles();
+            return $screenshots[0];
         } else {
             $shot = $screenshots[0];
             $shot->getFiles();
