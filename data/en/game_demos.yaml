@@ -1447,8 +1447,33 @@
 -
     id: sky
     platform: dos
-    category: CD
+    category: Non-Interactive
+    url: /frs/demos/sky/sky-dos-ni-anm-demo-en.zip
+-
+    id: sky
+    platform: dos
+    category: v0109
+    url: /frs/demos/sky/sky-dos-v0109-demo-en.zip
+-
+    id: sky
+    platform: dos
+    category: v0267
+    url: /frs/demos/sky/sky-dos-v0267-demo-en.zip
+-
+    id: sky
+    platform: dos
+    category: 'v0272 German'
+    url: sky-dos-v0272-demo-de.zip
+-
+    id: sky
+    platform: dos
+    category: 'v0365 CD'
     url: /frs/demos/sky/sky-dos-v0365-cd-demo-en.zip
+-
+    id: sky
+    platform: amiga
+    category: ''
+    url: /frs/demos/sky/sky-amiga-demo-en.zip
 -
     id: slater
     platform: dos
