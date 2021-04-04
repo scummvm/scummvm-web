@@ -4711,3 +4711,11 @@
     moby_id: '2149'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Private_Eye'
     series_id: journeyman
+-
+    id: ags
+    name: 'Adventure Game System games'
+    engine_id: ags
+    company_id: ''
+    moby_id: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#AGS_Games'
+    series_id: ''

@@ -20,6 +20,11 @@
     alt_name: ''
     enabled: true
 -
+    id: ags
+    name: AGS
+    alt_name: 'Adventure Game System'
+    enabled: true
+-
     id: avalanche
     name: Avalanche
     alt_name: ''
