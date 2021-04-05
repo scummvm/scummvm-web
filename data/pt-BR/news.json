@@ -966,5 +966,9 @@
     "20210322": {
         "content": "Temos o prazer de anunciar que _Private Eye_ da Brooklyn Multimedia está pronto para testes públicos.\n\nFaça o papel de Phillip Marlowe, um detetive particular obstinado, enquanto tenta resolver um mistério de assassinato em Los Angeles na década de 1940.\n\nLançado em 1996, este jogo é uma joia rara com técnica de animação cel e dublagem profissional. Baseado no trabalho de Raymond Chandler, o jogo funciona como um filme interativo onde você pode escolher qual versão da história jogar: um é fiel ao livro enquanto o outro tem um final alternativo.\n\nApenas a versão dos EUA para Windows é suportada no momento.\n\nVocê precisará de uma [compilação de desenvolvimento diário](https://buildbot.scummvm.org/builds.html). Como sempre, envie os relatórios de bugs para nosso [rastreador de problemas](https://bugs.scummvm.org/).",
         "title": "Desvende um mistério de assassinato em Los Angeles na década de 1940"
+    },
+    "20210404": {
+        "content": "Finalmente estamos prontos para liberar o fluxo principal para testes. A engine AGS teve muitos jogos freeware lançados ao longo dos anos, bem como alguns jogos comerciais também. Lembre-se de que, assim como o interpretador individual AGS do qual a engine é derivada, apenas os jogos AGS da versão 2.5 em diante são suportados.\n\nPortanto, se algum de vocês estiver interessado, tente baixar alguns jogos freeware do [site da AGS](https://www.adventuregamestudio.co.uk/site/games/). Você precisará de uma [compilação de desenvolvimento diária](https://buildbot.scummvm.org/#/snapshots). Como sempre, envie os relatórios de bugs para nosso [rastreador de problemas](https://bugs.scummvm.org/). Também seria útil nos informar no [canal #engine-ags do Discord](https://discord.gg/eQYERyBc) quais jogos você terminou de testar.",
+        "title": "Milhares de jogos precisando de teste"
     }
 }
