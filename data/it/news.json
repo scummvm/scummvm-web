@@ -80,5 +80,9 @@
     "20210322": {
         "title": "Risolvi un omicidio a Los Angeles negli anni '40",
         "content": "Abbiamo il piacere di annunciare che _Private Eye_ della Brooklyn Multimedia è pronto per la fase di test pubblica.\n\nImpersona Phillip Marlowe, un tosto detective privato, e prova a risolvere un caso di omicidio ambientato nella Los Angeles degli anni '40.\n\nRilasciato nel 1996, questo titolo è un vero gioiellino caratterizzato da animazioni realizzate con la tecnica tradizionale (cel-animation) e doppiaggio professionale. Ispirato alle opere di Raymond Chandler, il gioco si sviluppa come un film interattivo, con la possibilità di scegliere tra due versioni: fedele al libro oppure con finale alternativo.\n\nAl momento, è supportata solo la versione americana per Windows.\n\nAvrai bisogno di una [daily build della versione di sviluppo](https://buildbot.scummvm.org/builds.html). Come sempre, puoi segnalare eventuali bug al nostro [bug tracker](https://bugs.scummvm.org/)."
+    },
+    "20210404": {
+        "title": "Migliaia di giochi da testare",
+        "content": "Siamo pronti ad aprire al pubblico una vera miniera di giochi. Nel corso degli anni, per il motore AGS sono stati rilasciati moltissimi giochi freeware ed anche alcuni titoli commerciali. Tuttavia, ricorda che il nostro motore è derivato dall'interprete stand-alone di AGS, e pertanto può supportare solo i giochi AGS versione 2.5 e superiori.\n\nSe sei interessato, ti consigliamo di scaricare qualche gioco freeware dal [sito web di AGS](https://www.adventuregamestudio.co.uk/site/games/). Avrai bisogno di una [daily build della versione di sviluppo](https://buildbot.scummvm.org/#/snapshots). Come sempre, puoi segnalare eventuali bug al nostro [bug tracker](https://bugs.scummvm.org/). Ti saremmo grati se ci potessi comunicare sul [canale Discord #engine-ags](https://discord.gg/eQYERyBc) quali giochi hai finito di testare."
     }
 }
