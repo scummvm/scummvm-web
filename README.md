@@ -16,6 +16,7 @@ Before installing please make sure you have the following installed:
 * [PHP](https://www.php.net/manual/en/install.php)
   * PHP YAML extension. Install via `pecl install yaml` or `sudo apt install php-yaml`
   * The version of PHP included with macOS doesn't include PECL, so you'll need to install a different version of PHP [through Homebrew](https://formulae.brew.sh/formula/php) or another method
+  * Alternatively on macOS you can use [MacPorts](https://www.macports.org) to install both PHP and yaml (for example to use PHP 7.4 `sudo port install php74 php74-yaml php74-iconv php74-intl php74-mbstring php74-sqlite ; sudo port select --set php php74`)
 * [Composer](https://getcomposer.org/)
 * [Python & pip](https://www.python.org/) (2.7.9+/3.4+)
 * [Node.js & npm](https://nodejs.org/)
