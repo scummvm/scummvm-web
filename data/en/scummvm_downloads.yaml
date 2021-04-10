@@ -1517,6 +1517,15 @@
     subcategory: optional
     category_icon: ''
     user_agent: ''
+    url: 'http://giflib.sourceforge.net'
+    name: giflib
+    description: 'gif image format decoder'
+-
+    enabled: true
+    category: libs
+    subcategory: optional
+    category_icon: ''
+    user_agent: ''
     url: 'http://zlib.net/'
     name: zlib
     description: 'Data Compression'
