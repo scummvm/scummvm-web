@@ -13,7 +13,7 @@
     engine_id: access
     company_id: access
     moby_id: '3287'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Amazon:_Guardians_of_Eden'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Amazon:_Guardians_of_Eden'
     series_id: ''
 -
     id: hires2
@@ -21,7 +21,7 @@
     engine_id: adl
     company_id: sierra
     moby_id: '1761'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Hi-Res_Adventure_.232:_Wizard_and_the_Princess'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Wizard_and_the_Princess'
     series_id: hires
 -
     id: hires1
@@ -29,7 +29,7 @@
     engine_id: adl
     company_id: sierra
     moby_id: '9312'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Hi-Res_Adventure_.231:_Mystery_House'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Mystery_House'
     series_id: hires
 -
     id: hires4
@@ -37,7 +37,7 @@
     engine_id: adl
     company_id: sierra
     moby_id: '10343'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Hi-Res_Adventure_.234:_Ulysses_and_the_Golden_Fleece'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Ulysses_and_the_Golden_Fleece'
     series_id: hires
 -
     id: hires3
@@ -45,7 +45,7 @@
     engine_id: adl
     company_id: sierra
     moby_id: '15281'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Hi-Res_Adventure_.233:_Cranston_Manor'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Cranston_Manor'
     series_id: hires
 -
     id: hires0
@@ -53,7 +53,7 @@
     engine_id: adl
     company_id: sierra
     moby_id: '15282'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Hi-Res_Adventure_.230:_Mission_Asteroid'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Mission_Asteroid'
     series_id: hires
 -
     id: hires5
@@ -61,7 +61,7 @@
     engine_id: adl
     company_id: sierra
     moby_id: '15283'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Hi-Res_Adventure_.235:_Time_Zone'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Time_Zone'
     series_id: hires
 -
     id: hires6
@@ -69,7 +69,7 @@
     engine_id: adl
     company_id: sierra
     moby_id: '16877'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Hi-Res_Adventure_.236:_The_Dark_Crystal'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Dark_Crystal'
     series_id: hires
 -
     id: mh1
@@ -77,7 +77,7 @@
     engine_id: agi
     company_id: sierra
     moby_id: '24'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#AGI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Manhunter'
     series_id: manhunt
 -
     id: mh2
@@ -85,7 +85,7 @@
     engine_id: agi
     company_id: sierra
     moby_id: '25'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#AGI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Manhunter_2'
     series_id: manhunt
 -
     id: sq1
@@ -93,7 +93,7 @@
     engine_id: agi
     company_id: sierra
     moby_id: '114'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#AGI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest'
     series_id: sq
 -
     id: kq1
@@ -101,7 +101,7 @@
     engine_id: agi
     company_id: sierra
     moby_id: '122'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#AGI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest'
     series_id: kq
 -
     id: kq2
@@ -109,7 +109,7 @@
     engine_id: agi
     company_id: sierra
     moby_id: '123'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#AGI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest_II'
     series_id: kq
 -
     id: sq2
@@ -117,7 +117,7 @@
     engine_id: agi
     company_id: sierra
     moby_id: '128'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#AGI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest_II'
     series_id: sq
 -
     id: kq4
@@ -125,7 +125,7 @@
     engine_id: agi
     company_id: sierra
     moby_id: '129'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#AGI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest_IV'
     series_id: kq
 -
     id: pq1
@@ -133,7 +133,7 @@
     engine_id: agi
     company_id: sierra
     moby_id: '146'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#AGI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest'
     series_id: pq
 -
     id: qfg1
@@ -141,7 +141,7 @@
     engine_id: agi
     company_id: sierra
     moby_id: '168'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Quest_for_Glory'
     series_id: qfg
 -
     id: bc
@@ -149,7 +149,7 @@
     engine_id: agi
     company_id: sierra
     moby_id: '194'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#AGI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Black_Cauldron'
     series_id: ''
 -
     id: lsl1
@@ -157,7 +157,7 @@
     engine_id: agi
     company_id: sierra
     moby_id: '379'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#AGI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry'
     series_id: lsl
 -
     id: goldrush
@@ -165,7 +165,7 @@
     engine_id: agi
     company_id: sierra
     moby_id: '440'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#AGI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Gold_Rush'
     series_id: ''
 -
     id: mixedup
@@ -173,7 +173,7 @@
     engine_id: agi
     company_id: sierra
     moby_id: '758'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#AGI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Mixed-Up_Mother_Goose'
     series_id: mixedup
 -
     id: ddp
@@ -189,7 +189,7 @@
     engine_id: agi
     company_id: sierra
     moby_id: '7271'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#AGI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Troll%27s_Tale'
     series_id: ''
 -
     id: mickey
@@ -197,7 +197,7 @@
     engine_id: agi
     company_id: sierra
     moby_id: '7273'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#AGI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Mickey%27s_Space_Adventure'
     series_id: disney
 -
     id: winnie
@@ -205,7 +205,7 @@
     engine_id: agi
     company_id: sierra
     moby_id: '7274'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#AGI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Winnie_the_Pooh_in_the_Hundred_Acre_Wood'
     series_id: disney
 -
     id: sq0
@@ -221,7 +221,7 @@
     engine_id: agi
     company_id: sierra
     moby_id: '126'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#AGI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest_III'
     series_id: kq
 -
     id: sqx
@@ -269,7 +269,7 @@
     engine_id: agi
     company_id: fan
     moby_id: '-1'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#AGI'
+    datafiles: ''
     series_id: agifan
 -
     id: serguei1
@@ -317,7 +317,7 @@
     engine_id: agos
     company_id: adventuresoft
     moby_id: '495'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Simon_the_Sorcerer'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer'
     series_id: simon
 -
     id: elvira2
@@ -325,7 +325,7 @@
     engine_id: agos
     company_id: adventuresoft
     moby_id: '1779'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Elvira_II:_The_Jaws_of_Cerberus'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Elvira_2:_The_Jaws_of_Cerberus'
     series_id: elvira
 -
     id: simon2
@@ -333,7 +333,7 @@
     engine_id: agos
     company_id: adventuresoft
     moby_id: '1851'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Simon_the_Sorcerer_II:_The_Lion.2C_the_Wizard_and_the_Wardrobe'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer_II:_The_Lion,_the_Wizard_and_the_Wardrobe'
     series_id: simon
 -
     id: feeble
@@ -341,7 +341,7 @@
     engine_id: agos
     company_id: adventuresoft
     moby_id: '2198'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Feeble_Files.2C_The'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Feeble_Files'
     series_id: ''
 -
     id: elvira1
@@ -349,7 +349,7 @@
     engine_id: agos
     company_id: adventuresoft
     moby_id: '4050'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Elvira:_Mistress_of_the_Dark'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Elvira:_Mistress_of_the_Dark'
     series_id: elvira
 -
     id: waxworks
@@ -357,7 +357,7 @@
     engine_id: agos
     company_id: adventuresoft
     moby_id: '1269'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Waxworks'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Waxworks'
     series_id: ''
 -
     id: dimp
@@ -365,7 +365,7 @@
     engine_id: agos
     company_id: adventuresoft
     moby_id: '4427'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Simon_the_Sorcerer.27s_Puzzle_Pack'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer_Puzzle_Pack'
     series_id: simon
 -
     id: jumble
@@ -373,7 +373,7 @@
     engine_id: agos
     company_id: adventuresoft
     moby_id: '4427'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Simon_the_Sorcerer.27s_Puzzle_Pack'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer_Puzzle_Pack'
     series_id: simon
 -
     id: puzzle
@@ -381,7 +381,7 @@
     engine_id: agos
     company_id: adventuresoft
     moby_id: '4427'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Simon_the_Sorcerer.27s_Puzzle_Pack'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer_Puzzle_Pack'
     series_id: simon
 -
     id: pn
@@ -389,7 +389,7 @@
     engine_id: agos
     company_id: adventuresoft
     moby_id: '7457'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Personal_Nightmare'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Personal_Nightmare'
     series_id: ''
 -
     id: swampy
@@ -413,7 +413,7 @@
     engine_id: bbvs
     company_id: viacom
     moby_id: '2470'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Beavis_and_Butt-Head_in_Virtual_Stupidity'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Beavis_and_Butt-Head_in_Virtual_Stupidity'
     series_id: beavisbutthead
 -
     id: bladerunner
@@ -421,7 +421,7 @@
     engine_id: bladerunner
     company_id: westwood
     moby_id: '341'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Blade_Runner'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Blade_Runner'
     series_id: ''
 -
     id: bladerunner-final
@@ -429,7 +429,7 @@
     engine_id: bladerunner
     company_id: westwood
     moby_id: '32411'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Blade_Runner'
     series_id: ''
 -
     id: soltys
@@ -437,7 +437,7 @@
     engine_id: cge
     company_id: lkavalon
     moby_id: '19196'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Soltys'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Soltys'
     series_id: ''
 -
     id: sfinx
@@ -445,7 +445,7 @@
     engine_id: cge2
     company_id: lkavalon
     moby_id: '42915'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Sfinx'
     series_id: ''
 -
     id: chewy
@@ -461,7 +461,7 @@
     engine_id: cine
     company_id: delphine
     moby_id: '2205'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Future_Wars'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Future_Wars'
     series_id: ''
 -
     id: os
@@ -549,7 +549,7 @@
     engine_id: cruise
     company_id: delphine
     moby_id: '2264'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Cruise_for_a_Corpse'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Cruise_for_a_Corpse'
     series_id: ''
 -
     id: losteden
@@ -565,7 +565,7 @@
     engine_id: cryomni3d
     company_id: cryo
     moby_id: '6889'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Versailles_1685'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Versailles_1685'
     series_id: ''
 -
     id: amber
@@ -805,7 +805,7 @@
     engine_id: draci
     company_id: nosense
     moby_id: '44689'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Dragon_History'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Dragon_History'
     series_id: ''
 -
     id: dragons
@@ -821,7 +821,7 @@
     engine_id: drascula
     company_id: alcachofa
     moby_id: '14108'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Drascula:_The_Vampire_Strikes_Back'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Drascula:_The_Vampire_Strikes_Back'
     series_id: ''
 -
     id: dreamweb
@@ -829,7 +829,7 @@
     engine_id: dreamweb
     company_id: creativereality
     moby_id: '1905'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Dreamweb'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Dreamweb'
     series_id: ''
 -
     id: fullpipe
@@ -845,7 +845,7 @@
     engine_id: gnap
     company_id: artech
     moby_id: '4556'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#U.F.O.s_.2F_Gnap'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=UFOs'
     series_id: ''
 -
     id: gob1
@@ -853,7 +853,7 @@
     engine_id: gob
     company_id: coktel
     moby_id: '1154'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Gobliiins'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Gobliiins'
     series_id: gob
 -
     id: gob1cd
@@ -861,7 +861,7 @@
     engine_id: gob
     company_id: coktel
     moby_id: '1154'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Gobliiins'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Gobliiins'
     series_id: gob
 -
     id: dynasty
@@ -877,7 +877,7 @@
     engine_id: gob
     company_id: coktel
     moby_id: '2625'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Gobliins_1'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Gobliins_2'
     series_id: gob
 -
     id: gob2
@@ -885,7 +885,7 @@
     engine_id: gob
     company_id: coktel
     moby_id: '2625'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Gobliins_2'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Gobliins_2'
     series_id: gob
 -
     id: gob3
@@ -893,7 +893,7 @@
     engine_id: gob
     company_id: coktel
     moby_id: '2870'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Goblins_3'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Goblins_3'
     series_id: gob
 -
     id: gob3cd
@@ -901,7 +901,7 @@
     engine_id: gob
     company_id: coktel
     moby_id: '2870'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Goblins_4'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Goblins_3'
     series_id: gob
 -
     id: woodruff
@@ -909,7 +909,7 @@
     engine_id: gob
     company_id: coktel
     moby_id: '2871'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Bizarre_Adventures_of_Woodruff_and_the_Schnibble.2C_The'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Bizarre_Adventures_of_Woodruff_and_the_Schnibble'
     series_id: ''
 -
     id: urban
@@ -917,7 +917,7 @@
     engine_id: gob
     company_id: coktel
     moby_id: '3809'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Urban_Runner'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Urban_Runner'
     series_id: ''
 -
     id: geisha
@@ -925,7 +925,7 @@
     engine_id: gob
     company_id: coktel
     moby_id: '3844'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Geisha'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Geisha'
     series_id: ''
 -
     id: lit
@@ -933,7 +933,7 @@
     engine_id: gob
     company_id: coktel
     moby_id: '6098'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Lost_in_Time'
     series_id: ''
 -
     id: lit1
@@ -941,7 +941,7 @@
     engine_id: gob
     company_id: coktel
     moby_id: '6098'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Lost_in_Time'
     series_id: ''
 -
     id: lit2
@@ -949,7 +949,7 @@
     engine_id: gob
     company_id: coktel
     moby_id: '6098'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Lost_in_Time'
     series_id: ''
 -
     id: ween
@@ -957,7 +957,7 @@
     engine_id: gob
     company_id: coktel
     moby_id: '6218'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Ween:_The_Prophecy'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Prophecy'
     series_id: ''
 -
     id: fascination
@@ -965,7 +965,7 @@
     engine_id: gob
     company_id: coktel
     moby_id: '9399'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Fascination'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Fascination'
     series_id: ''
 -
     id: bargon
@@ -973,7 +973,7 @@
     engine_id: gob
     company_id: coktel
     moby_id: '13178'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Bargon_Attack'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Bargon_Attack'
     series_id: ''
 -
     id: crousti
@@ -1061,7 +1061,7 @@
     engine_id: gob
     company_id: coktel
     moby_id: '31658'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Once_Upon_A_Time:_Little_Red_Riding_Hood'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Once_Upon_A_Time:_Little_Red_Riding_Hood'
     series_id: ''
 -
     id: playtoonsdemo
@@ -1141,7 +1141,7 @@
     engine_id: gob
     company_id: coktel
     moby_id: '-1'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Playtoons:_Bambou_le_Sauveur_de_la_Jungle'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Playtoons_Limited_Edition_-_Bambou_le_Sauveur_de_la_Jungle'
     series_id: playtoons
 -
     id: griffon
@@ -1157,7 +1157,7 @@
     engine_id: groovie
     company_id: trilobyte
     moby_id: '283'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#7th_Guest.2C_The'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_7th_Guest'
     series_id: t7g
 -
     id: 11h
@@ -1213,7 +1213,7 @@
     engine_id: hugo
     company_id: graydesign
     moby_id: '1023'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Hugo.27s_House_of_Horrors'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Hugo%27s_House_of_Horrors'
     series_id: hugo
 -
     id: hugo2
@@ -1221,7 +1221,7 @@
     engine_id: hugo
     company_id: graydesign
     moby_id: '1158'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Hugo_2:_Whodunit.3F'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Hugo_II:_Whodunit%3F'
     series_id: hugo
 -
     id: hugo3
@@ -1229,7 +1229,7 @@
     engine_id: hugo
     company_id: graydesign
     moby_id: '4962'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Hugo_3:_Jungle_of_Doom'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Hugo_III:_Jungle_of_Doom'
     series_id: hugo
 -
     id: bbdou
@@ -1253,7 +1253,7 @@
     engine_id: kyra
     company_id: westwood
     moby_id: '394'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Legend_of_Kyrandia.2C_The'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Legend_of_Kyrandia'
     series_id: kyra
 -
     id: kyra2
@@ -1261,7 +1261,7 @@
     engine_id: kyra
     company_id: westwood
     moby_id: '871'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Legend_of_Kyrandia.2C_The:_Hand_of_Fate'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Legend_of_Kyrandia:_Book_Two:_Hand_of_Fate'
     series_id: kyra
 -
     id: kyra3
@@ -1269,7 +1269,7 @@
     engine_id: kyra
     company_id: westwood
     moby_id: '872'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Legend_of_Kyrandia.2C_The:_Malcolm.27s_Revenge'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Legend_of_Kyrandia:_Book_Three:_Malcolm%27s_Revenge'
     series_id: kyra
 -
     id: eob
@@ -1277,7 +1277,7 @@
     engine_id: kyra
     company_id: westwood
     moby_id: '835'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Eye_of_the_Beholder'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Eye_of_the_Beholder'
     series_id: eob
 -
     id: eob2
@@ -1285,7 +1285,7 @@
     engine_id: kyra
     company_id: westwood
     moby_id: '307'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Eye_of_the_Beholder_II:_The_Legend_of_Darkmoon'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Eye_of_the_Beholder_II:_The_Legend_of_Darkmoon'
     series_id: eob
 -
     id: lol
@@ -1293,7 +1293,7 @@
     engine_id: kyra
     company_id: westwood
     moby_id: '846'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Lands_of_Lore:_The_Throne_of_Chaos'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Lands_of_Lore'
     series_id: ''
 -
     id: lab
@@ -1333,7 +1333,7 @@
     engine_id: lure
     company_id: revolution
     moby_id: '1134'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Lure_of_the_Temptress'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Lure_of_the_Temptress'
     series_id: ''
 -
     id: deja_vu
@@ -1365,7 +1365,7 @@
     engine_id: made
     company_id: infocom
     moby_id: '480'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Leather_Goddesses_of_Phobos_2'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Leather_Goddesses_of_Phobos_2'
     series_id: ''
 -
     id: rtz
@@ -1373,7 +1373,7 @@
     engine_id: made
     company_id: activision
     moby_id: '1219'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Return_to_Zork'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Return_to_Zork'
     series_id: zork
 -
     id: manhole
@@ -1381,7 +1381,7 @@
     engine_id: made
     company_id: cyan
     moby_id: '9222'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Manhole.2C_The'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Manhole'
     series_id: ''
 -
     id: rodney
@@ -1389,7 +1389,7 @@
     engine_id: made
     company_id: artbox
     moby_id: '39698'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Rodney.27s_Funscreen'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Rodney%27s_Funscreen'
     series_id: ''
 -
     id: nebular
@@ -1397,7 +1397,7 @@
     engine_id: mads
     company_id: microprose
     moby_id: '539'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Rex_Nebular_and_the_Cosmic_Gender_Bender'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Rex_Nebular_and_the_Cosmic_Gender_Bender'
     series_id: ''
 -
     id: phantom
@@ -1421,7 +1421,7 @@
     engine_id: mohawk
     company_id: cyan
     moby_id: '1223'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Myst'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Myst'
     series_id: myst
 -
     id: mystme
@@ -1429,7 +1429,7 @@
     engine_id: mohawk
     company_id: cyan
     moby_id: '1253'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Myst'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Myst'
     series_id: myst
 -
     id: riven
@@ -1437,7 +1437,7 @@
     engine_id: mohawk
     company_id: cyan
     moby_id: '1262'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Riven:_The_Sequel_to_Myst'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Riven:_The_Sequel_to_Myst'
     series_id: myst
 -
     id: sheila
@@ -1645,7 +1645,7 @@
     engine_id: mortevielle
     company_id: lankhor
     moby_id: '2504'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Mortville_Manor'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Mortville_Manor'
     series_id: ''
 -
     id: mutationofjb
@@ -1669,7 +1669,7 @@
     engine_id: parallaction
     company_id: dynabyte
     moby_id: '3206'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Big_Red_Adventure'
     series_id: ''
 -
     id: nippon
@@ -1677,7 +1677,7 @@
     engine_id: parallaction
     company_id: dynabyte
     moby_id: '13613'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Nippon_Safes_Inc.'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Nippon_Safes_Inc.'
     series_id: ''
 -
     id: pegasus
@@ -1685,7 +1685,7 @@
     engine_id: pegasus
     company_id: presto
     moby_id: '23526'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Journeyman_Project:_Pegasus_Prime.2C_The'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Journeyman_Project:_Pegasus_Prime'
     series_id: journeyman
 -
     id: peril
@@ -1725,7 +1725,7 @@
     engine_id: queen
     company_id: ibi
     moby_id: '352'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Flight_of_the_Amazon_Queen'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Flight_of_the_Amazon_Queen'
     series_id: ''
 -
     id: ihnm
@@ -1733,7 +1733,7 @@
     engine_id: saga
     company_id: dreamersguild
     moby_id: '617'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#I_Have_No_Mouth.2C_and_I_Must_Scream'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=I_Have_No_Mouth,_and_I_Must_Scream'
     series_id: ''
 -
     id: dino
@@ -1749,7 +1749,7 @@
     engine_id: saga
     company_id: dreamersguild
     moby_id: '4008'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Inherit_the_Earth:_Quest_for_the_Orb'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Inherit_the_Earth'
     series_id: ''
 -
     id: fta2
@@ -1773,7 +1773,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '116'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Gabriel_Knight'
     series_id: gk
 -
     id: gk2
@@ -1781,7 +1781,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '118'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Beast_Within'
     series_id: gk
 -
     id: qfg4demo
@@ -1797,7 +1797,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '119'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Quest_for_Glory_IV'
     series_id: qfg
 -
     id: kq4sci
@@ -1805,7 +1805,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '129'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest_IV'
     series_id: kq
 -
     id: kq5
@@ -1813,7 +1813,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '130'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest_V'
     series_id: kq
 -
     id: kq6
@@ -1821,7 +1821,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '131'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest_VI'
     series_id: kq
 -
     id: kq7
@@ -1829,7 +1829,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '135'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest_VII'
     series_id: kq
 -
     id: sq3
@@ -1837,7 +1837,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '142'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest_III'
     series_id: sq
 -
     id: sq4
@@ -1845,7 +1845,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '143'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest_IV'
     series_id: sq
 -
     id: sq5
@@ -1853,7 +1853,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '144'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest_V'
     series_id: sq
 -
     id: sq6
@@ -1861,7 +1861,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '145'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest_6'
     series_id: sq
 -
     id: pq2
@@ -1869,7 +1869,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '147'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest_II'
     series_id: pq
 -
     id: pq3
@@ -1877,7 +1877,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '148'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest_III'
     series_id: pq
 -
     id: pq4demo
@@ -1893,7 +1893,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '149'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest_IV'
     series_id: pq
 -
     id: pqswat
@@ -1901,7 +1901,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '150'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest:_SWAT'
     series_id: pq
 -
     id: qfg2
@@ -1909,7 +1909,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '169'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Quest_for_Glory_II'
     series_id: qfg
 -
     id: qfg3
@@ -1917,7 +1917,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '173'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Quest_for_Glory_III'
     series_id: qfg
 -
     id: sq1sci
@@ -1925,7 +1925,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '187'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest'
     series_id: sq
 -
     id: lighthouse
@@ -1933,7 +1933,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '266'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Lighthouse'
     series_id: ''
 -
     id: jones
@@ -1941,7 +1941,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '370'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Jones_in_the_Fast_Lane'
     series_id: ''
 -
     id: lsl7
@@ -1949,7 +1949,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '381'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_7'
     series_id: lsl
 -
     id: lsl6
@@ -1957,7 +1957,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '407'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_6'
     series_id: lsl
 -
     id: lsl6hires
@@ -1965,7 +1965,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '407'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_6'
     series_id: lsl
 -
     id: lsl5
@@ -1973,7 +1973,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '408'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_5'
     series_id: lsl
 -
     id: lsl2
@@ -1981,7 +1981,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '409'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_2'
     series_id: lsl
 -
     id: lsl3
@@ -1989,7 +1989,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '412'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_3'
     series_id: lsl
 -
     id: lsl1sci
@@ -1997,7 +1997,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '379'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry'
     series_id: lsl
 -
     id: iceman
@@ -2005,7 +2005,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '436'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Codename:_ICEMAN'
     series_id: ''
 -
     id: laurabow2
@@ -2013,7 +2013,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '462'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Dagger_of_Amon_Ra'
     series_id: laurabow
 -
     id: laurabow
@@ -2021,7 +2021,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '461'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Laura_Bow:_The_Colonel%27s_Bequest'
     series_id: laurabow
 -
     id: ecoquest
@@ -2029,7 +2029,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '584'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=EcoQuest'
     series_id: ecoquest
 -
     id: ecoquest2
@@ -2037,7 +2037,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '619'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=EcoQuest_II'
     series_id: ecoquest
 -
     id: shivers
@@ -2045,7 +2045,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '663'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Shivers'
     series_id: ''
 -
     id: hoyle1
@@ -2053,7 +2053,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '759'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle%27s_Official_Book_of_Games:_Volume_1'
     series_id: hoyle
 -
     id: hoyle2
@@ -2061,7 +2061,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '760'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle%27s_Official_Book_of_Games:_Volume_2'
     series_id: hoyle
 -
     id: phantasmagoria2
@@ -2069,7 +2069,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '1216'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Phantasmagoria_2'
     series_id: phantasmagoria
 -
     id: torin
@@ -2077,7 +2077,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '1228'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Torin%27s_Passage'
     series_id: ''
 -
     id: hoyle5solitaire
@@ -2085,7 +2085,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '1232'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle_Solitaire'
     series_id: hoyle
 -
     id: rama
@@ -2093,7 +2093,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '1255'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=RAMA'
     series_id: ''
 -
     id: camelot
@@ -2101,7 +2101,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '1408'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Conquests_of_Camelot'
     series_id: conquests
 -
     id: castlebrain
@@ -2109,7 +2109,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '1523'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Castle_of_Dr._Brain'
     series_id: brain
 -
     id: islandbrain
@@ -2117,7 +2117,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '1524'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Island_of_Dr._Brain'
     series_id: brain
 -
     id: phantasmagoria
@@ -2125,7 +2125,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '1164'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Phantasmagoria'
     series_id: phantasmagoria
 -
     id: freddypharkas
@@ -2133,7 +2133,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '1785'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Freddy_Pharkas'
     series_id: ''
 -
     id: longbow
@@ -2141,7 +2141,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '1967'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Conquests_of_the_Longbow'
     series_id: conquests
 -
     id: pq1sci
@@ -2149,7 +2149,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '146'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest'
     series_id: pq
 -
     id: hoyle3
@@ -2157,7 +2157,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '2124'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle%27s_Official_Book_of_Games:_Volume_3'
     series_id: hoyle
 -
     id: mothergoosehires
@@ -2165,7 +2165,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '3327'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Mixed-Up_Mother_Goose'
     series_id: mixedup
 -
     id: pepper
@@ -2173,7 +2173,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '6312'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Pepper%27s_Adventures_in_Time'
     series_id: ''
 -
     id: kq1sci
@@ -2181,7 +2181,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '6418'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest'
     series_id: kq
 -
     id: fairytales
@@ -2189,7 +2189,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '6880'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Mixed-Up_Fairy_Tales'
     series_id: mixedup
 -
     id: qfg1vga
@@ -2197,7 +2197,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '16075'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Quest_for_Glory'
     series_id: qfg
 -
     id: cnick-kq
@@ -2213,7 +2213,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '758'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Mixed-Up_Mother_Goose'
     series_id: mixedup
 -
     id: mothergoose256
@@ -2221,7 +2221,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '758'
-    datafiles: 'deluxe?'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Mixed-Up_Mother_Goose'
     series_id: mixedup
 -
     id: slater
@@ -2229,7 +2229,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '22337'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Slater_%26_Charlie_Go_Camping'
     series_id: ''
 -
     id: hoyle5
@@ -2237,7 +2237,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '28770'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle_Classic_Games'
     series_id: hoyle
 -
     id: hoyle4
@@ -2245,7 +2245,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '30264'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle_Classic_Card_Games'
     series_id: hoyle
 -
     id: cnick-lsl
@@ -2333,7 +2333,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '17466'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle_Classic_Games'
     series_id: hoyle
 -
     id: hoyle5children
@@ -2341,7 +2341,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '19773'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle_Classic_Games'
     series_id: hoyle
 -
     id: inndemo
@@ -2357,7 +2357,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '-1'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Inside_the_Chest'
     series_id: kq
 -
     id: kquestions
@@ -2365,7 +2365,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '-1'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SCI'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Questions'
     series_id: kq
 -
     id: msastrochicken
@@ -2397,7 +2397,7 @@
     engine_id: scumm
     company_id: lucasarts
     moby_id: '176'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Loom'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Loom'
     series_id: ''
 -
     id: monkey2
@@ -2405,7 +2405,7 @@
     engine_id: scumm
     company_id: lucasarts
     moby_id: '289'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Monkey_Island_2:_LeChuck.27s_Revenge'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Monkey_Island_2:_LeChuck%27s_Revenge'
     series_id: mi
 -
     id: zak
@@ -2413,7 +2413,7 @@
     engine_id: scumm
     company_id: lucasarts
     moby_id: '305'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Zak_McKracken_and_the_Alien_Mindbenders'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Zak_McKracken_and_the_Alien_Mindbenders'
     series_id: ''
 -
     id: atlantis
@@ -2421,7 +2421,7 @@
     engine_id: scumm
     company_id: lucasarts
     moby_id: '316'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Indiana_Jones_and_the_Fate_of_Atlantis'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Indiana_Jones_and_the_Fate_of_Atlantis'
     series_id: indy
 -
     id: dig
@@ -2429,7 +2429,7 @@
     engine_id: scumm
     company_id: lucasarts
     moby_id: '354'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Dig.2C_The'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Dig'
     series_id: ''
 -
     id: indy3
@@ -2437,7 +2437,7 @@
     engine_id: scumm
     company_id: lucasarts
     moby_id: '534'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Indiana_Jones_and_the_Last_Crusade'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Indiana_Jones_and_the_Last_Crusade'
     series_id: indy
 -
     id: comi
@@ -2445,7 +2445,7 @@
     engine_id: scumm
     company_id: lucasarts
     moby_id: '547'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Curse_of_Monkey_Island.2C_The'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Curse_of_Monkey_Island'
     series_id: mi
 -
     id: monkey
@@ -2453,7 +2453,7 @@
     engine_id: scumm
     company_id: lucasarts
     moby_id: '616'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Secret_of_Monkey_Island.2C_The'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Secret_of_Monkey_Island'
     series_id: mi
 -
     id: maniac
@@ -2461,7 +2461,7 @@
     engine_id: scumm
     company_id: lucasarts
     moby_id: '714'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Maniac_Mansion_.28Original_or_Enhanced.29'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Maniac_Mansion'
     series_id: maniac
 -
     id: tentacle
@@ -2469,7 +2469,7 @@
     engine_id: scumm
     company_id: lucasarts
     moby_id: '719'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Day_of_the_Tentacle'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Day_of_the_Tentacle'
     series_id: maniac
 -
     id: samnmax
@@ -2477,7 +2477,7 @@
     engine_id: scumm
     company_id: lucasarts
     moby_id: '745'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Sam_.26_Max_Hit_the_Road'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Sam_%26_Max_Hit_the_Road'
     series_id: ''
 -
     id: funpack
@@ -2485,7 +2485,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '757'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Putt-Putt.27s_Fun_Pack'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt%27s_Fun_Pack'
     series_id: puttputt
 -
     id: ft
@@ -2493,7 +2493,7 @@
     engine_id: scumm
     company_id: lucasarts
     moby_id: '940'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Full_Throttle'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Full_Throttle'
     series_id: ''
 -
     id: puttputt
@@ -2501,7 +2501,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '1017'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Putt-Putt_Joins_the_Parade'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_Joins_the_Parade'
     series_id: puttputt
 -
     id: puttrace
@@ -2509,7 +2509,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '1197'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Putt-Putt_Enters_the_Race'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_Enters_the_Race'
     series_id: puttputt
 -
     id: puttmoon
@@ -2517,7 +2517,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '1198'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Putt-Putt_Goes_to_the_Moon'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_Goes_to_the_Moon'
     series_id: puttputt
 -
     id: freddi
@@ -2525,7 +2525,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '1199'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Freddi_Fish_1:_The_Case_of_the_Missing_Kelp_Seeds'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Freddi_Fish_1:_The_Case_of_the_Missing_Kelp_Seeds'
     series_id: freddi
 -
     id: pajama
@@ -2533,7 +2533,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '1200'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Pajama_Sam_1:_No_Need_to_Hide_When_It.27s_Dark_Outside'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam_1:_No_Need_to_Hide_When_It%27s_Dark_Outside'
     series_id: pajama
 -
     id: putttime
@@ -2541,7 +2541,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '1201'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Putt-Putt_Travels_Through_Time'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_Travels_Through_Time'
     series_id: puttputt
 -
     id: puttzoo
@@ -2549,7 +2549,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '1225'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Putt-Putt_Saves_the_Zoo'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_Saves_the_Zoo'
     series_id: puttputt
 -
     id: bluesabctime
@@ -2557,7 +2557,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '1226'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Blue.27s_ABC_Time_Activities'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Blue%27s_ABC_Time_Activities'
     series_id: blue
 -
     id: pajama3
@@ -2565,7 +2565,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '4810'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Pajama_Sam_3:_You_Are_What_You_Eat_From_Your_Head_to_Your_Feet'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam_3:_You_Are_What_You_Eat_From_Your_Head_to_Your_Feet'
     series_id: pajama
 -
     id: blues123time
@@ -2573,7 +2573,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '5135'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Blue.27s_123_Time_Activities'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Blue%27s_123_Time_Activities'
     series_id: blue
 -
     id: freddi4
@@ -2581,7 +2581,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '5157'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Freddi_Fish_4:_The_Case_of_the_Hogfish_Rustlers_of_Briny_Gulch'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Freddi_Fish_4:_The_Case_of_the_Hogfish_Rustlers_of_Briny_Gulch'
     series_id: freddi
 -
     id: freddicove
@@ -2597,7 +2597,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '5355'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Freddi_Fish_3:_The_Case_of_the_Stolen_Conch_Shell'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Freddi_Fish_3:_The_Case_of_the_Stolen_Conch_Shell'
     series_id: freddi
 -
     id: freddi2
@@ -2605,7 +2605,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '5522'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Freddi_Fish_2:_The_Case_of_the_Haunted_Schoolhouse'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Freddi_Fish_2:_The_Case_of_the_Haunted_Schoolhouse'
     series_id: freddi
 -
     id: moonbase
@@ -2637,7 +2637,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '7942'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Backyard_Football'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Backyard_Football'
     series_id: juniorsports
 -
     id: soccermls
@@ -2653,7 +2653,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '8552'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Fatty_Bear.27s_Birthday_Surprise'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Fatty_Bear%27s_Birthday_Surprise'
     series_id: fbear
 -
     id: baseball
@@ -2661,7 +2661,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '11842'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Backyard_Baseball'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Backyard_Baseball'
     series_id: juniorsports
 -
     id: balloon
@@ -2669,7 +2669,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '12433'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Putt-Putt_and_Pep.27s_Balloon-O-Rama'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_and_Pep%27s_Balloon-O-Rama'
     series_id: puttputt
 -
     id: dog
@@ -2677,7 +2677,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '14529'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Putt-Putt_and_Pep.27s_Dog_on_a_Stick'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_and_Pep%27s_Dog_on_a_Stick'
     series_id: puttputt
 -
     id: soccer
@@ -2693,7 +2693,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '18734'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SPY_Fox_3:_Operation_Ozone'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=SPY_Fox_3:_Operation_Ozone'
     series_id: spyfox
 -
     id: lost
@@ -2701,7 +2701,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '19377'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Pajama_Sam.27s_Lost_.26_Found'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam%27s_Lost_%26_Found'
     series_id: pajama
 -
     id: fbpack
@@ -2709,7 +2709,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '20950'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Fatty_Bear.27s_Fun_Pack'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Fatty_Bear%27s_Fun_Pack'
     series_id: fbear
 -
     id: spyfox2
@@ -2717,7 +2717,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '20987'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SPY_Fox_2:_Some_Assembly_Required'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=SPY_Fox_2:_Some_Assembly_Required'
     series_id: spyfox
 -
     id: water
@@ -2725,7 +2725,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '20988'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Freddi_Fish_and_Luther.27s_Water_Worries'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Freddi_Fish_and_Luther%27s_Water_Worries'
     series_id: freddi
 -
     id: socks
@@ -2733,7 +2733,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '20989'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Pajama_Sam.27s_Sock_Works'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam%27s_Sock_Works'
     series_id: pajama
 -
     id: chase
@@ -2741,7 +2741,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '20990'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SPY_Fox_in_Cheese_Chase'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=SPY_Fox_in_Cheese_Chase'
     series_id: spyfox
 -
     id: football
@@ -2749,7 +2749,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '20991'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Backyard_Football'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Backyard_Football'
     series_id: juniorsports
 -
     id: jungle
@@ -2757,7 +2757,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '20994'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Let.27s_Explore_the_Jungle_with_Buzzy'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Let%27s_Explore_the_Jungle_with_Buzzy'
     series_id: juniorfield
 -
     id: airport
@@ -2765,7 +2765,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '20995'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Let.27s_Explore_the_Airport_with_Buzzy'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Let%27s_Explore_the_Airport_with_Buzzy'
     series_id: juniorfield
 -
     id: spyfox
@@ -2773,7 +2773,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '21014'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SPY_Fox_1:_Dry_Cereal'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=SPY_Fox_1:_Dry_Cereal'
     series_id: spyfox
 -
     id: farm
@@ -2781,7 +2781,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '21015'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Let.27s_Explore_the_Farm_with_Buzzy'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Let%27s_Explore_the_Farm_with_Buzzy'
     series_id: juniorfield
 -
     id: puttsfunshop
@@ -2797,7 +2797,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '21061'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Putt-Putt_Joins_the_Circus'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_Joins_the_Circus'
     series_id: puttputt
 -
     id: maze
@@ -2805,7 +2805,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '21062'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Freddi_Fish_and_Luther.27s_Maze_Madness'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Freddi_Fish_and_Luther%27s_Maze_Madness'
     series_id: freddi
 -
     id: baseball2001
@@ -2813,7 +2813,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '21073'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Backyard_Baseball'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Backyard_Baseball'
     series_id: juniorsports
 -
     id: activity
@@ -2821,7 +2821,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '21083'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Putt-Putt_.26_Fatty_Bear.27s_Activity_Pack'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_%26_Fatty_Bear%27s_Activity_Pack'
     series_id: fbear
 -
     id: bluestreasurehunt
@@ -2829,7 +2829,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '21110'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Blue.27s_Treasure_Hunt'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Blue%27s_Treasure_Hunt'
     series_id: blue
 -
     id: readtime
@@ -2837,7 +2837,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '21111'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Blue.27s_Reading_Time_Activities'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Blue%27s_Reading_Time_Activities'
     series_id: blue
 -
     id: freddisfunshop
@@ -2845,7 +2845,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '21112'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Freddi_Fish%27s_One-Stop_Fun_Shop'
     series_id: freddi
 -
     id: pajama2
@@ -2853,7 +2853,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '21113'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Pajama_Sam_2:_Thunder_and_Lightning_Aren.27t_so_Frightening'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam_2:_Thunder_and_Lightning_Aren%27t_so_Frightening'
     series_id: pajama
 -
     id: pjgames
@@ -2869,7 +2869,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '30820'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Blue.27s_Art_Time_Activities'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Blue%27s_Art_Time_Activities'
     series_id: blue
 -
     id: bluesbirthday
@@ -2877,7 +2877,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '31131'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Blue.27s_Birthday_Adventure'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Blue%27s_Birthday_Adventure'
     series_id: blue
 -
     id: mustard
@@ -2885,7 +2885,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '55750'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#SPY_Fox_in_Hold_the_Mustard'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=SPY_Fox_in_Hold_the_Mustard'
     series_id: spyfox
 -
     id: soccer2004
@@ -2901,7 +2901,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '71931'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam%27s_One-Stop_Fun_Shop'
     series_id: pajama
 -
     id: thinker1
@@ -2909,7 +2909,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '80258'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Big_Thinkers_First_Grade'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Big_Thinkers_First_Grade'
     series_id: bigthinkers
 -
     id: thinkerk
@@ -2917,7 +2917,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '73005'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Big_Thinkers_Kindergarten'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Big_Thinkers_Kindergarten'
     series_id: bigthinkers
 -
     id: catalog
@@ -2949,7 +2949,7 @@
     engine_id: scumm
     company_id: lucasarts
     moby_id: '-1'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Passport_to_Adventure'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Passport_to_Adventure'
     series_id: ''
 -
     id: zakloom
@@ -2965,7 +2965,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '-1'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Bear_Stormin.27'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Bear_Stormin’'
     series_id: fbear
 -
     id: scalpel
@@ -2973,7 +2973,7 @@
     engine_id: sherlock
     company_id: mythos
     moby_id: '3441'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#The_Lost_Files_of_Sherlock_Holmes'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Lost_Files_of_Sherlock_Holmes:_The_Case_of_the_Serrated_Scalpel'
     series_id: sherlock
 -
     id: rosetattoo
@@ -2981,7 +2981,7 @@
     engine_id: sherlock
     company_id: mythos
     moby_id: '4407'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#The_Lost_Files_of_Sherlock_Holmes'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Lost_Files_of_Sherlock_Holmes:_The_Case_of_the_Rose_Tattoo'
     series_id: sherlock
 -
     id: sky
@@ -2989,7 +2989,7 @@
     engine_id: sky
     company_id: revolution
     moby_id: '386'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Beneath_a_Steel_Sky'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Beneath_a_Steel_Sky'
     series_id: ''
 -
     id: outoforder
@@ -3101,7 +3101,7 @@
     engine_id: supernova
     company_id: tsdinge
     moby_id: '4582'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Mission_Supernova_Part_1'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Mission_Supernova'
     series_id: supernova
 -
     id: msn2
@@ -3109,7 +3109,7 @@
     engine_id: supernova
     company_id: tsdinge
     moby_id: '4582'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Mission_Supernova_Part_2'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Mission_Supernova'
     series_id: supernova
 -
     id: sword1
@@ -3117,7 +3117,7 @@
     engine_id: sword1
     company_id: revolution
     moby_id: '499'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Broken_Sword:_The_Shadow_of_the_Templars'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_1'
     series_id: sword
 -
     id: sword1demo
@@ -3125,7 +3125,7 @@
     engine_id: sword1
     company_id: revolution
     moby_id: '499'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_1'
     series_id: sword
 -
     id: sword1macdemo
@@ -3133,7 +3133,7 @@
     engine_id: sword1
     company_id: revolution
     moby_id: '499'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_1'
     series_id: sword
 -
     id: sword1mac
@@ -3141,7 +3141,7 @@
     engine_id: sword1
     company_id: revolution
     moby_id: '499'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_1'
     series_id: sword
 -
     id: sword1psxdemo
@@ -3157,7 +3157,7 @@
     engine_id: sword1
     company_id: revolution
     moby_id: '499'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_1'
     series_id: sword
 -
     id: sword2
@@ -3165,7 +3165,7 @@
     engine_id: sword2
     company_id: revolution
     moby_id: '1133'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Broken_Sword_II:_The_Smoking_Mirror'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_2'
     series_id: sword
 -
     id: sword2alt
@@ -3173,7 +3173,7 @@
     engine_id: sword2
     company_id: revolution
     moby_id: '1133'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_2'
     series_id: sword
 -
     id: sword2demo
@@ -3181,7 +3181,7 @@
     engine_id: sword2
     company_id: revolution
     moby_id: '1133'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_2'
     series_id: sword
 -
     id: sword2psx
@@ -3189,7 +3189,7 @@
     engine_id: sword2
     company_id: revolution
     moby_id: '1133'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_2'
     series_id: sword
 -
     id: sword2psxdemo
@@ -3213,7 +3213,7 @@
     engine_id: teenagent
     company_id: metropolis
     moby_id: '6423'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#TeenAgent'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=TeenAgent'
     series_id: ''
 -
     id: testbed
@@ -3229,7 +3229,7 @@
     engine_id: tinsel
     company_id: perfect
     moby_id: '184'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Discworld'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Discworld'
     series_id: dw
 -
     id: dw2
@@ -3237,7 +3237,7 @@
     engine_id: tinsel
     company_id: perfect
     moby_id: '1370'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Discworld_2:_Missing_Presumed_....21.3F'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Discworld_II:_Missing_Presumed...!%3F'
     series_id: dw
 -
     id: titanic
@@ -3245,7 +3245,7 @@
     engine_id: titanic
     company_id: digitalvillage
     moby_id: '1374'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Starship_Titanic'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Starship_Titanic'
     series_id: ''
 -
     id: toltecs
@@ -3253,7 +3253,7 @@
     engine_id: toltecs
     company_id: revistronic
     moby_id: '3286'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#3_Skulls_of_the_Toltecs'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=3_Skulls_of_the_Toltecs'
     series_id: ''
 -
     id: tony
@@ -3269,7 +3269,7 @@
     engine_id: toon
     company_id: burst
     moby_id: '518'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Toonstruck'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Toonstruck'
     series_id: ''
 -
     id: touche
@@ -3277,7 +3277,7 @@
     engine_id: touche
     company_id: clipper
     moby_id: '1114'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Touch.C3.A9:_The_Adventures_of_the_Fifth_Musketeer'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Touché:_The_Adventures_of_the_Fifth_Musketeer'
     series_id: ''
 -
     id: blueforce
@@ -3285,7 +3285,7 @@
     engine_id: tsage
     company_id: tsunami
     moby_id: '1478'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Blue_Force'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Blue_Force'
     series_id: ''
 -
     id: ringworld
@@ -3293,7 +3293,7 @@
     engine_id: tsage
     company_id: tsunami
     moby_id: '2559'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Ringworld:_Revenge_of_the_Patriarch'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Ringworld'
     series_id: ringworld
 -
     id: ringworld2
@@ -3317,7 +3317,7 @@
     engine_id: tucker
     company_id: merit
     moby_id: '4364'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Bud_Tucker_in_Double_Trouble'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Bud_Tucker_in_Double_Trouble'
     series_id: ''
 -
     id: ultima6
@@ -3341,7 +3341,7 @@
     engine_id: ultima
     company_id: origin
     moby_id: '723'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Ultima_VIII:_Pagan'
     series_id: ultima
 -
     id: thesavageempire
@@ -3389,7 +3389,7 @@
     engine_id: voyeur
     company_id: philips
     moby_id: '1661'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Voyeur'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Voyeur'
     series_id: ''
 -
     id: scepters
@@ -3837,7 +3837,7 @@
     engine_id: wintermute
     company_id: squinky
     moby_id: '-1'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Chivalry_is_Not_Dead'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Chivalry_is_NOT_Dead'
     series_id: ''
 -
     id: colorsoncanvas
@@ -4477,7 +4477,7 @@
     engine_id: zvision
     company_id: activision
     moby_id: '560'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Zork_Nemesis:_The_Forbidden_Lands'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Zork_Nemesis'
     series_id: zork
 -
     id: zgi
@@ -4485,7 +4485,7 @@
     engine_id: zvision
     company_id: activision
     moby_id: '1951'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Zork:_Grand_Inquisitor'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Zork:_Grand_Inquisitor'
     series_id: zork
 -
     id: ultima4
@@ -4597,7 +4597,7 @@
     engine_id: grim
     company_id: lucasarts
     moby_id: '201'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Grim_Fandango'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Grim_Fandango'
     series_id: ''
 -
     id: monkey4
@@ -4605,7 +4605,7 @@
     engine_id: grim
     company_id: lucasarts
     moby_id: '2606'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Escape_From_Monkey_Island'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Escape_from_Monkey_Island'
     series_id: mi
 -
     id: icb
@@ -4621,7 +4621,7 @@
     engine_id: myst3
     company_id: presto
     moby_id: '3520'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Myst_III:_Exile'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Myst_III:_Exile'
     series_id: myst
 -
     id: tlj
@@ -4637,7 +4637,7 @@
     engine_id: twine
     company_id: adeline
     moby_id: '748'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Little_Big_Adventure'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Little_Big_Adventure'
     series_id: lba
 -
     id: lba2
@@ -4701,7 +4701,7 @@
     engine_id: private
     company_id: brooklyn
     moby_id: '7117'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Private_Eye_(1996)'
     series_id: ''
 -
     id: buried
@@ -4709,7 +4709,7 @@
     engine_id: buried
     company_id: presto
     moby_id: '2149'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Private_Eye'
+    datafiles: ''
     series_id: journeyman
 -
     id: ags
@@ -4717,5 +4717,5 @@
     engine_id: ags
     company_id: ''
     moby_id: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#AGS_Games'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=AGS/Games'
     series_id: ''
