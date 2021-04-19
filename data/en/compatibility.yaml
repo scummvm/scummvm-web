@@ -3875,5 +3875,5 @@
     support: good
     notes: 'Only AGS games 2.5 and after are supported'
     since_version: DEV
-    stable_platforms: ''
+    stable_platforms: win
     unstable_platforms: ''

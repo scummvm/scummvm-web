@@ -4715,7 +4715,7 @@
     id: ags
     name: 'Adventure Game System games'
     engine_id: ags
-    company_id: ''
+    company_id: unknown
     moby_id: ''
     datafiles: 'https://wiki.scummvm.org/index.php?title=AGS/Games'
     series_id: ''
