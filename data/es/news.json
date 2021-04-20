@@ -173,7 +173,7 @@
     },
     "20030909": {
         "title": "Me siento sucio",
-        "content": "Bienvenidos a otro recordatorio cuasiregular de que, sí, vuestro proyecto favorito no está muerto ni de lejos. ¿Qué se ha cocido en el mundo de ScummVM?\n\nLa versión 0.6.0 de ScummVM, aunque no saldrá hasta dentro de unos meses como mínimo, os va a dejar alucinando en colores. O, por lo menos, en púrpura. Entre los habituales grandes cambios estructurales, el repertorio de corrección de fallos y quizás una plataforma nueva que otra... recientemente (casi) hemos acabado con el soporte para las versiones originales V1 de Maniac Mansion y Zak McKracken. Esto solo dejaría al difícil Full Throttle como el único juego de LucasArts al que no damos compatibilidad en su forma oficial.\n\nAdemás y, de nuevo, gracias a la amabilidad de Revolution, la próxima versión de ScummVM incluirá la compatibilidad para otro de sus maravillosos e innovadores juegos: ¡Broken Sword 2!\n\nAmbas cosas ya están presentes, en cierta medida, en nuestras compilaciones diarias y el CVS de desarrollo, pero, por favor, recordad que siguen siendo experimentales y que se está trabajando en ambas. Por favor, NO informéis de errores ni molestéis a nadie preguntando por ellos. ¡Y quizá, solo quizá, podríamos tener más sorpresas en la próxima versión importante antes de que llegue a vuestro servidor de SourceForge más cercano!"
+        "content": "Bienvenidos a otro recordatorio cuasiregular de que, sí, vuestro proyecto favorito no está muerto ni de lejos. ¿Qué se ha cocido en el mundo de ScummVM?\n\nLa versión 0.6.0 de ScummVM, aunque no saldrá hasta dentro de unos meses como mínimo, os va a dejar alucinando en colores. O, por lo menos, en púrpura. Entre los habituales grandes cambios estructurales, el repertorio de corrección de fallos y quizás una plataforma nueva que otra... recientemente (casi) hemos acabado con el soporte para las versiones originales V1 de Maniac Mansion y Zak McKracken. Esto solo dejaría al difícil Full Throttle como el único juego de LucasArts al que no damos compatibilidad en su forma oficial.\n\nAdemás y, de nuevo, gracias a la amabilidad de Revolution, la próxima versión de ScummVM incluirá la compatibilidad para otro de sus maravillosos e innovadores juegos: ¡Broken Sword 2!\n\nAmbas cosas ya están presentes, en cierta medida, en nuestras compilaciones diarias y el CVS de desarrollo, pero, por favor, recordad que siguen siendo experimentales y que se está trabajando en ambas. Por favor, NO informéis de errores ni molestéis a nadie preguntando por ellos. ¡Y quizá, solo quizá, podríamos tener más sorpresas en la próxima versión importante antes de que llegue a vuestro «mirror» de SourceForge más cercano!"
     },
     "20031212": {
         "title": "ScummVM ha muerto, leed este mensaje, por favor.",
@@ -333,7 +333,7 @@
     },
     "20051101": {
         "title": "Actualización de la versión freeware de BASS",
-        "content": "De cara al lanzamiento de la versión 0.8.0, que necesita el archivo adicional SKY.CPT para poder ejecutar Beneath a Steel Sky, hemos actualizado el archivo con la versión freeware en CD para incluir este archivo y, ya que estábamos, también los archivos de datos con la última versión conocida de BASS, que debería arreglar ciertos problemas con los textos que aparecen al jugar en un idioma ajeno al inglés.\n\nPodéis descargarlo en la [página de descargas](/downloads/) (cuando los mirrors de SourceForge lo capten) o bajaros el archivo SKY.CPT por separado [aquí](https://github.com/scummvm/scummvm/raw/master/dists/engine-data/sky.cpt)."
+        "content": "De cara al lanzamiento de la versión 0.8.0, que necesita el archivo adicional SKY.CPT para poder ejecutar Beneath a Steel Sky, hemos actualizado el archivo con la versión freeware en CD para incluir este archivo y, ya que estábamos, también los archivos de datos con la última versión conocida de BASS, que debería arreglar ciertos problemas con los textos que aparecen al jugar en un idioma ajeno al inglés.\n\nPodéis descargarlo en la [página de descargas](/downloads/) (cuando los «mirrors» de SourceForge lo capten) o bajaros el archivo SKY.CPT por separado [aquí](https://github.com/scummvm/scummvm/raw/master/dists/engine-data/sky.cpt)."
     },
     "20051109": {
         "title": "Añadida la versión candidata para PlayStation 2",
@@ -344,24 +344,24 @@
         "content": "Hola. Poco más de un año después de que terminara nuestro concurso de diseño, nos enorgullece anunciar que por fin hemos lanzado el nuevo diseño de la página web. Gracias a Draven por el diseño y a Yaroslav Fedevych por buena parte del código HTML/CSS. Para los más curiosos, la antigua web sigue estando disponible [aquí](/old/)."
     },
     "20051114": {
-        "title": "",
-        "content": ""
+        "title": "Restauración de audios de BASS - Necesitamos ayuda",
+        "content": "Como podéis leer [aquí](http://forums.scummvm.org/viewtopic.php?t=236), nosotros (joostp y lavosspawn) tenemos la ambición de crear una versión de BASS con audios mejorados utilizando los materiales originales de estudio, que se encuentran almacenados en cintas DAT (Digital Audio Tape, o cinta de audio digital).\n\nAhora mismo tenemos las DAT y buscamos ayuda para extraer sus audios. Como no estamos en posición de enviar las cintas a ninguna parte, buscamos a alguien que quiera prestarnos un reproductor o grabador de DAT por unas dos semanas para completar este primer paso. El reproductor de DAT deberá ser enviado a los Países Bajos y se devolverá tras completar esta tarea.\n\nSi crees que puedes ayudar, ¡contacta con nosotros! Para más información, lee el [hilo del foro](http://forums.scummvm.org/viewtopic.php?t=236)."
     },
     "20051202": {
-        "title": "",
-        "content": ""
+        "title": "Publicada la banda sonora de Inherit the Earth",
+        "content": "Tenemos una noticia interesante para vosotros. Wyrmkeep Entertainment Co. ha publicado la banda sonora de ITE en CD. Podéis escuchar una muestra y comprarla [aquí](http://www.wyrmkeep.com/ite/music.html). ScummVM da soporte a este juego desde la versión 0.8.0 gracias a nuestra estrecha colaboración con Wyrmkeep y a que nos han cedido todo el código fuente y los derechos necesarios para reimplementarlo. Apoyad a esta gran empresa comprando la banda sonora del juego y, por supuesto, el juego en si mismo, que podéis jugar mediante ScummVM."
     },
     "20051205": {
-        "title": "",
-        "content": ""
+        "title": "Compilación de ScummVM 0.8.0 para PocketPC 2002 ya disponible",
+        "content": "Nos complace anunciaros la llegada de la esperada compilación de ScummVM versión 0.8.0 para PocketPC 2002 gracias a Kostas Nakos. Podéis obtenerla en la página de descargas. Es posible que algunos «mirrors» no tengan todavía el archivo, en cuyo caso pedimos que probéis con otro."
     },
     "20060109": {
-        "title": "",
-        "content": ""
+        "title": "Soporte básico para The Legend of Kyrandia",
+        "content": "Al fin [la versión CVS de ScummVM](/downloads/#CVS) tiene soporte básico para The Legend of Kyrandia, de Westwood Studios. El juego puede recorrerse de principio a fin, pero le faltan la música, los efectos de sonido y un sistema de menús (por el momento). Por favor, leed el punto 3.8 del archivo [README](https://github.com/scummvm/scummvm/raw/feaa67ca166d4808dcc9d6393b3673ceca25d6cb/README) para saber más y pasaos por la sección de [descargas](/downloads/#extras) para obtener el archivo de datos necesario. Todos los fallos deben ser remitidos a nuestro [gestor de fallos](http://bugs.scummvm.org/). Las instrucciones sobre cómo enviar un informe de fallo están en la sección 4.10 de la página de [preguntas frecuentes](/faq/#question.report-bugs)."
     },
     "20060114": {
-        "title": "",
-        "content": ""
+        "title": "Adelanto de la banda sonora de Beneath a Steel Sky",
+        "content": "Como habréis visto, en nuestros foros hay una [larga discusión](http://forums.scummvm.org/viewtopic.php?t=389) sobre la banda sonora de BASS. James Woodcock, uno de los participantes, ha publicado en [su blog](http://www.jameswoodcock.co.uk/?page_id=54) un par de canciones remasterizadas a partir del MIDI original.\n\nAunque ScummVM no da soporte a esta característica por completo, pensamos hacerlo en un futuro cercano, así que estad atentos. Mientras tanto recomedamos que probéis el futuro de lo que ScummVM espera ofrecer.\n\nPodéis ver más información sobre las mejoras en la página de James:  \n[James Woodcock's ScummVM Music Enhancement Project](http://www.jameswoodcock.co.uk/?page_id=54)"
     },
     "20060131": {
         "title": "",
