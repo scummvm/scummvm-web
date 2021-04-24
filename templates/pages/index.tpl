@@ -155,18 +155,7 @@
             }
         })
     </script>
-    {if isset($smarty.cookies.cookie_consent) && $smarty.cookies.cookie_consent == "true"}
-    {* Google analytics javascript. *}
-    <script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        _uacct = "UA-1455743-1";
-        _udn = "scummvm.org";
-        urchinTracker();
-    </script>
-    {* End Google analytics javascript. *}
-    {else if isset($smarty.cookies.cookie_consent) && $smarty.cookies.cookie_consent == "false"}
-    {* Do nothing *}
-    {else}
+    {if !isset($smarty.cookies.cookie_consent)}
     {include file='components/cookie.tpl'}
     {/if}
 </body>
