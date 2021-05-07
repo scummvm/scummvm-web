@@ -224,7 +224,7 @@
         "title": "Une traduction anglaise pour *The Prince and the Coward*"
     },
     "20020308": {
-        "content": "![Full Throttle](/data/news/20020308.png) BBrox, Endy et Yazoo n'ont pas compté leurs heures, cette semaine (bravo les gars !). Voici les nouveautés côté développement de ScummVM :\n\n*   Sam & Max peut désormais être fini !\n*   Le moteur vidéo *inSane* fonctionne (utilisé dans Dig et Full Throttle)\n*   De nouvelles options de lignes de commandes : cf. lisezmoi.txt\n*   Le travail préliminaire a commencé pour Curse of Monkey Island\n*   Mutle a publié le portage Mac dans l'arborescence CVS\n*   D'innombrables bugs ont été résolus.",
+        "content": "![Full Throttle](/data/news/20020308.png) BBrox, Endy et Yazoo n'ont pas compté leurs heures, cette semaine (bravo les gars !). Voici les nouveautés côté développement de ScummVM :\n\n*   Sam & Max peut désormais être terminé !\n*   Le moteur vidéo *inSane* fonctionne (utilisé dans Dig et Full Throttle)\n*   De nouvelles options de lignes de commandes : cf. lisezmoi.txt\n*   Le travail préliminaire a commencé pour Curse of Monkey Island\n*   Mutle a publié le portage Mac dans l'arborescence CVS\n*   D'innombrables bugs ont été résolus.",
         "title": "Quelques mises à jour relativement importantes"
     },
     "20200504": {
@@ -450,5 +450,17 @@
     "20140616": {
         "title": "Test, Test, 1, 2, 3",
         "content": "La prochaine version 1.7.0 de ScummVM est presque arrivée ! Cette fois-ci, nous avons un total de cinq jeux nouvellement supportés :\n\n*   *Chivalry Is Not Dead*\n*   *Le Manoir de Mortevielle (EN: Mortville Manor)\n*   *Return to Ringworld\n*   *The Neverhood\n*   *Voyeur\n\nMais avant de pouvoir sortir la dernière et meilleure version de ScummVM, nous avons besoin d'aide pour tester tous ces nouveaux jeux. Outre les nouveaux jeux mentionnés ci-dessus, les versions DOS de *Indiana Jones and the Last Crusade* et *Loom* doivent être testées avec notre émulateur AdLib. Vous pouvez toujours vérifier quels jeux doivent encore être testés sur [notre wiki](http://wiki.scummvm.org/index.php/Release_Testing/1.7.0). Il y a aussi quelques autres vieux classiques sur cette liste qui pourraient être testés à nouveau.\n\nUne [compilation quotidienne](/downloads/#daily) est tout ce dont vous avez besoin pour commencer. Si vous trouvez des bugs, veuillez les signaler sur le [bug tracker](http://bugs.scummvm.org/). Après avoir terminé l'un des jeux, veuillez nous en informer sur [les forums](http://forums.scummvm.org/viewtopic.php?t=13639) afin que nous puissions publier les résultats sur la [page wiki](http://wiki.scummvm.org/index.php/Release_Testing/1.7.0). Pensez à suivre nos directives pour les tests de versions, que vous trouverez également [sur le wiki](http://wiki.scummvm.org/index.php/Release_Testing).\n\nEt pendant que vous jouez à ces jeux nouvellement pris en charge, envoyez-nous des [captures d'écran](http://wiki.scummvm.org/index.php/Screenshots) !"
+    },
+    "20020220": {
+        "title": "Des instantanés Windows quotidiens maintenant disponibles",
+        "content": "Travis Howell met à disposition des instantanés quotidiens de ScummVM pour Windows à télécharger. Nous adressons nos remerciements à Travis. Il y a aussi un lien pour une version SDL de ScummVM pour Windows. Cette version ne nécessite pas la dll Cygwin.  \nNous avons également mis en ligne une page Compatibilité pour aider à répondre à la question la plus fréquente : \"Quels jeux fonctionnent ?\". Nous tiendrons cette page à jour au fur et à mesure du développement."
+    },
+    "20020214": {
+        "title": "Plus occupés que des singes qui se grattent",
+        "content": "![Zak256](/data/news/20020214.png) L'équipe de ScummVM se démène pour faire fonctionner davantage de vos classiques LucasArts préférés. Jetez un coup d'œil à cette petite capture d'écran pour vous mettre en appétit. Plus de captures d'écran et d'informations vous parviendront au fur et à mesure."
+    },
+    "20130102": {
+        "content": "Après avoir sauvé un vieux colporteur d'une bande de bandits, Fenimore Fillmore découvre l'existence de trois crânes qui déverrouilleront le trésor perdu des Toltèques ! C'est à lui de trouver les crânes d'or et le trésor, avant que les bandits ne le fassent !\n\nL'équipe ScummVM est heureuse d'annoncer le support du jeu [*Le Trésor des Toltèques*](http://www.mobygames.com/game/dos/3-skulls-of-the-toltecs) (VO : *3 Skulls of the Toltecs*). Alors prenez vos copies des versions DOS du jeu et commencez à jouer avec la [dernière version quotidienne](/downloads/#daily) de ScummVM et aidez-nous à effectuer les tests, tout en profitant de ce grand western d'aventure animé !\n\nComme d'habitude, tous les bugs doivent être signalés sur [notre bug tracker](http://bugs.scummvm.org/). Vous pouvez trouver une liste des fichiers de données dans la [page des fichiers de données](http://wiki.scummvm.org/index.php/Datafiles#3_Skulls_of_the_Toltecs) sur notre wiki. Pour plus d'informations, consultez les [directives de soumission de bogues](/faq/#question.report-bugs).",
+        "title": "Retrouvez le trésor perdu des Toltèques !"
     }
 }
