@@ -1046,5 +1046,36 @@
     "20080522": {
         "content": "E sequestrou seu pai para arrancar. Então, por favor, ajude Woodruff a se vingar, resgatar seu pai, libertar os oprimidos Boozooks e descobrir sobre [o Schnibble of Azimuth] (http://wiki.scummvm.org/index.php/The_Bizarre_Adventures_of_Woodruff_and_the_Schnibble).\n\nAinda o mesmo procedimento antigo: Obtenha sua cópia de * The Bizarre Adventures of Woodruff and the Schnibble * e uma [compilação diária] (/ downloads / # daily) de ScummVM. Relate todos os bugs para [nosso bug tracker] (http://bugs.scummvm.org/) e envie capturas de tela que você fez ao longo do caminho para [nosso patch tracker] (https://sourceforge.net/tracker/?func = add & group_id = 37116 & atid = 418822), seguindo as [diretrizes de envio de bug] (/ faq / # question.report-bugs) e [diretrizes de captura de tela] (http://wiki.scummvm.org/index.php/Screenshots).",
         "title": "Eles brutalmente assasinaram o urso de pelucia dele!"
+    },
+    "20090616": {
+        "title": "Conflito GPL com Atari"
+    },
+    "20090607": {
+        "content": "[! [Descubra mais sobre EL / LAK] (/data/news/20090607.png)] (http://conf.ellak.gr) Os terceiros desenvolvedores de software livre / de código aberto [conferência] (http: // conf. ellak.gr) ([EL / LAK] (http://www.ellak.gr)) acontecerá em Atenas, Grécia nos dias 19 e 20 de junho. Entre os vários softwares de código aberto e conversas relacionadas, este ano o ScummVM também irá estar participando de uma apresentação no dia 20 de junho.\n\nA apresentação visa inicialmente cobrir os princípios básicos de como o ScummVM funciona, sua arquitetura interna e layout da equipe de desenvolvedores. Mas também podemos falar sobre jogos de aventura em geral, Google Summer of Code, assuntos de jogos de código aberto ou o que mais aparecer!\n\nEntão, se você estiver por perto e estiver interessado, vá em frente e [registre-se] (http://www.ellak.gr/index.php?option=com_comprofiler&task=registers) para a conferência e venha para um meet & greet. Vejo você lá!",
+        "title": "ScummVM na conferência de código aberto grego"
+    },
+    "20090523": {
+        "content": "Talvez você não tenha notado, mas agora o site do ScummVM executa um novo código flashy. Fredrik Wendel, também conhecido como \\ [vEX \\] está trabalhando nisso há vários meses e, por baixo do capô, é uma reescrita completa, mantendo o design antigo intacto ... Bem, quase.\n\nAgora as capturas de tela de navegação têm um novo design elegante, os links de navegação são mais lógicos (mantendo a compatibilidade com versões anteriores, então não se preocupe com seus links antigos), as tabelas SCUMM MD5 têm um design melhor e o FAQ perdeu seus números mágicos nos links.\n\nTambém temos o orgulho de anunciar que Fredrik foi nomeado webmaster oficial do projeto, então agora você pode colocar todas as suas reclamações em suas mãos competentes. : P",
+        "title": "Scummvm.org mudou graças ao novo webmaster"
+    },
+    "20090517": {
+        "content": "Desde ScummVM 0.10.0, há suporte não anunciado para legendas nas cenas de * Broken Sword 1 *.\n\nAgora finalmente conseguimos disponibilizar um pacote com legendas para os seguintes idiomas: inglês, brasileiro, alemão, espanhol, francês, italiano e russo. Além disso, são fornecidas legendas para a demonstração em inglês.\n\nVocê pode obter o pacote na página [downloads] (/ downloads / # extras).\n\nNo momento ainda não temos legendas em tcheco, portanto, se você estiver disposto a nos ajudar a fornecê-las, entre em contato com sev.",
+        "title": "Agora você pode ver as legendas em cenas cortadas de Broken Sword 1"
+    },
+    "20090514": {
+        "content": "[! [CCA 2009 Mascot] (/data/news/20090514.png)] (https://sourceforge.net/community/cca09/nominate/?project_name=ScummVM&project_url=http%3A%2F%2Fsourceforge.net%2Fprojects% 2Fscummvm% 2F) O SourceForge.net Community Choice Awards 2009 já começou.\nConvidamos você a apoiar nosso pequeno projeto, dando o seu voto.\n\nA categoria natural para ScummVM seria * Melhor Projeto para Jogadores *,\nembora se você sentir que poderíamos ser o * Melhor Projeto *, não\nmente muito; um projeto pode ser nomeado para mais de uma categoria\neste ano.\n\nO Scary Robot é o mascote desses prêmios e, para votar no ScummVM, clique no mascote ou [neste link] (https://sourceforge.net/community/cca09/nominate/?project_name=ScummVM&project_url=http%3A% 2F% 2Fsourceforge.net% 2Fprojects% 2Fscummvm% 2F).\n\nEsperamos ver você nas finais!\n\nP.S. Para ver a sessão de fotos ao vivo do Robô Assustador, consulte [o blog de Fingolfin] (http://blog.quendi.de/2009/05/07/sourceforgenet-community-choice-awards-2009/).",
+        "title": "Ajude-nos a vencer o Robô Assustador!"
+    },
+    "20090427": {
+        "content": "Não fazia muito tempo desde o nosso lançamento anterior, e agora [aqui] (/ downloads /) está um novo lançamento de correção de bugs que saiu da imprensa!\n\nA lista de bugs corrigidos é bastante longa e você pode ler tudo isso nas [notas de lançamento] (https://downloads.scummvm.org/frs/scummvm/0.13.1/ReleaseNotes), mas aqui está um resumo para aqueles de vocês que têm preguiça de seguir os links e estão ansiosos para jogar melhor os jogos.\n\nSAGA: * Inherit the Earth * é completável novamente; AGOS, Groovie, Sword2: corrigidos muitos problemas relacionados ao som; Paralação: consertou um bug em um dos quebra-cabeças; eliminou uma série de bugs na GUI. Além disso, as portas para iPhone, Symbian e WinCE foram muito melhoradas e as portas NDS e PS2 voltaram desde 0.11.0.\n\nNão vamos incomodar mais com os detalhes. Vá, [baixe ScummVM] (/ downloads /) e divirta-se!",
+        "title": "ScummVM 0.13.1 \"SAGA retorna\" vira ouro"
+    },
+    "20090423": {
+        "content": "O projeto Residual agora tem uma nova casa. Visite [aqui] (http://residual.sourceforge.net/).",
+        "title": "A nova casa para Residual"
+    },
+    "20090421": {
+        "content": "O Google anunciou a lista de alunos para o [Summer of Code] (http://socghop.appspot.com) deste ano. Para o ScummVM, os alunos aceitos e seus respectivos projetos podem ser encontrados em nossa [página de destino] (http://socghop.appspot.com/org/home/google/gsoc2009/scummvm) do site GSoC '09.\n\nA equipe ScummVM e especialmente os mentores dão as boas-vindas aos nossos alunos este ano: Denis, Michal, Norbert, Joakim e Jody. Bem-vindos, pessoal, boa sorte e aproveitem a programação neste verão :-)",
+        "title": "Bem-vindo novos estudantes!"
     }
 }
