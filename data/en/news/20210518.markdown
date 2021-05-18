@@ -1,0 +1,18 @@
+---
+title: "Let's give a warm welcome to the GSoC students!"
+author: strangerke
+date: 1621297666
+---
+
+![GSoC Logo](/data/news/GSoC2016Logo.png)
+
+Yesterday, Google announced the list of students accepted for this new edition of the [Google Summer of Code](https://summerofcode.withgoogle.com/). We are very proud to welcome 6 students this year who will be working on various parts of the project during the upcoming months.
+
+* Aashwin Vaish (aka av_dx) will improve the GUI by adding a graphical interface for game library management, so that games are displayed with cover art thumbnails, grouping options and various filtering fields
+* a-yyg (aka a/) will be working on writing a new engine for Faery Tale Adventure II, based on original sources kindly provided by The Dreamers Guild
+* Crane yang (aka sheep) will join the effort to improve the current Director engine
+* Divyam Ahuja (aka Hikigaya) will be working on finishing the implementation of some engines which are currently stalled, with a priority on MacVenture and Avalanche engines
+* Dylan Servilla (aka djsrv) will also work on the Director engine, continuing his previous GSoC work and aiming to reach Director 2-4 support
+* taylorzhancher (twan) will focus on adding Text To Speech functionality to various games to improve the gaming experience of people having troubles reading texts on screen
+
+We haven't had the opportunity to support and mentor 6 GSoC students since 2008. So, let's celebrate and give a particularly warm welcome to the 2021 GSoC students!
