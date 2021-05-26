@@ -4719,3 +4719,19 @@
     moby_id: ''
     datafiles: 'https://wiki.scummvm.org/index.php?title=AGS/Games'
     series_id: ''
+-
+    id: daniel
+    name: 'Daniel in the Lions'' Den'
+    engine_id: mohawk
+    company_id: littleark
+    moby_id: '-1'
+    datafiles: ''
+    series_id: ''
+-
+    id: create
+    name: 'The Story of Creation'
+    engine_id: mohawk
+    company_id: littleark
+    moby_id: '-1'
+    datafiles: ''
+    series_id: ''
