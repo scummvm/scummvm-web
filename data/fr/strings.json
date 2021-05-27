@@ -25,7 +25,7 @@
     "contactContentTitle": "Contact",
     "contactIntro": "Vous pouvez nous contacter par les moyens suivants :",
     "contactIRCHeader": "Canal IRC",
-    "contactIRC": "Le canal IRC #scummvm sur [irc.freenode.net](http://freenode.net/) est aussi un bon endroit pour poser des questions. Beaucoup de développeurs et d'utilisateurs de ScummVM sont régulièrement présents sur ce canal. Attention : seul l'anglais doit être utilisé sur ce canal.",
+    "contactIRC": "Le canal IRC #scummvm sur [irc.libera.chat](https://libera.chat/) est aussi un bon endroit pour poser des questions. Beaucoup de développeurs et d'utilisateurs de ScummVM sont régulièrement présents sur ce canal. Attention : seul l'anglais doit être utilisé sur ce canal.",
     "contactForumsHeader": "Forums",
     "contactForums": "Nous proposons plusieurs [forums](https://forums.scummvm.org/). Utilisez le forum [Help and Support](https://forums.scummvm.org/viewforum.php?f=2) si vous avez des problèmes lors de l'utilisation de ScummVM. Le forum [General discussion](https://forums.scummvm.org/viewforum.php?f=1) est dédié aux discussions générales sur des sujets touchant de près ou de loin à ScummVM. Il y a aussi des forums dédiés à des plateformes spécifiques et un forum [Junkyard](https://forums.scummvm.org/viewforum.php?f=8) (dépotoir).\n\n**N'oubliez pas de lire [les règles du forum](https://forums.scummvm.org/viewtopic.php?t=17) avant votre premier poste. Il est aussi important de noter que tous les postes doivent être en anglais.**",
     "contactTrackersHeader": "Rapports de bug, demandes de fonctionnalité, patchs",
