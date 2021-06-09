@@ -370,6 +370,37 @@
         alias: "AGA"
         description: "AgsCreditz"
     -
+      name: "Asylum"
+      person:
+      -
+        name: "Alex Bevilacqua"
+        alias: "alexbevi"
+        description: ""
+      -
+        name: "Alex Fontoura"
+        alias: "xesf"
+        description: ""
+      -
+        name: "Alexander Panov"
+        alias: "alxpnv"
+        description: ""
+      -
+        name: "Benjamin Haisch"
+        alias: "john_doe"
+        description: ""
+      -
+        name: "Filippos Karapetis"
+        alias: "bluegr"
+        description: ""
+      -
+        name: "Joseph Davies"
+        alias: "Deledrius"
+        description: ""
+      -
+        name: "Julien Templier"
+        alias: "littleboy"
+        description: ""
+    -
       name: "Avalanche"
       person:
       -
@@ -405,6 +436,13 @@
       -
         name: "Eugene Sandulenko"
         alias: "sev"
+        description: ""
+    -
+      name: "Buried"
+      person:
+      -
+        name: "Matthew Hoops"
+        alias: "clone2727"
         description: ""
     -
       name: "CGE"
@@ -1037,6 +1075,13 @@
         alias: ""
         description: ""
     -
+      name: "Private"
+      person:
+      -
+        name: "Gustavo Grieco"
+        alias: "neuromancer"
+        description: ""
+    -
       name: "Queen"
       person:
       -
@@ -1327,6 +1372,25 @@
         name: "Gregory Montoir"
         alias: "cyx"
         description: "(retired)"
+    -
+      name: "Trecision"
+      person:
+      -
+        name: "Daniel Albano"
+        alias: "SupSuper"
+        description: ""
+      -
+        name: "Arnaud Boutonn&eacute;"
+        alias: "Strangerke"
+        description: ""
+      -
+        name: "Thomas Fach-Pedersen"
+        alias: "madmoose"
+        description: "Smacker video support"
+      -
+        name: "Filippos Karapetis"
+        alias: "bluegr"
+        description: ""
     -
       name: "TsAGE"
       person:
@@ -1903,6 +1967,10 @@
         name: "Matthew Hoops"
         alias: "clone2727"
         description: "Numerous contributions to documentation (retired)"
+      -
+        name: "Cadi Howley"
+        alias: "cadih"
+        description: "User documentation (GSOD 2020)"
   -
     title: "Retired Team Members"
     anchor: "retired_members"
@@ -2272,7 +2340,7 @@
       name: "Portuguese"
       person:
       -
-        name: "Daniel"
+        name: "Daniel Albano"
         alias: "SupSuper"
         description: ""
     -
@@ -2471,7 +2539,7 @@
       -
         name: "Keith Kaisershot"
         alias: "blitter"
-        description: "Several Pegasus Prime patches"
+        description: "Several Pegasus Prime patches and DVD additions"
       -
         name: "Andreas Karlsson"
         alias: "Sprawl"
@@ -3025,7 +3093,7 @@
   - "Neil Dodwell and David Dew from Creative Reality for providing the source of Dreamweb and for their tremendous support."
   - "Janusz Wi&#347;niewski and Miroslaw Liminowicz from Laboratorium Komputerowe Avalon for providing full source code for So&#322;tys and Sfinx and letting us redistribute the games."
   - "Jan Nedoma for providing the sources to the Wintermute-engine, and for his support while porting the engine to ScummVM."
-  - "Bob Bell, Michel Kripalani, Tommy Yune, from Presto Studios for providing the source code of The Journeyman Project: Pegasus Prime."
+  - "Bob Bell, David Black, Michel Kripalani, and Tommy Yune from Presto Studios for providing the source code of The Journeyman Project: Pegasus Prime and The Journeyman Project 2: Buried in Time."
   - "Electronic Arts IP Preservation Team, particularly Stefan Serbicki, and Vasyl Tsvirkunov of Electronic Arts for providing the source code of the two Lost Files of Sherlock Holmes games. James M. Ferguson and Barry Duncan for their tenacious efforts to recover the sources."
   - "John Romero for sharing the source code of Hyperspace Delivery Boy! with us."
   - "Steffen Dingel for sharing the source code of the Mission Supernova game with us."
@@ -3033,3 +3101,4 @@
   - "Tim Schafer, for obvious reasons, and everybody else who helped make Grim Fandango a brilliant game; and the EMI team for giving it their best try."
   - "Bret Mogilefsky, for managing to create a SPUTM-style 3D LUA engine, and avoiding the horrible hack it could have been."
   - "Benjamin Haisch, for emimeshviewer, which our EMI code borrows heavily from."
+  - "Fabrizio Lagorio from Trecision S.p.A., for finding and providing the source code of many of their games."
