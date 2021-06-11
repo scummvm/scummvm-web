@@ -4713,7 +4713,7 @@
     series_id: journeyman
 -
     id: ags
-    name: 'Adventure Game System games'
+    name: 'Adventure Game Studio games'
     engine_id: ags
     company_id: unknown
     moby_id: ''
@@ -4734,4 +4734,12 @@
     company_id: littleark
     moby_id: '-1'
     datafiles: ''
+    series_id: ''
+-
+    id: nl
+    name: 'Nightlong: Union City Conspiracy'
+    engine_id: trecision
+    company_id: trecision
+    moby_id: '2564'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Nightlong:_Union_City_Conspiracy'
     series_id: ''

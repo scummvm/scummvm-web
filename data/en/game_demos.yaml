@@ -1784,3 +1784,13 @@
     platform: fmtowns
     category: Non-Interactive
     url: /frs/demos/scumm/zak-fmtowns-zakloom-ni-demo.zip
+-
+    id: nl
+    platform: win
+    category: ''
+    url: /frs/demos/nightlong/nightlong-win-demo-en.zip
+-
+    id: nl
+    platform: win
+    category: German
+    url: /frs/demos/nightlong/nightlong-win-demo-de.zip

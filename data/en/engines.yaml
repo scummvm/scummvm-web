@@ -22,7 +22,7 @@
 -
     id: ags
     name: AGS
-    alt_name: 'Adventure Game System'
+    alt_name: 'Adventure Game Studio'
     enabled: true
 -
     id: avalanche
@@ -417,6 +417,11 @@
 -
     id: zvision
     name: ZVision
+    alt_name: ''
+    enabled: true
+-
+    id: trecision
+    name: 'Trecision Adventure Module'
     alt_name: ''
     enabled: true
 -
