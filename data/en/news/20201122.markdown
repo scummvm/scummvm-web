@@ -19,4 +19,4 @@ New features:
 
 This was all made possible by the people behind the [TwinEngine](https://github.com/xesf/twin-e) project and the LBA community.
 
-Please test the game with the latest [development build](https://buildbot.scummvm.org/builds.html) and report any issues you find on our [bug tracker](https://bugs.scummvm.org/).
+Please test the game with the latest [development build](https://buildbot.scummvm.org/#/snapshots) and report any issues you find on our [bug tracker](https://bugs.scummvm.org/).

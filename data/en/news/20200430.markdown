@@ -6,7 +6,7 @@ date: 1588200000
 
 After six months of work and the effort of 7 contributors, we are finally happy to announce that we have finished the first version of the English translation for *The Prince and the Coward* or *Książę i Tchórz*. 2,762 script lines with 19,735 words were processed, reviewed and translated.
 
-It is not yet perfect, though, and we need your help, fellow adventurers! ScummVM versions 2.1.x will work, however, there is a problem with displaying inventory item descriptions. Thus, we recommend using [the daily build](https://buildbot.scummvm.org/builds.html).
+It is not yet perfect, though, and we need your help, fellow adventurers! ScummVM versions 2.1.x will work, however, there is a problem with displaying inventory item descriptions. Thus, we recommend using [the daily build](https://buildbot.scummvm.org/#/snapshots).
 
 You need to download the prince_translation.dat file from [here](https://github.com/scummvm/scummvm/blob/master/dists/engine-data/prince_translation.dat?raw=true) and put it into the ALL/ directory of your game. Then re-detect the game, and make sure it shows ‘w/translation’ in the game description. Only Polish or German game versions can be translated this way, the Russian version requires more effort.
 

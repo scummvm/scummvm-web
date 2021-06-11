@@ -12,4 +12,4 @@ Released in 1996, this game is a rare gem with cel animation technique and profe
 
 Only the US release for Windows is supported at the moment.
 
-You will need a [daily development build](https://buildbot.scummvm.org/builds.html). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/).
+You will need a [daily development build](https://buildbot.scummvm.org/#/snapshots). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/).

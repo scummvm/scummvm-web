@@ -13,4 +13,4 @@ After a long time in development, the ScummVM team is happy to announce support 
 
 So break out your copies of the games and give them a try! Unfortunately, only the original Russian Windows versions are supported. The English versions for iOS and Android use a completely different engine.
 
-If you don’t own a copy, you can get the demo from our [demos section](https://www.scummvm.org/demos/). You will need a [daily development build](https://buildbot.scummvm.org/builds.html). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/).
+If you don’t own a copy, you can get the demo from our [demos section](https://www.scummvm.org/demos/). You will need a [daily development build](https://buildbot.scummvm.org/#/snapshots). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/).

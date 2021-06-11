@@ -14,4 +14,4 @@ This new port already has it's own page in [our wiki](https://wiki.scummvm.org/i
 
 If you have any further questions regarding this port, feel free to visit our [forums](https://forums.scummvm.org/viewforum.php?f=24).
 
-Our [buildbot](https://buildbot.scummvm.org/builds.html) is already providing development versions for the Nintendo Switch. Go grab them while they're hot!
+Our [buildbot](https://buildbot.scummvm.org/#/snapshots) is already providing development versions for the Nintendo Switch. Go grab them while they're hot!

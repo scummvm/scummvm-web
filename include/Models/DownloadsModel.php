@@ -63,7 +63,7 @@ class DownloadsModel extends BasicModel
             "engine"=>["title"=>"{#downloadEngineData#}"],
             "subprojects"=>["title"=>"{#downloadsSubprojects#}"],
             "daily"=>["title"=>"{#downloadsDailyBuilds#}"],
-            "daily_downloads"=>["title"=>"{#downloadsDailyBuilds#}","notes"=>"<strong>{#downloadsDailyNote1#}</strong> {#downloadsDailyNote2#}<p>{#downloadsDailyLink1#}{#downloadsDailyLink2#}</p><p>View the ChangeLog to see the latest updates of ScummVM.</p><p>{#downloadsDailyLink3#}</p>"],
+            "daily_downloads"=>["title"=>"{#downloadsDailyBuilds#}","notes"=>"<strong>{#downloadsDailyNote1#}</strong> {#downloadsDailyNote2#}<p>{#downloadsDailyLink1#} {#downloadsDailyLink2#}</p><p>View the ChangeLog to see the latest updates of ScummVM.</p><p>{#downloadsDailyLink3#}</p>"],
             "libs"=>["title"=>"{#downloadsLibraries#}"],
             "required"=>["title"=>"{#downloadsRequiredLibraries#}"],
             "optional"=>["title"=>"{#downloadsOptionalLibraries#}"]

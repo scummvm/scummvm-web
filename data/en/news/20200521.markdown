@@ -10,4 +10,4 @@ The first of these games is Ultima IV: Quest of the Avatar, based on the prior w
 
 The second game is Ultima VI, based on the Nuvie project. Due to some miscommunication, Nuvie may still advance as a separate project, but given the work done integrating Nuvie into ScummVM, we're hoping to have it officially supported in ScummVM as well. As with Ultima IV, Ultima VI supports the original game mode, as well as an enhanced mode that allows for Nuvie's full screen map, container gumps as in Ultima VII, and other features. Note that enhanced mode defaults to double resolution, so for now, the intro only displays in half of the screen.
 
-So break out your copies of the games and give them a try! You will need a [daily development build](https://buildbot.scummvm.org/builds.html). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/).
+So break out your copies of the games and give them a try! You will need a [daily development build](https://buildbot.scummvm.org/#/snapshots). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/).

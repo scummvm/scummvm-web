@@ -29,6 +29,6 @@ Also, with this release, we are finally enabling cloud support for save games an
 
 The complete list of the games that require testing for this release can be found on [our Wiki](https://wiki.scummvm.org/index.php?title=Release_Testing/2.1.0).
 
-Please use a [stable daily build](https://buildbot.scummvm.org/builds.html) of ScummVM for testing. In case you encounter any bugs, there is a place for them to be reported at our [issue tracker](https://bugs.scummvm.org/). Additionally, please track your progress [on the forum thread](https://forums.scummvm.org/viewtopic.php?f=1&t=14945) so we can cross the tested game titles out on the wiki. Make sure to follow our guidelines for release testing which can be found [here](https://wiki.scummvm.org/index.php?title=Release_Testing).
+Please use a [stable daily build](https://buildbot.scummvm.org/#/snapshots) of ScummVM for testing. In case you encounter any bugs, there is a place for them to be reported at our [issue tracker](https://bugs.scummvm.org/). Additionally, please track your progress [on the forum thread](https://forums.scummvm.org/viewtopic.php?f=1&t=14945) so we can cross the tested game titles out on the wiki. Make sure to follow our guidelines for release testing which can be found [here](https://wiki.scummvm.org/index.php?title=Release_Testing).
 
 It would be great if you could help with updating the ScummVM GUI translations. The description of the steps you need to follow is on [the Wiki](https://wiki.scummvm.org/index.php?title=HOWTO-Translate_ScummVM_GUI).

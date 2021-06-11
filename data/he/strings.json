@@ -65,7 +65,7 @@
   "downloadsDailyBuilds": "בונה יומי",
   "downloadsDailyNote1": "אזהרה:",
   "downloadsDailyNote2": "הבנות הבאות הן גרסאות פיתוח מדממות המתבצעות ישירות ממאגר המקורות שלנו. המשמעות היא שהם לא קיבלו שום בדיקה מתאימה (לרוב לא היו בדיקות כלל) ושייתכן שיש בהם מספר דברים שבורים. לדוגמה, הם עלולים להשחית את קובץ ה- config שלך, להתרסק לעתים קרובות או אולי אפילו לא להתחיל. השתמש בהם על אחריותך בלבד!",
-  "downloadsDailyLink1": "[הורד את ה- builds הרשמי היומי](https://buildbot.scummvm.org/builds.html) .",
+  "downloadsDailyLink1": "[הורד את ה- builds הרשמי היומי](https://buildbot.scummvm.org/#/snapshots) .",
   "downloadsDailyLink2": "הם נוצרים על ידי [buildbot](https://buildbot.scummvm.org/) שלנו.",
   "downloadsDailyLink3": "בניית תמונות תמונה נוספות:",
   "downloadsLibraries": "ספריות",

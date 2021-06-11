@@ -68,7 +68,7 @@
   "downloadsDailyBuilds": "Compilações Diárias",
   "downloadsDailyNote1": "AVISO:",
   "downloadsDailyNote2": "",
-  "downloadsDailyLink1": "[Transferir as compilações diárias oficiais](https://buildbot.scummvm.org/builds.html).",
+  "downloadsDailyLink1": "[Transferir as compilações diárias oficiais](https://buildbot.scummvm.org/#/snapshots).",
   "downloadsDailyLink2": "Estas são geradas pelo nosso [buildbot](https://buildbot.scummvm.org/).",
   "downloadsDailyLink3": "Compilações adicionais:",
   "downloadsLibraries": "Bibliotecas",

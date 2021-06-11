@@ -8,4 +8,4 @@ In 2008 Google Summer of Code we had Kari Salminen aka Buddha^ working on adding
 
 Thus, we are proudly announcing support for the <i>Operation Stealth</i> game also known as <i>James Bond 007: The Stealth Affair</i> in the US release.
 
-Grab your copy of the game, fetch the [daily build](https://buildbot.scummvm.org/builds.html) of ScummVM and give it a go. If you encounter any oddities or bugs, please submit to our [bug tracker](https://bugs.scummvm.org/).
+Grab your copy of the game, fetch the [daily build](https://buildbot.scummvm.org/#/snapshots) of ScummVM and give it a go. If you encounter any oddities or bugs, please submit to our [bug tracker](https://bugs.scummvm.org/).

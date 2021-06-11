@@ -8,7 +8,7 @@ Our ScummVM team is looking for Blade Runners who will help find, chase, and ret
 
 We are announcing that Blade Runner is ready for testing. The following languages are supported - English (both CD and DVD releases), German, Italian, French, Spanish, and the unofficial Russian version by Fargus Multimedia.
 
-Find your copy of Blade Runner, [grab the latest development build of ScummVM](https://buildbot.scummvm.org/builds.html) (NOT the latest stable build) and [copy the necessary files](https://wiki.scummvm.org/index.php?title=Datafiles#Blade_Runner).
+Find your copy of Blade Runner, [grab the latest development build of ScummVM](https://buildbot.scummvm.org/#/snapshots) (NOT the latest stable build) and [copy the necessary files](https://wiki.scummvm.org/index.php?title=Datafiles#Blade_Runner).
 
 Now you can play the game with subtitles! Just download [the subtitles zip file](https://www.scummvm.org/games/#bladerunner) extract the subtitles.mix and place it among the rest of the Blade Runner files. So far we have only English and French subtitles, however, if you want to help us transcribe other languages from audio, please [contact peterkohaut & praetorian](https://www.scummvm.org/contact/).
 

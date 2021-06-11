@@ -16,4 +16,4 @@ The ScummVM team is proud to announce support for the following games, which are
 
 Both the CD and floppy versions of QFG4 are supported. Do note that the poker game of Hoyle Classic Games is not supported yet.
 
-So, break out your copies, or buy QFG4 digitally on [GOG](https://www.gog.com/game/quest_for_glory), and grab the [latest development build](https://buildbot.scummvm.org/builds.html) of ScummVM for your preferred platform. Any problems found should be reported on our [Issue Tracker](https://bugs.scummvm.org/).
+So, break out your copies, or buy QFG4 digitally on [GOG](https://www.gog.com/game/quest_for_glory), and grab the [latest development build](https://buildbot.scummvm.org/#/snapshots) of ScummVM for your preferred platform. Any problems found should be reported on our [Issue Tracker](https://bugs.scummvm.org/).

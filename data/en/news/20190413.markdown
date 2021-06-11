@@ -10,7 +10,7 @@ After all those years, it surely was time for an update.
 
 Over the last couple of weeks, ScummVM team member mataniko carefully updated the theming of ScummVM. The new theme follows modern design principles while preserving our own design philosophy.
 
-From now on, future versions of ScummVM [(including current nightly builds!)](https://buildbot.scummvm.org/builds.html) will include the new theme by default.
+From now on, future versions of ScummVM [(including current nightly builds!)](https://buildbot.scummvm.org/#/snapshots) will include the new theme by default.
 
 Already missing the old theme? Don't worry! The old "ScummVM Modern" theme can be selected in ScummVM's options at any time.
 

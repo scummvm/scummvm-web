@@ -9,5 +9,5 @@ The second is the Comprehend engine games developed by Polarware. Here's where t
 
 As for the other Comprehend games, Talisman will likely be supported in the future, but it requires significant further work. The other remaining games like Transylvania III use a completely different engine, so will remain out of scope for the foreseeable future.
 
-So if any of you are interested, try downloading the relevant games and give them a try. You will need a [daily development build](https://buildbot.scummvm.org/builds.html). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/).
+So if any of you are interested, try downloading the relevant games and give them a try. You will need a [daily development build](https://buildbot.scummvm.org/#/snapshots). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/).
  

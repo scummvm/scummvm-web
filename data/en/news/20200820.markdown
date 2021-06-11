@@ -13,5 +13,5 @@ ScummVM's new Dragons engine allows you to run the Playstation version of this s
 
 Only the US and GB Playstation 1 versions are supported at the moment.
 
-You will need a [daily development build](https://buildbot.scummvm.org/builds.html). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/).
+You will need a [daily development build](https://buildbot.scummvm.org/#/snapshots). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/).
 

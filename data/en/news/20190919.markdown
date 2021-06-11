@@ -8,6 +8,6 @@ date: 1568920759
 
 After a long time in development, the ScummVM team is happy to announce support for the game.
 
-Make sure to grab [a recent build](https://buildbot.scummvm.org/builds.html) and give it a try. Please report any bugs that you find to [our issue tracker](https://bugs.scummvm.org/).
+Make sure to grab [a recent build](https://buildbot.scummvm.org/#/snapshots) and give it a try. Please report any bugs that you find to [our issue tracker](https://bugs.scummvm.org/).
 
 The English, German and Demo versions are supported. You just need the DATA/ directory from the original game to play.
