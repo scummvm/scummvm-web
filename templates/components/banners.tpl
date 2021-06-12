@@ -3,7 +3,6 @@
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="U6E6SLL7E8MAS">
         <input type="image" src="/images/ppdonate.png" style="width: 88px; height: 35px; border: 0 none;" name="submit" alt="{#indexSupport#}">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
     </form>
 
     <a href="https://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
