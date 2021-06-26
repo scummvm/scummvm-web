@@ -1142,8 +1142,23 @@
 -
     id: private-eye
     platform: win
-    category: ''
+    category: US
     url: /frs/demos/private/private-eye-demo-en.zip
+-
+    id: private-eye
+    platform: win
+    category: UK
+    url: /frs/demos/private/private-eye-demo-uk.zip
+-
+    id: private-eye
+    platform: win
+    category: Spanish
+    url: /frs/demos/private/private-eye-demo-es.zip
+-
+    id: private-eye
+    platform: mac
+    category: US
+    url: /frs/demos/private/private-eye-mac-demo-us.zip
 -
     id: puttcircus
     platform: win
