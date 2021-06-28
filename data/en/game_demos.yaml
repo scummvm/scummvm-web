@@ -25,6 +25,16 @@
     category: 'Space Quest, Donald Duck''s Playground, King''s Quest 3, Leisure Suit Larry'
     url: /frs/demos/agi/agi-dos-pack5-demo-en.zip
 -
+    id: agidemo
+    platform: dos
+    category: 'King''s Quest 3, Space Quest'
+    url: /frs/demos/agi/agi-dos-kq3-sp1-demo-en.zip
+-
+    id: agidemo
+    platform: apple2gs
+    category: 'King''s Quest 3, Leisure Suit Larry, Police Quest, Thexder, Space Quest'
+    url: /frs/demos/agi/agi-2gs-demo-pack-en.zip
+-
     id: airport
     platform: mac
     category: ''
@@ -165,6 +175,11 @@
     category: Preview
     url: /frs/demos/scumm/he/BluesBirthday-win-preview-us.zip
 -
+    id: buried
+    platform: win
+    category: ''
+    url: /frs/demos/buried/buried-win-demo-en.zip
+-
     id: camelot
     platform: dos
     category: Non-Interactive
@@ -242,12 +257,12 @@
 -
     id: director
     platform: mac
-    category: 'The Apartment D3'
+    category: 'The Apartment D2'
     url: /frs/demos/director/theapartment2.zip
 -
     id: director
     platform: mac
-    category: 'The Apartment D2'
+    category: 'The Apartment D3'
     url: /frs/demos/director/theapartment3.zip
 -
     id: director
@@ -572,7 +587,7 @@
 -
     id: gob1
     platform: dos
-    category: ''
+    category: French
     url: /frs/demos/gob/gob1-dos-demo-fr.zip
 -
     id: playtoonsdemo
@@ -580,7 +595,7 @@
     category: ''
     url: /frs/demos/gob/archibald-dos-ni-demo1-en.zip
 -
-    id: gob1
+    id: dynasty
     platform: dos
     category: Non-Interactive
     url: /frs/demos/gob/dynasty-win-ni-demo-en.zip
@@ -617,7 +632,7 @@
 -
     id: gob3
     platform: dos
-    category: ''
+    category: French
     url: /frs/demos/gob/gob3-dos-demo1-fr.zip
 -
     id: gob3
@@ -1112,12 +1127,12 @@
 -
     id: playtoons1
     platform: dos
-    category: Non-Interactive
+    category: 'Italian Non-Interactive'
     url: /frs/demos/gob/archibald-dos-ni-demo-it.zip
 -
     id: playtoons1
     platform: dos
-    category: Non-Interactive
+    category: 'Spanish Non-Interactive'
     url: /frs/demos/gob/archibald-dos-ni-demo-sp.zip
 -
     id: pn
@@ -1478,7 +1493,7 @@
     id: sky
     platform: dos
     category: 'v0272 German'
-    url: sky-dos-v0272-demo-de.zip
+    url: /frs/demos/sky/sky-dos-v0272-demo-de.zip
 -
     id: sky
     platform: dos
