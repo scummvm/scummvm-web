@@ -1,0 +1,11 @@
+---
+title: "Less than a hundred years of progress..."
+author: sev, digitall
+date: 1624921247
+---
+
+Prepare for a quest that spans more than 1200 years and 7 astounding worlds. The epic sequel to _The Journeyman Project_, _The Journeyman Project 2: Buried in Time_ is now fully supported by ScummVM.
+
+After a number of years in development by clone2727, and a few more years maturing on a shelf, the game is finally ready for public testing.
+
+Please help us with this journey. Take your CDs (or [GOG.com digital release](https://www.gog.com/game/journeyman_project_2?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)), copy over [the necessary files](https://wiki.scummvm.org/index.php?title=The_Journeyman_Project_2:_Buried_in_Time) and fly, fly. You will need the [latest daily build](https://www.scummvm.org/downloads/#daily) of ScummVM. If you encounter any hiccups during your quest, please file them on our [issue tracker](https://bugs.scummvm.org/).
