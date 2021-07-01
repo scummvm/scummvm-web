@@ -742,5 +742,9 @@
     "20210629": {
         "content": "Préparez-vous pour une quête qui s'étend sur plus de 1200 ans et 7 mondes époustouflants. La suite épique de _The Journeyman Project_, _The Journeyman Project 2 : Buried in Time_ est maintenant entièrement supportée par ScummVM.\n\nAprès plusieurs années de développement par clone2727, et quelques années supplémentaires de maturation sur une étagère, le jeu est enfin prêt pour la phase de test public.\n\nMerci de nous aider dans ce périple. Munissez-vous de vos CD (ou de la [version numérique GOG.com](https://www.gog.com/game/journeyman_project_2?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)), copiez les [fichiers nécessaires](https://wiki.scummvm.org/index.php?title=The_Journeyman_Project_2:_Buried_in_Time) et envolez-vous. Vous aurez besoin de la [dernière version quotidienne](https://www.scummvm.org/downloads/#daily) de ScummVM. Si vous rencontrez des problèmes au cours de votre quête, merci de les signaler sur notre [issue tracker](https://bugs.scummvm.org/).",
         "title": "Moins d'une centaine d'années de développement..."
+    },
+    "20050328": {
+        "content": "Nous sommes heureux de vous annoncer la sortie de ScummVM 0.7.1. Cette mise à jour se concentre sur la correction des bogues de la 0.7.0, en particulier dans le portage Windows Mobile (PocketPC / Smartphone). Pour plus d'informations, consultez les [notes de version](https://downloads.scummvm.org/frs/scummvm/0.7.1/ReleaseNotes).\n\nComme d'habitude, vous pouvez télécharger cette nouvelle version depuis notre [page de téléchargements](/downloads/).\n\nPar ailleurs, nous avons reçu encore plus de [paramètres de démarrage](http://wiki.scummvm.org/index.php/Boot_Params) de votre part, chers utilisateurs, au cours des deux dernières semaines. Un grand merci à ceux qui ont contribué !",
+        "title": "Sortie de ScummVM 0.7.1"
     }
 }
