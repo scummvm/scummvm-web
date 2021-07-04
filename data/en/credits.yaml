@@ -2159,6 +2159,10 @@
         name: "Travis Howell"
         alias: "Kirben"
         description: ""
+      -
+        name: "Lothar Serra Mari"
+        alias: "lotharsm"
+        description: ""
     -
       name: "Win64"
       person:
@@ -2170,6 +2174,10 @@
         name: "Johannes Schickel"
         alias: "LordHoto"
         description: "(retired)"
+      -
+        name: "Lothar Serra Mari"
+        alias: "lotharsm"
+        description: ""
   -
     title: "GUI Translations"
     anchor: "gui_translations"
