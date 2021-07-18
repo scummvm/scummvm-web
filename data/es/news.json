@@ -1386,5 +1386,9 @@
     "20210629": {
         "content": "Preparaos para una aventura que abarca más de 1 200 años y siete asombrosos mundos: la épica secuela de _The Journeyman Project_, _The Journeyman Project 2: Buried in Time_, ya es completamente compatible con ScummVM.\n\nTras varios años de desarrollo por parte de clone2727 y unos cuántos años más madurando en un cajón, por fin el juego está listo para el testeo público.\n\nNecesitamos vuestra ayuda con esta epopeya. Tomad vuestros discos (o la [versión digital de GOG.com](https://www.gog.com/game/journeyman_project_2?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)), copiad los [archivos necesarios](https://wiki.scummvm.org/index.php?title=The_Journeyman_Project_2:_Buried_in_Time) y volad como el viento. Necesitaréis la [última compilación diaria](https://www.scummvm.org/downloads/#daily) de ScummVM. Si os encontráis con cualquier percance durante vuestra aventura, informad de lo que surja en nuestro [gestor de problemas](https://bugs.scummvm.org/).",
         "title": "En menos de cien años de progreso..."
+    },
+    "20210718": {
+        "content": "El año pasado [añadimos el soporte](https://www.scummvm.org/news/20200521/) a los juegos de la saga Ultima, incluyendo a [Ultima 8](https://www.scummvm.org/news/20200524/). Tomando como base el motor de Ultima 8, Origin Systems también creó otros dos juegos con un estilo muy distinto: _Crusader: No Remorse_ y _Crusader: No Regret_.\n\nNos alegra anunciar que el primer título (Crusader: No Remorse) ya está listo para ser testeado en ScummVM.  Si tenéis una copia de este juego y estáis preparados para enfrentaros al Consorcio Económico Mundial, haceos con [la última compilación de desarrollo](https://www.scummvm.org/downloads/#daily) de ScummVM. Si veis cualquier problema, dejadnos un informe en el [gestor de problemas](https://bugs.scummvm.org/).",
+        "title": "Ante todo, permítame darle la bienvenida a la Resistencia, capitán."
     }
 }
