@@ -3384,6 +3384,22 @@
     datafiles: ''
     series_id: ultima
 -
+    id: remorse
+    name: 'Crusader: No Remorse'
+    engine_id: ultima
+    company_id: origin
+    moby_id: '851'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Crusader:_No_Remorse'
+    series_id: ''
+-
+    id: regret
+    name: 'Crusader: No Regret'
+    engine_id: ultima
+    company_id: origin
+    moby_id: '852'
+    datafiles: ''
+    series_id: ''
+-
     id: voyeur
     name: Voyeur
     engine_id: voyeur

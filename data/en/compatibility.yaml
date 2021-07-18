@@ -3866,10 +3866,10 @@
 -
     id: private-eye
     support: good
-    notes: '- Only English version is supported'
+    notes: '- All releases are supported except Japanese.'
     since_version: DEV
-    stable_platforms: win
-    unstable_platforms: mac
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
 -
     id: ags
     support: good
@@ -3891,3 +3891,10 @@
     since_version: DEV
     stable_platforms: win
     unstable_platforms: mac
+-
+    id: remorse
+    support: good
+    notes: 'Only DOS version is supported'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: psx
