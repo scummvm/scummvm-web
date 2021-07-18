@@ -1,0 +1,9 @@
+---
+title: "First, let me say welcome to the Resistance, Captain."
+author: mduggan
+date: 1626597642
+---
+
+Last year we [added support](https://www.scummvm.org/news/20200521/) for games from the Ultima series including [Ultima 8](https://www.scummvm.org/news/20200524/).  Starting from the Ultima 8 engine, Origin Systems also created two other games in a quite different style: _Crusader: No Remorse_ and _Crusader: No Regret_.
+
+We are happy to announce the first of these (Crusader: No Remorse) is now ready for testing in ScummVM.  If you have a copy of this game and are ready to take on the World Economic Consortium, grab the [latest daily build](https://www.scummvm.org/downloads/#daily) of ScummVM.  If you see any issues, please file them in the [issue tracker](https://bugs.scummvm.org/).
