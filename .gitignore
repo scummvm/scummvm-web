@@ -42,3 +42,8 @@ public_html/frs
 /include/OrmObjects/Base
 /include/OrmObjects/Map
 /propel.yaml-e
+
+# Legal information and privacy policy
+# Currently outside of the repository since changes should only be done by the contact person(s)
+/public_html/legal.html
+/public_html/privacy-policy.html
