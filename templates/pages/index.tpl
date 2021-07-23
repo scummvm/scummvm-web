@@ -41,8 +41,6 @@
     <link rel="stylesheet" href="/css/{$filename}">
     {/foreach}
 
-    {if isset($smarty.cookies.cookie_consent) && $smarty.cookies.cookie_consent == "true"}
-    {/if}
 </head>
 
 <body>
@@ -130,9 +128,6 @@
             }
         })
     </script>
-    {if !isset($smarty.cookies.cookie_consent)}
-    {include file='components/cookie.tpl'}
-    {/if}
 </body>
 
 </html>
