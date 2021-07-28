@@ -758,5 +758,9 @@
     "20050330": {
         "title": "Quelque chose de nouveau vient par ici...",
         "content": "Bien que cela ne fasse pas partie du programme officiel de ScummVM, certains membres de notre équipe ont travaillé sur une petite surprise de Pâques pour vous tous. Malheureusement, nous avons un peu de retard.\n\nAttendez-vous à quelque chose de très doux (surtout pour les gens de Linux et Mac) très bientôt..."
+    },
+    "20210718": {
+        "title": "Je suis le général Maxis. Bienvenue dans la Résistance, Capitaine.",
+        "content": "L'année dernière, nous avions [ajouté le support](https://www.scummvm.org/news/20200521/) des jeux de la série Ultima, dont [Ultima 8](https://www.scummvm.org/news/20200524/).  À partir du moteur d'Ultima 8, Origin Systems a également créé deux autres jeux dans un style assez différent : _Crusader: No Remorse_ et _Crusader: No Regret_.\n\nNous sommes heureux d'annoncer que le premier de ces jeux (Crusader: No Remorse) est maintenant prêt à être testé dans ScummVM.  Si vous avez une copie de ce jeu et êtes prêt à affronter le Consortium Economique Mondial, téléchargez la [dernière version quotidienne](https://www.scummvm.org/downloads/#daily) de ScummVM.  Si vous rencontrez des problèmes, merci de les signaler dans notre [traqueur de bogues](https://bugs.scummvm.org/)."
     }
 }
