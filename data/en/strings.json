@@ -50,7 +50,7 @@
   "downloadsContentTitle": "Download ScummVM",
   "downloadsHeader": "Navigation",
   "downloadsContentP1": "If you have one of the supported systems, you can directly download the appropriate binary distribution. If you have another system, download the source and read the [Compiling ScummVM](http://wiki.scummvm.org/index.php/Compiling_ScummVM) page on our Wiki for directions on how to build ScummVM. If you have successfully ported ScummVM to a platform not listed, please drop us a note, telling which OS, etc. you used.",
-  "downloadsContentP2": "The latest STABLE release of ScummVM is {release}, and can be downloaded below under '[Release Binaries](/downloads/#stable)'. If you run Windows and are confused, download the 'Windows Installer'.",
+  "downloadsContentP2": "The latest STABLE release of ScummVM is {release}, and can be downloaded below under '[Release Binaries](/downloads/#release)'. If you run Windows and are confused, download the 'Windows Installer'.",
   "downloadsContentP3": "For UNSTABLE experimental versions of ScummVM (for people who know what they are doing), please see the [Daily Builds](/downloads/#daily) section, near the end of this page.",
   "downloadsContentP4": "Also there is a separate [Game downloads page](/games/). These currently include the ten freeware games 'Beneath a Steel Sky', 'Broken Sword 2.5', 'Dreamweb', 'Flight of the Amazon Queen', 'Lure of the Temptress', 'Drascula: The Vampire Strikes Back', 'Soltys', 'Sfinx', 'The Griffon Legend', and 'Mystery House', along with cutscene packs recommended for use when playing some versions of the Broken Sword games or Feeble Files under ScummVM and subtitles for Blade Runner.",
   "downloadsBadge": "Recommended download for your system",
