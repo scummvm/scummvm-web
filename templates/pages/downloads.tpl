@@ -34,7 +34,7 @@
     {include file="components/recommended_download.tpl" recommendedDownload=$recommendedDownload}
 {/capture}
 
-{include file="components/box.tpl" head={#downloadsXMLTitle#} intro=$smarty.capture.intro id="release" content=$smarty.capture.release}
+{include file="components/box.tpl" head={#downloadsXMLTitle#} intro=$smarty.capture.intro id="downloads" content=$smarty.capture.release}
 
 {* sections *}
 {foreach from=$downloads item=section name=downloads_loop}
