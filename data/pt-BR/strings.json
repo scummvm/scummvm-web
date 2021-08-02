@@ -44,7 +44,7 @@
     "downloadsContentTitle": "Baixar ScummVM",
     "downloadsHeader": "Navegação",
     "downloadsContentP1": "Se você tiver um dos sistemas suportados, poderá fazer o download direto da distribuição binária apropriada. Se você tiver outro sistema, faça o download da fonte e leia a página [Compilando o ScummVM](http://wiki.scummvm.org/index.php/Compiling_ScummVM) em nosso Wiki para obter instruções sobre como compilar o ScummVM. Se você converteu o ScummVM para uma plataforma não listada, envie-nos uma nota informando o sistema operacional, etc. que você usou.",
-    "downloadsContentP2": "A última versão ESTÁVEL do ScummVM é {release} e pode ser baixada em '[Binários](/downloads/#stable)'. Se você executa o Windows e está confuso, baixe o 'Windows Installer'.",
+    "downloadsContentP2": "A versão ESTÁVEL mais recente do ScummVM é {release} e pode ser baixada em '[Binários](/downloads/#release)'. Se você utiliza o Windows e está confuso, baixe o 'Instalador para Windows'.",
     "downloadsContentP3": "Para versões experimentais INSTÁVEIS do ScummVM (para pessoas que sabem o que estão fazendo), consulte a seção [Compilações Diárias](/downloads/#daily), perto do final desta página.",
     "downloadsContentP4": "Também há uma [Página de download de jogos](/games/) separada. Atualmente, incluem os dez jogos freeware 'Beneath a Steel Sky', 'Broken Sword 2.5', 'Dreamweb', 'Flight of the Amazon Queen', 'Lure of the Temptress', 'Drascula: The Vampire Strikes Back', 'Soltys ',' Sfinx', 'The Griffon Legend' e 'Mystery House', juntamente com os pacotes de cenas recomendados para uso ao jogar algumas versões dos jogos Broken Sword ou Feeble Files no ScummVM e legendas para Blade Runner.",
     "downloadsBadge": "Download recomendado para o seu sistema",
