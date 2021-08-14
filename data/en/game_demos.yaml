@@ -780,11 +780,6 @@
     category: Non-Interactive
     url: /frs/demos/sci/islandbrain-dos-ni-demo-en.zip
 -
-    id: jewels
-    platform: win
-    category: ''
-    url: /frs/demos/director/jewels-demo.zip
--
     id: kq1sci
     platform: dos
     category: Non-Interactive
@@ -839,6 +834,11 @@
     platform: dos
     category: Non-Interactive
     url: /frs/demos/sci/laurabow2-dos-ni-demo-en.zip
+-
+    id: lba
+    platform: dos
+    category: Multilanguage
+    url: /frs/demos/twine/lba-demo-mult.zip
 -
     id: lbsampler
     platform: mac
@@ -1375,6 +1375,16 @@
     category: Non-Interactive
     url: /frs/demos/sci/rama-dos-win-ni-demo-en.zip
 -
+    id: regret
+    platform: dos
+    category: ''
+    url: /frs/demos/ultima/regret-dos-demo-en.zip
+-
+    id: remorse
+    platform: dos
+    category: ''
+    url: /frs/demos/ultima/remorse-dos-demo-en.zip
+-
     id: riven
     platform: win
     category: ''
@@ -1633,7 +1643,7 @@
     id: sword2
     platform: win
     category: Spanish
-    url: /frs/demos/sword2/sword2-win-demo-en.zip
+    url: /frs/demos/sword2/sword2-win-demo-es.zip
 -
     id: sword2
     platform: psx

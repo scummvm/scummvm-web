@@ -40,6 +40,10 @@
     id: c64
     moby_id: '27'
 -
+    name: Dreamcast
+    id: dc
+    moby_id: '8'
+-
     name: DOS
     id: dos
     moby_id: '2'
@@ -58,6 +62,10 @@
 -
     name: Macintosh
     id: mac
+    moby_id: '74'
+-
+    name: 'Macintosh II'
+    id: macintosh2
     moby_id: '74'
 -
     name: macOS
@@ -87,6 +95,10 @@
     name: 'Philips CD-i'
     id: cdi
     moby_id: '73'
+-
+    name: Pippin
+    id: pippin
+    moby_id: '112'
 -
     name: Playstation
     id: psx
@@ -131,7 +143,3 @@
     name: Xbox
     id: xbox
     moby_id: '13'
--
-    name: Dreamcast
-    id: dc
-    moby_id: '8'
