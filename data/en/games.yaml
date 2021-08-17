@@ -600,6 +600,14 @@
     datafiles: ''
     series_id: ''
 -
+    id: lzone
+    name: L-ZONE
+    engine_id: director
+    company_id: synergy
+    moby_id: '2302'
+    datafiles: ''
+    series_id: ''
+-
     id: warlock
     name: 'Spaceship Warlock'
     engine_id: director

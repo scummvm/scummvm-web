@@ -3873,28 +3873,42 @@
 -
     id: ags
     support: good
-    notes: 'Only AGS games 2.5 and after are supported'
+    notes: '- Only AGS games 2.5 and after are supported'
     since_version: DEV
     stable_platforms: 'win,linux,mac,android,ios'
     unstable_platforms: ''
 -
     id: nl
     support: excellent
-    notes: 'Only PC version is supported'
+    notes: '- Only PC version is supported'
     since_version: DEV
     stable_platforms: win
     unstable_platforms: amiga
 -
     id: buried
     support: excellent
-    notes: 'Only Windows version is supported'
+    notes: '- Only Windows version is supported'
     since_version: DEV
     stable_platforms: win
     unstable_platforms: mac
 -
     id: remorse
     support: good
-    notes: 'Only DOS version is supported'
+    notes: '- Only DOS version is supported'
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: psx
+-
+    id: lzone
+    support: good
+    notes: '- Only Windows and Mac versions are supported'
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: 'macintosh2,fmtowns,pippin'
+-
+    id: warlock
+    support: good
+    notes: '- Japanese version is not yet supported'
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''

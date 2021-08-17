@@ -24,7 +24,7 @@
     id: apple2gs
     moby_id: '51'
 -
-    name: 'Acorn 32-bit'
+    name: 'Atari 8-bit'
     id: atari8bit
     moby_id: '117'
 -
@@ -100,7 +100,7 @@
     id: pippin
     moby_id: '112'
 -
-    name: Playstation
+    name: PlayStation
     id: psx
     moby_id: '6'
 -
@@ -136,7 +136,7 @@
     id: amigacd32
     moby_id: '56'
 -
-    name: 'Playstation 2'
+    name: 'PlayStation 2'
     id: ps2
     moby_id: '7'
 -
