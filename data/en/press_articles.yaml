@@ -1,4 +1,8 @@
 # Press articles and other media featuring the project
+- url: "https://arstechnica.com/gaming/2021/08/scummvm-now-supports-macromedia-director-for-early-cd-rom-games/"
+  name: "It’s now possible to play early ’90s CD-ROM games via ScummVM"
+  source: "Ars Technica"
+  date: "17 August 2021"
 - url: "https://levvvel.com/scummvm/"
   name: "ScummVM is a Magic Box That Runs Classic Adventures"
   source: "Levvvel"
