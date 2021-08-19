@@ -1,12 +1,14 @@
-import { h, Component, ComponentChild } from 'preact';
+import { Component, ComponentChild } from 'preact';
 import { Volume } from './hfs/main';
 import { decodeMacRoman } from './util';
 
-export interface State {
+export type Props = {}
+
+export type State = {
     logs: ComponentChild[];
 }
 
-export default class DumperCompanionApp extends Component<any, State> {
+export default class DumperCompanionApp extends Component<Props, State> {
     constructor() {
         super();
         this.state = {
@@ -14,11 +16,11 @@ export default class DumperCompanionApp extends Component<any, State> {
         };
     }
 
-    componentDidMount() {
+    componentDidMount(): void {
         this.log('Waiting for input...');
     }
 
-    render() {
+    render(): ComponentChild {
         return <div class="io">
             <div class="in box">
                 <h1>Input</h1>
@@ -32,7 +34,7 @@ export default class DumperCompanionApp extends Component<any, State> {
         </div>;
     }
 
-    log(msg: ComponentChild | Error) {
+    log(msg: ComponentChild | Error): void {
         console.log(msg);
         if (msg instanceof Error) {
             msg = msg.toString();
@@ -40,8 +42,8 @@ export default class DumperCompanionApp extends Component<any, State> {
         this.setState(({ logs }) => ({ logs: [...logs, <li>{msg}</li>] }));
     }
 
-    handleFile(e) {
-        const file = e.target.files[0];
+    handleFile(e: InputEvent): void {
+        const file = (e.target as HTMLInputElement).files[0];
         const volumeName = file.name.replace(/\.\w+$/, '');
         const reader = new FileReader();
         reader.addEventListener('load', () => {
@@ -65,8 +67,8 @@ export default class DumperCompanionApp extends Component<any, State> {
         return volume;
     }
 
-    writeVolume(volumeName: string, volume: Volume) {
-        this.log('ISO contents:')
+    writeVolume(volumeName: string, volume: Volume): void {
+        this.log('ISO contents:');
         // this.log('Writing ZIP file');
         for (const [path, obj] of volume.iter_paths()) {
             this.log(path.map(part => decodeMacRoman(part)).join(':'));

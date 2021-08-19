@@ -50,7 +50,7 @@ export class AbstractFolder {
     setItem(key: Uint8Array, value: FileOrFolder): void {
         // We need to convert the raw name bytes into a string so it can be used as an object key.
         // This string is not proper UTF-16, so it shouldn't be used anywhere but internally!
-        let keyString = bytesToString(key);
+        const keyString = bytesToString(key);
         this._namedict[keyString] = key;
         this._maindict[keyString] = value;
     }
@@ -59,8 +59,8 @@ export class AbstractFolder {
         return this._maindict[bytesToString(key)];
     }
 
-    removeItem(key: Uint8Array) {
-        let keyString = bytesToString(key);
+    removeItem(key: Uint8Array): void {
+        const keyString = bytesToString(key);
         delete this._namedict[keyString];
         delete this._maindict[keyString];
     }
@@ -70,7 +70,7 @@ export class AbstractFolder {
     }
 
     iter_paths(): [name: Uint8Array[], child: FileOrFolder][]  {
-        let res: [name: Uint8Array[], child: FileOrFolder][] = [];
+        const res: [name: Uint8Array[], child: FileOrFolder][] = [];
         for (const [name, child] of this.items()) {
             res.push([[name], child]);
             if (child instanceof AbstractFolder) {

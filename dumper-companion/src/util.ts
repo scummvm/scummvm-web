@@ -9,7 +9,7 @@ export function bytes(str: string | number[]): Uint8Array {
         : encoder.encode(str);
 }
 
-export function add(numbers: number[]) {
+export function add(numbers: number[]): number {
     return numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 }
 

@@ -29,6 +29,6 @@
 
 export function pad_up(size: number, factor: number): number {
     /* Pad size up to a multiple of a factor */
-    let x = size + factor - 1;
+    const x = size + factor - 1;
     return x - (x % factor);
 }

@@ -36,7 +36,7 @@ import struct from '../struct';
 
 function _get_every_extent(nblocks: number, firstrecord: Uint8Array, cnid: number, xoflow: {[key: string]: Uint8Array}, fork: string): [number, number][] {
     let accum = 0;
-    let extlist = [];
+    const extlist = [];
 
     for (const [a, b] of btree.unpack_extent_record(firstrecord)) {
         if (!b) continue;
@@ -45,7 +45,7 @@ function _get_every_extent(nblocks: number, firstrecord: Uint8Array, cnid: numbe
     }
 
     while (accum < nblocks) {
-        let nextrecord = xoflow[cnid + ',' + fork + ',' + accum];
+        const nextrecord = xoflow[cnid + ',' + fork + ',' + accum];
         for (const [a, b] of btree.unpack_extent_record(nextrecord)) {
             if (!b) continue;
             accum += b;
@@ -53,7 +53,7 @@ function _get_every_extent(nblocks: number, firstrecord: Uint8Array, cnid: numbe
         }
     }
 
-    return extlist
+    return extlist;
 }
 
 
@@ -70,8 +70,8 @@ export class Volume extends AbstractFolder {
         this.name = 'Untitled';
     }
 
-    read(from_volume: Uint8Array) {
-        let found_magic: boolean = false;
+    read(from_volume: Uint8Array): void {
+        let found_magic = false;
         for (let i = 0; i < from_volume.length; i += 512) {
             if (from_volume[i+1024] == charCode('B') && from_volume[i+1024+1] == charCode('D')) {
                 found_magic = true;
@@ -83,7 +83,7 @@ export class Volume extends AbstractFolder {
             throw new Error('Magic number not found in image');
         }
 
-        let [drSigWord, drCrDate, drLsMod, drAtrb, drNmFls,
+        const [drSigWord, drCrDate, drLsMod, drAtrb, drNmFls,
             drVBMSt, drAllocPtr, drNmAlBlks, drAlBlkSiz, drClpSiz, drAlBlSt,
             drNxtCNID, drFreeBks, drVN, drVolBkUp, drVSeqNum,
             drWrCnt, drXTClpSiz, drCTClpSiz, drNmRtDirs, drFilCnt, drDirCnt,
@@ -105,20 +105,17 @@ export class Volume extends AbstractFolder {
                 )
             )
         );
-        const getfork = (size: number, extrec1: Uint8Array, cnid: number, fork: string) => {
-            let extents = getextents(
-                _get_every_extent(
-                    Math.floor((size+drAlBlkSiz-1)/drAlBlkSiz),
-                    extrec1, cnid, extoflow, fork
-                )
-            );
-            return extents.subarray(0, size);
-        };
+        const getfork = (size: number, extrec1: Uint8Array, cnid: number, fork: string) => getextents(
+            _get_every_extent(
+                Math.floor((size+drAlBlkSiz-1)/drAlBlkSiz),
+                extrec1, cnid, extoflow, fork
+            )
+        ).subarray(0, size);
 
-        let extoflow: {[key: string]: Uint8Array} = {};
+        const extoflow: {[key: string]: Uint8Array} = {};
         for (const rec of btree.dump_btree(getfork(drXTFlSize, drXTExtRec, 3, 'data'))) {
             if (rec[0] != 7) continue;
-            let [xkrFkType, xkrFNum, xkrFABN, extrec] = struct('>xBLH12s').unpack_from(rec);
+            const [xkrFkType, xkrFNum, xkrFABN, extrec] = struct('>xBLH12s').unpack_from(rec);
             let fork: string;
             if (xkrFkType == 0xFF)
                 fork = 'rsrc';
@@ -127,38 +124,28 @@ export class Volume extends AbstractFolder {
             extoflow[xkrFNum + ',' + fork + ',' + xkrFABN] = extrec;
         }
 
-        let cnids: {[id: number]: FileOrFolder} = {};
-        let childlist: [number, Uint8Array, FileOrFolder][] = []; // list of [parent_cnid, child_name, child_object] tuples
+        const cnids: {[id: number]: FileOrFolder} = {};
+        const childlist: [number, Uint8Array, FileOrFolder][] = []; // list of [parent_cnid, child_name, child_object] tuples
 
-        let prev_key: Uint8Array = null;
         for (const rec of btree.dump_btree(getfork(drCTFlSize, drCTExtRec, 4, 'data'))) {
             // create a directory tree from the catalog file
-            let rec_len = rec[0]
+            const rec_len = rec[0];
             if (rec_len == 0) continue;
 
-            let key = rec.subarray(2, 1+rec_len);
-            let val = rec.subarray(bitmanip.pad_up(1+rec_len, 2));
+            const key = rec.subarray(2, 1+rec_len);
+            const val = rec.subarray(bitmanip.pad_up(1+rec_len, 2));
 
-            // if prev_key: # Uncomment this to test the sort order with 20% performance cost!
-            //     if _catalog_rec_sort((prev_key,)) >= _catalog_rec_sort((key,)):
-            //         raise ValueError('Sort error: %r, %r' % (prev_key, key))
-            // prev_key = key
+            const [ckrParID, namelen] = struct('>LB').unpack_from(key);
+            const ckrCName = key.subarray(5, 5+namelen);
 
-            let [ckrParID, namelen] = struct('>LB').unpack_from(key);
-            let ckrCName = key.subarray(5, 5+namelen);
-
-            let datatype = [null, 'dir', 'file', 'dthread', 'fthread'][val[0]];
-            let datarec = val.subarray(2);
-
-            // print(datatype + '\t' + repr(key))
-            // print('\t', datarec)
-            // print()
+            const datatype = [null, 'dir', 'file', 'dthread', 'fthread'][val[0]];
+            const datarec = val.subarray(2);
 
             if (datatype == 'dir') {
-                let [dirFlags, dirVal, dirDirID, dirCrDat, dirMdDat, dirBkDat, dirUsrInfo, dirFndrInfo]
+                const [dirFlags, dirVal, dirDirID, dirCrDat, dirMdDat, dirBkDat, dirUsrInfo, dirFndrInfo]
                 = struct('>HHLLLL16s16s').unpack_from(datarec);
 
-                let f = new MacFolder();
+                const f = new MacFolder();
                 cnids[dirDirID] = f;
                 childlist.push([ckrParID, ckrCName, f]);
 
@@ -166,7 +153,7 @@ export class Volume extends AbstractFolder {
                 f.mddate = dirMdDat;
                 f.bkdate = dirBkDat;
             } else if (datatype == 'file') {
-                let [filFlags, filTyp, filUsrWds, filFlNum,
+                const [filFlags, filTyp, filUsrWds, filFlNum,
                     filStBlk, filLgLen, filPyLen,
                     filRStBlk, filRLgLen, filRPyLen,
                     filCrDat, filMdDat, filBkDat,
@@ -174,28 +161,23 @@ export class Volume extends AbstractFolder {
                     filExtRec, filRExtRec]
                 = struct('>BB16sLHLLHLLLLL16sH12s12sxxxx').unpack_from(datarec);
 
-                let f = new MacFile();
+                const f = new MacFile();
                 cnids[filFlNum] = f;
                 childlist.push([ckrParID, ckrCName, f]);
 
                 f.crdate = filCrDat;
                 f.mddate = filMdDat;
-                f.bkdate = filBkDat;f
+                f.bkdate = filBkDat;
                 [f.type, f.creator, f.flags, f.x, f.y] = struct('>4s4sHHH').unpack_from(filUsrWds);
 
                 f.data = getfork(filLgLen, filExtRec, filFlNum, 'data');
                 f.rsrc = getfork(filRLgLen, filRExtRec, filFlNum, 'rsrc');
             }
-
-            // elif datatype == 3:
-            //     print('dir thread:', rec)
-            // elif datatype == 4:
-            //     print('fil thread:', rec)
         }
 
         for (const [parent_cnid, child_name, child_obj] of childlist) {
             if (parent_cnid != 1) {
-                let parent_obj = cnids[parent_cnid];
+                const parent_obj = cnids[parent_cnid];
                 if (!(parent_obj instanceof AbstractFolder)) {
                     throw new Error('Parent is not a folder');
                 }
