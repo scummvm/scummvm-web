@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "lib": ["dom", "esnext"],
+    "target": "es2015",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "jsxFactory": "h"
+  }
+}
