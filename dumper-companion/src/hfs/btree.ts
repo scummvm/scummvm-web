@@ -77,7 +77,7 @@ export function dump_btree(buf: Uint8Array): Uint8Array[] {
             res.push(record);
         }
 
-        if (this_leaf == bthLNode)
+        if (this_leaf === bthLNode)
             break;
         this_leaf = ndFLink;
     }

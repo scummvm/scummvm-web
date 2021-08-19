@@ -73,7 +73,7 @@ export class Volume extends AbstractFolder {
     read(from_volume: Uint8Array): void {
         let found_magic = false;
         for (let i = 0; i < from_volume.length; i += 512) {
-            if (from_volume[i+1024] == charCode('B') && from_volume[i+1024+1] == charCode('D')) {
+            if (from_volume[i+1024] === charCode('B') && from_volume[i+1024+1] === charCode('D')) {
                 found_magic = true;
                 if (i) from_volume = from_volume.subarray(i);
                 break;
@@ -117,9 +117,9 @@ export class Volume extends AbstractFolder {
             if (rec[0] != 7) continue;
             const [xkrFkType, xkrFNum, xkrFABN, extrec] = struct('>xBLH12s').unpack_from(rec);
             let fork: string;
-            if (xkrFkType == 0xFF)
+            if (xkrFkType === 0xFF)
                 fork = 'rsrc';
-            else if (xkrFkType == 0)
+            else if (xkrFkType === 0)
                 fork = 'data';
             extoflow[xkrFNum + ',' + fork + ',' + xkrFABN] = extrec;
         }
@@ -130,7 +130,7 @@ export class Volume extends AbstractFolder {
         for (const rec of btree.dump_btree(getfork(drCTFlSize, drCTExtRec, 4, 'data'))) {
             // create a directory tree from the catalog file
             const rec_len = rec[0];
-            if (rec_len == 0) continue;
+            if (rec_len === 0) continue;
 
             const key = rec.subarray(2, 1+rec_len);
             const val = rec.subarray(bitmanip.pad_up(1+rec_len, 2));
@@ -141,7 +141,7 @@ export class Volume extends AbstractFolder {
             const datatype = [null, 'dir', 'file', 'dthread', 'fthread'][val[0]];
             const datarec = val.subarray(2);
 
-            if (datatype == 'dir') {
+            if (datatype === 'dir') {
                 const [dirFlags, dirVal, dirDirID, dirCrDat, dirMdDat, dirBkDat, dirUsrInfo, dirFndrInfo]
                 = struct('>HHLLLL16s16s').unpack_from(datarec);
 
@@ -152,7 +152,7 @@ export class Volume extends AbstractFolder {
                 f.crdate = dirCrDat;
                 f.mddate = dirMdDat;
                 f.bkdate = dirBkDat;
-            } else if (datatype == 'file') {
+            } else if (datatype === 'file') {
                 const [filFlags, filTyp, filUsrWds, filFlNum,
                     filStBlk, filLgLen, filPyLen,
                     filRStBlk, filRLgLen, filRPyLen,
