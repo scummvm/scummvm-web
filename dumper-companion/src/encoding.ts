@@ -1,5 +1,5 @@
 import * as punycode from 'punycode/';
-import { byteToHex } from "./util";
+import { codePoint, byteToHex } from "./util";
 
 
 export enum Language {
@@ -43,8 +43,23 @@ export function decodeLanguage(str: Uint8Array, lang: Language): string {
 }
 
 
+function escapeString(str: string): string {
+    let res = '';
+    for (const ch of str) {
+        if (ch == '\x81')
+            res += '\x81\x79';
+        else if ('/":*[]+|\\?%<>,;='.includes(ch) || codePoint(ch) < 0x20) {
+            res += '\x81' + String.fromCodePoint(0x80 + codePoint(ch));
+        } else {
+            res += ch;
+        }
+    }
+    return res;
+}
+
+
 export function punycodeFileName(str: Uint8Array, lang: Language): string {
-    const unicodeStr = decodeLanguage(str, lang);
+    const unicodeStr = escapeString(decodeLanguage(str, lang));
     const punycodeStr = punycode.encode(unicodeStr);
     if (unicodeStr === punycodeStr.slice(0, -1)) {
         // There are no special characters.

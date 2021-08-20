@@ -2,6 +2,10 @@ export function charCode(charStr: string): number {
     return charStr.charCodeAt(0);
 }
 
+export function codePoint(charStr: string): number {
+    return charStr.codePointAt(0);
+}
+
 export function byteToHex(byte: number): string {
     const res = byte.toString(16);
     return (res.length === 1) ? '0' + res : res;
