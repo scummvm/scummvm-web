@@ -27,7 +27,11 @@
  */
 
 
-import { bytes, bytesToString } from '../util';
+import * as JSZip from 'jszip';
+import { computeCRC } from '../crc';
+import { Language, punycodeFileName } from '../encoding';
+import struct from '../struct';
+import { bytes, bytesToString, joinBytes } from '../util';
 
 
 export type FileOrFolder = MacFile | AbstractFolder;
@@ -80,6 +84,17 @@ export class AbstractFolder {
             }
         }
         return res;
+    }
+
+    dumpToZip(zip: JSZip, lang: Language): void {
+        for (const [name, child] of this.items()) {
+            const punycodedName = punycodeFileName(name, lang);
+            if (child instanceof AbstractFolder) {
+                child.dumpToZip(zip.folder(punycodedName), lang);
+            } else {
+                zip.file(punycodedName, child.toMacBinary(name));
+            }
+        }
     }
 }
 
@@ -136,5 +151,52 @@ export class MacFile {
 
         this.rsrc = new Uint8Array();
         this.data = new Uint8Array();
+    }
+
+    toMacBinary(name: Uint8Array): Uint8Array {
+        const res: Uint8Array[] = [];
+
+        const oldFlags = this.flags >> 8;
+        const newFlags = this.flags & 8;
+        const header = struct(">xB63s4s4sBxHHHBxIIIIHB14xIHBB").pack(
+            name.length,
+            name,
+            this.type,
+            this.creator,
+            oldFlags,
+            0,
+            0,
+            0,
+            this.locked,
+            this.data.length,
+            this.rsrc.length,
+            this.crdate, // TODO: dates are wrong, investigate
+            this.mddate, // TODO: dates are wrong, investigate
+            0,
+            newFlags,
+            0,
+            0,
+            129,
+            129
+        );
+        res.push(header);
+
+        res.push(struct(">H2x").pack(computeCRC(header)));
+
+        if (this.data) {
+            res.push(this.data);
+            if (this.data.length % 128) {
+                res.push(new Uint8Array(128 - this.data.length % 128));
+            }
+        }
+
+        if (this.rsrc) {
+            res.push(this.rsrc);
+            if (this.rsrc.length % 128) {
+                res.push(new Uint8Array(128 - this.rsrc.length % 128));
+            }
+        }
+
+        return joinBytes(res);
     }
 }

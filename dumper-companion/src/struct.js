@@ -31,8 +31,7 @@
 const rechk = /^([<>])?(([1-9]\d*)?([xcbB?hHiIlLfdsp]))*$/
 const refmt = /([1-9]\d*)?([xcbB?hHiIlLfdsp])/g
 const str = (v,o,c) => new Uint8Array(v.buffer, v.byteOffset + o, c)
-const rts = (v,o,c,s) => new Uint8Array(v.buffer, v.byteOffset + o, c)
-    .set(s.split('').map(str => str.charCodeAt(0)))
+const rts = (v,o,c,s) => new Uint8Array(v.buffer, v.byteOffset + o, c).set(s)
 const pst = (v,o,c) => str(v, o + 1, Math.min(v.getUint8(o), c - 1))
 const tsp = (v,o,c,s) => { v.setUint8(o, s.length); rts(v, o + 1, c - 1, s) }
 const lut = le => ({
@@ -76,7 +75,7 @@ export default function struct(format) {
     const pack = (...values) => {
         let b = new ArrayBuffer(size)
         pack_into(b, 0, ...values)
-        return b
+        return new Uint8Array(b)
     }
     const unpack = arr => unpack_from(arr, 0)
     function* iter_unpack(arrb) { 

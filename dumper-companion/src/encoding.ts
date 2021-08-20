@@ -1,3 +1,4 @@
+import * as punycode from 'punycode/';
 import { byteToHex } from "./util";
 
 
@@ -22,7 +23,7 @@ export function getLanguages(): string[] {
 }
 
 
-export function decodeLanguage(lang: Language, str: Uint8Array): string {
+export function decodeLanguage(str: Uint8Array, lang: Language): string {
     switch (lang) {
     case Language.DA:
     case Language.NL:
@@ -39,6 +40,18 @@ export function decodeLanguage(lang: Language, str: Uint8Array): string {
     case Language.JP:
         return decodeMacJapanese(str);
     }
+}
+
+
+export function punycodeFileName(str: Uint8Array, lang: Language): string {
+    const unicodeStr = decodeLanguage(str, lang);
+    const punycodeStr = punycode.encode(unicodeStr);
+    if (unicodeStr === punycodeStr.slice(0, -1)) {
+        // There are no special characters.
+        // The punycoder just added a '-' to the end.
+        return unicodeStr;
+    }
+    return 'xn--' + punycodeStr;
 }
 
 
