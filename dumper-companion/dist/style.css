@@ -10,7 +10,8 @@ h1 {
     margin: 0;
 }
 
-p {
+p, button {
+    display: block;
     margin-top: 0.75em;
     margin-bottom: 0;
 }
