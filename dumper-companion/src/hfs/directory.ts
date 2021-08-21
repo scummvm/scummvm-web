@@ -91,7 +91,7 @@ export class AbstractFolder {
             if (child instanceof AbstractFolder) {
                 child.dumpToZip(zipDir.addDirectory(encodedName), lang, puny);
             } else {
-                zipDir.addUint8Array(encodedName, child.toMacBinary(name));
+                zipDir.addUint8Array(encodedName, child.toBinary(name));
             }
         }
     }
@@ -152,6 +152,13 @@ export class MacFile {
         this.data = new Uint8Array();
     }
 
+    toBinary(name: Uint8Array): Uint8Array {
+        if (this.rsrc.length) {
+            return this.toMacBinary(name);
+        }
+        return this.data;
+    }
+
     toMacBinary(name: Uint8Array): Uint8Array {
         const res: Uint8Array[] = [];
 
@@ -182,14 +189,14 @@ export class MacFile {
 
         res.push(struct(">H2x").pack(computeCRC(header)));
 
-        if (this.data) {
+        if (this.data.length) {
             res.push(this.data);
             if (this.data.length % 128) {
                 res.push(new Uint8Array(128 - this.data.length % 128));
             }
         }
 
-        if (this.rsrc) {
+        if (this.rsrc.length) {
             res.push(this.rsrc);
             if (this.rsrc.length % 128) {
                 res.push(new Uint8Array(128 - this.rsrc.length % 128));
