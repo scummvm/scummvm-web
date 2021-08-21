@@ -70,17 +70,27 @@ export class Volume extends AbstractFolder {
         this.name = 'Untitled';
     }
 
-    read(from_volume: Uint8Array): void {
-        let found_magic = false;
-        for (let i = 0; i < from_volume.length; i += 512) {
-            if (from_volume[i+1024] === charCode('B') && from_volume[i+1024+1] === charCode('D')) {
-                found_magic = true;
-                if (i) from_volume = from_volume.subarray(i);
-                break;
+    findMagicNumber(from_volume: Uint8Array): number {
+        // Image data starts at 0x54 in DiskCopy 4.2 format https://wiki.68kmla.org/DiskCopy_4.2_format_specification
+
+        for (const startOffset of [0x0, 0x54]) {
+            for (let i = startOffset; i < from_volume.length; i += 512) {
+                if (from_volume[i+1024] === charCode('B') && from_volume[i+1024+1] === charCode('D')) {
+                    return i;
+                }
             }
         }
-        if (!found_magic) {
+    
+        return -1;
+    }
+
+    read(from_volume: Uint8Array): void {
+        const magicOffset = this.findMagicNumber(from_volume);
+        if (magicOffset < 0) {
             throw new Error('Magic number not found in image');
+        }
+        if (magicOffset > 0) {
+            from_volume = from_volume.subarray(magicOffset);
         }
 
         const [drSigWord, drCrDate, drLsMod, drAtrb, drNmFls,
