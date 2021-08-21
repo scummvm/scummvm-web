@@ -35,7 +35,7 @@ export default class DumperCompanionApp extends Component<Props, State> {
                 <h2>Input</h2>
 
                 <p>Select the game's ISO file:</p>
-                <input disabled={this.state.busy} class="file" type="file" onInput={this.handleISO.bind(this)}/>
+                <input disabled={this.state.busy} class="file" type="file" accept=".iso" onInput={this.handleISO.bind(this)}/>
 
                 <p>Select the game's language:</p>
                 <select disabled={this.state.busy} value={this.state.lang as string} onInput={this.handleLanguage.bind(this)}>
