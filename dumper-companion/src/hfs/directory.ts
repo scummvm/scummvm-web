@@ -27,7 +27,6 @@
  */
 
 
-import * as JSZip from 'jszip';
 import { computeCRC } from '../crc';
 import { Language, punycodeFileName } from '../encoding';
 import struct from '../struct';
@@ -86,13 +85,13 @@ export class AbstractFolder {
         return res;
     }
 
-    dumpToZip(zip: JSZip, lang: Language): void {
+    dumpToZip(zipDir: any, lang: Language): void {
         for (const [name, child] of this.items()) {
             const punycodedName = punycodeFileName(name, lang);
             if (child instanceof AbstractFolder) {
-                child.dumpToZip(zip.folder(punycodedName), lang);
+                child.dumpToZip(zipDir.addDirectory(punycodedName), lang);
             } else {
-                zip.file(punycodedName, child.toMacBinary(name));
+                zipDir.addUint8Array(punycodedName, child.toMacBinary(name));
             }
         }
     }

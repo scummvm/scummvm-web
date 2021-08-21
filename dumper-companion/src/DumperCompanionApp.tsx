@@ -1,7 +1,7 @@
 import { Component, ComponentChild } from 'preact';
+import { fs } from '@zip.js/zip.js/lib/zip-fs.js';
 import { Volume } from './hfs/main';
 import { Language, getLanguages } from './encoding';
-import * as JSZip from 'jszip';
 
 export type Props = {}
 
@@ -103,37 +103,27 @@ export default class DumperCompanionApp extends Component<Props, State> {
     }
 
     dumpVolume(volume: Volume): void {
-        this.log('Dumping volume...', () => {
+        this.log('Dumping volume... 0%', async () => {
             try {
-                const zip = new JSZip();
-                volume.dumpToZip(zip, this.state.lang);
-                this.serializeZip(zip);
-            } catch (err) {
-                this.log(err);
-                this.setState(() => ({ busy: false }));
-            }
-        });
-    }
-
-    serializeZip(zip: JSZip): void {
-        this.log('Generating ZIP... 0%', () => {
-            console.log('a');
-            zip.generateAsync(
-                {type: 'uint8array'},
-                ({ percent }) => {
-                    this.replaceLastLog(`Generating ZIP... ${Math.floor(percent)}%`);
-                }
-            )
-            .then((buf: Uint8Array) => {
-                console.log('b');
-                const volumeURL = URL.createObjectURL(new Blob([buf], {type: 'application/zip'}));
+                const zipFS = new fs.FS();
+                volume.dumpToZip(zipFS.root, this.state.lang);
+                const blob = await zipFS.exportBlob({
+                    level: 0,
+                    onprogress: (index, max) => {
+                        const percent = Math.floor(index / max * 100);
+                        this.replaceLastLog(`Dumping volume... ${percent}%`);
+                    }
+                });
+                const volumeURL = URL.createObjectURL(blob);
                 this.log(
                     <span>
                         Success! <a href={volumeURL} download={this.state.isoName + '.zip'}>Click here to download your dumped volume.</a>
                     </span>
                 );
-                this.setState(() => ({ busy: false }));
-            });
+            } catch (err) {
+                this.log(err);
+            }
+            this.setState(() => ({ busy: false }));
         });
     }
 }

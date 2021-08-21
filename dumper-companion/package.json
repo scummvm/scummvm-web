@@ -18,7 +18,7 @@
     "webpack-cli": "^4.5.0"
   },
   "dependencies": {
-    "jszip": "^3.7.1",
+    "@zip.js/zip.js": "^2.3.8",
     "preact": "^10.4.8",
     "punycode": "^2.1.1"
   }
