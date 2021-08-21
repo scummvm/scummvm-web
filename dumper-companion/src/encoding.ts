@@ -46,9 +46,12 @@ export function decodeLanguage(str: Uint8Array, lang: Language): string {
 function escapeString(str: string): string {
     let res = '';
     for (const ch of str) {
-        if (ch == '\x81')
+        if (ch == '\x81') {
+            // Escape the escape character
             res += '\x81\x79';
-        else if ('/":*[]+|\\?%<>,;='.includes(ch) || codePoint(ch) < 0x20) {
+        } else if ('<>:"/\\|?*'.includes(ch) || codePoint(ch) < 0x20) {
+            // Escape characters forbidden on Windows
+            // https://docs.microsoft.com/en-us/windows/win32/fileio/naming-a-file#naming-conventions
             res += '\x81' + String.fromCodePoint(0x80 + codePoint(ch));
         } else {
             res += ch;
@@ -57,17 +60,31 @@ function escapeString(str: string): string {
     return res;
 }
 
+function needsPunycode(str: string) {
+    // Windows file names cannot end with space or period
+    if (str.endsWith(' ') || str.endsWith('.'))
+        return true;
+
+    if (str !== escapeString(str))
+        return true;
+
+    return false;
+}
+
 
 export function encodeFileName(str: Uint8Array, lang: Language, puny: boolean): string {
     const unicodeStr = decodeLanguage(str, lang);
-    const escapedStr = escapeString(unicodeStr);
-    if (unicodeStr !== escapedStr || puny) {
+    
+    const forcePunycode = needsPunycode(unicodeStr);
+    if (puny || forcePunycode) {
+        const escapedStr = escapeString(unicodeStr);
         const punycodeStr = punycode.encode(escapedStr);
         // If there are no special characters, the punycoder just adds a '-' to the end.
-        if (escapedStr !== punycodeStr.slice(0, -1)) {
+        if (forcePunycode || escapedStr !== punycodeStr.slice(0, -1)) {
             return 'xn--' + punycodeStr;
         }
     }
+
     return unicodeStr;
 }
 
