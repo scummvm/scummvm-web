@@ -32,7 +32,7 @@ export default class DumperCompanionApp extends Component<Props, State> {
     render(): ComponentChild {
         return <div class="io">
             <div class="in box">
-                <h1>Input</h1>
+                <h2>Input</h2>
 
                 <p>Select the game's ISO file:</p>
                 <input disabled={this.state.busy} class="file" type="file" onInput={this.handleISO.bind(this)}/>
@@ -45,7 +45,7 @@ export default class DumperCompanionApp extends Component<Props, State> {
                 <button disabled={this.state.busy || this.state.iso == null} onClick={this.handleDump.bind(this)}>Dump!</button>
             </div>
             <div class="out box">
-                <h1>Output</h1>
+                <h2>Output</h2>
                 <ul class="log">{this.state.logs}</ul>
             </div>
         </div>;
@@ -115,11 +115,10 @@ export default class DumperCompanionApp extends Component<Props, State> {
                     }
                 });
                 const volumeURL = URL.createObjectURL(blob);
-                this.log(
-                    <span>
-                        Success! <a href={volumeURL} download={this.state.isoName + '.zip'}>Click here to download your dumped volume.</a>
-                    </span>
-                );
+                this.log('Success! Next steps:');
+                this.log(<span>1. <a href={volumeURL} download={this.state.isoName + '.zip'}>Click here to download your game data.</a></span>);
+                this.log('2. Unzip the game data.');
+                this.log('3. Add the directory to ScummVM.');
             } catch (err) {
                 this.log(err);
             }
