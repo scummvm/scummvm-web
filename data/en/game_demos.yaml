@@ -1,5 +1,15 @@
 # This is a generated file, please do not edit manually
 -
+    id: amazon
+    platform: dos
+    category: ''
+    url: /frs/demos/access/amazon-dos-ni-demo-en.zip
+-
+    id: martian
+    platform: dos
+    category: ''
+    url: /frs/demos/access/martian-demo.zip
+-
     id: agidemo
     platform: dos
     category: '3-D Helicopter Sim, Police Quest, Thexder, Space Quest 2, Mixed-up Mother Goose, Leisure Suit Larry'
@@ -269,6 +279,11 @@
     platform: mac
     category: 'The Apartment D4'
     url: /frs/demos/director/theapartment4.zip
+-
+    id: duckman
+    platform: win
+    category: ''
+    url: /frs/demos/illusions/duckman-demo.zip
 -
     id: dw
     platform: dos
@@ -900,6 +915,16 @@
     category: ''
     url: /frs/demos/scumm/he/lost-win-demo-us.zip
 -
+    id: losteden
+    platform: dos
+    category: ''
+    url: /frs/demos/cryo/losteden-demo.zip
+-
+    id: losteden
+    platform: dos
+    category: Non-Interactive
+    url: /frs/demos/cryo/losteden-demo-ni.zip
+-
     id: lsl1sci
     platform: dos
     category: Non-Interactive
@@ -1009,6 +1034,16 @@
     platform: amiga
     category: ''
     url: /frs/demos/parallaction/nippon-amiga-demo-en.zip
+-
+    id: nl
+    platform: win
+    category: ''
+    url: /frs/demos/nightlong/nightlong-win-demo-en.zip
+-
+    id: nl
+    platform: win
+    category: German
+    url: /frs/demos/nightlong/nightlong-win-demo-de.zip
 -
     id: os
     platform: amiga
@@ -1720,9 +1755,29 @@
     category: Early
     url: /frs/demos/stark/tlj-demo-en-early.zip
 -
+    id: toltecs
+    platform: dos
+    category: ''
+    url: /frs/demos/toltecs/toltecs-demo.zip
+-
+    id: toltecs
+    platform: dos
+    category: German
+    url: /frs/demos/toltecs/toltecs-demo-de.zip
+-
+    id: tony
+    platform: win
+    category: Extracted
+    url: /frs/demos/tony/tony-demo.zip
+-
     id: toon
     platform: dos
     category: ''
+    url: /frs/demos/toon/toon-demo.zip
+-
+    id: toon
+    platform: dos
+    category: German
     url: /frs/demos/toon/toon-dos-demo-de.zip
 -
     id: torin
@@ -1754,6 +1809,11 @@
     platform: dos
     category: Non-Interactive
     url: /frs/demos/tsage/ringworld-dos-ni-demo-en.zip
+-
+    id: ringworld
+    platform: dos
+    category: Alternative
+    url: /frs/demos/tsage/ringworld-demo-alt.zip
 -
     id: ringworld2
     platform: dos
@@ -1825,12 +1885,12 @@
     category: Non-Interactive
     url: /frs/demos/scumm/zak-fmtowns-zakloom-ni-demo.zip
 -
-    id: nl
+    id: zgi
     platform: win
     category: ''
-    url: /frs/demos/nightlong/nightlong-win-demo-en.zip
+    url: /frs/demos/zvision/zgi-demo-win.zip
 -
-    id: nl
+    id: znemesis
     platform: win
-    category: German
-    url: /frs/demos/nightlong/nightlong-win-demo-de.zip
+    category: ''
+    url: /frs/demos/zvision/znemesis-demo-win.zip
