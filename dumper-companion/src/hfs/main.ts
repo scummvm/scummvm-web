@@ -124,7 +124,7 @@ export class Volume extends AbstractFolder {
 
         const extoflow: {[key: string]: Uint8Array} = {};
         for (const rec of btree.dump_btree(getfork(drXTFlSize, drXTExtRec, 3, 'data'))) {
-            if (rec[0] != 7) continue;
+            if (rec[0] !== 7) continue;
             const [xkrFkType, xkrFNum, xkrFABN, extrec] = struct('>xBLH12s').unpack_from(rec);
             let fork: string;
             if (xkrFkType === 0xFF)
@@ -186,7 +186,7 @@ export class Volume extends AbstractFolder {
         }
 
         for (const [parent_cnid, child_name, child_obj] of childlist) {
-            if (parent_cnid != 1) {
+            if (parent_cnid !== 1) {
                 const parent_obj = cnids[parent_cnid];
                 if (!(parent_obj instanceof AbstractFolder)) {
                     throw new Error('Parent is not a folder');
