@@ -10,6 +10,7 @@ export type State = {
     imageName: string;
     lang: Language;
     busy: boolean;
+    unicode: boolean;
     logs: ComponentChild[];
 }
 
@@ -20,6 +21,7 @@ export default class DumperCompanionApp extends Component<Props, State> {
             image: null,
             imageName: null,
             lang: Language.EN,
+            unicode: true,
             busy: false,
             logs: []
         };
@@ -34,15 +36,26 @@ export default class DumperCompanionApp extends Component<Props, State> {
             <div class="in box">
                 <h2>Input</h2>
 
-                <p>Select the game's disk image:</p>
-                <input disabled={this.state.busy} class="file" type="file" accept=".dsk,.image,.img,.iso,.toast" onInput={this.handleImage.bind(this)}/>
+                <div>
+                    <p>Select the game's disk image:</p>
+                    <input disabled={this.state.busy} class="file" type="file" accept=".dsk,.image,.img,.iso,.toast" onInput={this.handleImage.bind(this)}/>
+                </div>
 
-                <p>Select the game's language:</p>
-                <select disabled={this.state.busy} value={this.state.lang as string} onInput={this.handleLanguage.bind(this)}>
-                    {getLanguages().map(lang => <option value={lang}>{lang}</option>)}
-                </select>
+                <div>
+                    <p>Select the game's language:</p>
+                    <select disabled={this.state.busy} value={this.state.lang as string} onInput={this.handleLanguage.bind(this)}>
+                        {getLanguages().map(lang => <option value={lang}>{lang}</option>)}
+                    </select>
+                </div>
 
-                <button disabled={this.state.busy || this.state.image == null} onClick={this.handleDump.bind(this)}>Dump!</button>
+                <div>
+                    <input disabled={this.state.busy} type="checkbox" name="punycode" checked={this.state.unicode} onInput={this.handleUnicode.bind(this)}></input>
+                    <label for="unicode">Allow Unicode file names</label>
+                </div>
+
+                <div>
+                    <button disabled={this.state.busy || this.state.image == null} onClick={this.handleDump.bind(this)}>Dump!</button>
+                </div>
             </div>
             <div class="out box">
                 <h2>Output</h2>
@@ -78,6 +91,11 @@ export default class DumperCompanionApp extends Component<Props, State> {
         this.setState(() => ({ lang }));
     }
 
+    handleUnicode(e: Event): void {{
+        const unicode = (e.target as HTMLInputElement).checked;
+        this.setState(() => ({ unicode }));
+    }}
+
     handleDump(): void {
         this.log(`Loading volume "${this.state.imageName}"...`);
         this.setState(() => ({ busy: true }), () => {
@@ -106,7 +124,7 @@ export default class DumperCompanionApp extends Component<Props, State> {
         this.log('Dumping volume... 0%', async () => {
             try {
                 const zipFS = new fs.FS();
-                volume.dumpToZip(zipFS.root, this.state.lang);
+                volume.dumpToZip(zipFS.root, this.state.lang, !this.state.unicode);
                 const blob = await zipFS.exportBlob({
                     level: 0,
                     onprogress: (index, max) => {

@@ -10,7 +10,7 @@ h2 {
     margin: 0;
 }
 
-p, button {
+p, .in div {
     display: block;
     margin-top: 0.75em;
     margin-bottom: 0;
@@ -72,6 +72,10 @@ main {
 
 .file {
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
 }
 
 .log {

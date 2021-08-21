@@ -58,15 +58,17 @@ function escapeString(str: string): string {
 }
 
 
-export function punycodeFileName(str: Uint8Array, lang: Language): string {
-    const unicodeStr = escapeString(decodeLanguage(str, lang));
-    const punycodeStr = punycode.encode(unicodeStr);
-    if (unicodeStr === punycodeStr.slice(0, -1)) {
-        // There are no special characters.
-        // The punycoder just added a '-' to the end.
-        return unicodeStr;
+export function encodeFileName(str: Uint8Array, lang: Language, puny: boolean): string {
+    const unicodeStr = decodeLanguage(str, lang);
+    const escapedStr = escapeString(unicodeStr);
+    if (unicodeStr !== escapedStr || puny) {
+        const punycodeStr = punycode.encode(escapedStr);
+        // If there are no special characters, the punycoder just adds a '-' to the end.
+        if (escapedStr !== punycodeStr.slice(0, -1)) {
+            return 'xn--' + punycodeStr;
+        }
     }
-    return 'xn--' + punycodeStr;
+    return unicodeStr;
 }
 
 

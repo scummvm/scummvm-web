@@ -28,7 +28,7 @@
 
 
 import { computeCRC } from '../crc';
-import { Language, punycodeFileName } from '../encoding';
+import { Language, encodeFileName } from '../encoding';
 import struct from '../struct';
 import { bytes, bytesToString, joinBytes } from '../util';
 
@@ -85,13 +85,13 @@ export class AbstractFolder {
         return res;
     }
 
-    dumpToZip(zipDir: any, lang: Language): void {
+    dumpToZip(zipDir: any, lang: Language, puny: boolean): void {
         for (const [name, child] of this.items()) {
-            const punycodedName = punycodeFileName(name, lang);
+            const encodedName = encodeFileName(name, lang, puny);
             if (child instanceof AbstractFolder) {
-                child.dumpToZip(zipDir.addDirectory(punycodedName), lang);
+                child.dumpToZip(zipDir.addDirectory(encodedName), lang, puny);
             } else {
-                zipDir.addUint8Array(punycodedName, child.toMacBinary(name));
+                zipDir.addUint8Array(encodedName, child.toMacBinary(name));
             }
         }
     }
