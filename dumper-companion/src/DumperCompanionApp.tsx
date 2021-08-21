@@ -6,8 +6,8 @@ import { Language, getLanguages } from './encoding';
 export type Props = {}
 
 export type State = {
-    iso: File;
-    isoName: string;
+    image: File;
+    imageName: string;
     lang: Language;
     busy: boolean;
     logs: ComponentChild[];
@@ -17,8 +17,8 @@ export default class DumperCompanionApp extends Component<Props, State> {
     constructor() {
         super();
         this.state = {
-            iso: null,
-            isoName: null,
+            image: null,
+            imageName: null,
             lang: Language.EN,
             busy: false,
             logs: []
@@ -34,15 +34,15 @@ export default class DumperCompanionApp extends Component<Props, State> {
             <div class="in box">
                 <h2>Input</h2>
 
-                <p>Select the game's ISO file:</p>
-                <input disabled={this.state.busy} class="file" type="file" accept=".iso" onInput={this.handleISO.bind(this)}/>
+                <p>Select the game's disk image:</p>
+                <input disabled={this.state.busy} class="file" type="file" accept=".dsk,.image,.img,.iso,.toast" onInput={this.handleImage.bind(this)}/>
 
                 <p>Select the game's language:</p>
                 <select disabled={this.state.busy} value={this.state.lang as string} onInput={this.handleLanguage.bind(this)}>
                     {getLanguages().map(lang => <option value={lang}>{lang}</option>)}
                 </select>
 
-                <button disabled={this.state.busy || this.state.iso == null} onClick={this.handleDump.bind(this)}>Dump!</button>
+                <button disabled={this.state.busy || this.state.image == null} onClick={this.handleDump.bind(this)}>Dump!</button>
             </div>
             <div class="out box">
                 <h2>Output</h2>
@@ -67,10 +67,10 @@ export default class DumperCompanionApp extends Component<Props, State> {
         this.setState(({ logs }) => ({ logs: [...logs.slice(0, -1), <li>{msg}</li>] }), callback);
     }
 
-    handleISO(e: Event): void {
-        const iso = (e.target as HTMLInputElement).files[0];
-        const isoName = iso.name.replace(/\.\w+$/, '');
-        this.setState(() => ({ iso, isoName }));
+    handleImage(e: Event): void {
+        const image = (e.target as HTMLInputElement).files[0];
+        const imageName = image.name.replace(/\.\w+$/, '');
+        this.setState(() => ({ image, imageName }));
     }
 
     handleLanguage(e: Event): void {
@@ -79,13 +79,13 @@ export default class DumperCompanionApp extends Component<Props, State> {
     }
 
     handleDump(): void {
-        this.log(`Loading volume "${this.state.isoName}"...`);
+        this.log(`Loading volume "${this.state.imageName}"...`);
         this.setState(() => ({ busy: true }), () => {
             const reader = new FileReader();
             reader.addEventListener('load', () => {
                 this.parseVolume(reader.result as ArrayBuffer);
             });
-            reader.readAsArrayBuffer(this.state.iso);
+            reader.readAsArrayBuffer(this.state.image);
         });
     }
 
@@ -116,7 +116,7 @@ export default class DumperCompanionApp extends Component<Props, State> {
                 });
                 const volumeURL = URL.createObjectURL(blob);
                 this.log('Success! Next steps:');
-                this.log(<span>1. <a href={volumeURL} download={this.state.isoName + '.zip'}>Click here to download your game data.</a></span>);
+                this.log(<span>1. <a href={volumeURL} download={this.state.imageName + '.zip'}>Click here to download your game data.</a></span>);
                 this.log('2. Unzip the game data.');
                 this.log('3. Add the directory to ScummVM.');
             } catch (err) {
