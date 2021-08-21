@@ -1,7 +1,4 @@
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const TerserPlugin = require('terser-webpack-plugin');
-
-const profile = process.argv.indexOf('--profile') !== -1;
 
 module.exports = {
   context: __dirname + "/src",
@@ -27,7 +24,3 @@ module.exports = {
     ],
   },
 };
-
-if (profile) {
-  module.exports.plugins.push(new BundleAnalyzerPlugin());
-}
