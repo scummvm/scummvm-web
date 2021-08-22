@@ -4767,3 +4767,19 @@
     moby_id: '2564'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Nightlong:_Union_City_Conspiracy'
     series_id: ''
+-
+    id: kingdom
+    name: 'Kingdom: The Far Reaches'
+    engine_id: kingdom
+    company_id: virtual
+    moby_id: '4788'
+    datafiles: ''
+    series_id: ''
+-
+    id: sanitarium
+    name: ''
+    engine_id: ''
+    company_id: ''
+    moby_id: ''
+    datafiles: ''
+    series_id: ''

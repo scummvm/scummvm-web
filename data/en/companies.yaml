@@ -943,3 +943,7 @@
     id: synergy
     name: 'Synergy Inc.'
     alt_name: ''
+-
+    id: virtual
+    name: 'Virtual Image Productions'
+    alt_name: ''

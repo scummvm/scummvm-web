@@ -45,6 +45,11 @@
     category: 'King''s Quest 3, Leisure Suit Larry, Police Quest, Thexder, Space Quest'
     url: /frs/demos/agi/agi-2gs-demo-pack-en.zip
 -
+    id: agidemo
+    platform: dos
+    category: Tandy
+    url: /frs/demos/agi/agidemo-tandy-demo.zip
+-
     id: airport
     platform: mac
     category: ''
@@ -280,6 +285,11 @@
     category: 'The Apartment D4'
     url: /frs/demos/director/theapartment4.zip
 -
+    id: dm
+    platform: amiga
+    category: ''
+    url: /frs/demos/dm/dm-amiga-demo-en.zip
+-
     id: duckman
     platform: win
     category: ''
@@ -329,31 +339,6 @@
     platform: dos
     category: Non-Interactive
     url: /frs/demos/agos/elvira1-dos-ni-demo-en.zip
--
-    id: monkey4
-    platform: win
-    category: ''
-    url: /frs/demos/grim/emi-win-demo-en.zip
--
-    id: monkey4
-    platform: win
-    category: German
-    url: /frs/demos/grim/emi-win-demo-de.zip
--
-    id: monkey4
-    platform: win
-    category: Spanish
-    url: /frs/demos/grim/emi-win-demo-sp.zip
--
-    id: monkey4
-    platform: win
-    category: French
-    url: /frs/demos/grim/monkey4demo-fre.zip
--
-    id: monkey4
-    platform: mac
-    category: ''
-    url: /frs/demos/grim/efmi_large_demo.sea
 -
     id: fairytales
     platform: dos
@@ -795,6 +780,11 @@
     category: Non-Interactive
     url: /frs/demos/sci/islandbrain-dos-ni-demo-en.zip
 -
+    id: kingdom
+    platform: dos
+    category: ''
+    url: /frs/demos/kingdom/kingdom-demo.zip
+-
     id: kq1sci
     platform: dos
     category: Non-Interactive
@@ -925,6 +915,11 @@
     category: Non-Interactive
     url: /frs/demos/cryo/losteden-demo-ni.zip
 -
+    id: lsl1
+    platform: dos
+    category: Polish
+    url: /frs/demos/agi/lsl1-demo-pl.zip
+-
     id: lsl1sci
     platform: dos
     category: Non-Interactive
@@ -984,6 +979,31 @@
     platform: dos
     category: Unsupported
     url: /frs/demos/scumm/monkey2-dos-ni-demo-en.zip
+-
+    id: monkey4
+    platform: win
+    category: ''
+    url: /frs/demos/grim/emi-win-demo-en.zip
+-
+    id: monkey4
+    platform: win
+    category: German
+    url: /frs/demos/grim/emi-win-demo-de.zip
+-
+    id: monkey4
+    platform: win
+    category: Spanish
+    url: /frs/demos/grim/emi-win-demo-sp.zip
+-
+    id: monkey4
+    platform: win
+    category: French
+    url: /frs/demos/grim/monkey4demo-fre.zip
+-
+    id: monkey4
+    platform: mac
+    category: ''
+    url: /frs/demos/grim/efmi_large_demo.sea
 -
     id: mothergoose
     platform: dos
@@ -1129,6 +1149,16 @@
     platform: mac
     category: ''
     url: /frs/demos/pegasus/pegasus-mac-demo-en.zip
+-
+    id: pegasus
+    platform: mac
+    category: DVD
+    url: /frs/demos/pegasus/pegasus-dvd-mac-demo-en.zip
+-
+    id: pegasus
+    platform: win
+    category: DVD
+    url: /frs/demos/pegasus/pegasus-dvd-win-demo-en.zip
 -
     id: pepper
     platform: dos
@@ -1405,6 +1435,11 @@
     category: Interview
     url: /frs/demos/queen/queen-dos-interview-en.zip
 -
+    id: queen
+    platform: dos
+    category: 'Interview Russian'
+    url: /frs/demos/queen/queen-dos-interview-ru.zip
+-
     id: rama
     platform: dos
     category: Non-Interactive
@@ -1469,6 +1504,16 @@
     platform: mac
     category: ''
     url: /frs/demos/scumm/samnmax-mac-demo-en.zip
+-
+    id: scalpel
+    platform: dos
+    category: ''
+    url: /frs/demos/sherlock/scalpel-dos-demo-en.zip
+-
+    id: scalpel
+    platform: dos
+    category: Non-Interactive
+    url: /frs/demos/sherlock/scalpel-dos-ni-demo-en.zip
 -
     id: shivers
     platform: win
@@ -1644,6 +1689,11 @@
     platform: dos
     category: ''
     url: /frs/demos/sci/sq6-dos-demo-en.zip
+-
+    id: st25
+    platform: dos
+    category: ''
+    url: /frs/demos/startrek/st25-dos-demo-en.zip
 -
     id: sword1
     platform: win
@@ -1864,6 +1914,11 @@
     platform: dos
     category: ''
     url: /frs/demos/agi/xmascard-dos-en.zip
+-
+    id: xmascard
+    platform: coco3
+    category: ''
+    url: /frs/demos/agi/xmascard-coco3-en.zip
 -
     id: zak
     platform: fmtowns

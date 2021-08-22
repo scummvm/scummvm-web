@@ -175,6 +175,11 @@
     alt_name: ''
     enabled: true
 -
+    id: kingdom
+    name: 'Kingdom: The Far Reaches'
+    alt_name: ''
+    enabled: false
+-
     id: kyra
     name: Kyra
     alt_name: ''
