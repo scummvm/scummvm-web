@@ -290,6 +290,11 @@
     alt_name: 'Scripts for Animated Graphic Adventures'
     enabled: true
 -
+    id: sanitarium
+    name: Sanitarium
+    alt_name: ''
+    enabled: false
+-
     id: sci
     name: SCI
     alt_name: 'Sierra Creative Interpreter'

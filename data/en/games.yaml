@@ -4777,9 +4777,9 @@
     series_id: ''
 -
     id: sanitarium
-    name: ''
-    engine_id: ''
-    company_id: ''
-    moby_id: ''
+    name: Sanitarium
+    engine_id: sanitarium
+    company_id: dreamforge
+    moby_id: '572'
     datafiles: ''
     series_id: ''
