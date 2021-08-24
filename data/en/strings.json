@@ -46,6 +46,8 @@
   "creditsContentTitle": "Credits",
   "demosTitle": "Game Demos",
   "demosContentTitle": "Game Demos",
+  "directorDemosTitle": "Director Demos",
+  "directorDemosContentTitle": "Director Demos",
   "downloadsTitle": "Downloads",
   "downloadsContentTitle": "Download ScummVM",
   "downloadsHeader": "Navigation",
@@ -173,6 +175,7 @@
   "menuHeaderMisc": "Misc. Menu",
   "menuMiscSponsors": "Sponsors",
   "menuMiscDemos": "Demos",
+  "menuMiscDirectorDemos": "Director Demos",
   "menuMiscPress": "Press Coverage",
   "menuMiscContact": "Contact",
   "menuMiscLinks": "Links"

@@ -125,7 +125,7 @@ class LocalizationUtils
             if (!($data = @file_get_contents($dir . "/{$filename}"))) {
                 continue;
             }
-            $key = rtrim($filename, ".markdown");
+            $key = \basename($filename, ".markdown");
             $article = YamlFrontMatter::parse($data);
             $news[$key] = array('title' => $article->title, 'content' => trim($article->body()));
         }
