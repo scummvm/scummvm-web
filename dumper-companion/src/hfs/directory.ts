@@ -176,8 +176,8 @@ export class MacFile {
             this.locked,
             this.data.length,
             this.rsrc.length,
-            this.crdate, // TODO: dates are wrong, investigate
-            this.mddate, // TODO: dates are wrong, investigate
+            this.crdate,
+            this.mddate,
             0,
             newFlags,
             0,
