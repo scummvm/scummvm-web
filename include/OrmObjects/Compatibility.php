@@ -47,7 +47,7 @@ class Compatibility extends BaseCompatibility
             $notes .= str_replace("- ", "\n- ", parent::getNotes()) . "\n";
         }
 
-        if ($this->getMobyId() != '-1') {
+        if ($this->getGame()->getMobyId() != '-1') {
             $notes .= "\n\n**External Links:**\n";
             $notes .= "- [MobyGames](https://www.mobygames.com/game/{$this->getGame()->getMobyId()})\n";
         }
