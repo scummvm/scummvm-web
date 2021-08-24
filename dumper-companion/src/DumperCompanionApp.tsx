@@ -49,7 +49,7 @@ export default class DumperCompanionApp extends Component<Props, State> {
                 </div>
 
                 <div>
-                    <input disabled={this.state.busy} type="checkbox" name="punycode" checked={this.state.unicode} onInput={this.handleUnicode.bind(this)}></input>
+                    <input disabled={this.state.busy} type="checkbox" id="unicode" checked={this.state.unicode} onInput={this.handleUnicode.bind(this)}></input>
                     <label for="unicode">Allow Unicode file names</label>
                 </div>
 
