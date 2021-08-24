@@ -95,6 +95,11 @@
     category: Alternative
     url: /frs/demos/mohawk/arthur-win-demo-en-v1.1.zip
 -
+    id: arthur
+    platform: mac
+    category: 'English, Spanish'
+    url: /frs/demos/mohawk/arthur-mac-demo-en-es.zip
+-
     id: arthurbday
     platform: mac
     category: ''
@@ -134,6 +139,11 @@
     platform: fmtowns
     category: Non-Interactive
     url: /frs/demos/scumm/atlantis-fmtowns-ni-demo-jp.zip
+-
+    id: atlantis
+    platform: mac
+    category: ''
+    url: /frs/demos/scumm/atlantis-mac-demo.zip
 -
     id: baseball
     platform: win
@@ -659,6 +669,11 @@
     platform: win
     category: Alternative
     url: /frs/demos/mohawk/grandma-win-demo-en-v1.1.zip
+-
+    id: grandma
+    platform: mac
+    category: English/Japanese/Spanish
+    url: /frs/demos/mohawk/grandma-mac-demo-en-es-jp.zip
 -
     id: greeneggs
     platform: win

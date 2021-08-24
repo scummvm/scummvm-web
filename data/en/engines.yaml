@@ -87,7 +87,7 @@
 -
     id: director
     name: 'Macromedia Director'
-    alt_name: ''
+    alt_name: 'MacroMind Director'
     enabled: true
 -
     id: dm
@@ -317,7 +317,7 @@
 -
     id: sludge
     name: SLUDGE
-    alt_name: ''
+    alt_name: 'Scripting Language for Unhindered Development of a Gaming Environment'
     enabled: false
 -
     id: stark
