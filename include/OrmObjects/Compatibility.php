@@ -37,7 +37,7 @@ class Compatibility extends BaseCompatibility
             $notes .= "{$this->processPlatforms($stable)}\n";
         }
 
-        if ($unstable = $this->getUnstablePlatforms) {
+        if ($unstable = $this->getUnstablePlatforms()) {
             $notes .= "**Unsupported Platforms:**\n";
             $notes .= "{$this->processPlatforms($unstable)}\n";
         }
