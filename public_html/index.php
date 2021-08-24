@@ -106,6 +106,7 @@ $pages = array(
     'contact'                               => '\ScummVM\Pages\SimplePage',
     'credits'                               => '\ScummVM\Pages\SimplePage',
     'demos'                                 => '\ScummVM\Pages\DemosPage',
+    'demos/director'                        => '\ScummVM\Pages\DirectorDemosPage',
     'documentation'                         => 'https://docs.scummvm.org/',
     'downloads'                             => '\ScummVM\Pages\DownloadsPage',
     'games'                                 => '\ScummVM\Pages\GamesPage',

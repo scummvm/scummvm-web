@@ -50,6 +50,8 @@
       href: /sponsors/
     - name: '{#menuMiscDemos#}'
       href: /demos/
+    - name: '{#menuMiscDirectorDemos#}'
+      href: /demos/director
     - name: '{#menuMiscPress#}'
       href: /press/
     - name: '{#menuMiscContact#}'
