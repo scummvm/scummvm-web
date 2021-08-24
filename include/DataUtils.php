@@ -33,6 +33,7 @@ class DataUtils
         'screenshots' => '1985243204',
         'scummvm_downloads' => '373699606',
         'game_downloads' => '1287892109',
+        'director_demos' => '1256563740',
     ];
 
     const OBJECT_NAMES = [
@@ -47,6 +48,7 @@ class DataUtils
         'screenshots' => 'Screenshot',
         'scummvm_downloads' => 'Download',
         'game_downloads' => 'GameDownload',
+        'director_demos' => 'DirectorDemo',
     ];
 
     /**
@@ -123,7 +125,7 @@ class DataUtils
                     $class = "ScummVM\\OrmObjects\\$object";
                     $dbItem = new $class();
                     // TODO: Rename platform to platform_id
-                    if ($object === 'Demo') {
+                    if ($object === 'Demo' || $object === 'DirectorDemo') {
                         $item['platform_id'] = $item['platform'];
                     }
                     if ($object === 'Screenshot') {

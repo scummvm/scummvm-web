@@ -89,6 +89,17 @@
       <reference local="platform_id" foreign="id"/>
     </foreign-key>
   </table>
+    <table name="director_demo" phpName="DirectorDemo">
+    <column name="id" type="varchar" required="true"/>
+    <column name="platform_id" type="varchar" size="24" required="true"/>
+    <column name="lang" type="varchar" size="8"/>
+    <column name="title" type="varchar" size="255"/>
+    <column name="version" type="SMALLINT"/>
+    <column name="url" type="varchar" size="255"/>
+    <foreign-key foreignTable="platform" onDelete="CASCADE">
+      <reference local="platform_id" foreign="id"/>
+    </foreign-key>
+  </table>
   <table name="scummvm_downloads" phpName="Download">
     <column name="name" type="varchar" size="255" required="true"/>
     <column name="description" type="varchar" size="255"/>

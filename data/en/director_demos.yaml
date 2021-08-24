@@ -1,0 +1,3928 @@
+# This is a generated file, please do not edit manually
+-
+    id: director
+    platform: mac
+    lang: en
+    title: 'The Apartment D2'
+    version: '2'
+    url: /frs/demos/director/theapartment2.zip
+-
+    id: director
+    platform: mac
+    lang: en
+    title: 'The Apartment D3'
+    version: '3'
+    url: /frs/demos/director/theapartment3.zip
+-
+    id: director
+    platform: mac
+    lang: en
+    title: 'The Apartment D4'
+    version: '4'
+    url: /frs/demos/director/theapartment4.zip
+-
+    id: cklasse
+    platform: win
+    lang: de
+    title: 'Mercedes-Benz C-Class Information Booth'
+    version: '3'
+    url: /frs/demos/director/d3/de/cklasse-win-de.zip
+-
+    id: aamn
+    platform: mac
+    lang: en
+    title: 'Anatomy & Anaesthesia of the Mandibular Nerve'
+    version: '3'
+    url: /frs/demos/director/d3/en/aamn-demo-mac.zip
+-
+    id: amandastories
+    platform: mac
+    lang: en
+    title: AmandaStories
+    version: '3'
+    url: /frs/demos/director/d3/en/amandastories-demo-mac.zip
+-
+    id: belcher
+    platform: mac
+    lang: en
+    title: 'The Belcher'
+    version: '3'
+    url: /frs/demos/director/d3/en/belcher-mac.zip
+-
+    id: bioflix
+    platform: mac
+    lang: en
+    title: BioFlix
+    version: '3'
+    url: /frs/demos/director/d3/en/bioflix-demo-mac.zip
+-
+    id: bob
+    platform: mac
+    lang: en
+    title: Bob
+    version: '3'
+    url: /frs/demos/director/d3/en/bob-mac.zip
+-
+    id: bodypark
+    platform: win
+    lang: en
+    title: 'Body Park'
+    version: '3'
+    url: /frs/demos/director/d3/en/bodypark-demo-win.zip
+-
+    id: bookshelf94
+    platform: win
+    lang: en
+    title: 'Microsoft Bookshelf 1994'
+    version: '3'
+    url: /frs/demos/director/d3/en/bookshelf94-demo-win.zip
+-
+    id: bpmc
+    platform: win
+    lang: en
+    title: 'Byron Preiss Multimedia Catalog'
+    version: '3'
+    url: /frs/demos/director/d3/en/bpmc-demo-win.zip
+-
+    id: childishgambino
+    platform: mac
+    lang: en
+    title: 'Capturing Donald Glover''s Motion'
+    version: '3'
+    url: /frs/demos/director/d3/en/childishgambino-mac.zip
+-
+    id: cinemania94
+    platform: win
+    lang: en
+    title: 'Microsoft Cinemania 94'
+    version: '3'
+    url: /frs/demos/director/d3/en/cinemania94-demo-win.zip
+-
+    id: cinemania95
+    platform: win
+    lang: en
+    title: 'Microsoft Cinemania 95'
+    version: '3'
+    url: /frs/demos/director/d3/en/cinemania95-demo-win.zip
+-
+    id: cpu
+    platform: mac
+    lang: en
+    title: 'Connectix PowerBook Utilities'
+    version: '3'
+    url: /frs/demos/director/d3/en/cpu-demo-mac.zip
+-
+    id: dirmacromind
+    platform: mac
+    lang: en
+    title: 'MacroMind Director'
+    version: '3'
+    url: /frs/demos/director/d3/en/dirmacromind-demo-mac.zip
+-
+    id: donnamatrix
+    platform: mac
+    lang: en
+    title: 'Donna Matrix'
+    version: '3'
+    url: /frs/demos/director/d3/en/donnamatrix-demo-mac.zip
+-
+    id: emigre
+    platform: mac
+    lang: en
+    title: 'Emigre Signs of Type: Big Cheese'
+    version: '3'
+    url: /frs/demos/director/d3/en/emigre-demo-mac.zip
+-
+    id: encarta95
+    platform: win
+    lang: en
+    title: 'Microsoft Encarta ''95'
+    version: '3'
+    url: /frs/demos/director/d3/en/encarta95-demo-win.zip
+-
+    id: exoticjapan
+    platform: mac
+    lang: en
+    title: 'Exotic Japan: A Guide to Japanese Culture and Language'
+    version: '3'
+    url: /frs/demos/director/d3/en/exoticjapan-demo-mac.zip
+-
+    id: explorapedia
+    platform: win
+    lang: en
+    title: 'Microsoft Explorapedia'
+    version: '3'
+    url: /frs/demos/director/d3/en/explorapedia-demo-win.zip
+-
+    id: flw
+    platform: win
+    lang: en
+    title: 'The Ultimate Frank Lloyd Wright: America''s Architect'
+    version: '3'
+    url: /frs/demos/director/d3/en/flw-demo-win.zip
+-
+    id: gadget
+    platform: mac
+    lang: en
+    title: 'Gadget: Invention, Travel & Adventure'
+    version: '3'
+    url: /frs/demos/director/d3/en/gadget-demo-mac.zip
+-
+    id: gadget
+    platform: win
+    lang: en
+    title: 'Gadget: Invention, Travel & Adventure'
+    version: '3'
+    url: /frs/demos/director/d3/en/gadget-demo-win.zip
+-
+    id: hhouse
+    platform: win
+    lang: en
+    title: 'Gahan Wilson''s The Ultimate Haunted House'
+    version: '3'
+    url: /frs/demos/director/d3/en/hhouse-demo-win.zip
+-
+    id: hoaddams2
+    platform: mac
+    lang: en
+    title: 'Hollywood Online: Addams Family Values'
+    version: '3'
+    url: /frs/demos/director/d3/en/hoaddams2-mac.zip
+-
+    id: hoangus
+    platform: mac
+    lang: en
+    title: 'Hollywood Online: Angus'
+    version: '3'
+    url: /frs/demos/director/d3/en/hoangus-mac.zip
+-
+    id: hoangus
+    platform: win
+    lang: en
+    title: 'Hollywood Online: Angus'
+    version: '3'
+    url: /frs/demos/director/d3/en/hoangus-win.zip
+-
+    id: hodolores
+    platform: mac
+    lang: en
+    title: 'Hollywood Online: Dolores Claiborne'
+    version: '3'
+    url: /frs/demos/director/d3/en/hodolores-mac.zip
+-
+    id: hodolores
+    platform: win
+    lang: en
+    title: 'Hollywood Online: Dolores Claiborne'
+    version: '3'
+    url: /frs/demos/director/d3/en/hodolores-win.zip
+-
+    id: horobroy
+    platform: mac
+    lang: en
+    title: 'Hollywood Online: Rob Roy: Legend of the Mist'
+    version: '3'
+    url: /frs/demos/director/d3/en/horobroy-mac.zip
+-
+    id: horobroy
+    platform: win
+    lang: en
+    title: 'Hollywood Online: Rob Roy: Legend of the Mist'
+    version: '3'
+    url: /frs/demos/director/d3/en/horobroy-win.zip
+-
+    id: hostargate
+    platform: mac
+    lang: en
+    title: 'Hollywood Online: Stargate'
+    version: '3'
+    url: /frs/demos/director/d3/en/hostargate-mac.zip
+-
+    id: hothenet
+    platform: mac
+    lang: en
+    title: 'Hollywood Online: The Net'
+    version: '3'
+    url: /frs/demos/director/d3/en/hothenet-mac.zip
+-
+    id: hothenet
+    platform: win
+    lang: en
+    title: 'Hollywood Online: The Net'
+    version: '3'
+    url: /frs/demos/director/d3/en/hothenet-win.zip
+-
+    id: imaginopolis
+    platform: win
+    lang: en
+    title: 'Microsoft Imaginopolis'
+    version: '3'
+    url: /frs/demos/director/d3/en/imaginopolis-win.zip
+-
+    id: ipc
+    platform: mac
+    lang: en
+    title: 'About InterActive Publishing'
+    version: '3'
+    url: /frs/demos/director/d3/en/ipc-mac.zip
+-
+    id: ipc
+    platform: win
+    lang: en
+    title: 'About InterActive Publishing'
+    version: '3'
+    url: /frs/demos/director/d3/en/ipc-win.zip
+-
+    id: iptr
+    platform: mac
+    lang: en
+    title: 'I Photograph to Remember'
+    version: '3'
+    url: /frs/demos/director/d3/en/iptr-demo-mac.zip
+-
+    id: ironhelix
+    platform: mac
+    lang: en
+    title: 'Iron Helix'
+    version: '3'
+    url: /frs/demos/director/d3/en/ironhelix-demo-mac-1992.zip
+-
+    id: ironhelix
+    platform: mac
+    lang: en
+    title: 'Iron Helix'
+    version: '3'
+    url: /frs/demos/director/d3/en/ironhelix-demo-mac-1994.zip
+-
+    id: kyoto
+    platform: mac
+    lang: en
+    title: 'Cosmology of Kyoto'
+    version: '3'
+    url: /frs/demos/director/d3/en/kyoto-demo-mac.zip
+-
+    id: learningsystem
+    platform: mac
+    lang: en
+    title: 'The Learning System'
+    version: '3'
+    url: /frs/demos/director/d3/en/learningsystem-mac.zip
+-
+    id: learningsystem
+    platform: win
+    lang: en
+    title: 'The Learning System'
+    version: '3'
+    url: /frs/demos/director/d3/en/learningsystem-win.zip
+-
+    id: leopardspots
+    platform: win
+    lang: en
+    title: 'How the Leopard Got His Spots'
+    version: '3'
+    url: /frs/demos/director/d3/en/leopardspots-demo-win.zip
+-
+    id: meetingmaker
+    platform: mac
+    lang: en
+    title: 'Meeting Maker'
+    version: '3'
+    url: /frs/demos/director/d3/en/meetingmaker-demo-mac.zip
+-
+    id: mmmozart
+    platform: mac
+    lang: en
+    title: 'Multimedia Mozart: The Dissonant Quartet'
+    version: '3'
+    url: /frs/demos/director/d3/en/mmmozart-demo-mac.zip
+-
+    id: mmschubert
+    platform: mac
+    lang: en
+    title: 'Multimedia Schubert: The "Trout" Quintet"'
+    version: '3'
+    url: /frs/demos/director/d3/en/mmschubert-demo-mac.zip
+-
+    id: msarcade
+    platform: win
+    lang: en
+    title: 'Microsoft Arcade'
+    version: '3'
+    url: /frs/demos/director/d3/en/msarcade-demo-win.zip
+-
+    id: msartgallery
+    platform: win
+    lang: en
+    title: 'Microsoft Art Gallery'
+    version: '3'
+    url: /frs/demos/director/d3/en/msartgallery-demo-win.zip
+-
+    id: msbaseball
+    platform: win
+    lang: en
+    title: 'Microsoft Complete Baseball'
+    version: '3'
+    url: /frs/demos/director/d3/en/msbaseball-demo-win.zip
+-
+    id: msbasketball
+    platform: win
+    lang: en
+    title: 'Microsoft Complete Basketball'
+    version: '3'
+    url: /frs/demos/director/d3/en/msbasketball-demo-win.zip
+-
+    id: msbhumanbody
+    platform: win
+    lang: en
+    title: 'Scholastic''s The Magic School Bus Explores the Human Body'
+    version: '3'
+    url: /frs/demos/director/d3/en/msbhumanbody-demo-win.zip
+-
+    id: msbsolarsystem
+    platform: win
+    lang: en
+    title: 'Scholastic''s The Magic School Bus Explores the Solar System'
+    version: '3'
+    url: /frs/demos/director/d3/en/msbsolarsystem-demo-win.zip
+-
+    id: mscomposers
+    platform: win
+    lang: en
+    title: 'Microsoft Illustrated Interactive Composer Series'
+    version: '3'
+    url: /frs/demos/director/d3/en/mscomposers-demo-win.zip
+-
+    id: msdinosaurs
+    platform: win
+    lang: en
+    title: 'Microsoft Dinosaurs'
+    version: '3'
+    url: /frs/demos/director/d3/en/msdinosaurs-demo-win.zip
+-
+    id: msflight
+    platform: win
+    lang: en
+    title: 'Microsoft Flight Simulator'
+    version: '3'
+    url: /frs/demos/director/d3/en/msflight-demo-win.zip
+-
+    id: msfonts
+    platform: win
+    lang: en
+    title: 'Microsoft TrueType Font Pack'
+    version: '3'
+    url: /frs/demos/director/d3/en/msfonts-demo-win.zip
+-
+    id: msgolf
+    platform: win
+    lang: en
+    title: 'Microsoft Golf'
+    version: '3'
+    url: /frs/demos/director/d3/en/msgolf-demo-win.zip
+-
+    id: msmoney
+    platform: win
+    lang: en
+    title: 'Microsoft Money'
+    version: '3'
+    url: /frs/demos/director/d3/en/msmoney-demo-win.zip
+-
+    id: msmouse
+    platform: win
+    lang: en
+    title: 'The Microsoft Mouse'
+    version: '3'
+    url: /frs/demos/director/d3/en/msmouse-demo-win.zip
+-
+    id: msmouseh
+    platform: win
+    lang: en
+    title: 'Microsoft Home Mouse'
+    version: '3'
+    url: /frs/demos/director/d3/en/msmouseh-demo-win.zip
+-
+    id: msmusint
+    platform: win
+    lang: en
+    title: 'Microsoft Musical Instruments'
+    version: '3'
+    url: /frs/demos/director/d3/en/msmusint-demo-win.zip
+-
+    id: msnatkey
+    platform: win
+    lang: en
+    title: 'Microsoft Natural Keyboard'
+    version: '3'
+    url: /frs/demos/director/d3/en/msnatkey-demo-win.zip
+-
+    id: mspublish
+    platform: win
+    lang: en
+    title: 'Microsoft Publisher'
+    version: '3'
+    url: /frs/demos/director/d3/en/mspublish-demo-win.zip
+-
+    id: mspublishd
+    platform: win
+    lang: en
+    title: 'Microsoft Publisher Design Packs'
+    version: '3'
+    url: /frs/demos/director/d3/en/mspublishd-demo-win.zip
+-
+    id: mssndbits
+    platform: win
+    lang: en
+    title: 'Microsoft SoundBits'
+    version: '3'
+    url: /frs/demos/director/d3/en/mssndbits-demo-win.zip
+-
+    id: necrobius
+    platform: mac
+    lang: en
+    title: Necrobius
+    version: '3'
+    url: /frs/demos/director/d3/en/necrobius-demo-mac.zip
+-
+    id: necromancer
+    platform: mac
+    lang: en
+    title: Necromancer
+    version: '3'
+    url: /frs/demos/director/d3/en/necromancer-demo-mac.zip
+-
+    id: newton
+    platform: mac
+    lang: en
+    title: 'World of Newton'
+    version: '3'
+    url: /frs/demos/director/d3/en/newton-demo-mac.zip
+-
+    id: pixar
+    platform: mac
+    lang: en
+    title: 'Pixar Projector'
+    version: '3'
+    url: /frs/demos/director/d3/en/pixar-demo-mac.zip
+-
+    id: playroom
+    platform: mac
+    lang: en
+    title: 'The Playroom'
+    version: '3'
+    url: /frs/demos/director/d3/en/playroom-demo-mac.zip
+-
+    id: provektor2
+    platform: mac
+    lang: en
+    title: 'Provektor II: Design & Image Library'
+    version: '3'
+    url: /frs/demos/director/d3/en/provektor2-demo-mac-cheese.zip
+-
+    id: provektor2
+    platform: mac
+    lang: en
+    title: 'Provektor II: Design & Image Library'
+    version: '3'
+    url: /frs/demos/director/d3/en/provektor2-demo-mac.zip
+-
+    id: provektor3
+    platform: mac
+    lang: en
+    title: 'Provektor III: Design & Image Library'
+    version: '3'
+    url: /frs/demos/director/d3/en/provektor3-demo-mac.zip
+-
+    id: provektormed
+    platform: mac
+    lang: en
+    title: 'Provektor Media'
+    version: '3'
+    url: /frs/demos/director/d3/en/provektormed-demo-mac.zip
+-
+    id: raydream
+    platform: mac
+    lang: en
+    title: 'Ray Dream Designer'
+    version: '3'
+    url: /frs/demos/director/d3/en/raydream-demo-mac.zip
+-
+    id: redshift
+    platform: mac
+    lang: en
+    title: 'RedShift: Multimedia Astronomy'
+    version: '3'
+    url: /frs/demos/director/d3/en/redshift-demo-mac-1993.zip
+-
+    id: rodney
+    platform: mac
+    lang: en
+    title: 'Rodney''s Funscreen'
+    version: '3'
+    url: /frs/demos/director/d3/en/rodney-demo-mac.zip
+-
+    id: screamingmetal
+    platform: mac
+    lang: en
+    title: 'Screaming Metal'
+    version: '3'
+    url: /frs/demos/director/d3/en/screamingmetal-demo-mac-1992.zip
+-
+    id: screamingmetal
+    platform: mac
+    lang: en
+    title: 'Screaming Metal'
+    version: '3'
+    url: /frs/demos/director/d3/en/screamingmetal-demo-mac-1993.zip
+-
+    id: sculpt4d
+    platform: mac
+    lang: en
+    title: 'Sculpt 4D'
+    version: '3'
+    url: /frs/demos/director/d3/en/sculpt4d-demo-mac-2.zip
+-
+    id: sculpt4d
+    platform: mac
+    lang: en
+    title: 'Sculpt 4D'
+    version: '3'
+    url: /frs/demos/director/d3/en/sculpt4d-demo-mac-3.zip
+-
+    id: sculpt4d
+    platform: mac
+    lang: en
+    title: 'Sculpt 4D'
+    version: '3'
+    url: /frs/demos/director/d3/en/sculpt4d-demo-mac-5.zip
+-
+    id: sculpt4d
+    platform: mac
+    lang: en
+    title: 'Sculpt 4D'
+    version: '3'
+    url: /frs/demos/director/d3/en/sculpt4d-demo-mac-usage.zip
+-
+    id: sfk
+    platform: mac
+    lang: en
+    title: 'Science for Kids Product Demos'
+    version: '3'
+    url: /frs/demos/director/d3/en/sfk-mac.zip
+-
+    id: sk8board
+    platform: win
+    lang: en
+    title: 'RIDE: An Interactive Skateboarding Experience'
+    version: '3'
+    url: /frs/demos/director/d3/en/sk8board-demo-win.zip
+-
+    id: snh
+    platform: mac
+    lang: en
+    title: 'A Silly Noisy House'
+    version: '3'
+    url: /frs/demos/director/d3/en/snh-demo-mac.zip
+-
+    id: stravinsky
+    platform: mac
+    lang: en
+    title: 'Igor Stravinsky: The Rite of Spring'
+    version: '3'
+    url: /frs/demos/director/d3/en/stravinsky-demo-mac.zip
+-
+    id: totaldistortion
+    platform: mac
+    lang: en
+    title: 'Total Distortion'
+    version: '3'
+    url: /frs/demos/director/d3/en/totaldistortion-demo-mac.zip
+-
+    id: ultrobot
+    platform: win
+    lang: en
+    title: 'Isaac Asimov''s The Ultimate Robot'
+    version: '3'
+    url: /frs/demos/director/d3/en/ultrobot-demo-win.zip
+-
+    id: verttice
+    platform: mac
+    lang: en
+    title: 'DreamLight Verttice'
+    version: '3'
+    url: /frs/demos/director/d3/en/verttice-mac-10.zip
+-
+    id: verttice
+    platform: mac
+    lang: en
+    title: 'DreamLight Verttice'
+    version: '3'
+    url: /frs/demos/director/d3/en/verttice-mac-11-ppc.zip
+-
+    id: verttice
+    platform: mac
+    lang: en
+    title: 'DreamLight Verttice'
+    version: '3'
+    url: /frs/demos/director/d3/en/verttice-mac-11.zip
+-
+    id: vvcyber
+    platform: mac
+    lang: en
+    title: 'Victor Vector & Yondo: The Cyberplasm Formula'
+    version: '3'
+    url: /frs/demos/director/d3/en/vvcyber-demo-mac.zip
+-
+    id: vvcyber
+    platform: win
+    lang: en
+    title: 'Victor Vector & Yondo: The Cyberplasm Formula'
+    version: '3'
+    url: /frs/demos/director/d3/en/vvcyber-demo-win.zip
+-
+    id: warlock
+    platform: mac
+    lang: en
+    title: 'Spaceship Warlock'
+    version: '3'
+    url: /frs/demos/director/d3/en/warlock-demo-mac-1994.zip
+-
+    id: warlock
+    platform: win
+    lang: en
+    title: 'Spaceship Warlock'
+    version: '3'
+    url: /frs/demos/director/d3/en/warlock-demo-win.zip
+-
+    id: wep
+    platform: win
+    lang: en
+    title: 'The Best of Microsoft Entertainment Pack'
+    version: '3'
+    url: /frs/demos/director/d3/en/wep-win.zip
+-
+    id: wrath
+    platform: win
+    lang: en
+    title: 'Wrath of the Gods'
+    version: '3'
+    url: /frs/demos/director/d3/en/wrath-demo-win.zip
+-
+    id: wriggle
+    platform: mac
+    lang: en
+    title: Wriggle
+    version: '3'
+    url: /frs/demos/director/d3/en/wriggle-demo-mac.zip
+-
+    id: xanthus
+    platform: mac
+    lang: en
+    title: Xanthus
+    version: '3'
+    url: /frs/demos/director/d3/en/xanthus-demo-mac.zip
+-
+    id: y2lpeanuts
+    platform: win
+    lang: en
+    title: 'Yearn2Learn: Peanuts'
+    version: '3'
+    url: /frs/demos/director/d3/en/y2lpeanuts-demo-win.zip
+-
+    id: y2lsnoopy
+    platform: win
+    lang: en
+    title: 'Yearn2Learn: Snoopy'
+    version: '3'
+    url: /frs/demos/director/d3/en/y2lsnoopy-demo-win.zip
+-
+    id: adam
+    platform: mac
+    lang: ja
+    title: A.D.A.M.
+    version: '3'
+    url: /frs/demos/director/d3/ja/adam-demo-mac-jp.zip
+-
+    id: adobedimensions
+    platform: mac
+    lang: ja
+    title: 'Professional Tips for Adobe Dimensions'
+    version: '3'
+    url: /frs/demos/director/d3/ja/adobedimensions-demo-mac-jp.zip
+-
+    id: alankay
+    platform: mac
+    lang: ja
+    title: 'Alan Kay CD-ROM Pack'
+    version: '3'
+    url: /frs/demos/director/d3/ja/alankay-demo-mac-jp.zip
+-
+    id: animaltown
+    platform: mac
+    lang: ja
+    title: わくわくアニマルタウン
+    version: '3'
+    url: /frs/demos/director/d3/ja/animaltown-demo-mac-jp.zip
+-
+    id: asylum300
+    platform: mac
+    lang: ja
+    title: 'Asylum 300'
+    version: '3'
+    url: /frs/demos/director/d3/ja/asylum300-demo-mac-jp.zip
+-
+    id: bakkunooni
+    platform: mac
+    lang: ja
+    title: 'VOLT-AGE バックの鬼 -侘-'
+    version: '3'
+    url: /frs/demos/director/d3/ja/bakkunooni-demo-mac-jp.zip
+-
+    id: bigtimemovie
+    platform: mac
+    lang: ja
+    title: 'Big Time Movie Studios'
+    version: '3'
+    url: /frs/demos/director/d3/ja/bigtimemovie-demo-mac-jp.zip
+-
+    id: businessmanager
+    platform: mac
+    lang: ja
+    title: '琢磨 BusinessManager'
+    version: '3'
+    url: /frs/demos/director/d3/ja/businessmanager-demo-mac-jp-351.zip
+-
+    id: businessmanager
+    platform: mac
+    lang: ja
+    title: '琢磨 BusinessManager'
+    version: '3'
+    url: /frs/demos/director/d3/ja/businessmanager-demo-mac-jp.zip
+-
+    id: calling
+    platform: mac
+    lang: ja
+    title: Calling
+    version: '3'
+    url: /frs/demos/director/d3/ja/calling-demo-mac-jp.zip
+-
+    id: cellofania
+    platform: mac
+    lang: ja
+    title: セロファニア
+    version: '3'
+    url: /frs/demos/director/d3/ja/cellofania-demo-mac-jp.zip
+-
+    id: chaos
+    platform: mac
+    lang: ja
+    title: 'The C.H.A.O.S. Continuum'
+    version: '3'
+    url: /frs/demos/director/d3/ja/chaos-demo-mac-jp.zip
+-
+    id: chisanaensoka
+    platform: mac
+    lang: ja
+    title: 小さな演奏家
+    version: '3'
+    url: /frs/demos/director/d3/ja/chisanaensoka-demo-mac-jp.zip
+-
+    id: chuckletime
+    platform: mac
+    lang: ja
+    title: チャックルタイム
+    version: '3'
+    url: /frs/demos/director/d3/ja/chuckletime-demo-mac-jp.zip
+-
+    id: creativeeye
+    platform: mac
+    lang: ja
+    title: 'Creative EYE'
+    version: '3'
+    url: /frs/demos/director/d3/ja/creativeeye-demo-mac-jp-9402.zip
+-
+    id: creativeeye
+    platform: mac
+    lang: ja
+    title: 'Creative EYE'
+    version: '3'
+    url: /frs/demos/director/d3/ja/creativeeye-demo-mac-jp-9406.zip
+-
+    id: cutie10
+    platform: mac
+    lang: ja
+    title: キューティ１０
+    version: '3'
+    url: /frs/demos/director/d3/ja/cutie10-demo-mac-jp.zip
+-
+    id: dinosafari
+    platform: mac
+    lang: ja
+    title: 'Dinosaur Safari'
+    version: '3'
+    url: /frs/demos/director/d3/ja/dinosafari-demo-mac-jp.zip
+-
+    id: edmark
+    platform: mac
+    lang: ja
+    title: 'Edmark Demo'
+    version: '3'
+    url: /frs/demos/director/d3/ja/edmark-mac-jp.zip
+-
+    id: fototune
+    platform: mac
+    lang: ja
+    title: 'FotoTune Multimedia Show'
+    version: '3'
+    url: /frs/demos/director/d3/ja/fototune-mac-jp.zip
+-
+    id: garyukeiba
+    platform: mac
+    lang: ja
+    title: 我流競馬
+    version: '3'
+    url: /frs/demos/director/d3/ja/garyukeiba-demo-mac-jp.zip
+-
+    id: goalrush1
+    platform: mac
+    lang: ja
+    title: 'Goal Rush!!'
+    version: '3'
+    url: /frs/demos/director/d3/ja/goalrush1-demo-mac-jp.zip
+-
+    id: goalrush2
+    platform: mac
+    lang: ja
+    title: 'Goal Rush!! 2 ～戦術分析編～'
+    version: '3'
+    url: /frs/demos/director/d3/ja/goalrush2-demo-mac-jp.zip
+-
+    id: granmarmalade
+    platform: mac
+    lang: ja
+    title: グラン・マーマレード・マジカル・ビレッジ
+    version: '3'
+    url: /frs/demos/director/d3/ja/granmarmalade-demo-mac-jp.zip
+-
+    id: henachoco
+    platform: mac
+    lang: ja
+    title: へなちょこダービー
+    version: '3'
+    url: /frs/demos/director/d3/ja/henachoco-demo-mac-jp.zip
+-
+    id: hikaruhana
+    platform: mac
+    lang: ja
+    title: 光る花
+    version: '3'
+    url: /frs/demos/director/d3/ja/hikaruhana-demo-mac-jp.zip
+-
+    id: hypercardlessons
+    platform: mac
+    lang: ja
+    title: 'HyperCard Lessons'
+    version: '3'
+    url: /frs/demos/director/d3/ja/hypercardlessons-demo-mac-jp.zip
+-
+    id: hypermaterial
+    platform: mac
+    lang: ja
+    title: 'Hyper Material'
+    version: '3'
+    url: /frs/demos/director/d3/ja/hypermaterial-demo-mac-jp.zip
+-
+    id: imgimpact
+    platform: mac
+    lang: ja
+    title: 'Images with Impact!'
+    version: '3'
+    url: /frs/demos/director/d3/ja/imgimpact-demo-mac-jp.zip
+-
+    id: intelligentnote
+    platform: mac
+    lang: ja
+    title: インテリジェントノート
+    version: '3'
+    url: /frs/demos/director/d3/ja/intelligentnote-demo-mac-jp.zip
+-
+    id: inugumi
+    platform: mac
+    lang: ja
+    title: 犬組
+    version: '3'
+    url: /frs/demos/director/d3/ja/inugumi-demo-mac-jp.zip
+-
+    id: ironhelix
+    platform: mac
+    lang: ja
+    title: 'Iron Helix'
+    version: '3'
+    url: /frs/demos/director/d3/ja/ironhelix-demo-mac-jp.zip
+-
+    id: jointnet
+    platform: mac
+    lang: ja
+    title: JOINT-net
+    version: '3'
+    url: /frs/demos/director/d3/ja/jointnet-demo-mac-jp.zip
+-
+    id: katsumadojo
+    platform: mac
+    lang: ja
+    title: 信光の勝馬道場
+    version: '3'
+    url: /frs/demos/director/d3/ja/katsumadojo-demo-mac-jp.zip
+-
+    id: kazuyakun
+    platform: mac
+    lang: ja
+    title: 数ヤ君
+    version: '3'
+    url: /frs/demos/director/d3/ja/kazuyakun-demo-mac-jp.zip
+-
+    id: keiri
+    platform: mac
+    lang: ja
+    title: 経理入門
+    version: '3'
+    url: /frs/demos/director/d3/ja/keiri-mac-jp.zip
+-
+    id: kishido
+    platform: mac
+    lang: ja
+    title: 棋士道
+    version: '3'
+    url: /frs/demos/director/d3/ja/kishido-demo-mac-jp.zip
+-
+    id: koyosha
+    platform: mac
+    lang: ja
+    title: 'Koyosha CD-INSPIREシリーズ'
+    version: '3'
+    url: /frs/demos/director/d3/ja/koyosha-demo-mac-jp.zip
+-
+    id: kpt
+    platform: mac
+    lang: ja
+    title: 'Kai''s Power Tools for Photoshop'
+    version: '3'
+    url: /frs/demos/director/d3/ja/kpt-demo-mac-jp.zip
+-
+    id: kyoto
+    platform: mac
+    lang: ja
+    title: 'Cosmology of Kyoto'
+    version: '3'
+    url: /frs/demos/director/d3/ja/kyoto-demo-mac-jp.zip
+-
+    id: lotus123
+    platform: mac
+    lang: ja
+    title: 'Lotus 1-2-3'
+    version: '3'
+    url: /frs/demos/director/d3/ja/lotus123-demo-mac-jp.zip
+-
+    id: macbasic
+    platform: mac
+    lang: ja
+    title: 'MacBASIC: Learning BASIC on HyperCard'
+    version: '3'
+    url: /frs/demos/director/d3/ja/macbasic-demo-mac-jp-c.zip
+-
+    id: macbasic
+    platform: mac
+    lang: ja
+    title: 'MacBASIC: Learning BASIC on HyperCard'
+    version: '3'
+    url: /frs/demos/director/d3/ja/macbasic-demo-mac-jp-m.zip
+-
+    id: maczaurus
+    platform: mac
+    lang: ja
+    title: 'Sharp Mac-Zaurus'
+    version: '3'
+    url: /frs/demos/director/d3/ja/maczaurus-demo-mac-jp.zip
+-
+    id: marinefantasy
+    platform: mac
+    lang: ja
+    title: '大方洋二の海中写真館 Marine Fantasy'
+    version: '3'
+    url: /frs/demos/director/d3/ja/marinefantasy-demo-mac-jp.zip
+-
+    id: mazebrew
+    platform: mac
+    lang: ja
+    title: MazeBrew
+    version: '3'
+    url: /frs/demos/director/d3/ja/mazebrew-demo-mac-jp.zip
+-
+    id: mipeterwolf
+    platform: mac
+    lang: ja
+    title: '～Music Island Vol.1～ "ピーターと狼"'
+    version: '3'
+    url: /frs/demos/director/d3/ja/mipeterwolf-demo-mac-jp.zip
+-
+    id: moderntimes
+    platform: mac
+    lang: ja
+    title: 'Charles Chaplin in Modern Times'
+    version: '3'
+    url: /frs/demos/director/d3/ja/moderntimes-demo-mac-jp.zip
+-
+    id: msgfromapple
+    platform: mac
+    lang: ja
+    title: 'Message from Apple'
+    version: '3'
+    url: /frs/demos/director/d3/ja/msgfromapple-mac-jp.zip
+-
+    id: murdersam
+    platform: mac
+    lang: ja
+    title: 'Who Killed Sam Rupert?'
+    version: '3'
+    url: /frs/demos/director/d3/ja/murdersam-demo-mac-jp.zip
+-
+    id: muzukashiihon
+    platform: mac
+    lang: ja
+    title: 難しい本を読むと眠くなる
+    version: '3'
+    url: /frs/demos/director/d3/ja/muzukashiihon-demo-mac-jp-alt.zip
+-
+    id: muzukashiihon
+    platform: mac
+    lang: ja
+    title: 難しい本を読むと眠くなる
+    version: '3'
+    url: /frs/demos/director/d3/ja/muzukashiihon-demo-mac-jp.zip
+-
+    id: negishihomes
+    platform: mac
+    lang: ja
+    title: 'Negishi Homes 建築見積ｿﾌﾄ'
+    version: '3'
+    url: /frs/demos/director/d3/ja/negishihomes-demo-mac-jp.zip
+-
+    id: nonta
+    platform: mac
+    lang: ja
+    title: のんたくんとゆかいななかまたち
+    version: '3'
+    url: /frs/demos/director/d3/ja/nonta-demo-mac-jp.zip
+-
+    id: novacity
+    platform: mac
+    lang: ja
+    title: 'Nova City'
+    version: '3'
+    url: /frs/demos/director/d3/ja/novacity-demo-mac-jp.zip
+-
+    id: nsxpress
+    platform: mac
+    lang: ja
+    title: 'Honda NSX Press CD-ROM'
+    version: '3'
+    url: /frs/demos/director/d3/ja/nsxpress-demo-mac-jp.zip
+-
+    id: oceansbelow
+    platform: mac
+    lang: ja
+    title: 'Oceans Below'
+    version: '3'
+    url: /frs/demos/director/d3/ja/oceansbelow-demo-mac-jp.zip
+-
+    id: olnet
+    platform: mac
+    lang: ja
+    title: 'Open Library'
+    version: '3'
+    url: /frs/demos/director/d3/ja/olnet-demo-mac-jp-lite.zip
+-
+    id: olnet
+    platform: mac
+    lang: ja
+    title: 'Open Library'
+    version: '3'
+    url: /frs/demos/director/d3/ja/olnet-demo-mac-jp-net.zip
+-
+    id: peaceland
+    platform: mac
+    lang: ja
+    title: PeaceLand
+    version: '3'
+    url: /frs/demos/director/d3/ja/peaceland-demo-mac-jp.zip
+-
+    id: picturecard
+    platform: mac
+    lang: ja
+    title: 絵カード訓練システム
+    version: '3'
+    url: /frs/demos/director/d3/ja/picturecard-demo-mac-jp.zip
+-
+    id: presenpack
+    platform: mac
+    lang: ja
+    title: 'Director PresenPack'
+    version: '3'
+    url: /frs/demos/director/d3/ja/presenpack-mac-jp.zip
+-
+    id: pressit
+    platform: mac
+    lang: ja
+    title: PRESSiT
+    version: '3'
+    url: /frs/demos/director/d3/ja/pressit-demo-mac-jp.zip
+-
+    id: pyramidint
+    platform: mac
+    lang: ja
+    title: 'Pyramid Interactive'
+    version: '3'
+    url: /frs/demos/director/d3/ja/pyramidint-demo-mac-jp.zip
+-
+    id: raydream
+    platform: mac
+    lang: ja
+    title: 'Ray Dream Designer'
+    version: '3'
+    url: /frs/demos/director/d3/ja/raydream-demo-mac-jp.zip
+-
+    id: schoolworld
+    platform: mac
+    lang: ja
+    title: 'A-L: Artificial Life: School World'
+    version: '3'
+    url: /frs/demos/director/d3/ja/schoolworld-demo-mac-jp.zip
+-
+    id: scripting
+    platform: mac
+    lang: ja
+    title: 'Macromedia Director Lingo Scripting Technology'
+    version: '3'
+    url: /frs/demos/director/d3/ja/scripting-demo-mac-jp-1.zip
+-
+    id: scripting
+    platform: mac
+    lang: ja
+    title: 'Macromedia Director Lingo Scripting Technology'
+    version: '3'
+    url: /frs/demos/director/d3/ja/scripting-demo-mac-jp-2.zip
+-
+    id: sculpt4d
+    platform: mac
+    lang: ja
+    title: 'Sculpt 4D'
+    version: '3'
+    url: /frs/demos/director/d3/ja/sculpt4d-demo-mac-jp-1.zip
+-
+    id: strata
+    platform: mac
+    lang: ja
+    title: 'Strata Studio Pro'
+    version: '3'
+    url: /frs/demos/director/d3/ja/strata-demo-mac-jp.zip
+-
+    id: tokon5
+    platform: mac
+    lang: ja
+    title: '闘魂V: 長州 力'
+    version: '3'
+    url: /frs/demos/director/d3/ja/tokon5-demo-mac-jp.zip
+-
+    id: toonet11
+    platform: mac
+    lang: ja
+    title: TooNet11
+    version: '3'
+    url: /frs/demos/director/d3/ja/toonet11-demo-mac-jp.zip
+-
+    id: totaldistortion
+    platform: mac
+    lang: ja
+    title: 'Total Distortion'
+    version: '3'
+    url: /frs/demos/director/d3/ja/totaldistortion-demo-mac-jp.zip
+-
+    id: transland
+    platform: mac
+    lang: ja
+    title: トランスランド
+    version: '3'
+    url: /frs/demos/director/d3/ja/transland-demo-mac-jp.zip
+-
+    id: tree
+    platform: mac
+    lang: ja
+    title: 'Onyx Tree Pro'
+    version: '3'
+    url: /frs/demos/director/d3/ja/tree-demo-mac-jp.zip
+-
+    id: ttw
+    platform: mac
+    lang: ja
+    title: 'Through the Window: In Search for the Lost Bag'
+    version: '3'
+    url: /frs/demos/director/d3/ja/ttw-demo-mac-jp.zip
+-
+    id: ukiuki1
+    platform: mac
+    lang: ja
+    title: 'ウキウキ釣り天国 ～幻の天狗池～'
+    version: '3'
+    url: /frs/demos/director/d3/ja/ukiuki1-demo-mac-jp.zip
+-
+    id: ukiukistamp
+    platform: mac
+    lang: ja
+    title: うきうきスタンプ
+    version: '3'
+    url: /frs/demos/director/d3/ja/ukiukistamp-demo-mac-jp.zip
+-
+    id: ukyo1
+    platform: mac
+    lang: ja
+    title: うきょー1
+    version: '3'
+    url: /frs/demos/director/d3/ja/ukyo1-demo-mac-jp.zip
+-
+    id: vcb
+    platform: mac
+    lang: ja
+    title: 'Virtual Cocktail Bar 200種類のカクテルのデータベース'
+    version: '3'
+    url: /frs/demos/director/d3/ja/vcb-demo-mac-jp.zip
+-
+    id: vvs
+    platform: mac
+    lang: ja
+    title: 'Virtual Variety Show'
+    version: '3'
+    url: /frs/demos/director/d3/ja/vvs-demo-mac-jp.zip
+-
+    id: wonderompm
+    platform: mac
+    lang: ja
+    title: アルダスページメーカー4.5J速習用CD-ROM
+    version: '3'
+    url: /frs/demos/director/d3/ja/wonderompm-demo-mac-jp.zip
+-
+    id: y2lsnoopy
+    platform: mac
+    lang: ja
+    title: 'Yearn2Learn: Snoopy'
+    version: '3'
+    url: /frs/demos/director/d3/ja/y2lsnoopy-demo-mac-jp.zip
+-
+    id: zaibatsu
+    platform: mac
+    lang: ja
+    title: 財閥銀行
+    version: '3'
+    url: /frs/demos/director/d3/ja/zaibatsu-demo-mac-jp.zip
+-
+    id: backgrounds
+    platform: mac
+    lang: en
+    title: 'Backgrounds for Multimedia Series'
+    version: '2'
+    url: /frs/demos/director/d2/en/backgrounds-demo-mac.zip
+-
+    id: system7smash
+    platform: mac
+    lang: en
+    title: 'System 7 is a SMASH!'
+    version: '2'
+    url: /frs/demos/director/d2/en/system7smash-mac.zip
+-
+    id: warlock
+    platform: mac
+    lang: en
+    title: 'Spaceship Warlock'
+    version: '2'
+    url: /frs/demos/director/d2/en/warlock-demo-mac-100.zip
+-
+    id: warlock
+    platform: mac
+    lang: en
+    title: 'Spaceship Warlock'
+    version: '2'
+    url: /frs/demos/director/d2/en/warlock-demo-mac-111.zip
+-
+    id: osmo
+    platform: mac
+    lang: en
+    title: 'Cosmic Osmo and the Worlds Beyond the Mackerel'
+    version: '1'
+    url: /frs/demos/director/d1/en/osmo-demo-cd-mac.zip
+-
+    id: rosettastone
+    platform: mac
+    lang: ja
+    title: 'The Rosetta Stone'
+    version: '1'
+    url: /frs/demos/director/d1/ja/rosettastone-demo-mac-jp.zip
+-
+    id: bigsound
+    platform: mac
+    lang: en
+    title: 'BigSound VW Player'
+    version: '0'
+    url: /frs/demos/director/d0/en/bigsound-mac.zip
+-
+    id: freehand
+    platform: mac
+    lang: en
+    title: 'Aldus FreeHand 2.0'
+    version: '0'
+    url: /frs/demos/director/d0/en/freehand-demo-mac.zip
+-
+    id: geoquery
+    platform: mac
+    lang: en
+    title: 'Odesta GeoQuery'
+    version: '0'
+    url: /frs/demos/director/d0/en/geoquery-demo-mac.zip
+-
+    id: ideacomm
+    platform: mac
+    lang: en
+    title: 'IDEAcomm Mac'
+    version: '0'
+    url: /frs/demos/director/d0/en/ideacomm-demo-mac.zip
+-
+    id: illustrator88
+    platform: mac
+    lang: en
+    title: 'Adobe Illustrator 88'
+    version: '0'
+    url: /frs/demos/director/d0/en/illustrator88-demo-mac.zip
+-
+    id: macportable
+    platform: mac
+    lang: en
+    title: 'Your Apple Tour of the Macintosh Portable'
+    version: '0'
+    url: /frs/demos/director/d0/en/macportable-mac.zip
+-
+    id: musicpublisher
+    platform: mac
+    lang: en
+    title: 'Graphic Notes Music Publisher'
+    version: '0'
+    url: /frs/demos/director/d0/en/musicpublisher-demo-mac.zip
+-
+    id: osmo
+    platform: mac
+    lang: en
+    title: 'Cosmic Osmo and the Worlds Beyond the Mackerel'
+    version: '0'
+    url: /frs/demos/director/d0/en/osmo-demo-mac.zip
+-
+    id: pspice
+    platform: mac
+    lang: en
+    title: 'MicroSim PSpice'
+    version: '0'
+    url: /frs/demos/director/d0/en/pspice-demo-mac.zip
+-
+    id: shatter
+    platform: mac
+    lang: en
+    title: 'Shatter by Mike Saenz'
+    version: '0'
+    url: /frs/demos/director/d0/en/shatter-demo-mac.zip
+-
+    id: 3datlas97
+    platform: win
+    lang: en
+    title: '3D Atlas 97'
+    version: '4'
+    url: /frs/demos/director/d4/en/3datlas97-demo-win.zip
+-
+    id: antsafire
+    platform: mac
+    lang: en
+    title: 'Ants Afire!'
+    version: '4'
+    url: /frs/demos/director/d4/en/antsafire-mac.zip
+-
+    id: aol
+    platform: mac
+    lang: en
+    title: 'America Online'
+    version: '4'
+    url: /frs/demos/director/d4/en/aol-demo-mac.zip
+-
+    id: aol
+    platform: win
+    lang: en
+    title: 'America Online'
+    version: '4'
+    url: /frs/demos/director/d4/en/aol-demo-win.zip
+-
+    id: applestore
+    platform: mac
+    lang: en
+    title: 'Apple Company Store'
+    version: '4'
+    url: /frs/demos/director/d4/en/applestore-mac.zip
+-
+    id: arcofdoom
+    platform: mac
+    lang: en
+    title: 'Arc of Doom'
+    version: '4'
+    url: /frs/demos/director/d4/en/arcofdoom-demo-mac.zip
+-
+    id: ataripack
+    platform: win
+    lang: en
+    title: 'Activision''s Atari 2600 Action Pack'
+    version: '4'
+    url: /frs/demos/director/d4/en/ataripack-demo-win.zip
+-
+    id: bht
+    platform: win
+    lang: en
+    title: 'A Brief History of Time: An Interactive Adventure'
+    version: '4'
+    url: /frs/demos/director/d4/en/bht-demo-win.zip
+-
+    id: blaster
+    platform: win
+    lang: en
+    title: 'Blaster Series Demo'
+    version: '4'
+    url: /frs/demos/director/d4/en/blaster-win.zip
+-
+    id: blockbuster2
+    platform: win
+    lang: en
+    title: 'Blockbuster Guide to Movies & Videos, 2nd Edition'
+    version: '4'
+    url: /frs/demos/director/d4/en/blockbuster2-demo-win.zip
+-
+    id: bugbook
+    platform: win
+    lang: en
+    title: 'The Multimedia Bug Book'
+    version: '4'
+    url: /frs/demos/director/d4/en/bugbook-demo-win.zip
+-
+    id: c64pack
+    platform: win
+    lang: en
+    title: 'Buena Vista International 1997 Promotional Interactive CD-ROM'
+    version: '4'
+    url: /frs/demos/director/d4/en/c64pack-demo-win.zip
+-
+    id: catseyeview
+    platform: mac
+    lang: en
+    title: 'Cat''s Eye View'
+    version: '4'
+    url: /frs/demos/director/d4/en/catseyeview-demo-mac.zip
+-
+    id: chuckaduck
+    platform: mac
+    lang: en
+    title: 'Chop Suey'
+    version: '4'
+    url: /frs/demos/director/d4/en/chuckaduck-mac.zip
+-
+    id: chuniverse
+    platform: win
+    lang: en
+    title: 'The Challenge of the Universe'
+    version: '4'
+    url: /frs/demos/director/d4/en/chuniverse-demo-win.zip
+-
+    id: cinemac
+    platform: mac
+    lang: en
+    title: 'CineMac Screen Saver Factory'
+    version: '4'
+    url: /frs/demos/director/d4/en/cinemac-demo-mac.zip
+-
+    id: circus
+    platform: mac
+    lang: en
+    title: Circus!
+    version: '4'
+    url: /frs/demos/director/d4/en/circus-demo-mac.zip
+-
+    id: circus
+    platform: win
+    lang: en
+    title: Circus!
+    version: '4'
+    url: /frs/demos/director/d4/en/circus-demo-win.zip
+-
+    id: cmc
+    platform: win
+    lang: en
+    title: 'Creative Multimedia Catalog'
+    version: '4'
+    url: /frs/demos/director/d4/en/cmc-win.zip
+-
+    id: connections
+    platform: win
+    lang: en
+    title: Connections
+    version: '4'
+    url: /frs/demos/director/d4/en/connections-demo-win.zip
+-
+    id: ctrain
+    platform: win
+    lang: en
+    title: 'Doing it in C++'
+    version: '4'
+    url: /frs/demos/director/d4/en/ctrain-demo-win.zip
+-
+    id: d
+    platform: win
+    lang: en
+    title: D
+    version: '4'
+    url: /frs/demos/director/d4/en/d-demo-win.zip
+-
+    id: dailymail100
+    platform: win
+    lang: en
+    title: 'Daily Mail Centenary: 100 Amazing Years'
+    version: '4'
+    url: /frs/demos/director/d4/en/dailymail100-win.zip
+-
+    id: davidsonpp
+    platform: win
+    lang: en
+    title: 'Davidson Product Previews'
+    version: '4'
+    url: /frs/demos/director/d4/en/davidsonpp-win.zip
+-
+    id: dazzeloids
+    platform: mac
+    lang: en
+    title: Dazzeloids
+    version: '4'
+    url: /frs/demos/director/d4/en/dazzeloids-demo-mac.zip
+-
+    id: derratsorcerum
+    platform: mac
+    lang: en
+    title: 'Derrat Sorcerum'
+    version: '4'
+    url: /frs/demos/director/d4/en/derratsorcerum-demo-mac.zip
+-
+    id: dkmm2
+    platform: mac
+    lang: en
+    title: 'Dorling Kindersley Multimedia Sampler Disc 2'
+    version: '4'
+    url: /frs/demos/director/d4/en/dkmm2-mac.zip
+-
+    id: dkmm2
+    platform: win
+    lang: en
+    title: 'Dorling Kindersley Multimedia Sampler Disc 2'
+    version: '4'
+    url: /frs/demos/director/d4/en/dkmm2-win.zip
+-
+    id: dreidel
+    platform: mac
+    lang: en
+    title: 'DreidelLand: An Electronic Hanukah Treat'
+    version: '4'
+    url: /frs/demos/director/d4/en/dreidel-mac.zip
+-
+    id: earthwormjim
+    platform: win
+    lang: en
+    title: 'Earthworm Jim'
+    version: '4'
+    url: /frs/demos/director/d4/en/earthwormjim-demo-win.zip
+-
+    id: elmopreschool
+    platform: win
+    lang: en
+    title: 'Elmo''s Preschool'
+    version: '4'
+    url: /frs/demos/director/d4/en/elmopreschool-demo-win.zip
+-
+    id: elroypave
+    platform: mac
+    lang: en
+    title: 'Elroy Hits the Pavement'
+    version: '4'
+    url: /frs/demos/director/d4/en/elroypave-demo-mac.zip
+-
+    id: elroypave
+    platform: win
+    lang: en
+    title: 'Elroy Hits the Pavement'
+    version: '4'
+    url: /frs/demos/director/d4/en/elroypave-demo-win.zip
+-
+    id: emme
+    platform: mac
+    lang: en
+    title: 'E.M.M.E. Interactive: The Keys to Knowledge'
+    version: '4'
+    url: /frs/demos/director/d4/en/emme-mac.zip
+-
+    id: emme
+    platform: win
+    lang: en
+    title: 'E.M.M.E. Interactive: The Keys to Knowledge'
+    version: '4'
+    url: /frs/demos/director/d4/en/emme-win.zip
+-
+    id: famalbum
+    platform: win
+    lang: en
+    title: 'Family Album Creator'
+    version: '4'
+    url: /frs/demos/director/d4/en/famalbum-demo-win.zip
+-
+    id: famdoc4
+    platform: win
+    lang: en
+    title: 'The Family Doctor, 4th Edition'
+    version: '4'
+    url: /frs/demos/director/d4/en/famdoc4-demo-win.zip
+-
+    id: fppirates
+    platform: mac
+    lang: en
+    title: 'Great Adventures by Fisher-Price: Pirates'
+    version: '4'
+    url: /frs/demos/director/d4/en/fppirates-demo-mac.zip
+-
+    id: fppuddlebooks
+    platform: mac
+    lang: en
+    title: 'Fisher-Price Read & Play: Puddle Books Demos'
+    version: '4'
+    url: /frs/demos/director/d4/en/fppuddlebooks-mac.zip
+-
+    id: fppuddlebooks
+    platform: win
+    lang: en
+    title: 'Fisher-Price Read & Play: Puddle Books Demos'
+    version: '4'
+    url: /frs/demos/director/d4/en/fppuddlebooks-win.zip
+-
+    id: frankenstein
+    platform: mac
+    lang: en
+    title: 'Frankenstein: Through the Eyes of the Monster'
+    version: '4'
+    url: /frs/demos/director/d4/en/frankenstein-demo-mac.zip
+-
+    id: frankenstein
+    platform: win
+    lang: en
+    title: 'Frankenstein: Through the Eyes of the Monster'
+    version: '4'
+    url: /frs/demos/director/d4/en/frankenstein-demo-win.zip
+-
+    id: fsky
+    platform: mac
+    lang: en
+    title: 'A Field Trip to the Sky'
+    version: '4'
+    url: /frs/demos/director/d4/en/fsky-demo-mac.zip
+-
+    id: gundam0079
+    platform: mac
+    lang: en
+    title: 'Gundam 0079: The War for Earth'
+    version: '4'
+    url: /frs/demos/director/d4/en/gundam0079-demo-mac.zip
+-
+    id: gusbuds
+    platform: mac
+    lang: en
+    title: 'Gus and the CyberBuds Learning Adventure Series'
+    version: '4'
+    url: /frs/demos/director/d4/en/gusbuds-mac.zip
+-
+    id: gusbuds
+    platform: win
+    lang: en
+    title: 'Gus and the CyberBuds Learning Adventure Series'
+    version: '4'
+    url: /frs/demos/director/d4/en/gusbuds-win.zip
+-
+    id: guscarn
+    platform: mac
+    lang: en
+    title: 'Gus Goes to the Kooky Carnival'
+    version: '4'
+    url: /frs/demos/director/d4/en/guscarn-demo-mac.zip
+-
+    id: gusolis
+    platform: mac
+    lang: en
+    title: 'Gus Goes to Cyberopolis'
+    version: '4'
+    url: /frs/demos/director/d4/en/gusolis-demo-mac.zip
+-
+    id: gustown
+    platform: mac
+    lang: en
+    title: 'Gus Goes to Cybertown'
+    version: '4'
+    url: /frs/demos/director/d4/en/gustown-demo-mac.zip
+-
+    id: headbone
+    platform: mac
+    lang: en
+    title: 'Headbone CD-ROM Sampler'
+    version: '4'
+    url: /frs/demos/director/d4/en/headbone-mac-1.zip
+-
+    id: headbone
+    platform: win
+    lang: en
+    title: 'Headbone CD-ROM Sampler'
+    version: '4'
+    url: /frs/demos/director/d4/en/headbone-win-1.zip
+-
+    id: hyperblade
+    platform: win
+    lang: en
+    title: HyperBlade
+    version: '4'
+    url: /frs/demos/director/d4/en/hyperblade-demo-win.zip
+-
+    id: imagineers
+    platform: mac
+    lang: en
+    title: 'The Imagineers'
+    version: '4'
+    url: /frs/demos/director/d4/en/imagineers-demo-mac.zip
+-
+    id: incoming
+    platform: win
+    lang: en
+    title: iNCOMING
+    version: '4'
+    url: /frs/demos/director/d4/en/incoming-win.zip
+-
+    id: infinitycity
+    platform: mac
+    lang: en
+    title: 'Infinity City'
+    version: '4'
+    url: /frs/demos/director/d4/en/infinitycity-demo-mac.zip
+-
+    id: infinitycity
+    platform: win
+    lang: en
+    title: 'Infinity City'
+    version: '4'
+    url: /frs/demos/director/d4/en/infinitycity-demo-win.zip
+-
+    id: iona
+    platform: mac
+    lang: en
+    title: 'Iona Software Demo CD'
+    version: '4'
+    url: /frs/demos/director/d4/en/iona-demo-mac-96.zip
+-
+    id: iona
+    platform: win
+    lang: en
+    title: 'Iona Software Demo CD'
+    version: '4'
+    url: /frs/demos/director/d4/en/iona-demo-win-96.zip
+-
+    id: jewels
+    platform: win
+    lang: en
+    title: 'Jewels of the Oracle'
+    version: '4'
+    url: /frs/demos/director/d4/en/jewels-demo-win.zip
+-
+    id: jman
+    platform: mac
+    lang: en
+    title: 'The Journeyman Project'
+    version: '4'
+    url: /frs/demos/director/d4/en/jman-demo-mac-img.zip
+-
+    id: jman2
+    platform: mac
+    lang: en
+    title: 'The Journeyman Project 2: Buried in Time'
+    version: '4'
+    url: /frs/demos/director/d4/en/jman2-demo-mac-062294.zip
+-
+    id: jman2
+    platform: mac
+    lang: en
+    title: 'The Journeyman Project 2: Buried in Time'
+    version: '4'
+    url: /frs/demos/director/d4/en/jman2-demo-mac-final.zip
+-
+    id: jman2
+    platform: mac
+    lang: en
+    title: 'The Journeyman Project 2: Buried in Time'
+    version: '4'
+    url: /frs/demos/director/d4/en/jman2-demo-mac-gallery.zip
+-
+    id: jman2
+    platform: mac
+    lang: en
+    title: 'The Journeyman Project 2: Buried in Time'
+    version: '4'
+    url: /frs/demos/director/d4/en/jman2-demo-mac-overview.zip
+-
+    id: kfk
+    platform: win
+    lang: en
+    title: 'Kung Fu Kim'
+    version: '4'
+    url: /frs/demos/director/d4/en/kfk-win.zip
+-
+    id: kidtools
+    platform: win
+    lang: en
+    title: 'Kid Tools Series Demo'
+    version: '4'
+    url: /frs/demos/director/d4/en/kidtools-win.zip
+-
+    id: laughingbird
+    platform: mac
+    lang: en
+    title: 'The Laughing Bird Restaurant'
+    version: '4'
+    url: /frs/demos/director/d4/en/laughingbird-mac.zip
+-
+    id: letters
+    platform: win
+    lang: en
+    title: Letters
+    version: '4'
+    url: /frs/demos/director/d4/en/letters-demo-win.zip
+-
+    id: lion
+    platform: mac
+    lang: en
+    title: Lion
+    version: '4'
+    url: /frs/demos/director/d4/en/lion-demo-mac.zip
+-
+    id: macos8
+    platform: mac
+    lang: en
+    title: 'Mac OS 8'
+    version: '4'
+    url: /frs/demos/director/d4/en/macos8-demo-mac.zip
+-
+    id: madpup
+    platform: win
+    lang: en
+    title: 'Madeline and the Magnificent Puppet Show: A Learning Journey'
+    version: '4'
+    url: /frs/demos/director/d4/en/madpup-demo-win-1.zip
+-
+    id: madpup
+    platform: win
+    lang: en
+    title: 'Madeline and the Magnificent Puppet Show: A Learning Journey'
+    version: '4'
+    url: /frs/demos/director/d4/en/madpup-demo-win-2.zip
+-
+    id: madtg
+    platform: win
+    lang: en
+    title: 'Madeline Thinking Games'
+    version: '4'
+    url: /frs/demos/director/d4/en/madtg-demo-win-1996.zip
+-
+    id: mastermansion
+    platform: win
+    lang: en
+    title: 'Masterpiece Mansion'
+    version: '4'
+    url: /frs/demos/director/d4/en/mastermansion-demo-win.zip
+-
+    id: mathblasterjr
+    platform: mac
+    lang: en
+    title: 'Math Blaster Jr.'
+    version: '4'
+    url: /frs/demos/director/d4/en/mathblasterjr-demo-mac.zip
+-
+    id: mathtest
+    platform: mac
+    lang: en
+    title: 'Math Test'
+    version: '4'
+    url: /frs/demos/director/d4/en/mathtest-mac.zip
+-
+    id: mcmillennium
+    platform: win
+    lang: en
+    title: 'Mission Code: Millennium'
+    version: '4'
+    url: /frs/demos/director/d4/en/mcmillennium-demo-win.zip
+-
+    id: mechwarrior2
+    platform: win
+    lang: en
+    title: 'MechWarrior 2'
+    version: '4'
+    url: /frs/demos/director/d4/en/mechwarrior2-demo-win.zip
+-
+    id: mediabook
+    platform: mac
+    lang: en
+    title: 'The MediaBook CD for Director'
+    version: '4'
+    url: /frs/demos/director/d4/en/mediabook-demo-mac-sampler.zip
+-
+    id: mediabook
+    platform: mac
+    lang: en
+    title: 'The MediaBook CD for Director'
+    version: '4'
+    url: /frs/demos/director/d4/en/mediabook-demo-mac-toolbox.zip
+-
+    id: msoffice
+    platform: mac
+    lang: en
+    title: 'Microsoft Office'
+    version: '4'
+    url: /frs/demos/director/d4/en/msoffice-demo-mac.zip
+-
+    id: msoffice
+    platform: win
+    lang: en
+    title: 'Microsoft Office'
+    version: '4'
+    url: /frs/demos/director/d4/en/msoffice-demo-win.zip
+-
+    id: muppets
+    platform: win
+    lang: en
+    title: 'Muppet Treasure Island'
+    version: '4'
+    url: /frs/demos/director/d4/en/muppets-demo-win.zip
+-
+    id: necrobius
+    platform: win
+    lang: en
+    title: Necrobius
+    version: '4'
+    url: /frs/demos/director/d4/en/necrobius-demo-win.zip
+-
+    id: newslinks
+    platform: win
+    lang: en
+    title: 'ABC NewsLinks'
+    version: '4'
+    url: /frs/demos/director/d4/en/newslinks-demo-win.zip
+-
+    id: nine
+    platform: win
+    lang: en
+    title: '9: The Last Resort'
+    version: '4'
+    url: /frs/demos/director/d4/en/nine-demo-win.zip
+-
+    id: nixon
+    platform: win
+    lang: en
+    title: 'Nixon: Watergate'
+    version: '4'
+    url: /frs/demos/director/d4/en/nixon-demo-win.zip
+-
+    id: noir
+    platform: win
+    lang: en
+    title: 'Noir: A Shadowy Thriller'
+    version: '4'
+    url: /frs/demos/director/d4/en/noir-demo-win.zip
+-
+    id: nomis
+    platform: mac
+    lang: en
+    title: Nomis
+    version: '4'
+    url: /frs/demos/director/d4/en/nomis-mac.zip
+-
+    id: origin
+    platform: win
+    lang: en
+    title: 'Origin Systems Product Catalog'
+    version: '4'
+    url: /frs/demos/director/d4/en/origin-win-v11.zip
+-
+    id: origin
+    platform: win
+    lang: en
+    title: 'Origin Systems Product Catalog'
+    version: '4'
+    url: /frs/demos/director/d4/en/origin-win-v6.zip
+-
+    id: origin
+    platform: win
+    lang: en
+    title: 'Origin Systems Product Catalog'
+    version: '4'
+    url: /frs/demos/director/d4/en/origin-win-v7.zip
+-
+    id: origin
+    platform: win
+    lang: en
+    title: 'Origin Systems Product Catalog'
+    version: '4'
+    url: /frs/demos/director/d4/en/origin-win-v8.zip
+-
+    id: pagemaker
+    platform: mac
+    lang: en
+    title: 'Aldus PageMaker'
+    version: '4'
+    url: /frs/demos/director/d4/en/pagemaker-demo-mac.zip
+-
+    id: parliament
+    platform: win
+    lang: en
+    title: 'People & Parliament: A Stranger''s Guide to Westminster'
+    version: '4'
+    url: /frs/demos/director/d4/en/parliament-win.zip
+-
+    id: pbbear
+    platform: win
+    lang: en
+    title: 'P. B. Bear''s Birthday Party'
+    version: '4'
+    url: /frs/demos/director/d4/en/pbbear-demo-win.zip
+-
+    id: photos4us
+    platform: mac
+    lang: en
+    title: Photos4us
+    version: '4'
+    url: /frs/demos/director/d4/en/photos4us-demo-mac.zip
+-
+    id: pitfall
+    platform: win
+    lang: en
+    title: 'Pitfall: The Mayan Adventure'
+    version: '4'
+    url: /frs/demos/director/d4/en/pitfall-demo-win.zip
+-
+    id: playskool
+    platform: mac
+    lang: en
+    title: 'Playskool Software Experience'
+    version: '4'
+    url: /frs/demos/director/d4/en/playskool-mac.zip
+-
+    id: playskool
+    platform: win
+    lang: en
+    title: 'Playskool Software Experience'
+    version: '4'
+    url: /frs/demos/director/d4/en/playskool-win.zip
+-
+    id: prangers1
+    platform: mac
+    lang: en
+    title: 'PowerRangers Part 1'
+    version: '4'
+    url: /frs/demos/director/d4/en/prangers1-mac.zip
+-
+    id: prangers2
+    platform: mac
+    lang: en
+    title: 'PowerRangers Part 2'
+    version: '4'
+    url: /frs/demos/director/d4/en/prangers2-mac.zip
+-
+    id: princeint
+    platform: mac
+    lang: en
+    title: 'Prince Interactive'
+    version: '4'
+    url: /frs/demos/director/d4/en/princeint-demo-mac.zip
+-
+    id: princeint
+    platform: win
+    lang: en
+    title: 'Prince Interactive'
+    version: '4'
+    url: /frs/demos/director/d4/en/princeint-demo-win.zip
+-
+    id: psych
+    platform: mac
+    lang: en
+    title: 'Psych: An Interactive Stress Buster!'
+    version: '4'
+    url: /frs/demos/director/d4/en/psych-mac-105.zip
+-
+    id: psych
+    platform: mac
+    lang: en
+    title: 'Psych: An Interactive Stress Buster!'
+    version: '4'
+    url: /frs/demos/director/d4/en/psych-mac-201.zip
+-
+    id: readblasterjr
+    platform: mac
+    lang: en
+    title: 'Reading Blaster Jr.'
+    version: '4'
+    url: /frs/demos/director/d4/en/readblasterjr-demo-mac.zip
+-
+    id: redshift
+    platform: mac
+    lang: en
+    title: 'RedShift: Multimedia Astronomy'
+    version: '4'
+    url: /frs/demos/director/d4/en/redshift-demo-mac-1994.zip
+-
+    id: santafe1
+    platform: win
+    lang: en
+    title: 'Santa Fe Mysteries: The Elk Moon Murder'
+    version: '4'
+    url: /frs/demos/director/d4/en/santafe1-demo-win.zip
+-
+    id: searchlearn
+    platform: win
+    lang: en
+    title: 'Search & Learn Adventures'
+    version: '4'
+    url: /frs/demos/director/d4/en/searchlearn-demo-win.zip
+-
+    id: sensei
+    platform: mac
+    lang: en
+    title: Sensei
+    version: '4'
+    url: /frs/demos/director/d4/en/sensei-mac.zip
+-
+    id: shanghai
+    platform: win
+    lang: en
+    title: 'Shanghai: Great Moments'
+    version: '4'
+    url: /frs/demos/director/d4/en/shanghai-demo-win.zip
+-
+    id: shramerica
+    platform: win
+    lang: en
+    title: 'Schoolhouse Rock!: America Rock'
+    version: '4'
+    url: /frs/demos/director/d4/en/shramerica-demo-win.zip
+-
+    id: shrgrammar
+    platform: win
+    lang: en
+    title: 'Schoolhouse Rock!: Grammar Rock'
+    version: '4'
+    url: /frs/demos/director/d4/en/shrgrammar-demo-win.zip
+-
+    id: shrmath
+    platform: win
+    lang: en
+    title: 'Schoolhouse Rock!: Math Rock'
+    version: '4'
+    url: /frs/demos/director/d4/en/shrmath-demo-win.zip
+-
+    id: skyborg
+    platform: win
+    lang: en
+    title: 'SkyBorg: Into the Vortex'
+    version: '4'
+    url: /frs/demos/director/d4/en/skyborg-demo-win.zip
+-
+    id: smashsounds1
+    platform: win
+    lang: en
+    title: 'Smash Sounds Volume 1'
+    version: '4'
+    url: /frs/demos/director/d4/en/smashsounds1-demo-win.zip
+-
+    id: spycraft
+    platform: win
+    lang: en
+    title: 'Spycraft: The Great Game'
+    version: '4'
+    url: /frs/demos/director/d4/en/spycraft-demo-win.zip
+-
+    id: sscocacola
+    platform: mac
+    lang: en
+    title: 'Coca-Cola Screen Saver'
+    version: '4'
+    url: /frs/demos/director/d4/en/sscocacola-mac.zip
+-
+    id: ssdietcoke
+    platform: mac
+    lang: en
+    title: 'Diet Coke Screen Saver'
+    version: '4'
+    url: /frs/demos/director/d4/en/ssdietcoke-mac.zip
+-
+    id: sslivepicture
+    platform: mac
+    lang: en
+    title: 'Live Picture Screen Saver'
+    version: '4'
+    url: /frs/demos/director/d4/en/sslivepicture-mac.zip
+-
+    id: tommy
+    platform: win
+    lang: en
+    title: 'Pete Townshend Presents Tommy: The Interactive Adventure'
+    version: '4'
+    url: /frs/demos/director/d4/en/tommy-demo-win.zip
+-
+    id: tonetrakker
+    platform: win
+    lang: en
+    title: 'Tone Trakker'
+    version: '4'
+    url: /frs/demos/director/d4/en/tonetrakker-demo-win.zip
+-
+    id: toyota95
+    platform: mac
+    lang: en
+    title: '1995 Toyota Interactive'
+    version: '4'
+    url: /frs/demos/director/d4/en/toyota95-mac.zip
+-
+    id: trektech
+    platform: mac
+    lang: en
+    title: 'Star Trek: The Next Generation Interactive Technical Manual'
+    version: '4'
+    url: /frs/demos/director/d4/en/trektech-demo-mac.zip
+-
+    id: ubt
+    platform: win
+    lang: en
+    title: 'Under the Big Top'
+    version: '4'
+    url: /frs/demos/director/d4/en/ubt-win.zip
+-
+    id: vcop
+    platform: mac
+    lang: en
+    title: 'Virtual Cop'
+    version: '4'
+    url: /frs/demos/director/d4/en/vcop-demo-mac.zip
+-
+    id: verttice
+    platform: mac
+    lang: en
+    title: 'DreamLight Verttice'
+    version: '4'
+    url: /frs/demos/director/d4/en/verttice-mac-20.zip
+-
+    id: vote
+    platform: win
+    lang: en
+    title: 'Vote America: Your Field Guide to Electing a President'
+    version: '4'
+    url: /frs/demos/director/d4/en/vote-demo-win.zip
+-
+    id: vtarot
+    platform: win
+    lang: en
+    title: 'Virtual Tarot'
+    version: '4'
+    url: /frs/demos/director/d4/en/vtarot-demo-win.zip
+-
+    id: vusic
+    platform: mac
+    lang: en
+    title: 'Vusic: The Screen Raver'
+    version: '4'
+    url: /frs/demos/director/d4/en/vusic-demo-mac.zip
+-
+    id: vusic
+    platform: win
+    lang: en
+    title: 'Vusic: The Screen Raver'
+    version: '4'
+    url: /frs/demos/director/d4/en/vusic-demo-win.zip
+-
+    id: warplanes
+    platform: mac
+    lang: en
+    title: 'Warplanes: Modern Fighting Aircraft'
+    version: '4'
+    url: /frs/demos/director/d4/en/warplanes-demo-mac.zip
+-
+    id: worldatlas
+    platform: win
+    lang: en
+    title: 'World Reference Atlas'
+    version: '4'
+    url: /frs/demos/director/d4/en/worldatlas-demo-win.zip
+-
+    id: wwanimals
+    platform: win
+    lang: en
+    title: 'Wide World of Animals'
+    version: '4'
+    url: /frs/demos/director/d4/en/wwanimals-demo-win.zip
+-
+    id: znemesis
+    platform: win
+    lang: en
+    title: 'Zork Nemesis: The Forbidden Lands'
+    version: '4'
+    url: /frs/demos/director/d4/en/znemesis-demo-win.zip
+-
+    id: mysteriousegypt
+    platform: win
+    lang: fi
+    title: 'Mysterious Egypt'
+    version: '4'
+    url: /frs/demos/director/d4/fi/mysteriousegypt-demo-win-fi.zip
+-
+    id: petepilotti1
+    platform: mac
+    lang: fi
+    title: 'Pete Pilotti & Pontiac: Seikkailu Lapponiassa'
+    version: '4'
+    url: /frs/demos/director/d4/fi/petepilotti1-demo-mac-fi.zip
+-
+    id: petepilotti1
+    platform: win
+    lang: fi
+    title: 'Pete Pilotti & Pontiac: Seikkailu Lapponiassa'
+    version: '4'
+    url: /frs/demos/director/d4/fi/petepilotti1-demo-win-fi.zip
+-
+    id: paris
+    platform: mac
+    lang: fr
+    title: 'Paris: History and Splendour'
+    version: '4'
+    url: /frs/demos/director/d4/fr/paris-demo-mac-fr.zip
+-
+    id: paris
+    platform: win
+    lang: fr
+    title: 'Paris: History and Splendour'
+    version: '4'
+    url: /frs/demos/director/d4/fr/paris-demo-win-fr.zip
+-
+    id: angelgate
+    platform: mac
+    lang: ja
+    title: 'Angel Gate'
+    version: '4'
+    url: /frs/demos/director/d4/ja/angelgate-demo-mac-jp.zip
+-
+    id: angelgate
+    platform: win
+    lang: ja
+    title: 'Angel Gate'
+    version: '4'
+    url: /frs/demos/director/d4/ja/angelgate-demo-win-jp.zip
+-
+    id: bearfamily
+    platform: mac
+    lang: ja
+    title: 'A Bear Family Adventure'
+    version: '4'
+    url: /frs/demos/director/d4/ja/bearfamily-demo-mac-jp.zip
+-
+    id: bebox
+    platform: mac
+    lang: ja
+    title: BeBox
+    version: '4'
+    url: /frs/demos/director/d4/ja/bebox-demo-mac-jp.zip
+-
+    id: chinacrisis
+    platform: mac
+    lang: ja
+    title: 'China Crisis'
+    version: '4'
+    url: /frs/demos/director/d4/ja/chinacrisis-demo-mac-jp.zip
+-
+    id: cnl
+    platform: mac
+    lang: ja
+    title: 'City Net Line'
+    version: '4'
+    url: /frs/demos/director/d4/ja/cnl-demo-mac-jp.zip
+-
+    id: dirmacromedia
+    platform: mac
+    lang: ja
+    title: 'Dinosaur Safari'
+    version: '4'
+    url: /frs/demos/director/d4/ja/dirmacromedia-demo-mac-jp.zip
+-
+    id: fantazion
+    platform: mac
+    lang: ja
+    title: 'World Engine Fantazion'
+    version: '4'
+    url: /frs/demos/director/d4/ja/fantazion-demo-mac-jp.zip
+-
+    id: futarinoryori
+    platform: mac
+    lang: ja
+    title: ふたりの料理物語
+    version: '4'
+    url: /frs/demos/director/d4/ja/futarinoryori-demo-mac-jp.zip
+-
+    id: greetingstudio
+    platform: mac
+    lang: ja
+    title: 'Greeting STUDIO'
+    version: '4'
+    url: /frs/demos/director/d4/ja/greetingstudio-demo-mac-jp.zip
+-
+    id: greetingstudio
+    platform: win
+    lang: ja
+    title: 'Greeting STUDIO'
+    version: '4'
+    url: /frs/demos/director/d4/ja/greetingstudio-demo-win-jp.zip
+-
+    id: himejijo
+    platform: mac
+    lang: ja
+    title: A.MAZING姫路城
+    version: '4'
+    url: /frs/demos/director/d4/ja/himejijo-demo-mac-jp.zip
+-
+    id: inposition
+    platform: mac
+    lang: ja
+    title: INposition
+    version: '4'
+    url: /frs/demos/director/d4/ja/inposition-demo-mac-jp.zip
+-
+    id: karuta
+    platform: mac
+    lang: ja
+    title: かるたでおじゃる
+    version: '4'
+    url: /frs/demos/director/d4/ja/karuta-demo-mac-jp.zip
+-
+    id: karuta
+    platform: win
+    lang: ja
+    title: かるたでおじゃる
+    version: '4'
+    url: /frs/demos/director/d4/ja/karuta-demo-win-jp.zip
+-
+    id: kenji
+    platform: mac
+    lang: ja
+    title: Kenji
+    version: '4'
+    url: /frs/demos/director/d4/ja/kenji-demo-mac-jp.zip
+-
+    id: manhole
+    platform: mac
+    lang: ja
+    title: 'The Manhole'
+    version: '4'
+    url: /frs/demos/director/d4/ja/manhole-demo-mac-jp-me.zip
+-
+    id: mominoki
+    platform: mac
+    lang: ja
+    title: 'もみの木の下で ～ The Day of St.Claus'
+    version: '4'
+    url: /frs/demos/director/d4/ja/mominoki-demo-mac-jp.zip
+-
+    id: mukashibanashi
+    platform: mac
+    lang: ja
+    title: 日本昔話
+    version: '4'
+    url: /frs/demos/director/d4/ja/mukashibanashi-demo-mac-jp.zip
+-
+    id: nihonchiri
+    platform: mac
+    lang: ja
+    title: Visual日本地理
+    version: '4'
+    url: /frs/demos/director/d4/ja/nihonchiri-demo-mac-jp.zip
+-
+    id: niningashi
+    platform: mac
+    lang: ja
+    title: ににんがし
+    version: '4'
+    url: /frs/demos/director/d4/ja/niningashi-demo-mac-jp.zip
+-
+    id: niningashi
+    platform: win
+    lang: ja
+    title: ににんがし
+    version: '4'
+    url: /frs/demos/director/d4/ja/niningashi-demo-win-jp.zip
+-
+    id: orgotto
+    platform: mac
+    lang: ja
+    title: Orgotto
+    version: '4'
+    url: /frs/demos/director/d4/ja/orgotto-demo-mac.zip
+-
+    id: orgotto
+    platform: win
+    lang: ja
+    title: Orgotto
+    version: '4'
+    url: /frs/demos/director/d4/ja/orgotto-demo-win.zip
+-
+    id: osaka1
+    platform: mac
+    lang: ja
+    title: '必修大阪弁集中講座I 2010年、標準語は大阪弁になる'
+    version: '4'
+    url: /frs/demos/director/d4/ja/osaka1-demo-mac-jp.zip
+-
+    id: osaka1
+    platform: win
+    lang: ja
+    title: '必修大阪弁集中講座I 2010年、標準語は大阪弁になる'
+    version: '4'
+    url: /frs/demos/director/d4/ja/osaka1-demo-win-jp.zip
+-
+    id: racingdays
+    platform: mac
+    lang: ja
+    title: 'Racing Days'
+    version: '4'
+    url: /frs/demos/director/d4/ja/racingdays-demo-mac-jp.zip
+-
+    id: rheingold
+    platform: mac
+    lang: ja
+    title: ラインの黄金
+    version: '4'
+    url: /frs/demos/director/d4/ja/rheingold-demo-mac-jp.zip
+-
+    id: shadeviewer
+    platform: mac
+    lang: ja
+    title: 'Shade Viewer'
+    version: '4'
+    url: /frs/demos/director/d4/ja/shadeviewer-demo-mac-jp.zip
+-
+    id: sozaijiten
+    platform: mac
+    lang: ja
+    title: 素材辞典
+    version: '4'
+    url: /frs/demos/director/d4/ja/sozaijiten-demo-mac-jp.zip
+-
+    id: tetsuman
+    platform: mac
+    lang: ja
+    title: 'ハイ! 鉄マン です'
+    version: '4'
+    url: /frs/demos/director/d4/ja/tetsuman-demo-mac-jp.zip
+-
+    id: tetsuman
+    platform: win
+    lang: ja
+    title: 'ハイ! 鉄マン です'
+    version: '4'
+    url: /frs/demos/director/d4/ja/tetsuman-demo-win-jp.zip
+-
+    id: tetsumangaiden
+    platform: mac
+    lang: ja
+    title: '鉄マン外伝 ゲーム大王の野望'
+    version: '4'
+    url: /frs/demos/director/d4/ja/tetsumangaiden-demo-mac-jp.zip
+-
+    id: tetsumangaiden
+    platform: win
+    lang: ja
+    title: '鉄マン外伝 ゲーム大王の野望'
+    version: '4'
+    url: /frs/demos/director/d4/ja/tetsumangaiden-demo-win-jp.zip
+-
+    id: toeic
+    platform: mac
+    lang: ja
+    title: PowerTOEIC
+    version: '4'
+    url: /frs/demos/director/d4/ja/toeic-demo-mac-jp.zip
+-
+    id: ukiuki1
+    platform: mac
+    lang: ja
+    title: 'ウキウキ釣り天国 ～幻の天狗池～'
+    version: '4'
+    url: /frs/demos/director/d4/ja/ukiuki1-demo-cd-mac-jp.zip
+-
+    id: ukiuki1
+    platform: win
+    lang: ja
+    title: 'ウキウキ釣り天国 ～幻の天狗池～'
+    version: '4'
+    url: /frs/demos/director/d4/ja/ukiuki1-demo-win-jp.zip
+-
+    id: ukiuki2
+    platform: mac
+    lang: ja
+    title: 'ウキウキ釣り天国2 ～波止の五目釣り～'
+    version: '4'
+    url: /frs/demos/director/d4/ja/ukiuki2-demo-mac-jp.zip
+-
+    id: ukiuki2
+    platform: win
+    lang: ja
+    title: 'ウキウキ釣り天国2 ～波止の五目釣り～'
+    version: '4'
+    url: /frs/demos/director/d4/ja/ukiuki2-demo-win-jp.zip
+-
+    id: victorianpark
+    platform: mac
+    lang: ja
+    title: 'Victorian Park'
+    version: '4'
+    url: /frs/demos/director/d4/ja/victorianpark-demo-mac-jp.zip
+-
+    id: wariwari
+    platform: mac
+    lang: ja
+    title: わりわりワールド
+    version: '4'
+    url: /frs/demos/director/d4/ja/wariwari-demo-mac-jp.zip
+-
+    id: wariwari
+    platform: win
+    lang: ja
+    title: わりわりワールド
+    version: '4'
+    url: /frs/demos/director/d4/ja/wariwari-demo-win-jp.zip
+-
+    id: wonderomcw
+    platform: mac
+    lang: ja
+    title: 'WONDEROM クラリスワークス'
+    version: '4'
+    url: /frs/demos/director/d4/ja/wonderomcw-demo-mac-jp.zip
+-
+    id: ybr2
+    platform: win
+    lang: ja
+    title: イエロー・ブリック・ロードII
+    version: '4'
+    url: /frs/demos/director/d4/ja/ybr2-demo-win-jp.zip
+-
+    id: yoidon
+    platform: mac
+    lang: ja
+    title: よ〜いドン!
+    version: '4'
+    url: /frs/demos/director/d4/ja/yoidon-demo-mac-jp.zip
+-
+    id: yoidon
+    platform: win
+    lang: ja
+    title: よ〜いドン!
+    version: '4'
+    url: /frs/demos/director/d4/ja/yoidon-demo-win-jp.zip
+-
+    id: ravensburger
+    platform: mac
+    lang: de
+    title: 'Ravensburger Interactive Demo-Sampler'
+    version: '5'
+    url: /frs/demos/director/d5/de/ravensburger-mac-de.zip
+-
+    id: ravensburger
+    platform: mac
+    lang: de
+    title: 'Ravensburger Interactive Demo-Sampler'
+    version: '5'
+    url: /frs/demos/director/d5/de/ravensburger-win-de.zip
+-
+    id: arad
+    platform: win
+    lang: en
+    title: 'Animaniacs River Adventure'
+    version: '5'
+    url: /frs/demos/director/d5/en/arad-win.zip
+-
+    id: arcmedia
+    platform: mac
+    lang: en
+    title: 'Arc Media Demos'
+    version: '5'
+    url: /frs/demos/director/d5/en/arcmedia-mac.zip
+-
+    id: arcmedia
+    platform: win
+    lang: en
+    title: 'Arc Media Demos'
+    version: '5'
+    url: /frs/demos/director/d5/en/arcmedia-win.zip
+-
+    id: bluesbros2000
+    platform: win
+    lang: en
+    title: 'Blues Brothers 2000 Full Promotion'
+    version: '5'
+    url: /frs/demos/director/d5/en/bluesbros2000-win.zip
+-
+    id: bvi1997
+    platform: mac
+    lang: en
+    title: 'Buena Vista International 1997 Promotional Interactive CD-ROM'
+    version: '5'
+    url: /frs/demos/director/d5/en/bvi1997-mac.zip
+-
+    id: bvi1997
+    platform: win
+    lang: en
+    title: 'Buena Vista International 1997 Promotional Interactive CD-ROM'
+    version: '5'
+    url: /frs/demos/director/d5/en/bvi1997-win.zip
+-
+    id: davidsonps
+    platform: win
+    lang: en
+    title: 'Davidson Product Sampler'
+    version: '5'
+    url: /frs/demos/director/d5/en/davidsonps-cd-win.zip
+-
+    id: davidsonps
+    platform: win
+    lang: en
+    title: 'Davidson Product Sampler'
+    version: '5'
+    url: /frs/demos/director/d5/en/davidsonps-win-10.zip
+-
+    id: dimensionq
+    platform: mac
+    lang: en
+    title: 'Iz and Auggie: Escape from Dimension Q'
+    version: '5'
+    url: /frs/demos/director/d5/en/dimensionq-demo-mac.zip
+-
+    id: dimensionq
+    platform: win
+    lang: en
+    title: 'Iz and Auggie: Escape from Dimension Q'
+    version: '5'
+    url: /frs/demos/director/d5/en/dimensionq-demo-win.zip
+-
+    id: edmark
+    platform: mac
+    lang: en
+    title: 'Edmark Demo'
+    version: '5'
+    url: /frs/demos/director/d5/en/edmark-mac.zip
+-
+    id: edmark
+    platform: win
+    lang: en
+    title: 'Edmark Demo'
+    version: '5'
+    url: /frs/demos/director/d5/en/edmark-win.zip
+-
+    id: giggletour
+    platform: mac
+    lang: en
+    title: 'The Gigglebone Gang World Tour'
+    version: '5'
+    url: /frs/demos/director/d5/en/giggletour-demo-mac.zip
+-
+    id: giggletour
+    platform: win
+    lang: en
+    title: 'The Gigglebone Gang World Tour'
+    version: '5'
+    url: /frs/demos/director/d5/en/giggletour-demo-win.zip
+-
+    id: headbone
+    platform: mac
+    lang: en
+    title: 'Headbone CD-ROM Sampler'
+    version: '5'
+    url: /frs/demos/director/d5/en/headbone-mac-2.zip
+-
+    id: headbone
+    platform: win
+    lang: en
+    title: 'Headbone CD-ROM Sampler'
+    version: '5'
+    url: /frs/demos/director/d5/en/headbone-win-2.zip
+-
+    id: hollywoodhigh
+    platform: mac
+    lang: en
+    title: 'Hollywood High'
+    version: '5'
+    url: /frs/demos/director/d5/en/hollywoodhigh-demo-mac.zip
+-
+    id: hollywoodhigh
+    platform: win
+    lang: en
+    title: 'Hollywood High'
+    version: '5'
+    url: /frs/demos/director/d5/en/hollywoodhigh-demo-win.zip
+-
+    id: jslearn
+    platform: mac
+    lang: en
+    title: 'JumpStart Learning System'
+    version: '5'
+    url: /frs/demos/director/d5/en/jslearn-mac-d5.zip
+-
+    id: jslearn
+    platform: win
+    lang: en
+    title: 'JumpStart Learning System'
+    version: '5'
+    url: /frs/demos/director/d5/en/jslearn-win-d5.zip
+-
+    id: madcc12
+    platform: mac
+    lang: en
+    title: 'Madeline Classroom Companion: 1st & 2nd Grade'
+    version: '5'
+    url: /frs/demos/director/d5/en/madcc12-demo-mac.zip
+-
+    id: madcc12
+    platform: win
+    lang: en
+    title: 'Madeline Classroom Companion: 1st & 2nd Grade'
+    version: '5'
+    url: /frs/demos/director/d5/en/madcc12-demo-win-ss.zip
+-
+    id: madcc12
+    platform: win
+    lang: en
+    title: 'Madeline Classroom Companion: 1st & 2nd Grade'
+    version: '5'
+    url: /frs/demos/director/d5/en/madcc12-demo-win.zip
+-
+    id: madccpk
+    platform: mac
+    lang: en
+    title: 'Madeline Classroom Companion: Preschool & Kindergarten'
+    version: '5'
+    url: /frs/demos/director/d5/en/madccpk-demo-mac.zip
+-
+    id: madccpk
+    platform: win
+    lang: en
+    title: 'Madeline Classroom Companion: Preschool & Kindergarten'
+    version: '5'
+    url: /frs/demos/director/d5/en/madccpk-demo-win.zip
+-
+    id: mavisbeacon
+    platform: mac
+    lang: en
+    title: 'Mavis Beacon Teaches Typing'
+    version: '5'
+    url: /frs/demos/director/d5/en/mavisbeacon-demo-mac.zip
+-
+    id: msn
+    platform: win
+    lang: en
+    title: 'The Microsoft Network'
+    version: '5'
+    url: /frs/demos/director/d5/en/msn-win.zip
+-
+    id: picasso
+    platform: win
+    lang: en
+    title: 'Picasso: the man, his works, the legend'
+    version: '5'
+    url: /frs/demos/director/d5/en/picasso-demo-win.zip
+-
+    id: shr1st2nd
+    platform: mac
+    lang: en
+    title: 'Schoolhouse Rock!: 1st & 2nd Grade Essentials'
+    version: '5'
+    url: /frs/demos/director/d5/en/shr1st2nd-demo-mac.zip
+-
+    id: shr1st2nd
+    platform: win
+    lang: en
+    title: 'Schoolhouse Rock!: 1st & 2nd Grade Essentials'
+    version: '5'
+    url: /frs/demos/director/d5/en/shr1st2nd-demo-win.zip
+-
+    id: shr3rd4th
+    platform: mac
+    lang: en
+    title: 'Schoolhouse Rock!: 3rd & 4th Grade Essentials'
+    version: '5'
+    url: /frs/demos/director/d5/en/shr3rd4th-demo-mac.zip
+-
+    id: shr3rd4th
+    platform: win
+    lang: en
+    title: 'Schoolhouse Rock!: 3rd & 4th Grade Essentials'
+    version: '5'
+    url: /frs/demos/director/d5/en/shr3rd4th-demo-win.zip
+-
+    id: shrmess
+    platform: win
+    lang: en
+    title: 'Schoolhouse Rock!: 1st-4th Grade Math Essentials'
+    version: '5'
+    url: /frs/demos/director/d5/en/shrmess-demo-win.zip
+-
+    id: slamdunktyping
+    platform: mac
+    lang: en
+    title: 'Slam Dunk Typing'
+    version: '5'
+    url: /frs/demos/director/d5/en/slamdunktyping-demo-mac.zip
+-
+    id: slamdunktyping
+    platform: win
+    lang: en
+    title: 'Slam Dunk Typing'
+    version: '5'
+    url: /frs/demos/director/d5/en/slamdunktyping-demo-win.zip
+-
+    id: takeru
+    platform: win
+    lang: en
+    title: 'Buichi Terasawa''s Takeru: Letter of the Law'
+    version: '5'
+    url: /frs/demos/director/d5/en/takeru-demo-win.zip
+-
+    id: troubleshoot101
+    platform: mac
+    lang: en
+    title: 'Troubleshooting 101'
+    version: '5'
+    url: /frs/demos/director/d5/en/troubleshoot101-mac.zip
+-
+    id: vp2
+    platform: mac
+    lang: en
+    title: 'Virtual Physics: The Eggs of Time'
+    version: '5'
+    url: /frs/demos/director/d5/en/vp2-demo-mac.zip
+-
+    id: vp2
+    platform: win
+    lang: en
+    title: 'Virtual Physics: The Eggs of Time'
+    version: '5'
+    url: /frs/demos/director/d5/en/vp2-demo-win.zip
+-
+    id: guignols2
+    platform: win
+    lang: fr
+    title: 'Les Guignols de l''Info: Le cauchemar de PPD'
+    version: '5'
+    url: /frs/demos/director/d5/fr/guignols2-demo-win-fr.zip
+-
+    id: osaka2
+    platform: mac
+    lang: ja
+    title: '必修大阪弁集中講座II 2015年、東京人の逆襲'
+    version: '5'
+    url: /frs/demos/director/d5/ja/osaka2-demo-mac-jp.zip
+-
+    id: osaka2
+    platform: win
+    lang: ja
+    title: '必修大阪弁集中講座II 2015年、東京人の逆襲'
+    version: '5'
+    url: /frs/demos/director/d5/ja/osaka2-demo-win-jp.zip
+-
+    id: rolypolys2
+    platform: mac
+    lang: ja
+    title: ローリーポーリーズの世界旅行
+    version: '5'
+    url: /frs/demos/director/d5/ja/rolypolys2-demo-mac-jp.zip
+-
+    id: rolypolys2
+    platform: win
+    lang: ja
+    title: ローリーポーリーズの世界旅行
+    version: '5'
+    url: /frs/demos/director/d5/ja/rolypolys2-demo-win-jp.zip
+-
+    id: ukiuki3
+    platform: win
+    lang: ja
+    title: 'ウキウキ釣り天国3 ～人魚島のボート釣り～'
+    version: '5'
+    url: /frs/demos/director/d5/ja/ukiuki3-demo-cd-win-jp.zip
+-
+    id: ukiuki3
+    platform: win
+    lang: ja
+    title: 'ウキウキ釣り天国3 ～人魚島のボート釣り～'
+    version: '5'
+    url: /frs/demos/director/d5/ja/ukiuki3-demo-win-jp.zip
+-
+    id: ybr3
+    platform: mac
+    lang: ja
+    title: 'Yellow Brick Road ハラペコ月と星あつめ'
+    version: '5'
+    url: /frs/demos/director/d5/ja/ybr3-demo-mac-jp.zip
+-
+    id: ybr3
+    platform: win
+    lang: ja
+    title: 'Yellow Brick Road ハラペコ月と星あつめ'
+    version: '5'
+    url: /frs/demos/director/d5/ja/ybr3-demo-win-jp.zip
+-
+    id: almabril98
+    platform: win
+    lang: pt-br
+    title: 'Almanaque Abril 1998'
+    version: '5'
+    url: /frs/demos/director/d5/pt-br/almabril98-demo-win-br.zip
+-
+    id: ernie
+    platform: win
+    lang: se
+    title: Ernie
+    version: '5'
+    url: /frs/demos/director/d5/se/ernie-demo-win-se.zip
+-
+    id: amgpremiere
+    platform: mac
+    lang: en
+    title: 'The American Girls Premiere'
+    version: '6'
+    url: /frs/demos/director/d6/en/amgpremiere-mac-atut.zip
+-
+    id: amgpremiere
+    platform: mac
+    lang: en
+    title: 'The American Girls Premiere'
+    version: '6'
+    url: /frs/demos/director/d6/en/amgpremiere-mac-btut.zip
+-
+    id: amgpremiere
+    platform: mac
+    lang: en
+    title: 'The American Girls Premiere'
+    version: '6'
+    url: /frs/demos/director/d6/en/amgpremiere-mac-dir.zip
+-
+    id: amgpremiere
+    platform: win
+    lang: en
+    title: 'The American Girls Premiere'
+    version: '6'
+    url: /frs/demos/director/d6/en/amgpremiere-win-atut.zip
+-
+    id: amgpremiere
+    platform: win
+    lang: en
+    title: 'The American Girls Premiere'
+    version: '6'
+    url: /frs/demos/director/d6/en/amgpremiere-win-btut.zip
+-
+    id: amgpremiere
+    platform: win
+    lang: en
+    title: 'The American Girls Premiere'
+    version: '6'
+    url: /frs/demos/director/d6/en/amgpremiere-win-dir.zip
+-
+    id: cfdemo
+    platform: win
+    lang: en
+    title: 'The ClueFinders Demo'
+    version: '6'
+    url: /frs/demos/director/d6/en/cfdemo-win.zip
+-
+    id: dfireworks
+    platform: win
+    lang: en
+    title: 'The Digital Fireworks Stand'
+    version: '6'
+    url: /frs/demos/director/d6/en/dfireworks-win-98.zip
+-
+    id: disneyint
+    platform: mac
+    lang: en
+    title: 'Disney Interactive presents Learning & Creativity Sampler Volume I'
+    version: '6'
+    url: /frs/demos/director/d6/en/disneyint-mac.zip
+-
+    id: disneyint
+    platform: win
+    lang: en
+    title: 'Disney Interactive presents Learning & Creativity Sampler Volume I'
+    version: '6'
+    url: /frs/demos/director/d6/en/disneyint-win.zip
+-
+    id: fpcastle2
+    platform: mac
+    lang: en
+    title: 'Great Adventures by Fisher-Price: Castle (1998)'
+    version: '6'
+    url: /frs/demos/director/d6/en/fpcastle2-demo-mac.zip
+-
+    id: fpcastle2
+    platform: win
+    lang: en
+    title: 'Great Adventures by Fisher-Price: Castle (1998)'
+    version: '6'
+    url: /frs/demos/director/d6/en/fpcastle2-demo-win.zip
+-
+    id: fpcon
+    platform: mac
+    lang: en
+    title: 'Fisher-Price Big Action Construction'
+    version: '6'
+    url: /frs/demos/director/d6/en/fpcon-demo-mac.zip
+-
+    id: fpcon
+    platform: win
+    lang: en
+    title: 'Fisher-Price Big Action Construction'
+    version: '6'
+    url: /frs/demos/director/d6/en/fpcon-demo-win.zip
+-
+    id: fpdollhouse
+    platform: mac
+    lang: en
+    title: 'Fisher-Price Time to Play: Grand Dollhouse'
+    version: '6'
+    url: /frs/demos/director/d6/en/fpdollhouse-demo-mac.zip
+-
+    id: fpdollhouse
+    platform: win
+    lang: en
+    title: 'Fisher-Price Time to Play: Grand Dollhouse'
+    version: '6'
+    url: /frs/demos/director/d6/en/fpdollhouse-demo-win.zip
+-
+    id: fpready1
+    platform: win
+    lang: en
+    title: 'Fisher-Price Ready for School: First Grade'
+    version: '6'
+    url: /frs/demos/director/d6/en/fpready1-demo-win.zip
+-
+    id: fpreadyk
+    platform: mac
+    lang: en
+    title: 'Fisher-Price Ready for School: Kindergarten'
+    version: '6'
+    url: /frs/demos/director/d6/en/fpreadyk-demo-mac.zip
+-
+    id: fpreadyk
+    platform: win
+    lang: en
+    title: 'Fisher-Price Ready for School: Kindergarten'
+    version: '6'
+    url: /frs/demos/director/d6/en/fpreadyk-demo-win.zip
+-
+    id: fpreadyt
+    platform: mac
+    lang: en
+    title: 'Fisher-Price Ready for School: Toddler'
+    version: '6'
+    url: /frs/demos/director/d6/en/fpreadyt-demo-mac.zip
+-
+    id: fpreadyt
+    platform: win
+    lang: en
+    title: 'Fisher-Price Ready for School: Toddler'
+    version: '6'
+    url: /frs/demos/director/d6/en/fpreadyt-demo-win.zip
+-
+    id: fpwestern
+    platform: mac
+    lang: en
+    title: 'Great Adventures by Fisher-Price: Wild Western Town'
+    version: '6'
+    url: /frs/demos/director/d6/en/fpwestern-demo-mac.zip
+-
+    id: fpwestern
+    platform: win
+    lang: en
+    title: 'Great Adventures by Fisher-Price: Wild Western Town'
+    version: '6'
+    url: /frs/demos/director/d6/en/fpwestern-demo-win.zip
+-
+    id: generations
+    platform: win
+    lang: en
+    title: Generations
+    version: '6'
+    url: /frs/demos/director/d6/en/generations-demo-win.zip
+-
+    id: jslearn
+    platform: mac
+    lang: en
+    title: 'JumpStart Learning System'
+    version: '6'
+    url: /frs/demos/director/d6/en/jslearn-mac-97.zip
+-
+    id: jslearn
+    platform: mac
+    lang: en
+    title: 'JumpStart Learning System'
+    version: '6'
+    url: /frs/demos/director/d6/en/jslearn-mac-98.zip
+-
+    id: jslearn
+    platform: mac
+    lang: en
+    title: 'JumpStart Learning System'
+    version: '6'
+    url: /frs/demos/director/d6/en/jslearn-mac-99.zip
+-
+    id: jslearn
+    platform: win
+    lang: en
+    title: 'JumpStart Learning System'
+    version: '6'
+    url: /frs/demos/director/d6/en/jslearn-win-97.zip
+-
+    id: jslearn
+    platform: win
+    lang: en
+    title: 'JumpStart Learning System'
+    version: '6'
+    url: /frs/demos/director/d6/en/jslearn-win-98.zip
+-
+    id: jslearn
+    platform: win
+    lang: en
+    title: 'JumpStart Learning System'
+    version: '6'
+    url: /frs/demos/director/d6/en/jslearn-win-99.zip
+-
+    id: landdesigner
+    platform: win
+    lang: en
+    title: 'Sierra Land Designer'
+    version: '6'
+    url: /frs/demos/director/d6/en/landdesigner-demo-win.zip
+-
+    id: madtg
+    platform: win
+    lang: en
+    title: 'Madeline Thinking Games'
+    version: '6'
+    url: /frs/demos/director/d6/en/madtg-demo-win-1998.zip
+-
+    id: mulanpresskit
+    platform: mac
+    lang: en
+    title: 'Mulan Multimedia Press Kit'
+    version: '6'
+    url: /frs/demos/director/d6/en/mulanpresskit-mac.zip
+-
+    id: mulanpresskit
+    platform: win
+    lang: en
+    title: 'Mulan Multimedia Press Kit'
+    version: '6'
+    url: /frs/demos/director/d6/en/mulanpresskit-win.zip
+-
+    id: netmarket
+    platform: mac
+    lang: en
+    title: 'CUC netMarket Demo'
+    version: '6'
+    url: /frs/demos/director/d6/en/netmarket-mac.zip
+-
+    id: netmarket
+    platform: win
+    lang: en
+    title: 'CUC netMarket Demo'
+    version: '6'
+    url: /frs/demos/director/d6/en/netmarket-win.zip
+-
+    id: poohlearn
+    platform: mac
+    lang: en
+    title: 'Disney Learning Winnie the Pooh Demos'
+    version: '6'
+    url: /frs/demos/director/d6/en/poohlearn-mac.zip
+-
+    id: poohlearn
+    platform: win
+    lang: en
+    title: 'Disney Learning Winnie the Pooh Demos'
+    version: '6'
+    url: /frs/demos/director/d6/en/poohlearn-win.zip
+-
+    id: poohp
+    platform: mac
+    lang: en
+    title: 'Winnie the Pooh Preschool'
+    version: '6'
+    url: /frs/demos/director/d6/en/poohp-demo-mac-d6.zip
+-
+    id: poohp
+    platform: win
+    lang: en
+    title: 'Winnie the Pooh Preschool'
+    version: '6'
+    url: /frs/demos/director/d6/en/poohp-demo-win-d6.zip
+-
+    id: ssgbi
+    platform: mac
+    lang: en
+    title: 'German Bold Italic Screen Saver'
+    version: '6'
+    url: /frs/demos/director/d6/en/ssgbi-mac.zip
+-
+    id: ssleepipes
+    platform: mac
+    lang: en
+    title: 'The Lee Pipes Desktop Animated Feature'
+    version: '6'
+    url: /frs/demos/director/d6/en/ssleepipes-mac.zip
+-
+    id: ssleepipes
+    platform: win
+    lang: en
+    title: 'The Lee Pipes Desktop Animated Feature'
+    version: '6'
+    url: /frs/demos/director/d6/en/ssleepipes-win.zip
+-
+    id: thesims
+    platform: win
+    lang: en
+    title: 'The Sims Electronic Press Kit'
+    version: '6'
+    url: /frs/demos/director/d6/en/thesims-win.zip
+-
+    id: kontyngent99
+    platform: win
+    lang: pl
+    title: 'Katalog Samochodów Kontyngent ''99'
+    version: '6'
+    url: /frs/demos/director/d6/pl/kontyngent99-win-pl.zip
+-
+    id: objetivo
+    platform: win
+    lang: pt-br
+    title: 'Astrologia e Geografia Objetivo'
+    version: '6'
+    url: /frs/demos/director/d6/pt-br/objetivo-win-br.zip
+-
+    id: engl
+    platform: win
+    lang: ru
+    title: 'English for Beginners'
+    version: '6'
+    url: /frs/demos/director/d6/ru/engl-demo-win-ru.zip
+-
+    id: tchaik
+    platform: win
+    lang: ru
+    title: 'Пётр Ильи́ч Чайко́вский: Жизнь и творчество'
+    version: '6'
+    url: /frs/demos/director/d6/ru/tchaik-demo-win-ru.zip
+-
+    id: tutti
+    platform: win
+    lang: ru
+    title: 'Волшебные истории Тутти'
+    version: '6'
+    url: /frs/demos/director/d6/ru/tutti-win-ru.zip
+-
+    id: artus1
+    platform: win
+    lang: en
+    title: 'Artus against the Demon of the Museum'
+    version: '7'
+    url: /frs/demos/director/d7/en/artus1-demo-win.zip
+-
+    id: basilbaker
+    platform: win
+    lang: en
+    title: 'Venice Under Glass: A Basil Baker Mystery Adventure'
+    version: '7'
+    url: /frs/demos/director/d7/en/basilbaker-demo-win.zip
+-
+    id: disneylearning
+    platform: mac
+    lang: en
+    title: 'Disney Interactive Learning Sampler'
+    version: '7'
+    url: /frs/demos/director/d7/en/disneylearning-mac.zip
+-
+    id: disneylearning
+    platform: win
+    lang: en
+    title: 'Disney Interactive Learning Sampler'
+    version: '7'
+    url: /frs/demos/director/d7/en/disneylearning-win.zip
+-
+    id: dotsafe
+    platform: win
+    lang: en
+    title: Dotsafe
+    version: '7'
+    url: /frs/demos/director/d7/en/dotsafe-demo-win.zip
+-
+    id: easports2000
+    platform: win
+    lang: en
+    title: 'EA Sports_2000 (E3 1999)'
+    version: '7'
+    url: /frs/demos/director/d7/en/easports2000-win.zip
+-
+    id: isscommerce
+    platform: mac
+    lang: en
+    title: 'International Space Station: Space Commercialization'
+    version: '7'
+    url: /frs/demos/director/d7/en/isscommerce-mac.zip
+-
+    id: isscommerce
+    platform: win
+    lang: en
+    title: 'International Space Station: Space Commercialization'
+    version: '7'
+    url: /frs/demos/director/d7/en/isscommerce-win.zip
+-
+    id: jewels
+    platform: win
+    lang: en
+    title: 'Jewels of the Oracle'
+    version: '7'
+    url: /frs/demos/director/d7/en/jewels-demo-win.zip
+-
+    id: jsa
+    platform: win
+    lang: en
+    title: 'JumpStart Advanced: How Does Your Child Learn Best?'
+    version: '7'
+    url: /frs/demos/director/d7/en/jsa-win.zip
+-
+    id: lbkinder
+    platform: win
+    lang: en
+    title: 'Maurice Sendak''s Little Bear Kindergarten Thinking Adventures'
+    version: '7'
+    url: /frs/demos/director/d7/en/lbkinder-demo-win.zip
+-
+    id: lbpre
+    platform: win
+    lang: en
+    title: 'Maurice Sendak''s Little Bear Preschool Thinking Adventures'
+    version: '7'
+    url: /frs/demos/director/d7/en/lbpre-demo-win.zip
+-
+    id: leepipes
+    platform: mac
+    lang: en
+    title: 'Lee Pipes Press Kit'
+    version: '7'
+    url: /frs/demos/director/d7/en/leepipes-mac.zip
+-
+    id: leepipes
+    platform: win
+    lang: en
+    title: 'Lee Pipes Press Kit'
+    version: '7'
+    url: /frs/demos/director/d7/en/leepipes-win.zip
+-
+    id: mickeyp
+    platform: win
+    lang: en
+    title: 'Mickey Mouse Preschool'
+    version: '7'
+    url: /frs/demos/director/d7/en/mickeyp-demo-win-d7.zip
+-
+    id: mickeyt
+    platform: mac
+    lang: en
+    title: 'Mickey Mouse Toddler'
+    version: '7'
+    url: /frs/demos/director/d7/en/mickeyt-demo-mac-d7.zip
+-
+    id: mickeyt
+    platform: win
+    lang: en
+    title: 'Mickey Mouse Toddler'
+    version: '7'
+    url: /frs/demos/director/d7/en/mickeyt-demo-win-d7.zip
+-
+    id: planetstrass
+    platform: win
+    lang: en
+    title: Pl@net
+    version: '7'
+    url: /frs/demos/director/d7/en/planetstrass-demo-win.zip
+-
+    id: verttice
+    platform: mac
+    lang: en
+    title: 'DreamLight Verttice'
+    version: '7'
+    url: /frs/demos/director/d7/en/verttice-mac-30.zip
+-
+    id: verttice
+    platform: win
+    lang: en
+    title: 'DreamLight Verttice'
+    version: '7'
+    url: /frs/demos/director/d7/en/verttice-win-30.zip
+-
+    id: billetrille1
+    platform: win
+    lang: fi
+    title: 'Bille & Trille: Da fantasien slap løs'
+    version: '7'
+    url: /frs/demos/director/d7/fi/billetrille1-demo-win-fi.zip
+-
+    id: balto2
+    platform: win
+    lang: en
+    title: 'Balto II: Wolf Quest (Trailer)'
+    version: '8'
+    url: /frs/demos/director/d8/en/balto2-trailer.zip
+-
+    id: barbrapunzel
+    platform: win
+    lang: en
+    title: 'Barbie as Rapunzel: A Creative Adventure'
+    version: '8'
+    url: /frs/demos/director/d8/en/barbrapunzel-demo-win.zip
+-
+    id: lbt8
+    platform: win
+    lang: en
+    title: 'The Land Before Time: The Big Freeze'
+    version: '8'
+    url: /frs/demos/director/d8/en/lbt8-demo-win.zip
+-
+    id: mickeyk
+    platform: mac
+    lang: en
+    title: 'Mickey Mouse Kindergarten'
+    version: '8'
+    url: /frs/demos/director/d8/en/mickeyk-demo-mac-d8.zip
+-
+    id: mickeyk
+    platform: mac
+    lang: en
+    title: 'Mickey Mouse Kindergarten'
+    version: '8'
+    url: /frs/demos/director/d8/en/mickeyk-demo-mac-ss.zip
+-
+    id: mickeyk
+    platform: win
+    lang: en
+    title: 'Mickey Mouse Kindergarten'
+    version: '8'
+    url: /frs/demos/director/d8/en/mickeyk-demo-win-d8.zip
+-
+    id: mickeyk
+    platform: win
+    lang: en
+    title: 'Mickey Mouse Kindergarten'
+    version: '8'
+    url: /frs/demos/director/d8/en/mickeyk-demo-win-ss.zip
+-
+    id: mickeyp
+    platform: mac
+    lang: en
+    title: 'Mickey Mouse Preschool'
+    version: '8'
+    url: /frs/demos/director/d8/en/mickeyp-demo-mac-d8.zip
+-
+    id: mickeyp
+    platform: mac
+    lang: en
+    title: 'Mickey Mouse Preschool'
+    version: '8'
+    url: /frs/demos/director/d8/en/mickeyp-demo-mac-ss.zip
+-
+    id: mickeyp
+    platform: win
+    lang: en
+    title: 'Mickey Mouse Preschool'
+    version: '8'
+    url: /frs/demos/director/d8/en/mickeyp-demo-win-d8.zip
+-
+    id: mickeyt
+    platform: mac
+    lang: en
+    title: 'Mickey Mouse Toddler'
+    version: '8'
+    url: /frs/demos/director/d8/en/mickeyt-demo-mac-d8.zip
+-
+    id: mickeyt
+    platform: win
+    lang: en
+    title: 'Mickey Mouse Toddler'
+    version: '8'
+    url: /frs/demos/director/d8/en/mickeyt-demo-win-d8.zip
+-
+    id: phonicsquest
+    platform: win
+    lang: en
+    title: 'Disney Phonics Quest'
+    version: '8'
+    url: /frs/demos/director/d8/en/phonicsquest-demo-win.zip
+-
+    id: poohk
+    platform: mac
+    lang: en
+    title: 'Winnie the Pooh Kindergarten'
+    version: '8'
+    url: /frs/demos/director/d8/en/poohk-demo-mac-d8.zip
+-
+    id: poohk
+    platform: mac
+    lang: en
+    title: 'Winnie the Pooh Kindergarten'
+    version: '8'
+    url: /frs/demos/director/d8/en/poohk-demo-mac-ss.zip
+-
+    id: poohk
+    platform: win
+    lang: en
+    title: 'Winnie the Pooh Kindergarten'
+    version: '8'
+    url: /frs/demos/director/d8/en/poohk-demo-win-ss-alt.zip
+-
+    id: poohk
+    platform: win
+    lang: en
+    title: 'Winnie the Pooh Kindergarten'
+    version: '8'
+    url: /frs/demos/director/d8/en/poohk-demo-win-ss.zip
+-
+    id: poohk
+    platform: win
+    lang: en
+    title: 'Winnie the Pooh Kindergarten'
+    version: '8'
+    url: /frs/demos/director/d8/en/poohk-demo-win.zip
+-
+    id: poohp
+    platform: mac
+    lang: en
+    title: 'Winnie the Pooh Preschool'
+    version: '8'
+    url: /frs/demos/director/d8/en/poohp-demo-mac-d8.zip
+-
+    id: poohp
+    platform: win
+    lang: en
+    title: 'Winnie the Pooh Preschool'
+    version: '8'
+    url: /frs/demos/director/d8/en/poohp-demo-win-ss-alt.zip
+-
+    id: poohp
+    platform: win
+    lang: en
+    title: 'Winnie the Pooh Preschool'
+    version: '8'
+    url: /frs/demos/director/d8/en/poohp-demo-win.zip
+-
+    id: pooht
+    platform: mac
+    lang: en
+    title: 'Winnie the Pooh Toddler'
+    version: '8'
+    url: /frs/demos/director/d8/en/pooht-demo-mac-d8.zip
+-
+    id: pooht
+    platform: win
+    lang: en
+    title: 'Winnie the Pooh Toddler'
+    version: '8'
+    url: /frs/demos/director/d8/en/pooht-demo-win-d8.zip
+-
+    id: pooht
+    platform: win
+    lang: en
+    title: 'Winnie the Pooh Toddler'
+    version: '8'
+    url: /frs/demos/director/d8/en/pooht-demo-win-ss.zip
+-
+    id: rh
+    platform: mac
+    lang: en
+    title: 'Rescue Heroes Demo'
+    version: '8'
+    url: /frs/demos/director/d8/en/rh-mac.zip
+-
+    id: rh
+    platform: win
+    lang: en
+    title: 'Rescue Heroes Demo'
+    version: '8'
+    url: /frs/demos/director/d8/en/rh-win.zip
+-
+    id: rhem1
+    platform: win
+    lang: en
+    title: Rhem
+    version: '8'
+    url: /frs/demos/director/d8/en/rhem1-demo-win.zip
+-
+    id: secretkeys
+    platform: mac
+    lang: en
+    title: 'Search for the Secret Keys with Mickey'
+    version: '8'
+    url: /frs/demos/director/d8/en/secretkeys-demo-mac.zip
+-
+    id: secretkeys
+    platform: win
+    lang: en
+    title: 'Search for the Secret Keys with Mickey'
+    version: '8'
+    url: /frs/demos/director/d8/en/secretkeys-demo-win.zip
+-
+    id: ss102dalmations
+    platform: win
+    lang: en
+    title: '102 Dalmations Screen Saver'
+    version: '8'
+    url: /frs/demos/director/d8/en/ss102dalmations-win.zip
+-
+    id: ssholidaymickey
+    platform: win
+    lang: en
+    title: 'Holiday Mickey Screen Saver'
+    version: '8'
+    url: /frs/demos/director/d8/en/ssholidaymickey-win.zip
+-
+    id: sspeekaboo
+    platform: win
+    lang: en
+    title: 'Winnie the Pooh Peek-a-Boo Screen Saver'
+    version: '8'
+    url: /frs/demos/director/d8/en/sspeekaboo-win.zip
+-
+    id: unwrap
+    platform: mac
+    lang: en
+    title: 'Unwrap the Magic: Holiday 2000 Interactive CD-ROM'
+    version: '8'
+    url: /frs/demos/director/d8/en/unwrap-mac.zip
+-
+    id: unwrap
+    platform: win
+    lang: en
+    title: 'Unwrap the Magic: Holiday 2000 Interactive CD-ROM'
+    version: '8'
+    url: /frs/demos/director/d8/en/unwrap-win.zip
+-
+    id: vug2005
+    platform: mac
+    lang: en
+    title: 'Vivendi Universal Games 2005 E3 DPK'
+    version: '8'
+    url: /frs/demos/director/d8/en/vug2005-mac.zip
+-
+    id: vug2005
+    platform: win
+    lang: en
+    title: 'Vivendi Universal Games 2005 E3 DPK'
+    version: '8'
+    url: /frs/demos/director/d8/en/vug2005-win.zip
+-
+    id: westwood
+    platform: mac
+    lang: en
+    title: 'Westwood Studios Digital Press Kit 2000'
+    version: '8'
+    url: /frs/demos/director/d8/en/westwood-mac.zip
+-
+    id: westwood
+    platform: win
+    lang: en
+    title: 'Westwood Studios Digital Press Kit 2000'
+    version: '8'
+    url: /frs/demos/director/d8/en/westwood-win.zip
+-
+    id: unlimitedcl
+    platform: win
+    lang: es
+    title: 'Unlimited CD-ROMs Educativos'
+    version: '8'
+    url: /frs/demos/director/d8/es/unlimitedcl-win-es.zip
+-
+    id: billetrille2
+    platform: mac
+    lang: fi
+    title: 'Bille & Trille: Helt ude i skoven'
+    version: '8'
+    url: /frs/demos/director/d8/fi/billetrille2-demo-mac-fi.zip
+-
+    id: barbpauper
+    platform: win
+    lang: en
+    title: 'Barbie as the Princess and the Pauper'
+    version: '9'
+    url: /frs/demos/director/d9/en/barbpauper-demo-win.zip
+-
+    id: barbswanlake
+    platform: win
+    lang: en
+    title: 'Barbie of Swan Lake: The Enchanted Forest'
+    version: '9'
+    url: /frs/demos/director/d9/en/barbswanlake-demo-win.zip
+-
+    id: bobteam
+    platform: win
+    lang: en
+    title: 'Bob the Builder: Teamwork'
+    version: '9'
+    url: /frs/demos/director/d9/en/bobteam-demo-win.zip
+-
+    id: gp2006
+    platform: mac
+    lang: en
+    title: 'Grand Prix 2006 & Auto Directory'
+    version: '9'
+    url: /frs/demos/director/d9/en/gp2006-mac.zip
+-
+    id: gp2006
+    platform: win
+    lang: en
+    title: 'Grand Prix 2006 & Auto Directory'
+    version: '9'
+    url: /frs/demos/director/d9/en/gp2006-win.zip
+-
+    id: stalker
+    platform: win
+    lang: en
+    title: 'S.T.A.L.K.E.R.: Shadow of Chernobyl'
+    version: '9'
+    url: /frs/demos/director/d9/en/stalker-win.zip
+-
+    id: tokimemotypegs
+    platform: win
+    lang: ja
+    title: ときメモGSタイピング
+    version: '10'
+    url: /frs/demos/director/d10/ja/tokimemotypegs-demo-win-jp.zip
