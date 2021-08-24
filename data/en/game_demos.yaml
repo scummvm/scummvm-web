@@ -923,12 +923,12 @@
     id: losteden
     platform: dos
     category: ''
-    url: /frs/demos/cryo/losteden-demo.zip
+    url: /frs/demos/cryo/losteden-dos-demo.zip
 -
     id: losteden
     platform: dos
     category: Non-Interactive
-    url: /frs/demos/cryo/losteden-demo-ni.zip
+    url: /frs/demos/cryo/losteden-dos-demo-ni.zip
 -
     id: lsl1
     platform: dos

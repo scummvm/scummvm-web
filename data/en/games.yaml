@@ -397,7 +397,7 @@
     engine_id: agos
     company_id: adventuresoft
     moby_id: '4427'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Datafiles#Simon_the_Sorcerer.27s_Puzzle_Pack'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer_Puzzle_Pack'
     series_id: simon
 -
     id: avalanche
@@ -598,7 +598,7 @@
     company_id: presto
     moby_id: '22007'
     datafiles: ''
-    series_id: ''
+    series_id: journeyman
 -
     id: lzone
     name: L-ZONE
@@ -4529,7 +4529,7 @@
     series_id: ''
 -
     id: advsys
-    name: 'AdvSYs Interactive Fiction games'
+    name: 'AdvSys Interactive Fiction games'
     engine_id: glk
     company_id: glk
     moby_id: '-1'
@@ -4740,7 +4740,7 @@
     name: 'Adventure Game Studio games'
     engine_id: ags
     company_id: unknown
-    moby_id: ''
+    moby_id: '-1'
     datafiles: 'https://wiki.scummvm.org/index.php?title=AGS/Games'
     series_id: ''
 -
