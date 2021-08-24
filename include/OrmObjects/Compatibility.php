@@ -49,7 +49,7 @@ class Compatibility extends BaseCompatibility
 
         if ($this->getMobyId() != '-1') {
             $notes .= "\n\n**External Links:**\n";
-            $notes .= "- <a href=\"https://www.mobygames.com/game/{$this->getMobyId()}\">MobyGames</a>\n";
+            $notes .= "- [MobyGames](https://www.mobygames.com/game/{$this->getGame()->getMobyId()})\n";
         }
 
         $config = \HTMLPurifier_Config::createDefault();
@@ -63,10 +63,5 @@ class Compatibility extends BaseCompatibility
     public function getDataFiles()
     {
         return $this->getGame()->getDataFiles();
-    }
-
-    public function getMobyId()
-    {
-        return $this->getGame()->getMobyId();
     }
 }
