@@ -175,5 +175,8 @@
     "downloadsSubprojects": "Projets associés",
     "menuDevelopmentDeveloperCentral": "Centre Développeur",
     "menuDevelopmentDoxygen": "Référence de l'API",
-    "compatibilityGameDisclaimer": "Note : Les jeux ne sont pas inclus avec ScummVM. Pour jouer à l'un des jeux listés sur cette page, vous devez avoir votre propre copie du jeu et l'ajouter à ScummVM. Certains jeux sont disponibles gratuitement sur notre [page de téléchargement des jeux](/fr/games/). Pour d'autres jeux, consultez la page [Where to get the games](https://wiki.scummvm.org/index.php?title=Where_to_get_the_games) sur notre wiki. Pour savoir comment ajouter des jeux à ScummVM, consultez la [documentation](https://docs.scummvm.org/en/latest/use_scummvm/add_play_games.html)."
+    "compatibilityGameDisclaimer": "Note : Les jeux ne sont pas inclus avec ScummVM. Pour jouer à l'un des jeux listés sur cette page, vous devez avoir votre propre copie du jeu et l'ajouter à ScummVM. Certains jeux sont disponibles gratuitement sur notre [page de téléchargement des jeux](/fr/games/). Pour d'autres jeux, consultez la page [Where to get the games](https://wiki.scummvm.org/index.php?title=Where_to_get_the_games) sur notre wiki. Pour savoir comment ajouter des jeux à ScummVM, consultez la [documentation](https://docs.scummvm.org/en/latest/use_scummvm/add_play_games.html).",
+    "menuMiscDirectorDemos": "Démos Director",
+    "directorDemosContentTitle": "Démos Director",
+    "directorDemosTitle": "Démos Director"
 }
