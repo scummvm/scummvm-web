@@ -105,12 +105,6 @@
         Pentagram is a project aiming to create an Ultima 8 engine for use on
         modern operating systems.
       url: 'http://pentagram.sourceforge.net/'
-    - name: ResidualVM
-      description: >-
-        ResidualVM is a cross-platform interpreter which allows you to play
-        LucasArts' LUA-based 3D adventures <i>Grim Fandango</i> and <i>Escape
-        from Monkey Island</i>.
-      url: 'https://residualvm.org/'
     - name: DOSBox
       description: >-
         DOSBox does not really quite fit in here since it emulates a classic
