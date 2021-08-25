@@ -47,9 +47,16 @@ class Compatibility extends BaseCompatibility
             $notes .= str_replace("- ", "\n- ", parent::getNotes()) . "\n";
         }
 
-        if ($this->getGame()->getMobyId() != '-1') {
-            $notes .= "\n\n**External Links:**\n";
-            $notes .= "- [MobyGames](https://www.mobygames.com/game/{$this->getGame()->getMobyId()})\n";
+        $links = [];
+        if ($this->getGame()->getMobyId() > 0) {
+            $links[] = "- [MobyGames](https://www.mobygames.com/game/{$this->getGame()->getMobyId()})";
+        }
+        if ($this->getGame()->getDataFiles()) {
+            $links[] = "- [ScummVM Wiki]({$this->getGame()->getDataFiles()})";
+        }
+        if ($links) {
+            $notes .= "\n\n**Links:**\n";
+            $notes .= join("\n", $links);
         }
 
         $config = \HTMLPurifier_Config::createDefault();
@@ -58,10 +65,5 @@ class Compatibility extends BaseCompatibility
         $notes = $parsedown->text($notes);
         $notes = $purifier->purify($notes);
         return $notes;
-    }
-
-    public function getDataFiles()
-    {
-        return $this->getGame()->getDataFiles();
     }
 }

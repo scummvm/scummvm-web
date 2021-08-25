@@ -64,7 +64,6 @@
         <tr class="color4">
             <th class="gameFullName">{#compatibilityDetailsChartCol1#}</th>
             <th class="gameShortName">{#compatibilityDetailsChartCol2#}</th>
-            <th class="gameDatafiles">{#compatibilityDetailsChartCol3#}</th>
             <th class="gameSupportLevel">{#compatibilityDetailsChartCol4#}</th>
         </tr>
     </thead>
@@ -76,12 +75,6 @@
         <tr class="color{cycle values='2,0'}">
             <td class="gameFullName"><a href="{'/compatibility/'|lang}{$version}/{$game->getGame()->getId()}/">{$game->getGame()->getName()}</a></td>
             <td class="gameShortName">{$game->getGame()->getId()}</td>
-            <td class="gameDatafiles">
-            {if $game->getDatafiles()}
-                <a href="{$game->getDatafiles()}">{#compatabilityDetailsDetails#}</a></td>
-            {else}
-            ---
-            {/if}
             <td class="gameSupportLevel {($game->getVersion() == $version) ? ' updated' : $pct_class}">{$support_level}</td>
         </tr>
         {/foreach}
