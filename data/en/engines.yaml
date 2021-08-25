@@ -43,7 +43,7 @@
     id: buried
     name: 'The Journeyman Project 2: Buried in Time'
     alt_name: ''
-    enabled: false
+    enabled: true
 -
     id: cge
     name: CGE
@@ -115,9 +115,9 @@
     alt_name: ''
     enabled: true
 -
-    id: fullpipe
-    name: 'Full Pipe'
-    alt_name: ''
+    id: ngi
+    name: NGI
+    alt_name: 'Nikita Game Interface'
     enabled: true
 -
     id: glk
@@ -233,7 +233,7 @@
     id: mutationofjb
     name: 'Mutation of JB'
     alt_name: ''
-    enabled: true
+    enabled: false
 -
     id: myst3
     name: 'Myst 3'
@@ -263,7 +263,7 @@
     id: pink
     name: 'Pink Panther'
     alt_name: ''
-    enabled: true
+    enabled: false
 -
     id: plumbers
     name: 'Plumbers Don''t Wear Ties!'
@@ -290,7 +290,7 @@
     alt_name: 'Scripts for Animated Graphic Adventures'
     enabled: true
 -
-    id: sanitarium
+    id: asylum
     name: Sanitarium
     alt_name: ''
     enabled: false

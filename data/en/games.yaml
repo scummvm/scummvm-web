@@ -557,7 +557,7 @@
     engine_id: cryo
     company_id: cryo
     moby_id: '1054'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Lost_Eden'
     series_id: ''
 -
     id: versailles
@@ -842,7 +842,7 @@
 -
     id: fullpipe
     name: 'Full Pipe'
-    engine_id: fullpipe
+    engine_id: ngi
     company_id: 1c
     moby_id: '26283'
     datafiles: ''
@@ -4778,7 +4778,7 @@
 -
     id: sanitarium
     name: Sanitarium
-    engine_id: sanitarium
+    engine_id: asylum
     company_id: dreamforge
     moby_id: '572'
     datafiles: ''
