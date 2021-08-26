@@ -1156,8 +1156,8 @@
         "content": ""
     },
     "20180501": {
-        "title": "",
-        "content": ""
+        "title": "¡Inconcebible! ¡La pirámide real ha sido asediada!",
+        "content": "Batallad por liberar al populacho de la amenaza del tirano Lord Xeen, o la de su cruel amo Alamar. O atreveos a aventuraros del mundo de Xeen al de Havoc para poner a prueba vuestro temple con un nuevo desafío. Nos complace anunciar el soporte de los siguientes juegos:\n\n*   Might and Magic IV - Clouds of Xeen\n*   Might and Magic V - Darkside of Xeen\n*   Might and Magic - World of Xeen\n*   Might and Magic - World of Xeen (2 CD, talkie)\n*   Might and Magic - Swords of Xeen\n\nEn este momento solo se pueden probar las versiones en inglés de estos juegos. Así que sacad vuestras copias o compradlas en formato digital a través de [GOG](https://www.gog.com/game/might_and_magic_6_limited_edition?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) y haceos con la última [compilación diaria](http://scummvm.org/downloads/#daily) de ScummVM. También necesitaréis un archivo adicional imprescindible ([xeen.ccs](https://github.com/scummvm/scummvm/blob/master/dists/engine-data/xeen.ccs?raw=true)) que deberéis poner en la misma carpeta donde se encuentren los archivos de vuestros juegos.\n\nAntes de empezar a testear, tened en cuenta que al ser juegos con una mayor cantidad de combates, cualquier error que encontréis podría ser más difícil de replicar que en las aventuras tradicionales. Por ese motivo es buena idea acostumbraros a guardar la partida regularmente, por si pasa algo. Si experimentáis bloqueos u observáis que alguna funcionalidad es incorrecta, avisadnos, por favor, informando de cualquier problema en nuestro [gestor de problemas](https://bugs.scummvm.org/)."
     },
     "20180612": {
         "title": "¡ScummVM y Cyan, Inc. están trabajando juntos!",
