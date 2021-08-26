@@ -2,6 +2,8 @@
 /// @access public
 /// @param {String} $breakpoint - Breakpoint
 /// @requires $breakpoints
+@use "sass:math";
+
 @mixin respond-to($breakpoint) {
   $raw-query: map-get($breakpoints, $breakpoint);
 
@@ -34,16 +36,16 @@
 ///  @include responsive-font(5vw, 35px, 150px, 50px);
 ///
 @mixin responsive-font($responsive, $min, $max: false, $fallback: false) {
-  $responsive-unitless: $responsive / ($responsive - $responsive + 1);
+  $responsive-unitless: math.div($responsive, $responsive - $responsive + 1);
   $dimension: if(unit($responsive) == "vh", "height", "width");
-  $min-breakpoint: $min / $responsive-unitless * 100;
+  $min-breakpoint: math.div($min, $responsive-unitless) * 100;
 
   @media (max-#{$dimension}: #{$min-breakpoint}) {
     font-size: $min;
   }
 
   @if $max {
-    $max-breakpoint: $max / $responsive-unitless * 100;
+    $max-breakpoint: math.div($max, $responsive-unitless) * 100;
 
     @media (min-#{$dimension}: #{$max-breakpoint}) {
       font-size: $max;

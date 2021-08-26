@@ -1,6 +1,7 @@
 const sass = require('sass');
 const fs = require('fs');
 const autoprefixer = require('autoprefixer');
+const postcss = require('postcss')
 
 async function renderScss(filename) {
     const inFile = `./scss/${filename}.scss`;
@@ -14,7 +15,7 @@ async function renderScss(filename) {
     });
 
     console.log(`Applying autoprefixer`);
-    const result = await autoprefixer.process(output.css, { from: undefined });
+    const result = await postcss([autoprefixer]).process(output.css, { from: undefined });
 
     console.log(`Writing to ${outFile}`);
     fs.writeFileSync(outFile, result.css);

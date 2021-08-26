@@ -39,6 +39,7 @@ public_html/frs
 # Propel
 /orm
 /data/scummvm-web.db
+/data/scummvm-web.db-journal
 /include/OrmObjects/Base
 /include/OrmObjects/Map
 /propel.yaml-e
