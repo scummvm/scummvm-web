@@ -74,7 +74,7 @@ function needsPunycode(str: string) {
 
 export function encodeFileName(str: Uint8Array, lang: Language, puny: boolean): string {
     const unicodeStr = decodeLanguage(str, lang);
-    
+
     const forcePunycode = needsPunycode(unicodeStr);
     if (puny || forcePunycode) {
         const escapedStr = escapeString(unicodeStr);
