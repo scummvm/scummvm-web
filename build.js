@@ -24,3 +24,6 @@ async function renderScss(filename) {
 renderScss('main_rtl');
 renderScss('main_ltr');
 renderScss('platforms');
+
+console.log("Copying dumper companion");
+fs.copyFileSync("./node_modules/dumper-companion/index.js", "./public_html/js/dumper-companion.js");

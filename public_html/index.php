@@ -109,6 +109,7 @@ $pages = array(
     'demos/director'                        => '\ScummVM\Pages\DirectorDemosPage',
     'documentation'                         => 'https://docs.scummvm.org/',
     'downloads'                             => '\ScummVM\Pages\DownloadsPage',
+    'dumper-companion'                      => '\ScummVM\Pages\StaticPage',
     'games'                                 => '\ScummVM\Pages\GamesPage',
     'faq'                                   => 'https://docs.scummvm.org/en/latest/help/faq.html',
     'feeds'                                 => '\ScummVM\Pages\FeedsPage',

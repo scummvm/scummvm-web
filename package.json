@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "dependencies": {
     "autoprefixer": "^10.3.2",
+    "dumper-companion": "file:dumper-companion",
     "postcss": "^8.3.6",
     "sass": "1.38.1"
   },

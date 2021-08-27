@@ -4,7 +4,8 @@
   "scripts": {
     "build": "webpack --mode=production",
     "build-dev": "webpack --mode=development",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "preinstall": "webpack --mode=production"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.29.2",

@@ -4,8 +4,8 @@ module.exports = {
   context: __dirname + "/src",
   entry: "./app.tsx",
   output: {
-    path: __dirname + "/dist",
-    filename: "dumper_companion.bundle.js"
+    path: __dirname,
+    filename: "index.js"
   },
   resolve: {
     extensions: [".ts", ".tsx", ".js"]
