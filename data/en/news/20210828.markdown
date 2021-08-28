@@ -1,0 +1,16 @@
+---
+title: "Help us test next ScummVM version"
+author: sev
+date: 1630176856
+---
+It has been almost a year since the last release of ScummVM. We have made a truly tremendous number of changes, which you can read about in the [NEWS.md file](https://github.com/scummvm/scummvm/blob/branch-2-3/NEWS.md). We need your help to test this version!
+
+Besides the [list of games to test before the release](https://wiki.scummvm.org/index.php?title=Release_Testing/2.3.0), the most notable things to test are:
+
+* UTF-32 support in the GUI, allowing for full Japanese and Korean translations. (Also, you are welcome to [help with translation into more languages](https://translations.scummvm.org/projects/scummvm/scummvm/)).
+* Support for HiDPI (aka Retina) displays in the GUI. No more fuzzy fonts.
+* A significant rewrite of the Nintendo DS port, bringing it up to date with the latest engines and features.
+* 3D engines formerly part of ResidualVM. Games like _Grim Fandango_, _The Longest Journey_ and _Myst III: Exile_ need a playthrough.
+* In total, 12 new engines and general changes to 24 more engines.
+
+For running the games you will need the [latest stable build](https://www.scummvm.org/downloads/#daily) of ScummVM. Then, load up some games and report issues in the [issue tracker](https://bugs.scummvm.org/) and playthrough progress on [this forum post](https://forums.scummvm.org/viewtopic.php?f=1&t=16362) so we could keep track of the progress on [the Wiki](https://wiki.scummvm.org/index.php?title=Release_Testing/2.3.0).
