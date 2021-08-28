@@ -21,9 +21,17 @@ async function renderScss(filename) {
     fs.writeFileSync(outFile, result.css);
 }
 
-renderScss('main_rtl');
-renderScss('main_ltr');
-renderScss('platforms');
+function copyDumper() {
+    console.log("Copying dumper companion");
+    fs.copyFileSync("./dumper-companion/index.js", "./public_html/js/dumper-companion.js");
+    fs.copyFileSync("./dumper-companion/style.css", "./public_html/css/dumper-companion.css");
+}
 
-console.log("Copying dumper companion");
-fs.copyFileSync("./node_modules/dumper-companion/index.js", "./public_html/js/dumper-companion.js");
+async function build() {
+    await renderScss('main_rtl');
+    await renderScss('main_ltr');
+    await renderScss('platforms');
+    copyDumper();
+}
+
+build();
