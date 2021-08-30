@@ -65,68 +65,6 @@
     anchor: "engine_teams"
     group:
     -
-      name: "SCUMM"
-      person:
-      -
-        name: "Torbj&ouml;rn Andersson"
-        alias: "eriktorbjorn"
-        description: ""
-      -
-        name: "James Brown"
-        alias: "ender"
-        description: "(retired)"
-      -
-        name: "Jonathan Gray"
-        alias: "khalek"
-        description: "(retired)"
-      -
-        name: "Vincent Hamm"
-        alias: "yaz0r"
-        description: "(retired)"
-      -
-        name: "Max Horn"
-        alias: "Fingolfin"
-        description: "(retired)"
-      -
-        name: "Travis Howell"
-        alias: "Kirben"
-        description: ""
-      -
-        name: "Pawe&#322; Ko&#322;odziejski"
-        alias: "aquadran"
-        description: "Codecs, iMUSE, Smush, etc."
-      -
-        name: "Gregory Montoir"
-        alias: "cyx"
-        description: "(retired)"
-      -
-        name: "Eugene Sandulenko"
-        alias: "sev"
-        description: "FT INSANE, MM NES, MM C64, game detection, Herc/CGA"
-      -
-        name: "Ludvig Strigeus"
-        alias: "ludde"
-        description: "(retired)"
-    -
-      name: "HE"
-      person:
-      -
-        name: "Jonathan Gray"
-        alias: "khalek"
-        description: "(retired)"
-      -
-        name: "Travis Howell"
-        alias: "Kirben"
-        description: ""
-      -
-        name: "Gregory Montoir"
-        alias: "cyx"
-        description: "(retired)"
-      -
-        name: "Eugene Sandulenko"
-        alias: "sev"
-        description: ""
-    -
       name: "Access"
       person:
       -
@@ -519,6 +457,25 @@
         alias: "yaz0r"
         description: "(retired)"
     -
+      name: "Cryo"
+      person:
+      -
+        name: "Arnaud Boutonn&eacute;"
+        alias: "Strangerke"
+        description: ""
+      -
+        name: "Filippos Karapetis"
+        alias: "bluegr"
+        description: ""
+      -
+        name: "Retro-Junk;"
+        alias: "bambarbee"
+        description: ""
+      -
+        name: "Eugene Sandulenko"
+        alias: "sev"
+        description: ""
+    -
       name: "Cryomni3D"
       person:
       -
@@ -533,17 +490,21 @@
         alias: "sev"
         description: ""
       -
+        name: "Crane Yang"
+        alias: "sheep"
+        description: "GSoC Student"
+      -
         name: "Dmitry Iskrich"
         alias: ""
         description: ""
       -
         name: "Dylan Servilla"
         alias: "djsrv"
-        description: ""
+        description: "GSoC Student"
       -
         name: "Nathanael Gentry"
         alias: "npjg"
-        description: ""
+        description: "GSoC Student"
       -
         name: "Roland van Laar"
         alias: "rvanlaar"
@@ -636,14 +597,7 @@
         alias: "wjp"
         description: ""
     -
-      name: "Fullpipe"
-      person:
-      -
-        name: "Eugene Sandulenko"
-        alias: "sev"
-        description: ""
-    -
-      name: "ScummGlk"
+      name: "Glk"
       person:
       -
         name: "Paul Gilbert"
@@ -1006,6 +960,17 @@
         alias: "bgK"
         description: ""
     -
+      name: "Nancy"
+      person:
+      -
+        name: "Kaloyan Chehlarski"
+        alias: "fracturehill"
+        description: ""
+      -
+        name: "Walter van Niftrik"
+        alias: "waltervn"
+        description: ""
+    -
       name: "Neverhood"
       person:
       -
@@ -1015,6 +980,13 @@
       -
         name: "Filippos Karapetis"
         alias: "bluegr"
+        description: ""
+    -
+      name: "NGI"
+      person:
+      -
+        name: "Eugene Sandulenko"
+        alias: "sev"
         description: ""
     -
       name: "Parallaction"
@@ -1120,6 +1092,17 @@
         alias: "sev"
         description: ""
     -
+      name: "SAGA2"
+      person:
+      -
+        name: "Yuri Guimaraes"
+        alias: "a-yyg"
+        description: "GSoC Student"
+      -
+        name: "Eugene Sandulenko"
+        alias: "sev"
+        description: ""
+    -
       name: "SCI"
       person:
       -
@@ -1167,6 +1150,68 @@
         alias: ""
         description: ""
     -
+      name: "SCUMM"
+      person:
+      -
+        name: "Torbj&ouml;rn Andersson"
+        alias: "eriktorbjorn"
+        description: ""
+      -
+        name: "James Brown"
+        alias: "ender"
+        description: "(retired)"
+      -
+        name: "Jonathan Gray"
+        alias: "khalek"
+        description: "(retired)"
+      -
+        name: "Vincent Hamm"
+        alias: "yaz0r"
+        description: "(retired)"
+      -
+        name: "Max Horn"
+        alias: "Fingolfin"
+        description: "(retired)"
+      -
+        name: "Travis Howell"
+        alias: "Kirben"
+        description: ""
+      -
+        name: "Pawe&#322; Ko&#322;odziejski"
+        alias: "aquadran"
+        description: "Codecs, iMUSE, Smush, etc."
+      -
+        name: "Gregory Montoir"
+        alias: "cyx"
+        description: "(retired)"
+      -
+        name: "Eugene Sandulenko"
+        alias: "sev"
+        description: "FT INSANE, MM NES, MM C64, game detection, Herc/CGA"
+      -
+        name: "Ludvig Strigeus"
+        alias: "ludde"
+        description: "(retired)"
+    -
+      name: "SCUMM HE"
+      person:
+      -
+        name: "Jonathan Gray"
+        alias: "khalek"
+        description: "(retired)"
+      -
+        name: "Travis Howell"
+        alias: "Kirben"
+        description: ""
+      -
+        name: "Gregory Montoir"
+        alias: "cyx"
+        description: "(retired)"
+      -
+        name: "Eugene Sandulenko"
+        alias: "sev"
+        description: ""
+    -
       name: "Sherlock"
       person:
       -
@@ -1193,6 +1238,17 @@
         alias: "joostp"
         description: ""
     -
+      name: "SLUDGE"
+      person:
+      -
+        name: "Eugene Sandulenko"
+        alias: "sev"
+        description: ""
+      -
+        name: "Simei Yin"
+        alias: "yinsimei"
+        description: "GSoC Student"
+    -
       name: "Stark"
       person:
       -
@@ -1207,6 +1263,21 @@
         name: "Liu Zhaosong"
         alias: "Douglas"
         description: ""
+    -
+      name: "Star Trek"
+      person:
+      -
+        name: "Matthew Hoops"
+        alias: "clone2727"
+        description: "(retired)"
+      -
+        name: "Filippos Karapetis"
+        alias: "bluegr"
+        description: ""
+      -
+        name: "Matthew Stewart"
+        alias: "Drenn"
+        description: "GSoC Student"
     -
       name: "Supernova"
       person:
@@ -1697,6 +1768,10 @@
         alias: "Tramb"
         description: "HQ software scaler"
       -
+        name: "Cameron Cawley"
+        alias: "ccawley2011"
+        description: ""
+      -
         name: "Neil Millstone"
         alias: "agent-q"
         description: ""
@@ -1889,6 +1964,10 @@
         name: "Chris Page"
         alias: "cp88"
         description: "Return to launcher, savestate improvements, leak fixes, ... (GSoC 2008 task) (retired)"
+      -
+        name: "Coen Rampen"
+        alias: "NMIError"
+        description: "Sound improvements"
       -
         name: "Robin Watts"
         alias: "robinwatts"
