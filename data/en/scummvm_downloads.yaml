@@ -1472,7 +1472,7 @@
     subcategory: optional
     category_icon: ''
     user_agent: ''
-    url: 'http://www.audiocoding.com/faad2.html'
+    url: 'https://github.com/knik0/faad2'
     name: FAAD2
     description: 'MPEG-4 and MPEG-2 AAC Decoder'
 -
