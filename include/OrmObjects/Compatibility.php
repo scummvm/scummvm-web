@@ -54,6 +54,9 @@ class Compatibility extends BaseCompatibility
         if ($this->getGame()->getDataFiles()) {
             $links[] = "- [ScummVM Wiki]({$this->getGame()->getDataFiles()})";
         }
+        if ($this->getGame()->getWikipediaPage()) {
+            $links[] = "- [Wikipedia](https://en.wikipedia.org/wiki/{$this->getGame()->getWikipediaPage()})";
+        }
         if ($links) {
             $notes .= "\n\n**Links:**\n";
             $notes .= join("\n", $links);
