@@ -6,6 +6,7 @@
     company_id: access
     moby_id: '222'
     datafiles: ''
+    wikipedia_page: Martian_Memorandum
     series_id: ''
 -
     id: amazon
@@ -14,6 +15,7 @@
     company_id: access
     moby_id: '3287'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Amazon:_Guardians_of_Eden'
+    wikipedia_page: 'Amazon:_Guardians_of_Eden'
     series_id: ''
 -
     id: hires2
@@ -22,6 +24,7 @@
     company_id: sierra
     moby_id: '1761'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Wizard_and_the_Princess'
+    wikipedia_page: Wizard_and_the_Princess
     series_id: hires
 -
     id: hires1
@@ -30,6 +33,7 @@
     company_id: sierra
     moby_id: '9312'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Mystery_House'
+    wikipedia_page: Mystery_House
     series_id: hires
 -
     id: hires4
@@ -38,6 +42,7 @@
     company_id: sierra
     moby_id: '10343'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Ulysses_and_the_Golden_Fleece'
+    wikipedia_page: Ulysses_and_the_Golden_Fleece
     series_id: hires
 -
     id: hires3
@@ -46,6 +51,7 @@
     company_id: sierra
     moby_id: '15281'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Cranston_Manor'
+    wikipedia_page: Cranston_Manor
     series_id: hires
 -
     id: hires0
@@ -54,6 +60,7 @@
     company_id: sierra
     moby_id: '15282'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Mission_Asteroid'
+    wikipedia_page: Mission_Asteroid
     series_id: hires
 -
     id: hires5
@@ -62,6 +69,7 @@
     company_id: sierra
     moby_id: '15283'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Time_Zone'
+    wikipedia_page: Time_Zone_(video_game)
     series_id: hires
 -
     id: hires6
@@ -70,6 +78,7 @@
     company_id: sierra
     moby_id: '16877'
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Dark_Crystal'
+    wikipedia_page: The_Dark_Crystal_(video_game)
     series_id: hires
 -
     id: mh1
@@ -78,6 +87,7 @@
     company_id: sierra
     moby_id: '24'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Manhunter'
+    wikipedia_page: 'Manhunter:_New_York'
     series_id: manhunt
 -
     id: mh2
@@ -86,6 +96,7 @@
     company_id: sierra
     moby_id: '25'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Manhunter_2'
+    wikipedia_page: 'Manhunter_2:_San_Francisco'
     series_id: manhunt
 -
     id: sq1
@@ -94,6 +105,7 @@
     company_id: sierra
     moby_id: '114'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest'
+    wikipedia_page: Space_Quest_I
     series_id: sq
 -
     id: kq1
@@ -102,6 +114,7 @@
     company_id: sierra
     moby_id: '122'
     datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest'
+    wikipedia_page: King%27s_Quest_I
     series_id: kq
 -
     id: kq2
@@ -110,6 +123,7 @@
     company_id: sierra
     moby_id: '123'
     datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest_II'
+    wikipedia_page: King%27s_Quest_II
     series_id: kq
 -
     id: sq2
@@ -118,6 +132,7 @@
     company_id: sierra
     moby_id: '128'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest_II'
+    wikipedia_page: Space_Quest_II
     series_id: sq
 -
     id: kq4
@@ -126,6 +141,7 @@
     company_id: sierra
     moby_id: '129'
     datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest_IV'
+    wikipedia_page: King%27s_Quest_IV
     series_id: kq
 -
     id: pq1
@@ -134,6 +150,7 @@
     company_id: sierra
     moby_id: '146'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest'
+    wikipedia_page: ''
     series_id: pq
 -
     id: qfg1
@@ -142,6 +159,7 @@
     company_id: sierra
     moby_id: '168'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Quest_for_Glory'
+    wikipedia_page: ''
     series_id: qfg
 -
     id: bc
@@ -150,6 +168,7 @@
     company_id: sierra
     moby_id: '194'
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Black_Cauldron'
+    wikipedia_page: ''
     series_id: ''
 -
     id: lsl1
@@ -158,6 +177,7 @@
     company_id: sierra
     moby_id: '379'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry'
+    wikipedia_page: ''
     series_id: lsl
 -
     id: goldrush
@@ -166,6 +186,7 @@
     company_id: sierra
     moby_id: '440'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Gold_Rush'
+    wikipedia_page: ''
     series_id: ''
 -
     id: mixedup
@@ -174,6 +195,7 @@
     company_id: sierra
     moby_id: '758'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Mixed-Up_Mother_Goose'
+    wikipedia_page: ''
     series_id: mixedup
 -
     id: ddp
@@ -182,6 +204,7 @@
     company_id: sierra
     moby_id: '3491'
     datafiles: ''
+    wikipedia_page: ''
     series_id: disney
 -
     id: troll
@@ -190,6 +213,7 @@
     company_id: sierra
     moby_id: '7271'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Troll%27s_Tale'
+    wikipedia_page: ''
     series_id: ''
 -
     id: mickey
@@ -198,6 +222,7 @@
     company_id: sierra
     moby_id: '7273'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Mickey%27s_Space_Adventure'
+    wikipedia_page: ''
     series_id: disney
 -
     id: winnie
@@ -206,6 +231,7 @@
     company_id: sierra
     moby_id: '7274'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Winnie_the_Pooh_in_the_Hundred_Acre_Wood'
+    wikipedia_page: ''
     series_id: disney
 -
     id: sq0
@@ -214,6 +240,7 @@
     company_id: fan
     moby_id: '11653'
     datafiles: ''
+    wikipedia_page: ''
     series_id: agifan
 -
     id: kq3
@@ -222,6 +249,7 @@
     company_id: sierra
     moby_id: '126'
     datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest_III'
+    wikipedia_page: King%27s_Quest_III
     series_id: kq
 -
     id: sqx
@@ -230,6 +258,7 @@
     company_id: fan
     moby_id: '54958'
     datafiles: ''
+    wikipedia_page: ''
     series_id: agifan
 -
     id: tetris
@@ -238,6 +267,7 @@
     company_id: fan
     moby_id: '69895'
     datafiles: ''
+    wikipedia_page: ''
     series_id: agifan
 -
     id: agidemo
@@ -246,6 +276,7 @@
     company_id: sierra
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: xmascard
@@ -254,6 +285,7 @@
     company_id: sierra
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: caitlyn
@@ -262,6 +294,7 @@
     company_id: fan
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: agifan
 -
     id: agi-fanmade
@@ -270,6 +303,7 @@
     company_id: fan
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: agifan
 -
     id: serguei1
@@ -278,6 +312,7 @@
     company_id: fan
     moby_id: '6007'
     datafiles: ''
+    wikipedia_page: ''
     series_id: agifan
 -
     id: serguei2
@@ -286,22 +321,25 @@
     company_id: fan
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: agifan
 -
     id: voodoo
     name: 'Voodoo Girl - Queen of the Darned'
     engine_id: agi
     company_id: fan
-    moby_id: '-1'
+    moby_id: '23813'
     datafiles: ''
+    wikipedia_page: ''
     series_id: agifan
 -
     id: enclosure
     name: 'Enclosure 1'
     engine_id: agi
     company_id: fan
-    moby_id: '-1'
+    moby_id: '22264'
     datafiles: ''
+    wikipedia_page: ''
     series_id: agifan
 -
     id: agi
@@ -310,6 +348,7 @@
     company_id: sierra
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: simon1
@@ -318,6 +357,7 @@
     company_id: adventuresoft
     moby_id: '495'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer'
+    wikipedia_page: ''
     series_id: simon
 -
     id: elvira2
@@ -326,6 +366,7 @@
     company_id: adventuresoft
     moby_id: '1779'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Elvira_2:_The_Jaws_of_Cerberus'
+    wikipedia_page: ''
     series_id: elvira
 -
     id: simon2
@@ -334,6 +375,7 @@
     company_id: adventuresoft
     moby_id: '1851'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer_II:_The_Lion,_the_Wizard_and_the_Wardrobe'
+    wikipedia_page: ''
     series_id: simon
 -
     id: feeble
@@ -342,6 +384,7 @@
     company_id: adventuresoft
     moby_id: '2198'
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Feeble_Files'
+    wikipedia_page: ''
     series_id: ''
 -
     id: elvira1
@@ -350,6 +393,7 @@
     company_id: adventuresoft
     moby_id: '4050'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Elvira:_Mistress_of_the_Dark'
+    wikipedia_page: ''
     series_id: elvira
 -
     id: waxworks
@@ -358,6 +402,7 @@
     company_id: adventuresoft
     moby_id: '1269'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Waxworks'
+    wikipedia_page: ''
     series_id: ''
 -
     id: dimp
@@ -366,6 +411,7 @@
     company_id: adventuresoft
     moby_id: '4427'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer_Puzzle_Pack'
+    wikipedia_page: ''
     series_id: simon
 -
     id: jumble
@@ -374,6 +420,7 @@
     company_id: adventuresoft
     moby_id: '4427'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer_Puzzle_Pack'
+    wikipedia_page: ''
     series_id: simon
 -
     id: puzzle
@@ -382,6 +429,7 @@
     company_id: adventuresoft
     moby_id: '4427'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer_Puzzle_Pack'
+    wikipedia_page: ''
     series_id: simon
 -
     id: pn
@@ -390,6 +438,7 @@
     company_id: adventuresoft
     moby_id: '7457'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Personal_Nightmare'
+    wikipedia_page: ''
     series_id: ''
 -
     id: swampy
@@ -398,6 +447,7 @@
     company_id: adventuresoft
     moby_id: '4427'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer_Puzzle_Pack'
+    wikipedia_page: ''
     series_id: simon
 -
     id: avalanche
@@ -406,6 +456,7 @@
     company_id: thorsoft
     moby_id: '44193'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: bbvs
@@ -414,6 +465,7 @@
     company_id: viacom
     moby_id: '2470'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Beavis_and_Butt-Head_in_Virtual_Stupidity'
+    wikipedia_page: ''
     series_id: beavisbutthead
 -
     id: bladerunner
@@ -422,6 +474,7 @@
     company_id: westwood
     moby_id: '341'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Blade_Runner'
+    wikipedia_page: ''
     series_id: ''
 -
     id: bladerunner-final
@@ -430,6 +483,7 @@
     company_id: westwood
     moby_id: '32411'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Blade_Runner'
+    wikipedia_page: ''
     series_id: ''
 -
     id: soltys
@@ -438,6 +492,7 @@
     company_id: lkavalon
     moby_id: '19196'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Soltys'
+    wikipedia_page: ''
     series_id: ''
 -
     id: sfinx
@@ -446,6 +501,7 @@
     company_id: lkavalon
     moby_id: '42915'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Sfinx'
+    wikipedia_page: ''
     series_id: ''
 -
     id: chewy
@@ -454,6 +510,7 @@
     company_id: newgen
     moby_id: '2339'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: fw
@@ -462,6 +519,7 @@
     company_id: delphine
     moby_id: '2205'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Future_Wars'
+    wikipedia_page: ''
     series_id: ''
 -
     id: os
@@ -470,6 +528,7 @@
     company_id: delphine
     moby_id: '2236'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: darby
@@ -478,6 +537,7 @@
     company_id: animationmagic
     moby_id: '61847'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: gregory
@@ -486,6 +546,7 @@
     company_id: animationmagic
     moby_id: '99115'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: babayaga
@@ -494,6 +555,7 @@
     company_id: animationmagic
     moby_id: '124450'
     datafiles: ''
+    wikipedia_page: ''
     series_id: magictales
 -
     id: liam
@@ -502,6 +564,7 @@
     company_id: animationmagic
     moby_id: '124451'
     datafiles: ''
+    wikipedia_page: ''
     series_id: magictales
 -
     id: princess
@@ -510,6 +573,7 @@
     company_id: animationmagic
     moby_id: '124453'
     datafiles: ''
+    wikipedia_page: ''
     series_id: magictales
 -
     id: imoking
@@ -518,6 +582,7 @@
     company_id: animationmagic
     moby_id: '124456'
     datafiles: ''
+    wikipedia_page: ''
     series_id: magictales
 -
     id: littlesamurai
@@ -526,6 +591,7 @@
     company_id: animationmagic
     moby_id: '124457'
     datafiles: ''
+    wikipedia_page: ''
     series_id: magictales
 -
     id: sleepingcub
@@ -534,6 +600,7 @@
     company_id: animationmagic
     moby_id: '124458'
     datafiles: ''
+    wikipedia_page: ''
     series_id: magictales
 -
     id: magictales
@@ -542,6 +609,7 @@
     company_id: animationmagic
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: magictales
 -
     id: cruise
@@ -550,6 +618,7 @@
     company_id: delphine
     moby_id: '2264'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Cruise_for_a_Corpse'
+    wikipedia_page: ''
     series_id: ''
 -
     id: losteden
@@ -558,6 +627,7 @@
     company_id: cryo
     moby_id: '1054'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Lost_Eden'
+    wikipedia_page: ''
     series_id: ''
 -
     id: versailles
@@ -566,6 +636,7 @@
     company_id: cryo
     moby_id: '6889'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Versailles_1685'
+    wikipedia_page: ''
     series_id: ''
 -
     id: amber
@@ -574,6 +645,7 @@
     company_id: hueforest
     moby_id: '2430'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: gundam0079
@@ -582,6 +654,7 @@
     company_id: presto
     moby_id: '11612'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: melements
@@ -590,6 +663,7 @@
     company_id: unknown
     moby_id: '16836'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: jman
@@ -598,6 +672,7 @@
     company_id: presto
     moby_id: '22007'
     datafiles: ''
+    wikipedia_page: ''
     series_id: journeyman
 -
     id: lzone
@@ -606,6 +681,7 @@
     company_id: synergy
     moby_id: '2302'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: warlock
@@ -614,6 +690,7 @@
     company_id: reactorinc
     moby_id: '22016'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: chopsuey
@@ -622,6 +699,7 @@
     company_id: magnetinteractive
     moby_id: '45110'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: ernie
@@ -630,6 +708,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: id4p1
@@ -638,6 +717,7 @@
     company_id: trendmasters
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: id4
 -
     id: id4p10
@@ -646,6 +726,7 @@
     company_id: trendmasters
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: id4
 -
     id: id4p11
@@ -654,6 +735,7 @@
     company_id: trendmasters
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: id4
 -
     id: id4p2
@@ -662,6 +744,7 @@
     company_id: trendmasters
     moby_id: '32260'
     datafiles: ''
+    wikipedia_page: ''
     series_id: id4
 -
     id: id4p3
@@ -670,6 +753,7 @@
     company_id: trendmasters
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: id4
 -
     id: id4p4
@@ -678,6 +762,7 @@
     company_id: trendmasters
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: id4
 -
     id: id4p5
@@ -686,6 +771,7 @@
     company_id: trendmasters
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: id4
 -
     id: id4p6
@@ -694,6 +780,7 @@
     company_id: trendmasters
     moby_id: '32398'
     datafiles: ''
+    wikipedia_page: ''
     series_id: id4
 -
     id: id4p7
@@ -702,6 +789,7 @@
     company_id: trendmasters
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: id4
 -
     id: id4p8
@@ -710,6 +798,7 @@
     company_id: trendmasters
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: id4
 -
     id: id4p9
@@ -718,6 +807,7 @@
     company_id: trendmasters
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: id4
 -
     id: jewels
@@ -726,6 +816,7 @@
     company_id: eloi
     moby_id: '5042'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: directortest-all
@@ -734,6 +825,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: director
@@ -742,6 +834,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: directortest
@@ -750,6 +843,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: majestic
@@ -758,6 +852,7 @@
     company_id: piranha
     moby_id: '57856'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: mediaband
@@ -766,6 +861,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: spyclub
@@ -774,6 +870,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: theapartment
@@ -782,6 +879,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: vvdinosaur
@@ -790,6 +888,7 @@
     company_id: sanctuary
     moby_id: '21266'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: vvvampire
@@ -798,6 +897,7 @@
     company_id: sanctuary
     moby_id: '21262'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: dm
@@ -806,6 +906,7 @@
     company_id: ftl
     moby_id: '834'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: draci
@@ -814,6 +915,7 @@
     company_id: nosense
     moby_id: '44689'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Dragon_History'
+    wikipedia_page: ''
     series_id: ''
 -
     id: dragons
@@ -822,6 +924,7 @@
     company_id: crystaldynamics
     moby_id: '8513'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: drascula
@@ -830,6 +933,7 @@
     company_id: alcachofa
     moby_id: '14108'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Drascula:_The_Vampire_Strikes_Back'
+    wikipedia_page: ''
     series_id: ''
 -
     id: dreamweb
@@ -838,6 +942,7 @@
     company_id: creativereality
     moby_id: '1905'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Dreamweb'
+    wikipedia_page: ''
     series_id: ''
 -
     id: fullpipe
@@ -846,6 +951,7 @@
     company_id: 1c
     moby_id: '26283'
     datafiles: ''
+    wikipedia_page: Full_Pipe
     series_id: ''
 -
     id: gnap
@@ -854,6 +960,7 @@
     company_id: artech
     moby_id: '4556'
     datafiles: 'https://wiki.scummvm.org/index.php?title=UFOs'
+    wikipedia_page: U.F.O.s_(video_game)
     series_id: ''
 -
     id: gob1
@@ -862,6 +969,7 @@
     company_id: coktel
     moby_id: '1154'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Gobliiins'
+    wikipedia_page: ''
     series_id: gob
 -
     id: gob1cd
@@ -870,6 +978,7 @@
     company_id: coktel
     moby_id: '1154'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Gobliiins'
+    wikipedia_page: ''
     series_id: gob
 -
     id: dynasty
@@ -878,6 +987,7 @@
     company_id: coktel
     moby_id: '1230'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: gob2cd
@@ -886,6 +996,7 @@
     company_id: coktel
     moby_id: '2625'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Gobliins_2'
+    wikipedia_page: ''
     series_id: gob
 -
     id: gob2
@@ -894,6 +1005,7 @@
     company_id: coktel
     moby_id: '2625'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Gobliins_2'
+    wikipedia_page: ''
     series_id: gob
 -
     id: gob3
@@ -902,6 +1014,7 @@
     company_id: coktel
     moby_id: '2870'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Goblins_3'
+    wikipedia_page: ''
     series_id: gob
 -
     id: gob3cd
@@ -910,6 +1023,7 @@
     company_id: coktel
     moby_id: '2870'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Goblins_3'
+    wikipedia_page: ''
     series_id: gob
 -
     id: woodruff
@@ -918,6 +1032,7 @@
     company_id: coktel
     moby_id: '2871'
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Bizarre_Adventures_of_Woodruff_and_the_Schnibble'
+    wikipedia_page: ''
     series_id: ''
 -
     id: urban
@@ -926,6 +1041,7 @@
     company_id: coktel
     moby_id: '3809'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Urban_Runner'
+    wikipedia_page: ''
     series_id: ''
 -
     id: geisha
@@ -934,6 +1050,7 @@
     company_id: coktel
     moby_id: '3844'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Geisha'
+    wikipedia_page: ''
     series_id: ''
 -
     id: lit
@@ -942,6 +1059,7 @@
     company_id: coktel
     moby_id: '6098'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Lost_in_Time'
+    wikipedia_page: ''
     series_id: ''
 -
     id: lit1
@@ -950,6 +1068,7 @@
     company_id: coktel
     moby_id: '6098'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Lost_in_Time'
+    wikipedia_page: ''
     series_id: ''
 -
     id: lit2
@@ -958,6 +1077,7 @@
     company_id: coktel
     moby_id: '6098'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Lost_in_Time'
+    wikipedia_page: ''
     series_id: ''
 -
     id: ween
@@ -966,6 +1086,7 @@
     company_id: coktel
     moby_id: '6218'
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Prophecy'
+    wikipedia_page: ''
     series_id: ''
 -
     id: fascination
@@ -974,6 +1095,7 @@
     company_id: coktel
     moby_id: '9399'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Fascination'
+    wikipedia_page: ''
     series_id: ''
 -
     id: bargon
@@ -982,6 +1104,7 @@
     company_id: coktel
     moby_id: '13178'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Bargon_Attack'
+    wikipedia_page: ''
     series_id: ''
 -
     id: crousti
@@ -990,6 +1113,7 @@
     company_id: coktel
     moby_id: '71127'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: onceupon
@@ -998,6 +1122,7 @@
     company_id: coktel
     moby_id: '92083'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: ajworld
@@ -1006,6 +1131,7 @@
     company_id: coktel
     moby_id: '32409'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: adi2
@@ -1014,6 +1140,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: adi4
@@ -1022,6 +1149,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: adibou1
@@ -1030,6 +1158,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: adibou2
@@ -1038,6 +1167,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: inca2
@@ -1046,6 +1176,7 @@
     company_id: coktel
     moby_id: '4553'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: abracadabra
@@ -1054,6 +1185,7 @@
     company_id: coktel
     moby_id: '31462'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: babayagaonce
@@ -1062,6 +1194,7 @@
     company_id: coktel
     moby_id: '27621'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: littlered
@@ -1070,6 +1203,7 @@
     company_id: coktel
     moby_id: '31658'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Once_Upon_A_Time:_Little_Red_Riding_Hood'
+    wikipedia_page: ''
     series_id: ''
 -
     id: playtoonsdemo
@@ -1078,6 +1212,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: playtoons
 -
     id: playtoons1
@@ -1086,6 +1221,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: playtoons
 -
     id: playtoons2
@@ -1094,6 +1230,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: playtoons
 -
     id: playtoons3
@@ -1102,6 +1239,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: playtoons
 -
     id: playtoons4
@@ -1110,6 +1248,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: playtoons
 -
     id: playtoons5
@@ -1118,6 +1257,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: playtoons
 -
     id: playtnck1
@@ -1126,6 +1266,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: playtoons
 -
     id: playtnck2
@@ -1134,6 +1275,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: playtoons
 -
     id: playtnck3
@@ -1142,6 +1284,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: playtoons
 -
     id: bambou
@@ -1150,6 +1293,7 @@
     company_id: coktel
     moby_id: '-1'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Playtoons_Limited_Edition_-_Bambou_le_Sauveur_de_la_Jungle'
+    wikipedia_page: ''
     series_id: playtoons
 -
     id: griffon
@@ -1158,6 +1302,7 @@
     company_id: fan
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: t7g
@@ -1166,6 +1311,7 @@
     company_id: trilobyte
     moby_id: '283'
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_7th_Guest'
+    wikipedia_page: ''
     series_id: t7g
 -
     id: 11h
@@ -1174,6 +1320,7 @@
     company_id: trilobyte
     moby_id: '567'
     datafiles: ''
+    wikipedia_page: ''
     series_id: t7g
 -
     id: tlc
@@ -1182,6 +1329,7 @@
     company_id: aftermath
     moby_id: '1414'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: clandestiny
@@ -1190,6 +1338,7 @@
     company_id: trilobyte
     moby_id: '2154'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: unclehenry
@@ -1198,6 +1347,7 @@
     company_id: trilobyte
     moby_id: '4531'
     datafiles: ''
+    wikipedia_page: ''
     series_id: t7g
 -
     id: hdb
@@ -1206,6 +1356,7 @@
     company_id: monkeystone
     moby_id: '8754'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: hopkins
@@ -1214,6 +1365,7 @@
     company_id: mpe
     moby_id: '3994'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: hugo1
@@ -1222,6 +1374,7 @@
     company_id: graydesign
     moby_id: '1023'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Hugo%27s_House_of_Horrors'
+    wikipedia_page: ''
     series_id: hugo
 -
     id: hugo2
@@ -1230,6 +1383,7 @@
     company_id: graydesign
     moby_id: '1158'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Hugo_II:_Whodunit%3F'
+    wikipedia_page: ''
     series_id: hugo
 -
     id: hugo3
@@ -1238,6 +1392,7 @@
     company_id: graydesign
     moby_id: '4962'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Hugo_III:_Jungle_of_Doom'
+    wikipedia_page: ''
     series_id: hugo
 -
     id: bbdou
@@ -1246,6 +1401,7 @@
     company_id: viacom
     moby_id: '2470'
     datafiles: ''
+    wikipedia_page: ''
     series_id: beavisbutthead
 -
     id: duckman
@@ -1254,6 +1410,7 @@
     company_id: playmates
     moby_id: '3506'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: kyra1
@@ -1262,6 +1419,7 @@
     company_id: westwood
     moby_id: '394'
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Legend_of_Kyrandia'
+    wikipedia_page: ''
     series_id: kyra
 -
     id: kyra2
@@ -1270,6 +1428,7 @@
     company_id: westwood
     moby_id: '871'
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Legend_of_Kyrandia:_Book_Two:_Hand_of_Fate'
+    wikipedia_page: ''
     series_id: kyra
 -
     id: kyra3
@@ -1278,6 +1437,7 @@
     company_id: westwood
     moby_id: '872'
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Legend_of_Kyrandia:_Book_Three:_Malcolm%27s_Revenge'
+    wikipedia_page: ''
     series_id: kyra
 -
     id: eob
@@ -1286,6 +1446,7 @@
     company_id: westwood
     moby_id: '835'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Eye_of_the_Beholder'
+    wikipedia_page: ''
     series_id: eob
 -
     id: eob2
@@ -1294,6 +1455,7 @@
     company_id: westwood
     moby_id: '307'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Eye_of_the_Beholder_II:_The_Legend_of_Darkmoon'
+    wikipedia_page: ''
     series_id: eob
 -
     id: lol
@@ -1302,6 +1464,7 @@
     company_id: westwood
     moby_id: '846'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Lands_of_Lore'
+    wikipedia_page: ''
     series_id: ''
 -
     id: lab
@@ -1310,6 +1473,7 @@
     company_id: terra
     moby_id: '2441'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: lastexpress
@@ -1318,6 +1482,7 @@
     company_id: smokingcar
     moby_id: '1172'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: rome
@@ -1326,6 +1491,7 @@
     company_id: firstlight
     moby_id: '2232'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: robin
@@ -1334,6 +1500,7 @@
     company_id: millennium
     moby_id: '2918'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: lure
@@ -1342,6 +1509,7 @@
     company_id: revolution
     moby_id: '1134'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Lure_of_the_Temptress'
+    wikipedia_page: ''
     series_id: ''
 -
     id: deja_vu
@@ -1350,6 +1518,7 @@
     company_id: icom
     moby_id: '1069'
     datafiles: ''
+    wikipedia_page: ''
     series_id: deja_vu
 -
     id: shadowgate
@@ -1358,6 +1527,7 @@
     company_id: icom
     moby_id: '1070'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: deja_vu2
@@ -1366,6 +1536,7 @@
     company_id: icom
     moby_id: '7743'
     datafiles: ''
+    wikipedia_page: ''
     series_id: deja_vu
 -
     id: lgop2
@@ -1374,6 +1545,7 @@
     company_id: infocom
     moby_id: '480'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Leather_Goddesses_of_Phobos_2'
+    wikipedia_page: ''
     series_id: ''
 -
     id: rtz
@@ -1382,6 +1554,7 @@
     company_id: activision
     moby_id: '1219'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Return_to_Zork'
+    wikipedia_page: ''
     series_id: zork
 -
     id: manhole
@@ -1390,6 +1563,7 @@
     company_id: cyan
     moby_id: '9222'
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Manhole'
+    wikipedia_page: ''
     series_id: ''
 -
     id: rodney
@@ -1398,6 +1572,7 @@
     company_id: artbox
     moby_id: '39698'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Rodney%27s_Funscreen'
+    wikipedia_page: ''
     series_id: ''
 -
     id: nebular
@@ -1406,6 +1581,7 @@
     company_id: microprose
     moby_id: '539'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Rex_Nebular_and_the_Cosmic_Gender_Bender'
+    wikipedia_page: ''
     series_id: ''
 -
     id: phantom
@@ -1414,6 +1590,7 @@
     company_id: microprose
     moby_id: '2011'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: dragonsphere
@@ -1422,6 +1599,7 @@
     company_id: microprose
     moby_id: '2257'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: myst
@@ -1430,6 +1608,7 @@
     company_id: cyan
     moby_id: '1223'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Myst'
+    wikipedia_page: ''
     series_id: myst
 -
     id: mystme
@@ -1438,6 +1617,7 @@
     company_id: cyan
     moby_id: '1253'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Myst'
+    wikipedia_page: ''
     series_id: myst
 -
     id: riven
@@ -1446,6 +1626,7 @@
     company_id: cyan
     moby_id: '1262'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Riven:_The_Sequel_to_Myst'
+    wikipedia_page: ''
     series_id: myst
 -
     id: sheila
@@ -1454,6 +1635,7 @@
     company_id: livingbooks
     moby_id: '17900'
     datafiles: ''
+    wikipedia_page: ''
     series_id: livingbooks
 -
     id: rugrats
@@ -1462,6 +1644,7 @@
     company_id: broderbund
     moby_id: '31611'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: tortoise
@@ -1470,6 +1653,7 @@
     company_id: livingbooks
     moby_id: '44804'
     datafiles: ''
+    wikipedia_page: ''
     series_id: livingbooks
 -
     id: arthurbday
@@ -1478,6 +1662,7 @@
     company_id: livingbooks
     moby_id: '63198'
     datafiles: ''
+    wikipedia_page: ''
     series_id: livingbooks
 -
     id: arthurcomp
@@ -1486,6 +1671,7 @@
     company_id: livingbooks
     moby_id: '79724'
     datafiles: ''
+    wikipedia_page: ''
     series_id: livingbooks
 -
     id: arthurrace
@@ -1494,6 +1680,7 @@
     company_id: livingbooks
     moby_id: '44963'
     datafiles: ''
+    wikipedia_page: ''
     series_id: livingbooks
 -
     id: arthur
@@ -1502,6 +1689,7 @@
     company_id: livingbooks
     moby_id: '69084'
     datafiles: ''
+    wikipedia_page: ''
     series_id: livingbooks
 -
     id: carmentq
@@ -1510,6 +1698,7 @@
     company_id: tlc
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: carmen
 -
     id: carmentqc
@@ -1518,6 +1707,7 @@
     company_id: tlc
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: carmen
 -
     id: seussabc
@@ -1526,6 +1716,7 @@
     company_id: livingbooks
     moby_id: '71855'
     datafiles: ''
+    wikipedia_page: ''
     series_id: livingbooks
 -
     id: greeneggs
@@ -1534,6 +1725,7 @@
     company_id: livingbooks
     moby_id: '71853'
     datafiles: ''
+    wikipedia_page: ''
     series_id: livingbooks
 -
     id: harryhh
@@ -1542,6 +1734,7 @@
     company_id: livingbooks
     moby_id: '4723'
     datafiles: ''
+    wikipedia_page: ''
     series_id: livingbooks
 -
     id: grandma
@@ -1550,6 +1743,7 @@
     company_id: livingbooks
     moby_id: '17688'
     datafiles: ''
+    wikipedia_page: ''
     series_id: livingbooks
 -
     id: lilmonster
@@ -1558,6 +1752,7 @@
     company_id: livingbooks
     moby_id: '17715'
     datafiles: ''
+    wikipedia_page: ''
     series_id: livingbooks
 -
     id: lbsampler
@@ -1566,6 +1761,7 @@
     company_id: livingbooks
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: livingbooks
 -
     id: maggiesfa
@@ -1574,6 +1770,7 @@
     company_id: livingbooks
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: livingbooks
 -
     id: ruff
@@ -1582,6 +1779,7 @@
     company_id: colossal
     moby_id: '71458'
     datafiles: ''
+    wikipedia_page: ''
     series_id: livingbooks
 -
     id: rugratsps
@@ -1590,6 +1788,7 @@
     company_id: livingbooks
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: livingbooks
 -
     id: stellaluna
@@ -1598,6 +1797,7 @@
     company_id: broderbund
     moby_id: '71459'
     datafiles: ''
+    wikipedia_page: ''
     series_id: livingbooks
 -
     id: bearfight
@@ -1606,6 +1806,7 @@
     company_id: livingbooks
     moby_id: '71844'
     datafiles: ''
+    wikipedia_page: ''
     series_id: livingbooks
 -
     id: beardark
@@ -1614,6 +1815,7 @@
     company_id: livingbooks
     moby_id: '79722'
     datafiles: ''
+    wikipedia_page: ''
     series_id: livingbooks
 -
     id: catinthehat
@@ -1622,6 +1824,7 @@
     company_id: livingbooks
     moby_id: '15265'
     datafiles: ''
+    wikipedia_page: ''
     series_id: livingbooks
 -
     id: makingofmyst
@@ -1630,6 +1833,7 @@
     company_id: cyan
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: myst
 -
     id: newkid
@@ -1638,6 +1842,7 @@
     company_id: livingbooks
     moby_id: '62289'
     datafiles: ''
+    wikipedia_page: ''
     series_id: livingbooks
 -
     id: cstime
@@ -1646,6 +1851,7 @@
     company_id: broderbund
     moby_id: '6564'
     datafiles: ''
+    wikipedia_page: ''
     series_id: carmen
 -
     id: mortevielle
@@ -1654,6 +1860,7 @@
     company_id: lankhor
     moby_id: '2504'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Mortville_Manor'
+    wikipedia_page: ''
     series_id: ''
 -
     id: mutationofjb
@@ -1662,6 +1869,7 @@
     company_id: invention
     moby_id: '34036'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: neverhood
@@ -1670,6 +1878,7 @@
     company_id: neverhood
     moby_id: '1037'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: bra
@@ -1678,6 +1887,7 @@
     company_id: dynabyte
     moby_id: '3206'
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Big_Red_Adventure'
+    wikipedia_page: ''
     series_id: ''
 -
     id: nippon
@@ -1686,6 +1896,7 @@
     company_id: dynabyte
     moby_id: '13613'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Nippon_Safes_Inc.'
+    wikipedia_page: ''
     series_id: ''
 -
     id: pegasus
@@ -1694,6 +1905,7 @@
     company_id: presto
     moby_id: '23526'
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Journeyman_Project:_Pegasus_Prime'
+    wikipedia_page: ''
     series_id: journeyman
 -
     id: peril
@@ -1702,6 +1914,7 @@
     company_id: wanderlust
     moby_id: '7995'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: pokus
@@ -1710,6 +1923,7 @@
     company_id: wanderlust
     moby_id: '41450'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: plumbers
@@ -1718,6 +1932,7 @@
     company_id: unitedpixtures
     moby_id: '25730'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: prince
@@ -1726,6 +1941,7 @@
     company_id: metropolis
     moby_id: '30716'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: queen
@@ -1734,6 +1950,7 @@
     company_id: ibi
     moby_id: '352'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Flight_of_the_Amazon_Queen'
+    wikipedia_page: ''
     series_id: ''
 -
     id: ihnm
@@ -1742,6 +1959,7 @@
     company_id: dreamersguild
     moby_id: '617'
     datafiles: 'https://wiki.scummvm.org/index.php?title=I_Have_No_Mouth,_and_I_Must_Scream'
+    wikipedia_page: ''
     series_id: ''
 -
     id: dino
@@ -1750,6 +1968,7 @@
     company_id: dreamersguild
     moby_id: '3269'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: ite
@@ -1758,6 +1977,7 @@
     company_id: dreamersguild
     moby_id: '4008'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Inherit_the_Earth'
+    wikipedia_page: ''
     series_id: ''
 -
     id: fta2
@@ -1766,6 +1986,7 @@
     company_id: dreamersguild
     moby_id: '3414'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: gk1demo
@@ -1774,6 +1995,7 @@
     company_id: sierra
     moby_id: '116'
     datafiles: ''
+    wikipedia_page: ''
     series_id: gk
 -
     id: gk1
@@ -1782,6 +2004,7 @@
     company_id: sierra
     moby_id: '116'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Gabriel_Knight'
+    wikipedia_page: ''
     series_id: gk
 -
     id: gk2
@@ -1790,6 +2013,7 @@
     company_id: sierra
     moby_id: '118'
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Beast_Within'
+    wikipedia_page: ''
     series_id: gk
 -
     id: qfg4demo
@@ -1798,6 +2022,7 @@
     company_id: sierra
     moby_id: '119'
     datafiles: ''
+    wikipedia_page: ''
     series_id: qfg
 -
     id: qfg4
@@ -1806,6 +2031,7 @@
     company_id: sierra
     moby_id: '119'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Quest_for_Glory_IV'
+    wikipedia_page: ''
     series_id: qfg
 -
     id: kq4sci
@@ -1814,6 +2040,7 @@
     company_id: sierra
     moby_id: '129'
     datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest_IV'
+    wikipedia_page: King%27s_Quest_IV
     series_id: kq
 -
     id: kq5
@@ -1822,6 +2049,7 @@
     company_id: sierra
     moby_id: '130'
     datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest_V'
+    wikipedia_page: King%27s_Quest_V
     series_id: kq
 -
     id: kq6
@@ -1830,6 +2058,7 @@
     company_id: sierra
     moby_id: '131'
     datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest_VI'
+    wikipedia_page: King%27s_Quest_VI
     series_id: kq
 -
     id: kq7
@@ -1838,6 +2067,7 @@
     company_id: sierra
     moby_id: '135'
     datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest_VII'
+    wikipedia_page: King%27s_Quest_VII
     series_id: kq
 -
     id: sq3
@@ -1846,6 +2076,7 @@
     company_id: sierra
     moby_id: '142'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest_III'
+    wikipedia_page: Space_Quest_III
     series_id: sq
 -
     id: sq4
@@ -1854,6 +2085,7 @@
     company_id: sierra
     moby_id: '143'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest_IV'
+    wikipedia_page: Space_Quest_IV
     series_id: sq
 -
     id: sq5
@@ -1862,6 +2094,7 @@
     company_id: sierra
     moby_id: '144'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest_V'
+    wikipedia_page: Space_Quest_V
     series_id: sq
 -
     id: sq6
@@ -1870,6 +2103,7 @@
     company_id: sierra
     moby_id: '145'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest_6'
+    wikipedia_page: Space_Quest_6
     series_id: sq
 -
     id: pq2
@@ -1878,6 +2112,7 @@
     company_id: sierra
     moby_id: '147'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest_II'
+    wikipedia_page: ''
     series_id: pq
 -
     id: pq3
@@ -1886,6 +2121,7 @@
     company_id: sierra
     moby_id: '148'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest_III'
+    wikipedia_page: ''
     series_id: pq
 -
     id: pq4demo
@@ -1894,6 +2130,7 @@
     company_id: sierra
     moby_id: '149'
     datafiles: ''
+    wikipedia_page: ''
     series_id: pq
 -
     id: pq4
@@ -1902,6 +2139,7 @@
     company_id: sierra
     moby_id: '149'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest_IV'
+    wikipedia_page: ''
     series_id: pq
 -
     id: pqswat
@@ -1910,6 +2148,7 @@
     company_id: sierra
     moby_id: '150'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest:_SWAT'
+    wikipedia_page: ''
     series_id: pq
 -
     id: qfg2
@@ -1918,6 +2157,7 @@
     company_id: sierra
     moby_id: '169'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Quest_for_Glory_II'
+    wikipedia_page: ''
     series_id: qfg
 -
     id: qfg3
@@ -1926,6 +2166,7 @@
     company_id: sierra
     moby_id: '173'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Quest_for_Glory_III'
+    wikipedia_page: ''
     series_id: qfg
 -
     id: sq1sci
@@ -1934,6 +2175,7 @@
     company_id: sierra
     moby_id: '187'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest'
+    wikipedia_page: ''
     series_id: sq
 -
     id: lighthouse
@@ -1942,6 +2184,7 @@
     company_id: sierra
     moby_id: '266'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Lighthouse'
+    wikipedia_page: ''
     series_id: ''
 -
     id: jones
@@ -1950,6 +2193,7 @@
     company_id: sierra
     moby_id: '370'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Jones_in_the_Fast_Lane'
+    wikipedia_page: ''
     series_id: ''
 -
     id: lsl7
@@ -1958,6 +2202,7 @@
     company_id: sierra
     moby_id: '381'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_7'
+    wikipedia_page: ''
     series_id: lsl
 -
     id: lsl6
@@ -1966,6 +2211,7 @@
     company_id: sierra
     moby_id: '407'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_6'
+    wikipedia_page: ''
     series_id: lsl
 -
     id: lsl6hires
@@ -1974,6 +2220,7 @@
     company_id: sierra
     moby_id: '407'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_6'
+    wikipedia_page: ''
     series_id: lsl
 -
     id: lsl5
@@ -1982,6 +2229,7 @@
     company_id: sierra
     moby_id: '408'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_5'
+    wikipedia_page: ''
     series_id: lsl
 -
     id: lsl2
@@ -1990,6 +2238,7 @@
     company_id: sierra
     moby_id: '409'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_2'
+    wikipedia_page: ''
     series_id: lsl
 -
     id: lsl3
@@ -1998,6 +2247,7 @@
     company_id: sierra
     moby_id: '412'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_3'
+    wikipedia_page: ''
     series_id: lsl
 -
     id: lsl1sci
@@ -2006,6 +2256,7 @@
     company_id: sierra
     moby_id: '379'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry'
+    wikipedia_page: ''
     series_id: lsl
 -
     id: iceman
@@ -2014,6 +2265,7 @@
     company_id: sierra
     moby_id: '436'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Codename:_ICEMAN'
+    wikipedia_page: ''
     series_id: ''
 -
     id: laurabow2
@@ -2022,6 +2274,7 @@
     company_id: sierra
     moby_id: '462'
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Dagger_of_Amon_Ra'
+    wikipedia_page: ''
     series_id: laurabow
 -
     id: laurabow
@@ -2030,6 +2283,7 @@
     company_id: sierra
     moby_id: '461'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Laura_Bow:_The_Colonel%27s_Bequest'
+    wikipedia_page: ''
     series_id: laurabow
 -
     id: ecoquest
@@ -2038,6 +2292,7 @@
     company_id: sierra
     moby_id: '584'
     datafiles: 'https://wiki.scummvm.org/index.php?title=EcoQuest'
+    wikipedia_page: ''
     series_id: ecoquest
 -
     id: ecoquest2
@@ -2046,6 +2301,7 @@
     company_id: sierra
     moby_id: '619'
     datafiles: 'https://wiki.scummvm.org/index.php?title=EcoQuest_II'
+    wikipedia_page: ''
     series_id: ecoquest
 -
     id: shivers
@@ -2054,6 +2310,7 @@
     company_id: sierra
     moby_id: '663'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Shivers'
+    wikipedia_page: ''
     series_id: ''
 -
     id: hoyle1
@@ -2062,6 +2319,7 @@
     company_id: sierra
     moby_id: '759'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle%27s_Official_Book_of_Games:_Volume_1'
+    wikipedia_page: ''
     series_id: hoyle
 -
     id: hoyle2
@@ -2070,6 +2328,7 @@
     company_id: sierra
     moby_id: '760'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle%27s_Official_Book_of_Games:_Volume_2'
+    wikipedia_page: ''
     series_id: hoyle
 -
     id: phantasmagoria2
@@ -2078,6 +2337,7 @@
     company_id: sierra
     moby_id: '1216'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Phantasmagoria_2'
+    wikipedia_page: ''
     series_id: phantasmagoria
 -
     id: torin
@@ -2086,6 +2346,7 @@
     company_id: sierra
     moby_id: '1228'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Torin%27s_Passage'
+    wikipedia_page: ''
     series_id: ''
 -
     id: hoyle5solitaire
@@ -2094,6 +2355,7 @@
     company_id: sierra
     moby_id: '1232'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle_Solitaire'
+    wikipedia_page: ''
     series_id: hoyle
 -
     id: rama
@@ -2102,6 +2364,7 @@
     company_id: sierra
     moby_id: '1255'
     datafiles: 'https://wiki.scummvm.org/index.php?title=RAMA'
+    wikipedia_page: ''
     series_id: ''
 -
     id: camelot
@@ -2110,6 +2373,7 @@
     company_id: sierra
     moby_id: '1408'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Conquests_of_Camelot'
+    wikipedia_page: ''
     series_id: conquests
 -
     id: castlebrain
@@ -2118,6 +2382,7 @@
     company_id: sierra
     moby_id: '1523'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Castle_of_Dr._Brain'
+    wikipedia_page: ''
     series_id: brain
 -
     id: islandbrain
@@ -2126,6 +2391,7 @@
     company_id: sierra
     moby_id: '1524'
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Island_of_Dr._Brain'
+    wikipedia_page: ''
     series_id: brain
 -
     id: phantasmagoria
@@ -2134,6 +2400,7 @@
     company_id: sierra
     moby_id: '1164'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Phantasmagoria'
+    wikipedia_page: ''
     series_id: phantasmagoria
 -
     id: freddypharkas
@@ -2142,6 +2409,7 @@
     company_id: sierra
     moby_id: '1785'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Freddy_Pharkas'
+    wikipedia_page: ''
     series_id: ''
 -
     id: longbow
@@ -2150,6 +2418,7 @@
     company_id: sierra
     moby_id: '1967'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Conquests_of_the_Longbow'
+    wikipedia_page: ''
     series_id: conquests
 -
     id: pq1sci
@@ -2158,6 +2427,7 @@
     company_id: sierra
     moby_id: '146'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest'
+    wikipedia_page: ''
     series_id: pq
 -
     id: hoyle3
@@ -2166,6 +2436,7 @@
     company_id: sierra
     moby_id: '2124'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle%27s_Official_Book_of_Games:_Volume_3'
+    wikipedia_page: ''
     series_id: hoyle
 -
     id: mothergoosehires
@@ -2174,6 +2445,7 @@
     company_id: sierra
     moby_id: '3327'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Mixed-Up_Mother_Goose'
+    wikipedia_page: ''
     series_id: mixedup
 -
     id: pepper
@@ -2182,6 +2454,7 @@
     company_id: sierra
     moby_id: '6312'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Pepper%27s_Adventures_in_Time'
+    wikipedia_page: ''
     series_id: ''
 -
     id: kq1sci
@@ -2190,6 +2463,7 @@
     company_id: sierra
     moby_id: '6418'
     datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest'
+    wikipedia_page: King%27s_Quest_I
     series_id: kq
 -
     id: fairytales
@@ -2198,6 +2472,7 @@
     company_id: sierra
     moby_id: '6880'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Mixed-Up_Fairy_Tales'
+    wikipedia_page: ''
     series_id: mixedup
 -
     id: qfg1vga
@@ -2206,6 +2481,7 @@
     company_id: sierra
     moby_id: '16075'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Quest_for_Glory'
+    wikipedia_page: ''
     series_id: qfg
 -
     id: cnick-kq
@@ -2214,6 +2490,7 @@
     company_id: sierra
     moby_id: '20400'
     datafiles: ''
+    wikipedia_page: ''
     series_id: kq
 -
     id: mothergoose
@@ -2222,6 +2499,7 @@
     company_id: sierra
     moby_id: '758'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Mixed-Up_Mother_Goose'
+    wikipedia_page: ''
     series_id: mixedup
 -
     id: mothergoose256
@@ -2230,6 +2508,7 @@
     company_id: sierra
     moby_id: '758'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Mixed-Up_Mother_Goose'
+    wikipedia_page: ''
     series_id: mixedup
 -
     id: slater
@@ -2238,6 +2517,7 @@
     company_id: sierra
     moby_id: '22337'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Slater_%26_Charlie_Go_Camping'
+    wikipedia_page: ''
     series_id: ''
 -
     id: hoyle5
@@ -2246,6 +2526,7 @@
     company_id: sierra
     moby_id: '28770'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle_Classic_Games'
+    wikipedia_page: ''
     series_id: hoyle
 -
     id: hoyle4
@@ -2254,6 +2535,7 @@
     company_id: sierra
     moby_id: '30264'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle_Classic_Card_Games'
+    wikipedia_page: ''
     series_id: hoyle
 -
     id: cnick-lsl
@@ -2262,6 +2544,7 @@
     company_id: sierra
     moby_id: '92556'
     datafiles: ''
+    wikipedia_page: ''
     series_id: lsl
 -
     id: cnick-laurabow
@@ -2270,6 +2553,7 @@
     company_id: sierra
     moby_id: '95473'
     datafiles: ''
+    wikipedia_page: ''
     series_id: laurabow
 -
     id: cnick-longbow
@@ -2278,6 +2562,7 @@
     company_id: sierra
     moby_id: '95474'
     datafiles: ''
+    wikipedia_page: ''
     series_id: conquests
 -
     id: cnick-sq
@@ -2286,6 +2571,7 @@
     company_id: sierra
     moby_id: '95475'
     datafiles: ''
+    wikipedia_page: ''
     series_id: sq
 -
     id: astrochicken
@@ -2294,6 +2580,7 @@
     company_id: sierra
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: sq
 -
     id: christmas1988
@@ -2302,6 +2589,7 @@
     company_id: sierra
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: christmas1990
@@ -2310,6 +2598,7 @@
     company_id: sierra
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: christmas1992
@@ -2318,6 +2607,7 @@
     company_id: sierra
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: sci-fanmade
@@ -2326,6 +2616,7 @@
     company_id: fan
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: funseeker
@@ -2334,6 +2625,7 @@
     company_id: sierra
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: hoyle5bridge
@@ -2342,6 +2634,7 @@
     company_id: sierra
     moby_id: '17466'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle_Classic_Games'
+    wikipedia_page: ''
     series_id: hoyle
 -
     id: hoyle5children
@@ -2350,6 +2643,7 @@
     company_id: sierra
     moby_id: '19773'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle_Classic_Games'
+    wikipedia_page: ''
     series_id: hoyle
 -
     id: inndemo
@@ -2358,6 +2652,7 @@
     company_id: sierra
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: chest
@@ -2366,6 +2661,7 @@
     company_id: sierra
     moby_id: '-1'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Inside_the_Chest'
+    wikipedia_page: ''
     series_id: kq
 -
     id: kquestions
@@ -2374,6 +2670,7 @@
     company_id: sierra
     moby_id: '-1'
     datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Questions'
+    wikipedia_page: ''
     series_id: kq
 -
     id: msastrochicken
@@ -2382,6 +2679,7 @@
     company_id: sierra
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: sq
 -
     id: sci
@@ -2390,6 +2688,7 @@
     company_id: sierra
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: catdate
@@ -2398,6 +2697,7 @@
     company_id: fan
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: loom
@@ -2406,6 +2706,7 @@
     company_id: lucasarts
     moby_id: '176'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Loom'
+    wikipedia_page: ''
     series_id: ''
 -
     id: monkey2
@@ -2414,6 +2715,7 @@
     company_id: lucasarts
     moby_id: '289'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Monkey_Island_2:_LeChuck%27s_Revenge'
+    wikipedia_page: ''
     series_id: mi
 -
     id: zak
@@ -2422,6 +2724,7 @@
     company_id: lucasarts
     moby_id: '305'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Zak_McKracken_and_the_Alien_Mindbenders'
+    wikipedia_page: ''
     series_id: ''
 -
     id: atlantis
@@ -2430,6 +2733,7 @@
     company_id: lucasarts
     moby_id: '316'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Indiana_Jones_and_the_Fate_of_Atlantis'
+    wikipedia_page: ''
     series_id: indy
 -
     id: dig
@@ -2438,6 +2742,7 @@
     company_id: lucasarts
     moby_id: '354'
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Dig'
+    wikipedia_page: ''
     series_id: ''
 -
     id: indy3
@@ -2446,6 +2751,7 @@
     company_id: lucasarts
     moby_id: '534'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Indiana_Jones_and_the_Last_Crusade'
+    wikipedia_page: ''
     series_id: indy
 -
     id: comi
@@ -2454,6 +2760,7 @@
     company_id: lucasarts
     moby_id: '547'
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Curse_of_Monkey_Island'
+    wikipedia_page: ''
     series_id: mi
 -
     id: monkey
@@ -2462,6 +2769,7 @@
     company_id: lucasarts
     moby_id: '616'
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Secret_of_Monkey_Island'
+    wikipedia_page: ''
     series_id: mi
 -
     id: maniac
@@ -2470,6 +2778,7 @@
     company_id: lucasarts
     moby_id: '714'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Maniac_Mansion'
+    wikipedia_page: ''
     series_id: maniac
 -
     id: tentacle
@@ -2478,6 +2787,7 @@
     company_id: lucasarts
     moby_id: '719'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Day_of_the_Tentacle'
+    wikipedia_page: ''
     series_id: maniac
 -
     id: samnmax
@@ -2486,6 +2796,7 @@
     company_id: lucasarts
     moby_id: '745'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Sam_%26_Max_Hit_the_Road'
+    wikipedia_page: ''
     series_id: ''
 -
     id: funpack
@@ -2494,6 +2805,7 @@
     company_id: he
     moby_id: '757'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt%27s_Fun_Pack'
+    wikipedia_page: ''
     series_id: puttputt
 -
     id: ft
@@ -2502,6 +2814,7 @@
     company_id: lucasarts
     moby_id: '940'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Full_Throttle'
+    wikipedia_page: ''
     series_id: ''
 -
     id: puttputt
@@ -2510,6 +2823,7 @@
     company_id: he
     moby_id: '1017'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_Joins_the_Parade'
+    wikipedia_page: ''
     series_id: puttputt
 -
     id: puttrace
@@ -2518,6 +2832,7 @@
     company_id: he
     moby_id: '1197'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_Enters_the_Race'
+    wikipedia_page: ''
     series_id: puttputt
 -
     id: puttmoon
@@ -2526,6 +2841,7 @@
     company_id: he
     moby_id: '1198'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_Goes_to_the_Moon'
+    wikipedia_page: ''
     series_id: puttputt
 -
     id: freddi
@@ -2534,6 +2850,7 @@
     company_id: he
     moby_id: '1199'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Freddi_Fish_1:_The_Case_of_the_Missing_Kelp_Seeds'
+    wikipedia_page: ''
     series_id: freddi
 -
     id: pajama
@@ -2542,6 +2859,7 @@
     company_id: he
     moby_id: '1200'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam_1:_No_Need_to_Hide_When_It%27s_Dark_Outside'
+    wikipedia_page: ''
     series_id: pajama
 -
     id: putttime
@@ -2550,6 +2868,7 @@
     company_id: he
     moby_id: '1201'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_Travels_Through_Time'
+    wikipedia_page: ''
     series_id: puttputt
 -
     id: puttzoo
@@ -2558,6 +2877,7 @@
     company_id: he
     moby_id: '1225'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_Saves_the_Zoo'
+    wikipedia_page: ''
     series_id: puttputt
 -
     id: bluesabctime
@@ -2566,6 +2886,7 @@
     company_id: he
     moby_id: '1226'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Blue%27s_ABC_Time_Activities'
+    wikipedia_page: ''
     series_id: blue
 -
     id: pajama3
@@ -2574,6 +2895,7 @@
     company_id: he
     moby_id: '4810'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam_3:_You_Are_What_You_Eat_From_Your_Head_to_Your_Feet'
+    wikipedia_page: ''
     series_id: pajama
 -
     id: blues123time
@@ -2582,6 +2904,7 @@
     company_id: he
     moby_id: '5135'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Blue%27s_123_Time_Activities'
+    wikipedia_page: ''
     series_id: blue
 -
     id: freddi4
@@ -2590,6 +2913,7 @@
     company_id: he
     moby_id: '5157'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Freddi_Fish_4:_The_Case_of_the_Hogfish_Rustlers_of_Briny_Gulch'
+    wikipedia_page: ''
     series_id: freddi
 -
     id: freddicove
@@ -2598,6 +2922,7 @@
     company_id: he
     moby_id: '5275'
     datafiles: ''
+    wikipedia_page: ''
     series_id: freddi
 -
     id: freddi3
@@ -2606,6 +2931,7 @@
     company_id: he
     moby_id: '5355'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Freddi_Fish_3:_The_Case_of_the_Stolen_Conch_Shell'
+    wikipedia_page: ''
     series_id: freddi
 -
     id: freddi2
@@ -2614,6 +2940,7 @@
     company_id: he
     moby_id: '5522'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Freddi_Fish_2:_The_Case_of_the_Haunted_Schoolhouse'
+    wikipedia_page: ''
     series_id: freddi
 -
     id: moonbase
@@ -2622,6 +2949,7 @@
     company_id: he
     moby_id: '7171'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: basketball
@@ -2630,6 +2958,7 @@
     company_id: he
     moby_id: '7940'
     datafiles: ''
+    wikipedia_page: ''
     series_id: juniorsports
 -
     id: baseball2003
@@ -2638,6 +2967,7 @@
     company_id: he
     moby_id: '7941'
     datafiles: ''
+    wikipedia_page: ''
     series_id: juniorsports
 -
     id: football2002
@@ -2646,6 +2976,7 @@
     company_id: he
     moby_id: '7942'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Backyard_Football'
+    wikipedia_page: ''
     series_id: juniorsports
 -
     id: soccermls
@@ -2654,6 +2985,7 @@
     company_id: he
     moby_id: '7943'
     datafiles: ''
+    wikipedia_page: ''
     series_id: juniorsports
 -
     id: fbear
@@ -2662,6 +2994,7 @@
     company_id: he
     moby_id: '8552'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Fatty_Bear%27s_Birthday_Surprise'
+    wikipedia_page: ''
     series_id: fbear
 -
     id: baseball
@@ -2670,6 +3003,7 @@
     company_id: he
     moby_id: '11842'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Backyard_Baseball'
+    wikipedia_page: ''
     series_id: juniorsports
 -
     id: balloon
@@ -2678,6 +3012,7 @@
     company_id: he
     moby_id: '12433'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_and_Pep%27s_Balloon-O-Rama'
+    wikipedia_page: ''
     series_id: puttputt
 -
     id: dog
@@ -2686,6 +3021,7 @@
     company_id: he
     moby_id: '14529'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_and_Pep%27s_Dog_on_a_Stick'
+    wikipedia_page: ''
     series_id: puttputt
 -
     id: soccer
@@ -2694,6 +3030,7 @@
     company_id: he
     moby_id: '17717'
     datafiles: ''
+    wikipedia_page: ''
     series_id: juniorsports
 -
     id: spyozon
@@ -2702,6 +3039,7 @@
     company_id: he
     moby_id: '18734'
     datafiles: 'https://wiki.scummvm.org/index.php?title=SPY_Fox_3:_Operation_Ozone'
+    wikipedia_page: ''
     series_id: spyfox
 -
     id: lost
@@ -2710,6 +3048,7 @@
     company_id: he
     moby_id: '19377'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam%27s_Lost_%26_Found'
+    wikipedia_page: ''
     series_id: pajama
 -
     id: fbpack
@@ -2718,6 +3057,7 @@
     company_id: he
     moby_id: '20950'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Fatty_Bear%27s_Fun_Pack'
+    wikipedia_page: ''
     series_id: fbear
 -
     id: spyfox2
@@ -2726,6 +3066,7 @@
     company_id: he
     moby_id: '20987'
     datafiles: 'https://wiki.scummvm.org/index.php?title=SPY_Fox_2:_Some_Assembly_Required'
+    wikipedia_page: ''
     series_id: spyfox
 -
     id: water
@@ -2734,6 +3075,7 @@
     company_id: he
     moby_id: '20988'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Freddi_Fish_and_Luther%27s_Water_Worries'
+    wikipedia_page: ''
     series_id: freddi
 -
     id: socks
@@ -2742,6 +3084,7 @@
     company_id: he
     moby_id: '20989'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam%27s_Sock_Works'
+    wikipedia_page: ''
     series_id: pajama
 -
     id: chase
@@ -2750,6 +3093,7 @@
     company_id: he
     moby_id: '20990'
     datafiles: 'https://wiki.scummvm.org/index.php?title=SPY_Fox_in_Cheese_Chase'
+    wikipedia_page: ''
     series_id: spyfox
 -
     id: football
@@ -2758,6 +3102,7 @@
     company_id: he
     moby_id: '20991'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Backyard_Football'
+    wikipedia_page: ''
     series_id: juniorsports
 -
     id: jungle
@@ -2766,6 +3111,7 @@
     company_id: he
     moby_id: '20994'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Let%27s_Explore_the_Jungle_with_Buzzy'
+    wikipedia_page: ''
     series_id: juniorfield
 -
     id: airport
@@ -2774,6 +3120,7 @@
     company_id: he
     moby_id: '20995'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Let%27s_Explore_the_Airport_with_Buzzy'
+    wikipedia_page: ''
     series_id: juniorfield
 -
     id: spyfox
@@ -2782,6 +3129,7 @@
     company_id: he
     moby_id: '21014'
     datafiles: 'https://wiki.scummvm.org/index.php?title=SPY_Fox_1:_Dry_Cereal'
+    wikipedia_page: ''
     series_id: spyfox
 -
     id: farm
@@ -2790,6 +3138,7 @@
     company_id: he
     moby_id: '21015'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Let%27s_Explore_the_Farm_with_Buzzy'
+    wikipedia_page: ''
     series_id: juniorfield
 -
     id: puttsfunshop
@@ -2798,6 +3147,7 @@
     company_id: he
     moby_id: '21016'
     datafiles: ''
+    wikipedia_page: ''
     series_id: puttputt
 -
     id: puttcircus
@@ -2806,6 +3156,7 @@
     company_id: he
     moby_id: '21061'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_Joins_the_Circus'
+    wikipedia_page: ''
     series_id: puttputt
 -
     id: maze
@@ -2814,6 +3165,7 @@
     company_id: he
     moby_id: '21062'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Freddi_Fish_and_Luther%27s_Maze_Madness'
+    wikipedia_page: ''
     series_id: freddi
 -
     id: baseball2001
@@ -2822,6 +3174,7 @@
     company_id: he
     moby_id: '21073'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Backyard_Baseball'
+    wikipedia_page: ''
     series_id: juniorsports
 -
     id: activity
@@ -2830,6 +3183,7 @@
     company_id: he
     moby_id: '21083'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_%26_Fatty_Bear%27s_Activity_Pack'
+    wikipedia_page: ''
     series_id: fbear
 -
     id: bluestreasurehunt
@@ -2838,6 +3192,7 @@
     company_id: he
     moby_id: '21110'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Blue%27s_Treasure_Hunt'
+    wikipedia_page: ''
     series_id: blue
 -
     id: readtime
@@ -2846,6 +3201,7 @@
     company_id: he
     moby_id: '21111'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Blue%27s_Reading_Time_Activities'
+    wikipedia_page: ''
     series_id: blue
 -
     id: freddisfunshop
@@ -2854,6 +3210,7 @@
     company_id: he
     moby_id: '21112'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Freddi_Fish%27s_One-Stop_Fun_Shop'
+    wikipedia_page: ''
     series_id: freddi
 -
     id: pajama2
@@ -2862,6 +3219,7 @@
     company_id: he
     moby_id: '21113'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam_2:_Thunder_and_Lightning_Aren%27t_so_Frightening'
+    wikipedia_page: ''
     series_id: pajama
 -
     id: pjgames
@@ -2870,6 +3228,7 @@
     company_id: he
     moby_id: '21618'
     datafiles: ''
+    wikipedia_page: ''
     series_id: pajama
 -
     id: arttime
@@ -2878,6 +3237,7 @@
     company_id: he
     moby_id: '30820'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Blue%27s_Art_Time_Activities'
+    wikipedia_page: ''
     series_id: blue
 -
     id: bluesbirthday
@@ -2886,6 +3246,7 @@
     company_id: he
     moby_id: '31131'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Blue%27s_Birthday_Adventure'
+    wikipedia_page: ''
     series_id: blue
 -
     id: mustard
@@ -2894,6 +3255,7 @@
     company_id: he
     moby_id: '55750'
     datafiles: 'https://wiki.scummvm.org/index.php?title=SPY_Fox_in_Hold_the_Mustard'
+    wikipedia_page: ''
     series_id: spyfox
 -
     id: soccer2004
@@ -2902,6 +3264,7 @@
     company_id: he
     moby_id: '63165'
     datafiles: ''
+    wikipedia_page: ''
     series_id: juniorsports
 -
     id: samsfunshop
@@ -2910,6 +3273,7 @@
     company_id: he
     moby_id: '71931'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam%27s_One-Stop_Fun_Shop'
+    wikipedia_page: ''
     series_id: pajama
 -
     id: thinker1
@@ -2918,6 +3282,7 @@
     company_id: he
     moby_id: '80258'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Big_Thinkers_First_Grade'
+    wikipedia_page: ''
     series_id: bigthinkers
 -
     id: thinkerk
@@ -2926,6 +3291,7 @@
     company_id: he
     moby_id: '73005'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Big_Thinkers_Kindergarten'
+    wikipedia_page: ''
     series_id: bigthinkers
 -
     id: catalog
@@ -2934,6 +3300,7 @@
     company_id: he
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: indyloom
@@ -2942,6 +3309,7 @@
     company_id: lucasarts
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: indyzak
@@ -2950,6 +3318,7 @@
     company_id: lucasarts
     moby_id: '37327'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: pass
@@ -2958,6 +3327,7 @@
     company_id: lucasarts
     moby_id: '-1'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Passport_to_Adventure'
+    wikipedia_page: ''
     series_id: ''
 -
     id: zakloom
@@ -2966,6 +3336,7 @@
     company_id: lucasarts
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: brstorm
@@ -2974,6 +3345,7 @@
     company_id: he
     moby_id: '-1'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Bear_Stormin’'
+    wikipedia_page: ''
     series_id: fbear
 -
     id: scalpel
@@ -2982,6 +3354,7 @@
     company_id: mythos
     moby_id: '3441'
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Lost_Files_of_Sherlock_Holmes:_The_Case_of_the_Serrated_Scalpel'
+    wikipedia_page: ''
     series_id: sherlock
 -
     id: rosetattoo
@@ -2990,6 +3363,7 @@
     company_id: mythos
     moby_id: '4407'
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Lost_Files_of_Sherlock_Holmes:_The_Case_of_the_Rose_Tattoo'
+    wikipedia_page: ''
     series_id: sherlock
 -
     id: sky
@@ -2998,6 +3372,7 @@
     company_id: revolution
     moby_id: '386'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Beneath_a_Steel_Sky'
+    wikipedia_page: ''
     series_id: ''
 -
     id: outoforder
@@ -3006,6 +3381,7 @@
     company_id: hungry
     moby_id: '13762'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: cubert
@@ -3014,6 +3390,7 @@
     company_id: unknown
     moby_id: '24279'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: frasse
@@ -3022,6 +3399,7 @@
     company_id: unknown
     moby_id: '33462'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: tgttpoacs
@@ -3030,6 +3408,7 @@
     company_id: unknown
     moby_id: '33841'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: life
@@ -3038,6 +3417,7 @@
     company_id: unknown
     moby_id: '50387'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: mandy
@@ -3046,6 +3426,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: robinsrescue
@@ -3054,6 +3435,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: sludge
@@ -3062,6 +3444,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: verbcoin
@@ -3070,6 +3453,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: welcome
@@ -3078,6 +3462,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: interview
@@ -3086,6 +3471,7 @@
     company_id: unknown
     moby_id: '71160'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: st25
@@ -3094,6 +3480,7 @@
     company_id: interplay
     moby_id: '952'
     datafiles: ''
+    wikipedia_page: ''
     series_id: startrek
 -
     id: stjr
@@ -3102,6 +3489,7 @@
     company_id: interplay
     moby_id: '3492'
     datafiles: ''
+    wikipedia_page: ''
     series_id: startrek
 -
     id: msn1
@@ -3110,6 +3498,7 @@
     company_id: tsdinge
     moby_id: '4582'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Mission_Supernova'
+    wikipedia_page: ''
     series_id: supernova
 -
     id: msn2
@@ -3118,6 +3507,7 @@
     company_id: tsdinge
     moby_id: '4582'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Mission_Supernova'
+    wikipedia_page: ''
     series_id: supernova
 -
     id: sword1
@@ -3126,6 +3516,7 @@
     company_id: revolution
     moby_id: '499'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_1'
+    wikipedia_page: ''
     series_id: sword
 -
     id: sword1demo
@@ -3134,6 +3525,7 @@
     company_id: revolution
     moby_id: '499'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_1'
+    wikipedia_page: ''
     series_id: sword
 -
     id: sword1macdemo
@@ -3142,6 +3534,7 @@
     company_id: revolution
     moby_id: '499'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_1'
+    wikipedia_page: ''
     series_id: sword
 -
     id: sword1mac
@@ -3150,6 +3543,7 @@
     company_id: revolution
     moby_id: '499'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_1'
+    wikipedia_page: ''
     series_id: sword
 -
     id: sword1psxdemo
@@ -3158,6 +3552,7 @@
     company_id: revolution
     moby_id: '499'
     datafiles: ''
+    wikipedia_page: ''
     series_id: sword
 -
     id: sword1psx
@@ -3166,6 +3561,7 @@
     company_id: revolution
     moby_id: '499'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_1'
+    wikipedia_page: ''
     series_id: sword
 -
     id: sword2
@@ -3174,6 +3570,7 @@
     company_id: revolution
     moby_id: '1133'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_2'
+    wikipedia_page: ''
     series_id: sword
 -
     id: sword2alt
@@ -3182,6 +3579,7 @@
     company_id: revolution
     moby_id: '1133'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_2'
+    wikipedia_page: ''
     series_id: sword
 -
     id: sword2demo
@@ -3190,6 +3588,7 @@
     company_id: revolution
     moby_id: '1133'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_2'
+    wikipedia_page: ''
     series_id: sword
 -
     id: sword2psx
@@ -3198,6 +3597,7 @@
     company_id: revolution
     moby_id: '1133'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_2'
+    wikipedia_page: ''
     series_id: sword
 -
     id: sword2psxdemo
@@ -3206,6 +3606,7 @@
     company_id: revolution
     moby_id: '1133'
     datafiles: ''
+    wikipedia_page: ''
     series_id: sword
 -
     id: sword25
@@ -3214,6 +3615,7 @@
     company_id: fan
     moby_id: '36679'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: teenagent
@@ -3222,6 +3624,7 @@
     company_id: metropolis
     moby_id: '6423'
     datafiles: 'https://wiki.scummvm.org/index.php?title=TeenAgent'
+    wikipedia_page: ''
     series_id: ''
 -
     id: testbed
@@ -3230,6 +3633,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: dw
@@ -3238,6 +3642,7 @@
     company_id: perfect
     moby_id: '184'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Discworld'
+    wikipedia_page: ''
     series_id: dw
 -
     id: dw2
@@ -3246,6 +3651,7 @@
     company_id: perfect
     moby_id: '1370'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Discworld_II:_Missing_Presumed...!%3F'
+    wikipedia_page: ''
     series_id: dw
 -
     id: titanic
@@ -3254,6 +3660,7 @@
     company_id: digitalvillage
     moby_id: '1374'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Starship_Titanic'
+    wikipedia_page: ''
     series_id: ''
 -
     id: toltecs
@@ -3262,6 +3669,7 @@
     company_id: revistronic
     moby_id: '3286'
     datafiles: 'https://wiki.scummvm.org/index.php?title=3_Skulls_of_the_Toltecs'
+    wikipedia_page: ''
     series_id: ''
 -
     id: tony
@@ -3270,6 +3678,7 @@
     company_id: nayma
     moby_id: '7659'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: toon
@@ -3278,6 +3687,7 @@
     company_id: burst
     moby_id: '518'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Toonstruck'
+    wikipedia_page: ''
     series_id: ''
 -
     id: touche
@@ -3286,6 +3696,7 @@
     company_id: clipper
     moby_id: '1114'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Touché:_The_Adventures_of_the_Fifth_Musketeer'
+    wikipedia_page: ''
     series_id: ''
 -
     id: blueforce
@@ -3294,6 +3705,7 @@
     company_id: tsunami
     moby_id: '1478'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Blue_Force'
+    wikipedia_page: ''
     series_id: ''
 -
     id: ringworld
@@ -3302,6 +3714,7 @@
     company_id: tsunami
     moby_id: '2559'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Ringworld'
+    wikipedia_page: ''
     series_id: ringworld
 -
     id: ringworld2
@@ -3310,6 +3723,7 @@
     company_id: tsunami
     moby_id: '4552'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ringworld
 -
     id: sherlock-logo
@@ -3318,6 +3732,7 @@
     company_id: mythos
     moby_id: '3441'
     datafiles: ''
+    wikipedia_page: ''
     series_id: sherlock
 -
     id: tucker
@@ -3326,6 +3741,7 @@
     company_id: merit
     moby_id: '4364'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Bud_Tucker_in_Double_Trouble'
+    wikipedia_page: ''
     series_id: ''
 -
     id: ultima6
@@ -3334,6 +3750,7 @@
     company_id: origin
     moby_id: '104'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ultima
 -
     id: ultima6_enh
@@ -3342,6 +3759,7 @@
     company_id: origin
     moby_id: '104'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ultima
 -
     id: ultima8
@@ -3350,6 +3768,7 @@
     company_id: origin
     moby_id: '723'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Ultima_VIII:_Pagan'
+    wikipedia_page: ''
     series_id: ultima
 -
     id: thesavageempire
@@ -3358,6 +3777,7 @@
     company_id: origin
     moby_id: '1624'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ultima
 -
     id: thesavageempire_enh
@@ -3366,6 +3786,7 @@
     company_id: origin
     moby_id: '1624'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ultima
 -
     id: martiandreams
@@ -3374,6 +3795,7 @@
     company_id: origin
     moby_id: '1625'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ultima
 -
     id: martiandreams_enh
@@ -3382,6 +3804,7 @@
     company_id: origin
     moby_id: '1625'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ultima
 -
     id: ultima1
@@ -3390,6 +3813,7 @@
     company_id: origin
     moby_id: '8812'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ultima
 -
     id: remorse
@@ -3398,6 +3822,7 @@
     company_id: origin
     moby_id: '851'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Crusader:_No_Remorse'
+    wikipedia_page: ''
     series_id: ''
 -
     id: regret
@@ -3406,6 +3831,7 @@
     company_id: origin
     moby_id: '852'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: voyeur
@@ -3414,6 +3840,7 @@
     company_id: philips
     moby_id: '1661'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Voyeur'
+    wikipedia_page: ''
     series_id: ''
 -
     id: scepters
@@ -3422,6 +3849,7 @@
     company_id: unknown
     moby_id: '29350'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: amot
@@ -3430,6 +3858,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: afm
@@ -3438,6 +3867,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: cantitoe
@@ -3446,6 +3876,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: drakmythcastle
@@ -3454,6 +3885,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: raysmaze
@@ -3462,6 +3894,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: twisted
@@ -3470,6 +3903,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: wage
@@ -3478,6 +3912,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: 5ma
@@ -3486,6 +3921,7 @@
     company_id: unknown
     moby_id: '17091'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: twc
@@ -3494,6 +3930,7 @@
     company_id: unknown
     moby_id: '17172'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: bthreshold
@@ -3502,6 +3939,7 @@
     company_id: unknown
     moby_id: '29023'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: carolreed4
@@ -3510,6 +3948,7 @@
     company_id: unknown
     moby_id: '31651'
     datafiles: ''
+    wikipedia_page: ''
     series_id: carol
 -
     id: ghostsheet
@@ -3518,6 +3957,7 @@
     company_id: unknown
     moby_id: '31661'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: artofmurder1
@@ -3526,6 +3966,7 @@
     company_id: unknown
     moby_id: '34282'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: dirtysplit
@@ -3534,6 +3975,7 @@
     company_id: unknown
     moby_id: '34858'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: lotl
@@ -3542,6 +3984,7 @@
     company_id: unknown
     moby_id: '36820'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: carolreed5
@@ -3550,6 +3993,7 @@
     company_id: unknown
     moby_id: '37764'
     datafiles: ''
+    wikipedia_page: ''
     series_id: carol
 -
     id: mirage
@@ -3558,6 +4002,7 @@
     company_id: unknown
     moby_id: '40599'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: rosemary
@@ -3566,6 +4011,7 @@
     company_id: unknown
     moby_id: '44653'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: ritter
@@ -3574,6 +4020,7 @@
     company_id: unknown
     moby_id: '44924'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: darkfallls
@@ -3582,6 +4029,7 @@
     company_id: unknown
     moby_id: '45771'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: mentalrepairs
@@ -3590,6 +4038,7 @@
     company_id: unknown
     moby_id: '46212'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: hamlet
@@ -3598,6 +4047,7 @@
     company_id: unknown
     moby_id: '46506'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: carolreed6
@@ -3606,6 +4056,7 @@
     company_id: unknown
     moby_id: '48356'
     datafiles: ''
+    wikipedia_page: ''
     series_id: carol
 -
     id: findinghope
@@ -3614,6 +4065,7 @@
     company_id: unknown
     moby_id: '48605'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: carolreed7
@@ -3622,6 +4074,7 @@
     company_id: unknown
     moby_id: '49831'
     datafiles: ''
+    wikipedia_page: ''
     series_id: carol
 -
     id: pizzamorgana
@@ -3630,6 +4083,7 @@
     company_id: unknown
     moby_id: '51420'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: alphapolaris
@@ -3638,6 +4092,7 @@
     company_id: unknown
     moby_id: '53007'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: thekite
@@ -3646,6 +4101,7 @@
     company_id: unknown
     moby_id: '54832'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: sotv1
@@ -3654,6 +4110,7 @@
     company_id: unknown
     moby_id: '55855'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: julia
@@ -3662,6 +4119,7 @@
     company_id: unknown
     moby_id: '55922'
     datafiles: ''
+    wikipedia_page: ''
     series_id: julia
 -
     id: alimardan1
@@ -3670,6 +4128,7 @@
     company_id: unknown
     moby_id: '56095'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: corrosion
@@ -3678,6 +4137,7 @@
     company_id: unknown
     moby_id: '56405'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: facenoir
@@ -3686,6 +4146,7 @@
     company_id: unknown
     moby_id: '61359'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: agustin
@@ -3694,6 +4155,7 @@
     company_id: unknown
     moby_id: '61767'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: carolreed8
@@ -3702,6 +4164,7 @@
     company_id: unknown
     moby_id: '68289'
     datafiles: ''
+    wikipedia_page: ''
     series_id: carol
 -
     id: carolreed9
@@ -3710,6 +4173,7 @@
     company_id: unknown
     moby_id: '68291'
     datafiles: ''
+    wikipedia_page: ''
     series_id: carol
 -
     id: carolreed10
@@ -3718,6 +4182,7 @@
     company_id: unknown
     moby_id: '68293'
     datafiles: ''
+    wikipedia_page: ''
     series_id: carol
 -
     id: juliastars
@@ -3726,6 +4191,7 @@
     company_id: unknown
     moby_id: '68940'
     datafiles: ''
+    wikipedia_page: ''
     series_id: julia
 -
     id: oknytt
@@ -3734,6 +4200,7 @@
     company_id: unknown
     moby_id: '70002'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: 5ld
@@ -3742,6 +4209,7 @@
     company_id: unknown
     moby_id: '71571'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: carolreed11
@@ -3750,6 +4218,7 @@
     company_id: unknown
     moby_id: '81267'
     datafiles: ''
+    wikipedia_page: ''
     series_id: carol
 -
     id: sotv2
@@ -3758,6 +4227,7 @@
     company_id: unknown
     moby_id: '83648'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: foxtail
@@ -3766,6 +4236,7 @@
     company_id: unknown
     moby_id: '104425'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: carolreed13
@@ -3774,6 +4245,7 @@
     company_id: unknown
     moby_id: '114389'
     datafiles: ''
+    wikipedia_page: ''
     series_id: carol
 -
     id: carolreed12
@@ -3782,6 +4254,7 @@
     company_id: unknown
     moby_id: '115321'
     datafiles: ''
+    wikipedia_page: ''
     series_id: carol
 -
     id: carolreed14
@@ -3790,6 +4263,7 @@
     company_id: unknown
     moby_id: '122064'
     datafiles: ''
+    wikipedia_page: ''
     series_id: carol
 -
     id: alimardan2
@@ -3798,6 +4272,7 @@
     company_id: unknown
     moby_id: '122586'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: qajarycat
@@ -3806,6 +4281,7 @@
     company_id: unknown
     moby_id: '122595'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: actualdest
@@ -3814,6 +4290,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: apeiron
@@ -3822,6 +4299,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: barrowhilldp
@@ -3830,6 +4308,7 @@
     company_id: unknown
     moby_id: '114586'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: basisoctavus
@@ -3838,6 +4317,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: bickadoodle
@@ -3846,6 +4326,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: bookofgron
@@ -3854,6 +4335,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: chivalry
@@ -3862,6 +4344,7 @@
     company_id: squinky
     moby_id: '-1'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Chivalry_is_NOT_Dead'
+    wikipedia_page: ''
     series_id: ''
 -
     id: colorsoncanvas
@@ -3870,6 +4353,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: conspiracao
@@ -3878,6 +4362,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: deadcity
@@ -3886,6 +4371,7 @@
     company_id: unknown
     moby_id: '17224'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: dreaming
@@ -3894,6 +4380,7 @@
     company_id: squinky
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: devilincapital
@@ -3902,6 +4389,7 @@
     company_id: unknown
     moby_id: '92245'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: dfafadventure
@@ -3910,6 +4398,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: drbohus
@@ -3918,6 +4407,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: drdoylemotch
@@ -3926,6 +4416,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: dreamcat
@@ -3934,6 +4425,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: dreamscape
@@ -3942,6 +4434,7 @@
     company_id: unknown
     moby_id: '59268'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: escapemansion
@@ -3950,6 +4443,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: everydaygray
@@ -3958,6 +4452,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: tib
@@ -3966,6 +4461,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: forgottensound1
@@ -3974,6 +4470,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: forgottensound2
@@ -3982,6 +4479,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: four
@@ -3990,6 +4488,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: framed
@@ -3998,6 +4497,7 @@
     company_id: unknown
     moby_id: '6285'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: helga
@@ -4006,6 +4506,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: hor
@@ -4014,6 +4515,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: juliauntold
@@ -4022,6 +4524,7 @@
     company_id: cbe
     moby_id: '69257'
     datafiles: ''
+    wikipedia_page: ''
     series_id: julia
 -
     id: jamesperis
@@ -4030,6 +4533,7 @@
     company_id: pavo
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: knossos
@@ -4038,6 +4542,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: kulivocko
@@ -4046,6 +4551,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: lifein3minutes
@@ -4054,6 +4560,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: looky
@@ -4062,6 +4569,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: lovmamuta
@@ -4070,6 +4578,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: machumayu
@@ -4078,6 +4587,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: msos
@@ -4086,6 +4596,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: tehran1933
@@ -4094,6 +4605,7 @@
     company_id: unknown
     moby_id: '122584'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: tehran2016
@@ -4102,6 +4614,7 @@
     company_id: unknown
     moby_id: '122585'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: mythguff
@@ -4110,6 +4623,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: nighttrain
@@ -4118,6 +4632,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: reptilesquest
@@ -4126,6 +4641,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: one
@@ -4134,6 +4650,7 @@
     company_id: unknown
     moby_id: '9526'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: onehelluvaday
@@ -4142,6 +4659,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: openquest
@@ -4150,6 +4668,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: paintaria
@@ -4158,6 +4677,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: palladion
@@ -4166,6 +4686,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: papasdaughters1
@@ -4174,6 +4695,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: papasdaughters2
@@ -4182,6 +4704,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: pigeons
@@ -4190,6 +4713,7 @@
     company_id: squinky
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: polechudes
@@ -4198,6 +4722,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: projectjoe
@@ -4206,6 +4731,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: lonelyrobot
@@ -4214,6 +4740,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: projectdoom
@@ -4222,6 +4749,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: rebeccacarlson1
@@ -4230,6 +4758,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: reversion1
@@ -4238,6 +4767,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: reversion
 -
     id: reversion2
@@ -4246,6 +4776,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: reversion
 -
     id: reversion3
@@ -4254,6 +4785,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: reversion
 -
     id: rhiannon
@@ -4262,6 +4794,7 @@
     company_id: unknown
     moby_id: '36964'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: satanandsons
@@ -4270,6 +4803,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: securanote
@@ -4278,6 +4812,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: shaban
@@ -4286,6 +4821,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: sofiasdebt
@@ -4294,6 +4830,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: spaceinvaders
@@ -4302,6 +4839,7 @@
     company_id: unknown
     moby_id: '623'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: spacemadness
@@ -4310,6 +4848,7 @@
     company_id: unknown
     moby_id: '52053'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: tanya2
@@ -4318,6 +4857,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: tanya1
@@ -4326,6 +4866,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: theancientmark1
@@ -4334,6 +4875,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: thebox
@@ -4342,6 +4884,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: erinmyers
@@ -4350,6 +4893,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: driller
@@ -4358,6 +4902,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: goldencalf
@@ -4366,6 +4911,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: thelastcrownmh
@@ -4374,6 +4920,7 @@
     company_id: darkling
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: thelostcrowngha
@@ -4382,6 +4929,7 @@
     company_id: darkling
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: shinestar
@@ -4390,6 +4938,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: tradestory
@@ -4398,6 +4947,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: vsevolod
@@ -4406,6 +4956,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: war
@@ -4414,6 +4965,7 @@
     company_id: unknown
     moby_id: '99586'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: wtetris
@@ -4422,6 +4974,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: wmedemo3d
@@ -4430,6 +4983,7 @@
     company_id: deadcode
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: wintermute
@@ -4438,6 +4992,7 @@
     company_id: deadcode
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: wmedemo
@@ -4446,6 +5001,7 @@
     company_id: deadcode
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: zbang
@@ -4454,6 +5010,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: zilm
@@ -4462,6 +5019,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: cloudsofxeen
@@ -4470,6 +5028,7 @@
     company_id: nwc
     moby_id: '3423'
     datafiles: ''
+    wikipedia_page: ''
     series_id: mm
 -
     id: darksideofxeen
@@ -4478,6 +5037,7 @@
     company_id: nwc
     moby_id: '3424'
     datafiles: ''
+    wikipedia_page: ''
     series_id: mm
 -
     id: swordsofxeen
@@ -4486,6 +5046,7 @@
     company_id: nwc
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: mm
 -
     id: worldofxeen
@@ -4494,6 +5055,7 @@
     company_id: nwc
     moby_id: '4321'
     datafiles: ''
+    wikipedia_page: ''
     series_id: mm
 -
     id: znemesis
@@ -4502,6 +5064,7 @@
     company_id: activision
     moby_id: '560'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Zork_Nemesis'
+    wikipedia_page: ''
     series_id: zork
 -
     id: zgi
@@ -4510,6 +5073,7 @@
     company_id: activision
     moby_id: '1951'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Zork:_Grand_Inquisitor'
+    wikipedia_page: ''
     series_id: zork
 -
     id: ultima4
@@ -4518,6 +5082,7 @@
     company_id: origin
     moby_id: '884'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ultima
 -
     id: adrift
@@ -4526,6 +5091,7 @@
     company_id: glk
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: advsys
@@ -4534,6 +5100,7 @@
     company_id: glk
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: agt
@@ -4542,6 +5109,7 @@
     company_id: glk
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: alan
@@ -4550,6 +5118,7 @@
     company_id: glk
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: archetype
@@ -4558,6 +5127,7 @@
     company_id: glk
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: hugo
@@ -4566,6 +5136,7 @@
     company_id: glk
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: jacl
@@ -4574,6 +5145,7 @@
     company_id: glk
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: level9
@@ -4582,6 +5154,7 @@
     company_id: glk
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: magnetic
@@ -4590,6 +5163,7 @@
     company_id: glk
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: quest
@@ -4598,6 +5172,7 @@
     company_id: glk
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: scottadams
@@ -4606,6 +5181,7 @@
     company_id: glk
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: zcode
@@ -4614,6 +5190,7 @@
     company_id: glk
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: grim
@@ -4622,6 +5199,7 @@
     company_id: lucasarts
     moby_id: '201'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Grim_Fandango'
+    wikipedia_page: ''
     series_id: ''
 -
     id: monkey4
@@ -4630,6 +5208,7 @@
     company_id: lucasarts
     moby_id: '2606'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Escape_from_Monkey_Island'
+    wikipedia_page: ''
     series_id: mi
 -
     id: icb
@@ -4638,6 +5217,7 @@
     company_id: revolution
     moby_id: '3373'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: myst3
@@ -4646,6 +5226,7 @@
     company_id: presto
     moby_id: '3520'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Myst_III:_Exile'
+    wikipedia_page: ''
     series_id: myst
 -
     id: tlj
@@ -4654,6 +5235,7 @@
     company_id: funcom
     moby_id: '1439'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: lba
@@ -4662,6 +5244,7 @@
     company_id: adeline
     moby_id: '748'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Little_Big_Adventure'
+    wikipedia_page: ''
     series_id: lba
 -
     id: lba2
@@ -4670,6 +5253,7 @@
     company_id: adeline
     moby_id: '1765'
     datafiles: ''
+    wikipedia_page: ''
     series_id: lba
 -
     id: petka1
@@ -4678,6 +5262,7 @@
     company_id: skif
     moby_id: '1854'
     datafiles: ''
+    wikipedia_page: ''
     series_id: petka
 -
     id: petka2
@@ -4686,6 +5271,7 @@
     company_id: skif
     moby_id: '10705'
     datafiles: ''
+    wikipedia_page: ''
     series_id: petka
 -
     id: transylvania
@@ -4694,6 +5280,7 @@
     company_id: polarware
     moby_id: '91'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: crimsoncrown
@@ -4702,6 +5289,7 @@
     company_id: polarware
     moby_id: '86'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: ootopos
@@ -4710,6 +5298,7 @@
     company_id: polarware
     moby_id: '148433'
     datafiles: ''
+    wikipedia_page: Oo-Topos
     series_id: ''
 -
     id: glulx
@@ -4718,6 +5307,7 @@
     company_id: glk
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: private-eye
@@ -4726,6 +5316,7 @@
     company_id: brooklyn
     moby_id: '7117'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Private_Eye_(1996)'
+    wikipedia_page: Private_Eye_(1996_video_game)
     series_id: ''
 -
     id: buried
@@ -4734,6 +5325,7 @@
     company_id: presto
     moby_id: '2149'
     datafiles: ''
+    wikipedia_page: 'The_Journeyman_Project_2:_Buried_in_Time'
     series_id: journeyman
 -
     id: ags
@@ -4742,6 +5334,7 @@
     company_id: unknown
     moby_id: '-1'
     datafiles: 'https://wiki.scummvm.org/index.php?title=AGS/Games'
+    wikipedia_page: ''
     series_id: ''
 -
     id: daniel
@@ -4750,6 +5343,7 @@
     company_id: littleark
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: create
@@ -4758,6 +5352,7 @@
     company_id: littleark
     moby_id: '-1'
     datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: nl
@@ -4766,6 +5361,7 @@
     company_id: trecision
     moby_id: '2564'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Nightlong:_Union_City_Conspiracy'
+    wikipedia_page: 'Nightlong:_Union_City_Conspiracy'
     series_id: ''
 -
     id: kingdom
@@ -4774,6 +5370,7 @@
     company_id: virtual
     moby_id: '4788'
     datafiles: ''
+    wikipedia_page: Thayer%27s_Quest
     series_id: ''
 -
     id: sanitarium
@@ -4782,4 +5379,5 @@
     company_id: dreamforge
     moby_id: '572'
     datafiles: ''
+    wikipedia_page: Sanitarium_(video_game)
     series_id: ''

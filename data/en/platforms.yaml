@@ -116,6 +116,10 @@
     id: segacd
     moby_id: '20'
 -
+    name: Shockwave
+    id: shockwave
+    moby_id: '84'
+-
     name: Steam
     id: steam
     moby_id: '3'
