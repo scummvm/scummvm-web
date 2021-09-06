@@ -1034,5 +1034,9 @@
     "20080522": {
         "content": "Et a kidnappé son père par la même occasion. Aidez donc Woodruff à se venger, à sauver son père, à libérer les Bouzouks opprimés et à découvrir le [Schnibble d'Azimut](http://wiki.scummvm.org/index.php/The_Bizarre_Adventures_of_Woodruff_and_the_Schnibble).\n\nToujours le même procédé : Récupérez votre exemplaire de *Woodruff et le Schnibble d'Azimut* et une [compilation quotidienne](/downloads/#daily) de ScummVM. Signalez tous les bogues à [notre système de suivi des bogues](http://bugs.scummvm.org/) et soumettez les captures d'écran que vous avez faites en cours de route à [notre système de suivi des correctifs](https://sourceforge.net/tracker/?func=add&group_id=37116&atid=418822), en suivant les [directives de soumission des bogues](/faq/#question.report-bugs) et les [directives relatives aux captures d'écran](http://wiki.scummvm.org/index.php/Screenshots).",
         "title": "Ils ont sauvagement tués son nounours !"
+    },
+    "20080526": {
+        "title": "Repetita juvant",
+        "content": "Même si nous avons remporté les [Community Choice Awards 2007](https://sourceforge.net/community/cca07) de SourceForge dans la section des jeux, ScummVM ne se repose pas sur ses lauriers.\n\nNous travaillons continuellement sur de nouveaux jeux, et la compatibilité des jeux supportés est constamment améliorée. En bref, notre équipe va transpirer tout au long de l'été à venir.\n\nNous savons que vous pensez que nous méritons de gagner sans combattre, mais faisons les choses dans les règles. Alors, aidez-nous dès maintenant dans la phase de nomination et [votez pour le \"Best Project for Gamers\"](https://sourceforge.net/community/cca08-nominate?group_id=37116) (inscription obligatoire sur SourceForge)."
     }
 }
