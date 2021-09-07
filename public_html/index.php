@@ -102,7 +102,7 @@ set_exception_handler(array('ScummVM\ExceptionHandler', 'handleException'));
 $pages = array(
     'compatibility'                         => '\ScummVM\Pages\CompatibilityPage',
     'compatibility/[cId:version]'           => '\ScummVM\Pages\CompatibilityPage',
-    'compatibility/[cId:version]/[a:game]'  => '\ScummVM\Pages\CompatibilityPage',
+    'compatibility/[cId:version]/[:game]'   => '\ScummVM\Pages\CompatibilityPage',
     'contact'                               => '\ScummVM\Pages\SimplePage',
     'credits'                               => '\ScummVM\Pages\SimplePage',
     'demos'                                 => '\ScummVM\Pages\DemosPage',
