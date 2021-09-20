@@ -3533,7 +3533,7 @@
     notes: ''
     since_version: 2.1.0
     stable_platforms: dos
-    unstable_platforms: '3do,dos'
+    unstable_platforms: 3do
 -
     id: msn1
     support: good
