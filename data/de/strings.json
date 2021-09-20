@@ -178,5 +178,6 @@
     "compatibilityGameDisclaimer": "Hinweis: ScummVM enthält keine Spiele. Um eines der auf dieser Seite aufgeführten Spiele zu spielen, müssen Sie eine eigene Kopie des Spiels haben und diese zu ScummVM hinzufügen. Einige Spiele sind kostenlos auf unserer [Seite zum Herunterladen von Spielen] (/ games /) verfügbar. Weitere Spiele finden Sie auf der Seite [Wo Sie die Spiele bekommen] (https://wiki.scummvm.org/index.php?title=Where_to_get_the_games) in unserem Wiki. Informationen zum Hinzufügen von Spielen zu ScummVM finden Sie in [der Dokumentation] (https://docs.scummvm.org/en/latest/use_scummvm/add_play_games.html).",
     "menuMiscDirectorDemos": "Director-Demos",
     "directorDemosContentTitle": "Director-Demos",
-    "directorDemosTitle": "Director-Demos"
+    "directorDemosTitle": "Director-Demos",
+    "downloadsDailyNote3": "Eine Übersicht der letzten Änderungen finden Sie im Changelog von ScummVM."
 }
