@@ -1365,7 +1365,7 @@
     category_icon: windows
     user_agent: ''
     url: /frs/daily/scummvm-snapshot-win32.exe
-    name: 'ScummVM Snapshot for Windows'
+    name: 'ScummVM Snapshot - Windows Installer'
     description: 'Provided by ScummVM Team member Lothar Serra Mari, updated several times  daily'
 -
     enabled: true
@@ -1374,7 +1374,7 @@
     category_icon: windows
     user_agent: ''
     url: /frs/daily/scummvm-tools-snapshot-win32.zip
-    name: 'ScummVM Tools Snapshot for Windows'
+    name: 'Tools Snapshot - Windows zipfile'
     description: 'Provided by ScummVM Team member Lothar Serra Mari, updated several times  daily'
 -
     enabled: false
@@ -1412,6 +1412,15 @@
     url: /frs/daily/scummvm_ubuntu_amd64.deb
     name: 'Ubuntu x86_64 ScummVM Daily Snapshot'
     description: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
+-
+    enabled: true
+    category: daily
+    subcategory: daily_downloads
+    category_icon: buildbot
+    user_agent: ''
+    url: 'https://buildbot.scummvm.org/#/snapshots'
+    name: 'Snapshots for other platforms'
+    description: 'Provided by our buildbot'
 -
     enabled: true
     category: daily
