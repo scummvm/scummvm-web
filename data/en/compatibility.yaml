@@ -3754,7 +3754,7 @@
 -
     id: chest
     support: good
-    notes: '- DOS versions are supported by this target'
+    notes: ''
     since_version: 2.2.0
     stable_platforms: dos
     unstable_platforms: ''
@@ -3831,21 +3831,21 @@
 -
     id: transylvania
     support: good
-    notes: '- Only the DOS original release is supported. The re-release is not. - Animations during scene rendering are not supported'
+    notes: '- Animations during scene rendering are not supported'
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: crimsoncrown
     support: good
-    notes: '- Only the DOS version is supported - Animations during scene rendering are not supported'
+    notes: '- Animations during scene rendering are not supported'
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: ootopos
     support: good
-    notes: '- Only the DOS version is supported - Animations during scene rendering are not supported'
+    notes: '- Animations during scene rendering are not supported'
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: ''
@@ -3880,28 +3880,28 @@
 -
     id: nl
     support: excellent
-    notes: '- Only PC version is supported'
+    notes: ''
     since_version: DEV
     stable_platforms: win
     unstable_platforms: amiga
 -
     id: buried
     support: excellent
-    notes: '- Only Windows version is supported'
+    notes: ''
     since_version: DEV
     stable_platforms: win
     unstable_platforms: mac
 -
     id: remorse
     support: good
-    notes: '- Only DOS version is supported'
+    notes: ''
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: psx
 -
     id: lzone
     support: good
-    notes: '- Only Windows and Mac versions are supported'
+    notes: ''
     since_version: DEV
     stable_platforms: 'win,mac'
     unstable_platforms: 'macintosh2,fmtowns,pippin'
