@@ -1365,7 +1365,7 @@
     category_icon: windows
     user_agent: ''
     url: /frs/daily/scummvm-snapshot-win32.exe
-    name: 'ScummVM Snapshot - Windows Installer'
+    name: 'ScummVM Daily Build - Windows Installer'
     description: 'Provided by ScummVM Team member Lothar Serra Mari, updated several times  daily'
 -
     enabled: true
@@ -1374,7 +1374,7 @@
     category_icon: windows
     user_agent: ''
     url: /frs/daily/scummvm-tools-snapshot-win32.zip
-    name: 'Tools Snapshot - Windows zipfile'
+    name: 'Tools Daily Build - Windows zipfile'
     description: 'Provided by ScummVM Team member Lothar Serra Mari, updated several times  daily'
 -
     enabled: false
@@ -1383,7 +1383,7 @@
     category_icon: debian
     user_agent: ''
     url: /frs/daily/scummvm_debian_i386.deb
-    name: 'Debian i386 ScummVM Daily Snapshot'
+    name: 'Debian i386 ScummVM Daily Build'
     description: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
 -
     enabled: false
@@ -1392,7 +1392,7 @@
     category_icon: debian
     user_agent: ''
     url: /frs/daily/scummvm_debian_amd64.deb
-    name: 'Debian x86_64 ScummVM Daily Snapshot'
+    name: 'Debian x86_64 ScummVM Daily Build'
     description: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
 -
     enabled: false
@@ -1401,7 +1401,7 @@
     category_icon: ubuntu
     user_agent: ''
     url: /frs/daily/scummvm_ubuntu_i386.deb
-    name: 'Ubuntu i386 ScummVM Daily Snapshot'
+    name: 'Ubuntu i386 ScummVM Daily Build'
     description: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
 -
     enabled: false
@@ -1410,7 +1410,7 @@
     category_icon: ubuntu
     user_agent: ''
     url: /frs/daily/scummvm_ubuntu_amd64.deb
-    name: 'Ubuntu x86_64 ScummVM Daily Snapshot'
+    name: 'Ubuntu x86_64 ScummVM Daily Build'
     description: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
 -
     enabled: true
@@ -1419,7 +1419,7 @@
     category_icon: buildbot
     user_agent: ''
     url: 'https://buildbot.scummvm.org/#/snapshots'
-    name: 'Snapshots for other platforms'
+    name: 'Daily builds for other platforms'
     description: 'Provided by our buildbot'
 -
     enabled: true
