@@ -165,7 +165,7 @@
   "menuDevelopmentBugTracker": "Bug Tracker",
   "menuDevelopmentPatchTracker": "Patch Tracker",
   "menuDevelopmentTranslations": "Translate ScummVM",
-  "menuDevelopmentDailies": "Daily Snapshots",
+  "menuDevelopmentDailies": "Daily Builds",
   "menuDevelopmentSourceCode": "Source Code Tree",
   "menuDevelopmentBuildbot": "Buildbot",
   "menuDevelopmentDoxygen": "API Reference",
