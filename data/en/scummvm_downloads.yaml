@@ -1418,7 +1418,7 @@
     subcategory: daily_downloads
     category_icon: buildbot
     user_agent: ''
-    url: 'https://buildbot.scummvm.org/#/snapshots'
+    url: 'https://buildbot.scummvm.org/#/dailybuilds'
     name: 'Daily builds for other platforms'
     description: 'Provided by our buildbot'
 -
