@@ -1066,5 +1066,17 @@
     "20080914": {
         "content": "Les utilisateurs les plus observateurs auront remarqué qu'il y a une version mise à jour pour Flight of the Amazon Queen sur SourceForge mais pas, jusqu'à présent, sur la [page des téléchargements](/downloads/) de ScummVM.\n\nEn dehors de quelques modifications typographiques mineures apportées à la licence pour satisfaire les autorités judiciaires, la seule différence par rapport à l'ancienne version est qu'elle a été compressée à l'aide de la dernière version des outils ScummVM. Cela devrait permettre de résoudre les problèmes de clics au début de certains dialogues, et de lecture un peu trop lente des dialogues. (ScummVM 0.12.0 a déjà une solution pour ce dernier problème, donc vous ne remarquerez peut-être même pas la différence.)",
         "title": "Mise à jour mineure pour Flight of the Amazon Queen"
+    },
+    "20090104": {
+        "title": "Blue a besoin de votre aide",
+        "content": "Aidez Blue à participer à la foire de quartier dans 123 Time Activies, et à trouver des mots dans ABC Time Acitivies, tout au long de diverses activités dans ces jeux.\n\nNous avons récemment ajouté la prise en charge de *Blue's 123 Time Activities* et *Blue's ABC Time Activities* et, comme d'habitude, nous vous encourageons à jouer à ces jeux avec une [compilation quotidienne](/download/s#daily), à [signaler](/faq/#question.report-bugs) tous les bogues rencontrés sur notre [bug tracker](http://bugs.scummvm.org/) et à [soumettre de belles captures d'écran](http://wiki.scummvm.org/index.php/Screenshots)."
+    },
+    "20081216": {
+        "content": "Henry Stauf vous invite cordialement à venir goûter aux délices de sa maison dans le tout nouveau jeu pris en charge par ScummVM, *The 7th Guest*. Une soirée délicieuse est garantie pour vous et les autres invités.\n\nVous aurez besoin d'une copie du jeu (versions DOS et Windows uniquement, pour l'instant), et d'une [compilation quotidienne](/downloads/#daily) de ScummVM récemment téléchargé. Et, bien sûr, de votre intelligence.\n\nVeuillez signaler tout désagrément indésirable (c'est-à-dire tout bogue) au [bug tracker de ScummVM](http://bugs.scummvm.org/). Si vous trouvez des images particulièrement belles pendant votre séjour, n'oubliez pas de nous les soumettre sous forme de [captures d'écran](http://wiki.scummvm.org/index.php/Screenshots).\n\n*P.S.* La copie du jeu sur le disque dur présente quelques complications, car il y a des pistes audio sur les deux CD. Les informations sur la façon de contourner ce problème, ainsi que sur d'autres problèmes connus, se trouvent sur la [page wiki de 7th Guest](http://wiki.scummvm.org/index.php/The_7th_Guest), merci de la lire attentivement.",
+        "title": "\"Welcome to my... house\""
+    },
+    "20081214": {
+        "title": "Ne tombez pas dans un Double Pétrin !",
+        "content": "Vous êtes un livreur de pizza et vous êtes dans le pétrin. Votre objectif est maintenant d'arrêter Dick Tate, avant que le monde entier ne soit rempli par ses clones maléfiques !\n\nVous pouvez maintenant suivre cette drôle d'histoire grâce à ScummVM. Nous avons récemment ajouté la prise en charge de *Bud Tucker in Double Trouble* et, comme d'habitude, nous vous encourageons à le tester avec une [compilation quotidienne](/downloads/#daily), à [signaler](/faq/#question.report-bugs) tous les bugs rencontrés sur notre [bug tracker](http://bugs.scummvm.org/) et à [soumettre de belles captures d'écran](http://wiki.scummvm.org/index.php/Screenshots)."
     }
 }
