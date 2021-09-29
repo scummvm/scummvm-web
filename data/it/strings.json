@@ -138,7 +138,7 @@
     "menuDevelopmentBugTracker": "Bug Tracker",
     "menuDevelopmentPatchTracker": "Patch Tracker",
     "menuDevelopmentTranslations": "Traduci ScummVM",
-    "menuDevelopmentDailies": "Snapshot giornalieri",
+    "menuDevelopmentDailies": "Build giornalieri",
     "menuDevelopmentSourceCode": "Codice Sorgente",
     "menuDevelopmentBuildbot": "Buildbot",
     "menuHeaderMisc": "Varie",
@@ -178,5 +178,6 @@
     "compatibilityGameDisclaimer": "Nota: ScummVM non include alcun gioco. Per utilizzare un gioco tra quelli elencati in questa pagina, devi possederne una copia ed aggiungerlo a ScummVM. Alcuni giochi sono disponibili gratuitamente alla pagina [Download Giochi](/games/). Per altri gli titoli, consulta la pagina [Where to get the games](https://wiki.scummvm.org/index.php?title=Where_to_get_the_games) della nostra wiki. Per istruzioni su come aggiungere giochi a ScummVM, vedi la [documentazione](https://docs.scummvm.org/en/latest/use_scummvm/add_play_games.html).",
     "menuMiscDirectorDemos": "Demo Director",
     "directorDemosContentTitle": "Demo Director",
-    "directorDemosTitle": "Demo Director"
+    "directorDemosTitle": "Demo Director",
+    "downloadsDailyNote3": "Consulta il Changelog per informazioni riguardanti gli ultimi aggiornamenti di ScummVM."
 }
