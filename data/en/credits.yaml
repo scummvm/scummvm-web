@@ -2018,10 +2018,6 @@
         name: "John Willis"
         alias: "DJWillis"
         description: ""
-      -
-        name: "Matan Bareket"
-        alias: "mataniko"
-        description: "Site maintainer"
   -
     title: "Website (content)"
     anchor: "web_content"
@@ -2093,6 +2089,10 @@
         name: "Won Star"
         alias: "wonst719"
         description: "Former GP32 porter"
+      -
+        name: "Matan Bareket"
+        alias: "mataniko"
+        description: "Website, Infrastructure, UI/UX"
 -
   title: "Other contributions"
   anchor: "other_contrib"
