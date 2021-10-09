@@ -17,7 +17,7 @@ In addition to these 3 games and engines, we officially support 10 more new engi
 * _Transylvania_
 * _Crimson Crown_
 * _OO-Topos_
-* [Glulx interactive fiction games](​​https://wiki.scummvm.org/index.php?title=Glk/Glulxe)
+* [Glulx interactive fiction games](https://wiki.scummvm.org/index.php?title=Glk/Glulxe)
 * _Private Eye_
 * [AGS Games versions 2.5+](https://wiki.scummvm.org/index.php?title=AGS/Games)
 * _Nightlong: Union City Conspiracy_
