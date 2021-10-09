@@ -947,3 +947,27 @@
     id: virtual
     name: 'Virtual Image Productions'
     alt_name: ''
+-
+    id: grundislav
+    name: 'Grundislav Games'
+    alt_name: ''
+-
+    id: perpetualdiversion
+    name: 'Perpetual Diversion'
+    alt_name: ''
+-
+    id: xii
+    name: 'XII Games'
+    alt_name: ''
+-
+    id: westend
+    name: 'Westend Studios'
+    alt_name: ''
+-
+    id: clifftop
+    name: 'Clifftop Games'
+    alt_name: ''
+-
+    id: teamvsb
+    name: 'Team VSB'
+    alt_name: ''

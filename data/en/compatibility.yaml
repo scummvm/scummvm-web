@@ -3365,7 +3365,7 @@
     notes: ''
     since_version: 2.1.0
     stable_platforms: dos
-    unstable_platforms: dos
+    unstable_platforms: ''
 -
     id: pn
     support: good
@@ -3911,4 +3911,81 @@
     notes: '- Japanese version is not yet supported'
     since_version: DEV
     stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: goldenwake
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,linux,mac'
+    unstable_platforms: ''
+-
+    id: kathyrain
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: resonance
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: sq45
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: sqdote
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: sqinc
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: sqvsb
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,linux,mac'
+    unstable_platforms: ''
+-
+    id: amazon
+    support: good
+    notes: '- English and Spanish versions supported'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: blueforce
+    support: good
+    notes: '- English and Spanish versions supported'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: ringworld
+    support: good
+    notes: '- English and Spanish versions supported'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: gk1
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'dos,win,mac'
     unstable_platforms: ''

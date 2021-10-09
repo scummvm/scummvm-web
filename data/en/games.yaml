@@ -5381,3 +5381,75 @@
     datafiles: ''
     wikipedia_page: Sanitarium_(video_game)
     series_id: ''
+-
+    id: goldenwake
+    name: 'A Golden Wake'
+    engine_id: ags
+    company_id: grundislav
+    moby_id: ''
+    datafiles: ''
+    wikipedia_page: A_Golden_Wake
+    series_id: ''
+-
+    id: kathyrain
+    name: 'Kathy Rain'
+    engine_id: ags
+    company_id: clifftop
+    moby_id: ''
+    datafiles: ''
+    wikipedia_page: Kathy_Rain
+    series_id: ''
+-
+    id: myburdentokeep
+    name: 'My Burden to Keep'
+    engine_id: ags
+    company_id: perpetualdiversion
+    moby_id: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: resonance
+    name: Resonance
+    engine_id: ags
+    company_id: xii
+    moby_id: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: sq45
+    name: 'Space Quest IV.5 - Roger Wilco and the Voyage Home'
+    engine_id: ags
+    company_id: westend
+    moby_id: ''
+    datafiles: ''
+    wikipedia_page: Resonance_(video_game)
+    series_id: ''
+-
+    id: sqdote
+    name: 'Space Quest Minus 1: Decisions of the Elders'
+    engine_id: ags
+    company_id: fan
+    moby_id: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: sqinc
+    name: 'Space Quest: Incinerations'
+    engine_id: ags
+    company_id: fan
+    moby_id: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: sqvsb
+    name: 'Space Quest: Vohaul Strikes Back'
+    engine_id: ags
+    company_id: teamvsb
+    moby_id: ''
+    datafiles: ''
+    wikipedia_page: 'Space_Quest:_Vohaul_Strikes_Back'
+    series_id: ''
