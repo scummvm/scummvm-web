@@ -684,7 +684,7 @@
     name: 'ScummVM - Source RPM'
     description: ''
 -
-    enabled: false
+    enabled: true
     category: current
     subcategory: tools
     category_icon: windows
@@ -693,7 +693,7 @@
     name: 'Tools - Windows 32bit zipfile'
     description: ''
 -
-    enabled: false
+    enabled: true
     category: current
     subcategory: tools
     category_icon: windows
