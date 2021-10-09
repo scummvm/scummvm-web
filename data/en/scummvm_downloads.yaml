@@ -915,7 +915,7 @@
     category_icon: win95
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm-2.2.0-win9x-win32.exe
-    name: 'Windows 95+ Installer'
+    name: '2.2.0 Windows 95+ Installer'
     description: ''
 -
     enabled: true
@@ -924,7 +924,7 @@
     category_icon: flatpak
     user_agent: Ubuntu
     url: 'https://flathub.org/apps/details/org.scummvm.ScummVM'
-    name: 'Flatpak package hosted at the flathub.org repository'
+    name: '2.2.0 Flatpak package hosted at the flathub.org repository'
     description: ''
 -
     enabled: true
@@ -933,7 +933,7 @@
     category_icon: debian
     user_agent: Debian
     url: /frs/scummvm/2.2.0/scummvm_2.2.0-1_debian10_amd64.deb
-    name: 'Debian 10 (buster) x86 64bit package'
+    name: '2.2.0 Debian 10 (buster) x86 64bit package'
     description: ''
 -
     enabled: true
@@ -942,7 +942,7 @@
     category_icon: debian
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm_2.2.0-1_debian10_i386.deb
-    name: 'Debian 10 (buster) i386 package'
+    name: '2.2.0 Debian 10 (buster) i386 package'
     description: ''
 -
     enabled: true
@@ -951,7 +951,7 @@
     category_icon: debian
     user_agent: Debian
     url: /frs/scummvm/2.2.0/scummvm_2.2.0-1_debian9_amd64.deb
-    name: 'Debian 9 (stretch) x86 64bit package'
+    name: '2.2.0 Debian 9 (stretch) x86 64bit package'
     description: ''
 -
     enabled: true
@@ -960,7 +960,7 @@
     category_icon: debian
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm_2.2.0-1_debian9_i386.deb
-    name: 'Debian 9 (stretch) i386 package'
+    name: '2.2.0 Debian 9 (stretch) i386 package'
     description: ''
 -
     enabled: true
@@ -969,7 +969,7 @@
     category_icon: ubuntu
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm_2.2.0-1_ubuntu20.04-lts_amd64.deb
-    name: 'Ubuntu 20.04 LTS (focal) x86 64bit package'
+    name: '2.2.0 Ubuntu 20.04 LTS (focal) x86 64bit package'
     description: ''
 -
     enabled: true
@@ -978,7 +978,7 @@
     category_icon: ubuntu
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm_2.2.0-1_ubuntu19.10_amd64.deb
-    name: 'Ubuntu 19.10 (eoam) x86 64bit package'
+    name: '2.2.0 Ubuntu 19.10 (eoam) x86 64bit package'
     description: ''
 -
     enabled: true
@@ -987,7 +987,7 @@
     category_icon: ubuntu
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm_2.2.0-1_ubuntu19.10_i386.deb
-    name: 'Ubuntu 19.10 (eoan) i386 package'
+    name: '2.2.0 Ubuntu 19.10 (eoan) i386 package'
     description: ''
 -
     enabled: true
@@ -996,7 +996,7 @@
     category_icon: ubuntu
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm_2.2.0-1_ubuntu18.04-lts_i386.deb
-    name: 'Ubuntu 18.04 LTS (bionic) i386 package'
+    name: '2.2.0 Ubuntu 18.04 LTS (bionic) i386 package'
     description: ''
 -
     enabled: true
@@ -1005,7 +1005,7 @@
     category_icon: macosppc
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm-2.2.0-macosx-ppc.dmg
-    name: 'Mac OS X 10.4+ PPC 32 bits (without Sparkle) Disk Image'
+    name: '2.2.0 Mac OS X 10.4+ PPC 32 bits (without Sparkle) Disk Image'
     description: ''
 -
     enabled: true
@@ -1014,7 +1014,7 @@
     category_icon: ps3
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm-2.2.0-ps3.zip
-    name: 'PlayStation3 package'
+    name: '2.2.0 PlayStation3 package'
     description: ''
 -
     enabled: true
@@ -1023,7 +1023,7 @@
     category_icon: symbian
     user_agent: SymbOS
     url: /frs/scummvm/2.2.0/scummvm-2.2.0.1-SymbianS60.zip
-    name: 'Symbian S60 split binary'
+    name: '2.2.0 Symbian S60 split binary'
     description: ''
 -
     enabled: true
@@ -1032,7 +1032,7 @@
     category_icon: iphone
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm-2.2.0-ios3.deb
-    name: 'iOS 3+ package .deb'
+    name: '2.2.0 iOS 3+ package .deb'
     description: ''
 -
     enabled: true
@@ -1041,7 +1041,7 @@
     category_icon: 3ds
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm-2.2.0-3ds.zip
-    name: 'Nintendo 3DS package'
+    name: '2.2.0 Nintendo 3DS package'
     description: ''
 -
     enabled: true
@@ -1050,7 +1050,7 @@
     category_icon: openpandora
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm-2.2.0-openpandora.zip
-    name: 'OpenPandora package'
+    name: '2.2.0 OpenPandora package'
     description: ''
 -
     enabled: true
@@ -1059,7 +1059,7 @@
     category_icon: gcw0
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm-2.2.0-gcw0.opk
-    name: 'GCW-Zero package'
+    name: '2.2.0 GCW-Zero package'
     description: ''
 -
     enabled: true
@@ -1068,7 +1068,7 @@
     category_icon: irix
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm-2.2.0-irix-mips3.tar.gz
-    name: 'IRIX (6.5.*, n32, mips3) package'
+    name: '2.2.0 IRIX (6.5.*, n32, mips3) package'
     description: ''
 -
     enabled: true
@@ -1077,7 +1077,7 @@
     category_icon: irix
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm-2.2.0-irix-mips4.tar.gz
-    name: 'IRIX (6.5.*, n32, mips4) package'
+    name: '2.2.0 IRIX (6.5.*, n32, mips4) package'
     description: ''
 -
     enabled: true
@@ -1086,7 +1086,7 @@
     category_icon: haiku
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm_x86-2.2.0-3-x86_gcc2.hpkg
-    name: 'Haiku package 32bits'
+    name: '2.2.0 Haiku package 32bits'
     description: ''
 -
     enabled: true
@@ -1095,7 +1095,7 @@
     category_icon: haiku
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm-2.2.0-3-x86_64.hpkg
-    name: 'Haiku package 64bits'
+    name: '2.2.0 Haiku package 64bits'
     description: ''
 -
     enabled: true
@@ -1104,7 +1104,7 @@
     category_icon: amiga
     user_agent: Amiga
     url: /frs/scummvm/2.2.0/scummvm-2.2.0-amigaos4.lha
-    name: 'AmigaOS 4 package'
+    name: '2.2.0 AmigaOS 4 package'
     description: ''
 -
     enabled: true
@@ -1113,7 +1113,7 @@
     category_icon: morphos
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm-2.2.0-morphos.lha
-    name: 'MorphOS package'
+    name: '2.2.0 MorphOS package'
     description: ''
 -
     enabled: true
@@ -1122,7 +1122,7 @@
     category_icon: riscos
     user_agent: 'RISC OS'
     url: /frs/scummvm/2.2.0/scummvm-2.2.0-riscos-vfp.zip
-    name: 'RISC OS VFP package'
+    name: '2.2.0 RISC OS VFP package'
     description: ''
 -
     enabled: true
@@ -1131,7 +1131,7 @@
     category_icon: freemint
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm-2.2.0-atari-m68000.zip
-    name: 'Atari/FreeMiNT package (m68000 and up)'
+    name: '2.2.0 Atari/FreeMiNT package (m68000 and up)'
     description: ''
 -
     enabled: true
@@ -1140,7 +1140,7 @@
     category_icon: freemint
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm-2.2.0-atari-m68020-60.zip
-    name: 'Atari/FreeMiNT package (m68020 - m68060)'
+    name: '2.2.0 Atari/FreeMiNT package (m68020 - m68060)'
     description: ''
 -
     enabled: true
@@ -1149,7 +1149,7 @@
     category_icon: freemint
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm-2.2.0-atari-m5475.zip
-    name: 'Atari/FreeMiNT package (Coldfire MCF5475 / Firebee)'
+    name: '2.2.0 Atari/FreeMiNT package (Coldfire MCF5475 / Firebee)'
     description: ''
 -
     enabled: true
@@ -1158,7 +1158,7 @@
     category_icon: samsungtv
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm-2.2.0-samsungtv.zip
-    name: 'Samsung TV package (2009 series)'
+    name: '2.2.0 Samsung TV package (2009 series)'
     description: ''
 -
     enabled: true
@@ -1167,7 +1167,7 @@
     category_icon: raspberry
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm-2.2.0-raspberrypi-armhf.AppImage
-    name: 'Raspberry Pi 3/4/400 with Raspberry Pi OS 32 bits (armhf) (AppImage)'
+    name: '2.2.0 Raspberry Pi 3/4/400 with Raspberry Pi OS 32 bits (armhf) (AppImage)'
     description: ''
 -
     enabled: true
@@ -1176,7 +1176,7 @@
     category_icon: raspberry
     user_agent: ''
     url: /frs/scummvm/2.2.0/scummvm-2.2.0-raspberrypi-aarch64.AppImage
-    name: 'Raspberry Pi 3/4/400 with Raspberry Pi OS 64 bits (aarch64) (AppImage)'
+    name: '2.2.0 Raspberry Pi 3/4/400 with Raspberry Pi OS 64 bits (aarch64) (AppImage)'
     description: ''
 -
     enabled: true
