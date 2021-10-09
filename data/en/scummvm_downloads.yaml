@@ -423,7 +423,7 @@
     name: 'RISC OS VFP package'
     description: ''
 -
-    enabled: false
+    enabled: true
     category: current
     subcategory: release
     category_icon: freemint
@@ -432,7 +432,7 @@
     name: 'Atari/FreeMiNT package (m68000 and up)'
     description: ''
 -
-    enabled: false
+    enabled: true
     category: current
     subcategory: release
     category_icon: freemint
@@ -441,7 +441,7 @@
     name: 'Atari/FreeMiNT package (m68020 - m68060)'
     description: ''
 -
-    enabled: false
+    enabled: true
     category: current
     subcategory: release
     category_icon: freemint
@@ -756,7 +756,7 @@
     name: 'Tools - RISC OS package'
     description: ''
 -
-    enabled: false
+    enabled: true
     category: current
     subcategory: tools
     category_icon: freemint
@@ -765,7 +765,7 @@
     name: 'Tools - Atari/FreeMiNT package (68000 and up)'
     description: ''
 -
-    enabled: false
+    enabled: true
     category: current
     subcategory: tools
     category_icon: freemint
@@ -774,7 +774,7 @@
     name: 'Tools - Atari/FreeMiNT package (m68020 - m68060)'
     description: ''
 -
-    enabled: false
+    enabled: true
     category: current
     subcategory: tools
     category_icon: freemint
@@ -1123,33 +1123,6 @@
     user_agent: 'RISC OS'
     url: /frs/scummvm/2.2.0/scummvm-2.2.0-riscos-vfp.zip
     name: '2.2.0 RISC OS VFP package'
-    description: ''
--
-    enabled: true
-    category: legacy
-    subcategory: old
-    category_icon: freemint
-    user_agent: ''
-    url: /frs/scummvm/2.2.0/scummvm-2.2.0-atari-m68000.zip
-    name: '2.2.0 Atari/FreeMiNT package (m68000 and up)'
-    description: ''
--
-    enabled: true
-    category: legacy
-    subcategory: old
-    category_icon: freemint
-    user_agent: ''
-    url: /frs/scummvm/2.2.0/scummvm-2.2.0-atari-m68020-60.zip
-    name: '2.2.0 Atari/FreeMiNT package (m68020 - m68060)'
-    description: ''
--
-    enabled: true
-    category: legacy
-    subcategory: old
-    category_icon: freemint
-    user_agent: ''
-    url: /frs/scummvm/2.2.0/scummvm-2.2.0-atari-m5475.zip
-    name: '2.2.0 Atari/FreeMiNT package (Coldfire MCF5475 / Firebee)'
     description: ''
 -
     enabled: true
