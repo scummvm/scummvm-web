@@ -167,7 +167,7 @@
     "menuDevelopmentBugTracker": "Virheenseuranta",
     "menuDevelopmentPatchTracker": "Paikkausten seuranta",
     "menuDevelopmentTranslations": "Suomenna ScummVM",
-    "menuDevelopmentDailies": "Päivittäiset snapshot-vedokset",
+    "menuDevelopmentDailies": "Päivittäiset kokoomat",
     "menuDevelopmentSourceCode": "Lähdekoodipuu",
     "menuDevelopmentBuildbot": "Rakennusbotti",
     "menuDevelopmentDoxygen": "Ohjelmointirajapinta",
@@ -178,5 +178,6 @@
     "menuMiscDirectorDemos": "Director-näytteet",
     "menuMiscPress": "Lehdistössä esillä",
     "menuMiscContact": "Yhteys",
-    "menuMiscLinks": "Linkit"
+    "menuMiscLinks": "Linkit",
+    "downloadsDailyNote3": "Muutoskirjauksista näet tuoreimmat ScummVM-päivitykset."
 }
