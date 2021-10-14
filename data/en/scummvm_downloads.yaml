@@ -387,7 +387,7 @@
     name: 'Haiku package 64bits'
     description: ''
 -
-    enabled: false
+    enabled: true
     category: current
     subcategory: release
     category_icon: amiga
@@ -729,7 +729,7 @@
     name: 'Tools - Haiku package 64 bits package'
     description: ''
 -
-    enabled: false
+    enabled: true
     category: current
     subcategory: tools
     category_icon: amiga
@@ -1080,7 +1080,7 @@
     name: '2.2.0 IRIX (6.5.*, n32, mips4) package'
     description: ''
 -
-    enabled: true
+    enabled: false
     category: legacy
     subcategory: old
     category_icon: amiga
