@@ -81,7 +81,25 @@
     name: 'Flatpak package hosted at the flathub.org repository'
     description: ''
 -
-    enabled: false
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: debian
+    user_agent: Debian
+    url: '/frs/scummvm/{$release}/scummvm_{$release}-1_debian11_amd64.deb'
+    name: 'Debian 11 (bullseye) x86 64bit package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: debian
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm_{$release}-1_debian11_i386.deb'
+    name: 'Debian 11 (bullseye) i386 package'
+    description: ''
+-
+    enabled: true
     category: current
     subcategory: release
     category_icon: debian
@@ -90,7 +108,7 @@
     name: 'Debian 10 (buster) x86 64bit package'
     description: ''
 -
-    enabled: false
+    enabled: true
     category: current
     subcategory: release
     category_icon: debian
@@ -99,16 +117,16 @@
     name: 'Debian 10 (buster) i386 package'
     description: ''
 -
-    enabled: false
+    enabled: true
     category: current
     subcategory: release
     category_icon: debian
-    user_agent: Debian
+    user_agent: ''
     url: '/frs/scummvm/{$release}/scummvm_{$release}-1_debian9_amd64.deb'
     name: 'Debian 9 (stretch) x86 64bit package'
     description: ''
 -
-    enabled: false
+    enabled: true
     category: current
     subcategory: release
     category_icon: debian
@@ -117,39 +135,30 @@
     name: 'Debian 9 (stretch) i386 package'
     description: ''
 -
-    enabled: false
+    enabled: true
     category: current
     subcategory: release
     category_icon: ubuntu
     user_agent: ''
-    url: '/frs/scummvm/{$release}/scummvm_{$release}-1_ubuntu20.04-lts_amd64.deb'
+    url: '/frs/scummvm/{$release}/scummvm_{$release}-1_ubuntu21.04_amd64.deb'
+    name: 'Ubuntu 21.04 LTS (hirsute) x86 64bit package'
+    description: ''
+-
+    enabled: true
+    category: current
+    subcategory: release
+    category_icon: ubuntu
+    user_agent: ''
+    url: '/frs/scummvm/{$release}/scummvm_{$release}-1_ubuntu20.04_amd64.deb'
     name: 'Ubuntu 20.04 LTS (focal) x86 64bit package'
     description: ''
 -
-    enabled: false
+    enabled: true
     category: current
     subcategory: release
     category_icon: ubuntu
     user_agent: ''
-    url: '/frs/scummvm/{$release}/scummvm_{$release}-1_ubuntu19.10_amd64.deb'
-    name: 'Ubuntu 19.10 (eoam) x86 64bit package'
-    description: ''
--
-    enabled: false
-    category: current
-    subcategory: release
-    category_icon: ubuntu
-    user_agent: ''
-    url: '/frs/scummvm/{$release}/scummvm_{$release}-1_ubuntu19.10_i386.deb'
-    name: 'Ubuntu 19.10 (eoan) i386 package'
-    description: ''
--
-    enabled: false
-    category: current
-    subcategory: release
-    category_icon: ubuntu
-    user_agent: ''
-    url: '/frs/scummvm/{$release}/scummvm_{$release}-1_ubuntu18.04-lts_i386.deb'
+    url: '/frs/scummvm/{$release}/scummvm_{$release}-1_ubuntu18.04_i386.deb'
     name: 'Ubuntu 18.04 LTS (bionic) i386 package'
     description: ''
 -
@@ -927,7 +936,7 @@
     name: '2.2.0 Flatpak package hosted at the flathub.org repository'
     description: ''
 -
-    enabled: true
+    enabled: false
     category: legacy
     subcategory: old
     category_icon: debian
@@ -936,7 +945,7 @@
     name: '2.2.0 Debian 10 (buster) x86 64bit package'
     description: ''
 -
-    enabled: true
+    enabled: false
     category: legacy
     subcategory: old
     category_icon: debian
@@ -945,7 +954,7 @@
     name: '2.2.0 Debian 10 (buster) i386 package'
     description: ''
 -
-    enabled: true
+    enabled: false
     category: legacy
     subcategory: old
     category_icon: debian
@@ -954,7 +963,7 @@
     name: '2.2.0 Debian 9 (stretch) x86 64bit package'
     description: ''
 -
-    enabled: true
+    enabled: false
     category: legacy
     subcategory: old
     category_icon: debian
@@ -963,7 +972,7 @@
     name: '2.2.0 Debian 9 (stretch) i386 package'
     description: ''
 -
-    enabled: true
+    enabled: false
     category: legacy
     subcategory: old
     category_icon: ubuntu
@@ -972,7 +981,7 @@
     name: '2.2.0 Ubuntu 20.04 LTS (focal) x86 64bit package'
     description: ''
 -
-    enabled: true
+    enabled: false
     category: legacy
     subcategory: old
     category_icon: ubuntu
@@ -981,7 +990,7 @@
     name: '2.2.0 Ubuntu 19.10 (eoam) x86 64bit package'
     description: ''
 -
-    enabled: true
+    enabled: false
     category: legacy
     subcategory: old
     category_icon: ubuntu
@@ -990,7 +999,7 @@
     name: '2.2.0 Ubuntu 19.10 (eoan) i386 package'
     description: ''
 -
-    enabled: true
+    enabled: false
     category: legacy
     subcategory: old
     category_icon: ubuntu
@@ -999,7 +1008,7 @@
     name: '2.2.0 Ubuntu 18.04 LTS (bionic) i386 package'
     description: ''
 -
-    enabled: true
+    enabled: false
     category: legacy
     subcategory: old
     category_icon: macosppc
