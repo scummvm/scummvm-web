@@ -141,7 +141,7 @@
     category_icon: ubuntu
     user_agent: ''
     url: '/frs/scummvm/{$release}/scummvm_{$release}-1_ubuntu21.04_amd64.deb'
-    name: 'Ubuntu 21.04 LTS (hirsute) x86 64bit package'
+    name: 'Ubuntu 21.04 (hirsute) x86 64bit package'
     description: ''
 -
     enabled: true
@@ -158,8 +158,8 @@
     subcategory: release
     category_icon: ubuntu
     user_agent: ''
-    url: '/frs/scummvm/{$release}/scummvm_{$release}-1_ubuntu18.04_i386.deb'
-    name: 'Ubuntu 18.04 LTS (bionic) i386 package'
+    url: '/frs/scummvm/{$release}/scummvm_{$release}-1_ubuntu18.04_amd64.deb'
+    name: 'Ubuntu 18.04 LTS (bionic) x86 64bit package'
     description: ''
 -
     enabled: true
@@ -999,7 +999,7 @@
     name: '2.2.0 Ubuntu 19.10 (eoan) i386 package'
     description: ''
 -
-    enabled: false
+    enabled: true
     category: legacy
     subcategory: old
     category_icon: ubuntu
