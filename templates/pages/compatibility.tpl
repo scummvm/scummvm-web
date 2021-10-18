@@ -34,7 +34,7 @@
         {#compatibilityGameDisclaimer#}
     </p>
     <p>
-        <small>{#compatiblityLastUpdated#} {$last_updated|date_localized}</small>
+        <small>{#compatibilityLastUpdated#} {$last_updated|date_localized}</small>
     </p>
 
 <script>

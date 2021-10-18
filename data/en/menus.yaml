@@ -20,7 +20,7 @@
       href: 'https://docs.scummvm.org/en/latest/help/faq.html'
     - name: '{#menuDocumentationDocumentation#}'
       href: 'https://docs.scummvm.org'
-    - name: '{#menuDocumentationCompatability#}'
+    - name: '{#menuDocumentationCompatibility#}'
       href: /compatibility/
     - name: '{#menuDocumentationWiki#}'
       href: 'https://wiki.scummvm.org/'
