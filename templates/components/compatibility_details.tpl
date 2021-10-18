@@ -8,9 +8,9 @@
     <caption>{#compatibilityDetailsChartTitle#}</caption>
     <thead>
         <tr class="color4">
-            <th>{#compatibilityDetailsChartCol1#}</th>
-            <th>{#compatibilityDetailsChartCol2#}</th>
-            <th>{#compatibilityDetailsChartCol4#}</th>
+            <th>{#compatibilityDetailsChartColGameFullName#}</th>
+            <th>{#compatibilityDetailsChartColGameShortName#}</th>
+            <th>{#compatibilityDetailsChartColSupportLevel#}</th>
         </tr>
     </thead>
     <tbody>
