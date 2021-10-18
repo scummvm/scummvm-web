@@ -29,21 +29,21 @@ class Compatibility extends BaseCompatibility
 
     public function getNotes()
     {
-        $notes = "**Support Level:**\n\n";
+        $notes = "### Support Level\n\n";
         $notes .= "%{$this->getSupport()}%\n\n";
 
         if ($stable = $this->getStablePlatforms()) {
-            $notes .= "**Supported Platforms:**\n";
+            $notes .= "### Supported Platforms \n";
             $notes .= "{$this->processPlatforms($stable)}\n";
         }
 
         if ($unstable = $this->getUnstablePlatforms()) {
-            $notes .= "**Unsupported Platforms:**\n";
+            $notes .= "### Unsupported Platforms\n";
             $notes .= "{$this->processPlatforms($unstable)}\n";
         }
 
         if ($this->notes) {
-            $notes .= "**Additional Notes:**\n";
+            $notes .= "### Additional Notes\n";
             $notes .= str_replace("- ", "\n- ", parent::getNotes()) . "\n";
         }
 
@@ -65,7 +65,7 @@ class Compatibility extends BaseCompatibility
           }
         }
         if ($links) {
-            $notes .= "\n\n**Links:**\n";
+            $notes .= "\n\n### Links\n";
             $notes .= join("\n", $links);
         }
 
