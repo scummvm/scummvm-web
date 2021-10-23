@@ -22,6 +22,10 @@
         name: "Einar Johan T. S&oslash;m&aring;en"
         alias: "somaen"
         description: ""
+      -
+        name: "Lothar Serra Mari"
+        alias: "lotharsm"
+        description: ""
   -
     title: "PR Office"
     anchor: "pr"
@@ -1972,6 +1976,10 @@
         name: "Robin Watts"
         alias: "robinwatts"
         description: "ARM assembly routines for nice speedups on several ports; improvements to the sound mixer"
+      -
+        name: "???"
+        alias: "Trembyle"
+        description: "Archivist"
   -
     title: "Website (code)"
     anchor: "web_code"
