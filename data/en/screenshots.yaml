@@ -2501,3 +2501,21 @@
     platform_id: win
     language: fr
     filemask: 'cryo/versailles/versailles_win_fr_1_*'
+-
+    id: tlj
+    variant: ''
+    platform_id: win
+    language: en
+    filemask: 'funcom/tlj/tlj_win_en_1_*'
+-
+    id: grim
+    variant: ''
+    platform_id: win
+    language: en
+    filemask: 'lec/grim/grim_win_en_1_*'
+-
+    id: myst3
+    variant: ''
+    platform_id: win
+    language: en
+    filemask: 'presto/myst3/myst3_win_en_1_*'
