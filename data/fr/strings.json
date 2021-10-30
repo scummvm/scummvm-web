@@ -59,7 +59,7 @@
     "downloadsGames": "Téléchargement de jeux",
     "downloadsDailyBuilds": "Compilations quotidiennes",
     "downloadsDailyNote1": "ATTENTION  :",
-    "downloadsDailyNote2": "Les versions ci-dessous sont des versions de développement compilées directement depuis notre dépôt de code source. Cela signifie qu'elles n'ont pas (ou peu) été testées et qu'elles peuvent contenir des bogues. Par exemple une telle version pourrait corrompre votre fichier de configuration, se planter souvent, ou même ne pas se lancer. Utilisez-les à vos risques et périls !",
+    "downloadsDailyNote2": "Les versions ci-dessous sont des versions de développement compilées directement depuis notre dépôt de code source. Cela signifie qu'elles n'ont pas (ou peu) été testées et qu'elles peuvent contenir des bogues. Par exemple une telle version pourrait corrompre votre fichier de configuration, planter fréquemment, ou même ne pas se lancer. Utilisez-les à vos risques et périls !",
     "downloadsDailyLink1": "[Téléchargez les compilations quotidiennes officielles](https://buildbot.scummvm.org/#/snapshots).",
     "downloadsDailyLink2": "Elles sont générées par notre [buildbot](https://buildbot.scummvm.org/).",
     "downloadsDailyLink3": "Autres compilations (snapshot)  :",
