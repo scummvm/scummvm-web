@@ -8,7 +8,6 @@ class File extends BasicObject
 {
     private $category_icon;
     private $url;
-    private $type;
     private $extra_info;
     private $user_agent;
 
@@ -17,7 +16,6 @@ class File extends BasicObject
         parent::__construct($data);
         $this->category_icon = $data['category_icon'];
         $this->extra_info = $data['extra_info'] ?? null;
-        $this->type = strtolower($data['type'] ?? '');
         $this->user_agent = isset($data["user_agent"]) ? $data["user_agent"] : "";
 
         $fname = "";
@@ -34,14 +32,6 @@ class File extends BasicObject
         if (!preg_match('/^((https?)|(ftp)):\/\//', $url)) {
             if ($baseUrl !== null) {
                 $url = $baseUrl . $url;
-            } elseif ($attributes['type'] == 'downloads') {
-                $url = DIR_DOWNLOADS . "/{$url}";
-            } elseif ($attributes['type'] == 'tools') {
-                $url = DOWNLOADS_TOOLS_URL . $url;
-            } elseif ($attributes['type'] == 'extras') {
-                $url = DOWNLOADS_EXTRAS_URL . $url;
-            } elseif ($attributes['type'] == 'daily') {
-                $url = DOWNLOADS_DAILY_URL . $url;
             } else {
                 $url = DOWNLOADS_URL . $url;
             }
@@ -114,12 +104,6 @@ class File extends BasicObject
     public function getURL()
     {
         return $this->url;
-    }
-
-    /* Get the type. */
-    public function getType()
-    {
-        return $this->type;
     }
 
     /* Get the extra information. */
