@@ -177,7 +177,7 @@
     category_icon: macostiger
     user_agent: ''
     url: '/frs/scummvm/{$release}/scummvm-{$release}-macosx-i386.dmg'
-    name: 'Mac OS X 10.6+ intel 32 bits (without Sparkle) Disk Image'
+    name: 'Mac OS X 10.6+ Intel 32 bits (without Sparkle) Disk Image'
     description: ''
 -
     enabled: false
@@ -1008,7 +1008,7 @@
     name: '2.2.0 Ubuntu 18.04 LTS (bionic) i386 package'
     description: ''
 -
-    enabled: false
+    enabled: true
     category: legacy
     subcategory: old
     category_icon: macosppc
