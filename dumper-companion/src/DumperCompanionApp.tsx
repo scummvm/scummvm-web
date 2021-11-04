@@ -3,7 +3,7 @@ import { fs } from '@zip.js/zip.js/lib/zip-fs.js';
 import { Volume } from './hfs/main';
 import { Language, getLanguages } from './encoding';
 
-export type Props = {}
+export type Props = {};
 
 export type State = {
     image: File;
@@ -12,7 +12,7 @@ export type State = {
     busy: boolean;
     unicode: boolean;
     logs: ComponentChild[];
-}
+};
 
 export default class DumperCompanionApp extends Component<Props, State> {
     constructor() {
