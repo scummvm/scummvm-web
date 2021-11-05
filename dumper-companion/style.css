@@ -10,7 +10,7 @@ h2 {
     margin: 0;
 }
 
-p, .in div {
+p, .box div {
     display: block;
     margin-top: 0.75em;
     margin-bottom: 0;
@@ -47,6 +47,11 @@ main {
     grid-gap: 20px;
 }
 
+.app {
+    display: grid;
+    grid-gap: 20px;
+}
+
 .box {
     background-color: #eee;
     border: 1px solid #000;
@@ -54,7 +59,7 @@ main {
     padding: 20px;
 }
 
-.io {
+.dumper {
     display: grid;
     grid: auto-flow / 1fr 1fr;
     grid-gap: 20px;
@@ -84,4 +89,12 @@ input[type="checkbox"] {
     margin-top: 10px;
     margin-bottom: 0;
     padding: 0;
+}
+
+.punycoder input[type="text"] {
+    width: 360px;
+}
+
+.punycoder button {
+    margin-left: 8px;
 }

@@ -43,7 +43,7 @@ export function decodeLanguage(str: Uint8Array, lang: Language): string {
 }
 
 
-function escapeString(str: string): string {
+export function escapeString(str: string): string {
     let res = '';
     for (const ch of str) {
         if (ch == '\x81') {
@@ -55,6 +55,24 @@ function escapeString(str: string): string {
             res += '\x81' + String.fromCodePoint(0x80 + codePoint(ch));
         } else {
             res += ch;
+        }
+    }
+    return res;
+}
+
+export function unescapeString(str: string): string {
+    const chars = Array.from(str);
+    let res = '';
+    for (let i = 0; i < chars.length; i++) {
+        if (chars[i] == '\x81' && i + 1 < chars.length) {
+            i++;
+            if (chars[i] == '\x79') {
+                res += '\x81';
+            } else {
+                res += String.fromCodePoint(codePoint(chars[i]) - 0x80);
+            }
+        } else {
+            res += chars[i] ;
         }
     }
     return res;

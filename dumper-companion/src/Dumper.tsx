@@ -14,7 +14,7 @@ export type State = {
     logs: ComponentChild[];
 };
 
-export default class DumperCompanionApp extends Component<Props, State> {
+export default class Dumper extends Component<Props, State> {
     constructor() {
         super();
         this.state = {
@@ -32,7 +32,7 @@ export default class DumperCompanionApp extends Component<Props, State> {
     }
 
     render(): ComponentChild {
-        return <div class="io">
+        return <div class="dumper">
             <div class="in box">
                 <h2>Input</h2>
 
