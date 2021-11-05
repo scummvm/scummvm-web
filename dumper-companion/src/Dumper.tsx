@@ -12,6 +12,8 @@ export type State = {
     busy: boolean;
     unicode: boolean;
     logs: ComponentChild[];
+    dumpPercent: number;
+    lastLogWasDumpPercent: boolean;
 };
 
 export default class Dumper extends Component<Props, State> {
@@ -23,7 +25,9 @@ export default class Dumper extends Component<Props, State> {
             lang: Language.EN,
             unicode: true,
             busy: false,
-            logs: []
+            logs: [],
+            dumpPercent: -1,
+            lastLogWasDumpPercent: false
         };
     }
 
@@ -69,15 +73,24 @@ export default class Dumper extends Component<Props, State> {
         if (msg instanceof Error) {
             msg = msg.toString();
         }
-        this.setState(({ logs }) => ({ logs: [...logs, <li>{msg}</li>] }), callback);
+        this.setState(({ logs }) => ({
+            logs: [...logs, <li>{msg}</li>],
+            lastLogWasDumpPercent: false
+        }), callback);
     }
 
-    replaceLastLog(msg: ComponentChild | Error, callback?: () => void): void {
-        console.log(msg);
-        if (msg instanceof Error) {
-            msg = msg.toString();
+    updateDumpPercent(percent: number, callback?: () => void): void {
+        if (percent !== this.state.dumpPercent) {
+            const msg = `Dumping volume... ${percent}%`;
+            console.log(msg);
+            this.setState(({ logs, lastLogWasDumpPercent }) => ({
+                logs: lastLogWasDumpPercent
+                    ? [...logs.slice(0, -1), <li>{msg}</li>]
+                    : [...logs, <li>{msg}</li>],
+                dumpPercent: percent,
+                lastLogWasDumpPercent: true
+            }), callback);
         }
-        this.setState(({ logs }) => ({ logs: [...logs.slice(0, -1), <li>{msg}</li>] }), callback);
     }
 
     handleImage(e: Event): void {
@@ -115,21 +128,21 @@ export default class Dumper extends Component<Props, State> {
                 this.dumpVolume(volume);
             } catch (err) {
                 this.log(err);
-                this.setState(() => ({ busy: false }));
+                this.setState(() => ({ busy: false, dumpPercent: -1 }));
             }
         });
     }
 
     dumpVolume(volume: Volume): void {
-        this.log('Dumping volume... 0%', async () => {
+        this.updateDumpPercent(0, async () => {
             try {
                 const zipFS = new fs.FS();
-                volume.dumpToZip(zipFS.root, this.state.lang, !this.state.unicode);
+                volume.dumpToZip(zipFS.root, this.state.lang, !this.state.unicode, this.log.bind(this));
                 const blob = await zipFS.exportBlob({
                     level: 0,
                     onprogress: (index, max) => {
                         const percent = Math.floor(index / max * 100);
-                        this.replaceLastLog(`Dumping volume... ${percent}%`);
+                        this.updateDumpPercent(percent);
                     }
                 });
                 const volumeURL = URL.createObjectURL(blob);
@@ -140,7 +153,7 @@ export default class Dumper extends Component<Props, State> {
             } catch (err) {
                 this.log(err);
             }
-            this.setState(() => ({ busy: false }));
+            this.setState(() => ({ busy: false, dumpPercent: -1 }));
         });
     }
 }

@@ -23,7 +23,7 @@ export function getLanguages(): string[] {
 }
 
 
-export function decodeLanguage(str: Uint8Array, lang: Language): string {
+export function decodeLanguage(str: Uint8Array, lang: Language, log: (string) => void): string {
     switch (lang) {
     case Language.DA:
     case Language.NL:
@@ -38,7 +38,7 @@ export function decodeLanguage(str: Uint8Array, lang: Language): string {
     case Language.SE:
         return decodeMacRoman(str);
     case Language.JP:
-        return decodeMacJapanese(str);
+        return decodeMacJapanese(str, log);
     }
 }
 
@@ -90,8 +90,8 @@ function needsPunycode(str: string) {
 }
 
 
-export function encodeFileName(str: Uint8Array, lang: Language, puny: boolean): string {
-    const unicodeStr = decodeLanguage(str, lang);
+export function encodeFileName(str: Uint8Array, lang: Language, puny: boolean, log: (string) => void): string {
+    const unicodeStr = decodeLanguage(str, lang, log);
 
     const forcePunycode = needsPunycode(unicodeStr);
     if (puny || forcePunycode) {
@@ -183,7 +183,7 @@ const macJapaneseMap = {
     'ed': ['ァ',,'ィ',,'ゥ',,'ェ',,'ォ',,,,,,,,,,,,,,,,,,,,,,,,,,'ッ',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'ャ',,'ュ',,'ョ',,,,,,,'ヮ',,,,,,,'ヵ','ヶ']
 };
 
-export function decodeMacJapanese(str: Uint8Array): string {
+export function decodeMacJapanese(str: Uint8Array, log: (string) => void): string {
     let res = '';
     for (let i = 0; i < str.length; i++) {
         const hi = str[i];
@@ -194,15 +194,19 @@ export function decodeMacJapanese(str: Uint8Array): string {
         } else if ((0x81 <= hi && hi <= 0x9F) || (0xE0 <= hi && hi <= 0xFC)) { // two-byte sequence
             i++;
             if (i >= str.length) {
-                throw new Error('Mac Japanese sequence missing second byte');
+                log(`Warning: Mac Japanese sequence 0x${byteToHex(hi)}XX missing second byte, decoding as Mac Roman`);
+                return decodeMacRoman(str);
+            } else {
+                const lo = str[i];
+                const hiKey = hi.toString(16);
+                const loKey = lo - 0x40;
+                if (macJapaneseMap[hiKey] == null || macJapaneseMap[hiKey][loKey] == null) {
+                    log(`Warning: No mapping for Mac Japanese sequence 0x${byteToHex(hi)}${byteToHex(lo)}, decoding as Mac Roman`);
+                    return decodeMacRoman(str);
+                } else {
+                    res += macJapaneseMap[hiKey][loKey];
+                }
             }
-            const lo = str[i];
-            const hiKey = hi.toString(16);
-            const loKey = lo - 0x40;
-            if (macJapaneseMap[hiKey] == null || macJapaneseMap[hiKey][loKey] == null) {
-                throw new Error(`No mapping for Mac Japanese sequence 0x${byteToHex(hi)}${byteToHex(lo)}`);
-            }
-            res += macJapaneseMap[hiKey][loKey];
         } else if (hi === 0xA0) { // no-break space
             res += '\u00A0';
         } else if (hi >= 0xA1 && hi <= 0xDF) { // Katakana
