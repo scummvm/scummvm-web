@@ -15,7 +15,7 @@ class StaticPage extends Controller
 
         $this->filename = "html/$key.html";
         if (!is_file($this->filename) || !is_readable($this->filename)) {
-          throw new \ErrorException(\sprintf(self::FILE_NOT_FOUND, $this->filename));
+            throw new \ErrorException(\sprintf(self::FILE_NOT_FOUND, $this->filename));
         }
     }
 
