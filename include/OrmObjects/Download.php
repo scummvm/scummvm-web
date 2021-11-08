@@ -20,10 +20,9 @@ class Download extends BaseDownload
         $name = parent::getName();
         $version = $this->getVersion();
         // If it's not the latest version, prefix with the version number
-        if ($version == RELEASE) {
-            return $name;
-        } else {
+        if ($version != RELEASE) {
             return "$version $name";
         }
+        return $name;
     }
 }
