@@ -31,7 +31,7 @@ class DataUtils
         'game_demos' => '713475305',
         'series' => '1095671818',
         'screenshots' => '1985243204',
-        'scummvm_downloads' => '373699606',
+        'scummvm_downloads' => '1057392663',
         'game_downloads' => '1287892109',
         'director_demos' => '1256563740',
     ];

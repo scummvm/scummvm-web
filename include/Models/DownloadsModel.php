@@ -85,11 +85,15 @@ class DownloadsModel extends BasicModel
             ->setIgnoreCase(true)
             ->findByUserAgent($os['name']);
 
-        foreach ($downloads as $download) {
-            $url = str_replace('{$release}', RELEASE, $download->getURL());
-            sscanf($url, "/frs/scummvm/%s", $versionStr);
-            $version = substr($versionStr, 0, strpos($versionStr, "/"));
+        if (!empty($downloads)) {
+            $download = $downloads[0];
+
             $name = strip_tags($download->getName());
+            // Construct the URL and fill in the version
+            $url = DOWNLOADS_BASE . DOWNLOADS_URL . $download->getURL();
+            $version = $download->getVersion();
+            $url = str_replace('{$version}', $version, $url);
+
             $data = ""; //$download->getExtraInfo();
             if (is_array($data)) {
                 $extra_text = $data['size'] . " ";

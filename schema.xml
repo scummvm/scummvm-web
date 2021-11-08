@@ -110,6 +110,7 @@
     <column name="enabled" type="boolean" />
     <column name="user_agent" type="varchar" size="255"/>
     <column name="url" type="varchar" size="255" required="true"/>
+    <column name="version" type="varchar" size="24" required="false"/>
   </table>
   <table name="game_downloads" phpName="GameDownload">
     <column name="category" type="varchar" size="24" required="true"/>
