@@ -56,13 +56,13 @@ class Compatibility extends BaseCompatibility
         }
         $wikipediaPage = $this->getGame()->getWikipediaPage();
         if ($wikipediaPage) {
-          // If we have a full URL, such as for a non-English Wikipedia page, use that
-          // Otherwise, assume it's a page for English Wikipedia
-          if (str_starts_with($wikipediaPage, "https://")) {
-            $links[] = "- [Wikipedia]({$this->getGame()->getWikipediaPage()})";
-          } else {
-            $links[] = "- [Wikipedia](https://en.wikipedia.org/wiki/{$this->getGame()->getWikipediaPage()})";
-          }
+            // If we have a full URL, such as for a non-English Wikipedia page, use that
+            // Otherwise, assume it's a page for English Wikipedia
+            if (str_starts_with($wikipediaPage, "https://")) {
+                $links[] = "- [Wikipedia]({$this->getGame()->getWikipediaPage()})";
+            } else {
+                $links[] = "- [Wikipedia](https://en.wikipedia.org/wiki/{$this->getGame()->getWikipediaPage()})";
+            }
         }
         if ($links) {
             $notes .= "\n\n### Links\n";
