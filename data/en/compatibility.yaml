@@ -3989,3 +3989,10 @@
     since_version: DEV
     stable_platforms: 'dos,win,mac'
     unstable_platforms: ''
+-
+    id: kyra1
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'amiga,dos,fmtowns,mac,pc98'
+    unstable_platforms: ''
