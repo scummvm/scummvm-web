@@ -1241,9 +1241,9 @@
     url: /frs/demos/sci/pq4-dos-ni-demo-en.zip
 -
     id: private-eye
-    platform: win
+    platform: mac
     category: US
-    url: /frs/demos/private/private-eye-demo-en.zip
+    url: /frs/demos/private/private-eye-mac-demo-us.zip
 -
     id: private-eye
     platform: win
@@ -1252,13 +1252,23 @@
 -
     id: private-eye
     platform: win
+    category: German
+    url: /frs/demos/private/private-eye-demo-de.zip
+-
+    id: private-eye
+    platform: win
+    category: French
+    url: /frs/demos/private/private-eye-demo-fr.zip
+-
+    id: private-eye
+    platform: win
     category: Spanish
     url: /frs/demos/private/private-eye-demo-es.zip
 -
     id: private-eye
-    platform: mac
+    platform: win
     category: US
-    url: /frs/demos/private/private-eye-mac-demo-us.zip
+    url: /frs/demos/private/private-eye-win-demo-us.zip
 -
     id: puttcircus
     platform: win
