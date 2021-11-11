@@ -3762,231 +3762,217 @@
     id: grim
     support: good
     notes: '- Remastered version is not supported'
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: win
     unstable_platforms: ''
--
-    id: monkey4
-    support: bugged
-    notes: ''
-    since_version: DEV
-    stable_platforms: win
-    unstable_platforms: ps2
 -
     id: myst3
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: win
     unstable_platforms: 'ps2,xbox'
 -
     id: tlj
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: win
     unstable_platforms: ''
--
-    id: icb
-    support: broken
-    notes: ''
-    since_version: DEV
-    stable_platforms: win
-    unstable_platforms: psx
 -
     id: lba
     support: good
     notes: '- Holomap is not yet supported'
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: petka1
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: win
     unstable_platforms: 'ios,android'
 -
     id: petka2
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: win
     unstable_platforms: 'ios,android'
 -
     id: plumbers
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: 'win,3do'
     unstable_platforms: ''
 -
     id: lure
     support: good
     notes: '- MT-32 is supported. - AdLib support is incomplete.'
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: transylvania
     support: good
     notes: '- Animations during scene rendering are not supported'
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: crimsoncrown
     support: good
     notes: '- Animations during scene rendering are not supported'
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: ootopos
     support: good
     notes: '- Animations during scene rendering are not supported'
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: glulx
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: elvira1
     support: good
     notes: '- Commodore 64 version doesn''t use AGOS, so will never be supported. - No music in the Atari ST version. - No text descriptions in the Atari ST version.'
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: 'amiga,atarist,dos,pc98'
     unstable_platforms: c64
 -
     id: private-eye
     support: good
     notes: '- All releases are supported except Japanese.'
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: 'win,mac'
     unstable_platforms: ''
 -
     id: ags
     support: good
     notes: '- Only AGS games 2.5 and after are supported'
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: 'win,linux,mac,android,ios'
     unstable_platforms: ''
 -
     id: nl
     support: excellent
     notes: '- Amiga videos are not yet supported'
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: win
     unstable_platforms: amiga
 -
     id: buried
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: win
     unstable_platforms: mac
 -
     id: remorse
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: dos
     unstable_platforms: psx
 -
     id: lzone
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: 'win,mac'
     unstable_platforms: 'macintosh2,fmtowns,pippin'
 -
     id: warlock
     support: good
     notes: '- Japanese version is not yet supported'
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: 'win,mac'
     unstable_platforms: ''
 -
     id: goldenwake
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: 'win,linux,mac'
     unstable_platforms: ''
 -
     id: kathyrain
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: 'win,mac'
     unstable_platforms: ''
 -
     id: resonance
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: sq45
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: sqdote
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: sqinc
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: sqvsb
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: 'win,linux,mac'
     unstable_platforms: ''
 -
     id: amazon
     support: good
     notes: '- English and Spanish versions supported'
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: blueforce
     support: good
     notes: '- English and Spanish versions supported'
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: ringworld
     support: good
     notes: '- English and Spanish versions supported'
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: gk1
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.5.0
     stable_platforms: 'dos,win,mac'
     unstable_platforms: ''
 -
@@ -3996,3 +3982,17 @@
     since_version: DEV
     stable_platforms: 'amiga,dos,fmtowns,mac,pc98'
     unstable_platforms: ''
+-
+    id: monkey4
+    support: bugged
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ps2
+-
+    id: icb
+    support: broken
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: psx
