@@ -21,8 +21,29 @@ class DownloadsModel extends BasicModel
             $sections = [];
             $sectionsData = $this->getSectionData();
             foreach ($parsedData as $data) {
+                // Source and tools should be under the current section
+                // TODO Clean this up when we remove subcategories
+                if ($data->getVersion() == RELEASE) {
+                    $category = 'current';
+                    if ($data->getCategory() == 'source') {
+                        $subCategory = 'source';
+                    } else if ($data->getCategory() == 'tools') {
+                        $subCategory = 'tools';
+                    } else {
+                        $subCategory = 'release';
+                    }
+                } else if ($data->getVersion() == 'Daily') {
+                    $category = 'daily';
+                    $subCategory = 'daily_downloads';
+                } else if ($data->getVersion() == null) {
+                    $category = $data->getCategory();
+                    $subCategory = $data->getSubcategory();
+                } else {
+                    $category = 'legacy';
+                    $subCategory = 'old';
+                }
+
                 // Create Sections
-                $category = $data->getCategory();
                 if (!isset($sections[$category])) {
                     $sections[$category] = new DownloadsSection([
                         'anchor' => $category,
@@ -32,7 +53,6 @@ class DownloadsModel extends BasicModel
                 }
 
                 // Create Subsections
-                $subCategory = $data->getSubcategory();
                 if (!isset($sections[$category]->getSubSections()[$subCategory])) {
                     $sections[$category]->addSubsection(new DownloadsSection([
                         'anchor' => $subCategory,
