@@ -5,6 +5,7 @@ namespace ScummVM\Models;
 use ScummVM\Objects\DownloadsSection;
 use DeviceDetector\Parser\OperatingSystem as OsParser;
 use ScummVM\OrmObjects\DownloadQuery;
+use Propel\Runtime\ActiveQuery\Criteria;
 
 /**
  * The DownloadsModel will produce DownloadsSection objects.
@@ -17,6 +18,7 @@ class DownloadsModel extends BasicModel
         $sections = $this->getFromCache();
         if (is_null($sections)) {
             $parsedData = DownloadQuery::create()
+                ->orderByVersion(Criteria::DESC) // Newest first
                 ->findByEnabled(true);
             $sections = [];
             $sectionsData = $this->getSectionData();
