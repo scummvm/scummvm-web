@@ -21,7 +21,7 @@ class Download extends BaseDownload
         $version = $this->getVersion();
         // If it's not the latest version, prefix with the version number
         if ($version != RELEASE) {
-            return "$version $name";
+            return str_replace('{$version}', $version, "$version $name");
         }
         return $name;
     }
