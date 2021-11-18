@@ -16,9 +16,9 @@ class File extends BasicObject
         parent::__construct($data);
         $this->category_icon = $data['category_icon'];
         $this->extra_info = $data['extra_info'] ?? null;
+        $this->subcategory = $data['subcategory'] ?? null;
         $this->user_agent = isset($data["user_agent"]) ? $data["user_agent"] : "";
-
-        $fname = "";
+        $this->version = strtolower($data['version'] ?? null);
 
         /* If it's not an array, we didn't get any attributes. */
         if (!is_array($data['url'])) {
@@ -29,18 +29,23 @@ class File extends BasicObject
             $attributes = $data['url']['@attributes'];
         }
 
-        if (!preg_match('/^((https?)|(ftp)):\/\//', $url)) {
-            if ($baseUrl !== null) {
-                $url = $baseUrl . $url;
+        if (preg_match('/^((https?)|(ftp)):\/\//', $url)) {
+            // If the URL is given, keep it as is
+            $this->url = $url;
+        } else {
+            // Construct the URL based on its type
+            if ($this->version == 'daily') {
+                $fname = DOWNLOADS_DAILY_URL . $url;
+            } elseif ($this->subcategory == 'tools') {
+                $fname = DOWNLOADS_TOOLS_URL . $url;
+            } elseif (str_starts_with($url, '/frs') || str_starts_with($url, 'http')) {
+                $fname = $url;
             } else {
-                $url = DOWNLOADS_URL . $url;
+                $fname = DOWNLOADS_URL . $url;
             }
+            $fname = str_replace('{$version}', "$this->version", $fname);
 
-            $fname = "." . $url;
-            $fname = str_replace('{$release}', RELEASE, $fname);
-            $fname = str_replace('{$release_tools}', RELEASE_TOOLS, $fname);
-            $fname = str_replace('./frs', DIR_FRS, $fname);
-
+            // If the file is on this server, we can check file size etc.
             if (is_file($fname) && is_readable($fname)) {
                 $this->extra_info = array();
                 $sz = round((@filesize($fname) / 1024));
@@ -77,8 +82,8 @@ class File extends BasicObject
                 $this->extra_info['ext'] = $ext;
                 $this->extra_info['msg'] = $data['extra_msg'];
             }
+            $this->url = $fname;
         }
-        $this->url = $url;
         /**
          * Get the filesize/last modified information and put it in
          * $this->extra_info.

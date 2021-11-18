@@ -21,8 +21,29 @@ class DownloadsModel extends BasicModel
             $sections = [];
             $sectionsData = $this->getSectionData();
             foreach ($parsedData as $data) {
+                // Source and tools should be under the current section
+                // TODO Clean this up when we remove subcategories
+                if ($data->getVersion() == RELEASE) {
+                    $category = 'current';
+                    if ($data->getCategory() == 'source') {
+                        $subCategory = 'source';
+                    } elseif ($data->getCategory() == 'tools') {
+                        $subCategory = 'tools';
+                    } else {
+                        $subCategory = 'release';
+                    }
+                } elseif ($data->getVersion() == 'Daily') {
+                    $category = 'daily';
+                    $subCategory = 'daily_downloads';
+                } elseif ($data->getVersion() == null) {
+                    $category = $data->getCategory();
+                    $subCategory = $data->getSubcategory();
+                } else {
+                    $category = 'legacy';
+                    $subCategory = 'old';
+                }
+
                 // Create Sections
-                $category = $data->getCategory();
                 if (!isset($sections[$category])) {
                     $sections[$category] = new DownloadsSection([
                         'anchor' => $category,
@@ -32,7 +53,6 @@ class DownloadsModel extends BasicModel
                 }
 
                 // Create Subsections
-                $subCategory = $data->getSubcategory();
                 if (!isset($sections[$category]->getSubSections()[$subCategory])) {
                     $sections[$category]->addSubsection(new DownloadsSection([
                         'anchor' => $subCategory,
@@ -85,11 +105,15 @@ class DownloadsModel extends BasicModel
             ->setIgnoreCase(true)
             ->findByUserAgent($os['name']);
 
-        foreach ($downloads as $download) {
-            $url = str_replace('{$release}', RELEASE, $download->getURL());
-            sscanf($url, "/frs/scummvm/%s", $versionStr);
-            $version = substr($versionStr, 0, strpos($versionStr, "/"));
+        if (!empty($downloads)) {
+            $download = $downloads[0];
+
             $name = strip_tags($download->getName());
+            // Construct the URL and fill in the version
+            $url = DOWNLOADS_BASE . DOWNLOADS_URL . $download->getURL();
+            $version = $download->getVersion();
+            $url = str_replace('{$version}', $version, $url);
+
             $data = ""; //$download->getExtraInfo();
             if (is_array($data)) {
                 $extra_text = $data['size'] . " ";
