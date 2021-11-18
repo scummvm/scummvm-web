@@ -27,15 +27,15 @@ class DownloadsModel extends BasicModel
                     $category = 'current';
                     if ($data->getCategory() == 'source') {
                         $subCategory = 'source';
-                    } else if ($data->getCategory() == 'tools') {
+                    } elseif ($data->getCategory() == 'tools') {
                         $subCategory = 'tools';
                     } else {
                         $subCategory = 'release';
                     }
-                } else if ($data->getVersion() == 'Daily') {
+                } elseif ($data->getVersion() == 'Daily') {
                     $category = 'daily';
                     $subCategory = 'daily_downloads';
-                } else if ($data->getVersion() == null) {
+                } elseif ($data->getVersion() == null) {
                     $category = $data->getCategory();
                     $subCategory = $data->getSubcategory();
                 } else {
