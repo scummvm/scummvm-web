@@ -1405,6 +1405,6 @@
     },
     "20211118": {
         "title": "Seek the truth",
-        "content": "After more than [10 years of development](https://www.alexbevi.com/blog/2021/05/19/scummvm-asylum-engine/), the ScummVM Team is pleased to announce support for the psychological-horror adventure game *Sanitarium*.\nGrab your CD version or a digital release and immerse yourself in a story full of nightmares and mysteries.\nIf you don't own the game we have a [demo](/demos/asylum/asylum-demo.zip) available.\nYou will need the latest [daily build](/downloads/#daily). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/)."
+        "content": "After more than [10 years of development](https://www.alexbevi.com/blog/2021/05/19/scummvm-asylum-engine/), the ScummVM Team is pleased to announce support for the psychological-horror adventure game *Sanitarium*.\n\nGrab your CD version or a digital release and immerse yourself in a story full of nightmares and mysteries.\n\nIf you don't own the game we have a [demo](/demos/asylum/asylum-demo.zip) available.\n\nYou will need the latest [daily build](/downloads/#daily). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/)."
     }
 }
