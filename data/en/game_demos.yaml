@@ -1535,6 +1535,16 @@
     category: ''
     url: /frs/demos/scumm/samnmax-mac-demo-en.zip
 -
+    id: sanitarium
+    platform: win
+    category: ''
+    url: /frs/demos/asylum/asylum-demo.zip
+-
+    id: sanitarium
+    platform: win
+    category: Alternative
+    url: /frs/demos/asylum/asylum-demo2.zip
+-
     id: scalpel
     platform: dos
     category: ''

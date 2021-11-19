@@ -366,7 +366,7 @@
 -
     id: sky
     support: bugged
-    notes: '- Requires the sky.cpt resource file to be placed in the game directory - Random crashes have been reported  - Floppy demos aren''t supported - The following bugs are present in the original game and can''t be fixed:   - The voice files for some sentences are missing.     - This is especially noticeable in the court- and Mrs. Piermont sequence.   - The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders   - Special characters for french and italian subtitles are incorrect sometimes'
+    notes: '- Requires the sky.cpt resource file to be placed in the game directory - Random crashes have been reported  - Floppy demos aren''t supported - The following bugs are present in the original game and can''t be fixed:   - The voice files for some sentences are missing.   - This is especially noticeable in the court- and Mrs. Piermont sequence.   - The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders   - Special characters for french and italian subtitles are incorrect sometimes'
     since_version: 0.5.0
     stable_platforms: dos
     unstable_platforms: amiga
@@ -492,7 +492,7 @@
 -
     id: sky
     support: excellent
-    notes: '- Requires the sky.cpt resource file to be placed in the game directory - Floppy demos aren''t supported - The following bugs are present in the original game and can''t be fixed:   - The voice files for some sentences are missing.     - This is especially noticeable in the court- and Mrs. Piermont sequence.   - The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders   - Special characters for french and italian subtitles are incorrect sometimes'
+    notes: '- Requires the sky.cpt resource file to be placed in the game directory - Floppy demos aren''t supported - The following bugs are present in the original game and can''t be fixed:   - The voice files for some sentences are missing.   - This is especially noticeable in the court- and Mrs. Piermont sequence.   - The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders   - Special characters for french and italian subtitles are incorrect sometimes'
     since_version: 0.6.0
     stable_platforms: dos
     unstable_platforms: amiga
@@ -2858,7 +2858,7 @@
 -
     id: sky
     support: excellent
-    notes: '- Floppy demos aren''t supported - The following bugs are present in the original game and can''t be fixed:   - The voice files for some sentences are missing.     - This is especially noticeable in the court- and Mrs. Piermont sequence.   - The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders   - Special characters for french and italian subtitles are incorrect sometimes'
+    notes: '- Floppy demos aren''t supported - The following bugs are present in the original game and can''t be fixed:   - The voice files for some sentences are missing.   - This is especially noticeable in the court- and Mrs. Piermont sequence.   - The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders   - Special characters for french and italian subtitles are incorrect sometimes'
     since_version: 1.6.0
     stable_platforms: dos
     unstable_platforms: amiga
@@ -3996,3 +3996,10 @@
     since_version: DEV
     stable_platforms: win
     unstable_platforms: psx
+-
+    id: sanitarium
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''

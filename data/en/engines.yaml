@@ -25,6 +25,11 @@
     alt_name: 'Adventure Game Studio'
     enabled: true
 -
+    id: asylum
+    name: Sanitarium
+    alt_name: ''
+    enabled: true
+-
     id: avalanche
     name: Avalanche
     alt_name: ''
@@ -289,11 +294,6 @@
     name: SAGA
     alt_name: 'Scripts for Animated Graphic Adventures'
     enabled: true
--
-    id: asylum
-    name: Sanitarium
-    alt_name: ''
-    enabled: false
 -
     id: sci
     name: SCI
