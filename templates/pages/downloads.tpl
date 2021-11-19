@@ -24,7 +24,6 @@
             <ul>
                 <li>{#downloadsContentP2#|release}</li>
                 <li>{#downloadsContentP3#}</li>
-                <li>{#downloadsContentP4#}</li>
             </ul>
         </div>
     </div>
