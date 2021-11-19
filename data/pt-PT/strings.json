@@ -155,7 +155,7 @@
   "menuMiscCredits": "Créditos",
   "menuHeaderDevelopmentDevelopment": "Desenvolvimento",
   "menuDevelopmentBugTracker": "Relatar Erros",
-  "menuDevelopmentPatchTracker": "Relatar correções",
+  "menuDevelopmentPullRequests": "",
   "menuDevelopmentTranslations": "Traduzir o ScummVM",
   "menuDevelopmentDailies": "Compilações Diárias",
   "menuDevelopmentSourceCode": "Código Fonte",

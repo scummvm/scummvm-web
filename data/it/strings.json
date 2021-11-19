@@ -135,7 +135,7 @@
     "menuMiscCredits": "Credits",
     "menuHeaderDevelopmentDevelopment": "Sviluppo",
     "menuDevelopmentBugTracker": "Bug Tracker",
-    "menuDevelopmentPatchTracker": "Patch Tracker",
+    "menuDevelopmentPullRequests": "",
     "menuDevelopmentTranslations": "Traduci ScummVM",
     "menuDevelopmentDailies": "Build giornalieri",
     "menuDevelopmentSourceCode": "Codice Sorgente",

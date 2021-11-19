@@ -31,7 +31,7 @@
       href: 'https://wiki.scummvm.org/index.php?title=Developer_Central'
     - name: '{#menuDevelopmentBugTracker#}'
       href: 'https://bugs.scummvm.org/'
-    - name: '{#menuDevelopmentPatchTracker#}'
+    - name: '{#menuDevelopmentPullRequests#}'
       href: 'https://github.com/scummvm/scummvm/pulls'
     - name: '{#menuDevelopmentTranslations#}'
       href: 'https://translations.scummvm.org/projects/scummvm/scummvm/'
