@@ -41,7 +41,6 @@ $oldLangs = [
   "fr_FR" => "fr",
   "he_IL" => "he",
   "it_IT" => "it",
-  "pl_PL" => "pl",
   "pt_BR" => "pt-BR",
   "pt_PT" => "pt-PT",
   "ru_RU" => "ru"
