@@ -148,7 +148,7 @@
   "menuMiscCredits": "נקודות זכות",
   "menuHeaderDevelopmentDevelopment": "התפתחות",
   "menuDevelopmentBugTracker": "מעקב באגים",
-  "menuDevelopmentPatchTracker": "מעקב אחר טלאים",
+  "menuDevelopmentPullRequests": "",
   "menuDevelopmentTranslations": "תרגם ScummVM",
   "menuDevelopmentDailies": "תמונות יומי",
   "menuDevelopmentSourceCode": "עץ קוד המקור",

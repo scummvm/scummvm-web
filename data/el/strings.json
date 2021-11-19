@@ -148,7 +148,7 @@
     "menuMiscCredits": "Συντελεστές",
     "menuHeaderDevelopmentDevelopment": "Ανάπτυξη",
     "menuDevelopmentBugTracker": "Αναφορές Προβλημάτων",
-    "menuDevelopmentPatchTracker": "Αιτήματα Συγχώνευσης Κώδικα",
+    "menuDevelopmentPullRequests": "",
     "menuDevelopmentTranslations": "Μετάφραση του ScummVM",
     "menuDevelopmentDailies": "Ημερήσιες Εκδόσεις",
     "menuDevelopmentSourceCode": "Δένδρο Πηγαίου Κώδικα",

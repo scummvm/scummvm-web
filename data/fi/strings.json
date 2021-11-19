@@ -164,7 +164,7 @@
     "menuMiscCredits": "Tunnustuksellisuudet",
     "menuHeaderDevelopmentDevelopment": "Kehitystyö",
     "menuDevelopmentBugTracker": "Virheenseuranta",
-    "menuDevelopmentPatchTracker": "Paikkausten seuranta",
+    "menuDevelopmentPullRequests": "",
     "menuDevelopmentTranslations": "Suomenna ScummVM",
     "menuDevelopmentDailies": "Päivittäiset kokoomat",
     "menuDevelopmentSourceCode": "Lähdekoodipuu",

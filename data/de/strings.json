@@ -141,7 +141,7 @@
     "menuMiscCredits": "Mitwirkende",
     "menuHeaderDevelopmentDevelopment": "Entwicklung",
     "menuDevelopmentBugTracker": "Fehlerberichte",
-    "menuDevelopmentPatchTracker": "Code beitragen",
+    "menuDevelopmentPullRequests": "",
     "menuDevelopmentTranslations": "ScummVM übersetzen",
     "menuDevelopmentDailies": "Entwickler-Versionen",
     "menuDevelopmentSourceCode": "Quellcode-Verzeichnis",

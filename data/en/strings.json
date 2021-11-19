@@ -162,7 +162,7 @@
   "menuMiscCredits": "Credits",
   "menuHeaderDevelopmentDevelopment": "Development",
   "menuDevelopmentBugTracker": "Bug Tracker",
-  "menuDevelopmentPatchTracker": "Patch Tracker",
+  "menuDevelopmentPullRequests": "Pull Requests",
   "menuDevelopmentTranslations": "Translate ScummVM",
   "menuDevelopmentDailies": "Daily Builds",
   "menuDevelopmentSourceCode": "Source Code Tree",

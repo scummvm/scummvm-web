@@ -146,7 +146,7 @@
     "menuMiscCredits": "Créditos",
     "menuHeaderDevelopmentDevelopment": "Desarrollo",
     "menuDevelopmentBugTracker": "Gestor de fallos",
-    "menuDevelopmentPatchTracker": "Gestor de parches",
+    "menuDevelopmentPullRequests": "",
     "menuDevelopmentTranslations": "Traducir ScummVM",
     "menuDevelopmentDailies": "Compilaciones diarias",
     "menuDevelopmentSourceCode": "Código fuente",
