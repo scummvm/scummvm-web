@@ -1402,5 +1402,8 @@
     "20120629": {
         "content": "Une fois de plus, il est temps de commencer une nouvelle période de tests pour préparer la sortie de ScummVM v1.5.0. Comme d'habitude, plusieurs nouveaux jeux supportés sont maintenant annoncés :\n\n*   *Backyard Baseball 2003*\n*   *Blue Force*\n*   *Darby the Dragon*\n*   *Dreamweb*\n*   *Geisha*\n*   *Gregory and the Hot Air Balloon*\n*   *Contes magiques : Liam trouve une histoire*\n*   *Once Upon A Time : Le Petit Chaperon Rouge*\n*   *Sleeping Cub's Test of Courage*\n*   *Soltys*\n*   *The Princess and the Crab*\n\nAlors, allez chercher vos jeux préférés et jouez-y en utilisant une [compilation quotidienne](/downloads/#daily). Soltys est également disponible en tant que freeware sur notre [page de téléchargement](/downloads/#extras). Si vous trouvez des bogues, signalez-les sur le [bug tracker](http://bugs.scummvm.org/). Une fois que vous avez terminé un jeu, veuillez le signaler sur [les forums](http://forums.scummvm.org/viewtopic.php?p=73072) afin qu'il puisse être ajouté à la [page wiki de test de version](http://wiki.scummvm.org/index.php/Release_Testing/1.5.0). Lors du signalement, assurez-vous de renseigner la version, la langue et la plate-forme du jeu que vous testez. Vous avez d'autres questions ? Consultez les [directives relatives aux tests de versions](http://wiki.scummvm.org/index.php/Release_Testing).",
         "title": "Début des tests de la nouvelle version : ScummVM 1.5.0"
+    },
+    "20211118": {
+        "title": "Cherche la vérité"
     }
 }
