@@ -1404,6 +1404,7 @@
         "title": "Début des tests de la nouvelle version : ScummVM 1.5.0"
     },
     "20211118": {
-        "title": "Cherche la vérité"
+        "title": "Cherche la vérité",
+        "content": "Après plus de [10 ans de développement](https://www.alexbevi.com/blog/2021/05/19/scummvm-asylum-engine/), l'équipe de ScummVM est heureuse d'annoncer la prise en charge du jeu d'aventure d'horreur psychologique *Sanitarium*.\n\nRécupérez votre version CD ou une version numérique et plongez dans une histoire pleine de cauchemars et de mystères.\n\nSi vous ne possédez pas le jeu, une [démo](/demos/asylum/asylum-demo.zip) est disponible sur notre site.\n\nVous aurez besoin de la dernière [compilation quotidienne](/downloads/#daily). Comme toujours, merci de soumettre les rapports de bogues à notre [issue tracker](https://bugs.scummvm.org/)."
     }
 }
