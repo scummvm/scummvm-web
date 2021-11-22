@@ -108,7 +108,7 @@ class DownloadsModel extends BasicModel
             ->findByUserAgent($os['name']);
 
         // If we found a user agent for this platform, then generate a download link
-        if (!empty($downloads) && ($downloads[0] !== null )) {
+        if (!empty($downloads) && ($downloads[0] !== null)) {
             $download = $downloads[0];
 
             $name = strip_tags($download->getName());
