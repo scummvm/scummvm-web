@@ -29,6 +29,10 @@ class DownloadsSection extends BasicSection
     {
         if ($item->getCategoryIcon()) {
             $this->items[] = new File($item->toArray(TableMap::TYPE_FIELDNAME), '');
+            // Sort items by version, descending
+            usort($this->items, function ($a, $b) {
+                return -version_compare($a->version, $b->version);
+            });
         } else {
             $this->items[] = new WebLink($item->toArray(TableMap::TYPE_FIELDNAME));
         }
