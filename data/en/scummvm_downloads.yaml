@@ -1330,16 +1330,6 @@
     name: 'ScummVM Daily Build - Windows Installer'
     description: 'Provided by ScummVM Team member Lothar Serra Mari, updated several times  daily'
 -
-    enabled: true
-    category: scummvm
-    subcategory: daily_downloads
-    category_icon: windows
-    user_agent: ''
-    version: Daily
-    url: scummvm-tools-snapshot-win32.zip
-    name: 'Tools Daily Build - Windows zipfile'
-    description: 'Provided by ScummVM Team member Lothar Serra Mari, updated several times  daily'
--
     enabled: false
     category: scummvm
     subcategory: daily_downloads
@@ -1347,7 +1337,7 @@
     user_agent: ''
     version: Daily
     url: scummvm_debian_i386.deb
-    name: 'Debian i386 ScummVM Daily Build'
+    name: 'ScummVM Daily Build - Debian i386'
     description: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
 -
     enabled: false
@@ -1357,7 +1347,7 @@
     user_agent: ''
     version: Daily
     url: scummvm_debian_amd64.deb
-    name: 'Debian x86_64 ScummVM Daily Build'
+    name: 'ScummVM Daily Build - Debian x86_64'
     description: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
 -
     enabled: false
@@ -1367,7 +1357,7 @@
     user_agent: ''
     version: Daily
     url: scummvm_ubuntu_i386.deb
-    name: 'Ubuntu i386 ScummVM Daily Build'
+    name: 'ScummVM Daily Build - Ubuntu i386'
     description: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
 -
     enabled: false
@@ -1377,7 +1367,7 @@
     user_agent: ''
     version: Daily
     url: scummvm_ubuntu_amd64.deb
-    name: 'Ubuntu x86_64 ScummVM Daily Build'
+    name: 'ScummVM Daily Build - Ubuntu x86_64'
     description: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
 -
     enabled: true
@@ -1387,7 +1377,7 @@
     user_agent: ''
     version: Daily
     url: 'https://buildbot.scummvm.org/#/dailybuilds'
-    name: 'Daily builds for other platforms'
+    name: 'ScummVM Daily Builds for other platforms'
     description: 'Provided by our buildbot'
 -
     enabled: true
@@ -1397,8 +1387,18 @@
     user_agent: ''
     version: Daily
     url: 'https://github.com/scummvm/scummvm'
-    name: 'Git Repository'
+    name: 'ScummVM Git Repository'
     description: '(for if you wish to retrieve the latest code to compile yourself)'
+-
+    enabled: true
+    category: scummvm
+    subcategory: daily_downloads
+    category_icon: windows
+    user_agent: ''
+    version: Daily
+    url: scummvm-tools-snapshot-win32.zip
+    name: 'Tools Daily Build - Windows zipfile'
+    description: 'Provided by ScummVM Team member Lothar Serra Mari, updated several times  daily'
 -
     enabled: true
     category: libs
