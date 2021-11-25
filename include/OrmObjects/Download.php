@@ -19,8 +19,8 @@ class Download extends BaseDownload
     {
         $name = parent::getName();
         $version = $this->getVersion();
-        // If it's not the latest version, prefix with the version number
-        if ($version != RELEASE) {
+        // If it's not the latest version and not daily, prefix with the version number
+        if ($version != RELEASE && $version != 'Daily') {
             return str_replace('{$version}', $version, "$version $name");
         }
         return $name;
