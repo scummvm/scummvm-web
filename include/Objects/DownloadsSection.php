@@ -29,8 +29,8 @@ class DownloadsSection extends BasicSection
     {
         if ($item->getCategoryIcon()) {
             $this->items[] = new File($item->toArray(TableMap::TYPE_FIELDNAME), '');
-            // If this item is an old version, sort all items by version, descending
-            if ($item->getVersion() !== RELEASE && $item->getVersion() !== 'Daily') {
+            // If this item is for an old version, sort all items by version, descending
+            if ($this->hasOldVersion($item)) {
                 usort($this->items, function ($a, $b) {
                     return -version_compare($a->version, $b->version);
                 });
@@ -60,5 +60,10 @@ class DownloadsSection extends BasicSection
     public function addSubsection($section)
     {
         $this->subsections[$section->getAnchor()] = $section;
+    }
+
+    private function hasOldVersion($item)
+    {
+        return method_exists($item, 'getVersion') && $item->getVersion() !== RELEASE && $item->getVersion() !== 'Daily';
     }
 }
