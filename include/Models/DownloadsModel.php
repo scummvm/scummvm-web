@@ -18,8 +18,7 @@ class DownloadsModel extends BasicModel
         $sections = $this->getFromCache();
         if (is_null($sections)) {
             $parsedData = DownloadQuery::create()
-                ->orderByVersion(Criteria::DESC) // Newest first
-                ->findByEnabled(true);
+                    ->findByEnabled(true);
             $sections = [];
             $sectionsData = $this->getSectionData();
             foreach ($parsedData as $data) {
