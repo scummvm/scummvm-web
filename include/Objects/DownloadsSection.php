@@ -29,10 +29,12 @@ class DownloadsSection extends BasicSection
     {
         if ($item->getCategoryIcon()) {
             $this->items[] = new File($item->toArray(TableMap::TYPE_FIELDNAME), '');
-            // Sort items by version, descending
-            usort($this->items, function ($a, $b) {
-                return -version_compare($a->version, $b->version);
-            });
+            // If this item is an old version, sort all items by version, descending
+            if ($item->getVersion() !== RELEASE && $item->getVersion() !== 'Daily') {
+                usort($this->items, function ($a, $b) {
+                    return -version_compare($a->version, $b->version);
+                });
+            }
         } else {
             $this->items[] = new WebLink($item->toArray(TableMap::TYPE_FIELDNAME));
         }
