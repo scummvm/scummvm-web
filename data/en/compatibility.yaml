@@ -4003,3 +4003,10 @@
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
+-
+    id: toon
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''

@@ -1027,7 +1027,7 @@
     user_agent: ''
     version: 2.5.0
     url: 'scummvm-{$version}.tar.lz'
-    name: 'ScummVM - Source .tar.lz'
+    name: 'ScummVM - Source.tar.lz'
     description: ''
 -
     enabled: true
@@ -1037,7 +1037,7 @@
     user_agent: ''
     version: 2.5.0
     url: 'scummvm-{$version}.tar.xz'
-    name: 'ScummVM - Source .tar.xz'
+    name: 'ScummVM - Source.tar.xz'
     description: ''
 -
     enabled: true
@@ -1047,7 +1047,7 @@
     user_agent: ''
     version: 2.5.0
     url: 'scummvm-{$version}.tar.bz2'
-    name: 'ScummVM - Source .tar.bz2'
+    name: 'ScummVM - Source.tar.bz2'
     description: ''
 -
     enabled: true
@@ -1057,7 +1057,7 @@
     user_agent: ''
     version: 2.5.0
     url: 'scummvm-{$version}.tar.gz'
-    name: 'ScummVM - Source .tar.gz'
+    name: 'ScummVM - Source.tar.gz'
     description: ''
 -
     enabled: true
@@ -1067,7 +1067,7 @@
     user_agent: ''
     version: 2.5.0
     url: 'scummvm-{$version}.zip'
-    name: 'ScummVM - Source .zip'
+    name: 'ScummVM - Source.zip'
     description: ''
 -
     enabled: false
@@ -1260,6 +1260,16 @@
     name: 'Tools - IRIX (6.5.{$version}, n32, mips4) package'
     description: ''
 -
+    enabled: false
+    category: tools
+    subcategory: tools
+    category_icon: beos
+    user_agent: ''
+    version: 2.5.0
+    url: 'scummvm-tools-{$version}-beos.tgz'
+    name: 'Tools - BeOS'
+    description: ''
+-
     enabled: true
     category: tools
     subcategory: tools
@@ -1267,7 +1277,7 @@
     user_agent: ''
     version: 2.5.0
     url: 'scummvm-tools-{$version}.tar.lz'
-    name: 'Tools - Source .tar.lz'
+    name: 'Tools - Source.tar.lz'
     description: ''
 -
     enabled: true
@@ -1277,7 +1287,7 @@
     user_agent: ''
     version: 2.5.0
     url: 'scummvm-tools-{$version}.tar.xz'
-    name: 'Tools - Source .tar.xz'
+    name: 'Tools - Source.tar.xz'
     description: ''
 -
     enabled: true
@@ -1287,7 +1297,7 @@
     user_agent: ''
     version: 2.5.0
     url: 'scummvm-tools-{$version}.tar.bz2'
-    name: 'Tools - Source .tar.bz2'
+    name: 'Tools - Source.tar.bz2'
     description: ''
 -
     enabled: true
@@ -1297,7 +1307,7 @@
     user_agent: ''
     version: 2.5.0
     url: 'scummvm-tools-{$version}.tar.gz'
-    name: 'Tools - Source .tar.gz'
+    name: 'Tools - Source.tar.gz'
     description: ''
 -
     enabled: true
@@ -1307,17 +1317,7 @@
     user_agent: ''
     version: 2.5.0
     url: 'scummvm-tools-{$version}.zip'
-    name: 'Tools - Source .zip'
-    description: ''
--
-    enabled: false
-    category: tools
-    subcategory: tools
-    category_icon: beos
-    user_agent: ''
-    version: 2.5.0
-    url: 'scummvm-tools-{$version}-beos.tgz'
-    name: 'Tools - BeOS'
+    name: 'Tools - Source.zip'
     description: ''
 -
     enabled: true
