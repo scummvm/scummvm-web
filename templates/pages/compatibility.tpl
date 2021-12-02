@@ -62,9 +62,9 @@
     <caption>{'/\x7bcompany\x7d/'|preg_replace:$company:#compatibilitySectionTitle#}</caption>
     <thead>
         <tr class="color4">
-            <th class="gameFullName">{#compatibilityDetailsChartCol1#}</th>
-            <th class="gameShortName">{#compatibilityDetailsChartCol2#}</th>
-            <th class="gameSupportLevel">{#compatibilityDetailsChartCol4#}</th>
+            <th class="gameFullName">{#compatibilityDetailsChartColGameFullName#}</th>
+            <th class="gameShortName">{#compatibilityDetailsChartColGameShortName#}</th>
+            <th class="gameSupportLevel">{#compatibilityDetailsChartColSupportLevel#}</th>
         </tr>
     </thead>
     <tbody>
