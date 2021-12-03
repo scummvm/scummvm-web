@@ -141,7 +141,7 @@
     "menuHeaderDevelopmentDevelopment": "Développement",
     "menuDevelopmentBugTracker": "Base de Bogue",
     "menuDevelopmentPullRequests": "Pull Requests",
-    "menuDevelopmentTranslations": "Traduire ScummVM",
+    "menuDevelopmentTranslations": "Traductions",
     "menuDevelopmentDailies": "Compilations quotidiennes",
     "menuDevelopmentSourceCode": "Code source",
     "menuDevelopmentBuildbot": "Buildbot",
@@ -172,5 +172,6 @@
     "menuMiscDirectorDemos": "Démos Director",
     "directorDemosContentTitle": "Démos Director",
     "directorDemosTitle": "Démos Director",
-    "downloadsDailyNote3": "Consultez le journal des modifications pour connaitre les dernières mises à jour de ScummVM."
+    "downloadsDailyNote3": "Consultez le journal des modifications pour connaitre les dernières mises à jour de ScummVM.",
+    "compatibilityDetailsDetails": "Détails"
 }
