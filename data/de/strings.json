@@ -139,7 +139,7 @@
     "menuHeaderDevelopmentDevelopment": "Entwicklung",
     "menuDevelopmentBugTracker": "Fehlerberichte",
     "menuDevelopmentPullRequests": "Pull-Requests",
-    "menuDevelopmentTranslations": "ScummVM übersetzen",
+    "menuDevelopmentTranslations": "Übersetzungen",
     "menuDevelopmentDailies": "Entwickler-Versionen",
     "menuDevelopmentSourceCode": "Quellcode-Verzeichnis",
     "menuDevelopmentBuildbot": "Buildbot",
@@ -172,5 +172,6 @@
     "menuMiscDirectorDemos": "Director-Demos",
     "directorDemosContentTitle": "Director-Demos",
     "directorDemosTitle": "Director-Demos",
-    "downloadsDailyNote3": "Eine Übersicht der letzten Änderungen finden Sie im Changelog von ScummVM."
+    "downloadsDailyNote3": "Eine Übersicht der letzten Änderungen finden Sie im Changelog von ScummVM.",
+    "compatibilityDetailsDetails": "Details"
 }
