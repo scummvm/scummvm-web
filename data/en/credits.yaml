@@ -715,7 +715,7 @@
         alias: "jvprat"
         description: ""
     -
-      name: "Hades' Challenge"
+      name: "Hades Challenge"
       person:
       -
         name: "Vladimir Serbinenko/Google"
@@ -1655,6 +1655,10 @@
         alias: "dreammaster"
         description: ""
       -
+        name: "Benoit Pierre"
+        alias: "benoit-pierre"
+        description: ""
+      -
         name: "David Goldsmith"
         alias: "WizardStan"
         description: "(analysis)"
@@ -2538,6 +2542,21 @@
         name: "Thierry Crozat"
         alias: "criezy"
         description: "Improve English translation"
+    -
+      name: "Prince"
+      person:
+      -
+        name: "???"
+        alias: "ShinjiGR"
+        description: "English translation"
+      -
+        name: "Eugene Sandulenko"
+        alias: "sev"
+        description: "English translation"
+      -
+        name: "Anna Baldur"
+        alias: "Balduranne"
+        description: "English translation"
     -
       name: "Supernova"
       person:
