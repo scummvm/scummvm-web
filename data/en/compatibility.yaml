@@ -4010,3 +4010,10 @@
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: ''
+-
+    id: hadesch
+    support: good
+    notes: 'Minotaur, Troy and Medusa minigames are skipped'
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''

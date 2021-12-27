@@ -5,267 +5,312 @@
     major: '99'
     minor: '99'
     patch: '99'
+    name: ''
 -
     id: 0.1.0
     release_date: 'January 13, 2002'
     major: '0'
     minor: '1'
     patch: '0'
+    name: ''
 -
     id: 0.2.0
     release_date: 'May 14, 2002'
     major: '0'
     minor: '2'
     patch: '0'
+    name: ''
 -
     id: 0.3.0
     release_date: 'December 1, 2002'
     major: '0'
     minor: '3'
     patch: '0'
+    name: ''
 -
     id: 0.4.0
     release_date: 'May 11, 2003'
     major: '0'
     minor: '4'
     patch: '0'
+    name: ''
 -
     id: 0.4.1
     release_date: 'May 25, 2003'
     major: '0'
     minor: '4'
     patch: '1'
+    name: ''
 -
     id: 0.5.0
     release_date: 'August 1, 2003'
     major: '0'
     minor: '5'
     patch: '0'
+    name: ''
 -
     id: 0.5.1
     release_date: 'August 6, 2003'
     major: '0'
     minor: '5'
     patch: '1'
+    name: ''
 -
     id: 0.6.0
     release_date: 'March 15, 2004'
     major: '0'
     minor: '6'
     patch: '0'
+    name: ''
 -
     id: 0.6.1
     release_date: 'July 25, 2004'
     major: '0'
     minor: '6'
     patch: '1'
+    name: ''
 -
     id: 0.7.0
     release_date: 'December 23, 2004'
     major: '0'
     minor: '7'
     patch: '0'
+    name: ''
 -
     id: 0.7.1
     release_date: 'March 27, 2005'
     major: '0'
     minor: '7'
     patch: '1'
+    name: ''
 -
     id: 0.8.0
     release_date: 'October 28, 2005'
     major: '0'
     minor: '8'
     patch: '0'
+    name: ''
 -
     id: 0.8.1
     release_date: 'January 28, 2006'
     major: '0'
     minor: '8'
     patch: '1'
+    name: 'Codename: missing'
 -
     id: 0.8.2
     release_date: 'February 5, 2006'
     major: '0'
     minor: '8'
     patch: '2'
+    name: 'Broken Broken Sword 2'
 -
     id: 0.9.0
     release_date: 'June 21, 2006'
     major: '0'
     minor: '9'
     patch: '0'
+    name: 'The OmniBrain loves you'
 -
     id: 0.9.1
     release_date: 'October 23, 2006'
     major: '0'
     minor: '9'
     patch: '1'
+    name: 'PalmOS revived'
 -
     id: 0.10.0
     release_date: 'June 16, 2007'
     major: '0'
     minor: '10'
     patch: '0'
+    name: 'Tic-tac-toe edition'
 -
     id: 0.11.0
     release_date: 'January 15, 2008'
     major: '0'
     minor: '11'
     patch: '0'
+    name: 'Your Palindrome'
 -
     id: 0.11.1
     release_date: 'February 23, 2008'
     major: '0'
     minor: '11'
     patch: '1'
+    name: 'Fixed exist()nce'
 -
     id: 0.12.0
     release_date: 'September 7, 2008'
     major: '0'
     minor: '12'
     patch: '0'
+    name: '&nbsp;'
 -
     id: 0.13.0
     release_date: 'February 21, 2009'
     major: '0'
     minor: '13'
     patch: '0'
+    name: 'More Guests'
 -
     id: 0.13.1
     release_date: 'April 22, 2009'
     major: '0'
     minor: '13'
     patch: '1'
+    name: 'SAGA returns'
 -
     id: 1.0.0rc1
     release_date: 'August 21, 2009'
     major: '1'
     minor: '0'
     patch: 0rc1
+    name: 'Grog XD'
 -
     id: 1.0.0
     release_date: 'November 7, 2009'
     major: '1'
     minor: '0'
     patch: '0'
+    name: 'Shiny Logo'
 -
     id: 1.1.0
     release_date: 'April 3, 2010'
     major: '1'
     minor: '1'
     patch: '0'
+    name: 'Beta quadrant'
 -
     id: 1.1.1
     release_date: 'April 29, 2010'
     major: '1'
     minor: '1'
     patch: '1'
+    name: 'Better version'
 -
     id: 1.2.0
     release_date: 'October 8, 2010'
     major: '1'
     minor: '2'
     patch: '0'
+    name: 'FaSCInating release'
 -
     id: 1.2.1
     release_date: 'December 11, 2010'
     major: '1'
     minor: '2'
     patch: '1'
+    name: 'Bork Bork Bork'
 -
     id: 1.3.0
     release_date: 'May 24, 2011'
     major: '1'
     minor: '3'
     patch: '0'
+    name: Runner
 -
     id: 1.3.1
     release_date: 'July 12, 2011'
     major: '1'
     minor: '3'
     patch: '1'
+    name: 'All Your Pitches'
 -
     id: 1.4.0
     release_date: 'November 11, 2011'
     major: '1'
     minor: '4'
     patch: '0'
+    name: '10th Anniversary'
 -
     id: 1.4.1
     release_date: 'January 31, 2012'
     major: '1'
     minor: '4'
     patch: '1'
+    name: 'Subwoofer Release'
 -
     id: 1.5.0
     release_date: 'July 27, 2012'
     major: '1'
     minor: '5'
     patch: '0'
+    name: 'Picnic Basket'
 -
     id: 1.6.0
     release_date: 'May 31, 2013'
     major: '1'
     minor: '6'
     patch: '0'
+    name: '+4 to engines'
 -
     id: 1.7.0
     release_date: 'July 23, 2014'
     major: '1'
     minor: '7'
     patch: '0'
+    name: 'The Neverrelease'
 -
     id: 1.8.0
     release_date: 'February 26, 2016'
     major: '1'
     minor: '8'
     patch: '0'
+    name: 'Lost with Sherlock'
 -
     id: 1.8.1
     release_date: 'May 26, 2016'
     major: '1'
     minor: '8'
     patch: '1'
+    name: 'Where Is Your Android?'
 -
     id: 1.9.0
     release_date: 'October 10, 2016'
     major: '1'
     minor: '9'
     patch: '0'
+    name: 'Myst-ery U.F.O.s release'
 -
     id: 2.0.0
     release_date: 'December 8, 2017'
     major: '2'
     minor: '0'
     patch: '0'
+    name: ''
 -
     id: 2.1.0
     release_date: 'October 4, 2019'
     major: '2'
     minor: '1'
     patch: '0'
+    name: 'Electric Sheep'
 -
     id: 2.1.1
     release_date: 'January 17, 2020'
     major: '2'
     minor: '1'
     patch: '1'
+    name: ':More sheep:'
 -
     id: 2.1.2
     release_date: 'March 30, 2020'
     major: '2'
     minor: '1'
     patch: '2'
+    name: 'Fixing Powerful Windows'
 -
     id: 2.2.0
     release_date: 'September 27, 2020'
     major: '2'
     minor: '2'
     patch: '0'
+    name: 'Interactive Fantasy'
 -
     id: 2.5.0
     release_date: 'October 9, 2021'
     major: '2'
     minor: '5'
     patch: '0'
+    name: 'Twenty years ago today…'

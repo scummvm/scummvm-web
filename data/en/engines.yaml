@@ -155,6 +155,11 @@
     alt_name: ''
     enabled: true
 -
+    id: hadesch
+    name: 'Hades'' Challenge'
+    alt_name: ''
+    enabled: true
+-
     id: hdb
     name: 'Hyperspace Delivery Boy!'
     alt_name: ''

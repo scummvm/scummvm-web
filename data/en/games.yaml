@@ -5453,3 +5453,12 @@
     datafiles: ''
     wikipedia_page: 'Space_Quest:_Vohaul_Strikes_Back'
     series_id: ''
+-
+    id: hadesch
+    name: 'Hades Challenge'
+    engine_id: hadesch
+    company_id: disney
+    moby_id: '26769'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Hades_Challenge'
+    wikipedia_page: 'Hercules_(franchise)#Hades_Challenge'
+    series_id: ''

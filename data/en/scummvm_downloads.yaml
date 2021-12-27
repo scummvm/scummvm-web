@@ -1110,7 +1110,7 @@
     name: 'Tools - Mac OS X Intel binaries (10.6 and up)'
     description: ''
 -
-    enabled: false
+    enabled: true
     category: tools
     subcategory: tools
     category_icon: haiku
@@ -1120,7 +1120,7 @@
     name: 'Tools - Haiku package 32 bits package'
     description: ''
 -
-    enabled: false
+    enabled: true
     category: tools
     subcategory: tools
     category_icon: haiku
