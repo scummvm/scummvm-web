@@ -1,5 +1,3 @@
-<script type="text/javascript" src="/js/game_demos.js"></script>
-
 {capture "intro"}
 <div class="row">
     <div class="navigation col-1-2 col-md-1">
@@ -30,14 +28,7 @@
         </thead>
         <tbody>
             {foreach $group.demos as $i => $demo}
-            {if $demo@first}
-            {$collapse = ''}
-            {elseif $group.demos[$i]->getId() == $group.demos[$i-1]->getId()}
-            {$collapse = 'collapse'}
-            {else}
-            {$collapse = ''}
-            {/if}
-            <tr class="{if $collapse}{$collapse} sub{else}{cycle values="color2, color0"}{/if}">
+            <tr class="{cycle values="color2, color0"}">
                 <td>
                     <a href="{$demo->getURL()|download}">{$demo->getTitle()} ({\locale_get_display_language($demo->getLang(), $lang)}/{$demo->getPlatform()->getName()})</a>
                 </td>
