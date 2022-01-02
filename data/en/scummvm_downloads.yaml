@@ -952,30 +952,30 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: freemint
     user_agent: ''
-    version: 2.5.0
+    version: 2.5.1
     url: 'scummvm-{$version}-atari-m68000.zip'
     name: 'Atari/FreeMiNT package (m68000 and up)'
     description: ''
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: freemint
     user_agent: ''
-    version: 2.5.0
+    version: 2.5.1
     url: 'scummvm-{$version}-atari-m68020-60.zip'
     name: 'Atari/FreeMiNT package (m68020 - m68060)'
     description: ''
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: freemint
     user_agent: ''
-    version: 2.5.0
+    version: 2.5.1
     url: 'scummvm-{$version}-atari-m5475.zip'
     name: 'Atari/FreeMiNT package (Coldfire MCF5475 / Firebee)'
     description: ''
