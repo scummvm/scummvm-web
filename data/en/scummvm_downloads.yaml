@@ -1035,7 +1035,7 @@
     subcategory: source
     category_icon: cpp
     user_agent: ''
-    version: 2.5.0
+    version: 2.5.1
     url: 'scummvm-{$version}.tar.lz'
     name: 'ScummVM - Source.tar.lz'
     description: ''
@@ -1045,7 +1045,7 @@
     subcategory: source
     category_icon: cpp
     user_agent: ''
-    version: 2.5.0
+    version: 2.5.1
     url: 'scummvm-{$version}.tar.xz'
     name: 'ScummVM - Source.tar.xz'
     description: ''
@@ -1055,7 +1055,7 @@
     subcategory: source
     category_icon: cpp
     user_agent: ''
-    version: 2.5.0
+    version: 2.5.1
     url: 'scummvm-{$version}.tar.bz2'
     name: 'ScummVM - Source.tar.bz2'
     description: ''
@@ -1065,7 +1065,7 @@
     subcategory: source
     category_icon: cpp
     user_agent: ''
-    version: 2.5.0
+    version: 2.5.1
     url: 'scummvm-{$version}.tar.gz'
     name: 'ScummVM - Source.tar.gz'
     description: ''
@@ -1075,7 +1075,7 @@
     subcategory: source
     category_icon: cpp
     user_agent: ''
-    version: 2.5.0
+    version: 2.5.1
     url: 'scummvm-{$version}.zip'
     name: 'ScummVM - Source.zip'
     description: ''
@@ -1085,7 +1085,7 @@
     subcategory: source
     category_icon: cpp
     user_agent: ''
-    version: 2.5.0
+    version: 1.7.0
     url: 'scummvm-{$version}-2.src.rpm'
     name: 'ScummVM - Source RPM'
     description: ''
