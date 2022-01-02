@@ -1406,5 +1406,9 @@
     "20211118": {
         "title": "Seek the truth",
         "content": "After more than [10 years of development](https://www.alexbevi.com/blog/2021/05/19/scummvm-asylum-engine/), the ScummVM Team is pleased to announce support for the psychological-horror adventure game *Sanitarium*.\n\nGrab your CD version or a digital release and immerse yourself in a story full of nightmares and mysteries.\n\nIf you don't own the game we have a [demo](/demos/asylum/asylum-demo.zip) available.\n\nYou will need the latest [daily build](/downloads/#daily). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/)."
+    },
+    "20220102": {
+        "title": "New year with Californium(*)",
+        "content": "Several months have passed since our monumental 2.5.0 release, and now the ScummVM Team is thrilled to announce the release of the bugfix release, 2.5.1 codenamed “Californium”*.\n\nThe most notable changes are: we added scalers in OpenGL mode (those AdvMame, HQ etc things), fixed several bugs in _The Lost Files of Sherloßck Holmes_, made the sound for _Sam & Max_ more accurate, improved graphics for some Macintosh SCUMM games, implemented more renderers for _The Longest Journey_, made many enhancements to _Little Big Adventure_ and we fixed the dreaded bug on _World of Xeen_ startup.\n\nThe comprehensive list of changes can be found [here](https://downloads.scummvm.org/frs/scummvm/2.5.1/ReleaseNotes.html).\n\nYou may find the download at the usual place on [our downloads page](https://www.scummvm.org/downloads/). Due to a slight delay regarding the release for macOS, the auto-updater will be released within the next couple of days – stay tuned!\n\nEnjoy ScummVM in 2022!\n\n\\* The average atomic mass of Californium (atomic number 98) is 251."
     }
 }
