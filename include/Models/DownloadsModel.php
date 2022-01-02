@@ -24,7 +24,8 @@ class DownloadsModel extends BasicModel
             foreach ($parsedData as $data) {
                 // Source and tools should be under the current section
                 // TODO Clean this up when we remove subcategories
-                if ($data->getVersion() == RELEASE) {
+                // Tools are always go to the current section
+                if ($data->getVersion() == RELEASE || $data->getCategory() == 'tools') {
                     $category = 'current';
                     if ($data->getCategory() == 'source') {
                         $subCategory = 'source';
