@@ -3,6 +3,9 @@
     id: agifan
     name: 'AGI Fan'
 -
+    id: beavisbutthead
+    name: 'Beavis and Butt-Head'
+-
     id: bigthinkers
     name: 'Big Thinkers'
 -
@@ -12,11 +15,17 @@
     id: brain
     name: 'Dr. Brain'
 -
+    id: carmen
+    name: 'Carmen Sandiego'
+-
     id: carol
     name: 'Carol Reed'
 -
     id: conquests
     name: Conquests
+-
+    id: deja_vu
+    name: 'Deja Vu'
 -
     id: disney
     name: 'Disney AGI'
@@ -39,6 +48,9 @@
     id: freddi
     name: 'Freddi Fish'
 -
+    id: gk
+    name: 'Gabriel Knight'
+-
     id: gob
     name: Gobliiins
 -
@@ -56,6 +68,12 @@
 -
     id: indy
     name: 'Indiana Jones'
+-
+    id: journeyman
+    name: 'The Journeyman Project'
+-
+    id: julia
+    name: J.U.L.I.A.
 -
     id: juniorfield
     name: 'Junior Field Trips'
@@ -108,6 +126,12 @@
     id: petka
     name: 'Red Comrades'
 -
+    id: phantasmagoria
+    name: Phantasmagoria
+-
+    id: playtoons
+    name: Playtoons
+-
     id: pq
     name: 'Police Quest'
 -
@@ -135,44 +159,20 @@
     id: sq
     name: 'Space Quest'
 -
-    id: sword
-    name: 'Broken Sword'
--
-    id: ultima
-    name: Ultima
--
-    id: zork
-    name: Zork
--
-    id: playtoons
-    name: Playtoons
--
-    id: gk
-    name: 'Gabriel Knight'
--
     id: startrek
     name: 'Star Trek'
 -
     id: supernova
     name: 'Mission Supernova'
 -
-    id: julia
-    name: J.U.L.I.A.
--
-    id: beavisbutthead
-    name: 'Beavis and Butt-Head'
+    id: sword
+    name: 'Broken Sword'
 -
     id: t7g
     name: 'The 7th Guest'
 -
-    id: deja_vu
-    name: 'Deja Vu'
+    id: ultima
+    name: Ultima
 -
-    id: carmen
-    name: 'Carmen Sandiego'
--
-    id: journeyman
-    name: 'The Journeyman Project'
--
-    id: phantasmagoria
-    name: Phantasmagoria
+    id: zork
+    name: Zork

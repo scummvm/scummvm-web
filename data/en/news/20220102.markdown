@@ -1,0 +1,16 @@
+---
+title: "New year with Californium(*)"
+author: sev, rootfather
+date: 1641143891
+---
+Several months have passed since our monumental 2.5.0 release, and now the ScummVM Team is thrilled to announce the release of the bugfix release, 2.5.1 codenamed “Californium”*.
+
+The most notable changes are: we added scalers in OpenGL mode (those AdvMame, HQ etc things), fixed several bugs in _The Lost Files of Sherloßck Holmes_, made the sound for _Sam & Max_ more accurate, improved graphics for some Macintosh SCUMM games, implemented more renderers for _The Longest Journey_, made many enhancements to _Little Big Adventure_ and we fixed the dreaded bug on _World of Xeen_ startup.
+
+The comprehensive list of changes can be found [here](https://downloads.scummvm.org/frs/scummvm/2.5.1/ReleaseNotes.html).
+
+You may find the download at the usual place on [our downloads page](https://www.scummvm.org/downloads/). Due to a slight delay regarding the release for macOS, the auto-updater will be released within the next couple of days – stay tuned!
+
+Enjoy ScummVM in 2022!
+
+\* The average atomic mass of Californium (atomic number 98) is 251.

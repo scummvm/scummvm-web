@@ -72,12 +72,20 @@
     name: 'Animation Magic'
     alt_name: ''
 -
+    id: anne
+    name: 'Anne Carrière'
+    alt_name: ''
+-
     id: aquin
     name: 'Aquin Design'
     alt_name: ''
 -
     id: arberth
     name: 'Arberth Studios'
+    alt_name: ''
+-
+    id: artbox
+    name: 'Art in the Box'
     alt_name: ''
 -
     id: artech
@@ -160,6 +168,10 @@
     name: 'Channel 8 Software'
     alt_name: ''
 -
+    id: clifftop
+    name: 'Clifftop Games'
+    alt_name: ''
+-
     id: clipper
     name: 'Clipper Software'
     alt_name: ''
@@ -176,6 +188,10 @@
     name: 'Core Design'
     alt_name: ''
 -
+    id: cpcc
+    name: 'California Pacific Computer Company'
+    alt_name: ''
+-
     id: creativedream
     name: 'CreativeDream Studio'
     alt_name: ''
@@ -186,6 +202,10 @@
 -
     id: cryo
     name: 'Cryo Interactive'
+    alt_name: ''
+-
+    id: crystaldynamics
+    name: 'Crystal Dynamics'
     alt_name: ''
 -
     id: cuc
@@ -352,12 +372,20 @@
     name: 'Funhouse Design'
     alt_name: ''
 -
+    id: glk
+    name: 'Interactive Fiction'
+    alt_name: ''
+-
     id: gotgame
     name: 'Got Game Entertainment'
     alt_name: ''
 -
     id: graydesign
     name: 'Gray Design Associates'
+    alt_name: ''
+-
+    id: grundislav
+    name: 'Grundislav Games'
     alt_name: ''
 -
     id: gt
@@ -368,28 +396,112 @@
     name: 'Humongous Entertainment'
     alt_name: ''
 -
+    id: hueforest
+    name: 'Hue Forest Entertainment'
+    alt_name: ''
+-
     id: hungry
     name: 'Hungry Software'
+    alt_name: ''
+-
+    id: ibi
+    name: 'Interactive Binary Illusions'
+    alt_name: ''
+-
+    id: icom
+    name: 'ICOM Simulations'
+    alt_name: ''
+-
+    id: idigicon
+    name: Idigicon
+    alt_name: ''
+-
+    id: igc
+    name: 'The Illusions Gaming Company'
+    alt_name: ''
+-
+    id: indiesquish
+    name: IndieSquish
     alt_name: ''
 -
     id: infocom
     name: Infocom
     alt_name: ''
 -
+    id: infogrames
+    name: Infogrames
+    alt_name: ''
+-
+    id: interlink
+    name: 'Interlink Planning'
+    alt_name: ''
+-
     id: interplay
     name: 'Interplay Productions'
+    alt_name: ''
+-
+    id: invention
+    name: Invention
+    alt_name: ''
+-
+    id: ips
+    name: 'IPS Computer Group'
+    alt_name: ''
+-
+    id: israndom
+    name: 'IsRandomRandom Games'
+    alt_name: ''
+-
+    id: jbush
+    name: 'JBush Productions'
     alt_name: ''
 -
     id: kemco
     name: Kemco
     alt_name: ''
 -
+    id: kirin
+    name: 'Kirin Entertainment'
+    alt_name: ''
+-
+    id: kompart
+    name: 'Kompart UK'
+    alt_name: ''
+-
     id: krumbukt
     name: Krumbukt
     alt_name: ''
 -
+    id: kyilkhor
+    name: 'Kyilkhor Creation'
+    alt_name: ''
+-
+    id: lacemamba
+    name: 'Lace Mamba Global'
+    alt_name: ''
+-
     id: lankhor
     name: Lankhor
+    alt_name: ''
+-
+    id: level9
+    name: 'Level 9 Computing'
+    alt_name: ''
+-
+    id: lezard
+    name: 'Lezard Interactive'
+    alt_name: ''
+-
+    id: linuxgp
+    name: 'Linux Game Publishing'
+    alt_name: ''
+-
+    id: littleark
+    name: 'Little Ark'
+    alt_name: ''
+-
+    id: livingbooks
+    name: 'Living Books'
     alt_name: ''
 -
     id: lkavalon
@@ -404,8 +516,28 @@
     name: LucasArts
     alt_name: ''
 -
+    id: lucyworlds
+    name: 'Lucy''s Worlds'
+    alt_name: ''
+-
+    id: mac
+    name: MAC
+    alt_name: ''
+-
     id: macromedia
     name: Macromedia
+    alt_name: ''
+-
+    id: magnetic
+    name: 'Magnetic Scrolls'
+    alt_name: ''
+-
+    id: magnetinteractive
+    name: 'Magnet Interactive Studios, Inc.'
+    alt_name: ''
+-
+    id: maximyz
+    name: Maximyz
     alt_name: ''
 -
     id: maxis
@@ -436,16 +568,52 @@
     name: Microsoft
     alt_name: ''
 -
+    id: mif2000
+    name: Mif2000
+    alt_name: ''
+-
+    id: millennium
+    name: 'Millennium Interactive Ltd.'
+    alt_name: ''
+-
+    id: mindfactory
+    name: MindFactory
+    alt_name: ''
+-
     id: mindscape
     name: Mindscape
+    alt_name: ''
+-
+    id: mit
+    name: 'Massachusetts Institute of Technology'
+    alt_name: ''
+-
+    id: mojotouch
+    name: MojoTouch
+    alt_name: ''
+-
+    id: molimerx
+    name: 'Molimerx Ltd.'
+    alt_name: ''
+-
+    id: monkeystone
+    name: 'Monkeystone Games'
     alt_name: ''
 -
     id: mpe
     name: 'MP Entertainment'
     alt_name: ''
 -
+    id: mpslabs
+    name: 'MPS Labs'
+    alt_name: ''
+-
     id: mythos
     name: 'Mythos Software'
+    alt_name: ''
+-
+    id: nacht
+    name: 'Nacht und Nebel'
     alt_name: ''
 -
     id: nayma
@@ -458,6 +626,14 @@
 -
     id: neverhood
     name: 'The Neverhood, Inc.'
+    alt_name: ''
+-
+    id: newgen
+    name: 'New Generation Software'
+    alt_name: ''
+-
+    id: nihilis
+    name: NiHiLiS
     alt_name: ''
 -
     id: nintendo
@@ -476,8 +652,16 @@
     name: 'New World Computing'
     alt_name: ''
 -
+    id: offstudio
+    name: 'Off Studio'
+    alt_name: ''
+-
     id: origin
     name: 'Origin Systems'
+    alt_name: ''
+-
+    id: palace
+    name: 'Palace Software'
     alt_name: ''
 -
     id: pavo
@@ -492,272 +676,8 @@
     name: 'Perfect Entertainment'
     alt_name: ''
 -
-    id: piranha
-    name: 'Piranha Interactive Publishing'
-    alt_name: ''
--
-    id: playmates
-    name: 'Playmates Interactive Entertainment'
-    alt_name: ''
--
-    id: presto
-    name: 'Presto Studios'
-    alt_name: ''
--
-    id: psygnosis
-    name: Psygnosis
-    alt_name: ''
--
-    id: rainbird
-    name: 'Rainbird Software'
-    alt_name: ''
--
-    id: rebellion
-    name: Rebellion
-    alt_name: ''
--
-    id: revistronic
-    name: Revistronic
-    alt_name: ''
--
-    id: revolution
-    name: Revolution
-    alt_name: ''
--
-    id: riki
-    name: 'Riki Computer Games'
-    alt_name: ''
--
-    id: rootfix
-    name: 'RootFix Entertainment'
-    alt_name: ''
--
-    id: sacis
-    name: Sacis
-    alt_name: ''
--
-    id: sanctuary
-    name: 'Sanctuary Woods'
-    alt_name: ''
--
-    id: sandcastle
-    name: Sandcastle
-    alt_name: ''
--
-    id: sega
-    name: Sega
-    alt_name: ''
--
-    id: sierra
-    name: Sierra
-    alt_name: 'Sierra On-Line'
--
-    id: skif
-    name: S.K.I.F.
-    alt_name: ''
--
-    id: softgold
-    name: Softgold
-    alt_name: ''
--
-    id: sony
-    name: Sony
-    alt_name: ''
--
-    id: terra
-    name: 'Terra Nova Development'
-    alt_name: ''
--
-    id: thorsoft
-    name: 'Thorsoft of Letchworth'
-    alt_name: ''
--
-    id: tomahawk
-    name: Tomahawk
-    alt_name: ''
--
-    id: tommo
-    name: Tommo
-    alt_name: ''
--
-    id: traktor
-    name: 'Traktor Games'
-    alt_name: ''
--
-    id: trilobyte
-    name: Trilobyte
-    alt_name: ''
--
-    id: tsunami
-    name: 'Tsunami Games'
-    alt_name: ''
--
-    id: ubisoft
-    name: Ubisoft
-    alt_name: ''
--
-    id: viacom
-    name: Viacom
-    alt_name: ''
--
-    id: viperante
-    name: Viperante
-    alt_name: ''
--
-    id: virgin
-    name: 'Virgin Interactive'
-    alt_name: ''
--
-    id: westwood
-    name: 'Westwood Studios'
-    alt_name: ''
--
-    id: zojoi
-    name: Zojoi
-    alt_name: ''
--
-    id: anne
-    name: 'Anne Carrière'
-    alt_name: ''
--
-    id: cpcc
-    name: 'California Pacific Computer Company'
-    alt_name: ''
--
-    id: icom
-    name: 'ICOM Simulations'
-    alt_name: ''
--
-    id: idigicon
-    name: Idigicon
-    alt_name: ''
--
-    id: igc
-    name: 'The Illusions Gaming Company'
-    alt_name: ''
--
-    id: indiesquish
-    name: IndieSquish
-    alt_name: ''
--
-    id: infogrames
-    name: Infogrames
-    alt_name: ''
--
-    id: ibi
-    name: 'Interactive Binary Illusions'
-    alt_name: ''
--
-    id: interlink
-    name: 'Interlink Planning'
-    alt_name: ''
--
-    id: invention
-    name: Invention
-    alt_name: ''
--
-    id: ips
-    name: 'IPS Computer Group'
-    alt_name: ''
--
-    id: israndom
-    name: 'IsRandomRandom Games'
-    alt_name: ''
--
-    id: jbush
-    name: 'JBush Productions'
-    alt_name: ''
--
-    id: kirin
-    name: 'Kirin Entertainment'
-    alt_name: ''
--
-    id: kompart
-    name: 'Kompart UK'
-    alt_name: ''
--
-    id: lacemamba
-    name: 'Lace Mamba Global'
-    alt_name: ''
--
-    id: tlc
-    name: 'The Learning Company'
-    alt_name: ''
--
-    id: level9
-    name: 'Level 9 Computing'
-    alt_name: ''
--
-    id: lezard
-    name: 'Lezard Interactive'
-    alt_name: ''
--
-    id: linuxgp
-    name: 'Linux Game Publishing'
-    alt_name: ''
--
-    id: lucyworlds
-    name: 'Lucy''s Worlds'
-    alt_name: ''
--
-    id: mac
-    name: MAC
-    alt_name: ''
--
-    id: magnetic
-    name: 'Magnetic Scrolls'
-    alt_name: ''
--
-    id: mit
-    name: 'Massachusetts Institute of Technology'
-    alt_name: ''
--
-    id: maximyz
-    name: Maximyz
-    alt_name: ''
--
-    id: mif2000
-    name: Mif2000
-    alt_name: ''
--
-    id: millennium
-    name: 'Millennium Interactive Ltd.'
-    alt_name: ''
--
-    id: mindfactory
-    name: MindFactory
-    alt_name: ''
--
-    id: mojotouch
-    name: MojoTouch
-    alt_name: ''
--
-    id: molimerx
-    name: 'Molimerx Ltd.'
-    alt_name: ''
--
-    id: monkeystone
-    name: 'Monkeystone Games'
-    alt_name: ''
--
-    id: nacht
-    name: 'Nacht und Nebel'
-    alt_name: ''
--
-    id: newgen
-    name: 'New Generation Software'
-    alt_name: ''
--
-    id: nihilis
-    name: NiHiLiS
-    alt_name: ''
--
-    id: offstudio
-    name: 'Off Studio'
-    alt_name: ''
--
-    id: palace
-    name: 'Palace Software'
+    id: perpetualdiversion
+    name: 'Perpetual Diversion'
     alt_name: ''
 -
     id: petagame
@@ -772,28 +692,80 @@
     name: 'Pipe Studio'
     alt_name: ''
 -
+    id: piranha
+    name: 'Piranha Interactive Publishing'
+    alt_name: ''
+-
+    id: playmates
+    name: 'Playmates Interactive Entertainment'
+    alt_name: ''
+-
     id: pnc
     name: 'PNC Narratives'
+    alt_name: ''
+-
+    id: polarware
+    name: Polarware
     alt_name: ''
 -
     id: pony
     name: 'Pony Canyon'
     alt_name: ''
 -
+    id: presto
+    name: 'Presto Studios'
+    alt_name: ''
+-
     id: prograph
     name: 'Prograph Research'
     alt_name: ''
 -
-    id: rpelect
-    name: 'R&P Electronic Media'
+    id: psygnosis
+    name: Psygnosis
     alt_name: ''
 -
     id: raecreation
     name: 'Raecreations Software'
     alt_name: ''
 -
+    id: rainbird
+    name: 'Rainbird Software'
+    alt_name: ''
+-
+    id: reactorinc
+    name: 'Reactor Inc.'
+    alt_name: ''
+-
+    id: rebellion
+    name: Rebellion
+    alt_name: ''
+-
+    id: reunionmusee
+    name: 'Réunion des Musées Nationaux'
+    alt_name: ''
+-
+    id: revistronic
+    name: Revistronic
+    alt_name: ''
+-
+    id: revolution
+    name: Revolution
+    alt_name: ''
+-
+    id: riki
+    name: 'Riki Computer Games'
+    alt_name: ''
+-
     id: rockstarv
     name: 'Rockstar Vienna'
+    alt_name: ''
+-
+    id: rootfix
+    name: 'RootFix Entertainment'
+    alt_name: ''
+-
+    id: rpelect
+    name: 'R&P Electronic Media'
     alt_name: ''
 -
     id: rskent
@@ -804,9 +776,29 @@
     name: 'Rudowski Brothers'
     alt_name: ''
 -
-    id: reunionmusee
-    name: 'Réunion des Musées Nationaux'
+    id: sacis
+    name: Sacis
     alt_name: ''
+-
+    id: sanctuary
+    name: 'Sanctuary Woods'
+    alt_name: ''
+-
+    id: sandcastle
+    name: Sandcastle
+    alt_name: ''
+-
+    id: sebastianronsse
+    name: 'Sebastian Ronsse'
+    alt_name: ''
+-
+    id: sega
+    name: Sega
+    alt_name: ''
+-
+    id: sierra
+    name: Sierra
+    alt_name: 'Sierra On-Line'
 -
     id: siliconbeach
     name: 'Silicon Beach Software'
@@ -816,12 +808,24 @@
     name: 'Skaldic Games'
     alt_name: ''
 -
+    id: skif
+    name: S.K.I.F.
+    alt_name: ''
+-
     id: smokingcar
     name: 'Smoking Car Productions'
     alt_name: ''
 -
+    id: softgold
+    name: Softgold
+    alt_name: ''
+-
     id: softwarefarm
     name: 'The Software Farm'
+    alt_name: ''
+-
+    id: sony
+    name: Sony
     alt_name: ''
 -
     id: spectrumholo
@@ -840,134 +844,130 @@
     name: 'Starbyte Software'
     alt_name: ''
 -
-    id: usgold
-    name: 'U.S. Gold'
+    id: synergy
+    name: 'Synergy Inc.'
     alt_name: ''
 -
-    id: unitedpixtures
-    name: 'United Pixtures'
+    id: teamvsb
+    name: 'Team VSB'
     alt_name: ''
 -
-    id: victokai
-    name: 'Vic Tokai'
+    id: terra
+    name: 'Terra Nova Development'
     alt_name: ''
 -
-    id: vicarious
-    name: 'Vicarious Visions'
+    id: thorsoft
+    name: 'Thorsoft of Letchworth'
     alt_name: ''
 -
-    id: wanadoo
-    name: 'Wanadoo Edition'
+    id: tlc
+    name: 'The Learning Company'
     alt_name: ''
 -
-    id: warner
-    name: 'Warner Interactive'
+    id: tomahawk
+    name: Tomahawk
     alt_name: ''
 -
-    id: wyrmkeep
-    name: 'The Wyrmkeep Entertainment'
+    id: tommo
+    name: Tommo
     alt_name: ''
 -
-    id: zombie
-    name: 'Zombie Studios'
-    alt_name: ''
--
-    id: hueforest
-    name: 'Hue Forest Entertainment'
-    alt_name: ''
--
-    id: trendmasters
-    name: Trendmasters
-    alt_name: ''
--
-    id: artbox
-    name: 'Art in the Box'
-    alt_name: ''
--
-    id: mpslabs
-    name: 'MPS Labs'
-    alt_name: ''
--
-    id: livingbooks
-    name: 'Living Books'
-    alt_name: ''
--
-    id: kyilkhor
-    name: 'Kyilkhor Creation'
-    alt_name: ''
--
-    id: wanderlust
-    name: 'Wanderlust Interactive'
-    alt_name: ''
--
-    id: tsdinge
-    name: 'Thomas & Steffen Dinge'
-    alt_name: ''
--
-    id: crystaldynamics
-    name: 'Crystal Dynamics'
-    alt_name: ''
--
-    id: sebastianronsse
-    name: 'Sebastian Ronsse'
-    alt_name: ''
--
-    id: glk
-    name: 'Interactive Fiction'
-    alt_name: ''
--
-    id: unknown
-    name: 'Unknown Company'
-    alt_name: ''
--
-    id: reactorinc
-    name: 'Reactor Inc.'
-    alt_name: ''
--
-    id: magnetinteractive
-    name: 'Magnet Interactive Studios, Inc.'
-    alt_name: ''
--
-    id: polarware
-    name: Polarware
-    alt_name: ''
--
-    id: littleark
-    name: 'Little Ark'
+    id: traktor
+    name: 'Traktor Games'
     alt_name: ''
 -
     id: trecision
     name: 'Trecision S.p.A.'
     alt_name: ''
 -
-    id: synergy
-    name: 'Synergy Inc.'
+    id: trendmasters
+    name: Trendmasters
+    alt_name: ''
+-
+    id: trilobyte
+    name: Trilobyte
+    alt_name: ''
+-
+    id: tsdinge
+    name: 'Thomas & Steffen Dinge'
+    alt_name: ''
+-
+    id: tsunami
+    name: 'Tsunami Games'
+    alt_name: ''
+-
+    id: ubisoft
+    name: Ubisoft
+    alt_name: ''
+-
+    id: unitedpixtures
+    name: 'United Pixtures'
+    alt_name: ''
+-
+    id: unknown
+    name: 'Unknown Company'
+    alt_name: ''
+-
+    id: usgold
+    name: 'U.S. Gold'
+    alt_name: ''
+-
+    id: viacom
+    name: Viacom
+    alt_name: ''
+-
+    id: vicarious
+    name: 'Vicarious Visions'
+    alt_name: ''
+-
+    id: victokai
+    name: 'Vic Tokai'
+    alt_name: ''
+-
+    id: viperante
+    name: Viperante
+    alt_name: ''
+-
+    id: virgin
+    name: 'Virgin Interactive'
     alt_name: ''
 -
     id: virtual
     name: 'Virtual Image Productions'
     alt_name: ''
 -
-    id: grundislav
-    name: 'Grundislav Games'
+    id: wanadoo
+    name: 'Wanadoo Edition'
     alt_name: ''
 -
-    id: perpetualdiversion
-    name: 'Perpetual Diversion'
+    id: wanderlust
+    name: 'Wanderlust Interactive'
     alt_name: ''
 -
-    id: xii
-    name: 'XII Games'
+    id: warner
+    name: 'Warner Interactive'
     alt_name: ''
 -
     id: westend
     name: 'Westend Studios'
     alt_name: ''
 -
-    id: clifftop
-    name: 'Clifftop Games'
+    id: westwood
+    name: 'Westwood Studios'
     alt_name: ''
 -
-    id: teamvsb
-    name: 'Team VSB'
+    id: wyrmkeep
+    name: 'The Wyrmkeep Entertainment'
+    alt_name: ''
+-
+    id: xii
+    name: 'XII Games'
+    alt_name: ''
+-
+    id: zojoi
+    name: Zojoi
+    alt_name: ''
+-
+    id: zombie
+    name: 'Zombie Studios'
     alt_name: ''
