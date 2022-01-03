@@ -663,16 +663,6 @@
     enabled: true
     category: scummvm
     subcategory: old
-    category_icon: dingux
-    user_agent: ''
-    version: 1.6.0
-    url: 'scummvm-{$version}-dingux.zip'
-    name: 'Dingux package'
-    description: ''
--
-    enabled: true
-    category: scummvm
-    subcategory: old
     category_icon: openpandora
     user_agent: ''
     version: 2.2.0
@@ -712,12 +702,32 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: gcw0
     user_agent: ''
-    version: 2.2.0
+    version: 2.5.1
     url: 'scummvm-{$version}-gcw0.opk'
     name: 'GCW-Zero package'
+    description: ''
+-
+    enabled: true
+    category: scummvm
+    subcategory: release
+    category_icon: dingux
+    user_agent: ''
+    version: 2.5.1
+    url: 'scummvm-{$version}-lepus.opk'
+    name: 'OpenDingux package for Lepus'
+    description: ''
+-
+    enabled: true
+    category: scummvm
+    subcategory: release
+    category_icon: dingux
+    user_agent: ''
+    version: 2.5.1
+    url: 'scummvm-{$version}-rg99.opk'
+    name: 'OpenDingux package for RG99'
     description: ''
 -
     enabled: true
