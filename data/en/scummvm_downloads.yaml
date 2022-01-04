@@ -402,6 +402,16 @@
 -
     enabled: true
     category: scummvm
+    subcategory: release
+    category_icon: psp2
+    user_agent: ''
+    version: 2.5.1
+    url: 'scummvm-{$version}-vita-other-engines.vpk'
+    name: 'PlayStation Vita package (other engines)'
+    description: 'This version contains only the engines that were removed from the regular build due to memory constraints: bladerunner, glk, myst3, grim, and titanic. It can be installed alongside the regular build. After installation, it will appear on the Vita home screen as an additional app with the name “ScummVM_other_engines”.'
+-
+    enabled: true
+    category: scummvm
     subcategory: old
     category_icon: android
     user_agent: Android
