@@ -167,7 +167,7 @@
     user_agent: ''
     version: 2.5.1
     url: 'scummvm_{$version}-1_ubuntu21.10_amd64.deb'
-    name: 'Ubuntu 21.04 (hirsute) x86 64bit package'
+    name: 'Ubuntu 21.10 (impish) x86 64bit package'
     description: ''
 -
     enabled: true
