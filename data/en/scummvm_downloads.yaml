@@ -322,20 +322,20 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: macos
     user_agent: Mac
-    version: 2.5.0
+    version: 2.5.1
     url: 'scummvm-{$version}-macosx.dmg'
     name: 'macOS 10.9+ for Intel and Apple Silicon, with Sparkle Disk Image'
     description: ''
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: macostiger
     user_agent: ''
-    version: 2.5.0
+    version: 2.5.1
     url: 'scummvm-{$version}-macosx-i386.dmg'
     name: 'Mac OS X 10.6+ intel 32 bits (without Sparkle) Disk Image'
     description: ''
@@ -562,20 +562,20 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: iphone
     user_agent: iOS
-    version: 2.5.0
+    version: 2.5.1
     url: 'scummvm-{$version}-ios.deb'
     name: 'iOS 8+ package .deb'
     description: ''
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: iphone
     user_agent: iOS
-    version: 2.5.0
+    version: 2.5.1
     url: 'scummvm-{$version}-ios.ipa'
     name: 'iOS 8+ package .ipa'
     description: ''
