@@ -8,6 +8,6 @@ After more than [10 years of development](https://www.alexbevi.com/blog/2021/05/
 
 Grab your CD version or a digital release and immerse yourself in a story full of nightmares and mysteries.
 
-If you don't own the game we have a [demo](/demos/asylum/asylum-demo.zip) available.
+If you don't own the game we have a [demo](/frs/demos/asylum/asylum-demo.zip) available.
 
 You will need the latest [daily build](/downloads/#daily). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/).
