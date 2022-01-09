@@ -113,7 +113,7 @@ class DownloadsModel extends BasicModel
                 $url = str_replace('{$version}', $version, $url);
             } else {
                 // Construct the URL and fill in the version
-                $url = DOWNLOADS_BASE . DOWNLOADS_URL . $download->getURL();
+                $url = DOWNLOADS_BASE . "/" . DOWNLOADS_URL . $download->getURL();
                 $version = $download->getVersion();
                 $url = str_replace('{$version}', $version, $url);
             }
