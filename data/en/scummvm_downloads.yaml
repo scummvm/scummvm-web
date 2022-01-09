@@ -367,7 +367,7 @@
     user_agent: ''
     version: 2.2.0
     url: 'scummvm-{$version}-ps3.zip'
-    name: 'PlayStation3 package'
+    name: 'PlayStation 3 package'
     description: ''
 -
     enabled: true
@@ -377,7 +377,7 @@
     user_agent: ''
     version: 1.7.0
     url: 'scummvm-{$version}-ps2.zip'
-    name: 'PlayStation2 package'
+    name: 'PlayStation 2 package'
     description: ''
 -
     enabled: true
