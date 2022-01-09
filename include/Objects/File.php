@@ -44,10 +44,11 @@ class File extends BasicObject
             }
             $fname = str_replace('{$version}', "$this->version", $fname);
 
-            // If the file is on this server, we can check file size etc.
-            if (is_file($fname) && is_readable($fname)) {
-                $this->extra_info = array();
-                $sz = round((@filesize($fname) / 1024));
+            // Use an absolute file path if available, otherwise use the relative path
+            $path = is_file(DIR_SERVER_ROOT . '/'. $fname) ? DIR_SERVER_ROOT . '/'. $fname : $fname;
+            if (is_file($path) && is_readable($path)) {
+                // Calculate the file size, etc.
+                $sz = round((@filesize($path) / 1024));
 
                 if ($sz < 1024) {
                     $sz = $sz . "K";
@@ -68,18 +69,18 @@ class File extends BasicObject
                     $ext = substr($url, strrpos($url, '.', -(strlen($url) - strrpos($url, '.') + 1)));
                 }
 
-                if ((is_file($fname . '.sha256') && is_readable($fname . '.sha256'))
-                    && (@filemtime($fname . '.sha256') > @filemtime($fname))
+                if ((is_file($path . '.sha256') && is_readable($path . '.sha256'))
+                    && (@filemtime($path . '.sha256') > @filemtime($path))
                 ) {
-                    $this->extra_info['sha256'] = file_get_contents($fname . '.sha256');
+                    $this->extra_info['sha256'] = file_get_contents($path . '.sha256');
                 } else {
-                    $hash = hash_file('sha256', $fname);
+                    $hash = hash_file('sha256', $path);
                     $this->extra_info['sha256'] = $hash;
-                    file_put_contents($fname . '.sha256', $hash);
+                    file_put_contents($path . '.sha256', $hash);
                 }
 
                 $this->extra_info['ext'] = $ext;
-                $this->extra_info['date'] = date('F j, Y, g:i a', @filemtime($fname));
+                $this->extra_info['date'] = date('F j, Y, g:i a', @filemtime($path));
                 $this->extra_info['msg'] = isset($data['notes']) ? $data['notes'] : '';
             }
             $this->url = $fname;
