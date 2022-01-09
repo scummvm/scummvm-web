@@ -40,7 +40,8 @@ class Constants
         define('DIR_DATA', DIR_BASE . '/data');
         define('DIR_DOWNLOADS', '/downloads');
         define('DIR_SCREENSHOTS', '/data/screenshots');
-        define('DIR_FRS', '/.0/frs');
+        define('DIR_SERVER_ROOT', '/.0');
+        define('DIR_FRS', DIR_SERVER_ROOT . '/frs');
 
         /* Locale */
         define('DEFAULT_LOCALE', 'en');
