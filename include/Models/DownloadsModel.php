@@ -2,6 +2,7 @@
 
 namespace ScummVM\Models;
 
+use ScummVM\FileUtils;
 use ScummVM\Objects\DownloadsSection;
 use DeviceDetector\Parser\OperatingSystem as OsParser;
 use ScummVM\OrmObjects\DownloadQuery;
@@ -115,15 +116,11 @@ class DownloadsModel extends BasicModel
                 // Construct the URL and fill in the version
                 $url = DOWNLOADS_BASE . "/" . DOWNLOADS_URL . $download->getURL();
                 $version = $download->getVersion();
-                $url = str_replace('{$version}', $version, $url);
-            }
-
-            $data = ""; //$download->getExtraInfo();
-            if (is_array($data)) {
-                $extra_text = $data['size'] . " ";
-                $extra_text .= $data['ext'] . " " . $data['msg'];
-            } else {
-                $extra_text = $data;
+                $file_name = str_replace('{$version}', $version, DOWNLOADS_URL . $download->getURL());
+                $url = DOWNLOADS_BASE . $file_name;
+                if (FileUtils::exists($file_name)) {
+                    $extra_text = FileUtils::getFileSize($file_name) . " " . FileUtils::getExtension($file_name);
+                }
             }
 
             /*
@@ -143,7 +140,7 @@ class DownloadsModel extends BasicModel
             return [
                 'os' => $name,
                 'ver' => $version,
-                'desc' => $extra_text,
+                'desc' => isset($extra_text) ? $extra_text : "",
                 'url' => $url,
             ];
         }
