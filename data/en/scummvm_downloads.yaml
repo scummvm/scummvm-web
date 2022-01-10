@@ -1358,7 +1358,7 @@
     version: Daily
     url: scummvm-snapshot-win32.exe
     name: 'ScummVM Daily Build - Windows Installer'
-    description: 'Provided by ScummVM Team member Lothar Serra Mari, updated several times  daily'
+    description: ''
 -
     enabled: false
     category: scummvm
@@ -1428,7 +1428,7 @@
     version: Daily
     url: scummvm-tools-snapshot-win32.zip
     name: 'Tools Daily Build - Windows zipfile'
-    description: 'Provided by ScummVM Team member Lothar Serra Mari, updated several times  daily'
+    description: ''
 -
     enabled: true
     category: libs
