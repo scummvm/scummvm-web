@@ -5,7 +5,7 @@
             <a id="downloadButton" href={$recommendedDownload.url|download}>
                 <img src="/images/scummvm.png" alt="Download ScummVM icon">
                 <div class="downloadText">Download ScummVM</div>
-                <div id="downloadDetails">Version {$recommendedDownload.ver} • {$recommendedDownload.os} • {$recommendedDownload.desc}</div>
+                <div id="downloadDetails">Version {$recommendedDownload.ver} • {$recommendedDownload.os}{if $recommendedDownload.desc != ""} • {$recommendedDownload.desc}{/if}</div>
             </a>
         </div>
     </div>
