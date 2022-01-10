@@ -1036,7 +1036,7 @@
     category_icon: raspberry
     user_agent: ''
     version: 1.9.0
-    url: 'scummvm-{$version}-rpi.zip'
+    url: 'scummvm-{$version}-raspberrypi.tar.gz'
     name: 'Raspberry Pi package (for Pi 2 and 3)'
     description: ''
 -
