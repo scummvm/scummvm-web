@@ -121,10 +121,6 @@ class DownloadsModel extends BasicModel
             $data = ""; //$download->getExtraInfo();
             if (is_array($data)) {
                 $extra_text = $data['size'] . " ";
-                if ($data['ext'] == '.exe') {
-                    $extra_text = $extra_text . 'Win32 ';
-                }
-
                 $extra_text .= $data['ext'] . " " . $data['msg'];
             } else {
                 $extra_text = $data;
