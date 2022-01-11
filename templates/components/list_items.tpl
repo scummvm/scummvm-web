@@ -10,9 +10,8 @@
                         <span class="download-extras">
                             {if is_array($data)}
                                 (
-                                {$data.size} {$data.ext}{if $data.date != ""}{#listItemsDate#} {$data.date} {/if}
-                                &nbsp;
-                                {if $data.sha256 != ""} <span class="sha256-toggle" onclick="this.nextSibling.classList.toggle('hidden')"> sha256</span><span class="sha256-text hidden"> <a href="{{eval var=$item->getURL()}|release|download}.sha256">{$data.sha256}</a></span>{/if}
+                                {$data.size} {$data.ext}{if $data.date != ""}{#listItemsDate#} {$data.date}{/if}
+                                {if $data.sha256 != ""}, <span class="sha256-toggle" onclick="this.nextSibling.classList.toggle('hidden')">sha256</span><span class="sha256-text hidden"> <a href="{{eval var=$item->getURL()}|release|download}.sha256">{$data.sha256}</a></span>{/if}
                                 ) {if $data.msg != ""}{$data.msg}{/if}
                             {/if}
                         </span>
