@@ -43,7 +43,7 @@
     "downloadsContentP2": "La version STABLE la plus récente de ScummVM est {release}. Elle peut être téléchargée ci-dessous dans la section '[Exécutables](/fr/downloads/#release)'. Si vous utilisez Windows et n'êtes pas sûr de quel lien utiliser, choisissez le lien 'Windows Installer'.",
     "downloadsContentP3": "Vous trouverez des versions expérimentales, et potentiellement INSTABLES, de ScummVM dans la section '[Compilations quotidiennes](/fr/downloads/#daily)', vers la fin de la page. N'utilisez ces versions que si vous savez ce que vous faites.",
     "downloadsBadge": "Téléchargement recommandé pour votre système",
-    "downloadsXMLTitle": "Téléchargement pour ScummVM",
+    "downloadsXMLTitle": "Téléchargements pour ScummVM",
     "downloadsXMLVersion": "version {release}",
     "downloadsBinaries": "Exécutables - Version {release}",
     "downloadsBinariesNote1": "Pour une liste des changements depuis la version précédente,",
@@ -173,5 +173,6 @@
     "directorDemosContentTitle": "Démos Director",
     "directorDemosTitle": "Démos Director",
     "downloadsDailyNote3": "Consultez le journal des modifications pour connaitre les dernières mises à jour de ScummVM.",
-    "compatibilityDetailsDetails": "Détails"
+    "compatibilityDetailsDetails": "Détails",
+    "downloadsBadgeTitle": "Télécharger ScummVM {version}"
 }
