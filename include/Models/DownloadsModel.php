@@ -114,10 +114,9 @@ class DownloadsModel extends BasicModel
                 $url = str_replace('{$version}', $version, $url);
             } else {
                 // Construct the URL and fill in the version
-                $url = DOWNLOADS_BASE . "/" . DOWNLOADS_URL . $download->getURL();
                 $version = $download->getVersion();
                 $file_name = str_replace('{$version}', $version, DOWNLOADS_URL . $download->getURL());
-                $url = DOWNLOADS_BASE . $file_name;
+                $url = DOWNLOADS_BASE .  "/" . $file_name;
                 if (FileUtils::exists($file_name)) {
                     $extra_text = FileUtils::getFileSize($file_name) . " " . FileUtils::getExtension($file_name);
                 }
