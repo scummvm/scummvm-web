@@ -1,6 +1,9 @@
 <?php
 namespace ScummVM;
 
+use DateTime;
+use DateTimeInterface;
+
 /**
 * Utility functions related to files on a file system.
 */
@@ -88,15 +91,16 @@ class FileUtils
     }
 
     /**
-    * Returns the date and time that the given file was last modified.
+    * Returns the date (in ISO 8601 format) that the given file was last modified.
     *
     * @param $path the path to the file that will be analyzed
-    * @return the date and time
+    * @return the date
     */
     public static function getLastModified($path)
     {
         $path = FileUtils::toAbsolutePathIfOnServer($path);
-        return date('F j, Y, g:i a', @filemtime($path));
+        $date = new DateTime();
+        return $date->setTimestamp(@filemtime($path))->format("Y-m-d");
     }
 
     /**
