@@ -54,6 +54,7 @@
   "downloadsContentP2": "The latest STABLE release of ScummVM is {release}, and can be downloaded below under '[Release Binaries](/downloads/#release)'. If you run Windows and are confused, download the 'Windows Installer'.",
   "downloadsContentP3": "For UNSTABLE experimental versions of ScummVM (for people who know what they are doing), please see the [Daily Builds](/downloads/#daily) section, near the end of this page.",
   "downloadsBadge": "Recommended download for your system",
+  "downloadsBadgeTitle": "Download ScummVM {version}",
   "downloadsXMLTitle": "Downloads for ScummVM",
   "downloadsXMLVersion": "version {release}",
   "downloadsBinaries": "{release} Release binaries",
