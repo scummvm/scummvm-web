@@ -44,6 +44,7 @@ class File extends BasicObject
             } else {
                 $fname = DOWNLOADS_URL . $url;
             }
+            $fname = str_replace('{$release_tools}', RELEASE_TOOLS, $fname);
             $fname = str_replace('{$version}', "$this->version", $fname);
 
             if (FileUtils::exists($fname)) {
