@@ -131,7 +131,7 @@
     category_icon: queen
     url: '/frs/extras/Flight of the Amazon Queen/FOTAQ_Talkie-original.zip'
     name: 'Freeware CD Version (unmodified original)'
-    notes: '(87M) download this version if your ScummVM doesn''t have mp3 support'
+    notes: 'Download this version if your ScummVM doesn''t have mp3 support'
 -
     category: games
     game_id: queen
@@ -299,14 +299,14 @@
     category_icon: bladerunner
     url: '/frs/extras/Blade Runner/Blade_Runner_Subtitles-v6.zip'
     name: 'Subtitles (English, French, Spanish Subtitles AddOn)'
-    notes: '- Requires ScummVM 2.1.0'
+    notes: 'Requires ScummVM 2.1.0'
 -
     category: addons
     game_id: sword1
     category_icon: flac
     url: '/frs/extras/Broken Sword I and II/Sword1_DXA_Cutscenes.zip'
     name: 'Cutscene Pack (English, DXA compression)'
-    notes: '- Requires ScummVM 0.10.0'
+    notes: 'Requires ScummVM 0.10.0'
 -
     category: addons
     game_id: sword1
@@ -362,7 +362,7 @@
     category_icon: flac
     url: '/frs/extras/Broken Sword I and II/Sword1_Demo_Cutscenes.zip'
     name: 'Demo Cutscene Pack'
-    notes: '- Requires ScummVM 0.10.0'
+    notes: 'Requires ScummVM 0.10.0'
 -
     category: addons
     game_id: sword1
@@ -404,7 +404,7 @@
     category_icon: flac
     url: '/frs/extras/Broken Sword I and II/Sword2_DXA_Cutscenes.zip'
     name: 'Cutscene Pack (all languages, DXA compression)'
-    notes: '- Requires ScummVM 0.10.0'
+    notes: 'Requires ScummVM 0.10.0'
 -
     category: addons
     game_id: sword2
@@ -418,21 +418,21 @@
     category_icon: flac
     url: '/frs/extras/Broken Sword I and II/Sword2_Demo_Cutscenes.zip'
     name: 'Demo Cutscene Pack'
-    notes: '- Requires ScummVM 0.10.0'
+    notes: 'Requires ScummVM 0.10.0'
 -
     category: addons
     game_id: elvira2
     category_icon: flac
     url: '/frs/extras/Elvira 2/elvira2_pc_sfx.zip'
     name: 'Digital samples for sound effects in the PC version'
-    notes: '- Requires ScummVM 1.8.0'
+    notes: 'Requires ScummVM 1.8.0'
 -
     category: addons
     game_id: feeble
     category_icon: flac
     url: '/frs/extras/The Feeble Files/Feeble_OmniTV_Cutscenes.zip'
     name: 'Omni TV and epilogue cutscenes for the Amiga and Macintosh versions'
-    notes: '- Requires ScummVM 0.10.0'
+    notes: 'Requires ScummVM 0.10.0'
 -
     category: addons
     game_id: queen
@@ -446,4 +446,4 @@
     category_icon: prince
     url: '/frs/extras/The Prince and the Coward/prince_translation.dat'
     name: 'Translations data file to play with English text'
-    notes: '- Requires ScummVM 2.2.0'
+    notes: 'Requires ScummVM 2.2.0'
