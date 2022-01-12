@@ -36,16 +36,17 @@ class File extends BasicObject
             $this->url = $url;
         } else {
             // Construct the URL based on its type
-            if ($this->category == 'scummvm' && $this->version == 'daily') {
-                $fname = DOWNLOADS_DAILY_URL . $url;
-            } elseif ($this->category == 'scummvm' && $this->subcategory == 'tools') {
+            if ($this->category == 'source') {
+                $fname = DOWNLOADS_URL . $url;
+            } elseif ($this->subcategory == 'tools') {
                 $fname = DOWNLOADS_TOOLS_URL . $url;
             } elseif ($this->category == 'games' || $this->category == 'addons') {
                 $fname = DOWNLOADS_EXTRAS_URL . $url;
             } elseif (str_starts_with($url, '/frs') || str_starts_with($url, 'http')) {
                 $fname = $url;
             } else {
-                $fname = DOWNLOADS_URL . $url;
+                // E.g. frs/scummvm/1.2.3/scummvm-1.2.3.zip
+                $fname = 'frs/' . $this->category . '/' . $this->version . '/' . $url;
             }
             $fname = str_replace('{$release_tools}', RELEASE_TOOLS, $fname);
             $fname = str_replace('{$version}', "$this->version", $fname);
