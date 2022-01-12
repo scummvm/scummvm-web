@@ -1421,7 +1421,7 @@
     description: '(for if you wish to retrieve the latest code to compile yourself)'
 -
     enabled: true
-    category: scummvm
+    category: scummvm-tools
     subcategory: daily_downloads
     category_icon: windows
     user_agent: ''
