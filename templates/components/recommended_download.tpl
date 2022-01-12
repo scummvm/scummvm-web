@@ -4,8 +4,8 @@
         <div id="downloadContainer">
             <a id="downloadButton" href={$recommendedDownload.url|download}>
                 <img src="/images/scummvm.png" alt="Download ScummVM icon">
-                <div class="downloadText">{#downloadsBadgeTitle#|replace:'{version}':$recommendedDownload.ver}</div>
-                <div id="downloadDetails">{$recommendedDownload.os}{if $recommendedDownload.desc != ""} • {$recommendedDownload.desc}{/if}</div>
+                <div class="downloadText">{#downloadsBadgeTitle#|replace:'{version}':$recommendedDownload.version}</div>
+                <div id="downloadDetails">{$recommendedDownload.os}{if $recommendedDownload.description != ""} • {$recommendedDownload.description}{/if}</div>
             </a>
         </div>
     </div>

@@ -138,8 +138,8 @@ class DownloadsModel extends BasicModel
 
             return [
                 'os' => $name,
-                'ver' => $version,
-                'desc' => isset($extra_text) ? $extra_text : "",
+                'version' => $version,
+                'description' => isset($extra_text) ? $extra_text : "",
                 'url' => $url,
             ];
         }
