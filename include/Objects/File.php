@@ -16,6 +16,7 @@ class File extends BasicObject
     public function __construct($data, $baseUrl = null)
     {
         parent::__construct($data);
+        $this->category = $data['category'];
         $this->category_icon = $data['category_icon'];
         $this->subcategory = $data['subcategory'] ?? null;
         $this->user_agent = isset($data["user_agent"]) ? $data["user_agent"] : "";
@@ -35,10 +36,12 @@ class File extends BasicObject
             $this->url = $url;
         } else {
             // Construct the URL based on its type
-            if ($this->version == 'daily') {
+            if ($this->category == 'scummvm' && $this->version == 'daily') {
                 $fname = DOWNLOADS_DAILY_URL . $url;
-            } elseif ($this->subcategory == 'tools') {
+            } elseif ($this->category == 'scummvm' && $this->subcategory == 'tools') {
                 $fname = DOWNLOADS_TOOLS_URL . $url;
+            } elseif ($this->category == 'games' || $this->category == 'addons') {
+                $fname = DOWNLOADS_EXTRAS_URL . $url;
             } elseif (str_starts_with($url, '/frs') || str_starts_with($url, 'http')) {
                 $fname = $url;
             } else {
