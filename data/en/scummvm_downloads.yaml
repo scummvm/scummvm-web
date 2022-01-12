@@ -1100,16 +1100,6 @@
     name: 'ScummVM - Source.zip'
     description: ''
 -
-    enabled: false
-    category: scummvm
-    subcategory: source
-    category_icon: cpp
-    user_agent: ''
-    version: 1.7.0
-    url: 'scummvm-{$version}-2.src.rpm'
-    name: 'ScummVM - Source RPM'
-    description: ''
--
     enabled: true
     category: scummvm-tools
     subcategory: release
