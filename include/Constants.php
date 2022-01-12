@@ -51,7 +51,6 @@ class Constants
         define('DOWNLOADS_URL', 'frs/scummvm/{$version}/');
         define('DOWNLOADS_DAILY_URL', 'frs/daily/');
         define('DOWNLOADS_EXTRAS_URL', 'frs/extras/');
-        define('DOWNLOADS_TOOLS_URL', 'frs/scummvm-tools/{$release_tools}/');
 
         /* Themes */
         define('THEMES', [

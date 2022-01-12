@@ -29,12 +29,12 @@ class DownloadsModel extends BasicModel
                 if ($data->getVersion() == 'Daily') {
                     $category = 'daily';
                     $subCategory = 'daily_downloads';
-                } elseif ($data->getVersion() == RELEASE || $data->getCategory() == 'tools') {
+                } elseif ($data->getVersion() == RELEASE || $data->getCategory() == 'scummvm-tools') {
                     $category = 'current';
                     if ($data->getSubCategory() == 'source') {
                         $subCategory = 'source';
-                    } elseif ($data->getCategory() == 'tools') {
-                        $subCategory = 'tools';
+                    } elseif ($data->getCategory() == 'scummvm-tools') {
+                        $subCategory = 'scummvm-tools';
                     } else {
                         $subCategory = 'release';
                     }
@@ -78,7 +78,7 @@ class DownloadsModel extends BasicModel
             "current"=>["title"=>"{#downloadsXMLTitle#} {#downloadsXMLVersion#}"],
             "release"=>["title"=>"{#downloadsBinaries#}","notes"=>"{#downloadsBinariesNote1#} <a href='https://downloads.scummvm.org/frs/scummvm/{ldelim}release{rdelim}/ReleaseNotes.html'>{#downloadsBinariesNote2#}</a>.<p>{#downloadsBinariesNote3#}</p>"],
             "source"=>["title"=>"{#downloadsSourceCode#}"],
-            "tools"=>["title"=>"{#downloadsTools#}"],
+            "scummvm-tools"=>["title"=>"{#downloadsTools#}"],
             "legacy"=>["title"=>"{#downloadsOldBinaries#}"],
             "old"=>["title"=>"{#downloadsOld#}","notes"=>"{#downloadsOldBinariesNote#} {#downloadsOldBinariesFrsNote1#} <a href='https://downloads.scummvm.org/frs/scummvm/'>{#downloadsOldBinariesFrsNote2#}</a> {#downloadsOldBinariesFrsNote3#}"],
             "daily"=>["title"=>"{#downloadsDailyBuilds#}"],

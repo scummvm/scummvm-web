@@ -1111,8 +1111,8 @@
     description: ''
 -
     enabled: true
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: windows
     user_agent: ''
     version: 2.5.0
@@ -1121,8 +1121,8 @@
     description: ''
 -
     enabled: true
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: windows
     user_agent: ''
     version: 2.5.0
@@ -1131,8 +1131,8 @@
     description: ''
 -
     enabled: true
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: macos
     user_agent: ''
     version: 2.5.0
@@ -1141,8 +1141,8 @@
     description: ''
 -
     enabled: true
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: haiku
     user_agent: ''
     version: 2.5.0
@@ -1151,8 +1151,8 @@
     description: ''
 -
     enabled: true
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: haiku
     user_agent: ''
     version: 2.5.0
@@ -1161,8 +1161,8 @@
     description: ''
 -
     enabled: true
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: amiga
     user_agent: ''
     version: 2.5.0
@@ -1171,8 +1171,8 @@
     description: ''
 -
     enabled: false
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: morphos
     user_agent: ''
     version: 2.5.0
@@ -1181,8 +1181,8 @@
     description: ''
 -
     enabled: true
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: riscos
     user_agent: ''
     version: 2.5.0
@@ -1191,8 +1191,8 @@
     description: ''
 -
     enabled: true
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: freemint
     user_agent: ''
     version: 2.5.0
@@ -1201,8 +1201,8 @@
     description: ''
 -
     enabled: true
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: freemint
     user_agent: ''
     version: 2.5.0
@@ -1211,8 +1211,8 @@
     description: ''
 -
     enabled: true
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: freemint
     user_agent: ''
     version: 2.5.0
@@ -1221,8 +1221,8 @@
     description: ''
 -
     enabled: false
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: windows
     user_agent: ''
     version: 2.5.0
@@ -1231,8 +1231,8 @@
     description: ''
 -
     enabled: false
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: fedora
     user_agent: ''
     version: 2.5.0
@@ -1241,8 +1241,8 @@
     description: ''
 -
     enabled: false
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: fedora
     user_agent: ''
     version: 2.5.0
@@ -1251,8 +1251,8 @@
     description: ''
 -
     enabled: false
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: solaris
     user_agent: ''
     version: 2.5.0
@@ -1261,8 +1261,8 @@
     description: ''
 -
     enabled: false
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: solaris
     user_agent: ''
     version: 2.5.0
@@ -1271,8 +1271,8 @@
     description: ''
 -
     enabled: false
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: irix
     user_agent: ''
     version: 2.5.0
@@ -1281,8 +1281,8 @@
     description: ''
 -
     enabled: false
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: irix
     user_agent: ''
     version: 2.5.0
@@ -1291,8 +1291,8 @@
     description: ''
 -
     enabled: false
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: beos
     user_agent: ''
     version: 2.5.0
@@ -1301,8 +1301,8 @@
     description: ''
 -
     enabled: true
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: cpp
     user_agent: ''
     version: 2.5.0
@@ -1311,8 +1311,8 @@
     description: ''
 -
     enabled: true
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: cpp
     user_agent: ''
     version: 2.5.0
@@ -1321,8 +1321,8 @@
     description: ''
 -
     enabled: true
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: cpp
     user_agent: ''
     version: 2.5.0
@@ -1331,8 +1331,8 @@
     description: ''
 -
     enabled: true
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: cpp
     user_agent: ''
     version: 2.5.0
@@ -1341,8 +1341,8 @@
     description: ''
 -
     enabled: true
-    category: tools
-    subcategory: tools
+    category: scummvm-tools
+    subcategory: release
     category_icon: cpp
     user_agent: ''
     version: 2.5.0

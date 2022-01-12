@@ -38,8 +38,6 @@ class File extends BasicObject
             // Construct the URL based on its type
             if ($this->category == 'scummvm' && $this->version == 'daily') {
                 $fname = DOWNLOADS_DAILY_URL . $url;
-            } elseif ($this->subcategory == 'tools') {
-                $fname = DOWNLOADS_TOOLS_URL . $url;
             } elseif ($this->category == 'games' || $this->category == 'addons') {
                 $fname = DOWNLOADS_EXTRAS_URL . $url;
             } elseif (str_starts_with($url, '/frs') || str_starts_with($url, 'http')) {
