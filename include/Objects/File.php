@@ -36,9 +36,7 @@ class File extends BasicObject
             $this->url = $url;
         } else {
             // Construct the URL based on its type
-            if ($this->category == 'source') {
-                $fname = DOWNLOADS_URL . $url;
-            } elseif ($this->subcategory == 'tools') {
+            if ($this->subcategory == 'tools') {
                 $fname = DOWNLOADS_TOOLS_URL . $url;
             } elseif ($this->category == 'games' || $this->category == 'addons') {
                 $fname = DOWNLOADS_EXTRAS_URL . $url;

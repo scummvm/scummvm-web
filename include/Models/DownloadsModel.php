@@ -28,7 +28,7 @@ class DownloadsModel extends BasicModel
                 // Tools are always go to the current section
                 if ($data->getVersion() == RELEASE || $data->getCategory() == 'tools') {
                     $category = 'current';
-                    if ($data->getCategory() == 'source') {
+                    if ($data->getSubCategory() == 'source') {
                         $subCategory = 'source';
                     } elseif ($data->getCategory() == 'tools') {
                         $subCategory = 'tools';
