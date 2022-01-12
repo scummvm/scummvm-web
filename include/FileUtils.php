@@ -61,7 +61,7 @@ class FileUtils
         $extension = substr($path, (strrpos($path, '.')));
 
         // For certain extensions, check for another extension (e.g. foo.tar.gz => tar.gz)
-        if ($extension == '.bz2' || $extension == '.gz' || $extension == '.xz' || $extension == '.7z') {
+        if ($extension == '.bz2' || $extension == '.gz' || $extension == '.lz' || $extension == '.xz' || $extension == '.7z') {
             $extension = substr($path, strrpos($path, '.', -(strlen($path) - strrpos($path, '.') + 1)));
         }
         return $extension;
