@@ -26,7 +26,10 @@ class DownloadsModel extends BasicModel
                 // Source and tools should be under the current section
                 // TODO Clean this up when we remove subcategories
                 // Tools are always go to the current section
-                if ($data->getVersion() == RELEASE || $data->getCategory() == 'tools') {
+                if ($data->getVersion() == 'Daily') {
+                    $category = 'daily';
+                    $subCategory = 'daily_downloads';
+                } elseif ($data->getVersion() == RELEASE || $data->getCategory() == 'tools') {
                     $category = 'current';
                     if ($data->getSubCategory() == 'source') {
                         $subCategory = 'source';
@@ -35,9 +38,6 @@ class DownloadsModel extends BasicModel
                     } else {
                         $subCategory = 'release';
                     }
-                } elseif ($data->getVersion() == 'Daily') {
-                    $category = 'daily';
-                    $subCategory = 'daily_downloads';
                 } elseif ($data->getVersion() == null) {
                     $category = $data->getCategory();
                     $subCategory = $data->getSubcategory();
