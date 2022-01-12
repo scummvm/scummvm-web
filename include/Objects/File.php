@@ -36,7 +36,7 @@ class File extends BasicObject
             $this->url = $url;
         } else {
             // Construct the URL based on its type
-            if ($this->category == 'scummvm' && $this->version == 'daily') {
+            if ($this->version == 'daily') {
                 $fname = DOWNLOADS_DAILY_URL . $url;
             } elseif ($this->category == 'games' || $this->category == 'addons') {
                 $fname = DOWNLOADS_EXTRAS_URL . $url;
