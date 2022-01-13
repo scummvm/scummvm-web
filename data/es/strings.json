@@ -173,5 +173,6 @@
     "directorDemosContentTitle": "Demos de Director",
     "directorDemosTitle": "Demos de Director",
     "downloadsDailyNote3": "Abre el historial de cambios (en inglés) para ver las últimas novedades de ScummVM.",
-    "compatibilityDetailsDetails": "Más información"
+    "compatibilityDetailsDetails": "Más información",
+    "downloadsBadgeTitle": "Descargar ScummVM {version}"
 }
