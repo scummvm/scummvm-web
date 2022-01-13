@@ -99,7 +99,7 @@
     "indexGithub": "Το ScummVM στο GitHub",
     "indexFacebook": "Βρείτε μας στο Facebook",
     "indexTwitter": "Ακολουθήστε μας στο Twitter",
-    "indexLegal": "Τα LucasArts, Monkey Island, Maniac Mansion, Full Throttle, The Dig, LOOM, και πιθανόν πολλά άλλα πράγματα είναι καταχωρημένα εμπορικά σήματα της [LucasArts, Inc.](http://www.lucasarts.com/). Όλα τα υπόλοιπα εμπορικά σήματα και καταχωρημένα εμπορικά σήματα ανήκουν στις αντίστοιχες εταιρείες τους. Το ScummVM δεν σχετίζεται με κανέναν τρόπο με τη LucasArts, Inc.",
+    "indexLegal": "Τα LucasArts, Monkey Island, Maniac Mansion, Full Throttle, The Dig, LOOM, και πιθανόν πολλά άλλα είναι καταχωρημένα εμπορικά σήματα της [LucasArts, Inc.](http://www.lucasarts.com/). Το Raspberry Pi είναι εμπορικό σήμα της Raspberry Pi Trading. Όλα τα υπόλοιπα εμπορικά σήματα και καταχωρημένα εμπορικά σήματα ανήκουν στις αντίστοιχες εταιρείες τους. Το ScummVM δεν σχετίζεται με κανέναν τρόπο με τη LucasArts, Inc.",
     "introHeaderWhatIs": "Τι είναι το ScummVM;",
     "introHeaderContentP1": "Το ScummVM είναι ένα πρόγραμμα που σας επιτρέπει να παίξετε κάποια κλασσικά παιχνίδια περιπέτειας και ρόλων (adventure και role-playing), υπό την προϋπόθεση ότι έχετε ήδη στην κατοχή σας τα αρχεία δεδομένων τους. Το ενδιαφέρον σε αυτή την υπόθεση είναι το εξής: το ScummVM απλά αντικαθιστά τα εκτελέσιμα που συνόδευαν τα παιχνίδια, επιτρέποντάς σας να τα παίξετε σε συστήματα για τα οποία δεν είχαν σχεδιαστεί ποτέ! To ScummVM προσφέρει μια πλήρη επαν-υλοποίηση των εκτελέσιμων αυτών των παιχνιδιών, δεν πρόκειται δηλαδή για προσομοιωτή (emulator).",
     "introHeaderContentP2": "Το ScummVM υποστηρίζει μια μεγάλη βιβλιοθήκη από παιχνίδια περιπέτειας (adventure games) με περισσότερους από 250 τίτλους συνολικά. Υποστηρίζει πολλούς από τους κλασσικούς τίτλους που έχουν εκδώσει θρυλικά στούντιο όπως οι *LucasArts*, *Sierra On-Line*, *Revolution Software*, *Cyan, Inc.* και *Westwood Studios*. Μαζί με καινοτόμους για την εποχή τους τίτλους, όπως ήταν οι σειρές *Monkey Island*, *Broken Sword*, *Myst*, *Blade Runner* και αμέτρητα άλλα παιχνίδια, θα βρείτε και μερικούς σχετικά άγνωστους τίτλους περιπέτειας και πραγματικά κρυμμένα διαμαντάκια για να εξερευνήσετε.",
@@ -172,5 +172,6 @@
     "menuMiscDirectorDemos": "Demos από Director",
     "directorDemosContentTitle": "Demos από Director",
     "directorDemosTitle": "Demos από Director",
-    "downloadsDailyNote3": "Δείτε το αρχείο καταγραφής αλλαγών (Changelog) για μια λίστα με τις πιο πρόσφατες ενημερώσεις του ScummVM."
+    "downloadsDailyNote3": "Δείτε το αρχείο καταγραφής αλλαγών (Changelog) για μια λίστα με τις πιο πρόσφατες ενημερώσεις του ScummVM.",
+    "downloadsBadgeTitle": "Λήψη ScummVM {version}"
 }
