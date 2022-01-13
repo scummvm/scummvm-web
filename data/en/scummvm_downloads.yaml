@@ -1398,7 +1398,7 @@
     version: Daily
     url: 'https://buildbot.scummvm.org/#/dailybuilds'
     name: 'ScummVM Daily Builds for other platforms'
-    description: 'Provided by our buildbot'
+    description: ''
 -
     enabled: true
     category: scummvm

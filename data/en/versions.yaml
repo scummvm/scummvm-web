@@ -314,3 +314,10 @@
     minor: '5'
     patch: '0'
     name: 'Twenty years ago today…'
+-
+    id: 2.5.1
+    release_date: 'January 2, 2022'
+    major: '2'
+    minor: '5'
+    patch: '1'
+    name: Californium
