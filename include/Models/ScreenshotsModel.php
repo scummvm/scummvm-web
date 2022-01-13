@@ -12,7 +12,6 @@ class ScreenshotsModel extends BasicModel
     const INVALID_TARGET = 'Invalid target specified.';
     const INVALID_CATEGORY = 'Invalid category specified.';
     const SUBCATEGORY_COLUMN = '(case when game.series_id is null then screenshot.id else game.series_id end)';
-    const CATEGORY_COLUMN = '(case when count > 1 then game.company_id else \'other\' end)';
 
     public function getAllCategories()
     {
