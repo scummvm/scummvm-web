@@ -3088,7 +3088,7 @@
     series_id: pajama
 -
     id: chase
-    name: 'SPY Fox in Cheese Chase'
+    name: 'SPY Fox in "Cheese Chase"'
     engine_id: scumm
     company_id: he
     moby_id: '20990'
@@ -3250,7 +3250,7 @@
     series_id: blue
 -
     id: mustard
-    name: 'SPY Fox in Hold the Mustard'
+    name: 'Spy Fox in "Hold the Mustard"'
     engine_id: scumm
     company_id: he
     moby_id: '55750'
