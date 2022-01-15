@@ -82,10 +82,10 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: flatpak
     user_agent: ''
-    version: 2.5.0
+    version: 2.5.1
     url: 'https://flathub.org/apps/details/org.scummvm.ScummVM'
     name: 'Flatpak package hosted at the flathub.org repository'
     description: ''
