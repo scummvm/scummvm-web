@@ -8,7 +8,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-win32.exe'
     name: 'Windows Installer (32 and 64 bit)'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -18,7 +18,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-win32-x86_64.zip'
     name: 'Windows zipfile (64 bit)'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -28,7 +28,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-win32.zip'
     name: 'Windows zipfile (32 bit)'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -38,7 +38,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-winxp-win32.exe'
     name: 'Windows XP Installer'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -48,7 +48,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-winxp-win32.zip'
     name: 'Windows XP zipfile (32 bit)'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -58,7 +58,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-winxp-win32-x86_64.zip'
     name: 'Windows XP zipfile (64 bit)'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -68,7 +68,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-win9x-win32.zip'
     name: 'Windows 95+ zipfile'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -78,7 +78,7 @@
     version: 2.5.1
     url: 'https://snapcraft.io/scummvm'
     name: 'Snap package hosted at the snapcraft.io store'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -88,7 +88,7 @@
     version: 2.5.1
     url: 'https://flathub.org/apps/details/org.scummvm.ScummVM'
     name: 'Flatpak package hosted at the flathub.org repository'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -98,7 +98,7 @@
     version: 2.5.1
     url: 'scummvm_{$version}-1_debian11_amd64.deb'
     name: 'Debian 11 (bullseye) x86 64bit package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -108,7 +108,7 @@
     version: 2.5.1
     url: 'scummvm_{$version}-1_debian11_i386.deb'
     name: 'Debian 11 (bullseye) i386 package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -118,7 +118,7 @@
     version: 2.5.1
     url: 'scummvm_{$version}-1_debian10_amd64.deb'
     name: 'Debian 10 (buster) x86 64bit package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -128,7 +128,7 @@
     version: 2.5.1
     url: 'scummvm_{$version}-1_debian10_i386.deb'
     name: 'Debian 10 (buster) i386 package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -138,7 +138,7 @@
     version: 2.5.1
     url: 'scummvm_{$version}-1_debian9_amd64.deb'
     name: 'Debian 9 (stretch) x86 64bit package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -148,7 +148,7 @@
     version: 2.5.1
     url: 'scummvm_{$version}-1_debian9_i386.deb'
     name: 'Debian 9 (stretch) i386 package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -158,7 +158,7 @@
     version: 1.4.1
     url: 'scummvm_{$version}-squeeze.1_powerpc.deb'
     name: 'Debian 6.0 (squeeze) PowerPC package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -168,7 +168,7 @@
     version: 2.5.1
     url: 'scummvm_{$version}-1_ubuntu21.10_amd64.deb'
     name: 'Ubuntu 21.10 (impish) x86 64bit package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -178,7 +178,7 @@
     version: 2.5.1
     url: 'scummvm_{$version}-1_ubuntu21.04_amd64.deb'
     name: 'Ubuntu 21.04 (hirsute) x86 64bit package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -188,7 +188,7 @@
     version: 2.5.1
     url: 'scummvm_{$version}-1_ubuntu20.04_amd64.deb'
     name: 'Ubuntu 20.04 LTS (focal) x86 64bit package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -198,7 +198,7 @@
     version: 2.5.1
     url: 'scummvm_{$version}-1_ubuntu18.04_amd64.deb'
     name: 'Ubuntu 18.04 LTS (bionic) x86 64bit package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -208,7 +208,7 @@
     version: 2.2.0
     url: 'scummvm_{$version}-1_ubuntu18.04-lts_i386.deb'
     name: 'Ubuntu 18.04 LTS (bionic) i386 package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -218,7 +218,7 @@
     version: 2.0.0
     url: 'scummvm-{$version}-1.x86_64.rpm'
     name: 'Fedora 24+ x86 64bit package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -228,7 +228,7 @@
     version: 1.6.0
     url: 'scummvm-{$version}-1.i386.rpm'
     name: 'Fedora 8-20+ i386 package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -238,7 +238,7 @@
     version: 1.6.0
     url: 'scummvm-{$version}_slack-i486-1.tgz'
     name: 'SlackWare i486 package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -248,7 +248,7 @@
     version: 1.6.0
     url: 'scummvm-{$version}_slack-x86_64-1.txz'
     name: 'SlackWare x86 64bit package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -258,7 +258,7 @@
     version: 0.8.0
     url: 'scummvm-{$version}-1mdk.i586.rpm'
     name: 'Mandriva 2006 package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -268,7 +268,7 @@
     version: 1.6.0
     url: 'scummvm-{$version}-solaris10-sparc.pkg.7z'
     name: 'Solaris 10 sparc, Solaris 11 sparc binary'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -278,7 +278,7 @@
     version: 1.6.0
     url: 'scummvm-{$version}-solaris10-x86.pkg.7z'
     name: 'Solaris 10 x86, Solaris 11 x86, OpenIndiana binary'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -288,7 +288,7 @@
     version: 1.4.1
     url: 'scummvm-{$version}-solaris10-x86.pkg.bz2'
     name: 'Solaris 10 (both IA32 and AMD64) binary'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -298,7 +298,7 @@
     version: 1.1.1
     url: 'scummvm-{$version}-solaris8-sparc.pkg.bz2'
     name: 'Solaris 8 and up (Sparc) binary'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -308,7 +308,7 @@
     version: 2.2.0
     url: 'scummvm-{$version}-irix-mips3.tar.gz'
     name: 'IRIX (6.5.{$version}, n32, mips3) package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -318,7 +318,7 @@
     version: 2.2.0
     url: 'scummvm-{$version}-irix-mips4.tar.gz'
     name: 'IRIX (6.5.{$version}, n32, mips4) package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -328,7 +328,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-macosx.dmg'
     name: 'macOS 10.9+ for Intel and Apple Silicon, with Sparkle Disk Image'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -338,7 +338,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-macosx-i386.dmg'
     name: 'Mac OS X 10.6+ intel 32 bits (without Sparkle) Disk Image'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -348,7 +348,7 @@
     version: 2.2.0
     url: 'scummvm-{$version}-macosx-ppc.dmg'
     name: 'Mac OS X 10.4+ PPC 32 bits (without Sparkle) Disk Image'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -358,7 +358,7 @@
     version: 0.2.0
     url: 'scummvm-{$version}-macos9.sit'
     name: 'Mac OS 9 package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -368,7 +368,7 @@
     version: 2.2.0
     url: 'scummvm-{$version}-ps3.zip'
     name: 'PlayStation 3 package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -378,7 +378,7 @@
     version: 1.7.0
     url: 'scummvm-{$version}-ps2.zip'
     name: 'PlayStation 2 package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -388,7 +388,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-psp.zip'
     name: 'PSP (PlayStation Portable) package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -398,7 +398,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-vita.vpk'
     name: 'PlayStation Vita package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -408,7 +408,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-vita-other-engines.vpk'
     name: 'PlayStation Vita package (other engines)'
-    description: 'This version contains only the engines that were removed from the regular build due to memory constraints: bladerunner, glk, myst3, grim, and titanic. It can be installed alongside the regular build. After installation, it will appear on the Vita home screen as an additional app with the name “ScummVM_other_engines”.'
+    notes: 'This version contains only the engines that were removed from the regular build due to memory constraints: bladerunner, glk, myst3, grim, and titanic. It can be installed alongside the regular build. After installation, it will appear on the Vita home screen as an additional app with the name “ScummVM_other_engines”.'
 -
     enabled: true
     category: scummvm
@@ -418,7 +418,7 @@
     version: 2.5.0
     url: 'https://play.google.com/store/apps/details?id=org.scummvm.scummvm'
     name: 'Android app on Google Play Store'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -428,7 +428,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-android-arm-v7a.apk'
     name: 'Android ARMv7a package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -438,7 +438,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-android-arm64-v8a.apk'
     name: 'Android ARM64v8a package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -448,7 +448,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-android-x86.apk'
     name: 'Android x86 32bit package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -458,7 +458,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-android-x86_64.apk'
     name: 'Android x86 64bit package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -468,7 +468,7 @@
     version: 2.0.0
     url: 'scummvm-{$version}-android-all.apk'
     name: 'Android package (all architectures)'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -478,7 +478,7 @@
     version: 1.9.0
     url: 'scummvm-{$version}-android-mips.apk'
     name: 'Android MIPS package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -488,7 +488,7 @@
     version: 2.2.0
     url: 'scummvm-{$version}.1-SymbianS60.zip'
     name: 'Symbian S60 split binary'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -498,7 +498,7 @@
     version: 1.7.0
     url: 'scummvm-{$version}-uiq3.zip'
     name: 'Symbian UIQ 3 binary'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -508,7 +508,7 @@
     version: 0.9.1
     url: 'scummvm-{$version}-s60-v1.sis'
     name: 'Symbian S60 version 1 binary'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -518,7 +518,7 @@
     version: 0.9.1
     url: 'scummvm-{$version}-s60-v2.sis'
     name: 'Symbian S60 version 2 binary'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -528,7 +528,7 @@
     version: 0.9.1
     url: 'scummvm-{$version}-s80.sis'
     name: 'Symbian S80 binary'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -538,7 +538,7 @@
     version: 0.9.1
     url: 'scummvm-{$version}-s90.sis'
     name: 'Symbian S90 binary'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -548,7 +548,7 @@
     version: 0.9.1
     url: 'scummvm-{$version}-uiq2.sis'
     name: 'Symbian UIQ 2 binary'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -558,7 +558,7 @@
     version: 1.9.0
     url: 'scummvm-{$version}-android-ouya.apk'
     name: 'OUYA package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -568,7 +568,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-ios.deb'
     name: 'iOS 8+ package .deb'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -578,7 +578,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-ios.ipa'
     name: 'iOS 8+ package .ipa'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -588,7 +588,7 @@
     version: 2.2.0
     url: 'scummvm-{$version}-ios3.deb'
     name: 'iOS 3+ package .deb'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -598,7 +598,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-dreamcast-plainfiles.tar.bz2'
     name: 'Dreamcast plain files'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -608,7 +608,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-dreamcast-nero+demos.zip'
     name: 'Dreamcast Nero Image & Demos'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -618,7 +618,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-ds.zip'
     name: 'Nintendo DS package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -628,7 +628,7 @@
     version: 2.2.0
     url: 'scummvm-{$version}-3ds.zip'
     name: 'Nintendo 3DS package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -638,7 +638,7 @@
     version: 1.6.0
     url: 'scummvm-{$version}-n64.zip'
     name: 'Nintendo 64 package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -648,7 +648,7 @@
     version: 1.5.0
     url: 'scummvm-{$version}-gamecube.zip'
     name: 'Nintendo GameCube package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -658,7 +658,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-wii.zip'
     name: 'Wii package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -668,7 +668,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-switch.zip'
     name: 'Nintendo Switch package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -678,7 +678,7 @@
     version: 2.2.0
     url: 'scummvm-{$version}-openpandora.zip'
     name: 'OpenPandora package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -688,7 +688,7 @@
     version: 1.7.0
     url: 'scummvm-{$version}-gp2x.tar.bz2'
     name: 'GP2X package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -698,7 +698,7 @@
     version: 1.7.0
     url: 'scummvm-{$version}-gp2xwiz.tar.bz2'
     name: 'GP2X Wiz package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -708,7 +708,7 @@
     version: 1.7.0
     url: 'scummvm-{$version}-caanoo.tar.bz2'
     name: 'Caanoo package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -718,7 +718,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-gcw0.opk'
     name: 'GCW-Zero package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -728,7 +728,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-lepus.opk'
     name: 'OpenDingux package for Lepus'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -738,7 +738,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-rg99.opk'
     name: 'OpenDingux package for RG99'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -748,7 +748,7 @@
     version: 2.1.1
     url: 'scummvm_{$version}-maemo_armel.deb'
     name: 'Maemo package (OS 2008 and Maemo5/Fremantle)'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -758,7 +758,7 @@
     version: 1.7.0
     url: 'scummvm-{$version}-webos.zip'
     name: 'WebOS package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -768,7 +768,7 @@
     version: 1.7.0
     url: 'scummvm-{$version}-tizen.tpk'
     name: 'Tizen package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -778,7 +778,7 @@
     version: 1.3.0
     url: 'scummvm-{$version}-motoezx.pkg'
     name: 'Motorola A1200, ROKR E6, A1600 package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -788,7 +788,7 @@
     version: 1.3.0
     url: 'scummvm-{$version}-motomagx.mgx'
     name: 'Motorola E8, EM30, ZN5, U9 package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -798,7 +798,7 @@
     version: 1.3.0
     url: 'scummvm-{$version}-motomagx.pep'
     name: 'Motorola Z6, V8 package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -808,7 +808,7 @@
     version: 1.3.0
     url: 'scummvm-{$version}-motomagx.mpkg'
     name: 'Motorola Z6, V8 package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -818,7 +818,7 @@
     version: 1.5.0
     url: 'scummvm-{$version}-wince.zip'
     name: 'Windows CE ARM package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -828,7 +828,7 @@
     version: 0.7.1
     url: 'scummvm-{$version}-PocketPC_MIPS.zip'
     name: 'PocketPC MIPS binary'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -838,7 +838,7 @@
     version: 0.7.1
     url: 'scummvm-{$version}-PocketPC_SH3.zip'
     name: 'PocketPC SH3 binary'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -848,7 +848,7 @@
     version: 0.7.1
     url: 'scummvm-{$version}-HandheldPC_ARM.zip'
     name: 'HandheldPC ARM binary'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -858,7 +858,7 @@
     version: 0.7.1
     url: 'scummvm-{$version}-HandheldPC_MIPS.zip'
     name: 'HandheldPC MIPS binary'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -868,7 +868,7 @@
     version: 0.7.1
     url: 'scummvm-{$version}-HandheldPC_SH3.zip'
     name: 'HandheldPC SH3 binary'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -878,7 +878,7 @@
     version: 0.11.1
     url: 'scummvm-{$version}-palmos-os5.zip'
     name: 'PalmOS 5 binary'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -888,7 +888,7 @@
     version: 0.11.1
     url: 'scummvm-{$version}-palmos-zodiac.zip'
     name: 'PalmOS Tapwave Zodiac binary'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -898,7 +898,7 @@
     version: 0.11.1
     url: 'scummvm-{$version}-opie_arm.ipk'
     name: 'Opie SDL package Only for iPAQ h1910/h1915 and MyPal 716'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -908,7 +908,7 @@
     version: 1.0.0
     url: 'scummvm-{$version}-beos.tgz'
     name: 'BeOS package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -918,7 +918,7 @@
     version: 2.5.1
     url: 'scummvm_x86-{$version}-1-x86_gcc2.hpkg'
     name: 'Haiku package 32bits'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -928,7 +928,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-1-x86_64.hpkg'
     name: 'Haiku package 64bits'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -938,7 +938,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-amigaos4.lha'
     name: 'AmigaOS 4 package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -948,7 +948,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-morphos.lha'
     name: 'MorphOS package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -958,7 +958,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-riscos.zip'
     name: 'RISC OS package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -968,7 +968,7 @@
     version: 2.2.0
     url: 'scummvm-{$version}-riscos-vfp.zip'
     name: 'RISC OS VFP package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -978,7 +978,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-atari-m68000.zip'
     name: 'Atari/FreeMiNT package (m68000 and up)'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -988,7 +988,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-atari-m68020-60.zip'
     name: 'Atari/FreeMiNT package (m68020 - m68060)'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -998,7 +998,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}-atari-m5475.zip'
     name: 'Atari/FreeMiNT package (Coldfire MCF5475 / Firebee)'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -1008,7 +1008,7 @@
     version: 2.2.0
     url: 'scummvm-{$version}-samsungtv.zip'
     name: 'Samsung TV package (2009 series)'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -1018,7 +1018,7 @@
     version: 2.2.0
     url: 'scummvm-{$version}-raspberrypi-armhf.AppImage'
     name: 'Raspberry Pi 3/4/400 with Raspberry Pi OS 32 bits (armhf) (AppImage)'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -1028,7 +1028,7 @@
     version: 2.2.0
     url: 'scummvm-{$version}-raspberrypi-aarch64.AppImage'
     name: 'Raspberry Pi 3/4/400 with Raspberry Pi OS 64 bits (aarch64) (AppImage)'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -1038,7 +1038,7 @@
     version: 1.9.0
     url: 'scummvm-{$version}-raspberrypi.tar.gz'
     name: 'Raspberry Pi package (for Pi 2 and 3)'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -1048,7 +1048,7 @@
     version: 1.9.0
     url: 'scummvm-{$version}-os2.zip'
     name: 'OS/2 package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -1058,7 +1058,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}.tar.lz'
     name: 'ScummVM - Source.tar.lz'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -1068,7 +1068,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}.tar.xz'
     name: 'ScummVM - Source.tar.xz'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -1078,7 +1078,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}.tar.bz2'
     name: 'ScummVM - Source.tar.bz2'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -1088,7 +1088,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}.tar.gz'
     name: 'ScummVM - Source.tar.gz'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -1098,7 +1098,7 @@
     version: 2.5.1
     url: 'scummvm-{$version}.zip'
     name: 'ScummVM - Source.zip'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm-tools
@@ -1108,7 +1108,7 @@
     version: 2.5.0
     url: 'scummvm-tools-{$version}-win32.zip'
     name: 'Tools - Windows 32bit zipfile'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm-tools
@@ -1118,7 +1118,7 @@
     version: 2.5.0
     url: 'scummvm-tools-{$version}-win32-x86_64.zip'
     name: 'Tools - Windows 64bit zipfile'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm-tools
@@ -1128,7 +1128,7 @@
     version: 2.5.0
     url: 'scummvm-tools-{$version}-macosx.dmg'
     name: 'Tools - Mac OS X Intel binaries (10.6 and up)'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm-tools
@@ -1138,7 +1138,7 @@
     version: 2.5.0
     url: 'scummvm_tools_x86-{$version}-1-x86_gcc2.hpkg'
     name: 'Tools - Haiku package 32 bits package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm-tools
@@ -1148,7 +1148,7 @@
     version: 2.5.0
     url: 'scummvm_tools-{$version}-1-x86_64.hpkg'
     name: 'Tools - Haiku package 64 bits package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm-tools
@@ -1158,7 +1158,7 @@
     version: 2.5.0
     url: 'scummvm-tools-{$version}-amigaos4.lha'
     name: 'Tools - AmigaOS 4 package'
-    description: ''
+    notes: ''
 -
     enabled: false
     category: scummvm-tools
@@ -1168,7 +1168,7 @@
     version: 2.5.0
     url: 'scummvm-tools-{$version}-morphos.lha'
     name: 'Tools - MorphOS package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm-tools
@@ -1178,7 +1178,7 @@
     version: 2.5.0
     url: 'scummvm-tools-{$version}-riscos.zip'
     name: 'Tools - RISC OS package'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm-tools
@@ -1188,7 +1188,7 @@
     version: 2.5.0
     url: 'scummvm-tools-{$version}-atari-m68000.zip'
     name: 'Tools - Atari/FreeMiNT package (68000 and up)'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm-tools
@@ -1198,7 +1198,7 @@
     version: 2.5.0
     url: 'scummvm-tools-{$version}-atari-m68020-60.zip '
     name: 'Tools - Atari/FreeMiNT package (m68020 - m68060)'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm-tools
@@ -1208,7 +1208,7 @@
     version: 2.5.0
     url: 'scummvm-tools-{$version}-atari-m5475.zip'
     name: 'Tools - Atari/FreeMiNT package (Coldfire MCF5475 / Firebee)'
-    description: ''
+    notes: ''
 -
     enabled: false
     category: scummvm-tools
@@ -1218,7 +1218,7 @@
     version: 2.5.0
     url: 'scummvm-tools-{$version}-win32.exe'
     name: 'Tools - Windows Installer'
-    description: ''
+    notes: ''
 -
     enabled: false
     category: scummvm-tools
@@ -1228,7 +1228,7 @@
     version: 2.5.0
     url: 'scummvm-tools-{$version}-1_F11.i586.rpm'
     name: 'Tools - Fedora 11 and 12 i586 RPM'
-    description: ''
+    notes: ''
 -
     enabled: false
     category: scummvm-tools
@@ -1238,7 +1238,7 @@
     version: 2.5.0
     url: 'scummvm-tools-{$version}-1_F11.x86_64.rpm'
     name: 'Tools - Fedora 11 and 12 x86 64bit RPM'
-    description: ''
+    notes: ''
 -
     enabled: false
     category: scummvm-tools
@@ -1248,7 +1248,7 @@
     version: 2.5.0
     url: 'scummvm-tools-{$version}-solaris8-sparc.pkg.bz2'
     name: 'Tools - Solaris 8 (Sparc)'
-    description: ''
+    notes: ''
 -
     enabled: false
     category: scummvm-tools
@@ -1258,7 +1258,7 @@
     version: 2.5.0
     url: 'scummvm-tools-{$version}-solaris10-x86.pkg.bz2'
     name: 'Tools - Solaris 10 (both IA32 and AMD64)'
-    description: ''
+    notes: ''
 -
     enabled: false
     category: scummvm-tools
@@ -1268,7 +1268,7 @@
     version: 2.5.0
     url: 'scummvm-tools-{$version}-irix-mips3.tar.bz2'
     name: 'Tools - IRIX (6.5.{$version}, n32, mips3) package'
-    description: ''
+    notes: ''
 -
     enabled: false
     category: scummvm-tools
@@ -1278,7 +1278,7 @@
     version: 2.5.0
     url: 'scummvm-tools-{$version}-irix-mips4.tar.bz2'
     name: 'Tools - IRIX (6.5.{$version}, n32, mips4) package'
-    description: ''
+    notes: ''
 -
     enabled: false
     category: scummvm-tools
@@ -1288,7 +1288,7 @@
     version: 2.5.0
     url: 'scummvm-tools-{$version}-beos.tgz'
     name: 'Tools - BeOS'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm-tools
@@ -1298,7 +1298,7 @@
     version: 2.5.0
     url: 'scummvm-tools-{$version}.tar.lz'
     name: 'Tools - Source.tar.lz'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm-tools
@@ -1308,7 +1308,7 @@
     version: 2.5.0
     url: 'scummvm-tools-{$version}.tar.xz'
     name: 'Tools - Source.tar.xz'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm-tools
@@ -1318,7 +1318,7 @@
     version: 2.5.0
     url: 'scummvm-tools-{$version}.tar.bz2'
     name: 'Tools - Source.tar.bz2'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm-tools
@@ -1328,7 +1328,7 @@
     version: 2.5.0
     url: 'scummvm-tools-{$version}.tar.gz'
     name: 'Tools - Source.tar.gz'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm-tools
@@ -1338,7 +1338,7 @@
     version: 2.5.0
     url: 'scummvm-tools-{$version}.zip'
     name: 'Tools - Source.zip'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -1348,7 +1348,7 @@
     version: Daily
     url: scummvm-snapshot-win32.exe
     name: 'ScummVM Daily Build - Windows Installer'
-    description: ''
+    notes: ''
 -
     enabled: false
     category: scummvm
@@ -1358,7 +1358,7 @@
     version: Daily
     url: scummvm_debian_i386.deb
     name: 'ScummVM Daily Build - Debian i386'
-    description: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
+    notes: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
 -
     enabled: false
     category: scummvm
@@ -1368,7 +1368,7 @@
     version: Daily
     url: scummvm_debian_amd64.deb
     name: 'ScummVM Daily Build - Debian x86_64'
-    description: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
+    notes: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
 -
     enabled: false
     category: scummvm
@@ -1378,7 +1378,7 @@
     version: Daily
     url: scummvm_ubuntu_i386.deb
     name: 'ScummVM Daily Build - Ubuntu i386'
-    description: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
+    notes: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
 -
     enabled: false
     category: scummvm
@@ -1388,7 +1388,7 @@
     version: Daily
     url: scummvm_ubuntu_amd64.deb
     name: 'ScummVM Daily Build - Ubuntu x86_64'
-    description: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
+    notes: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
 -
     enabled: true
     category: scummvm
@@ -1398,7 +1398,7 @@
     version: Daily
     url: 'https://buildbot.scummvm.org/#/dailybuilds'
     name: 'ScummVM Daily Builds for other platforms'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: scummvm
@@ -1408,7 +1408,7 @@
     version: Daily
     url: 'https://github.com/scummvm/scummvm'
     name: 'ScummVM Git Repository'
-    description: '(for if you wish to retrieve the latest code to compile yourself)'
+    notes: 'For if you wish to retrieve the latest code to compile yourself'
 -
     enabled: true
     category: scummvm-tools
@@ -1418,7 +1418,7 @@
     version: Daily
     url: scummvm-tools-snapshot-win32.zip
     name: 'Tools Daily Build - Windows zipfile'
-    description: ''
+    notes: ''
 -
     enabled: true
     category: libs
@@ -1428,7 +1428,7 @@
     version: ''
     url: 'http://www.libsdl.org/download-2.0.php'
     name: 'SDL 2.0.x'
-    description: '(or SDL 1.2.x)'
+    notes: '(or SDL 1.2.x)'
 -
     enabled: true
     category: libs
@@ -1438,7 +1438,7 @@
     version: ''
     url: 'http://www.underbit.com/products/mad/'
     name: MAD
-    description: 'MPEG Audio Decoder'
+    notes: 'MPEG Audio Decoder'
 -
     enabled: true
     category: libs
@@ -1448,7 +1448,7 @@
     version: ''
     url: 'http://www.xiph.org/vorbis/'
     name: 'Ogg Vorbis'
-    description: 'A free codec for lossy audio compression'
+    notes: 'A free codec for lossy audio compression'
 -
     enabled: true
     category: libs
@@ -1458,7 +1458,7 @@
     version: ''
     url: 'https://xiph.org/flac/'
     name: FLAC
-    description: 'Free Lossless Audio Codec'
+    notes: 'Free Lossless Audio Codec'
 -
     enabled: true
     category: libs
@@ -1468,7 +1468,7 @@
     version: ''
     url: 'http://liba52.sourceforge.net'
     name: liba52
-    description: 'ATSC A/52 stream decoder'
+    notes: 'ATSC A/52 stream decoder'
 -
     enabled: true
     category: libs
@@ -1478,7 +1478,7 @@
     version: ''
     url: 'https://github.com/knik0/faad2'
     name: FAAD2
-    description: 'MPEG-4 and MPEG-2 AAC Decoder'
+    notes: 'MPEG-4 and MPEG-2 AAC Decoder'
 -
     enabled: true
     category: libs
@@ -1488,7 +1488,7 @@
     version: ''
     url: 'http://theora.org/'
     name: Theora
-    description: 'Theora Decoder'
+    notes: 'Theora Decoder'
 -
     enabled: true
     category: libs
@@ -1498,7 +1498,7 @@
     version: ''
     url: 'http://libmpeg2.sourceforge.net/'
     name: mpeg2
-    description: 'mpeg2 Decoder'
+    notes: 'mpeg2 Decoder'
 -
     enabled: true
     category: libs
@@ -1508,7 +1508,7 @@
     version: ''
     url: 'http://www.libpng.org/pub/png/libpng.html'
     name: png
-    description: 'png image format decoder'
+    notes: 'png image format decoder'
 -
     enabled: true
     category: libs
@@ -1518,7 +1518,7 @@
     version: ''
     url: 'http://www.ijg.org'
     name: jpeg
-    description: '(or jpeg-turbo) jpeg image format decoder'
+    notes: '(or jpeg-turbo) jpeg image format decoder'
 -
     enabled: true
     category: libs
@@ -1528,7 +1528,7 @@
     version: ''
     url: 'http://giflib.sourceforge.net'
     name: giflib
-    description: 'gif image format decoder'
+    notes: 'gif image format decoder'
 -
     enabled: true
     category: libs
@@ -1538,7 +1538,7 @@
     version: ''
     url: 'http://zlib.net/'
     name: zlib
-    description: 'Data Compression'
+    notes: 'Data Compression'
 -
     enabled: true
     category: libs
@@ -1548,7 +1548,7 @@
     version: ''
     url: 'http://www.fluidsynth.org/'
     name: FluidSynth
-    description: 'Real-Time Software MIDI Synthesizer'
+    notes: 'Real-Time Software MIDI Synthesizer'
 -
     enabled: true
     category: libs
@@ -1558,7 +1558,7 @@
     version: ''
     url: 'http://libtimidity.sourceforge.net/'
     name: Timidity
-    description: 'MIDI to WAVE converter library'
+    notes: 'MIDI to WAVE converter library'
 -
     enabled: true
     category: libs
@@ -1568,7 +1568,7 @@
     version: ''
     url: 'http://www.freetype.org/'
     name: FreeType
-    description: 'Font rendering'
+    notes: 'Font rendering'
 -
     enabled: true
     category: libs
@@ -1578,7 +1578,7 @@
     version: ''
     url: 'https://github.com/fribidi/fribidi'
     name: FriBiDi
-    description: 'Bidirectional text support'
+    notes: 'Bidirectional text support'
 -
     enabled: true
     category: libs
@@ -1588,7 +1588,7 @@
     version: ''
     url: 'https://www.libsdl.org/projects/SDL_net/'
     name: 'SDL_net 2.0'
-    description: 'Networking library'
+    notes: 'Networking library'
 -
     enabled: true
     category: libs
@@ -1598,4 +1598,4 @@
     version: ''
     url: 'https://curl.haxx.se/libcurl/'
     name: curl
-    description: 'URL transfer library'
+    notes: 'URL transfer library'

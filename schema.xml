@@ -103,7 +103,7 @@
   </table>
   <table name="scummvm_downloads" phpName="Download">
     <column name="name" type="varchar" size="255" required="true"/>
-    <column name="description" type="varchar" size="255"/>
+    <column name="notes" type="varchar" size="255"/>
     <column name="subcategory" type="varchar" size="24" required="true"/>
     <column name="category" type="varchar" size="24" required="true"/>
     <column name="category_icon" type="varchar" size="24"/>
