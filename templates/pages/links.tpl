@@ -14,7 +14,7 @@
             <div class="linkhead">
                 <a href="{$link->getURL()}">{$link->getName()}</a>
             </div>
-            <div class="linkbody">{$link->getDescription()}</div>
+            <div class="linkbody">{$link->getNotes()}</div>
         </div>
         {/foreach}
     </div>

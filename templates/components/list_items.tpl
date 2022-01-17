@@ -8,18 +8,19 @@
                     <a href="{eval var=$item->getURL()|release|download}">{eval var=$item->getName()}</a>
                     {strip}
                         <span class="download-extras">
-                            {if is_array($data)}
+                            {if is_array($data) && !empty($data)}
                                 (
-                                {$data.size} {$data.ext}{if $data.date != ""}{#listItemsDate#} {$data.date}{/if}
-                                {if $data.sha256 != ""}, <span class="sha256-toggle" onclick="this.nextSibling.classList.toggle('hidden')">sha256</span><span class="sha256-text hidden"> <a href="{{eval var=$item->getURL()}|release|download}.sha256">{$data.sha256}</a></span>{/if}
-                                ) {if $data.msg != ""}{$data.msg}{/if}
+                                {if isset($data.size)}{$data.size}{/if} {if isset($data.ext)}{$data.ext}{/if}{if isset($data.date)}{#listItemsDate#} {$data.date}{/if}
+                                {if isset($data.sha256)}, <span class="sha256-toggle" onclick="this.nextSibling.classList.toggle('hidden')">sha256</span><span class="sha256-text hidden"> <a href="{{eval var=$item->getURL()}|release|download}.sha256">{$data.sha256}</a></span>{/if}
+                                ){if $item->getNotes() != ''}&nbsp;{/if}
                             {/if}
+                            {$item->getNotes()}
                         </span>
                     {/strip}
                 </li>
             {elseif $item instanceof ScummVM\Objects\WebLink}
                 <li class="link">
-                    <a href="{$item->getURL()}">{$item->getName()}</a>: {$item->getDescription()}
+                    <a href="{$item->getURL()}">{$item->getName()}</a>: {$item->getNotes()}
                 </li>
             {elseif $type === 'screenshot_categories'}
                 <li class="file">

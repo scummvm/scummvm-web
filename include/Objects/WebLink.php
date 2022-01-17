@@ -6,13 +6,20 @@ namespace ScummVM\Objects;
  */
 class WebLink extends BasicObject
 {
+    private $notes;
     private $url;
 
     /* WebLink object constructor. */
     public function __construct($data)
     {
         parent::__construct($data);
+        $this->notes = $data['notes'];
         $this->url = $data['url'];
+    }
+
+    public function getNotes()
+    {
+        return $this->notes;
     }
 
     /* Get the URL of the link. */

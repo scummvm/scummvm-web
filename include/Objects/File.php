@@ -11,6 +11,7 @@ class File extends BasicObject
     private $category_icon;
     private $url;
     private $extra_info;
+    private $notes;
     private $user_agent;
 
     public function __construct($data, $baseUrl = null)
@@ -18,6 +19,7 @@ class File extends BasicObject
         parent::__construct($data);
         $this->category = $data['category'];
         $this->category_icon = $data['category_icon'];
+        $this->notes = isset($data['notes']) ? $data['notes'] : '';
         $this->subcategory = $data['subcategory'] ?? null;
         $this->user_agent = isset($data["user_agent"]) ? $data["user_agent"] : "";
         $this->version = strtolower($data['version'] ?? null);
@@ -31,6 +33,7 @@ class File extends BasicObject
             $attributes = $data['url']['@attributes'];
         }
 
+        $this->extra_info = array();
         if (preg_match('/^((https?)|(ftp)):\/\//', $url)) {
             // If the URL is given, keep it as is
             $this->url = $url;
@@ -48,12 +51,10 @@ class File extends BasicObject
             $fname = str_replace('{$version}', "$this->version", $fname);
 
             if (FileUtils::exists($fname)) {
-                $this->extra_info = array();
                 $this->extra_info['size'] = FileUtils::getFileSize($fname);
                 $this->extra_info['sha256'] = FileUtils::getSha256($fname);
                 $this->extra_info['ext'] = FileUtils::getExtension($fname);
                 $this->extra_info['date'] = FileUtils::getLastModified($fname);
-                $this->extra_info['msg'] = isset($data['notes']) ? $data['notes'] : '';
             }
             $this->url = $fname;
         }
@@ -75,6 +76,11 @@ class File extends BasicObject
     public function getExtraInfo()
     {
         return $this->extra_info;
+    }
+
+    public function getNotes()
+    {
+        return $this->notes;
     }
 
     /* Get the user-agent. */
