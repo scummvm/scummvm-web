@@ -8,9 +8,6 @@ class Constants
         /* Current version. */
         define('RELEASE', '2.5.1');
         define('RELEASE_TOOLS', '2.5.0');
-        define('RELEASE_DEBIAN', '2.2.0');
-        define('RELEASE_SNAP_STORE', '2.5.1');
-        define('RELEASE_ANDROID_STORE', '2.5.0');
 
         /* News items on the front page. */
         define('NEWS_ITEMS', 5);
