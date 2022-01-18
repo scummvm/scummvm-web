@@ -107,6 +107,7 @@ class DownloadsModel extends BasicModel
         // If we found a user agent for this platform, then generate a download link
         if (!empty($downloads) && ($downloads[0] !== null)) {
             $download = $downloads[0];
+            $version = $download->getVersion();
 
             $name = strip_tags($download->getName());
             if (str_starts_with($download->getURL(), 'http')) {
@@ -114,7 +115,6 @@ class DownloadsModel extends BasicModel
                 $url = str_replace('{$version}', $version, $url);
             } else {
                 // Construct the URL and fill in the version
-                $version = $download->getVersion();
                 $file_name = str_replace('{$version}', $version, DOWNLOADS_URL . $download->getURL());
                 $url = DOWNLOADS_BASE .  "/" . $file_name;
                 if (FileUtils::exists($file_name)) {
@@ -122,17 +122,7 @@ class DownloadsModel extends BasicModel
                 }
             }
 
-            /*
-            Get the version information for our store releases for
-            Android and the Snap store. Since we can't rely on the
-            file names here, we set them via Constants.php
-            */
-            if ($os['name'] === 'Android') {
-                $version = RELEASE_ANDROID_STORE;
-            }
-
             if ($os['name'] === 'Ubuntu') {
-                $version = RELEASE_SNAP_STORE;
                 $extra_text = '(snap install scummvm)';
             }
 
