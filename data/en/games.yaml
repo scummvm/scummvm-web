@@ -5462,3 +5462,12 @@
     datafiles: 'https://wiki.scummvm.org/index.php?title=Hades_Challenge'
     wikipedia_page: 'Hercules_(franchise)#Hades_Challenge'
     series_id: ''
+-
+    id: sinistersix
+    name: 'Marvel Comics Spider-Man: The Sinister Six'
+    engine_id: hypno
+    company_id: brooklyn
+    moby_id: ''
+    datafiles: ''
+    wikipedia_page: 'Spider-Man_in_video_games#Spider-Man:_The_Sinister_Six'
+    series_id: ''

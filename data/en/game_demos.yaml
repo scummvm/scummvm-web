@@ -606,9 +606,14 @@
     url: /frs/demos/gob/archibald-dos-ni-demo1-en.zip
 -
     id: dynasty
-    platform: dos
+    platform: win
     category: Non-Interactive
-    url: /frs/demos/gob/dynasty-win-ni-demo-en.zip
+    url: /frs/demos/gob/dynasty-win-ni-demo1-en.zip
+-
+    id: dynasty
+    platform: win
+    category: Non-Interactive
+    url: /frs/demos/gob/dynasty-win-ni-demo2-en.zip
 -
     id: gob2
     platform: amiga
@@ -1605,6 +1610,11 @@
     category: Non-Interactive
     url: /frs/demos/agos/simon2-dos-cd-ni-demo-de.zip
 -
+    id: sinistersix
+    platform: dos
+    category: ''
+    url: /frs/demos/hypno/sinistersix-dos-demo-en.zip
+-
     id: sky
     platform: dos
     category: Non-Interactive
@@ -1734,6 +1744,21 @@
     platform: dos
     category: ''
     url: /frs/demos/startrek/st25-dos-demo-en.zip
+-
+    id: st25
+    platform: dos
+    category: CD
+    url: /frs/demos/startrek/st25-dos-demo-cd-en.zip
+-
+    id: stjr
+    platform: dos
+    category: ''
+    url: /frs/demos/startrek/stjr-dos-demo-en.zip
+-
+    id: st25
+    platform: mac
+    category: ''
+    url: /frs/demos/startrek/st25-mac-demo-en.zip
 -
     id: sword1
     platform: win

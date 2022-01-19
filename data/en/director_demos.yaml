@@ -612,14 +612,14 @@
     id: ironhelix
     platform: mac
     lang: en
-    title: 'Iron Helix'
+    title: 'Iron Helix (1992)'
     version: '3'
     url: /frs/demos/director/d3/en/ironhelix-demo-mac-1992.zip
 -
     id: ironhelix
     platform: mac
     lang: en
-    title: 'Iron Helix'
+    title: 'Iron Helix (1994)'
     version: '3'
     url: /frs/demos/director/d3/en/ironhelix-demo-mac-1994.zip
 -
@@ -629,6 +629,13 @@
     title: 'Iron Helix'
     version: '3'
     url: /frs/demos/director/d3/ja/ironhelix-demo-mac-jp.zip
+-
+    id: jman
+    platform: mac
+    lang: en
+    title: 'The Journeyman Project (v1.2)'
+    version: '3'
+    url: /frs/demos/director/d3/en/jman-demo-mac-12.zip
 -
     id: jointnet
     platform: mac
