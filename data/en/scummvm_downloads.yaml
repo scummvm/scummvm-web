@@ -362,10 +362,10 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: ps3
     user_agent: ''
-    version: 2.2.0
+    version: 2.5.1
     url: 'scummvm-{$version}-ps3.zip'
     name: 'PlayStation 3 package'
     notes: ''
