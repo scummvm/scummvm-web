@@ -555,6 +555,11 @@
     category: ''
     url: /frs/demos/scumm/ft-mac-demo-en.zip
 -
+    id: ft
+    platform: mac
+    category: Trailer
+    url: /frs/demos/scumm/ft-mac-ni-demo-en.zip
+-
     id: fullpipe
     platform: win
     category: Russian
