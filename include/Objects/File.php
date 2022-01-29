@@ -17,6 +17,7 @@ class File extends BasicObject
     public function __construct($data, $baseUrl = null)
     {
         parent::__construct($data);
+        $this->autoId = $data['autoId'] ?? null;
         $this->category = $data['category'];
         $this->category_icon = $data['category_icon'];
         $this->notes = isset($data['notes']) ? $data['notes'] : '';
