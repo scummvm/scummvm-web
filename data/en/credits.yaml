@@ -676,6 +676,10 @@
         alias: "giucam"
         description: "Grim (retired)"
       -
+        name: "Daniel Schepler"
+        alias: ""
+        description: "Initial engine contributor"
+      -
         name: "Dries Harnie"
         alias: "Botje"
         description: "EMI"
@@ -757,6 +761,13 @@
       -
         name: "Eugene Sandulenko"
         alias: "sev"
+        description: ""
+    -
+      name: "Hypno"
+      person:
+      -
+        name: "Gustavo Grieco"
+        alias: "neuromancer"
         description: ""
     -
       name: "ICB"
@@ -1160,6 +1171,10 @@
         name: "Torbj&ouml;rn Andersson"
         alias: "eriktorbjorn"
         description: ""
+      -
+        name: "Andrea Boscarino"
+        alias: "AndywinXp"
+        description: "Digital iMUSE, various fixes"
       -
         name: "James Brown"
         alias: "ender"
@@ -1850,7 +1865,7 @@
         alias: "rsn8887"
         description: ""
     -
-      name: "SDL (Win/Linux/OS X/etc.)"
+      name: "SDL (Win/Linux/macOS/etc.)"
       person:
       -
         name: "Max Horn"
