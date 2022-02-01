@@ -1,0 +1,15 @@
+---
+title: Can you survive six of your deadliest foes? 🕷
+author: gu3
+date: 1643740321
+---
+
+_Marvel Comics Spider-Man: The Sinister Six_, the first supported game of the [Hypno engine](https://wiki.scummvm.org/index.php?title=Hypno), is ready for public testing!
+
+Get ready to defeat Spidey’s arch-enemies: Dr. Octopus, Hobgoblin, Shocker, Chameleon, Mysterio, and Vulture! 🕷
+
+Released by _Brooklyn Multimedia_ in 1996, this action-adventure game lets you play as Peter Parker, better known as Spider-Man. There are six different story lines and outcomes based on how you play and four difficulty settings.
+
+ScummVM currently supports the English and Spanish releases out of the box. Support for the Hebrew release will be available soon. A German release also exists, but we need help finding a copy before it can be supported. Please [contact us](https://www.scummvm.org/contact/) if you have one.
+
+To play any of these supported releases, you will need a [daily development build](https://www.scummvm.org/downloads/#daily). As always, please submit your bug reports to our [issue tracker](https://bugs.scummvm.org/).
