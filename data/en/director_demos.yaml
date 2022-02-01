@@ -1316,12 +1316,12 @@
     version: '3'
     url: /frs/demos/director/d3/en/ultrobot-demo-win.zip
 -
-    id: vcb
+    id: vcbe
     platform: mac
     lang: ja
     title: 'Virtual Cocktail Bar 200種類のカクテルのデータベース'
     version: '3'
-    url: /frs/demos/director/d3/ja/vcb-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/vcbe-demo-mac-ja.zip
 -
     id: verttice
     platform: mac

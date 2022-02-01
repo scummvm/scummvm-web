@@ -4017,3 +4017,10 @@
     since_version: DEV
     stable_platforms: 'win,mac'
     unstable_platforms: ''
+-
+    id: sinistersix
+    support: good
+    notes: '- English and Spanish versions supported - Minor missing features (original fonts and back to menu)'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
