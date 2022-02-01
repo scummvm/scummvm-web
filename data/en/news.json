@@ -1,8 +1,4 @@
 {
-    "1643740321": {
-        "title": "Can you survive six of your deadliest foes? 🕷",
-        "content": "_Marvel Comics Spider-Man: The Sinister Six_, the first supported game of the [Hypno engine](https://wiki.scummvm.org/index.php?title=Hypno), is ready for public testing!\n\nGet ready to defeat Spidey’s arch-enemies: Dr. Octopus, Hobgoblin, Shocker, Chameleon, Mysterio, and Vulture! 🕷\n\nReleased by _Brooklyn Multimedia_ in 1996, this action-adventure game lets you play as Peter Parker, better known as Spider-Man. There are six different story lines and outcomes based on how you play and four difficulty settings.\n\nScummVM currently supports the English and Spanish releases out of the box. Support for the Hebrew release will be available soon. A German release also exists, but we need help finding a copy before it can be supported. Please [contact us](https://www.scummvm.org/contact/) if you have one.\n\nTo play any of these supported releases, you will need a [daily development build](https://www.scummvm.org/downloads/#daily). As always, please submit your bug reports to our [issue tracker](https://bugs.scummvm.org/)."
-    },
     "20011122": {
         "title": "Welcome to ScummVM",
         "content": "Welcome to the ScummVM! ScummVM is a SCUMM (Script Creation Utility For Maniac Mansion) interpreter for Linux and windows."
@@ -1414,5 +1410,9 @@
     "20220102": {
         "title": "New year with Californium(*)",
         "content": "Several months have passed since our monumental 2.5.0 release, and now the ScummVM Team is thrilled to announce the release of the bugfix release, 2.5.1 codenamed “Californium”*.\n\nThe most notable changes are: we added scalers in OpenGL mode (those AdvMame, HQ etc things), fixed several bugs in _The Lost Files of Sherlock Holmes_, made the sound for _Sam & Max_ more accurate, improved graphics for some Macintosh SCUMM games, implemented more renderers for _The Longest Journey_, made many enhancements to _Little Big Adventure_ and we fixed the dreaded bug on _World of Xeen_ startup.\n\nThe comprehensive list of changes can be found [here](https://downloads.scummvm.org/frs/scummvm/2.5.1/ReleaseNotes.html).\n\nYou may find the download at the usual place on [our downloads page](https://www.scummvm.org/downloads/). Due to a slight delay regarding the release for macOS, the auto-updater will be released within the next couple of days – stay tuned!\n\nEnjoy ScummVM in 2022!\n\n\\* The average atomic mass of Californium (atomic number 98) is 251."
+    },
+    "20220201": {
+        "title": "Can you survive six of your deadliest foes? 🕷",
+        "content": "_Marvel Comics Spider-Man: The Sinister Six_, the first supported game of the [Hypno engine](https://wiki.scummvm.org/index.php?title=Hypno), is ready for public testing!\n\nGet ready to defeat Spidey’s arch-enemies: Dr. Octopus, Hobgoblin, Shocker, Chameleon, Mysterio, and Vulture! 🕷\n\nReleased by _Brooklyn Multimedia_ in 1996, this action-adventure game lets you play as Peter Parker, better known as Spider-Man. There are six different story lines and outcomes based on how you play and four difficulty settings.\n\nScummVM currently supports the English and Spanish releases out of the box. Support for the Hebrew release will be available soon. A German release also exists, but we need help finding a copy before it can be supported. Please [contact us](https://www.scummvm.org/contact/) if you have one.\n\nTo play any of these supported releases, you will need a [daily development build](https://www.scummvm.org/downloads/#daily). As always, please submit your bug reports to our [issue tracker](https://bugs.scummvm.org/)."
     }
 }
