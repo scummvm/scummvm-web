@@ -80,6 +80,11 @@
         The personal blog of Ron Gilbert, the man behind many great LucasArts
         adventures, like Maniac Mansion and Monkey Island.
       url: 'https://grumpygamer.com/'
+    - name: ScummVM Music Enhancement Project by James Woodcock
+      description: >-
+        A fanmade selection of recreated soundtracks based on the original MIDI files
+        for several games supported by ScummVM.
+      url: 'https://www.pixelrefresh.com/content/scummvm-music-enhancement-project/'
 - name: Technical information about SCUMM and other engines
   description: >-
     SCUMM is a complex system that grew over many years. Understanding it can be
