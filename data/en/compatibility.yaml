@@ -3852,7 +3852,7 @@
 -
     id: private-eye
     support: good
-    notes: '- All releases are supported except Japanese.'
+    notes: '- All releases are supported except Japanese and Korean.'
     since_version: 2.5.0
     stable_platforms: 'win,mac'
     unstable_platforms: ''
@@ -4023,4 +4023,11 @@
     notes: '- English and Spanish versions supported - Minor missing features (original fonts and back to menu)'
     since_version: DEV
     stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: private-eye
+    support: good
+    notes: '- All releases are supported except Japanese.'
+    since_version: DEV
+    stable_platforms: 'win,mac'
     unstable_platforms: ''
