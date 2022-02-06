@@ -7,7 +7,7 @@
 {foreach from=$links item=group}
 <div class="subhead">{$group.name}</div>
 <div class="subhead-content">
-    <p>{$group.description}</p>
+    <p>{$group.notes}</p>
     <div class="linklist">
         {foreach from=$group.links item=link}
         <div class="linkentry">

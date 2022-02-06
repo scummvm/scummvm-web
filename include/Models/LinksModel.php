@@ -26,7 +26,7 @@ class LinksModel extends BasicModel
                 }
                 $entries[] = [
                     'name' => $value['name'],
-                    'description' => $value['description'],
+                    'notes' => $value['notes'],
                     'links' => $links,
                 ];
             }
