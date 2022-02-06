@@ -82,7 +82,7 @@
     lang: ja
     title: 'The Rosetta Stone'
     version: '1'
-    url: /frs/demos/director/d1/ja/rosettastone-demo-mac-jp.zip
+    url: /frs/demos/director/d1/ja/rosettastone-demo-mac-ja.zip
 -
     id: backgrounds
     platform: mac
@@ -131,21 +131,21 @@
     lang: ja
     title: A.D.A.M.
     version: '3'
-    url: /frs/demos/director/d3/ja/adam-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/adam-demo-mac-ja.zip
 -
     id: adobedimensions
     platform: mac
     lang: ja
     title: 'Professional Tips for Adobe Dimensions'
     version: '3'
-    url: /frs/demos/director/d3/ja/adobedimensions-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/adobedimensions-demo-mac-ja.zip
 -
     id: alankay
     platform: mac
     lang: ja
     title: 'Alan Kay CD-ROM Pack'
     version: '3'
-    url: /frs/demos/director/d3/ja/alankay-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/alankay-demo-mac-ja.zip
 -
     id: amandastories
     platform: mac
@@ -159,21 +159,21 @@
     lang: ja
     title: わくわくアニマルタウン
     version: '3'
-    url: /frs/demos/director/d3/ja/animaltown-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/animaltown-demo-mac-ja.zip
 -
     id: asylum300
     platform: mac
     lang: ja
     title: 'Asylum 300'
     version: '3'
-    url: /frs/demos/director/d3/ja/asylum300-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/asylum300-demo-mac-ja.zip
 -
     id: bakkunooni
     platform: mac
     lang: ja
     title: 'VOLT-AGE バックの鬼 -侘-'
     version: '3'
-    url: /frs/demos/director/d3/ja/bakkunooni-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/bakkunooni-demo-mac-ja.zip
 -
     id: belcher
     platform: mac
@@ -187,7 +187,7 @@
     lang: ja
     title: 'Big Time Movie Studios'
     version: '3'
-    url: /frs/demos/director/d3/ja/bigtimemovie-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/bigtimemovie-demo-mac-ja.zip
 -
     id: bioflix
     platform: mac
@@ -236,35 +236,35 @@
     lang: ja
     title: '琢磨 BusinessManager'
     version: '3'
-    url: /frs/demos/director/d3/ja/businessmanager-demo-mac-jp-351.zip
+    url: /frs/demos/director/d3/ja/businessmanager-demo-mac-ja-351.zip
 -
     id: businessmanager
     platform: mac
     lang: ja
     title: '琢磨 BusinessManager'
     version: '3'
-    url: /frs/demos/director/d3/ja/businessmanager-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/businessmanager-demo-mac-ja.zip
 -
     id: calling
     platform: mac
     lang: ja
     title: Calling
     version: '3'
-    url: /frs/demos/director/d3/ja/calling-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/calling-demo-mac-ja.zip
 -
     id: cellofania
     platform: mac
     lang: ja
     title: セロファニア
     version: '3'
-    url: /frs/demos/director/d3/ja/cellofania-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/cellofania-demo-mac-ja.zip
 -
     id: chaos
     platform: mac
     lang: ja
     title: 'The C.H.A.O.S. Continuum'
     version: '3'
-    url: /frs/demos/director/d3/ja/chaos-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/chaos-demo-mac-ja.zip
 -
     id: childishgambino
     platform: mac
@@ -278,14 +278,14 @@
     lang: ja
     title: 小さな演奏家
     version: '3'
-    url: /frs/demos/director/d3/ja/chisanaensoka-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/chisanaensoka-demo-mac-ja.zip
 -
     id: chuckletime
     platform: mac
     lang: ja
     title: チャックルタイム
     version: '3'
-    url: /frs/demos/director/d3/ja/chuckletime-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/chuckletime-demo-mac-ja.zip
 -
     id: cinemania94
     platform: win
@@ -320,28 +320,28 @@
     lang: ja
     title: 'Creative EYE'
     version: '3'
-    url: /frs/demos/director/d3/ja/creativeeye-demo-mac-jp-9402.zip
+    url: /frs/demos/director/d3/ja/creativeeye-demo-mac-ja-9402.zip
 -
     id: creativeeye
     platform: mac
     lang: ja
     title: 'Creative EYE'
     version: '3'
-    url: /frs/demos/director/d3/ja/creativeeye-demo-mac-jp-9406.zip
+    url: /frs/demos/director/d3/ja/creativeeye-demo-mac-ja-9406.zip
 -
     id: cutie10
     platform: mac
     lang: ja
     title: キューティ１０
     version: '3'
-    url: /frs/demos/director/d3/ja/cutie10-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/cutie10-demo-mac-ja.zip
 -
     id: dinosafari
     platform: mac
     lang: ja
     title: 'Dinosaur Safari'
     version: '3'
-    url: /frs/demos/director/d3/ja/dinosafari-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/dinosafari-demo-mac-ja.zip
 -
     id: director
     platform: mac
@@ -369,7 +369,7 @@
     lang: ja
     title: 'Edmark Demo'
     version: '3'
-    url: /frs/demos/director/d3/ja/edmark-mac-jp.zip
+    url: /frs/demos/director/d3/ja/edmark-mac-ja.zip
 -
     id: emigre
     platform: mac
@@ -384,6 +384,13 @@
     title: 'Microsoft Encarta ''95'
     version: '3'
     url: /frs/demos/director/d3/en/encarta95-demo-win.zip
+-
+    id: erikotamuraoz
+    platform: mac
+    lang: ja
+    title: 'Eriko Tamura: Oz'
+    version: '3'
+    url: /frs/demos/director/d3/ja/erikotamuraoz-demo-mac-ja.zip
 -
     id: exoticjapan
     platform: mac
@@ -411,7 +418,7 @@
     lang: ja
     title: 'FotoTune Multimedia Show'
     version: '3'
-    url: /frs/demos/director/d3/ja/fototune-mac-jp.zip
+    url: /frs/demos/director/d3/ja/fototune-mac-ja.zip
 -
     id: gadget
     platform: mac
@@ -432,35 +439,49 @@
     lang: ja
     title: 我流競馬
     version: '3'
-    url: /frs/demos/director/d3/ja/garyukeiba-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/garyukeiba-demo-mac-ja.zip
 -
     id: goalrush1
     platform: mac
     lang: ja
-    title: 'Goal Rush!!'
+    title: 'Goal Rush!! (Demo 1)'
     version: '3'
-    url: /frs/demos/director/d3/ja/goalrush1-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/goalrush1-demo-mac-ja-1.zip
+-
+    id: goalrush1
+    platform: mac
+    lang: ja
+    title: 'Goal Rush!! (Demo 2)'
+    version: '3'
+    url: /frs/demos/director/d3/ja/goalrush1-demo-mac-ja-2.zip
 -
     id: goalrush2
     platform: mac
     lang: ja
     title: 'Goal Rush!! 2 ～戦術分析編～'
     version: '3'
-    url: /frs/demos/director/d3/ja/goalrush2-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/goalrush2-demo-mac-ja.zip
 -
     id: granmarmalade
     platform: mac
     lang: ja
     title: グラン・マーマレード・マジカル・ビレッジ
     version: '3'
-    url: /frs/demos/director/d3/ja/granmarmalade-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/granmarmalade-demo-mac-ja.zip
+-
+    id: hellcab
+    platform: mac
+    lang: ja
+    title: 'Hell Cab'
+    version: '3'
+    url: /frs/demos/director/d3/ja/hellcab-demo-mac-ja.zip
 -
     id: henachoco
     platform: mac
     lang: ja
     title: へなちょこダービー
     version: '3'
-    url: /frs/demos/director/d3/ja/henachoco-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/henachoco-demo-mac-ja.zip
 -
     id: hhouse
     platform: win
@@ -474,7 +495,7 @@
     lang: ja
     title: 光る花
     version: '3'
-    url: /frs/demos/director/d3/ja/hikaruhana-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/hikaruhana-demo-mac-ja.zip
 -
     id: hoaddams2
     platform: mac
@@ -551,14 +572,14 @@
     lang: ja
     title: 'HyperCard Lessons'
     version: '3'
-    url: /frs/demos/director/d3/ja/hypercardlessons-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/hypercardlessons-demo-mac-ja.zip
 -
     id: hypermaterial
     platform: mac
     lang: ja
     title: 'Hyper Material'
     version: '3'
-    url: /frs/demos/director/d3/ja/hypermaterial-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/hypermaterial-demo-mac-ja.zip
 -
     id: imaginopolis
     platform: win
@@ -572,21 +593,21 @@
     lang: ja
     title: 'Images with Impact!'
     version: '3'
-    url: /frs/demos/director/d3/ja/imgimpact-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/imgimpact-demo-mac-ja.zip
 -
     id: intelligentnote
     platform: mac
     lang: ja
     title: インテリジェントノート
     version: '3'
-    url: /frs/demos/director/d3/ja/intelligentnote-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/intelligentnote-demo-mac-ja.zip
 -
     id: inugumi
     platform: mac
     lang: ja
     title: 犬組
     version: '3'
-    url: /frs/demos/director/d3/ja/inugumi-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/inugumi-demo-mac-ja.zip
 -
     id: ipc
     platform: mac
@@ -628,7 +649,7 @@
     lang: ja
     title: 'Iron Helix'
     version: '3'
-    url: /frs/demos/director/d3/ja/ironhelix-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/ironhelix-demo-mac-ja.zip
 -
     id: jman
     platform: mac
@@ -642,49 +663,49 @@
     lang: ja
     title: JOINT-net
     version: '3'
-    url: /frs/demos/director/d3/ja/jointnet-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/jointnet-demo-mac-ja.zip
 -
     id: katsumadojo
     platform: mac
     lang: ja
     title: 信光の勝馬道場
     version: '3'
-    url: /frs/demos/director/d3/ja/katsumadojo-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/katsumadojo-demo-mac-ja.zip
 -
     id: kazuyakun
     platform: mac
     lang: ja
     title: 数ヤ君
     version: '3'
-    url: /frs/demos/director/d3/ja/kazuyakun-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/kazuyakun-demo-mac-ja.zip
 -
     id: keiri
     platform: mac
     lang: ja
     title: 経理入門
     version: '3'
-    url: /frs/demos/director/d3/ja/keiri-mac-jp.zip
+    url: /frs/demos/director/d3/ja/keiri-mac-ja.zip
 -
     id: kishido
     platform: mac
     lang: ja
     title: 棋士道
     version: '3'
-    url: /frs/demos/director/d3/ja/kishido-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/kishido-demo-mac-ja.zip
 -
     id: koyosha
     platform: mac
     lang: ja
     title: 'Koyosha CD-INSPIREシリーズ'
     version: '3'
-    url: /frs/demos/director/d3/ja/koyosha-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/koyosha-demo-mac-ja.zip
 -
     id: kpt
     platform: mac
     lang: ja
     title: 'Kai''s Power Tools for Photoshop'
     version: '3'
-    url: /frs/demos/director/d3/ja/kpt-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/kpt-demo-mac-ja.zip
 -
     id: kyoto
     platform: mac
@@ -698,7 +719,7 @@
     lang: ja
     title: 'Cosmology of Kyoto'
     version: '3'
-    url: /frs/demos/director/d3/ja/kyoto-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/kyoto-demo-mac-ja.zip
 -
     id: learningsystem
     platform: mac
@@ -726,42 +747,42 @@
     lang: ja
     title: 'Lotus 1-2-3'
     version: '3'
-    url: /frs/demos/director/d3/ja/lotus123-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/lotus123-demo-mac-ja.zip
 -
     id: macbasic
     platform: mac
     lang: ja
     title: 'MacBASIC: Learning BASIC on HyperCard'
     version: '3'
-    url: /frs/demos/director/d3/ja/macbasic-demo-mac-jp-c.zip
+    url: /frs/demos/director/d3/ja/macbasic-demo-mac-ja-c.zip
 -
     id: macbasic
     platform: mac
     lang: ja
     title: 'MacBASIC: Learning BASIC on HyperCard'
     version: '3'
-    url: /frs/demos/director/d3/ja/macbasic-demo-mac-jp-m.zip
+    url: /frs/demos/director/d3/ja/macbasic-demo-mac-ja-m.zip
 -
     id: maczaurus
     platform: mac
     lang: ja
     title: 'Sharp Mac-Zaurus'
     version: '3'
-    url: /frs/demos/director/d3/ja/maczaurus-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/maczaurus-demo-mac-ja.zip
 -
     id: marinefantasy
     platform: mac
     lang: ja
     title: '大方洋二の海中写真館 Marine Fantasy'
     version: '3'
-    url: /frs/demos/director/d3/ja/marinefantasy-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/marinefantasy-demo-mac-ja.zip
 -
     id: mazebrew
     platform: mac
     lang: ja
     title: MazeBrew
     version: '3'
-    url: /frs/demos/director/d3/ja/mazebrew-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/mazebrew-demo-mac-ja.zip
 -
     id: meetingmaker
     platform: mac
@@ -773,9 +794,16 @@
     id: mipeterwolf
     platform: mac
     lang: ja
-    title: '～Music Island Vol.1～ "ピーターと狼"'
+    title: '～Music Island Vol.1～ "ピーターと狼" (Demo 1)'
     version: '3'
-    url: /frs/demos/director/d3/ja/mipeterwolf-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/mipeterwolf-demo-mac-ja-1.zip
+-
+    id: mipeterwolf
+    platform: mac
+    lang: ja
+    title: '～Music Island Vol.1～ "ピーターと狼" (Demo 2)'
+    version: '3'
+    url: /frs/demos/director/d3/ja/mipeterwolf-demo-mac-ja-2.zip
 -
     id: mmmozart
     platform: mac
@@ -794,9 +822,16 @@
     id: moderntimes
     platform: mac
     lang: ja
-    title: 'Charles Chaplin in Modern Times'
+    title: 'Charles Chaplin in Modern Times (Demo 1)'
     version: '3'
-    url: /frs/demos/director/d3/ja/moderntimes-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/moderntimes-demo-mac-ja-1.zip
+-
+    id: moderntimes
+    platform: mac
+    lang: ja
+    title: 'Charles Chaplin in Modern Times (Demo 2)'
+    version: '3'
+    url: /frs/demos/director/d3/ja/moderntimes-demo-mac-ja-2.zip
 -
     id: msarcade
     platform: win
@@ -873,7 +908,7 @@
     lang: ja
     title: 'Message from Apple'
     version: '3'
-    url: /frs/demos/director/d3/ja/msgfromapple-mac-jp.zip
+    url: /frs/demos/director/d3/ja/msgfromapple-mac-ja.zip
 -
     id: msgolf
     platform: win
@@ -943,21 +978,21 @@
     lang: ja
     title: 'Who Killed Sam Rupert?'
     version: '3'
-    url: /frs/demos/director/d3/ja/murdersam-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/murdersam-demo-mac-ja.zip
 -
     id: muzukashiihon
     platform: mac
     lang: ja
     title: 難しい本を読むと眠くなる
     version: '3'
-    url: /frs/demos/director/d3/ja/muzukashiihon-demo-mac-jp-alt.zip
+    url: /frs/demos/director/d3/ja/muzukashiihon-demo-mac-ja-alt.zip
 -
     id: muzukashiihon
     platform: mac
     lang: ja
     title: 難しい本を読むと眠くなる
     version: '3'
-    url: /frs/demos/director/d3/ja/muzukashiihon-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/muzukashiihon-demo-mac-ja.zip
 -
     id: necrobius
     platform: mac
@@ -978,7 +1013,7 @@
     lang: ja
     title: 'Negishi Homes 建築見積ｿﾌﾄ'
     version: '3'
-    url: /frs/demos/director/d3/ja/negishihomes-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/negishihomes-demo-mac-ja.zip
 -
     id: newton
     platform: mac
@@ -992,56 +1027,56 @@
     lang: ja
     title: のんたくんとゆかいななかまたち
     version: '3'
-    url: /frs/demos/director/d3/ja/nonta-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/nonta-demo-mac-ja.zip
 -
     id: novacity
     platform: mac
     lang: ja
     title: 'Nova City'
     version: '3'
-    url: /frs/demos/director/d3/ja/novacity-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/novacity-demo-mac-ja.zip
 -
     id: nsxpress
     platform: mac
     lang: ja
     title: 'Honda NSX Press CD-ROM'
     version: '3'
-    url: /frs/demos/director/d3/ja/nsxpress-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/nsxpress-demo-mac-ja.zip
 -
     id: oceansbelow
     platform: mac
     lang: ja
     title: 'Oceans Below'
     version: '3'
-    url: /frs/demos/director/d3/ja/oceansbelow-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/oceansbelow-demo-mac-ja.zip
 -
     id: olnet
     platform: mac
     lang: ja
     title: 'Open Library'
     version: '3'
-    url: /frs/demos/director/d3/ja/olnet-demo-mac-jp-lite.zip
+    url: /frs/demos/director/d3/ja/olnet-demo-mac-ja-lite.zip
 -
     id: olnet
     platform: mac
     lang: ja
     title: 'Open Library'
     version: '3'
-    url: /frs/demos/director/d3/ja/olnet-demo-mac-jp-net.zip
+    url: /frs/demos/director/d3/ja/olnet-demo-mac-ja-net.zip
 -
     id: peaceland
     platform: mac
     lang: ja
     title: PeaceLand
     version: '3'
-    url: /frs/demos/director/d3/ja/peaceland-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/peaceland-demo-mac-ja.zip
 -
     id: picturecard
     platform: mac
     lang: ja
     title: 絵カード訓練システム
     version: '3'
-    url: /frs/demos/director/d3/ja/picturecard-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/picturecard-demo-mac-ja.zip
 -
     id: pixar
     platform: mac
@@ -1062,14 +1097,14 @@
     lang: ja
     title: 'Director PresenPack'
     version: '3'
-    url: /frs/demos/director/d3/ja/presenpack-mac-jp.zip
+    url: /frs/demos/director/d3/ja/presenpack-mac-ja.zip
 -
     id: pressit
     platform: mac
     lang: ja
     title: PRESSiT
     version: '3'
-    url: /frs/demos/director/d3/ja/pressit-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/pressit-demo-mac-ja.zip
 -
     id: provektor2
     platform: mac
@@ -1104,7 +1139,7 @@
     lang: ja
     title: 'Pyramid Interactive'
     version: '3'
-    url: /frs/demos/director/d3/ja/pyramidint-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/pyramidint-demo-mac-ja.zip
 -
     id: raydream
     platform: mac
@@ -1118,7 +1153,7 @@
     lang: ja
     title: 'Ray Dream Designer'
     version: '3'
-    url: /frs/demos/director/d3/ja/raydream-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/raydream-demo-mac-ja.zip
 -
     id: redshift
     platform: mac
@@ -1139,7 +1174,7 @@
     lang: ja
     title: 'A-L: Artificial Life: School World'
     version: '3'
-    url: /frs/demos/director/d3/ja/schoolworld-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/schoolworld-demo-mac-ja.zip
 -
     id: screamingmetal
     platform: mac
@@ -1160,14 +1195,14 @@
     lang: ja
     title: 'Macromedia Director Lingo Scripting Technology'
     version: '3'
-    url: /frs/demos/director/d3/ja/scripting-demo-mac-jp-1.zip
+    url: /frs/demos/director/d3/ja/scripting-demo-mac-ja-1.zip
 -
     id: scripting
     platform: mac
     lang: ja
     title: 'Macromedia Director Lingo Scripting Technology'
     version: '3'
-    url: /frs/demos/director/d3/ja/scripting-demo-mac-jp-2.zip
+    url: /frs/demos/director/d3/ja/scripting-demo-mac-ja-2.zip
 -
     id: sculpt4d
     platform: mac
@@ -1202,7 +1237,7 @@
     lang: ja
     title: 'Sculpt 4D'
     version: '3'
-    url: /frs/demos/director/d3/ja/sculpt4d-demo-mac-jp-1.zip
+    url: /frs/demos/director/d3/ja/sculpt4d-demo-mac-ja-1.zip
 -
     id: sfk
     platform: mac
@@ -1230,7 +1265,7 @@
     lang: ja
     title: 'Strata Studio Pro'
     version: '3'
-    url: /frs/demos/director/d3/ja/strata-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/strata-demo-mac-ja.zip
 -
     id: stravinsky
     platform: mac
@@ -1244,14 +1279,14 @@
     lang: ja
     title: '闘魂V: 長州 力'
     version: '3'
-    url: /frs/demos/director/d3/ja/tokon5-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/tokon5-demo-mac-ja.zip
 -
     id: toonet11
     platform: mac
     lang: ja
     title: TooNet11
     version: '3'
-    url: /frs/demos/director/d3/ja/toonet11-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/toonet11-demo-mac-ja.zip
 -
     id: totaldistortion
     platform: mac
@@ -1265,49 +1300,49 @@
     lang: ja
     title: 'Total Distortion'
     version: '3'
-    url: /frs/demos/director/d3/ja/totaldistortion-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/totaldistortion-demo-mac-ja.zip
 -
     id: transland
     platform: mac
     lang: ja
     title: トランスランド
     version: '3'
-    url: /frs/demos/director/d3/ja/transland-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/transland-demo-mac-ja.zip
 -
     id: tree
     platform: mac
     lang: ja
     title: 'Onyx Tree Pro'
     version: '3'
-    url: /frs/demos/director/d3/ja/tree-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/tree-demo-mac-ja.zip
 -
     id: ttw
     platform: mac
     lang: ja
     title: 'Through the Window: In Search for the Lost Bag'
     version: '3'
-    url: /frs/demos/director/d3/ja/ttw-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/ttw-demo-mac-ja.zip
 -
     id: ukiuki1
     platform: mac
     lang: ja
     title: 'ウキウキ釣り天国 ～幻の天狗池～'
     version: '3'
-    url: /frs/demos/director/d3/ja/ukiuki1-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/ukiuki1-demo-mac-ja.zip
 -
     id: ukiukistamp
     platform: mac
     lang: ja
     title: うきうきスタンプ
     version: '3'
-    url: /frs/demos/director/d3/ja/ukiukistamp-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/ukiukistamp-demo-mac-ja.zip
 -
     id: ukyo1
     platform: mac
     lang: ja
     title: うきょー1
     version: '3'
-    url: /frs/demos/director/d3/ja/ukyo1-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/ukyo1-demo-mac-ja.zip
 -
     id: ultrobot
     platform: win
@@ -1319,9 +1354,16 @@
     id: vcbe
     platform: mac
     lang: ja
-    title: 'Virtual Cocktail Bar 200種類のカクテルのデータベース'
+    title: 'Virtual Cocktail Bar Executive (Demo 1)'
     version: '3'
-    url: /frs/demos/director/d3/ja/vcbe-demo-mac-ja.zip
+    url: /frs/demos/director/d3/ja/vcbe-demo-mac-ja-1.zip
+-
+    id: vcbe
+    platform: mac
+    lang: ja
+    title: 'Virtual Cocktail Bar Executive (Demo 2)'
+    version: '3'
+    url: /frs/demos/director/d3/ja/vcbe-demo-mac-ja-2.zip
 -
     id: verttice
     platform: mac
@@ -1363,7 +1405,7 @@
     lang: ja
     title: 'Virtual Variety Show'
     version: '3'
-    url: /frs/demos/director/d3/ja/vvs-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/vvs-demo-mac-ja.zip
 -
     id: warlock
     platform: mac
@@ -1391,7 +1433,7 @@
     lang: ja
     title: アルダスページメーカー4.5J速習用CD-ROM
     version: '3'
-    url: /frs/demos/director/d3/ja/wonderompm-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/wonderompm-demo-mac-ja.zip
 -
     id: wrath
     platform: win
@@ -1433,14 +1475,14 @@
     lang: ja
     title: 'Yearn2Learn: Snoopy'
     version: '3'
-    url: /frs/demos/director/d3/ja/y2lsnoopy-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/y2lsnoopy-demo-mac-ja.zip
 -
     id: zaibatsu
     platform: mac
     lang: ja
     title: 財閥銀行
     version: '3'
-    url: /frs/demos/director/d3/ja/zaibatsu-demo-mac-jp.zip
+    url: /frs/demos/director/d3/ja/zaibatsu-demo-mac-ja.zip
 -
     id: 3datlas97
     platform: win
@@ -2604,6 +2646,13 @@
     version: '4'
     url: /frs/demos/director/d4/en/shanghai-demo-win.zip
 -
+    id: shinshofukei
+    platform: win
+    lang: ja
+    title: 心象風景
+    version: '4'
+    url: /frs/demos/director/d4/ja/shinshofukei-demo-win-ja.zip
+-
     id: shramerica
     platform: win
     lang: en
@@ -2940,6 +2989,34 @@
     version: '5'
     url: /frs/demos/director/d5/en/bvi1997-win.zip
 -
+    id: christmassmallhouse
+    platform: mac
+    lang: ja
+    title: 'Christmastime at Small House (1998 Demo)'
+    version: '5'
+    url: /frs/demos/director/d5/ja/christmassmallhouse-demo-mac-ja-1.zip
+-
+    id: christmassmallhouse
+    platform: win
+    lang: ja
+    title: 'Christmastime at Small House (1998 Demo)'
+    version: '5'
+    url: /frs/demos/director/d5/ja/christmassmallhouse-demo-win-ja-1.zip
+-
+    id: christmassmallhouse
+    platform: mac
+    lang: ja
+    title: 'Christmastime at Small House (2000 Demo)'
+    version: '5'
+    url: /frs/demos/director/d5/ja/christmassmallhouse-demo-mac-ja-2.zip
+-
+    id: christmassmallhouse
+    platform: win
+    lang: ja
+    title: 'Christmastime at Small House (2000 Demo)'
+    version: '5'
+    url: /frs/demos/director/d5/ja/christmassmallhouse-demo-win-ja-2.zip
+-
     id: davidsonps
     platform: win
     lang: en
@@ -3052,6 +3129,13 @@
     version: '5'
     url: /frs/demos/director/d5/en/jslearn-win-d5.zip
 -
+    id: kamennoyakata
+    platform: win
+    lang: ja
+    title: 仮面の館
+    version: '5'
+    url: /frs/demos/director/d5/ja/kamennoyakata-demo-win-ja.zip
+-
     id: madcc12
     platform: mac
     lang: en
@@ -3106,14 +3190,14 @@
     lang: ja
     title: '必修大阪弁集中講座II 2015年、東京人の逆襲'
     version: '5'
-    url: /frs/demos/director/d5/ja/osaka2-demo-mac-jp.zip
+    url: /frs/demos/director/d5/ja/osaka2-demo-mac-ja.zip
 -
     id: osaka2
     platform: win
     lang: ja
     title: '必修大阪弁集中講座II 2015年、東京人の逆襲'
     version: '5'
-    url: /frs/demos/director/d5/ja/osaka2-demo-win-jp.zip
+    url: /frs/demos/director/d5/ja/osaka2-demo-win-ja.zip
 -
     id: picasso
     platform: win
@@ -3141,14 +3225,28 @@
     lang: ja
     title: ローリーポーリーズの世界旅行
     version: '5'
-    url: /frs/demos/director/d5/ja/rolypolys2-demo-mac-jp.zip
+    url: /frs/demos/director/d5/ja/rolypolys2-demo-mac-ja.zip
 -
     id: rolypolys2
     platform: win
     lang: ja
     title: ローリーポーリーズの世界旅行
     version: '5'
-    url: /frs/demos/director/d5/ja/rolypolys2-demo-win-jp.zip
+    url: /frs/demos/director/d5/ja/rolypolys2-demo-win-ja.zip
+-
+    id: secretsafari
+    platform: mac
+    lang: ja
+    title: 'Secret Safari'
+    version: '5'
+    url: /frs/demos/director/d5/ja/secretsafari-demo-mac-ja.zip
+-
+    id: secretsafari
+    platform: win
+    lang: ja
+    title: 'Secret Safari'
+    version: '5'
+    url: /frs/demos/director/d5/ja/secretsafari-demo-win-ja.zip
 -
     id: shr1st2nd
     platform: mac
@@ -3199,6 +3297,20 @@
     version: '5'
     url: /frs/demos/director/d5/en/slamdunktyping-demo-win.zip
 -
+    id: smallhouse
+    platform: mac
+    lang: ja
+    title: 'Small House'
+    version: '5'
+    url: /frs/demos/director/d5/ja/smallhouse-demo-mac-ja.zip
+-
+    id: smallhouse
+    platform: win
+    lang: ja
+    title: 'Small House'
+    version: '5'
+    url: /frs/demos/director/d5/ja/smallhouse-demo-win-ja.zip
+-
     id: takeru
     platform: win
     lang: en
@@ -3218,14 +3330,14 @@
     lang: ja
     title: 'ウキウキ釣り天国3 ～人魚島のボート釣り～'
     version: '5'
-    url: /frs/demos/director/d5/ja/ukiuki3-demo-cd-win-jp.zip
+    url: /frs/demos/director/d5/ja/ukiuki3-demo-cd-win-ja.zip
 -
     id: ukiuki3
     platform: win
     lang: ja
     title: 'ウキウキ釣り天国3 ～人魚島のボート釣り～'
     version: '5'
-    url: /frs/demos/director/d5/ja/ukiuki3-demo-win-jp.zip
+    url: /frs/demos/director/d5/ja/ukiuki3-demo-win-ja.zip
 -
     id: vp2
     platform: mac
@@ -3246,14 +3358,14 @@
     lang: ja
     title: 'Yellow Brick Road ハラペコ月と星あつめ'
     version: '5'
-    url: /frs/demos/director/d5/ja/ybr3-demo-mac-jp.zip
+    url: /frs/demos/director/d5/ja/ybr3-demo-mac-ja.zip
 -
     id: ybr3
     platform: win
     lang: ja
     title: 'Yellow Brick Road ハラペコ月と星あつめ'
     version: '5'
-    url: /frs/demos/director/d5/ja/ybr3-demo-win-jp.zip
+    url: /frs/demos/director/d5/ja/ybr3-demo-win-ja.zip
 -
     id: amgpremiere
     platform: mac
@@ -4072,4 +4184,4 @@
     lang: ja
     title: ときメモGSタイピング
     version: '10'
-    url: /frs/demos/director/d10/ja/tokimemotypegs-demo-win-jp.zip
+    url: /frs/demos/director/d10/ja/tokimemotypegs-demo-win-ja.zip
