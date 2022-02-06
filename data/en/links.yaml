@@ -43,7 +43,7 @@
 - name: Game mods made possible by ScummVM
   notes: >-
     The following are links to projects that modify games in ways that were not possible in the original game engines,
-    thanks to ScummVM.
+    but are possible now thanks to ScummVM.
   links:
     - name: The Longest Journey HD
       notes: >-
