@@ -40,6 +40,25 @@
         these scaler.
       url: >-
         https://web.archive.org/web/20131114143602/http://www.hiend3d.com/hq3x.html
+- name: Game mods made possible by ScummVM
+  notes: >-
+    The following are links to projects that modify games in ways that were not possible in the original game engines,
+    but are possible now thanks to ScummVM.
+  links:
+    - name: The Longest Journey HD
+      notes: >-
+        A mod that includes neural network upscaled backgrounds and sprites, redrawn user interface and a lot of other 
+        small improvements thanks to the ScummVM implementation of the game engine.
+      url: 'https://tljhd.github.io'
+    - name: Monkey Island Ultimate Talkie Edition Builders
+      notes: >-
+        Builders to create talkie versions for DOS and ScummVM out of the Special Edition releases.
+      url: 'http://gratissaugen.de/ultimatetalkies/'
+    - name: ScummVM Music Enhancement Project by James Woodcock
+      notes: >-
+        A fanmade selection of recreated soundtracks based on the original MIDI files
+        for several games supported by ScummVM.
+      url: 'https://www.pixelrefresh.com/content/scummvm-music-enhancement-project/'
 - name: Other sites of interest
   notes: >-
     The following are links to sites that provide news and help on retro-gaming
@@ -80,11 +99,6 @@
         The personal blog of Ron Gilbert, the man behind many great LucasArts
         adventures, like Maniac Mansion and Monkey Island.
       url: 'https://grumpygamer.com/'
-    - name: ScummVM Music Enhancement Project by James Woodcock
-      notes: >-
-        A fanmade selection of recreated soundtracks based on the original MIDI files
-        for several games supported by ScummVM.
-      url: 'https://www.pixelrefresh.com/content/scummvm-music-enhancement-project/'
 - name: Technical information about SCUMM and other engines
   notes: >-
     SCUMM is a complex system that grew over many years. Understanding it can be
