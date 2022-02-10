@@ -1531,7 +1531,7 @@
     notes: '- Game lacks sound'
     since_version: 0.11.0
     stable_platforms: 'amiga,apple2,c64,dos'
-    unstable_platforms: ''
+    unstable_platforms: coco
 -
     id: elvira1
     support: good
@@ -2588,7 +2588,7 @@
     notes: ''
     since_version: 1.4.0
     stable_platforms: 'amiga,apple2,c64,dos'
-    unstable_platforms: ''
+    unstable_platforms: coco
 -
     id: lol
     support: good
@@ -4044,4 +4044,4 @@
     notes: ''
     since_version: DEV
     stable_platforms: 'amiga,atarist,pcbooter'
-    unstable_platforms: 'apple2,c64,coco3'
+    unstable_platforms: 'apple2,c64,coco'

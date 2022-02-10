@@ -140,6 +140,10 @@
     id: steam
     moby_id: '3'
 -
+    name: 'Tandy Color Computer'
+    id: coco
+    moby_id: '62'
+-
     name: 'Tandy Color Computer 3'
     id: coco3
     moby_id: '62'
