@@ -588,6 +588,10 @@
     name: 'Massachusetts Institute of Technology'
     alt_name: ''
 -
+    id: mitgamelab
+    name: 'MIT Game Lab'
+    alt_name: 'Singapore-MIT GAMBIT Game Lab'
+-
     id: mojotouch
     name: MojoTouch
     alt_name: ''
@@ -842,6 +846,10 @@
 -
     id: starbyte
     name: 'Starbyte Software'
+    alt_name: ''
+-
+    id: studiotrophis
+    name: 'Studio Trophis'
     alt_name: ''
 -
     id: synergy

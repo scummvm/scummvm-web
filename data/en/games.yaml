@@ -3927,9 +3927,9 @@
     id: twc
     name: 'The White Chamber'
     engine_id: wintermute
-    company_id: unknown
+    company_id: studiotrophis
     moby_id: '17172'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_White_Chamber'
     wikipedia_page: The_White_Chamber
     series_id: ''
 -
@@ -3938,7 +3938,7 @@
     engine_id: wintermute
     company_id: unknown
     moby_id: '29023'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Beyond_the_Threshold'
     wikipedia_page: ''
     series_id: ''
 -
@@ -3972,9 +3972,9 @@
     id: dirtysplit
     name: 'Dirty Split'
     engine_id: wintermute
-    company_id: unknown
+    company_id: dreamagination
     moby_id: '34858'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Dirty_Split'
     wikipedia_page: ''
     series_id: ''
 -
@@ -4008,19 +4008,19 @@
     id: rosemary
     name: Rosemary
     engine_id: wintermute
-    company_id: unknown
+    company_id: mitgamelab
     moby_id: '44653'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Rosemary'
     wikipedia_page: ''
     series_id: ''
 -
     id: ritter
     name: '1½ Ritter: Auf der Suche nach der hinreißenden Herzelinde'
     engine_id: wintermute
-    company_id: unknown
+    company_id: daedalic
     moby_id: '44924'
-    datafiles: ''
-    wikipedia_page: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=1_1/2_Ritter'
+    wikipedia_page: 'https://de.wikipedia.org/wiki/1%C2%BD_Ritter_–_Auf_der_Suche_nach_der_hinreißenden_Herzelinde'
     series_id: ''
 -
     id: darkfallls
@@ -4116,9 +4116,9 @@
     id: julia
     name: J.U.L.I.A.
     engine_id: wintermute
-    company_id: unknown
+    company_id: cbe
     moby_id: '55922'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=J.U.L.I.A.'
     wikipedia_page: J.U.L.I.A.
     series_id: julia
 -
@@ -4188,9 +4188,9 @@
     id: juliastars
     name: 'J.U.L.I.A.: Among the Stars'
     engine_id: wintermute
-    company_id: unknown
+    company_id: cbe
     moby_id: '68940'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=J.U.L.I.A.:_Among_the_Stars'
     wikipedia_page: J.U.L.I.A._Among_the_Stars
     series_id: julia
 -
@@ -4523,7 +4523,7 @@
     engine_id: wintermute
     company_id: cbe
     moby_id: '69257'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=J.U.L.I.A.:_Untold'
     wikipedia_page: ''
     series_id: julia
 -

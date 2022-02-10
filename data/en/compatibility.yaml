@@ -2919,6 +2919,34 @@
     stable_platforms: win
     unstable_platforms: ''
 -
+    id: dirtysplit
+    support: good
+    notes: ''
+    since_version: 1.7.0
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: ritter
+    support: good
+    notes: ''
+    since_version: 1.7.0
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: rosemary
+    support: good
+    notes: ''
+    since_version: 1.7.0
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: twc
+    support: good
+    notes: ''
+    since_version: 1.7.0
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
     id: amazon
     support: untested
     notes: '- Demo version is not supported'
