@@ -2912,6 +2912,13 @@
     stable_platforms: dos
     unstable_platforms: ''
 -
+    id: bickadoodle
+    support: good
+    notes: ''
+    since_version: 1.7.0
+    stable_platforms: win
+    unstable_platforms: ''
+-
     id: chivalry
     support: good
     notes: '- Requires additional fonts.'
@@ -2920,6 +2927,34 @@
     unstable_platforms: ''
 -
     id: dirtysplit
+    support: good
+    notes: ''
+    since_version: 1.7.0
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: escapemansion
+    support: good
+    notes: ''
+    since_version: 1.7.0
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 5ld
+    support: good
+    notes: ''
+    since_version: 1.7.0
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 5ma
+    support: good
+    notes: ''
+    since_version: 1.7.0
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: helga
     support: good
     notes: ''
     since_version: 1.7.0

@@ -3918,9 +3918,9 @@
     id: 5ma
     name: 'Five Magical Amulets'
     engine_id: wintermute
-    company_id: unknown
+    company_id: offstudio
     moby_id: '17091'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Five_Magical_Amulets'
     wikipedia_page: ''
     series_id: ''
 -
@@ -4206,9 +4206,9 @@
     id: 5ld
     name: 'Five Lethal Demons'
     engine_id: wintermute
-    company_id: unknown
+    company_id: offstudio
     moby_id: '71571'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Five_Lethal_Demons'
     wikipedia_page: ''
     series_id: ''
 -
@@ -4323,9 +4323,9 @@
     id: bickadoodle
     name: Bickadoodle
     engine_id: wintermute
-    company_id: unknown
+    company_id: aetheric
     moby_id: '-1'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Bickadoodle'
     wikipedia_page: ''
     series_id: ''
 -
@@ -4503,9 +4503,9 @@
     id: helga
     name: 'Helga Deep In Trouble'
     engine_id: wintermute
-    company_id: unknown
+    company_id: offstudio
     moby_id: '-1'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Helga_Deep_In_Trouble'
     wikipedia_page: ''
     series_id: ''
 -
