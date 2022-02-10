@@ -1517,7 +1517,7 @@
     notes: ''
     since_version: 0.11.0
     stable_platforms: dos
-    unstable_platforms: ''
+    unstable_platforms: coco
 -
     id: troll
     support: good
