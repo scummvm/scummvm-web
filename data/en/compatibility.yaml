@@ -4031,3 +4031,17 @@
     since_version: DEV
     stable_platforms: 'win,mac'
     unstable_platforms: ''
+-
+    id: mothergoose256
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: ddp
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'dos,atarist'
+    unstable_platforms: 'apple2,coco3'
