@@ -44,21 +44,13 @@
     id: c64
     moby_id: '27'
 -
-    name: 'Philips CD-i'
-    id: cdi
-    moby_id: '73'
--
-    name: 'Tandy Color Computer 3'
-    id: coco3
-    moby_id: '62'
+    name: DOS
+    id: dos
+    moby_id: '2'
 -
     name: Dreamcast
     id: dc
     moby_id: '8'
--
-    name: DOS
-    id: dos
-    moby_id: '2'
 -
     name: 'FM Towns'
     id: fmtowns
@@ -88,45 +80,57 @@
     id: nes
     moby_id: '22'
 -
+    name: 'Nintendo Wii'
+    id: wii
+    moby_id: '82'
+-
     name: OS/2
     id: os2
     moby_id: '146'
 -
-    name: PC-98
-    id: pc98
-    moby_id: '95'
+    name: 'PC Booter'
+    id: pcbooter
+    moby_id: '4'
 -
     name: 'PC Engine'
     id: pce
     moby_id: '40'
 -
+    name: PC-98
+    id: pc98
+    moby_id: '95'
+-
     name: PC-FX
     id: pcfx
     moby_id: '59'
+-
+    name: 'Philips CD-i'
+    id: cdi
+    moby_id: '73'
 -
     name: Pippin
     id: pippin
     moby_id: '112'
 -
-    name: 'Pocket PC'
-    id: pocketpc
-    moby_id: '66'
+    name: PlayStation
+    id: psx
+    moby_id: '6'
 -
     name: 'PlayStation 2'
     id: ps2
     moby_id: '7'
 -
-    name: PlayStation
-    id: psx
-    moby_id: '6'
--
-    name: 'Sega Saturn'
-    id: saturn
-    moby_id: '23'
+    name: 'Pocket PC'
+    id: pocketpc
+    moby_id: '66'
 -
     name: 'Sega CD'
     id: segacd
     moby_id: '20'
+-
+    name: 'Sega Saturn'
+    id: saturn
+    moby_id: '23'
 -
     name: Shockwave
     id: shockwave
@@ -136,9 +140,9 @@
     id: steam
     moby_id: '3'
 -
-    name: 'Nintendo Wii'
-    id: wii
-    moby_id: '82'
+    name: 'Tandy Color Computer 3'
+    id: coco3
+    moby_id: '62'
 -
     name: Windows
     id: win
