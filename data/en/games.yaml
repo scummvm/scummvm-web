@@ -4366,11 +4366,11 @@
     series_id: ''
 -
     id: deadcity
-    name: 'The Dead City'
+    name: 'Dead City'
     engine_id: wintermute
-    company_id: unknown
+    company_id: nihilis
     moby_id: '17224'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Dead_City'
     wikipedia_page: ''
     series_id: ''
 -
@@ -4440,7 +4440,7 @@
     id: escapemansion
     name: 'Escape from the Mansion'
     engine_id: wintermute
-    company_id: unknown
+    company_id: fan
     moby_id: '-1'
     datafiles: ''
     wikipedia_page: ''

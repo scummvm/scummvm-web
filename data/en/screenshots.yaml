@@ -6,36 +6,6 @@
     language: en
     filemask: 'sierra/bc/bc_dos_en_1_*'
 -
-    id: enclosure
-    variant: v1.03
-    platform_id: dos
-    language: en
-    filemask: 'fan/agi/enclosure_dos_en_1_*'
--
-    id: serguei1
-    variant: 'v1.1 2003 Apr 10'
-    platform_id: dos
-    language: en
-    filemask: 'fan/agi/serguei1_dos_en_1_*'
--
-    id: sqx
-    variant: 'v10.0 Jul 18'
-    platform_id: dos
-    language: en
-    filemask: 'fan/agi/sqx_dos_en_1_*'
--
-    id: voodoo
-    variant: 'v1.2 2002 Jan 1'
-    platform_id: dos
-    language: en
-    filemask: 'fan/agi/voodoo_dos_en_1_*'
--
-    id: sq0
-    variant: v1.04
-    platform_id: dos
-    language: en
-    filemask: 'fan/agi/sq0_dos_en_1_*'
--
     id: goldrush
     variant: '1.01 1989-01-13 aka 2.05 1989-03-09'
     platform_id: amiga
@@ -2519,3 +2489,27 @@
     platform_id: win
     language: en
     filemask: 'presto/myst3/myst3_win_en_1_*'
+-
+    id: clandestiny
+    variant: ''
+    platform_id: win
+    language: en
+    filemask: 'trilobyte/clandestiny/clandestiny_win_en_1_*'
+-
+    id: 11h
+    variant: ''
+    platform_id: win
+    language: en
+    filemask: 'trilobyte/11h/11h_win_en_1_*'
+-
+    id: unclehenry
+    variant: ''
+    platform_id: win
+    language: en
+    filemask: 'trilobyte/unclehenry/unclehenry_win_en_1_*'
+-
+    id: tlc
+    variant: ''
+    platform_id: win
+    language: en
+    filemask: 'aftermath/tlc/tlc_win_en_1_*'

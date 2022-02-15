@@ -1742,7 +1742,7 @@
     language: en
     language2: ''
     language3: ''
-    url: /frs/demos/nightlong/nightlong-win-demo-en.zip
+    url: /frs/demos/trecision/nl-win-demo-en.zip
 -
     id: nl
     platform: win
@@ -1750,7 +1750,7 @@
     language: de
     language2: ''
     language3: ''
-    url: /frs/demos/nightlong/nightlong-win-demo-de.zip
+    url: /frs/demos/trecision/nl-win-demo-de.zip
 -
     id: os
     platform: amiga
@@ -3231,3 +3231,43 @@
     language2: ''
     language3: ''
     url: /frs/demos/zvision/znemesis-demo-win.zip
+-
+    id: 11h
+    platform: dos
+    category: 'Both Interactive and Non-Interactive demos'
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/groovie/11h-dos-cd-demo1-en.zip
+-
+    id: 11h
+    platform: dos
+    category: Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/groovie/11h-dos-cd-demo2-en.zip
+-
+    id: clandestiny
+    platform: dos
+    category: Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/groovie/clandestiny-dos-cd-demo-en.zip
+-
+    id: clandestiny
+    platform: dos
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/groovie/clandestiny-dos-ni-demo-en.zip
+-
+    id: tlc
+    platform: win
+    category: 'Both Interactive and Non-Interactive demos'
+    language: de
+    language2: ''
+    language3: ''
+    url: /frs/demos/groovie/tlc-win-demo-de.zip
