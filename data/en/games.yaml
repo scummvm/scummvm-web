@@ -3612,9 +3612,9 @@
     id: sword25
     name: 'Broken Sword 2.5: The Return of the Templars'
     engine_id: sword25
-    company_id: fan
+    company_id: mindfactory
     moby_id: '36679'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_2.5'
     wikipedia_page: ''
     series_id: ''
 -
