@@ -1,0 +1,11 @@
+---
+title: "\"Back For More?\""
+author: Die4Ever
+date: 1645051176
+---
+
+It’s been 13 years since *The 7th Guest* was added to ScummVM with the Groovie 1 engine, and now we’ve finally added support for the Groovie 2 engine with all 4 games supported: *The 11th Hour*, *Clandestiny*, *Tender Loving Care* (CD-ROM edition), and *Uncle Henry's Playhouse*.
+
+If the minigames vs Stauf are too difficult for you, then there’s also a new option for Easier AI which is available for all games (except *Tender Loving Care*, which doesn’t feature puzzles against an AI). The Easier AI option is also now available in the original Groovie engine for *The 7th Guest*, as well as other improvements such as right-click to fast forward.
+
+Grab your thinking caps and a [daily build](https://buildbot.scummvm.org/#/dailybuilds) to try it out. You can also check out [the demos here](https://www.scummvm.org/demos/#other). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/newticket?component=Engine:%20Groovie).
