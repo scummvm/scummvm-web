@@ -20,7 +20,7 @@ class Screenshot extends BaseScreenshot
     public function getFiles()
     {
         if (!$this->files) {
-            foreach (glob("./" . DIR_SCREENSHOTS . "/" . $this->getFilemask()) as $file) {
+            foreach (glob("./" . DIR_SCREENSHOTS . "/" . $this->getGame()->getEngine()->getId() . "/" . $this->getGame()->getId() . "/*") as $file) {
                 if (\strpos($file, "_full.") !== false) {
                     continue;
                 }
