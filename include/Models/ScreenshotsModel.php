@@ -137,7 +137,7 @@ class ScreenshotsModel extends BasicModel
     {
         // Check if the id is a series.
         $games = GameQuery::create()->findBySeriesId($id);
-        if (sizeof($games) == 0) {
+        if (count($games) == 0) {
             // If not, then the id must be for a single game
             // We have to check this second because of name collisions with series, e.g. myst
             $games = GameQuery::create()->findById($id);
