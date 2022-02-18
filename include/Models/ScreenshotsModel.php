@@ -130,17 +130,17 @@ class ScreenshotsModel extends BasicModel
 
     /**
     * Returns the number of screenshot files associated with a given game or series of games
-    * @param $id the id of a game or a game series
+    * @param $gameOrSeriesId the id of a game or a game series
     * @return the number of screenshot files
     */
-    private function getScreenshotCount(string $id)
+    private function getScreenshotCount(string $gameOrSeriesId)
     {
         // Check if the id is a series.
-        $games = GameQuery::create()->findBySeriesId($id);
+        $games = GameQuery::create()->findBySeriesId($gameOrSeriesId);
         if (count($games) == 0) {
             // If not, then the id must be for a single game
             // We have to check this second because of name collisions with series, e.g. myst
-            $games = GameQuery::create()->findById($id);
+            $games = GameQuery::create()->findById($gameOrSeriesId);
         }
         $count = 0;
         // Iterate over each game and count the number of screenshot files
