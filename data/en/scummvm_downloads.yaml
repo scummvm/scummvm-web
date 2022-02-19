@@ -1426,7 +1426,7 @@
     category_icon: ''
     user_agent: ''
     version: ''
-    url: 'http://www.libsdl.org/download-2.0.php'
+    url: 'https://www.libsdl.org/download-2.0.php'
     name: 'SDL 2.0.x'
     notes: '(or SDL 1.2.x)'
 -
@@ -1436,7 +1436,7 @@
     category_icon: ''
     user_agent: ''
     version: ''
-    url: 'http://www.underbit.com/products/mad/'
+    url: 'https://www.underbit.com/products/mad/'
     name: MAD
     notes: 'MPEG Audio Decoder'
 -
@@ -1446,7 +1446,7 @@
     category_icon: ''
     user_agent: ''
     version: ''
-    url: 'http://www.xiph.org/vorbis/'
+    url: 'https://www.xiph.org/vorbis/'
     name: 'Ogg Vorbis'
     notes: 'A free codec for lossy audio compression'
 -
@@ -1466,7 +1466,7 @@
     category_icon: ''
     user_agent: ''
     version: ''
-    url: 'http://liba52.sourceforge.net'
+    url: 'https://liba52.sourceforge.io'
     name: liba52
     notes: 'ATSC A/52 stream decoder'
 -
@@ -1486,7 +1486,7 @@
     category_icon: ''
     user_agent: ''
     version: ''
-    url: 'http://theora.org/'
+    url: 'https://theora.org/'
     name: Theora
     notes: 'Theora Decoder'
 -
@@ -1496,7 +1496,7 @@
     category_icon: ''
     user_agent: ''
     version: ''
-    url: 'http://libmpeg2.sourceforge.net/'
+    url: 'https://libmpeg2.sourceforge.io'
     name: mpeg2
     notes: 'mpeg2 Decoder'
 -
@@ -1516,7 +1516,7 @@
     category_icon: ''
     user_agent: ''
     version: ''
-    url: 'http://www.ijg.org'
+    url: 'https://www.ijg.org'
     name: jpeg
     notes: '(or jpeg-turbo) jpeg image format decoder'
 -
@@ -1536,7 +1536,7 @@
     category_icon: ''
     user_agent: ''
     version: ''
-    url: 'http://zlib.net/'
+    url: 'https://zlib.net/'
     name: zlib
     notes: 'Data Compression'
 -
@@ -1546,7 +1546,7 @@
     category_icon: ''
     user_agent: ''
     version: ''
-    url: 'http://www.fluidsynth.org/'
+    url: 'https://www.fluidsynth.org/'
     name: FluidSynth
     notes: 'Real-Time Software MIDI Synthesizer'
 -
@@ -1566,7 +1566,7 @@
     category_icon: ''
     user_agent: ''
     version: ''
-    url: 'http://www.freetype.org/'
+    url: 'https://www.freetype.org/'
     name: FreeType
     notes: 'Font rendering'
 -

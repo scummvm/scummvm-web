@@ -3234,7 +3234,7 @@
 -
     id: 11h
     platform: dos
-    category: 'Both Interactive and Non-Interactive demos'
+    category: 'Both Interactive and Non-Interactive'
     language: en
     language2: ''
     language3: ''
@@ -3266,7 +3266,7 @@
 -
     id: tlc
     platform: win
-    category: 'Both Interactive and Non-Interactive demos'
+    category: 'Both Interactive and Non-Interactive'
     language: de
     language2: ''
     language3: ''
