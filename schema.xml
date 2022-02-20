@@ -64,13 +64,11 @@
     <column name="release_date" type="timestamp" required="true"/>
   </table>
   <table name="screenshot" phpName="Screenshot">
-    <!-- id	variant	platform_id	language	filemask -->
+    <!-- id	variant	platform_id	language -->
     <column name="id" type="varchar" required="true"/>
     <column name="variant" type="varchar" size="255" />
     <column name="platform_id" type="varchar" size="24" required="true"/>
     <column name="language" type="varchar" size="8" required="true"/>
-    <column name="filemask" type="varchar" size="255" required="true"/>
-    <column name="num_shots" type="SMALLINT" required="true"/>
     <foreign-key foreignTable="game" onDelete="CASCADE">
       <reference local="id" foreign="id"/>
     </foreign-key>

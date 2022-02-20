@@ -128,17 +128,6 @@ class DataUtils
                     if ($object === 'Demo' || $object === 'DirectorDemo') {
                         $item['platform_id'] = $item['platform'];
                     }
-                    if ($object === 'Screenshot') {
-                        // Add number of shots
-                        $item['num_shots'] = count(
-                            array_filter(
-                                glob("./public_html" . DIR_SCREENSHOTS . "/". $item['filemask']),
-                                function (string $file) {
-                                    return \strpos($file, "_full.");
-                                }
-                            )
-                        );
-                    }
                     $dbItem->fromArray($item, TableMap::TYPE_FIELDNAME);
                     $dbItem->save();
                 } catch (\Exception $ex) {

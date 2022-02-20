@@ -26,7 +26,7 @@ class ScreenshotQuery extends BaseScreenshotQuery
             $con = Propel::getServiceContainer()->getReadConnection(ScreenshotTableMap::DATABASE_NAME);
         }
 
-        $sql = 'SELECT id, variant, platform_id, language, filemask, auto_id FROM screenshot ORDER BY RANDOM() LIMIT 1';
+        $sql = 'SELECT id, variant, platform_id, language, auto_id FROM screenshot ORDER BY RANDOM() LIMIT 1';
         try {
             $stmt = $con->prepare($sql);
             $stmt->execute();
@@ -67,8 +67,7 @@ class ScreenshotQuery extends BaseScreenshotQuery
                 (CASE
                         WHEN game.series_id IS NULL THEN game.name
                         ELSE series.name || ' (Series)'
-                    END) AS subcategory_name,
-                SUM(num_shots) as count
+                    END) AS subcategory_name
                 FROM screenshot
                 JOIN game ON game.id = screenshot.id
                 JOIN company ON game.company_id = company.id

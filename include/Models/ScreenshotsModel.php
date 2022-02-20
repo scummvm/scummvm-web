@@ -1,6 +1,7 @@
 <?php
 namespace ScummVM\Models;
 
+use ScummVM\OrmObjects\GameQuery;
 use ScummVM\OrmObjects\ScreenshotQuery;
 use Propel\Runtime\Collection\ObjectCollection;
 
@@ -28,7 +29,7 @@ class ScreenshotsModel extends BasicModel
             }
             $data[$category_key]['games'][$subcategory_key] = [
                 'name' => $subcategory_name,
-                'count' => $count
+                'count' => $this->getScreenshotCount($subcategory_key)
             ];
         }
         return $data;
@@ -125,6 +126,28 @@ class ScreenshotsModel extends BasicModel
         }
         \sort($combined, SORT_STRING);
         return $combined;
+    }
+
+    /**
+    * Returns the number of screenshot files associated with a given game or series of games
+    * @param $gameOrSeriesId the id of a game or a game series
+    * @return the number of screenshot files
+    */
+    private function getScreenshotCount(string $gameOrSeriesId)
+    {
+        // Check if the id is a series.
+        $games = GameQuery::create()->findBySeriesId($gameOrSeriesId);
+        if (count($games) == 0) {
+            // If not, then the id must be for a single game
+            // We have to check this second because of name collisions with series, e.g. myst
+            $games = GameQuery::create()->findById($gameOrSeriesId);
+        }
+        $count = 0;
+        // Iterate over each game and count the number of screenshot files
+        foreach ($games as $game) {
+            $count += count(glob("./" . DIR_SCREENSHOTS . "/" . $game->getEngine()->getId() . "/" . $game->getId() . "/*"));
+        }
+        return $count;
     }
 
     /* Get a random screenshot (an object and not a filename) .*/
