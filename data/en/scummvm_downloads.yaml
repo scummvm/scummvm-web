@@ -1,6 +1,7 @@
 # This is a generated file, please do not edit manually
 -
     enabled: true
+    priority: '1'
     category: scummvm
     subcategory: release
     category_icon: windows
@@ -11,6 +12,7 @@
     notes: ''
 -
     enabled: true
+    priority: '2'
     category: scummvm
     subcategory: release
     category_icon: windows
@@ -21,6 +23,7 @@
     notes: ''
 -
     enabled: true
+    priority: '3'
     category: scummvm
     subcategory: release
     category_icon: windows
@@ -31,6 +34,7 @@
     notes: ''
 -
     enabled: true
+    priority: '4'
     category: scummvm
     subcategory: release
     category_icon: winxp
@@ -41,6 +45,7 @@
     notes: ''
 -
     enabled: true
+    priority: '5'
     category: scummvm
     subcategory: release
     category_icon: winxp
@@ -51,6 +56,7 @@
     notes: ''
 -
     enabled: true
+    priority: '6'
     category: scummvm
     subcategory: release
     category_icon: winxp
@@ -61,6 +67,7 @@
     notes: ''
 -
     enabled: true
+    priority: '7'
     category: scummvm
     subcategory: release
     category_icon: win95
@@ -71,6 +78,7 @@
     notes: ''
 -
     enabled: true
+    priority: '8'
     category: scummvm
     subcategory: release
     category_icon: snap
@@ -81,6 +89,7 @@
     notes: ''
 -
     enabled: true
+    priority: '9'
     category: scummvm
     subcategory: release
     category_icon: flatpak
@@ -91,6 +100,7 @@
     notes: ''
 -
     enabled: true
+    priority: '10'
     category: scummvm
     subcategory: release
     category_icon: debian
@@ -101,6 +111,7 @@
     notes: ''
 -
     enabled: true
+    priority: '11'
     category: scummvm
     subcategory: release
     category_icon: debian
@@ -111,6 +122,7 @@
     notes: ''
 -
     enabled: true
+    priority: '12'
     category: scummvm
     subcategory: release
     category_icon: debian
@@ -121,6 +133,7 @@
     notes: ''
 -
     enabled: true
+    priority: '13'
     category: scummvm
     subcategory: release
     category_icon: debian
@@ -131,6 +144,7 @@
     notes: ''
 -
     enabled: true
+    priority: '14'
     category: scummvm
     subcategory: release
     category_icon: debian
@@ -141,6 +155,7 @@
     notes: ''
 -
     enabled: true
+    priority: '15'
     category: scummvm
     subcategory: release
     category_icon: debian
@@ -151,6 +166,7 @@
     notes: ''
 -
     enabled: true
+    priority: '16'
     category: scummvm
     subcategory: old
     category_icon: debian
@@ -161,6 +177,7 @@
     notes: ''
 -
     enabled: true
+    priority: '17'
     category: scummvm
     subcategory: release
     category_icon: ubuntu
@@ -171,6 +188,7 @@
     notes: ''
 -
     enabled: true
+    priority: '18'
     category: scummvm
     subcategory: release
     category_icon: ubuntu
@@ -181,6 +199,7 @@
     notes: ''
 -
     enabled: true
+    priority: '19'
     category: scummvm
     subcategory: release
     category_icon: ubuntu
@@ -191,6 +210,7 @@
     notes: ''
 -
     enabled: true
+    priority: '20'
     category: scummvm
     subcategory: release
     category_icon: ubuntu
@@ -201,6 +221,7 @@
     notes: ''
 -
     enabled: true
+    priority: '21'
     category: scummvm
     subcategory: old
     category_icon: ubuntu
@@ -211,6 +232,7 @@
     notes: ''
 -
     enabled: true
+    priority: '22'
     category: scummvm
     subcategory: old
     category_icon: fedora
@@ -221,6 +243,7 @@
     notes: ''
 -
     enabled: true
+    priority: '23'
     category: scummvm
     subcategory: old
     category_icon: fedora
@@ -231,6 +254,7 @@
     notes: ''
 -
     enabled: true
+    priority: '24'
     category: scummvm
     subcategory: old
     category_icon: slackware
@@ -241,6 +265,7 @@
     notes: ''
 -
     enabled: true
+    priority: '25'
     category: scummvm
     subcategory: old
     category_icon: slackware
@@ -251,6 +276,7 @@
     notes: ''
 -
     enabled: true
+    priority: '26'
     category: scummvm
     subcategory: old
     category_icon: mandriva
@@ -261,6 +287,7 @@
     notes: ''
 -
     enabled: true
+    priority: '27'
     category: scummvm
     subcategory: old
     category_icon: solaris
@@ -271,6 +298,7 @@
     notes: ''
 -
     enabled: true
+    priority: '28'
     category: scummvm
     subcategory: old
     category_icon: solaris
@@ -281,6 +309,7 @@
     notes: ''
 -
     enabled: true
+    priority: '29'
     category: scummvm
     subcategory: old
     category_icon: solaris
@@ -291,6 +320,7 @@
     notes: ''
 -
     enabled: true
+    priority: '30'
     category: scummvm
     subcategory: old
     category_icon: solaris
@@ -301,6 +331,7 @@
     notes: ''
 -
     enabled: true
+    priority: '31'
     category: scummvm
     subcategory: old
     category_icon: irix
@@ -311,6 +342,7 @@
     notes: ''
 -
     enabled: true
+    priority: '32'
     category: scummvm
     subcategory: old
     category_icon: irix
@@ -321,6 +353,7 @@
     notes: ''
 -
     enabled: true
+    priority: '33'
     category: scummvm
     subcategory: release
     category_icon: macos
@@ -331,6 +364,7 @@
     notes: ''
 -
     enabled: true
+    priority: '34'
     category: scummvm
     subcategory: release
     category_icon: macostiger
@@ -341,6 +375,7 @@
     notes: ''
 -
     enabled: true
+    priority: '35'
     category: scummvm
     subcategory: old
     category_icon: macosppc
@@ -351,6 +386,7 @@
     notes: ''
 -
     enabled: true
+    priority: '36'
     category: scummvm
     subcategory: old
     category_icon: macos9
@@ -361,6 +397,7 @@
     notes: ''
 -
     enabled: true
+    priority: '37'
     category: scummvm
     subcategory: release
     category_icon: ps3
@@ -371,6 +408,7 @@
     notes: ''
 -
     enabled: true
+    priority: '38'
     category: scummvm
     subcategory: old
     category_icon: ps2
@@ -381,6 +419,7 @@
     notes: ''
 -
     enabled: true
+    priority: '39'
     category: scummvm
     subcategory: release
     category_icon: psp
@@ -391,6 +430,7 @@
     notes: ''
 -
     enabled: true
+    priority: '40'
     category: scummvm
     subcategory: release
     category_icon: psp2
@@ -401,6 +441,7 @@
     notes: ''
 -
     enabled: true
+    priority: '41'
     category: scummvm
     subcategory: release
     category_icon: psp2
@@ -411,6 +452,7 @@
     notes: 'This version contains only the engines that were removed from the regular build due to memory constraints: bladerunner, glk, myst3, grim, and titanic. It can be installed alongside the regular build. After installation, it will appear on the Vita home screen as an additional app with the name “ScummVM_other_engines”.'
 -
     enabled: true
+    priority: '42'
     category: scummvm
     subcategory: old
     category_icon: android
@@ -421,6 +463,7 @@
     notes: ''
 -
     enabled: true
+    priority: '43'
     category: scummvm
     subcategory: release
     category_icon: android
@@ -431,6 +474,7 @@
     notes: ''
 -
     enabled: true
+    priority: '44'
     category: scummvm
     subcategory: release
     category_icon: android
@@ -441,6 +485,7 @@
     notes: ''
 -
     enabled: true
+    priority: '45'
     category: scummvm
     subcategory: release
     category_icon: android
@@ -451,6 +496,7 @@
     notes: ''
 -
     enabled: true
+    priority: '46'
     category: scummvm
     subcategory: release
     category_icon: android
@@ -461,6 +507,7 @@
     notes: ''
 -
     enabled: true
+    priority: '47'
     category: scummvm
     subcategory: old
     category_icon: android
@@ -471,6 +518,7 @@
     notes: ''
 -
     enabled: true
+    priority: '48'
     category: scummvm
     subcategory: old
     category_icon: android
@@ -481,6 +529,7 @@
     notes: ''
 -
     enabled: true
+    priority: '49'
     category: scummvm
     subcategory: old
     category_icon: symbian
@@ -491,6 +540,7 @@
     notes: ''
 -
     enabled: true
+    priority: '50'
     category: scummvm
     subcategory: old
     category_icon: symbian
@@ -501,6 +551,7 @@
     notes: ''
 -
     enabled: true
+    priority: '51'
     category: scummvm
     subcategory: old
     category_icon: symbian
@@ -511,6 +562,7 @@
     notes: ''
 -
     enabled: true
+    priority: '52'
     category: scummvm
     subcategory: old
     category_icon: symbian
@@ -521,6 +573,7 @@
     notes: ''
 -
     enabled: true
+    priority: '53'
     category: scummvm
     subcategory: old
     category_icon: symbian
@@ -531,6 +584,7 @@
     notes: ''
 -
     enabled: true
+    priority: '54'
     category: scummvm
     subcategory: old
     category_icon: symbian
@@ -541,6 +595,7 @@
     notes: ''
 -
     enabled: true
+    priority: '55'
     category: scummvm
     subcategory: old
     category_icon: symbian
@@ -551,6 +606,7 @@
     notes: ''
 -
     enabled: true
+    priority: '56'
     category: scummvm
     subcategory: old
     category_icon: ouya
@@ -561,6 +617,7 @@
     notes: ''
 -
     enabled: true
+    priority: '57'
     category: scummvm
     subcategory: release
     category_icon: iphone
@@ -571,6 +628,7 @@
     notes: ''
 -
     enabled: true
+    priority: '58'
     category: scummvm
     subcategory: release
     category_icon: iphone
@@ -581,6 +639,7 @@
     notes: ''
 -
     enabled: true
+    priority: '59'
     category: scummvm
     subcategory: old
     category_icon: iphone
@@ -591,6 +650,7 @@
     notes: ''
 -
     enabled: true
+    priority: '60'
     category: scummvm
     subcategory: release
     category_icon: dc
@@ -601,6 +661,7 @@
     notes: ''
 -
     enabled: true
+    priority: '61'
     category: scummvm
     subcategory: release
     category_icon: dc
@@ -611,6 +672,7 @@
     notes: ''
 -
     enabled: true
+    priority: '62'
     category: scummvm
     subcategory: release
     category_icon: ds
@@ -621,6 +683,7 @@
     notes: ''
 -
     enabled: true
+    priority: '63'
     category: scummvm
     subcategory: old
     category_icon: 3ds
@@ -631,6 +694,7 @@
     notes: ''
 -
     enabled: true
+    priority: '64'
     category: scummvm
     subcategory: old
     category_icon: n64
@@ -641,6 +705,7 @@
     notes: ''
 -
     enabled: true
+    priority: '65'
     category: scummvm
     subcategory: old
     category_icon: gc
@@ -651,6 +716,7 @@
     notes: ''
 -
     enabled: true
+    priority: '66'
     category: scummvm
     subcategory: release
     category_icon: wii
@@ -661,6 +727,7 @@
     notes: ''
 -
     enabled: true
+    priority: '67'
     category: scummvm
     subcategory: release
     category_icon: switch
@@ -671,6 +738,7 @@
     notes: ''
 -
     enabled: true
+    priority: '68'
     category: scummvm
     subcategory: old
     category_icon: openpandora
@@ -681,6 +749,7 @@
     notes: ''
 -
     enabled: true
+    priority: '69'
     category: scummvm
     subcategory: old
     category_icon: gp2x
@@ -691,6 +760,7 @@
     notes: ''
 -
     enabled: true
+    priority: '70'
     category: scummvm
     subcategory: old
     category_icon: gp2xwiz
@@ -701,6 +771,7 @@
     notes: ''
 -
     enabled: true
+    priority: '71'
     category: scummvm
     subcategory: old
     category_icon: caanoo
@@ -711,6 +782,7 @@
     notes: ''
 -
     enabled: true
+    priority: '72'
     category: scummvm
     subcategory: release
     category_icon: gcw0
@@ -721,6 +793,7 @@
     notes: ''
 -
     enabled: true
+    priority: '73'
     category: scummvm
     subcategory: release
     category_icon: dingux
@@ -731,6 +804,7 @@
     notes: ''
 -
     enabled: true
+    priority: '74'
     category: scummvm
     subcategory: release
     category_icon: dingux
@@ -741,6 +815,7 @@
     notes: ''
 -
     enabled: true
+    priority: '75'
     category: scummvm
     subcategory: old
     category_icon: maemo
@@ -751,6 +826,7 @@
     notes: ''
 -
     enabled: true
+    priority: '76'
     category: scummvm
     subcategory: old
     category_icon: webos
@@ -761,6 +837,7 @@
     notes: ''
 -
     enabled: true
+    priority: '77'
     category: scummvm
     subcategory: old
     category_icon: tizen
@@ -771,6 +848,7 @@
     notes: ''
 -
     enabled: true
+    priority: '78'
     category: scummvm
     subcategory: old
     category_icon: linuxmoto
@@ -781,6 +859,7 @@
     notes: ''
 -
     enabled: true
+    priority: '79'
     category: scummvm
     subcategory: old
     category_icon: linuxmoto
@@ -791,6 +870,7 @@
     notes: ''
 -
     enabled: true
+    priority: '80'
     category: scummvm
     subcategory: old
     category_icon: linuxmoto
@@ -801,6 +881,7 @@
     notes: ''
 -
     enabled: true
+    priority: '81'
     category: scummvm
     subcategory: old
     category_icon: linuxmoto
@@ -811,6 +892,7 @@
     notes: ''
 -
     enabled: true
+    priority: '82'
     category: scummvm
     subcategory: old
     category_icon: wince
@@ -821,6 +903,7 @@
     notes: ''
 -
     enabled: true
+    priority: '83'
     category: scummvm
     subcategory: old
     category_icon: wince
@@ -831,6 +914,7 @@
     notes: ''
 -
     enabled: true
+    priority: '84'
     category: scummvm
     subcategory: old
     category_icon: wince
@@ -841,6 +925,7 @@
     notes: ''
 -
     enabled: true
+    priority: '85'
     category: scummvm
     subcategory: old
     category_icon: wince
@@ -851,6 +936,7 @@
     notes: ''
 -
     enabled: true
+    priority: '86'
     category: scummvm
     subcategory: old
     category_icon: wince
@@ -861,6 +947,7 @@
     notes: ''
 -
     enabled: true
+    priority: '87'
     category: scummvm
     subcategory: old
     category_icon: wince
@@ -871,6 +958,7 @@
     notes: ''
 -
     enabled: true
+    priority: '88'
     category: scummvm
     subcategory: old
     category_icon: palmos
@@ -881,6 +969,7 @@
     notes: ''
 -
     enabled: true
+    priority: '89'
     category: scummvm
     subcategory: old
     category_icon: palmos
@@ -891,6 +980,7 @@
     notes: ''
 -
     enabled: true
+    priority: '90'
     category: scummvm
     subcategory: old
     category_icon: opie
@@ -901,6 +991,7 @@
     notes: ''
 -
     enabled: true
+    priority: '91'
     category: scummvm
     subcategory: old
     category_icon: beos
@@ -911,6 +1002,7 @@
     notes: ''
 -
     enabled: true
+    priority: '92'
     category: scummvm
     subcategory: release
     category_icon: haiku
@@ -921,6 +1013,7 @@
     notes: ''
 -
     enabled: true
+    priority: '93'
     category: scummvm
     subcategory: release
     category_icon: haiku
@@ -931,6 +1024,7 @@
     notes: ''
 -
     enabled: true
+    priority: '94'
     category: scummvm
     subcategory: release
     category_icon: amiga
@@ -941,6 +1035,7 @@
     notes: ''
 -
     enabled: true
+    priority: '95'
     category: scummvm
     subcategory: release
     category_icon: morphos
@@ -951,6 +1046,7 @@
     notes: ''
 -
     enabled: true
+    priority: '96'
     category: scummvm
     subcategory: release
     category_icon: riscos
@@ -961,6 +1057,7 @@
     notes: ''
 -
     enabled: true
+    priority: '97'
     category: scummvm
     subcategory: old
     category_icon: riscos
@@ -971,6 +1068,7 @@
     notes: ''
 -
     enabled: true
+    priority: '98'
     category: scummvm
     subcategory: release
     category_icon: freemint
@@ -981,6 +1079,7 @@
     notes: ''
 -
     enabled: true
+    priority: '99'
     category: scummvm
     subcategory: release
     category_icon: freemint
@@ -991,6 +1090,7 @@
     notes: ''
 -
     enabled: true
+    priority: '100'
     category: scummvm
     subcategory: release
     category_icon: freemint
@@ -1001,6 +1101,7 @@
     notes: ''
 -
     enabled: true
+    priority: '101'
     category: scummvm
     subcategory: old
     category_icon: samsungtv
@@ -1011,6 +1112,7 @@
     notes: ''
 -
     enabled: true
+    priority: '102'
     category: scummvm
     subcategory: old
     category_icon: raspberry
@@ -1021,6 +1123,7 @@
     notes: ''
 -
     enabled: true
+    priority: '103'
     category: scummvm
     subcategory: old
     category_icon: raspberry
@@ -1031,6 +1134,7 @@
     notes: ''
 -
     enabled: true
+    priority: '104'
     category: scummvm
     subcategory: old
     category_icon: raspberry
@@ -1041,6 +1145,7 @@
     notes: ''
 -
     enabled: true
+    priority: '105'
     category: scummvm
     subcategory: old
     category_icon: os2
@@ -1051,6 +1156,7 @@
     notes: ''
 -
     enabled: true
+    priority: '200'
     category: scummvm
     subcategory: source
     category_icon: cpp
@@ -1061,6 +1167,7 @@
     notes: ''
 -
     enabled: true
+    priority: '201'
     category: scummvm
     subcategory: source
     category_icon: cpp
@@ -1071,6 +1178,7 @@
     notes: ''
 -
     enabled: true
+    priority: '202'
     category: scummvm
     subcategory: source
     category_icon: cpp
@@ -1081,6 +1189,7 @@
     notes: ''
 -
     enabled: true
+    priority: '203'
     category: scummvm
     subcategory: source
     category_icon: cpp
@@ -1091,6 +1200,7 @@
     notes: ''
 -
     enabled: true
+    priority: '204'
     category: scummvm
     subcategory: source
     category_icon: cpp
@@ -1101,6 +1211,7 @@
     notes: ''
 -
     enabled: true
+    priority: '1'
     category: scummvm-tools
     subcategory: release
     category_icon: windows
@@ -1111,6 +1222,7 @@
     notes: ''
 -
     enabled: true
+    priority: '2'
     category: scummvm-tools
     subcategory: release
     category_icon: windows
@@ -1121,6 +1233,7 @@
     notes: ''
 -
     enabled: true
+    priority: '3'
     category: scummvm-tools
     subcategory: release
     category_icon: macos
@@ -1131,6 +1244,7 @@
     notes: ''
 -
     enabled: true
+    priority: '4'
     category: scummvm-tools
     subcategory: release
     category_icon: haiku
@@ -1141,6 +1255,7 @@
     notes: ''
 -
     enabled: true
+    priority: '5'
     category: scummvm-tools
     subcategory: release
     category_icon: haiku
@@ -1151,6 +1266,7 @@
     notes: ''
 -
     enabled: true
+    priority: '6'
     category: scummvm-tools
     subcategory: release
     category_icon: amiga
@@ -1161,6 +1277,7 @@
     notes: ''
 -
     enabled: false
+    priority: '7'
     category: scummvm-tools
     subcategory: release
     category_icon: morphos
@@ -1171,6 +1288,7 @@
     notes: ''
 -
     enabled: true
+    priority: '8'
     category: scummvm-tools
     subcategory: release
     category_icon: riscos
@@ -1181,6 +1299,7 @@
     notes: ''
 -
     enabled: true
+    priority: '9'
     category: scummvm-tools
     subcategory: release
     category_icon: freemint
@@ -1191,6 +1310,7 @@
     notes: ''
 -
     enabled: true
+    priority: '10'
     category: scummvm-tools
     subcategory: release
     category_icon: freemint
@@ -1201,6 +1321,7 @@
     notes: ''
 -
     enabled: true
+    priority: '11'
     category: scummvm-tools
     subcategory: release
     category_icon: freemint
@@ -1211,6 +1332,7 @@
     notes: ''
 -
     enabled: false
+    priority: '12'
     category: scummvm-tools
     subcategory: release
     category_icon: windows
@@ -1221,6 +1343,7 @@
     notes: ''
 -
     enabled: false
+    priority: '13'
     category: scummvm-tools
     subcategory: release
     category_icon: fedora
@@ -1231,6 +1354,7 @@
     notes: ''
 -
     enabled: false
+    priority: '14'
     category: scummvm-tools
     subcategory: release
     category_icon: fedora
@@ -1241,6 +1365,7 @@
     notes: ''
 -
     enabled: false
+    priority: '15'
     category: scummvm-tools
     subcategory: release
     category_icon: solaris
@@ -1251,6 +1376,7 @@
     notes: ''
 -
     enabled: false
+    priority: '16'
     category: scummvm-tools
     subcategory: release
     category_icon: solaris
@@ -1261,6 +1387,7 @@
     notes: ''
 -
     enabled: false
+    priority: '17'
     category: scummvm-tools
     subcategory: release
     category_icon: irix
@@ -1271,6 +1398,7 @@
     notes: ''
 -
     enabled: false
+    priority: '18'
     category: scummvm-tools
     subcategory: release
     category_icon: irix
@@ -1281,6 +1409,7 @@
     notes: ''
 -
     enabled: false
+    priority: '19'
     category: scummvm-tools
     subcategory: release
     category_icon: beos
@@ -1291,6 +1420,7 @@
     notes: ''
 -
     enabled: true
+    priority: '20'
     category: scummvm-tools
     subcategory: release
     category_icon: cpp
@@ -1301,6 +1431,7 @@
     notes: ''
 -
     enabled: true
+    priority: '21'
     category: scummvm-tools
     subcategory: release
     category_icon: cpp
@@ -1311,6 +1442,7 @@
     notes: ''
 -
     enabled: true
+    priority: '22'
     category: scummvm-tools
     subcategory: release
     category_icon: cpp
@@ -1321,6 +1453,7 @@
     notes: ''
 -
     enabled: true
+    priority: '23'
     category: scummvm-tools
     subcategory: release
     category_icon: cpp
@@ -1331,6 +1464,7 @@
     notes: ''
 -
     enabled: true
+    priority: '24'
     category: scummvm-tools
     subcategory: release
     category_icon: cpp
@@ -1341,6 +1475,7 @@
     notes: ''
 -
     enabled: true
+    priority: '1'
     category: scummvm
     subcategory: daily_downloads
     category_icon: windows
@@ -1350,47 +1485,8 @@
     name: 'ScummVM Daily Build - Windows Installer'
     notes: ''
 -
-    enabled: false
-    category: scummvm
-    subcategory: daily_downloads
-    category_icon: debian
-    user_agent: ''
-    version: Daily
-    url: scummvm_debian_i386.deb
-    name: 'ScummVM Daily Build - Debian i386'
-    notes: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
--
-    enabled: false
-    category: scummvm
-    subcategory: daily_downloads
-    category_icon: debian
-    user_agent: ''
-    version: Daily
-    url: scummvm_debian_amd64.deb
-    name: 'ScummVM Daily Build - Debian x86_64'
-    notes: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
--
-    enabled: false
-    category: scummvm
-    subcategory: daily_downloads
-    category_icon: ubuntu
-    user_agent: ''
-    version: Daily
-    url: scummvm_ubuntu_i386.deb
-    name: 'ScummVM Daily Build - Ubuntu i386'
-    notes: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
--
-    enabled: false
-    category: scummvm
-    subcategory: daily_downloads
-    category_icon: ubuntu
-    user_agent: ''
-    version: Daily
-    url: scummvm_ubuntu_amd64.deb
-    name: 'ScummVM Daily Build - Ubuntu x86_64'
-    notes: 'Provided by ScummVM Team member Pawel ''aquadran'' Kolodziejski'
--
     enabled: true
+    priority: '2'
     category: scummvm
     subcategory: daily_downloads
     category_icon: buildbot
@@ -1401,6 +1497,7 @@
     notes: ''
 -
     enabled: true
+    priority: '3'
     category: scummvm
     subcategory: daily_downloads
     category_icon: cpp
@@ -1411,6 +1508,7 @@
     notes: 'For if you wish to retrieve the latest code to compile yourself'
 -
     enabled: true
+    priority: '4'
     category: scummvm-tools
     subcategory: daily_downloads
     category_icon: windows
@@ -1421,6 +1519,7 @@
     notes: ''
 -
     enabled: true
+    priority: ''
     category: libs
     subcategory: required
     category_icon: ''
@@ -1431,6 +1530,7 @@
     notes: '(or SDL 1.2.x)'
 -
     enabled: true
+    priority: ''
     category: libs
     subcategory: optional
     category_icon: ''
@@ -1441,6 +1541,7 @@
     notes: 'MPEG Audio Decoder'
 -
     enabled: true
+    priority: ''
     category: libs
     subcategory: optional
     category_icon: ''
@@ -1451,6 +1552,7 @@
     notes: 'A free codec for lossy audio compression'
 -
     enabled: true
+    priority: ''
     category: libs
     subcategory: optional
     category_icon: ''
@@ -1461,6 +1563,7 @@
     notes: 'Free Lossless Audio Codec'
 -
     enabled: true
+    priority: ''
     category: libs
     subcategory: optional
     category_icon: ''
@@ -1471,6 +1574,7 @@
     notes: 'ATSC A/52 stream decoder'
 -
     enabled: true
+    priority: ''
     category: libs
     subcategory: optional
     category_icon: ''
@@ -1481,6 +1585,7 @@
     notes: 'MPEG-4 and MPEG-2 AAC Decoder'
 -
     enabled: true
+    priority: ''
     category: libs
     subcategory: optional
     category_icon: ''
@@ -1491,6 +1596,7 @@
     notes: 'Theora Decoder'
 -
     enabled: true
+    priority: ''
     category: libs
     subcategory: optional
     category_icon: ''
@@ -1501,6 +1607,7 @@
     notes: 'mpeg2 Decoder'
 -
     enabled: true
+    priority: ''
     category: libs
     subcategory: optional
     category_icon: ''
@@ -1511,6 +1618,7 @@
     notes: 'png image format decoder'
 -
     enabled: true
+    priority: ''
     category: libs
     subcategory: optional
     category_icon: ''
@@ -1521,6 +1629,7 @@
     notes: '(or jpeg-turbo) jpeg image format decoder'
 -
     enabled: true
+    priority: ''
     category: libs
     subcategory: optional
     category_icon: ''
@@ -1531,6 +1640,7 @@
     notes: 'gif image format decoder'
 -
     enabled: true
+    priority: ''
     category: libs
     subcategory: optional
     category_icon: ''
@@ -1541,6 +1651,7 @@
     notes: 'Data Compression'
 -
     enabled: true
+    priority: ''
     category: libs
     subcategory: optional
     category_icon: ''
@@ -1551,6 +1662,7 @@
     notes: 'Real-Time Software MIDI Synthesizer'
 -
     enabled: true
+    priority: ''
     category: libs
     subcategory: optional
     category_icon: ''
@@ -1561,6 +1673,7 @@
     notes: 'MIDI to WAVE converter library'
 -
     enabled: true
+    priority: ''
     category: libs
     subcategory: optional
     category_icon: ''
@@ -1571,6 +1684,7 @@
     notes: 'Font rendering'
 -
     enabled: true
+    priority: ''
     category: libs
     subcategory: optional
     category_icon: ''
@@ -1581,6 +1695,7 @@
     notes: 'Bidirectional text support'
 -
     enabled: true
+    priority: ''
     category: libs
     subcategory: optional
     category_icon: ''
@@ -1591,6 +1706,7 @@
     notes: 'Networking library'
 -
     enabled: true
+    priority: ''
     category: libs
     subcategory: optional
     category_icon: ''
