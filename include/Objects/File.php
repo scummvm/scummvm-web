@@ -23,7 +23,7 @@ class File extends BasicObject
         $this->notes = isset($data['notes']) ? $data['notes'] : '';
         $this->subcategory = $data['subcategory'] ?? null;
         $this->user_agent = isset($data["user_agent"]) ? $data["user_agent"] : "";
-        $this->version = strtolower($data['version'] ?? null);
+        $this->version = isset($data['version']) ? strtolower($data['version']) : null;
 
         /* If it's not an array, we didn't get any attributes. */
         if (!is_array($data['url'])) {
