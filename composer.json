@@ -9,7 +9,7 @@
     }
   ],
   "require": {
-    "php": ">=7.3.0 <8.0.0",
+    "php": ">=7.3.0",
     "ext-intl": "*",
     "smarty/smarty": "^4.1.0",
     "ezyang/htmlpurifier": "^4.10",
