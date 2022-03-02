@@ -20,7 +20,7 @@ class Screenshot extends BaseScreenshot
     public function getFiles()
     {
         if (!$this->files) {
-            foreach (glob("./" . DIR_SCREENSHOTS . "/" . $this->getGame()->getEngine()->getId() . "/" . $this->getGame()->getId() . "/*") as $file) {
+            foreach (glob("./" . DIR_SCREENSHOTS . "/" . $this->getGame()->getEngine()->getId() . "/" . $this->getGame()->getId() . "/" . $this->getFileMask()) as $file) {
                 if (\strpos($file, "_full.") !== false) {
                     continue;
                 }
@@ -86,6 +86,21 @@ class Screenshot extends BaseScreenshot
         }
 
         return $name;
+    }
+
+    public function getFileMask()
+    {
+        $mask = $this->getGame()->getId() . "_";
+        if ($this->getPlatform()) {
+            $mask .= $this->getPlatform()->getId() . "_";
+        }
+        if ($this->getLanguage()) {
+            $mask .= $this->getLanguage() . "_";
+        }
+        // TODO: Each variant of same platform/language has a sequential ID
+        $mask .= "1_";
+        $mask .= "*";
+        return $mask;
     }
 
     public function __toString()
