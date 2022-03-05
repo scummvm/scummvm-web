@@ -68,7 +68,7 @@ class Screenshot extends BaseScreenshot
     public function getCaption()
     {
         // Escape quotes and such in the name, such as for `Spy Fox in "Dry Cereal"`
-        $name = htmlspecialchars($this->getGame()->getName());
+        $name = $this->getGame()->getName();
         $extras = [];
         if ($this->getVariant()) {
             $extras[] = $this->getVariant();
@@ -82,10 +82,10 @@ class Screenshot extends BaseScreenshot
 
         if (count($extras) > 0) {
             $extra = \join("/", $extras);
-            return "$name ($extra)";
+            return htmlspecialchars("$name ($extra)");
         }
 
-        return $name;
+        return htmlspecialchars($name);
     }
 
     public function __toString()
