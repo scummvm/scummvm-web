@@ -21,12 +21,10 @@ class Screenshot extends BaseScreenshot
     {
         if (!$this->files) {
             foreach (glob("./" . DIR_SCREENSHOTS . "/" . $this->getGame()->getEngine()->getId() . "/" . $this->getGame()->getId() . "/" . $this->getFileMask()) as $file) {
-                if (\strpos($file, "_full.") !== false) {
-                    continue;
-                }
-                // Remove the base folder and extension
+                // Remove the base folder
                 $name = str_replace("./" . DIR_SCREENSHOTS . "/", "", $file);
-                $name = \substr($name, 0, \strlen($name) - 4);
+                // Remove the suffix, eg. "_full.png"
+                $name = \substr($name, 0, \strlen($name) - 9);
                 $this->files[] = [
                     'filename' => $name,
                     'caption' => $this->getCaption(),
@@ -97,9 +95,8 @@ class Screenshot extends BaseScreenshot
         if ($this->getLanguage()) {
             $mask .= $this->getLanguage() . "_";
         }
-        // TODO: Each variant of same platform/language has a sequential ID
-        $mask .= "1_";
-        $mask .= "*";
+        $mask .= $this->getVariantId() . "_";
+        $mask .= "*_full.*";
         return $mask;
     }
 
