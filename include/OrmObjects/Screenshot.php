@@ -71,7 +71,7 @@ class Screenshot extends BaseScreenshot
         $name = str_replace("\"", "&quot;", $this->getGame()->getName());
         $extras = [];
         if ($this->getVariant()) {
-            $extras[] = $this->getVariant();
+            $extras[] = htmlspecialchars($this->getVariant());
         }
         if ($this->getPlatform()) {
             $extras[] = $this->getPlatform()->getName();
