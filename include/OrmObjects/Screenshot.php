@@ -67,8 +67,8 @@ class Screenshot extends BaseScreenshot
 
     public function getCaption()
     {
-        // Escape quotes in the name, such as for `Spy Fox in "Dry Cereal"`
-        $name = str_replace("\"", "&quot;", $this->getGame()->getName());
+        // Escape quotes and such in the name, such as for `Spy Fox in "Dry Cereal"`
+        $name = htmlspecialchars($this->getGame()->getName());
         $extras = [];
         if ($this->getVariant()) {
             $extras[] = $this->getVariant();
