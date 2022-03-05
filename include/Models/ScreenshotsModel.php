@@ -145,7 +145,7 @@ class ScreenshotsModel extends BasicModel
         $count = 0;
         // Iterate over each game and count the number of screenshot files
         foreach ($games as $game) {
-            $count += count(glob("./" . DIR_SCREENSHOTS . "/" . $game->getEngine()->getId() . "/" . $game->getId() . "/*"));
+            $count += count(glob("./" . DIR_SCREENSHOTS . "/" . $game->getEngine()->getId() . "/" . $game->getId() . "/*_full.png"));
         }
         return $count;
     }
