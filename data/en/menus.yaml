@@ -9,7 +9,7 @@
       href: 'https://forums.scummvm.org/'
     - name: '{#menuMainDownloads#}'
       href: /downloads/
-    - name: '{#menuMainGames#}'
+    - name: '{#menuMainFreewareGames#}'
       href: /games/
     - name: '{#menuMainBlogs#}'
       href: 'https://planet.scummvm.org'
