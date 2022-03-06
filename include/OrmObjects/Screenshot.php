@@ -20,13 +20,11 @@ class Screenshot extends BaseScreenshot
     public function getFiles()
     {
         if (!$this->files) {
-            foreach (glob("./" . DIR_SCREENSHOTS . "/" . $this->getGame()->getEngine()->getId() . "/" . $this->getGame()->getId() . "/*") as $file) {
-                if (\strpos($file, "_full.") !== false) {
-                    continue;
-                }
-                // Remove the base folder and extension
+            foreach (glob("./" . DIR_SCREENSHOTS . "/" . $this->getGame()->getEngine()->getId() . "/" . $this->getGame()->getId() . "/" . $this->getFileMask()) as $file) {
+                // Remove the base folder
                 $name = str_replace("./" . DIR_SCREENSHOTS . "/", "", $file);
-                $name = \substr($name, 0, \strlen($name) - 4);
+                // Remove the suffix, eg. "_full.png"
+                $name = \substr($name, 0, \strlen($name) - 9);
                 $this->files[] = [
                     'filename' => $name,
                     'caption' => $this->getCaption(),
@@ -86,6 +84,20 @@ class Screenshot extends BaseScreenshot
         }
 
         return htmlspecialchars($name);
+    }
+
+    public function getFileMask()
+    {
+        $mask = $this->getGame()->getId() . "_";
+        if ($this->getPlatform()) {
+            $mask .= $this->getPlatform()->getId() . "_";
+        }
+        if ($this->getLanguage()) {
+            $mask .= $this->getLanguage() . "_";
+        }
+        $mask .= $this->getVariantId() . "_";
+        $mask .= "*_full.*";
+        return $mask;
     }
 
     public function __toString()

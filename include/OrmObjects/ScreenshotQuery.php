@@ -26,7 +26,7 @@ class ScreenshotQuery extends BaseScreenshotQuery
             $con = Propel::getServiceContainer()->getReadConnection(ScreenshotTableMap::DATABASE_NAME);
         }
 
-        $sql = 'SELECT id, variant, platform_id, language, auto_id FROM screenshot ORDER BY RANDOM() LIMIT 1';
+        $sql = 'SELECT id, variant, platform_id, language, variant_id, auto_id FROM screenshot ORDER BY RANDOM() LIMIT 1';
         try {
             $stmt = $con->prepare($sql);
             $stmt->execute();

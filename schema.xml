@@ -69,6 +69,7 @@
     <column name="variant" type="varchar" size="255" />
     <column name="platform_id" type="varchar" size="24" required="true"/>
     <column name="language" type="varchar" size="8" required="true"/>
+    <column name="variant_id" type="integer"/>
     <foreign-key foreignTable="game" onDelete="CASCADE">
       <reference local="id" foreign="id"/>
     </foreign-key>
