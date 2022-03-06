@@ -3,6 +3,7 @@
  * @author  feimosi
  * @version 1.11.1
  * @url https://github.com/feimosi/baguetteBox.js
+ * Customized by ScummVM: https://github.com/scummvm/scummvm-web/pull/218
  */
 #baguetteBox-overlay {
     display: none;
@@ -30,9 +31,12 @@
     text-align: center;
 }
 #baguetteBox-overlay .full-image figure {
-    display: inline;
+    display: inline-block;
     margin: 0;
-    height: 100%;
+    vertical-align: middle;
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
 #baguetteBox-overlay .full-image img {
     display: inline-block;
@@ -40,15 +44,9 @@
     height: auto;
     max-height: 100%;
     max-width: 100%;
-    vertical-align: middle;
-    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
 #baguetteBox-overlay .full-image figcaption {
     display: block;
-    position: absolute;
-    bottom: 0;
     width: 100%;
     text-align: center;
     line-height: 1.8;
