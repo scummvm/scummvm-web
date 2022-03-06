@@ -1,37 +1,37 @@
 # This is a generated file, please do not edit manually
 -
     id: bc
-    variant: '2.00 1987-06-14'
+    variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
 -
     id: goldrush
-    variant: '1.01 1989-01-13 aka 2.05 1989-03-09'
+    variant: ''
     platform_id: amiga
     language: en
     variant_id: '1'
 -
     id: goldrush
-    variant: '2.01 1988-12-22 3.5"'
+    variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
 -
     id: kq1
-    variant: '2.0F 1987-05-05 5.25"/3.5"'
+    variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
 -
     id: kq3
-    variant: '2.14 1988-03-15 3.5"'
+    variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
 -
     id: kq4
-    variant: '2.0 1988-07-27 3.5"'
+    variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
@@ -49,49 +49,49 @@
     variant_id: '2'
 -
     id: lsl1
-    variant: '1.00 1987-06-01 5.25"/3.5"'
+    variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
 -
     id: lsl1
-    variant: '1.05 1987-06-26'
+    variant: ''
     platform_id: amiga
     language: en
     variant_id: '1'
 -
     id: lsl1
-    variant: '2.00 2001-12-11'
+    variant: ''
     platform_id: dos
     language: pl
     variant_id: '1'
 -
     id: mh1
-    variant: '1.22 1988-08-31'
+    variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
 -
     id: mh2
-    variant: '3.02 1989-07-26 3.5"'
+    variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
 -
     id: mixedup
-    variant: '1987-11-10'
+    variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
 -
     id: pq1
-    variant: '2.0B 1989-02-22'
+    variant: ''
     platform_id: amiga
     language: en
     variant_id: '1'
 -
     id: pq1
-    variant: '2.0G 1987-12-03'
+    variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
@@ -121,13 +121,13 @@
     variant_id: '1'
 -
     id: sq1
-    variant: '1.1A 1986-11-13'
+    variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
 -
     id: sq2
-    variant: '2.0A 1987-11-06 5.25"'
+    variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
