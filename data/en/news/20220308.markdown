@@ -3,6 +3,7 @@ title: "ScummVM has been accepted to the Google Summer of Code 2022"
 author: sev
 date: 1646766253
 ---
+
 This year our project once again was accepted to the [Google Summer of Code](https://summerofcode.withgoogle.com) program.
 
 In previous years, Google only allowed students to participate. This year, however, both students and non-students are welcome to join us and hack together. There are now two sets of tasks, for 175 hours and for 350 hours. Some of our tasks could be either of the two.
