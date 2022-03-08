@@ -1,0 +1,16 @@
+---
+title: "ScummVM has been accepted to the Google Summer of Code 2022"
+author: sev
+date: 1646766253
+—
+This year our project once again was accepted to the [Google Summer of Code](https://summerofcode.withgoogle.com) program.
+
+In previous years, Google only allowed students to participate. This year, however, both students and non-students are welcome to join us and hack together. There are now two sets of tasks, for 175 hours and for 350 hours. Some of our tasks could be either of the two.
+
+ScummVM is looking for applicants! A list of suggested projects can be found on [this page](https://wiki.scummvm.org/index.php?title=Summer_of_Code/GSoC_Ideas_2022), but we’re open to your own ideas too. Please make sure you provide the [required information in your application](https://wiki.scummvm.org/index.php?title=GSoC_Application) before submitting.
+
+We have gathered some information to guide you, based on our previous 14 years of experience in the program. You may start your exploration from our [Google Summer of Code miniportal](https://wiki.scummvm.org/index.php?title=Summer_of_Code).
+
+Also, please join our [Discord server](https://discord.gg/5D8yTtF) and follow the #scummvm-gsoc channel where you can engage with our mentors and the rest of the team.
+
+We are looking forward to your fine application and participation!
