@@ -9,14 +9,12 @@
 }
 
 .gallery {
+  display:flex;
+  /* Max of 4 per row. */
+  flex: 1 0 24%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-
-  .caption {
-    text-overflow: ellipsis;
-    overflow: hidden;
-    height: 38px;
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-  }
 }
