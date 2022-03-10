@@ -10,8 +10,6 @@
 
 .gallery {
   display: flex;
-  /* Max of 4 per row. */
-  flex: 1 0 24%;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
