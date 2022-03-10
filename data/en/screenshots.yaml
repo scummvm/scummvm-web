@@ -37,16 +37,10 @@
     variant_id: '1'
 -
     id: kq2
-    variant: '2.1 1987-04-10'
+    variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
--
-    id: kq2
-    variant: '2.2 1987-05-07 5.25"/3.5"'
-    platform_id: dos
-    language: en
-    variant_id: '2'
 -
     id: lsl1
     variant: ''
