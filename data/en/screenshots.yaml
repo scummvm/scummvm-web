@@ -1,246 +1,72 @@
 # This is a generated file, please do not edit manually
 -
-    id: bc
+    id: 11h
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 5ld
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 5ma
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 5ma
+    variant: ''
+    platform_id: win
+    language: de
+    variant_id: '1'
+-
+    id: airport
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: arthur
     variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
 -
-    id: goldrush
+    id: arthur
+    variant: ''
+    platform_id: dos
+    language: es
+    variant_id: '1'
+-
+    id: arttime
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: atlantis
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: atlantis
     variant: ''
     platform_id: amiga
-    language: en
-    variant_id: '1'
--
-    id: goldrush
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: kq1
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: kq3
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: kq4
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: kq2
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: lsl1
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: lsl1
-    variant: ''
-    platform_id: amiga
-    language: en
-    variant_id: '1'
--
-    id: lsl1
-    variant: ''
-    platform_id: dos
-    language: pl
-    variant_id: '1'
--
-    id: mh1
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: mh2
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: mixedup
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: pq1
-    variant: ''
-    platform_id: amiga
-    language: en
-    variant_id: '1'
--
-    id: pq1
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: mickey
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: mickey
-    variant: CGA
-    platform_id: dos
-    language: en
-    variant_id: '2'
--
-    id: troll
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: winnie
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: sq1
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: sq2
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: elvira1
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: elvira2
-    variant: ''
-    platform_id: amiga
-    language: en
-    variant_id: '1'
--
-    id: feeble
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: simon1
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: swampy
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: simon2
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: simon2
-    variant: ''
-    platform_id: dos
-    language: iw
-    variant_id: '1'
--
-    id: dimp
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: jumble
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: puzzle
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: waxworks
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: waxworks
-    variant: ''
-    platform_id: amiga
-    language: en
-    variant_id: '1'
--
-    id: darby
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: gregory
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: imoking
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: liam
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: littlesamurai
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: princess
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: sleepingcub
-    variant: ''
-    platform_id: win
     language: en
     variant_id: '1'
 -
     id: babayaga
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: balloon
     variant: ''
     platform_id: win
     language: en
@@ -264,237 +90,75 @@
     language: en
     variant_id: '1'
 -
-    id: crousti
+    id: baseball2003
     variant: ''
-    platform_id: dos
-    language: pt-br
-    variant_id: '1'
--
-    id: fascination
-    variant: CD
-    platform_id: dos
+    platform_id: win
     language: en
     variant_id: '1'
 -
-    id: fascination
+    id: bbvs
     variant: ''
-    platform_id: amiga
-    language: de
+    platform_id: win
+    language: en
     variant_id: '1'
 -
-    id: fascination
-    variant: ''
-    platform_id: amiga
-    language: fr
-    variant_id: '1'
--
-    id: fascination
-    variant: CD
-    platform_id: dos
-    language: de
-    variant_id: '1'
--
-    id: fascination
-    variant: CD
-    platform_id: dos
-    language: es
-    variant_id: '1'
--
-    id: fascination
-    variant: CD
-    platform_id: dos
-    language: fr
-    variant_id: '1'
--
-    id: fascination
-    variant: CD
-    platform_id: dos
-    language: it
-    variant_id: '1'
--
-    id: geisha
+    id: bc
     variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
 -
-    id: geisha
-    variant: ''
-    platform_id: amiga
-    language: en
-    variant_id: '1'
--
-    id: gob1
+    id: beardark
     variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
 -
-    id: gob1
-    variant: ''
-    platform_id: dos
-    language: pl
-    variant_id: '1'
--
-    id: gob2
-    variant: CD
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: gob2
-    variant: ''
-    platform_id: amiga
-    language: de
-    variant_id: '1'
--
-    id: gob2
-    variant: CD
-    platform_id: dos
-    language: pl
-    variant_id: '1'
--
-    id: gob3
+    id: bearfight
     variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
 -
-    id: gob3
-    variant: ''
-    platform_id: amiga
-    language: fr
-    variant_id: '1'
--
-    id: gob3
-    variant: CD
-    platform_id: dos
-    language: pl
-    variant_id: '1'
--
-    id: littlered
-    variant: ''
-    platform_id: dos
-    language: de
-    variant_id: '1'
--
-    id: littlered
+    id: bearfight
     variant: ''
     platform_id: dos
     language: es
     variant_id: '1'
 -
-    id: littlered
-    variant: ''
-    platform_id: dos
-    language: fr
-    variant_id: '1'
--
-    id: littlered
-    variant: ''
-    platform_id: dos
+    id: bickadoodle
+    variant: v1.2
+    platform_id: win
     language: en
     variant_id: '1'
 -
-    id: littlered
-    variant: ''
-    platform_id: dos
-    language: it
-    variant_id: '1'
--
-    id: lit
-    variant: CD
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: lit
-    variant: CD
-    platform_id: dos
-    language: de
-    variant_id: '1'
--
-    id: lit
-    variant: CD
-    platform_id: dos
-    language: fr
-    variant_id: '1'
--
-    id: lit
-    variant: CD
-    platform_id: dos
-    language: it
-    variant_id: '1'
--
-    id: urban
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: ween
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: ween
-    variant: ''
-    platform_id: amiga
-    language: fr
-    variant_id: '1'
--
-    id: ween
-    variant: ''
-    platform_id: amiga
-    language: it
-    variant_id: '1'
--
-    id: woodruff
+    id: bladerunner
     variant: ''
     platform_id: win
     language: en
     variant_id: '1'
 -
-    id: woodruff
-    variant: ''
-    platform_id: win
-    language: de
-    variant_id: '1'
--
-    id: woodruff
+    id: bladerunner
     variant: ''
     platform_id: win
     language: es
     variant_id: '1'
 -
-    id: woodruff
+    id: bladerunner
     variant: ''
     platform_id: win
     language: fr
     variant_id: '1'
 -
-    id: woodruff
+    id: bladerunner-final
     variant: ''
     platform_id: win
-    language: en-gb
-    variant_id: '1'
--
-    id: woodruff
-    variant: ''
-    platform_id: win
-    language: it
-    variant_id: '1'
--
-    id: t7g
-    variant: ''
-    platform_id: dos
     language: en
     variant_id: '1'
 -
-    id: arttime
-    variant: ''
-    platform_id: win
+    id: blueforce
+    variant: CD
+    platform_id: dos
     language: en
     variant_id: '1'
 -
@@ -510,173 +174,23 @@
     language: en
     variant_id: '1'
 -
-    id: fbear
+    id: camelot
     variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
 -
-    id: fbear
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: fbpack
-    variant: ''
+    id: castlebrain
+    variant: VGA
     platform_id: dos
-    language: en
+    language: de
     variant_id: '1'
 -
-    id: freddi
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: freddi2
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: freddi3
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: freddi4
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: maze
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: airport
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: pajama
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: pajama2
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: pajama3
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: socks
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: puttcircus
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: puttmoon
-    variant: ''
-    platform_id: 3do
-    language: en
-    variant_id: '1'
--
-    id: puttputt
-    variant: ''
-    platform_id: 3do
-    language: en
-    variant_id: '1'
--
-    id: puttrace
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: putttime
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: puttzoo
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: puttputt
-    variant: ''
+    id: castlebrain
+    variant: EGA
     platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: balloon
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: dog
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: funpack
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: puttmoon
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: baseball2003
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: football
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: spyfox
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: spyfox2
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
+    language: de
+    variant_id: '2'
 -
     id: chase
     variant: ''
@@ -684,33 +198,15 @@
     language: en
     variant_id: '1'
 -
-    id: mustard
+    id: chivalry
     variant: ''
     platform_id: win
     language: en
     variant_id: '1'
 -
-    id: thinkerk
+    id: clandestiny
     variant: ''
     platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: thinkerk
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: atlantis
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: atlantis
-    variant: ''
-    platform_id: amiga
     language: en
     variant_id: '1'
 -
@@ -732,436 +228,88 @@
     language: zh-tw
     variant_id: '1'
 -
+    id: comi
+    variant: ''
+    platform_id: win
+    language: fr
+    variant_id: '1'
+-
+    id: crousti
+    variant: ''
+    platform_id: dos
+    language: pt-br
+    variant_id: '1'
+-
+    id: cruise
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: cruise
+    variant: ''
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: cruise
+    variant: ''
+    platform_id: dos
+    language: es
+    variant_id: '1'
+-
+    id: cruise
+    variant: ''
+    platform_id: dos
+    language: fr
+    variant_id: '1'
+-
+    id: darby
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: ddp
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: ddp
+    variant: CGA
+    platform_id: dos
+    language: en
+    variant_id: '2'
+-
+    id: deadcity
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: dig
     variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
 -
-    id: ft
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: ft
-    variant: ''
-    platform_id: dos
-    language: pt-br
-    variant_id: '1'
--
-    id: indy3
-    variant: EGA
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: indy3
-    variant: ''
-    platform_id: amiga
-    language: en
-    variant_id: '1'
--
-    id: indy3
-    variant: VGA
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: loom
-    variant: EGA
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: loom
-    variant: EGA
-    platform_id: dos
-    language: de
-    variant_id: '1'
--
-    id: loom
-    variant: ''
-    platform_id: amiga
-    language: en
-    variant_id: '1'
--
-    id: loom
-    variant: VGA
-    platform_id: dos
-    language: en
-    variant_id: '2'
--
-    id: loom
-    variant: ''
-    platform_id: pce
-    language: en
-    variant_id: '1'
--
-    id: loom
-    variant: ''
-    platform_id: pce
-    language: ja
-    variant_id: '1'
--
-    id: maniac
-    variant: ''
-    platform_id: amiga
-    language: en
-    variant_id: '1'
--
-    id: maniac
-    variant: ''
-    platform_id: nes
-    language: en
-    variant_id: '1'
--
-    id: maniac
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: maniac
-    variant: Enhanced
-    platform_id: dos
-    language: en
-    variant_id: '2'
--
-    id: maniac
-    variant: ''
-    platform_id: amiga
-    language: de
-    variant_id: '1'
--
-    id: monkey
-    variant: CD
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: monkey
-    variant: Hercules
-    platform_id: dos
-    language: en
-    variant_id: '2'
--
-    id: monkey
-    variant: CGA
-    platform_id: dos
-    language: en
-    variant_id: '3'
--
-    id: monkey
-    variant: EGA
-    platform_id: dos
-    language: en
-    variant_id: '4'
--
-    id: monkey
-    variant: VGA
-    platform_id: dos
-    language: en
-    variant_id: '5'
--
-    id: monkey
-    variant: VGA
-    platform_id: dos
-    language: de
-    variant_id: '1'
--
-    id: monkey
-    variant: ''
-    platform_id: amiga
-    language: en
-    variant_id: '1'
--
-    id: monkey
-    variant: CD
-    platform_id: dos
-    language: de
-    variant_id: '1'
--
-    id: monkey
-    variant: ''
-    platform_id: segacd
-    language: en
-    variant_id: '1'
--
-    id: monkey2
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: monkey2
-    variant: ''
-    platform_id: dos
-    language: de
-    variant_id: '1'
--
-    id: monkey2
-    variant: ''
-    platform_id: amiga
-    language: en
-    variant_id: '1'
--
-    id: samnmax
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: tentacle
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: tentacle
-    variant: ''
-    platform_id: dos
-    language: fr
-    variant_id: '1'
--
-    id: tentacle
-    variant: ''
-    platform_id: dos
-    language: de
-    variant_id: '1'
--
-    id: zak
-    variant: ''
-    platform_id: c64
-    language: de
-    variant_id: '1'
--
-    id: zak
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: zak
-    variant: ''
-    platform_id: amiga
-    language: en
-    variant_id: '1'
--
-    id: zak
-    variant: ''
-    platform_id: fmtowns
-    language: en
-    variant_id: '1'
--
-    id: arthur
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: arthur
-    variant: ''
-    platform_id: dos
-    language: es
-    variant_id: '1'
--
-    id: beardark
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: bearfight
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: bearfight
-    variant: ''
-    platform_id: dos
-    language: es
-    variant_id: '1'
--
-    id: grandma
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: grandma
-    variant: ''
-    platform_id: dos
-    language: es
-    variant_id: '1'
--
-    id: grandma
-    variant: ''
-    platform_id: dos
-    language: ja
-    variant_id: '1'
--
-    id: greeneggs
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: harryhh
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: harryhh
-    variant: ''
-    platform_id: dos
-    language: es
-    variant_id: '1'
--
-    id: lilmonster
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: lilmonster
-    variant: ''
-    platform_id: dos
-    language: es
-    variant_id: '1'
--
-    id: newkid
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: ruff
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: ruff
-    variant: ''
-    platform_id: dos
-    language: es
-    variant_id: '1'
--
-    id: seussabc
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: sheila
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: sheila
-    variant: ''
-    platform_id: dos
-    language: es
-    variant_id: '1'
--
-    id: stellaluna
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: tortoise
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: tortoise
-    variant: ''
-    platform_id: dos
-    language: es
-    variant_id: '1'
--
-    id: lgop2
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: lgop2
-    variant: ''
-    platform_id: dos
-    language: de
-    variant_id: '1'
--
-    id: manhole
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: manhole
-    variant: ''
-    platform_id: dos
-    language: ja
-    variant_id: '1'
--
-    id: rodney
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: rtz
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: rtz
-    variant: ''
-    platform_id: dos
-    language: de
-    variant_id: '1'
--
-    id: bbvs
+    id: dimp
     variant: ''
     platform_id: win
     language: en
     variant_id: '1'
 -
-    id: blueforce
-    variant: CD
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: cruise
+    id: dirtysplit
     variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: cruise
-    variant: ''
-    platform_id: dos
+    platform_id: win
     language: de
     variant_id: '1'
 -
-    id: cruise
+    id: dog
     variant: ''
-    platform_id: dos
-    language: es
-    variant_id: '1'
--
-    id: cruise
-    variant: ''
-    platform_id: dos
-    language: fr
+    platform_id: win
+    language: en
     variant_id: '1'
 -
     id: draci
@@ -1236,391 +384,25 @@
     language: fr
     variant_id: '1'
 -
-    id: fullpipe
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: fullpipe
-    variant: ''
-    platform_id: win
-    language: de
-    variant_id: '1'
--
-    id: fw
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: gnap
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: hopkins
-    variant: ''
-    platform_id: linux
-    language: en
-    variant_id: '1'
--
-    id: ihnm
+    id: dw
     variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
 -
-    id: ihnm
-    variant: 'Fan Translation'
-    platform_id: dos
-    language: de
-    variant_id: '1'
--
-    id: ite
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: ite
+    id: dw
     variant: ''
     platform_id: dos
     language: de
     variant_id: '1'
 -
-    id: pegasus
-    variant: ''
-    platform_id: mac
-    language: en
-    variant_id: '1'
--
-    id: mortevielle
-    variant: ''
-    platform_id: dos
-    language: de
-    variant_id: '1'
--
-    id: mystme
-    variant: ''
-    platform_id: win
-    language: de
-    variant_id: '1'
--
-    id: mystme
-    variant: ''
-    platform_id: win
-    language: fr
-    variant_id: '1'
--
-    id: nebular
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: nippon
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: nippon
-    variant: ''
-    platform_id: amiga
-    language: de
-    variant_id: '1'
--
-    id: nippon
-    variant: ''
-    platform_id: amiga
-    language: fr
-    variant_id: '1'
--
-    id: nippon
-    variant: ''
-    platform_id: dos
-    language: it
-    variant_id: '1'
--
-    id: plumbers
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: queen
-    variant: ''
-    platform_id: amiga
-    language: en
-    variant_id: '1'
--
-    id: queen
-    variant: ''
-    platform_id: dos
-    language: de
-    variant_id: '1'
--
-    id: queen
-    variant: ''
-    platform_id: dos
-    language: fr
-    variant_id: '1'
--
-    id: queen
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: queen
-    variant: ''
-    platform_id: dos
-    language: iw
-    variant_id: '1'
--
-    id: ringworld
-    variant: ''
-    platform_id: dos
-    language: es
-    variant_id: '1'
--
-    id: ringworld
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: ringworld2
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: riven
-    variant: DVD
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: sfinx
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: rosetattoo
-    variant: CD
-    platform_id: dos
-    language: de
-    variant_id: '1'
--
-    id: scalpel
-    variant: ''
-    platform_id: dos
-    language: de
-    variant_id: '1'
--
-    id: soltys
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: soltys
-    variant: ''
-    platform_id: dos
-    language: es
-    variant_id: '1'
--
-    id: soltys
-    variant: ''
-    platform_id: dos
-    language: pl
-    variant_id: '1'
--
-    id: teenagent
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: titanic
-    variant: CD
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: toltecs
-    variant: ''
-    platform_id: dos
-    language: de
-    variant_id: '1'
--
-    id: toltecs
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: tony
-    variant: ''
-    platform_id: win
-    language: de
-    variant_id: '1'
--
-    id: toon
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: toon
-    variant: ''
-    platform_id: win
-    language: fr
-    variant_id: '1'
--
-    id: touche
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: touche
-    variant: ''
-    platform_id: dos
-    language: fr
-    variant_id: '1'
--
-    id: tucker
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: tucker
-    variant: ''
-    platform_id: dos
-    language: de
-    variant_id: '1'
--
-    id: versailles
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: zgi
-    variant: CD
-    platform_id: win
-    language: de
-    variant_id: '1'
--
-    id: znemesis
-    variant: ''
-    platform_id: dos
-    language: de
-    variant_id: '1'
--
-    id: lure
-    variant: VGA
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: sky
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: sword1
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: sword2
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: sword1
-    variant: ''
-    platform_id: win
-    language: de
-    variant_id: '1'
--
-    id: sword1
-    variant: ''
+    id: dw
+    variant: PAL
     platform_id: psx
     language: en
     variant_id: '1'
 -
-    id: sword1
-    variant: ''
-    platform_id: psx
-    language: de
-    variant_id: '1'
--
-    id: sword1
-    variant: ''
-    platform_id: psx
-    language: es
-    variant_id: '1'
--
-    id: sword1
-    variant: ''
-    platform_id: psx
-    language: fr
-    variant_id: '1'
--
-    id: sword1
-    variant: ''
-    platform_id: psx
-    language: it
-    variant_id: '1'
--
-    id: sword2
-    variant: ''
-    platform_id: win
-    language: de
-    variant_id: '1'
--
-    id: sword2
-    variant: ''
-    platform_id: win
-    language: pl
-    variant_id: '1'
--
-    id: sword25
-    variant: ''
-    platform_id: win
-    language: de
-    variant_id: '1'
--
-    id: camelot
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: castlebrain
-    variant: VGA
-    platform_id: dos
-    language: de
-    variant_id: '1'
--
-    id: castlebrain
-    variant: EGA
-    platform_id: dos
-    language: de
-    variant_id: '2'
--
-    id: islandbrain
+    id: dw2
     variant: ''
     platform_id: dos
     language: en
@@ -1650,6 +432,138 @@
     language: en
     variant_id: '1'
 -
+    id: elvira1
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: elvira2
+    variant: ''
+    platform_id: amiga
+    language: en
+    variant_id: '1'
+-
+    id: eob
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: eob2
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: escapemansion
+    variant: '1.3'
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: fairytales
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: fascination
+    variant: CD
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: fascination
+    variant: ''
+    platform_id: amiga
+    language: de
+    variant_id: '1'
+-
+    id: fascination
+    variant: ''
+    platform_id: amiga
+    language: fr
+    variant_id: '1'
+-
+    id: fascination
+    variant: CD
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: fascination
+    variant: CD
+    platform_id: dos
+    language: es
+    variant_id: '1'
+-
+    id: fascination
+    variant: CD
+    platform_id: dos
+    language: fr
+    variant_id: '1'
+-
+    id: fascination
+    variant: CD
+    platform_id: dos
+    language: it
+    variant_id: '1'
+-
+    id: fbear
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: fbear
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: fbpack
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: feeble
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: football
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: freddi
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: freddi2
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: freddi3
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: freddi4
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: freddypharkas
     variant: ''
     platform_id: dos
@@ -1666,6 +580,198 @@
     variant: ''
     platform_id: win
     language: fr
+    variant_id: '1'
+-
+    id: ft
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: ft
+    variant: ''
+    platform_id: dos
+    language: pt-br
+    variant_id: '1'
+-
+    id: fullpipe
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: fullpipe
+    variant: ''
+    platform_id: win
+    language: de
+    variant_id: '1'
+-
+    id: funpack
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: fw
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: geisha
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: geisha
+    variant: ''
+    platform_id: amiga
+    language: en
+    variant_id: '1'
+-
+    id: gk1
+    variant: CD
+    platform_id: win
+    language: fr
+    variant_id: '1'
+-
+    id: gk2
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: gnap
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: gob1
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: gob1
+    variant: ''
+    platform_id: dos
+    language: pl
+    variant_id: '1'
+-
+    id: gob2
+    variant: CD
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: gob2
+    variant: ''
+    platform_id: amiga
+    language: de
+    variant_id: '1'
+-
+    id: gob2
+    variant: CD
+    platform_id: dos
+    language: pl
+    variant_id: '1'
+-
+    id: gob3
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: gob3
+    variant: ''
+    platform_id: amiga
+    language: fr
+    variant_id: '1'
+-
+    id: gob3
+    variant: CD
+    platform_id: dos
+    language: pl
+    variant_id: '1'
+-
+    id: goldrush
+    variant: ''
+    platform_id: amiga
+    language: en
+    variant_id: '1'
+-
+    id: goldrush
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: grandma
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: grandma
+    variant: ''
+    platform_id: dos
+    language: es
+    variant_id: '1'
+-
+    id: grandma
+    variant: ''
+    platform_id: dos
+    language: ja
+    variant_id: '1'
+-
+    id: greeneggs
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: gregory
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: grim
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: harryhh
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: harryhh
+    variant: ''
+    platform_id: dos
+    language: es
+    variant_id: '1'
+-
+    id: hdb
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: helga
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: hopkins
+    variant: ''
+    platform_id: linux
+    language: en
     variant_id: '1'
 -
     id: hoyle1
@@ -1704,10 +810,76 @@
     language: en
     variant_id: '2'
 -
+    id: hoyle5
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: hoyle5solitaire
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: iceman
     variant: ''
     platform_id: dos
     language: en
+    variant_id: '1'
+-
+    id: ihnm
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: ihnm
+    variant: 'Fan Translation'
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: imoking
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: indy3
+    variant: EGA
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: indy3
+    variant: ''
+    platform_id: amiga
+    language: en
+    variant_id: '1'
+-
+    id: indy3
+    variant: VGA
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: islandbrain
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: ite
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: ite
+    variant: ''
+    platform_id: dos
+    language: de
     variant_id: '1'
 -
     id: jones
@@ -1722,8 +894,38 @@
     language: en
     variant_id: '2'
 -
+    id: jumble
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: kq1
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
     id: kq1sci
     variant: 'VGA Remake'
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: kq2
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: kq3
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: kq4
+    variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
@@ -1770,6 +972,84 @@
     language: de
     variant_id: '1'
 -
+    id: kq7
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: kq7
+    variant: ''
+    platform_id: win
+    language: fr
+    variant_id: '1'
+-
+    id: kyra1
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: kyra1
+    variant: ''
+    platform_id: amiga
+    language: en
+    variant_id: '1'
+-
+    id: kyra1
+    variant: ''
+    platform_id: pc98
+    language: ja
+    variant_id: '1'
+-
+    id: kyra1
+    variant: ''
+    platform_id: fmtowns
+    language: jp
+    variant_id: '1'
+-
+    id: kyra2
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: kyra2
+    variant: ''
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: kyra2
+    variant: ''
+    platform_id: dos
+    language: fr
+    variant_id: '1'
+-
+    id: kyra2
+    variant: ''
+    platform_id: fmtowns
+    language: jp
+    variant_id: '1'
+-
+    id: kyra3
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: kyra3
+    variant: ''
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: lab
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
     id: laurabow
     variant: ''
     platform_id: dos
@@ -1788,12 +1068,120 @@
     language: de
     variant_id: '1'
 -
+    id: lba
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: lgop2
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: lgop2
+    variant: ''
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: liam
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: lighthouse
     variant: 1.0C
     platform_id: dos
     language: de
     variant_id: '1'
 -
+    id: lilmonster
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: lilmonster
+    variant: ''
+    platform_id: dos
+    language: es
+    variant_id: '1'
+-
+    id: lit
+    variant: CD
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: lit
+    variant: CD
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: lit
+    variant: CD
+    platform_id: dos
+    language: fr
+    variant_id: '1'
+-
+    id: lit
+    variant: CD
+    platform_id: dos
+    language: it
+    variant_id: '1'
+-
+    id: littlered
+    variant: ''
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: littlered
+    variant: ''
+    platform_id: dos
+    language: es
+    variant_id: '1'
+-
+    id: littlered
+    variant: ''
+    platform_id: dos
+    language: fr
+    variant_id: '1'
+-
+    id: littlered
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: littlered
+    variant: ''
+    platform_id: dos
+    language: it
+    variant_id: '1'
+-
+    id: littlesamurai
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: lol
+    variant: CD
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: lol
+    variant: ''
+    platform_id: fmtowns
+    language: jp
+    variant_id: '1'
+-
     id: longbow
     variant: EGA
     platform_id: dos
@@ -1810,6 +1198,60 @@
     variant: VGA
     platform_id: dos
     language: de
+    variant_id: '1'
+-
+    id: loom
+    variant: EGA
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: loom
+    variant: EGA
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: loom
+    variant: ''
+    platform_id: amiga
+    language: en
+    variant_id: '1'
+-
+    id: loom
+    variant: VGA
+    platform_id: dos
+    language: en
+    variant_id: '2'
+-
+    id: loom
+    variant: ''
+    platform_id: pce
+    language: en
+    variant_id: '1'
+-
+    id: loom
+    variant: ''
+    platform_id: pce
+    language: ja
+    variant_id: '1'
+-
+    id: lsl1
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: lsl1
+    variant: ''
+    platform_id: amiga
+    language: en
+    variant_id: '1'
+-
+    id: lsl1
+    variant: ''
+    platform_id: dos
+    language: pl
     variant_id: '1'
 -
     id: lsl1sci
@@ -1902,13 +1344,343 @@
     language: pl
     variant_id: '1'
 -
-    id: fairytales
+    id: lsl6hires
     variant: ''
     platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: lsl6hires
+    variant: ''
+    platform_id: dos
+    language: fr
+    variant_id: '1'
+-
+    id: lsl7
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: lure
+    variant: VGA
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: manhole
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: manhole
+    variant: ''
+    platform_id: dos
+    language: ja
+    variant_id: '1'
+-
+    id: maniac
+    variant: ''
+    platform_id: amiga
+    language: en
+    variant_id: '1'
+-
+    id: maniac
+    variant: ''
+    platform_id: nes
+    language: en
+    variant_id: '1'
+-
+    id: maniac
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: maniac
+    variant: Enhanced
+    platform_id: dos
+    language: en
+    variant_id: '2'
+-
+    id: maniac
+    variant: ''
+    platform_id: amiga
+    language: de
+    variant_id: '1'
+-
+    id: maze
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: mh1
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: mh1
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '2'
+-
+    id: mh2
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: mickey
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: mickey
+    variant: CGA
+    platform_id: dos
+    language: en
+    variant_id: '2'
+-
+    id: mixedup
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: monkey
+    variant: CD
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: monkey
+    variant: Hercules
+    platform_id: dos
+    language: en
+    variant_id: '2'
+-
+    id: monkey
+    variant: CGA
+    platform_id: dos
+    language: en
+    variant_id: '3'
+-
+    id: monkey
+    variant: EGA
+    platform_id: dos
+    language: en
+    variant_id: '4'
+-
+    id: monkey
+    variant: VGA
+    platform_id: dos
+    language: en
+    variant_id: '5'
+-
+    id: monkey
+    variant: VGA
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: monkey
+    variant: ''
+    platform_id: amiga
+    language: en
+    variant_id: '1'
+-
+    id: monkey
+    variant: CD
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: monkey
+    variant: ''
+    platform_id: segacd
+    language: en
+    variant_id: '1'
+-
+    id: monkey2
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: monkey2
+    variant: ''
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: monkey2
+    variant: ''
+    platform_id: amiga
+    language: en
+    variant_id: '1'
+-
+    id: mortevielle
+    variant: ''
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: mothergoose256
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: mothergoosehires
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: mothergoosehires
+    variant: ''
+    platform_id: win
+    language: es
+    variant_id: '1'
+-
+    id: mothergoosehires
+    variant: ''
+    platform_id: win
+    language: de
+    variant_id: '1'
+-
+    id: mothergoosehires
+    variant: ''
+    platform_id: win
+    language: fr
+    variant_id: '1'
+-
+    id: mustard
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: myst3
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: mystme
+    variant: ''
+    platform_id: win
+    language: de
+    variant_id: '1'
+-
+    id: mystme
+    variant: ''
+    platform_id: win
+    language: fr
+    variant_id: '1'
+-
+    id: nebular
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: neverhood
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: newkid
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: nippon
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: nippon
+    variant: ''
+    platform_id: amiga
+    language: de
+    variant_id: '1'
+-
+    id: nippon
+    variant: ''
+    platform_id: amiga
+    language: fr
+    variant_id: '1'
+-
+    id: nippon
+    variant: ''
+    platform_id: dos
+    language: it
+    variant_id: '1'
+-
+    id: pajama
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: pajama2
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: pajama3
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: pegasus
+    variant: ''
+    platform_id: mac
     language: en
     variant_id: '1'
 -
     id: pepper
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: phantasmagoria
+    variant: ''
+    platform_id: dos
+    language: fr
+    variant_id: '1'
+-
+    id: phantasmagoria2
+    variant: ''
+    platform_id: win
+    language: fr
+    variant_id: '1'
+-
+    id: plumbers
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: pq1
+    variant: ''
+    platform_id: amiga
+    language: en
+    variant_id: '1'
+-
+    id: pq1
     variant: ''
     platform_id: dos
     language: en
@@ -1962,6 +1734,72 @@
     language: de
     variant_id: '1'
 -
+    id: pq4
+    variant: CD
+    platform_id: dos
+    language: fr
+    variant_id: '1'
+-
+    id: princess
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: puttcircus
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: puttmoon
+    variant: ''
+    platform_id: 3do
+    language: en
+    variant_id: '1'
+-
+    id: puttmoon
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: puttputt
+    variant: ''
+    platform_id: 3do
+    language: en
+    variant_id: '1'
+-
+    id: puttputt
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: puttrace
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: putttime
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: puttzoo
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: puzzle
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: qfg1
     variant: EGA
     platform_id: dos
@@ -1986,8 +1824,188 @@
     language: en
     variant_id: '1'
 -
+    id: queen
+    variant: ''
+    platform_id: amiga
+    language: en
+    variant_id: '1'
+-
+    id: queen
+    variant: ''
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: queen
+    variant: ''
+    platform_id: dos
+    language: fr
+    variant_id: '1'
+-
+    id: queen
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: queen
+    variant: ''
+    platform_id: dos
+    language: iw
+    variant_id: '1'
+-
     id: rama
     variant: CD
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: rama
+    variant: ''
+    platform_id: dos
+    language: fr
+    variant_id: '1'
+-
+    id: ringworld
+    variant: ''
+    platform_id: dos
+    language: es
+    variant_id: '1'
+-
+    id: ringworld
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: ringworld2
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: ritter
+    variant: ''
+    platform_id: win
+    language: de
+    variant_id: '1'
+-
+    id: riven
+    variant: DVD
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: rodney
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: rosemary
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: rosetattoo
+    variant: CD
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: rosetattoo
+    variant: ''
+    platform_id: dos
+    language: fr
+    variant_id: '1'
+-
+    id: rtz
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: rtz
+    variant: ''
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: ruff
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: ruff
+    variant: ''
+    platform_id: dos
+    language: es
+    variant_id: '1'
+-
+    id: samnmax
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: scalpel
+    variant: ''
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: seussabc
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: sfinx
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: sheila
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: sheila
+    variant: ''
+    platform_id: dos
+    language: es
+    variant_id: '1'
+-
+    id: shivers
+    variant: ''
+    platform_id: win
+    language: fr
+    variant_id: '1'
+-
+    id: simon1
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: simon2
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: simon2
+    variant: ''
+    platform_id: dos
+    language: iw
+    variant_id: '1'
+-
+    id: sky
+    variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
@@ -1998,6 +2016,54 @@
     language: en
     variant_id: '1'
 -
+    id: sleepingcub
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: socks
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: soltys
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: soltys
+    variant: ''
+    platform_id: dos
+    language: es
+    variant_id: '1'
+-
+    id: soltys
+    variant: ''
+    platform_id: dos
+    language: pl
+    variant_id: '1'
+-
+    id: spyfox
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: spyfox2
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: sq1
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
     id: sq1sci
     variant: EGA
     platform_id: dos
@@ -2009,6 +2075,12 @@
     platform_id: dos
     language: en
     variant_id: '2'
+-
+    id: sq2
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
 -
     id: sq3
     variant: ''
@@ -2058,388 +2130,82 @@
     language: de
     variant_id: '1'
 -
-    id: torin
+    id: sq6
     variant: ''
-    platform_id: win
-    language: de
+    platform_id: dos
+    language: fr
     variant_id: '1'
 -
-    id: dw
+    id: stellaluna
     variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
 -
-    id: dw
+    id: swampy
     variant: ''
-    platform_id: dos
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: sword1
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: sword1
+    variant: ''
+    platform_id: win
     language: de
     variant_id: '1'
 -
-    id: dw
-    variant: PAL
+    id: sword1
+    variant: ''
     platform_id: psx
     language: en
     variant_id: '1'
 -
-    id: dw2
+    id: sword1
     variant: ''
-    platform_id: dos
-    language: en
+    platform_id: psx
+    language: de
     variant_id: '1'
 -
-    id: bladerunner-final
+    id: sword1
     variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: bladerunner
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: bladerunner
-    variant: ''
-    platform_id: win
+    platform_id: psx
     language: es
     variant_id: '1'
 -
-    id: bladerunner
+    id: sword1
     variant: ''
-    platform_id: win
+    platform_id: psx
     language: fr
     variant_id: '1'
 -
-    id: eob
+    id: sword1
     variant: ''
-    platform_id: dos
-    language: en
+    platform_id: psx
+    language: it
     variant_id: '1'
 -
-    id: eob2
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: kyra1
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: kyra1
-    variant: ''
-    platform_id: amiga
-    language: en
-    variant_id: '1'
--
-    id: kyra1
-    variant: ''
-    platform_id: pc98
-    language: ja
-    variant_id: '1'
--
-    id: kyra2
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: kyra2
-    variant: ''
-    platform_id: dos
-    language: de
-    variant_id: '1'
--
-    id: kyra2
-    variant: ''
-    platform_id: dos
-    language: fr
-    variant_id: '1'
--
-    id: kyra3
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: kyra3
-    variant: ''
-    platform_id: dos
-    language: de
-    variant_id: '1'
--
-    id: lol
-    variant: CD
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: 5ld
+    id: sword2
     variant: ''
     platform_id: win
     language: en
     variant_id: '1'
 -
-    id: 5ma
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: 5ma
+    id: sword2
     variant: ''
     platform_id: win
     language: de
     variant_id: '1'
 -
-    id: bickadoodle
-    variant: v1.2
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: chivalry
+    id: sword2
     variant: ''
     platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: deadcity
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: dirtysplit
-    variant: ''
-    platform_id: win
-    language: de
-    variant_id: '1'
--
-    id: escapemansion
-    variant: '1.3'
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: helga
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: ritter
-    variant: ''
-    platform_id: win
-    language: de
-    variant_id: '1'
--
-    id: rosemary
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: twc
-    variant: 'v1.7 - Definitive Edition'
-    platform_id: win
-    language: de
-    variant_id: '1'
--
-    id: ddp
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: ddp
-    variant: CGA
-    platform_id: dos
-    language: en
-    variant_id: '2'
--
-    id: mh1
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '2'
--
-    id: lba
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: comi
-    variant: ''
-    platform_id: win
-    language: fr
-    variant_id: '1'
--
-    id: gk1
-    variant: CD
-    platform_id: win
-    language: fr
-    variant_id: '1'
--
-    id: gk2
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: hdb
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: hoyle5solitaire
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: hoyle5
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: kq7
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: kq7
-    variant: ''
-    platform_id: win
-    language: fr
-    variant_id: '1'
--
-    id: kyra1
-    variant: ''
-    platform_id: fmtowns
-    language: jp
-    variant_id: '1'
--
-    id: kyra2
-    variant: ''
-    platform_id: fmtowns
-    language: jp
-    variant_id: '1'
--
-    id: lab
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: lol
-    variant: ''
-    platform_id: fmtowns
-    language: jp
-    variant_id: '1'
--
-    id: lsl6hires
-    variant: ''
-    platform_id: dos
-    language: de
-    variant_id: '1'
--
-    id: lsl6hires
-    variant: ''
-    platform_id: dos
-    language: fr
-    variant_id: '1'
--
-    id: lsl7
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: mothergoosehires
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: mothergoose256
-    variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '1'
--
-    id: mothergoosehires
-    variant: ''
-    platform_id: win
-    language: es
-    variant_id: '1'
--
-    id: mothergoosehires
-    variant: ''
-    platform_id: win
-    language: de
-    variant_id: '1'
--
-    id: mothergoosehires
-    variant: ''
-    platform_id: win
-    language: fr
-    variant_id: '1'
--
-    id: neverhood
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: phantasmagoria
-    variant: ''
-    platform_id: dos
-    language: fr
-    variant_id: '1'
--
-    id: phantasmagoria2
-    variant: ''
-    platform_id: win
-    language: fr
-    variant_id: '1'
--
-    id: pq4
-    variant: CD
-    platform_id: dos
-    language: fr
-    variant_id: '1'
--
-    id: rama
-    variant: ''
-    platform_id: dos
-    language: fr
-    variant_id: '1'
--
-    id: rosetattoo
-    variant: ''
-    platform_id: dos
-    language: fr
-    variant_id: '1'
--
-    id: shivers
-    variant: ''
-    platform_id: win
-    language: fr
-    variant_id: '1'
--
-    id: sq6
-    variant: ''
-    platform_id: dos
-    language: fr
+    language: pl
     variant_id: '1'
 -
     id: sword2
@@ -2448,10 +2214,178 @@
     language: en
     variant_id: '1'
 -
+    id: sword25
+    variant: ''
+    platform_id: win
+    language: de
+    variant_id: '1'
+-
+    id: t7g
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: teenagent
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: tentacle
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: tentacle
+    variant: ''
+    platform_id: dos
+    language: fr
+    variant_id: '1'
+-
+    id: tentacle
+    variant: ''
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: thinkerk
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: thinkerk
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: titanic
+    variant: CD
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: tlc
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: tlj
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: toltecs
+    variant: ''
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: toltecs
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: tony
+    variant: ''
+    platform_id: win
+    language: de
+    variant_id: '1'
+-
+    id: toon
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: toon
+    variant: ''
+    platform_id: win
+    language: fr
+    variant_id: '1'
+-
+    id: torin
+    variant: ''
+    platform_id: win
+    language: de
+    variant_id: '1'
+-
     id: torin
     variant: ''
     platform_id: win
     language: fr
+    variant_id: '1'
+-
+    id: tortoise
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: tortoise
+    variant: ''
+    platform_id: dos
+    language: es
+    variant_id: '1'
+-
+    id: touche
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: touche
+    variant: ''
+    platform_id: dos
+    language: fr
+    variant_id: '1'
+-
+    id: troll
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: tucker
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: tucker
+    variant: ''
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: twc
+    variant: 'v1.7 - Definitive Edition'
+    platform_id: win
+    language: de
+    variant_id: '1'
+-
+    id: unclehenry
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: urban
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: versailles
+    variant: ''
+    platform_id: win
+    language: en
     variant_id: '1'
 -
     id: versailles
@@ -2466,44 +2400,110 @@
     language: fr
     variant_id: '1'
 -
-    id: tlj
+    id: waxworks
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: waxworks
+    variant: ''
+    platform_id: amiga
+    language: en
+    variant_id: '1'
+-
+    id: ween
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: ween
+    variant: ''
+    platform_id: amiga
+    language: fr
+    variant_id: '1'
+-
+    id: ween
+    variant: ''
+    platform_id: amiga
+    language: it
+    variant_id: '1'
+-
+    id: winnie
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: woodruff
     variant: ''
     platform_id: win
     language: en
     variant_id: '1'
 -
-    id: grim
+    id: woodruff
     variant: ''
     platform_id: win
+    language: de
+    variant_id: '1'
+-
+    id: woodruff
+    variant: ''
+    platform_id: win
+    language: es
+    variant_id: '1'
+-
+    id: woodruff
+    variant: ''
+    platform_id: win
+    language: fr
+    variant_id: '1'
+-
+    id: woodruff
+    variant: ''
+    platform_id: win
+    language: en-gb
+    variant_id: '1'
+-
+    id: woodruff
+    variant: ''
+    platform_id: win
+    language: it
+    variant_id: '1'
+-
+    id: zak
+    variant: ''
+    platform_id: c64
+    language: de
+    variant_id: '1'
+-
+    id: zak
+    variant: ''
+    platform_id: dos
     language: en
     variant_id: '1'
 -
-    id: myst3
+    id: zak
     variant: ''
-    platform_id: win
+    platform_id: amiga
     language: en
     variant_id: '1'
 -
-    id: clandestiny
+    id: zak
     variant: ''
-    platform_id: win
+    platform_id: fmtowns
     language: en
     variant_id: '1'
 -
-    id: 11h
-    variant: ''
+    id: zgi
+    variant: CD
     platform_id: win
-    language: en
+    language: de
     variant_id: '1'
 -
-    id: unclehenry
+    id: znemesis
     variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: tlc
-    variant: ''
-    platform_id: win
-    language: en
+    platform_id: dos
+    language: de
     variant_id: '1'
