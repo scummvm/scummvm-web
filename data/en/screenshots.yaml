@@ -2088,8 +2088,8 @@
     language: en
     variant_id: '1'
 -
-    id: bladerunner
-    variant: 'Restored Content'
+    id: bladerunner-final
+    variant: ''
     platform_id: win
     language: en
     variant_id: '1'
@@ -2098,7 +2098,7 @@
     variant: ''
     platform_id: win
     language: en
-    variant_id: '2'
+    variant_id: '1'
 -
     id: bladerunner
     variant: ''
