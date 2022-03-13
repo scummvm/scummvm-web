@@ -1720,7 +1720,7 @@
     series_id: gk
 -
     id: gk1demo
-    name: 'Gabriel Knight: Sins of the Fathers'
+    name: 'Gabriel Knight: Sins of the Fathers (Demo)'
     engine_id: sci
     company_id: sierra
     moby_id: '116'
@@ -3646,7 +3646,7 @@
     series_id: playtoons
 -
     id: playtoonsdemo
-    name: 'Playtoon 1 - Uncle Archibald, Playtoon 2 - Spirou, Playtoons 3 - Secret of the Castle'
+    name: 'Playtoon 1 - Uncle Archibald, Playtoon 2 - Spirou, Playtoons 3 - Secret of the Castle Demo)'
     engine_id: gob
     company_id: coktel
     moby_id: '-1'
@@ -3736,7 +3736,7 @@
     series_id: pq
 -
     id: pq4demo
-    name: 'Police Quest IV: Open Season'
+    name: 'Police Quest IV: Open Season (Demo)'
     engine_id: sci
     company_id: sierra
     moby_id: '149'
@@ -3925,7 +3925,7 @@
     series_id: qfg
 -
     id: qfg4demo
-    name: 'Quest for Glory IV: Shadows of Darkness'
+    name: 'Quest for Glory IV: Shadows of Darkness (Demo)'
     engine_id: sci
     company_id: sierra
     moby_id: '119'
