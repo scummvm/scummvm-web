@@ -1498,7 +1498,7 @@
     variant: CD
     platform_id: dos
     language: de
-    variant_id: '1'
+    variant_id: '2'
 -
     id: monkey
     variant: ''
@@ -2365,7 +2365,7 @@
     variant_id: '1'
 -
     id: twc
-    variant: 'v1.7 - Definitive Edition'
+    variant: 'Definitive Edition'
     platform_id: win
     language: de
     variant_id: '1'
