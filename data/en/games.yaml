@@ -1764,15 +1764,6 @@
     wikipedia_page: Gobliiins
     series_id: gob
 -
-    id: gob1cd
-    name: Gobliiins
-    engine_id: gob
-    company_id: coktel
-    moby_id: '1154'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Gobliiins'
-    wikipedia_page: Gobliiins
-    series_id: gob
--
     id: gob2
     name: 'Gobliins 2: The Prince Buffoon'
     engine_id: gob
@@ -1782,25 +1773,7 @@
     wikipedia_page: 'Gobliiins#Gobliins_2:_The_Prince_Buffoon'
     series_id: gob
 -
-    id: gob2cd
-    name: 'Gobliins 2: The Prince Buffoon'
-    engine_id: gob
-    company_id: coktel
-    moby_id: '2625'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Gobliins_2'
-    wikipedia_page: 'Gobliiins#Gobliins_2:_The_Prince_Buffoon'
-    series_id: gob
--
     id: gob3
-    name: 'Goblins Quest 3'
-    engine_id: gob
-    company_id: coktel
-    moby_id: '2870'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Goblins_3'
-    wikipedia_page: 'Gobliiins#Goblins_Quest_3'
-    series_id: gob
--
-    id: gob3cd
     name: 'Goblins Quest 3'
     engine_id: gob
     company_id: coktel
