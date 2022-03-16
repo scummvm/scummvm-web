@@ -24,6 +24,12 @@
     language: de
     variant_id: '1'
 -
+    id: activity
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
     id: airport
     variant: ''
     platform_id: win
@@ -468,6 +474,12 @@
     language: en
     variant_id: '1'
 -
+    id: farm
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: fascination
     variant: CD
     platform_id: dos
@@ -895,6 +907,12 @@
     variant_id: '2'
 -
     id: jumble
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: jungle
     variant: ''
     platform_id: win
     language: en
