@@ -172,7 +172,7 @@
     series_id: ''
 -
     id: airport
-    name: 'Let''s Explore the Airport with Buzzy'
+    name: 'Let''s Explore the Airport'
     engine_id: scumm
     company_id: he
     moby_id: '20995'
@@ -1450,7 +1450,7 @@
     series_id: mixedup
 -
     id: farm
-    name: 'Let''s Explore: The Farm - With Buzzy'
+    name: 'Let''s Explore the Farm'
     engine_id: scumm
     company_id: he
     moby_id: '21015'
@@ -2386,7 +2386,7 @@
     series_id: simon
 -
     id: jungle
-    name: 'Let''s Explore the Jungle with Buzzy'
+    name: 'Let''s Explore the Jungle'
     engine_id: scumm
     company_id: he
     moby_id: '20994'
