@@ -4960,7 +4960,7 @@
     series_id: ultima
 -
     id: thinker1
-    name: 'Big Thinkers!: 1st Grade'
+    name: 'Big Thinkers! 1st Grade'
     engine_id: scumm
     company_id: he
     moby_id: '80258'
@@ -4969,7 +4969,7 @@
     series_id: bigthinkers
 -
     id: thinkerk
-    name: 'Big Thinkers!: Kindergarten'
+    name: 'Big Thinkers! Kindergarten'
     engine_id: scumm
     company_id: he
     moby_id: '73005'
