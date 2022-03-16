@@ -2418,6 +2418,12 @@
     language: fr
     variant_id: '1'
 -
+    id: water
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: waxworks
     variant: ''
     platform_id: dos
