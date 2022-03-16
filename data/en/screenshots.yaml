@@ -2274,9 +2274,9 @@
     language: en
     variant_id: '1'
 -
-    id: thinkerk
+    id: thinker1
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: en
     variant_id: '1'
 -
