@@ -28,6 +28,7 @@ class Screenshot extends BaseScreenshot
                 $this->files[] = [
                     'filename' => $name,
                     'caption' => $this->getCaption(),
+                    'url' => "compatibility/DEV/" . $this->getGame()->getId()
                 ];
             }
         }
