@@ -1023,7 +1023,7 @@
     id: kyra1
     variant: ''
     platform_id: fmtowns
-    language: jp
+    language: ja
     variant_id: '1'
 -
     id: kyra2
@@ -1047,7 +1047,7 @@
     id: kyra2
     variant: ''
     platform_id: fmtowns
-    language: jp
+    language: ja
     variant_id: '1'
 -
     id: kyra3
@@ -1197,7 +1197,7 @@
     id: lol
     variant: ''
     platform_id: fmtowns
-    language: jp
+    language: ja
     variant_id: '1'
 -
     id: longbow
