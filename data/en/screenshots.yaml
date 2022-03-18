@@ -38,13 +38,13 @@
 -
     id: arthur
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: en
     variant_id: '1'
 -
     id: arthur
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: es
     variant_id: '1'
 -
@@ -116,19 +116,19 @@
 -
     id: beardark
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: en
     variant_id: '1'
 -
     id: bearfight
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: en
     variant_id: '1'
 -
     id: bearfight
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: es
     variant_id: '1'
 -
@@ -722,25 +722,25 @@
 -
     id: grandma
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: en
     variant_id: '1'
 -
     id: grandma
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: es
     variant_id: '1'
 -
     id: grandma
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: ja
     variant_id: '1'
 -
     id: greeneggs
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: en
     variant_id: '1'
 -
@@ -758,13 +758,13 @@
 -
     id: harryhh
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: en
     variant_id: '1'
 -
     id: harryhh
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: es
     variant_id: '1'
 -
@@ -1118,13 +1118,13 @@
 -
     id: lilmonster
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: en
     variant_id: '1'
 -
     id: lilmonster
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: es
     variant_id: '1'
 -
@@ -1616,7 +1616,7 @@
 -
     id: newkid
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: en
     variant_id: '1'
 -
@@ -1952,13 +1952,13 @@
 -
     id: ruff
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: en
     variant_id: '1'
 -
     id: ruff
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: es
     variant_id: '1'
 -
@@ -1976,7 +1976,7 @@
 -
     id: seussabc
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: en
     variant_id: '1'
 -
@@ -1988,13 +1988,13 @@
 -
     id: sheila
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: en
     variant_id: '1'
 -
     id: sheila
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: es
     variant_id: '1'
 -
@@ -2156,7 +2156,7 @@
 -
     id: stellaluna
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: en
     variant_id: '1'
 -
@@ -2342,13 +2342,13 @@
 -
     id: tortoise
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: en
     variant_id: '1'
 -
     id: tortoise
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: es
     variant_id: '1'
 -
