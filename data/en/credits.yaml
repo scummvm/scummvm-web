@@ -1902,6 +1902,13 @@
         alias: ""
         description: ""
     -
+      name: "Webassembly / Emscripten"
+      person:
+      -
+        name: "Christian K&uuml;ndig"
+        alias: "chkuendig"
+        description: ""
+    -
       name: "WebOS"
       person:
       -
