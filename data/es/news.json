@@ -4,7 +4,7 @@
         "content": "¡Bienvenido a ScummVM! ScummVM es un intérprete SCUMM (Script Creation Utility For Maniac Mansion) para Linux y Windows."
     },
     "20020113": {
-        "title": "ScummVM 0.1.0 publicada",
+        "title": "ScummVM 0.1.0 publicado",
         "content": "Muchos cambios nuevos en esta nueva versión. Full Throttle está funcionando mejor y se han iniciado los primeros trabajos en The Dig. \\[[Descargas](/downloads/)\\]"
     },
     "20020121": {
@@ -168,7 +168,7 @@
         "content": "Aunque ScummVM 0.5.0 es nuestra versión más probada hasta la fecha, siempre se escapan algunos fallos entre las grietas. Entre otros fallos menores, hemos descubierto que Beneath a Steel Sky puede producir partidas guardadas inestables. Aunque es un problema de temporalidad muy poco común en la mayoría de los sistemas, un pequeño grupo de personas puede encontrárselo con bastante frecuencia.\n\nSe ha previsto lanzar una versión puntual de ScummVM, la 0.5.1, a corto plazo con la intención de corregir este y otros problemas menores que hemos encontrado. Por otro lado, a lo largo de la semana pondremos a vuestra disposición el manual de Beneath a Steel Sky y puede que un escaneado del cómic incluido.\n\n¡Gracias por vuestro apoyo para hacer que nuestro proyecto sea aún mejor!"
     },
     "20030808": {
-        "title": "ScummVM 0.5.1 publicada",
+        "title": "ScummVM 0.5.1 publicado",
         "content": "Hoy se ha publicado la versión 0.5.1 de ScummVM que corrige varios problemas descubiertos desde la versión 0.5.0.\n\nEstos son los cambios incluidos:\n\n*   Se ha reescrito por completo el código del sistema de partidas guardadas de Beneath a Steel Sky, eliminando varias situaciones en las que ScummVM 0.5.0 produciría partidas guardadas inutilizables o «congeladas».\n*   Se han corregido varios errores adicionales en Beneath a Steel Sky\n*   Se han arreglado algunos defectos gráficos de actores en Curse of Monkey Island\n*   Se han resuelto algunos problemas al ejecutar ScummVM a pantalla completa en MacOS X\n*   La conversión a MorphOS ha recibido varias correcciones importantes\n*   La conversión para Dreamcast ahora es compatible con Simon the Sorcerer 1 y 2\n\nRecomendamos a todos los usuarios que actualicen el emulador a esta versión. Tened en cuenta que aunque las partidas guardadas de BASS hechas con la versión 0.5.0 son compatibles con esta versión, recomendamos volver a empezar la partida utilizando el sistema de guardado de la versión 0.5.1 si seguís teniendo problemas."
     },
     "20030909": {
@@ -236,7 +236,7 @@
         "content": "Bueno, se ha escapado uno de esos fallitos de programación «pequeños, pero importantes» en ScummVM 0.6.1. Un error al copiapegar en la pantalla de Editar juego puede provocar que no se puedan guardar partidas.\n\nEl error está relacionado con la nueva pestaña de Rutas, que permite editar más fácilmente los directorios del juego. Por desgracia, la sección del directorio Extra se guardaba accidentalmente como el directorio para las partidas guardadas y no para el campo que había debajo. Este fallo se detectó en la versión experimental del CVS, pero el arreglo se quedó fuera del lanzamiento de ScummVM 0.6.1 por error.\n\nSi os encontráis con este fallo, la solución recomendada es asignar el directorio Extra al mismo que el de partidas guardadas. Pronto publicaremos la versión 0.6.1b de ScummVM para corregir este problema."
     },
     "20040805": {
-        "title": "ScummVM 0.6.1b publicada {Introducir aquí ocurrencia}",
+        "title": "ScummVM 0.6.1b publicado {Introducir aquí ocurrencia}",
         "content": "Hoy se publicó la versión 0.6.1b de ScummVM, que corrige algunas regresiones muy molestas descubiertas en su predecesora, la versión 0.6.1. Se recomienda encarecidamente a todo el mundo que actualicen a esta versión.\n\nY con esto... ¡Que lo paséis bien!"
     },
     "20040911": {
@@ -296,7 +296,7 @@
         "content": "Ya tenemos una lista extensa de los parámetros de arranque de Fate of Atlantis en nuestra [página de parámetros de arranque](http://www.scummvm.org/documentation.php?view=bootparam). Muchas gracias a Laura Abbott, que dedicó su tiempo a redactar la lista para donárnosla. Seguro que nos ayudará a resolver problemas con FOA en el futuro.\n\nCambiando de tercio, Robert Kelsen se ha presentado voluntario para trabajar en las compilaciones para SlackWare y ya ha empezado presentando [un binario de la versión 0.7.0 para SlackWare](https://downloads.scummvm.org/frs/scummvm/0.7.0/scummvm-0.7.0-slack-i486-1.tgz). ¡Así se hace, Rob!\n\nEso es que, aparentemente, hay gente que lee nuestra sección de noticias... Estoy asombrado ;-). Gracias a todos los que ayudáis a ScummVM con comentarios útiles y la alabanza ocasional; ¡ambas nos ayudan a mantener el interés en trabajar en ScummVM!"
     },
     "20050328": {
-        "title": "ScummVM 0.7.1 publicada",
+        "title": "ScummVM 0.7.1 publicado",
         "content": "Nos complace anunciar el lanzamiento de ScummVM 0.7.1. Esta actualización está centrada en corregir fallos de la versión 0.7.0, sobre todo en la conversión para Windows Mobile (PocketPC/Smartphones). Para más información, leed las [notas de lanzamiento](https://downloads.scummvm.org/frs/scummvm/0.7.1/ReleaseNotes).\n\nComo siempre, podéis descargarla en nuestra [página de descargas](/downloads/).\n\nEn otro orden de cosas, en las últimas dos semanas hemos recibido más [parámetros de arranque](http://wiki.scummvm.org/index.php/Boot_Params) gracias a vosotros, nuestros queridos usuarios. ¡Muchas gracias a los que habéis colaborado!"
     },
     "20050330": {
@@ -328,7 +328,7 @@
         "content": "¡Saludos, usuarios! Ha llegado la hora de ayudar al equipo de ScummVM a publicar una nueva versión de, ehhh... ScummVM. ¡Tachán!\n\nTenemos una gran cantidad de cambios, añadidos y correcciones de fallos. Casi todos los elementos del programa han sido retocados, afinados o modificados, así que tenemos que volver a solicitar testeadores para probar todos los juegos a los que damos soporte.\n\nNos gustaría mencionar un par de títulos nuevos a los que hemos incluido soporte: son Inherit the Earth y Gobliiins (la primera entrega de la saga). Por favor, dedicadles también algo de atención.\n\nLas instrucciones sobre cómo llevar a cabo el testeo están en su [página de la wiki](http://wiki.scummvm.org/index.php/Release_Testing). Por favor, ceñíos a ellas e informad en nuestra lista de correo, en el canal #scummvm o en nuestros foros."
     },
     "20051030": {
-        "title": "Se ha publicado ScummVM 0.8.0.",
+        "title": "ScummVM 0.8.0 publicado.",
         "content": "Nos congratula anunciar el esperado lanzamiento de la versión 0.8.0 de ScummVM. Nosotros, el equipo de ScummVM, hemos preparado un gran paquete de novedades. Las más destacadas son:\n\n*   Nuevos iniciador e interfaz de juego\n*   Soporte para [Inherit the Earth](http://www.wyrmkeep.com/ite/) y Gobliiins\n*   Conversiones para Playstation Portable, Playstation 2 y EPOC/SymbianOS\n*   Modos de renderizado CGA y Hercules para ciertos juegos\n*   Soporte preliminar para los juegos de LucasArts para NES y C64\n*   Soporte muy mejorado para los juegos infantiles de Humongous Entertainment (Freddi Fish, Pajama Sam, Putt-Putt, Spy Fox, Fatty Bear, Backyard Sports y Buzzy)\n\nEncontraréis un listado de cambios más detallado y los archivos descargables en nuestra [página de descargas](/downloads/). Recomendamos que actualicéis a la última y mejor versión de ScummVM lo antes posible.\n\nCon esta versión también nos alegra anunciar el lanzamiento de nuestros [foros nuevos](http://forums.scummvm.org/). Se encuentran en una dirección fácil de recordar, [http://forums.scummvm.org/](http://forums.scummvm.org/), y contienen varios subforos individuales para las conversiones y muchas características nuevas tanto para usuarios como para moderadores.\n\nTened en cuenta que los foros de SourceForge.net serán cerrados y archivados en las próximas 48 horas. Estos archivos estarán disponibles al final del índice principal de los foros."
     },
     "20051101": {
@@ -364,11 +364,11 @@
         "content": "Como habréis visto, en nuestros foros hay una [larga discusión](http://forums.scummvm.org/viewtopic.php?t=389) sobre la banda sonora de BASS. James Woodcock, uno de los participantes, ha publicado en [su blog](http://www.jameswoodcock.co.uk/?page_id=54) un par de canciones remasterizadas a partir del MIDI original.\n\nAunque ScummVM no da soporte a esta característica por completo, pensamos hacerlo en un futuro cercano, así que estad atentos. Mientras tanto recomedamos que probéis el futuro de lo que ScummVM espera ofrecer.\n\nPodéis ver más información sobre las mejoras en la página de James:  \n[James Woodcock's ScummVM Music Enhancement Project](http://www.jameswoodcock.co.uk/?page_id=54)"
     },
     "20060131": {
-        "title": "ScummVM 0.8.1 «Codename: missing» publicada",
+        "title": "ScummVM 0.8.1 «Codename: missing» publicado",
         "content": "Regocijaos, pues ScummVM 0.8.1 «Codename: missing» acaba de ser publicada. Ya podéis experimentar la última variante oficial de ScummVM. El principal motivo de esta versión es la corrección de varios fallos que se colaron en la versión 0.8.0, como por ejemplo:\n\n*   Compatibilidad muy mejorada de los juegos de Humongous Entertainment\n*   Soporte para la versión alemana de Maniac Mansion NES (gracias a Joachim Eberhard por ofrecernos el cartucho)\n*   Corregido un desbordamiento al utilizar el panel de control del robot en The Dig\n*   Corregida la desaparición del cursor al introducir una contraseña de nivel en Gobliiins\n*   Implementada una detección de juego más precisa, basada en MD5, para Simon the Sorcerer\n*   Primera versión de la conversión para PS2 fuera del estado beta\n\nLa lista completa de cambios se encuentra en [las notas de lanzamiento (en inglés)](https://downloads.scummvm.org/frs/scummvm/0.8.1/ReleaseNotes).\n\nPodéis haceros con una compilación para vuestro sistema en nuestra [página de descargas](/downloads/)\n\n¡Que la disfrutéis!"
     },
     "20060208": {
-        "title": "ScummVM 0.8.2 «Broken Sword 2 roto» publicada",
+        "title": "ScummVM 0.8.2 «Broken Sword 2 roto» publicado",
         "content": "Debido a un fallo encontrado en la versión 0.8.1 que hacía injugable a Broken Sword 2, nos vemos obligados a publicar la versión 0.8.2 «Broken Sword 2 roto» de ScummVM. También hemos aprovechado esta oportunidad para arreglar las compilaciones para WinCE y el paquete para MacOS X.\n\nComo siempre, podéis conseguir las compilaciones para todas las plataformas compatibles en nuestra [página de descargas](/downloads/)."
     },
     "20060212": {
@@ -404,64 +404,64 @@
         "content": "Saludos, ciudadanos. El Omnicerebro del equipo de ScummVM requiere que probéis juegos.\n\nComo de costumbre, hemos preparado un montón de características nuevas y nos hemos cargado tropecientos mil fallos. Eso quiere decir que todos los juegos a los que damos soporte necesitan volver a ser probados.\n\nLa versión 0.9.0 introduce dos juegos completamente nuevos: The Legend of Kyrandia y The Feeble Files. También hay unos pocos juegos de Humongous Entertainment que han mejorado su compatibilidad significativamente, entre ellos, Pajama Sam 3. Así que, por favor, buscad vuestros juegos antiguos o compradlos y disfrutad de estos clásicos.\n\nHemos dejado instrucciones detalladas sobre cómo llevar a cabo las pruebas de forma constructiva. Las encontraréis en la [página de nuestra Wiki](http://wiki.scummvm.org/index.php/Release_Testing). Tened en cuenta que las instrucciones han cambiado un poco desde la última Gran Temporada de Pruebas(TM) que llevasteis a cabo para la versión 0.8.0. Os pedimos encarecidamente que os ciñáis a las nuevas reglas y que mandéis vuestros fallos a nuestra lista de correo, a #scummvm o a [nuestros foros](http://forums.scummvm.org/viewtopic.php?t=1502).\n\nQue tengáis un buen ciclo y recordad: ¡el Omnicerebro os ama!"
     },
     "20060625": {
-        "title": "",
-        "content": ""
+        "title": "ScummVM 0.9.0 «El omnicerebro os ama» publicado",
+        "content": "Ya han pasado casi ocho meses desde que empezamos a trabajar en la rama de la versión 0.9.x y hoy nos complace anunciar el lanzamiento de ScummVM 0.9.0 «El omnicerebro os ama».\n\nOs esperan muchas cosas, siendo una de las más visibles la nueva y mejorada interfaz. También hemos añadido el soporte para dos juegos totalmente nuevos: _The Legend of Kyrandia_ y _The Feeble Files_.\n\nOtros de los cambios de importancia son:\n\n*   Reescrito el código de detección de los juegos de SCUMM. Ahora las traducciones aficionadas funcionarán con solo aplicarlas\n*   Añadidos unos controles para configurar los subtítulos en la ventana de opciones\n*   Nueva conversión oficial para Atari/MiNT\n*   La conversión para WinCE ha visto grandes mejoras\n*   Numerosos fallos corregidos en los motores SCUMM, SAGA, Simon, Broken Sword 2 y BASS\n\nSi queréis ver la lista completa, [podéis leer las notas de lanzamiento](https://downloads.scummvm.org/frs/scummvm/0.9.0/ReleaseNotes).\n\nPor desgracia, no se han compilado todas las conversiones todavía y es posible que tengáis problemas con las descargas, ya que no todos los «mirrors» de SourceForge han reconocido los archivos. Por favor, probad con otros «mirrors» y tened paciencia.\n\nNo esperéis más, conseguid la versión para vuestras plataformas en nuestra [página de descargas](/downloads/)."
     },
     "20060704": {
-        "title": "",
-        "content": ""
+        "title": "Conversión de ScummVM 0.9.0 para WinCE actualizada",
+        "content": "Como muchos usuarios de la conversión para Windows CE ya han notado, la versión 0.9.0 tiene algunos problemas relacionados con el sonido y la música que solían acabar con un bloqueo del programa. Estos fallos recónditos ya han sido localizados y corregidos. Pedimos a todos los usuarios de PocketPC y de smartphones que se descarguen la versión 0.9.0a actualizada de nuestra [página de descargas](/downloads/) o de la sección de archivos de nuestra página en [SourceForge](https://downloads.scummvm.org/frs/scummvm/0.9.0/). Los «mirrors» podrían tardar un tiempo en reconocer el archivo, así que tened paciencia."
     },
     "20060830": {
-        "title": "",
-        "content": ""
+        "title": "Ya no se aceptan donativos",
+        "content": "Como ya habrán notado los visitantes más habituales de la web de ScummVM, hemos quitado el botón de Paypal de nuestra web y hemos dejado de aceptar donativos.\n\nPaypal nos ha informato que todo software que permita reproducir un juego en un sistema «para el que no ha sido comercializado» viola su [política de uso aceptable](http://www.paypal.com/cgi-bin/webscr?cmd=p/gen/ua/use/index_frame-outside&ed=games_software). Sois libres de escribir por email a aup@paypal.com y expresar vuestra decepción con sus políticas... que no tienen sentido alguno para un proyecto como es ScummVM, que suele ser respaldado de forma activa por los desarrolladores y estudios originales hasta tal punto de que Sold Out lo distribuyó con su compilación de Broken Sword 1 y 2.\n\nEstamos buscando un sistema alternativo para donativos, si alguno de nuestros usuarios desea presentar una sugerencia de un sistema seguro y compatible con la comunidad de código abierto, puede indicárnoslo en el hilo del foro [«Paypal Sucks (en inglés)»](http://forums.scummvm.org/viewtopic.php?p=12891)."
     },
     "20061029": {
-        "title": "",
-        "content": ""
+        "title": "ScummVM 0.9.0 «PalmOS resucita» publicado",
+        "content": "Nos complace anunciar el lanzamiento de la versión 0.9.1 de ScummVM para corregir fallos.\n\nHay muchas correcciones y mejoras leves de importancia. También nos alegra dar soporte oficial a tres plataformas nuevas: Nintendo DS, GP2X y GP32. Ya podéis descargar los binarios oficiales para DS y GP2X, la conversión para GP32 estará disponible próximamente.\n\nAlgunas de las correciones más relevantes son:\n\n*   Muchas correciones para los juegos de Humongous Entertainment y una mejor compatibilidad para sus versiones internacionales\n*   Mejorada la detección de la versión de Indy3 para FM-TOWNS\n*   Varias correcciones para The Feeble Files, ahora se reconocen más versiones de habla no inglesa\n*   Algunos componentes del motor Kyrandia han sido reescritos para que el juego tenga unos requisitos más bajos de CPU, funcionando mejor en dispositivos de gama baja\n*   Las conversiones para PSP, PS2 y WinCE han visto grandes mejoras\n*   La conversión para PalmOS vuelve a estar al día y tiene una compilación independiente para el Tapwave Zodiac\n*   La conversión para WinCE vuelve a ser compatible con dispositivos de 2002\n\nSi queréis ver la lista completa, [leed las notas de lanzamiento](https://downloads.scummvm.org/frs/scummvm/0.9.0/ReleaseNotes).\n\nComo siempre, las compilaciones se encuentran en nuestra [página de descargas](/downloads/)."
     },
     "20061114": {
-        "title": "",
-        "content": ""
+        "title": "Conversión para Mac OS X de ScummVM 0.9.1 actualizada",
+        "content": "Como algunos ya habréis visto, la versión para Mac OS X de ScummVM 0.9.1 daba algunos problemas en sistemas PowerPC, en concreto, al reproducir sonido codificado en formato MP3. Hemos subido una nueva compilación (0.9.1a) en la [página de descargas](/downloads/) para todos los afectados (el resto de versiones ajenas a la de Mac OS X siguen siendo las mismas)."
     },
     "20061117": {
-        "title": "",
-        "content": ""
+        "title": "«Future Wars» ya es compatible",
+        "content": "Como ya sabréis, hace tiempo adoptamos el motor [cinematique evo.1](https://sourceforge.net/projects/cine/), al que contribuía Yaz0r. El motor es usado por dos juegos: *[Future Wars](http://wiki.scummvm.org/index.php/Future_Wars)* y *[Operation Stealth](http://wiki.scummvm.org/index.php/Operation_Stealth)*. Ahora, tras varios meses de trabajo, nos complace anunciaros el soporte para *Future Wars* en las compilaciones diarias del SVN de ScummVM.\n\nActualmente solo es compatible la versión para DOS, pero en varios idiomas.\n\nNos gustaría pediros a vosotros, nuestros queridos usuarios, que hagáis pruebas. Eso no significa que haya una nueva versión importante por salir, sino que estamos listos para recibir [informes de fallos](http://bugs.scummvm.org/). Así que buscad vuestra copia del juego (si lo habéis comprado) y ponedlo a prueba a conciencia. Necesitaréis una [compilación diaria](/downloads/#daily) de ScummVM y vuestro cuaderno de protección a mano para ejecutar el juego. Después, si aparece un fallo, defecto o incluso un mensaje en la consola, informad. Las instrucciones sobre cómo informar de fallos se encuentran [aquí (en inglés)](/faq/#question.report-bugs).\n\nTambién necesitamos capturas del juego a buena calidad. Para las mismas tenéis que leer las [normas para enviar capturas de pantalla](http://wiki.scummvm.org/index.php/Screenshots)."
     },
     "20061215": {
-        "title": "",
-        "content": ""
+        "title": "¿Dónde están vuestros mosqueteros...? Touché.",
+        "content": "Nos ha pillado a todos por sorpresa, pero nuestro veterano Gregory Montoir, alias **cyx**, nos envió hace unas semanas un motor prácticamente terminado. Lo usa el juego [*Touché: Las Aventuras del Quinto Mosquetero*](http://wiki.scummvm.org/index.php/Touch%C3%A9:_The_Adventures_of_the_Fifth_Musketeer). Hemos trabajado un poco más en él y ahora anunciamos que damos soporte completo a este título.\n\nPara vosotros, nuestros queridos usuarios, eso significa que vamos a abrir una temporada de caza de fallos. Coged vuestras versiones en inglés, francés, alemán o italiano, o incluso la demo del juego, y poneos a ponerla a prueba. Metedle el dedo en la nariz de Geoffroi Le Brun por todas partes e informadnos de si se rompe de repente.\n\nComo siempre, para jugar necesitaréis una [compilación diaria](/downloads/#daily) de ScummVM. Hay que informar de cualquier fallo y defecto gráfico en [nuestro gestor de fallos](http://bugs.scummvm.org/) y, por favor, seguid las [normas para enviar fallos](/faq/#question.report-bugs). Por otro lado, si descubrís alguna versión no reconocida, informad de la misma en el mismo gestor.\n\nTambién necesitamos capturas de pantalla. Además, seguimos esperando capturas de *Future Wars*, porque nadie ha enviado ninguna.\n\nEstamos seguros de que disfrutaréis de esta nueva joya que ahora es compatible con ScummVM."
     },
     "20061218": {
-        "title": "",
-        "content": ""
+        "title": "ScummVM cambia de nombre",
+        "content": "De vez en cuando alguien sacará a colación el tema de encontrar un nombre «mejor» para ScummVM, uno más ideal para su ámbito actual (que se extiende más allá de los juegos de SCUMM). Así que os presentamos [en esta página](http://wiki.scummvm.org/index.php/ScummVM_Name) unas buenas alternativas. Elegid la que vosotros queráis, que nosotros seguiremos utilizando ScummVM.\n\nSaludos."
     },
     "20061219": {
-        "title": "",
-        "content": ""
+        "title": "Son tiempos...",
+        "content": "de presentar más juegos compatibles, por lo visto. [*Gobliins 2*](http://wiki.scummvm.org/index.php/Gobliins_2) acompaña a *Touché* y a *Future Wars* como presas en las que buscar fallos. ¡Así que, por favor, no hagan ruido, busquen sus copias de Gobliins 2 y encuentren a esos fallos conejiles!\n\nMaterial: una [compilación diaria](/downloads/#daily) de ScummVM  \nInstrucciones: Las [normas para enviar fallos](/faq/#question.report-bugs)  \nUbicación de importancia: [Nuestro gestor de fallos](http://bugs.scummvm.org/), ahí debéis informar de los fallos (y de cualquier versión no reconocida)\n\nQuien quiera puntos extra puede enviar unas capturas de pantalla.\n\n¡Pasadlo bien y buena caza!"
     },
     "20070103": {
-        "title": "",
-        "content": ""
+        "title": "Ya podemos volver a aceptar donativos. Anuncio de recaudación de fondos",
+        "content": "Hace tiempo PayPal nos contactó para decirnos que ya no podíamos utilizar su sistema para aceptar donativos. Sentó un precedente que llegó a ser mencionado en Slashdot. Pero, como os podéis imaginar, podría situar a muchos proyectos en una situación comprometida.\n\nPor suerte, gracias a la buena gente de [SourceForge](https://sourceforge.net) hemos resuelto este problema. Ellos se han encargado de negociar una excepción con PayPal que nos permitirá aceptar donativos de PayPal a través de SourceForge.\n\nEsto quiere decir que volvemos a aceptar donativos a través del [sistema de donativos de SourceForge](https://sourceforge.net/donate/index.php?group_id=37116), que utiliza PayPal.\n\nTambién queremos aprovechar la ocasión para anunciar una recaudación de fondos. Como ya sabréis, utilizamos principalmente el programa Interactive Disassembler de [DataRescue](http://www.datarescue.com/idabase/index.htm). Hasta la fecha, la mayoría de nosotros hemos utilizado la versión _freeware_, pero tiene muchas limitaciones de importancia (evidentemente, por ser gratuito). Hemos negociado con DataRescue y nos han ofrecido un descuento muy generoso. Nos gustaría comprar 5 licencias de IDA Pro para varios de los principales desarrolladores del equipo, los cuales podrían exprimirlas al máximo. Así que si queréis que el proyecto siga a buen ritmo y que demos compatibilidad a más juegos, considerad donarnos un par de dólares o euros.\n\nNuestro objetivo a alcanzar son 950 dólares estadounidenses, y aunque no es pecata minuta, si se tienen en cuenta los 2,5 millones de descargas, los más de 15,000 visitantes al día y los casi 5,400 usuarios registrados en el foro, nos parece una cifra muy alcanzable. Por favor, utilizad el [sistema de donativos de SourceForge](https://sourceforge.net/donate/index.php?group_id=37116) para enviarnos vuestros donativos."
     },
     "20070105": {
-        "title": "",
-        "content": ""
+        "title": "Se cierra la recaudación de fondos, ¡con un gran éxito!",
+        "content": "¡GRACIAS!\n\nNuestra recaudación de fondos ha tenido una respuesta increíble, ¡hemos llegado a nuestro objetivo de 950 $ en poco más de 24 horas! La respuesta ha sido simplemente increíble y gracias a estos donativos, varios miembros principales del equipo pronto serán los orgullosos dueños de unas flamantes copias de la última versión de [IDA - The Interactive Disassembler](http://www.datarescue.com/idabase/index.htm).\n\nEsto nos ayudará en gran medida a añadir soporte para juegos nuevos y para corregir algunos de los fallos más raros de nuestros motores actuales, así que volvemos a dar las gracias a todos los usuarios que han donado. Todo el equipo está asombrado por el apoyo que habéis demostrado y estamos preparando unas cuántas sorpresas futuras como muestra de agradecimiento. Echad un vistazo a nuestra [lista de donantes](https://sourceforge.net/project/project_donations.php?group_id=37116) para ver cuántos donativos hemos recibido y leer los comentarios de todo el mundo (tened en cuenta que solo aparecerán aquellos donantes que hayan escrito un comentario).\n\nNo obstante, aunque la recaudación de fondos ha finalizado (y sobre todo si no habéis donado en esta ronda), os pedimos que consideréis donarnos en un futuro si os gusta ScummVM. Siempre nos vendrán bien los donativos para comprar juegos y versiones poco habituales con las que ampliar nuestra compatibilidad: ¡cada dólar o euro es bienvenido!"
     },
     "20070130": {
-        "title": "",
-        "content": ""
+        "title": "Testeo y documentación de los juegos de AGI",
+        "content": "Allá por mayo del año pasado Sarien se fusionó con ScummVM. Esto no solo os dará la gran oportunidad de revivir los recuerdos de vuestra infancia de vencer a los malvados Sariens en Space Quest y de frustrar las maldades de LeChuck en Monkey Island, sino que también os dará la oportunidad de crear recuerdos nuevos, como buscar los ingredientes de la receta mágica del juego hecho por fans _Voodoo Girl: Queen of the Darned_. Hay más de 180 juegos hechos por fans para el motor AGI realizados con herramientas como WinAGI o AGI Studio que ahora pueden ejecutarse en ScummVM. Por suerte para nosotros, sev ha hecho una compilación de los mismos que podréis encontrar [aquí](http://www.unet.univie.ac.at/~a0200586/binary/mirrors/scummvm/agi-fanmade.tar.bz2) (gracias a **clemmy** por alojarla).\n\n«¿Y por qué nos contáis esto?», os preguntaréis. Bueno, estamos echandoos el guante. Necesitamos que vosotros, los usuarios de ScummVM, escribáis descripciones en la wiki para los juegos hechos por fans utilizando la sintaxis indicada en [este](http://forums.scummvm.org/viewtopic.php?p=18590) mensaje del foro (en inglés). Una vez lo hagáis, copiadla a ese hilo. Así los editores de la wiki podrán publicarlas allí.\n\nPor otro lado, os pedimos que hagáis pruebas de tanto los juegos de Sierra como los juegos hechos por fans para el motor AGI en ScummVM. Como siempre, necesitaréis una compilación diaria. No obstante, os pedimos que comprobéis si los fallos de un juego hecho por fans están presentes en el intérprete original. Si encontráis cualquier fallo, informad de él en el gestor de fallos.\n\n¡Suerte!"
     },
     "20070210": {
-        "title": "",
-        "content": ""
+        "title": "Como dijo la profecía",
+        "content": "Como algunos de vosotros ya sabréis, los motores de *Gobliins 2* y [*Ween: The Prophecy*](http://wiki.scummvm.org/index.php/The_Prophecy) comparten bastante código. Hemos resuelto las diferencias y, por lo tanto, podemos añadir el segundo juego a la lista de juegos compatibles. Como siempre, nos gustaría que vosotros, nuestros usuarios, informéis de cualquier fallo que aún persista.\n\nYa sabéis lo que hay que hacer: coged vuestras copias de *Ween: The Prophecy* y una [compilación diaria](/downloads/#daily) de ScummVM, leed las [normas para enviar fallos](/faq/#question.report-bugs), localizad los fallos e informad de los mismos en el REVUSS ([nuestro gestor de fallos](http://bugs.scummvm.org/)).\n\nY así, los fallos serán aniquilados..."
     },
     "20070216": {
-        "title": "",
-        "content": ""
+        "title": "Actualización de la música mejorada para Simon The Sorcerer",
+        "content": "El [ScummVM Music Enhancement Project (proyecto de mejora musical de ScummVM)](http://www.jameswoodcock.co.uk/?page_id=54), creado y desarrollado por [James Woodcock](http://www.jameswoodcock.co.uk/) ha anunciado recientemente que ha [recibido el permiso](http://www.jameswoodcock.co.uk/?p=929) de Simon Woodroffe para publicar la banda sonora mejorada de Simon the Sorcerer en ScummVM.  También ha publicado [un avance en vídeo](http://www.jameswoodcock.co.uk/?p=935) que muestra cómo funciona la música nueva con este título.\n\nEl proyecto también cubre otros juegos como Beneath A Steel Sky, Mundodisco, Flight of the Amazon Queen, Inherit the Earth, ¡y otro juego por anunciar!\n\nJames ha prometido que en cuanto termine de probar la aplicación ScummVM con esta nueva banda sonora, publicará toda la selección musical de Simon the Sorcerer en su página web de forma gratuita. Allí ya hay muestras descargables de muchos de sus proyectos, así que pasaos por la página del [ScummVM Music Enhancement Project](http://www.jameswoodcock.co.uk/?page_id=54)."
     },
     "20070307": {
-        "title": "",
-        "content": ""
+        "title": "¡Han desintegrado la Tierra!",
+        "content": "[*Bargon Attack*](http://wiki.scummvm.org/index.php/Bargon_Attack), que al igual que *Ween: The Prophecy*, comparte buena parte de su código con *Gobliins 2*, ya se puede jugar de principio a fin y es compatible con ScummVM. Así que os pedimos que vayáis a por los bargonianos y, de paso, os pongáis a buscar fallos.\n\nEl procedimiento es el mismo de las últimas veces: coged vuestras copias de Bargon Attack y una [compilación diaria](/downloads/#daily) de ScummVM. Leed las [normas para enviar fallos](/faq/#question.report-bugs) e informad de cualquier fallo en [nuestro gestor de fallos](http://bugs.scummvm.org/).\n\nTambién estaría bien que nos pasárais capturas de pantalla.\n\nAh, y echad un vistazo al discurso de Ender en el LCA2007, [que se encuentra aquí](http://mirror.linux.org.au/pub/linux.conf.au/2007/video/tuesday/tuesday_1650_gaming.ogg)."
     },
     "20070315": {
         "title": "",
@@ -508,7 +508,7 @@
         "content": ""
     },
     "20070805": {
-        "title": "",
+        "title": "Conversión de ScummVM 0.10.0a para DS publicada",
         "content": ""
     },
     "20070916": {
@@ -540,7 +540,7 @@
         "content": ""
     },
     "20080115": {
-        "title": "",
+        "title": "ScummVM 0.11.0 «Tu palíndromo» publicado",
         "content": ""
     },
     "20080229": {
@@ -588,7 +588,7 @@
         "content": ""
     },
     "20080831": {
-        "title": "",
+        "title": "ScummVM 0.12.0 «&nbsp;» publicado",
         "content": ""
     },
     "20080906": {
@@ -744,7 +744,7 @@
         "content": ""
     },
     "20100404": {
-        "title": "",
+        "title": "ScummVM 1.1.0 «Cuadrante beta» publicado",
         "content": ""
     },
     "20100428": {
@@ -752,7 +752,7 @@
         "content": ""
     },
     "20100502": {
-        "title": "",
+        "title": "ScummVM 1.1.1 «Una versión mejor» publicado",
         "content": ""
     },
     "20100725": {
@@ -772,7 +772,7 @@
         "content": ""
     },
     "20101219": {
-        "title": "",
+        "title": "¡ScummVM 1.2.1 «Børk Børk Børk» publicado!",
         "content": ""
     },
     "20110123": {
@@ -808,7 +808,7 @@
         "content": ""
     },
     "20110528": {
-        "title": "",
+        "title": "¡ScummVM 1.3.0 «El corredor» publicado!",
         "content": ""
     },
     "20110602": {
@@ -816,7 +816,7 @@
         "content": ""
     },
     "20110712": {
-        "title": "",
+        "title": "¡ScummVM 1.3.1 «Todos vuestros discursos» publicado!",
         "content": ""
     },
     "20110804": {
@@ -832,7 +832,7 @@
         "content": ""
     },
     "20111111": {
-        "title": "",
+        "title": "¡ScummVM 1.4.0 «Décimo aniversario» publicado!",
         "content": ""
     },
     "20111121": {
@@ -888,7 +888,7 @@
         "content": ""
     },
     "20120727": {
-        "title": "",
+        "title": "ScummVM 1.5.0 «Cesta de picnic» publicado",
         "content": ""
     },
     "20120809": {
