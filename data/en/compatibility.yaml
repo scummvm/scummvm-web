@@ -1691,7 +1691,7 @@
     support: excellent
     notes: '- The MT-32 instrument definitions aren''t supported yet, so it will play with wrong instruments - The CD-i version doesn''t use Groovie, so it will never be supported. - There are some issues with music not playing when it should'
     since_version: 0.13.0
-    stable_platforms: dos.win
+    stable_platforms: 'dos,win'
     unstable_platforms: 'cdi,ios,mac'
 -
     id: kyra1
@@ -1775,7 +1775,7 @@
     support: excellent
     notes: '- The MT-32 instrument definitions aren''t supported yet, so it will play with wrong instruments - The CD-i version doesn''t use Groovie, so it will never be supported.'
     since_version: 1.0.0
-    stable_platforms: dos.win
+    stable_platforms: 'dos,win'
     unstable_platforms: 'cdi,ios,mac'
 -
     id: kyra1
@@ -2340,10 +2340,10 @@
 -
     id: lilmonster
     support: good
-    notes: '- The CD-i version is not supported'
+    notes: ''
     since_version: 1.3.0
     stable_platforms: 'mac,win'
-    unstable_platforms: ''
+    unstable_platforms: cdi
 -
     id: newkid
     support: good
@@ -3915,7 +3915,7 @@
 -
     id: elvira1
     support: good
-    notes: '- Commodore 64 version doesn''t use AGOS, so will never be supported. - No music in the Atari ST version. - No text descriptions in the Atari ST version.'
+    notes: ''
     since_version: 2.5.0
     stable_platforms: 'amiga,atarist,dos,pc98'
     unstable_platforms: c64
