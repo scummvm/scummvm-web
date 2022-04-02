@@ -66,6 +66,12 @@
     language: en
     variant_id: '1'
 -
+    id: atlantis
+    variant: ''
+    platform_id: dos
+    language: fr
+    variant_id: '1'
+-
     id: babayaga
     variant: ''
     platform_id: win
@@ -1968,6 +1974,12 @@
     language: en
     variant_id: '1'
 -
+    id: samnmax
+    variant: ''
+    platform_id: dos
+    language: fr
+    variant_id: '1'
+-
     id: scalpel
     variant: ''
     platform_id: dos
@@ -2268,13 +2280,13 @@
     language: de
     variant_id: '1'
 -
-    id: thinkerk
+    id: thinker1
     variant: ''
     platform_id: win
     language: en
     variant_id: '1'
 -
-    id: thinker1
+    id: thinkerk
     variant: ''
     platform_id: win
     language: en
