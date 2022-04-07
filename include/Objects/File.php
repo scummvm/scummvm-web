@@ -21,6 +21,7 @@ class File extends BasicObject
         $this->category = $data['category'];
         $this->category_icon = $data['category_icon'];
         $this->notes = isset($data['notes']) ? $data['notes'] : '';
+        $this->priority = $data['priority'];
         $this->subcategory = $data['subcategory'] ?? null;
         $this->user_agent = isset($data["user_agent"]) ? $data["user_agent"] : "";
         $this->version = isset($data['version']) ? strtolower($data['version']) : null;
