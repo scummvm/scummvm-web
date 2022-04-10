@@ -31,18 +31,19 @@ class FileUtils
     {
         $path = FileUtils::toAbsolutePathIfOnServer($path);
         // Get the file size, rounded to the nearest kilobyte
-        $file_size = round((@filesize($path) / 1024));
+        // Use powers of ten per IEC standard
+        $file_size = round((@filesize($path) / 1000));
         
-        if ($file_size < 1024) {
-            $file_size = $file_size . "K";
+        if ($file_size < 1000) {
+            $file_size = $file_size . " kB";
         } else {
-            $file_size /= 1024;
+            $file_size /= 1000;
 
-            if ($file_size < 1024) {
-                $file_size = round($file_size, 1) . "M";
+            if ($file_size < 1000) {
+                $file_size = round($file_size, 1) . " MB";
             } else {
-                $file_size /= 1024;
-                $file_size = round($file_size, 2) . "G";
+                $file_size /= 1000;
+                $file_size = round($file_size, 2) . " GB";
             }
         }
         return $file_size;
