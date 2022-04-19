@@ -171,6 +171,9 @@
     id: t7g
     name: 'The 7th Guest'
 -
+    id: transylvania
+    name: Transylvania
+-
     id: ultima
     name: Ultima
 -

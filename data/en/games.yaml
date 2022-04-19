@@ -973,13 +973,13 @@
     series_id: ''
 -
     id: crimsoncrown
-    name: 'The Crimson Crown'
-    engine_id: glk
+    name: 'The Crimson Crown: Further Adventures in Transylvania'
+    engine_id: comprehend
     company_id: polarware
     moby_id: '86'
-    datafiles: ''
-    wikipedia_page: ''
-    series_id: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Crimson_Crown:_Further_Adventures_in_Transylvania'
+    wikipedia_page: 'Transylvania_(series)#The_Crimson_Crown_-_Further_Adventures_in_Transylvania'
+    series_id: transylvania
 -
     id: crousti
     name: Croustibat
@@ -3341,10 +3341,10 @@
 -
     id: ootopos
     name: OO-Topos
-    engine_id: glk
+    engine_id: comprehend
     company_id: polarware
     moby_id: '148433'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Oo-Topos'
     wikipedia_page: Oo-Topos
     series_id: ''
 -
@@ -4806,6 +4806,15 @@
     wikipedia_page: The_7th_Guest
     series_id: t7g
 -
+    id: talisman
+    name: 'Talisman: Challenging the Sands of Time'
+    engine_id: comprehend
+    company_id: polarware
+    moby_id: '21943'
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Talisman:_Challenging_the_Sands_of_Time'
+    wikipedia_page: ''
+    series_id: ''
+-
     id: tanya1
     name: 'Tanya Grotter and the Magical Double Bass'
     engine_id: wintermute
@@ -5078,12 +5087,12 @@
 -
     id: transylvania
     name: Transylvania
-    engine_id: glk
+    engine_id: comprehend
     company_id: polarware
     moby_id: '91'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Transylvania'
     wikipedia_page: Transylvania_(video_game)
-    series_id: ''
+    series_id: transylvania
 -
     id: troll
     name: 'Troll''s Tale'

@@ -54,6 +54,12 @@
     language: en
     variant_id: '1'
 -
+    id: astrochicken
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
     id: atlantis
     variant: ''
     platform_id: dos
@@ -2374,6 +2380,12 @@
     variant: ''
     platform_id: dos
     language: fr
+    variant_id: '1'
+-
+    id: transylvania
+    variant: ''
+    platform_id: dos
+    language: en
     variant_id: '1'
 -
     id: troll
