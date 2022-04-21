@@ -404,6 +404,10 @@
     name: 'Hungry Software'
     alt_name: ''
 -
+    id: hypnotix
+    name: 'Hypnotix Inc.'
+    alt_name: ''
+-
     id: ibi
     name: 'Interactive Binary Illusions'
     alt_name: ''

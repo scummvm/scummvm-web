@@ -252,6 +252,12 @@
     language: fr
     variant_id: '1'
 -
+    id: crimsoncrown
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
     id: crousti
     variant: ''
     platform_id: dos

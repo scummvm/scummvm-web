@@ -878,7 +878,7 @@
     engine_id: xeen
     company_id: nwc
     moby_id: '3423'
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Might_and_Magic_IV'
     wikipedia_page: 'Might_and_Magic_IV:_Clouds_of_Xeen'
     series_id: mm
 -
@@ -5317,6 +5317,15 @@
     moby_id: '-1'
     datafiles: ''
     wikipedia_page: ''
+    series_id: ''
+-
+    id: wetlands
+    name: Wetlands
+    engine_id: hypno
+    company_id: hypnotix
+    moby_id: '862'
+    datafiles: ''
+    wikipedia_page: Wetlands_(video_game)
     series_id: ''
 -
     id: winnie
