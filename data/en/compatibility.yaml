@@ -4090,7 +4090,14 @@
 -
     id: sinistersix
     support: good
-    notes: '- English and Spanish versions supported - Minor missing features (original fonts and back to menu)'
+    notes: '- English, Spanish and German releases supported - Minor missing features (back to menu)'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: wetlands
+    support: good
+    notes: '- Minor missing features (back to menu, highscores)  - Minor user interface issues (not pixel perfect reproduction)'
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: ''
