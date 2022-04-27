@@ -1866,6 +1866,12 @@
     language: en
     variant_id: '1'
 -
+    id: qfg4
+    variant: CD
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
     id: queen
     variant: ''
     platform_id: amiga
