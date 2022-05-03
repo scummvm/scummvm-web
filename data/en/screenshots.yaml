@@ -804,6 +804,18 @@
     language: en
     variant_id: '1'
 -
+    id: hires1
+    variant: ''
+    platform_id: apple2
+    language: en
+    variant_id: '1'
+-
+    id: hires1
+    variant: 'TV Emulation'
+    platform_id: apple2
+    language: en
+    variant_id: '2'
+-
     id: hopkins
     variant: ''
     platform_id: linux
