@@ -1,0 +1,15 @@
+---
+title: Take a deep breath and submerge yourself in Wetlands
+author: gu3
+date: 1651862267
+---
+
+_Wetlands_, the newest supported game of the [Hypno engine](https://wiki.scummvm.org/index.php?title=Hypno), is ready for public testing!
+
+This sci-fi rail shooter was created by Hypnotix and published by New World Computing in 1995. The game includes 20 action-packed levels, cinematic cutscenes, attractive hand-drawn characters, and stunning 3D backgrounds.
+
+Set in 2495, humanity is now forced to live in underwater cities after a nuclear test gone wrong caused uninterrupted worldwide rain. A war is unleashed between The Federation (Earth’s remaining governments) and the Volarins, a group of terrorists led by the mad scientist and _Wetlands_’ main villain, Phillip Nahj. You’ll play as John Cole, a ruthless mercenary hired to catch Nahj alive.
+
+ScummVM currently supports the English, Spanish, French, German, and Korean releases of the game and features improved controls as well. You can support ScummVM by buying _Wetlands_ from GOG.com via our [referral link](https://www.gog.com/en/game/wetlands?pp=22d200f8670dbdb3e253a90eee5098477c95c23d). Please [contact us](https://www.scummvm.org/contact/) if you have some other release.
+
+To play any of these supported releases, you will need a [daily development build](https://www.scummvm.org/downloads/#daily). As always, please submit your bug reports to our [issue tracker](https://bugs.scummvm.org/).
