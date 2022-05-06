@@ -183,7 +183,7 @@
     id: hypno
     name: 'Hypnotix Inc.'
     alt_name: ''
-    enabled: false
+    enabled: true
 -
     id: icb
     name: 'In Cold Blood'
