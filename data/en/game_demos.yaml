@@ -1258,11 +1258,35 @@
 -
     id: wetlands
     platform: dos
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/hypno/wetlands-dos-demo4-en.zip
+-
+    id: wetlands
+    platform: dos
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/hypno/wetlands-dos-demo5-en.zip
+-
+    id: wetlands
+    platform: dos
     category: Non-Interactive
     language: en
     language2: ''
     language3: ''
-    url: /frs/demos/hypno/wetlands-dos-ni-demo-en.zip
+    url: /frs/demos/hypno/wetlands-dos-ni-demo1-en.zip
+-
+    id: wetlands
+    platform: dos
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/hypno/wetlands-dos-ni-demo2-en.zip
 -
     id: icb
     platform: win
