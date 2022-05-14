@@ -10,6 +10,8 @@
     <column name="engine_id" type="varchar" size="24" required="true"/>
     <column name="company_id" type="varchar" size="24" required="true"/>
     <column name="moby_id" type="integer"/>
+    <column name="steam_id" type="integer"/>
+    <column name="gog_id" type="varchar"/>
     <column name="wikipedia_page" type="varchar"/>
     <column name="series_id" type="varchar"/>
     <foreign-key foreignTable="engine" onDelete="CASCADE">

@@ -69,6 +69,20 @@ class Compatibility extends BaseCompatibility
             $notes .= join("\n", $links);
         }
 
+        $availableSites = [];
+        $gogId = $this->getGame()->getGogId();
+        if ($gogId) {
+            $availableSites[] = "- [GOG.com](" . GOG_URL_PREFIX . $gogId . GOG_URL_SUFFIX . ") (affiliate link)";
+        }
+        $steamId = $this->getGame()->getSteamId();
+        if ($steamId) {
+            $availableSites[] = "- [Steam](" . STEAM_URL_PREFIX . $steamId. ")";
+        }
+        if ($availableSites) {
+            $notes .= "\n\n### Available At\n";
+            $notes .= join("\n", $availableSites);
+        }
+
         $config = \HTMLPurifier_Config::createDefault();
         $purifier = new \HTMLPurifier($config);
         $parsedown = new \Parsedown();
