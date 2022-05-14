@@ -272,6 +272,14 @@
     language3: ''
     url: /frs/demos/bbvs/bbvs-demo-loogie.zip
 -
+    id: bladerunner
+    platform: win
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/bladerunner/bladerunner-win-ni-demo-en.zip
+-
     id: bluesabctime
     platform: win
     category: ''
