@@ -32,6 +32,12 @@ class Constants
         }
         define('URL_BASE', $url);
 
+        /* External URLs */
+        define('GOG_URL_PREFIX', "https://www.gog.com/game/");
+        // ScummVM affiliate id
+        define('GOG_URL_SUFFIX', '?pp=22d200f8670dbdb3e253a90eee5098477c95c23d');
+        define('STEAM_URL_PREFIX', 'https://store.steampowered.com/app/');
+
         /* Paths */
         define('DIR_BASE', __DIR__  . '/..');
         define('DIR_DATA', DIR_BASE . '/data');
