@@ -1073,7 +1073,7 @@
     company_id: nwc
     moby_id: '3423'
     steam_id: ''
-    gog_id: ''
+    gog_id: might_and_magic_6_limited_edition
     datafiles: 'https://wiki.scummvm.org/index.php?title=Might_and_Magic_IV'
     wikipedia_page: 'Might_and_Magic_IV:_Clouds_of_Xeen'
     series_id: mm
@@ -1282,7 +1282,7 @@
     company_id: nwc
     moby_id: '3424'
     steam_id: ''
-    gog_id: ''
+    gog_id: might_and_magic_6_limited_edition
     datafiles: ''
     wikipedia_page: 'Might_and_Magic_V:_Darkside_of_Xeen'
     series_id: mm
@@ -1501,7 +1501,7 @@
     engine_id: drascula
     company_id: alcachofa
     moby_id: '14108'
-    steam_id: ''
+    steam_id: '1038430'
     gog_id: ''
     datafiles: 'https://wiki.scummvm.org/index.php?title=Drascula:_The_Vampire_Strikes_Back'
     wikipedia_page: 'Dráscula:_The_Vampire_Strikes_Back'
@@ -1688,8 +1688,8 @@
     engine_id: kyra
     company_id: westwood
     moby_id: '835'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '1882240'
+    gog_id: forgotten_realms_the_archives_collection_one
     datafiles: 'https://wiki.scummvm.org/index.php?title=Eye_of_the_Beholder'
     wikipedia_page: Eye_of_the_Beholder_(video_game)
     series_id: eob
@@ -1699,8 +1699,8 @@
     engine_id: kyra
     company_id: westwood
     moby_id: '307'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '1882240'
+    gog_id: forgotten_realms_the_archives_collection_one
     datafiles: 'https://wiki.scummvm.org/index.php?title=Eye_of_the_Beholder_II:_The_Legend_of_Darkmoon'
     wikipedia_page: 'Eye_of_the_Beholder_II:_The_Legend_of_Darkmoon'
     series_id: eob
@@ -2194,8 +2194,8 @@
     engine_id: ags
     company_id: grundislav
     moby_id: ''
-    steam_id: ''
-    gog_id: ''
+    steam_id: '307570'
+    gog_id: a_golden_wake
     datafiles: ''
     wikipedia_page: A_Golden_Wake
     series_id: ''
@@ -2569,7 +2569,7 @@
     company_id: revolution
     moby_id: '3373'
     steam_id: ''
-    gog_id: ''
+    gog_id: in_cold_blood
     datafiles: ''
     wikipedia_page: In_Cold_Blood_(video_game)
     series_id: ''
@@ -3162,8 +3162,8 @@
     engine_id: twine
     company_id: adeline
     moby_id: '748'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '397330'
+    gog_id: little_big_adventure
     datafiles: 'https://wiki.scummvm.org/index.php?title=Little_Big_Adventure'
     wikipedia_page: Little_Big_Adventure
     series_id: lba
@@ -3173,8 +3173,8 @@
     engine_id: twine
     company_id: adeline
     moby_id: '1765'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '398000'
+    gog_id: little_big_adventure_2
     datafiles: ''
     wikipedia_page: Little_Big_Adventure_2
     series_id: lba
@@ -4483,7 +4483,7 @@
     company_id: sierra
     moby_id: '146'
     steam_id: ''
-    gog_id: ''
+    gog_id: police_quest_1_2_3_4
     datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest'
     wikipedia_page: 'Police_Quest:_In_Pursuit_of_the_Death_Angel'
     series_id: pq
@@ -4560,7 +4560,7 @@
     company_id: metropolis
     moby_id: '30716'
     steam_id: ''
-    gog_id: ''
+    gog_id: galador_the_prince_and_the_coward
     datafiles: ''
     wikipedia_page: The_Prince_and_the_Coward
     series_id: ''
@@ -4713,8 +4713,8 @@
     engine_id: agi
     company_id: sierra
     moby_id: '168'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '502750'
+    gog_id: quest_for_glory
     datafiles: 'https://wiki.scummvm.org/index.php?title=Quest_for_Glory'
     wikipedia_page: 'Quest_for_Glory:_So_You_Want_to_Be_a_Hero'
     series_id: qfg
@@ -5858,7 +5858,7 @@
     company_id: nwc
     moby_id: '-1'
     steam_id: ''
-    gog_id: ''
+    gog_id: might_and_magic_6_limited_edition
     datafiles: ''
     wikipedia_page: 'Might_and_Magic_V:_Darkside_of_Xeen#Swords_of_Xeen'
     series_id: mm
@@ -6154,7 +6154,7 @@
     engine_id: tony
     company_id: nayma
     moby_id: '7659'
-    steam_id: ''
+    steam_id: '356210'
     gog_id: ''
     datafiles: ''
     wikipedia_page: Tony_Tough_and_the_Night_of_Roasted_Moths
@@ -6573,7 +6573,7 @@
     company_id: nwc
     moby_id: '4321'
     steam_id: ''
-    gog_id: ''
+    gog_id: might_and_magic_6_limited_edition
     datafiles: ''
     wikipedia_page: 'Might_and_Magic_V:_Darkside_of_Xeen#World_of_Xeen'
     series_id: mm
