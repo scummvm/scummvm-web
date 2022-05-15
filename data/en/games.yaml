@@ -243,11 +243,11 @@
     series_id: ''
 -
     id: alimardan1
-    name: 'Alimardan''s Mischiefs'
+    name: 'Alimardan''s Mischief'
     engine_id: wintermute
-    company_id: unknown
+    company_id: rskent
     moby_id: '56095'
-    steam_id: ''
+    steam_id: '694420'
     gog_id: ''
     datafiles: ''
     wikipedia_page: ''
@@ -256,9 +256,9 @@
     id: alimardan2
     name: 'Alimardan Meets Merlin'
     engine_id: wintermute
-    company_id: unknown
+    company_id: rskent
     moby_id: '122586'
-    steam_id: ''
+    steam_id: '694430'
     gog_id: ''
     datafiles: ''
     wikipedia_page: ''
@@ -765,7 +765,7 @@
     company_id: sierra
     moby_id: '1408'
     steam_id: ''
-    gog_id: ''
+    gog_id: conquests_of_camelot
     datafiles: 'https://wiki.scummvm.org/index.php?title=Conquests_of_Camelot'
     wikipedia_page: 'Conquests_of_Camelot:_The_Search_for_the_Grail'
     series_id: conquests
@@ -1314,7 +1314,7 @@
     engine_id: macventure
     company_id: icom
     moby_id: '1069'
-    steam_id: ''
+    steam_id: '343820'
     gog_id: ''
     datafiles: ''
     wikipedia_page: Déjà_Vu_(video_game)
@@ -1325,7 +1325,7 @@
     engine_id: macventure
     company_id: icom
     moby_id: '7743'
-    steam_id: ''
+    steam_id: '343830'
     gog_id: ''
     datafiles: ''
     wikipedia_page: 'Deja_Vu_II:_Lost_in_Las_Vegas'
@@ -1358,8 +1358,8 @@
     engine_id: scumm
     company_id: lucasarts
     moby_id: '354'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '6040'
+    gog_id: the_dig
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Dig'
     wikipedia_page: The_Dig_(video_game)
     series_id: ''
@@ -1897,7 +1897,7 @@
     engine_id: wintermute
     company_id: unknown
     moby_id: '104425'
-    steam_id: ''
+    steam_id: '581360'
     gog_id: ''
     datafiles: ''
     wikipedia_page: ''
@@ -2151,7 +2151,7 @@
     company_id: coktel
     moby_id: '1154'
     steam_id: ''
-    gog_id: ''
+    gog_id: gobliiins_pack
     datafiles: 'https://wiki.scummvm.org/index.php?title=Gobliiins'
     wikipedia_page: Gobliiins
     series_id: gob
@@ -2162,7 +2162,7 @@
     company_id: coktel
     moby_id: '2625'
     steam_id: ''
-    gog_id: ''
+    gog_id: gobliiins_pack
     datafiles: 'https://wiki.scummvm.org/index.php?title=Gobliins_2'
     wikipedia_page: 'Gobliiins#Gobliins_2:_The_Prince_Buffoon'
     series_id: gob
@@ -2173,7 +2173,7 @@
     company_id: coktel
     moby_id: '2870'
     steam_id: ''
-    gog_id: ''
+    gog_id: gobliiins_pack
     datafiles: 'https://wiki.scummvm.org/index.php?title=Goblins_3'
     wikipedia_page: 'Gobliiins#Goblins_Quest_3'
     series_id: gob
@@ -2293,7 +2293,7 @@
     engine_id: wintermute
     company_id: unknown
     moby_id: '46506'
-    steam_id: ''
+    steam_id: '222160'
     gog_id: ''
     datafiles: ''
     wikipedia_page: Hamlet_(video_game)
@@ -2536,7 +2536,7 @@
     company_id: graydesign
     moby_id: '1023'
     steam_id: ''
-    gog_id: ''
+    gog_id: the_hugo_trilogy
     datafiles: 'https://wiki.scummvm.org/index.php?title=Hugo%27s_House_of_Horrors'
     wikipedia_page: Hugo%27s_House_of_Horrors
     series_id: hugo
@@ -2547,7 +2547,7 @@
     company_id: graydesign
     moby_id: '1158'
     steam_id: ''
-    gog_id: ''
+    gog_id: the_hugo_trilogy
     datafiles: 'https://wiki.scummvm.org/index.php?title=Hugo_II:_Whodunit%3F'
     wikipedia_page: 'Hugo_II,_Whodunit%3F'
     series_id: hugo
@@ -2558,7 +2558,7 @@
     company_id: graydesign
     moby_id: '4962'
     steam_id: ''
-    gog_id: ''
+    gog_id: the_hugo_trilogy
     datafiles: 'https://wiki.scummvm.org/index.php?title=Hugo_III:_Jungle_of_Doom'
     wikipedia_page: 'Hugo_III,_Jungle_of_Doom!'
     series_id: hugo
@@ -2580,7 +2580,7 @@
     company_id: sierra
     moby_id: '436'
     steam_id: ''
-    gog_id: ''
+    gog_id: codename_iceman
     datafiles: 'https://wiki.scummvm.org/index.php?title=Codename:_ICEMAN'
     wikipedia_page: 'Codename:_ICEMAN'
     series_id: ''
@@ -2711,8 +2711,8 @@
     engine_id: saga
     company_id: dreamersguild
     moby_id: '617'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '245390'
+    gog_id: i_have_no_mouth_and_i_must_scream
     datafiles: 'https://wiki.scummvm.org/index.php?title=I_Have_No_Mouth,_and_I_Must_Scream'
     wikipedia_page: 'I_Have_No_Mouth,_and_I_Must_Scream_(video_game)'
     series_id: ''
@@ -2810,8 +2810,8 @@
     engine_id: saga
     company_id: dreamersguild
     moby_id: '4008'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '257260'
+    gog_id: inherit_the_earth
     datafiles: 'https://wiki.scummvm.org/index.php?title=Inherit_the_Earth'
     wikipedia_page: Inherit_the_Earth
     series_id: ''
@@ -2832,7 +2832,7 @@
     engine_id: wintermute
     company_id: pavo
     moby_id: '-1'
-    steam_id: ''
+    steam_id: '1243010'
     gog_id: ''
     datafiles: ''
     wikipedia_page: ''
@@ -2887,8 +2887,8 @@
     engine_id: wintermute
     company_id: cbe
     moby_id: '68940'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '257690'
+    gog_id: julia_among_the_stars
     datafiles: 'https://wiki.scummvm.org/index.php?title=J.U.L.I.A.:_Among_the_Stars'
     wikipedia_page: J.U.L.I.A._Among_the_Stars
     series_id: julia
@@ -2898,7 +2898,7 @@
     engine_id: wintermute
     company_id: cbe
     moby_id: '69257'
-    steam_id: ''
+    steam_id: '360340'
     gog_id: ''
     datafiles: 'https://wiki.scummvm.org/index.php?title=J.U.L.I.A.:_Untold'
     wikipedia_page: ''
@@ -3118,9 +3118,9 @@
     engine_id: lab
     company_id: terra
     moby_id: '2441'
-    steam_id: ''
+    steam_id: '266980'
     gog_id: labyrinth_of_time_the
-    datafiles: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Labyrinth_of_Time'
     wikipedia_page: The_Labyrinth_of_Time
     series_id: ''
 -
@@ -3129,8 +3129,8 @@
     engine_id: lastexpress
     company_id: smokingcar
     moby_id: '1172'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '252710'
+    gog_id: last_express_the
     datafiles: ''
     wikipedia_page: The_Last_Express
     series_id: ''
@@ -3141,7 +3141,7 @@
     company_id: sierra
     moby_id: '461'
     steam_id: ''
-    gog_id: ''
+    gog_id: the_colonels_bequest
     datafiles: 'https://wiki.scummvm.org/index.php?title=Laura_Bow:_The_Colonel%27s_Bequest'
     wikipedia_page: The_Colonel%27s_Bequest
     series_id: laurabow
@@ -3152,7 +3152,7 @@
     company_id: sierra
     moby_id: '462'
     steam_id: ''
-    gog_id: ''
+    gog_id: the_dagger_of_amon_ra
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Dagger_of_Amon_Ra'
     wikipedia_page: The_Dagger_of_Amon_Ra
     series_id: laurabow
@@ -3328,7 +3328,7 @@
     company_id: westwood
     moby_id: '846'
     steam_id: ''
-    gog_id: ''
+    gog_id: lands_of_lore_1_2
     datafiles: 'https://wiki.scummvm.org/index.php?title=Lands_of_Lore'
     wikipedia_page: 'Lands_of_Lore:_The_Throne_of_Chaos'
     series_id: ''
@@ -3350,7 +3350,7 @@
     company_id: sierra
     moby_id: '1967'
     steam_id: ''
-    gog_id: ''
+    gog_id: conquests_of_the_longbow
     datafiles: 'https://wiki.scummvm.org/index.php?title=Conquests_of_the_Longbow'
     wikipedia_page: 'Conquests_of_the_Longbow:_The_Legend_of_Robin_Hood'
     series_id: conquests
@@ -3382,8 +3382,8 @@
     engine_id: scumm
     company_id: he
     moby_id: '19377'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '292860'
+    gog_id: pajama_sam_vol_1
     datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam%27s_Lost_%26_Found'
     wikipedia_page: ''
     series_id: pajama
@@ -3393,8 +3393,8 @@
     engine_id: cryo
     company_id: cryo
     moby_id: '1054'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '579980'
+    gog_id: lost_eden
     datafiles: 'https://wiki.scummvm.org/index.php?title=Lost_Eden'
     wikipedia_page: Lost_Eden
     series_id: ''
@@ -3426,8 +3426,8 @@
     engine_id: agi
     company_id: sierra
     moby_id: '379'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '763970'
+    gog_id: leisure_suit_larry
     datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry'
     wikipedia_page: Leisure_Suit_Larry_in_the_Land_of_the_Lounge_Lizards
     series_id: lsl
@@ -3437,8 +3437,8 @@
     engine_id: sci
     company_id: sierra
     moby_id: '379'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '763970'
+    gog_id: leisure_suit_larry
     datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry'
     wikipedia_page: Leisure_Suit_Larry_in_the_Land_of_the_Lounge_Lizards
     series_id: lsl
@@ -3448,8 +3448,8 @@
     engine_id: sci
     company_id: sierra
     moby_id: '409'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '765840'
+    gog_id: leisure_suit_larry
     datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_2'
     wikipedia_page: Leisure_Suit_Larry_Goes_Looking_for_Love_(in_Several_Wrong_Places)
     series_id: lsl
@@ -3459,8 +3459,8 @@
     engine_id: sci
     company_id: sierra
     moby_id: '412'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '765850'
+    gog_id: leisure_suit_larry
     datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_3'
     wikipedia_page: 'Leisure_Suit_Larry_III:_Passionate_Patti_in_Pursuit_of_the_Pulsating_Pectorals'
     series_id: lsl
@@ -3470,8 +3470,8 @@
     engine_id: sci
     company_id: sierra
     moby_id: '408'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '765860'
+    gog_id: leisure_suit_larry
     datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_5'
     wikipedia_page: 'Leisure_Suit_Larry_5:_Passionate_Patti_Does_a_Little_Undercover_Work'
     series_id: lsl
@@ -3481,8 +3481,8 @@
     engine_id: sci
     company_id: sierra
     moby_id: '407'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '765910'
+    gog_id: leisure_suit_larry
     datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_6'
     wikipedia_page: 'Leisure_Suit_Larry_6:_Shape_Up_or_Slip_Out!'
     series_id: lsl
@@ -3492,8 +3492,8 @@
     engine_id: sci
     company_id: sierra
     moby_id: '407'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '765910'
+    gog_id: leisure_suit_larry
     datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_6'
     wikipedia_page: 'Leisure_Suit_Larry_6:_Shape_Up_or_Slip_Out!'
     series_id: lsl
@@ -3503,8 +3503,8 @@
     engine_id: sci
     company_id: sierra
     moby_id: '381'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '765890'
+    gog_id: leisure_suit_larry_love_for_sail
     datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_7'
     wikipedia_page: 'Leisure_Suit_Larry:_Love_for_Sail!'
     series_id: lsl
@@ -3515,7 +3515,7 @@
     company_id: revolution
     moby_id: '1134'
     steam_id: ''
-    gog_id: ''
+    gog_id: lure_of_the_temptress
     datafiles: 'https://wiki.scummvm.org/index.php?title=Lure_of_the_Temptress'
     wikipedia_page: Lure_of_the_Temptress
     series_id: ''
@@ -3624,8 +3624,8 @@
     engine_id: scumm
     company_id: lucasarts
     moby_id: '714'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '529890'
+    gog_id: maniac_mansion
     datafiles: 'https://wiki.scummvm.org/index.php?title=Maniac_Mansion'
     wikipedia_page: Maniac_Mansion
     series_id: maniac
@@ -3954,8 +3954,8 @@
     engine_id: mohawk
     company_id: cyan
     moby_id: '1253'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '63660'
+    gog_id: myst_masterpiece_edition
     datafiles: 'https://wiki.scummvm.org/index.php?title=Myst'
     wikipedia_page: Myst
     series_id: myst
@@ -3976,8 +3976,8 @@
     engine_id: mads
     company_id: microprose
     moby_id: '539'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '328430'
+    gog_id: rex_nebular_and_the_cosmic_gender_bender
     datafiles: 'https://wiki.scummvm.org/index.php?title=Rex_Nebular_and_the_Cosmic_Gender_Bender'
     wikipedia_page: Rex_Nebular_and_the_Cosmic_Gender_Bender
     series_id: ''
@@ -4141,8 +4141,8 @@
     engine_id: scumm
     company_id: he
     moby_id: '1200'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '283960'
+    gog_id: pajama_sam_vol_1
     datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam_1:_No_Need_to_Hide_When_It%27s_Dark_Outside'
     wikipedia_page: 'Pajama_Sam:_No_Need_to_Hide_When_It%27s_Dark_Outside'
     series_id: pajama
@@ -4152,8 +4152,8 @@
     engine_id: scumm
     company_id: he
     moby_id: '21113'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '292780'
+    gog_id: pajama_sam_vol_1
     datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam_2:_Thunder_and_Lightning_Aren%27t_so_Frightening'
     wikipedia_page: 'Pajama_Sam_2:_Thunder_and_Lightning_Aren%27t_so_Frightening'
     series_id: pajama
@@ -4163,8 +4163,8 @@
     engine_id: scumm
     company_id: he
     moby_id: '4810'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '292800'
+    gog_id: pajama_sam_vol_2
     datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam_3:_You_Are_What_You_Eat_From_Your_Head_to_Your_Feet'
     wikipedia_page: 'Pajama_Sam_3:_You_Are_What_You_Eat_from_Your_Head_to_Your_Feet'
     series_id: pajama
@@ -4295,8 +4295,8 @@
     engine_id: mads
     company_id: microprose
     moby_id: '2011'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '1299710'
+    gog_id: return_of_the_phantom
     datafiles: ''
     wikipedia_page: Return_of_the_Phantom
     series_id: ''
@@ -4328,7 +4328,7 @@
     engine_id: scumm
     company_id: he
     moby_id: '21618'
-    steam_id: ''
+    steam_id: '317020'
     gog_id: ''
     datafiles: ''
     wikipedia_page: ''
@@ -4445,12 +4445,12 @@
     series_id: ''
 -
     id: pn
-    name: '...A Personal Nightmare'
+    name: 'Personal Nightmare'
     engine_id: agos
     company_id: adventuresoft
     moby_id: '7457'
     steam_id: ''
-    gog_id: ''
+    gog_id: personal_nightmare
     datafiles: 'https://wiki.scummvm.org/index.php?title=Personal_Nightmare'
     wikipedia_page: Personal_Nightmare
     series_id: ''
@@ -4493,7 +4493,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '146'
-    steam_id: ''
+    steam_id: '494740'
     gog_id: police_quest_1_2_3_4
     datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest'
     wikipedia_page: 'Police_Quest:_In_Pursuit_of_the_Death_Angel'
@@ -4504,7 +4504,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '147'
-    steam_id: ''
+    steam_id: '494740'
     gog_id: police_quest_1_2_3_4
     datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest_II'
     wikipedia_page: 'Police_Quest_II:_The_Vengeance'
@@ -4515,7 +4515,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '148'
-    steam_id: ''
+    steam_id: '494740'
     gog_id: police_quest_1_2_3_4
     datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest_III'
     wikipedia_page: 'Police_Quest_III:_The_Kindred'
@@ -4526,7 +4526,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '149'
-    steam_id: ''
+    steam_id: '494740'
     gog_id: police_quest_1_2_3_4
     datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest_IV'
     wikipedia_page: 'Police_Quest:_Open_Season'
@@ -4549,7 +4549,7 @@
     company_id: sierra
     moby_id: '150'
     steam_id: ''
-    gog_id: ''
+    gog_id: police_quest_swat_1_2
     datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest:_SWAT'
     wikipedia_page: 'Police_Quest:_SWAT'
     series_id: pq
@@ -4700,9 +4700,9 @@
     id: qajarycat
     name: 'Qajary Cat'
     engine_id: wintermute
-    company_id: unknown
+    company_id: rskent
     moby_id: '122595'
-    steam_id: ''
+    steam_id: '734080'
     gog_id: ''
     datafiles: ''
     wikipedia_page: ''
@@ -4724,7 +4724,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '16075'
-    steam_id: ''
+    steam_id: '502750'
     gog_id: quest_for_glory
     datafiles: 'https://wiki.scummvm.org/index.php?title=Quest_for_Glory'
     wikipedia_page: 'Quest_for_Glory:_So_You_Want_to_Be_a_Hero'
@@ -4735,7 +4735,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '169'
-    steam_id: ''
+    steam_id: '502750'
     gog_id: quest_for_glory
     datafiles: 'https://wiki.scummvm.org/index.php?title=Quest_for_Glory_II'
     wikipedia_page: 'Quest_for_Glory_II:_Trial_by_Fire'
@@ -4746,7 +4746,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '173'
-    steam_id: ''
+    steam_id: '502750'
     gog_id: quest_for_glory
     datafiles: 'https://wiki.scummvm.org/index.php?title=Quest_for_Glory_III'
     wikipedia_page: 'Quest_for_Glory_III:_Wages_of_War'
@@ -4757,7 +4757,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '119'
-    steam_id: ''
+    steam_id: '502750'
     gog_id: quest_for_glory
     datafiles: 'https://wiki.scummvm.org/index.php?title=Quest_for_Glory_IV'
     wikipedia_page: 'Quest_for_Glory:_Shadows_of_Darkness'
@@ -4834,7 +4834,7 @@
     engine_id: wintermute
     company_id: unknown
     moby_id: '-1'
-    steam_id: ''
+    steam_id: '780740'
     gog_id: ''
     datafiles: ''
     wikipedia_page: ''
@@ -4887,9 +4887,9 @@
     id: reversion1
     name: 'Reversion: The Escape'
     engine_id: wintermute
-    company_id: unknown
+    company_id: 3f
     moby_id: '-1'
-    steam_id: ''
+    steam_id: '270570'
     gog_id: ''
     datafiles: ''
     wikipedia_page: ''
@@ -4898,9 +4898,9 @@
     id: reversion2
     name: 'Reversion: The Meeting'
     engine_id: wintermute
-    company_id: unknown
+    company_id: 3f
     moby_id: '-1'
-    steam_id: ''
+    steam_id: '281060'
     gog_id: ''
     datafiles: ''
     wikipedia_page: ''
@@ -4909,9 +4909,9 @@
     id: reversion3
     name: 'Reversion: The Return'
     engine_id: wintermute
-    company_id: unknown
+    company_id: 3f
     moby_id: '-1'
-    steam_id: ''
+    steam_id: '281080'
     gog_id: ''
     datafiles: ''
     wikipedia_page: ''
@@ -4966,8 +4966,8 @@
     engine_id: mohawk
     company_id: cyan
     moby_id: '1262'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '63610'
+    gog_id: riven_the_sequel_to_myst
     datafiles: 'https://wiki.scummvm.org/index.php?title=Riven:_The_Sequel_to_Myst'
     wikipedia_page: Riven
     series_id: myst
@@ -5252,7 +5252,7 @@
     engine_id: macventure
     company_id: icom
     moby_id: '1070'
-    steam_id: ''
+    steam_id: '343800'
     gog_id: ''
     datafiles: ''
     wikipedia_page: Shadowgate
@@ -5307,8 +5307,8 @@
     engine_id: agos
     company_id: adventuresoft
     moby_id: '495'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '836840'
+    gog_id: simon_the_sorcerer
     datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer'
     wikipedia_page: Simon_the_Sorcerer
     series_id: simon
@@ -5318,8 +5318,8 @@
     engine_id: agos
     company_id: adventuresoft
     moby_id: '1851'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '835750'
+    gog_id: simon_the_sorcerer_2
     datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer_II:_The_Lion,_the_Wizard_and_the_Wardrobe'
     wikipedia_page: 'Simon_the_Sorcerer_II:_The_Lion,_the_Wizard_and_the_Wardrobe'
     series_id: simon
@@ -5413,12 +5413,12 @@
     series_id: juniorsports
 -
     id: socks
-    name: 'Pajama Sam''s SockWorks'
+    name: 'Pajama Sam''s Sock Works'
     engine_id: scumm
     company_id: he
     moby_id: '20989'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '292840'
+    gog_id: pajama_sam_vol_2
     datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam%27s_Sock_Works'
     wikipedia_page: ''
     series_id: pajama
@@ -5549,8 +5549,8 @@
     engine_id: agi
     company_id: sierra
     moby_id: '114'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '10110'
+    gog_id: space_quest_1_2_3
     datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest'
     wikipedia_page: Space_Quest_I
     series_id: sq
@@ -5560,7 +5560,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '187'
-    steam_id: ''
+    steam_id: '10110'
     gog_id: space_quest_1_2_3
     datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest'
     wikipedia_page: Space_Quest_I
@@ -5571,7 +5571,7 @@
     engine_id: agi
     company_id: sierra
     moby_id: '128'
-    steam_id: ''
+    steam_id: '10110'
     gog_id: space_quest_1_2_3
     datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest_II'
     wikipedia_page: Space_Quest_II
@@ -5582,7 +5582,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '142'
-    steam_id: ''
+    steam_id: '10110'
     gog_id: space_quest_1_2_3
     datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest_III'
     wikipedia_page: Space_Quest_III
@@ -5593,7 +5593,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '143'
-    steam_id: ''
+    steam_id: '10110'
     gog_id: space_quest_4_5_6
     datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest_IV'
     wikipedia_page: Space_Quest_IV
@@ -5615,7 +5615,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '144'
-    steam_id: ''
+    steam_id: '10110'
     gog_id: space_quest_4_5_6
     datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest_V'
     wikipedia_page: Space_Quest_V
@@ -5626,7 +5626,7 @@
     engine_id: sci
     company_id: sierra
     moby_id: '145'
-    steam_id: ''
+    steam_id: '10110'
     gog_id: space_quest_4_5_6
     datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest_6'
     wikipedia_page: Space_Quest_6
@@ -5681,8 +5681,8 @@
     engine_id: startrek
     company_id: interplay
     moby_id: '952'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '359650'
+    gog_id: star_trek_25th_anniversary
     datafiles: ''
     wikipedia_page: 'Star_Trek:_25th_Anniversary_(computer_game)'
     series_id: startrek
@@ -5703,8 +5703,8 @@
     engine_id: startrek
     company_id: interplay
     moby_id: '3492'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '364800'
+    gog_id: star_trek_judgment_rites
     datafiles: ''
     wikipedia_page: 'Star_Trek:_Judgment_Rites'
     series_id: startrek
@@ -5725,8 +5725,8 @@
     engine_id: sword1
     company_id: revolution
     moby_id: '499'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '580430'
+    gog_id: broken_sword_directors_cut
     datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_1'
     wikipedia_page: 'Broken_Sword:_The_Shadow_of_the_Templars'
     series_id: sword
@@ -5791,8 +5791,8 @@
     engine_id: sword2
     company_id: revolution
     moby_id: '1133'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '580440'
+    gog_id: broken_sword_2__the_smoking_mirror
     datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_2'
     wikipedia_page: 'Broken_Sword_II:_The_Smoking_Mirror'
     series_id: sword
@@ -5868,8 +5868,8 @@
     engine_id: groovie
     company_id: trilobyte
     moby_id: '283'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '1048430'
+    gog_id: the_7th_guest_25th_anniversary_edition
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_7th_Guest'
     wikipedia_page: The_7th_Guest
     series_id: t7g
@@ -6606,7 +6606,7 @@
     company_id: lucasarts
     moby_id: '305'
     steam_id: ''
-    gog_id: ''
+    gog_id: zak_mckracken_and_the_alien_mindbenders
     datafiles: 'https://wiki.scummvm.org/index.php?title=Zak_McKracken_and_the_Alien_Mindbenders'
     wikipedia_page: Zak_McKracken_and_the_Alien_Mindbenders
     series_id: ''
