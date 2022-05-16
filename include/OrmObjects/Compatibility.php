@@ -78,6 +78,11 @@ class Compatibility extends BaseCompatibility
         if ($steamId) {
             $availableSites[] = "- [Steam](" . STEAM_URL_PREFIX . $steamId. ")";
         }
+        // Additional stores could include the ScummVM Freeware Games page
+        $additionalStores = $this->getGame()->getAdditionalStores();
+        if ($additionalStores) {
+            $availableSites[] = $additionalStores;
+        }
         if ($availableSites) {
             $notes .= "\n\n### Available At\n";
             $notes .= join("\n", $availableSites);
