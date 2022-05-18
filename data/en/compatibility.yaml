@@ -4178,3 +4178,17 @@
     since_version: DEV
     stable_platforms: 'ios,mac,win'
     unstable_platforms: ''
+-
+    id: puttzoo
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'ios,mac,win'
+    unstable_platforms: ''
+-
+    id: mothergoose256
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
