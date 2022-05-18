@@ -883,7 +883,7 @@
     moby_id: '68293'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [MDNA Games](http://www.mdna-games.com/Bosch/buy.htm)'
     datafiles: ''
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
@@ -895,7 +895,7 @@
     moby_id: '81267'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [MDNA Games](http://www.mdna-games.com/Shades/buy.htm)'
     datafiles: ''
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
@@ -907,7 +907,7 @@
     moby_id: '115321'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [MDNA Games](http://www.mdna-games.com/Profound/buy.htm)'
     datafiles: ''
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
@@ -919,7 +919,7 @@
     moby_id: '114389'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [MDNA Games](http://www.mdna-games.com/Birdwatcher/buy.htm)'
     datafiles: ''
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
@@ -931,10 +931,34 @@
     moby_id: '122064'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [MDNA Games](http://www.mdna-games.com/April/buy.htm)'
     datafiles: ''
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
+-
+    id: carolreed15
+    name: 'Carol Reed 15 - Geospots'
+    engine_id: wintermute
+    company_id: unknown
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [MDNA Games](http://www.mdna-games.com/Geospots/buy.htm)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: carolreed16
+    name: 'Carol Reed 16 - Quarantine Diary'
+    engine_id: wintermute
+    company_id: unknown
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [MDNA Games](http://www.mdna-games.com/Quarantine/buy.htm)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
 -
     id: carolreed4
     name: 'Carol Reed 4 - East Side Story'
@@ -943,7 +967,7 @@
     moby_id: '31651'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [MDNA Games](http://www.mdna-games.com/East/buy.htm)'
     datafiles: ''
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
@@ -955,7 +979,7 @@
     moby_id: '37764'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [MDNA Games](http://www.mdna-games.com/Colour/buy.htm)'
     datafiles: ''
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
@@ -967,7 +991,7 @@
     moby_id: '48356'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [MDNA Games](http://www.mdna-games.com/Black_Circle/buy.htm)'
     datafiles: ''
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
@@ -979,7 +1003,7 @@
     moby_id: '49831'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [MDNA Games](http://www.mdna-games.com/Blue_Madonna/buy.htm)'
     datafiles: ''
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
@@ -991,7 +1015,7 @@
     moby_id: '68289'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [MDNA Games](http://www.mdna-games.com/Amber/buy.htm)'
     datafiles: ''
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
@@ -1003,7 +1027,7 @@
     moby_id: '68291'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [MDNA Games](http://www.mdna-games.com/Cold/buy.htm)'
     datafiles: ''
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
@@ -1159,7 +1183,7 @@
     moby_id: '2154'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [Mac Game Store](https://www.macgamestore.com/product/1775/Clandestiny/)'
     datafiles: ''
     wikipedia_page: Clandestiny
     series_id: ''
@@ -1279,7 +1303,7 @@
     moby_id: '56405'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [Viperante](https://coldwinterwaiting.com/purchase_001.htm)'
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -1303,7 +1327,7 @@
     moby_id: '86'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website](http://graphicsmagician.com/polarware/comprehend.htm)'
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Crimson_Crown:_Further_Adventures_in_Transylvania'
     wikipedia_page: 'Transylvania_(series)#The_Crimson_Crown_-_Further_Adventures_in_Transylvania'
     series_id: transylvania
@@ -1495,7 +1519,7 @@
     moby_id: '4427'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website[(http://www.adventuresoft.com/acatalog/Simon_the_Sorcerer_games.html)'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer_Puzzle_Pack'
     wikipedia_page: 'Simon_the_Sorcerer_(series)#Simon_the_Sorcerer''s_Puzzle_Pack'
     series_id: simon
@@ -1591,7 +1615,7 @@
     moby_id: '44689'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website](http://www.ucw.cz/draci-historie/index-en.html#download)'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Dragon_History'
     wikipedia_page: Dračí_Historie
     series_id: ''
@@ -1807,7 +1831,7 @@
     moby_id: '4050'
     steam_id: ''
     gog_id: elvira_mistress_of_the_dark
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website](http://www.adventuresoft.com/acatalog/Other_Adventure_Soft_games.html)'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Elvira:_Mistress_of_the_Dark'
     wikipedia_page: 'Elvira:_Mistress_of_the_Dark_(video_game)'
     series_id: elvira
@@ -1819,7 +1843,7 @@
     moby_id: '1779'
     steam_id: ''
     gog_id: elvira_ii_the_jaws_of_cerberus
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website](http://www.adventuresoft.com/acatalog/Other_Adventure_Soft_games.html)'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Elvira_2:_The_Jaws_of_Cerberus'
     wikipedia_page: 'Elvira_II:_The_Jaws_of_Cerberus'
     series_id: elvira
@@ -1987,7 +2011,7 @@
     moby_id: '2198'
     steam_id: '1646930'
     gog_id: the_feeble_files
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website](http://www.adventuresoft.com/acatalog/Other_Adventure_Soft_games.html)'
     datafiles: 'https://wiki.scummvm.org/index.php?title=The_Feeble_Files'
     wikipedia_page: The_Feeble_Files
     series_id: ''
@@ -2407,7 +2431,7 @@
     moby_id: '440'
     steam_id: '308000'
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [Sunlight Games](http://shop.sunlight-games.com/product/2)'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Gold_Rush'
     wikipedia_page: Gold_Rush!
     series_id: ''
@@ -2455,7 +2479,7 @@
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
-    additional_stores: '- [ScummVM Freeware Games](https://www.scummvm.org/games/#games-griffon)'
+    additional_stores: '- [ScummVM Freeware Games](https://www.scummvm.org/games/#games-griffon) - [Developer''s Website](http://syn9.thehideoutgames.com/index_backup.php?table=griffonlegend)'
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -2527,7 +2551,7 @@
     moby_id: '8754'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [ixsoft](https://www.ixsoft.de/cgi-bin/web_store.cgi?ref=Products/de/LGHD0100DV.html)'
     datafiles: ''
     wikipedia_page: Hyperspace_Delivery_Boy!
     series_id: ''
@@ -2767,7 +2791,7 @@
     moby_id: '1023'
     steam_id: ''
     gog_id: the_hugo_trilogy
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website](http://www.dgray.com/hwpage.htm)'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Hugo%27s_House_of_Horrors'
     wikipedia_page: Hugo%27s_House_of_Horrors
     series_id: hugo
@@ -2779,7 +2803,7 @@
     moby_id: '1158'
     steam_id: ''
     gog_id: the_hugo_trilogy
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website](http://www.dgray.com/hwpage.htm)'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Hugo_II:_Whodunit%3F'
     wikipedia_page: 'Hugo_II,_Whodunit%3F'
     series_id: hugo
@@ -2791,7 +2815,7 @@
     moby_id: '4962'
     steam_id: ''
     gog_id: the_hugo_trilogy
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website](http://www.dgray.com/hwpage.htm)'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Hugo_III:_Jungle_of_Doom'
     wikipedia_page: 'Hugo_III,_Jungle_of_Doom!'
     series_id: hugo
@@ -3175,7 +3199,7 @@
     moby_id: '4427'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website[(http://www.adventuresoft.com/acatalog/Simon_the_Sorcerer_games.html)'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer_Puzzle_Pack'
     wikipedia_page: 'Simon_the_Sorcerer_(series)#Simon_the_Sorcerer''s_Puzzle_Pack'
     series_id: simon
@@ -4219,7 +4243,7 @@
     moby_id: '4582'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website[(https://familie-dingel.de/simplicity/)'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Mission_Supernova'
     wikipedia_page: ''
     series_id: supernova
@@ -4231,7 +4255,7 @@
     moby_id: '4582'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website[(https://familie-dingel.de/simplicity/)'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Mission_Supernova'
     wikipedia_page: ''
     series_id: supernova
@@ -4459,7 +4483,7 @@
     moby_id: '148433'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website](http://graphicsmagician.com/polarware/comprehend.htm)'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Oo-Topos'
     wikipedia_page: Oo-Topos
     series_id: ''
@@ -5119,7 +5143,7 @@
     moby_id: '4427'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website[(http://www.adventuresoft.com/acatalog/Simon_the_Sorcerer_games.html)'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer_Puzzle_Pack'
     wikipedia_page: 'Simon_the_Sorcerer_(series)#Simon_the_Sorcerer''s_Puzzle_Pack'
     series_id: simon
@@ -5719,7 +5743,7 @@
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [Big Fish Games](https://www.bigfishgames.com/games/7157/shaban/)'
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -5791,7 +5815,7 @@
     moby_id: '495'
     steam_id: '836840'
     gog_id: simon_the_sorcerer
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website[(http://www.adventuresoft.com/acatalog/Simon_the_Sorcerer_games.html)'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer'
     wikipedia_page: Simon_the_Sorcerer
     series_id: simon
@@ -5803,7 +5827,7 @@
     moby_id: '1851'
     steam_id: '835750'
     gog_id: simon_the_sorcerer_2
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website[(http://www.adventuresoft.com/acatalog/Simon_the_Sorcerer_games.html)'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer_II:_The_Lion,_the_Wizard_and_the_Wardrobe'
     wikipedia_page: 'Simon_the_Sorcerer_II:_The_Lion,_the_Wizard_and_the_Wardrobe'
     series_id: simon
@@ -6163,7 +6187,7 @@
     moby_id: ''
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website](http://www.boxofmystery.com/games/incinerations/)'
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -6175,7 +6199,7 @@
     moby_id: ''
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website](https://www.sqvsb.com/download)'
     datafiles: ''
     wikipedia_page: 'Space_Quest:_Vohaul_Strikes_Back'
     series_id: ''
@@ -6235,7 +6259,7 @@
     moby_id: '4427'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website[(http://www.adventuresoft.com/acatalog/Simon_the_Sorcerer_games.html)'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer_Puzzle_Pack'
     wikipedia_page: 'Simon_the_Sorcerer_(series)#Simon_the_Sorcerer''s_Puzzle_Pack'
     series_id: simon
@@ -6415,7 +6439,7 @@
     moby_id: '21943'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website](http://graphicsmagician.com/polarware/comprehend.htm)'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Talisman:_Challenging_the_Sands_of_Time'
     wikipedia_page: ''
     series_id: ''
@@ -6787,7 +6811,7 @@
     moby_id: '91'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website](http://graphicsmagician.com/polarware/comprehend.htm)'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Transylvania'
     wikipedia_page: Transylvania_(video_game)
     series_id: transylvania
@@ -6841,7 +6865,7 @@
     series_id: ''
 -
     id: ultima1
-    name: 'Ultima I - The First Age of Darkness'
+    name: 'Ultima I: The First Age of Darkness'
     engine_id: ultima
     company_id: origin
     moby_id: '8812'
@@ -7063,7 +7087,7 @@
     moby_id: '1269'
     steam_id: ''
     gog_id: waxworks
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website](http://www.adventuresoft.com/acatalog/Other_Adventure_Soft_games.html)'
     datafiles: 'https://wiki.scummvm.org/index.php?title=Waxworks'
     wikipedia_page: Waxworks_(1992_video_game)
     series_id: ''

@@ -4157,3 +4157,24 @@
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: ''
+-
+    id: freddi
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'ios,mac,win'
+    unstable_platforms: ''
+-
+    id: freddi2
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'ios,mac,win'
+    unstable_platforms: ''
+-
+    id: spyfox
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'ios,mac,win'
+    unstable_platforms: ''
