@@ -6936,6 +6936,18 @@
     wikipedia_page: Uncle_Henry%27s_Playhouse
     series_id: t7g
 -
+    id: uninvited
+    name: Uninvited
+    engine_id: macventure
+    company_id: icom
+    moby_id: '1071'
+    steam_id: '343810'
+    gog_id: ''
+    additional_stores: ''
+    datafiles: 'https://wiki.scummvm.org/index.php?title=Uninvited'
+    wikipedia_page: Uninvited_(video_game)
+    series_id: ''
+-
     id: urban
     name: 'Urban Runner'
     engine_id: gob
