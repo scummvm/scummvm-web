@@ -85,6 +85,7 @@ class Compatibility extends BaseCompatibility
         }
         if ($availableSites) {
             $notes .= "\n\n### Available At\n";
+            $notes .= "The ScummVM project does not recommend any individual supplier of games. This list is for reference purposes only.\n";
             $notes .= join("\n", $availableSites);
         }
 
