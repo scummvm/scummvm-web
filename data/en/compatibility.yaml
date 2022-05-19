@@ -4109,13 +4109,6 @@
     stable_platforms: 'win,mac'
     unstable_platforms: ''
 -
-    id: mothergoose256
-    support: good
-    notes: ''
-    since_version: DEV
-    stable_platforms: 'win,mac'
-    unstable_platforms: ''
--
     id: ddp
     support: good
     notes: ''
@@ -4198,4 +4191,46 @@
     notes: ''
     since_version: DEV
     stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: chest
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: gk1
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'dos,win,mac'
+    unstable_platforms: ''
+-
+    id: hoyle5solitaire
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: lsl6hires
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'dos,win'
+    unstable_platforms: mac
+-
+    id: mothergoosehires
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: mac
+-
+    id: qfg4
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'dos,win'
     unstable_platforms: ''
