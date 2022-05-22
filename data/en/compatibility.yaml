@@ -2301,7 +2301,7 @@
     notes: '- The 2.0 version is not supported yet'
     since_version: 1.3.0
     stable_platforms: 'mac,win'
-    unstable_platforms: 'mac,win'
+    unstable_platforms: ''
 -
     id: beardark
     support: good
@@ -2322,7 +2322,7 @@
     notes: '- The 2.0 version is not supported yet'
     since_version: 1.3.0
     stable_platforms: 'mac,win'
-    unstable_platforms: 'mac,win'
+    unstable_platforms: ''
 -
     id: greeneggs
     support: good
@@ -4083,7 +4083,7 @@
 -
     id: hadesch
     support: good
-    notes: 'Minotaur, Troy and Medusa minigames are skipped'
+    notes: '- Minotaur, Troy and Medusa minigames are skipped'
     since_version: DEV
     stable_platforms: 'win,mac'
     unstable_platforms: ''
@@ -4132,7 +4132,7 @@
 -
     id: tlc
     support: good
-    notes: 'CD-ROM editions only. DVD, Steam, GOG not supported.'
+    notes: '- CD-ROM editions only. DVD, Steam, GOG not supported.'
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
@@ -4233,4 +4233,11 @@
     notes: ''
     since_version: DEV
     stable_platforms: 'dos,win'
+    unstable_platforms: ''
+-
+    id: balloon
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
     unstable_platforms: ''
