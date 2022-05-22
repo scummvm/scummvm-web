@@ -16,7 +16,7 @@ We are very proud to welcome 4 students this year who will be working on various
 
 * Emanuele Grisenti (aka [grisenti](https://blogs.scummvm.org/grisenti/)) will be working on a new engine, _HPL1_. The original sources for this engine got recently released by the original developer _Frictional Games_ under GPLv3. The purpose of this project is to achieve a full port of this engine to ScummVM, with the goal of supporting the 2007 survival game _Penumbra: Overture_.
 
-* Avijeet Maurya (aka [StableSteady](https://blogs.scummvm.org/stablesteady/)) will pick up several incomplete engines: MacVenture, Avalanche, Glk-Scott, Pink and WAGE. Some of these engines are very close to completion, but not quite there yet. The main objective of Avijeets task is to identify all missing features and fix existing bugs. The goal for his project is to bring the above engines to a stable state.
+* Avijeet Maurya (aka [StableSteady](https://blogs.scummvm.org/stablesteady/)) will pick up several incomplete engines: MacVenture, Avalanche, Glk-Scott, Pink and WAGE. Some of these engines are very close to completion, but not quite there yet. The main objective of Avijeet's task is to identify all missing features and fix existing bugs. The goal for his project is to bring the above engines to a stable state.
 
 The team is very excited about the upcoming weeks – and we hope you are as well.
 
