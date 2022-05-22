@@ -1,0 +1,20 @@
+---
+title: "Google Summer of Code 2022 – please welcome our students!"
+author: sev, lotharsm
+date: 1653191838
+---
+
+![GSoC Logo](/data/news/GSoC2016Logo.png)
+
+A few days ago, Google announced the list of students accepted for this year‘s [Google Summer of Code](https://summerofcode.withgoogle.com/).
+
+We are very proud to welcome 4 students this year who will be working on various parts of the project during the upcoming months.
+
+* Pragyansh Chaturvedi (aka [Raikou](https://blogs.scummvm.org/raikou/)) will work on improving our DIRECTOR engine. His effort will help us to allow support for many 90s-era adventure games made with the Macromedia Director authoring tools. By implementing more internal functions used by DIRECTOR, Pragyansh‘s main objective is to extend support for _Meet Mediaband_ and _The Journeyman Project_ (Win and Mac), making them fully playable without any glitches.
+* Michael Hayman (aka [Quote58](https://blogs.scummvm.org/quote58/)) is about to implement support for _The Immortal_. The game (released in 1990) can be described as a mix of genres involving RPG elements with action and puzzles. Many changes across different game variants (written in pure assembly code!) will make this an interesting challenge. This project is a continuation of a GSoC task initially started by a former student back in 2018.
+* Emanuele Grisenti (aka [grisenti](https://blogs.scummvm.org/grisenti/)) will be working on a new engine, _HPL1_. The original sources for this engine got recently released by the original developer _Frictional Games_ under GPLv3. The purpose of this project is to achieve a full port of this engine to ScummVM, with the goal of supporting the 2007 survival game _Penumbra: Overture_.
+* Avijeet Maurya (aka [StableSteady](https://blogs.scummvm.org/stablesteady/)) will pick up several incomplete engines: MacVenture, Avalanche, Glk-Scott, Pink and WAGE. Some of these engines are very close to completion, but not quite there yet. The main objective of Avijeet‘s task is to identify all missing features and fix existing bugs. The goal for his project is to bring the above engines to a stable state.
+
+The team is very excited about the upcoming weeks – and we hope you are as well.
+
+Please give a warm welcome to our new students! Let‘s make GSoC 2022 a huge success – together!
