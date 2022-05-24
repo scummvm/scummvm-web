@@ -22,7 +22,3 @@
 		background-color: adjust-hue(hsl(0, 100%, (66-$i) + 0%), $i * 4.5 * 5);
 	}
 }
-
-.updated {
-	background-color: cornflowerblue;
-}
