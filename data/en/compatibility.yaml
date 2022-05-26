@@ -4248,3 +4248,10 @@
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: ''
+-
+    id: freddi3
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'ios,mac,win'
+    unstable_platforms: ''
