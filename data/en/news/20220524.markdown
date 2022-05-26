@@ -1,0 +1,9 @@
+---
+title: "We're finally ready to ESCape from F5"
+author: DreamMaster
+date: 1653480000
+---
+
+After an extended period of time, we're finally ready to announce for testing the game [Chewy: ESC From F5](https://www.mobygames.com/game/chewy-esc-from-f5). This quirky game features the protagonist Chewy as he tries to outwit the evil Borks.. escaping from their high security zone, F5, will just be the start of his adventure.
+
+So if any of you have the game and are willing to test it out, we'll welcome any feedback. You will need a [daily development build](https://buildbot.scummvm.org/#/snapshots). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/). Please note that the ScummVM version does have one obvious limitation, though.. the music used by the game is in a custom format we've been unable to properly support yet. So only sound effects and speech currently work.
