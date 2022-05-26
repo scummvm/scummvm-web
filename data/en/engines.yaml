@@ -63,7 +63,7 @@
     id: chewy
     name: 'Chewy: Esc from F5'
     alt_name: ''
-    enabled: true
+    enabled: false
 -
     id: cine
     name: Cinématique
