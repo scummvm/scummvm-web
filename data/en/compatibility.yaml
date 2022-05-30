@@ -4255,3 +4255,24 @@
     since_version: DEV
     stable_platforms: 'ios,mac,win'
     unstable_platforms: ''
+-
+    id: thinkerk
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: pajama2
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'ios,mac,win'
+    unstable_platforms: ''
+-
+    id: kq2
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'amiga,apple2gs,coco3,dos,mac'
+    unstable_platforms: ''
