@@ -50,7 +50,7 @@
     <tbody>
         <tr class="color2">
             {foreach from=$support_level_header key=level item=desc}
-            <td class={$support_level_class.$level} align='center'>{$desc}</td>
+            <td class={$support_level_class.$level} align='center' title="{$support_level_description.$level}">{$desc}</td>
             {/foreach}
         </tr>
     </tbody>
@@ -71,10 +71,11 @@
         {assign var="x" value=$game->getSupport()}
         {assign var="pct_class" value=$support_level_class.$x}
         {assign var="support_level" value=$support_level_header.$x}
+        {assign var="support_level_desc" value=$support_level_description.$x}
         <tr class="color{cycle values='2,0'}">
             <td class="gameFullName"><a href="{'/compatibility/'|lang}{$version}/{$game->getGame()->getId()}/">{$game->getGame()->getName()}</a></td>
             <td class="gameShortName">{$game->getGame()->getId()}</td>
-            <td class="gameSupportLevel {$pct_class}">{$support_level}</td>
+            <td class="gameSupportLevel {$pct_class}" title="{$support_level_desc}">{$support_level}</td>
         </tr>
         {/foreach}
     </tbody>
