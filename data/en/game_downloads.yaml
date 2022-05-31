@@ -225,6 +225,13 @@
     notes: ''
 -
     category: games
+    game_id: hires1
+    category_icon: mysthous
+    url: 'Mystery House/mysthous-fr.zip'
+    name: 'public domain version (French) (Apple II)'
+    notes: ''
+-
+    category: games
     game_id: nippon
     category_icon: nippon
     url: 'Nippon Safes/nippon-1.0.zip'
