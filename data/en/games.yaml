@@ -4549,7 +4549,7 @@
     series_id: pajama
 -
     id: pajama2
-    name: 'Pajama Sam 2: Thunder and Lightning aren''t so Frightening'
+    name: 'Pajama Sam 2: Thunder and Lightning Aren''t so Frightening'
     engine_id: scumm
     company_id: he
     moby_id: '21113'
@@ -5967,9 +5967,9 @@
     id: sotv1
     name: 'Shadows on the Vatican - Act 1: Greed'
     engine_id: wintermute
-    company_id: unknown
+    company_id: daringtouch
     moby_id: '55855'
-    steam_id: ''
+    steam_id: '286360'
     gog_id: ''
     additional_stores: ''
     datafiles: ''
@@ -5979,9 +5979,9 @@
     id: sotv2
     name: 'Shadows on the Vatican - Act II: Wrath'
     engine_id: wintermute
-    company_id: unknown
+    company_id: daringtouch
     moby_id: '83648'
-    steam_id: ''
+    steam_id: '378630'
     gog_id: ''
     additional_stores: ''
     datafiles: ''

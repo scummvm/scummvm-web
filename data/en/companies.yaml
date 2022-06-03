@@ -224,6 +224,10 @@
     name: 'Daedalic Entertainment'
     alt_name: ''
 -
+    id: daringtouch
+    name: 'Daring Touch'
+    alt_name: ''
+-
     id: darkling
     name: 'Darkling Room'
     alt_name: ''
