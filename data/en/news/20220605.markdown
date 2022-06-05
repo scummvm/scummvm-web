@@ -26,7 +26,7 @@ And since ScummVM is about playing games in general, we’ve seen quite a bunch 
 
 The AGOS, SCI and SCUMM engine received some really extensive modifications which make all games using those engines very good testing targets as well.
 
-All testing must be done with [stable builds](https://buildbot.scummvm.org/#/snapshots), not development ones. Please report any bugs or oddities on our [issue tracker](https://bugs.scummvm.org/).
+All testing must be done with [stable builds](https://buildbot.scummvm.org/#/dailybuilds), not development ones. Please report any bugs or oddities on our [issue tracker](https://bugs.scummvm.org/).
 
 A detailed list of all exciting new features and fixes is available in our [NEWS file](https://github.com/scummvm/scummvm/blob/branch-2-6/NEWS.md).
 
