@@ -4090,7 +4090,7 @@
 -
     id: sinistersix
     support: good
-    notes: '- English, Spanish and German releases supported - Minor missing features (back to menu)'
+    notes: '- English, Spanish, Italian and German releases supported - Minor missing features (back to menu)'
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: ''
