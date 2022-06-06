@@ -147,5 +147,8 @@
     "20220524": {
         "title": "Finalmente possiamo (E)scappare da F5",
         "content": "Dopo un esteso periodo di sviluppo, siamo pronti ad iniziare la fase di test per il gioco [Chewy: ESC From F5](https://www.mobygames.com/game/chewy-esc-from-f5). Questo peculiare gioco racconta la storia di Chewy, il protagonista, e di come sfrutta l'astuzia per sopraffare i malvagi Borks. La fuga dall'area di massima sicurezza F5 sarà solamente l'inizio della sua avventura.\n\nSe possiedi il gioco e sei disposto a testarlo, siamo interessati al tuo feedback. Avrai bisogno di una [build della versione di sviluppo](https://buildbot.scummvm.org/#/snapshots). Come sempre, ti incoraggiamo a segnalare eventuali bug al nostro [bug tracker](https://bugs.scummvm.org/). Per favore, tieni conto che l'attuale versione di ScummVM ha una limitazione evidente... la musica del gioco utilizza un formato proprietario che non siamo ancora stati in grado di implementare completamente. Ad oggi, funzionano solo gli effetti sonori ed il parlato."
+    },
+    "20220605": {
+        "title": "Aiutaci a testare l'imminente release 2.6.0 di ScummVM!"
     }
 }
