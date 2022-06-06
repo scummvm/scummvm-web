@@ -1346,8 +1346,18 @@
     category_icon: windows
     user_agent: ''
     version: Daily
-    url: scummvm-snapshot-win32.exe
+    url: scummvm-stable-snapshot-win32.exe
     name: 'ScummVM 2.6.0pre Development Build - Windows Installer'
+    notes: ''
+-
+    enabled: true
+    category: scummvm
+    subcategory: daily_downloads
+    category_icon: windows
+    user_agent: ''
+    version: Daily
+    url: scummvm-snapshot-win32.exe
+    name: 'ScummVM 2.7.0git Development Build - Windows Installer'
     notes: ''
 -
     enabled: true
