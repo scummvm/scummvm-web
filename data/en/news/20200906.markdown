@@ -6,6 +6,6 @@ date: 1599417773
 
 ![Discord rich presence](/data/news/20200906.png)
 
-The next version of ScummVM will support [Discord](https://discord.gg/5D8yTtF) rich presence, so you can show off to all your friends that you're playing ScummVM <i>and</i> the exact game you're playing. But to make the most of this feature, we need game icons.
+The next version of ScummVM will support [Discord](https://discord.gg/4cDsMNtcpG) rich presence, so you can show off to all your friends that you're playing ScummVM <i>and</i> the exact game you're playing. But to make the most of this feature, we need game icons.
 
 If you ever wanted to contribute to ScummVM but couldn't find anywhere to apply your art/design skills, now’s your chance! Check out the new [Game Icons repository](https://github.com/scummvm/scummvm-icons/) for more details on how you can help.
