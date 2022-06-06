@@ -1347,7 +1347,7 @@
     user_agent: ''
     version: Daily
     url: scummvm-snapshot-win32.exe
-    name: 'ScummVM Daily Build - Windows Installer'
+    name: 'ScummVM 2.6.0pre Development Build - Windows Installer'
     notes: ''
 -
     enabled: true
