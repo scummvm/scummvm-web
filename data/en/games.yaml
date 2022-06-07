@@ -20,7 +20,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Five_Lethal_Demons'
+    datafiles: Five_Lethal_Demons
     wikipedia_page: ''
     series_id: ''
 -
@@ -32,7 +32,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Five_Magical_Amulets'
+    datafiles: Five_Magical_Amulets
     wikipedia_page: ''
     series_id: ''
 -
@@ -56,7 +56,7 @@
     steam_id: '294720'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_%26_Fatty_Bear%27s_Activity_Pack'
+    datafiles: Putt-Putt_%26_Fatty_Bear%27s_Activity_Pack
     wikipedia_page: ''
     series_id: fbear
 -
@@ -200,7 +200,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=AGS/Games'
+    datafiles: AGS/Games
     wikipedia_page: Adventure_Game_Studio
     series_id: ''
 -
@@ -236,7 +236,7 @@
     steam_id: '363050'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Let%27s_Explore_the_Airport_with_Buzzy'
+    datafiles: Let%27s_Explore_the_Airport_with_Buzzy
     wikipedia_page: 'Junior_Field_Trips#Let''s_Explore_the_Airport'
     series_id: juniorfield
 -
@@ -308,7 +308,7 @@
     steam_id: ''
     gog_id: amazon_guardians_of_eden
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Amazon:_Guardians_of_Eden'
+    datafiles: 'Amazon:_Guardians_of_Eden'
     wikipedia_page: 'Amazon:_Guardians_of_Eden'
     series_id: ''
 -
@@ -428,7 +428,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Blue%27s_Art_Time_Activities'
+    datafiles: Blue%27s_Art_Time_Activities
     wikipedia_page: ''
     series_id: blue
 -
@@ -452,7 +452,7 @@
     steam_id: '6010'
     gog_id: indiana_jones_and_the_fate_of_atlantis
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Indiana_Jones_and_the_Fate_of_Atlantis'
+    datafiles: Indiana_Jones_and_the_Fate_of_Atlantis
     wikipedia_page: Indiana_Jones_and_the_Fate_of_Atlantis
     series_id: indy
 -
@@ -500,7 +500,7 @@
     steam_id: '284000'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_and_Pep%27s_Balloon-O-Rama'
+    datafiles: Putt-Putt_and_Pep%27s_Balloon-O-Rama
     wikipedia_page: Putt-Putt_and_Pep%27s_Balloon-o-Rama
     series_id: puttputt
 -
@@ -512,7 +512,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Playtoons_Limited_Edition_-_Bambou_le_Sauveur_de_la_Jungle'
+    datafiles: Playtoons_Limited_Edition_-_Bambou_le_Sauveur_de_la_Jungle
     wikipedia_page: ''
     series_id: playtoons
 -
@@ -524,7 +524,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Bargon_Attack'
+    datafiles: Bargon_Attack
     wikipedia_page: Bargon_Attack
     series_id: ''
 -
@@ -548,7 +548,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Backyard_Baseball'
+    datafiles: Backyard_Baseball
     wikipedia_page: Backyard_Baseball
     series_id: juniorsports
 -
@@ -560,7 +560,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Backyard_Baseball'
+    datafiles: Backyard_Baseball
     wikipedia_page: Backyard_Baseball
     series_id: juniorsports
 -
@@ -620,7 +620,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Beavis_and_Butt-Head_in_Virtual_Stupidity'
+    datafiles: Beavis_and_Butt-Head_in_Virtual_Stupidity
     wikipedia_page: Beavis_and_Butt-Head_in_Virtual_Stupidity
     series_id: beavisbutthead
 -
@@ -632,7 +632,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Black_Cauldron'
+    datafiles: The_Black_Cauldron
     wikipedia_page: The_Black_Cauldron_(video_game)
     series_id: disney
 -
@@ -668,7 +668,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Bickadoodle'
+    datafiles: Bickadoodle
     wikipedia_page: ''
     series_id: ''
 -
@@ -680,7 +680,7 @@
     steam_id: ''
     gog_id: blade_runner
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Blade_Runner'
+    datafiles: Blade_Runner
     wikipedia_page: Blade_Runner_(1997_video_game)
     series_id: ''
 -
@@ -692,7 +692,7 @@
     steam_id: ''
     gog_id: blade_runner
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Blade_Runner'
+    datafiles: Blade_Runner
     wikipedia_page: Blade_Runner_(1997_video_game)
     series_id: ''
 -
@@ -704,7 +704,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Blue_Force'
+    datafiles: Blue_Force
     wikipedia_page: Blue_Force
     series_id: ''
 -
@@ -716,7 +716,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Blue%27s_123_Time_Activities'
+    datafiles: Blue%27s_123_Time_Activities
     wikipedia_page: Blue%27s_123_Time_Activities
     series_id: blue
 -
@@ -728,7 +728,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Blue%27s_ABC_Time_Activities'
+    datafiles: Blue%27s_ABC_Time_Activities
     wikipedia_page: ''
     series_id: blue
 -
@@ -740,7 +740,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Blue%27s_Birthday_Adventure'
+    datafiles: Blue%27s_Birthday_Adventure
     wikipedia_page: Blue%27s_Birthday_Adventure
     series_id: blue
 -
@@ -752,7 +752,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Blue%27s_Treasure_Hunt'
+    datafiles: Blue%27s_Treasure_Hunt
     wikipedia_page: Blue%27s_Treasure_Hunt
     series_id: blue
 -
@@ -776,7 +776,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Big_Red_Adventure'
+    datafiles: The_Big_Red_Adventure
     wikipedia_page: The_Big_Red_Adventure
     series_id: ''
 -
@@ -788,7 +788,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Bear_Stormin’'
+    datafiles: Bear_Stormin’
     wikipedia_page: ''
     series_id: fbear
 -
@@ -800,7 +800,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Beyond_the_Threshold'
+    datafiles: Beyond_the_Threshold
     wikipedia_page: ''
     series_id: ''
 -
@@ -836,7 +836,7 @@
     steam_id: ''
     gog_id: conquests_of_camelot
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Conquests_of_Camelot'
+    datafiles: Conquests_of_Camelot
     wikipedia_page: 'Conquests_of_Camelot:_The_Search_for_the_Grail'
     series_id: conquests
 -
@@ -1040,7 +1040,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Castle_of_Dr._Brain'
+    datafiles: Castle_of_Dr._Brain
     wikipedia_page: Castle_of_Dr._Brain
     series_id: brain
 -
@@ -1088,7 +1088,7 @@
     steam_id: '292280'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=SPY_Fox_in_Cheese_Chase'
+    datafiles: SPY_Fox_in_Cheese_Chase
     wikipedia_page: ''
     series_id: spyfox
 -
@@ -1100,7 +1100,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Inside_the_Chest'
+    datafiles: Inside_the_Chest
     wikipedia_page: ''
     series_id: kq
 -
@@ -1124,7 +1124,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Chivalry_is_NOT_Dead'
+    datafiles: Chivalry_is_NOT_Dead
     wikipedia_page: ''
     series_id: ''
 -
@@ -1196,7 +1196,7 @@
     steam_id: ''
     gog_id: might_and_magic_6_limited_edition
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Might_and_Magic_IV'
+    datafiles: Might_and_Magic_IV
     wikipedia_page: 'Might_and_Magic_IV:_Clouds_of_Xeen'
     series_id: mm
 -
@@ -1280,7 +1280,7 @@
     steam_id: '730820'
     gog_id: the_curse_of_monkey_island
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Curse_of_Monkey_Island'
+    datafiles: The_Curse_of_Monkey_Island
     wikipedia_page: The_Curse_of_Monkey_Island
     series_id: mi
 -
@@ -1328,7 +1328,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: '- [Developer''s Website](http://graphicsmagician.com/polarware/comprehend.htm)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Crimson_Crown:_Further_Adventures_in_Transylvania'
+    datafiles: 'The_Crimson_Crown:_Further_Adventures_in_Transylvania'
     wikipedia_page: 'Transylvania_(series)#The_Crimson_Crown_-_Further_Adventures_in_Transylvania'
     series_id: transylvania
 -
@@ -1352,7 +1352,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Cruise_for_a_Corpse'
+    datafiles: Cruise_for_a_Corpse
     wikipedia_page: Cruise_for_a_Corpse
     series_id: ''
 -
@@ -1436,7 +1436,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Donald_Duck%27s_Playground'
+    datafiles: Donald_Duck%27s_Playground
     wikipedia_page: Donald_Duck%27s_Playground
     series_id: disney
 -
@@ -1448,7 +1448,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Dead_City'
+    datafiles: Dead_City
     wikipedia_page: ''
     series_id: ''
 -
@@ -1508,7 +1508,7 @@
     steam_id: '6040'
     gog_id: the_dig
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Dig'
+    datafiles: The_Dig
     wikipedia_page: The_Dig_(video_game)
     series_id: ''
 -
@@ -1520,7 +1520,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: '- [Developer''s Website](http://www.adventuresoft.com/acatalog/Simon_the_Sorcerer_games.html)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer_Puzzle_Pack'
+    datafiles: Simon_the_Sorcerer_Puzzle_Pack
     wikipedia_page: 'Simon_the_Sorcerer_(series)#Simon_the_Sorcerer''s_Puzzle_Pack'
     series_id: simon
 -
@@ -1580,7 +1580,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Dirty_Split'
+    datafiles: Dirty_Split
     wikipedia_page: ''
     series_id: ''
 -
@@ -1604,7 +1604,7 @@
     steam_id: '294710'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_and_Pep%27s_Dog_on_a_Stick'
+    datafiles: Putt-Putt_and_Pep%27s_Dog_on_a_Stick
     wikipedia_page: ''
     series_id: puttputt
 -
@@ -1616,7 +1616,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: '- [Developer''s Website](http://www.ucw.cz/draci-historie/index-en.html#download)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Dragon_History'
+    datafiles: Dragon_History
     wikipedia_page: Dračí_Historie
     series_id: ''
 -
@@ -1664,7 +1664,7 @@
     steam_id: '1038430'
     gog_id: ''
     additional_stores: '- [ScummVM Freeware Games](https://www.scummvm.org/games/#games-drascula)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Drascula:_The_Vampire_Strikes_Back'
+    datafiles: 'Drascula:_The_Vampire_Strikes_Back'
     wikipedia_page: 'Dráscula:_The_Vampire_Strikes_Back'
     series_id: ''
 -
@@ -1736,7 +1736,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: '- [ScummVM Freeware Games](https://www.scummvm.org/games/#games-dreamweb)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Dreamweb'
+    datafiles: Dreamweb
     wikipedia_page: DreamWeb
     series_id: ''
 -
@@ -1772,7 +1772,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Discworld'
+    datafiles: Discworld
     wikipedia_page: Discworld_(video_game)
     series_id: dw
 -
@@ -1784,7 +1784,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Discworld_II:_Missing_Presumed...!%3F'
+    datafiles: 'Discworld_II:_Missing_Presumed...!%3F'
     wikipedia_page: 'Discworld_II:_Missing_Presumed...!%3F'
     series_id: dw
 -
@@ -1808,7 +1808,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=EcoQuest'
+    datafiles: EcoQuest
     wikipedia_page: 'EcoQuest:_The_Search_for_Cetus'
     series_id: ecoquest
 -
@@ -1820,7 +1820,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=EcoQuest_II'
+    datafiles: EcoQuest_II
     wikipedia_page: Lost_Secret_of_the_Rainforest
     series_id: ecoquest
 -
@@ -1832,7 +1832,7 @@
     steam_id: ''
     gog_id: elvira_mistress_of_the_dark
     additional_stores: '- [Developer''s Website](http://www.adventuresoft.com/acatalog/Other_Adventure_Soft_games.html)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Elvira:_Mistress_of_the_Dark'
+    datafiles: 'Elvira:_Mistress_of_the_Dark'
     wikipedia_page: 'Elvira:_Mistress_of_the_Dark_(video_game)'
     series_id: elvira
 -
@@ -1844,7 +1844,7 @@
     steam_id: ''
     gog_id: elvira_ii_the_jaws_of_cerberus
     additional_stores: '- [Developer''s Website](http://www.adventuresoft.com/acatalog/Other_Adventure_Soft_games.html)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Elvira_2:_The_Jaws_of_Cerberus'
+    datafiles: 'Elvira_2:_The_Jaws_of_Cerberus'
     wikipedia_page: 'Elvira_II:_The_Jaws_of_Cerberus'
     series_id: elvira
 -
@@ -1868,7 +1868,7 @@
     steam_id: '1882240'
     gog_id: forgotten_realms_the_archives_collection_one
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Eye_of_the_Beholder'
+    datafiles: Eye_of_the_Beholder
     wikipedia_page: Eye_of_the_Beholder_(video_game)
     series_id: eob
 -
@@ -1880,7 +1880,7 @@
     steam_id: '1882240'
     gog_id: forgotten_realms_the_archives_collection_one
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Eye_of_the_Beholder_II:_The_Legend_of_Darkmoon'
+    datafiles: 'Eye_of_the_Beholder_II:_The_Legend_of_Darkmoon'
     wikipedia_page: 'Eye_of_the_Beholder_II:_The_Legend_of_Darkmoon'
     series_id: eob
 -
@@ -1952,7 +1952,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Mixed-Up_Fairy_Tales'
+    datafiles: Mixed-Up_Fairy_Tales
     wikipedia_page: Mixed-Up_Fairy_Tales
     series_id: mixedup
 -
@@ -1964,7 +1964,7 @@
     steam_id: '363060'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Let%27s_Explore_the_Farm_with_Buzzy'
+    datafiles: Let%27s_Explore_the_Farm_with_Buzzy
     wikipedia_page: 'Junior_Field_Trips#Let''s_Explore_the_Farm'
     series_id: juniorfield
 -
@@ -1976,7 +1976,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Fascination'
+    datafiles: Fascination
     wikipedia_page: Fascination_(video_game)
     series_id: ''
 -
@@ -1988,7 +1988,7 @@
     steam_id: '317030'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Fatty_Bear%27s_Birthday_Surprise'
+    datafiles: Fatty_Bear%27s_Birthday_Surprise
     wikipedia_page: Fatty_Bear%27s_Birthday_Surprise
     series_id: fbear
 -
@@ -2000,7 +2000,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Fatty_Bear%27s_Fun_Pack'
+    datafiles: Fatty_Bear%27s_Fun_Pack
     wikipedia_page: ''
     series_id: fbear
 -
@@ -2012,7 +2012,7 @@
     steam_id: '1646930'
     gog_id: the_feeble_files
     additional_stores: '- [Developer''s Website](http://www.adventuresoft.com/acatalog/Other_Adventure_Soft_games.html)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Feeble_Files'
+    datafiles: The_Feeble_Files
     wikipedia_page: The_Feeble_Files
     series_id: ''
 -
@@ -2036,7 +2036,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Backyard_Football'
+    datafiles: Backyard_Football
     wikipedia_page: Backyard_Football
     series_id: juniorsports
 -
@@ -2048,7 +2048,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Backyard_Football'
+    datafiles: Backyard_Football
     wikipedia_page: Backyard_Football
     series_id: juniorsports
 -
@@ -2132,7 +2132,7 @@
     steam_id: '283940'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Freddi_Fish_1:_The_Case_of_the_Missing_Kelp_Seeds'
+    datafiles: 'Freddi_Fish_1:_The_Case_of_the_Missing_Kelp_Seeds'
     wikipedia_page: Freddi_Fish_and_the_Case_of_the_Missing_Kelp_Seeds
     series_id: freddi
 -
@@ -2144,7 +2144,7 @@
     steam_id: '294530'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Freddi_Fish_2:_The_Case_of_the_Haunted_Schoolhouse'
+    datafiles: 'Freddi_Fish_2:_The_Case_of_the_Haunted_Schoolhouse'
     wikipedia_page: 'Freddi_Fish_2:_The_Case_of_the_Haunted_Schoolhouse'
     series_id: freddi
 -
@@ -2156,7 +2156,7 @@
     steam_id: '294540'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Freddi_Fish_3:_The_Case_of_the_Stolen_Conch_Shell'
+    datafiles: 'Freddi_Fish_3:_The_Case_of_the_Stolen_Conch_Shell'
     wikipedia_page: 'Freddi_Fish_3:_The_Case_of_the_Stolen_Conch_Shell'
     series_id: freddi
 -
@@ -2168,7 +2168,7 @@
     steam_id: '294550'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Freddi_Fish_4:_The_Case_of_the_Hogfish_Rustlers_of_Briny_Gulch'
+    datafiles: 'Freddi_Fish_4:_The_Case_of_the_Hogfish_Rustlers_of_Briny_Gulch'
     wikipedia_page: 'Freddi_Fish_4:_The_Case_of_the_Hogfish_Rustlers_of_Briny_Gulch'
     series_id: freddi
 -
@@ -2192,7 +2192,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Freddi_Fish%27s_One-Stop_Fun_Shop'
+    datafiles: Freddi_Fish%27s_One-Stop_Fun_Shop
     wikipedia_page: ''
     series_id: freddi
 -
@@ -2204,7 +2204,7 @@
     steam_id: ''
     gog_id: freddy_pharkas_frontier_pharmacist
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Freddy_Pharkas'
+    datafiles: Freddy_Pharkas
     wikipedia_page: 'Freddy_Pharkas:_Frontier_Pharmacist'
     series_id: ''
 -
@@ -2216,7 +2216,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Full_Throttle'
+    datafiles: Full_Throttle
     wikipedia_page: Full_Throttle_(1995_video_game)
     series_id: ''
 -
@@ -2252,7 +2252,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt%27s_Fun_Pack'
+    datafiles: Putt-Putt%27s_Fun_Pack
     wikipedia_page: ''
     series_id: puttputt
 -
@@ -2276,7 +2276,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Future_Wars'
+    datafiles: Future_Wars
     wikipedia_page: Future_Wars
     series_id: ''
 -
@@ -2288,7 +2288,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Geisha'
+    datafiles: Geisha
     wikipedia_page: Geisha_(video_game)
     series_id: ''
 -
@@ -2312,7 +2312,7 @@
     steam_id: '495700'
     gog_id: gabriel_knight_sins_of_the_fathers
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Gabriel_Knight'
+    datafiles: Gabriel_Knight
     wikipedia_page: 'Gabriel_Knight:_Sins_of_the_Fathers'
     series_id: gk
 -
@@ -2336,7 +2336,7 @@
     steam_id: '496760'
     gog_id: gabriel_knight_2_the_beast_within
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Beast_Within'
+    datafiles: The_Beast_Within
     wikipedia_page: 'The_Beast_Within:_A_Gabriel_Knight_Mystery'
     series_id: gk
 -
@@ -2360,7 +2360,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=UFOs'
+    datafiles: UFOs
     wikipedia_page: U.F.O.s_(video_game)
     series_id: ''
 -
@@ -2372,7 +2372,7 @@
     steam_id: ''
     gog_id: gobliiins_pack
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Gobliiins'
+    datafiles: Gobliiins
     wikipedia_page: Gobliiins
     series_id: gob
 -
@@ -2384,7 +2384,7 @@
     steam_id: ''
     gog_id: gobliiins_pack
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Gobliins_2'
+    datafiles: Gobliins_2
     wikipedia_page: 'Gobliiins#Gobliins_2:_The_Prince_Buffoon'
     series_id: gob
 -
@@ -2396,7 +2396,7 @@
     steam_id: ''
     gog_id: gobliiins_pack
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Goblins_3'
+    datafiles: Goblins_3
     wikipedia_page: 'Gobliiins#Goblins_Quest_3'
     series_id: gob
 -
@@ -2432,7 +2432,7 @@
     steam_id: '308000'
     gog_id: ''
     additional_stores: '- [Sunlight Games](http://shop.sunlight-games.com/product/2)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Gold_Rush'
+    datafiles: Gold_Rush
     wikipedia_page: Gold_Rush!
     series_id: ''
 -
@@ -2492,7 +2492,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Grim_Fandango'
+    datafiles: Grim_Fandango
     wikipedia_page: Grim_Fandango
     series_id: ''
 -
@@ -2516,7 +2516,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Hades_Challenge'
+    datafiles: Hades_Challenge
     wikipedia_page: 'Hercules_(franchise)#Hades_Challenge'
     series_id: ''
 -
@@ -2564,7 +2564,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Helga_Deep_In_Trouble'
+    datafiles: Helga_Deep_In_Trouble
     wikipedia_page: ''
     series_id: ''
 -
@@ -2576,7 +2576,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Mission_Asteroid'
+    datafiles: Mission_Asteroid
     wikipedia_page: Mission_Asteroid
     series_id: hires
 -
@@ -2588,7 +2588,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: '- [ScummVM Freeware Games](https://www.scummvm.org/games/#games-hires1)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Mystery_House'
+    datafiles: Mystery_House
     wikipedia_page: Mystery_House
     series_id: hires
 -
@@ -2600,7 +2600,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Wizard_and_the_Princess'
+    datafiles: Wizard_and_the_Princess
     wikipedia_page: Wizard_and_the_Princess
     series_id: hires
 -
@@ -2612,7 +2612,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Cranston_Manor'
+    datafiles: Cranston_Manor
     wikipedia_page: Cranston_Manor
     series_id: hires
 -
@@ -2624,7 +2624,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Ulysses_and_the_Golden_Fleece'
+    datafiles: Ulysses_and_the_Golden_Fleece
     wikipedia_page: Ulysses_and_the_Golden_Fleece
     series_id: hires
 -
@@ -2636,7 +2636,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Time_Zone'
+    datafiles: Time_Zone
     wikipedia_page: Time_Zone_(video_game)
     series_id: hires
 -
@@ -2648,7 +2648,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Dark_Crystal'
+    datafiles: The_Dark_Crystal
     wikipedia_page: The_Dark_Crystal_(video_game)
     series_id: hires
 -
@@ -2684,7 +2684,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle%27s_Official_Book_of_Games:_Volume_1'
+    datafiles: 'Hoyle%27s_Official_Book_of_Games:_Volume_1'
     wikipedia_page: 'Hoyle%27s_Official_Book_of_Games#Volume_1'
     series_id: hoyle
 -
@@ -2696,7 +2696,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle%27s_Official_Book_of_Games:_Volume_2'
+    datafiles: 'Hoyle%27s_Official_Book_of_Games:_Volume_2'
     wikipedia_page: 'Hoyle%27s_Official_Book_of_Games#Volume_2'
     series_id: hoyle
 -
@@ -2708,7 +2708,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle%27s_Official_Book_of_Games:_Volume_3'
+    datafiles: 'Hoyle%27s_Official_Book_of_Games:_Volume_3'
     wikipedia_page: 'Hoyle%27s_Official_Book_of_Games#Volume_3'
     series_id: hoyle
 -
@@ -2720,7 +2720,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle_Classic_Card_Games'
+    datafiles: Hoyle_Classic_Card_Games
     wikipedia_page: 'Hoyle%27s_Official_Book_of_Games#Hoyle_Classic_Card_Games_(Hoyle_4)'
     series_id: hoyle
 -
@@ -2732,7 +2732,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle_Classic_Games'
+    datafiles: Hoyle_Classic_Games
     wikipedia_page: 'Hoyle%27s_Official_Book_of_Games#Hoyle_Classic_Games_(Hoyle_5)'
     series_id: hoyle
 -
@@ -2744,7 +2744,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle_Classic_Games'
+    datafiles: Hoyle_Classic_Games
     wikipedia_page: 'Hoyle%27s_Official_Book_of_Games#Hoyle_Classic_Games_(Hoyle_5)'
     series_id: hoyle
 -
@@ -2756,7 +2756,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle_Classic_Games'
+    datafiles: Hoyle_Classic_Games
     wikipedia_page: 'Hoyle%27s_Official_Book_of_Games#Hoyle_Classic_Games_(Hoyle_5)'
     series_id: hoyle
 -
@@ -2768,7 +2768,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Hoyle_Solitaire'
+    datafiles: Hoyle_Solitaire
     wikipedia_page: 'Hoyle%27s_Official_Book_of_Games#Hoyle_Classic_Games_(Hoyle_5)'
     series_id: hoyle
 -
@@ -2792,7 +2792,7 @@
     steam_id: ''
     gog_id: the_hugo_trilogy
     additional_stores: '- [Developer''s Website](http://www.dgray.com/hwpage.htm)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Hugo%27s_House_of_Horrors'
+    datafiles: Hugo%27s_House_of_Horrors
     wikipedia_page: Hugo%27s_House_of_Horrors
     series_id: hugo
 -
@@ -2804,7 +2804,7 @@
     steam_id: ''
     gog_id: the_hugo_trilogy
     additional_stores: '- [Developer''s Website](http://www.dgray.com/hwpage.htm)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Hugo_II:_Whodunit%3F'
+    datafiles: 'Hugo_II:_Whodunit%3F'
     wikipedia_page: 'Hugo_II,_Whodunit%3F'
     series_id: hugo
 -
@@ -2816,7 +2816,7 @@
     steam_id: ''
     gog_id: the_hugo_trilogy
     additional_stores: '- [Developer''s Website](http://www.dgray.com/hwpage.htm)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Hugo_III:_Jungle_of_Doom'
+    datafiles: 'Hugo_III:_Jungle_of_Doom'
     wikipedia_page: 'Hugo_III,_Jungle_of_Doom!'
     series_id: hugo
 -
@@ -2840,7 +2840,7 @@
     steam_id: ''
     gog_id: codename_iceman
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Codename:_ICEMAN'
+    datafiles: 'Codename:_ICEMAN'
     wikipedia_page: 'Codename:_ICEMAN'
     series_id: ''
 -
@@ -2984,7 +2984,7 @@
     steam_id: '245390'
     gog_id: i_have_no_mouth_and_i_must_scream
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=I_Have_No_Mouth,_and_I_Must_Scream'
+    datafiles: 'I_Have_No_Mouth,_and_I_Must_Scream'
     wikipedia_page: 'I_Have_No_Mouth,_and_I_Must_Scream_(video_game)'
     series_id: ''
 -
@@ -3020,7 +3020,7 @@
     steam_id: '32310'
     gog_id: indiana_jones_and_the_last_crusade
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Indiana_Jones_and_the_Last_Crusade'
+    datafiles: Indiana_Jones_and_the_Last_Crusade
     wikipedia_page: 'Indiana_Jones_and_the_Last_Crusade:_The_Graphic_Adventure'
     series_id: indy
 -
@@ -3080,7 +3080,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Island_of_Dr._Brain'
+    datafiles: The_Island_of_Dr._Brain
     wikipedia_page: The_Island_of_Dr._Brain
     series_id: brain
 -
@@ -3092,7 +3092,7 @@
     steam_id: '257260'
     gog_id: inherit_the_earth
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Inherit_the_Earth'
+    datafiles: Inherit_the_Earth
     wikipedia_page: Inherit_the_Earth
     series_id: ''
 -
@@ -3152,7 +3152,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Jones_in_the_Fast_Lane'
+    datafiles: Jones_in_the_Fast_Lane
     wikipedia_page: Jones_in_the_Fast_Lane
     series_id: ''
 -
@@ -3164,7 +3164,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=J.U.L.I.A.'
+    datafiles: J.U.L.I.A.
     wikipedia_page: J.U.L.I.A.
     series_id: julia
 -
@@ -3176,7 +3176,7 @@
     steam_id: '257690'
     gog_id: julia_among_the_stars
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=J.U.L.I.A.:_Among_the_Stars'
+    datafiles: 'J.U.L.I.A.:_Among_the_Stars'
     wikipedia_page: J.U.L.I.A._Among_the_Stars
     series_id: julia
 -
@@ -3188,7 +3188,7 @@
     steam_id: '360340'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=J.U.L.I.A.:_Untold'
+    datafiles: 'J.U.L.I.A.:_Untold'
     wikipedia_page: ''
     series_id: julia
 -
@@ -3200,7 +3200,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: '- [Developer''s Website](http://www.adventuresoft.com/acatalog/Simon_the_Sorcerer_games.html)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer_Puzzle_Pack'
+    datafiles: Simon_the_Sorcerer_Puzzle_Pack
     wikipedia_page: 'Simon_the_Sorcerer_(series)#Simon_the_Sorcerer''s_Puzzle_Pack'
     series_id: simon
 -
@@ -3212,7 +3212,7 @@
     steam_id: '363070'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Let%27s_Explore_the_Jungle_with_Buzzy'
+    datafiles: Let%27s_Explore_the_Jungle_with_Buzzy
     wikipedia_page: 'Junior_Field_Trips#Let''s_Explore_the_Jungle'
     series_id: juniorfield
 -
@@ -3260,7 +3260,7 @@
     steam_id: '10100'
     gog_id: kings_quest_1_2_3
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest'
+    datafiles: King%27s_Quest
     wikipedia_page: King%27s_Quest_I
     series_id: kq
 -
@@ -3272,7 +3272,7 @@
     steam_id: '10100'
     gog_id: kings_quest_1_2_3
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest'
+    datafiles: King%27s_Quest
     wikipedia_page: King%27s_Quest_I
     series_id: kq
 -
@@ -3284,7 +3284,7 @@
     steam_id: '10100'
     gog_id: kings_quest_1_2_3
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest_II'
+    datafiles: King%27s_Quest_II
     wikipedia_page: King%27s_Quest_II
     series_id: kq
 -
@@ -3296,7 +3296,7 @@
     steam_id: '10100'
     gog_id: kings_quest_1_2_3
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest_III'
+    datafiles: King%27s_Quest_III
     wikipedia_page: King%27s_Quest_III
     series_id: kq
 -
@@ -3308,7 +3308,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest_IV'
+    datafiles: King%27s_Quest_IV
     wikipedia_page: King%27s_Quest_IV
     series_id: kq
 -
@@ -3320,7 +3320,7 @@
     steam_id: '10100'
     gog_id: kings_quest_4_5_6
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest_IV'
+    datafiles: King%27s_Quest_IV
     wikipedia_page: King%27s_Quest_IV
     series_id: kq
 -
@@ -3332,7 +3332,7 @@
     steam_id: '10100'
     gog_id: kings_quest_4_5_6
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest_V'
+    datafiles: King%27s_Quest_V
     wikipedia_page: King%27s_Quest_V
     series_id: kq
 -
@@ -3344,7 +3344,7 @@
     steam_id: '10100'
     gog_id: kings_quest_4_5_6
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest_VI'
+    datafiles: King%27s_Quest_VI
     wikipedia_page: King%27s_Quest_VI
     series_id: kq
 -
@@ -3356,7 +3356,7 @@
     steam_id: '10100'
     gog_id: kings_quest_7_8
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Quest_VII'
+    datafiles: King%27s_Quest_VII
     wikipedia_page: King%27s_Quest_VII
     series_id: kq
 -
@@ -3368,7 +3368,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=King%27s_Questions'
+    datafiles: King%27s_Questions
     wikipedia_page: ''
     series_id: kq
 -
@@ -3392,7 +3392,7 @@
     steam_id: ''
     gog_id: legend_of_kyrandia
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Legend_of_Kyrandia'
+    datafiles: The_Legend_of_Kyrandia
     wikipedia_page: The_Legend_of_Kyrandia
     series_id: kyra
 -
@@ -3404,7 +3404,7 @@
     steam_id: ''
     gog_id: legend_of_kyrandia_hand_of_fate
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Legend_of_Kyrandia:_Book_Two:_Hand_of_Fate'
+    datafiles: 'The_Legend_of_Kyrandia:_Book_Two:_Hand_of_Fate'
     wikipedia_page: 'The_Legend_of_Kyrandia:_Hand_of_Fate'
     series_id: kyra
 -
@@ -3416,7 +3416,7 @@
     steam_id: ''
     gog_id: legend_of_kyrandia_malcolms_revenge
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Legend_of_Kyrandia:_Book_Three:_Malcolm%27s_Revenge'
+    datafiles: 'The_Legend_of_Kyrandia:_Book_Three:_Malcolm%27s_Revenge'
     wikipedia_page: 'The_Legend_of_Kyrandia:_Malcolm%27s_Revenge'
     series_id: kyra
 -
@@ -3428,7 +3428,7 @@
     steam_id: '266980'
     gog_id: labyrinth_of_time_the
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Labyrinth_of_Time'
+    datafiles: The_Labyrinth_of_Time
     wikipedia_page: The_Labyrinth_of_Time
     series_id: ''
 -
@@ -3452,7 +3452,7 @@
     steam_id: ''
     gog_id: the_colonels_bequest
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Laura_Bow:_The_Colonel%27s_Bequest'
+    datafiles: 'Laura_Bow:_The_Colonel%27s_Bequest'
     wikipedia_page: The_Colonel%27s_Bequest
     series_id: laurabow
 -
@@ -3464,7 +3464,7 @@
     steam_id: ''
     gog_id: the_dagger_of_amon_ra
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Dagger_of_Amon_Ra'
+    datafiles: The_Dagger_of_Amon_Ra
     wikipedia_page: The_Dagger_of_Amon_Ra
     series_id: laurabow
 -
@@ -3476,7 +3476,7 @@
     steam_id: '397330'
     gog_id: little_big_adventure
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Little_Big_Adventure'
+    datafiles: Little_Big_Adventure
     wikipedia_page: Little_Big_Adventure
     series_id: lba
 -
@@ -3524,7 +3524,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Leather_Goddesses_of_Phobos_2'
+    datafiles: Leather_Goddesses_of_Phobos_2
     wikipedia_page: 'Leather_Goddesses_of_Phobos_2:_Gas_Pump_Girls_Meet_the_Pulsating_Inconvenience_from_Planet_X!'
     series_id: ''
 -
@@ -3572,7 +3572,7 @@
     steam_id: ''
     gog_id: lighthouse_th
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Lighthouse'
+    datafiles: Lighthouse
     wikipedia_page: 'Lighthouse:_The_Dark_Being'
     series_id: ''
 -
@@ -3596,7 +3596,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Lost_in_Time'
+    datafiles: Lost_in_Time
     wikipedia_page: Lost_in_Time_(video_game)
     series_id: ''
 -
@@ -3608,7 +3608,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Lost_in_Time'
+    datafiles: Lost_in_Time
     wikipedia_page: Lost_in_Time_(video_game)
     series_id: ''
 -
@@ -3620,7 +3620,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Lost_in_Time'
+    datafiles: Lost_in_Time
     wikipedia_page: Lost_in_Time_(video_game)
     series_id: ''
 -
@@ -3632,7 +3632,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Once_Upon_A_Time:_Little_Red_Riding_Hood'
+    datafiles: 'Once_Upon_A_Time:_Little_Red_Riding_Hood'
     wikipedia_page: ''
     series_id: ''
 -
@@ -3656,7 +3656,7 @@
     steam_id: ''
     gog_id: lands_of_lore_1_2
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Lands_of_Lore'
+    datafiles: Lands_of_Lore
     wikipedia_page: 'Lands_of_Lore:_The_Throne_of_Chaos'
     series_id: ''
 -
@@ -3680,7 +3680,7 @@
     steam_id: ''
     gog_id: conquests_of_the_longbow
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Conquests_of_the_Longbow'
+    datafiles: Conquests_of_the_Longbow
     wikipedia_page: 'Conquests_of_the_Longbow:_The_Legend_of_Robin_Hood'
     series_id: conquests
 -
@@ -3704,7 +3704,7 @@
     steam_id: '32340'
     gog_id: loom
     additional_stores: '<br /> ![Go out and buy Loom™ today!](https://upload.wikimedia.org/wikipedia/en/4/4b/LOOM_advert_in_Monkey_Island.png "<ADVERTISEMENT>")'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Loom'
+    datafiles: Loom
     wikipedia_page: Loom_(video_game)
     series_id: ''
 -
@@ -3716,7 +3716,7 @@
     steam_id: '292860'
     gog_id: pajama_sam_vol_1
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam%27s_Lost_%26_Found'
+    datafiles: Pajama_Sam%27s_Lost_%26_Found
     wikipedia_page: ''
     series_id: pajama
 -
@@ -3728,7 +3728,7 @@
     steam_id: '579980'
     gog_id: lost_eden
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Lost_Eden'
+    datafiles: Lost_Eden
     wikipedia_page: Lost_Eden
     series_id: ''
 -
@@ -3764,7 +3764,7 @@
     steam_id: '763970'
     gog_id: leisure_suit_larry
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry'
+    datafiles: Leisure_Suit_Larry
     wikipedia_page: Leisure_Suit_Larry_in_the_Land_of_the_Lounge_Lizards
     series_id: lsl
 -
@@ -3776,7 +3776,7 @@
     steam_id: '763970'
     gog_id: leisure_suit_larry
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry'
+    datafiles: Leisure_Suit_Larry
     wikipedia_page: Leisure_Suit_Larry_in_the_Land_of_the_Lounge_Lizards
     series_id: lsl
 -
@@ -3788,7 +3788,7 @@
     steam_id: '765840'
     gog_id: leisure_suit_larry
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_2'
+    datafiles: Leisure_Suit_Larry_2
     wikipedia_page: Leisure_Suit_Larry_Goes_Looking_for_Love_(in_Several_Wrong_Places)
     series_id: lsl
 -
@@ -3800,7 +3800,7 @@
     steam_id: '765850'
     gog_id: leisure_suit_larry
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_3'
+    datafiles: Leisure_Suit_Larry_3
     wikipedia_page: 'Leisure_Suit_Larry_III:_Passionate_Patti_in_Pursuit_of_the_Pulsating_Pectorals'
     series_id: lsl
 -
@@ -3812,7 +3812,7 @@
     steam_id: '765860'
     gog_id: leisure_suit_larry
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_5'
+    datafiles: Leisure_Suit_Larry_5
     wikipedia_page: 'Leisure_Suit_Larry_5:_Passionate_Patti_Does_a_Little_Undercover_Work'
     series_id: lsl
 -
@@ -3824,7 +3824,7 @@
     steam_id: '765910'
     gog_id: leisure_suit_larry
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_6'
+    datafiles: Leisure_Suit_Larry_6
     wikipedia_page: 'Leisure_Suit_Larry_6:_Shape_Up_or_Slip_Out!'
     series_id: lsl
 -
@@ -3836,7 +3836,7 @@
     steam_id: '765910'
     gog_id: leisure_suit_larry
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_6'
+    datafiles: Leisure_Suit_Larry_6
     wikipedia_page: 'Leisure_Suit_Larry_6:_Shape_Up_or_Slip_Out!'
     series_id: lsl
 -
@@ -3848,7 +3848,7 @@
     steam_id: '765890'
     gog_id: leisure_suit_larry_love_for_sail
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Leisure_Suit_Larry_7'
+    datafiles: Leisure_Suit_Larry_7
     wikipedia_page: 'Leisure_Suit_Larry:_Love_for_Sail!'
     series_id: lsl
 -
@@ -3860,7 +3860,7 @@
     steam_id: ''
     gog_id: lure_of_the_temptress
     additional_stores: '- [ScummVM Freeware Games](https://www.scummvm.org/games/#games-lure)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Lure_of_the_Temptress'
+    datafiles: Lure_of_the_Temptress
     wikipedia_page: Lure_of_the_Temptress
     series_id: ''
 -
@@ -3968,7 +3968,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Manhole'
+    datafiles: The_Manhole
     wikipedia_page: The_Manhole
     series_id: ''
 -
@@ -3980,7 +3980,7 @@
     steam_id: '529890'
     gog_id: maniac_mansion
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Maniac_Mansion'
+    datafiles: Maniac_Mansion
     wikipedia_page: Maniac_Mansion
     series_id: maniac
 -
@@ -4028,7 +4028,7 @@
     steam_id: '284020'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Freddi_Fish_and_Luther%27s_Maze_Madness'
+    datafiles: Freddi_Fish_and_Luther%27s_Maze_Madness
     wikipedia_page: ''
     series_id: freddi
 -
@@ -4076,7 +4076,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Manhunter'
+    datafiles: Manhunter
     wikipedia_page: 'Manhunter:_New_York'
     series_id: manhunt
 -
@@ -4088,7 +4088,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Manhunter_2'
+    datafiles: Manhunter_2
     wikipedia_page: 'Manhunter_2:_San_Francisco'
     series_id: manhunt
 -
@@ -4100,7 +4100,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Mickey%27s_Space_Adventure'
+    datafiles: Mickey%27s_Space_Adventure
     wikipedia_page: Mickey%27s_Space_Adventure
     series_id: disney
 -
@@ -4124,7 +4124,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Mixed-Up_Mother_Goose'
+    datafiles: Mixed-Up_Mother_Goose
     wikipedia_page: Mixed-Up_Mother_Goose
     series_id: mixedup
 -
@@ -4136,7 +4136,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Secret_of_Monkey_Island'
+    datafiles: The_Secret_of_Monkey_Island
     wikipedia_page: The_Secret_of_Monkey_Island
     series_id: mi
 -
@@ -4148,7 +4148,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Monkey_Island_2:_LeChuck%27s_Revenge'
+    datafiles: 'Monkey_Island_2:_LeChuck%27s_Revenge'
     wikipedia_page: 'Monkey_Island_2:_LeChuck%27s_Revenge'
     series_id: mi
 -
@@ -4160,7 +4160,7 @@
     steam_id: '730830'
     gog_id: escape_from_monkey_island
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Escape_from_Monkey_Island'
+    datafiles: Escape_from_Monkey_Island
     wikipedia_page: Escape_from_Monkey_Island
     series_id: mi
 -
@@ -4184,7 +4184,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Mortville_Manor'
+    datafiles: Mortville_Manor
     wikipedia_page: Mortville_Manor
     series_id: ''
 -
@@ -4196,7 +4196,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Mixed-Up_Mother_Goose'
+    datafiles: Mixed-Up_Mother_Goose
     wikipedia_page: Mixed-Up_Mother_Goose
     series_id: mixedup
 -
@@ -4208,7 +4208,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Mixed-Up_Mother_Goose'
+    datafiles: Mixed-Up_Mother_Goose
     wikipedia_page: Mixed-Up_Mother_Goose
     series_id: mixedup
 -
@@ -4220,7 +4220,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Mixed-Up_Mother_Goose'
+    datafiles: Mixed-Up_Mother_Goose
     wikipedia_page: Mixed-Up_Mother_Goose
     series_id: mixedup
 -
@@ -4244,7 +4244,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: '- [Developer''s Website](https://familie-dingel.de/simplicity/)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Mission_Supernova'
+    datafiles: Mission_Supernova
     wikipedia_page: ''
     series_id: supernova
 -
@@ -4256,7 +4256,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: '- [Developer''s Website](https://familie-dingel.de/simplicity/)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Mission_Supernova'
+    datafiles: Mission_Supernova
     wikipedia_page: ''
     series_id: supernova
 -
@@ -4280,7 +4280,7 @@
     steam_id: '292300'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=SPY_Fox_in_Hold_the_Mustard'
+    datafiles: SPY_Fox_in_Hold_the_Mustard
     wikipedia_page: ''
     series_id: spyfox
 -
@@ -4316,7 +4316,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Myst'
+    datafiles: Myst
     wikipedia_page: Myst
     series_id: myst
 -
@@ -4328,7 +4328,7 @@
     steam_id: '925930'
     gog_id: myst_3_exile
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Myst_III:_Exile'
+    datafiles: 'Myst_III:_Exile'
     wikipedia_page: 'Myst_III:_Exile'
     series_id: myst
 -
@@ -4340,7 +4340,7 @@
     steam_id: '63660'
     gog_id: myst_masterpiece_edition
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Myst'
+    datafiles: Myst
     wikipedia_page: Myst
     series_id: myst
 -
@@ -4364,7 +4364,7 @@
     steam_id: '328430'
     gog_id: rex_nebular_and_the_cosmic_gender_bender
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Rex_Nebular_and_the_Cosmic_Gender_Bender'
+    datafiles: Rex_Nebular_and_the_Cosmic_Gender_Bender
     wikipedia_page: Rex_Nebular_and_the_Cosmic_Gender_Bender
     series_id: ''
 -
@@ -4412,7 +4412,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: '- [ScummVM Freeware Games](https://www.scummvm.org/games/#games-nippon)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Nippon_Safes_Inc.'
+    datafiles: Nippon_Safes_Inc.
     wikipedia_page: ''
     series_id: ''
 -
@@ -4424,7 +4424,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Nightlong:_Union_City_Conspiracy'
+    datafiles: 'Nightlong:_Union_City_Conspiracy'
     wikipedia_page: 'Nightlong:_Union_City_Conspiracy'
     series_id: ''
 -
@@ -4484,7 +4484,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: '- [Developer''s Website](http://graphicsmagician.com/polarware/comprehend.htm)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Oo-Topos'
+    datafiles: Oo-Topos
     wikipedia_page: Oo-Topos
     series_id: ''
 -
@@ -4544,7 +4544,7 @@
     steam_id: '283960'
     gog_id: pajama_sam_vol_1
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam_1:_No_Need_to_Hide_When_It%27s_Dark_Outside'
+    datafiles: 'Pajama_Sam_1:_No_Need_to_Hide_When_It%27s_Dark_Outside'
     wikipedia_page: 'Pajama_Sam:_No_Need_to_Hide_When_It%27s_Dark_Outside'
     series_id: pajama
 -
@@ -4556,7 +4556,7 @@
     steam_id: '292780'
     gog_id: pajama_sam_vol_1
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam_2:_Thunder_and_Lightning_Aren%27t_so_Frightening'
+    datafiles: 'Pajama_Sam_2:_Thunder_and_Lightning_Aren%27t_so_Frightening'
     wikipedia_page: 'Pajama_Sam_2:_Thunder_and_Lightning_Aren%27t_so_Frightening'
     series_id: pajama
 -
@@ -4568,7 +4568,7 @@
     steam_id: '292800'
     gog_id: pajama_sam_vol_2
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam_3:_You_Are_What_You_Eat_From_Your_Head_to_Your_Feet'
+    datafiles: 'Pajama_Sam_3:_You_Are_What_You_Eat_From_Your_Head_to_Your_Feet'
     wikipedia_page: 'Pajama_Sam_3:_You_Are_What_You_Eat_from_Your_Head_to_Your_Feet'
     series_id: pajama
 -
@@ -4616,7 +4616,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Passport_to_Adventure'
+    datafiles: Passport_to_Adventure
     wikipedia_page: ''
     series_id: ''
 -
@@ -4628,7 +4628,7 @@
     steam_id: '359420'
     gog_id: journeyman_project_1_pegasus_prime_the
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Journeyman_Project:_Pegasus_Prime'
+    datafiles: 'The_Journeyman_Project:_Pegasus_Prime'
     wikipedia_page: 'The_Journeyman_Project:_Pegasus_Prime'
     series_id: journeyman
 -
@@ -4640,7 +4640,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Pepper%27s_Adventures_in_Time'
+    datafiles: Pepper%27s_Adventures_in_Time
     wikipedia_page: Pepper%27s_Adventures_in_Time
     series_id: ''
 -
@@ -4688,7 +4688,7 @@
     steam_id: '501990'
     gog_id: phantasmagoria
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Phantasmagoria'
+    datafiles: Phantasmagoria
     wikipedia_page: Phantasmagoria_(video_game)
     series_id: phantasmagoria
 -
@@ -4700,7 +4700,7 @@
     steam_id: '501970'
     gog_id: phantasmagoria_2
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Phantasmagoria_2'
+    datafiles: Phantasmagoria_2
     wikipedia_page: 'Phantasmagoria:_A_Puzzle_of_Flesh'
     series_id: phantasmagoria
 -
@@ -4880,7 +4880,7 @@
     steam_id: ''
     gog_id: personal_nightmare
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Personal_Nightmare'
+    datafiles: Personal_Nightmare
     wikipedia_page: Personal_Nightmare
     series_id: ''
 -
@@ -4916,7 +4916,7 @@
     steam_id: ''
     gog_id: police_quest_1_2_3_4
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest'
+    datafiles: Police_Quest
     wikipedia_page: 'Police_Quest:_In_Pursuit_of_the_Death_Angel'
     series_id: pq
 -
@@ -4928,7 +4928,7 @@
     steam_id: '494740'
     gog_id: police_quest_1_2_3_4
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest'
+    datafiles: Police_Quest
     wikipedia_page: 'Police_Quest:_In_Pursuit_of_the_Death_Angel'
     series_id: pq
 -
@@ -4940,7 +4940,7 @@
     steam_id: '494740'
     gog_id: police_quest_1_2_3_4
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest_II'
+    datafiles: Police_Quest_II
     wikipedia_page: 'Police_Quest_II:_The_Vengeance'
     series_id: pq
 -
@@ -4952,7 +4952,7 @@
     steam_id: '494740'
     gog_id: police_quest_1_2_3_4
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest_III'
+    datafiles: Police_Quest_III
     wikipedia_page: 'Police_Quest_III:_The_Kindred'
     series_id: pq
 -
@@ -4964,7 +4964,7 @@
     steam_id: '494740'
     gog_id: police_quest_1_2_3_4
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest_IV'
+    datafiles: Police_Quest_IV
     wikipedia_page: 'Police_Quest:_Open_Season'
     series_id: pq
 -
@@ -4988,7 +4988,7 @@
     steam_id: ''
     gog_id: police_quest_swat_1_2
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Police_Quest:_SWAT'
+    datafiles: 'Police_Quest:_SWAT'
     wikipedia_page: 'Police_Quest:_SWAT'
     series_id: pq
 -
@@ -5024,7 +5024,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Private_Eye_(1996)'
+    datafiles: Private_Eye_(1996)
     wikipedia_page: Private_Eye_(1996_video_game)
     series_id: ''
 -
@@ -5060,7 +5060,7 @@
     steam_id: '294690'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_Joins_the_Circus'
+    datafiles: Putt-Putt_Joins_the_Circus
     wikipedia_page: Putt-Putt_Joins_the_Circus
     series_id: puttputt
 -
@@ -5072,7 +5072,7 @@
     steam_id: '294650'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_Goes_to_the_Moon'
+    datafiles: Putt-Putt_Goes_to_the_Moon
     wikipedia_page: Putt-Putt_Goes_to_the_Moon
     series_id: puttputt
 -
@@ -5084,7 +5084,7 @@
     steam_id: '283920'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_Joins_the_Parade'
+    datafiles: Putt-Putt_Joins_the_Parade
     wikipedia_page: Putt-Putt_Joins_the_Parade
     series_id: puttputt
 -
@@ -5096,7 +5096,7 @@
     steam_id: '294680'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_Enters_the_Race'
+    datafiles: Putt-Putt_Enters_the_Race
     wikipedia_page: Putt-Putt_Enters_the_Race
     series_id: puttputt
 -
@@ -5120,7 +5120,7 @@
     steam_id: '294670'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_Travels_Through_Time'
+    datafiles: Putt-Putt_Travels_Through_Time
     wikipedia_page: Putt-Putt_Travels_Through_Time
     series_id: puttputt
 -
@@ -5132,7 +5132,7 @@
     steam_id: '294660'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Putt-Putt_Saves_the_Zoo'
+    datafiles: Putt-Putt_Saves_the_Zoo
     wikipedia_page: Putt-Putt_Saves_the_Zoo
     series_id: puttputt
 -
@@ -5144,7 +5144,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: '- [Developer''s Website](http://www.adventuresoft.com/acatalog/Simon_the_Sorcerer_games.html)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer_Puzzle_Pack'
+    datafiles: Simon_the_Sorcerer_Puzzle_Pack
     wikipedia_page: 'Simon_the_Sorcerer_(series)#Simon_the_Sorcerer''s_Puzzle_Pack'
     series_id: simon
 -
@@ -5168,7 +5168,7 @@
     steam_id: '502750'
     gog_id: quest_for_glory
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Quest_for_Glory'
+    datafiles: Quest_for_Glory
     wikipedia_page: 'Quest_for_Glory:_So_You_Want_to_Be_a_Hero'
     series_id: qfg
 -
@@ -5180,7 +5180,7 @@
     steam_id: '502750'
     gog_id: quest_for_glory
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Quest_for_Glory'
+    datafiles: Quest_for_Glory
     wikipedia_page: 'Quest_for_Glory:_So_You_Want_to_Be_a_Hero'
     series_id: qfg
 -
@@ -5192,7 +5192,7 @@
     steam_id: '502750'
     gog_id: quest_for_glory
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Quest_for_Glory_II'
+    datafiles: Quest_for_Glory_II
     wikipedia_page: 'Quest_for_Glory_II:_Trial_by_Fire'
     series_id: qfg
 -
@@ -5204,7 +5204,7 @@
     steam_id: '502750'
     gog_id: quest_for_glory
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Quest_for_Glory_III'
+    datafiles: Quest_for_Glory_III
     wikipedia_page: 'Quest_for_Glory_III:_Wages_of_War'
     series_id: qfg
 -
@@ -5216,7 +5216,7 @@
     steam_id: '502750'
     gog_id: quest_for_glory
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Quest_for_Glory_IV'
+    datafiles: Quest_for_Glory_IV
     wikipedia_page: 'Quest_for_Glory:_Shadows_of_Darkness'
     series_id: qfg
 -
@@ -5240,7 +5240,7 @@
     steam_id: '1111010'
     gog_id: flight_of_the_amazon_queen
     additional_stores: '- [ScummVM Freeware Games](https://www.scummvm.org/games/#games-queen)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Flight_of_the_Amazon_Queen'
+    datafiles: Flight_of_the_Amazon_Queen
     wikipedia_page: Flight_of_the_Amazon_Queen
     series_id: ''
 -
@@ -5264,7 +5264,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=RAMA'
+    datafiles: RAMA
     wikipedia_page: Rama_(video_game)
     series_id: ''
 -
@@ -5288,7 +5288,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Blue%27s_Reading_Time_Activities'
+    datafiles: Blue%27s_Reading_Time_Activities
     wikipedia_page: ''
     series_id: blue
 -
@@ -5324,7 +5324,7 @@
     steam_id: ''
     gog_id: crusader_no_remorse
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Crusader:_No_Remorse'
+    datafiles: 'Crusader:_No_Remorse'
     wikipedia_page: 'Crusader:_No_Remorse'
     series_id: ''
 -
@@ -5408,7 +5408,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Ringworld'
+    datafiles: Ringworld
     wikipedia_page: 'Ringworld:_Revenge_of_the_Patriarch'
     series_id: ringworld
 -
@@ -5432,7 +5432,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=1_1/2_Ritter'
+    datafiles: 1_1/2_Ritter
     wikipedia_page: 'https://de.wikipedia.org/wiki/1%C2%BD_Ritter_–_Auf_der_Suche_nach_der_hinreißenden_Herzelinde'
     series_id: ''
 -
@@ -5444,7 +5444,7 @@
     steam_id: '63610'
     gog_id: riven_the_sequel_to_myst
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Riven:_The_Sequel_to_Myst'
+    datafiles: 'Riven:_The_Sequel_to_Myst'
     wikipedia_page: Riven
     series_id: myst
 -
@@ -5480,7 +5480,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Rodney%27s_Funscreen'
+    datafiles: Rodney%27s_Funscreen
     wikipedia_page: ''
     series_id: ''
 -
@@ -5504,7 +5504,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Rosemary'
+    datafiles: Rosemary
     wikipedia_page: ''
     series_id: ''
 -
@@ -5516,7 +5516,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Lost_Files_of_Sherlock_Holmes:_The_Case_of_the_Rose_Tattoo'
+    datafiles: 'The_Lost_Files_of_Sherlock_Holmes:_The_Case_of_the_Rose_Tattoo'
     wikipedia_page: 'The_Lost_Files_of_Sherlock_Holmes:_The_Case_of_the_Rose_Tattoo'
     series_id: sherlock
 -
@@ -5528,7 +5528,7 @@
     steam_id: '585240'
     gog_id: return_to_zork
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Return_to_Zork'
+    datafiles: Return_to_Zork
     wikipedia_page: Return_to_Zork
     series_id: zork
 -
@@ -5576,7 +5576,7 @@
     steam_id: '355170'
     gog_id: sam_max_hit_the_road
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Sam_%26_Max_Hit_the_Road'
+    datafiles: Sam_%26_Max_Hit_the_Road
     wikipedia_page: Sam_%26_Max_Hit_the_Road
     series_id: ''
 -
@@ -5588,7 +5588,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam%27s_One-Stop_Fun_Shop'
+    datafiles: Pajama_Sam%27s_One-Stop_Fun_Shop
     wikipedia_page: ''
     series_id: pajama
 -
@@ -5624,7 +5624,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Lost_Files_of_Sherlock_Holmes:_The_Case_of_the_Serrated_Scalpel'
+    datafiles: 'The_Lost_Files_of_Sherlock_Holmes:_The_Case_of_the_Serrated_Scalpel'
     wikipedia_page: The_Lost_Files_of_Sherlock_Holmes
     series_id: sherlock
 -
@@ -5732,7 +5732,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: '- [ScummVM Freeware Games](https://www.scummvm.org/games/#games-sfinx)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Sfinx'
+    datafiles: Sfinx
     wikipedia_page: ''
     series_id: ''
 -
@@ -5804,7 +5804,7 @@
     steam_id: ''
     gog_id: shivers
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Shivers'
+    datafiles: Shivers
     wikipedia_page: Shivers_(video_game)
     series_id: ''
 -
@@ -5816,7 +5816,7 @@
     steam_id: '836840'
     gog_id: simon_the_sorcerer
     additional_stores: '- [Developer''s Website](http://www.adventuresoft.com/acatalog/Simon_the_Sorcerer_games.html)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer'
+    datafiles: Simon_the_Sorcerer
     wikipedia_page: Simon_the_Sorcerer
     series_id: simon
 -
@@ -5828,7 +5828,7 @@
     steam_id: '835750'
     gog_id: simon_the_sorcerer_2
     additional_stores: '- [Developer''s Website](http://www.adventuresoft.com/acatalog/Simon_the_Sorcerer_games.html)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer_II:_The_Lion,_the_Wizard_and_the_Wardrobe'
+    datafiles: 'Simon_the_Sorcerer_II:_The_Lion,_the_Wizard_and_the_Wardrobe'
     wikipedia_page: 'Simon_the_Sorcerer_II:_The_Lion,_the_Wizard_and_the_Wardrobe'
     series_id: simon
 -
@@ -5852,7 +5852,7 @@
     steam_id: '1368340'
     gog_id: beneath_a_steel_sky
     additional_stores: '- [ScummVM Freeware Games](https://www.scummvm.org/games/#games-sky)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Beneath_a_Steel_Sky'
+    datafiles: Beneath_a_Steel_Sky
     wikipedia_page: Beneath_a_Steel_Sky
     series_id: ''
 -
@@ -5864,7 +5864,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Slater_%26_Charlie_Go_Camping'
+    datafiles: Slater_%26_Charlie_Go_Camping
     wikipedia_page: Slater_%26_Charlie_Go_Camping
     series_id: ''
 -
@@ -5936,7 +5936,7 @@
     steam_id: '292840'
     gog_id: pajama_sam_vol_2
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Pajama_Sam%27s_Sock_Works'
+    datafiles: Pajama_Sam%27s_Sock_Works
     wikipedia_page: ''
     series_id: pajama
 -
@@ -5960,7 +5960,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: '- [ScummVM Freeware Games](https://www.scummvm.org/games/#games-soltys)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Soltys'
+    datafiles: Soltys
     wikipedia_page: Sołtys_(video_game)
     series_id: ''
 -
@@ -6032,7 +6032,7 @@
     steam_id: '283980'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=SPY_Fox_1:_Dry_Cereal'
+    datafiles: 'SPY_Fox_1:_Dry_Cereal'
     wikipedia_page: 'Spy_Fox_in_"Dry_Cereal"'
     series_id: spyfox
 -
@@ -6044,7 +6044,7 @@
     steam_id: '292240'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=SPY_Fox_2:_Some_Assembly_Required'
+    datafiles: 'SPY_Fox_2:_Some_Assembly_Required'
     wikipedia_page: 'Spy_Fox_2:_"Some_Assembly_Required"'
     series_id: spyfox
 -
@@ -6056,7 +6056,7 @@
     steam_id: '292260'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=SPY_Fox_3:_Operation_Ozone'
+    datafiles: 'SPY_Fox_3:_Operation_Ozone'
     wikipedia_page: 'Spy_Fox_3:_"Operation_Ozone"'
     series_id: spyfox
 -
@@ -6080,7 +6080,7 @@
     steam_id: '10110'
     gog_id: space_quest_1_2_3
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest'
+    datafiles: Space_Quest
     wikipedia_page: Space_Quest_I
     series_id: sq
 -
@@ -6092,7 +6092,7 @@
     steam_id: '10110'
     gog_id: space_quest_1_2_3
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest'
+    datafiles: Space_Quest
     wikipedia_page: Space_Quest_I
     series_id: sq
 -
@@ -6104,7 +6104,7 @@
     steam_id: '10110'
     gog_id: space_quest_1_2_3
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest_II'
+    datafiles: Space_Quest_II
     wikipedia_page: Space_Quest_II
     series_id: sq
 -
@@ -6116,7 +6116,7 @@
     steam_id: '10110'
     gog_id: space_quest_1_2_3
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest_III'
+    datafiles: Space_Quest_III
     wikipedia_page: Space_Quest_III
     series_id: sq
 -
@@ -6128,7 +6128,7 @@
     steam_id: '10110'
     gog_id: space_quest_4_5_6
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest_IV'
+    datafiles: Space_Quest_IV
     wikipedia_page: Space_Quest_IV
     series_id: sq
 -
@@ -6152,7 +6152,7 @@
     steam_id: '10110'
     gog_id: space_quest_4_5_6
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest_V'
+    datafiles: Space_Quest_V
     wikipedia_page: Space_Quest_V
     series_id: sq
 -
@@ -6164,7 +6164,7 @@
     steam_id: '10110'
     gog_id: space_quest_4_5_6
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Space_Quest_6'
+    datafiles: Space_Quest_6
     wikipedia_page: Space_Quest_6
     series_id: sq
 -
@@ -6260,7 +6260,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: '- [Developer''s Website](http://www.adventuresoft.com/acatalog/Simon_the_Sorcerer_games.html)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Simon_the_Sorcerer_Puzzle_Pack'
+    datafiles: Simon_the_Sorcerer_Puzzle_Pack
     wikipedia_page: 'Simon_the_Sorcerer_(series)#Simon_the_Sorcerer''s_Puzzle_Pack'
     series_id: simon
 -
@@ -6272,7 +6272,7 @@
     steam_id: '580430'
     gog_id: broken_sword_directors_cut
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_1'
+    datafiles: Broken_Sword_1
     wikipedia_page: 'Broken_Sword:_The_Shadow_of_the_Templars'
     series_id: sword
 -
@@ -6284,7 +6284,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_1'
+    datafiles: Broken_Sword_1
     wikipedia_page: 'Broken_Sword:_The_Shadow_of_the_Templars'
     series_id: sword
 -
@@ -6296,7 +6296,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_1'
+    datafiles: Broken_Sword_1
     wikipedia_page: 'Broken_Sword:_The_Shadow_of_the_Templars'
     series_id: sword
 -
@@ -6308,7 +6308,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_1'
+    datafiles: Broken_Sword_1
     wikipedia_page: 'Broken_Sword:_The_Shadow_of_the_Templars'
     series_id: sword
 -
@@ -6320,7 +6320,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_1'
+    datafiles: Broken_Sword_1
     wikipedia_page: 'Broken_Sword:_The_Shadow_of_the_Templars'
     series_id: sword
 -
@@ -6344,7 +6344,7 @@
     steam_id: '580440'
     gog_id: broken_sword_2__the_smoking_mirror
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_2'
+    datafiles: Broken_Sword_2
     wikipedia_page: 'Broken_Sword_II:_The_Smoking_Mirror'
     series_id: sword
 -
@@ -6356,7 +6356,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: '- [ScummVM Freeware Games](https://www.scummvm.org/games/#games-sword25)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_2.5'
+    datafiles: Broken_Sword_2.5
     wikipedia_page: ''
     series_id: ''
 -
@@ -6368,7 +6368,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_2'
+    datafiles: Broken_Sword_2
     wikipedia_page: 'Broken_Sword_II:_The_Smoking_Mirror'
     series_id: sword
 -
@@ -6380,7 +6380,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_2'
+    datafiles: Broken_Sword_2
     wikipedia_page: 'Broken_Sword_II:_The_Smoking_Mirror'
     series_id: sword
 -
@@ -6392,7 +6392,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Broken_Sword_2'
+    datafiles: Broken_Sword_2
     wikipedia_page: 'Broken_Sword_II:_The_Smoking_Mirror'
     series_id: sword
 -
@@ -6428,7 +6428,7 @@
     steam_id: '1048430'
     gog_id: the_7th_guest_25th_anniversary_edition
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_7th_Guest'
+    datafiles: The_7th_Guest
     wikipedia_page: The_7th_Guest
     series_id: t7g
 -
@@ -6440,7 +6440,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: '- [Developer''s Website](http://graphicsmagician.com/polarware/comprehend.htm)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Talisman:_Challenging_the_Sands_of_Time'
+    datafiles: 'Talisman:_Challenging_the_Sands_of_Time'
     wikipedia_page: ''
     series_id: ''
 -
@@ -6476,7 +6476,7 @@
     steam_id: ''
     gog_id: teenagent
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=TeenAgent'
+    datafiles: TeenAgent
     wikipedia_page: Teenagent
     series_id: ''
 -
@@ -6512,7 +6512,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Day_of_the_Tentacle'
+    datafiles: Day_of_the_Tentacle
     wikipedia_page: Day_of_the_Tentacle
     series_id: maniac
 -
@@ -6656,7 +6656,7 @@
     steam_id: '376770'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Big_Thinkers_First_Grade'
+    datafiles: Big_Thinkers_First_Grade
     wikipedia_page: Big_Thinkers_(video_game_series)
     series_id: bigthinkers
 -
@@ -6668,7 +6668,7 @@
     steam_id: '376760'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Big_Thinkers_Kindergarten'
+    datafiles: Big_Thinkers_Kindergarten
     wikipedia_page: Big_Thinkers_(video_game_series)
     series_id: bigthinkers
 -
@@ -6692,7 +6692,7 @@
     steam_id: '467290'
     gog_id: starship_titanic
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Starship_Titanic'
+    datafiles: Starship_Titanic
     wikipedia_page: Starship_Titanic
     series_id: ''
 -
@@ -6728,7 +6728,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=3_Skulls_of_the_Toltecs'
+    datafiles: 3_Skulls_of_the_Toltecs
     wikipedia_page: 3_Skulls_of_the_Toltecs
     series_id: ''
 -
@@ -6752,7 +6752,7 @@
     steam_id: '369830'
     gog_id: toonstruck
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Toonstruck'
+    datafiles: Toonstruck
     wikipedia_page: Toonstruck
     series_id: ''
 -
@@ -6764,7 +6764,7 @@
     steam_id: ''
     gog_id: torins_passage
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Torin%27s_Passage'
+    datafiles: Torin%27s_Passage
     wikipedia_page: Torin%27s_Passage
     series_id: ''
 -
@@ -6788,7 +6788,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Touché:_The_Adventures_of_the_Fifth_Musketeer'
+    datafiles: 'Touché:_The_Adventures_of_the_Fifth_Musketeer'
     wikipedia_page: 'Touché:_The_Adventures_of_the_Fifth_Musketeer'
     series_id: ''
 -
@@ -6812,7 +6812,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: '- [Developer''s Website](http://graphicsmagician.com/polarware/comprehend.htm)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Transylvania'
+    datafiles: Transylvania
     wikipedia_page: Transylvania_(video_game)
     series_id: transylvania
 -
@@ -6824,7 +6824,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Troll%27s_Tale'
+    datafiles: Troll%27s_Tale
     wikipedia_page: Troll%27s_Tale
     series_id: ''
 -
@@ -6836,7 +6836,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Bud_Tucker_in_Double_Trouble'
+    datafiles: Bud_Tucker_in_Double_Trouble
     wikipedia_page: Bud_Tucker_in_Double_Trouble
     series_id: ''
 -
@@ -6848,7 +6848,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_White_Chamber'
+    datafiles: The_White_Chamber
     wikipedia_page: The_White_Chamber
     series_id: ''
 -
@@ -6920,7 +6920,7 @@
     steam_id: ''
     gog_id: ultima_8_gold_edition
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Ultima_VIII:_Pagan'
+    datafiles: 'Ultima_VIII:_Pagan'
     wikipedia_page: 'Ultima_VIII:_Pagan'
     series_id: ultima
 -
@@ -6944,7 +6944,7 @@
     steam_id: '343810'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Uninvited'
+    datafiles: Uninvited
     wikipedia_page: Uninvited_(video_game)
     series_id: ''
 -
@@ -6956,7 +6956,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Urban_Runner'
+    datafiles: Urban_Runner
     wikipedia_page: Urban_Runner
     series_id: ''
 -
@@ -6980,7 +6980,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Versailles_1685'
+    datafiles: Versailles_1685
     wikipedia_page: Versailles_1685
     series_id: ''
 -
@@ -7004,7 +7004,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Voyeur'
+    datafiles: Voyeur
     wikipedia_page: Voyeur_(video_game)
     series_id: ''
 -
@@ -7088,7 +7088,7 @@
     steam_id: '294580'
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Freddi_Fish_and_Luther%27s_Water_Worries'
+    datafiles: Freddi_Fish_and_Luther%27s_Water_Worries
     wikipedia_page: ''
     series_id: freddi
 -
@@ -7100,7 +7100,7 @@
     steam_id: ''
     gog_id: waxworks
     additional_stores: '- [Developer''s Website](http://www.adventuresoft.com/acatalog/Other_Adventure_Soft_games.html)'
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Waxworks'
+    datafiles: Waxworks
     wikipedia_page: Waxworks_(1992_video_game)
     series_id: ''
 -
@@ -7112,7 +7112,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Prophecy'
+    datafiles: The_Prophecy
     wikipedia_page: The_Prophecy_(video_game)
     series_id: ''
 -
@@ -7148,7 +7148,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Winnie_the_Pooh_in_the_Hundred_Acre_Wood'
+    datafiles: Winnie_the_Pooh_in_the_Hundred_Acre_Wood
     wikipedia_page: Winnie_the_Pooh_in_the_Hundred_Acre_Wood
     series_id: disney
 -
@@ -7196,7 +7196,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=The_Bizarre_Adventures_of_Woodruff_and_the_Schnibble'
+    datafiles: The_Bizarre_Adventures_of_Woodruff_and_the_Schnibble
     wikipedia_page: The_Bizarre_Adventures_of_Woodruff_and_the_Schnibble
     series_id: ''
 -
@@ -7244,7 +7244,7 @@
     steam_id: ''
     gog_id: zak_mckracken_and_the_alien_mindbenders
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Zak_McKracken_and_the_Alien_Mindbenders'
+    datafiles: Zak_McKracken_and_the_Alien_Mindbenders
     wikipedia_page: Zak_McKracken_and_the_Alien_Mindbenders
     series_id: ''
 -
@@ -7292,7 +7292,7 @@
     steam_id: '570680'
     gog_id: zork_grand_inquisitor
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Zork:_Grand_Inquisitor'
+    datafiles: 'Zork:_Grand_Inquisitor'
     wikipedia_page: 'Zork:_Grand_Inquisitor'
     series_id: zork
 -
@@ -7316,6 +7316,6 @@
     steam_id: '571060'
     gog_id: zork_nemesis_the_forbidden_lands
     additional_stores: ''
-    datafiles: 'https://wiki.scummvm.org/index.php?title=Zork_Nemesis'
+    datafiles: Zork_Nemesis
     wikipedia_page: Zork_Nemesis
     series_id: zork

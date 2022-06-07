@@ -51,8 +51,13 @@ class Compatibility extends BaseCompatibility
         if ($this->getGame()->getMobyId() > 0) {
             $links[] = "- [MobyGames](https://www.mobygames.com/game/{$this->getGame()->getMobyId()})";
         }
-        if ($this->getGame()->getDataFiles()) {
-            $links[] = "- [ScummVM Wiki]({$this->getGame()->getDataFiles()})";
+        $dataFiles = $this->getGame()->getDataFiles();
+        if ($dataFiles) {
+            if (str_starts_with($dataFiles, "https://")) {
+                $links[] = "- [ScummVM Wiki]({$this->getGame()->getDataFiles()})";
+            } else {
+                $links[] = "- [ScummVM Wiki](https://wiki.scummvm.org/index.php?title={$this->getGame()->getDataFiles()})";
+            }
         }
         $wikipediaPage = $this->getGame()->getWikipediaPage();
         if ($wikipediaPage) {
