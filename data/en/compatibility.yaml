@@ -4276,3 +4276,10 @@
     since_version: DEV
     stable_platforms: 'amiga,apple2gs,coco3,dos,mac'
     unstable_platforms: ''
+-
+    id: maniac
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'amiga,apple2,atarist,c64,dos,nes'
+    unstable_platforms: ''
