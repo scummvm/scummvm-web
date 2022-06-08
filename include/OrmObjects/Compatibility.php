@@ -54,10 +54,11 @@ class Compatibility extends BaseCompatibility
         $dataFiles = $this->getGame()->getDataFiles();
         if ($dataFiles) {
             if (str_starts_with($dataFiles, "https://")) {
-                $links[] = "- [ScummVM Wiki]({$this->getGame()->getDataFiles()})";
+                $wikiLink = "- [ScummVM Wiki]({$this->getGame()->getDataFiles()})";
             } else {
-                $links[] = "- [ScummVM Wiki](https://wiki.scummvm.org/index.php?title={$this->getGame()->getDataFiles()})";
+                $wikiLink = "- [ScummVM Wiki](https://wiki.scummvm.org/index.php?title={$this->getGame()->getDataFiles()})";
             }
+            $links[] = $wikiLink . " (includes list of required data files)";
         }
         $wikipediaPage = $this->getGame()->getWikipediaPage();
         if ($wikipediaPage) {
