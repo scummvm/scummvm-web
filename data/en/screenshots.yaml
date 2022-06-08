@@ -1446,6 +1446,12 @@
     language: en
     variant_id: '1'
 -
+    id: lure
+    variant: EGA
+    platform_id: dos
+    language: it
+    variant_id: '1'
+-
     id: manhole
     variant: ''
     platform_id: dos
