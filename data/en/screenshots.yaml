@@ -366,6 +366,12 @@
     language: pl
     variant_id: '1'
 -
+    id: dragons
+    variant: ''
+    platform_id: psx
+    language: en-us
+    variant_id: '1'
+-
     id: drascula
     variant: ''
     platform_id: dos
@@ -412,6 +418,12 @@
     variant: ''
     platform_id: dos
     language: fr
+    variant_id: '1'
+-
+    id: duckman
+    variant: ''
+    platform_id: win
+    language: en
     variant_id: '1'
 -
     id: dw
@@ -2076,6 +2088,12 @@
     language: iw
     variant_id: '1'
 -
+    id: sinistersix
+    variant: ''
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
     id: sky
     variant: ''
     platform_id: dos
@@ -2514,6 +2532,12 @@
     language: it
     variant_id: '1'
 -
+    id: wetlands
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
     id: winnie
     variant: ''
     platform_id: dos
@@ -2590,10 +2614,4 @@
     variant: ''
     platform_id: dos
     language: de
-    variant_id: '1'
--
-    id: wetlands
-    variant: ''
-    platform_id: dos
-    language: en
     variant_id: '1'
