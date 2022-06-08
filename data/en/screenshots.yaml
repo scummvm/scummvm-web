@@ -405,6 +405,12 @@
     id: dreamweb
     variant: ''
     platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: dreamweb
+    variant: ''
+    platform_id: dos
     language: en
     variant_id: '1'
 -
@@ -418,6 +424,12 @@
     variant: ''
     platform_id: dos
     language: fr
+    variant_id: '1'
+-
+    id: dreamweb
+    variant: ''
+    platform_id: dos
+    language: it
     variant_id: '1'
 -
     id: duckman
