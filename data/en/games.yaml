@@ -3220,7 +3220,7 @@
     name: 'Kathy Rain'
     engine_id: ags
     company_id: clifftop
-    moby_id: ''
+    moby_id: '79519'
     steam_id: '370910'
     gog_id: kathy_rain
     additional_stores: ''
@@ -4426,6 +4426,18 @@
     additional_stores: ''
     datafiles: 'Nightlong:_Union_City_Conspiracy'
     wikipedia_page: 'Nightlong:_Union_City_Conspiracy'
+    series_id: ''
+-
+    id: obsidian
+    name: Obsidian
+    engine_id: mtropolis
+    company_id: rocketscience
+    moby_id: '1564'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: Obsidian
+    wikipedia_page: Obsidian_(1997_video_game)
     series_id: ''
 -
     id: oknytt

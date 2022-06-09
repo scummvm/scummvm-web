@@ -1650,6 +1650,12 @@
     language: en
     variant_id: '1'
 -
+    id: myst
+    variant: ''
+    platform_id: win
+    language: it
+    variant_id: '1'
+-
     id: myst3
     variant: ''
     platform_id: win
@@ -1990,6 +1996,12 @@
     variant: DVD
     platform_id: win
     language: en
+    variant_id: '1'
+-
+    id: riven
+    variant: ''
+    platform_id: win
+    language: pt-br
     variant_id: '1'
 -
     id: rodney

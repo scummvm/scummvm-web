@@ -768,6 +768,10 @@
     name: 'Riki Computer Games'
     alt_name: ''
 -
+    id: rocketscience
+    name: 'Rocket Science Games'
+    alt_name: ''
+-
     id: rockstarv
     name: 'Rockstar Vienna'
     alt_name: ''
