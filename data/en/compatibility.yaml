@@ -3724,6 +3724,55 @@
     stable_platforms: dos
     unstable_platforms: ''
 -
+    id: corruption
+    support: good
+    notes: ''
+    since_version: 2.2.0
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: fish
+    support: good
+    notes: ''
+    since_version: 2.2.0
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: guild
+    support: good
+    notes: ''
+    since_version: 2.2.0
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: jinxter
+    support: good
+    notes: ''
+    since_version: 2.2.0
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: myth
+    support: good
+    notes: ''
+    since_version: 2.2.0
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: pawn
+    support: good
+    notes: ''
+    since_version: 2.2.0
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: wonderland
+    support: good
+    notes: ''
+    since_version: 2.2.0
+    stable_platforms: dos
+    unstable_platforms: ''
+-
     id: adrift
     support: good
     notes: '- Version 5 is not yet supported'
@@ -3774,55 +3823,6 @@
     unstable_platforms: ''
 -
     id: level9
-    support: good
-    notes: ''
-    since_version: 2.2.0
-    stable_platforms: dos
-    unstable_platforms: ''
--
-    id: corruption
-    support: good
-    notes: ''
-    since_version: 2.2.0
-    stable_platforms: dos
-    unstable_platforms: ''
--
-    id: fish
-    support: good
-    notes: ''
-    since_version: 2.2.0
-    stable_platforms: dos
-    unstable_platforms: ''
--
-    id: guild
-    support: good
-    notes: ''
-    since_version: 2.2.0
-    stable_platforms: dos
-    unstable_platforms: ''
--
-    id: jinxter
-    support: good
-    notes: ''
-    since_version: 2.2.0
-    stable_platforms: dos
-    unstable_platforms: ''
--
-    id: myth
-    support: good
-    notes: ''
-    since_version: 2.2.0
-    stable_platforms: dos
-    unstable_platforms: ''
--
-    id: pawn
-    support: good
-    notes: ''
-    since_version: 2.2.0
-    stable_platforms: dos
-    unstable_platforms: ''
--
-    id: wonderland
     support: good
     notes: ''
     since_version: 2.2.0
