@@ -240,6 +240,11 @@
     alt_name: 'MicroProse Adventure Development System'
     enabled: true
 -
+    id: magnetic
+    name: 'Magnetic Scrolls'
+    alt_name: ''
+    enabled: true
+-
     id: mohawk
     name: Mohawk
     alt_name: ''

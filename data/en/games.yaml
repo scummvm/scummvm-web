@@ -168,18 +168,6 @@
     wikipedia_page: Adventure_Game_Interpreter
     series_id: ''
 -
-    id: agi-fanmade
-    name: 'Fanmade AGI game'
-    engine_id: agi
-    company_id: fan
-    moby_id: '-1'
-    steam_id: ''
-    gog_id: ''
-    additional_stores: ''
-    datafiles: ''
-    wikipedia_page: ''
-    series_id: agifan
--
     id: agidemo
     name: 'AGI Demo'
     engine_id: agi
@@ -3912,18 +3900,6 @@
     wikipedia_page: Magic_Tales
     series_id: magictales
 -
-    id: magnetic
-    name: 'Magnetic Scrolls Interactive Fiction games'
-    engine_id: glk
-    company_id: glk
-    moby_id: '-1'
-    steam_id: ''
-    gog_id: ''
-    additional_stores: ''
-    datafiles: ''
-    wikipedia_page: ''
-    series_id: ''
--
     id: majestic
     name: 'Majestic Part 1: Alien Encounter'
     engine_id: director
@@ -7331,3 +7307,87 @@
     datafiles: Zork_Nemesis
     wikipedia_page: Zork_Nemesis
     series_id: zork
+-
+    id: corruption
+    name: Corruption
+    engine_id: magnetic
+    company_id: magnetic
+    moby_id: '1029'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: Corruption
+    wikipedia_page: Corruption_(1988_video_game)
+    series_id: ''
+-
+    id: fish
+    name: Fish!
+    engine_id: magnetic
+    company_id: magnetic
+    moby_id: '2755'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: Fish!
+    wikipedia_page: Fish!
+    series_id: ''
+-
+    id: guild
+    name: 'The Guild of Thieves'
+    engine_id: magnetic
+    company_id: magnetic
+    moby_id: '1323'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: The_Guild_of_Thieves
+    wikipedia_page: The_Guild_of_Thieves
+    series_id: ''
+-
+    id: jinxter
+    name: Jinxter
+    engine_id: magnetic
+    company_id: magnetic
+    moby_id: '1291'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: Jinxter
+    wikipedia_page: Jinxter
+    series_id: ''
+-
+    id: myth
+    name: Myth
+    engine_id: magnetic
+    company_id: magnetic
+    moby_id: '2796'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: Myth
+    wikipedia_page: Myth_(1989_video_game)
+    series_id: ''
+-
+    id: pawn
+    name: 'The Pawn'
+    engine_id: magnetic
+    company_id: magnetic
+    moby_id: '1322'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: The_Pawn
+    wikipedia_page: The_Pawn
+    series_id: ''
+-
+    id: wonderland
+    name: Wonderland
+    engine_id: magnetic
+    company_id: magnetic
+    moby_id: '97'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: Wonderland
+    wikipedia_page: Wonderland_(video_game)
+    series_id: ''

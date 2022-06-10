@@ -1239,13 +1239,6 @@
     stable_platforms: 'ios,mac,win'
     unstable_platforms: ''
 -
-    id: agi-fanmade
-    support: good
-    notes: '- Many fan games are untested and may have issues. - AGIMOUSE, AGIPAL hacks are also supported by this target - AGI256 and AGI256-2 hacks are not supported by this target - Occasional graphics glitches'
-    since_version: 0.10.0
-    stable_platforms: 'coco3,dos'
-    unstable_platforms: ''
--
     id: bc
     support: good
     notes: '- Apple IIgs version has no sound'
@@ -1496,13 +1489,6 @@
     notes: '- Occasional graphical glitches'
     since_version: 0.10.0
     stable_platforms: dos
-    unstable_platforms: ''
--
-    id: agi-fanmade
-    support: good
-    notes: '- Many fan games are untested and may have issues. - AGIMOUSE, AGIPAL, AGI256 and AGI256-2 hacks are also supported by this target - Occasional graphics glitches'
-    since_version: 0.11.0
-    stable_platforms: 'coco3,dos'
     unstable_platforms: ''
 -
     id: goldrush
@@ -3794,7 +3780,49 @@
     stable_platforms: dos
     unstable_platforms: ''
 -
-    id: magnetic
+    id: corruption
+    support: good
+    notes: ''
+    since_version: 2.2.0
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: fish
+    support: good
+    notes: ''
+    since_version: 2.2.0
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: guild
+    support: good
+    notes: ''
+    since_version: 2.2.0
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: jinxter
+    support: good
+    notes: ''
+    since_version: 2.2.0
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: myth
+    support: good
+    notes: ''
+    since_version: 2.2.0
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: pawn
+    support: good
+    notes: ''
+    since_version: 2.2.0
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: wonderland
     support: good
     notes: ''
     since_version: 2.2.0
