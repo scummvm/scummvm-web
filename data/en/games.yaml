@@ -867,156 +867,156 @@
     id: carolreed10
     name: 'Carol Reed 10 - Bosch''s Damnation'
     engine_id: wintermute
-    company_id: unknown
+    company_id: mdna
     moby_id: '68293'
     steam_id: ''
     gog_id: ''
     additional_stores: '- [MDNA Games](http://www.mdna-games.com/Bosch/buy.htm)'
-    datafiles: ''
+    datafiles: 'Carol_Reed_10:_Bosch%27s_Damnation'
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
 -
     id: carolreed11
     name: 'Carol Reed 11 - Shades Of Black'
     engine_id: wintermute
-    company_id: unknown
+    company_id: mdna
     moby_id: '81267'
     steam_id: ''
     gog_id: ''
     additional_stores: '- [MDNA Games](http://www.mdna-games.com/Shades/buy.htm)'
-    datafiles: ''
+    datafiles: 'Carol_Reed_11:_Shades_Of_Black'
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
 -
     id: carolreed12
     name: 'Carol Reed 12 - Profound Red'
     engine_id: wintermute
-    company_id: unknown
+    company_id: mdna
     moby_id: '115321'
     steam_id: ''
     gog_id: ''
     additional_stores: '- [MDNA Games](http://www.mdna-games.com/Profound/buy.htm)'
-    datafiles: ''
+    datafiles: 'Carol_Reed_12:_Profound_Red'
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
 -
     id: carolreed13
     name: 'Carol Reed 13 - The Birdwatcher'
     engine_id: wintermute
-    company_id: unknown
+    company_id: mdna
     moby_id: '114389'
     steam_id: ''
     gog_id: ''
     additional_stores: '- [MDNA Games](http://www.mdna-games.com/Birdwatcher/buy.htm)'
-    datafiles: ''
+    datafiles: 'Carol_Reed_13:_The_Birdwatcher'
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
 -
     id: carolreed14
     name: 'Carol Reed 14 - The Fall Of April'
     engine_id: wintermute
-    company_id: unknown
+    company_id: mdna
     moby_id: '122064'
     steam_id: ''
     gog_id: ''
     additional_stores: '- [MDNA Games](http://www.mdna-games.com/April/buy.htm)'
-    datafiles: ''
+    datafiles: 'Carol_Reed_14:_The_Fall_of_April'
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
 -
     id: carolreed15
     name: 'Carol Reed 15 - Geospots'
     engine_id: wintermute
-    company_id: unknown
+    company_id: mdna
     moby_id: ''
     steam_id: ''
     gog_id: ''
     additional_stores: '- [MDNA Games](http://www.mdna-games.com/Geospots/buy.htm)'
-    datafiles: ''
-    wikipedia_page: ''
-    series_id: ''
+    datafiles: 'Carol_Reed_15:_Geospots'
+    wikipedia_page: Carol_Reed_Mysteries
+    series_id: carol
 -
     id: carolreed16
     name: 'Carol Reed 16 - Quarantine Diary'
     engine_id: wintermute
-    company_id: unknown
+    company_id: mdna
     moby_id: ''
     steam_id: ''
     gog_id: ''
     additional_stores: '- [MDNA Games](http://www.mdna-games.com/Quarantine/buy.htm)'
-    datafiles: ''
-    wikipedia_page: ''
-    series_id: ''
+    datafiles: 'Carol_Reed_16:_Quarantine_Diary'
+    wikipedia_page: Carol_Reed_Mysteries
+    series_id: carol
 -
     id: carolreed4
     name: 'Carol Reed 4 - East Side Story'
     engine_id: wintermute
-    company_id: unknown
+    company_id: mdna
     moby_id: '31651'
     steam_id: ''
     gog_id: ''
     additional_stores: '- [MDNA Games](http://www.mdna-games.com/East/buy.htm)'
-    datafiles: ''
+    datafiles: 'Carol_Reed_4:_East_Side_Story'
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
 -
     id: carolreed5
     name: 'Carol Reed 5 - The Colour of Murder'
     engine_id: wintermute
-    company_id: unknown
+    company_id: mdna
     moby_id: '37764'
     steam_id: ''
     gog_id: ''
     additional_stores: '- [MDNA Games](http://www.mdna-games.com/Colour/buy.htm)'
-    datafiles: ''
+    datafiles: 'Carol_Reed_5:_The_Colour_of_Murder'
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
 -
     id: carolreed6
     name: 'Carol Reed 6 - Black Circle'
     engine_id: wintermute
-    company_id: unknown
+    company_id: mdna
     moby_id: '48356'
     steam_id: ''
     gog_id: ''
     additional_stores: '- [MDNA Games](http://www.mdna-games.com/Black_Circle/buy.htm)'
-    datafiles: ''
+    datafiles: 'Carol_Reed_6:_Black_Circle'
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
 -
     id: carolreed7
     name: 'Carol Reed 7 - Blue Madonna'
     engine_id: wintermute
-    company_id: unknown
+    company_id: mdna
     moby_id: '49831'
     steam_id: ''
     gog_id: ''
     additional_stores: '- [MDNA Games](http://www.mdna-games.com/Blue_Madonna/buy.htm)'
-    datafiles: ''
+    datafiles: 'Carol_Reed_7:_Blue_Madonna'
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
 -
     id: carolreed8
     name: 'Carol Reed 8 - Amber''s Blood'
     engine_id: wintermute
-    company_id: unknown
+    company_id: mdna
     moby_id: '68289'
     steam_id: ''
     gog_id: ''
     additional_stores: '- [MDNA Games](http://www.mdna-games.com/Amber/buy.htm)'
-    datafiles: ''
+    datafiles: 'Carol_Reed_8:_Amber%27s_Blood'
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
 -
     id: carolreed9
     name: 'Carol Reed 9 - Cold Case Summer'
     engine_id: wintermute
-    company_id: unknown
+    company_id: mdna
     moby_id: '68291'
     steam_id: ''
     gog_id: ''
     additional_stores: '- [MDNA Games](http://www.mdna-games.com/Cold/buy.htm)'
-    datafiles: ''
+    datafiles: 'Carol_Reed_9:_Cold_Case_Summer'
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
 -
