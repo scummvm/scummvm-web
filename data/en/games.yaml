@@ -1371,7 +1371,7 @@
     id: cubert
     name: 'Cubert Badbone, P.I.'
     engine_id: sludge
-    company_id: unknown
+    company_id: deirdrakiai
     moby_id: '24279'
     steam_id: ''
     gog_id: ''
@@ -2192,7 +2192,7 @@
     steam_id: '294570'
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: 'Freddi_Fish_5:_The_Case_of_the_Creature_of_Coral_Cove'
     wikipedia_page: 'Freddi_Fish_5:_The_Case_of_the_Creature_of_Coral_Cove'
     series_id: freddi
 -
@@ -3476,7 +3476,7 @@
     steam_id: '252710'
     gog_id: last_express_the
     additional_stores: ''
-    datafiles: ''
+    datafiles: The_Last_Express
     wikipedia_page: The_Last_Express
     series_id: ''
 -
@@ -4016,9 +4016,9 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Martian_Memorandum
     wikipedia_page: Martian_Memorandum
-    series_id: ''
+    series_id: texmurphy
 -
     id: martiandreams
     name: 'Ultima: Worlds of Adventure 2 - Martian Dreams'
@@ -4028,7 +4028,7 @@
     steam_id: ''
     gog_id: ultima_worlds_of_adventure_2_martian_dreams
     additional_stores: ''
-    datafiles: ''
+    datafiles: 'Ultima:_Worlds_of_Adventure_2_-_Martian_Dreams'
     wikipedia_page: 'Ultima:_Worlds_of_Adventure_2:_Martian_Dreams'
     series_id: ultima
 -
@@ -4040,7 +4040,7 @@
     steam_id: ''
     gog_id: ultima_worlds_of_adventure_2_martian_dreams
     additional_stores: ''
-    datafiles: ''
+    datafiles: 'Ultima:_Worlds_of_Adventure_2_-_Martian_Dreams'
     wikipedia_page: 'Ultima:_Worlds_of_Adventure_2:_Martian_Dreams'
     series_id: ultima
 -
@@ -4196,7 +4196,7 @@
     steam_id: '254880'
     gog_id: moonbase_commander
     additional_stores: ''
-    datafiles: ''
+    datafiles: Moonbase_Commander
     wikipedia_page: MoonBase_Commander
     series_id: ''
 -
@@ -4412,7 +4412,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: The_Neverhood
     wikipedia_page: The_Neverhood
     series_id: ''
 -
@@ -4424,7 +4424,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: The_New_Kid_on_the_Block
     wikipedia_page: Living_Books
     series_id: livingbooks
 -
@@ -4772,7 +4772,7 @@
     steam_id: '1299710'
     gog_id: return_of_the_phantom
     additional_stores: ''
-    datafiles: ''
+    datafiles: Return_of_the_Phantom
     wikipedia_page: Return_of_the_Phantom
     series_id: ''
 -
@@ -5060,7 +5060,7 @@
     steam_id: ''
     gog_id: galador_the_prince_and_the_coward
     additional_stores: ''
-    datafiles: ''
+    datafiles: The_Prince_and_the_Coward
     wikipedia_page: The_Prince_and_the_Coward
     series_id: ''
 -
@@ -5816,7 +5816,7 @@
     steam_id: '343800'
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Shadowgate
     wikipedia_page: Shadowgate
     series_id: ''
 -
@@ -5828,7 +5828,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: 'Sheila_Rae,_the_Brave'
     wikipedia_page: Living_Books
     series_id: livingbooks
 -
@@ -5896,11 +5896,11 @@
     name: 'Marvel Comics Spider-Man: The Sinister Six'
     engine_id: hypno
     company_id: brooklyn
-    moby_id: ''
+    moby_id: '34907'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: 'Marvel_Comics_Spider-Man:_The_Sinister_Six'
     wikipedia_page: 'Spider-Man_in_video_games#Spider-Man:_The_Sinister_Six'
     series_id: ''
 -
@@ -5960,7 +5960,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Backyard_Soccer
     wikipedia_page: Backyard_Soccer
     series_id: juniorsports
 -
@@ -5972,7 +5972,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Backyard_Soccer_2004
     wikipedia_page: Backyard_Soccer
     series_id: juniorsports
 -
@@ -5984,7 +5984,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Backyard_Soccer_MLS_Edition
     wikipedia_page: Backyard_Soccer_MLS_Edition
     series_id: juniorsports
 -
@@ -6125,7 +6125,7 @@
     engine_id: agi
     company_id: fan
     moby_id: '11653'
-    steam_id: ''
+    steam_id: '11653'
     gog_id: ''
     additional_stores: ''
     datafiles: ''
@@ -6196,7 +6196,7 @@
     name: 'Space Quest IV.5 - Roger Wilco and the Voyage Home'
     engine_id: ags
     company_id: westend
-    moby_id: ''
+    moby_id: '39554'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
@@ -6232,7 +6232,7 @@
     name: 'Space Quest Minus 1: Decisions of the Elders'
     engine_id: ags
     company_id: fan
-    moby_id: ''
+    moby_id: '146099'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
@@ -6244,7 +6244,7 @@
     name: 'Space Quest: Incinerations'
     engine_id: ags
     company_id: fan
-    moby_id: ''
+    moby_id: '146101'
     steam_id: ''
     gog_id: ''
     additional_stores: '- [Developer''s Website](http://www.boxofmystery.com/games/incinerations/)'
@@ -6256,7 +6256,7 @@
     name: 'Space Quest: Vohaul Strikes Back'
     engine_id: ags
     company_id: teamvsb
-    moby_id: ''
+    moby_id: '97968'
     steam_id: ''
     gog_id: ''
     additional_stores: '- [Developer''s Website](https://www.sqvsb.com/download)'
@@ -6476,7 +6476,7 @@
     steam_id: ''
     gog_id: might_and_magic_6_limited_edition
     additional_stores: ''
-    datafiles: ''
+    datafiles: 'Might_and_Magic:_Swords_of_Xeen'
     wikipedia_page: 'Might_and_Magic_V:_Darkside_of_Xeen#Swords_of_Xeen'
     series_id: mm
 -
@@ -6603,7 +6603,7 @@
     id: tgttpoacs
     name: 'The Game That Takes Place on a Cruise Ship'
     engine_id: sludge
-    company_id: unknown
+    company_id: deirdrakiai
     moby_id: '33841'
     steam_id: ''
     gog_id: ''
@@ -6692,7 +6692,7 @@
     steam_id: ''
     gog_id: worlds_of_ultima_the_savage_empire
     additional_stores: ''
-    datafiles: ''
+    datafiles: 'Worlds_of_Ultima:_The_Savage_Empire'
     wikipedia_page: 'Worlds_of_Ultima:_The_Savage_Empire'
     series_id: ultima
 -
@@ -6704,7 +6704,7 @@
     steam_id: ''
     gog_id: worlds_of_ultima_the_savage_empire
     additional_stores: ''
-    datafiles: ''
+    datafiles: 'Worlds_of_Ultima:_The_Savage_Empire'
     wikipedia_page: 'Worlds_of_Ultima:_The_Savage_Empire'
     series_id: ultima
 -
@@ -6764,7 +6764,7 @@
     steam_id: '593900'
     gog_id: tender_loving_care
     additional_stores: ''
-    datafiles: ''
+    datafiles: Tender_Loving_Care
     wikipedia_page: Tender_Loving_Care_(video_game)
     series_id: ''
 -
@@ -6776,7 +6776,7 @@
     steam_id: '6310'
     gog_id: the_longest_journey
     additional_stores: ''
-    datafiles: ''
+    datafiles: The_Longest_Journey
     wikipedia_page: The_Longest_Journey
     series_id: ''
 -
@@ -6800,7 +6800,7 @@
     steam_id: '356210'
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Tony_Tough_and_the_Night_of_Roasted_Moths
     wikipedia_page: Tony_Tough_and_the_Night_of_Roasted_Moths
     series_id: ''
 -
@@ -6932,7 +6932,7 @@
     steam_id: ''
     gog_id: ultima_1_2_3
     additional_stores: ''
-    datafiles: ''
+    datafiles: 'Ultima_I:_The_First_Age_of_Darkness'
     wikipedia_page: 'Ultima_I:_The_First_Age_of_Darkness'
     series_id: ultima
 -
@@ -6944,7 +6944,7 @@
     steam_id: ''
     gog_id: ultima_4
     additional_stores: ''
-    datafiles: ''
+    datafiles: 'Ultima_IV:_Quest_of_the_Avatar'
     wikipedia_page: 'Ultima_IV:_Quest_of_the_Avatar'
     series_id: ultima
 -
@@ -6956,7 +6956,7 @@
     steam_id: ''
     gog_id: ultima_456
     additional_stores: ''
-    datafiles: ''
+    datafiles: 'Ultima_VI:_The_False_Prophet'
     wikipedia_page: 'Ultima_VI:_The_False_Prophet'
     series_id: ultima
 -
@@ -6968,7 +6968,7 @@
     steam_id: ''
     gog_id: ultima_456
     additional_stores: ''
-    datafiles: ''
+    datafiles: 'Ultima_VI:_The_False_Prophet'
     wikipedia_page: 'Ultima_VI:_The_False_Prophet'
     series_id: ultima
 -
@@ -6992,7 +6992,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Uncle_Henry%27s_Playhouse
     wikipedia_page: Uncle_Henry%27s_Playhouse
     series_id: t7g
 -
@@ -7136,7 +7136,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Spaceship_Warlock
     wikipedia_page: Spaceship_Warlock
     series_id: ''
 -
@@ -7196,7 +7196,7 @@
     steam_id: '1367160'
     gog_id: wetlands
     additional_stores: ''
-    datafiles: ''
+    datafiles: Wetlands
     wikipedia_page: Wetlands_(video_game)
     series_id: ''
 -

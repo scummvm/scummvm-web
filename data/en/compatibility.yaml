@@ -4311,3 +4311,31 @@
     since_version: DEV
     stable_platforms: 'amiga,apple2,atarist,c64,dos,nes'
     unstable_platforms: ''
+-
+    id: babayaga
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: imoking
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: littlesamurai
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: crousti
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''

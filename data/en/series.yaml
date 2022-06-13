@@ -171,6 +171,9 @@
     id: t7g
     name: 'The 7th Guest'
 -
+    id: texmurphy
+    name: 'Tex Murphy'
+-
     id: transylvania
     name: Transylvania
 -
