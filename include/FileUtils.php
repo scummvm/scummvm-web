@@ -34,15 +34,15 @@ class FileUtils
         $file_size = round((@filesize($path) / 1024));
         
         if ($file_size < 1024) {
-            $file_size = $file_size . "K";
+            $file_size = $file_size . " KiB";
         } else {
             $file_size /= 1024;
 
             if ($file_size < 1024) {
-                $file_size = round($file_size, 1) . "M";
+                $file_size = round($file_size, 1) . " MiB";
             } else {
                 $file_size /= 1024;
-                $file_size = round($file_size, 2) . "G";
+                $file_size = round($file_size, 2) . " GiB";
             }
         }
         return $file_size;
