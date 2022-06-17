@@ -4339,3 +4339,10 @@
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: ''
+-
+    id: versailles
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'dos,mac,win'
+    unstable_platforms: ''
