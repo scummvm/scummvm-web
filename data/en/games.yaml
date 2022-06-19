@@ -6012,6 +6012,18 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: soldierboyz
+    name: 'Soldier Boyz'
+    engine_id: hypno
+    company_id: hypnotix
+    moby_id: '8383'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Soldier_Boyz_(video_game)
+    series_id: ''
+-
     id: soltys
     name: Sołtys
     engine_id: cge

@@ -321,3 +321,10 @@
     minor: '5'
     patch: '1'
     name: Californium
+-
+    id: 2.6.0
+    release_date: ''
+    major: '2'
+    minor: '6'
+    patch: '0'
+    name: ''

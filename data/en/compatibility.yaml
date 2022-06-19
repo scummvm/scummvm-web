@@ -4077,272 +4077,286 @@
     id: kyra1
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'amiga,dos,fmtowns,mac,pc98'
     unstable_platforms: ''
 -
     id: monkey4
     support: bugged
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: win
     unstable_platforms: ps2
 -
     id: icb
     support: broken
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: win
     unstable_platforms: psx
 -
     id: sanitarium
     support: untested
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: toon
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: hadesch
     support: good
     notes: '- Minotaur, Troy and Medusa minigames are skipped'
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: soldierboyz
+    support: good
+    notes: '- Minor missing features (back to menu, switch to flasback mode, difficulties)  - Minor user interface issues (not pixel perfect reproduction) - Sound volume for music/sfx should be adjusted'
+    since_version: 2.6.0
+    stable_platforms: dos
     unstable_platforms: ''
 -
     id: sinistersix
     support: good
     notes: '- English, Spanish, Italian and German releases supported - Minor missing features (back to menu)'
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: wetlands
     support: good
     notes: '- Minor missing features (back to menu, highscores)  - Minor user interface issues (not pixel perfect reproduction)'
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: private-eye
     support: good
     notes: '- All releases are supported except Japanese.'
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'win,mac'
     unstable_platforms: ''
 -
     id: ddp
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'amiga,atarist,pcbooter'
     unstable_platforms: 'apple2,c64,coco'
 -
     id: 11h
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'dos,win,mac'
     unstable_platforms: ''
 -
     id: clandestiny
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: tlc
     support: good
     notes: '- CD-ROM editions only. DVD, Steam, GOG not supported.'
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: unclehenry
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: astrochicken
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: freddi
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'ios,mac,win'
     unstable_platforms: ''
 -
     id: freddi2
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'ios,mac,win'
     unstable_platforms: ''
 -
     id: spyfox
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'ios,mac,win'
     unstable_platforms: ''
 -
     id: puttzoo
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'ios,mac,win'
     unstable_platforms: ''
 -
     id: mothergoose256
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: kquestions
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: chest
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: gk1
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'dos,win,mac'
     unstable_platforms: ''
 -
     id: hoyle5solitaire
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: lsl6hires
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'dos,win'
     unstable_platforms: mac
 -
     id: mothergoosehires
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: win
     unstable_platforms: mac
 -
     id: qfg4
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'dos,win'
     unstable_platforms: ''
 -
     id: balloon
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: chewy
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: freddi3
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'ios,mac,win'
     unstable_platforms: ''
 -
     id: thinkerk
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: pajama2
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'ios,mac,win'
     unstable_platforms: ''
 -
     id: kq2
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'amiga,apple2gs,coco3,dos,mac'
     unstable_platforms: ''
 -
     id: maniac
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'amiga,apple2,atarist,c64,dos,nes'
     unstable_platforms: ''
 -
     id: babayaga
     support: untested
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: imoking
     support: untested
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: littlesamurai
     support: untested
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: crousti
     support: untested
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: versailles
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.6.0
     stable_platforms: 'dos,mac,win'
+    unstable_platforms: ''
+-
+    id: soldierboyz
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: dos
     unstable_platforms: ''
