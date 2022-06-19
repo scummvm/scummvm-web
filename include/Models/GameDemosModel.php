@@ -54,7 +54,7 @@ class GameDemosModel extends BasicModel
             'demos' => []
         ];
         foreach ($groups as $key => $group) {
-            if (count($groups[$key]['demos']) <= 15) {
+            if (count($groups[$key]['demos']) <= 10) {
                 $groups['other']['demos'] = \array_merge($groups['other']['demos'], $groups[$key]['demos']);
                 unset($groups[$key]);
             }
