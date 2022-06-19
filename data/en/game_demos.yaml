@@ -3335,3 +3335,43 @@
     language2: ''
     language3: ''
     url: /frs/demos/chewy/chewy-dos-demo-de.zip
+-
+    id: obsidian
+    platform: mac
+    category: 'SegaSoft CD'
+    language: ''
+    language2: ''
+    language3: ''
+    url: /frs/demos/mtropolis/bsidian-mac-demo.zip
+-
+    id: obsidian
+    platform: win
+    category: '26th October 1996, PC Gamer 2.12 (Jan ''97)'
+    language: ''
+    language2: ''
+    language3: ''
+    url: /frs/demos/mtropolis/bsidian-win-demo.zip
+-
+    id: obsidian
+    platform: win
+    category: '22nd October 1996'
+    language: ''
+    language2: ''
+    language3: ''
+    url: /frs/demos/mtropolis/bsidian-win-demo2.zip
+-
+    id: obsidian
+    platform: win
+    category: '4th October 1996, Ocean/Infogrames Show Case December 1997'
+    language: ''
+    language2: ''
+    language3: ''
+    url: /frs/demos/mtropolis/bsidian-win-demo3.zip
+-
+    id: obsidian
+    platform: win
+    category: '3rd October 1996'
+    language: ''
+    language2: ''
+    language3: ''
+    url: /frs/demos/mtropolis/bsidian-win-demo4.zip
