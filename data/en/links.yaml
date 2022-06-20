@@ -45,6 +45,11 @@
     The following are links to projects that modify games in ways that were not possible in the original game engines,
     but are possible now thanks to ScummVM.
   links:
+    - name: Remastered Soundtracks by The Fat Man and Team Fat
+      notes: >-
+        ScummVM-compatible music sets by the original composer of several supported games, inlcuding instructions on 
+        how to hear the remastered music while playing.
+      url: 'https://thefatmanandteamfat.bandcamp.com'
     - name: The Longest Journey HD
       notes: >-
         A mod that includes neural network upscaled backgrounds and sprites, redrawn user interface and a lot of other 
