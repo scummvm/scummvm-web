@@ -3446,7 +3446,7 @@
 -
     id: bladerunner
     support: good
-    notes: ''
+    notes: '- Enhanced Edition is not supported'
     since_version: 2.1.0
     stable_platforms: win
     unstable_platforms: ''
