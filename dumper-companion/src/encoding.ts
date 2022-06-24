@@ -49,7 +49,7 @@ export function escapeString(str: string): string {
         if (ch == '\x81') {
             // Escape the escape character
             res += '\x81\x79';
-        } else if ('<>:"/\\|?*'.includes(ch) || codePoint(ch) < 0x20) {
+        } else if ('<>:"/\\|?*\x7f'.includes(ch) || codePoint(ch) < 0x20) {
             // Escape characters forbidden on Windows
             // https://docs.microsoft.com/en-us/windows/win32/fileio/naming-a-file#naming-conventions
             res += '\x81' + String.fromCodePoint(0x80 + codePoint(ch));
