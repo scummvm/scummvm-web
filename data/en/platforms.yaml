@@ -155,3 +155,7 @@
     name: Xbox
     id: xbox
     moby_id: '13'
+-
+    name: 'ZX Spectrum'
+    id: zx
+    moby_id: '41'
