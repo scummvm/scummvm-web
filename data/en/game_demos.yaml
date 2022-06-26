@@ -984,6 +984,14 @@
     language3: ''
     url: /frs/demos/gob/archibald-dos-ni-demo1-en.zip
 -
+    id: daniel
+    platform: win
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/mohawk/daniel-win-demo.zip
+-
     id: dynasty
     platform: win
     category: Non-Interactive

@@ -4354,6 +4354,20 @@
     stable_platforms: 'dos,mac,win'
     unstable_platforms: ''
 -
+    id: create
+    support: untested
+    notes: ''
+    since_version: 2.6.0
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: daniel
+    support: untested
+    notes: ''
+    since_version: 2.6.0
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
     id: soldierboyz
     support: untested
     notes: ''
