@@ -2122,6 +2122,14 @@
 -
     id: puttcircus
     platform: win
+    category: US
+    language: en_US
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/he/puttcircus-win-demo-us.zip
+-
+    id: puttcircus
+    platform: win
     category: French
     language: fr
     language2: ''
@@ -3350,7 +3358,7 @@
     language: ''
     language2: ''
     language3: ''
-    url: /frs/demos/mtropolis/bsidian-mac-demo.zip
+    url: /frs/demos/mtropolis/obsidian-mac-demo.zip
 -
     id: obsidian
     platform: win
@@ -3358,7 +3366,7 @@
     language: ''
     language2: ''
     language3: ''
-    url: /frs/demos/mtropolis/bsidian-win-demo.zip
+    url: /frs/demos/mtropolis/obsidian-win-demo.zip
 -
     id: obsidian
     platform: win
@@ -3366,7 +3374,7 @@
     language: ''
     language2: ''
     language3: ''
-    url: /frs/demos/mtropolis/bsidian-win-demo2.zip
+    url: /frs/demos/mtropolis/obsidian-win-demo2.zip
 -
     id: obsidian
     platform: win
@@ -3374,7 +3382,7 @@
     language: ''
     language2: ''
     language3: ''
-    url: /frs/demos/mtropolis/bsidian-win-demo3.zip
+    url: /frs/demos/mtropolis/obsidian-win-demo3.zip
 -
     id: obsidian
     platform: win
@@ -3382,4 +3390,4 @@
     language: ''
     language2: ''
     language3: ''
-    url: /frs/demos/mtropolis/bsidian-win-demo4.zip
+    url: /frs/demos/mtropolis/obsidian-win-demo4.zip

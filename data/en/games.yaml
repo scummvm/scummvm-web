@@ -666,7 +666,7 @@
     company_id: westwood
     moby_id: '341'
     steam_id: ''
-    gog_id: blade_runner_enhanced_edition
+    gog_id: blade_runner
     additional_stores: ''
     datafiles: Blade_Runner
     wikipedia_page: Blade_Runner_(1997_video_game)
@@ -678,7 +678,7 @@
     company_id: westwood
     moby_id: '32411'
     steam_id: ''
-    gog_id: blade_runner_enhanced_edition
+    gog_id: blade_runner
     additional_stores: ''
     datafiles: Blade_Runner
     wikipedia_page: Blade_Runner_(1997_video_game)
