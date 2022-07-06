@@ -64,6 +64,13 @@
         A fanmade selection of recreated soundtracks based on the original MIDI files
         for several games supported by ScummVM.
       url: 'https://www.pixelrefresh.com/content/scummvm-music-enhancement-project/'
+    - name: Loom Replacement Music
+      notes: >-
+        Instructions for how to replace the music in floppy versions of Loom
+        with the corresponding music from the Swan Lake ballet. There are
+        currently no known freely downloadable tracks, so you have to provide
+        them yourself.
+      url: 'https://wiki.scummvm.org/index.php/Loom#Audio_tracks'
 - name: Other sites of interest
   notes: >-
     The following are links to sites that provide news and help on retro-gaming
