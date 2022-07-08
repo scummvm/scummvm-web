@@ -305,7 +305,7 @@
     game_id: bladerunner
     category_icon: bladerunner
     url: 'Blade Runner/Blade_Runner_Subtitles-v7.zip'
-    name: 'Subtitles (English, French, German, Italian Spanish Subtitles AddOn)'
+    name: 'Subtitles (English, French, German, Italian, Spanish Subtitles AddOn)'
     notes: 'Requires ScummVM 2.1.0'
 -
     category: addons
