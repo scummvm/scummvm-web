@@ -416,6 +416,18 @@
       name: "Chewy"
       person:
       -
+        name: "Paul Gilbert"
+        alias: "dreammaster"
+        description: ""
+      -
+        name: "Eugene Sandulenko"
+        alias: "sev"
+        description: ""
+      -
+        name: "Arnaud Boutonn&eacute;"
+        alias: "Strangerke"
+        description: ""
+      -
         name: "Filippos Karapetis"
         alias: "bluegr"
         description: ""
@@ -627,6 +639,10 @@
         name: "Michael J. Roberts"
         alias: ""
         description: "TADS interpreter"
+      -
+        name: "Avijeet Maurya"
+        alias: "StableSteady"
+        description: "Scott Sub-engine"
     -
       name: "Gnap"
       person:
@@ -959,6 +975,13 @@
       -
         name: "Paul Gilbert"
         alias: "dreammaster"
+        description: ""
+    -
+      name: "mTropolis"
+      person:
+      -
+        name: "Eric Lasota"
+        alias: "OneEightHundred"
         description: ""
     -
       name: "MutationOfJB"
@@ -2629,6 +2652,69 @@
         name: "???"
         alias: "Raina"
         description: "ScummVM forum buttons"
+  -
+    title: "Icons pack"
+    anchor: "icons_pack"
+    group:
+    -
+      name: ""
+      person:
+      -
+        name: "David Calvert"
+        alias: "davidcalvertfr"
+        description: ""
+      -
+        name: "Eugene Sandulenko"
+        alias: "sev"
+        description: ""
+      -
+        name: "J Moretti"
+        alias: ""
+        description: ""
+      -
+        name: "Jennifer McMurray"
+        alias: ""
+        description: ""
+      -
+        name: "Lothar Serra Mari"
+        alias: "rootfather"
+        description: ""
+      -
+        name: "Oleg Ermakov"
+        alias: "epushiron"
+        description: ""
+      -
+        name: "Olly Dean"
+        alias: "olly"
+        description: ""
+      -
+        name: "Stefan Philippsen"
+        alias: ""
+        description: ""
+      -
+        name: "???"
+        alias: "Canuma"
+        description: ""
+      -
+        name: "???"
+        alias: "SupSuper"
+        description: ""
+      -
+        name: "???"
+        alias: "Thunderforge"
+        description: ""
+      -
+        name: "???"
+        alias: "neuromancer"
+        description: ""
+      -
+        name: "???"
+        alias: "nightm4re94"
+        description: ""
+      -
+        name: "???"
+        alias: "trembyle"
+        description: ""
   -
     title: "Code contributions"
     anchor: "code_contrib"
