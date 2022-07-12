@@ -166,7 +166,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: Adventure_Game_Interpreter
-    series_id: ''
+    series_id: sierranoseries
 -
     id: agidemo
     name: 'AGI Demo'
@@ -178,7 +178,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: ''
+    series_id: sierranoseries
 -
     id: ags
     name: 'Adventure Game Studio games'
@@ -1138,7 +1138,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: ''
+    series_id: sierrachristmas
 -
     id: christmas1990
     name: 'Christmas Card 1990: The Seasoned Professional'
@@ -1150,7 +1150,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: ''
+    series_id: sierrachristmas
 -
     id: christmas1992
     name: 'Christmas Card 1992'
@@ -1162,7 +1162,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: ''
+    series_id: sierrachristmas
 -
     id: clandestiny
     name: Clandestiny
@@ -1510,7 +1510,7 @@
     additional_stores: ''
     datafiles: The_Dig
     wikipedia_page: The_Dig_(video_game)
-    series_id: ''
+    series_id: lucasartsnoseries
 -
     id: dimp
     name: 'Simon the Sorcerer''s Puzzle Pack: Demon in my Pocket'
@@ -1847,6 +1847,18 @@
     datafiles: 'Elvira_2:_The_Jaws_of_Cerberus'
     wikipedia_page: 'Elvira_II:_The_Jaws_of_Cerberus'
     series_id: elvira
+-
+    id: enchanter
+    name: Enchanter
+    engine_id: glk
+    company_id: infocom
+    moby_id: '56'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Enchanter_(video_game)
+    series_id: enchanter
 -
     id: enclosure
     name: 'Enclosure 1'
@@ -2218,7 +2230,7 @@
     additional_stores: ''
     datafiles: Freddy_Pharkas
     wikipedia_page: 'Freddy_Pharkas:_Frontier_Pharmacist'
-    series_id: ''
+    series_id: sierranoseries
 -
     id: ft
     name: 'Full Throttle'
@@ -2230,7 +2242,7 @@
     additional_stores: ''
     datafiles: Full_Throttle
     wikipedia_page: Full_Throttle_(1995_video_game)
-    series_id: ''
+    series_id: lucasartsnoseries
 -
     id: fta2
     name: 'Halls of the Dead: Faery Tale Adventure II'
@@ -2278,7 +2290,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: ''
+    series_id: sierranoseries
 -
     id: fw
     name: 'Future Wars: Adventures in Time'
@@ -2446,7 +2458,7 @@
     additional_stores: '- [Sunlight Games](http://shop.sunlight-games.com/product/2)'
     datafiles: Gold_Rush
     wikipedia_page: Gold_Rush!
-    series_id: ''
+    series_id: sierranoseries
 -
     id: grandma
     name: 'Just Grandma and Me'
@@ -2506,7 +2518,7 @@
     additional_stores: ''
     datafiles: Grim_Fandango
     wikipedia_page: Grim_Fandango
-    series_id: ''
+    series_id: lucasartsnoseries
 -
     id: guild
     name: 'The Guild of Thieves'
@@ -2866,7 +2878,7 @@
     additional_stores: ''
     datafiles: 'Codename:_ICEMAN'
     wikipedia_page: 'Codename:_ICEMAN'
-    series_id: ''
+    series_id: sierranoseries
 -
     id: id4p1
     name: 'iD4 Mission Disk 1 - Alien Supreme Commander'
@@ -3058,7 +3070,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: ''
+    series_id: indy
 -
     id: indyzak
     name: 'Games, Games, Games: Maniac Mansion + Zak McKracken + Indiana Jones and the last Crusade'
@@ -3070,7 +3082,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: ''
+    series_id: lucasartsnoseries
 -
     id: inndemo
     name: 'ImagiNation Network (INN) Demo'
@@ -3082,7 +3094,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: ''
+    series_id: sierranoseries
 -
     id: interview
     name: 'The Interview'
@@ -3190,7 +3202,7 @@
     additional_stores: ''
     datafiles: Jones_in_the_Fast_Lane
     wikipedia_page: Jones_in_the_Fast_Lane
-    series_id: ''
+    series_id: sierranoseries
 -
     id: julia
     name: J.U.L.I.A.
@@ -3610,7 +3622,7 @@
     additional_stores: ''
     datafiles: Lighthouse
     wikipedia_page: 'Lighthouse:_The_Dark_Being'
-    series_id: ''
+    series_id: sierranoseries
 -
     id: lilmonster
     name: 'Little Monster at School'
@@ -3742,7 +3754,7 @@
     additional_stores: '<br /> ![Go out and buy Loom™ today!](https://upload.wikimedia.org/wikipedia/en/4/4b/LOOM_advert_in_Monkey_Island.png "<ADVERTISEMENT>")'
     datafiles: Loom
     wikipedia_page: Loom_(video_game)
-    series_id: ''
+    series_id: lucasartsnoseries
 -
     id: lost
     name: 'Pajama Sam''s Lost & Found'
@@ -4464,6 +4476,18 @@
     wikipedia_page: 'Nightlong:_Union_City_Conspiracy'
     series_id: ''
 -
+    id: noir
+    name: 'Discworld Noir'
+    engine_id: tinsel
+    company_id: perfect
+    moby_id: '1411'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Discworld_Noir
+    series_id: dw
+-
     id: obsidian
     name: Obsidian
     engine_id: mtropolis
@@ -4666,7 +4690,7 @@
     additional_stores: ''
     datafiles: Passport_to_Adventure
     wikipedia_page: ''
-    series_id: ''
+    series_id: indy
 -
     id: pawn
     name: 'The Pawn'
@@ -4702,7 +4726,7 @@
     additional_stores: ''
     datafiles: Pepper%27s_Adventures_in_Time
     wikipedia_page: Pepper%27s_Adventures_in_Time
-    series_id: ''
+    series_id: sierranoseries
 -
     id: peril
     name: 'The Pink Panther: Passport to Peril'
@@ -4811,6 +4835,18 @@
     datafiles: ''
     wikipedia_page: ''
     series_id: pajama
+-
+    id: planetfall
+    name: Planetfall
+    engine_id: glk
+    company_id: infocom
+    moby_id: '51'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Planetfall
+    series_id: planetfall
 -
     id: playtnck1
     name: 'Playtoons Construction Kit 1 - Monsters'
@@ -5326,7 +5362,7 @@
     additional_stores: ''
     datafiles: RAMA
     wikipedia_page: Rama_(video_game)
-    series_id: ''
+    series_id: sierranoseries
 -
     id: raysmaze
     name: 'Ray''s Maze'
@@ -5638,7 +5674,7 @@
     additional_stores: ''
     datafiles: Sam_%26_Max_Hit_the_Road
     wikipedia_page: Sam_%26_Max_Hit_the_Road
-    series_id: ''
+    series_id: lucasartsnoseries
 -
     id: samsfunshop
     name: 'Pajama Sam''s One Stop Fun Shop'
@@ -5710,7 +5746,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: ''
+    series_id: sierranoseries
 -
     id: sci-fanmade
     name: 'Fanmade SCI Game'
@@ -5866,7 +5902,7 @@
     additional_stores: ''
     datafiles: Shivers
     wikipedia_page: Shivers_(video_game)
-    series_id: ''
+    series_id: sierranoseries
 -
     id: simon1
     name: 'Simon the Sorcerer'
@@ -5926,7 +5962,7 @@
     additional_stores: ''
     datafiles: Slater_%26_Charlie_Go_Camping
     wikipedia_page: Slater_%26_Charlie_Go_Camping
-    series_id: ''
+    series_id: sierranoseries
 -
     id: sleepingcub
     name: 'Magic Tales: Sleeping Cub''s Test of Courage'
@@ -6036,6 +6072,18 @@
     wikipedia_page: Sołtys_(video_game)
     series_id: ''
 -
+    id: sorcerer
+    name: Sorcerer
+    engine_id: glk
+    company_id: infocom
+    moby_id: '57'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Sorcerer_(video_game)
+    series_id: enchanter
+-
     id: sotv1
     name: 'Shadows on the Vatican - Act 1: Greed'
     engine_id: wintermute
@@ -6083,6 +6131,18 @@
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
+-
+    id: spellbreaker
+    name: Spellbreaker
+    engine_id: glk
+    company_id: infocom
+    moby_id: '58'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Spellbreaker
+    series_id: enchanter
 -
     id: spyclub
     name: 'Spy Club'
@@ -6287,6 +6347,18 @@
     datafiles: ''
     wikipedia_page: ''
     series_id: agifan
+-
+    id: stationfall
+    name: Stationfall
+    engine_id: glk
+    company_id: infocom
+    moby_id: '478'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Stationfall
+    series_id: planetfall
 -
     id: st25
     name: 'Star Trek: 25th Anniversary'
@@ -6838,7 +6910,7 @@
     additional_stores: ''
     datafiles: Torin%27s_Passage
     wikipedia_page: Torin%27s_Passage
-    series_id: ''
+    series_id: sierranoseries
 -
     id: tortoise
     name: 'Aesop''s Fables: The Tortoise and the Hare'
@@ -6898,7 +6970,7 @@
     additional_stores: ''
     datafiles: Troll%27s_Tale
     wikipedia_page: Troll%27s_Tale
-    series_id: ''
+    series_id: sierranoseries
 -
     id: tucker
     name: 'Bud Tucker in Double Trouble'
@@ -6960,6 +7032,18 @@
     wikipedia_page: 'Ultima_IV:_Quest_of_the_Avatar'
     series_id: ultima
 -
+    id: ultima4_enh
+    name: 'Ultima IV: Quest of the Avatar - Enhanced'
+    engine_id: ultima
+    company_id: origin
+    moby_id: '884'
+    steam_id: ''
+    gog_id: ultima_4
+    additional_stores: ''
+    datafiles: 'Ultima_IV:_Quest_of_the_Avatar'
+    wikipedia_page: 'Ultima_IV:_Quest_of_the_Avatar'
+    series_id: ultima
+-
     id: ultima6
     name: 'Ultima VI: The False Prophet'
     engine_id: ultima
@@ -6973,7 +7057,7 @@
     series_id: ultima
 -
     id: ultima6_enh
-    name: 'Ultima VI: The False Prophet'
+    name: 'Ultima VI: The False Prophet - Enhanced'
     engine_id: ultima
     company_id: origin
     moby_id: '104'
@@ -7318,7 +7402,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: ''
+    series_id: sierrachristmas
 -
     id: zak
     name: 'Zak McKracken and the Alien Mindbenders'
@@ -7330,7 +7414,7 @@
     additional_stores: ''
     datafiles: Zak_McKracken_and_the_Alien_Mindbenders
     wikipedia_page: Zak_McKracken_and_the_Alien_Mindbenders
-    series_id: ''
+    series_id: lucasartsnoseries
 -
     id: zakloom
     name: 'Zak McKracken & Loom'
@@ -7342,7 +7426,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: ''
+    series_id: lucasartsnoseries
 -
     id: zbang
     name: 'Zbang! The Game'
@@ -7380,6 +7464,54 @@
     wikipedia_page: 'Zork:_Grand_Inquisitor'
     series_id: zork
 -
+    id: zork0
+    name: 'Zork Zero: The Revenge of Megaboz'
+    engine_id: glk
+    company_id: infocom
+    moby_id: '55'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Zork_Zero
+    series_id: zork
+-
+    id: zork1
+    name: 'Zork I: The Great Underground Empire'
+    engine_id: glk
+    company_id: infocom
+    moby_id: '50'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Zork_I
+    series_id: zork
+-
+    id: zork2
+    name: 'Zork II: The Wizard of Frobozz'
+    engine_id: glk
+    company_id: infocom
+    moby_id: '52'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Zork_II
+    series_id: zork
+-
+    id: zork3
+    name: 'Zork III: The Dungeon Master'
+    engine_id: glk
+    company_id: infocom
+    moby_id: '53'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Zork_III
+    series_id: zork
+-
     id: zilm
     name: 'Zilm: A Game of Reflex'
     engine_id: wintermute
@@ -7402,4 +7534,16 @@
     additional_stores: ''
     datafiles: Zork_Nemesis
     wikipedia_page: Zork_Nemesis
+    series_id: zork
+-
+    id: ztuu
+    name: 'Zork: The Undiscovered Underground'
+    engine_id: glk
+    company_id: infocom
+    moby_id: '19360'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: 'Zork:_The_Undiscovered_Underground'
     series_id: zork
