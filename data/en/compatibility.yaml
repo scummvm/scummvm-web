@@ -4403,6 +4403,34 @@
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
+    id: puttrace
+    support: excellent
+    notes: ''
+    since_version: 2.6.0
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: pjgames
+    support: excellent
+    notes: ''
+    since_version: 2.6.0
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: chase
+    support: excellent
+    notes: ''
+    since_version: 2.6.0
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: water
+    support: excellent
+    notes: ''
+    since_version: 2.6.0
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
     id: soldierboyz
     support: untested
     notes: ''
