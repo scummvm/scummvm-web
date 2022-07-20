@@ -1340,7 +1340,7 @@
     name: 'Tools - Source.zip'
     notes: ''
 -
-    enabled: true
+    enabled: false
     category: scummvm
     subcategory: daily_downloads
     category_icon: windows
