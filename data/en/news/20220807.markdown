@@ -1,0 +1,13 @@
+---
+title: "Lilah?  Is that you?  This place... it's... amazing..."
+author: OneEightHundred
+date: 1659850258
+---
+
+_Obsidian_, the first supported game of the [mTropolis engine](https://wiki.scummvm.org/index.php?title=MTropolis), is ready for public testing!
+
+Created in 1996 by Rocket Science Games and published in early 1997, this ambitious 3D-rendered first-person adventure has you journey through 4 surreal, dream-like worlds in search of your lost colleague.
+
+ScummVM currently supports the English and German versions.  It features a widescreen mode, improved cinematic quality, and a few bug fixes. A Japanese version also exists, but we need more information about it to support it. Please [contact us](https://www.scummvm.org/contact/) if you have a copy of the Japanese version or some other language version that we haven't discovered yet.
+
+To play any of these supported releases, you will need a [daily development build](https://www.scummvm.org/downloads/#daily). You can also [download a demo here](https://www.scummvm.org/demos/#other).  If you encounter any issues, please submit them to the [issue tracker](https://bugs.scummvm.org/)!
