@@ -720,7 +720,7 @@
     name: 'Caanoo package'
     notes: ''
 -
-    enabled: true
+    enabled: false
     category: scummvm
     subcategory: release
     category_icon: gcw0
@@ -728,6 +728,16 @@
     version: 2.6.0
     url: 'scummvm-{$version}-gcw0.opk'
     name: 'GCW-Zero package'
+    notes: ''
+-
+    enabled: true
+    category: scummvm
+    subcategory: release
+    category_icon: dingux
+    user_agent: ''
+    version: 2.6.0
+    url: 'scummvm-{$version}-gcw0.opk'
+    name: 'OpenDingux package for GCW0'
     notes: ''
 -
     enabled: true
