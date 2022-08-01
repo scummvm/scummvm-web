@@ -6,8 +6,8 @@ class Constants
     public function __construct()
     {
         /* Current version. */
-        define('RELEASE', '2.5.1');
-        define('RELEASE_TOOLS', '2.5.0');
+        define('RELEASE', '2.6.0');
+        define('RELEASE_TOOLS', '2.6.0');
 
         /* News items on the front page. */
         define('NEWS_ITEMS', 5);
