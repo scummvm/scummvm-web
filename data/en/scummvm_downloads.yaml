@@ -720,12 +720,12 @@
     name: 'Caanoo package'
     notes: ''
 -
-    enabled: false
+    enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: gcw0
     user_agent: ''
-    version: 2.6.0
+    version: 2.2.0
     url: 'scummvm-{$version}-gcw0.opk'
     name: 'GCW-Zero package'
     notes: ''
