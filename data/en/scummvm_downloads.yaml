@@ -3,19 +3,9 @@
     enabled: true
     category: scummvm
     subcategory: release
-    category_icon: debian
-    user_agent: Debian
-    version: 2.6.0
-    url: 'scummvm_{$version}-1_debian11_amd64.deb'
-    name: 'Debian 11 (bullseye) x86 64bit package'
-    notes: ''
--
-    enabled: true
-    category: scummvm
-    subcategory: release
     category_icon: windows
     user_agent: Windows
-    version: 2.5.1
+    version: 2.6.0
     url: 'scummvm-{$version}-win32.exe'
     name: 'Windows Installer (32 and 64 bit)'
     notes: ''
@@ -25,7 +15,7 @@
     subcategory: release
     category_icon: windows
     user_agent: ''
-    version: 2.5.1
+    version: 2.6.0
     url: 'scummvm-{$version}-win32-x86_64.zip'
     name: 'Windows zipfile (64 bit)'
     notes: ''
@@ -35,7 +25,7 @@
     subcategory: release
     category_icon: windows
     user_agent: ''
-    version: 2.5.1
+    version: 2.6.0
     url: 'scummvm-{$version}-win32.zip'
     name: 'Windows zipfile (32 bit)'
     notes: ''
@@ -45,7 +35,7 @@
     subcategory: release
     category_icon: winxp
     user_agent: ''
-    version: 2.5.1
+    version: 2.6.0
     url: 'scummvm-{$version}-winxp-win32.exe'
     name: 'Windows XP Installer'
     notes: ''
@@ -55,7 +45,7 @@
     subcategory: release
     category_icon: winxp
     user_agent: ''
-    version: 2.5.1
+    version: 2.6.0
     url: 'scummvm-{$version}-winxp-win32.zip'
     name: 'Windows XP zipfile (32 bit)'
     notes: ''
@@ -65,7 +55,7 @@
     subcategory: release
     category_icon: winxp
     user_agent: ''
-    version: 2.5.1
+    version: 2.6.0
     url: 'scummvm-{$version}-winxp-win32-x86_64.zip'
     name: 'Windows XP zipfile (64 bit)'
     notes: ''
@@ -75,7 +65,7 @@
     subcategory: release
     category_icon: win95
     user_agent: ''
-    version: 2.5.1
+    version: 2.6.0
     url: 'scummvm-{$version}-win9x-win32.zip'
     name: 'Windows 95+ zipfile'
     notes: ''
@@ -98,6 +88,16 @@
     version: 2.5.1
     url: 'https://flathub.org/apps/details/org.scummvm.ScummVM'
     name: 'Flatpak package hosted at the flathub.org repository'
+    notes: ''
+-
+    enabled: true
+    category: scummvm
+    subcategory: release
+    category_icon: debian
+    user_agent: Debian
+    version: 2.6.0
+    url: 'scummvm_{$version}-1_debian11_amd64.deb'
+    name: 'Debian 11 (bullseye) x86 64bit package'
     notes: ''
 -
     enabled: true
