@@ -723,6 +723,16 @@
     enabled: true
     category: scummvm
     subcategory: old
+    category_icon: dingux
+    user_agent: ''
+    version: 1.6.0
+    url: 'scummvm-{$version}-dingux.zip'
+    name: 'Dingoo A320 package'
+    notes: ''
+-
+    enabled: true
+    category: scummvm
+    subcategory: old
     category_icon: gcw0
     user_agent: ''
     version: 2.2.0
