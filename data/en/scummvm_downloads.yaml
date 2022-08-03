@@ -972,10 +972,10 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: morphos
     user_agent: ''
-    version: 2.5.1
+    version: 2.6.0
     url: 'scummvm-{$version}-morphos.lha'
     name: 'MorphOS package'
     notes: ''
