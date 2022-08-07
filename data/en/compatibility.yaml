@@ -4479,3 +4479,17 @@
     since_version: DEV
     stable_platforms: 'dos,c64,zx'
     unstable_platforms: ''
+-
+    id: freddi4
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: obsidian
+    support: good
+    notes: '- Minor audio popping on some videos'
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''

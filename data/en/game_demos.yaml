@@ -3354,7 +3354,7 @@
 -
     id: obsidian
     platform: mac
-    category: 'SegaSoft CD'
+    category: 'Demo w/Cinematic Trailer, SegaSoft CD'
     language: ''
     language2: ''
     language3: ''
@@ -3362,7 +3362,7 @@
 -
     id: obsidian
     platform: win
-    category: '26th October 1996, PC Gamer 2.12 (Jan ''97)'
+    category: 'Demo, 26th October 1996, PC Gamer 2.12 (Jan ''97)'
     language: ''
     language2: ''
     language3: ''
@@ -3370,7 +3370,7 @@
 -
     id: obsidian
     platform: win
-    category: '22nd October 1996'
+    category: 'Demo, 22nd October 1996'
     language: ''
     language2: ''
     language3: ''
@@ -3378,7 +3378,7 @@
 -
     id: obsidian
     platform: win
-    category: '4th October 1996, Ocean/Infogrames Show Case December 1997'
+    category: 'Demo w/Cinematic Trailer, 4th October 1996, Ocean/Infogrames Show Case December 1997'
     language: ''
     language2: ''
     language3: ''
@@ -3386,7 +3386,7 @@
 -
     id: obsidian
     platform: win
-    category: '3rd October 1996'
+    category: 'Demo w/Cinematic Trailer, 3rd October 1996'
     language: ''
     language2: ''
     language3: ''
