@@ -4118,8 +4118,8 @@
 -
     id: soldierboyz
     support: good
-    notes: '- Minor missing features (back to menu, switch to flasback mode, difficulties)  - Minor user interface issues (not pixel perfect reproduction) - Sound volume for music/sfx should be adjusted'
-    since_version: 2.6.0
+    notes: '- Minor missing features (back to menu, switch to flasback mode, difficulties)  - Minor user interface issues (not pixel perfect reproduction) - Some sounds are missing and volume for music/sfx should be adjusted'
+    since_version: DEV
     stable_platforms: dos
     unstable_platforms: ''
 -
@@ -4464,13 +4464,6 @@
     notes: ''
     since_version: 2.6.0
     stable_platforms: 'mac,win'
-    unstable_platforms: ''
--
-    id: soldierboyz
-    support: untested
-    notes: ''
-    since_version: DEV
-    stable_platforms: dos
     unstable_platforms: ''
 -
     id: scottadams
