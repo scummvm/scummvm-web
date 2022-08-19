@@ -1,7 +1,7 @@
 ---
 title: Blast your way destroying terrorists!
 author: gu3
-date: 20220819
+date: 1660902626
 ---
 
 _Soldier Boyz_ is the newest supported game of the [Hypno engine](https://wiki.scummvm.org/index.php?title=Hypno), and it’s ready for public testing!
