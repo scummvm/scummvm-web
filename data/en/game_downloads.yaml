@@ -454,3 +454,10 @@
     url: 'The Prince and the Coward/prince_translation.dat'
     name: 'Translations data file to play with English text'
     notes: 'Requires ScummVM 2.2.0'
+-
+    category: addons
+    game_id: obsidian
+    category_icon: obsidian
+    url: Obsidian/obsidian-subtitles-main-v1.zip
+    name: 'Subtitles (English)'
+    notes: 'Requires ScummVM 2.7.0'
