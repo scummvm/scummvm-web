@@ -233,6 +233,16 @@
     enabled: true
     category: scummvm
     subcategory: old
+    category_icon: macosppc
+    user_agent: ''
+    version: 1.6.0
+    url: 'scummvm-{$version}-macosx.dmg'
+    name: 'Mac OS X 10.3+ PPC/Intel 32 bits (without Sparkle) Disk Image'
+    notes: ''
+-
+    enabled: true
+    category: scummvm
+    subcategory: old
     category_icon: fedora
     user_agent: ''
     version: 1.6.0
@@ -347,7 +357,7 @@
     user_agent: ''
     version: 2.6.0
     url: 'scummvm-{$version}-macosx-i386.dmg'
-    name: 'Mac OS X 10.6+ intel 32 bits (without Sparkle) Disk Image'
+    name: 'Mac OS X 10.6+ Intel 32 bits (without Sparkle) Disk Image'
     notes: ''
 -
     enabled: true
