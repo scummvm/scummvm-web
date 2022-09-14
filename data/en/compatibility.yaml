@@ -4466,6 +4466,13 @@
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
+    id: sanitarium
+    support: excellent
+    notes: ''
+    since_version: 2.6.0
+    stable_platforms: win
+    unstable_platforms: ''
+-
     id: scottadams
     support: good
     notes: ''
