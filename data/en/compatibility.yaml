@@ -4095,13 +4095,6 @@
     stable_platforms: win
     unstable_platforms: psx
 -
-    id: sanitarium
-    support: untested
-    notes: ''
-    since_version: 2.6.0
-    stable_platforms: win
-    unstable_platforms: ''
--
     id: toon
     support: good
     notes: ''
