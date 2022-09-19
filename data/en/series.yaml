@@ -3,11 +3,26 @@
     id: agifan
     name: 'AGI Fan'
 -
+    id: alemmo
+    name: 'Al Emmo'
+-
+    id: alimardan
+    name: Alimardan
+-
+    id: artmurder
+    name: 'Art of Murder'
+-
+    id: barrowhill
+    name: 'Barrow Hill'
+-
     id: beavisbutthead
     name: 'Beavis and Butt-Head'
 -
     id: bigthinkers
     name: 'Big Thinkers'
+-
+    id: blackwell
+    name: Blackwell
 -
     id: blue
     name: 'Blue''s Clues'
@@ -24,8 +39,17 @@
     id: conquests
     name: Conquests
 -
+    id: crusader
+    name: Crusader
+-
+    id: darkfall
+    name: 'Dark Fall'
+-
     id: deja_vu
     name: 'Deja Vu'
+-
+    id: deviltrilogy
+    name: 'Devil Came Through Here Trilogy'
 -
     id: disney
     name: 'Disney AGI'
@@ -45,8 +69,14 @@
     id: eob
     name: 'Eye of the Beholder'
 -
+    id: fatman
+    name: 'The Adventures of Fatman'
+-
     id: fbear
     name: 'Fatty Bear'
+-
+    id: forgottensound
+    name: 'Forgotten Sound'
 -
     id: freddi
     name: 'Freddi Fish'
@@ -71,6 +101,12 @@
 -
     id: indy
     name: 'Indiana Jones'
+-
+    id: innsmouth
+    name: 'Chronicle of Innsmouth'
+-
+    id: jit
+    name: 'Just Ignore Them'
 -
     id: journeyman
     name: 'The Journeyman Project'
@@ -126,8 +162,14 @@
     id: myst
     name: Myst
 -
+    id: nelly
+    name: 'Nelly Cootalot'
+-
     id: pajama
     name: 'Pajama Sam'
+-
+    id: papas
+    name: 'Papa''s Daughters'
 -
     id: petka
     name: 'Red Comrades'
@@ -155,6 +197,9 @@
 -
     id: ringworld
     name: Ringworld
+-
+    id: roguestate
+    name: 'Rogue State'
 -
     id: sherlock
     name: 'Sherlock Holmes'
@@ -185,6 +230,12 @@
 -
     id: t7g
     name: 'The 7th Guest'
+-
+    id: tanya
+    name: 'Tanya Grotter'
+-
+    id: tehran
+    name: 'Murder in Tehran'
 -
     id: texmurphy
     name: 'Tex Murphy'

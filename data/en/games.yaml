@@ -12,6 +12,18 @@
     wikipedia_page: The_11th_Hour_(video_game)
     series_id: t7g
 -
+    id: 3geeks
+    name: '3 GEEKS'
+    engine_id: ags
+    company_id: adipson
+    moby_id: '122871'
+    steam_id: '1023410'
+    gog_id: ''
+    additional_stores: '- [GameJolt](https://gamejolt.com/games/3GEEKS/390738)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 5ld
     name: 'Five Lethal Demons'
     engine_id: wintermute
@@ -63,11 +75,23 @@
     id: actualdest
     name: 'Actual Destination'
     engine_id: wintermute
-    company_id: unknown
+    company_id: blekinge
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
+    datafiles: Actual_Destination
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: adateinthepark
+    name: 'A Date in the Park'
+    engine_id: ags
+    company_id: cloakdagger
+    moby_id: '70196'
+    steam_id: '468530'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://shaun9991.itch.io/a-date-in-the-park)'
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -207,12 +231,12 @@
     id: agustin
     name: 'Boredom of Agustin Cordes'
     engine_id: wintermute
-    company_id: unknown
+    company_id: cbe
     moby_id: '61767'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Boredom_of_Agustin_Cordes
     wikipedia_page: ''
     series_id: ''
 -
@@ -252,6 +276,30 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: alemmo
+    name: 'Al Emmo And The Lost Dutchman''s Mine'
+    engine_id: ags
+    company_id: himalaya
+    moby_id: '25432'
+    steam_id: '296850'
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](https://www.himalayastudios.com/alemmo.php)'
+    datafiles: ''
+    wikipedia_page: Al_Emmo_and_the_Lost_Dutchman%27s_Mine
+    series_id: alemmo
+-
+    id: alemmoanozira
+    name: 'Al Emmo''s Postcards from Anozira'
+    engine_id: ags
+    company_id: himalaya
+    moby_id: '174122'
+    steam_id: '375020'
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](https://www.himalayastudios.com/postcards.php)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: alemmo
+-
     id: alimardan1
     name: 'Alimardan''s Mischief'
     engine_id: wintermute
@@ -260,9 +308,9 @@
     steam_id: '694420'
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Alimardan%27s_Mischief
     wikipedia_page: ''
-    series_id: ''
+    series_id: alimardan
 -
     id: alimardan2
     name: 'Alimardan Meets Merlin'
@@ -272,19 +320,19 @@
     steam_id: '694430'
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Alimardan_Meets_Merlin
     wikipedia_page: ''
-    series_id: ''
+    series_id: alimardan
 -
     id: alphapolaris
     name: 'Alpha Polaris'
     engine_id: wintermute
-    company_id: unknown
+    company_id: turmoil
     moby_id: '53007'
-    steam_id: ''
+    steam_id: '405780'
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Alpha_Polaris
     wikipedia_page: Alpha_Polaris
     series_id: ''
 -
@@ -327,12 +375,12 @@
     id: apeiron
     name: Apeiron
     engine_id: wintermute
-    company_id: unknown
+    company_id: blekinge
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Apeiron
     wikipedia_page: ''
     series_id: ''
 -
@@ -399,14 +447,14 @@
     id: artofmurder1
     name: 'Art of Murder: FBI Confidential'
     engine_id: wintermute
-    company_id: unknown
+    company_id: cityint
     moby_id: '34282'
-    steam_id: ''
+    steam_id: '809000'
     gog_id: ''
     additional_stores: ''
     datafiles: ''
     wikipedia_page: 'Art_of_Murder:_FBI_Confidential'
-    series_id: ''
+    series_id: artmurder
 -
     id: arttime
     name: 'Blue''s Clues: Blue''s Art Time Activities'
@@ -419,6 +467,18 @@
     datafiles: Blue%27s_Art_Time_Activities
     wikipedia_page: ''
     series_id: blue
+-
+    id: ashinaredwitch
+    name: 'Ashina: The Red Witch'
+    engine_id: ags
+    company_id: stranga
+    moby_id: ''
+    steam_id: '1259140'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://stranga.itch.io/ashinatheredwitch)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
 -
     id: astrochicken
     name: 'Astro Chicken'
@@ -443,6 +503,18 @@
     datafiles: Indiana_Jones_and_the_Fate_of_Atlantis
     wikipedia_page: Indiana_Jones_and_the_Fate_of_Atlantis
     series_id: indy
+-
+    id: atotk
+    name: 'A Tale Of Two Kingdoms'
+    engine_id: ags
+    company_id: crystalshard
+    moby_id: '29717'
+    steam_id: '603870'
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](https://www.crystalshard.net/)'
+    datafiles: ''
+    wikipedia_page: A_Tale_of_Two_Kingdoms
+    series_id: ''
 -
     id: avalanche
     name: 'Lord Avalot d''Argent'
@@ -519,10 +591,10 @@
     id: barrowhilldp
     name: 'Barrow Hill: The Dark Path'
     engine_id: wintermute
-    company_id: unknown
+    company_id: shadowtor
     moby_id: '114586'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '520990'
+    gog_id: barrow_hill_the_dark_path
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
@@ -648,6 +720,18 @@
     wikipedia_page: Living_Books
     series_id: livingbooks
 -
+    id: beer
+    name: Beer!
+    engine_id: ags
+    company_id: crystalshard
+    moby_id: '140075'
+    steam_id: '782280'
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](https://www.crystalshard.net/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: bickadoodle
     name: Bickadoodle
     engine_id: wintermute
@@ -659,6 +743,66 @@
     datafiles: Bickadoodle
     wikipedia_page: ''
     series_id: ''
+-
+    id: blackwell1
+    name: 'The Blackwell Legacy'
+    engine_id: ags
+    company_id: wadjet
+    moby_id: '25676'
+    steam_id: '80330'
+    gog_id: blackwell_bundle
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: The_Blackwell_Legacy
+    series_id: blackwell
+-
+    id: blackwell2
+    name: 'Blackwell Unbound'
+    engine_id: ags
+    company_id: wadjet
+    moby_id: '30161'
+    steam_id: '80340'
+    gog_id: blackwell_bundle
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Blackwell_Unbound
+    series_id: blackwell
+-
+    id: blackwell3
+    name: 'The Blackwell Convergence'
+    engine_id: ags
+    company_id: wadjet
+    moby_id: '41842'
+    steam_id: '80350'
+    gog_id: blackwell_bundle
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: The_Blackwell_Convergence
+    series_id: blackwell
+-
+    id: blackwell4
+    name: 'The Blackwell Deception'
+    engine_id: ags
+    company_id: wadjet
+    moby_id: '53340'
+    steam_id: '80360'
+    gog_id: blackwell_bundle
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: The_Blackwell_Deception
+    series_id: blackwell
+-
+    id: blackwell5
+    name: 'The Blackwell Epiphany'
+    engine_id: ags
+    company_id: wadjet
+    moby_id: '69647'
+    steam_id: '236930'
+    gog_id: the_blackwell_epiphany
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: The_Blackwell_Epiphany
+    series_id: blackwell
 -
     id: bladerunner
     name: 'Blade Runner'
@@ -747,12 +891,12 @@
     id: bookofgron
     name: 'Book of Gron Part One'
     engine_id: wintermute
-    company_id: unknown
+    company_id: maximyz
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Book_of_Gron_Part_One
     wikipedia_page: ''
     series_id: ''
 -
@@ -783,7 +927,7 @@
     id: bthreshold
     name: 'Beyond the Threshold'
     engine_id: wintermute
-    company_id: unknown
+    company_id: nacht
     moby_id: '29023'
     steam_id: ''
     gog_id: ''
@@ -1068,6 +1212,30 @@
     wikipedia_page: Living_Books
     series_id: livingbooks
 -
+    id: charnelhousetrilogy
+    name: 'The Charnel House Trilogy'
+    engine_id: ags
+    company_id: owlcave
+    moby_id: '77266'
+    steam_id: '288930'
+    gog_id: ''
+    additional_stores: '- [FireFlower Games Store](https://fireflowergames.com/products/the-charnel-house-trilogy/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: chronicleofinnsmouth
+    name: 'Chronicle of Innsmouth'
+    engine_id: ags
+    company_id: psychodev
+    moby_id: '114804'
+    steam_id: '420180'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://rmonic79.itch.io/chronicle-of-innsmouth)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: innsmouth
+-
     id: chase
     name: 'SPY Fox in "Cheese Chase"'
     engine_id: scumm
@@ -1256,7 +1424,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Colors_on_Canvas
     wikipedia_page: ''
     series_id: ''
 -
@@ -1280,16 +1448,16 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Conspiração_Dumont
     wikipedia_page: ''
     series_id: ''
 -
     id: corrosion
     name: 'Corrosion: Cold Winter Waiting'
     engine_id: wintermute
-    company_id: unknown
+    company_id: viperante
     moby_id: '56405'
-    steam_id: ''
+    steam_id: '349140'
     gog_id: ''
     additional_stores: '- [Viperante](https://coldwinterwaiting.com/purchase_001.htm)'
     datafiles: ''
@@ -1407,14 +1575,14 @@
     id: darkfallls
     name: 'Dark Fall: Lost Souls'
     engine_id: wintermute
-    company_id: unknown
+    company_id: darkling
     moby_id: '45771'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '46750'
+    gog_id: dark_fall_3_lost_souls
     additional_stores: ''
     datafiles: ''
     wikipedia_page: 'Dark_Fall:_Lost_Souls'
-    series_id: ''
+    series_id: darkfall
 -
     id: darksideofxeen
     name: 'Might and Magic: Darkside of Xeen'
@@ -1476,12 +1644,24 @@
     wikipedia_page: 'Deja_Vu_II:_Lost_in_Las_Vegas'
     series_id: deja_vu
 -
+    id: detectivegallo
+    name: 'Detective Gallo'
+    engine_id: ags
+    company_id: footprints
+    moby_id: '109639'
+    steam_id: '556060'
+    gog_id: detective_gallo
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: devilincapital
     name: 'Devil In The Capital'
     engine_id: wintermute
-    company_id: unknown
+    company_id: rskent
     moby_id: '92245'
-    steam_id: ''
+    steam_id: '659490'
     gog_id: ''
     additional_stores: ''
     datafiles: ''
@@ -1491,12 +1671,12 @@
     id: dfafadventure
     name: 'DFAF Adventure'
     engine_id: wintermute
-    company_id: unknown
+    company_id: jennybee
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: DFAF_Adventure
     wikipedia_page: ''
     series_id: ''
 -
@@ -1608,6 +1788,30 @@
     wikipedia_page: ''
     series_id: puttputt
 -
+    id: downfall2009
+    name: 'Downfall (2009)'
+    engine_id: ags
+    company_id: harvester
+    moby_id: '40762'
+    steam_id: '364390'
+    gog_id: downfall_redux
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: deviltrilogy
+-
+    id: downfall2016
+    name: 'Downfall (2016)'
+    engine_id: ags
+    company_id: harvester
+    moby_id: '106712'
+    steam_id: '364390'
+    gog_id: downfall_redux
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: deviltrilogy
+-
     id: draci
     name: 'Dragon History'
     engine_id: draci
@@ -1671,36 +1875,36 @@
     id: drbohus
     name: 'Dr. Bohus'
     engine_id: wintermute
-    company_id: unknown
+    company_id: local
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Dr._Bohus
     wikipedia_page: ''
     series_id: ''
 -
     id: drdoylemotch
     name: 'Dr. Doyle - Mystery Of The Cloche Hat'
     engine_id: wintermute
-    company_id: unknown
+    company_id: pnc
     moby_id: '-1'
-    steam_id: ''
+    steam_id: '574420'
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Dr._Doyle_-_Mystery_Of_The_Cloche_Hat
     wikipedia_page: ''
     series_id: ''
 -
     id: dreamcat
     name: Dreamcat
     engine_id: wintermute
-    company_id: unknown
+    company_id: jennybee
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: The_Dreamcat_Adventure
     wikipedia_page: ''
     series_id: ''
 -
@@ -1712,19 +1916,19 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Des_Rêves_Élastiques_Avec_Mille_Insectes_Nommés_Georges
     wikipedia_page: ''
     series_id: ''
 -
     id: dreamscape
     name: Dreamscape
     engine_id: wintermute
-    company_id: unknown
-    moby_id: '59268'
+    company_id: blekinge
+    moby_id: ''
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Dreamscape
     wikipedia_page: ''
     series_id: ''
 -
@@ -1748,7 +1952,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: The_Driller_Incident
     wikipedia_page: ''
     series_id: ''
 -
@@ -1762,6 +1966,18 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: 'Duckman:_The_Graphic_Adventures_of_a_Private_Dick'
+    series_id: ''
+-
+    id: dustbowl
+    name: Dustbowl
+    engine_id: ags
+    company_id: pompous
+    moby_id: '110379'
+    steam_id: '367110'
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: dw
@@ -1899,12 +2115,12 @@
     id: erinmyers
     name: 'The Death of Erin Myers'
     engine_id: wintermute
-    company_id: unknown
-    moby_id: '-1'
-    steam_id: ''
+    company_id: viperante
+    moby_id: '155851'
+    steam_id: '1064660'
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: The_Death_of_Erin_Myers
     wikipedia_page: ''
     series_id: ''
 -
@@ -1935,24 +2151,24 @@
     id: everydaygray
     name: 'Everyday Grey'
     engine_id: wintermute
-    company_id: unknown
+    company_id: krumbukt
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Everyday_Grey
     wikipedia_page: ''
     series_id: ''
 -
     id: facenoir
     name: 'Face Noir'
     engine_id: wintermute
-    company_id: unknown
+    company_id: madorange
     moby_id: '61359'
-    steam_id: ''
+    steam_id: '244690'
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Face_Noir
     wikipedia_page: Face_Noir
     series_id: ''
 -
@@ -1967,6 +2183,18 @@
     datafiles: Mixed-Up_Fairy_Tales
     wikipedia_page: Mixed-Up_Fairy_Tales
     series_id: mixedup
+-
+    id: falconcity
+    name: 'Falcon City'
+    engine_id: ags
+    company_id: likely
+    moby_id: '166093'
+    steam_id: '1270590'
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
 -
     id: farm
     name: 'Let''s Explore the Farm'
@@ -2028,15 +2256,27 @@
     wikipedia_page: The_Feeble_Files
     series_id: ''
 -
+    id: feriadarles
+    name: 'Feria d''Arles'
+    engine_id: ags
+    company_id: tomsimpson
+    moby_id: '143746'
+    steam_id: '1181570'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://tomsimpson.itch.io/feria-darles)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: findinghope
     name: 'Finding Hope'
     engine_id: wintermute
-    company_id: unknown
+    company_id: goldenbough
     moby_id: '48605'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
-    datafiles: ''
+    additional_stores: '- [Big Fish Games Store](https://www.bigfishgames.com/games/5960/)'
+    datafiles: Finding_Hope
     wikipedia_page: ''
     series_id: ''
 -
@@ -2076,29 +2316,41 @@
     wikipedia_page: Backyard_Football
     series_id: juniorsports
 -
-    id: forgottensound1
-    name: 'Forgotten Sound 1 - Revelation'
-    engine_id: wintermute
-    company_id: unknown
-    moby_id: '-1'
-    steam_id: ''
+    id: footballgame
+    name: 'Football Game'
+    engine_id: ags
+    company_id: cloakdagger
+    moby_id: '136966'
+    steam_id: '654550'
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [Itch.io](https://shaun9991.itch.io/footballgame)'
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
 -
-    id: forgottensound2
-    name: 'Forgotten Sound 2 - Destiny'
+    id: forgottensound1
+    name: 'Forgotten Sound 1 - Revelation'
     engine_id: wintermute
-    company_id: unknown
-    moby_id: '-1'
-    steam_id: ''
+    company_id: rskent
+    moby_id: '122590'
+    steam_id: '779840'
     gog_id: ''
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: ''
+    series_id: forgottensound
+-
+    id: forgottensound2
+    name: 'Forgotten Sound 2 - Destiny'
+    engine_id: wintermute
+    company_id: rskent
+    moby_id: '122593'
+    steam_id: '783960'
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: forgottensound
 -
     id: four
     name: Four
@@ -2108,31 +2360,31 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Four
     wikipedia_page: ''
     series_id: ''
 -
     id: foxtail
     name: FoxTail
     engine_id: wintermute
-    company_id: unknown
+    company_id: gingertips
     moby_id: '104425'
     steam_id: '581360'
-    gog_id: ''
+    gog_id: foxtail
     additional_stores: ''
-    datafiles: ''
+    datafiles: FoxTail
     wikipedia_page: ''
     series_id: ''
 -
     id: framed
     name: Framed
     engine_id: wintermute
-    company_id: unknown
-    moby_id: '6285'
+    company_id: blekinge
+    moby_id: ''
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Framed
     wikipedia_page: ''
     series_id: ''
 -
@@ -2316,15 +2568,27 @@
     wikipedia_page: Geisha_(video_game)
     series_id: ''
 -
+    id: geminirue
+    name: 'Gemini Rue'
+    engine_id: ags
+    company_id: wadjet
+    moby_id: '50626'
+    steam_id: '80310'
+    gog_id: gemini_rue
+    additional_stores: '- [Developer''s Website](https://www.wadjeteyegames.com/games/gemini-rue/)'
+    datafiles: ''
+    wikipedia_page: Gemini_Rue
+    series_id: ''
+-
     id: ghostsheet
     name: 'Ghost in the Sheet'
     engine_id: wintermute
-    company_id: unknown
+    company_id: cbe
     moby_id: '31661'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Ghost_in_the_Sheet
     wikipedia_page: Ghost_in_the_Sheet
     series_id: ''
 -
@@ -2427,12 +2691,12 @@
     id: goldencalf
     name: 'The Golden Calf'
     engine_id: wintermute
-    company_id: unknown
+    company_id: rootfix
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: The_Golden_Calf
     wikipedia_page: ''
     series_id: ''
 -
@@ -2440,7 +2704,7 @@
     name: 'A Golden Wake'
     engine_id: ags
     company_id: grundislav
-    moby_id: ''
+    moby_id: '71204'
     steam_id: '307570'
     gog_id: a_golden_wake
     additional_stores: ''
@@ -2471,6 +2735,18 @@
     datafiles: ''
     wikipedia_page: Living_Books
     series_id: livingbooks
+-
+    id: grandmabadass
+    name: 'GrandMa Badass'
+    engine_id: ags
+    company_id: adipson
+    moby_id: ''
+    steam_id: '1606640'
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
 -
     id: greeneggs
     name: 'Green Eggs and Ham'
@@ -2520,6 +2796,18 @@
     wikipedia_page: Grim_Fandango
     series_id: lucasartsnoseries
 -
+    id: guardduty
+    name: 'Guard Duty'
+    engine_id: ags
+    company_id: headware
+    moby_id: '126273'
+    steam_id: '872750'
+    gog_id: guard_duty
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: guild
     name: 'The Guild of Thieves'
     engine_id: magnetic
@@ -2559,12 +2847,12 @@
     id: hamlet
     name: 'Hamlet or the last game without MMORPG features, shaders and product placement'
     engine_id: wintermute
-    company_id: unknown
+    company_id: mif2000
     moby_id: '46506'
     steam_id: '222160'
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Hamlet
     wikipedia_page: Hamlet_(video_game)
     series_id: ''
 -
@@ -2596,7 +2884,7 @@
     name: 'Helga Deep In Trouble'
     engine_id: wintermute
     company_id: offstudio
-    moby_id: '-1'
+    moby_id: ''
     steam_id: ''
     gog_id: ''
     additional_stores: ''
@@ -2703,12 +2991,12 @@
     id: hor
     name: Hor
     engine_id: wintermute
-    company_id: unknown
+    company_id: romank
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Hor
     wikipedia_page: ''
     series_id: ''
 -
@@ -3204,6 +3492,18 @@
     wikipedia_page: Jones_in_the_Fast_Lane
     series_id: sierranoseries
 -
+    id: jorry
+    name: JORRY
+    engine_id: ags
+    company_id: korozif
+    moby_id: '143744'
+    steam_id: '1206350'
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: julia
     name: J.U.L.I.A.
     engine_id: wintermute
@@ -3264,6 +3564,30 @@
     wikipedia_page: 'Junior_Field_Trips#Let''s_Explore_the_Jungle'
     series_id: juniorfield
 -
+    id: justignorethem
+    name: 'Just Ignore Them'
+    engine_id: ags
+    company_id: stranga
+    moby_id: '136124'
+    steam_id: '561770'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://stranga.itch.io/just-ignore-them)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: jit
+-
+    id: justignorethembrea1
+    name: 'Just Ignore Them: Brea''s Story Tape 1'
+    engine_id: ags
+    company_id: stranga
+    moby_id: ''
+    steam_id: '1900280'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://stranga.itch.io/jitbs)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: jit
+-
     id: kathyrain
     name: 'Kathy Rain'
     engine_id: ags
@@ -3274,6 +3598,18 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: Kathy_Rain
+    series_id: ''
+-
+    id: killyourself
+    name: 'Kill Yourself'
+    engine_id: ags
+    company_id: gugames
+    moby_id: ''
+    steam_id: '1251910'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://gugames.itch.io/kill-yourself)'
+    datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: kingdom
@@ -3291,12 +3627,12 @@
     id: knossos
     name: 'K''NOSSOS'
     engine_id: wintermute
-    company_id: unknown
+    company_id: svarun
     moby_id: '-1'
-    steam_id: ''
+    steam_id: '696770'
     gog_id: ''
-    additional_stores: ''
-    datafiles: ''
+    additional_stores: '- [Itch.io](https://svarunentertainment.itch.io/knossos)'
+    datafiles: K%27NOSSOS
     wikipedia_page: ''
     series_id: ''
 -
@@ -3423,12 +3759,12 @@
     id: kulivocko
     name: Kulivocko
     engine_id: wintermute
-    company_id: unknown
+    company_id: fatfunky
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Kulivočko
     wikipedia_page: ''
     series_id: ''
 -
@@ -3478,6 +3814,42 @@
     additional_stores: ''
     datafiles: The_Labyrinth_of_Time
     wikipedia_page: The_Labyrinth_of_Time
+    series_id: ''
+-
+    id: lamplightcity
+    name: 'Lamplight City'
+    engine_id: ags
+    company_id: grundislav
+    moby_id: '113618'
+    steam_id: '761460'
+    gog_id: lamplight_city
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Lamplight_City
+    series_id: ''
+-
+    id: lancelothangover
+    name: 'Lancelot''s Hangover'
+    engine_id: ags
+    company_id: jbclerfayt
+    moby_id: '167539'
+    steam_id: '917380'
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: larrylotter
+    name: 'Larry Lotter and the Test of Time'
+    engine_id: ags
+    company_id: crystalshard
+    moby_id: '142012'
+    steam_id: '551840'
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](https://www.crystalshard.net/)'
+    datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: lastexpress
@@ -3551,6 +3923,18 @@
     datafiles: ''
     wikipedia_page: Living_Books
     series_id: livingbooks
+-
+    id: legendofhand
+    name: 'Legend of Hand'
+    engine_id: ags
+    company_id: cloakdagger
+    moby_id: '147044'
+    steam_id: '595560'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://shaun9991.itch.io/legend-of-hand)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
 -
     id: level9
     name: 'Level 9 Interactive Fiction games'
@@ -3711,12 +4095,12 @@
     id: lonelyrobot
     name: 'Project Lonely Robot'
     engine_id: wintermute
-    company_id: unknown
+    company_id: blekinge
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Project_Lonely_Robot
     wikipedia_page: ''
     series_id: ''
 -
@@ -3735,12 +4119,12 @@
     id: looky
     name: Looky
     engine_id: wintermute
-    company_id: unknown
+    company_id: mac
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Looky_-_The_Adventure
     wikipedia_page: ''
     series_id: ''
 -
@@ -3783,7 +4167,7 @@
     id: lotl
     name: 'Limbo of the Lost'
     engine_id: wintermute
-    company_id: unknown
+    company_id: majestic
     moby_id: '36820'
     steam_id: ''
     gog_id: ''
@@ -3932,8 +4316,20 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Machu_Mayu
     wikipedia_page: ''
+    series_id: ''
+-
+    id: mage
+    name: 'Mage''s Initiation: Reign of the Elements'
+    engine_id: ags
+    company_id: himalaya
+    moby_id: '121392'
+    steam_id: '270610'
+    gog_id: mages_initiation_reign_of_the_elements
+    additional_stores: '- [Developer''s Website](https://www.himalayastudios.com/magesinitiation.php)'
+    datafiles: ''
+    wikipedia_page: 'Mage%27s_Initiation:_Reign_of_the_Elements'
     series_id: ''
 -
     id: maggiesfa
@@ -4020,6 +4416,18 @@
     wikipedia_page: Maniac_Mansion
     series_id: maniac
 -
+    id: maniacmansiondeluxe
+    name: 'Maniac Mansion Deluxe'
+    engine_id: ags
+    company_id: fan
+    moby_id: '13511'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: martian
     name: 'Martian Memorandum'
     engine_id: access
@@ -4104,6 +4512,18 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: metaldead
+    name: 'Metal Dead'
+    engine_id: ags
+    company_id: wtw
+    moby_id: '55792'
+    steam_id: '302690'
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Metal_Dead
+    series_id: ''
+-
     id: mh1
     name: 'Manhunter: New York'
     engine_id: agi
@@ -4143,12 +4563,12 @@
     id: mirage
     name: Mirage
     engine_id: wintermute
-    company_id: unknown
-    moby_id: '40599'
+    company_id: blekinge
+    moby_id: ''
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Mirage
     wikipedia_page: ''
     series_id: ''
 -
@@ -4260,6 +4680,18 @@
     wikipedia_page: Mixed-Up_Mother_Goose
     series_id: mixedup
 -
+    id: mountainsofmadness
+    name: 'Chronicle of Innsmouth: Mountains of Madness'
+    engine_id: ags
+    company_id: psychodev
+    moby_id: '169469'
+    steam_id: '962700'
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: innsmouth
+-
     id: msastrochicken
     name: 'Ms. Astro Chicken'
     engine_id: sci
@@ -4299,12 +4731,12 @@
     id: msos
     name: 'Monday Starts on Saturday'
     engine_id: wintermute
-    company_id: unknown
-    moby_id: '-1'
+    company_id: rootfix
+    moby_id: '114398'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Monday_Starts_on_Saturday
     wikipedia_page: ''
     series_id: ''
 -
@@ -4332,6 +4764,18 @@
     wikipedia_page: Mutation_of_J.B.
     series_id: ''
 -
+    id: mybigsister
+    name: 'My Big Sister'
+    engine_id: ags
+    company_id: stranga
+    moby_id: '117298'
+    steam_id: '733300'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://stranga.itch.io/mybigsister)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: myburdentokeep
     name: 'My Burden to Keep'
     engine_id: ags
@@ -4339,7 +4783,7 @@
     moby_id: ''
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [Itch.io](https://perpetualdiversion.itch.io/mbtk)'
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -4395,12 +4839,12 @@
     id: mythguff
     name: 'Myth: A Guff''s Tale'
     engine_id: wintermute
-    company_id: unknown
+    company_id: solo
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
-    datafiles: ''
+    additional_stores: '- [Kartridge](https://www.kartridge.com/games/solodesign/myth-a-guffs-tale)'
+    datafiles: 'Myth:_A_Guff%27s_Tale'
     wikipedia_page: ''
     series_id: ''
 -
@@ -4414,6 +4858,42 @@
     additional_stores: ''
     datafiles: Rex_Nebular_and_the_Cosmic_Gender_Bender
     wikipedia_page: Rex_Nebular_and_the_Cosmic_Gender_Bender
+    series_id: ''
+-
+    id: nellycootalot
+    name: 'Nelly Cootalot: Spoonbeaks Ahoy!'
+    engine_id: ags
+    company_id: abeckett
+    moby_id: '27258'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: 'Nelly_Cootalot:_Spoonbeaks_Ahoy!'
+    series_id: nelly
+-
+    id: nellycootalot-hd
+    name: 'Nelly Cootalot: Spoonbeaks Ahoy! HD'
+    engine_id: ags
+    company_id: abeckett
+    moby_id: '127651'
+    steam_id: '763030'
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: 'Nelly_Cootalot:_Spoonbeaks_Ahoy!'
+    series_id: nelly
+-
+    id: neofeud
+    name: Neofeud
+    engine_id: ags
+    company_id: silverspook
+    moby_id: '100924'
+    steam_id: '673850'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://silverspook.itch.io/neofeud)'
+    datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: neverhood
@@ -4443,12 +4923,12 @@
     id: nighttrain
     name: 'Night Train'
     engine_id: wintermute
-    company_id: unknown
+    company_id: aka
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Night_Train
     wikipedia_page: ''
     series_id: ''
 -
@@ -4503,12 +4983,12 @@
     id: oknytt
     name: Oknytt
     engine_id: wintermute
-    company_id: unknown
+    company_id: nemoria
     moby_id: '70002'
-    steam_id: ''
+    steam_id: '286320'
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Oknytt
     wikipedia_page: ''
     series_id: ''
 -
@@ -4528,23 +5008,23 @@
     name: One
     engine_id: wintermute
     company_id: unknown
-    moby_id: '9526'
+    moby_id: ''
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: One
     wikipedia_page: ''
     series_id: ''
 -
     id: onehelluvaday
     name: 'One Helluva Day'
     engine_id: wintermute
-    company_id: unknown
+    company_id: romank
     moby_id: '-1'
-    steam_id: ''
+    steam_id: '603680'
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: One_Helluva_Day
     wikipedia_page: ''
     series_id: ''
 -
@@ -4560,15 +5040,27 @@
     wikipedia_page: Oo-Topos
     series_id: ''
 -
+    id: oott
+    name: 'Order of the Thorne: The King''s Challenge'
+    engine_id: ags
+    company_id: infamousq
+    moby_id: '88993'
+    steam_id: '425600'
+    gog_id: order_of_the_thorne_the_kings_challenge
+    additional_stores: '- [Itch.io](https://infamousquests.itch.io/oott-the-kings-challenge)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: openquest
     name: 'Open Quest'
     engine_id: wintermute
-    company_id: unknown
-    moby_id: '-1'
+    company_id: jennybee
+    moby_id: '31793'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: OpenQuest
     wikipedia_page: ''
     series_id: ''
 -
@@ -4599,12 +5091,12 @@
     id: paintaria
     name: Paintaria
     engine_id: wintermute
-    company_id: unknown
+    company_id: traktor
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
-    datafiles: ''
+    additional_stores: '- [GameJolt](https://gamejolt.com/games/paintaria/17652)'
+    datafiles: Paintaria
     wikipedia_page: ''
     series_id: ''
 -
@@ -4659,26 +5151,26 @@
     id: papasdaughters1
     name: 'Papa''s Daughters'
     engine_id: wintermute
-    company_id: unknown
+    company_id: herocraft
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Papa%27s_Daughters
     wikipedia_page: ''
-    series_id: ''
+    series_id: papas
 -
     id: papasdaughters2
     name: 'Papa''s Daughters Go to the Sea'
     engine_id: wintermute
-    company_id: unknown
+    company_id: herocraft
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Papa%27s_Daughters_2
     wikipedia_page: ''
-    series_id: ''
+    series_id: papas
 -
     id: pass
     name: 'Passport to Adventure (Indiana Jones and the Last Crusade, The Secret of Monkey Island, Loom)'
@@ -4727,6 +5219,30 @@
     datafiles: Pepper%27s_Adventures_in_Time
     wikipedia_page: Pepper%27s_Adventures_in_Time
     series_id: sierranoseries
+-
+    id: perfecttides
+    name: 'Perfect Tides'
+    engine_id: ags
+    company_id: threebees
+    moby_id: '188469'
+    steam_id: '1172800'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://granulac.itch.io/perfect-tides)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: perfidiouspetrolstation
+    name: 'The Perfidious Petrol Station'
+    engine_id: ags
+    company_id: technocrat
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [FireFlower Games Store](https://fireflowergames.com/products/the-perfidious-petrol-station/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
 -
     id: peril
     name: 'The Pink Panther: Passport to Peril'
@@ -4808,18 +5324,18 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Pigeons_in_the_Park
     wikipedia_page: ''
     series_id: ''
 -
     id: pizzamorgana
     name: 'Pizza Morgana: Episode 1 - Monsters and Manipulations in the Magical Forest'
     engine_id: wintermute
-    company_id: unknown
+    company_id: corbomite
     moby_id: '51420'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website](https://pizza-morgana.com/)'
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -4995,12 +5511,12 @@
     id: polechudes
     name: 'Pole Chudes'
     engine_id: wintermute
-    company_id: unknown
+    company_id: herocraft
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Pole_Chudes
     wikipedia_page: ''
     series_id: ''
 -
@@ -5088,6 +5604,18 @@
     wikipedia_page: 'Police_Quest:_SWAT'
     series_id: pq
 -
+    id: primordia
+    name: Primordia
+    engine_id: ags
+    company_id: wormwood
+    moby_id: '59392'
+    steam_id: '227000'
+    gog_id: primordia
+    additional_stores: '- [Developer''s Website](https://www.wadjeteyegames.com/games/primordia/)'
+    datafiles: ''
+    wikipedia_page: Primordia_(video_game)
+    series_id: ''
+-
     id: prince
     name: 'The Prince and the Coward'
     engine_id: prince
@@ -5127,7 +5655,19 @@
     id: projectdoom
     name: 'Project: Doom'
     engine_id: wintermute
-    company_id: unknown
+    company_id: blekinge
+    moby_id: '-1'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: Project_Doom
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: projectjoe
+    name: 'Project Joe'
+    engine_id: wintermute
+    company_id: sticky
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -5136,12 +5676,12 @@
     wikipedia_page: ''
     series_id: ''
 -
-    id: projectjoe
-    name: 'Project Joe'
-    engine_id: wintermute
-    company_id: unknown
-    moby_id: '-1'
-    steam_id: ''
+    id: projectorface
+    name: 'Projector Face'
+    engine_id: ags
+    company_id: fluik
+    moby_id: ''
+    steam_id: '431850'
     gog_id: ''
     additional_stores: ''
     datafiles: ''
@@ -5252,7 +5792,7 @@
     steam_id: '734080'
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Qajary_Cat
     wikipedia_page: ''
     series_id: ''
 -
@@ -5328,6 +5868,18 @@
     wikipedia_page: 'Quest_for_Glory:_Shadows_of_Darkness'
     series_id: qfg
 -
+    id: qfi
+    name: 'Quest for Infamy'
+    engine_id: ags
+    company_id: infamousq
+    moby_id: '71208'
+    steam_id: '264560'
+    gog_id: quest_for_infamy
+    additional_stores: '- [Itch.io](https://infamousquests.itch.io/quest-for-infamy)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: queen
     name: 'Flight of the Amazon Queen'
     engine_id: queen
@@ -5391,11 +5943,23 @@
     id: rebeccacarlson1
     name: 'Rebecca Carlson Mystery 01 - Silent Footsteps'
     engine_id: wintermute
-    company_id: unknown
-    moby_id: '-1'
+    company_id: frostlind
+    moby_id: '114499'
     steam_id: '780740'
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website](http://frostlindgames.com/index.html)'
+    datafiles: Silent_Footsteps
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: redbow
+    name: 'Red Bow'
+    engine_id: ags
+    company_id: stranga
+    moby_id: '140170'
+    steam_id: '710600'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://stranga.itch.io/redbow)'
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -5408,9 +5972,9 @@
     steam_id: ''
     gog_id: crusader_no_regret
     additional_stores: ''
-    datafiles: ''
+    datafiles: 'Crusader:_No_Regret'
     wikipedia_page: 'Crusader:_No_Regret'
-    series_id: ''
+    series_id: crusader
 -
     id: remorse
     name: 'Crusader: No Remorse'
@@ -5422,7 +5986,7 @@
     additional_stores: ''
     datafiles: 'Crusader:_No_Remorse'
     wikipedia_page: 'Crusader:_No_Remorse'
-    series_id: ''
+    series_id: crusader
 -
     id: reptilesquest
     name: 'On the Tracks of Dinosaurs'
@@ -5440,23 +6004,23 @@
     name: Resonance
     engine_id: ags
     company_id: xii
-    moby_id: ''
-    steam_id: ''
-    gog_id: ''
-    additional_stores: ''
+    moby_id: '56829'
+    steam_id: '212050'
+    gog_id: resonance
+    additional_stores: '- [Developer''s Website](https://www.wadjeteyegames.com/games/resonance/)'
     datafiles: ''
-    wikipedia_page: ''
+    wikipedia_page: Resonance_(video_game)
     series_id: ''
 -
     id: reversion1
     name: 'Reversion: The Escape'
     engine_id: wintermute
     company_id: 3f
-    moby_id: '-1'
+    moby_id: '66134'
     steam_id: '270570'
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Reversion_-_The_Escape
     wikipedia_page: ''
     series_id: reversion
 -
@@ -5464,11 +6028,11 @@
     name: 'Reversion: The Meeting'
     engine_id: wintermute
     company_id: 3f
-    moby_id: '-1'
+    moby_id: '66135'
     steam_id: '281060'
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Reversion_-_The_Meeting
     wikipedia_page: ''
     series_id: reversion
 -
@@ -5476,24 +6040,36 @@
     name: 'Reversion: The Return'
     engine_id: wintermute
     company_id: 3f
-    moby_id: '-1'
+    moby_id: '143266'
     steam_id: '281080'
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Reversion_-_The_Return
     wikipedia_page: ''
     series_id: reversion
 -
     id: rhiannon
     name: 'Rhiannon: Curse of the four Branches'
     engine_id: wintermute
-    company_id: unknown
+    company_id: arberth
     moby_id: '36964'
-    steam_id: ''
-    gog_id: ''
+    steam_id: '298140'
+    gog_id: rhiannon_curse_of_the_four_branches
+    additional_stores: ''
+    datafiles: 'Rhiannon:_Curse_of_the_Four_Branches'
+    wikipedia_page: 'Rhiannon:_Curse_of_the_Four_Branches'
+    series_id: ''
+-
+    id: richardandalice
+    name: 'Richard & Alice'
+    engine_id: ags
+    company_id: owlcave
+    moby_id: '60447'
+    steam_id: '279260'
+    gog_id: richard_alice
     additional_stores: ''
     datafiles: ''
-    wikipedia_page: 'Rhiannon:_Curse_of_the_Four_Branches'
+    wikipedia_page: Richard_%26_Alice
     series_id: ''
 -
     id: ringworld
@@ -5544,6 +6120,18 @@
     wikipedia_page: Riven
     series_id: myst
 -
+    id: rnrneverdies
+    name: 'Rock ''n'' Roll Will Never Die!'
+    engine_id: ags
+    company_id: instantmillion
+    moby_id: ''
+    steam_id: '1644080'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://bestgames.itch.io/rock-n-roll-will-never-die)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: robin
     name: 'The Adventures of Robin Hood'
     engine_id: lilliput
@@ -5579,6 +6167,18 @@
     datafiles: Rodney%27s_Funscreen
     wikipedia_page: ''
     series_id: ''
+-
+    id: roguestate
+    name: 'Rogue State'
+    engine_id: ags
+    company_id: lrdg
+    moby_id: '82543'
+    steam_id: '396090'
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: roguestate
 -
     id: rome
     name: 'Rome: Pathway to Power'
@@ -5664,6 +6264,18 @@
     wikipedia_page: ''
     series_id: livingbooks
 -
+    id: samaritan
+    name: 'The Samaritan Paradox'
+    engine_id: ags
+    company_id: faravid
+    moby_id: '75871'
+    steam_id: '283180'
+    gog_id: the_samaritan_paradox
+    additional_stores: '- [FireFlower Games Store](https://fireflowergames.com/products/the-samaritan-paradox/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: samnmax
     name: 'Sam & Max: Hit the Road'
     engine_id: scumm
@@ -5708,7 +6320,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Satan_and_Sons
     wikipedia_page: ''
     series_id: ''
 -
@@ -5775,12 +6387,12 @@
     id: securanote
     name: Securanote
     engine_id: wintermute
-    company_id: unknown
+    company_id: skaldic
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Securanote
     wikipedia_page: ''
     series_id: ''
 -
@@ -5835,12 +6447,12 @@
     id: shaban
     name: Shaban
     engine_id: wintermute
-    company_id: unknown
+    company_id: petagame
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: '- [Big Fish Games](https://www.bigfishgames.com/games/7157/shaban/)'
-    datafiles: ''
+    datafiles: Shaban
     wikipedia_page: ''
     series_id: ''
 -
@@ -5854,6 +6466,18 @@
     additional_stores: ''
     datafiles: Shadowgate
     wikipedia_page: Shadowgate
+    series_id: ''
+-
+    id: shardlight
+    name: Shardlight
+    engine_id: ags
+    company_id: wadjet
+    moby_id: '80887'
+    steam_id: '336130'
+    gog_id: shardlight
+    additional_stores: '- [Developer''s Website](https://www.wadjeteyegames.com/games/shardlight/)'
+    datafiles: ''
+    wikipedia_page: Shardlight
     series_id: ''
 -
     id: sheila
@@ -5883,13 +6507,25 @@
     id: shinestar
     name: 'The Shine of a Star'
     engine_id: wintermute
-    company_id: unknown
+    company_id: forgottenkey
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: The_Shine_of_a_Star
     wikipedia_page: ''
+    series_id: ''
+-
+    id: shivah
+    name: 'The Shivah'
+    engine_id: ags
+    company_id: wadjet
+    moby_id: '25365'
+    steam_id: '252370'
+    gog_id: the_shivah
+    additional_stores: '- [Developer''s Website](https://www.wadjeteyegames.com/games/the-shivah/)'
+    datafiles: ''
+    wikipedia_page: The_Shivah
     series_id: ''
 -
     id: shivers
@@ -6039,12 +6675,12 @@
     id: sofiasdebt
     name: 'Sofia''s Debt'
     engine_id: wintermute
-    company_id: unknown
+    company_id: artistic
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Sofia%27s_Debt
     wikipedia_page: ''
     series_id: ''
 -
@@ -6116,19 +6752,19 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Space_Invaders
     wikipedia_page: ''
     series_id: ''
 -
     id: spacemadness
     name: 'Space Madness'
     engine_id: wintermute
-    company_id: unknown
-    moby_id: '52053'
+    company_id: spreadcamp
+    moby_id: ''
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
-    datafiles: ''
+    additional_stores: '- [Itch.io](https://spreadcamp.itch.io/space-madness)'
+    datafiles: Space_Madness
     wikipedia_page: ''
     series_id: ''
 -
@@ -6372,6 +7008,18 @@
     wikipedia_page: 'Star_Trek:_25th_Anniversary_(computer_game)'
     series_id: startrek
 -
+    id: starshipquasar
+    name: 'Starship Quasar'
+    engine_id: ags
+    company_id: crystalshard
+    moby_id: '116872'
+    steam_id: '551840'
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](https://www.crystalshard.net/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: stellaluna
     name: Stellaluna
     engine_id: mohawk
@@ -6395,6 +7043,54 @@
     datafiles: ''
     wikipedia_page: 'Star_Trek:_Judgment_Rites'
     series_id: startrek
+-
+    id: strangeland
+    name: Strangeland
+    engine_id: ags
+    company_id: wormwood
+    moby_id: '165274'
+    steam_id: '1369520'
+    gog_id: strangeland
+    additional_stores: '- [Developer''s Website](https://www.wadjeteyegames.com/games/strangeland/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: sulifallenharmony
+    name: 'Suli Fallen Harmony'
+    engine_id: ags
+    company_id: coutal
+    moby_id: '155523'
+    steam_id: '1286640'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://coutalgames.itch.io/suli-fallen-harmony)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: sumatra
+    name: 'Sumatra: Fate of Yandi'
+    engine_id: ags
+    company_id: cloakdagger
+    moby_id: '126872'
+    steam_id: '610900'
+    gog_id: sumatra_fate_of_yandi
+    additional_stores: '- [Itch.io](https://shaun9991.itch.io/sumatra-fate-of-yandi)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: superjazzman
+    name: 'Super Jazz Man'
+    engine_id: ags
+    company_id: herculean
+    moby_id: '25679'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
 -
     id: swampy
     name: 'Simon the Sorcerer''s Puzzle Pack: Swampy Adventures'
@@ -6576,6 +7272,18 @@
     wikipedia_page: The_7th_Guest
     series_id: t7g
 -
+    id: tales
+    name: Tales
+    engine_id: ags
+    company_id: apemarina
+    moby_id: '115197'
+    steam_id: '416250'
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](http://apemarina.altervista.org/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: talisman
     name: 'Talisman: Challenging the Sands of Time'
     engine_id: comprehend
@@ -6591,25 +7299,37 @@
     id: tanya1
     name: 'Tanya Grotter and the Magical Double Bass'
     engine_id: wintermute
-    company_id: unknown
+    company_id: creativedream
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Tanya_Grotter_and_the_Magical_Double_Bass
     wikipedia_page: ''
-    series_id: ''
+    series_id: tanya
 -
     id: tanya2
     name: 'Tanya Grotter and the Disappearing Floor'
     engine_id: wintermute
-    company_id: unknown
+    company_id: creativedream
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Tanya_Grotter_and_the_Disappearing_Floor
     wikipedia_page: ''
+    series_id: tanya
+-
+    id: technobabylon
+    name: Technobabylon
+    engine_id: ags
+    company_id: technocrat
+    moby_id: '84775'
+    steam_id: '307580'
+    gog_id: technobabylon
+    additional_stores: '- [Developer''s Website](https://www.wadjeteyegames.com/games/technobabylon/)'
+    datafiles: ''
+    wikipedia_page: Technobabylon
     series_id: ''
 -
     id: teenagent
@@ -6627,26 +7347,26 @@
     id: tehran1933
     name: 'Murder In Tehran''s Alleys 1933'
     engine_id: wintermute
-    company_id: unknown
+    company_id: rskent
     moby_id: '122584'
-    steam_id: ''
+    steam_id: '630170'
     gog_id: ''
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: ''
+    series_id: tehran
 -
     id: tehran2016
     name: 'Murder In Tehran''s Alleys 2016'
     engine_id: wintermute
-    company_id: unknown
+    company_id: rskent
     moby_id: '122585'
-    steam_id: ''
+    steam_id: '639730'
     gog_id: ''
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: ''
+    series_id: tehran
 -
     id: tentacle
     name: 'Maniac Mansion: Day of the Tentacle'
@@ -6696,15 +7416,27 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: theadventuresoffatman
+    name: 'The Adventures of Fatman'
+    engine_id: ags
+    company_id: socko
+    moby_id: '11956'
+    steam_id: '395250'
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: The_Adventures_of_Fatman
+    series_id: fatman
+-
     id: theancientmark1
     name: 'The Ancient Mark - Episode 1'
     engine_id: wintermute
-    company_id: unknown
+    company_id: flippingtree
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: The_Ancient_Mark_-_Episode_1
     wikipedia_page: ''
     series_id: ''
 -
@@ -6723,24 +7455,48 @@
     id: thebox
     name: 'The Box'
     engine_id: wintermute
-    company_id: unknown
+    company_id: blekinge
     moby_id: '-1'
     steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: The_Box
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: thecastle
+    name: 'The Castle'
+    engine_id: ags
+    company_id: ishtar
+    moby_id: '143755'
+    steam_id: '1133950'
     gog_id: ''
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
 -
+    id: thecatlady
+    name: 'The Cat Lady'
+    engine_id: ags
+    company_id: harvester
+    moby_id: '59677'
+    steam_id: '253110'
+    gog_id: the_cat_lady
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: The_Cat_Lady
+    series_id: ''
+-
     id: thekite
     name: 'The Kite'
     engine_id: wintermute
-    company_id: unknown
+    company_id: anate
     moby_id: '54832'
-    steam_id: ''
+    steam_id: '968700'
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: The_Kite
     wikipedia_page: ''
     series_id: ''
 -
@@ -6748,8 +7504,8 @@
     name: 'The Last Crown - Midnight Horror'
     engine_id: wintermute
     company_id: darkling
-    moby_id: '-1'
-    steam_id: ''
+    moby_id: '83526'
+    steam_id: '291770'
     gog_id: ''
     additional_stores: ''
     datafiles: ''
@@ -6760,8 +7516,8 @@
     name: 'The Lost Crown - A Ghost-Hunting Adventure'
     engine_id: wintermute
     company_id: darkling
-    moby_id: '-1'
-    steam_id: ''
+    moby_id: '33388'
+    steam_id: '291710'
     gog_id: ''
     additional_stores: ''
     datafiles: ''
@@ -6792,6 +7548,42 @@
     wikipedia_page: 'Worlds_of_Ultima:_The_Savage_Empire'
     series_id: ultima
 -
+    id: thesecretofhuttongrammarschoolvga
+    name: 'The Secret of Hutton Grammar School VGA'
+    engine_id: ags
+    company_id: tomsimpson
+    moby_id: '143835'
+    steam_id: '1196520'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://tomsimpson.itch.io/the-secret-of-hutton-vga)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: thesecretsofjesus
+    name: 'The Secrets of Jesus'
+    engine_id: ags
+    company_id: amatouk
+    moby_id: '137196'
+    steam_id: '1142230'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://amir-matouk.itch.io/thesecretsofjesus)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: theterribleoldman
+    name: 'The Terrible Old Man'
+    engine_id: ags
+    company_id: cloakdagger
+    moby_id: '147043'
+    steam_id: '1147030'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://shaun9991.itch.io/the-terrible-old-man)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: thinker1
     name: 'Big Thinkers! 1st Grade'
     engine_id: scumm
@@ -6819,13 +7611,25 @@
     id: tib
     name: 'Fairy Tales About Toshechka and Boshechka'
     engine_id: wintermute
-    company_id: unknown
+    company_id: creativedream
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Fairy_Tales_About_Toshechka_and_Boshechka
     wikipedia_page: ''
+    series_id: ''
+-
+    id: timegentlemenplease
+    name: 'Time Gentlemen, Please!'
+    engine_id: ags
+    company_id: zombiecow
+    moby_id: '42060'
+    steam_id: '37400'
+    gog_id: time_gentlemen_please_ben_there_dan_that
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: 'https://en.wikipedia.org/wiki/Time_Gentlemen,_Please!_(video_game)'
     series_id: ''
 -
     id: titanic
@@ -6939,12 +7743,12 @@
     id: tradestory
     name: 'The Trader of Stories'
     engine_id: wintermute
-    company_id: unknown
+    company_id: rudowski
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
-    datafiles: ''
+    additional_stores: '- [Developer''s Website](http://traderofstories.blogspot.com/)'
+    datafiles: The_Trader_of_Stories
     wikipedia_page: ''
     series_id: ''
 -
@@ -6991,7 +7795,7 @@
     moby_id: '17172'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
+    additional_stores: '- [Developer''s Website](https://www.studiotrophis.com/site/downloads)'
     datafiles: The_White_Chamber
     wikipedia_page: The_White_Chamber
     series_id: ''
@@ -7080,6 +7884,18 @@
     wikipedia_page: 'Ultima_VIII:_Pagan'
     series_id: ultima
 -
+    id: unavowed
+    name: Unavowed
+    engine_id: ags
+    company_id: wadjet
+    moby_id: '112181'
+    steam_id: '336140'
+    gog_id: unavowed
+    additional_stores: '- [Developer''s Website](https://www.wadjeteyegames.com/games/unavowed/)'
+    datafiles: ''
+    wikipedia_page: Unavowed
+    series_id: ''
+-
     id: unclehenry
     name: 'Uncle Henry''s Playhouse'
     engine_id: groovie
@@ -7167,12 +7983,12 @@
     id: vsevolod
     name: Vsevolod
     engine_id: wintermute
-    company_id: unknown
+    company_id: svarun
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Vsevolod
     wikipedia_page: ''
     series_id: ''
 -
@@ -7216,11 +8032,11 @@
     name: War
     engine_id: wintermute
     company_id: unknown
-    moby_id: '99586'
+    moby_id: ''
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: War
     wikipedia_page: ''
     series_id: ''
 -
@@ -7294,6 +8110,18 @@
     additional_stores: ''
     datafiles: Wetlands
     wikipedia_page: Wetlands_(video_game)
+    series_id: ''
+-
+    id: whispersofamachine
+    name: 'Whispers of a Machine'
+    engine_id: ags
+    company_id: clifftop
+    moby_id: '125328'
+    steam_id: '631570'
+    gog_id: whispers_of_a_machine
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: winnie
@@ -7383,12 +8211,12 @@
     id: wtetris
     name: 'Wilma Tetris'
     engine_id: wintermute
-    company_id: unknown
+    company_id: offstudio
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
-    additional_stores: ''
-    datafiles: ''
+    additional_stores: '- [Developer''s Website](http://res.dead-code.org/doku.php/resource:start)'
+    datafiles: Wilma_Tetris
     wikipedia_page: ''
     series_id: ''
 -
@@ -7431,7 +8259,7 @@
     id: zbang
     name: 'Zbang! The Game'
     engine_id: wintermute
-    company_id: unknown
+    company_id: corbomite
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -7515,12 +8343,12 @@
     id: zilm
     name: 'Zilm: A Game of Reflex'
     engine_id: wintermute
-    company_id: unknown
+    company_id: skaldic
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: 'Zilm:_A_Game_of_Reflex'
     wikipedia_page: ''
     series_id: ''
 -
@@ -7535,6 +8363,18 @@
     datafiles: Zork_Nemesis
     wikipedia_page: Zork_Nemesis
     series_id: zork
+-
+    id: zniwadventure
+    name: 'Zniw Adventure'
+    engine_id: ags
+    company_id: azure
+    moby_id: '152992'
+    steam_id: '904750'
+    gog_id: zniw_adventure
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
 -
     id: ztuu
     name: 'Zork: The Undiscovered Underground'

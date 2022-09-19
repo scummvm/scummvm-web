@@ -16,6 +16,10 @@
     name: '4X Technologies'
     alt_name: ''
 -
+    id: abeckett
+    name: 'Alasdair Beckett'
+    alt_name: ''
+-
     id: access
     name: 'Access Software'
     alt_name: ''
@@ -30,6 +34,10 @@
 -
     id: adeline
     name: 'Adeline Software International'
+    alt_name: ''
+-
+    id: adipson
+    name: 'Adipson Studio'
     alt_name: ''
 -
     id: adventurecompany
@@ -52,6 +60,10 @@
     name: 'Aftermath Media'
     alt_name: ''
 -
+    id: aka
+    name: 'AKA Xportmedia'
+    alt_name: ''
+-
     id: akella
     name: Akella
     alt_name: ''
@@ -64,6 +76,10 @@
     name: 'Alcachofa Soft'
     alt_name: ''
 -
+    id: amatouk
+    name: 'Amir Matouk'
+    alt_name: ''
+-
     id: amber
     name: 'Amber Company'
     alt_name: ''
@@ -72,8 +88,16 @@
     name: 'Animation Magic'
     alt_name: ''
 -
+    id: anate
+    name: 'Anate Studio'
+    alt_name: ''
+-
     id: anne
     name: 'Anne Carrière'
+    alt_name: ''
+-
+    id: apemarina
+    name: 'Ape Marina'
     alt_name: ''
 -
     id: aquin
@@ -92,6 +116,10 @@
     name: 'Artech Digital Entertainment'
     alt_name: ''
 -
+    id: artistic
+    name: ArtisticSoft
+    alt_name: ''
+-
     id: arxel
     name: 'Arxel Tribe'
     alt_name: ''
@@ -102,6 +130,10 @@
 -
     id: atlantis
     name: 'Atlantis Interactive Entertainment'
+    alt_name: ''
+-
+    id: azure
+    name: 'Azure Mountain'
     alt_name: ''
 -
     id: bandai
@@ -168,12 +200,20 @@
     name: 'Channel 8 Software'
     alt_name: ''
 -
+    id: cityint
+    name: 'City Interactive'
+    alt_name: ''
+-
     id: clifftop
     name: 'Clifftop Games'
     alt_name: ''
 -
     id: clipper
     name: 'Clipper Software'
+    alt_name: ''
+-
+    id: cloakdagger
+    name: 'Cloak and Dagger Games'
     alt_name: ''
 -
     id: coktel
@@ -184,8 +224,16 @@
     name: '(Colossal) Pictures'' New Media'
     alt_name: ''
 -
+    id: corbomite
+    name: 'Corbomite Games'
+    alt_name: ''
+-
     id: coredesign
     name: 'Core Design'
+    alt_name: ''
+-
+    id: coutal
+    name: 'Coutal Games'
     alt_name: ''
 -
     id: cpcc
@@ -206,6 +254,10 @@
 -
     id: crystaldynamics
     name: 'Crystal Dynamics'
+    alt_name: ''
+-
+    id: crystalshard
+    name: 'Crystal Shard'
     alt_name: ''
 -
     id: cuc
@@ -352,6 +404,10 @@
     name: 'Fan game'
     alt_name: ''
 -
+    id: faravid
+    name: 'Faravid Interactive'
+    alt_name: ''
+-
     id: fatfunky
     name: 'Fat Funky'
     alt_name: ''
@@ -364,8 +420,24 @@
     name: 'Flashpoint Productions'
     alt_name: ''
 -
+    id: flippingtree
+    name: FlippingTree
+    alt_name: ''
+-
+    id: fluik
+    name: 'Fluik Entertainment'
+    alt_name: ''
+-
+    id: footprints
+    name: 'Footprints Games'
+    alt_name: ''
+-
     id: forgottenkey
     name: 'Forgotten Key'
+    alt_name: ''
+-
+    id: frostlind
+    name: 'Frostlind Games'
     alt_name: ''
 -
     id: ftl
@@ -380,8 +452,16 @@
     name: 'Funhouse Design'
     alt_name: ''
 -
+    id: gingertips
+    name: 'Gingertips Game Studio'
+    alt_name: ''
+-
     id: glk
     name: 'Interactive Fiction'
+    alt_name: ''
+-
+    id: goldenbough
+    name: 'Golden Bough Games'
     alt_name: ''
 -
     id: gotgame
@@ -400,8 +480,32 @@
     name: 'GT Interactive'
     alt_name: ''
 -
+    id: gugames
+    name: Gugames
+    alt_name: ''
+-
+    id: herculean
+    name: 'Herculean Effort Productions'
+    alt_name: ''
+-
+    id: harvester
+    name: 'Harvester Games'
+    alt_name: ''
+-
     id: he
     name: 'Humongous Entertainment'
+    alt_name: ''
+-
+    id: headware
+    name: 'Headware Games'
+    alt_name: ''
+-
+    id: herocraft
+    name: HeroCraft
+    alt_name: ''
+-
+    id: himalaya
+    name: 'Himalaya Studios'
     alt_name: ''
 -
     id: hueforest
@@ -436,12 +540,20 @@
     name: IndieSquish
     alt_name: ''
 -
+    id: infamousq
+    name: 'Infamous Quests'
+    alt_name: ''
+-
     id: infocom
     name: Infocom
     alt_name: ''
 -
     id: infogrames
     name: Infogrames
+    alt_name: ''
+-
+    id: instantmillion
+    name: 'Instant Million'
     alt_name: ''
 -
     id: interlink
@@ -460,13 +572,25 @@
     name: 'IPS Computer Group'
     alt_name: ''
 -
+    id: ishtar
+    name: 'Ishtar Games'
+    alt_name: ''
+-
     id: israndom
     name: 'IsRandomRandom Games'
+    alt_name: ''
+-
+    id: jbclerfayt
+    name: 'Jean-Baptiste de Clerfayt'
     alt_name: ''
 -
     id: jbush
     name: 'JBush Productions'
     alt_name: ''
+-
+    id: jennybee
+    name: 'Jennifer McMurray'
+    alt_name: JennyBee
 -
     id: kemco
     name: Kemco
@@ -478,6 +602,10 @@
 -
     id: kompart
     name: 'Kompart UK'
+    alt_name: ''
+-
+    id: korozif
+    name: Korozif
     alt_name: ''
 -
     id: krumbukt
@@ -504,6 +632,10 @@
     name: 'Lezard Interactive'
     alt_name: ''
 -
+    id: likely
+    name: 'Likely Games'
+    alt_name: ''
+-
     id: linuxgp
     name: 'Linux Game Publishing'
     alt_name: ''
@@ -524,6 +656,10 @@
     name: 'Local Studio'
     alt_name: ''
 -
+    id: lrdg
+    name: 'Little Red Dog Games'
+    alt_name: ''
+-
     id: lucasarts
     name: LucasArts
     alt_name: ''
@@ -540,12 +676,20 @@
     name: Macromedia
     alt_name: ''
 -
+    id: madorange
+    name: 'Mad Orange'
+    alt_name: ''
+-
     id: magnetic
     name: 'Magnetic Scrolls'
     alt_name: ''
 -
     id: magnetinteractive
     name: 'Magnet Interactive Studios, Inc.'
+    alt_name: ''
+-
+    id: majestic
+    name: 'Majestic Studios'
     alt_name: ''
 -
     id: maximyz
@@ -581,8 +725,8 @@
     alt_name: ''
 -
     id: mif2000
-    name: Mif2000
-    alt_name: ''
+    name: 'Denis Galanin'
+    alt_name: Mif2000
 -
     id: millennium
     name: 'Millennium Interactive Ltd.'
@@ -676,6 +820,10 @@
     name: 'Origin Systems'
     alt_name: ''
 -
+    id: owlcave
+    name: 'Owl Cave'
+    alt_name: ''
+-
     id: palace
     name: 'Palace Software'
     alt_name: ''
@@ -717,11 +865,15 @@
     alt_name: ''
 -
     id: pnc
-    name: 'PNC Narratives'
+    name: 'PnC Narratives'
     alt_name: ''
 -
     id: polarware
     name: Polarware
+    alt_name: ''
+-
+    id: pompous
+    name: 'The Pompous Pixel'
     alt_name: ''
 -
     id: pony
@@ -734,6 +886,10 @@
 -
     id: prograph
     name: 'Prograph Research'
+    alt_name: ''
+-
+    id: psychodev
+    name: PsychoDev
     alt_name: ''
 -
     id: psygnosis
@@ -780,6 +936,10 @@
     name: 'Rockstar Vienna'
     alt_name: ''
 -
+    id: romank
+    name: 'Roman Koksharov'
+    alt_name: ''
+-
     id: rootfix
     name: 'RootFix Entertainment'
     alt_name: ''
@@ -816,12 +976,20 @@
     name: Sega
     alt_name: ''
 -
+    id: shadowtor
+    name: 'Shadow Tor Studios'
+    alt_name: ''
+-
     id: sierra
     name: Sierra
     alt_name: 'Sierra On-Line'
 -
     id: siliconbeach
     name: 'Silicon Beach Software'
+    alt_name: ''
+-
+    id: silverspook
+    name: 'Silver Spook Games'
     alt_name: ''
 -
     id: skaldic
@@ -836,12 +1004,20 @@
     name: 'Smoking Car Productions'
     alt_name: ''
 -
+    id: socko
+    name: 'SOCKO! Entertainment'
+    alt_name: ''
+-
     id: softgold
     name: Softgold
     alt_name: ''
 -
     id: softwarefarm
     name: 'The Software Farm'
+    alt_name: ''
+-
+    id: solo
+    name: 'Solo Design'
     alt_name: ''
 -
     id: sony
@@ -864,8 +1040,20 @@
     name: 'Starbyte Software'
     alt_name: ''
 -
+    id: sticky
+    name: 'Sticky Studios'
+    alt_name: ''
+-
+    id: stranga
+    name: 'Stranga Games'
+    alt_name: ''
+-
     id: studiotrophis
     name: 'Studio Trophis'
+    alt_name: ''
+-
+    id: svarun
+    name: 'Svarun Entertainment'
     alt_name: ''
 -
     id: synergy
@@ -876,12 +1064,20 @@
     name: 'Team VSB'
     alt_name: ''
 -
+    id: technocrat
+    name: 'Technocrat Games'
+    alt_name: ''
+-
     id: terra
     name: 'Terra Nova Development'
     alt_name: ''
 -
     id: thorsoft
     name: 'Thorsoft of Letchworth'
+    alt_name: ''
+-
+    id: threebees
+    name: 'Three Bees'
     alt_name: ''
 -
     id: tlc
@@ -894,6 +1090,10 @@
 -
     id: tommo
     name: Tommo
+    alt_name: ''
+-
+    id: tomsimpson
+    name: 'Tom Simpson'
     alt_name: ''
 -
     id: traktor
@@ -918,6 +1118,10 @@
 -
     id: tsunami
     name: 'Tsunami Games'
+    alt_name: ''
+-
+    id: turmoil
+    name: 'Turmoil Games'
     alt_name: ''
 -
     id: ubisoft
@@ -960,6 +1164,10 @@
     name: 'Virtual Image Productions'
     alt_name: ''
 -
+    id: wadjet
+    name: 'Wadjet Eye Games'
+    alt_name: ''
+-
     id: wanadoo
     name: 'Wanadoo Edition'
     alt_name: ''
@@ -980,6 +1188,14 @@
     name: 'Westwood Studios'
     alt_name: ''
 -
+    id: wormwood
+    name: 'Wormwood Studios'
+    alt_name: ''
+-
+    id: wtw
+    name: 'Walk Thru Walls Studios'
+    alt_name: ''
+-
     id: wyrmkeep
     name: 'The Wyrmkeep Entertainment'
     alt_name: ''
@@ -994,4 +1210,8 @@
 -
     id: zombie
     name: 'Zombie Studios'
+    alt_name: ''
+-
+    id: zombiecow
+    name: 'Zombie Cow Studios'
     alt_name: ''
