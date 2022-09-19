@@ -996,7 +996,7 @@
 -
     id: pajama3
     support: broken
-    notes: '- PlayStation 1 version doesn''t use SCUMM, so will never be supported - Minor graphical glitches - Sprites aren''t displayed during Ski Ride'
+    notes: '- PlayStation 1 version doesn''t use SCUMM - Minor graphical glitches - Sprites aren''t displayed during Ski Ride'
     since_version: 0.8.0
     stable_platforms: 'mac,win'
     unstable_platforms: psx
@@ -1122,7 +1122,7 @@
 -
     id: pajama3
     support: good
-    notes: '- PlayStation 1 version doesn''t use SCUMM, so will never be supported - Minor graphical glitches with dancing can in stomach'
+    notes: '- PlayStation 1 version doesn''t use SCUMM - Minor graphical glitches with dancing can in stomach'
     since_version: 0.8.2
     stable_platforms: 'mac,win'
     unstable_platforms: psx
@@ -1458,7 +1458,7 @@
 -
     id: pajama3
     support: good
-    notes: '- PlayStation 1 version doesn''t use SCUMM, so will never be supported'
+    notes: '- PlayStation 1 version doesn''t use SCUMM'
     since_version: 0.10.0
     stable_platforms: 'mac,win'
     unstable_platforms: psx
@@ -1521,14 +1521,14 @@
 -
     id: elvira1
     support: good
-    notes: '- Commodore 64 version doesn''t use AGOS, so will never be supported. - No music in the Atari ST version. - No text descriptions in the Atari ST version.'
+    notes: '- Commodore 64 version doesn''t use AGOS. - No music in the Atari ST version. - No text descriptions in the Atari ST version.'
     since_version: 0.11.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: c64
 -
     id: elvira2
     support: good
-    notes: '- Commodore 64 version doesn''t use AGOS, so will never be supported. - No music in the Atari ST version. - No sound effects in the DOS version. - Palette issues in the Atari ST version.'
+    notes: '- Commodore 64 version doesn''t use AGOS. - No music in the Atari ST version. - No sound effects in the DOS version. - Palette issues in the Atari ST version.'
     since_version: 0.11.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: c64
@@ -1668,14 +1668,14 @@
 -
     id: elvira1
     support: good
-    notes: '- Commodore 64 version doesn''t use AGOS, so will never be supported. - No music in the Atari ST version.'
+    notes: '- Commodore 64 version doesn''t use AGOS - No music in the Atari ST version'
     since_version: 0.13.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: c64
 -
     id: t7g
     support: excellent
-    notes: '- The MT-32 instrument definitions aren''t supported yet, so it will play with wrong instruments - The CD-i version doesn''t use Groovie, so it will never be supported. - There are some issues with music not playing when it should'
+    notes: '- The MT-32 instrument definitions aren''t supported yet, so it will play with wrong instruments - The CD-i version doesn''t use Groovie - There are some issues with music not playing when it should'
     since_version: 0.13.0
     stable_platforms: 'dos,win'
     unstable_platforms: 'cdi,ios,mac'
@@ -1731,7 +1731,7 @@
 -
     id: elvira2
     support: good
-    notes: '- Commodore 64 version doesn''t use AGOS, so will never be supported. - No music in the Atari ST version. - No sound effects in the DOS version.'
+    notes: '- Commodore 64 version doesn''t use AGOS - No music in the Atari ST version. - No sound effects in the DOS version.'
     since_version: 1.0.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: c64
@@ -1759,7 +1759,7 @@
 -
     id: t7g
     support: excellent
-    notes: '- The MT-32 instrument definitions aren''t supported yet, so it will play with wrong instruments - The CD-i version doesn''t use Groovie, so it will never be supported.'
+    notes: '- The MT-32 instrument definitions aren''t supported yet, so it will play with wrong instruments - The CD-i version doesn''t use Groovie'
     since_version: 1.0.0
     stable_platforms: 'dos,win'
     unstable_platforms: 'cdi,ios,mac'
@@ -1948,7 +1948,7 @@
 -
     id: t7g
     support: excellent
-    notes: '- The CD-i version doesn''t use Groovie, so it will never be supported.'
+    notes: '- The CD-i version doesn''t use Groovie'
     since_version: 1.2.0
     stable_platforms: 'dos,ios,mac,win'
     unstable_platforms: cdi
@@ -4481,8 +4481,8 @@
     unstable_platforms: ''
 -
     id: obsidian
-    support: good
-    notes: '- Minor audio popping on some videos'
+    support: excellent
+    notes: ''
     since_version: DEV
     stable_platforms: 'mac,win'
     unstable_platforms: ''
