@@ -24,6 +24,18 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 5daysastranger
+    name: '5 Days A Stranger'
+    engine_id: ags
+    company_id: fullyramblomatic
+    moby_id: '11795'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](http://www.fullyramblomatic.com/5days/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: chzo
+-
     id: 5ld
     name: 'Five Lethal Demons'
     engine_id: wintermute
@@ -47,6 +59,30 @@
     datafiles: Five_Magical_Amulets
     wikipedia_page: ''
     series_id: ''
+-
+    id: 6daysasacrifice
+    name: '6 Days A Sacrifice'
+    engine_id: ags
+    company_id: fullyramblomatic
+    moby_id: '26422'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](http://www.fullyramblomatic.com/6days/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: chzo
+-
+    id: 7daysaskeptic
+    name: '7 Days A Skeptic'
+    engine_id: ags
+    company_id: fullyramblomatic
+    moby_id: '14228'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](http://www.fullyramblomatic.com/7days/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: chzo
 -
     id: abracadabra
     name: 'Once Upon A Time: Abracadabra'
@@ -240,6 +276,18 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: ainthegoffantabulousw
+    name: 'Adventures in the Galaxy of Fantabulous Wonderment'
+    engine_id: ags
+    company_id: fullyramblomatic
+    moby_id: '50075'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](http://www.fullyramblomatic.com/gtw/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: airport
     name: 'Let''s Explore the Airport'
     engine_id: scumm
@@ -384,6 +432,30 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: apprentice
+    name: Apprentice
+    engine_id: ags
+    company_id: herculean
+    moby_id: '11912'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](https://herculeaneffort.com/index.php?page=apprentice1)'
+    datafiles: ''
+    wikipedia_page: Apprentice_(video_game)
+    series_id: apprentice
+-
+    id: apprentice2
+    name: 'Apprentice II: The Knight''s Move'
+    engine_id: ags
+    company_id: herculean
+    moby_id: '14435'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](https://herculeaneffort.com/index.php?page=apprentice2)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: apprentice
+-
     id: archetype
     name: 'Archetype Interactive Fiction games'
     engine_id: glk
@@ -476,6 +548,18 @@
     steam_id: '1259140'
     gog_id: ''
     additional_stores: '- [Itch.io](https://stranga.itch.io/ashinatheredwitch)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: ashpines
+    name: 'Ash Pines'
+    engine_id: ags
+    company_id: stranga
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://stranga.itch.io/ashpines)'
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -732,6 +816,18 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: bentheredanthat
+    name: 'Ben There, Dan That!'
+    engine_id: ags
+    company_id: zombiecow
+    moby_id: '35174'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: 'Ben_There,_Dan_That!'
+    series_id: ''
+-
     id: bickadoodle
     name: Bickadoodle
     engine_id: wintermute
@@ -741,6 +837,18 @@
     gog_id: ''
     additional_stores: ''
     datafiles: Bickadoodle
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: billymasterswasright
+    name: 'Billy Masters Was Right'
+    engine_id: ags
+    company_id: postmodern
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://postmodernadventures.itch.io/billy)'
+    datafiles: ''
     wikipedia_page: ''
     series_id: ''
 -
@@ -1072,7 +1180,7 @@
     name: 'Carol Reed 15 - Geospots'
     engine_id: wintermute
     company_id: mdna
-    moby_id: ''
+    moby_id: '144185'
     steam_id: ''
     gog_id: ''
     additional_stores: '- [MDNA Games](http://www.mdna-games.com/Geospots/buy.htm)'
@@ -1084,7 +1192,7 @@
     name: 'Carol Reed 16 - Quarantine Diary'
     engine_id: wintermute
     company_id: mdna
-    moby_id: ''
+    moby_id: '156794'
     steam_id: ''
     gog_id: ''
     additional_stores: '- [MDNA Games](http://www.mdna-games.com/Quarantine/buy.htm)'
@@ -1164,6 +1272,18 @@
     wikipedia_page: Carol_Reed_Mysteries
     series_id: carol
 -
+    id: cartlife
+    name: 'Cart Life'
+    engine_id: ags
+    company_id: hofmeier
+    moby_id: '139967'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Cart_Life
+    series_id: ''
+-
     id: castlebrain
     name: 'Castle of Dr. Brain'
     engine_id: sci
@@ -1175,6 +1295,18 @@
     datafiles: Castle_of_Dr._Brain
     wikipedia_page: Castle_of_Dr._Brain
     series_id: brain
+-
+    id: castledornstein
+    name: 'Castle Dornstein'
+    engine_id: ags
+    company_id: digitalmosaic
+    moby_id: ''
+    steam_id: '1595390'
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
 -
     id: catalog
     name: 'Humongous Interactive Catalog'
@@ -1522,6 +1654,18 @@
     additional_stores: ''
     datafiles: Cruise_for_a_Corpse
     wikipedia_page: Cruise_for_a_Corpse
+    series_id: ''
+-
+    id: crystalshardadventurebundle
+    name: 'Crystal Shard Adventure Bundle'
+    engine_id: ags
+    company_id: crystalshard
+    moby_id: ''
+    steam_id: '551840'
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: cstime
@@ -2892,6 +3036,18 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: heroinesquest
+    name: 'Heroine''s Quest: The Herald of Ragnarok'
+    engine_id: ags
+    company_id: crystalshard
+    moby_id: '62486'
+    steam_id: '283880'
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](https://www.crystalshard.net/)'
+    datafiles: ''
+    wikipedia_page: Heroine%27s_Quest
+    series_id: ''
+-
     id: hires0
     name: 'Hi-Res Adventure #0: Mission Asteroid'
     engine_id: adl
@@ -3396,6 +3552,18 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: ioawn4t
+    name: 'If On A Winter''s Night, Four Travelers'
+    engine_id: ags
+    company_id: deadidle
+    moby_id: '160552'
+    steam_id: '1603980'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://laurahunt.itch.io/if-on-a-winters-night-four-travelers)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: islandbrain
     name: 'The Island of Dr. Brain'
     engine_id: sci
@@ -3624,6 +3792,18 @@
     wikipedia_page: Thayer%27s_Quest
     series_id: ''
 -
+    id: knobblycrook
+    name: 'The Knobbly Crook'
+    engine_id: ags
+    company_id: gnarled
+    moby_id: '131339'
+    steam_id: '378300'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://gnarledscar.itch.io/the-knobbly-crook)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: knossos
     name: 'K''NOSSOS'
     engine_id: wintermute
@@ -3652,13 +3832,25 @@
     name: 'King''s Quest: Quest for the Crown'
     engine_id: sci
     company_id: sierra
-    moby_id: '6418'
+    moby_id: '122'
     steam_id: '10100'
     gog_id: kings_quest_1_2_3
     additional_stores: ''
     datafiles: King%27s_Quest
     wikipedia_page: King%27s_Quest_I
     series_id: kq
+-
+    id: kq1agdi
+    name: 'King''s Quest I: Quest for the Crown Remake'
+    engine_id: ags
+    company_id: agdi
+    moby_id: '6418'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](https://www.agdinteractive.com/games/kq1/download/download.html)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: kqagdi
 -
     id: kq2
     name: 'King''s Quest II: Romancing the Throne'
@@ -3672,6 +3864,18 @@
     wikipedia_page: King%27s_Quest_II
     series_id: kq
 -
+    id: kq2agdi
+    name: 'King''s Quest II: Romancing the Stones Remake'
+    engine_id: ags
+    company_id: agdi
+    moby_id: '8028'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](https://www.agdinteractive.com/games/kq2/download/download.html)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: kqagdi
+-
     id: kq3
     name: 'King''s Quest III: To Heir Is Human'
     engine_id: agi
@@ -3683,6 +3887,30 @@
     datafiles: King%27s_Quest_III
     wikipedia_page: King%27s_Quest_III
     series_id: kq
+-
+    id: kq3agdi
+    name: 'King''s Quest III Redux: To Heir is Human'
+    engine_id: ags
+    company_id: agdi
+    moby_id: '50631'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](https://www.agdinteractive.com/games/kq3/download/download.html)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: kqagdi
+-
+    id: kq3vga
+    name: 'King''s Quest III: To Heir is Human VGA Remake'
+    engine_id: ags
+    company_id: infamousadv
+    moby_id: '23393'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://infamousadventures.itch.io/kings-quest-iii-vga-remake)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
 -
     id: kq4
     name: 'King''s Quest IV: The Perils of Rosella'
@@ -4512,6 +4740,18 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: meta
+    name: META
+    engine_id: ags
+    company_id: crystalshard
+    moby_id: '36758'
+    steam_id: '551840'
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](https://www.crystalshard.net/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: metaldead
     name: 'Metal Dead'
     engine_id: ags
@@ -4522,6 +4762,18 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: Metal_Dead
+    series_id: ''
+-
+    id: metaphobia
+    name: Metaphobia
+    engine_id: ags
+    company_id: digitalmosaic
+    moby_id: '129019'
+    steam_id: '1220930'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://digital-mosaic-games.itch.io/metaphobia)'
+    datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: mh1
@@ -4740,6 +4992,18 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: mudlarks
+    name: Mudlarks
+    engine_id: ags
+    company_id: cloakdagger
+    moby_id: '112305'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://shaun9991.itch.io/mudlarks)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: mustard
     name: 'Spy Fox in "Hold the Mustard"'
     engine_id: scumm
@@ -4920,6 +5184,18 @@
     wikipedia_page: Living_Books
     series_id: livingbooks
 -
+    id: nightmareframes
+    name: 'Nightmare Frames'
+    engine_id: ags
+    company_id: postmodern
+    moby_id: '186431'
+    steam_id: '1650590'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://postmodernadventures.itch.io/nightmare-frames)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: nighttrain
     name: 'Night Train'
     engine_id: wintermute
@@ -4989,6 +5265,18 @@
     gog_id: ''
     additional_stores: ''
     datafiles: Oknytt
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: oldskies
+    name: 'Old Skies'
+    engine_id: ags
+    company_id: wadjet
+    moby_id: ''
+    steam_id: '1346360'
+    gog_id: old_skies
+    additional_stores: '- [Developer''s Website](https://www.wadjeteyegames.com/games/old-skies/)'
+    datafiles: ''
     wikipedia_page: ''
     series_id: ''
 -
@@ -5086,6 +5374,18 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: Out_of_Order_(video_game)
+    series_id: ''
+-
+    id: overtheedge
+    name: 'The Journey Down: Over the Edge'
+    engine_id: ags
+    company_id: skygoblin
+    moby_id: '56258'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: The_Journey_Down
     series_id: ''
 -
     id: paintaria
@@ -5252,7 +5552,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: 'Pink_Panther:_Passport_to_Peril'
     wikipedia_page: 'The_Pink_Panther:_Passport_to_Peril'
     series_id: ''
 -
@@ -5404,7 +5704,7 @@
     name: 'Playtoons 1 - Uncle Archibald'
     engine_id: gob
     company_id: coktel
-    moby_id: '-1'
+    moby_id: '184579'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
@@ -5416,7 +5716,7 @@
     name: 'Playtoons 2 - The Case of the Counterfeit Collaborator'
     engine_id: gob
     company_id: coktel
-    moby_id: '-1'
+    moby_id: '185154'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
@@ -5428,7 +5728,7 @@
     name: 'Playtoons 3 - The Secret of the Castle'
     engine_id: gob
     company_id: coktel
-    moby_id: '-1'
+    moby_id: '185155'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
@@ -5440,7 +5740,7 @@
     name: 'Playtoons 4 - The Mandarine Prince'
     engine_id: gob
     company_id: coktel
-    moby_id: '-1'
+    moby_id: '185156'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
@@ -5452,7 +5752,7 @@
     name: 'Playtoons 5 - The Stone of Wakan'
     engine_id: gob
     company_id: coktel
-    moby_id: '-1'
+    moby_id: '185157'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
@@ -5504,7 +5804,7 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: 'Pink_Panther:_Hokus_Pokus_Pink'
     wikipedia_page: 'The_Pink_Panther:_Hokus_Pokus_Pink'
     series_id: ''
 -
@@ -5832,6 +6132,18 @@
     wikipedia_page: 'Quest_for_Glory_II:_Trial_by_Fire'
     series_id: qfg
 -
+    id: qfg2agdi
+    name: 'Quest for Glory II: Trial by Fire Remake'
+    engine_id: ags
+    company_id: agdi
+    moby_id: '35907'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](https://www.agdinteractive.com/games/qfg2/downloads/thegame/downloads_snd.html)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: qfg3
     name: 'Quest for Glory III: Wages of War'
     engine_id: sci
@@ -5900,6 +6212,18 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: questforyrolg
+    name: 'Quest for Yrolg'
+    engine_id: ags
+    company_id: crystalshard
+    moby_id: '38385'
+    steam_id: '551840'
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](https://www.crystalshard.net/)'
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -6876,6 +7200,30 @@
     wikipedia_page: Space_Quest_II
     series_id: sq
 -
+    id: sq2fg
+    name: 'Space Quest for Glory'
+    engine_id: ags
+    company_id: infamousadv
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://infamousadventures.itch.io/space-quest-for-glory)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: sq2vga
+    name: 'Space Quest II - Vohaul''s Revenge VGA Remake'
+    engine_id: ags
+    company_id: infamousadv
+    moby_id: '60817'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://infamousadventures.itch.io/space-quest-ii-vga-remake)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: sq3
     name: 'Space Quest III: The Pirates of Pestulon'
     engine_id: sci
@@ -7524,6 +7872,18 @@
     wikipedia_page: 'The_Lost_Crown:_A_Ghost-Hunting_Adventure'
     series_id: ''
 -
+    id: themarionette
+    name: 'The Marionette'
+    engine_id: ags
+    company_id: effigy
+    moby_id: '44870'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: thesavageempire
     name: 'Worlds of Ultima: The Savage Empire'
     engine_id: ultima
@@ -7764,6 +8124,30 @@
     wikipedia_page: Transylvania_(video_game)
     series_id: transylvania
 -
+    id: trilbysnotes
+    name: 'Trilby''s Notes'
+    engine_id: ags
+    company_id: fullyramblomatic
+    moby_id: '22997'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](http://www.fullyramblomatic.com/notes/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: chzo
+-
+    id: trilbytheartoftheft
+    name: 'Trilby: The Art Of Theft'
+    engine_id: ags
+    company_id: fullyramblomatic
+    moby_id: '31179'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: troll
     name: 'Troll''s Tale'
     engine_id: agi
@@ -7787,6 +8171,54 @@
     datafiles: Bud_Tucker_in_Double_Trouble
     wikipedia_page: Bud_Tucker_in_Double_Trouble
     series_id: ''
+-
+    id: twelvethirteenep1
+    name: 'Twelve Thirteen - Episode 1'
+    engine_id: ags
+    company_id: fullyramblomatic
+    moby_id: '31907'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](http://www.fullyramblomatic.com/1213/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: '1213'
+-
+    id: twelvethirteenep2
+    name: 'Twelve Thirteen - Episode 2'
+    engine_id: ags
+    company_id: fullyramblomatic
+    moby_id: '31922'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](http://www.fullyramblomatic.com/1213/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: '1213'
+-
+    id: twelvethirteenep3
+    name: 'Twelve Thirteen - Episode 3'
+    engine_id: ags
+    company_id: fullyramblomatic
+    moby_id: '32122'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](http://www.fullyramblomatic.com/1213/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: '1213'
+-
+    id: twelvethirteense
+    name: 'Twelve Thirteen - Special Edition'
+    engine_id: ags
+    company_id: fullyramblomatic
+    moby_id: '31905'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](http://www.fullyramblomatic.com/1213/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: '1213'
 -
     id: twc
     name: 'The White Chamber'
@@ -7930,6 +8362,18 @@
     additional_stores: ''
     datafiles: Urban_Runner
     wikipedia_page: Urban_Runner
+    series_id: ''
+-
+    id: urbanwitchstory
+    name: 'Urban Witch Story'
+    engine_id: ags
+    company_id: postmodern
+    moby_id: '151629'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://postmodernadventures.itch.io/urban-witch-story)'
+    datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: verbcoin

@@ -4109,13 +4109,6 @@
     stable_platforms: 'win,mac'
     unstable_platforms: ''
 -
-    id: soldierboyz
-    support: good
-    notes: '- Minor missing features (back to menu, switch to flasback mode, difficulties)  - Minor user interface issues (not pixel perfect reproduction) - Some sounds are missing and volume for music/sfx should be adjusted'
-    since_version: DEV
-    stable_platforms: dos
-    unstable_platforms: ''
--
     id: sinistersix
     support: good
     notes: '- English, Spanish, Italian and German releases supported - Minor missing features (back to menu)'
@@ -4466,11 +4459,18 @@
     stable_platforms: win
     unstable_platforms: ''
 -
+    id: soldierboyz
+    support: good
+    notes: '- Minor missing features (back to menu, switch to flasback mode, difficulties)  - Minor user interface issues (not pixel perfect reproduction) - Some sounds are missing and volume for music/sfx should be adjusted'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
+-
     id: scottadams
     support: good
     notes: ''
     since_version: DEV
-    stable_platforms: 'dos,c64,zx'
+    stable_platforms: 'dos,c64,zx,ti994'
     unstable_platforms: ''
 -
     id: freddi4
@@ -4485,4 +4485,18 @@
     notes: ''
     since_version: DEV
     stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: peril
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: pokus
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
     unstable_platforms: ''

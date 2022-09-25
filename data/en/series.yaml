@@ -1,5 +1,8 @@
 # This is a generated file, please do not edit manually
 -
+    id: '1213'
+    name: '1213'
+-
     id: agifan
     name: 'AGI Fan'
 -
@@ -8,6 +11,9 @@
 -
     id: alimardan
     name: Alimardan
+-
+    id: apprentice
+    name: Apprentice
 -
     id: artmurder
     name: 'Art of Murder'
@@ -35,6 +41,9 @@
 -
     id: carol
     name: 'Carol Reed Mysteries'
+-
+    id: chzo
+    name: 'The Chzo Mythos'
 -
     id: conquests
     name: Conquests
@@ -122,6 +131,9 @@
 -
     id: kq
     name: 'King''s Quest'
+-
+    id: kqagdi
+    name: 'King''s Quest Remakes'
 -
     id: kyra
     name: 'The Legend of Kyrandia'

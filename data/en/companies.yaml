@@ -60,6 +60,10 @@
     name: 'Aftermath Media'
     alt_name: ''
 -
+    id: agdi
+    name: 'AGD Interactive'
+    alt_name: ''
+-
     id: aka
     name: 'AKA Xportmedia'
     alt_name: ''
@@ -288,6 +292,10 @@
     name: 'Dead:Code Software'
     alt_name: ''
 -
+    id: deadidle
+    name: 'Dead Idle Games'
+    alt_name: ''
+-
     id: deirdrakiai
     name: 'Deirdra Kiai Productions'
     alt_name: ''
@@ -310,6 +318,10 @@
 -
     id: digitalfantasia
     name: 'Digital Fantasia'
+    alt_name: ''
+-
+    id: digitalmosaic
+    name: 'Digital Mosaic Games'
     alt_name: ''
 -
     id: digitalvillage
@@ -370,6 +382,10 @@
 -
     id: ea
     name: 'Electronic Arts'
+    alt_name: ''
+-
+    id: effigy
+    name: 'Team Effigy'
     alt_name: ''
 -
     id: eie
@@ -444,6 +460,10 @@
     name: 'FTL Games'
     alt_name: ''
 -
+    id: fullyramblomatic
+    name: 'Fully Ramblomatic'
+    alt_name: ''
+-
     id: funcom
     name: Funcom
     alt_name: ''
@@ -458,6 +478,10 @@
 -
     id: glk
     name: 'Interactive Fiction'
+    alt_name: ''
+-
+    id: gnarled
+    name: 'Gnarled Scar Manipulations'
     alt_name: ''
 -
     id: goldenbough
@@ -508,6 +532,10 @@
     name: 'Himalaya Studios'
     alt_name: ''
 -
+    id: hofmeier
+    name: 'Richard Hofmeier'
+    alt_name: ''
+-
     id: hueforest
     name: 'Hue Forest Entertainment'
     alt_name: ''
@@ -538,6 +566,10 @@
 -
     id: indiesquish
     name: IndieSquish
+    alt_name: ''
+-
+    id: infamousadv
+    name: 'Infamous Adventures'
     alt_name: ''
 -
     id: infamousq
@@ -880,6 +912,10 @@
     name: 'Pony Canyon'
     alt_name: ''
 -
+    id: postmodern
+    name: 'Postmodern Adventures'
+    alt_name: ''
+-
     id: presto
     name: 'Presto Studios'
     alt_name: ''
@@ -998,6 +1034,10 @@
 -
     id: skif
     name: S.K.I.F.
+    alt_name: ''
+-
+    id: skygoblin
+    name: SkyGoblin
     alt_name: ''
 -
     id: smokingcar

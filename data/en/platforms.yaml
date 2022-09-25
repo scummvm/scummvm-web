@@ -148,6 +148,10 @@
     id: coco3
     moby_id: '62'
 -
+    name: TI-99/4A
+    id: ti994
+    moby_id: '47'
+-
     name: Windows
     id: win
     moby_id: '3'

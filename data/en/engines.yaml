@@ -293,7 +293,7 @@
     id: pink
     name: 'Pink Panther'
     alt_name: ''
-    enabled: false
+    enabled: true
 -
     id: plumbers
     name: 'Plumbers Don''t Wear Ties!'
