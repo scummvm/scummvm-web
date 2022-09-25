@@ -1,0 +1,13 @@
+---
+title: Get ready for a pink adventure
+author: Voltya
+date: 1664109623
+---
+
+Are you ready to be sent to Camp ChillyWawa and Dr. Periowinkle's mansion as an intelligence agent?
+
+Armed with a book of knowledge, or Pink Digital Assistant, your mission will be to save children from dangerous threats and undo a spell cast on a little girl who has been transformed into a wombat. To succeed you will need to visit several countries and even travel into the past. On your way you will encounter historical monuments and exhibits.
+
+The ScummVM team is proud to announce that _The Pink Panther: Passport to Peril_ and _The Pink Panther: Hokus Pokus Pink_ are finally ready for their testing period.
+
+If you want to help with the tests, use the latest [daily build](https://www.scummvm.org/downloads/#daily) of ScummVM to play the Windows version of the games. Please report any issues you encounter on our [bug tracker](https://bugs.scummvm.org/). Be sure to follow our [testing and bug reporting guidelines](http://wiki.scummvm.org/index.php/Release_Testing).
