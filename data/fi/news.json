@@ -8,8 +8,8 @@
         "content": "Useita uusia muutoksia tulee tämän uuden julkaisun mukana. Full Throttle toimii nyt paremmin ja alustava työ The Dig:in suhteen on alkanut. \\[[Lataa nyt](/downloads/)\\]"
     },
     "20020121": {
-        "title": "",
-        "content": ""
+        "title": "Uusittu verkkosivu",
+        "content": "Kiitokset Jeremy Newmanille (laxdragon) uuden verkkosivumme suunnittelusta ja ylläpidosta. Olet vapaa tykittelemään hänen suuntaansa kommentteja sekä ehdotuksia verkkosivuihimme liittyen."
     },
     "20020203": {
         "title": "",
@@ -1454,5 +1454,9 @@
     "20220819": {
         "title": "Rynnistä tiesi läpi terroristien!",
         "content": "_Soldier Boyz_ on uusin [Hypno-moottorin](https://wiki.scummvm.org/index.php?title=Hypno) tukema peli valmiina julkiseen testaukseen!\n\nHypnotix toi pelin tarjolle vuonna 1997 ja sen julkaisi DreamCatcher Interactive ja MCPA Interactive, tämä elokuvamainen kuin kiskojapitkin etenevä ammunta perustuu samannimiseen vuoden 1995 elokuvaan. Peli alkaa kun amerikkalaisen miljonäärin tytär kaapataan vietnamilaisten terroristien toimesta. Tämän jälkeen onkin kiinni majuri Howard Toliverista, ex-merijalkaväen korkeasti palkitusta Vietnam-veteraanista koota tappava joukko vaaralliseen tehtävään tyttären pelastamiseksi. Hän värvää kuusi vankilakundia jotka lusivat elinkautista, antaen heille mahdollisuuden täyteen presidentin siunaamaan armahdukseen.\n\nRuumiskasat lisääntyvät samalla kun raivaat tietäsi läpi viiden alueen pelaten sotilaspojilla- ja tytöillä, mutta varo äläkä tuhlaa “ystävyyttä” joka tarjoaa tärkeimmän selviytymistiedon!\n\nScummVM tukee tällä hetkellä pelin englanninkielistä julkaisua (joka on ainoa josta tiedämme) ja ominaisuuksiin kuuluu paremman vasteen antavat ohjaustoiminnot kuin mitä alkuperäisessä oli. Näytepeliä emme löytäneet mutta [mainos on olemassa](https://www.youtube.com/watch?v=COKWms0UBL8). Otathan meihin [yhteyttä](https://www.scummvm.org/contact/) mikäli sinulla on tuo näyteversio tai jokin muu julkaisu.\n\nPelataksesi tätä peliä ScummVM:llä, tarvitset [päivittäiskokooman](https://www.scummvm.org/downloads/#daily). Ja kuten aina, toimitathan selontekosi mahdollisista löytämistäsi virheistä [virheenseurantaamme](https://bugs.scummvm.org/)."
+    },
+    "20220925": {
+        "content": "Oletko valmis lähetetyksi ChillyWawa-leirille ja Tri. Periowinkle:n kartanoon tiedustelupalvelun agenttina?\n\nAseistettuna lähinnä vain tietokirjan kera, tai siis vaaleanpunaisen digitaaliavustajan, tehtäväsi on pelastaa lapsia vaarallisilta uhkilta ja kumotaksesi taian joka langetettiin pieneen tyttöön, muuntuen tämän takia vompatiksi. Onnistumiseen tarvitaan vierailu useammassakin maassa ja jopa matka menneisyyteen. Matkallasi kohtaat historiallisia muistomerkkejä ja näyttelyitä.\n\nScummVM:n tekijäryhmä ilmoittaakin ylpeänä että _The Pink Panther: Passport to Peril_ ja _The Pink Panther: Hokus Pokus Pink_ ovat viimeinkin valmiit testausjaksoon.\n\nMikäli haluat testaamisessa avittaa, käytäthän ScummVM:n tuoreinta [päivittäiskokoomaa](https://www.scummvm.org/downloads/#daily) pelataksesi pelien alkup. Windows-versioita sen kautta. Ole hyvä ja ilmoita minkä tahansa ongelman sitten kohtaatkaan [virheenseurantaamme](https://bugs.scummvm.org/). Noudata vain [testaus- ja virheselonteon ohjeitamme](http://wiki.scummvm.org/index.php/Release_Testing).",
+        "title": "Valmistaudu vaaleanpunaiseen seikkailuun"
     }
 }
