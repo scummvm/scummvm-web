@@ -432,6 +432,18 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: apotheosis
+    name: 'The Apotheosis Project'
+    engine_id: ags
+    company_id: midian
+    moby_id: '94340'
+    steam_id: '364350'
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: apprentice
     name: Apprentice
     engine_id: ags
@@ -1920,6 +1932,18 @@
     wikipedia_page: Dungeon_Master_(video_game)
     series_id: ''
 -
+    id: docapocalypse
+    name: 'Doc Apocalypse'
+    engine_id: ags
+    company_id: midian
+    moby_id: '61345'
+    steam_id: '509920'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://midiandesign.itch.io/midiandesignbundle)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: dog
     name: 'Putt-Putt and Pep''s Dog on a Stick'
     engine_id: scumm
@@ -1931,6 +1955,18 @@
     datafiles: Putt-Putt_and_Pep%27s_Dog_on_a_Stick
     wikipedia_page: ''
     series_id: puttputt
+-
+    id: donalddowell
+    name: 'Donald Dowell and the Ghost of Barker Manor'
+    engine_id: ags
+    company_id: apemarina
+    moby_id: '81064'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Developer''s Website](http://apemarina.altervista.org/donald-dowell.html)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
 -
     id: downfall2009
     name: 'Downfall (2009)'
@@ -5256,6 +5292,18 @@
     wikipedia_page: Obsidian_(1997_video_game)
     series_id: ''
 -
+    id: odissea
+    name: 'Odissea - An Almost True Story'
+    engine_id: ags
+    company_id: midian
+    moby_id: '61346'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://midiandesign.itch.io/midiandesignbundle)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: oknytt
     name: Oknytt
     engine_id: wintermute
@@ -5387,6 +5435,30 @@
     datafiles: ''
     wikipedia_page: The_Journey_Down
     series_id: ''
+-
+    id: ozorwell1
+    name: 'Oz Orwell and the Crawling Chaos'
+    engine_id: ags
+    company_id: midian
+    moby_id: '61343'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://midiandesign.itch.io/midiandesignbundle)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ozorwell
+-
+    id: ozorwell2
+    name: 'Oz Orwell and the Exorcist'
+    engine_id: ags
+    company_id: midian
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://midiandesign.itch.io/oz-orwell-and-the-exorcist)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ozorwell
 -
     id: paintaria
     name: Paintaria
@@ -6191,6 +6263,30 @@
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
+-
+    id: quantumnauts
+    name: Quantumnauts
+    engine_id: ags
+    company_id: midian
+    moby_id: '61347'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://midiandesign.itch.io/midiandesignbundle)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: quantum
+-
+    id: quantumnauts2
+    name: 'Quantumnauts 2'
+    engine_id: ags
+    company_id: midian
+    moby_id: '61351'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://midiandesign.itch.io/midiandesignbundle)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: quantum
 -
     id: queen
     name: 'Flight of the Amazon Queen'

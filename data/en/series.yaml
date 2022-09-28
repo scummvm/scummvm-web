@@ -177,6 +177,9 @@
     id: nelly
     name: 'Nelly Cootalot'
 -
+    id: ozorwell
+    name: 'Oz Orwell'
+-
     id: pajama
     name: 'Pajama Sam'
 -
@@ -203,6 +206,9 @@
 -
     id: qfg
     name: 'Quest for Glory'
+-
+    id: quantum
+    name: Quantumnauts
 -
     id: reversion
     name: Reversion

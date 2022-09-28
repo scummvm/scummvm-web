@@ -756,6 +756,10 @@
     name: Microsoft
     alt_name: ''
 -
+    id: midian
+    name: 'Midian Design'
+    alt_name: ''
+-
     id: mif2000
     name: 'Denis Galanin'
     alt_name: Mif2000

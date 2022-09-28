@@ -4500,3 +4500,10 @@
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
+-
+    id: putttime
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
