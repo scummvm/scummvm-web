@@ -3857,6 +3857,13 @@
     stable_platforms: dos
     unstable_platforms: ''
 -
+    id: bluestreasurehunt
+    support: bugged
+    notes: ''
+    since_version: 2.2.0
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
     id: grim
     support: good
     notes: '- Remastered version is not supported'
