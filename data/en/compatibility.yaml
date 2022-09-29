@@ -4514,3 +4514,10 @@
     since_version: DEV
     stable_platforms: 'mac,win'
     unstable_platforms: ''
+-
+    id: arttime
+    support: bugged
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
