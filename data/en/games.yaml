@@ -2340,6 +2340,18 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: excavationhb
+    name: 'The Excavation at Hob''s Barrow'
+    engine_id: ags
+    company_id: cloakdagger
+    moby_id: '192096'
+    steam_id: '1182310'
+    gog_id: the_excavation_of_hobs_barrow
+    additional_stores: '- [Developer''s Website](https://www.wadjeteyegames.com/games/the-excavation-of-hobs-barrow/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: facenoir
     name: 'Face Noir'
     engine_id: wintermute
