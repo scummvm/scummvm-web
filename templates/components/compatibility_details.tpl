@@ -9,6 +9,7 @@
     <thead>
         <tr class="color4">
             <th>{#compatibilityDetailsChartColGameFullName#}</th>
+            <th>{#compatibilityDetailsChartColGameEngine#}</th>
             <th>{#compatibilityDetailsChartColGameShortName#}</th>
             <th>{#compatibilityDetailsChartColSupportLevel#}</th>
         </tr>
@@ -16,11 +17,12 @@
     <tbody>
         <tr class="color0">
             <td>{$game->getGame()->getName()}</td>
+            <td>{$game->getGame()->getEngineId()}</td>
             <td>{$game->getGame()->getId()}</td>
             <td align="center" class="{$pct_class}">{$support_level}</td>
         </tr>
         <tr class="color2">
-            <td colspan="3" class="details">
+            <td colspan="4" class="details">
                 {$game->getNotes()|regex_replace:"/%.+%/":$support_description}
             </td>
         </tr>

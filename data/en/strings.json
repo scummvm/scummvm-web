@@ -15,6 +15,7 @@
   "compatibilityDetailsChartTitle": "Game Compatibility Chart",
   "compatibilityDetailsChartColGameFullName": "Game Full Name",
   "compatibilityDetailsChartColGameShortName": "Game Short Name",
+  "compatibilityDetailsChartColGameEngine": "Engine",
   "compatibilityDetailsChartColSupportLevel": "Support Level",
   "compatibilityDetailsDetails": "Details",
   "compatibilityDetailsBack": "« Back",
