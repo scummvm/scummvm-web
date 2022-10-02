@@ -62,7 +62,7 @@
     <thead>
         <tr class="color4">
             <th class="gameFullName">{#compatibilityDetailsChartColGameFullName#}</th>
-            <th class="gameShortName">{#compatibilityDetailsChartColGameShortName#}</th>
+            <th class="gameScummVmId">{#compatibilityDetailsChartColScummVmId#}</th>
             <th class="gameSupportLevel">{#compatibilityDetailsChartColSupportLevel#}</th>
         </tr>
     </thead>
@@ -74,7 +74,7 @@
         {assign var="support_level_desc" value=$support_level_description.$x}
         <tr class="color{cycle values='2,0'}">
             <td class="gameFullName"><a href="{'/compatibility/'|lang}{$version}/{$game->getGame()->getId()}/">{$game->getGame()->getName()}</a></td>
-            <td class="gameShortName">{$game->getGame()->getId()}</td>
+            <td class="gameScummVmId">{$game->getScummVmId($version)}</td>
             <td class="gameSupportLevel {$pct_class}" title="{$support_level_desc}">{$support_level}</td>
         </tr>
         {/foreach}

@@ -27,6 +27,17 @@ class Compatibility extends BaseCompatibility
         return $retVal;
     }
 
+    public function getScummVmId($version)
+    {
+        if ($version == "DEV" || version_compare($version, "2.2.0") > 0) {
+            // If version is > 2.2.0, return engine_id:game_id
+            return $this->getGame()->getEngineId() . ":" . $this->getGame()->getId();
+        } else {
+            // If version is <= 2.2.0, return the game_id
+            return $this->getGame()->getId();
+        }
+    }
+
     public function getNotes()
     {
         $notes = "### Support Level\n\n";
