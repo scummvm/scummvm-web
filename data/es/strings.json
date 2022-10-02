@@ -175,5 +175,6 @@
     "downloadsDailyNote3": "Abre el historial de cambios (en inglés) para ver las últimas novedades de ScummVM.",
     "compatibilityDetailsDetails": "Más información",
     "downloadsBadgeTitle": "Descargar ScummVM {version}",
-    "menuMainFreewareGames": "Juegos y complementos «freeware»"
+    "menuMainFreewareGames": "Juegos y complementos «freeware»",
+    "compatibilityDetailsChartColScummVmId": "ID de ScummVM"
 }
