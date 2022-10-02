@@ -175,5 +175,6 @@
     "downloadsDailyNote3": "Consulta il Changelog per informazioni riguardanti gli ultimi aggiornamenti di ScummVM.",
     "compatibilityDetailsDetails": "Dettagli",
     "downloadsBadgeTitle": "Scarica ScummVM {version}",
-    "menuMainFreewareGames": "Giochi Freeware e File Supplementari"
+    "menuMainFreewareGames": "Giochi Freeware e File Supplementari",
+    "compatibilityDetailsChartColScummVmId": "ID ScummVM"
 }
