@@ -174,5 +174,6 @@
     "directorDemosTitle": "Demos από Director",
     "downloadsDailyNote3": "Δείτε το αρχείο καταγραφής αλλαγών (Changelog) για μια λίστα με τις πιο πρόσφατες ενημερώσεις του ScummVM.",
     "downloadsBadgeTitle": "Λήψη ScummVM {version}",
-    "menuMainFreewareGames": "Δωρεάν Παιχνίδια & Πρόσθετα"
+    "menuMainFreewareGames": "Δωρεάν Παιχνίδια & Πρόσθετα",
+    "compatibilityDetailsChartColScummVmId": "ScummVM ID"
 }
