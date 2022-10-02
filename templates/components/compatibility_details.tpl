@@ -9,15 +9,15 @@
     <thead>
         <tr class="color4">
             <th>{#compatibilityDetailsChartColGameFullName#}</th>
-            <th>{#compatibilityDetailsChartColGameShortName#}</th>
+            <th>{#compatibilityDetailsChartColScummVmId#}</th>
             <th>{#compatibilityDetailsChartColSupportLevel#}</th>
         </tr>
     </thead>
     <tbody>
         <tr class="color0">
-            <td>{$game->getGame()->getName()}</td>
-            <td>{$game->getGame()->getId()}</td>
-            <td align="center" class="{$pct_class}">{$support_level}</td>
+            <td class="gameFullName">{$game->getGame()->getName()}</td>
+            <td class="gameScummVmId">{$game->getScummVmId($version)}</td>
+            <td class="gameSupportLevel {$pct_class}">{$support_level}</td>
         </tr>
         <tr class="color2">
             <td colspan="3" class="details">

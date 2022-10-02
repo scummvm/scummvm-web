@@ -14,7 +14,7 @@
   "compatibilityDetailsInto": "Game compatibility details",
   "compatibilityDetailsChartTitle": "Game Compatibility Chart",
   "compatibilityDetailsChartColGameFullName": "Game Full Name",
-  "compatibilityDetailsChartColGameShortName": "Game Short Name",
+  "compatibilityDetailsChartColScummVmId": "ScummVM ID",
   "compatibilityDetailsChartColSupportLevel": "Support Level",
   "compatibilityDetailsDetails": "Details",
   "compatibilityDetailsBack": "« Back",
