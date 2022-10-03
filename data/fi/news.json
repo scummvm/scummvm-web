@@ -12,12 +12,12 @@
         "content": "Kiitokset Jeremy Newmanille (laxdragon) uuden verkkosivumme suunnittelusta ja ylläpidosta. Olet vapaa tykittelemään hänen suuntaansa kommentteja sekä ehdotuksia verkkosivuihimme liittyen."
     },
     "20020203": {
-        "title": "",
-        "content": ""
+        "title": "ScummVM:n siirtotoimitus Dreamcast -pelikonsolille",
+        "content": "[Marcus Comstedt](https://sourceforge.net/sendmessage.php?touser=446790) toimitti hiljattain ScummVM:n SEGA Dreamcast siirron versionhallintajärjestelmän lähdekoodiin (CVS). [Mark Thomas' Dreamcast Development](http://www.doc.ic.ac.uk/~mbt99/dcdev/) -kehityssivusto antaa lisätietoja, sekä tarjoaa tämän erinomaisen porttauksen binäärikuvat. Lisätietoja Dreamcast-emulaatiosta löytyy kohteessa [DC Emulation](http://www.dcemulation.com/)."
     },
     "20020214": {
-        "title": "",
-        "content": ""
+        "title": "Kiireisempi kuin apina kosioretkellä",
+        "content": "![Zak256](/data/news/20020214.png) ScummVM:n tekijäporukalla on kerrassaan kiire; nyt raapaistaan lisää lempi LucasArts klassikkopelejä tulille. Vilkaisepa tämän pienen ruudunkaappauksen suuntaan ruokahalusi kiihoittamiseksi. Lisää näitä maistiaisia suoraan ruudulta seuraa asioiden edetessä."
     },
     "20020220": {
         "title": "",
