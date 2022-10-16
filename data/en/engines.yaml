@@ -266,7 +266,7 @@
     enabled: false
 -
     id: myst3
-    name: 'Myst 3'
+    name: 'Myst III'
     alt_name: ''
     enabled: true
 -
@@ -346,7 +346,7 @@
     enabled: false
 -
     id: stark
-    name: 'The Longest Journey'
+    name: Stark
     alt_name: ''
     enabled: true
 -
