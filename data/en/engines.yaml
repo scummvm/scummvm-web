@@ -410,6 +410,11 @@
     alt_name: ''
     enabled: true
 -
+    id: trecision
+    name: 'Trecision Adventure Module'
+    alt_name: ''
+    enabled: true
+-
     id: tsage
     name: TsAGE
     alt_name: 'Tsunami Adventure Game Engine'
@@ -452,11 +457,6 @@
 -
     id: zvision
     name: ZVision
-    alt_name: ''
-    enabled: true
--
-    id: trecision
-    name: 'Trecision Adventure Module'
     alt_name: ''
     enabled: true
 -

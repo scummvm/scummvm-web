@@ -6192,6 +6192,18 @@
     wikipedia_page: 'Quest_for_Glory:_So_You_Want_to_Be_a_Hero'
     series_id: qfg
 -
+    id: qfg1
+    name: 'Quest for Glory I: So You Want To Be A Hero'
+    engine_id: sci
+    company_id: sierra
+    moby_id: '16075'
+    steam_id: '502750'
+    gog_id: quest_for_glory
+    additional_stores: ''
+    datafiles: Quest_for_Glory
+    wikipedia_page: 'Quest_for_Glory:_So_You_Want_to_Be_a_Hero'
+    series_id: qfg
+-
     id: qfg1vga
     name: 'Quest for Glory I: So You Want To Be A Hero'
     engine_id: sci
