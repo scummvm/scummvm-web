@@ -1309,6 +1309,13 @@
     version: '3'
     url: /frs/demos/director/d3/ja/transland-demo-mac-ja.zip
 -
+    id: trekfinalunity
+    platform: win
+    lang: en
+    title: 'Star Trek: The Next Generation - "A Final Unity"'
+    version: '3'
+    url: /frs/demos/director/d3/en/trekfinalunity-demo-win.zip
+-
     id: tree
     platform: mac
     lang: ja

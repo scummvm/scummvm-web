@@ -328,3 +328,10 @@
     minor: '6'
     patch: '0'
     name: 'Insane Escapism'
+-
+    id: 2.6.1
+    release_date: 'October 31, 2022'
+    major: '2'
+    minor: '6'
+    patch: '1'
+    name: 'Incremental Escapism'
