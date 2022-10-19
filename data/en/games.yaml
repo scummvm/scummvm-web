@@ -1,6 +1,7 @@
 # This is a generated file, please do not edit manually
 -
     id: 11h
+    new_id: 'groovie:11h'
     name: 'The 11th Hour: The Sequel to The 7th Guest'
     engine_id: groovie
     company_id: trilobyte
@@ -13,6 +14,7 @@
     series_id: t7g
 -
     id: 3geeks
+    new_id: 'ags:3geeks'
     name: '3 GEEKS'
     engine_id: ags
     company_id: adipson
@@ -25,6 +27,7 @@
     series_id: ''
 -
     id: 5daysastranger
+    new_id: 'ags:5daysastranger'
     name: '5 Days A Stranger'
     engine_id: ags
     company_id: fullyramblomatic
@@ -37,6 +40,7 @@
     series_id: chzo
 -
     id: 5ld
+    new_id: 'wintermute:5ld'
     name: 'Five Lethal Demons'
     engine_id: wintermute
     company_id: offstudio
@@ -49,6 +53,7 @@
     series_id: ''
 -
     id: 5ma
+    new_id: 'wintermute:5ma'
     name: 'Five Magical Amulets'
     engine_id: wintermute
     company_id: offstudio
@@ -61,6 +66,7 @@
     series_id: ''
 -
     id: 6daysasacrifice
+    new_id: 'ags:6daysasacrifice'
     name: '6 Days A Sacrifice'
     engine_id: ags
     company_id: fullyramblomatic
@@ -73,6 +79,7 @@
     series_id: chzo
 -
     id: 7daysaskeptic
+    new_id: 'ags:7daysaskeptic'
     name: '7 Days A Skeptic'
     engine_id: ags
     company_id: fullyramblomatic
@@ -85,6 +92,7 @@
     series_id: chzo
 -
     id: abracadabra
+    new_id: 'gob:abracadabra'
     name: 'Once Upon A Time: Abracadabra'
     engine_id: gob
     company_id: coktel
@@ -97,6 +105,7 @@
     series_id: ''
 -
     id: activity
+    new_id: 'scumm:activity'
     name: 'Putt-Putt and Fatty Bear''s Activity Pack'
     engine_id: scumm
     company_id: he
@@ -109,6 +118,7 @@
     series_id: fbear
 -
     id: actualdest
+    new_id: 'wintermute:actualdest'
     name: 'Actual Destination'
     engine_id: wintermute
     company_id: blekinge
@@ -121,6 +131,7 @@
     series_id: ''
 -
     id: adateinthepark
+    new_id: 'ags:adateinthepark'
     name: 'A Date in the Park'
     engine_id: ags
     company_id: cloakdagger
@@ -133,6 +144,7 @@
     series_id: ''
 -
     id: adi2
+    new_id: 'gob:adi2'
     name: 'ADI 2'
     engine_id: gob
     company_id: coktel
@@ -145,6 +157,7 @@
     series_id: ''
 -
     id: adi4
+    new_id: 'gob:adi4'
     name: 'ADI 4'
     engine_id: gob
     company_id: coktel
@@ -157,6 +170,7 @@
     series_id: ''
 -
     id: adibou1
+    new_id: 'gob:adibou1'
     name: 'Adibou 1'
     engine_id: gob
     company_id: coktel
@@ -169,6 +183,7 @@
     series_id: ''
 -
     id: adibou2
+    new_id: 'gob:adibou2'
     name: 'Adibou 2'
     engine_id: gob
     company_id: coktel
@@ -181,6 +196,7 @@
     series_id: ''
 -
     id: adrift
+    new_id: 'glk:adrift'
     name: 'ADRIFT Interactive Fiction games'
     engine_id: glk
     company_id: glk
@@ -193,6 +209,7 @@
     series_id: ''
 -
     id: advsys
+    new_id: 'glk:advsys'
     name: 'AdvSys Interactive Fiction games'
     engine_id: glk
     company_id: glk
@@ -205,6 +222,7 @@
     series_id: ''
 -
     id: afm
+    new_id: 'wage:afm'
     name: 'Another Fine Mess'
     engine_id: wage
     company_id: unknown
@@ -217,6 +235,7 @@
     series_id: ''
 -
     id: agi
+    new_id: 'agi:agi'
     name: 'Sierra AGI game'
     engine_id: agi
     company_id: sierra
@@ -229,6 +248,7 @@
     series_id: sierranoseries
 -
     id: agidemo
+    new_id: 'agi:agidemo'
     name: 'AGI Demo'
     engine_id: agi
     company_id: sierra
@@ -241,6 +261,7 @@
     series_id: sierranoseries
 -
     id: ags
+    new_id: 'ags:ags'
     name: 'Adventure Game Studio games'
     engine_id: ags
     company_id: unknown
@@ -253,6 +274,7 @@
     series_id: ''
 -
     id: agt
+    new_id: 'glk:agt'
     name: 'AGT Interactive Fiction games'
     engine_id: glk
     company_id: glk
@@ -265,6 +287,7 @@
     series_id: ''
 -
     id: agustin
+    new_id: 'wintermute:agustin'
     name: 'Boredom of Agustin Cordes'
     engine_id: wintermute
     company_id: cbe
@@ -277,6 +300,7 @@
     series_id: ''
 -
     id: ainthegoffantabulousw
+    new_id: 'ags:ainthegoffantabulousw'
     name: 'Adventures in the Galaxy of Fantabulous Wonderment'
     engine_id: ags
     company_id: fullyramblomatic
@@ -289,6 +313,7 @@
     series_id: ''
 -
     id: airport
+    new_id: 'scumm:airport'
     name: 'Let''s Explore the Airport'
     engine_id: scumm
     company_id: he
@@ -301,6 +326,7 @@
     series_id: juniorfield
 -
     id: ajworld
+    new_id: 'gob:ajworld'
     name: 'A.J.''s World of Discovery'
     engine_id: gob
     company_id: coktel
@@ -313,6 +339,7 @@
     series_id: ''
 -
     id: alan
+    new_id: 'glk:alan'
     name: 'Alan 2 & 3 Interactive Fiction games'
     engine_id: glk
     company_id: glk
@@ -325,6 +352,7 @@
     series_id: ''
 -
     id: alemmo
+    new_id: 'ags:alemmo'
     name: 'Al Emmo And The Lost Dutchman''s Mine'
     engine_id: ags
     company_id: himalaya
@@ -337,6 +365,7 @@
     series_id: alemmo
 -
     id: alemmoanozira
+    new_id: 'ags:alemmoanozira'
     name: 'Al Emmo''s Postcards from Anozira'
     engine_id: ags
     company_id: himalaya
@@ -349,6 +378,7 @@
     series_id: alemmo
 -
     id: alimardan1
+    new_id: 'wintermute:alimardan1'
     name: 'Alimardan''s Mischief'
     engine_id: wintermute
     company_id: rskent
@@ -361,6 +391,7 @@
     series_id: alimardan
 -
     id: alimardan2
+    new_id: 'wintermute:alimardan2'
     name: 'Alimardan Meets Merlin'
     engine_id: wintermute
     company_id: rskent
@@ -373,6 +404,7 @@
     series_id: alimardan
 -
     id: alphapolaris
+    new_id: 'wintermute:alphapolaris'
     name: 'Alpha Polaris'
     engine_id: wintermute
     company_id: turmoil
@@ -385,6 +417,7 @@
     series_id: ''
 -
     id: amazon
+    new_id: 'access:amazon'
     name: 'Amazon: Guardians of Eden'
     engine_id: access
     company_id: access
@@ -397,6 +430,7 @@
     series_id: ''
 -
     id: amber
+    new_id: 'director:amber'
     name: 'AMBER: Journeys Beyond'
     engine_id: director
     company_id: hueforest
@@ -409,6 +443,7 @@
     series_id: ''
 -
     id: amot
+    new_id: 'wage:amot'
     name: 'A Mess O'' Trouble'
     engine_id: wage
     company_id: unknown
@@ -421,6 +456,7 @@
     series_id: ''
 -
     id: apeiron
+    new_id: 'wintermute:apeiron'
     name: Apeiron
     engine_id: wintermute
     company_id: blekinge
@@ -433,6 +469,7 @@
     series_id: ''
 -
     id: apotheosis
+    new_id: 'ags:apotheosis'
     name: 'The Apotheosis Project'
     engine_id: ags
     company_id: midian
@@ -445,6 +482,7 @@
     series_id: ''
 -
     id: apprentice
+    new_id: 'ags:apprentice'
     name: Apprentice
     engine_id: ags
     company_id: herculean
@@ -457,6 +495,7 @@
     series_id: apprentice
 -
     id: apprentice2
+    new_id: 'ags:apprentice2'
     name: 'Apprentice II: The Knight''s Move'
     engine_id: ags
     company_id: herculean
@@ -469,6 +508,7 @@
     series_id: apprentice
 -
     id: archetype
+    new_id: 'glk:archetype'
     name: 'Archetype Interactive Fiction games'
     engine_id: glk
     company_id: glk
@@ -481,6 +521,7 @@
     series_id: ''
 -
     id: arthur
+    new_id: 'mohawk:arthur'
     name: 'Marc Brown''s Arthur''s Teacher Trouble'
     engine_id: mohawk
     company_id: livingbooks
@@ -493,6 +534,7 @@
     series_id: livingbooks
 -
     id: arthurbday
+    new_id: 'mohawk:arthurbday'
     name: 'Arthur''s Birthday'
     engine_id: mohawk
     company_id: livingbooks
@@ -505,6 +547,7 @@
     series_id: livingbooks
 -
     id: arthurcomp
+    new_id: 'mohawk:arthurcomp'
     name: 'Arthur''s Computer Adventure'
     engine_id: mohawk
     company_id: livingbooks
@@ -517,6 +560,7 @@
     series_id: livingbooks
 -
     id: arthurrace
+    new_id: 'mohawk:arthurrace'
     name: 'Arthur''s Reading Race'
     engine_id: mohawk
     company_id: livingbooks
@@ -529,6 +573,7 @@
     series_id: livingbooks
 -
     id: artofmurder1
+    new_id: 'wintermute:artofmurder1'
     name: 'Art of Murder: FBI Confidential'
     engine_id: wintermute
     company_id: cityint
@@ -541,6 +586,7 @@
     series_id: artmurder
 -
     id: arttime
+    new_id: 'scumm:arttime'
     name: 'Blue''s Clues: Blue''s Art Time Activities'
     engine_id: scumm
     company_id: he
@@ -553,6 +599,7 @@
     series_id: blue
 -
     id: ashinaredwitch
+    new_id: 'ags:ashinaredwitch'
     name: 'Ashina: The Red Witch'
     engine_id: ags
     company_id: stranga
@@ -565,6 +612,7 @@
     series_id: ''
 -
     id: ashpines
+    new_id: 'ags:ashpines'
     name: 'Ash Pines'
     engine_id: ags
     company_id: stranga
@@ -577,6 +625,7 @@
     series_id: ''
 -
     id: astrochicken
+    new_id: 'sci:astrochicken'
     name: 'Astro Chicken'
     engine_id: sci
     company_id: sierra
@@ -589,6 +638,7 @@
     series_id: sq
 -
     id: atlantis
+    new_id: 'scumm:atlantis'
     name: 'Indiana Jones and the Fate of Atlantis'
     engine_id: scumm
     company_id: lucasarts
@@ -601,6 +651,7 @@
     series_id: indy
 -
     id: atotk
+    new_id: 'ags:atotk'
     name: 'A Tale Of Two Kingdoms'
     engine_id: ags
     company_id: crystalshard
@@ -613,6 +664,7 @@
     series_id: ''
 -
     id: avalanche
+    new_id: 'avalanche:avalanche'
     name: 'Lord Avalot d''Argent'
     engine_id: avalanche
     company_id: thorsoft
@@ -625,6 +677,7 @@
     series_id: ''
 -
     id: babayaga
+    new_id: 'composer:babayaga'
     name: 'Magic Tales: Baba Yaga and the Magic Geese'
     engine_id: composer
     company_id: animationmagic
@@ -637,6 +690,7 @@
     series_id: magictales
 -
     id: babayagaonce
+    new_id: 'gob:babayagaonce'
     name: 'Once Upon A Time: Baba Yaga'
     engine_id: gob
     company_id: coktel
@@ -649,6 +703,7 @@
     series_id: ''
 -
     id: balloon
+    new_id: 'scumm:balloon'
     name: 'Putt-Putt and Pep''s Balloon-O-Rama'
     engine_id: scumm
     company_id: he
@@ -661,6 +716,7 @@
     series_id: puttputt
 -
     id: bambou
+    new_id: 'gob:bambou'
     name: 'Playtoons Limited Edition - Bambou le sauveur de la jungle'
     engine_id: gob
     company_id: coktel
@@ -673,6 +729,7 @@
     series_id: playtoons
 -
     id: bargon
+    new_id: 'gob:bargon'
     name: 'Bargon Attack'
     engine_id: gob
     company_id: coktel
@@ -685,6 +742,7 @@
     series_id: ''
 -
     id: barrowhilldp
+    new_id: 'wintermute:barrowhilldp'
     name: 'Barrow Hill: The Dark Path'
     engine_id: wintermute
     company_id: shadowtor
@@ -697,6 +755,7 @@
     series_id: ''
 -
     id: baseball
+    new_id: 'scumm:baseball'
     name: 'Backyard Baseball'
     engine_id: scumm
     company_id: he
@@ -709,6 +768,7 @@
     series_id: juniorsports
 -
     id: baseball2001
+    new_id: 'scumm:baseball2001'
     name: 'Backyard Baseball 2001'
     engine_id: scumm
     company_id: he
@@ -721,6 +781,7 @@
     series_id: juniorsports
 -
     id: baseball2003
+    new_id: 'scumm:baseball2003'
     name: 'Backyard Baseball 2003'
     engine_id: scumm
     company_id: he
@@ -733,6 +794,7 @@
     series_id: juniorsports
 -
     id: basisoctavus
+    new_id: 'wintermute:basisoctavus'
     name: 'Basis Octavus'
     engine_id: wintermute
     company_id: unknown
@@ -745,6 +807,7 @@
     series_id: ''
 -
     id: basketball
+    new_id: 'scumm:basketball'
     name: 'Backyard Basketball'
     engine_id: scumm
     company_id: he
@@ -757,6 +820,7 @@
     series_id: juniorsports
 -
     id: bbdou
+    new_id: 'illusions:bbdou'
     name: 'MTV''s Beavis and Butt-Head Do U.'
     engine_id: illusions
     company_id: viacom
@@ -769,6 +833,7 @@
     series_id: beavisbutthead
 -
     id: bbvs
+    new_id: 'bbvs:bbvs'
     name: 'MTV''s Beavis and Butt-Head in Virtual Stupidity'
     engine_id: bbvs
     company_id: viacom
@@ -781,6 +846,7 @@
     series_id: beavisbutthead
 -
     id: bc
+    new_id: 'agi:bc'
     name: 'The Black Cauldron'
     engine_id: agi
     company_id: sierra
@@ -793,6 +859,7 @@
     series_id: disney
 -
     id: beardark
+    new_id: 'mohawk:beardark'
     name: 'The Berenstain Bears In The Dark'
     engine_id: mohawk
     company_id: livingbooks
@@ -805,6 +872,7 @@
     series_id: livingbooks
 -
     id: bearfight
+    new_id: 'mohawk:bearfight'
     name: 'The Berenstain Bears Get in a Fight'
     engine_id: mohawk
     company_id: livingbooks
@@ -817,6 +885,7 @@
     series_id: livingbooks
 -
     id: beer
+    new_id: 'ags:beer'
     name: Beer!
     engine_id: ags
     company_id: crystalshard
@@ -829,6 +898,7 @@
     series_id: ''
 -
     id: bentheredanthat
+    new_id: 'ags:bentheredanthat'
     name: 'Ben There, Dan That!'
     engine_id: ags
     company_id: zombiecow
@@ -841,6 +911,7 @@
     series_id: ''
 -
     id: bickadoodle
+    new_id: 'wintermute:bickadoodle'
     name: Bickadoodle
     engine_id: wintermute
     company_id: aetheric
@@ -853,6 +924,7 @@
     series_id: ''
 -
     id: billymasterswasright
+    new_id: 'ags:billymasterswasright'
     name: 'Billy Masters Was Right'
     engine_id: ags
     company_id: postmodern
@@ -865,6 +937,7 @@
     series_id: ''
 -
     id: blackwell1
+    new_id: 'ags:blackwell1'
     name: 'The Blackwell Legacy'
     engine_id: ags
     company_id: wadjet
@@ -877,6 +950,7 @@
     series_id: blackwell
 -
     id: blackwell2
+    new_id: 'ags:blackwell2'
     name: 'Blackwell Unbound'
     engine_id: ags
     company_id: wadjet
@@ -889,6 +963,7 @@
     series_id: blackwell
 -
     id: blackwell3
+    new_id: 'ags:blackwell3'
     name: 'The Blackwell Convergence'
     engine_id: ags
     company_id: wadjet
@@ -901,6 +976,7 @@
     series_id: blackwell
 -
     id: blackwell4
+    new_id: 'ags:blackwell4'
     name: 'The Blackwell Deception'
     engine_id: ags
     company_id: wadjet
@@ -913,6 +989,7 @@
     series_id: blackwell
 -
     id: blackwell5
+    new_id: 'ags:blackwell5'
     name: 'The Blackwell Epiphany'
     engine_id: ags
     company_id: wadjet
@@ -925,6 +1002,7 @@
     series_id: blackwell
 -
     id: bladerunner
+    new_id: 'bladerunner:bladerunner'
     name: 'Blade Runner'
     engine_id: bladerunner
     company_id: westwood
@@ -937,6 +1015,7 @@
     series_id: ''
 -
     id: bladerunner-final
+    new_id: 'bladerunner:bladerunner-final'
     name: 'Blade Runner with restored content'
     engine_id: bladerunner
     company_id: westwood
@@ -949,6 +1028,7 @@
     series_id: ''
 -
     id: blueforce
+    new_id: 'tsage:blueforce'
     name: 'Blue Force'
     engine_id: tsage
     company_id: tsunami
@@ -961,6 +1041,7 @@
     series_id: ''
 -
     id: blues123time
+    new_id: 'scumm:blues123time'
     name: 'Blue''s 123 Time Activities'
     engine_id: scumm
     company_id: he
@@ -973,6 +1054,7 @@
     series_id: blue
 -
     id: bluesabctime
+    new_id: 'scumm:bluesabctime'
     name: 'Blue''s ABC Time Activities'
     engine_id: scumm
     company_id: he
@@ -985,6 +1067,7 @@
     series_id: blue
 -
     id: bluesbirthday
+    new_id: 'scumm:bluesbirthday'
     name: 'Blue''s Clues: Blue''s Birthday Adventure'
     engine_id: scumm
     company_id: he
@@ -997,6 +1080,7 @@
     series_id: blue
 -
     id: bluestreasurehunt
+    new_id: 'scumm:bluestreasurehunt'
     name: 'Blue''s Treasure Hunt'
     engine_id: scumm
     company_id: he
@@ -1009,6 +1093,7 @@
     series_id: blue
 -
     id: bookofgron
+    new_id: 'wintermute:bookofgron'
     name: 'Book of Gron Part One'
     engine_id: wintermute
     company_id: maximyz
@@ -1021,6 +1106,7 @@
     series_id: ''
 -
     id: bra
+    new_id: 'parallaction:bra'
     name: 'The Big Red Adventure'
     engine_id: parallaction
     company_id: dynabyte
@@ -1033,6 +1119,7 @@
     series_id: ''
 -
     id: brstorm
+    new_id: 'scumm:brstorm'
     name: 'Bear Stormin'''
     engine_id: scumm
     company_id: he
@@ -1045,6 +1132,7 @@
     series_id: fbear
 -
     id: bthreshold
+    new_id: 'wintermute:bthreshold'
     name: 'Beyond the Threshold'
     engine_id: wintermute
     company_id: nacht
@@ -1057,6 +1145,7 @@
     series_id: ''
 -
     id: buried
+    new_id: 'buried:buried'
     name: 'The Journeyman Project 2: Buried in Time'
     engine_id: buried
     company_id: presto
@@ -1069,6 +1158,7 @@
     series_id: journeyman
 -
     id: caitlyn
+    new_id: 'agi:caitlyn'
     name: 'Caitlyn''s Destiny'
     engine_id: agi
     company_id: fan
@@ -1081,6 +1171,7 @@
     series_id: agifan
 -
     id: camelot
+    new_id: 'sci:camelot'
     name: 'Conquests of Camelot: The Search for the Grail'
     engine_id: sci
     company_id: sierra
@@ -1093,6 +1184,7 @@
     series_id: conquests
 -
     id: cantitoe
+    new_id: 'wage:cantitoe'
     name: 'Camp Cantitoe'
     engine_id: wage
     company_id: unknown
@@ -1105,6 +1197,7 @@
     series_id: ''
 -
     id: carmentq
+    new_id: 'mohawk:carmentq'
     name: 'Carmen Sandiego''s ThinkQuick Challenge'
     engine_id: mohawk
     company_id: tlc
@@ -1117,6 +1210,7 @@
     series_id: carmen
 -
     id: carmentqc
+    new_id: 'mohawk:carmentqc'
     name: 'Carmen Sandiego''s ThinkQuick Challenge Custom Question Creator'
     engine_id: mohawk
     company_id: tlc
@@ -1129,6 +1223,7 @@
     series_id: carmen
 -
     id: carolreed10
+    new_id: 'wintermute:carolreed10'
     name: 'Carol Reed 10 - Bosch''s Damnation'
     engine_id: wintermute
     company_id: mdna
@@ -1141,6 +1236,7 @@
     series_id: carol
 -
     id: carolreed11
+    new_id: 'wintermute:carolreed11'
     name: 'Carol Reed 11 - Shades Of Black'
     engine_id: wintermute
     company_id: mdna
@@ -1153,6 +1249,7 @@
     series_id: carol
 -
     id: carolreed12
+    new_id: 'wintermute:carolreed12'
     name: 'Carol Reed 12 - Profound Red'
     engine_id: wintermute
     company_id: mdna
@@ -1165,6 +1262,7 @@
     series_id: carol
 -
     id: carolreed13
+    new_id: 'wintermute:carolreed13'
     name: 'Carol Reed 13 - The Birdwatcher'
     engine_id: wintermute
     company_id: mdna
@@ -1177,6 +1275,7 @@
     series_id: carol
 -
     id: carolreed14
+    new_id: 'wintermute:carolreed14'
     name: 'Carol Reed 14 - The Fall Of April'
     engine_id: wintermute
     company_id: mdna
@@ -1189,6 +1288,7 @@
     series_id: carol
 -
     id: carolreed15
+    new_id: 'wintermute:carolreed15'
     name: 'Carol Reed 15 - Geospots'
     engine_id: wintermute
     company_id: mdna
@@ -1201,6 +1301,7 @@
     series_id: carol
 -
     id: carolreed16
+    new_id: 'wintermute:carolreed16'
     name: 'Carol Reed 16 - Quarantine Diary'
     engine_id: wintermute
     company_id: mdna
@@ -1213,6 +1314,7 @@
     series_id: carol
 -
     id: carolreed4
+    new_id: 'wintermute:carolreed4'
     name: 'Carol Reed 4 - East Side Story'
     engine_id: wintermute
     company_id: mdna
@@ -1225,6 +1327,7 @@
     series_id: carol
 -
     id: carolreed5
+    new_id: 'wintermute:carolreed5'
     name: 'Carol Reed 5 - The Colour of Murder'
     engine_id: wintermute
     company_id: mdna
@@ -1237,6 +1340,7 @@
     series_id: carol
 -
     id: carolreed6
+    new_id: 'wintermute:carolreed6'
     name: 'Carol Reed 6 - Black Circle'
     engine_id: wintermute
     company_id: mdna
@@ -1249,6 +1353,7 @@
     series_id: carol
 -
     id: carolreed7
+    new_id: 'wintermute:carolreed7'
     name: 'Carol Reed 7 - Blue Madonna'
     engine_id: wintermute
     company_id: mdna
@@ -1261,6 +1366,7 @@
     series_id: carol
 -
     id: carolreed8
+    new_id: 'wintermute:carolreed8'
     name: 'Carol Reed 8 - Amber''s Blood'
     engine_id: wintermute
     company_id: mdna
@@ -1273,6 +1379,7 @@
     series_id: carol
 -
     id: carolreed9
+    new_id: 'wintermute:carolreed9'
     name: 'Carol Reed 9 - Cold Case Summer'
     engine_id: wintermute
     company_id: mdna
@@ -1285,6 +1392,7 @@
     series_id: carol
 -
     id: cartlife
+    new_id: 'ags:cartlife'
     name: 'Cart Life'
     engine_id: ags
     company_id: hofmeier
@@ -1297,6 +1405,7 @@
     series_id: ''
 -
     id: castlebrain
+    new_id: 'sci:castlebrain'
     name: 'Castle of Dr. Brain'
     engine_id: sci
     company_id: sierra
@@ -1309,6 +1418,7 @@
     series_id: brain
 -
     id: castledornstein
+    new_id: 'ags:castledornstein'
     name: 'Castle Dornstein'
     engine_id: ags
     company_id: digitalmosaic
@@ -1321,6 +1431,7 @@
     series_id: ''
 -
     id: catalog
+    new_id: 'scumm:catalog'
     name: 'Humongous Interactive Catalog'
     engine_id: scumm
     company_id: he
@@ -1333,6 +1444,7 @@
     series_id: ''
 -
     id: catdate
+    new_id: 'sci:catdate'
     name: 'The Dating Pool'
     engine_id: sci
     company_id: fan
@@ -1345,6 +1457,7 @@
     series_id: ''
 -
     id: catinthehat
+    new_id: 'mohawk:catinthehat'
     name: 'The Cat in the Hat'
     engine_id: mohawk
     company_id: livingbooks
@@ -1357,6 +1470,7 @@
     series_id: livingbooks
 -
     id: charnelhousetrilogy
+    new_id: 'ags:charnelhousetrilogy'
     name: 'The Charnel House Trilogy'
     engine_id: ags
     company_id: owlcave
@@ -1369,6 +1483,7 @@
     series_id: ''
 -
     id: chronicleofinnsmouth
+    new_id: 'ags:chronicleofinnsmouth'
     name: 'Chronicle of Innsmouth'
     engine_id: ags
     company_id: psychodev
@@ -1381,6 +1496,7 @@
     series_id: innsmouth
 -
     id: chase
+    new_id: 'scumm:chase'
     name: 'SPY Fox in "Cheese Chase"'
     engine_id: scumm
     company_id: he
@@ -1393,6 +1509,7 @@
     series_id: spyfox
 -
     id: chest
+    new_id: 'sci:chest'
     name: 'Inside the Chest'
     engine_id: sci
     company_id: sierra
@@ -1405,6 +1522,7 @@
     series_id: kq
 -
     id: chewy
+    new_id: 'chewy:chewy'
     name: 'Chewy: Esc from F5'
     engine_id: chewy
     company_id: newgen
@@ -1417,6 +1535,7 @@
     series_id: ''
 -
     id: chivalry
+    new_id: 'wintermute:chivalry'
     name: 'Chivalry is Not Dead'
     engine_id: wintermute
     company_id: squinky
@@ -1429,6 +1548,7 @@
     series_id: ''
 -
     id: chopsuey
+    new_id: 'director:chopsuey'
     name: 'Chop Suey'
     engine_id: director
     company_id: magnetinteractive
@@ -1441,6 +1561,7 @@
     series_id: ''
 -
     id: christmas1988
+    new_id: 'sci:christmas1988'
     name: 'Christmas Card 1988'
     engine_id: sci
     company_id: sierra
@@ -1453,6 +1574,7 @@
     series_id: sierrachristmas
 -
     id: christmas1990
+    new_id: 'sci:christmas1990'
     name: 'Christmas Card 1990: The Seasoned Professional'
     engine_id: sci
     company_id: sierra
@@ -1465,6 +1587,7 @@
     series_id: sierrachristmas
 -
     id: christmas1992
+    new_id: 'sci:christmas1992'
     name: 'Christmas Card 1992'
     engine_id: sci
     company_id: sierra
@@ -1477,6 +1600,7 @@
     series_id: sierrachristmas
 -
     id: clandestiny
+    new_id: 'groovie:clandestiny'
     name: Clandestiny
     engine_id: groovie
     company_id: trilobyte
@@ -1489,6 +1613,7 @@
     series_id: ''
 -
     id: cloudsofxeen
+    new_id: 'xeen:cloudsofxeen'
     name: 'Might and Magic: Clouds of Xeen'
     engine_id: xeen
     company_id: nwc
@@ -1501,6 +1626,7 @@
     series_id: mm
 -
     id: cnick-kq
+    new_id: 'sci:cnick-kq'
     name: 'Crazy Nick''s Software Picks: King Graham''s Board Game Challenge'
     engine_id: sci
     company_id: sierra
@@ -1513,6 +1639,7 @@
     series_id: kq
 -
     id: cnick-laurabow
+    new_id: 'sci:cnick-laurabow'
     name: 'Crazy Nick''s Software Picks: Parlor Games with Laura Bow'
     engine_id: sci
     company_id: sierra
@@ -1525,6 +1652,7 @@
     series_id: laurabow
 -
     id: cnick-longbow
+    new_id: 'sci:cnick-longbow'
     name: 'Crazy Nick''s Software Picks: Robin Hood''s Games of Skill and Chance'
     engine_id: sci
     company_id: sierra
@@ -1537,6 +1665,7 @@
     series_id: conquests
 -
     id: cnick-lsl
+    new_id: 'sci:cnick-lsl'
     name: 'Crazy Nick''s Software Picks: Leisure Suit Larry''s Casino'
     engine_id: sci
     company_id: sierra
@@ -1549,6 +1678,7 @@
     series_id: lsl
 -
     id: cnick-sq
+    new_id: 'sci:cnick-sq'
     name: 'Crazy Nick''s Software Picks: Roger Wilco''s Spaced Out Game Pack'
     engine_id: sci
     company_id: sierra
@@ -1561,6 +1691,7 @@
     series_id: sq
 -
     id: colorsoncanvas
+    new_id: 'wintermute:colorsoncanvas'
     name: 'Colors on Canvas'
     engine_id: wintermute
     company_id: unknown
@@ -1573,6 +1704,7 @@
     series_id: ''
 -
     id: comi
+    new_id: 'scumm:comi'
     name: 'The Curse of Monkey Island'
     engine_id: scumm
     company_id: lucasarts
@@ -1585,6 +1717,7 @@
     series_id: mi
 -
     id: conspiracao
+    new_id: 'wintermute:conspiracao'
     name: 'Conspiracao Dumont'
     engine_id: wintermute
     company_id: unknown
@@ -1597,6 +1730,7 @@
     series_id: ''
 -
     id: corrosion
+    new_id: 'wintermute:corrosion'
     name: 'Corrosion: Cold Winter Waiting'
     engine_id: wintermute
     company_id: viperante
@@ -1609,6 +1743,7 @@
     series_id: ''
 -
     id: corruption
+    new_id: 'magnetic:corruption'
     name: Corruption
     engine_id: magnetic
     company_id: magnetic
@@ -1621,6 +1756,7 @@
     series_id: ''
 -
     id: create
+    new_id: 'mohawk:create'
     name: 'The Story of Creation'
     engine_id: mohawk
     company_id: littleark
@@ -1633,6 +1769,7 @@
     series_id: ''
 -
     id: crimsoncrown
+    new_id: 'comprehend:crimsoncrown'
     name: 'The Crimson Crown: Further Adventures in Transylvania'
     engine_id: comprehend
     company_id: polarware
@@ -1645,6 +1782,7 @@
     series_id: transylvania
 -
     id: crousti
+    new_id: 'gob:crousti'
     name: Croustibat
     engine_id: gob
     company_id: coktel
@@ -1657,6 +1795,7 @@
     series_id: ''
 -
     id: cruise
+    new_id: 'cruise:cruise'
     name: 'Cruise for a Corpse'
     engine_id: cruise
     company_id: delphine
@@ -1669,6 +1808,7 @@
     series_id: ''
 -
     id: crystalshardadventurebundle
+    new_id: 'ags:crystalshardadventurebundle'
     name: 'Crystal Shard Adventure Bundle'
     engine_id: ags
     company_id: crystalshard
@@ -1681,6 +1821,7 @@
     series_id: ''
 -
     id: cstime
+    new_id: 'mohawk:cstime'
     name: 'Where in Time is Carmen Sandiego?'
     engine_id: mohawk
     company_id: broderbund
@@ -1693,6 +1834,7 @@
     series_id: carmen
 -
     id: cubert
+    new_id: 'sludge:cubert'
     name: 'Cubert Badbone, P.I.'
     engine_id: sludge
     company_id: deirdrakiai
@@ -1705,6 +1847,7 @@
     series_id: ''
 -
     id: daniel
+    new_id: 'mohawk:daniel'
     name: 'Daniel in the Lions'' Den'
     engine_id: mohawk
     company_id: littleark
@@ -1717,6 +1860,7 @@
     series_id: ''
 -
     id: darby
+    new_id: 'composer:darby'
     name: 'Darby the Dragon'
     engine_id: composer
     company_id: animationmagic
@@ -1729,6 +1873,7 @@
     series_id: ''
 -
     id: darkfallls
+    new_id: 'wintermute:darkfallls'
     name: 'Dark Fall: Lost Souls'
     engine_id: wintermute
     company_id: darkling
@@ -1741,6 +1886,7 @@
     series_id: darkfall
 -
     id: darksideofxeen
+    new_id: 'xeen:darksideofxeen'
     name: 'Might and Magic: Darkside of Xeen'
     engine_id: xeen
     company_id: nwc
@@ -1753,6 +1899,7 @@
     series_id: mm
 -
     id: ddp
+    new_id: 'agi:ddp'
     name: 'Donald Duck''s Playground'
     engine_id: agi
     company_id: sierra
@@ -1765,6 +1912,7 @@
     series_id: disney
 -
     id: deadcity
+    new_id: 'wintermute:deadcity'
     name: 'Dead City'
     engine_id: wintermute
     company_id: nihilis
@@ -1777,6 +1925,7 @@
     series_id: ''
 -
     id: deja_vu
+    new_id: 'macventure:deja_vu'
     name: 'Deja Vu: A Nightmare Comes True!!'
     engine_id: macventure
     company_id: icom
@@ -1789,6 +1938,7 @@
     series_id: deja_vu
 -
     id: deja_vu2
+    new_id: 'macventure:deja_vu2'
     name: 'Déjà Vu II: Lost in Las Vegas'
     engine_id: macventure
     company_id: icom
@@ -1801,6 +1951,7 @@
     series_id: deja_vu
 -
     id: detectivegallo
+    new_id: 'ags:detectivegallo'
     name: 'Detective Gallo'
     engine_id: ags
     company_id: footprints
@@ -1813,6 +1964,7 @@
     series_id: ''
 -
     id: devilincapital
+    new_id: 'wintermute:devilincapital'
     name: 'Devil In The Capital'
     engine_id: wintermute
     company_id: rskent
@@ -1825,6 +1977,7 @@
     series_id: ''
 -
     id: dfafadventure
+    new_id: 'wintermute:dfafadventure'
     name: 'DFAF Adventure'
     engine_id: wintermute
     company_id: jennybee
@@ -1837,6 +1990,7 @@
     series_id: ''
 -
     id: dig
+    new_id: 'scumm:dig'
     name: 'The Dig'
     engine_id: scumm
     company_id: lucasarts
@@ -1849,6 +2003,7 @@
     series_id: lucasartsnoseries
 -
     id: dimp
+    new_id: 'agos:dimp'
     name: 'Simon the Sorcerer''s Puzzle Pack: Demon in my Pocket'
     engine_id: agos
     company_id: adventuresoft
@@ -1861,6 +2016,7 @@
     series_id: simon
 -
     id: dino
+    new_id: 'saga:dino'
     name: Dinotopia
     engine_id: saga
     company_id: dreamersguild
@@ -1873,6 +2029,7 @@
     series_id: ''
 -
     id: director
+    new_id: 'director:director'
     name: 'Macromedia Director Game'
     engine_id: director
     company_id: unknown
@@ -1885,6 +2042,7 @@
     series_id: ''
 -
     id: directortest
+    new_id: 'director:directortest'
     name: 'Macromedia Director Test Target'
     engine_id: director
     company_id: unknown
@@ -1897,6 +2055,7 @@
     series_id: ''
 -
     id: directortest-all
+    new_id: 'director:directortest-all'
     name: 'Macromedia Director All Movies Test Target'
     engine_id: director
     company_id: unknown
@@ -1909,6 +2068,7 @@
     series_id: ''
 -
     id: dirtysplit
+    new_id: 'wintermute:dirtysplit'
     name: 'Dirty Split'
     engine_id: wintermute
     company_id: dreamagination
@@ -1921,6 +2081,7 @@
     series_id: ''
 -
     id: dm
+    new_id: 'dm:dm'
     name: 'Dungeon Master'
     engine_id: dm
     company_id: ftl
@@ -1933,6 +2094,7 @@
     series_id: ''
 -
     id: docapocalypse
+    new_id: 'ags:docapocalypse'
     name: 'Doc Apocalypse'
     engine_id: ags
     company_id: midian
@@ -1945,6 +2107,7 @@
     series_id: ''
 -
     id: dog
+    new_id: 'scumm:dog'
     name: 'Putt-Putt and Pep''s Dog on a Stick'
     engine_id: scumm
     company_id: he
@@ -1957,6 +2120,7 @@
     series_id: puttputt
 -
     id: donalddowell
+    new_id: 'ags:donalddowell'
     name: 'Donald Dowell and the Ghost of Barker Manor'
     engine_id: ags
     company_id: apemarina
@@ -1969,6 +2133,7 @@
     series_id: ''
 -
     id: downfall2009
+    new_id: 'ags:downfall2009'
     name: 'Downfall (2009)'
     engine_id: ags
     company_id: harvester
@@ -1981,6 +2146,7 @@
     series_id: deviltrilogy
 -
     id: downfall2016
+    new_id: 'ags:downfall2016'
     name: 'Downfall (2016)'
     engine_id: ags
     company_id: harvester
@@ -1993,6 +2159,7 @@
     series_id: deviltrilogy
 -
     id: draci
+    new_id: 'draci:draci'
     name: 'Dragon History'
     engine_id: draci
     company_id: nosense
@@ -2005,6 +2172,7 @@
     series_id: ''
 -
     id: dragons
+    new_id: 'dragons:dragons'
     name: 'Blazing Dragons'
     engine_id: dragons
     company_id: crystaldynamics
@@ -2017,6 +2185,7 @@
     series_id: ''
 -
     id: dragonsphere
+    new_id: 'mads:dragonsphere'
     name: Dragonsphere
     engine_id: mads
     company_id: microprose
@@ -2029,6 +2198,7 @@
     series_id: ''
 -
     id: drakmythcastle
+    new_id: 'wage:drakmythcastle'
     name: 'Drakmyth Castle'
     engine_id: wage
     company_id: unknown
@@ -2041,6 +2211,7 @@
     series_id: ''
 -
     id: drascula
+    new_id: 'drascula:drascula'
     name: 'Dráscula: The Vampire Strikes Back'
     engine_id: drascula
     company_id: alcachofa
@@ -2053,6 +2224,7 @@
     series_id: ''
 -
     id: drbohus
+    new_id: 'wintermute:drbohus'
     name: 'Dr. Bohus'
     engine_id: wintermute
     company_id: local
@@ -2065,6 +2237,7 @@
     series_id: ''
 -
     id: drdoylemotch
+    new_id: 'wintermute:drdoylemotch'
     name: 'Dr. Doyle - Mystery Of The Cloche Hat'
     engine_id: wintermute
     company_id: pnc
@@ -2077,6 +2250,7 @@
     series_id: ''
 -
     id: dreamcat
+    new_id: 'wintermute:dreamcat'
     name: Dreamcat
     engine_id: wintermute
     company_id: jennybee
@@ -2089,6 +2263,7 @@
     series_id: ''
 -
     id: dreaming
+    new_id: 'wintermute:dreaming'
     name: 'Des Reves Elastiques Avec Mille Insectes Nommes Georges'
     engine_id: wintermute
     company_id: squinky
@@ -2101,6 +2276,7 @@
     series_id: ''
 -
     id: dreamscape
+    new_id: 'wintermute:dreamscape'
     name: Dreamscape
     engine_id: wintermute
     company_id: blekinge
@@ -2113,6 +2289,7 @@
     series_id: ''
 -
     id: dreamweb
+    new_id: 'dreamweb:dreamweb'
     name: DreamWeb
     engine_id: dreamweb
     company_id: creativereality
@@ -2125,6 +2302,7 @@
     series_id: ''
 -
     id: driller
+    new_id: 'wintermute:driller'
     name: 'The Driller Incident'
     engine_id: wintermute
     company_id: unknown
@@ -2137,6 +2315,7 @@
     series_id: ''
 -
     id: duckman
+    new_id: 'illusions:duckman'
     name: 'Duckman: The Graphic Adventures of a Private Dick'
     engine_id: illusions
     company_id: playmates
@@ -2149,6 +2328,7 @@
     series_id: ''
 -
     id: dustbowl
+    new_id: 'ags:dustbowl'
     name: Dustbowl
     engine_id: ags
     company_id: pompous
@@ -2161,6 +2341,7 @@
     series_id: ''
 -
     id: dw
+    new_id: 'tinsel:dw'
     name: Discworld
     engine_id: tinsel
     company_id: perfect
@@ -2173,6 +2354,7 @@
     series_id: dw
 -
     id: dw2
+    new_id: 'tinsel:dw2'
     name: 'Discworld 2: Missing Presumed ...!?'
     engine_id: tinsel
     company_id: perfect
@@ -2185,6 +2367,7 @@
     series_id: dw
 -
     id: dynasty
+    new_id: 'gob:dynasty'
     name: 'The Last Dynasty'
     engine_id: gob
     company_id: coktel
@@ -2197,6 +2380,7 @@
     series_id: ''
 -
     id: ecoquest
+    new_id: 'sci:ecoquest'
     name: 'EcoQuest: The Search for Cetus'
     engine_id: sci
     company_id: sierra
@@ -2209,6 +2393,7 @@
     series_id: ecoquest
 -
     id: ecoquest2
+    new_id: 'sci:ecoquest2'
     name: 'EcoQuest II: Lost Secret of the Rainforest'
     engine_id: sci
     company_id: sierra
@@ -2221,6 +2406,7 @@
     series_id: ecoquest
 -
     id: elvira1
+    new_id: 'agos:elvira1'
     name: 'Elvira - Mistress of the Dark'
     engine_id: agos
     company_id: adventuresoft
@@ -2233,6 +2419,7 @@
     series_id: elvira
 -
     id: elvira2
+    new_id: 'agos:elvira2'
     name: 'Elvira II: The Jaws of Cerberus'
     engine_id: agos
     company_id: adventuresoft
@@ -2245,6 +2432,7 @@
     series_id: elvira
 -
     id: enchanter
+    new_id: 'glk:enchanter'
     name: Enchanter
     engine_id: glk
     company_id: infocom
@@ -2257,6 +2445,7 @@
     series_id: enchanter
 -
     id: enclosure
+    new_id: 'agi:enclosure'
     name: 'Enclosure 1'
     engine_id: agi
     company_id: fan
@@ -2269,6 +2458,7 @@
     series_id: agifan
 -
     id: eob
+    new_id: 'kyra:eob'
     name: 'Eye of the Beholder'
     engine_id: kyra
     company_id: westwood
@@ -2281,6 +2471,7 @@
     series_id: eob
 -
     id: eob2
+    new_id: 'kyra:eob2'
     name: 'Eye of the Beholder II: The Legend of Darkmoon'
     engine_id: kyra
     company_id: westwood
@@ -2293,6 +2484,7 @@
     series_id: eob
 -
     id: erinmyers
+    new_id: 'wintermute:erinmyers'
     name: 'The Death of Erin Myers'
     engine_id: wintermute
     company_id: viperante
@@ -2305,6 +2497,7 @@
     series_id: ''
 -
     id: ernie
+    new_id: 'director:ernie'
     name: Ernie
     engine_id: director
     company_id: unknown
@@ -2317,6 +2510,7 @@
     series_id: ''
 -
     id: escapemansion
+    new_id: 'wintermute:escapemansion'
     name: 'Escape from the Mansion'
     engine_id: wintermute
     company_id: fan
@@ -2329,6 +2523,7 @@
     series_id: ''
 -
     id: everydaygray
+    new_id: 'wintermute:everydaygray'
     name: 'Everyday Grey'
     engine_id: wintermute
     company_id: krumbukt
@@ -2341,6 +2536,7 @@
     series_id: ''
 -
     id: excavationhb
+    new_id: 'ags:excavationhb'
     name: 'The Excavation at Hob''s Barrow'
     engine_id: ags
     company_id: cloakdagger
@@ -2353,6 +2549,7 @@
     series_id: ''
 -
     id: facenoir
+    new_id: 'wintermute:facenoir'
     name: 'Face Noir'
     engine_id: wintermute
     company_id: madorange
@@ -2365,6 +2562,7 @@
     series_id: ''
 -
     id: fairytales
+    new_id: 'sci:fairytales'
     name: 'Mixed Up Fairy Tales'
     engine_id: sci
     company_id: sierra
@@ -2377,6 +2575,7 @@
     series_id: mixedup
 -
     id: falconcity
+    new_id: 'ags:falconcity'
     name: 'Falcon City'
     engine_id: ags
     company_id: likely
@@ -2389,6 +2588,7 @@
     series_id: ''
 -
     id: farm
+    new_id: 'scumm:farm'
     name: 'Let''s Explore the Farm'
     engine_id: scumm
     company_id: he
@@ -2401,6 +2601,7 @@
     series_id: juniorfield
 -
     id: fascination
+    new_id: 'gob:fascination'
     name: Fascination
     engine_id: gob
     company_id: coktel
@@ -2413,6 +2614,7 @@
     series_id: ''
 -
     id: fbear
+    new_id: 'scumm:fbear'
     name: 'Fatty Bear''s Birthday Surprise'
     engine_id: scumm
     company_id: he
@@ -2425,6 +2627,7 @@
     series_id: fbear
 -
     id: fbpack
+    new_id: 'scumm:fbpack'
     name: 'Fatty Bear''s FunPack'
     engine_id: scumm
     company_id: he
@@ -2437,6 +2640,7 @@
     series_id: fbear
 -
     id: feeble
+    new_id: 'agos:feeble'
     name: 'The Feeble Files'
     engine_id: agos
     company_id: adventuresoft
@@ -2449,6 +2653,7 @@
     series_id: ''
 -
     id: feriadarles
+    new_id: 'ags:feriadarles'
     name: 'Feria d''Arles'
     engine_id: ags
     company_id: tomsimpson
@@ -2461,6 +2666,7 @@
     series_id: ''
 -
     id: findinghope
+    new_id: 'wintermute:findinghope'
     name: 'Finding Hope'
     engine_id: wintermute
     company_id: goldenbough
@@ -2473,6 +2679,7 @@
     series_id: ''
 -
     id: fish
+    new_id: 'magnetic:fish'
     name: Fish!
     engine_id: magnetic
     company_id: magnetic
@@ -2485,6 +2692,7 @@
     series_id: ''
 -
     id: football
+    new_id: 'scumm:football'
     name: 'Backyard Football'
     engine_id: scumm
     company_id: he
@@ -2497,6 +2705,7 @@
     series_id: juniorsports
 -
     id: football2002
+    new_id: 'scumm:football2002'
     name: 'Backyard Football 2002'
     engine_id: scumm
     company_id: he
@@ -2509,6 +2718,7 @@
     series_id: juniorsports
 -
     id: footballgame
+    new_id: 'ags:footballgame'
     name: 'Football Game'
     engine_id: ags
     company_id: cloakdagger
@@ -2521,6 +2731,7 @@
     series_id: ''
 -
     id: forgottensound1
+    new_id: 'wintermute:forgottensound1'
     name: 'Forgotten Sound 1 - Revelation'
     engine_id: wintermute
     company_id: rskent
@@ -2533,6 +2744,7 @@
     series_id: forgottensound
 -
     id: forgottensound2
+    new_id: 'wintermute:forgottensound2'
     name: 'Forgotten Sound 2 - Destiny'
     engine_id: wintermute
     company_id: rskent
@@ -2545,6 +2757,7 @@
     series_id: forgottensound
 -
     id: four
+    new_id: 'wintermute:four'
     name: Four
     engine_id: wintermute
     company_id: unknown
@@ -2557,6 +2770,7 @@
     series_id: ''
 -
     id: foxtail
+    new_id: 'wintermute:foxtail'
     name: FoxTail
     engine_id: wintermute
     company_id: gingertips
@@ -2569,6 +2783,7 @@
     series_id: ''
 -
     id: framed
+    new_id: 'wintermute:framed'
     name: Framed
     engine_id: wintermute
     company_id: blekinge
@@ -2581,6 +2796,7 @@
     series_id: ''
 -
     id: frasse
+    new_id: 'sludge:frasse'
     name: 'Frasse and the Peas of Kejick'
     engine_id: sludge
     company_id: unknown
@@ -2593,6 +2809,7 @@
     series_id: ''
 -
     id: freddi
+    new_id: 'scumm:freddi'
     name: 'Freddi Fish and the Case of the Missing Kelp Seeds'
     engine_id: scumm
     company_id: he
@@ -2605,6 +2822,7 @@
     series_id: freddi
 -
     id: freddi2
+    new_id: 'scumm:freddi2'
     name: 'Freddi Fish 2: The Case of the Haunted Schoolhouse'
     engine_id: scumm
     company_id: he
@@ -2617,6 +2835,7 @@
     series_id: freddi
 -
     id: freddi3
+    new_id: 'scumm:freddi3'
     name: 'Freddi Fish 3: The Case of the Stolen Conch Shell'
     engine_id: scumm
     company_id: he
@@ -2629,6 +2848,7 @@
     series_id: freddi
 -
     id: freddi4
+    new_id: 'scumm:freddi4'
     name: 'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'
     engine_id: scumm
     company_id: he
@@ -2641,6 +2861,7 @@
     series_id: freddi
 -
     id: freddicove
+    new_id: 'scumm:freddicove'
     name: 'Freddi Fish 5: The Case of the Creature of Coral Cove'
     engine_id: scumm
     company_id: he
@@ -2653,6 +2874,7 @@
     series_id: freddi
 -
     id: freddisfunshop
+    new_id: 'scumm:freddisfunshop'
     name: 'Freddi Fish''s One-Stop Fun Shop'
     engine_id: scumm
     company_id: he
@@ -2665,6 +2887,7 @@
     series_id: freddi
 -
     id: freddypharkas
+    new_id: 'sci:freddypharkas'
     name: 'Freddy Pharkas: Frontier Pharmacist'
     engine_id: sci
     company_id: sierra
@@ -2677,6 +2900,7 @@
     series_id: sierranoseries
 -
     id: ft
+    new_id: 'scumm:ft'
     name: 'Full Throttle'
     engine_id: scumm
     company_id: lucasarts
@@ -2689,6 +2913,7 @@
     series_id: lucasartsnoseries
 -
     id: fta2
+    new_id: 'saga:fta2'
     name: 'Halls of the Dead: Faery Tale Adventure II'
     engine_id: saga
     company_id: dreamersguild
@@ -2701,6 +2926,7 @@
     series_id: ''
 -
     id: fullpipe
+    new_id: 'ngi:fullpipe'
     name: 'Full Pipe'
     engine_id: ngi
     company_id: 1c
@@ -2713,6 +2939,7 @@
     series_id: ''
 -
     id: funpack
+    new_id: 'scumm:funpack'
     name: 'Putt-Putt''s Fun Pack'
     engine_id: scumm
     company_id: he
@@ -2725,6 +2952,7 @@
     series_id: puttputt
 -
     id: funseeker
+    new_id: 'sci:funseeker'
     name: 'Fun Seeker''s Guide'
     engine_id: sci
     company_id: sierra
@@ -2737,6 +2965,7 @@
     series_id: sierranoseries
 -
     id: fw
+    new_id: 'cine:fw'
     name: 'Future Wars: Adventures in Time'
     engine_id: cine
     company_id: delphine
@@ -2749,6 +2978,7 @@
     series_id: ''
 -
     id: geisha
+    new_id: 'gob:geisha'
     name: Geisha
     engine_id: gob
     company_id: coktel
@@ -2761,6 +2991,7 @@
     series_id: ''
 -
     id: geminirue
+    new_id: 'ags:geminirue'
     name: 'Gemini Rue'
     engine_id: ags
     company_id: wadjet
@@ -2773,6 +3004,7 @@
     series_id: ''
 -
     id: ghostsheet
+    new_id: 'wintermute:ghostsheet'
     name: 'Ghost in the Sheet'
     engine_id: wintermute
     company_id: cbe
@@ -2785,6 +3017,7 @@
     series_id: ''
 -
     id: gk1
+    new_id: 'sci:gk1'
     name: 'Gabriel Knight: Sins of the Fathers'
     engine_id: sci
     company_id: sierra
@@ -2797,6 +3030,7 @@
     series_id: gk
 -
     id: gk1demo
+    new_id: 'sci:gk1demo'
     name: 'Gabriel Knight: Sins of the Fathers (Demo)'
     engine_id: sci
     company_id: sierra
@@ -2809,6 +3043,7 @@
     series_id: gk
 -
     id: gk2
+    new_id: 'sci:gk2'
     name: 'The Beast Within: A Gabriel Knight Mystery'
     engine_id: sci
     company_id: sierra
@@ -2821,6 +3056,7 @@
     series_id: gk
 -
     id: glulx
+    new_id: 'glk:glulx'
     name: 'Glulx Interactive Fiction games'
     engine_id: glk
     company_id: glk
@@ -2833,6 +3069,7 @@
     series_id: ''
 -
     id: gnap
+    new_id: 'gnap:gnap'
     name: U.F.O.s
     engine_id: gnap
     company_id: artech
@@ -2845,6 +3082,7 @@
     series_id: ''
 -
     id: gob1
+    new_id: 'gob:gob1'
     name: Gobliiins
     engine_id: gob
     company_id: coktel
@@ -2857,6 +3095,7 @@
     series_id: gob
 -
     id: gob2
+    new_id: 'gob:gob2'
     name: 'Gobliins 2: The Prince Buffoon'
     engine_id: gob
     company_id: coktel
@@ -2869,6 +3108,7 @@
     series_id: gob
 -
     id: gob3
+    new_id: 'gob:gob3'
     name: 'Goblins Quest 3'
     engine_id: gob
     company_id: coktel
@@ -2881,6 +3121,7 @@
     series_id: gob
 -
     id: goldencalf
+    new_id: 'wintermute:goldencalf'
     name: 'The Golden Calf'
     engine_id: wintermute
     company_id: rootfix
@@ -2893,6 +3134,7 @@
     series_id: ''
 -
     id: goldenwake
+    new_id: 'ags:goldenwake'
     name: 'A Golden Wake'
     engine_id: ags
     company_id: grundislav
@@ -2905,6 +3147,7 @@
     series_id: ''
 -
     id: goldrush
+    new_id: 'agi:goldrush'
     name: 'Gold Rush!'
     engine_id: agi
     company_id: sierra
@@ -2917,6 +3160,7 @@
     series_id: sierranoseries
 -
     id: grandma
+    new_id: 'mohawk:grandma'
     name: 'Just Grandma and Me'
     engine_id: mohawk
     company_id: livingbooks
@@ -2929,6 +3173,7 @@
     series_id: livingbooks
 -
     id: grandmabadass
+    new_id: 'ags:grandmabadass'
     name: 'GrandMa Badass'
     engine_id: ags
     company_id: adipson
@@ -2941,6 +3186,7 @@
     series_id: ''
 -
     id: greeneggs
+    new_id: 'mohawk:greeneggs'
     name: 'Green Eggs and Ham'
     engine_id: mohawk
     company_id: livingbooks
@@ -2953,6 +3199,7 @@
     series_id: livingbooks
 -
     id: gregory
+    new_id: 'composer:gregory'
     name: 'Gregory and the Hot Air Balloon'
     engine_id: composer
     company_id: animationmagic
@@ -2965,6 +3212,7 @@
     series_id: ''
 -
     id: griffon
+    new_id: 'griffon:griffon'
     name: 'The Griffon Legend'
     engine_id: griffon
     company_id: fan
@@ -2977,6 +3225,7 @@
     series_id: ''
 -
     id: grim
+    new_id: 'grim:grim'
     name: 'Grim Fandango'
     engine_id: grim
     company_id: lucasarts
@@ -2989,6 +3238,7 @@
     series_id: lucasartsnoseries
 -
     id: guardduty
+    new_id: 'ags:guardduty'
     name: 'Guard Duty'
     engine_id: ags
     company_id: headware
@@ -3001,6 +3251,7 @@
     series_id: ''
 -
     id: guild
+    new_id: 'magnetic:guild'
     name: 'The Guild of Thieves'
     engine_id: magnetic
     company_id: magnetic
@@ -3013,6 +3264,7 @@
     series_id: ''
 -
     id: gundam0079
+    new_id: 'director:gundam0079'
     name: 'Gundam 0079: The War for Earth'
     engine_id: director
     company_id: presto
@@ -3025,6 +3277,7 @@
     series_id: ''
 -
     id: hadesch
+    new_id: 'hadesch:hadesch'
     name: 'Hades Challenge'
     engine_id: hadesch
     company_id: disney
@@ -3037,6 +3290,7 @@
     series_id: ''
 -
     id: hamlet
+    new_id: 'wintermute:hamlet'
     name: 'Hamlet or the last game without MMORPG features, shaders and product placement'
     engine_id: wintermute
     company_id: mif2000
@@ -3049,6 +3303,7 @@
     series_id: ''
 -
     id: harryhh
+    new_id: 'mohawk:harryhh'
     name: 'Harry and the Haunted House'
     engine_id: mohawk
     company_id: livingbooks
@@ -3061,6 +3316,7 @@
     series_id: livingbooks
 -
     id: hdb
+    new_id: 'hdb:hdb'
     name: 'Hyperspace Delivery Boy!'
     engine_id: hdb
     company_id: monkeystone
@@ -3073,6 +3329,7 @@
     series_id: ''
 -
     id: helga
+    new_id: 'wintermute:helga'
     name: 'Helga Deep In Trouble'
     engine_id: wintermute
     company_id: offstudio
@@ -3085,6 +3342,7 @@
     series_id: ''
 -
     id: heroinesquest
+    new_id: 'ags:heroinesquest'
     name: 'Heroine''s Quest: The Herald of Ragnarok'
     engine_id: ags
     company_id: crystalshard
@@ -3097,6 +3355,7 @@
     series_id: ''
 -
     id: hires0
+    new_id: 'adl:hires0'
     name: 'Hi-Res Adventure #0: Mission Asteroid'
     engine_id: adl
     company_id: sierra
@@ -3109,6 +3368,7 @@
     series_id: hires
 -
     id: hires1
+    new_id: 'adl:hires1'
     name: 'Hi-Res Adventure #1: Mystery House'
     engine_id: adl
     company_id: sierra
@@ -3121,6 +3381,7 @@
     series_id: hires
 -
     id: hires2
+    new_id: 'adl:hires2'
     name: 'Hi-Res Adventure #2: The Wizard and the Princess'
     engine_id: adl
     company_id: sierra
@@ -3133,6 +3394,7 @@
     series_id: hires
 -
     id: hires3
+    new_id: 'adl:hires3'
     name: 'Hi-Res Adventure #3: Cranston Manor'
     engine_id: adl
     company_id: sierra
@@ -3145,6 +3407,7 @@
     series_id: hires
 -
     id: hires4
+    new_id: 'adl:hires4'
     name: 'Hi-Res Adventure #4: Ulysses and the Golden Fleece'
     engine_id: adl
     company_id: sierra
@@ -3157,6 +3420,7 @@
     series_id: hires
 -
     id: hires5
+    new_id: 'adl:hires5'
     name: 'Hi-Res Adventure #5: Time Zone'
     engine_id: adl
     company_id: sierra
@@ -3169,6 +3433,7 @@
     series_id: hires
 -
     id: hires6
+    new_id: 'adl:hires6'
     name: 'Hi-Res Adventure #6: The Dark Crystal'
     engine_id: adl
     company_id: sierra
@@ -3181,6 +3446,7 @@
     series_id: hires
 -
     id: hopkins
+    new_id: 'hopkins:hopkins'
     name: 'Hopkins FBI'
     engine_id: hopkins
     company_id: mpe
@@ -3193,6 +3459,7 @@
     series_id: ''
 -
     id: hor
+    new_id: 'wintermute:hor'
     name: Hor
     engine_id: wintermute
     company_id: romank
@@ -3205,6 +3472,7 @@
     series_id: ''
 -
     id: hoyle1
+    new_id: 'sci:hoyle1'
     name: 'Hoyle: Official Book of Games - Volume 1'
     engine_id: sci
     company_id: sierra
@@ -3217,6 +3485,7 @@
     series_id: hoyle
 -
     id: hoyle2
+    new_id: 'sci:hoyle2'
     name: 'Hoyle: Official Book of Games - Volume 2: Solitaire'
     engine_id: sci
     company_id: sierra
@@ -3229,6 +3498,7 @@
     series_id: hoyle
 -
     id: hoyle3
+    new_id: 'sci:hoyle3'
     name: 'Hoyle: Official Book of Games - Volume 3'
     engine_id: sci
     company_id: sierra
@@ -3241,6 +3511,7 @@
     series_id: hoyle
 -
     id: hoyle4
+    new_id: 'sci:hoyle4'
     name: 'Hoyle Classic Card Games'
     engine_id: sci
     company_id: sierra
@@ -3253,6 +3524,7 @@
     series_id: hoyle
 -
     id: hoyle5
+    new_id: 'sci:hoyle5'
     name: 'Hoyle Classic Games'
     engine_id: sci
     company_id: sierra
@@ -3265,6 +3537,7 @@
     series_id: hoyle
 -
     id: hoyle5bridge
+    new_id: 'sci:hoyle5bridge'
     name: 'Hoyle Bridge'
     engine_id: sci
     company_id: sierra
@@ -3277,6 +3550,7 @@
     series_id: hoyle
 -
     id: hoyle5children
+    new_id: 'sci:hoyle5children'
     name: 'Hoyle Children''s Collection'
     engine_id: sci
     company_id: sierra
@@ -3289,6 +3563,7 @@
     series_id: hoyle
 -
     id: hoyle5solitaire
+    new_id: 'sci:hoyle5solitaire'
     name: 'Hoyle Solitaire'
     engine_id: sci
     company_id: sierra
@@ -3301,6 +3576,7 @@
     series_id: hoyle
 -
     id: hugo
+    new_id: 'glk:hugo'
     name: 'Hugo Interactive Fiction games'
     engine_id: glk
     company_id: glk
@@ -3313,6 +3589,7 @@
     series_id: ''
 -
     id: hugo1
+    new_id: 'hugo:hugo1'
     name: 'Hugo''s House of Horrors'
     engine_id: hugo
     company_id: graydesign
@@ -3325,6 +3602,7 @@
     series_id: hugo
 -
     id: hugo2
+    new_id: 'hugo:hugo2'
     name: 'Hugo II: Whodunit?'
     engine_id: hugo
     company_id: graydesign
@@ -3337,6 +3615,7 @@
     series_id: hugo
 -
     id: hugo3
+    new_id: 'hugo:hugo3'
     name: 'Hugo III: Jungle of Doom'
     engine_id: hugo
     company_id: graydesign
@@ -3349,6 +3628,7 @@
     series_id: hugo
 -
     id: icb
+    new_id: 'icb:icb'
     name: 'In Cold Blood'
     engine_id: icb
     company_id: revolution
@@ -3361,6 +3641,7 @@
     series_id: ''
 -
     id: iceman
+    new_id: 'sci:iceman'
     name: 'Code-Name: Iceman'
     engine_id: sci
     company_id: sierra
@@ -3373,6 +3654,7 @@
     series_id: sierranoseries
 -
     id: id4p1
+    new_id: 'director:id4p1'
     name: 'iD4 Mission Disk 1 - Alien Supreme Commander'
     engine_id: director
     company_id: trendmasters
@@ -3385,6 +3667,7 @@
     series_id: id4
 -
     id: id4p10
+    new_id: 'director:id4p10'
     name: 'iD4 Mission Disk 10 - Alien Bomber'
     engine_id: director
     company_id: trendmasters
@@ -3397,6 +3680,7 @@
     series_id: id4
 -
     id: id4p11
+    new_id: 'director:id4p11'
     name: 'iD4 Mission Disk 11 - Area 51'
     engine_id: director
     company_id: trendmasters
@@ -3409,6 +3693,7 @@
     series_id: id4
 -
     id: id4p2
+    new_id: 'director:id4p2'
     name: 'ID4 Mission Disk 2: Alien Science Officer'
     engine_id: director
     company_id: trendmasters
@@ -3421,6 +3706,7 @@
     series_id: id4
 -
     id: id4p3
+    new_id: 'director:id4p3'
     name: 'iD4 Mission Disk 3 - Warrior Alien'
     engine_id: director
     company_id: trendmasters
@@ -3433,6 +3719,7 @@
     series_id: id4
 -
     id: id4p4
+    new_id: 'director:id4p4'
     name: 'iD4 Mission Disk 4 - Alien Navigator'
     engine_id: director
     company_id: trendmasters
@@ -3445,6 +3732,7 @@
     series_id: id4
 -
     id: id4p5
+    new_id: 'director:id4p5'
     name: 'iD4 Mission Disk 5 - Captain Steve Hiller'
     engine_id: director
     company_id: trendmasters
@@ -3457,6 +3745,7 @@
     series_id: id4
 -
     id: id4p6
+    new_id: 'director:id4p6'
     name: 'ID4 Mission Disk 6: Technical Expert David Levinson'
     engine_id: director
     company_id: trendmasters
@@ -3469,6 +3758,7 @@
     series_id: id4
 -
     id: id4p7
+    new_id: 'director:id4p7'
     name: 'iD4 Mission Disk 7 - President Whitmore'
     engine_id: director
     company_id: trendmasters
@@ -3481,6 +3771,7 @@
     series_id: id4
 -
     id: id4p8
+    new_id: 'director:id4p8'
     name: 'iD4 Mission Disk 8 - Alien Attack Fighter'
     engine_id: director
     company_id: trendmasters
@@ -3493,6 +3784,7 @@
     series_id: id4
 -
     id: id4p9
+    new_id: 'director:id4p9'
     name: 'iD4 Mission Disk 9 - FA-18 Fighter Jet'
     engine_id: director
     company_id: trendmasters
@@ -3505,6 +3797,7 @@
     series_id: id4
 -
     id: ihnm
+    new_id: 'saga:ihnm'
     name: 'Harlan Ellison: I Have No Mouth, and I Must Scream'
     engine_id: saga
     company_id: dreamersguild
@@ -3517,6 +3810,7 @@
     series_id: ''
 -
     id: imoking
+    new_id: 'composer:imoking'
     name: 'Magic Tales: Imo & the King'
     engine_id: composer
     company_id: animationmagic
@@ -3529,6 +3823,7 @@
     series_id: magictales
 -
     id: inca2
+    new_id: 'gob:inca2'
     name: 'Inca II: Nations of Immortality'
     engine_id: gob
     company_id: coktel
@@ -3541,6 +3836,7 @@
     series_id: ''
 -
     id: indy3
+    new_id: 'scumm:indy3'
     name: 'Indiana Jones and the Last Crusade: The Graphic Adventure'
     engine_id: scumm
     company_id: lucasarts
@@ -3553,6 +3849,7 @@
     series_id: indy
 -
     id: indyloom
+    new_id: 'scumm:indyloom'
     name: 'Indiana Jones and the Last Crusade & Loom'
     engine_id: scumm
     company_id: lucasarts
@@ -3565,6 +3862,7 @@
     series_id: indy
 -
     id: indyzak
+    new_id: 'scumm:indyzak'
     name: 'Games, Games, Games: Maniac Mansion + Zak McKracken + Indiana Jones and the last Crusade'
     engine_id: scumm
     company_id: lucasarts
@@ -3577,6 +3875,7 @@
     series_id: lucasartsnoseries
 -
     id: inndemo
+    new_id: 'sci:inndemo'
     name: 'ImagiNation Network (INN) Demo'
     engine_id: sci
     company_id: sierra
@@ -3589,6 +3888,7 @@
     series_id: sierranoseries
 -
     id: interview
+    new_id: 'sludge:interview'
     name: 'The Interview'
     engine_id: sludge
     company_id: unknown
@@ -3601,6 +3901,7 @@
     series_id: ''
 -
     id: ioawn4t
+    new_id: 'ags:ioawn4t'
     name: 'If On A Winter''s Night, Four Travelers'
     engine_id: ags
     company_id: deadidle
@@ -3613,6 +3914,7 @@
     series_id: ''
 -
     id: islandbrain
+    new_id: 'sci:islandbrain'
     name: 'The Island of Dr. Brain'
     engine_id: sci
     company_id: sierra
@@ -3625,6 +3927,7 @@
     series_id: brain
 -
     id: ite
+    new_id: 'saga:ite'
     name: 'Inherit the Earth: Quest for the Orb'
     engine_id: saga
     company_id: dreamersguild
@@ -3637,6 +3940,7 @@
     series_id: ''
 -
     id: jacl
+    new_id: 'glk:jacl'
     name: 'JACL Interactive Fiction games'
     engine_id: glk
     company_id: glk
@@ -3649,6 +3953,7 @@
     series_id: ''
 -
     id: jamesperis
+    new_id: 'wintermute:jamesperis'
     name: 'James Peris: No License Nor Control'
     engine_id: wintermute
     company_id: pavo
@@ -3661,6 +3966,7 @@
     series_id: ''
 -
     id: jewels
+    new_id: 'director:jewels'
     name: 'Jewels of the Oracle'
     engine_id: director
     company_id: eloi
@@ -3673,6 +3979,7 @@
     series_id: ''
 -
     id: jinxter
+    new_id: 'magnetic:jinxter'
     name: Jinxter
     engine_id: magnetic
     company_id: magnetic
@@ -3685,6 +3992,7 @@
     series_id: ''
 -
     id: jman
+    new_id: 'director:jman'
     name: 'The Journeyman Project'
     engine_id: director
     company_id: presto
@@ -3697,6 +4005,7 @@
     series_id: journeyman
 -
     id: jones
+    new_id: 'sci:jones'
     name: 'Jones in the Fast Lane'
     engine_id: sci
     company_id: sierra
@@ -3709,6 +4018,7 @@
     series_id: sierranoseries
 -
     id: jorry
+    new_id: 'ags:jorry'
     name: JORRY
     engine_id: ags
     company_id: korozif
@@ -3721,6 +4031,7 @@
     series_id: ''
 -
     id: julia
+    new_id: 'wintermute:julia'
     name: J.U.L.I.A.
     engine_id: wintermute
     company_id: cbe
@@ -3733,6 +4044,7 @@
     series_id: julia
 -
     id: juliastars
+    new_id: 'wintermute:juliastars'
     name: 'J.U.L.I.A.: Among the Stars'
     engine_id: wintermute
     company_id: cbe
@@ -3745,6 +4057,7 @@
     series_id: julia
 -
     id: juliauntold
+    new_id: 'wintermute:juliauntold'
     name: 'J.U.L.I.A. Untold'
     engine_id: wintermute
     company_id: cbe
@@ -3757,6 +4070,7 @@
     series_id: julia
 -
     id: jumble
+    new_id: 'agos:jumble'
     name: 'Simon the Sorcerer''s Puzzle Pack: Jumble'
     engine_id: agos
     company_id: adventuresoft
@@ -3769,6 +4083,7 @@
     series_id: simon
 -
     id: jungle
+    new_id: 'scumm:jungle'
     name: 'Let''s Explore the Jungle'
     engine_id: scumm
     company_id: he
@@ -3781,6 +4096,7 @@
     series_id: juniorfield
 -
     id: justignorethem
+    new_id: 'ags:justignorethem'
     name: 'Just Ignore Them'
     engine_id: ags
     company_id: stranga
@@ -3793,6 +4109,7 @@
     series_id: jit
 -
     id: justignorethembrea1
+    new_id: 'ags:justignorethembrea1'
     name: 'Just Ignore Them: Brea''s Story Tape 1'
     engine_id: ags
     company_id: stranga
@@ -3805,6 +4122,7 @@
     series_id: jit
 -
     id: kathyrain
+    new_id: 'ags:kathyrain'
     name: 'Kathy Rain'
     engine_id: ags
     company_id: clifftop
@@ -3817,6 +4135,7 @@
     series_id: ''
 -
     id: killyourself
+    new_id: 'ags:killyourself'
     name: 'Kill Yourself'
     engine_id: ags
     company_id: gugames
@@ -3829,6 +4148,7 @@
     series_id: ''
 -
     id: kingdom
+    new_id: 'kingdom:kingdom'
     name: 'Kingdom: The Far Reaches'
     engine_id: kingdom
     company_id: virtual
@@ -3841,6 +4161,7 @@
     series_id: ''
 -
     id: knobblycrook
+    new_id: 'ags:knobblycrook'
     name: 'The Knobbly Crook'
     engine_id: ags
     company_id: gnarled
@@ -3853,6 +4174,7 @@
     series_id: ''
 -
     id: knossos
+    new_id: 'wintermute:knossos'
     name: 'K''NOSSOS'
     engine_id: wintermute
     company_id: svarun
@@ -3865,6 +4187,7 @@
     series_id: ''
 -
     id: kq1
+    new_id: 'agi:kq1'
     name: 'King''s Quest I: Quest for the Crown'
     engine_id: agi
     company_id: sierra
@@ -3877,6 +4200,7 @@
     series_id: kq
 -
     id: kq1sci
+    new_id: 'sci:kq1sci'
     name: 'King''s Quest: Quest for the Crown'
     engine_id: sci
     company_id: sierra
@@ -3889,6 +4213,7 @@
     series_id: kq
 -
     id: kq1agdi
+    new_id: 'ags:kq1agdi'
     name: 'King''s Quest I: Quest for the Crown Remake'
     engine_id: ags
     company_id: agdi
@@ -3901,6 +4226,7 @@
     series_id: kqagdi
 -
     id: kq2
+    new_id: 'agi:kq2'
     name: 'King''s Quest II: Romancing the Throne'
     engine_id: agi
     company_id: sierra
@@ -3913,6 +4239,7 @@
     series_id: kq
 -
     id: kq2agdi
+    new_id: 'ags:kq2agdi'
     name: 'King''s Quest II: Romancing the Stones Remake'
     engine_id: ags
     company_id: agdi
@@ -3925,6 +4252,7 @@
     series_id: kqagdi
 -
     id: kq3
+    new_id: 'agi:kq3'
     name: 'King''s Quest III: To Heir Is Human'
     engine_id: agi
     company_id: sierra
@@ -3937,6 +4265,7 @@
     series_id: kq
 -
     id: kq3agdi
+    new_id: 'ags:kq3agdi'
     name: 'King''s Quest III Redux: To Heir is Human'
     engine_id: ags
     company_id: agdi
@@ -3949,6 +4278,7 @@
     series_id: kqagdi
 -
     id: kq3vga
+    new_id: 'ags:kq3vga'
     name: 'King''s Quest III: To Heir is Human VGA Remake'
     engine_id: ags
     company_id: infamousadv
@@ -3961,6 +4291,7 @@
     series_id: ''
 -
     id: kq4
+    new_id: 'agi:kq4'
     name: 'King''s Quest IV: The Perils of Rosella'
     engine_id: agi
     company_id: sierra
@@ -3973,6 +4304,7 @@
     series_id: kq
 -
     id: kq4sci
+    new_id: 'sci:kq4sci'
     name: 'King''s Quest IV: The Perils of Rosella'
     engine_id: sci
     company_id: sierra
@@ -3985,6 +4317,7 @@
     series_id: kq
 -
     id: kq5
+    new_id: 'sci:kq5'
     name: 'King''s Quest V: Absence Makes the Heart Go Yonder!'
     engine_id: sci
     company_id: sierra
@@ -3997,6 +4330,7 @@
     series_id: kq
 -
     id: kq6
+    new_id: 'sci:kq6'
     name: 'King''s Quest VI: Heir Today, Gone Tomorrow'
     engine_id: sci
     company_id: sierra
@@ -4009,6 +4343,7 @@
     series_id: kq
 -
     id: kq7
+    new_id: 'sci:kq7'
     name: 'King''s Quest VII: The Princeless Bride'
     engine_id: sci
     company_id: sierra
@@ -4021,6 +4356,7 @@
     series_id: kq
 -
     id: kquestions
+    new_id: 'sci:kquestions'
     name: 'King''s Questions'
     engine_id: sci
     company_id: sierra
@@ -4033,6 +4369,7 @@
     series_id: kq
 -
     id: kulivocko
+    new_id: 'wintermute:kulivocko'
     name: Kulivocko
     engine_id: wintermute
     company_id: fatfunky
@@ -4045,6 +4382,7 @@
     series_id: ''
 -
     id: kyra1
+    new_id: 'kyra:kyra1'
     name: 'The Legend of Kyrandia'
     engine_id: kyra
     company_id: westwood
@@ -4057,6 +4395,7 @@
     series_id: kyra
 -
     id: kyra2
+    new_id: 'kyra:kyra2'
     name: 'The Legend of Kyrandia: Hand of Fate'
     engine_id: kyra
     company_id: westwood
@@ -4069,6 +4408,7 @@
     series_id: kyra
 -
     id: kyra3
+    new_id: 'kyra:kyra3'
     name: 'The Legend of Kyrandia: Book 3 - Malcolm''s Revenge'
     engine_id: kyra
     company_id: westwood
@@ -4081,6 +4421,7 @@
     series_id: kyra
 -
     id: lab
+    new_id: 'lab:lab'
     name: 'The Labyrinth of Time'
     engine_id: lab
     company_id: terra
@@ -4093,6 +4434,7 @@
     series_id: ''
 -
     id: lamplightcity
+    new_id: 'ags:lamplightcity'
     name: 'Lamplight City'
     engine_id: ags
     company_id: grundislav
@@ -4105,6 +4447,7 @@
     series_id: ''
 -
     id: lancelothangover
+    new_id: 'ags:lancelothangover'
     name: 'Lancelot''s Hangover'
     engine_id: ags
     company_id: jbclerfayt
@@ -4117,6 +4460,7 @@
     series_id: ''
 -
     id: larrylotter
+    new_id: 'ags:larrylotter'
     name: 'Larry Lotter and the Test of Time'
     engine_id: ags
     company_id: crystalshard
@@ -4129,6 +4473,7 @@
     series_id: ''
 -
     id: lastexpress
+    new_id: 'lastexpress:lastexpress'
     name: 'The Last Express'
     engine_id: lastexpress
     company_id: smokingcar
@@ -4141,6 +4486,7 @@
     series_id: ''
 -
     id: laurabow
+    new_id: 'sci:laurabow'
     name: 'Laura Bow: The Colonel''s Bequest'
     engine_id: sci
     company_id: sierra
@@ -4153,6 +4499,7 @@
     series_id: laurabow
 -
     id: laurabow2
+    new_id: 'sci:laurabow2'
     name: 'Laura Bow 2: The Dagger of Amon Ra'
     engine_id: sci
     company_id: sierra
@@ -4165,6 +4512,7 @@
     series_id: laurabow
 -
     id: lba
+    new_id: 'twine:lba'
     name: 'Little Big Adventure (Relentless: Twinsen''s Adventure)'
     engine_id: twine
     company_id: adeline
@@ -4177,6 +4525,7 @@
     series_id: lba
 -
     id: lba2
+    new_id: 'twine:lba2'
     name: 'Little Big Adventure 2: Twinsen''s Odyssey'
     engine_id: twine
     company_id: adeline
@@ -4189,6 +4538,7 @@
     series_id: lba
 -
     id: lbsampler
+    new_id: 'mohawk:lbsampler'
     name: 'Living Books Sampler'
     engine_id: mohawk
     company_id: livingbooks
@@ -4201,6 +4551,7 @@
     series_id: livingbooks
 -
     id: legendofhand
+    new_id: 'ags:legendofhand'
     name: 'Legend of Hand'
     engine_id: ags
     company_id: cloakdagger
@@ -4213,6 +4564,7 @@
     series_id: ''
 -
     id: level9
+    new_id: 'glk:level9'
     name: 'Level 9 Interactive Fiction games'
     engine_id: glk
     company_id: glk
@@ -4225,6 +4577,7 @@
     series_id: ''
 -
     id: lgop2
+    new_id: 'made:lgop2'
     name: 'Leather Goddesses of Phobos! 2: Gas Pump Girls Meet the Pulsating Inconvenience from Planet X'
     engine_id: made
     company_id: infocom
@@ -4237,6 +4590,7 @@
     series_id: ''
 -
     id: liam
+    new_id: 'composer:liam'
     name: 'Magic Tales: Liam Finds a Story'
     engine_id: composer
     company_id: animationmagic
@@ -4249,6 +4603,7 @@
     series_id: magictales
 -
     id: life
+    new_id: 'sludge:life'
     name: 'Life Flashes By'
     engine_id: sludge
     company_id: unknown
@@ -4261,6 +4616,7 @@
     series_id: ''
 -
     id: lifein3minutes
+    new_id: 'wintermute:lifein3minutes'
     name: 'Life In 3 Minutes'
     engine_id: wintermute
     company_id: unknown
@@ -4273,6 +4629,7 @@
     series_id: ''
 -
     id: lighthouse
+    new_id: 'sci:lighthouse'
     name: 'Lighthouse: The Dark Being'
     engine_id: sci
     company_id: sierra
@@ -4285,6 +4642,7 @@
     series_id: sierranoseries
 -
     id: lilmonster
+    new_id: 'mohawk:lilmonster'
     name: 'Little Monster at School'
     engine_id: mohawk
     company_id: livingbooks
@@ -4297,6 +4655,7 @@
     series_id: livingbooks
 -
     id: lit
+    new_id: 'gob:lit'
     name: 'Lost in Time'
     engine_id: gob
     company_id: coktel
@@ -4309,6 +4668,7 @@
     series_id: ''
 -
     id: lit1
+    new_id: 'gob:lit1'
     name: 'Lost in Time Part 1'
     engine_id: gob
     company_id: coktel
@@ -4321,6 +4681,7 @@
     series_id: ''
 -
     id: lit2
+    new_id: 'gob:lit2'
     name: 'Lost in Time Part 2'
     engine_id: gob
     company_id: coktel
@@ -4333,6 +4694,7 @@
     series_id: ''
 -
     id: littlered
+    new_id: 'gob:littlered'
     name: 'Once Upon A Time: Little Red Riding Hood'
     engine_id: gob
     company_id: coktel
@@ -4345,6 +4707,7 @@
     series_id: ''
 -
     id: littlesamurai
+    new_id: 'composer:littlesamurai'
     name: 'Magic Tales: The Little Samurai'
     engine_id: composer
     company_id: animationmagic
@@ -4357,6 +4720,7 @@
     series_id: magictales
 -
     id: lol
+    new_id: 'kyra:lol'
     name: 'Lands of Lore: The Throne of Chaos'
     engine_id: kyra
     company_id: westwood
@@ -4369,6 +4733,7 @@
     series_id: ''
 -
     id: lonelyrobot
+    new_id: 'wintermute:lonelyrobot'
     name: 'Project Lonely Robot'
     engine_id: wintermute
     company_id: blekinge
@@ -4381,6 +4746,7 @@
     series_id: ''
 -
     id: longbow
+    new_id: 'sci:longbow'
     name: 'Conquests of the Longbow: The Legend of Robin Hood'
     engine_id: sci
     company_id: sierra
@@ -4393,6 +4759,7 @@
     series_id: conquests
 -
     id: looky
+    new_id: 'wintermute:looky'
     name: Looky
     engine_id: wintermute
     company_id: mac
@@ -4405,6 +4772,7 @@
     series_id: ''
 -
     id: loom
+    new_id: 'scumm:loom'
     name: Loom
     engine_id: scumm
     company_id: lucasarts
@@ -4417,6 +4785,7 @@
     series_id: lucasartsnoseries
 -
     id: lost
+    new_id: 'scumm:lost'
     name: 'Pajama Sam''s Lost & Found'
     engine_id: scumm
     company_id: he
@@ -4429,6 +4798,7 @@
     series_id: pajama
 -
     id: losteden
+    new_id: 'cryo:losteden'
     name: 'Lost Eden'
     engine_id: cryo
     company_id: cryo
@@ -4441,6 +4811,7 @@
     series_id: ''
 -
     id: lotl
+    new_id: 'wintermute:lotl'
     name: 'Limbo of the Lost'
     engine_id: wintermute
     company_id: majestic
@@ -4453,6 +4824,7 @@
     series_id: ''
 -
     id: lovmamuta
+    new_id: 'wintermute:lovmamuta'
     name: 'Lov Mamuta'
     engine_id: wintermute
     company_id: unknown
@@ -4465,6 +4837,7 @@
     series_id: ''
 -
     id: lsl1
+    new_id: 'agi:lsl1'
     name: 'Leisure Suit Larry in the Land of the Lounge Lizards'
     engine_id: agi
     company_id: sierra
@@ -4477,6 +4850,7 @@
     series_id: lsl
 -
     id: lsl1sci
+    new_id: 'sci:lsl1sci'
     name: 'Leisure Suit Larry in the Land of the Lounge Lizards'
     engine_id: sci
     company_id: sierra
@@ -4489,6 +4863,7 @@
     series_id: lsl
 -
     id: lsl2
+    new_id: 'sci:lsl2'
     name: 'Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places)'
     engine_id: sci
     company_id: sierra
@@ -4501,6 +4876,7 @@
     series_id: lsl
 -
     id: lsl3
+    new_id: 'sci:lsl3'
     name: 'Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals'
     engine_id: sci
     company_id: sierra
@@ -4513,6 +4889,7 @@
     series_id: lsl
 -
     id: lsl5
+    new_id: 'sci:lsl5'
     name: 'Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work'
     engine_id: sci
     company_id: sierra
@@ -4525,6 +4902,7 @@
     series_id: lsl
 -
     id: lsl6
+    new_id: 'sci:lsl6'
     name: 'Leisure Suit Larry 6: Shape Up or Slip Out!'
     engine_id: sci
     company_id: sierra
@@ -4537,6 +4915,7 @@
     series_id: lsl
 -
     id: lsl6hires
+    new_id: 'sci:lsl6hires'
     name: 'Leisure Suit Larry 6: Shape Up or Slip Out!'
     engine_id: sci
     company_id: sierra
@@ -4549,6 +4928,7 @@
     series_id: lsl
 -
     id: lsl7
+    new_id: 'sci:lsl7'
     name: 'Leisure Suit Larry 7: Love for Sail!'
     engine_id: sci
     company_id: sierra
@@ -4561,6 +4941,7 @@
     series_id: lsl
 -
     id: lure
+    new_id: 'lure:lure'
     name: 'Lure of the Temptress'
     engine_id: lure
     company_id: revolution
@@ -4573,6 +4954,7 @@
     series_id: ''
 -
     id: lzone
+    new_id: 'director:lzone'
     name: L-ZONE
     engine_id: director
     company_id: synergy
@@ -4585,6 +4967,7 @@
     series_id: ''
 -
     id: machumayu
+    new_id: 'wintermute:machumayu'
     name: 'Machu Mayu'
     engine_id: wintermute
     company_id: unknown
@@ -4597,6 +4980,7 @@
     series_id: ''
 -
     id: mage
+    new_id: 'ags:mage'
     name: 'Mage''s Initiation: Reign of the Elements'
     engine_id: ags
     company_id: himalaya
@@ -4609,6 +4993,7 @@
     series_id: ''
 -
     id: maggiesfa
+    new_id: 'mohawk:maggiesfa'
     name: 'Maggie''s Farmyard Adventure'
     engine_id: mohawk
     company_id: livingbooks
@@ -4621,6 +5006,7 @@
     series_id: livingbooks
 -
     id: magictales
+    new_id: 'composer:magictales'
     name: 'Magic Tales'
     engine_id: composer
     company_id: animationmagic
@@ -4633,6 +5019,7 @@
     series_id: magictales
 -
     id: majestic
+    new_id: 'director:majestic'
     name: 'Majestic Part 1: Alien Encounter'
     engine_id: director
     company_id: piranha
@@ -4645,6 +5032,7 @@
     series_id: ''
 -
     id: makingofmyst
+    new_id: 'mohawk:makingofmyst'
     name: 'The Making of Myst'
     engine_id: mohawk
     company_id: cyan
@@ -4657,6 +5045,7 @@
     series_id: myst
 -
     id: mandy
+    new_id: 'sludge:mandy'
     name: 'Mandy Christmas Adventure'
     engine_id: sludge
     company_id: unknown
@@ -4669,6 +5058,7 @@
     series_id: ''
 -
     id: manhole
+    new_id: 'made:manhole'
     name: 'The Manhole'
     engine_id: made
     company_id: cyan
@@ -4681,6 +5071,7 @@
     series_id: ''
 -
     id: maniac
+    new_id: 'scumm:maniac'
     name: 'Maniac Mansion'
     engine_id: scumm
     company_id: lucasarts
@@ -4693,6 +5084,7 @@
     series_id: maniac
 -
     id: maniacmansiondeluxe
+    new_id: 'ags:maniacmansiondeluxe'
     name: 'Maniac Mansion Deluxe'
     engine_id: ags
     company_id: fan
@@ -4705,6 +5097,7 @@
     series_id: ''
 -
     id: martian
+    new_id: 'access:martian'
     name: 'Martian Memorandum'
     engine_id: access
     company_id: access
@@ -4717,6 +5110,7 @@
     series_id: texmurphy
 -
     id: martiandreams
+    new_id: 'ultima:martiandreams'
     name: 'Ultima: Worlds of Adventure 2 - Martian Dreams'
     engine_id: ultima
     company_id: origin
@@ -4729,6 +5123,7 @@
     series_id: ultima
 -
     id: martiandreams_enh
+    new_id: 'ultima:martiandreams_enh'
     name: 'Ultima: Worlds of Adventure 2 - Martian Dreams'
     engine_id: ultima
     company_id: origin
@@ -4741,6 +5136,7 @@
     series_id: ultima
 -
     id: maze
+    new_id: 'scumm:maze'
     name: 'Freddi Fish and Luther''s Maze Madness'
     engine_id: scumm
     company_id: he
@@ -4753,6 +5149,7 @@
     series_id: freddi
 -
     id: mediaband
+    new_id: 'director:mediaband'
     name: 'Meet Mediaband'
     engine_id: director
     company_id: unknown
@@ -4765,6 +5162,7 @@
     series_id: ''
 -
     id: melements
+    new_id: 'director:melements'
     name: 'Masters of the Elements'
     engine_id: director
     company_id: unknown
@@ -4777,6 +5175,7 @@
     series_id: ''
 -
     id: mentalrepairs
+    new_id: 'wintermute:mentalrepairs'
     name: 'Mental Repairs, Inc.'
     engine_id: wintermute
     company_id: unknown
@@ -4789,6 +5188,7 @@
     series_id: ''
 -
     id: meta
+    new_id: 'ags:meta'
     name: META
     engine_id: ags
     company_id: crystalshard
@@ -4801,6 +5201,7 @@
     series_id: ''
 -
     id: metaldead
+    new_id: 'ags:metaldead'
     name: 'Metal Dead'
     engine_id: ags
     company_id: wtw
@@ -4813,6 +5214,7 @@
     series_id: ''
 -
     id: metaphobia
+    new_id: 'ags:metaphobia'
     name: Metaphobia
     engine_id: ags
     company_id: digitalmosaic
@@ -4825,6 +5227,7 @@
     series_id: ''
 -
     id: mh1
+    new_id: 'agi:mh1'
     name: 'Manhunter: New York'
     engine_id: agi
     company_id: sierra
@@ -4837,6 +5240,7 @@
     series_id: manhunt
 -
     id: mh2
+    new_id: 'agi:mh2'
     name: 'Manhunter 2: San Francisco'
     engine_id: agi
     company_id: sierra
@@ -4849,6 +5253,7 @@
     series_id: manhunt
 -
     id: mickey
+    new_id: 'agi:mickey'
     name: 'Mickey''s Space Adventure'
     engine_id: agi
     company_id: sierra
@@ -4861,6 +5266,7 @@
     series_id: disney
 -
     id: mirage
+    new_id: 'wintermute:mirage'
     name: Mirage
     engine_id: wintermute
     company_id: blekinge
@@ -4873,6 +5279,7 @@
     series_id: ''
 -
     id: mixedup
+    new_id: 'agi:mixedup'
     name: 'Mixed-Up Mother Goose'
     engine_id: agi
     company_id: sierra
@@ -4885,6 +5292,7 @@
     series_id: mixedup
 -
     id: monkey
+    new_id: 'scumm:monkey'
     name: 'The Secret of Monkey Island'
     engine_id: scumm
     company_id: lucasarts
@@ -4897,6 +5305,7 @@
     series_id: mi
 -
     id: monkey2
+    new_id: 'scumm:monkey2'
     name: 'Monkey Island 2: LeChuck''s Revenge'
     engine_id: scumm
     company_id: lucasarts
@@ -4909,6 +5318,7 @@
     series_id: mi
 -
     id: monkey4
+    new_id: 'grim:monkey4'
     name: 'Escape From Monkey Island'
     engine_id: grim
     company_id: lucasarts
@@ -4921,6 +5331,7 @@
     series_id: mi
 -
     id: moonbase
+    new_id: 'scumm:moonbase'
     name: 'Moonbase Commander'
     engine_id: scumm
     company_id: he
@@ -4933,6 +5344,7 @@
     series_id: ''
 -
     id: mortevielle
+    new_id: 'mortevielle:mortevielle'
     name: 'Mortville Manor'
     engine_id: mortevielle
     company_id: lankhor
@@ -4945,6 +5357,7 @@
     series_id: ''
 -
     id: mothergoose
+    new_id: 'sci:mothergoose'
     name: 'Mixed-Up Mother Goose'
     engine_id: sci
     company_id: sierra
@@ -4957,6 +5370,7 @@
     series_id: mixedup
 -
     id: mothergoose256
+    new_id: 'sci:mothergoose256'
     name: 'Mixed-Up Mother Goose'
     engine_id: sci
     company_id: sierra
@@ -4969,6 +5383,7 @@
     series_id: mixedup
 -
     id: mothergoosehires
+    new_id: 'sci:mothergoosehires'
     name: 'Mixed-Up Mother Goose Deluxe'
     engine_id: sci
     company_id: sierra
@@ -4981,6 +5396,7 @@
     series_id: mixedup
 -
     id: mountainsofmadness
+    new_id: 'ags:mountainsofmadness'
     name: 'Chronicle of Innsmouth: Mountains of Madness'
     engine_id: ags
     company_id: psychodev
@@ -4993,6 +5409,7 @@
     series_id: innsmouth
 -
     id: msastrochicken
+    new_id: 'sci:msastrochicken'
     name: 'Ms. Astro Chicken'
     engine_id: sci
     company_id: sierra
@@ -5005,6 +5422,7 @@
     series_id: sq
 -
     id: msn1
+    new_id: 'supernova:msn1'
     name: 'Mission Supernova 1'
     engine_id: supernova
     company_id: tsdinge
@@ -5017,6 +5435,7 @@
     series_id: supernova
 -
     id: msn2
+    new_id: 'supernova:msn2'
     name: 'Mission Supernova 2'
     engine_id: supernova
     company_id: tsdinge
@@ -5029,6 +5448,7 @@
     series_id: supernova
 -
     id: msos
+    new_id: 'wintermute:msos'
     name: 'Monday Starts on Saturday'
     engine_id: wintermute
     company_id: rootfix
@@ -5041,6 +5461,7 @@
     series_id: ''
 -
     id: mudlarks
+    new_id: 'ags:mudlarks'
     name: Mudlarks
     engine_id: ags
     company_id: cloakdagger
@@ -5053,6 +5474,7 @@
     series_id: ''
 -
     id: mustard
+    new_id: 'scumm:mustard'
     name: 'Spy Fox in "Hold the Mustard"'
     engine_id: scumm
     company_id: he
@@ -5065,6 +5487,7 @@
     series_id: spyfox
 -
     id: mutationofjb
+    new_id: 'mutationofjb:mutationofjb'
     name: 'Mutation of J.B.'
     engine_id: mutationofjb
     company_id: invention
@@ -5077,6 +5500,7 @@
     series_id: ''
 -
     id: mybigsister
+    new_id: 'ags:mybigsister'
     name: 'My Big Sister'
     engine_id: ags
     company_id: stranga
@@ -5089,6 +5513,7 @@
     series_id: ''
 -
     id: myburdentokeep
+    new_id: 'ags:myburdentokeep'
     name: 'My Burden to Keep'
     engine_id: ags
     company_id: perpetualdiversion
@@ -5101,6 +5526,7 @@
     series_id: ''
 -
     id: myst
+    new_id: 'mohawk:myst'
     name: Myst
     engine_id: mohawk
     company_id: cyan
@@ -5113,6 +5539,7 @@
     series_id: myst
 -
     id: myst3
+    new_id: 'myst3:myst3'
     name: 'Myst III: Exile'
     engine_id: myst3
     company_id: presto
@@ -5125,6 +5552,7 @@
     series_id: myst
 -
     id: mystme
+    new_id: 'mohawk:mystme'
     name: 'Myst: Masterpiece Edition'
     engine_id: mohawk
     company_id: cyan
@@ -5137,6 +5565,7 @@
     series_id: myst
 -
     id: myth
+    new_id: 'magnetic:myth'
     name: Myth
     engine_id: magnetic
     company_id: magnetic
@@ -5149,6 +5578,7 @@
     series_id: ''
 -
     id: mythguff
+    new_id: 'wintermute:mythguff'
     name: 'Myth: A Guff''s Tale'
     engine_id: wintermute
     company_id: solo
@@ -5161,6 +5591,7 @@
     series_id: ''
 -
     id: nebular
+    new_id: 'mads:nebular'
     name: 'Rex Nebular and the Cosmic Gender Bender'
     engine_id: mads
     company_id: microprose
@@ -5173,6 +5604,7 @@
     series_id: ''
 -
     id: nellycootalot
+    new_id: 'ags:nellycootalot'
     name: 'Nelly Cootalot: Spoonbeaks Ahoy!'
     engine_id: ags
     company_id: abeckett
@@ -5185,6 +5617,7 @@
     series_id: nelly
 -
     id: nellycootalot-hd
+    new_id: 'ags:nellycootalot-hd'
     name: 'Nelly Cootalot: Spoonbeaks Ahoy! HD'
     engine_id: ags
     company_id: abeckett
@@ -5197,6 +5630,7 @@
     series_id: nelly
 -
     id: neofeud
+    new_id: 'ags:neofeud'
     name: Neofeud
     engine_id: ags
     company_id: silverspook
@@ -5209,6 +5643,7 @@
     series_id: ''
 -
     id: neverhood
+    new_id: 'neverhood:neverhood'
     name: 'The Neverhood'
     engine_id: neverhood
     company_id: neverhood
@@ -5221,6 +5656,7 @@
     series_id: ''
 -
     id: newkid
+    new_id: 'mohawk:newkid'
     name: 'The New Kid on the Block'
     engine_id: mohawk
     company_id: livingbooks
@@ -5233,6 +5669,7 @@
     series_id: livingbooks
 -
     id: nightmareframes
+    new_id: 'ags:nightmareframes'
     name: 'Nightmare Frames'
     engine_id: ags
     company_id: postmodern
@@ -5245,6 +5682,7 @@
     series_id: ''
 -
     id: nighttrain
+    new_id: 'wintermute:nighttrain'
     name: 'Night Train'
     engine_id: wintermute
     company_id: aka
@@ -5257,6 +5695,7 @@
     series_id: ''
 -
     id: nippon
+    new_id: 'parallaction:nippon'
     name: 'Nippon Safes, Inc.'
     engine_id: parallaction
     company_id: dynabyte
@@ -5269,6 +5708,7 @@
     series_id: ''
 -
     id: nl
+    new_id: 'trecision:nl'
     name: 'Nightlong: Union City Conspiracy'
     engine_id: trecision
     company_id: trecision
@@ -5281,6 +5721,7 @@
     series_id: ''
 -
     id: noir
+    new_id: 'tinsel:noir'
     name: 'Discworld Noir'
     engine_id: tinsel
     company_id: perfect
@@ -5293,6 +5734,7 @@
     series_id: dw
 -
     id: obsidian
+    new_id: 'mtropolis:obsidian'
     name: Obsidian
     engine_id: mtropolis
     company_id: rocketscience
@@ -5305,6 +5747,7 @@
     series_id: ''
 -
     id: odissea
+    new_id: 'ags:odissea'
     name: 'Odissea - An Almost True Story'
     engine_id: ags
     company_id: midian
@@ -5317,6 +5760,7 @@
     series_id: ''
 -
     id: oknytt
+    new_id: 'wintermute:oknytt'
     name: Oknytt
     engine_id: wintermute
     company_id: nemoria
@@ -5329,6 +5773,7 @@
     series_id: ''
 -
     id: oldskies
+    new_id: 'ags:oldskies'
     name: 'Old Skies'
     engine_id: ags
     company_id: wadjet
@@ -5341,6 +5786,7 @@
     series_id: ''
 -
     id: onceupon
+    new_id: 'gob:onceupon'
     name: 'Once Upon A Time'
     engine_id: gob
     company_id: coktel
@@ -5353,6 +5799,7 @@
     series_id: ''
 -
     id: one
+    new_id: 'wintermute:one'
     name: One
     engine_id: wintermute
     company_id: unknown
@@ -5365,6 +5812,7 @@
     series_id: ''
 -
     id: onehelluvaday
+    new_id: 'wintermute:onehelluvaday'
     name: 'One Helluva Day'
     engine_id: wintermute
     company_id: romank
@@ -5377,6 +5825,7 @@
     series_id: ''
 -
     id: ootopos
+    new_id: 'comprehend:ootopos'
     name: OO-Topos
     engine_id: comprehend
     company_id: polarware
@@ -5389,6 +5838,7 @@
     series_id: ''
 -
     id: oott
+    new_id: 'ags:oott'
     name: 'Order of the Thorne: The King''s Challenge'
     engine_id: ags
     company_id: infamousq
@@ -5401,6 +5851,7 @@
     series_id: ''
 -
     id: openquest
+    new_id: 'wintermute:openquest'
     name: 'Open Quest'
     engine_id: wintermute
     company_id: jennybee
@@ -5413,6 +5864,7 @@
     series_id: ''
 -
     id: os
+    new_id: 'cine:os'
     name: '007: James Bond - The Stealth Affair'
     engine_id: cine
     company_id: delphine
@@ -5425,6 +5877,7 @@
     series_id: ''
 -
     id: outoforder
+    new_id: 'sludge:outoforder'
     name: 'Out Of Order'
     engine_id: sludge
     company_id: hungry
@@ -5437,6 +5890,7 @@
     series_id: ''
 -
     id: overtheedge
+    new_id: 'ags:overtheedge'
     name: 'The Journey Down: Over the Edge'
     engine_id: ags
     company_id: skygoblin
@@ -5449,6 +5903,7 @@
     series_id: ''
 -
     id: ozorwell1
+    new_id: 'ags:ozorwell1'
     name: 'Oz Orwell and the Crawling Chaos'
     engine_id: ags
     company_id: midian
@@ -5461,6 +5916,7 @@
     series_id: ozorwell
 -
     id: ozorwell2
+    new_id: 'ags:ozorwell2'
     name: 'Oz Orwell and the Exorcist'
     engine_id: ags
     company_id: midian
@@ -5473,6 +5929,7 @@
     series_id: ozorwell
 -
     id: paintaria
+    new_id: 'wintermute:paintaria'
     name: Paintaria
     engine_id: wintermute
     company_id: traktor
@@ -5485,6 +5942,7 @@
     series_id: ''
 -
     id: pajama
+    new_id: 'scumm:pajama'
     name: 'Pajama Sam: No Need to Hide When It''s Dark Outside'
     engine_id: scumm
     company_id: he
@@ -5497,6 +5955,7 @@
     series_id: pajama
 -
     id: pajama2
+    new_id: 'scumm:pajama2'
     name: 'Pajama Sam 2: Thunder and Lightning Aren''t so Frightening'
     engine_id: scumm
     company_id: he
@@ -5509,6 +5968,7 @@
     series_id: pajama
 -
     id: pajama3
+    new_id: 'scumm:pajama3'
     name: 'Pajama Sam 3: You Are What You Eat From Your Head To Your Feet'
     engine_id: scumm
     company_id: he
@@ -5521,6 +5981,7 @@
     series_id: pajama
 -
     id: palladion
+    new_id: 'wintermute:palladion'
     name: Palladion
     engine_id: wintermute
     company_id: unknown
@@ -5533,6 +5994,7 @@
     series_id: ''
 -
     id: papasdaughters1
+    new_id: 'wintermute:papasdaughters1'
     name: 'Papa''s Daughters'
     engine_id: wintermute
     company_id: herocraft
@@ -5545,6 +6007,7 @@
     series_id: papas
 -
     id: papasdaughters2
+    new_id: 'wintermute:papasdaughters2'
     name: 'Papa''s Daughters Go to the Sea'
     engine_id: wintermute
     company_id: herocraft
@@ -5557,6 +6020,7 @@
     series_id: papas
 -
     id: pass
+    new_id: 'scumm:pass'
     name: 'Passport to Adventure (Indiana Jones and the Last Crusade, The Secret of Monkey Island, Loom)'
     engine_id: scumm
     company_id: lucasarts
@@ -5569,6 +6033,7 @@
     series_id: indy
 -
     id: pawn
+    new_id: 'magnetic:pawn'
     name: 'The Pawn'
     engine_id: magnetic
     company_id: magnetic
@@ -5581,6 +6046,7 @@
     series_id: ''
 -
     id: pegasus
+    new_id: 'pegasus:pegasus'
     name: 'The Journeyman Project: Pegasus Prime'
     engine_id: pegasus
     company_id: presto
@@ -5593,6 +6059,7 @@
     series_id: journeyman
 -
     id: pepper
+    new_id: 'sci:pepper'
     name: 'Pepper''s Adventures in Time'
     engine_id: sci
     company_id: sierra
@@ -5605,6 +6072,7 @@
     series_id: sierranoseries
 -
     id: perfecttides
+    new_id: 'ags:perfecttides'
     name: 'Perfect Tides'
     engine_id: ags
     company_id: threebees
@@ -5617,6 +6085,7 @@
     series_id: ''
 -
     id: perfidiouspetrolstation
+    new_id: 'ags:perfidiouspetrolstation'
     name: 'The Perfidious Petrol Station'
     engine_id: ags
     company_id: technocrat
@@ -5629,6 +6098,7 @@
     series_id: ''
 -
     id: peril
+    new_id: 'pink:peril'
     name: 'The Pink Panther: Passport to Peril'
     engine_id: pink
     company_id: wanderlust
@@ -5641,6 +6111,7 @@
     series_id: ''
 -
     id: petka1
+    new_id: 'petka:petka1'
     name: 'Red Comrades 1: Save the Galaxy'
     engine_id: petka
     company_id: skif
@@ -5653,6 +6124,7 @@
     series_id: petka
 -
     id: petka2
+    new_id: 'petka:petka2'
     name: 'Red Comrades 2: For the Great Justice'
     engine_id: petka
     company_id: skif
@@ -5665,6 +6137,7 @@
     series_id: petka
 -
     id: phantasmagoria
+    new_id: 'sci:phantasmagoria'
     name: Phantasmagoria
     engine_id: sci
     company_id: sierra
@@ -5677,6 +6150,7 @@
     series_id: phantasmagoria
 -
     id: phantasmagoria2
+    new_id: 'sci:phantasmagoria2'
     name: 'Phantasmagoria 2: A Puzzle of Flesh'
     engine_id: sci
     company_id: sierra
@@ -5689,6 +6163,7 @@
     series_id: phantasmagoria
 -
     id: phantom
+    new_id: 'mads:phantom'
     name: 'Return of the Phantom'
     engine_id: mads
     company_id: microprose
@@ -5701,6 +6176,7 @@
     series_id: ''
 -
     id: pigeons
+    new_id: 'wintermute:pigeons'
     name: 'Pigeons in the Park'
     engine_id: wintermute
     company_id: squinky
@@ -5713,6 +6189,7 @@
     series_id: ''
 -
     id: pizzamorgana
+    new_id: 'wintermute:pizzamorgana'
     name: 'Pizza Morgana: Episode 1 - Monsters and Manipulations in the Magical Forest'
     engine_id: wintermute
     company_id: corbomite
@@ -5725,6 +6202,7 @@
     series_id: ''
 -
     id: pjgames
+    new_id: 'scumm:pjgames'
     name: 'Pajama Sam: Games to Play on Any Day'
     engine_id: scumm
     company_id: he
@@ -5737,6 +6215,7 @@
     series_id: pajama
 -
     id: planetfall
+    new_id: 'glk:planetfall'
     name: Planetfall
     engine_id: glk
     company_id: infocom
@@ -5749,6 +6228,7 @@
     series_id: planetfall
 -
     id: playtnck1
+    new_id: 'gob:playtnck1'
     name: 'Playtoons Construction Kit 1 - Monsters'
     engine_id: gob
     company_id: coktel
@@ -5761,6 +6241,7 @@
     series_id: playtoons
 -
     id: playtnck2
+    new_id: 'gob:playtnck2'
     name: 'Playtoons Construction Kit 2 - Knights'
     engine_id: gob
     company_id: coktel
@@ -5773,6 +6254,7 @@
     series_id: playtoons
 -
     id: playtnck3
+    new_id: 'gob:playtnck3'
     name: 'Playtoons Construction Kit 3 - Far West'
     engine_id: gob
     company_id: coktel
@@ -5785,6 +6267,7 @@
     series_id: playtoons
 -
     id: playtoons1
+    new_id: 'gob:playtoons1'
     name: 'Playtoons 1 - Uncle Archibald'
     engine_id: gob
     company_id: coktel
@@ -5797,6 +6280,7 @@
     series_id: playtoons
 -
     id: playtoons2
+    new_id: 'gob:playtoons2'
     name: 'Playtoons 2 - The Case of the Counterfeit Collaborator'
     engine_id: gob
     company_id: coktel
@@ -5809,6 +6293,7 @@
     series_id: playtoons
 -
     id: playtoons3
+    new_id: 'gob:playtoons3'
     name: 'Playtoons 3 - The Secret of the Castle'
     engine_id: gob
     company_id: coktel
@@ -5821,6 +6306,7 @@
     series_id: playtoons
 -
     id: playtoons4
+    new_id: 'gob:playtoons4'
     name: 'Playtoons 4 - The Mandarine Prince'
     engine_id: gob
     company_id: coktel
@@ -5833,6 +6319,7 @@
     series_id: playtoons
 -
     id: playtoons5
+    new_id: 'gob:playtoons5'
     name: 'Playtoons 5 - The Stone of Wakan'
     engine_id: gob
     company_id: coktel
@@ -5845,6 +6332,7 @@
     series_id: playtoons
 -
     id: playtoonsdemo
+    new_id: 'gob:playtoonsdemo'
     name: 'Playtoon 1 - Uncle Archibald, Playtoon 2 - Spirou, Playtoons 3 - Secret of the Castle Demo)'
     engine_id: gob
     company_id: coktel
@@ -5857,6 +6345,7 @@
     series_id: playtoons
 -
     id: plumbers
+    new_id: 'plumbers:plumbers'
     name: 'Plumbers Don''t Wear Ties'
     engine_id: plumbers
     company_id: unitedpixtures
@@ -5869,6 +6358,7 @@
     series_id: ''
 -
     id: pn
+    new_id: 'agos:pn'
     name: 'Personal Nightmare'
     engine_id: agos
     company_id: adventuresoft
@@ -5881,6 +6371,7 @@
     series_id: ''
 -
     id: pokus
+    new_id: 'pink:pokus'
     name: 'The Pink Panther: Hokus Pokus Pink'
     engine_id: pink
     company_id: wanderlust
@@ -5893,6 +6384,7 @@
     series_id: ''
 -
     id: polechudes
+    new_id: 'wintermute:polechudes'
     name: 'Pole Chudes'
     engine_id: wintermute
     company_id: herocraft
@@ -5905,6 +6397,7 @@
     series_id: ''
 -
     id: pq1
+    new_id: 'agi:pq1'
     name: 'Police Quest: In Pursuit of the Death Angel'
     engine_id: agi
     company_id: sierra
@@ -5917,6 +6410,7 @@
     series_id: pq
 -
     id: pq1sci
+    new_id: 'sci:pq1sci'
     name: 'Police Quest: In Pursuit of the Death Angel'
     engine_id: sci
     company_id: sierra
@@ -5929,6 +6423,7 @@
     series_id: pq
 -
     id: pq2
+    new_id: 'sci:pq2'
     name: 'Police Quest 2: The Vengeance'
     engine_id: sci
     company_id: sierra
@@ -5941,6 +6436,7 @@
     series_id: pq
 -
     id: pq3
+    new_id: 'sci:pq3'
     name: 'Police Quest 3: The Kindred'
     engine_id: sci
     company_id: sierra
@@ -5953,6 +6449,7 @@
     series_id: pq
 -
     id: pq4
+    new_id: 'sci:pq4'
     name: 'Police Quest IV: Open Season'
     engine_id: sci
     company_id: sierra
@@ -5965,6 +6462,7 @@
     series_id: pq
 -
     id: pq4demo
+    new_id: 'sci:pq4demo'
     name: 'Police Quest IV: Open Season (Demo)'
     engine_id: sci
     company_id: sierra
@@ -5977,6 +6475,7 @@
     series_id: pq
 -
     id: pqswat
+    new_id: 'sci:pqswat'
     name: 'Police Quest: SWAT'
     engine_id: sci
     company_id: sierra
@@ -5989,6 +6488,7 @@
     series_id: pq
 -
     id: primordia
+    new_id: 'ags:primordia'
     name: Primordia
     engine_id: ags
     company_id: wormwood
@@ -6001,6 +6501,7 @@
     series_id: ''
 -
     id: prince
+    new_id: 'prince:prince'
     name: 'The Prince and the Coward'
     engine_id: prince
     company_id: metropolis
@@ -6013,6 +6514,7 @@
     series_id: ''
 -
     id: princess
+    new_id: 'composer:princess'
     name: 'Magic Tales: The Princess and the Crab'
     engine_id: composer
     company_id: animationmagic
@@ -6025,6 +6527,7 @@
     series_id: magictales
 -
     id: private-eye
+    new_id: 'private:private-eye'
     name: 'Private Eye'
     engine_id: private
     company_id: brooklyn
@@ -6037,6 +6540,7 @@
     series_id: ''
 -
     id: projectdoom
+    new_id: 'wintermute:projectdoom'
     name: 'Project: Doom'
     engine_id: wintermute
     company_id: blekinge
@@ -6049,6 +6553,7 @@
     series_id: ''
 -
     id: projectjoe
+    new_id: 'wintermute:projectjoe'
     name: 'Project Joe'
     engine_id: wintermute
     company_id: sticky
@@ -6061,6 +6566,7 @@
     series_id: ''
 -
     id: projectorface
+    new_id: 'ags:projectorface'
     name: 'Projector Face'
     engine_id: ags
     company_id: fluik
@@ -6073,6 +6579,7 @@
     series_id: ''
 -
     id: puttcircus
+    new_id: 'scumm:puttcircus'
     name: 'Putt-Putt Joins the Circus'
     engine_id: scumm
     company_id: he
@@ -6085,6 +6592,7 @@
     series_id: puttputt
 -
     id: puttmoon
+    new_id: 'scumm:puttmoon'
     name: 'Putt-Putt Goes to the Moon'
     engine_id: scumm
     company_id: he
@@ -6097,6 +6605,7 @@
     series_id: puttputt
 -
     id: puttputt
+    new_id: 'scumm:puttputt'
     name: 'Putt-Putt Joins the Parade'
     engine_id: scumm
     company_id: he
@@ -6109,6 +6618,7 @@
     series_id: puttputt
 -
     id: puttrace
+    new_id: 'scumm:puttrace'
     name: 'Putt-Putt Enters the Race'
     engine_id: scumm
     company_id: he
@@ -6121,6 +6631,7 @@
     series_id: puttputt
 -
     id: puttsfunshop
+    new_id: 'scumm:puttsfunshop'
     name: 'Putt-Putt''s One-Stop Fun Shop'
     engine_id: scumm
     company_id: he
@@ -6133,6 +6644,7 @@
     series_id: puttputt
 -
     id: putttime
+    new_id: 'scumm:putttime'
     name: 'Putt-Putt Travels Through Time'
     engine_id: scumm
     company_id: he
@@ -6145,6 +6657,7 @@
     series_id: puttputt
 -
     id: puttzoo
+    new_id: 'scumm:puttzoo'
     name: 'Putt-Putt Saves the Zoo'
     engine_id: scumm
     company_id: he
@@ -6157,6 +6670,7 @@
     series_id: puttputt
 -
     id: puzzle
+    new_id: 'agos:puzzle'
     name: 'Simon the Sorcerer''s Puzzle Pack: NoPatience'
     engine_id: agos
     company_id: adventuresoft
@@ -6169,6 +6683,7 @@
     series_id: simon
 -
     id: qajarycat
+    new_id: 'wintermute:qajarycat'
     name: 'Qajary Cat'
     engine_id: wintermute
     company_id: rskent
@@ -6181,6 +6696,7 @@
     series_id: ''
 -
     id: qfg1
+    new_id: 'agi:qfg1'
     name: 'Hero''s Quest: So You Want to Be a Hero'
     engine_id: agi
     company_id: sierra
@@ -6193,6 +6709,7 @@
     series_id: qfg
 -
     id: qfg1
+    new_id: 'sci:qfg1'
     name: 'Quest for Glory I: So You Want To Be A Hero'
     engine_id: sci
     company_id: sierra
@@ -6205,6 +6722,7 @@
     series_id: qfg
 -
     id: qfg1vga
+    new_id: 'sci:qfg1vga'
     name: 'Quest for Glory I: So You Want To Be A Hero'
     engine_id: sci
     company_id: sierra
@@ -6217,6 +6735,7 @@
     series_id: qfg
 -
     id: qfg2
+    new_id: 'sci:qfg2'
     name: 'Quest for Glory II: Trial by Fire'
     engine_id: sci
     company_id: sierra
@@ -6229,6 +6748,7 @@
     series_id: qfg
 -
     id: qfg2agdi
+    new_id: 'ags:qfg2agdi'
     name: 'Quest for Glory II: Trial by Fire Remake'
     engine_id: ags
     company_id: agdi
@@ -6241,6 +6761,7 @@
     series_id: ''
 -
     id: qfg3
+    new_id: 'sci:qfg3'
     name: 'Quest for Glory III: Wages of War'
     engine_id: sci
     company_id: sierra
@@ -6253,6 +6774,7 @@
     series_id: qfg
 -
     id: qfg4
+    new_id: 'sci:qfg4'
     name: 'Quest for Glory IV: Shadows of Darkness'
     engine_id: sci
     company_id: sierra
@@ -6265,6 +6787,7 @@
     series_id: qfg
 -
     id: qfg4demo
+    new_id: 'sci:qfg4demo'
     name: 'Quest for Glory IV: Shadows of Darkness (Demo)'
     engine_id: sci
     company_id: sierra
@@ -6277,6 +6800,7 @@
     series_id: qfg
 -
     id: qfi
+    new_id: 'ags:qfi'
     name: 'Quest for Infamy'
     engine_id: ags
     company_id: infamousq
@@ -6289,6 +6813,7 @@
     series_id: ''
 -
     id: quantumnauts
+    new_id: 'ags:quantumnauts'
     name: Quantumnauts
     engine_id: ags
     company_id: midian
@@ -6301,6 +6826,7 @@
     series_id: quantum
 -
     id: quantumnauts2
+    new_id: 'ags:quantumnauts2'
     name: 'Quantumnauts 2'
     engine_id: ags
     company_id: midian
@@ -6313,6 +6839,7 @@
     series_id: quantum
 -
     id: queen
+    new_id: 'queen:queen'
     name: 'Flight of the Amazon Queen'
     engine_id: queen
     company_id: ibi
@@ -6325,6 +6852,7 @@
     series_id: ''
 -
     id: quest
+    new_id: 'glk:quest'
     name: 'Quest Interactive Fiction games'
     engine_id: glk
     company_id: glk
@@ -6337,6 +6865,7 @@
     series_id: ''
 -
     id: questforyrolg
+    new_id: 'ags:questforyrolg'
     name: 'Quest for Yrolg'
     engine_id: ags
     company_id: crystalshard
@@ -6349,6 +6878,7 @@
     series_id: ''
 -
     id: rama
+    new_id: 'sci:rama'
     name: RAMA
     engine_id: sci
     company_id: sierra
@@ -6361,6 +6891,7 @@
     series_id: sierranoseries
 -
     id: raysmaze
+    new_id: 'wage:raysmaze'
     name: 'Ray''s Maze'
     engine_id: wage
     company_id: unknown
@@ -6373,6 +6904,7 @@
     series_id: ''
 -
     id: readtime
+    new_id: 'scumm:readtime'
     name: 'Blue''s Reading Time Activities'
     engine_id: scumm
     company_id: he
@@ -6385,6 +6917,7 @@
     series_id: blue
 -
     id: rebeccacarlson1
+    new_id: 'wintermute:rebeccacarlson1'
     name: 'Rebecca Carlson Mystery 01 - Silent Footsteps'
     engine_id: wintermute
     company_id: frostlind
@@ -6397,6 +6930,7 @@
     series_id: ''
 -
     id: redbow
+    new_id: 'ags:redbow'
     name: 'Red Bow'
     engine_id: ags
     company_id: stranga
@@ -6409,6 +6943,7 @@
     series_id: ''
 -
     id: regret
+    new_id: 'ultima:regret'
     name: 'Crusader: No Regret'
     engine_id: ultima
     company_id: origin
@@ -6421,6 +6956,7 @@
     series_id: crusader
 -
     id: remorse
+    new_id: 'ultima:remorse'
     name: 'Crusader: No Remorse'
     engine_id: ultima
     company_id: origin
@@ -6433,6 +6969,7 @@
     series_id: crusader
 -
     id: reptilesquest
+    new_id: 'wintermute:reptilesquest'
     name: 'On the Tracks of Dinosaurs'
     engine_id: wintermute
     company_id: unknown
@@ -6445,6 +6982,7 @@
     series_id: ''
 -
     id: resonance
+    new_id: 'ags:resonance'
     name: Resonance
     engine_id: ags
     company_id: xii
@@ -6457,6 +6995,7 @@
     series_id: ''
 -
     id: reversion1
+    new_id: 'wintermute:reversion1'
     name: 'Reversion: The Escape'
     engine_id: wintermute
     company_id: 3f
@@ -6469,6 +7008,7 @@
     series_id: reversion
 -
     id: reversion2
+    new_id: 'wintermute:reversion2'
     name: 'Reversion: The Meeting'
     engine_id: wintermute
     company_id: 3f
@@ -6481,6 +7021,7 @@
     series_id: reversion
 -
     id: reversion3
+    new_id: 'wintermute:reversion3'
     name: 'Reversion: The Return'
     engine_id: wintermute
     company_id: 3f
@@ -6493,6 +7034,7 @@
     series_id: reversion
 -
     id: rhiannon
+    new_id: 'wintermute:rhiannon'
     name: 'Rhiannon: Curse of the four Branches'
     engine_id: wintermute
     company_id: arberth
@@ -6505,6 +7047,7 @@
     series_id: ''
 -
     id: richardandalice
+    new_id: 'ags:richardandalice'
     name: 'Richard & Alice'
     engine_id: ags
     company_id: owlcave
@@ -6517,6 +7060,7 @@
     series_id: ''
 -
     id: ringworld
+    new_id: 'tsage:ringworld'
     name: 'Ringworld: Revenge of the Patriarch'
     engine_id: tsage
     company_id: tsunami
@@ -6529,6 +7073,7 @@
     series_id: ringworld
 -
     id: ringworld2
+    new_id: 'tsage:ringworld2'
     name: 'Return to Ringworld'
     engine_id: tsage
     company_id: tsunami
@@ -6541,6 +7086,7 @@
     series_id: ringworld
 -
     id: ritter
+    new_id: 'wintermute:ritter'
     name: '1½ Ritter: Auf der Suche nach der hinreißenden Herzelinde'
     engine_id: wintermute
     company_id: daedalic
@@ -6553,6 +7099,7 @@
     series_id: ''
 -
     id: riven
+    new_id: 'mohawk:riven'
     name: 'Riven: The Sequel to Myst'
     engine_id: mohawk
     company_id: cyan
@@ -6565,6 +7112,7 @@
     series_id: myst
 -
     id: rnrneverdies
+    new_id: 'ags:rnrneverdies'
     name: 'Rock ''n'' Roll Will Never Die!'
     engine_id: ags
     company_id: instantmillion
@@ -6577,6 +7125,7 @@
     series_id: ''
 -
     id: robin
+    new_id: 'lilliput:robin'
     name: 'The Adventures of Robin Hood'
     engine_id: lilliput
     company_id: millennium
@@ -6589,6 +7138,7 @@
     series_id: ''
 -
     id: robinsrescue
+    new_id: 'sludge:robinsrescue'
     name: 'Robin''s Rescue'
     engine_id: sludge
     company_id: unknown
@@ -6601,6 +7151,7 @@
     series_id: ''
 -
     id: rodney
+    new_id: 'made:rodney'
     name: 'Rodney''s Funscreen'
     engine_id: made
     company_id: artbox
@@ -6613,6 +7164,7 @@
     series_id: ''
 -
     id: roguestate
+    new_id: 'ags:roguestate'
     name: 'Rogue State'
     engine_id: ags
     company_id: lrdg
@@ -6625,6 +7177,7 @@
     series_id: roguestate
 -
     id: rome
+    new_id: 'lilliput:rome'
     name: 'Rome: Pathway to Power'
     engine_id: lilliput
     company_id: firstlight
@@ -6637,6 +7190,7 @@
     series_id: ''
 -
     id: rosemary
+    new_id: 'wintermute:rosemary'
     name: Rosemary
     engine_id: wintermute
     company_id: mitgamelab
@@ -6649,6 +7203,7 @@
     series_id: ''
 -
     id: rosetattoo
+    new_id: 'sherlock:rosetattoo'
     name: 'The Lost Files of Sherlock Holmes: Case of the Rose Tattoo'
     engine_id: sherlock
     company_id: mythos
@@ -6661,6 +7216,7 @@
     series_id: sherlock
 -
     id: rtz
+    new_id: 'made:rtz'
     name: 'Return to Zork'
     engine_id: made
     company_id: activision
@@ -6673,6 +7229,7 @@
     series_id: zork
 -
     id: ruff
+    new_id: 'mohawk:ruff'
     name: 'Ruff''s Bone'
     engine_id: mohawk
     company_id: livingbooks
@@ -6685,6 +7242,7 @@
     series_id: livingbooks
 -
     id: rugrats
+    new_id: 'mohawk:rugrats'
     name: 'Rugrats Adventure Game'
     engine_id: mohawk
     company_id: broderbund
@@ -6697,6 +7255,7 @@
     series_id: ''
 -
     id: rugratsps
+    new_id: 'mohawk:rugratsps'
     name: 'Rugrats Print Shop'
     engine_id: mohawk
     company_id: livingbooks
@@ -6709,6 +7268,7 @@
     series_id: livingbooks
 -
     id: samaritan
+    new_id: 'ags:samaritan'
     name: 'The Samaritan Paradox'
     engine_id: ags
     company_id: faravid
@@ -6721,6 +7281,7 @@
     series_id: ''
 -
     id: samnmax
+    new_id: 'scumm:samnmax'
     name: 'Sam & Max: Hit the Road'
     engine_id: scumm
     company_id: lucasarts
@@ -6733,6 +7294,7 @@
     series_id: lucasartsnoseries
 -
     id: samsfunshop
+    new_id: 'scumm:samsfunshop'
     name: 'Pajama Sam''s One Stop Fun Shop'
     engine_id: scumm
     company_id: he
@@ -6745,6 +7307,7 @@
     series_id: pajama
 -
     id: sanitarium
+    new_id: 'asylum:sanitarium'
     name: Sanitarium
     engine_id: asylum
     company_id: dreamforge
@@ -6757,6 +7320,7 @@
     series_id: ''
 -
     id: satanandsons
+    new_id: 'wintermute:satanandsons'
     name: 'Satan and Sons'
     engine_id: wintermute
     company_id: unknown
@@ -6769,6 +7333,7 @@
     series_id: ''
 -
     id: scalpel
+    new_id: 'sherlock:scalpel'
     name: 'The Lost Files of Sherlock Holmes: The Case of the Serrated Scalpel'
     engine_id: sherlock
     company_id: mythos
@@ -6781,6 +7346,7 @@
     series_id: sherlock
 -
     id: scepters
+    new_id: 'wage:scepters'
     name: 'Enchanted Scepters'
     engine_id: wage
     company_id: unknown
@@ -6793,6 +7359,7 @@
     series_id: ''
 -
     id: sci
+    new_id: 'sci:sci'
     name: 'Sierra SCI Game'
     engine_id: sci
     company_id: sierra
@@ -6805,6 +7372,7 @@
     series_id: sierranoseries
 -
     id: sci-fanmade
+    new_id: 'sci:sci-fanmade'
     name: 'Fanmade SCI Game'
     engine_id: sci
     company_id: fan
@@ -6817,6 +7385,7 @@
     series_id: ''
 -
     id: scottadams
+    new_id: 'glk:scottadams'
     name: 'Scott Adams Interactive Fiction games'
     engine_id: glk
     company_id: glk
@@ -6829,6 +7398,7 @@
     series_id: ''
 -
     id: securanote
+    new_id: 'wintermute:securanote'
     name: Securanote
     engine_id: wintermute
     company_id: skaldic
@@ -6841,6 +7411,7 @@
     series_id: ''
 -
     id: serguei1
+    new_id: 'agi:serguei1'
     name: 'Serguei''s Destiny'
     engine_id: agi
     company_id: fan
@@ -6853,6 +7424,7 @@
     series_id: agifan
 -
     id: serguei2
+    new_id: 'agi:serguei2'
     name: 'Serguei''s Destiny 2'
     engine_id: agi
     company_id: fan
@@ -6865,6 +7437,7 @@
     series_id: agifan
 -
     id: seussabc
+    new_id: 'mohawk:seussabc'
     name: 'Dr. Seuss''s ABC'
     engine_id: mohawk
     company_id: livingbooks
@@ -6877,6 +7450,7 @@
     series_id: livingbooks
 -
     id: sfinx
+    new_id: 'cge2:sfinx'
     name: Sfinx
     engine_id: cge2
     company_id: lkavalon
@@ -6889,6 +7463,7 @@
     series_id: ''
 -
     id: shaban
+    new_id: 'wintermute:shaban'
     name: Shaban
     engine_id: wintermute
     company_id: petagame
@@ -6901,6 +7476,7 @@
     series_id: ''
 -
     id: shadowgate
+    new_id: 'macventure:shadowgate'
     name: Shadowgate
     engine_id: macventure
     company_id: icom
@@ -6913,6 +7489,7 @@
     series_id: ''
 -
     id: shardlight
+    new_id: 'ags:shardlight'
     name: Shardlight
     engine_id: ags
     company_id: wadjet
@@ -6925,6 +7502,7 @@
     series_id: ''
 -
     id: sheila
+    new_id: 'mohawk:sheila'
     name: 'Sheila Rae, the Brave'
     engine_id: mohawk
     company_id: livingbooks
@@ -6937,6 +7515,7 @@
     series_id: livingbooks
 -
     id: sherlock-logo
+    new_id: 'tsage:sherlock-logo'
     name: 'The Lost Files of Sherlock Holmes'
     engine_id: tsage
     company_id: mythos
@@ -6949,6 +7528,7 @@
     series_id: sherlock
 -
     id: shinestar
+    new_id: 'wintermute:shinestar'
     name: 'The Shine of a Star'
     engine_id: wintermute
     company_id: forgottenkey
@@ -6961,6 +7541,7 @@
     series_id: ''
 -
     id: shivah
+    new_id: 'ags:shivah'
     name: 'The Shivah'
     engine_id: ags
     company_id: wadjet
@@ -6973,6 +7554,7 @@
     series_id: ''
 -
     id: shivers
+    new_id: 'sci:shivers'
     name: Shivers
     engine_id: sci
     company_id: sierra
@@ -6985,6 +7567,7 @@
     series_id: sierranoseries
 -
     id: simon1
+    new_id: 'agos:simon1'
     name: 'Simon the Sorcerer'
     engine_id: agos
     company_id: adventuresoft
@@ -6997,6 +7580,7 @@
     series_id: simon
 -
     id: simon2
+    new_id: 'agos:simon2'
     name: 'Simon the Sorcerer II: The Lion, the Wizard and the Wardrobe'
     engine_id: agos
     company_id: adventuresoft
@@ -7009,6 +7593,7 @@
     series_id: simon
 -
     id: sinistersix
+    new_id: 'hypno:sinistersix'
     name: 'Marvel Comics Spider-Man: The Sinister Six'
     engine_id: hypno
     company_id: brooklyn
@@ -7021,6 +7606,7 @@
     series_id: ''
 -
     id: sky
+    new_id: 'sky:sky'
     name: 'Beneath a Steel Sky'
     engine_id: sky
     company_id: revolution
@@ -7033,6 +7619,7 @@
     series_id: ''
 -
     id: slater
+    new_id: 'sci:slater'
     name: 'Slater & Charlie Go Camping'
     engine_id: sci
     company_id: sierra
@@ -7045,6 +7632,7 @@
     series_id: sierranoseries
 -
     id: sleepingcub
+    new_id: 'composer:sleepingcub'
     name: 'Magic Tales: Sleeping Cub''s Test of Courage'
     engine_id: composer
     company_id: animationmagic
@@ -7057,6 +7645,7 @@
     series_id: magictales
 -
     id: sludge
+    new_id: 'sludge:sludge'
     name: 'Sludge Game'
     engine_id: sludge
     company_id: unknown
@@ -7069,6 +7658,7 @@
     series_id: ''
 -
     id: soccer
+    new_id: 'scumm:soccer'
     name: 'Backyard Soccer'
     engine_id: scumm
     company_id: he
@@ -7081,6 +7671,7 @@
     series_id: juniorsports
 -
     id: soccer2004
+    new_id: 'scumm:soccer2004'
     name: 'Backyard Soccer 2004'
     engine_id: scumm
     company_id: he
@@ -7093,6 +7684,7 @@
     series_id: juniorsports
 -
     id: soccermls
+    new_id: 'scumm:soccermls'
     name: 'Backyard Soccer MLS Edition'
     engine_id: scumm
     company_id: he
@@ -7105,6 +7697,7 @@
     series_id: juniorsports
 -
     id: socks
+    new_id: 'scumm:socks'
     name: 'Pajama Sam''s Sock Works'
     engine_id: scumm
     company_id: he
@@ -7117,6 +7710,7 @@
     series_id: pajama
 -
     id: sofiasdebt
+    new_id: 'wintermute:sofiasdebt'
     name: 'Sofia''s Debt'
     engine_id: wintermute
     company_id: artistic
@@ -7129,6 +7723,7 @@
     series_id: ''
 -
     id: soldierboyz
+    new_id: 'hypno:soldierboyz'
     name: 'Soldier Boyz'
     engine_id: hypno
     company_id: hypnotix
@@ -7141,6 +7736,7 @@
     series_id: ''
 -
     id: soltys
+    new_id: 'cge:soltys'
     name: Sołtys
     engine_id: cge
     company_id: lkavalon
@@ -7153,6 +7749,7 @@
     series_id: ''
 -
     id: sorcerer
+    new_id: 'glk:sorcerer'
     name: Sorcerer
     engine_id: glk
     company_id: infocom
@@ -7165,6 +7762,7 @@
     series_id: enchanter
 -
     id: sotv1
+    new_id: 'wintermute:sotv1'
     name: 'Shadows on the Vatican - Act 1: Greed'
     engine_id: wintermute
     company_id: daringtouch
@@ -7177,6 +7775,7 @@
     series_id: ''
 -
     id: sotv2
+    new_id: 'wintermute:sotv2'
     name: 'Shadows on the Vatican - Act II: Wrath'
     engine_id: wintermute
     company_id: daringtouch
@@ -7189,6 +7788,7 @@
     series_id: ''
 -
     id: spaceinvaders
+    new_id: 'wintermute:spaceinvaders'
     name: 'Space Invaders'
     engine_id: wintermute
     company_id: unknown
@@ -7201,6 +7801,7 @@
     series_id: ''
 -
     id: spacemadness
+    new_id: 'wintermute:spacemadness'
     name: 'Space Madness'
     engine_id: wintermute
     company_id: spreadcamp
@@ -7213,6 +7814,7 @@
     series_id: ''
 -
     id: spellbreaker
+    new_id: 'glk:spellbreaker'
     name: Spellbreaker
     engine_id: glk
     company_id: infocom
@@ -7225,6 +7827,7 @@
     series_id: enchanter
 -
     id: spyclub
+    new_id: 'director:spyclub'
     name: 'Spy Club'
     engine_id: director
     company_id: unknown
@@ -7237,6 +7840,7 @@
     series_id: ''
 -
     id: spyfox
+    new_id: 'scumm:spyfox'
     name: 'Spy Fox in "Dry Cereal"'
     engine_id: scumm
     company_id: he
@@ -7249,6 +7853,7 @@
     series_id: spyfox
 -
     id: spyfox2
+    new_id: 'scumm:spyfox2'
     name: 'Spy Fox 2: "Some Assembly Required"'
     engine_id: scumm
     company_id: he
@@ -7261,6 +7866,7 @@
     series_id: spyfox
 -
     id: spyozon
+    new_id: 'scumm:spyozon'
     name: 'Spy Fox: "Operation Ozone"'
     engine_id: scumm
     company_id: he
@@ -7273,6 +7879,7 @@
     series_id: spyfox
 -
     id: sq0
+    new_id: 'agi:sq0'
     name: 'Space Quest 0: Replicated'
     engine_id: agi
     company_id: fan
@@ -7285,6 +7892,7 @@
     series_id: agifan
 -
     id: sq1
+    new_id: 'agi:sq1'
     name: 'Space Quest: Chapter I - The Sarien Encounter'
     engine_id: agi
     company_id: sierra
@@ -7297,6 +7905,7 @@
     series_id: sq
 -
     id: sq1sci
+    new_id: 'sci:sq1sci'
     name: 'Space Quest I: Roger Wilco in the Sarien Encounter'
     engine_id: sci
     company_id: sierra
@@ -7309,6 +7918,7 @@
     series_id: sq
 -
     id: sq2
+    new_id: 'agi:sq2'
     name: 'Space Quest II: Chapter II - Vohaul''s Revenge'
     engine_id: agi
     company_id: sierra
@@ -7321,6 +7931,7 @@
     series_id: sq
 -
     id: sq2fg
+    new_id: 'ags:sq2fg'
     name: 'Space Quest for Glory'
     engine_id: ags
     company_id: infamousadv
@@ -7333,6 +7944,7 @@
     series_id: ''
 -
     id: sq2vga
+    new_id: 'ags:sq2vga'
     name: 'Space Quest II - Vohaul''s Revenge VGA Remake'
     engine_id: ags
     company_id: infamousadv
@@ -7345,6 +7957,7 @@
     series_id: ''
 -
     id: sq3
+    new_id: 'sci:sq3'
     name: 'Space Quest III: The Pirates of Pestulon'
     engine_id: sci
     company_id: sierra
@@ -7357,6 +7970,7 @@
     series_id: sq
 -
     id: sq4
+    new_id: 'sci:sq4'
     name: 'Space Quest IV: Roger Wilco and the Time Rippers'
     engine_id: sci
     company_id: sierra
@@ -7369,6 +7983,7 @@
     series_id: sq
 -
     id: sq45
+    new_id: 'ags:sq45'
     name: 'Space Quest IV.5 - Roger Wilco and the Voyage Home'
     engine_id: ags
     company_id: westend
@@ -7381,6 +7996,7 @@
     series_id: ''
 -
     id: sq5
+    new_id: 'sci:sq5'
     name: 'Space Quest V: The Next Mutation'
     engine_id: sci
     company_id: sierra
@@ -7393,6 +8009,7 @@
     series_id: sq
 -
     id: sq6
+    new_id: 'sci:sq6'
     name: 'Space Quest 6: Roger Wilco in the Spinal Frontier'
     engine_id: sci
     company_id: sierra
@@ -7405,6 +8022,7 @@
     series_id: sq
 -
     id: sqdote
+    new_id: 'ags:sqdote'
     name: 'Space Quest Minus 1: Decisions of the Elders'
     engine_id: ags
     company_id: fan
@@ -7417,6 +8035,7 @@
     series_id: ''
 -
     id: sqinc
+    new_id: 'ags:sqinc'
     name: 'Space Quest: Incinerations'
     engine_id: ags
     company_id: fan
@@ -7429,6 +8048,7 @@
     series_id: ''
 -
     id: sqvsb
+    new_id: 'ags:sqvsb'
     name: 'Space Quest: Vohaul Strikes Back'
     engine_id: ags
     company_id: teamvsb
@@ -7441,6 +8061,7 @@
     series_id: ''
 -
     id: sqx
+    new_id: 'agi:sqx'
     name: 'Space Quest: The Lost Chapter'
     engine_id: agi
     company_id: fan
@@ -7453,6 +8074,7 @@
     series_id: agifan
 -
     id: stationfall
+    new_id: 'glk:stationfall'
     name: Stationfall
     engine_id: glk
     company_id: infocom
@@ -7465,6 +8087,7 @@
     series_id: planetfall
 -
     id: st25
+    new_id: 'startrek:st25'
     name: 'Star Trek: 25th Anniversary'
     engine_id: startrek
     company_id: interplay
@@ -7477,6 +8100,7 @@
     series_id: startrek
 -
     id: starshipquasar
+    new_id: 'ags:starshipquasar'
     name: 'Starship Quasar'
     engine_id: ags
     company_id: crystalshard
@@ -7489,6 +8113,7 @@
     series_id: ''
 -
     id: stellaluna
+    new_id: 'mohawk:stellaluna'
     name: Stellaluna
     engine_id: mohawk
     company_id: broderbund
@@ -7501,6 +8126,7 @@
     series_id: livingbooks
 -
     id: stjr
+    new_id: 'startrek:stjr'
     name: 'Star Trek: Judgment Rites'
     engine_id: startrek
     company_id: interplay
@@ -7513,6 +8139,7 @@
     series_id: startrek
 -
     id: strangeland
+    new_id: 'ags:strangeland'
     name: Strangeland
     engine_id: ags
     company_id: wormwood
@@ -7525,6 +8152,7 @@
     series_id: ''
 -
     id: sulifallenharmony
+    new_id: 'ags:sulifallenharmony'
     name: 'Suli Fallen Harmony'
     engine_id: ags
     company_id: coutal
@@ -7537,6 +8165,7 @@
     series_id: ''
 -
     id: sumatra
+    new_id: 'ags:sumatra'
     name: 'Sumatra: Fate of Yandi'
     engine_id: ags
     company_id: cloakdagger
@@ -7549,6 +8178,7 @@
     series_id: ''
 -
     id: superjazzman
+    new_id: 'ags:superjazzman'
     name: 'Super Jazz Man'
     engine_id: ags
     company_id: herculean
@@ -7561,6 +8191,7 @@
     series_id: ''
 -
     id: swampy
+    new_id: 'agos:swampy'
     name: 'Simon the Sorcerer''s Puzzle Pack: Swampy Adventures'
     engine_id: agos
     company_id: adventuresoft
@@ -7573,6 +8204,7 @@
     series_id: simon
 -
     id: sword1
+    new_id: 'sword1:sword1'
     name: 'Broken Sword: The Shadow of the Templars'
     engine_id: sword1
     company_id: revolution
@@ -7585,6 +8217,7 @@
     series_id: sword
 -
     id: sword1demo
+    new_id: 'sword1:sword1demo'
     name: 'Broken Sword: The Shadow of the Templars (Demo)'
     engine_id: sword1
     company_id: revolution
@@ -7597,6 +8230,7 @@
     series_id: sword
 -
     id: sword1mac
+    new_id: 'sword1:sword1mac'
     name: 'Broken Sword: The Shadow of the Templars (Mac)'
     engine_id: sword1
     company_id: revolution
@@ -7609,6 +8243,7 @@
     series_id: sword
 -
     id: sword1macdemo
+    new_id: 'sword1:sword1macdemo'
     name: 'Broken Sword: The Shadow of the Templars (Mac demo)'
     engine_id: sword1
     company_id: revolution
@@ -7621,6 +8256,7 @@
     series_id: sword
 -
     id: sword1psx
+    new_id: 'sword1:sword1psx'
     name: 'Broken Sword: The Shadow of the Templars (PlayStation)'
     engine_id: sword1
     company_id: revolution
@@ -7633,6 +8269,7 @@
     series_id: sword
 -
     id: sword1psxdemo
+    new_id: 'sword1:sword1psxdemo'
     name: 'Broken Sword: The Shadow of the Templars (PlayStation demo)'
     engine_id: sword1
     company_id: revolution
@@ -7645,6 +8282,7 @@
     series_id: sword
 -
     id: sword2
+    new_id: 'sword2:sword2'
     name: 'Broken Sword II: The Smoking Mirror'
     engine_id: sword2
     company_id: revolution
@@ -7657,6 +8295,7 @@
     series_id: sword
 -
     id: sword25
+    new_id: 'sword25:sword25'
     name: 'Broken Sword 2.5: The Return of the Templars'
     engine_id: sword25
     company_id: mindfactory
@@ -7669,6 +8308,7 @@
     series_id: ''
 -
     id: sword2alt
+    new_id: 'sword2:sword2alt'
     name: 'Broken Sword II: The Smoking Mirror (alt)'
     engine_id: sword2
     company_id: revolution
@@ -7681,6 +8321,7 @@
     series_id: sword
 -
     id: sword2demo
+    new_id: 'sword2:sword2demo'
     name: 'Broken Sword II: The Smoking Mirror (Demo)'
     engine_id: sword2
     company_id: revolution
@@ -7693,6 +8334,7 @@
     series_id: sword
 -
     id: sword2psx
+    new_id: 'sword2:sword2psx'
     name: 'Broken Sword II: The Smoking Mirror (PlayStation)'
     engine_id: sword2
     company_id: revolution
@@ -7705,6 +8347,7 @@
     series_id: sword
 -
     id: sword2psxdemo
+    new_id: 'sword2:sword2psxdemo'
     name: 'Broken Sword II: The Smoking Mirror (PlayStation/Demo)'
     engine_id: sword2
     company_id: revolution
@@ -7717,6 +8360,7 @@
     series_id: sword
 -
     id: swordsofxeen
+    new_id: 'xeen:swordsofxeen'
     name: 'Might and Magic: Swords of Xeen'
     engine_id: xeen
     company_id: nwc
@@ -7729,6 +8373,7 @@
     series_id: mm
 -
     id: t7g
+    new_id: 'groovie:t7g'
     name: 'The 7th Guest'
     engine_id: groovie
     company_id: trilobyte
@@ -7741,6 +8386,7 @@
     series_id: t7g
 -
     id: tales
+    new_id: 'ags:tales'
     name: Tales
     engine_id: ags
     company_id: apemarina
@@ -7753,6 +8399,7 @@
     series_id: ''
 -
     id: talisman
+    new_id: 'comprehend:talisman'
     name: 'Talisman: Challenging the Sands of Time'
     engine_id: comprehend
     company_id: polarware
@@ -7765,6 +8412,7 @@
     series_id: ''
 -
     id: tanya1
+    new_id: 'wintermute:tanya1'
     name: 'Tanya Grotter and the Magical Double Bass'
     engine_id: wintermute
     company_id: creativedream
@@ -7777,6 +8425,7 @@
     series_id: tanya
 -
     id: tanya2
+    new_id: 'wintermute:tanya2'
     name: 'Tanya Grotter and the Disappearing Floor'
     engine_id: wintermute
     company_id: creativedream
@@ -7789,6 +8438,7 @@
     series_id: tanya
 -
     id: technobabylon
+    new_id: 'ags:technobabylon'
     name: Technobabylon
     engine_id: ags
     company_id: technocrat
@@ -7801,6 +8451,7 @@
     series_id: ''
 -
     id: teenagent
+    new_id: 'teenagent:teenagent'
     name: 'Teen Agent'
     engine_id: teenagent
     company_id: metropolis
@@ -7813,6 +8464,7 @@
     series_id: ''
 -
     id: tehran1933
+    new_id: 'wintermute:tehran1933'
     name: 'Murder In Tehran''s Alleys 1933'
     engine_id: wintermute
     company_id: rskent
@@ -7825,6 +8477,7 @@
     series_id: tehran
 -
     id: tehran2016
+    new_id: 'wintermute:tehran2016'
     name: 'Murder In Tehran''s Alleys 2016'
     engine_id: wintermute
     company_id: rskent
@@ -7837,6 +8490,7 @@
     series_id: tehran
 -
     id: tentacle
+    new_id: 'scumm:tentacle'
     name: 'Maniac Mansion: Day of the Tentacle'
     engine_id: scumm
     company_id: lucasarts
@@ -7849,6 +8503,7 @@
     series_id: maniac
 -
     id: testbed
+    new_id: 'testbed:testbed'
     name: 'Testbed: The Backend Testing Framework'
     engine_id: testbed
     company_id: unknown
@@ -7861,6 +8516,7 @@
     series_id: ''
 -
     id: tetris
+    new_id: 'agi:tetris'
     name: 'AGI Tetris'
     engine_id: agi
     company_id: fan
@@ -7873,6 +8529,7 @@
     series_id: agifan
 -
     id: tgttpoacs
+    new_id: 'sludge:tgttpoacs'
     name: 'The Game That Takes Place on a Cruise Ship'
     engine_id: sludge
     company_id: deirdrakiai
@@ -7885,6 +8542,7 @@
     series_id: ''
 -
     id: theadventuresoffatman
+    new_id: 'ags:theadventuresoffatman'
     name: 'The Adventures of Fatman'
     engine_id: ags
     company_id: socko
@@ -7897,6 +8555,7 @@
     series_id: fatman
 -
     id: theancientmark1
+    new_id: 'wintermute:theancientmark1'
     name: 'The Ancient Mark - Episode 1'
     engine_id: wintermute
     company_id: flippingtree
@@ -7909,6 +8568,7 @@
     series_id: ''
 -
     id: theapartment
+    new_id: 'director:theapartment'
     name: 'The Apartment, Interactive demo'
     engine_id: director
     company_id: unknown
@@ -7921,6 +8581,7 @@
     series_id: ''
 -
     id: thebox
+    new_id: 'wintermute:thebox'
     name: 'The Box'
     engine_id: wintermute
     company_id: blekinge
@@ -7933,6 +8594,7 @@
     series_id: ''
 -
     id: thecastle
+    new_id: 'ags:thecastle'
     name: 'The Castle'
     engine_id: ags
     company_id: ishtar
@@ -7945,6 +8607,7 @@
     series_id: ''
 -
     id: thecatlady
+    new_id: 'ags:thecatlady'
     name: 'The Cat Lady'
     engine_id: ags
     company_id: harvester
@@ -7957,6 +8620,7 @@
     series_id: ''
 -
     id: thekite
+    new_id: 'wintermute:thekite'
     name: 'The Kite'
     engine_id: wintermute
     company_id: anate
@@ -7969,6 +8633,7 @@
     series_id: ''
 -
     id: thelastcrownmh
+    new_id: 'wintermute:thelastcrownmh'
     name: 'The Last Crown - Midnight Horror'
     engine_id: wintermute
     company_id: darkling
@@ -7981,6 +8646,7 @@
     series_id: ''
 -
     id: thelostcrowngha
+    new_id: 'wintermute:thelostcrowngha'
     name: 'The Lost Crown - A Ghost-Hunting Adventure'
     engine_id: wintermute
     company_id: darkling
@@ -7993,6 +8659,7 @@
     series_id: ''
 -
     id: themarionette
+    new_id: 'ags:themarionette'
     name: 'The Marionette'
     engine_id: ags
     company_id: effigy
@@ -8005,6 +8672,7 @@
     series_id: ''
 -
     id: thesavageempire
+    new_id: 'ultima:thesavageempire'
     name: 'Worlds of Ultima: The Savage Empire'
     engine_id: ultima
     company_id: origin
@@ -8017,6 +8685,7 @@
     series_id: ultima
 -
     id: thesavageempire_enh
+    new_id: 'ultima:thesavageempire_enh'
     name: 'Worlds of Ultima: The Savage Empire - Enhanced'
     engine_id: ultima
     company_id: origin
@@ -8029,6 +8698,7 @@
     series_id: ultima
 -
     id: thesecretofhuttongrammarschoolvga
+    new_id: 'ags:thesecretofhuttongrammarschoolvga'
     name: 'The Secret of Hutton Grammar School VGA'
     engine_id: ags
     company_id: tomsimpson
@@ -8041,6 +8711,7 @@
     series_id: ''
 -
     id: thesecretsofjesus
+    new_id: 'ags:thesecretsofjesus'
     name: 'The Secrets of Jesus'
     engine_id: ags
     company_id: amatouk
@@ -8053,6 +8724,7 @@
     series_id: ''
 -
     id: theterribleoldman
+    new_id: 'ags:theterribleoldman'
     name: 'The Terrible Old Man'
     engine_id: ags
     company_id: cloakdagger
@@ -8065,6 +8737,7 @@
     series_id: ''
 -
     id: thinker1
+    new_id: 'scumm:thinker1'
     name: 'Big Thinkers! 1st Grade'
     engine_id: scumm
     company_id: he
@@ -8077,6 +8750,7 @@
     series_id: bigthinkers
 -
     id: thinkerk
+    new_id: 'scumm:thinkerk'
     name: 'Big Thinkers! Kindergarten'
     engine_id: scumm
     company_id: he
@@ -8089,6 +8763,7 @@
     series_id: bigthinkers
 -
     id: tib
+    new_id: 'wintermute:tib'
     name: 'Fairy Tales About Toshechka and Boshechka'
     engine_id: wintermute
     company_id: creativedream
@@ -8101,6 +8776,7 @@
     series_id: ''
 -
     id: timegentlemenplease
+    new_id: 'ags:timegentlemenplease'
     name: 'Time Gentlemen, Please!'
     engine_id: ags
     company_id: zombiecow
@@ -8113,6 +8789,7 @@
     series_id: ''
 -
     id: titanic
+    new_id: 'titanic:titanic'
     name: 'Starship Titanic'
     engine_id: titanic
     company_id: digitalvillage
@@ -8125,6 +8802,7 @@
     series_id: ''
 -
     id: tlc
+    new_id: 'groovie:tlc'
     name: 'Tender Loving Care'
     engine_id: groovie
     company_id: aftermath
@@ -8137,6 +8815,7 @@
     series_id: ''
 -
     id: tlj
+    new_id: 'stark:tlj'
     name: 'The Longest Journey'
     engine_id: stark
     company_id: funcom
@@ -8149,6 +8828,7 @@
     series_id: ''
 -
     id: toltecs
+    new_id: 'toltecs:toltecs'
     name: '3 Skulls of the Toltecs'
     engine_id: toltecs
     company_id: revistronic
@@ -8161,6 +8841,7 @@
     series_id: ''
 -
     id: tony
+    new_id: 'tony:tony'
     name: 'Tony Tough and the Night of Roasted Moths'
     engine_id: tony
     company_id: nayma
@@ -8173,6 +8854,7 @@
     series_id: ''
 -
     id: toon
+    new_id: 'toon:toon'
     name: Toonstruck
     engine_id: toon
     company_id: burst
@@ -8185,6 +8867,7 @@
     series_id: ''
 -
     id: torin
+    new_id: 'sci:torin'
     name: 'Torin''s Passage'
     engine_id: sci
     company_id: sierra
@@ -8197,6 +8880,7 @@
     series_id: sierranoseries
 -
     id: tortoise
+    new_id: 'mohawk:tortoise'
     name: 'Aesop''s Fables: The Tortoise and the Hare'
     engine_id: mohawk
     company_id: livingbooks
@@ -8209,6 +8893,7 @@
     series_id: livingbooks
 -
     id: touche
+    new_id: 'touche:touche'
     name: 'Touché: The Adventures of the Fifth Musketeer'
     engine_id: touche
     company_id: clipper
@@ -8221,6 +8906,7 @@
     series_id: ''
 -
     id: tradestory
+    new_id: 'wintermute:tradestory'
     name: 'The Trader of Stories'
     engine_id: wintermute
     company_id: rudowski
@@ -8233,6 +8919,7 @@
     series_id: ''
 -
     id: transylvania
+    new_id: 'comprehend:transylvania'
     name: Transylvania
     engine_id: comprehend
     company_id: polarware
@@ -8245,6 +8932,7 @@
     series_id: transylvania
 -
     id: trilbysnotes
+    new_id: 'ags:trilbysnotes'
     name: 'Trilby''s Notes'
     engine_id: ags
     company_id: fullyramblomatic
@@ -8257,6 +8945,7 @@
     series_id: chzo
 -
     id: trilbytheartoftheft
+    new_id: 'ags:trilbytheartoftheft'
     name: 'Trilby: The Art Of Theft'
     engine_id: ags
     company_id: fullyramblomatic
@@ -8269,6 +8958,7 @@
     series_id: ''
 -
     id: troll
+    new_id: 'agi:troll'
     name: 'Troll''s Tale'
     engine_id: agi
     company_id: sierra
@@ -8281,6 +8971,7 @@
     series_id: sierranoseries
 -
     id: tucker
+    new_id: 'tucker:tucker'
     name: 'Bud Tucker in Double Trouble'
     engine_id: tucker
     company_id: merit
@@ -8293,6 +8984,7 @@
     series_id: ''
 -
     id: twelvethirteenep1
+    new_id: 'ags:twelvethirteenep1'
     name: 'Twelve Thirteen - Episode 1'
     engine_id: ags
     company_id: fullyramblomatic
@@ -8305,6 +8997,7 @@
     series_id: '1213'
 -
     id: twelvethirteenep2
+    new_id: 'ags:twelvethirteenep2'
     name: 'Twelve Thirteen - Episode 2'
     engine_id: ags
     company_id: fullyramblomatic
@@ -8317,6 +9010,7 @@
     series_id: '1213'
 -
     id: twelvethirteenep3
+    new_id: 'ags:twelvethirteenep3'
     name: 'Twelve Thirteen - Episode 3'
     engine_id: ags
     company_id: fullyramblomatic
@@ -8329,6 +9023,7 @@
     series_id: '1213'
 -
     id: twelvethirteense
+    new_id: 'ags:twelvethirteense'
     name: 'Twelve Thirteen - Special Edition'
     engine_id: ags
     company_id: fullyramblomatic
@@ -8341,6 +9036,7 @@
     series_id: '1213'
 -
     id: twc
+    new_id: 'wintermute:twc'
     name: 'The White Chamber'
     engine_id: wintermute
     company_id: studiotrophis
@@ -8353,6 +9049,7 @@
     series_id: ''
 -
     id: twisted
+    new_id: 'wage:twisted'
     name: Twisted!
     engine_id: wage
     company_id: unknown
@@ -8365,6 +9062,7 @@
     series_id: ''
 -
     id: ultima1
+    new_id: 'ultima:ultima1'
     name: 'Ultima I: The First Age of Darkness'
     engine_id: ultima
     company_id: origin
@@ -8377,6 +9075,7 @@
     series_id: ultima
 -
     id: ultima4
+    new_id: 'ultima:ultima4'
     name: 'Ultima IV: Quest of the Avatar'
     engine_id: ultima
     company_id: origin
@@ -8389,6 +9088,7 @@
     series_id: ultima
 -
     id: ultima4_enh
+    new_id: 'ultima:ultima4_enh'
     name: 'Ultima IV: Quest of the Avatar - Enhanced'
     engine_id: ultima
     company_id: origin
@@ -8401,6 +9101,7 @@
     series_id: ultima
 -
     id: ultima6
+    new_id: 'ultima:ultima6'
     name: 'Ultima VI: The False Prophet'
     engine_id: ultima
     company_id: origin
@@ -8413,6 +9114,7 @@
     series_id: ultima
 -
     id: ultima6_enh
+    new_id: 'ultima:ultima6_enh'
     name: 'Ultima VI: The False Prophet - Enhanced'
     engine_id: ultima
     company_id: origin
@@ -8425,6 +9127,7 @@
     series_id: ultima
 -
     id: ultima8
+    new_id: 'ultima:ultima8'
     name: 'Ultima VIII - Pagan'
     engine_id: ultima
     company_id: origin
@@ -8437,6 +9140,7 @@
     series_id: ultima
 -
     id: unavowed
+    new_id: 'ags:unavowed'
     name: Unavowed
     engine_id: ags
     company_id: wadjet
@@ -8449,6 +9153,7 @@
     series_id: ''
 -
     id: unclehenry
+    new_id: 'groovie:unclehenry'
     name: 'Uncle Henry''s Playhouse'
     engine_id: groovie
     company_id: trilobyte
@@ -8461,6 +9166,7 @@
     series_id: t7g
 -
     id: uninvited
+    new_id: 'macventure:uninvited'
     name: Uninvited
     engine_id: macventure
     company_id: icom
@@ -8473,6 +9179,7 @@
     series_id: ''
 -
     id: urban
+    new_id: 'gob:urban'
     name: 'Urban Runner'
     engine_id: gob
     company_id: coktel
@@ -8485,6 +9192,7 @@
     series_id: ''
 -
     id: urbanwitchstory
+    new_id: 'ags:urbanwitchstory'
     name: 'Urban Witch Story'
     engine_id: ags
     company_id: postmodern
@@ -8497,6 +9205,7 @@
     series_id: ''
 -
     id: verbcoin
+    new_id: 'sludge:verbcoin'
     name: 'Verb Coin'
     engine_id: sludge
     company_id: unknown
@@ -8509,6 +9218,7 @@
     series_id: ''
 -
     id: versailles
+    new_id: 'cryomni3d:versailles'
     name: 'Versailles 1685'
     engine_id: cryomni3d
     company_id: cryo
@@ -8521,6 +9231,7 @@
     series_id: ''
 -
     id: voodoo
+    new_id: 'agi:voodoo'
     name: 'Voodoo Girl - Queen of the Darned'
     engine_id: agi
     company_id: fan
@@ -8533,6 +9244,7 @@
     series_id: agifan
 -
     id: voyeur
+    new_id: 'voyeur:voyeur'
     name: Voyeur
     engine_id: voyeur
     company_id: philips
@@ -8545,6 +9257,7 @@
     series_id: ''
 -
     id: vsevolod
+    new_id: 'wintermute:vsevolod'
     name: Vsevolod
     engine_id: wintermute
     company_id: svarun
@@ -8557,6 +9270,7 @@
     series_id: ''
 -
     id: vvdinosaur
+    new_id: 'director:vvdinosaur'
     name: 'The Awesome Adventures of Victor Vector & Yondo: The Last Dinosaur Egg'
     engine_id: director
     company_id: sanctuary
@@ -8569,6 +9283,7 @@
     series_id: ''
 -
     id: vvvampire
+    new_id: 'director:vvvampire'
     name: 'The Awesome Adventures of Victor Vector & Yondo: The Vampire''s Coffin'
     engine_id: director
     company_id: sanctuary
@@ -8581,6 +9296,7 @@
     series_id: ''
 -
     id: wage
+    new_id: 'wage:wage'
     name: WAGE
     engine_id: wage
     company_id: unknown
@@ -8593,6 +9309,7 @@
     series_id: ''
 -
     id: war
+    new_id: 'wintermute:war'
     name: War
     engine_id: wintermute
     company_id: unknown
@@ -8605,6 +9322,7 @@
     series_id: ''
 -
     id: warlock
+    new_id: 'director:warlock'
     name: 'Spaceship Warlock'
     engine_id: director
     company_id: reactorinc
@@ -8617,6 +9335,7 @@
     series_id: ''
 -
     id: water
+    new_id: 'scumm:water'
     name: 'Freddi Fish and Luther''s Water Worries'
     engine_id: scumm
     company_id: he
@@ -8629,6 +9348,7 @@
     series_id: freddi
 -
     id: waxworks
+    new_id: 'agos:waxworks'
     name: Waxworks
     engine_id: agos
     company_id: adventuresoft
@@ -8641,6 +9361,7 @@
     series_id: ''
 -
     id: ween
+    new_id: 'gob:ween'
     name: 'Ween: The Prophecy'
     engine_id: gob
     company_id: coktel
@@ -8653,6 +9374,7 @@
     series_id: ''
 -
     id: welcome
+    new_id: 'sludge:welcome'
     name: 'Welcome Example'
     engine_id: sludge
     company_id: unknown
@@ -8665,6 +9387,7 @@
     series_id: ''
 -
     id: wetlands
+    new_id: 'hypno:wetlands'
     name: Wetlands
     engine_id: hypno
     company_id: hypnotix
@@ -8677,6 +9400,7 @@
     series_id: ''
 -
     id: whispersofamachine
+    new_id: 'ags:whispersofamachine'
     name: 'Whispers of a Machine'
     engine_id: ags
     company_id: clifftop
@@ -8689,6 +9413,7 @@
     series_id: ''
 -
     id: winnie
+    new_id: 'agi:winnie'
     name: 'Winnie the Pooh in the Hundred Acre Wood'
     engine_id: agi
     company_id: sierra
@@ -8701,6 +9426,7 @@
     series_id: disney
 -
     id: wintermute
+    new_id: 'wintermute:wintermute'
     name: 'Wintermute engine game'
     engine_id: wintermute
     company_id: deadcode
@@ -8713,6 +9439,7 @@
     series_id: ''
 -
     id: wmedemo
+    new_id: 'wintermute:wmedemo'
     name: 'Wintermute Engine Technology Demo'
     engine_id: wintermute
     company_id: deadcode
@@ -8725,6 +9452,7 @@
     series_id: ''
 -
     id: wmedemo3d
+    new_id: 'wintermute:wmedemo3d'
     name: 'Wintermute 3D Characters Technology Demo'
     engine_id: wintermute
     company_id: deadcode
@@ -8737,6 +9465,7 @@
     series_id: ''
 -
     id: wonderland
+    new_id: 'magnetic:wonderland'
     name: Wonderland
     engine_id: magnetic
     company_id: magnetic
@@ -8749,6 +9478,7 @@
     series_id: ''
 -
     id: woodruff
+    new_id: 'gob:woodruff'
     name: 'The Bizarre Adventures of Woodruff and the Schnibble'
     engine_id: gob
     company_id: coktel
@@ -8761,6 +9491,7 @@
     series_id: ''
 -
     id: worldofxeen
+    new_id: 'xeen:worldofxeen'
     name: 'Might and Magic: World of Xeen'
     engine_id: xeen
     company_id: nwc
@@ -8773,6 +9504,7 @@
     series_id: mm
 -
     id: wtetris
+    new_id: 'wintermute:wtetris'
     name: 'Wilma Tetris'
     engine_id: wintermute
     company_id: offstudio
@@ -8785,6 +9517,7 @@
     series_id: ''
 -
     id: xmascard
+    new_id: 'agi:xmascard'
     name: 'Xmas Card'
     engine_id: agi
     company_id: sierra
@@ -8797,6 +9530,7 @@
     series_id: sierrachristmas
 -
     id: zak
+    new_id: 'scumm:zak'
     name: 'Zak McKracken and the Alien Mindbenders'
     engine_id: scumm
     company_id: lucasarts
@@ -8809,6 +9543,7 @@
     series_id: lucasartsnoseries
 -
     id: zakloom
+    new_id: 'scumm:zakloom'
     name: 'Zak McKracken & Loom'
     engine_id: scumm
     company_id: lucasarts
@@ -8821,6 +9556,7 @@
     series_id: lucasartsnoseries
 -
     id: zbang
+    new_id: 'wintermute:zbang'
     name: 'Zbang! The Game'
     engine_id: wintermute
     company_id: corbomite
@@ -8833,6 +9569,7 @@
     series_id: ''
 -
     id: zcode
+    new_id: 'glk:zcode'
     name: 'ZCode (Infocom and Inform) Interactive Fiction games'
     engine_id: glk
     company_id: glk
@@ -8845,6 +9582,7 @@
     series_id: ''
 -
     id: zgi
+    new_id: 'zvision:zgi'
     name: 'Zork: Grand Inquisitor'
     engine_id: zvision
     company_id: activision
@@ -8857,6 +9595,7 @@
     series_id: zork
 -
     id: zork0
+    new_id: 'glk:zork0'
     name: 'Zork Zero: The Revenge of Megaboz'
     engine_id: glk
     company_id: infocom
@@ -8869,6 +9608,7 @@
     series_id: zork
 -
     id: zork1
+    new_id: 'glk:zork1'
     name: 'Zork I: The Great Underground Empire'
     engine_id: glk
     company_id: infocom
@@ -8881,6 +9621,7 @@
     series_id: zork
 -
     id: zork2
+    new_id: 'glk:zork2'
     name: 'Zork II: The Wizard of Frobozz'
     engine_id: glk
     company_id: infocom
@@ -8893,6 +9634,7 @@
     series_id: zork
 -
     id: zork3
+    new_id: 'glk:zork3'
     name: 'Zork III: The Dungeon Master'
     engine_id: glk
     company_id: infocom
@@ -8905,6 +9647,7 @@
     series_id: zork
 -
     id: zilm
+    new_id: 'wintermute:zilm'
     name: 'Zilm: A Game of Reflex'
     engine_id: wintermute
     company_id: skaldic
@@ -8917,6 +9660,7 @@
     series_id: ''
 -
     id: znemesis
+    new_id: 'zvision:znemesis'
     name: 'Zork Nemesis: The Forbidden Lands'
     engine_id: zvision
     company_id: activision
@@ -8929,6 +9673,7 @@
     series_id: zork
 -
     id: zniwadventure
+    new_id: 'ags:zniwadventure'
     name: 'Zniw Adventure'
     engine_id: ags
     company_id: azure
@@ -8941,6 +9686,7 @@
     series_id: ''
 -
     id: ztuu
+    new_id: 'glk:ztuu'
     name: 'Zork: The Undiscovered Underground'
     engine_id: glk
     company_id: infocom

@@ -107,7 +107,7 @@
 -
     id: draci
     name: 'Dračí Historie'
-    alt_name: 'Dračí Historie'
+    alt_name: ''
     enabled: true
 -
     id: dragons
