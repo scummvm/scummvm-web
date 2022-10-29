@@ -30,11 +30,11 @@ class Compatibility extends BaseCompatibility
     public function getScummVmId($version)
     {
         if ($version == "DEV" || version_compare($version, "2.2.0") > 0) {
-            // If version is > 2.2.0, return engine_id:game_id
-            return $this->getGame()->getEngineId() . ":" . $this->getGame()->getId();
+            // If version is > 2.2.0, return id
+            return $this->getGame()->getNewId();
         } else {
-            // If version is <= 2.2.0, return the game_id
-            return $this->getGame()->getId();
+            // If version is <= 2.2.0, remove the engine_id prefix
+            return str_replace($this->getGame()->getEngineId() . ":", "", $this->getGame()->getNewId());
         }
     }
 
