@@ -1,0 +1,31 @@
+---
+title: 'ScummVM 2.6.1 "Incremental Escapism" is here!'
+author: The ScummVM Team
+date: 1667238491
+---
+
+Escapism increases with yet another ScummVM release!
+
+The ScummVM Team is thrilled to announce the immediate availability of ScummVM 2.6.1.
+
+ScummVM 2.6.1 is a maintenance release mainly focused on improving the new features and engines we introduced in our previous release.
+
+This update includes upgrades for the following engines:
+
+* *AGS*
+* *AGOS*
+* *Asylum*
+* *Ultima*
+* *SCI*
+* *SCUMM*
+* *Tinsel*
+* *Toltecs*
+* *Toon*
+
+Other improvements include upgrading the icon-based grid view in the ScummVM launcher and fixing OpenGL render graphic corruptions.
+
+Finally, Android users will be able to properly use a mouse on virtual screens, and Windows users will not have any duplicated icons folder issues.
+
+As always, the detailed list of improvements is available [here](https://downloads.scummvm.org/frs/scummvm/2.6.1/ReleaseNotes.html).
+
+Thank you for your continuous support — happy adventuring!
