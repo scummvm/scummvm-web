@@ -22,6 +22,13 @@
     notes: ''
 -
     category: games
+    game_id: sword25
+    category_icon: sword
+    url: 'Broken Sword 2.5/lang_he.b25c'
+    name: 'Hebrew translation AddOn'
+    notes: 'Copy it to the game directory and run detection'
+-
+    category: games
     game_id: drascula
     category_icon: drascula
     url: 'Drascula_ The Vampire Strikes Back/drascula-1.0.zip'
