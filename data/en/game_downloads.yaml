@@ -468,3 +468,10 @@
     url: Obsidian/obsidian-subtitles-main-v1.zip
     name: 'Subtitles (English)'
     notes: 'Requires ScummVM 2.7.0'
+-
+    category: addons
+    game_id: toon
+    category_icon: toon
+    url: Toonstruck/Toonstruck_Subtitles.zip
+    name: 'Cutscene subtitles (English)'
+    notes: 'Requires ScummVM 2.2.0'
