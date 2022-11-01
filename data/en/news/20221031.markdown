@@ -26,6 +26,8 @@ Other improvements include upgrading the icon-based grid view in the ScummVM lau
 
 Finally, Android users will be able to properly use a mouse on virtual screens, and Windows users will not have any duplicated icons folder issues.
 
+You can find all of this goodness available for a number of platforms on [our downloads page](https://www.scummvm.org/downloads/). If you are using Windows, macOS, the Ubuntu Snap package or the FlatHub repository, the auto-update robots will assist you in updating to ScummVM 2.6.1.
+
 As always, the detailed list of improvements is available [here](https://downloads.scummvm.org/frs/scummvm/2.6.1/ReleaseNotes.html).
 
 Thank you for your continuous support — happy adventuring!
