@@ -161,7 +161,7 @@
     "menuDevelopmentPullRequests": "Sisäänvetopyynnöt",
     "menuDevelopmentTranslations": "Kielikäännökset",
     "menuDevelopmentDailies": "Päivittäiset kokoomat",
-    "menuDevelopmentSourceCode": "Lähdekoodipuu",
+    "menuDevelopmentSourceCode": "GitHub-sivusto",
     "menuDevelopmentBuildbot": "Rakennusbotti",
     "menuDevelopmentDoxygen": "Ohjelmointirajapinta",
     "menuDevelopmentDeveloperCentral": "Kehittäjäkeskus",
@@ -174,5 +174,6 @@
     "menuMiscLinks": "Linkit",
     "downloadsDailyNote3": "Muutoskirjauksista näet tuoreimmat ScummVM-päivitykset.",
     "menuMainFreewareGames": "Ilmaispelit & lisät",
-    "downloadsBadgeTitle": "Lataa ScummVM {julkaisu}"
+    "downloadsBadgeTitle": "Lataa ScummVM {julkaisu}",
+    "compatibilityDetailsChartColScummVmId": "ScummVM-tunnus (ID)"
 }
