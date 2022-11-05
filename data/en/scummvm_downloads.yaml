@@ -962,20 +962,20 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: haiku
     user_agent: ''
-    version: 2.6.0
+    version: 2.6.1
     url: 'scummvm_x86-{$version}-1-x86_gcc2.hpkg'
     name: 'Haiku package 32bits'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: haiku
     user_agent: ''
-    version: 2.6.0
+    version: 2.6.1
     url: 'scummvm-{$version}-1-x86_64.hpkg'
     name: 'Haiku package 64bits'
     notes: ''
