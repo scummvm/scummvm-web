@@ -166,6 +166,16 @@
     category_icon: ubuntu
     user_agent: ''
     version: 2.6.1
+    url: 'scummvm_{$version}-1_ubuntu22.10_amd64.deb'
+    name: 'Ubuntu 22.10 (kinetic) x86 64bit package'
+    notes: ''
+-
+    enabled: true
+    category: scummvm
+    subcategory: release
+    category_icon: ubuntu
+    user_agent: ''
+    version: 2.6.1
     url: 'scummvm_{$version}-1_ubuntu22.04_amd64.deb'
     name: 'Ubuntu 22.04 (jammy) x86 64bit package'
     notes: ''
