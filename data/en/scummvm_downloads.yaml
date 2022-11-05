@@ -177,7 +177,7 @@
     user_agent: ''
     version: 2.6.1
     url: 'scummvm_{$version}-1_ubuntu22.04_amd64.deb'
-    name: 'Ubuntu 22.04 (jammy) x86 64bit package'
+    name: 'Ubuntu 22.04 LTS (jammy) x86 64bit package'
     notes: ''
 -
     enabled: true
