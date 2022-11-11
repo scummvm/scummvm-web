@@ -23,7 +23,7 @@ class DataUtils
     // filename => sheet id
     const SHEET_IDS = [
         'platforms' => '1061029686',
-        'compatibility' => '854570757',
+        'compatibility' => '1989596967',
         'games' => '1946612063',
         'engines' => '0',
         'companies' => '226191984',

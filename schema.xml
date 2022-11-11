@@ -4,7 +4,9 @@
     <parameter name="name" value="auto_id" />
   </behavior>
   <table name="game" phpName="Game">
-    <column name="id" type="varchar" required="true" primaryKey="true"/>
+    <!--Use both id and new_id as we are migrating; eventually new_id will be renamed id-->
+    <column name="new_id" type="varchar" required="true" primaryKey="true"/>
+    <column name="id" type="varchar" required="true"/>
     <column name="name" type="varchar" size="255" required="true" primaryString="true" />
     <column name="datafiles" type="varchar" size="255"/>
     <column name="engine_id" type="varchar" size="24" required="true"/>
@@ -48,7 +50,7 @@
     <column name="stable_platforms" type="varchar" size="255"/>
     <column name="unstable_platforms" type="varchar" size="255"/>
     <foreign-key foreignTable="game" onDelete="CASCADE">
-      <reference local="id" foreign="id"/>
+      <reference local="id" foreign="new_id"/>
     </foreign-key>
     <foreign-key foreignTable="version" onDelete="CASCADE">
       <reference local="since_version" foreign="id"/>
