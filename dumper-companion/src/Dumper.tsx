@@ -11,6 +11,7 @@ export type State = {
     lang: Language;
     busy: boolean;
     unicode: boolean;
+    forceMacBinary: boolean;
     logs: ComponentChild[];
     dumpPercent: number;
     lastLogWasDumpPercent: boolean;
@@ -24,6 +25,7 @@ export default class Dumper extends Component<Props, State> {
             imageName: null,
             lang: Language.EN,
             unicode: true,
+            forceMacBinary: false,
             busy: false,
             logs: [],
             dumpPercent: -1,
@@ -55,6 +57,11 @@ export default class Dumper extends Component<Props, State> {
                 <div>
                     <input disabled={this.state.busy} type="checkbox" id="unicode" checked={this.state.unicode} onInput={this.handleUnicode.bind(this)}></input>
                     <label for="unicode">Allow Unicode file names</label>
+                </div>
+
+                <div>
+                    <input disabled={this.state.busy} type="checkbox" id="forceMacBinary" checked={this.state.forceMacBinary} onInput={this.handleForceMacBinary.bind(this)}></input>
+                    <label for="forceMacBinary">Always use MacBinary encoding</label>
                 </div>
 
                 <div>
@@ -109,6 +116,11 @@ export default class Dumper extends Component<Props, State> {
         this.setState(() => ({ unicode }));
     }}
 
+    handleForceMacBinary(e: Event): void {{
+        const forceMacBinary = (e.target as HTMLInputElement).checked;
+        this.setState(() => ({ forceMacBinary }));
+    }}
+
     handleDump(): void {
         this.log(`Loading volume "${this.state.imageName}"...`);
         this.setState(() => ({ busy: true }), () => {
@@ -137,7 +149,7 @@ export default class Dumper extends Component<Props, State> {
         this.updateDumpPercent(0, async () => {
             try {
                 const zipFS = new fs.FS();
-                volume.dumpToZip(zipFS.root, this.state.lang, !this.state.unicode, this.log.bind(this));
+                volume.dumpToZip(zipFS.root, this.state.lang, !this.state.unicode, this.state.forceMacBinary, this.log.bind(this));
                 const blob = await zipFS.exportBlob({
                     level: 0,
                     onprogress: (index, max) => {
