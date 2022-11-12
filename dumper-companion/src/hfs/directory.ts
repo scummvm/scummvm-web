@@ -85,13 +85,13 @@ export class AbstractFolder {
         return res;
     }
 
-    dumpToZip(zipDir: any, lang: Language, puny: boolean, log: (string) => void): void {
+    dumpToZip(zipDir: any, lang: Language, puny: boolean, forceMacBinary: boolean, log: (string) => void): void {
         for (const [name, child] of this.items()) {
             const encodedName = encodeFileName(name, lang, puny, log);
             if (child instanceof AbstractFolder) {
-                child.dumpToZip(zipDir.addDirectory(encodedName), lang, puny, log);
+                child.dumpToZip(zipDir.addDirectory(encodedName), lang, puny, forceMacBinary, log);
             } else {
-                zipDir.addUint8Array(encodedName, child.toBinary(name));
+                zipDir.addUint8Array(encodedName, forceMacBinary ? child.toMacBinary(name) : child.toBinary(name));
             }
         }
     }
