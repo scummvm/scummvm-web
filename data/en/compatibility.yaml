@@ -4521,3 +4521,10 @@
     since_version: DEV
     stable_platforms: 'mac,win'
     unstable_platforms: ''
+-
+    id: nebular
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
