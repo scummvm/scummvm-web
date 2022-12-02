@@ -537,6 +537,10 @@
         name: "Tobia Tesan"
         alias: ""
         description: ""
+      -
+        name: "Misty De M&eacute;o"
+        alias: "mistydemeo"
+        description: ""
     -
       name: "DM"
       person:
@@ -664,6 +668,10 @@
       -
         name: "Arnaud Boutonn&eacute;"
         alias: "Strangerke"
+        description: ""
+      -
+        name: "Simon Delamarre"
+        alias: "sdelamarre"
         description: ""
       -
         name: "Sven Hesse"
@@ -1060,7 +1068,7 @@
       person:
       -
         name: "Andrei Prykhodko"
-        alias: "whiterandrek"
+        alias: "Voltya"
         description: ""
       -
         name: "Eugene Sandulenko"
