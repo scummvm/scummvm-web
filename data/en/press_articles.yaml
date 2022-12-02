@@ -1,4 +1,8 @@
 # Press articles and other media featuring the project
+- url: "https://wireframe.raspberrypi.com/issues/69"
+  name: "ScummVM: More Than Just an Adventure"
+  source: "Wireframe — Issue 69"
+  date: "1 December 2022"
 - url: "https://www.deutschlandfunkkultur.de/videospiel-emulatoren-zwischen-kommerzieller-verwertung-und.1264.de.html?dram:article_id=504631"
   name: "Videospiel-Emulatoren: Zwischen kommerzieller Verwertung und schützenswertem Kulturgut"
   language: "German"
