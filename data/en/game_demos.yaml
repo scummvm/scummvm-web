@@ -154,7 +154,7 @@
 -
     id: arthur
     platform: mac
-    category: 'English, Spanish'
+    category: English/Spanish
     language: en
     language2: es
     language3: ''
@@ -218,7 +218,7 @@
 -
     id: atlantis
     platform: fmtowns
-    category: Non-Interactive
+    category: 'Japanese Non-Interactive'
     language: ja
     language2: ''
     language3: ''
@@ -634,7 +634,7 @@
 -
     id: feeble
     platform: dos
-    category: Non-Interactive
+    category: 'German Non-Interactive'
     language: de
     language2: ''
     language3: ''
@@ -1642,7 +1642,7 @@
 -
     id: maniac
     platform: dos
-    category: Non-Interactive
+    category: 'V1 Non-Interactive'
     language: en
     language2: ''
     language3: ''
@@ -1650,7 +1650,7 @@
 -
     id: maniac
     platform: dos
-    category: Non-Interactive
+    category: 'V2 Non-Interactive'
     language: en
     language2: ''
     language3: ''
@@ -1674,7 +1674,7 @@
 -
     id: monkey
     platform: dos
-    category: 'EGA German'
+    category: 'German EGA'
     language: de
     language2: ''
     language3: ''
@@ -2218,7 +2218,7 @@
 -
     id: puttrace
     platform: win
-    category: 'Updated Dutch'
+    category: 'Dutch Updated'
     language: nl
     language2: ''
     language3: ''
@@ -2434,7 +2434,7 @@
 -
     id: queen
     platform: dos
-    category: 'Interview Russian'
+    category: 'Russian Interview'
     language: ru
     language2: ''
     language3: ''
@@ -2642,7 +2642,7 @@
 -
     id: simon2
     platform: dos
-    category: 'CD German'
+    category: 'German CD'
     language: de
     language2: ''
     language3: ''
@@ -2650,7 +2650,7 @@
 -
     id: simon2
     platform: dos
-    category: Non-Interactive
+    category: 'German CD Non-Interactive'
     language: de
     language2: ''
     language3: ''
@@ -2690,7 +2690,7 @@
 -
     id: sky
     platform: dos
-    category: 'v0272 German'
+    category: 'German v0272'
     language: de
     language2: ''
     language3: ''
@@ -2986,7 +2986,7 @@
 -
     id: tentacle
     platform: dos
-    category: Non-Interactive
+    category: 'French Non-Interactive'
     language: fr
     language2: ''
     language3: ''
@@ -2994,7 +2994,7 @@
 -
     id: tentacle
     platform: dos
-    category: Non-Interactive
+    category: 'German Non-Interactive'
     language: de
     language2: ''
     language3: ''
@@ -3338,7 +3338,7 @@
 -
     id: tlc
     platform: win
-    category: 'Both Interactive and Non-Interactive'
+    category: 'German Both Interactive and Non-Interactive'
     language: de
     language2: ''
     language3: ''
@@ -3346,7 +3346,7 @@
 -
     id: chewy
     platform: dos
-    category: ''
+    category: German
     language: de
     language2: ''
     language3: ''
@@ -3391,3 +3391,11 @@
     language2: ''
     language3: ''
     url: /frs/demos/mtropolis/obsidian-win-demo4.zip
+-
+    id: simon1
+    platform: acorn
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/agos/simon1-acorn-demo-en.zip
