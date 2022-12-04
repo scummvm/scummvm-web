@@ -125,6 +125,11 @@
     alt_name: ''
     enabled: true
 -
+    id: freescape
+    name: Freescape
+    alt_name: ''
+    enabled: false
+-
     id: ngi
     name: NGI
     alt_name: 'Nikita Game Interface'

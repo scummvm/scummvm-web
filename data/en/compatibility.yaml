@@ -4528,3 +4528,10 @@
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: ''
+-
+    id: driller
+    support: good
+    notes: '- Minor missing features (UI details, special effects)  - Only EGA version is supported from DOS release'
+    since_version: DEV
+    stable_platforms: 'dos,amiga,atarist'
+    unstable_platforms: ''

@@ -2125,6 +2125,18 @@
     series_id: ''
 -
     id: driller
+    name: Driller
+    engine_id: freescape
+    company_id: incentive
+    moby_id: '5224'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: Driller
+    wikipedia_page: Driller_(video_game)
+    series_id: ''
+-
+    id: driller
     name: 'The Driller Incident'
     engine_id: wintermute
     company_id: unknown
