@@ -36,11 +36,6 @@
         ScummVM-compatible music sets by the original composer of several supported games, including instructions on 
         how to hear the remastered music while playing.
       url: 'https://thefatmanandteamfat.bandcamp.com'
-    - name: The Longest Journey HD
-      notes: >-
-        A mod that includes neural network upscaled backgrounds and sprites, redrawn user interface and a lot of other 
-        small improvements thanks to the ScummVM implementation of the game engine.
-      url: 'https://tljhd.github.io'
     - name: Monkey Island Ultimate Talkie Edition Builders
       notes: >-
         Builders to create talkie versions for DOS and ScummVM out of the Special Edition releases.
