@@ -61,7 +61,7 @@ export default class Dumper extends Component<Props, State> {
 
                 <div>
                     <input disabled={this.state.busy} type="checkbox" id="forceMacBinary" checked={this.state.forceMacBinary} onInput={this.handleForceMacBinary.bind(this)}></input>
-                    <label for="forceMacBinary">Always use MacBinary encoding (use only when explicitely needed for an engine)</label>
+                    <label for="forceMacBinary">Always use MacBinary encoding (use only when explicitly needed for an engine)</label>
                 </div>
 
                 <div>
