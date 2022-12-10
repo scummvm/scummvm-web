@@ -30,6 +30,12 @@
     language: en
     variant_id: '1'
 -
+    id: adibou2
+    variant: ''
+    platform_id: dos
+    language: fr
+    variant_id: '1'
+-
     id: airport
     variant: ''
     platform_id: win
