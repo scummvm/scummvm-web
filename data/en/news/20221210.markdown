@@ -1,13 +1,18 @@
 ---
-title: Get ready for a pink adventure
-author: Voltya
-date: 1664109623
+title: Welcome to Adibou's magical wonderland
+author: sdelamarre
+date: 1670710656
 ---
 
-Are you ready to be sent to Camp ChillyWawa and Dr. Periowinkle's mansion as an intelligence agent?
 
-Armed with a book of knowledge, or Pink Digital Assistant, your mission will be to save children from dangerous threats and undo a spell cast on a little girl who has been transformed into a wombat. To succeed you will need to visit several countries and even travel into the past. On your way you will encounter historical monuments and exhibits.
+We are pleased to announce that ScummVM now supports _Adibou 2_, a popular educational game developed by Coktel Vision in 1996.
 
-The ScummVM team is proud to announce that _The Pink Panther: Passport to Peril_ and _The Pink Panther: Hokus Pokus Pink_ are finally ready for their testing period.
+Designed for children from 4 to 7 years old, the world of Adibou is warm and full of surprises. It offers an intelligent and appealing introduction to essential knowledge like reading and math.
 
-If you want to help with the tests, use the latest [daily build](https://www.scummvm.org/downloads/#daily) of ScummVM to play the Windows version of the games. Please report any issues you encounter on our [bug tracker](https://bugs.scummvm.org/). Be sure to follow our [testing and bug reporting guidelines](http://wiki.scummvm.org/index.php/Release_Testing).
+Whether you have young kids in your family, or are keen on reliving your childhood memories for a while, fetch the latest [daily build](https://www.scummvm.org/downloads/#daily) of ScummVM, your own copy of _Adibou 2_, and start learning having fun with Adibou, Plop, Robitoc and Kicook!
+
+You must copy the content of your Adibou “Environment” CD into the game directory added to ScummVM. Then, for any Adibou Application you want to add, just copy the content of their CD into a freely named subdirectory of the main game directory.
+
+Only _Read/Count 4-5 years_, _Read/Count 6-7 years_ applications are supported for now, but we hope _Science_, _Music_ and _English_ will come soon.
+
+Currently ScummVM is aware of several Adibou versions in French, German and English, let us know if you own any language/version not yet registered. Please also report to the [issue tracker](https://bugs.scummvm.org/) any glitch you may encounter.
