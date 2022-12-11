@@ -16,6 +16,14 @@
     language3: ''
     url: /frs/demos/access/martian-demo.zip
 -
+    id: adibou2
+    platform: dos
+    category: ''
+    language: fr
+    language2: ''
+    language3: ''
+    url: /frs/demos/gob/adibou2-dos-demo-fr.zip
+-
     id: agidemo
     platform: dos
     category: '3-D Helicopter Sim, Police Quest, Thexder, Space Quest 2, Mixed-up Mother Goose, Leisure Suit Larry'
