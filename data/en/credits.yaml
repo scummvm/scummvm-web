@@ -617,6 +617,17 @@
         alias: "wjp"
         description: ""
     -
+      name: "Freescape"
+      person:
+      -
+        name: "Chris Allen"
+        alias: ""
+        description: "Sound engine programming"
+      -
+        name: "Gustavo Grieco"
+        alias: "neuromancer"
+        description: ""
+    -
       name: "Glk"
       person:
       -
