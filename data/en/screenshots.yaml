@@ -438,6 +438,24 @@
     language: it
     variant_id: '1'
 -
+    id: driller
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: driller
+    variant: TinyGL
+    platform_id: dos
+    language: en
+    variant_id: '2'
+-
+    id: driller
+    variant: ''
+    platform_id: amiga
+    language: en
+    variant_id: '1'
+-
     id: duckman
     variant: ''
     platform_id: win
