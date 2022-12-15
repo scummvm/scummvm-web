@@ -128,7 +128,7 @@
     id: freescape
     name: Freescape
     alt_name: ''
-    enabled: false
+    enabled: true
 -
     id: ngi
     name: NGI
