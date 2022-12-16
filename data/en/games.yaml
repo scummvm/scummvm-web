@@ -1610,7 +1610,7 @@
 -
     id: corruption
     name: Corruption
-    engine_id: magnetic
+    engine_id: glk
     company_id: magnetic
     moby_id: '1029'
     steam_id: ''
@@ -2486,7 +2486,7 @@
 -
     id: fish
     name: Fish!
-    engine_id: magnetic
+    engine_id: glk
     company_id: magnetic
     moby_id: '2755'
     steam_id: ''
@@ -3014,7 +3014,7 @@
 -
     id: guild
     name: 'The Guild of Thieves'
-    engine_id: magnetic
+    engine_id: glk
     company_id: magnetic
     moby_id: '1323'
     steam_id: ''
@@ -3686,7 +3686,7 @@
 -
     id: jinxter
     name: Jinxter
-    engine_id: magnetic
+    engine_id: glk
     company_id: magnetic
     moby_id: '1291'
     steam_id: ''
@@ -5150,7 +5150,7 @@
 -
     id: myth
     name: Myth
-    engine_id: magnetic
+    engine_id: glk
     company_id: magnetic
     moby_id: '2796'
     steam_id: ''
@@ -5582,7 +5582,7 @@
 -
     id: pawn
     name: 'The Pawn'
-    engine_id: magnetic
+    engine_id: glk
     company_id: magnetic
     moby_id: '1322'
     steam_id: ''
@@ -8750,7 +8750,7 @@
 -
     id: wonderland
     name: Wonderland
-    engine_id: magnetic
+    engine_id: glk
     company_id: magnetic
     moby_id: '97'
     steam_id: ''
