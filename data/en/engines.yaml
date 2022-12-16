@@ -75,11 +75,6 @@
     alt_name: ''
     enabled: true
 -
-    id: comprehend
-    name: Comprehend
-    alt_name: ''
-    enabled: true
--
     id: cruise
     name: CruisE
     alt_name: ''

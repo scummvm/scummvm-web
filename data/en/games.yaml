@@ -1634,7 +1634,7 @@
 -
     id: crimsoncrown
     name: 'The Crimson Crown: Further Adventures in Transylvania'
-    engine_id: comprehend
+    engine_id: glk
     company_id: polarware
     moby_id: '86'
     steam_id: ''
@@ -5390,7 +5390,7 @@
 -
     id: ootopos
     name: OO-Topos
-    engine_id: comprehend
+    engine_id: glk
     company_id: polarware
     moby_id: '148433'
     steam_id: ''
@@ -7766,7 +7766,7 @@
 -
     id: talisman
     name: 'Talisman: Challenging the Sands of Time'
-    engine_id: comprehend
+    engine_id: glk
     company_id: polarware
     moby_id: '21943'
     steam_id: ''
@@ -8246,7 +8246,7 @@
 -
     id: transylvania
     name: Transylvania
-    engine_id: comprehend
+    engine_id: glk
     company_id: polarware
     moby_id: '91'
     steam_id: ''
