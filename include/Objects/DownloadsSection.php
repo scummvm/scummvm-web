@@ -32,11 +32,11 @@ class DownloadsSection extends BasicSection
             // If this item is for an old version, sort all items by version, descending, then by autoId
             if ($this->hasOldVersion($item)) {
                 usort($this->items, function ($a, $b) {
-                    // Return 0 if equal, -1 if $a->version is larger, 1 if $b->version is larger
-                    $versionSortResult = -version_compare($a->version, $b->version);
+                    // Return 0 if equal, -1 if $a->getVersion() is larger, 1 if $b->getVersion() is larger
+                    $versionSortResult = -version_compare($a->getVersion(), $b->getVersion());
                     if ($versionSortResult == 0) {
-                        // Return 0 if equal, -1 if $a->autoId is smaller, 1 if $b->autoId is smaller
-                        return $a->autoId <=> $b->autoId;
+                        // Return 0 if equal, -1 if $a->getAutoId() is smaller, 1 if $b->getAutoId() is smaller
+                        return $a->getAutoId() <=> $b->getAutoId();
                     } else {
                         return $versionSortResult;
                     }

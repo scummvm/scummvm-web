@@ -8,11 +8,15 @@ use ScummVM\FileUtils;
  */
 class File extends BasicObject
 {
+    private $autoId;
+    private $category;
     private $category_icon;
     private $url;
     private $extra_info;
     private $notes;
+    private $subcategory;
     private $user_agent;
+    private $version;
 
     public function __construct($data, $baseUrl = null)
     {
@@ -88,5 +92,17 @@ class File extends BasicObject
     public function getUserAgent()
     {
         return $this->user_agent;
+    }
+
+    /* Get the auto-id (the order it is listed in the data source). */
+    public function getAutoId(): ?int
+    {
+        return $this->autoId;
+    }
+
+    /* Get the version. */
+    public function getVersion(): ?string
+    {
+        return $this->version;
     }
 }
