@@ -26,8 +26,8 @@
     enabled: true
 -
     id: asylum
-    name: Sanitarium
-    alt_name: ''
+    name: Asylum
+    alt_name: Sanitarium
     enabled: true
 -
     id: avalanche
@@ -101,8 +101,8 @@
     enabled: false
 -
     id: draci
-    name: 'Dračí Historie'
-    alt_name: ''
+    name: Draci
+    alt_name: 'Dračí Historie'
     enabled: true
 -
     id: dragons
@@ -315,6 +315,11 @@
     alt_name: 'Scripts for Animated Graphic Adventures'
     enabled: true
 -
+    id: saga2
+    name: SAGA2
+    alt_name: 'Scripts for Animated Graphic Adventures 2'
+    enabled: true
+-
     id: sci
     name: SCI
     alt_name: 'Sierra Creative Interpreter'
@@ -457,5 +462,25 @@
 -
     id: testbed
     name: Testbed
+    alt_name: ''
+    enabled: false
+-
+    id: nancy
+    name: Nancy
+    alt_name: ''
+    enabled: false
+-
+    id: playground3d
+    name: 'Playground 3D'
+    alt_name: ''
+    enabled: false
+-
+    id: saga2
+    name: 'SAGA 2'
+    alt_name: 'Scripts for Animated Graphic Adventures 2'
+    enabled: false
+-
+    id: hpl1
+    name: 'HPL 1'
     alt_name: ''
     enabled: false

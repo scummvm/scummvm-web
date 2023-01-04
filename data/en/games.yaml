@@ -2702,13 +2702,13 @@
 -
     id: fta2
     name: 'Halls of the Dead: Faery Tale Adventure II'
-    engine_id: saga
+    engine_id: saga2
     company_id: dreamersguild
     moby_id: '3414'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: 'Halls_of_the_Dead:_Faery_Tale_Adventure_II'
     wikipedia_page: 'Faery_Tale_Adventure_II:_Halls_of_the_Dead'
     series_id: ''
 -

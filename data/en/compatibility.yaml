@@ -4535,3 +4535,38 @@
     since_version: DEV
     stable_platforms: 'dos,amiga,atarist'
     unstable_platforms: ''
+-
+    id: lzone
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac,pippin'
+    unstable_platforms: 'macintosh2,fmtowns'
+-
+    id: comi
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: dig
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'dos,mac,steam,win'
+    unstable_platforms: ''
+-
+    id: ft
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'dos,mac'
+    unstable_platforms: ''
+-
+    id: fta2
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
