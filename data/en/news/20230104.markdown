@@ -1,0 +1,11 @@
+---
+title: "Hail, traveler. Welcome to Farr."
+author: sev
+date: 1672871148
+---
+
+Most new visitors don’t know about Mrs. Riddenbutter’s, but you should do yourself a favor and enjoy some of her hospitality and a tankard or two of her ale. Double-click on her door to open it, and step inside. Riddenbutter works the bar, and the smart traveler should speak with her. Drop an idea on her to get her chatting. Like most people, she likes to talk about this and that and the other thing, and she’ll also frequently respond with information that’s more local in nature.
+
+Yes, the ScummVM team announces support for _Halls of the Dead: Faery Tale Adventure II_, a marvellous work by our GSoC’21 student Yuri Guimaraes aka a-yyg, who ported the original SAGA2 engine from 1997 by The Dreamers Guild.
+
+Please assist us with testing this game. Take your old dusty CD and feed it to the ScummVM. As usual, you will need the [latest daily build](https://www.scummvm.org/downloads/#daily) of ScummVM. If you encounter any bugs or problems during your gameplay, please file them on our [issue tracker](https://bugs.scummvm.org/).
