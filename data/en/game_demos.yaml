@@ -634,7 +634,7 @@
     platform: mac
     '': ''
     category: ''
-    language: ''
+    language: he
     language2: ''
     language3: ''
     url: f/rs/demos/composer/magictales-demo-mac-he.zip
@@ -643,7 +643,7 @@
     platform: win
     '': ''
     category: ''
-    language: ''
+    language: he
     language2: ''
     language3: ''
     url: /frs/demos/composer/magictales-demo-win-he.zip
@@ -2764,7 +2764,7 @@
     url: /frs/demos/sci/fairytales-dos-ni-demo-en.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Fanmade Game'
     language: en
@@ -2773,7 +2773,7 @@
     url: /frs/demos/sci/fangame/120_Degrees_Below_Zero.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Al Pond 2: Island Quest'
     language: en
@@ -2782,7 +2782,7 @@
     url: /frs/demos/sci/fangame/Al_Pond_2-_Island_Quest.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Another DG Game: I Want My C64 Back'
     language: en
@@ -2791,7 +2791,7 @@
     url: /frs/demos/sci/fangame/Another_DG_Game-_I_want_my_C64_back_(French).zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Another DG Game: I Want My C64 Back'
     language: en
@@ -2800,7 +2800,7 @@
     url: /frs/demos/sci/fangame/Another_DG_Game-_I_want_my_C64_back.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Aquarius: An Aquatic Experience'
     language: en
@@ -2809,7 +2809,7 @@
     url: /frs/demos/sci/fangame/Aquarius-_an_Aquatic_Experience.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Betrayed Alliance'
     language: en
@@ -2818,7 +2818,7 @@
     url: /frs/demos/sci/fangame/BetrayedAllianceSetupSRC.exe
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Bluntman and Chronic (Politically Correct Version)'
     language: en
@@ -2827,7 +2827,7 @@
     url: /frs/demos/sci/fangame/Bluntman_and_Chronic_PC_version.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Cascade Quest'
     language: en
@@ -2836,7 +2836,7 @@
     url: /frs/demos/sci/fangame/Cascade_Quest_Demo.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Circus Quest'
     language: en
@@ -2845,7 +2845,7 @@
     url: /frs/demos/sci/fangame/Circus_Quest.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Demo Quest'
     language: en
@@ -2854,7 +2854,7 @@
     url: /frs/demos/sci/fangame/Demo_Quest.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Edy Oliver into the Cave of Whistling Skulls Demo'
     language: en
@@ -2863,7 +2863,7 @@
     url: /frs/demos/sci/fangame/Edy_Oliver_into_the_Cave_of_Whistling_Skulls.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'The Farm Nightmare'
     language: en
@@ -2872,7 +2872,7 @@
     url: /frs/demos/sci/fangame/Farm_Nightmare.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Footsteps Sound Demo'
     language: en
@@ -2881,7 +2881,7 @@
     url: /frs/demos/sci/fangame/Footsteps_Sound_Demo.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'The Gem Scenario'
     language: en
@@ -2890,7 +2890,7 @@
     url: /frs/demos/sci/fangame/Gem_Scenario.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Grostesteing: Plus Mechant que Jamais (French)'
     language: fr
@@ -2899,7 +2899,7 @@
     url: /frs/demos/sci/fangame/Grostesteing-_plus_mechant_que_jamais.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Humanoid Demo'
     language: en
@@ -2908,7 +2908,7 @@
     url: /frs/demos/sci/fangame/HUMANOID_Demo_(Polish).zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Island of Secrets Demo 0.3'
     language: en
@@ -2917,7 +2917,7 @@
     url: /frs/demos/sci/fangame/Island_of_Secrets_v0_3_(Demo).zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Jim''s Quest 1: The Phantom Thesis'
     language: en
@@ -2926,7 +2926,7 @@
     url: /frs/demos/sci/fangame/Jims_Quest_1-_The_Phantom_Thesis.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Dr. Jummybummy''s Space Adventure 2'
     language: en
@@ -2935,7 +2935,7 @@
     url: /frs/demos/sci/fangame/jummy2.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'King''s Quest II SCI Pre-Alpha Version'
     language: en
@@ -2944,7 +2944,7 @@
     url: /frs/demos/sci/fangame/Kings_Quest_II_SCI_2013-02-01.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Knight''s Quest Demo 1.0'
     language: en
@@ -2953,7 +2953,7 @@
     url: /frs/demos/sci/fangame/Knights_Quest_Demo.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'The Legend of the Lost Jewel'
     language: en
@@ -2962,7 +2962,7 @@
     url: /frs/demos/sci/fangame/Legend_of_the_Lost_Jewel_Demo.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'LockerGnome Quest Redux'
     language: en
@@ -2971,7 +2971,7 @@
     url: /frs/demos/sci/fangame/LockerGnome_Quest_Redux.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'LockerGnome Quest'
     language: en
@@ -2980,7 +2980,7 @@
     url: /frs/demos/sci/fangame/LockerGnome_Quest.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Ocean Battle'
     language: en
@@ -2989,7 +2989,7 @@
     url: /frs/demos/sci/fangame/Ocean_Battle.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Osama Been Skatin'
     language: en
@@ -2998,7 +2998,7 @@
     url: /frs/demos/sci/fangame/Osama_Been_Skatin.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Quest for the Cheat'
     language: en
@@ -3007,7 +3007,7 @@
     url: /frs/demos/sci/fangame/Quest_for_the_Cheat.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Robust Parse Demo 1.2'
     language: en
@@ -3016,7 +3016,7 @@
     url: /frs/demos/sci/fangame/Robust_Parse_Demo_v1_2.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'SCI Capture the Flag'
     language: en
@@ -3025,7 +3025,7 @@
     url: /frs/demos/sci/fangame/SCI_Capture_the_Flag_(minigame).zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'SCI Logging Demo'
     language: en
@@ -3034,7 +3034,7 @@
     url: /frs/demos/sci/fangame/SCI_Logging_Demo.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'SCI Narration Demo'
     language: en
@@ -3043,7 +3043,7 @@
     url: /frs/demos/sci/fangame/SCI_Narration_Demo.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'SCI Quest'
     language: en
@@ -3052,7 +3052,7 @@
     url: /frs/demos/sci/fangame/SCI_Quest.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: SCI-Man
     language: en
@@ -3061,7 +3061,7 @@
     url: /frs/demos/sci/fangame/SCI-Man.zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Text Views Demo'
     language: en
@@ -3070,7 +3070,7 @@
     url: /frs/demos/sci/fangame/Text_Views_(demo).zip
 -
     id: sci-fanmade
-    platform: ''
+    platform: dos
     '': ''
     category: 'Winter Wonderland'
     language: en
@@ -3151,7 +3151,7 @@
     url: /frs/demos/sci/hoyle4-dos-ni-demo-en.zip
 -
     id: hoyle5
-    platform: ''
+    platform: dos
     '': ''
     category: ''
     language: en

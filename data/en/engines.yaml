@@ -175,6 +175,11 @@
     alt_name: ''
     enabled: true
 -
+    id: hpl1
+    name: 'HPL 1'
+    alt_name: ''
+    enabled: false
+-
     id: hugo
     name: Hugo
     alt_name: ''
@@ -275,6 +280,11 @@
     alt_name: ''
     enabled: true
 -
+    id: nancy
+    name: Nancy
+    alt_name: ''
+    enabled: false
+-
     id: neverhood
     name: 'The Neverhood'
     alt_name: ''
@@ -299,6 +309,11 @@
     name: 'Pink Panther'
     alt_name: ''
     enabled: true
+-
+    id: playground3d
+    name: 'Playground 3D'
+    alt_name: ''
+    enabled: false
 -
     id: plumbers
     name: 'Plumbers Don''t Wear Ties!'
@@ -390,6 +405,11 @@
     alt_name: ''
     enabled: true
 -
+    id: testbed
+    name: Testbed
+    alt_name: ''
+    enabled: false
+-
     id: tinsel
     name: Tinsel
     alt_name: ''
@@ -469,28 +489,3 @@
     name: ZVision
     alt_name: ''
     enabled: true
--
-    id: testbed
-    name: Testbed
-    alt_name: ''
-    enabled: false
--
-    id: nancy
-    name: Nancy
-    alt_name: ''
-    enabled: false
--
-    id: playground3d
-    name: 'Playground 3D'
-    alt_name: ''
-    enabled: false
--
-    id: saga2
-    name: 'SAGA 2'
-    alt_name: 'Scripts for Animated Graphic Adventures 2'
-    enabled: false
--
-    id: hpl1
-    name: 'HPL 1'
-    alt_name: ''
-    enabled: false
