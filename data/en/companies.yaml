@@ -856,6 +856,10 @@
     name: 'Off Studio'
     alt_name: ''
 -
+    id: optik
+    name: "Optik\_Software,\_Inc."
+    alt_name: ''
+-
     id: origin
     name: 'Origin Systems'
     alt_name: ''
@@ -1096,6 +1100,10 @@
     name: 'Stranga Games'
     alt_name: ''
 -
+    id: strummer
+    name: 'Strummer Games'
+    alt_name: ''
+-
     id: studiotrophis
     name: 'Studio Trophis'
     alt_name: ''
@@ -1222,6 +1230,10 @@
 -
     id: wanderlust
     name: 'Wanderlust Interactive'
+    alt_name: ''
+-
+    id: watchdatoast
+    name: WatchDaToast
     alt_name: ''
 -
     id: warner

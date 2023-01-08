@@ -190,6 +190,11 @@
     alt_name: ''
     enabled: false
 -
+    id: igor
+    name: Igor
+    alt_name: ''
+    enabled: false
+-
     id: illusions
     name: Illusions
     alt_name: ''
@@ -224,6 +229,11 @@
     name: 'Lure of the Temptress'
     alt_name: ''
     enabled: true
+-
+    id: m4
+    name: M4
+    alt_name: ''
+    enabled: false
 -
     id: macventure
     name: MacVenture

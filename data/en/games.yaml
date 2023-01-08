@@ -24,6 +24,18 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 3dkit-fanmade
+    name: '3D Kit'
+    engine_id: freescape
+    company_id: incentive
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 5daysastranger
     name: '5 Days A Stranger'
     engine_id: ags
@@ -347,6 +359,18 @@
     datafiles: ''
     wikipedia_page: ''
     series_id: alemmo
+-
+    id: alientales
+    name: 'Alien Tales'
+    engine_id: mohawk
+    company_id: broderbund
+    moby_id: '130786'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
 -
     id: alimardan1
     name: 'Alimardan''s Mischief'
@@ -840,6 +864,18 @@
     wikipedia_page: 'Ben_There,_Dan_That!'
     series_id: ''
 -
+    id: beyondowlsgard
+    name: 'Beyond the Edge of Owlsgard'
+    engine_id: ags
+    company_id: watchdatoast
+    moby_id: ''
+    steam_id: '1709730'
+    gog_id: beyond_the_edge_of_owlsgard
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: bickadoodle
     name: Bickadoodle
     engine_id: wintermute
@@ -1053,6 +1089,18 @@
     gog_id: ''
     additional_stores: ''
     datafiles: Beyond_the_Threshold
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: burger
+    name: 'Orion Burger'
+    engine_id: m4
+    company_id: sanctuary
+    moby_id: '3190'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
     wikipedia_page: ''
     series_id: ''
 -
@@ -1692,11 +1740,47 @@
     wikipedia_page: Carmen_Sandiego%27s_Great_Chase_Through_Time
     series_id: carmen
 -
+    id: csusa
+    name: 'Where in the USA is Carmen Sandiego?'
+    engine_id: mohawk
+    company_id: broderbund
+    moby_id: '315'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: csworld
+    name: 'Where in the World is Carmen Sandiego?'
+    engine_id: mohawk
+    company_id: broderbund
+    moby_id: '147200'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: cubert
     name: 'Cubert Badbone, P.I.'
     engine_id: sludge
     company_id: deirdrakiai
     moby_id: '24279'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: danewguys2
+    name: 'Da New Guys: Day of the Jackass'
+    engine_id: ags
+    company_id: wadjet
+    moby_id: '64888'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
@@ -2208,6 +2292,18 @@
     wikipedia_page: The_Last_Dynasty
     series_id: ''
 -
+    id: dynastywood
+    name: 'The Last Dynasty & Woodruff'
+    engine_id: gob
+    company_id: coktel
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: ecoquest
     name: 'EcoQuest: The Search for Cetus'
     engine_id: sci
@@ -2494,6 +2590,18 @@
     additional_stores: ''
     datafiles: Fish!
     wikipedia_page: Fish!
+    series_id: ''
+-
+    id: flashtraffic
+    name: 'Flash Traffic: City of Angels'
+    engine_id: tsage
+    company_id: warner
+    moby_id: '14651'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: football
@@ -3516,6 +3624,18 @@
     wikipedia_page: ''
     series_id: id4
 -
+    id: igor
+    name: 'Igor: Objective Uikokahonia'
+    engine_id: igor
+    company_id: optik
+    moby_id: '2170'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: 'Igor:_Objective_Uikokahonia'
+    series_id: ''
+-
     id: ihnm
     name: 'Harlan Ellison: I Have No Mouth, and I Must Scream'
     engine_id: saga
@@ -3539,6 +3659,18 @@
     datafiles: ''
     wikipedia_page: Magic_Tales
     series_id: magictales
+-
+    id: inca
+    name: Inca
+    engine_id: gob
+    company_id: coktel
+    moby_id: '4198'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
 -
     id: inca2
     name: 'Inca II: Nations of Immortality'
@@ -3874,6 +4006,18 @@
     additional_stores: '- [Itch.io](https://svarunentertainment.itch.io/knossos)'
     datafiles: K%27NOSSOS
     wikipedia_page: ''
+    series_id: ''
+-
+    id: koala
+    name: 'Koala Lumpur: Journey to the Edge'
+    engine_id: mohawk
+    company_id: broderbund
+    moby_id: '4462'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: 'Koala_Lumpur:_Journey_to_the_Edge'
     series_id: ''
 -
     id: kq1
@@ -5424,6 +5568,18 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: orly
+    name: 'Orly''s Draw-A-Story'
+    engine_id: mohawk
+    company_id: broderbund
+    moby_id: '140066'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: 'Orly''s_Draw-A-Story'
+    series_id: ''
+-
     id: os
     name: '007: James Bond - The Stealth Affair'
     engine_id: cine
@@ -5710,6 +5866,18 @@
     additional_stores: ''
     datafiles: Return_of_the_Phantom
     wikipedia_page: Return_of_the_Phantom
+    series_id: ''
+-
+    id: phantomfellows
+    name: 'The Phantom Fellows'
+    engine_id: ags
+    company_id: strummer
+    moby_id: ''
+    steam_id: '1581490'
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: pigeons
@@ -6084,6 +6252,18 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: protostar
+    name: 'Protostar: War on the Frontier'
+    engine_id: tsage
+    company_id: tsunami
+    moby_id: '3448'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: puttcircus
     name: 'Putt-Putt Joins the Circus'
     engine_id: scumm
@@ -6396,6 +6576,18 @@
     wikipedia_page: ''
     series_id: blue
 -
+    id: realm
+    name: 'The Realm'
+    engine_id: sci
+    company_id: sierra
+    moby_id: '4363'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: rebeccacarlson1
     name: 'Rebecca Carlson Mystery 01 - Silent Footsteps'
     engine_id: wintermute
@@ -6526,6 +6718,18 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: Richard_%26_Alice
+    series_id: ''
+-
+    id: riddle
+    name: 'Ripley''s Believe It or Not!: The Riddle of Master Lu'
+    engine_id: m4
+    company_id: sanctuary
+    moby_id: '1996'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: ringworld
@@ -6994,6 +7198,18 @@
     additional_stores: ''
     datafiles: Shivers
     wikipedia_page: Shivers_(video_game)
+    series_id: sierranoseries
+-
+    id: shivers2
+    name: 'Shivers 2: Harvest of Souls'
+    engine_id: sci
+    company_id: sierra
+    moby_id: '665'
+    steam_id: ''
+    gog_id: shivers_ii_harvest_of_souls
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: 'Shivers_II:_Harvest_of_Souls'
     series_id: sierranoseries
 -
     id: simon1
@@ -7799,6 +8015,18 @@
     datafiles: Tanya_Grotter_and_the_Disappearing_Floor
     wikipedia_page: ''
     series_id: tanya
+-
+    id: teacher
+    name: 'Bruce Coville''s My Teacher Is an Alien'
+    engine_id: hypno
+    company_id: hypnotix
+    moby_id: '157029'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
 -
     id: technobabylon
     name: Technobabylon
@@ -8867,6 +9095,18 @@
     datafiles: 'Zork:_Grand_Inquisitor'
     wikipedia_page: 'Zork:_Grand_Inquisitor'
     series_id: zork
+-
+    id: zoombini
+    name: 'Logical Journey of the Zoombinis'
+    engine_id: mohawk
+    company_id: broderbund
+    moby_id: '16801'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Logical_Journey_of_the_Zoombinis
+    series_id: ''
 -
     id: zork0
     name: 'Zork Zero: The Revenge of Megaboz'
