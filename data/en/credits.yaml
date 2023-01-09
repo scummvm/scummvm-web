@@ -787,6 +787,13 @@
         alias: "dreammaster"
         description: ""
     -
+      name: "Hpl1"
+      person:
+      -
+        name: "Emanuele Grisenti"
+        alias: "grisenti"
+        description: ""
+    -
       name: "Hugo"
       person:
       -
@@ -2052,6 +2059,10 @@
         name: "???"
         alias: "Trembyle"
         description: "Archivist"
+      -
+        name: "Lothar Serra Mari"
+        alias: "rootfather"
+        description: "Tackling Tremendously Tedious Tasks(tm); ScummVM's Seal of Approval (Awp?!)"
   -
     title: "Website (code)"
     anchor: "web_code"
