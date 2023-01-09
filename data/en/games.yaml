@@ -25,7 +25,7 @@
     series_id: ''
 -
     id: 3dkit-fanmade
-    name: '3D Kit'
+    name: '3D Construction Kit'
     engine_id: freescape
     company_id: incentive
     moby_id: ''
@@ -33,7 +33,7 @@
     gog_id: ''
     additional_stores: ''
     datafiles: ''
-    wikipedia_page: ''
+    wikipedia_page: 3D_Construction_Kit
     series_id: ''
 -
     id: 5daysastranger
@@ -976,7 +976,7 @@
     name: 'Blade Runner with restored content'
     engine_id: bladerunner
     company_id: westwood
-    moby_id: '32411'
+    moby_id: '341'
     steam_id: ''
     gog_id: blade_runner
     additional_stores: ''
@@ -1633,7 +1633,7 @@
     series_id: mi
 -
     id: conspiracao
-    name: 'Conspiracao Dumont'
+    name: 'Conspiração Dumont'
     engine_id: wintermute
     company_id: unknown
     moby_id: '-1'
@@ -3325,7 +3325,7 @@
     series_id: ''
 -
     id: hoyle1
-    name: 'Hoyle: Official Book of Games - Volume 1'
+    name: 'Hoyle''s Official Book of Games: Volume 1'
     engine_id: sci
     company_id: sierra
     moby_id: '759'
@@ -3337,7 +3337,7 @@
     series_id: hoyle
 -
     id: hoyle2
-    name: 'Hoyle: Official Book of Games - Volume 2: Solitaire'
+    name: 'Hoyle''s Official Book of Games: Volume 2'
     engine_id: sci
     company_id: sierra
     moby_id: '760'
@@ -3349,7 +3349,7 @@
     series_id: hoyle
 -
     id: hoyle3
-    name: 'Hoyle: Official Book of Games - Volume 3'
+    name: 'Hoyle''s Official Book of Games: Volume 3'
     engine_id: sci
     company_id: sierra
     moby_id: '2124'
@@ -4189,7 +4189,7 @@
     series_id: kq
 -
     id: kulivocko
-    name: Kulivocko
+    name: Kulivočko
     engine_id: wintermute
     company_id: fatfunky
     moby_id: '-1'
@@ -6697,7 +6697,7 @@
     series_id: reversion
 -
     id: rhiannon
-    name: 'Rhiannon: Curse of the four Branches'
+    name: 'Rhiannon: Curse of the Four Branches'
     engine_id: wintermute
     company_id: arberth
     moby_id: '36964'

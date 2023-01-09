@@ -5490,118 +5490,118 @@
     language3: ''
     url: /frs/demos/voyeur/voyeur-dos-demo-en.zip
 -
-    id: wintermute
+    id: alphapolaris
     platform: win
     '': ''
-    category: 'Alpha Polaris (German)'
+    category: German
     language: de
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/alpha_polaris-demo-de.zip
 -
-    id: wintermute
+    id: alphapolaris
     platform: win
     '': ''
-    category: 'Alpha Polaris (English)'
+    category: ''
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/alpha_polaris-demo-en.zip
 -
-    id: wintermute
+    id: alphapolaris
     platform: win
     '': ''
-    category: 'Alpha Polaris (Polish)'
+    category: Polish
     language: pl
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/alpha_polaris-demo-pl.zip
 -
-    id: wintermute
+    id: artofmurder1
     platform: win
     '': ''
-    category: 'Art of Murder - FBI Confidential (German)'
+    category: German
     language: de
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/art_of_murder-de-demo.zip
 -
-    id: wintermute
+    id: artofmurder1
     platform: win
     '': ''
-    category: 'Art of Murder - FBI Confidential (Polish)'
+    category: Polish
     language: pl
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/art_of_murder-pl-demo.zip
 -
-    id: wintermute
+    id: carolreed5
     platform: win
     '': ''
-    category: 'Carol Reed 5 - The Colour of Murder'
+    category: ''
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/carol_reed5-en-demo.zip
 -
-    id: wintermute
+    id: colorsoncanvas
     platform: win
     '': ''
-    category: 'Colors on Canvasa'
+    category: ''
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/colors_on_canvas-demo-en.zip
 -
-    id: wintermute
+    id: conspiracao
     platform: win
     '': ''
-    category: 'Conspiração Dumont (Portuguese)'
+    category: Portuguese
     language: pt
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/conspiracao_dumont-demo.zip
 -
-    id: wintermute
+    id: facenoir
     platform: win
     '': ''
-    category: 'Face Noir'
+    category: ''
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/face_noir-demo-en.zip
 -
-    id: wintermute
+    id: facenoir
     platform: win
     '': ''
-    category: 'Face Noir (Polish)'
+    category: Polish
     language: pl
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/face_noir-demo-pl.zip
 -
-    id: wintermute
+    id: framed
     platform: win
     '': ''
-    category: Framed
+    category: ''
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/framed-demo-beta-en.zip
 -
-    id: wintermute
+    id: ghostsheet
     platform: win
     '': ''
-    category: 'Ghost in the Sheet'
+    category: ''
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/ghost_in_the_sheet-en-demo.zip
 -
-    id: wintermute
+    id: helga
     platform: win
     '': ''
-    category: 'Helga Deep in Trouble'
+    category: ''
     language: en
     language2: ''
     language3: ''
@@ -5616,181 +5616,181 @@
     language3: ''
     url: /frs/demos/wintermute/informer_alavi-demo-beta.zip
 -
-    id: wintermute
+    id: jamesperis
     platform: win
     '': ''
-    category: 'James Peris - No License Nor Control (old demo)'
+    category: Old
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/james_peris1-en-old-demo.zip
 -
-    id: wintermute
+    id: jamesperis
     platform: win
     '': ''
-    category: 'James Peris - No License Nor Control (Spanish)'
+    category: 'Old Spanish'
     language: es
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/james_peris1-spanish-old-demo.zip
 -
-    id: wintermute
+    id: julia
     platform: win
     '': ''
-    category: 'J.U.L.I.A (Preview Demo)'
+    category: Preview
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/julia_greenlight-en-demo.zip
 -
-    id: wintermute
+    id: julia
     platform: win
     '': ''
-    category: J.U.L.I.A
+    category: ''
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/julia-en-demo.zip
 -
-    id: wintermute
+    id: kulivocko
     platform: win
     '': ''
-    category: 'Kulivočko (Czech)'
+    category: Czech
     language: cz
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/kulivocko-cz-demo.zip
 -
-    id: wintermute
+    id: machumayu
     platform: win
     '': ''
-    category: 'Machu Mayu'
+    category: ''
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/machu_mayu-en-demo.zip
 -
-    id: wintermute
+    id: nighttrain
     platform: win
     '': ''
-    category: 'Night Train'
+    category: ''
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/night_train-en-demo.zip
 -
-    id: wintermute
+    id: reptilesquest
     platform: win
     '': ''
-    category: 'On the Tracks of Dinosaurs'
+    category: ''
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/on_the_tracks_of_dinosaurs-demo-en.zip
 -
-    id: wintermute
+    id: one
     platform: win
     '': ''
-    category: One
+    category: ''
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/one-en-demo.zip
 -
-    id: wintermute
+    id: palladion
     platform: win
     '': ''
-    category: 'Palladion (German)'
+    category: German
     language: de
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/palladion-demo-de.zip
 -
-    id: wintermute
+    id: projectdoom
     platform: win
     '': ''
-    category: 'Project - Doom'
+    category: ''
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/project_doom-demo-beta-en.zip
 -
-    id: wintermute
+    id: projectjoe
     platform: win
     '': ''
-    category: 'Project Joe'
+    category: ''
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/project_joe-demo-en.zip
 -
-    id: wintermute
+    id: lonelyrobot
     platform: win
     '': ''
-    category: 'Project Lonely Robot'
+    category: ''
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/project_lonely_robot-demo-beta.zip
 -
-    id: wintermute
+    id: rhiannon
     platform: win
     '': ''
-    category: 'Rhiannon - Curse of the Four Branches (Chapter 1)'
+    category: 'Chapter 1'
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/rhiannon-demo-c1.zip
 -
-    id: wintermute
+    id: rhiannon
     platform: win
     '': ''
-    category: 'Rhiannon - Curse of the Four Branches (Chapter 5)'
+    category: 'Chapter 5'
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/rhiannon-demo-c5.zip
 -
-    id: wintermute
+    id: ritter
     platform: win
     '': ''
-    category: '1 1/2 Ritter - Auf der Suche nach der hinreißenden Herzelinde (German)'
+    category: ''
     language: de
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/ritter-demo-de.zip
 -
-    id: wintermute
+    id: satanandsons
     platform: win
     '': ''
-    category: 'Satan and Sons'
+    category: ''
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/satan_and_sons-demo-en.zip
 -
-    id: wintermute
+    id: rebeccacarlson1
     platform: win
     '': ''
-    category: 'Silent Footsteps'
+    category: ''
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/silent_footsteps-en-demo.zip
 -
-    id: wintermute
+    id: spaceinvaders
     platform: win
     '': ''
-    category: 'Space Invaders'
+    category: ''
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/space_invaders-en-demo.zip
 -
-    id: wintermute
+    id: spacemadness
     platform: win
     '': ''
-    category: 'Space Madness'
+    category: ''
     language: en
     language2: ''
     language3: ''
@@ -5805,28 +5805,28 @@
     language3: ''
     url: /frs/demos/wintermute/sunrise_the_game-demo-de.zip
 -
-    id: wintermute
+    id: tradestory
     platform: win
     '': ''
-    category: 'The Trader of Stories'
+    category: ''
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/trader_of_stories-demo-en.zip
 -
-    id: wintermute
+    id: wmedemo
     platform: win
     '': ''
-    category: 'Wintermute Engine Technology Demo'
+    category: ''
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/wme_2d-demo.zip
 -
-    id: wintermute
+    id: wmedemo3d
     platform: win
     '': ''
-    category: 'Wintermute Engine 3D Characters Technology Demo'
+    category: ''
     language: en
     language2: ''
     language3: ''
