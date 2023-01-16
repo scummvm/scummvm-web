@@ -1430,6 +1430,13 @@
         alias: "whoozle"
         description: ""
     -
+      name: "Tetraedge"
+      person:
+      -
+        name: "Matthew Duggan"
+        alias: "stauff"
+        description: ""
+    -
       name: "Tinsel"
       person:
       -
