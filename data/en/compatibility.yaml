@@ -3185,13 +3185,6 @@
     stable_platforms: win
     unstable_platforms: ''
 -
-    id: mystme
-    support: untested
-    notes: ''
-    since_version: 1.9.0
-    stable_platforms: win
-    unstable_platforms: ''
--
     id: neverhood
     support: good
     notes: ''
@@ -3251,13 +3244,6 @@
     id: myst
     support: excellent
     notes: ''
-    since_version: 2.0.0
-    stable_platforms: win
-    unstable_platforms: ''
--
-    id: mystme
-    support: good
-    notes: '- The hint system is not available'
     since_version: 2.0.0
     stable_platforms: win
     unstable_platforms: ''
