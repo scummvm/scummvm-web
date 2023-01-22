@@ -961,6 +961,25 @@
         alias: "bluegr"
         description: ""
     -
+      name: "MM (Xeen)"
+      person:
+      -
+        name: "Paul Gilbert"
+        alias: "dreammaster"
+        description: ""
+      -
+        name: "Benoit Pierre"
+        alias: "benoit-pierre"
+        description: ""
+      -
+        name: "David Goldsmith"
+        alias: "WizardStan"
+        description: "(Xeen analysis)"
+      -
+        name: "Matt Taylor"
+        alias: ""
+        description: "(Xeen analysis)"
+    -
       name: "Mohawk"
       person:
       -
@@ -1722,25 +1741,6 @@
         name: "Tobia Tesan"
         alias: "t0by"
         description: ""
-    -
-      name: "Xeen"
-      person:
-      -
-        name: "Paul Gilbert"
-        alias: "dreammaster"
-        description: ""
-      -
-        name: "Benoit Pierre"
-        alias: "benoit-pierre"
-        description: ""
-      -
-        name: "David Goldsmith"
-        alias: "WizardStan"
-        description: "(analysis)"
-      -
-        name: "Matt Taylor"
-        alias: ""
-        description: "(analysis)"
     -
       name: "Z-Vision"
       person:
