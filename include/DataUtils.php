@@ -24,7 +24,7 @@ class DataUtils
     const SHEET_IDS = [
         'platforms' => '1061029686',
         'compatibility' => '854570757',
-        'games' => '1946612063',
+        'games' => '1775285192',
         'engines' => '0',
         'companies' => '226191984',
         'versions' => '1225902887',
@@ -83,6 +83,12 @@ class DataUtils
             // Convert TRUE/FALSE strings to Booleans
             foreach ($data as $objKey => $obj) {
                 foreach ($obj as $key => $val) {
+                    // TODO Temporarily convert new game ids to the old format.
+                    //   When we are fully migrated, remove this
+                    if ($key === 'id' && strpos($val, ':') !== FALSE) {
+                        $data[$objKey][$key] = substr($val, strpos($val, ':') + 1);
+                    }
+
                     if ($val === 'TRUE') {
                         $data[$objKey][$key] = true;
                     } elseif ($val === 'FALSE') {
