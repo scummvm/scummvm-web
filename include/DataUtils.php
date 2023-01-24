@@ -28,7 +28,7 @@ class DataUtils
         'engines' => '0',
         'companies' => '226191984',
         'versions' => '1225902887',
-        'game_demos' => '713475305',
+        'game_demos' => '1303420306',
         'series' => '1095671818',
         'screenshots' => '168506355',
         'scummvm_downloads' => '1057392663',
