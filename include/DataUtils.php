@@ -32,7 +32,7 @@ class DataUtils
         'series' => '1095671818',
         'screenshots' => '168506355',
         'scummvm_downloads' => '1057392663',
-        'game_downloads' => '1287892109',
+        'game_downloads' => '810295288',
         'director_demos' => '1256563740',
     ];
 
@@ -85,7 +85,7 @@ class DataUtils
                 foreach ($obj as $key => $val) {
                     // TODO Temporarily convert new game ids to the old format.
                     //   When we are fully migrated, remove this
-                    if ($key === 'id' && strpos($val, ':') !== FALSE) {
+                    if (($key === 'id' || $key === 'game_id') && strpos($val, ':') !== FALSE) {
                         $data[$objKey][$key] = substr($val, strpos($val, ':') + 1);
                     }
 
