@@ -1397,7 +1397,7 @@
     user_agent: ''
     version: Daily
     url: scummvm-snapshot-win32.exe
-    name: 'ScummVM 2.7.0git Development Build - Windows Installer'
+    name: 'ScummVM 2.8.0git Development Build - Windows Installer'
     notes: ''
 -
     enabled: true
