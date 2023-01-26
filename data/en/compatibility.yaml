@@ -4556,3 +4556,129 @@
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
+-
+    id: betterd
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: chopsuey
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: easternmind
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: fukuokagoround
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: ganbareinuchan
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: ganbareinuchan2
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: mac
+    unstable_platforms: ''
+-
+    id: henachoco01
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: henachoco02
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: henachoco03
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: henachoco04
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: henachoco05
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: japanart07
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: mac
+    unstable_platforms: ''
+-
+    id: majestic
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: nemurenu
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: pippin
+    unstable_platforms: ''
+-
+    id: overringunder
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: mac
+    unstable_platforms: ''
+-
+    id: pepperon
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: the7colors
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: mac
+    unstable_platforms: ''
+-
+    id: timegal
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
