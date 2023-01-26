@@ -80,6 +80,10 @@
     name: 'Alcachofa Soft'
     alt_name: ''
 -
+    id: aloalo
+    name: 'Aloalo International'
+    alt_name: ''
+-
     id: amatouk
     name: 'Amir Matouk'
     alt_name: ''
@@ -124,6 +128,10 @@
     name: ArtisticSoft
     alt_name: ''
 -
+    id: artsectorone
+    name: 'ArtSector One'
+    alt_name: ''
+-
     id: arxel
     name: 'Arxel Tribe'
     alt_name: ''
@@ -142,6 +150,10 @@
 -
     id: bandai
     name: Bandai
+    alt_name: ''
+-
+    id: bfactory
+    name: B-Factory
     alt_name: ''
 -
     id: bigfish
@@ -396,6 +408,10 @@
     name: 'ELOI Productions'
     alt_name: ''
 -
+    id: emotion
+    name: 'Emotion Digital'
+    alt_name: ''
+-
     id: encore
     name: 'Encore Software'
     alt_name: ''
@@ -430,6 +446,10 @@
 -
     id: firstlight
     name: Firstlight
+    alt_name: ''
+-
+    id: flammarion
+    name: Flammarion
     alt_name: ''
 -
     id: flashpoint
@@ -614,6 +634,10 @@
 -
     id: israndom
     name: 'IsRandomRandom Games'
+    alt_name: ''
+-
+    id: itachoco
+    name: ITA-Choco
     alt_name: ''
 -
     id: jbclerfayt
@@ -1116,6 +1140,10 @@
     name: 'Synergy Inc.'
     alt_name: ''
 -
+    id: taito
+    name: Taito
+    alt_name: ''
+-
     id: teamvsb
     name: 'Team VSB'
     alt_name: ''
@@ -1150,6 +1178,10 @@
 -
     id: tomsimpson
     name: 'Tom Simpson'
+    alt_name: ''
+-
+    id: toshiba
+    name: 'Toshiba EMI'
     alt_name: ''
 -
     id: traktor

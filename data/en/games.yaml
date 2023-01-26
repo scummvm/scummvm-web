@@ -864,6 +864,18 @@
     wikipedia_page: 'Ben_There,_Dan_That!'
     series_id: ''
 -
+    id: betterd
+    name: 'The Better Dead Ratification'
+    engine_id: director
+    company_id: artsectorone
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: beyondowlsgard
     name: 'Beyond the Edge of Owlsgard'
     engine_id: ags
@@ -2304,6 +2316,18 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: easternmind
+    name: 'Eastern Mind'
+    engine_id: director
+    company_id: sony
+    moby_id: '22032'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: 'Eastern_Mind:_The_Lost_Souls_of_Tong_Nou'
+    series_id: ''
+-
     id: ecoquest
     name: 'EcoQuest: The Search for Cetus'
     engine_id: sci
@@ -2820,6 +2844,18 @@
     wikipedia_page: 'Faery_Tale_Adventure_II:_Halls_of_the_Dead'
     series_id: ''
 -
+    id: fukuokagoround
+    name: 'Fukuoka Go-Round'
+    engine_id: director
+    company_id: unknown
+    moby_id: '-1'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: fullpipe
     name: 'Full Pipe'
     engine_id: ngi
@@ -2866,6 +2902,30 @@
     additional_stores: ''
     datafiles: Future_Wars
     wikipedia_page: Future_Wars
+    series_id: ''
+-
+    id: ganbareinuchan
+    name: 'Ganbare! Inuchan: Rock''n Roll Edition'
+    engine_id: director
+    company_id: emotion
+    moby_id: '189552'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: ganbareinuchan2
+    name: 'Ganbare! Inuchan: Trip Around the World'
+    engine_id: director
+    company_id: bfactory
+    moby_id: '-1'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: geisha
@@ -3196,11 +3256,71 @@
     name: 'Helga Deep In Trouble'
     engine_id: wintermute
     company_id: offstudio
-    moby_id: ''
+    moby_id: '-1'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
     datafiles: Helga_Deep_In_Trouble
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: henachoco01
+    name: 'Henachoco #1'
+    engine_id: director
+    company_id: itachoco
+    moby_id: '-1'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: henachoco02
+    name: 'Henachoco #2'
+    engine_id: director
+    company_id: itachoco
+    moby_id: '-1'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: henachoco03
+    name: 'Henachoco #3'
+    engine_id: director
+    company_id: itachoco
+    moby_id: '-1'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: henachoco04
+    name: 'Henachoco #4'
+    engine_id: director
+    company_id: itachoco
+    moby_id: '-1'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: henachoco05
+    name: 'Yaken Rodem'
+    engine_id: director
+    company_id: itachoco
+    moby_id: '169162'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
     wikipedia_page: ''
     series_id: ''
 -
@@ -3798,6 +3918,18 @@
     company_id: pavo
     moby_id: '-1'
     steam_id: '1243010'
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: japanart07
+    name: 'Japan Art Today 07: Takashi Murakami - A Romantic Evening'
+    engine_id: director
+    company_id: aloalo
+    moby_id: '-1'
+    steam_id: ''
     gog_id: ''
     additional_stores: ''
     datafiles: ''
@@ -5352,6 +5484,18 @@
     wikipedia_page: 'Nelly_Cootalot:_Spoonbeaks_Ahoy!'
     series_id: nelly
 -
+    id: nemurenu
+    name: 'Nemurenu Yoru no Chiisana O-Hanashi'
+    engine_id: director
+    company_id: emotion
+    moby_id: '54553'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: neofeud
     name: Neofeud
     engine_id: ags
@@ -5604,6 +5748,18 @@
     wikipedia_page: Out_of_Order_(video_game)
     series_id: ''
 -
+    id: overringunder
+    name: Over-Ring-Under
+    engine_id: director
+    company_id: toshiba
+    moby_id: '-1'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: overtheedge
     name: 'The Journey Down: Over the Edge'
     engine_id: ags
@@ -5771,6 +5927,18 @@
     datafiles: Pepper%27s_Adventures_in_Time
     wikipedia_page: Pepper%27s_Adventures_in_Time
     series_id: sierranoseries
+-
+    id: pepperon
+    name: 'Valmaison au fil des saisons / Pepperon'
+    engine_id: director
+    company_id: flammarion
+    moby_id: '-1'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
 -
     id: perfecttides
     name: 'Perfect Tides'
@@ -8124,6 +8292,18 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: the7colors
+    name: 'The Seven Colors: Legend of PSY・S City'
+    engine_id: director
+    company_id: sony
+    moby_id: '116747'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: theadventuresoffatman
     name: 'The Adventures of Fatman'
     engine_id: ags
@@ -8338,6 +8518,18 @@
     additional_stores: ''
     datafiles: Fairy_Tales_About_Toshechka_and_Boshechka
     wikipedia_page: ''
+    series_id: ''
+-
+    id: timegal
+    name: 'Time Gal'
+    engine_id: director
+    company_id: taito
+    moby_id: '13496'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Time_Gal
     series_id: ''
 -
     id: timegentlemenplease
