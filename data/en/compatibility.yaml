@@ -4517,9 +4517,9 @@
 -
     id: driller
     support: good
-    notes: '- Minor missing features (UI details, special effects)  - Only EGA version is supported from DOS release'
+    notes: '- Minor missing features (UI details, special effects)  - CGA/EGA version is supported from DOS release'
     since_version: DEV
-    stable_platforms: 'dos,amiga,atarist'
+    stable_platforms: 'dos,amiga,atarist,zx,cpc'
     unstable_platforms: ''
 -
     id: lzone
@@ -4643,7 +4643,7 @@
 -
     id: majestic
     support: untested
-    notes: ''
+    notes: '- German release uses Director 5 and is not yet supported'
     since_version: DEV
     stable_platforms: 'mac,win'
     unstable_platforms: ''

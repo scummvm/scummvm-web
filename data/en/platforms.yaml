@@ -16,6 +16,10 @@
     id: amigacd32
     moby_id: '56'
 -
+    name: 'Amstrad CPC'
+    id: cpc
+    moby_id: '60'
+-
     name: Android
     id: android
     moby_id: '91'
