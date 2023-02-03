@@ -4558,126 +4558,126 @@
     unstable_platforms: ''
 -
     id: betterd
-    support: untested
-    notes: ''
+    support: bugged
+    notes: 'PACo videos don''t play'
     since_version: DEV
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: chopsuey
-    support: untested
+    support: excellent
     notes: ''
     since_version: DEV
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: easternmind
-    support: untested
+    support: good
     notes: ''
     since_version: DEV
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: fukuokagoround
-    support: untested
-    notes: ''
+    support: bugged
+    notes: 'Certain videos don''t load'
     since_version: DEV
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: ganbareinuchan
-    support: untested
+    support: excellent
     notes: ''
     since_version: DEV
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: ganbareinuchan2
-    support: untested
+    support: excellent
     notes: ''
     since_version: DEV
     stable_platforms: mac
     unstable_platforms: ''
 -
     id: henachoco01
-    support: untested
+    support: good
     notes: ''
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
 -
     id: henachoco02
-    support: untested
+    support: good
     notes: ''
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
 -
     id: henachoco03
-    support: untested
+    support: good
     notes: ''
     since_version: DEV
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: henachoco04
-    support: untested
+    support: good
     notes: ''
     since_version: DEV
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: henachoco05
-    support: untested
+    support: bugged
     notes: ''
     since_version: DEV
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: japanart07
-    support: untested
-    notes: ''
+    support: bugged
+    notes: 'Scrolling text box feature isn''t supported yet'
     since_version: DEV
     stable_platforms: mac
     unstable_platforms: ''
 -
     id: majestic
-    support: untested
+    support: good
     notes: '- German release uses Director 5 and is not yet supported'
     since_version: DEV
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: nemurenu
-    support: untested
+    support: excellent
     notes: ''
     since_version: DEV
     stable_platforms: pippin
     unstable_platforms: ''
 -
     id: overringunder
-    support: untested
+    support: good
     notes: ''
     since_version: DEV
     stable_platforms: mac
     unstable_platforms: ''
 -
     id: pepperon
-    support: untested
+    support: good
     notes: ''
     since_version: DEV
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: the7colors
-    support: untested
+    support: good
     notes: ''
     since_version: DEV
     stable_platforms: mac
     unstable_platforms: ''
 -
     id: timegal
-    support: untested
+    support: good
     notes: ''
     since_version: DEV
     stable_platforms: 'mac,win'
