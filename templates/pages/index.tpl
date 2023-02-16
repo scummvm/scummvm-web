@@ -27,6 +27,8 @@
     <meta property="og:description" content="ScummVM is a collection of game engines for playing classic graphical RPGs and point-and-click adventure games on modern hardware.">
     <meta property="og:url" content="{'https://www.scummvm.org'|lang}">
     <meta property="og:image" content="https://www.scummvm.org/images/og-image.jpg">
+    <!-- Mastodon verification -->
+    <a rel="me" href="https://corteximplant.com/@scummvm">Mastodon</a>
     <!-- Translations -->
     {foreach from=$available_languages key=key item=item}
     {if $lang != $key}
