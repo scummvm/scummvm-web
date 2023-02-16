@@ -128,13 +128,13 @@
             }
         })
     </script>
+
+    <footer>
+
+        <!-- Mastodon verification -->
+        <a rel="me" href="https://corteximplant.com/@scummvm"></a>
+
+    </footer>
 </body>
-
-<footer>
-
-    <!-- Mastodon verification -->
-    <a rel="me" href="https://corteximplant.com/@scummvm"></a>
-
-</footer>
 
 </html>
