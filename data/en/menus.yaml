@@ -11,6 +11,10 @@
       href: /downloads/
     - name: '{#menuMainFreewareGames#}'
       href: /games/
+    - name: '{#menuMainDemos#}'
+      href: /demos/
+    - name: '{#menuMainDirectorDemos#}'
+      href: /demos/director
     - name: '{#menuMainBlogs#}'
       href: 'https://planet.scummvm.org'
 - name: '{#menuHeaderDocumentation#}'
@@ -46,10 +50,6 @@
   links:
     - name: '{#menuMiscSponsors#}'
       href: /sponsors/
-    - name: '{#menuMiscDemos#}'
-      href: /demos/
-    - name: '{#menuMiscDirectorDemos#}'
-      href: /demos/director
     - name: '{#menuMiscPress#}'
       href: /press/
     - name: '{#menuMiscContact#}'
