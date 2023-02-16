@@ -335,3 +335,10 @@
     minor: '6'
     patch: '1'
     name: 'Incremental Escapism'
+-
+    id: 2.7.0
+    release_date: 'February 26, 2023'
+    major: '2'
+    minor: '7'
+    patch: '0'
+    name: ''
