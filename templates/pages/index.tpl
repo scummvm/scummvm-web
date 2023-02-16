@@ -28,7 +28,7 @@
     <meta property="og:url" content="{'https://www.scummvm.org'|lang}">
     <meta property="og:image" content="https://www.scummvm.org/images/og-image.jpg">
     <!-- Mastodon verification -->
-    <a rel="me" href="https://corteximplant.com/@scummvm">Mastodon</a>
+    <a rel="me" href="https://corteximplant.com/@scummvm"></a>
     <!-- Translations -->
     {foreach from=$available_languages key=key item=item}
     {if $lang != $key}
