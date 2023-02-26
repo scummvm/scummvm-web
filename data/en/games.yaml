@@ -28,7 +28,7 @@
     name: '3D Construction Kit'
     engine_id: freescape
     company_id: incentive
-    moby_id: ''
+    moby_id: '391'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
@@ -880,7 +880,7 @@
     name: 'Beyond the Edge of Owlsgard'
     engine_id: ags
     company_id: watchdatoast
-    moby_id: ''
+    moby_id: '197871'
     steam_id: '1709730'
     gog_id: beyond_the_edge_of_owlsgard
     additional_stores: ''
@@ -4096,7 +4096,7 @@
     name: 'Kill Yourself'
     engine_id: ags
     company_id: gugames
-    moby_id: ''
+    moby_id: '186594'
     steam_id: '1251910'
     gog_id: ''
     additional_stores: '- [Itch.io](https://gugames.itch.io/kill-yourself)'
