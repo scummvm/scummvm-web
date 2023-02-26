@@ -413,6 +413,17 @@
         alias: "dreammaster"
         description: ""
     -
+      name: "Chamber"
+      person:
+      -
+        name: "Retro-Junk;"
+        alias: "bambarbee"
+        description: ""
+      -
+        name: "Eugene Sandulenko"
+        alias: "sev"
+        description: ""
+    -
       name: "Chewy"
       person:
       -
@@ -840,6 +851,13 @@
       -
         name: "Eric Fry"
         alias: "yuv422"
+        description: ""
+    -
+      name: "Immortal"
+      person:
+      -
+        name: "Michael Hayman"
+        alias: "Quote58"
         description: ""
     -
       name: "Kingdom"
@@ -1708,6 +1726,13 @@
         name: "Willem Jan Palenstijn"
         alias: "wjp"
         description: "(Pentagram)"
+    -
+      name: "V-Cruise"
+      person:
+      -
+        name: "Eric Lasota"
+        alias: "OneEightHundred"
+        description: ""
     -
       name: "Voyeur"
       person:
