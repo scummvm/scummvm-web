@@ -1,0 +1,56 @@
+---
+title: "ScummVM 2.7.0: The Real Slim Shader"
+author: The ScummVM Team
+date: 1677441444
+---
+_May I have your attention, please? May I have your attention, please?_
+
+We are proud to announce the first release of the year 2023. Please welcome ScummVM 2.7.0 – "The Real Slim Shader".
+
+## New games
+Once again, the number of available games increased substantially thanks to new engines, as well as incredible improvements across older engines.
+
+With ScummVM 2.7.0, we officially announce support for the following games:
+
+* _Soldier Boyz_
+* _Obsidian_
+* _Pink Panther: Passport to Peril_
+* _Pink Panther: Hokus Pokus Pink_
+* _Adibou 2 "Environment"_, _"Read/Count 4 & 5"_ and _"Read/Count 6 & 7"_
+* _Driller/Space Station Oblivion_
+* _Halls of the Dead: Faery Tale Adventure II_
+* _Chop Suey_, _Eastern Mind_, and 16 other Director 3 and Director 4 titles
+
+## Improved support for _Broken Sword_ series
+We vastly improved the detection method used for the _Broken Sword_ series as well. Compared to the old detection method, this allows a much higher level of granularity, so we are now able to detect even the slightest differences between all the supported versions. We tried our very best to add all available game versions, but we need your help. If you notice that your version of _Broken Sword 1_ or _2_ is not properly detected in ScummVM 2.7.0, please get in touch with us and report your version to our [Bug Tracker](https://bugs.scummvm.org/)!
+
+## New localizations
+One of our goals is to support as many localized game versions as possible, so people can enjoy the games in their native language. This time, we added support for the Chinese, Japanese and Korean versions of many games, including _Beneath a Steel Sky_, _Inherit the Earth_ and _I Have No Mouth and I Must Scream_.
+
+## New and revived platforms
+Additionally, we proved ScummVM’s portability again by adding (or bringing back) support for numerous new platforms and devices:
+
+* RetroMini RS90 (using [OpenDingux](https://github.com/OpenDingux/))
+* 1st generation Miyoo (New BittBoy, Pocket Go and PowKiddy Q90-V90-Q20) with TriForceX MiyooCFW
+* Miyoo Mini
+* KolibriOS
+* 26-bit versions of RISC OS
+* Nintendo 3DS
+
+Of course, stable platforms deserve some love as well! We are very proud to announce that support for iOS and Android devices got vastly improved for 2.7.0! We don’t want to spoil everything that we have in mind for the future with these platforms, but stay tuned — it will be awesome.
+
+## Shader-based scalers
+Ah, yes, the release codename. Glad you asked. The new release provides a way to run your games with visual accuracy like you've never seen before. Do you remember the warm glow of CRTs shining on your face? Get that experience back thanks to the introduction of shader-based scalers!
+
+ScummVM 2.7.0 already ships with a curated set of shaders we carefully hand-picked from LibRetro’s shader collection. A more comprehensive set is available as an additional download from within the application itself.
+
+## Pre-defined random number seeds
+Our speedrun community can now take advantage of a new feature that allows setting a predefined seed for ScummVM’s internal random number generator. Using a predefined seed now provides the ability to have reproducible runs over and over again. Pick a seed, set your route and you are good to go!
+
+----
+
+Check out the full [Release Notes](https://downloads.scummvm.org/frs/scummvm/2.7.0/ReleaseNotes.html) for a comprehensive summary of how our developers managed to create yet another amazing ScummVM release!
+
+You can find all of this goodness available for a number of platforms on [our downloads page](https://www.scummvm.org/downloads/). If you are using Windows, macOS, or either the Ubuntu Snap or Flatpack packages, the autoupdater will assist you in updating to ScummVM 2.7.0.
+
+As always, thank you for your continued support and happy adventuring!
