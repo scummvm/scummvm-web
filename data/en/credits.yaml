@@ -1827,7 +1827,7 @@
       -
         name: "Oystein Eftevaag"
         alias: "vinterstum"
-        description: ""
+        description: "(retired)"
       -
         name: "Vincent B&eacute;nony"
         alias: "bSr43"
@@ -1835,6 +1835,10 @@
       -
         name: "Thierry Crozat"
         alias: "criezy"
+        description: ""
+      -
+        name: "Lars Sundstr&ouml;m"
+        alias: "larsamannen"
         description: ""
     -
       name: "LinuxMoto"
@@ -2292,11 +2296,15 @@
       -
         name: "Oystein Eftevaag"
         alias: "vinterstum"
-        description: ""
+        description: "(retired)"
       -
         name: "Thierry Crozat"
         alias: "criezy"
         description: ""
+      -
+        name: "???"
+        alias: "dwa"
+        description: "Tiger/Leopard PPC"
     -
       name: "Mandriva"
       person:
