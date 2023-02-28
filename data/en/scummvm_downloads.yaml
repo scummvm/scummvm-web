@@ -637,7 +637,7 @@
     user_agent: ''
     version: 2.7.0
     url: 'scummvm-{$version}-ds.zip'
-    name: 'Nintendo DS package'
+    name: 'Nintendo DSi package'
     notes: ''
 -
     enabled: true
@@ -807,7 +807,7 @@
     user_agent: ''
     version: 2.7.0
     url: 'scummvm-{$version}-miyoo.zip'
-    name: '1st gen. Miyoo (New BittBoy, Pocket Go and PowKiddy Q90-V90-Q20) with TriForceX MiyooCFW'
+    name: '1st gen. Miyoo package (New BittBoy, Pocket Go and PowKiddy Q90-V90-Q20 with TriForceX MiyooCFW)'
     notes: ''
 -
     enabled: true
@@ -817,7 +817,7 @@
     user_agent: ''
     version: 2.7.0
     url: 'scummvm-{$version}-miyoomini.zip'
-    name: 'Miyoo Mini'
+    name: 'Miyoo Mini package'
     notes: ''
 -
     enabled: true
@@ -827,7 +827,7 @@
     user_agent: ''
     version: 2.7.0
     url: 'scummvm-{$version}-kolibrios.zip'
-    name: KolibriOS
+    name: 'KolibriOS package'
     notes: ''
 -
     enabled: true
