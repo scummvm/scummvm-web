@@ -1022,10 +1022,10 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: amiga
     user_agent: Amiga
-    version: 2.6.1
+    version: 2.7.0
     url: 'scummvm-{$version}-amigaos4.lha'
     name: 'AmigaOS 4 package'
     notes: ''
@@ -1240,12 +1240,12 @@
     name: 'Tools - Haiku package 64 bits package'
     notes: ''
 -
-    enabled: false
+    enabled: true
     category: scummvm-tools
     subcategory: release
     category_icon: amiga
     user_agent: ''
-    version: 2.6.0
+    version: 2.7.0
     url: 'scummvm-tools-{$version}-amigaos4.lha'
     name: 'Tools - AmigaOS 4 package'
     notes: ''
