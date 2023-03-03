@@ -1,0 +1,24 @@
+---
+title: "Help us test ScummVM for Android"
+author: lephilousophe, antoniou79
+date: 1677877053
+---
+
+The ScummVM Android port returns with a new update to the Google Play Store, in the beta testing channel. The new version includes all the [latest features of ScummVM 2.7.0](https://downloads.scummvm.org/frs/scummvm/2.7.0/ReleaseNotes.html) as well as Android-specific improvements and bug fixes.
+
+First off, our team developers have implemented a significant update to the file access system in order to use the Secure Access Framework (SAF) API for secure file access on external memory space, such as SD Cards or USB drives. This effectively should resolve a long-standing issue with modern Android devices, in particular those running Android 11 and above, whereby users could not properly access the game data folders or the save game files in the external storage.
+
+Note that, since this change is a significant one, and one where transition cannot be automated for the end user, you will need to perform a few manual steps to update the paths of your ScummVM-added games with the new access system or to successfully add a new game for which the data files reside on the external storage, eg. on an SD Card. These steps should also appear in a pop-up when launching the new version of ScummVM app, if your device supports SAF. See our [documentation page](https://docs.scummvm.org/en/latest/other_platforms/android.html#adding-saf-paths-to-scummvm-directory-list) for a more detailed description of the process.
+
+Second, our Android app now features improved key-mapping support for joysticks and modern game controllers and also allows to set the game control method per game entry or globally, per context (ScummVM UI menu, 3d engine game, 2d engine game) providing a choice between "touchpad emulation", "direct mouse" and "gamepad emulation" control.
+
+* During the beta phase we are interested in:
+* Severe bugs or regressions
+* Feedback on the new features
+* Suggestions for improving related instructions and documentation
+
+If you'd like to participate in the beta testing, please follow the short instructions in [this link](https://play.google.com/apps/testing/org.scummvm.scummvm).
+
+Any issues encountered should be reported on [our bug tracker](https://bugs.scummvm.org). You can also reach out to the developer team on [the forums](https://forums.scummvm.org/viewforum.php?f=17) or on [Discord](https://discord.gg/4cDsMNtcpG).
+
+A big thanks in advance to our community members who help us polish this upcoming ScummVM for Android release!
