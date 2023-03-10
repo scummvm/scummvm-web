@@ -776,6 +776,10 @@
     name: 'Metropolis Software House'
     alt_name: ''
 -
+    id: microids
+    name: Microïds
+    alt_name: ''
+-
     id: microprose
     name: MicroProse
     alt_name: ''

@@ -17,7 +17,7 @@
 -
     id: agos
     name: AGOS
-    alt_name: ''
+    alt_name: 'Adventure Graphic Operating System'
     enabled: true
 -
     id: ags
@@ -409,6 +409,11 @@
     name: Testbed
     alt_name: ''
     enabled: false
+-
+    id: tetraedge
+    name: Tetraedge
+    alt_name: ''
+    enabled: true
 -
     id: tinsel
     name: Tinsel

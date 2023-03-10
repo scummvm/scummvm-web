@@ -292,7 +292,7 @@
     platform: win
     '': ''
     category: ''
-    language: ''
+    language: en
     language2: ''
     language3: ''
     url: /frs/demos/ags/al_emmo-demo.zip
@@ -301,7 +301,7 @@
     platform: win
     '': ''
     category: ''
-    language: ''
+    language: en
     language2: ''
     language3: ''
     url: /frs/demos/ags/blackwell_convergence-demo.zip
@@ -310,7 +310,7 @@
     platform: win
     '': ''
     category: ''
-    language: ''
+    language: en
     language2: ''
     language3: ''
     url: /frs/demos/ags/blackwell_deception-demo.zip
@@ -319,7 +319,7 @@
     platform: win
     '': ''
     category: ''
-    language: ''
+    language: en
     language2: ''
     language3: ''
     url: /frs/demos/ags/blackwell_epiphany-demo.zip
@@ -328,7 +328,7 @@
     platform: win
     '': ''
     category: ''
-    language: ''
+    language: en
     language2: ''
     language3: ''
     url: /frs/demos/ags/blackwell_legacy-demo.zip
@@ -337,7 +337,7 @@
     platform: win
     '': ''
     category: ''
-    language: ''
+    language: en
     language2: ''
     language3: ''
     url: /frs/demos/ags/blackwell_unbound-demo.zip
@@ -346,7 +346,7 @@
     platform: win
     '': ''
     category: ''
-    language: ''
+    language: en
     language2: ''
     language3: ''
     url: /frs/demos/ags/da_new_guys2-demo.zip
@@ -355,7 +355,7 @@
     platform: win
     '': ''
     category: ''
-    language: ''
+    language: en
     language2: ''
     language3: ''
     url: /frs/demos/ags/gemini_rue-demo.zip
@@ -364,7 +364,7 @@
     platform: win
     '': ''
     category: ''
-    language: ''
+    language: en
     language2: ''
     language3: ''
     url: /frs/demos/ags/golden_wake-demo.zip
@@ -373,7 +373,7 @@
     platform: win
     '': ''
     category: ''
-    language: ''
+    language: en
     language2: ''
     language3: ''
     url: /frs/demos/ags/my_big_sister-demo.zip
@@ -400,7 +400,7 @@
     platform: win
     '': ''
     category: ''
-    language: ''
+    language: en
     language2: ''
     language3: ''
     url: /frs/demos/ags/primordia-demo.zip
@@ -409,7 +409,7 @@
     platform: win
     '': ''
     category: ''
-    language: ''
+    language: en
     language2: ''
     language3: ''
     url: /frs/demos/ags/quest_for_infamy-demo.zip
@@ -418,16 +418,25 @@
     platform: win
     '': ''
     category: ''
-    language: ''
+    language: en
     language2: ''
     language3: ''
     url: /frs/demos/ags/resonance-demo.zip
+-
+    id: samaritan
+    platform: win
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/ags/samaritan-paradox-demo.zip
 -
     id: shardlight
     platform: win
     '': ''
     category: ''
-    language: ''
+    language: en
     language2: ''
     language3: ''
     url: /frs/demos/ags/shardlight-demo.zip
@@ -436,7 +445,7 @@
     platform: win
     '': ''
     category: ''
-    language: ''
+    language: en
     language2: ''
     language3: ''
     url: /frs/demos/ags/shivah-demo.zip
@@ -445,7 +454,7 @@
     platform: win
     '': ''
     category: ''
-    language: ''
+    language: en
     language2: ''
     language3: ''
     url: /frs/demos/ags/technobabylon-demo.zip
@@ -454,7 +463,7 @@
     platform: win
     '': ''
     category: ''
-    language: ''
+    language: en
     language2: ''
     language3: ''
     url: /frs/demos/ags/the_phantom_fellows-demo.zip
@@ -463,8 +472,8 @@
     platform: win
     '': ''
     category: ''
-    language: ''
-    language2: ''
+    language: en
+    language2: pl
     language3: ''
     url: /frs/demos/ags/zniw_adventure-demo.zip
 -

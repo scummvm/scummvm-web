@@ -246,6 +246,9 @@
     id: sword
     name: 'Broken Sword'
 -
+    id: syberia
+    name: Syberia
+-
     id: t7g
     name: 'The 7th Guest'
 -
