@@ -4726,14 +4726,14 @@
     unstable_platforms: ''
 -
     id: syberia
-    support: untested
+    support: good
     notes: ''
     since_version: DEV
     stable_platforms: mac
     unstable_platforms: 'win,ps2,xbox,winmobile,nds,android,ps3,xbox360,ios,switch'
 -
     id: syberia2
-    support: untested
+    support: good
     notes: ''
     since_version: DEV
     stable_platforms: mac
