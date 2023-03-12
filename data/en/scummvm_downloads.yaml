@@ -446,8 +446,8 @@
     category_icon: android
     user_agent: ''
     version: 2.7.0
-    url: scummvm-2.7.0.1-android-arm-v7a.apk
-    name: 'Android ARMv7a package (beta release 2)'
+    url: scummvm-2.7.0.2-android-arm-v7a.apk
+    name: 'Android ARMv7a package (beta release 3)'
     notes: ''
 -
     enabled: true
@@ -456,8 +456,8 @@
     category_icon: android
     user_agent: ''
     version: 2.7.0
-    url: scummvm-2.7.0.1-android-arm64-v8a.apk
-    name: 'Android ARM64v8a package (beta release 2)'
+    url: scummvm-2.7.0.2-android-arm64-v8a.apk
+    name: 'Android ARM64v8a package (beta release 3)'
     notes: ''
 -
     enabled: true
@@ -466,8 +466,8 @@
     category_icon: android
     user_agent: ''
     version: 2.7.0
-    url: scummvm-2.7.0.1-android-x86.apk
-    name: 'Android x86 32bit package (beta release 2)'
+    url: scummvm-2.7.0.2-android-x86.apk
+    name: 'Android x86 32bit package (beta release 3)'
     notes: ''
 -
     enabled: true
@@ -476,8 +476,8 @@
     category_icon: android
     user_agent: ''
     version: 2.7.0
-    url: scummvm-2.7.0.1-android-x86_64.apk
-    name: 'Android x86 64bit package (beta release 2)'
+    url: scummvm-2.7.0.2-android-x86_64.apk
+    name: 'Android x86 64bit package (beta release 3)'
     notes: ''
 -
     enabled: true

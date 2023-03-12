@@ -108,6 +108,15 @@
     language3: ''
     url: /frs/demos/agi/lsl1-demo-pl.zip
 -
+    id: qfg1
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/qfg1-dos-ni-demo-en.zip
+-
     id: xmascard
     platform: coco3
     '': ''
@@ -297,6 +306,42 @@
     language3: ''
     url: /frs/demos/ags/al_emmo-demo.zip
 -
+    id: beyondowlsgard
+    platform: win
+    '': ''
+    category: ''
+    language: de
+    language2: ''
+    language3: ''
+    url: /frs/demos/ags/owlsgard-de-demo.zip
+-
+    id: beyondowlsgard
+    platform: win
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/ags/owlsgard-en-demo.zip
+-
+    id: blackwell1
+    platform: win
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/ags/blackwell_legacy-demo.zip
+-
+    id: blackwell2
+    platform: win
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/ags/blackwell_unbound-demo.zip
+-
     id: blackwell3
     platform: win
     '': ''
@@ -323,24 +368,6 @@
     language2: ''
     language3: ''
     url: /frs/demos/ags/blackwell_epiphany-demo.zip
--
-    id: blackwell1
-    platform: win
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/ags/blackwell_legacy-demo.zip
--
-    id: blackwell2
-    platform: win
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/ags/blackwell_unbound-demo.zip
 -
     id: danewguys2
     platform: win
@@ -369,6 +396,15 @@
     language3: ''
     url: /frs/demos/ags/golden_wake-demo.zip
 -
+    id: mage
+    platform: win
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/ags/mage_initiation-demo.zip
+-
     id: mybigsister
     platform: win
     '': ''
@@ -378,23 +414,14 @@
     language3: ''
     url: /frs/demos/ags/my_big_sister-demo.zip
 -
-    id: beyondowlsgard
-    platform: win
-    '': ''
-    category: ''
-    language: de
-    language2: ''
-    language3: ''
-    url: /frs/demos/ags/owlsgard-de-demo.zip
--
-    id: beyondowlsgard
+    id: phantomfellows
     platform: win
     '': ''
     category: ''
     language: en
     language2: ''
     language3: ''
-    url: /frs/demos/ags/owlsgard-en-demo.zip
+    url: /frs/demos/ags/the_phantom_fellows-demo.zip
 -
     id: primordia
     platform: win
@@ -458,15 +485,6 @@
     language2: ''
     language3: ''
     url: /frs/demos/ags/technobabylon-demo.zip
--
-    id: phantomfellows
-    platform: win
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/ags/the_phantom_fellows-demo.zip
 -
     id: zniwadventure
     platform: win
@@ -801,24 +819,6 @@
     language3: ''
     url: /frs/demos/freescape/driller-dos-demo.zip
 -
-    id: fullpipe
-    platform: win
-    '': ''
-    category: German
-    language: de
-    language2: ''
-    language3: ''
-    url: /frs/demos/fullpipe/fullpipe-demo-de.zip
--
-    id: fullpipe
-    platform: win
-    '': ''
-    category: Russian
-    language: ru
-    language2: ''
-    language3: ''
-    url: /frs/demos/fullpipe/fullpipe-demo-ru.zip
--
     id: adi2
     platform: win
     '': ''
@@ -872,42 +872,6 @@
     language2: ''
     language3: ''
     url: /frs/demos/gob/adibou2-dos-demo-fr.zip
--
-    id: playtoons1
-    platform: dos
-    '': ''
-    category: 'Italian Non-Interactive'
-    language: it
-    language2: ''
-    language3: ''
-    url: /frs/demos/gob/archibald-dos-ni-demo-it.zip
--
-    id: playtoons1
-    platform: dos
-    '': ''
-    category: 'Spanish Non-Interactive'
-    language: es
-    language2: ''
-    language3: ''
-    url: /frs/demos/gob/archibald-dos-ni-demo-sp.zip
--
-    id: playtoonsdemo
-    platform: dos
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/gob/archibald-dos-ni-demo1-en.zip
--
-    id: playtoons1
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/gob/archibald-dos-ni-demo2-en.zip
 -
     id: dynasty
     platform: dos
@@ -1098,6 +1062,42 @@
     language3: ''
     url: /frs/demos/gob/lostintime-dos-ni-demo-en.zip
 -
+    id: playtoons1
+    platform: dos
+    '': ''
+    category: 'Italian Non-Interactive'
+    language: it
+    language2: ''
+    language3: ''
+    url: /frs/demos/gob/archibald-dos-ni-demo-it.zip
+-
+    id: playtoons1
+    platform: dos
+    '': ''
+    category: 'Spanish Non-Interactive'
+    language: es
+    language2: ''
+    language3: ''
+    url: /frs/demos/gob/archibald-dos-ni-demo-sp.zip
+-
+    id: playtoons1
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/gob/archibald-dos-ni-demo2-en.zip
+-
+    id: playtoonsdemo
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/gob/archibald-dos-ni-demo1-en.zip
+-
     id: urban
     platform: dos
     '': ''
@@ -1133,42 +1133,6 @@
     language2: ''
     language3: ''
     url: /frs/demos/gob/woodruff-dos-ni-demo-en.zip
--
-    id: monkey4
-    platform: mac
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/grim/efmi_large_demo.sea
--
-    id: monkey4
-    platform: win
-    '': ''
-    category: German
-    language: de
-    language2: ''
-    language3: ''
-    url: /frs/demos/grim/emi-win-demo-de.zip
--
-    id: monkey4
-    platform: win
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/grim/emi-win-demo-en.zip
--
-    id: monkey4
-    platform: win
-    '': ''
-    category: Spanish
-    language: es
-    language2: ''
-    language3: ''
-    url: /frs/demos/grim/emi-win-demo-sp.zip
 -
     id: grim
     platform: win
@@ -1223,6 +1187,42 @@
     language2: ''
     language3: ''
     url: /frs/demos/grim/grim-win-demo2-en.zip
+-
+    id: monkey4
+    platform: mac
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/grim/efmi_large_demo.sea
+-
+    id: monkey4
+    platform: win
+    '': ''
+    category: German
+    language: de
+    language2: ''
+    language3: ''
+    url: /frs/demos/grim/emi-win-demo-de.zip
+-
+    id: monkey4
+    platform: win
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/grim/emi-win-demo-en.zip
+-
+    id: monkey4
+    platform: win
+    '': ''
+    category: Spanish
+    language: es
+    language2: ''
+    language3: ''
+    url: /frs/demos/grim/emi-win-demo-sp.zip
 -
     id: monkey4
     platform: win
@@ -1629,6 +1629,24 @@
     language3: ''
     url: /frs/demos/icb/icb-win-demo-us.zip
 -
+    id: igor
+    platform: dos
+    '': ''
+    category: 'Version 1.0'
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/other/igor/igor-dos-1.0-demo-en.zip
+-
+    id: igor
+    platform: dos
+    '': ''
+    category: 'Version 1.1'
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/other/igor/igor-dos-1.1-demo-en.zip
+-
     id: duckman
     platform: win
     '': ''
@@ -1701,6 +1719,15 @@
     language3: ''
     url: /frs/demos/kyra/kyra2-dos-ni-demo2-en.zip
 -
+    id: kyra3
+    platform: dos
+    '': ''
+    category: Non-Engine
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/kyra/Non-Engine/kyra3-dos-ni-demo-en.zip
+-
     id: lol
     platform: dos
     '': ''
@@ -1727,15 +1754,6 @@
     language2: ''
     language3: ''
     url: /frs/demos/kyra/lol-dos-ni-demo-en.zip
--
-    id: kyra3
-    platform: dos
-    '': ''
-    category: Non-Engine
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/kyra/Non-Engine/kyra3-dos-ni-demo-en.zip
 -
     id: lastexpress
     platform: win
@@ -1863,15 +1881,6 @@
     language3: ''
     url: /frs/demos/mads/dragon-dos-demo-en.zip
 -
-    id: phantom
-    platform: dos
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/mads/phantom-dos-demo-en.zip
--
     id: nebular
     platform: dos
     '': ''
@@ -1880,6 +1889,15 @@
     language2: ''
     language3: ''
     url: /frs/demos/mads/rex-dos-demo-en.zip
+-
+    id: phantom
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/mads/phantom-dos-demo-en.zip
 -
     id: alientales
     platform: win
@@ -2352,29 +2370,29 @@
     id: fullpipe
     platform: win
     '': ''
+    category: German
+    language: de
+    language2: ''
+    language3: ''
+    url: /frs/demos/fullpipe/fullpipe-demo-de.zip
+-
+    id: fullpipe
+    platform: win
+    '': ''
+    category: Russian
+    language: ru
+    language2: ''
+    language3: ''
+    url: /frs/demos/fullpipe/fullpipe-demo-ru.zip
+-
+    id: fullpipe
+    platform: win
+    '': ''
     category: '1997 Demo Release'
     language: ru
     language2: ''
     language3: ''
     url: /frs/demos/ngi/fullpipe-97-demo-ru.zip
--
-    id: igor
-    platform: dos
-    '': ''
-    category: 'Version 1.0'
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/other/igor/igor-dos-1.0-demo-en.zip
--
-    id: igor
-    platform: dos
-    '': ''
-    category: 'Version 1.1'
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/other/igor/igor-dos-1.1-demo-en.zip
 -
     id: bra
     platform: amiga
@@ -2772,6 +2790,420 @@
     language3: ''
     url: /frs/demos/sci/fairytales-dos-ni-demo-en.zip
 -
+    id: freddypharkas
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/freddypharkas-dos-demo1-en.zip
+-
+    id: freddypharkas
+    platform: dos
+    '': ''
+    category: Alternative
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/freddypharkas-dos-demo2-en.zip
+-
+    id: freddypharkas
+    platform: win
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/freddypharkas-win-cd-demo-en.zip
+-
+    id: funseeker
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/funseeker-dos-demo-en.zip
+-
+    id: gk1
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/gk1-dos-demo-en.zip
+-
+    id: gk2
+    platform: win
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/gk2-win-ni-demo-en.zip
+-
+    id: hoyle3
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/hoyle3-dos-ni-demo-en.zip
+-
+    id: hoyle4
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/hoyle4-dos-ni-demo-en.zip
+-
+    id: hoyle5
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/hoyle5-win-demo-en.zip
+-
+    id: iceman
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/iceman-dos-ni-demo-en.zip
+-
+    id: inndemo
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/inn-dos-ni-demo-en.zip
+-
+    id: islandbrain
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/islandbrain-dos-ni-demo-en.zip
+-
+    id: kq1sci
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/kq1sci-dos-ni-demo-en.zip
+-
+    id: kq4sci
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/kq4sci-dos-ni-demo-en.zip
+-
+    id: kq6
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/kq6-dos-ni-demo-en.zip
+-
+    id: kq7
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/kq7-dos-win-ni-demo-en.zip
+-
+    id: laurabow
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/laurabow-dos-ni-demo-en.zip
+-
+    id: laurabow2
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/laurabow2-dos-ni-demo-en.zip
+-
+    id: lighthouse
+    platform: win
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/lighthouse-win-demo-en.zip
+-
+    id: lighthouse
+    platform: win
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/lighthouse-win-demo2-en.zip
+-
+    id: lighthouse
+    platform: win
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/lighthouse-win-ni-demo-en.zip
+-
+    id: longbow
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/longbow-dos-ni-demo-en.zip
+-
+    id: lsl1sci
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/lsl1sci-dos-ni-demo-en.zip
+-
+    id: lsl2
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/lsl2-dos-ni-demo-en.zip
+-
+    id: lsl3
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/lsl3-dos-ni-demo-en.zip
+-
+    id: lsl5
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/lsl5-dos-ni-demo-en.zip
+-
+    id: lsl6
+    platform: dos
+    '': ''
+    category: Non-Engine
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/Non-Engine/lsl6-dos-ni-demo-en.zip
+-
+    id: lsl7
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/lsl7-dos-demo-en.zip
+-
+    id: mothergoose
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/mothergoose-win-demo-en.zip
+-
+    id: msastrochicken
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/msastrochicken-dos-demo-en.zip
+-
+    id: pepper
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/pepper-dos-demo-en.zip
+-
+    id: pepper
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/pepper-dos-ni-demo-en.zip
+-
+    id: pepper
+    platform: win
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/pepper-dos-win-demo-en.zip
+-
+    id: phantasmagoria
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/phantasmagoria-dos-win-demo-en.zip
+-
+    id: phantasmagoria
+    platform: dos
+    '': ''
+    category: Alternative
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/phantasmagoria-dos-win-demo1-en.zip
+-
+    id: pq2
+    platform: dos
+    '': ''
+    category: 'Non-Interactive (corrupted copy)'
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/pq2-dos-ni-demo-en-corrupt.zip
+-
+    id: pq2
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/pq2-dos-ni-demo-en.zip
+-
+    id: pq3
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/pq3-dos-ni-demo-en.zip
+-
+    id: pq4
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/pq4-dos-ni-demo-en.zip
+-
+    id: pqswat
+    platform: win
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/pqswat-win-demo-en.zip
+-
+    id: qfg1vga
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/qfg1vga-dos-ni-demo-en.zip
+-
+    id: qfg2
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/qfg2-dos-ni-demo-en.zip
+-
+    id: qfg3
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/qfg3-dos-ni-demo-en.zip
+-
+    id: qfg4
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/qfg4-dos-ni-demo-en.zip
+-
+    id: rama
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/rama-dos-win-ni-demo-en.zip
+-
+    id: realm
+    platform: win
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/realm-win-demo-en.zip
+-
     id: sci-fanmade
     platform: dos
     '': ''
@@ -3087,447 +3519,6 @@
     language3: ''
     url: /frs/demos/sci/fangame/Winter_Wonderland.zip
 -
-    id: freddypharkas
-    platform: dos
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/freddypharkas-dos-demo1-en.zip
--
-    id: freddypharkas
-    platform: dos
-    '': ''
-    category: Alternative
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/freddypharkas-dos-demo2-en.zip
--
-    id: freddypharkas
-    platform: win
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/freddypharkas-win-cd-demo-en.zip
--
-    id: funseeker
-    platform: dos
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/funseeker-dos-demo-en.zip
--
-    id: gk1
-    platform: dos
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/gk1-dos-demo-en.zip
--
-    id: gk2
-    platform: win
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/gk2-win-ni-demo-en.zip
--
-    id: hoyle3
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/hoyle3-dos-ni-demo-en.zip
--
-    id: hoyle4
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/hoyle4-dos-ni-demo-en.zip
--
-    id: hoyle5
-    platform: dos
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/hoyle5-win-demo-en.zip
--
-    id: iceman
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/iceman-dos-ni-demo-en.zip
--
-    id: inndemo
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/inn-dos-ni-demo-en.zip
--
-    id: islandbrain
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/islandbrain-dos-ni-demo-en.zip
--
-    id: kq1sci
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/kq1sci-dos-ni-demo-en.zip
--
-    id: kq4sci
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/kq4sci-dos-ni-demo-en.zip
--
-    id: kq6
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/kq6-dos-ni-demo-en.zip
--
-    id: kq7
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/kq7-dos-win-ni-demo-en.zip
--
-    id: laurabow
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/laurabow-dos-ni-demo-en.zip
--
-    id: laurabow2
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/laurabow2-dos-ni-demo-en.zip
--
-    id: lighthouse
-    platform: win
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/lighthouse-win-demo-en.zip
--
-    id: lighthouse
-    platform: win
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/lighthouse-win-demo2-en.zip
--
-    id: lighthouse
-    platform: win
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/lighthouse-win-ni-demo-en.zip
--
-    id: longbow
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/longbow-dos-ni-demo-en.zip
--
-    id: lsl1sci
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/lsl1sci-dos-ni-demo-en.zip
--
-    id: lsl2
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/lsl2-dos-ni-demo-en.zip
--
-    id: lsl3
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/lsl3-dos-ni-demo-en.zip
--
-    id: lsl5
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/lsl5-dos-ni-demo-en.zip
--
-    id: lsl7
-    platform: dos
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/lsl7-dos-demo-en.zip
--
-    id: mothergoose
-    platform: dos
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/mothergoose-win-demo-en.zip
--
-    id: msastrochicken
-    platform: dos
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/msastrochicken-dos-demo-en.zip
--
-    id: lsl6
-    platform: dos
-    '': ''
-    category: Non-Engine
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/Non-Engine/lsl6-dos-ni-demo-en.zip
--
-    id: shivers2
-    platform: win
-    '': ''
-    category: Non-Engine
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/Non-Engine/shivers2-win-demo-en.zip
--
-    id: sq5
-    platform: dos
-    '': ''
-    category: Non-Engine
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/Non-Engine/sq5-dos-ni-demo-en.zip
--
-    id: pepper
-    platform: dos
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/pepper-dos-demo-en.zip
--
-    id: pepper
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/pepper-dos-ni-demo-en.zip
--
-    id: pepper
-    platform: win
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/pepper-dos-win-demo-en.zip
--
-    id: phantasmagoria
-    platform: dos
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/phantasmagoria-dos-win-demo-en.zip
--
-    id: phantasmagoria
-    platform: dos
-    '': ''
-    category: Alternative
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/phantasmagoria-dos-win-demo1-en.zip
--
-    id: pq2
-    platform: dos
-    '': ''
-    category: 'Non-Interactive (corrupted copy)'
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/pq2-dos-ni-demo-en-corrupt.zip
--
-    id: pq2
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/pq2-dos-ni-demo-en.zip
--
-    id: pq3
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/pq3-dos-ni-demo-en.zip
--
-    id: pq4
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/pq4-dos-ni-demo-en.zip
--
-    id: pqswat
-    platform: win
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/pqswat-win-demo-en.zip
--
-    id: qfg1
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/qfg1-dos-ni-demo-en.zip
--
-    id: qfg1vga
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/qfg1vga-dos-ni-demo-en.zip
--
-    id: qfg2
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/qfg2-dos-ni-demo-en.zip
--
-    id: qfg3
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/qfg3-dos-ni-demo-en.zip
--
-    id: qfg4
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/qfg4-dos-ni-demo-en.zip
--
-    id: rama
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/rama-dos-win-ni-demo-en.zip
--
-    id: realm
-    platform: win
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/realm-win-demo-en.zip
--
     id: shivers
     platform: win
     '': ''
@@ -3555,6 +3546,15 @@
     language3: ''
     url: /frs/demos/sci/shivers-win-demo2-en.zip
 -
+    id: shivers2
+    platform: win
+    '': ''
+    category: Non-Engine
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/Non-Engine/shivers2-win-demo-en.zip
+-
     id: slater
     platform: dos
     '': ''
@@ -3581,6 +3581,15 @@
     language2: ''
     language3: ''
     url: /frs/demos/sci/sq3-dos-ni-demo-en.zip
+-
+    id: sq5
+    platform: dos
+    '': ''
+    category: Non-Engine
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/sci/Non-Engine/sq5-dos-ni-demo-en.zip
 -
     id: sq6
     platform: dos
@@ -3617,6 +3626,51 @@
     language2: ''
     language3: ''
     url: /frs/demos/sci/torin-dos-win-demo-en.zip
+-
+    id: airport
+    platform: mac
+    '': ''
+    category: ''
+    language: en_US
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/he/airport-mac-demo-us.zip
+-
+    id: airport
+    platform: win
+    '': ''
+    category: Dutch
+    language: nl
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/he/airport-win-demo-nl.zip
+-
+    id: airport
+    platform: win
+    '': ''
+    category: ''
+    language: en_US
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/he/airport-win-demo-us.zip
+-
+    id: airport
+    platform: win
+    '': ''
+    category: Updated
+    language: en_US
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/he/airport-win-updated-demo1-us.zip
+-
+    id: airport
+    platform: win
+    '': ''
+    category: 'Updated Alternative'
+    language: en_US
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/he/airport-win-updated-demo2-us.zip
 -
     id: atlantis
     platform: dos
@@ -3671,159 +3725,6 @@
     language2: ''
     language3: ''
     url: /frs/demos/scumm/atlantis-mac-demo.zip
--
-    id: comi
-    platform: win
-    '': ''
-    category: Large
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/comi-win-large-demo-en.zip
--
-    id: comi
-    platform: win
-    '': ''
-    category: Small
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/comi-win-small-demo-en.zip
--
-    id: dig
-    platform: dos
-    '': ''
-    category: CD
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/dig-dos-demo-en.zip
--
-    id: dig
-    platform: mac
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/dig-mac-demo-en.zip
--
-    id: tentacle
-    platform: dos
-    '': ''
-    category: 'German Non-Interactive'
-    language: de
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/dott-dos-ni-demo-de.zip
--
-    id: tentacle
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/dott-dos-ni-demo-en.zip
--
-    id: tentacle
-    platform: dos
-    '': ''
-    category: 'French Non-Interactive'
-    language: fr
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/dott-dos-ni-demo-fr.zip
--
-    id: tentacle
-    platform: mac
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/dott-mac-ni-demo-en.zip
--
-    id: ft
-    platform: dos
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/ft-dos-demo-en.zip
--
-    id: ft
-    platform: mac
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/ft-mac-demo-en.zip
--
-    id: ft
-    platform: mac
-    '': ''
-    category: Trailer
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/ft-mac-ni-demo-en.zip
--
-    id: airport
-    platform: mac
-    '': ''
-    category: ''
-    language: en_US
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/he/airport-mac-demo-us.zip
--
-    id: airport
-    platform: win
-    '': ''
-    category: Dutch
-    language: nl
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/he/airport-win-demo-nl.zip
--
-    id: airport
-    platform: win
-    '': ''
-    category: ''
-    language: en_US
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/he/airport-win-demo-us.zip
--
-    id: airport
-    platform: win
-    '': ''
-    category: Updated
-    language: en_US
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/he/airport-win-updated-demo1-us.zip
--
-    id: airport
-    platform: win
-    '': ''
-    category: 'Updated Alternative'
-    language: en_US
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/he/airport-win-updated-demo2-us.zip
--
-    id: freddicove
-    platform: win
-    '': ''
-    category: ''
-    language: en_US
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/he/arttime-win-demo-us.zip
 -
     id: baseball
     platform: win
@@ -3959,6 +3860,42 @@
     language2: ''
     language3: ''
     url: /frs/demos/scumm/he/catalog-win-preview-us.zip
+-
+    id: comi
+    platform: win
+    '': ''
+    category: Large
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/comi-win-large-demo-en.zip
+-
+    id: comi
+    platform: win
+    '': ''
+    category: Small
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/comi-win-small-demo-en.zip
+-
+    id: dig
+    platform: dos
+    '': ''
+    category: CD
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/dig-dos-demo-en.zip
+-
+    id: dig
+    platform: mac
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/dig-mac-demo-en.zip
 -
     id: farm
     platform: win
@@ -4224,6 +4161,15 @@
     id: freddicove
     platform: win
     '': ''
+    category: ''
+    language: en_US
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/he/arttime-win-demo-us.zip
+-
+    id: freddicove
+    platform: win
+    '': ''
     category: Dutch
     language: nl
     language2: ''
@@ -4239,6 +4185,69 @@
     language3: ''
     url: /frs/demos/scumm/he/freddicove-win-demo-us.zip
 -
+    id: freddicove
+    platform: win
+    '': ''
+    category: ''
+    language: en_US
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/he/readtime-win-demo-us.zip
+-
+    id: ft
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/ft-dos-demo-en.zip
+-
+    id: ft
+    platform: mac
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/ft-mac-demo-en.zip
+-
+    id: ft
+    platform: mac
+    '': ''
+    category: Trailer
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/ft-mac-ni-demo-en.zip
+-
+    id: indy3
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/indy3-ega-ni-demo-en.zip
+-
+    id: loom
+    platform: dos
+    '': ''
+    category: 'Long Non-Interactive'
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/loom-dos-long-demo-en.zip
+-
+    id: loom
+    platform: dos
+    '': ''
+    category: 'Short Non-Interactive'
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/loom-dos-short-demo-en.zip
+-
     id: lost
     platform: win
     '': ''
@@ -4247,6 +4256,78 @@
     language2: ''
     language3: ''
     url: /frs/demos/scumm/he/lost-win-demo-us.zip
+-
+    id: maniac
+    platform: c64
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/maniac-c64-demo-en.zip
+-
+    id: maniac
+    platform: dos
+    '': ''
+    category: 'V1 Non-Interactive'
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/maniac-dos-v1-ni-demo-en.zip
+-
+    id: maniac
+    platform: dos
+    '': ''
+    category: 'V2 Non-Interactive'
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/maniac-dos-v2-ni-demo-en.zip
+-
+    id: monkey
+    platform: amiga
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/monkey1-amiga-demo-en.zip
+-
+    id: monkey
+    platform: dos
+    '': ''
+    category: 'German EGA'
+    language: de
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/monkey1-dos-ega-demo-de.zip
+-
+    id: monkey
+    platform: dos
+    '': ''
+    category: EGA
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/monkey1-dos-ega-demo-en.zip
+-
+    id: monkey2
+    platform: dos
+    '': ''
+    category: Unsupported
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/monkey2-dos-ni-demo-en.zip
+-
+    id: monkey2
+    platform: dos
+    '': ''
+    category: 'Non-Engine (Slideshow)'
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/Non-Engine/mi2-dos-ni-slideshow-demo-en.zip
 -
     id: moonbase
     platform: win
@@ -4373,6 +4454,15 @@
     language2: ''
     language3: ''
     url: /frs/demos/scumm/he/pajama3-win-updated-demo-us.zip
+-
+    id: pass
+    platform: dos
+    '': ''
+    category: EGA
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/pass-dos-en.zip
 -
     id: puttcircus
     platform: win
@@ -4626,14 +4716,59 @@
     language3: ''
     url: /frs/demos/scumm/he/puttzoo-win-updated-demo-us.zip
 -
-    id: freddicove
-    platform: win
+    id: samnmax
+    platform: dos
     '': ''
-    category: ''
-    language: en_US
+    category: CD
+    language: en
     language2: ''
     language3: ''
-    url: /frs/demos/scumm/he/readtime-win-demo-us.zip
+    url: /frs/demos/scumm/samnmax-dos-cd-demo-en.zip
+-
+    id: samnmax
+    platform: dos
+    '': ''
+    category: German
+    language: de
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/samnmax-dos-demo-de.zip
+-
+    id: samnmax
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/samnmax-dos-demo-en.zip
+-
+    id: samnmax
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/samnmax-dos-ni-demo-en.zip
+-
+    id: samnmax
+    platform: dos
+    '': ''
+    category: WIP
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/samnmax-dos-wip-demo-en.zip
+-
+    id: samnmax
+    platform: mac
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/samnmax-mac-demo-en.zip
 -
     id: spyfox
     platform: win
@@ -4770,6 +4905,42 @@
     language3: ''
     url: /frs/demos/scumm/he/spyozon-win-preview-us.zip
 -
+    id: tentacle
+    platform: dos
+    '': ''
+    category: 'German Non-Interactive'
+    language: de
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/dott-dos-ni-demo-de.zip
+-
+    id: tentacle
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/dott-dos-ni-demo-en.zip
+-
+    id: tentacle
+    platform: dos
+    '': ''
+    category: 'French Non-Interactive'
+    language: fr
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/dott-dos-ni-demo-fr.zip
+-
+    id: tentacle
+    platform: mac
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/dott-mac-ni-demo-en.zip
+-
     id: thinker1
     platform: win
     '': ''
@@ -4787,168 +4958,6 @@
     language2: ''
     language3: ''
     url: /frs/demos/scumm/he/thinkerk-win-demo-us.zip
--
-    id: indy3
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/indy3-ega-ni-demo-en.zip
--
-    id: loom
-    platform: dos
-    '': ''
-    category: 'Long Non-Interactive'
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/loom-dos-long-demo-en.zip
--
-    id: loom
-    platform: dos
-    '': ''
-    category: 'Short Non-Interactive'
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/loom-dos-short-demo-en.zip
--
-    id: maniac
-    platform: c64
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/maniac-c64-demo-en.zip
--
-    id: maniac
-    platform: dos
-    '': ''
-    category: 'V1 Non-Interactive'
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/maniac-dos-v1-ni-demo-en.zip
--
-    id: maniac
-    platform: dos
-    '': ''
-    category: 'V2 Non-Interactive'
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/maniac-dos-v2-ni-demo-en.zip
--
-    id: monkey
-    platform: amiga
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/monkey1-amiga-demo-en.zip
--
-    id: monkey
-    platform: dos
-    '': ''
-    category: 'German EGA'
-    language: de
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/monkey1-dos-ega-demo-de.zip
--
-    id: monkey
-    platform: dos
-    '': ''
-    category: EGA
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/monkey1-dos-ega-demo-en.zip
--
-    id: monkey2
-    platform: dos
-    '': ''
-    category: Unsupported
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/monkey2-dos-ni-demo-en.zip
--
-    id: monkey2
-    platform: dos
-    '': ''
-    category: 'Non-Engine (Slideshow)'
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/Non-Engine/mi2-dos-ni-slideshow-demo-en.zip
--
-    id: pass
-    platform: dos
-    '': ''
-    category: EGA
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/pass-dos-en.zip
--
-    id: samnmax
-    platform: dos
-    '': ''
-    category: CD
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/samnmax-dos-cd-demo-en.zip
--
-    id: samnmax
-    platform: dos
-    '': ''
-    category: German
-    language: de
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/samnmax-dos-demo-de.zip
--
-    id: samnmax
-    platform: dos
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/samnmax-dos-demo-en.zip
--
-    id: samnmax
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/samnmax-dos-ni-demo-en.zip
--
-    id: samnmax
-    platform: dos
-    '': ''
-    category: WIP
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/samnmax-dos-wip-demo-en.zip
--
-    id: samnmax
-    platform: mac
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/samnmax-mac-demo-en.zip
 -
     id: zak
     platform: atarist
@@ -5418,15 +5427,6 @@
     language3: ''
     url: /frs/demos/tsage/protostar-dos-ni-demo-en.zip
 -
-    id: ringworld2
-    platform: dos
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/tsage/returntoringworld-dos-demo-en.zip
--
     id: ringworld
     platform: dos
     '': ''
@@ -5444,6 +5444,15 @@
     language2: ''
     language3: ''
     url: /frs/demos/tsage/ringworld-dos-ni-demo-en.zip
+-
+    id: ringworld2
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/tsage/returntoringworld-dos-demo-en.zip
 -
     id: tucker
     platform: dos
@@ -5616,15 +5625,6 @@
     language3: ''
     url: /frs/demos/wintermute/helga_deep_in_trouble-demo.zip
 -
-    id: wintermute
-    platform: win
-    '': ''
-    category: 'Alavi Detective - Murder of Miss Rojan'
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/wintermute/informer_alavi-demo-beta.zip
--
     id: jamesperis
     platform: win
     '': ''
@@ -5670,6 +5670,15 @@
     language3: ''
     url: /frs/demos/wintermute/kulivocko-cz-demo.zip
 -
+    id: lonelyrobot
+    platform: win
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/wintermute/project_lonely_robot-demo-beta.zip
+-
     id: machumayu
     platform: win
     '': ''
@@ -5687,15 +5696,6 @@
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/night_train-en-demo.zip
--
-    id: reptilesquest
-    platform: win
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/wintermute/on_the_tracks_of_dinosaurs-demo-en.zip
 -
     id: one
     platform: win
@@ -5733,14 +5733,23 @@
     language3: ''
     url: /frs/demos/wintermute/project_joe-demo-en.zip
 -
-    id: lonelyrobot
+    id: rebeccacarlson1
     platform: win
     '': ''
     category: ''
     language: en
     language2: ''
     language3: ''
-    url: /frs/demos/wintermute/project_lonely_robot-demo-beta.zip
+    url: /frs/demos/wintermute/silent_footsteps-en-demo.zip
+-
+    id: reptilesquest
+    platform: win
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/wintermute/on_the_tracks_of_dinosaurs-demo-en.zip
 -
     id: rhiannon
     platform: win
@@ -5778,15 +5787,6 @@
     language3: ''
     url: /frs/demos/wintermute/satan_and_sons-demo-en.zip
 -
-    id: rebeccacarlson1
-    platform: win
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/wintermute/silent_footsteps-en-demo.zip
--
     id: spaceinvaders
     platform: win
     '': ''
@@ -5805,15 +5805,6 @@
     language3: ''
     url: /frs/demos/wintermute/space_madness-demo-en.zip
 -
-    id: wintermute
-    platform: win
-    '': ''
-    category: 'Sunrise: The game (German)'
-    language: de
-    language2: ''
-    language3: ''
-    url: /frs/demos/wintermute/sunrise_the_game-demo-de.zip
--
     id: tradestory
     platform: win
     '': ''
@@ -5822,6 +5813,24 @@
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/trader_of_stories-demo-en.zip
+-
+    id: wintermute
+    platform: win
+    '': ''
+    category: 'Alavi Detective - Murder of Miss Rojan'
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/wintermute/informer_alavi-demo-beta.zip
+-
+    id: wintermute
+    platform: win
+    '': ''
+    category: 'Sunrise: The game (German)'
+    language: de
+    language2: ''
+    language3: ''
+    url: /frs/demos/wintermute/sunrise_the_game-demo-de.zip
 -
     id: wmedemo
     platform: win
