@@ -4730,11 +4730,11 @@
     notes: ''
     since_version: DEV
     stable_platforms: mac
-    unstable_platforms: 'win,ps2,xbox,nds,android,ps3,xbox360,ios,switch'
+    unstable_platforms: 'win,ps2,xbox,winmobile,nds,android,ps3,xbox360,ios,switch'
 -
     id: syberia2
     support: untested
     notes: ''
     since_version: DEV
     stable_platforms: mac
-    unstable_platforms: 'win,ps2,xbox,android,ps3,xbox360,ios,switch'
+    unstable_platforms: 'win,ps2,xbox,winmobile,android,ps3,xbox360,ios,switch'

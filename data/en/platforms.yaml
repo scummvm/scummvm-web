@@ -172,6 +172,10 @@
     id: win
     moby_id: '3'
 -
+    name: 'Windows Mobile'
+    id: winmobile
+    moby_id: ''
+-
     name: Xbox
     id: xbox
     moby_id: '13'
