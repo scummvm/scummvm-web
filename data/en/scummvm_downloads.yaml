@@ -437,7 +437,7 @@
     user_agent: Android
     version: 2.7.0
     url: 'https://play.google.com/apps/testing/org.scummvm.scummvm'
-    name: 'Android app on Google Play Store (beta release 2)'
+    name: 'Android app on Google Play Store (beta release 3)'
     notes: ''
 -
     enabled: true
