@@ -84,9 +84,17 @@
     id: nes
     moby_id: '22'
 -
+    name: 'Nintendo DS'
+    id: nds
+    moby_id: ''
+-
     name: 'Nintendo Wii'
     id: wii
     moby_id: '82'
+-
+    name: 'Nintendo Switch'
+    id: Switch
+    moby_id: ''
 -
     name: OS/2
     id: os2
@@ -123,6 +131,10 @@
     name: 'PlayStation 2'
     id: ps2
     moby_id: '7'
+-
+    name: 'PlayStation 3'
+    id: ps3
+    moby_id: ''
 -
     name: 'Pocket PC'
     id: pocketpc
@@ -163,6 +175,10 @@
     name: Xbox
     id: xbox
     moby_id: '13'
+-
+    name: 'Xbox 360'
+    id: xbox360
+    moby_id: ''
 -
     name: 'ZX Spectrum'
     id: zx
