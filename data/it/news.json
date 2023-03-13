@@ -205,6 +205,7 @@
         "title": "Aiutaci a testare ScummVM per Android"
     },
     "20230312": {
-        "title": "Tutti dicono che Syberia non esiste. Ma si sbagliano..."
+        "title": "Tutti dicono che Syberia non esiste. Ma si sbagliano...",
+        "content": "I primi due episodi di *Syberia* sono pronti per essere testati con ScummVM!\n\nL'acclamata serie di Benoît Sokal narra la storia di Kate Walker, un'avvocatessa di New York, incaricata di completare la vendita della fabbrica di giocattoli Voralberg. Rapidamente l'incarico si trasforma in un viaggio di scoperte, alla ricerca del proprietario. Accompagna Kate mentre scopre la passione di Hans per i mammut, i segreti di Syberia e il fascino dell'avventura.\n\nAvrai bisogno dei file dati della versione *macOS* del gioco, e un recente [daily build](/downloads/#daily) di ScummVM. Le pagine della Wiki per [*Syberia*](https://wiki.scummvm.org/index.php?title=Syberia) e [*Syberia II*](https://wiki.scummvm.org/index.php?title=Syberia_II) riportano le istruzioni su come ottenere tali files utilizzando Windows o Linux.\nCortesemente riporta qualsiasi malfunzionamento riscontrato utilizzando il nostro [bug tracker](https://bugs.scummvm.org)."
     }
 }
