@@ -93,7 +93,7 @@
     moby_id: '82'
 -
     name: 'Nintendo Switch'
-    id: Switch
+    id: switch
     moby_id: ''
 -
     name: OS/2
