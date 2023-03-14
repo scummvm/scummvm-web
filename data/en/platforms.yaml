@@ -86,7 +86,7 @@
 -
     name: 'Nintendo DS'
     id: nds
-    moby_id: ''
+    moby_id: '44'
 -
     name: 'Nintendo Wii'
     id: wii
@@ -94,7 +94,7 @@
 -
     name: 'Nintendo Switch'
     id: switch
-    moby_id: ''
+    moby_id: '203'
 -
     name: OS/2
     id: os2
@@ -134,7 +134,7 @@
 -
     name: 'PlayStation 3'
     id: ps3
-    moby_id: ''
+    moby_id: '81'
 -
     name: 'Pocket PC'
     id: pocketpc
@@ -174,7 +174,7 @@
 -
     name: 'Windows Mobile'
     id: winmobile
-    moby_id: ''
+    moby_id: '66'
 -
     name: Xbox
     id: xbox
@@ -182,7 +182,7 @@
 -
     name: 'Xbox 360'
     id: xbox360
-    moby_id: ''
+    moby_id: '69'
 -
     name: 'ZX Spectrum'
     id: zx
