@@ -580,7 +580,7 @@
     name: 'OUYA package'
     notes: ''
 -
-    enabled: false
+    enabled: true
     category: scummvm
     subcategory: release
     category_icon: iphone
