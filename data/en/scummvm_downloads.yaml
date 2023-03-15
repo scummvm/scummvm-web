@@ -596,8 +596,8 @@
     category_icon: iphone
     user_agent: iOS
     version: 2.7.0
-    url: 'scummvm-{$version}-ios8.deb'
-    name: 'iOS 8+ package .deb'
+    url: 'scummvm-{$version}-ios8.ipa'
+    name: 'iOS 8+ package .ipa (unsigned)'
     notes: ''
 -
     enabled: true
@@ -606,8 +606,8 @@
     category_icon: iphone
     user_agent: iOS
     version: 2.7.0
-    url: 'scummvm-{$version}-ios8.ipa'
-    name: 'iOS 8+ package .ipa (unsigned)'
+    url: 'scummvm-{$version}-ios8.deb'
+    name: 'iOS 8+ package .deb'
     notes: ''
 -
     enabled: true
