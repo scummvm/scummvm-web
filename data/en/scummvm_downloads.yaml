@@ -580,6 +580,16 @@
     name: 'OUYA package'
     notes: ''
 -
+    enabled: false
+    category: scummvm
+    subcategory: release
+    category_icon: iphone
+    user_agent: iOS
+    version: 2.7.0
+    url: 'scummvm-{$version}-ios.ipa'
+    name: 'iOS 9+ package .ipa (signed)'
+    notes: ''
+-
     enabled: true
     category: scummvm
     subcategory: release
@@ -597,7 +607,7 @@
     user_agent: iOS
     version: 2.7.0
     url: 'scummvm-{$version}-ios8.ipa'
-    name: 'iOS 8+ package .ipa'
+    name: 'iOS 8+ package .ipa (unsigned)'
     notes: ''
 -
     enabled: true
