@@ -1834,6 +1834,13 @@
     stable_platforms: 'win,mac'
     unstable_platforms: ''
 -
+    id: private-eye
+    support: good
+    notes: '- All releases are supported except Japanese Windows.'
+    since_version: 2.7.0
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
     id: queen
     support: good
     notes: '- Some versions may require the queen.tbl resource file to be placed in the game directory. This is not required for the freeware releases.'
