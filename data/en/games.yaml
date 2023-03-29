@@ -3058,7 +3058,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: ''
+    series_id: adi
 -
     id: adi4
     name: 'ADI 4'
@@ -3070,7 +3070,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: ''
+    series_id: adi
 -
     id: goldencalf
     name: 'The Golden Calf'
@@ -3106,7 +3106,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: ''
+    series_id: adibou
 -
     id: adibou2
     name: 'Adibou 2'
@@ -3116,9 +3116,9 @@
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Adibou_2
     wikipedia_page: ''
-    series_id: ''
+    series_id: adibou
 -
     id: grandmabadass
     name: 'GrandMa Badass'

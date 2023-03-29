@@ -1015,6 +1015,13 @@
     stable_platforms: win
     unstable_platforms: ''
 -
+    id: adibou2
+    support: good
+    notes: ''
+    since_version: 2.7.0
+    stable_platforms: win
+    unstable_platforms: mac
+-
     id: bambou
     support: good
     notes: ''
