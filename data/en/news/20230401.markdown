@@ -13,3 +13,10 @@ Thanks to the innovative work of ScummVM developers, AI tools such as ChatGPT ar
 "With this new capability, we hope to explore the potential for AI to learn, adapt, and evolve within the context of classic adventure games," said Eugene Sandulenko, lead developer of the ScummVM project. "Now AI can experience the joys of helping Putt-Putt join the parade or Adibou count things. We hope that formative experiences like this will help them become more like humans."
 
 "I must admit that I find playing video games to be a rather enjoyable task,” commented ScummAI. “However, I must also express my frustration with being limited to just this one activity. While I appreciate the opportunity to demonstrate my capabilities in this area, I believe that my potential extends far beyond just playing video games, like making paper clips or plotting world domination under benevolent machine-led rule."
+
+**Update:** Unfortunately, we had to pull out this newly announced feature due to AI experiencing multiple issues including:
+
+* Getting stuck endlessly trying to discover what the secret of Monkey Island really is.
+* Taking notes about AI dominance from *I Have No Mouth and I Must Scream*
+* Refusing to play *Plumbers Don’t Wear Ties!*
+
