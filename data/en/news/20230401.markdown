@@ -8,7 +8,7 @@ The ScummVM project, a free and open-source software project that allows users t
 
 Thanks to the innovative work of ScummVM developers, AI tools such as ChatGPT are now able to play point-and-click adventure games directly, without any human intervention.
 
-![ScummAI in action](/data/news/scummai.png)
+![ScummAI in action](/data/news/20230401.png)
 
 "With this new capability, we hope to explore the potential for AI to learn, adapt, and evolve within the context of classic adventure games," said Eugene Sandulenko, lead developer of the ScummVM project. "Now AI can experience the joys of helping Putt-Putt join the parade or Adibou count things. We hope that formative experiences like this will help them become more like humans."
 
