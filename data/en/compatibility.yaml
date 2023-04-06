@@ -4706,9 +4706,9 @@
 -
     id: nemurenu
     support: excellent
-    notes: ''
+    notes: 'Intro doesn''t play in Mac version (uses accelerator)'
     since_version: DEV
-    stable_platforms: pippin
+    stable_platforms: 'mac,pippin'
     unstable_platforms: ''
 -
     id: overringunder
