@@ -1,11 +1,11 @@
 ---
-title: "*phone rings* Let’s Play Ball!”"
+title: "*phone rings* “Let’s Play Ball!”"
 author: LittleToonCat
 date: 1680816641
 ---
 ![BSO banner](/data/news/20230406.png)
 
-We are proud to announce that network-enabled Humongous Entertainment titles are now playable online! Anyone who has a copy of Backyard Football, Backyard Baseball 2001, and even Backyard Football 2002 (which was originally a LAN-only title) can download the latest [daily build](https://www.scummvm.org/downloads/#daily)* of ScummVM and play online games against real people!
+We are proud to announce that network-enabled Humongous Entertainment titles are now playable online! Anyone who has a copy of Backyard Football, Backyard Baseball 2001, and even Backyard Football 2002 (which was originally a LAN-only title) can download the latest [daily build](https://www.scummvm.org/downloads/#daily)\* of ScummVM and play online games against real people!
 
 This all became possible because the three developers from the Backyard Sports Online fork had joined the team and brought their services with them to the ScummVM. These are LittleToonCat, Jim “jibbodahibbo” Westerkamp and Sam “QuestionMonkey” Kupfer.
 
@@ -15,4 +15,4 @@ If you encounter any issues playing online, please let us know via the [issue tr
 
 This fantastic art is done by a fellow BSO community member Peppyrus.
 
-* only the Windows, macOS, Debian, Raspberry Pi, and Android builds are compatible with network play at the moment. And only the 2.8.x branch of ScummVM has this functionality.
+\* only the Windows, macOS, Debian, Raspberry Pi, and Android builds are compatible with network play at the moment. And only the 2.8.x branch of ScummVM has this functionality.
