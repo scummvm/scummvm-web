@@ -4944,6 +4944,30 @@
     wikipedia_page: 'Myst_III:_Exile'
     series_id: myst
 -
+    id: nancy1
+    name: 'Nancy Drew: Secrets Can Kill'
+    engine_id: nancy
+    company_id: herinteractive
+    moby_id: '4907'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: 'Nancy_Drew:_Secrets_Can_Kill'
+    wikipedia_page: 'Nancy_Drew:_Secrets_Can_Kill'
+    series_id: nancy
+-
+    id: vampirediaries
+    name: 'The Vampire Diaries'
+    engine_id: nancy
+    company_id: herinteractive
+    moby_id: '24234'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: The_Vampire_Diaries
+    wikipedia_page: ''
+    series_id: ''
+-
     id: neverhood
     name: 'The Neverhood'
     engine_id: neverhood

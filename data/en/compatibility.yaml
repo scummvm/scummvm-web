@@ -4623,119 +4623,119 @@
     id: chopsuey
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.7.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: easternmind
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.7.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: fukuokagoround
     support: bugged
     notes: 'Certain videos don''t load'
-    since_version: DEV
+    since_version: 2.7.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: ganbareinuchan
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.7.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: ganbareinuchan2
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.7.0
     stable_platforms: mac
     unstable_platforms: ''
 -
     id: henachoco01
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.7.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: henachoco02
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.7.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: henachoco03
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.7.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: henachoco04
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.7.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: henachoco05
     support: bugged
     notes: ''
-    since_version: DEV
+    since_version: 2.7.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: japanart07
     support: bugged
     notes: 'Scrolling text box feature isn''t supported yet'
-    since_version: DEV
+    since_version: 2.7.0
     stable_platforms: mac
     unstable_platforms: ''
 -
     id: majestic
     support: good
     notes: '- German release uses Director 5 and is not yet supported'
-    since_version: DEV
+    since_version: 2.7.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: nemurenu
     support: excellent
     notes: 'Intro doesn''t play in Mac version (uses accelerator)'
-    since_version: DEV
+    since_version: 2.7.0
     stable_platforms: 'mac,pippin'
     unstable_platforms: ''
 -
     id: overringunder
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.7.0
     stable_platforms: mac
     unstable_platforms: ''
 -
     id: pepperon
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.7.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: the7colors
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.7.0
     stable_platforms: mac
     unstable_platforms: ''
 -
     id: timegal
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.7.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
@@ -4752,3 +4752,17 @@
     since_version: DEV
     stable_platforms: mac
     unstable_platforms: 'win,ps2,xbox,winmobile,android,ps3,xbox360,ios,switch'
+-
+    id: nancy1
+    support: good
+    notes: 'Original menus are not yet supported'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: vampirediaries
+    support: good
+    notes: 'Original menus are not yet supported'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''

@@ -180,6 +180,9 @@
     id: myst
     name: Myst
 -
+    id: nancy
+    name: 'Nancy Drew'
+-
     id: nelly
     name: 'Nelly Cootalot'
 -

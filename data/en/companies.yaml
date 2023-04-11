@@ -544,6 +544,10 @@
     name: 'Headware Games'
     alt_name: ''
 -
+    id: herinteractive
+    name: 'Her Interactive, Inc.'
+    alt_name: ''
+-
     id: herocraft
     name: HeroCraft
     alt_name: ''
