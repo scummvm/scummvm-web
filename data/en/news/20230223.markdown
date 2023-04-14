@@ -1,0 +1,16 @@
+---
+title: "ScummVM has been accepted to the Google Summer of Code 2023"
+author: criezy
+date: 1677179250
+---
+This year our project was accepted to the [Google Summer of Code](https://summerofcode.withgoogle.com) program for the eighth year in a row (and 16th time in total).
+
+The intention of the program is to bring new contributors to open source projects, and the eligibility rules for participants are the same as last year, with both students and non-students welcome to participate. Check the  [Google Summer of Code](https://summerofcode.withgoogle.com) website for details of eligibility.
+
+Participants can apply for either short tasks (about 175 hours) or long tasks (about 350 hours). The coding period typically runs from the start of June to the end of August, but there is some flexibility and the participants can opt to use a longer coding period if they are not available to work full time on the project during the summer.
+
+ScummVM is looking for applicants! A list of suggested projects can be found on [this page](https://wiki.scummvm.org/index.php?title=Summer_of_Code/GSoC_Ideas_2023), but we’re open to your own ideas too. Please make sure you provide the [required information in your application](https://wiki.scummvm.org/index.php?title=GSoC_Application) before submitting. We also strongly encourage you to join our [Discord server](https://discord.gg/4cDsMNtcpG) and follow the #scummvm-gsoc channel where you can engage with our mentors and the rest of the team, and get advice and help on getting started with the project and writing your application.
+
+We have gathered some information to guide you, based on our previous 15 years of experience in the program. You may start your exploration from our [Google Summer of Code miniportal](https://wiki.scummvm.org/index.php?title=Summer_of_Code).
+
+We are looking forward to your application and participation!

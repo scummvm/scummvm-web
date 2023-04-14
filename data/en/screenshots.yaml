@@ -2118,6 +2118,24 @@
     language: es
     variant_id: '1'
 -
+    id: vampirediaries
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: nancy1
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: nancy1
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
     id: shivers
     variant: ''
     platform_id: win

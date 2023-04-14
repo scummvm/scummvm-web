@@ -1,0 +1,11 @@
+---
+title: "People say Syberia doesn't exist. But people are so wrong."
+author: mduggan
+date: 1678612208
+---
+
+The first two installments of *Syberia* are now ready for testing in ScummVM!
+
+The acclaimed series from Benoît Sokal follows Kate Walker, a lawyer from New York as she initially tries to complete the sale of the Voralberg toy factory. But quickly Kate is drawn into a search for the owner which takes her on a journey of discovery.  Join her as she uncovers the owner’s fascination with mammoths, the secrets of Syberia, and a love for adventure.
+
+You will need data files from the *macOS* version of the games, and a new [daily build](/downloads/#daily) of ScummVM.  The ScummVM Wiki pages for [*Syberia*](https://wiki.scummvm.org/index.php?title=Syberia) and [*Syberia II*](https://wiki.scummvm.org/index.php?title=Syberia_II) include instructions on obtaining those files from Windows or Linux.  Please file any issues you discover in the [issue tracker](https://bugs.scummvm.org).

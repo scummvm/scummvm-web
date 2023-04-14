@@ -80,6 +80,10 @@
     name: 'Alcachofa Soft'
     alt_name: ''
 -
+    id: aloalo
+    name: 'Aloalo International'
+    alt_name: ''
+-
     id: amatouk
     name: 'Amir Matouk'
     alt_name: ''
@@ -124,6 +128,10 @@
     name: ArtisticSoft
     alt_name: ''
 -
+    id: artsectorone
+    name: 'ArtSector One'
+    alt_name: ''
+-
     id: arxel
     name: 'Arxel Tribe'
     alt_name: ''
@@ -142,6 +150,10 @@
 -
     id: bandai
     name: Bandai
+    alt_name: ''
+-
+    id: bfactory
+    name: B-Factory
     alt_name: ''
 -
     id: bigfish
@@ -396,6 +408,10 @@
     name: 'ELOI Productions'
     alt_name: ''
 -
+    id: emotion
+    name: 'Emotion Digital'
+    alt_name: ''
+-
     id: encore
     name: 'Encore Software'
     alt_name: ''
@@ -430,6 +446,10 @@
 -
     id: firstlight
     name: Firstlight
+    alt_name: ''
+-
+    id: flammarion
+    name: Flammarion
     alt_name: ''
 -
     id: flashpoint
@@ -524,6 +544,10 @@
     name: 'Headware Games'
     alt_name: ''
 -
+    id: herinteractive
+    name: 'Her Interactive, Inc.'
+    alt_name: ''
+-
     id: herocraft
     name: HeroCraft
     alt_name: ''
@@ -614,6 +638,10 @@
 -
     id: israndom
     name: 'IsRandomRandom Games'
+    alt_name: ''
+-
+    id: itachoco
+    name: ITA-Choco
     alt_name: ''
 -
     id: jbclerfayt
@@ -752,6 +780,10 @@
     name: 'Metropolis Software House'
     alt_name: ''
 -
+    id: microids
+    name: Microïds
+    alt_name: ''
+-
     id: microprose
     name: MicroProse
     alt_name: ''
@@ -854,6 +886,10 @@
 -
     id: offstudio
     name: 'Off Studio'
+    alt_name: ''
+-
+    id: optik
+    name: "Optik\_Software,\_Inc."
     alt_name: ''
 -
     id: origin
@@ -1096,6 +1132,10 @@
     name: 'Stranga Games'
     alt_name: ''
 -
+    id: strummer
+    name: 'Strummer Games'
+    alt_name: ''
+-
     id: studiotrophis
     name: 'Studio Trophis'
     alt_name: ''
@@ -1106,6 +1146,10 @@
 -
     id: synergy
     name: 'Synergy Inc.'
+    alt_name: ''
+-
+    id: taito
+    name: Taito
     alt_name: ''
 -
     id: teamvsb
@@ -1142,6 +1186,10 @@
 -
     id: tomsimpson
     name: 'Tom Simpson'
+    alt_name: ''
+-
+    id: toshiba
+    name: 'Toshiba EMI'
     alt_name: ''
 -
     id: traktor
@@ -1222,6 +1270,10 @@
 -
     id: wanderlust
     name: 'Wanderlust Interactive'
+    alt_name: ''
+-
+    id: watchdatoast
+    name: WatchDaToast
     alt_name: ''
 -
     id: warner

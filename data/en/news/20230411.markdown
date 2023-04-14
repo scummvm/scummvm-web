@@ -1,0 +1,13 @@
+---
+title: "Vampires, Romance, and Sleuthing"
+author: fracturehill
+date: 1681244853
+---
+
+HeR Interactive’s _The Vampire Diaries_ and _Nancy Drew: Secrets Can Kill_ are now ready for testing in ScummVM!
+
+_The Vampire Diaries_ follows Elena Gilbert, a high school student who discovers vampires are living in her hometown after one of them attacks her younger sister. The game is loosely based on the book series of the same name by author L. J. Smith, which later got adapted into a hit TV series.
+
+_Nancy Drew: Secrets Can Kill_ is the first installment of the long-running Nancy Drew game series, also based on a book series of the same name. In her first adventure, Nancy seeks to uncover the killer of a high school student who seems to have been disliked by all of his classmates.
+
+You will need the data files from the games’ original install CDs, and a fresh [daily build](https://www.scummvm.org/downloads/#daily) of ScummVM. Apart from the original release, Secrets Can Kill’s Russian translation is also supported. The ScummVM wiki pages for [_The Vampire Diaries_](https://wiki.scummvm.org/index.php?title=The_Vampire_Diaries) and [_Nancy Drew: Secrets Can Kill_](https://wiki.scummvm.org/index.php?title=Nancy_Drew:_Secrets_Can_Kill) contain information on which datafiles are needed. Please, report any problems you encounter in our [issue tracker](https://bugs.scummvm.org/).

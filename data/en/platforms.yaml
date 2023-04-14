@@ -16,6 +16,10 @@
     id: amigacd32
     moby_id: '56'
 -
+    name: 'Amstrad CPC'
+    id: cpc
+    moby_id: '60'
+-
     name: Android
     id: android
     moby_id: '91'
@@ -80,9 +84,17 @@
     id: nes
     moby_id: '22'
 -
+    name: 'Nintendo DS'
+    id: nds
+    moby_id: '44'
+-
     name: 'Nintendo Wii'
     id: wii
     moby_id: '82'
+-
+    name: 'Nintendo Switch'
+    id: switch
+    moby_id: '203'
 -
     name: OS/2
     id: os2
@@ -120,6 +132,10 @@
     id: ps2
     moby_id: '7'
 -
+    name: 'PlayStation 3'
+    id: ps3
+    moby_id: '81'
+-
     name: 'Pocket PC'
     id: pocketpc
     moby_id: '66'
@@ -156,9 +172,17 @@
     id: win
     moby_id: '3'
 -
+    name: 'Windows Mobile'
+    id: winmobile
+    moby_id: '66'
+-
     name: Xbox
     id: xbox
     moby_id: '13'
+-
+    name: 'Xbox 360'
+    id: xbox360
+    moby_id: '69'
 -
     name: 'ZX Spectrum'
     id: zx

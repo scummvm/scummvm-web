@@ -413,6 +413,17 @@
         alias: "dreammaster"
         description: ""
     -
+      name: "Chamber"
+      person:
+      -
+        name: "Retro-Junk;"
+        alias: "bambarbee"
+        description: ""
+      -
+        name: "Eugene Sandulenko"
+        alias: "sev"
+        description: ""
+    -
       name: "Chewy"
       person:
       -
@@ -787,6 +798,13 @@
         alias: "dreammaster"
         description: ""
     -
+      name: "Hpl1"
+      person:
+      -
+        name: "Emanuele Grisenti"
+        alias: "grisenti"
+        description: ""
+    -
       name: "Hugo"
       person:
       -
@@ -833,6 +851,13 @@
       -
         name: "Eric Fry"
         alias: "yuv422"
+        description: ""
+    -
+      name: "Immortal"
+      person:
+      -
+        name: "Michael Hayman"
+        alias: "Quote58"
         description: ""
     -
       name: "Kingdom"
@@ -953,6 +978,25 @@
         name: "Filippos Karapetis"
         alias: "bluegr"
         description: ""
+    -
+      name: "MM (Xeen)"
+      person:
+      -
+        name: "Paul Gilbert"
+        alias: "dreammaster"
+        description: ""
+      -
+        name: "Benoit Pierre"
+        alias: "benoit-pierre"
+        description: ""
+      -
+        name: "David Goldsmith"
+        alias: "WizardStan"
+        description: "(Xeen analysis)"
+      -
+        name: "Matt Taylor"
+        alias: ""
+        description: "(Xeen analysis)"
     -
       name: "Mohawk"
       person:
@@ -1423,6 +1467,13 @@
         alias: "whoozle"
         description: ""
     -
+      name: "Tetraedge"
+      person:
+      -
+        name: "Matthew Duggan"
+        alias: "stauff"
+        description: ""
+    -
       name: "Tinsel"
       person:
       -
@@ -1676,6 +1727,13 @@
         alias: "wjp"
         description: "(Pentagram)"
     -
+      name: "V-Cruise"
+      person:
+      -
+        name: "Eric Lasota"
+        alias: "OneEightHundred"
+        description: ""
+    -
       name: "Voyeur"
       person:
       -
@@ -1708,25 +1766,6 @@
         name: "Tobia Tesan"
         alias: "t0by"
         description: ""
-    -
-      name: "Xeen"
-      person:
-      -
-        name: "Paul Gilbert"
-        alias: "dreammaster"
-        description: ""
-      -
-        name: "Benoit Pierre"
-        alias: "benoit-pierre"
-        description: ""
-      -
-        name: "David Goldsmith"
-        alias: "WizardStan"
-        description: "(analysis)"
-      -
-        name: "Matt Taylor"
-        alias: ""
-        description: "(analysis)"
     -
       name: "Z-Vision"
       person:
@@ -1788,7 +1827,7 @@
       -
         name: "Oystein Eftevaag"
         alias: "vinterstum"
-        description: ""
+        description: "(retired)"
       -
         name: "Vincent B&eacute;nony"
         alias: "bSr43"
@@ -1796,6 +1835,10 @@
       -
         name: "Thierry Crozat"
         alias: "criezy"
+        description: ""
+      -
+        name: "Lars Sundstr&ouml;m"
+        alias: "larsamannen"
         description: ""
     -
       name: "LinuxMoto"
@@ -2052,6 +2095,10 @@
         name: "???"
         alias: "Trembyle"
         description: "Archivist"
+      -
+        name: "Lothar Serra Mari"
+        alias: "rootfather"
+        description: "Tackling Tremendously Tedious Tasks(tm); ScummVM's Seal of Approval (Awp?!)"
   -
     title: "Website (code)"
     anchor: "web_code"
@@ -2249,11 +2296,15 @@
       -
         name: "Oystein Eftevaag"
         alias: "vinterstum"
-        description: ""
+        description: "(retired)"
       -
         name: "Thierry Crozat"
         alias: "criezy"
         description: ""
+      -
+        name: "???"
+        alias: "dwa"
+        description: "Tiger/Leopard PPC"
     -
       name: "Mandriva"
       person:

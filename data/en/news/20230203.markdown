@@ -1,0 +1,32 @@
+---
+title: "ScummVM 2.7.0: Call for testing!"
+author: The ScummVM Team
+date: 1675447620
+---
+
+A few months have passed since we released ScummVM 2.6.1. It's time to prepare for a new release!
+
+Our lovely developers added support, yet again, for a bunch of new ancient games that require testing:
+
+* *Soldier Boyz*
+* *GLK Scott Adams Interactive Fiction games (C64 and ZX Spectrum)*
+* *GLK Scott Adams adventures 1-12 (TI99/4A format)*
+* *Obsidian*
+* *Pink Panther: Passport to Peril*
+* *Pink Panther: Hokus Pokus Pink*
+* *Driller/Space Station Oblivion*
+* *Halls of the Dead: Faery Tale Adventure II*
+
+Besides these games, we’d appreciate it if you could check our [release testing list](https://wiki.scummvm.org/index.php?title=Release_Testing/2.7.0). Maybe you’ll even find your favorite game on there that has been sitting on that shelf for way too long - otherwise, there are some demos of these games available on [our website](https://www.scummvm.org).
+
+And since ScummVM is about playing games in general, we’ve seen notable changes across many, many engines - so this is the perfect time for giving your favorites another go.
+
+As usual, we are not just adding support for new games. We are constantly working on improving the engines we already support and, in particular, we’ve seen some incredible work being done on the SCUMM engine. Yes, there are the usual bug fixes, but this time we are also adding a feature that helps playing the SCUMM games in a truly original fashion: Support for the original loading and saving dialogs within the GUI!
+
+Speaking of truly original: Remember those old CRT displays we had back in the day? With ScummVM 2.7.0 you’ll be able to replicate this experience on certain platforms thanks to our new shader-based scalers. Go ahead and give it a try!
+
+All testing must be done with [stable builds](https://buildbot.scummvm.org/#/dailybuilds), not development ones. Please report any bugs or oddities on our [issue tracker](https://bugs.scummvm.org/).
+
+A detailed list of all exciting new features and fixes is available in our [NEWS file](https://github.com/scummvm/scummvm/blob/branch-2-7/NEWS.md).
+
+Thank you very much for your support! Let’s make ScummVM 2.7.0 a great release - together!

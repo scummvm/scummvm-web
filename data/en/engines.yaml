@@ -17,7 +17,7 @@
 -
     id: agos
     name: AGOS
-    alt_name: ''
+    alt_name: 'Adventure Graphic Operating System'
     enabled: true
 -
     id: ags
@@ -26,8 +26,8 @@
     enabled: true
 -
     id: asylum
-    name: Sanitarium
-    alt_name: ''
+    name: Asylum
+    alt_name: Sanitarium
     enabled: true
 -
     id: avalanche
@@ -101,8 +101,8 @@
     enabled: false
 -
     id: draci
-    name: 'Dračí Historie'
-    alt_name: ''
+    name: Draci
+    alt_name: 'Dračí Historie'
     enabled: true
 -
     id: dragons
@@ -175,6 +175,11 @@
     alt_name: ''
     enabled: true
 -
+    id: hpl1
+    name: 'HPL 1'
+    alt_name: ''
+    enabled: false
+-
     id: hugo
     name: Hugo
     alt_name: ''
@@ -187,6 +192,11 @@
 -
     id: icb
     name: 'In Cold Blood'
+    alt_name: ''
+    enabled: false
+-
+    id: igor
+    name: Igor
     alt_name: ''
     enabled: false
 -
@@ -224,6 +234,11 @@
     name: 'Lure of the Temptress'
     alt_name: ''
     enabled: true
+-
+    id: m4
+    name: M4
+    alt_name: ''
+    enabled: false
 -
     id: macventure
     name: MacVenture
@@ -265,6 +280,11 @@
     alt_name: ''
     enabled: true
 -
+    id: nancy
+    name: Nancy
+    alt_name: ''
+    enabled: true
+-
     id: neverhood
     name: 'The Neverhood'
     alt_name: ''
@@ -290,6 +310,11 @@
     alt_name: ''
     enabled: true
 -
+    id: playground3d
+    name: 'Playground 3D'
+    alt_name: ''
+    enabled: false
+-
     id: plumbers
     name: 'Plumbers Don''t Wear Ties!'
     alt_name: ''
@@ -313,6 +338,11 @@
     id: saga
     name: SAGA
     alt_name: 'Scripts for Animated Graphic Adventures'
+    enabled: true
+-
+    id: saga2
+    name: SAGA2
+    alt_name: 'Scripts for Animated Graphic Adventures 2'
     enabled: true
 -
     id: sci
@@ -372,6 +402,16 @@
 -
     id: teenagent
     name: TeenAgent
+    alt_name: ''
+    enabled: true
+-
+    id: testbed
+    name: Testbed
+    alt_name: ''
+    enabled: false
+-
+    id: tetraedge
+    name: Tetraedge
     alt_name: ''
     enabled: true
 -
@@ -454,8 +494,3 @@
     name: ZVision
     alt_name: ''
     enabled: true
--
-    id: testbed
-    name: Testbed
-    alt_name: ''
-    enabled: false

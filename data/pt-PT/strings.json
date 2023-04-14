@@ -157,7 +157,7 @@
     "menuDevelopmentBuildbot": "Buildbot",
     "menuHeaderMisc": "Diversos",
     "menuMiscSponsors": "Patrocinadores",
-    "menuMiscDemos": "Demonstrações",
+    "menuMainDemos": "Demonstrações",
     "menuMiscPress": "Cobertura Jornalística",
     "menuMiscContact": "Contatos",
     "menuMiscLinks": "Ligações",
@@ -169,7 +169,7 @@
     "compatibilityBuggedDescription": "O jogo funciona, mas pode pendurar ou ter erros audiovisuais graves . Pode ser impossível de completar.",
     "compatibilityBrokenDescription": "O jogo pode não iniciar ou ter erros graves que impedem-lo de jogar.",
     "compatibilityUntestedDescription": "O jogo precisa de ser testado e pode ainda não estar completo",
-    "menuMiscDirectorDemos": "Demos de Director",
+    "menuMainDirectorDemos": "Demos de Director",
     "menuDevelopmentDeveloperCentral": "Centro de Programadores",
     "menuDevelopmentDoxygen": "Referência do API",
     "downloadsBadgeTitle": "Transferir ScummVM {version}"

@@ -3,6 +3,12 @@
     id: '1213'
     name: '1213'
 -
+    id: adibou
+    name: Adibou
+-
+    id: adi
+    name: ADI
+-
     id: agifan
     name: 'AGI Fan'
 -
@@ -174,6 +180,9 @@
     id: myst
     name: Myst
 -
+    id: nancy
+    name: 'Nancy Drew'
+-
     id: nelly
     name: 'Nelly Cootalot'
 -
@@ -245,6 +254,9 @@
 -
     id: sword
     name: 'Broken Sword'
+-
+    id: syberia
+    name: Syberia
 -
     id: t7g
     name: 'The 7th Guest'
