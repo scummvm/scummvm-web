@@ -20,7 +20,8 @@ class Screenshot extends BaseScreenshot
     public function getFiles()
     {
         if (!$this->files) {
-            foreach (glob("./" . DIR_SCREENSHOTS . "/" . $this->getGame()->getEngine()->getId() . "/" . $this->getGame()->getId() . "/" . $this->getFileMask()) as $file) {
+            $gameId = str_replace(":", "/", $this->getGame()->getId());
+            foreach (glob("./" . DIR_SCREENSHOTS . "/" . $gameId . "/" . $this->getFileMask()) as $file) {
                 // Remove the base folder
                 $name = str_replace("./" . DIR_SCREENSHOTS . "/", "", $file);
                 // Remove the suffix, eg. "_full.png"
@@ -50,7 +51,8 @@ class Screenshot extends BaseScreenshot
         if ($series) {
             return $series->getId();
         } else {
-            return $this->getId();
+            // Remove engine prefix
+            return substr($this->getId(), strpos($this->getId(), ':') + 1);
         }
     }
 
@@ -89,7 +91,9 @@ class Screenshot extends BaseScreenshot
 
     public function getFileMask()
     {
-        $mask = $this->getGame()->getId() . "_";
+        // Remove engine prefix
+        $game_short_id = substr($this->getGame()->getId(), strpos($this->getGame()->getId(), ':') + 1);
+        $mask = $game_short_id . "_";
         if ($this->getPlatform()) {
             $mask .= $this->getPlatform()->getId() . "_";
         }

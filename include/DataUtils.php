@@ -83,12 +83,6 @@ class DataUtils
             // Convert TRUE/FALSE strings to Booleans
             foreach ($data as $objKey => $obj) {
                 foreach ($obj as $key => $val) {
-                    // TODO Temporarily convert new game ids to the old format.
-                    //   When we are fully migrated, remove this
-                    if (($key === 'id' || $key === 'game_id') && strpos($val, ':') !== FALSE) {
-                        $data[$objKey][$key] = substr($val, strpos($val, ':') + 1);
-                    }
-
                     if ($val === 'TRUE') {
                         $data[$objKey][$key] = true;
                     } elseif ($val === 'FALSE') {
