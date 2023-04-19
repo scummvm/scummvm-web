@@ -5247,7 +5247,7 @@
     language3: ''
     url: /frs/demos/teen/teen-dos-wiztech-demo-en.zip
 -
-    id: teenagent
+    id: noir
     platform: dos
     '': ''
     category: ''
@@ -5283,7 +5283,7 @@
     language3: ''
     url: /frs/demos/tinsel/dw-mac-cd-demo-en.zip
 -
-    id: dw
+    id: noir
     platform: dos
     '': ''
     category: ''
