@@ -3108,15 +3108,6 @@
     id: pq2
     platform: dos
     '': ''
-    category: 'Non-Interactive (corrupted copy)'
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/sci/pq2-dos-ni-demo-en-corrupt.zip
--
-    id: pq2
-    platform: dos
-    '': ''
     category: Non-Interactive
     language: en
     language2: ''
