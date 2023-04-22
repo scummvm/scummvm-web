@@ -437,7 +437,7 @@
     user_agent: Android
     version: 2.7.0
     url: 'https://play.google.com/apps/testing/org.scummvm.scummvm'
-    name: 'Android app on Google Play Store (beta release 4)'
+    name: 'Android app on Google Play Store'
     notes: ''
 -
     enabled: true
@@ -446,8 +446,8 @@
     category_icon: android
     user_agent: ''
     version: 2.7.0
-    url: scummvm-2.7.0.4-android-arm-v7a.apk
-    name: 'Android ARMv7a package (beta release 4)'
+    url: scummvm-2.7.0.5-android-arm-v7a.apk
+    name: 'Android ARMv7a package'
     notes: ''
 -
     enabled: true
@@ -456,8 +456,8 @@
     category_icon: android
     user_agent: ''
     version: 2.7.0
-    url: scummvm-2.7.0.4-android-arm64-v8a.apk
-    name: 'Android ARM64v8a package (beta release 4)'
+    url: scummvm-2.7.0.5-android-arm64-v8a.apk
+    name: 'Android ARM64v8a package'
     notes: ''
 -
     enabled: true
@@ -466,8 +466,8 @@
     category_icon: android
     user_agent: ''
     version: 2.7.0
-    url: scummvm-2.7.0.4-android-x86.apk
-    name: 'Android x86 32bit package (beta release 4)'
+    url: scummvm-2.7.0.5-android-x86.apk
+    name: 'Android x86 32bit package'
     notes: ''
 -
     enabled: true
@@ -476,8 +476,8 @@
     category_icon: android
     user_agent: ''
     version: 2.7.0
-    url: scummvm-2.7.0.4-android-x86_64.apk
-    name: 'Android x86 64bit package (beta release 4)'
+    url: scummvm-2.7.0.5-android-x86_64.apk
+    name: 'Android x86 64bit package'
     notes: ''
 -
     enabled: true
