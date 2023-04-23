@@ -11,8 +11,8 @@ A quick summary of the new features for this release:
 * Improved input support for joysticks, modern controllers, physical mouse devices and even smart TV remote controls.
 * Introduced the ability to switch touch controls between “touchpad emulation”, “direct mouse” and “gamepad emulation” modes, which can be set per context (ScummVM UI menu, 3D engine game, 2D engine game) as well as changed on-the-fly.
 * Included a log view option, accessible from the “Global Options”, “Paths” tab, and the ability to specify the debug level of the log output, which can be set from the “Global Options”, “Misc” tab.
-Included all features of ScummVM 2.7.0 with regard to 3D engine support and shaders.
-Improved overall app stability.
+* Included all features of ScummVM 2.7.0 with regard to 3D engine support and shaders.
+* Improved overall app stability.
 
 Note that the added support for Google’s SAF API is significant, affecting devices running relatively modern Android OS versions. In these recent Android versions, SAF is relevant whenever games are stored on external storage such as an SD card. Since migration to SAF cannot be automated for the end user, you will need to perform a few manual steps to either use your old games or to add new games when using external storage such as an SD card. If your device supports SAF, the steps will appear in a pop-up when launching ScummVM for the first time. See [our documentation page](https://docs.scummvm.org/en/latest/other_platforms/android.html#adding-saf-paths-to-scummvm-directory-list) for a more detailed description of the process.
 
