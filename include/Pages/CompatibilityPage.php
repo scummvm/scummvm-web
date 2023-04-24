@@ -78,6 +78,12 @@ class CompatibilityPage extends Controller
     public function getGame($target, $version)
     {
         $game = $this->compatibilityModel->getGameData($version, $target);
+        // Redirect to main compatibility page if the requested game doesn't exist
+        if ($game->getId() === null) {
+            // TODO make this more resilient with support for languages and local domains
+            header('Location: https://scummvm.org/compatibility', true, 307);
+            die();
+        }
 
         $this->template = 'components/compatibility_details.tpl';
 
