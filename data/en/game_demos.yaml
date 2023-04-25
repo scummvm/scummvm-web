@@ -2631,7 +2631,7 @@
     id: ite
     platform: amiga
     '': ''
-    category: 'Amiga (AGA) Demo'
+    category: AGA
     language: de
     language2: ''
     language3: ''
@@ -2640,7 +2640,7 @@
     id: ite
     platform: amiga
     '': ''
-    category: 'Amiiga (ECS) Demo'
+    category: ECS
     language: de
     language2: ''
     language3: ''
