@@ -269,7 +269,7 @@
     id: 'director:childishgambino'
     platform: mac
     lang: en
-    title: 'Capturing Donald Glover''s Motion'
+    title: "Capturing Donald Glover's Motion"
     version: '3'
     url: /frs/demos/director/d3/en/childishgambino-mac.zip
 -
@@ -381,7 +381,7 @@
     id: 'director:encarta95'
     platform: win
     lang: en
-    title: 'Microsoft Encarta ''95'
+    title: "Microsoft Encarta '95"
     version: '3'
     url: /frs/demos/director/d3/en/encarta95-demo-win.zip
 -
@@ -409,7 +409,7 @@
     id: 'director:flw'
     platform: win
     lang: en
-    title: 'The Ultimate Frank Lloyd Wright: America''s Architect'
+    title: "The Ultimate Frank Lloyd Wright: America's Architect"
     version: '3'
     url: /frs/demos/director/d3/en/flw-demo-win.zip
 -
@@ -486,7 +486,7 @@
     id: 'director:hhouse'
     platform: win
     lang: en
-    title: 'Gahan Wilson''s The Ultimate Haunted House'
+    title: "Gahan Wilson's The Ultimate Haunted House"
     version: '3'
     url: /frs/demos/director/d3/en/hhouse-demo-win.zip
 -
@@ -703,7 +703,7 @@
     id: 'director:kpt'
     platform: mac
     lang: ja
-    title: 'Kai''s Power Tools for Photoshop'
+    title: "Kai's Power Tools for Photoshop"
     version: '3'
     url: /frs/demos/director/d3/ja/kpt-demo-mac-ja.zip
 -
@@ -864,14 +864,14 @@
     id: 'director:msbhumanbody'
     platform: win
     lang: en
-    title: 'Scholastic''s The Magic School Bus Explores the Human Body'
+    title: "Scholastic's The Magic School Bus Explores the Human Body"
     version: '3'
     url: /frs/demos/director/d3/en/msbhumanbody-demo-win.zip
 -
     id: 'director:msbsolarsystem'
     platform: win
     lang: en
-    title: 'Scholastic''s The Magic School Bus Explores the Solar System'
+    title: "Scholastic's The Magic School Bus Explores the Solar System"
     version: '3'
     url: /frs/demos/director/d3/en/msbsolarsystem-demo-win.zip
 -
@@ -1165,7 +1165,7 @@
     id: 'director:rodney'
     platform: mac
     lang: en
-    title: 'Rodney''s Funscreen'
+    title: "Rodney's Funscreen"
     version: '3'
     url: /frs/demos/director/d3/en/rodney-demo-mac.zip
 -
@@ -1354,7 +1354,7 @@
     id: 'director:ultrobot'
     platform: win
     lang: en
-    title: 'Isaac Asimov''s The Ultimate Robot'
+    title: "Isaac Asimov's The Ultimate Robot"
     version: '3'
     url: /frs/demos/director/d3/en/ultrobot-demo-win.zip
 -
@@ -1578,7 +1578,7 @@
     id: 'director:ataripack'
     platform: win
     lang: en
-    title: 'Activision''s Atari 2600 Action Pack'
+    title: "Activision's Atari 2600 Action Pack"
     version: '4'
     url: /frs/demos/director/d4/en/ataripack-demo-win.zip
 -
@@ -1641,7 +1641,7 @@
     id: 'director:catseyeview'
     platform: mac
     lang: en
-    title: 'Cat''s Eye View'
+    title: "Cat's Eye View"
     version: '4'
     url: /frs/demos/director/d4/en/catseyeview-demo-mac.zip
 -
@@ -1795,7 +1795,7 @@
     id: 'director:elmopreschool'
     platform: win
     lang: en
-    title: 'Elmo''s Preschool'
+    title: "Elmo's Preschool"
     version: '4'
     url: /frs/demos/director/d4/en/elmopreschool-demo-win.zip
 -
@@ -2334,14 +2334,14 @@
     id: 'director:noahsark'
     platform: mac
     lang: ja
-    title: 'Noah''s Ark'
+    title: "Noah's Ark"
     version: '4'
     url: /frs/demos/director/d4/ja/noahsark-demo-mac-ja.zip
 -
     id: 'director:noahsark'
     platform: win
     lang: ja
-    title: 'Noah''s Ark'
+    title: "Noah's Ark"
     version: '4'
     url: /frs/demos/director/d4/ja/noahsark-demo-win-ja.zip
 -
@@ -2439,14 +2439,14 @@
     id: 'director:parliament'
     platform: win
     lang: en
-    title: 'People & Parliament: A Stranger''s Guide to Westminster'
+    title: "People & Parliament: A Stranger's Guide to Westminster"
     version: '4'
     url: /frs/demos/director/d4/en/parliament-win.zip
 -
     id: 'director:pbbear'
     platform: win
     lang: en
-    title: 'P. B. Bear''s Birthday Party'
+    title: "P. B. Bear's Birthday Party"
     version: '4'
     url: /frs/demos/director/d4/en/pbbear-demo-win.zip
 -
@@ -3090,7 +3090,7 @@
     id: 'director:guignols2'
     platform: win
     lang: fr
-    title: 'Les Guignols de l''Info: Le cauchemar de PPD'
+    title: "Les Guignols de l'Info: Le cauchemar de PPD"
     version: '5'
     url: /frs/demos/director/d5/fr/guignols2-demo-win-fr.zip
 -
@@ -3321,7 +3321,7 @@
     id: 'director:takeru'
     platform: win
     lang: en
-    title: 'Buichi Terasawa''s Takeru: Letter of the Law'
+    title: "Buichi Terasawa's Takeru: Letter of the Law"
     version: '5'
     url: /frs/demos/director/d5/en/takeru-demo-win.zip
 -
@@ -3594,7 +3594,7 @@
     id: 'director:kontyngent99'
     platform: win
     lang: pl
-    title: 'Katalog Samochodów Kontyngent ''99'
+    title: "Katalog Samochodów Kontyngent '99"
     version: '6'
     url: /frs/demos/director/d6/pl/kontyngent99-win-pl.zip
 -
@@ -3797,14 +3797,14 @@
     id: 'director:lbkinder'
     platform: win
     lang: en
-    title: 'Maurice Sendak''s Little Bear Kindergarten Thinking Adventures'
+    title: "Maurice Sendak's Little Bear Kindergarten Thinking Adventures"
     version: '7'
     url: /frs/demos/director/d7/en/lbkinder-demo-win.zip
 -
     id: 'director:lbpre'
     platform: win
     lang: en
-    title: 'Maurice Sendak''s Little Bear Preschool Thinking Adventures'
+    title: "Maurice Sendak's Little Bear Preschool Thinking Adventures"
     version: '7'
     url: /frs/demos/director/d7/en/lbpre-demo-win.zip
 -

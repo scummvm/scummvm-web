@@ -21,7 +21,7 @@
     id: 'agi:agidemo'
     platform: apple2gs
     '': ''
-    category: 'King''s Quest 3, Leisure Suit Larry, Police Quest, Thexder, Space Quest'
+    category: "King's Quest 3, Leisure Suit Larry, Police Quest, Thexder, Space Quest"
     language: en
     language2: ''
     language3: ''
@@ -30,7 +30,7 @@
     id: 'agi:agidemo'
     platform: dos
     '': ''
-    category: 'King''s Quest 3, Space Quest'
+    category: "King's Quest 3, Space Quest"
     language: en
     language2: ''
     language3: ''
@@ -48,7 +48,7 @@
     id: 'agi:agidemo'
     platform: dos
     '': ''
-    category: '3-D Helicopter Sim, Space Quest 2, Thexder, King''s Quest 3, Mixed- up Mother Goose, King''s Quest 2, Police Quest, Leisure Suit Larry, Space Quest'
+    category: "3-D Helicopter Sim, Space Quest 2, Thexder, King's Quest 3, Mixed- up Mother Goose, King's Quest 2, Police Quest, Leisure Suit Larry, Space Quest"
     language: en
     language2: ''
     language3: ''
@@ -57,7 +57,7 @@
     id: 'agi:agidemo'
     platform: dos
     '': ''
-    category: '3-D Helicopter Sim, Space Quest 2, Police Quest, King''s Quest 3, Mixed-up Mother Goose, Leisure Suit Larry'
+    category: "3-D Helicopter Sim, Space Quest 2, Police Quest, King's Quest 3, Mixed-up Mother Goose, Leisure Suit Larry"
     language: en
     language2: ''
     language3: ''
@@ -75,7 +75,7 @@
     id: 'agi:agidemo'
     platform: dos
     '': ''
-    category: 'Space Quest, Donald Duck''s Playground, King''s Quest 3, Leisure Suit Larry'
+    category: "Space Quest, Donald Duck's Playground, King's Quest 3, Leisure Suit Larry"
     language: en
     language2: ''
     language3: ''
@@ -2289,7 +2289,7 @@
     id: 'mtropolis:obsidian'
     platform: win
     '': ''
-    category: 'Demo, 26th October 1996, PC Gamer 2.12 (Jan ''97)'
+    category: "Demo, 26th October 1996, PC Gamer 2.12 (Jan '97)"
     language: en
     language2: ''
     language3: ''
@@ -3351,7 +3351,7 @@
     id: 'sci:sci-fanmade'
     platform: dos
     '': ''
-    category: 'Jim''s Quest 1: The Phantom Thesis'
+    category: "Jim's Quest 1: The Phantom Thesis"
     language: en
     language2: ''
     language3: ''
@@ -3360,7 +3360,7 @@
     id: 'sci:sci-fanmade'
     platform: dos
     '': ''
-    category: 'Dr. Jummybummy''s Space Adventure 2'
+    category: "Dr. Jummybummy's Space Adventure 2"
     language: en
     language2: ''
     language3: ''
@@ -3369,7 +3369,7 @@
     id: 'sci:sci-fanmade'
     platform: dos
     '': ''
-    category: 'King''s Quest II SCI Pre-Alpha Version'
+    category: "King's Quest II SCI Pre-Alpha Version"
     language: en
     language2: ''
     language3: ''
@@ -3378,7 +3378,7 @@
     id: 'sci:sci-fanmade'
     platform: dos
     '': ''
-    category: 'Knight''s Quest Demo 1.0'
+    category: "Knight's Quest Demo 1.0"
     language: en
     language2: ''
     language3: ''

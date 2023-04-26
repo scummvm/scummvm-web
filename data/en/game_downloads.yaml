@@ -138,7 +138,7 @@
     category_icon: queen
     url: 'Flight of the Amazon Queen/FOTAQ_Talkie-original.zip'
     name: 'Freeware CD Version (unmodified original)'
-    notes: 'Download this version if your ScummVM doesn''t have mp3 support'
+    notes: "Download this version if your ScummVM doesn't have mp3 support"
 -
     category: games
     game_id: 'queen:queen'

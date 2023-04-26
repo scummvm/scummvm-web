@@ -161,7 +161,7 @@
     enabled: true
 -
     id: hadesch
-    name: 'Hades'' Challenge'
+    name: "Hades' Challenge"
     alt_name: ''
     enabled: true
 -
@@ -316,7 +316,7 @@
     enabled: false
 -
     id: plumbers
-    name: 'Plumbers Don''t Wear Ties!'
+    name: "Plumbers Don't Wear Ties!"
     alt_name: ''
     enabled: true
 -

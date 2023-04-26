@@ -324,14 +324,14 @@
 -
     id: 'agos:elvira1'
     support: good
-    notes: '- Commodore 64 version doesn''t use AGOS. - No music in the Atari ST version. - No text descriptions in the Atari ST version.'
+    notes: "- Commodore 64 version doesn't use AGOS. - No music in the Atari ST version. - No text descriptions in the Atari ST version."
     since_version: 0.11.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: c64
 -
     id: 'agos:elvira1'
     support: good
-    notes: '- Commodore 64 version doesn''t use AGOS - No music in the Atari ST version'
+    notes: "- Commodore 64 version doesn't use AGOS - No music in the Atari ST version"
     since_version: 0.13.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: c64
@@ -345,14 +345,14 @@
 -
     id: 'agos:elvira2'
     support: good
-    notes: '- Commodore 64 version doesn''t use AGOS. - No music in the Atari ST version. - No sound effects in the DOS version. - Palette issues in the Atari ST version.'
+    notes: "- Commodore 64 version doesn't use AGOS. - No music in the Atari ST version. - No sound effects in the DOS version. - Palette issues in the Atari ST version."
     since_version: 0.11.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: c64
 -
     id: 'agos:elvira2'
     support: good
-    notes: '- Commodore 64 version doesn''t use AGOS - No music in the Atari ST version. - No sound effects in the DOS version.'
+    notes: "- Commodore 64 version doesn't use AGOS - No music in the Atari ST version. - No sound effects in the DOS version."
     since_version: 1.0.0
     stable_platforms: 'amiga,atarist,dos'
     unstable_platforms: c64
@@ -408,14 +408,14 @@
 -
     id: 'agos:simon1'
     support: excellent
-    notes: '- Minor graphical glitches when using ring  - Minor graphical glitch with Sordid statue after leaving room - DOS issues    - Freezes briefly when Swampling leaves his house    - Freezes briefly when talking to demons in Sordid''s Tower   - No inventory scrolling arrows shown, can still move around inventory though'
+    notes: "- Minor graphical glitches when using ring  - Minor graphical glitch with Sordid statue after leaving room - DOS issues    - Freezes briefly when Swampling leaves his house    - Freezes briefly when talking to demons in Sordid's Tower   - No inventory scrolling arrows shown, can still move around inventory though"
     since_version: 0.3.0
     stable_platforms: 'acorn,dos,win'
     unstable_platforms: 'amiga,amigacd32'
 -
     id: 'agos:simon1'
     support: excellent
-    notes: '- Minor graphical glitches when using ring  - Minor graphical glitch with Sordid statue after leaving room - Amiga issues:   - All graphics are decoded incorrectly    - pkd compression format is unknown (CD)   - No music - DOS issues    - Freezes briefly when Swampling leaves his house    - Freezes briefly when talking to demons in Sordid''s Tower   - No inventory scrolling arrows shown, can still move around inventory though'
+    notes: "- Minor graphical glitches when using ring  - Minor graphical glitch with Sordid statue after leaving room - Amiga issues:   - All graphics are decoded incorrectly    - pkd compression format is unknown (CD)   - No music - DOS issues    - Freezes briefly when Swampling leaves his house    - Freezes briefly when talking to demons in Sordid's Tower   - No inventory scrolling arrows shown, can still move around inventory though"
     since_version: 0.4.0
     stable_platforms: 'acorn,dos,win'
     unstable_platforms: 'amiga,amigacd32'
@@ -499,21 +499,21 @@
 -
     id: 'agos:waxworks'
     support: untested
-    notes: '- Amiga version has not been confirmed as completable. - DOS version doesn''t load or save items states correctly, leading to various bugs - No music in the DOS version.'
+    notes: "- Amiga version has not been confirmed as completable. - DOS version doesn't load or save items states correctly, leading to various bugs - No music in the DOS version."
     since_version: 0.12.0
     stable_platforms: 'amiga,dos'
     unstable_platforms: ''
 -
     id: 'agos:waxworks'
     support: untested
-    notes: '- Amiga version has not been confirmed as completable. - DOS version doesn''t load or save items states correctly, leading to various bugs'
+    notes: "- Amiga version has not been confirmed as completable. - DOS version doesn't load or save items states correctly, leading to various bugs"
     since_version: 1.0.0
     stable_platforms: 'amiga,dos'
     unstable_platforms: ''
 -
     id: 'agos:waxworks'
     support: good
-    notes: '- Amiga version has not been confirmed as completable. - DOS version doesn''t load or save items states correctly, leading to various bugs'
+    notes: "- Amiga version has not been confirmed as completable. - DOS version doesn't load or save items states correctly, leading to various bugs"
     since_version: 2.1.0
     stable_platforms: 'amiga,dos'
     unstable_platforms: ''
@@ -772,7 +772,7 @@
 -
     id: 'director:betterd'
     support: bugged
-    notes: 'PACo videos don''t play'
+    notes: "PACo videos don't play"
     since_version: DEV
     stable_platforms: 'mac,win'
     unstable_platforms: ''
@@ -1101,14 +1101,14 @@
 -
     id: 'gob:gob3'
     support: good
-    notes: '- Issues with the mouse cursor visibility - No support for original font and music files in Macintosh version - The number of used jokers isn''t saved correctly. You''ll always have 5 to spend again after loading'
+    notes: "- Issues with the mouse cursor visibility - No support for original font and music files in Macintosh version - The number of used jokers isn't saved correctly. You'll always have 5 to spend again after loading"
     since_version: 0.10.0
     stable_platforms: 'amiga,dos,mac,win'
     unstable_platforms: ''
 -
     id: 'gob:gob3'
     support: excellent
-    notes: '- Issues with the mouse cursor visibility - No support for original font and music files in Macintosh version - The number of used jokers isn''t saved correctly. You''ll always have 5 to spend again after loading'
+    notes: "- Issues with the mouse cursor visibility - No support for original font and music files in Macintosh version - The number of used jokers isn't saved correctly. You'll always have 5 to spend again after loading"
     since_version: 0.12.0
     stable_platforms: 'amiga,dos,mac,win'
     unstable_platforms: ''
@@ -1206,21 +1206,21 @@
 -
     id: 'groovie:t7g'
     support: excellent
-    notes: '- The MT-32 instrument definitions aren''t supported yet, so it will play with wrong instruments - The CD-i version doesn''t use Groovie - There are some issues with music not playing when it should'
+    notes: "- The MT-32 instrument definitions aren't supported yet, so it will play with wrong instruments - The CD-i version doesn't use Groovie - There are some issues with music not playing when it should"
     since_version: 0.13.0
     stable_platforms: 'dos,win'
     unstable_platforms: 'cdi,ios,mac'
 -
     id: 'groovie:t7g'
     support: excellent
-    notes: '- The MT-32 instrument definitions aren''t supported yet, so it will play with wrong instruments - The CD-i version doesn''t use Groovie'
+    notes: "- The MT-32 instrument definitions aren't supported yet, so it will play with wrong instruments - The CD-i version doesn't use Groovie"
     since_version: 1.0.0
     stable_platforms: 'dos,win'
     unstable_platforms: 'cdi,ios,mac'
 -
     id: 'groovie:t7g'
     support: excellent
-    notes: '- The CD-i version doesn''t use Groovie'
+    notes: "- The CD-i version doesn't use Groovie"
     since_version: 1.2.0
     stable_platforms: 'dos,ios,mac,win'
     unstable_platforms: cdi
@@ -2613,7 +2613,7 @@
 -
     id: 'scumm:airport'
     support: bugged
-    notes: '- Settings aren''t saved - Various bugs & issues'
+    notes: "- Settings aren't saved - Various bugs & issues"
     since_version: 0.7.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
@@ -2704,7 +2704,7 @@
 -
     id: 'scumm:balloon'
     support: bugged
-    notes: '- Settings aren''t saved - Various bugs & issues'
+    notes: "- Settings aren't saved - Various bugs & issues"
     since_version: 0.7.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
@@ -2879,7 +2879,7 @@
 -
     id: 'scumm:comi'
     support: broken
-    notes: '- Not implemented yet. ScummVM doesn''t understand new-style MAXS block, among other things'
+    notes: "- Not implemented yet. ScummVM doesn't understand new-style MAXS block, among other things"
     since_version: 0.2.0
     stable_platforms: win
     unstable_platforms: ''
@@ -2928,7 +2928,7 @@
 -
     id: 'scumm:dog'
     support: bugged
-    notes: '- Settings aren''t saved - Various bugs & issues'
+    notes: "- Settings aren't saved - Various bugs & issues"
     since_version: 0.7.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
@@ -2949,7 +2949,7 @@
 -
     id: 'scumm:farm'
     support: bugged
-    notes: '- Settings aren''t saved - Various bugs & issues'
+    notes: "- Settings aren't saved - Various bugs & issues"
     since_version: 0.7.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
@@ -2984,21 +2984,21 @@
 -
     id: 'scumm:fbear'
     support: good
-    notes: '- Piano sounds aren''t the correct pitch in DOS version - Cursors aren''t scaled correctly - Decorations on birthday cake aren''t remembered - Several sound effects are missing'
+    notes: "- Piano sounds aren't the correct pitch in DOS version - Cursors aren't scaled correctly - Decorations on birthday cake aren't remembered - Several sound effects are missing"
     since_version: 0.6.0
     stable_platforms: '3do,dos,win'
     unstable_platforms: mac
 -
     id: 'scumm:fbear'
     support: excellent
-    notes: '- Piano sounds aren''t the correct pitch in DOS version - Cursors aren''t scaled correctly'
+    notes: "- Piano sounds aren't the correct pitch in DOS version - Cursors aren't scaled correctly"
     since_version: 0.7.0
     stable_platforms: '3do,dos,win'
     unstable_platforms: mac
 -
     id: 'scumm:fbear'
     support: excellent
-    notes: '- Piano sounds aren''t the correct pitch in DOS version'
+    notes: "- Piano sounds aren't the correct pitch in DOS version"
     since_version: 0.8.1
     stable_platforms: '3do,dos,mac,win'
     unstable_platforms: ''
@@ -3012,7 +3012,7 @@
 -
     id: 'scumm:fbpack'
     support: bugged
-    notes: '- Mini games seem to have various problems   - Reversi/Go Fish/Lines and Boxes: o6_actorOps: case 218 graphics glitches   - Coloring/Tangrams: Error(6:209:0x40D5): Invalid opcode ''db'' (readFile) '
+    notes: "- Mini games seem to have various problems   - Reversi/Go Fish/Lines and Boxes: o6_actorOps: case 218 graphics glitches   - Coloring/Tangrams: Error(6:209:0x40D5): Invalid opcode 'db' (readFile) "
     since_version: 0.4.0
     stable_platforms: '3do,dos'
     unstable_platforms: ''
@@ -3089,7 +3089,7 @@
 -
     id: 'scumm:freddi2'
     support: good
-    notes: '- Minor graphical glitches - Animation isn''t synced during songs'
+    notes: "- Minor graphical glitches - Animation isn't synced during songs"
     since_version: 0.8.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
@@ -3201,7 +3201,7 @@
 -
     id: 'scumm:funpack'
     support: broken
-    notes: '- Mini games seem to have various problems   - Puzzle blocks/Pinball/Remember/Cheese King/Tic-Tac-Toe: Works but colour isn''t set properly so game is black and white    - Checkers: The checkers have some graphical glitches (actorOps case 218) - talkie data not synced/properly implemented'
+    notes: "- Mini games seem to have various problems   - Puzzle blocks/Pinball/Remember/Cheese King/Tic-Tac-Toe: Works but colour isn't set properly so game is black and white    - Checkers: The checkers have some graphical glitches (actorOps case 218) - talkie data not synced/properly implemented"
     since_version: 0.4.0
     stable_platforms: '3do,dos'
     unstable_platforms: ''
@@ -3285,7 +3285,7 @@
 -
     id: 'scumm:jungle'
     support: bugged
-    notes: '- Settings aren''t saved - Various bugs & issues'
+    notes: "- Settings aren't saved - Various bugs & issues"
     since_version: 0.7.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
@@ -3348,14 +3348,14 @@
 -
     id: 'scumm:loom'
     support: excellent
-    notes: '- The Roland update from LucasArts is required for MIDI support - No music or sound effects in the Macintosh version - Mac version crashes after copy protection screen - There is no support for the Macintosh interface - Fades are seemingly different  - Text palette sometimes incorrect - Distaff occasionally pink - Kanji version isn''t supported - Use boot parameter to choose difficulty:    - 0 practice (default)   - 1 standard   - 2 expert'
+    notes: "- The Roland update from LucasArts is required for MIDI support - No music or sound effects in the Macintosh version - Mac version crashes after copy protection screen - There is no support for the Macintosh interface - Fades are seemingly different  - Text palette sometimes incorrect - Distaff occasionally pink - Kanji version isn't supported - Use boot parameter to choose difficulty:    - 0 practice (default)   - 1 standard   - 2 expert"
     since_version: 0.6.0
     stable_platforms: 'amiga,atarist,dos,fmtowns,mac'
     unstable_platforms: pce
 -
     id: 'scumm:loom'
     support: excellent
-    notes: '- The Roland update from LucasArts is required for MIDI support - No music or sound effects in the Macintosh version - There is no support for the Macintosh interface - Fades are seemingly different  - Text palette sometimes incorrect - Distaff occasionally pink - Kanji version isn''t supported - Use boot parameter to choose difficulty:    - 0 practice (default)   - 1 standard   - 2 expert'
+    notes: "- The Roland update from LucasArts is required for MIDI support - No music or sound effects in the Macintosh version - There is no support for the Macintosh interface - Fades are seemingly different  - Text palette sometimes incorrect - Distaff occasionally pink - Kanji version isn't supported - Use boot parameter to choose difficulty:    - 0 practice (default)   - 1 standard   - 2 expert"
     since_version: 0.6.1
     stable_platforms: 'amiga,atarist,dos,fmtowns'
     unstable_platforms: 'pce,mac'
@@ -3481,7 +3481,7 @@
 -
     id: 'scumm:maze'
     support: bugged
-    notes: '- Settings aren''t saved - Various bugs & issues'
+    notes: "- Settings aren't saved - Various bugs & issues"
     since_version: 0.7.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
@@ -3656,7 +3656,7 @@
 -
     id: 'scumm:pajama2'
     support: good
-    notes: '- Actor limbs sometimes aren''t visible'
+    notes: "- Actor limbs sometimes aren't visible"
     since_version: 0.7.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
@@ -3677,21 +3677,21 @@
 -
     id: 'scumm:pajama3'
     support: broken
-    notes: '- PlayStation 1 version doesn''t use SCUMM - Minor graphical glitches - Sprites aren''t displayed during Ski Ride'
+    notes: "- PlayStation 1 version doesn't use SCUMM - Minor graphical glitches - Sprites aren't displayed during Ski Ride"
     since_version: 0.8.0
     stable_platforms: 'mac,win'
     unstable_platforms: psx
 -
     id: 'scumm:pajama3'
     support: good
-    notes: '- PlayStation 1 version doesn''t use SCUMM - Minor graphical glitches with dancing can in stomach'
+    notes: "- PlayStation 1 version doesn't use SCUMM - Minor graphical glitches with dancing can in stomach"
     since_version: 0.8.2
     stable_platforms: 'mac,win'
     unstable_platforms: psx
 -
     id: 'scumm:pajama3'
     support: good
-    notes: '- PlayStation 1 version doesn''t use SCUMM'
+    notes: "- PlayStation 1 version doesn't use SCUMM"
     since_version: 0.10.0
     stable_platforms: 'mac,win'
     unstable_platforms: psx
@@ -3740,7 +3740,7 @@
 -
     id: 'scumm:puttcircus'
     support: good
-    notes: '- Magnifying glass doesn''t work'
+    notes: "- Magnifying glass doesn't work"
     since_version: 0.8.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
@@ -3754,7 +3754,7 @@
 -
     id: 'scumm:puttmoon'
     support: broken
-    notes: '- Fails an AKOS related assertion shortly after starting  - talkie data not synced/properly implemented - cursor doesn''t turn to arrow on the right hand side of the screen in the first room in the demo'
+    notes: "- Fails an AKOS related assertion shortly after starting  - talkie data not synced/properly implemented - cursor doesn't turn to arrow on the right hand side of the screen in the first room in the demo"
     since_version: 0.4.0
     stable_platforms: dos
     unstable_platforms: mac
@@ -3803,7 +3803,7 @@
 -
     id: 'scumm:puttputt'
     support: good
-    notes: '- Cursors aren''t scaled correctly in Windows version'
+    notes: "- Cursors aren't scaled correctly in Windows version"
     since_version: 0.7.0
     stable_platforms: '3do,dos,win'
     unstable_platforms: mac
@@ -3831,7 +3831,7 @@
 -
     id: 'scumm:puttrace'
     support: good
-    notes: '- Animation isn''t synced during songs'
+    notes: "- Animation isn't synced during songs"
     since_version: 0.8.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
@@ -3922,7 +3922,7 @@
 -
     id: 'scumm:samnmax'
     support: excellent
-    notes: '- Highway subgame doesn''t behave correctly'
+    notes: "- Highway subgame doesn't behave correctly"
     since_version: 0.3.0
     stable_platforms: dos
     unstable_platforms: ''
@@ -3936,7 +3936,7 @@
 -
     id: 'scumm:socks'
     support: bugged
-    notes: '- Settings aren''t saved - Various bugs & issues'
+    notes: "- Settings aren't saved - Various bugs & issues"
     since_version: 0.7.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
@@ -4013,14 +4013,14 @@
 -
     id: 'scumm:spyozon'
     support: broken
-    notes: '- Need to guess the correct colors of Poodles''s fingernails - Various palette glitches - Asserts when looking at pearl'
+    notes: "- Need to guess the correct colors of Poodles's fingernails - Various palette glitches - Asserts when looking at pearl"
     since_version: 0.8.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: 'scumm:spyozon'
     support: good
-    notes: '- Need to guess the correct colors of Poodles''s fingernails - Various palette glitches'
+    notes: "- Need to guess the correct colors of Poodles's fingernails - Various palette glitches"
     since_version: 0.8.2
     stable_platforms: 'mac,win'
     unstable_platforms: ''
@@ -4034,14 +4034,14 @@
 -
     id: 'scumm:tentacle'
     support: excellent
-    notes: '- Maniac Mansion isn''t playable on Ed''s computer. To play the included copy, use ''Add Game'' from the main ScummVM launcher and select the MANIAC directory inside the DOTT game directory'
+    notes: "- Maniac Mansion isn't playable on Ed's computer. To play the included copy, use 'Add Game' from the main ScummVM launcher and select the MANIAC directory inside the DOTT game directory"
     since_version: 0.1.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: 'scumm:thinker1'
     support: broken
-    notes: '- Demo version only - Objects in mini games aren''t drawn'
+    notes: "- Demo version only - Objects in mini games aren't drawn"
     since_version: 0.7.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
@@ -4069,7 +4069,7 @@
 -
     id: 'scumm:thinkerk'
     support: bugged
-    notes: '- Settings aren''t saved - Various bugs & issues'
+    notes: "- Settings aren't saved - Various bugs & issues"
     since_version: 0.7.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
@@ -4097,7 +4097,7 @@
 -
     id: 'scumm:water'
     support: bugged
-    notes: '- Settings aren''t saved - Various bugs & issues'
+    notes: "- Settings aren't saved - Various bugs & issues"
     since_version: 0.7.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
@@ -4223,21 +4223,21 @@
 -
     id: 'sky:sky'
     support: bugged
-    notes: '- Requires the sky.cpt resource file to be placed in the game directory - Random crashes have been reported  - Floppy demos aren''t supported - The following bugs are present in the original game and can''t be fixed:   - The voice files for some sentences are missing.   - This is especially noticeable in the court and Mrs. Piermont sequence.   - The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders   - Special characters for french and italian subtitles are incorrect sometimes'
+    notes: "- Requires the sky.cpt resource file to be placed in the game directory - Random crashes have been reported  - Floppy demos aren't supported - The following bugs are present in the original game and can't be fixed:   - The voice files for some sentences are missing.   - This is especially noticeable in the court and Mrs. Piermont sequence.   - The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders   - Special characters for french and italian subtitles are incorrect sometimes"
     since_version: 0.5.0
     stable_platforms: dos
     unstable_platforms: amiga
 -
     id: 'sky:sky'
     support: excellent
-    notes: '- Requires the sky.cpt resource file to be placed in the game directory - Floppy demos aren''t supported - The following bugs are present in the original game and can''t be fixed:   - The voice files for some sentences are missing.   - This is especially noticeable in the court and Mrs. Piermont sequence.   - The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders   - Special characters for french and italian subtitles are incorrect sometimes'
+    notes: "- Requires the sky.cpt resource file to be placed in the game directory - Floppy demos aren't supported - The following bugs are present in the original game and can't be fixed:   - The voice files for some sentences are missing.   - This is especially noticeable in the court and Mrs. Piermont sequence.   - The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders   - Special characters for french and italian subtitles are incorrect sometimes"
     since_version: 0.6.0
     stable_platforms: dos
     unstable_platforms: amiga
 -
     id: 'sky:sky'
     support: excellent
-    notes: '- Floppy demos aren''t supported - The following bugs are present in the original game and can''t be fixed:   - The voice files for some sentences are missing.   - This is especially noticeable in the court and Mrs. Piermont sequence.   - The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders   - Special characters for french and italian subtitles are incorrect sometimes'
+    notes: "- Floppy demos aren't supported - The following bugs are present in the original game and can't be fixed:   - The voice files for some sentences are missing.   - This is especially noticeable in the court and Mrs. Piermont sequence.   - The fonts for the LINC terminal are partially incorrect and the text sometimes passes the screen borders   - Special characters for french and italian subtitles are incorrect sometimes"
     since_version: 1.6.0
     stable_platforms: dos
     unstable_platforms: amiga
@@ -4468,7 +4468,7 @@
 -
     id: 'ultima:ultima4'
     support: good
-    notes: '- FM-Towns may be working, but we''ll need someone with a copy to provide us a detection entry and test it out. - Provides an optional VGA enhanced mode'
+    notes: "- FM-Towns may be working, but we'll need someone with a copy to provide us a detection entry and test it out. - Provides an optional VGA enhanced mode"
     since_version: 2.2.0
     stable_platforms: dos
     unstable_platforms: ''
@@ -4601,7 +4601,7 @@
 -
     id: 'zvision:zgi'
     support: good
-    notes: '- The hires MPEG2 videos of the DVD version aren''t supported yet. The lowres videos are used instead'
+    notes: "- The hires MPEG2 videos of the DVD version aren't supported yet. The lowres videos are used instead"
     since_version: 1.8.0
     stable_platforms: win
     unstable_platforms: ''
@@ -4636,7 +4636,7 @@
 -
     id: 'director:fukuokagoround'
     support: bugged
-    notes: 'Certain videos don''t load'
+    notes: "Certain videos don't load"
     since_version: 2.7.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
@@ -4692,7 +4692,7 @@
 -
     id: 'director:japanart07'
     support: bugged
-    notes: 'Scrolling text box feature isn''t supported yet'
+    notes: "Scrolling text box feature isn't supported yet"
     since_version: 2.7.0
     stable_platforms: mac
     unstable_platforms: ''
@@ -4706,7 +4706,7 @@
 -
     id: 'director:nemurenu'
     support: excellent
-    notes: 'Intro doesn''t play in Mac version (uses accelerator)'
+    notes: "Intro doesn't play in Mac version (uses accelerator)"
     since_version: 2.7.0
     stable_platforms: 'mac,pippin'
     unstable_platforms: ''

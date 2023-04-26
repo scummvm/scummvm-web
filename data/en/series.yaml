@@ -37,7 +37,7 @@
     name: Blackwell
 -
     id: blue
-    name: 'Blue''s Clues'
+    name: "Blue's Clues"
 -
     id: brain
     name: 'Dr. Brain'
@@ -106,7 +106,7 @@
     name: 'Hi-Res Adventure'
 -
     id: hoyle
-    name: 'Hoyle''s Official Book of Games'
+    name: "Hoyle's Official Book of Games"
 -
     id: hugo
     name: 'Hugo House of Horrors'
@@ -136,10 +136,10 @@
     name: 'Junior Sports'
 -
     id: kq
-    name: 'King''s Quest'
+    name: "King's Quest"
 -
     id: kqagdi
-    name: 'King''s Quest Remakes'
+    name: "King's Quest Remakes"
 -
     id: kyra
     name: 'The Legend of Kyrandia'
@@ -172,7 +172,7 @@
     name: 'The Secret of Monkey Island'
 -
     id: mixedup
-    name: 'Roberta Williams'' Mixed-Up'
+    name: "Roberta Williams' Mixed-Up"
 -
     id: mm
     name: 'Might and Magic'
@@ -193,7 +193,7 @@
     name: 'Pajama Sam'
 -
     id: papas
-    name: 'Papa''s Daughters'
+    name: "Papa's Daughters"
 -
     id: petka
     name: 'Red Comrades'
