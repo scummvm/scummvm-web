@@ -24,7 +24,8 @@
                 </li>
             {elseif $type === 'screenshot_categories'}
                 <li class="file">
-                    <span class="sprite-games-{$key} sprite"></span>
+                    {* Strip engine prefix for sprite, if it exists *}
+                    <span class="sprite-games-{(str_contains($key, ':') == True) ? substr($key, strpos($key, ':') + 1) : $key} sprite"></span>
                     <a href="{'/screenshots/'|lang}{$screenshot.category}/{$key}/">{$item.name}</a>
                     <span class="download-extras">({$item.count} shots)</span>
                 </li>
