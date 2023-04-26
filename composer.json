@@ -14,7 +14,7 @@
     "smarty/smarty": "^4.1.0",
     "ezyang/htmlpurifier": "^4.10",
     "altorouter/altorouter": "^2.0",
-    "matomo/device-detector": "^4.3.0",
+    "matomo/device-detector": "^6.1.1",
     "spatie/yaml-front-matter": "^2.0",
     "erusev/parsedown": "^1.7",
     "phpfastcache/phpfastcache": "^8.0",

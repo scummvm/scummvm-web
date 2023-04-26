@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "49eaa034d13a68b5dc21f5dd00630b4a",
+    "content-hash": "59d9f3b5e07be7bd8a55beb7b3f41009",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -594,28 +594,28 @@
         },
         {
             "name": "matomo/device-detector",
-            "version": "4.3.1",
+            "version": "6.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matomo-org/device-detector.git",
-                "reference": "88e5419ee1448ccb9537e287dd09836ff9d2de3b"
+                "reference": "a549e24350ff63e15dc691b6b21b73909b4fa9bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matomo-org/device-detector/zipball/88e5419ee1448ccb9537e287dd09836ff9d2de3b",
-                "reference": "88e5419ee1448ccb9537e287dd09836ff9d2de3b",
+                "url": "https://api.github.com/repos/matomo-org/device-detector/zipball/a549e24350ff63e15dc691b6b21b73909b4fa9bd",
+                "reference": "a549e24350ff63e15dc691b6b21b73909b4fa9bd",
                 "shasum": ""
             },
             "require": {
                 "mustangostang/spyc": "*",
-                "php": ">=7.2"
+                "php": "^7.2|^8.0"
             },
             "replace": {
                 "piwik/device-detector": "self.version"
             },
             "require-dev": {
                 "matthiasmullie/scrapbook": "^1.4.7",
-                "mayflower/mo4-coding-standard": "dev-master#275cb9d",
+                "mayflower/mo4-coding-standard": "^v8.0.0",
                 "phpstan/phpstan": "^0.12.52",
                 "phpunit/phpunit": "^8.5.8",
                 "psr/cache": "^1.0.1",
@@ -659,7 +659,7 @@
                 "source": "https://github.com/matomo-org/matomo",
                 "wiki": "https://dev.matomo.org/"
             },
-            "time": "2021-09-20T12:34:12+00:00"
+            "time": "2023-03-16T08:19:16+00:00"
         },
         {
             "name": "mustangostang/spyc",
