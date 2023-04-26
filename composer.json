@@ -17,7 +17,7 @@
     "matomo/device-detector": "^6.1.1",
     "spatie/yaml-front-matter": "^2.0",
     "erusev/parsedown": "^1.7",
-    "phpfastcache/phpfastcache": "^8.0",
+    "phpfastcache/phpfastcache": "^9.1",
     "league/csv": "^9.6",
     "symfony/yaml": "^6.2",
     "predis/predis": "^1.1",
