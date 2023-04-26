@@ -19,7 +19,7 @@
     "erusev/parsedown": "^1.7",
     "phpfastcache/phpfastcache": "^8.0",
     "league/csv": "^9.6",
-    "symfony/yaml": "^5.1",
+    "symfony/yaml": "^6.2",
     "predis/predis": "^1.1",
     "guzzlehttp/guzzle": "^7.2",
     "propel/propel": "~2.0@dev"
