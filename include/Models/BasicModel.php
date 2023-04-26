@@ -58,6 +58,7 @@ abstract class BasicModel
         }
         global $lang;
         $cacheKey = str_replace("\\", "_", \get_called_class() . $key . "_$lang");
+        $cacheKey = str_replace(":", "_", $cacheKey);
         self::$cache->set($cacheKey, $data, 3600);
     }
 
@@ -72,6 +73,7 @@ abstract class BasicModel
         }
         global $lang;
         $cacheKey = str_replace("\\", "_", \get_called_class() . $key . "_$lang");
+        $cacheKey = str_replace(":", "_", $cacheKey);
         $cachedData = self::$cache->get($cacheKey);
         return $cachedData;
     }
