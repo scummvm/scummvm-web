@@ -9180,6 +9180,18 @@
     wikipedia_page: 'Ultima_VIII:_Pagan'
     series_id: ultima
 -
+    id: 'vcruise:reah'
+    name: 'Reah: Face the Unknown'
+    engine_id: vcruise
+    company_id: lkavalon
+    moby_id: '1684'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: 'Reah:_Face_the_Unknown'
+    wikipedia_page: 'Reah:_Face_the_Unknown'
+    series_id: ''
+-
     id: 'wintermute:wintermute'
     name: 'Wintermute engine game'
     engine_id: wintermute

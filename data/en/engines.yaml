@@ -60,6 +60,11 @@
     alt_name: 'Common Game Engine 2'
     enabled: true
 -
+    id: chamber
+    name: Chamber
+    alt_name: ''
+    enabled: false
+-
     id: chewy
     name: 'Chewy: Esc from F5'
     alt_name: ''
@@ -470,6 +475,11 @@
     alt_name: ''
     enabled: true
 -
+    id: vcruise
+    name: V-Cruise
+    alt_name: ''
+    enabled: true
+-
     id: voyeur
     name: Voyeur
     alt_name: ''
@@ -478,6 +488,11 @@
     id: wage
     name: WAGE
     alt_name: 'World Builder'
+    enabled: false
+-
+    id: watchmaker
+    name: 'The Watchmaker'
+    alt_name: ''
     enabled: false
 -
     id: wintermute
