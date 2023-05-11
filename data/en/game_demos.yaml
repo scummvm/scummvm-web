@@ -837,6 +837,15 @@
     language3: ''
     url: /frs/demos/gob/adi2-win-ni-demo-fr.zip
 -
+    id: 'gob:adi2'
+    platform: win
+    '': ''
+    category: ''
+    language: de
+    language2: ''
+    language3: ''
+    url: /frs/demos/gob/adi2-win-demo-de.zip
+-
     id: 'gob:adi4'
     platform: win
     '': ''
