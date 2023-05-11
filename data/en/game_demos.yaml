@@ -822,7 +822,7 @@
     id: 'gob:adi2'
     platform: win
     '': ''
-    category: ''
+    category: English/French
     language: fr
     language2: de
     language3: ''
@@ -831,7 +831,7 @@
     id: 'gob:adi2'
     platform: win
     '': ''
-    category: ''
+    category: French
     language: fr
     language2: ''
     language3: ''
@@ -840,7 +840,7 @@
     id: 'gob:adi2'
     platform: win
     '': ''
-    category: ''
+    category: German
     language: de
     language2: ''
     language3: ''
