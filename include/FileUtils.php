@@ -2,7 +2,6 @@
 namespace ScummVM;
 
 use DateTime;
-use DateTimeInterface;
 
 /**
 * Utility functions related to files on a file system.

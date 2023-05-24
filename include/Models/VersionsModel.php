@@ -1,7 +1,6 @@
 <?php
 namespace ScummVM\Models;
 
-use ScummVM\OrmObjects\Version;
 use ScummVM\OrmObjects\VersionQuery;
 
 /**

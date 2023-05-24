@@ -6,7 +6,6 @@ use ScummVM\FileUtils;
 use ScummVM\Objects\DownloadsSection;
 use DeviceDetector\Parser\OperatingSystem as OsParser;
 use ScummVM\OrmObjects\DownloadQuery;
-use Propel\Runtime\ActiveQuery\Criteria;
 
 /**
  * The DownloadsModel will produce DownloadsSection objects.

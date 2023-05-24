@@ -1,8 +1,6 @@
 <?php
 namespace ScummVM\Models;
 
-use Symfony\Component\Yaml\Yaml;
-
 /**
  * The SimpleModel is used automatically create simple models
  * that do not require any special handling

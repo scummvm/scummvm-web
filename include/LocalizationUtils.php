@@ -4,8 +4,6 @@ namespace ScummVM;
 require_once __DIR__ . '/../vendor/autoload.php';
 require_once __DIR__ . '/../include/Constants.php';
 
-use ScummVM\Objects\News;
-use ScummVM\Models\NewsModel;
 use Spatie\YamlFrontMatter\YamlFrontMatter;
 use Erusev\Parsedown;
 

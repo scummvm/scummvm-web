@@ -1,7 +1,6 @@
 <?php
 namespace ScummVM\Pages;
 
-use Exception;
 use ScummVM\Controller;
 
 class StaticPage extends Controller
