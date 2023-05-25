@@ -42,7 +42,7 @@ class Compatibility extends BaseCompatibility
     public function getNotes()
     {
         $notes = "### Support Level\n\n";
-        $notes .= "%{$this->getSupport()}%\n\n";
+        $notes .= "[[support_description]]\n\n";
 
         if ($stable = $this->getStablePlatforms()) {
             $notes .= "### Supported Platforms \n";
