@@ -21,7 +21,7 @@
         </tr>
         <tr class="color2">
             <td colspan="3" class="details">
-                {$game->getNotes()|regex_replace:"/%.+%/":$support_description}
+                {$game->getNotes()|replace:"[[support_description]]":$support_description}
             </td>
         </tr>
     </tbody>
