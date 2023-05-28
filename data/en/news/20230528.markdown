@@ -1,0 +1,13 @@
+---
+title: "There's that name again. Matia. What's going on here?"
+author: OneEightHundred
+date: 1685288934
+---
+
+_Schizm: Mysterious Journey_, the second supported game of the [V-Cruise engine](https://wiki.scummvm.org/index.php?title=V-Cruise), is ready for public testing!
+
+Created in 2001 by _Detalion_ and published by _LK Avalon_, this acclaimed 3D-rendered panoramic first-person adventure has you puzzle your way through an alien world as a team of two scientists split up when their ship crash-landed on the planet.
+
+ScummVM currently supports the DVD and digital English releases (with subtitles in Dutch, English, French, German, Italian, Polish, Spanish, Greek, and Russian). If you’re aware of any other versions, please [contact us](https://www.scummvm.org/contact/).
+
+To play any of these supported releases, you will need a [daily development build](https://www.scummvm.org/downloads/#daily). If you encounter any issues, please submit them to the [issue tracker](https://bugs.scummvm.org/)!
