@@ -4620,6 +4620,13 @@
     stable_platforms: 'dos,win'
     unstable_platforms: ''
 -
+    id: 'mtropolis:obsidian'
+    support: excellent
+    notes: ''
+    since_version: 2.7.0
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
     id: 'director:chopsuey'
     support: excellent
     notes: ''
@@ -4768,6 +4775,13 @@
     unstable_platforms: ''
 -
     id: 'vcruise:reah'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'vcruise:schizm'
     support: excellent
     notes: ''
     since_version: DEV

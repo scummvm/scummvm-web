@@ -9192,6 +9192,18 @@
     wikipedia_page: 'Reah:_Face_the_Unknown'
     series_id: ''
 -
+    id: 'vcruise:schizm'
+    name: 'Schizm: Mysterious Journey'
+    engine_id: vcruise
+    company_id: lkavalon
+    moby_id: '4688'
+    steam_id: '1709550'
+    gog_id: schizm
+    additional_stores: ''
+    datafiles: 'Schizm:_Mysterious_Journey'
+    wikipedia_page: 'Schizm:_Mysterious_Journey'
+    series_id: ''
+-
     id: 'wintermute:wintermute'
     name: 'Wintermute engine game'
     engine_id: wintermute
