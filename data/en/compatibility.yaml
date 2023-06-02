@@ -4787,3 +4787,17 @@
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
+-
+    id: 'ags:blackwell1'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'ags:blackwell2'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
