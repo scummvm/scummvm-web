@@ -4801,3 +4801,10 @@
     since_version: DEV
     stable_platforms: 'win,mac'
     unstable_platforms: ''
+-
+    id: 'mm1:mm1'
+    support: good
+    notes: 'Only PC version supported, both original and ScummVM enhanced version. Original version does not have sound'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''

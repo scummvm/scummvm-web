@@ -9372,6 +9372,18 @@
     wikipedia_page: World_Builder
     series_id: ''
 -
+    id: 'mm1:mm1'
+    name: 'Might and Magic: Book One - Secret of the Inner Sanctum'
+    engine_id: mm1
+    company_id: nwc
+    moby_id: '1619'
+    steam_id: ''
+    gog_id: might_and_magic_6_limited_edition
+    additional_stores: ''
+    datafiles: 'Might_and_Magic_Book_One:_The_Secret_of_the_Inner_Sanctum'
+    wikipedia_page: Might_and_Magic_Book_One%3A_The_Secret_of_the_Inner_Sanctum
+    series_id: mm
+-
     id: 'xeen:cloudsofxeen'
     name: 'Might and Magic: Clouds of Xeen'
     engine_id: xeen

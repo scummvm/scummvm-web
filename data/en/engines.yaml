@@ -260,6 +260,11 @@
     alt_name: 'MicroProse Adventure Development System'
     enabled: true
 -
+    id: mm1
+    name: 'Might and Magic Book One'
+    alt_name: ''
+    enabled: true
+-
     id: mohawk
     name: Mohawk
     alt_name: ''
