@@ -4,12 +4,12 @@ author: DreamMaster
 date: 1686198941
 ---
 
-A stalwart party exploring the unknown, seeking the fabled Inner Sanctum. But all is not what it seems in the world of Varn…
+A stalwart party exploring the unknown, seeking the fabled Inner Sanctum. But all is not what it seems in the world of Varn!
 
 The ScummVM Team is pleased to announce full support for the PC version of the first game of the *Might and Magic* series: *Might and Magic Book One: The Secret of the Inner Sanctum*. Two modes are supported:
 
 * The original look and feel of the game (sound, which in the original consisted of merely the occasional beep, is not supported)
-* A ScummVM-exclusive enhanced mode, which uses the interface of the later Xeen games, including niceties such as better character screens, automapping, and sound effects. It also integrates the impressive “[Might and Magic 1 Graphics Overhaul Mod](https://www.dungeoncrawlers.org/post/might-magic-1-graphics-overhaul-mod/)", which provides better in-game map and monster graphics. The `xeen.cc` file is required from *Might and Magic: IV* or *Might and Magic: World of Xeen*.
+* A ScummVM-exclusive enhanced mode, which uses the interface of the later Xeen games, including niceties such as better character screens, automapping, and sound effects. It also integrates the impressive "[Might and Magic 1 Graphics Overhaul Mod](https://www.dungeoncrawlers.org/post/might-magic-1-graphics-overhaul-mod/)", which provides better in-game map and monster graphics. The `xeen.cc` file is required from *Might and Magic: IV* or *Might and Magic: World of Xeen*.
 
 Both modes allow saving your game anywhere outside of combat via the ScummVM Global Main Menu (unlike the original game that only saved a single roster when checking into an inn). So make sure you save regularly, just in case you encounter problems.
 
