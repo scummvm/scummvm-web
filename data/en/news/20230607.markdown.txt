@@ -13,6 +13,6 @@ The ScummVM Team is pleased to announce full support for the PC version of the f
 
 Both modes allow saving your game anywhere outside of combat via the ScummVM Global Main Menu (unlike the original game that only saved a single roster when checking into an inn). So make sure you save regularly, just in case you encounter problems.
 
-Help us test both game modes by grabbing a [daily build](/downloads/#daily) and adding [`mm.dat`](https://scummvm.svn.sourceforge.net/svnroot/scummvm/scummvm/trunk/dists/engine-data/mm.dat) to the same folder as your game files. Read through our [testing guidelines](https://wiki.scummvm.org/index.php/Release_Testing#Testing_Guidelines), and please take some [screenshots](https://wiki.scummvm.org/index.php/Screenshots) along the way.
+Help us test both game modes by grabbing a [daily build](/downloads/#daily) and adding [mm.dat](https://github.com/scummvm/scummvm/blob/master/dists/engine-data/mm.dat) to the same folder as your game files. Read through our [testing guidelines](https://wiki.scummvm.org/index.php/Release_Testing#Testing_Guidelines), and please take some [screenshots](https://wiki.scummvm.org/index.php/Screenshots) along the way.
 
 Now, go forth, and discover the true secrets of the game that started the long running epic fantasy series!
