@@ -5311,6 +5311,15 @@
     url: /frs/demos/tinsel/dw2-psx-demo-en.zip
 -
     id: 'tinsel:dw2'
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/tinsel/dw2-dos-demo-en.zip
+-
+    id: 'tinsel:dw2'
     platform: win
     '': ''
     category: ''
