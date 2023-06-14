@@ -4,7 +4,7 @@ author: OneEightHundred
 date: 1686783600
 ---
 
-_Muppet Treasure Island_, the second [mTropolis engine](https://wiki.scummvm.org/index.php?title=MTropolis) game playable in ScummVM, is ready for public testing!
+_Muppet Treasure Island_, the second [mTropolis](https://wiki.scummvm.org/index.php?title=MTropolis) game playable in ScummVM, is ready for public testing!
 
 Created in 1996 by _Activision_ and based on the movie of the same name, this game has you play the role of Jim Hawkins as you join the Muppets on a voyage to find a pirate’s buried treasure, and features additional live-action performances by Billy Connolly and Tim Curry.
 
