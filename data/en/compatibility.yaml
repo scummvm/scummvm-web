@@ -4808,3 +4808,31 @@
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: ''
+-
+    id: 'ags:primordia'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,linux,mac'
+    unstable_platforms: ''
+-
+    id: 'ags:shardlight'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,linux,mac'
+    unstable_platforms: ''
+-
+    id: 'ags:technobabylon'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,linux,mac'
+    unstable_platforms: ''
+-
+    id: 'mtropolis:mti'
+    support: good
+    notes: "MPZ-1000 printing feature doesn't work"
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''

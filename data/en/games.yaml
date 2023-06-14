@@ -4908,6 +4908,18 @@
     wikipedia_page: 'Mage%27s_Initiation:_Reign_of_the_Elements'
     series_id: ''
 -
+    id: 'mtropolis:mti'
+    name: 'Muppet Treasure Island '
+    engine_id: mtropolis
+    company_id: activision
+    moby_id: '6477'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: Muppet_Treasure_Island
+    wikipedia_page: Muppet_Treasure_Island_(video_game)
+    series_id: ''
+-
     id: 'mtropolis:obsidian'
     name: Obsidian
     engine_id: mtropolis
