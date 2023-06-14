@@ -1,0 +1,13 @@
+---
+title: "Hey, Hawkins, nice to see you again!"
+author: OneEightHundred
+date: 1686783600
+---
+
+_Muppet Treasure Island_, the second [mTropolis engine](https://wiki.scummvm.org/index.php?title=MTropolis) game playable in ScummVM, is ready for public testing!
+
+Created in 1996 by _Activision_ and based on the movie of the same name, this game has you play the role of Jim Hawkins as you join the Muppets on a voyage to find a pirate’s buried treasure, and features additional live-action performances by Billy Connolly and Tim Curry.
+
+ScummVM currently supports the Windows CD-ROM release in several languages (English, Spanish, Italian) and the English Macintosh CD-ROM.  If you’re aware of any other versions, please [contact us](https://www.scummvm.org/contact/).
+
+To play any of these supported releases, you will need a [daily development build](https://www.scummvm.org/downloads/#daily). If you encounter any issues, please submit them to the [issue tracker](https://bugs.scummvm.org/)!
