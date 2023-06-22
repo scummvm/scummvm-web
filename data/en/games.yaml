@@ -792,6 +792,18 @@
     wikipedia_page: 'Ben_There,_Dan_That!'
     series_id: ''
 -
+    id: 'ags:bestowersofeternity'
+    name: 'Bestowers of Eternity - Part One'
+    engine_id: ags
+    company_id: wadjet
+    moby_id: '25678'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: blackwell
+-
     id: 'ags:beyondowlsgard'
     name: 'Beyond the Edge of Owlsgard'
     engine_id: ags
