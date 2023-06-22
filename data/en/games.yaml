@@ -1032,6 +1032,18 @@
     wikipedia_page: The_Shivah
     series_id: ''
 -
+    id: 'ags:shivahkosher'
+    name: 'The Shivah: Kosher Edition'
+    engine_id: ags
+    company_id: wadjet
+    moby_id: '65232'
+    steam_id: '252370'
+    gog_id: the_shivah
+    additional_stores: "- [Developer's Website](http://www.wadjeteyegames.com/store/)"
+    datafiles: AGS/Games
+    wikipedia_page: The_Shivah
+    series_id: ''
+-
     id: 'asylum:sanitarium'
     name: Sanitarium
     engine_id: asylum
