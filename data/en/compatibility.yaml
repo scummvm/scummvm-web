@@ -4841,5 +4841,40 @@
     support: good
     notes: ''
     since_version: DEV
-    stable_platforms: 'win,mac'
+    stable_platforms: 'win,linux,mac'
+    unstable_platforms: ''
+-
+    id: 'ags:unavowed'
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,linux,mac'
+    unstable_platforms: ''
+-
+    id: 'ags:geminirue'
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,linux,mac'
+    unstable_platforms: ''
+-
+    id: 'ags:strangeland'
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,linux,mac'
+    unstable_platforms: ''
+-
+    id: 'ags:excavationhb'
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,linux,mac'
+    unstable_platforms: ''
+-
+    id: 'ags:danewguys2'
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: ''
     unstable_platforms: ''
