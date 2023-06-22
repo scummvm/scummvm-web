@@ -92,12 +92,12 @@
     name: 'Amber Company'
     alt_name: ''
 -
-    id: animationmagic
-    name: 'Animation Magic'
-    alt_name: ''
--
     id: anate
     name: 'Anate Studio'
+    alt_name: ''
+-
+    id: animationmagic
+    name: 'Animation Magic'
     alt_name: ''
 -
     id: anne
@@ -528,10 +528,6 @@
     name: Gugames
     alt_name: ''
 -
-    id: herculean
-    name: 'Herculean Effort Productions'
-    alt_name: ''
--
     id: harvester
     name: 'Harvester Games'
     alt_name: ''
@@ -542,6 +538,10 @@
 -
     id: headware
     name: 'Headware Games'
+    alt_name: ''
+-
+    id: herculean
+    name: 'Herculean Effort Productions'
     alt_name: ''
 -
     id: herinteractive
@@ -1272,12 +1272,12 @@
     name: 'Wanderlust Interactive'
     alt_name: ''
 -
-    id: watchdatoast
-    name: WatchDaToast
-    alt_name: ''
--
     id: warner
     name: 'Warner Interactive'
+    alt_name: ''
+-
+    id: watchdatoast
+    name: WatchDaToast
     alt_name: ''
 -
     id: westend

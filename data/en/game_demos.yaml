@@ -5247,15 +5247,6 @@
     language3: ''
     url: /frs/demos/teen/teen-dos-wiztech-demo-en.zip
 -
-    id: 'tinsel:noir'
-    platform: dos
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/tinsel/Discworld_Noir_demo.zip
--
     id: 'tinsel:dw'
     platform: dos
     '': ''
@@ -5282,15 +5273,6 @@
     language2: ''
     language3: ''
     url: /frs/demos/tinsel/dw-mac-cd-demo-en.zip
--
-    id: 'tinsel:noir'
-    platform: dos
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/tinsel/dw-noir-demo-en.zip
 -
     id: 'tinsel:dw'
     platform: psx
@@ -5336,6 +5318,24 @@
     language2: ''
     language3: ''
     url: /frs/demos/tinsel/dw2-win-demo-en.zip
+-
+    id: 'tinsel:noir'
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/tinsel/Discworld_Noir_demo.zip
+-
+    id: 'tinsel:noir'
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/tinsel/dw-noir-demo-en.zip
 -
     id: 'toltecs:toltecs'
     platform: dos

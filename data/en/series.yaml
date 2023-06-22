@@ -3,11 +3,11 @@
     id: '1213'
     name: '1213'
 -
-    id: adibou
-    name: Adibou
--
     id: adi
     name: ADI
+-
+    id: adibou
+    name: Adibou
 -
     id: agifan
     name: 'AGI Fan'
@@ -75,11 +75,11 @@
     id: ecoquest
     name: EcoQuest
 -
-    id: enchanter
-    name: Enchanter
--
     id: elvira
     name: Elvira
+-
+    id: enchanter
+    name: Enchanter
 -
     id: eob
     name: 'Eye of the Beholder'

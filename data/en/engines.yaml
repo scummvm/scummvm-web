@@ -130,11 +130,6 @@
     alt_name: ''
     enabled: true
 -
-    id: ngi
-    name: NGI
-    alt_name: 'Nikita Game Interface'
-    enabled: true
--
     id: glk
     name: Glk
     alt_name: ''
@@ -298,6 +293,11 @@
     id: neverhood
     name: 'The Neverhood'
     alt_name: ''
+    enabled: true
+-
+    id: ngi
+    name: NGI
+    alt_name: 'Nikita Game Interface'
     enabled: true
 -
     id: parallaction
