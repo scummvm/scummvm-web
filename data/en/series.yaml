@@ -156,9 +156,6 @@
     id: lsl
     name: 'Leisure Suit Larry'
 -
-    id: lucasartsnoseries
-    name: 'LucasArts no Series'
--
     id: magictales
     name: 'Magic Tales'
 -
@@ -233,9 +230,6 @@
 -
     id: sierrachristmas
     name: 'Sierra Christmas Cards'
--
-    id: sierranoseries
-    name: 'Sierra no Series'
 -
     id: simon
     name: 'Simon the Sorcerer'

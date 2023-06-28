@@ -118,7 +118,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: Adventure_Game_Interpreter
-    series_id: sierranoseries
+    series_id: ''
 -
     id: 'agi:agidemo'
     name: 'AGI Demo'
@@ -130,7 +130,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: sierranoseries
+    series_id: ''
 -
     id: 'agi:bc'
     name: 'The Black Cauldron'
@@ -190,7 +190,7 @@
     additional_stores: '- [Sunlight Games](http://shop.sunlight-games.com/product/2)'
     datafiles: Gold_Rush
     wikipedia_page: Gold_Rush!
-    series_id: sierranoseries
+    series_id: ''
 -
     id: 'agi:kq1'
     name: "King's Quest I: Quest for the Crown"
@@ -418,7 +418,7 @@
     additional_stores: ''
     datafiles: Troll%27s_Tale
     wikipedia_page: Troll%27s_Tale
-    series_id: sierranoseries
+    series_id: ''
 -
     id: 'agi:voodoo'
     name: 'Voodoo Girl - Queen of the Darned'
@@ -3910,7 +3910,7 @@
     additional_stores: ''
     datafiles: Grim_Fandango
     wikipedia_page: Grim_Fandango
-    series_id: lucasartsnoseries
+    series_id: ''
 -
     id: 'grim:monkey4'
     name: 'Escape From Monkey Island'
@@ -5386,7 +5386,7 @@
     additional_stores: ''
     datafiles: Freddy_Pharkas
     wikipedia_page: 'Freddy_Pharkas:_Frontier_Pharmacist'
-    series_id: sierranoseries
+    series_id: ''
 -
     id: 'sci:funseeker'
     name: "Fun Seeker's Guide"
@@ -5398,7 +5398,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: sierranoseries
+    series_id: ''
 -
     id: 'sci:gk1'
     name: 'Gabriel Knight: Sins of the Fathers'
@@ -5542,7 +5542,7 @@
     additional_stores: ''
     datafiles: 'Codename:_ICEMAN'
     wikipedia_page: 'Codename:_ICEMAN'
-    series_id: sierranoseries
+    series_id: ''
 -
     id: 'sci:inndemo'
     name: 'ImagiNation Network (INN) Demo'
@@ -5554,7 +5554,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: sierranoseries
+    series_id: ''
 -
     id: 'sci:islandbrain'
     name: 'The Island of Dr. Brain'
@@ -5578,7 +5578,7 @@
     additional_stores: ''
     datafiles: Jones_in_the_Fast_Lane
     wikipedia_page: Jones_in_the_Fast_Lane
-    series_id: sierranoseries
+    series_id: ''
 -
     id: 'sci:kq1sci'
     name: "King's Quest: Quest for the Crown"
@@ -5686,7 +5686,7 @@
     additional_stores: ''
     datafiles: Lighthouse
     wikipedia_page: 'Lighthouse:_The_Dark_Being'
-    series_id: sierranoseries
+    series_id: ''
 -
     id: 'sci:longbow'
     name: 'Conquests of the Longbow: The Legend of Robin Hood'
@@ -5842,7 +5842,7 @@
     additional_stores: ''
     datafiles: Pepper%27s_Adventures_in_Time
     wikipedia_page: Pepper%27s_Adventures_in_Time
-    series_id: sierranoseries
+    series_id: ''
 -
     id: 'sci:phantasmagoria'
     name: Phantasmagoria
@@ -6022,7 +6022,7 @@
     additional_stores: ''
     datafiles: RAMA
     wikipedia_page: Rama_(video_game)
-    series_id: sierranoseries
+    series_id: ''
 -
     id: 'sci:realm'
     name: 'The Realm'
@@ -6046,7 +6046,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: sierranoseries
+    series_id: ''
 -
     id: 'sci:sci-fanmade'
     name: 'Fanmade SCI Game'
@@ -6070,7 +6070,7 @@
     additional_stores: ''
     datafiles: Shivers
     wikipedia_page: Shivers_(video_game)
-    series_id: sierranoseries
+    series_id: ''
 -
     id: 'sci:shivers2'
     name: 'Shivers 2: Harvest of Souls'
@@ -6082,7 +6082,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: 'Shivers_II:_Harvest_of_Souls'
-    series_id: sierranoseries
+    series_id: ''
 -
     id: 'sci:slater'
     name: 'Slater & Charlie Go Camping'
@@ -6094,7 +6094,7 @@
     additional_stores: ''
     datafiles: Slater_%26_Charlie_Go_Camping
     wikipedia_page: Slater_%26_Charlie_Go_Camping
-    series_id: sierranoseries
+    series_id: ''
 -
     id: 'sci:sq1sci'
     name: 'Space Quest I: Roger Wilco in the Sarien Encounter'
@@ -6166,7 +6166,7 @@
     additional_stores: ''
     datafiles: Torin%27s_Passage
     wikipedia_page: Torin%27s_Passage
-    series_id: sierranoseries
+    series_id: ''
 -
     id: 'scumm:activity'
     name: "Putt-Putt and Fatty Bear's Activity Pack"
@@ -6382,7 +6382,7 @@
     additional_stores: ''
     datafiles: The_Dig
     wikipedia_page: The_Dig_(video_game)
-    series_id: lucasartsnoseries
+    series_id: ''
 -
     id: 'scumm:dog'
     name: "Putt-Putt and Pep's Dog on a Stick"
@@ -6538,7 +6538,7 @@
     additional_stores: ''
     datafiles: Full_Throttle
     wikipedia_page: Full_Throttle_(1995_video_game)
-    series_id: lucasartsnoseries
+    series_id: ''
 -
     id: 'scumm:funpack'
     name: "Putt-Putt's Fun Pack"
@@ -6586,7 +6586,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: lucasartsnoseries
+    series_id: ''
 -
     id: 'scumm:jungle'
     name: "Let's Explore the Jungle"
@@ -6610,7 +6610,7 @@
     additional_stores: '<br /> ![Go out and buy Loom™ today!](https://upload.wikimedia.org/wikipedia/en/4/4b/LOOM_advert_in_Monkey_Island.png "<ADVERTISEMENT>")'
     datafiles: Loom
     wikipedia_page: Loom_(video_game)
-    series_id: lucasartsnoseries
+    series_id: ''
 -
     id: 'scumm:lost'
     name: "Pajama Sam's Lost & Found"
@@ -6862,7 +6862,7 @@
     additional_stores: ''
     datafiles: Sam_%26_Max_Hit_the_Road
     wikipedia_page: Sam_%26_Max_Hit_the_Road
-    series_id: lucasartsnoseries
+    series_id: ''
 -
     id: 'scumm:samsfunshop'
     name: "Pajama Sam's One Stop Fun Shop"
@@ -7018,7 +7018,7 @@
     additional_stores: ''
     datafiles: Zak_McKracken_and_the_Alien_Mindbenders
     wikipedia_page: Zak_McKracken_and_the_Alien_Mindbenders
-    series_id: lucasartsnoseries
+    series_id: ''
 -
     id: 'scumm:zakloom'
     name: 'Zak McKracken & Loom'
@@ -7030,7 +7030,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: lucasartsnoseries
+    series_id: ''
 -
     id: 'sherlock:rosetattoo'
     name: 'The Lost Files of Sherlock Holmes: Case of the Rose Tattoo'
