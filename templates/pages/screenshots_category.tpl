@@ -3,7 +3,7 @@
     {foreach from=$screenshots.games item=g name=cat_loop}
         <h3 class="subhead">
             <span class="sprite-games-{$g->getCategory()} sprite"></span>
-            <a href="{'/screenshots/'|lang}{$category}/{$g->getCategory()}/">{$g->getName()}</a>
+            {$g->getName()}
         </h3>
         <div class="gallery">
             {foreach from=$g->getFiles() item=fdata name=game_loop}
