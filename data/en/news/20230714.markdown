@@ -1,0 +1,18 @@
+---
+title: A new World of Discoveries
+author: sdelamarre
+date: 1689328800
+---
+_Adibou_, first of the name, is now ready for public testing!
+
+Also known as _Adi Jr.'s World of Discoveries_, this 1991 Coktel Vision title pioneered the Adibou series, an educational suite aimed at children of age 4 to 7 years.
+
+Many of the iconic activities and mechanisms of the series were already part of this first opus: planting flowers, breakout game, sweets offered as rewards upon completing Read/Count exercises... And of course the main character, Adibou, proving himself as a patient and funny learning partner, although he could only speak goblin gibberish at the beginning!
+
+The title received substantial updates along the path, from the initial 16-colors floppy releases to later 1994 CD versions with richer graphics and sound effects. All of them should work on ScummVM. So dig out your dusty Adibou floppies or CDs, get a [ScummVM daily development build](https://www.scummvm.org/downloads/#daily), and start collecting sweets while solving maths and reading exercises! Please also [contact us](https://www.scummvm.org/contact/) if you own a version ScummVM is not yet aware of, and report to the [issue tracker](https://bugs.scummvm.org/) any problem you may encounter.
+
+_Caveat: no candy parcel support_
+
+When hardworking children complete their virtual sweets collection, a message appears on the screen, inviting them to send a copy of the savegame on a floppy disk to Coktel Vision by post. At the time the game was released, one would receive in return… a parcel containing Coktel goodies and actual sweets!
+
+Unfortunately, ScummVM will not be able to revive this beautiful service. So if you happen to show _Adibou_ to younger players, be prepared to fetch by yourself a candy pack from the nearest shop, when they finish the game!
