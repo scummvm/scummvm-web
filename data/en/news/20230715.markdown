@@ -7,9 +7,9 @@ _Adibou_, the first game in the beloved children's series, is now ready for publ
 
 Also known as _Adi Jr.'s World of Discoveries_, this 1991 Coktel Vision title began the educational Adibou collection aimed at children of age 4 to 7 years.
 
-Many of the iconic activities and mechanisms of the series were already part of this first opus: planting flowers, playing the game Breakout, and being rewarded with sweets upon completing Read/Count exercises. And of course, this was Adibou's first appearance! Although at first he could only speak the same strange gibberish as heard in the [Goblins series](https://wiki.scummvm.org/index.php/Goblins_series), he is still the patient and funny learning partner that he's remembered for being in later games.
+Many of the iconic activities and mechanisms of the series were already part of this first opus: planting flowers, playing the game Breakout, and being rewarded with sweets upon completing Read/Count exercises. And of course, this was Adibou's first appearance! Although the floppy release has him speak the same strange gibberish as heard in the [Goblins series](https://wiki.scummvm.org/index.php/Goblins_series), he is still the patient and funny learning partner that he's remembered for being in later games.
 
 ScummVM supports all of the game's releases, from the initial 16-color floppy ones to later 1994 CD versions with richer graphics and sound effects. So dig out your dusty Adibou disks, get a [ScummVM daily development build](https://www.scummvm.org/downloads/#daily), and start collecting sweets while completing math and reading exercises! Please also [contact us](https://www.scummvm.org/contact/) if you own a version ScummVM is not yet aware of, and report to the [issue tracker](https://bugs.scummvm.org/) any problem you may encounter.
 
-----
+---
 As much as ScummVM aims to replicate the original gaming experience, there is one feature we are unfortunately unable to support. When hardworking children complete their virtual sweets collection, a message invites them to mail a floppy disk with their savegame to Coktel Vision, who would send them a parcel containing Coktel goodies and actual sweets! So if you are introducing children to _Adibou_ through ScummVM, be prepared to go to the nearest shop and buy some candy for when they finish the game!
