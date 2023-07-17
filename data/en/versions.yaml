@@ -342,3 +342,10 @@
     minor: '7'
     patch: '0'
     name: 'The Real Slim Shader'
+-
+    id: 2.7.1
+    release_date: 'July 31, 2023'
+    major: '2'
+    minor: '7'
+    patch: '1'
+    name: ''

@@ -948,6 +948,18 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:danewguys'
+    name: 'Da New Guys'
+    engine_id: ags
+    company_id: icebox
+    moby_id: '66261'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: danewguys
+-
     id: 'ags:danewguys2'
     name: 'Da New Guys: Day of the Jackass'
     engine_id: ags
@@ -958,7 +970,7 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: ''
+    series_id: danewguys
 -
     id: 'ags:detectivegallo'
     name: 'Detective Gallo'
@@ -1019,6 +1031,18 @@
     datafiles: ''
     wikipedia_page: ''
     series_id: deviltrilogy
+-
+    id: 'ags:dreamswitchhouse'
+    name: 'Dreams in the Witch House'
+    engine_id: ags
+    company_id: atombrain
+    moby_id: '200198'
+    steam_id: '1902850'
+    gog_id: dreams_in_the_witch_house
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
 -
     id: 'ags:dustbowl'
     name: Dustbowl
@@ -1103,6 +1127,54 @@
     datafiles: ''
     wikipedia_page: A_Golden_Wake
     series_id: ''
+-
+    id: 'ags:gobliiins5-1'
+    name: "Gobliiins5 - L'Invasion des Morglotons Part1"
+    engine_id: ags
+    company_id: schnibble
+    moby_id: '202606'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://pierre-gilhodes.itch.io/gobliiins5)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: gob
+-
+    id: 'ags:gobliiins5-2'
+    name: "Gobliiins5 - L'Invasion des Morglotons Part2"
+    engine_id: ags
+    company_id: schnibble
+    moby_id: '202606'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://pierre-gilhodes.itch.io/gobliiins5)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: gob
+-
+    id: 'ags:gobliiins5-3'
+    name: "Gobliiins5 - L'Invasion des Morglotons Part3"
+    engine_id: ags
+    company_id: schnibble
+    moby_id: '202606'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://pierre-gilhodes.itch.io/gobliiins5)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: gob
+-
+    id: 'ags:gobliiins5-4'
+    name: "Gobliiins5 - L'Invasion des Morglotons Part4"
+    engine_id: ags
+    company_id: schnibble
+    moby_id: '202606'
+    steam_id: ''
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://pierre-gilhodes.itch.io/gobliiins5)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: gob
 -
     id: 'ags:grandmabadass'
     name: 'GrandMa Badass'
@@ -1416,6 +1488,18 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:mybigsisterrm'
+    name: 'My Big Sister Remastered'
+    engine_id: ags
+    company_id: stranga
+    moby_id: '194217'
+    steam_id: '2118540'
+    gog_id: ''
+    additional_stores: '- [Itch.io](https://stranga.itch.io/my-big-sister-remastered)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:myburdentokeep'
     name: 'My Burden to Keep'
     engine_id: ags
@@ -1606,6 +1690,18 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:puzzlebots'
+    name: 'Puzzle Bots'
+    engine_id: ags
+    company_id: wadjet
+    moby_id: '46461'
+    steam_id: '80300'
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Puzzle_Bots
     series_id: ''
 -
     id: 'ags:qfg2agdi'
@@ -2110,6 +2206,18 @@
     additional_stores: "- [Developer's Website](https://www.wadjeteyegames.com/games/unavowed/)"
     datafiles: ''
     wikipedia_page: Unavowed
+    series_id: ''
+-
+    id: 'ags:untilihaveyou'
+    name: 'Until I Have You'
+    engine_id: ags
+    company_id: wormwood
+    moby_id: '129721'
+    steam_id: '439310'
+    gog_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: 'ags:urbanwitchstory'
