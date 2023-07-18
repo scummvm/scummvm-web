@@ -3604,11 +3604,11 @@
     name: 'Adibou 1'
     engine_id: gob
     company_id: coktel
-    moby_id: '-1'
+    moby_id: '32409'
     steam_id: ''
     gog_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Adibou_1
     wikipedia_page: ''
     series_id: adibou
 -
@@ -3623,18 +3623,6 @@
     datafiles: Adibou_2
     wikipedia_page: ''
     series_id: adibou
--
-    id: 'gob:ajworld'
-    name: "A.J.'s World of Discovery"
-    engine_id: gob
-    company_id: coktel
-    moby_id: '32409'
-    steam_id: ''
-    gog_id: ''
-    additional_stores: ''
-    datafiles: ''
-    wikipedia_page: ''
-    series_id: ''
 -
     id: 'gob:babayagaonce'
     name: 'Once Upon A Time: Baba Yaga'

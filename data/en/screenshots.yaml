@@ -510,6 +510,18 @@
     language: en
     variant_id: '1'
 -
+    id: 'gob:adibou1'
+    variant: ''
+    platform_id: dos
+    language: fr
+    variant_id: '1'
+-
+    id: 'gob:adibou1'
+    variant: ''
+    platform_id: win
+    language: de
+    variant_id: '1'
+-
     id: 'gob:adibou2'
     variant: ''
     platform_id: dos
