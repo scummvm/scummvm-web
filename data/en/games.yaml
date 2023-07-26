@@ -3732,6 +3732,18 @@
     wikipedia_page: Gobliiins
     series_id: gob
 -
+    id: 'gob:gob1cd'
+    name: Gobliiins
+    engine_id: gob
+    company_id: coktel
+    moby_id: '1154'
+    steam_id: ''
+    gog_id: gobliiins_pack
+    additional_stores: ''
+    datafiles: Gobliiins
+    wikipedia_page: Gobliiins
+    series_id: gob
+-
     id: 'gob:gob2'
     name: 'Gobliins 2: The Prince Buffoon'
     engine_id: gob
@@ -3744,7 +3756,31 @@
     wikipedia_page: 'Gobliiins#Gobliins_2:_The_Prince_Buffoon'
     series_id: gob
 -
+    id: 'gob:gob2cd'
+    name: 'Gobliins 2: The Prince Buffoon'
+    engine_id: gob
+    company_id: coktel
+    moby_id: '2625'
+    steam_id: ''
+    gog_id: gobliiins_pack
+    additional_stores: ''
+    datafiles: Gobliins_2
+    wikipedia_page: 'Gobliiins#Gobliins_2:_The_Prince_Buffoon'
+    series_id: gob
+-
     id: 'gob:gob3'
+    name: 'Goblins Quest 3'
+    engine_id: gob
+    company_id: coktel
+    moby_id: '2870'
+    steam_id: ''
+    gog_id: gobliiins_pack
+    additional_stores: ''
+    datafiles: Goblins_3
+    wikipedia_page: 'Gobliiins#Goblins_Quest_3'
+    series_id: gob
+-
+    id: 'gob:gob3cd'
     name: 'Goblins Quest 3'
     engine_id: gob
     company_id: coktel
