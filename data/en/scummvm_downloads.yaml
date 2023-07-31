@@ -476,7 +476,7 @@
     category_icon: android
     user_agent: ''
     version: 2.7.1
-    url: scummvm-2.7.0.5-android-arm-v7a.apk
+    url: 'scummvm-{$version}-android-arm-v7a.apk'
     name: 'Android ARMv7a package'
     notes: ''
 -
@@ -486,7 +486,7 @@
     category_icon: android
     user_agent: ''
     version: 2.7.1
-    url: scummvm-2.7.0.5-android-arm64-v8a.apk
+    url: 'scummvm-{$version}-android-arm64-v8a.apk'
     name: 'Android ARM64v8a package'
     notes: ''
 -
@@ -496,7 +496,7 @@
     category_icon: android
     user_agent: ''
     version: 2.7.1
-    url: scummvm-2.7.0.5-android-x86.apk
+    url: 'scummvm-{$version}-android-x86.apk'
     name: 'Android x86 32bit package'
     notes: ''
 -
