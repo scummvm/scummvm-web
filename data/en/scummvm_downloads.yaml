@@ -506,7 +506,7 @@
     category_icon: android
     user_agent: ''
     version: 2.7.1
-    url: scummvm-2.7.0.5-android-x86_64.apk
+    url: 'scummvm-{$version}-android-x86_64.apk'
     name: 'Android x86 64bit package'
     notes: ''
 -
@@ -1425,7 +1425,7 @@
     subcategory: release
     category_icon: cpp
     user_agent: ''
-    version: 2.7.1
+    version: 2.7.0
     url: 'scummvm-tools-{$version}.tar.lz'
     name: 'Tools - Source.tar.lz'
     notes: ''
@@ -1435,7 +1435,7 @@
     subcategory: release
     category_icon: cpp
     user_agent: ''
-    version: 2.7.1
+    version: 2.7.0
     url: 'scummvm-tools-{$version}.tar.xz'
     name: 'Tools - Source.tar.xz'
     notes: ''
@@ -1445,7 +1445,7 @@
     subcategory: release
     category_icon: cpp
     user_agent: ''
-    version: 2.7.1
+    version: 2.7.0
     url: 'scummvm-tools-{$version}.tar.bz2'
     name: 'Tools - Source.tar.bz2'
     notes: ''
@@ -1455,7 +1455,7 @@
     subcategory: release
     category_icon: cpp
     user_agent: ''
-    version: 2.7.1
+    version: 2.7.0
     url: 'scummvm-tools-{$version}.tar.gz'
     name: 'Tools - Source.tar.gz'
     notes: ''
@@ -1465,7 +1465,7 @@
     subcategory: release
     category_icon: cpp
     user_agent: ''
-    version: 2.7.1
+    version: 2.7.0
     url: 'scummvm-tools-{$version}.zip'
     name: 'Tools - Source.zip'
     notes: ''
