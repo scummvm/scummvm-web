@@ -442,20 +442,20 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: psp
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-psp.zip'
     name: 'PSP (PlayStation Portable) package'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: psp2
     user_agent: 'PlayStation Portable'
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-vita.vpk'
     name: 'PlayStation Vita package'
     notes: ''
@@ -732,10 +732,10 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: switch
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-switch.zip'
     name: 'Nintendo Switch package'
     notes: ''
