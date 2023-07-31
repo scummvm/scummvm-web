@@ -5,7 +5,7 @@
     subcategory: release
     category_icon: windows
     user_agent: Windows
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-win32.exe'
     name: 'Windows Installer (32 and 64 bit)'
     notes: ''
@@ -15,7 +15,7 @@
     subcategory: release
     category_icon: windows
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-win32-x86_64.zip'
     name: 'Windows zipfile (64 bit)'
     notes: ''
@@ -25,7 +25,7 @@
     subcategory: release
     category_icon: windows
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-win32.zip'
     name: 'Windows zipfile (32 bit)'
     notes: ''
@@ -35,7 +35,7 @@
     subcategory: release
     category_icon: winxp
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-winxp-win32.exe'
     name: 'Windows XP Installer'
     notes: ''
@@ -45,7 +45,7 @@
     subcategory: release
     category_icon: winxp
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-winxp-win32.zip'
     name: 'Windows XP zipfile (32 bit)'
     notes: ''
@@ -55,7 +55,7 @@
     subcategory: release
     category_icon: winxp
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-winxp-win32-x86_64.zip'
     name: 'Windows XP zipfile (64 bit)'
     notes: ''
@@ -65,7 +65,7 @@
     subcategory: release
     category_icon: win95
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-win9x-win32.zip'
     name: 'Windows 95+ zipfile'
     notes: ''
@@ -75,7 +75,7 @@
     subcategory: release
     category_icon: snap
     user_agent: Ubuntu
-    version: 2.7.0
+    version: 2.7.1
     url: 'https://snapcraft.io/scummvm'
     name: 'Snap package hosted at the snapcraft.io store'
     notes: ''
@@ -85,7 +85,7 @@
     subcategory: release
     category_icon: flatpak
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'https://flathub.org/apps/details/org.scummvm.ScummVM'
     name: 'Flatpak package hosted at the flathub.org repository'
     notes: ''
@@ -95,7 +95,27 @@
     subcategory: release
     category_icon: debian
     user_agent: Debian
-    version: 2.7.0
+    version: 2.7.1
+    url: 'scummvm_{$version}-1_debian12_amd64.deb'
+    name: 'Debian 12 (bookworm) x86 64bit package'
+    notes: ''
+-
+    enabled: true
+    category: scummvm
+    subcategory: release
+    category_icon: debian
+    user_agent: ''
+    version: 2.7.1
+    url: 'scummvm_{$version}-1_debian12_i386.deb'
+    name: 'Debian 12 (bookworm) i386 package'
+    notes: ''
+-
+    enabled: true
+    category: scummvm
+    subcategory: release
+    category_icon: debian
+    user_agent: ''
+    version: 2.7.1
     url: 'scummvm_{$version}-1_debian11_amd64.deb'
     name: 'Debian 11 (bullseye) x86 64bit package'
     notes: ''
@@ -105,7 +125,7 @@
     subcategory: release
     category_icon: debian
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm_{$version}-1_debian11_i386.deb'
     name: 'Debian 11 (bullseye) i386 package'
     notes: ''
@@ -115,7 +135,7 @@
     subcategory: release
     category_icon: debian
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm_{$version}-1_debian10_amd64.deb'
     name: 'Debian 10 (buster) x86 64bit package'
     notes: ''
@@ -125,14 +145,14 @@
     subcategory: release
     category_icon: debian
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm_{$version}-1_debian10_i386.deb'
     name: 'Debian 10 (buster) i386 package'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: debian
     user_agent: ''
     version: 2.7.0
@@ -142,7 +162,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: debian
     user_agent: ''
     version: 2.7.0
@@ -165,6 +185,16 @@
     subcategory: release
     category_icon: ubuntu
     user_agent: ''
+    version: 2.7.1
+    url: 'scummvm_{$version}-1_ubuntu23.04_amd64.deb'
+    name: 'Ubuntu 23.04 (lunar) x86 64bit package'
+    notes: ''
+-
+    enabled: true
+    category: scummvm
+    subcategory: old
+    category_icon: ubuntu
+    user_agent: ''
     version: 2.7.0
     url: 'scummvm_{$version}-1_ubuntu22.10_amd64.deb'
     name: 'Ubuntu 22.10 (kinetic) x86 64bit package'
@@ -172,7 +202,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: ubuntu
     user_agent: ''
     version: 2.7.0
@@ -205,7 +235,7 @@
     subcategory: release
     category_icon: ubuntu
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm_{$version}-1_ubuntu20.04_amd64.deb'
     name: 'Ubuntu 20.04 LTS (focal) x86 64bit package'
     notes: ''
@@ -215,7 +245,7 @@
     subcategory: release
     category_icon: ubuntu
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm_{$version}-1_ubuntu18.04_amd64.deb'
     name: 'Ubuntu 18.04 LTS (bionic) x86 64bit package'
     notes: ''
@@ -345,7 +375,7 @@
     subcategory: release
     category_icon: macos
     user_agent: Mac
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-macosx.dmg'
     name: 'macOS 10.9+ for Intel and Apple Silicon, with Sparkle Disk Image'
     notes: ''
@@ -355,7 +385,7 @@
     subcategory: release
     category_icon: macostiger
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-macosx-i386.dmg'
     name: 'Mac OS X 10.6+ Intel 32 bits (without Sparkle) Disk Image'
     notes: ''
@@ -365,7 +395,7 @@
     subcategory: release
     category_icon: macosppc
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-macosx-ppc.dmg'
     name: 'Mac OS X 10.4+ PPC 32 bits (without Sparkle) Disk Image'
     notes: ''
@@ -395,7 +425,7 @@
     subcategory: release
     category_icon: ps3
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-ps3.zip'
     name: 'PlayStation 3 package'
     notes: ''
@@ -412,7 +442,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: psp
     user_agent: ''
     version: 2.7.0
@@ -422,7 +452,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: psp2
     user_agent: 'PlayStation Portable'
     version: 2.7.0
@@ -432,7 +462,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: android
     user_agent: Android
     version: 2.7.0
@@ -445,7 +475,7 @@
     subcategory: release
     category_icon: android
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: scummvm-2.7.0.5-android-arm-v7a.apk
     name: 'Android ARMv7a package'
     notes: ''
@@ -455,7 +485,7 @@
     subcategory: release
     category_icon: android
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: scummvm-2.7.0.5-android-arm64-v8a.apk
     name: 'Android ARM64v8a package'
     notes: ''
@@ -465,7 +495,7 @@
     subcategory: release
     category_icon: android
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: scummvm-2.7.0.5-android-x86.apk
     name: 'Android x86 32bit package'
     notes: ''
@@ -475,7 +505,7 @@
     subcategory: release
     category_icon: android
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: scummvm-2.7.0.5-android-x86_64.apk
     name: 'Android x86 64bit package'
     notes: ''
@@ -585,14 +615,14 @@
     subcategory: release
     category_icon: iphone
     user_agent: iOS
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-ios.ipa'
     name: 'iOS 9+ package .ipa (signed)'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: iphone
     user_agent: iOS
     version: 2.7.0
@@ -602,7 +632,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: iphone
     user_agent: iOS
     version: 2.7.0
@@ -625,7 +655,7 @@
     subcategory: release
     category_icon: dc
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-dreamcast-plainfiles.tar.bz2'
     name: 'Dreamcast plain files'
     notes: ''
@@ -635,14 +665,14 @@
     subcategory: release
     category_icon: dc
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-dreamcast-nero+demos.zip'
     name: 'Dreamcast Nero Image & Demos'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: ds
     user_agent: ''
     version: 2.7.0
@@ -652,7 +682,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: 3ds
     user_agent: ''
     version: 2.7.0
@@ -662,7 +692,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: 3ds
     user_agent: ''
     version: 2.7.0
@@ -692,7 +722,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: wii
     user_agent: ''
     version: 2.7.0
@@ -702,7 +732,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: switch
     user_agent: ''
     version: 2.7.0
@@ -775,7 +805,7 @@
     subcategory: release
     category_icon: dingux
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-gcw0.opk'
     name: 'OpenDingux package for GCW0'
     notes: ''
@@ -785,7 +815,7 @@
     subcategory: release
     category_icon: dingux
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-lepus.opk'
     name: 'OpenDingux package for Lepus'
     notes: ''
@@ -805,14 +835,14 @@
     subcategory: release
     category_icon: dingux
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-rs90.opk'
     name: 'OpenDingux package for RS90/RG99'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: miyoo
     user_agent: ''
     version: 2.7.0
@@ -822,7 +852,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: miyoo
     user_agent: ''
     version: 2.7.0
@@ -832,7 +862,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: kolibrios
     user_agent: ''
     version: 2.7.0
@@ -1015,7 +1045,7 @@
     subcategory: release
     category_icon: haiku
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm_x86-{$version}-1-x86_gcc2.hpkg'
     name: 'Haiku package 32bits'
     notes: ''
@@ -1025,7 +1055,7 @@
     subcategory: release
     category_icon: haiku
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-1-x86_64.hpkg'
     name: 'Haiku package 64bits'
     notes: ''
@@ -1035,14 +1065,14 @@
     subcategory: release
     category_icon: amiga
     user_agent: Amiga
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-amigaos4.lha'
     name: 'AmigaOS 4 package'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: morphos
     user_agent: ''
     version: 2.7.0
@@ -1055,7 +1085,7 @@
     subcategory: release
     category_icon: riscos
     user_agent: 'RISC OS'
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-riscos.zip'
     name: 'RISC OS package'
     notes: ''
@@ -1065,7 +1095,7 @@
     subcategory: release
     category_icon: riscos
     user_agent: 'RISC OS'
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-riscos-vfp.zip'
     name: 'RISC OS VFP package'
     notes: ''
@@ -1075,7 +1105,7 @@
     subcategory: release
     category_icon: freemint
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-atari-m68000.zip'
     name: 'Atari/FreeMiNT package (m68000 and up)'
     notes: ''
@@ -1085,7 +1115,7 @@
     subcategory: release
     category_icon: freemint
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-atari-m68020-60.zip'
     name: 'Atari/FreeMiNT package (m68020 - m68060)'
     notes: ''
@@ -1095,7 +1125,7 @@
     subcategory: release
     category_icon: freemint
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-atari-m5475.zip'
     name: 'Atari/FreeMiNT package (Coldfire MCF5475 / Firebee)'
     notes: ''
@@ -1112,7 +1142,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: raspberry
     user_agent: ''
     version: 2.7.0
@@ -1122,7 +1152,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: raspberry
     user_agent: ''
     version: 2.7.0
@@ -1275,7 +1305,7 @@
     subcategory: release
     category_icon: riscos
     user_agent: ''
-    version: 2.6.0
+    version: 2.7.0
     url: 'scummvm-tools-{$version}-riscos.zip'
     name: 'Tools - RISC OS package'
     notes: ''
@@ -1395,7 +1425,7 @@
     subcategory: release
     category_icon: cpp
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-tools-{$version}.tar.lz'
     name: 'Tools - Source.tar.lz'
     notes: ''
@@ -1405,7 +1435,7 @@
     subcategory: release
     category_icon: cpp
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-tools-{$version}.tar.xz'
     name: 'Tools - Source.tar.xz'
     notes: ''
@@ -1415,7 +1445,7 @@
     subcategory: release
     category_icon: cpp
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-tools-{$version}.tar.bz2'
     name: 'Tools - Source.tar.bz2'
     notes: ''
@@ -1425,7 +1455,7 @@
     subcategory: release
     category_icon: cpp
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-tools-{$version}.tar.gz'
     name: 'Tools - Source.tar.gz'
     notes: ''
@@ -1435,7 +1465,7 @@
     subcategory: release
     category_icon: cpp
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-tools-{$version}.zip'
     name: 'Tools - Source.zip'
     notes: ''
