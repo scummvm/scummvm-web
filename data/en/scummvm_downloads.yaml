@@ -32,30 +32,30 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: winxp
     user_agent: ''
-    version: 2.7.1
+    version: 2.7.0
     url: 'scummvm-{$version}-winxp-win32.exe'
     name: 'Windows XP Installer'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: winxp
     user_agent: ''
-    version: 2.7.1
+    version: 2.7.0
     url: 'scummvm-{$version}-winxp-win32.zip'
     name: 'Windows XP zipfile (32 bit)'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: winxp
     user_agent: ''
-    version: 2.7.1
+    version: 2.7.0
     url: 'scummvm-{$version}-winxp-win32-x86_64.zip'
     name: 'Windows XP zipfile (64 bit)'
     notes: ''
