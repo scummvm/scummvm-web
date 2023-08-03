@@ -1034,7 +1034,7 @@
     category: scummvm
     subcategory: old
     category_icon: beos
-    user_agent: BeOS
+    user_agent: B
     version: 1.0.0
     url: 'scummvm-{$version}-beos.tgz'
     name: 'BeOS package'
