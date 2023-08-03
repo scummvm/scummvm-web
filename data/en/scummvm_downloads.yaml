@@ -722,10 +722,10 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: wii
     user_agent: ''
-    version: 2.7.0
+    version: 2.7.1
     url: 'scummvm-{$version}-wii.zip'
     name: 'Wii package'
     notes: ''
