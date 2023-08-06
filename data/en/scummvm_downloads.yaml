@@ -712,10 +712,10 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: gc
     user_agent: ''
-    version: 1.5.0
+    version: 2.7.1
     url: 'scummvm-{$version}-gamecube.zip'
     name: 'Nintendo GameCube package'
     notes: ''
