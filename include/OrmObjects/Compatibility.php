@@ -90,7 +90,7 @@ class Compatibility extends BaseCompatibility
         $availableSites = [];
         $gogId = $this->getGame()->getGogId();
         if ($gogId) {
-            $availableSites[] = "- [GOG.com](" . GOG_URL_PREFIX . $gogId . GOG_URL_SUFFIX . ") (affiliate link)";
+            $availableSites[] = "- [GOG.com](" . GOG_URL_PREFIX . $gogId . ")";
         }
         $steamId = $this->getGame()->getSteamId();
         if ($steamId) {
