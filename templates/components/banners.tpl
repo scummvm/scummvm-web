@@ -5,9 +5,6 @@
         <input type="image" src="/images/ppdonate.png" style="width: 88px; height: 35px; border: 0 none;" name="submit" alt="{#indexSupport#}">
     </form>
 
-    <a href="https://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
-        <img src="/images/GOG_button_small.png" width="88" height="32" alt="{#indexGOG#}">
-    </a>
     <a href="https://github.com/scummvm">
         <img src="/images/github-logo.png" alt="{#indexGithub#}" width="88" height="32">
     </a>
