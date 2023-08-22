@@ -4885,3 +4885,10 @@
     since_version: DEV
     stable_platforms: 'dos,amiga,win'
     unstable_platforms: ''
+-
+    id: 'scumm:puttcircus'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
