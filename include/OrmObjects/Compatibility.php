@@ -96,6 +96,10 @@ class Compatibility extends BaseCompatibility
         if ($steamId) {
             $availableSites[] = "- [Steam](" . STEAM_URL_PREFIX . $steamId. ")";
         }
+        $zoomId = $this->getGame()->getZoomId();
+        if ($zoomId) {
+            $availableSites[] = "- [ZOOM Platform](" . ZOOM_URL_PREFIX . $zoomId . GOG_URL_SUFFIX . ") (affiliate link)";
+        }
         // Additional stores could include the ScummVM Freeware Games page
         $additionalStores = $this->getGame()->getAdditionalStores();
         if ($additionalStores) {
