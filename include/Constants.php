@@ -37,6 +37,9 @@ class Constants
         // ScummVM affiliate id
         define('GOG_URL_SUFFIX', '?pp=22d200f8670dbdb3e253a90eee5098477c95c23d');
         define('STEAM_URL_PREFIX', 'https://store.steampowered.com/app/');
+        define('ZOOM_URL_PREFIX', 'https://www.zoom-platform.com/product/');
+        // ScummVM affiliate id
+        define('ZOOM_URL_SUFFIX', '?affiliate=c049516c-9c4c-42d6-8649-92ed870e8b53');
 
         /* Paths */
         define('DIR_BASE', __DIR__  . '/..');
