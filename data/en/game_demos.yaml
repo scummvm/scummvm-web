@@ -795,7 +795,7 @@
     id: 'freescape:driller'
     platform: amiga
     '': ''
-    category: ''
+    category: Non-Interactive
     language: en
     language2: ''
     language3: ''
@@ -804,7 +804,7 @@
     id: 'freescape:driller'
     platform: atarist
     '': ''
-    category: ''
+    category: Non-Interactive
     language: en
     language2: ''
     language3: ''
@@ -813,11 +813,29 @@
     id: 'freescape:driller'
     platform: dos
     '': ''
-    category: ''
+    category: Non-Interactive
     language: en
     language2: ''
     language3: ''
     url: /frs/demos/freescape/driller-dos-demo.zip
+-
+    id: 'freescape:darkside'
+    platform: zx
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/freescape/darkside-zx-demo.zip
+-
+    id: 'freescape:darkside'
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/freescape/darkside-dos-demo.zip
 -
     id: 'gob:adi2'
     platform: win

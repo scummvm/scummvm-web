@@ -4650,7 +4650,7 @@
 -
     id: 'freescape:driller'
     support: good
-    notes: '- Minor missing features (UI details, special effects)  - CGA/EGA version is supported from DOS release'
+    notes: '- Minor missing features (UI details)  - CGA/EGA version is supported from DOS release'
     since_version: 2.7.0
     stable_platforms: 'dos,amiga,atarist,zx,cpc'
     unstable_platforms: ''
@@ -4891,4 +4891,11 @@
     notes: ''
     since_version: DEV
     stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: 'freescape:darkside'
+    support: good
+    notes: '- Minor missing features (UI details)  - CGA/EGA version is supported from DOS release'
+    since_version: DEV
+    stable_platforms: 'dos,zx,cpc'
     unstable_platforms: ''

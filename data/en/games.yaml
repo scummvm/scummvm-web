@@ -3419,6 +3419,19 @@
     wikipedia_page: Driller_(video_game)
     series_id: ''
 -
+    id: 'freescape:darkside'
+    name: 'Dark Side'
+    engine_id: freescape
+    company_id: incentive
+    moby_id: '-1'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'glk:adrift'
     name: 'ADRIFT Interactive Fiction games'
     engine_id: glk
