@@ -482,12 +482,6 @@
 -
     id: 'freescape:darkside'
     variant: ''
-    platform_id: dos
-    language: en
-    variant_id: '2'
--
-    id: 'freescape:darkside'
-    variant: ''
     platform_id: cpc
     language: en
     variant_id: '1'
