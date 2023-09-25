@@ -474,6 +474,30 @@
     language: it
     variant_id: '1'
 -
+    id: 'freescape:darkside'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'freescape:darkside'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '2'
+-
+    id: 'freescape:darkside'
+    variant: ''
+    platform_id: cpc
+    language: en
+    variant_id: '1'
+-
+    id: 'freescape:darkside'
+    variant: ''
+    platform_id: zx
+    language: en
+    variant_id: '1'
+-
     id: 'freescape:driller'
     variant: ''
     platform_id: dos
