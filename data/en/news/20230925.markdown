@@ -1,0 +1,15 @@
+---
+title: Come to the Dark Side, we have jetpacks!
+author: gu3
+date: 1695643786
+---
+
+_Dark Side_, the exciting sequel of the groundbreaking [_Driller_](https://wiki.scummvm.org/index.php?title=Driller), is ready for public testing!
+
+[_Dark Side_](https://wiki.scummvm.org/index.php?title=Dark_Side), like its predecessor, was released by Incentive Software Limited in 1988, shortly after _Driller_. The updated gameplay features a jetpack that allows you to leave the ground, providing a new and fresh perspective that emphasizes the excitement and challenges of exploring Tricuspid, the second alien moon of planet Evath.
+
+This time, the vicious Ketars have scattered and hidden Energy Collection Devices (ECD) around their base to destroy your home planet. It’s up to you to destroy them first! The tricky part is many ECDs are connected to each other and can regenerate instantly, so you must figure out the right order to successfully complete your mission. 
+
+Our reimplementation of the Freescape engine features graphics using software (TinyGL) or hardware mode (OpenGL) at arbitrary resolution. The initial _Dark Side_ support includes DOS (EGA/CGA modes), ZX Spectrum and Amstrad CPC. Additionally, there are [two playable demos](https://downloads.scummvm.org/frs/demos/freescape/) if you want to test the game. Support for Amiga and AtariST will be available later! Please [contact us](https://www.scummvm.org/contact/) if you have some other release.
+
+To play any of these supported releases, you will need a [daily development build](https://www.scummvm.org/downloads/#daily). As always, please submit your bug reports to our [issue tracker](https://bugs.scummvm.org/).
