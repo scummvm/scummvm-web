@@ -3393,6 +3393,19 @@
     wikipedia_page: DreamWeb
     series_id: ''
 -
+    id: 'efh:efh'
+    name: 'Escape From Hell'
+    engine_id: efh
+    company_id: ea
+    moby_id: '1321'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: 'Escape_from_Hell '
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'freescape:3dkit-fanmade'
     name: '3D Construction Kit'
     engine_id: freescape
@@ -4660,10 +4673,10 @@
     company_id: virtual
     moby_id: '4788'
     steam_id: ''
-    gog_id: ''
+    gog_id: kingdom_the_far_reaches
     zoom_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: 'Kingdom:_The_Far_Reaches'
     wikipedia_page: Thayer%27s_Quest
     series_id: ''
 -

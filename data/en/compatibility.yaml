@@ -4899,3 +4899,17 @@
     since_version: DEV
     stable_platforms: 'dos,zx,cpc'
     unstable_platforms: ''
+-
+    id: 'efh:efh'
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: 'kingdom:kingdom'
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''

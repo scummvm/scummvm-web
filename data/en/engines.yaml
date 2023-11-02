@@ -125,6 +125,11 @@
     alt_name: ''
     enabled: true
 -
+    id: efh
+    name: 'Escape From Hell'
+    alt_name: ''
+    enabled: true
+-
     id: freescape
     name: Freescape
     alt_name: ''
@@ -208,7 +213,7 @@
     id: kingdom
     name: 'Kingdom: The Far Reaches'
     alt_name: ''
-    enabled: false
+    enabled: true
 -
     id: kyra
     name: Kyra
