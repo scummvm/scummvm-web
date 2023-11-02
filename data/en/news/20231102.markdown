@@ -1,0 +1,16 @@
+---
+title: Hail to the kingdom!
+author: Strangerke
+date: 1698958999
+---
+
+We are very pleased to announce today the start of the testing period of two single-game engines: _Kingdom: The Far Reaches_ and _Escape From Hell_!
+
+[_Kingdom_](https://wiki.scummvm.org/index.php?title=Kingdom:_The_Far_Reaches), was developed and released by Interplay in 1995. Only the DOS version of the game (available on [gog.com](https://www.gog.com/en/game/kingdom_the_far_reaches?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)) is supported. It's a cartoon FMV game, with an inventory, in which you have to guide Lathan Kandor through a medieval world, discovering the magic spells and the items required to defeat an evil wizard. 
+
+[_Escape From Hell_](https://wiki.scummvm.org/index.php?title=Escape_from_Hell), was developed for Electronic Arts by the game veterans Richard Seaborne and Alan Murphy and was released in 1990. You play Alan in this keyboard-only Role Playing Game and visit Hell, looking for your girlfriend who was accidentally teleported there.
+
+Both games use heavily hardcoded logic which is error prone and requires a lot of testing, so we need your feedback more than ever as they are both incompletely tested. There is sadly only one known demo for [Kingdom](https://downloads.scummvm.org/frs/demos/kingdom/). Support for the Windows and Mac versions of _Kingdom_ may come later! Please [contact us](https://www.scummvm.org/contact/) if you have some other demos of both games.
+
+To play any of these games, you will need a [daily development build](https://www.scummvm.org/downloads/#daily). As always, please submit your bug reports to our [issue tracker](https://bugs.scummvm.org/) and please take some [screenshots](https://wiki.scummvm.org/index.php/Screenshots) along the way!
+
