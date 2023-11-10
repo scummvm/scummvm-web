@@ -859,7 +859,7 @@
     engine_id: ags
     company_id: stranga
     year: '2022'
-    moby_id: ''
+    moby_id: '194664'
     steam_id: '1259140'
     gog_id: ''
     zoom_id: ''
@@ -1895,7 +1895,7 @@
     engine_id: ags
     company_id: midian
     year: '2016'
-    moby_id: ''
+    moby_id: '205218'
     steam_id: ''
     gog_id: ''
     zoom_id: ''
@@ -3057,7 +3057,7 @@
     engine_id: director
     company_id: unknown
     year: '1997'
-    moby_id: '-1'
+    moby_id: '140972'
     steam_id: ''
     gog_id: ''
     zoom_id: ''
@@ -3197,7 +3197,7 @@
     engine_id: director
     company_id: trendmasters
     year: '1996'
-    moby_id: '-1'
+    moby_id: '203445'
     steam_id: ''
     gog_id: ''
     zoom_id: ''
@@ -3211,7 +3211,7 @@
     engine_id: director
     company_id: trendmasters
     year: '1996'
-    moby_id: '-1'
+    moby_id: '32398'
     steam_id: ''
     gog_id: ''
     zoom_id: ''
@@ -3225,7 +3225,7 @@
     engine_id: director
     company_id: trendmasters
     year: '1996'
-    moby_id: '-1'
+    moby_id: '203470'
     steam_id: ''
     gog_id: ''
     zoom_id: ''
@@ -3253,7 +3253,7 @@
     engine_id: director
     company_id: trendmasters
     year: '1996'
-    moby_id: '-1'
+    moby_id: '203458'
     steam_id: ''
     gog_id: ''
     zoom_id: ''
@@ -3267,7 +3267,7 @@
     engine_id: director
     company_id: trendmasters
     year: '1996'
-    moby_id: '-1'
+    moby_id: '203460'
     steam_id: ''
     gog_id: ''
     zoom_id: ''
@@ -3281,7 +3281,7 @@
     engine_id: director
     company_id: trendmasters
     year: '1996'
-    moby_id: '-1'
+    moby_id: '203461'
     steam_id: ''
     gog_id: ''
     zoom_id: ''
@@ -3295,7 +3295,7 @@
     engine_id: director
     company_id: trendmasters
     year: '1996'
-    moby_id: '32398'
+    moby_id: '203468'
     steam_id: ''
     gog_id: ''
     zoom_id: ''
@@ -3309,7 +3309,7 @@
     engine_id: director
     company_id: trendmasters
     year: '1996'
-    moby_id: '-1'
+    moby_id: '203469'
     steam_id: ''
     gog_id: ''
     zoom_id: ''
@@ -3701,7 +3701,7 @@
     engine_id: freescape
     company_id: incentive
     year: '1988'
-    moby_id: '-1'
+    moby_id: '21802'
     steam_id: ''
     gog_id: ''
     zoom_id: ''
@@ -5493,7 +5493,7 @@
     engine_id: mohawk
     company_id: tlc
     year: '1999'
-    moby_id: '-1'
+    moby_id: '198104'
     steam_id: ''
     gog_id: ''
     zoom_id: ''
@@ -5507,7 +5507,7 @@
     engine_id: mohawk
     company_id: tlc
     year: '1999'
-    moby_id: '-1'
+    moby_id: '198104'
     steam_id: ''
     gog_id: ''
     zoom_id: ''
@@ -5689,7 +5689,7 @@
     engine_id: mohawk
     company_id: livingbooks
     year: '1997'
-    moby_id: '-1'
+    moby_id: '201368'
     steam_id: ''
     gog_id: ''
     zoom_id: maggies-farmyard-adventure
@@ -10883,7 +10883,7 @@
     engine_id: wintermute
     company_id: petagame
     year: '2012'
-    moby_id: '-1'
+    moby_id: '205042'
     steam_id: ''
     gog_id: ''
     zoom_id: ''
