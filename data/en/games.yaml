@@ -4,6 +4,7 @@
     name: 'Amazon: Guardians of Eden'
     engine_id: access
     company_id: access
+    year: '1992'
     moby_id: '3287'
     steam_id: ''
     gog_id: amazon_guardians_of_eden
@@ -17,6 +18,7 @@
     name: 'Martian Memorandum'
     engine_id: access
     company_id: access
+    year: '1991'
     moby_id: '222'
     steam_id: ''
     gog_id: ''
@@ -30,6 +32,7 @@
     name: 'Hi-Res Adventure #0: Mission Asteroid'
     engine_id: adl
     company_id: sierra
+    year: '1980'
     moby_id: '15282'
     steam_id: ''
     gog_id: ''
@@ -43,6 +46,7 @@
     name: 'Hi-Res Adventure #1: Mystery House'
     engine_id: adl
     company_id: sierra
+    year: '1980'
     moby_id: '9312'
     steam_id: ''
     gog_id: ''
@@ -56,6 +60,7 @@
     name: 'Hi-Res Adventure #2: The Wizard and the Princess'
     engine_id: adl
     company_id: sierra
+    year: '1980'
     moby_id: '1761'
     steam_id: ''
     gog_id: ''
@@ -69,6 +74,7 @@
     name: 'Hi-Res Adventure #3: Cranston Manor'
     engine_id: adl
     company_id: sierra
+    year: '1981'
     moby_id: '15281'
     steam_id: ''
     gog_id: ''
@@ -82,6 +88,7 @@
     name: 'Hi-Res Adventure #4: Ulysses and the Golden Fleece'
     engine_id: adl
     company_id: sierra
+    year: '1981'
     moby_id: '10343'
     steam_id: ''
     gog_id: ''
@@ -95,6 +102,7 @@
     name: 'Hi-Res Adventure #5: Time Zone'
     engine_id: adl
     company_id: sierra
+    year: '1982'
     moby_id: '15283'
     steam_id: ''
     gog_id: ''
@@ -108,6 +116,7 @@
     name: 'Hi-Res Adventure #6: The Dark Crystal'
     engine_id: adl
     company_id: sierra
+    year: '1983'
     moby_id: '16877'
     steam_id: ''
     gog_id: ''
@@ -121,6 +130,7 @@
     name: 'Sierra AGI game'
     engine_id: agi
     company_id: sierra
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -134,6 +144,7 @@
     name: 'AGI Demo'
     engine_id: agi
     company_id: sierra
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -147,6 +158,7 @@
     name: 'The Black Cauldron'
     engine_id: agi
     company_id: sierra
+    year: '1986'
     moby_id: '194'
     steam_id: ''
     gog_id: ''
@@ -160,6 +172,7 @@
     name: "Caitlyn's Destiny"
     engine_id: agi
     company_id: fan
+    year: '2004'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -173,6 +186,7 @@
     name: "Donald Duck's Playground"
     engine_id: agi
     company_id: sierra
+    year: '1984'
     moby_id: '3491'
     steam_id: ''
     gog_id: ''
@@ -186,6 +200,7 @@
     name: 'Enclosure 1'
     engine_id: agi
     company_id: fan
+    year: '2004'
     moby_id: '22264'
     steam_id: ''
     gog_id: ''
@@ -199,6 +214,7 @@
     name: 'Gold Rush!'
     engine_id: agi
     company_id: sierra
+    year: '1988'
     moby_id: '440'
     steam_id: '308000'
     gog_id: ''
@@ -212,6 +228,7 @@
     name: "King's Quest I: Quest for the Crown"
     engine_id: agi
     company_id: sierra
+    year: '1984'
     moby_id: '122'
     steam_id: '10100'
     gog_id: kings_quest_1_2_3
@@ -225,6 +242,7 @@
     name: "King's Quest II: Romancing the Throne"
     engine_id: agi
     company_id: sierra
+    year: '1985'
     moby_id: '123'
     steam_id: '10100'
     gog_id: kings_quest_1_2_3
@@ -238,6 +256,7 @@
     name: "King's Quest III: To Heir Is Human"
     engine_id: agi
     company_id: sierra
+    year: '1986'
     moby_id: '126'
     steam_id: '10100'
     gog_id: kings_quest_1_2_3
@@ -251,6 +270,7 @@
     name: "King's Quest IV: The Perils of Rosella"
     engine_id: agi
     company_id: sierra
+    year: '1988'
     moby_id: '129'
     steam_id: ''
     gog_id: ''
@@ -264,6 +284,7 @@
     name: 'Leisure Suit Larry in the Land of the Lounge Lizards'
     engine_id: agi
     company_id: sierra
+    year: '1987'
     moby_id: '379'
     steam_id: '763970'
     gog_id: leisure_suit_larry
@@ -277,6 +298,7 @@
     name: 'Manhunter: New York'
     engine_id: agi
     company_id: sierra
+    year: '1988'
     moby_id: '24'
     steam_id: ''
     gog_id: ''
@@ -290,6 +312,7 @@
     name: 'Manhunter 2: San Francisco'
     engine_id: agi
     company_id: sierra
+    year: '1989'
     moby_id: '25'
     steam_id: ''
     gog_id: ''
@@ -303,6 +326,7 @@
     name: "Mickey's Space Adventure"
     engine_id: agi
     company_id: sierra
+    year: '1984'
     moby_id: '7273'
     steam_id: ''
     gog_id: ''
@@ -316,6 +340,7 @@
     name: 'Mixed-Up Mother Goose'
     engine_id: agi
     company_id: sierra
+    year: '1987'
     moby_id: '758'
     steam_id: ''
     gog_id: ''
@@ -329,6 +354,7 @@
     name: 'Police Quest: In Pursuit of the Death Angel'
     engine_id: agi
     company_id: sierra
+    year: '1987'
     moby_id: '146'
     steam_id: ''
     gog_id: police_quest_1_2_3_4
@@ -342,6 +368,7 @@
     name: "Hero's Quest: So You Want to Be a Hero"
     engine_id: agi
     company_id: sierra
+    year: '1989'
     moby_id: '168'
     steam_id: '502750'
     gog_id: quest_for_glory
@@ -355,6 +382,7 @@
     name: "Serguei's Destiny"
     engine_id: agi
     company_id: fan
+    year: '2001'
     moby_id: '6007'
     steam_id: ''
     gog_id: ''
@@ -368,6 +396,7 @@
     name: "Serguei's Destiny 2"
     engine_id: agi
     company_id: fan
+    year: '2003'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -381,6 +410,7 @@
     name: 'Space Quest 0: Replicated'
     engine_id: agi
     company_id: fan
+    year: '2003'
     moby_id: '11653'
     steam_id: '11653'
     gog_id: ''
@@ -394,6 +424,7 @@
     name: 'Space Quest: Chapter I - The Sarien Encounter'
     engine_id: agi
     company_id: sierra
+    year: '1986'
     moby_id: '114'
     steam_id: '10110'
     gog_id: space_quest_1_2_3
@@ -407,6 +438,7 @@
     name: "Space Quest II: Chapter II - Vohaul's Revenge"
     engine_id: agi
     company_id: sierra
+    year: '1987'
     moby_id: '128'
     steam_id: '10110'
     gog_id: space_quest_1_2_3
@@ -420,6 +452,7 @@
     name: 'Space Quest: The Lost Chapter'
     engine_id: agi
     company_id: fan
+    year: '2001'
     moby_id: '54958'
     steam_id: ''
     gog_id: ''
@@ -433,6 +466,7 @@
     name: 'AGI Tetris'
     engine_id: agi
     company_id: fan
+    year: '2004'
     moby_id: '69895'
     steam_id: ''
     gog_id: ''
@@ -446,6 +480,7 @@
     name: "Troll's Tale"
     engine_id: agi
     company_id: sierra
+    year: '1983'
     moby_id: '7271'
     steam_id: ''
     gog_id: ''
@@ -459,6 +494,7 @@
     name: 'Voodoo Girl - Queen of the Darned'
     engine_id: agi
     company_id: fan
+    year: '2002'
     moby_id: '23813'
     steam_id: ''
     gog_id: ''
@@ -472,6 +508,7 @@
     name: 'Winnie the Pooh in the Hundred Acre Wood'
     engine_id: agi
     company_id: sierra
+    year: '1984'
     moby_id: '7274'
     steam_id: ''
     gog_id: ''
@@ -485,6 +522,7 @@
     name: 'Xmas Card'
     engine_id: agi
     company_id: sierra
+    year: '1986'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -498,6 +536,7 @@
     name: "Simon the Sorcerer's Puzzle Pack: Demon in my Pocket"
     engine_id: agos
     company_id: adventuresoft
+    year: '1998'
     moby_id: '4427'
     steam_id: ''
     gog_id: ''
@@ -511,6 +550,7 @@
     name: 'Elvira: Mistress of the Dark'
     engine_id: agos
     company_id: adventuresoft
+    year: '1990'
     moby_id: '4050'
     steam_id: ''
     gog_id: elvira_mistress_of_the_dark
@@ -524,6 +564,7 @@
     name: 'Elvira II: The Jaws of Cerberus'
     engine_id: agos
     company_id: adventuresoft
+    year: '1991'
     moby_id: '1779'
     steam_id: ''
     gog_id: elvira_ii_the_jaws_of_cerberus
@@ -537,6 +578,7 @@
     name: 'The Feeble Files'
     engine_id: agos
     company_id: adventuresoft
+    year: '1997'
     moby_id: '2198'
     steam_id: '1646930'
     gog_id: the_feeble_files
@@ -550,6 +592,7 @@
     name: "Simon the Sorcerer's Puzzle Pack: Jumble"
     engine_id: agos
     company_id: adventuresoft
+    year: '1998'
     moby_id: '4427'
     steam_id: ''
     gog_id: ''
@@ -563,6 +606,7 @@
     name: 'Personal Nightmare'
     engine_id: agos
     company_id: adventuresoft
+    year: '1989'
     moby_id: '7457'
     steam_id: ''
     gog_id: personal_nightmare
@@ -576,6 +620,7 @@
     name: "Simon the Sorcerer's Puzzle Pack: NoPatience"
     engine_id: agos
     company_id: adventuresoft
+    year: '1998'
     moby_id: '4427'
     steam_id: ''
     gog_id: ''
@@ -589,6 +634,7 @@
     name: 'Simon the Sorcerer'
     engine_id: agos
     company_id: adventuresoft
+    year: '1993'
     moby_id: '495'
     steam_id: '836840'
     gog_id: simon_the_sorcerer
@@ -602,6 +648,7 @@
     name: 'Simon the Sorcerer II: The Lion, the Wizard and the Wardrobe'
     engine_id: agos
     company_id: adventuresoft
+    year: '1995'
     moby_id: '1851'
     steam_id: '835750'
     gog_id: simon_the_sorcerer_2
@@ -615,6 +662,7 @@
     name: "Simon the Sorcerer's Puzzle Pack: Swampy Adventures"
     engine_id: agos
     company_id: adventuresoft
+    year: '1998'
     moby_id: '4427'
     steam_id: ''
     gog_id: ''
@@ -628,6 +676,7 @@
     name: Waxworks
     engine_id: agos
     company_id: adventuresoft
+    year: '1992'
     moby_id: '1269'
     steam_id: ''
     gog_id: waxworks
@@ -641,6 +690,7 @@
     name: '3 GEEKS'
     engine_id: ags
     company_id: adipson
+    year: '2019'
     moby_id: '122871'
     steam_id: '1023410'
     gog_id: ''
@@ -654,6 +704,7 @@
     name: '5 Days A Stranger'
     engine_id: ags
     company_id: fullyramblomatic
+    year: '2003'
     moby_id: '11795'
     steam_id: ''
     gog_id: ''
@@ -667,6 +718,7 @@
     name: '6 Days A Sacrifice'
     engine_id: ags
     company_id: fullyramblomatic
+    year: '2007'
     moby_id: '26422'
     steam_id: ''
     gog_id: ''
@@ -680,6 +732,7 @@
     name: '7 Days A Skeptic'
     engine_id: ags
     company_id: fullyramblomatic
+    year: '2004'
     moby_id: '14228'
     steam_id: ''
     gog_id: ''
@@ -693,6 +746,7 @@
     name: 'A Date in the Park'
     engine_id: ags
     company_id: cloakdagger
+    year: '2014'
     moby_id: '70196'
     steam_id: '468530'
     gog_id: ''
@@ -706,6 +760,7 @@
     name: 'Adventure Game Studio games'
     engine_id: ags
     company_id: unknown
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -719,6 +774,7 @@
     name: 'Adventures in the Galaxy of Fantabulous Wonderment'
     engine_id: ags
     company_id: fullyramblomatic
+    year: '2005'
     moby_id: '50075'
     steam_id: ''
     gog_id: ''
@@ -732,6 +788,7 @@
     name: "Al Emmo And The Lost Dutchman's Mine"
     engine_id: ags
     company_id: himalaya
+    year: '2006'
     moby_id: '25432'
     steam_id: '296850'
     gog_id: ''
@@ -745,6 +802,7 @@
     name: "Al Emmo's Postcards from Anozira"
     engine_id: ags
     company_id: himalaya
+    year: '2015'
     moby_id: '174122'
     steam_id: '375020'
     gog_id: ''
@@ -758,6 +816,7 @@
     name: 'The Apotheosis Project'
     engine_id: ags
     company_id: midian
+    year: '2015'
     moby_id: '94340'
     steam_id: '364350'
     gog_id: ''
@@ -771,6 +830,7 @@
     name: Apprentice
     engine_id: ags
     company_id: herculean
+    year: '2003'
     moby_id: '11912'
     steam_id: ''
     gog_id: ''
@@ -784,6 +844,7 @@
     name: "Apprentice II: The Knight's Move"
     engine_id: ags
     company_id: herculean
+    year: '2004'
     moby_id: '14435'
     steam_id: ''
     gog_id: ''
@@ -797,6 +858,7 @@
     name: 'Ashina: The Red Witch'
     engine_id: ags
     company_id: stranga
+    year: '2022'
     moby_id: ''
     steam_id: '1259140'
     gog_id: ''
@@ -810,6 +872,7 @@
     name: 'Ash Pines'
     engine_id: ags
     company_id: stranga
+    year: '2021'
     moby_id: ''
     steam_id: ''
     gog_id: ''
@@ -823,6 +886,7 @@
     name: 'A Tale Of Two Kingdoms'
     engine_id: ags
     company_id: crystalshard
+    year: '2007'
     moby_id: '29717'
     steam_id: '603870'
     gog_id: ''
@@ -836,6 +900,7 @@
     name: Beer!
     engine_id: ags
     company_id: crystalshard
+    year: '2018'
     moby_id: '140075'
     steam_id: '782280'
     gog_id: ''
@@ -849,6 +914,7 @@
     name: 'Ben There, Dan That!'
     engine_id: ags
     company_id: zombiecow
+    year: '2008'
     moby_id: '35174'
     steam_id: ''
     gog_id: ''
@@ -862,6 +928,7 @@
     name: 'Bestowers of Eternity - Part One'
     engine_id: ags
     company_id: wadjet
+    year: '2003'
     moby_id: '25678'
     steam_id: ''
     gog_id: ''
@@ -875,6 +942,7 @@
     name: 'Beyond the Edge of Owlsgard'
     engine_id: ags
     company_id: watchdatoast
+    year: '2022'
     moby_id: '197871'
     steam_id: '1709730'
     gog_id: beyond_the_edge_of_owlsgard
@@ -888,6 +956,7 @@
     name: 'Billy Masters Was Right'
     engine_id: ags
     company_id: postmodern
+    year: '2020'
     moby_id: ''
     steam_id: ''
     gog_id: ''
@@ -901,6 +970,7 @@
     name: 'The Blackwell Legacy'
     engine_id: ags
     company_id: wadjet
+    year: '2006'
     moby_id: '25676'
     steam_id: '80330'
     gog_id: blackwell_bundle
@@ -914,6 +984,7 @@
     name: 'Blackwell Unbound'
     engine_id: ags
     company_id: wadjet
+    year: '2007'
     moby_id: '30161'
     steam_id: '80340'
     gog_id: blackwell_bundle
@@ -927,6 +998,7 @@
     name: 'The Blackwell Convergence'
     engine_id: ags
     company_id: wadjet
+    year: '2009'
     moby_id: '41842'
     steam_id: '80350'
     gog_id: blackwell_bundle
@@ -940,6 +1012,7 @@
     name: 'The Blackwell Deception'
     engine_id: ags
     company_id: wadjet
+    year: '2011'
     moby_id: '53340'
     steam_id: '80360'
     gog_id: blackwell_bundle
@@ -953,6 +1026,7 @@
     name: 'The Blackwell Epiphany'
     engine_id: ags
     company_id: wadjet
+    year: '2014'
     moby_id: '69647'
     steam_id: '236930'
     gog_id: the_blackwell_epiphany
@@ -966,6 +1040,7 @@
     name: 'Cart Life'
     engine_id: ags
     company_id: hofmeier
+    year: '2010'
     moby_id: '139967'
     steam_id: ''
     gog_id: ''
@@ -979,6 +1054,7 @@
     name: 'Castle Dornstein'
     engine_id: ags
     company_id: digitalmosaic
+    year: '2022'
     moby_id: ''
     steam_id: '1595390'
     gog_id: ''
@@ -992,6 +1068,7 @@
     name: 'The Charnel House Trilogy'
     engine_id: ags
     company_id: owlcave
+    year: '2015'
     moby_id: '77266'
     steam_id: '288930'
     gog_id: ''
@@ -1005,6 +1082,7 @@
     name: 'Chronicle of Innsmouth'
     engine_id: ags
     company_id: psychodev
+    year: '2017'
     moby_id: '114804'
     steam_id: '420180'
     gog_id: ''
@@ -1018,6 +1096,7 @@
     name: 'Crystal Shard Adventure Bundle'
     engine_id: ags
     company_id: crystalshard
+    year: '2016'
     moby_id: ''
     steam_id: '551840'
     gog_id: ''
@@ -1031,6 +1110,7 @@
     name: 'Da New Guys'
     engine_id: ags
     company_id: icebox
+    year: '2005'
     moby_id: '66261'
     steam_id: ''
     gog_id: ''
@@ -1044,6 +1124,7 @@
     name: 'Da New Guys: Day of the Jackass'
     engine_id: ags
     company_id: wadjet
+    year: '2012'
     moby_id: '64888'
     steam_id: ''
     gog_id: ''
@@ -1057,6 +1138,7 @@
     name: 'Detective Gallo'
     engine_id: ags
     company_id: footprints
+    year: '2018'
     moby_id: '109639'
     steam_id: '556060'
     gog_id: detective_gallo
@@ -1070,6 +1152,7 @@
     name: 'Doc Apocalypse'
     engine_id: ags
     company_id: midian
+    year: '2012'
     moby_id: '61345'
     steam_id: '509920'
     gog_id: ''
@@ -1083,6 +1166,7 @@
     name: 'Donald Dowell and the Ghost of Barker Manor'
     engine_id: ags
     company_id: apemarina
+    year: '2013'
     moby_id: '81064'
     steam_id: ''
     gog_id: ''
@@ -1096,6 +1180,7 @@
     name: 'Downfall (2009)'
     engine_id: ags
     company_id: harvester
+    year: '2009'
     moby_id: '40762'
     steam_id: '364390'
     gog_id: downfall_redux
@@ -1109,6 +1194,7 @@
     name: 'Downfall (2016)'
     engine_id: ags
     company_id: harvester
+    year: '2016'
     moby_id: '106712'
     steam_id: '364390'
     gog_id: downfall_redux
@@ -1122,6 +1208,7 @@
     name: 'Dreams in the Witch House'
     engine_id: ags
     company_id: atombrain
+    year: '2023'
     moby_id: '200198'
     steam_id: '1902850'
     gog_id: dreams_in_the_witch_house
@@ -1135,6 +1222,7 @@
     name: Dustbowl
     engine_id: ags
     company_id: pompous
+    year: '2015'
     moby_id: '110379'
     steam_id: '367110'
     gog_id: ''
@@ -1148,6 +1236,7 @@
     name: "The Excavation at Hob's Barrow"
     engine_id: ags
     company_id: cloakdagger
+    year: '2022'
     moby_id: '192096'
     steam_id: '1182310'
     gog_id: the_excavation_of_hobs_barrow
@@ -1161,6 +1250,7 @@
     name: 'Falcon City'
     engine_id: ags
     company_id: likely
+    year: '2020'
     moby_id: '166093'
     steam_id: '1270590'
     gog_id: ''
@@ -1174,6 +1264,7 @@
     name: "Feria d'Arles"
     engine_id: ags
     company_id: tomsimpson
+    year: '2018'
     moby_id: '143746'
     steam_id: '1181570'
     gog_id: ''
@@ -1187,6 +1278,7 @@
     name: 'Football Game'
     engine_id: ags
     company_id: cloakdagger
+    year: '2018'
     moby_id: '136966'
     steam_id: '654550'
     gog_id: ''
@@ -1200,6 +1292,7 @@
     name: 'Gemini Rue'
     engine_id: ags
     company_id: wadjet
+    year: '2011'
     moby_id: '50626'
     steam_id: '80310'
     gog_id: gemini_rue
@@ -1213,6 +1306,7 @@
     name: 'A Golden Wake'
     engine_id: ags
     company_id: grundislav
+    year: '2014'
     moby_id: '71204'
     steam_id: '307570'
     gog_id: a_golden_wake
@@ -1226,6 +1320,7 @@
     name: "Gobliiins5 - L'Invasion des Morglotons Part1"
     engine_id: ags
     company_id: schnibble
+    year: '2023'
     moby_id: '202606'
     steam_id: ''
     gog_id: ''
@@ -1239,6 +1334,7 @@
     name: "Gobliiins5 - L'Invasion des Morglotons Part2"
     engine_id: ags
     company_id: schnibble
+    year: '2023'
     moby_id: '202606'
     steam_id: ''
     gog_id: ''
@@ -1252,6 +1348,7 @@
     name: "Gobliiins5 - L'Invasion des Morglotons Part3"
     engine_id: ags
     company_id: schnibble
+    year: '2023'
     moby_id: '202606'
     steam_id: ''
     gog_id: ''
@@ -1265,6 +1362,7 @@
     name: "Gobliiins5 - L'Invasion des Morglotons Part4"
     engine_id: ags
     company_id: schnibble
+    year: '2023'
     moby_id: '202606'
     steam_id: ''
     gog_id: ''
@@ -1278,6 +1376,7 @@
     name: 'GrandMa Badass'
     engine_id: ags
     company_id: adipson
+    year: '2022'
     moby_id: ''
     steam_id: '1606640'
     gog_id: ''
@@ -1291,6 +1390,7 @@
     name: 'Guard Duty'
     engine_id: ags
     company_id: headware
+    year: '2019'
     moby_id: '126273'
     steam_id: '872750'
     gog_id: guard_duty
@@ -1304,6 +1404,7 @@
     name: "Heroine's Quest: The Herald of Ragnarok"
     engine_id: ags
     company_id: crystalshard
+    year: '2013'
     moby_id: '62486'
     steam_id: '283880'
     gog_id: ''
@@ -1317,6 +1418,7 @@
     name: "If On A Winter's Night, Four Travelers"
     engine_id: ags
     company_id: deadidle
+    year: '2021'
     moby_id: '160552'
     steam_id: '1603980'
     gog_id: ''
@@ -1330,6 +1432,7 @@
     name: JORRY
     engine_id: ags
     company_id: korozif
+    year: '2020'
     moby_id: '143744'
     steam_id: '1206350'
     gog_id: ''
@@ -1343,6 +1446,7 @@
     name: 'Just Ignore Them'
     engine_id: ags
     company_id: stranga
+    year: '2017'
     moby_id: '136124'
     steam_id: '561770'
     gog_id: ''
@@ -1356,6 +1460,7 @@
     name: "Just Ignore Them: Brea's Story Tape 1"
     engine_id: ags
     company_id: stranga
+    year: '2022'
     moby_id: ''
     steam_id: '1900280'
     gog_id: ''
@@ -1369,6 +1474,7 @@
     name: 'Kathy Rain'
     engine_id: ags
     company_id: clifftop
+    year: '2016'
     moby_id: '79519'
     steam_id: '370910'
     gog_id: kathy_rain
@@ -1382,6 +1488,7 @@
     name: 'Kill Yourself'
     engine_id: ags
     company_id: gugames
+    year: '2020'
     moby_id: '186594'
     steam_id: '1251910'
     gog_id: ''
@@ -1395,6 +1502,7 @@
     name: 'The Knobbly Crook'
     engine_id: ags
     company_id: gnarled
+    year: '2015'
     moby_id: '131339'
     steam_id: '378300'
     gog_id: ''
@@ -1408,6 +1516,7 @@
     name: "King's Quest I: Quest for the Crown Remake"
     engine_id: ags
     company_id: agdi
+    year: '2001'
     moby_id: '6418'
     steam_id: ''
     gog_id: ''
@@ -1421,6 +1530,7 @@
     name: "King's Quest II: Romancing the Stones Remake"
     engine_id: ags
     company_id: agdi
+    year: '2002'
     moby_id: '8028'
     steam_id: ''
     gog_id: ''
@@ -1434,6 +1544,7 @@
     name: "King's Quest III Redux: To Heir is Human"
     engine_id: ags
     company_id: agdi
+    year: '2011'
     moby_id: '50631'
     steam_id: ''
     gog_id: ''
@@ -1447,6 +1558,7 @@
     name: "King's Quest III: To Heir is Human VGA Remake"
     engine_id: ags
     company_id: infamousadv
+    year: '2006'
     moby_id: '23393'
     steam_id: ''
     gog_id: ''
@@ -1460,6 +1572,7 @@
     name: 'Lamplight City'
     engine_id: ags
     company_id: grundislav
+    year: '2018'
     moby_id: '113618'
     steam_id: '761460'
     gog_id: lamplight_city
@@ -1473,6 +1586,7 @@
     name: "Lancelot's Hangover"
     engine_id: ags
     company_id: jbclerfayt
+    year: '2020'
     moby_id: '167539'
     steam_id: '917380'
     gog_id: ''
@@ -1486,6 +1600,7 @@
     name: 'Larry Lotter and the Test of Time'
     engine_id: ags
     company_id: crystalshard
+    year: '2016'
     moby_id: '142012'
     steam_id: '551840'
     gog_id: ''
@@ -1499,6 +1614,7 @@
     name: 'Legend of Hand'
     engine_id: ags
     company_id: cloakdagger
+    year: '2017'
     moby_id: '147044'
     steam_id: '595560'
     gog_id: ''
@@ -1512,6 +1628,7 @@
     name: "Mage's Initiation: Reign of the Elements"
     engine_id: ags
     company_id: himalaya
+    year: '2019'
     moby_id: '121392'
     steam_id: '270610'
     gog_id: mages_initiation_reign_of_the_elements
@@ -1525,6 +1642,7 @@
     name: 'Maniac Mansion Deluxe'
     engine_id: ags
     company_id: fan
+    year: '2004'
     moby_id: '13511'
     steam_id: ''
     gog_id: ''
@@ -1538,6 +1656,7 @@
     name: META
     engine_id: ags
     company_id: crystalshard
+    year: '2005'
     moby_id: '36758'
     steam_id: '551840'
     gog_id: ''
@@ -1551,6 +1670,7 @@
     name: 'Metal Dead'
     engine_id: ags
     company_id: wtw
+    year: '2011'
     moby_id: '55792'
     steam_id: '302690'
     gog_id: ''
@@ -1564,6 +1684,7 @@
     name: Metaphobia
     engine_id: ags
     company_id: digitalmosaic
+    year: '2019'
     moby_id: '129019'
     steam_id: '1220930'
     gog_id: ''
@@ -1577,6 +1698,7 @@
     name: 'Chronicle of Innsmouth: Mountains of Madness'
     engine_id: ags
     company_id: psychodev
+    year: '2021'
     moby_id: '169469'
     steam_id: '962700'
     gog_id: ''
@@ -1590,6 +1712,7 @@
     name: Mudlarks
     engine_id: ags
     company_id: cloakdagger
+    year: '2014'
     moby_id: '112305'
     steam_id: ''
     gog_id: ''
@@ -1603,6 +1726,7 @@
     name: 'My Big Sister'
     engine_id: ags
     company_id: stranga
+    year: '2018'
     moby_id: '117298'
     steam_id: '733300'
     gog_id: ''
@@ -1616,6 +1740,7 @@
     name: 'My Big Sister Remastered'
     engine_id: ags
     company_id: stranga
+    year: '2022'
     moby_id: '194217'
     steam_id: '2118540'
     gog_id: ''
@@ -1629,6 +1754,7 @@
     name: 'My Burden to Keep'
     engine_id: ags
     company_id: perpetualdiversion
+    year: '2018'
     moby_id: ''
     steam_id: ''
     gog_id: ''
@@ -1642,6 +1768,7 @@
     name: 'Nelly Cootalot: Spoonbeaks Ahoy!'
     engine_id: ags
     company_id: abeckett
+    year: '2007'
     moby_id: '27258'
     steam_id: ''
     gog_id: ''
@@ -1655,6 +1782,7 @@
     name: 'Nelly Cootalot: Spoonbeaks Ahoy! HD'
     engine_id: ags
     company_id: abeckett
+    year: '2019'
     moby_id: '127651'
     steam_id: '763030'
     gog_id: ''
@@ -1668,6 +1796,7 @@
     name: Neofeud
     engine_id: ags
     company_id: silverspook
+    year: '2017'
     moby_id: '100924'
     steam_id: '673850'
     gog_id: ''
@@ -1681,6 +1810,7 @@
     name: 'Nightmare Frames'
     engine_id: ags
     company_id: postmodern
+    year: '2022'
     moby_id: '186431'
     steam_id: '1650590'
     gog_id: ''
@@ -1694,6 +1824,7 @@
     name: 'Odissea - An Almost True Story'
     engine_id: ags
     company_id: midian
+    year: '2011'
     moby_id: '61346'
     steam_id: ''
     gog_id: ''
@@ -1707,6 +1838,7 @@
     name: 'Old Skies'
     engine_id: ags
     company_id: wadjet
+    year: '2023'
     moby_id: ''
     steam_id: '1346360'
     gog_id: old_skies
@@ -1720,6 +1852,7 @@
     name: "Order of the Thorne: The King's Challenge"
     engine_id: ags
     company_id: infamousq
+    year: '2016'
     moby_id: '88993'
     steam_id: '425600'
     gog_id: order_of_the_thorne_the_kings_challenge
@@ -1733,6 +1866,7 @@
     name: 'The Journey Down: Over the Edge'
     engine_id: ags
     company_id: skygoblin
+    year: '2010'
     moby_id: '56258'
     steam_id: ''
     gog_id: ''
@@ -1746,6 +1880,7 @@
     name: 'Oz Orwell and the Crawling Chaos'
     engine_id: ags
     company_id: midian
+    year: '2012'
     moby_id: '61343'
     steam_id: ''
     gog_id: ''
@@ -1759,6 +1894,7 @@
     name: 'Oz Orwell and the Exorcist'
     engine_id: ags
     company_id: midian
+    year: '2016'
     moby_id: ''
     steam_id: ''
     gog_id: ''
@@ -1772,6 +1908,7 @@
     name: 'Perfect Tides'
     engine_id: ags
     company_id: threebees
+    year: '2022'
     moby_id: '188469'
     steam_id: '1172800'
     gog_id: ''
@@ -1785,6 +1922,7 @@
     name: 'The Perfidious Petrol Station'
     engine_id: ags
     company_id: technocrat
+    year: '2012'
     moby_id: ''
     steam_id: ''
     gog_id: ''
@@ -1798,6 +1936,7 @@
     name: 'The Phantom Fellows'
     engine_id: ags
     company_id: strummer
+    year: '2022'
     moby_id: ''
     steam_id: '1581490'
     gog_id: ''
@@ -1811,6 +1950,7 @@
     name: Primordia
     engine_id: ags
     company_id: wormwood
+    year: '2012'
     moby_id: '59392'
     steam_id: '227000'
     gog_id: primordia
@@ -1824,6 +1964,7 @@
     name: 'Projector Face'
     engine_id: ags
     company_id: fluik
+    year: '2016'
     moby_id: ''
     steam_id: '431850'
     gog_id: ''
@@ -1837,6 +1978,7 @@
     name: 'Puzzle Bots'
     engine_id: ags
     company_id: wadjet
+    year: '2010'
     moby_id: '46461'
     steam_id: '80300'
     gog_id: ''
@@ -1850,6 +1992,7 @@
     name: 'Quest for Glory II: Trial by Fire Remake'
     engine_id: ags
     company_id: agdi
+    year: '2008'
     moby_id: '35907'
     steam_id: ''
     gog_id: ''
@@ -1863,6 +2006,7 @@
     name: 'Quest for Infamy'
     engine_id: ags
     company_id: infamousq
+    year: '2014'
     moby_id: '71208'
     steam_id: '264560'
     gog_id: quest_for_infamy
@@ -1876,6 +2020,7 @@
     name: Quantumnauts
     engine_id: ags
     company_id: midian
+    year: '2009'
     moby_id: '61347'
     steam_id: ''
     gog_id: ''
@@ -1889,6 +2034,7 @@
     name: 'Quantumnauts 2'
     engine_id: ags
     company_id: midian
+    year: '2013'
     moby_id: '61351'
     steam_id: ''
     gog_id: ''
@@ -1902,6 +2048,7 @@
     name: 'Quest for Yrolg'
     engine_id: ags
     company_id: crystalshard
+    year: '2008'
     moby_id: '38385'
     steam_id: '551840'
     gog_id: ''
@@ -1915,6 +2062,7 @@
     name: 'Red Bow'
     engine_id: ags
     company_id: stranga
+    year: '2020'
     moby_id: '140170'
     steam_id: '710600'
     gog_id: ''
@@ -1928,6 +2076,7 @@
     name: Resonance
     engine_id: ags
     company_id: xii
+    year: '2012'
     moby_id: '56829'
     steam_id: '212050'
     gog_id: resonance
@@ -1941,6 +2090,7 @@
     name: 'Richard & Alice'
     engine_id: ags
     company_id: owlcave
+    year: '2013'
     moby_id: '60447'
     steam_id: '279260'
     gog_id: richard_alice
@@ -1954,6 +2104,7 @@
     name: "Rock 'n' Roll Will Never Die!"
     engine_id: ags
     company_id: instantmillion
+    year: '2022'
     moby_id: ''
     steam_id: '1644080'
     gog_id: ''
@@ -1967,6 +2118,7 @@
     name: 'Rogue State'
     engine_id: ags
     company_id: lrdg
+    year: '2015'
     moby_id: '82543'
     steam_id: '396090'
     gog_id: ''
@@ -1980,6 +2132,7 @@
     name: 'The Samaritan Paradox'
     engine_id: ags
     company_id: faravid
+    year: '2014'
     moby_id: '75871'
     steam_id: '283180'
     gog_id: the_samaritan_paradox
@@ -1993,6 +2146,7 @@
     name: Shardlight
     engine_id: ags
     company_id: wadjet
+    year: '2016'
     moby_id: '80887'
     steam_id: '336130'
     gog_id: shardlight
@@ -2006,6 +2160,7 @@
     name: 'The Shivah'
     engine_id: ags
     company_id: wadjet
+    year: '2006'
     moby_id: '25365'
     steam_id: '252370'
     gog_id: the_shivah
@@ -2019,6 +2174,7 @@
     name: 'The Shivah: Kosher Edition'
     engine_id: ags
     company_id: wadjet
+    year: '2013'
     moby_id: '65232'
     steam_id: '252370'
     gog_id: the_shivah
@@ -2032,6 +2188,7 @@
     name: 'Space Quest for Glory'
     engine_id: ags
     company_id: infamousadv
+    year: '2011'
     moby_id: ''
     steam_id: ''
     gog_id: ''
@@ -2045,6 +2202,7 @@
     name: "Space Quest II - Vohaul's Revenge VGA Remake"
     engine_id: ags
     company_id: infamousadv
+    year: '2011'
     moby_id: '60817'
     steam_id: ''
     gog_id: ''
@@ -2058,6 +2216,7 @@
     name: 'Space Quest IV.5 - Roger Wilco and the Voyage Home'
     engine_id: ags
     company_id: westend
+    year: '2008'
     moby_id: '39554'
     steam_id: ''
     gog_id: ''
@@ -2071,6 +2230,7 @@
     name: 'Space Quest Minus 1: Decisions of the Elders'
     engine_id: ags
     company_id: fan
+    year: '2012'
     moby_id: '146099'
     steam_id: ''
     gog_id: ''
@@ -2084,6 +2244,7 @@
     name: 'Space Quest: Incinerations'
     engine_id: ags
     company_id: fan
+    year: '2012'
     moby_id: '146101'
     steam_id: ''
     gog_id: ''
@@ -2097,6 +2258,7 @@
     name: 'Space Quest: Vohaul Strikes Back'
     engine_id: ags
     company_id: teamvsb
+    year: '2011'
     moby_id: '97968'
     steam_id: ''
     gog_id: ''
@@ -2110,6 +2272,7 @@
     name: 'Starship Quasar'
     engine_id: ags
     company_id: crystalshard
+    year: '2011'
     moby_id: '116872'
     steam_id: '551840'
     gog_id: ''
@@ -2123,6 +2286,7 @@
     name: Strangeland
     engine_id: ags
     company_id: wormwood
+    year: '2021'
     moby_id: '165274'
     steam_id: '1369520'
     gog_id: strangeland
@@ -2136,6 +2300,7 @@
     name: 'Suli Fallen Harmony'
     engine_id: ags
     company_id: coutal
+    year: '2020'
     moby_id: '155523'
     steam_id: '1286640'
     gog_id: ''
@@ -2149,6 +2314,7 @@
     name: 'Sumatra: Fate of Yandi'
     engine_id: ags
     company_id: cloakdagger
+    year: '2019'
     moby_id: '126872'
     steam_id: '610900'
     gog_id: sumatra_fate_of_yandi
@@ -2162,6 +2328,7 @@
     name: 'Super Jazz Man'
     engine_id: ags
     company_id: herculean
+    year: '2006'
     moby_id: '25679'
     steam_id: ''
     gog_id: ''
@@ -2175,6 +2342,7 @@
     name: Tales
     engine_id: ags
     company_id: apemarina
+    year: '2016'
     moby_id: '115197'
     steam_id: '416250'
     gog_id: ''
@@ -2188,6 +2356,7 @@
     name: Technobabylon
     engine_id: ags
     company_id: technocrat
+    year: '2015'
     moby_id: '84775'
     steam_id: '307580'
     gog_id: technobabylon
@@ -2201,6 +2370,7 @@
     name: 'The Adventures of Fatman'
     engine_id: ags
     company_id: socko
+    year: '2003'
     moby_id: '11956'
     steam_id: '395250'
     gog_id: ''
@@ -2214,6 +2384,7 @@
     name: 'The Castle'
     engine_id: ags
     company_id: ishtar
+    year: '2019'
     moby_id: '143755'
     steam_id: '1133950'
     gog_id: ''
@@ -2227,6 +2398,7 @@
     name: 'The Cat Lady'
     engine_id: ags
     company_id: harvester
+    year: '2012'
     moby_id: '59677'
     steam_id: '253110'
     gog_id: the_cat_lady
@@ -2240,6 +2412,7 @@
     name: 'The Marionette'
     engine_id: ags
     company_id: effigy
+    year: '2009'
     moby_id: '44870'
     steam_id: ''
     gog_id: ''
@@ -2253,6 +2426,7 @@
     name: 'The Secret of Hutton Grammar School VGA'
     engine_id: ags
     company_id: tomsimpson
+    year: '2019'
     moby_id: '143835'
     steam_id: '1196520'
     gog_id: ''
@@ -2266,6 +2440,7 @@
     name: 'The Secrets of Jesus'
     engine_id: ags
     company_id: amatouk
+    year: '2019'
     moby_id: '137196'
     steam_id: '1142230'
     gog_id: ''
@@ -2279,6 +2454,7 @@
     name: 'The Terrible Old Man'
     engine_id: ags
     company_id: cloakdagger
+    year: '2019'
     moby_id: '147043'
     steam_id: '1147030'
     gog_id: ''
@@ -2292,6 +2468,7 @@
     name: 'Time Gentlemen, Please!'
     engine_id: ags
     company_id: zombiecow
+    year: '2009'
     moby_id: '42060'
     steam_id: '37400'
     gog_id: time_gentlemen_please_ben_there_dan_that
@@ -2305,6 +2482,7 @@
     name: "Trilby's Notes"
     engine_id: ags
     company_id: fullyramblomatic
+    year: '2006'
     moby_id: '22997'
     steam_id: ''
     gog_id: ''
@@ -2318,6 +2496,7 @@
     name: 'Trilby: The Art Of Theft'
     engine_id: ags
     company_id: fullyramblomatic
+    year: '2007'
     moby_id: '31179'
     steam_id: ''
     gog_id: ''
@@ -2331,6 +2510,7 @@
     name: 'Twelve Thirteen - Episode 1'
     engine_id: ags
     company_id: fullyramblomatic
+    year: '2005'
     moby_id: '31907'
     steam_id: ''
     gog_id: ''
@@ -2344,6 +2524,7 @@
     name: 'Twelve Thirteen - Episode 2'
     engine_id: ags
     company_id: fullyramblomatic
+    year: '2006'
     moby_id: '31922'
     steam_id: ''
     gog_id: ''
@@ -2357,6 +2538,7 @@
     name: 'Twelve Thirteen - Episode 3'
     engine_id: ags
     company_id: fullyramblomatic
+    year: '2006'
     moby_id: '32122'
     steam_id: ''
     gog_id: ''
@@ -2370,6 +2552,7 @@
     name: 'Twelve Thirteen - Special Edition'
     engine_id: ags
     company_id: fullyramblomatic
+    year: '2006'
     moby_id: '31905'
     steam_id: ''
     gog_id: ''
@@ -2383,6 +2566,7 @@
     name: Unavowed
     engine_id: ags
     company_id: wadjet
+    year: '2018'
     moby_id: '112181'
     steam_id: '336140'
     gog_id: unavowed
@@ -2396,6 +2580,7 @@
     name: 'Until I Have You'
     engine_id: ags
     company_id: wormwood
+    year: '2016'
     moby_id: '129721'
     steam_id: '439310'
     gog_id: ''
@@ -2409,6 +2594,7 @@
     name: 'Urban Witch Story'
     engine_id: ags
     company_id: postmodern
+    year: '2020'
     moby_id: '151629'
     steam_id: ''
     gog_id: ''
@@ -2422,6 +2608,7 @@
     name: 'Whispers of a Machine'
     engine_id: ags
     company_id: clifftop
+    year: '2019'
     moby_id: '125328'
     steam_id: '631570'
     gog_id: whispers_of_a_machine
@@ -2435,6 +2622,7 @@
     name: 'Zniw Adventure'
     engine_id: ags
     company_id: azure
+    year: '2020'
     moby_id: '152992'
     steam_id: '904750'
     gog_id: zniw_adventure
@@ -2448,6 +2636,7 @@
     name: Sanitarium
     engine_id: asylum
     company_id: dreamforge
+    year: '1998'
     moby_id: '572'
     steam_id: '284050'
     gog_id: sanitarium
@@ -2461,6 +2650,7 @@
     name: "Lord Avalot d'Argent"
     engine_id: avalanche
     company_id: thorsoft
+    year: '1994'
     moby_id: '44193'
     steam_id: ''
     gog_id: ''
@@ -2474,6 +2664,7 @@
     name: "MTV's Beavis and Butt-Head in Virtual Stupidity"
     engine_id: bbvs
     company_id: viacom
+    year: '1995'
     moby_id: '2470'
     steam_id: ''
     gog_id: ''
@@ -2487,6 +2678,7 @@
     name: 'Blade Runner'
     engine_id: bladerunner
     company_id: westwood
+    year: '1997'
     moby_id: '341'
     steam_id: ''
     gog_id: blade_runner
@@ -2500,6 +2692,7 @@
     name: 'Blade Runner with restored content'
     engine_id: bladerunner
     company_id: westwood
+    year: '1997'
     moby_id: '341'
     steam_id: ''
     gog_id: blade_runner
@@ -2513,6 +2706,7 @@
     name: 'The Journeyman Project 2: Buried in Time'
     engine_id: buried
     company_id: presto
+    year: '1995'
     moby_id: '2149'
     steam_id: ''
     gog_id: journeyman_project_2
@@ -2526,6 +2720,7 @@
     name: Sołtys
     engine_id: cge
     company_id: lkavalon
+    year: '1995'
     moby_id: '19196'
     steam_id: ''
     gog_id: ''
@@ -2539,6 +2734,7 @@
     name: Sfinx
     engine_id: cge2
     company_id: lkavalon
+    year: '1997'
     moby_id: '42915'
     steam_id: ''
     gog_id: ''
@@ -2552,6 +2748,7 @@
     name: 'Chewy: Esc from F5'
     engine_id: chewy
     company_id: newgen
+    year: '1995'
     moby_id: '2339'
     steam_id: ''
     gog_id: ''
@@ -2565,6 +2762,7 @@
     name: 'Future Wars: Adventures in Time'
     engine_id: cine
     company_id: delphine
+    year: '1989'
     moby_id: '2205'
     steam_id: ''
     gog_id: ''
@@ -2578,6 +2776,7 @@
     name: '007: James Bond - The Stealth Affair'
     engine_id: cine
     company_id: delphine
+    year: '1990'
     moby_id: '2236'
     steam_id: ''
     gog_id: ''
@@ -2591,6 +2790,7 @@
     name: 'Magic Tales: Baba Yaga and the Magic Geese'
     engine_id: composer
     company_id: animationmagic
+    year: '1995'
     moby_id: '124450'
     steam_id: ''
     gog_id: ''
@@ -2604,6 +2804,7 @@
     name: 'Darby the Dragon'
     engine_id: composer
     company_id: animationmagic
+    year: '1996'
     moby_id: '61847'
     steam_id: ''
     gog_id: ''
@@ -2617,6 +2818,7 @@
     name: 'Gregory and the Hot Air Balloon'
     engine_id: composer
     company_id: animationmagic
+    year: '1996'
     moby_id: '99115'
     steam_id: ''
     gog_id: ''
@@ -2630,6 +2832,7 @@
     name: 'Magic Tales: Imo & the King'
     engine_id: composer
     company_id: animationmagic
+    year: '1995'
     moby_id: '124456'
     steam_id: ''
     gog_id: ''
@@ -2643,6 +2846,7 @@
     name: 'Magic Tales: Liam Finds a Story'
     engine_id: composer
     company_id: animationmagic
+    year: '1996'
     moby_id: '124451'
     steam_id: ''
     gog_id: ''
@@ -2656,6 +2860,7 @@
     name: 'Magic Tales: The Little Samurai'
     engine_id: composer
     company_id: animationmagic
+    year: '1995'
     moby_id: '124457'
     steam_id: ''
     gog_id: ''
@@ -2669,6 +2874,7 @@
     name: 'Magic Tales'
     engine_id: composer
     company_id: animationmagic
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -2682,6 +2888,7 @@
     name: 'Magic Tales: The Princess and the Crab'
     engine_id: composer
     company_id: animationmagic
+    year: '1996'
     moby_id: '124453'
     steam_id: ''
     gog_id: ''
@@ -2695,6 +2902,7 @@
     name: "Magic Tales: Sleeping Cub's Test of Courage"
     engine_id: composer
     company_id: animationmagic
+    year: '1996'
     moby_id: '124458'
     steam_id: ''
     gog_id: ''
@@ -2708,6 +2916,7 @@
     name: 'Cruise for a Corpse'
     engine_id: cruise
     company_id: delphine
+    year: '1991'
     moby_id: '2264'
     steam_id: ''
     gog_id: ''
@@ -2721,6 +2930,7 @@
     name: 'Lost Eden'
     engine_id: cryo
     company_id: cryo
+    year: '1995'
     moby_id: '1054'
     steam_id: '579980'
     gog_id: lost_eden
@@ -2734,6 +2944,7 @@
     name: 'Versailles 1685'
     engine_id: cryomni3d
     company_id: cryo
+    year: '1996'
     moby_id: '6889'
     steam_id: ''
     gog_id: ''
@@ -2747,6 +2958,7 @@
     name: 'AMBER: Journeys Beyond'
     engine_id: director
     company_id: hueforest
+    year: '1996'
     moby_id: '2430'
     steam_id: ''
     gog_id: ''
@@ -2760,6 +2972,7 @@
     name: 'The Better Dead Ratification'
     engine_id: director
     company_id: artsectorone
+    year: '1995'
     moby_id: ''
     steam_id: ''
     gog_id: ''
@@ -2773,6 +2986,7 @@
     name: 'Chop Suey'
     engine_id: director
     company_id: magnetinteractive
+    year: '1995'
     moby_id: '45110'
     steam_id: ''
     gog_id: ''
@@ -2786,6 +3000,7 @@
     name: 'Macromedia Director Game'
     engine_id: director
     company_id: unknown
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -2799,6 +3014,7 @@
     name: 'Macromedia Director Test Target'
     engine_id: director
     company_id: unknown
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -2812,6 +3028,7 @@
     name: 'Macromedia Director All Movies Test Target'
     engine_id: director
     company_id: unknown
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -2825,6 +3042,7 @@
     name: 'Eastern Mind'
     engine_id: director
     company_id: sony
+    year: '1994'
     moby_id: '22032'
     steam_id: ''
     gog_id: ''
@@ -2838,6 +3056,7 @@
     name: Ernie
     engine_id: director
     company_id: unknown
+    year: '1997'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -2851,6 +3070,7 @@
     name: 'Fukuoka Go-Round'
     engine_id: director
     company_id: unknown
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -2864,6 +3084,7 @@
     name: "Ganbare! Inuchan: Rock'n Roll Edition"
     engine_id: director
     company_id: emotion
+    year: '1995'
     moby_id: '189552'
     steam_id: ''
     gog_id: ''
@@ -2877,6 +3098,7 @@
     name: 'Ganbare! Inuchan: Trip Around the World'
     engine_id: director
     company_id: bfactory
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -2890,6 +3112,7 @@
     name: 'Gundam 0079: The War for Earth'
     engine_id: director
     company_id: presto
+    year: '1996'
     moby_id: '11612'
     steam_id: ''
     gog_id: ''
@@ -2903,6 +3126,7 @@
     name: 'Henachoco #1'
     engine_id: director
     company_id: itachoco
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -2916,6 +3140,7 @@
     name: 'Henachoco #2'
     engine_id: director
     company_id: itachoco
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -2929,6 +3154,7 @@
     name: 'Henachoco #3'
     engine_id: director
     company_id: itachoco
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -2942,6 +3168,7 @@
     name: 'Henachoco #4'
     engine_id: director
     company_id: itachoco
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -2955,6 +3182,7 @@
     name: 'Yaken Rodem'
     engine_id: director
     company_id: itachoco
+    year: '1994'
     moby_id: '169162'
     steam_id: ''
     gog_id: ''
@@ -2968,6 +3196,7 @@
     name: 'iD4 Mission Disk 1 - Alien Supreme Commander'
     engine_id: director
     company_id: trendmasters
+    year: '1996'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -2981,6 +3210,7 @@
     name: 'iD4 Mission Disk 10 - Alien Bomber'
     engine_id: director
     company_id: trendmasters
+    year: '1996'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -2994,6 +3224,7 @@
     name: 'iD4 Mission Disk 11 - Area 51'
     engine_id: director
     company_id: trendmasters
+    year: '1996'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3007,6 +3238,7 @@
     name: 'ID4 Mission Disk 2: Alien Science Officer'
     engine_id: director
     company_id: trendmasters
+    year: '1996'
     moby_id: '32260'
     steam_id: ''
     gog_id: ''
@@ -3020,6 +3252,7 @@
     name: 'iD4 Mission Disk 3 - Warrior Alien'
     engine_id: director
     company_id: trendmasters
+    year: '1996'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3033,6 +3266,7 @@
     name: 'iD4 Mission Disk 4 - Alien Navigator'
     engine_id: director
     company_id: trendmasters
+    year: '1996'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3046,6 +3280,7 @@
     name: 'iD4 Mission Disk 5 - Captain Steve Hiller'
     engine_id: director
     company_id: trendmasters
+    year: '1996'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3059,6 +3294,7 @@
     name: 'ID4 Mission Disk 6: Technical Expert David Levinson'
     engine_id: director
     company_id: trendmasters
+    year: '1996'
     moby_id: '32398'
     steam_id: ''
     gog_id: ''
@@ -3072,6 +3308,7 @@
     name: 'iD4 Mission Disk 7 - President Whitmore'
     engine_id: director
     company_id: trendmasters
+    year: '1996'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3085,6 +3322,7 @@
     name: 'iD4 Mission Disk 8 - Alien Attack Fighter'
     engine_id: director
     company_id: trendmasters
+    year: '1996'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3098,6 +3336,7 @@
     name: 'iD4 Mission Disk 9 - FA-18 Fighter Jet'
     engine_id: director
     company_id: trendmasters
+    year: '1996'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3111,6 +3350,7 @@
     name: 'Japan Art Today 07: Takashi Murakami - A Romantic Evening'
     engine_id: director
     company_id: aloalo
+    year: '1993'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3124,6 +3364,7 @@
     name: 'Jewels of the Oracle'
     engine_id: director
     company_id: eloi
+    year: '1995'
     moby_id: '5042'
     steam_id: ''
     gog_id: ''
@@ -3137,6 +3378,7 @@
     name: 'The Journeyman Project'
     engine_id: director
     company_id: presto
+    year: '1993'
     moby_id: '22007'
     steam_id: ''
     gog_id: ''
@@ -3150,6 +3392,7 @@
     name: L-ZONE
     engine_id: director
     company_id: synergy
+    year: '1992'
     moby_id: '2302'
     steam_id: ''
     gog_id: ''
@@ -3163,6 +3406,7 @@
     name: 'Majestic Part 1: Alien Encounter'
     engine_id: director
     company_id: piranha
+    year: '1995'
     moby_id: '57856'
     steam_id: ''
     gog_id: ''
@@ -3176,6 +3420,7 @@
     name: 'Meet Mediaband'
     engine_id: director
     company_id: unknown
+    year: '1995'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3189,6 +3434,7 @@
     name: 'Masters of the Elements'
     engine_id: director
     company_id: unknown
+    year: '1997'
     moby_id: '16836'
     steam_id: ''
     gog_id: ''
@@ -3202,6 +3448,7 @@
     name: 'Nemurenu Yoru no Chiisana O-Hanashi'
     engine_id: director
     company_id: emotion
+    year: '1993'
     moby_id: '54553'
     steam_id: ''
     gog_id: ''
@@ -3215,6 +3462,7 @@
     name: Over-Ring-Under
     engine_id: director
     company_id: toshiba
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3228,6 +3476,7 @@
     name: 'Valmaison au fil des saisons / Pepperon'
     engine_id: director
     company_id: flammarion
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3241,6 +3490,7 @@
     name: 'Spy Club'
     engine_id: director
     company_id: unknown
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3254,6 +3504,7 @@
     name: 'The Seven Colors: Legend of PSY・S City'
     engine_id: director
     company_id: sony
+    year: '1993'
     moby_id: '116747'
     steam_id: ''
     gog_id: ''
@@ -3267,6 +3518,7 @@
     name: 'The Apartment, Interactive demo'
     engine_id: director
     company_id: unknown
+    year: '1990'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3280,6 +3532,7 @@
     name: 'Time Gal'
     engine_id: director
     company_id: taito
+    year: '1985'
     moby_id: '13496'
     steam_id: ''
     gog_id: ''
@@ -3293,6 +3546,7 @@
     name: 'The Awesome Adventures of Victor Vector & Yondo: The Last Dinosaur Egg'
     engine_id: director
     company_id: sanctuary
+    year: '1993'
     moby_id: '21266'
     steam_id: ''
     gog_id: ''
@@ -3306,6 +3560,7 @@
     name: "The Awesome Adventures of Victor Vector & Yondo: The Vampire's Coffin"
     engine_id: director
     company_id: sanctuary
+    year: '1992'
     moby_id: '21262'
     steam_id: ''
     gog_id: ''
@@ -3319,6 +3574,7 @@
     name: 'Spaceship Warlock'
     engine_id: director
     company_id: reactorinc
+    year: '1991'
     moby_id: '22016'
     steam_id: ''
     gog_id: ''
@@ -3332,6 +3588,7 @@
     name: 'Dungeon Master'
     engine_id: dm
     company_id: ftl
+    year: '1987'
     moby_id: '834'
     steam_id: ''
     gog_id: ''
@@ -3345,6 +3602,7 @@
     name: 'Dragon History'
     engine_id: draci
     company_id: nosense
+    year: '1995'
     moby_id: '44689'
     steam_id: ''
     gog_id: ''
@@ -3358,6 +3616,7 @@
     name: 'Blazing Dragons'
     engine_id: dragons
     company_id: crystaldynamics
+    year: '1996'
     moby_id: '8513'
     steam_id: ''
     gog_id: ''
@@ -3371,6 +3630,7 @@
     name: 'Dráscula: The Vampire Strikes Back'
     engine_id: drascula
     company_id: alcachofa
+    year: '1996'
     moby_id: '14108'
     steam_id: '1038430'
     gog_id: ''
@@ -3384,6 +3644,7 @@
     name: DreamWeb
     engine_id: dreamweb
     company_id: creativereality
+    year: '1994'
     moby_id: '1905'
     steam_id: ''
     gog_id: ''
@@ -3397,6 +3658,7 @@
     name: 'Escape From Hell'
     engine_id: efh
     company_id: ea
+    year: '1990'
     moby_id: '1321'
     steam_id: ''
     gog_id: ''
@@ -3410,6 +3672,7 @@
     name: '3D Construction Kit'
     engine_id: freescape
     company_id: incentive
+    year: '1991'
     moby_id: '391'
     steam_id: ''
     gog_id: ''
@@ -3423,6 +3686,7 @@
     name: Driller
     engine_id: freescape
     company_id: incentive
+    year: '1999'
     moby_id: '5224'
     steam_id: ''
     gog_id: ''
@@ -3436,6 +3700,7 @@
     name: 'Dark Side'
     engine_id: freescape
     company_id: incentive
+    year: '1988'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3449,6 +3714,7 @@
     name: 'ADRIFT Interactive Fiction games'
     engine_id: glk
     company_id: glk
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3462,6 +3728,7 @@
     name: 'AdvSys Interactive Fiction games'
     engine_id: glk
     company_id: glk
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3475,6 +3742,7 @@
     name: 'AGT Interactive Fiction games'
     engine_id: glk
     company_id: glk
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3488,6 +3756,7 @@
     name: 'Alan 2 & 3 Interactive Fiction games'
     engine_id: glk
     company_id: glk
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3501,6 +3770,7 @@
     name: 'Archetype Interactive Fiction games'
     engine_id: glk
     company_id: glk
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3514,6 +3784,7 @@
     name: Corruption
     engine_id: glk
     company_id: magnetic
+    year: '1988'
     moby_id: '1029'
     steam_id: ''
     gog_id: ''
@@ -3527,6 +3798,7 @@
     name: 'The Crimson Crown: Further Adventures in Transylvania'
     engine_id: glk
     company_id: polarware
+    year: '1985'
     moby_id: '86'
     steam_id: ''
     gog_id: ''
@@ -3540,6 +3812,7 @@
     name: Enchanter
     engine_id: glk
     company_id: infocom
+    year: '1983'
     moby_id: '56'
     steam_id: ''
     gog_id: ''
@@ -3553,6 +3826,7 @@
     name: Fish!
     engine_id: glk
     company_id: magnetic
+    year: '1988'
     moby_id: '2755'
     steam_id: ''
     gog_id: ''
@@ -3566,6 +3840,7 @@
     name: 'Glulx Interactive Fiction games'
     engine_id: glk
     company_id: glk
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3579,6 +3854,7 @@
     name: 'The Guild of Thieves'
     engine_id: glk
     company_id: magnetic
+    year: '1987'
     moby_id: '1323'
     steam_id: ''
     gog_id: ''
@@ -3592,6 +3868,7 @@
     name: 'Hugo Interactive Fiction games'
     engine_id: glk
     company_id: glk
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3605,6 +3882,7 @@
     name: 'JACL Interactive Fiction games'
     engine_id: glk
     company_id: glk
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3618,6 +3896,7 @@
     name: Jinxter
     engine_id: glk
     company_id: magnetic
+    year: '1987'
     moby_id: '1291'
     steam_id: ''
     gog_id: ''
@@ -3631,6 +3910,7 @@
     name: 'Level 9 Interactive Fiction games'
     engine_id: glk
     company_id: glk
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3644,6 +3924,7 @@
     name: Myth
     engine_id: glk
     company_id: magnetic
+    year: '1989'
     moby_id: '2796'
     steam_id: ''
     gog_id: ''
@@ -3657,6 +3938,7 @@
     name: OO-Topos
     engine_id: glk
     company_id: polarware
+    year: '1986'
     moby_id: '148433'
     steam_id: ''
     gog_id: ''
@@ -3670,6 +3952,7 @@
     name: 'The Pawn'
     engine_id: glk
     company_id: magnetic
+    year: '1985'
     moby_id: '1322'
     steam_id: ''
     gog_id: ''
@@ -3683,6 +3966,7 @@
     name: Planetfall
     engine_id: glk
     company_id: infocom
+    year: '1983'
     moby_id: '51'
     steam_id: ''
     gog_id: ''
@@ -3696,6 +3980,7 @@
     name: 'Quest Interactive Fiction games'
     engine_id: glk
     company_id: glk
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3709,6 +3994,7 @@
     name: 'Scott Adams Interactive Fiction games'
     engine_id: glk
     company_id: glk
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3722,6 +4008,7 @@
     name: Sorcerer
     engine_id: glk
     company_id: infocom
+    year: '1984'
     moby_id: '57'
     steam_id: ''
     gog_id: ''
@@ -3735,6 +4022,7 @@
     name: Spellbreaker
     engine_id: glk
     company_id: infocom
+    year: '1985'
     moby_id: '58'
     steam_id: ''
     gog_id: ''
@@ -3748,6 +4036,7 @@
     name: Stationfall
     engine_id: glk
     company_id: infocom
+    year: '1987'
     moby_id: '478'
     steam_id: ''
     gog_id: ''
@@ -3761,6 +4050,7 @@
     name: 'Talisman: Challenging the Sands of Time'
     engine_id: glk
     company_id: polarware
+    year: '1987'
     moby_id: '21943'
     steam_id: ''
     gog_id: ''
@@ -3774,6 +4064,7 @@
     name: Transylvania
     engine_id: glk
     company_id: polarware
+    year: '1982'
     moby_id: '91'
     steam_id: ''
     gog_id: ''
@@ -3787,6 +4078,7 @@
     name: Wonderland
     engine_id: glk
     company_id: magnetic
+    year: '1990'
     moby_id: '97'
     steam_id: ''
     gog_id: ''
@@ -3800,6 +4092,7 @@
     name: 'ZCode (Infocom and Inform) Interactive Fiction games'
     engine_id: glk
     company_id: glk
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3813,6 +4106,7 @@
     name: 'Zork Zero: The Revenge of Megaboz'
     engine_id: glk
     company_id: infocom
+    year: '1989'
     moby_id: '55'
     steam_id: ''
     gog_id: ''
@@ -3826,6 +4120,7 @@
     name: 'Zork I: The Great Underground Empire'
     engine_id: glk
     company_id: infocom
+    year: '1980'
     moby_id: '50'
     steam_id: ''
     gog_id: ''
@@ -3839,6 +4134,7 @@
     name: 'Zork II: The Wizard of Frobozz'
     engine_id: glk
     company_id: infocom
+    year: '1981'
     moby_id: '52'
     steam_id: ''
     gog_id: ''
@@ -3852,6 +4148,7 @@
     name: 'Zork III: The Dungeon Master'
     engine_id: glk
     company_id: infocom
+    year: '1982'
     moby_id: '53'
     steam_id: ''
     gog_id: ''
@@ -3865,6 +4162,7 @@
     name: 'Zork: The Undiscovered Underground'
     engine_id: glk
     company_id: infocom
+    year: '1997'
     moby_id: '19360'
     steam_id: ''
     gog_id: ''
@@ -3878,6 +4176,7 @@
     name: U.F.O.s
     engine_id: gnap
     company_id: artech
+    year: '1997'
     moby_id: '4556'
     steam_id: ''
     gog_id: ''
@@ -3891,6 +4190,7 @@
     name: 'Once Upon A Time: Abracadabra'
     engine_id: gob
     company_id: coktel
+    year: '1991'
     moby_id: '31462'
     steam_id: ''
     gog_id: ''
@@ -3904,6 +4204,7 @@
     name: 'ADI 2'
     engine_id: gob
     company_id: coktel
+    year: '1993'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3917,6 +4218,7 @@
     name: 'ADI 4'
     engine_id: gob
     company_id: coktel
+    year: '1997'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3930,6 +4232,7 @@
     name: 'Adibou 1'
     engine_id: gob
     company_id: coktel
+    year: '1991'
     moby_id: '32409'
     steam_id: ''
     gog_id: ''
@@ -3943,6 +4246,7 @@
     name: 'Adibou 2'
     engine_id: gob
     company_id: coktel
+    year: '1996'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3956,6 +4260,7 @@
     name: 'Once Upon A Time: Baba Yaga'
     engine_id: gob
     company_id: coktel
+    year: '1991'
     moby_id: '27621'
     steam_id: ''
     gog_id: ''
@@ -3969,6 +4274,7 @@
     name: 'Playtoons Limited Edition - Bambou le sauveur de la jungle'
     engine_id: gob
     company_id: coktel
+    year: '1997'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -3982,6 +4288,7 @@
     name: 'Bargon Attack'
     engine_id: gob
     company_id: coktel
+    year: '1992'
     moby_id: '13178'
     steam_id: ''
     gog_id: ''
@@ -3995,6 +4302,7 @@
     name: Croustibat
     engine_id: gob
     company_id: coktel
+    year: '1995'
     moby_id: '71127'
     steam_id: ''
     gog_id: ''
@@ -4008,6 +4316,7 @@
     name: 'The Last Dynasty'
     engine_id: gob
     company_id: coktel
+    year: '1995'
     moby_id: '1230'
     steam_id: ''
     gog_id: ''
@@ -4021,6 +4330,7 @@
     name: 'The Last Dynasty & Woodruff'
     engine_id: gob
     company_id: coktel
+    year: '1995'
     moby_id: ''
     steam_id: ''
     gog_id: ''
@@ -4034,6 +4344,7 @@
     name: Fascination
     engine_id: gob
     company_id: coktel
+    year: '1991'
     moby_id: '9399'
     steam_id: ''
     gog_id: ''
@@ -4047,6 +4358,7 @@
     name: Geisha
     engine_id: gob
     company_id: coktel
+    year: '1990'
     moby_id: '3844'
     steam_id: ''
     gog_id: ''
@@ -4060,6 +4372,7 @@
     name: Gobliiins
     engine_id: gob
     company_id: coktel
+    year: '1991'
     moby_id: '1154'
     steam_id: ''
     gog_id: gobliiins_pack
@@ -4073,6 +4386,7 @@
     name: Gobliiins
     engine_id: gob
     company_id: coktel
+    year: '1991'
     moby_id: '1154'
     steam_id: ''
     gog_id: gobliiins_pack
@@ -4086,6 +4400,7 @@
     name: 'Gobliins 2: The Prince Buffoon'
     engine_id: gob
     company_id: coktel
+    year: '1992'
     moby_id: '2625'
     steam_id: ''
     gog_id: gobliiins_pack
@@ -4099,6 +4414,7 @@
     name: 'Gobliins 2: The Prince Buffoon'
     engine_id: gob
     company_id: coktel
+    year: '1992'
     moby_id: '2625'
     steam_id: ''
     gog_id: gobliiins_pack
@@ -4112,6 +4428,7 @@
     name: 'Goblins Quest 3'
     engine_id: gob
     company_id: coktel
+    year: '1993'
     moby_id: '2870'
     steam_id: ''
     gog_id: gobliiins_pack
@@ -4125,6 +4442,7 @@
     name: 'Goblins Quest 3'
     engine_id: gob
     company_id: coktel
+    year: '1993'
     moby_id: '2870'
     steam_id: ''
     gog_id: gobliiins_pack
@@ -4138,6 +4456,7 @@
     name: Inca
     engine_id: gob
     company_id: coktel
+    year: '1992'
     moby_id: '4198'
     steam_id: ''
     gog_id: ''
@@ -4151,6 +4470,7 @@
     name: 'Inca II: Nations of Immortality'
     engine_id: gob
     company_id: coktel
+    year: '1993'
     moby_id: '4553'
     steam_id: ''
     gog_id: ''
@@ -4164,6 +4484,7 @@
     name: 'Lost in Time'
     engine_id: gob
     company_id: coktel
+    year: '1993'
     moby_id: '6098'
     steam_id: ''
     gog_id: ''
@@ -4177,6 +4498,7 @@
     name: 'Lost in Time Part 1'
     engine_id: gob
     company_id: coktel
+    year: '1993'
     moby_id: '6098'
     steam_id: ''
     gog_id: ''
@@ -4190,6 +4512,7 @@
     name: 'Lost in Time Part 2'
     engine_id: gob
     company_id: coktel
+    year: '1993'
     moby_id: '6098'
     steam_id: ''
     gog_id: ''
@@ -4203,6 +4526,7 @@
     name: 'Once Upon A Time: Little Red Riding Hood'
     engine_id: gob
     company_id: coktel
+    year: '1991'
     moby_id: '31658'
     steam_id: ''
     gog_id: ''
@@ -4216,6 +4540,7 @@
     name: 'Once Upon A Time'
     engine_id: gob
     company_id: coktel
+    year: '2010'
     moby_id: '92083'
     steam_id: ''
     gog_id: ''
@@ -4229,6 +4554,7 @@
     name: 'Playtoons Construction Kit 1 - Monsters'
     engine_id: gob
     company_id: coktel
+    year: '1996'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -4242,6 +4568,7 @@
     name: 'Playtoons Construction Kit 2 - Knights'
     engine_id: gob
     company_id: coktel
+    year: '1996'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -4255,6 +4582,7 @@
     name: 'Playtoons Construction Kit 3 - Far West'
     engine_id: gob
     company_id: coktel
+    year: '1996'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -4268,6 +4596,7 @@
     name: 'Playtoons 1 - Uncle Archibald'
     engine_id: gob
     company_id: coktel
+    year: '1995'
     moby_id: '184579'
     steam_id: ''
     gog_id: ''
@@ -4281,6 +4610,7 @@
     name: 'Playtoons 2 - The Case of the Counterfeit Collaborator'
     engine_id: gob
     company_id: coktel
+    year: '1995'
     moby_id: '185154'
     steam_id: ''
     gog_id: ''
@@ -4294,6 +4624,7 @@
     name: 'Playtoons 3 - The Secret of the Castle'
     engine_id: gob
     company_id: coktel
+    year: '1995'
     moby_id: '185155'
     steam_id: ''
     gog_id: ''
@@ -4307,6 +4638,7 @@
     name: 'Playtoons 4 - The Mandarine Prince'
     engine_id: gob
     company_id: coktel
+    year: '1995'
     moby_id: '185156'
     steam_id: ''
     gog_id: ''
@@ -4320,6 +4652,7 @@
     name: 'Playtoons 5 - The Stone of Wakan'
     engine_id: gob
     company_id: coktel
+    year: '1995'
     moby_id: '185157'
     steam_id: ''
     gog_id: ''
@@ -4333,6 +4666,7 @@
     name: 'Playtoon 1 - Uncle Archibald, Playtoon 2 - Spirou, Playtoons 3 - Secret of the Castle Demo)'
     engine_id: gob
     company_id: coktel
+    year: '1995'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -4346,6 +4680,7 @@
     name: 'Urban Runner'
     engine_id: gob
     company_id: coktel
+    year: '1996'
     moby_id: '3809'
     steam_id: ''
     gog_id: ''
@@ -4359,6 +4694,7 @@
     name: 'Ween: The Prophecy'
     engine_id: gob
     company_id: coktel
+    year: '1992'
     moby_id: '6218'
     steam_id: ''
     gog_id: ''
@@ -4372,6 +4708,7 @@
     name: 'The Bizarre Adventures of Woodruff and the Schnibble'
     engine_id: gob
     company_id: coktel
+    year: '1995'
     moby_id: '2871'
     steam_id: ''
     gog_id: ''
@@ -4385,6 +4722,7 @@
     name: 'The Griffon Legend'
     engine_id: griffon
     company_id: fan
+    year: '2005'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -4398,6 +4736,7 @@
     name: 'Grim Fandango'
     engine_id: grim
     company_id: lucasarts
+    year: '1998'
     moby_id: '201'
     steam_id: ''
     gog_id: ''
@@ -4411,6 +4750,7 @@
     name: 'Escape From Monkey Island'
     engine_id: grim
     company_id: lucasarts
+    year: '2000'
     moby_id: '2606'
     steam_id: '730830'
     gog_id: escape_from_monkey_island
@@ -4424,6 +4764,7 @@
     name: 'The 11th Hour: The Sequel to The 7th Guest'
     engine_id: groovie
     company_id: trilobyte
+    year: '1995'
     moby_id: '567'
     steam_id: '255940'
     gog_id: the_11th_hour
@@ -4437,6 +4778,7 @@
     name: Clandestiny
     engine_id: groovie
     company_id: trilobyte
+    year: '1996'
     moby_id: '2154'
     steam_id: ''
     gog_id: ''
@@ -4450,6 +4792,7 @@
     name: 'The 7th Guest'
     engine_id: groovie
     company_id: trilobyte
+    year: '1993'
     moby_id: '283'
     steam_id: '1048430'
     gog_id: the_7th_guest_25th_anniversary_edition
@@ -4463,6 +4806,7 @@
     name: 'Tender Loving Care'
     engine_id: groovie
     company_id: aftermath
+    year: '1998'
     moby_id: '1414'
     steam_id: '593900'
     gog_id: tender_loving_care
@@ -4476,6 +4820,7 @@
     name: "Uncle Henry's Playhouse"
     engine_id: groovie
     company_id: trilobyte
+    year: '1996'
     moby_id: '4531'
     steam_id: ''
     gog_id: ''
@@ -4489,6 +4834,7 @@
     name: 'Hades Challenge'
     engine_id: hadesch
     company_id: disney
+    year: '1998'
     moby_id: '26769'
     steam_id: ''
     gog_id: ''
@@ -4502,6 +4848,7 @@
     name: 'Hyperspace Delivery Boy!'
     engine_id: hdb
     company_id: monkeystone
+    year: '2001'
     moby_id: '8754'
     steam_id: ''
     gog_id: ''
@@ -4515,6 +4862,7 @@
     name: 'Hopkins FBI'
     engine_id: hopkins
     company_id: mpe
+    year: '1998'
     moby_id: '3994'
     steam_id: ''
     gog_id: ''
@@ -4528,6 +4876,7 @@
     name: "Hugo's House of Horrors"
     engine_id: hugo
     company_id: graydesign
+    year: '1990'
     moby_id: '1023'
     steam_id: ''
     gog_id: the_hugo_trilogy
@@ -4541,6 +4890,7 @@
     name: 'Hugo II: Whodunit?'
     engine_id: hugo
     company_id: graydesign
+    year: '1991'
     moby_id: '1158'
     steam_id: ''
     gog_id: the_hugo_trilogy
@@ -4554,6 +4904,7 @@
     name: 'Hugo III: Jungle of Doom'
     engine_id: hugo
     company_id: graydesign
+    year: '1992'
     moby_id: '4962'
     steam_id: ''
     gog_id: the_hugo_trilogy
@@ -4567,6 +4918,7 @@
     name: 'Marvel Comics Spider-Man: The Sinister Six'
     engine_id: hypno
     company_id: brooklyn
+    year: '1996'
     moby_id: '34907'
     steam_id: ''
     gog_id: ''
@@ -4580,6 +4932,7 @@
     name: 'Soldier Boyz'
     engine_id: hypno
     company_id: hypnotix
+    year: '1997'
     moby_id: '8383'
     steam_id: ''
     gog_id: ''
@@ -4593,6 +4946,7 @@
     name: "Bruce Coville's My Teacher Is an Alien"
     engine_id: hypno
     company_id: hypnotix
+    year: '1997'
     moby_id: '157029'
     steam_id: ''
     gog_id: ''
@@ -4606,6 +4960,7 @@
     name: Wetlands
     engine_id: hypno
     company_id: hypnotix
+    year: '1995'
     moby_id: '862'
     steam_id: '1367160'
     gog_id: wetlands
@@ -4619,6 +4974,7 @@
     name: 'In Cold Blood'
     engine_id: icb
     company_id: revolution
+    year: '2000'
     moby_id: '3373'
     steam_id: ''
     gog_id: in_cold_blood
@@ -4632,6 +4988,7 @@
     name: 'Igor: Objective Uikokahonia'
     engine_id: igor
     company_id: optik
+    year: '1994'
     moby_id: '2170'
     steam_id: ''
     gog_id: ''
@@ -4645,6 +5002,7 @@
     name: "MTV's Beavis and Butt-Head Do U."
     engine_id: illusions
     company_id: viacom
+    year: '1995'
     moby_id: '2470'
     steam_id: ''
     gog_id: ''
@@ -4658,6 +5016,7 @@
     name: 'Duckman: The Graphic Adventures of a Private Dick'
     engine_id: illusions
     company_id: playmates
+    year: '1997'
     moby_id: '3506'
     steam_id: ''
     gog_id: ''
@@ -4671,6 +5030,7 @@
     name: 'Kingdom: The Far Reaches'
     engine_id: kingdom
     company_id: virtual
+    year: '1995'
     moby_id: '4788'
     steam_id: ''
     gog_id: kingdom_the_far_reaches
@@ -4684,6 +5044,7 @@
     name: 'Eye of the Beholder'
     engine_id: kyra
     company_id: westwood
+    year: '1991'
     moby_id: '835'
     steam_id: '1882240'
     gog_id: forgotten_realms_the_archives_collection_one
@@ -4697,6 +5058,7 @@
     name: 'Eye of the Beholder II: The Legend of Darkmoon'
     engine_id: kyra
     company_id: westwood
+    year: '1991'
     moby_id: '307'
     steam_id: '1882240'
     gog_id: forgotten_realms_the_archives_collection_one
@@ -4710,6 +5072,7 @@
     name: 'The Legend of Kyrandia'
     engine_id: kyra
     company_id: westwood
+    year: '1992'
     moby_id: '394'
     steam_id: ''
     gog_id: legend_of_kyrandia
@@ -4723,6 +5086,7 @@
     name: 'The Legend of Kyrandia: Hand of Fate'
     engine_id: kyra
     company_id: westwood
+    year: '1993'
     moby_id: '871'
     steam_id: ''
     gog_id: legend_of_kyrandia_hand_of_fate
@@ -4736,6 +5100,7 @@
     name: "The Legend of Kyrandia: Book 3 - Malcolm's Revenge"
     engine_id: kyra
     company_id: westwood
+    year: '1994'
     moby_id: '872'
     steam_id: ''
     gog_id: legend_of_kyrandia_malcolms_revenge
@@ -4749,6 +5114,7 @@
     name: 'Lands of Lore: The Throne of Chaos'
     engine_id: kyra
     company_id: westwood
+    year: '1993'
     moby_id: '846'
     steam_id: ''
     gog_id: lands_of_lore_1_2
@@ -4762,6 +5128,7 @@
     name: 'The Labyrinth of Time'
     engine_id: lab
     company_id: terra
+    year: '1993'
     moby_id: '2441'
     steam_id: '266980'
     gog_id: labyrinth_of_time_the
@@ -4775,6 +5142,7 @@
     name: 'The Last Express'
     engine_id: lastexpress
     company_id: smokingcar
+    year: '1997'
     moby_id: '1172'
     steam_id: '252710'
     gog_id: last_express_the
@@ -4788,6 +5156,7 @@
     name: 'The Adventures of Robin Hood'
     engine_id: lilliput
     company_id: millennium
+    year: '1991'
     moby_id: '2918'
     steam_id: ''
     gog_id: ''
@@ -4801,6 +5170,7 @@
     name: 'Rome: Pathway to Power'
     engine_id: lilliput
     company_id: firstlight
+    year: '1992'
     moby_id: '2232'
     steam_id: ''
     gog_id: ''
@@ -4814,6 +5184,7 @@
     name: 'Lure of the Temptress'
     engine_id: lure
     company_id: revolution
+    year: '1992'
     moby_id: '1134'
     steam_id: ''
     gog_id: lure_of_the_temptress
@@ -4827,6 +5198,7 @@
     name: 'Orion Burger'
     engine_id: m4
     company_id: sanctuary
+    year: '1996'
     moby_id: '3190'
     steam_id: ''
     gog_id: ''
@@ -4840,6 +5212,7 @@
     name: "Ripley's Believe It or Not!: The Riddle of Master Lu"
     engine_id: m4
     company_id: sanctuary
+    year: '1995'
     moby_id: '1996'
     steam_id: ''
     gog_id: ''
@@ -4853,6 +5226,7 @@
     name: 'Deja Vu: A Nightmare Comes True!!'
     engine_id: macventure
     company_id: icom
+    year: '1985'
     moby_id: '1069'
     steam_id: '343820'
     gog_id: ''
@@ -4866,6 +5240,7 @@
     name: 'Déjà Vu II: Lost in Las Vegas'
     engine_id: macventure
     company_id: icom
+    year: '1988'
     moby_id: '7743'
     steam_id: '343830'
     gog_id: ''
@@ -4879,6 +5254,7 @@
     name: Shadowgate
     engine_id: macventure
     company_id: icom
+    year: '1987'
     moby_id: '1070'
     steam_id: '343800'
     gog_id: ''
@@ -4892,6 +5268,7 @@
     name: Uninvited
     engine_id: macventure
     company_id: icom
+    year: '1986'
     moby_id: '1071'
     steam_id: '343810'
     gog_id: ''
@@ -4905,6 +5282,7 @@
     name: 'Leather Goddesses of Phobos! 2: Gas Pump Girls Meet the Pulsating Inconvenience from Planet X'
     engine_id: made
     company_id: infocom
+    year: '1992'
     moby_id: '480'
     steam_id: ''
     gog_id: ''
@@ -4918,6 +5296,7 @@
     name: 'The Manhole'
     engine_id: made
     company_id: cyan
+    year: '1988'
     moby_id: '9222'
     steam_id: ''
     gog_id: ''
@@ -4931,6 +5310,7 @@
     name: "Rodney's Funscreen"
     engine_id: made
     company_id: artbox
+    year: '1992'
     moby_id: '39698'
     steam_id: ''
     gog_id: ''
@@ -4944,6 +5324,7 @@
     name: 'Return to Zork'
     engine_id: made
     company_id: activision
+    year: '1993'
     moby_id: '1219'
     steam_id: '585240'
     gog_id: return_to_zork
@@ -4957,6 +5338,7 @@
     name: Dragonsphere
     engine_id: mads
     company_id: microprose
+    year: '1994'
     moby_id: '2257'
     steam_id: ''
     gog_id: ''
@@ -4970,6 +5352,7 @@
     name: 'Rex Nebular and the Cosmic Gender Bender'
     engine_id: mads
     company_id: microprose
+    year: '1992'
     moby_id: '539'
     steam_id: '328430'
     gog_id: rex_nebular_and_the_cosmic_gender_bender
@@ -4983,6 +5366,7 @@
     name: 'Return of the Phantom'
     engine_id: mads
     company_id: microprose
+    year: '1993'
     moby_id: '2011'
     steam_id: '1299710'
     gog_id: return_of_the_phantom
@@ -4996,6 +5380,7 @@
     name: 'Might and Magic: Book One - Secret of the Inner Sanctum'
     engine_id: mm1
     company_id: nwc
+    year: '1986'
     moby_id: '1619'
     steam_id: ''
     gog_id: might_and_magic_6_limited_edition
@@ -5009,6 +5394,7 @@
     name: 'Alien Tales'
     engine_id: mohawk
     company_id: broderbund
+    year: '1995'
     moby_id: '130786'
     steam_id: ''
     gog_id: ''
@@ -5022,6 +5408,7 @@
     name: "Marc Brown's Arthur's Teacher Trouble"
     engine_id: mohawk
     company_id: livingbooks
+    year: '1994'
     moby_id: '69084'
     steam_id: ''
     gog_id: ''
@@ -5035,6 +5422,7 @@
     name: "Arthur's Birthday"
     engine_id: mohawk
     company_id: livingbooks
+    year: '1994'
     moby_id: '63198'
     steam_id: ''
     gog_id: ''
@@ -5048,6 +5436,7 @@
     name: "Arthur's Computer Adventure"
     engine_id: mohawk
     company_id: livingbooks
+    year: '1998'
     moby_id: '79724'
     steam_id: ''
     gog_id: ''
@@ -5061,6 +5450,7 @@
     name: "Arthur's Reading Race"
     engine_id: mohawk
     company_id: livingbooks
+    year: '1997'
     moby_id: '44963'
     steam_id: ''
     gog_id: ''
@@ -5074,6 +5464,7 @@
     name: 'The Berenstain Bears In The Dark'
     engine_id: mohawk
     company_id: livingbooks
+    year: '1996'
     moby_id: '79722'
     steam_id: ''
     gog_id: ''
@@ -5087,6 +5478,7 @@
     name: 'The Berenstain Bears Get in a Fight'
     engine_id: mohawk
     company_id: livingbooks
+    year: '1995'
     moby_id: '71844'
     steam_id: ''
     gog_id: ''
@@ -5100,6 +5492,7 @@
     name: "Carmen Sandiego's ThinkQuick Challenge"
     engine_id: mohawk
     company_id: tlc
+    year: '1999'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -5113,6 +5506,7 @@
     name: "Carmen Sandiego's ThinkQuick Challenge Custom Question Creator"
     engine_id: mohawk
     company_id: tlc
+    year: '1999'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -5126,6 +5520,7 @@
     name: 'The Cat in the Hat'
     engine_id: mohawk
     company_id: livingbooks
+    year: '2004'
     moby_id: '15265'
     steam_id: ''
     gog_id: ''
@@ -5139,6 +5534,7 @@
     name: 'The Story of Creation'
     engine_id: mohawk
     company_id: littleark
+    year: '1997'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -5152,6 +5548,7 @@
     name: 'Where in Time is Carmen Sandiego?'
     engine_id: mohawk
     company_id: broderbund
+    year: '1989'
     moby_id: '6564'
     steam_id: ''
     gog_id: ''
@@ -5165,6 +5562,7 @@
     name: 'Where in the USA is Carmen Sandiego?'
     engine_id: mohawk
     company_id: broderbund
+    year: '1986'
     moby_id: '315'
     steam_id: ''
     gog_id: ''
@@ -5178,6 +5576,7 @@
     name: 'Where in the World is Carmen Sandiego?'
     engine_id: mohawk
     company_id: broderbund
+    year: '1998'
     moby_id: '147200'
     steam_id: ''
     gog_id: ''
@@ -5191,6 +5590,7 @@
     name: "Daniel in the Lions' Den"
     engine_id: mohawk
     company_id: littleark
+    year: '1997'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -5204,6 +5604,7 @@
     name: 'Just Grandma and Me'
     engine_id: mohawk
     company_id: livingbooks
+    year: '1992'
     moby_id: '17688'
     steam_id: ''
     gog_id: ''
@@ -5217,6 +5618,7 @@
     name: 'Green Eggs and Ham'
     engine_id: mohawk
     company_id: livingbooks
+    year: '1996'
     moby_id: '71853'
     steam_id: ''
     gog_id: ''
@@ -5230,6 +5632,7 @@
     name: 'Harry and the Haunted House'
     engine_id: mohawk
     company_id: livingbooks
+    year: '1994'
     moby_id: '4723'
     steam_id: ''
     gog_id: ''
@@ -5243,6 +5646,7 @@
     name: 'Koala Lumpur: Journey to the Edge'
     engine_id: mohawk
     company_id: broderbund
+    year: '1997'
     moby_id: '4462'
     steam_id: ''
     gog_id: ''
@@ -5256,6 +5660,7 @@
     name: 'Living Books Sampler'
     engine_id: mohawk
     company_id: livingbooks
+    year: '1995'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -5269,6 +5674,7 @@
     name: 'Little Monster at School'
     engine_id: mohawk
     company_id: livingbooks
+    year: '1993'
     moby_id: '17715'
     steam_id: ''
     gog_id: ''
@@ -5282,6 +5688,7 @@
     name: "Maggie's Farmyard Adventure"
     engine_id: mohawk
     company_id: livingbooks
+    year: '1997'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -5295,6 +5702,7 @@
     name: 'The Making of Myst'
     engine_id: mohawk
     company_id: cyan
+    year: '1993'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -5308,6 +5716,7 @@
     name: Myst
     engine_id: mohawk
     company_id: cyan
+    year: '1993'
     moby_id: '1223'
     steam_id: ''
     gog_id: ''
@@ -5321,6 +5730,7 @@
     name: 'Myst: Masterpiece Edition'
     engine_id: mohawk
     company_id: cyan
+    year: '1999'
     moby_id: '1253'
     steam_id: '63660'
     gog_id: myst_masterpiece_edition
@@ -5334,6 +5744,7 @@
     name: 'The New Kid on the Block'
     engine_id: mohawk
     company_id: livingbooks
+    year: '1993'
     moby_id: '62289'
     steam_id: ''
     gog_id: ''
@@ -5347,6 +5758,7 @@
     name: "Orly's Draw-A-Story"
     engine_id: mohawk
     company_id: broderbund
+    year: '1997'
     moby_id: '140066'
     steam_id: ''
     gog_id: ''
@@ -5360,6 +5772,7 @@
     name: 'Riven: The Sequel to Myst'
     engine_id: mohawk
     company_id: cyan
+    year: '1997'
     moby_id: '1262'
     steam_id: '63610'
     gog_id: riven_the_sequel_to_myst
@@ -5373,6 +5786,7 @@
     name: "Ruff's Bone"
     engine_id: mohawk
     company_id: livingbooks
+    year: '1994'
     moby_id: '71458'
     steam_id: ''
     gog_id: ''
@@ -5386,6 +5800,7 @@
     name: 'Rugrats Adventure Game'
     engine_id: mohawk
     company_id: broderbund
+    year: '1998'
     moby_id: '31611'
     steam_id: ''
     gog_id: ''
@@ -5399,6 +5814,7 @@
     name: 'Rugrats Print Shop'
     engine_id: mohawk
     company_id: livingbooks
+    year: '1998'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -5412,6 +5828,7 @@
     name: "Dr. Seuss's ABC"
     engine_id: mohawk
     company_id: livingbooks
+    year: '1995'
     moby_id: '71855'
     steam_id: ''
     gog_id: ''
@@ -5425,6 +5842,7 @@
     name: 'Sheila Rae, the Brave'
     engine_id: mohawk
     company_id: livingbooks
+    year: '1996'
     moby_id: '17900'
     steam_id: ''
     gog_id: ''
@@ -5438,6 +5856,7 @@
     name: Stellaluna
     engine_id: mohawk
     company_id: broderbund
+    year: '1996'
     moby_id: '71459'
     steam_id: ''
     gog_id: ''
@@ -5451,6 +5870,7 @@
     name: "Aesop's Fables: The Tortoise and the Hare"
     engine_id: mohawk
     company_id: livingbooks
+    year: '1993'
     moby_id: '44804'
     steam_id: ''
     gog_id: ''
@@ -5464,6 +5884,7 @@
     name: 'Logical Journey of the Zoombinis'
     engine_id: mohawk
     company_id: broderbund
+    year: '1996'
     moby_id: '16801'
     steam_id: ''
     gog_id: ''
@@ -5477,6 +5898,7 @@
     name: 'Mortville Manor'
     engine_id: mortevielle
     company_id: lankhor
+    year: '1986'
     moby_id: '2504'
     steam_id: ''
     gog_id: ''
@@ -5490,6 +5912,7 @@
     name: 'Muppet Treasure Island '
     engine_id: mtropolis
     company_id: activision
+    year: '1996'
     moby_id: '6477'
     steam_id: ''
     gog_id: ''
@@ -5503,6 +5926,7 @@
     name: Obsidian
     engine_id: mtropolis
     company_id: rocketscience
+    year: '1997'
     moby_id: '1564'
     steam_id: '2471130'
     gog_id: ''
@@ -5516,6 +5940,7 @@
     name: 'Mutation of J.B.'
     engine_id: mutationofjb
     company_id: invention
+    year: '1996'
     moby_id: '34036'
     steam_id: ''
     gog_id: ''
@@ -5529,6 +5954,7 @@
     name: 'Myst III: Exile'
     engine_id: myst3
     company_id: presto
+    year: '2001'
     moby_id: '3520'
     steam_id: '925930'
     gog_id: myst_3_exile
@@ -5542,6 +5968,7 @@
     name: 'Nancy Drew: Secrets Can Kill'
     engine_id: nancy
     company_id: herinteractive
+    year: '1998'
     moby_id: '4907'
     steam_id: ''
     gog_id: ''
@@ -5555,6 +5982,7 @@
     name: 'Nancy Drew: Stay Tuned for Danger'
     engine_id: nancy
     company_id: herinteractive
+    year: '1999'
     moby_id: '2425'
     steam_id: ''
     gog_id: ''
@@ -5568,6 +5996,7 @@
     name: 'Nancy Drew: Message in a Haunted Mansion'
     engine_id: nancy
     company_id: herinteractive
+    year: '2000'
     moby_id: '4908'
     steam_id: '615770'
     gog_id: ''
@@ -5581,6 +6010,7 @@
     name: 'Nancy Drew: Treasure in the Royal Tower'
     engine_id: nancy
     company_id: herinteractive
+    year: '2001'
     moby_id: '4910'
     steam_id: '615780'
     gog_id: ''
@@ -5594,6 +6024,7 @@
     name: 'Nancy Drew: The Final Scene'
     engine_id: nancy
     company_id: herinteractive
+    year: '2001'
     moby_id: '5535'
     steam_id: '615730'
     gog_id: ''
@@ -5607,6 +6038,7 @@
     name: 'The Vampire Diaries'
     engine_id: nancy
     company_id: herinteractive
+    year: '1996'
     moby_id: '24234'
     steam_id: ''
     gog_id: ''
@@ -5620,6 +6052,7 @@
     name: 'The Neverhood'
     engine_id: neverhood
     company_id: neverhood
+    year: '1996'
     moby_id: '1037'
     steam_id: ''
     gog_id: ''
@@ -5633,6 +6066,7 @@
     name: 'Full Pipe'
     engine_id: ngi
     company_id: 1c
+    year: '2003'
     moby_id: '26283'
     steam_id: ''
     gog_id: ''
@@ -5646,6 +6080,7 @@
     name: 'The Big Red Adventure'
     engine_id: parallaction
     company_id: dynabyte
+    year: '1995'
     moby_id: '3206'
     steam_id: ''
     gog_id: ''
@@ -5659,6 +6094,7 @@
     name: 'Nippon Safes, Inc.'
     engine_id: parallaction
     company_id: dynabyte
+    year: '1992'
     moby_id: '13613'
     steam_id: ''
     gog_id: ''
@@ -5672,6 +6108,7 @@
     name: 'The Journeyman Project: Pegasus Prime'
     engine_id: pegasus
     company_id: presto
+    year: '1997'
     moby_id: '23526'
     steam_id: '359420'
     gog_id: journeyman_project_1_pegasus_prime_the
@@ -5685,6 +6122,7 @@
     name: 'Red Comrades 1: Save the Galaxy'
     engine_id: petka
     company_id: skif
+    year: '1999'
     moby_id: '1854'
     steam_id: ''
     gog_id: ''
@@ -5698,6 +6136,7 @@
     name: 'Red Comrades 2: For the Great Justice'
     engine_id: petka
     company_id: skif
+    year: '1999'
     moby_id: '10705'
     steam_id: ''
     gog_id: ''
@@ -5711,6 +6150,7 @@
     name: 'The Pink Panther: Passport to Peril'
     engine_id: pink
     company_id: wanderlust
+    year: '1996'
     moby_id: '7995'
     steam_id: ''
     gog_id: ''
@@ -5724,6 +6164,7 @@
     name: 'The Pink Panther: Hokus Pokus Pink'
     engine_id: pink
     company_id: wanderlust
+    year: '1998'
     moby_id: '41450'
     steam_id: ''
     gog_id: ''
@@ -5737,6 +6178,7 @@
     name: "Plumbers Don't Wear Ties"
     engine_id: plumbers
     company_id: unitedpixtures
+    year: '1993'
     moby_id: '25730'
     steam_id: ''
     gog_id: ''
@@ -5750,6 +6192,7 @@
     name: 'The Prince and the Coward'
     engine_id: prince
     company_id: metropolis
+    year: '1998'
     moby_id: '30716'
     steam_id: ''
     gog_id: galador_the_prince_and_the_coward
@@ -5763,6 +6206,7 @@
     name: 'Private Eye'
     engine_id: private
     company_id: brooklyn
+    year: '1996'
     moby_id: '7117'
     steam_id: ''
     gog_id: ''
@@ -5776,6 +6220,7 @@
     name: 'Flight of the Amazon Queen'
     engine_id: queen
     company_id: ibi
+    year: '1995'
     moby_id: '352'
     steam_id: '1111010'
     gog_id: flight_of_the_amazon_queen
@@ -5789,6 +6234,7 @@
     name: Dinotopia
     engine_id: saga
     company_id: dreamersguild
+    year: '1995'
     moby_id: '3269'
     steam_id: ''
     gog_id: ''
@@ -5802,6 +6248,7 @@
     name: 'Halls of the Dead: Faery Tale Adventure II'
     engine_id: saga2
     company_id: dreamersguild
+    year: '1997'
     moby_id: '3414'
     steam_id: ''
     gog_id: ''
@@ -5815,6 +6262,7 @@
     name: 'Harlan Ellison: I Have No Mouth, and I Must Scream'
     engine_id: saga
     company_id: dreamersguild
+    year: '1995'
     moby_id: '617'
     steam_id: '245390'
     gog_id: i_have_no_mouth_and_i_must_scream
@@ -5828,6 +6276,7 @@
     name: 'Inherit the Earth: Quest for the Orb'
     engine_id: saga
     company_id: dreamersguild
+    year: '1994'
     moby_id: '4008'
     steam_id: '257260'
     gog_id: inherit_the_earth
@@ -5841,6 +6290,7 @@
     name: 'Astro Chicken'
     engine_id: sci
     company_id: sierra
+    year: '1988'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -5854,6 +6304,7 @@
     name: 'Conquests of Camelot: The Search for the Grail'
     engine_id: sci
     company_id: sierra
+    year: '1990'
     moby_id: '1408'
     steam_id: ''
     gog_id: conquests_of_camelot
@@ -5867,6 +6318,7 @@
     name: 'Castle of Dr. Brain'
     engine_id: sci
     company_id: sierra
+    year: '1991'
     moby_id: '1523'
     steam_id: ''
     gog_id: ''
@@ -5880,6 +6332,7 @@
     name: 'The Dating Pool'
     engine_id: sci
     company_id: fan
+    year: '2016'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -5893,6 +6346,7 @@
     name: 'Inside the Chest'
     engine_id: sci
     company_id: sierra
+    year: '1994'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -5906,6 +6360,7 @@
     name: 'Christmas Card 1988'
     engine_id: sci
     company_id: sierra
+    year: '1988'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -5919,6 +6374,7 @@
     name: 'Christmas Card 1990: The Seasoned Professional'
     engine_id: sci
     company_id: sierra
+    year: '1990'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -5932,6 +6388,7 @@
     name: 'Christmas Card 1992'
     engine_id: sci
     company_id: sierra
+    year: '1992'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -5945,6 +6402,7 @@
     name: "Crazy Nick's Software Picks: King Graham's Board Game Challenge"
     engine_id: sci
     company_id: sierra
+    year: '1992'
     moby_id: '20400'
     steam_id: ''
     gog_id: ''
@@ -5958,6 +6416,7 @@
     name: "Crazy Nick's Software Picks: Parlor Games with Laura Bow"
     engine_id: sci
     company_id: sierra
+    year: '1992'
     moby_id: '95473'
     steam_id: ''
     gog_id: ''
@@ -5971,6 +6430,7 @@
     name: "Crazy Nick's Software Picks: Robin Hood's Games of Skill and Chance"
     engine_id: sci
     company_id: sierra
+    year: '1992'
     moby_id: '95474'
     steam_id: ''
     gog_id: ''
@@ -5984,6 +6444,7 @@
     name: "Crazy Nick's Software Picks: Leisure Suit Larry's Casino"
     engine_id: sci
     company_id: sierra
+    year: '1992'
     moby_id: '92556'
     steam_id: ''
     gog_id: ''
@@ -5997,6 +6458,7 @@
     name: "Crazy Nick's Software Picks: Roger Wilco's Spaced Out Game Pack"
     engine_id: sci
     company_id: sierra
+    year: '1992'
     moby_id: '95475'
     steam_id: ''
     gog_id: ''
@@ -6010,6 +6472,7 @@
     name: 'EcoQuest: The Search for Cetus'
     engine_id: sci
     company_id: sierra
+    year: '1991'
     moby_id: '584'
     steam_id: ''
     gog_id: ''
@@ -6023,6 +6486,7 @@
     name: 'EcoQuest II: Lost Secret of the Rainforest'
     engine_id: sci
     company_id: sierra
+    year: '1993'
     moby_id: '619'
     steam_id: ''
     gog_id: ''
@@ -6036,6 +6500,7 @@
     name: 'Mixed Up Fairy Tales'
     engine_id: sci
     company_id: sierra
+    year: '1991'
     moby_id: '6880'
     steam_id: ''
     gog_id: ''
@@ -6049,6 +6514,7 @@
     name: 'Freddy Pharkas: Frontier Pharmacist'
     engine_id: sci
     company_id: sierra
+    year: '1993'
     moby_id: '1785'
     steam_id: ''
     gog_id: freddy_pharkas_frontier_pharmacist
@@ -6062,6 +6528,7 @@
     name: "Fun Seeker's Guide"
     engine_id: sci
     company_id: sierra
+    year: '1991'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -6075,6 +6542,7 @@
     name: 'Gabriel Knight: Sins of the Fathers'
     engine_id: sci
     company_id: sierra
+    year: '1993'
     moby_id: '116'
     steam_id: '495700'
     gog_id: gabriel_knight_sins_of_the_fathers
@@ -6088,6 +6556,7 @@
     name: 'Gabriel Knight: Sins of the Fathers (Demo)'
     engine_id: sci
     company_id: sierra
+    year: '1993'
     moby_id: '116'
     steam_id: ''
     gog_id: ''
@@ -6101,6 +6570,7 @@
     name: 'The Beast Within: A Gabriel Knight Mystery'
     engine_id: sci
     company_id: sierra
+    year: '1995'
     moby_id: '118'
     steam_id: '496760'
     gog_id: gabriel_knight_2_the_beast_within
@@ -6114,6 +6584,7 @@
     name: "Hoyle's Official Book of Games: Volume 1"
     engine_id: sci
     company_id: sierra
+    year: '1989'
     moby_id: '759'
     steam_id: ''
     gog_id: ''
@@ -6127,6 +6598,7 @@
     name: "Hoyle's Official Book of Games: Volume 2"
     engine_id: sci
     company_id: sierra
+    year: '1990'
     moby_id: '760'
     steam_id: ''
     gog_id: ''
@@ -6140,6 +6612,7 @@
     name: "Hoyle's Official Book of Games: Volume 3"
     engine_id: sci
     company_id: sierra
+    year: '1991'
     moby_id: '2124'
     steam_id: ''
     gog_id: ''
@@ -6153,6 +6626,7 @@
     name: 'Hoyle Classic Card Games'
     engine_id: sci
     company_id: sierra
+    year: '1993'
     moby_id: '30264'
     steam_id: ''
     gog_id: ''
@@ -6166,6 +6640,7 @@
     name: 'Hoyle Classic Games'
     engine_id: sci
     company_id: sierra
+    year: '1995'
     moby_id: '28770'
     steam_id: ''
     gog_id: ''
@@ -6179,6 +6654,7 @@
     name: 'Hoyle Bridge'
     engine_id: sci
     company_id: sierra
+    year: '1996'
     moby_id: '17466'
     steam_id: ''
     gog_id: ''
@@ -6192,6 +6668,7 @@
     name: "Hoyle Children's Collection"
     engine_id: sci
     company_id: sierra
+    year: '1996'
     moby_id: '19773'
     steam_id: ''
     gog_id: ''
@@ -6205,6 +6682,7 @@
     name: 'Hoyle Solitaire'
     engine_id: sci
     company_id: sierra
+    year: '1996'
     moby_id: '1232'
     steam_id: ''
     gog_id: ''
@@ -6218,6 +6696,7 @@
     name: 'Code-Name: Iceman'
     engine_id: sci
     company_id: sierra
+    year: '1989'
     moby_id: '436'
     steam_id: ''
     gog_id: codename_iceman
@@ -6231,6 +6710,7 @@
     name: 'ImagiNation Network (INN) Demo'
     engine_id: sci
     company_id: sierra
+    year: '1993'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -6244,6 +6724,7 @@
     name: 'The Island of Dr. Brain'
     engine_id: sci
     company_id: sierra
+    year: '1992'
     moby_id: '1524'
     steam_id: ''
     gog_id: ''
@@ -6257,6 +6738,7 @@
     name: 'Jones in the Fast Lane'
     engine_id: sci
     company_id: sierra
+    year: '1991'
     moby_id: '370'
     steam_id: ''
     gog_id: ''
@@ -6270,6 +6752,7 @@
     name: "King's Quest: Quest for the Crown"
     engine_id: sci
     company_id: sierra
+    year: '1984'
     moby_id: '122'
     steam_id: '10100'
     gog_id: kings_quest_1_2_3
@@ -6283,6 +6766,7 @@
     name: "King's Quest IV: The Perils of Rosella"
     engine_id: sci
     company_id: sierra
+    year: '1988'
     moby_id: '129'
     steam_id: '10100'
     gog_id: kings_quest_4_5_6
@@ -6296,6 +6780,7 @@
     name: "King's Quest V: Absence Makes the Heart Go Yonder!"
     engine_id: sci
     company_id: sierra
+    year: '1990'
     moby_id: '130'
     steam_id: '10100'
     gog_id: kings_quest_4_5_6
@@ -6309,6 +6794,7 @@
     name: "King's Quest VI: Heir Today, Gone Tomorrow"
     engine_id: sci
     company_id: sierra
+    year: '1992'
     moby_id: '131'
     steam_id: '10100'
     gog_id: kings_quest_4_5_6
@@ -6322,6 +6808,7 @@
     name: "King's Quest VII: The Princeless Bride"
     engine_id: sci
     company_id: sierra
+    year: '1994'
     moby_id: '135'
     steam_id: '10100'
     gog_id: kings_quest_7_8
@@ -6335,6 +6822,7 @@
     name: "King's Questions"
     engine_id: sci
     company_id: sierra
+    year: '1994'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -6348,6 +6836,7 @@
     name: "Laura Bow: The Colonel's Bequest"
     engine_id: sci
     company_id: sierra
+    year: '1989'
     moby_id: '461'
     steam_id: ''
     gog_id: the_colonels_bequest
@@ -6361,6 +6850,7 @@
     name: 'Laura Bow 2: The Dagger of Amon Ra'
     engine_id: sci
     company_id: sierra
+    year: '1992'
     moby_id: '462'
     steam_id: ''
     gog_id: the_dagger_of_amon_ra
@@ -6374,6 +6864,7 @@
     name: 'Lighthouse: The Dark Being'
     engine_id: sci
     company_id: sierra
+    year: '1996'
     moby_id: '266'
     steam_id: ''
     gog_id: lighthouse_th
@@ -6387,6 +6878,7 @@
     name: 'Conquests of the Longbow: The Legend of Robin Hood'
     engine_id: sci
     company_id: sierra
+    year: '1991'
     moby_id: '1967'
     steam_id: ''
     gog_id: conquests_of_the_longbow
@@ -6400,6 +6892,7 @@
     name: 'Leisure Suit Larry in the Land of the Lounge Lizards'
     engine_id: sci
     company_id: sierra
+    year: '1987'
     moby_id: '379'
     steam_id: '763970'
     gog_id: leisure_suit_larry
@@ -6413,6 +6906,7 @@
     name: 'Leisure Suit Larry 2: Goes Looking for Love (in Several Wrong Places)'
     engine_id: sci
     company_id: sierra
+    year: '1988'
     moby_id: '409'
     steam_id: '765840'
     gog_id: leisure_suit_larry
@@ -6426,6 +6920,7 @@
     name: 'Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals'
     engine_id: sci
     company_id: sierra
+    year: '1989'
     moby_id: '412'
     steam_id: '765850'
     gog_id: leisure_suit_larry
@@ -6439,6 +6934,7 @@
     name: 'Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work'
     engine_id: sci
     company_id: sierra
+    year: '1991'
     moby_id: '408'
     steam_id: '765860'
     gog_id: leisure_suit_larry
@@ -6452,6 +6948,7 @@
     name: 'Leisure Suit Larry 6: Shape Up or Slip Out!'
     engine_id: sci
     company_id: sierra
+    year: '1993'
     moby_id: '407'
     steam_id: '765910'
     gog_id: leisure_suit_larry
@@ -6465,6 +6962,7 @@
     name: 'Leisure Suit Larry 6: Shape Up or Slip Out!'
     engine_id: sci
     company_id: sierra
+    year: '1993'
     moby_id: '407'
     steam_id: '765910'
     gog_id: leisure_suit_larry
@@ -6478,6 +6976,7 @@
     name: 'Leisure Suit Larry 7: Love for Sail!'
     engine_id: sci
     company_id: sierra
+    year: '1996'
     moby_id: '381'
     steam_id: '765890'
     gog_id: leisure_suit_larry_love_for_sail
@@ -6491,6 +6990,7 @@
     name: 'Mixed-Up Mother Goose'
     engine_id: sci
     company_id: sierra
+    year: '1987'
     moby_id: '758'
     steam_id: ''
     gog_id: ''
@@ -6504,6 +7004,7 @@
     name: 'Mixed-Up Mother Goose'
     engine_id: sci
     company_id: sierra
+    year: '1991'
     moby_id: '1085'
     steam_id: ''
     gog_id: ''
@@ -6517,6 +7018,7 @@
     name: 'Mixed-Up Mother Goose Deluxe'
     engine_id: sci
     company_id: sierra
+    year: '1995'
     moby_id: '3327'
     steam_id: ''
     gog_id: ''
@@ -6530,6 +7032,7 @@
     name: 'Ms. Astro Chicken'
     engine_id: sci
     company_id: sierra
+    year: '1991'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -6543,6 +7046,7 @@
     name: "Pepper's Adventures in Time"
     engine_id: sci
     company_id: sierra
+    year: '1993'
     moby_id: '6312'
     steam_id: ''
     gog_id: ''
@@ -6556,6 +7060,7 @@
     name: Phantasmagoria
     engine_id: sci
     company_id: sierra
+    year: '1995'
     moby_id: '1164'
     steam_id: '501990'
     gog_id: phantasmagoria
@@ -6569,6 +7074,7 @@
     name: 'Phantasmagoria 2: A Puzzle of Flesh'
     engine_id: sci
     company_id: sierra
+    year: '1996'
     moby_id: '1216'
     steam_id: '501970'
     gog_id: phantasmagoria_2
@@ -6582,6 +7088,7 @@
     name: 'Police Quest: In Pursuit of the Death Angel'
     engine_id: sci
     company_id: sierra
+    year: '1987'
     moby_id: '146'
     steam_id: '494740'
     gog_id: police_quest_1_2_3_4
@@ -6595,6 +7102,7 @@
     name: 'Police Quest 2: The Vengeance'
     engine_id: sci
     company_id: sierra
+    year: '1988'
     moby_id: '147'
     steam_id: '494740'
     gog_id: police_quest_1_2_3_4
@@ -6608,6 +7116,7 @@
     name: 'Police Quest 3: The Kindred'
     engine_id: sci
     company_id: sierra
+    year: '1991'
     moby_id: '148'
     steam_id: '494740'
     gog_id: police_quest_1_2_3_4
@@ -6621,6 +7130,7 @@
     name: 'Police Quest IV: Open Season'
     engine_id: sci
     company_id: sierra
+    year: '1993'
     moby_id: '149'
     steam_id: '494740'
     gog_id: police_quest_1_2_3_4
@@ -6634,6 +7144,7 @@
     name: 'Police Quest IV: Open Season (Demo)'
     engine_id: sci
     company_id: sierra
+    year: '1993'
     moby_id: '149'
     steam_id: ''
     gog_id: ''
@@ -6647,6 +7158,7 @@
     name: 'Police Quest: SWAT'
     engine_id: sci
     company_id: sierra
+    year: '1995'
     moby_id: '150'
     steam_id: ''
     gog_id: police_quest_swat_1_2
@@ -6660,6 +7172,7 @@
     name: 'Quest for Glory I: So You Want To Be A Hero'
     engine_id: sci
     company_id: sierra
+    year: '1992'
     moby_id: '16075'
     steam_id: '502750'
     gog_id: quest_for_glory
@@ -6673,6 +7186,7 @@
     name: 'Quest for Glory I: So You Want To Be A Hero'
     engine_id: sci
     company_id: sierra
+    year: '1992'
     moby_id: '16075'
     steam_id: '502750'
     gog_id: quest_for_glory
@@ -6686,6 +7200,7 @@
     name: 'Quest for Glory II: Trial by Fire'
     engine_id: sci
     company_id: sierra
+    year: '1990'
     moby_id: '169'
     steam_id: '502750'
     gog_id: quest_for_glory
@@ -6699,6 +7214,7 @@
     name: 'Quest for Glory III: Wages of War'
     engine_id: sci
     company_id: sierra
+    year: '1992'
     moby_id: '173'
     steam_id: '502750'
     gog_id: quest_for_glory
@@ -6712,6 +7228,7 @@
     name: 'Quest for Glory IV: Shadows of Darkness'
     engine_id: sci
     company_id: sierra
+    year: '1993'
     moby_id: '119'
     steam_id: '502750'
     gog_id: quest_for_glory
@@ -6725,6 +7242,7 @@
     name: 'Quest for Glory IV: Shadows of Darkness (Demo)'
     engine_id: sci
     company_id: sierra
+    year: '1993'
     moby_id: '119'
     steam_id: ''
     gog_id: ''
@@ -6738,6 +7256,7 @@
     name: RAMA
     engine_id: sci
     company_id: sierra
+    year: '1996'
     moby_id: '1255'
     steam_id: ''
     gog_id: ''
@@ -6751,6 +7270,7 @@
     name: 'The Realm'
     engine_id: sci
     company_id: sierra
+    year: '1997'
     moby_id: '4363'
     steam_id: ''
     gog_id: ''
@@ -6764,6 +7284,7 @@
     name: 'Sierra SCI Game'
     engine_id: sci
     company_id: sierra
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -6777,6 +7298,7 @@
     name: 'Fanmade SCI Game'
     engine_id: sci
     company_id: fan
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -6790,6 +7312,7 @@
     name: Shivers
     engine_id: sci
     company_id: sierra
+    year: '1995'
     moby_id: '663'
     steam_id: ''
     gog_id: shivers
@@ -6803,6 +7326,7 @@
     name: 'Shivers 2: Harvest of Souls'
     engine_id: sci
     company_id: sierra
+    year: '1997'
     moby_id: '665'
     steam_id: ''
     gog_id: shivers_ii_harvest_of_souls
@@ -6816,6 +7340,7 @@
     name: 'Slater & Charlie Go Camping'
     engine_id: sci
     company_id: sierra
+    year: '1993'
     moby_id: '22337'
     steam_id: ''
     gog_id: ''
@@ -6829,6 +7354,7 @@
     name: 'Space Quest I: Roger Wilco in the Sarien Encounter'
     engine_id: sci
     company_id: sierra
+    year: '1991'
     moby_id: '187'
     steam_id: '10110'
     gog_id: space_quest_1_2_3
@@ -6842,6 +7368,7 @@
     name: 'Space Quest III: The Pirates of Pestulon'
     engine_id: sci
     company_id: sierra
+    year: '1989'
     moby_id: '142'
     steam_id: '10110'
     gog_id: space_quest_1_2_3
@@ -6855,6 +7382,7 @@
     name: 'Space Quest IV: Roger Wilco and the Time Rippers'
     engine_id: sci
     company_id: sierra
+    year: '1991'
     moby_id: '143'
     steam_id: '10110'
     gog_id: space_quest_4_5_6
@@ -6868,6 +7396,7 @@
     name: 'Space Quest V: The Next Mutation'
     engine_id: sci
     company_id: sierra
+    year: '1993'
     moby_id: '144'
     steam_id: '10110'
     gog_id: space_quest_4_5_6
@@ -6881,6 +7410,7 @@
     name: 'Space Quest 6: Roger Wilco in the Spinal Frontier'
     engine_id: sci
     company_id: sierra
+    year: '1995'
     moby_id: '145'
     steam_id: '10110'
     gog_id: space_quest_4_5_6
@@ -6894,6 +7424,7 @@
     name: "Torin's Passage"
     engine_id: sci
     company_id: sierra
+    year: '1995'
     moby_id: '1228'
     steam_id: ''
     gog_id: torins_passage
@@ -6907,6 +7438,7 @@
     name: "Putt-Putt and Fatty Bear's Activity Pack"
     engine_id: scumm
     company_id: he
+    year: '1994'
     moby_id: '21083'
     steam_id: '294720'
     gog_id: ''
@@ -6920,6 +7452,7 @@
     name: "Let's Explore the Airport"
     engine_id: scumm
     company_id: he
+    year: '1995'
     moby_id: '20995'
     steam_id: '363050'
     gog_id: ''
@@ -6933,6 +7466,7 @@
     name: "Blue's Clues: Blue's Art Time Activities"
     engine_id: scumm
     company_id: he
+    year: '2000'
     moby_id: '30820'
     steam_id: ''
     gog_id: ''
@@ -6946,6 +7480,7 @@
     name: 'Indiana Jones and the Fate of Atlantis'
     engine_id: scumm
     company_id: lucasarts
+    year: '1992'
     moby_id: '316'
     steam_id: '6010'
     gog_id: indiana_jones_and_the_fate_of_atlantis
@@ -6959,6 +7494,7 @@
     name: "Putt-Putt and Pep's Balloon-O-Rama"
     engine_id: scumm
     company_id: he
+    year: '1996'
     moby_id: '12433'
     steam_id: '284000'
     gog_id: ''
@@ -6972,6 +7508,7 @@
     name: 'Backyard Baseball'
     engine_id: scumm
     company_id: he
+    year: '2003'
     moby_id: '11842'
     steam_id: ''
     gog_id: ''
@@ -6985,6 +7522,7 @@
     name: 'Backyard Baseball 2001'
     engine_id: scumm
     company_id: he
+    year: '2000'
     moby_id: '21073'
     steam_id: ''
     gog_id: ''
@@ -6998,6 +7536,7 @@
     name: 'Backyard Baseball 2003'
     engine_id: scumm
     company_id: he
+    year: '2002'
     moby_id: '7941'
     steam_id: ''
     gog_id: ''
@@ -7011,6 +7550,7 @@
     name: 'Backyard Basketball'
     engine_id: scumm
     company_id: he
+    year: '2001'
     moby_id: '7940'
     steam_id: ''
     gog_id: ''
@@ -7024,6 +7564,7 @@
     name: "Blue's 123 Time Activities"
     engine_id: scumm
     company_id: he
+    year: '1999'
     moby_id: '5135'
     steam_id: ''
     gog_id: ''
@@ -7037,6 +7578,7 @@
     name: "Blue's ABC Time Activities"
     engine_id: scumm
     company_id: he
+    year: '1999'
     moby_id: '1226'
     steam_id: ''
     gog_id: ''
@@ -7050,6 +7592,7 @@
     name: "Blue's Clues: Blue's Birthday Adventure"
     engine_id: scumm
     company_id: he
+    year: '1998'
     moby_id: '31131'
     steam_id: ''
     gog_id: ''
@@ -7063,6 +7606,7 @@
     name: "Blue's Treasure Hunt"
     engine_id: scumm
     company_id: he
+    year: '1999'
     moby_id: '21110'
     steam_id: ''
     gog_id: ''
@@ -7076,6 +7620,7 @@
     name: "Bear Stormin'"
     engine_id: scumm
     company_id: he
+    year: '1993'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -7089,6 +7634,7 @@
     name: 'Humongous Interactive Catalog'
     engine_id: scumm
     company_id: he
+    year: '1995'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -7102,6 +7648,7 @@
     name: 'SPY Fox in "Cheese Chase"'
     engine_id: scumm
     company_id: he
+    year: '1998'
     moby_id: '20990'
     steam_id: '292280'
     gog_id: ''
@@ -7115,6 +7662,7 @@
     name: 'The Curse of Monkey Island'
     engine_id: scumm
     company_id: lucasarts
+    year: '1997'
     moby_id: '547'
     steam_id: '730820'
     gog_id: the_curse_of_monkey_island
@@ -7128,6 +7676,7 @@
     name: 'The Dig'
     engine_id: scumm
     company_id: lucasarts
+    year: '1995'
     moby_id: '354'
     steam_id: '6040'
     gog_id: the_dig
@@ -7141,6 +7690,7 @@
     name: "Putt-Putt and Pep's Dog on a Stick"
     engine_id: scumm
     company_id: he
+    year: '1996'
     moby_id: '14529'
     steam_id: '294710'
     gog_id: ''
@@ -7154,6 +7704,7 @@
     name: "Let's Explore the Farm"
     engine_id: scumm
     company_id: he
+    year: '1995'
     moby_id: '21015'
     steam_id: '363060'
     gog_id: ''
@@ -7167,6 +7718,7 @@
     name: "Fatty Bear's Birthday Surprise"
     engine_id: scumm
     company_id: he
+    year: '1993'
     moby_id: '8552'
     steam_id: '317030'
     gog_id: ''
@@ -7180,6 +7732,7 @@
     name: "Fatty Bear's FunPack"
     engine_id: scumm
     company_id: he
+    year: '1993'
     moby_id: '20950'
     steam_id: ''
     gog_id: ''
@@ -7193,6 +7746,7 @@
     name: 'Backyard Football'
     engine_id: scumm
     company_id: he
+    year: '2002'
     moby_id: '20991'
     steam_id: ''
     gog_id: ''
@@ -7206,6 +7760,7 @@
     name: 'Backyard Football 2002'
     engine_id: scumm
     company_id: he
+    year: '2001'
     moby_id: '7942'
     steam_id: ''
     gog_id: ''
@@ -7219,6 +7774,7 @@
     name: 'Freddi Fish and the Case of the Missing Kelp Seeds'
     engine_id: scumm
     company_id: he
+    year: '1994'
     moby_id: '1199'
     steam_id: '283940'
     gog_id: ''
@@ -7232,6 +7788,7 @@
     name: 'Freddi Fish 2: The Case of the Haunted Schoolhouse'
     engine_id: scumm
     company_id: he
+    year: '1996'
     moby_id: '5522'
     steam_id: '294530'
     gog_id: ''
@@ -7245,6 +7802,7 @@
     name: 'Freddi Fish 3: The Case of the Stolen Conch Shell'
     engine_id: scumm
     company_id: he
+    year: '1998'
     moby_id: '5355'
     steam_id: '294540'
     gog_id: ''
@@ -7258,6 +7816,7 @@
     name: 'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'
     engine_id: scumm
     company_id: he
+    year: '1999'
     moby_id: '5157'
     steam_id: '294550'
     gog_id: ''
@@ -7271,6 +7830,7 @@
     name: 'Freddi Fish 5: The Case of the Creature of Coral Cove'
     engine_id: scumm
     company_id: he
+    year: '2001'
     moby_id: '5275'
     steam_id: '294570'
     gog_id: ''
@@ -7284,6 +7844,7 @@
     name: "Freddi Fish's One-Stop Fun Shop"
     engine_id: scumm
     company_id: he
+    year: '2000'
     moby_id: '21112'
     steam_id: ''
     gog_id: ''
@@ -7297,6 +7858,7 @@
     name: 'Full Throttle'
     engine_id: scumm
     company_id: lucasarts
+    year: '1995'
     moby_id: '940'
     steam_id: ''
     gog_id: ''
@@ -7310,6 +7872,7 @@
     name: "Putt-Putt's Fun Pack"
     engine_id: scumm
     company_id: he
+    year: '1993'
     moby_id: '757'
     steam_id: ''
     gog_id: ''
@@ -7323,6 +7886,7 @@
     name: 'Indiana Jones and the Last Crusade: The Graphic Adventure'
     engine_id: scumm
     company_id: lucasarts
+    year: '1989'
     moby_id: '534'
     steam_id: '32310'
     gog_id: indiana_jones_and_the_last_crusade
@@ -7336,6 +7900,7 @@
     name: 'Indiana Jones and the Last Crusade & Loom'
     engine_id: scumm
     company_id: lucasarts
+    year: '1990'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -7349,6 +7914,7 @@
     name: 'Games, Games, Games: Maniac Mansion + Zak McKracken + Indiana Jones and the last Crusade'
     engine_id: scumm
     company_id: lucasarts
+    year: '1991'
     moby_id: '37327'
     steam_id: ''
     gog_id: ''
@@ -7362,6 +7928,7 @@
     name: "Let's Explore the Jungle"
     engine_id: scumm
     company_id: he
+    year: '1995'
     moby_id: '20994'
     steam_id: '363070'
     gog_id: ''
@@ -7375,6 +7942,7 @@
     name: Loom
     engine_id: scumm
     company_id: lucasarts
+    year: '1990'
     moby_id: '176'
     steam_id: '32340'
     gog_id: loom
@@ -7388,6 +7956,7 @@
     name: "Pajama Sam's Lost & Found"
     engine_id: scumm
     company_id: he
+    year: '1998'
     moby_id: '19377'
     steam_id: '292860'
     gog_id: pajama_sam_vol_1
@@ -7401,6 +7970,7 @@
     name: 'Maniac Mansion'
     engine_id: scumm
     company_id: lucasarts
+    year: '1987'
     moby_id: '714'
     steam_id: '529890'
     gog_id: maniac_mansion
@@ -7414,6 +7984,7 @@
     name: "Freddi Fish and Luther's Maze Madness"
     engine_id: scumm
     company_id: he
+    year: '1996'
     moby_id: '21062'
     steam_id: '284020'
     gog_id: ''
@@ -7427,6 +7998,7 @@
     name: 'The Secret of Monkey Island'
     engine_id: scumm
     company_id: lucasarts
+    year: '1990'
     moby_id: '616'
     steam_id: ''
     gog_id: ''
@@ -7440,6 +8012,7 @@
     name: "Monkey Island 2: LeChuck's Revenge"
     engine_id: scumm
     company_id: lucasarts
+    year: '1991'
     moby_id: '289'
     steam_id: ''
     gog_id: ''
@@ -7453,6 +8026,7 @@
     name: 'Moonbase Commander'
     engine_id: scumm
     company_id: he
+    year: '2002'
     moby_id: '7171'
     steam_id: '254880'
     gog_id: moonbase_commander
@@ -7466,6 +8040,7 @@
     name: 'Spy Fox in "Hold the Mustard"'
     engine_id: scumm
     company_id: he
+    year: '1999'
     moby_id: '55750'
     steam_id: '292300'
     gog_id: ''
@@ -7479,6 +8054,7 @@
     name: "Pajama Sam: No Need to Hide When It's Dark Outside"
     engine_id: scumm
     company_id: he
+    year: '1996'
     moby_id: '1200'
     steam_id: '283960'
     gog_id: pajama_sam_vol_1
@@ -7492,6 +8068,7 @@
     name: "Pajama Sam 2: Thunder and Lightning Aren't so Frightening"
     engine_id: scumm
     company_id: he
+    year: '1998'
     moby_id: '21113'
     steam_id: '292780'
     gog_id: pajama_sam_vol_1
@@ -7505,6 +8082,7 @@
     name: 'Pajama Sam 3: You Are What You Eat From Your Head To Your Feet'
     engine_id: scumm
     company_id: he
+    year: '2000'
     moby_id: '4810'
     steam_id: '292800'
     gog_id: pajama_sam_vol_2
@@ -7518,6 +8096,7 @@
     name: 'Passport to Adventure (Indiana Jones and the Last Crusade, The Secret of Monkey Island, Loom)'
     engine_id: scumm
     company_id: lucasarts
+    year: '1990'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -7531,6 +8110,7 @@
     name: 'Pajama Sam: Games to Play on Any Day'
     engine_id: scumm
     company_id: he
+    year: '2001'
     moby_id: '21618'
     steam_id: '317020'
     gog_id: ''
@@ -7544,6 +8124,7 @@
     name: 'Putt-Putt Joins the Circus'
     engine_id: scumm
     company_id: he
+    year: '2000'
     moby_id: '21061'
     steam_id: '294690'
     gog_id: ''
@@ -7557,6 +8138,7 @@
     name: 'Putt-Putt Goes to the Moon'
     engine_id: scumm
     company_id: he
+    year: '1993'
     moby_id: '1198'
     steam_id: '294650'
     gog_id: ''
@@ -7570,6 +8152,7 @@
     name: 'Putt-Putt Joins the Parade'
     engine_id: scumm
     company_id: he
+    year: '1992'
     moby_id: '1017'
     steam_id: '283920'
     gog_id: ''
@@ -7583,6 +8166,7 @@
     name: 'Putt-Putt Enters the Race'
     engine_id: scumm
     company_id: he
+    year: '1999'
     moby_id: '1197'
     steam_id: '294680'
     gog_id: ''
@@ -7596,6 +8180,7 @@
     name: "Putt-Putt's One-Stop Fun Shop"
     engine_id: scumm
     company_id: he
+    year: '2000'
     moby_id: '21016'
     steam_id: ''
     gog_id: ''
@@ -7609,6 +8194,7 @@
     name: 'Putt-Putt Travels Through Time'
     engine_id: scumm
     company_id: he
+    year: '1997'
     moby_id: '1201'
     steam_id: '294670'
     gog_id: ''
@@ -7622,6 +8208,7 @@
     name: 'Putt-Putt Saves the Zoo'
     engine_id: scumm
     company_id: he
+    year: '1995'
     moby_id: '1225'
     steam_id: '294660'
     gog_id: ''
@@ -7635,6 +8222,7 @@
     name: "Blue's Reading Time Activities"
     engine_id: scumm
     company_id: he
+    year: '2000'
     moby_id: '21111'
     steam_id: ''
     gog_id: ''
@@ -7648,6 +8236,7 @@
     name: 'Sam & Max: Hit the Road'
     engine_id: scumm
     company_id: lucasarts
+    year: '1993'
     moby_id: '745'
     steam_id: '355170'
     gog_id: sam_max_hit_the_road
@@ -7661,6 +8250,7 @@
     name: "Pajama Sam's One Stop Fun Shop"
     engine_id: scumm
     company_id: he
+    year: '2000'
     moby_id: '71931'
     steam_id: ''
     gog_id: ''
@@ -7674,6 +8264,7 @@
     name: 'Backyard Soccer'
     engine_id: scumm
     company_id: he
+    year: '1998'
     moby_id: '17717'
     steam_id: ''
     gog_id: ''
@@ -7687,6 +8278,7 @@
     name: 'Backyard Soccer 2004'
     engine_id: scumm
     company_id: he
+    year: '2003'
     moby_id: '63165'
     steam_id: ''
     gog_id: ''
@@ -7700,6 +8292,7 @@
     name: 'Backyard Soccer MLS Edition'
     engine_id: scumm
     company_id: he
+    year: '2001'
     moby_id: '7943'
     steam_id: ''
     gog_id: ''
@@ -7713,6 +8306,7 @@
     name: "Pajama Sam's Sock Works"
     engine_id: scumm
     company_id: he
+    year: '1997'
     moby_id: '20989'
     steam_id: '292840'
     gog_id: pajama_sam_vol_2
@@ -7726,6 +8320,7 @@
     name: 'Spy Fox in "Dry Cereal"'
     engine_id: scumm
     company_id: he
+    year: '1997'
     moby_id: '21014'
     steam_id: '283980'
     gog_id: ''
@@ -7739,6 +8334,7 @@
     name: 'Spy Fox 2: "Some Assembly Required"'
     engine_id: scumm
     company_id: he
+    year: '1999'
     moby_id: '20987'
     steam_id: '292240'
     gog_id: ''
@@ -7752,6 +8348,7 @@
     name: 'Spy Fox: "Operation Ozone"'
     engine_id: scumm
     company_id: he
+    year: '2001'
     moby_id: '18734'
     steam_id: '292260'
     gog_id: ''
@@ -7765,6 +8362,7 @@
     name: 'Maniac Mansion: Day of the Tentacle'
     engine_id: scumm
     company_id: lucasarts
+    year: '1993'
     moby_id: '719'
     steam_id: ''
     gog_id: ''
@@ -7778,6 +8376,7 @@
     name: 'Big Thinkers! 1st Grade'
     engine_id: scumm
     company_id: he
+    year: '1997'
     moby_id: '80258'
     steam_id: '376770'
     gog_id: ''
@@ -7791,6 +8390,7 @@
     name: 'Big Thinkers! Kindergarten'
     engine_id: scumm
     company_id: he
+    year: '1997'
     moby_id: '73005'
     steam_id: '376760'
     gog_id: ''
@@ -7804,6 +8404,7 @@
     name: "Freddi Fish and Luther's Water Worries"
     engine_id: scumm
     company_id: he
+    year: '1996'
     moby_id: '20988'
     steam_id: '294580'
     gog_id: ''
@@ -7817,6 +8418,7 @@
     name: 'Zak McKracken and the Alien Mindbenders'
     engine_id: scumm
     company_id: lucasarts
+    year: '1988'
     moby_id: '305'
     steam_id: ''
     gog_id: zak_mckracken_and_the_alien_mindbenders
@@ -7830,6 +8432,7 @@
     name: 'Zak McKracken & Loom'
     engine_id: scumm
     company_id: lucasarts
+    year: '1990'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -7843,6 +8446,7 @@
     name: 'The Lost Files of Sherlock Holmes: Case of the Rose Tattoo'
     engine_id: sherlock
     company_id: mythos
+    year: '1996'
     moby_id: '4407'
     steam_id: ''
     gog_id: ''
@@ -7856,6 +8460,7 @@
     name: 'The Lost Files of Sherlock Holmes: The Case of the Serrated Scalpel'
     engine_id: sherlock
     company_id: mythos
+    year: '1992'
     moby_id: '3441'
     steam_id: ''
     gog_id: ''
@@ -7869,6 +8474,7 @@
     name: 'Beneath a Steel Sky'
     engine_id: sky
     company_id: revolution
+    year: '1994'
     moby_id: '386'
     steam_id: '1368340'
     gog_id: beneath_a_steel_sky
@@ -7882,6 +8488,7 @@
     name: 'Cubert Badbone, P.I.'
     engine_id: sludge
     company_id: deirdrakiai
+    year: '2003'
     moby_id: '24279'
     steam_id: ''
     gog_id: ''
@@ -7895,6 +8502,7 @@
     name: 'Frasse and the Peas of Kejick'
     engine_id: sludge
     company_id: unknown
+    year: '2006'
     moby_id: '33462'
     steam_id: ''
     gog_id: ''
@@ -7908,6 +8516,7 @@
     name: 'The Interview'
     engine_id: sludge
     company_id: unknown
+    year: '2014'
     moby_id: '71160'
     steam_id: ''
     gog_id: ''
@@ -7921,6 +8530,7 @@
     name: 'Life Flashes By'
     engine_id: sludge
     company_id: unknown
+    year: '2010'
     moby_id: '50387'
     steam_id: ''
     gog_id: ''
@@ -7934,6 +8544,7 @@
     name: 'Mandy Christmas Adventure'
     engine_id: sludge
     company_id: unknown
+    year: '2003'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -7947,6 +8558,7 @@
     name: 'Out Of Order'
     engine_id: sludge
     company_id: hungry
+    year: '2003'
     moby_id: '13762'
     steam_id: ''
     gog_id: ''
@@ -7960,6 +8572,7 @@
     name: "Robin's Rescue"
     engine_id: sludge
     company_id: unknown
+    year: '2015'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -7973,6 +8586,7 @@
     name: 'Sludge Game'
     engine_id: sludge
     company_id: unknown
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -7986,6 +8600,7 @@
     name: 'The Game That Takes Place on a Cruise Ship'
     engine_id: sludge
     company_id: deirdrakiai
+    year: '2006'
     moby_id: '33841'
     steam_id: ''
     gog_id: ''
@@ -7999,6 +8614,7 @@
     name: 'Verb Coin'
     engine_id: sludge
     company_id: unknown
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -8012,6 +8628,7 @@
     name: 'Welcome Example'
     engine_id: sludge
     company_id: unknown
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -8025,6 +8642,7 @@
     name: 'The Longest Journey'
     engine_id: stark
     company_id: funcom
+    year: '1999'
     moby_id: '1439'
     steam_id: '6310'
     gog_id: the_longest_journey
@@ -8038,6 +8656,7 @@
     name: 'Star Trek: 25th Anniversary'
     engine_id: startrek
     company_id: interplay
+    year: '1992'
     moby_id: '952'
     steam_id: '359650'
     gog_id: star_trek_25th_anniversary
@@ -8051,6 +8670,7 @@
     name: 'Star Trek: Judgment Rites'
     engine_id: startrek
     company_id: interplay
+    year: '1993'
     moby_id: '3492'
     steam_id: '364800'
     gog_id: star_trek_judgment_rites
@@ -8064,6 +8684,7 @@
     name: 'Mission Supernova 1'
     engine_id: supernova
     company_id: tsdinge
+    year: '1994'
     moby_id: '4582'
     steam_id: ''
     gog_id: ''
@@ -8077,6 +8698,7 @@
     name: 'Mission Supernova 2'
     engine_id: supernova
     company_id: tsdinge
+    year: '1994'
     moby_id: '4582'
     steam_id: ''
     gog_id: ''
@@ -8090,6 +8712,7 @@
     name: 'Broken Sword: The Shadow of the Templars'
     engine_id: sword1
     company_id: revolution
+    year: '1996'
     moby_id: '499'
     steam_id: '580430'
     gog_id: broken_sword_directors_cut
@@ -8103,6 +8726,7 @@
     name: 'Broken Sword: The Shadow of the Templars (Demo)'
     engine_id: sword1
     company_id: revolution
+    year: '1996'
     moby_id: '499'
     steam_id: ''
     gog_id: ''
@@ -8116,6 +8740,7 @@
     name: 'Broken Sword: The Shadow of the Templars (Mac)'
     engine_id: sword1
     company_id: revolution
+    year: '1996'
     moby_id: '499'
     steam_id: ''
     gog_id: ''
@@ -8129,6 +8754,7 @@
     name: 'Broken Sword: The Shadow of the Templars (Mac demo)'
     engine_id: sword1
     company_id: revolution
+    year: '1996'
     moby_id: '499'
     steam_id: ''
     gog_id: ''
@@ -8142,6 +8768,7 @@
     name: 'Broken Sword: The Shadow of the Templars (PlayStation)'
     engine_id: sword1
     company_id: revolution
+    year: '1996'
     moby_id: '499'
     steam_id: ''
     gog_id: ''
@@ -8155,6 +8782,7 @@
     name: 'Broken Sword: The Shadow of the Templars (PlayStation demo)'
     engine_id: sword1
     company_id: revolution
+    year: '1996'
     moby_id: '499'
     steam_id: ''
     gog_id: ''
@@ -8168,6 +8796,7 @@
     name: 'Broken Sword II: The Smoking Mirror'
     engine_id: sword2
     company_id: revolution
+    year: '1997'
     moby_id: '1133'
     steam_id: '580440'
     gog_id: broken_sword_2__the_smoking_mirror
@@ -8181,6 +8810,7 @@
     name: 'Broken Sword II: The Smoking Mirror (alt)'
     engine_id: sword2
     company_id: revolution
+    year: '1997'
     moby_id: '1133'
     steam_id: ''
     gog_id: ''
@@ -8194,6 +8824,7 @@
     name: 'Broken Sword II: The Smoking Mirror (Demo)'
     engine_id: sword2
     company_id: revolution
+    year: '1997'
     moby_id: '1133'
     steam_id: ''
     gog_id: ''
@@ -8207,6 +8838,7 @@
     name: 'Broken Sword II: The Smoking Mirror (PlayStation)'
     engine_id: sword2
     company_id: revolution
+    year: '1997'
     moby_id: '1133'
     steam_id: ''
     gog_id: ''
@@ -8220,6 +8852,7 @@
     name: 'Broken Sword II: The Smoking Mirror (PlayStation/Demo)'
     engine_id: sword2
     company_id: revolution
+    year: '1997'
     moby_id: '1133'
     steam_id: ''
     gog_id: ''
@@ -8233,6 +8866,7 @@
     name: 'Broken Sword 2.5: The Return of the Templars'
     engine_id: sword25
     company_id: mindfactory
+    year: '2008'
     moby_id: '36679'
     steam_id: ''
     gog_id: ''
@@ -8246,6 +8880,7 @@
     name: 'Teen Agent'
     engine_id: teenagent
     company_id: metropolis
+    year: '1995'
     moby_id: '6423'
     steam_id: ''
     gog_id: teenagent
@@ -8259,6 +8894,7 @@
     name: 'Testbed: The Backend Testing Framework'
     engine_id: testbed
     company_id: unknown
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -8272,6 +8908,7 @@
     name: Syberia
     engine_id: tetraedge
     company_id: microids
+    year: '2002'
     moby_id: '6828'
     steam_id: '46500'
     gog_id: syberia
@@ -8285,6 +8922,7 @@
     name: 'Syberia II'
     engine_id: tetraedge
     company_id: microids
+    year: '2004'
     moby_id: '12892'
     steam_id: '46510'
     gog_id: syberia_2
@@ -8298,6 +8936,7 @@
     name: Discworld
     engine_id: tinsel
     company_id: perfect
+    year: '1995'
     moby_id: '184'
     steam_id: ''
     gog_id: ''
@@ -8311,6 +8950,7 @@
     name: 'Discworld II: Missing Presumed...!?'
     engine_id: tinsel
     company_id: perfect
+    year: '1996'
     moby_id: '1370'
     steam_id: ''
     gog_id: ''
@@ -8324,6 +8964,7 @@
     name: 'Discworld Noir'
     engine_id: tinsel
     company_id: perfect
+    year: '1999'
     moby_id: '1411'
     steam_id: ''
     gog_id: ''
@@ -8337,6 +8978,7 @@
     name: 'Starship Titanic'
     engine_id: titanic
     company_id: digitalvillage
+    year: '1998'
     moby_id: '1374'
     steam_id: '467290'
     gog_id: starship_titanic
@@ -8350,6 +8992,7 @@
     name: '3 Skulls of the Toltecs'
     engine_id: toltecs
     company_id: revistronic
+    year: '1996'
     moby_id: '3286'
     steam_id: ''
     gog_id: ''
@@ -8363,6 +9006,7 @@
     name: 'Tony Tough and the Night of Roasted Moths'
     engine_id: tony
     company_id: nayma
+    year: '1997'
     moby_id: '7659'
     steam_id: '356210'
     gog_id: ''
@@ -8376,6 +9020,7 @@
     name: Toonstruck
     engine_id: toon
     company_id: burst
+    year: '1996'
     moby_id: '518'
     steam_id: '369830'
     gog_id: toonstruck
@@ -8389,6 +9034,7 @@
     name: 'Touché: The Adventures of the Fifth Musketeer'
     engine_id: touche
     company_id: clipper
+    year: '1995'
     moby_id: '1114'
     steam_id: ''
     gog_id: ''
@@ -8402,6 +9048,7 @@
     name: 'Nightlong: Union City Conspiracy'
     engine_id: trecision
     company_id: trecision
+    year: '1998'
     moby_id: '2564'
     steam_id: ''
     gog_id: ''
@@ -8415,6 +9062,7 @@
     name: 'Blue Force'
     engine_id: tsage
     company_id: tsunami
+    year: '1993'
     moby_id: '1478'
     steam_id: ''
     gog_id: ''
@@ -8428,6 +9076,7 @@
     name: 'Flash Traffic: City of Angels'
     engine_id: tsage
     company_id: warner
+    year: '1994'
     moby_id: '14651'
     steam_id: ''
     gog_id: ''
@@ -8441,6 +9090,7 @@
     name: 'Protostar: War on the Frontier'
     engine_id: tsage
     company_id: tsunami
+    year: '1993'
     moby_id: '3448'
     steam_id: ''
     gog_id: ''
@@ -8454,6 +9104,7 @@
     name: 'Ringworld: Revenge of the Patriarch'
     engine_id: tsage
     company_id: tsunami
+    year: '1992'
     moby_id: '2559'
     steam_id: ''
     gog_id: ''
@@ -8467,6 +9118,7 @@
     name: 'Return to Ringworld'
     engine_id: tsage
     company_id: tsunami
+    year: '1994'
     moby_id: '4552'
     steam_id: ''
     gog_id: ''
@@ -8480,6 +9132,7 @@
     name: 'The Lost Files of Sherlock Holmes'
     engine_id: tsage
     company_id: mythos
+    year: '1992'
     moby_id: '3441'
     steam_id: ''
     gog_id: ''
@@ -8493,6 +9146,7 @@
     name: 'Bud Tucker in Double Trouble'
     engine_id: tucker
     company_id: merit
+    year: '1996'
     moby_id: '4364'
     steam_id: ''
     gog_id: ''
@@ -8506,6 +9160,7 @@
     name: "Little Big Adventure (Relentless: Twinsen's Adventure)"
     engine_id: twine
     company_id: adeline
+    year: '1994'
     moby_id: '748'
     steam_id: '397330'
     gog_id: little_big_adventure
@@ -8519,6 +9174,7 @@
     name: "Little Big Adventure 2: Twinsen's Odyssey"
     engine_id: twine
     company_id: adeline
+    year: '1997'
     moby_id: '1765'
     steam_id: '398000'
     gog_id: little_big_adventure_2
@@ -8532,6 +9188,7 @@
     name: 'Ultima: Worlds of Adventure 2 - Martian Dreams'
     engine_id: ultima
     company_id: origin
+    year: '1991'
     moby_id: '1625'
     steam_id: ''
     gog_id: ultima_worlds_of_adventure_2_martian_dreams
@@ -8545,6 +9202,7 @@
     name: 'Ultima: Worlds of Adventure 2 - Martian Dreams'
     engine_id: ultima
     company_id: origin
+    year: '1991'
     moby_id: '1625'
     steam_id: ''
     gog_id: ultima_worlds_of_adventure_2_martian_dreams
@@ -8558,6 +9216,7 @@
     name: 'Crusader: No Regret'
     engine_id: ultima
     company_id: origin
+    year: '1996'
     moby_id: '852'
     steam_id: ''
     gog_id: crusader_no_regret
@@ -8571,6 +9230,7 @@
     name: 'Crusader: No Remorse'
     engine_id: ultima
     company_id: origin
+    year: '1995'
     moby_id: '851'
     steam_id: ''
     gog_id: crusader_no_remorse
@@ -8584,6 +9244,7 @@
     name: 'Worlds of Ultima: The Savage Empire'
     engine_id: ultima
     company_id: origin
+    year: '1990'
     moby_id: '1624'
     steam_id: ''
     gog_id: worlds_of_ultima_the_savage_empire
@@ -8597,6 +9258,7 @@
     name: 'Worlds of Ultima: The Savage Empire - Enhanced'
     engine_id: ultima
     company_id: origin
+    year: '1990'
     moby_id: '1624'
     steam_id: ''
     gog_id: worlds_of_ultima_the_savage_empire
@@ -8610,6 +9272,7 @@
     name: 'Ultima I: The First Age of Darkness'
     engine_id: ultima
     company_id: origin
+    year: '1981'
     moby_id: '8812'
     steam_id: ''
     gog_id: ultima_1_2_3
@@ -8623,6 +9286,7 @@
     name: 'Ultima IV: Quest of the Avatar'
     engine_id: ultima
     company_id: origin
+    year: '1985'
     moby_id: '884'
     steam_id: ''
     gog_id: ultima_4
@@ -8636,6 +9300,7 @@
     name: 'Ultima IV: Quest of the Avatar - Enhanced'
     engine_id: ultima
     company_id: origin
+    year: '1985'
     moby_id: '884'
     steam_id: ''
     gog_id: ultima_4
@@ -8649,6 +9314,7 @@
     name: 'Ultima VI: The False Prophet'
     engine_id: ultima
     company_id: origin
+    year: '1990'
     moby_id: '104'
     steam_id: ''
     gog_id: ultima_456
@@ -8662,6 +9328,7 @@
     name: 'Ultima VI: The False Prophet - Enhanced'
     engine_id: ultima
     company_id: origin
+    year: '1990'
     moby_id: '104'
     steam_id: ''
     gog_id: ultima_456
@@ -8675,6 +9342,7 @@
     name: 'Ultima VIII - Pagan'
     engine_id: ultima
     company_id: origin
+    year: '1994'
     moby_id: '723'
     steam_id: ''
     gog_id: ultima_8_gold_edition
@@ -8688,6 +9356,7 @@
     name: 'Reah: Face the Unknown'
     engine_id: vcruise
     company_id: lkavalon
+    year: '1998'
     moby_id: '1684'
     steam_id: ''
     gog_id: ''
@@ -8701,6 +9370,7 @@
     name: 'Schizm: Mysterious Journey'
     engine_id: vcruise
     company_id: lkavalon
+    year: '2001'
     moby_id: '4688'
     steam_id: '1709550'
     gog_id: schizm
@@ -8714,6 +9384,7 @@
     name: Voyeur
     engine_id: voyeur
     company_id: philips
+    year: '1993'
     moby_id: '1661'
     steam_id: ''
     gog_id: ''
@@ -8727,6 +9398,7 @@
     name: 'Another Fine Mess'
     engine_id: wage
     company_id: unknown
+    year: '1992'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -8740,6 +9412,7 @@
     name: "A Mess O' Trouble"
     engine_id: wage
     company_id: unknown
+    year: '1994'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -8753,6 +9426,7 @@
     name: 'Camp Cantitoe'
     engine_id: wage
     company_id: unknown
+    year: '1990'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -8766,6 +9440,7 @@
     name: 'Drakmyth Castle'
     engine_id: wage
     company_id: unknown
+    year: '1992'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -8779,6 +9454,7 @@
     name: "Ray's Maze"
     engine_id: wage
     company_id: unknown
+    year: '1990'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -8792,6 +9468,7 @@
     name: 'Enchanted Scepters'
     engine_id: wage
     company_id: unknown
+    year: '1985'
     moby_id: '29350'
     steam_id: ''
     gog_id: ''
@@ -8805,6 +9482,7 @@
     name: Twisted!
     engine_id: wage
     company_id: unknown
+    year: '1997'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -8818,6 +9496,7 @@
     name: WAGE
     engine_id: wage
     company_id: unknown
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -8831,6 +9510,7 @@
     name: 'Five Lethal Demons'
     engine_id: wintermute
     company_id: offstudio
+    year: '2005'
     moby_id: '71571'
     steam_id: ''
     gog_id: ''
@@ -8844,6 +9524,7 @@
     name: 'Five Magical Amulets'
     engine_id: wintermute
     company_id: offstudio
+    year: '2005'
     moby_id: '17091'
     steam_id: ''
     gog_id: ''
@@ -8857,6 +9538,7 @@
     name: 'Actual Destination'
     engine_id: wintermute
     company_id: blekinge
+    year: '2009'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -8870,6 +9552,7 @@
     name: 'Boredom of Agustin Cordes'
     engine_id: wintermute
     company_id: cbe
+    year: '2013'
     moby_id: '61767'
     steam_id: ''
     gog_id: ''
@@ -8883,6 +9566,7 @@
     name: "Alimardan's Mischief"
     engine_id: wintermute
     company_id: rskent
+    year: '2011'
     moby_id: '56095'
     steam_id: '694420'
     gog_id: ''
@@ -8896,6 +9580,7 @@
     name: 'Alimardan Meets Merlin'
     engine_id: wintermute
     company_id: rskent
+    year: '2017'
     moby_id: '122586'
     steam_id: '694430'
     gog_id: ''
@@ -8909,6 +9594,7 @@
     name: 'Alpha Polaris'
     engine_id: wintermute
     company_id: turmoil
+    year: '2011'
     moby_id: '53007'
     steam_id: '405780'
     gog_id: ''
@@ -8922,6 +9608,7 @@
     name: Apeiron
     engine_id: wintermute
     company_id: blekinge
+    year: '2013'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -8935,6 +9622,7 @@
     name: 'Art of Murder: FBI Confidential'
     engine_id: wintermute
     company_id: cityint
+    year: '2008'
     moby_id: '34282'
     steam_id: '809000'
     gog_id: ''
@@ -8948,6 +9636,7 @@
     name: 'Barrow Hill: The Dark Path'
     engine_id: wintermute
     company_id: shadowtor
+    year: '2016'
     moby_id: '114586'
     steam_id: '520990'
     gog_id: barrow_hill_the_dark_path
@@ -8961,6 +9650,7 @@
     name: 'Basis Octavus'
     engine_id: wintermute
     company_id: unknown
+    year: '2016'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -8974,6 +9664,7 @@
     name: Bickadoodle
     engine_id: wintermute
     company_id: aetheric
+    year: '2013'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -8987,6 +9678,7 @@
     name: 'Book of Gron Part One'
     engine_id: wintermute
     company_id: maximyz
+    year: '2010'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9000,6 +9692,7 @@
     name: 'Beyond the Threshold'
     engine_id: wintermute
     company_id: nacht
+    year: '2006'
     moby_id: '29023'
     steam_id: ''
     gog_id: ''
@@ -9013,6 +9706,7 @@
     name: "Carol Reed 10 - Bosch's Damnation"
     engine_id: wintermute
     company_id: mdna
+    year: '2014'
     moby_id: '68293'
     steam_id: ''
     gog_id: ''
@@ -9026,6 +9720,7 @@
     name: 'Carol Reed 11 - Shades Of Black'
     engine_id: wintermute
     company_id: mdna
+    year: '2015'
     moby_id: '81267'
     steam_id: ''
     gog_id: ''
@@ -9039,6 +9734,7 @@
     name: 'Carol Reed 12 - Profound Red'
     engine_id: wintermute
     company_id: mdna
+    year: '2017'
     moby_id: '115321'
     steam_id: ''
     gog_id: ''
@@ -9052,6 +9748,7 @@
     name: 'Carol Reed 13 - The Birdwatcher'
     engine_id: wintermute
     company_id: mdna
+    year: '2018'
     moby_id: '114389'
     steam_id: ''
     gog_id: ''
@@ -9065,6 +9762,7 @@
     name: 'Carol Reed 14 - The Fall Of April'
     engine_id: wintermute
     company_id: mdna
+    year: '2019'
     moby_id: '122064'
     steam_id: ''
     gog_id: ''
@@ -9078,6 +9776,7 @@
     name: 'Carol Reed 15 - Geospots'
     engine_id: wintermute
     company_id: mdna
+    year: '2020'
     moby_id: '144185'
     steam_id: ''
     gog_id: ''
@@ -9091,6 +9790,7 @@
     name: 'Carol Reed 16 - Quarantine Diary'
     engine_id: wintermute
     company_id: mdna
+    year: '2021'
     moby_id: '156794'
     steam_id: ''
     gog_id: ''
@@ -9104,6 +9804,7 @@
     name: 'Carol Reed 4 - East Side Story'
     engine_id: wintermute
     company_id: mdna
+    year: '2007'
     moby_id: '31651'
     steam_id: ''
     gog_id: ''
@@ -9117,6 +9818,7 @@
     name: 'Carol Reed 5 - The Colour of Murder'
     engine_id: wintermute
     company_id: mdna
+    year: '2008'
     moby_id: '37764'
     steam_id: ''
     gog_id: ''
@@ -9130,6 +9832,7 @@
     name: 'Carol Reed 6 - Black Circle'
     engine_id: wintermute
     company_id: mdna
+    year: '2009'
     moby_id: '48356'
     steam_id: ''
     gog_id: ''
@@ -9143,6 +9846,7 @@
     name: 'Carol Reed 7 - Blue Madonna'
     engine_id: wintermute
     company_id: mdna
+    year: '2011'
     moby_id: '49831'
     steam_id: ''
     gog_id: ''
@@ -9156,6 +9860,7 @@
     name: "Carol Reed 8 - Amber's Blood"
     engine_id: wintermute
     company_id: mdna
+    year: '2012'
     moby_id: '68289'
     steam_id: ''
     gog_id: ''
@@ -9169,6 +9874,7 @@
     name: 'Carol Reed 9 - Cold Case Summer'
     engine_id: wintermute
     company_id: mdna
+    year: '2013'
     moby_id: '68291'
     steam_id: ''
     gog_id: ''
@@ -9182,6 +9888,7 @@
     name: 'Chivalry is Not Dead'
     engine_id: wintermute
     company_id: squinky
+    year: '2007'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9195,6 +9902,7 @@
     name: 'Colors on Canvas'
     engine_id: wintermute
     company_id: unknown
+    year: '2015'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9208,6 +9916,7 @@
     name: 'Conspiração Dumont'
     engine_id: wintermute
     company_id: unknown
+    year: '2007'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9221,6 +9930,7 @@
     name: 'Corrosion: Cold Winter Waiting'
     engine_id: wintermute
     company_id: viperante
+    year: '2012'
     moby_id: '56405'
     steam_id: '349140'
     gog_id: ''
@@ -9234,6 +9944,7 @@
     name: 'Dark Fall: Lost Souls'
     engine_id: wintermute
     company_id: darkling
+    year: '2009'
     moby_id: '45771'
     steam_id: '46750'
     gog_id: dark_fall_3_lost_souls
@@ -9247,6 +9958,7 @@
     name: 'Dead City'
     engine_id: wintermute
     company_id: nihilis
+    year: '2004'
     moby_id: '17224'
     steam_id: ''
     gog_id: ''
@@ -9260,6 +9972,7 @@
     name: 'Devil In The Capital'
     engine_id: wintermute
     company_id: rskent
+    year: '2017'
     moby_id: '92245'
     steam_id: '659490'
     gog_id: ''
@@ -9273,6 +9986,7 @@
     name: 'DFAF Adventure'
     engine_id: wintermute
     company_id: jennybee
+    year: '2016'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9286,6 +10000,7 @@
     name: 'Dirty Split'
     engine_id: wintermute
     company_id: dreamagination
+    year: '2008'
     moby_id: '34858'
     steam_id: ''
     gog_id: ''
@@ -9299,6 +10014,7 @@
     name: 'Dr. Bohus'
     engine_id: wintermute
     company_id: local
+    year: '2004'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9312,6 +10028,7 @@
     name: 'Dr. Doyle - Mystery Of The Cloche Hat'
     engine_id: wintermute
     company_id: pnc
+    year: '2017'
     moby_id: '-1'
     steam_id: '574420'
     gog_id: ''
@@ -9325,6 +10042,7 @@
     name: Dreamcat
     engine_id: wintermute
     company_id: jennybee
+    year: '2016'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9338,6 +10056,7 @@
     name: 'Des Reves Elastiques Avec Mille Insectes Nommes Georges'
     engine_id: wintermute
     company_id: squinky
+    year: '2008'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9351,6 +10070,7 @@
     name: Dreamscape
     engine_id: wintermute
     company_id: blekinge
+    year: '2009'
     moby_id: ''
     steam_id: ''
     gog_id: ''
@@ -9364,6 +10084,7 @@
     name: 'The Driller Incident'
     engine_id: wintermute
     company_id: unknown
+    year: '2010'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9377,6 +10098,7 @@
     name: 'The Death of Erin Myers'
     engine_id: wintermute
     company_id: viperante
+    year: '2019'
     moby_id: '155851'
     steam_id: '1064660'
     gog_id: ''
@@ -9390,6 +10112,7 @@
     name: 'Escape from the Mansion'
     engine_id: wintermute
     company_id: fan
+    year: '2012'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9403,6 +10126,7 @@
     name: 'Everyday Grey'
     engine_id: wintermute
     company_id: krumbukt
+    year: '2011'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9416,6 +10140,7 @@
     name: 'Face Noir'
     engine_id: wintermute
     company_id: madorange
+    year: '2012'
     moby_id: '61359'
     steam_id: '244690'
     gog_id: ''
@@ -9429,6 +10154,7 @@
     name: 'Finding Hope'
     engine_id: wintermute
     company_id: goldenbough
+    year: '2010'
     moby_id: '48605'
     steam_id: ''
     gog_id: ''
@@ -9442,6 +10168,7 @@
     name: 'Forgotten Sound 1 - Revelation'
     engine_id: wintermute
     company_id: rskent
+    year: '2018'
     moby_id: '122590'
     steam_id: '779840'
     gog_id: ''
@@ -9455,6 +10182,7 @@
     name: 'Forgotten Sound 2 - Destiny'
     engine_id: wintermute
     company_id: rskent
+    year: '2018'
     moby_id: '122593'
     steam_id: '783960'
     gog_id: ''
@@ -9468,6 +10196,7 @@
     name: Four
     engine_id: wintermute
     company_id: unknown
+    year: '2011'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9481,6 +10210,7 @@
     name: FoxTail
     engine_id: wintermute
     company_id: gingertips
+    year: '2018'
     moby_id: '104425'
     steam_id: '581360'
     gog_id: foxtail
@@ -9494,6 +10224,7 @@
     name: Framed
     engine_id: wintermute
     company_id: blekinge
+    year: '2009'
     moby_id: ''
     steam_id: ''
     gog_id: ''
@@ -9507,6 +10238,7 @@
     name: 'Ghost in the Sheet'
     engine_id: wintermute
     company_id: cbe
+    year: '2007'
     moby_id: '31661'
     steam_id: ''
     gog_id: ''
@@ -9520,6 +10252,7 @@
     name: 'The Golden Calf'
     engine_id: wintermute
     company_id: rootfix
+    year: '2006'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9533,6 +10266,7 @@
     name: 'Hamlet or the last game without MMORPG features, shaders and product placement'
     engine_id: wintermute
     company_id: mif2000
+    year: '2010'
     moby_id: '46506'
     steam_id: '222160'
     gog_id: ''
@@ -9546,6 +10280,7 @@
     name: 'Helga Deep In Trouble'
     engine_id: wintermute
     company_id: offstudio
+    year: '2013'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9559,6 +10294,7 @@
     name: Hor
     engine_id: wintermute
     company_id: romank
+    year: '2017'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9572,6 +10308,7 @@
     name: 'James Peris: No License Nor Control'
     engine_id: wintermute
     company_id: pavo
+    year: '2012'
     moby_id: '-1'
     steam_id: '1243010'
     gog_id: ''
@@ -9585,6 +10322,7 @@
     name: J.U.L.I.A.
     engine_id: wintermute
     company_id: cbe
+    year: '2012'
     moby_id: '55922'
     steam_id: ''
     gog_id: ''
@@ -9598,6 +10336,7 @@
     name: 'J.U.L.I.A.: Among the Stars'
     engine_id: wintermute
     company_id: cbe
+    year: '2014'
     moby_id: '68940'
     steam_id: '257690'
     gog_id: julia_among_the_stars
@@ -9611,6 +10350,7 @@
     name: 'J.U.L.I.A. Untold'
     engine_id: wintermute
     company_id: cbe
+    year: '2012'
     moby_id: '69257'
     steam_id: '360340'
     gog_id: ''
@@ -9624,6 +10364,7 @@
     name: "K'NOSSOS"
     engine_id: wintermute
     company_id: svarun
+    year: '2019'
     moby_id: '-1'
     steam_id: '696770'
     gog_id: ''
@@ -9637,6 +10378,7 @@
     name: Kulivočko
     engine_id: wintermute
     company_id: fatfunky
+    year: '2009'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9650,6 +10392,7 @@
     name: 'Life In 3 Minutes'
     engine_id: wintermute
     company_id: unknown
+    year: '2011'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9663,6 +10406,7 @@
     name: 'Project Lonely Robot'
     engine_id: wintermute
     company_id: blekinge
+    year: '2009'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9676,6 +10420,7 @@
     name: Looky
     engine_id: wintermute
     company_id: mac
+    year: '2007'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9689,6 +10434,7 @@
     name: 'Limbo of the Lost'
     engine_id: wintermute
     company_id: majestic
+    year: '2007'
     moby_id: '36820'
     steam_id: ''
     gog_id: ''
@@ -9702,6 +10448,7 @@
     name: 'Lov Mamuta'
     engine_id: wintermute
     company_id: unknown
+    year: '2010'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9715,6 +10462,7 @@
     name: 'Machu Mayu'
     engine_id: wintermute
     company_id: unknown
+    year: '2015'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9728,6 +10476,7 @@
     name: 'Mental Repairs, Inc.'
     engine_id: wintermute
     company_id: unknown
+    year: '2008'
     moby_id: '46212'
     steam_id: ''
     gog_id: ''
@@ -9741,6 +10490,7 @@
     name: Mirage
     engine_id: wintermute
     company_id: blekinge
+    year: '2009'
     moby_id: ''
     steam_id: ''
     gog_id: ''
@@ -9754,6 +10504,7 @@
     name: 'Monday Starts on Saturday'
     engine_id: wintermute
     company_id: rootfix
+    year: '2008'
     moby_id: '114398'
     steam_id: ''
     gog_id: ''
@@ -9767,6 +10518,7 @@
     name: "Myth: A Guff's Tale"
     engine_id: wintermute
     company_id: solo
+    year: '2019'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9780,6 +10532,7 @@
     name: 'Night Train'
     engine_id: wintermute
     company_id: aka
+    year: '2010'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9793,6 +10546,7 @@
     name: Oknytt
     engine_id: wintermute
     company_id: nemoria
+    year: '2014'
     moby_id: '70002'
     steam_id: '286320'
     gog_id: ''
@@ -9806,6 +10560,7 @@
     name: One
     engine_id: wintermute
     company_id: unknown
+    year: '2017'
     moby_id: ''
     steam_id: ''
     gog_id: ''
@@ -9819,6 +10574,7 @@
     name: 'One Helluva Day'
     engine_id: wintermute
     company_id: romank
+    year: '2020'
     moby_id: '-1'
     steam_id: '603680'
     gog_id: ''
@@ -9832,6 +10588,7 @@
     name: 'Open Quest'
     engine_id: wintermute
     company_id: jennybee
+    year: '2007'
     moby_id: '31793'
     steam_id: ''
     gog_id: ''
@@ -9845,6 +10602,7 @@
     name: Paintaria
     engine_id: wintermute
     company_id: traktor
+    year: '2013'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9858,6 +10616,7 @@
     name: Palladion
     engine_id: wintermute
     company_id: unknown
+    year: '2008'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9871,6 +10630,7 @@
     name: "Papa's Daughters"
     engine_id: wintermute
     company_id: herocraft
+    year: '2011'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9884,6 +10644,7 @@
     name: "Papa's Daughters Go to the Sea"
     engine_id: wintermute
     company_id: herocraft
+    year: '2011'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9897,6 +10658,7 @@
     name: 'Pigeons in the Park'
     engine_id: wintermute
     company_id: squinky
+    year: '2007'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9910,6 +10672,7 @@
     name: 'Pizza Morgana: Episode 1 - Monsters and Manipulations in the Magical Forest'
     engine_id: wintermute
     company_id: corbomite
+    year: '2009'
     moby_id: '51420'
     steam_id: ''
     gog_id: ''
@@ -9923,6 +10686,7 @@
     name: 'Pole Chudes'
     engine_id: wintermute
     company_id: herocraft
+    year: '2011'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9936,6 +10700,7 @@
     name: 'Project: Doom'
     engine_id: wintermute
     company_id: blekinge
+    year: '2009'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9949,6 +10714,7 @@
     name: 'Project Joe'
     engine_id: wintermute
     company_id: sticky
+    year: '2004'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -9962,6 +10728,7 @@
     name: 'Qajary Cat'
     engine_id: wintermute
     company_id: rskent
+    year: '2017'
     moby_id: '122595'
     steam_id: '734080'
     gog_id: ''
@@ -9975,6 +10742,7 @@
     name: 'Rebecca Carlson Mystery 01 - Silent Footsteps'
     engine_id: wintermute
     company_id: frostlind
+    year: '2018'
     moby_id: '114499'
     steam_id: '780740'
     gog_id: ''
@@ -9988,6 +10756,7 @@
     name: 'On the Tracks of Dinosaurs'
     engine_id: wintermute
     company_id: unknown
+    year: '2010'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -10001,6 +10770,7 @@
     name: 'Reversion: The Escape'
     engine_id: wintermute
     company_id: 3f
+    year: '2012'
     moby_id: '66134'
     steam_id: '270570'
     gog_id: ''
@@ -10014,6 +10784,7 @@
     name: 'Reversion: The Meeting'
     engine_id: wintermute
     company_id: 3f
+    year: '2013'
     moby_id: '66135'
     steam_id: '281060'
     gog_id: ''
@@ -10027,6 +10798,7 @@
     name: 'Reversion: The Return'
     engine_id: wintermute
     company_id: 3f
+    year: '2020'
     moby_id: '143266'
     steam_id: '281080'
     gog_id: ''
@@ -10040,6 +10812,7 @@
     name: 'Rhiannon: Curse of the Four Branches'
     engine_id: wintermute
     company_id: arberth
+    year: '2008'
     moby_id: '36964'
     steam_id: '298140'
     gog_id: rhiannon_curse_of_the_four_branches
@@ -10053,6 +10826,7 @@
     name: '1½ Ritter: Auf der Suche nach der hinreißenden Herzelinde'
     engine_id: wintermute
     company_id: daedalic
+    year: '2008'
     moby_id: '44924'
     steam_id: ''
     gog_id: ''
@@ -10066,6 +10840,7 @@
     name: Rosemary
     engine_id: wintermute
     company_id: mitgamelab
+    year: '2009'
     moby_id: '44653'
     steam_id: ''
     gog_id: ''
@@ -10079,6 +10854,7 @@
     name: 'Satan and Sons'
     engine_id: wintermute
     company_id: unknown
+    year: '2005'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -10092,6 +10868,7 @@
     name: Securanote
     engine_id: wintermute
     company_id: skaldic
+    year: '2013'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -10105,6 +10882,7 @@
     name: Shaban
     engine_id: wintermute
     company_id: petagame
+    year: '2012'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -10118,6 +10896,7 @@
     name: 'The Shine of a Star'
     engine_id: wintermute
     company_id: forgottenkey
+    year: '2011'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -10131,6 +10910,7 @@
     name: "Sofia's Debt"
     engine_id: wintermute
     company_id: artistic
+    year: '2004'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -10144,6 +10924,7 @@
     name: 'Shadows on the Vatican - Act 1: Greed'
     engine_id: wintermute
     company_id: daringtouch
+    year: '2012'
     moby_id: '55855'
     steam_id: '286360'
     gog_id: ''
@@ -10157,6 +10938,7 @@
     name: 'Shadows on the Vatican - Act II: Wrath'
     engine_id: wintermute
     company_id: daringtouch
+    year: '2015'
     moby_id: '83648'
     steam_id: '378630'
     gog_id: ''
@@ -10170,6 +10952,7 @@
     name: 'Space Invaders'
     engine_id: wintermute
     company_id: unknown
+    year: '1999'
     moby_id: '623'
     steam_id: ''
     gog_id: ''
@@ -10183,6 +10966,7 @@
     name: 'Space Madness'
     engine_id: wintermute
     company_id: spreadcamp
+    year: '2011'
     moby_id: ''
     steam_id: ''
     gog_id: ''
@@ -10196,6 +10980,7 @@
     name: 'Tanya Grotter and the Magical Double Bass'
     engine_id: wintermute
     company_id: creativedream
+    year: '2008'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -10209,6 +10994,7 @@
     name: 'Tanya Grotter and the Disappearing Floor'
     engine_id: wintermute
     company_id: creativedream
+    year: '2008'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -10222,6 +11008,7 @@
     name: "Murder In Tehran's Alleys 1933"
     engine_id: wintermute
     company_id: rskent
+    year: '2017'
     moby_id: '122584'
     steam_id: '630170'
     gog_id: ''
@@ -10235,6 +11022,7 @@
     name: "Murder In Tehran's Alleys 2016"
     engine_id: wintermute
     company_id: rskent
+    year: '2017'
     moby_id: '122585'
     steam_id: '639730'
     gog_id: ''
@@ -10248,6 +11036,7 @@
     name: 'The Ancient Mark - Episode 1'
     engine_id: wintermute
     company_id: flippingtree
+    year: '2012'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -10261,6 +11050,7 @@
     name: 'The Box'
     engine_id: wintermute
     company_id: blekinge
+    year: '2009'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -10274,6 +11064,7 @@
     name: 'The Kite'
     engine_id: wintermute
     company_id: anate
+    year: '2012'
     moby_id: '54832'
     steam_id: '968700'
     gog_id: ''
@@ -10287,6 +11078,7 @@
     name: 'The Last Crown - Midnight Horror'
     engine_id: wintermute
     company_id: darkling
+    year: '2015'
     moby_id: '83526'
     steam_id: '291770'
     gog_id: ''
@@ -10300,6 +11092,7 @@
     name: 'The Lost Crown - A Ghost-Hunting Adventure'
     engine_id: wintermute
     company_id: darkling
+    year: '2008'
     moby_id: '33388'
     steam_id: '291710'
     gog_id: ''
@@ -10313,6 +11106,7 @@
     name: 'Fairy Tales About Toshechka and Boshechka'
     engine_id: wintermute
     company_id: creativedream
+    year: '2007'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -10326,6 +11120,7 @@
     name: 'The Trader of Stories'
     engine_id: wintermute
     company_id: rudowski
+    year: '2009'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -10339,6 +11134,7 @@
     name: 'The White Chamber'
     engine_id: wintermute
     company_id: studiotrophis
+    year: '2005'
     moby_id: '17172'
     steam_id: ''
     gog_id: ''
@@ -10352,6 +11148,7 @@
     name: Vsevolod
     engine_id: wintermute
     company_id: svarun
+    year: '2012'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -10365,6 +11162,7 @@
     name: War
     engine_id: wintermute
     company_id: unknown
+    year: '2011'
     moby_id: ''
     steam_id: ''
     gog_id: ''
@@ -10378,6 +11176,7 @@
     name: 'Wintermute engine game'
     engine_id: wintermute
     company_id: deadcode
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -10391,6 +11190,7 @@
     name: 'Wintermute Engine Technology Demo'
     engine_id: wintermute
     company_id: deadcode
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -10404,6 +11204,7 @@
     name: 'Wintermute 3D Characters Technology Demo'
     engine_id: wintermute
     company_id: deadcode
+    year: ''
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -10417,6 +11218,7 @@
     name: 'Wilma Tetris'
     engine_id: wintermute
     company_id: offstudio
+    year: '2003'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -10430,6 +11232,7 @@
     name: 'Zbang! The Game'
     engine_id: wintermute
     company_id: corbomite
+    year: '2007'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -10443,6 +11246,7 @@
     name: 'Zilm: A Game of Reflex'
     engine_id: wintermute
     company_id: skaldic
+    year: '2013'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -10456,6 +11260,7 @@
     name: 'Might and Magic: Clouds of Xeen'
     engine_id: xeen
     company_id: nwc
+    year: '1992'
     moby_id: '3423'
     steam_id: ''
     gog_id: might_and_magic_6_limited_edition
@@ -10469,6 +11274,7 @@
     name: 'Might and Magic: Darkside of Xeen'
     engine_id: xeen
     company_id: nwc
+    year: '1993'
     moby_id: '3424'
     steam_id: ''
     gog_id: might_and_magic_6_limited_edition
@@ -10482,6 +11288,7 @@
     name: 'Might and Magic: Swords of Xeen'
     engine_id: xeen
     company_id: nwc
+    year: '1995'
     moby_id: '-1'
     steam_id: ''
     gog_id: might_and_magic_6_limited_edition
@@ -10495,6 +11302,7 @@
     name: 'Might and Magic: World of Xeen'
     engine_id: xeen
     company_id: nwc
+    year: '1994'
     moby_id: '4321'
     steam_id: ''
     gog_id: might_and_magic_6_limited_edition
@@ -10508,6 +11316,7 @@
     name: 'Zork: Grand Inquisitor'
     engine_id: zvision
     company_id: activision
+    year: '1997'
     moby_id: '1951'
     steam_id: '570680'
     gog_id: zork_grand_inquisitor
@@ -10521,6 +11330,7 @@
     name: 'Zork Nemesis: The Forbidden Lands'
     engine_id: zvision
     company_id: activision
+    year: '1996'
     moby_id: '560'
     steam_id: '571060'
     gog_id: zork_nemesis_the_forbidden_lands
