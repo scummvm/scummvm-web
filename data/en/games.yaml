@@ -5551,6 +5551,58 @@
     wikipedia_page: 'Nancy_Drew:_Secrets_Can_Kill'
     series_id: nancy
 -
+    id: 'nancy:nancy2'
+    name: 'Nancy Drew: Stay Tuned for Danger'
+    engine_id: nancy
+    company_id: herinteractive
+    moby_id: '2425'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: "- [Developer's Website](https://www.herinteractive.com/shop-games/nancy-drew-stay-tuned-for-danger/)"
+    datafiles: 'Nancy_Drew:_Stay_Tuned_for_Danger'
+    wikipedia_page: 'Nancy_Drew:_Stay_Tuned_for_Danger'
+    series_id: nancy
+-
+    id: 'nancy:nancy3'
+    name: 'Nancy Drew: Message in a Haunted Mansion'
+    engine_id: nancy
+    company_id: herinteractive
+    moby_id: '4908'
+    steam_id: '615770'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: "- [Developer's Website](https://www.herinteractive.com/shop-games/nancy-drew-message-in-a-haunted-mansion/)"
+    datafiles: 'Nancy_Drew:_Message_in_a_Haunted_Mansion'
+    wikipedia_page: 'Nancy_Drew:_Message_in_a_Haunted_Mansion'
+    series_id: nancy
+-
+    id: 'nancy:nancy4'
+    name: 'Nancy Drew: Treasure in the Royal Tower'
+    engine_id: nancy
+    company_id: herinteractive
+    moby_id: '4910'
+    steam_id: '615780'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: "- [Developer's Website](https://www.herinteractive.com/shop-games/nancy-drew-treasure-in-the-royal-tower/)"
+    datafiles: 'Nancy_Drew:_Treasure_in_the_Royal_Tower'
+    wikipedia_page: 'Nancy_Drew:_Treasure_in_the_Royal_Tower'
+    series_id: nancy
+-
+    id: 'nancy:nancy5'
+    name: 'Nancy Drew: The Final Scene'
+    engine_id: nancy
+    company_id: herinteractive
+    moby_id: '5535'
+    steam_id: '615730'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: "- [Developer's Website](https://www.herinteractive.com/shop-games/nancy-drew-the-final-scene/)"
+    datafiles: 'Nancy_Drew:_The_Final_Scene'
+    wikipedia_page: 'Nancy_Drew:_The_Final_Scene'
+    series_id: nancy
+-
     id: 'nancy:vampirediaries'
     name: 'The Vampire Diaries'
     engine_id: nancy

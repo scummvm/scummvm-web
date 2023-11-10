@@ -1188,6 +1188,54 @@
     language: ru
     variant_id: '1'
 -
+    id: 'nancy:nancy2'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'nancy:nancy2'
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
+    id: 'nancy:nancy3'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'nancy:nancy3'
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
+    id: 'nancy:nancy4'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'nancy:nancy4'
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
+    id: 'nancy:nancy5'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'nancy:nancy5'
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
     id: 'nancy:vampirediaries'
     variant: ''
     platform_id: win

@@ -4755,14 +4755,14 @@
 -
     id: 'nancy:nancy1'
     support: good
-    notes: 'Original menus are not yet supported'
+    notes: ''
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'nancy:vampirediaries'
     support: good
-    notes: 'Original menus are not yet supported'
+    notes: ''
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
@@ -4912,4 +4912,32 @@
     notes: ''
     since_version: DEV
     stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: 'nancy:nancy2'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'nancy:nancy3'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'nancy:nancy4'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'nancy:nancy5'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
     unstable_platforms: ''
