@@ -2262,6 +2262,15 @@
     id: 'mohawk:tortoise'
     platform: win
     '': ''
+    category: 'English, French, German'
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/mohawk/tortoise-win-demo-en-fr-de.zip
+-
+    id: 'mohawk:tortoise'
+    platform: win
+    '': ''
     category: ''
     language: en
     language2: ''

@@ -683,6 +683,16 @@
     enabled: true
     category: scummvm
     subcategory: old
+    category_icon: ds
+    user_agent: ''
+    version: 1.2.1
+    url: 'scummvm-{$version}-ds.zip'
+    name: 'Nintendo DS package'
+    notes: ''
+-
+    enabled: true
+    category: scummvm
+    subcategory: old
     category_icon: 3ds
     user_agent: ''
     version: 2.7.0
