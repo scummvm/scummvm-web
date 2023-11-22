@@ -2262,10 +2262,10 @@
     id: 'mohawk:tortoise'
     platform: win
     '': ''
-    category: 'English, French, German'
+    category: ''
     language: en
-    language2: ''
-    language3: ''
+    language2: fr
+    language3: de
     url: /frs/demos/mohawk/tortoise-win-demo-en-fr-de.zip
 -
     id: 'mohawk:tortoise'
