@@ -248,6 +248,13 @@
     category: games
     game_id: 'parallaction:nippon'
     category_icon: nippon
+    url: 'Nippon Safes/nippon-alt-1.0.zip'
+    name: 'Freeware DOS Alternative Version (English/French/German/Italian). French is patched.'
+    notes: ''
+-
+    category: games
+    game_id: 'parallaction:nippon'
+    category_icon: nippon
     url: 'Nippon Safes/nippon-amiga-1.0.zip'
     name: 'Freeware Amiga Version (English/French/German)'
     notes: ''
