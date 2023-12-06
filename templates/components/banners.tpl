@@ -8,9 +8,6 @@
     <a href="https://www.zoom-platform.com/?affiliate=c049516c-9c4c-42d6-8649-92ed870e8b53">
         <img src="/images/ZOOM_button_small.png" width="88" height="32">
     </a>
-    <a href="https://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
-        <img src="/images/GOG_button_small.png" width="88" height="32" alt="{#indexGOG#}">
-    </a>
     <a href="https://github.com/scummvm">
         <img src="/images/github-logo.png" alt="{#indexGithub#}" width="88" height="32">
     </a>

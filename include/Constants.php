@@ -34,8 +34,6 @@ class Constants
 
         /* External URLs */
         define('GOG_URL_PREFIX', "https://www.gog.com/game/");
-        // ScummVM affiliate id
-        define('GOG_URL_SUFFIX', '?pp=22d200f8670dbdb3e253a90eee5098477c95c23d');
         define('STEAM_URL_PREFIX', 'https://store.steampowered.com/app/');
         define('ZOOM_URL_PREFIX', 'https://www.zoom-platform.com/product/');
         // ScummVM affiliate id
