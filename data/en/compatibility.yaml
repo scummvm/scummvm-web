@@ -4650,7 +4650,7 @@
 -
     id: 'freescape:driller'
     support: good
-    notes: '- Minor missing features (UI details, special effects)  - CGA/EGA version is supported from DOS release'
+    notes: '- Minor missing features (UI details)  - CGA/EGA version is supported from DOS release'
     since_version: 2.7.0
     stable_platforms: 'dos,amiga,atarist,zx,cpc'
     unstable_platforms: ''
@@ -4755,14 +4755,14 @@
 -
     id: 'nancy:nancy1'
     support: good
-    notes: 'Original menus are not yet supported'
+    notes: ''
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'nancy:vampirediaries'
     support: good
-    notes: 'Original menus are not yet supported'
+    notes: ''
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
@@ -4874,6 +4874,69 @@
 -
     id: 'ags:danewguys2'
     support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'gob:adibou1'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'dos,amiga,win'
+    unstable_platforms: ''
+-
+    id: 'scumm:puttcircus'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: 'freescape:darkside'
+    support: good
+    notes: '- Minor missing features (UI details)  - CGA/EGA version is supported from DOS release'
+    since_version: DEV
+    stable_platforms: 'dos,zx,cpc'
+    unstable_platforms: ''
+-
+    id: 'efh:efh'
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: 'kingdom:kingdom'
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: 'nancy:nancy2'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'nancy:nancy3'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'nancy:nancy4'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'nancy:nancy5'
+    support: good
     notes: ''
     since_version: DEV
     stable_platforms: win

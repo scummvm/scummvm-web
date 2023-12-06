@@ -1,0 +1,21 @@
+---
+title: "ScummVM 2.7.1: &quot;Stan's previously broken swords&quot; sees the light"
+author: sev
+date: 1690833281
+---
+
+A little while has passed since the release of 2.7.0, and we are now excited to present you with the bugfix release 2.7.1.
+
+We have included a significant amount of fixes and small improvements, in particular:
+
+* Added ScummVM Log file viewer, so you can easily report the problems on platforms with limited file access, e.g. Android, iOS or even modern Windows.
+* Fixed the shader-based scaler loading on some platforms.
+* Added multiple improvements to AGI, AGS, Cryomni3D and 12 more engines.
+
+We also improved the detection of Broken Sword 1 &amp; Broken Sword 2, so more original versions get properly detected. Thank you to those who submitted bug reports about this, and if you still locate a version that is not recognised, please report it to us (beware that the frankenstein versions that are floating around the internet will not be accepted, only those copied from the original media).
+
+For the full and comprehensive list of notable changes, please refer to the [Release Notes](https://downloads.scummvm.org/frs/scummvm/2.7.1/ReleaseNotes.html).
+
+If you are as excited about the release as we are, you can share our joy by downloading it from [our downloads page](https://www.scummvm.org/downloads/). If you are using Windows, macOS, or either of the Ubuntu Snap or Flatpack packages, the autoupdater will pick up the ScummVM 2.7.1 release automatically. For our Android app users, the update will be available on the Play Store.
+
+Thank you very much for your continued support. Enjoy!

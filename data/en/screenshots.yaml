@@ -474,6 +474,24 @@
     language: it
     variant_id: '1'
 -
+    id: 'freescape:darkside'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'freescape:darkside'
+    variant: ''
+    platform_id: cpc
+    language: en
+    variant_id: '1'
+-
+    id: 'freescape:darkside'
+    variant: ''
+    platform_id: zx
+    language: en
+    variant_id: '1'
+-
     id: 'freescape:driller'
     variant: ''
     platform_id: dos
@@ -508,6 +526,18 @@
     variant: ''
     platform_id: win
     language: en
+    variant_id: '1'
+-
+    id: 'gob:adibou1'
+    variant: ''
+    platform_id: dos
+    language: fr
+    variant_id: '1'
+-
+    id: 'gob:adibou1'
+    variant: ''
+    platform_id: win
+    language: de
     variant_id: '1'
 -
     id: 'gob:adibou2'
@@ -1153,6 +1183,54 @@
     variant_id: '1'
 -
     id: 'nancy:nancy1'
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
+    id: 'nancy:nancy2'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'nancy:nancy2'
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
+    id: 'nancy:nancy3'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'nancy:nancy3'
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
+    id: 'nancy:nancy4'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'nancy:nancy4'
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
+    id: 'nancy:nancy5'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'nancy:nancy5'
     variant: ''
     platform_id: win
     language: ru

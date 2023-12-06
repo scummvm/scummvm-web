@@ -473,6 +473,13 @@
         alias: "fuzzie"
         description: ""
     -
+      name: "Crab"
+      person:
+      -
+        name: "Kartik Agarwala"
+        alias: "hax0kartik"
+        description: ""
+    -
       name: "CruisE"
       person:
       -
@@ -626,6 +633,13 @@
       -
         name: "Willem Jan Palenstijn"
         alias: "wjp"
+        description: ""
+    -
+      name: "Efh"
+      person:
+      -
+        name: "Arnaud Boutonn&eacute;"
+        alias: "Strangerke"
         description: ""
     -
       name: "Freescape"
@@ -990,6 +1004,10 @@
         alias: "benoit-pierre"
         description: ""
       -
+        name: "???"
+        alias: "TheDrakeRaider"
+        description: "(M&M1 Gfx Mod)"
+      -
         name: "David Goldsmith"
         alias: "WizardStan"
         description: "(Xeen analysis)"
@@ -1305,6 +1323,10 @@
       name: "SCUMM HE"
       person:
       -
+        name: "Andrea Boscarino"
+        alias: "AndywinXp"
+        description: "Digital audio"
+      -
         name: "Jonathan Gray"
         alias: "khalek"
         description: "(retired)"
@@ -1409,6 +1431,10 @@
         name: "Fabio Battaglia"
         alias: "Hkz"
         description: "PSX version support"
+      -
+        name: "Andrea Boscarino"
+        alias: "AndywinXp"
+        description: "Palette fading, menus, audio"
       -
         name: "Thierry Crozat"
         alias: "criezy"
@@ -1752,6 +1778,13 @@
         alias: "sev"
         description: ""
     -
+      name: "Watchmaker"
+      person:
+      -
+        name: "Einar Johan Troan Somaen;"
+        alias: "somaen"
+        description: ""
+    -
       name: "Wintermute"
       person:
       -
@@ -2017,6 +2050,13 @@
       -
         name: "Manuel Alfayate"
         alias: "vanfanel"
+        description: ""
+    -
+      name: "Libretro"
+      person:
+      -
+        name: "Giovanni Cascione"
+        alias: "spleen1981"
         description: ""
   -
     title: "Other subsystems"
@@ -2730,6 +2770,18 @@
       name: ""
       person:
       -
+        name: "Stefan Philippsen"
+        alias: "GandalftheWhite80"
+        description: "Primary contributor and coordination"
+      -
+        name: "Benjamin Funke"
+        alias: "BJNFNE"
+        description: ""
+      -
+        name: "Daniel Albano"
+        alias: "SupSuper"
+        description: ""
+      -
         name: "David Calvert"
         alias: "davidcalvertfr"
         description: ""
@@ -2758,16 +2810,16 @@
         alias: "olly"
         description: ""
       -
-        name: "Stefan Philippsen"
-        alias: ""
+        name: "Walter Agazzi"
+        alias: "tag2015"
+        description: ""
+      -
+        name: "???"
+        alias: "beresk137"
         description: ""
       -
         name: "???"
         alias: "Canuma"
-        description: ""
-      -
-        name: "???"
-        alias: "SupSuper"
         description: ""
       -
         name: "???"

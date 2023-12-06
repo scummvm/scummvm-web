@@ -6,7 +6,7 @@ class Constants
     public function __construct()
     {
         /* Current version. */
-        define('RELEASE', '2.7.0');
+        define('RELEASE', '2.7.1');
         define('RELEASE_TOOLS', '2.7.0');
 
         /* News items on the front page. */
@@ -35,6 +35,9 @@ class Constants
         /* External URLs */
         define('GOG_URL_PREFIX', "https://www.gog.com/game/");
         define('STEAM_URL_PREFIX', 'https://store.steampowered.com/app/');
+        define('ZOOM_URL_PREFIX', 'https://www.zoom-platform.com/product/');
+        // ScummVM affiliate id
+        define('ZOOM_URL_SUFFIX', '?affiliate=c049516c-9c4c-42d6-8649-92ed870e8b53');
 
         /* Paths */
         define('DIR_BASE', __DIR__  . '/..');
