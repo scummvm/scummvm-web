@@ -504,19 +504,19 @@
         "content": "La votación para los segundos [premios de la comunidad](https://sourceforge.net/awards/cca/) de [SourceForge.net's](https://sourceforge.net) ha terminado. El 30 de julio sabremos los resultados."
     },
     "20070731": {
-        "title": "",
-        "content": ""
+        "title": "Premios Community Choice Awards de SourceForge.net: ¡hemos ganado!",
+        "content": "Señoras y señores, ¡han salido los resultados de los [premios Community Choice Awards de 2007](https://sourceforge.net/awards/cca/) y ScummVM ha ganado en la categoría **Best Project for Gamers (mejor proyecto para fans de videojuegos)**!\n\nComo se haría en toda ceremonia de entrega de premios, queremos dar las gracias por encima de todos a vosotros, nuestros usuarios. A lo largo de estos años nos habéis ayudado a crecer como proyecto, diciéndonos dónde había fallos y contribuyendo con código.\n\nEn segundo lugar, queremos dar las gracias a nuestro hospedador del proyecto, [SourceForge.net](http://www.sourceforge.net). Son los que mantienen y desarrollan la plataforma de la que dependemos para colaborar y transmitir nuestro código.\n\nDe nuevo, muchísimas gracias a la comunidad por apoyar a ScummVM. Es todo un honor ser elegidos como el mejor proyecto de entre más de 150 000 posibles candidatos.\n\nAsí que so todavía no lo habéis hecho, ¡descargad la última versión [Galardonada(TM) de ScummVM](/downloads/) y disfrutad de alguna que otra aventura clásica en vuestra plataforma favorita!"
     },
     "20070805": {
         "title": "Conversión de ScummVM 0.10.0a para DS publicada",
-        "content": ""
+        "content": "Ya está disponible la última versión de la conversión de ScummVM para Nintendo DS. Esta versión equipara a dicha conversión con el resto de conversiones de ScummVM. Los juegos nuevos para la versión de DS incluyen a las últimas entregas de la saga *Goblins*, *Future Wars* y los juegos en AGI de Sierra. También hay bastantes mejoras de velocidad que debería dar una experiencia más fluida.\n\nComo siempre, podéis descargarla en la [página principal de descargas de ScummVM](/downloads/)."
     },
     "20070916": {
-        "title": "",
-        "content": ""
+        "title": "¿Quién de vosotros quiere jugar?",
+        "content": "Nos complace anunciaros otro juego compatible: [*I Have No Mouth, and I Must Scream*](http://wiki.scummvm.org/index.php/I_Have_No_Mouth%2C_and_I_Must_Scream), que utiliza el motor [SAGA](http://wiki.scummvm.org/index.php/SAGA).\n\nAyudad a Gorrister, Ellen, Benny, Nimdok y Ted a superar sus defectos y a luchar contra AM, un desquiciado superordenador.\n\n¡Haceos con la última [compilación diaria](/downloads/#daily) de ScummVM y vuestras versiones del juego en inglés, alemán, francés, castellano o ruso del juego y enfrentaos al superordenador! Os pedimos, estimados usuarios, que informéis de cualquier fallo que encontréis en nuestro [gestor de fallos](http://bugs.scummvm.org/) siguiendo las [normas para enviar fallos](/faq/#question.report-bugs). También es necesario informar de cualquier versión no reconocida en el gestor. Además, hacen falta capturas de pantalla, que pueden enviarse siguiendo las [normas](http://wiki.scummvm.org/index.php/Screenshots) correspondientes para el envío de capturas de pantalla.\n\n¡Esperamos que podáis disfrutar de otra gran aventura con ScummVM!"
     },
     "20071012": {
-        "title": "",
+        "title": "¿A qué día estamos? ¡A 5 de octubre...! Estooo, ¡a 12!",
         "content": ""
     },
     "20071127": {
@@ -624,8 +624,8 @@
         "content": ""
     },
     "20090122": {
-        "title": "",
-        "content": ""
+        "title": "ScummVM anuncia su entrada en el programa de afiliados de GOG.com",
+        "content": "¿Os habéis preguntado constantemente dónde comprar juegos compatibles con ScummVM? ¿Tal vez os llegarais a preguntar también cómo podéis ayudar al proyecto?\n\nPodríais encontrar los juegos compatibles o bien en nuestra [página de descargas](/downloads/), o en la página [«Where to buy games (dónde comprar juegos)»](http://wiki.scummvm.org/index.php/Where_to_buy_games) de nuestra wiki. Desde hace tiempo hemos tenido un [botón de PayPal](https://sourceforge.net/donate/index.php?group_id=37116) como forma de ayudar al proyecto.\n\n¡Pero ahora podéis conseguir las dos cosas a la vez!\n\nNos complace anunciaros el inicio de un programa de afiliación con el excelente servicio [Good Old Games](http://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d), también conocido como GOG.com. Con solo hacer clic en su botón de la barra lateral podréis acceder a su página. Registraos allí y comprad algún que otro juego. Conseguiréis vuestro juego de forma rápida, barata y legal mientras el proyecto ScummVM se llevará un porcentaje de los beneficios.\n\nEl principal motivo tras esta decisión es que [GOG.com](http://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) utiliza ScummVM para varios de sus títulos en oferta. Ahora mismo ofrecen *Broken Sword 2*, *Simon the Sorcerer 1*, *Simon the Sorcerer 2*, *The Feeble Files*, *Waxworks*, así como algunos de los juegos gratuitos que también distribuimos. Cada versión viene acompañada de ScummVM, no lleva protecciones anticopia (DRM), cuesta solo 5,99 $ y lo más importante: es completamente legal, ya que esta gente se pone en contacto con los propietarios originales de los derechos.\n\nAsí que estad atentos a su página web, [comprad](http://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) los juegos y ayudad a nuestro proyecto.\n\n***P.D.:*** Solo nos darán dinero si hacéis clic en el botón indicado y os registráis en un breve periodo de tiempo."
     },
     "20090215": {
         "title": "",
@@ -912,8 +912,8 @@
         "content": ""
     },
     "20121025": {
-        "title": "",
-        "content": ""
+        "title": "Nuevo juego compatible: Tony Tough",
+        "content": "Al equipo de ScummVM, en estrecha colaboración con Nayma soft (dueña de los derechos) y DotEmu, le alegra anunciar el soporte para *Tony Tough* en nuestra rama de desarrollo. El título puede comprarse a través de [DotEmu](http://www.dotemu.com/affiliate/32202/node/4600).\n\nNo obstante, el juego solo ha sido probado en Windows y Linux, así que nos gustaría anunciar nuestro periodo de pruebas habitual. Haceos con el juego buscando en vuestro desván o [comprándolo](http://www.dotemu.com/affiliate/32202/node/4600) en DotEmu, probadlo con una [compilación diaria](/downloads/#daily) y enviad vuestros informes de fallos a [nuestro gestor de fallos](http://bugs.scummvm.org/).\n\nTambién queremos aprovechar esta oportunidad para anunciar un programa de afiliación con DotEmu: si compráis juegos utilizando [este enlace](http://www.dotemu.com/affiliate/32202) o con el botón que hay en la parte derecha de la página, apoyaréis a ScummVM."
     },
     "20121130": {
         "title": "",
@@ -1566,5 +1566,9 @@
     "20231110": {
         "content": "Echad mano de vuestros sombreros de pensar, detectives: ¡es hora de resolver misterios! Nos enorgullece anunciar que una tanda completa de los juegos de Nancy Drew, desarrollados por HeR Interactive, ya están listos para ser probados de forma pública:\n\nEn [_Nancy Drew: Stay Tuned for Danger_](https://wiki.scummvm.org/index.php?title=Nancy_Drew:_Stay_Tuned_for_Danger), una estrella de telenovelas necesitará de vuestra ayuda para descubrir quién es el responsable de varias amenazas de muerte que parecen sospechosamente reales. \n\n[_Nancy Drew: Message in a Haunted Mansion_](https://wiki.scummvm.org/index.php?title=Nancy_Drew:_Message_in_a_Haunted_Mansion) os tendrá ayudando en las reparaciones de una mansión victoriana. Sin embargo, varios accidentes extraños y ciertos rumores de que la mansión está embrujada amenazan rápidamente con convertir esta reforma en una investigación.\n\nEn [_Nancy Drew: Treasure in the Royal Tower_](https://wiki.scummvm.org/index.php?title=Nancy_Drew:_Treasure_in_the_Royal_Tower), un intento fallido de vacaciones de esquí en un castillo excéntrico con habitantes más excéntricos todavía se convertirá rápidamente en una misión para recuperar una pieza perdida de la historia de la Revolución francesa.\n\nY si buscáis emociones más fuertes, en [_Nancy Drew: The Final Scene_](https://wiki.scummvm.org/index.php?title=Nancy_Drew:_The_Final_Scene) tendréis que correr contra el reloj para ayudar a su amiga secuestrada y al mismo tiempo salvar a un histórico teatro repleto de secretos de ser demolido.\n\nLos juegos pueden comprarse a través de [la página web de HeR Interactive](https://www.herinteractive.com/shop-games/all-games/) o de [Steam](https://store.steampowered.com/search/?term=nancy+drew) (eso sí, Stay Tuned for Danger no se encuentra disponible en Steam). O si ya tenéis una copia en CD de estos juegos, sus variantes en inglés y ruso también funcionarán. Para ejecutarlos en ScummVM necesitaréis una [compilación diaria de desarrollo](https://www.scummvm.org/downloads/#daily). Como siempre, si encontráis cualquier problema, os rogamos que enviéis un informe de fallos a nuestro [gestor de problemas](https://bugs.scummvm.org/).",
         "title": "¡Vuelve la detective adolescente!"
+    },
+    "20231206": {
+        "content": "Durante muchos años, el programa de afiliación de GOG.com ha sido una estupenda forma de apoyar al proyecto. Utilizando los enlaces de afiliado para comprar vuestros juegos favoritos, nos daríais una pequeña comisión por parte de GOG.com, sin repercutir en el precio original.\n\nA principios de año, GOG.com anunció el abandono de su antiguo programa de afiliación. En lugar de utilizar un simple enlace de referencia, han pasado a utilizar dos redes de afiliación externas que llevan a cabo rastreo entre sitios web, como indican varios bloqueadores de anuncios. Desde nuestra afiliación con GOG.com allá por 2009 hemos podido utilizar los enlaces de referencia antiguos durante un par de meses tras el anuncio inicial del abandono.\n\nPor desgracia, nuestros enlaces de afiliado pasaron a mejor vida a partir del 22 de noviembre de 2023.\n\nYa que no nos gusta que tengáis que recurrir a redes de afiliación externas solo para apoyar al proyecto y debido a que el rastreo de usuarios va en contra de las políticas de nuestro proyecto, hemos decidido no unirnos al programa nuevo.\n\nAún consideramos a GOG.com una forma excelente de comprar de forma legal juegos compatibles con ScummVM. Aunque hemos dejado de estar afiliados a ellos, seguiremos dando soporte a sus versiones de juegos, por ejemplo, añadiendo y actualizando las firmas de los archivos de datos de los juegos compatibles con ScummVM que puedan comprarse en GOG.com en nuestra base de datos de detección y ofreciendo enlaces a sus versiones en [nuestra lista de juegos disponibles](https://wiki.scummvm.org/index.php?title=Where_to_get_the_games).\n\n¡Gracias a GOG.com y a todos los que habéis utilizado nuestro enlace de afiliado para apoyarnos durante estos últimos 14 años!",
+        "title": "Los enlaces de afiliación de GOG.com para ScummVM han dejado de funcionar"
     }
 }
