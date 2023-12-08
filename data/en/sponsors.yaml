@@ -1,7 +1,3 @@
-- name: Fastly
-  link: 'https://www.fastly.com'
-  image: /images/sponsors/fastly.png
-  description: CDN Provider
 - name: Manitu
   link: 'https://www.manitu.de/webhosting/'
   image: /images/sponsors/manitu.png
