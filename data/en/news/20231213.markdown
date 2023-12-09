@@ -1,0 +1,51 @@
+---
+title: End of year Director roundup
+author: moralrecordings
+date: 1702470557
+---
+
+The end of the year is almost upon us, along with a new release of ScummVM. So here's a quick update for one of the more ambitious sub-projects that has been percolating along in the background: Macromedia Director support! For those who aren't aware, Macromedia Director was a popular framework used for thousands of games, educational titles, catalogues, art pieces, and other multimedia works.
+
+## New Games For Testing
+
+First off, the upcoming 2.8.0 release will have some new supported games, and we need your help testing them!
+
+*   _Alice: An Interactive Museum_
+*   _Ape Odyssey_
+*   _Classical Cats_
+*   _Gadget: Invention, Travel and Adventure_
+*   _The Cute Machine_
+*   _The Dark Eye_
+*   _Wrath of the Gods_
+
+You will need the data files from the games' original install media, and a [daily build](https://www.scummvm.org/downloads/#daily) of ScummVM. For Macintosh editions, you will need to run the disc images through [Dumper Companion](https://www.scummvm.org/dumper-companion) in order to extract a complete copy of the files. In the case of The Dark Eye, you will also need the files created by the installer. As always, if you run into issues, please let us know on the [issue tracker](https://bugs.scummvm.org/).
+
+If your favorite isn't in the supported list, don't despair! ScummVM can open Director titles from 1995 and earlier, so grab the latest [daily build](https://www.scummvm.org/downloads/#daily) and give it a try. Titles released after 1995 tend to use Director versions that aren't supported yet. If you get stuck, reach out on the [issue tracker](https://bugs.scummvm.org/) and we can try and help.
+
+If you've encountered a Director title that isn't recognized by ScummVM, that's great! Please let us know on the [issue tracker](https://bugs.scummvm.org/) so the title can be added to the detection list. 
+
+## Engine versions 
+
+As of the time of writing, ScummVM can detect **1595** different titles based on Director, with the following counts by Director version:
+
+| D0 | D1 | D2 | D3  | D4  | D5  | D6  | D7 | D8  | D9 | D10 | D11 |
+|----|----|----|-----|-----|-----|-----|----|-----|----|-----|-----|
+| 12 | 1  | 14 | 288 | 602 | 262 | 194 | 97 | 138 | 31 | 36  | 4   |
+
+ScummVM 2.8.0 will be the first release to include preliminary support for the D5 version of Director! A lot of work has gone into overhauling the codebase to support multiple cast libraries, however there is still plenty of work to be done adding Lingo functions and Xtras.
+
+Adding support for a new Director version is a tricky process. First we need to check for any changes to the movie file format, then add in any new engine and Lingo features, and finally start working through issues in a bunch of candidate games. Because of the difficulty of keeping track of facts vs. assumptions, we only enable features for an engine version once they have been confirmed with testing. This is why D6 and higher games will not open at all, even if the code we have would somewhat work.
+
+Support for the D2, D3 and D4 versions of Director has steadily improved. We are building up a suite of unit tests, both for Lingo and for the various drawing modes in the renderer. Most of the remaining bugs are related to undefined or incidental behavior: consider how two types in Lingo are compared, or the precise order that events are processed in, or how functions respond when you pass them nonsense data? All of these things are relied upon by thousands of Director products! And ScummVM must support all of them as closely as possible.
+
+## XLibs
+
+Macromedia provided a C API with Director, which proved to be very popular for adding new engine features. There are hundreds of XObject and Xtra libraries in circulation, and each has to be reverse engineered and added as code to ScummVM. As of the time of writing, we have added support for **63** of these libraries.
+
+A common use case is video; Director includes the ability to play back QuickTime videos as a sprite, but computers of the day would struggle with the added overhead of Director's renderer if the video resolution was larger than a postage stamp. To work around this, several XLibs exist to play back video as an accelerated overlay. Quite a few D3 and D4 titles are missing video playback due to this type of XLib, and we plan on creating a common method of supporting these.
+
+The good news is that most uncommon XLibs did only one or two things, and are pretty easy to add initial support for. Part of the XLib format is a list of docstrings explaining each of the functions; there is a script in `/devtools` which can turn these docstrings into stubbed C++ code, saving a lot of hassle. 
+
+---
+
+That's about it! We have some very dedicated volunteers scouring every corner of the globe for obscure Director titles and testing them; if that sounds like your bag, you can visit them in the #engine-director channel of the [ScummVM Discord](https://discord.gg/4cDsMNtcpG). Until next time!
