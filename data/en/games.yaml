@@ -1233,7 +1233,7 @@
     series_id: ''
 -
     id: 'ags:excavationhb'
-    name: "The Excavation at Hob's Barrow"
+    name: "The Excavation of Hob's Barrow"
     engine_id: ags
     company_id: cloakdagger
     year: '2022'
