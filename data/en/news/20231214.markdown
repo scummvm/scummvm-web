@@ -1,7 +1,7 @@
 ---
 title: End of year Director roundup
 author: moralrecordings
-date: 1702470557
+date: 1702582965
 ---
 
 The end of the year is almost upon us, along with a new release of ScummVM. So here's a quick update for one of the more ambitious sub-projects that has been percolating along in the background: Macromedia Director support! For those who aren't aware, Macromedia Director was a popular framework used for thousands of games, educational titles, catalogues, art pieces, and other multimedia works.
