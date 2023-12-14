@@ -4859,15 +4859,15 @@
     unstable_platforms: ''
 -
     id: 'ags:strangeland'
-    support: untested
-    notes: ''
+    support: good
+    notes: '- Positional audio is not implemented - Brightness correction is not implemented'
     since_version: DEV
     stable_platforms: 'win,linux,mac'
     unstable_platforms: ''
 -
     id: 'ags:excavationhb'
-    support: untested
-    notes: ''
+    support: good
+    notes: 'Minor graphical glitches'
     since_version: DEV
     stable_platforms: 'win,linux,mac'
     unstable_platforms: ''
@@ -4937,6 +4937,104 @@
 -
     id: 'nancy:nancy5'
     support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'ags:whispersofamachine'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'ags:gobliiins5-1'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'ags:gobliiins5-2'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'ags:gobliiins5-3'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'ags:gobliiins5-4'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'ags:footballgame'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'ags:sumatra'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'ags:ashinaredwitch'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'ags:justignorethem'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'ags:mybigsister'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'ags:mybigsisterrm'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'ags:redbow'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'ags:dreamswitchhouse'
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'ags:maniacmansiondeluxe'
+    support: excellent
     notes: ''
     since_version: DEV
     stable_platforms: win

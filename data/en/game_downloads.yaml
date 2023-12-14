@@ -324,13 +324,6 @@
 -
     category: addons
     game_id: 'sword1:sword1'
-    category_icon: flac
-    url: 'Broken Sword I and II/Sword1_DXA_Cutscenes.zip'
-    name: 'Cutscene Pack (English, DXA compression)'
-    notes: 'Requires ScummVM 0.10.0'
--
-    category: addons
-    game_id: 'sword1:sword1'
     category_icon: ogg
     url: 'https://downloads.scummbr.com/Sword1_Cutscenes_BRA_Complete.zip'
     name: 'Cutscene Pack (Brazilian)'
@@ -349,97 +342,6 @@
     url: 'Broken Sword I and II/Sword1_Cutscenes_Subtitles-1.1.zip'
     name: 'Cutscene Pack (all languages, Updated Subtitles AddOn) - requires ScummVM 1.5.0 or more'
     notes: 'Cutscene subtitles pack. All languages'
--
-    category: addons
-    game_id: 'sword1:sword1'
-    category_icon: flac
-    url: 'Broken Sword I and II/Sword1_Cutscenes_DXA_FRE_AddOn.zip'
-    name: 'Cutscene Pack (French AddOn)'
-    notes: 'Overwrite files in English Pack with files from this archive'
--
-    category: addons
-    game_id: 'sword1:sword1'
-    category_icon: flac
-    url: 'Broken Sword I and II/Sword1_Cutscenes_DXA_GER_AddOn.zip'
-    name: 'Cutscene Pack (German AddOn)'
-    notes: 'Overwrite files in English Pack with files from this archive'
--
-    category: addons
-    game_id: 'sword1:sword1'
-    category_icon: flac
-    url: 'Broken Sword I and II/Sword1_Cutscenes_DXA_ITA_AddOn.zip'
-    name: 'Cutscene Pack (Italian AddOn)'
-    notes: 'Overwrite files in English Pack with files from this archive'
--
-    category: addons
-    game_id: 'sword1:sword1'
-    category_icon: flac
-    url: 'Broken Sword I and II/Sword1_Cutscenes_DXA_ESP_AddOn.zip'
-    name: 'Cutscene Pack (Spanish AddOn)'
-    notes: 'Overwrite files in English Pack with files from this archive'
--
-    category: addons
-    game_id: 'sword1:sword1'
-    category_icon: flac
-    url: 'Broken Sword I and II/Sword1_Demo_Cutscenes.zip'
-    name: 'Demo Cutscene Pack'
-    notes: 'Requires ScummVM 0.10.0'
--
-    category: addons
-    game_id: 'sword1:sword1'
-    category_icon: ogg
-    url: 'Broken Sword I and II/Sword1_OGG_Cutscenes.zip'
-    name: 'Cutscene Pack (English OGG AddOn)'
-    notes: 'Alternative English audio pack, for ports without FLAC support'
--
-    category: addons
-    game_id: 'sword1:sword1'
-    category_icon: ogg
-    url: 'Broken Sword I and II/Sword1_Cutscenes_FRE_AddOn.zip'
-    name: 'Cutscene Pack (French OGG AddOn)'
-    notes: 'Alternative French audio pack, for ports without FLAC support'
--
-    category: addons
-    game_id: 'sword1:sword1'
-    category_icon: ogg
-    url: 'Broken Sword I and II/Sword1_Cutscenes_GER_AddOn.zip'
-    name: 'Cutscene Pack (German OGG AddOn)'
-    notes: 'Alternative German audio pack, for ports without FLAC support'
--
-    category: addons
-    game_id: 'sword1:sword1'
-    category_icon: ogg
-    url: 'Broken Sword I and II/Sword1_Cutscenes_ITA_AddOn.zip'
-    name: 'Cutscene Pack (Italian OGG AddOn)'
-    notes: 'Alternative Italian audio pack, for ports without FLAC support'
--
-    category: addons
-    game_id: 'sword1:sword1'
-    category_icon: ogg
-    url: 'Broken Sword I and II/Sword1_Cutscenes_ESP_AddOn.zip'
-    name: 'Cutscene Pack (Spanish OGG AddOn)'
-    notes: 'Alternative Spanish audio pack, for ports without FLAC support'
--
-    category: addons
-    game_id: 'sword2:sword2'
-    category_icon: flac
-    url: 'Broken Sword I and II/Sword2_DXA_Cutscenes.zip'
-    name: 'Cutscene Pack (all languages, DXA compression)'
-    notes: 'Requires ScummVM 0.10.0'
--
-    category: addons
-    game_id: 'sword2:sword2'
-    category_icon: ogg
-    url: 'Broken Sword I and II/Sword2_OGG_Cutscenes.zip'
-    name: 'Cutscene Pack (all languages, OGG AddOn)'
-    notes: 'Alternative audio pack, for ports without FLAC support'
--
-    category: addons
-    game_id: 'sword2:sword2'
-    category_icon: flac
-    url: 'Broken Sword I and II/Sword2_Demo_Cutscenes.zip'
-    name: 'Demo Cutscene Pack'
-    notes: 'Requires ScummVM 0.10.0'
 -
     category: addons
     game_id: 'agos:elvira2'
