@@ -1310,7 +1310,7 @@
     name: 'Tools - MorphOS package'
     notes: ''
 -
-    enabled: false
+    enabled: true
     category: scummvm-tools
     subcategory: release
     category_icon: riscos

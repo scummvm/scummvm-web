@@ -2954,6 +2954,20 @@
     wikipedia_page: Versailles_1685
     series_id: ''
 -
+    id: 'director:alice'
+    name: 'Alice: An Interactive Museum'
+    engine_id: director
+    company_id: synergy
+    year: '1991'
+    moby_id: '2059'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: 'Alice:_An_Interactive_Museum'
+    series_id: ''
+-
     id: 'director:amber'
     name: 'AMBER: Journeys Beyond'
     engine_id: director
@@ -2966,6 +2980,20 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: 'Amber:_Journeys_Beyond'
+    series_id: ''
+-
+    id: 'director:apeodyssey'
+    name: 'Ape Odyssey 2001'
+    engine_id: director
+    company_id: sarubrunei
+    year: '2001'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: 'director:betterd'
@@ -2994,6 +3022,48 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: Chop_Suey_(video_game)
+    series_id: ''
+-
+    id: 'director:classicalcats'
+    name: 'Classical Cats'
+    engine_id: director
+    company_id: ibmjapan
+    year: '1995'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: Classical_Cats
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'director:cutemachine'
+    name: 'The Cute Machine'
+    engine_id: director
+    company_id: unknown
+    year: '1997'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'director:darkeye'
+    name: 'The Dark Eye'
+    engine_id: director
+    company_id: inscape
+    year: '1995'
+    moby_id: '1782'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: 'The Dark Eye (video game)'
     series_id: ''
 -
     id: 'director:director'
@@ -3078,6 +3148,20 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
+    series_id: ''
+-
+    id: 'director:gadget'
+    name: 'Gadget: Invention, Travel and Adventure'
+    engine_id: director
+    company_id: synergy
+    year: '1993'
+    moby_id: '3741'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: 'Gadget_–_Invention,_Travel,_%26_Adventure'
     series_id: ''
 -
     id: 'director:ganbareinuchan'
@@ -3582,6 +3666,20 @@
     additional_stores: ''
     datafiles: Spaceship_Warlock
     wikipedia_page: Spaceship_Warlock
+    series_id: ''
+-
+    id: 'director:wrath'
+    name: 'Wrath of the Gods'
+    engine_id: director
+    company_id: luminaria
+    year: '1994'
+    moby_id: '2081'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Wrath_of_the_Gods
     series_id: ''
 -
     id: 'dm:dm'

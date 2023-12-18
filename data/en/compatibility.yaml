@@ -4522,6 +4522,13 @@
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
+    id: 'director:classicalcats'
+    support: good
+    notes: ''
+    since_version: ''
+    stable_platforms: mac
+    unstable_platforms: ''
+-
     id: 'director:easternmind'
     support: good
     notes: ''
@@ -5038,4 +5045,53 @@
     notes: ''
     since_version: DEV
     stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'director:alice'
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: mac
+    unstable_platforms: ''
+-
+    id: 'director:apeodyssey'
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: mac
+    unstable_platforms: ''
+-
+    id: 'director:classicalcats'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: mac
+    unstable_platforms: ''
+-
+    id: 'director:gadget'
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win,fmtowns'
+    unstable_platforms: 'pippin,psx'
+-
+    id: 'director:cutemachine'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: ''
+    unstable_platforms: ''
+-
+    id: 'director:darkeye'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
+    unstable_platforms: ''
+-
+    id: 'director:wrath'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
     unstable_platforms: ''

@@ -580,6 +580,10 @@
     name: 'Interactive Binary Illusions'
     alt_name: ''
 -
+    id: ibmjapan
+    name: 'IBM Japan'
+    alt_name: ''
+-
     id: icebox
     name: 'ICEBOX Studios'
     alt_name: ''
@@ -618,6 +622,10 @@
 -
     id: infogrames
     name: Infogrames
+    alt_name: ''
+-
+    id: inscape
+    name: Inscape
     alt_name: ''
 -
     id: instantmillion
@@ -738,6 +746,10 @@
 -
     id: lucyworlds
     name: "Lucy's Worlds"
+    alt_name: ''
+-
+    id: luminaria
+    name: Luminaria
     alt_name: ''
 -
     id: mac
@@ -1054,6 +1066,10 @@
 -
     id: sandcastle
     name: Sandcastle
+    alt_name: ''
+-
+    id: sarubrunei
+    name: 'Saru Brunei'
     alt_name: ''
 -
     id: schnibble
