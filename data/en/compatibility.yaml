@@ -4522,13 +4522,6 @@
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
-    id: 'director:classicalcats'
-    support: good
-    notes: ''
-    since_version: ''
-    stable_platforms: mac
-    unstable_platforms: ''
--
     id: 'director:easternmind'
     support: good
     notes: ''
