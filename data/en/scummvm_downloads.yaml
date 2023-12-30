@@ -1123,7 +1123,7 @@
     enabled: true
     category: scummvm
     subcategory: release
-    category_icon: arati-lite
+    category_icon: atari-lite
     user_agent: ''
     version: 2.8.0
     url: 'scummvm-{$version}-atari-lite.zip'
