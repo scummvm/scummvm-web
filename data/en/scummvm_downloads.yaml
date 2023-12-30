@@ -82,7 +82,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: flatpak
     user_agent: ''
     version: 2.7.1
@@ -92,60 +92,60 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: debian
     user_agent: Debian
-    version: 2.7.1
+    version: 2.8.0
     url: 'scummvm_{$version}-1_debian12_amd64.deb'
     name: 'Debian 12 (bookworm) x86 64bit package'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: debian
     user_agent: ''
-    version: 2.7.1
+    version: 2.8.0
     url: 'scummvm_{$version}-1_debian12_i386.deb'
     name: 'Debian 12 (bookworm) i386 package'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: debian
     user_agent: ''
-    version: 2.7.1
+    version: 2.8.0
     url: 'scummvm_{$version}-1_debian11_amd64.deb'
     name: 'Debian 11 (bullseye) x86 64bit package'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: debian
     user_agent: ''
-    version: 2.7.1
+    version: 2.8.0
     url: 'scummvm_{$version}-1_debian11_i386.deb'
     name: 'Debian 11 (bullseye) i386 package'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: debian
     user_agent: ''
-    version: 2.7.1
+    version: 2.8.0
     url: 'scummvm_{$version}-1_debian10_amd64.deb'
     name: 'Debian 10 (buster) x86 64bit package'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: debian
     user_agent: ''
-    version: 2.7.1
+    version: 2.8.0
     url: 'scummvm_{$version}-1_debian10_i386.deb'
     name: 'Debian 10 (buster) i386 package'
     notes: ''
@@ -182,6 +182,16 @@
 -
     enabled: true
     category: scummvm
+    subcategory: release
+    category_icon: ubuntu
+    user_agent: ''
+    version: 2.8.0
+    url: 'scummvm_{$version}-1_ubuntu23.10_amd64.deb'
+    name: 'Ubuntu 23.10 (mystic) x86 64bit package'
+    notes: ''
+-
+    enabled: true
+    category: scummvm
     subcategory: old
     category_icon: ubuntu
     user_agent: ''
@@ -202,10 +212,10 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: ubuntu
     user_agent: ''
-    version: 2.7.1
+    version: 2.8.0
     url: 'scummvm_{$version}-1_ubuntu22.04_amd64.deb'
     name: 'Ubuntu 22.04 LTS (jammy) x86 64bit package'
     notes: ''
@@ -232,20 +242,20 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: ubuntu
     user_agent: ''
-    version: 2.7.1
+    version: 2.8.0
     url: 'scummvm_{$version}-1_ubuntu20.04_amd64.deb'
     name: 'Ubuntu 20.04 LTS (focal) x86 64bit package'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: ubuntu
     user_agent: ''
-    version: 2.7.1
+    version: 2.8.0
     url: 'scummvm_{$version}-1_ubuntu18.04_amd64.deb'
     name: 'Ubuntu 18.04 LTS (bionic) x86 64bit package'
     notes: ''
@@ -422,10 +432,10 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: ps3
     user_agent: ''
-    version: 2.7.1
+    version: 2.8.0
     url: 'scummvm-{$version}-ps3.zip'
     name: 'PlayStation 3 package'
     notes: ''
