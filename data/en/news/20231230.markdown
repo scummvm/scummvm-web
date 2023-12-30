@@ -14,6 +14,7 @@ The team was quite busy working on new engines and enhancing existing ones. The 
    * _Dark Side_
    * _Escape From Hell_
    * _Gadget: Invention Travel and Adventure_
+   * _Gobliiins 5_
    * _The Excavation of Hob's Barrow_
    * _Kingdom: The Far Reaches_
    * _Might and Magic Book One_
@@ -27,15 +28,15 @@ The team was quite busy working on new engines and enhancing existing ones. The 
    * _Reah: Face the Unknown_
    * _Schizm: Mysterious Journey_
    * _Shardlight_
-   * _Stranga and Cloak and Dagger_
    * _Strangeland_
    * _Syberia_ and _Syberia II_ (macOS versions only)
    * _Technobabylon_
    * _The Vampire Diaries_
    * _Whispers of a Machine_
    * _Wrath of the Gods_ and four other Director titles.
+   * 14 AGS titles by _Stranga_ and _Cloak and Dagger_
 
-All together, we’ve introduced 30 new games and five new engines.
+All together, we’ve introduced 50 new games and five new engines.
 
 ## New platforms
 We are happy to see the RetroArch port being properly rewritten, and the port is now part of our source code. The Atari port has also been redone from scratch and now talks natively to the hardware, skipping SDL as an intermediate layer. That made many more games playable on the platform. The Atari FireBee port is still using the SDL library, though.
