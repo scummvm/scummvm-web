@@ -616,7 +616,7 @@
     category_icon: iphone
     user_agent: iOS
     version: 2.8.0
-    url: 'scummvm-{$version}-ios-armv7.ipa'
+    url: 'scummvm-{$version}-ios9-armv7.ipa'
     name: 'iOS 9+ package .ipa (unsigned)'
     notes: ''
 -
@@ -635,7 +635,7 @@
     subcategory: old
     category_icon: iphone
     user_agent: ''
-    version: 2.8.0
+    version: 2.7.1
     url: 'scummvm-{$version}-ios8.ipa'
     name: 'iOS 8+ package .ipa (unsigned)'
     notes: ''
