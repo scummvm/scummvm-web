@@ -1926,6 +1926,33 @@
     language3: ''
     url: /frs/demos/mads/phantom-dos-demo-en.zip
 -
+    id: 'mm:cloudsofxeen'
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/xeen/cloudsofxeen-dos-demo-en-ni.zip
+-
+    id: 'mm:darksideofxeen'
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/xeen/darksideofxeen-dos-demo-en-ni.zip
+-
+    id: 'mm:worldofxeen'
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/xeen/worldofxeen-dos-demo-en-ni.zip
+-
     id: 'mohawk:alientales'
     platform: win
     '': ''
@@ -5885,30 +5912,3 @@
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/wme_3d-demo.zip
--
-    id: 'xeen:cloudsofxeen'
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/xeen/cloudsofxeen-dos-demo-en-ni.zip
--
-    id: 'xeen:darksideofxeen'
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/xeen/darksideofxeen-dos-demo-en-ni.zip
--
-    id: 'xeen:worldofxeen'
-    platform: dos
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/xeen/worldofxeen-dos-demo-en-ni.zip
