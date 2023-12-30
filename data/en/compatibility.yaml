@@ -4749,349 +4749,349 @@
     id: 'tetraedge:syberia'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: mac
     unstable_platforms: 'win,ps2,xbox,winmobile,nds,android,ps3,xbox360,ios,switch'
 -
     id: 'tetraedge:syberia2'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: mac
     unstable_platforms: 'win,ps2,xbox,winmobile,android,ps3,xbox360,ios,switch'
 -
     id: 'nancy:nancy1'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'nancy:vampirediaries'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'vcruise:reah'
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'vcruise:schizm'
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'ags:blackwell1'
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: 'win,mac'
     unstable_platforms: ''
 -
     id: 'ags:blackwell2'
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: 'win,mac'
     unstable_platforms: ''
 -
     id: 'ags:blackwell3'
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: 'win,mac'
     unstable_platforms: ''
 -
     id: 'mm:mm1'
     support: good
     notes: 'Only PC version supported, both original and ScummVM enhanced version. Original version does not have sound'
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: 'ags:primordia'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: 'win,linux,mac'
     unstable_platforms: ''
 -
     id: 'ags:shardlight'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: 'win,linux,mac'
     unstable_platforms: ''
 -
     id: 'ags:technobabylon'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: 'win,linux,mac'
     unstable_platforms: ''
 -
     id: 'mtropolis:mti'
     support: good
     notes: "MPZ-1000 printing feature doesn't work"
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: 'win,mac'
     unstable_platforms: ''
 -
     id: 'ags:shivahkosher'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: 'win,linux,mac'
     unstable_platforms: ''
 -
     id: 'ags:unavowed'
     support: untested
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: 'win,linux,mac'
     unstable_platforms: ''
 -
     id: 'ags:geminirue'
     support: untested
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: 'win,linux,mac'
     unstable_platforms: ''
 -
     id: 'ags:strangeland'
     support: good
     notes: '- Positional audio is not implemented - Brightness correction is not implemented'
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: 'win,linux,mac'
     unstable_platforms: ''
 -
     id: 'ags:excavationhb'
     support: good
     notes: 'Minor graphical glitches'
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: 'win,linux,mac'
     unstable_platforms: ''
 -
     id: 'ags:danewguys2'
     support: untested
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'gob:adibou1'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: 'dos,amiga,win'
     unstable_platforms: ''
 -
     id: 'scumm:puttcircus'
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: 'freescape:darkside'
     support: good
     notes: '- Minor missing features (UI details)  - CGA/EGA version is supported from DOS release'
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: 'dos,zx,cpc'
     unstable_platforms: ''
 -
     id: 'efh:efh'
     support: untested
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: 'kingdom:kingdom'
     support: untested
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: 'nancy:nancy2'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'nancy:nancy3'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'nancy:nancy4'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'nancy:nancy5'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'ags:whispersofamachine'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'ags:gobliiins5-1'
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'ags:gobliiins5-2'
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'ags:gobliiins5-3'
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'ags:gobliiins5-4'
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'ags:footballgame'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'ags:sumatra'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'ags:ashinaredwitch'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'ags:justignorethem'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'ags:mybigsister'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'ags:mybigsisterrm'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'ags:redbow'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'ags:dreamswitchhouse'
     support: untested
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'ags:maniacmansiondeluxe'
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'director:alice'
     support: untested
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: mac
     unstable_platforms: ''
 -
     id: 'director:apeodyssey'
     support: untested
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: mac
     unstable_platforms: ''
 -
     id: 'director:classicalcats'
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: mac
     unstable_platforms: ''
 -
     id: 'director:gadget'
     support: untested
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: 'mac,win,fmtowns'
     unstable_platforms: 'pippin,psx'
 -
     id: 'director:cutemachine'
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: ''
     unstable_platforms: ''
 -
     id: 'director:darkeye'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
     id: 'director:wrath'
     support: excellent
     notes: ''
-    since_version: DEV
+    since_version: 2.8.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
