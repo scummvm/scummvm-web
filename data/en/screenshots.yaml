@@ -1,5 +1,11 @@
 # This is a generated file, please do not edit manually
 -
+    id: 'access:amazon'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
     id: 'adl:hires1'
     variant: ''
     platform_id: apple2
@@ -192,6 +198,12 @@
     language: en
     variant_id: '1'
 -
+    id: 'agos:pn'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
     id: 'agos:puzzle'
     variant: ''
     platform_id: win
@@ -234,6 +246,162 @@
     language: en
     variant_id: '1'
 -
+    id: 'ags:ashinaredwitch'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:ashinaredwitch'
+    variant: ''
+    platform_id: win
+    language: ja
+    variant_id: '1'
+-
+    id: 'ags:blackwell1'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:blackwell2'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:blackwell3'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:blackwell4'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:blackwell5'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:dreamswitchhouse'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:excavationhb'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:footballgame'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:gobliiins5-1'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:gobliiins5-2'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:gobliiins5-3'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:gobliiins5-4'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:goldenwake'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:kathyrain'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:maniacmansiondeluxe'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:mybigsister'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:primordia'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:shardlight'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:shivahkosher'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:strangeland'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:sumatra'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:technobabylon'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:whispersofamachine'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'asylum:sanitarium'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'bbvs:bbvs'
     variant: ''
     platform_id: win
@@ -264,6 +432,12 @@
     language: en
     variant_id: '1'
 -
+    id: 'buried:buried'
+    variant: 8BPP
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'cge:soltys'
     variant: ''
     platform_id: dos
@@ -288,9 +462,21 @@
     language: en
     variant_id: '1'
 -
+    id: 'chewy:chewy'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
     id: 'cine:fw'
     variant: ''
     platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'cine:os'
+    variant: ''
+    platform_id: dos
     language: en
     variant_id: '1'
 -
@@ -834,10 +1020,34 @@
     language: en
     variant_id: '1'
 -
+    id: 'hugo:hugo1'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'hugo:hugo2'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'hugo:hugo3'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
     id: 'hypno:sinistersix'
     variant: ''
     platform_id: dos
     language: de
+    variant_id: '1'
+-
+    id: 'hypno:soldierboyz'
+    variant: ''
+    platform_id: dos
+    language: en
     variant_id: '1'
 -
     id: 'hypno:wetlands'
@@ -997,6 +1207,24 @@
     variant_id: '1'
 -
     id: 'mads:nebular'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'mm:cloudsofxeen'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'mm:swordsofxeen'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'mm:worldofxeen'
     variant: ''
     platform_id: dos
     language: en
@@ -1170,6 +1398,12 @@
     language: de
     variant_id: '1'
 -
+    id: 'mtropolis:obsidian'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'myst3:myst3'
     variant: ''
     platform_id: win
@@ -1290,7 +1524,31 @@
     language: en
     variant_id: '1'
 -
+    id: 'pink:peril'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'pink:peril'
+    variant: ''
+    platform_id: win
+    language: it
+    variant_id: '1'
+-
+    id: 'pink:pokus'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'plumbers:plumbers'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'private:private-eye'
     variant: ''
     platform_id: win
     language: en
@@ -1348,6 +1606,12 @@
     variant: ''
     platform_id: dos
     language: de
+    variant_id: '1'
+-
+    id: 'saga2:fta2'
+    variant: ''
+    platform_id: dos
+    language: en
     variant_id: '1'
 -
     id: 'sci:astrochicken'
@@ -2388,6 +2652,12 @@
     language: en
     variant_id: '1'
 -
+    id: 'scumm:spyozon'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'scumm:tentacle'
     variant: ''
     platform_id: dos
@@ -2478,6 +2748,36 @@
     language: en
     variant_id: '1'
 -
+    id: 'supernova:msn1'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'supernova:msn1'
+    variant: ''
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: 'supernova:msn1'
+    variant: ''
+    platform_id: dos
+    language: it
+    variant_id: '1'
+-
+    id: 'supernova:msn2'
+    variant: ''
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: 'supernova:msn2'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
     id: 'sword1:sword1'
     variant: ''
     platform_id: win
@@ -2553,6 +2853,18 @@
     id: 'teenagent:teenagent'
     variant: ''
     platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'tetraedge:syberia'
+    variant: ''
+    platform_id: mac
+    language: en
+    variant_id: '1'
+-
+    id: 'tetraedge:syberia2'
+    variant: ''
+    platform_id: mac
     language: en
     variant_id: '1'
 -
@@ -2676,6 +2988,72 @@
     language: en
     variant_id: '1'
 -
+    id: 'ultima:remorse'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'ultima:remorse'
+    variant: Enhanced
+    platform_id: dos
+    language: en
+    variant_id: '2'
+-
+    id: 'ultima:ultima4'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'ultima:ultima4'
+    variant: Enhanced
+    platform_id: dos
+    language: en
+    variant_id: '2'
+-
+    id: 'ultima:ultima6'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'ultima:ultima6'
+    variant: Enhanced
+    platform_id: dos
+    language: en
+    variant_id: '2'
+-
+    id: 'ultima:ultima8'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'ultima:ultima8'
+    variant: Enhanced
+    platform_id: dos
+    language: en
+    variant_id: '2'
+-
+    id: 'vcruise:reah'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'vcruise:schizm'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'voyeur:voyeur'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
     id: 'wintermute:5ld'
     variant: ''
     platform_id: win
@@ -2746,12 +3124,6 @@
     variant: 'Definitive Edition'
     platform_id: win
     language: de
-    variant_id: '1'
--
-    id: 'xeen:cloudsofxeen'
-    variant: ''
-    platform_id: dos
-    language: en
     variant_id: '1'
 -
     id: 'zvision:zgi'

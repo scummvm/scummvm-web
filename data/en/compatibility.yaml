@@ -3605,28 +3605,28 @@
     stable_platforms: dos
     unstable_platforms: ''
 -
-    id: 'xeen:cloudsofxeen'
+    id: 'mm:cloudsofxeen'
     support: good
     notes: ''
     since_version: 2.1.0
     stable_platforms: dos
     unstable_platforms: dos
 -
-    id: 'xeen:darksideofxeen'
+    id: 'mm:darksideofxeen'
     support: good
     notes: ''
     since_version: 2.1.0
     stable_platforms: dos
     unstable_platforms: dos
 -
-    id: 'xeen:swordsofxeen'
+    id: 'mm:swordsofxeen'
     support: good
     notes: ''
     since_version: 2.1.0
     stable_platforms: dos
     unstable_platforms: ''
 -
-    id: 'xeen:worldofxeen'
+    id: 'mm:worldofxeen'
     support: good
     notes: ''
     since_version: 2.1.0
@@ -4697,7 +4697,7 @@
     stable_platforms: win
     unstable_platforms: ''
 -
-    id: 'saga:fta2'
+    id: 'saga2:fta2'
     support: good
     notes: ''
     since_version: 2.7.0
@@ -4809,7 +4809,7 @@
     stable_platforms: 'win,mac'
     unstable_platforms: ''
 -
-    id: 'mm1:mm1'
+    id: 'mm:mm1'
     support: good
     notes: 'Only PC version supported, both original and ScummVM enhanced version. Original version does not have sound'
     since_version: DEV

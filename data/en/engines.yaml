@@ -260,8 +260,8 @@
     alt_name: 'MicroProse Adventure Development System'
     enabled: true
 -
-    id: mm1
-    name: 'Might and Magic Book One'
+    id: mm
+    name: 'Might and Magic'
     alt_name: ''
     enabled: true
 -
@@ -507,11 +507,6 @@
 -
     id: wintermute
     name: 'Wintermute Engine'
-    alt_name: ''
-    enabled: true
--
-    id: xeen
-    name: Xeen
     alt_name: ''
     enabled: true
 -

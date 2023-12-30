@@ -349,3 +349,10 @@
     minor: '7'
     patch: '1'
     name: "Stan's previously broken swords"
+-
+    id: 2.8.0
+    release_date: 'December 30, 2023'
+    major: '2'
+    minor: '8'
+    patch: '0'
+    name: 'Mysteries, Mammoths, and Muppets'

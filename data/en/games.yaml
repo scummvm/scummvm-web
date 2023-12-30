@@ -5474,9 +5474,9 @@
     wikipedia_page: Return_of_the_Phantom
     series_id: ''
 -
-    id: 'mm1:mm1'
+    id: 'mm:mm1'
     name: 'Might and Magic: Book One - Secret of the Inner Sanctum'
-    engine_id: mm1
+    engine_id: mm
     company_id: nwc
     year: '1986'
     moby_id: '1619'
@@ -5486,6 +5486,62 @@
     additional_stores: ''
     datafiles: 'Might_and_Magic_Book_One:_The_Secret_of_the_Inner_Sanctum'
     wikipedia_page: Might_and_Magic_Book_One%3A_The_Secret_of_the_Inner_Sanctum
+    series_id: mm
+-
+    id: 'mm:cloudsofxeen'
+    name: 'Might and Magic: Clouds of Xeen'
+    engine_id: mm
+    company_id: nwc
+    year: '1992'
+    moby_id: '3423'
+    steam_id: ''
+    gog_id: might_and_magic_6_limited_edition
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: Might_and_Magic_IV
+    wikipedia_page: 'Might_and_Magic_IV:_Clouds_of_Xeen'
+    series_id: mm
+-
+    id: 'mm:darksideofxeen'
+    name: 'Might and Magic: Darkside of Xeen'
+    engine_id: mm
+    company_id: nwc
+    year: '1993'
+    moby_id: '3424'
+    steam_id: ''
+    gog_id: might_and_magic_6_limited_edition
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: 'Might_and_Magic_V:_Darkside_of_Xeen'
+    series_id: mm
+-
+    id: 'mm:swordsofxeen'
+    name: 'Might and Magic: Swords of Xeen'
+    engine_id: mm
+    company_id: nwc
+    year: '1995'
+    moby_id: '-1'
+    steam_id: ''
+    gog_id: might_and_magic_6_limited_edition
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: 'Might_and_Magic:_Swords_of_Xeen'
+    wikipedia_page: 'Might_and_Magic_V:_Darkside_of_Xeen#Swords_of_Xeen'
+    series_id: mm
+-
+    id: 'mm:worldofxeen'
+    name: 'Might and Magic: World of Xeen'
+    engine_id: mm
+    company_id: nwc
+    year: '1994'
+    moby_id: '4321'
+    steam_id: ''
+    gog_id: might_and_magic_6_limited_edition
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: 'Might_and_Magic_V:_Darkside_of_Xeen#World_of_Xeen'
     series_id: mm
 -
     id: 'mohawk:alientales'
@@ -6342,20 +6398,6 @@
     wikipedia_page: Dinotopia_(video_game)
     series_id: ''
 -
-    id: 'saga:fta2'
-    name: 'Halls of the Dead: Faery Tale Adventure II'
-    engine_id: saga2
-    company_id: dreamersguild
-    year: '1997'
-    moby_id: '3414'
-    steam_id: ''
-    gog_id: ''
-    zoom_id: ''
-    additional_stores: ''
-    datafiles: 'Halls_of_the_Dead:_Faery_Tale_Adventure_II'
-    wikipedia_page: 'Faery_Tale_Adventure_II:_Halls_of_the_Dead'
-    series_id: ''
--
     id: 'saga:ihnm'
     name: 'Harlan Ellison: I Have No Mouth, and I Must Scream'
     engine_id: saga
@@ -6382,6 +6424,20 @@
     additional_stores: ''
     datafiles: Inherit_the_Earth
     wikipedia_page: Inherit_the_Earth
+    series_id: ''
+-
+    id: 'saga2:fta2'
+    name: 'Halls of the Dead: Faery Tale Adventure II'
+    engine_id: saga2
+    company_id: dreamersguild
+    year: '1997'
+    moby_id: '3414'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: 'Halls_of_the_Dead:_Faery_Tale_Adventure_II'
+    wikipedia_page: 'Faery_Tale_Adventure_II:_Halls_of_the_Dead'
     series_id: ''
 -
     id: 'sci:astrochicken'
@@ -11353,62 +11409,6 @@
     datafiles: 'Zilm:_A_Game_of_Reflex'
     wikipedia_page: ''
     series_id: ''
--
-    id: 'xeen:cloudsofxeen'
-    name: 'Might and Magic: Clouds of Xeen'
-    engine_id: xeen
-    company_id: nwc
-    year: '1992'
-    moby_id: '3423'
-    steam_id: ''
-    gog_id: might_and_magic_6_limited_edition
-    zoom_id: ''
-    additional_stores: ''
-    datafiles: Might_and_Magic_IV
-    wikipedia_page: 'Might_and_Magic_IV:_Clouds_of_Xeen'
-    series_id: mm
--
-    id: 'xeen:darksideofxeen'
-    name: 'Might and Magic: Darkside of Xeen'
-    engine_id: xeen
-    company_id: nwc
-    year: '1993'
-    moby_id: '3424'
-    steam_id: ''
-    gog_id: might_and_magic_6_limited_edition
-    zoom_id: ''
-    additional_stores: ''
-    datafiles: ''
-    wikipedia_page: 'Might_and_Magic_V:_Darkside_of_Xeen'
-    series_id: mm
--
-    id: 'xeen:swordsofxeen'
-    name: 'Might and Magic: Swords of Xeen'
-    engine_id: xeen
-    company_id: nwc
-    year: '1995'
-    moby_id: '-1'
-    steam_id: ''
-    gog_id: might_and_magic_6_limited_edition
-    zoom_id: ''
-    additional_stores: ''
-    datafiles: 'Might_and_Magic:_Swords_of_Xeen'
-    wikipedia_page: 'Might_and_Magic_V:_Darkside_of_Xeen#Swords_of_Xeen'
-    series_id: mm
--
-    id: 'xeen:worldofxeen'
-    name: 'Might and Magic: World of Xeen'
-    engine_id: xeen
-    company_id: nwc
-    year: '1994'
-    moby_id: '4321'
-    steam_id: ''
-    gog_id: might_and_magic_6_limited_edition
-    zoom_id: ''
-    additional_stores: ''
-    datafiles: ''
-    wikipedia_page: 'Might_and_Magic_V:_Darkside_of_Xeen#World_of_Xeen'
-    series_id: mm
 -
     id: 'zvision:zgi'
     name: 'Zork: Grand Inquisitor'
