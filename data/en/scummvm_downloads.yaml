@@ -85,7 +85,7 @@
     subcategory: release
     category_icon: flatpak
     user_agent: ''
-    version: 2.7.1
+    version: 2.8.0
     url: 'https://flathub.org/apps/details/org.scummvm.ScummVM'
     name: 'Flatpak package hosted at the flathub.org repository'
     notes: ''
