@@ -10,6 +10,7 @@ We are proud to announce the last release of the year 2023. Please welcome Scumm
 The team was quite busy working on new engines and enhancing existing ones. The list of supported games grew noticeably, and we now support these additions:
 
    * _Adibou 1_
+   * _Classical Cats_
    * _The Dark Eye_
    * _Dark Side_
    * _Escape From Hell_
