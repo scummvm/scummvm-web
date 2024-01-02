@@ -882,10 +882,10 @@
     language3: ''
     url: /frs/demos/gob/adi4-win-demo-fr.zip
 -
-    id: 'gob:adibou1'
+    id: 'gob:adibou2'
     platform: win
     '': ''
-    category: ''
+    category: Unsupported
     language: fr
     language2: ''
     language3: ''
