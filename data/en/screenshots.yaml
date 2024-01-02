@@ -660,6 +660,12 @@
     language: it
     variant_id: '1'
 -
+    id: 'efh:efh'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
     id: 'freescape:darkside'
     variant: ''
     platform_id: dos
@@ -972,6 +978,12 @@
     language: it
     variant_id: '1'
 -
+    id: 'griffon:griffon'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'grim:grim'
     variant: ''
     platform_id: win
@@ -1059,6 +1071,12 @@
     id: 'illusions:duckman'
     variant: ''
     platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'kingdom:kingdom'
+    variant: ''
+    platform_id: dos
     language: en
     variant_id: '1'
 -
