@@ -108,7 +108,7 @@
     language3: ''
     url: /frs/demos/agi/lsl1-demo-pl.zip
 -
-    id: 'agi:qfg1'
+    id: 'sci:qfg1'
     platform: dos
     '': ''
     category: Non-Interactive

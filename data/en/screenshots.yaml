@@ -138,7 +138,7 @@
     language: en
     variant_id: '1'
 -
-    id: 'agi:qfg1'
+    id: 'sci:qfg1'
     variant: EGA
     platform_id: dos
     language: en
@@ -568,6 +568,36 @@
     variant: ''
     platform_id: win
     language: fr
+    variant_id: '1'
+-
+    id: 'director:alice'
+    variant: ''
+    platform_id: mac
+    language: ja
+    variant_id: '1'
+-
+    id: 'director:gadget'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'director:lzone'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'director:majestic'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'director:warlock'
+    variant: ''
+    platform_id: win
+    language: en
     variant_id: '1'
 -
     id: 'draci:draci'
@@ -1260,6 +1290,18 @@
     language: es
     variant_id: '1'
 -
+    id: 'mohawk:arthurbday'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'mohawk:arthurbday'
+    variant: ''
+    platform_id: win
+    language: es
+    variant_id: '1'
+-
     id: 'mohawk:beardark'
     variant: ''
     platform_id: win
@@ -1561,6 +1603,12 @@
     variant_id: '1'
 -
     id: 'plumbers:plumbers'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'prince:prince'
     variant: ''
     platform_id: win
     language: en
@@ -2268,6 +2316,18 @@
     language: en
     variant_id: '1'
 -
+    id: 'scumm:baseball'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'scumm:baseball2001'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'scumm:baseball2003'
     variant: ''
     platform_id: win
@@ -2358,6 +2418,12 @@
     language: en
     variant_id: '1'
 -
+    id: 'scumm:football2002'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'scumm:freddi'
     variant: ''
     platform_id: win
@@ -2377,6 +2443,12 @@
     variant_id: '1'
 -
     id: 'scumm:freddi4'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'scumm:freddicove'
     variant: ''
     platform_id: win
     language: en
@@ -2458,6 +2530,12 @@
     variant: ''
     platform_id: pce
     language: ja
+    variant_id: '1'
+-
+    id: 'scumm:lost'
+    variant: ''
+    platform_id: win
+    language: en
     variant_id: '1'
 -
     id: 'scumm:maniac'
@@ -2587,6 +2665,12 @@
     variant_id: '1'
 -
     id: 'scumm:pajama3'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'scumm:pjgames'
     variant: ''
     platform_id: win
     language: en

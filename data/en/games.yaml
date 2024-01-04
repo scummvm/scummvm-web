@@ -364,20 +364,6 @@
     wikipedia_page: 'Police_Quest:_In_Pursuit_of_the_Death_Angel'
     series_id: pq
 -
-    id: 'agi:qfg1'
-    name: "Hero's Quest: So You Want to Be a Hero"
-    engine_id: agi
-    company_id: sierra
-    year: '1989'
-    moby_id: '168'
-    steam_id: '502750'
-    gog_id: quest_for_glory
-    zoom_id: ''
-    additional_stores: ''
-    datafiles: Quest_for_Glory
-    wikipedia_page: 'Quest_for_Glory:_So_You_Want_to_Be_a_Hero'
-    series_id: qfg
--
     id: 'agi:serguei1'
     name: "Serguei's Destiny"
     engine_id: agi
