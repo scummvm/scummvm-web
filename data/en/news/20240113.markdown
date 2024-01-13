@@ -4,10 +4,10 @@ author: DreamMaster
 date: 1705233600
 ---
 
-A poor test subject doomed to repeat an hour over and over again. Trying desperately to prove his species worth as something better than merely meat to be ground into intergalactic fast bood burgers.
+A poor test subject is doomed to repeat an hour over and over again. Trying desperately to prove his species worth as something better than merely meat to be ground into intergalactic fast food burgers.
 
-The ScummVM Team is pleased to announce full support for the Sanctuary Woods classic game Orion Burger. The engine also adds a few niceties that the original didn't have, such as mousewheel handling, and using the space bar to skip walk animations - something the original tried to do, but didn't work properly.
+The ScummVM Team is pleased to announce full support for Orion Burger, the classic game by Sanctuary Woods. The engine also adds a few niceties that the original didn't have, such as mouse wheel handling, and using the spacebar to skip walk animations - something the original didn't do properly.
 
-Help us test the game by grabbing a [daily build](/downloads/#daily). Read through our [testing guidelines](https://wiki.scummvm.org/index.php/Release_Testing#Testing_Guidelines). The game's logic was all hardcoded, so we really need people to try all sorts of weird actions, and make sure the game handles everything correctly. And please take some [screenshots](https://wiki.scummvm.org/index.php/Screenshots) along the way.
+Help us test the game by grabbing a [daily build](/downloads/#daily). Read through our [testing guidelines](https://wiki.scummvm.org/index.php/Release_Testing#Testing_Guidelines). The game's logic was all hardcoded, so we really need people to try all sorts of weird actions, and make sure the game handles everything correctly and matches the original implementation. And please take some [screenshots](https://wiki.scummvm.org/index.php/Screenshots) along the way.
 
-Now, luck be with you. And remember, with the aliens cheating on the tests they set up for you, you just need to cheat even better to pass them!
+Now, luck be with you. And remember, with the aliens cheating on the tests they set up for you, this will be no easy task.
