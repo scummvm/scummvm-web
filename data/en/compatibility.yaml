@@ -5088,3 +5088,10 @@
     since_version: 2.8.0
     stable_platforms: 'mac,win'
     unstable_platforms: ''
+-
+    id: 'm4:burger'
+    support: good
+    notes: '- Original save dialogs still to be implemented. - Demo menu options for Intro and Gallery redirect to play game'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
