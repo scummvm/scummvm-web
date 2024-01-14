@@ -6,6 +6,18 @@
     language: en
     variant_id: '1'
 -
+    id: 'adl:hires0'
+    variant: ''
+    platform_id: apple2
+    language: en
+    variant_id: '1'
+-
+    id: 'adl:hires0'
+    variant: 'TV Emulation'
+    platform_id: apple2
+    language: en
+    variant_id: '2'
+-
     id: 'adl:hires1'
     variant: ''
     platform_id: apple2
@@ -13,6 +25,66 @@
     variant_id: '1'
 -
     id: 'adl:hires1'
+    variant: 'TV Emulation'
+    platform_id: apple2
+    language: en
+    variant_id: '2'
+-
+    id: 'adl:hires2'
+    variant: ''
+    platform_id: apple2
+    language: en
+    variant_id: '1'
+-
+    id: 'adl:hires2'
+    variant: 'TV Emulation'
+    platform_id: apple2
+    language: en
+    variant_id: '2'
+-
+    id: 'adl:hires3'
+    variant: ''
+    platform_id: apple2
+    language: en
+    variant_id: '1'
+-
+    id: 'adl:hires3'
+    variant: 'TV Emulation'
+    platform_id: apple2
+    language: en
+    variant_id: '2'
+-
+    id: 'adl:hires4'
+    variant: ''
+    platform_id: apple2
+    language: en
+    variant_id: '1'
+-
+    id: 'adl:hires4'
+    variant: 'TV Emulation'
+    platform_id: apple2
+    language: en
+    variant_id: '2'
+-
+    id: 'adl:hires5'
+    variant: ''
+    platform_id: apple2
+    language: en
+    variant_id: '1'
+-
+    id: 'adl:hires5'
+    variant: 'TV Emulation'
+    platform_id: apple2
+    language: en
+    variant_id: '2'
+-
+    id: 'adl:hires6'
+    variant: ''
+    platform_id: apple2
+    language: en
+    variant_id: '1'
+-
+    id: 'adl:hires6'
     variant: 'TV Emulation'
     platform_id: apple2
     language: en
@@ -306,6 +378,12 @@
     language: en
     variant_id: '1'
 -
+    id: 'ags:geminirue'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'ags:gobliiins5-1'
     variant: ''
     platform_id: win
@@ -355,6 +433,12 @@
     variant_id: '1'
 -
     id: 'ags:primordia'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:resonance'
     variant: ''
     platform_id: win
     language: en
@@ -576,6 +660,12 @@
     language: ja
     variant_id: '1'
 -
+    id: 'director:darkeye'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'director:gadget'
     variant: ''
     platform_id: win
@@ -597,6 +687,12 @@
     id: 'director:warlock'
     variant: ''
     platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'director:wrath'
+    variant: ''
+    platform_id: mac
     language: en
     variant_id: '1'
 -
@@ -733,6 +829,12 @@
     variant_id: '1'
 -
     id: 'glk:crimsoncrown'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'glk:ootopos'
     variant: ''
     platform_id: dos
     language: en
@@ -1266,6 +1368,24 @@
     language: en
     variant_id: '1'
 -
+    id: 'mm:darksideofxeen'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'mm:mm1'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'mm:mm1'
+    variant: Enhanced
+    platform_id: dos
+    language: en
+    variant_id: '2'
+-
     id: 'mm:swordsofxeen'
     variant: ''
     platform_id: dos
@@ -1458,6 +1578,12 @@
     language: de
     variant_id: '1'
 -
+    id: 'mtropolis:mti'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'mtropolis:obsidian'
     variant: ''
     platform_id: win
@@ -1582,6 +1708,18 @@
     variant: ''
     platform_id: mac
     language: en
+    variant_id: '1'
+-
+    id: 'petka:petka1'
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
+    id: 'petka:petka2'
+    variant: ''
+    platform_id: win
+    language: ru
     variant_id: '1'
 -
     id: 'pink:peril'
@@ -1894,6 +2032,12 @@
     variant: ''
     platform_id: win
     language: fr
+    variant_id: '1'
+-
+    id: 'sci:kquestions'
+    variant: ''
+    platform_id: dos
+    language: en
     variant_id: '1'
 -
     id: 'sci:laurabow'

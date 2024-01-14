@@ -738,7 +738,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://shaun9991.itch.io/a-date-in-the-park)'
-    datafiles: ''
+    datafiles: A_Date_in_the_Park
     wikipedia_page: ''
     series_id: ''
 -
@@ -850,7 +850,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://stranga.itch.io/ashinatheredwitch)'
-    datafiles: ''
+    datafiles: 'Ashina:_The_Red_Witch'
     wikipedia_page: ''
     series_id: ''
 -
@@ -864,7 +864,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://stranga.itch.io/ashpines)'
-    datafiles: ''
+    datafiles: Ash_Pines
     wikipedia_page: ''
     series_id: ''
 -
@@ -878,7 +878,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: "- [Developer's Website](https://www.crystalshard.net/)"
-    datafiles: ''
+    datafiles: A_Tale_of_Two_Kingdoms
     wikipedia_page: A_Tale_of_Two_Kingdoms
     series_id: ''
 -
@@ -892,7 +892,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: "- [Developer's Website](https://www.crystalshard.net/)"
-    datafiles: ''
+    datafiles: Beer!
     wikipedia_page: ''
     series_id: ''
 -
@@ -962,7 +962,7 @@
     gog_id: blackwell_bundle
     zoom_id: ''
     additional_stores: "- [Developer's Website](http://www.wadjeteyegames.com/store/)"
-    datafiles: AGS/Games
+    datafiles: The_Blackwell_Legacy
     wikipedia_page: The_Blackwell_Legacy
     series_id: blackwell
 -
@@ -976,7 +976,7 @@
     gog_id: blackwell_bundle
     zoom_id: ''
     additional_stores: "- [Developer's Website](http://www.wadjeteyegames.com/store/)"
-    datafiles: AGS/Games
+    datafiles: Blackwell_Unbound
     wikipedia_page: Blackwell_Unbound
     series_id: blackwell
 -
@@ -990,7 +990,7 @@
     gog_id: blackwell_bundle
     zoom_id: ''
     additional_stores: "- [Developer's Website](http://www.wadjeteyegames.com/store/)"
-    datafiles: AGS/Games
+    datafiles: The_Blackwell_Convergence
     wikipedia_page: The_Blackwell_Convergence
     series_id: blackwell
 -
@@ -1004,7 +1004,7 @@
     gog_id: blackwell_bundle
     zoom_id: ''
     additional_stores: "- [Developer's Website](http://www.wadjeteyegames.com/store/)"
-    datafiles: AGS/Games
+    datafiles: The_Blackwell_Deception
     wikipedia_page: The_Blackwell_Deception
     series_id: blackwell
 -
@@ -1018,7 +1018,7 @@
     gog_id: the_blackwell_epiphany
     zoom_id: ''
     additional_stores: "- [Developer's Website](http://www.wadjeteyegames.com/store/)"
-    datafiles: AGS/Games
+    datafiles: The_Blackwell_Epiphany
     wikipedia_page: The_Blackwell_Epiphany
     series_id: blackwell
 -
@@ -1228,8 +1228,8 @@
     gog_id: the_excavation_of_hobs_barrow
     zoom_id: ''
     additional_stores: "- [Developer's Website](https://www.wadjeteyegames.com/games/the-excavation-of-hobs-barrow/)"
-    datafiles: ''
-    wikipedia_page: ''
+    datafiles: The_Excavation_of_Hob%27s_Barrow
+    wikipedia_page: The_Excavation_of_Hob%27s_Barrow
     series_id: ''
 -
     id: 'ags:falconcity'
@@ -1270,7 +1270,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://shaun9991.itch.io/footballgame)'
-    datafiles: ''
+    datafiles: Football_Game
     wikipedia_page: ''
     series_id: ''
 -
@@ -1284,7 +1284,7 @@
     gog_id: gemini_rue
     zoom_id: ''
     additional_stores: "- [Developer's Website](https://www.wadjeteyegames.com/games/gemini-rue/)"
-    datafiles: ''
+    datafiles: Gemini_Rue
     wikipedia_page: Gemini_Rue
     series_id: ''
 -
@@ -1298,7 +1298,7 @@
     gog_id: a_golden_wake
     zoom_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: A_Golden_Wake
     wikipedia_page: A_Golden_Wake
     series_id: ''
 -
@@ -1312,7 +1312,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://pierre-gilhodes.itch.io/gobliiins5)'
-    datafiles: ''
+    datafiles: Gobliiins_5
     wikipedia_page: ''
     series_id: gob
 -
@@ -1326,7 +1326,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://pierre-gilhodes.itch.io/gobliiins5)'
-    datafiles: ''
+    datafiles: Gobliiins_5
     wikipedia_page: ''
     series_id: gob
 -
@@ -1340,7 +1340,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://pierre-gilhodes.itch.io/gobliiins5)'
-    datafiles: ''
+    datafiles: Gobliiins_5
     wikipedia_page: ''
     series_id: gob
 -
@@ -1354,7 +1354,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://pierre-gilhodes.itch.io/gobliiins5)'
-    datafiles: ''
+    datafiles: Gobliiins_5
     wikipedia_page: ''
     series_id: gob
 -
@@ -1396,7 +1396,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: "- [Developer's Website](https://www.crystalshard.net/)"
-    datafiles: ''
+    datafiles: Heroine%27s_Quest
     wikipedia_page: Heroine%27s_Quest
     series_id: ''
 -
@@ -1438,7 +1438,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://stranga.itch.io/just-ignore-them)'
-    datafiles: ''
+    datafiles: Just_Ignore_Them
     wikipedia_page: ''
     series_id: jit
 -
@@ -1452,7 +1452,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://stranga.itch.io/jitbs)'
-    datafiles: ''
+    datafiles: 'Just_Ignore_Them:_Brea%27s_Story_Tape_1'
     wikipedia_page: ''
     series_id: jit
 -
@@ -1466,7 +1466,7 @@
     gog_id: kathy_rain
     zoom_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Kathy_Rain
     wikipedia_page: Kathy_Rain
     series_id: ''
 -
@@ -1592,7 +1592,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: "- [Developer's Website](https://www.crystalshard.net/)"
-    datafiles: ''
+    datafiles: Larry_Lotter
     wikipedia_page: ''
     series_id: ''
 -
@@ -1634,7 +1634,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Maniac_Mansion_Deluxe
     wikipedia_page: ''
     series_id: ''
 -
@@ -1704,7 +1704,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://shaun9991.itch.io/mudlarks)'
-    datafiles: ''
+    datafiles: Mudlarks
     wikipedia_page: ''
     series_id: ''
 -
@@ -1718,7 +1718,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://stranga.itch.io/mybigsister)'
-    datafiles: ''
+    datafiles: My_Big_Sister
     wikipedia_page: ''
     series_id: ''
 -
@@ -1732,7 +1732,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://stranga.itch.io/my-big-sister-remastered)'
-    datafiles: ''
+    datafiles: My_Big_Sister_Remastered
     wikipedia_page: ''
     series_id: ''
 -
@@ -1942,7 +1942,7 @@
     gog_id: primordia
     zoom_id: ''
     additional_stores: "- [Developer's Website](https://www.wadjeteyegames.com/games/primordia/)"
-    datafiles: ''
+    datafiles: Primordia
     wikipedia_page: Primordia_(video_game)
     series_id: ''
 -
@@ -2040,7 +2040,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: "- [Developer's Website](https://www.crystalshard.net/)"
-    datafiles: ''
+    datafiles: Quest_for_Yrolg
     wikipedia_page: ''
     series_id: ''
 -
@@ -2054,7 +2054,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://stranga.itch.io/redbow)'
-    datafiles: ''
+    datafiles: Red_Bow
     wikipedia_page: ''
     series_id: ''
 -
@@ -2068,7 +2068,7 @@
     gog_id: resonance
     zoom_id: ''
     additional_stores: "- [Developer's Website](https://www.wadjeteyegames.com/games/resonance/)"
-    datafiles: ''
+    datafiles: Resonance
     wikipedia_page: Resonance_(video_game)
     series_id: ''
 -
@@ -2138,7 +2138,7 @@
     gog_id: shardlight
     zoom_id: ''
     additional_stores: "- [Developer's Website](https://www.wadjeteyegames.com/games/shardlight/)"
-    datafiles: ''
+    datafiles: Shardlight
     wikipedia_page: Shardlight
     series_id: ''
 -
@@ -2152,7 +2152,7 @@
     gog_id: the_shivah
     zoom_id: ''
     additional_stores: "- [Developer's Website](http://www.wadjeteyegames.com/store/)"
-    datafiles: AGS/Games
+    datafiles: The_Shivah
     wikipedia_page: The_Shivah
     series_id: ''
 -
@@ -2166,7 +2166,7 @@
     gog_id: the_shivah
     zoom_id: ''
     additional_stores: "- [Developer's Website](http://www.wadjeteyegames.com/store/)"
-    datafiles: AGS/Games
+    datafiles: The_Shivah
     wikipedia_page: The_Shivah
     series_id: ''
 -
@@ -2264,7 +2264,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: "- [Developer's Website](https://www.crystalshard.net/)"
-    datafiles: ''
+    datafiles: Starship_Quasar
     wikipedia_page: ''
     series_id: ''
 -
@@ -2278,7 +2278,7 @@
     gog_id: strangeland
     zoom_id: ''
     additional_stores: "- [Developer's Website](https://www.wadjeteyegames.com/games/strangeland/)"
-    datafiles: ''
+    datafiles: Strangeland
     wikipedia_page: ''
     series_id: ''
 -
@@ -2306,7 +2306,7 @@
     gog_id: sumatra_fate_of_yandi
     zoom_id: ''
     additional_stores: '- [Itch.io](https://shaun9991.itch.io/sumatra-fate-of-yandi)'
-    datafiles: ''
+    datafiles: 'Sumatra:_Fate_of_Yandi'
     wikipedia_page: ''
     series_id: ''
 -
@@ -2348,7 +2348,7 @@
     gog_id: technobabylon
     zoom_id: ''
     additional_stores: "- [Developer's Website](https://www.wadjeteyegames.com/games/technobabylon/)"
-    datafiles: ''
+    datafiles: Technobabylon
     wikipedia_page: Technobabylon
     series_id: ''
 -
@@ -2446,7 +2446,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://shaun9991.itch.io/the-terrible-old-man)'
-    datafiles: ''
+    datafiles: The_Terrible_Old_Man
     wikipedia_page: ''
     series_id: ''
 -
@@ -2572,7 +2572,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Until_I_Have_You
     wikipedia_page: ''
     series_id: ''
 -
@@ -2600,8 +2600,8 @@
     gog_id: whispers_of_a_machine
     zoom_id: ''
     additional_stores: ''
-    datafiles: ''
-    wikipedia_page: ''
+    datafiles: Whispers_of_a_Machine
+    wikipedia_page: Whispers_of_a_Machine
     series_id: ''
 -
     id: 'ags:zniwadventure'

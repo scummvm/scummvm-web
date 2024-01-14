@@ -4852,7 +4852,7 @@
     unstable_platforms: ''
 -
     id: 'ags:geminirue'
-    support: untested
+    support: good
     notes: ''
     since_version: 2.8.0
     stable_platforms: 'win,linux,mac'
@@ -5072,7 +5072,7 @@
     support: excellent
     notes: ''
     since_version: 2.8.0
-    stable_platforms: ''
+    stable_platforms: win
     unstable_platforms: ''
 -
     id: 'director:darkeye'
