@@ -892,10 +892,10 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: kolibrios
     user_agent: ''
-    version: 2.7.0
+    version: 2.8.0
     url: 'scummvm-{$version}-kolibrios.zip'
     name: 'KolibriOS package'
     notes: ''
