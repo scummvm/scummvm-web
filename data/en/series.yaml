@@ -201,6 +201,9 @@
     id: phantasmagoria
     name: Phantasmagoria
 -
+    id: pink
+    name: 'The Pink Panther'
+-
     id: planetfall
     name: Planetfall
 -

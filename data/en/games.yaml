@@ -6298,7 +6298,7 @@
     additional_stores: ''
     datafiles: 'Pink_Panther:_Passport_to_Peril'
     wikipedia_page: 'The_Pink_Panther:_Passport_to_Peril'
-    series_id: ''
+    series_id: pink
 -
     id: 'pink:pokus'
     name: 'The Pink Panther: Hokus Pokus Pink'
@@ -6312,7 +6312,7 @@
     additional_stores: ''
     datafiles: 'Pink_Panther:_Hokus_Pokus_Pink'
     wikipedia_page: 'The_Pink_Panther:_Hokus_Pokus_Pink'
-    series_id: ''
+    series_id: pink
 -
     id: 'plumbers:plumbers'
     name: "Plumbers Don't Wear Ties"
