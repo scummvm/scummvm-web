@@ -872,12 +872,12 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: miyoo
     user_agent: ''
-    version: 2.7.0
-    url: 'scummvm-{$version}-miyoo.zip'
-    name: '1st gen. Miyoo package (New BittBoy, Pocket Go and PowKiddy Q90-V90-Q20 with TriForceX MiyooCFW)'
+    version: 2.8.0
+    url: 'scummvm-{$version}-miyoo-uclibc.zip'
+    name: '1st gen. Miyoo package uClibc variant (New BittBoy, Pocket Go and PowKiddy Q90-V90-Q20 with TriForceX MiyooCFW)'
     notes: ''
 -
     enabled: true
