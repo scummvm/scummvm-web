@@ -345,16 +345,6 @@
     subcategory: old
     category_icon: solaris
     user_agent: ''
-    version: 1.4.1
-    url: 'scummvm-{$version}-solaris10-x86.pkg.bz2'
-    name: 'Solaris 10 (both IA32 and AMD64) binary'
-    notes: ''
--
-    enabled: true
-    category: scummvm
-    subcategory: old
-    category_icon: solaris
-    user_agent: ''
     version: 1.1.1
     url: 'scummvm-{$version}-solaris8-sparc.pkg.bz2'
     name: 'Solaris 8 and up (Sparc) binary'
