@@ -414,6 +414,18 @@
     language: en
     variant_id: '1'
 -
+    id: 'ags:justignorethem'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:justignorethem'
+    variant: Remake
+    platform_id: win
+    language: en
+    variant_id: '2'
+-
     id: 'ags:kathyrain'
     variant: ''
     platform_id: win
@@ -432,7 +444,19 @@
     language: en
     variant_id: '1'
 -
+    id: 'ags:mybigsisterrm'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'ags:primordia'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:redbow'
     variant: ''
     platform_id: win
     language: en
@@ -2987,6 +3011,12 @@
     platform_id: dos
     language: en
     variant_id: '1'
+-
+    id: 'sky:sky'
+    variant: CD
+    platform_id: dos
+    language: en
+    variant_id: '2'
 -
     id: 'stark:tlj'
     variant: ''
