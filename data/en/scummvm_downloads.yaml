@@ -1533,16 +1533,6 @@
     enabled: true
     category: scummvm
     subcategory: daily_downloads
-    category_icon: windows
-    user_agent: ''
-    version: Daily
-    url: scummvm-snapshot-win32.exe
-    name: 'ScummVM 2.8.0pre Development Build - Windows Installer'
-    notes: ''
--
-    enabled: true
-    category: scummvm
-    subcategory: daily_downloads
     category_icon: buildbot
     user_agent: ''
     version: Daily
@@ -1559,16 +1549,6 @@
     url: 'https://github.com/scummvm/scummvm'
     name: 'ScummVM Git Repository'
     notes: 'For if you wish to retrieve the latest code to compile yourself'
--
-    enabled: true
-    category: scummvm-tools
-    subcategory: daily_downloads
-    category_icon: windows
-    user_agent: ''
-    version: Daily
-    url: scummvm-tools-snapshot-win32.zip
-    name: 'Tools Daily Build - Windows zipfile'
-    notes: ''
 -
     enabled: true
     category: libs
