@@ -1720,7 +1720,7 @@
     additional_stores: '- [Itch.io](https://stranga.itch.io/mybigsister)'
     datafiles: My_Big_Sister
     wikipedia_page: ''
-    series_id: ''
+    series_id: mybigsister
 -
     id: 'ags:mybigsisterrm'
     name: 'My Big Sister Remastered'
@@ -1734,7 +1734,7 @@
     additional_stores: '- [Itch.io](https://stranga.itch.io/my-big-sister-remastered)'
     datafiles: My_Big_Sister_Remastered
     wikipedia_page: ''
-    series_id: ''
+    series_id: mybigsister
 -
     id: 'ags:myburdentokeep'
     name: 'My Burden to Keep'
