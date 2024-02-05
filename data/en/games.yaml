@@ -3790,8 +3790,22 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: ''
-    datafiles: ''
-    wikipedia_page: ''
+    datafiles: Dark_Side
+    wikipedia_page: Dark_Side_(video_game)
+    series_id: ''
+-
+    id: 'freescape:totaleclipse'
+    name: 'Total Eclipse'
+    engine_id: freescape
+    company_id: incentive
+    year: '1988'
+    moby_id: '6712'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: Total_Eclipse
+    wikipedia_page: Total_Eclipse_(1988_video_game)
     series_id: ''
 -
     id: 'glk:adrift'

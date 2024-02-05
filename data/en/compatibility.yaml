@@ -4845,7 +4845,7 @@
     unstable_platforms: ''
 -
     id: 'ags:unavowed'
-    support: untested
+    support: good
     notes: ''
     since_version: 2.8.0
     stable_platforms: 'win,linux,mac'

@@ -837,6 +837,33 @@
     language3: ''
     url: /frs/demos/freescape/darkside-dos-demo.zip
 -
+    id: 'freescape:totaleclipse'
+    platform: cpc
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/freescape/totaleclipse-cpc-demo.zip
+-
+    id: 'freescape:totaleclipse'
+    platform: zx
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/freescape/totaleclipse-zx-demo-1.zip
+-
+    id: 'freescape:totaleclipse'
+    platform: zx
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/freescape/totaleclipse-zx-demo-2.zip
+-
     id: 'gob:adi2'
     platform: win
     '': ''
