@@ -132,7 +132,7 @@
     <footer>
 
         <!-- Mastodon verification -->
-        <a rel="me" href="https://mastodon.social/@scummvm"></a>
+        <a rel="me" href="https://manitu.social/@scummvm"></a>
 
     </footer>
 </body>
