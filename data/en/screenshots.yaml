@@ -858,6 +858,24 @@
     language: en
     variant_id: '1'
 -
+    id: 'freescape:totaleclipse'
+    variant: ''
+    platform_id: cpc
+    language: en
+    variant_id: '1'
+-
+    id: 'freescape:totaleclipse'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'freescape:totaleclipse'
+    variant: ''
+    platform_id: zx
+    language: en
+    variant_id: '1'
+-
     id: 'glk:crimsoncrown'
     variant: ''
     platform_id: dos
