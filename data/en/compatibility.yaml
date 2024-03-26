@@ -4123,7 +4123,7 @@
     stable_platforms: 'amiga,apple2gs,coco3,dos,mac'
     unstable_platforms: ''
 -
-    id: 'asylum:sanitarium'
+    id: 'asylum:asylum'
     support: excellent
     notes: ''
     since_version: 2.6.0
@@ -5094,4 +5094,18 @@
     notes: '- Original save dialogs still to be implemented. - Demo menu options for Intro and Gallery redirect to play game'
     since_version: DEV
     stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: 'freescape:totaleclipse'
+    support: untested
+    notes: '- Minor missing features (UI details)  - CGA/EGA version is supported from DOS release - Sound sounds are incorrect or missing'
+    since_version: DEV
+    stable_platforms: 'dos,zx,cpc'
+    unstable_platforms: ''
+-
+    id: 'freescape:totaleclipse2'
+    support: untested
+    notes: '- Minor missing features (UI details)  - Some sounds are incorrect or missing'
+    since_version: DEV
+    stable_platforms: 'zx,cpc'
     unstable_platforms: ''

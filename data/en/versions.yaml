@@ -356,3 +356,10 @@
     minor: '8'
     patch: '0'
     name: 'Mysteries, Mammoths, and Muppets'
+-
+    id: 2.8.1
+    release_date: 'March 31, 2024'
+    major: '2'
+    minor: '8'
+    patch: '1'
+    name: ''
