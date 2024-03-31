@@ -1,0 +1,21 @@
+---
+title: "Please welcome ScummVM 2.8.1: Oh MMy!"
+author: The ScummVM Team
+date: 1711907490
+---
+Oh MMy — a new ScummVM release!
+
+Please welcome the first ScummVM release of the year: ScummVM 2.8.1.
+
+ScummVM 2.8.1 is a maintenance release mainly focused on fixing bugs that were uncovered since our last stable release.
+
+This update includes upgrades for the following engines: AGI, AGS, GRIM, SWORD2, MM (which is now enabled — yes, we really skipped it in 2.8.0 by accident), mTropolis, NANCY, SCUMM, TWINE, Ultima, and V-Cruise.
+
+The Android, Atari and macOS ports received multiple bug fixes, mostly for improving overall stability and preventing some crashes we’ve seen under certain circumstances.
+
+The detailed list of improvements is available [here](https://downloads.scummvm.org/frs/scummvm/2.8.1/ReleaseNotes.html).
+
+As always, you can find the latest release [on our Downloads page](https://www.scummvm.org/downloads/).
+
+Go grab it while it's hot — enjoy!
+
