@@ -11,7 +11,7 @@
   "require": {
     "php": ">=8.2.0",
     "ext-intl": "*",
-    "smarty/smarty": "^4.1.0",
+    "smarty/smarty": "^5.0.2",
     "ezyang/htmlpurifier": "^4.10",
     "altorouter/altorouter": "^2.0",
     "matomo/device-detector": "^6.1.1",
