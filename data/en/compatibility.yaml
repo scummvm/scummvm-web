@@ -5089,6 +5089,20 @@
     stable_platforms: 'mac,win'
     unstable_platforms: ''
 -
+    id: 'scumm:loom'
+    support: excellent
+    notes: '- The Roland update from LucasArts is required for MIDI support in the EGA version - Macintosh music not fully implemented - FM-TOWNS Kanji version requires the FM-TOWNS Font ROM - PC-Engine Kanji version requires the system card ROM'
+    since_version: 2.8.0
+    stable_platforms: 'amiga,atarist,dos,fmtowns,pce,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:indy3'
+    support: good
+    notes: '- There is no support for the Macintosh music - FM-TOWNS Kanji version requires the FM-TOWNS Font ROM'
+    since_version: 2.8.0
+    stable_platforms: 'amiga,atarist,dos,fmtowns,mac'
+    unstable_platforms: ''
+-
     id: 'm4:burger'
     support: good
     notes: '- Original save dialogs still to be implemented. - Demo menu options for Intro and Gallery redirect to play game'
@@ -5108,4 +5122,18 @@
     notes: '- Minor missing features (UI details)  - Some sounds are incorrect or missing'
     since_version: DEV
     stable_platforms: 'zx,cpc'
+    unstable_platforms: ''
+-
+    id: 'scumm:loom'
+    support: excellent
+    notes: '- The Roland update from LucasArts is required for MIDI support in the EGA version - FM-TOWNS Kanji version requires the FM-TOWNS Font ROM - PC-Engine Kanji version requires the system card ROM'
+    since_version: DEV
+    stable_platforms: 'amiga,atarist,dos,fmtowns,pce,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:indy3'
+    support: good
+    notes: '- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM'
+    since_version: DEV
+    stable_platforms: 'amiga,atarist,dos,fmtowns,mac'
     unstable_platforms: ''
