@@ -510,7 +510,7 @@
     language: en
     variant_id: '1'
 -
-    id: 'asylum:sanitarium'
+    id: 'asylum:asylum'
     variant: ''
     platform_id: win
     language: en

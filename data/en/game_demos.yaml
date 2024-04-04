@@ -495,7 +495,7 @@
     language3: ''
     url: /frs/demos/ags/zniw_adventure-demo.zip
 -
-    id: 'asylum:sanitarium'
+    id: 'asylum:asylum'
     platform: win
     '': ''
     category: ''
@@ -504,7 +504,7 @@
     language3: ''
     url: /frs/demos/asylum/asylum-demo.zip
 -
-    id: 'asylum:sanitarium'
+    id: 'asylum:asylum'
     platform: win
     '': ''
     category: Alternative
