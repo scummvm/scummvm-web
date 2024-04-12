@@ -160,6 +160,10 @@
         alias: "criezy"
         description: ""
       -
+        name: "Walter Agazzi"
+        alias: "tag2015"
+        description: "Maintenance, Game archival"
+      -
         name: "Chris Jones"
         alias: "Pumaman"
         description: "Creator"
@@ -960,6 +964,13 @@
         alias: "dreammaster"
         description: ""
     -
+      name: "M4"
+      person:
+      -
+        name: "Paul Gilbert"
+        alias: "DreamMaster"
+        description: ""
+    -
       name: "MacVenture"
       person:
       -
@@ -1666,6 +1677,13 @@
         alias: "mgerhardy"
         description: ""
     -
+      name: "Thimbleweed Park"
+      person:
+      -
+        name: "Valéry Sablonnière"
+        alias: "Scemino"
+        description: ""
+    -
       name: "Ultima"
       person:
       -
@@ -1818,6 +1836,13 @@
     title: "Backend Teams"
     anchor: "backend_teams"
     group:
+    -
+      name: "Atari"
+      person:
+      -
+        name: "Miro Krop&aacute;&#269;ek"
+        alias: "mikrosk"
+        description: ""
     -
       name: "Android"
       person:
