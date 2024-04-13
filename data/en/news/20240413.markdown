@@ -1,0 +1,16 @@
+---
+title: A walk in the park with ScummVM and Thimbleweeds
+author: scemino
+date: 1712994918
+---
+
+1987: In the small town of Thimbleweed Park, two officers-a-reno are investigating a murder.
+The body, still in the process-a-reno of being pixelated, lies in the river.
+The agents meet a video game developer, a mysterious clown who never takes off his make-up, and many other strange characters.
+
+You can purchase the game in your favorite place: [Steam](https://store.steampowered.com/app/569860), [GOG](https://www.gog.com/game/thimbleweed_park), [Epic Game Store](https://store.epicgames.com/en-US/p/thimbleweed-park),
+[Xbox](https://www.microsoft.com/en-US/store/p/Thimbleweed-Park/9NBLGGH40DCM), [Switch](https://www.nintendo.com/games/detail/thimbleweed-park-switch), [iOS](https://itunes.apple.com/us/app/thimbleweed-park/id1228969539?mt=8), [PS4](https://www.playstation.com/en-us/games/thimbleweed-park-ps4/), [Android](https://play.google.com/store/apps/details?id=com.terribletoybox.thimbleweedparkandroid&hl=en).
+
+You're invited to try out this adventure with ScummVM. First, download the [daily build](https://scummvm.org/downloads/#daily) and enjoy!
+
+If you encounter any bugs or oddities, please report them on [our bugtracker](https://bugs.scummvm.org).
