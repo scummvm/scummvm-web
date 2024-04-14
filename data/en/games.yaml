@@ -9352,6 +9352,20 @@
     wikipedia_page: Little_Big_Adventure_2
     series_id: lba
 -
+    id: 'twp:twp'
+    name: 'Thimbleweed Park'
+    engine_id: twp
+    company_id: terribletoybox
+    year: '2017'
+    moby_id: ''
+    steam_id: '569860'
+    gog_id: thimbleweed_park
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Thimbleweed_Park
+    series_id: ''
+-
     id: 'ultima:martiandreams'
     name: 'Ultima: Worlds of Adventure 2 - Martian Dreams'
     engine_id: ultima

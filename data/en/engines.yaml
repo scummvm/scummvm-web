@@ -480,6 +480,11 @@
     alt_name: ''
     enabled: true
 -
+    id: twp
+    name: 'Thimbleweed Park Engine'
+    alt_name: ''
+    enabled: true
+-
     id: ultima
     name: Ultima
     alt_name: ''

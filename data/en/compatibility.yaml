@@ -5144,3 +5144,10 @@
     since_version: DEV
     stable_platforms: 'amiga,atarist,dos,fmtowns,mac'
     unstable_platforms: ''
+-
+    id: 'twp:twp'
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win,linux'
+    unstable_platforms: ''
