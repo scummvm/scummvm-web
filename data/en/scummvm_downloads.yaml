@@ -712,20 +712,20 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: 3ds
     user_agent: ''
-    version: 2.7.0
+    version: 2.8.1
     url: 'scummvm-{$version}-3ds-3dsx.zip'
     name: 'Nintendo 3DS package (.3dsx)'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: 3ds
     user_agent: ''
-    version: 2.7.0
+    version: 2.8.1
     url: 'scummvm-{$version}-3ds-cia.zip'
     name: 'Nintendo 3DS package (.cia)'
     notes: ''
