@@ -1,7 +1,7 @@
 {
     "20011122": {
         "title": "Tervetuloa ScummVM:ään",
-        "content": "Tervetuloa ScummVM:ään! ScummVM on SCUMM (Script Creation Utility For Maniac Mansion - ohjelmakoodiluontityökalu Maniac Mansionille) ja tulkki Linuxille ja Windowsille."
+        "content": "Tervetuloa ScummVM:ään! ScummVM on SCUMM (Script Creation Utility For Maniac Mansion - ohjelmakoodin syötteen luontityökalu Maniac Mansionille) -tulkki Linuxille ja Windowsille."
     },
     "20020113": {
         "title": "ScummVM 0.1.0 julkaistu",
@@ -24,8 +24,8 @@
         "content": "Travis Howell tekee ScummVM:stä päivittäisiä kokoomia Windowsille ladattavaksi. Iso käsi Travikselle. Lisäksi, nyt sivuilla on linkki ScummVM:n Windows SDL versiolle. Tämä kyseinen versio ei vaadi Cygwin dll:ää. \nOlemme myöskin pystyttäneet Yhteensopivuussivun joka auttaa löytämään vastauksen siihen yleisimpään kysymykseen, \"mitkä pelit toimivat?\". Tuo kyseinen osio päivittyy alati kehitystyön ohessa."
     },
     "20020308": {
-        "title": "",
-        "content": ""
+        "title": "Hyppysellinen melkoisen merkittäviä päivityksiä",
+        "content": "![Full Throttle](/data/news/20020308.png) BBox, End ja Yazoo ovat osoittaneet tällä viikolla tekemisen meininkiä (iso käsi kavereille!). Uutta ScummVM:n kehityksessä:\n\n* Sam and Max Hit the Road on nyt läpäistävissä!\n* *inSane* -videomoottori toimii. Tätähän käytetään peleissä The Dig ja Full Throttle\n* Lisää komentorivivalitsimia ohjaukseen. Lukaise readme.txt\n* Alustavat työt aloitettu Curse of Monkey Island:in pelattavuudelle\n* Mutle on sitonut Mac-portin CVS-haaraan\n* Monen monituisia virheitä korjattu."
     },
     "20020320": {
         "title": "",
