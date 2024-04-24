@@ -35,6 +35,11 @@
     alt_name: ''
     enabled: false
 -
+    id: bagel
+    name: BAGEL
+    alt_name: ''
+    enabled: false
+-
     id: bbvs
     name: 'Beavis and Butt-Head in Virtual Stupidity'
     alt_name: ''

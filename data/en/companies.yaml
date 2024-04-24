@@ -176,6 +176,10 @@
     name: 'Blue Byte Software'
     alt_name: ''
 -
+    id: boffo
+    name: 'Boffo Intergalactic Games, Inc'
+    alt_name: ''
+-
     id: broderbund
     name: Brøderbund
     alt_name: ''

@@ -2646,6 +2646,20 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'bagel:spacebar'
+    name: 'The Space Bar'
+    engine_id: bagel
+    company_id: boffo
+    year: '1997'
+    moby_id: '2909'
+    steam_id: '2253580'
+    gog_id: ''
+    zoom_id: the-space-bar
+    additional_stores: ''
+    datafiles: The_Space_Bar
+    wikipedia_page: The_Space_Bar
+    series_id: ''
+-
     id: 'bbvs:bbvs'
     name: "MTV's Beavis and Butt-Head in Virtual Stupidity"
     engine_id: bbvs

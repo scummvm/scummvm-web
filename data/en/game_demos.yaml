@@ -513,6 +513,24 @@
     language3: ''
     url: /frs/demos/asylum/asylum-demo2.zip
 -
+    id: 'bagel:spacebar'
+    platform: win
+    '': ''
+    category: Medium
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/bagel/spacebar-win-demo-medium.zip
+-
+    id: 'bagel:spacebar'
+    platform: win
+    '': ''
+    category: Small
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/bagel/spacebar-win-demo-small.zip
+-
     id: 'bbvs:bbvs'
     platform: win
     '': ''
