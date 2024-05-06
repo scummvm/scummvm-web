@@ -37,7 +37,7 @@
 -
     id: bagel
     name: BAGEL
-    alt_name: ''
+    alt_name: 'Boffo Adventure Game Engine and Libraries'
     enabled: false
 -
     id: bbvs
