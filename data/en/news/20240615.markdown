@@ -1,0 +1,13 @@
+---
+title: "It’s a Bar... In Space!"
+author: DreamMaster
+date: 1718482984
+---
+
+In a universe where bagels meet bars, the BAGEL engine has been perfectly toasted, and the ScummVM team is now ready to serve a slice of **The Space Bar** nostalgia. No, it’s not the key on your keyboard. Rather, it’s a detective story set on a distant planet. Important data has been stolen, and the perpetrator is a shape-shifter laying low in a spaceport dive bar until he can flee off-planet. You play a hard-boiled detective who has the skill to psychically visit bar patrons’ memories to gather clues and narrow down suspects.
+
+This is thanks to the kind people at [ZOOM Platform](https://www.zoom-platform.com/?affiliate=c049516c-9c4c-42d6-8649-92ed870e8b53), who provided us with the original game sources to work with. Help us test the game by grabbing a [daily build](/downloads/#daily). Read through our [testing guidelines](https://wiki.scummvm.org/index.php/Release_Testing#Testing_Guidelines). The game features a lot of options to chat around with bar patrons’ and do various actions in the different flashbacks. So we really need people to spend time experimenting and make sure everything works correctly. And please take some [screenshots](https://wiki.scummvm.org/index.php/Screenshots) along the way.
+
+If you don’t own _The Space Bar_, you can try one of the [free demos](https://scummvm.org/demos/#other) or purchase it digitally from the [ZOOM Platform](https://www.zoom-platform.com/product/the-space-bar?affiliate=c049516c-9c4c-42d6-8649-92ed870e8b53). Testing is also available on Steam via a beta branch, check the [Steam announcement](https://store.steampowered.com/news/app/2253580/view/6850618508609768472) for more details.
+
+Now, good luck, and fingers crossed you can find the perp. Otherwise, your bureau chief will have you getting up close and personal with toilet duties for the rest of your career. Oh, and PS: The viewpoints of different aliens differ. For the Bartender, who has segmented eyes, even the original developers felt it was difficult and left in a cheat key of ScrollLock to switch back to a single viewpoint. Feel free to use it if, at any point, the flashback becomes too much for you :)
