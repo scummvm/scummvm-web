@@ -3850,6 +3850,34 @@
     wikipedia_page: ADRIFT
     series_id: ''
 -
+    id: 'glk:adv350_zcode'
+    name: 'Adventure, 350 Point Colossal Cave'
+    engine_id: glk
+    company_id: fan
+    year: '1977'
+    moby_id: '69934'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: '- [Interactive Fiction Archive](https://rickadams.org/adventure/e_downloads.html)'
+    datafiles: ''
+    wikipedia_page: "Colossal_Cave_Adventure#Woods's_modifications"
+    series_id: ''
+-
+    id: 'glk:adventcrowther'
+    name: 'Will Crowther’s Adventure'
+    engine_id: glk
+    company_id: bbn
+    year: '1976'
+    moby_id: '30153'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: '- [Interactive Fiction Database](https://ifdb.org/viewgame?id=fft6pu91j85y4acv#dlIcon105)'
+    datafiles: ''
+    wikipedia_page: "Colossal_Cave_Adventure#Crowther's_original_version"
+    series_id: ''
+-
     id: 'glk:advsys'
     name: 'AdvSys Interactive Fiction games'
     engine_id: glk
@@ -3905,6 +3933,20 @@
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
+-
+    id: 'glk:beyondzork'
+    name: 'Beyond Zork: The Coconut of Quendor'
+    engine_id: glk
+    company_id: infocom
+    year: '1987'
+    moby_id: '54'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: '- [Interactive Fiction Database](https://ifdb.org/viewgame?id=9h6o1charof548ii#dlItem0)'
+    datafiles: ''
+    wikipedia_page: Beyond_Zork
+    series_id: zork
 -
     id: 'glk:corruption'
     name: Corruption
@@ -4046,6 +4088,20 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'glk:lgop'
+    name: 'Leather Goddesses of Phobos'
+    engine_id: glk
+    company_id: infocom
+    year: '1986'
+    moby_id: '31'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: '- [Interactive Fiction Database](https://ifdb.org/viewgame?id=3p9fdt4fxr2goctw#dlIcon0)'
+    datafiles: ''
+    wikipedia_page: Leather_Goddesses_of_Phobos
+    series_id: ''
+-
     id: 'glk:myth'
     name: Myth
     engine_id: glk
@@ -4114,6 +4170,20 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
+    series_id: ''
+-
+    id: 'glk:questforexcalibur'
+    name: 'Arthur: The Quest for Excalibur'
+    engine_id: glk
+    company_id: infocom
+    year: '1989'
+    moby_id: '1252'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: '- [Interactive Fiction Database](https://ifdb.org/viewgame?id=zoohwv5nqye7up2t#dlIcon0)'
+    datafiles: ''
+    wikipedia_page: 'Arthur:_The_Quest_for_Excalibur'
     series_id: ''
 -
     id: 'glk:scottadams'
@@ -4198,6 +4268,20 @@
     additional_stores: "- [Developer's Website](http://graphicsmagician.com/polarware/comprehend.htm)"
     datafiles: Transylvania
     wikipedia_page: Transylvania_(video_game)
+    series_id: transylvania
+-
+    id: 'glk:transylvaniav2'
+    name: 'Transylvania (v2)'
+    engine_id: glk
+    company_id: polarware
+    year: '1985'
+    moby_id: '133318'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: "- [Developer's Website](http://graphicsmagician.com/polarware/comprehend.htm)"
+    datafiles: ''
+    wikipedia_page: ''
     series_id: transylvania
 -
     id: 'glk:wonderland'

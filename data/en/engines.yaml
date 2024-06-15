@@ -38,7 +38,7 @@
     id: bagel
     name: BAGEL
     alt_name: 'Boffo Adventure Game Engine and Libraries'
-    enabled: false
+    enabled: true
 -
     id: bbvs
     name: 'Beavis and Butt-Head in Virtual Stupidity'

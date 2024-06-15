@@ -156,6 +156,10 @@
     name: Bandai
     alt_name: ''
 -
+    id: bbn
+    name: 'Bolt Beranek and Newman Inc.'
+    alt_name: ''
+-
     id: bfactory
     name: B-Factory
     alt_name: ''

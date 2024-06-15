@@ -4897,7 +4897,7 @@
     support: good
     notes: '- Minor missing features (UI details)  - CGA/EGA version is supported from DOS release'
     since_version: 2.8.0
-    stable_platforms: 'dos,zx,cpc'
+    stable_platforms: 'dos,zx,cpc,amiga,atarist'
     unstable_platforms: ''
 -
     id: 'efh:efh'
@@ -5121,7 +5121,7 @@
     support: untested
     notes: '- Minor missing features (UI details)  - CGA/EGA version is supported from DOS release - Sound sounds are incorrect or missing'
     since_version: DEV
-    stable_platforms: 'dos,zx,cpc'
+    stable_platforms: 'dos,zx,cpc,amiga,atarist'
     unstable_platforms: ''
 -
     id: 'freescape:totaleclipse2'
@@ -5146,8 +5146,15 @@
     unstable_platforms: ''
 -
     id: 'twp:twp'
-    support: untested
+    support: excellent
     notes: ''
     since_version: DEV
     stable_platforms: 'mac,win,linux'
+    unstable_platforms: ''
+-
+    id: 'bagel:spacebar'
+    support: untested
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,win'
     unstable_platforms: ''
