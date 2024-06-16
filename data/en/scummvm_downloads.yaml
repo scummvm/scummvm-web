@@ -1547,7 +1547,7 @@
     user_agent: ''
     version: Daily
     url: 'https://buildbot.scummvm.org/#/dailybuilds'
-    name: 'ScummVM Daily Builds for other platforms'
+    name: 'ScummVM Daily Builds for all platforms'
     notes: ''
 -
     enabled: true
