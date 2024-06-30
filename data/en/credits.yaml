@@ -358,6 +358,25 @@
         alias: "Strangerke"
         description: ""
     -
+      name: "Bagel"
+      person:
+      -
+        name: "Arnaud Boutonn&eacute;"
+        alias: "Strangerke"
+        description: ""
+      -
+        name: "Daniel Albano"
+        alias: "SupSuper"
+        description: ""
+      -
+        name: "Eugene Sandulenko"
+        alias: "sev"
+        description: ""
+      -
+        name: "Paul Gilbert"
+        alias: "dreammaster"
+        description: ""
+    -
       name: "BBVS"
       person:
       -
@@ -1336,7 +1355,7 @@
       -
         name: "Andrea Boscarino"
         alias: "AndywinXp"
-        description: "Digital audio"
+        description: "Digital audio, WIZ graphics system"
       -
         name: "Jonathan Gray"
         alias: "khalek"
