@@ -8,7 +8,8 @@
     <base href="{$baseurl|lang}">
     <link rel="alternate" type="application/atom+xml" title="{#indexAtomFeed#}" href="{$baseurl|lang}/feeds/atom/">
     <link rel="alternate" type="application/rss+xml" title="{#indexRSSFeed#}" href="{$baseurl|lang}/feeds/rss/">
-    <title>ScummVM :: {$title}</title>
+    <title>ScummVM :: {$title} :: {$content_title}</title>
+    <meta name="description" content="{(str_contains($content, PHP_EOL) == True) ? substr($content, 0, strpos($content, PHP_EOL)-1) : $content;}"> 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=oLBEjaJ9ag">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=oLBEjaJ9ag">
@@ -23,10 +24,11 @@
     <!-- OpenGraph -->
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:title" content="ScummVM">
-    <meta property="og:description" content="ScummVM is a collection of game engines for playing classic graphical RPGs and point-and-click adventure games on modern hardware.">
-    <meta property="og:url" content="{'https://www.scummvm.org'|lang}">
+    <meta property="og:title" content="{$title} :: {$content_title}">
+    <meta property="og:description" content="{(str_contains($content, PHP_EOL) == True) ? substr($content, 0, strpos($content, PHP_EOL)-1) : $content;}">
+    <meta property="og:url" content="{$baseurl}{$pageurl}">
     <meta property="og:image" content="https://www.scummvm.org/images/og-image.jpg">
+    <link rel="canonical" href="{$baseurl}{$pageurl}" />
     <!-- Translations -->
     {foreach from=$available_languages key=key item=item}
     {if $lang != $key}
