@@ -1,0 +1,19 @@
+---
+title: “Your move, Commander.”
+author: LittleToonCat
+date: 1720041483
+---
+
+_Moonbase Commander_, one of the very last games ever created in the SCUMM engine, is now finally supported and ready for public testing!
+
+Although not an adventure game, _Moonbase Commander_, developed by Humongous Entertainment (creators of _Putt-Putt_, _Freddi Fish_, _Pajama Sam_, _Backyard Sports_, etc.) is a turn-based strategy game that isn’t like any other strategy games at its time.  The main objective is to prevent your opponents from taking over a planet before you can.  Its unique aim, timing of your power, and launch aspect makes this one of the most “easy-to-learn, hard-to-master” type games.  You can easily spawn other hubs from your central hub, spawn collectors at the energy pools, fire projectiles at your opponents’ hubs, the list goes on!  It even has a custom map editor, which allows you to create your own maps and share them with other players!
+
+Even though the game can be played via single player Skirmishes and Challenge mode, you can also play multiplayer games either with other people online, or through other devices connected to your Local Area Network, both of which are fully supported!  Just click on Multiplayer in the game’s menu and you can create a game and let your friends join!  Easy as that!
+
+Tired of playing the same maps over and over again?  We have incorporated the map generator from the popular fanmade tool [Moonbase Console](https://github.com/michaelbarlow7/moonbase-console) and all of its algorithms and configurations within ScummVM!  You can enable this feature by downloading the latest [daily build](https://scummvm.org/downloads/#daily), go to the Game Options dialog and click on the “Generate random maps” checkbox.  This will generate a new randomized map when starting a Skirmish or a Multiplayer game.  This can be disabled at any time by unchecking the same checkmark.
+
+Dedicated players have organized a Discord server, where you can find people willing to play online and discuss all things _Moonbase Commander_!  [You can join the server here!](https://discord.gg/6J8c7XW)
+
+You can purchase the game on [ZOOM-Platform](https://www.zoom-platform.com/product/moonbase-commander?affiliate=c049516c-9c4c-42d6-8649-92ed870e8b53), [Steam](https://store.steampowered.com/app/254880/MoonBase_Commander/), or [GOG](https://www.gog.com/en/game/moonbase_commander), or download and try the [demo](https://downloads.scummvm.org/frs/demos/scumm/he/moonbase-win-demo-us.zip), both multiplayer and the map generator are supported there as well!
+
+Many thanks to the current IP holder [Rebellion](https://rebellion.com/) for providing access to the game’s source code to the team!
