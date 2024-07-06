@@ -620,20 +620,20 @@
         "content": "A los desarrolladores de ScummVM les complace anunciaros que hoy el clásico Discworld/Mundodisco tiene soporte completo para el [Music Enhancement Project de James Woodcock](http://www.jameswoodcock.co.uk/?page_id=54) en la compilación para desarrolladores. Este proyecto comenzó allá por enero de 2006, cuando [James Woodcock](http://www.jameswoodcock.co.uk) decidió utilizar los archivos MIDI originales de varias aventuras point-and-click para crear versiones mejoradas con instrumentos MIDI modernos. Ya ha publicado su versión de [Simon the Sorcerer](http://www.jameswoodcock.co.uk/?p=956) y ahora puede añadir a Mundodisco a su lista de proyectos acabados:\n\n*«Me he esforzado mucho por ser fiel a las excelentes creaciones originales de los compositores»,* declaró James Woodcock, creador del ScummVM Music Enhancement Project (proyecto de mejora musical de ScummVM), *«ha habido mucho apoyo e interés por parte de los fans de Mundodisco, que han estado muy pendientes de los avances, y tengo el placer de poder jugar por fin a Mundodisco con las versiones nuevas de la banda sonora original, y muchísimas gracias a los desarrolladores de ScummVM por todo el esfuerzo que han dado a hacerlo posible».*\n\nJames utiliza el [teclado Yamaha Tyros2](http://www.yamahapkowner.com/?page_id=93), conectado a su ordenador por USB, y tras ajustar, grabar y editar es cuando se termina una pista de música. \n\nCon el permiso del mismísimo legendario escritor [Terry Pratchett](http://www.jameswoodcock.co.uk/?p=796), la (versión 2.0) de la banda sonora mejorada de Mundodisco se publicará en su totalidad y será compatible con ScummVM en un futuro, cuando esperamos que se libere la versión «freeware» para que el público pueda volver a disfrutar del juego."
     },
     "20090117": {
-        "title": "",
-        "content": ""
+        "title": "Probando, probando...",
+        "content": "Es la hora de anunciar el comienzo de nuestro periodo de pruebas prelanzamiento. La próxima versión de ScummVM os traerá compatibilidad para varios juegos nuevos, como de costumbre.\n\nLos juegos añadidos son: *Blue's 123 Time Activities*, *Blue's ABC Time Activities*, *Bud Tucker in Double Trouble* y *The 7th Guest*. El procedimiento no ha cambiado, como siempre, necesitaréis una [compilación diaria](/downloads/#daily) de ScummVM, pasar por todos estos juegos y enviar cualquier fallo que veáis por el camino al [gestor de fallos](http://bugs.scummvm.org/). Una vez os hayáis pasado los juegos, informad en el [hilo del foro](http://forums.scummvm.org/viewtopic.php?t=6773) para poder actualizar la [página de la wiki](http://wiki.scummvm.org/index.php/Release_Testing/0.13.0). Necesitaremos saber la versión del juego, su idioma y su plataforma."
     },
     "20090122": {
         "title": "ScummVM anuncia su entrada en el programa de afiliados de GOG.com",
         "content": "¿Os habéis preguntado constantemente dónde comprar juegos compatibles con ScummVM? ¿Tal vez os llegarais a preguntar también cómo podéis ayudar al proyecto?\n\nPodríais encontrar los juegos compatibles o bien en nuestra [página de descargas](/downloads/), o en la página [«Where to buy games (dónde comprar juegos)»](http://wiki.scummvm.org/index.php/Where_to_buy_games) de nuestra wiki. Desde hace tiempo hemos tenido un [botón de PayPal](https://sourceforge.net/donate/index.php?group_id=37116) como forma de ayudar al proyecto.\n\n¡Pero ahora podéis conseguir las dos cosas a la vez!\n\nNos complace anunciaros el inicio de un programa de afiliación con el excelente servicio [Good Old Games](http://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d), también conocido como GOG.com. Con solo hacer clic en su botón de la barra lateral podréis acceder a su página. Registraos allí y comprad algún que otro juego. Conseguiréis vuestro juego de forma rápida, barata y legal mientras el proyecto ScummVM se llevará un porcentaje de los beneficios.\n\nEl principal motivo tras esta decisión es que [GOG.com](http://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) utiliza ScummVM para varios de sus títulos en oferta. Ahora mismo ofrecen *Broken Sword 2*, *Simon the Sorcerer 1*, *Simon the Sorcerer 2*, *The Feeble Files*, *Waxworks*, así como algunos de los juegos gratuitos que también distribuimos. Cada versión viene acompañada de ScummVM, no lleva protecciones anticopia (DRM), cuesta solo 5,99 $ y lo más importante: es completamente legal, ya que esta gente se pone en contacto con los propietarios originales de los derechos.\n\nAsí que estad atentos a su página web, [comprad](http://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) los juegos y ayudad a nuestro proyecto.\n\n***P.D.:*** Solo nos darán dinero si hacéis clic en el botón indicado y os registráis en un breve periodo de tiempo."
     },
     "20090215": {
-        "title": "",
-        "content": ""
+        "title": "Se ha fusionado la implementación del motor SCI FreeSCI",
+        "content": "Sí, es cierto. El código de FreeSCI ahora reside en engines/sci.\n\nLos usuarios más observadores que están atentos a nuestra lista de desarrollo se habrán dado cuenta de que existe otra implementación del motor SCI1 hecha de cero. Pero, para beneficio de todos, se ha decidido que lo mejor es unir esfuerzos.\n\nPor supuesto, no esperéis que haga magia. Para empezar, el motor todavía no ha sido anunciado como compatible. Se encuentra en las fases iniciales de su integración. Segundo, deberíais tener en cuenta que una vez se haya terminado la fusión, solo se dará compatibilidad a los juegos hechos con SCI0, SCI01 y SCI1. Sin embargo, ya que algunos de los desarrolladores de ScummVM llevan un tiempo interesados en trabajar con SCI, tenemos ganas de acelerar los trabajos en el motor.\n\nMientras tanto, os rogamos que nos ayudéis a seguir [probando](http://forums.scummvm.org/viewtopic.php?t=6773) la versión 0.13.0."
     },
     "20090228": {
-        "title": "",
-        "content": ""
+        "title": "ScummVM 0.13.0 «Más invitados» entra en casa",
+        "content": "Con el cambio a un ciclo de lanzamiento semestral, ¡[aquí tenéis](/downloads/) nuestra mejor versión de ScummVM!\n\nHemos añadido un par de motores nuevos y, además de dos juegos de Humongous Entertainment, ahora damos soporte a *The 7th Guest* y a *Bud Tucker in Double Trouble*.\n\nEn otras cosas a destacar, tenemos una interfaz vectorial completamente nueva, que es un trabajo fusionado de Vicent Marti, alumno del GSoC del año pasado, así como un menú principal general que añade una interfaz de guardado y carga común a la mayoría de nuestros motores, así como la esperadísima opción «Volver al lanzador». Este ha sido el trabajo de otro estudiante de éxito, Chris Page.\n\nPodéis encontrar la lista completa de juegos y características nuevas en las [notas de lanzamiento](https://downloads.scummvm.org/frs/scummvm/0.13.0/ReleaseNotes) y la última versión de ScummVM (disponible para un gran número de plataformas, como de costumbre) se encuentra en la [página de descargas](/downloads/).\n\n¡A jugar!"
     },
     "20090307": {
         "title": "",
@@ -732,7 +732,7 @@
         "content": ""
     },
     "20100222": {
-        "title": "",
+        "title": "¡Las pruebas para la versión 1.1.0 de ScummVM han llegado!",
         "content": ""
     },
     "20100318": {
@@ -756,7 +756,7 @@
         "content": ""
     },
     "20100725": {
-        "title": "",
+        "title": "Pruebas prelanzamiento de SCI",
         "content": ""
     },
     "20100828": {
@@ -764,11 +764,11 @@
         "content": ""
     },
     "20100912": {
-        "title": "",
+        "title": "Ha llegado la hora de las pruebas de la versión 1.2.0 de ScummVM",
         "content": ""
     },
     "20101015": {
-        "title": "",
+        "title": "¡Ya está aquí ScummVM 1.2.0 «Un lanzamiento faSCInante»!",
         "content": ""
     },
     "20101219": {
@@ -836,7 +836,7 @@
         "content": ""
     },
     "20111121": {
-        "title": "",
+        "title": "Música mejorada de Beneath a Steel Sky publicada por James Woodcock para ScummVM",
         "content": ""
     },
     "20111126": {
@@ -1276,8 +1276,8 @@
         "title": "*Blade Runner* (1997) de Westwood está finalmente disponible a la venta en copia digital"
     },
     "20200131": {
-        "title": "Liberada la versión 2.1.1 «:More Sheep:» de ScummVM",
-        "content": "Después de un breve descanso, el equipo de ScummVM se complace en anunciar el lanzamiento de una corrección de errores para la serie 2.1 de ScummVM 2.1.1, con el nombre en clave “:More Sheep:”.\n\nEste lanzamiento contiene una cantidad sustancial de correcciones y pequeñas mejoras. Las más notables son: mejor soporte multidioma en la interfaz gráfica, mejoras en el audio de FM TOWNS/PC-98, optimizaciones en el almacenamiento en la nube, dos docenas de correcciones de script SCI, mejoras en Blade Runner y correcciones en otros 7 motores. Además, este es el primer lanzamiento con soporte oficial para la Nintendo 3DS y hemos añadido soporte en la nube para Nintendo Switch.\n\nPara obtener una lista más completa de los cambios, consulta las [Notas de la versión](https://downloads.scummvm.org/frs/scummvm/2.1.1/ReleaseNotes.html).\n\nComo siempre, el conjunto de ejecutables preconstruidos se puede encontrar en nuestra [página de descargas](/downloads/).\n\n¡Disfruta y diviértete!"
+        "title": "Liberada la versión 2.1.1 «:Más ovejas:» de ScummVM",
+        "content": "Después de un breve descanso, el equipo de ScummVM se complace en anunciar el lanzamiento de una corrección de errores para la serie 2.1 de ScummVM 2.1.1, con el nombre en clave “:Más ovejas:”.\n\nEste lanzamiento contiene una cantidad sustancial de correcciones y pequeñas mejoras. Las más notables son: mejor soporte multidioma en la interfaz gráfica, mejoras en el audio de FM TOWNS/PC-98, optimizaciones en el almacenamiento en la nube, dos docenas de correcciones de script SCI, mejoras en Blade Runner y correcciones en otros 7 motores. Además, este es el primer lanzamiento con soporte oficial para la Nintendo 3DS y hemos añadido soporte en la nube para Nintendo Switch.\n\nPara obtener una lista más completa de los cambios, consulta las [Notas de la versión](https://downloads.scummvm.org/frs/scummvm/2.1.1/ReleaseNotes.html).\n\nComo siempre, el conjunto de ejecutables preconstruidos se puede encontrar en nuestra [página de descargas](/downloads/).\n\n¡Disfruta y diviértete!"
     },
     "20200222": {
         "title": "¡El GSoC 2020 está en camino!",
