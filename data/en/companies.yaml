@@ -212,6 +212,10 @@
     name: 'Canal Multimedia'
     alt_name: ''
 -
+    id: canter
+    name: 'Canter Technology'
+    alt_name: ''
+-
     id: capstone
     name: 'Capstone Software'
     alt_name: ''
@@ -226,6 +230,10 @@
 -
     id: channel8
     name: 'Channel 8 Software'
+    alt_name: ''
+-
+    id: ciberspace
+    name: ciberspace
     alt_name: ''
 -
     id: cityint
@@ -330,6 +338,10 @@
 -
     id: destiny
     name: 'Destiny Software'
+    alt_name: ''
+-
+    id: dgarrity
+    name: 'Devin Garrity'
     alt_name: ''
 -
     id: digitaldreams
@@ -540,6 +552,10 @@
     name: Gugames
     alt_name: ''
 -
+    id: guilherme
+    name: Guilherme
+    alt_name: ''
+-
     id: harvester
     name: 'Harvester Games'
     alt_name: ''
@@ -566,6 +582,10 @@
 -
     id: himalaya
     name: 'Himalaya Studios'
+    alt_name: ''
+-
+    id: hjuhlin
+    name: 'Hampus Juhlin'
     alt_name: ''
 -
     id: hofmeier
@@ -792,6 +812,10 @@
     name: Maxis
     alt_name: ''
 -
+    id: mcorompt
+    name: 'Martine Corompt'
+    alt_name: ''
+-
     id: mdna
     name: 'MDNA Games'
     alt_name: ''
@@ -860,12 +884,20 @@
     name: 'Monkeystone Games'
     alt_name: ''
 -
+    id: mpcernea
+    name: 'Mihai Puiu Cernea'
+    alt_name: ''
+-
     id: mpe
     name: 'MP Entertainment'
     alt_name: ''
 -
     id: mpslabs
     name: 'MPS Labs'
+    alt_name: ''
+-
+    id: mseddas
+    name: 'Mathieu Seddas'
     alt_name: ''
 -
     id: mythos
@@ -878,6 +910,10 @@
 -
     id: nayma
     name: 'Nayma Software'
+    alt_name: ''
+-
+    id: negator2vc
+    name: 'Vasilis Chonianakis'
     alt_name: ''
 -
     id: nemoria
@@ -1012,12 +1048,20 @@
     name: 'Rainbird Software'
     alt_name: ''
 -
+    id: raydunakin
+    name: 'Ray Dunakin'
+    alt_name: ''
+-
     id: reactorinc
     name: 'Reactor Inc.'
     alt_name: ''
 -
     id: rebellion
     name: Rebellion
+    alt_name: ''
+-
+    id: rthonen
+    name: 'Renzo Thönen'
     alt_name: ''
 -
     id: reunionmusee
@@ -1058,6 +1102,10 @@
 -
     id: rskent
     name: 'RSK Entertainment'
+    alt_name: ''
+-
+    id: rtcherniy
+    name: 'Ruslan Tcherniy'
     alt_name: ''
 -
     id: rudowski
@@ -1180,6 +1228,10 @@
     name: 'Svarun Entertainment'
     alt_name: ''
 -
+    id: syn9
+    name: 'Daniel Kennedy'
+    alt_name: Syn9
+-
     id: synergy
     name: 'Synergy Inc.'
     alt_name: ''
@@ -1216,6 +1268,10 @@
     name: 'The Learning Company'
     alt_name: ''
 -
+    id: tmlediton
+    name: 'TML-Edition OHG'
+    alt_name: ''
+-
     id: tomahawk
     name: Tomahawk
     alt_name: ''
@@ -1248,8 +1304,12 @@
     name: Trilobyte
     alt_name: ''
 -
-    id: tsdinge
-    name: 'Thomas & Steffen Dinge'
+    id: trumgottist
+    name: 'Trumgottist Entertainment'
+    alt_name: ''
+-
+    id: tsdingel
+    name: 'Thomas & Steffen Dingel'
     alt_name: ''
 -
     id: tsunami

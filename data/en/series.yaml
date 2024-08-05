@@ -273,6 +273,9 @@
     id: texmurphy
     name: 'Tex Murphy'
 -
+    id: totaleclipse
+    name: 'Total Eclipse'
+-
     id: transylvania
     name: Transylvania
 -

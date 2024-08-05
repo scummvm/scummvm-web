@@ -20,7 +20,7 @@
     company_id: access
     year: '1991'
     moby_id: '222'
-    steam_id: ''
+    steam_id: '302340'
     gog_id: ''
     zoom_id: ''
     additional_stores: ''
@@ -1083,7 +1083,7 @@
     engine_id: ags
     company_id: crystalshard
     year: '2016'
-    moby_id: ''
+    moby_id: '214265'
     steam_id: '551840'
     gog_id: ''
     zoom_id: ''
@@ -1393,7 +1393,7 @@
     year: '2013'
     moby_id: '62486'
     steam_id: '283880'
-    gog_id: ''
+    gog_id: heroines_quest_the_herald_of_ragnarok
     zoom_id: ''
     additional_stores: "- [Developer's Website](https://www.crystalshard.net/)"
     datafiles: Heroine%27s_Quest
@@ -2954,6 +2954,48 @@
     wikipedia_page: Versailles_1685
     series_id: ''
 -
+    id: 'dgds:beamish'
+    name: 'The Adventures of Willy Beamish'
+    engine_id: dgds
+    company_id: dynamix
+    year: '1991'
+    moby_id: '1916'
+    steam_id: ''
+    gog_id: the_adventures_of_willy_beamish
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: The_Adventures_of_Willy_Beamish
+    series_id: ''
+-
+    id: 'dgds:china'
+    name: 'Heart of China'
+    engine_id: dgds
+    company_id: dynamix
+    year: '1991'
+    moby_id: '164'
+    steam_id: ''
+    gog_id: heart_of_china
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Heart_of_China
+    series_id: ''
+-
+    id: 'dgds:rise'
+    name: 'Rise of the Dragon'
+    engine_id: dgds
+    company_id: dynamix
+    year: '1990'
+    moby_id: '98'
+    steam_id: ''
+    gog_id: rise_of_the_dragon
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Rise_of_the_Dragon
+    series_id: ''
+-
     id: 'director:alice'
     name: 'Alice: An Interactive Museum'
     engine_id: director
@@ -3041,7 +3083,7 @@
     id: 'director:cutemachine'
     name: 'The Cute Machine'
     engine_id: director
-    company_id: unknown
+    company_id: mcorompt
     year: '1997'
     moby_id: ''
     steam_id: ''
@@ -3063,7 +3105,7 @@
     zoom_id: ''
     additional_stores: ''
     datafiles: ''
-    wikipedia_page: 'The Dark Eye (video game)'
+    wikipedia_page: The_Dark_Eye_(video_game)
     series_id: ''
 -
     id: 'director:director'
@@ -3503,7 +3545,7 @@
     id: 'director:mediaband'
     name: 'Meet Mediaband'
     engine_id: director
-    company_id: unknown
+    company_id: canter
     year: '1995'
     moby_id: '-1'
     steam_id: ''
@@ -3820,7 +3862,7 @@
     additional_stores: ''
     datafiles: Total_Eclipse
     wikipedia_page: Total_Eclipse_(1988_video_game)
-    series_id: ''
+    series_id: totaleclipse
 -
     id: 'freescape:totaleclipse2'
     name: 'Total Eclipse 2'
@@ -3834,7 +3876,7 @@
     additional_stores: ''
     datafiles: Total_Eclipse
     wikipedia_page: Total_Eclipse_(1988_video_game)
-    series_id: ''
+    series_id: totaleclipse
 -
     id: 'glk:adrift'
     name: 'ADRIFT Interactive Fiction games'
@@ -4931,7 +4973,7 @@
     id: 'griffon:griffon'
     name: 'The Griffon Legend'
     engine_id: griffon
-    company_id: fan
+    company_id: syn9
     year: '2005'
     moby_id: '-1'
     steam_id: ''
@@ -5633,7 +5675,7 @@
     engine_id: mm
     company_id: nwc
     year: '1995'
-    moby_id: '-1'
+    moby_id: '3823'
     steam_id: ''
     gog_id: might_and_magic_6_limited_edition
     zoom_id: ''
@@ -8753,7 +8795,7 @@
     id: 'sludge:cubert'
     name: 'Cubert Badbone, P.I.'
     engine_id: sludge
-    company_id: deirdrakiai
+    company_id: squinky
     year: '2003'
     moby_id: '24279'
     steam_id: ''
@@ -8767,7 +8809,7 @@
     id: 'sludge:frasse'
     name: 'Frasse and the Peas of Kejick'
     engine_id: sludge
-    company_id: unknown
+    company_id: trumgottist
     year: '2006'
     moby_id: '33462'
     steam_id: ''
@@ -8781,9 +8823,9 @@
     id: 'sludge:interview'
     name: 'The Interview'
     engine_id: sludge
-    company_id: unknown
-    year: '2014'
-    moby_id: '71160'
+    company_id: squinky
+    year: '2005'
+    moby_id: '-1'
     steam_id: ''
     gog_id: ''
     zoom_id: ''
@@ -8795,7 +8837,7 @@
     id: 'sludge:life'
     name: 'Life Flashes By'
     engine_id: sludge
-    company_id: unknown
+    company_id: squinky
     year: '2010'
     moby_id: '50387'
     steam_id: ''
@@ -8809,7 +8851,7 @@
     id: 'sludge:mandy'
     name: 'Mandy Christmas Adventure'
     engine_id: sludge
-    company_id: unknown
+    company_id: aquin
     year: '2003'
     moby_id: '-1'
     steam_id: ''
@@ -8837,7 +8879,7 @@
     id: 'sludge:robinsrescue'
     name: "Robin's Rescue"
     engine_id: sludge
-    company_id: unknown
+    company_id: jbush
     year: '2015'
     moby_id: '-1'
     steam_id: ''
@@ -8865,7 +8907,7 @@
     id: 'sludge:tgttpoacs'
     name: 'The Game That Takes Place on a Cruise Ship'
     engine_id: sludge
-    company_id: deirdrakiai
+    company_id: squinky
     year: '2006'
     moby_id: '33841'
     steam_id: ''
@@ -8949,7 +8991,7 @@
     id: 'supernova:msn1'
     name: 'Mission Supernova 1'
     engine_id: supernova
-    company_id: tsdinge
+    company_id: tsdingel
     year: '1994'
     moby_id: '4582'
     steam_id: ''
@@ -8963,7 +9005,7 @@
     id: 'supernova:msn2'
     name: 'Mission Supernova 2'
     engine_id: supernova
-    company_id: tsdinge
+    company_id: tsdingel
     year: '1994'
     moby_id: '4582'
     steam_id: ''
@@ -9455,7 +9497,7 @@
     engine_id: twp
     company_id: terribletoybox
     year: '2017'
-    moby_id: ''
+    moby_id: '86210'
     steam_id: '569860'
     gog_id: thimbleweed_park
     zoom_id: ''
@@ -9677,13 +9719,13 @@
     id: 'wage:afm'
     name: 'Another Fine Mess'
     engine_id: wage
-    company_id: unknown
+    company_id: raydunakin
     year: '1992'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     zoom_id: ''
-    additional_stores: ''
+    additional_stores: "- [Developer's Website](https://www.semitech.com/marc/ray.html)"
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -9691,13 +9733,13 @@
     id: 'wage:amot'
     name: "A Mess O' Trouble"
     engine_id: wage
-    company_id: unknown
+    company_id: raydunakin
     year: '1994'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     zoom_id: ''
-    additional_stores: ''
+    additional_stores: "- [Developer's Website](https://www.semitech.com/marc/ray.html)"
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -9705,7 +9747,7 @@
     id: 'wage:cantitoe'
     name: 'Camp Cantitoe'
     engine_id: wage
-    company_id: unknown
+    company_id: dgarrity
     year: '1990'
     moby_id: '-1'
     steam_id: ''
@@ -9733,13 +9775,13 @@
     id: 'wage:raysmaze'
     name: "Ray's Maze"
     engine_id: wage
-    company_id: unknown
+    company_id: raydunakin
     year: '1990'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
     zoom_id: ''
-    additional_stores: ''
+    additional_stores: "- [Developer's Website](https://www.semitech.com/marc/ray.html)"
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -9747,7 +9789,7 @@
     id: 'wage:scepters'
     name: 'Enchanted Scepters'
     engine_id: wage
-    company_id: unknown
+    company_id: siliconbeach
     year: '1985'
     moby_id: '29350'
     steam_id: ''
@@ -9761,13 +9803,13 @@
     id: 'wage:twisted'
     name: Twisted!
     engine_id: wage
-    company_id: unknown
+    company_id: raydunakin
     year: '1997'
-    moby_id: '-1'
+    moby_id: '150714'
     steam_id: ''
     gog_id: ''
     zoom_id: ''
-    additional_stores: ''
+    additional_stores: "- [Developer's Website](https://www.semitech.com/marc/ray.html)"
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -9775,7 +9817,7 @@
     id: 'wage:wage'
     name: WAGE
     engine_id: wage
-    company_id: unknown
+    company_id: siliconbeach
     year: ''
     moby_id: '-1'
     steam_id: ''
@@ -9839,6 +9881,20 @@
     zoom_id: ''
     additional_stores: ''
     datafiles: Boredom_of_Agustin_Cordes
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'wintermute:alavi'
+    name: 'Alavi Detective - Murder of Miss Rojan'
+    engine_id: wintermute
+    company_id: unknown
+    year: ''
+    moby_id: '-1'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
     wikipedia_page: ''
     series_id: ''
 -
@@ -10181,7 +10237,7 @@
     id: 'wintermute:colorsoncanvas'
     name: 'Colors on Canvas'
     engine_id: wintermute
-    company_id: unknown
+    company_id: mpcernea
     year: '2015'
     moby_id: '-1'
     steam_id: ''
@@ -10195,7 +10251,7 @@
     id: 'wintermute:conspiracao'
     name: 'Conspiração Dumont'
     engine_id: wintermute
-    company_id: unknown
+    company_id: guilherme
     year: '2007'
     moby_id: '-1'
     steam_id: ''
@@ -10309,7 +10365,7 @@
     engine_id: wintermute
     company_id: pnc
     year: '2017'
-    moby_id: '-1'
+    moby_id: '200600'
     steam_id: '574420'
     gog_id: ''
     zoom_id: ''
@@ -10363,7 +10419,7 @@
     id: 'wintermute:driller'
     name: 'The Driller Incident'
     engine_id: wintermute
-    company_id: unknown
+    company_id: rtcherniy
     year: '2010'
     moby_id: '-1'
     steam_id: ''
@@ -10391,7 +10447,7 @@
     id: 'wintermute:escapemansion'
     name: 'Escape from the Mansion'
     engine_id: wintermute
-    company_id: fan
+    company_id: negator2vc
     year: '2012'
     moby_id: '-1'
     steam_id: ''
@@ -10475,7 +10531,7 @@
     id: 'wintermute:four'
     name: Four
     engine_id: wintermute
-    company_id: unknown
+    company_id: hjuhlin
     year: '2011'
     moby_id: '-1'
     steam_id: ''
@@ -10741,7 +10797,7 @@
     id: 'wintermute:machumayu'
     name: 'Machu Mayu'
     engine_id: wintermute
-    company_id: unknown
+    company_id: mseddas
     year: '2015'
     moby_id: '-1'
     steam_id: ''
@@ -10755,7 +10811,7 @@
     id: 'wintermute:mentalrepairs'
     name: 'Mental Repairs, Inc.'
     engine_id: wintermute
-    company_id: unknown
+    company_id: rthonen
     year: '2008'
     moby_id: '46212'
     steam_id: ''
@@ -11231,7 +11287,7 @@
     id: 'wintermute:spaceinvaders'
     name: 'Space Invaders'
     engine_id: wintermute
-    company_id: unknown
+    company_id: ciberspace
     year: '1999'
     moby_id: '623'
     steam_id: ''
@@ -11253,6 +11309,20 @@
     zoom_id: ''
     additional_stores: '- [Itch.io](https://spreadcamp.itch.io/space-madness)'
     datafiles: Space_Madness
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'wintermute:sunrise'
+    name: 'Sunrise: The Game'
+    engine_id: wintermute
+    company_id: tmlediton
+    year: '2008'
+    moby_id: '44658'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
     wikipedia_page: ''
     series_id: ''
 -

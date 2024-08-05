@@ -98,7 +98,7 @@
     version: '2'
     url: /frs/demos/director/theapartment2.zip
 -
-    id: system7smash
+    id: 'director:system7smash'
     platform: mac
     lang: en
     title: 'System 7 is a SMASH!'
@@ -4077,7 +4077,7 @@
     id: 'director:ss102dalmations'
     platform: win
     lang: en
-    title: '102 Dalmations Screen Saver'
+    title: '102 Dalmatians Screen Saver'
     version: '8'
     url: /frs/demos/director/d8/en/ss102dalmations-win.zip
 -

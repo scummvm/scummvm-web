@@ -5616,6 +5616,15 @@
     language3: ''
     url: /frs/demos/voyeur/voyeur-dos-demo-en.zip
 -
+    id: 'wintermute:alavi'
+    platform: win
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/wintermute/informer_alavi-demo-beta.zip
+-
     id: 'wintermute:alphapolaris'
     platform: win
     '': ''
@@ -5913,6 +5922,15 @@
     language3: ''
     url: /frs/demos/wintermute/space_madness-demo-en.zip
 -
+    id: 'wintermute:sunrise'
+    platform: win
+    '': ''
+    category: German
+    language: de
+    language2: ''
+    language3: ''
+    url: /frs/demos/wintermute/sunrise_the_game-demo-de.zip
+-
     id: 'wintermute:tradestory'
     platform: win
     '': ''
@@ -5921,24 +5939,6 @@
     language2: ''
     language3: ''
     url: /frs/demos/wintermute/trader_of_stories-demo-en.zip
--
-    id: 'wintermute:wintermute'
-    platform: win
-    '': ''
-    category: 'Alavi Detective - Murder of Miss Rojan'
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/wintermute/informer_alavi-demo-beta.zip
--
-    id: 'wintermute:wintermute'
-    platform: win
-    '': ''
-    category: 'Sunrise: The game (German)'
-    language: de
-    language2: ''
-    language3: ''
-    url: /frs/demos/wintermute/sunrise_the_game-demo-de.zip
 -
     id: 'wintermute:wmedemo'
     platform: win
