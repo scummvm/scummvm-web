@@ -476,8 +476,8 @@
     category_icon: android
     user_agent: ''
     version: 2.8.1
-    url: 'scummvm-{$version}-android-arm-v7a.apk'
-    name: 'Android ARMv7a package'
+    url: scummvm-2.8.1.1-android-arm-v7a.apk
+    name: 'Android ARMv7a package (Version 2.8.1.1)'
     notes: ''
 -
     enabled: true
@@ -486,8 +486,8 @@
     category_icon: android
     user_agent: ''
     version: 2.8.1
-    url: 'scummvm-{$version}-android-arm64-v8a.apk'
-    name: 'Android ARM64v8a package'
+    url: scummvm-2.8.1.1-android-arm64-v8a.apk
+    name: 'Android ARM64v8a package (Version 2.8.1.1)'
     notes: ''
 -
     enabled: true
@@ -496,8 +496,8 @@
     category_icon: android
     user_agent: ''
     version: 2.8.1
-    url: 'scummvm-{$version}-android-x86.apk'
-    name: 'Android x86 32bit package'
+    url: scummvm-2.8.1.1-android-x86.apk
+    name: 'Android x86 32bit package (Version 2.8.1.1)'
     notes: ''
 -
     enabled: true
@@ -506,8 +506,8 @@
     category_icon: android
     user_agent: ''
     version: 2.8.1
-    url: 'scummvm-{$version}-android-x86_64.apk'
-    name: 'Android x86 64bit package'
+    url: scummvm-2.8.1.1-android-x86_64.apk
+    name: 'Android x86 64bit package (Version 2.8.1.1)'
     notes: ''
 -
     enabled: true
