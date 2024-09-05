@@ -22,7 +22,7 @@ class FeedsPage extends Controller
     /* Display the index page. */
     public function index($args)
     {
-        $feed = $args['type'];
+        $feed = isset($args['type']) ? $args['type'] : '';
         if ($feed == 'atom') {
             $template = $this->template_atom;
         } else {
