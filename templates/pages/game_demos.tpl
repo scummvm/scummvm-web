@@ -5,7 +5,7 @@
     <div class="navigation col-1-2 col-md-1">
         <h4 class="subhead">{#gamesDemosHeading#}</h4>
         <ul>
-            {foreach $demos $group}
+            {foreach $demos as $group}
             <li><a href="{'/demos/'|lang}#{$group.href}">{$group.name}</a></li>
             {/foreach}
         </ul>

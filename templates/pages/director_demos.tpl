@@ -5,7 +5,7 @@
     <div class="navigation col-1-2 col-md-1">
         <h4 class="subhead">{#gamesDemosHeading#}</h4>
         <ul>
-            {foreach $demos $group}
+            {foreach $demos as $group}
             <li><a href="{'/demos/director'|lang}#{$group.href}">{$group.name}</a></li>
             {/foreach}
         </ul>
@@ -39,7 +39,7 @@
             {/if}
             <tr class="{if $collapse}{$collapse} sub{else}{cycle values="color2, color0"}{/if}">
                 <td>
-                    <a href="{$demo->getURL()|download}">{$demo->getTitle()} ({\locale_get_display_language($demo->getLang(), $lang)}/{$demo->getPlatform()->getName()})</a>
+                    <a href="{$demo->getURL()|download}">{$demo->getTitle()} ({locale_get_display_language($demo->getLang(), $lang)}/{$demo->getPlatform()->getName()})</a>
                 </td>
                 <td class="gameTarget">{$demo->getId()}</td>
             </tr>
