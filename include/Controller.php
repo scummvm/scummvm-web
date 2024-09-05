@@ -1,7 +1,7 @@
 <?php
 namespace ScummVM;
 
-use Smarty;
+use Smarty\Smarty;
 use ScummVM\Models\SimpleYamlModel;
 
 /**
@@ -56,6 +56,14 @@ class Controller
         $this->smarty->registerPlugin('modifier', 'lang', array(&$this, 'langModifier'));
         $this->smarty->registerPlugin('modifier', 'download', array(&$this, 'downloadsSmartyModifier'));
         $this->smarty->registerPlugin('modifier', 'release', array(&$this, 'releaseSmartyModifier'));
+
+        /* Register PHP functions used by pages */
+        $this->smarty->registerPlugin('modifier', 'htmlspecialchars', '\htmlspecialchars');
+        $this->smarty->registerPlugin('modifier', 'locale_get_display_language', '\locale_get_display_language');
+        $this->smarty->registerPlugin('modifier', 'preg_replace', '\preg_replace');
+        $this->smarty->registerPlugin('modifier', 'rand', '\rand');
+        $this->smarty->registerPlugin('modifier', 'str_contains', '\str_contains');
+        $this->smarty->registerPlugin('modifier', 'strpos', '\strpos');
 
         $this->css_files = array();
         $this->js_files = array();
