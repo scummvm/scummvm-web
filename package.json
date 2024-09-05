@@ -3,10 +3,10 @@
   "description": "ScummVM.org main site",
   "version": "1.0.0",
   "dependencies": {
-    "autoprefixer": "^10.3.2",
+    "autoprefixer": "^10.4.20",
     "dumper-companion": "file:dumper-companion",
-    "postcss": "^8.4.31",
-    "sass": "1.38.1"
+    "postcss": "^8.4.45",
+    "sass": "1.78.0"
   },
   "scripts": {
     "postinstall": "cd dumper-companion && npm run build && cd .. && node build.js",
