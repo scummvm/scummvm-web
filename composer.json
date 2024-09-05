@@ -11,21 +11,21 @@
   "require": {
     "php": ">=8.2.0",
     "ext-intl": "*",
-    "smarty/smarty": "^4.1.0",
+    "smarty/smarty": "^5.4.1",
     "ezyang/htmlpurifier": "^4.10",
     "altorouter/altorouter": "^2.0",
-    "matomo/device-detector": "^6.1.1",
+    "matomo/device-detector": "^6.3.2",
     "spatie/yaml-front-matter": "^2.0",
     "erusev/parsedown": "^1.7",
     "phpfastcache/phpfastcache": "^9.1",
-    "league/csv": "^9.6",
-    "symfony/yaml": "^6.2",
+    "league/csv": "^9.16",
+    "symfony/yaml": "^7.1",
     "predis/predis": "^2.1",
-    "guzzlehttp/guzzle": "^7.2",
+    "guzzlehttp/guzzle": "^7.9",
     "propel/propel": "~2.0@dev"
   },
   "require-dev": {
-    "phpstan/phpstan": "^1.10.14",
+    "phpstan/phpstan": "^1.12.2",
     "squizlabs/php_codesniffer": "^3.4"
   },
   "suggest": {
