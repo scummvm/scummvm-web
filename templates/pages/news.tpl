@@ -17,7 +17,7 @@
 {/foreach}
 
 {* Only show the 'more news' link if we're on the main page *}
-{if is_bool($news_archive_link) && $news_archive_link}
+{if $news_archive_link === true}
 <p class="bottom-link">
     <span class="feeds float_left">
         <a href="{'/feeds/atom/'|lang}">Atom</a> |
