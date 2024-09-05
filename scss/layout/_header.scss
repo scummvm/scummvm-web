@@ -15,11 +15,12 @@
 
 	.bottom {
 		height: 29px;
+		border-radius: 8px 8px 0 0;
+		z-index: 100;
+
 		@include themify($themes) {
 			background: themed("wrapper-topper");
 		}
-		border-radius: 8px 8px 0 0;
-		z-index: 100;
 	}
 
 	.heroes {
@@ -32,16 +33,16 @@
 
 	.scummvm {
 		font-family: Trebuchet MS, sans-serif;
-		@include themify($themes) {
-			color: themed("header-text");
-		}
 		line-height: 19px;
-		@include responsive-font(1.4vw, 10px, 15px, 15px);
 		white-space: nowrap;
 		margin-right: 5px;
 		margin-top: 5px;
 		text-align: justify;
 		letter-spacing: 1.5px;
+		@include responsive-font(1.4vw, 10px, 15px, 15px);
+		@include themify($themes) {
+			color: themed("header-text");
+		}
 	}
 
 	.logo {

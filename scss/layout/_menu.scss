@@ -6,11 +6,12 @@ nav {
   direction: $direction;
   dl {
     border-radius: 8px;
+    z-index: 20;
+    margin: 8px 0 16px;
+
     @include themify($themes) {
       background: themed("menu-background");
     }
-    z-index: 20;
-    margin: 8px 0 16px;
     &::after {
       content: "";
       display: block;
@@ -19,12 +20,12 @@ nav {
       left: 4px;
       right: 10px;
       width: $nav-width - 14px;
-      @include themify($themes) {
-        background-color: themed("menu-shadow");
-      }
       height: 6px;
       z-index: -1;
       border-radius: 0 0 0 8px;
+      @include themify($themes) {
+        background-color: themed("menu-shadow");
+      }
     }
     &:last-child {
       margin-bottom: 0;
@@ -42,10 +43,10 @@ nav {
     }
   }
   a {
+    text-decoration: none;
     @include themify($themes) {
       color: themed("menu-link");
     }
-    text-decoration: none;
   }
   dl dd::first-letter {
     font-weight: 700;
@@ -58,10 +59,6 @@ nav {
   }
   dl {
     dt {
-      @include themify($themes) {
-        background: themed("menu-title-background");
-        color: themed("menu-title");
-      }
       font-weight: 700;
       border-radius: 8px 8px 0 0;
       background-clip: padding-box;
@@ -71,6 +68,11 @@ nav {
       text-align: $start-direction;
       line-height: 34px;
       margin-bottom: 4px;
+
+      @include themify($themes) {
+        background: themed("menu-title-background");
+        color: themed("menu-title");
+      }
     }
     dd {
       margin: 0;
@@ -103,16 +105,20 @@ nav {
     padding: 0;
     height: 100%;
     overflow-y: auto;
+    line-height: 50px;
+    font-size: 1.2em;
     @include themify($themes) {
       background: themed("menu-background");
     }
-    line-height: 50px;
-    font-size: 1.2em;
     a {
       line-height: 50px;
       font-size: 1.2em;
     }
     dl {
+      border-radius: 0;
+      box-shadow: unset;
+      margin: 0;
+      padding-bottom: 1px;
       dt {
         line-height: 50px;
         font-size: 1.2em;
@@ -127,10 +133,6 @@ nav {
         padding: 4px 8px 4px 19px;
         text-indent: unset;
       }
-      border-radius: 0;
-      box-shadow: unset;
-      margin: 0;
-      padding-bottom: 1px;
       dt {
         border-radius: 0;
         box-shadow: unset;

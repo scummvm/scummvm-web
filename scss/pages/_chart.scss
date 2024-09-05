@@ -6,13 +6,15 @@
     padding: 5px;
     width: 95%;
     display: block;
+
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+
     @include themify($themes) {
       background: themed("chart-caption-background");
       color: themed("chart-caption-header");
     }
-    font-weight: bold;
-    margin: 0 auto;
-    text-align: center;
   }
 }
 
@@ -23,19 +25,20 @@
   padding: 0;
   width: 95%;
   caption {
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 5px;
+
     @include themify($themes) {
       background: themed("chart-caption-background");
       color: themed("chart-caption-header");
     }
-    font-weight: bold;
-    margin: 0 auto;
-    padding: 5px;
   }
   a {
+    text-decoration: none;
     @include themify($themes) {
       color: themed("chart-link");
     }
-    text-decoration: none;
     &:hover {
       @include themify($themes) {
         color: lighten(themed("link"), 20%);
