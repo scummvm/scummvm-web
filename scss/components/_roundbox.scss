@@ -2,6 +2,12 @@
   margin: 8px;
   direction: $direction;
   > .header {
+    height: 28px;
+    border-radius: 8px 8px 0 0;
+    padding-#{$start-direction}: 18px;
+    // TODO: Extract font
+    font: bold large/1.4 "Trebuchet MS", Verdana, Tahoma, Sans-Serif;
+
     @include themify($themes) {
       background: themed("round-container-title-background");
       border-left: 1px solid themed("round-container-border");
@@ -10,21 +16,17 @@
       color: themed("round-container-header");
       text-shadow: 3px 0 1px themed("round-container-header-shadow");
     }
-    height: 28px;
-    border-radius: 8px 8px 0 0;
-    padding-#{$start-direction}: 18px;
-    // TODO: Extract font
-    font: bold large/1.4 "Trebuchet MS", Verdana, Tahoma, Sans-Serif;
   }
   > .content {
-    @include themify($themes) {
-      background: themed("round-container-background");
-      border: 1px solid themed("round-container-border");
-    }
     border-radius: 8px;
     margin: 0;
     padding: 8px;
     overflow: hidden;
+
+    @include themify($themes) {
+      background: themed("round-container-background");
+      border: 1px solid themed("round-container-border");
+    }
     &.text {
       padding-left: 16px;
     }

@@ -4,10 +4,10 @@ ul.downloads {
 		padding: 3px;
 	}
 	span.download-extras {
+		font-size: x-small;
 		@include themify($themes) {
 			color: themed("subscript");
 		}
-		font-size: x-small;
 	}
 	li.link {
 		margin-left: 1.5em;
@@ -29,14 +29,12 @@ ul.downloads {
 		float: left;
 		width: 100%;
 		padding: 15px;
-		@include themify($themes) {
-			color: themed("download-text");
-			border: 1px solid themed("download-text");
-		}
 		border-radius: 8px;
 		box-shadow: 0 0 10px $black;
 		text-decoration: none;
 		@include themify($themes) {
+			color: themed("download-text");
+			border: 1px solid themed("download-text");
 			$download-background: themed("download-background");
 			background: $download-background
 				linear-gradient(to bottom, lighten($download-background, 40%) 0%, $download-background 100%);

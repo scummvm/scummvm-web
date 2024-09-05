@@ -1,18 +1,19 @@
 .box {
 	margin: 8px;
+	direction: $direction;
 	@include themify($themes) {
 		border: 1px solid themed("container-border");
 	}
-	direction: $direction;
 	> .head {
-		@include themify($themes) {
-			background: themed("container-title-background");
-			color: themed("container-title");
-		}
 		min-height: 24px;
 		font-weight: bold;
 		padding: 4px;
 		width: 100%;
+
+		@include themify($themes) {
+			background: themed("container-title-background");
+			color: themed("container-title");
+		}
 		a {
 			text-decoration: none;
 			@include themify($themes) {
@@ -21,16 +22,18 @@
 		}
 	}
 	> .content {
+		padding: 8px;
+
 		@include themify($themes) {
 			background: themed("container-background");
 		}
-		padding: 8px;
 	}
 	.intro {
+		padding: 4px 8px 4px 5px;
+
 		@include themify($themes) {
 			background: themed("container-navigation-background");
 		}
-		padding: 4px 8px 4px 5px;
 
 		[class*="col-"] {
 			float: $start-direction;

@@ -3,21 +3,21 @@
 .navigation {
   padding: 0.5em 1.65em;
   a {
+    text-decoration: none;
+    padding: 5px;
     @include themify($themes) {
       color: themed("container-navigation-link");
     }
-    text-decoration: none;
-    padding: 5px;
   }
   ul {
     padding-left: 2em;
   }
   li {
+    list-style-type: $arrow;
+    margin: 0.5em auto;
     @include themify($themes) {
       color: themed("container-navigation-bullet");
     }
-    list-style-type: $arrow;
-    margin: 0.5em auto;
   }
 }
 
