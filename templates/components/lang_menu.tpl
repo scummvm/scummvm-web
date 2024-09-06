@@ -7,9 +7,9 @@
         {if $key != $lang}
             <dd>
                 {if $key == $smarty.const.DEFAULT_LOCALE}
-                    <span class="bullet"></span><a href="{$pageurl}">{$item}</a>
+                    <span class="bullet"></span><a href="/{$pageurl}">{$item}</a>
                 {else}
-                    <span class="bullet"></span><a href="/{$key}{$pageurl}">{$item}</a>
+                    <span class="bullet"></span><a href="/{$key}/{$pageurl}">{$item}</a>
                 {/if}
             </dd>
         {/if}
