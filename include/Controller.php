@@ -233,4 +233,19 @@ class Controller
     {
         return $this->smarty->getConfigVars($title);
     }
+
+    protected function getHeadline($body)
+    {
+        $headline = '';
+        for ($line = \strtok($body, PHP_EOL); $line !== false; $line = \strtok(PHP_EOL)) {
+            $line = \strip_tags($line);
+            $headline .= $line . ' ';
+            if (\strlen($headline) > 250) {
+                $headline = substr($headline, 0, 249);
+                $headline .= "\u{2026}";
+                break;
+            }
+        }
+        return $headline;
+    }
 }

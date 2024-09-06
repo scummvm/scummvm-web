@@ -23,6 +23,7 @@ class DirectorDemosPage extends Controller
         return $this->renderPage(
             array(
                 'title' => $this->getConfigVars('directorDemosTitle'),
+                'description' => $this->getConfigVars('gamesDemosContentP1'),
                 'content_title' => $this->getConfigVars('directorDemosContentTitle'),
                 'demos' => $demos,
             )

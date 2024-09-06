@@ -38,14 +38,19 @@ class NewsPage extends Controller
     {
         if ($filename == null) {
             $news_items = $this->newsModel->getAllNews();
-            $filename = 'archive';
+            $subtitle = null;
+            $description = $this->getConfigVars('introHeaderContentP1');
         } else {
             $news_items = array($this->newsModel->getOneByFilename($filename));
+            $subtitle = $news_items[0]->getTitle();
+            $description = htmlentities($this->getHeadline($news_items[0]->getContent()));
         }
 
         return $this->renderPage(
             array(
                 'title' => $this->getConfigVars('newsTitle'),
+                'subtitle' => $subtitle,
+                'description' => $description,
                 'content_title' => $this->getConfigVars('newsContentTitle'),
                 'show_intro' => false,
                 'news_items' => $news_items,
@@ -69,6 +74,7 @@ class NewsPage extends Controller
         return $this->renderPage(
             array(
                 'title' => $this->getConfigVars('newsTitle'),
+                'description' => $this->getConfigVars('introHeaderContentP1'),
                 'content_title' => $this->getConfigVars('newsContentTitle'),
                 'show_intro' => true,
                 'news_items' => $news_items,

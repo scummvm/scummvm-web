@@ -24,6 +24,7 @@ class LinksPage extends Controller
         return $this->renderPage(
             array(
                 'title' => $this->getConfigVars('linksTitle'),
+                // TODO: add a description
                 'content_title' => $this->getConfigVars('linksContentTitle'),
                 'links' => $links,
             )
