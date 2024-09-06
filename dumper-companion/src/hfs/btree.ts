@@ -59,10 +59,13 @@ export function dump_btree(buf: Uint8Array): Uint8Array[] {
     /* Walk an HFS B*-tree, returning an array of (key, value) tuples. */
 
     // Get the header node
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [ndFLink, ndBLink, ndType, ndNHeight, records] = _unpack_btree_node(buf, 0);
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [header_rec, unused_rec, map_rec] = records;
 
     // Ask about the header record in the header node
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [bthDepth, bthRoot, bthNRecs, bthFNode, bthLNode, bthNodeSize, bthKeyLen, bthNNodes, bthFree]
     = struct('>HLLLLHHLL').unpack_from(header_rec);
     // print('btree', bthDepth, bthRoot, bthNRecs, bthFNode, bthLNode, bthNodeSize, bthKeyLen, bthNNodes, bthFree)
@@ -71,6 +74,7 @@ export function dump_btree(buf: Uint8Array): Uint8Array[] {
     const res: Uint8Array[] = [];
     let this_leaf = bthFNode;
     while (true) {
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const [ndFLink, ndBLink, ndType, ndNHeight, records] = _unpack_btree_node(buf, 512*this_leaf);
 
         for (const record of records) {

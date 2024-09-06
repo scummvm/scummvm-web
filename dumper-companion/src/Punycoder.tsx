@@ -54,7 +54,7 @@ export default class Punycoder extends Component<Props, State> {
             this.setState({
                 text: unescapeString(punycode.decode(input))
             });
-        } catch (e) {
+        } catch /*(e)*/ {
             this.invalidPunycode();
         }
     }
