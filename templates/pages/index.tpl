@@ -25,8 +25,9 @@
     <meta property="og:image:height" content="630">
     <meta property="og:title" content="ScummVM">
     <meta property="og:description" content="ScummVM is a collection of game engines for playing classic graphical RPGs and point-and-click adventure games on modern hardware.">
-    <meta property="og:url" content="{'https://www.scummvm.org'|lang}">
+    <meta property="og:url" content="{$baseurl|lang}{$pageurl}">
     <meta property="og:image" content="https://www.scummvm.org/images/og-image.jpg">
+    <link rel="canonical" href="{$baseurl|lang}{$pageurl}" />
     <!-- Translations -->
     {foreach from=$available_languages key=key item=item}
     {if $lang != $key}
