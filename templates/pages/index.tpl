@@ -30,7 +30,7 @@
     <!-- Translations -->
     {foreach from=$available_languages key=key item=item}
     {if $lang != $key}
-    <link rel="alternate" hreflang="{$key}" href="{$baseurl}{$key}{$pageurl}">
+    <link rel="alternate" hreflang="{$key}" href="{$baseurl}{$key}/{$pageurl}">
     {/if}
     {/foreach}
     {* Cache bust CSS if making major changes *}
