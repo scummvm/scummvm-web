@@ -90,6 +90,8 @@ class CompatibilityPage extends Controller
         return $this->renderPage(
             array(
                 'title' => preg_replace('/{version}/', $version, $this->getConfigVars('compatibilityTitle')),
+                'subtitle' => $game->getGame()->getName(),
+                'description' => $this->getConfigVars('compatibilityIntro'),
                 'content_title' => preg_replace(
                     '/{version}/',
                     $version,
@@ -116,6 +118,7 @@ class CompatibilityPage extends Controller
         return $this->renderPage(
             [
                 'title' => preg_replace('/{version}/', $version, $this->getConfigVars('compatibilityTitle')),
+                'description' => $this->getConfigVars('compatibilityIntro'),
                 'content_title' => preg_replace(
                     '/{version}/',
                     $version,

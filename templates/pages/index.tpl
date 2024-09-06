@@ -8,7 +8,8 @@
     <base href="{$baseurl|lang}">
     <link rel="alternate" type="application/atom+xml" title="{#indexAtomFeed#}" href="{$baseurl|lang}/feeds/atom/">
     <link rel="alternate" type="application/rss+xml" title="{#indexRSSFeed#}" href="{$baseurl|lang}/feeds/rss/">
-    <title>ScummVM :: {$title}</title>
+    <title>ScummVM :: {$title}{if isset($subtitle)} :: {$subtitle}{/if}</title>
+    {if isset($description)}<meta name="description" content="{$description}">{/if}
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=oLBEjaJ9ag">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=oLBEjaJ9ag">
@@ -23,8 +24,8 @@
     <!-- OpenGraph -->
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:title" content="ScummVM">
-    <meta property="og:description" content="ScummVM is a collection of game engines for playing classic graphical RPGs and point-and-click adventure games on modern hardware.">
+    <meta property="og:title" content="ScummVM :: {$title}{if isset($subtitle)} :: {$subtitle}{/if}">
+    {if isset($description)}<meta property="og:description" content="{$description}">{/if}
     <meta property="og:url" content="{$baseurl|lang}{$pageurl}">
     <meta property="og:image" content="https://www.scummvm.org/images/og-image.jpg">
     <link rel="canonical" href="{$baseurl|lang}{$pageurl}" />

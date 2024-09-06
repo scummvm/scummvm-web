@@ -23,6 +23,7 @@ class GamesPage extends Controller
         return $this->renderPage(
             array(
                 'title' => $this->getConfigVars('gamesTitle'),
+                'description' => strip_tags($this->getConfigVars('gamesContentP1')),
                 'content_title' => $this->getConfigVars('gamesContentTitle'),
                 'downloads' => $downloads,
             )

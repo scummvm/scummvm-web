@@ -23,6 +23,7 @@ class DemosPage extends Controller
         return $this->renderPage(
             array(
                 'title' => $this->getConfigVars('demosTitle'),
+                'description' => $this->getConfigVars('gamesDemosContentP1'),
                 'content_title' => $this->getConfigVars('demosContentTitle'),
                 'demos' => $demos,
             )
