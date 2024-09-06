@@ -12,7 +12,7 @@ class FileUtils
     * Returns whether or not the file exists and is readable
     *
     * @param $path the path to the file that will be analyzed
-    * @return whether or not the file exists
+    * @return bool whether or not the file exists
     */
     public static function exists($path)
     {
@@ -24,7 +24,7 @@ class FileUtils
     * Returns the file size in a human-readable form (e.g. 75.2M).
     *
     * @param $path the path to the file that will be analyzed
-    * @return the file size in a human-readable form
+    * @return string the file size in a human-readable form
     */
     public static function getFileSize($path)
     {
@@ -51,7 +51,7 @@ class FileUtils
     * Returns the extension of the given file.
     *
     * @param $path the path to the file that will be analyzed
-    * @return the extension
+    * @return string the extension
     */
     public static function getExtension($path)
     {
@@ -70,7 +70,7 @@ class FileUtils
     * Returns the SHA-256 hash of the given file.
     *
     * @param $path the path to the file that will be analyzed
-    * @return the SHA-256 hash
+    * @return string the SHA-256 hash
     */
     public static function getSha256($path)
     {
@@ -93,7 +93,7 @@ class FileUtils
     * Returns the date (in ISO 8601 format) that the given file was last modified.
     *
     * @param $path the path to the file that will be analyzed
-    * @return the date
+    * @return string the date
     */
     public static function getLastModified($path)
     {
@@ -112,7 +112,7 @@ class FileUtils
     * that code will work in both environments.
     *
     * @param $path the relative path to the file that will be analyzed
-    * @return the path of the file, either relative or absolute
+    * @return string the path of the file, either relative or absolute
     */
     private static function toAbsolutePathIfOnServer($relativePath)
     {

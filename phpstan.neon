@@ -1,13 +1,14 @@
 parameters:
 	level: 5
+	treatPhpDocTypesAsCertain: false
 	bootstrapFiles:
 		- include/Constants.php
 	paths:
 		- public_html/index.php
 		- include/
-	excludes_analyse:
-		- include/LocalizationUtils.php
-		- include/DataUtils.php
-		- include/Constants.php
-
-
+	excludePaths:
+		analyse:
+			- include/OrmObjects/Map/*
+			- include/OrmObjects/Base/*
+	universalObjectCratesClasses:
+		- Spatie\YamlFrontMatter\Document

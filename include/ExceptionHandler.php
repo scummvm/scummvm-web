@@ -21,7 +21,7 @@ abstract class ExceptionHandler
                 $skip_menus = true;
             } else {
                 foreach ($e->getTrace() as $t) {
-                    if (basename($t['file']) == 'MenuModel.php') {
+                    if (basename($t['file'] ?? '') == 'MenuModel.php') {
                         $skip_menus = true;
                         break;
                     }

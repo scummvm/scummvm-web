@@ -2,7 +2,9 @@
 namespace ScummVM\Models;
 
 use ScummVM\OrmObjects\GameQuery;
+use ScummVM\OrmObjects\Screenshot;
 use ScummVM\OrmObjects\ScreenshotQuery;
+use Propel\Runtime\Collection\Collection;
 use Propel\Runtime\Collection\ObjectCollection;
 
 /**
@@ -19,7 +21,10 @@ class ScreenshotsModel extends BasicModel
         $categories = ScreenshotQuery::create()->findCategories();
         $data = [];
         foreach ($categories as $category) {
-            extract($category);
+            $category_key = $category['category_key'];
+            $category_name = $category['category_name'];
+            $subcategory_key = $category['subcategory_key'];
+            $subcategory_name = $category['subcategory_name'];
             if (!isset($data[$category_key])) {
                 $data[$category_key] = [
                     'title' =>  "$category_name Games",
@@ -84,7 +89,7 @@ class ScreenshotsModel extends BasicModel
     /**
      * Combines multiple screenshots into a single screenshot
      *
-     * @param  ObjectCollection $screenshots
+     * @param  Collection $screenshots
      * @return Screenshot|bool
      */
     private function combineScreenshots(iterable $screenshots)
@@ -108,7 +113,7 @@ class ScreenshotsModel extends BasicModel
     /**
      * combineSubcategories
      *
-     * @param  ObjectCollection $screenshots
+     * @param  Collection $screenshots
      * @return Screenshot[]
      */
     private function combineSubcategories(iterable $screenshots)
@@ -131,7 +136,7 @@ class ScreenshotsModel extends BasicModel
     /**
     * Returns the number of screenshot files associated with a given game or series of games
     * @param $gameOrSeriesId the id of a game or a game series
-    * @return the number of screenshot files
+    * @return int the number of screenshot files
     */
     private function getScreenshotCount(string $gameOrSeriesId)
     {
