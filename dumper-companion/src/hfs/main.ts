@@ -93,6 +93,7 @@ export class Volume extends AbstractFolder {
             from_volume = from_volume.subarray(magicOffset);
         }
 
+	/* eslint-disable @typescript-eslint/no-unused-vars */
         const [drSigWord, drCrDate, drLsMod, drAtrb, drNmFls,
             drVBMSt, drAllocPtr, drNmAlBlks, drAlBlkSiz, drClpSiz, drAlBlSt,
             drNxtCNID, drFreeBks, drVN, drVolBkUp, drVSeqNum,
@@ -100,6 +101,7 @@ export class Volume extends AbstractFolder {
             drFndrInfo, drVCSize, drVBMCSize, drCtlCSize,
             drXTFlSize, drXTExtRec,
             drCTFlSize, drCTExtRec]
+	/* eslint-enable @typescript-eslint/no-unused-vars */
         = struct('>2sLLHHHHHLLHLH28pLHLLLHLL32sHHHL12sL12s').unpack_from(from_volume, 1024);
 
         this.crdate = drCrDate;
@@ -152,8 +154,10 @@ export class Volume extends AbstractFolder {
             const datarec = val.subarray(2);
 
             if (datatype === 'dir') {
+		/* eslint-disable @typescript-eslint/no-unused-vars */
                 const [dirFlags, dirVal, dirDirID, dirCrDat, dirMdDat, dirBkDat, dirUsrInfo, dirFndrInfo]
                 = struct('>HHLLLL16s16s').unpack_from(datarec);
+		/* eslint-enable @typescript-eslint/no-unused-vars */
 
                 const f = new MacFolder();
                 cnids[dirDirID] = f;
@@ -163,6 +167,7 @@ export class Volume extends AbstractFolder {
                 f.mddate = dirMdDat;
                 f.bkdate = dirBkDat;
             } else if (datatype === 'file') {
+		/* eslint-disable @typescript-eslint/no-unused-vars */
                 const [filFlags, filTyp, filUsrWds, filFlNum,
                     filStBlk, filLgLen, filPyLen,
                     filRStBlk, filRLgLen, filRPyLen,
@@ -170,6 +175,7 @@ export class Volume extends AbstractFolder {
                     filFndrInfo, filClpSize,
                     filExtRec, filRExtRec]
                 = struct('>BB16sLHLLHLLLLL16sH12s12sxxxx').unpack_from(datarec);
+		/* eslint-enable @typescript-eslint/no-unused-vars */
 
                 const f = new MacFile();
                 cnids[filFlNum] = f;

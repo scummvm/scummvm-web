@@ -31,6 +31,7 @@ import { computeCRC } from '../crc';
 import { Language, encodeFileName } from '../encoding';
 import struct from '../struct';
 import { bytes, bytesToString, joinBytes } from '../util';
+import type { ZipDirectoryEntry } from '@zip.js/zip.js/lib/zip-fs.js';
 
 
 export type FileOrFolder = MacFile | AbstractFolder;
@@ -85,7 +86,7 @@ export class AbstractFolder {
         return res;
     }
 
-    dumpToZip(zipDir: any, lang: Language, puny: boolean, forceMacBinary: boolean, log: (string) => void): void {
+    dumpToZip(zipDir: ZipDirectoryEntry, lang: Language, puny: boolean, forceMacBinary: boolean, log: (string) => void): void {
         for (const [name, child] of this.items()) {
             const encodedName = encodeFileName(name, lang, puny, log);
             if (child instanceof AbstractFolder) {
