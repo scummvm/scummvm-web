@@ -41,7 +41,7 @@
     "build": [
       "composer install --no-dev",
       "@build-common",
-      "npm ci --production"
+      "npm ci --omit=dev"
     ],
     "build-dev": [
       "composer install",
