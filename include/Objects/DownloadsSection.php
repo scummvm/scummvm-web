@@ -27,7 +27,7 @@ class DownloadsSection extends BasicSection
     public function addItem($item)
     {
         if ($item->getCategoryIcon()) {
-            $this->items[] = new File($item->toArray(TableMap::TYPE_FIELDNAME), '');
+            $this->items[] = new File($item->toArray(TableMap::TYPE_FIELDNAME));
             // If this item is for an old version, sort all items by version, descending, then by autoId
             if ($this->hasOldVersion($item)) {
                 usort($this->items, function ($a, $b) {

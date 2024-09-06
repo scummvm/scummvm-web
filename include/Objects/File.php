@@ -18,7 +18,7 @@ class File extends BasicObject
     private $user_agent;
     private $version;
 
-    public function __construct($data, $baseUrl = null)
+    public function __construct($data)
     {
         parent::__construct($data);
         $this->autoId = $data['auto_id'] ?? null;
