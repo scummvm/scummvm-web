@@ -142,8 +142,9 @@ $match = $router->match(strtolower($_SERVER['REQUEST_URI']));
 if ($match) {
     if ($match['target'] === '\ScummVM\Pages\SimplePage' || $match['target'] === '\ScummVM\Pages\StaticPage') {
       $page = new $match['target']($match['name']);
-    } elseif (strpos($match['target'],"http") === 0) {
+    } else if (strpos($match['target'],"http") === 0) {
       header("Location: {$match['target']}");
+      return;
     } else {
       $page = new $match['target']();
     }
