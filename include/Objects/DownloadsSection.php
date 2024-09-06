@@ -10,7 +10,6 @@ class DownloadsSection extends BasicSection
 {
     private $notes;
     private $items;
-    private $id;
 
     /**
      * __construct
@@ -57,11 +56,6 @@ class DownloadsSection extends BasicSection
     public function getItems()
     {
         return $this->items;
-    }
-
-    public function getId()
-    {
-        return $this->id;
     }
 
     public function addSubsection($section)
