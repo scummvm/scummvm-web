@@ -73,7 +73,7 @@ class NewsPage extends Controller
 
         return $this->renderPage(
             array(
-                'title' => $this->getConfigVars('newsTitle'),
+                'title' => $this->getConfigVars('homeTitle'),
                 'description' => $this->getConfigVars('introHeaderContentP1'),
                 'content_title' => $this->getConfigVars('newsContentTitle'),
                 'show_intro' => true,
