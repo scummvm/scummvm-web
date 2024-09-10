@@ -636,60 +636,60 @@
         "content": "Con el cambio a un ciclo de lanzamiento semestral, ¡[aquí tenéis](/downloads/) nuestra mejor versión de ScummVM!\n\nHemos añadido un par de motores nuevos y, además de dos juegos de Humongous Entertainment, ahora damos soporte a *The 7th Guest* y a *Bud Tucker in Double Trouble*.\n\nEn otras cosas a destacar, tenemos una interfaz vectorial completamente nueva, que es un trabajo fusionado de Vicent Marti, alumno del GSoC del año pasado, así como un menú principal general que añade una interfaz de guardado y carga común a la mayoría de nuestros motores, así como la esperadísima opción «Volver al lanzador». Este ha sido el trabajo de otro estudiante de éxito, Chris Page.\n\nPodéis encontrar la lista completa de juegos y características nuevas en las [notas de lanzamiento](https://downloads.scummvm.org/frs/scummvm/0.13.0/ReleaseNotes) y la última versión de ScummVM (disponible para un gran número de plataformas, como de costumbre) se encuentra en la [página de descargas](/downloads/).\n\n¡A jugar!"
     },
     "20090307": {
-        "title": "",
-        "content": ""
+        "title": "Estás en un campo abierto, al oeste de una casa blanca cuya puerta delantera está bloqueada con tablones.",
+        "content": "Al abrir el buzón que hay tras la casa blanca, un mago te dice que has ganado la lotería, ¡ya que puedes jugar a varios juegos de Activision en ScummVM!\n\nDamos la bienvenida al motor MADE de Activision. Cuatro flamantes juegos son compatibles: el infame Return to Zork, Leather Goddesses of Phobos 2, The Manhole y Rodney's Funscreen.\n\nSolo necesitáis una copia de los susodichos juegos y una nueva [compilación diaria](/downloads/#daily) de ScummVM.\n\nSi encontráis cualquier fallo, podéis informar en nuestro [gestor de fallos](http://bugs.scummvm.org/). También hacen falta capturas de pantalla, que podéis enviar siguiendo nuestras [normas para enviar capturas](http://wiki.scummvm.org/index.php/Screenshots)."
     },
     "20090318": {
-        "title": "",
-        "content": ""
+        "title": "¿Sabéis qué momento está cerca?",
+        "content": "![GSoC 2009 Logo](/data/news/20090318.png) Sí, habéis acertado: ¡el verano (al menos, en el hemisferio norte ;))!  \n¿Y que hemos hecho en los últimos dos veranos?  \nHabéis vuelto a acertar: ¡participar en el [Google Summer of Code](http://code.google.com/soc/)!  \n¿Y sabéis que acabamos de descubrir?  \nCorrecto *otra vez*: ¡que nos han vuelto a aceptar este año!\n\n  \n\nSi sois [estudiantes](http://code.google.com/opensource/gsoc/2008/faqs.html#0.1_student_eligibility), queréis pasarlo bien ayudando con nuestro proyecto y ganar un dinerillo por el camino (4 500 dólares estadounidenses, de hecho), ¡apuntaos al [Google Summer of Code](http://code.google.com/soc/)!\n\n¿Habéis querido trabajar en un proyecto de código abierto importante, haciendo gala de vuestros conocimientos (o para aprender otros nuevos) mientras mejoráis el proyecto, pero os intimidaba su aparente tamaño monumental? ¿Deseabais que hubiera tareas más pequeñas, precortadas y más accesibles en las que poder enseñar al mundo de qué estáis hechos? No hace falta seguir deseando, porque el [Google Summer of Code](http://code.google.com/soc/) ofrece exactamente esas tareas pequeñas que no requieren de pasarse años entendiendo la totalidad el proyecto y hasta ofrece una recompensa económica por vuestros logros.\n\nSi os estáis planteando trabajar en ScummVM (y nosotros estaríamos encantados de recibiros), podéis ver nuestras tareas accesibles en nuestra página de [Tareas abiertas](http://wiki.scummvm.org/index.php/OpenTasks). Por supuesto, si tenéis alguna otra idea interesante en mente, ¡nos gustaría escucharos! Tened en cuenta también las [reglas de nuestro proyecto](http://wiki.scummvm.org/index.php/Summer_of_Code/Project_Rules).\n\nPara más información oficial de Google, visitad la web del [Google Summer of Code](http://code.google.com/soc/) y leed las páginas de [preguntas frecuentes](http://socghop.appspot.com/document/show/program/google/gsoc2009/faqs) y la [guía de solicitudes](http://socghop.appspot.com/document/show/program/google/gsoc2009/faqs#student_apply).\n\n¡Ya podéis daros prisa, porque el plazo acaba el **3 de abril**!"
     },
     "20090421": {
-        "title": "",
-        "content": ""
+        "title": "¡Hola, estudiantes nuevos!",
+        "content": "Google ha anunciado la lista de estudiantes del [Summer of Code](http://socghop.appspot.com) de este año. En el caso de ScummVM, podéis encontrar la lista de estudiantes admitidos y proyectos respectivos en nuestra [página principal](http://socghop.appspot.com/org/home/google/gsoc2009/scummvm) de la miniweb del GSoC '09.\n\nEl equipo de ScummVM, y sobre todo nuestros mentores, damos la bienvenida a los estudiantes de este año: Denis, Michal, Norbert, Joakim y Jody. ¡Bienvenidos, que tengáis suerte y disfrutad programando durante este verano! :-)"
     },
     "20090423": {
-        "title": "",
-        "content": ""
+        "title": "El nuevo hogar de Residual",
+        "content": "El proyecto Residual ha cambiado de hogar. Podéis visitarlo [aquí](http://residual.sourceforge.net/)."
     },
     "20090427": {
-        "title": "",
-        "content": ""
+        "title": "ScummVM 0.13.1 «vuelve SAGA» ve la luz",
+        "content": "No ha pasado tanto tiempo desde la última versión. ¡pero [aquí](/downloads/) tenéis otra nueva, con fallos arreglados y recién salida del horno!\n\nLa lista de fallos corregidos es bastante larga y podéis leerla en su totalidad en las [notas de lanzamiento](https://downloads.scummvm.org/frs/scummvm/0.13.1/ReleaseNotes), pero os dejamos un resumen para los que sois tan vagos que no queréis seguir los enlaces y solo queréis jugar a cosas que estén mejor.\n\nSAGA: *Inherit the Earth* vuelve a ser completable de principio a fin; AGOS, Groovie, Sword2: corregidos muchos problemas de sonido; Parallaction: corregido un fallo en un enigma y varios fallos de la interfaz. Por otro lado, las conversiones para iPhone, Symbian y WinCE han recibido muchas mejoras y las conversiones para NDS y PS2 vuelven a reaparecer desde la versión 0.11.0.\n\nNo os molestaremos más. ¡Venga, [descargaos ScummVM](/downloads/) y disfrutad de vuestros juegos!"
     },
     "20090514": {
-        "title": "",
-        "content": ""
+        "title": "¡Ayudadnos a ganar al robot escalofriante!",
+        "content": "[![Mascota de los CCA 2009](/data/news/20090514.png)](https://sourceforge.net/community/cca09/nominate/?project_name=ScummVM&project_url=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fscummvm%2F) Han comenzado los premios Community Choice Awards de SourceForge.net para 2009.  \nOs invitamos a apoyar a nuestro proyectillo con vuestros votos.\n\nLa categoría más natural para ScummVM sería la de *Best Project for Gamers*  \n(mejor proyecto para fans de videojuegos), pero si pensáis que podría ser  \nel *Best Project* (mejor proyecto general), tampoco nos importaría: este año,  \nun proyecto puede ser nominado a más de una categoría.\n\nEl robot escalofriante es la mascota de estos premios. Para votar a ScummVM, haced clic en la mascota o en [este enlace](https://sourceforge.net/community/cca09/nominate/?project_name=ScummVM&project_url=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fscummvm%2F).\n\n¡Ojalá lleguemos a la final!\n\nP.D.: Si queréis ver la sesión de fotos en directo del robot escalofriante, visitad el [blog de Fingolfin](http://blog.quendi.de/2009/05/07/sourceforgenet-community-choice-awards-2009/)."
     },
     "20090517": {
-        "title": "",
-        "content": ""
+        "title": "Ya podéis ver subtítulos en los vídeos de Broken Sword 1",
+        "content": "Los vídeos de *Broken Sword 1* han tenido soporte sin anunciar para subtítulos desde la versión 0.10.0 de ScummVM.\n\nPor fin hemos podido cerrar un paquete con subtítulos para los siguientes idiomas: inglés, portugués brasileño, alemán, español de España, francés, italiano y ruso. También ofrecemos subtítulos para la demo en inglés.\n\nPodéis descargaros el paquete en la página de [descargas](/downloads/#extras).\n\nAhora mismo nos faltan subtítulos para el checo, así que si estáis dispuestos a escribirlos, os rogamos que contactéis con sev."
     },
     "20090523": {
-        "title": "",
-        "content": ""
+        "title": "Scummvm.org recibe un lavado de cara gracias a su webmaster nuevo",
+        "content": "Por si no os habéis dado cuenta, la página web de ScummVM ahora tiene un código más reluciente. Fredrik Wendel, alias \\[vEX\\], lleva varios meses trabajando en la página y ha reescrito sus entrañas por completo conservando el diseño antiguo... Bueno, casi.\n\nAhora la sección de capturas de pantalla tiene un nuevo y elegante diseño, los enlaces de navegación son más lógicos (pero son retrocompatibles, así que no os preocupéis por perder vuestros antiguos enlaces), las tablas de MD5 de SCUMM tienen un diseño mejorado y la página de preguntas frecuentes ya no tiene numeritos mágicos en los enlaces.\n\nTambién nos enorgullece anunciar que Fredrik ha sido nombrado webmaster oficial del proyecto, así que enviad vuestras quejas a sus diestras manos. :P"
     },
     "20090607": {
-        "title": "",
-        "content": ""
+        "title": "ScummVM en una conferencia de código abierto en Grecia",
+        "content": "[![Más información sobre EL/LAK](/data/news/20090607.png)](http://conf.ellak.gr) La 3.ª [conferencia de desarrolladores de software gratuito o de código abierto](http://conf.ellak.gr), ([EL/LAK](http://www.ellak.gr)), se va a celebrar en Atenas, Grecia, el 19 y 20 de junio. Entre las conferencias sobre software de código abierto y otros temas relacionados, ScummVM participará este año con una presentación que hará el día 20.\n\nLa intención inicial es hablar de los principios básicos operativos de ScummVM, su arquitectura interna y la composición de su equipo de desarrollo. Pero también podremos hablar de las aventuras gráficas en general, del Google Summer of Code, temas de juegos de código abierto, ¡o lo que surja!\n\nAsí que si estáis cerca y os interesa, [registraos](http://www.ellak.gr/index.php?option=com_comprofiler&task=registers) en la conferencia y pasaos a la ronda de preguntas. ¡Nos vemos allí!"
     },
     "20090616": {
-        "title": "",
-        "content": ""
+        "title": "Conflicto de la GPL con Atari",
+        "content": "Considerad el siguiente texto un «comunicado de prensa» oficial y tened en cuenta que la redacción *exacta* en inglés ha sido dictada a cyx y fingolfin por las condiciones del acuerdo extrajudicial.\n\n> *En diciembre de 2008, varios miembros del equipo de ScummVM descubrieron que tres juegos para la consola Nintendo Wii («Freddi Fish: The Case of the Missing Kelp Seeds», distribuido en Alemania con el nombre «Fritzi Fisch und der verschwundene Schatz»; «Pajama Sam: No Need to Hide When It's Dark Outside», distribuido en Alemania con el nombre «Pyjama Pit: Keine Angst im Dunkeln» y «Spy Fox: Dry Cereal», distribuido en Alemania con el nombre «Spy Fox in: Das Milchkartell») hacían uso de ScummVM sin cumplir con los términos de la licencia GPL. Dichos miembros enviaron un apercibimiento a la distribuidora alemana de dichos juegos, Atari Deutschland GmbH, que desconocía que se había utilizado ScummVM en la creación de dichos juegos. Atari Deutschland GmbH se puso en contacto con Mistic Software Inc., los desarrolladores de dichos juegos.*\n\n> *Mistic Software Inc. respondió negando que los miembros del equipo de ScummVM tuviesen derecho alguno sobre el código en particular que Mistic Software Inc. había utilizado. La disputa se cerró finalmente con un acuerdo en mayo de 2009, en el que Mistic Software Inc. pagará todas las costas legales y hará un donativo a Free Software Foundation como muestra de buena fe, sin reconocer que haya habido una vulneración de derechos de autor.*"
     },
     "20090623": {
-        "title": "",
-        "content": ""
+        "title": "Más información sobre la violación de la GPL",
+        "content": "Existen ciertas especulaciones sobre el caso, y algunas de ellas son verdaderos disparates. Por desgracia, nadie nos ha contactado y esos blogs solo contienen unos pocos hechos reales.\n\nPor lo tanto, con el fin de detener esos mensajes potencialmente engañosos, he escrito un [post en mi blog personal (en inglés)](http://sev-notes.blogspot.com/2009/06/gpl-scummvm-and-violations.html). Espero haber dado la suficiente información. Si no es así, pedidme más detalles."
     },
     "20090630": {
-        "title": "",
-        "content": ""
+        "title": "Podéis comprar camisetas de ScummVM y este ha sido nominado a los premios Community Choice Awards de SourceForge",
+        "content": "Si queréis dar envidia a los vecinos, ¡deberíais pasearos con vuestra flamante [camiseta de ScummVM nueva](http://combobreaker.com/?page_id=886/). Diseñada en colaboración con el equipo de ScummVM, esta discreta, pero elegante prenda exhibirá vuestras pasiones por las aventuras a los más novicios. Además, ¡[combobreaker.com](http://combobreaker.com/) hará un donativo al proyecto ScummVM por cada camiseta vendida!\n\n[![Community Choice Awards de SF.net](/data/news/20090630.png)](http://sf.net/community/cca09/vote/?f=438) Hablando de apoyar a ScumMVM, os rogamosq ue votéis a vuestro intérprete de motores de aventuras point-and-click en los [premios Community Choice Awards de Sourceforge](http://sf.net/community/cca09/vote/?f=438). Os damos las gracias a todos los que nos habéis nominado: hemos vuelto a llegar a la última ronda. Si pulsáis en el enlace, ScummVM será preseleccionado en la categoría Best Project for Gamers (mejor proyecto para fans de videojuegos) y también podréis elegir vuestros proyectos de código abierto favoritos para el resto de categorías."
     },
     "20090702": {
-        "title": "",
-        "content": ""
+        "title": "Ya existe una forma fácil de conseguir Gobliiins 1-3",
+        "content": "[Snowberry Connection](http://www.snowball.ru), [Société Pollene](http://www.gobliiins4.com) y ScummVM han publicado un [comunicado conjunto de prensa](/press/snowberry) en el que anunciamos que los tres primeros juegos de la saga Gobliiins están disponibles como extra descargable para aquellos que hayan comprado Gobliiins 4 a través de [GamersGate](http://gamersgate.com/DD-GOBLIN/gobliiins-4) o de [Impulse](http://www.impulsedriven.com/goblins4). Los juegos también están incluidos en el DVD de, como mínimo, las versiones en ruso y húngaro del juego.\n\nNos alegra muchísimo que estas obras de arte de las aventuras clásicas ahora estén disponibles con una compra relativamente fácil y que ScummVM haya podido ayudar a Snowberry a hacer que funcionen en sistemas modernos con un mínimo esfuerzo.\n\n¡Gracias, Snowberry!"
     },
     "20090709": {
-        "title": "",
-        "content": ""
+        "title": "Se avecina un asesinato...",
+        "content": "El inspector Raoul Dusentier ha recibido la invitación a un crucero del misterioso empresario Niklos Karaboudjan, y apenas había zarpado cuando Raoul se topó con el cadáver del empresario e, inmediatamente después, Raoul es noqueado.\n\nAyudad al inspector a resolver este desconcertante misterio en «Cruise for a Corpse». Animamos a quienes tengáis este clásico para PC a probar la última [compilación diaria](/downloads/#daily), a [informar](/faq/#question.report-bugs) de cualquier fallo que encontréis en nuestro [gestor de fallos](http://bugs.scummvm.org/) y a [enviarnos unas capturas de pantalla](http://wiki.scummvm.org/index.php/Screenshots).\n\nTened en cuenta que, ahora mismo, solo se da soporte a la versión para PC del juego. Las versiones para Amiga ST no son compatibles."
     },
     "20090724": {
         "title": "",
@@ -1244,8 +1244,8 @@
         "content": "\"La venta de animales era un negocio beneficioso y de prestigio ya que la mayoría de los animales reales habían desaparecido tras la guerra terráquea; no obstante había muchos eléctricos...\" Oh, ejem, no sabía que estabas ahí.\n\nEl equipo de ScummVM está encantado de anunciar el lanzamiento de ScummVM versión 2.1.0. Este lanzamiento es la culminación de cerca de dos años de duro trabajo, incluyendo 16 nuevos juegos de 8 motores distintos, soporte para Nintendo Switch y se han arreglado cerca de 500 errores. Todo esto se ha conseguido con el arduo trabajo de 147 contribuidores mediante 8,493 commits.\n\nLos nuevos juegos soportados son:\n\n*   *Blade Runner*\n*   *Duckman: The Graphic Adventures of a Private Dick*\n*   *Hoyle Bridge*\n*   *Hoyle Children's Collection*\n*   *Hoyle Classic Games*\n*   *Hoyle Solitaire*\n*   *Hyperspace Delivery Boy!*\n*   *Might and Magic IV - Clouds of Xeen*\n*   *Might and Magic V - Darkside of Xeen*\n*   *Might and Magic - World of Xeen*\n*   *Might and Magic - Swords of Xeen*\n*   *Mission Supernova Part 1*\n*   *Mission Supernova Part 2*\n*   *Quest for Glory: Shadows of Darkness*\n*   *The Prince and the Coward*\n*   *Versailles 1685*\n\nAdemás, hemos mejorado considerablemente las versiones para Android e iOS. También te encontrarás con un nuevo lavado de cara del interfaz gráfico de usuario, mejor emulación de sonido Roland MT-32, un nuevo modo de estiramiento \"pixel-perfect\", conversión de texto a voz para macOS y Linux, y por último pero no menos importante, soporte para sincronizar partidas y datos de juego con servicios de almacenamiento en la nube (puedes ver la lista actualizada de plataformas en [nuestro manual de usuario](https://wiki.scummvm.org/index.php?title=User_Manual/Using_Cloud_and_LAN_features)).\n\nComo de costumbre, hemos mejorado muchos de los motores existentes: hemos incluido soporte para las versiones de *Myst 25 Aniversario*, hemos corregido más de 100 errores de scripts SCI que plagaban los juegos de Sierra durante décadas, hemos incluido soporte para las versiones de Amiga y FM-TOWNS de *Eye of the Beholder*, mejorado la calidad de audio de los juegos de Humongous Entertainment e incluido sincronización de labios para las aventuras más modernas de LucasArts y hemos desintegrado toneladas de errores de *Starship Titanic* y *Bud Tucker*. La lista no acaba aquí y puedes ver el registro completo de cambios [aquí](https://downloads.scummvm.org/frs/scummvm/2.1.0/ReleaseNotes.html).\n\nDeja las lagrimas en la lluvia y [consigue ya](/downloads/) esta eléctrica versión. Los usuarios de Windows y macOS pueden actualizar automáticamente al iniciar ScummVM."
     },
     "20090710a": {
-        "title": "",
-        "content": ""
+        "title": "El secreto peor guardado de ScummVM",
+        "content": "Seréis pocos los que no sepáis que la [compilación diaria](/downloads/#daily) de ScummVM era compatible con los dos primeros juegos de Discworld (Mundodisco en España) desde hacía ya un tiempo. A pesar de la estabilidad de dicho motor, no hemos anunciado su soporte oficial porque esperábamos poder anunciar también la liberación de ambos juegos a freeware.\n\nYa que parece poco probable que los dos juegos vayan a ser ofrecidos como freeware a tiempo para la siguiente versión principal, hemos decidido anunciar oficialmente el soporte para estos juegos. Las versiones para PC de los dos primeros Discworld tienen soporte total y la versión para PSX de Discworld 1 es jugable de principio a fin (pero falta de música en estos momentos).\n\nQuienes no los hayáis jugado ya, podéis hacerlo con la [compilación diaria](/downloads/#daily) de ScummVM, [informar](/faq/#question.report-bugs) de cualquier fallo que encontréis en nuestro [gestor de fallos](http://bugs.scummvm.org/) y [enviarnos unas capturas de pantalla](http://wiki.scummvm.org/index.php/Screenshots)."
     },
     "20090710b": {
         "title": "",
