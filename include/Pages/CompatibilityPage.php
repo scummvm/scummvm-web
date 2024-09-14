@@ -91,7 +91,7 @@ class CompatibilityPage extends Controller
             array(
                 'title' => preg_replace('/{version}/', $version, $this->getConfigVars('compatibilityTitle')),
                 'subtitle' => $game->getGame()->getName(),
-                'description' => $this->getConfigVars('compatibilityIntro'),
+                'description' => $this->supportLevelDescriptions[$game->getSupport()],
                 'content_title' => preg_replace(
                     '/{version}/',
                     $version,
