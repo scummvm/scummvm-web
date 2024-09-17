@@ -44,7 +44,7 @@ export default class Dumper extends Component<Props, State> {
 
                 <div>
                     <p>Select the game's disk image:</p>
-                    <input disabled={this.state.busy} class="file" type="file" accept=".dsk,.image,.img,.iso,.toast,.cdr,.diskcopy,.dcpy" onInput={this.handleImage.bind(this)}/>
+                    <input disabled={this.state.busy} class="file" type="file" accept=".dsk,.image,.img,.iso,.toast,.cdr,.diskcopy,.dcpy,.dc42" onInput={this.handleImage.bind(this)}/>
                 </div>
 
                 <div>
