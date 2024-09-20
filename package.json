@@ -6,7 +6,7 @@
     "autoprefixer": "^10.4.20",
     "dumper-companion": "file:dumper-companion",
     "postcss": "^8.4.45",
-    "sass": "1.78.0"
+    "sass": "1.79.2"
   },
   "scripts": {
     "postinstall": "cd dumper-companion && npm ci --omit=dev && npm run build && cd .. && node build.js",
