@@ -64,46 +64,50 @@ class DataUtils
         foreach (self::SHEET_IDS as $name => $gid) {
             $url = self::SHEET_URL . "&gid=" . $gid;
             $promises[$name] = $client->getAsync($url);
+            $promises[$name]->then(function ($response) use ($name) {
+                self::doUpdateData($name, $response);
+            });
         }
 
-        $responses = Promise\Utils::unwrap($promises);
-
-        foreach ($responses as $name => $response) {
-            $tsv = $response->getBody();
-            $reader = Reader::createFromString($tsv);
-            $reader->setDelimiter("\t");
-            $reader->setHeaderOffset(0);
-            $stmt = new Statement();
-
-            $records = $stmt->process($reader);
-            // Convert to JSON because records are serializable
-            // and cannot be converted directly to yaml
-            $json = \json_encode($records);
-            $data = \json_decode($json, true);
-
-            // Convert TRUE/FALSE strings to Booleans
-            foreach ($data as $objKey => $obj) {
-                foreach ($obj as $key => $val) {
-                    if ($val === 'TRUE') {
-                        $data[$objKey][$key] = true;
-                    } elseif ($val === 'FALSE') {
-                        $data[$objKey][$key] = false;
-                    }
-                }
-            }
-
-            // Convert to YAML
-            $yaml = Yaml::dump($data);
-            $yaml = "# This is a generated file, please do not edit manually\n" . $yaml;
-            $outFile = DIR_DATA . "/" . DEFAULT_LOCALE . "/$name.yaml";
-            echo("Writing $name data to $outFile\n");
-            \file_put_contents($outFile, $yaml);
-        }
+        Promise\Utils::unwrap($promises);
 
         DataUtils::convertYamlToOrm();
 
         // Clear the cache at the end of all data operations
         \file_put_contents('.clear-cache', '');
+    }
+
+    private static function doUpdateData($name, $response)
+    {
+        $tsv = $response->getBody();
+        $reader = Reader::createFromString($tsv);
+        $reader->setDelimiter("\t");
+        $reader->setHeaderOffset(0);
+        $stmt = new Statement();
+
+        $records = $stmt->process($reader);
+        // Convert to JSON because records are serializable
+        // and cannot be converted directly to yaml
+        $json = \json_encode($records);
+        $data = \json_decode($json, true);
+
+        // Convert TRUE/FALSE strings to Booleans
+        foreach ($data as $objKey => $obj) {
+            foreach ($obj as $key => $val) {
+                if ($val === 'TRUE') {
+                    $data[$objKey][$key] = true;
+                } elseif ($val === 'FALSE') {
+                    $data[$objKey][$key] = false;
+                }
+            }
+        }
+
+        // Convert to YAML
+        $yaml = Yaml::dump($data);
+        $yaml = "# This is a generated file, please do not edit manually\n" . $yaml;
+        $outFile = DIR_DATA . "/" . DEFAULT_LOCALE . "/$name.yaml";
+        echo("Writing $name data to $outFile\n");
+        \file_put_contents($outFile, $yaml);
     }
 
     private static function convertYamlToOrm()
