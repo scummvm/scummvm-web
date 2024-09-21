@@ -10,6 +10,7 @@ use League\Csv\Statement;
 use Symfony\Component\Yaml\Yaml;
 use GuzzleHttp\Client;
 use GuzzleHttp\Promise;
+use Propel\Runtime\Propel;
 use Propel\Runtime\Map\TableMap;
 
 /**
@@ -115,6 +116,12 @@ class DataUtils
             $file = DIR_DATA . "/" . DEFAULT_LOCALE . "/$name.yaml";
             $data = Yaml::parseFile($file);
             echo "Writing $object data to database\n";
+
+            $class = "ScummVM\\OrmObjects\\$object";
+            $mapClass = $class::TABLE_MAP;
+            $con = Propel::getConnection($mapClass::DATABASE_NAME);
+            // Use a transation to speed up writes
+            $con->beginTransaction();
             foreach ($data as $item) {
                 try {
                     foreach ($item as $key => $val) {
@@ -122,19 +129,19 @@ class DataUtils
                             unset($item[$key]);
                         }
                     }
-                    $class = "ScummVM\\OrmObjects\\$object";
                     $dbItem = new $class();
                     // TODO: Rename platform to platform_id
                     if ($object === 'Demo' || $object === 'DirectorDemo') {
                         $item['platform_id'] = $item['platform'];
                     }
                     $dbItem->fromArray($item, TableMap::TYPE_FIELDNAME);
-                    $dbItem->save();
+                    $dbItem->save($con);
                 } catch (\Exception $ex) {
                     echo json_encode($item) . "\n";
                     echo $ex->getMessage() . "\n";
                 }
             }
+            $con->commit();
         }
     }
 }
