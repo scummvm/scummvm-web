@@ -17,6 +17,7 @@ Before installing please make sure you have the following installed:
   * PHP YAML extension. Install via `pecl install yaml` or `sudo apt install php-yaml`
   * The version of PHP included with macOS doesn't include PECL, so you'll need to install a different version of PHP [through Homebrew](https://formulae.brew.sh/formula/php) or another method
   * Alternatively on macOS you can use [MacPorts](https://www.macports.org) to install both PHP and yaml (for example to use PHP 8.2 `sudo port install php82 php82-yaml php82-iconv php82-intl php82-mbstring php82-sqlite ; sudo port select --set php php82`)
+  * To improve build performance, PHP curl extension can be installed.
 * [Composer](https://getcomposer.org/)
 * [Python & pip](https://www.python.org/) (2.7.9+/3.4+)
 * [Node.js & npm](https://nodejs.org/)
