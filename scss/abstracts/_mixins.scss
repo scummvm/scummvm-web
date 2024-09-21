@@ -2,7 +2,9 @@
 /// @access public
 /// @param {String} $breakpoint - Breakpoint
 /// @requires $breakpoints
+@use "sass:color";
 @use "sass:math";
+@use "sass:string";
 
 @mixin respond-to($breakpoint) {
   $raw-query: map-get($breakpoints, $breakpoint);
@@ -90,4 +92,11 @@
     @return map-get(map-get($themes, "scumm"), $key);
   }
   @return $value;
+}
+
+/* Helper function to convert colors to hex */
+@function hex-color($color) {
+	@return string.unquote('#' + string.to-lower-case(
+		string.slice(color.ie-hex-str($color), 4)
+	));
 }

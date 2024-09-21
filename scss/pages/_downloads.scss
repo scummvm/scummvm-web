@@ -1,3 +1,5 @@
+@use "sass:color";
+
 ul.downloads {
 	li.file {
 		list-style-type: none;
@@ -37,7 +39,9 @@ ul.downloads {
 			border: 1px solid themed("download-text");
 			$download-background: themed("download-background");
 			background: $download-background
-				linear-gradient(to bottom, lighten($download-background, 40%) 0%, $download-background 100%);
+				linear-gradient(to bottom,
+					hex-color(color.adjust($download-background, $lightness: 40%, $space: hsl)) 0%,
+					$download-background 100%);
 		}
 		img {
 			display: block;
@@ -51,11 +55,11 @@ ul.downloads {
 		&:hover {
 			@include themify($themes) {
 				$download-background: themed("download-background");
-				background: lighten($download-background, 40%)
+				background: hex-color(color.adjust($download-background, $lightness: 40%, $space: hsl))
 					linear-gradient(
 						to bottom,
-						lighten($download-background, 50%) 0%,
-						lighten($download-background, 40%) 35%,
+						hex-color(color.adjust($download-background, $lightness: 50%, $space: hsl))  0%,
+						hex-color(color.adjust($download-background, $lightness: 40%, $space: hsl)) 35%,
 						$download-background 100%
 					);
 			}

@@ -1,3 +1,5 @@
+@use "sass:color";
+
 .colorKeyTable {
 	td {
 		text-align: center;
@@ -22,6 +24,6 @@
 
 @for $i from 0 through 4 {
 	.pct#{$i*25} {
-		background-color: adjust-hue(hsl(0, 100%, (66-$i) + 0%), $i * 4.5 * 5);
+		background-color: hex-color(hsl($i * 4.5 * 5, 100%, (66-$i) + 0%));
 	}
 }

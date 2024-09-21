@@ -8,10 +8,8 @@ async function renderScss(filename) {
     const outFile = `./public_html/css/${filename}.css`;
 
     console.log(`Converting ${inFile} to css`);
-    const output = sass.renderSync({
-        outputStyle: "compressed",
-        file: inFile,
-
+    const output = sass.compile(inFile, {
+        style: "compressed",
     });
 
     console.log(`Applying autoprefixer`);

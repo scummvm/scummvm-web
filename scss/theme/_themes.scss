@@ -1,3 +1,5 @@
+@use "sass:color";
+
 $themes: (
     scumm: (
         // Main elements
@@ -54,14 +56,14 @@ $themes: (
         round-container-title-background: #b5d7bd
             linear-gradient(
                 to top,
-                lighten(desaturate(#b5d7bd, 36.5), 17.25) 0%,
-                lighten(desaturate(#b5d7bd, 36.5), 12.35) 35%,
+                hex-color(color.adjust(#b5d7bd, $saturation: -36.5%, $lightness: 17.25%, $space: hsl)) 0%,
+                hex-color(color.adjust(#b5d7bd, $saturation: -36.5%, $lightness: 12.35%, $space: hsl)) 35%,
                 #b5d7bd 100%
             ),
         container-title-background: #45a63d
             linear-gradient(
                 to bottom,
-                lighten(desaturate(#45a63d, 20), 27.25) 0%,
+                hex-color(color.adjust(#45a63d, $saturation: -20%, $lightness: 27.25%, $space: hsl)) 0%,
                 #45a63d 100%
             ),
         background: #6699cc,

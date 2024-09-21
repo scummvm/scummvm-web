@@ -1,4 +1,6 @@
 /* General layout rules */
+@use "sass:color";
+
 body {
 	background-repeat: repeat-x;
 	font-family: verdana, tahoma, arial, helvetica, sans-serif;
@@ -28,7 +30,7 @@ a:hover {
 	text-decoration: none;
 
 	@include themify($themes) {
-		color: lighten(themed("link"), 20%);
+		color: hex-color(color.adjust(themed("link"), $lightness: 20%, $space: hsl));
 	}
 }
 

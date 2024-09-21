@@ -1,3 +1,5 @@
+@use "sass:color";
+
 .chart-wrapper {
 
   span {
@@ -41,7 +43,7 @@
     }
     &:hover {
       @include themify($themes) {
-        color: lighten(themed("link"), 20%);
+        color: hex-color(color.adjust(themed("link"), $lightness: 20%, $space: hsl));
       }
     }
   }
