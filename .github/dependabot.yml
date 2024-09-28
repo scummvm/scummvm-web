@@ -30,3 +30,8 @@ updates:
         applies-to: version-updates
         update-types:
         - "patch"
+      eslint:
+        patterns:
+          - "@eslint/*"
+          - '@typescript-eslint/*"
+          - "eslint"
