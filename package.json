@@ -8,7 +8,7 @@
     "sass": "1.79.3"
   },
   "scripts": {
-    "postinstall": "cd dumper-companion && npm ci --omit=dev && npm run build && cd .. && node build.js",
+    "postinstall": "(cd dumper-companion && npm ci --omit=dev && npm run build) && node build.js",
     "scss:watch": "sass --watch ./scss:./public_html/css"
   }
 }
