@@ -170,7 +170,7 @@
 -
     id: 'scumm:monkey'
     support: bugged
-    notes: '- No sound effects - No music looping in VGA version - EGA version is not implemented   - Copy protection screen will show, but game crashes shortly afterwards.   - Graphics decoders and SCUMM opcodes not implimented yet'
+    notes: '- No sound effects - No music looping in VGA version - EGA version is not implemented   - Copy protection screen will show, but game crashes shortly afterwards.   - Graphics decoders and SCUMM opcodes not implemented yet'
     since_version: 0.3.0
     stable_platforms: dos
     unstable_platforms: 'segacd,fmtowns,mac,atarist,amiga'
