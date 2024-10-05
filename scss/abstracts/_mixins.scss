@@ -34,7 +34,7 @@
 ///                                  based units (optional)
 ///
 /// @example scss - 5vw font size (with 50px fallback),
-///                 minumum of 35px and maximum of 150px
+///                 minimum of 35px and maximum of 150px
 ///  @include responsive-font(5vw, 35px, 150px, 50px);
 ///
 @mixin responsive-font($responsive, $min, $max: false, $fallback: false) {
