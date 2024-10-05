@@ -443,7 +443,7 @@
 -
     id: 'scumm:maniac'
     support: good
-    notes: '- Minor graphical glitches with actors in classic verison'
+    notes: '- Minor graphical glitches with actors in classic version'
     since_version: 0.6.0
     stable_platforms: 'amiga,atarist,dos,mac'
     unstable_platforms: 'apple2,c64,nes'
@@ -485,7 +485,7 @@
 -
     id: 'scumm:zak'
     support: good
-    notes: '- FM-TOWNS Kanji version not supported - Minor graphical glitches with actors in classic verison - No music or sound effects in the Commodore 64 version - Several sound effects buggy or missing in Amiga version'
+    notes: '- FM-TOWNS Kanji version not supported - Minor graphical glitches with actors in classic version - No music or sound effects in the Commodore 64 version - Several sound effects buggy or missing in Amiga version'
     since_version: 0.6.0
     stable_platforms: 'amiga,atarist,c64,dos,fmtowns'
     unstable_platforms: ''
