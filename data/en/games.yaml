@@ -2912,6 +2912,20 @@
     wikipedia_page: Magic_Tales
     series_id: magictales
 -
+    id: 'crab:unrest'
+    name: Unrest
+    engine_id: crab
+    company_id: pyrodactyl
+    year: '2014'
+    moby_id: '74307'
+    steam_id: '292400'
+    gog_id: unrest
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: Unrest
+    wikipedia_page: Unrest_(video_game)
+    series_id: ''
+-
     id: 'cruise:cruise'
     name: 'Cruise for a Corpse'
     engine_id: cruise

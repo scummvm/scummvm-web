@@ -5165,3 +5165,17 @@
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
+-
+    id: 'scumm:basketball'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'crab:unrest'
+    support: good
+    notes: '- Save/load works only via global menu'
+    since_version: DEV
+    stable_platforms: 'win,mac,linux'
+    unstable_platforms: ''

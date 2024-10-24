@@ -1040,6 +1040,10 @@
     name: Psygnosis
     alt_name: ''
 -
+    id: pyrodactyl
+    name: 'Pyrodactyl Games'
+    alt_name: ''
+-
     id: raecreation
     name: 'Raecreations Software'
     alt_name: ''
