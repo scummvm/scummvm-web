@@ -1,0 +1,13 @@
+---
+title: “Can you bring peace to.. UNREST?”
+author: jibbodahibbo, Bosca
+date: 1729803904
+---
+
+[_Unrest_](https://pyrodactyl.com/) is a roleplaying game developed by _Pyrodactyl Studios_ set in a fantasy interpretation of ancient India. You’ll step into the shoes of ordinary people and navigate a world fraught with challenges as they strive for safety, freedom, and peace.
+
+We are proud to announce that Unrest is now playable using ScummVM thanks to the work done by our GSoC student, Kartik Agarwala! Help us test the game by grabbing a [daily build](https://scummvm.org/downloads/#daily) of ScummVM. Read through our [testing guidelines](https://wiki.scummvm.org/index.php/Release_Testing#Testing_Guidelines), and please take some [screenshots](https://wiki.scummvm.org/index.php/Screenshots) along the way. If you encounter any issues, please report them to our [bugtracker](https://bugs.scummvm.org/).
+
+If you don’t own Unrest, you can purchase this game from either [GOG](https://www.gog.com/en/game/unrest) or [Steam](https://store.steampowered.com/app/292400/Unrest/). The demo for the game is also supported and available [from our web site](https://www.scummvm.org/demos/).
+
+Now go, use your manipulative skills to bring peace to this troubled world where chaos is not afar. For the most daring players using the iron-man mode, saving and loading the game is only available using ScummVM's Global Main Menu.
