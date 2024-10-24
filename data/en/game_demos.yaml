@@ -693,6 +693,15 @@
     language3: ''
     url: /frs/demos/composer/magictales-demo-win-he.zip
 -
+    id: 'crab:unrest'
+    platform: win
+    '': ''
+    category: ''
+    language: ''
+    language2: ''
+    language3: ''
+    url: /frs/demos/crab/unrest-demo.zip
+-
     id: 'cryo:losteden'
     platform: dos
     '': ''
