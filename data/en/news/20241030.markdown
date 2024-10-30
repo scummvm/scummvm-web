@@ -1,0 +1,13 @@
+---
+title: "I don't need to remind you that this investigation is strictly unofficial"
+author: mduggan
+date: 1730275405
+---
+
+We are excited to announce that [_Rise of the Dragon_](https://en.wikipedia.org/wiki/Rise_of_the_Dragon)  is now ready for public testing. This is the first of a small number of games built using the DGDS (Dynamix Game Development System) engine.
+
+The Dynamix name may be familiar – bought by Sierra in 1990, the Dynamix brand continued and became well known for action and puzzle games like _The Incredible Machine_, _A10 Tank Killer_, and _Red Baron_.  They also made a few adventures using the custom DGDS engine.
+
+_Rise of the Dragon_ is set in Los Angeles in a dark version of the future, circa 2053.  You play as Blade Hunter, a private investigator and retired police officer.  After a designer drug kills the mayor's rebellious daughter, Chandra, Hunter is hired to find the people responsible for releasing the drug on the streets. What Blade ultimately finds is much more than he expected.  _Rise of the Dragon_ combines classic point-and-click adventure style with platforming arcade sequences, giving a unique gameplay combination.
+
+You’ll need the latest [daily build of ScummVM](https://scummvm.org/downloads/#daily) and files from the DOS version of the game, which you can buy at [GOG](https://www.gog.com/en/game/rise_of_the_dragon) (check [our wiki](https://wiki.scummvm.org/index.php/Rise_of_the_Dragon) for the required data files).  Please file any issues you notice on our [bug tracker](https://bugs.scummvm.org/).
