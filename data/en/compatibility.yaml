@@ -5186,10 +5186,3 @@
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: ''
--
-    id: 'dgds:china'
-    support: good
-    notes: '- Tank arcade sequence is not included'
-    since_version: DEV
-    stable_platforms: dos
-    unstable_platforms: ''
