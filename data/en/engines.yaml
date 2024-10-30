@@ -108,7 +108,7 @@
     id: dgds
     name: DGDS
     alt_name: 'Dynamix Game Development System'
-    enabled: false
+    enabled: true
 -
     id: director
     name: 'Macromedia Director'
