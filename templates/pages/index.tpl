@@ -21,6 +21,7 @@
     <meta name="application-name" content="ScummVM">
     <meta name="msapplication-TileColor" content="#cc6600">
     <meta name="theme-color" content="#cc6600">
+    <meta name="fediverse:creator" content="@scummvm@manitu.social">
     <!-- OpenGraph -->
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
