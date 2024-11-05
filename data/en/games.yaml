@@ -3892,6 +3892,20 @@
     wikipedia_page: Total_Eclipse_(1988_video_game)
     series_id: totaleclipse
 -
+    id: 'freescape:castlemaster'
+    name: 'Castle Master'
+    engine_id: freescape
+    company_id: incentive
+    year: '1990'
+    moby_id: '2155'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'glk:adrift'
     name: 'ADRIFT Interactive Fiction games'
     engine_id: glk
@@ -6536,6 +6550,202 @@
     additional_stores: ''
     datafiles: Private_Eye_(1996)
     wikipedia_page: Private_Eye_(1996_video_game)
+    series_id: ''
+-
+    id: 'qdengine:karliknos'
+    name: 'Little Longnose'
+    engine_id: qdengine
+    company_id: kdlab
+    year: '2003'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'qdengine:nupogodi3'
+    name: 'Wait for it! Issue 3. Song for a hare'
+    engine_id: qdengine
+    company_id: kdlab
+    year: '2003'
+    moby_id: '213684'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'qdengine:pilots3'
+    name: 'Pilot Brothers 3: Back Side of the Earth'
+    engine_id: qdengine
+    company_id: kdlab
+    year: '2004'
+    moby_id: '94379'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: pilotbrothers
+-
+    id: 'qdengine:pilots3d'
+    name: 'Pilot Brothers 3D. The Case of Garden Pests'
+    engine_id: qdengine
+    company_id: kdlab
+    year: '2004'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: pilotbrothers
+-
+    id: 'qdengine:pilots3d-2'
+    name: 'Pilot Brothers 3D-2. Kennel Club Secrets'
+    engine_id: qdengine
+    company_id: kdlab
+    year: '2005'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: pilotbrothers
+-
+    id: 'qdengine:mng'
+    name: "Mom don't worry"
+    engine_id: qdengine
+    company_id: kdlab
+    year: '2005'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'qdengine:rybalka'
+    name: 'Features of national fishing'
+    engine_id: qdengine
+    company_id: kdlab
+    year: '2005'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'qdengine:maski'
+    name: 'Mask show'
+    engine_id: qdengine
+    company_id: kdlab
+    year: '2005'
+    moby_id: '123963'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'qdengine:3mice1'
+    name: 'Marvellous Mice Adventures: Meeting Sea Rat'
+    engine_id: qdengine
+    company_id: kdlab
+    year: '2007'
+    moby_id: '40026'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: littlemice
+-
+    id: 'qdengine:shveik'
+    name: 'The Adventures of the Good Soldier Schweik'
+    engine_id: qdengine
+    company_id: kdlab
+    year: '2007'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'qdengine:klepa'
+    name: 'Klepa: Symbolic Rivets'
+    engine_id: qdengine
+    company_id: kdlab
+    year: '2007'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'qdengine:3mice2'
+    name: "Marvellous Mice Adventures: Sea Rat's Birthday"
+    engine_id: qdengine
+    company_id: kdlab
+    year: '2007'
+    moby_id: '166297'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: littlemice
+-
+    id: 'qdengine:dogncat'
+    name: 'Dog-n-cat: Island of Dr Rattardy'
+    engine_id: qdengine
+    company_id: kdlab
+    year: '2008'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'qdengine:dogncat2'
+    name: 'Dog-n-cat: In the footsteps of unprecedented beasts'
+    engine_id: qdengine
+    company_id: kdlab
+    year: '2008'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: 'queen:queen'

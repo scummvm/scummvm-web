@@ -700,6 +700,10 @@
     name: 'Jennifer McMurray'
     alt_name: JennyBee
 -
+    id: kdlab
+    name: 'K-D Lab'
+    alt_name: ''
+-
     id: kemco
     name: Kemco
     alt_name: ''

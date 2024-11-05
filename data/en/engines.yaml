@@ -360,6 +360,11 @@
     alt_name: ''
     enabled: true
 -
+    id: qdengine
+    name: 'QD Engine'
+    alt_name: ''
+    enabled: true
+-
     id: queen
     name: 'Flight of the Amazon Queen'
     alt_name: ''

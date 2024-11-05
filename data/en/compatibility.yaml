@@ -5186,3 +5186,45 @@
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: ''
+-
+    id: 'freescape:castlemaster'
+    support: untested
+    notes: '- Minor missing features (UI details)  - Some sounds are incorrect or missing'
+    since_version: DEV
+    stable_platforms: 'dos,zx'
+    unstable_platforms: ''
+-
+    id: 'qdengine:nupogodi3'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'qdengine:maski'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'qdengine:3mice1'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'qdengine:shveik'
+    support: good
+    notes: '- Some minor graphics glitches - Some minor pathfinding glithces'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'qdengine:3mice2'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''

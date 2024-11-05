@@ -153,6 +153,9 @@
     id: lba
     name: 'Little Big Adventure'
 -
+    id: littlemice
+    name: 'Three Little Mice'
+-
     id: livingbooks
     name: 'Living Books'
 -
@@ -203,6 +206,9 @@
 -
     id: phantasmagoria
     name: Phantasmagoria
+-
+    id: pilotbrothers
+    name: 'Pilot Brothers'
 -
     id: pink
     name: 'The Pink Panther'
