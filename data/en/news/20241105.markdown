@@ -1,0 +1,21 @@
+---
+title: "Games based on qdEngine are now supported"
+author: sev
+date: 1730845390
+---
+
+After seven months of intense work, we are ready to announce support for a few games based on qdEngine, developed by K-D Labs.
+
+The work is based on the original sources published now under GPL, although the work started a bit earlier than that. The engine supports 14 games, five of which we are announcing support for. Most of these games were released in Russian; however, there were Lithuanian, Czech, and Polish releases. The support is announced for:
+
+* _Wait for it! Issue 3. Song for a Hare_, (Russian: _Ну, погоди! Выпуск 3. Песня для зайца_, Lithuanian: _Na, palauk! Zuikio dainos_, Czech: _Jen počkej a Píseň pro zajíce_)
+* _Mask Show_ (Russian: _Маски-шоу_)
+* _Marvellous Mice Adventures: Meeting Sea Rat_ (Russian: _Три маленькие белые мышки. Визит Морской крысы_, Czech: _Příběhy myší rodinky I_, Polish: _Były Sobie Myszki Trzy: Na Spotkanie Cioci Myszy_)
+* _The Adventures of the Good Soldier Schweik_ (Russian: _Похождения бравого солдата Швейка_)
+* _Marvellous Mice Adventures: Sea Rat's Birthday_, (Russian: _Три маленькие белые мышки. День рождения морской крысы_, Polish: _Były Sobie Myszki Trzy: Urodzinowe Śledztwo_)
+
+Other games do work; however, we haven’t playtested them. You may find more information on [our Wiki](https://wiki.scummvm.org/index.php?title=QdEngine). Also, we are looking for the Lithuanian version of _Little Longnose_ and Polish releases of _Little Mice_ games and _Wait for it!_ game. If you happen to have a copy, please contact sev.
+
+We continue the active development so that support for other games will follow shortly. The primary constraint is playtesting.
+
+To run these games, you need the [latest daily build](https://www.scummvm.org/downloads/#daily) of ScummVM. If you encounter any hiccups during your quests, please file them on our [issue tracker](https://bugs.scummvm.org/).
