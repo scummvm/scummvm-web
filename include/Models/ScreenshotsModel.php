@@ -43,7 +43,8 @@ class ScreenshotsModel extends BasicModel
     /* Get all screenshots in one category. */
     public function getScreenshotsByCompanyId($companyId)
     {
-        $data = $this->getFromCache($companyId);
+        $cache_key = "c_{$companyId}";
+        $data = $this->getFromCache($cache_key);
         if (!$data) {
             $screenshots = ScreenshotQuery::create()
                 ->filterByCompanyId($companyId)
@@ -59,6 +60,7 @@ class ScreenshotsModel extends BasicModel
                 'category' => $companyId,
                 'games' => $this->combineSubcategories($screenshots)
             ];
+            $this->saveToCache($data, $cache_key);
         }
         return $data;
     }
@@ -66,7 +68,8 @@ class ScreenshotsModel extends BasicModel
     /* Get screenshots for a specific target. */
     public function getScreenshotsBySubcategory($target)
     {
-        $data = $this->getFromCache($target);
+        $cache_key = "s_{$target}";
+        $data = $this->getFromCache($cache_key);
         if (!$data) {
             $screenshots = ScreenshotQuery::create()
                 ->joinGame()
@@ -80,6 +83,7 @@ class ScreenshotsModel extends BasicModel
             }
 
             $data = [$combinedScreenshot];
+            $this->saveToCache($data, $cache_key);
         }
         return $data;
     }
