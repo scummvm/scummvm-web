@@ -7,6 +7,7 @@ use Propel\Runtime\Connection\ConnectionInterface;
 use Propel\Runtime\Exception\PropelException;
 use Propel\Runtime\Propel;
 use ScummVM\OrmObjects\Screenshot as ChildScreenshot;
+use ScummVM\OrmObjects\Map\GameTableMap;
 use ScummVM\OrmObjects\Map\ScreenshotTableMap;
 
 /**
@@ -95,5 +96,31 @@ class ScreenshotQuery extends BaseScreenshotQuery
         $stmt->closeCursor();
 
         return $obj;
+    }
+
+    public function filterByCompanyId($companyId, ConnectionInterface $con = null)
+    {
+        if ($companyId !== 'other') {
+            return $this->useGameQuery()
+                ->filterByCompanyId($companyId)
+                ->endUse();
+        }
+
+        // other company id means all companies with at most 1 game
+        $subquery = ScreenshotQuery::create()->useGameQuery()
+            ->groupByCompanyId()
+            ->endUse()
+            ->withColumn('COUNT(DISTINCT((CASE
+                WHEN ' . GameTableMap::COL_SERIES_ID . ' IS NULL
+                THEN ' . ScreenshotTableMap::COL_ID . '
+                ELSE ' . GameTableMap::COL_SERIES_ID . '
+                END)))', 'cnt')
+            ->having('cnt <= 1')
+            ->withColumn(GameTableMap::COL_COMPANY_ID, 'company_id')
+            ->removeSelfSelectColumns();
+
+        return $this->joinGame()
+            ->addSelectQuery($subquery, 'c', false)
+            ->where(GameTableMap::COL_COMPANY_ID . ' = c.company_id');
     }
 }

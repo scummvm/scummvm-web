@@ -46,11 +46,9 @@ class ScreenshotsModel extends BasicModel
         $data = $this->getFromCache($companyId);
         if (!$data) {
             $screenshots = ScreenshotQuery::create()
-            ->useGameQuery()
                 ->filterByCompanyId($companyId)
-            ->endUse()
-            ->withColumn(self::SUBCATEGORY_COLUMN, 'subcategory')
-            ->find();
+                ->withColumn(self::SUBCATEGORY_COLUMN, 'subcategory')
+                ->find();
 
             if ($screenshots->count() === 0) {
                 throw new \ErrorException(self::INVALID_CATEGORY);
