@@ -5228,3 +5228,10 @@
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
+-
+    id: 'mohawk:noah'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''

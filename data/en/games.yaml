@@ -6090,6 +6090,20 @@
     wikipedia_page: Living_Books
     series_id: livingbooks
 -
+    id: 'mohawk:noah'
+    name: "Noah's Ark"
+    engine_id: mohawk
+    company_id: littleark
+    year: '2016'
+    moby_id: '-1'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'mohawk:orly'
     name: "Orly's Draw-A-Story"
     engine_id: mohawk
