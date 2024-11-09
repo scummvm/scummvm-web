@@ -1,0 +1,20 @@
+---
+Title: Rescue your twin from the clutches of the evil Castle Master
+
+author: gu3
+date: 1731144074
+---
+
+[_Castle Master_](https://wiki.scummvm.org/index.php?title=Castle_Master), the haunting conclusion to the Freescape engine saga, is now ready for public testing!
+
+Prepare yourself for a perilous adventure as you lower the drawbridge to enter the Castle Master’s domain. Released in 1990 by Incentive Software, Castle Master became popular for its technical innovation and challenging gameplay. The game inspired countless 3D adventure titles, and the Freescape engine itself marked a technological milestone, enabling groundbreaking object interaction and spatial puzzles.
+
+Notably, Castle Master was one of the first games to let you choose to play as either a prince or a princess, offering a different experience depending on your choice.
+
+Your mission: rescue your twin, imprisoned within the eerie depths of Castle Eternity by the evil Magister. This sprawling, foreboding castle is filled with traps, monsters, and puzzles blocking your path. Gather items, unlock doors, and solve complex riddles as you navigate the labyrinthine halls and confront the dark forces within.
+
+This modern reimplementation showcases enhanced graphics using OpenGL, with initial support for the DOS and ZX Spectrum releases. If you’re eager to embark on this dark journey, [a playable demo](https://downloads.scummvm.org/frs/demos/freescape/castle-dos-demo.zip) is available to test your tenacity.
+
+To participate in the testing, ensure you have a [daily development build](https://www.scummvm.org/downloads/#daily). We encourage all players to submit feedback and bug reports through our [issue tracker](https://bugs.scummvm.org/).
+
+Will you brave the creepy corridors of Castle Eternity and free your sibling, or will you fall victim to the Magister’s curse and join his army of enslaved spirits? The adventure awaits!
