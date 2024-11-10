@@ -1,20 +1,23 @@
+@use "abstracts/bidir";
+@use "abstracts/mixins";
+
 .round-box {
   margin: 8px;
-  direction: $direction;
+  direction: bidir.$direction;
   > .header {
     height: 28px;
     border-radius: 8px 8px 0 0;
-    padding-#{$start-direction}: 18px;
+    padding-#{bidir.$start-direction}: 18px;
     // TODO: Extract font
     font: bold large/1.4 "Trebuchet MS", Verdana, Tahoma, Sans-Serif;
 
-    @include themify($themes) {
-      background: themed("round-container-title-background");
-      border-left: 1px solid themed("round-container-border");
-      border-right: 1px solid themed("round-container-border");
-      border-top: 1px solid themed("round-container-border");
-      color: themed("round-container-header");
-      text-shadow: 3px 0 1px themed("round-container-header-shadow");
+    @include mixins.themify() {
+      background: mixins.themed("round-container-title-background");
+      border-left: 1px solid mixins.themed("round-container-border");
+      border-right: 1px solid mixins.themed("round-container-border");
+      border-top: 1px solid mixins.themed("round-container-border");
+      color: mixins.themed("round-container-header");
+      text-shadow: 3px 0 1px mixins.themed("round-container-header-shadow");
     }
   }
   > .content {
@@ -23,21 +26,21 @@
     padding: 8px;
     overflow: hidden;
 
-    @include themify($themes) {
-      background: themed("round-container-background");
-      border: 1px solid themed("round-container-border");
+    @include mixins.themify() {
+      background: mixins.themed("round-container-background");
+      border: 1px solid mixins.themed("round-container-border");
     }
     &.text {
       padding-left: 16px;
     }
     &:first-child {
-      @include themify($themes) {
-        background: themed("round-container-headless-background");
+      @include mixins.themify() {
+        background: mixins.themed("round-container-headless-background");
       }
     }
 
     [class*="col-"] {
-      float: $start-direction;
+      float: bidir.$start-direction;
     }
   }
   > .header ~ .content {

@@ -1,3 +1,5 @@
+@use "abstracts/helpers";
+
 @use "sass:color";
 
 .colorKeyTable {
@@ -24,6 +26,6 @@
 
 @for $i from 0 through 4 {
 	.pct#{$i*25} {
-		background-color: hex-color(hsl($i * 4.5 * 5, 100%, (66-$i) + 0%));
+		background-color: helpers.hex-color(hsl($i * 4.5 * 5, 100%, (66-$i) + 0%));
 	}
 }

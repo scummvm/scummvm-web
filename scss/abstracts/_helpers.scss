@@ -1,0 +1,9 @@
+@use "sass:color";
+@use "sass:string";
+
+/* Helper function to convert colors to hex */
+@function hex-color($color) {
+	@return string.unquote('#' + string.to-lower-case(
+		string.slice(color.ie-hex-str($color), 4)
+	));
+}

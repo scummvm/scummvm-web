@@ -1,3 +1,8 @@
+@use "abstracts/bidir";
+@use "abstracts/helpers";
+@use "abstracts/mixins";
+@use "abstracts/variables";
+
 @use "sass:color";
 
 .chart-wrapper {
@@ -13,9 +18,9 @@
     margin: 0 auto;
     text-align: center;
 
-    @include themify($themes) {
-      background: themed("chart-caption-background");
-      color: themed("chart-caption-header");
+    @include mixins.themify() {
+      background: mixins.themed("chart-caption-background");
+      color: mixins.themed("chart-caption-header");
     }
   }
 }
@@ -31,19 +36,19 @@
     margin: 0 auto;
     padding: 5px;
 
-    @include themify($themes) {
-      background: themed("chart-caption-background");
-      color: themed("chart-caption-header");
+    @include mixins.themify() {
+      background: mixins.themed("chart-caption-background");
+      color: mixins.themed("chart-caption-header");
     }
   }
   a {
     text-decoration: none;
-    @include themify($themes) {
-      color: themed("chart-link");
+    @include mixins.themify() {
+      color: mixins.themed("chart-link");
     }
     &:hover {
-      @include themify($themes) {
-        color: hex-color(color.adjust(themed("link"), $lightness: 20%, $space: hsl));
+      @include mixins.themify() {
+        color: helpers.hex-color(color.adjust(mixins.themed("link"), $lightness: 20%, $space: hsl));
       }
     }
   }
@@ -56,8 +61,8 @@
   th,
   td {
     padding: 5px;
-    @include themify($themes) {
-      border: 1px solid themed("chart-border");
+    @include mixins.themify() {
+      border: 1px solid mixins.themed("chart-border");
     }
   }
   th {
@@ -69,19 +74,19 @@
   }
   tr {
     &.color0 {
-      @include themify($themes) {
-        background-color: themed("chart-row-odd");
+      @include mixins.themify() {
+        background-color: mixins.themed("chart-row-odd");
       }
     }
     &.color2 {
-      @include themify($themes) {
-        background-color: themed("chart-row-even");
+      @include mixins.themify() {
+        background-color: mixins.themed("chart-row-even");
       }
     }
   }
   thead {
-    @include themify($themes) {
-      background-color: themed("chart-head-background");
+    @include mixins.themify() {
+      background-color: mixins.themed("chart-head-background");
     }
   }
 }
@@ -131,13 +136,13 @@
     width: 12px;
     height: 12px;
     cursor: pointer;
-    float: $end-direction;
+    float: bidir.$end-direction;
 
     &:before,
     &:after {
       content: "";
       position: absolute;
-      background-color: $tentacle-green;
+      background-color: variables.$tentacle-green;
       transition: transform 0.25s ease-out;
     }
 

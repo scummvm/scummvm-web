@@ -1,33 +1,28 @@
-@import "vendor/normalize"; // Reset CSS, always load first.
+@use "vendor/normalize"; // Reset CSS, always load first.
 
-@import "abstracts/variables";
-@import "abstracts/mixins";
+@use "base/base";
 
-@import "theme/themes";
+@use "layout/menu";
+@use "layout/footer";
+@use "layout/header";
+@use "layout/grid";
+@use "layout/shame";
 
-@import "base/base";
+@use "components/box";
+@use "components/roundbox";
+@use "components/toc";
+@use "components/cookie";
+@use "components/card";
+@use "components/article";
 
-@import "layout/menu";
-@import "layout/footer";
-@import "layout/header";
-@import "layout/grid";
-@import "layout/shame";
+@use "pages/chart";
+@use "pages/compatibility";
+@use "pages/credits";
+@use "pages/downloads";
+@use "pages/links";
+@use "pages/screenshots";
 
-@import "components/box";
-@import "components/roundbox";
-@import "components/toc";
-@import "components/cookie";
-@import "components/card";
-@import "components/article";
+@use "sprites/games";
+@use "sprites/platforms";
 
-@import "pages/chart";
-@import "pages/compatibility";
-@import "pages/credits";
-@import "pages/downloads";
-@import "pages/links";
-@import "pages/screenshots";
-
-@import "sprites/games";
-@import "sprites/platforms";
-
-@import "vendor/baguetteBox.min";
+@use "vendor/baguetteBox.min";

@@ -1,8 +1,11 @@
+@use "abstracts/bidir";
+@use "abstracts/mixins";
+
 .box {
 	margin: 8px;
-	direction: $direction;
-	@include themify($themes) {
-		border: 1px solid themed("container-border");
+	direction: bidir.$direction;
+	@include mixins.themify() {
+		border: 1px solid mixins.themed("container-border");
 	}
 	> .head {
 		min-height: 24px;
@@ -10,33 +13,33 @@
 		padding: 4px;
 		width: 100%;
 
-		@include themify($themes) {
-			background: themed("container-title-background");
-			color: themed("container-title");
+		@include mixins.themify() {
+			background: mixins.themed("container-title-background");
+			color: mixins.themed("container-title");
 		}
 		a {
 			text-decoration: none;
-			@include themify($themes) {
-				color: themed("container-title");
+			@include mixins.themify() {
+				color: mixins.themed("container-title");
 			}
 		}
 	}
 	> .content {
 		padding: 8px;
 
-		@include themify($themes) {
-			background: themed("container-background");
+		@include mixins.themify() {
+			background: mixins.themed("container-background");
 		}
 	}
 	.intro {
 		padding: 4px 8px 4px 5px;
 
-		@include themify($themes) {
-			background: themed("container-navigation-background");
+		@include mixins.themify() {
+			background: mixins.themed("container-navigation-background");
 		}
 
 		[class*="col-"] {
-			float: $start-direction;
+			float: bidir.$start-direction;
 		}
 	}
 }

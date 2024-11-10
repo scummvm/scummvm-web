@@ -1,2 +1,13 @@
-@import "abstracts/ltr";
-@import "main";
+@use "abstracts/bidir" with (
+  $direction: ltr,
+  $opposite-direction: rtl,
+
+  $start-direction: left,
+  $end-direction: right,
+
+  $transform-direction: 1,
+
+  $arrow: "\27A3",
+);
+
+@use "main";

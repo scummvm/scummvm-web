@@ -1,3 +1,6 @@
+@use "abstracts/mixins";
+@use "abstracts/variables";
+
 /* Header */
 
 .site-header {
@@ -8,7 +11,7 @@
 		height: 91px;
 		position: relative;
 
-		@include respond-to("small") {
+		@include mixins.respond-to("small") {
 			height: 58px;
 		}
 	}
@@ -18,8 +21,8 @@
 		border-radius: 8px 8px 0 0;
 		z-index: 100;
 
-		@include themify($themes) {
-			background: themed("wrapper-topper");
+		@include mixins.themify() {
+			background: mixins.themed("wrapper-topper");
 		}
 	}
 
@@ -39,9 +42,9 @@
 		margin-top: 5px;
 		text-align: justify;
 		letter-spacing: 1.5px;
-		@include responsive-font(1.4vw, 10px, 15px, 15px);
-		@include themify($themes) {
-			color: themed("header-text");
+		@include mixins.responsive-font(1.4vw, 10px, 15px, 15px);
+		@include mixins.themify() {
+			color: mixins.themed("header-text");
 		}
 	}
 
@@ -54,10 +57,10 @@
 			max-width: 280px;
 
 			&.foreground {
-				filter: drop-shadow(1px 1px 2px $black);
+				filter: drop-shadow(1px 1px 2px variables.$black);
 				bottom: -120px;
 
-				@include respond-to("small") {
+				@include mixins.respond-to("small") {
 					max-width: 150px;
 					bottom: -52px;
 					margin-left: 8px;

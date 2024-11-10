@@ -1,13 +1,16 @@
+@use "abstracts/bidir";
+@use "abstracts/variables";
+
 article {
   .news-date {
     font-weight: normal;
   }
   .news-author {
-    color: $gray;
+    color: variables.$gray;
     font-style: italic;
     margin: 0px 0px -8px 0px;
     position: relative;
-    text-align: $end-direction;
+    text-align: bidir.$end-direction;
     top: -8px;
   }
   img {

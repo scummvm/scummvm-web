@@ -9,6 +9,7 @@ async function renderScss(filename) {
 
     console.log(`Converting ${inFile} to css`);
     const output = sass.compile(inFile, {
+        loadPaths: ['./scss/'],
         style: "compressed",
     });
 

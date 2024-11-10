@@ -1,3 +1,7 @@
+@use "abstracts/helpers";
+@use "abstracts/mixins";
+@use "abstracts/variables";
+
 @use "sass:color";
 
 ul.downloads {
@@ -7,8 +11,8 @@ ul.downloads {
 	}
 	span.download-extras {
 		font-size: x-small;
-		@include themify($themes) {
-			color: themed("subscript");
+		@include mixins.themify() {
+			color: mixins.themed("subscript");
 		}
 	}
 	li.link {
@@ -22,7 +26,7 @@ ul.downloads {
 	max-width: 600px;
 	min-height: 110px;
 
-	@include respond-to("small") {
+	@include mixins.respond-to("small") {
 		text-align: center;
 	}
 
@@ -32,15 +36,15 @@ ul.downloads {
 		width: 100%;
 		padding: 15px;
 		border-radius: 8px;
-		box-shadow: 0 0 10px $black;
+		box-shadow: 0 0 10px variables.$black;
 		text-decoration: none;
-		@include themify($themes) {
-			color: themed("download-text");
-			border: 1px solid themed("download-text");
-			$download-background: themed("download-background");
+		@include mixins.themify() {
+			color: mixins.themed("download-text");
+			border: 1px solid mixins.themed("download-text");
+			$download-background: mixins.themed("download-background");
 			background: $download-background
 				linear-gradient(to bottom,
-					hex-color(color.adjust($download-background, $lightness: 40%, $space: hsl)) 0%,
+					helpers.hex-color(color.adjust($download-background, $lightness: 40%, $space: hsl)) 0%,
 					$download-background 100%);
 		}
 		img {
@@ -48,18 +52,18 @@ ul.downloads {
 			float: left;
 			margin: 0 auto;
 
-			@include respond-to("small") {
+			@include mixins.respond-to("small") {
 				float: none;
 			}
 		}
 		&:hover {
-			@include themify($themes) {
-				$download-background: themed("download-background");
-				background: hex-color(color.adjust($download-background, $lightness: 40%, $space: hsl))
+			@include mixins.themify() {
+				$download-background: mixins.themed("download-background");
+				background: helpers.hex-color(color.adjust($download-background, $lightness: 40%, $space: hsl))
 					linear-gradient(
 						to bottom,
-						hex-color(color.adjust($download-background, $lightness: 50%, $space: hsl))  0%,
-						hex-color(color.adjust($download-background, $lightness: 40%, $space: hsl)) 35%,
+						helpers.hex-color(color.adjust($download-background, $lightness: 50%, $space: hsl))  0%,
+						helpers.hex-color(color.adjust($download-background, $lightness: 40%, $space: hsl)) 35%,
 						$download-background 100%
 					);
 			}

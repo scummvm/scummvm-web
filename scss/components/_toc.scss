@@ -1,3 +1,6 @@
+@use "abstracts/bidir";
+@use "abstracts/mixins";
+
 /* Navigation menus */
 
 .navigation {
@@ -5,18 +8,18 @@
   a {
     text-decoration: none;
     padding: 5px;
-    @include themify($themes) {
-      color: themed("container-navigation-link");
+    @include mixins.themify() {
+      color: mixins.themed("container-navigation-link");
     }
   }
   ul {
     padding-left: 2em;
   }
   li {
-    list-style-type: $arrow;
+    list-style-type: bidir.$arrow;
     margin: 0.5em auto;
-    @include themify($themes) {
-      color: themed("container-navigation-bullet");
+    @include mixins.themify() {
+      color: mixins.themed("container-navigation-bullet");
     }
   }
 }

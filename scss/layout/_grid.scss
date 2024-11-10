@@ -1,3 +1,6 @@
+@use "abstracts/mixins";
+@use "abstracts/variables";
+
 /* Grid */
 
 .site-wrap {
@@ -6,18 +9,18 @@
 	margin: 0 auto;
 	padding: 0 50px;
 
-	@include respond-to("small") {
+	@include mixins.respond-to("small") {
 		padding: 0;
 		margin: 0;
 	}
 }
 
 .col-4-5 {
-	width: calc(100% - #{$nav-width - 10px});
+	width: calc(100% - #{variables.$nav-width - 10px});
 }
 
 .col-1-5 {
-	width: $nav-width - 15px;
+	width: variables.$nav-width - 15px;
 	position: relative;
 }
 
@@ -64,7 +67,7 @@
 	}
 }
 
-@include respond-to("small") {
+@include mixins.respond-to("small") {
 	.col-1-2 {
 		clear: left;
 	}
@@ -79,7 +82,7 @@
 	}
 }
 
-@include respond-to("medium") {
+@include mixins.respond-to("medium") {
 	/* CSS Rules targeting most tablets in vertical orientation */
 	.hide-medium {
 		display: none;

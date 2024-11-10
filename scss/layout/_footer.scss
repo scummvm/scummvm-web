@@ -1,18 +1,21 @@
+@use "abstracts/mixins";
+@use "abstracts/variables";
+
 /* Footer */
 
 footer {
-  color: $black-semi-transparent;
+  color: variables.$black-semi-transparent;
   padding: 15px 0;
   position: relative;
   a {
-    color: $black-semi-transparent;
+    color: variables.$black-semi-transparent;
     &:hover {
-      color: $black-semi-transparent;
+      color: variables.$black-semi-transparent;
       text-decoration: none;
     }
   }
 
-  @include respond-to("small") {
+  @include mixins.respond-to("small") {
     padding: 0 8px;
     background: rgb(251, 241, 206);
   }
@@ -25,7 +28,7 @@ footer {
   max-width: 160px;
   position: absolute;
   bottom: -60px;
-  @include themify($themes) {
-    filter: drop-shadow((-3px) 5px 1px themed("background"));
+  @include mixins.themify() {
+    filter: drop-shadow((-3px) 5px 1px mixins.themed("background"));
   }
 }

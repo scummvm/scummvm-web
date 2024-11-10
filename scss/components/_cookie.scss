@@ -1,3 +1,5 @@
+@use "abstracts/variables";
+
 .cookie-consent {
 	position: fixed;
 	bottom: 0;
@@ -22,8 +24,8 @@
 		white-space: nowrap;
 
 		&.accept {
-			background-color: $totem-pole;
-			border: 1px solid $totem-pole;
+			background-color: variables.$totem-pole;
+			border: 1px solid variables.$totem-pole;
 			border-radius: 4px;
 			padding: 4px;
 		}

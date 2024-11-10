@@ -1,53 +1,56 @@
+@use "abstracts/helpers";
+@use "abstracts/variables";
+
 @use "sass:color";
 
 $themes: (
     scumm: (
         // Main elements
-        background: $tenn,
-        text: $black,
+        background: variables.$tenn,
+        text: variables.$black,
         fonts: ("verdana", "tahoma", "arial", "helvetica", sans-serif),
-        link: $kenyan-copper,
-        light-link: $white,
-        wrapper-topper: $marzipan,
-        wrapper-background: $double-pearl-lustra,
+        link: variables.$kenyan-copper,
+        light-link: variables.$white,
+        wrapper-topper: variables.$marzipan,
+        wrapper-background: variables.$double-pearl-lustra,
         // Header
-        header-text: $black,
+        header-text: variables.$black,
         // Menu
-        menu-title: $turbo,
-        menu-title-background: $kenyan-copper,
-        menu-background: $totem-pole,
-        menu-link: $white,
-        menu-shadow: $cashmere,
+        menu-title: variables.$turbo,
+        menu-title-background: variables.$kenyan-copper,
+        menu-background: variables.$totem-pole,
+        menu-link: variables.$white,
+        menu-shadow: variables.$cashmere,
         // Box containers
-        container-title: $white,
-        container-title-background: $totem-pole,
-        container-sub-title: $totem-pole,
-        container-background: $alto,
-        container-navigation-background: $silver,
-        container-border: $silver,
-        container-navigation-link: $japanese-laurel,
-        container-navigation-bullet: $double-pearl-lustra,
+        container-title: variables.$white,
+        container-title-background: variables.$totem-pole,
+        container-sub-title: variables.$totem-pole,
+        container-background: variables.$alto,
+        container-navigation-background: variables.$silver,
+        container-border: variables.$silver,
+        container-navigation-link: variables.$japanese-laurel,
+        container-navigation-bullet: variables.$double-pearl-lustra,
         // Round box containers
-        round-container-title-background: $marzipan,
-        round-container-border: $cashmere,
-        round-container-headless-background: $double-pearl-lustra,
-        round-container-header: $kenyan-copper,
-        round-container-background: $white,
+        round-container-title-background: variables.$marzipan,
+        round-container-border: variables.$cashmere,
+        round-container-headless-background: variables.$double-pearl-lustra,
+        round-container-header: variables.$kenyan-copper,
+        round-container-background: variables.$white,
         round-container-header-shadow: rgba(0, 0, 0, 0),
         // Charts
-        chart-head-background: $gray,
-        chart-row-odd: $alto,
-        chart-row-even: $white,
-        chart-caption-background: $totem-pole,
-        chart-caption-header: $white,
-        chart-border: $silver,
+        chart-head-background: variables.$gray,
+        chart-row-odd: variables.$alto,
+        chart-row-even: variables.$white,
+        chart-caption-background: variables.$totem-pole,
+        chart-caption-header: variables.$white,
+        chart-border: variables.$silver,
         // Misc elements
-        table-of-contents: $japanese-laurel,
-        subscript: $japanese-laurel,
-        table-of-contents-bullet: $double-pearl-lustra,
+        table-of-contents: variables.$japanese-laurel,
+        subscript: variables.$japanese-laurel,
+        table-of-contents-bullet: variables.$double-pearl-lustra,
         // Download button
-        download-background: $kenyan-copper,
-        download-text: $white,
+        download-background: variables.$kenyan-copper,
+        download-text: variables.$white,
     ),
     residual: (
         menu-title-background: #43a25c,
@@ -56,14 +59,14 @@ $themes: (
         round-container-title-background: #b5d7bd
             linear-gradient(
                 to top,
-                hex-color(color.adjust(#b5d7bd, $saturation: -36.5%, $lightness: 17.25%, $space: hsl)) 0%,
-                hex-color(color.adjust(#b5d7bd, $saturation: -36.5%, $lightness: 12.35%, $space: hsl)) 35%,
+                helpers.hex-color(color.adjust(#b5d7bd, $saturation: -36.5%, $lightness: 17.25%, $space: hsl)) 0%,
+                helpers.hex-color(color.adjust(#b5d7bd, $saturation: -36.5%, $lightness: 12.35%, $space: hsl)) 35%,
                 #b5d7bd 100%
             ),
         container-title-background: #45a63d
             linear-gradient(
                 to bottom,
-                hex-color(color.adjust(#45a63d, $saturation: -20%, $lightness: 27.25%, $space: hsl)) 0%,
+                helpers.hex-color(color.adjust(#45a63d, $saturation: -20%, $lightness: 27.25%, $space: hsl)) 0%,
                 #45a63d 100%
             ),
         background: #6699cc,
@@ -73,13 +76,13 @@ $themes: (
     ),
     retro: (
         menu-background: #6f43a4,
-        header-text: $white,
+        header-text: variables.$white,
         menu-title-background: linear-gradient(to bottom, rgb(115, 15, 107) 0%, rgb(163, 26, 156) 71%),
         background: #6699cc,
         container-title-background: linear-gradient(to bottom, rgb(115, 15, 107) 0%, rgb(163, 26, 156) 71%),
         download-background: #6f43a4,
         round-container-title-background: #6f43a4,
-        round-container-header: $turbo,
+        round-container-header: variables.$turbo,
         round-container-header-shadow: unset,
         wrapper-topper: linear-gradient(to bottom, rgb(115, 15, 107) 0%, rgb(163, 26, 156) 71%),
         chart-caption-background: #6f43a4,

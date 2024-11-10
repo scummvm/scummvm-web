@@ -1,6 +1,19 @@
-/* General layout rules */
 @use "sass:color";
+@use "sass:map";
 
+@use "abstracts/bidir";
+@use "abstracts/helpers";
+@use "abstracts/variables";
+
+@use "theme/themes";
+
+@use "abstracts/mixins" with (
+  $-breakpoints: variables.$breakpoints,
+  $-themes: themes.$themes,
+  $-default-theme: "scumm",
+);
+
+/* General layout rules */
 body {
 	background-repeat: repeat-x;
 	font-family: verdana, tahoma, arial, helvetica, sans-serif;
@@ -8,10 +21,10 @@ body {
 	line-height: 1.357em;
 	margin: 8px 8px 24px 8px;
 
-	@include themify($themes) {
-		background: themed("background");
+	@include mixins.themify() {
+		background: mixins.themed("background");
 	}
-	@include respond-to("small") {
+	@include mixins.respond-to("small") {
 		margin: 0;
 	}
 }
@@ -21,16 +34,16 @@ body {
 }
 
 a {
-	@include themify($themes) {
-		color: themed("link");
+	@include mixins.themify() {
+		color: mixins.themed("link");
 	}
 }
 
 a:hover {
 	text-decoration: none;
 
-	@include themify($themes) {
-		color: hex-color(color.adjust(themed("link"), $lightness: 20%, $space: hsl));
+	@include mixins.themify() {
+		color: helpers.hex-color(color.adjust(mixins.themed("link"), $lightness: 20%, $space: hsl));
 	}
 }
 
@@ -61,18 +74,18 @@ a:hover {
 }
 
 #donate-header {
-	float: $end-direction;
+	float: bidir.$end-direction;
 }
 
 /* Content boxes */
 
 .container {
 	border-radius: 0 0 8px 8px;
-	@include themify($themes) {
-		background: themed("wrapper-background");
+	@include mixins.themify() {
+		background: mixins.themed("wrapper-background");
 	}
 
-	@include respond-to("small") {
+	@include mixins.respond-to("small") {
 		border-radius: 0;
 	}
 }
@@ -80,19 +93,19 @@ a:hover {
 span.sprite {
 	display: inline-block;
 	vertical-align: middle;
-	filter: drop-shadow(0 2px 2px $black-semi-transparent);
+	filter: drop-shadow(0 2px 2px variables.$black-semi-transparent);
 }
 
 .subhead {
 	font-weight: bold;
 	line-height: 300%;
-	padding-#{$start-direction}: 5px;
-	text-align: $start-direction;
+	padding-#{bidir.$start-direction}: 5px;
+	text-align: bidir.$start-direction;
 	margin: 0px 15px;
 
-	@include themify($themes) {
-		color: themed("container-sub-title");
-		border-bottom: 2px dotted themed("container-sub-title");
+	@include mixins.themify() {
+		color: mixins.themed("container-sub-title");
+		border-bottom: 2px dotted mixins.themed("container-sub-title");
 	}
 }
 .subhead-content {
