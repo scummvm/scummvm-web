@@ -5,7 +5,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.45",
-    "sass": "1.79.3"
+    "sass": "1.80.6"
   },
   "scripts": {
     "postinstall": "(cd dumper-companion && npm ci --omit=dev && npm run build) && node build.js",
