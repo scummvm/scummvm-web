@@ -12,7 +12,7 @@
     "@typescript-eslint/eslint-plugin": "^8.7.0",
     "@typescript-eslint/parser": "^8.7.0",
     "eslint": "^9.11.1",
-    "globals": "^15.9.0"
+    "globals": "^15.12.0"
   },
   "dependencies": {
     "@zip.js/zip.js": "^2.7.52",
