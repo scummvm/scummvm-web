@@ -3,14 +3,16 @@
 /// @param {String} $breakpoint - Breakpoint
 /// @requires $breakpoints
 @use "sass:color";
+@use "sass:map";
 @use "sass:math";
+@use "sass:meta";
 @use "sass:string";
 
 @mixin respond-to($breakpoint) {
-  $raw-query: map-get($breakpoints, $breakpoint);
+  $raw-query: map.get($breakpoints, $breakpoint);
 
   @if $raw-query {
-    $query: if(type-of($raw-query) == "string", unquote($raw-query), inspect($raw-query));
+    $query: if(meta.type-of($raw-query) == "string", string.unquote($raw-query), meta.inspect($raw-query));
 
     @media #{$query} {
       @content;
@@ -39,7 +41,7 @@
 ///
 @mixin responsive-font($responsive, $min, $max: false, $fallback: false) {
   $responsive-unitless: math.div($responsive, $responsive - $responsive + 1);
-  $dimension: if(unit($responsive) == "vh", "height", "width");
+  $dimension: if(math.unit($responsive) == "vh", "height", "width");
   $min-breakpoint: math.div($min, $responsive-unitless) * 100;
 
   @if $fallback {
@@ -70,9 +72,9 @@
     .theme-#{$theme} & {
       $theme-map: () !global;
       @each $key, $submap in $map {
-        $value: map-get(map-get($themes, $theme), "#{$key}");
+        $value: map.get(map.get($themes, $theme), "#{$key}");
         @if $theme-map {
-          $theme-map: map-merge(
+          $theme-map: map.merge(
             $theme-map,
             (
               $key: $value,
@@ -87,9 +89,9 @@
 }
 
 @function themed($key) {
-  $value: map-get($theme-map, $key);
+  $value: map.get($theme-map, $key);
   @if (not $value) {
-    @return map-get(map-get($themes, "scumm"), $key);
+    @return map.get(map.get($themes, "scumm"), $key);
   }
   @return $value;
 }
