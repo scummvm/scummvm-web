@@ -822,6 +822,30 @@
     language: en
     variant_id: '1'
 -
+    id: 'freescape:castlemaster'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'freescape:castlemaster'
+    variant: ''
+    platform_id: dos
+    language: es
+    variant_id: '1'
+-
+    id: 'freescape:castlemaster'
+    variant: ''
+    platform_id: zx
+    language: en
+    variant_id: '1'
+-
+    id: 'freescape:castlemaster'
+    variant: ''
+    platform_id: zx
+    language: es
+    variant_id: '1'
+-
     id: 'freescape:darkside'
     variant: ''
     platform_id: dos
