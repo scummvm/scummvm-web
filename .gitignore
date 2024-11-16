@@ -1,6 +1,9 @@
 # Platform specific files
 .DS_Store
 
+# Maintenance enabled file
+/.maintenance
+
 # Node
 /node_modules
 
