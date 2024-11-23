@@ -1,0 +1,32 @@
+---
+title: "Help us to test the upcoming ScummVM 2.9.0!"
+author: sev
+date: 1732402181
+---
+
+We've been working for a while on the next ScummVM release, and it is time for a call for public testing.
+
+Support for a number of new engines and games for the existing ones was added, and we need your special attention to the following titles:
+
+* _Orion Burger._
+* _Total Eclipse and Total Eclipse 2._
+* _Thimbleweed Park._
+* _The Space Bar._
+* _Moonbase Commander._ (with multiplayer support)
+* _Backyard Basketball._
+* _Unrest._
+* _Rise of the Dragon._
+* _Castle Master._
+* _Wait for it! Issue 3. Song for a Hare._ (_Ну, погоди! Выпуск 3. Песня для зайца_)
+* _Mask Show._ (_Маски-шоу_)
+* _Marvellous Mice Adventures: Meeting Sea Rat._ (_Три маленькие белые мышки. Визит Морской крысы_)
+* _The Adventures of the Good Soldier Schweik._ (_Похождения бравого солдата Швейка_)
+* _Marvellous Mice Adventures: Sea Rat's Birthday._ (_Три маленькие белые мышки. День рождения морской крысы_)
+
+Besides these newly supported games, almost half of the current 108 engines have notable changes. Thus, testing more games is always a good thing.
+
+All testing must be done with [stable builds](https://buildbot.scummvm.org/#/dailybuilds), not development ones. Please report bugs or oddities on our [issue tracker](https://bugs.scummvm.org/).
+
+A detailed list of all exciting new features and fixes is available in our [NEWS file](https://github.com/scummvm/scummvm/blob/branch-2-9/NEWS.md).
+
+We are looking forward to your reports about successful and unsuccessful playthroughs and bugs reported!
