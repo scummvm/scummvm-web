@@ -64,6 +64,10 @@
     name: 'AGD Interactive'
     alt_name: ''
 -
+    id: age
+    name: 'Adventurers Guild Entertainment'
+    alt_name: ''
+-
     id: aka
     name: 'AKA Xportmedia'
     alt_name: ''
@@ -96,6 +100,10 @@
     name: 'Anate Studio'
     alt_name: ''
 -
+    id: anatola
+    name: 'Anatola Howard'
+    alt_name: ''
+-
     id: animationmagic
     name: 'Animation Magic'
     alt_name: ''
@@ -114,6 +122,10 @@
 -
     id: arberth
     name: 'Arberth Studios'
+    alt_name: ''
+-
+    id: arkhouse
+    name: 'Ark House'
     alt_name: ''
 -
     id: artbox
@@ -160,6 +172,22 @@
     name: 'Bolt Beranek and Newman Inc.'
     alt_name: ''
 -
+    id: bbool
+    name: 'Beyond Booleans'
+    alt_name: ''
+-
+    id: bchandler
+    name: 'Ben Chandler'
+    alt_name: Ben304
+-
+    id: beardy
+    name: 'Beardy Ramblin Games'
+    alt_name: ''
+-
+    id: because
+    name: 'Because Because Games'
+    alt_name: ''
+-
     id: bfactory
     name: B-Factory
     alt_name: ''
@@ -183,6 +211,10 @@
     id: boffo
     name: 'Boffo Intergalactic Games, Inc'
     alt_name: ''
+-
+    id: brocanty
+    name: 'Brocanty Games'
+    alt_name: arj0n
 -
     id: broderbund
     name: Brøderbund
@@ -208,6 +240,10 @@
     name: Byteriders
     alt_name: ''
 -
+    id: calico
+    name: 'Calico Reverie'
+    alt_name: ''
+-
     id: canal
     name: 'Canal Multimedia'
     alt_name: ''
@@ -230,6 +266,10 @@
 -
     id: channel8
     name: 'Channel 8 Software'
+    alt_name: ''
+-
+    id: chronerion
+    name: 'Chronerion Entertainment'
     alt_name: ''
 -
     id: ciberspace
@@ -276,12 +316,28 @@
     name: 'California Pacific Computer Company'
     alt_name: ''
 -
+    id: cpondillo
+    name: 'Cindy Pondillo'
+    alt_name: ''
+-
+    id: crashable
+    name: 'Crashable Studios'
+    alt_name: ''
+-
     id: creativedream
     name: 'CreativeDream Studio'
     alt_name: ''
 -
     id: creativereality
     name: 'Creative Reality'
+    alt_name: ''
+-
+    id: cremation
+    name: 'Thinking of Cremation?'
+    alt_name: ''
+-
+    id: croqueta
+    name: 'Croqueta Asesina Studios'
     alt_name: ''
 -
     id: cryo
@@ -436,6 +492,10 @@
     name: 'Emotion Digital'
     alt_name: ''
 -
+    id: emptyworld
+    name: 'EmptyWorld Games'
+    alt_name: ''
+-
     id: encore
     name: 'Encore Software'
     alt_name: ''
@@ -468,6 +528,10 @@
     name: 'Fat Funky'
     alt_name: ''
 -
+    id: fermin
+    name: 'Videojuegos Fermín'
+    alt_name: ''
+-
     id: firstlight
     name: Firstlight
     alt_name: ''
@@ -486,6 +550,10 @@
 -
     id: fluik
     name: 'Fluik Entertainment'
+    alt_name: ''
+-
+    id: focushill
+    name: 'Focus Hill Games'
     alt_name: ''
 -
     id: footprints
@@ -524,8 +592,16 @@
     name: 'Interactive Fiction'
     alt_name: ''
 -
+    id: gmuhlbock
+    name: 'Greg Muhlbock'
+    alt_name: ''
+-
     id: gnarled
     name: 'Gnarled Scar Manipulations'
+    alt_name: ''
+-
+    id: goa
+    name: 'Good Old Adventure'
     alt_name: ''
 -
     id: goldenbough
@@ -560,6 +636,10 @@
     name: 'Harvester Games'
     alt_name: ''
 -
+    id: hbometon
+    name: 'Héctor Bometón'
+    alt_name: ''
+-
     id: he
     name: 'Humongous Entertainment'
     alt_name: ''
@@ -592,12 +672,20 @@
     name: 'Richard Hofmeier'
     alt_name: ''
 -
+    id: honza
+    name: 'Honza Vávra'
+    alt_name: ''
+-
     id: hueforest
     name: 'Hue Forest Entertainment'
     alt_name: ''
 -
     id: hungry
     name: 'Hungry Software'
+    alt_name: ''
+-
+    id: hungryplanet
+    name: 'Hungry Planet Games'
     alt_name: ''
 -
     id: hypnotix
@@ -676,10 +764,6 @@
     name: 'IPS Computer Group'
     alt_name: ''
 -
-    id: ishtar
-    name: 'Ishtar Games'
-    alt_name: ''
--
     id: israndom
     name: 'IsRandomRandom Games'
     alt_name: ''
@@ -699,6 +783,10 @@
     id: jennybee
     name: 'Jennifer McMurray'
     alt_name: JennyBee
+-
+    id: jminamata
+    name: 'Julia Minamata'
+    alt_name: ''
 -
     id: kdlab
     name: 'K-D Lab'
@@ -734,6 +822,14 @@
 -
     id: lankhor
     name: Lankhor
+    alt_name: ''
+-
+    id: lazysquirrel
+    name: 'Lazy Squirrel'
+    alt_name: ''
+-
+    id: lboni
+    name: 'Lorenzo Boni'
     alt_name: ''
 -
     id: level9
@@ -808,6 +904,10 @@
     name: 'Majestic Studios'
     alt_name: ''
 -
+    id: mattfrith
+    name: 'Matt Frith'
+    alt_name: ''
+-
     id: maximyz
     name: Maximyz
     alt_name: ''
@@ -834,6 +934,10 @@
 -
     id: metropolis
     name: 'Metropolis Software House'
+    alt_name: ''
+-
+    id: mgutierrez
+    name: 'Marcial Gutierrez'
     alt_name: ''
 -
     id: microids
@@ -956,12 +1060,24 @@
     name: 'Off Studio'
     alt_name: ''
 -
+    id: ohrock
+    name: 'Oh, a Rock! Studios'
+    alt_name: ''
+-
     id: optik
     name: "Optik\_Software,\_Inc."
     alt_name: ''
 -
+    id: orbis
+    name: 'Orbis Tertius Games'
+    alt_name: ''
+-
     id: origin
     name: 'Origin Systems'
+    alt_name: ''
+-
+    id: outerzone
+    name: 'The Outer Zone'
     alt_name: ''
 -
     id: owlcave
@@ -1012,6 +1128,10 @@
     name: 'PnC Narratives'
     alt_name: ''
 -
+    id: pnpadv
+    name: 'Point & Pixel Adventures'
+    alt_name: 'Ishtar Games'
+-
     id: polarware
     name: Polarware
     alt_name: ''
@@ -1034,6 +1154,10 @@
 -
     id: prograph
     name: 'Prograph Research'
+    alt_name: ''
+-
+    id: proximity
+    name: 'Proximity Games'
     alt_name: ''
 -
     id: psychodev
@@ -1248,6 +1372,10 @@
     name: Taito
     alt_name: ''
 -
+    id: teamdisaster
+    name: 'Team Disaster'
+    alt_name: CaptainD
+-
     id: teamvsb
     name: 'Team VSB'
     alt_name: ''
@@ -1270,6 +1398,10 @@
 -
     id: threebees
     name: 'Three Bees'
+    alt_name: ''
+-
+    id: tibba
+    name: 'Tibba Games'
     alt_name: ''
 -
     id: tlc
@@ -1312,6 +1444,10 @@
     name: Trilobyte
     alt_name: ''
 -
+    id: triptilt
+    name: TripTilt
+    alt_name: ToxicTuba
+-
     id: trumgottist
     name: 'Trumgottist Entertainment'
     alt_name: ''
@@ -1330,6 +1466,14 @@
 -
     id: ubisoft
     name: Ubisoft
+    alt_name: ''
+-
+    id: ukz
+    name: 'UKZ Arts'
+    alt_name: ''
+-
+    id: underdogs
+    name: 'Innovative Underdogs'
     alt_name: ''
 -
     id: unitedpixtures

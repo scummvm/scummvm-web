@@ -42,6 +42,9 @@
     id: brain
     name: 'Dr. Brain'
 -
+    id: captdisaster
+    name: 'Captain Disaster'
+-
     id: carmen
     name: 'Carmen Sandiego'
 -
@@ -51,8 +54,14 @@
     id: chzo
     name: 'The Chzo Mythos'
 -
+    id: clotilde
+    name: 'Clotilde Soffritti'
+-
     id: conquests
     name: Conquests
+-
+    id: cosmos
+    name: 'Cosmos Quest'
 -
     id: crusader
     name: Crusader
@@ -86,6 +95,9 @@
 -
     id: eob
     name: 'Eye of the Beholder'
+-
+    id: fallingdark
+    name: 'Falling Dark'
 -
     id: fatman
     name: 'The Adventures of Fatman'
@@ -201,6 +213,9 @@
     id: papas
     name: "Papa's Daughters"
 -
+    id: perfecttides
+    name: 'Perfect Tides'
+-
     id: petka
     name: 'Red Comrades'
 -
@@ -258,6 +273,9 @@
     id: startrek
     name: 'Star Trek'
 -
+    id: superego
+    name: Superego
+-
     id: supernova
     name: 'Mission Supernova'
 -
@@ -266,6 +284,9 @@
 -
     id: syberia
     name: Syberia
+-
+    id: symploke
+    name: Symploke
 -
     id: t7g
     name: 'The 7th Guest'
@@ -278,6 +299,9 @@
 -
     id: texmurphy
     name: 'Tex Murphy'
+-
+    id: tftoz
+    name: 'Tales From The Outer Zone'
 -
     id: totaleclipse
     name: 'Total Eclipse'
