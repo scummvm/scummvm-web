@@ -496,7 +496,7 @@
         alias: "fuzzie"
         description: ""
     -
-      name: "Crab"
+      name: "CRAB"
       person:
       -
         name: "Kartik Agarwala"
@@ -538,6 +538,28 @@
       -
         name: "Philippe Valembois"
         alias: "lePhilousophe"
+        description: ""
+    -
+      name: "Darkseed"
+      person:
+      -
+        name: "Eric Fry"
+        alias: "Yuv422"
+        description: ""
+    -
+      name: "DGDS"
+      person:
+      -
+        name: "Matthew Duggan"
+        alias: "stauff"
+        description: ""
+      -
+        name: "Filippos Karapetis"
+        alias: "bluegr"
+        description: ""
+      -
+        name: "Vasco Alexandre da Silva Costa"
+        alias: "vcosta"
         description: ""
     -
       name: "Director"
@@ -1207,6 +1229,17 @@
         alias: "neuromancer"
         description: ""
     -
+      name: "QDEngine"
+      person:
+      -
+        name: "Eugene Sandulenko"
+        alias: "sev"
+        description: ""
+      -
+        name: "Kunal Tiwari"
+        alias: "kunxl.gg"
+        description: ""
+    -
       name: "Queen"
       person:
       -
@@ -1829,12 +1862,20 @@
         alias: "Fury"
         description: "Wintermute 3D"
       -
+        name: "Pawe&#322; Ko&#322;odziejski"
+        alias: "aquadran"
+        description: "Wintermute 3D"
+      -
         name: "Einar Johan T. S&oslash;m&aring;en"
         alias: "somaen"
         description: ""
       -
         name: "Tobia Tesan"
         alias: "t0by"
+        description: ""
+      -
+        name: "???"
+        alias: "lolbot-iichan"
         description: ""
     -
       name: "Z-Vision"
