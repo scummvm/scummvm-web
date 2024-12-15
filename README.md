@@ -59,7 +59,7 @@ During development, you can disable data caching by creating a file called
 ## Contributing
 
 Similar to ScummVM, please use the appropriate project name when contributing:
-* **I10N:** Modifications related to translations.
+* **L10N:** Modifications related to translations.
 * **CSS:** Changes to stylesheets.
 * **TEMPLATES:** Changes to page and component templates.
 * **IMAGES:** Site graphics (Icons are excluded).
