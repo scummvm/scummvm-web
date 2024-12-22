@@ -1,0 +1,56 @@
+---
+title: ScummVM 2.9.0: "Close Encounters of the 2.9th Kind" has landed
+author: criezy
+date: 1734890400
+---
+
+Almost one year after the last major release, and just in time for Christmas, ScummVM 2.9.0 - "Close Encounters of the 2.9th Kind" has landed. Amongst its gifts, you will find 15 newly supported games and a new supported platform.
+
+## New games
+* _The Adventures of the Good Soldier Schweik_
+* _Backyard Basketball_
+* _Castle Master_
+* _Marvellous Mice Adventures: Meeting Sea Rat_
+* _Marvellous Mice Adventures: Sea Rat's Birthday_
+* _Mask Show_
+* _Moonbase Commander_
+* _Orion Burger_
+* _Rise of the Dragon_
+* _The Space Bar_
+* _Thimbleweed Park_[^1]
+* _Total Eclipse_
+* _Total Eclipse 2_
+* _Unrest_
+* _Wait for it! Issue 3. Song for a Hare_
+
+## New platform
+ScummVM now has an official Sailfish OS port. While we are waiting for official builds to appear, adventurous users are welcome to build their own and very personalized copy!
+
+## Notable engine enhancements
+The AGS engine has been brought up to version 3.6.1.30 from upstream, which adds support for some recently released games, such as Stranger in Utopia, The Phantom Fellows, and It Takes Two to Tangle.
+
+Keymapper support was added to more than 20 engines, allowing customization of the keys, mouse buttons, and joystick buttons used to play the games.
+
+The SCI engine benefits from numerous script fixes for various games and an impressive speech repair feature for Gabriel Knight 1 CD.
+
+The SCUMM engine sees graphics and audio improvements for the Macintosh version of several games.
+
+## Notable platform enhancements
+The macOS release for recent Intel and Apple Silicon systems has been signed and notarized, so it has been accepted by Apple Gatekeeper.
+
+The Android release now supports Android 15 and has improved gamepad support.
+
+The iOS release adds support for the Apple Pencil, which was one of the most requested features.
+
+----
+
+The full [release notes](https://downloads.scummvm.org/frs/scummvm/2.9.0/ReleaseNotes.html) contain a comprehensive summary of the changes and enhancements.
+
+On [our downloads page](https://www.scummvm.org/downloads/), you can find the downloads for various platforms. The iOS version is available in the [Apple App Store](https://apps.apple.com/us/app/scummvm/id6446184412) and the Android versions should soon be available in the [Google Play Store](https://play.google.com/store/apps/details?id=org.scummvm.scummvm) (once the update has been approved). If you are using Windows, macOS, or either the Ubuntu Snap or Flatpak packages, the autoupdater will assist you in updating to ScummVM 2.9.0.
+
+Our macOS users with a 64-bit Intel Mac and a macOS version between 10.9 and 10.12 will need to download manually the new update from [our downloads page](https://www.scummvm.org/downloads/) using the "Mac OS X 10.9+ Intel 64 Bits (without Sparkle) Disk Image" download. The version downloaded using the auto-update feature now requires macOS 10.13 or above.
+
+Play the games, and enjoy ScummVM with a hot cup of grog[^2]!
+
+[^1]: Thimbleweed Park is only supported on a subset of platforms as it requires OpenGL with Shaders.
+[^2]: Other beverages available.
