@@ -363,3 +363,10 @@
     minor: '8'
     patch: '1'
     name: 'Oh MMy!'
+-
+    id: 2.9.0
+    release_date: 'December 22, 2024'
+    major: '2'
+    minor: '9'
+    patch: '0'
+    name: 'Close Encounters of the 2.9th Kind'

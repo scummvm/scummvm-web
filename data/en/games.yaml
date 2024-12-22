@@ -672,6 +672,20 @@
     wikipedia_page: Waxworks_(1992_video_game)
     series_id: ''
 -
+    id: 'ags:2080wallcity'
+    name: '2080 Wall City Lockdown'
+    engine_id: ags
+    company_id: ppa
+    year: '2024'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:3geeks'
     name: '3 GEEKS'
     engine_id: ags
@@ -798,6 +812,48 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:advallinthegame'
+    name: 'Adventure: All In The Game'
+    engine_id: ags
+    company_id: akril
+    year: '2011'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: advags
+-
+    id: 'ags:adventuretheinsidejob'
+    name: 'Adventure: The Inside Job'
+    engine_id: ags
+    company_id: akril
+    year: '2008'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: advags
+-
+    id: 'ags:advwelcome'
+    name: 'Adventure: Welcome to the Genre'
+    engine_id: ags
+    company_id: akril
+    year: '2018'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: advags
+-
     id: 'ags:afragmentofher'
     name: 'A Fragment of Her'
     engine_id: ags
@@ -850,6 +906,20 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:alandlordsdream'
+    name: "A Landlord's Dream"
+    engine_id: ags
+    company_id: csacchi
+    year: '2015'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: '- [Itch.io](https://losttraindude.itch.io/a-landlords-dream)'
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -920,6 +990,20 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://mattfrith.itch.io/among-thorns)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:anchorite'
+    name: 'The Anchorite'
+    engine_id: ags
+    company_id: bbool
+    year: '2024'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: '- [Itch.io](https://beyondbooleans.itch.io/the-anchorite)'
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -1106,6 +1190,146 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:barnrunner0'
+    name: 'Barn Runner 0: The Case of the Runaway Robot'
+    engine_id: ags
+    company_id: tacky
+    year: '2003'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: barnrunner
+-
+    id: 'ags:barnrunner1p1'
+    name: 'Barn Runner 1: The Armageddon Eclair (Part 1)'
+    engine_id: ags
+    company_id: tacky
+    year: '2003'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: barnrunner
+-
+    id: 'ags:barnrunner1p2'
+    name: 'Barn Runner 1: The Armageddon Eclair (Part 2)'
+    engine_id: ags
+    company_id: tacky
+    year: '2003'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: barnrunner
+-
+    id: 'ags:barnrunner3'
+    name: "Barn Runner 3: Don't Jerk The Trigger of Love"
+    engine_id: ags
+    company_id: tacky
+    year: '2004'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: barnrunner
+-
+    id: 'ags:barnrunner4'
+    name: 'Barn Runner 4: The Prick Who Came In From the Cold'
+    engine_id: ags
+    company_id: tacky
+    year: '2007'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: barnrunner
+-
+    id: 'ags:barnrunner5p1'
+    name: 'Barn Runner 5: The Forever Friday (Part 1)'
+    engine_id: ags
+    company_id: tacky
+    year: '2008'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: barnrunner
+-
+    id: 'ags:barnrunner5p2'
+    name: 'Barn Runner 5: The Forever Friday (Part 2)'
+    engine_id: ags
+    company_id: tacky
+    year: '2008'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: barnrunner
+-
+    id: 'ags:barnrunner5p3'
+    name: 'Barn Runner 5: The Forever Friday (Part 3)'
+    engine_id: ags
+    company_id: tacky
+    year: '2011'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: barnrunner
+-
+    id: 'ags:barnrunner5p5'
+    name: 'Barn Runner 5: The Forever Friday (Part 5)'
+    engine_id: ags
+    company_id: tacky
+    year: '2023'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: barnrunner
+-
+    id: 'ags:beatthebuzzer'
+    name: 'Beat the Buzzer'
+    engine_id: ags
+    company_id: falsely
+    year: '2022'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:beer'
     name: Beer!
     engine_id: ags
@@ -1117,6 +1341,20 @@
     zoom_id: ''
     additional_stores: "- [Developer's Website](https://www.crystalshard.net/)"
     datafiles: Beer!
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:beforethedarkcrystal2'
+    name: 'Before the Dark Crystal II'
+    engine_id: ags
+    company_id: marion
+    year: '2015'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
     wikipedia_page: ''
     series_id: ''
 -
@@ -1203,6 +1441,146 @@
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
+-
+    id: 'ags:bjcase1'
+    name: 'Ben Jordan P.I. Case 1: In Search of the Skunk-Ape'
+    engine_id: ags
+    company_id: grundislav
+    year: '2004'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: bjordan
+-
+    id: 'ags:bjcase2'
+    name: 'Ben Jordan P.I. Case 2: The Lost Galleon of the Salton Sea'
+    engine_id: ags
+    company_id: grundislav
+    year: '2004'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: bjordan
+-
+    id: 'ags:bjcase3'
+    name: 'Ben Jordan P.I. Case 3: The Sorceress of Smailholm'
+    engine_id: ags
+    company_id: grundislav
+    year: '2004'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: bjordan
+-
+    id: 'ags:bjcase4'
+    name: 'Ben Jordan P.I. Case 4: Horror at Number 50'
+    engine_id: ags
+    company_id: grundislav
+    year: '2005'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: bjordan
+-
+    id: 'ags:bjcase5'
+    name: 'Ben Jordan P.I. Case 5: Land of the Rising Dead'
+    engine_id: ags
+    company_id: grundislav
+    year: '2006'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: bjordan
+-
+    id: 'ags:bjcase6'
+    name: 'Ben Jordan P.I. Case 6: Scourge of the Sea People'
+    engine_id: ags
+    company_id: grundislav
+    year: '2007'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: bjordan
+-
+    id: 'ags:bjcase7'
+    name: 'Ben Jordan P.I. Case 7: The Cardinal Sins'
+    engine_id: ags
+    company_id: grundislav
+    year: '2008'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: bjordan
+-
+    id: 'ags:bjcase8'
+    name: 'Ben Jordan P.I. Case 8: Relics of the Past'
+    engine_id: ags
+    company_id: grundislav
+    year: '2012'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: bjordan
+-
+    id: 'ags:blackfriday'
+    name: 'Black Friday'
+    engine_id: ags
+    company_id: danvzare
+    year: '2018'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: blackfriday
+-
+    id: 'ags:blackfriday2'
+    name: 'Autumn of Death: Black Friday II'
+    engine_id: ags
+    company_id: danvzare
+    year: '2022'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: blackfriday
 -
     id: 'ags:blacksect2'
     name: 'Black Sect 2: The Cursed Crypt - Remake'
@@ -1302,6 +1680,76 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:bohemianyard'
+    name: 'Bohemian Yard'
+    engine_id: ags
+    company_id: bjovian
+    year: '2019'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:brokenwindows1'
+    name: 'Broken Windows - Chapter 1'
+    engine_id: ags
+    company_id: gocgames
+    year: '2020'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: bwindows
+-
+    id: 'ags:brokenwindows2'
+    name: 'Broken Windows - Chapter 2'
+    engine_id: ags
+    company_id: gocgames
+    year: '2020'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: bwindows
+-
+    id: 'ags:brokenwindows3'
+    name: 'Broken Windows - Chapter 3'
+    engine_id: ags
+    company_id: gocgames
+    year: '2021'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: bwindows
+-
+    id: 'ags:brokenwindows4'
+    name: 'Broken Windows - Chapter 4'
+    engine_id: ags
+    company_id: gocgames
+    year: '2023'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: bwindows
+-
     id: 'ags:brownieadv1'
     name: "Brownie's Adventure"
     engine_id: ags
@@ -1312,6 +1760,20 @@
     gog_id: brownies_adventure
     zoom_id: ''
     additional_stores: '- [Itch.io](https://beardyramblingames.itch.io/brownies-adventure)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:bustinthebastille'
+    name: "Bustin' the Bastille"
+    engine_id: ags
+    company_id: blondbraid
+    year: '2017'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -1358,6 +1820,20 @@
     wikipedia_page: ''
     series_id: captdisaster
 -
+    id: 'ags:captaindownes'
+    name: 'Captain Downes and the Pirate Princess'
+    engine_id: ags
+    company_id: blondbraid
+    year: '2018'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:carnival'
     name: Carnival
     engine_id: ags
@@ -1386,6 +1862,20 @@
     wikipedia_page: Cart_Life
     series_id: ''
 -
+    id: 'ags:casenoir'
+    name: 'Case Noir'
+    engine_id: ags
+    company_id: twotales
+    year: '2015'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:castleagony'
     name: 'Castle Agony'
     engine_id: ags
@@ -1407,6 +1897,34 @@
     year: '2022'
     moby_id: ''
     steam_id: '1595390'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:cedricandtherevolution'
+    name: 'Cedric and the Revolution'
+    engine_id: ags
+    company_id: origami
+    year: '2005'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:challengetentacle'
+    name: 'Challenge of the Tentacle'
+    engine_id: ags
+    company_id: amatouk
+    year: '2022'
+    moby_id: ''
+    steam_id: ''
     gog_id: ''
     zoom_id: ''
     additional_stores: ''
@@ -1442,6 +1960,20 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:chatroom'
+    name: Chatroom
+    engine_id: ags
+    company_id: jnuen
+    year: '2008'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:chronicleofinnsmouth'
     name: 'Chronicle of Innsmouth'
     engine_id: ags
@@ -1461,6 +1993,20 @@
     engine_id: ags
     company_id: bchandler
     year: '2011'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:clockworklabyrinth'
+    name: 'The Clockwork Labyrinth'
+    engine_id: ags
+    company_id: lngames
+    year: '2018'
     moby_id: ''
     steam_id: ''
     gog_id: ''
@@ -1498,6 +2044,20 @@
     wikipedia_page: ''
     series_id: clotilde
 -
+    id: 'ags:comedyquest'
+    name: 'Comedy Quest'
+    engine_id: ags
+    company_id: crothers
+    year: '2015'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:contact'
     name: Contact
     engine_id: ags
@@ -1522,6 +2082,20 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://ukz530.itch.io/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:contrapasso'
+    name: "Commissar's Contrapasso"
+    engine_id: ags
+    company_id: blondbraid
+    year: '2018'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -1582,6 +2156,20 @@
     wikipedia_page: ''
     series_id: cosmos
 -
+    id: 'ags:crepefields'
+    name: 'Crepe Fields: A Scare Among Crows'
+    engine_id: ags
+    company_id: danvzare
+    year: '2021'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:crimsondiamond'
     name: 'The Crimson Diamond'
     engine_id: ags
@@ -1603,6 +2191,20 @@
     year: '2016'
     moby_id: '214265'
     steam_id: '551840'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:dancetilyoudrop'
+    name: "Dance Til' You Drop!"
+    engine_id: ags
+    company_id: progzmax
+    year: '2005'
+    moby_id: ''
+    steam_id: ''
     gog_id: ''
     zoom_id: ''
     additional_stores: ''
@@ -1648,6 +2250,20 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://postmodernadventures.itch.io/billy)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:deathworeendlessfeathersdisk1'
+    name: 'Death Wore Endless Feathers Disk 1'
+    engine_id: ags
+    company_id: scavenger
+    year: '2009'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -1722,6 +2338,34 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:doth'
+    name: 'Day of the Hamster'
+    engine_id: ags
+    company_id: fractal
+    year: '2024'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:dots'
+    name: 'Day of the Sandwich'
+    engine_id: ags
+    company_id: fractal
+    year: '2024'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:downfall2009'
     name: 'Downfall (2009)'
     engine_id: ags
@@ -1764,6 +2408,20 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:drlutztimetravelmachine'
+    name: 'Dr. Lutz Time Travel Machine'
+    engine_id: ags
+    company_id: ppa
+    year: '2007'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:dustbowl'
     name: Dustbowl
     engine_id: ags
@@ -1771,6 +2429,48 @@
     year: '2015'
     moby_id: '110379'
     steam_id: '367110'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:dutyandbeyond'
+    name: 'Duty and Beyond'
+    engine_id: ags
+    company_id: wandering
+    year: '2006'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:dutyfirst'
+    name: 'Duty First'
+    engine_id: ags
+    company_id: gugames
+    year: '2020'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:egress'
+    name: 'Egress - The Test of STS-417'
+    engine_id: ags
+    company_id: krams
+    year: '2011'
+    moby_id: ''
+    steam_id: ''
     gog_id: ''
     zoom_id: ''
     additional_stores: ''
@@ -1788,6 +2488,20 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://postmodernadventures.itch.io/an-english-haunting)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:errand'
+    name: Errand
+    engine_id: ags
+    company_id: crystalshard
+    year: '2012'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -1904,6 +2618,34 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:fanbots'
+    name: Fanbots
+    engine_id: ags
+    company_id: csacchi
+    year: '2015'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: '- [Itch.io](https://losttraindude.itch.io/fanbots)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:fayeking'
+    name: 'Faye King: Jungle Jeopardy'
+    engine_id: ags
+    company_id: twotales
+    year: '2015'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:featherweight'
     name: Featherweight
     engine_id: ags
@@ -2002,6 +2744,20 @@
     wikipedia_page: Gemini_Rue
     series_id: ''
 -
+    id: 'ags:gesundheit'
+    name: Gesundheit!
+    engine_id: ags
+    company_id: mhammill
+    year: '2007'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:ghostdream'
     name: Ghostdream
     engine_id: ags
@@ -2026,6 +2782,20 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://ukz530.itch.io/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:gnrblex'
+    name: GNRBLEX
+    engine_id: ags
+    company_id: wham
+    year: '2019'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -2114,6 +2884,20 @@
     wikipedia_page: ''
     series_id: gob
 -
+    id: 'ags:gray'
+    name: Gray
+    engine_id: ags
+    company_id: fitz
+    year: '2012'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:graceward'
     name: Graceward
     engine_id: ags
@@ -2170,12 +2954,68 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:gurktrouble'
+    name: 'Gurk in Trouble - A Yip Quest Story'
+    engine_id: ags
+    company_id: ramorama
+    year: '2024'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: '- [Itch.io](https://ramoramainteractive.itch.io/gurk-in-trouble-a-yip-quest-story)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:halloweenparty'
+    name: 'The Halloween Party'
+    engine_id: ags
+    company_id: gugames
+    year: '2020'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:hallwayofadventures'
+    name: 'Hallway of Adventures'
+    engine_id: ags
+    company_id: wandering
+    year: '2006'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:happyface'
     name: ^_^
     engine_id: ags
     company_id: bchandler
     year: '2012'
     moby_id: '78316'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:hardspace'
+    name: 'Hard Space: Conquest of the Gayliks!'
+    engine_id: ags
+    company_id: progzmax
+    year: '2010'
+    moby_id: ''
     steam_id: ''
     gog_id: ''
     zoom_id: ''
@@ -2196,6 +3036,20 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: Haunting_at_Cliffhouse
+    series_id: ''
+-
+    id: 'ags:heatwave'
+    name: Heatwave
+    engine_id: ags
+    company_id: scavenger
+    year: '2013'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: 'ags:heed'
@@ -2254,6 +3108,34 @@
     wikipedia_page: Heroine%27s_Quest
     series_id: ''
 -
+    id: 'ags:highlandspirit'
+    name: 'Highland Spirit'
+    engine_id: ags
+    company_id: gocgames
+    year: '2022'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:hjarta'
+    name: Hjarta
+    engine_id: ags
+    company_id: 8bit
+    year: '2015'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:iamjason'
     name: IAMJASON
     engine_id: ags
@@ -2264,6 +3146,20 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: "- [Developer's Website](https://calicoreverie.co.uk/)"
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:imfree'
+    name: "I'm free"
+    engine_id: ags
+    company_id: akkad
+    year: '2012'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: "- [Developer's Website](https://akkadestudios.blogspot.com/p/our-games.html)"
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -2348,6 +3244,62 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://laurahunt.itch.io/if-on-a-winters-night-four-travelers)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:irentedaboat'
+    name: 'I Rented a Boat'
+    engine_id: ags
+    company_id: eporto
+    year: '2021'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:iwantanidentity'
+    name: 'I want an Identity'
+    engine_id: ags
+    company_id: akkad
+    year: '2014'
+    moby_id: '81781'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: "- [Developer's Website](https://akkadestudios.blogspot.com/p/our-games.html)"
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:iwanttodie'
+    name: 'I want to die'
+    engine_id: ags
+    company_id: akkad
+    year: '2007'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: "- [Developer's Website](https://akkadestudios.blogspot.com/p/our-games.html)"
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:iwanttodieremake'
+    name: 'I want to die Remake'
+    engine_id: ags
+    company_id: akkad
+    year: '2021'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: "- [Developer's Website](https://akkadestudios.blogspot.com/p/our-games.html)"
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -2534,6 +3486,20 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:lacroixpan'
+    name: 'La Croix Pan'
+    engine_id: ags
+    company_id: jnuen
+    year: '2007'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:lamplightcity'
     name: 'Lamplight City'
     engine_id: ags
@@ -2632,6 +3598,48 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:limeylizardwastewizard'
+    name: 'Limey Lizard: Waste Wizard!'
+    engine_id: ags
+    company_id: progzmax
+    year: '2008'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:lonkeyisland'
+    name: 'The Tale of Lonkey Island'
+    engine_id: ags
+    company_id: fan
+    year: '2016'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:lucasmaniac'
+    name: 'Lucas Maniac!'
+    engine_id: ags
+    company_id: fan
+    year: '2006'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:mage'
     name: "Mage's Initiation: Reign of the Elements"
     engine_id: ags
@@ -2702,6 +3710,76 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:maverickgunn'
+    name: 'Maverick Gunn and the Eye of Oggun'
+    engine_id: ags
+    company_id: ppa
+    year: '2020'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:melonhead'
+    name: 'Melon Head'
+    engine_id: ags
+    company_id: wavey
+    year: '2023'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:melrin1'
+    name: 'Melrin: The Disciple Ordeal'
+    engine_id: ags
+    company_id: brixoft
+    year: '2003'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: melrin
+-
+    id: 'ags:melrin2'
+    name: 'Melrin: The Pendant Quest'
+    engine_id: ags
+    company_id: brixoft
+    year: '2004'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: melrin
+-
+    id: 'ags:melrin3'
+    name: 'Melrin: The Dragon Menace'
+    engine_id: ags
+    company_id: brixoft
+    year: '2004'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: melrin
+-
     id: 'ags:memoriae'
     name: Memoriae
     engine_id: ags
@@ -2712,6 +3790,20 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: "- [Developer's Website](https://calicoreverie.co.uk/)"
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:menial'
+    name: 'Menial - A Utopian Bagel Simulator'
+    engine_id: ags
+    company_id: wavey
+    year: '2023'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -2758,6 +3850,48 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:metrocity'
+    name: 'METRO CITY: Night Shift'
+    engine_id: ags
+    company_id: straystar
+    year: '2023'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: metrocity
+-
+    id: 'ags:metrocityresistance'
+    name: 'METRO CITY: Resistance'
+    engine_id: ags
+    company_id: straystar
+    year: '2024'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: metrocity
+-
+    id: 'ags:mindseye'
+    name: "Mind's Eye"
+    engine_id: ags
+    company_id: progzmax
+    year: '2005'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:moorlandsonata'
     name: 'Moorland Sonata'
     engine_id: ags
@@ -2768,6 +3902,20 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://emptyworld-games.itch.io/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:mort'
+    name: 'MORT: Manageably OK Response Team'
+    engine_id: ags
+    company_id: rootbound
+    year: '2024'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -2799,6 +3947,62 @@
     datafiles: Mudlarks
     wikipedia_page: ''
     series_id: ''
+-
+    id: 'ags:murderinawheel'
+    name: 'Murder in a Wheel'
+    engine_id: ags
+    company_id: rthonen
+    year: '2007'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:murranchronicles1'
+    name: 'Murran Chronicles - Episode 1: Jersey Devil'
+    engine_id: ags
+    company_id: weggie
+    year: '2009'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: murran
+-
+    id: 'ags:murranchronicles2'
+    name: 'Murran Chronicles - Episode 2: Talons of Terror'
+    engine_id: ags
+    company_id: weggie
+    year: '2009'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: murran
+-
+    id: 'ags:murranchronicles3'
+    name: 'Murran Chronicles - Episode 3: Lifedrinker of Landsdowne'
+    engine_id: ags
+    company_id: weggie
+    year: '2011'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: murran
 -
     id: 'ags:mybigsister'
     name: 'My Big Sister'
@@ -2838,6 +4042,20 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://perpetualdiversion.itch.io/mbtk)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:nanobots'
+    name: Nanobots
+    engine_id: ags
+    company_id: theivy
+    year: '2008'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -2894,6 +4112,34 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://postmodernadventures.itch.io/nightmare-frames)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:ninatonnerre'
+    name: 'Nina Tonnerre'
+    engine_id: ags
+    company_id: marion
+    year: '2018'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:noactionjackson'
+    name: 'No-Action Jackson'
+    engine_id: ags
+    company_id: botoole
+    year: '2004'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -3024,6 +4270,20 @@
     wikipedia_page: ''
     series_id: ozorwell
 -
+    id: 'ags:patchwork'
+    name: Patchwork
+    engine_id: ags
+    company_id: iulyanov
+    year: '2012'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:perfecttides'
     name: 'Perfect Tides'
     engine_id: ags
@@ -3136,6 +4396,34 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:ponderabilia'
+    name: Ponderabilia
+    engine_id: ags
+    company_id: wdehert
+    year: '2013'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:postcardadv'
+    name: 'Postcard Adventure'
+    engine_id: ags
+    company_id: ppa
+    year: '2021'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:primordia'
     name: Primordia
     engine_id: ags
@@ -3164,6 +4452,20 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:providence'
+    name: Providence
+    engine_id: ags
+    company_id: 8bit
+    year: '2015'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:puzzlebots'
     name: 'Puzzle Bots'
     engine_id: ags
@@ -3176,6 +4478,20 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: Puzzle_Bots
+    series_id: ''
+-
+    id: 'ags:pxenophobe'
+    name: 'Project Xenophobe'
+    engine_id: ags
+    company_id: sektor13
+    year: '2004'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: 'ags:qfg2agdi'
@@ -3248,6 +4564,48 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:rabbithill'
+    name: 'Rabbit Hill'
+    engine_id: ags
+    company_id: twotales
+    year: '2016'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:ramghost'
+    name: 'RAM Ghost'
+    engine_id: ags
+    company_id: lostcraft
+    year: '2013'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:reactor09'
+    name: 'Reactor 09'
+    engine_id: ags
+    company_id: origami
+    year: '2006'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:redbow'
     name: 'Red Bow'
     engine_id: ags
@@ -3304,6 +4662,34 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:robotragedy'
+    name: Robotragedy
+    engine_id: ags
+    company_id: ppa
+    year: '2005'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: robotragedy
+-
+    id: 'ags:robotragedy2'
+    name: 'Robotragedy 2 - Countdown To Doomsday'
+    engine_id: ags
+    company_id: ppa
+    year: '2006'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: robotragedy
+-
     id: 'ags:roguestate'
     name: 'Rogue State'
     engine_id: ags
@@ -3356,6 +4742,34 @@
     gog_id: the_samaritan_paradox
     zoom_id: ''
     additional_stores: '- [FireFlower Games Store](https://fireflowergames.com/products/the-samaritan-paradox/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:sarmanyanha'
+    name: 'The Manuscripts of Sarmanyanha'
+    engine_id: ags
+    company_id: ppa
+    year: '2019'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:scrapmanager'
+    name: 'S.A.M. - Scrap Allocation Manager'
+    engine_id: ags
+    company_id: twotales
+    year: '2018'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -3458,6 +4872,20 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:skumring'
+    name: Skumring
+    engine_id: ags
+    company_id: 8bit
+    year: '2013'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:slazakloss'
     name: 'The Tragic Loss of M. Slazak'
     engine_id: ags
@@ -3472,6 +4900,48 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:snipermotherland'
+    name: 'Sniper and spotter serving the motherland'
+    engine_id: ags
+    company_id: blondbraid
+    year: '2017'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: sniper
+-
+    id: 'ags:sniperpatriotic'
+    name: 'Sniper and spotter being patriotic'
+    engine_id: ags
+    company_id: blondbraid
+    year: '2016'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: sniper
+-
+    id: 'ags:snipertower'
+    name: 'Sniper and spotter climbing a tower'
+    engine_id: ags
+    company_id: blondbraid
+    year: '2018'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: sniper
+-
     id: 'ags:snowproblem'
     name: 'Snow Problem'
     engine_id: ags
@@ -3482,6 +4952,20 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://captaind.itch.io/snow-problem)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:somethingpipes'
+    name: "There's Something in the Pipes"
+    engine_id: ags
+    company_id: falsely
+    year: '2022'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -3510,6 +4994,20 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://triptilt.itch.io/sphonx)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:spooks'
+    name: Spooks
+    engine_id: ags
+    company_id: theivy
+    year: '2006'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -3612,6 +5110,34 @@
     wikipedia_page: 'Space_Quest:_Vohaul_Strikes_Back'
     series_id: ''
 -
+    id: 'ags:stairquest'
+    name: 'Stair Quest'
+    engine_id: ags
+    company_id: nomore
+    year: '2016'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:stargateadv'
+    name: 'Stargate Adventure'
+    engine_id: ags
+    company_id: sektor13
+    year: '2005'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:starshipquasar'
     name: 'Starship Quasar'
     engine_id: ags
@@ -3692,6 +5218,20 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: '- [Itch.io](https://lorenzob.itch.io/)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:subterra'
+    name: Subterra
+    engine_id: ags
+    company_id: twotales
+    year: '2018'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -3836,6 +5376,20 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:taleofalegacy'
+    name: 'A Tale of a Legacy'
+    engine_id: ags
+    company_id: akkad
+    year: '2020'
+    moby_id: '146019'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: "- [Developer's Website](https://akkadestudios.blogspot.com/p/our-games.html)"
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:tales'
     name: Tales
     engine_id: ags
@@ -3846,6 +5400,20 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: "- [Developer's Website](http://apemarina.altervista.org/)"
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:teafortwo'
+    name: 'Tea for Two - A Detective Logan Case'
+    engine_id: ags
+    company_id: eporto
+    year: '2019'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -3862,6 +5430,34 @@
     additional_stores: "- [Developer's Website](https://www.wadjeteyegames.com/games/technobabylon/)"
     datafiles: Technobabylon
     wikipedia_page: Technobabylon
+    series_id: ''
+-
+    id: 'ags:teethglass'
+    name: 'Teeth of Glass'
+    engine_id: ags
+    company_id: bbool
+    year: '2024'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: '- [Itch.io](https://beyondbooleans.itch.io/teeth-of-glass)'
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:terrorofthevampire'
+    name: 'Terror of the Vampire!'
+    engine_id: ags
+    company_id: scavenger
+    year: '2017'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: 'ags:tftoz1'
@@ -3976,6 +5572,34 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:thebum'
+    name: 'The Bum'
+    engine_id: ags
+    company_id: retrodefender
+    year: '2013'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:thecabin'
+    name: 'The Cabin'
+    engine_id: ags
+    company_id: stonespring
+    year: '2020'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:thecastle'
     name: 'The Castle'
     engine_id: ags
@@ -4004,12 +5628,96 @@
     wikipedia_page: The_Cat_Lady
     series_id: ''
 -
+    id: 'ags:thegardenofhades'
+    name: 'The Garden of Hades'
+    engine_id: ags
+    company_id: lngames
+    year: '2021'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:theinfinitystring'
+    name: 'The Infinity String'
+    engine_id: ags
+    company_id: sektor13
+    year: '2007'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:thejackyard'
+    name: 'The Jackyard'
+    engine_id: ags
+    company_id: hofmeier
+    year: '2008'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:themarionette'
     name: 'The Marionette'
     engine_id: ags
     company_id: effigy
     year: '2009'
     moby_id: '44870'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:theoracle'
+    name: 'The Oracle'
+    engine_id: ags
+    company_id: ecouto
+    year: '2006'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:therail'
+    name: 'The Rail'
+    engine_id: ags
+    company_id: technocrat
+    year: '2013'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:therobolovers'
+    name: 'The Robolovers'
+    engine_id: ags
+    company_id: brane
+    year: '2017'
+    moby_id: ''
     steam_id: ''
     gog_id: ''
     zoom_id: ''
@@ -4074,6 +5782,76 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'ags:thevacuum'
+    name: 'The Vacuum'
+    engine_id: ags
+    company_id: dproctor
+    year: '2008'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:thevisitor1'
+    name: 'The Visitor'
+    engine_id: ags
+    company_id: nyce
+    year: '2011'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: visitor
+-
+    id: 'ags:thevisitor2'
+    name: 'The Visitor 2'
+    engine_id: ags
+    company_id: nyce
+    year: '2012'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: visitor
+-
+    id: 'ags:thevisitor3'
+    name: 'The Visitor 3'
+    engine_id: ags
+    company_id: nyce
+    year: '2015'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: visitor
+-
+    id: 'ags:thewhitecanvas'
+    name: 'The White Canvas'
+    engine_id: ags
+    company_id: akkad
+    year: '2015'
+    moby_id: '71217'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: "- [Developer's Website](https://akkadestudios.blogspot.com/p/our-games.html)"
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'ags:timegentlemenplease'
     name: 'Time Gentlemen, Please!'
     engine_id: ags
@@ -4086,6 +5864,20 @@
     additional_stores: ''
     datafiles: ''
     wikipedia_page: 'https://en.wikipedia.org/wiki/Time_Gentlemen,_Please!_(video_game)'
+    series_id: ''
+-
+    id: 'ags:trappedbalcony'
+    name: 'Trapped On The Balcony'
+    engine_id: ags
+    company_id: absurdum
+    year: '2023'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: 'ags:trilbysnotes'
@@ -4108,6 +5900,20 @@
     company_id: fullyramblomatic
     year: '2007'
     moby_id: '31179'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:tunnelvision'
+    name: 'Tunnel Vision'
+    engine_id: ags
+    company_id: rootbound
+    year: '2023'
+    moby_id: ''
     steam_id: ''
     gog_id: ''
     zoom_id: ''
@@ -4184,6 +5990,20 @@
     additional_stores: "- [Developer's Website](https://www.wadjeteyegames.com/games/unavowed/)"
     datafiles: ''
     wikipedia_page: Unavowed
+    series_id: ''
+-
+    id: 'ags:unprintablemagenta'
+    name: 'The unprintable Magenta'
+    engine_id: ags
+    company_id: fitz
+    year: '2015'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
     series_id: ''
 -
     id: 'ags:untildawn'
@@ -4294,6 +6114,90 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: "- [Developer's Website](https://calicoreverie.co.uk/)"
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:wendywhedon1'
+    name: 'Wendy Whedon chapitre 1 : Le Ranch Mortensen'
+    engine_id: ags
+    company_id: marion
+    year: '2019'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: wwhedon
+-
+    id: 'ags:wendywhedon2'
+    name: 'Wendy Whedon chapitre 2 : Les Rejets de la Nature'
+    engine_id: ags
+    company_id: marion
+    year: '2019'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: wwhedon
+-
+    id: 'ags:wendywhedon3'
+    name: 'Wendy Whedon chapitre 3 : Le Kasshinkston Express'
+    engine_id: ags
+    company_id: marion
+    year: '2019'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: wwhedon
+-
+    id: 'ags:whatlinusbruckmansees'
+    name: 'What Linus Bruckman Sees When His Eyes Are Closed'
+    engine_id: ags
+    company_id: xii
+    year: '2006'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:worldisweird'
+    name: 'The World is Weird'
+    engine_id: ags
+    company_id: falsely
+    year: '2020'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'ags:yipquest'
+    name: 'Yip Quest'
+    engine_id: ags
+    company_id: ramorama
+    year: '2023'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: '- [Itch.io](https://ramoramainteractive.itch.io/yip-quest)'
     datafiles: ''
     wikipedia_page: ''
     series_id: ''
@@ -4660,6 +6564,20 @@
     additional_stores: ''
     datafiles: Versailles_1685
     wikipedia_page: Versailles_1685
+    series_id: ''
+-
+    id: 'darkseed:darkseed'
+    name: 'Dark Seed'
+    engine_id: darkseed
+    company_id: cyberdreams
+    year: '1992'
+    moby_id: '302'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Dark_Seed_(video_game)
     series_id: ''
 -
     id: 'dgds:beamish'

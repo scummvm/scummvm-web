@@ -16,8 +16,16 @@
     name: '4X Technologies'
     alt_name: ''
 -
+    id: 8bit
+    name: 'Eight Bit Skyline'
+    alt_name: ''
+-
     id: abeckett
     name: 'Alasdair Beckett'
+    alt_name: ''
+-
+    id: absurdum
+    name: 'Absurdum Codice'
     alt_name: ''
 -
     id: access
@@ -74,6 +82,14 @@
 -
     id: akella
     name: Akella
+    alt_name: ''
+-
+    id: akkad
+    name: 'Akkad Estudios'
+    alt_name: ''
+-
+    id: akril
+    name: Akril
     alt_name: ''
 -
     id: alawar
@@ -200,9 +216,17 @@
     name: 'Big Orc Software'
     alt_name: ''
 -
+    id: bjovian
+    name: 'Zbychu Jowisz'
+    alt_name: 'Brick Jovian'
+-
     id: blekinge
     name: 'Blekinge Institute of Technology'
     alt_name: ''
+-
+    id: blondbraid
+    name: 'Gertrud Bondesson'
+    alt_name: Blondbraid
 -
     id: bluebyte
     name: 'Blue Byte Software'
@@ -210,6 +234,18 @@
 -
     id: boffo
     name: 'Boffo Intergalactic Games, Inc'
+    alt_name: ''
+-
+    id: botoole
+    name: "Britton O'Toole"
+    alt_name: ''
+-
+    id: brane
+    name: 'Brane Games'
+    alt_name: ''
+-
+    id: brixoft
+    name: 'Brixoft Software'
     alt_name: ''
 -
     id: brocanty
@@ -340,6 +376,10 @@
     name: 'Croqueta Asesina Studios'
     alt_name: ''
 -
+    id: crothers
+    name: 'Crothers Games'
+    alt_name: ''
+-
     id: cryo
     name: 'Cryo Interactive'
     alt_name: ''
@@ -351,6 +391,10 @@
     id: crystalshard
     name: 'Crystal Shard'
     alt_name: ''
+-
+    id: csacchi
+    name: 'Christopher Sacchi'
+    alt_name: LostTrainDude
 -
     id: cuc
     name: 'CUC Software International'
@@ -366,6 +410,10 @@
 -
     id: daedalic
     name: 'Daedalic Entertainment'
+    alt_name: ''
+-
+    id: danvzare
+    name: DanVzare
     alt_name: ''
 -
     id: daringtouch
@@ -436,6 +484,10 @@
     name: Dosowisko.net
     alt_name: ''
 -
+    id: dproctor
+    name: 'David Proctor'
+    alt_name: ''
+-
     id: dreamagination
     name: Dreamagination
     alt_name: ''
@@ -476,6 +528,10 @@
     name: 'Electronic Arts'
     alt_name: ''
 -
+    id: ecouto
+    name: 'Eugene Couto'
+    alt_name: ''
+-
     id: effigy
     name: 'Team Effigy'
     alt_name: ''
@@ -500,6 +556,10 @@
     name: 'Encore Software'
     alt_name: ''
 -
+    id: eporto
+    name: 'Erico Porto'
+    alt_name: eri0o
+-
     id: erbe
     name: 'Erbe Software'
     alt_name: ''
@@ -514,6 +574,10 @@
 -
     id: evryware
     name: Evryware
+    alt_name: ''
+-
+    id: falsely
+    name: 'Falsely Profound'
     alt_name: ''
 -
     id: fan
@@ -535,6 +599,10 @@
     id: firstlight
     name: Firstlight
     alt_name: ''
+-
+    id: fitz
+    name: 'Maciek Fitzner'
+    alt_name: Fitz
 -
     id: flammarion
     name: Flammarion
@@ -562,6 +630,10 @@
 -
     id: forgottenkey
     name: 'Forgotten Key'
+    alt_name: ''
+-
+    id: fractal
+    name: 'Fractal Mind'
     alt_name: ''
 -
     id: frostlind
@@ -602,6 +674,10 @@
 -
     id: goa
     name: 'Good Old Adventure'
+    alt_name: ''
+-
+    id: gocgames
+    name: 'GOC Games'
     alt_name: ''
 -
     id: goldenbough
@@ -772,6 +848,10 @@
     name: ITA-Choco
     alt_name: ''
 -
+    id: iulyanov
+    name: 'Ivan Ulyanov'
+    alt_name: ''
+-
     id: jbclerfayt
     name: 'Jean-Baptiste de Clerfayt'
     alt_name: ''
@@ -787,6 +867,10 @@
     id: jminamata
     name: 'Julia Minamata'
     alt_name: ''
+-
+    id: jnuen
+    name: 'Joshua Nuernberger'
+    alt_name: TheJBurger
 -
     id: kdlab
     name: 'K-D Lab'
@@ -806,6 +890,10 @@
 -
     id: korozif
     name: Korozif
+    alt_name: ''
+-
+    id: krams
+    name: 'Krams Design'
     alt_name: ''
 -
     id: krumbukt
@@ -860,8 +948,16 @@
     name: "L.K.\_Avalon"
     alt_name: ''
 -
+    id: lngames
+    name: 'LN Games'
+    alt_name: ''
+-
     id: local
     name: 'Local Studio'
+    alt_name: ''
+-
+    id: lostcraft
+    name: 'Lost Craft'
     alt_name: ''
 -
     id: lrdg
@@ -904,6 +1000,10 @@
     name: 'Majestic Studios'
     alt_name: ''
 -
+    id: marion
+    name: 'Marion Poinsot'
+    alt_name: ''
+-
     id: mattfrith
     name: 'Matt Frith'
     alt_name: ''
@@ -938,6 +1038,10 @@
 -
     id: mgutierrez
     name: 'Marcial Gutierrez'
+    alt_name: ''
+-
+    id: mhammill
+    name: 'Matt Hammill'
     alt_name: ''
 -
     id: microids
@@ -1048,6 +1152,10 @@
     name: Nobilis
     alt_name: ''
 -
+    id: nomore
+    name: 'No More For Today Productions'
+    alt_name: ''
+-
     id: nosense
     name: NoSense
     alt_name: ''
@@ -1055,6 +1163,10 @@
     id: nwc
     name: 'New World Computing'
     alt_name: ''
+-
+    id: nyce
+    name: 'Nyce Productions'
+    alt_name: NickyNyce
 -
     id: offstudio
     name: 'Off Studio'
@@ -1071,6 +1183,10 @@
     id: orbis
     name: 'Orbis Tertius Games'
     alt_name: ''
+-
+    id: origami
+    name: 'OrigamiHero Games'
+    alt_name: 'Fallen Angel'
 -
     id: origin
     name: 'Origin Systems'
@@ -1148,6 +1264,10 @@
     name: 'Postmodern Adventures'
     alt_name: ''
 -
+    id: ppa
+    name: PPAentertainment
+    alt_name: ''
+-
     id: presto
     name: 'Presto Studios'
     alt_name: ''
@@ -1155,6 +1275,10 @@
     id: prograph
     name: 'Prograph Research'
     alt_name: ''
+-
+    id: progzmax
+    name: 'Shane Stevens'
+    alt_name: ProgZmax
 -
     id: proximity
     name: 'Proximity Games'
@@ -1180,6 +1304,10 @@
     name: 'Rainbird Software'
     alt_name: ''
 -
+    id: ramorama
+    name: RamoramaInteractive
+    alt_name: 'Ramón Wilhelm'
+-
     id: raydunakin
     name: 'Ray Dunakin'
     alt_name: ''
@@ -1192,8 +1320,8 @@
     name: Rebellion
     alt_name: ''
 -
-    id: rthonen
-    name: 'Renzo Thönen'
+    id: retrodefender
+    name: 'Retro Defender'
     alt_name: ''
 -
     id: reunionmusee
@@ -1224,6 +1352,10 @@
     name: 'Roman Koksharov'
     alt_name: ''
 -
+    id: rootbound
+    name: 'RootBound Creative'
+    alt_name: ''
+-
     id: rootfix
     name: 'RootFix Entertainment'
     alt_name: ''
@@ -1238,6 +1370,10 @@
 -
     id: rtcherniy
     name: 'Ruslan Tcherniy'
+    alt_name: ''
+-
+    id: rthonen
+    name: 'Renzo Thönen'
     alt_name: ''
 -
     id: rudowski
@@ -1260,6 +1396,10 @@
     name: 'Saru Brunei'
     alt_name: ''
 -
+    id: scavenger
+    name: Scavenger
+    alt_name: ''
+-
     id: schnibble
     name: 'Schnibble Productions'
     alt_name: ''
@@ -1270,6 +1410,10 @@
 -
     id: sega
     name: Sega
+    alt_name: ''
+-
+    id: sektor13
+    name: 'Sektor 13'
     alt_name: ''
 -
     id: shadowtor
@@ -1344,9 +1488,17 @@
     name: 'Sticky Studios'
     alt_name: ''
 -
+    id: stonespring
+    name: 'Stone Spring Studios'
+    alt_name: ''
+-
     id: stranga
     name: 'Stranga Games'
     alt_name: ''
+-
+    id: straystar
+    name: 'Rik Vargard'
+    alt_name: Straystar
 -
     id: strummer
     name: 'Strummer Games'
@@ -1366,6 +1518,10 @@
 -
     id: synergy
     name: 'Synergy Inc.'
+    alt_name: ''
+-
+    id: tacky
+    name: 'TackyWorld Interactive'
     alt_name: ''
 -
     id: taito
@@ -1391,6 +1547,10 @@
     id: terribletoybox
     name: 'Terrible Toybox'
     alt_name: ''
+-
+    id: theivy
+    name: 'Erin Robinson'
+    alt_name: 'The Ivy'
 -
     id: thorsoft
     name: 'Thorsoft of Letchworth'
@@ -1464,6 +1624,10 @@
     name: 'Turmoil Games'
     alt_name: ''
 -
+    id: twotales
+    name: 'Two Tales'
+    alt_name: ''
+-
     id: ubisoft
     name: Ubisoft
     alt_name: ''
@@ -1520,6 +1684,10 @@
     name: 'Wanadoo Edition'
     alt_name: ''
 -
+    id: wandering
+    name: 'Wandering Adventures'
+    alt_name: ''
+-
     id: wanderlust
     name: 'Wanderlust Interactive'
     alt_name: ''
@@ -1532,12 +1700,28 @@
     name: WatchDaToast
     alt_name: ''
 -
+    id: wavey
+    name: 'Wavey Games'
+    alt_name: ''
+-
+    id: wdehert
+    name: 'Wim De Hert'
+    alt_name: ''
+-
+    id: weggie
+    name: 'Weggieware Games'
+    alt_name: ''
+-
     id: westend
     name: 'Westend Studios'
     alt_name: ''
 -
     id: westwood
     name: 'Westwood Studios'
+    alt_name: ''
+-
+    id: wham
+    name: Whamgames
     alt_name: ''
 -
     id: wormwood

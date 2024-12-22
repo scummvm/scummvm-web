@@ -105,6 +105,11 @@
     alt_name: ''
     enabled: true
 -
+    id: darkseed
+    name: Darkseed
+    alt_name: ''
+    enabled: true
+-
     id: dgds
     name: DGDS
     alt_name: 'Dynamix Game Development System'

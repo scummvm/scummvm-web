@@ -9,6 +9,9 @@
     id: adibou
     name: Adibou
 -
+    id: advags
+    name: Adventure
+-
     id: agifan
     name: 'AGI Fan'
 -
@@ -24,6 +27,9 @@
     id: artmurder
     name: 'Art of Murder'
 -
+    id: barnrunner
+    name: 'Barn Runner'
+-
     id: barrowhill
     name: 'Barrow Hill'
 -
@@ -33,6 +39,12 @@
     id: bigthinkers
     name: 'Big Thinkers'
 -
+    id: bjordan
+    name: 'Ben Jordan'
+-
+    id: blackfriday
+    name: 'Black Friday'
+-
     id: blackwell
     name: Blackwell
 -
@@ -41,6 +53,9 @@
 -
     id: brain
     name: 'Dr. Brain'
+-
+    id: bwindows
+    name: 'Broken Windows'
 -
     id: captdisaster
     name: 'Captain Disaster'
@@ -183,6 +198,12 @@
     id: maniac
     name: 'Maniac Mansion'
 -
+    id: melrin
+    name: Melrin
+-
+    id: metrocity
+    name: 'METRO CITY'
+-
     id: mi
     name: 'The Secret of Monkey Island'
 -
@@ -191,6 +212,9 @@
 -
     id: mm
     name: 'Might and Magic'
+-
+    id: murran
+    name: 'Murran Chronicles'
 -
     id: mybigsister
     name: 'My Big Sister'
@@ -252,6 +276,9 @@
     id: ringworld
     name: Ringworld
 -
+    id: robotragedy
+    name: Robotragedy
+-
     id: roguestate
     name: 'Rogue State'
 -
@@ -263,6 +290,9 @@
 -
     id: simon
     name: 'Simon the Sorcerer'
+-
+    id: sniper
+    name: 'Sniper and Spotter'
 -
     id: spyfox
     name: 'Spy Fox'
@@ -311,6 +341,12 @@
 -
     id: ultima
     name: Ultima
+-
+    id: visitor
+    name: 'The Visitor'
+-
+    id: wwhedon
+    name: 'Wendy Whedon'
 -
     id: zork
     name: Zork

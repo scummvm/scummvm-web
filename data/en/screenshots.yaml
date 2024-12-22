@@ -516,6 +516,12 @@
     language: en
     variant_id: '1'
 -
+    id: 'bagel:spacebar'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'bbvs:bbvs'
     variant: ''
     platform_id: win
@@ -682,6 +688,24 @@
     variant: ''
     platform_id: win
     language: fr
+    variant_id: '1'
+-
+    id: 'darkseed:darkseed'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'dgds:rise'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'dgds:rise'
+    variant: ''
+    platform_id: dos
+    language: de
     variant_id: '1'
 -
     id: 'director:alice'
@@ -1396,6 +1420,12 @@
     variant: EGA
     platform_id: dos
     language: it
+    variant_id: '1'
+-
+    id: 'm4:burger'
+    variant: ''
+    platform_id: dos
+    language: en
     variant_id: '1'
 -
     id: 'made:lgop2'
@@ -2562,6 +2592,12 @@
     language: en
     variant_id: '1'
 -
+    id: 'scumm:basketball'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'scumm:blues123time'
     variant: ''
     platform_id: win
@@ -2871,6 +2907,12 @@
     id: 'scumm:monkey2'
     variant: ''
     platform_id: amiga
+    language: en
+    variant_id: '1'
+-
+    id: 'scumm:moonbase'
+    variant: ''
+    platform_id: win
     language: en
     variant_id: '1'
 -
@@ -3321,6 +3363,12 @@
     id: 'twine:lba'
     variant: ''
     platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'twp:twp'
+    variant: ''
+    platform_id: win
     language: en
     variant_id: '1'
 -
