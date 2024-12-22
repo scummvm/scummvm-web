@@ -476,7 +476,7 @@
     category_icon: android
     user_agent: ''
     version: 2.9.0
-    url: 'scummvm-[$version}-android-x86.apk'
+    url: 'scummvm-{$version}-android-x86.apk'
     name: 'Android x86 32bit package'
     notes: ''
 -
