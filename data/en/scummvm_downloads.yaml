@@ -187,7 +187,7 @@
     user_agent: ''
     version: 2.9.0
     url: 'scummvm_{$version}-1_ubuntu24.10_amd64.deb'
-    name: 'Ubuntu 23.10 (mystic) x86 64bit package'
+    name: 'Ubuntu 24.10 (oracular) x86 64bit package'
     notes: ''
 -
     enabled: true
@@ -197,7 +197,7 @@
     user_agent: ''
     version: 2.9.0
     url: 'scummvm_{$version}-1_ubuntu24.04_amd64.deb'
-    name: 'Ubuntu 23.04 (lunar) x86 64bit package'
+    name: 'Ubuntu 24.04 LTS (noble) x86 64bit package'
     notes: ''
 -
     enabled: true
