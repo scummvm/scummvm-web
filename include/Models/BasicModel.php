@@ -17,7 +17,7 @@ abstract class BasicModel
         if (is_null(self::$cache)) {
             try {
                 $driver = extension_loaded('redis') ? 'redis' : 'predis';
-                $database = $_SERVER['HTTP_HOST'] === 'www.scummvm.org' ? 8 : 7;
+                $database = DEV_SERVER ? 7 : 8;
                 $config = extension_loaded('redis')
                     ? new RedisConfig(['database' => $database])
                     : new PredisConfig(['database' => $database]);

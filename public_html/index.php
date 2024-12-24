@@ -5,14 +5,22 @@ namespace ScummVM;
  * Development only
  * Don't re-route static file requests to index.php
  * And change directory context to public_html
+ *
+ * When DEV_SERVER is true a different Redis database is chosen
+ * It's true when running using PHP built-in server or
+ * if the DEV_SERVER environment variable is set to 1
  */
 if (isset($_SERVER['SERVER_SOFTWARE']) &&
-\preg_match("/PHP [\d\.]+ Development Server/",$_SERVER['SERVER_SOFTWARE'])) {
-  chdir('public_html');
+    \preg_match("/PHP [\d\.]+ Development Server/",$_SERVER['SERVER_SOFTWARE'])) {
   define('DEV_SERVER', true);
+  chdir('public_html');
   if (\preg_match('/\.(?:png|jpg|jpeg|gif|css|js|svg)/', $_SERVER["REQUEST_URI"])) {
     return false;
   }
+} else if (getenv('DEV_SERVER') === "1") {
+  define('DEV_SERVER', true);
+} else {
+  define('DEV_SERVER', false);
 }
 
 require_once __DIR__ . '/../vendor/autoload.php';
