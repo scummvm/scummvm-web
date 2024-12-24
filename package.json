@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "dependencies": {
     "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.45",
-    "sass": "1.80.6"
+    "postcss": "^8.4.49",
+    "sass": "^1.83"
   },
   "scripts": {
     "postinstall": "(cd dumper-companion && npm ci --omit=dev && npm run build) && node build.js",
