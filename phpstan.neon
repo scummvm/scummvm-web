@@ -12,3 +12,5 @@ parameters:
 			- include/OrmObjects/Base/*
 	universalObjectCratesClasses:
 		- Spatie\YamlFrontMatter\Document
+	dynamicConstantNames:
+		- DEV_SERVER
