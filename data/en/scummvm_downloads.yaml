@@ -62,10 +62,10 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: win95
     user_agent: ''
-    version: 2.8.1
+    version: 2.9.0
     url: 'scummvm-{$version}-win32-win9x.zip'
     name: 'Windows 95+ zipfile'
     notes: ''
