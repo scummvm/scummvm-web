@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@zip.js/zip.js": "^2.7.54",
-    "preact": "^10.25.3",
+    "preact": "^10.25.4",
     "punycode": "^2.3.1",
     "ts-loader": "^9.5.1",
     "typescript": "^5.7.2",
