@@ -763,6 +763,17 @@
         alias: "sev"
         description: ""
     -
+      name: "Got"
+      person:
+      -
+        name: "Paul Gilbert"
+        alias: "DreamMaster"
+        description: ""
+      -
+        name: "Arnaud Boutonn&eacute;"
+        alias: "Strangerke"
+        description: ""
+    -
       name: "Griffon"
       person:
       -
@@ -1011,6 +1022,10 @@
         name: "Paul Gilbert"
         alias: "DreamMaster"
         description: ""
+      -
+        name: "Arnaud Boutonn&eacute;"
+        alias: "Strangerke"
+        description: ""
     -
       name: "MacVenture"
       person:
@@ -1043,6 +1058,13 @@
       -
         name: "Filippos Karapetis"
         alias: "bluegr"
+        description: ""
+    -
+      name: "Media Station"
+      person:
+      -
+        name: "Nathanael Gentry"
+        alias: "npjg"
         description: ""
     -
       name: "MM (Xeen)"
