@@ -1,0 +1,16 @@
+---
+title: "A bolt of lightning, a shocking experience"
+
+author: DreamMaster
+date: 1739188800
+---
+
+[God of Thunder](https://wiki.scummvm.org/index.php?title=God_of_Thunder), the Zelda-esque game, is now ready for public testing!
+
+Prepare yourself to take on the role of Thor, the god of thunder, as he battles his way through the three part game, facing enemies and challenging environmental puzzles, all to finally face down challenging end bosses, culminating in Loki himself.
+
+The implementation in ScummVM is slightly different from the original, in that whilst it has a high score table like the original, you don't have to go through the steps of creating an account and being limited to only a single savegame. Also, unfortunately, the game uses a special music format that will need to be implemented from scratch by someone with experience. So for now, no music playback will occur, though in-game sound effects play back fine.
+
+To participate in the testing, ensure you have a [daily development build](https://www.scummvm.org/downloads/#daily). The game itself is freeware, and can be downloaded from the [Adept Software website](https://www.adeptsoftware.com/got/). We encourage all players to submit feedback and bug reports through our [issue tracker](https://bugs.scummvm.org/).And please take some [screenshots](https://wiki.scummvm.org/index.php/Screenshots) along the way.
+
+Have you the skill to defeat Loki, or will you be defeated by the cunning enemies, or be stymied figuring out the puzzles. Play, and find out.
