@@ -8610,6 +8610,20 @@
     wikipedia_page: The_Bizarre_Adventures_of_Woodruff_and_the_Schnibble
     series_id: ''
 -
+    id: 'got:got'
+    name: 'God of Thunder'
+    engine_id: got
+    company_id: adeptsoftware
+    year: '1993'
+    moby_id: '1019'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'griffon:griffon'
     name: 'The Griffon Legend'
     engine_id: griffon
@@ -14299,7 +14313,7 @@
     engine_id: wintermute
     company_id: negator2vc
     year: '2012'
-    moby_id: '-1'
+    moby_id: '227515'
     steam_id: ''
     gog_id: ''
     zoom_id: ''
@@ -14495,7 +14509,7 @@
     engine_id: wintermute
     company_id: pavo
     year: '2012'
-    moby_id: '-1'
+    moby_id: '227509'
     steam_id: '1243010'
     gog_id: ''
     zoom_id: ''

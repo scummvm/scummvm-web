@@ -170,6 +170,11 @@
     alt_name: ''
     enabled: true
 -
+    id: got
+    name: 'God of Thunder'
+    alt_name: ''
+    enabled: true
+-
     id: griffon
     name: 'The Griffon Legend'
     alt_name: ''
