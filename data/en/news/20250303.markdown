@@ -1,0 +1,18 @@
+---
+title: "A dark seed has been planted"
+
+author: Yuv422
+date: 1740961038
+---
+
+[Dark Seed](https://wiki.scummvm.org/index.php?title=Dark_Seed), a 90's point-and-click horror game from the mind of H.R. Giger, is now ready for public testing!
+
+In the game you play the role of Mike Dawson, who just moved to a beautiful solitary mansion to pursue his dream of becoming a writer. You'll soon realise that the place harbors dark secrets, and you'll have just three days to escape a fate worse than death...
+
+The DOS Floppy and CD versions are supported. The engine also supports a number of localised versions Spanish, French, German, Korean and Chinese.
+
+The floppy version currently lacks sound effects but all other features from the original game should be present.
+
+The engine also has the option of using the "arguably" better floppy music with the CD version if you have both.
+
+To participate in the testing, ensure you have a [daily development build](https://www.scummvm.org/downloads/#daily). As always, please submit the bug reports to our [issue tracker](https://bugs.scummvm.org/).
