@@ -5249,3 +5249,10 @@
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: ''
+-
+    id: 'dgds:beamish'
+    support: good
+    notes: '- Minor graphical and sound glitches'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''

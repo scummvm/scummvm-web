@@ -5661,6 +5661,15 @@
     language3: ''
     url: /frs/demos/twine/lba-demo-mult.zip
 -
+    id: 'twine:lba2'
+    platform: dos
+    '': ''
+    category: ''
+    language: ''
+    language2: ''
+    language3: ''
+    url: ''
+-
     id: 'ultima:regret'
     platform: dos
     '': ''
