@@ -747,6 +747,24 @@
     language3: ''
     url: /frs/demos/darkseed/darkseed-dos-demo1-en.zip
 -
+    id: 'dgds:beamish'
+    platform: dos
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/dgds/beamish-dos-demo-en.zip
+-
+    id: 'dgds:beamish'
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/dgds/beamish-dos-demo2-en.zip
+-
     id: 'director:director'
     platform: mac
     '': ''
