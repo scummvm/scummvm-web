@@ -1,0 +1,16 @@
+---
+title: "The Dynamix duo of Willy Beamish and Heart of China are ready for testing"
+
+author: mduggan
+date: 1742405841
+---
+
+We are excited to announce the classic Dynamix adventure games [_The Adventures of Willy Beamish_](https://wiki.scummvm.org/index.php?title=The_Adventures_of_Willy_Beamish) and [_Heart of China_](https://wiki.scummvm.org/index.php?title=Heart_of_China) are now ready for testing in ScummVM!
+
+As the titular _Willy Beamish_, you play a 9-year-old troublemaker from Frumpton, USA. All you want to do is play Nintari and hang out with your friends, but your parents keep giving you so many chores... and even when you get them done, larger and more sinister forces are at work in your small town. A kid can't get a break!
+
+In _Heart of China_, you start as retired WWI pilot Jake "Lucky" Masters. After a run-in with Hong Kong businessman E.A. Lomax, you feel driven by a strong sense of duty (and your massive debts!) to help him track down his kidnapped daughter. Work your way through a branching plot and the opportunity to play as three different characters to solve the puzzles and get Kate home.
+
+Along with the previously announced _Rise of the Dragon_, these games complete Dynamix's short series of adventure games using the DGDS engine.
+
+To test these games, you’ll need a DOS version of the game (both are available from [GOG](https://gog.com)) and a [daily development build](https://www.scummvm.org/downloads/#daily). Be sure to check the notes on [the wiki](https://wiki.scummvm.org/index.php?title=DGDS) for each game, and please report any bugs on our [issue tracker](https://bugs.scummvm.org/).
