@@ -696,6 +696,18 @@
     language: en
     variant_id: '1'
 -
+    id: 'dgds:beamish'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'dgds:china'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
     id: 'dgds:rise'
     variant: ''
     platform_id: dos
@@ -1216,6 +1228,12 @@
     variant: ''
     platform_id: win
     language: it
+    variant_id: '1'
+-
+    id: 'got:got'
+    variant: ''
+    platform_id: dos
+    language: en
     variant_id: '1'
 -
     id: 'griffon:griffon'
