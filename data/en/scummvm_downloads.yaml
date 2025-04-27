@@ -722,26 +722,6 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
-    category_icon: gc
-    user_agent: ''
-    version: 2.7.1
-    url: 'scummvm-{$version}-gamecube.zip'
-    name: 'Nintendo GameCube package'
-    notes: ''
--
-    enabled: true
-    category: scummvm
-    subcategory: release
-    category_icon: wii
-    user_agent: ''
-    version: 2.9.0
-    url: 'scummvm-{$version}-wii.zip'
-    name: 'Wii package'
-    notes: ''
--
-    enabled: true
-    category: scummvm
     subcategory: release
     category_icon: switch
     user_agent: ''
