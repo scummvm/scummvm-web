@@ -7,7 +7,7 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.0",
+    "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.21.0",
     "@typescript-eslint/eslint-plugin": "^8.26.0",
     "@typescript-eslint/parser": "^8.26.0",
@@ -15,11 +15,11 @@
     "globals": "^16.0.0"
   },
   "dependencies": {
-    "@zip.js/zip.js": "^2.7.57",
-    "preact": "^10.26.4",
+    "@zip.js/zip.js": "^2.7.60",
+    "preact": "^10.26.5",
     "punycode": "^2.3.1",
     "ts-loader": "^9.5.2",
-    "typescript": "^5.8.2",
+    "typescript": "^5.8.3",
     "webpack": "^5.98.0",
     "webpack-cli": "^6.0.1"
   }
