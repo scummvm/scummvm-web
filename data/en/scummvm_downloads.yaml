@@ -597,7 +597,7 @@
     user_agent: iOS
     version: 2.9.0
     url: 'scummvm-{$version}-ios9-15.5-armv7-arm64.ipa'
-    name: 'ARM64 iOS 9+ package .ipa (signed)'
+    name: 'ARMv7+ and ARM64 iOS 9+ package .ipa (signed)'
     notes: ''
 -
     enabled: true
