@@ -1,0 +1,21 @@
+---
+title: "Google Summer of Code 2025 – Five Participants are Joining Us This Year"
+author: sev
+date: 1746728197
+---
+
+![GSoC Logo](/data/news/GSoC2016Logo.png)
+
+This is yet another exciting year for the ScummVM project as we have five [GSoC](https://summerofcode.withgoogle.com/) contributors joining the project this summer.
+
+* Ellen Moon will be continuing work on adding Text-to-Speech to more engines. This will increase accessibility for those games that were missing voice-overs. This task will be presented on [Ellen's GSoC blog](https://blogs.scummvm.org/ellen/).
+
+* Aun Noman (known as Prime) will, at the same time, be adding Keymapper to the remaining engines. Only about 45% of ScummVM-supported engines have this feature. The current list can be found on [our Wiki](https://wiki.scummvm.org/index.php?title=Keymapper_and_TTS_status). And the relevant task blog will eventually be hosted at [Aun's GSoC blog](https://blogs.scummvm.org/prime/)
+
+* Malhar Badve (aka SuperLemon) is our Director contributor for this year. He has already added more improvements to QTVR, but our overall hope for this year is to add movie saving capability, which is required by many titles. You will be able to follow the progress for this task on [Malhar’s GSoC blog](https://blogs.scummvm.org/superlemon/).
+
+* Shivang Nagta will pick up work on a system for verifying game file integrity, validating their checksums against those present in a central database. It will also let users contribute the checksums of game files not on the database. You can follow the progress for this task on [Shivang’s GSoC blog](https://blogs.scummvm.org/shivangnagta/).
+
+* Alikhan Balpykov will help us with completing the qdEngine implementation this year. You can follow the progress for this task on [Alikhan GSoC blog](https://blogs.scummvm.org/alikhan/).
+
+Please give them a warm welcome, and visit our [Discord server](https://discord.gg/4cDsMNtcpG) if you want to discuss those projects. After a four week Community Bounding period, the coding period will start on June 2, and you can expect regular updates on these projects on their respective blogs. The team is very excited about the upcoming summer – and we hope you are as well.
