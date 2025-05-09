@@ -20,7 +20,7 @@
     "phpfastcache/phpfastcache": "^9.1",
     "league/csv": "^9.20",
     "symfony/yaml": "^7.2",
-    "predis/predis": "^2.3",
+    "predis/predis": "^3.0",
     "guzzlehttp/guzzle": "^7.9",
     "propel/propel": "~2.0@dev"
   },
