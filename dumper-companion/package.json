@@ -15,7 +15,7 @@
     "globals": "^16.0.0"
   },
   "dependencies": {
-    "@zip.js/zip.js": "^2.7.60",
+    "@zip.js/zip.js": "2.7.56",
     "preact": "^10.26.5",
     "punycode": "^2.3.1",
     "ts-loader": "^9.5.2",
