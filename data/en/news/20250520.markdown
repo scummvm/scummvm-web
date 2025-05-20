@@ -1,0 +1,12 @@
+---
+title: "A new game for testing. Believe It Or Not"
+author: DreamMaster
+date: 1747742400
+---
+Robert Ripley, a famous traveler and collector of rarities. One day, during a trip in Egypt, Ripley is attacked by mysterious Chinese assassins. The trail will lead him and his Chinese girlfriend Mei Chen on a chase around the world, in a race against time to prevent the greatest theft of all time, the First Emperor’s seal, which could plunge the world into chaos.
+
+The ScummVM Team is pleased to announce full support for _Ripley's Believe It Or Not! The Secret of Master Lu_, the other classic game, besides Orion Burger, by Sanctuary Woods. As with Orion Burger, it adds a few niceties that the original didn't have, such as mouse wheel handling, and using the spacebar to skip walk animations.
+
+Help us test the game by grabbing a [daily build](https://scummvm.org/downloads/#daily). Read through our [testing guidelines](https://wiki.scummvm.org/index.php/Release_Testing#Testing_Guidelines). The game's logic was all hardcoded, and proved even more complicated than that of Orion Burger, so we really need people to try all sorts of weird actions, and make sure the game handles everything correctly and matches the original implementation. And please take some [screenshots](https://wiki.scummvm.org/index.php/Screenshots) along the way.
+
+Good luck. If you fail to prevent the seal falling into evil hands, it could be used to unite all Asia under a single ruler, thirsty for conquest.
