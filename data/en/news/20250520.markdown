@@ -1,12 +1,12 @@
 ---
 title: Two more Nancy Drew Mysteries solved!
 author: fracturehill
-date: 1747396800
+date: 1747730616
 ---
 
 Are you ready for more sleuthing with everyone’s favorite teenage detective? We’re excited to announce that Nancy Drew: Secret of the Scarlet Hand and Nancy Drew: Ghost Dogs of Moon Lake are now ready for public testing! Furthermore, it's now possible to enable the ScummVM save/load screens instead of the original ones, to take advantage of additional features when saving or loading.
 
-In [_Nancy Drew: Secret of the Scarlet Hand_](https://wiki.scummvm.org/index.php?title=Nancy_Drew:_Secret_of_the_Scarlet_Hand), Nancy takes on the role of an intern at a Washington D.C. museum, where a mysterious theft sets off a series of clues leading deep into the secrets of ancient Maya artifacts. 
+In [_Nancy Drew: Secret of the Scarlet Hand_](https://wiki.scummvm.org/index.php?title=Nancy_Drew:_Secret_of_the_Scarlet_Hand), Nancy takes on the role of an intern at a Washington D.C. museum, where a mysterious theft sets off a series of clues leading deep into the secrets of ancient Maya artifacts.
 
 In [_Nancy Drew: Ghost Dogs of Moon Lake_](https://wiki.scummvm.org/index.php?title=Nancy_Drew:_Ghost_Dogs_of_Moon_Lake), Nancy finds herself investigating a haunted cabin surrounded by eerie howls and ghostly canine apparitions.
 
