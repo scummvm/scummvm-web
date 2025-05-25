@@ -1,0 +1,24 @@
+---
+title: "ScummVM 2.9.1 “Slappin da BASS” is here!"
+author: The ScummVM Team
+date: 1748179573
+---
+Get ready to jam and slap da BASS!
+
+Yes, it is this time of the year again! Please welcome the first ScummVM release of the year: ScummVM 2.9.1.
+
+This maintenance release mainly focused on fixing bugs that our developers and users have uncovered since our last stable release.
+
+As usual, several engines and platforms received their fair share of bug fixes and improvements: AGI, AGS, Asylum, BAGEL, Bladerunner, Hopkins, MADS, NGI, SCI, SCUMM, Sky, Sword1, Tetraedge, Tinsel, Tucker, TwinE, and TWP.
+
+Our porters also went on a bug-hunting spree, so all we can provide is a small summary of the latest and greatest fixes!
+
+The Nintendo 3DS (yes, we do not care about end-of-life dates!) has the GUI appropriately displayed if it is configured to use the top screen only.
+
+Android now provides an option to save and restore your configuration file and save games, and the vast majority of older Android devices will see increased performance thanks to the ARM NEON optimizations, which are now enabled by default. And the _Beneath a Steel Sky_ game is not crashing in the intro anymore!
+
+The Atari port received some internal backend, GUI, and audio fixes. Speaking of audio: iOS/iPad will now always properly recognize FluidSynth soundfonts, macOS has support for Audio CD playback from original discs on Snow Leopard and earlier, and Windows 9x (yes, EOL…) can use FLAC files again!
+
+The detailed list of improvements is available [here](https://downloads.scummvm.org/frs/scummvm/2.9.1/ReleaseNotes.html).
+
+Head over to our [downloads page](https://www.scummvm.org/download/) and grab it while it’s hot! As usual, macOS and Windows users can update ScummVM with our integrated, magical auto-upgrade solution.
