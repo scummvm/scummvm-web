@@ -5263,3 +5263,17 @@
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: ''
+-
+    id: 'ags:oldskies'
+    support: good
+    notes: '- Minor graphical glitches - Some slowdowns in scrolling scenes'
+    since_version: 2.9.1
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'ags:rosewater'
+    support: good
+    notes: '- Minor graphical glitches'
+    since_version: 2.9.1
+    stable_platforms: win
+    unstable_platforms: ''

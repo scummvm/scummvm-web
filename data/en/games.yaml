@@ -4176,13 +4176,13 @@
     name: 'Old Skies'
     engine_id: ags
     company_id: wadjet
-    year: '2023'
-    moby_id: ''
+    year: '2025'
+    moby_id: '241032'
     steam_id: '1346360'
     gog_id: old_skies
     zoom_id: ''
     additional_stores: "- [Developer's Website](https://www.wadjeteyegames.com/games/old-skies/)"
-    datafiles: ''
+    datafiles: Old_Skies
     wikipedia_page: ''
     series_id: ''
 -
@@ -4709,12 +4709,12 @@
     engine_id: ags
     company_id: grundislav
     year: '2025'
-    moby_id: ''
+    moby_id: '239639'
     steam_id: '1226670'
-    gog_id: ''
+    gog_id: rosewater
     zoom_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Rosewater
     wikipedia_page: ''
     series_id: ''
 -

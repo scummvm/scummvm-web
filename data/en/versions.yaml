@@ -370,3 +370,10 @@
     minor: '9'
     patch: '0'
     name: 'Close Encounters of the 2.9th Kind'
+-
+    id: 2.9.1
+    release_date: 'May 25, 2025'
+    major: '2'
+    minor: '9'
+    patch: '1'
+    name: 'Slappin da BASS'
