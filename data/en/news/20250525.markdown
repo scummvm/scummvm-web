@@ -21,4 +21,4 @@ The Atari port received some internal backend, GUI, and audio fixes. Speaking of
 
 The detailed list of improvements is available [here](https://downloads.scummvm.org/frs/scummvm/2.9.1/ReleaseNotes.html).
 
-Head over to our [downloads page](https://www.scummvm.org/download/) and grab it while it’s hot! As usual, macOS and Windows users can update ScummVM with our integrated, magical auto-upgrade solution.
+Head over to our [downloads page](https://www.scummvm.org/downloads/) and grab it while it’s hot! As usual, macOS and Windows users can update ScummVM with our integrated, magical auto-upgrade solution.
