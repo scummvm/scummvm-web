@@ -2851,7 +2851,7 @@
 -
     id: 'teenagent:teenagent'
     support: good
-    notes: '- Occasional graphical glitches'
+    notes: '- Occasional graphical glitches - Strings are hardcoded in English for Polish and Czech versions - No voice over in Polish version'
     since_version: 1.6.0
     stable_platforms: dos
     unstable_platforms: ''

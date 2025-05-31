@@ -4365,7 +4365,7 @@
     language3: ''
     url: /frs/demos/scumm/he/freddi4-win-updated-demo-us.zip
 -
-    id: 'scumm:freddicove'
+    id: 'scumm:arttime'
     platform: win
     '': ''
     category: ''
@@ -4392,7 +4392,7 @@
     language3: ''
     url: /frs/demos/scumm/he/freddicove-win-demo-us.zip
 -
-    id: 'scumm:freddicove'
+    id: 'scumm:readtime'
     platform: win
     '': ''
     category: ''

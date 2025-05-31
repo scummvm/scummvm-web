@@ -1102,10 +1102,10 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: morphos
     user_agent: ''
-    version: 2.9.0
+    version: 2.9.1
     url: 'scummvm-{$version}-morphos.lha'
     name: 'MorphOS package'
     notes: ''
