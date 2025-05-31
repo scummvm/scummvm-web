@@ -1,4 +1,5 @@
-<div id="recommended-download" class="{($recommendedDownload) ? 'visible':'hidden'}">
+{if $recommendedDownload}
+<div id="recommended-download">
     <div class="subhead">{#downloadsBadge#}</div>
     <div class="subhead-content">
         <div id="downloadContainer">
@@ -10,4 +11,5 @@
         </div>
     </div>
 </div>
+{/if}
 <br>
