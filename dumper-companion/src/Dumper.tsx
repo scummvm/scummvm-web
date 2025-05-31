@@ -152,7 +152,6 @@ export default class Dumper extends Component<Props, State> {
                 volume.dumpToZip(zipFS.root, this.state.lang, !this.state.unicode, this.state.forceMacBinary, this.log.bind(this));
                 const blob = await zipFS.exportBlob({
                     level: 0,
-                    msDosCompatible: true,
                     onprogress: (index, max) => {
                         const percent = Math.floor(index / max * 100);
                         this.updateDumpPercent(percent);
