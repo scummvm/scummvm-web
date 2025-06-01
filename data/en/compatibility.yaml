@@ -2947,6 +2947,13 @@
     stable_platforms: win
     unstable_platforms: ''
 -
+    id: 'wintermute:corrosion'
+    support: good
+    notes: ''
+    since_version: 1.7.0
+    stable_platforms: win
+    unstable_platforms: ''
+-
     id: 'wintermute:deadcity'
     support: good
     notes: ''
