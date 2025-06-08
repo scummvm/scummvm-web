@@ -456,7 +456,7 @@
     category_icon: android
     user_agent: ''
     version: 2.9.1
-    url: 'scummvm-{$version}-android-armeabi-v7a.apk'
+    url: 'scummvm-{$version}.1-android-armeabi-v7a.apk'
     name: 'Android ARMv7a package'
     notes: ''
 -
@@ -466,7 +466,7 @@
     category_icon: android
     user_agent: ''
     version: 2.9.1
-    url: 'scummvm-{$version}-android-armeabi-v7a-nn.apk'
+    url: 'scummvm-{$version}.1-android-armeabi-v7a-nn.apk'
     name: 'Android ARMv7a (without ARM Neon) package'
     notes: ''
 -
@@ -476,7 +476,7 @@
     category_icon: android
     user_agent: ''
     version: 2.9.1
-    url: 'scummvm-{$version}-android-arm64-v8a.apk'
+    url: 'scummvm-{$version}.1-android-arm64-v8a.apk'
     name: 'Android ARM64v8a package'
     notes: ''
 -
@@ -486,7 +486,7 @@
     category_icon: android
     user_agent: ''
     version: 2.9.1
-    url: 'scummvm-{$version}-android-x86.apk'
+    url: 'scummvm-{$version}.1-android-x86.apk'
     name: 'Android x86 32bit package'
     notes: ''
 -
@@ -496,7 +496,7 @@
     category_icon: android
     user_agent: ''
     version: 2.9.1
-    url: 'scummvm-{$version}-android-x86_64.apk'
+    url: 'scummvm-{$version}.1-android-x86_64.apk'
     name: 'Android x86 64bit package'
     notes: ''
 -
