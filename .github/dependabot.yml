@@ -35,3 +35,4 @@ updates:
           - "@eslint/*"
           - "@typescript-eslint/*"
           - "eslint"
+          - "globals"
