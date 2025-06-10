@@ -5,12 +5,12 @@ date: 1749557716
 ---
 
 It's been seven months since the first few qdEngine games were supported. After further work on the engine and playtesting, we are pleased to announce support for the remaining games:
+* _Little Longnose_ (Russian: _Карлик Нос_, Lithuanian: _Nykštukas Nosis_)
 * _Pilot Brothers 3: Back Side of the Earth_ (Russian: _Братья Пилоты. Обратная сторона Земли_)
 * _Pilot Brothers 3D. The Case of Garden Pests_ (Russian: _Братья Пилоты 3D. Дело об Огородных вредителях_)
 * _Pilot Brothers 3D-2. Kennel Club Secrets_ (Russian: _Братья Пилоты 3D-2. Тайны Клуба Собаководов_)
-* _Little Longnose_ (Russian: _Карлик Нос_, Lithuanian: _Nykštukas Nosis_)
-* _Mom Don't Worry_ (Russian: _Мама, не горюй_)
 * _Features of National Fishing_ (Russian: _Особенности национальной рыбалки_)
+* _Mom Don't Worry_ (Russian: _Мама, не горюй_)
 * _Dog-n-cat: In the Footsteps of Unprecedented Beasts_ (Russian: _Агентство "КотоПес": По следам невиданных зверей_)
 * _Dog-n-cat: Island of Dr Ratiarty_ (Russian: _Агентство "КотоПес": Остров доктора Крысарди_)
 
