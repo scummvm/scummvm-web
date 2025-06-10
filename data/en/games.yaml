@@ -10361,7 +10361,7 @@
     series_id: littlemice
 -
     id: 'qdengine:dogncat'
-    name: 'Dog-n-cat: Island of Dr Rattardy'
+    name: 'Dog-n-cat: In the footsteps of unprecedented beasts'
     engine_id: qdengine
     company_id: kdlab
     year: '2008'
@@ -10375,7 +10375,7 @@
     series_id: ''
 -
     id: 'qdengine:dogncat2'
-    name: 'Dog-n-cat: In the footsteps of unprecedented beasts'
+    name: 'Dog-n-cat: Island of Dr Rattardy'
     engine_id: qdengine
     company_id: kdlab
     year: '2008'

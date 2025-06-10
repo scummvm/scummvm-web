@@ -5277,3 +5277,59 @@
     since_version: 2.9.1
     stable_platforms: win
     unstable_platforms: ''
+-
+    id: 'qdengine:karliknos'
+    support: excellent
+    notes: '- Lithuaninan version is not supported. Please contact the team if you have a copy'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'qdengine:pilots3'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'qdengine:pilots3d'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'qdengine:pilots3d-2'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'qdengine:mng'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'qdengine:rybalka'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'qdengine:dogncat'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'qdengine:dogncat2'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
