@@ -1890,6 +1890,96 @@
     language: en
     variant_id: '1'
 -
+    id: 'qdengine:karliknos'
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
+    id: 'qdengine:nupogodi3'
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
+    id: 'qdengine:pilots3'
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
+    id: 'qdengine:pilots3d'
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
+    id: 'qdengine:pilots3d-2'
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
+    id: 'qdengine:mng'
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
+    id: 'qdengine:rybalka'
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
+    id: 'qdengine:maski'
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
+    id: 'qdengine:3mice1'
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
+    id: 'qdengine:3mice1'
+    variant: ''
+    platform_id: win
+    language: cs
+    variant_id: '1'
+-
+    id: 'qdengine:3mice1'
+    variant: ''
+    platform_id: win
+    language: pl
+    variant_id: '1'
+-
+    id: 'qdengine:shveik'
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
+    id: 'qdengine:3mice2'
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
+    id: 'qdengine:dogncat'
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
+    id: 'qdengine:dogncat2'
+    variant: ''
+    platform_id: win
+    language: ru
+    variant_id: '1'
+-
     id: 'queen:queen'
     variant: ''
     platform_id: amiga
