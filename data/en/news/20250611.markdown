@@ -1,0 +1,12 @@
+---
+title: "A whole new world. A new fantastic point of view."
+author: DreamMaster
+date: 1749643200
+---
+A young physics professor named Lester conducts a particle experiment. Suddenly, something goes wrong, lightning strikes, and in a moment Lester finds himself in a strange alien world. Now he must fight for his life in this strange place. Luckily, he'll find help along the way..
+
+The ScummVM Team is pleased to announce full support for _Out of this World_ (aka _Another World_). This is particularly noteworthy, since the original version of this engine was briefly added to ScummVM over twenty years ago. 
+
+Help us test the game by grabbing a [daily build](https://scummvm.org/downloads/#daily). Read through our [testing guidelines](https://wiki.scummvm.org/index.php/Release_Testing#Testing_Guidelines). Currently, only the original DOS and Windows 3.1 versions are supported, though with sounds effects only, and not the music. Also, unfortunately, the Anniversary Editions are not yet supported. Additionally, like the original, you can't save your game, but you can use the 'c' key to open an area select dialog to enter a code to resume where you left off. And please take some [screenshots](https://wiki.scummvm.org/index.php/Screenshots) along the way.
+
+Lester's fate is in your hands. You'll deal with dangerous fauna, bloodthirsty aliens, and fiendish puzzles as you flee for your life.
