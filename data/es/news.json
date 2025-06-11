@@ -809,7 +809,7 @@
     },
     "20110528": {
         "title": "¡ScummVM 1.3.0 «El corredor» publicado!",
-        "content": ""
+        "content": "Ha pasado más tiempo del de costumbre desde la última versión. No obstante, al equipo le complace anunciar el lanzamiento de ScummVM 1.3.0.\n\nEsta versión está repleta de novedades: en concreto, añadimos soporte para una plataforma nueva, WebOS, y un lote de juegos nuevos: *Urban Runner*, *Playtoons*, *Toonstruck*, la saga *Hugo*, *Living Books* y *Backyard Baseball*. También hemos seguido trabajando en el motor SCI para que las versiones para Amiga y Macintosh de sus juegos también sean compatibles. Muchas de nuestras conversiones han recibido mejoras y se han corregido varios fallos en prácticamente todos los motores, por lo que vuestras partidas deberían ser más pulidas y disfrutables.\n\nComo siempre, podéis encontrar la versión en [nuestra página de descargas](/downloads/) y [las notas completas de lanzamiento](https://downloads.scummvm.org/frs/scummvm/1.3.0/ReleaseNotes) también están disponibles."
     },
     "20110602": {
         "title": "",
