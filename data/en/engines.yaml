@@ -35,6 +35,11 @@
     alt_name: ''
     enabled: false
 -
+    id: awe
+    name: 'Another World'
+    alt_name: ''
+    enabled: true
+-
     id: bagel
     name: BAGEL
     alt_name: 'Boffo Adventure Game Engine and Libraries'

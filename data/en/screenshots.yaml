@@ -450,6 +450,12 @@
     language: en
     variant_id: '1'
 -
+    id: 'ags:oldskies'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'ags:primordia'
     variant: ''
     platform_id: win
@@ -463,6 +469,12 @@
     variant_id: '1'
 -
     id: 'ags:resonance'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'ags:rosewater'
     variant: ''
     platform_id: win
     language: en
@@ -513,6 +525,12 @@
     id: 'asylum:asylum'
     variant: ''
     platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'awe:anotherworld'
+    variant: ''
+    platform_id: dos
     language: en
     variant_id: '1'
 -

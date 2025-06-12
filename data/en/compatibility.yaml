@@ -5340,3 +5340,10 @@
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
+-
+    id: 'awe:anotherworld'
+    support: good
+    notes: '- Only DOS & Windows 3.1 versions supported. Music not supported'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''

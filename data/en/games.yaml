@@ -6244,6 +6244,20 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'awe:anotherworld'
+    name: 'Out of This World (Another World)'
+    engine_id: awe
+    company_id: delphine
+    year: '1991'
+    moby_id: '564'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'bagel:spacebar'
     name: 'The Space Bar'
     engine_id: bagel
@@ -12656,6 +12670,20 @@
     wikipedia_page: Beneath_a_Steel_Sky
     series_id: ''
 -
+    id: 'sludge:atw'
+    name: 'Above The Waves'
+    engine_id: sludge
+    company_id: unknown
+    year: '2015'
+    moby_id: '-1'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'sludge:cubert'
     name: 'Cubert Badbone, P.I.'
     engine_id: sludge
@@ -12698,6 +12726,20 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'sludge:leptonsquest'
+    name: "Lepton's Quest"
+    engine_id: sludge
+    company_id: unknown
+    year: '2012'
+    moby_id: '-1'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'sludge:life'
     name: 'Life Flashes By'
     engine_id: sludge
@@ -12717,6 +12759,20 @@
     engine_id: sludge
     company_id: aquin
     year: '2003'
+    moby_id: '-1'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'sludge:nsc'
+    name: "Nathan's Second Chance"
+    engine_id: sludge
+    company_id: unknown
+    year: '2005'
     moby_id: '-1'
     steam_id: ''
     gog_id: ''
@@ -12754,20 +12810,6 @@
     wikipedia_page: ''
     series_id: ''
 -
-    id: 'sludge:sludge'
-    name: 'Sludge Game'
-    engine_id: sludge
-    company_id: unknown
-    year: ''
-    moby_id: '-1'
-    steam_id: ''
-    gog_id: ''
-    zoom_id: ''
-    additional_stores: ''
-    datafiles: ''
-    wikipedia_page: ''
-    series_id: ''
--
     id: 'sludge:tgttpoacs'
     name: 'The Game That Takes Place on a Cruise Ship'
     engine_id: sludge
@@ -12782,26 +12824,12 @@
     wikipedia_page: ''
     series_id: ''
 -
-    id: 'sludge:verbcoin'
-    name: 'Verb Coin'
+    id: 'sludge:tsotc'
+    name: 'The Secret of Tremendous Corporation'
     engine_id: sludge
     company_id: unknown
-    year: ''
-    moby_id: '-1'
-    steam_id: ''
-    gog_id: ''
-    zoom_id: ''
-    additional_stores: ''
-    datafiles: ''
-    wikipedia_page: ''
-    series_id: ''
--
-    id: 'sludge:welcome'
-    name: 'Welcome Example'
-    engine_id: sludge
-    company_id: unknown
-    year: ''
-    moby_id: '-1'
+    year: '2015'
+    moby_id: '77944'
     steam_id: ''
     gog_id: ''
     zoom_id: ''
