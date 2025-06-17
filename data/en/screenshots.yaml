@@ -1446,6 +1446,12 @@
     language: en
     variant_id: '1'
 -
+    id: 'lastexpress:lastexpress'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'lure:lure'
     variant: VGA
     platform_id: dos
