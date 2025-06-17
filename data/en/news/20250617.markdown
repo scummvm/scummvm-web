@@ -1,0 +1,14 @@
+---
+title: "All aboard! The Last Express is ready for testing!"
+author: Bosca
+date: 1750186718
+---
+Paris, July 24, 1914. We are excited to announce that Jordan Mechner's acclaimed real-time adventure _The Last Express_ is now ready for testing in ScummVM!
+
+Step into the shoes of Robert Cath, an American doctor on the run from murder charges, as he boards the legendary Orient Express for what would be its final journey before the outbreak of World War I.
+
+What makes this adventure game truly unique is its time-based gameplay - the game takes place in real time, and characters move within the train following their own schedules, speaking in their native languages, and living their lives whether you're watching or not. But don't worry... you can always rewind time if you missed anything important!
+
+To test this game, you'll need the original version of the game (either from the original hybrid DOS/Windows/Mac CDs or from [GOG.com](https://www.gog.com/en/game/last_express_the)) and a daily development build of ScummVM. Please note that *the Gold Edition available from Steam is NOT supported* - only the original version is compatible at this time. The engine supports the following languages for the game: English, French, German, Italian, and Spanish. We couldn't locate the Japanese version at the moment, but please contact us if you have it!
+
+Grab a [daily build](https://scummvm.org/downloads/#daily), have our [testing guidelines](https://wiki.scummvm.org/index.php/Release_Testing#Testing_Guidelines) handy, and get ready for an incredible journey through history, mystery, and one of the most innovative adventure games of the 1990s — and besides... the Orient Express is such a beautiful train, wouldn't you want to take some [screenshots](https://wiki.scummvm.org/index.php/Screenshots) while you're there?
