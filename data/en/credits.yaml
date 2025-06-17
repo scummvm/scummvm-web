@@ -358,6 +358,17 @@
         alias: "Strangerke"
         description: ""
     -
+      name: "awe"
+      person:
+      -
+        name: "Gregory Montoir"
+        alias: "cyx"
+        description: ""
+      -
+        name: "Paul Gilbert"
+        alias: "dreammaster"
+        description: ""
+    -
       name: "Bagel"
       person:
       -
@@ -993,6 +1004,10 @@
     -
       name: "Lastexpress"
       person:
+      -
+        name: "Andrea Boscarino"
+        alias: "Bosca"
+        description: "Engine rewrite"
       -
         name: "Matthew Hoops"
         alias: "clone2727"
@@ -3225,7 +3240,7 @@
       -
         name: "Petr Vyhnak"
         alias: ""
-        description: "The DCL-INFLATE algorithm, many Win32 improvements"
+        description: "The DCL-IMPLODE algorithm, many Win32 improvements"
       -
         name: "Bas Zoetekouw"
         alias: ""
