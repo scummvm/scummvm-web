@@ -3258,6 +3258,114 @@
     language: en
     variant_id: '1'
 -
+    id: 'sludge:atw'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'sludge:cubert'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'sludge:cubert'
+    variant: ''
+    platform_id: win
+    language: de
+    variant_id: '1'
+-
+    id: 'sludge:cubert'
+    variant: ''
+    platform_id: win
+    language: it
+    variant_id: '1'
+-
+    id: 'sludge:cubert'
+    variant: ''
+    platform_id: win
+    language: sv
+    variant_id: '1'
+-
+    id: 'sludge:frasse'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'sludge:interview'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'sludge:leptonsquest'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'sludge:life'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'sludge:mandy'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'sludge:mandy'
+    variant: ''
+    platform_id: win
+    language: it
+    variant_id: '1'
+-
+    id: 'sludge:mandy'
+    variant: ''
+    platform_id: win
+    language: pl
+    variant_id: '1'
+-
+    id: 'sludge:mandy'
+    variant: ''
+    platform_id: win
+    language: sk
+    variant_id: '1'
+-
+    id: 'sludge:nsc'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'sludge:outoforder'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'sludge:robinsrescue'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'sludge:tgttpoacs'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'sludge:tsotc'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'supernova:msn1'
     variant: ''
     platform_id: dos

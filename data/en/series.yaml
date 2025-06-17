@@ -285,6 +285,9 @@
     id: sherlock
     name: 'Sherlock Holmes'
 -
+    id: sludge
+    name: 'SLUDGE Engine'
+-
     id: sierrachristmas
     name: 'Sierra Christmas Cards'
 -
