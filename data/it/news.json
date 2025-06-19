@@ -408,7 +408,8 @@
         "title": "Alcuni Aggiornamenti Relativamente Importanti"
     },
     "20020404": {
-        "title": "Codice de-freezato"
+        "title": "Codice de-freezato",
+        "content": "Dopo alcune settimane, il codice di ScummVM è stato ufficialmente scongelato e il lavoro per supportare nuovi giochi procede spedito. Tanto per cominciare, diversi bug in Zak256 sono stati corretti, e il gioco è ora molto più godibile... ma c'è ancora tanto da fare!"
     },
     "20020320": {
         "title": "Code Freeze",
@@ -417,5 +418,24 @@
     "20250617": {
         "content": "Parigi, 24 luglio 1914. Siamo entusiasti di annunciare che l'acclamata avventura in tempo reale di Jordan Mechner, _The Last Express_, è pronta per essere testata in ScummVM!\n\nVesti i panni di Robert Cath, un dottore americano in fuga da una condanna per omicidio, mentre si imbarca sul leggendario Orient Express in partenza per l'ultimo viaggio prima dello scoppio della prima Guerra Mondiale.\n\nA rendere questa avventura davvero unica è la meccanica di gioco \"a tempo\" - Il gioco si svolge in tempo reale e i personaggi si muovono nel treno seguendo il proprio programma, parlando le rispettive lingue e in generale vivendo le proprie vite anche quando non stai interagendo con loro. Ma non preoccuparti... puoi sempre riavvolgere il tempo se ti sei perso qualche passaggio importante.\n\nPer testare questo gioco, avrai bisogno della versione originale (i CD ibridi DOS/Windows/Mac oppure la versione rilasciata da [GOG.com](https://www.gog.com/en/game/last_express_the)), e una daily build di sviluppo di ScummVM. Tieni presente che la *Gold Edition disponibile su Steam NON è supportata* - attualmente, solo la versione originale è compatibile. Il motore supporta le seguenti lingue di gioco: Inglese, Francese, Tedesco, Italiano e Spagnolo. Non disponiamo della versione in Giapponese, pertanto contattaci subito se la possiedi!\n\nProcurati una [daily build](https://scummvm.org/downloads/#daily), tieni a portata di mano le nostre [linee guida per i test](https://wiki.scummvm.org/index.php/Release_Testing#Testing_Guidelines) e preparati per un incredibile viaggio tra storia e intrighi in uno dei giochi d'avventura più innovativi degli anni 90 — inoltre, l'Orient Express è un bellissimo treno, che ne dici di catturare anche qualche [screenshot](https://wiki.scummvm.org/index.php/Screenshots) mentre sei a bordo?",
         "title": "Tutti a bordo! The Last Express è pronto per i test!"
+    },
+    "20020501": {
+        "title": "Aggiornamento di stato: Atto Secondo",
+        "content": "Sì, siamo ancora vivi. Sfortunatamente siamo ben lontani dall'essere pronti per la release 0.2.0, diversi utenti hanno individuato un gran numero di bug critici, su cui stiamo lavorando. Non abbandonarci, ce la faremo!\n\nAh, già che ci siamo... se qualcuno sa dove trovare Sean Clark o qualsiasi altra persona che ha lavorato allo script di Sam e Max, per favore cerchi di rapirlo e farsi spiegare la race condition che avviene nel Mystery Vortex, che ci ha tenuti svegli per almeno 48 ore.\n\nGrazie, e godetevi ScummVM :)"
+    },
+    "20020511": {
+        "title": "Le ultime novità."
+    },
+    "20020406": {
+        "content": "Dopo un po' di lavoro, la versione CD di Loom (con parlato e grafica a 256 colori) è ora completabile! In seguito a ciò, ci stiamo preparando per la release 0.2.0. Per aiutarci, chiediamo a voi (i giocatori) di procurarvi l'ultima Daily Build o gli snapshot CVS e provare a completare i vostri giochi preferiti!\nDobbiamo accertarci che i seguenti giochi siano completabili senza grossi intoppi (inteso come crash e blocchi - problemi minori come la sincronizzazione del suono non fanno testo):\n\n*   Loom CD\n*   Monkey Island 1 (CD)\n*   Monkey Island 2\n*   Indy 4: Fate of atlantis\n*   Sam e Max\n*   Day of the Tentacle\n\nGrazie anticipatamente, e se tutto va come auspichiamo, potremo finalmente rilasciare una nuova versione! Inoltre, in seguito a svariate richieste, la versione 0.2.0 includerà un sistema di salvataggio automatico, così non perderai ore di \"lavoro\" nel caso ti fossi dimenticato di salvare e successivamente incontrato un bug!",
+        "title": "Loom e la versione 0.2.0"
+    },
+    "20020414": {
+        "title": "Aggiornamento di stato",
+        "content": "La release 0.2.0 è stata nuovamente posta in stand-by, perchè stiamo ancora riorganizzando il motore di ScummVM. Tuttavia ecco un interessante anneddoto: la release 0.2.0 supporterà anche un gioco che non utilizza il motore SCUMM: Simon The Sorcerer! Quindi, gente, divertitevi con la versione CVS (e condividete).\n\nAlcuni di voi potrebbero aver notato il bottone PayPal in fondo alla barra di navigazione. Se vi state divertendo con ScummVM, per favore donate qualcosa, per aiutarci a comprare nuovo software per lo sviluppo. Grazie!"
+    },
+    "20020409": {
+        "content": "Grazie alla collaborazione di diversi utenti, abbiamo conferma che DOTT, Sam e Max e Loom CD sono tutti completabili senza bug \"importanti\". D'altro canto, sono emersi diversi bug seri in MI2 e Indy4, pertanto la release 0.2.0 richiederà un po' più tempo del previsto.\n\nPer tutti i programmatori che stanno leggendo: sentitevi liberi di dare un'occhiata alla lista dei bug e a inviarci possibili correzioni. Al momento c'è una sola persona che lavora regolarmente su ScummVM e le cose vanno a rilento.",
+        "title": "Aggiornamenti circa la release"
     }
 }
