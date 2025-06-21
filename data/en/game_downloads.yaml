@@ -325,7 +325,7 @@
     category: games
     game_id: 'sludge:cubert'
     category_icon: cubert
-    url: 'SLUDGE/cubert.zip '
+    url: SLUDGE/cubert.zip
     name: 'Version Dec 15, 2005'
     notes: ''
 -
@@ -367,56 +367,56 @@
     category: games
     game_id: 'sludge:frasse'
     category_icon: frasse
-    url: 'SLUDGE/frasse-1.03.zip   '
+    url: SLUDGE/frasse-1.03.zip
     name: 'Version v1.03'
     notes: ''
 -
     category: games
     game_id: 'sludge:frasse'
     category_icon: frasse
-    url: 'SLUDGE/frasse-1.04.zip   '
+    url: SLUDGE/frasse-1.04.zip
     name: 'Version v1.04'
     notes: ''
 -
     category: games
     game_id: 'sludge:frasse'
     category_icon: frasse
-    url: 'SLUDGE/frasse-2.02.zip   '
+    url: SLUDGE/frasse-2.02.zip
     name: 'Version v2.02'
     notes: ''
 -
     category: games
     game_id: 'sludge:frasse'
     category_icon: frasse
-    url: 'SLUDGE/frasse-2.03.zip   '
+    url: SLUDGE/frasse-2.03.zip
     name: 'Version v2.03'
     notes: ''
 -
     category: games
     game_id: 'sludge:interview'
     category_icon: interview
-    url: 'SLUDGE/interview.zip   '
+    url: SLUDGE/interview.zip
     name: ''
     notes: ''
 -
     category: games
     game_id: 'sludge:leptonsquest'
     category_icon: leptonsquest
-    url: 'SLUDGE/leptonsquest-linux.zip '
+    url: SLUDGE/leptonsquest-linux.zip
     name: 'Linux version'
     notes: ''
 -
     category: games
     game_id: 'sludge:leptonsquest'
     category_icon: leptonsquest
-    url: 'SLUDGE/leptonsquest-mac.zip   '
+    url: SLUDGE/leptonsquest-mac.zip
     name: 'Mac version'
     notes: ''
 -
     category: games
     game_id: 'sludge:leptonsquest'
     category_icon: leptonsquest
-    url: 'SLUDGE/leptonsquest.zip  '
+    url: SLUDGE/leptonsquest.zip
     name: 'Windows version'
     notes: ''
 -
@@ -430,7 +430,7 @@
     category: games
     game_id: 'sludge:life'
     category_icon: life
-    url: 'SLUDGE/lifeflashesby.zip  '
+    url: SLUDGE/lifeflashesby.zip
     name: ''
     notes: ''
 -
@@ -444,28 +444,28 @@
     category: games
     game_id: 'sludge:mandy'
     category_icon: mandy
-    url: 'SLUDGE/mandy-1.2.zip '
+    url: SLUDGE/mandy-1.2.zip
     name: 'English, Slovak, v1.2'
     notes: ''
 -
     category: games
     game_id: 'sludge:mandy'
     category_icon: mandy
-    url: 'SLUDGE/mandy-1.3.zip '
+    url: SLUDGE/mandy-1.3.zip
     name: 'English, Italian, Slovak, v1.3'
     notes: ''
 -
     category: games
     game_id: 'sludge:mandy'
     category_icon: mandy
-    url: 'SLUDGE/mandy-1.4.zip '
+    url: SLUDGE/mandy-1.4.zip
     name: 'English, Italian, Polish, Slovak, v1.4'
     notes: ''
 -
     category: games
     game_id: 'sludge:nsc'
     category_icon: nsc
-    url: 'SLUDGE/nsc.zip   '
+    url: SLUDGE/nsc.zip
     name: 'Version v1.03'
     notes: ''
 -
@@ -479,28 +479,28 @@
     category: games
     game_id: 'sludge:outoforder'
     category_icon: outoforder
-    url: 'SLUDGE/ooo.zip '
+    url: SLUDGE/ooo.zip
     name: 'Windows version, June 5, 2003'
     notes: ''
 -
     category: games
     game_id: 'sludge:robinsrescue'
     category_icon: robinsrescue
-    url: 'SLUDGE/robinsrescue-alt.zip '
+    url: SLUDGE/robinsrescue-alt.zip
     name: 'Alternative Version'
     notes: ''
 -
     category: games
     game_id: 'sludge:robinsrescue'
     category_icon: robinsrescue
-    url: 'SLUDGE/robinsrescue-linux.zip '
+    url: SLUDGE/robinsrescue-linux.zip
     name: ''
     notes: ''
 -
     category: games
     game_id: 'sludge:robinsrescue'
     category_icon: robinsrescue
-    url: 'SLUDGE/robinsrescue.zip '
+    url: SLUDGE/robinsrescue.zip
     name: ''
     notes: ''
 -
