@@ -396,7 +396,7 @@
     game_id: 'sludge:interview'
     category_icon: interview
     url: SLUDGE/interview.zip
-    name: ''
+    name: 'From the standard packaging'
     notes: ''
 -
     category: games
@@ -424,21 +424,21 @@
     game_id: 'sludge:life'
     category_icon: life
     url: SLUDGE/life.zip
-    name: ''
+    name: 'First version'
     notes: ''
 -
     category: games
     game_id: 'sludge:life'
     category_icon: life
     url: SLUDGE/lifeflashesby.zip
-    name: ''
+    name: 'SLG version'
     notes: ''
 -
     category: games
     game_id: 'sludge:life'
     category_icon: life
     url: 'https://games.squinky.me/downloads/lfb/LifeFlashesBy-setup.exe'
-    name: ''
+    name: 'Windows installer version'
     notes: ''
 -
     category: games
@@ -473,7 +473,7 @@
     game_id: 'sludge:outoforder'
     category_icon: outoforder
     url: SLUDGE/outoforder.zip
-    name: ''
+    name: 'Linux version'
     notes: ''
 -
     category: games
@@ -494,21 +494,21 @@
     game_id: 'sludge:robinsrescue'
     category_icon: robinsrescue
     url: SLUDGE/robinsrescue-linux.zip
-    name: ''
+    name: 'Linux version'
     notes: ''
 -
     category: games
     game_id: 'sludge:robinsrescue'
     category_icon: robinsrescue
     url: SLUDGE/robinsrescue.zip
-    name: ''
+    name: 'SLG version'
     notes: ''
 -
     category: games
     game_id: 'sludge:tgttpoacs'
     category_icon: tgttpoacs
     url: SLUDGE/tgttpoacs.zip
-    name: ''
+    name: 'Released version'
     notes: ''
 -
     category: games
