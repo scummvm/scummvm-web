@@ -1,0 +1,14 @@
+---
+title: Off to Adibou's Land of Sciences
+author: sdelamarre
+date: 1750615200 
+---
+
+We are happy to announce that ScummVM now supports the _Nature & Sciences_ expansion of _Adibou 2_, the popular educational collection aimed at children aged 4 to 7.
+
+Released in 1998, two years after the base _Adibou 2_ game, _Nature & Sciences_ explores a broader range of subjects, beyond Adibou's original focus on reading and mathematics. The game is structured into five modules: history, geography, science & technology, the countryside, and everyday life, each of them featuring six playful activities on the topic. 
+
+Please note that the 3D car driving minigame, included in the original PC version, is unfortunately not supported in our ScummVM reimplementation, as it was based on a different engine. 
+
+To help us during the testing period, dig out your _Nature & Sciences_ CD, grab a [daily build](https://scummvm.org/downloads/#daily) and read our [testing guidelines](https://wiki.scummvm.org/index.php/Release_Testing#Testing_Guidelines). You will also need an existing installation from the base _Environment_ CD, and to copy the contents of your _Nature & Sciences_ CD into a freely named subdirectory of the main game directory, as described in [our wiki](https://wiki.scummvm.org/index.php/Adibou_2/). Then, register the expansion in-game via the "Land of Knowledge" screen, and start collecting sweets as you complete Adibou's activities—or encourage a young relative to do so! Hardworking players may even get a diploma upon completing a module and proudly display it in their room!
+
