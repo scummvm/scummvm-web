@@ -284,35 +284,238 @@
     game_id: 'cge2:sfinx'
     category_icon: sfinx
     url: Sfinx/sfinx-en-v1.1.zip
-    name: 'Freeware Version (English, v1.1)'
+    name: 'English v1.1'
     notes: ''
 -
     category: games
     game_id: 'cge2:sfinx'
     category_icon: sfinx
     url: Sfinx/sfinx-pl-v1.1.zip
-    name: 'Freeware Version (Polish, v1.1)'
+    name: 'Polish v1.1'
     notes: ''
 -
     category: games
     game_id: 'cge:soltys'
     category_icon: soltys
     url: Soltys/soltys-en-v1.0.zip
-    name: 'Freeware Version (English)'
+    name: ''
     notes: ''
 -
     category: games
     game_id: 'cge:soltys'
     category_icon: soltys
     url: Soltys/soltys-pl-v1.0.zip
-    name: 'Freeware Version (Polish)'
+    name: ''
     notes: ''
 -
     category: games
     game_id: 'cge:soltys'
     category_icon: soltys
     url: Soltys/soltys-es-v1.0.zip
-    name: 'Freeware Version (Spanish)'
+    name: ''
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:atw'
+    category_icon: atw
+    url: SLUDGE/atw.zip
+    name: ''
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:cubert'
+    category_icon: cubert
+    url: 'SLUDGE/cubert.zip '
+    name: 'Version Dec 15, 2005'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:cubert'
+    category_icon: cubert
+    url: SLUDGE/cubert-04.zip
+    name: 'Version Mar 9, 2004'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:cubert'
+    category_icon: cubert
+    url: SLUDGE/cubert-1.1.zip
+    name: 'Version v1.1, August 4, 2002'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:cubert'
+    category_icon: cubert
+    url: SLUDGE/cubert-1.1-1.zip
+    name: 'Version v1.1, June 11, 2003'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:cubert'
+    category_icon: cubert
+    url: SLUDGE/cubert-1.2.zip
+    name: 'Freeware Version (v1.2, August 16, 2002)'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:cubert'
+    category_icon: cubert
+    url: SLUDGE/cubert-1.25.zip
+    name: 'Freeware Version (v1.25, September 5, 2002)'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:frasse'
+    category_icon: frasse
+    url: 'SLUDGE/frasse-1.03.zip   '
+    name: 'Freeware Version (v1.03)'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:frasse'
+    category_icon: frasse
+    url: 'SLUDGE/frasse-1.04.zip   '
+    name: 'Freeware Version (v1.04)'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:frasse'
+    category_icon: frasse
+    url: 'SLUDGE/frasse-2.02.zip   '
+    name: 'Freeware Version (v2.02)'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:frasse'
+    category_icon: frasse
+    url: 'SLUDGE/frasse-2.03.zip   '
+    name: 'Freeware Version (v2.03)'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:interview'
+    category_icon: interview
+    url: 'SLUDGE/interview.zip   '
+    name: 'Freeware Version'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:leptonsquest'
+    category_icon: leptonsquest
+    url: 'SLUDGE/leptonsquest-linux.zip '
+    name: 'Freeware Version (Linux)'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:leptonsquest'
+    category_icon: leptonsquest
+    url: 'SLUDGE/leptonsquest-mac.zip   '
+    name: 'Freeware Version (Mac)'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:leptonsquest'
+    category_icon: leptonsquest
+    url: 'SLUDGE/leptonsquest.zip  '
+    name: 'Freeware Version (Windows)'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:life'
+    category_icon: life
+    url: SLUDGE/life.zip
+    name: 'Freeware Version'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:life'
+    category_icon: life
+    url: 'SLUDGE/lifeflashesby.zip  '
+    name: 'Freeware Version (slg)'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:life'
+    category_icon: life
+    url: 'https://games.squinky.me/downloads/lfb/LifeFlashesBy-setup.exe'
+    name: 'Freeware Version (Windows)'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:mandy'
+    category_icon: mandy
+    url: 'SLUDGE/mandy-1.2.zip '
+    name: 'Freeware Version (English, Slovak, v1.2)'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:mandy'
+    category_icon: mandy
+    url: 'SLUDGE/mandy-1.3.zip '
+    name: 'Freeware Version (English, Italian, Slovak, v1.3)'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:mandy'
+    category_icon: mandy
+    url: 'SLUDGE/mandy-1.4.zip '
+    name: 'Freeware Version (English, Italian, Polish, Slovak, v1.4)'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:nsc'
+    category_icon: nsc
+    url: 'SLUDGE/nsc.zip   '
+    name: 'Freeware Version (v1.03)'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:outoforder'
+    category_icon: outoforder
+    url: SLUDGE/outoforder.zip
+    name: 'Freeware Version (Linux)'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:outoforder'
+    category_icon: outoforder
+    url: 'SLUDGE/ooo.zip '
+    name: 'Freeware Version (Windows, June 5, 2003)'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:robinsrescue'
+    category_icon: robinsrescue
+    url: 'SLUDGE/robinsrescue-alt.zip '
+    name: 'Freeware Version'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:robinsrescue'
+    category_icon: robinsrescue
+    url: 'SLUDGE/robinsrescue-linux.zip '
+    name: 'Freeware Version (Linux)'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:robinsrescue'
+    category_icon: robinsrescue
+    url: 'SLUDGE/robinsrescue.zip '
+    name: 'Freeware Version (robins_rescue.slg)'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:tgttpoacs'
+    category_icon: tgttpoacs
+    url: SLUDGE/tgttpoacs.zip
+    name: 'Freeware Version'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:tsotc'
+    category_icon: tsotc
+    url: SLUDGE/tsotc-v6.zip
+    name: 'Freeware Version (v6)'
     notes: ''
 -
     category: addons
