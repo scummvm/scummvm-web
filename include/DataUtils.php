@@ -72,7 +72,6 @@ class DataUtils
         Promise\Utils::unwrap($promises);
 
         DataUtils::convertYamlToOrm();
-
         // Clear the cache at the end of all data operations
         \file_put_contents('.clear-cache', '');
     }
@@ -113,21 +112,28 @@ class DataUtils
     private static function convertYamlToOrm()
     {
         foreach (self::OBJECT_NAMES as $name => $object) {
+            $failures = array();
+
             $query = "ScummVM\\OrmObjects\\{$object}Query";
             if ($query::create()->count() > 0) {
                 continue;
             }
             $file = DIR_DATA . "/" . DEFAULT_LOCALE . "/$name.yaml";
             $data = Yaml::parseFile($file);
+            $data = array_values($data);
             echo "Writing $object data to database\n";
 
             $class = "ScummVM\\OrmObjects\\$object";
             $mapClass = $class::TABLE_MAP;
             $con = Propel::getConnection($mapClass::DATABASE_NAME);
-            // Use a transation to speed up writes
-            $con->beginTransaction();
-            foreach ($data as $item) {
-                try {
+            do {
+                $newFailures = array();
+                // Use a transation to speed up writes
+                $con->beginTransaction();
+                foreach ($data as $i => $item) {
+                    if (in_array($i, $failures)) {
+                        continue;
+                    }
                     foreach ($item as $key => $val) {
                         if ($val === '') {
                             unset($item[$key]);
@@ -138,14 +144,30 @@ class DataUtils
                     if ($object === 'Demo' || $object === 'DirectorDemo') {
                         $item['platform_id'] = $item['platform'];
                     }
-                    $dbItem->fromArray($item, TableMap::TYPE_FIELDNAME);
-                    $dbItem->save($con);
-                } catch (\Exception $ex) {
-                    echo json_encode($item) . "\n";
-                    echo $ex->getMessage() . "\n";
+                    try {
+                        $dbItem->fromArray($item, TableMap::TYPE_FIELDNAME);
+                        $dbItem->save($con);
+                    } catch (\Exception $ex) {
+                        $newFailures[] = $i;
+
+                        echo json_encode($item) . "\n";
+                        echo $ex->getMessage() . "\n";
+                        $prev = $ex->getPrevious();
+                        if ($prev) {
+                            echo "  > " . $prev->getMessage() . "\n";
+                        }
+                    }
                 }
-            }
-            $con->commit();
+                if ($con->isCommitable()) {
+                    $con->commit();
+                    // If we could commit, we are done
+                    break;
+                } else {
+                    $con->rollback();
+                }
+                $failures = array_merge($failures, $newFailures);
+                // If there are no new failure, we will get an infinite loop
+            } while (count($newFailures));
         }
     }
 }
