@@ -418,7 +418,7 @@
     id: sludge
     name: SLUDGE
     alt_name: 'Scripting Language for Unhindered Development of a Gaming Environment'
-    enabled: false
+    enabled: true
 -
     id: stark
     name: Stark
