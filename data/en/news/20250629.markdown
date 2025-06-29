@@ -1,0 +1,26 @@
+---
+title: "SLUDGE-based games are ready for testing"
+author: Alikhan
+date: 1751196249
+---
+Do you want to expose the deepest secrets of the Tremendous Corporation® and save the games industry? Are you interested in helping a young man who's out of order in an alien future? Or will you join the story of Nathan, who wants to get a second chance in life?
+
+If you answered "yes", then get ready, as we are happy to announce full support for all games based on the [SLUDGE](https://opensludge.github.io/) engine. The original work began back in 2017, by one of our GSoC students, Simei Yin. Now, after many years of development, the following games are available for public testing:
+* _Above The Waves_
+* _Cubert Badbone, P.I._
+* _Frasse And The Peas Of Kejick_
+* _The Game That Takes Place On a Cruise Ship_
+* _The Interview_
+* _Lepton's Quest_
+* _Life Flashes By_
+* _Mandy Christmas Adventure_
+* _Nathan's Second Chance_
+* _Out of Order_
+* _Robin's Rescue_
+* _The Secret of Tremendous Corporation_
+
+Essentially, this is the list of all the SLUDGE-based games we know of.
+
+So download your free copies of the games from [our game downloads page](https://www.scummvm.org/games/) and use a daily [development build](https://www.scummvm.org/downloads/#daily) to start playing. If you encounter any issues, please submit bug reports to our [issue tracker](https://bugs.scummvm.org/).
+
+Finally, please [contact us](https://www.scummvm.org/contact/) if you are aware of other games using SLUDGE, variant releases, or releases that are not getting detected properly.
