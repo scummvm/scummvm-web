@@ -317,203 +317,203 @@
 -
     category: games
     game_id: 'sludge:atw'
-    category_icon: atw
+    category_icon: sludge
     url: SLUDGE/atw.zip
     name: 'SLUDGE engine game. Version v0.1'
     notes: ''
 -
     category: games
     game_id: 'sludge:cubert'
-    category_icon: cubert
+    category_icon: sludge
     url: SLUDGE/cubert.zip
     name: 'SLUDGE engine game. Version Dec 15, 2005'
     notes: ''
 -
     category: games
     game_id: 'sludge:cubert'
-    category_icon: cubert
+    category_icon: sludge
     url: SLUDGE/cubert-04.zip
     name: 'SLUDGE engine game. Version Mar 9, 2004'
     notes: ''
 -
     category: games
     game_id: 'sludge:cubert'
-    category_icon: cubert
+    category_icon: sludge
     url: SLUDGE/cubert-1.1.zip
     name: 'SLUDGE engine game. Version v1.1, August 4, 2002'
     notes: ''
 -
     category: games
     game_id: 'sludge:cubert'
-    category_icon: cubert
+    category_icon: sludge
     url: SLUDGE/cubert-1.1-1.zip
     name: 'SLUDGE engine game. Version v1.1, June 11, 2003'
     notes: ''
 -
     category: games
     game_id: 'sludge:cubert'
-    category_icon: cubert
+    category_icon: sludge
     url: SLUDGE/cubert-1.2.zip
     name: 'SLUDGE engine game. Version v1.2, August 16, 2002'
     notes: ''
 -
     category: games
     game_id: 'sludge:cubert'
-    category_icon: cubert
+    category_icon: sludge
     url: SLUDGE/cubert-1.25.zip
     name: 'SLUDGE engine game. Version v1.25, September 5, 2002'
     notes: ''
 -
     category: games
     game_id: 'sludge:frasse'
-    category_icon: frasse
+    category_icon: sludge
     url: SLUDGE/frasse-1.03.zip
     name: 'SLUDGE engine game. Version v1.03'
     notes: ''
 -
     category: games
     game_id: 'sludge:frasse'
-    category_icon: frasse
+    category_icon: sludge
     url: SLUDGE/frasse-1.04.zip
     name: 'SLUDGE engine game. Version v1.04'
     notes: ''
 -
     category: games
     game_id: 'sludge:frasse'
-    category_icon: frasse
+    category_icon: sludge
     url: SLUDGE/frasse-2.02.zip
     name: 'SLUDGE engine game. Version v2.02'
     notes: ''
 -
     category: games
     game_id: 'sludge:frasse'
-    category_icon: frasse
+    category_icon: sludge
     url: SLUDGE/frasse-2.03.zip
     name: 'SLUDGE engine game. Version v2.03'
     notes: ''
 -
     category: games
     game_id: 'sludge:interview'
-    category_icon: interview
+    category_icon: sludge
     url: SLUDGE/interview.zip
     name: 'SLUDGE engine game.'
     notes: ''
 -
     category: games
     game_id: 'sludge:leptonsquest'
-    category_icon: leptonsquest
+    category_icon: sludge
     url: SLUDGE/leptonsquest-linux.zip
     name: 'SLUDGE engine game. Linux version'
     notes: ''
 -
     category: games
     game_id: 'sludge:leptonsquest'
-    category_icon: leptonsquest
+    category_icon: sludge
     url: SLUDGE/leptonsquest-mac.zip
     name: 'SLUDGE engine game. Mac version'
     notes: ''
 -
     category: games
     game_id: 'sludge:leptonsquest'
-    category_icon: leptonsquest
+    category_icon: sludge
     url: SLUDGE/leptonsquest.zip
     name: 'SLUDGE engine game. Windows version'
     notes: ''
 -
     category: games
     game_id: 'sludge:life'
-    category_icon: life
+    category_icon: sludge
     url: SLUDGE/life.zip
     name: 'SLUDGE engine game.'
     notes: ''
 -
     category: games
     game_id: 'sludge:life'
-    category_icon: life
+    category_icon: sludge
     url: SLUDGE/lifeflashesby.zip
     name: 'SLUDGE engine game. SLG version'
     notes: ''
 -
     category: games
     game_id: 'sludge:life'
-    category_icon: life
+    category_icon: sludge
     url: 'https://games.squinky.me/downloads/lfb/LifeFlashesBy-setup.exe'
     name: 'SLUDGE engine game. Windows installer version'
     notes: ''
 -
     category: games
     game_id: 'sludge:mandy'
-    category_icon: mandy
+    category_icon: sludge
     url: SLUDGE/mandy-1.2.zip
     name: 'SLUDGE engine game. English, Slovak, v1.2'
     notes: ''
 -
     category: games
     game_id: 'sludge:mandy'
-    category_icon: mandy
+    category_icon: sludge
     url: SLUDGE/mandy-1.3.zip
     name: 'SLUDGE engine game. English, Italian, Slovak, v1.3'
     notes: ''
 -
     category: games
     game_id: 'sludge:mandy'
-    category_icon: mandy
+    category_icon: sludge
     url: SLUDGE/mandy-1.4.zip
     name: 'SLUDGE engine game. English, Italian, Polish, Slovak, v1.4'
     notes: ''
 -
     category: games
     game_id: 'sludge:nsc'
-    category_icon: nsc
+    category_icon: sludge
     url: SLUDGE/nsc.zip
     name: 'SLUDGE engine game. Version v1.03'
     notes: ''
 -
     category: games
     game_id: 'sludge:outoforder'
-    category_icon: outoforder
+    category_icon: sludge
     url: SLUDGE/outoforder.zip
     name: 'SLUDGE engine game. Linux version'
     notes: ''
 -
     category: games
     game_id: 'sludge:outoforder'
-    category_icon: outoforder
+    category_icon: sludge
     url: SLUDGE/ooo.zip
     name: 'SLUDGE engine game. Windows version, June 5, 2003'
     notes: ''
 -
     category: games
     game_id: 'sludge:robinsrescue'
-    category_icon: robinsrescue
+    category_icon: sludge
     url: SLUDGE/robinsrescue-alt.zip
     name: 'SLUDGE engine game. Alternative Version'
     notes: ''
 -
     category: games
     game_id: 'sludge:robinsrescue'
-    category_icon: robinsrescue
+    category_icon: sludge
     url: SLUDGE/robinsrescue-linux.zip
     name: 'SLUDGE engine game. Linux version'
     notes: ''
 -
     category: games
     game_id: 'sludge:robinsrescue'
-    category_icon: robinsrescue
+    category_icon: sludge
     url: SLUDGE/robinsrescue.zip
     name: 'SLUDGE engine game. SLG version'
     notes: ''
 -
     category: games
     game_id: 'sludge:tgttpoacs'
-    category_icon: tgttpoacs
+    category_icon: sludge
     url: SLUDGE/tgttpoacs.zip
     name: 'SLUDGE engine game.'
     notes: ''
 -
     category: games
     game_id: 'sludge:tsotc'
-    category_icon: tsotc
+    category_icon: sludge
     url: SLUDGE/tsotc-v6.zip
     name: 'SLUDGE engine game. Version v6'
     notes: ''
