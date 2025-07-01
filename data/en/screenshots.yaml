@@ -1004,7 +1004,7 @@
 -
     id: 'gob:adibou2'
     variant: ''
-    platform_id: dos
+    platform_id: win
     language: fr
     variant_id: '1'
 -
