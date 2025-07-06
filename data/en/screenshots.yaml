@@ -920,19 +920,31 @@
 -
     id: 'freescape:driller'
     variant: ''
+    platform_id: amiga
+    language: en
+    variant_id: '1'
+-
+    id: 'freescape:driller'
+    variant: ''
+    platform_id: c64
+    language: en
+    variant_id: '1'
+-
+    id: 'freescape:driller'
+    variant: ''
+    platform_id: cpc
+    language: en
+    variant_id: '1'
+-
+    id: 'freescape:driller'
+    variant: ''
     platform_id: dos
     language: en
     variant_id: '1'
 -
     id: 'freescape:driller'
-    variant: TinyGL
-    platform_id: dos
-    language: en
-    variant_id: '2'
--
-    id: 'freescape:driller'
     variant: ''
-    platform_id: amiga
+    platform_id: zx
     language: en
     variant_id: '1'
 -
