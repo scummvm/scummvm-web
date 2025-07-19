@@ -5349,7 +5349,7 @@
     unstable_platforms: ''
 -
     id: 'lastexpress:lastexpress'
-    support: untested
+    support: excellent
     notes: '- Gold Edition not supported.'
     since_version: DEV
     stable_platforms: 'dos,win,mac'
