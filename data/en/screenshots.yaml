@@ -529,9 +529,27 @@
     variant_id: '1'
 -
     id: 'awe:anotherworld'
-    variant: ''
+    variant: VGA
     platform_id: dos
     language: en
+    variant_id: '1'
+-
+    id: 'awe:anotherworld'
+    variant: EGA
+    platform_id: dos
+    language: en
+    variant_id: '2'
+-
+    id: 'awe:anotherworld'
+    variant: ''
+    platform_id: amiga
+    language: fr
+    variant_id: '1'
+-
+    id: 'awe:anotherworld'
+    variant: ''
+    platform_id: amiga
+    language: it
     variant_id: '1'
 -
     id: 'bagel:spacebar'
