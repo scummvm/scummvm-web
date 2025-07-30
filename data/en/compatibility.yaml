@@ -5438,3 +5438,10 @@
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
+-
+    id: 'dgds:china'
+    support: good
+    notes: '- Tank minigame is not implemented'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
