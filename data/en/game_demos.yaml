@@ -934,7 +934,7 @@
     language: en
     language2: ''
     language3: ''
-    url: /frs/demos/freescape/castlemaster-dos-demo.zip
+    url: /frs/demos/freescape/castle-dos-demo.zip
 -
     id: 'freescape:castlemaster'
     platform: amiga
@@ -943,7 +943,7 @@
     language: en
     language2: fr
     language3: de
-    url: /frs/demos/freescape/castlemaster-amiga-demo.zip
+    url: /frs/demos/freescape/castle-amiga-demo.zip
 -
     id: 'gob:adi2'
     platform: win
