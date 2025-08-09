@@ -11,14 +11,14 @@ namespace ScummVM;
  */
 if (isset($_SERVER['SERVER_SOFTWARE']) &&
     \preg_match("/PHP [\d\.]+ Development Server/",$_SERVER['SERVER_SOFTWARE'])) {
-  define('DEV_SERVER', true);
-  if (\preg_match('/\.(?:png|jpg|jpeg|gif|css|js|svg)/', $_SERVER["REQUEST_URI"])) {
-    return false;
-  }
+    if (\file_exists(__DIR__ . '/' . strtok($_SERVER["REQUEST_URI"], '?'))) {
+        return false;
+    }
+    define('DEV_SERVER', true);
 } else if (getenv('DEV_SERVER') === "1") {
-  define('DEV_SERVER', true);
+    define('DEV_SERVER', true);
 } else {
-  define('DEV_SERVER', false);
+    define('DEV_SERVER', false);
 }
 
 require_once __DIR__ . '/../vendor/autoload.php';
