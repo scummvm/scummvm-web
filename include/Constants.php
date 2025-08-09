@@ -16,21 +16,21 @@ class Constants
         define('HEROES_NUM', 6);
 
         /* Base URL to the website. */
-        $url = "";
-        if (array_key_exists('SERVER_PORT', $_SERVER)) {
-            if ($_SERVER['SERVER_PORT'] == '80') {
-                $url = "http://{$_SERVER['SERVER_NAME']}";
-            } elseif ($_SERVER['SERVER_PORT'] == '443') {
-                $url = "https://{$_SERVER['SERVER_NAME']}";
-            } else {
-                $url = "http://{$_SERVER['SERVER_NAME']}:{$_SERVER['SERVER_PORT']}";
+        if (isset($_SERVER['SERVER_NAME'])) {
+            define('URL_SCHEME', "http" . (empty($_SERVER['HTTPS']) ? '' : 's'));
+            $host = $_SERVER['SERVER_NAME'];
+            if (($_SERVER['SERVER_PORT'] != '80'  &&  empty($_SERVER['HTTPS'])) ||
+                ($_SERVER['SERVER_PORT'] != '443' && !empty($_SERVER['HTTPS']))) {
+                $host .= ":{$_SERVER['SERVER_PORT']}";
             }
+            define('URL_HOST', $host);
+            define('URL_BASE', URL_SCHEME . "://$host/");
+        } else {
+            /* For PHPStan */
+            define('URL_SCHEME', '');
+            define('URL_HOST', '');
+            define('URL_BASE', '');
         }
-
-        if (substr($url, -1) != '/') {
-            $url .= '/';
-        }
-        define('URL_BASE', $url);
 
         /* External URLs */
         define('GOG_URL_PREFIX', "https://www.gog.com/game/");
