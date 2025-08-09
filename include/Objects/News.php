@@ -1,6 +1,7 @@
 <?php
 namespace ScummVM\Objects;
 
+use ScummVM\SiteUtils;
 use Spatie\YamlFrontMatter\YamlFrontMatter;
 use Erusev\Parsedown;
 
@@ -51,21 +52,18 @@ class News
         if ($lang == DEFAULT_LOCALE || !$lang) {
             return $body;
         }
-        $regex = "/\[.+\]\((.+)\)/i";
-        $matches = [];
-        if (\preg_match_all($regex, $body, $matches)) {
-            foreach ($matches[1] as $url) {
-                // Don't replace FRS links, static files or images
-                if (\strpos($url, "/frs") !== false || file_exists("./$url") || \strpos($url, ".png") !== false) {
-                    continue;
-                } elseif (\preg_match("/^\//", $url)) { // Relative path (/screenshots/)
-                    $body = str_replace($url, "/$lang" . $url, $body);
-                } elseif (\strpos($url, "www.scummvm.org") !== false) { // Absolute url (www.scummvm.org/*)
-                    $newUrl = preg_replace("/\.org(\/|$)?/i", ".org/$lang/", $url);
-                    $body = str_replace($url, $newUrl, $body);
-                }
-            }
-        }
+        // This regex comes from Parsedown
+        $regex = '/\[(?:[^][]++|(?R))*+\][(]\s*+((?:[^ ()]++|[(][^ )]+[)])++)(?:[ ]+("[^"]*+"|\'[^\']*+\'))?\s*+[)]/';
+        $body = \preg_replace_callback($regex, function ($matches) {
+            $full = $matches[0][0];
+            $url = $matches[1][0];
+            // Conversion to int is for PHPStan
+            $urlOffset = (int)$matches[1][1] - (int)$matches[0][1];
+
+            $lurl = SiteUtils::localizePath($url, true);
+
+            return substr_replace($full, $lurl, $urlOffset, strlen($url));
+        }, $body, flags: PREG_OFFSET_CAPTURE);
 
         return $body;
     }

@@ -3,6 +3,7 @@ namespace ScummVM;
 
 use Smarty\Smarty;
 use ScummVM\Models\SimpleYamlModel;
+use ScummVM\SiteUtils;
 
 /**
  * The Controller class will create an instance of the Smarty object configured
@@ -53,7 +54,7 @@ class Controller
 
         /* Give Smarty-template access to date(). */
         $this->smarty->registerPlugin('modifier', 'date_localized', array(&$this, 'dateLocalizedSmartyModifier'));
-        $this->smarty->registerPlugin('modifier', 'lang', array(&$this, 'langModifier'));
+        $this->smarty->registerPlugin('modifier', 'lang', array(SiteUtils::class, 'localizePath'));
         $this->smarty->registerPlugin('modifier', 'download', array(&$this, 'downloadsSmartyModifier'));
         $this->smarty->registerPlugin('modifier', 'release', array(&$this, 'releaseSmartyModifier'));
 
@@ -116,28 +117,6 @@ class Controller
         $string = preg_replace('/&(?!([a-z]+|(#\d+));)/i', '&amp;', $string);
         /* Replace weird characters that appears in some of the data. */
         return $string;
-    }
-
-    public function langModifier($path)
-    {
-        global $lang;
-        if ($lang == DEFAULT_LOCALE || !$lang) {
-            return $path;
-        }
-
-        // Absolute path (https://www.scummvm.org/*)
-        $host = $_SERVER['HTTP_HOST'];
-        if (\preg_match("/$host/i", $path)) {
-            return preg_replace("/$host(\/|$)?/i", "$host/$lang/", $path);
-        }
-
-        // Relative path (/screenshots/)
-        if (\preg_match("/^\//", $path)) {
-            return "/$lang" . $path;
-        }
-
-        // Can't replace
-        return $path;
     }
 
     /**

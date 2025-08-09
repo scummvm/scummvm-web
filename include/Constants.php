@@ -32,6 +32,19 @@ class Constants
             define('URL_BASE', '');
         }
 
+        if (defined('DEV_SERVER') && DEV_SERVER) {
+            define('SITE_HOSTS', [
+                'www.scummvm.org',
+                'scummvm.org',
+                URL_HOST
+            ]);
+        } else {
+            define('SITE_HOSTS', [
+                'www.scummvm.org',
+                'scummvm.org'
+            ]);
+        }
+
         /* External URLs */
         define('GOG_URL_PREFIX', "https://www.gog.com/game/");
         define('STEAM_URL_PREFIX', 'https://store.steampowered.com/app/');
