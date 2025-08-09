@@ -4,6 +4,7 @@
         <label for="{$menu->getClass()}">{eval var=$menu->getName()}</label>
     </dt>
     {foreach from=$menu->getEntries() key=text item=url}
-        <dd><span class="bullet"></span><a href="{eval var=$url|lang}">{eval var=$text}</a></dd>
+        {eval var=$url assign='url'}
+        <dd><span class="bullet"></span><a href="{$url|lang}">{eval var=$text}</a></dd>
     {/foreach}
 </dl>
