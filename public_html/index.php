@@ -4,7 +4,6 @@ namespace ScummVM;
 /**
  * Development only
  * Don't re-route static file requests to index.php
- * And change directory context to public_html
  *
  * When DEV_SERVER is true a different Redis database is chosen
  * It's true when running using PHP built-in server or
@@ -13,7 +12,6 @@ namespace ScummVM;
 if (isset($_SERVER['SERVER_SOFTWARE']) &&
     \preg_match("/PHP [\d\.]+ Development Server/",$_SERVER['SERVER_SOFTWARE'])) {
   define('DEV_SERVER', true);
-  chdir('public_html');
   if (\preg_match('/\.(?:png|jpg|jpeg|gif|css|js|svg)/', $_SERVER["REQUEST_URI"])) {
     return false;
   }

@@ -42,6 +42,7 @@ class Constants
         /* Paths */
         define('DIR_BASE', __DIR__  . '/..');
         define('DIR_DATA', DIR_BASE . '/data');
+        define('DIR_STATIC', DIR_BASE . '/public_html');
         define('DIR_DOWNLOADS', '/downloads');
         define('DIR_SCREENSHOTS', '/data/screenshots');
         define('DIR_SERVER_ROOT', '/.0');
