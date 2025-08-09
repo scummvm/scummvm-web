@@ -11,6 +11,7 @@ use Symfony\Component\Yaml\Yaml;
 use GuzzleHttp\Client;
 use GuzzleHttp\Promise;
 use Propel\Runtime\Propel;
+use Propel\Runtime\Connection\Exception\RollbackException;
 use Propel\Runtime\Map\TableMap;
 
 /**
@@ -158,11 +159,11 @@ class DataUtils
                         }
                     }
                 }
-                if ($con->isCommitable()) {
+                try {
                     $con->commit();
                     // If we could commit, we are done
                     break;
-                } else {
+                } catch (RollbackException) {
                     $con->rollback();
                 }
                 $failures = array_merge($failures, $newFailures);
