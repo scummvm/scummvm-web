@@ -49,6 +49,13 @@
       "@build-common",
       "npm install"
     ],
+    "ci": [
+      "composer install",
+      "@build-common",
+      "@lint",
+      "npm ci",
+      "npm run lint"
+    ],
     "start": [
       "Composer\\Config::disableProcessTimeout",
       "php -S localhost:8000 -t ./public_html ./public_html/index.php"
