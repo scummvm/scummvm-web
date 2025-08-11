@@ -37,10 +37,9 @@ class ScreenshotQuery extends BaseScreenshotQuery
             Propel::log($e->getMessage(), Propel::LOG_ERR);
             throw new PropelException(sprintf('Unable to execute SELECT statement [%s]', $sql), 0, $e);
         }
-        $obj = null;
+        $obj = new ChildScreenshot();
         if ($row = $stmt->fetch(\PDO::FETCH_NUM)) {
             /** @var ChildScreenshot $obj */
-            $obj = new ChildScreenshot();
             $obj->hydrate($row);
             ScreenshotTableMap::addInstanceToPool($obj, null);
         }
