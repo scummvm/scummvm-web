@@ -1,6 +1,8 @@
 parameters:
-	level: 6
+	level: 7
 	treatPhpDocTypesAsCertain: false
+	stubFiles:
+		- stubs/altorouter.stub
 	bootstrapFiles:
 		- include/Constants.php
 	paths:
