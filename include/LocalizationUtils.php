@@ -34,6 +34,9 @@ class LocalizationUtils
         $filename = JOIN(DIRECTORY_SEPARATOR, [DIR_DATA, $lang, "strings.json"]);
         echo("Converting {$filename} from JSON to INI\n");
         $jsonString = file_get_contents($filename);
+        if ($jsonString === false) {
+            throw new \Exception("Can't read file $filename");
+        }
         $json = json_decode($jsonString);
 
         $output = "";
@@ -55,12 +58,19 @@ class LocalizationUtils
                 return;
             }
             echo("Converting " . $newsFile . " to individual Markdown files\n");
-            $l10n = json_decode(file_get_contents($newsFile));
+            $jsonString = file_get_contents($newsFile);
+            if ($jsonString === false) {
+                throw new \Exception("Can't read news JSON $newsFile");
+            }
+            $l10n = json_decode($jsonString);
 
             foreach ($l10n as $key => $translatedArticle) {
-                $englishArticle = YamlFrontMatter::parse(file_get_contents(
-                    join(DIRECTORY_SEPARATOR, [DIR_DATA, DEFAULT_LOCALE, 'news', "{$key}.markdown"])
-                ));
+                $newsFile = join(DIRECTORY_SEPARATOR, [DIR_DATA, DEFAULT_LOCALE, 'news', "{$key}.markdown"]);
+                $englishContents = file_get_contents($newsFile);
+                if ($englishContents === false) {
+                    throw new \Exception("Can't read news file $newsFile");
+                }
+                $englishArticle = YamlFrontMatter::parse($englishContents);
 
                 $date = self::$purifier->purify($englishArticle->date);
                 $author = self::$purifier->purify($englishArticle->author);

@@ -146,7 +146,7 @@ foreach ($pages as $key => $value) {
 
 $match = $router->match(strtolower($_SERVER['REQUEST_URI']));
 
-if (!$match) {
+if ($match === false) {
     $page = new \ScummVM\Pages\NewsPage();
     $page->index(array());
     return;

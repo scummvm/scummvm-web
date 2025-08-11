@@ -34,7 +34,11 @@ class ArticlePage extends Controller
             throw new \ErrorException(\sprintf(self::FILE_NOT_FOUND, $filename));
         }
 
-        return YamlFrontMatter::parse(file_get_contents($fname));
+        $article = @file_get_contents($fname);
+        if ($article === false) {
+            throw new \ErrorException(\sprintf(self::FILE_NOT_FOUND, $filename));
+        }
+        return YamlFrontMatter::parse($article);
     }
 
     /**

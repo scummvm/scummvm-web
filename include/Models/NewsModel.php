@@ -54,10 +54,10 @@ class NewsModel extends BasicModel
                 if (!is_file(($fname = join(DIRECTORY_SEPARATOR, [DIR_DATA, $lang, 'news', basename($filename)])))
                     || !is_readable($fname) || !($data = @file_get_contents($fname))
                 ) {
-                    if (!($data = @file_get_contents(join(
+                    if (($data = @file_get_contents(join(
                         DIRECTORY_SEPARATOR,
                         [DIR_DATA, DEFAULT_LOCALE, 'news', $filename]
-                    )))) {
+                    ))) === false) {
                         continue;
                     }
                 }
@@ -100,6 +100,9 @@ class NewsModel extends BasicModel
         }
         $fname = $this->getLocalizedFile("news/$filename.markdown");
         $data = @file_get_contents($fname);
+        if ($data === false) {
+            throw new \ErrorException(self::FILE_NOT_FOUND);
+        }
 
         return new News($data, $fname, $processContent);
     }
