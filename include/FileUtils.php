@@ -59,11 +59,16 @@ class FileUtils
     {
         $path = FileUtils::toAbsolutePathIfOnServer($path);
         // Get everything to the right of the last period
-        $extension = substr($path, (strrpos($path, '.')));
+        if (($pos = strrpos($path, '.')) !== false) {
+            $extension = substr($path, (strrpos($path, '.')));
+        } else {
+            $extension = '';
+        }
 
         // For certain extensions, check for another extension (e.g. foo.tar.gz => tar.gz)
-        if (in_array($extension, self::DOUBLE_EXTENSIONS)) {
-            $extension = substr($path, strrpos($path, '.', -(strlen($path) - strrpos($path, '.') + 1)));
+        if (in_array($extension, self::DOUBLE_EXTENSIONS) &&
+            ($pos = strrpos($path, '.', -(strlen($path) - $pos + 1))) !== false) {
+            $extension = substr($path, $pos);
         }
         return $extension;
     }
