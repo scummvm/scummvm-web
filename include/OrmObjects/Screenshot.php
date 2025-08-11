@@ -27,6 +27,11 @@ class Screenshot extends BaseScreenshot
     {
         if (!isset($this->files)) {
             $this->files = [];
+
+            if ($this->isNew()) {
+                 return $this->files;
+            }
+
             $gameId = str_replace(':', '/', $this->getGame()->getId());
             $screenshots = glob(DIR_STATIC . DIR_SCREENSHOTS . '/' . $gameId . '/' . $this->getFileMask());
             if ($screenshots === false) {
