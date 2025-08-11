@@ -38,6 +38,6 @@ abstract class ExceptionHandler
         self::$exception = $e;
 
         $ep = new SimplePage('exception');
-        return $ep->index($e);
+        $ep->index($e);
     }
 }

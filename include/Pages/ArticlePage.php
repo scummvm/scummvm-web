@@ -55,7 +55,7 @@ class ArticlePage extends Controller
         $author = $purifier->purify($article->author);
         $content = $purifier->purify($Parsedown->text($article->body()));
 
-        return $this->renderPage([
+        $this->renderPage([
                 'title' => $title,
                 'description' => htmlentities($this->getHeadline($content)),
                 'content_title' => $title,

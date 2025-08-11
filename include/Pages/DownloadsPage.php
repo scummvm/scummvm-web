@@ -20,7 +20,7 @@ class DownloadsPage extends Controller
     {
         $downloads = $this->downloadsModel->getAllDownloads();
         $recommendedDownload = $this->downloadsModel->getRecommendedDownload();
-        return $this->renderPage(
+        $this->renderPage(
             array(
                 'title' => $this->getConfigVars('downloadsTitle'),
                 'description' => \strip_tags($this->getConfigVars('downloadsContentP1')),
