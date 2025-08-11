@@ -19,7 +19,8 @@ class Screenshot extends BaseScreenshot
 
     public function getFiles()
     {
-        if (!$this->files) {
+        if (!isset($this->files)) {
+            $this->files = [];
             $gameId = str_replace(':', '/', $this->getGame()->getId());
             foreach (glob(DIR_STATIC . DIR_SCREENSHOTS . '/' . $gameId . '/' . $this->getFileMask()) as $file) {
                 // Remove the base folder
@@ -38,7 +39,7 @@ class Screenshot extends BaseScreenshot
 
     public function addFiles($files)
     {
-        if (is_array($this->files)) {
+        if (isset($this->files)) {
             $this->files = array_merge($this->files, $files);
         } else {
             $this->files = $files;
