@@ -60,10 +60,12 @@ class File extends BasicObject
             $fname = str_replace('{$version}', "$this->version", $fname);
 
             if (FileUtils::exists($fname)) {
-                $this->extra_info['size'] = FileUtils::getFileSize($fname);
-                $this->extra_info['sha256'] = FileUtils::getSha256($fname);
-                $this->extra_info['ext'] = FileUtils::getExtension($fname);
-                $this->extra_info['date'] = FileUtils::getLastModified($fname);
+                $extra_info = [];
+                $extra_info['size'] = FileUtils::getFileSize($fname);
+                $extra_info['sha256'] = FileUtils::getSha256($fname);
+                $extra_info['ext'] = FileUtils::getExtension($fname);
+                $extra_info['date'] = FileUtils::getLastModified($fname);
+                $this->extra_info = $extra_info;
             }
             $this->url = $fname;
         }
