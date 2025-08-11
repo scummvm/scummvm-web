@@ -190,7 +190,7 @@ class Controller
                 $this->css_files,
                 $extra_css
             );
-        } elseif (is_string($extra_css) && strlen($extra_css) > 0) {
+        } elseif (strlen($extra_css) > 0) {
             $this->css_files[] = $extra_css;
         }
     }
@@ -203,7 +203,7 @@ class Controller
                 $this->js_files,
                 $extra_js
             );
-        } elseif (is_string($extra_js) && strlen($extra_js) > 0) {
+        } elseif (strlen($extra_js) > 0) {
             $this->js_files[] = $extra_js;
         }
     }
