@@ -108,6 +108,7 @@ class ScreenshotQuery extends BaseScreenshotQuery
     public function filterByCompanyId(string $companyId, ConnectionInterface $con = null): self
     {
         if ($companyId !== 'other') {
+            /** @phpstan-ignore return.type */
             return $this->useGameQuery()
                 ->filterByCompanyId($companyId)
                 ->endUse();

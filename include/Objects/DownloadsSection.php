@@ -31,6 +31,7 @@ class DownloadsSection extends BasicSection
     public function addItem(object $item): void
     {
         if ($item->getCategoryIcon()) {
+            /** @phpstan-ignore argument.type */
             $this->items[] = new File($item->toArray(TableMap::TYPE_FIELDNAME));
             // If this item is for an old version, sort all items by version, descending, then by autoId
             if (self::hasOldVersion($item)) {
@@ -57,6 +58,7 @@ class DownloadsSection extends BasicSection
                 });
             }
         } else {
+            /** @phpstan-ignore argument.type */
             $this->items[] = new WebLink($item->toArray(TableMap::TYPE_FIELDNAME));
         }
     }

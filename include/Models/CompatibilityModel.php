@@ -34,6 +34,7 @@ class CompatibilityModel extends BasicModel
             }
             $cachekey = $version;
             $version = \explode('.', $version);
+            /** @phpstan-ignore method.notFound */
             $data = CompatibilityQuery::create()
                 ->withColumn("max(release_date)")
                 ->groupById()
