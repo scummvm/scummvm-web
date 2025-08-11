@@ -160,4 +160,6 @@ if ($match['target'] === '\ScummVM\Pages\SimplePage' || $match['target'] === '\S
 } else {
     $page = new $match['target']();
 }
+
+assert(method_exists($page, 'index'));
 $page->index($match['params']);
