@@ -3,7 +3,7 @@ namespace ScummVM;
 
 class SiteUtils
 {
-    public static function localizePath($path, $checkStaticFiles = false)
+    public static function localizePath(string $path, bool $checkStaticFiles = false): string
     {
         global $lang;
         // No lang needed

@@ -12,8 +12,12 @@ class NewsModel extends BasicModel
     const INVALID_DATE = 'Invalid date, use yyyyMMdd. or yyyyMMddHHmm';
     const FILE_NOT_FOUND = 'The requested news file doesn\'t exist.';
 
-    /* Get a list of all the available news files. */
-    private function getListOfNewsFilenames()
+    /**
+     * Get a list of all the available news files.
+     *
+     * @return string[]
+     */
+    private function getListOfNewsFilenames(): array
     {
         if (!($files = scandir(join(DIRECTORY_SEPARATOR, [DIR_DATA, DEFAULT_LOCALE, 'news'])))) {
             throw new \ErrorException(self::NO_FILES);
@@ -29,8 +33,12 @@ class NewsModel extends BasicModel
         return $filenames;
     }
 
-    /* Get all news items ordered by date, descending. */
-    public function getAllNews($processContent = false)
+    /**
+     * Get all news items ordered by date, descending.
+     *
+     * @return News[]
+     */
+    public function getAllNews(bool $processContent = false): array
     {
         $news = $this->getFromCache();
         if (is_null($news)) {
@@ -61,8 +69,12 @@ class NewsModel extends BasicModel
         return $news;
     }
 
-    /* Get the latest number of news items, or if no number is specified get all news items. */
-    public function getLatestNews($num = -1, $processContent = false)
+    /**
+     * Get the latest number of news items, or if no number is specified get all news items.
+     *
+     * @return News[]
+     */
+    public function getLatestNews(int $num = -1, bool $processContent = false): array
     {
         if ($num == -1) {
             return $this->getAllNews($processContent);
@@ -81,7 +93,7 @@ class NewsModel extends BasicModel
     }
 
     /* Get the news item that was posted on a specific date. */
-    public function getOneByFilename($filename, $processContent = false)
+    public function getOneByFilename(?string $filename, bool $processContent = false): News
     {
         if (is_null($filename) || !preg_match('/^\d{8,12}[a-z]?$/', $filename)) {
             throw new \ErrorException(self::INVALID_DATE);

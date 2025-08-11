@@ -1,6 +1,7 @@
 <?php
 namespace ScummVM\Models;
 
+use ScummVM\OrmObjects\Version;
 use ScummVM\OrmObjects\VersionQuery;
 
 /**
@@ -8,8 +9,12 @@ use ScummVM\OrmObjects\VersionQuery;
  */
 class VersionsModel extends BasicModel
 {
-    /* Get all versions from YAML */
-    public function getAllVersions()
+    /**
+     * Get all versions from YAML
+     *
+     * @return Version[]
+     */
+    public function getAllVersions(): array
     {
         $data = $this->getFromCache();
         if (is_null($data)) {

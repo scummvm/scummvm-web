@@ -6,10 +6,13 @@ namespace ScummVM\Objects;
  */
 class WebLink extends BasicObject
 {
-    private $notes;
-    private $url;
+    private string $notes;
+    private string $url;
 
-    /* WebLink object constructor. */
+    /**
+     * WebLink object constructor.
+     * @param array{'description'?: string, 'name'?: string, 'notes': string, 'url': string} $data
+     */
     public function __construct($data)
     {
         parent::__construct($data);
@@ -17,19 +20,19 @@ class WebLink extends BasicObject
         $this->url = $data['url'];
     }
 
-    public function getNotes()
+    public function getNotes(): string
     {
         return $this->notes;
     }
 
     /* Get the URL of the link. */
-    public function getURL()
+    public function getURL(): string
     {
         return $this->url;
     }
 
     /* Get the user-agent. */
-    public function getUserAgent()
+    public function getUserAgent(): string
     {
         return "";
     }

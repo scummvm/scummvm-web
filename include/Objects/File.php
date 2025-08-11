@@ -8,15 +8,21 @@ use ScummVM\FileUtils;
  */
 class File extends BasicObject
 {
-    private $autoId;
-    private $category;
-    private $category_icon;
-    private $url;
-    private $extra_info;
-    private $notes;
-    private $user_agent;
-    private $version;
+    private ?int $autoId;
+    private string $category;
+    private string $category_icon;
+    private string $url;
+    /** @var array{'size': string, 'sha256': string, 'ext': string, 'date': string}|array{} */
+    private array $extra_info;
+    private string $notes;
+    private string $user_agent;
+    private ?string $version;
 
+    /**
+     * @param array{'description'?: string, 'name'?: string, 'auto_id'?: int, 'category': string,
+     *      'category_icon': string, 'notes'?: string, 'user_agent'?: string, 'version'?: string,
+     *      'url': string|array{0: string, '@attributes': array<mixed>}} $data
+     */
     public function __construct($data)
     {
         parent::__construct($data);
@@ -64,30 +70,34 @@ class File extends BasicObject
     }
 
     /* Get the category icon. */
-    public function getCategoryIcon()
+    public function getCategoryIcon(): string
     {
         return $this->category_icon;
     }
 
     /* Get the URL. */
-    public function getURL()
+    public function getURL(): string
     {
         return $this->url;
     }
 
-    /* Get the extra information. */
-    public function getExtraInfo()
+    /**
+     * Get the extra information.
+     *
+     * @return array{'size': string, 'sha256': string, 'ext': string, 'date': string}|array{}
+     */
+    public function getExtraInfo(): array
     {
         return $this->extra_info;
     }
 
-    public function getNotes()
+    public function getNotes(): string
     {
         return $this->notes;
     }
 
     /* Get the user-agent. */
-    public function getUserAgent()
+    public function getUserAgent(): string
     {
         return $this->user_agent;
     }

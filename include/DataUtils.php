@@ -10,6 +10,7 @@ use League\Csv\Statement;
 use Symfony\Component\Yaml\Yaml;
 use GuzzleHttp\Client;
 use GuzzleHttp\Promise;
+use GuzzleHttp\Psr7\Response;
 use Propel\Runtime\Propel;
 use Propel\Runtime\Connection\Exception\RollbackException;
 use Propel\Runtime\Map\TableMap;
@@ -59,7 +60,7 @@ class DataUtils
      *
      * @return void
      */
-    public static function updateData()
+    public static function updateData(): void
     {
         $client = new Client();
         $promises = [];
@@ -78,7 +79,7 @@ class DataUtils
         \file_put_contents('.clear-cache', '');
     }
 
-    private static function doUpdateData($name, $response)
+    private static function doUpdateData(string $name, Response $response): void
     {
         $tsv = $response->getBody();
         $reader = Reader::createFromString($tsv);
@@ -111,7 +112,7 @@ class DataUtils
         \file_put_contents($outFile, $yaml);
     }
 
-    private static function convertYamlToOrm()
+    private static function convertYamlToOrm(): void
     {
         foreach (self::OBJECT_NAMES as $name => $object) {
             $failures = array();

@@ -2,6 +2,9 @@
 namespace ScummVM\Models;
 
 use Propel\Runtime\ActiveQuery\Criteria;
+use Propel\Runtime\Collection\Collection;
+
+use ScummVM\OrmObjects\Compatibility;
 use ScummVM\OrmObjects\CompatibilityQuery;
 use ScummVM\OrmObjects\VersionQuery;
 
@@ -14,13 +17,13 @@ class CompatibilityModel extends BasicModel
     const NO_VERSION_TARGET = 'No version and/or target specified.';
     const NOT_FOUND = 'Did not find any games for the specified version.';
 
-    public function getLastUpdated()
+    public function getLastUpdated(): int|false
     {
         return filemtime($this->getLocalizedFile("compatibility.yaml"));
     }
 
     /* Get all the groups and the respectively demos for the specified ScummVM version. */
-    public function getAllData($version)
+    public function getAllData(string $version): Collection
     {
         $data = $this->getFromCache($version);
         if (\is_null($data)) {
@@ -51,7 +54,7 @@ class CompatibilityModel extends BasicModel
     }
 
     /* Get a specific CompatGame-object for the requested version. */
-    public function getGameData($version, $target)
+    public function getGameData(?string $version, ?string $target): Compatibility
     {
         if (!is_string($version) || !is_string($target)) {
             throw new \ErrorException(self::NO_VERSION_TARGET);
@@ -78,7 +81,10 @@ class CompatibilityModel extends BasicModel
         return $gameData;
     }
 
-    public function getAllDataGroups($version)
+    /**
+     * @return array<string, array<Compatibility>>
+     */
+    public function getAllDataGroups(string $version): array
     {
         $data = $this->getAllData($version);
         $compat_data = [];

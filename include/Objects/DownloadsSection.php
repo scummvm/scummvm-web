@@ -1,6 +1,9 @@
 <?php
 namespace ScummVM\Objects;
 
+use ScummVM\OrmObjects\Download;
+use ScummVM\OrmObjects\GameDownload;
+
 use Propel\Runtime\Map\TableMap;
 
 /**
@@ -8,23 +11,24 @@ use Propel\Runtime\Map\TableMap;
  */
 class DownloadsSection extends BasicSection
 {
-    private $notes;
-    private $items;
+    private string $notes;
+    /** @var array<WebLink|File> */
+    private array $items;
 
     /**
-     * __construct
-     *
-     * @param  mixed $data [id, notes, anchor, title]
-     * @return void
+     * @param array{'title': string, 'anchor': string, 'subsection'?: array<mixed>, 'notes': string} $data
      */
-    public function __construct($data)
+    public function __construct(array $data)
     {
         parent::__construct($data);
         $this->notes = $data['notes'];
         $this->items = [];
     }
 
-    public function addItem($item)
+    /**
+     * @param Download|GameDownload $item
+     */
+    public function addItem(object $item): void
     {
         if ($item->getCategoryIcon()) {
             $this->items[] = new File($item->toArray(TableMap::TYPE_FIELDNAME));
@@ -46,24 +50,36 @@ class DownloadsSection extends BasicSection
         }
     }
 
-    /* Get the optional notes. */
-    public function getNotes()
+    /**
+     * Get the optional notes.
+     */
+    public function getNotes(): ?string
     {
         return $this->notes;
     }
 
-    /* Get the list of items. */
-    public function getItems()
+    /**
+     * Get the list of items.
+     *
+     * @return array<WebLink|File>
+     */
+    public function getItems(): array
     {
         return $this->items;
     }
 
-    public function addSubsection($section)
+    /**
+     * @param static $section
+     */
+    public function addSubsection(DownloadsSection $section): void
     {
         $this->subsections[$section->getAnchor()] = $section;
     }
 
-    private function hasOldVersion($item)
+    /**
+     * @param Download|GameDownload $item
+     */
+    private function hasOldVersion(object $item): bool
     {
         return method_exists($item, 'getVersion') && $item->getVersion() !== RELEASE && $item->getVersion() !== 'Daily';
     }

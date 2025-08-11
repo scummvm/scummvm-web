@@ -2,6 +2,7 @@
 namespace ScummVM\Models;
 
 use ScummVM\Objects\DownloadsSection;
+use ScummVM\OrmObjects\GameDownload;
 use ScummVM\OrmObjects\GameDownloadQuery;
 
 /**
@@ -9,7 +10,11 @@ use ScummVM\OrmObjects\GameDownloadQuery;
  */
 class GameDownloadsModel extends BasicModel
 {
-    /* Get all download entries. */
+    /**
+     * Get all download entries.
+     *
+     * @return array<string, DownloadsSection>
+     */
     public function getAllDownloads()
     {
         $sections = $this->getFromCache();
@@ -56,6 +61,9 @@ class GameDownloadsModel extends BasicModel
         return $sections;
     }
 
+    /**
+     * @return array<string, array{'title'?: string, 'notes'?: string}>
+     */
     private function getSectionData()
     {
         return [

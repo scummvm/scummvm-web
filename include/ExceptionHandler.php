@@ -8,10 +8,10 @@ use ScummVM\Pages\SimplePage;
  */
 abstract class ExceptionHandler
 {
-    private static $exception;
+    private static \Throwable $exception;
 
     /* If the MenuModel cause the exception we need to skip them. */
-    public static function skipMenus()
+    public static function skipMenus(): bool
     {
         if (!isset(self::$exception)) {
             return false;
@@ -33,7 +33,7 @@ abstract class ExceptionHandler
     }
 
     /* Handle exceptions. */
-    public static function handleException($e)
+    public static function handleException(\Throwable $e): void
     {
         self::$exception = $e;
 

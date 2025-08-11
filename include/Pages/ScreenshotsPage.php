@@ -6,7 +6,7 @@ use ScummVM\Models\ScreenshotsModel;
 
 class ScreenshotsPage extends Controller
 {
-    private $screenshotsModel;
+    private ScreenshotsModel $screenshotsModel;
 
     /* Constructor. */
     public function __construct()
@@ -15,8 +15,12 @@ class ScreenshotsPage extends Controller
         $this->screenshotsModel = new ScreenshotsModel();
     }
 
-    /* Display the index page. */
-    public function index($args)
+    /**
+     * Display the index page.
+     *
+     * @param array{'category'?: string, 'game'?: string} $args
+     */
+    public function index(array $args): void
     {
         $category = $args['category'] ?? null;
         $game = $args['game'] ?? null;
@@ -49,7 +53,7 @@ class ScreenshotsPage extends Controller
     }
 
     /* Display the selected category. */
-    public function getCategory($category, $game)
+    public function getCategory(string $category, ?string $game): void
     {
         if (empty($game)) {
             $screenshots = $this->screenshotsModel->getScreenshotsByCompanyId($category);

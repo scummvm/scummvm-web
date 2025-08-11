@@ -9,11 +9,15 @@ namespace ScummVM\Objects;
  */
 abstract class BasicSection extends BasicObject
 {
-    protected $title;
-    protected $anchor;
-    protected $subsections;
+    protected string $title;
+    protected string $anchor;
+    /** @var array<static> */
+    protected array $subsections;
 
-    public function __construct($data)
+    /**
+     * @param array{'title': string, 'anchor': string, 'subsection'?: array<mixed>, ...} $data
+     */
+    public function __construct(array $data)
     {
         parent::__construct($data);
         $this->title = $data['title'];
@@ -28,19 +32,23 @@ abstract class BasicSection extends BasicObject
     }
 
     /* Get the title. */
-    public function getTitle()
+    public function getTitle(): string
     {
         return $this->title;
     }
 
     /* Get the anchor. */
-    public function getAnchor()
+    public function getAnchor(): string
     {
         return $this->anchor;
     }
 
-    /* Get the optional list of subsections. */
-    public function getSubSections()
+    /**
+     * Get the optional list of subsections.
+     *
+     * @return array<static>
+     */
+    public function getSubSections(): array
     {
         return $this->subsections;
     }

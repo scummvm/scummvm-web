@@ -16,7 +16,7 @@ class FileUtils
     * @param $path the path to the file that will be analyzed
     * @return bool whether or not the file exists
     */
-    public static function exists($path)
+    public static function exists(string $path): bool
     {
         $path = FileUtils::toAbsolutePathIfOnServer($path);
         return is_file($path) && is_readable($path);
@@ -28,7 +28,7 @@ class FileUtils
     * @param $path the path to the file that will be analyzed
     * @return string the file size in a human-readable form
     */
-    public static function getFileSize($path)
+    public static function getFileSize(string $path): string
     {
         $path = FileUtils::toAbsolutePathIfOnServer($path);
         // Get the file size, rounded to the nearest kilobyte
@@ -55,7 +55,7 @@ class FileUtils
     * @param $path the path to the file that will be analyzed
     * @return string the extension
     */
-    public static function getExtension($path)
+    public static function getExtension(string $path): string
     {
         $path = FileUtils::toAbsolutePathIfOnServer($path);
         // Get everything to the right of the last period
@@ -74,7 +74,7 @@ class FileUtils
     * @param $path the path to the file that will be analyzed
     * @return string the SHA-256 hash
     */
-    public static function getSha256($path)
+    public static function getSha256(string $path): string
     {
         $path = FileUtils::toAbsolutePathIfOnServer($path);
         // Check if we already have a generated hash file
@@ -97,7 +97,7 @@ class FileUtils
     * @param $path the path to the file that will be analyzed
     * @return string the date
     */
-    public static function getLastModified($path)
+    public static function getLastModified(string $path): string
     {
         $path = FileUtils::toAbsolutePathIfOnServer($path);
         $date = new DateTime();
@@ -116,7 +116,7 @@ class FileUtils
     * @param $path the relative path to the file that will be analyzed
     * @return string the path of the file, either relative or absolute
     */
-    private static function toAbsolutePathIfOnServer($relativePath)
+    private static function toAbsolutePathIfOnServer(string $relativePath): string
     {
         return is_file(DIR_SERVER_ROOT . '/'. $relativePath) ? DIR_SERVER_ROOT . '/'. $relativePath : $relativePath;
     }

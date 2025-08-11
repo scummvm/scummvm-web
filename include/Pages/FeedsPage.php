@@ -6,9 +6,9 @@ use ScummVM\Models\NewsModel;
 
 class FeedsPage extends Controller
 {
-    private $template_rss;
-    private $template_atom;
-    private $newsModel;
+    private string $template_rss;
+    private string $template_atom;
+    private NewsModel $newsModel;
 
     /* Constructor. */
     public function __construct()
@@ -19,8 +19,12 @@ class FeedsPage extends Controller
         $this->newsModel = new NewsModel();
     }
 
-    /* Display the index page. */
-    public function index($args)
+    /**
+     * Display the index page.
+     *
+     * @param array{'type'?: string} $args
+     */
+    public function index(array $args): void
     {
         $feed = isset($args['type']) ? $args['type'] : '';
         if ($feed == 'atom') {
