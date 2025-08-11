@@ -15,7 +15,7 @@ use ScummVM\OrmObjects\Base\Compatibility as BaseCompatibility;
  */
 class Compatibility extends BaseCompatibility
 {
-    private function processPlatforms($values)
+    private function processPlatforms(string $values): string
     {
         $platforms = \explode(",", $values);
 
@@ -27,7 +27,7 @@ class Compatibility extends BaseCompatibility
         return $retVal;
     }
 
-    public function getScummVmId($version)
+    public function getScummVmId(string $version): string
     {
         $gameId = $this->getGame()->getId();
         if ($version == "DEV" || version_compare($version, "2.2.0") > 0) {
@@ -39,7 +39,7 @@ class Compatibility extends BaseCompatibility
         }
     }
 
-    public function getNotes()
+    public function getNotes(): string
     {
         $notes = "### Support Level\n\n";
         $notes .= "[[support_description]]\n\n";

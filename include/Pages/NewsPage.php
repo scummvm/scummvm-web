@@ -7,8 +7,8 @@ use ScummVM\Models\ScreenshotsModel;
 
 class NewsPage extends Controller
 {
-    private $newsModel;
-    private $screenshotModels;
+    private NewsModel $newsModel;
+    private ScreenshotsModel $screenshotModels;
 
     /* Constructor. */
     public function __construct()
@@ -19,8 +19,12 @@ class NewsPage extends Controller
         $this->screenshotModels = new ScreenshotsModel();
     }
 
-    /* Display the index page. */
-    public function index($args)
+    /**
+     * Display the index page.
+     *
+     * @param array{'date'?: string} $args
+     */
+    public function index(array $args): void
     {
         $filename = $args['date'] ?? null;
 
@@ -36,7 +40,7 @@ class NewsPage extends Controller
     }
 
     /* Display a specific news item, or all news items. */
-    public function getNews($filename = null)
+    public function getNews(?string $filename = null): void
     {
         if ($filename == null) {
             $news_items = $this->newsModel->getAllNews();
@@ -62,7 +66,7 @@ class NewsPage extends Controller
     }
 
     /* Display the main page with limited news items and intro text. */
-    public function getNewsIntro()
+    public function getNewsIntro(): void
     {
         $news_items = $this->newsModel->getLatestNews(NEWS_ITEMS);
         $random_shot = $this->screenshotModels->getRandomScreenshot();

@@ -6,9 +6,9 @@ use ScummVM\Controller;
 class StaticPage extends Controller
 {
     const FILE_NOT_FOUND = 'The filename %s could not be found';
-    private $filename;
+    private string $filename;
 
-    public function __construct($key)
+    public function __construct(string $key)
     {
         parent::__construct();
 
@@ -19,7 +19,7 @@ class StaticPage extends Controller
     }
 
     /* Display the index page. */
-    public function index($data = null)
+    public function index(): void
     {
         readfile($this->filename);
     }

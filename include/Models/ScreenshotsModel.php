@@ -5,7 +5,6 @@ use ScummVM\OrmObjects\GameQuery;
 use ScummVM\OrmObjects\Screenshot;
 use ScummVM\OrmObjects\ScreenshotQuery;
 use Propel\Runtime\Collection\Collection;
-use Propel\Runtime\Collection\ObjectCollection;
 
 /**
  * The ScreenshotsModel will generate Screenshot objects.
@@ -16,7 +15,11 @@ class ScreenshotsModel extends BasicModel
     const INVALID_CATEGORY = 'Invalid category specified.';
     const SUBCATEGORY_COLUMN = '(case when game.series_id is null then screenshot.id else game.series_id end)';
 
-    public function getAllCategories()
+    /**
+     * @return array<string, array{'title': string, 'category': string,
+     *      'games': array<string, array{'name': string, 'count': int}>}>
+     */
+    public function getAllCategories(): array
     {
         $categories = ScreenshotQuery::create()->findCategories();
         $data = [];
@@ -40,8 +43,12 @@ class ScreenshotsModel extends BasicModel
         return $data;
     }
 
-    /* Get all screenshots in one category. */
-    public function getScreenshotsByCompanyId($companyId)
+    /**
+     * Get all screenshots in one category.
+     *
+     * @return array{'title': string, 'category': string, 'games': array<string, Screenshot>}
+     */
+    public function getScreenshotsByCompanyId(string $companyId): array
     {
         $cache_key = "c_{$companyId}";
         $data = $this->getFromCache($cache_key);
@@ -65,8 +72,12 @@ class ScreenshotsModel extends BasicModel
         return $data;
     }
 
-    /* Get screenshots for a specific target. */
-    public function getScreenshotsBySubcategory($target)
+    /**
+     * Get screenshots for a specific target.
+     *
+     * @return Screenshot[]
+     */
+    public function getScreenshotsBySubcategory(string $target)
     {
         $cache_key = "s_{$target}";
         $data = $this->getFromCache($cache_key);
@@ -92,9 +103,8 @@ class ScreenshotsModel extends BasicModel
      * Combines multiple screenshots into a single screenshot
      *
      * @param  Collection $screenshots
-     * @return ?Screenshot
      */
-    private function combineScreenshots(iterable $screenshots)
+    private function combineScreenshots(iterable $screenshots): ?Screenshot
     {
         $count = $screenshots->count();
         if ($count === 0) {
@@ -116,7 +126,7 @@ class ScreenshotsModel extends BasicModel
      * combineSubcategories
      *
      * @param  Collection $screenshots
-     * @return Screenshot[]
+     * @return array<string, Screenshot>
      */
     private function combineSubcategories(iterable $screenshots)
     {
@@ -158,8 +168,10 @@ class ScreenshotsModel extends BasicModel
         return $count;
     }
 
-    /* Get a random screenshot (an object and not a filename) .*/
-    public function getRandomScreenshot()
+    /**
+     * Get a random screenshot (an object and not a filename).
+     */
+    public function getRandomScreenshot(): Screenshot
     {
         return ScreenshotQuery::create()->findRandom();
     }

@@ -2,6 +2,7 @@
 namespace ScummVM\Pages;
 
 use ScummVM\Controller;
+use Spatie\YamlFrontMatter\Document;
 use Spatie\YamlFrontMatter\YamlFrontMatter;
 use Erusev\Parsedown;
 
@@ -17,7 +18,7 @@ class ArticlePage extends Controller
         $this->template = 'pages/article.tpl';
     }
 
-    private function getArticle($filename)
+    private function getArticle(string $filename): Document
     {
         global $lang;
         if (!$lang) {
@@ -36,8 +37,12 @@ class ArticlePage extends Controller
         return YamlFrontMatter::parse(file_get_contents($fname));
     }
 
-    /* Display the index page. */
-    public function index($params)
+    /**
+     *  Display the index page.
+     *
+     *  @param array{'article'?: string} $params
+     */
+    public function index(array $params): void
     {
         if (empty($params['article'])) {
             throw new \ErrorException(self::ARTICLE_NAME_MISSING);

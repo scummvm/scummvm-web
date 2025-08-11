@@ -7,10 +7,15 @@ namespace ScummVM\Objects;
 class MenuItem extends BasicObject
 {
 
-    private $class;
-    private $entries;
+    private string $class;
+    /** @var array<string, string> */
+    private array $entries;
 
-    /* Menu object constructor. */
+    /**
+     * Menu object constructor.
+     * @param array{'description'?: string, 'name'?: string, 'class': string,
+     *      'links': array<array{'name': string, 'href': string}>} $data
+     */
     public function __construct($data)
     {
         parent::__construct($data);
@@ -22,13 +27,17 @@ class MenuItem extends BasicObject
     }
 
     /* Get the CSS class. */
-    public function getClass()
+    public function getClass(): string
     {
         return $this->class;
     }
 
-    /* Get the list of links, with the name as key and URL as value. */
-    public function getEntries()
+    /**
+     * Get the list of links, with the name as key and URL as value.
+     *
+     * @return array<string, string>
+     */
+    public function getEntries(): array
     {
         return $this->entries;
     }

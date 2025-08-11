@@ -2,6 +2,7 @@
 namespace ScummVM\Pages;
 
 use ScummVM\Controller;
+use ScummVM\Models\BasicModel;
 use ScummVM\Models\SimpleYamlModel;
 
 class SimplePage extends Controller
@@ -14,11 +15,11 @@ class SimplePage extends Controller
         'credits' => ['CreditsSection', 'credits.yaml'],
     ];
 
-    private $model;
-    private $key;
+    private SimpleYamlModel $model;
+    private string $key;
 
     /* Constructor. */
-    public function __construct($key)
+    public function __construct(string $key)
     {
         parent::__construct();
         $this->template = "pages/$key.tpl";
@@ -34,7 +35,7 @@ class SimplePage extends Controller
     }
 
     /* Display the index page. */
-    public function index($data = null)
+    public function index(mixed $data = null): void
     {
         if (isset($this->model)) {
             $data = $this->model->getAllData();

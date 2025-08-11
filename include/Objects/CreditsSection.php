@@ -7,11 +7,21 @@ namespace ScummVM\Objects;
  */
 class CreditsSection extends BasicSection
 {
-    private $groups;
-    private $paragraphs;
+    /** @var array<array{'name': string, 'persons': array<Person>}> */
+    private array $groups;
+    /** @var string[] */
+    private array $paragraphs;
 
-    /* CreditsSection object constructor. */
-    public function __construct($data)
+    /**
+     * CreditsSection object constructor.
+     *
+     * @param array{'title': string, 'anchor': string, 'subsection'?: array<mixed>,
+     *      'group'?: array<array{
+     *          'person': array<array{'description'?: string, 'name'?: string, 'alias': string}>,
+     *          'name': string}>,
+     *      'paragraph'?: string[]} $data
+     */
+    public function __construct(array $data)
     {
         parent::__construct($data);
         $this->groups = [];
@@ -36,14 +46,22 @@ class CreditsSection extends BasicSection
         }
     }
 
-    /* Get the optional list of groups. */
-    public function getGroups()
+    /**
+     * Get the optional list of groups.
+     *
+     * @return array<array{'name': string, 'persons': array<Person>}>
+     */
+    public function getGroups(): array
     {
         return $this->groups;
     }
 
-    /* Get the optional list of paragraphs. */
-    public function getParagraphs()
+    /**
+     * Get the optional list of paragraphs.
+     *
+     * @return string[]
+     */
+    public function getParagraphs(): array
     {
         return $this->paragraphs;
     }

@@ -6,7 +6,7 @@ use ScummVM\Models\GameDownloadsModel;
 
 class GamesPage extends Controller
 {
-    private $gameDownloadsModel;
+    private GameDownloadsModel $gameDownloadsModel;
 
     /* Constructor. */
     public function __construct()
@@ -17,7 +17,7 @@ class GamesPage extends Controller
     }
 
     /* Display the index page. */
-    public function index()
+    public function index(): void
     {
         $downloads = $this->gameDownloadsModel->getAllDownloads();
         $this->renderPage(

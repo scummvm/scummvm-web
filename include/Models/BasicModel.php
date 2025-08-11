@@ -10,7 +10,7 @@ abstract class BasicModel
 {
     const FILE_NOT_FOUND = 'The filename %s could not be found';
 
-    protected static $cache;
+    protected static Psr16Adapter $cache;
 
     public function __construct()
     {
@@ -34,7 +34,7 @@ abstract class BasicModel
         }
     }
 
-    protected function getLocalizedFile($filename)
+    protected function getLocalizedFile(string $filename): string
     {
         global $lang;
         if (!$lang) {
@@ -51,7 +51,7 @@ abstract class BasicModel
         }
     }
 
-    protected function saveToCache($data, $key = '')
+    protected function saveToCache(mixed $data, string $key = ''): void
     {
         if ($key) {
             $key = "_$key";
@@ -62,7 +62,7 @@ abstract class BasicModel
         self::$cache->set($cacheKey, $data, 3600);
     }
 
-    protected function getFromCache($key = '')
+    protected function getFromCache(string $key = ''): mixed
     {
         if (\file_exists(DIR_BASE . '/.no-cache')) {
             return null;

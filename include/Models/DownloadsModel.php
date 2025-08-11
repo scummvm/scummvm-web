@@ -13,7 +13,10 @@ use ScummVM\OrmObjects\DownloadQuery;
 class DownloadsModel extends BasicModel
 {
     /* Get all download entries. */
-    public function getAllDownloads()
+    /**
+     * @return array<string, DownloadsSection>
+     */
+    public function getAllDownloads(): array
     {
         $sections = $this->getFromCache();
         if (is_null($sections)) {
@@ -71,7 +74,10 @@ class DownloadsModel extends BasicModel
         return $sections;
     }
 
-    private function getSectionData()
+    /**
+     * @return array<string, array{'title': string, 'notes'?: string}>
+     */
+    private function getSectionData(): array
     {
         return [
             "current"=>["title"=>"{#downloadsXMLTitle#} {#downloadsXMLVersion#}"],
@@ -97,7 +103,10 @@ class DownloadsModel extends BasicModel
     }
 
     /* Get the recommended download */
-    public function getRecommendedDownload()
+    /**
+     * @return ?array{'os': string, 'version': string, 'extra_text': string, 'url': string}
+     */
+    public function getRecommendedDownload(): ?array
     {
         if (!isset($_SERVER['HTTP_USER_AGENT'])) {
             return null;

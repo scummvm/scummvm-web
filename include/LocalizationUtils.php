@@ -9,11 +9,11 @@ use Erusev\Parsedown;
 
 class LocalizationUtils
 {
-    private static $purifier;
+    private static \HTMLPurifier $purifier;
 
     const NO_FILES = 'No Localization Files Found';
 
-    public static function localize()
+    public static function localize(): void
     {
         $config = \HTMLPurifier_Config::createDefault();
         self::$purifier = new \HTMLPurifier($config);
@@ -27,7 +27,7 @@ class LocalizationUtils
         }
     }
 
-    private static function convertLanguageJsonToSmartyIni($lang)
+    private static function convertLanguageJsonToSmartyIni(string $lang): void
     {
         $Parsedown = new \Parsedown();
         $Parsedown->setBreaksEnabled(true);
@@ -46,7 +46,7 @@ class LocalizationUtils
         file_put_contents(join(DIRECTORY_SEPARATOR, [DIR_DATA, $lang, "strings.ini"]), $output);
     }
 
-    private static function updateNewsL10n($lang)
+    private static function updateNewsL10n(string $lang): void
     {
         $newsFile = join(DIRECTORY_SEPARATOR, [DIR_DATA, $lang, "news.json"]);
         // For non-english, create/overwrite JSON files from our l10n file
@@ -79,7 +79,7 @@ class LocalizationUtils
                 if ($lang === 'fr') {
                     $content = preg_replace_callback(
                         "/(?<=\(http)(.*?)(?=\))/u",
-                        function ($matches) {
+                        function (array $matches): string {
                             return preg_replace("/\x{202f}/u", "", $matches[1]);
                         },
                         $content
@@ -114,7 +114,10 @@ class LocalizationUtils
         }
     }
 
-    private static function getAllNews($lang)
+    /**
+     * @return array<string, array{'title': string, 'content': string}>
+     */
+    private static function getAllNews(string $lang): array
     {
         $dir = join(DIRECTORY_SEPARATOR, [DIR_DATA, $lang, 'news']);
 

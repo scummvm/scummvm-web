@@ -7,9 +7,12 @@ namespace ScummVM\Objects;
  */
 class Person extends BasicObject
 {
-    private $alias;
+    private string $alias;
 
-    /* Person object constructor. */
+    /**
+     * Person object constructor.
+     * @param array{'description'?: string, 'name'?: string, 'alias': string} $data
+     */
     public function __construct($data)
     {
         parent::__construct($data);
@@ -17,7 +20,7 @@ class Person extends BasicObject
     }
 
     /* Get the alias. */
-    public function getAlias()
+    public function getAlias(): string
     {
         return $this->alias;
     }
