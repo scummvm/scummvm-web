@@ -1,4 +1,4 @@
-<?php
+<?php // phpcs:ignore PSR1.Files.SideEffects.FoundWithSymbols -- Script directly executed
 namespace ScummVM;
 
 require_once __DIR__ . '/../vendor/autoload.php';
@@ -21,6 +21,7 @@ use Propel\Runtime\Map\TableMap;
  */
 class DataUtils
 {
+    // phpcs:ignore Generic.Files.LineLength
     const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQamumX0p-DYQa5Umi3RxX-pHM6RZhAj1qvUP0jTmaqutN9FwzyriRSXlO9rq6kR60pGIuPvCDzZL3s/pub?output=tsv';
     // filename => sheet id
     const SHEET_IDS = [

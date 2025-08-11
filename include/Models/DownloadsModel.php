@@ -18,7 +18,7 @@ class DownloadsModel extends BasicModel
         $sections = $this->getFromCache();
         if (is_null($sections)) {
             $parsedData = DownloadQuery::create()
-                    ->findByEnabled(true);
+                ->findByEnabled(true);
             $sections = [];
             $sectionsData = $this->getSectionData();
             foreach ($parsedData as $data) {
@@ -75,13 +75,21 @@ class DownloadsModel extends BasicModel
     {
         return [
             "current"=>["title"=>"{#downloadsXMLTitle#} {#downloadsXMLVersion#}"],
-            "release"=>["title"=>"{#downloadsBinaries#}","notes"=>"{#downloadsBinariesNote1#} <a href='https://downloads.scummvm.org/frs/scummvm/{ldelim}release{rdelim}/ReleaseNotes.html'>{#downloadsBinariesNote2#}</a>.<p>{#downloadsBinariesNote3#}</p>"],
+            "release"=>["title"=>"{#downloadsBinaries#}",
+                "notes"=>"{#downloadsBinariesNote1#} <a href='https://downloads.scummvm.org/frs/scummvm/" .
+                "{ldelim}release{rdelim}/ReleaseNotes.html'>{#downloadsBinariesNote2#}</a>." .
+                "<p>{#downloadsBinariesNote3#}</p>"],
             "source"=>["title"=>"{#downloadsSourceCode#}"],
             "scummvm-tools"=>["title"=>"{#downloadsTools#}"],
             "legacy"=>["title"=>"{#downloadsOldBinaries#}"],
-            "old"=>["title"=>"{#downloadsOld#}","notes"=>"{#downloadsOldBinariesNote#} {#downloadsOldBinariesFrsNote1#} <a href='https://downloads.scummvm.org/frs/scummvm/'>{#downloadsOldBinariesFrsNote2#}</a> {#downloadsOldBinariesFrsNote3#}"],
+            "old"=>["title"=>"{#downloadsOld#}",
+                "notes"=>"{#downloadsOldBinariesNote#} {#downloadsOldBinariesFrsNote1#} " .
+                "<a href='https://downloads.scummvm.org/frs/scummvm/'>{#downloadsOldBinariesFrsNote2#}</a> " .
+                "{#downloadsOldBinariesFrsNote3#}"],
             "daily"=>["title"=>"{#downloadsDailyBuilds#}"],
-            "daily_downloads"=>["title"=>"{#downloadsDailyBuilds#}","notes"=>"<strong>{#downloadsDailyNote1#}</strong> {#downloadsDailyNote2#}<p>{#downloadsDailyNote3#}</p>"],
+            "daily_downloads"=>["title"=>"{#downloadsDailyBuilds#}",
+                "notes"=>"<strong>{#downloadsDailyNote1#}</strong> {#downloadsDailyNote2#}" .
+                "<p>{#downloadsDailyNote3#}</p>"],
             "libs"=>["title"=>"{#downloadsLibraries#}"],
             "required"=>["title"=>"{#downloadsRequiredLibraries#}"],
             "optional"=>["title"=>"{#downloadsOptionalLibraries#}"]

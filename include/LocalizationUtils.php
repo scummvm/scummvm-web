@@ -1,4 +1,4 @@
-<?php
+<?php // phpcs:ignore PSR1.Files.SideEffects.FoundWithSymbols -- Script directly executed
 namespace ScummVM;
 
 require_once __DIR__ . '/../vendor/autoload.php';
@@ -58,7 +58,9 @@ class LocalizationUtils
             $l10n = json_decode(file_get_contents($newsFile));
 
             foreach ($l10n as $key => $translatedArticle) {
-                $englishArticle = YamlFrontMatter::parse(file_get_contents(join(DIRECTORY_SEPARATOR, [DIR_DATA, DEFAULT_LOCALE, 'news', "{$key}.markdown"])));
+                $englishArticle = YamlFrontMatter::parse(file_get_contents(
+                    join(DIRECTORY_SEPARATOR, [DIR_DATA, DEFAULT_LOCALE, 'news', "{$key}.markdown"])
+                ));
 
                 $date = self::$purifier->purify($englishArticle->date);
                 $author = self::$purifier->purify($englishArticle->author);
@@ -103,7 +105,11 @@ class LocalizationUtils
 
             file_put_contents(
                 $newsFile,
-                \str_replace('\r\n', '\n', json_encode($news, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES |  JSON_UNESCAPED_UNICODE) . "\n")
+                \str_replace(
+                    '\r\n',
+                    '\n',
+                    json_encode($news, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES |  JSON_UNESCAPED_UNICODE) . "\n"
+                )
             );
         }
     }

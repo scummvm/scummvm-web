@@ -16,7 +16,7 @@ class DirectorDemosModel extends BasicModel
             $demos = DirectorDemoQuery::create()
                 ->orderByVersion()
                 ->orderByTitle()
-            ->find();
+                ->find();
             $groupedData =  $this->createGroups($demos);
             $this->saveToCache($groupedData);
         }
