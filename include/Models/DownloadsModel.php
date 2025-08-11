@@ -53,7 +53,7 @@ class DownloadsModel extends BasicModel
                     $sections[$category] = new DownloadsSection([
                         'anchor' => $category,
                         'title' => $sectionsData[$category]['title'],
-                        'notes' => $sectionsData[$category]['notes'] ?? null
+                        'notes' => $sectionsData[$category]['notes'] ?? ''
                     ]);
                 }
 
@@ -62,7 +62,7 @@ class DownloadsModel extends BasicModel
                     $sections[$category]->addSubsection(new DownloadsSection([
                         'anchor' => $subCategory,
                         'title' => $sectionsData[$subCategory]['title'],
-                        'notes' => $sectionsData[$subCategory]['notes'] ?? null
+                        'notes' => $sectionsData[$subCategory]['notes'] ?? ''
                     ]));
                 }
 
@@ -115,6 +115,8 @@ class DownloadsModel extends BasicModel
         $osParser = new OsParser();
         $osParser->setUserAgent($_SERVER['HTTP_USER_AGENT']);
         $os = $osParser->parse();
+        // Should never happen: the DeviceDetector signature seems wrong
+        assert($os !== null);
 
         $downloads = DownloadQuery::create()
             ->setIgnoreCase(true)

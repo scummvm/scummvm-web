@@ -153,6 +153,7 @@ if ($match === false) {
 }
 
 if ($match['target'] === '\ScummVM\Pages\SimplePage' || $match['target'] === '\ScummVM\Pages\StaticPage') {
+    assert($match['name'] !== null);
     $page = new $match['target']($match['name']);
 } elseif (strpos($match['target'], "http") === 0) {
     header("Location: {$match['target']}");

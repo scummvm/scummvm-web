@@ -56,7 +56,7 @@ class Compatibility extends BaseCompatibility
 
         if ($this->notes) {
             $notes .= "### Additional Notes\n";
-            $notes .= str_replace("- ", "\n- ", parent::getNotes()) . "\n";
+            $notes .= str_replace("- ", "\n- ", parent::getNotes() ?? '') . "\n";
         }
 
         $links = [];

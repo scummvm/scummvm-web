@@ -23,7 +23,7 @@ class DownloadsPage extends Controller
         $this->renderPage(
             array(
                 'title' => $this->getConfigVars('downloadsTitle'),
-                'description' => \strip_tags($this->getConfigVars('downloadsContentP1')),
+                'description' => \strip_tags($this->getConfigVars('downloadsContentP1') ?? ''),
                 'content_title' => $this->getConfigVars('downloadsContentTitle'),
                 'downloads' => $downloads,
                 'recommendedDownload' => $recommendedDownload
