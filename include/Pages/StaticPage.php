@@ -12,7 +12,7 @@ class StaticPage extends Controller
     {
         parent::__construct();
 
-        $this->filename = "html/$key.html";
+        $this->filename = DIR_STATIC . "/html/$key.html";
         if (!is_file($this->filename) || !is_readable($this->filename)) {
             throw new \ErrorException(\sprintf(self::FILE_NOT_FOUND, $this->filename));
         }
