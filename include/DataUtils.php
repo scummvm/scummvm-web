@@ -91,6 +91,9 @@ class DataUtils
         // Convert to JSON because records are serializable
         // and cannot be converted directly to yaml
         $json = \json_encode($records);
+        if ($json === false) {
+            throw new \Exception("Can't encode data as JSON");
+        }
         $data = \json_decode($json, true);
 
         // Convert TRUE/FALSE strings to Booleans

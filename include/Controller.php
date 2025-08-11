@@ -128,8 +128,12 @@ class Controller
     public function dateLocalizedSmartyModifier(int $timestamp): string
     {
         global $lang;
-        $formatter = datefmt_create($lang, \IntlDateFormatter::MEDIUM, \IntlDateFormatter::NONE);
-        return $formatter->format($timestamp);
+        $formatter = new \IntlDateFormatter($lang, \IntlDateFormatter::MEDIUM, \IntlDateFormatter::NONE);
+        $ret = $formatter->format($timestamp);
+        if ($ret === false) {
+            $ret = '';
+        }
+        return $ret;
     }
 
     /**

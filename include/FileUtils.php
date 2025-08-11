@@ -82,13 +82,18 @@ class FileUtils
             && (@filemtime($path . '.sha256') > @filemtime($path))
         ) {
             // Read the file and return the included hash
-            return file_get_contents($path . '.sha256');
-        } else {
-            // Generate a SHA-256 hash, save it to a file for later, then return the hash
-            $hash = hash_file('sha256', $path);
-            file_put_contents($path . '.sha256', $hash);
-            return $hash;
+            $contents = file_get_contents($path . '.sha256');
+            if ($contents !== false) {
+                return $contents;
+            }
         }
+        // Generate a SHA-256 hash, save it to a file for later, then return the hash
+        $hash = hash_file('sha256', $path);
+        if ($hash === false) {
+            return '';
+        }
+        file_put_contents($path . '.sha256', $hash);
+        return $hash;
     }
 
     /**
@@ -100,8 +105,12 @@ class FileUtils
     public static function getLastModified(string $path): string
     {
         $path = FileUtils::toAbsolutePathIfOnServer($path);
+        $mtime = @filemtime($path);
+        if ($mtime === false) {
+            return '';
+        }
         $date = new DateTime();
-        return $date->setTimestamp(@filemtime($path))->format("Y-m-d");
+        return $date->setTimestamp($mtime)->format("Y-m-d");
     }
 
     /**

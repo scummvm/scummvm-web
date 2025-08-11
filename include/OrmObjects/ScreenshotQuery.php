@@ -31,6 +31,7 @@ class ScreenshotQuery extends BaseScreenshotQuery
                 FROM screenshot ORDER BY RANDOM() LIMIT 1";
         try {
             $stmt = $con->prepare($sql);
+            \assert($stmt !== false);
             $stmt->execute();
         } catch (\Exception $e) {
             Propel::log($e->getMessage(), Propel::LOG_ERR);
@@ -92,6 +93,7 @@ class ScreenshotQuery extends BaseScreenshotQuery
                          subcategory_name";
         try {
             $stmt = $con->prepare($sql);
+            \assert($stmt !== false);
             $stmt->execute();
         } catch (\Exception $e) {
             Propel::log($e->getMessage(), Propel::LOG_ERR);

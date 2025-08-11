@@ -28,7 +28,11 @@ class Screenshot extends BaseScreenshot
         if (!isset($this->files)) {
             $this->files = [];
             $gameId = str_replace(':', '/', $this->getGame()->getId());
-            foreach (glob(DIR_STATIC . DIR_SCREENSHOTS . '/' . $gameId . '/' . $this->getFileMask()) as $file) {
+            $screenshots = glob(DIR_STATIC . DIR_SCREENSHOTS . '/' . $gameId . '/' . $this->getFileMask());
+            if ($screenshots === false) {
+                $screenshots = array();
+            }
+            foreach ($screenshots as $file) {
                 // Remove the base folder
                 $name = str_replace(DIR_STATIC . DIR_SCREENSHOTS . '/', '', $file);
                 // Remove the suffix, eg. "_full.png"
