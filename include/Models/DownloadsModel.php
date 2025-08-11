@@ -100,7 +100,7 @@ class DownloadsModel extends BasicModel
     public function getRecommendedDownload()
     {
         if (!isset($_SERVER['HTTP_USER_AGENT'])) {
-            return false;
+            return null;
         }
 
         $osParser = new OsParser();
@@ -140,6 +140,6 @@ class DownloadsModel extends BasicModel
                 'url' => $url,
             ];
         }
-        return false;
+        return null;
     }
 }
