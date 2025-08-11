@@ -131,7 +131,7 @@ class ScreenshotsModel extends BasicModel
                 $combined[$subcategory] = $screenshot;
             }
         }
-        \sort($combined, SORT_STRING);
+        \ksort($combined, SORT_STRING);
         return $combined;
     }
 

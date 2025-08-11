@@ -28,7 +28,7 @@ class SimplePage extends Controller
             throw new \ErrorException(\sprintf(self::FILE_NOT_FOUND, $templateFile));
         }
         if (array_key_exists($key, self::PAGE_MODELS)) {
-            [$model, $data] = self::PAGE_MODELS[$key];
+            list($model, $data) = self::PAGE_MODELS[$key];
             $this->model = new SimpleYamlModel($model, $data);
         }
     }
@@ -36,7 +36,7 @@ class SimplePage extends Controller
     /* Display the index page. */
     public function index($data = null)
     {
-        if ($this->model) {
+        if (isset($this->model)) {
             $data = $this->model->getAllData();
         }
 

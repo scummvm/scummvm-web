@@ -39,7 +39,7 @@ class ArticlePage extends Controller
     /* Display the index page. */
     public function index($params)
     {
-        if (!$params['article']) {
+        if (empty($params['article'])) {
             throw new \ErrorException(self::ARTICLE_NAME_MISSING);
         }
         $filename = $params['article'] . '.markdown';

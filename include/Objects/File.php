@@ -23,8 +23,8 @@ class File extends BasicObject
         $this->autoId = $data['auto_id'] ?? null;
         $this->category = $data['category'];
         $this->category_icon = $data['category_icon'];
-        $this->notes = isset($data['notes']) ? $data['notes'] : '';
-        $this->user_agent = isset($data["user_agent"]) ? $data["user_agent"] : "";
+        $this->notes = $data['notes'] ?? '';
+        $this->user_agent = $data['user_agent'] ?? '';
         $this->version = isset($data['version']) ? strtolower($data['version']) : null;
 
         /* If it's not an array, we didn't get any attributes. */
