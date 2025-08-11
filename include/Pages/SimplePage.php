@@ -40,7 +40,7 @@ class SimplePage extends Controller
             $data = $this->model->getAllData();
         }
 
-        return $this->renderPage([
+        $this->renderPage([
             'title' => $this->getConfigVars("{$this->key}Title"),
             'description' => $this->getConfigVars("{$this->key}Description"),
             'content_title' => $this->getConfigVars("{$this->key}ContentTitle"),

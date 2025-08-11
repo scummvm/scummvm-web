@@ -68,9 +68,9 @@ class CompatibilityPage extends Controller
         }
 
         if (!empty($target)) {
-            return $this->getGame($target, $version);
+            $this->getGame($target, $version);
         } else {
-            return $this->getAll($version, $versions);
+            $this->getAll($version, $versions);
         }
     }
 
@@ -87,7 +87,7 @@ class CompatibilityPage extends Controller
 
         $this->template = 'components/compatibility_details.tpl';
 
-        return $this->renderPage(
+        $this->renderPage(
             array(
                 'title' => preg_replace('/{version}/', $version, $this->getConfigVars('compatibilityTitle')),
                 'subtitle' => $game->getGame()->getName(),
@@ -115,7 +115,7 @@ class CompatibilityPage extends Controller
         $last_updated = $this->compatibilityModel->getLastUpdated();
         $this->template = 'pages/compatibility.tpl';
 
-        return $this->renderPage(
+        $this->renderPage(
             [
                 'title' => preg_replace('/{version}/', $version, $this->getConfigVars('compatibilityTitle')),
                 'description' => $this->getConfigVars('compatibilityIntro'),

@@ -164,7 +164,7 @@ class Controller
             'content' => $content,
         );
         $this->smarty->assign($vars);
-        return $this->smarty->display('pages/index.tpl');
+        $this->smarty->display('pages/index.tpl');
     }
 
     /* Render the HTML using the template and any set variables and returns it. */
@@ -179,7 +179,7 @@ class Controller
     /* Set up the variables used by the template and render the page. */
     public function renderPage($vars)
     {
-        return $this->display($this->fetch($this->template, $vars));
+        $this->display($this->fetch($this->template, $vars));
     }
 
     /* Assign extra CSS files needed by the different pages/templates. */

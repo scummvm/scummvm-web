@@ -28,7 +28,8 @@ class ScreenshotsPage extends Controller
         );
 
         if ($category) {
-            return $this->getCategory($category, $game);
+            $this->getCategory($category, $game);
+            return;
         }
 
         $screenshot  = $this->screenshotsModel->getAllCategories();
@@ -36,7 +37,7 @@ class ScreenshotsPage extends Controller
 
         $this->template = 'pages/screenshots.tpl';
 
-        return $this->renderPage(
+        $this->renderPage(
             [
                 'title' => $this->getConfigVars('screenshotsTitle'),
                 // TODO: Add a description
@@ -62,7 +63,7 @@ class ScreenshotsPage extends Controller
         }
         $this->template = 'pages/screenshots_category.tpl';
 
-        return $this->renderPage(
+        $this->renderPage(
             [
                 'title' => $this->getConfigVars('screenshotsTitle'),
                 // TODO: Add a description

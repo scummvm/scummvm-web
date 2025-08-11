@@ -24,13 +24,15 @@ class NewsPage extends Controller
     {
         $filename = $args['date'] ?? null;
 
-        if ($filename != null) {
-            if (strtolower($filename) == 'archive' || $filename == '') {
-                $filename = null;
-            }
-            return $this->getNews($filename);
+        if ($filename === null) {
+            $this->getNewsIntro();
+            return;
         }
-        return $this->getNewsIntro();
+
+        if (strtolower($filename) == 'archive' || $filename == '') {
+            $filename = null;
+        }
+        $this->getNews($filename);
     }
 
     /* Display a specific news item, or all news items. */
@@ -46,7 +48,7 @@ class NewsPage extends Controller
             $description = htmlentities($this->getHeadline($news_items[0]->getContent()));
         }
 
-        return $this->renderPage(
+        $this->renderPage(
             array(
                 'title' => $this->getConfigVars('newsTitle'),
                 'subtitle' => $subtitle,
@@ -71,7 +73,7 @@ class NewsPage extends Controller
             )
         );
 
-        return $this->renderPage(
+        $this->renderPage(
             array(
                 'title' => $this->getConfigVars('homeTitle'),
                 'description' => $this->getConfigVars('introHeaderContentP1'),

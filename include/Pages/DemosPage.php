@@ -20,7 +20,7 @@ class DemosPage extends Controller
     public function index()
     {
         $demos = $this->gameDemosModel->getAllGroupsAndDemos();
-        return $this->renderPage(
+        $this->renderPage(
             array(
                 'title' => $this->getConfigVars('demosTitle'),
                 'description' => $this->getConfigVars('gamesDemosContentP1'),

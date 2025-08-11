@@ -38,6 +38,5 @@ class FeedsPage extends Controller
                 'news' => $news_items,
             )
         );
-        return true;
     }
 }

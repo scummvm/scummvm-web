@@ -20,7 +20,7 @@ class GamesPage extends Controller
     public function index()
     {
         $downloads = $this->gameDownloadsModel->getAllDownloads();
-        return $this->renderPage(
+        $this->renderPage(
             array(
                 'title' => $this->getConfigVars('gamesTitle'),
                 'description' => strip_tags($this->getConfigVars('gamesContentP1')),

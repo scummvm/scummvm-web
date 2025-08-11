@@ -21,7 +21,7 @@ class LinksPage extends Controller
     public function index()
     {
         $links = $this->linksModel->getAllGroupsAndLinks();
-        return $this->renderPage(
+        $this->renderPage(
             array(
                 'title' => $this->getConfigVars('linksTitle'),
                 // TODO: add a description
