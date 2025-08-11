@@ -33,8 +33,19 @@ class DownloadsSection extends BasicSection
         if ($item->getCategoryIcon()) {
             $this->items[] = new File($item->toArray(TableMap::TYPE_FIELDNAME));
             // If this item is for an old version, sort all items by version, descending, then by autoId
-            if ($this->hasOldVersion($item)) {
+            if (self::hasOldVersion($item)) {
                 usort($this->items, function ($a, $b) {
+                    $aFile = $a instanceof File;
+                    $bFile = $b instanceof File;
+
+                    if (!$aFile && !$bFile) {
+                        return strcmp($a->getURL(), $b->getURL());
+                    } elseif (!$aFile) {
+                        return 1;
+                    } elseif (!$bFile) {
+                        return -1;
+                    }
+
                     // Return 0 if equal, -1 if $a->getVersion() is larger, 1 if $b->getVersion() is larger
                     $versionSortResult = -version_compare($a->getVersion(), $b->getVersion());
                     if ($versionSortResult == 0) {
@@ -79,7 +90,7 @@ class DownloadsSection extends BasicSection
     /**
      * @param Download|GameDownload $item
      */
-    private function hasOldVersion(object $item): bool
+    private static function hasOldVersion(object $item): bool
     {
         return method_exists($item, 'getVersion') && $item->getVersion() !== RELEASE && $item->getVersion() !== 'Daily';
     }
