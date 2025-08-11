@@ -118,6 +118,7 @@ class Controller
     {
         /* Properly encode all ampersands as "&amp;". */
         $string = preg_replace('/&(?!([a-z]+|(#\d+));)/i', '&amp;', $string);
+        assert($string !== null);
         /* Replace weird characters that appears in some of the data. */
         return $string;
     }
@@ -158,7 +159,9 @@ class Controller
     public function releaseSmartyModifier(string $string): string
     {
         $string = preg_replace("/\{[$]?release\}/", RELEASE, $string);
+        assert($string !== null);
         $string = preg_replace("/\{[$]?release_tools\}/", RELEASE_TOOLS, $string);
+        assert($string !== null);
         return $string;
     }
 

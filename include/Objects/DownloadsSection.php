@@ -48,7 +48,7 @@ class DownloadsSection extends BasicSection
                     }
 
                     // Return 0 if equal, -1 if $a->getVersion() is larger, 1 if $b->getVersion() is larger
-                    $versionSortResult = -version_compare($a->getVersion(), $b->getVersion());
+                    $versionSortResult = -version_compare($a->getVersion() ?? '', $b->getVersion() ?? '');
                     if ($versionSortResult == 0) {
                         // Return 0 if equal, -1 if $a->getAutoId() is smaller, 1 if $b->getAutoId() is smaller
                         return $a->getAutoId() <=> $b->getAutoId();

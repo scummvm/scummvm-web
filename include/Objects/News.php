@@ -66,6 +66,7 @@ class News
             return substr_replace($full, $lurl, $urlOffset, strlen($url));
         }, $body, flags: PREG_OFFSET_CAPTURE);
 
+        assert($body !== null);
         return $body;
     }
 

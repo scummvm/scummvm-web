@@ -90,7 +90,9 @@ class LocalizationUtils
                     $content = preg_replace_callback(
                         "/(?<=\(http)(.*?)(?=\))/u",
                         function (array $matches): string {
-                            return preg_replace("/\x{202f}/u", "", $matches[1]);
+                            $ret = preg_replace("/\x{202f}/u", "", $matches[1]);
+                            assert($ret !== null);
+                            return $ret;
                         },
                         $content
                     );

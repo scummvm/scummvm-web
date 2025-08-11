@@ -73,7 +73,7 @@ class CompatibilityPage extends Controller
             ->find()->toArray();
 
         /* Default to DEV */
-        if (!in_array($version, $versions)) {
+        if (empty($version) || !in_array($version, $versions)) {
             $version = 'DEV';
         }
 
@@ -99,13 +99,13 @@ class CompatibilityPage extends Controller
 
         $this->renderPage(
             array(
-                'title' => preg_replace('/{version}/', $version, $this->getConfigVars('compatibilityTitle')),
+                'title' => preg_replace('/{version}/', $version, $this->getConfigVars('compatibilityTitle') ?? ''),
                 'subtitle' => $game->getGame()->getName(),
                 'description' => $this->supportLevelDescriptions[$game->getSupport()],
                 'content_title' => preg_replace(
                     '/{version}/',
                     $version,
-                    $this->getConfigVars('compatibilityContentTitle')
+                    $this->getConfigVars('compatibilityContentTitle') ?? ''
                 ),
                 'version' => $version,
                 'game' => $game,
@@ -130,12 +130,12 @@ class CompatibilityPage extends Controller
 
         $this->renderPage(
             [
-                'title' => preg_replace('/{version}/', $version, $this->getConfigVars('compatibilityTitle')),
+                'title' => preg_replace('/{version}/', $version, $this->getConfigVars('compatibilityTitle') ?? ''),
                 'description' => $this->getConfigVars('compatibilityIntro'),
                 'content_title' => preg_replace(
                     '/{version}/',
                     $version,
-                    $this->getConfigVars('compatibilityContentTitle')
+                    $this->getConfigVars('compatibilityContentTitle') ?? ''
                 ),
                 'version' => $version,
                 'compat_data' => $compat_data,
