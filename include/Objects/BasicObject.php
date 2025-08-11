@@ -18,7 +18,7 @@ abstract class BasicObject
 
     public function __toString()
     {
-        return $this->getName();
+        return $this->getName() ?? '';
     }
 
      /* Get the name. */

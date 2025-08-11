@@ -14,7 +14,7 @@ abstract class BasicModel
 
     public function __construct()
     {
-        if (is_null(self::$cache)) {
+        if (!isset(self::$cache)) {
             try {
                 $driver = extension_loaded('redis') ? 'redis' : 'predis';
                 $database = DEV_SERVER ? 7 : 8;

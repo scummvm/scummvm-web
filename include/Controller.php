@@ -105,7 +105,7 @@ class Controller
     private function isRtl($localeName)
     {
         $rtl_chars_pattern = '/[\x{0590}-\x{05ff}\x{0600}-\x{06ff}]/u';
-        return preg_match($rtl_chars_pattern, $localeName);
+        return preg_match($rtl_chars_pattern, $localeName) === 1;
     }
 
     /**

@@ -24,7 +24,7 @@ class GameDownloadsModel extends BasicModel
             foreach ($categories as $category) {
                 $sections[$category] = new DownloadsSection([
                         'anchor' => $category,
-                        'title' => $sectionsData[$category]['title'],
+                        'title' => $sectionsData[$category]['title'] ?? null,
                         'notes' => $sectionsData[$category]['notes'] ?? null
                     ]);
             }

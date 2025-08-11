@@ -8,6 +8,8 @@ use DateTime;
 */
 class FileUtils
 {
+    private const DOUBLE_EXTENSIONS = ['.bz2', '.gz', '.lz', '.xz', '.7z'];
+
     /**
     * Returns whether or not the file exists and is readable
     *
@@ -60,7 +62,7 @@ class FileUtils
         $extension = substr($path, (strrpos($path, '.')));
 
         // For certain extensions, check for another extension (e.g. foo.tar.gz => tar.gz)
-        if ($extension == '.bz2' || $extension == '.gz' || $extension == '.lz' || $extension == '.xz' || $extension == '.7z') {
+        if (in_array($extension, self::DOUBLE_EXTENSIONS)) {
             $extension = substr($path, strrpos($path, '.', -(strlen($path) - strrpos($path, '.') + 1)));
         }
         return $extension;
