@@ -11,7 +11,7 @@ namespace ScummVM;
  */
 if (isset($_SERVER['SERVER_SOFTWARE']) &&
     \preg_match("/PHP [\d\.]+ Development Server/",$_SERVER['SERVER_SOFTWARE'])) {
-    if (\file_exists(__DIR__ . '/' . strtok($_SERVER["REQUEST_URI"], '?'))) {
+    if (\is_file(__DIR__ . '/' . strtok($_SERVER["REQUEST_URI"], '?'))) {
         return false;
     }
     define('DEV_SERVER', true);
