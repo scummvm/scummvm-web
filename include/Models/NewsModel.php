@@ -46,7 +46,10 @@ class NewsModel extends BasicModel
                 if (!is_file(($fname = join(DIRECTORY_SEPARATOR, [DIR_DATA, $lang, 'news', basename($filename)])))
                     || !is_readable($fname) || !($data = @file_get_contents($fname))
                 ) {
-                    if (!($data = @file_get_contents(join(DIRECTORY_SEPARATOR, [DIR_DATA, DEFAULT_LOCALE, 'news', $filename])))) {
+                    if (!($data = @file_get_contents(join(
+                        DIRECTORY_SEPARATOR,
+                        [DIR_DATA, DEFAULT_LOCALE, 'news', $filename]
+                    )))) {
                         continue;
                     }
                 }

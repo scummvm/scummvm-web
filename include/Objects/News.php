@@ -24,7 +24,8 @@ class News
         $object = YamlFrontMatter::parse($data);
         $Parsedown = new \Parsedown();
 
-        $this->title = $processContent ? $this->processText($Parsedown->line($object->title)) : $Parsedown->line($object->title);
+        $this->title = $processContent ? $this->processText($Parsedown->line($object->title)) :
+            $Parsedown->line($object->title);
         $this->date = $object->date;
         $this->author = $object->author;
         $body = $this->localizeLinks($object->body());

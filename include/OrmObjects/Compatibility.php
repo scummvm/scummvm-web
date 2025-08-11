@@ -68,7 +68,8 @@ class Compatibility extends BaseCompatibility
             if (str_starts_with($dataFiles, "https://")) {
                 $wikiLink = "- [ScummVM Wiki]({$this->getGame()->getDataFiles()})";
             } else {
-                $wikiLink = "- [ScummVM Wiki](https://wiki.scummvm.org/index.php?title={$this->getGame()->getDataFiles()})";
+                $wikiLink = "- [ScummVM Wiki](https://wiki.scummvm.org/index.php?" .
+                    "title={$this->getGame()->getDataFiles()})";
             }
             $links[] = $wikiLink . " (includes list of required data files)";
         }
@@ -98,7 +99,8 @@ class Compatibility extends BaseCompatibility
         }
         $zoomId = $this->getGame()->getZoomId();
         if ($zoomId) {
-            $availableSites[] = "- [ZOOM Platform](" . ZOOM_URL_PREFIX . $zoomId . ZOOM_URL_SUFFIX . ") (affiliate link)";
+            $availableSites[] = "- [ZOOM Platform](" . ZOOM_URL_PREFIX . $zoomId .
+                ZOOM_URL_SUFFIX . ") (affiliate link)";
         }
         // Additional stores could include the ScummVM Freeware Games page
         $additionalStores = $this->getGame()->getAdditionalStores();
@@ -107,7 +109,8 @@ class Compatibility extends BaseCompatibility
         }
         if ($availableSites) {
             $notes .= "\n\n### Available At\n";
-            $notes .= "The ScummVM project does not endorse any individual supplier of games. This list is for reference purposes only.\n";
+            $notes .= "The ScummVM project does not endorse any individual supplier of games. " .
+                "This list is for reference purposes only.\n";
             $notes .= join("\n", $availableSites);
         }
 
