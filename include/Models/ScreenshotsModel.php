@@ -78,7 +78,7 @@ class ScreenshotsModel extends BasicModel
                 ->find();
 
             $combinedScreenshot = $this->combineScreenshots($screenshots);
-            if (!$combinedScreenshot) {
+            if (is_null($combinedScreenshot)) {
                 throw new \ErrorException(self::INVALID_TARGET);
             }
 
@@ -92,13 +92,13 @@ class ScreenshotsModel extends BasicModel
      * Combines multiple screenshots into a single screenshot
      *
      * @param  Collection $screenshots
-     * @return Screenshot|bool
+     * @return ?Screenshot
      */
     private function combineScreenshots(iterable $screenshots)
     {
         $count = $screenshots->count();
         if ($count === 0) {
-            return false;
+            return null;
         } elseif ($count === 1) {
             $screenshots[0]->getFiles();
             return $screenshots[0];
