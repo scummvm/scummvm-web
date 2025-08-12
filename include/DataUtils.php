@@ -1,4 +1,4 @@
-<?php
+<?php // phpcs:ignore PSR1.Files.SideEffects.FoundWithSymbols -- Script directly executed
 namespace ScummVM;
 
 require_once __DIR__ . '/../vendor/autoload.php';
@@ -10,6 +10,7 @@ use League\Csv\Statement;
 use Symfony\Component\Yaml\Yaml;
 use GuzzleHttp\Client;
 use GuzzleHttp\Promise;
+use GuzzleHttp\Psr7\Response;
 use Propel\Runtime\Propel;
 use Propel\Runtime\Connection\Exception\RollbackException;
 use Propel\Runtime\Map\TableMap;
@@ -21,6 +22,7 @@ use Propel\Runtime\Map\TableMap;
  */
 class DataUtils
 {
+    // phpcs:ignore Generic.Files.LineLength
     const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQamumX0p-DYQa5Umi3RxX-pHM6RZhAj1qvUP0jTmaqutN9FwzyriRSXlO9rq6kR60pGIuPvCDzZL3s/pub?output=tsv';
     // filename => sheet id
     const SHEET_IDS = [
@@ -58,7 +60,7 @@ class DataUtils
      *
      * @return void
      */
-    public static function updateData()
+    public static function updateData(): void
     {
         $client = new Client();
         $promises = [];
@@ -77,7 +79,7 @@ class DataUtils
         \file_put_contents('.clear-cache', '');
     }
 
-    private static function doUpdateData($name, $response)
+    private static function doUpdateData(string $name, Response $response): void
     {
         $tsv = $response->getBody();
         $reader = Reader::createFromString($tsv);
@@ -89,6 +91,9 @@ class DataUtils
         // Convert to JSON because records are serializable
         // and cannot be converted directly to yaml
         $json = \json_encode($records);
+        if ($json === false) {
+            throw new \Exception("Can't encode data as JSON");
+        }
         $data = \json_decode($json, true);
 
         // Convert TRUE/FALSE strings to Booleans
@@ -110,7 +115,7 @@ class DataUtils
         \file_put_contents($outFile, $yaml);
     }
 
-    private static function convertYamlToOrm()
+    private static function convertYamlToOrm(): void
     {
         foreach (self::OBJECT_NAMES as $name => $object) {
             $failures = array();

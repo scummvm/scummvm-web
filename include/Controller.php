@@ -2,6 +2,7 @@
 namespace ScummVM;
 
 use Smarty\Smarty;
+use Smarty\Template;
 use ScummVM\Models\SimpleYamlModel;
 use ScummVM\SiteUtils;
 
@@ -12,11 +13,13 @@ use ScummVM\SiteUtils;
  */
 class Controller
 {
-    protected $template;
-    private $smarty;
-    private $css_files;
-    private $js_files;
-    private $menuModel;
+    protected string $template;
+    private Smarty $smarty;
+    /** @var string[] */
+    private array $css_files;
+    /** @var string[] */
+    private array $js_files;
+    private SimpleYamlModel $menuModel;
 
     /**
      * Constructor that will create a Smarty object and configure it according
@@ -102,19 +105,20 @@ class Controller
     /**
      * Checks whether a locale string is RTL or LTR
      */
-    private function isRtl($localeName)
+    private function isRtl(string $localeName): bool
     {
         $rtl_chars_pattern = '/[\x{0590}-\x{05ff}\x{0600}-\x{06ff}]/u';
-        return preg_match($rtl_chars_pattern, $localeName);
+        return preg_match($rtl_chars_pattern, $localeName) === 1;
     }
 
     /**
      * Smarty outputfilter, run just before displaying.
      */
-    public function outputFilter($string, $smarty)
+    public function outputFilter(string $string, Template $smarty): string
     {
         /* Properly encode all ampersands as "&amp;". */
         $string = preg_replace('/&(?!([a-z]+|(#\d+));)/i', '&amp;', $string);
+        assert($string !== null);
         /* Replace weird characters that appears in some of the data. */
         return $string;
     }
@@ -122,17 +126,21 @@ class Controller
     /**
      * Formating of dateAs, registered as a modifier for Smarty templates.
      */
-    public function dateLocalizedSmartyModifier($timestamp)
+    public function dateLocalizedSmartyModifier(int $timestamp): string
     {
         global $lang;
-        $formatter = datefmt_create($lang, \IntlDateFormatter::MEDIUM, \IntlDateFormatter::NONE);
-        return $formatter->format($timestamp);
+        $formatter = new \IntlDateFormatter($lang, \IntlDateFormatter::MEDIUM, \IntlDateFormatter::NONE);
+        $ret = $formatter->format($timestamp);
+        if ($ret === false) {
+            $ret = '';
+        }
+        return $ret;
     }
 
     /**
      * Formating of download URLs, registered as a modifier for Smarty templates.
      */
-    public function downloadsSmartyModifier($path)
+    public function downloadsSmartyModifier(string $path): string
     {
         if (\strpos($path, "http") === 0) {
             return $path;
@@ -148,15 +156,17 @@ class Controller
     /**
      * Formating of version, registered as a modifier for Smarty templates.
      */
-    public function releaseSmartyModifier($string)
+    public function releaseSmartyModifier(string $string): string
     {
         $string = preg_replace("/\{[$]?release\}/", RELEASE, $string);
+        assert($string !== null);
         $string = preg_replace("/\{[$]?release_tools\}/", RELEASE_TOOLS, $string);
+        assert($string !== null);
         return $string;
     }
 
     /* Render the HTML using the template and any set variables and displays it. */
-    public function display($content)
+    public function display(string $content): void
     {
         $vars = array(
             'css_files' => $this->css_files,
@@ -164,11 +174,14 @@ class Controller
             'content' => $content,
         );
         $this->smarty->assign($vars);
-        return $this->smarty->display('pages/index.tpl');
+        $this->smarty->display('pages/index.tpl');
     }
 
     /* Render the HTML using the template and any set variables and returns it. */
-    public function fetch($template, $vars = null)
+    /**
+     * @param ?array<string, mixed> $vars
+     */
+    public function fetch(string $template, ?array $vars = null): string
     {
         if (!is_null($vars)) {
             $this->smarty->assign($vars);
@@ -177,43 +190,52 @@ class Controller
     }
 
     /* Set up the variables used by the template and render the page. */
-    public function renderPage($vars)
+    /**
+     * @param ?array<string, mixed> $vars
+     */
+    public function renderPage(?array $vars): void
     {
-        return $this->display($this->fetch($this->template, $vars));
+        $this->display($this->fetch($this->template, $vars));
     }
 
     /* Assign extra CSS files needed by the different pages/templates. */
-    public function addCSSFiles($extra_css)
+    /**
+     * @param string|string[] $extra_css
+     */
+    public function addCSSFiles(string|array $extra_css): void
     {
         if (is_array($extra_css)) {
             $this->css_files = array_merge(
                 $this->css_files,
                 $extra_css
             );
-        } elseif (is_string($extra_css) && strlen($extra_css) > 0) {
+        } elseif (strlen($extra_css) > 0) {
             $this->css_files[] = $extra_css;
         }
     }
 
     /* Assign javascripts files needed by the different pages/templates. */
-    public function addJSFiles($extra_js)
+    /**
+     * @param string|string[] $extra_js
+     */
+    public function addJSFiles(string|array $extra_js): void
     {
         if (is_array($extra_js)) {
             $this->js_files = array_merge(
                 $this->js_files,
                 $extra_js
             );
-        } elseif (is_string($extra_js) && strlen($extra_js) > 0) {
+        } elseif (strlen($extra_js) > 0) {
             $this->js_files[] = $extra_js;
         }
     }
 
-    protected function getConfigVars($title)
+    protected function getConfigVars(string $title): ?string
     {
         return $this->smarty->getConfigVars($title);
     }
 
-    protected function getHeadline($body)
+    protected function getHeadline(string $body): string
     {
         $headline = '';
         for ($line = \strtok($body, PHP_EOL); $line !== false; $line = \strtok(PHP_EOL)) {

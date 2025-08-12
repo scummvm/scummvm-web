@@ -6,7 +6,7 @@ use ScummVM\Models\GameDemosModel;
 
 class DemosPage extends Controller
 {
-    private $gameDemosModel;
+    private GameDemosModel $gameDemosModel;
 
     /* Constructor. */
     public function __construct()
@@ -17,10 +17,10 @@ class DemosPage extends Controller
     }
 
     /* Display the index page. */
-    public function index()
+    public function index(): void
     {
         $demos = $this->gameDemosModel->getAllGroupsAndDemos();
-        return $this->renderPage(
+        $this->renderPage(
             array(
                 'title' => $this->getConfigVars('demosTitle'),
                 'description' => $this->getConfigVars('gamesDemosContentP1'),

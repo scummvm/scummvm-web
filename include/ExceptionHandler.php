@@ -8,36 +8,36 @@ use ScummVM\Pages\SimplePage;
  */
 abstract class ExceptionHandler
 {
-    private static $exception;
+    private static \Throwable $exception;
 
     /* If the MenuModel cause the exception we need to skip them. */
-    public static function skipMenus()
+    public static function skipMenus(): bool
     {
-        $skip_menus = false;
+        if (!isset(self::$exception)) {
+            return false;
+        }
+
         $e = self::$exception;
 
-        if (!is_null($e)) {
-            if (basename($e->getFile()) == 'MenuModel.php') {
-                $skip_menus = true;
-            } else {
-                foreach ($e->getTrace() as $t) {
-                    if (basename($t['file'] ?? '') == 'MenuModel.php') {
-                        $skip_menus = true;
-                        break;
-                    }
-                }
+        if (basename($e->getFile()) == 'MenuModel.php') {
+            return true;
+        }
+
+        foreach ($e->getTrace() as $t) {
+            if (basename($t['file'] ?? '') == 'MenuModel.php') {
+                return true;
             }
         }
 
-        return $skip_menus;
+        return false;
     }
 
     /* Handle exceptions. */
-    public static function handleException($e)
+    public static function handleException(\Throwable $e): void
     {
         self::$exception = $e;
 
         $ep = new SimplePage('exception');
-        return $ep->index($e);
+        $ep->index($e);
     }
 }

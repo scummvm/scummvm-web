@@ -7,7 +7,7 @@ use ScummVM\Models\LinksModel;
 class LinksPage extends Controller
 {
 
-    private $linksModel;
+    private LinksModel $linksModel;
 
     /* Constructor. */
     public function __construct()
@@ -18,10 +18,10 @@ class LinksPage extends Controller
     }
 
     /* Display the index page. */
-    public function index()
+    public function index(): void
     {
         $links = $this->linksModel->getAllGroupsAndLinks();
-        return $this->renderPage(
+        $this->renderPage(
             array(
                 'title' => $this->getConfigVars('linksTitle'),
                 // TODO: add a description

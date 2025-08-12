@@ -10,8 +10,12 @@ use Symfony\Component\Yaml\Yaml;
  */
 class LinksModel extends BasicModel
 {
-    /* Get all the groups and the respectively demos. */
-    public function getAllGroupsAndLinks()
+    /**
+     * Get all the groups and the respectively demos.
+     *
+     * @return array<array{'name': string, 'notes': string, 'links': array<WebLink>}>
+     */
+    public function getAllGroupsAndLinks(): array
     {
         $entries = $this->getFromCache();
         if (is_null($entries)) {

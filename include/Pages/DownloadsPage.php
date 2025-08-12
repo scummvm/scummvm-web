@@ -6,7 +6,7 @@ use ScummVM\Models\DownloadsModel;
 
 class DownloadsPage extends Controller
 {
-    private $downloadsModel;
+    private DownloadsModel $downloadsModel;
     /* Constructor. */
     public function __construct()
     {
@@ -16,14 +16,14 @@ class DownloadsPage extends Controller
     }
 
     /* Display the index page. */
-    public function index()
+    public function index(): void
     {
         $downloads = $this->downloadsModel->getAllDownloads();
         $recommendedDownload = $this->downloadsModel->getRecommendedDownload();
-        return $this->renderPage(
+        $this->renderPage(
             array(
                 'title' => $this->getConfigVars('downloadsTitle'),
-                'description' => \strip_tags($this->getConfigVars('downloadsContentP1')),
+                'description' => \strip_tags($this->getConfigVars('downloadsContentP1') ?? ''),
                 'content_title' => $this->getConfigVars('downloadsContentTitle'),
                 'downloads' => $downloads,
                 'recommendedDownload' => $recommendedDownload

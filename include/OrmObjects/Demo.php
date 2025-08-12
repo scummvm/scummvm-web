@@ -15,7 +15,7 @@ use ScummVM\OrmObjects\Base\Demo as BaseDemo;
  */
 class Demo extends BaseDemo
 {
-    public function getName()
+    public function getName(): string
     {
         $gameName = $this->getGame()->getName();
         $platformName = $this->getPlatform()->getName();
@@ -23,7 +23,7 @@ class Demo extends BaseDemo
         return "$gameName ($platformName $category Demo)";
     }
 
-    public function __toString()
+    public function __toString(): string
     {
         return $this->getName();
     }

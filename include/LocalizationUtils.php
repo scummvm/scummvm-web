@@ -1,4 +1,4 @@
-<?php
+<?php // phpcs:ignore PSR1.Files.SideEffects.FoundWithSymbols -- Script directly executed
 namespace ScummVM;
 
 require_once __DIR__ . '/../vendor/autoload.php';
@@ -9,11 +9,11 @@ use Erusev\Parsedown;
 
 class LocalizationUtils
 {
-    private static $purifier;
+    private static \HTMLPurifier $purifier;
 
     const NO_FILES = 'No Localization Files Found';
 
-    public static function localize()
+    public static function localize(): void
     {
         $config = \HTMLPurifier_Config::createDefault();
         self::$purifier = new \HTMLPurifier($config);
@@ -27,13 +27,16 @@ class LocalizationUtils
         }
     }
 
-    private static function convertLanguageJsonToSmartyIni($lang)
+    private static function convertLanguageJsonToSmartyIni(string $lang): void
     {
         $Parsedown = new \Parsedown();
         $Parsedown->setBreaksEnabled(true);
         $filename = JOIN(DIRECTORY_SEPARATOR, [DIR_DATA, $lang, "strings.json"]);
         echo("Converting {$filename} from JSON to INI\n");
         $jsonString = file_get_contents($filename);
+        if ($jsonString === false) {
+            throw new \Exception("Can't read file $filename");
+        }
         $json = json_decode($jsonString);
 
         $output = "";
@@ -46,7 +49,7 @@ class LocalizationUtils
         file_put_contents(join(DIRECTORY_SEPARATOR, [DIR_DATA, $lang, "strings.ini"]), $output);
     }
 
-    private static function updateNewsL10n($lang)
+    private static function updateNewsL10n(string $lang): void
     {
         $newsFile = join(DIRECTORY_SEPARATOR, [DIR_DATA, $lang, "news.json"]);
         // For non-english, create/overwrite JSON files from our l10n file
@@ -55,10 +58,19 @@ class LocalizationUtils
                 return;
             }
             echo("Converting " . $newsFile . " to individual Markdown files\n");
-            $l10n = json_decode(file_get_contents($newsFile));
+            $jsonString = file_get_contents($newsFile);
+            if ($jsonString === false) {
+                throw new \Exception("Can't read news JSON $newsFile");
+            }
+            $l10n = json_decode($jsonString);
 
             foreach ($l10n as $key => $translatedArticle) {
-                $englishArticle = YamlFrontMatter::parse(file_get_contents(join(DIRECTORY_SEPARATOR, [DIR_DATA, DEFAULT_LOCALE, 'news', "{$key}.markdown"])));
+                $newsFile = join(DIRECTORY_SEPARATOR, [DIR_DATA, DEFAULT_LOCALE, 'news', "{$key}.markdown"]);
+                $englishContents = file_get_contents($newsFile);
+                if ($englishContents === false) {
+                    throw new \Exception("Can't read news file $newsFile");
+                }
+                $englishArticle = YamlFrontMatter::parse($englishContents);
 
                 $date = self::$purifier->purify($englishArticle->date);
                 $author = self::$purifier->purify($englishArticle->author);
@@ -77,8 +89,10 @@ class LocalizationUtils
                 if ($lang === 'fr') {
                     $content = preg_replace_callback(
                         "/(?<=\(http)(.*?)(?=\))/u",
-                        function ($matches) {
-                            return preg_replace("/\x{202f}/u", "", $matches[1]);
+                        function (array $matches): string {
+                            $ret = preg_replace("/\x{202f}/u", "", $matches[1]);
+                            assert($ret !== null);
+                            return $ret;
                         },
                         $content
                     );
@@ -103,12 +117,19 @@ class LocalizationUtils
 
             file_put_contents(
                 $newsFile,
-                \str_replace('\r\n', '\n', json_encode($news, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES |  JSON_UNESCAPED_UNICODE) . "\n")
+                \str_replace(
+                    '\r\n',
+                    '\n',
+                    json_encode($news, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES |  JSON_UNESCAPED_UNICODE) . "\n"
+                )
             );
         }
     }
 
-    private static function getAllNews($lang)
+    /**
+     * @return array<string, array{'title': string, 'content': string}>
+     */
+    private static function getAllNews(string $lang): array
     {
         $dir = join(DIRECTORY_SEPARATOR, [DIR_DATA, $lang, 'news']);
 

@@ -1,4 +1,4 @@
-<?php
+<?php // phpcs:ignore PSR1.Files.SideEffects.FoundWithSymbols -- Script directly executed
 namespace ScummVM;
 
 /**
@@ -10,12 +10,12 @@ namespace ScummVM;
  * if the DEV_SERVER environment variable is set to 1
  */
 if (isset($_SERVER['SERVER_SOFTWARE']) &&
-    \preg_match("/PHP [\d\.]+ Development Server/",$_SERVER['SERVER_SOFTWARE'])) {
+    \preg_match("/PHP [\d\.]+ Development Server/", $_SERVER['SERVER_SOFTWARE'])) {
     if (\is_file(__DIR__ . '/' . strtok($_SERVER["REQUEST_URI"], '?'))) {
         return false;
     }
     define('DEV_SERVER', true);
-} else if (getenv('DEV_SERVER') === "1") {
+} elseif (getenv('DEV_SERVER') === "1") {
     define('DEV_SERVER', true);
 } else {
     define('DEV_SERVER', false);
@@ -30,11 +30,11 @@ require_once __DIR__ . '/../include/SiteUtils.php';
  * Multilingual support
  */
 global $lang, $available_languages;
-$languages = array_slice(scandir(DIR_DATA),2);
+$languages = array_slice(scandir(DIR_DATA), 2);
 $available_languages = [];
 foreach ($languages as $l) {
     if (!\is_dir(DIR_DATA . "/$l")) {
-      continue;
+        continue;
     }
     $available_languages[$l] = \locale_get_display_name($l, $l);
 }
@@ -53,30 +53,30 @@ $oldLangs = [
   "ru_RU" => "ru"
 ];
 if (!empty($_GET['lang'])) {
-  $lang = $_GET['lang'];
-  $uri = \preg_replace("/[?&]lang=$lang/i", "", $_SERVER['REQUEST_URI']);
-  if (array_key_exists($lang, $available_languages)) {
-    header("Location: " . "/$lang" . $uri);
-  } elseif (array_key_exists($lang, $oldLangs)) {
-    header("Location: /" . $oldLangs[$lang] . $uri);
-  }
+    $lang = $_GET['lang'];
+    $uri = \preg_replace("/[?&]lang=$lang/i", "", $_SERVER['REQUEST_URI']);
+    if (array_key_exists($lang, $available_languages)) {
+        header("Location: " . "/$lang" . $uri);
+    } elseif (array_key_exists($lang, $oldLangs)) {
+        header("Location: /" . $oldLangs[$lang] . $uri);
+    }
 } elseif (!empty($_COOKIE['lang'])) {
-  $lang = $_COOKIE['lang'];
-  $cookie_options = [
+    $lang = $_COOKIE['lang'];
+    $cookie_options = [
     'expires' => time()-86400,
     'path' => '/',
     'domain' => $_SERVER['HTTP_HOST'],
     'secure' => true,
     'samesite' => 'None'
-  ];
-  if (\strpos($_SERVER['REQUEST_URI'], "/$lang/") === false) {
-    if (array_key_exists($lang, $available_languages)) {
-      header("Location: " . "/$lang" . $_SERVER['REQUEST_URI']);
-    } elseif (array_key_exists($lang, $oldLangs)) {
-      header("Location: /" . $oldLangs[$lang] . $_SERVER['REQUEST_URI']);
+    ];
+    if (\strpos($_SERVER['REQUEST_URI'], "/$lang/") === false) {
+        if (array_key_exists($lang, $available_languages)) {
+            header("Location: " . "/$lang" . $_SERVER['REQUEST_URI']);
+        } elseif (array_key_exists($lang, $oldLangs)) {
+            header("Location: /" . $oldLangs[$lang] . $_SERVER['REQUEST_URI']);
+        }
     }
-  }
-  setcookie("lang", "", $cookie_options);
+    setcookie("lang", "", $cookie_options);
 }
 
 $langs = join("|", array_keys($available_languages));
@@ -102,7 +102,7 @@ if (!is_writeable(SMARTY_DIR_COMPILE)) {
 }
 
 /* Exception handling. */
-set_exception_handler(array('ScummVM\ExceptionHandler', 'handleException'));
+set_exception_handler(array('\ScummVM\ExceptionHandler', 'handleException'));
 
 /* Page mapping. */
 $pages = array(
@@ -146,19 +146,21 @@ foreach ($pages as $key => $value) {
 
 $match = $router->match(strtolower($_SERVER['REQUEST_URI']));
 
-if ($match) {
-    if ($match['target'] === '\ScummVM\Pages\SimplePage' || $match['target'] === '\ScummVM\Pages\StaticPage') {
-      $page = new $match['target']($match['name']);
-    } else if (strpos($match['target'],"http") === 0) {
-      header("Location: {$match['target']}");
-      return;
-    } else {
-      $page = new $match['target']();
-    }
-    return $page->index($match['params']);
-} else {
-  $page = new \ScummVM\Pages\NewsPage();
-  return $page->index(array());
+if ($match === false) {
+    $page = new \ScummVM\Pages\NewsPage();
+    $page->index(array());
+    return;
 }
 
+if ($match['target'] === '\ScummVM\Pages\SimplePage' || $match['target'] === '\ScummVM\Pages\StaticPage') {
+    assert($match['name'] !== null);
+    $page = new $match['target']($match['name']);
+} elseif (strpos($match['target'], "http") === 0) {
+    header("Location: {$match['target']}");
+    return;
+} else {
+    $page = new $match['target']();
+}
 
+assert(method_exists($page, 'index'));
+$page->index($match['params']);

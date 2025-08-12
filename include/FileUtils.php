@@ -8,13 +8,15 @@ use DateTime;
 */
 class FileUtils
 {
+    private const DOUBLE_EXTENSIONS = ['.bz2', '.gz', '.lz', '.xz', '.7z'];
+
     /**
     * Returns whether or not the file exists and is readable
     *
     * @param $path the path to the file that will be analyzed
     * @return bool whether or not the file exists
     */
-    public static function exists($path)
+    public static function exists(string $path): bool
     {
         $path = FileUtils::toAbsolutePathIfOnServer($path);
         return is_file($path) && is_readable($path);
@@ -26,7 +28,7 @@ class FileUtils
     * @param $path the path to the file that will be analyzed
     * @return string the file size in a human-readable form
     */
-    public static function getFileSize($path)
+    public static function getFileSize(string $path): string
     {
         $path = FileUtils::toAbsolutePathIfOnServer($path);
         // Get the file size, rounded to the nearest kilobyte
@@ -53,15 +55,20 @@ class FileUtils
     * @param $path the path to the file that will be analyzed
     * @return string the extension
     */
-    public static function getExtension($path)
+    public static function getExtension(string $path): string
     {
         $path = FileUtils::toAbsolutePathIfOnServer($path);
         // Get everything to the right of the last period
-        $extension = substr($path, (strrpos($path, '.')));
+        if (($pos = strrpos($path, '.')) !== false) {
+            $extension = substr($path, (strrpos($path, '.')));
+        } else {
+            $extension = '';
+        }
 
         // For certain extensions, check for another extension (e.g. foo.tar.gz => tar.gz)
-        if ($extension == '.bz2' || $extension == '.gz' || $extension == '.lz' || $extension == '.xz' || $extension == '.7z') {
-            $extension = substr($path, strrpos($path, '.', -(strlen($path) - strrpos($path, '.') + 1)));
+        if (in_array($extension, self::DOUBLE_EXTENSIONS) &&
+            ($pos = strrpos($path, '.', -(strlen($path) - $pos + 1))) !== false) {
+            $extension = substr($path, $pos);
         }
         return $extension;
     }
@@ -72,7 +79,7 @@ class FileUtils
     * @param $path the path to the file that will be analyzed
     * @return string the SHA-256 hash
     */
-    public static function getSha256($path)
+    public static function getSha256(string $path): string
     {
         $path = FileUtils::toAbsolutePathIfOnServer($path);
         // Check if we already have a generated hash file
@@ -80,13 +87,18 @@ class FileUtils
             && (@filemtime($path . '.sha256') > @filemtime($path))
         ) {
             // Read the file and return the included hash
-            return file_get_contents($path . '.sha256');
-        } else {
-            // Generate a SHA-256 hash, save it to a file for later, then return the hash
-            $hash = hash_file('sha256', $path);
-            file_put_contents($path . '.sha256', $hash);
-            return $hash;
+            $contents = file_get_contents($path . '.sha256');
+            if ($contents !== false) {
+                return $contents;
+            }
         }
+        // Generate a SHA-256 hash, save it to a file for later, then return the hash
+        $hash = hash_file('sha256', $path);
+        if ($hash === false) {
+            return '';
+        }
+        file_put_contents($path . '.sha256', $hash);
+        return $hash;
     }
 
     /**
@@ -95,11 +107,15 @@ class FileUtils
     * @param $path the path to the file that will be analyzed
     * @return string the date
     */
-    public static function getLastModified($path)
+    public static function getLastModified(string $path): string
     {
         $path = FileUtils::toAbsolutePathIfOnServer($path);
+        $mtime = @filemtime($path);
+        if ($mtime === false) {
+            return '';
+        }
         $date = new DateTime();
-        return $date->setTimestamp(@filemtime($path))->format("Y-m-d");
+        return $date->setTimestamp($mtime)->format("Y-m-d");
     }
 
     /**
@@ -114,7 +130,7 @@ class FileUtils
     * @param $path the relative path to the file that will be analyzed
     * @return string the path of the file, either relative or absolute
     */
-    private static function toAbsolutePathIfOnServer($relativePath)
+    private static function toAbsolutePathIfOnServer(string $relativePath): string
     {
         return is_file(DIR_SERVER_ROOT . '/'. $relativePath) ? DIR_SERVER_ROOT . '/'. $relativePath : $relativePath;
     }

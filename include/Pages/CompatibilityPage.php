@@ -12,10 +12,16 @@ use ScummVM\OrmObjects\VersionQuery;
  */
 class CompatibilityPage extends Controller
 {
-    private $supportLevel;
-    private $supportLevelDescriptions;
-    private $supportLevelClass;
-    private $compatibilityModel;
+    // Would be useful for PHPStan
+    //private const LEVELS = ['untested', 'broken', 'bugged', 'good', 'excellent'];
+
+    /** @var array<value-of<self::LEVELS>, ?string> */
+    private array $supportLevel;
+    /** @var array<value-of<self::LEVELS>, ?string> */
+    private array $supportLevelDescriptions;
+    /** @var array<value-of<self::LEVELS>, ?string> */
+    private array $supportLevelClass;
+    private CompatibilityModel $compatibilityModel;
 
     /* Constructor. */
     public function __construct()
@@ -49,8 +55,12 @@ class CompatibilityPage extends Controller
         $this->compatibilityModel = new CompatibilityModel();
     }
 
-    /* Display the index page. */
-    public function index($args)
+    /**
+     * Display the index page.
+     *
+     * @param array{'version'?: string, 'game'?: string} $args
+     */
+    public function index($args): void
     {
         $version = $args['version'] ?? null;
         $target = $args['game'] ?? null;
@@ -63,19 +73,19 @@ class CompatibilityPage extends Controller
             ->find()->toArray();
 
         /* Default to DEV */
-        if (!in_array($version, $versions)) {
+        if (empty($version) || !in_array($version, $versions)) {
             $version = 'DEV';
         }
 
         if (!empty($target)) {
-            return $this->getGame($target, $version);
+            $this->getGame($target, $version);
         } else {
-            return $this->getAll($version, $versions);
+            $this->getAll($version, $versions);
         }
     }
 
     /* We should show detailed information for a specific target. */
-    public function getGame($target, $version)
+    public function getGame(string $target, string $version): void
     {
         $game = $this->compatibilityModel->getGameData($version, $target);
         // Redirect to main compatibility page if the requested game doesn't exist
@@ -87,15 +97,15 @@ class CompatibilityPage extends Controller
 
         $this->template = 'components/compatibility_details.tpl';
 
-        return $this->renderPage(
+        $this->renderPage(
             array(
-                'title' => preg_replace('/{version}/', $version, $this->getConfigVars('compatibilityTitle')),
+                'title' => preg_replace('/{version}/', $version, $this->getConfigVars('compatibilityTitle') ?? ''),
                 'subtitle' => $game->getGame()->getName(),
                 'description' => $this->supportLevelDescriptions[$game->getSupport()],
                 'content_title' => preg_replace(
                     '/{version}/',
                     $version,
-                    $this->getConfigVars('compatibilityContentTitle')
+                    $this->getConfigVars('compatibilityContentTitle') ?? ''
                 ),
                 'version' => $version,
                 'game' => $game,
@@ -107,7 +117,10 @@ class CompatibilityPage extends Controller
     }
 
     /* We should show all the compatibility stats for a specific version. */
-    public function getAll($version, $versions)
+    /**
+     * @param string[] $versions
+     */
+    public function getAll(string $version, array $versions): void
     {
 
         $compat_data = $this->compatibilityModel->getAllDataGroups($version);
@@ -115,14 +128,14 @@ class CompatibilityPage extends Controller
         $last_updated = $this->compatibilityModel->getLastUpdated();
         $this->template = 'pages/compatibility.tpl';
 
-        return $this->renderPage(
+        $this->renderPage(
             [
-                'title' => preg_replace('/{version}/', $version, $this->getConfigVars('compatibilityTitle')),
+                'title' => preg_replace('/{version}/', $version, $this->getConfigVars('compatibilityTitle') ?? ''),
                 'description' => $this->getConfigVars('compatibilityIntro'),
                 'content_title' => preg_replace(
                     '/{version}/',
                     $version,
-                    $this->getConfigVars('compatibilityContentTitle')
+                    $this->getConfigVars('compatibilityContentTitle') ?? ''
                 ),
                 'version' => $version,
                 'compat_data' => $compat_data,

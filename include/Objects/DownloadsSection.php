@@ -1,6 +1,9 @@
 <?php
 namespace ScummVM\Objects;
 
+use ScummVM\OrmObjects\Download;
+use ScummVM\OrmObjects\GameDownload;
+
 use Propel\Runtime\Map\TableMap;
 
 /**
@@ -8,31 +11,44 @@ use Propel\Runtime\Map\TableMap;
  */
 class DownloadsSection extends BasicSection
 {
-    private $notes;
-    private $items;
+    private string $notes;
+    /** @var array<WebLink|File> */
+    private array $items;
 
     /**
-     * __construct
-     *
-     * @param  mixed $data [id, notes, anchor, title]
-     * @return void
+     * @param array{'title': string, 'anchor': string, 'subsection'?: array<mixed>, 'notes': string} $data
      */
-    public function __construct($data)
+    public function __construct(array $data)
     {
         parent::__construct($data);
         $this->notes = $data['notes'];
         $this->items = [];
     }
 
-    public function addItem($item)
+    /**
+     * @param Download|GameDownload $item
+     */
+    public function addItem(object $item): void
     {
         if ($item->getCategoryIcon()) {
+            /** @phpstan-ignore argument.type */
             $this->items[] = new File($item->toArray(TableMap::TYPE_FIELDNAME));
             // If this item is for an old version, sort all items by version, descending, then by autoId
-            if ($this->hasOldVersion($item)) {
+            if (self::hasOldVersion($item)) {
                 usort($this->items, function ($a, $b) {
+                    $aFile = $a instanceof File;
+                    $bFile = $b instanceof File;
+
+                    if (!$aFile && !$bFile) {
+                        return strcmp($a->getURL(), $b->getURL());
+                    } elseif (!$aFile) {
+                        return 1;
+                    } elseif (!$bFile) {
+                        return -1;
+                    }
+
                     // Return 0 if equal, -1 if $a->getVersion() is larger, 1 if $b->getVersion() is larger
-                    $versionSortResult = -version_compare($a->getVersion(), $b->getVersion());
+                    $versionSortResult = -version_compare($a->getVersion() ?? '', $b->getVersion() ?? '');
                     if ($versionSortResult == 0) {
                         // Return 0 if equal, -1 if $a->getAutoId() is smaller, 1 if $b->getAutoId() is smaller
                         return $a->getAutoId() <=> $b->getAutoId();
@@ -42,28 +58,41 @@ class DownloadsSection extends BasicSection
                 });
             }
         } else {
+            /** @phpstan-ignore argument.type */
             $this->items[] = new WebLink($item->toArray(TableMap::TYPE_FIELDNAME));
         }
     }
 
-    /* Get the optional notes. */
-    public function getNotes()
+    /**
+     * Get the optional notes.
+     */
+    public function getNotes(): ?string
     {
         return $this->notes;
     }
 
-    /* Get the list of items. */
-    public function getItems()
+    /**
+     * Get the list of items.
+     *
+     * @return array<WebLink|File>
+     */
+    public function getItems(): array
     {
         return $this->items;
     }
 
-    public function addSubsection($section)
+    /**
+     * @param static $section
+     */
+    public function addSubsection(DownloadsSection $section): void
     {
         $this->subsections[$section->getAnchor()] = $section;
     }
 
-    private function hasOldVersion($item)
+    /**
+     * @param Download|GameDownload $item
+     */
+    private static function hasOldVersion(object $item): bool
     {
         return method_exists($item, 'getVersion') && $item->getVersion() !== RELEASE && $item->getVersion() !== 'Daily';
     }

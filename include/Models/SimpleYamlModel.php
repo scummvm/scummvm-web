@@ -9,20 +9,23 @@ use Symfony\Component\Yaml\Yaml;
  */
 class SimpleYamlModel extends BasicModel
 {
-    private $filename;
-    private $type;
+    private string $filename;
+    private string $type;
 
     const FILE_NOT_FOUND = 'The filename %s could not be found';
     const YAML_PARSE_FAILED = 'Unable to parse the contents of the file %s';
 
-    public function __construct($type, $filename)
+    public function __construct(string $type, string $filename)
     {
         parent::__construct();
         $this->filename = $this->getLocalizedFile($filename);
         $this->type = "ScummVM\Objects\\$type";
     }
 
-    public function getAllData($assignIdsToArray = true)
+    /**
+     * @return array<string|int, mixed>
+     */
+    public function getAllData(bool $assignIdsToArray = true) : array
     {
         $objects = $this->getFromCache();
         if (is_null($objects)) {

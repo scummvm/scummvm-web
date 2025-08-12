@@ -7,13 +7,16 @@ namespace ScummVM\Objects;
  */
 class Article extends BasicObject
 {
-    private $url;
-    private $language;
-    private $source;
-    private $date;
+    private ?string $url;
+    private ?string $language;
+    private ?string $source;
+    private ?string $date;
 
-    /* Article object constructor. */
-    public function __construct($data)
+    /**
+     * Article object constructor.
+     * @param array{'url'?: string, 'language'?: string, 'source'?: string, 'date'?: string} $data
+     */
+    public function __construct(array $data)
     {
         parent::__construct($data);
         $this->url = $data['url'] ?? null;
@@ -23,25 +26,25 @@ class Article extends BasicObject
     }
 
     /* Get the URL. */
-    public function getURL()
+    public function getURL(): ?string
     {
         return $this->url;
     }
 
     /* Get the language. */
-    public function getLanguage()
+    public function getLanguage(): ?string
     {
         return $this->language;
     }
 
     /* Get the source that published it. */
-    public function getSource()
+    public function getSource(): ?string
     {
         return $this->source;
     }
 
     /* Get the date it was posted. */
-    public function getDate()
+    public function getDate(): ?string
     {
         return $this->date;
     }

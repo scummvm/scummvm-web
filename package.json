@@ -9,6 +9,7 @@
   },
   "scripts": {
     "postinstall": "(cd dumper-companion && npm ci --omit=dev && npm run build) && node build.js",
-    "scss:watch": "sass --watch ./scss:./public_html/css"
+    "scss:watch": "sass --watch ./scss:./public_html/css",
+    "lint": "(cd dumper-companion && npm ci && npm run lint)"
   }
 }

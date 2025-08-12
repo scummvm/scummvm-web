@@ -2,15 +2,18 @@
 namespace ScummVM\Objects;
 
 /**
- * The article class represents a link on the website to an article covering
+ * The sponsor class represents a link on the website to a sponsor and its logo and supporting
  * ScummVM in some way.
  */
 class Sponsor extends BasicObject
 {
-    private $link;
-    private $image;
+    private string $link;
+    private string $image;
 
-    /* Article object constructor. */
+    /**
+     * Sponsor object constructor.
+     * @param array{'description'?: string, 'name'?: string, 'link': string, 'image': string} $data
+     */
     public function __construct($data)
     {
         parent::__construct($data);
@@ -19,13 +22,13 @@ class Sponsor extends BasicObject
     }
 
     /* Get the sponsor link. */
-    public function getLink()
+    public function getLink(): string
     {
         return $this->link;
     }
 
     /* Get the sponsor image */
-    public function getImage()
+    public function getImage(): string
     {
         return $this->image;
     }

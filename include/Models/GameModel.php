@@ -1,6 +1,7 @@
 <?php
 namespace ScummVM\Models;
 
+use ScummVM\OrmObjects\Game;
 use ScummVM\OrmObjects\GameQuery;
 
 /**
@@ -8,8 +9,12 @@ use ScummVM\OrmObjects\GameQuery;
  */
 class GameModel extends BasicModel
 {
-    /* Get all Games from YAML */
-    public function getAllGames()
+    /**
+     * Get all Games from YAML
+     *
+     * @return Game[]
+     */
+    public function getAllGames(): array
     {
         $data = $this->getFromCache();
         if (is_null($data)) {

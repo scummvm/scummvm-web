@@ -8,25 +8,29 @@ use ScummVM\FileUtils;
  */
 class File extends BasicObject
 {
-    private $autoId;
-    private $category;
-    private $category_icon;
-    private $url;
-    private $extra_info;
-    private $notes;
-    //private $subcategory;
-    private $user_agent;
-    private $version;
+    private ?int $autoId;
+    private string $category;
+    private string $category_icon;
+    private string $url;
+    /** @var array{'size': string, 'sha256': string, 'ext': string, 'date': string}|array{} */
+    private array $extra_info;
+    private string $notes;
+    private string $user_agent;
+    private ?string $version;
 
+    /**
+     * @param array{'description'?: string, 'name'?: string, 'auto_id'?: int, 'category': string,
+     *      'category_icon': string, 'notes'?: string, 'user_agent'?: string, 'version'?: string,
+     *      'url': string|array{0: string, '@attributes': array<mixed>}} $data
+     */
     public function __construct($data)
     {
         parent::__construct($data);
         $this->autoId = $data['auto_id'] ?? null;
         $this->category = $data['category'];
         $this->category_icon = $data['category_icon'];
-        $this->notes = isset($data['notes']) ? $data['notes'] : '';
-        //$this->subcategory = $data['subcategory'] ?? null;
-        $this->user_agent = isset($data["user_agent"]) ? $data["user_agent"] : "";
+        $this->notes = $data['notes'] ?? '';
+        $this->user_agent = $data['user_agent'] ?? '';
         $this->version = isset($data['version']) ? strtolower($data['version']) : null;
 
         /* If it's not an array, we didn't get any attributes. */
@@ -56,40 +60,46 @@ class File extends BasicObject
             $fname = str_replace('{$version}', "$this->version", $fname);
 
             if (FileUtils::exists($fname)) {
-                $this->extra_info['size'] = FileUtils::getFileSize($fname);
-                $this->extra_info['sha256'] = FileUtils::getSha256($fname);
-                $this->extra_info['ext'] = FileUtils::getExtension($fname);
-                $this->extra_info['date'] = FileUtils::getLastModified($fname);
+                $extra_info = [];
+                $extra_info['size'] = FileUtils::getFileSize($fname);
+                $extra_info['sha256'] = FileUtils::getSha256($fname);
+                $extra_info['ext'] = FileUtils::getExtension($fname);
+                $extra_info['date'] = FileUtils::getLastModified($fname);
+                $this->extra_info = $extra_info;
             }
             $this->url = $fname;
         }
     }
 
     /* Get the category icon. */
-    public function getCategoryIcon()
+    public function getCategoryIcon(): string
     {
         return $this->category_icon;
     }
 
     /* Get the URL. */
-    public function getURL()
+    public function getURL(): string
     {
         return $this->url;
     }
 
-    /* Get the extra information. */
-    public function getExtraInfo()
+    /**
+     * Get the extra information.
+     *
+     * @return array{'size': string, 'sha256': string, 'ext': string, 'date': string}|array{}
+     */
+    public function getExtraInfo(): array
     {
         return $this->extra_info;
     }
 
-    public function getNotes()
+    public function getNotes(): string
     {
         return $this->notes;
     }
 
     /* Get the user-agent. */
-    public function getUserAgent()
+    public function getUserAgent(): string
     {
         return $this->user_agent;
     }

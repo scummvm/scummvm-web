@@ -1,0 +1,36 @@
+name: Web CI
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  build:
+    name: Check
+    runs-on: ubuntu-latest
+    steps:
+    - name: Install glue
+      # Patch Glue to let it run on modern OS
+      run: |
+        sudo apt install -y glue-sprite && \
+        sudo ln -s glue-sprite /usr/bin/glue && \
+        sudo sed -i -e 's/PILImage\.ANTIALIAS/PILImage.LANCZOS/' /usr/lib/python3/dist-packages/glue/formats/img.py && \
+        sudo sed -i -e 's/re\.compile(/re.compile(r/' /usr/lib/python3/dist-packages/glue/core.py && \
+        sudo sed -i -e 's/PImage\.VERSION/PImage.__version__/' /usr/lib/python3/dist-packages/glue/bin.py
+    - uses: actions/checkout@v4
+    - name: Validate composer.json and composer.lock
+      run: composer validate --strict
+    - name: Setup
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Cache Composer packages
+      id: packages-cache
+      uses: actions/cache@v4
+      with:
+        path: "vendor\nnode_modules\ndumper-companion/node_modules"
+        key: ${{ runner.os }}-phpjs-${{ hashFiles('**/composer.lock', '**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-phpjs-
+    - name: Install dependencies
+      run: composer install --prefer-dist --no-progress
+    - name: Run CI checks
+      run: composer run-script ci

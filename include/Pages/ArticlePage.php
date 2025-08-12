@@ -2,6 +2,7 @@
 namespace ScummVM\Pages;
 
 use ScummVM\Controller;
+use Spatie\YamlFrontMatter\Document;
 use Spatie\YamlFrontMatter\YamlFrontMatter;
 use Erusev\Parsedown;
 
@@ -17,7 +18,7 @@ class ArticlePage extends Controller
         $this->template = 'pages/article.tpl';
     }
 
-    private function getArticle($filename)
+    private function getArticle(string $filename): Document
     {
         global $lang;
         if (!$lang) {
@@ -33,13 +34,21 @@ class ArticlePage extends Controller
             throw new \ErrorException(\sprintf(self::FILE_NOT_FOUND, $filename));
         }
 
-        return YamlFrontMatter::parse(file_get_contents($fname));
+        $article = @file_get_contents($fname);
+        if ($article === false) {
+            throw new \ErrorException(\sprintf(self::FILE_NOT_FOUND, $filename));
+        }
+        return YamlFrontMatter::parse($article);
     }
 
-    /* Display the index page. */
-    public function index($params)
+    /**
+     *  Display the index page.
+     *
+     *  @param array{'article'?: string} $params
+     */
+    public function index(array $params): void
     {
-        if (!$params['article']) {
+        if (empty($params['article'])) {
             throw new \ErrorException(self::ARTICLE_NAME_MISSING);
         }
         $filename = $params['article'] . '.markdown';
@@ -55,7 +64,7 @@ class ArticlePage extends Controller
         $author = $purifier->purify($article->author);
         $content = $purifier->purify($Parsedown->text($article->body()));
 
-        return $this->renderPage([
+        $this->renderPage([
                 'title' => $title,
                 'description' => htmlentities($this->getHeadline($content)),
                 'content_title' => $title,

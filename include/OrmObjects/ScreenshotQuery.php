@@ -21,24 +21,25 @@ use ScummVM\OrmObjects\Map\ScreenshotTableMap;
  */
 class ScreenshotQuery extends BaseScreenshotQuery
 {
-    public function findRandom(ConnectionInterface $con = null)
+    public function findRandom(ConnectionInterface $con = null): ChildScreenshot
     {
         if ($con === null) {
             $con = Propel::getServiceContainer()->getReadConnection(ScreenshotTableMap::DATABASE_NAME);
         }
 
-        $sql = 'SELECT id, variant, platform_id, language, variant_id, auto_id FROM screenshot ORDER BY RANDOM() LIMIT 1';
+        $sql = "SELECT id, variant, platform_id, language, variant_id, auto_id
+                FROM screenshot ORDER BY RANDOM() LIMIT 1";
         try {
             $stmt = $con->prepare($sql);
+            \assert($stmt !== false);
             $stmt->execute();
         } catch (\Exception $e) {
             Propel::log($e->getMessage(), Propel::LOG_ERR);
             throw new PropelException(sprintf('Unable to execute SELECT statement [%s]', $sql), 0, $e);
         }
-        $obj = null;
+        $obj = new ChildScreenshot();
         if ($row = $stmt->fetch(\PDO::FETCH_NUM)) {
             /** @var ChildScreenshot $obj */
-            $obj = new ChildScreenshot();
             $obj->hydrate($row);
             ScreenshotTableMap::addInstanceToPool($obj, null);
         }
@@ -47,7 +48,11 @@ class ScreenshotQuery extends BaseScreenshotQuery
         return $obj;
     }
 
-    public function findCategories(ConnectionInterface $con = null)
+    /**
+     * @return array<array{'category_key': string, 'category_name': string, 'subcategory_key': string,
+     *          'subcategory_name': string}>
+     */
+    public function findCategories(ConnectionInterface $con = null): array
     {
         if ($con === null) {
             $con = Propel::getServiceContainer()->getReadConnection(ScreenshotTableMap::DATABASE_NAME);
@@ -87,6 +92,7 @@ class ScreenshotQuery extends BaseScreenshotQuery
                          subcategory_name";
         try {
             $stmt = $con->prepare($sql);
+            \assert($stmt !== false);
             $stmt->execute();
         } catch (\Exception $e) {
             Propel::log($e->getMessage(), Propel::LOG_ERR);
@@ -98,9 +104,10 @@ class ScreenshotQuery extends BaseScreenshotQuery
         return $obj;
     }
 
-    public function filterByCompanyId($companyId, ConnectionInterface $con = null)
+    public function filterByCompanyId(string $companyId, ConnectionInterface $con = null): self
     {
         if ($companyId !== 'other') {
+            /** @phpstan-ignore return.type */
             return $this->useGameQuery()
                 ->filterByCompanyId($companyId)
                 ->endUse();

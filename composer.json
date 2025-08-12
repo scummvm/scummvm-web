@@ -8,6 +8,7 @@
       "email": "mataniko@scummvm.org"
     }
   ],
+  "license": "GPL-3.0-or-later",
   "require": {
     "php": ">=8.2.0",
     "ext-intl": "*",
@@ -48,6 +49,13 @@
       "@build-common",
       "npm install"
     ],
+    "ci": [
+      "composer install",
+      "@build-common",
+      "@lint",
+      "npm ci",
+      "npm run lint"
+    ],
     "start": [
       "Composer\\Config::disableProcessTimeout",
       "php -S localhost:8000 -t ./public_html ./public_html/index.php"
@@ -57,7 +65,8 @@
       "@start"
     ],
     "lint": [
-      "phpcbf --standard=psr2 --ignore=./include/OrmObjects/Base,./include/OrmObjects/Map ./include",
+      "phpcbf --standard=psr2 --ignore=./include/OrmObjects/Base,./include/OrmObjects/Map ./include ./stubs public_html/index.php",
+      "phpcs  --standard=psr2 --ignore=./include/OrmObjects/Base,./include/OrmObjects/Map ./include ./stubs public_html/index.php",
       "phpstan"
     ],
     "update-data": [

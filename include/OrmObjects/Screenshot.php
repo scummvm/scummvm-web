@@ -15,13 +15,29 @@ use ScummVM\OrmObjects\Base\Screenshot as BaseScreenshot;
  */
 class Screenshot extends BaseScreenshot
 {
-    private $files;
+    /**
+     * @var array<array{'filename': string, 'caption': string, 'url': string}>
+     */
+    private array $files;
 
-    public function getFiles()
+    /**
+     * @return array<array{'filename': string, 'caption': string, 'url': string}>
+     */
+    public function getFiles(): array
     {
-        if (!$this->files) {
+        if (!isset($this->files)) {
+            $this->files = [];
+
+            if ($this->isNew()) {
+                 return $this->files;
+            }
+
             $gameId = str_replace(':', '/', $this->getGame()->getId());
-            foreach (glob(DIR_STATIC . DIR_SCREENSHOTS . '/' . $gameId . '/' . $this->getFileMask()) as $file) {
+            $screenshots = glob(DIR_STATIC . DIR_SCREENSHOTS . '/' . $gameId . '/' . $this->getFileMask());
+            if ($screenshots === false) {
+                $screenshots = array();
+            }
+            foreach ($screenshots as $file) {
                 // Remove the base folder
                 $name = str_replace(DIR_STATIC . DIR_SCREENSHOTS . '/', '', $file);
                 // Remove the suffix, eg. "_full.png"
@@ -36,16 +52,19 @@ class Screenshot extends BaseScreenshot
         return $this->files;
     }
 
-    public function addFiles($files)
+    /**
+     * @param array<array{'filename': string, 'caption': string, 'url': string}> $files
+     */
+    public function addFiles(array $files): void
     {
-        if (is_array($this->files)) {
+        if (isset($this->files)) {
             $this->files = array_merge($this->files, $files);
         } else {
             $this->files = $files;
         }
     }
 
-    public function getCategory()
+    public function getCategory(): string
     {
         $series = $this->getGame()->getSeries();
         if ($series) {
@@ -56,7 +75,7 @@ class Screenshot extends BaseScreenshot
         }
     }
 
-    public function getName()
+    public function getName(): string
     {
         $series = $this->getGame()->getSeries();
         if ($series) {
@@ -66,7 +85,7 @@ class Screenshot extends BaseScreenshot
         }
     }
 
-    public function getCaption()
+    public function getCaption(): string
     {
         $name = $this->getGame()->getName();
         $extras = [];
@@ -89,7 +108,7 @@ class Screenshot extends BaseScreenshot
         return htmlspecialchars($name);
     }
 
-    public function getFileMask()
+    public function getFileMask(): string
     {
         // Remove engine prefix
         $game_short_id = substr($this->getGame()->getId(), strpos($this->getGame()->getId(), ':') + 1);
@@ -105,7 +124,7 @@ class Screenshot extends BaseScreenshot
         return $mask;
     }
 
-    public function __toString()
+    public function __toString(): string
     {
         return $this->getCaption();
     }

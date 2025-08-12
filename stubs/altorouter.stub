@@ -1,0 +1,12 @@
+<?php
+
+class AltoRouter
+{
+
+    /**
+     * @param string $requestUrl
+     * @param string $requestMethod
+     * @return array{'target': mixed, 'params': string[], 'name': ?string}|false
+     */
+    public function match(?string $requestUrl = null, ?string $requestMethod = null);
+}
