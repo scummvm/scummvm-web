@@ -1885,6 +1885,10 @@
       name: "WAGE"
       person:
       -
+        name: "Alikhan Balpykov"
+        alias: "Alikhan"
+        description: ""
+      -
         name: "Eugene Sandulenko"
         alias: "sev"
         description: ""
@@ -1933,6 +1937,10 @@
         name: "Anton Yarcev"
         alias: "Zidane"
         description: ""
+      -
+        name: "Thomas N McEwan"
+        alias: "tnm23"
+        description: "Widescreen mod, HQ panoramas, 3D audio enhancement"
   -
     title: "Backend Teams"
     anchor: "backend_teams"
