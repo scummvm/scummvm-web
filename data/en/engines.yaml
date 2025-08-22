@@ -538,7 +538,7 @@
     id: wage
     name: WAGE
     alt_name: 'World Builder'
-    enabled: false
+    enabled: true
 -
     id: watchmaker
     name: 'The Watchmaker'
