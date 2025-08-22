@@ -13664,6 +13664,20 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'wage:grailquest'
+    name: 'GrailQuest: Adventure in the Age of King Arthur'
+    engine_id: wage
+    company_id: unknown
+    year: '1988'
+    moby_id: '-1'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'wage:raysmaze'
     name: "Ray's Maze"
     engine_id: wage

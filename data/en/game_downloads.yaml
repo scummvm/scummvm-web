@@ -518,6 +518,13 @@
     name: 'SLUDGE engine game. Version v6'
     notes: ''
 -
+    category: games
+    game_id: 'wage:wage'
+    category_icon: wage
+    url: WAGE/wage-games-master-1.0.zip
+    name: 'WAGE games master collection v1.0'
+    notes: ''
+-
     category: addons
     game_id: 'bladerunner:bladerunner'
     category_icon: bladerunner
