@@ -593,16 +593,16 @@
         },
         {
             "name": "matomo/device-detector",
-            "version": "6.4.6",
+            "version": "6.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matomo-org/device-detector.git",
-                "reference": "6f07f615199851548db47a900815d2ea2cdcde08"
+                "reference": "e53eed31bb1530851feebe52bd64c3451da19e77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matomo-org/device-detector/zipball/6f07f615199851548db47a900815d2ea2cdcde08",
-                "reference": "6f07f615199851548db47a900815d2ea2cdcde08",
+                "url": "https://api.github.com/repos/matomo-org/device-detector/zipball/e53eed31bb1530851feebe52bd64c3451da19e77",
+                "reference": "e53eed31bb1530851feebe52bd64c3451da19e77",
                 "shasum": ""
             },
             "require": {
@@ -659,7 +659,7 @@
                 "source": "https://github.com/matomo-org/matomo",
                 "wiki": "https://dev.matomo.org/"
             },
-            "time": "2025-06-10T10:00:59+00:00"
+            "time": "2025-08-20T17:20:16+00:00"
         },
         {
             "name": "mustangostang/spyc",
