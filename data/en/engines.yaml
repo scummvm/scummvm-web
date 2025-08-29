@@ -213,7 +213,7 @@
     id: hpl1
     name: 'HPL 1'
     alt_name: ''
-    enabled: false
+    enabled: true
 -
     id: hugo
     name: Hugo

@@ -5452,3 +5452,10 @@
     since_version: DEV
     stable_platforms: mac
     unstable_platforms: ''
+-
+    id: 'hpl1:penumbra'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''

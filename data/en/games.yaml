@@ -8792,6 +8792,20 @@
     wikipedia_page: Hopkins_FBI
     series_id: ''
 -
+    id: 'hpl1:penumbra'
+    name: 'Penumbra: Overture'
+    engine_id: hpl1
+    company_id: fictionalgames
+    year: '2007'
+    moby_id: '27347'
+    steam_id: '22180'
+    gog_id: the_penumbra_collection
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: 'Penumbra:_Overture'
+    wikipedia_page: 'Penumbra:_Overture'
+    series_id: penumbra
+-
     id: 'hugo:hugo1'
     name: "Hugo's House of Horrors"
     engine_id: hugo

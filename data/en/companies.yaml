@@ -616,6 +616,10 @@
     name: 'Flashpoint Productions'
     alt_name: ''
 -
+    id: fictionalgames
+    name: 'Fictional Games AB'
+    alt_name: ''
+-
     id: flippingtree
     name: FlippingTree
     alt_name: ''
