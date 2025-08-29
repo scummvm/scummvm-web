@@ -1338,6 +1338,12 @@
     language: en
     variant_id: '1'
 -
+    id: 'hpl1:penumbra'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'hugo:hugo1'
     variant: ''
     platform_id: dos
