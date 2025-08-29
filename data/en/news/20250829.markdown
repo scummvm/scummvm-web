@@ -1,0 +1,15 @@
+—
+title: Prepare to Descend Deep Into the Mine to Uncover Its Dark Secrets
+author: grisenti
+date: 1756499203
+—
+
+The ScummVM team is happy to announce full support for the first-person survival adventure _Penumbra: Overture_!
+
+Step into the boots of Philip, who is drawn to Greenland in search of answers after receiving a letter from his long-lost father. Once there, you find yourself trapped inside an abandoned mine… with no way out but deeper in.
+
+The game is fully 3D and presented in a first-person perspective, featuring elements of stealth and physics-based puzzle-solving.
+
+If you own a copy of the game and want to help test this release, download a [daily build](https://scummvm.org/downloads/#daily) and be sure to read our [testing guidelines](https://wiki.scummvm.org/index.php/Release_Testing#Testing_Guidelines).
+
+Don’t forget your torch. You’re going to need it.
