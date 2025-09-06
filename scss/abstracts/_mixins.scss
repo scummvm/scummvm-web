@@ -4,16 +4,16 @@
 @use "sass:string";
 
 // These must be configured
-$-breakpoints: null !default;
-$-default-theme: null !default;
-$-themes: null !default;
+$breakpoints: null !default;
+$default-theme: null !default;
+$themes: null !default;
 
 /// Responsive breakpoint manager
 /// @access public
 /// @param {String} $breakpoint - Breakpoint
 /// @requires $breakpoints
 @mixin respond-to($breakpoint) {
-  $raw-query: map.get($-breakpoints, $breakpoint);
+  $raw-query: map.get($breakpoints, $breakpoint);
 
   @if $raw-query {
     $query: if(meta.type-of($raw-query) == "string", string.unquote($raw-query), meta.inspect($raw-query));
@@ -72,11 +72,11 @@ $-themes: null !default;
  * Based on https://medium.com/@dmitriy.borodiy/easy-color-theming-with-scss-bc38fd5734d1
  */
 @mixin themify() {
-  @each $theme, $map in $-themes {
+  @each $theme, $map in $themes {
     .theme-#{$theme} & {
       $theme-map: () !global;
       @each $key, $submap in $map {
-        $value: map.get($-themes, $theme, "#{$key}");
+        $value: map.get($themes, $theme, "#{$key}");
         @if $theme-map {
           $theme-map: map.merge(
             $theme-map,
@@ -95,7 +95,7 @@ $-themes: null !default;
 @function themed($key) {
   $value: map.get($theme-map, $key);
   @if (not $value) {
-    @return map.get($-themes, $-default-theme, $key);
+    @return map.get($themes, $default-theme, $key);
   }
   @return $value;
 }

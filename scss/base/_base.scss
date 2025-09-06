@@ -8,9 +8,9 @@
 @use "theme/themes";
 
 @use "abstracts/mixins" with (
-  $-breakpoints: variables.$breakpoints,
-  $-themes: themes.$themes,
-  $-default-theme: "scumm",
+  $breakpoints: variables.$breakpoints,
+  $themes: themes.$themes,
+  $default-theme: "scumm",
 );
 
 /* General layout rules */
