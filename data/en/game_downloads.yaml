@@ -183,6 +183,13 @@
     notes: ''
 -
     category: games
+    game_id: 'got:got'
+    category_icon: got
+    url: 'God of Thunder/gotfree.zip'
+    name: 'Freeware Version'
+    notes: ''
+-
+    category: games
     game_id: 'griffon:griffon'
     category_icon: griffon
     url: 'Griffon Legend/griffon-1.0.zip'
