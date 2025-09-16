@@ -6258,6 +6258,34 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'bagel:hodjnpodj'
+    name: "Hodj 'n' Podj"
+    engine_id: bagel
+    company_id: boffo
+    year: '1995'
+    moby_id: '268'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: Hodj_%27n%27_Podj
+    wikipedia_page: Hodj_%27n%27_Podj
+    series_id: ''
+-
+    id: 'bagel:mazeodoom'
+    name: "Hodj'n'Podj - Maze O' Doom"
+    engine_id: bagel
+    company_id: boffo
+    year: '1995'
+    moby_id: '268'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: Hodj_%27n%27_Podj
+    wikipedia_page: Hodj_%27n%27_Podj
+    series_id: ''
+-
     id: 'bagel:spacebar'
     name: 'The Space Bar'
     engine_id: bagel

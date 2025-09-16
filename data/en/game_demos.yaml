@@ -513,6 +513,15 @@
     language3: ''
     url: /frs/demos/asylum/asylum-demo2.zip
 -
+    id: 'bagel:mazeodoom'
+    platform: win
+    '': ''
+    category: ''
+    language: ''
+    language2: ''
+    language3: ''
+    url: /frs/demos/bagel/mazeodoom-win-demo-en.zip
+-
     id: 'bagel:spacebar'
     platform: win
     '': ''
