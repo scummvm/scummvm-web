@@ -27,7 +27,7 @@
   },
   "require-dev": {
     "phpstan/phpstan": "^2.1",
-    "squizlabs/php_codesniffer": "^3.13"
+    "squizlabs/php_codesniffer": "^4.0"
   },
   "suggest": {
     "ext-redis": "Needed for redis cache driver"
