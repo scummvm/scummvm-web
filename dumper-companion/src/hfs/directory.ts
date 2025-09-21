@@ -41,6 +41,10 @@ export class AbstractFolder {
     _namedict: {[key: string]: Uint8Array};
     _maindict: {[name: string]: FileOrFolder};
 
+    crdate: number;
+    mddate: number;
+    bkdate: number;
+
     constructor() {
         this._namedict = {}; // key string to raw name
         this._maindict = {}; // key string to contents
@@ -86,16 +90,29 @@ export class AbstractFolder {
         return res;
     }
 
-    dumpToZip(zipDir: ZipDirectoryEntry, lang: Language, puny: boolean, forceMacBinary: boolean, log: (string) => void): void {
+    dumpToZip(zipDir: ZipDirectoryEntry, lang: Language, puny: boolean, forceMacBinary: boolean, log: (string) => void): ZipDirectoryEntry {
         for (const [name, child] of this.items()) {
             const encodedName = encodeFileName(name, lang, puny, log);
             if (child instanceof AbstractFolder) {
-                child.dumpToZip(zipDir.addDirectory(encodedName), lang, puny, forceMacBinary, log);
+                child.dumpToZip(zipDir.addDirectory(encodedName, {
+                    lastModDate: hfs_ts_to_date(child.mddate),
+                }), lang, puny, forceMacBinary, log);
             } else {
-                zipDir.addUint8Array(encodedName, forceMacBinary ? child.toMacBinary(name) : child.toBinary(name));
+                zipDir.addUint8Array(encodedName, forceMacBinary ? child.toMacBinary(name) : child.toBinary(name), {
+                    lastModDate: hfs_ts_to_date(child.mddate),
+                });
             }
         }
+        return zipDir;
     }
+}
+
+function hfs_ts_to_date(hfs_ts) {
+	const HFS_UTC_OFFSET = 2082844800;
+	if (!hfs_ts) {
+		return new Date();
+	}
+	return new Date((hfs_ts - HFS_UTC_OFFSET) * 1000);
 }
 
 
@@ -103,10 +120,6 @@ export class MacFolder extends AbstractFolder {
     flags: number;
     x: number;
     y: number;
-
-    crdate: number;
-    mddate: number;
-    bkdate: number;
 
     constructor() {
         super();

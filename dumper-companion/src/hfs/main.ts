@@ -58,9 +58,6 @@ function _get_every_extent(nblocks: number, firstrecord: Uint8Array, cnid: numbe
 
 
 export class Volume extends AbstractFolder {
-    crdate: number;
-    mddate: number;
-    bkdate: number;
     name: string;
 
     constructor() {
