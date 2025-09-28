@@ -4446,6 +4446,24 @@
     language3: ''
     url: /frs/demos/scumm/indy3-ega-ni-demo-en.zip
 -
+    id: 'scumm:indyloom'
+    platform: fmtowns
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/zak-fmtowns-indyloom-ni-demo.zip
+-
+    id: 'scumm:indyzak'
+    platform: fmtowns
+    '': ''
+    category: Non-Interactive
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/zak-fmtowns-indyzak-ni-demo.zip
+-
     id: 'scumm:loom'
     platform: dos
     '': ''
@@ -5184,25 +5202,7 @@
     language3: ''
     url: /frs/demos/scumm/zak-atari-ni-demo.zip
 -
-    id: 'scumm:zak'
-    platform: fmtowns
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/zak-fmtowns-indyloom-ni-demo.zip
--
-    id: 'scumm:zak'
-    platform: fmtowns
-    '': ''
-    category: Non-Interactive
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/scumm/zak-fmtowns-indyzak-ni-demo.zip
--
-    id: 'scumm:zak'
+    id: 'scumm:zakloom'
     platform: fmtowns
     '': ''
     category: Non-Interactive
