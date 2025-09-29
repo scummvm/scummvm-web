@@ -79,6 +79,10 @@
         name: "Paul Gilbert"
         alias: "dreammaster"
         description: ""
+      -
+        name: "Matthew Duggan"
+        alias: "stauff"
+        description: ""
     -
       name: "ADL"
       person:
@@ -315,6 +319,13 @@
         name: "Berian Williams"
         alias: "AGA"
         description: "AgsCreditz"
+    -
+      name: "Alcachofa"
+      person:
+      -
+        name: "Hermann Noll"
+        alias: "Helco"
+        description: ""
     -
       name: "Asylum"
       person:
@@ -1681,6 +1692,13 @@
       -
         name: "Sylvain Dupont"
         alias: "SylvainTV"
+        description: ""
+    -
+      name: "Tot"
+      person:
+      -
+        name: "Gabriel Sanmartín"
+        alias: "kelmer"
         description: ""
     -
       name: "Touch&eacute;"
