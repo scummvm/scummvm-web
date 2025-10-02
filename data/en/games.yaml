@@ -6216,6 +6216,20 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'alcachofa:aventuradecine'
+    name: 'Clever & Smart - A Movie Adventure'
+    engine_id: alcachofa
+    company_id: alcachofa
+    year: '2004'
+    moby_id: '23977'
+    steam_id: '1019580'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: 'Mortadelo_y_Filemón:_Una_Aventura_de_Cine'
+    wikipedia_page: 'Mortadelo_y_Filemón:_Una_Aventura_de_Cine'
+    series_id: ''
+-
     id: 'asylum:asylum'
     name: Sanitarium
     engine_id: asylum

@@ -30,6 +30,11 @@
     alt_name: Sanitarium
     enabled: true
 -
+    id: alcachofa
+    name: Alcachofa
+    alt_name: ''
+    enabled: true
+-
     id: avalanche
     name: Avalanche
     alt_name: ''

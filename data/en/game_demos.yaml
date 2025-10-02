@@ -495,6 +495,15 @@
     language3: ''
     url: /frs/demos/ags/zniw_adventure-demo.zip
 -
+    id: 'alcachofa:aventuradecine'
+    platform: win
+    '': ''
+    category: ''
+    language: de
+    language2: ''
+    language3: ''
+    url: /frs/demos/alcachofa/aventuradecine-win-demo-de.zip
+-
     id: 'asylum:asylum'
     platform: win
     '': ''

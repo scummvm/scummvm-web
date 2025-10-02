@@ -5466,3 +5466,10 @@
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: ''
+-
+    id: 'alcachofa:aventuradecine'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
