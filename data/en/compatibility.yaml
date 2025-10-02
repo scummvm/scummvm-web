@@ -5469,7 +5469,7 @@
 -
     id: 'alcachofa:aventuradecine'
     support: good
-    notes: ''
+    notes: '- Some videos might not play yet'
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
