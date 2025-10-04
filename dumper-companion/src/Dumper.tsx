@@ -1,5 +1,5 @@
 import { Component, ComponentChild } from 'preact';
-import { fs } from '@zip.js/zip.js/lib/zip-fs.js';
+import { fs } from '@zip.js/zip.js';
 import { Volume } from './hfs/main';
 import { Language, getLanguages } from './encoding';
 
@@ -152,7 +152,7 @@ export default class Dumper extends Component<Props, State> {
                 volume.dumpToZip(zipFS.root, this.state.lang, !this.state.unicode, this.state.forceMacBinary, this.log.bind(this));
                 const blob = await zipFS.exportBlob({
                     level: 0,
-                    onprogress: (index, max) => {
+                    onprogress: (index: number, max: number): undefined => {
                         const percent = Math.floor(index / max * 100);
                         this.updateDumpPercent(percent);
                     }

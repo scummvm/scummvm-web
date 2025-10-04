@@ -31,7 +31,7 @@ import { computeCRC } from '../crc';
 import { Language, encodeFileName } from '../encoding';
 import struct from '../struct';
 import { bytes, bytesToString, joinBytes } from '../util';
-import type { ZipDirectoryEntry } from '@zip.js/zip.js/lib/zip-fs.js';
+import type { ZipDirectoryEntry } from '@zip.js/zip.js';
 
 
 export type FileOrFolder = MacFile | AbstractFolder;
