@@ -1,0 +1,14 @@
+---
+title: “We’ve got a new case and you won’t believe who it involves!"
+author: mduggan
+date: 1759662446
+---
+
+We are happy to announce that [_Tex Murphy 2: Martian Memorandum_](https://wiki.scummvm.org/index.php?title=Martian_Memorandum) is now ready for testing in ScummVM.
+
+_Martian Memorandum_ is the second game in the _Tex Murphy_  series, set in a dark version of the future circa 2039. You play private investigator Tex Murphy, who has been hired by the founder of TerraForm Corporation, Marshall Alexander, to locate his missing daughter Alexis. It seems like it might be a simple kidnapping, but the clues quickly lead to a much bigger mystery.
+
+This is the second game in ScummVM using the Access Software engine – the first, [_Amazon: Guardians of Eden_](https://www.scummvm.org/news/20151122/), was added nearly 10 years ago.
+
+To test _Martian Memorandum_ you’ll need the game files (available from [GOG](https://www.gog.com/en/game/tex_murphy_1_2) or [Steam](https://store.steampowered.com/app/302340/)) and a [daily development build](https://www.scummvm.org/downloads/#daily). Be sure to check the notes on [the wiki](https://wiki.scummvm.org/index.php?title=Martian_Memorandum) for the game, and please report any bugs on our [issue tracker](https://bugs.scummvm.org/).
+
