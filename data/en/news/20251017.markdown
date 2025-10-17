@@ -1,0 +1,15 @@
+---
+title: "Get ready for the season by testing Trick or Treat!"
+author: kelmer
+date: 1760725080
+---
+
+Halloween is creeping closer… and what better way to celebrate than with a brand new game ready for testing in ScummVM?
+
+We’re thrilled to announce that _Trick or Treat_, a Halloween-themed 1994 point and click adventure by ACA Soft, is now ready for public testing in the latest ScummVM daily builds!
+
+As with all new game engines added to ScummVM, we need your help to ensure everything runs smoothly before declaring it officially supported. Grab your copy of _Trick or Treat_, fire up the latest [daily build](https://www.scummvm.org/downloads/#daily), and see how it fares!
+
+Please report any issues you encounter to our [bug tracker](https://bugs.scummvm.org/), following our usual [testing guidelines](https://wiki.scummvm.org/index.php/Release_Testing). Screenshots, save files, and detailed notes are always appreciated.
+
+So light a pumpkin and get ready to test Trick or Treat this spooky season!
