@@ -5607,6 +5607,15 @@
     language3: ''
     url: /frs/demos/toon/toon-dos-demo-de.zip
 -
+    id: 'tot:tot'
+    platform: dos
+    '': ''
+    category: ''
+    language: es
+    language2: ''
+    language3: ''
+    url: /frs/demos/tot/tot-dos-demo-es.zip
+-
     id: 'touche:touche'
     platform: dos
     '': ''
