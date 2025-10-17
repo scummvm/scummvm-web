@@ -13286,6 +13286,20 @@
     wikipedia_page: Toonstruck
     series_id: ''
 -
+    id: 'tot:tot'
+    name: 'Trick or Treat'
+    engine_id: tot
+    company_id: acasoft
+    year: '1994'
+    moby_id: '14275'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'touche:touche'
     name: 'Touché: The Adventures of the Fifth Musketeer'
     engine_id: touche

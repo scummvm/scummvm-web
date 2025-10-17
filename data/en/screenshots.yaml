@@ -6,6 +6,12 @@
     language: en
     variant_id: '1'
 -
+    id: 'access:martian'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
     id: 'adl:hires0'
     variant: ''
     platform_id: apple2
