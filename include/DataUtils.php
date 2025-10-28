@@ -82,7 +82,7 @@ class DataUtils
     private static function doUpdateData(string $name, Response $response): void
     {
         $tsv = $response->getBody();
-        $reader = Reader::createFromString($tsv);
+        $reader = Reader::fromString($tsv);
         $reader->setDelimiter("\t");
         $reader->setHeaderOffset(0);
         $stmt = new Statement();
