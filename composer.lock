@@ -502,16 +502,16 @@
         },
         {
             "name": "league/csv",
-            "version": "9.27.0",
+            "version": "9.27.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/csv.git",
-                "reference": "cb491b1ba3c42ff2bcd0113814f4256b42bae845"
+                "reference": "26de738b8fccf785397d05ee2fc07b6cd8749797"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/csv/zipball/cb491b1ba3c42ff2bcd0113814f4256b42bae845",
-                "reference": "cb491b1ba3c42ff2bcd0113814f4256b42bae845",
+                "url": "https://api.github.com/repos/thephpleague/csv/zipball/26de738b8fccf785397d05ee2fc07b6cd8749797",
+                "reference": "26de738b8fccf785397d05ee2fc07b6cd8749797",
                 "shasum": ""
             },
             "require": {
@@ -589,7 +589,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-10-16T08:22:09+00:00"
+            "time": "2025-10-25T08:35:20+00:00"
         },
         {
             "name": "matomo/device-detector",
@@ -2775,16 +2775,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v7.3.3",
+            "version": "v7.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "d4f4a66866fe2451f61296924767280ab5732d9d"
+                "reference": "90208e2fc6f68f613eae7ca25a2458a931b1bacc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/d4f4a66866fe2451f61296924767280ab5732d9d",
-                "reference": "d4f4a66866fe2451f61296924767280ab5732d9d",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/90208e2fc6f68f613eae7ca25a2458a931b1bacc",
+                "reference": "90208e2fc6f68f613eae7ca25a2458a931b1bacc",
                 "shasum": ""
             },
             "require": {
@@ -2827,7 +2827,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/v7.3.3"
+                "source": "https://github.com/symfony/yaml/tree/v7.3.5"
             },
             "funding": [
                 {
@@ -2847,7 +2847,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-08-27T11:34:33+00:00"
+            "time": "2025-09-27T09:00:46+00:00"
         }
     ],
     "packages-dev": [
