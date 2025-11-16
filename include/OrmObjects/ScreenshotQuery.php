@@ -21,7 +21,7 @@ use ScummVM\OrmObjects\Map\ScreenshotTableMap;
  */
 class ScreenshotQuery extends BaseScreenshotQuery
 {
-    public function findRandom(ConnectionInterface $con = null): ChildScreenshot
+    public function findRandom(?ConnectionInterface $con = null): ChildScreenshot
     {
         if ($con === null) {
             $con = Propel::getServiceContainer()->getReadConnection(ScreenshotTableMap::DATABASE_NAME);
@@ -52,7 +52,7 @@ class ScreenshotQuery extends BaseScreenshotQuery
      * @return array<array{'category_key': string, 'category_name': string, 'subcategory_key': string,
      *          'subcategory_name': string}>
      */
-    public function findCategories(ConnectionInterface $con = null): array
+    public function findCategories(?ConnectionInterface $con = null): array
     {
         if ($con === null) {
             $con = Propel::getServiceContainer()->getReadConnection(ScreenshotTableMap::DATABASE_NAME);
@@ -104,7 +104,7 @@ class ScreenshotQuery extends BaseScreenshotQuery
         return $obj;
     }
 
-    public function filterByCompanyId(string $companyId, ConnectionInterface $con = null): self
+    public function filterByCompanyId(string $companyId, ?ConnectionInterface $con = null): self
     {
         if ($companyId !== 'other') {
             /** @phpstan-ignore return.type */
