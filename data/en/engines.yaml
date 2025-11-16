@@ -10,6 +10,11 @@
     alt_name: 'Adventure Development Language'
     enabled: true
 -
+    id: agds
+    name: AGDS
+    alt_name: 'Advanced Graphic Development System'
+    enabled: false
+-
     id: agi
     name: AGI
     alt_name: 'Adventure Game Interpreter'
