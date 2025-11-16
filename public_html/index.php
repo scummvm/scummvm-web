@@ -10,7 +10,7 @@ namespace ScummVM;
  * if the DEV_SERVER environment variable is set to 1
  */
 if (isset($_SERVER['SERVER_SOFTWARE']) &&
-    \preg_match("/PHP [\d\.]+ Development Server/", $_SERVER['SERVER_SOFTWARE'])) {
+    \preg_match("/PHP[ \/][\d\.]+ \(?Development Server\)?/", $_SERVER['SERVER_SOFTWARE'])) {
     if (\is_file(__DIR__ . '/' . strtok($_SERVER["REQUEST_URI"], '?'))) {
         return false;
     }
