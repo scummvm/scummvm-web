@@ -532,6 +532,13 @@
     name: 'WAGE games master collection v1.0'
     notes: ''
 -
+    category: games
+    game_id: 'wintermute:helga'
+    category_icon: helga
+    url: Wintermute/helga_deep_in_trouble.zip
+    name: 'English and Czech Version'
+    notes: ''
+-
     category: addons
     game_id: 'bladerunner:bladerunner'
     category_icon: bladerunner

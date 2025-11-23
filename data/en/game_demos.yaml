@@ -5877,15 +5877,6 @@
     language3: ''
     url: /frs/demos/wintermute/ghost_in_the_sheet-en-demo.zip
 -
-    id: 'wintermute:helga'
-    platform: win
-    '': ''
-    category: ''
-    language: en
-    language2: ''
-    language3: ''
-    url: /frs/demos/wintermute/helga_deep_in_trouble-demo.zip
--
     id: 'wintermute:jamesperis'
     platform: win
     '': ''
