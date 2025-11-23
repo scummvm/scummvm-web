@@ -58,9 +58,9 @@ class DataUtils
     /**
      * Gets the TSV representation from sheets and converts it to YAML on file
      *
-     * @return void
+     * @return bool True if update is successful
      */
-    public static function updateData(): void
+    public static function updateData(): bool
     {
         $client = new Client();
         $promises = [];
@@ -74,9 +74,11 @@ class DataUtils
 
         Promise\Utils::unwrap($promises);
 
-        DataUtils::convertYamlToOrm();
+        $ret = DataUtils::convertYamlToOrm();
         // Clear the cache at the end of all data operations
         \file_put_contents('.clear-cache', '');
+
+        return $ret;
     }
 
     private static function doUpdateData(string $name, Response $response): void
@@ -115,8 +117,9 @@ class DataUtils
         \file_put_contents($outFile, $yaml);
     }
 
-    private static function convertYamlToOrm(): void
+    private static function convertYamlToOrm(): bool
     {
+        $ret = true;
         foreach (self::OBJECT_NAMES as $name => $object) {
             $failures = array();
 
@@ -174,8 +177,12 @@ class DataUtils
                 $failures = array_merge($failures, $newFailures);
                 // If there are no new failure, we will get an infinite loop
             } while (count($newFailures));
+            if (count($failures)) {
+                $ret = false;
+            }
         }
+        return $ret;
     }
 }
 
-DataUtils::updateData();
+exit(DataUtils::updateData() ? 0 : 1);
