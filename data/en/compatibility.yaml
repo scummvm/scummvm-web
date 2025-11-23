@@ -5194,6 +5194,13 @@
     stable_platforms: 'dos,zx'
     unstable_platforms: ''
 -
+    id: 'prince:prince'
+    support: excellent
+    notes: ''
+    since_version: 2.9.0
+    stable_platforms: win
+    unstable_platforms: ''
+-
     id: 'qdengine:nupogodi3'
     support: excellent
     notes: ''
@@ -5236,6 +5243,20 @@
     stable_platforms: win
     unstable_platforms: ''
 -
+    id: 'ags:oldskies'
+    support: good
+    notes: '- Minor graphical glitches - Some slowdowns in scrolling scenes'
+    since_version: 2.9.1
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'ags:rosewater'
+    support: good
+    notes: '- Minor graphical glitches'
+    since_version: 2.9.1
+    stable_platforms: win
+    unstable_platforms: ''
+-
     id: 'darkseed:darkseed'
     support: untested
     notes: ''
@@ -5262,20 +5283,6 @@
     notes: '- Ripley leaves after-images in a few places'
     since_version: DEV
     stable_platforms: dos
-    unstable_platforms: ''
--
-    id: 'ags:oldskies'
-    support: good
-    notes: '- Minor graphical glitches - Some slowdowns in scrolling scenes'
-    since_version: 2.9.1
-    stable_platforms: win
-    unstable_platforms: ''
--
-    id: 'ags:rosewater'
-    support: good
-    notes: '- Minor graphical glitches'
-    since_version: 2.9.1
-    stable_platforms: win
     unstable_platforms: ''
 -
     id: 'qdengine:karliknos'
@@ -5453,7 +5460,7 @@
     stable_platforms: mac
     unstable_platforms: ''
 -
-    id: 'hpl1:penumbra'
+    id: 'hpl1:penumbraoverture'
     support: excellent
     notes: ''
     since_version: DEV
