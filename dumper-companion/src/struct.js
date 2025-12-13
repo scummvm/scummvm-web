@@ -27,7 +27,6 @@
  */
 
 
-/*eslint-env es6*/
 const rechk = /^([<>])?(([1-9]\d*)?([xcbB?hHiIlLfdsp]))*$/
 const refmt = /([1-9]\d*)?([xcbB?hHiIlLfdsp])/g
 const str = (v,o,c) => new Uint8Array(v.buffer, v.byteOffset + o, c)
