@@ -22,8 +22,6 @@ export default defineConfig(
         },
 
         rules: {
-            "no-constant-condition": "off",
-            "no-sparse-arrays": "off",
             "@stylistic/indent": ["error", 4, { "SwitchCase": 0 }],
             "@stylistic/semi": ["error", "always"],
         },
@@ -54,8 +52,6 @@ export default defineConfig(
 
         rules: {
             "@typescript-eslint/no-empty-object-type": "off",
-            "@typescript-eslint/no-unsafe-function-type": "error",
-            "@typescript-eslint/no-wrapper-object-types": "error",
         },
     },
 );
