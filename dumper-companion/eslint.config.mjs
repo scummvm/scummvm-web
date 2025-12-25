@@ -1,6 +1,7 @@
 import eslint from '@eslint/js';
 import globals from "globals";
 import { defineConfig } from 'eslint/config';
+import stylistic from '@stylistic/eslint-plugin';
 import tseslint from 'typescript-eslint';
 
 export default defineConfig(
@@ -16,9 +17,14 @@ export default defineConfig(
             sourceType: "module",
         },
 
+        plugins: {
+            "@stylistic": stylistic,
+        },
+
         rules: {
             "no-constant-condition": "off",
             "no-sparse-arrays": "off",
+            "@stylistic/semi": ["error", "always"],
         },
     },
     {
@@ -49,7 +55,5 @@ export default defineConfig(
             "@typescript-eslint/no-empty-object-type": "off",
             "@typescript-eslint/no-unsafe-function-type": "error",
             "@typescript-eslint/no-wrapper-object-types": "error",
-
-            semi: [2, "always"],
         },
      });
