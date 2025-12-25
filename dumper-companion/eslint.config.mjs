@@ -11,7 +11,7 @@ export default defineConfig(
         ignores: ["node_modules", "index.js"],
     },
     {
-	name: "global settings",
+        name: "global settings",
         languageOptions: {
             ecmaVersion: "latest",
             sourceType: "module",
@@ -24,11 +24,12 @@ export default defineConfig(
         rules: {
             "no-constant-condition": "off",
             "no-sparse-arrays": "off",
+            "@stylistic/indent": ["error", 4, { "SwitchCase": 0 }],
             "@stylistic/semi": ["error", "always"],
         },
     },
     {
-	name: "webpack specific",
+        name: "webpack specific",
         files: ["webpack.config.js"],
         languageOptions: {
             globals: {
@@ -37,7 +38,7 @@ export default defineConfig(
         },
     },
     {
-	name: "browser specific",
+        name: "browser specific",
         files: ["src/**"],
         languageOptions: {
             globals: {
@@ -46,14 +47,15 @@ export default defineConfig(
         },
     },
     {
-	name: "typescript specific",
+        name: "typescript specific",
         files: ["**/*.ts", "**/*.tsx"],
 
-	extends: [tseslint.configs.recommended],
+        extends: [tseslint.configs.recommended],
 
         rules: {
             "@typescript-eslint/no-empty-object-type": "off",
             "@typescript-eslint/no-unsafe-function-type": "error",
             "@typescript-eslint/no-wrapper-object-types": "error",
         },
-     });
+    },
+);

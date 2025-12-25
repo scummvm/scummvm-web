@@ -108,11 +108,11 @@ export class AbstractFolder {
 }
 
 function hfs_ts_to_date(hfs_ts) {
-	const HFS_UTC_OFFSET = 2082844800;
-	if (!hfs_ts) {
-		return new Date();
-	}
-	return new Date((hfs_ts - HFS_UTC_OFFSET) * 1000);
+    const HFS_UTC_OFFSET = 2082844800;
+    if (!hfs_ts) {
+        return new Date();
+    }
+    return new Date((hfs_ts - HFS_UTC_OFFSET) * 1000);
 }
 
 

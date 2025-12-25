@@ -67,7 +67,7 @@ export function dump_btree(buf: Uint8Array): Uint8Array[] {
     // Ask about the header record in the header node
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [bthDepth, bthRoot, bthNRecs, bthFNode, bthLNode, bthNodeSize, bthKeyLen, bthNNodes, bthFree]
-    = struct('>HLLLLHHLL').unpack_from(header_rec);
+        = struct('>HLLLLHHLL').unpack_from(header_rec);
     // print('btree', bthDepth, bthRoot, bthNRecs, bthFNode, bthLNode, bthNodeSize, bthKeyLen, bthNNodes, bthFree)
 
     // And iterate through the linked list of leaf nodes
