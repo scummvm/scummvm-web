@@ -16,7 +16,12 @@ $themes: null !default;
   $raw-query: map.get($breakpoints, $breakpoint);
 
   @if $raw-query {
-    $query: if(meta.type-of($raw-query) == "string", string.unquote($raw-query), meta.inspect($raw-query));
+    $query: null;
+    @if meta.type-of($raw-query) == "string" {
+      $query: string.unquote($raw-query);
+    } @else {
+      $query: meta.inspect($raw-query);
+    }
 
     @media #{$query} {
       @content;
@@ -45,7 +50,7 @@ $themes: null !default;
 ///
 @mixin responsive-font($responsive, $min, $max: false, $fallback: false) {
   $responsive-unitless: math.div($responsive, $responsive - $responsive + 1);
-  $dimension: if(math.unit($responsive) == "vh", "height", "width");
+  $dimension: if(sass(math.unit($responsive) == "vh"): "height"; else: "width");
   $min-breakpoint: math.div($min, $responsive-unitless) * 100;
 
   @if $fallback {
