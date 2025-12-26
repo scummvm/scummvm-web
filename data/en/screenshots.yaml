@@ -528,6 +528,12 @@
     language: en
     variant_id: '1'
 -
+    id: 'alcachofa:aventuradecine'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'asylum:asylum'
     variant: ''
     platform_id: win
@@ -559,6 +565,12 @@
     variant_id: '1'
 -
     id: 'bagel:spacebar'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'bagel:hodjnpodj'
     variant: ''
     platform_id: win
     language: en
@@ -1002,7 +1014,31 @@
     language: en
     variant_id: '1'
 -
+    id: 'glk:corruption'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
     id: 'glk:crimsoncrown'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'glk:fish'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'glk:guild'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'glk:jinxter'
     variant: ''
     platform_id: dos
     language: en
@@ -1014,7 +1050,19 @@
     language: en
     variant_id: '1'
 -
+    id: 'glk:pawn'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
     id: 'glk:transylvania'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'glk:wonderland'
     variant: ''
     platform_id: dos
     language: en
@@ -1327,6 +1375,12 @@
     variant_id: '1'
 -
     id: 'groovie:unclehenry'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'hadesch:hadesch'
     variant: ''
     platform_id: win
     language: en
@@ -3586,6 +3640,12 @@
     variant: ''
     platform_id: win
     language: fr
+    variant_id: '1'
+-
+    id: 'tot:tot'
+    variant: ''
+    platform_id: dos
+    language: es
     variant_id: '1'
 -
     id: 'touche:touche'
