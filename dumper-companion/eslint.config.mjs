@@ -1,6 +1,6 @@
 import eslint from '@eslint/js';
-import globals from "globals";
 import { defineConfig } from 'eslint/config';
+import globals from 'globals';
 import stylistic from '@stylistic/eslint-plugin';
 import tseslint from 'typescript-eslint';
 
@@ -48,10 +48,12 @@ export default defineConfig(
         name: "typescript specific",
         files: ["**/*.ts", "**/*.tsx"],
 
-        extends: [tseslint.configs.recommended],
-
-        rules: {
-            "@typescript-eslint/no-empty-object-type": "off",
+        extends: [tseslint.configs.recommendedTypeChecked],
+        languageOptions: {
+            parserOptions: {
+                projectService: true,
+                jsxPragma: null,
+            },
         },
     },
 );
