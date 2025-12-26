@@ -52,7 +52,7 @@ export function escapeString(str: string): string {
         } else if ('<>:"/\\|?*\x7f'.includes(ch) || codePoint(ch) < 0x20) {
             // Escape characters forbidden on Windows
             // https://docs.microsoft.com/en-us/windows/win32/fileio/naming-a-file#naming-conventions
-            res += '\x81' + String.fromCodePoint(0x80 + codePoint(ch));
+            res += `\x81${String.fromCodePoint(0x80 + codePoint(ch))}`;
         } else {
             res += ch;
         }
@@ -99,7 +99,7 @@ export function encodeFileName(str: Uint8Array, lang: Language, puny: boolean, l
         const punycodeStr = punycode.encode(escapedStr);
         // If there are no special characters, the punycoder just adds a '-' to the end.
         if (forcePunycode || escapedStr !== punycodeStr.slice(0, -1)) {
-            return 'xn--' + punycodeStr;
+            return `xn--${punycodeStr}`;
         }
     }
 
@@ -198,17 +198,18 @@ export function decodeMacJapanese(str: Uint8Array, log: (string) => void): strin
             if (i >= str.length) {
                 log(`Warning: Mac Japanese sequence 0x${byteToHex(hi)}XX missing second byte, decoding as Mac Roman`);
                 return decodeMacRoman(str);
-            } else {
-                const lo = str[i];
-                const hiKey = hi.toString(16);
-                const loKey = lo - 0x40;
-                if (macJapaneseMap[hiKey] == null || macJapaneseMap[hiKey][loKey] == null) {
-                    log(`Warning: No mapping for Mac Japanese sequence 0x${byteToHex(hi)}${byteToHex(lo)}, decoding as Mac Roman`);
-                    return decodeMacRoman(str);
-                } else {
-                    res += macJapaneseMap[hiKey][loKey];
-                }
             }
+
+            const lo = str[i];
+            const hiKey = hi.toString(16);
+            const loKey = lo - 0x40;
+
+            if (macJapaneseMap[hiKey] == null || macJapaneseMap[hiKey][loKey] == null) {
+                log(`Warning: No mapping for Mac Japanese sequence 0x${byteToHex(hi)}${byteToHex(lo)}, decoding as Mac Roman`);
+                return decodeMacRoman(str);
+            }
+
+            res += macJapaneseMap[hiKey][loKey];
         } else if (hi === 0xA0) { // no-break space
             res += '\u00A0';
         } else if (hi >= 0xA1 && hi <= 0xDF) { // Katakana

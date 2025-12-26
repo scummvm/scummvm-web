@@ -36,7 +36,7 @@ import struct from '../struct';
 
 function _get_every_extent(nblocks: number, firstrecord: Uint8Array, cnid: number, xoflow: {[key: string]: Uint8Array}, fork: string): [number, number][] {
     let accum = 0;
-    const extlist = [];
+    const extlist: [number, number][] = [];
 
     for (const [a, b] of btree.unpack_extent_record(firstrecord)) {
         if (!b) continue;
@@ -45,7 +45,7 @@ function _get_every_extent(nblocks: number, firstrecord: Uint8Array, cnid: numbe
     }
 
     while (accum < nblocks) {
-        const nextrecord = xoflow[cnid + ',' + fork + ',' + accum];
+        const nextrecord = xoflow[`${cnid},${fork},${accum}`];
         for (const [a, b] of btree.unpack_extent_record(nextrecord)) {
             if (!b) continue;
             accum += b;
@@ -130,7 +130,7 @@ export class Volume extends AbstractFolder {
                 fork = 'rsrc';
             else if (xkrFkType === 0)
                 fork = 'data';
-            extoflow[xkrFNum + ',' + fork + ',' + xkrFABN] = extrec;
+            extoflow[`${xkrFNum},${fork},${xkrFABN}`] = extrec;
         }
 
         const cnids: {[id: number]: FileOrFolder} = {};

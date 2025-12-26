@@ -8,7 +8,7 @@ export function codePoint(charStr: string): number {
 
 export function byteToHex(byte: number): string {
     const res = byte.toString(16);
-    return (res.length === 1) ? '0' + res : res;
+    return (res.length === 1) ? `0${res}` : res;
 }
 
 const encoder = new TextEncoder();
