@@ -16,12 +16,7 @@ $themes: null !default;
   $raw-query: map.get($breakpoints, $breakpoint);
 
   @if $raw-query {
-    $query: null;
-    @if meta.type-of($raw-query) == "string" {
-      $query: string.unquote($raw-query);
-    } @else {
-      $query: meta.inspect($raw-query);
-    }
+    $query: if(sass(meta.type-of($raw-query) == "string"): string.unquote($raw-query); else: meta.inspect($raw-query));
 
     @media #{$query} {
       @content;
