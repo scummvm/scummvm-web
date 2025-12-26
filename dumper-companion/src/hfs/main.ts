@@ -98,7 +98,13 @@ export class Volume extends AbstractFolder {
             drFndrInfo, drVCSize, drVBMCSize, drCtlCSize,
             drXTFlSize, drXTExtRec,
             drCTFlSize, drCTExtRec]
-            = struct('>2sLLHHHHHLLHLH28pLHLLLHLL32sHHHL12sL12s').unpack_from(from_volume, 1024);
+            = struct<[Uint8Array, number, number, number, number,
+                number, number, number, number, number, number,
+                number, number, Uint8Array, number, number,
+                number, number, number, number, number, number,
+                Uint8Array, number, number, number,
+                number, Uint8Array,
+                number, Uint8Array]>('>2sLLHHHHHLLHLH28pLHLLLHLL32sHHHL12sL12s').unpack_from(from_volume, 1024);
         /* eslint-enable @typescript-eslint/no-unused-vars */
 
         this.crdate = drCrDate;
@@ -124,7 +130,7 @@ export class Volume extends AbstractFolder {
         const extoflow: {[key: string]: Uint8Array} = {};
         for (const rec of btree.dump_btree(getfork(drXTFlSize, drXTExtRec, 3, 'data'))) {
             if (rec[0] !== 7) continue;
-            const [xkrFkType, xkrFNum, xkrFABN, extrec] = struct('>xBLH12s').unpack_from(rec);
+            const [xkrFkType, xkrFNum, xkrFABN, extrec] = struct<[number, number, number, Uint8Array]>('>xBLH12s').unpack_from(rec);
             let fork: string;
             if (xkrFkType === 0xFF)
                 fork = 'rsrc';
@@ -144,7 +150,7 @@ export class Volume extends AbstractFolder {
             const key = rec.subarray(2, 1+rec_len);
             const val = rec.subarray(bitmanip.pad_up(1+rec_len, 2));
 
-            const [ckrParID, namelen] = struct('>LB').unpack_from(key);
+            const [ckrParID, namelen] = struct<[number, number]>('>LB').unpack_from(key);
             const ckrCName = key.subarray(5, 5+namelen);
 
             const datatype = [null, 'dir', 'file', 'dthread', 'fthread'][val[0]];
@@ -153,7 +159,7 @@ export class Volume extends AbstractFolder {
             if (datatype === 'dir') {
                 /* eslint-disable @typescript-eslint/no-unused-vars */
                 const [dirFlags, dirVal, dirDirID, dirCrDat, dirMdDat, dirBkDat, dirUsrInfo, dirFndrInfo]
-                    = struct('>HHLLLL16s16s').unpack_from(datarec);
+                    = struct<[number, number, number, number, number, number, Uint8Array, Uint8Array]>('>HHLLLL16s16s').unpack_from(datarec);
                 /* eslint-enable @typescript-eslint/no-unused-vars */
 
                 const f = new MacFolder();
@@ -171,7 +177,12 @@ export class Volume extends AbstractFolder {
                     filCrDat, filMdDat, filBkDat,
                     filFndrInfo, filClpSize,
                     filExtRec, filRExtRec]
-                    = struct('>BB16sLHLLHLLLLL16sH12s12sxxxx').unpack_from(datarec);
+                    = struct<[number, number, Uint8Array, number,
+                        number, number, number,
+                        number, number, number,
+                        number, number, number,
+                        Uint8Array, number,
+                        Uint8Array, Uint8Array]>('>BB16sLHLLHLLLLL16sH12s12sxxxx').unpack_from(datarec);
                 /* eslint-enable @typescript-eslint/no-unused-vars */
 
                 const f = new MacFile();
@@ -181,7 +192,7 @@ export class Volume extends AbstractFolder {
                 f.crdate = filCrDat;
                 f.mddate = filMdDat;
                 f.bkdate = filBkDat;
-                [f.type, f.creator, f.flags, f.x, f.y] = struct('>4s4sHHH').unpack_from(filUsrWds);
+                [f.type, f.creator, f.flags, f.x, f.y] = struct<[Uint8Array, Uint8Array, number, number, number]>('>4s4sHHH').unpack_from(filUsrWds);
 
                 f.data = getfork(filLgLen, filExtRec, filFlNum, 'data');
                 f.rsrc = getfork(filRLgLen, filRExtRec, filFlNum, 'rsrc');

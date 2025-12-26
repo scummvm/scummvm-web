@@ -32,8 +32,8 @@ import struct from '../struct';
 
 export function unpack_extent_record(record: Uint8Array): [number, number][] {
     /* Extract up to three (first_block, block_count) tuples from a 12-byte extent record */
-    const [a, b, c, d, e, f] = struct('>6H').unpack(record);
-    const l = [];
+    const [a, b, c, d, e, f] = struct<[number, number, number, number, number, number]>('>6H').unpack(record);
+    const l: [number, number][] = [];
     if (b) l.push([a, b]);
     if (d) l.push([c, d]);
     if (f) l.push([e, f]);
@@ -43,12 +43,12 @@ export function unpack_extent_record(record: Uint8Array): [number, number][] {
 
 function _unpack_btree_node(buf: Uint8Array, start: number): [number, number, number, number, Uint8Array[]] {
     /* Slice a btree node into records, including the 14-byte node descriptor */
-    const [ndFLink, ndBLink, ndType, ndNHeight, ndNRecs] = struct('>LLBBH').unpack_from(buf, start);
-    const offsets = struct(`>${ndNRecs+1}H`).unpack_from(buf, start+512-2*(ndNRecs+1)).reverse();
+    const [ndFLink, ndBLink, ndType, ndNHeight, ndNRecs] = struct<[number, number, number, number, number]>('>LLBBH').unpack_from(buf, start);
+    const offsets = struct<number[]>(`>${ndNRecs+1}H`).unpack_from(buf, start+512-2*(ndNRecs+1)).reverse();
     const records: Uint8Array[] = [];
     for (let i = 0; i < offsets.length - 1; i++) {
-        const i_start = offsets[i];
-        const i_stop = offsets[i + 1];
+        const i_start: number = offsets[i];
+        const i_stop: number = offsets[i + 1];
         records.push(buf.subarray(start+i_start, start+i_stop));
     }
     return [ndFLink, ndBLink, ndType, ndNHeight, records];
@@ -67,12 +67,12 @@ export function dump_btree(buf: Uint8Array): Uint8Array[] {
     // Ask about the header record in the header node
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [bthDepth, bthRoot, bthNRecs, bthFNode, bthLNode, bthNodeSize, bthKeyLen, bthNNodes, bthFree]
-        = struct('>HLLLLHHLL').unpack_from(header_rec);
+        = struct<[number, number, number, number, number, number, number, number, number]>('>HLLLLHHLL').unpack_from(header_rec);
     // print('btree', bthDepth, bthRoot, bthNRecs, bthFNode, bthLNode, bthNodeSize, bthKeyLen, bthNNodes, bthFree)
 
     // And iterate through the linked list of leaf nodes
     const res: Uint8Array[] = [];
-    let this_leaf = bthFNode;
+    let this_leaf: number = bthFNode;
     while (true) {
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const [ndFLink, ndBLink, ndType, ndNHeight, records] = _unpack_btree_node(buf, 512*this_leaf);
