@@ -37,7 +37,7 @@ async function dumpVolume(file: ArrayBuffer, s: DumpSettings): Promise<void> {
         s.log('2. Unzip the game data.');
         s.log('3. Add the directory to ScummVM.');
     } catch (err) {
-        s.log(err);
+        s.log(err as Error);
     }
     s.finished();
 }
@@ -128,7 +128,7 @@ export default function Dumper() {
         log(`Loading volume "${image.name}"...`);
         const reader = new FileReader();
         reader.addEventListener('load', () => {
-            dumpVolume(reader.result as ArrayBuffer, {
+            void dumpVolume(reader.result as ArrayBuffer, {
                 imageName: image.name,
                 lang,
                 unicode,

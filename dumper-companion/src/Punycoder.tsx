@@ -1,5 +1,5 @@
 import { useState } from 'preact/hooks';
-import * as punycode from 'punycode/';
+import * as punycode from 'punycode';
 import { escapeString, unescapeString } from './encoding';
 
 export default function Punycoder() {
