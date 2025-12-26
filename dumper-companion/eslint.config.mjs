@@ -1,11 +1,13 @@
 import eslint from '@eslint/js';
 import { defineConfig } from 'eslint/config';
+import preact from 'eslint-config-preact';
 import globals from 'globals';
 import stylistic from '@stylistic/eslint-plugin';
 import tseslint from 'typescript-eslint';
 
 export default defineConfig(
     eslint.configs.recommended,
+    preact,
     {
         name: "global ignores",
         ignores: ["node_modules", "index.js"],

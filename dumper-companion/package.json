@@ -6,13 +6,6 @@
     "build-dev": "webpack --mode=development",
     "lint": "eslint ."
   },
-  "devDependencies": {
-    "@eslint/js": "^9.39.1",
-    "@stylistic/eslint-plugin": "^5.6.1",
-    "eslint": "^9.39.1",
-    "globals": "^16.5.0",
-    "typescript-eslint": "^8.50.0"
-  },
   "dependencies": {
     "@zip.js/zip.js": "^2.8.11",
     "preact": "^10.28.0",
@@ -20,5 +13,13 @@
     "ts-loader": "^9.5.4",
     "webpack": "^5.104.1",
     "webpack-cli": "^6.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@stylistic/eslint-plugin": "^5.6.1",
+    "eslint": "^9.39.1",
+    "eslint-config-preact": "^2.0.0",
+    "globals": "^16.5.0",
+    "typescript-eslint": "^8.50.0"
   }
 }
