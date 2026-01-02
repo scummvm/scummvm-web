@@ -6269,7 +6269,7 @@
     zoom_id: ''
     additional_stores: ''
     datafiles: Another_World
-    wikipedia_page: ''
+    wikipedia_page: Another_World_(video_game)
     series_id: ''
 -
     id: 'bagel:hodjnpodj'
@@ -9181,7 +9181,7 @@
     zoom_id: ''
     additional_stores: ''
     datafiles: Orion_Burger
-    wikipedia_page: ''
+    wikipedia_page: Orion_Burger
     series_id: ''
 -
     id: 'm4:riddle'
@@ -9195,7 +9195,7 @@
     zoom_id: ''
     additional_stores: ''
     datafiles: 'Ripley%27s_Believe_It_or_Not!:_The_Riddle_of_Master_Lu'
-    wikipedia_page: ''
+    wikipedia_page: 'Ripley%27s_Believe_It_or_Not!:_The_Riddle_of_Master_Lu'
     series_id: ''
 -
     id: 'macventure:deja_vu'
@@ -13296,7 +13296,7 @@
     gog_id: ''
     zoom_id: ''
     additional_stores: ''
-    datafiles: ''
+    datafiles: Trick_or_Treat
     wikipedia_page: ''
     series_id: ''
 -
