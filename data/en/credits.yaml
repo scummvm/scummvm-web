@@ -91,6 +91,13 @@
         alias: "waltervn"
         description: ""
     -
+      name: "AGDS"
+      person:
+      -
+        name: "Vladimir Menshakov"
+        alias: "whoozle"
+        description: ""
+    -
       name: "AGI"
       person:
       -
@@ -1810,6 +1817,10 @@
         alias: "OMGPizzaGuy"
         description: ""
       -
+        name: "Paul Robson"
+        alias: ""
+        description: "(Akalabeth)"
+      -
         name: "Daniel c. W&uuml;rl"
         alias: "dwuerl"
         description: "(Nuvie)"
@@ -1910,6 +1921,10 @@
         name: "Eugene Sandulenko"
         alias: "sev"
         description: ""
+      -
+        name: "Alexei Svitkine"
+        alias: "asvitkine"
+        description: "(Java implementation author)"
     -
       name: "Watchmaker"
       person:
