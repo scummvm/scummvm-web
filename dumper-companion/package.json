@@ -7,7 +7,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@zip.js/zip.js": "^2.8.14",
+    "@zip.js/zip.js": "^2.8.15",
     "preact": "^10.28.2",
     "punycode": "^2.3.1",
     "ts-loader": "^9.5.4",
