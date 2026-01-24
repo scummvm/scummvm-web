@@ -5494,3 +5494,199 @@
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: ''
+-
+    id: 'scumm:arttime'
+    support: bugged
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:baseball'
+    support: excellent
+    notes: '- missing printing support'
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:baseball2001'
+    support: excellent
+    notes: '- missing printing support'
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:baseball2003'
+    support: excellent
+    notes: '- missing printing support'
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:basketball'
+    support: excellent
+    notes: '- missing printing support'
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:blues123time'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:bluesabctime'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:bluesbirthday'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:bluestreasurehunt'
+    support: bugged
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:catalog'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:football'
+    support: excellent
+    notes: '- missing printing support'
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:football2002'
+    support: excellent
+    notes: '- missing printing support'
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:freddicove'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:freddisfunshop'
+    support: bugged
+    notes: '- missing system font support, printing and saving'
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:indy3'
+    support: excellent
+    notes: '- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM'
+    since_version: DEV
+    stable_platforms: 'amiga,atarist,dos,fmtowns,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:indyloom'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: 'scumm:indyzak'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: 'scumm:pajama'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:pajama3'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:puttsfunshop'
+    support: bugged
+    notes: '- missing system font support, printing and saving'
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:readtime'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:samsfunshop'
+    support: bugged
+    notes: '- missing system font support, printing and saving'
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:soccer'
+    support: excellent
+    notes: '- missing printing support'
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:soccer2004'
+    support: excellent
+    notes: '- missing printing support'
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:soccermls'
+    support: excellent
+    notes: '- missing printing support'
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:spyozon'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:zak'
+    support: excellent
+    notes: '- FM-TOWNS Kanji version requires the FM-TOWNS Font ROM'
+    since_version: DEV
+    stable_platforms: 'amiga,atarist,c64,dos,fmtowns,mac'
+    unstable_platforms: ''
+-
+    id: 'scumm:zakloom'
+    support: excellent
+    notes: ''
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''

@@ -1566,6 +1566,12 @@
     language: en
     variant_id: '1'
 -
+    id: 'm4:riddle'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
     id: 'made:lgop2'
     variant: ''
     platform_id: dos
@@ -2838,6 +2844,18 @@
     language: en
     variant_id: '1'
 -
+    id: 'scumm:bluesbirthday'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'scumm:bluestreasurehunt'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'scumm:chase'
     variant: ''
     platform_id: win
@@ -3222,6 +3240,12 @@
     language: en
     variant_id: '1'
 -
+    id: 'scumm:readtime'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'scumm:samnmax'
     variant: ''
     platform_id: dos
@@ -3232,6 +3256,24 @@
     variant: ''
     platform_id: dos
     language: fr
+    variant_id: '1'
+-
+    id: 'scumm:soccer'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'scumm:soccermls'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'scumm:soccer2004'
+    variant: ''
+    platform_id: win
+    language: en
     variant_id: '1'
 -
     id: 'scumm:socks'
