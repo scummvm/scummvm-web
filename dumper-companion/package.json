@@ -7,7 +7,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@zip.js/zip.js": "^2.8.15",
+    "@zip.js/zip.js": "^2.8.16",
     "preact": "^10.28.2",
     "punycode": "^2.3.1",
     "ts-loader": "^9.5.4",
@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
-    "@stylistic/eslint-plugin": "^5.7.0",
+    "@stylistic/eslint-plugin": "^5.7.1",
     "eslint": "^9.39.1",
     "eslint-config-preact": "^2.0.0",
     "globals": "^17.1.0",
