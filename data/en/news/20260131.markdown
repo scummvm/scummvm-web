@@ -1,0 +1,57 @@
+---
+title: ScummVM 2026.1.0 "Like a Version" is finally released
+author: sev
+date: 1769863235
+---
+
+Another year has gone by, therefore we are releasing a new ScummVM version. As you may notice right away, we are changing our version numbering schema, but that’s not all! We are also planning on more frequent releases!, which you can read about on [sev’s blog](https://www.patreon.com/posts/new-milestone-in-149535385).
+
+This could be the biggest release we have made so far in terms of the added features and engines. If I count correctly, we have added 12 new engines to our compatibility page. Not games, engines. In terms of games, it is challenging to count, since two of the engines, _SLUDGE_ and _WAGE_ are authoring tools, but if you count games in our detection tables, that adds up to at least 194 titles.
+
+## Newly Supported Games:
+* _Dark Seed_
+* _God of Thunder_
+* _The Adventures of Willy Beamish_
+* _Heart of China_
+* _Nancy Drew: Secret of the Scarlet Hand_
+* _Nancy Drew: Ghost Dogs of Moon Lake_
+* _Ripley's Believe It or Not!: The Riddle of Master Lu_
+* _Little Longnose_
+* _Pilot Brothers 3: Back Side of the Earth_
+* _Pilot Brothers 3D. The Case of Garden Pests_
+* _Pilot Brothers 3D-2. Kennel Club Secrets_
+* _Features of National Fishing_
+* _Mom Don't Worry_
+* _Dog-n-cat: In the Footsteps of Unprecedented Beasts_
+* _Dog-n-cat: Island of Dr Ratiarty_
+* _Out of this World (Another World)_
+* _SLUDGE-based games_
+* _Adibou 2: Nature & Sciences_
+* _WAGE-based games_
+* _Penumbra: Overture_
+* _Tex Murphy: Martian Memorandum_
+* _Mort&Phil: A Movie Adventure (Special Edition)_
+* _Trick or Treat_
+* _Hodj 'n' Podj_
+* _The Last Express_
+And probably various other games…
+
+Apart from the games and engines, two very noticeable features are the massive improvement of Keymapper and Text-to-Speech. We ran a successful Google Summer of Code last year - [Ellen Moon (ellen)](https://blogs.scummvm.org/ellen/) worked on TTS and [Aun Noman (Prime)](https://blogs.scummvm.org/prime/) added keymapper support to a [huge amount of games](https://wiki.scummvm.org/index.php?title=Keymapper_and_TTS_status). TTS is currently limited to desktops (Win/Lin/Mac), but we are working on support on the mobile platforms.
+
+As usual, we have added support for more localizations - we love them! We also squashed a number of nasty bugs - we do not love them so much.
+
+## Engines and Games Improvements
+
+The _Private Eye_ engine got a major sound subsystem update, in addition to support for external subtitles. The _SCUMM_ engine had a significant overhaul, and it now supports the original in-game GUI for DOS, Macintosh and Windows. The _Humongous Entertainment_ subengine was fully revisited with practically impeccable compatibility, thanks to the efforts of Bosca. The _Stark_ engine for _The Longest Journey_ now has much better compatibility with graphics cards. The _Wintermute_ engine is undergoing a complete code review with the game compatibility improving daily. Last but not least, the _ZVision_ engine, running _Zork Nemesis_ and _Zork: Grand Inquisitor_ has acquired widescreen support, better sound, and better panorama rendering, upgrading your game experience to a new level all thanks to the work of Thomas N McEwan, who joined our team last year.
+
+## Platforms
+
+On the subject of platform support, we now optionally support building with SDL3, support scaling shaders for 3D games, and significant upgrades for the Android, iOS and Atari ports.
+
+----
+
+The full [release notes](https://downloads.scummvm.org/frs/scummvm/2026.1.0/ReleaseNotes.html) contain a comprehensive summary of the changes and enhancements.
+
+On [our downloads page](https://www.scummvm.org/downloads/), you can find the downloads for various platforms. The iOS version is available in the [Apple App Store](https://apps.apple.com/us/app/scummvm/id6446184412) and the Android versions should soon be available in the [Google Play Store](https://play.google.com/store/apps/details?id=org.scummvm.scummvm). If you are using Windows, macOS, or either the Ubuntu Snap or Flatpak packages, the automatic updater will assist you in updating to ScummVM 2026.1.0.
+
+A final point, if you encounter any unrecognized _SLUDGE_ or _WAGE_ engine games which we are not currently aware of, please let us know. You can either do this by filing a bug at bugs.scummvm.org or by chatting to us on Discord at [https://discord.gg/4cDsMNtcpG](https://discord.gg/4cDsMNtcpG). Happy gaming!
