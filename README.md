@@ -4,14 +4,13 @@ This project is the main ScummVM website located at: https://www.scummvm.org
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your
-local machine for development and testing purposes. See deployment for notes
-on how to deploy the project on a live system.
+These instructions will help you set up the project locally for development and testing.
+For deployment details, see the Deployment section below.
 
 ### Prerequisites
 
-The ScummVM website relies on several tools to install properly.
-Before installing please make sure you have the following installed:
+The ScummVM website relies on several tools.
+Before installing, make sure you have the following installed:
 
 * [PHP](https://www.php.net/manual/en/install.php)
   * PHP YAML extension. Install via `pecl install yaml` or `sudo apt install php-yaml`
@@ -41,15 +40,15 @@ To build for production simply run:
 
 ## Deployment
 
-To deploy changes to the official ScummVM website, simply go to the website admin page and click the "ScummVM.org
-manual site update" link.
+To deploy changes to the official ScummVM website, go to the website admin page and click:
+“ScummVM.org manual site update”
+
 
 ## Updating data
 
 Most data is now managed upstream in a spreadsheet. To re-generate the data files
-run `composer update-data` note that this will run automatically on site update
-but is encouraged for you to do manually to keep track on who's updating the
-data.
+run `composer update-data`.This command runs automatically during a site update,but 
+running it manually is encouraged so changes can be tracked more easily.
 
 ## Disabling cache
 
@@ -74,4 +73,8 @@ multiple components in a single commit.
 
 YAML files should adhere to the [Flathub YAML Style Guide](https://github.com/flathub/flathub/wiki/YAML-Style-Guide).
 
-PHP files use phpcbf. Please run `composer lint` before committing code.
+PHP files should be formatted using phpcbf
+Please run the following before committing:
+
+composer lint
+
