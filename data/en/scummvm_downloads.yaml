@@ -196,7 +196,7 @@
     category_icon: ubuntu
     user_agent: ''
     version: 2026.1.0
-    url: 'scummvm_{$version}-1_ubuntu25.10_amd64.deb'
+    url: 'scummvm_{$version}-1_ubuntu25_10_amd64.deb'
     name: 'Ubuntu 25.10 (questing) x86 64bit package'
     notes: ''
 -
@@ -206,7 +206,7 @@
     category_icon: ubuntu
     user_agent: ''
     version: 2026.1.0
-    url: 'scummvm_{$version}-1_ubuntu24.04_amd64.deb'
+    url: 'scummvm_{$version}-1_ubuntu24_04_amd64.deb'
     name: 'Ubuntu 24.04 LTS (noble) x86 64bit package'
     notes: ''
 -
@@ -216,7 +216,7 @@
     category_icon: ubuntu
     user_agent: ''
     version: 2026.1.0
-    url: 'scummvm_{$version}-1_ubuntu22.04_amd64.deb'
+    url: 'scummvm_{$version}-1_ubuntu22_04_amd64.deb'
     name: 'Ubuntu 22.04 LTS (jammy) x86 64bit package'
     notes: ''
 -
@@ -226,7 +226,7 @@
     category_icon: ubuntu
     user_agent: ''
     version: 2026.1.0
-    url: 'scummvm_{$version}-1_ubuntu20.04_amd64.deb'
+    url: 'scummvm_{$version}-1_ubuntu20_04_amd64.deb'
     name: 'Ubuntu 20.04 LTS (focal) x86 64bit package'
     notes: ''
 -
@@ -466,7 +466,7 @@
     category_icon: android
     user_agent: ''
     version: 2026.1.0
-    url: 'scummvm-{$version}.1-android-armeabi-v7a.apk'
+    url: 'scummvm-{$version}-android-armeabi-v7a.apk'
     name: 'Android ARMv7a package'
     notes: ''
 -
@@ -476,7 +476,7 @@
     category_icon: android
     user_agent: ''
     version: 2026.1.0
-    url: 'scummvm-{$version}.1-android-armeabi-v7a-nn.apk'
+    url: 'scummvm-{$version}-android-armeabi-v7a-nn.apk'
     name: 'Android ARMv7a (without ARM Neon) package'
     notes: ''
 -
@@ -486,7 +486,7 @@
     category_icon: android
     user_agent: ''
     version: 2026.1.0
-    url: 'scummvm-{$version}.1-android-arm64-v8a.apk'
+    url: 'scummvm-{$version}-android-arm64-v8a.apk'
     name: 'Android ARM64v8a package'
     notes: ''
 -
@@ -496,7 +496,7 @@
     category_icon: android
     user_agent: ''
     version: 2026.1.0
-    url: 'scummvm-{$version}.1-android-x86.apk'
+    url: 'scummvm-{$version}-android-x86.apk'
     name: 'Android x86 32bit package'
     notes: ''
 -
@@ -506,7 +506,7 @@
     category_icon: android
     user_agent: ''
     version: 2026.1.0
-    url: 'scummvm-{$version}.1-android-x86_64.apk'
+    url: 'scummvm-{$version}-android-x86_64.apk'
     name: 'Android x86 64bit package'
     notes: ''
 -
