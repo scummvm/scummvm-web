@@ -26,13 +26,15 @@ updates:
       interval: "weekly"
       day: "friday"
     groups:
+      eslint:
+        patterns:
+          - "@eslint/*"
+          - "@stylistic/eslint-plugin"
+          - "eslint"
+          - "eslint-config-preact"
+          - "globals"
+          - "typescript-eslint"
       patch-releases:
         applies-to: version-updates
         update-types:
         - "patch"
-      eslint:
-        patterns:
-          - "@eslint/*"
-          - "@typescript-eslint/*"
-          - "eslint"
-          - "globals"
