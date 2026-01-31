@@ -19,7 +19,7 @@
     "@stylistic/eslint-plugin": "^5.7.1",
     "eslint": "^9.39.1",
     "eslint-config-preact": "^2.0.0",
-    "globals": "^17.1.0",
+    "globals": "^17.2.0",
     "typescript-eslint": "^8.53.1"
   }
 }
