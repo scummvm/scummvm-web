@@ -10080,6 +10080,34 @@
     wikipedia_page: 'Nancy_Drew:_The_Final_Scene'
     series_id: nancy
 -
+    id: 'nancy:nancy6'
+    name: 'Nancy Drew: Secret of the Scarlet Hand'
+    engine_id: nancy
+    company_id: herinteractive
+    year: '2002'
+    moby_id: '7103'
+    steam_id: '31890'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: "- [Developer's Website](https://www.herinteractive.com/shop-games/nancy-drew-secret-of-the-scarlet-hand/)"
+    datafiles: 'Nancy_Drew:_Secret_of_the_Scarlet_Hand'
+    wikipedia_page: 'Nancy_Drew:_Secret_of_the_Scarlet_Hand'
+    series_id: nancy
+-
+    id: 'nancy:nancy7'
+    name: 'Nancy Drew: Ghost Dogs of Moon Lake'
+    engine_id: nancy
+    company_id: herinteractive
+    year: '2002'
+    moby_id: '7816'
+    steam_id: '31850'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: " - [Developer's Website](https://www.herinteractive.com/shop-games/nancy-drew-ghost-dogs-of-moon-lake/)"
+    datafiles: 'Nancy_Drew:_Ghost_Dogs_of_Moon_Lake'
+    wikipedia_page: 'Nancy_Drew:_Ghost_Dogs_of_Moon_Lake'
+    series_id: nancy
+-
     id: 'nancy:vampirediaries'
     name: 'The Vampire Diaries'
     engine_id: nancy

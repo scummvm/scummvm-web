@@ -1914,6 +1914,18 @@
     language: ru
     variant_id: '1'
 -
+    id: 'nancy:nancy6'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'nancy:nancy7'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'nancy:vampirediaries'
     variant: ''
     platform_id: win
