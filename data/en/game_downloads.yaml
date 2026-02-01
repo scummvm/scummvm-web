@@ -608,3 +608,17 @@
     url: Toonstruck/Toonstruck_Subtitles.zip
     name: 'Cutscene subtitles (English)'
     notes: 'Requires ScummVM 2.2.0'
+-
+    category: addons
+    game_id: 'private:private-eye'
+    category_icon: private-eye
+    url: 'Private Eye/Private_Eye_Subtitles.zip'
+    name: 'Subtitles (English)'
+    notes: 'Requires ScummVM 2026.1.0'
+-
+    category: addons
+    game_id: 'hypno:wetlands'
+    category_icon: wetlands
+    url: Wetlands/Wetlands_Subtitles.zip
+    name: 'Subtitles (English)'
+    notes: 'Requires ScummVM 2026.1.0'
