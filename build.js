@@ -33,7 +33,7 @@ async function build() {
     copyDumper();
 }
 
-build().catch(err => {
+build().catch((err) => {
     throw err;
 });
 
