@@ -3834,6 +3834,42 @@
     language: en
     variant_id: '1'
 -
+    id: 'wage:afm'
+    variant: ''
+    platform_id: mac
+    language: en
+    variant_id: '1'
+-
+    id: 'wage:amot'
+    variant: ''
+    platform_id: mac
+    language: en
+    variant_id: '1'
+-
+    id: 'wage:grailquest'
+    variant: ''
+    platform_id: mac
+    language: en
+    variant_id: '1'
+-
+    id: 'wage:raysmaze'
+    variant: ''
+    platform_id: mac
+    language: en
+    variant_id: '1'
+-
+    id: 'wage:scepters'
+    variant: ''
+    platform_id: mac
+    language: en
+    variant_id: '1'
+-
+    id: 'wage:twisted'
+    variant: ''
+    platform_id: mac
+    language: en
+    variant_id: '1'
+-
     id: 'wintermute:5ld'
     variant: ''
     platform_id: win
