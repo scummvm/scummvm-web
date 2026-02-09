@@ -10470,7 +10470,7 @@
     additional_stores: ''
     datafiles: 'Dog-n-cat:_In_the_Footsteps_of_Unprecedented_Beasts'
     wikipedia_page: ''
-    series_id: ''
+    series_id: dogcat
 -
     id: 'qdengine:dogncat2'
     name: 'Dog-n-cat: Island of Dr Rattardy'
@@ -10484,7 +10484,7 @@
     additional_stores: ''
     datafiles: 'Dog-n-cat:_Island_of_Dr_Ratiarty'
     wikipedia_page: ''
-    series_id: ''
+    series_id: dogcat
 -
     id: 'queen:queen'
     name: 'Flight of the Amazon Queen'
@@ -13718,7 +13718,7 @@
     additional_stores: "- [Developer's Website](https://www.semitech.com/marc/ray.html)"
     datafiles: ''
     wikipedia_page: ''
-    series_id: ''
+    series_id: raysmaze
 -
     id: 'wage:amot'
     name: "A Mess O' Trouble"
@@ -13732,7 +13732,7 @@
     additional_stores: "- [Developer's Website](https://www.semitech.com/marc/ray.html)"
     datafiles: ''
     wikipedia_page: ''
-    series_id: ''
+    series_id: raysmaze
 -
     id: 'wage:cantitoe'
     name: 'Camp Cantitoe'
@@ -13765,7 +13765,7 @@
     id: 'wage:grailquest'
     name: 'GrailQuest: Adventure in the Age of King Arthur'
     engine_id: wage
-    company_id: unknown
+    company_id: artworx
     year: '1988'
     moby_id: '-1'
     steam_id: ''
@@ -13788,7 +13788,7 @@
     additional_stores: "- [Developer's Website](https://www.semitech.com/marc/ray.html)"
     datafiles: ''
     wikipedia_page: ''
-    series_id: ''
+    series_id: raysmaze
 -
     id: 'wage:scepters'
     name: 'Enchanted Scepters'

@@ -1162,10 +1162,10 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: firebee
     user_agent: ''
-    version: 2.9.1
+    version: 2026.1.0
     url: 'scummvm-{$version}-atari-m5475.zip'
     name: 'FireBee package (Coldfire MCF5475 / Firebee)'
     notes: ''

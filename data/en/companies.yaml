@@ -168,6 +168,10 @@
     name: 'ArtSector One'
     alt_name: ''
 -
+    id: artworx
+    name: 'Artworx Software'
+    alt_name: ''
+-
     id: arxel
     name: 'Arxel Tribe'
     alt_name: ''

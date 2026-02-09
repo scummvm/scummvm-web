@@ -96,6 +96,9 @@
     id: disney
     name: 'Disney AGI'
 -
+    id: dogcat
+    name: Dog-n-cat
+-
     id: dw
     name: Discworld
 -
@@ -273,6 +276,9 @@
     id: quantum
     name: Quantumnauts
 -
+    id: raysmaze
+    name: "Ray's Maze"
+-
     id: reversion
     name: Reversion
 -
@@ -350,6 +356,9 @@
 -
     id: visitor
     name: 'The Visitor'
+-
+    id: wage
+    name: 'WAGE Engine'
 -
     id: wwhedon
     name: 'Wendy Whedon'
