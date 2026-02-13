@@ -15,7 +15,7 @@
     "webpack-cli": "^6.0.1"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.1",
+    "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.7.1",
     "eslint": "^9.39.1",
     "eslint-config-preact": "^2.0.0",
