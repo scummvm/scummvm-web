@@ -7,11 +7,11 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@zip.js/zip.js": "^2.8.17",
+    "@zip.js/zip.js": "^2.8.20",
     "preact": "^10.28.3",
     "punycode": "^2.3.1",
     "ts-loader": "^9.5.4",
-    "webpack": "^5.105.0",
+    "webpack": "^5.105.2",
     "webpack-cli": "^6.0.1"
   },
   "devDependencies": {
