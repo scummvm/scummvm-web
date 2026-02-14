@@ -1248,6 +1248,17 @@
         alias: "sev"
         description: ""
     -
+      name: "PhoenixVR"
+      person:
+      -
+        name: "Vladimir Menshakov"
+        alias: "whoozle"
+        description: ""
+      -
+        name: "Hermann Noll"
+        alias: "Helco"
+        description: "Help with 3D VR projections"
+    -
       name: "Pink"
       person:
       -
