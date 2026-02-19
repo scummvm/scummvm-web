@@ -2820,12 +2820,20 @@
         name: "Adrian Fr&uuml;hwirth"
         alias: "bonki"
         description: ""
+      -
+        name: "Daniel Nylander"
+        alias: ""
+        description: ""
     -
       name: "Ukrainian"
       person:
       -
         name: "Lubomyr Lisen"
         alias: ""
+        description: ""
+      -
+        name: "Eugene Sandulenko"
+        alias: "sev"
         description: ""
   -
     title: "Game Translations"
