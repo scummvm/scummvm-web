@@ -1,0 +1,17 @@
+---
+title: "ScummVM has been accepted to the Google Summer of Code 2026"
+author: sev
+date: 1771596033
+---
+
+This year we also coming wiht the good news: We've been accepted again to the [Google Summer of Code](https://summerofcode.withgoogle.com) program!
+
+So, if you love Adventuroe games or RPGs and would like to spend your summer with our cool team, we look forward to your application and participation.
+
+Fear not—we will provide enough handholding, explanations, and support if you can dedicate time to coding on our project, are an open-minded developer ready to learn, and do not hesitate to ask any questions. We've been doing GSoC for the last 19 years (can't believe it!), so we know the drill.
+
+A list of suggested projects can be found on [this page](https://wiki.scummvm.org/index.php?title=Summer_of_Code/GSoC_Ideas_2026). If you have your own idea, we will gladly evaluate it. For example, this happened in 2023 with the [Crab engine](https://blogs.scummvm.org/hax0kartik/) which is now fully supported. The required information for your application for our project is listed on [our Wiki](https://wiki.scummvm.org/index.php?title=GSoC_Application).
+
+To give you a nice boost, we have put together an impressive amount of information on the [Google Summer of Code miniportal](https://wiki.scummvm.org/index.php?title=Summer_of_Code). So you can learn all the ins and outs of the process. But indeed, you need to start by joining our [Discord server](https://discord.gg/4cDsMNtcpG) and follow the #scummvm-gsoc channel where you can engage with our mentors and the rest of the team.
+
+We are looking forward to your fine application and participation!
