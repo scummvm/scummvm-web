@@ -5704,3 +5704,59 @@
     since_version: 2026.1.0
     stable_platforms: win
     unstable_platforms: ''
+-
+    id: 'phoenixvr:necrono'
+    support: good
+    notes: '- Only Steam/GOG versions are supported'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'alg:maddog'
+    support: good
+    notes: '- Only DOS version is supported'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: 'alg:johnroc'
+    support: good
+    notes: '- Only DOS version is supported'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: 'alg:spirates'
+    support: good
+    notes: '- Only DOS version is supported'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: 'alg:maddog2'
+    support: good
+    notes: '- Only DOS version is supported'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: 'alg:cpatrol'
+    support: good
+    notes: '- Only DOS version is supported'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: 'alg:dwars'
+    support: good
+    notes: '- Only DOS version is supported'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''
+-
+    id: 'alg:lbhunter'
+    support: good
+    notes: '- Only DOS version is supported'
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''

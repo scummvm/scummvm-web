@@ -108,6 +108,10 @@
     name: 'Alcachofa Soft'
     alt_name: ''
 -
+    id: alg
+    name: 'American Laser Games'
+    alt_name: ''
+-
     id: aloalo
     name: 'Aloalo International'
     alt_name: ''
@@ -624,10 +628,6 @@
     name: 'Flashpoint Productions'
     alt_name: ''
 -
-    id: fictionalgames
-    name: 'Fictional Games AB'
-    alt_name: ''
--
     id: flippingtree
     name: FlippingTree
     alt_name: ''
@@ -652,6 +652,10 @@
     name: 'Fractal Mind'
     alt_name: ''
 -
+    id: frictionalgames
+    name: 'Frictional Games AB'
+    alt_name: ''
+-
     id: frostlind
     name: 'Frostlind Games'
     alt_name: ''
@@ -670,6 +674,10 @@
 -
     id: funhouse
     name: 'Funhouse Design'
+    alt_name: ''
+-
+    id: gamos
+    name: 'Gamos Ltd.'
     alt_name: ''
 -
     id: gingertips

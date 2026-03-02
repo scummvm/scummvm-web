@@ -6230,6 +6230,104 @@
     wikipedia_page: 'Mortadelo_y_Filemón:_Una_Aventura_de_Cine'
     series_id: ''
 -
+    id: 'alg:maddog'
+    name: 'Mad Dog McCree'
+    engine_id: alg
+    company_id: alg
+    year: '1990'
+    moby_id: '457'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: Mad_Dog_McCree
+    wikipedia_page: Mad_Dog_McCree
+    series_id: ''
+-
+    id: 'alg:johnroc'
+    name: 'Who Shot Johnny Rock?'
+    engine_id: alg
+    company_id: alg
+    year: '1991'
+    moby_id: '890'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: Who_Shot_Johnny_Rock%3F
+    wikipedia_page: Who_Shot_Johnny_Rock%3F
+    series_id: ''
+-
+    id: 'alg:spirates'
+    name: 'Space Pirates'
+    engine_id: alg
+    company_id: alg
+    year: '1992'
+    moby_id: '769'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: Space_Pirates
+    wikipedia_page: Space_Pirates_(video_game)
+    series_id: ''
+-
+    id: 'alg:maddog2'
+    name: 'Mad Dog II: The Lost Gold'
+    engine_id: alg
+    company_id: alg
+    year: '1992'
+    moby_id: '857'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: 'Mad_Dog_II:_The_Lost_Gold'
+    wikipedia_page: 'Mad_Dog_II:_The_Lost_Gold'
+    series_id: ''
+-
+    id: 'alg:cpatrol'
+    name: 'Crime Patrol'
+    engine_id: alg
+    company_id: alg
+    year: '1993'
+    moby_id: '459'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: Crime_Patrol
+    wikipedia_page: Crime_Patrol_(video_game)
+    series_id: ''
+-
+    id: 'alg:dwars'
+    name: 'Crime Patrol 2: Drug Wars'
+    engine_id: alg
+    company_id: alg
+    year: '1993'
+    moby_id: '768'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: 'Crime_Patrol_2:_Drug_Wars'
+    wikipedia_page: 'Crime_Patrol_2:_Drug_Wars'
+    series_id: ''
+-
+    id: 'alg:lbhunter'
+    name: 'The Last Bounty Hunter'
+    engine_id: alg
+    company_id: alg
+    year: '1994'
+    moby_id: '767'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: 'The Last Bounty Hunter'
+    wikipedia_page: The_Last_Bounty_Hunter
+    series_id: ''
+-
     id: 'asylum:asylum'
     name: Sanitarium
     engine_id: asylum
@@ -7574,6 +7672,104 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'gamos:solgamer'
+    name: '21 Solitaire'
+    engine_id: gamos
+    company_id: gamos
+    year: '1998'
+    moby_id: '53160'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'gamos:pilots1'
+    name: 'Pilot Brothers: On the Track of Striped Elephant'
+    engine_id: gamos
+    company_id: gamos
+    year: '1997'
+    moby_id: '9863'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: pilotbrothers
+-
+    id: 'gamos:pilots2'
+    name: 'Pilot Brothers: The Case of Serial Maniac'
+    engine_id: gamos
+    company_id: gamos
+    year: '1998'
+    moby_id: '13055'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: pilotbrothers
+-
+    id: 'gamos:wild'
+    name: WildSnake
+    engine_id: gamos
+    company_id: gamos
+    year: '1998'
+    moby_id: '94950'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'gamos:flop'
+    name: Flip-Flop
+    engine_id: gamos
+    company_id: gamos
+    year: '1995'
+    moby_id: '93698'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'gamos:netwalk'
+    name: NetWalk
+    engine_id: gamos
+    company_id: gamos
+    year: '1996'
+    moby_id: '93839'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
+    id: 'gamos:vitamin'
+    name: Vitamin
+    engine_id: gamos
+    company_id: gamos
+    year: '1998'
+    moby_id: '94868'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'glk:adrift'
     name: 'ADRIFT Interactive Fiction games'
     engine_id: glk
@@ -8837,7 +9033,7 @@
     id: 'hpl1:penumbraoverture'
     name: 'Penumbra: Overture'
     engine_id: hpl1
-    company_id: fictionalgames
+    company_id: frictionalgames
     year: '2007'
     moby_id: '27347'
     steam_id: '22180'
@@ -10103,7 +10299,7 @@
     steam_id: '31850'
     gog_id: ''
     zoom_id: ''
-    additional_stores: " - [Developer's Website](https://www.herinteractive.com/shop-games/nancy-drew-ghost-dogs-of-moon-lake/)"
+    additional_stores: "- [Developer's Website](https://www.herinteractive.com/shop-games/nancy-drew-ghost-dogs-of-moon-lake/)"
     datafiles: 'Nancy_Drew:_Ghost_Dogs_of_Moon_Lake'
     wikipedia_page: 'Nancy_Drew:_Ghost_Dogs_of_Moon_Lake'
     series_id: nancy
@@ -10219,6 +10415,48 @@
     datafiles: ''
     wikipedia_page: ''
     series_id: petka
+-
+    id: 'phoenixvr:necrono'
+    name: 'Necronomicon: The Dawning of Darkness'
+    engine_id: phoenixvr
+    company_id: dreamcatcherinteractive
+    year: '2001'
+    moby_id: '4798'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: 'Necronomicon:_The_Dawning_of_Darkness'
+    wikipedia_page: 'Necronomicon:_The_Dawning_of_Darkness'
+    series_id: ''
+-
+    id: 'phoenixvr:lochness'
+    name: 'The Cameron Files: The Secret at Loch Ness'
+    engine_id: phoenixvr
+    company_id: dreamcatcherinteractive
+    year: '2001'
+    moby_id: '5539'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: 'The_Cameron_Files:_Secret_at_Loch_Ness'
+    series_id: ''
+-
+    id: 'phoenixvr:messenger'
+    name: 'The Messenger/Louvre: The Final Curse'
+    engine_id: phoenixvr
+    company_id: dreamcatcherinteractive
+    year: '2000'
+    moby_id: '3375'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: 'The Messenger (2000 video game)'
+    series_id: ''
 -
     id: 'pink:peril'
     name: 'The Pink Panther: Passport to Peril'
@@ -10470,7 +10708,7 @@
     additional_stores: ''
     datafiles: 'Dog-n-cat:_In_the_Footsteps_of_Unprecedented_Beasts'
     wikipedia_page: ''
-    series_id: dogcat
+    series_id: dogncat
 -
     id: 'qdengine:dogncat2'
     name: 'Dog-n-cat: Island of Dr Rattardy'
@@ -10484,7 +10722,7 @@
     additional_stores: ''
     datafiles: 'Dog-n-cat:_Island_of_Dr_Ratiarty'
     wikipedia_page: ''
-    series_id: dogcat
+    series_id: dogncat
 -
     id: 'queen:queen'
     name: 'Flight of the Amazon Queen'

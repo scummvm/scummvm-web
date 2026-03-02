@@ -504,6 +504,42 @@
     language3: ''
     url: /frs/demos/alcachofa/aventuradecine-win-demo-de.zip
 -
+    id: 'alg:cpatrol'
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/alg/cpatrol-dos-demo-en.zip
+-
+    id: 'alg:dwars'
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/alg/dwars-dos-demo-en.zip
+-
+    id: 'alg:lbhunter'
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/alg/lbhunter-dos-demo-en.zip
+-
+    id: 'alg:spirates'
+    platform: dos
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/alg/spirates-dos-demo-en.zip
+-
     id: 'asylum:asylum'
     platform: win
     '': ''
