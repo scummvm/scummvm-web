@@ -8,7 +8,7 @@ Ancient evil stirs, the grim times approaching. And it's up to you, our brave in
 
 The ScummVM Team is pleased to announce full support for [_Necronomicon: The Dawning of Darkness_](https://wiki.scummvm.org/index.php?title=Necronomicon:_The_Dawning_of_Darkness). This _Cryo Interactive_ adventure from 2001 draws deep from the well of H.P. Lovecraft's works, casting players into creeping madness.
 
-Grab your portion of the [ScummVM daily build](https://github.com/scummvm/scummvm-web/blob/master/downloads/#daily), prepare your copy of the game (or get it from [Steam](https://store.steampowered.com/app/302390/Necronomicon_The_Dawning_of_Darkness/), roll up your sleeves, and dive into the unknown depths of this game.
+Grab your portion of the [ScummVM daily build](https://buildbot.scummvm.org/#/dailybuilds), prepare your copy of the game (or get it from [Steam](https://store.steampowered.com/app/302390/Necronomicon_The_Dawning_of_Darkness/), roll up your sleeves, and dive into the unknown depths of this game.
 
 And if you encounter any oddities (but not mishaps), please be kind to submit your bug report to [our tracker](https://bugs.scummvm.org).
 
