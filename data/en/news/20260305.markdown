@@ -1,0 +1,22 @@
+---
+title: Howdy Stranger! We need your help...
+author: dckone
+date: 1772729755
+---
+
+Yippee-ki-yay! The ScummVM Team is pleased to announce support for the DOS versions of the following titles created by American Laser Games:
+* _Crime Patrol_
+* _Crime Patrol 2: Drug Wars_
+* _The Last Bounty Hunter_
+* _Mad Dog McCree_
+* _Mad Dog II: The Lost Gold_
+* _Space Pirates_
+* _Who Shot Johnny Rock?_
+
+Grab your game CD (only DOS versions are supported currently), the [daily build](https://buildbot.scummvm.org/#/dailybuilds), shoot some baddies before they shoot you, and report any bugs you might encounter on your adventures.
+
+Or, if you don’t have any of those games but still want in on the fun, try one of the [demos](https://www.scummvm.org/demos) available.
+
+Before you start your test run, we encourage you to read through our [testing guidelines](http://wiki.scummvm.org/index.php/Release_Testing), and please take some [screenshots](http://wiki.scummvm.org/index.php/Screenshots) along the way.
+
+And if the bunch of lawless villains always draw their six-shooters before you do, call the sheriff (or check the [wiki page](https://wiki.scummvm.org/index.php?title=ALG#Debugger) to find out how to cheat your way through).
