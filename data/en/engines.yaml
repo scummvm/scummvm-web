@@ -33,7 +33,7 @@
     id: alg
     name: ALG
     alt_name: 'American Laser Games'
-    enabled: false
+    enabled: true
 -
     id: asylum
     name: Asylum
