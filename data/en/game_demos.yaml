@@ -3970,6 +3970,15 @@
     url: /frs/demos/scumm/atlantis-dos-ni-demo-en.zip
 -
     id: 'scumm:atlantis'
+    platform: dos
+    '': ''
+    category: ''
+    language: ja
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/atlantis-dos-demo-jp.zip
+-
+    id: 'scumm:atlantis'
     platform: fmtowns
     '': ''
     category: 'Japanese Non-Interactive'
