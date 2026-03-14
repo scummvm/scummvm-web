@@ -28,7 +28,7 @@ updates:
     groups:
       eslint:
         patterns:
-          - "@eslint/*"
+          - "@eslint/js"
           - "@stylistic/eslint-plugin"
           - "eslint"
           - "eslint-config-preact"
