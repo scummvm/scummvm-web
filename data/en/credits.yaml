@@ -334,6 +334,17 @@
         alias: "Helco"
         description: ""
     -
+      name: "ALG"
+      person:
+      -
+        name: "Filippos Karapetis"
+        alias: "bluegr"
+        description: ""
+      -
+        name: "David Kment"
+        alias: "dckone"
+        description: ""
+    -
       name: "Asylum"
       person:
       -
@@ -723,8 +734,19 @@
         alias: ""
         description: "Sound engine programming"
       -
+        name: "Dhruv"
+        alias: ""
+        description: "Render engine fixes"
+      -
         name: "Gustavo Grieco"
         alias: "neuromancer"
+        description: ""
+    -
+      name: "Gamos"
+      person:
+      -
+        name: "Anton Yarcev"
+        alias: "Zidane"
         description: ""
     -
       name: "Glk"
@@ -2607,7 +2629,7 @@
         alias: "felsqualle"
         description: ""
   -
-    title: "GUI Translations"
+    title: "GUI Translations (with 10+ translations)"
     anchor: "gui_translations"
     group:
     -
@@ -2618,8 +2640,19 @@
         alias: "criezy"
         description: "Translation Lead"
     -
+      name: "Arabic"
+      person:
+      -
+        name: "Malek Bellasfar"
+        alias: "DoomHEADSHOT"
+        description: ""
+    -
       name: "Basque"
       person:
+      -
+        name: "Josu Igoa"
+        alias: "josuigoa"
+        description: ""
       -
         name: "Mikel Iturbe Urretxa"
         alias: ""
@@ -2632,22 +2665,64 @@
         alias: ""
         description: ""
     -
+      name: "Belarusian (Taraškievica)"
+      person:
+      -
+        name: "???"
+        alias: "Kage"
+        description: ""
+    -
       name: "Catalan"
       person:
       -
+        name: "Sergi Pérez Labernia"
+        alias: "sperezl"
+        description: ""
+      -
         name: "Jordi Vilalta Prat"
         alias: "jvprat"
+        description: ""
+      -
+        name: "Xaviu"
+        alias: ""
+        description: ""
+    -
+      name: "Chinese (Simplified Han script)"
+      person:
+      -
+        name: "复予"
+        alias: "CloneWith"
+        description: ""
+      -
+        name: "Crane yang"
+        alias: "ysj1173886760"
+        description: ""
+      -
+        name: "Xiao Zheng"
+        alias: "CaesarZX"
+        description: ""
+      -
+        name: "???"
+        alias: "kane159"
         description: ""
     -
       name: "Czech"
       person:
       -
         name: "Zbyn&igrave;k Schwarz"
-        alias: ""
+        alias: "tsbook"
+        description: ""
+      -
+        name: "???"
+        alias: "AsciiWolf"
         description: ""
     -
       name: "Danish"
       person:
+      -
+        name: "Bo Mortensen"
+        alias: "Boz0r"
+        description: ""
       -
         name: "Steffen Nyeland"
         alias: ""
@@ -2663,20 +2738,32 @@
         name: "Ben Castricum"
         alias: ""
         description: ""
+      -
+        name: "???"
+        alias: "SecularSteve"
+        description: ""
     -
       name: "Finnish"
       person:
       -
-        name: "Linus Virtanen"
-        alias: ""
+        name: "Timo Mikkolainen"
+        alias: "timpii"
         description: ""
       -
         name: "Toni Saarela"
         alias: "catnose"
         description: ""
       -
-        name: "Timo Mikkolainen"
-        alias: "timpii"
+        name: "Linus Virtanen"
+        alias: ""
+        description: ""
+      -
+        name: "???"
+        alias: "jepael"
+        description: ""
+      -
+        name: "???"
+        alias: "LINUX-SAUNA"
         description: ""
     -
       name: "French"
@@ -2684,6 +2771,10 @@
       -
         name: "Thierry Crozat"
         alias: "criezy"
+        description: ""
+      -
+        name: "Donovan Watteau"
+        alias: "dwatteau"
         description: ""
       -
         name: "???"
@@ -2697,26 +2788,63 @@
         alias: "sgsanz"
         description: ""
     -
+      name: "Georgian"
+      person:
+      -
+        name: "???"
+        alias: "NorwayFun"
+        description: ""
+    -
       name: "German"
       person:
+      -
+        name: "Lothar Serra Mari"
+        alias: "felsqualle"
+        description: ""
       -
         name: "Simon Sawatzki"
         alias: "SimSaw"
         description: ""
       -
-        name: "Lothar Serra Mari"
-        alias: "felsqualle"
+        name: "???"
+        alias: "SecularSteve"
         description: ""
     -
       name: "Greek"
       person:
       -
-        name: "Thanasis Antoniou"
-        alias: "Praetorian"
-        description: ""
-      -
         name: "Filippos Karapetis"
         alias: "bluegr"
+        description: ""
+      -
+        name: "Antoniou Thanasis"
+        alias: "Praetorian"
+        description: ""
+    -
+      name: "Hebrew"
+      person:
+      -
+        name: "Niv Baehr"
+        alias: "blooperz"
+        description: ""
+    -
+      name: "Hindi"
+      person:
+      -
+        name: "Krish"
+        alias: "Krish2882005"
+        description: ""
+      -
+        name: "Aditya Mohan"
+        alias: "Brakkugit"
+        description: ""
+      -
+        name: "Aashwin Vaish"
+        alias: "av-dx"
+        description: ""
+      -
+        name: "???"
+        alias: "barryspacezero"
         description: ""
     -
       name: "Hungarian"
@@ -2729,9 +2857,17 @@
         name: "George Kormendi"
         alias: "GoodOldGeorg"
         description: ""
+      -
+        name: "Hovánszki Tamás"
+        alias: "mdv"
+        description: ""
     -
       name: "Italian"
       person:
+      -
+        name: "Walter Agazzi"
+        alias: "tag2015"
+        description: ""
       -
         name: "Matteo Angelino"
         alias: "Maff"
@@ -2740,16 +2876,50 @@
         name: "Paolo Bossi"
         alias: ""
         description: ""
+    -
+      name: "Japanese"
+      person:
       -
-        name: "Walter Agazzi"
-        alias: "tag2015"
+        name: "???"
+        alias: "iplaysomegames101"
+        description: ""
+      -
+        name: "???"
+        alias: "VAN-Gluon"
+        description: ""
+    -
+      name: "Korean"
+      person:
+      -
+        name: "Joohan Lee"
+        alias: "losernator"
+        description: ""
+      -
+        name: "Hoseok Seo"
+        alias: "DDinghoya"
+        description: ""
+      -
+        name: "Won Star"
+        alias: "wonst719"
+        description: ""
+      -
+        name: "???"
+        alias: "papercutter0324"
         description: ""
     -
       name: "Norwegian (Bokm&aring;l)"
       person:
       -
+        name: "Thomas Risan"
+        alias: "pncFreak"
+        description: ""
+      -
         name: "Einar Johan S&oslash;m&aring;en"
         alias: "somaen"
+        description: ""
+      -
+        name: "Stian Schultz"
+        alias: "Carnivol"
         description: ""
     -
       name: "Norwegian (Nynorsk)"
@@ -2762,19 +2932,31 @@
       name: "Polish"
       person:
       -
-        name: "GrajPoPolsku.pl Team"
-        alias: ""
+        name: "Pawe&#322; Ko&#322;odziejski"
+        alias: "aquadran"
+        description: ""
+      -
+        name: "Eryk Michalak"
+        alias: "gnu-ewm"
+        description: ""
+      -
+        name: "???"
+        alias: "GrajPoPolsku.pl Team"
+        description: ""
+      -
+        name: "???"
+        alias: "SkiffPL"
         description: ""
     -
       name: "Brazilian Portuguese"
       person:
       -
-        name: "ScummBR Team"
-        alias: ""
-        description: ""
-      -
         name: "Marcel Souza Lemes"
         alias: "marcosoutsider"
+        description: ""
+      -
+        name: "ScummBR Team"
+        alias: ""
         description: ""
     -
       name: "Portuguese"
@@ -2790,6 +2972,10 @@
         name: "Eugene Sandulenko"
         alias: "sev"
         description: ""
+      -
+        name: "???"
+        alias: "iplaysomegames101"
+        description: ""
     -
       name: "Spanish"
       person:
@@ -2802,16 +2988,20 @@
         alias: "jvprat"
         description: ""
       -
-        name: "???"
-        alias: "IlDucci"
-        description: ""
-      -
         name: "Rodrigo Vegas S&aacute;nchez-Ferrero"
         alias: ""
+        description: ""
+      -
+        name: "???"
+        alias: "IlDucci"
         description: ""
     -
       name: "Swedish"
       person:
+      -
+        name: "Henrik Andersson"
+        alias: "Henke37"
+        description: ""
       -
         name: "Hampus Flink"
         alias: ""
@@ -2824,6 +3014,21 @@
         name: "Daniel Nylander"
         alias: ""
         description: ""
+      -
+        name: "Sebastian Rasmussen"
+        alias: "sebras"
+        description: ""
+    -
+      name: "Turkish"
+      person:
+      -
+        name: "Ahmet Furkan"
+        alias: "ahmetfkocaoglu"
+        description: ""
+      -
+        name: "???"
+        alias: "mdenizdemirci"
+        description: ""
     -
       name: "Ukrainian"
       person:
@@ -2834,6 +3039,10 @@
       -
         name: "Eugene Sandulenko"
         alias: "sev"
+        description: ""
+      -
+        name: "???"
+        alias: "iplaysomegames101"
         description: ""
   -
     title: "Game Translations"
