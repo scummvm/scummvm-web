@@ -12,7 +12,7 @@
     "punycode": "^2.3.1",
     "ts-loader": "^9.5.4",
     "webpack": "^5.105.4",
-    "webpack-cli": "^6.0.1"
+    "webpack-cli": "^7.0.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
