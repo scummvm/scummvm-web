@@ -5,7 +5,7 @@
     subcategory: release
     category_icon: windows
     user_agent: Windows
-    version: 2026.1.0
+    version: 2026.2.0
     url: 'scummvm-{$version}-win32.exe'
     name: 'Windows Installer (32 and 64 bit)'
     notes: ''
@@ -15,7 +15,7 @@
     subcategory: release
     category_icon: windows
     user_agent: ''
-    version: 2026.1.0
+    version: 2026.2.0
     url: 'scummvm-{$version}-win32-x86_64.zip'
     name: 'Windows zipfile (64 bit)'
     notes: ''
@@ -25,7 +25,7 @@
     subcategory: release
     category_icon: windows
     user_agent: ''
-    version: 2026.1.0
+    version: 2026.2.0
     url: 'scummvm-{$version}-win32.zip'
     name: 'Windows zipfile (32 bit)'
     notes: ''
@@ -62,7 +62,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: win95
     user_agent: ''
     version: 2026.1.0
@@ -72,7 +72,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: snap
     user_agent: Ubuntu
     version: 2026.1.0
@@ -82,7 +82,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: flatpak
     user_agent: ''
     version: 2026.1.0
@@ -92,7 +92,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: debian
     user_agent: Debian
     version: 2026.1.0
@@ -102,7 +102,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: debian
     user_agent: ''
     version: 2026.1.0
@@ -112,7 +112,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: debian
     user_agent: ''
     version: 2026.1.0
@@ -122,7 +122,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: debian
     user_agent: ''
     version: 2026.1.0
@@ -132,7 +132,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: debian
     user_agent: ''
     version: 2026.1.0
@@ -192,7 +192,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: ubuntu
     user_agent: ''
     version: 2026.1.0
@@ -202,7 +202,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: ubuntu
     user_agent: ''
     version: 2026.1.0
@@ -212,7 +212,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: ubuntu
     user_agent: ''
     version: 2026.1.0
@@ -222,7 +222,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: ubuntu
     user_agent: ''
     version: 2026.1.0
@@ -355,14 +355,14 @@
     subcategory: release
     category_icon: macos
     user_agent: Mac
-    version: 2026.1.0
+    version: 2026.2.0
     url: 'scummvm-{$version}-macosx.dmg'
     name: 'macOS 10.13+ for Intel and Apple Silicon, with Sparkle Disk Image'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: macos
     user_agent: ''
     version: 2026.1.0
@@ -372,7 +372,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: macostiger
     user_agent: ''
     version: 2026.1.0
@@ -382,7 +382,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: macosppc
     user_agent: ''
     version: 2026.1.0
@@ -412,7 +412,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: ps3
     user_agent: ''
     version: 2026.1.0
@@ -432,7 +432,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: psp
     user_agent: ''
     version: 2026.1.0
@@ -442,7 +442,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: psp2
     user_agent: 'PlayStation Portable'
     version: 2026.1.0
@@ -452,7 +452,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: android
     user_agent: Android
     version: 2026.1.0
@@ -462,7 +462,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: android
     user_agent: ''
     version: 2026.1.0
@@ -472,7 +472,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: android
     user_agent: ''
     version: 2026.1.0
@@ -482,7 +482,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: android
     user_agent: ''
     version: 2026.1.0
@@ -492,7 +492,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: android
     user_agent: ''
     version: 2026.1.0
@@ -502,7 +502,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: android
     user_agent: ''
     version: 2026.1.0
@@ -612,7 +612,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: iphone
     user_agent: iOS
     version: 2026.1.0
@@ -672,7 +672,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: dc
     user_agent: ''
     version: 2026.1.0
@@ -682,7 +682,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: dc
     user_agent: ''
     version: 2026.1.0
@@ -712,7 +712,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: 3ds
     user_agent: ''
     version: 2026.1.0
@@ -722,7 +722,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: 3ds
     user_agent: ''
     version: 2026.1.0
@@ -752,7 +752,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: wii
     user_agent: ''
     version: 2026.1.0
@@ -762,7 +762,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: switch
     user_agent: ''
     version: 2026.1.0
@@ -832,7 +832,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: dingux
     user_agent: ''
     version: 2026.1.0
@@ -842,7 +842,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: dingux
     user_agent: ''
     version: 2026.1.0
@@ -862,7 +862,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: dingux
     user_agent: ''
     version: 2026.1.0
@@ -1082,7 +1082,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: haiku
     user_agent: ''
     version: 2026.1.0
@@ -1092,7 +1092,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: haiku
     user_agent: ''
     version: 2026.1.0
@@ -1112,7 +1112,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: morphos
     user_agent: ''
     version: 2026.1.0
@@ -1122,7 +1122,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: riscos
     user_agent: 'RISC OS'
     version: 2026.1.0
@@ -1132,7 +1132,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: riscos
     user_agent: ''
     version: 2026.1.0
@@ -1142,7 +1142,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: atari-lite
     user_agent: ''
     version: 2026.1.0
@@ -1152,7 +1152,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: atari-full
     user_agent: ''
     version: 2026.1.0
@@ -1162,7 +1162,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: firebee
     user_agent: ''
     version: 2026.1.0
@@ -1255,7 +1255,7 @@
     subcategory: source
     category_icon: cpp
     user_agent: ''
-    version: 2026.1.0
+    version: 2026.2.0
     url: 'scummvm-{$version}.tar.lz'
     name: 'ScummVM - Source.tar.lz'
     notes: ''
@@ -1265,7 +1265,7 @@
     subcategory: source
     category_icon: cpp
     user_agent: ''
-    version: 2026.1.0
+    version: 2026.2.0
     url: 'scummvm-{$version}.tar.xz'
     name: 'ScummVM - Source.tar.xz'
     notes: ''
@@ -1275,7 +1275,7 @@
     subcategory: source
     category_icon: cpp
     user_agent: ''
-    version: 2026.1.0
+    version: 2026.2.0
     url: 'scummvm-{$version}.tar.bz2'
     name: 'ScummVM - Source.tar.bz2'
     notes: ''
@@ -1285,7 +1285,7 @@
     subcategory: source
     category_icon: cpp
     user_agent: ''
-    version: 2026.1.0
+    version: 2026.2.0
     url: 'scummvm-{$version}.tar.gz'
     name: 'ScummVM - Source.tar.gz'
     notes: ''
@@ -1295,7 +1295,7 @@
     subcategory: source
     category_icon: cpp
     user_agent: ''
-    version: 2026.1.0
+    version: 2026.2.0
     url: 'scummvm-{$version}.zip'
     name: 'ScummVM - Source.zip'
     notes: ''

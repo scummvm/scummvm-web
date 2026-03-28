@@ -78,6 +78,9 @@
     id: cosmos
     name: 'Cosmos Quest'
 -
+    id: cpatrol
+    name: 'Crime Patrol'
+-
     id: crusader
     name: Crusader
 -
@@ -191,6 +194,9 @@
 -
     id: lsl
     name: 'Leisure Suit Larry'
+-
+    id: maddog
+    name: 'Mad Dog McCree'
 -
     id: magictales
     name: 'Magic Tales'

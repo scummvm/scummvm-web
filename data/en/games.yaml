@@ -6242,7 +6242,7 @@
     additional_stores: ''
     datafiles: Mad_Dog_McCree
     wikipedia_page: Mad_Dog_McCree
-    series_id: ''
+    series_id: maddog
 -
     id: 'alg:johnroc'
     name: 'Who Shot Johnny Rock?'
@@ -6284,7 +6284,7 @@
     additional_stores: ''
     datafiles: 'Mad_Dog_II:_The_Lost_Gold'
     wikipedia_page: 'Mad_Dog_II:_The_Lost_Gold'
-    series_id: ''
+    series_id: maddog
 -
     id: 'alg:cpatrol'
     name: 'Crime Patrol'
@@ -6298,7 +6298,7 @@
     additional_stores: ''
     datafiles: Crime_Patrol
     wikipedia_page: Crime_Patrol_(video_game)
-    series_id: ''
+    series_id: cpatrol
 -
     id: 'alg:dwars'
     name: 'Crime Patrol 2: Drug Wars'
@@ -6312,7 +6312,7 @@
     additional_stores: ''
     datafiles: 'Crime_Patrol_2:_Drug_Wars'
     wikipedia_page: 'Crime_Patrol_2:_Drug_Wars'
-    series_id: ''
+    series_id: cpatrol
 -
     id: 'alg:lbhunter'
     name: 'The Last Bounty Hunter'
