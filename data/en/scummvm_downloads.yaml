@@ -362,20 +362,20 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: macos
     user_agent: ''
-    version: 2026.1.0
+    version: 2026.2.0
     url: 'scummvm-{$version}-macosx-x86_64.dmg'
     name: 'Mac OS X 10.9+ Intel 64 Bits (without Sparkle) Disk Image'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: macostiger
     user_agent: ''
-    version: 2026.1.0
+    version: 2026.2.0
     url: 'scummvm-{$version}-macosx-i386.dmg'
     name: 'Mac OS X 10.6+ Intel 32 bits (without Sparkle) Disk Image'
     notes: ''
