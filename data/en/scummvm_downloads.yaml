@@ -72,10 +72,10 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: snap
     user_agent: Ubuntu
-    version: 2026.1.0
+    version: 2026.2.0
     url: 'https://snapcraft.io/scummvm'
     name: 'Snap package hosted at the snapcraft.io store'
     notes: ''
