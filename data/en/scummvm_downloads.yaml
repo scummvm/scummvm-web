@@ -1122,20 +1122,20 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: riscos
     user_agent: 'RISC OS'
-    version: 2026.1.0
+    version: 2026.2.0
     url: 'scummvm-{$version}-riscos.zip'
     name: 'RISC OS package'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: riscos
     user_agent: ''
-    version: 2026.1.0
+    version: 2026.2.0
     url: 'scummvm-{$version}-riscos-vfp.zip'
     name: 'RISC OS VFP package'
     notes: ''
