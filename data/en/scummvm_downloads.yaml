@@ -832,20 +832,20 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: dingux
     user_agent: ''
-    version: 2026.1.0
+    version: 2026.2.0
     url: 'scummvm-{$version}-gcw0.opk'
     name: 'OpenDingux package for GCW0'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: dingux
     user_agent: ''
-    version: 2026.1.0
+    version: 2026.2.0
     url: 'scummvm-{$version}-lepus.opk'
     name: 'OpenDingux package for Lepus'
     notes: ''
@@ -862,10 +862,10 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: dingux
     user_agent: ''
-    version: 2026.1.0
+    version: 2026.2.0
     url: 'scummvm-{$version}-rs90.opk'
     name: 'OpenDingux package for RS90/RG99'
     notes: ''
