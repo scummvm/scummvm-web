@@ -672,20 +672,20 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: dc
     user_agent: ''
-    version: 2026.1.0
+    version: 2026.2.0
     url: 'scummvm-{$version}-dreamcast-plainfiles.tar.bz2'
     name: 'Dreamcast plain files'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: dc
     user_agent: ''
-    version: 2026.1.0
+    version: 2026.2.0
     url: 'scummvm-{$version}-dreamcast-nero+demos.zip'
     name: 'Dreamcast Nero Image & Demos'
     notes: ''
