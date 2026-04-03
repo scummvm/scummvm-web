@@ -382,10 +382,10 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: macosppc
     user_agent: ''
-    version: 2026.1.0
+    version: 2026.2.0
     url: 'scummvm-{$version}-macosx-ppc.dmg'
     name: 'Mac OS X 10.4+ PPC 32 bits (without Sparkle) Disk Image'
     notes: ''
