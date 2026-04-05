@@ -10,6 +10,7 @@
     "@zip.js/zip.js": "^2.8.26",
     "preact": "^10.29.0",
     "punycode": "^2.3.1",
+    "@types/punycode": "^2.1.4",
     "ts-loader": "^9.5.7",
     "webpack": "^5.105.4",
     "webpack-cli": "^7.0.2"
@@ -20,7 +21,6 @@
     "eslint": "^9.39.1",
     "eslint-config-preact": "^2.0.0",
     "globals": "^17.3.0",
-    "typescript-eslint": "^8.54.0",
-    "@types/punycode": "^2.1.4"
+    "typescript-eslint": "^8.54.0"
   }
 }

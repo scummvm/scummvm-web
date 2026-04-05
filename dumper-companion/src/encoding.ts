@@ -20,12 +20,12 @@ export enum Language {
 
 export function getLanguages(): string[] {
     return Object.keys(Language).map(
-        // Typecast to string as the key obviously exists
-        (key: string): string => Language[key] as string);
+        // Typecast to keyof as the key obviously exists
+        (key: string): string => Language[key as keyof typeof Language]);
 }
 
 
-export function decodeLanguage(str: Uint8Array, lang: Language, log: (string) => void): string {
+export function decodeLanguage(str: Uint8Array, lang: Language, log: (_:string) => void): string {
     switch (lang) {
     case Language.DA:
     case Language.NL:
@@ -92,7 +92,7 @@ function needsPunycode(str: string) {
 }
 
 
-export function encodeFileName(str: Uint8Array, lang: Language, puny: boolean, log: (string) => void): string {
+export function encodeFileName(str: Uint8Array, lang: Language, puny: boolean, log: (_:string) => void): string {
     const unicodeStr = decodeLanguage(str, lang, log);
 
     const forcePunycode = needsPunycode(unicodeStr);
@@ -138,7 +138,7 @@ export function decodeMacRoman(str: Uint8Array): string {
  */
 
 /* eslint-disable no-sparse-arrays */
-const macJapaneseMap: Record<string, string[]> = {
+const macJapaneseMap: Record<string, (string | undefined)[]> = {
     '81': ['　','、','。','，','．','・','：','；','？','！','゛','゜','´','｀','¨','＾','￣','＿','ヽ','ヾ','ゝ','ゞ','〃','仝','々','〆','〇','ー','—','‐','／','＼','〜','‖','｜','…','‥','‘','’','“','”','（','）','〔','〕','［','］','｛','｝','〈','〉','《','》','「','」','『','』','【','】','＋','−','±','×',,'÷','＝','≠','＜','＞','≦','≧','∞','∴','♂','♀','°','′','″','℃','￥','＄','¢','£','％','＃','＆','＊','＠','§','☆','★','○','●','◎','◇','◆','□','■','△','▲','▽','▼','※','〒','→','←','↑','↓','〓',,,,,,,,,,,,'∈','∋','⊆','⊇','⊂','⊃','∪','∩',,,,,,,,,'∧','∨','¬','⇒','⇔','∀','∃',,,,,,,,,,,,'∠','⊥','⌒','∂','∇','≡','≒','≪','≫','√','∽','∝','∵','∫','∬',,,,,,,,'Å','‰','♯','♭','♪','†','‡','¶',,,,,'◯'],
     '82': [,,,,,,,,,,,,,,,'０','１','２','３','４','５','６','７','８','９',,,,,,,,'Ａ','Ｂ','Ｃ','Ｄ','Ｅ','Ｆ','Ｇ','Ｈ','Ｉ','Ｊ','Ｋ','Ｌ','Ｍ','Ｎ','Ｏ','Ｐ','Ｑ','Ｒ','Ｓ','Ｔ','Ｕ','Ｖ','Ｗ','Ｘ','Ｙ','Ｚ',,,,,,,,'ａ','ｂ','ｃ','ｄ','ｅ','ｆ','ｇ','ｈ','ｉ','ｊ','ｋ','ｌ','ｍ','ｎ','ｏ','ｐ','ｑ','ｒ','ｓ','ｔ','ｕ','ｖ','ｗ','ｘ','ｙ','ｚ',,,,,'ぁ','あ','ぃ','い','ぅ','う','ぇ','え','ぉ','お','か','が','き','ぎ','く','ぐ','け','げ','こ','ご','さ','ざ','し','じ','す','ず','せ','ぜ','そ','ぞ','た','だ','ち','ぢ','っ','つ','づ','て','で','と','ど','な','に','ぬ','ね','の','は','ば','ぱ','ひ','び','ぴ','ふ','ぶ','ぷ','へ','べ','ぺ','ほ','ぼ','ぽ','ま','み','む','め','も','ゃ','や','ゅ','ゆ','ょ','よ','ら','り','る','れ','ろ','ゎ','わ','ゐ','ゑ','を','ん'],
     '83': ['ァ','ア','ィ','イ','ゥ','ウ','ェ','エ','ォ','オ','カ','ガ','キ','ギ','ク','グ','ケ','ゲ','コ','ゴ','サ','ザ','シ','ジ','ス','ズ','セ','ゼ','ソ','ゾ','タ','ダ','チ','ヂ','ッ','ツ','ヅ','テ','デ','ト','ド','ナ','ニ','ヌ','ネ','ノ','ハ','バ','パ','ヒ','ビ','ピ','フ','ブ','プ','ヘ','ベ','ペ','ホ','ボ','ポ','マ','ミ',,'ム','メ','モ','ャ','ヤ','ュ','ユ','ョ','ヨ','ラ','リ','ル','レ','ロ','ヮ','ワ','ヰ','ヱ','ヲ','ン','ヴ','ヵ','ヶ',,,,,,,,,'Α','Β','Γ','Δ','Ε','Ζ','Η','Θ','Ι','Κ','Λ','Μ','Ν','Ξ','Ο','Π','Ρ','Σ','Τ','Υ','Φ','Χ','Ψ','Ω',,,,,,,,,'α','β','γ','δ','ε','ζ','η','θ','ι','κ','λ','μ','ν','ξ','ο','π','ρ','σ','τ','υ','φ','χ','ψ','ω'],
@@ -187,7 +187,7 @@ const macJapaneseMap: Record<string, string[]> = {
 };
 /* eslint-enable no-sparse-arrays */
 
-export function decodeMacJapanese(str: Uint8Array, log: (string) => void): string {
+export function decodeMacJapanese(str: Uint8Array, log: (_:string) => void): string {
     let res = '';
     for (let i = 0; i < str.length; i++) {
         const hi = str[i];

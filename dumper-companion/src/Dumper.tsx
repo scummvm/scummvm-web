@@ -44,8 +44,8 @@ async function dumpVolume(file: ArrayBuffer, s: DumpSettings): Promise<void> {
 
 export default function Dumper() {
     type Image = {
-        file: File;
-        name: string;
+        file: File | null;
+        name: string | null;
     };
 
     type Progress = {
@@ -103,7 +103,11 @@ export default function Dumper() {
     }
 
     function handleImage(e: Event): void {
-        const file = (e.target as HTMLInputElement).files[0];
+        const files = (e.target as HTMLInputElement).files;
+        if (!files) {
+            return;
+        }
+        const file = files[0];
         const name = file.name.replace(/\.\w+$/, '');
         setImage({file, name});
     }
@@ -124,6 +128,9 @@ export default function Dumper() {
     }}
 
     function handleDump(): void {
+        if (!image.file) {
+            return;
+        }
         starting();
         log(`Loading volume "${image.name}"...`);
         const reader = new FileReader();

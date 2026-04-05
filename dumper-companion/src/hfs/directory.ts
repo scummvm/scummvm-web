@@ -85,14 +85,14 @@ export class AbstractFolder {
             res.push([[name], child]);
             if (child instanceof AbstractFolder) {
                 for (const [each_path, each_child] of child.iter_paths()) {
-                    res.push([[].concat(name, each_path), each_child]);
+                    res.push([(<Uint8Array[]>[]).concat(name, each_path), each_child]);
                 }
             }
         }
         return res;
     }
 
-    dumpToZip(zipDir: ZipDirectoryEntry, lang: Language, puny: boolean, forceMacBinary: boolean, log: (string) => void): ZipDirectoryEntry {
+    dumpToZip(zipDir: ZipDirectoryEntry, lang: Language, puny: boolean, forceMacBinary: boolean, log: (_: string) => void): ZipDirectoryEntry {
         for (const [name, child] of this.items()) {
             const encodedName = encodeFileName(name, lang, puny, log);
             if (child instanceof AbstractFolder) {
@@ -109,7 +109,7 @@ export class AbstractFolder {
     }
 }
 
-function hfs_ts_to_date(hfs_ts) {
+function hfs_ts_to_date(hfs_ts: number) {
     const HFS_UTC_OFFSET = 2082844800;
     if (!hfs_ts) {
         return new Date();
@@ -145,7 +145,7 @@ export class MacFile {
     mddate: number;
     bkdate: number;
 
-    aliastarget: FileOrFolder;
+    aliastarget: FileOrFolder | null;
 
     rsrc: Uint8Array;
     data: Uint8Array;

@@ -135,6 +135,8 @@ export class Volume extends AbstractFolder {
                 fork = 'rsrc';
             else if (xkrFkType === 0)
                 fork = 'data';
+            else
+                throw new Error("Invalid fork type");
             extoflow[`${xkrFNum},${fork},${xkrFABN}`] = extrec;
         }
 

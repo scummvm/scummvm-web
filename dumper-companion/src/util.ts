@@ -3,7 +3,7 @@ export function charCode(charStr: string): number {
 }
 
 export function codePoint(charStr: string): number {
-    return charStr.codePointAt(0);
+    return charStr.codePointAt(0) || NaN;
 }
 
 export function byteToHex(byte: number): string {
