@@ -20,6 +20,7 @@
     "eslint": "^9.39.1",
     "eslint-config-preact": "^2.0.0",
     "globals": "^17.3.0",
-    "typescript-eslint": "^8.54.0"
+    "typescript-eslint": "^8.54.0",
+    "@types/punycode": "^2.1.4"
   }
 }
