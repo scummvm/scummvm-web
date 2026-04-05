@@ -3,7 +3,8 @@
     "sourceMap": true,
     "lib": ["dom", "esnext"],
     "target": "es2015",
-    "moduleResolution": "node",
+    "module": "esnext",
+    "moduleResolution": "bundler",
     "jsx": "react-jsx",
     "jsxImportSource": "preact"
   }
