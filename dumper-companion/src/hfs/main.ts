@@ -63,7 +63,6 @@ export class Volume extends AbstractFolder {
     constructor() {
         super();
 
-        this.crdate = this.mddate = this.bkdate = 0;
         this.name = 'Untitled';
     }
 

@@ -48,6 +48,8 @@ export class AbstractFolder {
     constructor() {
         this._namedict = {}; // key string to raw name
         this._maindict = {}; // key string to contents
+
+        this.crdate = this.mddate = this.bkdate = 0;
     }
 
     update(folder: AbstractFolder): void {
@@ -127,8 +129,6 @@ export class MacFolder extends AbstractFolder {
         this.flags = 0; // help me!
         this.x = 0; // where to put this spatially?
         this.y = 0;
-
-        this.crdate = this.mddate = this.bkdate = 0;
     }
 }
 
