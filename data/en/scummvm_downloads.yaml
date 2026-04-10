@@ -1142,31 +1142,31 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: atari-lite
     user_agent: ''
-    version: 2026.1.0
+    version: 2026.2.0
     url: 'scummvm-{$version}-atari-lite.zip'
     name: 'Atari Lite package (Atari TT / Falcon with 4 + 32 MB RAM)'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: atari-full
     user_agent: ''
-    version: 2026.1.0
+    version: 2026.2.0
     url: 'scummvm-{$version}-atari-full.zip'
     name: 'Atari Full package (Atari Falcon with 4 + 64 MB RAM and 68040 CPU)'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: firebee
     user_agent: ''
-    version: 2026.1.0
-    url: 'scummvm-{$version}-atari-m5475.zip'
+    version: 2026.2.0
+    url: 'scummvm-{$version}-firebee.zip'
     name: 'FireBee package (Coldfire MCF5475 / Firebee)'
     notes: ''
 -
