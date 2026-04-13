@@ -13037,16 +13037,16 @@
     id: 'sludge:fullmoon'
     name: 'Full Moon'
     engine_id: sludge
-    company_id: ''
+    company_id: unknown
     year: '2009'
-    moby_id: ''
+    moby_id: '-1'
     steam_id: ''
     gog_id: ''
     zoom_id: ''
     additional_stores: ''
     datafiles: ''
     wikipedia_page: ''
-    series_id: ''
+    series_id: sludge
 -
     id: 'sludge:interview'
     name: 'The Interview'
@@ -13143,6 +13143,20 @@
     zoom_id: ''
     additional_stores: ''
     datafiles: Robin%27s_Rescue
+    wikipedia_page: ''
+    series_id: sludge
+-
+    id: 'sludge:samnmaxfl'
+    name: 'Sam and Max Flintlocked'
+    engine_id: sludge
+    company_id: unknown
+    year: '2007'
+    moby_id: '-1'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
     wikipedia_page: ''
     series_id: sludge
 -
