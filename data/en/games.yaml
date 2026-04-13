@@ -13034,6 +13034,20 @@
     wikipedia_page: ''
     series_id: sludge
 -
+    id: 'sludge:fullmoon'
+    name: 'Full Moon'
+    engine_id: sludge
+    company_id: ''
+    year: '2009'
+    moby_id: ''
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'sludge:interview'
     name: 'The Interview'
     engine_id: sludge
