@@ -399,11 +399,11 @@
     name: 'SLUDGE engine game. Version v2.03'
     notes: ''
 -
-    category: ''
-    game_id: ''
-    category_icon: ''
-    url: ''
-    name: ''
+    category: games
+    game_id: 'sludge:fullmoon'
+    category_icon: sludge
+    url: SLUDGE/fullmoon.zip
+    name: 'SLUDGE engine game.'
     notes: ''
 -
     category: games
@@ -516,6 +516,13 @@
     category_icon: sludge
     url: SLUDGE/robinsrescue.zip
     name: 'SLUDGE engine game. SLG version'
+    notes: ''
+-
+    category: games
+    game_id: 'sludge:samnmaxfl'
+    category_icon: sludge
+    url: SLUDGE/samnmaxfl.zip
+    name: 'SLUDGE engine game. Beta version'
     notes: ''
 -
     category: games
