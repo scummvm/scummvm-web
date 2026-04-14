@@ -1,0 +1,18 @@
+title: "Nancy Drew 8 & 9 join the investigation!"
+author: bluegr
+date: 1776196800
+---
+
+The mystery deepens! It’s time once again to step into Nancy’s shoes and follow the clues...
+
+We are pleased to announce that ScummVM now supports two more titles from the long-running *Nancy Drew* adventure game series.
+
+In [_Nancy Drew: The Haunted Carousel_](https://wiki.scummvm.org/index.php?title=Nancy_Drew:_The_Haunted_Carousel), Nancy is called to investigate a series of strange events at Captain’s Cove Amusement Park, where a carousel horse has vanished and rumors of a curse are beginning to spread. Is it sabotage, superstition, or something else entirely?
+
+In [_Nancy Drew: Danger on Deception Island_](https://wiki.scummvm.org/index.php?title=Nancy_Drew:_Danger_on_Deception_Island), Nancy heads to the Pacific Northwest to look into suspicious incidents involving a marine research facility and reports of aggressive orca behavior. However, things are rarely what they seem...
+
+As usual, you will need the original game data files to play these games. The games are available for purchase through [HeR Interactive’s website](https://www.herinteractive.com/shop-games/all-games/) or [Steam](https://store.steampowered.com/search/?term=nancy+drew). To play them with ScummVM, you will need a [daily development build](https://www.scummvm.org/downloads/#daily).
+
+If you encounter any issues, please submit a bug report to our [issue tracker](https://bugs.scummvm.org/).
+
+Stay curious, and happy sleuthing!
