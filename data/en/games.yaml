@@ -10304,6 +10304,34 @@
     wikipedia_page: 'Nancy_Drew:_Ghost_Dogs_of_Moon_Lake'
     series_id: nancy
 -
+    id: 'nancy:nancy8'
+    name: 'Nancy Drew: The Haunted Carousel'
+    engine_id: nancy
+    company_id: herinteractive
+    year: '2003'
+    moby_id: '9756'
+    steam_id: '31820'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: "- [Developer's Website](https://www.herinteractive.com/shop-games/nancy-drew-the-haunted-carousel/)"
+    datafiles: 'Nancy_Drew:_The_Haunted_Carousel'
+    wikipedia_page: 'Nancy_Drew:_The_Haunted_Carousel'
+    series_id: nancy
+-
+    id: 'nancy:nancy9'
+    name: 'Nancy Drew: Danger on Deception Island'
+    engine_id: nancy
+    company_id: herinteractive
+    year: '2003'
+    moby_id: '10557'
+    steam_id: '31840'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: "- [Developer's Website](https://www.herinteractive.com/shop-games/nancy-drew-danger-on-deception-island)"
+    datafiles: 'Nancy_Drew:_Danger_on_Deception_Island'
+    wikipedia_page: 'Nancy_Drew:_Danger_on_Deception_Island'
+    series_id: nancy
+-
     id: 'nancy:vampirediaries'
     name: 'The Vampire Diaries'
     engine_id: nancy
