@@ -12,7 +12,7 @@
     "punycode": "^2.3.1",
     "@types/punycode": "^2.1.4",
     "ts-loader": "^9.5.7",
-    "webpack": "^5.105.4",
+    "webpack": "^5.106.2",
     "webpack-cli": "^7.0.2"
   },
   "devDependencies": {
