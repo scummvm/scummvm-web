@@ -1,0 +1,24 @@
+---
+title: "Google Summer of Code 2026 – Let's welcome our new students"
+author: strangerke
+date: 1777705712
+---
+
+![GSoC Logo](/data/news/GSoC2016Logo.png)
+
+This year again, we had the privilege to receive many impressive proposals, and Google gave us the opportunity to mentor 4 of them for the [GSoC](https://summerofcode.withgoogle.com/) this summer.
+
+* Ion Andrei Cristian and Mohit Bankar will both be working on helping to finish incomplete engines from our backlog, leading to yet more games being supported and helping with our preservation efforts.
+
+* Priyanshu Kumar will port the iBASS engine to ScummVM. This engine was written by Revolution Software in order to release Beneath a Steel Sky with enhanced controls and features on iOS, and the upgrades to the engine will be incorporated into ScummVM to benefit all platforms.
+
+* Ramyak Sharma will be dedicating his summer to focus on the DIRECTOR engine, bringing more features and compatibility to the Macromedia Director preservation effort, and enhancing its Visual Debugger.
+
+Please give them all a warm welcome and feel free to visit our [Discord server](https://discord.gg/4cDsMNtcpG) to discuss their projects. 
+
+The community bonding period starts today, and the coding period will follow, starting on the 25th of May. You can expect regular updates on their respective blogs on [Planet](https://planet.scummvm.org/).
+
+With the four GSoC students on board, the team is already in a Summer of Coding state of mind — we hope you’re joining us in the countdown!
+
+We would also like to take the opportunity to thank everybody that applied to GSoc with us, and hope you are interested in helping us continue to build and grow the project going forwards as well.
+
