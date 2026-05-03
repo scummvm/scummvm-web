@@ -1,0 +1,15 @@
+---
+title: "5 Million Lines of Code. 5 Million Stories."
+author: felsqualle
+date: 1777814435
+---
+
+A couple of weeks ago, we silently crossed an important milestone for the ScummVM project; a milestone we are very proud of.
+
+According to repository analysis [performed by Open Hub](https://openhub.net/p/scummvm/), ScummVM’s code base now contains more than **5 Million Lines of Code**, crafted by more than **900 contributors** in almost 25 years.
+
+Dear contributors, on behalf of the entire ScummVM community: Thousands of people are using your code every day, reliving their childhood memories or exploring stories they have yet to discover.
+
+Your passion and endurance is what makes this possible. You are not only writing history, you are preserving them.
+
+Thank you!
