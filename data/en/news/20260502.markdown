@@ -4,7 +4,7 @@ author: strangerke
 date: 1777705712
 ---
 
-![GSoC Logo](/data/news/GSoC2016Logo.png)
+![GSoC Logo](https://www.scummvm.org/data/news/GSoC2016Logo.png)
 
 This year again, we had the privilege to receive many impressive proposals, and Google gave us the opportunity to mentor 4 of them for the [GSoC](https://summerofcode.withgoogle.com/) this summer.
 
