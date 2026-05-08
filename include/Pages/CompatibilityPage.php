@@ -65,11 +65,12 @@ class CompatibilityPage extends Controller
         $version = $args['version'] ?? null;
         $target = $args['game'] ?? null;
 
-        $versions = VersionQuery::create() // @phpstan-ignore method.notFound
+        $versions = VersionQuery::create()
             ->orderByMajor('desc')
             ->orderByMinor('desc')
             ->orderByPatch('desc')
-            ->select('id')
+        ->select('id')
+            // @phpstan-ignore method.notFound
             ->find()->toArray();
 
         /* Default to DEV */

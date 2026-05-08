@@ -32,7 +32,7 @@ class GameDemosModel extends BasicModel
     }
 
     /**
-     * @return array<?int, array{'name': string, 'href': ?int, 'demos': Demo[]}>
+     * @return array<int|'other', array{'name': string, 'href': int|'other', 'demos': Demo[]}>
      */
     private function createGroups(Collection $demos): array
     {
