@@ -25,6 +25,11 @@
     "guzzlehttp/guzzle": "^7.9",
     "propel/propel": "~2.0@dev"
   },
+  "config": {
+    "platform": {
+      "php": "8.2.0"
+    }
+  },
   "require-dev": {
     "phpstan/phpstan": "^2.1",
     "squizlabs/php_codesniffer": "^4.0"
