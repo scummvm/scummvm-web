@@ -443,6 +443,13 @@
         alias: "sev"
         description: ""
     -
+      name: "Bolt"
+      person:
+      -
+        name: "Andrea Boscarino"
+        alias: "Bosca"
+        description: ""
+    -
       name: "Buried"
       person:
       -
@@ -1258,6 +1265,13 @@
         name: "Matthew Hoops"
         alias: "clone2727"
         description: "(retired)"
+    -
+      name: "Pelrock"
+      person:
+      -
+        name: "Gabriel Sanmartín"
+        alias: "kelmer"
+        description: ""
     -
       name: "Petka"
       person:
