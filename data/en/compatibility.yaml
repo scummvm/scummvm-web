@@ -5781,3 +5781,17 @@
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
+-
+    id: 'bolt:carnival'
+    support: excellent
+    notes: '- Only Windows/Macintosh version is supported'
+    since_version: DEV
+    stable_platforms: 'win,mac'
+    unstable_platforms: ''
+-
+    id: 'access:noctropolis'
+    support: good
+    notes: '- Only EN language currently supported'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''

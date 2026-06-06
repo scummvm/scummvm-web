@@ -70,6 +70,11 @@
     alt_name: ''
     enabled: true
 -
+    id: bolt
+    name: BOLT
+    alt_name: 'Funhouse Engine'
+    enabled: true
+-
     id: buried
     name: 'The Journeyman Project 2: Buried in Time'
     alt_name: ''

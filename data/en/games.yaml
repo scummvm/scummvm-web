@@ -28,6 +28,20 @@
     wikipedia_page: Martian_Memorandum
     series_id: texmurphy
 -
+    id: 'access:noctropolis'
+    name: Noctropolis
+    engine_id: access
+    company_id: access
+    year: '1994'
+    moby_id: '1511'
+    steam_id: '377070'
+    gog_id: noctropolis
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: Noctropolis
+    series_id: ''
+-
     id: 'adl:hires0'
     name: 'Hi-Res Adventure #0: Mission Asteroid'
     engine_id: adl
@@ -6452,6 +6466,20 @@
     additional_stores: ''
     datafiles: Blade_Runner
     wikipedia_page: Blade_Runner_(1997_video_game)
+    series_id: ''
+-
+    id: 'bolt:carnival'
+    name: 'Cartoon Carnival'
+    engine_id: bolt
+    company_id: funhouse
+    year: '1993'
+    moby_id: '40084'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: Cartoon_Carnival
+    wikipedia_page: ''
     series_id: ''
 -
     id: 'buried:buried'
