@@ -17,6 +17,8 @@
       href: /demos/director
     - name: '{#menuMainBlogs#}'
       href: 'https://planet.scummvm.org'
+    - name: '{#menuMainDumper#}'
+      href: /dumper-companion
 - name: '{#menuHeaderDocumentation#}'
   class: menu-docs
   links:
