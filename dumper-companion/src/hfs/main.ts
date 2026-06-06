@@ -30,7 +30,7 @@
 import * as bitmanip from './bitmanip';
 import * as btree from './btree';
 import { AbstractFolder, FileOrFolder, MacFile, MacFolder } from './directory';
-import { charCode, joinBytes, bytes } from '../util';
+import { joinBytes, bytes, bytesToString } from '../util';
 import struct from '../struct';
 
 
@@ -66,27 +66,77 @@ export class Volume extends AbstractFolder {
         this.name = 'Untitled';
     }
 
-    findMagicNumber(from_volume: Uint8Array): number {
-        // Image data starts at 0x54 in DiskCopy 4.2 format https://wiki.68kmla.org/DiskCopy_4.2_format_specification
+    probePartition(from_volume: Uint8Array): Uint8Array|null {
+        // Search for partition first
+        for (let partition_num = 1; ; partition_num++) {
+            // Apple Partition Map
+            if (from_volume.length < partition_num*512+1 || from_volume[partition_num*512] != 0x50 || from_volume[partition_num*512+1] != 0x4D) { // Searching PM
+                break;
+            }
 
-        for (const startOffset of [0x0, 0x54]) {
-            for (let i = startOffset; i < from_volume.length; i += 512) {
-                if (from_volume[i+1024] === charCode('B') && from_volume[i+1024+1] === charCode('D')) {
-                    return i;
-                }
+            const [num_partitions, partition_start, partition_size] = struct<[number, number, number]>('>III').unpack_from(from_volume.subarray(partition_num*512+4, partition_num*512+16));
+            const partition_type = bytesToString(from_volume.subarray(partition_num*512+48, partition_num*512+80));
+            if (partition_type.startsWith("Apple_HFS\x00")) {
+                // First HFS partition: take it
+                return from_volume.subarray(partition_start*512, (partition_start+partition_size)*512);
+            }
+
+            if (partition_num >= num_partitions) {
+                break;
             }
         }
 
-        return -1;
+        // No partition
+        return null;
+    }
+
+    probeStart(from_volume: Uint8Array): Uint8Array|null {
+        for (let i = 0; i + 1024 + 1 < from_volume.length; i += 512) {
+            if (from_volume[i+1024] === 0x42 && from_volume[i+1024+1] === 0x44) { // Searching BD
+                if (i == 0) {
+                    return from_volume;
+                }
+                return from_volume.subarray(i);
+            }
+        }
+
+        return null;
+    }
+
+    probe(from_volume: Uint8Array): Uint8Array|null {
+        // Image data starts at 0x54 in DiskCopy 4.2 format https://wiki.68kmla.org/DiskCopy_4.2_format_specification
+        // 0x52-0x53 bytes have 01 00 value
+        const maybeDC42 = from_volume.length >= 0x54 && from_volume[0x52] == 0x01 && from_volume[0x53] == 0x00;
+
+        if (maybeDC42) {
+            const dc42 = from_volume.subarray(0x54);
+
+            // Try to find a partition first with DC42 offset
+            const partitioned = this.probePartition(dc42);
+            if (partitioned !== null) {
+                return this.probeStart(partitioned);
+            }
+            // Try looking for start using DC42 offset then
+            const start = this.probeStart(dc42);
+            if (start !== null) {
+                return start;
+            }
+
+            // If it failed, follow on with RAW images
+        }
+
+        const partitioned = this.probePartition(from_volume);
+        if (partitioned !== null) {
+            return this.probeStart(partitioned);
+        }
+
+        return this.probeStart(from_volume);
     }
 
     read(from_volume: Uint8Array): void {
-        const magicOffset = this.findMagicNumber(from_volume);
-        if (magicOffset < 0) {
+        const volume = this.probe(from_volume);
+        if (volume === null) {
             throw new Error('Magic number not found in image');
-        }
-        if (magicOffset > 0) {
-            from_volume = from_volume.subarray(magicOffset);
         }
 
         /* eslint-disable @typescript-eslint/no-unused-vars */
@@ -103,7 +153,7 @@ export class Volume extends AbstractFolder {
                 number, number, number, number, number, number,
                 Uint8Array, number, number, number,
                 number, Uint8Array,
-                number, Uint8Array]>('>2sLLHHHHHLLHLH28pLHLLLHLL32sHHHL12sL12s').unpack_from(from_volume, 1024);
+                number, Uint8Array]>('>2sLLHHHHHLLHLH28pLHLLLHLL32sHHHL12sL12s').unpack_from(volume, 1024);
         /* eslint-enable @typescript-eslint/no-unused-vars */
 
         this.crdate = drCrDate;
@@ -113,7 +163,7 @@ export class Volume extends AbstractFolder {
         const block2offset = (block: number) => 512*drAlBlSt + drAlBlkSiz*block;
         const getextents = (extents: [number, number][]) => joinBytes(
             extents.map(
-                ([firstblk, blkcnt]: [number, number]) => from_volume.subarray(
+                ([firstblk, blkcnt]: [number, number]) => volume.subarray(
                     block2offset(firstblk),
                     block2offset(firstblk+blkcnt)
                 )
