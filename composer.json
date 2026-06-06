@@ -12,17 +12,17 @@
   "require": {
     "php": ">=8.2.0",
     "ext-intl": "*",
-    "smarty/smarty": "^5.5",
-    "ezyang/htmlpurifier": "^4.18",
+    "smarty/smarty": "^5.8",
+    "ezyang/htmlpurifier": "^4.19",
     "altorouter/altorouter": "^2.0",
-    "matomo/device-detector": "^6.4",
+    "matomo/device-detector": "^6.5",
     "spatie/yaml-front-matter": "^2.1",
-    "erusev/parsedown": "^1.7",
+    "erusev/parsedown": "^1.8",
     "phpfastcache/phpfastcache": "^9.2",
-    "league/csv": "^9.24",
+    "league/csv": "^9.28",
     "symfony/yaml": "^7.3",
-    "predis/predis": "^3.2",
-    "guzzlehttp/guzzle": "^7.9",
+    "predis/predis": "^3.5",
+    "guzzlehttp/guzzle": "^7.11",
     "propel/propel": "~2.0@dev"
   },
   "config": {
@@ -31,7 +31,7 @@
     }
   },
   "require-dev": {
-    "phpstan/phpstan": "^2.1",
+    "phpstan/phpstan": "^2.2",
     "squizlabs/php_codesniffer": "^4.0"
   },
   "suggest": {
