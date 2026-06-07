@@ -4341,6 +4341,15 @@
     id: 'scumm:freddi3'
     platform: win
     '': ''
+    category: German
+    language: de
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/he/freddi3-win-demo-de.zip
+-
+    id: 'scumm:freddi3'
+    platform: win
+    '': ''
     category: ''
     language: en_US
     language2: ''
@@ -4390,7 +4399,7 @@
     language: fr
     language2: ''
     language3: ''
-    url: /frs/demos/scumm/he/freddi4-win-demo.fr.zip
+    url: /frs/demos/scumm/he/freddi4-win-demo-fr.zip
 -
     id: 'scumm:freddi4'
     platform: win
@@ -4638,6 +4647,15 @@
     id: 'scumm:pajama'
     platform: win
     '': ''
+    category: Dutch
+    language: nl
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/he/pajama-win-demo-nl.zip
+-
+    id: 'scumm:pajama'
+    platform: win
+    '': ''
     category: ''
     language: en_US
     language2: ''
@@ -4670,6 +4688,15 @@
     language2: ''
     language3: ''
     url: /frs/demos/scumm/he/pajama2-win-demo-nl.zip
+-
+    id: 'scumm:pajama2'
+    platform: win
+    '': ''
+    category: German
+    language: de
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/he/pajama2-win-demo-de.zip
 -
     id: 'scumm:pajama2'
     platform: win
@@ -5075,6 +5102,15 @@
     language2: ''
     language3: ''
     url: /frs/demos/scumm/he/spyfox-win-demo-nl.zip
+-
+    id: 'scumm:spyfox'
+    platform: win
+    '': ''
+    category: German
+    language: de
+    language2: ''
+    language3: ''
+    url: /frs/demos/scumm/he/spyfox-win-demo-de.zip
 -
     id: 'scumm:spyfox'
     platform: win
