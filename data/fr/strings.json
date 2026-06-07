@@ -177,5 +177,6 @@
     "compatibilityDetailsDetails": "Détails",
     "downloadsBadgeTitle": "Télécharger ScummVM {version}",
     "menuMainFreewareGames": "Jeux gratuits & Suppléments",
-    "compatibilityDetailsChartColScummVmId": "ID ScummVM"
+    "compatibilityDetailsChartColScummVmId": "ID ScummVM",
+    "menuMainDumper": "Dumper Companion"
 }
