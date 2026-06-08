@@ -177,5 +177,6 @@
     "compatibilityDetailsDetails": "Más información",
     "downloadsBadgeTitle": "Descargar ScummVM {version}",
     "menuMainFreewareGames": "Juegos y complementos «freeware»",
-    "compatibilityDetailsChartColScummVmId": "ID de ScummVM"
+    "compatibilityDetailsChartColScummVmId": "ID de ScummVM",
+    "menuMainDumper": "Asistente de volcado"
 }
