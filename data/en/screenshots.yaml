@@ -12,6 +12,12 @@
     language: en
     variant_id: '1'
 -
+    id: 'access:noctropolis'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'adl:hires0'
     variant: ''
     platform_id: apple2
