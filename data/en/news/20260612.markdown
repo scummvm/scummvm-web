@@ -1,0 +1,17 @@
+---
+title: "A darker shade of Grey: Noctropolis is Ready for Testing!"
+author: mduggan
+date: 1781257988
+---
+
+Tired of running a mundane bookstore and ready to dive into the gritty, neon-drenched pages of a comic book? Get your trench coat ready, because Flashpoint Productions’ 1994 dark adventure, _Noctropolis_ is now ready for public testing!
+
+In this interactive comic brought to life you play as Peter Grey, a lonely bookstore owner pulled into a dystopian superhero world where the sun never shines. With the legendary hero Darksheer retired, it is up to you to take on his role, solve the puzzles, and save the city from a cast of villains doing the bidding of a mysterious force.
+
+To help us test, you will need your copy of the [game data files](https://wiki.scummvm.org/index.php?title=Noctropolis#Required_Data) and a recent [daily development build](https://www.scummvm.org/downloads/#daily) of ScummVM.
+
+Support has been added for both the original DOS release (including demos) and the Nightdive Studios digital re-release, which is available from [GOG](https://www.gog.com/game/noctropolis) or [Steam](https://store.steampowered.com/app/377070).
+
+As you patrol the dangerous streets, please report any issues you find on our [bug tracker](https://bugs.scummvm.org/).
+
+The city needs a hero – will you answer the call? Happy crime-fighting!
