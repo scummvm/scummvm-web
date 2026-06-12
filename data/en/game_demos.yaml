@@ -18,6 +18,24 @@
     language3: ''
     url: /frs/demos/access/martian-demo.zip
 -
+    id: 'access:noctropolis'
+    platform: win
+    '': ''
+    category: 'September 24'
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/access/noctropolis-demo1.zip
+-
+    id: 'access:noctropolis'
+    platform: win
+    '': ''
+    category: 'September 26'
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/access/noctropolis-demo2.zip
+-
     id: 'agi:agidemo'
     platform: apple2gs
     '': ''
@@ -620,6 +638,15 @@
     language2: ''
     language3: ''
     url: /frs/demos/bladerunner/bladerunner-win-ni-demo-en.zip
+-
+    id: 'bolt:carnival'
+    platform: win
+    '': ''
+    category: ''
+    language: it
+    language2: ''
+    language3: ''
+    url: ''
 -
     id: 'buried:buried'
     platform: win

@@ -5791,7 +5791,7 @@
 -
     id: 'access:noctropolis'
     support: good
-    notes: '- Only EN language currently supported'
+    notes: '- Only English version is supported'
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
