@@ -1,0 +1,18 @@
+---
+title: "The Cartoon Carnival opens its gates!"
+author: Bosca
+date: 1781371291
+---
+Come one, come all! _Hanna-Barbera's Cartoon Carnival_ is now ready for public testing in ScummVM.
+
+Originally developed and released for Philips CD-i in 1993 by Funhouse Design and then ported to Windows and Macintosh in 1995, _Cartoon Carnival_ brings together a cast of familiar Hanna-Barbera characters in a collection of short arcade-style minigames. Scooby-Doo, Fred Flintstone, George Jetson, Top Cat and friends each get their turn in different challenges, ranging from mazes and pattern matching games to balloon catching and trivia quizzes.
+
+Rather than a traditional adventure game, this is a colorful piece of mid-90’s multimedia entertainment, full of animation, voices and music. It is also one of those licensed titles that can easily slip through the cracks, so we are especially happy to help keep it playable on modern systems.
+
+At this time, only the Windows and Macintosh versions are supported. The original CD-i version is not supported.
+
+To test the game, you will need the latest [daily development build](https://www.scummvm.org/downloads/#daily) and either an original copy of the Windows or Macintosh release, or its demo (which we were only able to source in Italian). Please check the [wiki page](https://wiki.scummvm.org/index.php?title=Cartoon_Carnival) for the required data files.
+
+As usual, please report any issues to our [bug tracker](https://bugs.scummvm.org/), including the version you tested, your platform, and any useful screenshots or save files.
+
+Step right up, pick a game, and help us make sure this carnival runs properly!
