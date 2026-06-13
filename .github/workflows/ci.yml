@@ -14,6 +14,7 @@ jobs:
     - name: Install glue
       # Patch Glue to let it run on modern OS
       run: |
+        sudo apt update && \
         sudo apt install -y glue-sprite && \
         sudo ln -s glue-sprite /usr/bin/glue && \
         sudo sed -i -e 's/PILImage\.ANTIALIAS/PILImage.LANCZOS/' /usr/lib/python3/dist-packages/glue/formats/img.py && \
