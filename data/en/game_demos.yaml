@@ -646,7 +646,7 @@
     language: it
     language2: ''
     language3: ''
-    url: ''
+    url: /frs/demos/bolt/carnival-demo-it.zip
 -
     id: 'buried:buried'
     platform: win
