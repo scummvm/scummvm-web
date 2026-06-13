@@ -10444,6 +10444,20 @@
     wikipedia_page: 'The_Journeyman_Project:_Pegasus_Prime'
     series_id: journeyman
 -
+    id: 'pelrock:pelrock'
+    name: 'Alfred Pelrock: En Busca de un Sueño'
+    engine_id: pelrock
+    company_id: ddm
+    year: '1996'
+    moby_id: '14161'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: ''
+    wikipedia_page: ''
+    series_id: ''
+-
     id: 'petka:petka1'
     name: 'Red Comrades 1: Save the Galaxy'
     engine_id: petka

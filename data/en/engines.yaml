@@ -370,6 +370,11 @@
     alt_name: ''
     enabled: true
 -
+    id: pelrock
+    name: 'Alfred Pelrock'
+    alt_name: ''
+    enabled: false
+-
     id: petka
     name: 'Red Comrades'
     alt_name: ''

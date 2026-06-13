@@ -654,6 +654,12 @@
     language: en
     variant_id: '1'
 -
+    id: 'bolt:carnival'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'buried:buried'
     variant: 8BPP
     platform_id: win
@@ -2038,6 +2044,12 @@
     variant: ''
     platform_id: mac
     language: en
+    variant_id: '1'
+-
+    id: 'pelrock:pelrock'
+    variant: ''
+    platform_id: dos
+    language: es
     variant_id: '1'
 -
     id: 'petka:petka1'
