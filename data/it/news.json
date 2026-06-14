@@ -509,5 +509,8 @@
     "20260612": {
         "title": "Il lato oscuro di Grey: Noctropolis è pronto per la fase di test!",
         "content": "Stanco di gestire una monotona libreria? Pronto a immergerti nelle pagine decadenti e illuminate da neon colorati di un fumetto di supereroi? Prepara l'impermeabile, perchè _Noctropolis_ , un'avventura dark del 1994 rilasciata dalla Flashpoint Productions, è pronta per la fase di test pubblica!\n\nIn questo fumetto interattivo impersoni Peter Grey, un solitario libraio che viene trascinato in un mondo distopico dove il sole non sorge mai. Dopo il ritiro del leggendario eroe Darksheer, toccherà a te ereditarne il ruolo, risolvendo puzzle e salvando la città da un manipolo di malvagi al soldo di una entità misteriosa.\n\nPer aiutarci nella fase di test, recupera i [file dati](https://wiki.scummvm.org/index.php?title=Noctropolis#Required_Data) dalla tua copia del gioco e scarica una [build di sviluppo](https://www.scummvm.org/downloads/#daily) recente di ScummVM.\n\nIl supporto è stato aggiunto sia per la versione originale per DOS (demo compresi) che per la riedizione digitale della Nightdive Studios, disponibile su [GOG](https://www.gog.com/game/noctropolis) o [Steam](https://store.steampowered.com/app/377070).\n\nMentre pattugli le strade più pericolose, assicurati di segnalare qualsiasi inconveniente sul nostro [bug tracker](https://bugs.scummvm.org/).\n\nLa città ha bisogno di un eroe - sarai proprio tu? Buona lotta al crimine!"
+    },
+    "20260613": {
+        "title": "Le porte del Cartoon Carnival sono aperte!"
     }
 }
