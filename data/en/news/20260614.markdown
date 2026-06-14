@@ -1,0 +1,12 @@
+---
+title: "Alfred Pelrock joins ScummVM"
+author: kelmer
+date: 1781458091
+---
+Good news for adventure game fans: _Alfred Pelrock_ is now supported in ScummVM!
+
+Originally released in 1996, _Alfred Pelrock_ is a humorous point-and-click adventure featuring cartoon-style graphics, quirky puzzles, and an irreverent sense of humor. After dreaming of an Egyptian princess imprisoned in the distant past, Alfred embarks on a time-travelling adventure to Ancient Egypt to rescue her, encountering bizarre situations and eccentric characters along the way.
+
+While the game is packed with comedy and satire, players should be aware that it also includes mildly suggestive themes and occasional adult-oriented humor typical of its era. It is also worth noting that the game was released exclusively in Spanish and has no official translations.
+
+As always, if you own an original copy of the game and speak Spanish, grab the latest [daily development build](https://www.scummvm.org/downloads/#daily), add the game’s [required data files](https://wiki.scummvm.org/index.php?title=Alfred_Pelrock:_En_Busca_de_un_Sue%C3%B1o) and enjoy. We also welcome [bug reports](https://bugs.scummvm.org/). and feedback from players to help improve compatibility and preserve this quirky piece of adventure gaming history.
