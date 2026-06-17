@@ -5802,3 +5802,52 @@
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: ''
+-
+    id: 'gamos:solgamer'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'gamos:pilots1'
+    support: good
+    notes: '- Only Windows version is supported'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'gamos:pilots2'
+    support: good
+    notes: '- Only Windows version is supported'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'gamos:wild'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'gamos:flop'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'gamos:netwalk'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'gamos:vitamin'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
