@@ -7,12 +7,12 @@ ScummVM has officially wrapped up on Gamos’s Windows proprietary game engine. 
 
 This engine adds support for 7 games:
 
-_Patience_
-_Flip-Flop_
-_NetWalk_
-_Pilot Brothers: On the Track of Striped Elephant_
-_Pilot Brothers: The Case of Serial Maniac_
-_Vitamin_
-_WildSnake_
+* _Patience_
+* _Flip-Flop_
+* _NetWalk_
+* _Pilot Brothers: On the Track of Striped Elephant_
+* _Pilot Brothers: The Case of Serial Maniac_
+* _Vitamin_
+* _WildSnake_
 
 So, if you would like to remember the past and spend some time with two eccentric detectives, Chief and Colleague, or kill some time with Solitaire-style games, you need the latest [daily development build](https://www.scummvm.org/downloads/#daily) and the game’s required data files. As always, if you encounter any irregularities or oddities, please submit those to our [bug tracker](https://bugs.scummvm.org/).
