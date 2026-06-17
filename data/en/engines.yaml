@@ -183,7 +183,7 @@
     id: gamos
     name: Gamos
     alt_name: ''
-    enabled: false
+    enabled: true
 -
     id: glk
     name: Glk
