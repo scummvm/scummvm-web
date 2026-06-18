@@ -1029,7 +1029,7 @@
     id: 'gamos:flop'
     platform: win
     '': ''
-    category: v1.43
+    category: 'English v1.43'
     language: en
     language2: ''
     language3: ''
@@ -1038,7 +1038,7 @@
     id: 'gamos:flop'
     platform: win
     '': ''
-    category: v1.51
+    category: 'English v1.51'
     language: en
     language2: ''
     language3: ''
@@ -1047,7 +1047,7 @@
     id: 'gamos:flop'
     platform: win
     '': ''
-    category: ''
+    category: Russian
     language: ru
     language2: ''
     language3: ''
@@ -1056,7 +1056,7 @@
     id: 'gamos:netwalk'
     platform: win
     '': ''
-    category: ''
+    category: English
     language: en
     language2: ''
     language3: ''
@@ -1065,7 +1065,7 @@
     id: 'gamos:pilots1'
     platform: win
     '': ''
-    category: v1.47
+    category: 'English v1.47'
     language: en
     language2: ''
     language3: ''
@@ -1074,7 +1074,7 @@
     id: 'gamos:pilots1'
     platform: win
     '': ''
-    category: v1.50
+    category: 'English v1.50'
     language: en
     language2: ''
     language3: ''
@@ -1083,7 +1083,7 @@
     id: 'gamos:pilots1'
     platform: win
     '': ''
-    category: ''
+    category: Russian
     language: ru
     language2: ''
     language3: ''
@@ -1092,7 +1092,7 @@
     id: 'gamos:wild'
     platform: win
     '': ''
-    category: ''
+    category: English
     language: en
     language2: ''
     language3: ''
@@ -1101,7 +1101,7 @@
     id: 'gamos:wild'
     platform: win
     '': ''
-    category: ''
+    category: Russian
     language: ru
     language2: ''
     language3: ''
