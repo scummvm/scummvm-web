@@ -5812,14 +5812,14 @@
 -
     id: 'gamos:pilots1'
     support: good
-    notes: '- Only Windows version is supported'
+    notes: '- Only Windows version is supported - GOG/Steam versions are not supported'
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'gamos:pilots2'
     support: good
-    notes: '- Only Windows version is supported'
+    notes: '- Only Windows version is supported - GOG/Steam versions are not supported'
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''

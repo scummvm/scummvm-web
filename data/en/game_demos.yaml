@@ -1026,6 +1026,87 @@
     language3: de
     url: /frs/demos/freescape/castle-amiga-demo.zip
 -
+    id: 'gamos:flop'
+    platform: win
+    '': ''
+    category: v1.43
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/gamos/flop-win-demo-en-16.zip
+-
+    id: 'gamos:flop'
+    platform: win
+    '': ''
+    category: v1.51
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/gamos/flop-win-demo-en-18.zip
+-
+    id: 'gamos:flop'
+    platform: win
+    '': ''
+    category: ''
+    language: ru
+    language2: ''
+    language3: ''
+    url: /frs/demos/gamos/flop-win-demo-ru.zip
+-
+    id: 'gamos:netwalk'
+    platform: win
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/gamos/netwalk-win-demo-en.zip
+-
+    id: 'gamos:pilots1'
+    platform: win
+    '': ''
+    category: v1.47
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/gamos/pilots1-win-demo-en-16.zip
+-
+    id: 'gamos:pilots1'
+    platform: win
+    '': ''
+    category: v1.50
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/gamos/pilots1-win-demo-en-18.zip
+-
+    id: 'gamos:pilots1'
+    platform: win
+    '': ''
+    category: ''
+    language: ru
+    language2: ''
+    language3: ''
+    url: /frs/demos/gamos/pilots1-win-demo-ru.zip
+-
+    id: 'gamos:wild'
+    platform: win
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/gamos/wild-win-demo-en.zip
+-
+    id: 'gamos:wild'
+    platform: win
+    '': ''
+    category: ''
+    language: ru
+    language2: ''
+    language3: ''
+    url: /frs/demos/gamos/wild-win-demo-ru.zip
+-
     id: 'gob:adi2'
     platform: win
     '': ''
