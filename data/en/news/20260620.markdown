@@ -1,0 +1,36 @@
+---
+title: ScummVM 2026.3.0 "Carousels & Killer Whales" comes to fruition
+author: sev
+date: 1781972533
+---
+
+So far, we are able to keep the release cadence. This quarter, the team is bringing you a set of new and old, all exciting features!
+
+## Newly Supported Games:
+* _Nancy Drew: The Haunted Carousel_
+* _Nancy Drew: Danger on Deception Island_
+* _Noctropolis_
+* _Cartoon Carnival_
+* _Alfred Pelrock: En Busca de un Sueño_
+* _Pilot Brothers: On the Track of Striped Elephant_
+* _Pilot Brothers: The Case of Serial Maniac_ and 5 more games on the same engine
+
+
+## General enhancements
+
+This was the period of the Google Summer of Code start, so we had an influx of new contributors, who were busy with improving our GUI, adding small and big quality-of-life features, such as improved search, kinetic scrolling, and revamped About dialog.
+
+## Engine bugfixes and improvements
+
+Ten supported engines got their tweaks and improvements. _Martian Memorandum_ got script bug fixes, _Simon 2_ multilanguage support became better, there is a new whole control panel for the GLK engine, allowing to adjust text rendering, _Last Express_ had some corner case bugs squashed, which also happened to the _Rex Nebular_. _Might and Magic 1_ had major rewiring of its keymapper, and the enhanced patch support plays better than ever.
+
+There was active work on the _Nancy_ engine, and besides the two newly added games (number 8 and 9), most of the already supported games in the series received their bug fixes (thank you very much for submitting bug reports).
+
+Two new games landed to the SLUDGE engine, and we made them downloadable from our website. And last but not least, the TwinE engine, used for the _Little Big Adventure_ series, got its own measure of bugs fixed.
+
+On the ports side, the Atari port is an ongoing constant series of big and small optimizations, and the PlayStation 3 port is easier on the memory consumption, allowing heavier games to be played.
+
+For more detailed itemization of the improvements, you may refer to the [release notes](https://downloads.scummvm.org/frs/scummvm/2026.3.0/ReleaseNotes.html).
+
+
+And as per our new release procedure, the port builds will be arriving within the next few weeks.
