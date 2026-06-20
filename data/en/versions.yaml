@@ -391,3 +391,10 @@
     minor: '2'
     patch: '0'
     name: Railmonicon
+-
+    id: 2026.3.0
+    release_date: 'June 20, 2026'
+    major: '2026'
+    minor: '3'
+    patch: '0'
+    name: 'Carousels & Killer Whales'

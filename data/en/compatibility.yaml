@@ -5771,83 +5771,83 @@
     id: 'nancy:nancy8'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.3.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'nancy:nancy9'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.3.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'access:noctropolis'
     support: good
     notes: '- Only English version is supported'
-    since_version: DEV
+    since_version: 2026.3.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'bolt:carnival'
     support: excellent
     notes: '- Only Windows/Macintosh version is supported'
-    since_version: DEV
+    since_version: 2026.3.0
     stable_platforms: 'win,mac'
     unstable_platforms: ''
 -
     id: 'pelrock:pelrock'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.3.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: 'gamos:solgamer'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.3.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'gamos:pilots1'
     support: good
     notes: '- Only Windows version is supported - GOG/Steam versions are not supported'
-    since_version: DEV
+    since_version: 2026.3.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'gamos:pilots2'
     support: good
     notes: '- Only Windows version is supported - GOG/Steam versions are not supported'
-    since_version: DEV
+    since_version: 2026.3.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'gamos:wild'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.3.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'gamos:flop'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.3.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'gamos:netwalk'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.3.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'gamos:vitamin'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.3.0
     stable_platforms: win
     unstable_platforms: ''
