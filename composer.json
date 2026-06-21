@@ -45,17 +45,17 @@
       "@update-data"
     ],
     "build": [
-      "composer install --no-dev",
+      "@composer install --no-dev",
       "@build-common",
       "npm ci --omit=dev"
     ],
     "build-dev": [
-      "composer install",
+      "@composer install",
       "@build-common",
       "npm install"
     ],
     "ci": [
-      "composer install",
+      "@composer install",
       "@build-common",
       "@lint",
       "npm ci",
@@ -82,7 +82,7 @@
       "propel model:build",
       "propel config:convert",
       "propel sql:insert",
-      "composer dumpautoload"
+      "@composer dumpautoload"
     ],
     "localize": [
       "php include/LocalizationUtils.php"
