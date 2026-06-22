@@ -436,7 +436,7 @@
     category_icon: ps3
     user_agent: ''
     version: 2026.3.0
-    url: 'scummvm-{$version}-ps3.zip'
+    url: 'scummvm-{$version}-ps3-multi.zip'
     name: 'PlayStation 3 package (multi-engine modules version)'
     notes: ''
 -
