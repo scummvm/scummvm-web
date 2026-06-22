@@ -1,0 +1,11 @@
+---
+title: PS3 twin package
+author: aquadran
+date: 1782162864
+---
+
+Hey, now you can run bigger games on PS3 with our new _multi-engine modules version_ package.
+
+This package reduces ScummVM's memory usage by approximately 90 MB by loading engines as separate modules, leaving more memory available for games.
+
+For more information, see the [PS3 platform documentation page](https://docs.scummvm.org/en/latest/other_platforms/playstation_3.html).
