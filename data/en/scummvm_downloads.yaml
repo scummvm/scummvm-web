@@ -772,10 +772,10 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: wii
     user_agent: ''
-    version: 2026.1.0
+    version: 2026.3.0
     url: 'scummvm-{$version}-wii.zip'
     name: 'Nintendo Wii package'
     notes: ''
