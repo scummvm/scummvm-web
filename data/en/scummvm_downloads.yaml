@@ -422,12 +422,22 @@
 -
     enabled: true
     category: scummvm
-    subcategory: old
+    subcategory: release
     category_icon: ps3
     user_agent: ''
-    version: 2026.2.0
+    version: 2026.3.0
     url: 'scummvm-{$version}-ps3.zip'
     name: 'PlayStation 3 package'
+    notes: ''
+-
+    enabled: true
+    category: scummvm
+    subcategory: release
+    category_icon: ps3
+    user_agent: ''
+    version: 2026.3.0
+    url: 'scummvm-{$version}-ps3.zip'
+    name: 'PlayStation 3 package (multi-engine modules version)'
     notes: ''
 -
     enabled: true
