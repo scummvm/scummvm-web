@@ -634,6 +634,16 @@
     category: scummvm
     subcategory: release
     category_icon: iphone
+    user_agent: ''
+    version: 2026.3.0
+    url: 'https://apps.apple.com/us/app/scummvm/id6446184412'
+    name: 'iOS app on Apple Play Store'
+    notes: '(external link)'
+-
+    enabled: true
+    category: scummvm
+    subcategory: release
+    category_icon: iphone
     user_agent: iOS
     version: 2026.3.0
     url: 'scummvm-{$version}-ios9-15.5-armv7-arm64-signed.ipa'
