@@ -1112,10 +1112,10 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: haiku
     user_agent: ''
-    version: 2026.3.0
+    version: 2026.2.0
     url: 'scummvm_x86-{$version}-1-x86_gcc2.hpkg'
     name: 'Haiku package 32bits'
     notes: ''
