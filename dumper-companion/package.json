@@ -12,8 +12,8 @@
     "punycode": "^2.3.1",
     "@types/punycode": "^2.1.4",
     "ts-loader": "^9.6.2",
-    "webpack": "^5.107.2",
-    "webpack-cli": "^7.0.3"
+    "webpack": "^5.108.1",
+    "webpack-cli": "^7.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
