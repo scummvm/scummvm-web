@@ -9,10 +9,10 @@
   "dependencies": {
     "@types/punycode": "^2.1.4",
     "@zip.js/zip.js": "^2.8.26",
-    "preact": "^10.29.3",
+    "preact": "^10.29.7",
     "punycode": "^2.3.1",
     "ts-loader": "^9.6.2",
-    "webpack": "^5.108.3",
+    "webpack": "^5.108.4",
     "webpack-cli": "^7.1.0"
   },
   "devDependencies": {
