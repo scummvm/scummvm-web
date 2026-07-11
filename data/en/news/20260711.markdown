@@ -1,0 +1,23 @@
+---
+title: "Mort and Phil on adventures around the world"
+author: Helco
+date: 1783801518
+---
+
+From Spain to Egypt, from Italy to Russia - follow the adventures of T.I.A agents Mort and Phil on secret missions around the world!
+
+Less than a year ago we added _Mortadelo y Filemón: Aventura de Cine Edición Especial_ to ScummVM. Now we can announce that the nine other games based on the same engine can be played using the [daily build](https://scummvm.org/downloads/#daily).
+These games were always developed in sets of three: two single-chapter games and a combined game with an exclusive final chapter.
+  - _Mortadelo y Filemón: Una Aventura de Cine Edición Original_ (2000)
+    - _Mortadelo y Filemón: Dos vaqueros chapuceros_
+    - _Mortadelo y Filemón: Terror, Espanto y Pavor_
+  - _Mortadelo y Filemón: La Sexta Secta_ (2001)
+    - _Mortadelo y Filemón: Operación Moscú_
+    - _Mortadelo y Filemón: El Escarabajo de Cleopatra_
+  - _Mortadelo y Filemón: La Banda de Corvino_ (2003)
+    - _Mortadelo y Filemón: Balones y Patadones_
+    - _Mortadelo y Filemón: Mamelucos a la Romana_
+
+While _Operación Moscú_ got a text translation in the English Steam release, the other games are currently only available in Spanish. 
+Before you start your test run, please read through our [testing 
+guidelines](https://wiki.scummvm.org/index.php/Release_Testing) and take some [screenshots](https://wiki.scummvm.org/index.php/Screenshots) along the way.
