@@ -540,6 +540,54 @@
     language: en
     variant_id: '1'
 -
+    id: 'alcachofa:balones'
+    variant: ''
+    platform_id: win
+    language: es
+    variant_id: '1'
+-
+    id: 'alcachofa:corvino'
+    variant: ''
+    platform_id: win
+    language: es
+    variant_id: '1'
+-
+    id: 'alcachofa:escarabajo'
+    variant: ''
+    platform_id: win
+    language: es
+    variant_id: '1'
+-
+    id: 'alcachofa:mamelucos'
+    variant: ''
+    platform_id: win
+    language: es
+    variant_id: '1'
+-
+    id: 'alcachofa:moscu'
+    variant: ''
+    platform_id: win
+    language: es
+    variant_id: '1'
+-
+    id: 'alcachofa:secta'
+    variant: ''
+    platform_id: win
+    language: es
+    variant_id: '1'
+-
+    id: 'alcachofa:terror'
+    variant: ''
+    platform_id: win
+    language: es
+    variant_id: '1'
+-
+    id: 'alcachofa:vaqueros'
+    variant: ''
+    platform_id: win
+    language: es
+    variant_id: '1'
+-
     id: 'alg:cpatrol'
     variant: ''
     platform_id: dos

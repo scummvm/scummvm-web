@@ -5851,3 +5851,59 @@
     since_version: 2026.3.0
     stable_platforms: win
     unstable_platforms: ''
+-
+    id: 'alcachofa:balones'
+    support: good
+    notes: '- Some videos might not play yet'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'alcachofa:corvino'
+    support: good
+    notes: '- Some videos might not play yet'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'alcachofa:escarabajo'
+    support: good
+    notes: '- Some videos might not play yet'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'alcachofa:mamelucos'
+    support: good
+    notes: '- Some videos might not play yet'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'alcachofa:moscu'
+    support: good
+    notes: '- Some videos might not play yet'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'alcachofa:secta'
+    support: good
+    notes: '- Some videos might not play yet'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'alcachofa:terror'
+    support: good
+    notes: '- Some videos might not play yet'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'alcachofa:vaqueros'
+    support: good
+    notes: '- Some videos might not play yet'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''

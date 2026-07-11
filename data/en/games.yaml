@@ -6244,6 +6244,118 @@
     wikipedia_page: 'Mortadelo_y_Filemón:_Una_Aventura_de_Cine'
     series_id: ''
 -
+    id: 'alcachofa:balones'
+    name: 'Mortadelo y Filemón: Balones y Patadones'
+    engine_id: alcachofa
+    company_id: alcachofa
+    year: '2003'
+    moby_id: '14409'
+    steam_id: '2654930'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: 'Mortadelo_y_Filemón:_La_Banda_de_Corvino'
+    wikipedia_page: 'Mortadelo_y_Filemón:_La_Banda_de_Corvino'
+    series_id: ''
+-
+    id: 'alcachofa:corvino'
+    name: 'Mortadelo y Filemón: La Banda de Corvino'
+    engine_id: alcachofa
+    company_id: alcachofa
+    year: '2003'
+    moby_id: '132093'
+    steam_id: '1017490'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: 'Mortadelo_y_Filemón:_La_Banda_de_Corvino'
+    wikipedia_page: 'Mortadelo_y_Filemón:_La_Banda_de_Corvino'
+    series_id: ''
+-
+    id: 'alcachofa:escarabajo'
+    name: 'Mortadelo y Filemón: El escarabajo de Cleopatra'
+    engine_id: alcachofa
+    company_id: alcachofa
+    year: '2001'
+    moby_id: '15302'
+    steam_id: '2654950'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: 'Mortadelo_y_Filemón:_La_Sexta_Secta'
+    wikipedia_page: 'Mortadelo_y_Filemón:_La_Sexta_Secta'
+    series_id: ''
+-
+    id: 'alcachofa:mamelucos'
+    name: 'Mortadelo y Filemón: Mamelucos a la Romana'
+    engine_id: alcachofa
+    company_id: alcachofa
+    year: '2003'
+    moby_id: '23630'
+    steam_id: '2654970'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: 'Mortadelo_y_Filemón:_La_Banda_de_Corvino'
+    wikipedia_page: 'Mortadelo_y_Filemón:_La_Banda_de_Corvino'
+    series_id: ''
+-
+    id: 'alcachofa:moscu'
+    name: 'Mortadelo y Filemón: Operación Moscú'
+    engine_id: alcachofa
+    company_id: alcachofa
+    year: '2001'
+    moby_id: '15349'
+    steam_id: '1114340'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: 'Mortadelo_y_Filemón:_La_Sexta_Secta'
+    wikipedia_page: 'Mortadelo_y_Filemón:_La_Sexta_Secta'
+    series_id: ''
+-
+    id: 'alcachofa:secta'
+    name: 'Mortadelo y Filemón: La Sexta Secta'
+    engine_id: alcachofa
+    company_id: alcachofa
+    year: '2001'
+    moby_id: ''
+    steam_id: '2654960'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: 'Mortadelo_y_Filemón:_La_Sexta_Secta'
+    wikipedia_page: 'Mortadelo_y_Filemón:_La_Sexta_Secta'
+    series_id: ''
+-
+    id: 'alcachofa:terror'
+    name: 'Mortadelo y Filemón: Terror, Espanto y Pavor'
+    engine_id: alcachofa
+    company_id: alcachofa
+    year: '2000'
+    moby_id: ''
+    steam_id: '2654980'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: 'Mortadelo_y_Filemón:_Una_Aventura_de_Cine'
+    wikipedia_page: 'Mortadelo_y_Filemón:_Una_Aventura_de_Cine'
+    series_id: ''
+-
+    id: 'alcachofa:vaqueros'
+    name: 'Mortadelo y Filemón: Dos vaqueros chapuceros'
+    engine_id: alcachofa
+    company_id: alcachofa
+    year: '2000'
+    moby_id: '153762'
+    steam_id: '2654940'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: 'Mortadelo_y_Filemón:_Una_Aventura_de_Cine'
+    wikipedia_page: 'Mortadelo_y_Filemón:_Una_Aventura_de_Cine'
+    series_id: ''
+-
     id: 'alg:maddog'
     name: 'Mad Dog McCree'
     engine_id: alg
