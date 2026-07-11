@@ -540,6 +540,12 @@
     language: en
     variant_id: '1'
 -
+    id: 'alcachofa:aventuradecine'
+    variant: ''
+    platform_id: win
+    language: es
+    variant_id: '1'
+-
     id: 'alcachofa:balones'
     variant: ''
     platform_id: win
