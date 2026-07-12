@@ -900,6 +900,13 @@
         alias: "phcoder"
         description: ""
     -
+      name: "Harvester"
+      person:
+      -
+        name: "Alex Bevilacqua"
+        alias: "alexbevi"
+        description: ""
+    -
       name: "HDB"
       person:
       -
@@ -1083,6 +1090,17 @@
       -
         name: "Arnaud Boutonn&eacute;"
         alias: "Strangerke"
+        description: ""
+    -
+      name: "Macs2"
+      person:
+      -
+        name: "Florian Mehm"
+        alias: ""
+        description: ""
+      -
+        name: "Martin Gerhardy"
+        alias: "mgerhardy"
         description: ""
     -
       name: "MacVenture"
@@ -1290,6 +1308,10 @@
         name: "Hermann Noll"
         alias: "Helco"
         description: "Help with 3D VR projections"
+      -
+        name: "???"
+        alias: "Scorp"
+        description: "Dracula 1/2 and Messenger support, Engine improvements"
     -
       name: "Pink"
       person:
@@ -1456,6 +1478,10 @@
         name: "Jonathan Gray"
         alias: "khalek"
         description: "(retired)"
+      -
+        name: "Gustavo Grieco"
+        alias: "neuromancer"
+        description: "Rebel Assault I &amp; II"
       -
         name: "Vincent Hamm"
         alias: "yaz0r"
