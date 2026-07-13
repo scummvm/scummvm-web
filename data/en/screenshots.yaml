@@ -2160,12 +2160,6 @@
     language: ru
     variant_id: '1'
 -
-    id: 'phoenixvr:amerzone'
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
     id: 'phoenixvr:dracula1'
     variant: ''
     platform_id: win
@@ -2179,12 +2173,6 @@
     variant_id: '1'
 -
     id: 'phoenixvr:necrono'
-    variant: ''
-    platform_id: win
-    language: en
-    variant_id: '1'
--
-    id: 'phoenixvr:lochness'
     variant: ''
     platform_id: win
     language: en
