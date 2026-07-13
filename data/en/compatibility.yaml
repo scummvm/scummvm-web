@@ -5907,3 +5907,17 @@
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
+-
+    id: 'phoenixvr:dracula1'
+    support: good
+    notes: '- Only original Windows and GOG versions are supported - Steam version is not supported'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'phoenixvr:dracula2'
+    support: good
+    notes: '- Only original Windows and GOG versions are supported - Steam version is not supported'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''

@@ -10598,6 +10598,48 @@
     wikipedia_page: ''
     series_id: petka
 -
+    id: 'phoenixvr:amerzone'
+    name: "Amerzone: The Explorer's Legacy"
+    engine_id: phoenixvr
+    company_id: microids
+    year: '1999'
+    moby_id: '3973'
+    steam_id: ''
+    gog_id: amerzone_the_explorer_legacy
+    zoom_id: amerzone-the-explorers-legacy
+    additional_stores: ''
+    datafiles: Amerzone
+    wikipedia_page: Amerzone
+    series_id: ''
+-
+    id: 'phoenixvr:dracula1'
+    name: 'Dracula: Resurrection'
+    engine_id: phoenixvr
+    company_id: indexplus
+    year: '1999'
+    moby_id: '1862'
+    steam_id: ''
+    gog_id: dracula_trilogy
+    zoom_id: dracula-1-resurrection
+    additional_stores: ''
+    datafiles: 'Dracula:_Resurrection'
+    wikipedia_page: 'Dracula:_Resurrection'
+    series_id: dracula
+-
+    id: 'phoenixvr:dracula2'
+    name: 'Dracula 2: The Last Sanctuary'
+    engine_id: phoenixvr
+    company_id: wanadoo
+    year: '2000'
+    moby_id: '3374'
+    steam_id: ''
+    gog_id: dracula_trilogy
+    zoom_id: dracula-2-the-last-sanctuary
+    additional_stores: ''
+    datafiles: 'Dracula_2:_The_Last_Sanctuary'
+    wikipedia_page: 'Dracula_2:_The_Last_Sanctuary'
+    series_id: dracula
+-
     id: 'phoenixvr:necrono'
     name: 'Necronomicon: The Dawning of Darkness'
     engine_id: phoenixvr

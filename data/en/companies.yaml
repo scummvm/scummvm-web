@@ -824,6 +824,10 @@
     name: 'Incentive Software'
     alt_name: ''
 -
+    id: indexplus
+    name: Index+
+    alt_name: ''
+-
     id: indiesquish
     name: IndieSquish
     alt_name: ''
