@@ -2088,6 +2088,18 @@
     language: en
     variant_id: '1'
 -
+    id: 'nancy:nancy10'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'nancy:nancy11'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'nancy:vampirediaries'
     variant: ''
     platform_id: win

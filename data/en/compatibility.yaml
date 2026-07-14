@@ -5921,3 +5921,17 @@
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
+-
+    id: 'nancy:nancy10'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'nancy:nancy11'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
