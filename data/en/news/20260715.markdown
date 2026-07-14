@@ -1,0 +1,17 @@
+---
+title: "Ghosts, Curses, and Two New Nancy Drew Mysteries"
+author: bluegr
+date: 1784063542
+---
+
+![Nancy11 screenshot](https://www.scummvm.org/data/screenshots/nancy/nancy11/nancy11_win_en_1_0.jpg)
+
+The trail leads onward! It's time once again to step into Nancy's shoes and follow the clues... We are pleased to announce that ScummVM now supports two more titles from the long-running Nancy Drew adventure game series.
+
+In Nancy Drew: The Secret of Shadow Ranch, the famous teenage detective trades city sleuthing for a vacation out west at a real western-style ranch — but her getaway turns into a mystery when the ghost of the ranch's former owner comes riding in on his ghostly horse. Before long, Nancy finds herself caught in the middle of a dangerous and vengeful plot. Is the phantom rider real, or is someone with very earthly motives behind it all?
+
+In Nancy Drew: Curse of Blackmoor Manor, Nancy is summoned across the Atlantic to a 14th-century castle deep in the spooky British moors, home to the Penvellyn family for centuries. The manor's newest resident, a new bride named Linda Penvellyn, has locked herself away in total fear, refusing to see or speak to anyone. Has the mansion been cursed? Has the spirit of the "old witch" returned? Or is something else entirely going on? It's up to you to find out.
+
+As usual, you will need the original game data files to play these games. The games are available for purchase through HeR Interactive's website or Steam. To play them with ScummVM, you will need a [daily development build](https://www.scummvm.org/downloads/#daily). If you encounter any issues, please submit a bug report to our [issue tracker](https://bugs.scummvm.org/), following our [bug submission guidelines](https://www.scummvm.org/faq/#question.report-bugs).
+
+Stay curious, and happy sleuthing!
