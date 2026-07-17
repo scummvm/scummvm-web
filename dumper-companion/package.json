@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@types/punycode": "^2.1.4",
-    "@zip.js/zip.js": "^2.8.26",
+    "@zip.js/zip.js": "^2.8.31",
     "preact": "^10.29.7",
     "punycode": "^2.3.1",
     "ts-loader": "^9.6.2",
