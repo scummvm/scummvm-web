@@ -175,6 +175,11 @@
     alt_name: ''
     enabled: true
 -
+    id: fool
+    name: "The Fool's Errand"
+    alt_name: ''
+    enabled: false
+-
     id: freescape
     name: Freescape
     alt_name: ''

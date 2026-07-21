@@ -6636,6 +6636,20 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'chamber:chamber'
+    name: 'Chamber of the Sci-Mutant Priestess'
+    engine_id: chamber
+    company_id: ere
+    year: '1989'
+    moby_id: '562'
+    steam_id: '768480'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: Chamber_of_the_Sci-Mutant_Priestess
+    wikipedia_page: 'Kult:_The_Temple_of_Flying_Saucers'
+    series_id: ''
+-
     id: 'chewy:chewy'
     name: 'Chewy: Esc from F5'
     engine_id: chewy

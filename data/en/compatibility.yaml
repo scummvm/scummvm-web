@@ -5935,3 +5935,10 @@
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
+-
+    id: 'chamber:chamber'
+    support: good
+    notes: '- Amiga version lacks full sound support'
+    since_version: DEV
+    stable_platforms: 'dos,amiga'
+    unstable_platforms: ''
