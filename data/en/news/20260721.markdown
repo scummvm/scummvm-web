@@ -1,0 +1,18 @@
+
+---
+title: "Psi-Powers at the Ready: Chamber of the Sci-Mutant Priestess"
+author: 11-andy-11
+date: 1784633542
+---
+
+The ScummVM Team is pleased to announce that _Chamber of the Sci-Mutant Priestess_ — originally released in Europe as _KULT: The Temple of Flying Saucers_ — is ready for public testing!
+
+Step into the boots of Raven, a young man gifted with psychic powers, held prisoner deep inside the temple of an alien priestess. His companion, Sci-Fi, has been captured too, and to reach her, Raven must survive the five Ordeals that stand between him and the Chamber. Wits alone will not be enough: you will need to master eight distinct psi-powers, from the humble _Solar Eyes_ to the brutal _Extreme Violence_, to outsmart the strange creatures of this surreal, post-apocalyptic world.
+
+Originally developed in 1989 by the French label Exxos (ERE Informatique), with an art direction inspired by illustrator Philippe Caza, KULT is a genuine cult classic of European adventure gaming, remembered for its dreamlike atmosphere and its unusual, power-driven puzzles.
+
+For this testing period, ScummVM supports the DOS versions — with CGA, EGA and Hercules renderers, playable in English, French and German — as well as the Amiga releases. The engine was reverse-engineered by bambarbee and brought into ScummVM during Google Summer of Code.
+
+As usual, you will need the original game data files to play. To join the test, grab a recent [daily development build](https://www.scummvm.org/downloads/#daily), add your game directory to ScummVM, and play through the game. Please report any problems you encounter on our [issue tracker](https://bugs.scummvm.org/), following our [bug submission guidelines](https://www.scummvm.org/faq/#question.report-bugs). Screenshots and saved games demonstrating an issue are always helpful.
+
+Now steel your mind — the Ordeals await.
