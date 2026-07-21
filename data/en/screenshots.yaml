@@ -745,25 +745,25 @@
     variant_id: '1'
 -
     id: 'chamber:chamber'
-    variant: ''
+    variant: Hercules
     platform_id: dos
     language: en
     variant_id: '1'
 -
     id: 'chamber:chamber'
-    variant: ''
+    variant: CGA
     platform_id: dos
     language: en
     variant_id: '2'
 -
     id: 'chamber:chamber'
-    variant: ''
+    variant: EGA
     platform_id: dos
     language: en
     variant_id: '3'
 -
     id: 'chamber:chamber'
-    variant: ''
+    variant: 'US Release'
     platform_id: dos
     language: en-us
     variant_id: '1'
