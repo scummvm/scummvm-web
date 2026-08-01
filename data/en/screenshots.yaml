@@ -3486,6 +3486,48 @@
     language: en
     variant_id: '1'
 -
+    id: 'scumm:rebel1'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'scumm:rebel1'
+    variant: ''
+    platform_id: dos
+    language: de
+    variant_id: '1'
+-
+    id: 'scumm:rebel1'
+    variant: ''
+    platform_id: mac
+    language: en
+    variant_id: '1'
+-
+    id: 'scumm:rebel1'
+    variant: ''
+    platform_id: segacd
+    language: ja
+    variant_id: '1'
+-
+    id: 'scumm:rebel2'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
+    id: 'scumm:rebel2'
+    variant: ''
+    platform_id: dos
+    language: fr
+    variant_id: '1'
+-
+    id: 'scumm:rebel2'
+    variant: ''
+    platform_id: dos
+    language: ja
+    variant_id: '1'
+-
     id: 'scumm:samnmax'
     variant: ''
     platform_id: dos
