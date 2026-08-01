@@ -288,6 +288,9 @@
     id: raysmaze
     name: "Ray's Maze"
 -
+    id: rebel
+    name: 'Rebel Assault'
+-
     id: reversion
     name: Reversion
 -

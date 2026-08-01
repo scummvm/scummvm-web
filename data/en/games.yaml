@@ -12992,6 +12992,34 @@
     wikipedia_page: Putt-Putt_Saves_the_Zoo
     series_id: puttputt
 -
+    id: 'scumm:rebel1'
+    name: 'Star Wars: Rebel Assault'
+    engine_id: scumm
+    company_id: lucasarts
+    year: '1993'
+    moby_id: '272'
+    steam_id: '456540'
+    gog_id: star_wars_rebel_assault_1_2
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: 'Star_Wars:_Rebel_Assault'
+    wikipedia_page: 'Star_Wars:_Rebel_Assault'
+    series_id: rebel
+-
+    id: 'scumm:rebel2'
+    name: 'Star Wars: Rebel Assault II - The Hidden Empire'
+    engine_id: scumm
+    company_id: lucasarts
+    year: '1995'
+    moby_id: '677'
+    steam_id: '456540'
+    gog_id: star_wars_rebel_assault_1_2
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: 'Star_Wars:_Rebel_Assault_II_-_The_Hidden_Empire'
+    wikipedia_page: 'Star_Wars:_Rebel_Assault_II:_The_Hidden_Empire'
+    series_id: rebel
+-
     id: 'scumm:readtime'
     name: "Blue's Reading Time Activities"
     engine_id: scumm
