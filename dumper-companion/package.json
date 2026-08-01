@@ -9,18 +9,18 @@
   "dependencies": {
     "@types/punycode": "^2.1.4",
     "@zip.js/zip.js": "^2.8.34",
-    "preact": "^10.29.7",
+    "preact": "^10.29.8",
     "punycode": "^2.3.1",
     "ts-loader": "^9.6.2",
-    "webpack": "^5.108.4",
+    "webpack": "^5.109.2",
     "webpack-cli": "^7.2.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
     "@stylistic/eslint-plugin": "^5.10.0",
-    "eslint": "^9.39.4",
+    "eslint": "^9.39.5",
     "eslint-config-preact": "^2.0.0",
-    "globals": "^17.7.0",
-    "typescript-eslint": "^8.62.0"
+    "globals": "^17.8.0",
+    "typescript-eslint": "^8.65.0"
   }
 }
