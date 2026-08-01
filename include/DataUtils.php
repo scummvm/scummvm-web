@@ -10,10 +10,10 @@ use League\Csv\Statement;
 use Symfony\Component\Yaml\Yaml;
 use GuzzleHttp\Client;
 use GuzzleHttp\Promise;
-use GuzzleHttp\Psr7\Response;
 use Propel\Runtime\Propel;
 use Propel\Runtime\Connection\Exception\RollbackException;
 use Propel\Runtime\Map\TableMap;
+use Psr\Http\Message\ResponseInterface as Response;
 
 /**
  * DataUtils
