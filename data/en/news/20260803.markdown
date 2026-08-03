@@ -1,0 +1,22 @@
+---
+title: "The Rebel Alliance Needs YOU! Rebel Assault I &amp; II Ready for Testing"
+author: gu3
+date: 1785791773
+---
+
+![Rebel Assault II: The Hidden Empire screenshot](https://www.scummvm.org/data/screenshots/scumm/rebel2/rebel2_dos_en_1_2.jpg)
+
+The ScummVM Team is pleased to announce that _Star Wars: Rebel Assault_ and _Star Wars: Rebel Assault II: The Hidden Empire_ are ready for public testing!
+
+Strap into the cockpit as Rookie One and fly for the Rebel Alliance in a galaxy far, far away. The first game features many iconic battles of the movies including the famous trench run to destroy the Death Star, while the sequel picks up after the Battle of Endor, sending you into the Dreighton Nebula to uncover what the Empire is still hiding.
+
+Released in 1993, _Rebel Assault_ was LucasArts' first game distributed exclusively on CD-ROM and became one of the defining showcases of the format, packing full-motion video, rendered space battles and a full orchestral score onto a single disc. _Rebel Assault II_ followed in 1995 and included the first new _Star Wars_ live action video filmed since the movies..
+
+Although a rail shooter game, _Rebel Assault_ uses the SCUMM engine more commonly used for point-and-click adventure games and shares a large portion of its code with _Full Throttle_, another LucasArts game.
+
+For this testing period, ScummVM supports _Rebel Assault_ in its multiple DOS releases, the Macintosh release, the 3DO release, and the Sega CD releases. _Rebel Assault II_ is supported in its DOS/Windows release in its many languages, including English, French, German, Italian, Spanish, Brazilian Portuguese, and Japanese. The ScummVM reimplementation also features improved controls for both games, eliminating the frustrating struggle to steer the ship and addressing one of the biggest criticisms of the original releases.
+Finally, the PlayStation version of _Rebel Assault II_ is still under development and is not part of this testing round.
+
+As usual, you will need the original game data files to play. To join the test, grab a recent [daily development build](https://www.scummvm.org/downloads/#daily), add your game directory to ScummVM, and play through the games. Please report any problems you encounter on our [issue tracker](https://bugs.scummvm.org/).
+
+May the Force be with you, Rookie One. The Alliance is counting on you.
