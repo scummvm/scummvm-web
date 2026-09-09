@@ -1,0 +1,29 @@
+---
+title: "Help us test Wintermute games"
+author: aquadran
+date: 1788974823
+---
+
+The Wintermute engine reaches a major milestone. After years since the Wintermute engine was introduced to ScummVM in 2012, and following the addition of its 3D support in 2020, the engine has now reached an important milestone: over __140__ Wintermute games are expected to be supported in an upcoming ScummVM release.
+
+Notable games:
+* Alpha Polaris
+* Art of Murder: FBI Confidential
+* Face Noir
+* Reversion series
+* Shadows on the Vatican series
+* The Lost Crown - A Ghost-Hunting Adventure
+* Dark Fall: Lost Souls
+* Barrow Hill - The Dark Path
+* Rhiannon: Curse of the Four Branches
+* Hamlet
+* 1½ Ritter
+* Dirty Split
+* Ghost in the Sheet
+* Devil In The Capital
+* Murder In Tehran's Alleys 2016
+* Murder In Tehran's Alleys 1933
+
+The "Games tested at least once" section of the [Wintermute/Games](https://wiki.scummvm.org/index.php?title=Wintermute/Games) wiki page reflects the current state of compatibility and lists the games that are expected to be supported.
+
+We'd like to ask for your help testing them. You can pick your favorite game and give it a try!
