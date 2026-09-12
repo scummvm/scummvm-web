@@ -478,6 +478,10 @@
       name: "Chamber"
       person:
       -
+        name: "Ion Andrei Cristian"
+        alias: "11-andy-11"
+        description: ""
+      -
         name: "Retro-Junk;"
         alias: "bambarbee"
         description: ""
@@ -526,6 +530,13 @@
       -
         name: "Eugene Sandulenko"
         alias: "sev"
+        description: ""
+    -
+      name: "Colony"
+      person:
+      -
+        name: "Gustavo Grieco"
+        alias: "neuromancer"
         description: ""
     -
       name: "Composer"
@@ -719,11 +730,25 @@
         alias: "wjp"
         description: ""
     -
+      name: "EEM"
+      person:
+      -
+        name: "Gustavo Grieco"
+        alias: "neuromancer"
+        description: ""
+    -
       name: "Efh"
       person:
       -
         name: "Arnaud Boutonn&eacute;"
         alias: "Strangerke"
+        description: ""
+    -
+      name: "Fool"
+      person:
+      -
+        name: "Scott Percival"
+        alias: "moralrecordings"
         description: ""
     -
       name: "Freescape"
@@ -1105,6 +1130,10 @@
     -
       name: "MacVenture"
       person:
+      -
+        name: "Ion Andrei Cristian"
+        alias: "11-andy-11"
+        description: "GSoC student"
       -
         name: "Borja Lorente"
         alias: "blorente"
@@ -3916,3 +3945,4 @@
   - "Benjamin Haisch, for emimeshviewer, which our EMI code borrows heavily from."
   - "Fabrizio Lagorio from Trecision S.p.A., for finding and providing the source code of many of their games."
   - "Ron Davis for releasing the sources and generously giving away the three chapters of God of Thunder."
+  - "David A. Smith for releasing the source code of The Colony, which our engine is based on."
