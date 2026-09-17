@@ -1,0 +1,15 @@
+---
+title: "The Trail to Silver Lake"
+author: mgerhardy
+date: 1789660800
+---
+
+![Der Schatz im Silbersee (DOS/German)](https://www.scummvm.org/data/screenshots/macs2/sis_dos_de_1_4.jpg)
+
+The ScummVM Team is pleased to announce that *Der Schatz im Silbersee* (*The Treasure of Silver Lake*) is ready for public testing!
+
+Play as Old Firehand, with Winnetou and Aunt Droll at your side, in this 1993 point-and-click adventure by Linel and Software 2000. Based on Karl May's novel, the hunt for the legendary treasure begins aboard the steamer *Dogfish* and leads all the way to Silver Lake.
+
+For this testing period, ScummVM supports the DOS game, the DOS demo, and the Amiga demo (with some known issues). The original release is German-only. We are working on an English translation and need help to finish it. If you speak German and English and would like to contribute, please get in touch with us.
+
+Help us test the games by grabbing a [daily build](https://scummvm.org/downloads/#daily). Read through our [testing guidelines](https://wiki.scummvm.org/index.php/Release_Testing#Testing_Guidelines). And please take some [screenshots](https://wiki.scummvm.org/index.php/Screenshots) along the way.
