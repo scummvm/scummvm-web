@@ -1,6 +1,5 @@
 import { ComponentChild } from 'preact';
 import { useState, useEffect } from 'preact/hooks';
-import { fs } from '@zip.js/zip.js';
 import { Volume } from './hfs/main';
 import { Language, getLanguages } from './encoding';
 
@@ -21,6 +20,13 @@ async function dumpVolume(file: ArrayBuffer, s: DumpSettings): Promise<void> {
         volume.read(new Uint8Array(file));
 
         s.updateDumpPercent(0);
+
+        const { fs } = await import(
+            /* webpackChunkName: "zipjs" */
+            /* webpackExports: ["fs"] */
+            /* webpackPreload: true */
+            /* webpackPrefetch: true */
+            '@zip.js/zip.js');
 
         const zipFS = new fs.FS();
         volume.dumpToZip(zipFS.root, s.lang, !s.unicode, s.forceMacBinary, s.log);

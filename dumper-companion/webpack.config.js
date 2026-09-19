@@ -4,8 +4,10 @@ module.exports = {
     context: `${__dirname}/src`,
     entry: "./index.tsx",
     output: {
-        path: __dirname,
-        filename: "index.js"
+        clean: true,
+        path: `${__dirname}/dist`,
+        filename: "dumper-companion.js",
+        chunkFilename: "[name].dumper-companion.js"
     },
     resolve: {
         extensions: [".ts", ".tsx", ".js"]
@@ -17,6 +19,7 @@ module.exports = {
     },
     plugins: [],
     optimization: {
+        usedExports: true,
         minimizer: [
             new MinimizerPlugin({
                 extractComments: false,

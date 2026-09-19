@@ -10,7 +10,7 @@ export default defineConfig(
     preact,
     {
         name: "global ignores",
-        ignores: ["node_modules", "index.js"],
+        ignores: ["node_modules", "dist"],
     },
     {
         name: "global settings",
