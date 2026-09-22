@@ -14,7 +14,7 @@ In the sequel, the twins cross the Atlantic, leaving Richview behind for the str
 
 Published by EA\*Kids and developed by Stormfront Studios, the Eagle Eye games sit in that rare corner of educational software that took its own genre seriously: a real deduction game, with suspects who lie, clues that only matter in hindsight, and mysteries that expect you to keep notes. Each case is self-contained, and there are plenty of them.
 
-For this testing period, ScummVM supports the _Eagle Eye Mysteries_ DOS releases, in English and Spanish, and the Macintosh release and the_Eagle Eye Mysteries in London_ DOS release. The Macintosh version of _Eagle Eye Mysteries in London_ is still under development and is not part of this testing round.
+For this testing period, ScummVM supports the _Eagle Eye Mysteries_ DOS releases, in English and Spanish, and the Macintosh release and the _Eagle Eye Mysteries in London_ DOS release. The Macintosh version of _Eagle Eye Mysteries in London_ is still under development and is not part of this testing round.
 
 As usual, you will need the original game data files to play. To join the test, grab a recent [daily development build](https://www.scummvm.org/downloads/#daily), add your game directory to ScummVM, and play through the games. Please report any problems you encounter on our [issue tracker](https://bugs.scummvm.org/), following our [bug submission guidelines](https://www.scummvm.org/faq/#question.report-bugs). Screenshots and saved games demonstrating an issue are always helpful.
 
