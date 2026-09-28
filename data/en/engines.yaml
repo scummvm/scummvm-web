@@ -93,7 +93,7 @@
     id: chamber
     name: Chamber
     alt_name: ''
-    enabled: false
+    enabled: true
 -
     id: chewy
     name: 'Chewy: Esc from F5'
@@ -173,7 +173,7 @@
     id: eem
     name: 'Eagle Eye Mysteries'
     alt_name: ''
-    enabled: false
+    enabled: true
 -
     id: efh
     name: 'Escape From Hell'
@@ -313,12 +313,12 @@
     id: macs2
     name: 'GMACS II Interpreter V1.00'
     alt_name: 'Modular Adventure Control System'
-    enabled: false
+    enabled: true
 -
     id: macventure
     name: MacVenture
     alt_name: ''
-    enabled: false
+    enabled: true
 -
     id: made
     name: MADE

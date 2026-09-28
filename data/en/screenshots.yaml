@@ -2172,6 +2172,30 @@
     language: en
     variant_id: '1'
 -
+    id: 'nancy:nancy12'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'nancy:nancy13'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'nancy:nancy14'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
+    id: 'nancy:nancy15'
+    variant: ''
+    platform_id: win
+    language: en
+    variant_id: '1'
+-
     id: 'nancy:vampirediaries'
     variant: ''
     platform_id: win

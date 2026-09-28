@@ -10570,6 +10570,62 @@
     wikipedia_page: 'Nancy_Drew:_Curse_of_Blackmoor_Manor'
     series_id: nancy
 -
+    id: 'nancy:nancy12'
+    name: 'Nancy Drew: Secret of the Old Clock'
+    engine_id: nancy
+    company_id: herinteractive
+    year: '2005'
+    moby_id: '18402'
+    steam_id: '31880'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: "- [Developer's Website](https://www.herinteractive.com/shop-games/nancy-drew-secret-of-the-old-clock/)"
+    datafiles: 'Nancy_Drew:_Secret_of_the_Old_Clock'
+    wikipedia_page: 'Nancy_Drew:_Secret_of_the_Old_Clock'
+    series_id: nancy
+-
+    id: 'nancy:nancy13'
+    name: 'Nancy Drew: Last Train to Blue Moon Canyon'
+    engine_id: nancy
+    company_id: herinteractive
+    year: '2005'
+    moby_id: '19217'
+    steam_id: '31810'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: "- [Developer's Website](https://www.herinteractive.com/shop-games/nancy-drew-last-train-to-blue-moon-canyon/)"
+    datafiles: 'Nancy_Drew:_Last_Train_to_Blue_Moon_Canyon'
+    wikipedia_page: 'Nancy_Drew:_Last_Train_to_Blue_Moon_Canyon'
+    series_id: nancy
+-
+    id: 'nancy:nancy14'
+    name: 'Nancy Drew: Danger by Design'
+    engine_id: nancy
+    company_id: herinteractive
+    year: '2006'
+    moby_id: '23291'
+    steam_id: '31800'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: "- [Developer's Website](https://www.herinteractive.com/more-nancy-drew/trailers/nancy-drew-danger-by-design/)"
+    datafiles: 'Nancy_Drew:_Danger_by_Design'
+    wikipedia_page: 'Nancy_Drew:_Danger_by_Design'
+    series_id: nancy
+-
+    id: 'nancy:nancy15'
+    name: 'Nancy Drew: The Creature of Kapu Cave'
+    engine_id: nancy
+    company_id: herinteractive
+    year: '2006'
+    moby_id: '24485'
+    steam_id: '31900'
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: "- [Developer's Website](https://www.herinteractive.com/shop-games/nancy-drew-the-creature-of-kapu-cave/)"
+    datafiles: 'Nancy_Drew:_The_Creature_of_Kapu_Cave'
+    wikipedia_page: 'Nancy_Drew:_The_Creature_of_Kapu_Cave'
+    series_id: nancy
+-
     id: 'nancy:vampirediaries'
     name: 'The Vampire Diaries'
     engine_id: nancy

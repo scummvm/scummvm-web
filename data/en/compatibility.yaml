@@ -5985,6 +5985,34 @@
     stable_platforms: dos
     unstable_platforms: ''
 -
+    id: 'macventure:deja_vu'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,apple2gs'
+    unstable_platforms: ''
+-
+    id: 'macventure:deja_vu2'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,apple2gs'
+    unstable_platforms: ''
+-
+    id: 'macventure:shadowgate'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,apple2gs'
+    unstable_platforms: ''
+-
+    id: 'macventure:uninvited'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'mac,apple2gs'
+    unstable_platforms: ''
+-
     id: 'eem:eem1'
     support: good
     notes: ''
@@ -7080,6 +7108,41 @@
     id: 'wintermute:vsevolod'
     support: broken
     notes: '- Can crash due broken scripts'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'macs2:sis'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: amiga
+-
+    id: 'nancy:nancy12'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'nancy:nancy13'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'nancy:nancy14'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'nancy:nancy15'
+    support: good
+    notes: ''
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
