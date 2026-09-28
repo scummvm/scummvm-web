@@ -1,0 +1,21 @@
+---
+title: "Four More Cases for Nancy Drew"
+author: bluegr
+date: 1790625600
+---
+
+![Nancy15 screenshot](https://www.scummvm.org/data/screenshots/nancy/nancy15/nancy15_win_en_1_0.jpg)
+
+Grab your magnifying glass and pack your bags, because Nancy is back on the road! We are pleased to announce that ScummVM now supports four more titles from the _Nancy Drew_ adventure game series, taking the famous detective from a charming 1930s country inn all the way to the volcanic slopes of Hawaii.
+
+In _Nancy Drew: Secret of the Old Clock_, Nancy visits the Lilac Inn, run by 17-year-old Emily Crandall. A kindly neighbor promised Emily his estate, but when he dies, his will leaves everything to someone else! Meanwhile, objects vanish and reappear, and whispers echo through the empty halls of the inn.
+
+In _Nancy Drew: Last Train to Blue Moon Canyon_, Nancy and the Hardy Boys join socialite Lori Girard on a train trip to solve a century-old mystery: the disappearance of the train's original owner, Jake Hurley, rumored to have found a fabulous gold mine. But as soon as the journey begins, Lori herself vanishes...
+
+In _Nancy Drew: Danger by Design_, Nancy goes undercover in Paris as an assistant to Minette, a couture fashion designer who has been throwing tantrums, firing her staff, and refusing to be seen without a mask covering her face. What is she hiding?
+
+In _Nancy Drew: The Creature of Kapu Cave_, Nancy arrives in Hawaii to assist entomologist Dr. Quigley Kim, only to find her camp ravaged and the doctor missing. Locals whisper that a legendary creature has awoken to prowl the island, and it's up to Nancy and the Hardy Boys to team up and crack the case.
+
+As usual, you will need the original game data files to play these games. The games are available for purchase through HeR Interactive's website or Steam. To play them with ScummVM, you will need a [daily development build](https://www.scummvm.org/downloads/#daily). If you encounter any issues, please submit a bug report to our [issue tracker](https://bugs.scummvm.org/), following our [bug submission guidelines](https://www.scummvm.org/faq/#question.report-bugs).
+
+The case files are open, and the clues are waiting. Happy investigating!
