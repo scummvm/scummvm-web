@@ -302,6 +302,13 @@
     notes: ''
 -
     category: games
+    game_id: 'cge2:sfinx'
+    category_icon: sfinx
+    url: Sfinx/sfinx-de-v1.1.zip
+    name: 'German v1.1'
+    notes: ''
+-
+    category: games
     game_id: 'cge:soltys'
     category_icon: soltys
     url: Soltys/soltys-en-v1.0.zip
@@ -320,6 +327,13 @@
     category_icon: soltys
     url: Soltys/soltys-es-v1.0.zip
     name: 'Spanish v1.0'
+    notes: ''
+-
+    category: games
+    game_id: 'cge:soltys'
+    category_icon: soltys
+    url: Soltys/soltys-de-v1.0.zip
+    name: 'German v1.0'
     notes: ''
 -
     category: games
