@@ -1120,12 +1120,12 @@
       name: "Macs2"
       person:
       -
-        name: "Florian Mehm"
-        alias: ""
-        description: ""
-      -
         name: "Martin Gerhardy"
         alias: "mgerhardy"
+        description: ""
+      -
+        name: "Florian Mehm"
+        alias: ""
         description: ""
     -
       name: "MacVenture"
@@ -3143,6 +3143,10 @@
         name: "Alejandro G&oacute;mez de la Mu&ntilde;oza"
         alias: "TheFireRed"
         description: "Soltys Spanish translation"
+      -
+        name: "Alexander Klaus"
+        alias: "Mustrum"
+        description: "Soltys German translation"
     -
       name: "CGE2"
       person:
@@ -3162,6 +3166,10 @@
         name: "Ryan Clark"
         alias: ""
         description: "Sfinx English translation editor"
+      -
+        name: "Alexander Klaus"
+        alias: "Mustrum"
+        description: "Sfinx German translation"
     -
       name: "Drascula"
       person:
