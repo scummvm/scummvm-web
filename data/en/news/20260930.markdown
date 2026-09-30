@@ -20,7 +20,7 @@ In _The Messenger_/ _Louvre: The Final Curse_, agent Morgane Sinclair must recov
 
 All three games run on the _PhoenixVR engine_, also used by _Dracula: Resurrection_ and _Dracula 2: The Last Sanctuary_.
 
-Please note that only the Windows versions of these games are supported. The Macintosh and PSX versions use different engine.
+Please note that only the Windows versions of these games are supported. The Macintosh and PSX versions use a different engine.
 
 To join the testing, grab a recent [daily development build](https://www.scummvm.org/downloads/#daily) and your original game data files. Report any bugs on our [issue tracker](https://bugs.scummvm.org/), including your ScummVM version, game edition and language, and steps to reproduce the problem.
 
