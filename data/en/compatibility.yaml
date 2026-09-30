@@ -7146,3 +7146,24 @@
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
+-
+    id: 'phoenixvr:amerzone'
+    support: good
+    notes: '- Only Windows version is supported'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'phoenixvr:lochness'
+    support: good
+    notes: '- Only Windows version is supported'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
+-
+    id: 'phoenixvr:messenger'
+    support: excellent
+    notes: '- Only Windows version is supported'
+    since_version: DEV
+    stable_platforms: win
+    unstable_platforms: ''
