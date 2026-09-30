@@ -6,7 +6,11 @@ date: 1790800295
 
 ![Amerzone screenshot](https://www.scummvm.org/data/screenshots/phoenixvr/amerzone/amerzone_win_en_1_2.jpg)
 
+<<<<<<< HEAD
 The ScummVM Team is pleased to announce that _Amerzone: The Explorer’s Legacy_, _Loch Ness_, and _The Messenger_ / _Louvre: The Final Curse_ are ready for public testing!
+=======
+The ScummVM Team is pleased to announce that _Amerzone: The Explorer’s Legacy_, _The Cameron Files: The Secret at Loch Ness_, and _The Messenger_ / _Louvre: The Final Curse_ are ready for public testing!
+>>>>>>> 6cf47bcd (NEWS: Added another phoenixvr announcement, for three games)
 
 In _Amerzone: The Explorer’s Legacy_, an old explorer’s final wish sends a young journalist to a hidden land with some precious cargo: the stolen egg of the legendary White Birds. Sail, drive, and puzzle your way through Benoît Sokal’s world of strange wildlife, rusting machinery, and forgotten history.
 
@@ -15,6 +19,8 @@ _Loch Ness_ takes private investigator Alan P. Cameron to the Scottish Highlands
 In _The Messenger_/ _Louvre: The Final Curse_, agent Morgane Sinclair must recover four dangerous artefacts before the Black Templars can unleash their power. Travel through different eras of the Louvre’s history, mixing modern gadgets with ancient magic. This museum visit comes with considerably more at stake than the admission fee.
 
 All three games run on the _PhoenixVR engine_, also used by _Dracula: Resurrection_ and _Dracula 2: The Last Sanctuary_.
+
+Please note that only the Windows versions of these games are supported. The Macintosh and PSX versions use different engine.
 
 To join the testing, grab a recent [daily development build](https://www.scummvm.org/downloads/#daily) and your original game data files. Report any bugs on our [issue tracker](https://bugs.scummvm.org/), including your ScummVM version, game edition and language, and steps to reproduce the problem.
 
