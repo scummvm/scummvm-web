@@ -6,11 +6,7 @@ date: 1790800295
 
 ![Amerzone screenshot](https://www.scummvm.org/data/screenshots/phoenixvr/amerzone/amerzone_win_en_1_2.jpg)
 
-<<<<<<< HEAD
-The ScummVM Team is pleased to announce that _Amerzone: The Explorer’s Legacy_, _Loch Ness_, and _The Messenger_ / _Louvre: The Final Curse_ are ready for public testing!
-=======
 The ScummVM Team is pleased to announce that _Amerzone: The Explorer’s Legacy_, _The Cameron Files: The Secret at Loch Ness_, and _The Messenger_ / _Louvre: The Final Curse_ are ready for public testing!
->>>>>>> 6cf47bcd (NEWS: Added another phoenixvr announcement, for three games)
 
 In _Amerzone: The Explorer’s Legacy_, an old explorer’s final wish sends a young journalist to a hidden land with some precious cargo: the stolen egg of the legendary White Birds. Sail, drive, and puzzle your way through Benoît Sokal’s world of strange wildlife, rusting machinery, and forgotten history.
 
