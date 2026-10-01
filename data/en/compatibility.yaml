@@ -7167,3 +7167,10 @@
     since_version: DEV
     stable_platforms: win
     unstable_platforms: ''
+-
+    id: 'fool:foolserrand'
+    support: excellent
+    notes: '- Only Macintosh versions are supported'
+    since_version: DEV
+    stable_platforms: mac
+    unstable_platforms: ''

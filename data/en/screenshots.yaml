@@ -1050,6 +1050,12 @@
     language: en
     variant_id: '1'
 -
+    id: 'fool:foolserrand'
+    variant: ''
+    platform_id: mac
+    language: en
+    variant_id: '1'
+-
     id: 'freescape:castlemaster'
     variant: ''
     platform_id: dos

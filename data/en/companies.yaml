@@ -1152,6 +1152,10 @@
     name: 'Millennium Interactive Ltd.'
     alt_name: ''
 -
+    id: milescomputing
+    name: 'Miles Computing, Inc.'
+    alt_name: ''
+-
     id: mindfactory
     name: MindFactory
     alt_name: ''

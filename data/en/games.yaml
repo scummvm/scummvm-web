@@ -7770,6 +7770,20 @@
     wikipedia_page: ''
     series_id: ''
 -
+    id: 'fool:foolserrand'
+    name: "The Fool's Errand"
+    engine_id: fool
+    company_id: milescomputing
+    year: '1987'
+    moby_id: '1383'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: The_Fool%27s_Errand
+    wikipedia_page: The_Fool%27s_Errand
+    series_id: ''
+-
     id: 'freescape:3dkit-fanmade'
     name: '3D Construction Kit'
     engine_id: freescape
