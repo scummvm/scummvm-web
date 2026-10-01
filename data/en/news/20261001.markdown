@@ -1,0 +1,15 @@
+---
+title: "Fool me Once, Shame on You..."
+author: moralrecordings
+date: 1790878733
+---
+
+The ScummVM Team is pleased to announce that _The Fool's Errand_ is ready for public testing!
+
+_The Fool's Errand_ is a critically-acclaimed narrative puzzle game based on characters and arcana from the tarot. Help the Fool as he uncovers the lost fourteen treasures of the world, averts all-out war between the four kingdoms, and defies the wrath of the evil High Priestess. Each puzzle solved reveals a new piece of the story, and builds to an overarching metapuzzle that ties all of the threads together.
+
+For this testing period, ScummVM supports the original Macintosh edition of the game - the ports for DOS, Amiga and Atari use a different engine and are not covered by this announcement. All known versions of the Macintosh edition should be supported and completable. But there's an old saying that a reverse engineer who hires themselves as a beta tester has a fool for a client, so don't take our word for it!
+
+Help us test the games by grabbing a [daily build](https://scummvm.org/downloads/#daily). Read through our [testing guidelines](https://wiki.scummvm.org/index.php/Release_Testing#Testing_Guidelines). And please take some [screenshots](https://wiki.scummvm.org/index.php/Screenshots) along the way. The [wiki page for the game](https://wiki.scummvm.org/index.php?title=The_Fool%27s_Errand) explains which files are needed and how to extract them.
+
+If you encounter any unexpected treachery, such as game-breaking bugs or a revision of the game which does not open in ScummVM, please report it on our [issue tracker](https://bugs.scummvm.org/) following our [bug submission guidelines](https://www.scummvm.org/faq/#question.report-bugs).
