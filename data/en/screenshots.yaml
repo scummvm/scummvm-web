@@ -1572,6 +1572,12 @@
     language: en
     variant_id: '1'
 -
+    id: 'harvester:harvester'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
     id: 'hdb:hdb'
     variant: ''
     platform_id: win

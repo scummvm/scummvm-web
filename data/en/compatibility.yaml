@@ -7174,3 +7174,10 @@
     since_version: DEV
     stable_platforms: mac
     unstable_platforms: ''
+-
+    id: 'harvester:harvester'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: dos
+    unstable_platforms: ''

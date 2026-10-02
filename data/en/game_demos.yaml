@@ -918,6 +918,15 @@
     language3: ''
     url: /frs/demos/dreamweb/dreamweb-dos-demo-en.zip
 -
+    id: 'fool:foolserrand'
+    platform: mac
+    '': ''
+    category: ''
+    language: en
+    language2: ''
+    language3: ''
+    url: /frs/demos/fool/foolserrand-demo10.zip
+-
     id: 'freescape:3dkit-fanmade'
     platform: acorn
     '': ''

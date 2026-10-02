@@ -9198,6 +9198,20 @@
     wikipedia_page: 'Hercules_(franchise)#Hades_Challenge'
     series_id: ''
 -
+    id: 'harvester:harvester'
+    name: Harvester
+    engine_id: harvester
+    company_id: virgin
+    year: '1996'
+    moby_id: '324'
+    steam_id: '287020'
+    gog_id: harvester
+    zoom_id: harvester
+    additional_stores: ''
+    datafiles: Harvester
+    wikipedia_page: Harvester_(video_game)
+    series_id: ''
+-
     id: 'hdb:hdb'
     name: 'Hyperspace Delivery Boy!'
     engine_id: hdb

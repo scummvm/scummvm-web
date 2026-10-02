@@ -105,6 +105,11 @@
     alt_name: ''
     enabled: true
 -
+    id: comfy
+    name: Comfy
+    alt_name: ''
+    enabled: false
+-
     id: composer
     name: 'Magic Composer'
     alt_name: ''
@@ -232,6 +237,11 @@
 -
     id: hadesch
     name: "Hades' Challenge"
+    alt_name: ''
+    enabled: true
+-
+    id: harvester
+    name: Harvester
     alt_name: ''
     enabled: true
 -
