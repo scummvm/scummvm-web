@@ -1,0 +1,17 @@
+---
+title: "You always were a kidder, Steve"
+author: alexbevi
+date:
+---
+
+![Harvester screenshot](https://www.scummvm.org/data/screenshots/harvester/harvester/harvester_dos_en_1_2.jpg)
+
+The ScummVM Team is pleased to announce that _Harvester_ is ready for public testing!
+
+You wake up in the small Texas farming town of Harvest. Who are you? How did you get here? Why does it seem to be the 1950s? What’s the Order of the Harvest Moon?
+
+_Harvester_ is an adventure/horror game, full of quirky characters, campy FMV cutscenes, B-list acting, real-time combat sequences and all the pixel-hunting goodness the genre is known for. Engage with the citizens of Harvest and uncover the town’s secrets as you attempt to gain access to the Lodge to uncover the truth.
+
+For this testing period, ScummVM supports the English, French and European versions. Once you’ve obtained a supported version, see the [wiki](https://wiki.scummvm.org/index.php?title=Harvester) for guidance on extracting the necessary data files.
+
+Harvester depicts scenes of graphic violence, sex and gore, and may not be everyone’s cup of tea. If you’re not put off by this and want to help us test the games, start by grabbing a [daily build](https://scummvm.org/downloads/#daily) and get playing! Don’t forget to read through our [testing guidelines](https://wiki.scummvm.org/index.php/Release_Testing#Testing_Guidelines), and please take some [screenshots](https://wiki.scummvm.org/index.php/Screenshots) along the way.
