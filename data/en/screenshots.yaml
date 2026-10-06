@@ -642,6 +642,12 @@
     language: en
     variant_id: '1'
 -
+    id: 'avalanche:avalanche'
+    variant: ''
+    platform_id: dos
+    language: en
+    variant_id: '1'
+-
     id: 'awe:anotherworld'
     variant: VGA
     platform_id: dos

@@ -48,7 +48,7 @@
     id: avalanche
     name: Avalanche
     alt_name: ''
-    enabled: false
+    enabled: true
 -
     id: awe
     name: 'Another World'
