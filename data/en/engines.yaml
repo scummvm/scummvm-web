@@ -153,7 +153,7 @@
     id: dm
     name: 'Dungeon Master'
     alt_name: ''
-    enabled: false
+    enabled: true
 -
     id: draci
     name: Draci

@@ -7188,3 +7188,10 @@
     since_version: DEV
     stable_platforms: dos
     unstable_platforms: ''
+-
+    id: 'dm:dm'
+    support: good
+    notes: ''
+    since_version: DEV
+    stable_platforms: 'amiga,dos'
+    unstable_platforms: ''
