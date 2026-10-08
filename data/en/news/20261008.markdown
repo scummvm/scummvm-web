@@ -1,0 +1,21 @@
+---
+title: "Chaos awaits in the depths"
+author: mohit
+date: 1791482400
+---
+
+![DM screenshot](https://www.scummvm.org/data/screenshots/dm/dm/dm_dos_en_1_1.jpg)
+
+The ScummVM Team is pleased to announce that _Dungeon Master_, the landmark 1987 first-person dungeon crawler by FTL Games, is ready for public testing!
+
+As the spirit of Theron, the Grey Lord's apprentice, resurrect up to four champions from the mirrors in the Hall of Champions and guide them through the dungeon in real time to recover the Firestaff and defeat Lord Chaos.
+
+Released in 1987, Dungeon Master was FTL Games' breakthrough title and one of the most influential releases of its decade, credited with defining the first-person dungeon-crawler genre and inspiring a generation of imitators across home computer platforms.
+
+Dungeon Master broke new ground with real-time combat and an innovative rune-based spell-casting system, letting players combine runes to craft their own spells — features that set it apart from the turn-based crawlers that came before it.
+
+For this testing period, ScummVM supports the Amiga release (version 2.0, English) and the DOS release (version 3.4, USA edition, English) of Dungeon Master.
+
+To join the test, grab a recent [daily development build](https://scummvm.org/downloads/#daily), add your game directory to ScummVM, and play through the dungeon. Please report any problems you encounter on our [issue tracker](https://bugs.scummvm.org/).
+
+The Grey Lord needs you! Resurrect four champions from their mirrors, brave the depths of the dungeon, seize the firestaff, and bring Lord Chaos to his knees — or abandon it all and walk away. The choice is yours. Are you ready to descend?
