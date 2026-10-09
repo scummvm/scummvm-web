@@ -602,16 +602,16 @@
         },
         {
             "name": "matomo/device-detector",
-            "version": "6.5.1",
+            "version": "6.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matomo-org/device-detector.git",
-                "reference": "f30457500c6be4c80c8830466f8a746724779fd0"
+                "reference": "e83ce7a97f05d8ee3e1eee7ea77a73b3bdfebd9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matomo-org/device-detector/zipball/f30457500c6be4c80c8830466f8a746724779fd0",
-                "reference": "f30457500c6be4c80c8830466f8a746724779fd0",
+                "url": "https://api.github.com/repos/matomo-org/device-detector/zipball/e83ce7a97f05d8ee3e1eee7ea77a73b3bdfebd9a",
+                "reference": "e83ce7a97f05d8ee3e1eee7ea77a73b3bdfebd9a",
                 "shasum": ""
             },
             "require": {
@@ -667,7 +667,7 @@
                 "source": "https://github.com/matomo-org/matomo",
                 "wiki": "https://developer.matomo.org/"
             },
-            "time": "2026-05-27T09:53:26+00:00"
+            "time": "2026-09-29T12:42:03+00:00"
         },
         {
             "name": "mustangostang/spyc",
@@ -1361,16 +1361,16 @@
         },
         {
             "name": "smarty/smarty",
-            "version": "v5.8.4",
+            "version": "v5.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/smarty-php/smarty.git",
-                "reference": "94a27cbbc7820198d7adc17a2be8d457fb267753"
+                "reference": "0ae663525dcbc9e996feb2a867e43bc85f960938"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/94a27cbbc7820198d7adc17a2be8d457fb267753",
-                "reference": "94a27cbbc7820198d7adc17a2be8d457fb267753",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/0ae663525dcbc9e996feb2a867e43bc85f960938",
+                "reference": "0ae663525dcbc9e996feb2a867e43bc85f960938",
                 "shasum": ""
             },
             "require": {
@@ -1425,7 +1425,7 @@
             "support": {
                 "forum": "https://github.com/smarty-php/smarty/discussions",
                 "issues": "https://github.com/smarty-php/smarty/issues",
-                "source": "https://github.com/smarty-php/smarty/tree/v5.8.4"
+                "source": "https://github.com/smarty-php/smarty/tree/v5.8.5"
             },
             "funding": [
                 {
@@ -1433,7 +1433,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-06-29T10:46:32+00:00"
+            "time": "2026-10-04T21:31:42+00:00"
         },
         {
             "name": "spatie/yaml-front-matter",
@@ -2135,16 +2135,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.38.2",
+            "version": "v1.43.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "d3d318bad5e7a1bfbd026009c8bfb8d8f99ae6b6"
+                "reference": "4d5d331bf731e0aedbc6b2f5e61135b7b7996a72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/d3d318bad5e7a1bfbd026009c8bfb8d8f99ae6b6",
-                "reference": "d3d318bad5e7a1bfbd026009c8bfb8d8f99ae6b6",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/4d5d331bf731e0aedbc6b2f5e61135b7b7996a72",
+                "reference": "4d5d331bf731e0aedbc6b2f5e61135b7b7996a72",
                 "shasum": ""
             },
             "require": {
@@ -2196,7 +2196,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.38.2"
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.43.0"
             },
             "funding": [
                 {
@@ -2216,7 +2216,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-05-27T06:59:30+00:00"
+            "time": "2026-09-24T15:19:04+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
