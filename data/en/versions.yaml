@@ -398,3 +398,10 @@
     minor: '3'
     patch: '0'
     name: 'Carousels & Killer Whales'
+-
+    id: 2026.4.0
+    release_date: 'October 10, 2026'
+    major: '2026'
+    minor: '4'
+    patch: '0'
+    name: Never-slop

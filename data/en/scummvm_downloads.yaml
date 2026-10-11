@@ -5,7 +5,7 @@
     subcategory: release
     category_icon: windows
     user_agent: Windows
-    version: 2026.3.0
+    version: 2026.4.0
     url: 'scummvm-{$version}-win32.exe'
     name: 'Windows Installer (32 and 64 bit)'
     notes: ''
@@ -15,7 +15,7 @@
     subcategory: release
     category_icon: windows
     user_agent: ''
-    version: 2026.3.0
+    version: 2026.4.0
     url: 'scummvm-{$version}-win32-x86_64.zip'
     name: 'Windows zipfile (64 bit)'
     notes: ''
@@ -25,7 +25,7 @@
     subcategory: release
     category_icon: windows
     user_agent: ''
-    version: 2026.3.0
+    version: 2026.4.0
     url: 'scummvm-{$version}-win32.zip'
     name: 'Windows zipfile (32 bit)'
     notes: ''
@@ -82,7 +82,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: flatpak
     user_agent: ''
     version: 2026.3.0
@@ -92,7 +92,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: debian
     user_agent: Debian
     version: 2026.3.0
@@ -102,7 +102,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: debian
     user_agent: ''
     version: 2026.3.0
@@ -112,7 +112,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: debian
     user_agent: ''
     version: 2026.3.0
@@ -122,7 +122,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: debian
     user_agent: ''
     version: 2026.3.0
@@ -132,7 +132,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: debian
     user_agent: ''
     version: 2026.3.0
@@ -192,7 +192,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: ubuntu
     user_agent: ''
     version: 2026.3.0
@@ -202,7 +202,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: ubuntu
     user_agent: ''
     version: 2026.3.0
@@ -212,7 +212,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: ubuntu
     user_agent: ''
     version: 2026.3.0
@@ -222,7 +222,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: ubuntu
     user_agent: ''
     version: 2026.3.0
@@ -365,14 +365,14 @@
     subcategory: release
     category_icon: macos
     user_agent: Mac
-    version: 2026.3.0
+    version: 2026.4.0
     url: 'scummvm-{$version}-macosx.dmg'
     name: 'macOS 10.13+ for Intel and Apple Silicon, with Sparkle Disk Image'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: macos
     user_agent: ''
     version: 2026.3.0
@@ -382,7 +382,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: macostiger
     user_agent: ''
     version: 2026.3.0
@@ -395,7 +395,7 @@
     subcategory: release
     category_icon: macosppc
     user_agent: ''
-    version: 2026.3.0
+    version: 2026.4.0
     url: 'scummvm-{$version}-macosx-ppc.dmg'
     name: 'Mac OS X 10.4+ PPC 32 bits (without Sparkle) Disk Image'
     notes: ''
@@ -422,7 +422,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: ps3
     user_agent: ''
     version: 2026.3.0
@@ -432,7 +432,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: ps3
     user_agent: ''
     version: 2026.3.0
@@ -452,7 +452,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: psp
     user_agent: ''
     version: 2026.3.0
@@ -462,7 +462,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: psp2
     user_agent: 'PlayStation Portable'
     version: 2026.3.0
@@ -472,7 +472,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: android
     user_agent: Android
     version: 2026.3.0
@@ -482,7 +482,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: android
     user_agent: ''
     version: 2026.3.0
@@ -492,7 +492,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: android
     user_agent: ''
     version: 2026.3.0
@@ -502,7 +502,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: android
     user_agent: ''
     version: 2026.3.0
@@ -512,7 +512,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: android
     user_agent: ''
     version: 2026.3.0
@@ -522,7 +522,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: android
     user_agent: ''
     version: 2026.3.0
@@ -632,7 +632,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: iphone
     user_agent: ''
     version: 2026.3.0
@@ -642,7 +642,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: iphone
     user_agent: iOS
     version: 2026.3.0
@@ -705,7 +705,7 @@
     subcategory: release
     category_icon: dc
     user_agent: ''
-    version: 2026.3.0
+    version: 2026.4.0
     url: 'scummvm-{$version}-dreamcast-plainfiles.tar.bz2'
     name: 'Dreamcast plain files'
     notes: ''
@@ -715,7 +715,7 @@
     subcategory: release
     category_icon: dc
     user_agent: ''
-    version: 2026.3.0
+    version: 2026.4.0
     url: 'scummvm-{$version}-dreamcast-nero+demos.zip'
     name: 'Dreamcast Nero Image & Demos'
     notes: ''
@@ -782,7 +782,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: wii
     user_agent: ''
     version: 2026.3.0
@@ -792,7 +792,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: switch
     user_agent: ''
     version: 2026.3.0
@@ -865,7 +865,7 @@
     subcategory: release
     category_icon: dingux
     user_agent: ''
-    version: 2026.3.0
+    version: 2026.4.0
     url: 'scummvm-{$version}-gcw0.opk'
     name: 'OpenDingux package for GCW0'
     notes: ''
@@ -875,7 +875,7 @@
     subcategory: release
     category_icon: dingux
     user_agent: ''
-    version: 2026.3.0
+    version: 2026.4.0
     url: 'scummvm-{$version}-lepus.opk'
     name: 'OpenDingux package for Lepus'
     notes: ''
@@ -895,7 +895,7 @@
     subcategory: release
     category_icon: dingux
     user_agent: ''
-    version: 2026.3.0
+    version: 2026.4.0
     url: 'scummvm-{$version}-rs90.opk'
     name: 'OpenDingux package for RS90/RG99'
     notes: ''
@@ -1115,7 +1115,7 @@
     subcategory: release
     category_icon: haiku
     user_agent: ''
-    version: 2026.3.0
+    version: 2026.4.0
     url: 'scummvm_x86-{$version}-1-x86_gcc2.hpkg'
     name: 'Haiku package 32bits'
     notes: ''
@@ -1125,7 +1125,7 @@
     subcategory: release
     category_icon: haiku
     user_agent: ''
-    version: 2026.3.0
+    version: 2026.4.0
     url: 'scummvm-{$version}-1-x86_64.hpkg'
     name: 'Haiku package 64bits'
     notes: ''
@@ -1142,7 +1142,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: morphos
     user_agent: ''
     version: 2026.3.0
@@ -1152,7 +1152,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: riscos
     user_agent: 'RISC OS'
     version: 2026.3.0
@@ -1162,7 +1162,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: riscos
     user_agent: ''
     version: 2026.3.0
@@ -1172,7 +1172,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: atari-lite
     user_agent: ''
     version: 2026.3.0
@@ -1182,7 +1182,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: atari-full
     user_agent: ''
     version: 2026.3.0
@@ -1192,7 +1192,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: old
     category_icon: firebee
     user_agent: ''
     version: 2026.3.0
@@ -1282,50 +1282,50 @@
 -
     enabled: true
     category: scummvm
-    subcategory: source
+    subcategory: release
     category_icon: cpp
     user_agent: ''
-    version: 2026.3.0
+    version: 2026.4.0
     url: 'scummvm-{$version}.tar.lz'
     name: 'ScummVM - Source.tar.lz'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: source
+    subcategory: release
     category_icon: cpp
     user_agent: ''
-    version: 2026.3.0
+    version: 2026.4.0
     url: 'scummvm-{$version}.tar.xz'
     name: 'ScummVM - Source.tar.xz'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: source
+    subcategory: release
     category_icon: cpp
     user_agent: ''
-    version: 2026.3.0
+    version: 2026.4.0
     url: 'scummvm-{$version}.tar.bz2'
     name: 'ScummVM - Source.tar.bz2'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: source
+    subcategory: release
     category_icon: cpp
     user_agent: ''
-    version: 2026.3.0
+    version: 2026.4.0
     url: 'scummvm-{$version}.tar.gz'
     name: 'ScummVM - Source.tar.gz'
     notes: ''
 -
     enabled: true
     category: scummvm
-    subcategory: source
+    subcategory: release
     category_icon: cpp
     user_agent: ''
-    version: 2026.3.0
+    version: 2026.4.0
     url: 'scummvm-{$version}.zip'
     name: 'ScummVM - Source.zip'
     notes: ''

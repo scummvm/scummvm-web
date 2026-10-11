@@ -5855,1343 +5855,1343 @@
     id: 'alcachofa:balones'
     support: good
     notes: '- Some videos might not play yet'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'alcachofa:corvino'
     support: good
     notes: '- Some videos might not play yet'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'alcachofa:escarabajo'
     support: good
     notes: '- Some videos might not play yet'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'alcachofa:mamelucos'
     support: good
     notes: '- Some videos might not play yet'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'alcachofa:moscu'
     support: good
     notes: '- Some videos might not play yet'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'alcachofa:secta'
     support: good
     notes: '- Some videos might not play yet'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'alcachofa:terror'
     support: good
     notes: '- Some videos might not play yet'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'alcachofa:vaqueros'
     support: good
     notes: '- Some videos might not play yet'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'phoenixvr:dracula1'
     support: good
     notes: '- Only original Windows and GOG versions are supported - Steam version is not supported'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'phoenixvr:dracula2'
     support: good
     notes: '- Only original Windows and GOG versions are supported - Steam version is not supported'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'nancy:nancy10'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'nancy:nancy11'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'chamber:chamber'
     support: good
     notes: '- Amiga version lacks full sound support'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: 'dos,amiga'
     unstable_platforms: ''
 -
     id: 'scumm:rebel1'
     support: good
     notes: '- Minor graphical and sound glitches'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: 'dos,mac,3do,segacd'
     unstable_platforms: ''
 -
     id: 'scumm:rebel2'
     support: good
     notes: '- Minor graphical and sound glitches'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: 'dos,win,mac'
     unstable_platforms: psx
 -
     id: 'mads:nebular'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: 'mads:dragonsphere'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: 'mads:phantom'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: 'mads:forest'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: 'macventure:deja_vu'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: 'mac,apple2gs'
     unstable_platforms: ''
 -
     id: 'macventure:deja_vu2'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: 'mac,apple2gs'
     unstable_platforms: ''
 -
     id: 'macventure:shadowgate'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: 'mac,apple2gs'
     unstable_platforms: ''
 -
     id: 'macventure:uninvited'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: 'mac,apple2gs'
     unstable_platforms: ''
 -
     id: 'eem:eem1'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: 'dos,mac'
     unstable_platforms: ''
 -
     id: 'eem:eem2'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: 'wintermute:actualdest'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:alavi'
     support: good
     notes: '- In some scenes, shadows are shimmering. - One corrupted character model'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:alimardan1'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:alone'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:alphapolaris'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:theancientmark1'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:apeiron'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:artofmurder1'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:barrowhilldp'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:basisoctavus'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:bthreshold'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:bookmania'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:bookofgron'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:agustin'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:thebox'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:carolreed4'
     support: good
     notes: '- Only demo supported'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:carolreed5'
     support: good
     notes: '- Legacy version only'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:carolreed6'
     support: good
     notes: '- Legacy version only'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:carolreed7'
     support: good
     notes: '- Legacy version only'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:carolreed8'
     support: good
     notes: '- Legacy version only'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:carolreed9'
     support: good
     notes: '- Legacy version only'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:carolreed10'
     support: good
     notes: '- Only demo supported'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:carolreed11'
     support: good
     notes: '- Only demo supported'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:carolreed12'
     support: good
     notes: '- Legacy version only'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:carolreed13'
     support: good
     notes: '- Legacy version only'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:carolreed14'
     support: good
     notes: '- Legacy version only'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:carolreed15'
     support: good
     notes: '- Legacy version only'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:carolreed16'
     support: good
     notes: '- Legacy version only'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:chaos'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:colapso'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:colorsoncanvas'
     support: good
     notes: '- Some texts overlapping in quiz mode'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:corrosion'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:darkfallls'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:dfafadventure'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:erinmyers'
     support: good
     notes: '- Minor imperfections in some texts'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:devilincapital'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:dreamcat'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:dreamscape'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:driller'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:drbohus'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:drdoylemotch'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:8squares'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:barbapoca1'
     support: good
     notes: '- Occasional text glitches with inventory open'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:barbapoca2'
     support: good
     notes: '- Imperfect fonts'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:escapemansion'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:everydaygray'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:facenoir'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:tib'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:findinghope'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:forgottensound1'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:four'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:foxtail'
     support: good
     notes: '- A few subengine-specific minor issues'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:framed'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:ghostsheet'
     support: good
     notes: '- Minor graphical glitch #16363'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:goldencalf'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:hamlet'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:hor'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:imustkill'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:idiotstale'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:julia'
     support: good
     notes: '- Some font issues'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:juliauntold'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:knossos'
     support: good
     notes: '- Minor glitches (flickering bot)'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:keshaskazok'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:thekite'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:klaymen1'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:kulivocko'
     support: good
     notes: '- Key "labyrinth" puzzle doesn''t work properly'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:leyendabiblio'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:thelostcrowngha'
     support: good
     notes: '- Small gfx glitch at puzzle with town map at day 4'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:lifein3minutes'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:looky'
     support: good
     notes: '- Only 2019 release supported'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:lovmamuta'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:machumayu'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:mentalrepairs'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:mirage'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:miskatonic1'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:msos'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:mukhtar'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:tehran1933'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:tehran2016'
     support: good
     notes: '- Text in save screen missing'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:mystictriddle'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:nightinthefog'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:nighttrain'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:nosebound'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:octave'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:oknytt'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:openquest'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:reptilesquest'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:one'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:onehelluvaday'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:operacionbomba'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:paintaria'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:palladion'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:pangea'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:papasdaughters1'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:papasdaughters2'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:pigeons'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:pizzamorgana'
     support: good
     notes: '- Graphical character glitch in non-shader renderer'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:polechudes'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:preciouspills'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:projectdoom'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:projectjoe'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:lonelyrobot'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:qajarycat'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:petka02'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:reversion1'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:reversion2'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:reversion3'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:dreaming'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:rhiannon'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:roadsantiago'
     support: good
     notes: "- In-game saving doesn't work (GMM works)"
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:rosemary'
     support: good
     notes: '- Font issues'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:royalmahjong'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:satanandsons'
     support: good
     notes: '- 3 broken PNG bitmaps are skipped, including 2 backgrounds.'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:shaban'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:shadowofnebula'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:sotv1'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:sotv2'
     support: good
     notes: '- W/A for script issues bug #16878'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:shelter'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:rebeccacarlson1'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:spaceinvaders'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:spacemadness'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:strangechange'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:sunrise'
     support: good
     notes: '- Brian NPC glitches in some screens when speaking, can potentially hang the game #17013 - Game may hang when clicking repeatedly to skip long dialogues'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:lostbride'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:tanya1'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:tanya2'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:tetriks'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:tradestory'
     support: good
     notes: '- Minor font issues in book and cooking puzzle'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:todaymama'
     support: good
     notes: '- Uses fallback fonts'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:war'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:wayoflove'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:twc'
     support: good
     notes: '- In some scenes, shadows are shimmering'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:wtetris'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:zbang'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:zilm'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:alimardan2'
     support: broken
     notes: '- Can crash due broken scripts'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:awakening'
     support: broken
     notes: '- Can crash due broken scripts'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:conspiracao'
     support: broken
     notes: '- Can crash due broken scripts'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:dreams'
     support: broken
     notes: '- Will not be supported'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:forgottensound2'
     support: broken
     notes: '- Can crash due broken scripts'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:fred'
     support: broken
     notes: '- Will not be supported'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:guttenburg'
     support: broken
     notes: '- Can crash due broken scripts'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:jamesperis'
     support: broken
     notes: '- Can crash due broken scripts - Demo is supported'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:jamesperis2'
     support: broken
     notes: '- Can crash due broken scripts'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:thelastcrownmh'
     support: broken
     notes: '- Can crash due broken scripts'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:lotl'
     support: broken
     notes: '- Can crash due broken scripts'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:mythguff'
     support: broken
     notes: '- Blocked at level 9'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:shinestar'
     support: broken
     notes: '- Can crash due broken scripts'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:sofiasdebt'
     support: broken
     notes: '- Can crash due broken scripts'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:sof1'
     support: broken
     notes: '- Can crash due broken scripts'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:sof2'
     support: broken
     notes: '- Can crash due broken scripts'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:sunny'
     support: broken
     notes: '- Will not be supported'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:susanrose1'
     support: broken
     notes: '- Can crash due broken scripts'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:susanrose2'
     support: broken
     notes: '- Can crash due broken scripts'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'wintermute:vsevolod'
     support: broken
     notes: '- Can crash due broken scripts'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'macs2:sis'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: dos
     unstable_platforms: amiga
 -
     id: 'nancy:nancy12'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'nancy:nancy13'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'nancy:nancy14'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'nancy:nancy15'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'phoenixvr:amerzone'
     support: good
     notes: '- Only Windows version is supported'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'phoenixvr:lochness'
     support: good
     notes: '- Only Windows version is supported'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'phoenixvr:messenger'
     support: excellent
     notes: '- Only Windows version is supported'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: win
     unstable_platforms: ''
 -
     id: 'fool:foolserrand'
     support: excellent
     notes: '- Only Macintosh versions are supported'
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: mac
     unstable_platforms: ''
 -
     id: 'harvester:harvester'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: 'avalanche:avalanche'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: dos
     unstable_platforms: ''
 -
     id: 'dm:dm'
     support: good
     notes: ''
-    since_version: DEV
+    since_version: 2026.4.0
     stable_platforms: 'amiga,dos'
     unstable_platforms: ''
