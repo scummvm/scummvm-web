@@ -1282,7 +1282,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: source
     category_icon: cpp
     user_agent: ''
     version: 2026.4.0
@@ -1292,7 +1292,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: source
     category_icon: cpp
     user_agent: ''
     version: 2026.4.0
@@ -1302,7 +1302,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: source
     category_icon: cpp
     user_agent: ''
     version: 2026.4.0
@@ -1312,7 +1312,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: source
     category_icon: cpp
     user_agent: ''
     version: 2026.4.0
@@ -1322,7 +1322,7 @@
 -
     enabled: true
     category: scummvm
-    subcategory: release
+    subcategory: source
     category_icon: cpp
     user_agent: ''
     version: 2026.4.0
