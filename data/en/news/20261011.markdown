@@ -58,8 +58,10 @@ First of all, we have a _huge_ number of newly added and enhanced engines:
    * _Harvester_
    * _Lord Avalot d'Argent_
    * _Dungeon Master_
+   * _Eagle Eye Mysteries_
+   * _Eagle Eye Mysteries in London_
 
-If I count correctly, there are 192 newly supported games and 11 new engines!
+If I count correctly, there are 194 newly supported games and 12 new engines!
 
 ## General enhancements
 
@@ -68,7 +70,7 @@ We made some improvements to our Event Recorder, sped up sound mixing by using a
 ## Engine bugfixes and improvements
 
 Seventeen engines were enhanced and improved. _Sanitarium_ got walking sounds fixed; _Another World_ now has better compatibility with big-endian systems; the GLK engine got support for some ZX Spectrum games. We finally completed the _Hopkins_ engine by implementing its shooter mini-game (based on a small engine similar to Wolfenstein 3D). Kyra engine got automap in EOB games, and Korean fan translations of _Legend of Kyrandia_ are now supported. A long-standing bug with pathfinding in _Lure of the Tempress_ has been fixed. Also, we fixed a handful of bugs in _Riddle of Master Lu_; it makes it not an easy task, since all the game logic is hardcoded and not in scripts. _Might and Magic_ got several facelifts, crash fixes, and small QoL improvements. Nancy engine is on the roll, and we fixed bugs in already supported games, on top of six announced in this release. Even the SCUMM engine got its C64 and early Windows HE titles compatibility improved. We added MT-32 support to the TsAGE engine, and fixed deadlocks in the V-Cruise engine games.
- 
+
 ## Port improvements
 
 Atari port got optional integration with the nFM sound library.
