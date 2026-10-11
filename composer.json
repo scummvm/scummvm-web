@@ -21,8 +21,8 @@
     "phpfastcache/phpfastcache": "^9.2",
     "league/csv": "^9.28",
     "symfony/yaml": "^7.4",
-    "predis/predis": "^3.6",
-    "guzzlehttp/guzzle": "^8.1",
+    "predis/predis": "^3.7",
+    "guzzlehttp/guzzle": "^8.2",
     "propel/propel": "^2.0"
   },
   "config": {
@@ -31,7 +31,7 @@
     }
   },
   "require-dev": {
-    "phpstan/phpstan": "^2.2",
+    "phpstan/phpstan": "^2.3",
     "squizlabs/php_codesniffer": "^4.0"
   },
   "suggest": {
