@@ -1,6 +1,7 @@
 import { ComponentChild } from 'preact';
 import { useState, useEffect } from 'preact/hooks';
 import { Volume } from './hfs/main';
+import { dump3DO } from './3do/main';
 import { Language, getLanguages } from './encoding';
 
 type DumpSettings = {
@@ -8,6 +9,7 @@ type DumpSettings = {
     lang: Language;
     unicode: boolean;
     forceMacBinary: boolean;
+    strip3DOPrefixes: boolean;
     log: (msg: ComponentChild | Error) => void;
     updateDumpPercent: (dumpPercent: number) => void;
     finished: () => void;
@@ -16,9 +18,6 @@ type DumpSettings = {
 async function dumpVolume(file: ArrayBuffer, s: DumpSettings): Promise<void> {
     s.log('Parsing volume...');
     try {
-        const volume = new Volume();
-        volume.read(new Uint8Array(file));
-
         s.updateDumpPercent(0);
 
         const { fs } = await import(
@@ -28,8 +27,13 @@ async function dumpVolume(file: ArrayBuffer, s: DumpSettings): Promise<void> {
             /* webpackPrefetch: true */
             '@zip.js/zip.js');
 
+        const image = new Uint8Array(file);
         const zipFS = new fs.FS();
-        volume.dumpToZip(zipFS.root, s.lang, !s.unicode, s.forceMacBinary, s.log);
+        if (!dump3DO(image, zipFS.root, s.strip3DOPrefixes, s.log)) {
+            const volume = new Volume();
+            volume.read(image);
+            volume.dumpToZip(zipFS.root, s.lang, !s.unicode, s.forceMacBinary, s.log);
+        }
         const blob = await zipFS.exportBlob({
             level: 0,
             onprogress: (index: number, max: number): undefined => {
@@ -65,6 +69,7 @@ export default function Dumper() {
     const [lang, setLang] = useState(Language.EN);
     const [unicode, setUnicode] = useState(true);
     const [forceMacBinary, setForceMacBinary] = useState(false);
+    const [strip3DOPrefixes, setStrip3DOPrefixes] = useState(false);
     const [progress, setProgress] = useState<Progress>({busy: false, logs: [], lastLogWasDumpPercent: false, dumpPercent: -1});
 
     function log(msg: ComponentChild | Error): void {
@@ -133,6 +138,10 @@ export default function Dumper() {
         setForceMacBinary(forceMacBinary);
     }}
 
+    function handleStrip3DOPrefixes(e: Event): void {
+        setStrip3DOPrefixes((e.target as HTMLInputElement).checked);
+    }
+
     function handleDump(): void {
         if (!image.file) {
             return;
@@ -146,6 +155,7 @@ export default function Dumper() {
                 lang,
                 unicode,
                 forceMacBinary,
+                strip3DOPrefixes,
                 log,
                 updateDumpPercent,
                 finished
@@ -170,7 +180,14 @@ export default function Dumper() {
 
             <div>
                 <p>Select the game's disk image:</p>
-                <input disabled={busy} class="file" type="file" accept=".dsk,.image,.img,.iso,.toast,.cdr,.diskcopy,.dcpy,.dc42" onInput={handleImage}/>
+                <input disabled={busy} class="file" type="file" accept=".dsk,.image,.img,.iso,.bin,.3do,.toast,.cdr,.diskcopy,.dcpy,.dc42" onInput={handleImage}/>
+                <p>For 3DO, select the data track's ISO or BIN file. Language and encoding options apply only to Macintosh images.</p>
+            </div>
+
+            <div>
+                <input disabled={busy} type="checkbox" id="strip3DOPrefixes" checked={strip3DOPrefixes} onInput={handleStrip3DOPrefixes}/>
+                <label for="strip3DOPrefixes">Remove 3DO file and folder prefixes</label>
+                <p>Removes prefixes such as a_ and a2_. Enable this for Rebel Assault before dumping.</p>
             </div>
 
             <div>
