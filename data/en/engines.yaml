@@ -115,6 +115,11 @@
     alt_name: ''
     enabled: true
 -
+    id: colony
+    name: 'The Colony'
+    alt_name: ''
+    enabled: true
+-
     id: crab
     name: CRAB
     alt_name: ''

@@ -7195,3 +7195,10 @@
     since_version: 2026.4.0
     stable_platforms: 'amiga,dos'
     unstable_platforms: ''
+-
+    id: 'colony:colony'
+    support: good
+    notes: '- Only DOS and Macintosh versions are supported'
+    since_version: DEV
+    stable_platforms: 'dos,mac'
+    unstable_platforms: ''

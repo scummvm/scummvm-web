@@ -6818,6 +6818,20 @@
     wikipedia_page: Magic_Tales
     series_id: magictales
 -
+    id: 'colony:colony'
+    name: 'The Colony'
+    engine_id: colony
+    company_id: davidalansmith
+    year: '1988'
+    moby_id: '3489'
+    steam_id: ''
+    gog_id: ''
+    zoom_id: ''
+    additional_stores: ''
+    datafiles: The_Colony
+    wikipedia_page: The_Colony_(video_game)
+    series_id: ''
+-
     id: 'crab:unrest'
     name: Unrest
     engine_id: crab
