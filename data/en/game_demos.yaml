@@ -2124,6 +2124,24 @@
     language3: ''
     url: /frs/demos/m4/riddle-dos-demo-en.zip
 -
+    id: 'macs2:sis'
+    platform: dos
+    '': ''
+    category: ''
+    language: de
+    language2: ''
+    language3: ''
+    url: /frs/demos/macs2/macs2-sis-demo-de.zip
+-
+    id: 'macs2:sis'
+    platform: amiga
+    '': ''
+    category: ''
+    language: de
+    language2: ''
+    language3: ''
+    url: /frs/demos/macventure/uninvited-mac-demo-en.zip
+-
     id: 'macventure:shadowgate'
     platform: win
     '': ''
