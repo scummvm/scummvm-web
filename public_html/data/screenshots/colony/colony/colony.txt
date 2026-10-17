@@ -1,8 +1,0 @@
-colony_dos_en_1_1_full.png: The Colony (DOS, English)
-colony_dos_en_1_2_full.png: The Colony (DOS, English)
-colony_mac_en_1_1_full.png: The Colony (Macintosh, monochrome, English)
-colony_mac_en_1_2_full.png: The Colony (Macintosh, monochrome, English)
-colony_mac_en_2_1_full.png: The Colony (Macintosh, color, English)
-colony_mac_en_2_2_full.png: The Colony (Macintosh, color, English)
-colony_mac_en_2_3_full.png: The Colony (Macintosh, color, English)
-colony_mac_en_2_4_full.png: The Colony (Macintosh, color, English)
