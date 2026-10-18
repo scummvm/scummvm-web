@@ -22,7 +22,7 @@
     "league/csv": "^9.28",
     "symfony/yaml": "^7.4",
     "predis/predis": "^3.7",
-    "guzzlehttp/guzzle": "^8.2",
+    "guzzlehttp/guzzle": "^8.3",
     "propel/propel": "^2.0"
   },
   "config": {
