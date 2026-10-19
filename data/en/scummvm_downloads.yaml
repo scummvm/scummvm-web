@@ -1206,7 +1206,7 @@
     category_icon: firebee
     user_agent: ''
     version: 2026.4.0
-    url: 'scummvm-{$version}-firebee.zip'
+    url: 'scummvm-{$version}-atari-m5475.zip'
     name: 'FireBee package (Coldfire MCF5475 / Firebee)'
     notes: ''
 -
